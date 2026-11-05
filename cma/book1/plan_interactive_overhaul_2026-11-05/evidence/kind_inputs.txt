@@ -1,0 +1,30 @@
+kind         file               graded   bytes  inputs
+check        objects.js         True      1977  NONE
+gauges       objects.js         True      2329  NONE
+traps        objects2.js        True      1604  NONE
+beam         objects2.js        True      3281  click
+cloze        objects2.js        True      1623  drag
+contra       objects2.js        True      3671  drag
+cues         objects2.js        True     19850  drag,click,select
+figure       figure.js          True      1755  click
+flash        objects2.js        True      3535  click
+lines        lines.js           True      2268  click
+locks        objects.js         True      1697  slider,typing
+number       objects.js         True      2063  slider,typing
+order        objects.js         True      2724  drag,click
+post         objects2.js        True     12111  drag,click
+probe        objects.js         True      1347  click
+shelf        objects2.js        True      1518  click
+sort         objects.js         True      7499  drag
+split        objects2.js        True      1789  slider
+statement    objects.js         True      7106  drag
+switch       objects2.js        True      1859  click
+table        objects2.js        True      1853  click
+tank         objects2.js        True      2618  click
+tbreader     objects2.js        True      2963  click
+termcards    objects2.js        True      2297  click
+timeline2    objects2.js        True      1949  slider
+wire         objects2.js        True      3086  click
+
+NO INPUT AT ALL: ['check', 'gauges', 'traps']
+wrote D:/MyWork/AnimatedMatrix/Apps/_publish_Animated-Courses/cma/book1/plan_interactive_overhaul_2026-11-05/evidence/kind_inputs.json

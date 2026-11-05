@@ -7,6 +7,9 @@
   window.PAGE = {
     id: "terms", up: "../",
     title: "Term bank",
+    /* the Brief carries the terms and what this page asks; this page has no
+       prose of the author's to summarise and no mechanism to draw. */
+    brief: {},
     scenes: [
 
     { id: "en-ar", kind: "flash",

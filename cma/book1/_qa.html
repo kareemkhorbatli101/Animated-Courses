@@ -47,10 +47,15 @@
 <script src="assets/progress.js"></script>
 <script src="assets/source-text.js"></script>
 <script src="assets/provenance.js"></script>
+<script src="assets/icons.js"></script>
 <script src="assets/scene.js"></script>
 <script src="assets/objects.js"></script>
 <script src="assets/objects2.js"></script>
 <script src="assets/figure.js"></script>
+<!-- lines.js holds the other exhibit builder. Chapter 1 has no printed-statement
+     exhibit today, but loading it here means the exhibit check tests the same
+     contract on both chapters rather than silently skipping half of it. -->
+<script src="assets/lines.js"></script>
 <script>window.CAPTURED = [];</script>
 <script src="ch01/data/s1-1.js"></script><script>CAPTURED.push(PAGE)</script>
 <script src="ch01/data/s1-2.js"></script><script>CAPTURED.push(PAGE)</script>
@@ -156,8 +161,18 @@
     .filter(function (s) { return s.kind === "post"; });
   ck(g, "Both posting decks present, twelve entries in all",
     jan.length === 2 && jan[0].transactions.length === 6 && jan[1].transactions.length === 6, "6 + 6");
-  ck(g, "The February deck is faded exactly as the book prints it",
-    jan[1].transactions.filter(function (t) { return t.given; }).length === 3, "rows 1–3 given");
+  /* THIS CHECK USED TO ASSERT THE OPPOSITE, and it was right to, until the intent
+     changed. The book fades rows 1 to 3 of Figure F01-06 because a printed page can only
+     demonstrate; it cannot ask. Here the learner can be asked, and those three rows -
+     paying a payable, collecting a receivable, prepaying rent - are the three that teach
+     the most, so handing them over pre-posted meant the learner who most needed the
+     practice watched it happen instead. All twelve entries are now theirs, and the
+     author's worked version is in the Brief and the answer key. See the note on
+     `february` in assets/ledger.js. */
+  ck(g, "Every entry in both posting decks is the learner's",
+    jan.every(function (d) {
+      return (d.transactions || []).filter(function (t) { return t.given; }).length === 0;
+    }), "12 of 12 the learner's, none pre-posted");
 
   var traps = {};
   scenes.forEach(function (x) {
@@ -173,7 +188,11 @@
     "The first build was 20,100 words and 120,500px of scroll. These are the rules that replaced it.");
 
   var host = document.getElementById("scene");
-  var words = 0, overChrome = [], rendered = [], failed = [];
+  var words = 0, overChrome = [], rendered = [], failed = [], exhibits = [];
+  /* the two kinds the engine folds into the following exercise, and the builder each
+     one is rendered by (assets/figure.js and assets/lines.js) */
+  var EXHIBIT = { figure: "fig", lines: "lines" };
+  var X = window.Exhibit || {};
   CAPTURED.forEach(function (p) {
     (p.scenes || []).forEach(function (s) {
       var w = ((s.title || "") + " " + (s.say || "").replace(/<[^>]*>/g, "") + " " + (s.kicker || ""))
@@ -181,13 +200,22 @@
       words += w;
       if (w > 45) overChrome.push(p.id + "/" + s.id + " (" + w + ")");
       host.innerHTML = "";
-      var r = D.kinds.indexOf(s.kind) >= 0;
+      /* A FIGURE IS NO LONGER A SCENE. scene.js folds every figure and every printed
+         statement into the exercise that follows it, so those kinds have an EXHIBIT
+         builder instead of a scene renderer. A kind is accounted for either way, and
+         a kind with neither is still a failure. */
+      var r = D.kinds.indexOf(s.kind) >= 0 ||
+              (EXHIBIT[s.kind] && typeof X[EXHIBIT[s.kind]] === "function");
       if (!r) failed.push(p.id + "/" + s.id + " kind=" + s.kind);
+      if (EXHIBIT[s.kind]) exhibits.push(p.id + "/" + s.id);
       rendered.push(s);
     });
   });
   host.innerHTML = "";
-  ck(g, "Every scene kind has a renderer", failed.length === 0, failed.join(", ") || D.kinds.length + " kinds");
+  ck(g, "Every scene kind has a renderer or an exhibit builder", failed.length === 0,
+    failed.join(", ") || D.kinds.length + " renderers, " + Object.keys(EXHIBIT).length + " exhibit kinds");
+  ck(g, "Every figure and printed statement is folded into an exercise",
+    exhibits.length > 0, exhibits.length + " exhibits: " + exhibits.join(", "));
   ck(g, "Total on-screen words for the whole chapter", words < 3200, words + " words");
   ck(g, "No scene carries more than 45 words of chrome", overChrome.length === 0,
     overChrome.join(", ") || rendered.length + " scenes");

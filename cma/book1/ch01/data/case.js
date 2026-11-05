@@ -8,6 +8,11 @@
     id: "case", up: "../",
     title: "Case question · " + L.company.barada,
     terms: T.bridge("1.6"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      anim: "order"
+    },
     scenes: [
 
     { id: "brief", kind: "probe",

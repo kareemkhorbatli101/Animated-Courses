@@ -1,0 +1,22 @@
+=== STANDARD A: DECIDE, DO NOT REVEAL ===
+  PASS A1 every exercise can be marked at all               0 of 168 offer no marking: 
+  PASS A2 an untouched exercise is not already right        0 pass untouched: 
+  PASS A3 clicking every button is not enough to pass       0 pass on coverage alone: 
+  PASS A4 every instrument exposes an operable control      0 draw but do not move: 
+  PASS A5 no scene scores the learner on coverage           0 of 26 renderers: 
+  PASS A5 the lint actually read the renderers              26 renderers linted
+  PASS A6 no journal row is posted for the learner          2 posting scene(s), every row the learner's
+  PASS every exercise was reached                           168 exercises, 14 exempt
+
+=== TEETH (both ends) ===
+  clean run: PASS
+  PASS a scene that passes untouched fails the gate   [clean=PASS planted=FAIL]
+  PASS a screen with marking hidden fails the gate    [clean=PASS planted=FAIL]
+  baseline on ch01/s1-1.html: 84 of 84 pass
+  PASS an option with no reason           fails 'reasons'   [clean=PASS planted=2 failing]
+  PASS two options marked correct         fails 'one-right'   [clean=PASS planted=2 failing]
+  PASS a grader that throws               fails 'verdict-written'   [clean=PASS planted=2 failing]
+  PASS a scene kind the answer key cannot render fails 'in-answer-key'   [clean=PASS planted=7 failing]
+  PASS a scene that passes on coverage    fails 'coverage-fails'   [clean=PASS planted=4 failing]
+
+RESULT: PASS

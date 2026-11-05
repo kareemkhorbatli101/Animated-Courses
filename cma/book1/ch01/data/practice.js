@@ -11,6 +11,12 @@
     id: "practice", up: "../",
     title: "Practice · P01–P16",
     terms: T.keys().slice(0, 8),
+    /* the Brief carries the terms and what this page asks; this page has no
+       prose of the author's to summarise and no mechanism to draw. */
+    brief: {
+      /* the chapter's spine: both sides of the equation move together */
+      anim: "equation"
+    },
     scenes: [
 
     q("01", "The objective of general-purpose financial reporting",

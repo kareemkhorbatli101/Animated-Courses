@@ -1,50 +1,52 @@
-/* figure.js — the author's own artwork, on the page where the author put it.
+/* figure.js — the author's figures, as EXHIBITS inside exercises.
  *
- * WHY THIS IS NEW. The chapter has thirteen numbered figures. Nine of them are drawings the author
- * made; four (F01-02, F01-10, F01-11, F01-12) are tables, and the engine already builds those live as
- * interactive scenes, which is better than a picture of them. The nine drawings were in the book and
- * nowhere on the site: one `{ type: "figure", figure: "roadmap" }` block existed, in ch01/data/index.js
- * — a file that nothing loads — and no renderer for it existed at all. So the chapter's visual spine
- * was simply missing, and nothing said so.
+ * WHAT CHANGED, AND WHY. This file used to register a "figure" SCENE: a picture on a
+ * screen of its own, which returned score 0 of total 0 with the verdict "Looked at".
+ * Eleven of them shipped. A scene that cannot be got wrong is a slide, and eleven
+ * slides is how a chapter built out of interactive objects still reads as a lecture.
  *
- * They are now extracted straight from the .docx by tools/cma_book --figures, named by the caption that
- * follows them in the document (NOT by their order among the images: four captions have no picture, so
- * counting put eight of the nine under the wrong number), and shown here with the author's own caption
- * text — which is what keeps them inside the provenance lock.
+ * So a figure is no longer a scene. It is an exhibit: scene.js folds every figure into
+ * the exercise that follows it, and the exercise is what gets marked. No picture is
+ * lost — each one now sits inside the task it was always evidence for, which is also
+ * where a learner wants it, because the question and the figure are finally on the
+ * same screen.
  *
- * A figure is a STUDY scene, not a question. It reports total 0, so it never pretends to mark anybody,
- * but it still counts as a scene you have seen.
+ * The markup keeps the .bookfig class: the render gate counts .bookfig images and
+ * requires every one to load, and that check is worth more than a tidier name.
  */
-(function () {
-  var D = window.Deck || window.SCENE || window.Scene;
-  if (!D || !D.register) return;
+(function (root, doc) {
+  "use strict";
 
-  function E(tag, cls, html) {
-    var e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (html != null) e.innerHTML = html;
-    return e;
+  function E(tag, cls, text) {
+    var n = doc.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined && text !== null) n.textContent = text;
+    return n;
   }
 
-  D.register("figure", function (stage, spec) {
-    var fig = E("figure", "bookfig");
+  /* spec: { file, label, caption } — the figure scene's own fields, unchanged, so the
+     data decks remain the book's record and needed no edit when this moved. */
+  function fig(spec) {
+    var f = E("figure", "bookfig");
 
     var img = new Image();
     img.src = "../assets/figures/" + spec.file;
-    /* The alt text is the author's caption. A description invented here would be an accounting
-       claim the author never made, and the provenance lock would be right to refuse it. */
+    /* The alt text is the author's caption. A description invented here would be an
+       accounting claim the author never made, and the provenance lock would be right
+       to refuse it. */
     img.alt = spec.caption || spec.label || "";
     img.loading = "lazy";
     img.decoding = "async";
-    fig.appendChild(img);
+    f.appendChild(img);
 
     var cap = E("figcaption");
     cap.appendChild(E("b", null, spec.label || ""));
-    if (spec.caption) cap.appendChild(document.createTextNode(" " + spec.caption));
-    fig.appendChild(cap);
+    if (spec.caption) cap.appendChild(doc.createTextNode(" " + spec.caption));
+    f.appendChild(cap);
 
-    /* A picture is worth nothing if it cannot be seen. Clicking opens it full size, which matters for
-       the effect grids and the trial balance, where the numbers are small on a phone. */
+    /* A picture is worth nothing if it cannot be seen. Clicking opens it full size,
+       which matters for the effect grids and the trial balance, where the numbers are
+       small on a phone. */
     var zoom = E("button", "ghost small", "View full size");
     zoom.type = "button";
     zoom.addEventListener("click", function () {
@@ -57,20 +59,14 @@
       close.addEventListener("click", function () { dlg.close(); });
       dlg.appendChild(close);
       dlg.appendChild(big);
-      document.body.appendChild(dlg);
+      doc.body.appendChild(dlg);
       dlg.addEventListener("close", function () { dlg.remove(); });
       dlg.showModal();
     });
-    fig.appendChild(zoom);
+    f.appendChild(zoom);
+    return f;
+  }
 
-    stage.appendChild(fig);
-
-    return function () {
-      return {
-        score: 0, total: 0, ok: true,
-        verdict: "Looked at",
-        html: '<div class="fb o"><p>' + (spec.read || "Read the figure, then carry on.") + "</p></div>"
-      };
-    };
-  });
-})();
+  root.Exhibit = root.Exhibit || {};
+  root.Exhibit.fig = fig;
+})(window, document);

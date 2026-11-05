@@ -46,6 +46,12 @@
     id: "s1-3", n: "1.3", up: "../",
     title: "Double entry: debits and credits",
     terms: T.bridge("1.3"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "Accountants record every transaction with the double-entry system. Each transaction affects at least two accounts, and total debits always equal total credits. This is why the accounting equation always balances.",
+      anim: "tAccount"
+    },
     scenes: [
 
     { id: "fig-f01-04", kind: "figure", file: "F01-04.png",
@@ -131,8 +137,11 @@
 
     { id: "feb", kind: "post",
       kicker: "Your turn · Figure F01-06",
-      title: "February: rows 4 to 6 are yours",
-      say: "Rows 1 to 3 are done for you. Complete rows 4 to 6, then write the journal entries for them.",
+      title: "February: all six rows are yours",
+      /* the book works rows 1 to 3 and leaves 4 to 6; here all six are the learner's,
+         and the author's worked version is in the Brief and the answer key. See the
+         note on `february` in assets/ledger.js. */
+      say: "Each transaction affects at least two accounts, and total debits always equal total credits. Then write the journal entries for them.",
       transactions: L.february,
       lures: FEB_LURES,
       logic: FEB_LOGIC,

@@ -10,6 +10,10 @@
   "title": "Extended Example 2A: building the Orontes balance sheet",
   "n": "2.6",
   "terms": T.bridge("2.6"),
+  "brief": {
+    "about": "This example classifies the Orontes accounts at December 31, 2025 and assembles the balance sheet. It is exam-core: most balance sheet questions turn on one classification decision. Current assets come to $14,188,100 and non-current assets to $17,484,500, so total assets are $31,672,600. Current liabilities are $4,280,000 and non-current liabilities $6,999,625, a total of $11,279,625. Figure F02-10 sets out the statement. Three lines deserve attention.",
+    "anim": "order"
+  },
   "scenes": [
     {
       "id": "plan",
@@ -213,6 +217,24 @@
         ]
       },
       "chips": L.accounts
+    },
+    {
+      "id": "contra",
+      "kind": "contra",
+      "kicker": "Section 2.6",
+      "title": "Where does accumulated depreciation go?",
+      "say": "It has a credit balance. Put it in the wrong place and watch what happens to property, plant and equipment.",
+      "asset": {
+        "label": "Property, plant and equipment",
+        "amount": L.bs.ppeGross
+      },
+      "contra": {
+        "label": "Accumulated depreciation",
+        "amount": L.printed.accumDep
+      },
+      "netLabel": "Property, plant and equipment, net of accumulated depreciation",
+      "rightWhy": "Contra accounts, such as the allowance for credit losses and accumulated depreciation, are shown with the asset they reduce. Property, plant and equipment appears net of accumulated depreciation of $11,988,000 at $14,802,000.",
+      "wrongWhy": "A credit balance does not make it a liability. Reporting assets before their contra accounts would raise total assets to $43,816,600, which is the commonest error in this topic."
     },
     {
       "id": "ties",

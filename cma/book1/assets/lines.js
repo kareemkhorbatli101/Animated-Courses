@@ -1,31 +1,37 @@
-/* lines.js — reading a statement, one line at a time.
+/* lines.js — a printed statement, as an EXHIBIT inside an exercise.
  *
- * WHY NOT REUSE "table". That scene kind looks general and is not: it labels every row either
- * "● PRIMARY USER" or "another reader", because it was written for Chapter 1's table of who reads
- * financial statements. Pointed at a balance sheet it would announce that "Total current assets" is
- * a primary user. A statement needs its own reader.
+ * WHAT CHANGED, AND WHY. This used to register a "lines" SCENE that returned score 0
+ * with the verdict "Read". Like the figure scenes, it could not be got wrong, so it
+ * was a slide: the balance sheet was handed over to be looked at, on the screen before
+ * the one that asked a question about it. Now the statement is an exhibit folded into
+ * the exercise that follows, so the learner reads it while deciding, not before.
  *
- * WHY NOT REUSE THE "statement" CLASSES either. .stmt-name is already the printed name of a
- * statement ("balance sheet") in site.css, and .stmt-row is a three-column drop grid. Borrowing them
- * for a read-only two-year table inherits layout written for a different job, so this scene carries
- * its own .lns-* classes.
+ * WHY NOT REUSE "table". That scene kind looks general and is not: it labels every row
+ * either "PRIMARY USER" or "another reader", because it was written for Chapter 1's
+ * table of who reads financial statements. Pointed at a balance sheet it would announce
+ * that "Total current assets" is a primary user.
  *
- * This one shows a statement as the book prints it — the line, this year, last year — lets the
- * learner click any line to compare the two, and marks the subtotals so the structure is visible
- * before any arithmetic is asked for. It is a STUDY scene: it reports total 0 and never marks.
+ * WHY NOT REUSE THE "statement" CLASSES either. .stmt-name is already the printed name
+ * of a statement in site.css, and .stmt-row is a three-column drop grid. Borrowing them
+ * for a two-year table inherits layout written for a different job, so this carries its
+ * own .lns-* classes.
+ *
+ * Clicking a line still compares the two columns — that is a reading aid inside a task
+ * now, not a thing the learner is scored on.
  */
-(function () {
-  var D = window.Deck;
-  if (!D || !D.register) return;
+(function (root, doc) {
+  "use strict";
 
   function E(tag, cls, text) {
-    var e = document.createElement(tag);
+    var e = doc.createElement(tag);
     if (cls) e.className = cls;
     if (text != null) e.textContent = text;
     return e;
   }
 
-  D.register("lines", function (stage, spec) {
+  /* spec: { caption, col1, col2, rows[], hint } — the lines scene's own fields. */
+  function lines(spec) {
+    var host = E("div", "lns-host");
     var wrap = E("div", "lns");
     var head = E("div", "lns-row lns-head");
     head.appendChild(E("span", "lns-name", spec.caption || ""));
@@ -33,14 +39,16 @@
     head.appendChild(E("span", "lns-n", spec.col2 || ""));
     wrap.appendChild(head);
 
-    var note = E("p", "note lns-note", spec.hint || "Click a line to compare the two columns.");
+    var note = E("p", "note lns-note",
+                 spec.hint || "Click a line to compare the two columns.");
 
     (spec.rows || []).forEach(function (r) {
-      /* A ROW IS ONE OF THREE THINGS, and rendering all three as clickable money lines was wrong
-         in two ways a screenshot showed at once. A HEADING ("ASSETS", "Current assets") carries no
-         figures, so it answered "Current assets: unchanged at " and drew a subtotal rule under two
-         empty columns. A NOTE is the case exhibit's memos, two sentences of narrative that landed
-         in a 128px monospace column as a tall ribbon of one or two words a line. */
+      /* A ROW IS ONE OF THREE THINGS, and rendering all three as clickable money lines
+         was wrong in two ways a screenshot showed at once. A HEADING ("ASSETS",
+         "Current assets") carries no figures, so it answered "Current assets: unchanged
+         at " and drew a subtotal rule under two empty columns. A NOTE is the case
+         exhibit's memos, two sentences of narrative that landed in a 128px monospace
+         column as a tall ribbon of one or two words a line. */
       if (r.head) {
         wrap.appendChild(E("div", "lns-head-row", r.name));
         return;
@@ -67,13 +75,11 @@
       wrap.appendChild(row);
     });
 
-    stage.appendChild(wrap);
-    stage.appendChild(note);
+    host.appendChild(wrap);
+    host.appendChild(note);
+    return host;
+  }
 
-    return function () {
-      return { score: 0, total: 0, ok: true, verdict: "Read",
-               html: '<div class="fb o"><p>' +
-                     (spec.read || "Read down the statement, then carry on.") + "</p></div>" };
-    };
-  });
-})();
+  root.Exhibit = root.Exhibit || {};
+  root.Exhibit.lines = lines;
+})(window, document);

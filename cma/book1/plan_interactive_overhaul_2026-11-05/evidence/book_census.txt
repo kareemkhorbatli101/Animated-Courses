@@ -1,0 +1,13 @@
+chapter-01.txt: 9598 words
+   Dr tokens 3, Cr tokens 3, Dr/Cr adjacent pairs 0
+   'debit' 30, 'credit' 59
+   figures named: 7 ['F01-01', 'F01-03', 'F01-04', 'F01-06', 'F01-07', 'F01-09', 'F01-10']
+   worked/extended examples: ['Extended Example 1A', 'WORKED EXAMPLE']
+
+terms-ch01.js: 78 rows, 54 carry Arabic
+terms-ch02.js: 30 rows, 30 carry Arabic
+terms-fr-ch01.js: 54 French terms
+terms-fr-ch02.js: 21 French terms
+ch01: 14 pages
+ch02: 13 pages
+book-level pages: ['glossary.html', 'how-to-use.html', 'index.html', 'term-index.html', '_qa-ch02.html', '_qa.html']

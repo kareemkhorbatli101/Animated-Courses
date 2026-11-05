@@ -512,11 +512,32 @@
   /* ============================================================
    * GAUGES — read the result (working capital, current ratio, note vs equity)
    * ============================================================ */
+  /* THE GAUGES ARE READ OFF, NOT HANDED OVER. This scene used to print both finished
+     measures and then ask one multiple-choice question about them - the only scene in
+     either chapter that took no input of its own at all. The learner had just built
+     the balance sheet on the previous screen, so the two figures were exactly what
+     they were in a position to work out, and the scene did the work for them.
+
+     Now each gauge is blank until the learner enters it. The note under each gauge is
+     the author's own working ("Current assets X minus current liabilities Y"), so the
+     inputs are on screen and only the arithmetic is asked for. The author's question
+     still follows, as the judgement on top of the numbers. */
   D.register("gauges", function (stage, spec, api) {
+    var boxes = [];
+    function norm(v) { return String(v === undefined || v === null ? "" : v)
+      .replace(/[,\s$]/g, "").replace(/^\((.*)\)$/, "-$1"); }
+
     var g = E("div", "gauges");
-    spec.gauges.forEach(function (x) {
+    spec.gauges.forEach(function (x, i) {
       var c = E("div", "gauge");
-      c.appendChild(E("div", "gauge-v", x.value));
+      var inp = E("input", "gauge-in");
+      inp.type = "text";
+      inp.inputMode = "decimal";
+      inp.autocomplete = "off";
+      inp.setAttribute("aria-label", "Enter the " + x.key);
+      inp.placeholder = "?";
+      c.appendChild(inp);
+      boxes.push({ el: inp, want: x.value, spec: x });
       c.appendChild(E("div", "gauge-k", x.key));
       c.appendChild(E("div", "gauge-n", x.note));
       g.appendChild(c);
@@ -562,13 +583,32 @@
         var i = Number(l.dataset.i);
         if (i === pick || opts[i].correct) l.classList.add(opts[i].correct ? "ok" : "no");
       });
-      var ok = pick >= 0 && opts[pick].correct;
-      return { score: ok ? 1 : 0, total: 1, ok: ok,
-               html: yoursFirst(pick < 0 ? [{ k: "n", html: "Nothing chosen." }]
-                 : [{ k: ok ? "y" : "n", html: "<b>" + esc(opts[pick].text) + "</b> " + opts[pick].why }],
-                 opts.map(function (o, i) {
-                   return i === pick ? null : { k: o.correct ? "y" : "o", html: "<b>" + esc(o.text) + "</b> " + o.why };
-                 }).filter(Boolean)) };
+      var qOk = pick >= 0 && opts[pick].correct;
+
+      /* the two measures the learner worked out, before the judgement on them */
+      var right = qOk ? 1 : 0, yours = [];
+      boxes.forEach(function (b) {
+        var ok = norm(b.el.value) === norm(b.want) && norm(b.el.value) !== "";
+        b.el.classList.remove("ok", "no");
+        b.el.classList.add(ok ? "ok" : "no");
+        if (ok) { right++; return; }
+        yours.push({ k: "n", html: "<b>" + esc(b.spec.key) + "</b> is " + esc(b.spec.value) +
+          ": " + esc(b.spec.note) + "." });
+        b.el.value = b.spec.value;      /* the gauge fills in, once it has been answered */
+      });
+
+      var total = boxes.length + 1;
+      if (pick < 0) yours.push({ k: "n", html: "Nothing chosen." });
+      else yours.push({ k: qOk ? "y" : "n",
+                        html: "<b>" + esc(opts[pick].text) + "</b> " + opts[pick].why });
+
+      return { score: right, total: total, ok: right === total,
+               verdict: right === total ? "Both measures right, and the right reading."
+                                        : right + " of " + total + " right",
+               html: yoursFirst(yours, opts.map(function (o, i) {
+                 return i === pick ? null
+                   : { k: o.correct ? "y" : "o", html: "<b>" + esc(o.text) + "</b> " + o.why };
+               }).filter(Boolean)) };
     };
   });
 
@@ -647,33 +687,66 @@
       pre.innerHTML = spec.before;
       stage.appendChild(pre);
     }
-    var box = E("div", "probes");
+    /* THE ANSWERS ARE ON SCREEN; THE QUESTIONS HAVE TO BE PLACED. This used to be a
+       stack of question buttons that each unfolded its own answer, scored on how many
+       the learner had OPENED - "All read". Four of these shipped, two of them in the
+       case, and opening all of them scored full marks: the only way to fail was to
+       leave one folded.
+
+       Reading is still what the scene is for, so the author's answers stay visible in
+       full. What changed is that the question now has to be matched to the answer that
+       settles it, which cannot be done without reading them. The questions are short
+       and the answers are long, so the answers are the board and the questions are the
+       chips - the shape the content asks for. Every string is the author's. */
+    var probes = spec.probes || [];
+    var tray = E("div", "tray");
+    stage.appendChild(tray);
+    var box = E("div", "probes probes-match");
     stage.appendChild(box);
-    var opened = {};
-    spec.probes.forEach(function (p, i) {
-      var b = E("button", "probe-q", p.q);
-      b.type = "button";
-      box.appendChild(b);
+
+    var dnd = api.Drag({ tray: tray, live: api.live });
+
+    /* the answers appear in a shuffled order, so position carries no hint */
+    shuffle(probes.map(function (p, i) { return i; })).forEach(function (i) {
+      var slot = E("div", "slot");
       var a = E("div", "probe-a");
-      a.innerHTML = p.a;
-      a.style.display = "none";
-      box.appendChild(a);
-      b.addEventListener("click", function () {
-        var open = a.style.display === "none";
-        a.style.display = open ? "" : "none";
-        opened[i] = opened[i] || open;
-      });
+      a.innerHTML = probes[i].a;
+      slot.appendChild(a);
+      var zn = E("div", "zone");
+      zn.setAttribute("aria-label", "Drop the question this answers");
+      var host = E("span", "drop-host");
+      zn.appendChild(host);
+      slot.appendChild(zn);
+      dnd.zone({ id: "a" + i, el: zn, host: host, cap: 1,
+                 label: "answer " + (i + 1), ghost: "which question does this answer?" });
+      box.appendChild(slot);
     });
+    shuffle(probes.map(function (p, i) { return i; })).forEach(function (i) {
+      dnd.chip({ id: "q" + i, label: probes[i].q });
+    });
+
     return function () {
-      var n = Object.keys(opened).filter(function (k) { return opened[k]; }).length;
-      var all = n === spec.probes.length;
-      return { score: n, total: spec.probes.length, ok: all,
-               verdict: all ? "All read" : n + " of " + spec.probes.length + " read",
-               html: all ? "<h4>Keep hold of these</h4>" + fbList(spec.probes.map(function (p) {
-                 return { k: "y", html: p.a };
-               })) : "<h4>Still to open</h4>" + fbList(spec.probes.map(function (p, i) {
-                 return opened[i] ? null : { k: "o", html: esc(p.q) };
-               }).filter(Boolean)) };
+      var st = dnd.state(), right = 0, yours = [];
+      dnd.clearMarks();
+      probes.forEach(function (p, i) {
+        var got = (st["a" + i] || [])[0];
+        var ok = got === "q" + i;
+        dnd.mark("a" + i, ok);
+        if (ok) { right++; return; }
+        var line = "<b>" + esc(p.q) + "</b> " + p.a;
+        if (got) {
+          var j = Number(String(got).slice(1));
+          line = "This answers <b>" + esc(p.q) + "</b>, not " + esc(probes[j].q) + " — " + p.a;
+        }
+        yours.push({ k: "n", html: line });
+      });
+      return { score: right, total: probes.length, ok: right === probes.length,
+               verdict: right === probes.length
+                 ? "Every question matched to the answer that settles it."
+                 : right + " of " + probes.length + " right",
+               html: yoursFirst(yours, right === probes.length
+                 ? probes.map(function (p) { return { k: "y", html: p.a }; })
+                 : []) };
     };
   });
 })(window, document);

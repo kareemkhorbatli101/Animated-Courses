@@ -48,6 +48,7 @@
 <script src="assets/terms-fr-ch02.js"></script>
 <script>TERM_SETS.push({ n: 2, T: window.TERMS, fr: window.TERMS_FR });</script>
 <script src="assets/terms-merge.js"></script>
+<script src="assets/icons.js"></script>
 <script src="assets/speech.js"></script>
 <script src="assets/progress.js"></script>
 <script>
@@ -91,6 +92,8 @@
       var tr = document.createElement("tr");
       var td1 = document.createElement("td");
       td1.className = "row-head";
+      /* the term's drawn mark, from assets/icons.js */
+      if (window.Icons) { var ic = window.Icons.icon(t.en); if (ic) td1.appendChild(ic); }
       td1.appendChild(document.createTextNode(t.en));
       if (S) td1.appendChild(S.button(t.en, "en", "Pronounce in English"));
       var td2 = document.createElement("td");

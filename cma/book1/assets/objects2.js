@@ -379,9 +379,46 @@
   });
 
   /* ============================================================
-   * BEAM — A = L + E as a physical balance
+   * BEAM — A = L + E as a physical balance, DRIVEN BY DRAG.
+   *
+   * WHAT THIS USED TO BE, AND WHY IT CHANGED. Six buttons, one per January
+   * transaction. Pressing them all applied them all, and the score was the number of
+   * buttons pressed: "All applied, and it still balances." It could not be got wrong,
+   * because a transaction the author wrote always balances - so the learner was being
+   * marked on having pressed six buttons in any order. It was also the one scene in
+   * the chapter the owner named by hand: it listed everything and asked nothing.
+   *
+   * Now each transaction has to be DRAGGED onto the effect it has on the equation, and
+   * the effects are computed from the author's own deltas rather than written out: the
+   * sign vector of (assets, liabilities, contributed capital, retained earnings) gives
+   * each of the six transactions a distinct pattern, so this is a true one-to-one
+   * match with no invented prose and no distractor that is not the author's own
+   * arithmetic.
+   *
+   * The beam still moves as chips land, and it still stays level - that is the lesson,
+   * and it is safe to show because EVERY transaction balances. Watching it stay level
+   * therefore tells the learner nothing about whether they put the chip in the right
+   * place, so the instrument can be honest and informative at the same time.
    * ============================================================ */
   D.register("beam", function (stage, spec, api) {
+    var moves = spec.moves || [];
+
+    function sgn(v) { return !v ? 0 : (v > 0 ? 1 : -1); }
+    function sig(mv) { return [sgn(mv.a), sgn(mv.l), sgn(mv.cc), sgn(mv.re)].join(","); }
+    function arrow(v) { return v > 0 ? "↑" : "↓"; }
+    /* The label is the author's element names plus the direction his own numbers
+       carry. "No total changes" is the all-zero case, which his reason for that
+       transaction states in words: "One asset becomes another. Total assets do not
+       change." */
+    function label(mv) {
+      var parts = [];
+      if (sgn(mv.a)) parts.push("Assets " + arrow(mv.a));
+      if (sgn(mv.l)) parts.push("Liabilities " + arrow(mv.l));
+      if (sgn(mv.cc)) parts.push("Contributed capital " + arrow(mv.cc));
+      if (sgn(mv.re)) parts.push("Retained earnings " + arrow(mv.re));
+      return parts.length ? parts.join(" · ") : "No total changes";
+    }
+
     var st = { a: 0, l: 0, cc: 0, re: 0, log: [] };
     var wrap = E("div", "beam-wrap");
     var beam = E("div", "beam");
@@ -393,31 +430,60 @@
     wrap.appendChild(beam);
     var note = E("p", "eqnote ok");
     wrap.appendChild(note);
-    var btns = E("div", "valves");
-    btns.style.gridTemplateColumns = "repeat(auto-fit,minmax(220px,1fr))";
-    wrap.appendChild(btns);
     stage.appendChild(wrap);
 
-    spec.moves.forEach(function (mv) {
-      var b = E("button", "valve", mv.label);
-      b.type = "button";
-      b.addEventListener("click", function () {
-        st.a += mv.a; st.l += mv.l; st.cc += mv.cc; st.re += mv.re;
-        st.log.push(mv);
-        b.disabled = true;
-        b.style.opacity = ".45";
-        draw(mv);
-      });
-      btns.appendChild(b);
+    var tray = E("div", "tray tray-wide");
+    stage.appendChild(tray);
+    var board = E("div", "board board-lanes");
+    stage.appendChild(board);
+
+    /* one zone per DISTINCT effect pattern, in the order the author's transactions
+       first produce it; two transactions sharing a pattern would share a zone, and
+       grading is by pattern rather than by position, so that stays correct */
+    var zoneOrder = [], zoneFor = {};
+    moves.forEach(function (mv) {
+      var s = sig(mv);
+      if (zoneFor[s] === undefined) { zoneFor[s] = zoneOrder.length; zoneOrder.push({ s: s, mv: mv }); }
     });
-    var reset = E("button", "valve", "Start again");
-    reset.type = "button";
-    reset.addEventListener("click", function () {
+
+    var dnd = api.Drag({
+      tray: tray, live: api.live,
+      change: function () { recompute(); }
+    });
+
+    zoneOrder.forEach(function (z, i) {
+      var slot = E("div", "slot");
+      slot.appendChild(E("div", "slot-h", label(z.mv)));
+      var zn = E("div", "zone");
+      zn.setAttribute("aria-label", "Drop a transaction with the effect: " + label(z.mv));
+      var host = E("span", "drop-host");
+      zn.appendChild(host);
+      slot.appendChild(zn);
+      dnd.zone({ id: "p" + i, el: zn, host: host, cap: 99, label: label(z.mv),
+                 ghost: "which transaction does this?" });
+      board.appendChild(slot);
+    });
+
+    api.shuffle(moves.map(function (mv, i) { return i; })).forEach(function (i) {
+      dnd.chip({ id: "t" + i, label: moves[i].label });
+    });
+
+    /* The beam reflects every transaction the learner has placed ANYWHERE, using the
+       author's real deltas. It therefore always balances, which is the point, and it
+       leaks nothing about whether the placement was right. */
+    function recompute() {
+      var state = dnd.state();
       st = { a: 0, l: 0, cc: 0, re: 0, log: [] };
-      Array.prototype.slice.call(btns.children).forEach(function (b) { b.disabled = false; b.style.opacity = ""; });
-      draw(null);
-    });
-    btns.appendChild(reset);
+      Object.keys(state).forEach(function (zid) {
+        (state[zid] || []).forEach(function (cid) {
+          var mv = moves[Number(String(cid).slice(1))];
+          if (!mv) return;
+          st.a += mv.a; st.l += mv.l; st.cc += mv.cc; st.re += mv.re;
+          st.log.push(mv);
+        });
+      });
+      draw(st.log.length ? st.log[st.log.length - 1] : null);
+    }
 
     function stack(pan, blocks, max) {
       pan.innerHTML = "";
@@ -448,13 +514,46 @@
     draw(null);
 
     return function () {
-      var done = st.log.length >= spec.moves.length;
+      var state = dnd.state(), right = 0, yours = [], rest = [];
+      dnd.clearMarks();
+      zoneOrder.forEach(function (z, i) {
+        var got = state["p" + i] || [];
+        var allRight = got.length > 0;
+        got.forEach(function (cid) {
+          var mv = moves[Number(String(cid).slice(1))];
+          if (mv && sig(mv) === z.s) {
+            right++;
+          } else {
+            allRight = false;
+            if (mv) {
+              yours.push({ k: "n", html: "<b>" + esc(mv.label) + "</b> is not " +
+                esc(label(z.mv)) + ". " + mv.why });
+            }
+          }
+        });
+        dnd.mark("p" + i, allRight);
+      });
+
+      moves.forEach(function (mv, i) {
+        var placed = Object.keys(state).some(function (zid) {
+          return (state[zid] || []).indexOf("t" + i) >= 0;
+        });
+        if (!placed) {
+          rest.push({ k: "o", html: "<b>" + esc(mv.label) + "</b> is still in the tray: " +
+                                    esc(label(mv)) + "." });
+        }
+      });
+
+      var total = moves.length;
       var bal = Math.abs(st.a - (st.l + st.cc + st.re)) < 0.001;
-      return { score: st.log.length, total: spec.moves.length, ok: done && bal,
-               verdict: done ? "All applied, and it still balances." : st.log.length + " of " + spec.moves.length + " applied",
-               html: yoursFirst([], spec.moves.map(function (x) {
-                 return { k: "y", html: "<b>" + esc(x.label) + "</b> " + x.why };
-               })) };
+      return { score: right, total: total, ok: right === total && bal,
+               verdict: right === total ? "All six placed, and the equation holds."
+                                        : right + " of " + total + " right",
+               html: yoursFirst(yours.concat(rest), right === total
+                 ? moves.map(function (x) {
+                     return { k: "y", html: "<b>" + esc(x.label) + "</b> " + x.why };
+                   })
+                 : []) };
     };
   });
 
@@ -489,28 +588,51 @@
     say.style.display = "none";
     right.appendChild(say);
 
-    spec.pipes.forEach(function (p) {
-      var b = E("button", "valve " + (p.dir > 0 ? "in" : "out") + (p.special ? " special" : ""));
-      b.type = "button";
-      b.appendChild(E("span", "dirn", p.dir > 0 ? "↑" : "↓"));
-      b.appendChild(E("span", null, p.label));
-      b.addEventListener("click", function () {
-        tried[p.id] = true;
-        if (p.throughIncomeStatement === false) {
-          /* the dividend: the income statement physically refuses it */
-          isPanel.classList.add("reject");
-          setTimeout(function () { isPanel.classList.remove("reject"); }, 360);
-          rejected = true;
-          say.style.display = "";
-          say.innerHTML = "<b>The income statement refuses it.</b> " + p.why;
-        } else {
-          say.style.display = "";
-          say.innerHTML = p.why;
-        }
-        level += p.amount * p.dir;
-        draw();
+    /* PREDICT, THEN OPEN. This used to be five buttons: pressing each one opened a
+       pipe, told you the answer and moved the tank, and the score was the number of
+       pipes you had PRESSED - "Every pipe tried." The dividend pipe, which carries the
+       chapter's named trap, announced "The income statement refuses it" the moment it
+       was touched, so the one thing worth getting wrong could not be got wrong.
+
+       Now each pipe asks for two commitments before it opens: which way it moves
+       retained earnings, and whether it travels through the income statement. Both
+       answers are in the author's own data - `dir` and `throughIncomeStatement` - so
+       nothing here is invented, and the trap is now a decision instead of a caption. */
+    var picks = {}, pickEls = {};
+
+    function group(host, pid, field, opts) {
+      var g = E("div", "role-pick");
+      pickEls[pid] = pickEls[pid] || {};
+      pickEls[pid][field] = {};
+      opts.forEach(function (o) {
+        var b = E("button", "role-btn", o.label);
+        b.type = "button";
+        b.addEventListener("click", function () {
+          picks[pid] = picks[pid] || {};
+          picks[pid][field] = o.val;
+          Object.keys(pickEls[pid][field]).forEach(function (k) {
+            pickEls[pid][field][k].classList.remove("on", "ok", "no");
+          });
+          b.classList.add("on");
+        });
+        pickEls[pid][field][String(o.val)] = b;
+        g.appendChild(b);
       });
-      valves.appendChild(b);
+      host.appendChild(g);
+    }
+
+    spec.pipes.forEach(function (p) {
+      var row = E("div", "valve-ask" + (p.special ? " special" : ""));
+      row.appendChild(E("div", "slot-h", p.label));
+      group(row, p.id, "dir", [
+        { label: "↑ raises retained earnings", val: 1 },
+        { label: "↓ lowers retained earnings", val: -1 }
+      ]);
+      group(row, p.id, "is", [
+        { label: "through the income statement", val: 1 },
+        { label: "not through the income statement", val: 0 }
+      ]);
+      valves.appendChild(row);
     });
 
     function draw() {
@@ -521,14 +643,48 @@
     draw();
 
     return function () {
-      var n = Object.keys(tried).length;
-      var all = n === spec.pipes.length;
-      return { score: n, total: spec.pipes.length, ok: all && rejected,
-               verdict: all ? "Every pipe tried." : n + " of " + spec.pipes.length + " tried",
-               html: yoursFirst([], spec.pipes.map(function (p) {
+      var right = 0, total = spec.pipes.length * 2, yours = [];
+      level = spec.start;
+
+      spec.pipes.forEach(function (p) {
+        var got = picks[p.id] || {};
+        var wantDir = p.dir > 0 ? 1 : -1;
+        var wantIs = p.throughIncomeStatement === false ? 0 : 1;
+        var dOk = got.dir === wantDir, iOk = got.is === wantIs;
+        if (dOk) right++;
+        if (iOk) right++;
+        ["dir", "is"].forEach(function (f) {
+          var v = got[f];
+          if (v === undefined) return;
+          var el = pickEls[p.id][f][String(v)];
+          if (!el) return;
+          el.classList.remove("on");
+          el.classList.add((f === "dir" ? dOk : iOk) ? "ok" : "no");
+        });
+        if (!dOk || !iOk) {
+          yours.push({ k: "n", html: "<b>" + esc(p.label) + "</b> " + p.why });
+        }
+        /* now the pipes open: the tank moves and the income statement refuses the one
+           distribution, which is the reveal the learner has earned */
+        level += p.amount * p.dir;
+        if (wantIs === 0) {
+          isPanel.classList.add("reject");
+          setTimeout(function () { isPanel.classList.remove("reject"); }, 360);
+          rejected = true;
+        }
+        tried[p.id] = true;
+      });
+      draw();
+      say.style.display = "";
+      say.innerHTML = "Retained earnings move from " + m(spec.start) + " to " + m(level) + ".";
+
+      return { score: right, total: total, ok: right === total,
+               verdict: right === total ? "Every pipe predicted correctly."
+                                        : right + " of " + total + " right",
+               html: yoursFirst(yours, right === total ? spec.pipes.map(function (p) {
                  return { k: p.throughIncomeStatement === false ? "n" : "y",
                           html: "<b>" + esc(p.label) + "</b> " + p.why };
-               })) };
+               }) : []) };
     };
   });
 
@@ -588,16 +744,55 @@
   });
 
   /* ============================================================
-   * SWITCH — the U.S. GAAP / IFRS name toggle
+   * SWITCH — the U.S. GAAP / IFRS names, MATCHED before they are shown.
+   *
+   * WHAT THIS USED TO BE. One button. Pressing it swapped every name on the statement
+   * from U.S. GAAP to IFRS and back, and the score was whether you had pressed it:
+   * `flips ? 1 : 0`, verdict "Seen both". Two of these shipped, and between them they
+   * carried ten name pairs the exam asks about - none of which the learner was ever
+   * asked to produce.
+   *
+   * Now the pairs are matched first. The author's own `pairs` array is the answer key,
+   * so every chip and every slot is his text, and each wrong name sits next to the
+   * right one in the feedback. The toggle survives as the REVEAL: it unlocks once the
+   * matching is checked, and reading the whole statement in both namings is then worth
+   * something, because the learner has already committed.
    * ============================================================ */
   D.register("switch", function (stage, spec, api) {
+    var pairs = spec.pairs || [];
+    var checked = false;
+
+    /* ---- the decision: match each U.S. GAAP name to its IFRS name ---- */
+    var tray = E("div", "tray tray-wide");
+    stage.appendChild(tray);
+    var board = E("div", "board board-lanes");
+    stage.appendChild(board);
+    var dnd = api.Drag({ tray: tray, live: api.live });
+
+    pairs.forEach(function (p, i) {
+      var slot = E("div", "slot");
+      slot.appendChild(E("div", "slot-h", p.us));
+      var zn = E("div", "zone");
+      zn.setAttribute("aria-label", "Drop the IFRS name for " + p.us);
+      var host = E("span", "drop-host");
+      zn.appendChild(host);
+      slot.appendChild(zn);
+      dnd.zone({ id: "n" + i, el: zn, host: host, cap: 1, label: p.us,
+                 ghost: "the IFRS name" });
+      board.appendChild(slot);
+    });
+    api.shuffle(pairs.map(function (p, i) { return i; })).forEach(function (i) {
+      dnd.chip({ id: "i" + i, label: pairs[i].ifrs });
+    });
+
     var ifrs = false, flips = 0;
     var head = E("div");
     head.style.cssText = "display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap";
     var b = E("button", "btn btn-ghost", "Show the IFRS names →");
     b.type = "button";
+    b.disabled = true;
     head.appendChild(b);
-    var tagEl = E("span", "numunit", "showing U.S. GAAP — the names the exam uses");
+    var tagEl = E("span", "numunit", "check your matching first, then read it both ways");
     head.appendChild(tagEl);
     stage.appendChild(head);
 
@@ -632,11 +827,37 @@
     }
     draw();
     return function () {
-      return { score: flips ? 1 : 0, total: 1, ok: flips > 0,
-               verdict: flips ? "Seen both" : "Flip the switch first",
-               html: yoursFirst([], spec.pairs.map(function (p) {
-                 return { k: "y", html: "<b>" + esc(p.us) + "</b> → " + esc(p.ifrs) };
-               })) };
+      var st = dnd.state(), right = 0, yours = [];
+      dnd.clearMarks();
+      pairs.forEach(function (p, i) {
+        var got = (st["n" + i] || [])[0];
+        var ok = got === "i" + i;
+        dnd.mark("n" + i, ok);
+        if (ok) { right++; return; }
+        var line = "<b>" + esc(p.us) + "</b> is <b>" + esc(p.ifrs) + "</b> under IFRS.";
+        if (got) {
+          var j = Number(String(got).slice(1));
+          line = "<b>" + esc(p.us) + "</b> is not " + esc(pairs[j].ifrs) + " — it is <b>" +
+                 esc(p.ifrs) + "</b>.";
+        }
+        yours.push({ k: "n", html: line });
+      });
+
+      /* the reveal is earned: reading the statement in both namings is only useful
+         once the learner has committed to an answer */
+      checked = true;
+      b.disabled = false;
+      if (!flips) tagEl.textContent = "showing U.S. GAAP — the names the exam uses";
+
+      return { score: right, total: pairs.length, ok: right === pairs.length,
+               verdict: right === pairs.length
+                 ? "All " + pairs.length + " matched — now read it both ways."
+                 : right + " of " + pairs.length + " right",
+               html: yoursFirst(yours, right === pairs.length
+                 ? pairs.map(function (p) {
+                     return { k: "y", html: "<b>" + esc(p.us) + "</b> → " + esc(p.ifrs) };
+                   })
+                 : []) };
     };
   });
 
@@ -674,6 +895,49 @@
     wrap.appendChild(note);
 
     sl.addEventListener("input", function () { at = Number(sl.value); seen[at] = true; draw(); });
+
+    /* PREDICT AT EVERY STOP, BEFORE THE SLIDER REVEALS IT. This used to score the
+       number of stops the learner had SEEN - "You have seen the whole timeline." -
+       so dragging the slider from end to end scored full marks. The whole point of
+       the figure is that the same sale falls in a different year on the two bases,
+       and that judgement was never asked for.
+
+       The answer key is already in the author's data and needs nothing added: a stop
+       where a basis records nothing has an EMPTY `text`. So for each stop the learner
+       decides, for each basis, "records something" or "records nothing", and the
+       slider then shows what it was. */
+    var ask = E("div", "tl-asks");
+    stage.appendChild(ask);
+    var picks = {}, pickEls = {};
+
+    spec.stops.forEach(function (s, i) {
+      var row = E("div", "valve-ask");
+      row.appendChild(E("div", "slot-h", s.when));
+      [["accrual", "Accrual basis"], ["cash", "Cash basis"]].forEach(function (basis) {
+        var lab = E("div", "tl-ask-basis", basis[1]);
+        row.appendChild(lab);
+        var g = E("div", "role-pick");
+        pickEls[i] = pickEls[i] || {};
+        pickEls[i][basis[0]] = {};
+        [["records something", 1], ["records nothing", 0]].forEach(function (o) {
+          var b = E("button", "role-btn", o[0]);
+          b.type = "button";
+          b.addEventListener("click", function () {
+            picks[i] = picks[i] || {};
+            picks[i][basis[0]] = o[1];
+            Object.keys(pickEls[i][basis[0]]).forEach(function (k) {
+              pickEls[i][basis[0]][k].classList.remove("on", "ok", "no");
+            });
+            b.classList.add("on");
+          });
+          pickEls[i][basis[0]][String(o[1])] = b;
+          g.appendChild(b);
+        });
+        row.appendChild(g);
+      });
+      ask.appendChild(row);
+    });
+
     function draw() {
       var s = spec.stops[at];
       when.textContent = s.when;
@@ -687,13 +951,29 @@
     }
     seen[0] = true;
     draw();
+
     return function () {
-      var n = Object.keys(seen).length;
-      return { score: n, total: spec.stops.length, ok: n === spec.stops.length,
-               verdict: n === spec.stops.length ? "You have seen the whole timeline." : n + " of " + spec.stops.length + " stops",
-               html: yoursFirst([], spec.stops.map(function (s) {
+      var right = 0, total = spec.stops.length * 2, yours = [];
+      spec.stops.forEach(function (s, i) {
+        var got = picks[i] || {};
+        ["accrual", "cash"].forEach(function (basis) {
+          var want = s[basis].text ? 1 : 0;
+          var ok = got[basis] === want;
+          if (ok) right++;
+          if (got[basis] !== undefined) {
+            var el = pickEls[i][basis][String(got[basis])];
+            if (el) { el.classList.remove("on"); el.classList.add(ok ? "ok" : "no"); }
+          }
+        });
+        var bad = got.accrual !== (s.accrual.text ? 1 : 0) || got.cash !== (s.cash.text ? 1 : 0);
+        if (bad) yours.push({ k: "n", html: "<b>" + esc(s.when) + "</b> " + s.note });
+      });
+      return { score: right, total: total, ok: right === total,
+               verdict: right === total ? "Every stop called correctly on both bases."
+                                        : right + " of " + total + " right",
+               html: yoursFirst(yours, right === total ? spec.stops.map(function (s) {
                  return { k: "y", html: "<b>" + esc(s.when) + "</b> " + s.note };
-               })) };
+               }) : []) };
     };
   });
 
@@ -709,69 +989,159 @@
     wrap.appendChild(svg);
     var ports = {};
 
-    spec.cards.forEach(function (c) {
+    /* THE LAYOUT MUST NOT BE THE ANSWER. The author lists the four statements in the
+       order the figure draws them, and in that order the two links join port 1 to
+       port 2 and port 3 to port 4 - so "connect each pair as they come down the page"
+       was the whole answer, and clicking every port in turn solved the exercise
+       without reading a label.
+       So the cards are arranged so that no two consecutive ports are linked. This is
+       computed from the author's own links rather than hand-ordered, which means it
+       stays true if a card or a link is ever added. */
+    var cardOrder = (function (cards, links) {
+      function linked(p, q) {
+        return links.some(function (l) {
+          return (l.from === p && l.to === q) || (l.from === q && l.to === p);
+        });
+      }
+      function portsOf(c) { return (c.ports || []).map(function (p) { return p.id; }); }
+      var best = cards.slice(), bestBad = Infinity;
+      /* a small deterministic search: rotations of a pass that pushes linked
+         neighbours apart. Four cards make this trivial and it never runs long. */
+      for (var start = 0; start < cards.length; start++) {
+        var rest = cards.slice(), out = [rest.splice(start, 1)[0]];
+        while (rest.length) {
+          var tailPorts = portsOf(out[out.length - 1]);
+          var pickIdx = 0;
+          for (var i = 0; i < rest.length; i++) {
+            var ps = portsOf(rest[i]);
+            var clash = tailPorts.some(function (t) {
+              return ps.some(function (p) { return linked(t, p); });
+            });
+            if (!clash) { pickIdx = i; break; }
+          }
+          out.push(rest.splice(pickIdx, 1)[0]);
+        }
+        var bad = 0;
+        for (var j = 1; j < out.length; j++) {
+          var a = portsOf(out[j - 1]), b = portsOf(out[j]);
+          if (a.some(function (x) { return b.some(function (y) { return linked(x, y); }); })) bad++;
+        }
+        if (bad < bestBad) { bestBad = bad; best = out; }
+        if (bad === 0) break;
+      }
+      return best;
+    })(spec.cards || [], spec.links || []);
+
+    cardOrder.forEach(function (c) {
       var card = E("div", "wire-card");
       card.appendChild(E("h4", null, c.title));
       card.appendChild(E("p", null, c.sub));
       (c.ports || []).forEach(function (p) {
-        var el = E("div", "port");
-        el.tabIndex = 0;
+        /* a real <button>: it was a div with a click handler, which took it off the
+           keyboard's path in all but name and made it invisible to the check that
+           every instrument exposes an operable control */
+        var el = E("button", "port");
+        el.type = "button";
         el.appendChild(E("span", "pin"));
         el.appendChild(E("span", null, p.label));
         el.addEventListener("click", function () { tap(p.id, el); });
-        el.addEventListener("keydown", function (e) {
-          if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tap(p.id, el); }
-        });
         ports[p.id] = { el: el, spec: p };
         card.appendChild(el);
       });
       wrap.appendChild(card);
     });
 
+    /* ANY CONNECTION CAN BE MADE, AND IT IS KEPT. This used to refuse a wrong pair -
+       it flashed red, said "Those two do not connect." and dropped it - and then
+       scored the number of links completed: "Both links wired." That is a scene you
+       finish by trying every pair, which is not the judgement the figure is about, and
+       the learner was never on record as having been wrong.
+
+       Now a wrong wire is made, drawn and marked, and an extra connection costs the
+       exercise. `made` is the learner's answer; spec.links is the author's key. */
+    var made = [];
+
+    function linkFor(a, b) {
+      return spec.links.filter(function (l) {
+        return (l.from === a && l.to === b) || (l.from === b && l.to === a);
+      })[0];
+    }
+    function connected(id) {
+      return made.filter(function (c) { return c.a === id || c.b === id; })[0];
+    }
+
     function tap(id, el) {
-      if (wired[id]) return;
+      var existing = connected(id);
+      if (existing) {                       /* tapping a wired port unmakes its wire */
+        made = made.filter(function (c) { return c !== existing; });
+        [existing.a, existing.b].forEach(function (p) {
+          ports[p].el.classList.remove("wired", "no", "ok");
+        });
+        sel = null;
+        redraw();
+        api.live.textContent = "Connection removed.";
+        return;
+      }
       if (!sel) { sel = id; el.classList.add("sel"); return; }
       if (sel === id) { sel = null; el.classList.remove("sel"); return; }
       var a = sel, b = id;
       ports[a].el.classList.remove("sel");
-      var link = spec.links.filter(function (l) {
-        return (l.from === a && l.to === b) || (l.from === b && l.to === a);
-      })[0];
-      if (link) {
-        wired[a] = wired[b] = link.id;
-        ports[a].el.classList.add("wired");
-        ports[b].el.classList.add("wired");
-        ports[a].el.querySelector("span:last-child").textContent += "  " + link.carries;
-        redraw();
-      } else {
-        ports[b].el.classList.add("no");
-        setTimeout(function () { ports[b].el.classList.remove("no"); }, 500);
-        api.live.textContent = "Those two do not connect.";
-      }
+      made.push({ a: a, b: b });
+      ports[a].el.classList.add("wired");
+      ports[b].el.classList.add("wired");
       sel = null;
+      redraw();
+      api.live.textContent = "Connected. Check your answer when every link you believe in is made.";
     }
-    function redraw() {
+
+    function redraw(marks) {
       svg.innerHTML = "";
-      spec.links.forEach(function (l) {
-        if (!wired[l.from]) return;
-        var r1 = ports[l.from].el.getBoundingClientRect();
-        var r2 = ports[l.to].el.getBoundingClientRect();
+      made.forEach(function (c) {
+        var r1 = ports[c.a].el.getBoundingClientRect();
+        var r2 = ports[c.b].el.getBoundingClientRect();
         var rw = wrap.getBoundingClientRect();
         var x1 = r1.right - rw.left, y1 = r1.top + r1.height / 2 - rw.top;
         var x2 = r2.left - rw.left, y2 = r2.top + r2.height / 2 - rw.top;
         var mid = (x1 + x2) / 2;
         var path = doc.createElementNS("http://www.w3.org/2000/svg", "path");
-        path.setAttribute("class", "wire-path");
+        var cls = "wire-path";
+        if (marks) cls += linkFor(c.a, c.b) ? " is-ok" : " is-no";
+        path.setAttribute("class", cls);
         path.setAttribute("d", "M " + x1 + " " + y1 + " C " + mid + " " + y1 + ", " + mid + " " + y2 +
           ", " + x2 + " " + y2);
         svg.appendChild(path);
       });
     }
+
     return function () {
-      var n = Object.keys(wired).length / 2;
-      return { score: n, total: spec.links.length, ok: n === spec.links.length,
-               verdict: n === spec.links.length ? "Both links wired." : n + " of " + spec.links.length + " wired",
-               html: yoursFirst([], spec.links.map(function (l) {
+      var right = 0, yours = [], missed = [];
+      made.forEach(function (c) {
+        var l = linkFor(c.a, c.b);
+        [c.a, c.b].forEach(function (p) {
+          ports[p].el.classList.remove("wired");
+          ports[p].el.classList.add(l ? "ok" : "no");
+        });
+        if (l) {
+          right++;
+        } else {
+          yours.push({ k: "n", html: "<b>" + esc(ports[c.a].spec.label) + "</b> and <b>" +
+            esc(ports[c.b].spec.label) + "</b> are not one of the two links the figure draws." });
+        }
+      });
+      spec.links.forEach(function (l) {
+        var got = made.filter(function (c) { return linkFor(c.a, c.b) === l; })[0];
+        if (!got) missed.push({ k: "o", html: l.why });
+      });
+      redraw(true);
+
+      var extra = made.length - right;
+      return { score: right, total: spec.links.length,
+               ok: right === spec.links.length && extra === 0,
+               verdict: (right === spec.links.length && extra === 0)
+                 ? "Both links made, and nothing else."
+                 : right + " of " + spec.links.length + " right" +
+                   (extra > 0 ? ", " + extra + " that should not be there" : ""),
+               html: yoursFirst(yours, missed.length ? missed : spec.links.map(function (l) {
                  return { k: "y", html: l.why };
                })) };
     };
@@ -931,50 +1301,128 @@
   });
 
   /* ============================================================
-   * TABLE — the boardroom table (F01-02 made clickable)
+   * TABLE — F01-02 as a MATCHING GRID.
+   *
+   * WHAT THIS USED TO BE, AND WHY IT CHANGED. It used to be seven buttons: click a
+   * reader and a panel told you their decision, their question and the statements they
+   * use. Its score was the number of seats you had READ and its verdict was "Every seat
+   * read." Reading all seven scored full marks without one judgement, and the three
+   * primary users were already tinted and labelled "PRIMARY USER" before you touched
+   * anything - so the only thing the exercise tested was given away in the picture.
+   *
+   * Now the reader's own question has to be matched to them, and the primary users have
+   * to be named. Fourteen decisions, every one of them the author's data: the questions
+   * are his `q`, the two labels are the ones this scene already printed, and the
+   * feedback is his `decision` and `stmts`. Nothing new is claimed.
    * ============================================================ */
   D.register("table", function (stage, spec, api) {
-    var seen = {};
+    var seats = spec.seats || [];
+    var tray = E("div", "tray tray-wide");
+    stage.appendChild(tray);
     var grid = E("div", "board board-lanes");
     stage.appendChild(grid);
-    var panel = E("div", "bite");
-    panel.style.display = "none";
-    stage.appendChild(panel);
 
-    spec.seats.forEach(function (s, i) {
-      var b = E("button", "slot");
-      b.type = "button";
-      b.style.cssText = "text-align:left;cursor:pointer;font:inherit;color:inherit" +
-        (s.primary ? ";border-color:var(--accent-line);background:var(--accent-wash)" : "");
-      b.appendChild(E("div", "slot-h", s.user));
-      b.appendChild(E("span", "slot-s", s.primary ? "● PRIMARY USER" : "another reader"));
-      b.addEventListener("click", function () {
-        seen[i] = true;
-        panel.style.display = "";
-        panel.innerHTML = "<b>" + esc(s.user) + "</b><br>" +
-          "<b>Decision:</b> " + esc(s.decision) + "<br>" +
-          "<b>Key question:</b> " + esc(s.q) + "<br>" +
-          "<b>Statements used most:</b> " + esc(s.stmts);
-        Array.prototype.slice.call(grid.children).forEach(function (x) { x.style.outline = ""; });
-        b.style.outline = "3px solid var(--accent)";
+    var dnd = api.Drag({ tray: tray, live: api.live });
+    var role = {}, roleEls = {};
+
+    seats.forEach(function (s, i) {
+      var slot = E("div", "slot");
+      slot.appendChild(E("div", "slot-h", s.user));
+      var z = E("div", "zone");
+      z.setAttribute("aria-label", "Drop this reader's key question onto " + s.user);
+      var host = E("span", "drop-host");
+      z.appendChild(host);
+      slot.appendChild(z);
+      dnd.zone({ id: "u" + i, el: z, host: host, cap: 1, label: s.user,
+                 ghost: "the question this reader asks" });
+
+      /* The second decision on the same reader. The two labels are this scene's own. */
+      var pick = E("div", "role-pick");
+      roleEls[i] = {};
+      [["primary", "PRIMARY USER"], ["other", "another reader"]].forEach(function (p) {
+        var b = E("button", "role-btn", p[1]);
+        b.type = "button";
+        b.addEventListener("click", function () {
+          role[i] = p[0];
+          Object.keys(roleEls[i]).forEach(function (k) {
+            roleEls[i][k].classList.remove("on", "ok", "no");
+          });
+          b.classList.add("on");
+        });
+        roleEls[i][p[0]] = b;
+        pick.appendChild(b);
       });
-      grid.appendChild(b);
+      slot.appendChild(pick);
+      grid.appendChild(slot);
     });
+
+    /* questions enter the tray shuffled, so position carries no hint */
+    api.shuffle(seats.map(function (s, i) { return i; })).forEach(function (i) {
+      dnd.chip({ id: "q" + i, label: seats[i].q });
+    });
+
     return function () {
-      var n = Object.keys(seen).length;
-      return { score: n, total: spec.seats.length, ok: n === spec.seats.length,
-               verdict: n === spec.seats.length ? "Every seat read." : n + " of " + spec.seats.length + " read",
-               html: yoursFirst([], spec.seats.filter(function (s) { return s.primary; }).map(function (s) {
-                 return { k: "y", html: "<b>" + esc(s.user) + "</b> is a primary user: " + esc(s.q) };
-               }).concat([{ k: "o", html: "Managers are users, but not primary users of general-purpose statements, because they can get any internal information they need." }])) };
+      var st = dnd.state(), right = 0, yours = [], missed = [];
+      dnd.clearMarks();
+      seats.forEach(function (s, i) {
+        var got = (st["u" + i] || [])[0];
+        var qok = got === "q" + i;
+        dnd.mark("u" + i, qok);
+        if (qok) right++;
+
+        var want = s.primary ? "primary" : "other";
+        var rok = role[i] === want;
+        if (rok) right++;
+        if (role[i] && roleEls[i][role[i]]) {
+          roleEls[i][role[i]].classList.remove("on");
+          roleEls[i][role[i]].classList.add(rok ? "ok" : "no");
+        }
+
+        if (qok && rok) return;
+        var line = "<b>" + esc(s.user) + "</b> ";
+        if (!qok) {
+          line += "asks: " + esc(s.q) + " ";
+          if (got) {
+            var j = Number(String(got).slice(1));
+            line += "(you gave them: " + esc(seats[j].q) + ") ";
+          }
+        }
+        if (!rok) {
+          line += s.primary
+            ? "is a <b>primary user</b>. "
+            : "is a reader, but <b>not a primary user</b> of general-purpose statements. ";
+        }
+        line += "Decision: " + esc(s.decision) + ". Statements used most: " + esc(s.stmts) + ".";
+        (role[i] || got ? yours : missed).push({ k: "n", html: line });
+      });
+
+      var total = seats.length * 2;
+      return { score: right, total: total, ok: right === total,
+               verdict: right === total ? "All seven readers placed."
+                                        : right + " of " + total + " right",
+               html: yoursFirst(yours, missed.length ? missed : (right === total
+                 ? seats.filter(function (s) { return s.primary; }).map(function (s) {
+                     return { k: "y", html: "<b>" + esc(s.user) + "</b> is a primary user: " +
+                                            esc(s.q) };
+                   })
+                 : [])) };
     };
   });
 
   /* ============================================================
    * SHELF — the ASC, by topic number
    * ============================================================ */
+  /* SELECTING EVERYTHING MUST NOT PASS. This used to tell the learner, at the instant
+     of the tap, whether a volume was one of the two: a right tap turned green and a
+     wrong tap flashed and was discarded. The score counted only the right taps, so
+     tapping all eight scored two out of two and the verdict was full marks. The
+     exercise was "press every button", and the two topic numbers it wanted the learner
+     to know were handed over one tap at a time.
+
+     Now a tap SELECTS without judging. Grading compares the selected set with the
+     author's two, and a volume selected wrongly costs the exercise. */
   D.register("shelf", function (stage, spec, api) {
-    var found = {};
+    var picked = {}, btns = {};
     var row = E("div");
     row.style.cssText = "display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px";
     spec.volumes.forEach(function (v) {
@@ -982,18 +1430,14 @@
       b.type = "button";
       b.style.cssText = "cursor:pointer;min-width:62px;justify-content:center;font-family:var(--mono)";
       b.appendChild(E("span", null, "ASC " + v.n));
+      b.setAttribute("aria-pressed", "false");
       b.addEventListener("click", function () {
-        if (v.topic) {
-          found[v.n] = true;
-          b.style.background = "var(--good-wash)";
-          b.style.borderColor = "var(--good-line)";
-          note.innerHTML = "<b>ASC " + v.n + "</b> — " + esc(v.topic) + ". " + esc(v.why || "");
-        } else {
-          b.classList.add("reject");
-          setTimeout(function () { b.classList.remove("reject"); }, 340);
-          note.innerHTML = esc(spec.missWhy);
-        }
+        picked[v.n] = !picked[v.n];
+        b.classList.toggle("picked", !!picked[v.n]);
+        b.setAttribute("aria-pressed", picked[v.n] ? "true" : "false");
+        api.live.textContent = "ASC " + v.n + (picked[v.n] ? " selected." : " unselected.");
       });
+      btns[v.n] = b;
       row.appendChild(b);
     });
     stage.appendChild(E("p", "note", spec.ask));
@@ -1001,12 +1445,29 @@
     var note = E("div", "bite");
     note.innerHTML = spec.intro;
     stage.appendChild(note);
+
     return function () {
       var want = spec.volumes.filter(function (v) { return v.topic; });
-      var n = Object.keys(found).length;
-      return { score: n, total: want.length, ok: n === want.length,
-               html: yoursFirst([], want.map(function (v) {
-                 return { k: "y", html: "<b>ASC " + v.n + "</b> covers " + esc(v.topic) + "." };
+      var right = 0, wrong = 0, yours = [];
+      spec.volumes.forEach(function (v) {
+        var sel = !!picked[v.n], should = !!v.topic;
+        var b = btns[v.n];
+        b.classList.remove("picked");
+        if (sel) b.classList.add(should ? "is-ok" : "is-no");
+        if (sel && should) right++;
+        if (sel && !should) {
+          wrong++;
+          yours.push({ k: "n", html: "<b>ASC " + v.n + "</b> — " + esc(spec.missWhy) });
+        }
+      });
+      return { score: right, total: want.length, ok: right === want.length && wrong === 0,
+               verdict: (right === want.length && wrong === 0)
+                 ? "Both topics found, and nothing else."
+                 : right + " of " + want.length + " found" +
+                   (wrong ? ", " + wrong + " that the chapter does not name" : ""),
+               html: yoursFirst(yours, want.map(function (v) {
+                 return { k: "y", html: "<b>ASC " + v.n + "</b> covers " + esc(v.topic) + ". " +
+                                        esc(v.why || "") };
                })) };
     };
   });
@@ -1172,6 +1633,10 @@
       g.rows.forEach(function (r) {
         var tr = E("tr");
         var td1 = E("td");
+        if (root.Icons) {
+          var ic = root.Icons.icon(r.en);
+          if (ic) td1.appendChild(ic);
+        }
         td1.appendChild(doc.createTextNode(r.en));
         if (S) td1.appendChild(S.button(r.en, "en", "Pronounce in English"));
         td1.appendChild(E("div", "note", r.gloss));
@@ -1191,14 +1656,94 @@
       list.appendChild(t);
     }
     show(0);
+
+    /* A RECALL DRILL, IN BOTH DIRECTIONS. The lists above are the term bank and stay
+       exactly as they were - browsable, pronounceable, the author's Term Bridge boxes
+       reproduced. What changed is the marking: this page used to score the number of
+       LISTS OPENED, so clicking the tabs along the top scored full marks on the
+       chapter's entire vocabulary.
+       The drill below draws on the bridged rows only, and asks each one in one of the
+       two directions. Every option is a term the author printed in this chapter; no
+       distractor is invented, which is also why the options come from the same group. */
+    var bridged = [];
+    spec.groups.forEach(function (g) {
+      if (!g.bilingual) return;
+      (g.rows || []).forEach(function (r) { if (r.ar) bridged.push(r); });
+    });
+
+    var drill = [];
+    if (bridged.length >= 4) {
+      var pick = shuffle(bridged).slice(0, Math.min(8, bridged.length));
+      pick.forEach(function (r, i) {
+        var toAr = i % 2 === 1;                       /* alternate the direction */
+        var pool = bridged.filter(function (x) { return x.en !== r.en; });
+        var opts = shuffle(pool).slice(0, 3).concat([r]);
+        drill.push({ row: r, toAr: toAr, opts: shuffle(opts) });
+      });
+    }
+
+    var dBox = E("div", "drill");
+    if (drill.length) {
+      dBox.appendChild(E("div", "slot-h", "Recall, both ways"));
+      drill.forEach(function (q, qi) {
+        var card = E("div", "drill-q");
+        var prompt = E("div", "drill-prompt");
+        if (q.toAr) {
+          prompt.appendChild(doc.createTextNode(q.row.en));
+          prompt.appendChild(E("span", "numunit", " — which Arabic term?"));
+        } else {
+          prompt.appendChild(ar(q.row.ar));
+          prompt.appendChild(E("span", "numunit", " — which English term?"));
+        }
+        card.appendChild(prompt);
+        var ch = E("div", "choices");
+        q.opts.forEach(function (o, oi) {
+          var lab = E("label", "choice");
+          var inp = E("input");
+          inp.type = "radio";
+          inp.name = "d-" + spec.id + "-" + qi;
+          inp.value = String(oi);
+          lab.appendChild(inp);
+          if (q.toAr) lab.appendChild(ar(o.ar));
+          else lab.appendChild(E("span", null, o.en));
+          lab.dataset.i = String(oi);
+          ch.appendChild(lab);
+        });
+        card.appendChild(ch);
+        q.box = ch;
+        dBox.appendChild(card);
+      });
+      stage.appendChild(dBox);
+    }
+
     return function () {
-      var n = Object.keys(opened).length;
-      return { score: n, total: spec.groups.length, ok: n === spec.groups.length,
-               verdict: n + " of " + spec.groups.length + " lists opened",
-               html: "<h4>Where these come from</h4><ul><li class=\"o\">" +
-                 "The bilingual lists are the chapter's own Term Bridge boxes, reproduced exactly. " +
-                 "The last list holds terms the chapter defines in its prose but does not bridge — " +
-                 "they are shown in English only, because the chapter gives no Arabic for them.</li></ul>" };
+      var right = 0, yours = [];
+      drill.forEach(function (q) {
+        var pick = -1;
+        Array.prototype.slice.call(q.box.children).forEach(function (l) {
+          if (l.querySelector("input").checked) pick = Number(l.dataset.i);
+          l.classList.remove("ok", "no");
+        });
+        Array.prototype.slice.call(q.box.children).forEach(function (l) {
+          var i = Number(l.dataset.i);
+          var isRight = q.opts[i].en === q.row.en;
+          if (i === pick || isRight) l.classList.add(isRight ? "ok" : "no");
+        });
+        var ok = pick >= 0 && q.opts[pick].en === q.row.en;
+        if (ok) { right++; return; }
+        yours.push({ k: "n", html: "<b>" + esc(q.row.en) + "</b> — " + esc(q.row.ar) +
+                                   ". " + esc(q.row.gloss || "") });
+      });
+      var total = drill.length;
+      return { score: right, total: total, ok: total > 0 && right === total,
+               verdict: total === 0 ? "No bridged terms to drill"
+                 : (right === total ? "Every term recalled, both ways."
+                                    : right + " of " + total + " right"),
+               html: yoursFirst(yours, [{ k: "o",
+                 html: "The bilingual lists are the chapter's own Term Bridge boxes, reproduced " +
+                       "exactly. The last list holds terms the chapter defines in its prose but " +
+                       "does not bridge — they are shown in English only, because the chapter " +
+                       "gives no Arabic for them." }]) };
     };
   });
 })(window, document);
@@ -1209,7 +1754,13 @@
 (function (root, doc) {
   "use strict";
   var D = root.Deck, P = root.Progress;
-  var E = D.util.E, esc = D.util.esc;
+  /* This file holds THREE separate IIFEs, and this third one aliased only E and esc
+     because `traps` needed nothing else. A renderer appended at the end of the file
+     therefore lands here, not in the first block, and reaching for yoursFirst threw
+     "yoursFirst is not defined" at the moment the learner pressed Check - invisible
+     until the scene was actually graded. The full set is aliased here now. */
+  var E = D.util.E, esc = D.util.esc, ar = D.util.ar, shuffle = D.util.shuffle,
+      Drag = D.util.Drag, fbList = D.util.fbList, yoursFirst = D.util.yoursFirst;
 
   /* Each chapter names its own traps: the slug a scene logs, the page it was taught on, and the
      one sentence that fixes the confusion. A chapter supplies window.TRAP_NAMES in its data/toc.js;
@@ -1270,6 +1821,186 @@
                                  : "Nothing logged",
                html: "<h4>How this works</h4><ul><li class=\"o\">A trap is cleared when you answer an item " +
                  "that tests it correctly. The list is kept in this browser on this computer.</li></ul>" };
+    };
+  });
+
+  /* ============================================================
+   * LADDER — likelihood on one axis, the treatment it forces on the other.
+   *
+   * Section 2.4 states the rule as three sentences: a probable, estimable loss must be
+   * accrued; if it is only reasonably possible, the company discloses it in a note; if
+   * it is remote, the company does nothing. The section tested that rule with two sorts
+   * over ITEMS - which item is a liability, which is disclosed - and never once asked
+   * for the rule itself, which is the thing the exam asks for.
+   *
+   * The rungs are the author's likelihoods in his order, highest first, and the chips
+   * are his treatments. Dropping a treatment on a rung is the decision; the rung it
+   * lands on lights so the ladder reads as a ladder.
+   * ============================================================ */
+  D.register("ladder", function (stage, spec, api) {
+    var rungs = spec.rungs || [];
+    var tray = E("div", "tray tray-wide");
+    stage.appendChild(tray);
+    var board = E("div", "ladder");
+    stage.appendChild(board);
+    var dnd = api.Drag({ tray: tray, live: api.live });
+
+    rungs.forEach(function (r, i) {
+      var row = E("div", "slot lad-rung");
+      row.appendChild(E("div", "slot-h", r.likelihood));
+      if (r.sub) row.appendChild(E("span", "slot-s", r.sub));
+      var zn = E("div", "zone");
+      zn.setAttribute("aria-label", "Drop the treatment for " + r.likelihood);
+      var host = E("span", "drop-host");
+      zn.appendChild(host);
+      row.appendChild(zn);
+      dnd.zone({ id: "r" + i, el: zn, host: host, cap: 1, label: r.likelihood,
+                 ghost: "what does the company do?" });
+      board.appendChild(row);
+    });
+    api.shuffle(rungs.map(function (r, i) { return i; })).forEach(function (i) {
+      dnd.chip({ id: "t" + i, label: rungs[i].treatment });
+    });
+
+    return function () {
+      var st = dnd.state(), right = 0, yours = [];
+      dnd.clearMarks();
+      rungs.forEach(function (r, i) {
+        var got = (st["r" + i] || [])[0];
+        var ok = got === "t" + i;
+        dnd.mark("r" + i, ok);
+        if (ok) { right++; return; }
+        yours.push({ k: "n", html: "<b>" + esc(r.likelihood) + "</b> — " + r.why });
+      });
+      return { score: right, total: rungs.length, ok: right === rungs.length,
+               verdict: right === rungs.length ? "All three treatments on the right rung."
+                                               : right + " of " + rungs.length + " right",
+               html: yoursFirst(yours, right === rungs.length
+                 ? rungs.map(function (r) {
+                     return { k: "y", html: "<b>" + esc(r.likelihood) + "</b> — " + r.why };
+                   })
+                 : []) };
+    };
+  });
+
+  /* ============================================================
+   * CYCLE — the operating cycle, and which test it makes you use.
+   *
+   * Chapter 2 turns on one decision that nothing in it asked the learner to make: an
+   * item is current if it will be realised within ONE YEAR or within the OPERATING
+   * CYCLE, whichever is longer. The chapter gives Orontes's cycle as 32 days to sell
+   * inventory plus 34 days to collect, 66 in total, and concludes that because the
+   * cycle is shorter than a year, Orontes uses one year.
+   *
+   * So the learner builds the cycle from its two parts and then says which test
+   * governs. Both sliders have to be right AND the conclusion drawn from them, which
+   * is why a learner who sets 66 by accident on the wrong two numbers does not pass.
+   * ============================================================ */
+  D.register("cycle", function (stage, spec, api) {
+    var legs = spec.legs || [];
+    var vals = legs.map(function () { return 0; });
+    var wrap = E("div", "cycle");
+    stage.appendChild(wrap);
+
+    var rail = E("div", "cyc-rail");
+    wrap.appendChild(rail);
+    var segs = legs.map(function (p) {
+      var s = E("div", "cyc-seg");
+      s.appendChild(E("span", "cyc-seg-k", p.label));
+      var v = E("span", "cyc-seg-v", "0");
+      s.appendChild(v);
+      rail.appendChild(s);
+      return { el: s, v: v };
+    });
+    var yearMark = E("div", "cyc-year", "one year · 365 days");
+    wrap.appendChild(yearMark);
+    var totalEl = E("p", "cyc-total");
+    wrap.appendChild(totalEl);
+
+    legs.forEach(function (p, i) {
+      var row = E("div", "cyc-ctl");
+      row.appendChild(E("span", "cyc-ctl-k", p.label));
+      var sl = E("input");
+      sl.type = "range";
+      sl.className = "tl-slider";
+      sl.min = "0";
+      sl.max = String(spec.maxDays || 120);
+      sl.step = "1";
+      sl.value = "0";
+      sl.setAttribute("aria-label", p.label + ", in days");
+      sl.addEventListener("input", function () { vals[i] = Number(sl.value); draw(); });
+      row.appendChild(sl);
+      wrap.appendChild(row);
+    });
+
+    /* the conclusion the two numbers force */
+    var ask = E("div", "role-pick");
+    var rules = [
+      { id: "year", label: "Classify by one year" },
+      { id: "cycle", label: "Classify by the operating cycle" }
+    ];
+    var chose = null, ruleEls = {};
+    rules.forEach(function (r) {
+      var b = E("button", "role-btn", r.label);
+      b.type = "button";
+      b.addEventListener("click", function () {
+        chose = r.id;
+        rules.forEach(function (x) { ruleEls[x.id].classList.remove("on", "ok", "no"); });
+        b.classList.add("on");
+      });
+      ruleEls[r.id] = b;
+      ask.appendChild(b);
+    });
+    wrap.appendChild(E("div", "slot-s", spec.ask || "Which test does that cycle make you use?"));
+    wrap.appendChild(ask);
+
+    function total() {
+      return vals.reduce(function (a, b) { return a + b; }, 0);
+    }
+    function draw() {
+      var t = total();
+      segs.forEach(function (s, i) {
+        /* A BASE OF ONE, not 0.0001. With flex-grow proportional to the raw value, a
+           leg at zero collapsed to its min-width and the rail read as two stray boxes
+           before the learner had touched anything. Adding a base keeps every leg
+           visible at rest and still makes the rail proportional once there are days
+           in it. */
+        s.el.style.flexGrow = String(1 + vals[i]);
+        s.v.textContent = vals[i] + "d";
+        s.el.classList.toggle("is-zero", vals[i] === 0);
+      });
+      totalEl.textContent = t + " days in total — " +
+        (t > 365 ? "longer than a year" : "shorter than a year");
+      totalEl.className = "cyc-total " + (t > 365 ? "is-long" : "is-short");
+      yearMark.style.opacity = t ? "1" : ".45";
+    }
+    draw();
+
+    return function () {
+      var right = 0, yours = [];
+      legs.forEach(function (p, i) {
+        var ok = vals[i] === p.days;
+        if (ok) right++;
+        segs[i].el.classList.remove("ok", "no");
+        segs[i].el.classList.add(ok ? "ok" : "no");
+        if (!ok) yours.push({ k: "n", html: "<b>" + esc(p.label) + "</b> is " + p.days +
+                                            " days. " + (p.why || "") });
+      });
+      var rOk = chose === spec.rule;
+      if (rOk) right++;
+      if (chose && ruleEls[chose]) {
+        ruleEls[chose].classList.remove("on");
+        ruleEls[chose].classList.add(rOk ? "ok" : "no");
+      }
+      if (!rOk) yours.push({ k: "n", html: spec.ruleWhy });
+
+      var total_ = legs.length + 1;
+      return { score: right, total: total_, ok: right === total_,
+               verdict: right === total_
+                 ? "The cycle is " + total() + " days, and the right test follows."
+                 : right + " of " + total_ + " right",
+               html: yoursFirst(yours, right === total_
+                 ? [{ k: "y", html: spec.ruleWhy }] : []) };
     };
   });
 })(window, document);

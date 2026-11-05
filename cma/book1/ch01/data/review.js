@@ -7,6 +7,12 @@
     id: "review", up: "../",
     title: "Mixed review",
     terms: T.bridge("1.4"),
+    /* the Brief carries the terms and what this page asks; this page has no
+       prose of the author's to summarise and no mechanism to draw. */
+    brief: {
+      /* the T: one side increases an account, the other reduces it */
+      anim: "tAccount"
+    },
     scenes: [
 
     { id: "traps", kind: "traps",

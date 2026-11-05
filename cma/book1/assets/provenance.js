@@ -151,6 +151,14 @@
     function C(d, s, w, t) { var b = checkContent(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90) }); }
     function H(d, s, w, t) { var b = checkChrome(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90), chrome: true }); }
     decks.forEach(function (d) {
+      /* THE BRIEF IS THE ONE PLACE THAT LECTURES, so it is the one place where a wrong
+         sentence would be believed without being tested. Its summary is CONTENT: every
+         word of it must appear in the author's chapter. The animation NAME is a key into
+         assets/brief.js, not prose, so it is not audited as text - what keeps a drawing
+         honest is the rule that it may only move what the author's figure already shows,
+         and gates/cma_render checking that the name resolves to a real drawing. */
+      if (d.brief && d.brief.about) C(d.id, "brief", "brief.about", d.brief.about);
+      if (d.brief && d.brief.animNote) C(d.id, "brief", "brief.animNote", d.brief.animNote);
       (d.scenes || []).forEach(function (s) {
         H(d.id, s.id, "title", s.title); H(d.id, s.id, "say", s.say); H(d.id, s.id, "kicker", s.kicker);
         (s.targets || []).forEach(function (t) {
@@ -202,6 +210,24 @@
         (s.answers || []).forEach(function (x) { C(d.id, s.id, "cloze", x.word); C(d.id, s.id, "cloze.why", x.why); });
         (s.extra || []).forEach(function (x) { C(d.id, s.id, "cloze.extra", x); });
         (s.parts || []).forEach(function (x) { C(d.id, s.id, "cloze.part", x); });
+        /* "cycle" — the operating cycle built from its legs. The field is `legs` and not
+           `parts` because `parts` above is the cloze's array of STRINGS: pointing this at
+           objects made the lock stringify them and report "object" as taught content. */
+        (s.legs || []).forEach(function (x) { C(d.id, s.id, "leg", x.label); C(d.id, s.id, "leg.why", x.why); });
+        /* "ladder" - a likelihood, the treatment it forces, and the author's sentence. */
+        (s.rungs || []).forEach(function (x) {
+          C(d.id, s.id, "rung", x.likelihood); C(d.id, s.id, "rung.treatment", x.treatment);
+          C(d.id, s.id, "rung.why", x.why);
+        });
+        if (s.ruleWhy) C(d.id, s.id, "ruleWhy", s.ruleWhy);
+        /* A HOLE THAT PREDATES THE CYCLE SCENE. `shelf` carries three strings of its own -
+           the question it asks, its opening note and the reason a wrong pick is wrong - and
+           not one of them was audited, so the one scene in Chapter 1 that explains the
+           Codification could have taught anything. `ask` is a prompt, so it is interface;
+           `intro` and `missWhy` make statements about the chapter, so they are content. */
+        if (s.ask) H(d.id, s.id, "ask", s.ask);
+        if (s.intro) C(d.id, s.id, "intro", s.intro);
+        if (s.missWhy) C(d.id, s.id, "missWhy", s.missWhy);
         (s.pairs || []).forEach(function (x) { C(d.id, s.id, "pair.us", x.us); C(d.id, s.id, "pair.ifrs", x.ifrs); });
         /* "lines" — a printed statement read two columns at a time. A scene kind whose fields are
            not listed here is a hole in the lock: it would render the learner taught text that

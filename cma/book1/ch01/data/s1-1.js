@@ -9,6 +9,12 @@
     id: "s1-1", n: "1.1", up: "../",
     title: "Who uses financial statements, and why?",
     terms: T.bridge("1.1"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "A company collects thousands of facts every day: sales, purchases, salaries and loans. Financial statements summarize these facts in a standard form for people outside the company. The four main statements are the balance sheet, the income statement, the statement of changes in equity and the statement of cash flows.",
+      anim: "readers"
+    },
     scenes: [
 
     { id: "table", kind: "table",
@@ -72,10 +78,16 @@
         { id: "is", label: "Income statement" },
         { id: "cf", label: "Statement of cash flows" }
       ],
+      /* The three reasons were empty strings, so a learner who put a question on the
+         wrong statement was told nothing and the answer key printed a blank line. Each
+         one is now the author's own row from the §1.6 overview table. */
       items: [
-        { name: "What does the company have, and what does it owe?", to: "bs", why: "" },
-        { name: "How did the company perform in the period?", to: "is", why: "" },
-        { name: "Where did cash come from, and where did it go?", to: "cf", why: "" }
+        { name: "What does the company have, and what does it owe?", to: "bs",
+          why: "Balance sheet: what does the company have and owe, and what is the owners' claim? At a date." },
+        { name: "How did the company perform in the period?", to: "is",
+          why: "Income statement: how did the company perform? For a period." },
+        { name: "Where did cash come from, and where did it go?", to: "cf",
+          why: "Statement of cash flows: where did cash come from, and where did it go? For a period." }
       ],
       distractors: [
         { name: "Why did each equity account change?",

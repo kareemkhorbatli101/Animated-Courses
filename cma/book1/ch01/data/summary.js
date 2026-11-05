@@ -6,9 +6,16 @@
     id: "summary", up: "../",
     title: "Chapter summary",
     terms: T.keys().slice(8),
+    /* the Brief carries the terms and what this page asks; this page has no
+       prose of the author's to summarise and no mechanism to draw. */
+    brief: {},
     scenes: [
 
-    { id: "fig-f01-13", kind: "figure", file: "F01-13.png",
+    { id: "fig-f01-13", kind: "figure",
+      /* The summary map prints six of the eight words the summary cloze blanks and
+         the key rule the summary sort asks for, so there is nowhere on this page it
+         can stand without being the answer. It goes to the Brief. */
+      inBrief: true, file: "F01-13.png",
       label: "Figure F01-13.", caption: "Chapter 1 summary map: the key rule for each of the seven topics." },
 
 

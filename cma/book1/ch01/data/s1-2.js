@@ -8,6 +8,12 @@
     id: "s1-2", n: "1.2", up: "../",
     title: "The building blocks: elements and the accounting equation",
     terms: T.bridge("1.2"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "Every amount in the financial statements belongs to an element. The FASB conceptual framework defines ten elements. Three of them describe the balance sheet at one date. • An asset is a present right of an entity to an economic benefit. Examples: cash, accounts receivable, inventory and equipment. • A liability is a present obligation of an entity to transfer an economic benefit. Examples: accounts payable, notes payable and wages payable.",
+      anim: "equation"
+    },
     scenes: [
 
     { id: "fig-f01-03", kind: "figure", file: "F01-03.png",

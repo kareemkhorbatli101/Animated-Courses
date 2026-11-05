@@ -10,6 +10,10 @@
   "title": "Limitations and links to the other statements",
   "n": "2.5",
   "terms": T.bridge("2.5"),
+  "brief": {
+    "about": "The balance sheet is useful, but it is not a valuation of the company. Most assets are at historical cost, not current value: Orontes's land and buildings are shown at what they cost years ago. Many amounts depend on estimates, such as the allowance for credit losses and useful lives. Important resources are missing. Finally, the balance sheet shows one day. The four statements are connected.",
+    "anim": "links"
+  },
   "scenes": [
     {
       "id": "fig-f02-09",
@@ -17,6 +21,71 @@
       "file": "F02-09.png",
       "label": "Figure F02-09.",
       "caption": "How the Orontes 2025 statements link to the balance sheet."
+    },
+    {
+      "id": "links",
+      "kind": "wire",
+      "kicker": "Figure F02-09",
+      "title": "Tie each statement to the balance sheet",
+      "say": "Two amounts on the balance sheet are produced by another statement. Click one end of a link, then the other. An extra connection costs the answer.",
+      "cards": [
+        {
+          "title": "Income statement",
+          "sub": "for the year",
+          "ports": [
+            {
+              "id": "ni",
+              "label": "net income"
+            }
+          ]
+        },
+        {
+          "title": "Statement of changes in equity",
+          "sub": "for the year",
+          "ports": [
+            {
+              "id": "re",
+              "label": "closing retained earnings"
+            }
+          ]
+        },
+        {
+          "title": "Statement of cash flows",
+          "sub": "for the year",
+          "ports": [
+            {
+              "id": "cash",
+              "label": "net change in cash"
+            }
+          ]
+        },
+        {
+          "title": "Balance sheet",
+          "sub": "at December 31, 2025",
+          "ports": [
+            {
+              "id": "cashbal",
+              "label": "cash"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "id": "l1",
+          "from": "ni",
+          "to": "re",
+          "carries": "→",
+          "why": "Net income from the income statement increases retained earnings in the statement of changes in equity, and the closing retained earnings appear on the balance sheet."
+        },
+        {
+          "id": "l2",
+          "from": "cash",
+          "to": "cashbal",
+          "carries": "→",
+          "why": "The net change in cash in the statement of cash flows explains the change in the balance-sheet cash."
+        }
+      ]
     },
     {
       "id": "links",

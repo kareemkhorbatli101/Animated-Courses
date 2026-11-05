@@ -1,0 +1,236 @@
+[
+ {
+  "kind": "check",
+  "file": "objects.js",
+  "bytes": 1977,
+  "inputs": [],
+  "graded": true
+ },
+ {
+  "kind": "gauges",
+  "file": "objects.js",
+  "bytes": 2329,
+  "inputs": [],
+  "graded": true
+ },
+ {
+  "kind": "traps",
+  "file": "objects2.js",
+  "bytes": 1604,
+  "inputs": [],
+  "graded": true
+ },
+ {
+  "kind": "beam",
+  "file": "objects2.js",
+  "bytes": 3281,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "cloze",
+  "file": "objects2.js",
+  "bytes": 1623,
+  "inputs": [
+   "drag"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "contra",
+  "file": "objects2.js",
+  "bytes": 3671,
+  "inputs": [
+   "drag"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "cues",
+  "file": "objects2.js",
+  "bytes": 19850,
+  "inputs": [
+   "drag",
+   "click",
+   "select"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "figure",
+  "file": "figure.js",
+  "bytes": 1755,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "flash",
+  "file": "objects2.js",
+  "bytes": 3535,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "lines",
+  "file": "lines.js",
+  "bytes": 2268,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "locks",
+  "file": "objects.js",
+  "bytes": 1697,
+  "inputs": [
+   "slider",
+   "typing"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "number",
+  "file": "objects.js",
+  "bytes": 2063,
+  "inputs": [
+   "slider",
+   "typing"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "order",
+  "file": "objects.js",
+  "bytes": 2724,
+  "inputs": [
+   "drag",
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "post",
+  "file": "objects2.js",
+  "bytes": 12111,
+  "inputs": [
+   "drag",
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "probe",
+  "file": "objects.js",
+  "bytes": 1347,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "shelf",
+  "file": "objects2.js",
+  "bytes": 1518,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "sort",
+  "file": "objects.js",
+  "bytes": 7499,
+  "inputs": [
+   "drag"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "split",
+  "file": "objects2.js",
+  "bytes": 1789,
+  "inputs": [
+   "slider"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "statement",
+  "file": "objects.js",
+  "bytes": 7106,
+  "inputs": [
+   "drag"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "switch",
+  "file": "objects2.js",
+  "bytes": 1859,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "table",
+  "file": "objects2.js",
+  "bytes": 1853,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "tank",
+  "file": "objects2.js",
+  "bytes": 2618,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "tbreader",
+  "file": "objects2.js",
+  "bytes": 2963,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "termcards",
+  "file": "objects2.js",
+  "bytes": 2297,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "timeline2",
+  "file": "objects2.js",
+  "bytes": 1949,
+  "inputs": [
+   "slider"
+  ],
+  "graded": true
+ },
+ {
+  "kind": "wire",
+  "file": "objects2.js",
+  "bytes": 3086,
+  "inputs": [
+   "click"
+  ],
+  "graded": true
+ }
+]

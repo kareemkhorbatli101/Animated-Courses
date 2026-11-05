@@ -10,6 +10,10 @@
   "title": "Current and noncurrent items",
   "n": "2.2",
   "terms": T.bridge("2.2"),
+  "brief": {
+    "about": "Current assets are cash and other assets that the company expects to turn into cash, sell or use up within one year or within its operating cycle, whichever is longer. The operating cycle is the average time from buying materials to collecting cash from customers. Current liabilities are obligations the company expects to settle by using current assets or by creating other current liabilities. Figure F02-03 shows Orontes's cycle.",
+    "anim": "cycle"
+  },
   "scenes": [
     {
       "id": "fig-f02-03",
@@ -17,6 +21,29 @@
       "file": "F02-03.png",
       "label": "Figure F02-03.",
       "caption": "Orontes's operating cycle: cash to inventory to receivables to cash."
+    },
+    {
+      "id": "cycle",
+      "kind": "cycle",
+      "kicker": "Figure F02-03",
+      "title": "Build Orontes's operating cycle",
+      "say": "Current assets are cash and other assets that the company expects to turn into cash, sell or use up within one year or within its operating cycle, whichever is longer.",
+      "maxDays": 120,
+      "ask": "That is the cycle. Which test does it make you use?",
+      "legs": [
+        {
+          "label": "Days to sell its inventory",
+          "days": L.printed.cycleInventory,
+          "why": "It takes about 32 days to sell its inventory."
+        },
+        {
+          "label": "Days to collect from customers",
+          "days": L.printed.cycleCollect,
+          "why": "It takes 34 days to collect from customers."
+        }
+      ],
+      "rule": "year",
+      "ruleWhy": "Because the cycle is shorter than a year, Orontes uses one year to classify its items. The cycle only takes over when it is longer."
     },
     {
       "id": "worked-three",

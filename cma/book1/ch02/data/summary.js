@@ -8,13 +8,18 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
+  "terms": T.keys(),
+  "brief": {
+    "anim": "bands"
+  },
   "scenes": [
     {
       "id": "fig-f02-12",
       "kind": "figure",
       "file": "F02-12.png",
       "label": "Figure F02-12.",
-      "caption": "Chapter 2 summary map: the key rule for each section."
+      "caption": "Chapter 2 summary map: the key rule for each section.",
+      "inBrief": true
     },
     {
       "id": "rules",

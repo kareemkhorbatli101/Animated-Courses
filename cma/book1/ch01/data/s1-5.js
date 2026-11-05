@@ -8,6 +8,14 @@
     id: "s1-5", n: "1.5", up: "../",
     title: "Who writes the rules? U.S. GAAP and IFRS",
     terms: T.bridge("1.5"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "In the United States, the accounting rules are called U.S. GAAP (generally accepted accounting principles). The FASB (Financial Accounting Standards Board) writes them. The FASB is a private, independent organization. It keeps all U.S. GAAP in one place: the Accounting Standards Codification (ASC). The ASC is the single source of authoritative nongovernmental U.S. GAAP. It is organized by topic numbers. For example, ASC 606 covers revenue and ASC 842 covers leases.",
+      /* two rulebooks and which one the exam uses - the author's own sentence from
+         §1.5, so this section has a mechanism after all */
+      anim: "rules"
+    },
     scenes: [
 
     { id: "fig-f01-08", kind: "figure", file: "F01-08.png",

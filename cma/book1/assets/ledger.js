@@ -155,25 +155,38 @@
 
   /* ---------------------------------------------------------------- *
    * 3. Orontes Foods, Inc. — February 2025 (Your Turn, 1.3)
-   *    F01-06 is the FADED grid: rows 1-3 given, rows 4-6 for the learner.
+   *    F01-06 is the FADED grid: in the BOOK, rows 1-3 are worked and rows 4-6 are the
+   *    learner's. On the site all six are the learner's, and `given` is false on every
+   *    one of them.
+   *
+   *    WHY THAT DIFFERS FROM THE PAGE. A worked row is worked for a reader who cannot be
+   *    asked to do anything - it is the only way a printed page can demonstrate. Here the
+   *    learner can be asked, and the three rows the author chose to demonstrate are the
+   *    three that teach the most: paying a payable, collecting a receivable, and prepaying
+   *    rent. Handing them over pre-posted meant the one who most needed the practice
+   *    watched it happen. The author's worked version is still there - in the Brief and in
+   *    the answer key - so nothing is withheld; it is just no longer done FOR them.
+   *
+   *    `given` is kept rather than deleted: it is the author's own structure, and a future
+   *    chapter may want a demonstrated row again.
    * ---------------------------------------------------------------- */
 
   var february = [
-    { n: 1, date: "Feb 3", given: true,
+    { n: 1, date: "Feb 3", given: false,
       text: "Paid a supplier for olives bought on credit in January.",
       short: "Pay a supplier",
       entry: [ { side: "dr", account: "Accounts payable", amount: 150 },
                { side: "cr", account: "Cash", amount: 150 } ],
       eff: { a: -150, l: -150, e: 0, ni: 0, cf: "operating", cfAmount: -150 } },
 
-    { n: 2, date: "Feb 8", given: true,
+    { n: 2, date: "Feb 8", given: false,
       text: "Collected part of the January receivable from GreenBasket Supermarkets.",
       short: "Collect from a customer",
       entry: [ { side: "dr", account: "Cash", amount: 200 },
                { side: "cr", account: "Accounts receivable", amount: 200 } ],
       eff: { a: 0, l: 0, e: 0, ni: 0, cf: "operating", cfAmount: 200 } },
 
-    { n: 3, date: "Feb 10", given: true,
+    { n: 3, date: "Feb 10", given: false,
       text: "Paid 12 months of warehouse rent in advance.",
       short: "Pay rent in advance",
       entry: [ { side: "dr", account: "Prepaid rent", amount: 24 },

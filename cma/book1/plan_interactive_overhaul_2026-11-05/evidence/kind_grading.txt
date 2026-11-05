@@ -1,0 +1,50 @@
+kind         verdict   score expression(s)
+------------------------------------------------------------------------------
+lines        PASSIVE   0
+                       verdict: "Read"
+probe        PASSIVE   n
+                       verdict: all ? "All read" : n + " of " + spec.probes.length + " read"
+shelf        PASSIVE   n
+table        PASSIVE   n
+                       verdict: n === spec.seats.length ? "Every seat read." : n + " of " + spec.seats
+termcards    PASSIVE   n
+                       verdict: n + " of " + spec.groups.length + " lists opened"
+timeline2    PASSIVE   n
+                       verdict: n === spec.stops.length ? "You have seen the whole timeline." : n + "
+beam         active    st.log.length
+                       verdict: done ? "All applied
+check        active    ok ? 1 : 0
+                       verdict: ok ? "Right" : "Not right — read why"
+cloze        active    right
+contra       active    ok ? 1 : 0
+cues         active    right | n | n | right | right | n | f.length - open.length
+                       verdict: n === spec.seats.length ? "Every seat read." : n + " of " + spec.seats
+                       verdict: right + " of " + seen + " right"
+                       verdict: n + " of " + spec.groups.length + " lists opened"
+                       verdict: f.length ? (open.length ? open.length + " still open" : "All cleared")
+figure       active    0
+                       verdict: "Looked at"
+flash        active    right
+                       verdict: right + " of " + seen + " right"
+gauges       active    ok ? 1 : 0
+locks        active    right
+                       verdict: right === rows.length ? "All three ties shut." : right + " of " + rows
+number       active    right
+order        active    right
+post         active    n
+                       verdict: ok ? (n === txs.length ? "All " + txs.length + " recorded." :
+sort         active    right
+split        active    ok ? 1 : 0
+statement    active    right
+                       verdict: done ? spec.sealText : right + " of " + total + " lines right"
+switch       active    flips ? 1 : 0
+                       verdict: flips ? "Seen both" : "Flip the switch first"
+tank         active    n
+                       verdict: all ? "Every pipe tried." : n + " of " + spec.pipes.length + " tried"
+tbreader     active    right
+traps        active    f.length - open.length
+                       verdict: f.length ? (open.length ? open.length + " still open" : "All cleared")
+wire         active    n
+                       verdict: n === spec.links.length ? "Both links wired." : n + " of " + spec.link
+
+PASSIVE kinds: ['lines', 'probe', 'timeline2', 'table', 'shelf', 'termcards']

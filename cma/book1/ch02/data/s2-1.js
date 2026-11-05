@@ -10,11 +10,14 @@
   "title": "Purpose and structure of the balance sheet",
   "n": "2.1",
   "terms": T.bridge("2.1"),
+  "brief": {
+    "about": "The balance sheet reports a company's assets, liabilities and equity at one point in time. It answers three questions for investors and lenders. Can the company pay its bills in the coming months? This is liquidity. Can it pay all its debts over time? This is solvency. Can it raise cash or change its plans if something unexpected happens? This is financial flexibility. U.S. Read the figure from the top.",
+    "anim": "bands"
+  },
   "scenes": [
     {
       "id": "bs-read",
       "kind": "lines",
-      "study": true,
       "kicker": "Figure F02-02",
       "title": "The classified balance sheet, two years side by side",
       "say": "Current items first, then noncurrent; liabilities in the same order; equity last.",
@@ -224,6 +227,45 @@
           "a": "31,672,600",
           "b": "26,445,000",
           "total": true
+        }
+      ]
+    },
+    {
+      "id": "sections",
+      "kind": "order",
+      "kicker": "Figure F02-02",
+      "title": "Read the figure from the top",
+      "say": "Current assets come first, from cash down to assets held for sale. Liabilities follow the same order, and equity comes last.",
+      "items": [
+        {
+          "text": "Current assets",
+          "pos": 1,
+          "needs": "cash first",
+          "why": "Current assets come first, from cash down to assets held for sale."
+        },
+        {
+          "text": "Noncurrent assets",
+          "pos": 2,
+          "needs": "after the current assets",
+          "why": "Then come the noncurrent assets: investments, property, plant and equipment, and intangible assets."
+        },
+        {
+          "text": "Current liabilities",
+          "pos": 3,
+          "needs": "the same order again",
+          "why": "Liabilities follow the same order, so the current ones come first."
+        },
+        {
+          "text": "Noncurrent liabilities",
+          "pos": 4,
+          "needs": "after the current ones",
+          "why": "Long-term debt, less current portion, and the deferred tax liability sit here."
+        },
+        {
+          "text": "Stockholders' equity",
+          "pos": 5,
+          "needs": "nothing after it",
+          "why": "Liabilities follow the same order, and equity comes last."
         }
       ]
     },

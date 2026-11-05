@@ -74,6 +74,14 @@
   var arGross     = P.arNet + allowance;               /*  4,300,000 */
   var ppeGross    = P.ppeNet + P.accumDep;             /* 26,790,000 */
 
+  /* The whole bank debt. Figure F02-10 prints the two LINES it reaches the balance
+     sheet as - "Current portion of long-term debt 400,000" and "Long-term debt, less
+     current portion 6,000,000" - and never their sum, because the sum is not a line on
+     a classified balance sheet. The §2.3 split exercise needs the one obligation the
+     learner is dividing, so it is derived here, from two printed figures, and tied
+     below like every other derivation. */
+  P.debtTotal = P.cpltd + P.ltd;                       /*  6,400,000 DERIVED */
+
   /* The raw accounts a preparer starts from: this is what the §2.6 statement scene hands the
      learner, so the contra accounts have to be netted and the debt split by hand. */
   var accounts = [
@@ -166,6 +174,7 @@
       t("Current ratio as printed", ratios.currentRatio, P.currentRatio),
       t("The common error as printed", ratios.commonError, P.commonError),
       t("Operating cycle in days", P.cycleInventory + P.cycleCollect, P.cycleDays),
+      t("The bank debt splits into the two printed lines", P.debtTotal, P.cpltd + P.ltd),
       t("Case: total current assets", kase.currentAssets, 1774),
       t("Case: total current liabilities", kase.currentLiabs, 730),
       t("Case: working capital", kase.workingCapital, 1044)

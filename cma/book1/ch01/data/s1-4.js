@@ -9,6 +9,12 @@
     id: "s1-4", n: "1.4", up: "../",
     title: "The accrual basis and the matching principle",
     terms: T.bridge("1.4"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "When should a company record revenues and expenses? U.S. GAAP financial statements use the accrual basis. Under the accrual basis, a company records revenue when it earns it, that is, when it delivers the goods or services. It records expenses when it incurs them. The timing of the cash does not decide the period. The cash basis records items only when cash is received or paid.",
+      anim: "accrual"
+    },
     scenes: [
 
     { id: "fig-f01-07", kind: "figure", file: "F01-07.png",

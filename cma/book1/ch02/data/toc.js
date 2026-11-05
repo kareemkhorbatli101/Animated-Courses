@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.1",
   "title": "Purpose and structure of the balance sheet",
-  "blurb": "A printed statement, cloze, questions · 5 scenes"
+  "blurb": "A printed statement, sequence, cloze, questions · 6 scenes"
  },
  {
   "id": "s2-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.2",
   "title": "Current and noncurrent items",
-  "blurb": "Figures, sorts, cloze, questions · 6 scenes"
+  "blurb": "Figures, cycle, sorts, cloze, questions · 7 scenes"
  },
  {
   "id": "s2-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.3",
   "title": "Classifying debt",
-  "blurb": "Figures, sorts, cloze, questions · 6 scenes"
+  "blurb": "Figures, split, sorts, cloze, questions · 7 scenes"
  },
  {
   "id": "s2-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.4",
   "title": "Other presentation matters",
-  "blurb": "Figures, sorts, cloze, questions · 7 scenes"
+  "blurb": "Figures, ladder, sorts, cloze, questions · 8 scenes"
  },
  {
   "id": "s2-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.5",
   "title": "Limitations and links to the other statements",
-  "blurb": "Figures, cloze, questions · 5 scenes"
+  "blurb": "Figures, wire, cloze, questions · 6 scenes"
  },
  {
   "id": "s2-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.6",
   "title": "Extended Example 2A: building the Orontes balance sheet",
-  "blurb": "Sequence, build the statement, the tie lines, amounts, cloze, questions · 8 scenes"
+  "blurb": "Sequence, build the statement, contra, the tie lines, amounts, cloze, questions · 9 scenes"
  },
  {
   "id": "summary",

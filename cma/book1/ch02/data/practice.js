@@ -8,6 +8,10 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P2-01–P2-21",
+  "terms": T.keys(),
+  "brief": {
+    "anim": "bands"
+  },
   "scenes": [
     {
       "id": "p2-01",

@@ -1,0 +1,38 @@
+================================================================
+ch01
+================================================================
+  case.js          8 scenes   2 passive  ['probe']
+  index.js         1 scenes   0 passive  []
+  practice.js      1 scenes   0 passive  []
+  review.js        5 scenes   0 passive  []
+  s1-1.js          7 scenes   1 passive  ['table']
+  s1-2.js         10 scenes   4 passive  ['beam', 'figure', 'switch', 'tank']
+  s1-3.js         11 scenes   2 passive  ['figure', 'probe']
+  s1-4.js          7 scenes   2 passive  ['figure', 'timeline2']
+  s1-5.js          7 scenes   4 passive  ['figure', 'probe', 'shelf', 'switch']
+  s1-6.js          8 scenes   2 passive  ['figure', 'wire']
+  s1-7.js         11 scenes   1 passive  ['gauges']
+  summary.js       4 scenes   1 passive  ['figure']
+  terms.js         4 scenes   1 passive  ['termcards']
+  TOTAL 84 scenes: 64 ask for a decision, 20 are graded on looking (23%)
+  passive by kind: {'figure': 6, 'probe': 4, 'switch': 2, 'table': 1, 'beam': 1, 'tank': 1, 'timeline2': 1, 'shelf': 1, 'wire': 1, 'gauges': 1, 'termcards': 1}
+
+================================================================
+ch02
+================================================================
+  case.js          8 scenes   1 passive  ['lines']
+  practice.js     21 scenes   0 passive  []
+  review.js        7 scenes   0 passive  []
+  s2-1.js          5 scenes   1 passive  ['lines']
+  s2-2.js          6 scenes   1 passive  ['figure']
+  s2-3.js          6 scenes   1 passive  ['figure']
+  s2-4.js          7 scenes   1 passive  ['figure']
+  s2-5.js          5 scenes   1 passive  ['figure']
+  s2-6.js          8 scenes   0 passive  []
+  summary.js       3 scenes   1 passive  ['figure']
+  terms.js         3 scenes   1 passive  ['termcards']
+  TOTAL 79 scenes: 71 ask for a decision, 8 are graded on looking (10%)
+  passive by kind: {'figure': 5, 'lines': 2, 'termcards': 1}
+
+BOTH CHAPTERS, passive scenes by kind: {'figure': 11, 'probe': 4, 'switch': 2, 'termcards': 2, 'lines': 2, 'table': 1, 'beam': 1, 'tank': 1, 'timeline2': 1, 'shelf': 1, 'wire': 1, 'gauges': 1}
+BOTH CHAPTERS, passive scene total: 28

@@ -112,6 +112,15 @@
         return li(o.correct ? "y" : "n", "<b>" + strip(o.text) + "</b> " + o.why); })));
     if (k === "shelf") return ul((sc.volumes || []).filter(function (v) { return v.topic; }).map(function (v) {
       return li("y", "<b>ASC " + v.n + "</b> covers " + esc(v.topic) + ". " + esc(v.why || "")); }));
+    if (k === "ladder") return ul((sc.rungs || []).map(function (r) {
+      return li("y", "<b>" + esc(r.likelihood) + " → " + esc(r.treatment) + "</b> " +
+                     esc(r.why || "")); }));
+    /* The operating cycle: each leg's length, then the test that follows from the total.
+       A kind with no branch here is an exercise whose answer a learner cannot look up,
+       which is why gates/cma_interactive checks every kind against this file. */
+    if (k === "cycle") return ul((sc.legs || []).map(function (g) {
+      return li("y", "<b>" + esc(g.label) + ": " + g.days + " days</b> " + esc(g.why || "")); })
+      .concat([li("y", esc(sc.ruleWhy || ""))]));
     if (k === "tbreader") return "<p class=\"note\">Every one of the twenty trial-balance lines, with the " +
       "statement it reaches, is built into the scene itself. The two that catch people are the contra-assets: " +
       "<b>allowance for credit losses</b> and <b>accumulated depreciation</b> both go to the balance sheet, " +

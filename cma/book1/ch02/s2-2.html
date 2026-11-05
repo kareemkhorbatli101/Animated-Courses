@@ -31,11 +31,16 @@
 <script src="../assets/terms-fr-ch02.js"></script>
 <script src="../assets/speech.js"></script>
 <script src="../assets/progress.js"></script>
+<!-- icons.js before scene.js: the term strip asks Icons for a mark as it builds -->
+<script src="../assets/icons.js"></script>
 <script src="../assets/scene.js"></script>
 <script src="../assets/objects.js"></script>
 <script src="../assets/objects2.js"></script>
 <script src="../assets/figure.js"></script>
 <script src="../assets/lines.js"></script>
+<!-- brief.js after scene.js: both listen for DOMContentLoaded, and the Brief needs the
+     bar scene.js builds and the deck scene.js has already folded. -->
+<script src="../assets/brief.js"></script>
 <script src="data/s2-2.js"></script>
 </body>
 </html>

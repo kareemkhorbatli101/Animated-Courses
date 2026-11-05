@@ -50,6 +50,7 @@
 </main>
 
 <script src="assets/ledger.js"></script>
+<script src="assets/icons.js"></script>
 <!-- Every built chapter's terms; see the comment in glossary.html and assets/terms-merge.js. -->
 <script>window.TERM_SETS = [];</script>
 <script src="assets/terms-ch01.js"></script>
@@ -99,7 +100,8 @@
       var li = document.createElement("li");
       var a = document.createElement("a");
       a.href = "ch01/s1-" + t.sec.split(".")[1] + ".html";
-      a.textContent = t.en;
+      if (window.Icons) { var ic = window.Icons.icon(t.en); if (ic) a.appendChild(ic); }
+      a.appendChild(document.createTextNode(t.en));
       li.appendChild(a);
       var s = document.createElement("span");
       s.className = "idx-sec";

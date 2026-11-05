@@ -10,6 +10,12 @@
     id: "s1-7", n: "1.7", up: "../",
     title: "From a trial balance to a set of statements",
     terms: T.bridge("1.6"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "This example takes the Barada trial balance of Figure F01-10 and builds the statements from it, in the order a company prepares them. It is exam-core: the exam often gives a trial balance and asks for one figure from one statement.",
+      anim: "order"
+    },
     scenes: [
 
     /* ---------- 1. sort by element ---------- */

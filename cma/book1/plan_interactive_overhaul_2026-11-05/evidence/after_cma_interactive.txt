@@ -1,0 +1,15 @@
+=== STANDARD A: DECIDE, DO NOT REVEAL ===
+  PASS A1 every exercise can be marked at all               0 of 168 offer no marking: 
+  PASS A2 an untouched exercise is not already right        0 pass untouched: 
+  PASS A3 clicking every button is not enough to pass       0 pass on coverage alone: 
+  PASS A4 every instrument exposes an operable control      0 draw but do not move: 
+  PASS A5 no scene scores the learner on coverage           0 of 26 renderers: 
+  PASS A5 the lint actually read the renderers              26 renderers linted
+  PASS A6 no journal row is posted for the learner          2 posting scene(s), every row the learner's
+  PASS every exercise was reached                           168 exercises, 14 exempt
+
+=== TWELVE CHECKS ON EVERY EXERCISE ===
+  PASS every exercise carries at least ten targeted checks  12 families x 168 exercises = 2016 checks
+  PASS all per-exercise checks pass                         2016 of 2016 pass
+
+RESULT: PASS

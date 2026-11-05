@@ -1,0 +1,29 @@
+chapter,page,kind,title,why_passive
+ch01,case,probe,What the bank and Mr Haddad want,score = how many answers were opened
+ch01,case,probe,The four figures,score = how many answers were opened
+ch01,s1-1,table,"Seven readers, seven different questions",score = how many seats were read
+ch01,s1-2,figure,Three describe a date. Seven describe a period.,"score 0 / total 0, verdict 'Looked at'"
+ch01,s1-2,beam,Assets = Liabilities + Equity,score = number of moves applied
+ch01,s1-2,tank,What moves retained earnings?,verdict 'Every pipe tried.' - credits trying
+ch01,s1-2,switch,"The same statement, two sets of names",verdict 'Seen both' - credits flipping
+ch01,s1-3,figure,Which side increases it?,"score 0 / total 0, verdict 'Looked at'"
+ch01,s1-3,probe,Read the grid you just built,score = how many answers were opened
+ch01,s1-4,figure,"One sale, two years","score 0 / total 0, verdict 'Looked at'"
+ch01,s1-4,timeline2,"One sale, two years",verdict 'You have seen the whole timeline.'
+ch01,s1-5,figure,"Four bodies, four jobs","score 0 / total 0, verdict 'Looked at'"
+ch01,s1-5,shelf,Find the two topics this book builds on,score = how many wanted items were tapped
+ch01,s1-5,switch,"Six names, in the form the exam uses",verdict 'Seen both' - credits flipping
+ch01,s1-5,probe,Four things to carry out of this section,score = how many answers were opened
+ch01,s1-6,figure,"A date, or a period?","score 0 / total 0, verdict 'Looked at'"
+ch01,s1-6,wire,Link the statements together,verdict 'Both links wired.' - credits completing
+ch01,s1-7,gauges,What the lender sees,no input at all: a drawn panel plus one MCQ
+ch01,summary,figure,One rule from each of the seven topics,"score 0 / total 0, verdict 'Looked at'"
+ch01,terms,termcards,Every term in the chapter,verdict 'N of M lists opened'
+ch02,case,lines,The case exhibit,"score 0, verdict 'Read'"
+ch02,s2-1,lines,"The classified balance sheet, two years side by side","score 0, verdict 'Read'"
+ch02,s2-2,figure,"The same test, three times","score 0 / total 0, verdict 'Looked at'"
+ch02,s2-3,figure,Where do U.S. GAAP and IFRS part company?,"score 0 / total 0, verdict 'Looked at'"
+ch02,s2-4,figure,Which of these puts a liability on the balance sheet?,"score 0 / total 0, verdict 'Looked at'"
+ch02,s2-5,figure,How the four statements meet this one,"score 0 / total 0, verdict 'Looked at'"
+ch02,summary,figure,The chapter in one paragraph,"score 0 / total 0, verdict 'Looked at'"
+ch02,terms,termcards,Every bridged term in the chapter,verdict 'N of M lists opened'

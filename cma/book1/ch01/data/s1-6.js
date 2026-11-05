@@ -8,6 +8,12 @@
     id: "s1-6", n: "1.6", up: "../",
     title: "A first look at the four statements",
     terms: T.bridge("1.6"),
+    /* the Brief: the author's own opening for this section, the terms with
+       his Arabic, a voice and one drawing. assets/brief.js builds it. */
+    brief: {
+      about: "The four statements are linked. Figure F01-09 shows the two main links. Net income flows into retained earnings, and the net change in cash explains the cash balance on the balance sheet.",
+      anim: "links"
+    },
     scenes: [
 
     { id: "fig-f01-09", kind: "figure", file: "F01-09.png",

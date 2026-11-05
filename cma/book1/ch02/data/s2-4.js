@@ -10,6 +10,10 @@
   "title": "Other presentation matters",
   "n": "2.4",
   "terms": T.bridge("2.4"),
+  "brief": {
+    "about": "A few more rules decide what appears on the balance sheet and how. All deferred tax assets and liabilities are noncurrent. Orontes shows its deferred tax liability of $999,625 below long-term debt. Assets and liabilities may be offset only when a right of setoff exists: the two parties owe each other determinable amounts, the company has the legal right and the intent to set them off, and the right is enforceable.",
+    "anim": "ladder"
+  },
   "scenes": [
     {
       "id": "fig-f02-08",
@@ -17,6 +21,30 @@
       "file": "F02-08.png",
       "label": "Figure F02-08.",
       "caption": "Subsequent events: adjust for conditions that existed at year-end; disclose new ones."
+    },
+    {
+      "id": "ladder",
+      "kind": "ladder",
+      "kicker": "Figure F02-07",
+      "title": "How likely, and what the company does",
+      "say": "Likelihood of the loss, and what the company does about it.",
+      "rungs": [
+        {
+          "likelihood": "Probable, and reasonably estimable",
+          "treatment": "Accrue a liability and a loss",
+          "why": "A probable, estimable loss must be accrued."
+        },
+        {
+          "likelihood": "Only reasonably possible",
+          "treatment": "Disclose it in a note",
+          "why": "If it is only reasonably possible, the company discloses it in a note."
+        },
+        {
+          "likelihood": "Remote",
+          "treatment": "Do nothing",
+          "why": "If it is remote, the company does nothing."
+        }
+      ]
     },
     {
       "id": "ctg-accrue",

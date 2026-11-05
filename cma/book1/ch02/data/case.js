@@ -8,11 +8,15 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada Wholesale",
+  "terms": T.keys(),
+  "brief": {
+    "anim": "bands"
+  },
   "scenes": [
     {
       "id": "exhibit",
       "kind": "lines",
-      "study": true,
+      "data": true,
       "kicker": "Figure F02-13",
       "title": "The case exhibit",
       "say": "Fourteen balances and four memos. Read the memos: three of them change an answer.",

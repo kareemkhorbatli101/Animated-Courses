@@ -8,6 +8,7 @@
   "id": "terms",
   "up": "../",
   "title": "Term bank",
+  "brief": {},
   "scenes": [
 
     { id: "en-ar", kind: "flash",

@@ -36,6 +36,14 @@
     var m = String(root.location.search || "").match(/[?&]seed=(\d+)/);
     return m ? Number(m[1]) : null;
   })(), seedN = 0;
+  /* ?seed= EXISTS SO A SCREEN CAN BE REPRODUCED - to show somebody the exact board a
+     learner was looking at, and so an automated check can compare two renders. It did
+     not do that. seedN counted up forever, so the second render of the same scene drew
+     from a different stream than the first: pressing Try Again, or simply coming back
+     to a scene, reshuffled it even under a fixed seed, and a determinism check saw two
+     different stages. Resetting the counter at the start of every render makes the nth
+     shuffle WITHIN a scene reproducible, which is what reproducing a screen means. */
+  function resetSeed() { seedN = 0; }
   function rnd() {
     if (seed === null) return Math.random;
     var s = (seed + (seedN++) * 7919) % 2147483647;
@@ -242,6 +250,12 @@
     terms.forEach(function (t) {
       var c = E("button", "tchip");
       c.type = "button";
+      /* a drawn mark for the term, from assets/icons.js: its family's shape with its own
+         part lit. Absent if that file is not loaded, which is why it is guarded. */
+      if (root.Icons) {
+        var ic = root.Icons.icon(t.en);
+        if (ic) c.appendChild(ic);
+      }
       c.appendChild(E("span", null, t.en));
       if (S) {
         var b1 = S.button(t.en, "en", "Pronounce in English");
@@ -273,12 +287,97 @@
     host.appendChild(bar);
   }
 
+  /* ---------------- exhibits: a figure is never a scene ----------------
+   *
+   * The chapter's data decks list the author's figures and printed statements in the
+   * order he prints them, as scenes of their own. That is faithful to the book and
+   * wrong for a learner: a picture cannot be got wrong, so eleven figure scenes and
+   * two statement scenes were thirteen screens that marked nobody, and a chapter made
+   * of interactive objects still read as a lecture.
+   *
+   * So the deck is folded before it is shown. Each figure or statement becomes an
+   * EXHIBIT on the next exercise, and that exercise is what gets marked. The data
+   * decks are untouched — they stay the book's record — and no picture is lost; each
+   * one now sits on the same screen as the question it is evidence for.
+   *
+   * An exhibit at the very end of a deck has nothing following it, so it attaches to
+   * the last exercise instead. Attaching it to nothing would silently drop a figure.
+   */
+  var EXHIBIT_SLOT = { figure: "fig", lines: "lines" };
+
+  /* WHERE AN EXHIBIT GOES, AND THE MISTAKE THAT SETTLED IT.
+   *
+   * The first version folded every figure onto the NEXT exercise, which is where the
+   * book prints it. That turned out to put the answer key directly above the question,
+   * again and again, because the author prints a figure immediately before the exercise
+   * built on it: F01-04 lists all six account types under "increase with a DEBIT" and
+   * "increase with a CREDIT", and the sort beneath it asks exactly that; F01-09 labels
+   * every statement "for a PERIOD" or "at a DATE", and the sort beneath it asks exactly
+   * that; F02-03 prints "32 ... 34 ... 66 days ... shorter than a year, so Orontes uses
+   * one year", which is every answer the cycle exercise wants. Eleven "Looked at" slides
+   * had been replaced by eight answer keys, and it looked entirely normal.
+   *
+   * Moving each one on by a single exercise did not fix it - F01-09 simply landed on the
+   * wire exercise it also answers - because the figure answers the SECTION, not one
+   * question in it.
+   *
+   * So a figure is a REFERENCE and goes at the END of its section: the Brief explains
+   * before, the exercises ask, and the author's own figure closes the section as the
+   * thing to carry away. An exhibit the learner cannot answer WITHOUT - a list of
+   * accounts to classify - declares `data: true` and folds forward instead.
+   */
+  function foldExhibits(scenes, page) {
+    var out = [], atEnd = [];
+    (scenes || []).forEach(function (s) {
+      var slot = EXHIBIT_SLOT[s && s.kind];
+      if (slot) {
+        /* A FIGURE THAT ANSWERS ITS WHOLE PAGE HAS NOWHERE ON IT TO STAND. The chapter
+           summary map is the clearest case: F01-13 prints six of the eight words the
+           summary cloze blanks and the key rule the summary sort asks for, so wherever
+           it lands on that page it is the answer. It goes to the Brief instead - the
+           one place in this design that is allowed to explain - and the page stays a
+           test. Declared with inBrief on the figure, never guessed. */
+        if (s.inBrief) {
+          page.brief = page.brief || {};
+          page.brief.figs = (page.brief.figs || []).concat([s]);
+          return;
+        }
+        atEnd.push({ slot: slot, data: s, now: !!s.data });
+        return;
+      }
+      for (var i = atEnd.length - 1; i >= 0; i--) {
+        if (!atEnd[i].now) continue;
+        if (!s[atEnd[i].slot]) s[atEnd[i].slot] = atEnd[i].data;
+        atEnd.splice(i, 1);
+      }
+      out.push(s);
+    });
+    /* Whatever is left is a reference, and it closes the PRACTICE - the last scene that
+       is not one of the author's own section-check questions.
+       Not simply the last scene: §2.5 ends with "Which amount on the statement of cash
+       flows must equal an amount on the balance sheet?", and F02-09 draws that link with
+       the arrow labelled. Putting the reference on the final question answered the
+       author's own assessment. Landing it on the last practice scene instead means the
+       learner meets the figure having done the work, and still has to answer the
+       section check from what they now know. */
+    var host = null;
+    for (var j = out.length - 1; j >= 0; j--) {
+      if (out[j].kind !== "check") { host = out[j]; break; }
+    }
+    if (!host) host = out[out.length - 1];
+    atEnd.forEach(function (p) {
+      if (host && !host[p.slot]) host[p.slot] = p.data;
+    });
+    return out;
+  }
+
   /* ---------------- the deck ---------------- */
   var SCENES = {};        /* registered by objects.js */
   var current = 0, api = null, page = null, done = {};
 
   function build() {
     page = root.PAGE;
+    page.scenes = foldExhibits(page.scenes, page);
     doc.body.insertBefore(topBar(), doc.body.firstChild);
     var deck = E("div", "deck");
     var w = E("div", "wrap");
@@ -389,20 +488,22 @@
     host.appendChild(live);
 
     var foot = E("div", "scene-foot");
-    /* A STUDY SCENE HAS NOTHING TO CHECK. The author's figures are shown as scenes so they sit where
-       the chapter puts them and count as something you have seen - but offering "Check Answers" on a
-       picture invites a learner to press it and be told nothing, which teaches them the button is
-       noise. A scene that declares itself study-only gets Next and no marking.
+    /* THERE ARE NO LONGER ANY STUDY SCENES, and that is the point of this rewrite.
+       This used to hide marking for any figure, and for any scene declaring
+       study:true, on the reasonable-sounding grounds that a Check button which tells
+       you nothing teaches a learner to stop pressing it. The reasoning was sound and
+       the conclusion was backwards: the answer is not to stop marking the screen, it
+       is to stop having screens with nothing to mark. Figures and printed statements
+       are now exhibits inside exercises (see foldExhibits), so every screen in the
+       deck has a decision on it and every screen marks.
 
-       A scene can also DECLARE itself study-only with study:true, which is how the printed
-       statements say so: "lines" renders a balance sheet to read, and offering to mark a reading
-       is the same empty promise as offering to mark a picture. */
-    var studyOnly = !!(spec && (spec.kind === "figure" || spec.study === true));
+       study:true is deliberately NOT honoured any more. Leaving it as an escape hatch
+       would let the next person reintroduce exactly the thing this removed, and the
+       gate would have no way to tell an unmarkable screen from an intentional one. */
     var check = E("button", "btn btn-primary btn-check", "Check Answers");
     check.type = "button";
     var again = E("button", "btn btn-ghost btn-again", "Try Again");
     again.type = "button";
-    if (studyOnly) { check.style.display = "none"; again.style.display = "none"; }
     var verdict = E("span", "verdict");
     verdict.setAttribute("aria-live", "polite");
     foot.appendChild(check);
@@ -440,11 +541,21 @@
             esc: esc, fbList: fbList, yoursFirst: yoursFirst, L: L, S: S };
 
     function render() {
+      /* the shuffle stream restarts here, so this scene renders the same way every
+         time under a fixed ?seed= - including after Try Again */
+      resetSeed();
       stage.innerHTML = "";
       fb.className = "fb";
       fb.innerHTML = "";
       verdict.textContent = "";
       verdict.className = "verdict";
+      /* The exhibit goes in first, so the author's evidence is above the task that
+         uses it. It is rebuilt on Try Again along with everything else, because a
+         figure left behind while the exercise under it reset was the sort of stale
+         half-screen that makes a learner distrust the whole page. */
+      var X = root.Exhibit || {};
+      if (spec.fig && X.fig) stage.appendChild(X.fig(spec.fig));
+      if (spec.lines && X.lines) stage.appendChild(X.lines(spec.lines));
       var r = SCENES[spec.kind];
       if (!r) { stage.appendChild(E("p", null, "Unknown scene kind: " + spec.kind)); return; }
       api.grade = r(stage, spec, api);

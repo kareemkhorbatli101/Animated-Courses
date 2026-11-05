@@ -8,6 +8,10 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
+  "terms": T.keys(),
+  "brief": {
+    "anim": "ladder"
+  },
   "scenes": [
     {
       "id": "sc2-1",
