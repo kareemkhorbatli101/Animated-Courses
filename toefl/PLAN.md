@@ -18,7 +18,18 @@ Adelson-Goldstein. Everything below is built on that book. If you meant a
 Cambridge title, say which and I will redo the correspondence map — the method
 transfers, the map does not.
 
-**0.2 What gets cloned is the architecture, not the book.** The unit sequence,
+**0.2 The baseline is now closed, and it corrected me on one thing.** I have
+the book: Table of Contents, Pre-Unit, all of Unit 1, and Unit 2's first two
+lessons. Full anatomy in `research/sf3-anatomy.md`. One claim in my first draft
+was wrong and is corrected in §2: **email is not missing from this book.** It is
+one of its spine genres, taught in Lesson 2 of at least seven of the twelve
+units, with a mail-client chrome, a full model business email, a fill-in
+template, sentence frames and a four-point editing checklist. The book's email
+pedagogy is more scaffolded than the TOEFL task it feeds. So the work on email
+is a *re-aim*, not an augmentation — which makes the correspondence tighter than
+I claimed, not looser.
+
+**0.3 What gets cloned is the architecture, not the book.** The unit sequence,
 the six-lesson cycle, the exercise taxonomy and the page grammar are a
 pedagogical system, and that is what "one-for-one" means here. Not one
 sentence, not one image, not one vocabulary list, not one reading passage comes
@@ -26,7 +37,7 @@ across. All content is newly authored against the ETS specification. This is
 the only version of "cloning in" I will build, and it is also the better
 product: a book re-pitched for TOEFL needs different text anyway.
 
-**0.3 The level ladder has to be re-cut, and this is the one place "100%
+**0.4 The level ladder has to be re-cut, and this is the one place "100%
 correspondence" genuinely cannot hold.** Step Forward 3 sits around A2+/B1.
 The 2026 TOEFL spans A1–C2, and its academic tasks are B1–C2:
 
@@ -52,18 +63,22 @@ of the band the real task reaches. That is the honest reading of "virtually
 
 ## 1. The finding: the correspondence is near-exact
 
-This is the result that makes the project worth doing. Step Forward's
-six-lesson cycle and the 2026 TOEFL's twelve task types map onto each other
-with nothing left over on either side.
+This is the result that makes the project worth doing. Step Forward's lesson
+cycle and the 2026 TOEFL's twelve task types map onto each other with nothing
+left over on either side. The book turns out to have **seven** blocks per unit,
+not six — the correlations do not list the AT WORK / ACADEMIC page separately —
+and the seventh is exactly where the two listening genres I thought were missing
+belong.
 
-| Step Forward 3 lesson slot | What the slot does | Becomes, in the TOEFL book | Status |
+| Step Forward 3 block | What the block does | Becomes, in the TOEFL book | Status |
 |---|---|---|---|
-| **L1 Vocabulary** | picture-dictionary set, word → meaning, word in use, dictionary and alphabetising skills | **Complete the Words** | clone + reformat |
-| **L2 Real-life writing** | fill in a form, write a note or message, plan → revise → edit | **Write an Email** + **Build a Sentence** | clone + **augment** |
-| **L3 Grammar** | grammar chart, then controlled practice; explicitly "produce simple, compound and complex sentences" | **Build a Sentence** | clone, near-verbatim construct |
-| **L4 Everyday conversation** | two-person dialogue, listen and respond, pronunciation drill | **Listen and Choose a Response** + **Listen to a Conversation** + **Listen and Repeat** | clone |
-| **L5 Reading** | read a life-skills text, main idea, key details, and in every unit interpret a chart | **Read in Daily Life** + **Read an Academic Passage** + **Listen to an Announcement** + **Listen to an Academic Talk** | clone + **augment** |
-| **L6 Teamwork & Language Review** | group task, discussion where you build on others' ideas, then language review | **Write for an Academic Discussion** + **Take an Interview** + mixed review | clone + **augment** |
+| **L1 · VOCABULARY** (2 pp) | numbered illustrated scene, match words to pictures, listen and check, affix chart, model dialogue | **Complete the Words** | clone + reformat |
+| **L2 · WRITING** (2 pp) | model text → underline the answers → plan → template → editing checklist → peer comment → revise | **Write an Email** + **Build a Sentence** | clone, **re-aim** |
+| **L3 · GRAMMAR** (3 pp) | paradigm charts, *Language connection* cloze, circle-and-match, error correction, labelled scene | **Build a Sentence** | clone, near-verbatim construct |
+| **L4 · EVERYDAY CONVERSATION** (3 pp) | gist then detail listening, uncertainty phrases, pronunciation sorting, model dialogue, role-play table | **Listen and Choose a Response** + **Listen to a Conversation** + **Listen and Repeat** | clone |
+| **L5 · READING** (3 pp) | glossed definitions, preview-and-predict, a realia text with line numbers, T/F/NI **citing the line**, word study, a data visual | **Read in Daily Life** + **Read an Academic Passage** | clone, raise ceiling |
+| **AT WORK / ACADEMIC** (1 p) | workplace or campus listening, a behaviour chart, observed role-play | **Listen to an Announcement** + **Listen to an Academic Talk** | clone + **augment** |
+| **TEAMWORK & LANGUAGE REVIEW** + **PROBLEM SOLVING** (2 pp) | labelled scene → write conversations, interview classmates → make a pie chart, read a problem → write a letter | **Write for an Academic Discussion** + **Take an Interview** + mixed review | clone + **augment** |
 
 Three of these are not analogies, they are the same construct in different
 words:
@@ -84,66 +99,78 @@ the registrar's office.
 
 ---
 
-## 2. The augmentation set
+## 2. The augmentation set, corrected against the book
 
-Eight gaps. Four are new genres, three are format conversions, one is
-structural.
+My first draft listed eight gaps. With the book in hand, **three of them were
+not gaps at all**, and that is the most useful thing this baseline bought.
 
-### New genres — content that does not exist in the source at all
+### Not gaps — the book already does these
 
-**A1. Write an Email** *(the one you named)*. Step Forward 3's L2 writes forms,
-notes and short narratives. It does not write an addressed email with a stated
-audience, purpose and register — which is the whole of the ETS task (*"Prompts
-may include contextual cues such as audience, purpose, or topic"*, scored out
-of 5, AI-scored, B1–C2, Academic Navigational). The hook already exists: L3
-teaches *commas in greetings and closings of letters*. So this widens a slot
-the book already opened. New in the book: a real email chrome (To / From /
-Subject / body), a scenario card, a register dial (to a professor vs. to a
-classmate), and a 5-point rubric the learner can self-apply.
+**Email.** Taught in Lesson 2 of Units 2, 3, 4, 5, 11 and 12, plus letters in
+Units 1 and 10. Unit 2's lesson ships a mail-client chrome, a full model
+business email with a signature block, *underline the answers in the model*, the
+same chrome again as a fill-in template, a **NEED HELP?** frame sidebar, and an
+editing checklist (reason · specific request · time frame · signature). Nothing
+to add. The work is to **re-aim** it: the TOEFL task is Academic Navigational
+rather than business, one item, five points, AI-scored, with audience and
+purpose given as explicit cues — and it is written once, unscaffolded, to a
+clock. So the book's scaffold becomes the *teaching* ladder and the bare prompt
+becomes the *test* rung at the end of it.
 
-**A2. Write for an Academic Discussion.** The source's L6 is *spoken* teamwork.
-A written discussion-board post responding to a professor's question and two
-classmates' posts has no equivalent. New: a threaded board, the professor's
-post, two authored student posts holding opposing positions, and a rubric that
-rewards engaging with a named classmate rather than restating the question.
+**Listen and Repeat.** The Pre-Unit's very first exercise is "Listen and repeat."
+It is in the book from page 2.
 
-**A3. Listen to an Announcement.** Academic Navigational register — a campus PA
-notice, a schedule change, a lab-safety briefing. The source's L4 is purely
-interpersonal dialogue. New genre, 35–100 words, A2–C1.
+**Evidence-based reading.** Lesson 5 marks statements T / F / **NI** *and makes
+the learner write the line number where they found it*. That is a stricter
+discipline than the TOEFL item it feeds. Keep it as the teaching move and let
+the multiple-choice item be the test form.
 
-**A4. Listen to an Academic Talk.** Up to 250 words of lecture monologue,
-A2–C2, with rhetorical patterns (comparison, contrast, cause-and-effect) the
-items then test. The source has no monologue of any length. This is the single
-largest piece of new authoring in the project.
+### Real gaps — genre and register
 
-### Format conversions — the skill is taught, the item shape is not
+**A1. Listen to an Academic Talk.** The book's monologue listening is a staff
+meeting, a job interview, an automated banking message, a public-safety talk.
+None is a lecture, and none runs to 250 words at B2–C2 on a cause-and-effect
+structure. This stays the largest piece of new authoring.
 
-**A5. Complete the Words.** The source teaches the vocabulary; it does not use
-the partial-letter cloze shape (a word shown with letters missing, inside a
-sentence that supplies the grammatical and semantic cue). 30 of the 50 reading
-items on the real test are this one shape, so the format is worth more marks
-than anything else in the test. Reformat, do not re-teach.
+**A2. Listen to an Announcement** in Academic Navigational register — a campus
+PA notice, a room change, a lab-safety briefing. The **AT WORK** page is the
+natural home: in the book it is workplace soft skills, and the TOEFL version of
+that page is **ACADEMIC** — the register the test actually examines.
 
-**A6. Read an Academic Passage.** The source's L5 reads life-skills text. The
-new slot needs ≤200-word passages at Flesch-Kincaid 10.5–20.0 with inference
-and pronoun-referent items. Same slot, higher ceiling, new text.
+**A3. Write for an Academic Discussion.** The book's Teamwork page discusses
+aloud and its Problem Solving page writes a letter to one person. A written
+post answering a professor and engaging a named classmate has no equivalent.
 
-**A7. Take an Interview.** The source does pair conversation with a partner and
-unlimited time. The task is a timed, single-pass, recorded monologue answer to
-a question delivered by audio. Same construct, different stakes. See §6 on the
-recording constraint.
+**A4. Read an Academic Passage.** Lesson 5 reads an advice column, an article, a
+blog post — real genres at roughly A2–B1. The TOEFL slot needs ≤200 words at
+Flesch–Kincaid 10.5–20.0 with inference and pronoun-referent items. Same slot,
+same strategies, new text, higher ceiling.
+
+### Format conversions
+
+**A5. Complete the Words.** The book teaches the morphology this task tests —
+there is an explicit affix per unit (*dis-, -ful, -tion, inter-, un-, -al, re-,
+-er/-or, -ment*, then word stress) — but it practises it by circling the correct
+word, not by completing a partially spelled one. Reformat, do not re-teach. This
+matters more than anything else on the list: 30 of the 50 reading items on the
+real test are this one shape.
+
+**A6. Take an Interview.** The book interviews classmates with unlimited time
+and a partner. The task is timed, single-pass and recorded. Same construct,
+different stakes.
 
 ### Structural
 
-**A8. Adaptive routing.** Step Forward is linear. The 2026 TOEFL routes each
-learner into a lower or upper module in Reading and Listening on the strength
-of the first part, and that is why ETS publishes item counts as ranges (5–15,
-15–19, 6–10, 8–16) rather than fixed numbers. The book has to teach this,
-because a learner who does not know the test adapts will misread an easy start
-as a good sign. Built as: a real router in the two mock tests, and a visible
-"you were routed up / down, here is why" panel after each.
+**A7. Adaptive routing.** The book is linear; the test routes into lower or
+upper modules in Reading and Listening, which is why ETS publishes item counts
+as ranges. A learner who does not know the test adapts will misread an easy
+start as a good sign, so the book has to teach it: a real router in the two mock
+tests and a visible "you were routed up / down, and here is why" panel after
+each.
 
----
+So: **four genuine content gaps, two format conversions, one structural
+mechanism** — down from eight, because the book was already doing more of this
+than the standards correlations revealed.
 
 ## 3. The book
 
@@ -250,7 +277,52 @@ asset recorded in `ASSETS.csv` with source, accession number and licence.
 Unsplash and Pexels are ruled out — their licences are not clean for
 redistribution inside an offline package you hand to someone.
 
-### The art spec — already rendered: `toefl/style-sheet.html`
+### What the book actually looks like — and where my first pass missed
+
+Having seen it, I have to correct my own style sheet. Step Forward is **dense
+and warm**, not clean and editorial. Matching it means adopting a visual system
+I had only half-guessed:
+
+* **A maroon chevron lesson banner** with a pointed right end, preceded by a
+  faceted orange geometric motif bleeding off the corner. Maroon squares number
+  the sections; orange letters number the exercises.
+* **Six named sidebars, each its own colour, each with a pointer tail** —
+  WRITER'S NOTE (maroon) · READER'S NOTE (orange) · IN OTHER WORDS… (blue) ·
+  SPEAKING NOTE (teal) · NEED HELP? (teal) · GRAMMAR NOTES (maroon) — plus a tan
+  *Language connection* panel. These are the book's teaching voice and there is
+  no equivalent in a plain modern page.
+* **Two voices in the body type.** The book's model dialogue is **blue italic
+  serif**; a sample *student* answer is in a **teal handwriting face**. A learner
+  can always tell the book's voice from a classmate's. This is the single
+  cleverest thing in the design and I had missed it entirely.
+* **Full-colour cartoon illustration**, not photography — numbered callouts for
+  the picture-dictionary scene, and **name tags on figures** for conversation and
+  review scenes. Photographs appear only as thumbnails inside realia.
+* **Realia pastiche done properly.** The reading is a newspaper advice column
+  with a masthead, a columnist's photo, two columns, **line numbers every five
+  lines** and a numbered footnote — because the exercise then asks the learner to
+  cite the line. The form follows the task.
+* **Tinted blocks carry meaning**: mint for model texts, cream for realia and
+  grammar panels, pale blue for readings and charts, peach for alternating rows
+  and the footer objective bar.
+* **Furniture**: thin rounded blue answer boxes sized to the answer, rounded
+  blue checkboxes, audio icons carrying a track number, a pencil icon for
+  *underline in the text* and a notepad icon for *write in your notebook*,
+  vertical AT WORK / ACADEMIC page-edge tabs, TEST YOURSELF under an orange
+  arrow closing every lesson, BRING IT TO LIFE under a power icon closing
+  Lesson 5.
+
+My style sheet is good work at the wrong temperature. It stays as the structural
+base — tokens, documents, chart, item shapes — and Phase 2 now has a defined job:
+add the chevron banners, the six sidebars, the two body voices, the illustration
+style, the icon set and the tint semantics, then re-render and compare page for
+page.
+
+**One thing I will not copy** is the cartoon art itself. The style is
+distinctive and it is theirs. The book's *function* — a warm, numbered,
+full-colour scene with callouts and name tags — is what transfers, drawn fresh.
+
+### The art spec — the base is rendered: `toefl/style-sheet.html`
 
 Phase 2's deliverable is brought forward, because "equivalent in quality" is not
 a thing to agree to in prose. Open that file and you are looking at the actual
@@ -371,16 +443,14 @@ the interface is a broken item regardless of what its data says.
 
 ## 8. Phases
 
-**Phase 0 — close the baseline gap.** *Blocking for labelling, not for
-building.* I have the complete unit list, the six-lesson cycle, and
-standards-level evidence of what each lesson does, from two independent
-official correlations. What I do not have is the lesson *titles* and the
-per-lesson vocabulary and grammar lists; those live in the Level 3 Table of
-Contents, behind Oxford's bot challenge, which I will not work around. Either
-your copy of the book, or the Level 3 Table of Contents PDF from the Oxford
-Teacher's Site downloaded in a normal browser, closes it in one step. This is
-the same gap that caused the provenance failure on the CMA build, and I would
-rather name it now than discover it in Unit 7.
+**Phase 0 — close the baseline gap. ✅ Done.** You supplied pages 1–50: Table of
+Contents, Pre-Unit, all of Unit 1, Unit 2 Lessons 1–2. That gave the lesson
+names, the 16-page unit budget, the seventh block, the complete grammar and
+morphology syllabuses, the per-unit data-visual types, the exercise inventory,
+the visual system — and the email correction. Recorded in
+`research/sf3-anatomy.md`. The remaining pages (Units 2–12) would refine the
+per-unit content map but are not needed to build: the architecture repeats, and
+the Table of Contents already names every strand for all twelve units.
 
 **Phase 1 — engine.** Audio layer, `document` generalisation, `mailer`,
 `board`, `notepad`, `repeat`, `letterbox`, `router`, `spec.js`, QA gate v2.
@@ -409,11 +479,14 @@ routed-up/routed-down explanation panel.
 
 ## 9. What I need from you
 
-1. **Confirm Oxford Step Forward Level 3, Second Edition** is the book — or
-   name the Cambridge title you meant.
-2. **The Level 3 Table of Contents**, or your copy of the book, for Phase 0.
-3. **A decision on the microphone question** (§6.1) — I recommend
-   self-assessment by default, local server documented.
+1. **A decision on the microphone question** (§6.1) — I recommend
+   self-assessment against a model by default, with a local-server launcher
+   documented for anyone who wants playback.
+2. **Units 2–12 pages, eventually.** Not blocking — the architecture repeats and
+   the Table of Contents names every strand — but they would let the per-unit
+   content map be authored from the real vocabulary and reading topics rather
+   than from the Table of Contents alone.
 
-None of these block Phases 1 and 2, which are engine and art-spec work that the
-research already fully determines. Say the word and I will start there.
+Items 1 and 2 of the original three are closed: it is Oxford Step Forward Level
+3, Second Edition, and I now have the baseline. Nothing blocks Phases 1 and 2.
+Say the word and I will start on the engine and the corrected art spec.

@@ -15,6 +15,9 @@
   --s1:#2a78d6; --s2:#eb6834;
   --ok:#1baf7a;
   --doc:#fffdf8; --doc-rule:#ddd8c9;
+  --maroon:#8f2f1d; --maroon-d:#6f2415; --orange:#e8772e; --teal:#009cad;
+  --blue-sb:#0a72bb; --mint:#e4f0e6; --cream:#fdf3e2; --paleblue:#e7f1fa;
+  --peach:#fbe6d6; --tan:#f7ead2; --boxline:#5b9bd5; --hand:#1a8f82;
   --ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --doc-serif:Georgia,"Times New Roman",serif;
   --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
@@ -30,6 +33,9 @@
     --s1:#3987e5; --s2:#d95926;
     --ok:#199e70;
     --doc:#1e1d1a; --doc-rule:#3b3933;
+    --maroon:#c35538; --maroon-d:#a8432a; --orange:#f08b45; --teal:#2bb8c7;
+    --blue-sb:#4a9de0; --mint:#1e2a20; --cream:#2a2317; --paleblue:#16242f;
+    --peach:#2e2117; --tan:#2b2418; --boxline:#5b9bd5; --hand:#3fc0b0;
   }
 }
 :root[data-theme="dark"]{
@@ -42,6 +48,9 @@
   --s1:#3987e5; --s2:#d95926;
   --ok:#199e70;
   --doc:#1e1d1a; --doc-rule:#3b3933;
+  --maroon:#c35538; --maroon-d:#a8432a; --orange:#f08b45; --teal:#2bb8c7;
+  --blue-sb:#4a9de0; --mint:#1e2a20; --cream:#2a2317; --paleblue:#16242f;
+  --peach:#2e2117; --tan:#2b2418; --boxline:#5b9bd5; --hand:#3fc0b0;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--ui);
@@ -158,6 +167,82 @@ table.gr tr:last-child td{border-bottom:1.5px solid var(--ink)}
 .btn-primary{background:var(--accent);color:#fff}
 .btn-ghost{background:transparent;color:var(--ink-2);border-color:var(--rule-2)}
 
+
+/* ===== Step Forward furniture ===== */
+.sfpage{background:var(--card);border:1px solid var(--rule);border-radius:10px;
+ overflow:hidden;font-family:var(--ui)}
+.sfbanner{position:relative;background:var(--maroon);color:#fff;
+ padding:11px 42px 11px 20px;font:700 15px var(--ui);letter-spacing:.055em;
+ display:inline-block;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 50%,calc(100% - 18px) 100%,0 100%)}
+.sfbanner b{font-weight:800}
+.sfmotif{height:19px;background:
+ linear-gradient(135deg,transparent 48%,var(--orange) 48% 52%,transparent 52%) 0 0/26px 19px repeat-x,
+ linear-gradient(45deg,transparent 48%,#f0a86a 48% 52%,transparent 52%) 0 0/26px 19px repeat-x;
+ opacity:.38}
+.sfbody{padding:18px 22px 0}
+.sfsec{display:flex;gap:11px;align-items:flex-start;margin:0 0 7px}
+.sfnum{flex:0 0 22px;height:22px;background:var(--maroon);color:#fff;border-radius:3px;
+ display:grid;place-items:center;font:700 13px var(--ui)}
+.sfsec h4{margin:0;font-size:17.5px;font-weight:650;letter-spacing:-.01em;padding-top:1px}
+.sfex{display:flex;gap:10px;margin:0 0 13px;padding-left:33px}
+.sfltr{flex:0 0 14px;color:var(--orange);font:800 15px var(--ui);line-height:1.5}
+.sfex .t{flex:1;font-size:14.8px;line-height:1.55}
+.sfex .t>p{margin:0 0 7px}
+.sfaudio{display:inline-flex;flex-direction:column;align-items:center;
+ flex:0 0 26px;margin-left:-33px;margin-right:7px}
+.sfaudio i{width:19px;height:19px;border-radius:50%;background:var(--maroon);display:grid;
+ place-items:center;color:#fff;font-size:10px;font-style:normal}
+.sfaudio span{font-size:9px;color:var(--ink-3);margin-top:2px}
+.dialog{font-family:var(--doc-serif);font-style:italic;color:var(--blue-sb);font-size:14.5px;margin:5px 0}
+.dialog b{font-style:normal;font-weight:700;margin-right:5px}
+.hand{font-family:"Segoe Script","Bradley Hand","Comic Sans MS",cursive;color:var(--hand);font-size:14.5px;font-style:normal}
+.abox{display:inline-block;min-width:62px;height:23px;border:1.4px solid var(--boxline);
+ border-radius:4px;vertical-align:-5px;background:var(--card)}
+.abox.sm{min-width:30px}
+.cbx{display:inline-block;width:17px;height:17px;border:1.5px solid var(--boxline);
+ border-radius:4px;vertical-align:-3px;margin-right:7px}
+.sfnote{border-radius:5px;padding:11px 14px;font-size:13.2px;line-height:1.5;position:relative}
+.sfnote h5{margin:0 0 5px;font:800 11.5px var(--ui);letter-spacing:.08em;text-transform:uppercase}
+.n-writer{background:var(--cream);border:1.5px solid var(--maroon)} .n-writer h5{color:var(--maroon)}
+.n-reader{background:var(--cream);border:1.5px solid var(--orange)} .n-reader h5{color:var(--orange)}
+.n-words{background:var(--paleblue);border-top:4px solid var(--blue-sb)} .n-words h5{color:var(--blue-sb)}
+.n-speak{background:var(--paleblue);border-top:4px solid var(--teal)} .n-speak h5{color:var(--teal)}
+.n-help{background:var(--paleblue);border-top:4px solid var(--teal)} .n-help h5{color:var(--teal)}
+.n-gram{background:var(--cream);border:1.5px solid var(--maroon)} .n-gram h5{color:var(--maroon)}
+.n-words i,.n-help i{display:block;font-family:var(--doc-serif);color:var(--blue-sb);margin:3px 0}
+.model{background:var(--mint);border-radius:5px;padding:14px 16px;font-family:var(--doc-serif);
+ font-size:14.5px;line-height:1.6}
+.model p{margin:0 0 8px}
+.lang-conn{background:var(--tan);border-radius:5px;padding:13px 16px;font-family:var(--doc-serif);font-size:14.5px}
+.lang-conn h5{margin:0 0 8px;font:700 13.5px var(--ui);color:var(--maroon)}
+.sftbl{width:100%;border-collapse:collapse;font-size:13.5px}
+.sftbl caption{background:var(--maroon);color:#fff;font:700 12.5px var(--ui);
+ padding:6px 11px;text-align:left;border-radius:4px 4px 0 0}
+.sftbl th{background:var(--peach);color:var(--ink);font-size:12px;text-align:left;
+ padding:6px 10px;font-weight:700;border:1px solid var(--rule)}
+.sftbl td{padding:6px 10px;border:1px solid var(--rule)}
+.sftbl.teal caption{background:var(--teal)}
+.realia{background:var(--paleblue);border:1px solid var(--rule);border-radius:5px;overflow:hidden}
+.realia .mast{background:var(--blue-sb);color:#fff;padding:9px 14px;display:flex;align-items:center;gap:11px}
+.realia .mast svg{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.25);flex:0 0 30px}
+.realia .mast b{font-family:var(--doc-serif);font-size:20px;letter-spacing:.11em;font-weight:700}
+.realia .cols{padding:13px 16px;font-family:var(--doc-serif);font-size:13.6px;line-height:1.62}
+.ln{display:flex;gap:9px}
+.ln>u{flex:0 0 15px;text-align:right;font:10.5px var(--mono);color:var(--ink-3);
+ text-decoration:none;padding-top:3px}
+.ln>span{flex:1}
+.realia .fn{border-top:1px solid var(--rule);margin-top:8px;padding-top:7px;font-size:11.8px;color:var(--ink-2)}
+.sfedge{position:absolute;right:-1px;top:54px;background:var(--peach);color:var(--maroon);
+ writing-mode:vertical-rl;font:700 10.5px var(--ui);letter-spacing:.12em;padding:13px 4px;
+ border-radius:0 0 0 4px}
+.testyou{border-top:2px solid var(--orange);margin-top:16px;padding:12px 22px 16px}
+.testyou h5{margin:0 0 6px;font:800 13.5px var(--ui);letter-spacing:.06em;color:var(--orange)}
+.testyou h5::before{content:"▸▸ ";letter-spacing:-.1em}
+.sffoot{background:var(--peach);color:var(--maroon);font-size:12px;padding:6px 22px;
+ display:flex;justify-content:space-between;font-weight:600}
+.two{display:grid;gap:16px}
+@media(min-width:720px){.two{grid-template-columns:1fr 232px}}
+
 /* chart */
 .fig{background:var(--card);border:1px solid var(--rule);border-radius:11px;padding:20px 22px 14px}
 .fig-ttl{font-size:16.5px;font-weight:620;letter-spacing:-.01em;margin:0 0 3px}
@@ -208,7 +293,8 @@ answered by looking rather than by argument.</p>
 downloaded assets, no fonts from the network, no licence exposure — and it is all
 that loads from <code>file://</code> with no server. These are Unit&nbsp;1’s actual
 assets, so this page is also the Unit&nbsp;1 asset proof.</p>
-<p class="meta">Step Forward 3 → TOEFL iBT 2026 · Phase 2 deliverable, brought forward · toggle the theme, top right</p>
+<p class="meta">Step Forward 3 → TOEFL iBT 2026 · Phase 2 deliverable, brought forward · toggle the theme, top right<br>
+Updated against the author's copy of the book: §7 rebuilds the book's own visual system.</p>
 
 <section>
 <h2>1 · Tokens</h2>
@@ -451,6 +537,132 @@ taste. The gate fails the build on any of them.</p>
   <li><b>No clutter.</b> One viewport, one interactive object, and a hard ceiling on
   interface words per scene — the rule that fixed the CMA package.</li>
 </ul>
+</section>
+
+
+<section>
+<h2>7 · The book's own furniture, rebuilt</h2>
+<p class="note">Having seen the real pages, §1–6 above are the right structure at
+the wrong <em>temperature</em>. Step Forward is dense and warm, and its teaching
+voice lives in a set of named, coloured sidebars and two distinct body voices
+that a clean editorial page simply does not have. This is that system, rebuilt —
+a Lesson 5 page in the book's idiom, with every piece of furniture on it.</p>
+
+<div class="sfpage" style="position:relative">
+  <div class="sfmotif"></div>
+  <div class="sfbanner">LESSON <b>5</b>&nbsp;&nbsp;READING</div>
+  <div class="sfedge">ACADEMIC</div>
+  <div class="sfbody">
+
+    <div class="sfsec"><span class="sfnum">1</span><h4>Read</h4></div>
+
+    <div class="sfex"><span class="sfltr">A</span><div class="t">
+      <p>Read the definitions.</p>
+      <p><span style="background:var(--paleblue);padding:1px 4px;border-radius:3px">retrieve:</span>
+      (v) to bring something back from memory without looking at it</p>
+    </div></div>
+
+    <div class="sfex"><span class="sfltr">B</span><div class="t">
+      <p>Preview the reading. Look at the title and the picture. What can you
+      guess about the column?</p>
+      <div class="two">
+        <div class="realia">
+          <div class="mast"><svg viewBox="0 0 30 30"><circle cx="15" cy="11" r="6" fill="#fff" opacity=".9"/><path d="M3 30c0-7 6-11 12-11s12 4 12 11z" fill="#fff" opacity=".9"/></svg><b>ASK THE DESK</b></div>
+          <div class="cols">
+            <div class="ln"><u>1</u><span>Dear Desk, I read my notes four times before the
+            test and still forgot half of it. What am I doing wrong?</span></div>
+            <div class="ln"><u>5</u><span>&mdash;Reading in Riverside</span></div>
+            <div class="ln"><u></u><span><em>Dear Reading, Nothing is wrong with your
+            effort. Re-reading feels like learning because the page gets easier
+            each time<sup>1</sup>. Close the book and write down what you
+            remember instead.</em></span></div>
+            <div class="fn"><sup>1</sup>feels like learning: seems to be working when it is not</div>
+          </div>
+        </div>
+        <div class="sfnote n-reader"><h5>Reader's Note</h5>
+          Read with a purpose. Before they read, good readers ask themselves:
+          what do I want from this text?</div>
+      </div>
+    </div></div>
+
+    <div class="sfex"><span class="sfltr">C</span><div class="t">
+      <p>Mark each statement <i>T</i> (true), <i>F</i> (false) or <i>NI</i> (no
+      information). Write the line where you found it.</p>
+      <p><span class="abox sm"></span> 1. Re-reading can feel more useful than it
+      is. (line <span class="abox sm"></span>)</p>
+      <p><span class="abox sm"></span> 2. The writer has taken the test before.
+      (line <span class="abox sm"></span>)</p>
+    </div></div>
+
+    <div class="sfsec"><span class="sfnum">2</span><h4>Word study</h4></div>
+    <div class="sfex"><span class="sfltr">A</span><div class="t">
+      <div class="two">
+        <table class="sftbl"><caption>The prefix dis-</caption>
+          <tr><th>Base</th><th>With <i>dis-</i></th><th>Meaning</th></tr>
+          <tr><td>agree</td><td><b>dis</b>agree</td><td>not agree</td></tr>
+          <tr><td>organized</td><td><b>dis</b>organized</td><td>not organized</td></tr>
+        </table>
+        <div class="sfnote n-gram"><h5>Grammar Notes</h5>
+          <i>dis-</i> means <i>not</i>. It attaches to verbs and adjectives and
+          does not change the stress.</div>
+      </div>
+    </div></div>
+
+    <div class="sfsec"><span class="sfnum">3</span><h4>Talk it over</h4></div>
+    <div class="sfex">
+      <span class="sfaudio"><i>♪</i><span>1-11</span></span>
+      <span class="sfltr">A</span><div class="t">
+      <p>Listen to the conversation. Then practise it with a partner.</p>
+      <p class="dialog"><b>A:</b> I'm just not sure that re-reading is working.</p>
+      <p class="dialog"><b>B:</b> Try closing the book and writing what you remember.</p>
+      <p style="margin-top:9px"><span class="hand">I tested myself and found three things I had missed.</span></p>
+      <div class="two" style="margin-top:11px">
+        <div class="lang-conn"><h5>Language connection: stating what you are unsure of</h5>
+          I'm <span class="abox"></span> sure that this method works for me, and
+          it's <span class="abox"></span> to say which is better.</div>
+        <div class="sfnote n-words"><h5>In other words…</h5>
+          <i>I'm just not sure.</i><i>It's hard to say.</i><i>I can't tell you for sure.</i></div>
+      </div>
+    </div></div>
+
+    <div class="sfex"><span class="sfltr">B</span><div class="t">
+      <p>Read the model. Then write your own.</p>
+      <div class="two">
+        <div class="model">
+          <p><b>Monday, September 10</b></p>
+          <p>I used to read my notes again and again. This week I closed the book
+          and wrote down what I could remember. It was uncomfortable, and it
+          worked.</p>
+        </div>
+        <div class="sfnote n-writer"><h5>Writer's Note</h5>
+          Give each paragraph one main idea. Paragraph 1 states the problem,
+          paragraph 2 what you changed, paragraph 3 what you learned.</div>
+      </div>
+      <p style="margin-top:11px"><span class="cbx"></span>I stated my position.
+      &nbsp; <span class="cbx"></span>I answered a classmate by name.</p>
+    </div></div>
+
+  </div>
+  <div class="testyou"><h5>TEST YOURSELF</h5>
+    <div style="font-size:14.5px">Close your book. Write three things you remember
+    from the column. Then check the lines you cited.</div></div>
+  <div class="sffoot"><span>Identify ways to study more effectively</span><span>Unit 1 Lesson 5 &nbsp; 14</span></div>
+</div>
+
+<div class="spec"><b>What carries over, and what does not.</b> The chevron banner,
+the maroon section squares and orange exercise letters, the six named sidebars
+with their own colours, the tint semantics (mint for model texts, cream for
+grammar and notes, pale blue for readings and charts, peach for the footer), the
+thin blue answer boxes and checkboxes, the audio icon with its track number, the
+page-edge tab, TEST YOURSELF under an orange rule, and the footer objective bar
+— all structural, all rebuilt here. <b>Two body voices</b> too: the book's model
+dialogue in blue italic serif, and a sample <span class="hand">student
+answer</span> in a handwriting face, so a learner can always tell the book's
+voice from a classmate's. That is the cleverest thing in the original design and
+the thing my first pass missed completely.<br><br>
+<b>What does not carry over</b> is the cartoon art itself — the style is
+distinctive and it is theirs. What transfers is its <i>function</i>: a warm,
+numbered, full-colour scene with callouts and name tags, drawn fresh.</div>
 </section>
 
 </div>
