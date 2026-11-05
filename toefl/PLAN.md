@@ -77,7 +77,7 @@ belong.
 | **L3 · GRAMMAR** (3 pp) | paradigm charts, *Language connection* cloze, circle-and-match, error correction, labelled scene | **Build a Sentence** | clone, near-verbatim construct |
 | **L4 · EVERYDAY CONVERSATION** (3 pp) | gist then detail listening, uncertainty phrases, pronunciation sorting, model dialogue, role-play table | **Listen and Choose a Response** + **Listen to a Conversation** + **Listen and Repeat** | clone |
 | **L5 · READING** (3 pp) | glossed definitions, preview-and-predict, a realia text with line numbers, T/F/NI **citing the line**, word study, a data visual | **Read in Daily Life** + **Read an Academic Passage** | clone, raise ceiling |
-| **AT WORK / ACADEMIC** (1 p) | workplace or campus listening, a behaviour chart, observed role-play | **Listen to an Announcement** + **Listen to an Academic Talk** | clone + **augment** |
+| **AT WORK** (1 p) | gist → tick what is mentioned → inference, on one audio; then a *Do this / Say this* function chart and a partner application | **Listen to an Announcement** + **Listen to an Academic Talk** | clone + **augment** |
 | **TEAMWORK & LANGUAGE REVIEW** + **PROBLEM SOLVING** (2 pp) | labelled scene → write conversations, interview classmates → make a pie chart, read a problem → write a letter | **Write for an Academic Discussion** + **Take an Interview** + mixed review | clone + **augment** |
 
 Three of these are not analogies, they are the same construct in different
@@ -134,8 +134,14 @@ structure. This stays the largest piece of new authoring.
 
 **A2. Listen to an Announcement** in Academic Navigational register — a campus
 PA notice, a room change, a lab-safety briefing. The **AT WORK** page is the
-natural home: in the book it is workplace soft skills, and the TOEFL version of
-that page is **ACADEMIC** — the register the test actually examines.
+natural home, and the fit is better than I first thought: its three listening
+exercises run **gist → tick what is mentioned → listen again for a deeper point**
+on a single audio, which is exactly how the 2026 test clusters items on one
+stimulus. The book's page is workplace soft skills; the TOEFL version keeps the
+template and moves the register to campus. (Correction to an earlier draft: the
+page is titled **AT WORK** in every unit — AT WORK and ACADEMIC are also
+page-edge tabs marking an individual exercise's domain, which is what I had
+mistaken for an alternating page title.)
 
 **A3. Write for an Academic Discussion.** The book's Teamwork page discusses
 aloud and its Problem Solving page writes a letter to one person. A written
