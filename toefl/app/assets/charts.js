@@ -160,6 +160,58 @@
       esc(spec.alt || spec.title || "pie chart") + '">' + s.join("") + "</svg>", "");
   }
 
+
+  /* ------------------------------------------------------------ pie-pair --- */
+  /* Two pies compared. The categories are fixed in ONE shared order and the
+     colour is assigned by category, not by rank within each pie - otherwise
+     the same category takes a different colour in each half and the comparison
+     the chart exists for is destroyed. Both pies therefore draw in the same
+     sequence, and one key serves both. */
+  function piePair(spec) {
+    var cats = spec.categories;
+    var W = 660, R = 96, H = 2 * R + 128;
+    function lightness(i) {
+      var t = cats.length === 1 ? 0.5 : i / (cats.length - 1);
+      return 76 - t * 44;
+    }
+    function ramp(i) { return "hsl(207 68% " + lightness(i).toFixed(1) + "%)"; }
+    var s = [];
+    [spec.left, spec.right].forEach(function (side, k) {
+      var cx = k === 0 ? 168 : 492, cy = R + 34;
+      var total = cats.reduce(function (acc, c) { return acc + side.values[c]; }, 0);
+      var ang = -Math.PI / 2;
+      s.push('<text x="' + cx + '" y="20" text-anchor="middle" class="dlab" fill="var(--ink)">' +
+             esc(side.label) + "</text>");
+      cats.forEach(function (c, i) {
+        var frac = side.values[c] / total, a2 = ang + frac * Math.PI * 2;
+        var x1 = cx + R * Math.cos(ang), y1 = cy + R * Math.sin(ang);
+        var x2 = cx + R * Math.cos(a2), y2 = cy + R * Math.sin(a2);
+        s.push('<path class="slice" d="M' + cx + " " + cy + " L" + x1.toFixed(1) + " " + y1.toFixed(1) +
+               " A" + R + " " + R + " 0 " + (frac > 0.5 ? 1 : 0) + " 1 " + x2.toFixed(1) + " " + y2.toFixed(1) +
+               ' Z" fill="' + ramp(i) + '"/>');
+        var mid = ang + frac * Math.PI, lr = R * 0.64;
+        /* 4%, not 6%: in a before/after pair the slice that has collapsed is
+           usually the whole reason the chart exists, so it must keep its label. */
+        if (frac > 0.04) {
+          s.push('<text x="' + (cx + lr * Math.cos(mid)).toFixed(1) + '" y="' + (cy + lr * Math.sin(mid) + 4).toFixed(1) +
+                 '" text-anchor="middle" style="font:700 12.5px system-ui;fill:' +
+                 (lightness(i) < 56 ? "#ffffff" : "#10243a") + '">' + Math.round(frac * 100) + "%</text>");
+        }
+        ang = a2;
+      });
+    });
+    /* one key, under both */
+    var ky = 2 * R + 60, col = 0, kx = 24;
+    cats.forEach(function (c, i) {
+      s.push('<rect x="' + kx + '" y="' + (ky - 10) + '" width="12" height="12" rx="3" fill="' + ramp(i) + '"/>');
+      s.push('<text class="tk" x="' + (kx + 18) + '" y="' + ky + '" fill="var(--ink)">' + esc(c) + "</text>");
+      col++;
+      if (col % 3 === 0) { kx = 24; ky += 21; } else { kx += 212; }
+    });
+    return frame(spec, '<svg viewBox="0 0 ' + W + " " + Math.max(H, ky + 16) + '" width="100%" role="img" aria-label="' +
+      esc(spec.alt || spec.title || "paired pie charts") + '">' + s.join("") + "</svg>", "");
+  }
+
   /* ------------------------------------------------------------- scatter --- */
   function scatter(spec) {
     var W = 660, H = 300, L = 54, R = 22, T = 14, B = 46;
@@ -271,7 +323,7 @@
   }
 
   var KINDS = { line: line, bar: bar, pie: pie, "pie-key": pie, scatter: scatter,
-                bubble: bubble, table: table, flow: flow };
+                bubble: bubble, table: table, flow: flow, "pie-pair": piePair };
 
   root.Charts = {
     make: function (spec) {
