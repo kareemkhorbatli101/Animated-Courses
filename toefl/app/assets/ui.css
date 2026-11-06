@@ -857,3 +857,61 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .ws-unsure .ws-point-tag{color:var(--ink-3);}
 .ws-point-ask{margin:4px 0 0;font:500 12.5px/1.6 var(--ui);color:var(--ink-3);}
 .ws-band-idle{color:var(--ink-3);font-style:italic;font-weight:400;}
+
+/* ===================================================================
+   gram.js — grammar mechanisms (F21, F23–F25, F27)
+   =================================================================== */
+
+/* F25 the correction, in the sentence */
+.gr-wasfixed{background:var(--mint)!important;color:var(--ok)!important;
+  font-weight:700;border-color:var(--ok)!important;}
+.gr-fixbar{display:flex;align-items:center;gap:10px;margin:8px 0 0;}
+.gr-fixbar-tag{font:700 10.5px/1.8 var(--ui);color:var(--ok);
+  text-transform:uppercase;letter-spacing:.07em;}
+.gr-hear{display:inline-flex;}
+
+/* F24 the rule, as you build it */
+.gr-rule{margin:14px 0 0;border:1px solid var(--rule);border-left:3px solid var(--blue);
+  border-radius:9px;background:var(--card);padding:12px 15px 13px;}
+.gr-rule-h{margin:0 0 9px;font:600 12.5px/1.4 var(--ui);color:var(--blue);
+  text-transform:uppercase;letter-spacing:.06em;}
+.gr-rule-list{margin:0;padding-left:20px;}
+.gr-rule-list li{margin:0 0 6px;font:400 14px/1.65 var(--ui);color:var(--ink);}
+.gr-rule-blank{color:var(--ink-3)!important;}
+.gr-rule-hole{display:inline-block;min-width:34px;border-bottom:2px dotted var(--rule-2);}
+.gr-rule-foot{margin:8px 0 0;font:400 12px/1.5 var(--ui);color:var(--ink-3);}
+.gr-rule-done{border-left-color:var(--ok);background:var(--mint);}
+.gr-rule-done .gr-rule-h{color:var(--ok);}
+
+/* F23 tiles coloured by job */
+.tile[data-job]{border-bottom-width:3px;}
+.tile[data-job="0"]{border-bottom-color:var(--c1);}
+.tile[data-job="1"]{border-bottom-color:var(--c2);}
+.tile[data-job="2"]{border-bottom-color:var(--c3);}
+.tile[data-job="3"]{border-bottom-color:var(--teal);}
+.tile[data-job="4"]{border-bottom-color:var(--orange);}
+.tile[data-job="5"]{border-bottom-color:var(--blue);}
+.gr-key{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 10px;}
+.gr-key-chip{font:600 11px/1.6 var(--ui);padding:3px 9px;border-radius:999px;
+  background:var(--sunk);border-bottom:3px solid var(--rule-2);color:var(--ink-2);}
+.gr-key-chip[data-job="0"]{border-bottom-color:var(--c1);}
+.gr-key-chip[data-job="1"]{border-bottom-color:var(--c2);}
+.gr-key-chip[data-job="2"]{border-bottom-color:var(--c3);}
+.gr-key-chip[data-job="3"]{border-bottom-color:var(--teal);}
+.gr-key-chip[data-job="4"]{border-bottom-color:var(--orange);}
+.gr-key-chip[data-job="5"]{border-bottom-color:var(--blue);}
+
+/* F27 why a spare tile cannot go there */
+.gr-extra{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;margin:9px 0 0;
+  padding:9px 12px;border-radius:8px;background:var(--cream);
+  border-left:3px solid var(--orange);}
+.gr-extra-tag{font:700 13.5px/1.6 var(--ui);color:var(--ink);}
+.gr-extra-why{font:400 13.5px/1.65 var(--ui);color:var(--ink-2);flex:1 1 200px;}
+
+/* F21 stress made visible */
+.gr-stress{display:inline-flex;align-items:baseline;gap:1px;}
+.gr-syl{font:400 15px/1.5 var(--ui);color:var(--ink-2);}
+.gr-syl-on{font-weight:800;font-size:19px;color:var(--ink);
+  text-decoration:underline;text-decoration-thickness:2px;
+  text-underline-offset:3px;text-decoration-color:var(--orange);}
+.gr-syl-dot{color:var(--ink-3);font-size:11px;}

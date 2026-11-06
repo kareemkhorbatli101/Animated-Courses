@@ -28,12 +28,23 @@
       var slot = E("div", "slot"), tray = E("div", "tray");
       slot.setAttribute("data-hint", "Tap a word, or drag it here");
 
+      /* F27 — the spare words are silent. A learner who reaches for one
+         has made a specific mistake, and that moment is when the answer
+         to it is worth something. */
+      var spare = {};
+      (it.extra || []).forEach(function (x) {
+        spare[String(typeof x === "string" ? x : x.word)] =
+          (typeof x === "object" && x.why) || (it.extraWhy && it.extraWhy[x]) || null;
+      });
+
       function mk(w) {
         var t = E("button", "tile", w);
         t.type = "button"; t.draggable = true;
         t.addEventListener("click", function () {
           if (t.parentNode === tray) slot.appendChild(t); else tray.appendChild(t);
           t.classList.toggle("set"); t.classList.remove("ok", "no");
+          if (t.parentNode === slot && Object.prototype.hasOwnProperty.call(spare, w) &&
+              root.Gram) root.Gram.explainExtra(box, w, spare[w]);
         });
         t.addEventListener("dragstart", function () { t.dataset.dragging = "1"; });
         t.addEventListener("dragend", function () { delete t.dataset.dragging; });
@@ -51,6 +62,14 @@
       });
       box.appendChild(slot); box.appendChild(tray);
       stage.appendChild(box);
+      /* F23 — colour each tile by the job it does, so an order becomes a
+         pattern that transfers rather than a sequence to memorise. */
+      if (root.Gram && it.jobs) {
+        root.Gram.colourTiles(box, function (word) { return it.jobs[word]; });
+        if (!stage.querySelector(".gr-key"))
+          root.Gram.jobKey(stage, Object.keys(it.jobs).map(function (k) { return it.jobs[k]; })
+            .filter(function (v, n, a) { return a.indexOf(v) === n; }));
+      }
       rows.push({ it: it, want: want, slot: slot });
     });
 
@@ -108,6 +127,12 @@
     panel.appendChild(body);
     stage.appendChild(panel);
 
+    /* F24 — the rule is built out of the learner's own correct answers
+       rather than read off a note beforehand. Filled on check, never on
+       selection, so watching it grow cannot tell you an answer you have
+       not yet committed to. */
+    var fillRule = root.Gram ? root.Gram.ruleCard(stage, spec.ruleTitle) : null;
+
     return function () {
       var right = 0, miss = [];
       sels.forEach(function (s, i) {
@@ -117,6 +142,9 @@
         if (good) right++;
         else miss.push("<b>" + (i + 1) + ".</b> " + esc(s.g.answer) + (s.g.why ? " — " + s.g.why : ""));
       });
+      if (fillRule) fillRule(sels.map(function (s) {
+        return { ok: s.sel.value === s.g.answer, answer: s.g.answer, why: s.g.why };
+      }));
       return { score: right, total: sels.length,
         html: miss.length ? "<p>Say the rule back to yourself:</p>" + api.fbList(miss)
                           : "<p>That is the rule, in your own words.</p>" };

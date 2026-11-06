@@ -41,7 +41,14 @@
     "frames",        /* F31 sentence shapes inserted at the cursor           */
     "bandRing",      /* F32 countdown with what a good answer is doing now   */
     "modelAudio",    /* F33 the model answer spoken, not only written        */
-    "lengthCheck"    /* F34 your length against the model's                  */
+    "lengthCheck",   /* F34 your length against the model's                  */
+
+    /* Phase 6, grammar (gram.js) */
+    "animateFix",    /* F25 the correction lands in the sentence, and is said */
+    "ruleBuilds",    /* F24 the rule assembled from your own right answers   */
+    "functionColour",/* F23 tiles coloured by the job they do                */
+    "tileWhy",       /* F27 a spare tile explains itself when you reach for it */
+    "stressMarks"    /* F21 which syllable carries the stress, shown         */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

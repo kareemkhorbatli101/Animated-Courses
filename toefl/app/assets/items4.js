@@ -135,6 +135,18 @@
         var fixOk = gotFix === norm(r.it.right);
         var ok = wordOk && fixOk;
         r.box.classList.remove("ok", "no"); r.box.classList.add(ok ? "ok" : "no");
+        /* F25 — put the correction into the sentence they are looking at,
+           and say it. Several of these errors are audible before they are
+           visible: "readed" and "read" differ by a sound, not a spelling. */
+        if (root.Gram) {
+          var tokEl = null;
+          [].slice.call(r.box.querySelectorAll(".tok")).some(function (t) {
+            if (norm(t.textContent) !== norm(r.it.wrong)) return false;
+            tokEl = t; return true;
+          });
+          if (tokEl && !tokEl.classList.contains("gr-wasfixed"))
+            root.Gram.animateFix(r.box, tokEl, r.it.right, r.it.fixed || "");
+        }
         if (ok) right++;
         else miss.push("<b>" + (i + 1) + ".</b> " + esc(r.it.wrong) + " → " +
           esc(r.it.right) + (r.it.why ? " — " + r.it.why : ""));
