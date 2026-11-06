@@ -29,6 +29,39 @@
     source: "Student Finance"
   };
 
+  /* The second academic passage: the first is about measures becoming
+     targets, this one about who a rule falls on. */
+  var PASSAGE2 = {
+    masthead: "WHO A FLAT CHARGE FALLS ON", every: 1,
+    blocks: [
+      { h: "The same sum, two meanings", lines: [
+        "A charge of five pounds is identical for every driver who pays it, and it is not remotely the same thing for all of them.",
+        "For a household with little spare income it functions as a prohibition; for one with a great deal it functions as a parking fee."
+      ] },
+      { h: "Where the reduction comes from", lines: [
+        "It follows that the fall in traffic a scheme reports is drawn almost entirely from the first group, since the second has not materially changed its behaviour at all.",
+        "The policy therefore achieves its stated objective by means it does not usually state, and the benefit — cleaner, quieter streets — accrues disproportionately to those who continue to drive."
+      ] },
+      { h: "A remedy that keeps the incentive", lines: [
+        "The design problem is separable from the instrument, and the standard remedy is to return the revenue as an equal payment to every resident.",
+        "The charge is unaltered, so the reason to drive less is unaltered; the payment reaches those who gave up driving as well as those who did not, which reverses the distribution without weakening the incentive."
+      ] }
+    ],
+    notes: ["regressive: falling more heavily, as a share of income, on those who have less of it"],
+    source: "Written for this book"
+  };
+
+  var NOTICE2 = {
+    masthead: "STUDENT FINANCE · PAYMENT PLANS", mastColor: "blue", every: 1,
+    blocks: [{ lines: [
+      "A plan must be arranged before the first instalment falls due.",
+      "Plans are recorded against your student number, not your name.",
+      "Late fees are reversed only on written evidence.",
+      "The office does not take payments after half past three."
+    ] }],
+    source: "Student Finance"
+  };
+
   window.PAGE = {
     id: "u07-l5", unit: "u07", block: "l5", up: "../", tab: "ACADEMIC",
     objective: "Read a key before you read a chart",
@@ -118,6 +151,26 @@
             why: "The article says <i>some</i> will discover the route; it gives no proportion." }
         ] },
 
+            { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
+        kind: "selectintext", task: null, n: 0,
+        prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
+        note: { kind: "reader",
+                body: "<p>Economics writing hides its claims inside conditionals and inside the word <i>therefore</i>. The sentence that matters is usually the one doing the inferring, not the one reporting the figures.</p>" },
+        items: [
+          { prompt: "Which sentence draws a conclusion rather than reporting a fact?",
+            text: "Traffic entering the zone fell by nineteen per cent in the first year. Fuel prices were flat across the same period. No comparable city recorded a fall of that size. The charge therefore accounts for most of the reduction.",
+            answer: "The charge therefore accounts for most of the reduction.",
+            why: "<i>Therefore</i> plus a causal claim. The first three sentences are the evidence it is drawn from." },
+          { prompt: "Which sentence states a condition on the claim?",
+            text: "Raising the charge reduces traffic further. The relationship is not linear, and above about eight pounds each additional pound buys very little. This holds only where a usable alternative exists. In cities with no rapid transit the charge simply redistributes who drives.",
+            answer: "This holds only where a usable alternative exists.",
+            why: "<i>Only where</i> is a condition. The sentence after it illustrates what happens when the condition fails, which is not the same as stating it." },
+          { prompt: "Which sentence concedes a cost of the author's own proposal?",
+            text: "Returning the revenue as an equal payment reverses who bears the charge. The incentive to drive less is untouched, since the charge itself does not change. Administering a universal payment is not free, and in small schemes it can absorb a tenth of the revenue. On balance the redistribution is still worth making.",
+            answer: "Administering a universal payment is not free, and in small schemes it can absorb a tenth of the revenue.",
+            why: "The author is arguing for the payment, so this is the sentence that costs them something. The last sentence weighs the concession rather than making it." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "This unit's suffix, in the article's register.",
@@ -157,9 +210,128 @@
               { text: "41%", why: "That is tuition fees." },
               { text: "24%", why: "That is research grants, which are a different line in the key." }
             ] }
+        ] },
+
+      /* ---------------- 4 Read a second article ---------------- */
+      { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
+        prompt: "A second article, on who pays for the result the first one described. Read it, then answer.",
+        text: PASSAGE2,
+        note: { kind: "reader",
+                body: "<p>The first article asked whether a scheme produces the number it promised. This one grants that it does, and asks a different question about the same scheme.</p>" },
+        items: [
+          { q: "What is the main idea?",
+            options: [
+              { text: "A flat charge works by changing the behaviour of those least able to pay it, and the revenue can be used to reverse that.", correct: true,
+                why: "The three sections are the uneven effect, where the reduction comes from, and the remedy that leaves the incentive intact." },
+              { text: "Congestion charges do not reduce traffic.", why: "The article accepts the reduction throughout; its question is who produced it." },
+              { text: "Charges should be set according to income.", why: "The remedy it proposes keeps the charge identical and changes what happens to the money." }
+            ] },
+          { q: "Why does the article say the reduction comes from one group?",
+            options: [
+              { text: "Because the wealthier group has not materially changed its behaviour.", correct: true,
+                why: "<i>Since the second has not materially changed its behaviour at all</i> — the inference follows directly from the first section." },
+              { text: "Because the wealthier group drives less to begin with.", why: "No claim about baseline driving is made." },
+              { text: "Because only one group pays the charge.", why: "Both pay it; that is what makes the effect uneven rather than selective." }
+            ] },
+          { q: "Who does the article say the benefit accrues to?",
+            options: [
+              { text: "Disproportionately to those who continue to drive.", correct: true,
+                why: "The cleaner, quieter streets are enjoyed most by the people whose behaviour did not change." },
+              { text: "Equally to all residents.", why: "<i>Disproportionately</i> is the word the sentence turns on." },
+              { text: "To the people who gave up driving.", why: "They bear the cost of the change and share least in the result." }
+            ] },
+          { q: "Why does the remedy not weaken the incentive?",
+            options: [
+              { text: "The charge itself is unchanged, so the reason to drive less is unchanged.", correct: true,
+                why: "The payment is separate from the charge, and it goes to everyone whether they drive or not." },
+              { text: "The payment is given only to those who stop driving.", why: "That would weaken it: the payment is universal, which is what makes it neutral." },
+              { text: "The revenue is too small to matter.", why: "The article treats the revenue as substantial enough to redistribute." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        kind: "paraphrase", task: null, n: 0,
+        prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
+        note: { kind: "reader",
+                body: "<p>Watch what happens to <i>nobody need be dishonest</i> and to <i>disproportionately</i>. Both are doing careful work, and both are easy to flatten into an accusation.</p>" },
+        items: [
+          { source: "Nobody need be dishonest for this to happen; the measure simply becomes the target, and the thing it was supposed to represent quietly detaches from it.",
+            options: [
+              { text: "No deception is required: people start aiming at the number, and the number drifts away from what it stood for.", correct: true,
+                why: "Keeps the explicit refusal to allege dishonesty, which is the sentence's main point." },
+              { text: "People cheat in order to hit the target.",
+                why: "The sentence exists to rule this reading out, and it is the reading most readers arrive with." },
+              { text: "The measure was badly chosen from the start.",
+                why: "It may have been a good measure; that is what makes the mechanism worth describing." },
+              { text: "Targets should not be used at all.",
+                why: "A recommendation. The sentence is describing a process." }
+            ] },
+          { source: "The benefit accrues disproportionately to those who continue to drive.",
+            options: [
+              { text: "The people still driving get more of the gain than their share.", correct: true,
+                why: "Keeps <i>disproportionately</i>, which says uneven rather than exclusive." },
+              { text: "Only drivers benefit from the scheme.",
+                why: "<i>Disproportionately</i> is not <i>only</i>; everyone breathes the cleaner air." },
+              { text: "Drivers pay more than they gain.",
+                why: "The sentence is about who gains, and it says the opposite about this group." },
+              { text: "The benefit is shared evenly.",
+                why: "The word in the middle of the sentence denies precisely this." }
+            ] },
+          { source: "A charge of five pounds is identical for every driver who pays it, and it is not remotely the same thing for all of them.",
+            options: [
+              { text: "The sum is the same for everyone and what it means is not.", correct: true,
+                why: "Keeps the apparent contradiction, which is the whole figure of the sentence." },
+              { text: "The charge is unfair because it is the same for everyone.",
+                why: "<i>Unfair</i> is a judgement the sentence has not yet made; it is making an observation first." },
+              { text: "Different drivers pay different amounts.",
+                why: "They pay the same amount. That is the first half of the sentence." },
+              { text: "Five pounds means nothing to most drivers.",
+                why: "The sentence distinguishes two groups rather than generalising about most." }
+            ] }
+        ] },
+
+      /* ---------------- 5 Read in daily life again ---------------- */
+      { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
+        prompt: "A second card from the same office. Read it.",
+        text: NOTICE2,
+        items: [
+          { q: "What is a payment plan recorded against?",
+            options: [
+              { text: "Your student number.", correct: true, why: "Line 2, and it says explicitly that it is not your name." },
+              { text: "Your name.", why: "Line 2 rules this out, which is why the error in Lesson 4 happened." },
+              { text: "Your email address.", why: "Not mentioned." }
+            ] },
+          { q: "You arrive at twenty to four to pay. What happens?",
+            options: [
+              { text: "You are too late; payments stop at half past three.", correct: true,
+                why: "Line 4. The office is open until four, which is the trap." },
+              { text: "You can pay — the office is open until four.", why: "Open and taking payments are two different things here." },
+              { text: "You must arrange a plan instead.", why: "The card does not offer that as an alternative." }
+            ] }
+        ] },
+
+      { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
+        prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
+        items: [
+          { stem: "A late fee can be reversed on the basis of a telephone call.", answer: "F", line: 3,
+            why: "Line 3 says written evidence, and <i>only</i> closes off every other route." },
+          { stem: "A plan arranged on the day the instalment falls due is accepted.", answer: "F", line: 1,
+            why: "Line 1 says <i>before</i>. On the day is not before it, which is the kind of boundary this sort of card is written to settle." }
+        ] },
+
+      { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "Two articles, one chart, one habit.",
+        text: { blocks: [{ lines: [
+          "<b>What goes wrong</b> — the measure becomes the target, and nobody has to lie.",
+          "<b>Who pays</b> — the same sum is a prohibition for one household and a fee for another.",
+          "<b>What to ask</b> — who set this rule, and what were they trying to achieve?"
         ],
         closer: { kind: "life",
-          body: "<p>Find a pie chart in a news story. Can you tell which section is which without the key? If not, the chart is doing less work than it appears to.</p>" } }
+          body: "<p>Find a pie chart in a news story. Can you tell which section is which without the key? If not, the chart is doing less work than it appears to.</p>" } }] } }
     ]
   };
 })();

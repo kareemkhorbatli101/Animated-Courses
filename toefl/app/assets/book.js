@@ -60,7 +60,7 @@
       affix: null, pron: "linking in phrasal verbs", chart: "table",
       campus: "check that you have understood",
       strategy: { writing: "sequencing", reading: "annotating a text" } },
-    { n: 7,  id: "u07", title: "Markets and Choices",         field: "economics",
+    { n: 7,  id: "u07", title: "Markets and Choices",         field: "economics", doubled: true,
       grammar: ["real conditionals", "questions with real conditionals", "time clauses for future events"],
       affix: "-al", pron: "linking words", chart: "pie-key",
       campus: "ask a procedural question at an office",
