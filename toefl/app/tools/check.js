@@ -57,7 +57,13 @@ function checkScene(where, s, unit){
       (it.given||[]).forEach(g=>{ if (g < 0 || g >= it.answer.length)
         bad(where,`item ${i+1} given index ${g} outside "${it.answer}"`); });
       if ((it.given||[]).length >= it.answer.length) bad(where,`item ${i+1} gives every letter`);
-      ok();
+      /* The stem shows the first letters before the gap ("A c___ judges...").
+         If it does, they must match the answer - otherwise a stem and its
+         answer can silently disagree, which no structural check would catch. */
+      const cue = String(it.text).match(/(?:^|\s)([A-Za-z]{1,4})_{2,}/);
+      if (cue && !it.answer.toLowerCase().startsWith(cue[1].toLowerCase()))
+        bad(where,`item ${i+1} stem shows "${cue[1]}" but the answer is "${it.answer}"`);
+      else ok();
     }
   });
   if (s.kind === 'order'){

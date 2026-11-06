@@ -45,3 +45,14 @@ add({kind:"pie-pair", title:"Leading causes of death, then and now",
   left:{label:"1900", values:{"Infectious disease":44,"Heart and circulatory":14,"Cancer":4,"Injury":9,"Respiratory":12,"Other":17}},
   right:{label:"Today", values:{"Infectious disease":5,"Heart and circulatory":31,"Cancer":27,"Injury":6,"Respiratory":13,"Other":18}}});
 </script>
+<script>
+add({kind:"compare-table", title:"Four ways across the city",
+  sub:"One journey, compared on what actually differs",
+  caption:"Peak-hour, 6 km, city centre to campus",
+  cols:["Mode","Cost","Time (min)","Capacity","CO2 (g/km)"],
+  better:[null,"low","low","high","low"],
+  rows:[["Metro","2.40","22","1200","41"],["Bus","1.80","41","80","68"],
+        ["Bicycle","0.00","34","1","0"],["Car","6.10","29","4","192"]],
+  note:"Capacity is per vehicle, which is why the bicycle wins three columns and loses one.",
+  source:"Illustrative"});
+</script>

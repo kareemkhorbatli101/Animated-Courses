@@ -1,5 +1,5 @@
 TOEFL iBT 2026
-Units 1 to 8
+All twelve units
 
 
 TO START
@@ -10,7 +10,7 @@ No internet connection is needed. No web server. Nothing is sent anywhere.
 
 WHAT IS HERE
 ------------
-Eight of the twelve units, complete. Each unit is seven blocks:
+All twelve units, complete. Each unit is seven blocks:
 
   Lesson 1  Vocabulary               Complete the Words
   Lesson 2  Writing                  Academic Discussion, Build a Sentence
@@ -32,6 +32,10 @@ the live test's twelve items.
   6  Food, Energy and the Body   nutrition and metabolism
   7  Markets and Choices         economics
   8  Disease and Public Health   epidemiology
+  9  Cities and Movement         urban geography
+ 10  Rules, Rights and Ethics    law and philosophy
+ 11  How Science Works           scientific method
+ 12  Art, Audience and Culture   humanities and media
 
 
 HOW IT WORKS

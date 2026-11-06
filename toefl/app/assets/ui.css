@@ -352,3 +352,7 @@ svg .slice{stroke:var(--card);stroke-width:2}
 
 .fig details summary{font-size:13px;color:var(--ink-2);cursor:pointer;margin-top:11px}
 .fig details table.sf{margin-top:9px}
+
+table.sf.cmp th .arrow{display:block;font-weight:500;font-size:10px;letter-spacing:0;
+ text-transform:none;color:var(--ink-3);margin-top:2px}
+table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font-weight:650}

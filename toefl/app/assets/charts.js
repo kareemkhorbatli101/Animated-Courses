@@ -304,6 +304,51 @@
       esc(spec.alt || spec.title || "flow chart") + '">' + s.join("") + "</svg>", "");
   }
 
+
+  /* -------------------------------------------------------- compare-table --- */
+  /* A table built for comparison rather than lookup. `better` says, per column,
+     whether a low or a high value wins ("low", "high", or null for columns that
+     are not rankable), and the winner in each rankable column is marked. The
+     marking is deliberate: an unmarked comparison table asks the reader to do
+     arithmetic in their head, and most readers do not. */
+  function compareTable(spec) {
+    var f = E("div", "fig");
+    if (spec.title) f.appendChild(E("h4", null, spec.title));
+    if (spec.sub) f.appendChild(E("p", "sub", spec.sub));
+    var t = E("table", "sf cmp");
+    if (spec.caption) { var cp = doc.createElement("caption"); cp.textContent = spec.caption; t.appendChild(cp); }
+
+    var better = spec.better || [];
+    var nums = spec.cols.map(function (_, c) {
+      if (!better[c]) return null;
+      var vals = spec.rows.map(function (r) {
+        var m = String(r[c]).replace(/[^0-9.\-]/g, "");
+        return m === "" ? null : parseFloat(m);
+      });
+      var real = vals.filter(function (v) { return v !== null && !isNaN(v); });
+      if (!real.length) return null;
+      var win = better[c] === "low" ? Math.min.apply(null, real) : Math.max.apply(null, real);
+      return vals.map(function (v) { return v === win; });
+    });
+
+    var html = "<tr>" + spec.cols.map(function (c, i) {
+      return "<th>" + esc(c) + (better[i] ? ' <span class="arrow">' +
+        (better[i] === "low" ? "lower is better" : "higher is better") + "</span>" : "") + "</th>";
+    }).join("") + "</tr>";
+    html += spec.rows.map(function (r, ri) {
+      return "<tr>" + r.map(function (cell, ci) {
+        var win = nums[ci] && nums[ci][ri];
+        if (ci === 0) return "<td><b>" + esc(cell) + "</b></td>";
+        return "<td" + (win ? ' class="win"' : "") + ">" + esc(cell) + (win ? " \u2714" : "") + "</td>";
+      }).join("") + "</tr>";
+    }).join("");
+    t.innerHTML += html;
+    f.appendChild(t);
+    if (spec.note) f.appendChild(E("p", "src", spec.note));
+    if (spec.source) f.appendChild(E("p", "src", "Source: " + spec.source));
+    return f;
+  }
+
   /* --------------------------------------------------------------- table --- */
   function table(spec) {
     var f = E("div", "fig");
@@ -323,7 +368,8 @@
   }
 
   var KINDS = { line: line, bar: bar, pie: pie, "pie-key": pie, scatter: scatter,
-                bubble: bubble, table: table, flow: flow, "pie-pair": piePair };
+                bubble: bubble, table: table, flow: flow,
+                "pie-pair": piePair, "compare-table": compareTable };
 
   root.Charts = {
     make: function (spec) {
