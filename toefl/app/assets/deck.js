@@ -205,6 +205,57 @@
       host.appendChild(c);
     }
 
+    /* Explain and Play, on every scene without exception. The Explain
+       popup is task help and never contains an answer; content help
+       (glossary, line highlight, transcript) stays inline on the page. */
+    var aux = E("div", "aux");
+
+    var exb = E("button", null, "Explain");
+    exb.type = "button";
+    exb.setAttribute("aria-haspopup", "dialog");
+    exb.addEventListener("click", function () {
+      if (root.Explain) root.Explain.open(spec, page, exb);
+    });
+    aux.appendChild(exb);
+
+    var playb = E("button", null, "Play this page");
+    playb.type = "button";
+    var reading = null;
+    function stopReading() {
+      if (reading) { reading.cancel(); reading = null; }
+      playb.classList.remove("on");
+      playb.textContent = "Play this page";
+      stage.querySelectorAll(".say-cursor").forEach(function (n) { n.classList.remove("say-cursor"); });
+    }
+    playb.addEventListener("click", function () {
+      if (reading) { stopReading(); return; }
+      if (!root.Speech || !root.Explain) return;
+      var segs = root.Explain.sayable(spec);
+      if (!segs.length) return;
+      playb.classList.add("on");
+      playb.textContent = "Stop";
+      reading = root.Speech.speakSegments(segs, {
+        onSegment: function (i, seg) { markCursor(typeof seg === "string" ? seg : seg.text); },
+        onDone: stopReading
+      });
+    });
+    aux.appendChild(playb);
+    fb.parentNode.insertBefore(aux, fb.nextSibling);
+
+    /* Move a highlight to whatever is being read, so the learner can see
+       where they are. Matching on text keeps this independent of every
+       renderer's markup. */
+    function markCursor(text) {
+      var want = String(text).replace(/\s+/g, " ").trim().slice(0, 48).toLowerCase();
+      stage.querySelectorAll(".say-cursor").forEach(function (n) { n.classList.remove("say-cursor"); });
+      if (!want) return;
+      var nodes = stage.querySelectorAll("p,li,td,th,h3,h4,.tok,.opt,.chip,.item");
+      for (var i = 0; i < nodes.length; i++) {
+        var t = (nodes[i].textContent || "").replace(/\s+/g, " ").trim().toLowerCase();
+        if (t && t.indexOf(want) === 0) { nodes[i].classList.add("say-cursor"); return; }
+      }
+    }
+
     var steps = E("nav", "steps");
     var pv = E("button", "step-btn", "← Back");
     pv.type = "button"; pv.disabled = current === 0;
@@ -233,7 +284,18 @@
             fbList: fbList, yoursFirst: yoursFirst, note: noteBox, SPEC: SPEC };
 
     function render() {
+      stopReading();
       stage.innerHTML = "";
+      /* Concept badges, every scene. Inferred where not declared, so this
+         is never empty and the same idea always wears the same icon. */
+      if (root.Icons && root.Explain) {
+        var cs = root.Explain.concepts(spec), rowEl = E("div", "icon-row");
+        cs.slice(0, 3).forEach(function (c) {
+          var b = root.Icons.badge(doc, c, c.replace(/-/g, " "));
+          if (b) rowEl.appendChild(b);
+        });
+        if (rowEl.children.length) stage.appendChild(rowEl);
+      }
       fb.className = "fb"; fb.innerHTML = "";
       verdict.textContent = ""; verdict.className = "verdict";
       var r = KINDS[spec.kind];
