@@ -65,7 +65,7 @@
       affix: "-al", pron: "linking words", chart: "pie-key",
       campus: "ask a procedural question at an office",
       strategy: { writing: "using because and since", reading: "reading the key to a pie chart" } },
-    { n: 8,  id: "u08", title: "Disease and Public Health",   field: "epidemiology",
+    { n: 8,  id: "u08", title: "Disease and Public Health",   field: "epidemiology", doubled: true,
       grammar: ["used to", "used to in questions and answers", "the present perfect continuous"],
       affix: "re-", pron: "z and s in use (to)", chart: "pie-pair",
       campus: "report a problem to a supervisor",

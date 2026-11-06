@@ -20,7 +20,48 @@
         ] }] },
         after: "<p>A fatality rate is 7 divided by 8. The talk in On Campus is about what happens when 8 is wrong.</p>" },
 
-      { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+            { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        kind: "match", task: null, n: 0,
+        prompt: "A district clinic during an outbreak. Drag each word onto the thing it names.",
+        scene: { w: 1000, h: 560,
+          alt: "A clinic with a notice board, a hand-washing station, a triage desk with a register, a waiting bench and a water tank outside the window",
+          parts: [
+            { p: "wall",  x: 0, y: 0,   sx: 10, sy: 5.4 },
+            { p: "floor", x: 0, y: 335, sx: 10, sy: 2.3 },
+            { p: "poster",  x: 90,  y: 60,  s: 2.0 },
+            { p: "window",  x: 700, y: 60,  s: 2.0 },
+            { p: "clock",   x: 420, y: 70,  s: 0.75 },
+            { p: "counter", x: 330, y: 300, sx: 2.6, sy: 1.3 },
+            { p: "book",    x: 400, y: 318, s: 0.8 },
+            { p: "seated",  x: 250, y: 290, s: 1.2 },
+            { p: "bench",   x: 620, y: 400, sx: 3.2, sy: 1.5 },
+            { p: "flask",   x: 110, y: 330, s: 1.1 },
+            { p: "plant",   x: 900, y: 320, s: 0.9 }
+          ] },
+        pins: [
+          { id: "p-board",  x: 14, y: 46, tx: 15, ty: 24, w: 150 },
+          { id: "p-wash",   x: 13, y: 90, tx: 15, ty: 68, w: 170 },
+          { id: "p-triage", x: 38, y: 90, tx: 40, ty: 63, w: 150 },
+          { id: "p-reg",    x: 60, y: 90, tx: 46, ty: 62, w: 150 },
+          { id: "p-wait",   x: 84, y: 90, tx: 76, ty: 79, w: 150 },
+          { id: "p-tank",   x: 76, y: 44, tx: 76, ty: 24, w: 150 }
+        ],
+        pairs: [
+          { word: "notice board", pin: "p-board",
+            why: "where the case numbers go up. In an outbreak it is the fastest communication channel a clinic has." },
+          { word: "hand-washing station", pin: "p-wash",
+            why: "hyphenated as a modifier. Lesson 5's article argues this did more than any drug." },
+          { word: "triage desk", pin: "p-triage",
+            why: "<i>triage</i> is sorting by urgency, not by order of arrival. It is a French word and keeps its French vowel." },
+          { word: "case register", pin: "p-reg",
+            why: "where the denominator comes from. Everything Lesson 5 says about rates depends on what is written here." },
+          { word: "waiting area", pin: "p-wait",
+            why: "and in an airborne outbreak it is also where transmission happens, which is why clinics redesign it first." },
+          { word: "water tank", pin: "p-tank",
+            why: "outside the window, and the thing John Snow's map was ultimately about." }
+        ] },
+
+      { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -32,6 +73,20 @@
             why: "<i>Denominator</i> — the bottom of the fraction, and the weak point." },
           { text: "M___ from tuberculosis fell for decades before any treatment existed.", answer: "mortality", given: [0, 1, 2],
             why: "<i>Mortality</i> = death as a measured quantity." }
+        ] },
+
+            { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
+        prompt: "Four more. These are the words the argument in Lesson 5 is conducted in.",
+        items: [
+          { text: "A sudden rise in cases in one place is an o___ .", answer: "outbreak", given: [0, 1],
+            why: "One word. An <i>epidemic</i> is larger, a <i>pandemic</i> crosses continents, and the boundaries are matters of convention rather than of biology." },
+          { text: "T___ is the passing of infection from one person to the next.", answer: "transmission", given: [0, 1],
+            why: "<i>transmit → transmission</i>, and uncountable in this sense." },
+          { text: "I___ may be acquired by infection or by vaccination.", answer: "immunity", given: [0, 1],
+            why: "Uncountable, and note the adjective is <i>immune</i>, which takes <i>to</i>: <i>immune to the strain</i>." },
+          { text: "The number on top of the fraction is the n___ .", answer: "numerator", given: [0, 1],
+            why: "From <i>number</i>. The one underneath is the <i>denominator</i>, and it is the one that goes wrong." }
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The prefix re-", letter: "A",
@@ -60,6 +115,78 @@
             why: "<i>re + infected</i>." },
           { text: "Most patients r___ within a fortnight without treatment.", answer: "recover", given: [0, 1, 2],
             why: "<i>recover</i>, one word, no hyphen — <i>re-cover</i> would mean putting a lid back on." }
+        ] },
+
+      { id: "2c", section: 2, sectionTitle: "The prefix re-", letter: "C",
+        kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
+        prompt: "Four more. Two of them only look as though they carry the prefix.",
+        items: [
+          { text: "A disease declared eliminated can still r___ if coverage falls.", answer: "reappear", given: [0, 1],
+            why: "<i>re + appear</i>. Elimination is a state that has to be maintained, not an event." },
+          { text: "Researchers tried to r___ the finding in a second population.", answer: "replicate", given: [0, 1],
+            why: "<i>re + plicate</i>, to fold again. Here the prefix is doing real work." },
+          { text: "Clean water helped to r___ mortality long before any drug existed.", answer: "reduce", given: [0, 1],
+            why: "A trap: <i>reduce</i> is <i>re + duce</i>, to lead back, and it has nothing to do with doing something twice." },
+          { text: "The study was later r___ by a larger trial.", answer: "refuted", given: [0, 1],
+            why: "Another trap: <i>refute</i> comes whole from Latin and the <i>re-</i> is not the English prefix at all." }
+        ] },
+
+      { id: "2d", section: 2, sectionTitle: "The prefix re-", letter: "D",
+        kind: "oddone", task: null, n: 0,
+        prompt: "Three words in each row belong together. Choose the one that does not.",
+        items: [
+          { group: "three mean the disease came back",
+            options: [
+              { text: "recurrence",  why: "the same disease returning in the same patient." },
+              { text: "relapse",     why: "a return after an apparent recovery." },
+              { text: "reinfection", why: "catching it again, from outside." },
+              { text: "resistance", correct: true,
+                why: "the odd one: resistance is the organism surviving the treatment, which is why the disease did not go away in the first place." }
+            ] },
+          { group: "three really carry this unit's prefix",
+            options: [
+              { text: "reinfect",   why: "<i>re + infect</i>: you can be infected, then infected again." },
+              { text: "reappear",   why: "<i>re + appear</i>." },
+              { text: "replicate",  why: "<i>re + plicate</i>, to fold again — and a study is replicated by doing it again." },
+              { text: "refute", correct: true,
+                why: "the odd one: it arrives whole from Latin, and nothing is being done a second time." }
+            ] },
+          { group: "three are parts of a rate",
+            options: [
+              { text: "numerator",   why: "the number on top." },
+              { text: "denominator", why: "the number underneath." },
+              { text: "ratio",       why: "what you get when you divide one by the other." },
+              { text: "mortality", correct: true,
+                why: "the odd one: mortality is the thing being counted, not a part of the arithmetic. Putting it in the wrong column is how <i>mortality rate</i> gets quoted with no denominator at all." }
+            ] }
+        ] },
+
+      { id: "3a", section: 3, sectionTitle: "Which number moved", letter: "A",
+        kind: "sort", task: null, n: 0,
+        prompt: "Eight things that would change a reported case fatality rate. Sort them by which half of the fraction they move.",
+        note: { kind: "words", title: "In other words…",
+                body: "<p>A case fatality rate is deaths divided by known cases. Almost everything that makes the figure move during an outbreak moves the bottom, and almost every headline about it is written as though it had moved the top.</p>" },
+        bins: [
+          { id: "top",    label: "Changes the deaths",      hint: "the numerator" },
+          { id: "bottom", label: "Changes the known cases", hint: "the denominator" }
+        ],
+        items: [
+          { text: "a treatment that keeps patients alive", bin: "top",
+            why: "fewer deaths, same cases. The rate falls and the fall is real." },
+          { text: "an outbreak reaching an older population", bin: "top",
+            why: "more deaths from the same number of cases." },
+          { text: "deaths recorded under another cause", bin: "top",
+            why: "fewer counted deaths, and the fall is an artefact rather than a result." },
+          { text: "a second wave with a deadlier strain", bin: "top",
+            why: "the only card here that is about the organism rather than about the counting." },
+          { text: "testing extended to people with mild symptoms", bin: "bottom",
+            why: "many more known cases, same deaths. The rate drops sharply and nothing has improved." },
+          { text: "a backlog of untested cases cleared at once", bin: "bottom",
+            why: "the denominator jumps on one day, which produces a cliff in the published rate." },
+          { text: "testing restricted to hospital admissions", bin: "bottom",
+            why: "the known cases become the sickest ones, and the rate rises for that reason alone." },
+          { text: "an asymptomatic infection nobody looks for", bin: "bottom",
+            why: "the hardest card: it changes the true denominator without changing the recorded one, so the published rate is wrong and nothing visible has moved." }
         ],
         closer: { kind: "test", body: "<p>Close the page. Say what a case fatality rate divides by what, and name one way the bottom number can be wrong.</p>" } }
     ]

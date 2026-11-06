@@ -51,6 +51,54 @@
             ] }
         ] },
 
+            { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
+        prompt: "Six more. Three of them report a problem, and the reply has to hear which part is the problem.",
+        items: [
+          { who: "mei", say: "The incubator's been running warm since Tuesday.",
+            options: [
+              { text: "Since Tuesday — so this week's cultures are all in doubt.", correct: true,
+                why: "Picks up the date and draws the consequence, which is the part the speaker has not yet said." },
+              { text: "It used to run warm last year as well.", why: "History, when what is needed is what follows from now." },
+              { text: "Have you turned it down?", why: "Jumps to a fix before establishing what has been affected." }
+            ] },
+          { who: "dan", say: "Did the clinic use to keep paper records?",
+            options: [
+              { text: "Until about two thousand and ten, I think.", correct: true,
+                why: "Answers a <i>used to</i> question with the point at which the habit ended." },
+              { text: "Yes, they are used to it.", why: "<i>Be used to</i> is a different construction meaning accustomed." },
+              { text: "They have been keeping them for years.", why: "Present perfect continuous says the practice continues, which contradicts the question's premise." }
+            ] },
+          { who: "priya", say: "The rate has gone up to fifteen per cent.",
+            options: [
+              { text: "Out of how many tested?", correct: true,
+                why: "A percentage with no denominator is not yet information. This unit's single most useful question." },
+              { text: "That is very high.", why: "Accepts the figure before knowing what it is a fraction of." },
+              { text: "It used to be lower.", why: "Comparing two rates whose denominators may differ compounds the problem." }
+            ] },
+          { who: "tomas", say: "I haven't told the other groups yet.",
+            options: [
+              { text: "Tell them now and I will write to the supervisor.", correct: true,
+                why: "Divides the work and treats the disclosure as urgent, which it is." },
+              { text: "Why not?", why: "Turns a disclosure into a reproach, and the speaker has volunteered it." },
+              { text: "Neither have I.", why: "Nobody has, which is the problem rather than a comfort." }
+            ] },
+          { who: "haddad", say: "Have you been working on the register all week?",
+            options: [
+              { text: "Since Monday, yes — about half of it is done.", correct: true,
+                why: "The present perfect continuous asks about an activity in progress; the answer gives the start and the state." },
+              { text: "I used to work on it.", why: "That closes the door on something the question assumes is still open." },
+              { text: "I worked on it on Monday.", why: "A single finished occasion answers a different question." }
+            ] },
+          { who: "dan", say: "If we'd checked the display against a thermometer, we'd have caught it on Tuesday.",
+            options: [
+              { text: "Let's put a second thermometer in it now.", correct: true,
+                why: "They did <b>not</b> check and did <b>not</b> catch it. Only this reply works from that." },
+              { text: "Good, so we caught it on Tuesday.", why: "They did not; the counterfactual says so." },
+              { text: "So you checked it against a thermometer.", why: "That is precisely what did not happen." }
+            ] }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "A student reporting a problem in the lab. Listen once.",
@@ -93,6 +141,49 @@
             ] }
         ] },
 
+            { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
+        prompt: "Two students working out what a rise in a rate actually means. Listen once.",
+        speaker: "mei", speakerNote: "with Priya Raman",
+        audio: { track: "8-05", label: "The rate went up", lines: [
+          { who: "mei", text: "The fatality rate went from nine per cent to fifteen in a fortnight." },
+          { who: "priya", text: "Did the deaths go up, or did the tests go down?" },
+          { who: "mei", text: "Deaths rose from forty five to fifty. Tests fell from five hundred to three hundred and thirty." },
+          { who: "priya", text: "So the top barely moved and the bottom fell by a third." },
+          { who: "mei", text: "Which means the rise is mostly about who is being tested now." },
+          { who: "priya", text: "It is still five more people. The rate is misleading and the deaths are real." }
+        ] },
+        items: [
+          { q: "What is Priya's first question?",
+            options: [
+              { text: "Whether the change came from the deaths or from the testing.", correct: true,
+                why: "She separates the two halves of the fraction before accepting anything about the rate." },
+              { text: "Whether the figure is accurate.", why: "She never doubts the arithmetic, which is what makes her question sharper." },
+              { text: "How many people have recovered.", why: "Recoveries are not mentioned." }
+            ] },
+          { q: "What happened to the number of tests?",
+            options: [
+              { text: "It fell from five hundred to three hundred and thirty.", correct: true,
+                why: "Mei gives both numbers, and Priya immediately converts them into <i>a third</i>." },
+              { text: "It rose to five hundred.", why: "Five hundred is where it started." },
+              { text: "It stayed the same.", why: "The fall is what drives the whole conversation." }
+            ] },
+          { q: "What does Mei conclude about the rise?",
+            options: [
+              { text: "It is mostly a change in who is being tested.", correct: true,
+                why: "The numerator barely moved, so the movement is in the denominator." },
+              { text: "The outbreak has become more severe.", why: "That is what the rate appears to say and what the numbers do not support." },
+              { text: "The deaths have been recorded wrongly.", why: "Nobody questions the death count." }
+            ] },
+          { q: "What is Priya's last point?",
+            options: [
+              { text: "The rate misleads, and the five extra deaths are still real.", correct: true,
+                why: "She refuses to let the statistical correction become a reason to dismiss the thing being counted." },
+              { text: "The rate should not have been published.", why: "Publication is not discussed here." },
+              { text: "The deaths are a rounding error.", why: "She says the opposite in four words." }
+            ] }
+        ] },
+
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "<b>use</b> is pronounced two ways. The verb takes /z/ — <i>I use it</i>. The noun, and <i>used to</i>, take /s/ — <i>a use</i>, <i>I useto</i>.",
@@ -106,6 +197,61 @@
             note: "<i>is used to</i> /s/, <i>using</i> /z/ — and the meaning is <i>accustomed</i>, not <i>formerly</i>." },
           { text: "The researchers who used to work here have been reusing the older equipment.",
             note: "Relative clause, both pronunciations, and a present perfect continuous at the end." }
+        ] },
+
+      { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
+        prompt: "Four more. The same four letters, two sounds, and the difference carries the whole construction.",
+        speaker: "haddad",
+        lines: [
+          { text: "I use it. I used to.", note: "/juːz/ for the verb, /juːst/ for the closed past. Two words apart." },
+          { text: "We are used to using it every week.",
+            note: "<i>used to</i> with /s/, then <i>using</i> with /z/, in one clause." },
+          { text: "Did the clinic use to keep a paper register?",
+            note: "No <i>d</i> on the page, and the sound is /juːs/ either way — which is why the spelling is so often wrong." },
+          { text: "Staff who used to work nights are now used to working days instead.",
+            note: "The closed past and the accustomed state in one sentence, both pronounced /juːst/. Only the grammar tells them apart." }
+        ] },
+
+      { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        kind: "minimal-pairs", task: null, n: 0,
+        focus: "<p>English writes one word and says two. The verb <i>use</i> ends in <b>/z/</b> and the noun <i>use</i> ends in <b>/s/</b>, and the same split runs through several common pairs. In <i>used to</i> the sound is /s/, which is why the <i>d</i> is so often left off in writing.</p>" +
+               "<i>/z/ — to use · to close · to excuse · to house</i><i>/s/ — a use · close by · an excuse · a house</i>",
+        items: [
+          { say: "a use",
+            options: [
+              { text: "a use", correct: true, why: "/s/ — the noun. An article in front is the surest clue." },
+              { text: "to use", why: "/z/ — the verb, and the <i>to</i> would be an infinitive marker rather than a preposition." }
+            ] },
+          { say: "to close",
+            options: [
+              { text: "close by", why: "/s/ — the adjective, meaning near." },
+              { text: "to close", correct: true, why: "/z/ — the verb. The same letters mean two unrelated things." }
+            ] },
+          { say: "an excuse",
+            options: [
+              { text: "an excuse", correct: true, why: "/s/ — the noun, with an article." },
+              { text: "to excuse", why: "/z/ — the verb, and the vowel before it is slightly longer." }
+            ] },
+          { say: "used to",
+            options: [
+              { text: "used to", correct: true, why: "/juːst/ — the closed past, and the <i>d</i> is written but not separately heard." },
+              { text: "use to", why: "identical in sound, and correct only after <i>did</i>. The ear cannot settle this one; the grammar has to." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        kind: "dictation", task: null, n: 0,
+        prompt: "Play each line and write exactly what you hear. Two of them turn on a letter you cannot hear.",
+        items: [
+          { answer: "Cholera used to kill thousands every summer",
+            why: "<i>used to</i> is /juːst tuː/ with no separate <i>d</i>, and writing <i>use to</i> here would be wrong." },
+          { answer: "Did the clinic use to keep a paper register",
+            why: "the same sound, and here the <i>d</i> must not be written, because <i>did</i> is carrying the past." },
+          { answer: "Researchers have been tracking the decline for over a century",
+            why: "<i>have been</i> reduces almost to nothing; write both words." },
+          { answer: "Out of how many people tested",
+            why: "the question this whole unit is about, and the one most worth being able to produce instantly." }
         ],
         closer: { kind: "test", body: "<p>Assess your own part: today I was able to … report a fault with its start date · use <i>didn't use to</i> · hear /s/ against /z/ in <i>use</i>.</p>" } }
     ]
