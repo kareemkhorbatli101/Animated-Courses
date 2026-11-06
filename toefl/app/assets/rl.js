@@ -636,12 +636,70 @@
     return true;
   }
 
+
+  /* ============================================= F10 — paragraph spine == */
+  /* Which paragraph each question draws on, shown as a column beside the
+     passage and filling in as the questions are answered. It is a map of
+     where the work is: a learner who has answered everything from the
+     first paragraph and nothing from the third can see that at a glance,
+     and so can one who is hunting in the wrong place.
+
+     `para: 0` means the whole passage \u2014 a main-idea question does not
+     live in one paragraph, and pointing it at one would be a lie. */
+  function paraSpine(stage, spec, api) {
+    var its = spec.items || [];
+    if (!its.length || !its.some(function (i) { return i && i.para != null; })) return null;
+    var blocks = (spec.text && spec.text.blocks) || [];
+    if (blocks.length < 2) return null;
+
+    var wrap = E("div", "rl-spine");
+    wrap.appendChild(E("span", "rl-spine-label", "Where the questions come from"));
+    var cells = [];
+    blocks.forEach(function (b, n) {
+      var cell = E("div", "rl-spine-cell");
+      cell.appendChild(E("span", "rl-spine-n", String(n + 1)));
+      cell.appendChild(E("span", "rl-spine-h", esc(b.h || "Paragraph " + (n + 1))));
+      var dots = E("span", "rl-spine-dots");
+      its.forEach(function (it, j) {
+        if (!it || it.para !== n + 1) return;
+        var d = E("i", "rl-spine-dot");
+        d.title = "Question " + (j + 1);
+        dots.appendChild(d);
+      });
+      if (!dots.children.length) cell.classList.add("rl-spine-empty");
+      cell.appendChild(dots);
+      wrap.appendChild(cell);
+      cells.push({ el: cell, dots: dots });
+    });
+    var whole = its.filter(function (i) { return i && i.para === 0; }).length;
+    if (whole) {
+      var w = E("div", "rl-spine-whole");
+      w.textContent = whole === 1
+        ? "1 question draws on the whole passage"
+        : whole + " questions draw on the whole passage";
+      wrap.appendChild(w);
+    }
+
+    var host = stage.querySelector(".read") || stage;
+    if (host.parentNode) host.parentNode.insertBefore(wrap, host.nextSibling);
+    else stage.appendChild(wrap);
+
+    /* fill in as the questions are answered */
+    api.onChecked(function () {
+      cells.forEach(function (c) {
+        [].forEach.call(c.dots.children, function (d) { d.classList.add("on"); });
+      });
+      wrap.classList.add("rl-spine-done");
+    });
+    return wrap;
+  }
+
   /* ==================================================== the entry point === */
   function decorate(stage, spec, api, page) {
     if (!spec) return;
     carryStimulus(stage, spec, api);
     if (spec.kind === "read" || spec.carry || spec.chart) signalOnReview(stage, spec, api);
-    if (spec.kind === "read" || spec.kind === "read-only") paceBand(stage, spec);
+    if (spec.kind === "read") { paceBand(stage, spec); paraSpine(stage, spec, api); }
     if (audioLines(spec).length) {
       portraits(stage, spec);
       slowReplay(stage, spec, api);
@@ -663,7 +721,7 @@
     itemAudioReview: itemAudioReview, itemSay: itemSay,
     carryStimulus: carryStimulus, markCitedLine: markCitedLine, fillCite: fillCite,
     shadowBar: shadowBar, canRecord: canRecord, glossRail: glossRail,
-    segments: segments, signalOnReview: signalOnReview,
+    segments: segments, signalOnReview: signalOnReview, paraSpine: paraSpine,
     countWords: countWords, audioLines: audioLines, _key: key
   };
 })(window, document);

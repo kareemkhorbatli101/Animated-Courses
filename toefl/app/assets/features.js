@@ -64,7 +64,8 @@
     "arabicUI",      /* F36 chrome in Arabic; the English taught stays English */
     "segments",      /* F49 a long talk offered in parts, as well as whole   */
     "signalOnReview",/* F47 where the answer came from, marked after only    */
-    "triage"         /* F22 a card you did not have comes back two cards later */
+    "triage",        /* F22 a card you did not have comes back two cards later */
+    "paraSpine"      /* F10 which paragraph each question draws on           */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

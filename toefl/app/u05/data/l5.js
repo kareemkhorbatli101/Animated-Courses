@@ -117,28 +117,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read a complex text more than once: first for the idea, then the details, then the vocabulary.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The first catalogues reflected what was easy to detect, not what is common.", correct: true,
                 why: "That is the hinge sentence, and both other sections lead to or from it." },
               { text: "Early instruments were badly made.", why: "Nothing is said against the instruments; the issue is what they can see." },
               { text: "Massive planets orbit faster than small ones.", why: "A detail about detectability, not the argument." }
             ] },
-          { q: "Why does a massive close-in planet announce itself quickly?",
+          { para: 2, q: "Why does a massive close-in planet announce itself quickly?",
             options: [
               { text: "It displaces its star measurably and transits often.", correct: true,
                 why: "Both halves of the mechanism are given in one sentence." },
               { text: "It is brighter than other planets.", why: "Brightness is never mentioned." },
               { text: "It is nearer to Earth.", why: "Distance from <i>us</i> is not the variable; distance from its own star is." }
             ] },
-          { q: "In line 6, <i>the two are not equivalent</i> refers to:",
+          { para: 3, q: "In line 6, <i>the two are not equivalent</i> refers to:",
             options: [
               { text: "a sample of what exists and a sample of what is convenient to detect", correct: true,
                 why: "The two things are named in the first half of the same sentence." },
               { text: "large planets and small planets", why: "Those are compared, but not as the referents of <i>the two</i>." },
               { text: "the method and the instruments", why: "Instruments are not a party to this comparison." }
             ] },
-          { q: "What does the last sentence imply about the corrected picture?",
+          { para: 3, q: "What does the last sentence imply about the corrected picture?",
             options: [
               { text: "It matches what people expected before the data arrived.", correct: true,
                 why: "“approximately what anyone would have predicted before the instruments began answering” — gently ironic, and an inference item lives exactly there." },
@@ -153,7 +153,7 @@
         prompt: "A short everyday text. Read the card from the department noticeboard.",
         text: NOTICE,
         items: [
-          { q: "Where should you meet?",
+          { para: 0, q: "Where should you meet?",
             options: [
               { text: "At the gate.", correct: true, why: "“at the gate, <i>not</i> the car park” — the card anticipates the mistake." },
               { text: "At the car park.", why: "Explicitly ruled out." },
@@ -248,28 +248,28 @@
         note: { kind: "reader",
                 body: "<p>The first article was about which planets a method can see. This one is about where a field draws the line between seeing something and saying so.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Where the threshold is set decides which of two unavoidable errors you risk, and the field has chosen.", correct: true,
                 why: "The three sections are the trade-off, the choice, and what the vocabulary is doing about it." },
               { text: "Detection thresholds should be set lower.", why: "The article explains the preference rather than arguing against it." },
               { text: "Most planet candidates turn out to be false.", why: "No rate is given anywhere in the text." }
             ] },
-          { q: "Why does the article call the field's preference sociological rather than statistical?",
+          { para: 2, q: "Why does the article call the field's preference sociological rather than statistical?",
             options: [
               { text: "The reason concerns how announcements and withdrawals travel, not the numbers.", correct: true,
                 why: "The second section is entirely about readership: the withdrawal reaches a fraction of the people the announcement did." },
               { text: "Because astronomers vote on the threshold.", why: "No decision procedure is described." },
               { text: "Because the statistics are disputed.", why: "The arithmetic is not in question in this article at all." }
             ] },
-          { q: "According to the article, what happens to a real planet that is missed?",
+          { para: 2, q: "According to the article, what happens to a real planet that is missed?",
             options: [
               { text: "Somebody else usually finds it, and the cost falls on one team.", correct: true,
                 why: "Stated as the contrast with the false detection, whose cost falls on the literature." },
               { text: "It is never found.", why: "<i>Usually found later</i> says the opposite." },
               { text: "It is published as a candidate.", why: "A missed object is by definition below the threshold and not published at all." }
             ] },
-          { q: "Why does a paper say <i>candidate</i> when the authors believe the object is real?",
+          { para: 3, q: "Why does a paper say <i>candidate</i> when the authors believe the object is real?",
             options: [
               { text: "To state which of the two errors they have decided to risk.", correct: true,
                 why: "The last sentence says exactly this, and explicitly rules out modesty as the explanation." },
@@ -328,13 +328,13 @@
         prompt: "A second card, this one inside the dome. Read it.",
         text: NOTICE2,
         items: [
-          { q: "When do you sign the logbook?",
+          { para: 0, q: "When do you sign the logbook?",
             options: [
               { text: "At the start and at the end of your slot.", correct: true, why: "Line 2 names both, and the <i>and</i> makes both compulsory." },
               { text: "Only at the end.", why: "Line 2 asks for two signatures." },
               { text: "Only if something goes wrong.", why: "No condition is attached." }
             ] },
-          { q: "Who closes the shutter?",
+          { para: 0, q: "Who closes the shutter?",
             options: [
               { text: "Whoever leaves last.", correct: true,
                 why: "Line 4, and the clause after the comma removes the obvious excuse." },

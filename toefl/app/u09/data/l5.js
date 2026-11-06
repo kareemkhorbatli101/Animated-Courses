@@ -118,28 +118,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once to answer your three questions, once for the vocabulary.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Extra road capacity creates traffic, so capacity cannot be matched against a fixed demand.", correct: true,
                 why: "The third section states the consequence, and the first two establish it." },
               { text: "Congestion is caused by poor driving.", why: "Behaviour of that kind is never mentioned." },
               { text: "Roads should never be widened.", why: "The article recommends other instruments, not a prohibition." }
             ] },
-          { q: "Where does the new traffic come from?",
+          { para: 2, q: "Where does the new traffic come from?",
             options: [
               { text: "Journeys that were suppressed, or made at other times or by other means.", correct: true,
                 why: "All three sources are listed in one sentence." },
               { text: "Population growth.", why: "Growth is not part of the mechanism described." },
               { text: "Freight diverted from other roads.", why: "Freight is not mentioned." }
             ] },
-          { q: "Why do planners who understand this reach for pricing?",
+          { para: 3, q: "Why do planners who understand this reach for pricing?",
             options: [
               { text: "Because pricing changes the calculation a traveller makes.", correct: true,
                 why: "The final clause gives exactly this reason — and <i>only instruments</i> marks it as the whole argument." },
               { text: "Because it raises money.", why: "Revenue is never mentioned." },
               { text: "Because concrete is expensive.", why: "Cost is not the stated objection." }
             ] },
-          { q: "What would the author say about a city planning a third lane to fix congestion?",
+          { para: 1, q: "What would the author say about a city planning a third lane to fix congestion?",
             options: [
               { text: "It is likely to be disappointed within a year or two.", correct: true,
                 why: "One step from the opening sentence, applied to a new case." },
@@ -154,7 +154,7 @@
         prompt: "A short everyday text. Read the card at the shuttle stop.",
         text: NOTICE,
         items: [
-          { q: "Where does the shuttle stop?",
+          { para: 0, q: "Where does the shuttle stop?",
             options: [
               { text: "The library, the science building and the north gate.", correct: true, why: "<i>only</i> makes the list exhaustive." },
               { text: "Anywhere you ask.", why: "The card names three stops and says <i>only</i>." },
@@ -251,28 +251,28 @@
         note: { kind: "reader",
                 body: "<p>Turn each heading into a question before you read the paragraph under it. The third one is the only heading that promises a proposal, which tells you where the article is going.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "A measure built from existing journeys can only recommend improving existing journeys.", correct: true,
                 why: "The three sections are the shape of the measure, who it excludes, and what would have to be added." },
               { text: "Journey times are measured inaccurately.", why: "The article never disputes the measurement, only what it can see." },
               { text: "Transport schemes save less time than claimed.", why: "No claim about the size of the savings is made." }
             ] },
-          { q: "Why does a resident who cannot cross a dual carriageway register nothing?",
+          { para: 2, q: "Why does a resident who cannot cross a dual carriageway register nothing?",
             options: [
               { text: "No journey is recorded, so there is no journey time to count.", correct: true,
                 why: "The measure counts time saved on journeys made, and an impossible journey is not a slow one." },
               { text: "They are counted under a different scheme.", why: "No other scheme appears in the article." },
               { text: "Their journey is too short to matter.", why: "The journey is not short; it does not happen." }
             ] },
-          { q: "Why does the article call the effect “systematic rather than accidental”?",
+          { para: 2, q: "Why does the article call the effect “systematic rather than accidental”?",
             options: [
               { text: "The measure counts exactly the journeys the network already makes possible.", correct: true,
                 why: "That is the definition of the measure, so the exclusion follows from its design rather than from an error." },
               { text: "The data are collected carelessly.", why: "Collection is not criticised anywhere." },
               { text: "The same mistake is made in every country.", why: "<i>Systematic</i> here means built in, not widespread." }
             ] },
-          { q: "What does the article propose?",
+          { para: 3, q: "What does the article propose?",
             options: [
               { text: "Adding a measure of access alongside the existing one.", correct: true,
                 why: "<i>Not abandoning the measure, only supplementing it</i> — and it names administrations that already do." },
@@ -331,13 +331,13 @@
         prompt: "A second shuttle card. Read it.",
         text: NOTICE2,
         items: [
-          { q: "It is half past eight in the evening. How long might you wait?",
+          { para: 0, q: "It is half past eight in the evening. How long might you wait?",
             options: [
               { text: "Up to an hour.", correct: true, why: "Line 2: one an hour after seven, on the hour, so the next is at nine." },
               { text: "Up to ten minutes.", why: "That frequency applies only until seven." },
               { text: "There is no service.", why: "Line 2 says there is one an hour." }
             ] },
-          { q: "Where should you get off for the north gate?",
+          { para: 0, q: "Where should you get off for the north gate?",
             options: [
               { text: "The library, and walk five minutes further.", correct: true,
                 why: "Lines 3 and 4 together: the stop is closed and the card names the substitute and its cost." },

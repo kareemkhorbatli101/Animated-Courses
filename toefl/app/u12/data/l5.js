@@ -116,28 +116,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once for the two claims it separates, once for the author's own view.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Two different claims about audiences are routinely run together, and separating them clarifies the argument.", correct: true,
                 why: "The second section names both and the third turns that into a reading discipline." },
               { text: "Audiences complete the meaning of every work.", why: "The article treats that as the contested claim, not its own." },
               { text: "Interactivity is a modern invention.", why: "It says the question is older than that language." }
             ] },
-          { q: "What is the <i>weaker</i> claim the article identifies?",
+          { para: 2, q: "What is the <i>weaker</i> claim the article identifies?",
             options: [
               { text: "That a work is experienced differently by different audiences.", correct: true,
                 why: "It calls this plainly true, and the critic example illustrates it." },
               { text: "That a work is a different work for each audience.", why: "That is the stronger claim." },
               { text: "That a play needs an audience to occur.", why: "That is the opening observation, not one of the two claims." }
             ] },
-          { q: "<i>The argument usually turns on that distinction without acknowledging that it has</i> means:",
+          { para: 2, q: "<i>The argument usually turns on that distinction without acknowledging that it has</i> means:",
             options: [
               { text: "the whole disagreement depends on a difference the writers do not name.", correct: true,
                 why: "<i>Turn on</i> means depend entirely upon, and <i>without acknowledging</i> is the criticism." },
               { text: "the distinction is unimportant.", why: "The opposite — everything depends on it." },
               { text: "both claims are false.", why: "The article calls the weaker one plainly true." }
             ] },
-          { q: "What is the author's own view?",
+          { para: 3, q: "What is the author's own view?",
             options: [
               { text: "That readers should ask which of the two claims is being made.", correct: true,
                 why: "<i>A useful discipline… is to ask</i> — the only sentence that recommends rather than describes." },
@@ -152,7 +152,7 @@
         prompt: "A short everyday text. Read the card at the gallery entrance.",
         text: NOTICE,
         items: [
-          { q: "When does the upper floor close?",
+          { para: 0, q: "When does the upper floor close?",
             options: [
               { text: "Half an hour before the rest of the building.", correct: true, why: "Stated exactly." },
               { text: "At the same time as the rest.", why: "The card says earlier." },
@@ -250,28 +250,28 @@
         note: { kind: "reader",
                 body: "<p>The second section is the one to read twice. It is there to stop the article being taken as an attack on criticism, which is how an argument of this shape is usually misread.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Observation and interpretation are joined without a seam, so agreeing to one can commit you to the other.", correct: true,
                 why: "The three sections are the example, the refusal to complain about it, and the habit that follows." },
               { text: "Critics should avoid attributing intentions.", why: "<i>Nothing is wrong with the sentence</i> — the article says so explicitly." },
               { text: "Reviews should contain only checkable claims.", why: "That would be a catalogue, which the article names and rejects." }
             ] },
-          { q: "Which word does the article identify as carrying the interpretation?",
+          { para: 1, q: "Which word does the article identify as carrying the interpretation?",
             options: [
               { text: "refuses", correct: true,
                 why: "Because it attributes an intention, and no sequence of images can display one." },
               { text: "consolations", why: "A description of what such films usually offer, which is checkable against the genre." },
               { text: "genre", why: "The classification is not what the article disputes." }
             ] },
-          { q: "Why does the article say a purely checkable criticism would be worse?",
+          { para: 2, q: "Why does the article say a purely checkable criticism would be worse?",
             options: [
               { text: "It would be a catalogue rather than an argument.", correct: true,
                 why: "The concession is doing real work: it stops the article recommending the thing it is warning about." },
               { text: "It would be too short.", why: "Length is not mentioned." },
               { text: "Nobody would read it.", why: "Readership is not the article's concern." }
             ] },
-          { q: "What question does the article recommend asking?",
+          { para: 3, q: "What question does the article recommend asking?",
             options: [
               { text: "What would I have to see in order to accept this?", correct: true,
                 why: "And the article adds the follow-up: has the writer shown it?" },
@@ -330,13 +330,13 @@
         prompt: "A second card from the gallery. Read it.",
         text: NOTICE2,
         items: [
-          { q: "When does the tour finish?",
+          { para: 0, q: "When does the tour finish?",
             options: [
               { text: "At ten to three.", correct: true, why: "Lines 1 and 2 together: two o'clock plus fifty minutes." },
               { text: "At three.", why: "Three is the time it no longer begins." },
               { text: "The card does not say.", why: "It gives the start and the length, which is the same as giving the end." }
             ] },
-          { q: "How can a place be booked?",
+          { para: 0, q: "How can a place be booked?",
             options: [
               { text: "By any means except the telephone.", correct: true,
                 why: "Line 3 rules out one route and names no other, which is all you can conclude." },

@@ -1035,3 +1035,22 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
   text-transform:uppercase;letter-spacing:.07em;}
 .i6-fam-word{font:500 16px/1.5 var(--ui);color:var(--ink);}
 .i6-fam-note{font:400 12px/1.55 var(--ui);color:var(--ink-3);}
+
+/* F10 — which paragraph each question draws on */
+.rl-spine{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0;padding:11px 13px;
+  border-radius:10px;background:var(--sunk);border:1px solid var(--rule);}
+.rl-spine-label{flex:1 0 100%;font:700 10.5px/1.7 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.rl-spine-cell{flex:1 1 150px;display:flex;align-items:baseline;gap:7px;
+  padding:7px 10px;border-radius:8px;background:var(--card);
+  border-left:3px solid var(--blue);}
+.rl-spine-cell.rl-spine-empty{border-left-color:var(--rule-2);opacity:.65;}
+.rl-spine-n{font:700 12px/1.5 var(--ui);color:var(--blue);}
+.rl-spine-empty .rl-spine-n{color:var(--ink-3);}
+.rl-spine-h{flex:1 1 auto;font:400 12.5px/1.5 var(--ui);color:var(--ink-2);}
+.rl-spine-dots{display:inline-flex;gap:3px;}
+.rl-spine-dot{width:8px;height:8px;border-radius:50%;background:var(--rule-2);
+  display:inline-block;transition:background .2s ease;}
+.rl-spine-dot.on{background:var(--ok);}
+.rl-spine-whole{flex:1 0 100%;font:400 12px/1.6 var(--ui);color:var(--ink-3);}
+@media (prefers-reduced-motion: reduce){ .rl-spine-dot{transition:none;} }

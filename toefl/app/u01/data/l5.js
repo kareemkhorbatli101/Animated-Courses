@@ -151,7 +151,7 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read a complex text more than once: first for the general idea, then for the details, then for the difficult vocabulary.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Re-reading produces a feeling of knowing that retrieval does not, and the feeling is misleading.", correct: true,
                 why: "Paragraph 1 names the illusion; paragraphs 2 and 3 show what works instead and why." },
@@ -160,7 +160,7 @@
               { text: "Examinations measure memory rather than understanding.",
                 why: "The article never discusses what examinations measure." }
             ] },
-          { q: "What happened a week after the test?",
+          { para: 2, q: "What happened a week after the test?",
             options: [
               { text: "The gap between the two groups had grown.", correct: true,
                 why: "“A week later it had widened” — <i>it</i> is the margin between the groups." },
@@ -169,7 +169,7 @@
               { text: "The groups performed about the same.",
                 why: "That is the opposite of <i>widened</i>." }
             ] },
-          { q: "In line 8, <i>that pathway</i> refers to:",
+          { para: 3, q: "In line 8, <i>that pathway</i> refers to:",
             options: [
               { text: "the route by which a fact is recalled from memory", correct: true,
                 why: "The clause before it introduces <i>the pathway to it</i>, where <i>it</i> is the fact recovered from memory." },
@@ -178,7 +178,7 @@
               { text: "the order in which the notes were written",
                 why: "Notes are not mentioned in that paragraph." }
             ] },
-          { q: "What would the author most likely say about a student who only highlights their notes?",
+          { para: 1, q: "What would the author most likely say about a student who only highlights their notes?",
             options: [
               { text: "They are building fluency rather than memory.", correct: true,
                 why: "Highlighting is a form of re-reading: it makes the page feel easier without requiring retrieval." },
@@ -195,7 +195,7 @@
         prompt: "Now a short everyday text. Read the card from the noticeboard.",
         text: NOTICE,
         items: [
-          { q: "What should you bring?",
+          { para: 0, q: "What should you bring?",
             options: [
               { text: "Notes and a past paper.", correct: true, why: "Line 1 names both." },
               { text: "Nothing — materials are provided.", why: "The card asks you to bring two things." },
@@ -296,7 +296,7 @@
         note: { kind: "reader",
                 body: "<p>This article and the first one agree, but they are not making the same claim. Hold both: one is about the activity, the other about its timing. Items that mix them up are the commonest way to lose marks on a paired reading.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The same hours of study produce more when they are spread out.", correct: true,
                 why: "The first paragraph sets up equal totals; the rest explains why the distributed total wins." },
@@ -305,7 +305,7 @@
               { text: "Students should avoid forgetting between sessions.",
                 why: "The second paragraph argues the reverse: the forgetting is doing the work." }
             ] },
-          { q: "What do the two students in the first paragraph have in common?",
+          { para: 1, q: "What do the two students in the first paragraph have in common?",
             options: [
               { text: "The chapter and the number of hours.", correct: true,
                 why: "<i>Each devote four hours to the same chapter</i> — holding both constant is what makes the comparison mean anything." },
@@ -314,7 +314,7 @@
               { text: "Their examination result.",
                 why: "The paragraph ends by saying the results differ, often substantially." }
             ] },
-          { q: "In the second paragraph, <i>it</i> in “rather than upon preventing it” refers to:",
+          { para: 2, q: "In the second paragraph, <i>it</i> in “rather than upon preventing it” refers to:",
             options: [
               { text: "forgetting", correct: true,
                 why: "The sentence contrasts two things one might depend upon, and both halves take the same object: depending on forgetting, not on preventing forgetting." },
@@ -323,7 +323,7 @@
               { text: "the interval between sessions",
                 why: "The interval appears in the next sentence, after this pronoun." }
             ] },
-          { q: "What would this author most likely say about a timetable that gives each subject one whole day?",
+          { para: 3, q: "What would this author most likely say about a timetable that gives each subject one whole day?",
             options: [
               { text: "It will feel organised and leave less behind than it should.", correct: true,
                 why: "The last sentence says exactly this about block schedules, in the author's own words: disciplined, and delivering less." },
@@ -383,13 +383,13 @@
         prompt: "The drop-in from 1D has sent a follow-up. Read it.",
         text: NOTICE2,
         items: [
-          { q: "Where is the session from next week?",
+          { para: 0, q: "Where is the session from next week?",
             options: [
               { text: "Library B-118.", correct: true, why: "Line 1 gives the new room." },
               { text: "Library B-214.", why: "That was the old room, in the first card." },
               { text: "The card does not say.", why: "It names the room in its first line." }
             ] },
-          { q: "What should you bring?",
+          { para: 0, q: "What should you bring?",
             options: [
               { text: "Your six questions.", correct: true,
                 why: "Line 2 asks for the questions and explicitly rules out the notes they came from." },

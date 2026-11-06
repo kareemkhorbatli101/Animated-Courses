@@ -115,27 +115,27 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read a complex text more than once: first for the idea, then the details, then the vocabulary.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "A half-millimetre change matters because it shows selection acting on a population.", correct: true,
                 why: "The article concedes the number is small and then explains why it is nonetheless the clearest demonstration there is." },
               { text: "Finches can grow deeper beaks when food is hard.", why: "The article denies this in so many words." },
               { text: "Droughts reduce the size of seeds.", why: "The seeds that <i>remained</i> were larger, not smaller." }
             ] },
-          { q: "By how much did average beak depth increase?",
+          { para: 1, q: "By how much did average beak depth increase?",
             options: [
               { text: "About half a millimetre, within two years.", correct: true, why: "Both the amount and the period are stated." },
               { text: "About half a centimetre.", why: "Ten times too large." },
               { text: "The article does not say.", why: "It gives the figure twice, in effect." }
             ] },
-          { q: "In line 6, <i>Nothing about any individual bird changed</i> is there to:",
+          { para: 3, q: "In line 6, <i>Nothing about any individual bird changed</i> is there to:",
             options: [
               { text: "rule out the idea that birds responded by growing.", correct: true,
                 why: "The next clause makes it explicit: birds do not grow deeper beaks because conditions are hard." },
               { text: "say the measurements were unreliable.", why: "Reliability is never questioned." },
               { text: "introduce a second study.", why: "There is only one study here." }
             ] },
-          { q: "What would the author say about the sentence <i>the finches adapted to the drought</i>?",
+          { para: 3, q: "What would the author say about the sentence <i>the finches adapted to the drought</i>?",
             options: [
               { text: "It describes the outcome in the grammar of an action.", correct: true,
                 why: "The final sentence names exactly this error: treating adaptation as something an organism does." },
@@ -150,7 +150,7 @@
         prompt: "A short everyday text. Read the card on the lab door.",
         text: NOTICE,
         items: [
-          { q: "What must you never do?",
+          { para: 0, q: "What must you never do?",
             options: [
               { text: "Move a label from one specimen to another.", correct: true, why: "“for any reason” makes it the absolute rule on the card." },
               { text: "Wear gloves.", why: "Gloves are required, not forbidden." },
@@ -247,28 +247,28 @@
         note: { kind: "reader",
                 body: "<p>Read this one with 3A's bar graph beside you. It argues that the graph is honest about the wrong thing.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "A mean says nothing about the spread, and the spread is what this subject needs.", correct: true,
                 why: "The whole article is one argument with one example: identical bars, different populations." },
               { text: "Bar graphs should not be used in biology.", why: "It asks what the bar was computed from, and recommends error bars, which is not abolition." },
               { text: "The beak measurements were inaccurate.", why: "Accuracy is never in question; the article accepts the numbers." }
             ] },
-          { q: "What do the two populations in the second section have in common?",
+          { para: 2, q: "What do the two populations in the second section have in common?",
             options: [
               { text: "Their mean beak depth, and therefore the height of their bars.", correct: true,
                 why: "Nine, against half at eight and half at ten — both average nine. That identity is the article's entire demonstration." },
               { text: "The number of birds in them.", why: "No sizes are given; they could differ." },
               { text: "The amount of variation they contain.", why: "That is the one thing deliberately made different." }
             ] },
-          { q: "Why does the article say only the second population matters to selection?",
+          { para: 2, q: "Why does the article say only the second population matters to selection?",
             options: [
               { text: "Selection needs differences already present, and the first population has none.", correct: true,
                 why: "<i>Only the second contains the variation on which selection depends</i> — and Lesson 1 made variation stage one of three." },
               { text: "The second population is larger.", why: "Size is not mentioned, and would not be the reason if it were." },
               { text: "Deeper beaks are better.", why: "Better at one thing, under one condition. The article is not making that claim." }
             ] },
-          { q: "What would the author accept as a good figure?",
+          { para: 3, q: "What would the author accept as a good figure?",
             options: [
               { text: "One that shows the individuals, or at least an error bar.", correct: true,
                 why: "Stated at the end as the better and the acceptable answer, in that order." },
@@ -327,13 +327,13 @@
         prompt: "A second notice from the teaching collection. Read it.",
         text: NOTICE2,
         items: [
-          { q: "Where are the calipers kept now?",
+          { para: 0, q: "Where are the calipers kept now?",
             options: [
               { text: "In the grey cabinet.", correct: true, why: "Line 1 gives the new place and the old one, in that order." },
               { text: "In the drawer.", why: "That is where they are no longer kept." },
               { text: "On the bench.", why: "The bench is not mentioned." }
             ] },
-          { q: "How should a tray be worked on?",
+          { para: 0, q: "How should a tray be worked on?",
             options: [
               { text: "By two people, one measuring and one writing.", correct: true,
                 why: "Line 3. The division of labour is the instruction, not just the number of people." },

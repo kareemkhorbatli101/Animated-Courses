@@ -121,21 +121,21 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read a complex text more than once: first for the general idea, then for details, then for the difficult vocabulary.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The range reflects real, identifiable sources of uncertainty rather than a failure to decide.", correct: true,
                 why: "The article names two sources — scenarios and model differences — and then limits what a range implies." },
               { text: "Climate models should be made simpler.", why: "Simplicity is never discussed." },
               { text: "Emissions decisions have already been taken.", why: "The article says the opposite: they have not yet been taken." }
             ] },
-          { q: "What is the second source of width?",
+          { para: 2, q: "What is the second source of width?",
             options: [
               { text: "Models differ in how they represent clouds and ocean circulation.", correct: true,
                 why: "Stated directly — and the giveaway is that they disagree <i>even when given identical assumptions</i>." },
               { text: "Different countries report differently.", why: "Reporting is not mentioned." },
               { text: "The measurements are imprecise.", why: "The article is about projection, not measurement." }
             ] },
-          { q: "In line 8, <i>that disagreement</i> refers to:",
+          { para: 3, q: "In line 8, <i>that disagreement</i> refers to:",
             options: [
               { text: "the difference between models given the same assumptions", correct: true,
                 why: "The nearest preceding idea is the models disagreeing on identical assumptions — not the scenario range, which is a separate source." },
@@ -144,7 +144,7 @@
               { text: "the gap between the central estimate and the extremes",
                 why: "That comes later, in the final section." }
             ] },
-          { q: "What would the author say about someone who quotes the top of the range as the expected outcome?",
+          { para: 3, q: "What would the author say about someone who quotes the top of the range as the expected outcome?",
             options: [
               { text: "They are treating an improbable case as a likely one.", correct: true,
                 why: "The last sentence says the extremes require conditions most researchers regard as improbable." },
@@ -159,7 +159,7 @@
         prompt: "A short everyday text. Read the card from the department noticeboard.",
         text: NOTICE,
         items: [
-          { q: "What do you need to bring?",
+          { para: 0, q: "What do you need to bring?",
             options: [
               { text: "Waterproofs and lunch.", correct: true, why: "Boots are provided, so they are not on your list." },
               { text: "Boots and lunch.", why: "Boots are provided." },
@@ -257,21 +257,21 @@
         note: { kind: "reader",
                 body: "<p>This article is an argument about a chart, so read it with 3A's pie in front of you. It claims the chart answers a question nobody was asking.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Ranking sectors by size does not tell you which one to tackle first.", correct: true,
                 why: "The article accepts the sizes and argues that they rank the wrong quantity." },
               { text: "Emissions charts use the wrong figures.", why: "It never disputes the numbers; it disputes what they are used for." },
               { text: "Agriculture produces more emissions than electricity.", why: "The article says the opposite, and uses that as its example." }
             ] },
-          { q: "Why does the article call agriculture harder than electricity?",
+          { para: 2, q: "Why does the article call agriculture harder than electricity?",
             options: [
               { text: "Its emissions come from biological processes rather than from a choice of fuel.", correct: true,
                 why: "Stated directly, and it is the reason the replacement technologies do not transfer." },
               { text: "Agriculture is a larger share.", why: "It is a <i>considerably smaller</i> share, which is the point." },
               { text: "Farmers are less willing to change.", why: "No claim about willingness appears anywhere in the text." }
             ] },
-          { q: "In the first section, <i>that inference</i> refers to:",
+          { para: 1, q: "In the first section, <i>that inference</i> refers to:",
             options: [
               { text: "the idea that you should begin with the largest slice", correct: true,
                 why: "The colon in the sentence before introduces exactly that idea, and nothing else in the paragraph is an inference." },
@@ -280,7 +280,7 @@
               { text: "the claim that sectors are equally easy to change",
                 why: "That is the assumption the inference needs, introduced after the pronoun." }
             ] },
-          { q: "What would this author say about a policy that starts with the largest sector?",
+          { para: 2, q: "What would this author say about a policy that starts with the largest sector?",
             options: [
               { text: "It may be right, but the chart is not what makes it right.", correct: true,
                 why: "The article argues the chart is silent on the deciding quantity — not that the biggest sector is the wrong place to start." },
@@ -339,13 +339,13 @@
         prompt: "The trip card from 1D has been updated. Read it.",
         text: NOTICE2,
         items: [
-          { q: "When does the minibus leave now?",
+          { para: 0, q: "When does the minibus leave now?",
             options: [
               { text: "At 7:15.", correct: true, why: "Line 1 gives the new time and the old one, in that order." },
               { text: "At 7:30.", why: "That is the time it has moved away from." },
               { text: "The card does not say.", why: "Both times are in the first line." }
             ] },
-          { q: "What do you still need to bring?",
+          { para: 0, q: "What do you still need to bring?",
             options: [
               { text: "Waterproofs and lunch.", correct: true, why: "Line 4. Boots are provided, so they are not your responsibility." },
               { text: "Boots and waterproofs.", why: "Boots are provided." },

@@ -114,28 +114,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once for the argument, once for the sentence that does the damage.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The decline in infectious death owed more to living conditions than to medicine.", correct: true,
                 why: "The second section gives the evidence and the third draws the implication." },
               { text: "Antibiotics arrived too late to matter.", why: "The article says they mattered enormously." },
               { text: "Tuberculosis was the leading cause of death.", why: "It is an example, not a ranking." }
             ] },
-          { q: "What does the tuberculosis example show?",
+          { para: 2, q: "What does the tuberculosis example show?",
             options: [
               { text: "Mortality was already falling steeply before any treatment existed.", correct: true,
                 why: "That is why the chronology is said not to support the attribution." },
               { text: "Treatment caused the decline.", why: "The decline preceded the treatment." },
               { text: "The disease has been eliminated.", why: "Elimination is never claimed." }
             ] },
-          { q: "The phrase <i>does not entirely support</i> is doing what?",
+          { para: 2, q: "The phrase <i>does not entirely support</i> is doing what?",
             options: [
               { text: "Conceding that medicine mattered while denying it was the main cause.", correct: true,
                 why: "<i>Entirely</i> is the hedge: the author is not making the stronger claim, and noticing that is a C1 reading skill." },
               { text: "Rejecting the role of medicine completely.", why: "<i>Entirely</i> would be unnecessary if so." },
               { text: "Expressing uncertainty about the data.", why: "The data are not in doubt; the attribution is." }
             ] },
-          { q: "What does the author imply about a health system that invests only in treatment?",
+          { para: 3, q: "What does the author imply about a health system that invests only in treatment?",
             options: [
               { text: "It is leaving the causes of demand unaddressed.", correct: true,
                 why: "“neglecting the conditions that determine how many people require it”." },
@@ -150,7 +150,7 @@
         prompt: "A short everyday text. Read the card at the health centre.",
         text: NOTICE,
         items: [
-          { q: "When is the walk-in clinic open?",
+          { para: 0, q: "When is the walk-in clinic open?",
             options: [
               { text: "Nine to eleven, mornings only.", correct: true, why: "Both the hours and the restriction are given." },
               { text: "All day.", why: "<i>Mornings only</i> rules that out." },
@@ -242,28 +242,28 @@
         note: { kind: "reader",
                 body: "<p>Read this one with the pair of charts in front of you. It is an argument about the arithmetic underneath both of them.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "A fatality rate is unreliable because its denominator is unreliable, and publishing both numbers fixes it.", correct: true,
                 why: "The three sections are the weak half, how it moves, and the remedy." },
               { text: "Fatality rates are calculated incorrectly.", why: "<i>Both figures are accurate at the moment of publication</i> — the arithmetic is never in question." },
               { text: "Testing should be restricted.", why: "The article treats wider testing as what improves the denominator." }
             ] },
-          { q: "Why is the rate too high early in an outbreak?",
+          { para: 2, q: "Why is the rate too high early in an outbreak?",
             options: [
               { text: "Only people ill enough to attend hospital are tested.", correct: true,
                 why: "The recorded cases are the severe ones, so the fraction is computed over the wrong set." },
               { text: "The disease is more severe at the start.", why: "<i>Nothing whatever has changed about the organism</i>." },
               { text: "Deaths are over-counted at first.", why: "The article says deaths are the half that is counted reliably." }
             ] },
-          { q: "What happens when testing is extended to mild cases?",
+          { para: 2, q: "What happens when testing is extended to mild cases?",
             options: [
               { text: "The denominator expands and the rate collapses.", correct: true,
                 why: "And the article is careful to add that nothing about the disease has changed." },
               { text: "The number of deaths falls.", why: "Deaths are unaffected by who is tested." },
               { text: "The rate becomes accurate.", why: "It becomes differently inaccurate; both versions are correct for their own denominators." }
             ] },
-          { q: "Why does the article prefer “fifty deaths among three hundred and thirty tested”?",
+          { para: 3, q: "Why does the article prefer “fifty deaths among three hundred and thirty tested”?",
             options: [
               { text: "The denominator is inside the sentence, so it cannot be quoted away.", correct: true,
                 why: "That is exactly the reason given: it contains the same information and resists being stripped." },
@@ -322,13 +322,13 @@
         prompt: "A second card from the health centre. Read it.",
         text: NOTICE2,
         items: [
-          { q: "You need to be seen today and you have not registered. What can you do?",
+          { para: 0, q: "You need to be seen today and you have not registered. What can you do?",
             options: [
               { text: "Go to the walk-in clinic.", correct: true, why: "Line 3 makes it the one route that does not require registration." },
               { text: "Book an appointment online.", why: "Line 1 requires registration first." },
               { text: "Register and come back this afternoon.", why: "Line 2 says registration takes up to three working days." }
             ] },
-          { q: "How can a repeat prescription be requested?",
+          { para: 0, q: "How can a repeat prescription be requested?",
             options: [
               { text: "By any route except the telephone.", correct: true,
                 why: "Line 4 rules out one method and leaves the others open, which is all the card tells you." },

@@ -116,28 +116,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once for the argument, once for the two levers it names.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Accurate accounts can differ because of what is selected and how it is ordered.", correct: true,
                 why: "Both levers are named in the second section, and the third draws the practical conclusion." },
               { text: "One of the two newspapers must be lying.", why: "The article exists to rule that inference out." },
               { text: "Headlines should be banned.", why: "No recommendation of that kind appears." }
             ] },
-          { q: "What are the two levers the article names?",
+          { para: 2, q: "What are the two levers the article names?",
             options: [
               { text: "The order of presentation and the choice of verb.", correct: true,
                 why: "<i>ordering</i> first, then <i>the selection of the verb</i> — a detail worth marking." },
               { text: "The headline and the photograph.", why: "Photographs are never mentioned." },
               { text: "The length and the placement in the paper.", why: "Neither is discussed." }
             ] },
-          { q: "<i>Clashed with police</i> and <i>were dispersed by them</i> differ because:",
+          { para: 2, q: "<i>Clashed with police</i> and <i>were dispersed by them</i> differ because:",
             options: [
               { text: "one makes the protesters the agents and the other makes them the object.", correct: true,
                 why: "That is what <i>materially different</i> is pointing at, and it prepares Unit 11's work on the passive." },
               { text: "one is true and one is false.", why: "The article says the same afternoon is being described." },
               { text: "one is longer.", why: "Length is irrelevant to the distinction." }
             ] },
-          { q: "What does the article say reading across two sources requires?",
+          { para: 3, q: "What does the article say reading across two sources requires?",
             options: [
               { text: "Asking which statements were selected, and in what order.", correct: true,
                 why: "Its closing sentence, and the only instruction it gives." },
@@ -152,7 +152,7 @@
         prompt: "A short everyday text. Read the notice in the library.",
         text: NOTICE,
         items: [
-          { q: "What happens to a bag left alone for an hour?",
+          { para: 0, q: "What happens to a bag left alone for an hour?",
             options: [
               { text: "It is taken to the front desk.", correct: true, why: "After thirty minutes — so an hour is well past the limit." },
               { text: "It reserves the seat.", why: "The notice denies exactly this." },
@@ -247,28 +247,28 @@
         note: { kind: "reader",
                 body: "<p>Read the second section first if you like. It contains the move the whole article depends on: refusing to locate the difference in motive.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "Accepting the penalty is what makes rule-breaking readable as an argument.", correct: true,
                 why: "The three sections set up the pair, rule out motive, and then say what acceptance does." },
               { text: "Breaking rules is justified when the rule is unjust.", why: "Both people in the example believe the rule is unjust; that is held constant on purpose." },
               { text: "Sincere protesters should not be punished.", why: "The article argues that the punishment is part of what makes the protest work." }
             ] },
-          { q: "Why does the article reject motive as the distinction?",
+          { para: 2, q: "Why does the article reject motive as the distinction?",
             options: [
               { text: "Both people may be equally sincere, and sincerity cannot be inspected.", correct: true,
                 why: "Two reasons in one sentence: it does not separate them, and it could not be checked if it did." },
               { text: "Motive is always dishonest.", why: "Nothing of the kind is suggested about either person." },
               { text: "Motives cannot be described in words.", why: "The objection is about inspection from outside, not about description." }
             ] },
-          { q: "What does the article say an unseen act does?",
+          { para: 2, q: "What does the article say an unseen act does?",
             options: [
               { text: "Makes no claim, enters no argument and leaves the rule as it was.", correct: true,
                 why: "Three consequences in one sentence, and they are what the final section builds on." },
               { text: "Changes the rule more slowly.", why: "It leaves the rule exactly as it found it — not slower, but not at all." },
               { text: "Is morally worse than an open act.", why: "The article avoids ranking them morally; it says one of them cannot be read." }
             ] },
-          { q: "What does the article mean by calling acceptance “not a moral ornament”?",
+          { para: 3, q: "What does the article mean by calling acceptance “not a moral ornament”?",
             options: [
               { text: "It does something, rather than merely looking admirable.", correct: true,
                 why: "The sentence replaces the decorative reading with a functional one: it is the mechanism." },
@@ -327,14 +327,14 @@
         prompt: "A second card from the library. Read it.",
         text: NOTICE2,
         items: [
-          { q: "You book a room for two o'clock and arrive at ten past. What may have happened?",
+          { para: 0, q: "You book a room for two o'clock and arrive at ten past. What may have happened?",
             options: [
               { text: "The room has been released to someone else.", correct: true,
                 why: "Line 1: ten minutes after the booking starts, if nobody is in it." },
               { text: "Nothing — the booking lasts two hours.", why: "Line 1 applies before the two hours do." },
               { text: "The booking has been transferred.", why: "Line 4 says bookings cannot be transferred." }
             ] },
-          { q: "Can you book the same room for two o'clock and four o'clock on one day?",
+          { para: 0, q: "Can you book the same room for two o'clock and four o'clock on one day?",
             options: [
               { text: "Yes — two bookings are allowed, as long as they are not back to back.", correct: true,
                 why: "Line 2 permits two and forbids consecutive ones, and two till four then four till six would be consecutive." },

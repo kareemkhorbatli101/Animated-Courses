@@ -115,28 +115,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once for the argument, once to paraphrase each section in one sentence.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The record treated single studies as more conclusive than their methods justified.", correct: true,
                 why: "That is what the article says the projects <i>did</i> establish, as against what people assumed." },
               { text: "Most published findings are false.", why: "The article refuses that inference explicitly." },
               { text: "Replication projects were badly designed.", why: "It says a repetition <i>may</i> be flawed, not that these were." }
             ] },
-          { q: "Why does a failed replication not establish that the original was wrong?",
+          { para: 2, q: "Why does a failed replication not establish that the original was wrong?",
             options: [
               { text: "The repetition may itself have been flawed.", correct: true,
                 why: "Stated directly, and paired with the reminder that one study was never meant to settle anything." },
               { text: "Because the original was peer reviewed.", why: "Peer review is not offered as a defence." },
               { text: "Because fewer than half were tested.", why: "Fewer than half were <i>recovered</i>, which is different." }
             ] },
-          { q: "<i>More conclusive than their methods warranted</i> means the studies were:",
+          { para: 2, q: "<i>More conclusive than their methods warranted</i> means the studies were:",
             options: [
               { text: "treated as settling more than their design could support.", correct: true,
                 why: "<i>Warranted</i> is about entitlement: what the method licenses you to claim." },
               { text: "badly conducted.", why: "The sentence is about how they were <i>treated</i>, not how they were done." },
               { text: "too small to publish.", why: "Size is not the criterion named." }
             ] },
-          { q: "Why does the author call the remedies <i>unglamorous</i>?",
+          { para: 3, q: "Why does the author call the remedies <i>unglamorous</i>?",
             options: [
               { text: "They are procedural rather than discoveries.", correct: true,
                 why: "Registration, sharing and publishing nulls are housekeeping, and the word is doing gentle work." },
@@ -151,7 +151,7 @@
         prompt: "A short everyday text. Read the card beside the instrument.",
         text: NOTICE,
         items: [
-          { q: "What happens if you cancel on the day?",
+          { para: 0, q: "What happens if you cancel on the day?",
             options: [
               { text: "The slot counts against your group.", correct: true, why: "Cancellation must be at least a day before." },
               { text: "Nothing.", why: "The card attaches a consequence." },
@@ -247,28 +247,28 @@
         note: { kind: "reader",
                 body: "<p>Paraphrase each heading before you read under it. The third one promises remedies, and it is the only section that does not describe something going wrong.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The shortage of replication follows from the incentives, not from carelessness.", correct: true,
                 why: "The first section rejects the carelessness reading; the second shows where the incentives point." },
               { text: "Researchers are careless about checking their work.", why: "<i>That reading misses what they actually found</i> — the article rejects it in its second sentence." },
               { text: "Replication projects were badly designed.", why: "Their design is not criticised anywhere." }
             ] },
-          { q: "What does the article say a successful replication adds?",
+          { para: 2, q: "What does the article say a successful replication adds?",
             options: [
               { text: "Nothing to the researcher's record.", correct: true,
                 why: "And the failed one is worse than nothing: it makes an enemy." },
               { text: "A citation and a publication.", why: "Journals have historically declined them." },
               { text: "A claim on a grant.", why: "Grants are listed among the things decided on original findings." }
             ] },
-          { q: "Why does the article call the journals' position “entirely consistent”?",
+          { para: 2, q: "Why does the article call the journals' position “entirely consistent”?",
             options: [
               { text: "Neither kind of replication is news, which is the standard they apply to everything.", correct: true,
                 why: "The phrase concedes that the journals are not behaving oddly, which is what makes the problem structural." },
               { text: "Because journals always publish replications.", why: "The article says they have historically declined them." },
               { text: "Because the standard is written down.", why: "No written rule is mentioned." }
             ] },
-          { q: "Why are the remedies procedural rather than moral?",
+          { para: 3, q: "Why are the remedies procedural rather than moral?",
             options: [
               { text: "Appeals to individual virtue have been tried for a century without working.", correct: true,
                 why: "Stated directly, and each remedy named afterwards removes a decision from where the incentive acts." },
@@ -327,14 +327,14 @@
         prompt: "A second card from the department. Read it.",
         text: NOTICE2,
         items: [
-          { q: "When must training be completed?",
+          { para: 0, q: "When must training be completed?",
             options: [
               { text: "Before you first book, not before you first use the machine.", correct: true,
                 why: "Line 1 draws exactly that distinction, which is the kind a card exists to settle." },
               { text: "Before you first use the machine.", why: "Line 1 rules this out in its second half." },
               { text: "Within two years of your first booking.", why: "Two years is how long training lasts, in line 2." }
             ] },
-          { q: "Your training expired last month. Can you book?",
+          { para: 0, q: "Your training expired last month. Can you book?",
             options: [
               { text: "Yes, if a trained member of your group is present.", correct: true,
                 why: "Line 3 gives the one condition under which a lapsed user may still book." },

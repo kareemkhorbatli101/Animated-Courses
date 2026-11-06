@@ -114,28 +114,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read a complex text more than once: first for the idea, then the details, then the vocabulary.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "An accumulation of ordinary findings overturned the corridor account, and the field's caution was reasonable.", correct: true,
                 why: "Both halves are the article: what changed, and why the change took as long as it did." },
               { text: "One spectacular discovery changed the field.", why: "The article denies this explicitly." },
               { text: "Radiocarbon dating is unreliable near coasts.", why: "Not raised in this passage at all." }
             ] },
-          { q: "Why can the people at those sites not have used the corridor?",
+          { para: 2, q: "Why can the people at those sites not have used the corridor?",
             options: [
               { text: "The sites date to periods when it was still closed.", correct: true,
                 why: "Stated directly, and the logic is the article's hinge." },
               { text: "The corridor was too narrow.", why: "Width is never mentioned." },
               { text: "The sites are on the wrong continent.", why: "They are in the Americas, which is the point." }
             ] },
-          { q: "In line 4, <i>each individually arguable and collectively decisive</i> means that:",
+          { para: 2, q: "In line 4, <i>each individually arguable and collectively decisive</i> means that:",
             options: [
               { text: "no single finding settles it, but together they do.", correct: true,
                 why: "The two adjectives are deliberately opposed, which is why the sentence is built that way." },
               { text: "the findings contradict one another.", why: "<i>Collectively decisive</i> rules that out." },
               { text: "the findings were all disputed and remain so.", why: "<i>Decisive</i> says the dispute was settled." }
             ] },
-          { q: "What would the author say about a field that accepted a framework-overturning claim immediately?",
+          { para: 3, q: "What would the author say about a field that accepted a framework-overturning claim immediately?",
             options: [
               { text: "It would not be applying the standard such a claim deserves.", correct: true,
                 why: "The last clause says a claim that overturns ought to be examined harder than one that confirms." },
@@ -150,7 +150,7 @@
         prompt: "A short everyday text. Read the card at the reading-room door.",
         text: NOTICE,
         items: [
-          { q: "How many boxes may you have out at once?",
+          { para: 0, q: "How many boxes may you have out at once?",
             options: [
               { text: "One.", correct: true, why: "“One box at a time”." },
               { text: "As many as you need.", why: "The card limits it." },
@@ -243,28 +243,28 @@
         note: { kind: "reader",
                 body: "<p>Read this one beside the diagram in 3A. The diagram shows the method; this article is about the one step the diagram does not contain.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The method dates the sample, and connecting that to human activity is a separate inference.", correct: true,
                 why: "The three sections are the measurement, the inference, and why the gap between them is easy to miss." },
               { text: "Radiocarbon dating is unreliable.", why: "The article calls the measurement correct, which is the whole force of its argument." },
               { text: "Driftwood should never be dated.", why: "Driftwood is the example, and the article's point is about the inference rather than the material." }
             ] },
-          { q: "What exactly does the method measure?",
+          { para: 1, q: "What exactly does the method measure?",
             options: [
               { text: "When the organism stopped exchanging carbon with the atmosphere.", correct: true,
                 why: "Stated twice, and the second time with the gloss <i>that moment is the death of the organism</i>." },
               { text: "When people were present at the site.", why: "That is what the archaeologist wants and what the method does not give." },
               { text: "How long the sample lay in the ground.", why: "The article never mentions burial duration." }
             ] },
-          { q: "Why does the article call a driftwood date “a correct measurement of the wrong event”?",
+          { para: 2, q: "Why does the article call a driftwood date “a correct measurement of the wrong event”?",
             options: [
               { text: "The number is accurate for the wood's death, which may long precede the fire.", correct: true,
                 why: "Both halves have to be held: accurate, and about something else. That is what makes the problem hard to see." },
               { text: "Driftwood cannot be dated accurately.", why: "It can; the article says the measurement is correct." },
               { text: "The laboratory applied the wrong correction.", why: "No processing error is involved — that was Lesson 4's conversation." }
             ] },
-          { q: "Where does the article say the clue lies?",
+          { para: 3, q: "Where does the article say the clue lies?",
             options: [
               { text: "In the record of what the sample was and where it lay.", correct: true,
                 why: "The last sentence puts it there explicitly, and adds <i>not in the date</i>." },
@@ -322,13 +322,13 @@
         prompt: "A second card from the archive. Read it.",
         text: NOTICE2,
         items: [
-          { q: "When must a box be ordered?",
+          { para: 0, q: "When must a box be ordered?",
             options: [
               { text: "By four o'clock the day before.", correct: true, why: "Line 1 gives both the time and the day." },
               { text: "By four o'clock on the day.", why: "<i>The day before</i> is the part that matters." },
               { text: "A week in advance.", why: "No week is mentioned." }
             ] },
-          { q: "You order a box on Friday morning. When does it arrive?",
+          { para: 0, q: "You order a box on Friday morning. When does it arrive?",
             options: [
               { text: "Monday.", correct: true,
                 why: "Line 4 states the rule for Friday orders, overriding the day-before rule in line 1." },

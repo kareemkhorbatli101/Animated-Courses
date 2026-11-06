@@ -112,28 +112,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once for the argument, once for the sentence you would quote.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "When a measure is rewarded it becomes a target and detaches from what it represented.", correct: true,
                 why: "That is the second section's claim, and the first and third exist to set it up and answer it." },
               { text: "People respond to incentives dishonestly.", why: "“Nobody need be dishonest for this to happen.”" },
               { text: "Waiting times are the wrong thing to measure.", why: "Waiting times are the example, not the argument." }
             ] },
-          { q: "Why does the author say nobody need be dishonest?",
+          { para: 2, q: "Why does the author say nobody need be dishonest?",
             options: [
               { text: "The drift happens through ordinary responses to the rules as written.", correct: true,
                 why: "The sentence is there to block the easy reading that this is a story about bad actors." },
               { text: "Because hospitals are closely supervised.", why: "Supervision is not mentioned." },
               { text: "Because the measure is usually accurate.", why: "Accuracy is not the problem; relevance is." }
             ] },
-          { q: "What does a well designed scheme specify, according to the article?",
+          { para: 3, q: "What does a well designed scheme specify, according to the article?",
             options: [
               { text: "Both what is rewarded and how the result will be verified.", correct: true,
                 why: "Stated as a pair, and <i>not only … but</i> marks the second half as the one usually missing." },
               { text: "Only what will be rewarded.", why: "That is the hurried scheme." },
               { text: "Who will be punished for failure.", why: "Punishment is never discussed." }
             ] },
-          { q: "<i>Technically correct and substantively absurd</i> describes a result that:",
+          { para: 3, q: "<i>Technically correct and substantively absurd</i> describes a result that:",
             options: [
               { text: "satisfies the written rule while defeating its purpose.", correct: true,
                 why: "The two adverbs are deliberately opposed — the letter against what actually matters." },
@@ -148,7 +148,7 @@
         prompt: "A short everyday text. Read the card at the office window.",
         text: NOTICE,
         items: [
-          { q: "When is the office closed?",
+          { para: 0, q: "When is the office closed?",
             options: [
               { text: "Between one and two.", correct: true, why: "Stated in the opening-hours line." },
               { text: "All afternoon.", why: "It reopens at two and runs to four." },
@@ -246,28 +246,28 @@
         note: { kind: "reader",
                 body: "<p>The first article asked whether a scheme produces the number it promised. This one grants that it does, and asks a different question about the same scheme.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "A flat charge works by changing the behaviour of those least able to pay it, and the revenue can be used to reverse that.", correct: true,
                 why: "The three sections are the uneven effect, where the reduction comes from, and the remedy that leaves the incentive intact." },
               { text: "Congestion charges do not reduce traffic.", why: "The article accepts the reduction throughout; its question is who produced it." },
               { text: "Charges should be set according to income.", why: "The remedy it proposes keeps the charge identical and changes what happens to the money." }
             ] },
-          { q: "Why does the article say the reduction comes from one group?",
+          { para: 2, q: "Why does the article say the reduction comes from one group?",
             options: [
               { text: "Because the wealthier group has not materially changed its behaviour.", correct: true,
                 why: "<i>Since the second has not materially changed its behaviour at all</i> — the inference follows directly from the first section." },
               { text: "Because the wealthier group drives less to begin with.", why: "No claim about baseline driving is made." },
               { text: "Because only one group pays the charge.", why: "Both pay it; that is what makes the effect uneven rather than selective." }
             ] },
-          { q: "Who does the article say the benefit accrues to?",
+          { para: 2, q: "Who does the article say the benefit accrues to?",
             options: [
               { text: "Disproportionately to those who continue to drive.", correct: true,
                 why: "The cleaner, quieter streets are enjoyed most by the people whose behaviour did not change." },
               { text: "Equally to all residents.", why: "<i>Disproportionately</i> is the word the sentence turns on." },
               { text: "To the people who gave up driving.", why: "They bear the cost of the change and share least in the result." }
             ] },
-          { q: "Why does the remedy not weaken the incentive?",
+          { para: 3, q: "Why does the remedy not weaken the incentive?",
             options: [
               { text: "The charge itself is unchanged, so the reason to drive less is unchanged.", correct: true,
                 why: "The payment is separate from the charge, and it goes to everyone whether they drive or not." },
@@ -326,13 +326,13 @@
         prompt: "A second card from the same office. Read it.",
         text: NOTICE2,
         items: [
-          { q: "What is a payment plan recorded against?",
+          { para: 0, q: "What is a payment plan recorded against?",
             options: [
               { text: "Your student number.", correct: true, why: "Line 2, and it says explicitly that it is not your name." },
               { text: "Your name.", why: "Line 2 rules this out, which is why the error in Lesson 4 happened." },
               { text: "Your email address.", why: "Not mentioned." }
             ] },
-          { q: "You arrive at twenty to four to pay. What happens?",
+          { para: 0, q: "You arrive at twenty to four to pay. What happens?",
             options: [
               { text: "You are too late; payments stop at half past three.", correct: true,
                 why: "Line 4. The office is open until four, which is the trap." },

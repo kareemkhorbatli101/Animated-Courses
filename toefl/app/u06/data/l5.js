@@ -115,28 +115,28 @@
         text: PASSAGE,
         note: { kind: "reader", body: "<p>Read it twice: once for the argument, once for the words you would have to look up.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "A calorie figure measures combustion in a laboratory, not metabolism in a body.", correct: true,
                 why: "That is the third heading's content, and the first two exist to prepare it." },
               { text: "Energy can be stored and extracted like a substance.", why: "The article denies this in its second sentence." },
               { text: "All meals of equal calories feel the same.", why: "It says the opposite, and gives the reason." }
             ] },
-          { q: "Why can two meals of equal calorific value feel different?",
+          { para: 2, q: "Why can two meals of equal calorific value feel different?",
             options: [
               { text: "The three nutrient classes enter and travel through the sequence differently.", correct: true,
                 why: "Stated as the reason, with <i>which is why</i> marking it explicitly." },
               { text: "One contains more energy than the other.", why: "<i>Equal calorific value</i> rules that out." },
               { text: "The laboratory measurement is inaccurate.", why: "Accuracy is not the issue; relevance is." }
             ] },
-          { q: "In the last section, <i>the fate of the molecules</i> contrasts with:",
+          { para: 3, q: "In the last section, <i>the fate of the molecules</i> contrasts with:",
             options: [
               { text: "the heat released when food is burned.", correct: true,
                 why: "The sentence is built as a contrast between the two, with <i>not</i> hinging it." },
               { text: "the weight printed on the packet.", why: "Weight is not mentioned." },
               { text: "the reader's own experience of the meal.", why: "That belongs to the previous section." }
             ] },
-          { q: "What does the author imply about most nutritional confusion?",
+          { para: 3, q: "What does the author imply about most nutritional confusion?",
             options: [
               { text: "Much of it comes from treating a combustion figure as a biological one.", correct: true,
                 why: "“accounts for a surprising proportion of the confusion” sits immediately after that distinction." },
@@ -151,7 +151,7 @@
         prompt: "A short everyday text. Read the card on the kitchen door.",
         text: NOTICE,
         items: [
-          { q: "Where must raw meat go?",
+          { para: 0, q: "Where must raw meat go?",
             options: [
               { text: "On the bottom shelf.", correct: true, why: "“bottom shelf <i>only</i>” — the word makes it a rule, not a preference." },
               { text: "Anywhere, if it is labelled.", why: "Labelling is a separate rule." },
@@ -244,28 +244,28 @@
         note: { kind: "reader",
                 body: "<p>Annotate this one as you read: mark the sentence that states the equation, the sentence that says why it fails, and the sentence that says what it is still good for. Those three carry the article.</p>" },
         items: [
-          { q: "What is the main idea?",
+          { para: 0, q: "What is the main idea?",
             options: [
               { text: "The energy equation is correct but cannot be solved, because its two terms move together.", correct: true,
                 why: "The article concedes the equation in its second sentence and spends the rest explaining the coupling." },
               { text: "Energy intake does not affect weight.", why: "The final sentence rules out this reading by name." },
               { text: "Expenditure cannot be measured.", why: "Resting expenditure is measured directly in the examples around this article." }
             ] },
-          { q: "What two causes does the article give for expenditure falling?",
+          { para: 2, q: "What two causes does the article give for expenditure falling?",
             options: [
               { text: "Regulatory economies the body makes, and the lower cost of moving a lighter body.", correct: true,
                 why: "The second section names both and separates them: one is regulation, the other is arithmetic." },
               { text: "Deliberate reductions in activity and in food intake.", why: "<i>Neither deliberate nor perceptible</i> rules the first of those out." },
               { text: "Lower core temperature alone.", why: "That is one of several mechanisms listed inside the first cause." }
             ] },
-          { q: "Why does the article say part of the reduction is “arithmetic rather than regulatory”?",
+          { para: 2, q: "Why does the article say part of the reduction is “arithmetic rather than regulatory”?",
             options: [
               { text: "A lighter body costs less to move, whatever the body does about it.", correct: true,
                 why: "The distinction separates what the body actively does from what simply follows from mass." },
               { text: "The equation has been calculated wrongly.", why: "No calculation error is claimed anywhere." },
               { text: "The reduction is too small to measure.", why: "Size is not the issue; cause is." }
             ] },
-          { q: "What does the article say its argument is NOT?",
+          { para: 3, q: "What does the article say its argument is NOT?",
             options: [
               { text: "An argument that intake does not matter.", correct: true,
                 why: "The last sentence names the misreading and rejects it, which is a move worth noticing in itself." },
@@ -323,13 +323,13 @@
         prompt: "A second card, this one on the fridge door. Read it.",
         text: NOTICE2,
         items: [
-          { q: "What happens to food with no label?",
+          { para: 0, q: "What happens to food with no label?",
             options: [
               { text: "It is thrown out on Fridays.", correct: true, why: "Line 1, and the day is part of the rule." },
               { text: "It is moved to the bottom shelf.", why: "The shelves rule is about cooked food, in line 2." },
               { text: "Nothing, unless it is old.", why: "The rule has no condition about age." }
             ] },
-          { q: "Where does cooked food go?",
+          { para: 0, q: "Where does cooked food go?",
             options: [
               { text: "On the top two shelves.", correct: true, why: "Line 2 names both the food and the place." },
               { text: "On the bottom shelf.", why: "The card does not say, and the previous card put raw meat there." },
