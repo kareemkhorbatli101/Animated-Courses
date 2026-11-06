@@ -216,6 +216,42 @@
       esc(spec.alt || spec.title || "bubble chart") + '">' + s.join("") + "</svg>", "");
   }
 
+
+  /* ---------------------------------------------------------------- flow --- */
+  /* A staged process, left to right, with arrows. Unit 4's form, and the one
+     the book pairs with "reading insets and organisational charts". */
+  function flow(spec) {
+    var steps = spec.steps, n = steps.length;
+    var W = 660, boxH = 62, gap = 20;
+    var boxW = (W - gap * (n - 1) - 8) / n;
+    var H = boxH + 54;
+    var s = [];
+    steps.forEach(function (st, i) {
+      var x = 4 + i * (boxW + gap), y = 30;
+      s.push('<rect x="' + x.toFixed(1) + '" y="' + y + '" width="' + boxW.toFixed(1) + '" height="' + boxH +
+             '" rx="8" fill="var(--c1)" opacity="' + (0.35 + 0.65 * (i / Math.max(1, n - 1))).toFixed(2) + '"/>');
+      s.push('<text x="' + (x + boxW / 2).toFixed(1) + '" y="' + (y - 9) +
+             '" text-anchor="middle" class="tk" style="font-weight:700">' + (i + 1) + "</text>");
+      var words = String(st.label).split(/\s+/), lines = [], cur = "";
+      words.forEach(function (w) {
+        if ((cur + " " + w).trim().length > Math.floor(boxW / 6.6)) { lines.push(cur.trim()); cur = w; }
+        else cur += " " + w;
+      });
+      if (cur.trim()) lines.push(cur.trim());
+      lines.slice(0, 3).forEach(function (ln, j) {
+        s.push('<text x="' + (x + boxW / 2).toFixed(1) + '" y="' + (y + boxH / 2 - (lines.length - 1) * 7 + j * 14 + 4).toFixed(1) +
+               '" text-anchor="middle" style="fill:#fff;font:600 11.5px system-ui">' + esc(ln) + "</text>");
+      });
+      if (i < n - 1) {
+        var ax = x + boxW + 3, ay = y + boxH / 2;
+        s.push('<path d="M' + ax + ' ' + ay + ' h' + (gap - 10) + '" stroke="var(--rule-2)" stroke-width="2"/>');
+        s.push('<path d="M' + (ax + gap - 10) + ' ' + ay + ' l-6 -4 v8 z" fill="var(--rule-2)"/>');
+      }
+    });
+    return frame(spec, '<svg viewBox="0 0 ' + W + " " + H + '" width="100%" role="img" aria-label="' +
+      esc(spec.alt || spec.title || "flow chart") + '">' + s.join("") + "</svg>", "");
+  }
+
   /* --------------------------------------------------------------- table --- */
   function table(spec) {
     var f = E("div", "fig");
@@ -234,7 +270,8 @@
     return f;
   }
 
-  var KINDS = { line: line, bar: bar, pie: pie, "pie-key": pie, scatter: scatter, bubble: bubble, table: table };
+  var KINDS = { line: line, bar: bar, pie: pie, "pie-key": pie, scatter: scatter,
+                bubble: bubble, table: table, flow: flow };
 
   root.Charts = {
     make: function (spec) {
