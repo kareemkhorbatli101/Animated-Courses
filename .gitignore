@@ -2,3 +2,4 @@
 # Rebuild with:  cd toefl && zip -rq toefl-2026-units-1-4.zip app -x '*/tools/*'
 toefl/*.zip
 cma/*.zip
+/*.zip
