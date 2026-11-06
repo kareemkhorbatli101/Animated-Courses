@@ -144,6 +144,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "Have you ever ___?",
+
+            why: "<i>Ever</i> between the auxiliary and the participle, in a question." },
+
+          { frame: "I have already ___, and ___.",
+
+            why: "<i>Already</i> in the same position, in a statement." },
+
+          { frame: "One option would be to ___, though ___.",
+
+            why: "Offer an option and name its weakness yourself. Far more persuasive than waiting for someone else to." },
+
+        ],
         prompt: "A discussion question about how exploration should be done.",
         minWords: 100,
         posts: [
@@ -165,6 +181,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "Have you ever ___?",
+
+            why: "<i>Ever</i> between the auxiliary and the participle, in a question." },
+
+          { frame: "I have already ___, and ___.",
+
+            why: "<i>Already</i> in the same position, in a statement." },
+
+          { frame: "One option would be to ___, though ___.",
+
+            why: "Offer an option and name its weakness yourself. Far more persuasive than waiting for someone else to." },
+
+        ],
         prompt: "A second question, about what a catalogue is a catalogue of.",
         minWords: 100,
         note: { kind: "writer",

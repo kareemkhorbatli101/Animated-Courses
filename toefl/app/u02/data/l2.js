@@ -140,6 +140,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "If ___, ___ will ___.",
+
+            why: "The real conditional: present in the <i>if</i> clause, the future carried once by the main clause." },
+
+          { frame: "___ may ___, though ___.",
+
+            why: "<i>May</i> for what the evidence leaves open — the hedge this subject requires." },
+
+          { frame: "I would separate ___ from ___.",
+
+            why: "Splits a claim that has merged two things, which Unit 2 names as the commonest disagreement." },
+
+        ],
         prompt: "A discussion board question about how certainty should be reported.",
         minWords: 100,
         posts: [
@@ -162,6 +178,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "claim"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "If ___, ___ will ___.",
+
+            why: "The real conditional: present in the <i>if</i> clause, the future carried once by the main clause." },
+
+          { frame: "___ may ___, though ___.",
+
+            why: "<i>May</i> for what the evidence leaves open — the hedge this subject requires." },
+
+          { frame: "I would separate ___ from ___.",
+
+            why: "Splits a claim that has merged two things, which Unit 2 names as the commonest disagreement." },
+
+        ],
         prompt: "A second question, about who a projection is written for.",
         minWords: 100,
         note: { kind: "writer",

@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "I am writing about ___.",
+            why: "The reason first, in one sentence, before any detail." },
+          { frame: "My objection is not to ___ — it is to ___.",
+            why: "Relocates the disagreement instead of defending ground you never wanted." },
+          { frame: "I would be grateful if you could ___.",
+            why: "A plain modal request. Politeness is in the modal, not in the word count." },
+        ],
         prompt: "Read the situation, then write the email. Mark your contrast correctly — that is this unit's strategy.",
         scenarioTitle: "The situation",
         scenario: "<p>Thursday's debate motion reads <i>This house would break unjust laws</i>. The wording assumes the laws in question are unjust, which is the very thing the debate is meant to settle. You are speaking against the motion and have been assigned that side.</p><p><b>Write to the debating society.</b> Object to the wording, say precisely what is wrong with it, propose a rewording, and make clear you are not asking to change sides.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "I am writing about ___.",
+
+                  why: "The reason first, in one sentence, before any detail." },
+
+                { frame: "My objection is not to ___ — it is to ___.",
+
+                  why: "Relocates the disagreement instead of defending ground you never wanted." },
+
+                { frame: "I would be grateful if you could ___.",
+
+                  why: "A plain modal request. Politeness is in the modal, not in the word count." },
+
+              ],
         prompt: "A second situation. This one asks you to decline something while staying on good terms.",
         scenarioTitle: "The situation",
         scenario: "<p>A student society has asked you to sign an open letter calling for a staff member to be dismissed. You agree with the criticism in the letter and you think dismissal is disproportionate. The letter is being published on Monday with the signatures attached.</p><p><b>Write to the society.</b> Say what you accept, say precisely what you do not, decline to sign, and say what you would sign.</p>",

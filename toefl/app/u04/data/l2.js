@@ -135,6 +135,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ has ___ since ___.",
+
+            why: "Present perfect with <i>since</i>: a line from a past point to now." },
+
+          { frame: "___ have argued about ___ for ___.",
+
+            why: "<i>For</i> measures the span. The argument is explicitly not over." },
+
+          { frame: "In ___, ___ was ___.",
+
+            why: "A finished date takes the simple past, however recent it is." },
+
+        ],
         prompt: "A discussion question about how a field changes its mind.",
         minWords: 100,
         posts: [
@@ -156,6 +172,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "claim"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ has ___ since ___.",
+
+            why: "Present perfect with <i>since</i>: a line from a past point to now." },
+
+          { frame: "___ have argued about ___ for ___.",
+
+            why: "<i>For</i> measures the span. The argument is explicitly not over." },
+
+          { frame: "In ___, ___ was ___.",
+
+            why: "A finished date takes the simple past, however recent it is." },
+
+        ],
         prompt: "A second question, about who the past belongs to.",
         minWords: 100,
         note: { kind: "writer",

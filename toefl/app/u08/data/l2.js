@@ -165,6 +165,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ used to ___, but ___.",
+
+            why: "<i>Used to</i> closes the door on a past state, and <i>but</i> says what replaced it." },
+
+          { frame: "___ did not use to ___.",
+
+            why: "No <i>d</i> after <i>did</i> — the commonest written slip in this structure." },
+
+          { frame: "___ have been ___ since ___.",
+
+            why: "Present perfect continuous: started then, still going on." },
+
+        ],
         prompt: "A discussion question about where health money should go.",
         minWords: 100,
         posts: [
@@ -186,6 +202,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "measurement"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ used to ___, but ___.",
+
+            why: "<i>Used to</i> closes the door on a past state, and <i>but</i> says what replaced it." },
+
+          { frame: "___ did not use to ___.",
+
+            why: "No <i>d</i> after <i>did</i> — the commonest written slip in this structure." },
+
+          { frame: "___ have been ___ since ___.",
+
+            why: "Present perfect continuous: started then, still going on." },
+
+        ],
         prompt: "A second question, about a number that was true and misleading at the same time.",
         minWords: 100,
         note: { kind: "writer",

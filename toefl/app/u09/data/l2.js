@@ -159,6 +159,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "Before ___, ___. After ___, ___.",
+
+            why: "The conjunction carries the order, so both clauses stay in the simple past." },
+
+          { frame: "By the time ___, ___ had ___.",
+
+            why: "<i>By the time</i> means one event was already complete, which is what the past perfect says." },
+
+          { frame: "___ was ___, but ___ was not.",
+
+            why: "<i>But</i> says the second clause defeats the expectation of the first." },
+
+        ],
         prompt: "A discussion question about how cities should respond to congestion.",
         minWords: 100,
         posts: [
@@ -180,6 +196,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "measurement"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "Before ___, ___. After ___, ___.",
+
+            why: "The conjunction carries the order, so both clauses stay in the simple past." },
+
+          { frame: "By the time ___, ___ had ___.",
+
+            why: "<i>By the time</i> means one event was already complete, which is what the past perfect says." },
+
+          { frame: "___ was ___, but ___ was not.",
+
+            why: "<i>But</i> says the second clause defeats the expectation of the first." },
+
+        ],
         prompt: "A second question, about who a street is for.",
         minWords: 100,
         note: { kind: "writer",

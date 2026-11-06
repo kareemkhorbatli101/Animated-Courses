@@ -134,6 +134,24 @@
         concepts: ["read"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "regulate",
+
+          forms: [
+
+            { part: "verb", word: "RE·gu·late" },
+
+            { part: "noun", word: "reg·u·LA·tion", note: "the rule itself" },
+
+            { part: "noun (agent)", word: "RE·gu·la·tor", note: "the body that sets it" },
+
+            { part: "adjective", word: "RE·gu·la·to·ry" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "commute", affix: "-er", answer: "commuter",

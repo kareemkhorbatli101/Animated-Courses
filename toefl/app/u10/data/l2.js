@@ -132,6 +132,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ing is ___.",
+
+            why: "A gerund as subject: replaceable by <i>it</i>, which is the test." },
+
+          { frame: "I accept that ___. What I dispute is that ___.",
+
+            why: "Concede then narrow — the strongest opening in a disagreement." },
+
+          { frame: "If it turned out that ___, I would ___.",
+
+            why: "Names what would change your mind, which is what separates arguing from defending." },
+
+        ],
         prompt: "A discussion question about rule-breaking.",
         minWords: 100,
         posts: [
@@ -153,6 +169,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ing is ___.",
+
+            why: "A gerund as subject: replaceable by <i>it</i>, which is the test." },
+
+          { frame: "I accept that ___. What I dispute is that ___.",
+
+            why: "Concede then narrow — the strongest opening in a disagreement." },
+
+          { frame: "If it turned out that ___, I would ___.",
+
+            why: "Names what would change your mind, which is what separates arguing from defending." },
+
+        ],
         prompt: "A second question, about a rule that is never enforced.",
         minWords: 100,
         note: { kind: "writer",

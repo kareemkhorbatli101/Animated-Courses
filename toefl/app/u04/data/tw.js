@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "I have ___ twice since ___, and ___.",
+            why: "Present perfect for what you have already tried — the first move of any good request." },
+          { frame: "It has not been ___ yet.",
+            why: "A negative perfect: still true, and <i>yet</i> only at the end." },
+          { frame: "Could you ___, as I have not yet been able to ___?",
+            why: "Request plus what you already attempted, in one sentence." },
+        ],
         prompt: "Read the situation, then write the email. This unit's writing strategy is the colon — use one, correctly.",
         scenarioTitle: "The situation",
         scenario: "<p>The archive session on Thursday has been cut from three hours to two. You need the coastal survey folder, which must be ordered a day ahead and requires a supervisor's name. You have not ordered it.</p><p><b>Write to the archivist.</b> Request the folder for Friday, give what the form needs, and say why Thursday will no longer work.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "time"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "I have ___ twice since ___, and ___.",
+
+                  why: "Present perfect for what you have already tried — the first move of any good request." },
+
+                { frame: "It has not been ___ yet.",
+
+                  why: "A negative perfect: still true, and <i>yet</i> only at the end." },
+
+                { frame: "Could you ___, as I have not yet been able to ___?",
+
+                  why: "Request plus what you already attempted, in one sentence." },
+
+              ],
         prompt: "A second situation, and a harder one: you are reporting a problem in work that is not yours.",
         scenarioTitle: "The situation",
         scenario: "<p>While checking the dating appendix of a departmental report you notice that four shell dates are listed with no marine correction stated, and that three of them are used in the conclusion. The report goes to the funder in a fortnight. Dr Okonkwo edited it.</p><p><b>Write to Dr Okonkwo.</b> Say what you found, use a colon correctly, say what you think should happen, and say what you will do if you hear nothing.</p>",

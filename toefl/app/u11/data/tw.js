@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "Could you ___ by ___?",
+            why: "Six words, polite, and the deadline is in it. The whole of Lesson 2 in one shape." },
+          { frame: "___ has been ___, and ___ is now ___.",
+            why: "Passive for the event, active for the consequence." },
+          { frame: "That was ___'s point originally.",
+            why: "Corrects the record in the moment, which is the only time it is cheap." },
+        ],
         prompt: "Read the situation, then write the email. This unit's strategy is what to <i>avoid</i> — no double apology, no buried request.",
         scenarioTitle: "The situation",
         scenario: "<p>You are trying to reproduce a result published by another group in your department. Their paper does not state the calibration settings for the spectrometer, and without them your figures differ by about eight per cent. You have already checked the supplementary material.</p><p><b>Write to the author.</b> Ask for the settings, say what you have already tried, and make clear you are not alleging anything is wrong.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "Could you ___ by ___?",
+
+                  why: "Six words, polite, and the deadline is in it. The whole of Lesson 2 in one shape." },
+
+                { frame: "___ has been ___, and ___ is now ___.",
+
+                  why: "Passive for the event, active for the consequence." },
+
+                { frame: "That was ___'s point originally.",
+
+                  why: "Corrects the record in the moment, which is the only time it is cheap." },
+
+              ],
         prompt: "A second situation. This one asks you to give credit back after it has already gone to you.",
         scenarioTitle: "The situation",
         scenario: "<p>Your group's poster won the departmental prize. The abstract names you as the person who identified the systematic offset in the readings. It was Priya who noticed it, three weeks ago, in a meeting you both attended. The abstract has already been circulated and the prize announced.</p><p><b>Write to the module leader, copying your group.</b> Correct the attribution, say what Priya actually did, and ask for the record to be amended.</p>",

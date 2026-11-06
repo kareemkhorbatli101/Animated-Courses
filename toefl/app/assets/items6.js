@@ -198,6 +198,29 @@
       it._zone = z;
     });
     stage.appendChild(rows);
+
+    /* F19 — one word from this lesson, in all the forms it takes. An affix
+       exercise teaches one step; the family shows the whole set, which is
+       what a learner actually needs when writing. The stressed syllable is
+       marked because it moves between the forms and nothing on the page
+       would otherwise say so. */
+    if (spec.family && spec.family.forms && root.Gram) {
+      var fam = E("div", "i6-family");
+      fam.appendChild(E("span", "i6-family-label",
+        "The family of <b>" + esc(spec.family.word) + "</b>"));
+      spec.family.forms.forEach(function (f) {
+        var cell = E("div", "i6-fam-cell");
+        cell.appendChild(E("span", "i6-fam-part", esc(f.part)));
+        var w = E("div", "i6-fam-word");
+        root.Gram.renderStress(w, f.word);
+        cell.appendChild(w);
+        if (S()) cell.appendChild(S().button(f.word.replace(/\u00b7/g, ""), "en", "Say it"));
+        if (f.note) cell.appendChild(E("span", "i6-fam-note", f.note));
+        fam.appendChild(cell);
+      });
+      stage.appendChild(fam);
+    }
+
     stage.appendChild(E("p", "tray-label",
       "Drag the right piece onto each root, or click the piece and then the root."));
     stage.appendChild(tray);

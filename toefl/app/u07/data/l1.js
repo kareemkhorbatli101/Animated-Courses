@@ -132,6 +132,24 @@
         concepts: ["read", "measurement", "cause"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "margin",
+
+          forms: [
+
+            { part: "noun", word: "MAR·gin" },
+
+            { part: "verb", word: "—", note: "no verb exists" },
+
+            { part: "adjective", word: "MAR·gin·al", note: "the effect of one more unit" },
+
+            { part: "adverb", word: "MAR·gin·al·ly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "margin", affix: "-al", answer: "marginal",

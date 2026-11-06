@@ -120,6 +120,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ is ___er than ___.",
+
+            why: "Short adjective, so the ending. One or two syllables take <i>-er</i>." },
+
+          { frame: "___ is far more ___ than ___.",
+
+            why: "Long adjective, so the word in front. <i>Far</i> is the usual intensifier in academic writing." },
+
+          { frame: "The ___est ___ I have seen is ___.",
+
+            why: "Superlative with <i>the</i>, for the top of a group rather than a comparison of two." },
+
+        ],
         prompt: "A discussion question about how the subject is usually taught.",
         minWords: 100,
         posts: [
@@ -142,6 +158,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ is ___er than ___.",
+
+            why: "Short adjective, so the ending. One or two syllables take <i>-er</i>." },
+
+          { frame: "___ is far more ___ than ___.",
+
+            why: "Long adjective, so the word in front. <i>Far</i> is the usual intensifier in academic writing." },
+
+          { frame: "The ___est ___ I have seen is ___.",
+
+            why: "Superlative with <i>the</i>, for the top of a group rather than a comparison of two." },
+
+        ],
         prompt: "A second question, about what a display case should show.",
         minWords: 100,
         note: { kind: "writer",

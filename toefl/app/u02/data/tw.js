@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "We are going to ___ on ___.",
+            why: "<i>Going to</i> for a decision already made, which is what a plan is." },
+          { frame: "___ will probably ___, so ___.",
+            why: "<i>Will</i> plus a hedge for what the evidence leads you to expect." },
+          { frame: "Would it be possible to ___ if ___?",
+            why: "A conditional request: the politest shape available for an awkward ask." },
+        ],
         prompt: "Read the situation, then write the email.",
         scenarioTitle: "The situation",
         scenario: "<p>The estuary field trip was cut from three sites to two, and your group's report was meant to compare all three. Dr Okonkwo set the assignment.</p><p><b>Write to Dr Okonkwo.</b> Explain what happened, say what you propose to do instead, and ask whether that is acceptable.</p>",
@@ -28,6 +36,30 @@
       { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+
+        frames: [
+
+
+          { frame: "We are going to ___ on ___.",
+
+
+            why: "<i>Going to</i> for a decision already made, which is what a plan is." },
+
+
+          { frame: "___ will probably ___, so ___.",
+
+
+            why: "<i>Will</i> plus a hedge for what the evidence leads you to expect." },
+
+
+          { frame: "Would it be possible to ___ if ___?",
+
+
+            why: "A conditional request: the politest shape available for an awkward ask." },
+
+
+        ],
         prompt: "A second situation. This one is about a clash you cannot resolve yourself.",
         scenarioTitle: "The situation",
         scenario: "<p>Next week's seminar has moved from Thursday to Tuesday at two, so that a visiting speaker can give it. You have a compulsory laboratory session at the same time, which cannot be moved.</p><p><b>Write to Professor Haddad.</b> Explain the clash, say what you will do about the reading and the question, and ask for one specific thing.</p>",

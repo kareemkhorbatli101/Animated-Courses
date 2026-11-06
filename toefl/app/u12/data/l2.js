@@ -155,6 +155,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ decided to ___.",
+
+            why: "<i>Decide</i> takes the infinitive only. <i>Decided leaving</i> is not English." },
+
+          { frame: "___ avoided ___ing ___.",
+
+            why: "<i>Avoid</i> takes the gerund only, and no meaning rule explains why." },
+
+          { frame: "The ___ is ___, and on each occasion ___.",
+
+            why: "A checkable observation: countable, and verifiable by going back to the work." },
+
+        ],
         prompt: "A discussion question about what an audience contributes.",
         minWords: 100,
         posts: [
@@ -176,6 +192,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ decided to ___.",
+
+            why: "<i>Decide</i> takes the infinitive only. <i>Decided leaving</i> is not English." },
+
+          { frame: "___ avoided ___ing ___.",
+
+            why: "<i>Avoid</i> takes the gerund only, and no meaning rule explains why." },
+
+          { frame: "The ___ is ___, and on each occasion ___.",
+
+            why: "A checkable observation: countable, and verifiable by going back to the work." },
+
+        ],
         prompt: "A second question, about what a label should say.",
         minWords: 100,
         note: { kind: "writer",

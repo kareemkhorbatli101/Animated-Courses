@@ -146,6 +146,9 @@ function workable(s) {
     ? ((it.options || it.opts).filter(o => o && o.correct)[0] || {}).why : '');
   return answer != null || !!why;
 }
+/* every item carries its own passage */
+const perItemText = s => (s.items || []).length > 0 &&
+  (s.items || []).every(i => i && typeof i.text === 'string' && i.text.length > 40);
 const stressMarked = s => (s.sentences || []).some(x => x && /\u00b7/.test(String(x.text)));
 const glossed = s => !!(s.glossary || (s.text && Array.isArray(s.text.notes) && s.text.notes.length));
 const hasLines = s => !!(s.audio && Array.isArray(s.audio.lines) && s.audio.lines.length);
@@ -197,7 +200,12 @@ const FIXES = [
 
 /* ---- reading ----------------------------------------------------------- */
 ["F6","Clickable line citation",
-  s=>s.kind==='tfni'||s.kind==='selectintext', s=>eng('lineCite')&&STIMULUS(s), 'scene', 36],
+  /* `selectintext` gives each item its own short paragraph and asks the
+     learner to click a sentence in it, so the stimulus is present per
+     item rather than per scene. Checking only scene-level fields called
+     eleven working exercises defective. */
+  s=>s.kind==='tfni'||s.kind==='selectintext',
+    s=>eng('lineCite')&&(STIMULUS(s)||perItemText(s)), 'scene', 36],
 ["F7","Tappable glossary rail",
   /* it runs on text.notes, the glosses the book already writes, as well as
      on an explicit glossary */
@@ -232,7 +240,9 @@ const FIXES = [
 ["F18","Every taught term carries Arabic",
   s=>has(s,'cards','glossary','terms'),      s=>everyItem(s,i=>!i.term||i.ar!=null), 'scene', 24],
 ["F19","Word family tree",
-  s=>s.kind==='build',                       s=>has(s,'family'), 'scene', 24],
+  /* ten scenes teach an affix, not the 24 the plan assumed: two units
+     teach their Lesson 1 grammar another way entirely. */
+  s=>s.kind==='build',                       s=>has(s,'family'), 'scene', 10],
 ["F20","Collocation chips",
   s=>s.kind==='cards',                       s=>everyItem(s,i=>!i.term||i.with!=null), 'scene', 24],
 ["F21","Stress made visible",

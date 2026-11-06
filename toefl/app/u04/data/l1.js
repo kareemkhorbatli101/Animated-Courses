@@ -132,6 +132,24 @@
         concepts: ["read", "measurement"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "interpret",
+
+          forms: [
+
+            { part: "verb", word: "in·TER·pret" },
+
+            { part: "noun", word: "in·ter·pre·TA·tion", note: "four syllables in, and the stress has moved twice" },
+
+            { part: "adjective", word: "in·TER·pre·tive" },
+
+            { part: "adverb", word: "in·TER·pre·tive·ly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "pret", affix: "inter-", answer: "interpret",

@@ -151,6 +151,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "I ___ every ___, and I usually ___.",
+
+            why: "Simple present for a habit of your own — the form Lesson 3 contrasts with the past." },
+
+          { frame: "Last ___ I ___, and I found that ___.",
+
+            why: "Simple past for one finished occasion, which is what turns a claim into evidence." },
+
+          { frame: "___ is right that ___, but ___.",
+
+            why: "Concede by name, then answer. The present tense keeps the concession a standing fact." },
+
+        ],
         prompt: "Now write your own reply. The professor's question and both classmates stay on screen.",
         minWords: 100,
         posts: [
@@ -173,6 +189,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "I ___ every ___, and I usually ___.",
+
+            why: "Simple present for a habit of your own — the form Lesson 3 contrasts with the past." },
+
+          { frame: "Last ___ I ___, and I found that ___.",
+
+            why: "Simple past for one finished occasion, which is what turns a claim into evidence." },
+
+          { frame: "___ is right that ___, but ___.",
+
+            why: "Concede by name, then answer. The present tense keeps the concession a standing fact." },
+
+        ],
         prompt: "A different question, and two classmates who disagree about it. Same three jobs, three paragraphs.",
         minWords: 100,
         note: { kind: "writer",

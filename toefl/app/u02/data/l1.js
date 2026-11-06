@@ -132,6 +132,24 @@
         concepts: ["read", "measurement", "claim"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "doubt",
+
+          forms: [
+
+            { part: "noun", word: "DOUBT", note: "one syllable, so nothing moves" },
+
+            { part: "verb", word: "DOUBT" },
+
+            { part: "adjective", word: "DOUBT·ful", note: "full of doubt" },
+
+            { part: "adverb", word: "DOUBT·ful·ly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "meaning", affix: "-ful", answer: "meaningful",

@@ -125,6 +125,24 @@
       { id: "2a", section: 2, sectionTitle: "Learn what the evidence says", letter: "A",
         concepts: ["read", "evidence", "sample"],
         kind: "build", task: null, n: 0,
+
+        family: {
+
+          word: "improve",
+
+          forms: [
+
+            { part: "verb", word: "im·PROVE" },
+
+            { part: "noun", word: "im·PROVE·ment", note: "the result, not the effort" },
+
+            { part: "adjective", word: "im·PROVED", note: "used of the thing changed" },
+
+            { part: "adverb", word: "—", note: "no adverb exists" },
+
+          ]
+
+        },
         prompt: "The card below uses five academic words. Four of them are built from a smaller word and a piece on the front or the end. Drag the right piece onto each root.",
         note: { kind: "words", title: "Academic language",
                 body: "<i>research</i><i>revise</i><i>accurately</i><i>challenge</i><i>improvement</i>" },
@@ -142,7 +160,6 @@
           { root: "agree", affix: "dis-", answer: "disagree",
             why: "<i>dis-</i> reverses. Decades of research <i>agree</i>; one study that did not would disagree." }
         ],
-        family: true,
         text: { every: 1, mastColor: "blue", masthead: "WHAT THE RESEARCH FINDS",
           blocks: [{ lines: [
             "Decades of <b>research</b> agree on one uncomfortable finding.",

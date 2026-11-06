@@ -133,6 +133,24 @@
         concepts: ["read"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "vary",
+
+          forms: [
+
+            { part: "verb", word: "VA·ry" },
+
+            { part: "noun", word: "va·ri·A·tion", note: "stress moves to the syllable before -tion" },
+
+            { part: "adjective", word: "VA·ri·a·ble", note: "also a noun in this subject" },
+
+            { part: "adverb", word: "VA·ri·a·bly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "observe", affix: "-ation", answer: "observation",

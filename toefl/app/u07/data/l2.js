@@ -129,6 +129,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write", "measurement"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "If ___ is ___, ___ will ___.",
+
+            why: "Present in the condition, future once in the result. English does not repeat the future." },
+
+          { frame: "When ___ starts, ___ will ___.",
+
+            why: "<i>When</i> behaves like <i>if</i> but treats the event as settled." },
+
+          { frame: "We will not know whether ___ until ___.",
+
+            why: "A time clause takes the present, not the future, however far ahead it is." },
+
+        ],
         prompt: "A discussion question about measuring performance.",
         minWords: 100,
         posts: [
@@ -150,6 +166,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "If ___ is ___, ___ will ___.",
+
+            why: "Present in the condition, future once in the result. English does not repeat the future." },
+
+          { frame: "When ___ starts, ___ will ___.",
+
+            why: "<i>When</i> behaves like <i>if</i> but treats the event as settled." },
+
+          { frame: "We will not know whether ___ until ___.",
+
+            why: "A time clause takes the present, not the future, however far ahead it is." },
+
+        ],
         prompt: "A second question, about who a charge falls on.",
         minWords: 100,
         note: { kind: "writer",

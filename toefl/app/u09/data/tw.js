@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "___ did not ___, and ___ did not either.",
+            why: "<i>Either</i> after a negative; <i>too</i> would be wrong here and audibly so." },
+          { frame: "Am I right that ___?",
+            why: "Answerable in one word, which is what makes it easy to ask." },
+          { frame: "How long is ___, and what will I see if ___?",
+            why: "A duration and a landmark: the two things that let you check while you are still going." },
+        ],
         prompt: "Read the situation, then write the email. This unit's writing strategy is the introduction — your first sentence must earn the rest.",
         scenarioTitle: "The situation",
         scenario: "<p>Your department's seminars were moved to the science building, which the shuttle now reaches but which is fifteen minutes uphill on foot. Several students with mobility needs have been arriving late or not at all. The shuttle runs every ten minutes but stops running at seven, and the seminars finish at half past.</p><p><b>Write to the estates office.</b> Say what the problem is, say what it is costing, and propose one specific change.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "___ did not ___, and ___ did not either.",
+
+                  why: "<i>Either</i> after a negative; <i>too</i> would be wrong here and audibly so." },
+
+                { frame: "Am I right that ___?",
+
+                  why: "Answerable in one word, which is what makes it easy to ask." },
+
+                { frame: "How long is ___, and what will I see if ___?",
+
+                  why: "A duration and a landmark: the two things that let you check while you are still going." },
+
+              ],
         prompt: "A second situation. This one asks you to argue against a scheme that is about to be approved.",
         scenarioTitle: "The situation",
         scenario: "<p>The university is consulting on widening the access road, on the grounds that it is congested at eight forty-five. The appraisal counts time saved for people who already drive in. Nobody has counted the students who do not cycle because there is no safe way across that road, and the consultation closes on Friday.</p><p><b>Write to the consultation.</b> Say what the appraisal counts, say who it cannot count, and propose one specific addition.</p>",

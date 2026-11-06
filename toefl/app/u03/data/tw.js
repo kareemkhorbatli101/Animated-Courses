@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "The ___ is ___er than it was ___.",
+            why: "A comparison against a past state, which is how most problems are reported." },
+          { frame: "This would be more ___ than ___.",
+            why: "Comparing two options is the core move of a proposal." },
+          { frame: "Could we ___ rather than ___?",
+            why: "A request framed as a comparison, which makes it easier to accept." },
+        ],
         prompt: "Read the situation, then write the email. Pay attention to the subject line — it is this unit's writing strategy.",
         scenarioTitle: "The situation",
         scenario: "<p>Two trays of specimens in the teaching collection have labels that do not match the collection order, which means last week's class may have recorded their measurements against the wrong dates. Dr Okonkwo runs the collection.</p><p><b>Write to Dr Okonkwo.</b> Say what you found, say why it matters, and ask what should happen to the recorded data.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "The ___ is ___er than it was ___.",
+
+                  why: "A comparison against a past state, which is how most problems are reported." },
+
+                { frame: "This would be more ___ than ___.",
+
+                  why: "Comparing two options is the core move of a proposal." },
+
+                { frame: "Could we ___ rather than ___?",
+
+                  why: "A request framed as a comparison, which makes it easier to accept." },
+
+              ],
         prompt: "A second situation. This one asks you to correct someone senior, in writing.",
         scenarioTitle: "The situation",
         scenario: "<p>The module handbook describes the finch result as showing that <i>the birds adapted their beaks to the drought</i>. After this unit you believe that sentence teaches the misunderstanding the lecture spent an hour removing. Professor Haddad wrote the handbook.</p><p><b>Write to Professor Haddad.</b> Say which sentence you mean, say what you think it implies, and propose a specific replacement.</p>",

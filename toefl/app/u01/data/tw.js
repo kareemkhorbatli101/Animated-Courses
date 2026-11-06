@@ -9,6 +9,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "I am writing because ___.",
+            why: "Present continuous for what you are doing now: the reason, in the first sentence." },
+          { frame: "Last ___ I ___, and since then ___.",
+            why: "Past for the finished event, present for what still holds." },
+          { frame: "Could you ___ before ___?",
+            why: "A plain modal and a deadline. Politeness lives in the modal, not in extra words." },
+        ],
         prompt: "Read the situation, then write the email. Audience and purpose are given, as they are on the test.",
         scenarioTitle: "The situation",
         scenario: "<p>You meant to join the Thursday study-skills workshop and missed the sign-up deadline by a day. Dan Okafor runs the waiting list.</p><p><b>Write to Dan.</b> Say what happened, ask whether a place is left, and ask what you should do next.</p>",
@@ -29,6 +37,30 @@
       { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+
+        frames: [
+
+
+          { frame: "I am writing because ___.",
+
+
+            why: "Present continuous for what you are doing now: the reason, in the first sentence." },
+
+
+          { frame: "Last ___ I ___, and since then ___.",
+
+
+            why: "Past for the finished event, present for what still holds." },
+
+
+          { frame: "Could you ___ before ___?",
+
+
+            why: "A plain modal and a deadline. Politeness lives in the modal, not in extra words." },
+
+
+        ],
         prompt: "A second situation, and a harder one: you are writing about another person.",
         scenarioTitle: "The situation",
         scenario: "<p>You are in a group of four for the methods assignment, due in ten days. One member has not answered three messages in a week, and the group cannot divide the work until they do. Professor Haddad leads the module.</p><p><b>Write to Professor Haddad.</b> Say what the problem is, say what the group has already tried, and ask for one specific thing.</p>",

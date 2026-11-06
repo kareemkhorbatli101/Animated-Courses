@@ -133,6 +133,24 @@
         concepts: ["read", "measurement", "evidence"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "measure",
+
+          forms: [
+
+            { part: "verb", word: "MEA·sure" },
+
+            { part: "noun", word: "MEA·sure·ment", note: "a number plus its procedure" },
+
+            { part: "adjective", word: "MEA·sur·a·ble", note: "large enough to detect" },
+
+            { part: "adverb", word: "MEA·sur·a·bly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "measure", affix: "-ment", answer: "measurement",

@@ -9,6 +9,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "Which part lost you — ___ or ___?",
+            why: "Two candidates rather than an open question, which is far easier to answer." },
+          { frame: "Here is what ___. Here is what ___ is claiming about it.",
+            why: "Separates observation from interpretation out loud." },
+          { frame: "Can you put that back to me in your own words?",
+            why: "The only real test of understanding, and Unit 6's lesson arriving again." },
+        ],
         prompt: "Read the situation, then write the email. This unit's strategy is detail — give something the reader can check.",
         scenarioTitle: "The situation",
         scenario: "<p>The gallery visit has been moved an hour earlier to accommodate a curator's tour. You teach a seminar that finishes at half past one across the city, and several students in your group are in it. The gallery is forty minutes away.</p><p><b>Write to the course administrator.</b> Explain the clash with something concrete, propose a workable alternative, and ask for a decision in time to tell people.</p>",
@@ -28,6 +36,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "Which part lost you — ___ or ___?",
+
+                  why: "Two candidates rather than an open question, which is far easier to answer." },
+
+                { frame: "Here is what ___. Here is what ___ is claiming about it.",
+
+                  why: "Separates observation from interpretation out loud." },
+
+                { frame: "Can you put that back to me in your own words?",
+
+                  why: "The only real test of understanding, and Unit 6's lesson arriving again." },
+
+              ],
         prompt: "A second situation, and the last email in the book. This one asks you to disagree with a published reading of your own work.",
         scenarioTitle: "The situation",
         scenario: "<p>A review of your student film in the department magazine says you <i>refuse to resolve the ending</i>, and reads the final four silent minutes as a deliberate withholding. The silence was a sound fault you could not fix before the deadline. The reviewer is a classmate you will see every week for a year.</p><p><b>Write to the reviewer.</b> Correct the fact, concede what is fair in the reading, and do not ask for the review to be withdrawn.</p>",

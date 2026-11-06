@@ -132,6 +132,24 @@
         concepts: ["read"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "recur",
+
+          forms: [
+
+            { part: "verb", word: "re·CUR", note: "the stress is on the second syllable" },
+
+            { part: "noun", word: "re·CUR·rence", note: "and stays there" },
+
+            { part: "adjective", word: "re·CUR·rent" },
+
+            { part: "adverb", word: "re·CUR·rent·ly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "infect", affix: "re-", answer: "reinfect",

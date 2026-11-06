@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "We carried out ___ and ___.",
+            why: "<i>Carry out</i> is the standard verb for performing a procedure." },
+          { frame: "___ has been building up since ___.",
+            why: "An intransitive phrasal verb with the perfect: it started then and has not stopped." },
+          { frame: "Could you go over ___ with me?",
+            why: "<i>Go over</i> never splits — <i>go it over</i> is impossible." },
+        ],
         prompt: "Read the situation, then write the email. This unit's writing strategy is sequencing — mark every stage.",
         scenarioTitle: "The situation",
         scenario: "<p>Your enzyme assay failed. You added the enzyme before the water bath reached thirty-seven degrees, which denatured it, and you only noticed after twelve minutes when the mixture had not cleared. There is enough reagent for one more run, but not this week.</p><p><b>Write to the demonstrator.</b> Report what happened in order, say what you think went wrong, and ask whether you may repeat the run next week.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "We carried out ___ and ___.",
+
+                  why: "<i>Carry out</i> is the standard verb for performing a procedure." },
+
+                { frame: "___ has been building up since ___.",
+
+                  why: "An intransitive phrasal verb with the perfect: it started then and has not stopped." },
+
+                { frame: "Could you go over ___ with me?",
+
+                  why: "<i>Go over</i> never splits — <i>go it over</i> is impossible." },
+
+              ],
         prompt: "A second situation. This one asks you to withdraw a result you have already submitted.",
         scenarioTitle: "The situation",
         scenario: "<p>Your group's practical report, submitted on Monday, contains a calibration curve that every point sits exactly on. You have since realised the concentrations were calculated from that same curve, so the fit demonstrates nothing. The marks are released on Friday.</p><p><b>Write to the demonstrator.</b> Say what is wrong with the report you have already handed in, explain the circularity in plain language, and propose what should happen.</p>",

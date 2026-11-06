@@ -131,6 +131,24 @@
         concepts: ["read", "claim"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "judge",
+
+          forms: [
+
+            { part: "verb", word: "JUDGE" },
+
+            { part: "noun", word: "JUDG·ment", note: "or judgement outside law" },
+
+            { part: "noun (agent)", word: "JUDGE", note: "the same word again" },
+
+            { part: "adjective", word: "ju·DI·cial", note: "a different root entirely, from Latin" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "enforce", affix: "-ment", answer: "enforcement",

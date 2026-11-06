@@ -131,6 +131,24 @@
         concepts: ["read"],
         kind: "build", task: null, n: 0,
 
+        family: {
+
+          word: "expect",
+
+          forms: [
+
+            { part: "verb", word: "ex·PECT" },
+
+            { part: "noun", word: "ex·pec·TA·tion" },
+
+            { part: "adjective", word: "un·ex·PECT·ed", note: "the negative is the commoner form here" },
+
+            { part: "adverb", word: "un·ex·PECT·ed·ly" },
+
+          ]
+
+        },
+
         items: [
 
           { root: "crewed", affix: "un-", answer: "uncrewed",

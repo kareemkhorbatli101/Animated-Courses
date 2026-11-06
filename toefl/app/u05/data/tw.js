@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "Has ___ been ___ yet?",
+            why: "<i>Yet</i> at the end, and only in questions and negatives." },
+          { frame: "What if we ___? ___ anyway.",
+            why: "<i>What if</i> opens a suggestion as a question rather than an instruction." },
+          { frame: "Would it help if I ___?",
+            why: "Attaches your own labour to the suggestion, which is what turns it into an offer." },
+        ],
         prompt: "Read the situation, then write the email. This unit's writing strategy is one job per paragraph.",
         scenarioTitle: "The situation",
         scenario: "<p>Your group and another have been given the same dome slot on Tuesday, because yours was rebooked after Monday was clouded out and nobody checked. Your targets do not rise until after midnight. The technician manages the bookings.</p><p><b>Write to the technician.</b> Explain the clash, propose taking the second half, and ask him to confirm by Monday afternoon.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "Has ___ been ___ yet?",
+
+                  why: "<i>Yet</i> at the end, and only in questions and negatives." },
+
+                { frame: "What if we ___? ___ anyway.",
+
+                  why: "<i>What if</i> opens a suggestion as a question rather than an instruction." },
+
+                { frame: "Would it help if I ___?",
+
+                  why: "Attaches your own labour to the suggestion, which is what turns it into an offer." },
+
+              ],
         prompt: "A second situation. This one asks you to argue for less than you were offered.",
         scenarioTitle: "The situation",
         scenario: "<p>Your group has been offered four extra nights in March to make up for the three lost to cloud. Your targets are only observable for two of those four, and the other two would be spent pointing at a field nobody has asked about. Another group has been refused time altogether.</p><p><b>Write to the time allocation committee.</b> Accept two nights, say why the other two are no use to you, and say what you think should happen to them.</p>",

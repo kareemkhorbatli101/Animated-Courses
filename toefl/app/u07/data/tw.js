@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "What happens if I ___?",
+            why: "Asks for the rule rather than for permission, which is what gets you the rule." },
+          { frame: "If I ___, is there ___ — and how long does that take?",
+            why: "The fallback and its timing, asked before you need them." },
+          { frame: "What do I need to ___, and is there a deadline for ___?",
+            why: "Documents and deadline in one turn, so you do not come back tomorrow." },
+        ],
         prompt: "Read the situation, then write the email. This unit's writing strategy is joining a claim to its reason.",
         scenarioTitle: "The situation",
         scenario: "<p>You were charged a late fee on your second instalment. You had arranged a payment plan in March, which should have exempted you, but the plan was recorded against the wrong student number. You have the confirmation email.</p><p><b>Write to Student Finance.</b> State the claim, give the reason it is wrong, say what evidence you hold, and ask for the fee to be removed.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "comparison", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "What happens if I ___?",
+
+                  why: "Asks for the rule rather than for permission, which is what gets you the rule." },
+
+                { frame: "If I ___, is there ___ — and how long does that take?",
+
+                  why: "The fallback and its timing, asked before you need them." },
+
+                { frame: "What do I need to ___, and is there a deadline for ___?",
+
+                  why: "Documents and deadline in one turn, so you do not come back tomorrow." },
+
+              ],
         prompt: "A second situation. This one asks you to argue against a rule rather than against its application.",
         scenarioTitle: "The situation",
         scenario: "<p>The department now ranks tutorial groups by average attendance and gives the top group priority in choosing project topics. Your group has noticed that the simplest way to rise in the ranking is to discourage the two students who attend irregularly from signing the sheet at all. Nobody has done this. Dr Okonkwo designed the scheme.</p><p><b>Write to Dr Okonkwo.</b> Describe the incentive the scheme creates, say why it is a design problem rather than an accusation, and propose a specific change.</p>",

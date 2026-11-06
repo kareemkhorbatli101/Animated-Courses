@@ -8,6 +8,14 @@
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+        frames: [
+          { frame: "___ has been ___ since ___.",
+            why: "Reports a fault that is still happening, which <i>it ran warm</i> would not." },
+          { frame: "That means ___ is now ___.",
+            why: "The consequence, stated before anyone asks. This is the sentence that decides what happens next." },
+          { frame: "I have not ___ yet — I wanted to ___ first.",
+            why: "What you have not done, and why, so nobody assumes somebody else has." },
+        ],
         prompt: "Read the situation, then write the email. Outline the four jobs before you start.",
         scenarioTitle: "The situation",
         scenario: "<p>The shared incubator has been running about two degrees too warm since Tuesday. Three groups have used it. It never used to drift. You have checked the display against a separate thermometer, and you have not yet told the other groups.</p><p><b>Write to your supervisor.</b> Report the fault, say what is now in doubt, say what you have done, and ask what should happen to this week's cultures.</p>",
@@ -27,6 +35,22 @@
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "measurement"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
+
+              frames: [
+
+                { frame: "___ has been ___ since ___.",
+
+                  why: "Reports a fault that is still happening, which <i>it ran warm</i> would not." },
+
+                { frame: "That means ___ is now ___.",
+
+                  why: "The consequence, stated before anyone asks. This is the sentence that decides what happens next." },
+
+                { frame: "I have not ___ yet — I wanted to ___ first.",
+
+                  why: "What you have not done, and why, so nobody assumes somebody else has." },
+
+              ],
         prompt: "A second situation. This one asks you to correct a figure that has already been circulated.",
         scenarioTitle: "The situation",
         scenario: "<p>The departmental newsletter reports that the fatality rate in the district you are studying “rose from nine per cent to fifteen”. Deaths rose from forty-five to fifty; tests fell from five hundred to three hundred and thirty. The arithmetic is right and the sentence is not. The newsletter goes out again on Friday.</p><p><b>Write to the editor.</b> Say what the figure conceals, give both numbers, and propose a specific wording.</p>",

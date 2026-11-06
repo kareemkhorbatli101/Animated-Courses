@@ -160,6 +160,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ was ___ by ___.",
+
+            why: "A passive that keeps its agent, because who did it is the point of the sentence." },
+
+          { frame: "___ were ___ every ___.",
+
+            why: "A passive that drops its agent, because nobody doubted a person did it." },
+
+          { frame: "Building on what ___ said about ___, ___.",
+
+            why: "Names the person and the contribution before your own point begins." },
+
+        ],
         prompt: "A discussion question about publication.",
         minWords: 100,
         posts: [
@@ -181,6 +197,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "claim"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "___ was ___ by ___.",
+
+            why: "A passive that keeps its agent, because who did it is the point of the sentence." },
+
+          { frame: "___ were ___ every ___.",
+
+            why: "A passive that drops its agent, because nobody doubted a person did it." },
+
+          { frame: "Building on what ___ said about ___, ___.",
+
+            why: "Names the person and the contribution before your own point begins." },
+
+        ],
         prompt: "A second question, about what should be published.",
         minWords: 100,
         note: { kind: "writer",

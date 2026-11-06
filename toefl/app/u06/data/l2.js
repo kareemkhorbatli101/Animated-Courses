@@ -149,6 +149,22 @@
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "First, ___. Once ___, ___.",
+
+            why: "<i>Once</i> marks a stage that depends on the last one — the sequence marker Lesson 2 teaches." },
+
+          { frame: "If ___ does not ___, ___ must be ___.",
+
+            why: "A condition inside a sequence. A method that cannot fail is a recipe." },
+
+          { frame: "Only then is ___ ___.",
+
+            why: "A fronted <i>only</i> forces the inversion: <i>is the reading taken</i>, not <i>the reading is taken</i>." },
+
+        ],
         prompt: "A discussion question about how nutrition is communicated.",
         minWords: 100,
         posts: [
@@ -170,6 +186,22 @@
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+
+        frames: [
+
+          { frame: "First, ___. Once ___, ___.",
+
+            why: "<i>Once</i> marks a stage that depends on the last one — the sequence marker Lesson 2 teaches." },
+
+          { frame: "If ___ does not ___, ___ must be ___.",
+
+            why: "A condition inside a sequence. A method that cannot fail is a recipe." },
+
+          { frame: "Only then is ___ ___.",
+
+            why: "A fronted <i>only</i> forces the inversion: <i>is the reading taken</i>, not <i>the reading is taken</i>." },
+
+        ],
         prompt: "A second question, about a number everybody uses and nobody checks.",
         minWords: 100,
         note: { kind: "writer",
