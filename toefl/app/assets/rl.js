@@ -312,6 +312,23 @@
       } : {});
     } else if (src.chart && root.Charts && root.Charts.render) {
       body = root.Charts.render(src.chart);
+    } else if (src.cards && src.cards.length) {
+      /* a card deck carried into a later exercise is a reference list: the
+         learner needs to look the terms up, not drill them again */
+      body = E("div", "rl-terms");
+      src.cards.forEach(function (c) {
+        var row = E("div", "rl-term");
+        row.appendChild(E("b", null, esc(c.term)));
+        row.appendChild(E("span", null, " \u2014 " + esc(c.meaning || "")));
+        body.appendChild(row);
+      });
+    } else if (src.phrases && src.phrases.length) {
+      body = E("div", "rl-terms");
+      src.phrases.forEach(function (ph) {
+        var row = E("div", "rl-term");
+        row.innerHTML = ph.text;
+        body.appendChild(row);
+      });
     } else if (audioLines(src).length) {
       body = E("div", "rl-carried-audio");
       var p = root.AudioKit ? root.AudioKit.player({
@@ -325,6 +342,8 @@
     return host;
   }
   function srcLabel(src) {
+    if (src.cards) return "The terms from earlier, to look up";
+    if (src.phrases) return "The phrases from earlier, to look up";
     if (src.text) return "The passage, carried here so you can cite it";
     if (src.chart) return "The chart, carried here";
     return "The audio, carried here";

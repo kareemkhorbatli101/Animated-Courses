@@ -97,6 +97,13 @@ function trueCount(s){
     case 'order': return 1;
     case 'orderset': return (s.items || []).length;
     case 'cloze': return (s.gaps || []).length;
+    /* the six that replace the read-only panels */
+    case 'cards': return (s.cards || []).length;
+    case 'build': return (s.items || []).length;
+    case 'compare': return (s.changes || []).length;
+    case 'phrases': return (s.phrases || []).length;
+    case 'recap': return (s.takeaways || []).length;
+    case 'annotate': return (s.sentences || []).length;
     default: return s.items ? s.items.length : s.n;
   }
 }
@@ -433,8 +440,9 @@ B.UNITS.forEach(u=>{
         const src = P.scenes.filter(x => x.id === s.carry)[0];
         if (!src) bad(where, `carry: "${s.carry}" names no scene on this page`);
         else if (src.id === s.id) bad(where, 'carry: points at itself');
-        else if (!(src.text || src.chart || (src.audio && src.audio.lines)))
-          bad(where, `carry: "${s.carry}" carries no text, chart or audio`);
+        else if (!(src.text || src.chart || (src.audio && src.audio.lines) ||
+                   (src.cards && src.cards.length) || (src.phrases && src.phrases.length)))
+          bad(where, `carry: "${s.carry}" carries no text, chart, audio or term list`);
         else if (src.text) {
           const n = readingLines(src.text).length;
           (s.items || []).forEach((it, i) => {

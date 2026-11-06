@@ -84,7 +84,12 @@
     }
 
     self.chip = function (spec) {
-      var c = E("button", "chip", spec.label);
+      /* `label` is the plain text the live region announces, so it stays
+         text. `html` is an optional rendered form for the eye: a takeaway
+         with its operative phrase in bold reads as markup without it, and
+         a screen reader should not have to say "less-than b greater-than". */
+      var c = E("button", "chip", spec.html ? "" : spec.label);
+      if (spec.html) c.innerHTML = spec.html;
       c.type = "button";
       c.draggable = true;
       c.dataset.chipId = spec.id;

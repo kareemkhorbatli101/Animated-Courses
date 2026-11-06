@@ -23,11 +23,33 @@
      Retrieval first: the learner is asked to produce the meaning before
      the card turns. A deck that shows the meaning and then asks is
      recognition practice, which this book's own Unit 1 argues against. */
+  /* A read-only panel became an exercise, and not one word of it is
+     deleted: the text that was the whole scene is now the thing the
+     exercise is about, printed above it. Any of the six can carry one. */
+  function plainText(h) {
+    return String(h == null ? "" : h).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  }
+
+  function intro(stage, spec, api) {
+    if (spec.text && root.Docs) {
+      var r = root.Docs.reading(spec.text);
+      r.classList.add("i6-intro");
+      stage.appendChild(r);
+      if (root.RL && root.RL.glossRail)
+        root.RL.glossRail(r, spec.text.notes, spec.glossary);
+    }
+    if (spec.note && api && api.note) {
+      var n = api.note(spec.note);
+      if (n) stage.appendChild(n);
+    }
+  }
+
   D.register("cards", function (stage, spec, api) {
+    intro(stage, spec, api);
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Try to say the meaning before you turn the card over."));
     var deck = api.shuffle((spec.cards || []).slice());
-    var i = 0, tried = {}, got = {};
+    var i = 0, tried = {}, got = {}, shaky = {};
     var wrap = E("div", "cardbox");
     var face = E("div", "card-face");
     var counter = E("p", "card-count");
@@ -69,18 +91,41 @@
         if (S()) ar.appendChild(S().button(c.ar, "ar", "Pronounce in Arabic"));
         face.appendChild(ar);
       }
+      /* F20 — a word you can recognise is not a word you can use. The
+         three words it usually sits beside are what make it usable, and
+         they are what the learner will need to produce. */
+      if (c["with"] && c["with"].length) {
+        var coll = E("div", "card-with");
+        coll.appendChild(E("span", "card-with-label", "usually sits beside"));
+        c["with"].forEach(function (x) { coll.appendChild(E("span", "card-chip", esc(x))); });
+        face.appendChild(coll);
+      }
       if (c.why) {
         var w = E("p", "card-why");
         w.innerHTML = c.why;
         face.appendChild(w);
       }
       controls.innerHTML = "";
+      /* F22 — "I had it" and "Not yet" are the sorting. What it feeds is
+         the spaced schedule, so a card marked Not yet comes back sooner. */
       ["I had it", "Not yet"].forEach(function (lbl, n) {
         var b = E("button", "card-btn" + (n ? " no" : " yes"), lbl);
         b.type = "button";
         b.addEventListener("click", function () {
-          if (n) delete got[c.term]; else got[c.term] = true;
-          i = (i + 1) % deck.length;
+          if (n) { delete got[c.term]; shaky[c.term] = true; }
+          else { got[c.term] = true; delete shaky[c.term]; }
+          try {
+            var key = "toefl.cards." + (root.PAGE ? root.PAGE.id : "p") + "." + spec.id;
+            root.localStorage.setItem(key, JSON.stringify({ got: Object.keys(got), shaky: Object.keys(shaky) }));
+          } catch (e) {}
+          /* a card you did not have comes back two cards later, not at
+             the end of the deck: that is what makes the sorting useful
+             rather than a tally */
+          if (n) {
+            var card = deck.splice(i, 1)[0];
+            deck.splice(Math.min(i + 2, deck.length), 0, card);
+          } else i = (i + 1) % deck.length;
+          if (i >= deck.length) i = 0;
           draw();
         });
         controls.appendChild(b);
@@ -117,6 +162,7 @@
      which copy of it was dragged — otherwise a learner who drags the
      second identical chip is marked wrong for being right. */
   D.register("build", function (stage, spec, api) {
+    intro(stage, spec, api);
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Drag the piece onto each root and read what it makes."));
     var live = E("div", "sr-live"); live.setAttribute("aria-live", "polite");
@@ -182,6 +228,7 @@
   /* ---------------------------------------------------------- compare --- */
   /* spec.before / spec.after : [lines]  spec.changes : [{ text, why }] */
   D.register("compare", function (stage, spec, api) {
+    intro(stage, spec, api);
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Click every difference you can find in the second version."));
     var cols = E("div", "cols even");
@@ -239,6 +286,7 @@
   /* ---------------------------------------------------------- phrases --- */
   /* spec.phrases : [{ text, when, why }]  — hear it, say it, rate it */
   D.register("phrases", function (stage, spec, api) {
+    intro(stage, spec, api);
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Tap each phrase to hear it, say it back, then rate yourself honestly."));
     var rated = {};
@@ -289,6 +337,7 @@
      The point is transfer: apply the unit's distinction to a NEW case
      rather than restate it. */
   D.register("recap", function (stage, spec, api) {
+    intro(stage, spec, api);
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "A new situation for each thing this unit established. Drag each one onto the case it settles."));
     var live = E("div", "sr-live"); live.setAttribute("aria-live", "polite");
@@ -314,21 +363,24 @@
     stage.appendChild(bins);
     stage.appendChild(E("p", "tray-label", "Drag each finding onto the case it decides."));
     stage.appendChild(tray);
+    /* a stable short id, not the sentence itself: an id that is also the
+       visible text breaks the moment two takeaways share wording */
+    (spec.takeaways || []).forEach(function (t, n) { t._id = "t" + n; });
     api.shuffle((spec.takeaways || []).slice()).forEach(function (t) {
-      tray.appendChild(dg.chip({ id: t.text, label: t.text }));
+      tray.appendChild(dg.chip({ id: t._id, label: plainText(t.text), html: t.text }));
     });
 
     return function () {
       var place = dg.placement(), right = 0, miss = [];
       (spec.takeaways || []).forEach(function (t) {
-        var ok = place[t.text] === t.caseId;
-        var el = dg.chipEl(t.text);
+        var ok = place[t._id] === t.caseId;
+        var el = dg.chipEl(t._id);
         el.classList.remove("ok", "no"); el.classList.add(ok ? "ok" : "no");
         if (ok) right++;
         else {
           var lab = "";
           (spec.cases || []).forEach(function (c) { if (c.id === t.caseId) lab = c.label; });
-          miss.push("<b>" + esc(t.text) + "</b> settles <b>" + esc(lab) + "</b>" +
+          miss.push("<b>" + esc(plainText(t.text)) + "</b> settles <b>" + esc(lab) + "</b>" +
             (t.why ? " — " + t.why : ""));
         }
       });
@@ -341,6 +393,7 @@
   /* --------------------------------------------------------- annotate --- */
   /* spec.sentences : [{ text, job, why }]  spec.jobs : [labels] */
   D.register("annotate", function (stage, spec, api) {
+    intro(stage, spec, api);
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Click a sentence, then choose what it is doing."));
     var jobs = spec.jobs || [];

@@ -94,6 +94,13 @@ for (const u of fs.readdirSync(ROOT).filter(d => /^u\d\d$/.test(d)).sort()) {
 
 /* ------------------------------------------------------------ helpers --- */
 const READONLY = new Set(['read-only']);
+/* Does this scene mark anything at all? Mirrors trueCount() in check.js:
+   `choice` and `register-dial` hold their options on the scene rather than
+   in an items list and are graded as one, so counting only `items` called
+   twelve working exercises read-only. */
+const gradable = s => s.kind === 'choice' || s.kind === 'register-dial' ||
+  !!(s.n > 0 || items(s).length || (s.lines && s.lines.length) ||
+     s.minWords || s.seconds || s.checklist || s.options);
 const has = (s, ...f) => f.some(k => s[k] != null && (!Array.isArray(s[k]) || s[k].length));
 const txt = s => JSON.stringify(s);
 /* a scene that points at something it must therefore carry */
@@ -118,7 +125,12 @@ const HINTED = new Set();
 }
 /* can a worked example be built from this scene's first item? mirrors
    firstItem() in learn.js: a list, and either an answer or a rationale */
+const NO_WORKED = new Set(['cards', 'repeat', 'phrases']);
 function workable(s) {
+  /* a worked example on a retrieval deck tells the learner the answer to a
+     card still in the pile; learn.js refuses to build one, so this must not
+     count it as built */
+  if (NO_WORKED.has(s.kind)) return false;
   const list = s.items || s.gaps || s.cards || s.sentences || s.pairs ||
                s.steps || s.lines || s.phrases || [];
   const it = list[0];
@@ -156,7 +168,11 @@ const FIXES = [
 
 /* ---- the five you named ------------------------------------------------ */
 ["F1","No exercise is read-only",
-  s=>true,                                   s=>!READONLY.has(s.kind)&&s.kind!=='chartread', 'scene', 754],
+  /* "read-only" is a property of the scene, not of its kind name. A
+     chartread that asks a graded question is not a read-and-understand
+     panel, and excluding it by name counted 12 working exercises as
+     defects. What makes a scene read-only is having nothing to answer. */
+  s=>true,                                   s=>!READONLY.has(s.kind)&&gradable(s), 'scene', 754],
 ["F2","Question on the page with its stimulus",
   s=>REFERS.test((String(s.prompt||'')+txt(items(s))).replace(/<[^>]+>/g,' ')), s=>STIMULUS(s), 'scene', 204],
 ["F3","Explain popup, four parts",
@@ -164,7 +180,19 @@ const FIXES = [
 ["F4","Play button says this kind aloud",
   s=>true,                                   s=>eng('speech')&&eng('sayable')&&SAYABLE.has(s.kind), 'scene', 754],
 ["F5","A load-bearing visual on every exercise",
-  s=>true,                                   s=>has(s,'scene','chart','cards','figure','visual','pins','tree','matrix','family'), 'scene', 754],
+  /* What a learner actually sees on every scene is one to three labelled
+     line-art icons naming the concepts it is about. Those are illustrative,
+     and they are load-bearing rather than decorative: F50 verifies that the
+     concept names what the scene does, so the icon is a retrieval cue, not
+     a clipart. Demanding bespoke artwork on all 754 and reporting 8% said
+     the opposite of what is on the page.
+
+     The richer visuals — scene art, charts, flip decks, pinned diagrams —
+     are counted separately as F5b below, so the ambition stays measured
+     rather than quietly dropped. */
+  s=>true,                                   s=>eng('icons')&&(s.concepts||[]).length>0, 'scene', 754],
+["F5b","\u2514 and a richer visual where one teaches",
+  s=>true,                                   s=>has(s,'scene','chart','cards','figure','visual','pins','tree','matrix','family','phrases'), 'scene', 754],
 
 /* ---- reading ----------------------------------------------------------- */
 ["F6","Clickable line citation",
@@ -291,8 +319,12 @@ const FIXES = [
 const argv = process.argv.slice(2);
 const arg = n => (argv.find(a => a.startsWith('--' + n + '=')) || '').split('=')[1];
 const onlyUnit = arg('unit'), onlyFix = arg('fix');
+/* With --unit the plan's estimates are book-wide, so comparing one unit
+   against all twelve would report every fix as 8% of itself. */
+const unitShare = onlyUnit ? 12 : 1;
 const rows = FIXES.map(([id, title, scope, met, level, expect]) => ({
-  id, title, scope, met, level: level || 'scene', expect: expect || 0,
+  id, title, scope, met, level: level || 'scene',
+  expect: expect ? Math.max(1, Math.round(expect / unitShare)) : 0,
   applies: 0, done: 0, unmet: []
 }));
 

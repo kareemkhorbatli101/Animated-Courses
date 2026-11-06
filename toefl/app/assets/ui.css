@@ -1002,3 +1002,15 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
   border-radius:5px;padding:1px 4px;margin-left:-4px;}
 .rl-signal-note{margin:10px 0 0;padding:8px 11px;border-radius:8px;
   background:var(--mint);font:400 13px/1.6 var(--ui);color:var(--ink);}
+
+/* F20 — the words a term sits beside */
+.card-with{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:9px 0 0;}
+.card-with-label{flex:1 0 100%;font:700 10px/1.8 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.card-chip{font:400 13px/1.5 var(--ui);padding:4px 10px;border-radius:999px;
+  background:var(--sunk);border:1px solid var(--rule);color:var(--ink-2);}
+.rl-terms{display:flex;flex-direction:column;gap:4px;padding:10px 13px;
+  border-radius:9px;background:var(--sunk);border:1px solid var(--rule);}
+.rl-term{font:400 14px/1.65 var(--ui);color:var(--ink);}
+.i6-intro{margin:0 0 15px;}
+.buildrows{margin-top:14px;}

@@ -63,7 +63,8 @@
     "audioFiles",    /* F39 a recording is looked up by the line it speaks   */
     "arabicUI",      /* F36 chrome in Arabic; the English taught stays English */
     "segments",      /* F49 a long talk offered in parts, as well as whole   */
-    "signalOnReview" /* F47 where the answer came from, marked after only    */
+    "signalOnReview",/* F47 where the answer came from, marked after only    */
+    "triage"         /* F22 a card you did not have comes back two cards later */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

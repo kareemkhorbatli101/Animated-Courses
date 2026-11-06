@@ -10,8 +10,28 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review present and past forms", letter: "A",
         concepts: ["read", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the student's note and the lab record beside it. Notice which tense each one uses, and why.",
+        kind: "annotate", task: null, n: 0,
+        prompt: "The student's note and the lab record. Click each line and name the tense it uses. The choice is never about style \u2014 it is about whether the thing is a habit, is happening now, or is finished.",
+        jobs: ["Simple present \u2014 a habit or a standing fact",
+               "Present continuous \u2014 going on right now",
+               "Simple past \u2014 finished, and dated"],
+        sentences: [
+          { text: "I test myself every evening, and I usually get about half of it wrong the first time.",
+            job: "Simple present \u2014 a habit or a standing fact",
+            why: "<i>every evening</i> and <i>usually</i> are the giveaway: this is what happens repeatedly, not what happened once." },
+          { text: "Right now I am working through last week's chapter.",
+            job: "Present continuous \u2014 going on right now",
+            why: "<i>Right now</i> fixes it to this moment. The habit is <i>I work</i>; the thing in progress is <i>I am working</i>." },
+          { text: "Forty students read a passage twice.",
+            job: "Simple past \u2014 finished, and dated",
+            why: "A completed study. <i>read</i> here is the past \u2014 spelled the same, said /red/." },
+          { text: "Forty more read it once and then wrote down what they remembered.",
+            job: "Simple past \u2014 finished, and dated",
+            why: "<i>wrote</i> settles it: the whole sentence is reporting what was done, not what is done." },
+          { text: "A week later the second group was still ahead.",
+            job: "Simple past \u2014 finished, and dated",
+            why: "The result of a finished study stays in the past, even though the finding still holds today." }
+        ],
         text: { every: 1, blocks: [
           { h: "What I do", lines: [
             "I test myself every evening, and I usually get about half of it wrong the first time.",

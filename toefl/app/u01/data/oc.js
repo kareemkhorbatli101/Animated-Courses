@@ -175,8 +175,8 @@
 
       { id: "c", section: 3, sectionTitle: "Show that you are following", letter: "A",
         concepts: ["read", "evidence", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. In a seminar, following is something you have to <i>show</i>.",
+        kind: "phrases", task: null, n: 0,
+        prompt: "In a seminar, following is something you have to <i>show</i>. Hear each one, say it along with the model, then rate what you could produce unprompted \u2014 not what you recognise.",
         note: { kind: "speak",
                 body: "<i>So if I've understood, …</i><i>Could you go over that last part again?</i><i>Can I check one thing?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO SHOW YOU ARE FOLLOWING",
@@ -192,7 +192,33 @@
               "Can I check one thing before you move on?"
             ] }
           ] },
-        after: "<p>The middle one is the most useful sentence in this book. It asks for a repeat without admitting you were lost.</p>" },
+        phrases: [
+          { text: "Take notes \u2014 visibly, not constantly.",
+            say: "Take notes visibly, not constantly.",
+            when: "Through the whole talk. Visible means the pen moves when something matters, which also tells the speaker what landed.",
+            why: "Constant writing reads as transcription and stops you listening. Writing at the points that matter reads as following." },
+          { text: "Look up at the end of a point, not during it.",
+            say: "Look up at the end of a point, not during it.",
+            when: "At the natural stop, when the speaker's voice falls.",
+            why: "Looking up mid-sentence reads as having lost the thread. Looking up at the close reads as having finished with it." },
+          { text: "Nod once at a claim, not at every sentence.",
+            say: "Nod once at a claim, not at every sentence.",
+            when: "When the speaker states the thing the rest of the point rests on.",
+            why: "Nodding continuously carries no information. One nod at the claim tells the speaker you found the claim." },
+          { text: "So if I've understood, you're saying the discomfort is the point?",
+            say: "So if I have understood, you are saying the discomfort is the point?",
+            when: "After a long point you think you followed, to check it rather than assume it.",
+            why: "It states your reading and invites correction. If you are wrong you find out now, cheaply." },
+          { text: "Could you go over the last part again?",
+            say: "Could you go over the last part again?",
+            when: "The moment you lose the thread \u2014 not at the end of the hour.",
+            why: "The most useful sentence in this book. It asks for a repeat without admitting you were lost, and no lecturer minds it." },
+          { text: "Can I check one thing before you move on?",
+            say: "Can I check one thing before you move on?",
+            when: "Just as the speaker turns to the next point.",
+            why: "<i>One thing</i> and <i>before you move on</i> both promise brevity, which is what makes an interruption welcome." }
+        ],
+        after: "<p>The fifth one is the most useful sentence in this book. It asks for a repeat without admitting you were lost.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Show that you are following", letter: "B",
         concepts: ["measurement", "evidence"],
@@ -216,11 +242,24 @@
 
       { id: "c3", section: 3, sectionTitle: "Show that you are following", letter: "C",
         concepts: ["read", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
-        text: { blocks: [{ lines: [
-          "Following a lecture is not a state you are in. It is a thing you do, and some of it has to be visible."
-        ] }] },
+        kind: "recap", task: null, n: 0,
+        prompt: "One sentence to leave with \u2014 and three seminars where somebody is about to need it. Drag each part of it onto the person it would change.",
+        cases: [
+          { id: "s1", label: "The silent hour",
+            detail: "Leila follows every word of a two-hour seminar and says nothing. Afterwards the lecturer tells her tutor she seems lost." },
+          { id: "s2", label: "The lost thread",
+            detail: "Karim stops following in minute ten and waits, hoping it will come back. It does not, and by the end he has an hour of notes he cannot use." },
+          { id: "s3", label: "The constant nod",
+            detail: "Sara nods at every sentence and writes without stopping. The lecturer cannot tell which part she actually took." }
+        ],
+        takeaways: [
+          { text: "Following a lecture is <b>not a state you are in</b>.", caseId: "s1",
+            why: "Leila is following perfectly and it is invisible, so to everyone else it is not happening. Understanding that nobody can see does not count in a seminar." },
+          { text: "It is <b>a thing you do</b>.", caseId: "s2",
+            why: "Karim treats following as something that either happens to him or does not. It is a set of actions \u2014 ask, check, go back \u2014 and he took none of them." },
+          { text: "And <b>some of it has to be visible</b>.", caseId: "s3",
+            why: "Sara is visible constantly, which carries no information. Visible means legible: one nod at the claim, the pen moving at what matters." }
+        ],
         closer: { kind: "life",
           body: "<p>In your next class, ask one clarifying question using a phrase from this page. Note what the answer added.</p>" } }
     ]

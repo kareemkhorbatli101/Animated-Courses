@@ -33,6 +33,16 @@
       ] }
     ],
     notes: ["fluency: the sense that material is easy, which is not the same as knowing it"],
+    /* F7/F18 — the three words taught in 1A, glossed where they appear in
+       the article rather than only at the foot of it, each with its Arabic. */
+    glossary: [
+      { term: "retrieving", ar: "\u0627\u0633\u062a\u0631\u062c\u0627\u0639",
+        def: "bringing something back from memory without looking at it" },
+      { term: "fluency", ar: "\u0627\u0644\u0637\u0644\u0627\u0642\u0629 \u0627\u0644\u0638\u0627\u0647\u0631\u064a\u0629",
+        def: "the feeling that material is easy, which is not the same as knowing it" },
+      { term: "reinforced", ar: "\u0645\u064f\u0639\u0632\u0651\u0632",
+        def: "made stronger \u2014 what each act of recall does to the path back to a fact" }
+    ],
     source: "Illustrative summary of the retrieval-practice literature, written for this book"
   };
 
@@ -101,13 +111,22 @@
       /* ---------------- 1 Read ---------------- */
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions. You will meet these three words in the article.",
-        text: { blocks: [{ lines: [
-          "<span class='gloss'>retrieve</span> (v) to bring something back from memory without looking at it",
-          "<span class='gloss'>fluency</span> (n) the feeling that material is easy",
-          "<span class='gloss'>reinforce</span> (v) to make something stronger"
-        ] }] },
+        kind: "cards", task: null, n: 0,
+        prompt: "Three words you will meet in the article. Try to say each meaning before you turn the card \u2014 you will read better having already reached for them once.",
+        cards: [
+          { term: "retrieve", ar: "\u064a\u0633\u062a\u0631\u062c\u0639",
+            meaning: "to bring something back from memory without looking at it",
+            with: ["retrieve a fact", "retrieve it from memory", "retrieval practice"],
+            why: "The word the whole research literature is built on. Retrieval is the effort; the effort is what consolidates." },
+          { term: "fluency", ar: "\u0627\u0644\u0637\u0644\u0627\u0642\u0629 \u0627\u0644\u0638\u0627\u0647\u0631\u064a\u0629",
+            meaning: "the feeling that material is easy",
+            with: ["a feeling of fluency", "mistake fluency for knowledge", "the fluency illusion"],
+            why: "Watch for this one. The article argues it misleads you: easy to read is not the same as known." },
+          { term: "reinforce", ar: "\u064a\u0639\u0632\u0651\u0632",
+            meaning: "to make something stronger",
+            with: ["reinforce a pathway", "reinforce the memory", "reinforce a habit"],
+            why: "What retrieval does to a memory, and what re-reading does not: the pathway is strengthened by use, not by exposure." }
+        ],
         after: "<p>Watch for <i>fluency</i> in particular. The article argues it misleads you.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
@@ -393,13 +412,24 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Both articles, both cards, one instruction.",
-        text: { blocks: [{ lines: [
-          "<b>How</b> — close the book and recall, rather than read again.",
-          "<b>When</b> — four short evenings, rather than one long one.",
-          "<b>What to bring</b> — the questions, not the pages they came from."
-        ] }] },
+        kind: "recap", task: null, n: 0,
+        prompt: "Both articles, both cards, one instruction \u2014 in three parts. Drag each part onto the student it would change most. These are not the people in the articles; the point is whether the idea travels.",
+        cases: [
+          { id: "c1", label: "Yusuf",
+            detail: "Reads his lecture notes through twice the night before a test, and says he knows the material because it reads easily by the second pass." },
+          { id: "c2", label: "Hana",
+            detail: "Studies for five hours every Sunday and nothing in between. She remembers the start of each session better than the end." },
+          { id: "c3", label: "Omar",
+            detail: "Carries the whole textbook to the library and re-reads whole chapters, including the parts he got right last time." }
+        ],
+        takeaways: [
+          { text: "<b>How</b> \u2014 close the book and recall, rather than read again.", caseId: "c1",
+            why: "Yusuf's problem is the fluency illusion exactly: the second pass is easier, and he reads that ease as knowledge. Closing the book is the only test that tells him apart from someone who knows it." },
+          { text: "<b>When</b> \u2014 four short evenings, rather than one long one.", caseId: "c2",
+            why: "Hana's hours are not the problem; their shape is. The same five hours across four evenings are worth more than five in a row, and the forgetting between sessions is doing the work." },
+          { text: "<b>What to bring</b> \u2014 the questions, not the pages they came from.", caseId: "c3",
+            why: "Omar spends most of his time on what he already knew. Questions make him start from what he cannot yet answer, which is the only part worth the hour." }
+        ],
         closer: { kind: "life",
           body: "<p>Take one page of your own notes tonight. Turn it into six questions, close the page, and answer them. Do it again on Thursday, and bring the six questions to class.</p>" } }
     ]

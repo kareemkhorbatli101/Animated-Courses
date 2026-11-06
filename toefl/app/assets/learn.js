@@ -256,9 +256,22 @@
     return n <= 2 ? "open" : n <= 4 ? "closed" : "gone";
   }
 
+  /* Kinds where working the first item would destroy the exercise.
+
+     A retrieval deck is shuffled, so the worked card is still in the pile:
+     showing its meaning first turns a card the learner was about to recall
+     into one they have just been told. Unit 1 spends a lesson arguing that
+     recognition is not recall; the book must not contradict that in its own
+     interface, which is the whole of F41.
+
+     Shadowing has nothing to work: the task is to say the line, and the
+     line is already printed. */
+  var NO_WORKED = { cards: 1, repeat: 1, phrases: 1 };
+
   function workedExample(host, spec, page, api) {
     var level = fadeLevel(page);
     if (level === "gone") return null;
+    if (NO_WORKED[spec.kind]) return null;
     var one = firstItem(spec);
     if (!one) return null;
 
