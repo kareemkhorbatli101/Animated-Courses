@@ -207,8 +207,21 @@
     if (old) {
       var note = old.querySelector("span");
       if (note && note.textContent) {
-        var sub = E("p", "rl-cast-note", esc(note.textContent));
-        row.appendChild(sub);
+        /* The old block named one speaker and mentioned the other in prose
+           ("peer advisor, with Mei Lin"). Both faces are shown now, so
+           "with Mei Lin" repeats a portrait that is an inch away. */
+        var txt = note.textContent;
+        order.forEach(function (who) {
+          var person = root.CAST.person(who);
+          if (!person) return;
+          txt = txt.replace(new RegExp(",?\\s*with " +
+            person.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"), "");
+        });
+        txt = txt.replace(/^\s*[,\u00b7]\s*/, "").trim();
+        /* What can be left is a bare accent code. "US" on a line of its own
+           says nothing a reader wants; the role is the part worth keeping. */
+        if (txt && !/^[A-Z]{2,3}$/.test(txt))
+          row.appendChild(E("p", "rl-cast-note", esc(txt)));
       }
       old.parentNode.replaceChild(row, old);
     } else {
