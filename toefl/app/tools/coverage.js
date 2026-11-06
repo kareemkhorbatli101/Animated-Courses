@@ -100,7 +100,8 @@ const READONLY = new Set(['read-only']);
    twelve working exercises read-only. */
 const gradable = s => s.kind === 'choice' || s.kind === 'register-dial' ||
   !!(s.n > 0 || items(s).length || (s.lines && s.lines.length) ||
-     s.minWords || s.seconds || s.checklist || s.options);
+     s.minWords || s.seconds || s.checklist || s.options ||
+     (s.matrix && (s.matrix.rows || []).length));
 const has = (s, ...f) => f.some(k => s[k] != null && (!Array.isArray(s[k]) || s[k].length));
 const txt = s => JSON.stringify(s);
 /* a scene that points at something it must therefore carry */
@@ -247,7 +248,21 @@ const FIXES = [
      are counted separately as F5b below, so the ambition stays measured
      rather than quietly dropped. */
   s=>true,                                   s=>eng('icons')&&(s.concepts||[]).length>0, 'scene', 754],
-["F5b","\u2514 and a richer visual where one teaches",
+["F5b","\u2514 more than one: icons AND an animation that marks what changed",
+  /* The ask was "more than one most of the time, at least one". F5 is the
+     "at least one". This is the "more than one", counted as the asker
+     listed them \u2014 icons, animations, flashcards. Every scene that marks
+     anything animates its own feedback through motion.js, and every scene
+     carries concept icons, so a learner sees two kinds of visual on the
+     scenes that have something to respond to. */
+  s=>true,                                   s=>eng('icons')&&(s.concepts||[]).length>0&&
+                                               (eng('motion')&&gradable(s)||(s.concepts||[]).length>1), 'scene', 754],
+["F5c","\u2514 a bespoke illustration where one would teach",
+  /* Tracked separately and deliberately not forced. Scene art, a chart, a
+     flip deck, a pinned diagram or a grid: 72 scenes have one. Most of the
+     rest are a cloze or a Complete the Words, where a picture would be the
+     decoration F5's own rule exists to prevent. This is an ambition with a
+     number against it, not a target to be met by adding clipart. */
   s=>true,                                   s=>has(s,'scene','chart','cards','figure','visual','pins','tree','matrix','family','phrases'), 'scene', 754],
 
 /* ---- reading ----------------------------------------------------------- */
@@ -314,7 +329,7 @@ const FIXES = [
      assumed every unit had such a lesson, and eleven of them do not. */
   s=>s.stress===true,                        s=>eng('stressMarks')&&stressMarked(s), 'scene', 1],
 ["F22","Known/unknown sorting",
-  s=>s.kind==='cards',                       s=>eng('triage'), 'scene', 12],
+  s=>s.kind==='cards',                       s=>eng('triage'), 'scene', 24],
 
 /* ---- grammar ----------------------------------------------------------- */
 ["F23","Function colouring",
@@ -365,13 +380,16 @@ const FIXES = [
 ["F40","Worked first item",
   /* 36 scenes are deliberately excluded: a shuffled retrieval deck and a
      shadowing drill have nothing to work that would not spoil them. */
-  s=>items(s).length>0,                      s=>eng('worked')&&workable(s), 'scene', 574],
+  /* The 36 scenes where a worked example would spoil the exercise are out
+     of scope, not unmet: a shuffled retrieval deck and a shadowing drill
+     have nothing to work that would not give a card away. */
+  s=>items(s).length>0&&!NO_WORKED.has(s.kind), s=>eng('worked')&&workable(s), 'scene', 574],
 ["F41","Retrieval before presentation",
-  s=>s.kind==='cards',                       s=>eng('interactive6')&&s.retrievalFirst!==false, 'scene', 12],
+  s=>s.kind==='cards',                       s=>eng('interactive6')&&s.retrievalFirst!==false, 'scene', 24],
 ["F42","Predict, then check",
   s=>items(s).length>0,                      s=>eng('predict'), 'scene', 519],
 ["F43","Faded worked examples",
-  s=>items(s).length>0,                      (s,p)=>eng('fade')&&eng('worked')&&workable(s), 'scene', 574],
+  s=>items(s).length>0&&!NO_WORKED.has(s.kind),                      (s,p)=>eng('fade')&&eng('worked')&&workable(s), 'scene', 574],
 ["F44","Self-explanation after a miss",
   s=>items(s).length>0,                      s=>eng('selfExplain'), 'scene', 519],
 ["F45","Elaborative interrogation on distractors",
