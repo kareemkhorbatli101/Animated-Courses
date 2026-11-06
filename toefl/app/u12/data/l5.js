@@ -72,8 +72,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "assemble", ar: "\u064a\u062c\u0645\u0639 / \u064a\u062d\u0634\u062f",
+            meaning: "to gather in one place",
+            with: ["assemble the evidence", "an assembled audience", "assemble a case"],
+            why: "Used of evidence and of people, and the article uses both senses: an audience assembles, and so does an argument." },
+          { term: "assess", ar: "\u064a\u064f\u0642\u064a\u0651\u0645",
+            meaning: "to judge against criteria",
+            with: ["assess the claim", "difficult to assess", "assess against"],
+            why: "The criteria are what make it an assessment rather than a reaction, as Unit 11 had it. Say them and the judgment becomes answerable." },
+          { term: "turn on", ar: "\u064a\u062a\u0648\u0642\u0651\u0641 \u0639\u0644\u0649",
+            meaning: "to depend entirely upon",
+            with: ["the argument turns on", "it turns on whether", "turns on one word"],
+            why: "A phrasal verb that survived into formal writing, which Unit 6 said was unusual. <i>The case turns on one word</i> is academic English at its most compressed." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the third is a phrasal verb doing academic work, which Unit 6 said was unusual.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>assemble</span> (v) to gather in one place",
           "<span class='gloss'>assess</span> (v) to judge against criteria",
@@ -345,8 +359,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one chart, and the habit this book has been building for twelve units.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "v1", label: "The audience question",
+
+            detail: "Nadir says a play is different every night because every audience is different, and cannot say what would follow from that." },
+
+          { id: "v2", label: "The smuggled intention",
+
+            detail: "Salma reads that the director wanted the audience to feel abandoned, and takes it as something the critic observed." },
+
+          { id: "v3", label: "The last question",
+
+            detail: "Tala finishes an article agreeing with it and has not asked herself what she would have needed to see in order to disagree." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What the audience adds</b> \u2014 a different experience, certainly. A different work, arguably, and that is the interesting claim.", caseId: "v1",
+
+            why: "The weak version is obviously true and leads nowhere. The strong version \u2014 that the work itself differs \u2014 is arguable, and Nadir has not noticed he is holding the uninteresting one." },
+
+          { text: "<b>Where the sentence turns</b> \u2014 the word that attributes an intention nothing on screen can show.", caseId: "v2",
+
+            why: "<i>Wanted</i> is doing the work. What the camera did is an observation; what the director intended by it is an interpretation, and the sentence moves between them without a seam." },
+
+          { text: "<b>What to ask, of anything</b> \u2014 what would I have to see in order to agree, and have they shown me that?", caseId: "v3",
+
+            why: "The question the whole book has been building towards. Agreeing without having asked it is the same move as disagreeing without having asked it." }
+
+        ],
+        prompt: "Two articles, one chart, and the habit this book has been building for twelve units \u2014 in three parts. Drag each part onto the reader it would change.",
         text: { blocks: [{ lines: [
           "<b>What the audience adds</b> — a different experience, certainly. A different work, arguably, and that is the interesting claim.",
           "<b>Where the sentence turns</b> — the word that attributes an intention nothing on screen can show.",

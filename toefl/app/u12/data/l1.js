@@ -9,8 +9,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. The last two are the pair this unit turns on, and most criticism moves between them without saying so.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "audience", ar: "\u062c\u0645\u0647\u0648\u0631",
+            meaning: "the people a work is made for, or reaches",
+            with: ["a wide audience", "the intended audience", "audience expectations"],
+            why: "Two senses in one word \u2014 who it was for and who got it \u2014 and they are often not the same people, which is where criticism starts." },
+          { term: "genre", ar: "\u0646\u0648\u0639 \u0623\u062f\u0628\u064a / \u0641\u0646\u0651\u064a",
+            meaning: "a kind of work, with expectations attached",
+            with: ["genre conventions", "within the genre", "a genre film"],
+            why: "The expectations are the useful part. A genre is a contract, and most interesting work is about which clause it breaks." },
+          { term: "convention", ar: "\u0639\u064f\u0631\u0641 \u0641\u0646\u0651\u064a",
+            meaning: "something a genre does because it always has",
+            with: ["break with convention", "a narrative convention", "conventional ending"],
+            why: "Not a rule and not an accident. Naming a convention is how you show a choice was a choice rather than the only option." },
+          { term: "medium", ar: "\u0648\u0633\u064a\u0637",
+            meaning: "the material or form: film, print, paint",
+            with: ["the medium of film", "across media", "a new medium"],
+            why: "Plural <i>media</i>, and the singular is worth keeping: <i>a medium</i>, not <i>a media</i>." },
+          { term: "critic", ar: "\u0646\u0627\u0642\u062f",
+            meaning: "someone who judges a work in public",
+            with: ["a film critic", "critics argued", "critical reception"],
+            why: "<i>Critical</i> in this subject means careful and public, not negative, which is the opposite of its everyday sense." },
+          { term: "reception", ar: "\u062a\u0644\u0642\u0651\u064d",
+            meaning: "how a work was actually received, as a fact of history",
+            with: ["critical reception", "its reception was", "reception history"],
+            why: "A historical fact rather than a judgment. How a work was received can be researched; whether it deserved it cannot." },
+          { term: "observation", ar: "\u0645\u0644\u0627\u062d\u0638\u0629",
+            meaning: "something anyone can check in the work itself",
+            with: ["a simple observation", "the observation that", "observable in the text"],
+            why: "Half the pair. An observation can be confirmed by going back to the work, which is exactly what makes it worth something." },
+          { term: "interpretation", ar: "\u062a\u0623\u0648\u064a\u0644",
+            meaning: "a claim about what the work is doing",
+            with: ["an interpretation of", "open to interpretation", "a persuasive interpretation"],
+            why: "The other half. The two look alike in a sentence and are not alike at all, and finding the joint between them is this whole unit." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. The last two are the pair this unit turns on, and most criticism moves between them without saying so.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 audience</b> — the people a work is made for, or reaches",
           "<b>2 genre</b> — a kind of work, with expectations attached",
@@ -97,8 +131,54 @@
 
       { id: "2a", section: 2, sectionTitle: "Stress in nouns and verbs", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Many English words are a noun and a verb with the same spelling. The <b>stress moves</b>, and that is the only difference you can hear.",
+        kind: "annotate", task: null, n: 0,
+
+        jobs: ["Noun \u2014 stress on the first syllable",
+
+               "Verb \u2014 stress on the second syllable"],
+
+        stress: true,
+
+        sentences: [
+
+          { text: "The RE\u00b7cord of its reception survives.",
+
+            job: "Noun \u2014 stress on the first syllable",
+
+            why: "<b>RE</b>cord. The article <i>the</i> in front of it is the giveaway: an article can only precede a noun." },
+
+          { text: "They re\u00b7CORD\u00b7ed the first performance.",
+
+            job: "Verb \u2014 stress on the second syllable",
+
+            why: "re<b>COR</b>ded. The <i>-ed</i> ending settles it, and the stress follows the grammar without anyone deciding to move it." },
+
+          { text: "The CON\u00b7trast is deliberate.",
+
+            job: "Noun \u2014 stress on the first syllable",
+
+            why: "<b>CON</b>trast, with <i>the</i> again, and a verb (<i>is</i>) already present \u2014 so this word cannot be the verb." },
+
+          { text: "She con\u00b7TRASTS the two endings.",
+
+            job: "Verb \u2014 stress on the second syllable",
+
+            why: "con<b>TRASTS</b>. A subject in front and an object after is the shape only a verb can fill." },
+
+          { text: "His CON\u00b7duct was criticised.",
+
+            job: "Noun \u2014 stress on the first syllable",
+
+            why: "<b>CON</b>duct after a possessive. <i>His</i> behaves like <i>the</i> here: whatever follows is a noun." },
+
+          { text: "She con\u00b7DUCT\u00b7ed the survey herself.",
+
+            job: "Verb \u2014 stress on the second syllable",
+
+            why: "con<b>DUC</b>ted. Same spelling as two lines ago, a different word in every respect a listener can hear." }
+
+        ],
+        prompt: "Many English words are a noun and a verb with the same spelling. The stress moves, and that is the only difference you can hear. Click each line and say which it uses.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p><b>Noun: stress the first syllable. Verb: stress the second.</b><br><b>RE</b>cord / re<b>CORD</b> · <b>CON</b>trast / con<b>TRAST</b> · <b>CON</b>duct / con<b>DUCT</b> · <b>PRO</b>ject / pro<b>JECT</b> · <b>PRE</b>sent / pre<b>SENT</b>.<br>The rule is reliable enough to guess with, though not universal.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "THE STRESS CARRIES THE PART OF SPEECH",

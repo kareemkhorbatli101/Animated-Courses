@@ -172,8 +172,60 @@
 
       { id: "c", section: 3, sectionTitle: "Ask for directions", letter: "A",
         concepts: ["read", "place"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. A good direction answers a question the asker did not know to ask.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Name the destination, not the building number.",
+
+            say: "Name the destination, not the building number.",
+
+            when: "Opening the question, every time.",
+
+            why: "Almost nobody knows the numbers of buildings they walk past daily. Naming the thing gets an answer; naming the code gets a shrug." },
+
+          { text: "Ask how long, not just which way.",
+
+            say: "Ask how long, not just which way.",
+
+            when: "As soon as you have the direction.",
+
+            why: "A direction without a duration cannot be checked. Eight minutes tells you at minute twelve that something has gone wrong." },
+
+          { text: "Ask what you will see when you have gone too far.",
+
+            say: "Ask what you will see when you have gone too far.",
+
+            when: "Last, and almost nobody does.",
+
+            why: "The one that saves you. A landmark past the destination turns a direction into something you can test while you are still walking." },
+
+          { text: "Am I going the right way for the science building?",
+
+            say: "Am I going the right way for the science building?",
+
+            when: "When you are already moving and want a yes or no.",
+
+            why: "Answerable in one word, which is what makes it easy to ask of a stranger who is also walking somewhere." },
+
+          { text: "How long is that on foot?",
+
+            say: "How long is that on foot?",
+
+            when: "Immediately after the direction.",
+
+            why: "<i>On foot</i> matters: the same route is four minutes and fifteen depending on the assumption, and people answer for whichever they are picturing." },
+
+          { text: "What will I see if I\u0027ve gone too far?",
+
+            say: "What will I see if I have gone too far?",
+
+            when: "The last thing you ask.",
+
+            why: "It asks for a landmark you hope not to meet, and it is the only part of the answer that still works once you are lost." }
+
+        ],
+        prompt: "A good direction answers a question the asker did not know to ask. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>Am I going the right way for…?</i><i>How long on foot?</i><i>Is it signposted?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT DIRECTIONS YOU CAN USE",
@@ -213,8 +265,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Ask for directions", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "w1", label: "The overshoot",
+
+            detail: "Imane follows a direction confidently for ten minutes, passes the building without noticing, and keeps going for another ten." },
+
+          { id: "w2", label: "The vague yes",
+
+            detail: "Karim is told the library is straight on. It is, for half a mile, past three turnings he cannot distinguish." },
+
+          { id: "w3", label: "The check that worked",
+
+            detail: "Sana is told to turn back if she reaches the bridge. She reaches the bridge, turns back, and finds it immediately." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Ask what you will see if you have gone too far.</b>", caseId: "w1",
+
+            why: "Imane had no way of knowing she had overshot, so confidence carried her further from the building with every step." },
+
+          { text: "<b>It is the only question that turns a direction</b>", caseId: "w2",
+
+            why: "Karim has a direction that is true and unusable. What he lacks is any way of telling, at any moment, whether he is still right." },
+
+          { text: "<b>into something you can check while you are still walking.</b>", caseId: "w3",
+
+            why: "Sana used the landmark exactly as intended: not to find the place, but to find out she had passed it, at the cost of ninety seconds." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three people about to walk past the thing they are looking for. Drag each part onto the one it would help.",
         text: { blocks: [{ lines: [
           "Ask what you will see if you have gone too far. It is the only question that turns a direction into something you can check while you are still walking."
         ],

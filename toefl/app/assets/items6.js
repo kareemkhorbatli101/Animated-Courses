@@ -412,8 +412,19 @@
         lastGroup = sn.group;
       }
       var row = E("div", "ann-row");
-      var b = E("button", "ann-sent", sn.text);
+      var b = E("button", "ann-sent", root.Gram && root.Gram.marked(sn.text) ? "" : sn.text);
       b.type = "button";
+      /* F21 — where the lesson is about stress, show which syllable carries
+         it rather than describing a difference the page cannot make audible. */
+      if (root.Gram && root.Gram.marked(sn.text)) {
+        root.Gram.renderStress(b, sn.text);
+        var w = root.Gram.stressWord(sn.text);
+        if (w && S()) {
+          var sp = S().button(w, "en", "Hear " + w);
+          sp.className += " ann-say";
+          row.appendChild(sp);
+        }
+      }
       var sel = doc.createElement("select");
       sel.className = "ann-job";
       sel.setAttribute("aria-label", "What sentence " + (n + 1) + " does");

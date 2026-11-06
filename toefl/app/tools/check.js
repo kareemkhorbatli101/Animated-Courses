@@ -85,7 +85,6 @@ function checkOptions(where, opts, min){
    scene that declares the wrong `n` corrupts the whole unit's accounting. */
 function trueCount(s){
   switch (s.kind){
-    case 'read-only': return 0;
     case 'paragraph': case 'write-email': case 'discussion':
     case 'repeat': case 'interview': return s.n;        /* self-assessed */
     case 'choice': case 'register-dial': return 1;
@@ -411,6 +410,11 @@ B.UNITS.forEach(u=>{
       if (ids.has(where)) bad(where,'duplicate scene id');
       ids.add(where);
       if (!s.kind) bad(where,'no kind');
+      /* F1: the read-and-understand panel is gone from this book and its
+         renderer is gone from the registry. Refusing the kind here is what
+         stops it coming back one scene at a time. */
+      else if (s.kind === 'read-only')
+        bad(where,'kind "read-only" no longer exists — every scene must have something to answer');
       else if (!kindsUsed.has(s.kind)) kindsUsed.set(s.kind, where);
       /* echo lock: the same sentence taught twice as new in different units */
       collectStems(s).forEach(t=>{

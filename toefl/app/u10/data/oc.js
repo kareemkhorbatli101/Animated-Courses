@@ -171,8 +171,60 @@
 
       { id: "c", section: 3, sectionTitle: "Take a position", letter: "A",
         concepts: ["read", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. In a debate the strongest openings concede before they argue.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Say what you accept before you say what you reject.",
+
+            say: "Say what you accept before you say what you reject.",
+
+            when: "The first move of any disagreement.",
+
+            why: "It proves you have understood the other case and shrinks the argument to the part genuinely in dispute, which is usually smaller than either side expected." },
+
+          { text: "Narrow the claim you are defending until you can defend it.",
+
+            say: "Narrow the claim you are defending until you can defend it.",
+
+            when: "As soon as you notice you are defending more than you believe.",
+
+            why: "A narrow claim you can hold beats a broad one you cannot. Most positions are lost defending the parts nobody needed to claim." },
+
+          { text: "Name what would change your mind.",
+
+            say: "Name what would change your mind.",
+
+            when: "Before the argument hardens.",
+
+            why: "The rarest and the most powerful. It costs nothing if you are right, and it is the only thing that tells anyone you are arguing rather than defending." },
+
+          { text: "I accept that the rule is badly drafted. What I dispute is that it is unjust.",
+
+            say: "I accept that the rule is badly drafted. What I dispute is that it is unjust.",
+
+            when: "When the other side has a real point that does not reach their conclusion.",
+
+            why: "Concede and narrow in two sentences. The whole disagreement is now one word wide, and both sides can see where it is." },
+
+          { text: "My objection isn\u0027t to the policy \u2014 it\u0027s to how it was introduced.",
+
+            say: "My objection is not to the policy. It is to how it was introduced.",
+
+            when: "When you are being argued with about something you do not actually dispute.",
+
+            why: "Relocates the disagreement rather than defending ground you never wanted. Saying what you are not objecting to is half the sentence." },
+
+          { text: "If it turned out the consultation was genuine, I would drop the objection.",
+
+            say: "If it turned out the consultation was genuine, I would drop the objection.",
+
+            when: "Once your objection rests on a question of fact.",
+
+            why: "A falsifiable position, offered freely. It converts an argument into a question somebody can go and answer." }
+
+        ],
+        prompt: "In a debate the strongest openings concede before they argue. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>I accept that… What I dispute is…</i><i>My objection isn't to… it's to…</i><i>Even granting that, …</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO TAKE A POSITION",
@@ -212,8 +264,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Take a position", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "y1", label: "The fortified position",
+
+            detail: "Ahmad has argued the same point for an hour and could not say what evidence would move him, because he has not asked himself." },
+
+          { id: "y2", label: "The cost that was not there",
+
+            detail: "Lamis believes naming a condition would weaken her case, so she keeps it to herself and the discussion stalls." },
+
+          { id: "y3", label: "The unreadable opponent",
+
+            detail: "Two students cannot tell whether the other is reasoning or defending, so neither concedes anything at all." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Saying in advance what would change your mind</b>", caseId: "y1",
+
+            why: "Ahmad is defending rather than arguing and does not know it. The question he has not asked himself is the one that would tell him." },
+
+          { text: "<b>costs you nothing if you are right,</b>", caseId: "y2",
+
+            why: "Lamis has imagined a cost that does not exist. If her condition is never met, she has conceded nothing; if it is, she was wrong and wanted to know." },
+
+          { text: "<b>and it is the only thing that tells anyone you are arguing rather than defending.</b>", caseId: "y3",
+
+            why: "Without it there is no way to tell the two apart from outside, so neither student can safely give ground. One stated condition unlocks both sides." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three arguments that will not end. Drag each part onto the one it would change.",
         text: { blocks: [{ lines: [
           "Saying in advance what would change your mind costs you nothing if you are right, and it is the only thing that tells anyone you are arguing rather than defending."
         ],

@@ -172,8 +172,60 @@
 
       { id: "c", section: 3, sectionTitle: "Acknowledge a contribution", letter: "A",
         concepts: ["read", "sample"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. Credit is cheap to give and expensive to withhold.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Name the person, not \u201csomeone\u201d.",
+
+            say: "Name the person, not someone.",
+
+            when: "Every time you repeat an idea that was not yours.",
+
+            why: "<i>Someone made this point</i> credits nobody and is often heard as credit taken. A name costs one word." },
+
+          { text: "Say what they contributed, specifically.",
+
+            say: "Say what they contributed, specifically.",
+
+            when: "With the name, in the same sentence.",
+
+            why: "<i>Priya was helpful</i> is a compliment. <i>Priya spotted the denominator problem</i> is a record, and only the second survives the meeting." },
+
+          { text: "Do it in the room where the credit was lost.",
+
+            say: "Do it in the room where the credit was lost.",
+
+            when: "At the first opportunity, in front of the same people.",
+
+            why: "The one that matters. Credit given privately corrects your conscience; credit given publicly corrects the record." },
+
+          { text: "Building on what Mei said last week about the denominator\u2026",
+
+            say: "Building on what Mei said last week about the denominator.",
+
+            when: "Opening a point that extends somebody else\u0027s.",
+
+            why: "Names the person, the occasion and the contribution before your own point begins, which costs eight words and settles the attribution for good." },
+
+          { text: "That was Priya\u0027s point originally \u2014 I\u0027m just repeating it.",
+
+            say: "That was Priya\u0027s point originally. I am just repeating it.",
+
+            when: "When someone credits you for something that was not yours.",
+
+            why: "Corrects the record in the moment, which is the only time it is cheap. Left for later it becomes an awkward conversation." },
+
+          { text: "Credit where it\u0027s due: Tom\u00e1s spotted the drift, not me.",
+
+            say: "Credit where it is due: Tom\u00e1s spotted the drift, not me.",
+
+            when: "Reporting a result that depended on someone else\u0027s catch.",
+
+            why: "<i>Not me</i> does real work: it forecloses the assumption that the person reporting the finding is the person who made it." }
+
+        ],
+        prompt: "Credit is cheap to give and expensive to withhold. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>Building on what Mei said…</i><i>That was Priya's point originally.</i><i>Credit where it's due — Tomás spotted it.</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO ACKNOWLEDGE SOMEONE",
@@ -213,8 +265,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Acknowledge a contribution", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "z1", label: "The private thank-you",
+
+            detail: "Sami emails Mei afterwards to say the idea was hers. The six people in the meeting still believe it was his." },
+
+          { id: "z2", label: "The vague gesture",
+
+            detail: "Yusra says the team had a good idea about the denominator. Nobody can tell whose, including the person whose it was." },
+
+          { id: "z3", label: "The silence",
+
+            detail: "Priya hears her point repeated and attributed to someone else, says nothing, and the record sets." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Credit given in private settles your conscience.</b>", caseId: "z1",
+
+            why: "Sami has done the easy half. The email cost him nothing and changed nothing about what the room believes." },
+
+          { text: "<b>Only credit given in the room where it was lost</b>", caseId: "z3",
+
+            why: "The room is where the attribution forms, and it hardens quickly. Priya\u0027s one sentence at the time is worth more than any correction later." },
+
+          { text: "<b>settles the record.</b>", caseId: "z2",
+
+            why: "Yusra credited a group, which credits nobody. A record needs a name and a contribution; without both there is nothing to remember." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three pieces of credit about to go missing. Drag each part onto the one it would fix.",
         text: { blocks: [{ lines: [
           "Credit given in private settles your conscience. Only credit given in the room where it was lost settles the record."
         ],

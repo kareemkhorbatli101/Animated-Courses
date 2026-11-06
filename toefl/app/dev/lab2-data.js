@@ -12,6 +12,9 @@
         "section": 1,
         "sectionTitle": "chartread — from u01/l5",
         "letter": "A",
+        "concepts": [
+          "measurement"
+        ],
         "kind": "chartread",
         "task": "read-academic-passage",
         "cefr": "B2",
@@ -135,6 +138,9 @@
         "section": 2,
         "sectionTitle": "choice — from u01/l2",
         "letter": "A",
+        "concepts": [
+          "claim"
+        ],
         "kind": "choice",
         "task": "write-academic-discussion",
         "cefr": "B2",
@@ -163,6 +169,9 @@
         "section": 3,
         "sectionTitle": "cloze — from u01/l3",
         "letter": "A",
+        "concepts": [
+          "word"
+        ],
         "kind": "cloze",
         "task": null,
         "n": 0,
@@ -216,6 +225,9 @@
         "section": 4,
         "sectionTitle": "discussion — from u01/l2",
         "letter": "A",
+        "concepts": [
+          "write"
+        ],
         "kind": "discussion",
         "task": "write-academic-discussion",
         "cefr": "C1",
@@ -258,6 +270,9 @@
         "section": 5,
         "sectionTitle": "interview — from u01/tw",
         "letter": "A",
+        "concepts": [
+          "speak"
+        ],
         "kind": "interview",
         "task": "take-an-interview",
         "cefr": "C1",
@@ -276,6 +291,9 @@
         "section": 6,
         "sectionTitle": "letterbox — from u01/l1",
         "letter": "A",
+        "concepts": [
+          "word"
+        ],
         "kind": "letterbox",
         "task": "complete-the-words",
         "cefr": "B1",
@@ -326,6 +344,10 @@
         "section": 7,
         "sectionTitle": "listen — from u01/l4",
         "letter": "A",
+        "concepts": [
+          "listen",
+          "inference"
+        ],
         "kind": "listen",
         "task": "listen-conversation",
         "cefr": "C1",
@@ -463,6 +485,10 @@
         "section": 9,
         "sectionTitle": "orderset — from u01/l2",
         "letter": "A",
+        "concepts": [
+          "word",
+          "claim"
+        ],
         "kind": "orderset",
         "task": "build-a-sentence",
         "cefr": "C1",
@@ -522,6 +548,9 @@
         "section": 10,
         "sectionTitle": "quiz — from u01/tw",
         "letter": "A",
+        "concepts": [
+          "recall"
+        ],
         "kind": "quiz",
         "task": null,
         "n": 0,
@@ -764,6 +793,11 @@
         "section": 11,
         "sectionTitle": "read — from u01/l5",
         "letter": "A",
+        "concepts": [
+          "read",
+          "comparison",
+          "evidence"
+        ],
         "kind": "read",
         "task": "read-academic-passage",
         "cefr": "C1",
@@ -801,6 +835,23 @@
           ],
           "notes": [
             "fluency: the sense that material is easy, which is not the same as knowing it"
+          ],
+          "glossary": [
+            {
+              "term": "retrieving",
+              "ar": "استرجاع",
+              "def": "bringing something back from memory without looking at it"
+            },
+            {
+              "term": "fluency",
+              "ar": "الطلاقة الظاهرية",
+              "def": "the feeling that material is easy, which is not the same as knowing it"
+            },
+            {
+              "term": "reinforced",
+              "ar": "مُعزّز",
+              "def": "made stronger — what each act of recall does to the path back to a fact"
+            }
           ],
           "source": "Illustrative summary of the retrieval-practice literature, written for this book"
         },
@@ -884,43 +935,15 @@
         ]
       },
 
-      /* read-only — lifted from u01/l1 */
+      /* register-dial — lifted from u02/l2 */
       {
         "id": "b11",
         "section": 12,
-        "sectionTitle": "read-only — from u01/l1",
-        "letter": "A",
-        "kind": "read-only",
-        "task": null,
-        "n": 0,
-        "prompt": "Nine things students do when they study. Two of them feel productive and are not — the rest of this unit is about which.",
-        "text": {
-          "every": 1,
-          "blocks": [
-            {
-              "lines": [
-                "<b>1 re-read</b> — go through the same notes again",
-                "<b>2 highlight</b> — mark the important lines in colour",
-                "<b>3 test yourself</b> — close the book and try to recall",
-                "<b>4 space your sessions</b> — spread the same hours over more days",
-                "<b>5 summarise from memory</b> — write what you remember, then check",
-                "<b>6 explain it aloud</b> — say it to someone who does not know it",
-                "<b>7 interleave</b> — alternate two subjects instead of blocking one",
-                "<b>8 take a break</b> — stop before the point of no return",
-                "<b>9 check what you got wrong</b> — go back to the errors, not the whole chapter"
-              ]
-            }
-          ]
-        },
-        "after": "<p>Keep 1 and 2 in mind. They are the two the research keeps finding against.</p>"
-      },
-
-      /* register-dial — lifted from u02/l2 */
-      {
-        "id": "b12",
-        "section": 13,
         "sectionTitle": "register-dial — from u02/l2",
         "letter": "A",
+        "concepts": [
+          "write"
+        ],
         "kind": "register-dial",
         "task": null,
         "n": 0,
@@ -976,10 +999,13 @@
 
       /* repeat — lifted from u01/l4 */
       {
-        "id": "b13",
-        "section": 14,
+        "id": "b12",
+        "section": 13,
         "sectionTitle": "repeat — from u01/l4",
         "letter": "A",
+        "concepts": [
+          "speak"
+        ],
         "kind": "repeat",
         "task": "listen-and-repeat",
         "cefr": "C1",
@@ -1008,10 +1034,14 @@
 
       /* respond — lifted from u01/l4 */
       {
-        "id": "b14",
-        "section": 15,
+        "id": "b13",
+        "section": 14,
         "sectionTitle": "respond — from u01/l4",
         "letter": "A",
+        "concepts": [
+          "listen",
+          "time"
+        ],
         "kind": "respond",
         "task": "listen-choose-response",
         "cefr": "B2",
@@ -1141,10 +1171,15 @@
 
       /* talk — lifted from u01/oc */
       {
-        "id": "b15",
-        "section": 16,
+        "id": "b14",
+        "section": 15,
         "sectionTitle": "talk — from u01/oc",
         "letter": "A",
+        "concepts": [
+          "listen",
+          "inference",
+          "measurement"
+        ],
         "kind": "talk",
         "task": "listen-academic-talk",
         "cefr": "C1",
@@ -1241,10 +1276,15 @@
 
       /* tfni — lifted from u01/l5 */
       {
-        "id": "b16",
-        "section": 17,
+        "id": "b15",
+        "section": 16,
         "sectionTitle": "tfni — from u01/l5",
         "letter": "A",
+        "carry": "1c",
+        "concepts": [
+          "read",
+          "comparison"
+        ],
         "kind": "tfni",
         "task": "read-daily-life",
         "cefr": "B1",
@@ -1278,10 +1318,13 @@
 
       /* write-email — lifted from u01/tw */
       {
-        "id": "b17",
-        "section": 18,
+        "id": "b16",
+        "section": 17,
         "sectionTitle": "write-email — from u01/tw",
         "letter": "A",
+        "concepts": [
+          "write"
+        ],
         "kind": "write-email",
         "task": "write-an-email",
         "cefr": "C1",

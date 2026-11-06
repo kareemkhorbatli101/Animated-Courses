@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. The last two are the pair this unit is really about.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "incentive", ar: "\u062d\u0627\u0641\u0632",
+            meaning: "a reason to act, built into the rules",
+            with: ["create an incentive", "a perverse incentive", "incentive to report"],
+            why: "<i>Built into the rules</i> is the point. An incentive is not a motive somebody happens to have; it is one the design hands them." },
+          { term: "trade-off", ar: "\u0645\u0641\u0627\u0636\u0644\u0629",
+            meaning: "what you give up to get something else",
+            with: ["a trade-off between", "face a trade-off", "the trade-off is"],
+            why: "Hyphenated as a noun, two words as a verb. Saying there is a trade-off is not a complaint; it is a claim that both sides are real." },
+          { term: "demand", ar: "\u0627\u0644\u0637\u0644\u0628",
+            meaning: "how much people will buy at a given price",
+            with: ["demand falls", "demand for", "high demand"],
+            why: "A whole relationship between price and quantity, not a single amount. <i>Demand rose</i> and <i>the quantity bought rose</i> are different claims." },
+          { term: "supply", ar: "\u0627\u0644\u0639\u0631\u0636",
+            meaning: "how much will be offered at that price",
+            with: ["supply and demand", "short supply", "supply responds"],
+            why: "The mirror of <i>demand</i>, and subject to the same confusion: it is a schedule, not a quantity." },
+          { term: "scheme", ar: "\u062e\u0637\u0651\u0629 / \u0646\u0638\u0627\u0645",
+            meaning: "a designed set of rules and rewards",
+            with: ["a pilot scheme", "under the scheme", "the scheme failed"],
+            why: "Neutral in British academic English, where American English would often say <i>program</i>. No suggestion of scheming." },
+          { term: "verify", ar: "\u064a\u062a\u062d\u0642\u0651\u0642 \u0645\u0646",
+            meaning: "to check that a claimed result is real",
+            with: ["verify the claim", "independently verified", "hard to verify"],
+            why: "The cost of verification is what decides whether a scheme can work. If checking is expensive, the rule will be gamed." },
+          { term: "measure", ar: "\u0645\u0642\u064a\u0627\u0633",
+            meaning: "the number you collect",
+            with: ["a good measure of", "the measure captures", "measure performance"],
+            why: "Half of the pair. A measure is a stand-in for something you care about and cannot count directly." },
+          { term: "target", ar: "\u0647\u062f\u0641 \u0645\u062d\u062f\u0651\u062f",
+            meaning: "the number you are rewarded for hitting",
+            with: ["hit the target", "set a target", "meet the target"],
+            why: "The other half, and the whole unit. When a measure becomes a target, people optimise the number instead of the thing \u2014 and nobody has to lie." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. The last two are the pair this unit is really about.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 incentive</b> — a reason to act, built into the rules",
           "<b>2 trade-off</b> — what you give up to get something else",
@@ -96,8 +130,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The suffix -al", letter: "A",
         concepts: ["read", "measurement", "cause"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>-al</b> turns a noun into an adjective. It is everywhere in economics writing.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "margin", affix: "-al", answer: "marginal",
+
+            why: "A marginal change is the effect of one more unit \u2014 not the total, and the two are constantly confused." },
+
+          { root: "season", affix: "-al", answer: "seasonal",
+
+            why: "A seasonal pattern repeats each year and must be removed before any trend can be read." },
+
+          { root: "institution", affix: "-al", answer: "institutional",
+
+            why: "An institutional incentive belongs to the organisation, not to the individuals inside it." },
+
+          { root: "finance", affix: "-ial", answer: "financial",
+
+            why: "The spelling changes: <i>finance</i> loses its <i>e</i> and takes <i>-ial</i>. <i>Financeal</i> is the form the plain rule predicts." },
+
+          { root: "economy", affix: "-ic", answer: "economic",
+
+            why: "A different suffix for the same job, and this noun will not take <i>-al</i>. <i>Economical</i> exists and means something else: thrifty." },
+
+          { root: "cost", affix: "-ly", answer: "costly",
+
+            why: "<i>-ly</i> usually makes adverbs, but on a noun it makes an adjective. <i>Costal</i> is a word, and it is about ribs." }
+
+        ],
+        prompt: "<b>-al</b> turns a noun into an adjective, and it is everywhere in economics writing. Build each word \u2014 and watch the spelling, because some roots change before it.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>margin → margin<b>al</b> · season → season<b>al</b> · capital · finance → financi<b>al</b> · institution → institution<b>al</b> · nation → nation<b>al</b>.<br>Watch the spelling: <i>finance</i> drops the <i>e</i> and gains an <i>i</i>.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "-AL IN ECONOMICS WRITING",

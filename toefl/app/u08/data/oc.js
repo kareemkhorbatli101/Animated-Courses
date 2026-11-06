@@ -171,8 +171,60 @@
 
       { id: "c", section: 3, sectionTitle: "Report a problem", letter: "A",
         concepts: ["read", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. A problem reported badly becomes two problems.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Say what, how much, and since when \u2014 in that order.",
+
+            say: "Say what, how much, and since when, in that order.",
+
+            when: "The first sentence of any report of a fault.",
+
+            why: "Three facts the other person needs before they can think at all. In that order, because each one narrows what the next could mean." },
+
+          { text: "Say what is now in doubt because of it.",
+
+            say: "Say what is now in doubt because of it.",
+
+            when: "Immediately after the fault itself.",
+
+            why: "The line people leave out. A supervisor needs the consequence more than the symptom, because the consequence is what they have to act on." },
+
+          { text: "Say what you have and have not already done.",
+
+            say: "Say what you have and have not already done.",
+
+            when: "Last, before they ask.",
+
+            why: "It prevents the two worst outcomes: the same check done twice, and a step everyone assumed somebody else had taken." },
+
+          { text: "The incubator\u0027s been running about two degrees warm, since Tuesday.",
+
+            say: "The incubator has been running about two degrees warm, since Tuesday.",
+
+            when: "Opening a report.",
+
+            why: "What, how much, since when, in eleven words. The present perfect continuous says it is still happening, which <i>ran warm</i> would not." },
+
+          { text: "That means anything cultured in it this week is unreliable.",
+
+            say: "That means anything cultured in it this week is unreliable.",
+
+            when: "Second, always.",
+
+            why: "The consequence, stated before anyone has to ask for it. This is the sentence that decides what happens next." },
+
+          { text: "I haven\u0027t told the other groups yet \u2014 I wanted to check the display first.",
+
+            say: "I have not told the other groups yet. I wanted to check the display first.",
+
+            when: "Closing the report.",
+
+            why: "What you have not done, and why. It hands the decision over cleanly instead of leaving it ambiguous who is telling whom." }
+
+        ],
+        prompt: "A problem reported badly becomes two problems. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>It's been doing this since…</i><i>It didn't use to…</i><i>I haven't told anyone else yet.</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO REPORT A PROBLEM",
@@ -212,8 +264,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Report a problem", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "f1", label: "The bare symptom",
+
+            detail: "Ali reports that the incubator is warm. His supervisor asks three questions to find out what that means for the week\u0027s work." },
+
+          { id: "f2", label: "The wait",
+
+            detail: "Rita notices the fault on Tuesday and reports it on Friday, by which time three more groups have used the machine." },
+
+          { id: "f3", label: "The double check",
+
+            detail: "Two students each assume the other has told the technician. Nobody has, and the repair is not booked." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>A fault reported without its consequence is a symptom.</b>", caseId: "f1",
+
+            why: "Ali reported a temperature. What his supervisor needed was that a week of cultures is now in doubt \u2014 the thing decisions get made about." },
+
+          { text: "<b>The supervisor cannot act on a symptom, so they will ask,</b>", caseId: "f3",
+
+            why: "Saying what you have and have not done is the half that prevents this. Two people each assuming the other acted is the commonest way a reported fault goes unrepaired." },
+
+          { text: "<b>and you will have lost a day.</b>", caseId: "f2",
+
+            why: "Rita lost three. The cost of a late report is everything that happens in the gap, and it is paid by people who did nothing wrong." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three reports about to cost somebody a day. Drag each part onto the one it would fix.",
         text: { blocks: [{ lines: [
           "A fault reported without its consequence is a symptom. The supervisor cannot act on a symptom, so they will ask, and you will have lost a day."
         ],

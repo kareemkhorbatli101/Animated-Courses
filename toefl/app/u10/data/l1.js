@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. Four end in <b>-ment</b>, this unit's suffix, and they are all abstract nouns made from verbs.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "judgment", ar: "\u062d\u064f\u0643\u0645",
+            meaning: "a decision reached by weighing things",
+            with: ["exercise judgment", "a matter of judgment", "in my judgment"],
+            why: "A judgment may be wrong without being unreasonable, which is what makes it a judgment rather than a calculation. British English also spells it <i>judgement</i>." },
+          { term: "enforcement", ar: "\u0625\u0646\u0641\u0627\u0630",
+            meaning: "making a rule actually bind",
+            with: ["strict enforcement", "enforcement of the rule", "enforce the law"],
+            why: "What turns a rule into a constraint. An unenforced rule is a statement of preference, however it is written." },
+          { term: "entitlement", ar: "\u0627\u0633\u062a\u062d\u0642\u0627\u0642",
+            meaning: "something you may claim as of right",
+            with: ["a legal entitlement", "entitled to", "entitlement to"],
+            why: "A claim you need not justify, which is exactly what makes the word contested: saying something is an entitlement ends an argument by fiat." },
+          { term: "argument", ar: "\u062d\u062c\u0651\u0629",
+            meaning: "a case made with reasons",
+            with: ["a strong argument", "the argument for", "advance an argument"],
+            why: "Not a quarrel, in this register. The <i>e</i> of <i>argue</i> disappears, which is one of the two spellings this lesson asks you to learn." },
+          { term: "consent", ar: "\u0645\u0648\u0627\u0641\u0642\u0629",
+            meaning: "agreement freely given",
+            with: ["informed consent", "without consent", "give consent"],
+            why: "<i>Freely</i> does all the work. Agreement under threat has the form of consent and none of its force." },
+          { term: "obligation", ar: "\u0627\u0644\u062a\u0632\u0627\u0645",
+            meaning: "something you are bound to do",
+            with: ["a moral obligation", "under an obligation", "obligation to"],
+            why: "The mirror of <i>entitlement</i>: one person\u0027s entitlement is usually somebody else\u0027s obligation, and the two words name the same relation from opposite ends." },
+          { term: "civil disobedience", ar: "\u0627\u0644\u0639\u0635\u064a\u0627\u0646 \u0627\u0644\u0645\u062f\u0646\u064a",
+            meaning: "open rule-breaking that accepts the penalty",
+            with: ["an act of civil disobedience", "engage in civil disobedience", "civil disobedience is"],
+            why: "<i>Open</i> and <i>accepts the penalty</i> are the whole definition. Hide either and it stops being this and becomes the next word." },
+          { term: "evasion", ar: "\u062a\u0647\u0631\u0651\u0628",
+            meaning: "quiet rule-breaking that does not",
+            with: ["tax evasion", "evasion of", "evade the rule"],
+            why: "The same act without the audience and without the cost. The talk argues that is where the entire moral difference sits." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. Hold the last two apart \u2014 the talk in On Campus argues that the whole moral difference lies between them.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 judgment</b> — a decision reached by weighing things",
           "<b>2 enforcement</b> — making a rule actually bind",
@@ -95,8 +129,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The suffix -ment", letter: "A",
         concepts: ["read", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>-ment</b> turns a verb into a noun naming the act or its result.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "enforce", affix: "-ment", answer: "enforcement",
+
+            why: "The plain case: nothing changes, the suffix simply attaches." },
+
+          { root: "argue", affix: "-ment", answer: "argument",
+
+            why: "The first spelling to learn: <i>argue</i> loses its <i>e</i>. <i>Arguement</i> is one of the commonest misspellings in English." },
+
+          { root: "judge", affix: "-ment", answer: "judgment",
+
+            why: "The second: the <i>e</i> may go or stay. <i>Judgment</i> is standard in law, <i>judgement</i> elsewhere in British English, and both are defensible." },
+
+          { root: "entitle", affix: "-ment", answer: "entitlement",
+
+            why: "Here the <i>e</i> stays, because it is doing work: <i>entitlment</i> would lose the sound of the syllable." },
+
+          { root: "oblige", affix: "-ation", answer: "obligation",
+
+            why: "Not every act noun takes <i>-ment</i>. This verb takes <i>-ation</i> and changes its stem, and no rule predicts that." },
+
+          { root: "evade", affix: "-sion", answer: "evasion",
+
+            why: "A third pattern again, with a consonant change: <i>-de</i> becomes <i>-sion</i>, as in <i>decide</i> and <i>decision</i>." }
+
+        ],
+        prompt: "<b>-ment</b> turns a verb into a noun naming the act or its result. Build each one \u2014 two of them change spelling, and the other suffixes are here to make the choice real.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>enforce → enforce<b>ment</b> · argue → argu<b>ment</b> · entitle → entitle<b>ment</b> · judge → judg<b>ment</b> · assess → assess<b>ment</b>.<br>Two spellings to learn: <i>argue</i> loses its <i>e</i>, and <i>judgment</i> is written without one in legal English (<i>judgement</i> is also correct in general use).</p>" },
         text: { every: 1, mastColor: "blue", masthead: "-MENT IN LEGAL AND MORAL WRITING",

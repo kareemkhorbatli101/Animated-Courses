@@ -71,8 +71,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "recovered", ar: "\u0645\u064f\u0633\u062a\u0631\u062c\u064e\u0639",
+            meaning: "found again in the repetition",
+            with: ["the effect was recovered", "recovered in replication", "not recovered"],
+            why: "A technical use: an effect is recovered when a second study finds it too. It says nothing about whether the first study was done badly." },
+          { term: "warranted", ar: "\u0645\u0628\u0631\u0651\u0631",
+            meaning: "justified \u2014 what the evidence entitles you to say",
+            with: ["not warranted", "a warranted conclusion", "warranted by the data"],
+            why: "The quietest and most important word here. It separates what is true from what you have earned the right to assert, and most overclaiming lives in that gap." },
+          { term: "procedural", ar: "\u0625\u062c\u0631\u0627\u0626\u064a",
+            meaning: "to do with how things are done, not what is believed",
+            with: ["a procedural problem", "procedural rather than", "procedural safeguards"],
+            why: "The article\u0027s diagnosis: the trouble is procedural, in what the system rewards, not in anyone\u0027s beliefs or honesty." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the second is the article\u0027s quietest and most important word.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>recovered</span> (adj) found again in the repetition",
           "<span class='gloss'>warranted</span> (v) justified — what the evidence entitles you to say",
@@ -343,8 +357,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one chart, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "r1", label: "The single striking result",
+
+            detail: "Hadil reads one study with a surprising finding and treats it as established because it was peer reviewed." },
+
+          { id: "r2", label: "The blame",
+
+            detail: "Wael concludes that researchers must be careless or dishonest, since so many findings do not hold up." },
+
+          { id: "r3", label: "The missing question",
+
+            detail: "Ruba has a well-written paper in front of her and no idea whether anyone has ever tried to repeat it." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What the projects found</b> \u2014 fewer than half the effects reappeared.", caseId: "r1",
+
+            why: "Peer review checks whether a study was reported plausibly. Whether the result is real is a different question, and only repetition answers it." },
+
+          { text: "<b>Why that persists</b> \u2014 nothing in the system pays anyone to check.", caseId: "r2",
+
+            why: "A procedural diagnosis, not a moral one. Journals want novelty and careers reward it; a replication is expensive, unglamorous and nobody\u0027s job." },
+
+          { text: "<b>What to ask of a single study</b> \u2014 has anybody else tried this, and what happened?", caseId: "r3",
+
+            why: "One question that puts a paper in its context. A finding nobody has retested is not wrong; it is simply not yet known to be right." }
+
+        ],
+        prompt: "Two articles, one chart, one habit \u2014 in three parts. Drag each part onto the reader it would change.",
         text: { blocks: [{ lines: [
           "<b>What the projects found</b> — fewer than half the effects reappeared.",
           "<b>Why that persists</b> — nothing in the system pays anyone to check.",

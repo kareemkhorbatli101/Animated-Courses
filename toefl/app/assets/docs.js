@@ -165,17 +165,12 @@
     };
   });
 
-  /* The reading alone, as a preview/read step with no items to grade. */
-  D.register("read-only", function (stage, spec, api) {
-    var cols = E("div", "cols");
-    var left = E("div");
-    left.appendChild(reading(spec.text));
-    cols.appendChild(left);
-    if (spec.note) { var n = api.note(spec.note); if (n) cols.appendChild(n); }
-    stage.appendChild(cols);
-    return function () {
-      return { ok: true, total: 1, verdict: "Read",
-               html: spec.after || "<p>Now go on to the questions.</p>" };
-    };
-  });
+  /* The `read-only` renderer is gone.
+
+     It rendered a passage with nothing to answer, and 91 scenes used it.
+     All 91 are now exercises, so the kind is removed from the registry
+     rather than left available: a renderer that still exists is a
+     renderer somebody will reach for, and the gate below refuses the kind
+     outright so the book cannot quietly acquire another one. */
+
 })(window, document);

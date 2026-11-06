@@ -1,6 +1,6 @@
 {
- "at": "2026-11-06T20:36:01.190Z",
- "scenes": 792,
+ "at": "2026-11-06T21:02:30.174Z",
+ "scenes": 791,
  "passed": [
   "dev/lab/match",
   "dev/lab/match2",
@@ -39,7 +39,6 @@
   "dev/lab2/b14",
   "dev/lab2/b15",
   "dev/lab2/b16",
-  "dev/lab2/b17",
   "u01/l1/1a",
   "u01/l1/1b",
   "u01/l1/1c",

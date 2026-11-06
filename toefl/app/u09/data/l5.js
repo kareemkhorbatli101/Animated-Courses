@@ -72,8 +72,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "suppressed", ar: "\u0645\u064f\u0643\u0628\u0648\u062a / \u0645\u0643\u0628\u0648\u062d",
+            meaning: "held back, and able to reappear if the obstacle goes",
+            with: ["suppressed demand", "suppressed by", "previously suppressed"],
+            why: "The hinge. Suppressed is not absent: the journeys existed as wishes all along, and removing the deterrent released them." },
+          { term: "instrument", ar: "\u0623\u062f\u0627\u0629 \u0633\u064a\u0627\u0633\u0627\u062a\u064a\u0629",
+            meaning: "a tool of policy \u2014 a price, a rule, a service",
+            with: ["a policy instrument", "the right instrument", "instruments available"],
+            why: "A technical sense of an ordinary word. Asking which instrument a policy uses is asking what it actually changes." },
+          { term: "calculation", ar: "\u062d\u0633\u0628\u0629 / \u0645\u0648\u0627\u0632\u0646\u0629",
+            meaning: "the weighing-up a person does before acting",
+            with: ["change the calculation", "the traveller\u0027s calculation", "a simple calculation"],
+            why: "Not arithmetic. An instrument works only if it changes this, which is why adding a lane and charging a pound do such different things." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the first is the hinge of the mechanism.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>suppressed</span> (adj) held back, and able to reappear if the obstacle goes",
           "<span class='gloss'>instrument</span> (n) a tool of policy — a price, a rule, a service",
@@ -346,8 +360,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "comparison", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one comparison table, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "c1", label: "The new lane",
+
+            detail: "Hamza reports that the widened road was congested again within two years and concludes the work was done badly." },
+
+          { id: "c2", label: "The appraisal",
+
+            detail: "Sahar uses a model that values time saved by existing traffic and finds, every time, that the best option is another road." },
+
+          { id: "c3", label: "The confident number",
+
+            detail: "Nabil quotes average journey times from a corridor survey and has not asked who was surveyed." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Why the road filled</b> \u2014 removing the deterrent released the journeys it was deterring.", caseId: "c1",
+
+            why: "Nothing was done badly. The congestion was holding journeys back; the new lane removed the thing holding them back, and they arrived." },
+
+          { text: "<b>Why the measure keeps recommending roads</b> \u2014 it counts only journeys that already happen.", caseId: "c2",
+
+            why: "A model that cannot see induced demand cannot see the main effect of the thing it is appraising, so its answer is decided before the question is asked." },
+
+          { text: "<b>What to ask</b> \u2014 who is not in this number, and why not?", caseId: "c3",
+
+            why: "A corridor survey counts the people who travelled. The people the congestion deterred are exactly the ones missing, and exactly the ones who will appear if it is relieved." }
+
+        ],
+        prompt: "Two articles, one comparison table, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>Why the road filled</b> — removing the deterrent released the journeys it was deterring.",
           "<b>Why the measure keeps recommending roads</b> — it counts only journeys that already happen.",

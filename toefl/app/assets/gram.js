@@ -125,27 +125,46 @@
     return box;
   }
 
-  /* ================================ F21 — stress made visible ========== */
-  /* Unit 12 describes a difference of stress the learner cannot hear,
-     because the speech engine will not move the stress on request. Showing
-     which syllable carries it, and saying the syllables apart, is the
-     honest version of that lesson. */
-  function stressMark(host, word, stressIndex) {
-    var parts = String(word).split(/[-·]/);
-    if (parts.length < 2) return null;
-    var wrap = E("span", "gr-stress");
-    parts.forEach(function (p, i) {
-      var sp = E("span", i === stressIndex ? "gr-syl gr-syl-on" : "gr-syl", esc(p));
-      wrap.appendChild(sp);
-      if (i < parts.length - 1) wrap.appendChild(E("span", "gr-syl-dot", "·"));
+  /* ================================ F21 — stress made visible ========= */
+  /* The noun/verb pairs differ only in which syllable carries the stress,
+     and that is the one thing a printed sentence does not show. The data
+     marks the syllables with a middle dot and capitalises the stressed one
+     (RE\u00b7cord, re\u00b7CORD\u00b7ed); this turns that into something you can
+     see at a glance and hear on demand.
+
+     The speech engine will not move stress on request, so the button says
+     the word in isolation, where the engine\u0027s own stress is usually
+     right, rather than pretending to demonstrate a contrast it cannot. */
+  function marked(text) {
+    return /\u00b7/.test(String(text));
+  }
+  function renderStress(host, text) {
+    var out = E("span", "gr-stressline");
+    String(text).split(/(\s+)/).forEach(function (word) {
+      if (!/\u00b7/.test(word)) { out.appendChild(doc.createTextNode(word)); return; }
+      var wrap = E("span", "gr-stress");
+      var parts = word.split("\u00b7");
+      parts.forEach(function (p, i) {
+        /* the stressed syllable is the one written in capitals */
+        var on = /^[A-Z]{2,}$/.test(p.replace(/[^A-Za-z]/g, ""));
+        wrap.appendChild(E("span", on ? "gr-syl gr-syl-on" : "gr-syl", esc(p)));
+        if (i < parts.length - 1) wrap.appendChild(E("span", "gr-syl-dot", "\u00b7"));
+      });
+      out.appendChild(wrap);
     });
-    host.appendChild(wrap);
-    return wrap;
+    host.appendChild(out);
+    return out;
+  }
+  /* the word a stress-marked line is about, with the dots and case removed */
+  function stressWord(text) {
+    var m = /(\S*\u00b7\S*)/.exec(String(text));
+    if (!m) return "";
+    return m[1].replace(/\u00b7/g, "").replace(/[^A-Za-z]/g, "").toLowerCase();
   }
 
   root.Gram = {
     animateFix: animateFix, ruleCard: ruleCard,
     colourTiles: colourTiles, jobKey: jobKey, explainExtra: explainExtra,
-    stressMark: stressMark, JOBS: JOBS
+    renderStress: renderStress, stressWord: stressWord, marked: marked, JOBS: JOBS
   };
 })(window, document);

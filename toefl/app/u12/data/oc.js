@@ -173,8 +173,60 @@
 
       { id: "c", section: 3, sectionTitle: "Help someone understand", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. Explaining well begins with finding out what was actually lost.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Find out where they stopped following, before explaining anything.",
+
+            say: "Find out where they stopped following, before explaining anything.",
+
+            when: "Before your first word of explanation.",
+
+            why: "Explaining from the start wastes the part they had and misses the part they lost. One question locates both." },
+
+          { text: "Give the checkable thing first, the interpretation second.",
+
+            say: "Give the checkable thing first, the interpretation second.",
+
+            when: "Whenever you are explaining a claim about a work.",
+
+            why: "The order of this whole unit. What is on the screen can be confirmed; what it means cannot, and taking them in the wrong order hides the join." },
+
+          { text: "Ask them to say it back.",
+
+            say: "Ask them to say it back.",
+
+            when: "At the end, every time.",
+
+            why: "The only real test. If they can say it differently they have it; if they can only repeat your words they do not \u2014 which is Unit 6\u0027s lesson arriving again." },
+
+          { text: "Which part lost you \u2014 what happens, or what the critic says about it?",
+
+            say: "Which part lost you: what happens, or what the critic says about it?",
+
+            when: "Opening, when the confusion could be about either.",
+
+            why: "Offers two candidates rather than an open question, which is far easier to answer when you are already lost." },
+
+          { text: "Here\u0027s what\u0027s on the screen. Here\u0027s what he\u0027s claiming about it.",
+
+            say: "Here is what is on the screen. Here is what he is claiming about it.",
+
+            when: "The moment you start the explanation itself.",
+
+            why: "Two sentences that separate observation from interpretation out loud. The listener can now agree with one and not the other." },
+
+          { text: "Can you put that back to me in your own words?",
+
+            say: "Can you put that back to me in your own words?",
+
+            when: "Closing, before you both move on.",
+
+            why: "<i>In your own words</i> is the whole request. Repeating yours proves hearing; theirs is the first evidence either of you has of understanding." }
+
+        ],
+        prompt: "Explaining well begins with finding out what was actually lost. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>Which bit lost you?</i><i>Shall I go back a step?</i><i>Tell me what you did follow.</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO HELP SOMEONE UNDERSTAND",
@@ -214,8 +266,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Help someone understand", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "The last sentence in the book.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "l1", label: "The agreeing reader",
+
+            detail: "Dina finishes a persuasive article convinced, and has not noticed she was persuaded by its ordering rather than its evidence." },
+
+          { id: "l2", label: "The disagreeing reader",
+
+            detail: "Faris disagrees strongly and cannot name anything the author could have shown him that would have changed that." },
+
+          { id: "l3", label: "The reader with a method",
+
+            detail: "Maya reads the same article, names the two observations she accepts and the interpretation she does not, and says what would settle it." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Twelve units, and one question underneath all of them:</b>", caseId: "l3",
+
+            why: "Maya is doing what the book has been building: separating the checkable from the claimed, and stating her condition. Every unit has been one version of this." },
+
+          { text: "<b>what would I have to see</b>", caseId: "l1",
+
+            why: "Dina agreed without ever naming what would have been enough. Agreement reached without that question is no better evidenced than disagreement reached without it." },
+
+          { text: "<b>in order to agree with this?</b>", caseId: "l2",
+
+            why: "Faris has a position and no condition, which is where Units 3 and 10 both ended up: an objection nobody can meet is an objection nobody has to take seriously." }
+
+        ],
+        prompt: "The last sentence in the book \u2014 and three readers at the end of an article. Drag each part onto the one it would change.",
         text: { blocks: [{ lines: [
           "Twelve units, and one question underneath all of them: what would I have to see in order to agree with this?"
         ],

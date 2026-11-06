@@ -69,8 +69,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "detach", ar: "\u064a\u0646\u0641\u0635\u0644 / \u064a\u0641\u0635\u0644",
+            meaning: "to come away from something it was joined to",
+            with: ["detach from", "become detached", "a detached measure"],
+            why: "In this article a measure detaches from the thing it was meant to track \u2014 still being collected, no longer about anything." },
+          { term: "verify", ar: "\u064a\u062a\u062d\u0642\u0651\u0642 \u0645\u0646",
+            meaning: "to check that a claim is actually true",
+            with: ["verify independently", "difficult to verify", "verify the figure"],
+            why: "The hinge of the argument: a rule that cannot be verified cheaply will be met in letter rather than in substance." },
+          { term: "substantively", ar: "\u062c\u0648\u0647\u0631\u064a\u064b\u0627",
+            meaning: "in terms of what really matters, as against the letter",
+            with: ["substantively different", "comply substantively", "substantively the same"],
+            why: "The heavy lifting in the final sentence. Complying with the letter and complying substantively are the two halves of this unit." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the last is doing the heavy lifting in the final sentence.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>detach</span> (v) to come away from something it was joined to",
           "<span class='gloss'>verify</span> (v) to check that a claim is actually true",
@@ -341,8 +355,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "comparison", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one chart, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "t1", label: "The waiting-time target",
+
+            detail: "A hospital is measured on how many patients are seen within four hours. Nobody falsifies anything, and the four-hour figure improves every year." },
+
+          { id: "t2", label: "The flat charge",
+
+            detail: "A five-pound charge applies to every driver entering the centre. The council reports that it has been applied equally." },
+
+          { id: "t3", label: "The rule nobody explains",
+
+            detail: "Samir is told a form must be countersigned and cannot find out why, so he cannot tell which parts of it matter." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What goes wrong</b> \u2014 the measure becomes the target, and nobody has to lie.", caseId: "t1",
+
+            why: "Everything reported is true. Attention moves to the patients near the four-hour line, and the ones far from it get less of it. The number improves and the thing it stood for does not." },
+
+          { text: "<b>Who pays</b> \u2014 the same sum is a prohibition for one household and a fee for another.", caseId: "t2",
+
+            why: "Applied equally is not experienced equally. A flat charge is a different instrument at different incomes, and reporting the sum hides that entirely." },
+
+          { text: "<b>What to ask</b> \u2014 who set this rule, and what were they trying to achieve?", caseId: "t3",
+
+            why: "The question that turns a rule back into a purpose. Knowing what it was for tells you which parts are load-bearing and which are habit." }
+
+        ],
+        prompt: "Two articles, one chart, one habit \u2014 in three parts. Drag each part onto the person it would change.",
         text: { blocks: [{ lines: [
           "<b>What goes wrong</b> — the measure becomes the target, and nobody has to lie.",
           "<b>Who pays</b> — the same sum is a prohibition for one household and a fee for another.",

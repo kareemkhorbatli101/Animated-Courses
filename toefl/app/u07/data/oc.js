@@ -174,8 +174,60 @@
 
       { id: "c", section: 3, sectionTitle: "Ask a procedural question", letter: "A",
         concepts: ["read", "time"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. At an office, the quality of the answer depends almost entirely on the shape of the question.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Ask what happens, not whether it is allowed.",
+
+            say: "Ask what happens, not whether it is allowed.",
+
+            when: "Always, and especially when you suspect the answer is no.",
+
+            why: "<i>What happens if</i> gets you the rule. <i>Am I allowed</i> gets you whatever the person in front of you believes about the rule, which is not the same thing." },
+
+          { text: "Ask for the deadline and the documents in the same breath.",
+
+            say: "Ask for the deadline and the documents in the same breath.",
+
+            when: "At the first mention of any form or application.",
+
+            why: "Two questions in one turn, so you leave with a complete picture instead of coming back tomorrow for the half you forgot." },
+
+          { text: "Ask what the fallback is, before you need it.",
+
+            say: "Ask what the fallback is, before you need it.",
+
+            when: "While nothing has yet gone wrong.",
+
+            why: "The cheapest moment to ask about an appeal is when you are not appealing. Asked later it sounds like a complaint." },
+
+          { text: "What happens if I can\u0027t get here before the fifteenth?",
+
+            say: "What happens if I cannot get here before the fifteenth?",
+
+            when: "When you may miss a deadline and want the real consequence.",
+
+            why: "Asks for the rule rather than for permission, and gives the other person something concrete to look up." },
+
+          { text: "What do I need to bring, and is there a deadline for the form?",
+
+            say: "What do I need to bring, and is there a deadline for the form?",
+
+            when: "Before any first visit.",
+
+            why: "Documents and deadline together. These are the two things that send people away and back again, and they cost one sentence to settle." },
+
+          { text: "If I miss it, is there a way to appeal \u2014 and how long does that take?",
+
+            say: "If I miss it, is there a way to appeal, and how long does that take?",
+
+            when: "At the end, as a matter of routine.",
+
+            why: "Asks for the fallback and its timing. Knowing an appeal takes six weeks changes what you do today." }
+
+        ],
+        prompt: "At an office, the quality of the answer depends almost entirely on the shape of the question. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>What happens if I…?</i><i>Is there a deadline for that?</i><i>What do I need to bring?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT A PROCEDURAL ANSWER",
@@ -215,8 +267,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Ask a procedural question", letter: "C",
         concepts: ["read", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "q1", label: "The permission seeker",
+
+            detail: "Amira asks whether she is allowed to submit late. She is told no and leaves, without learning that late submission carries a small penalty and is routine." },
+
+          { id: "q2", label: "The confident answer",
+
+            detail: "Jad is told firmly that the form cannot be accepted without a stamp. The stamp requirement was dropped last year." },
+
+          { id: "q3", label: "The right question",
+
+            detail: "Layla asks what happens if she submits on the sixteenth, and gets the penalty, the appeal route and the deadline in one answer." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Ask what happens, not whether you may.</b>", caseId: "q1",
+
+            why: "Amira asked a yes-or-no question and got a no. The rule she needed \u2014 that late submission is possible and costs little \u2014 was never in reach of the question she asked." },
+
+          { text: "<b>The first question gets you the rule;</b>", caseId: "q3",
+
+            why: "Layla asked about consequences and received the procedure itself, which she can now check and act on without relying on anyone\u0027s memory." },
+
+          { text: "<b>the second gets you whatever the person in front of you believes about it.</b>", caseId: "q2",
+
+            why: "Jad met confidence, not accuracy. A question about permission can only ever return a belief; a question about consequences points at something written down." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three people at a counter. Drag each part onto the one it would help.",
         text: { blocks: [{ lines: [
           "Ask what happens, not whether you may. The first question gets you the rule; the second gets you whatever the person in front of you believes about it."
         ],

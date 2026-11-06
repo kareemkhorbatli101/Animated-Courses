@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. Several end in <b>-er</b> or <b>-or</b>, which is this unit's suffix and no accident: this subject is full of agents.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "commuter", ar: "\u0645\u064f\u0633\u0627\u0641\u0631 \u064a\u0648\u0645\u064a\u064b\u0627",
+            meaning: "someone who travels regularly to work or study",
+            with: ["daily commuter", "commuter traffic", "the commuter belt"],
+            why: "An agent noun in <i>-er</i> from <i>commute</i>, and the regularity is in the word: a single journey does not make you one." },
+          { term: "corridor", ar: "\u0645\u0645\u0631\u0651 / \u0645\u062d\u0648\u0631 \u062d\u0631\u0643\u0629",
+            meaning: "a route along which movement concentrates",
+            with: ["a transport corridor", "along the corridor", "the main corridor"],
+            why: "Not a corridor in a building. In this subject it is a band of land that movement follows, and it takes <i>-or</i> for no reason anyone can state." },
+          { term: "capacity", ar: "\u0627\u0644\u0637\u0627\u0642\u0629 \u0627\u0644\u0627\u0633\u062a\u064a\u0639\u0627\u0628\u064a\u0629",
+            meaning: "how much a road or line can carry",
+            with: ["at capacity", "increase capacity", "spare capacity"],
+            why: "The quantity the whole article is about: common sense says more of it cures congestion, and the evidence says otherwise." },
+          { term: "congestion", ar: "\u0627\u0632\u062f\u062d\u0627\u0645",
+            meaning: "what happens when demand exceeds it",
+            with: ["heavy congestion", "relieve congestion", "congestion charge"],
+            why: "A relation between two quantities, not a property of a road. The same road is congested at eight and empty at eleven." },
+          { term: "deterrent", ar: "\u0631\u0627\u062f\u0639",
+            meaning: "something that puts people off making a journey",
+            with: ["act as a deterrent", "a strong deterrent", "the deterrent effect"],
+            why: "<i>-ent</i>, a third agent pattern that simply has to be remembered. Congestion is itself a deterrent, which is the mechanism the article turns on." },
+          { term: "indicator", ar: "\u0645\u0624\u0634\u0651\u0631",
+            meaning: "a measure used to stand for something larger",
+            with: ["a key indicator", "the indicator rose", "indicators of"],
+            why: "<i>-or</i>, and not a person: the suffix does not care whether an agent is human. An indicator stands in for what you cannot count directly." },
+          { term: "regulator", ar: "\u0627\u0644\u062c\u0647\u0629 \u0627\u0644\u0645\u064f\u0646\u0638\u0651\u0645\u0629",
+            meaning: "the body that sets the rules",
+            with: ["the industry regulator", "regulatory approval", "the regulator ruled"],
+            why: "The regulator sets the rules; the operator runs the service under them. Two <i>-or</i> agents, carefully distinguished." },
+          { term: "induced demand", ar: "\u0637\u0644\u0628 \u0645\u064f\u062d\u062f\u064e\u062b",
+            meaning: "travel that appears because the capacity did",
+            with: ["induced demand effect", "demand was induced", "account for induced demand"],
+            why: "The article\u0027s subject. The journeys were always wanted; the congestion was suppressing them, and the new lane released them." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. The last one is the article\u0027s subject, and it undoes the common sense of the third.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 commuter</b> — someone who travels regularly to work or study",
           "<b>2 corridor</b> — a route along which movement concentrates",
@@ -98,8 +132,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The suffixes -er and -or", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>-er</b> and <b>-or</b> both make an agent noun — the one who or the thing which. There is no rule; the spelling is simply learned.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "commute", affix: "-er", answer: "commuter",
+
+            why: "<i>-er</i>, and a person. English verbs of Germanic origin tend to take it, which is a tendency rather than a rule." },
+
+          { root: "plan", affix: "-er", answer: "planner",
+
+            why: "The <i>n</i> doubles: a single stressed syllable ending in one consonant doubles it before a vowel suffix." },
+
+          { root: "regulate", affix: "-or", answer: "regulator",
+
+            why: "<i>-or</i>, and the <i>e</i> of <i>regulate</i> goes. Verbs ending in <i>-ate</i> take <i>-or</i> with striking consistency." },
+
+          { root: "indicate", affix: "-or", answer: "indicator",
+
+            why: "Same pattern, and not a person. The suffix does not care whether the agent is human." },
+
+          { root: "deter", affix: "-rent", answer: "deterrent",
+
+            why: "A third pattern entirely, with a doubled <i>r</i>. <i>Deterer</i> is what the first rule would give, and it is not a word." },
+
+          { root: "advise", affix: "-er", answer: "adviser",
+
+            why: "The odd one: <i>adviser</i> and <i>advisor</i> are both correct. Two spellings for one word is unusual enough to be worth knowing." }
+
+        ],
+        prompt: "<b>-er</b> and <b>-or</b> both make an agent noun \u2014 the one who, or the thing which. There is no rule and the spelling is simply learned, so build these and note which is which.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p><b>-er</b> commute → commut<b>er</b> · plan → plann<b>er</b> · employ → employ<b>er</b><br><b>-or</b> regulate → regulat<b>or</b> · indicate → indicat<b>or</b> · operate → operat<b>or</b><br>Verbs ending <i>-ate</i> almost always take <b>-or</b>. That is the nearest thing to a rule there is.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "AGENTS, HUMAN AND OTHERWISE",

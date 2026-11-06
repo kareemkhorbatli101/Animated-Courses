@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "measurement", "sample"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. Numbers 7 and 8 are the pair that decides whether a published rate means anything.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "outbreak", ar: "\u062a\u0641\u0634\u0651\u064d",
+            meaning: "a sudden rise in cases in one place",
+            with: ["an outbreak of", "contain the outbreak", "the outbreak began"],
+            why: "Local and sudden. An outbreak is defined against what is normal for that place, so the same number can be an outbreak in one city and routine in another." },
+          { term: "transmission", ar: "\u0627\u0646\u062a\u0642\u0627\u0644 \u0627\u0644\u0639\u062f\u0648\u0649",
+            meaning: "the passing of infection from one person to another",
+            with: ["interrupt transmission", "transmission rate", "airborne transmission"],
+            why: "Another <i>-tion</i> process noun. Interrupting transmission, rather than curing cases, is what ends most epidemics." },
+          { term: "immunity", ar: "\u0645\u0646\u0627\u0639\u0629",
+            meaning: "protection acquired by infection or vaccination",
+            with: ["acquire immunity", "immunity wanes", "population immunity"],
+            why: "Acquired, and often temporary. <i>Wanes</i> is the verb that goes with it, which is why reinfection is possible at all." },
+          { term: "sanitation", ar: "\u0627\u0644\u0635\u0631\u0641 \u0627\u0644\u0635\u062d\u0651\u064a",
+            meaning: "the removal of waste and the supply of clean water",
+            with: ["improved sanitation", "basic sanitation", "sanitation and housing"],
+            why: "Unglamorous and decisive. It is the main character of the Lesson 5 article, and it is not medicine." },
+          { term: "mortality", ar: "\u0627\u0644\u0648\u0641\u064a\u0627\u062a",
+            meaning: "death, as a measured quantity",
+            with: ["infant mortality", "mortality fell", "the mortality rate"],
+            why: "Always a measure, never an event: you can say mortality fell, but not that a person suffered a mortality." },
+          { term: "intervention", ar: "\u062a\u062f\u062e\u0651\u0644",
+            meaning: "anything deliberately done to change the course of a disease",
+            with: ["a public health intervention", "the intervention worked", "intervene early"],
+            why: "Deliberately is the whole word. A drug, a pipe and a law are all interventions; a good harvest is not." },
+          { term: "numerator", ar: "\u0627\u0644\u0628\u0633\u0637",
+            meaning: "the number on top: here, the deaths",
+            with: ["the numerator counts", "a reliable numerator", "numerator and denominator"],
+            why: "Usually the easier half to count, because deaths are recorded and mild cases are not." },
+          { term: "denominator", ar: "\u0627\u0644\u0645\u0642\u0627\u0645",
+            meaning: "the number underneath: here, the cases you know about",
+            with: ["the denominator is uncertain", "a shifting denominator", "out of how many"],
+            why: "The one that moves, and the one the talk is about. A fatality rate can halve with no change in the disease if the denominator doubles." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. The last two are the pair that decides whether a published rate means anything.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 outbreak</b> — a sudden rise in cases in one place",
           "<b>2 transmission</b> — the passing of infection from one person to another",
@@ -96,8 +130,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The prefix re-", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>re-</b> means <i>again</i> or <i>back</i>. In this subject it is everywhere, because disease is a thing that returns.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "infect", affix: "re-", answer: "reinfect",
+
+            why: "To catch it a second time \u2014 which is what immunity is supposed to prevent, and sometimes does not." },
+
+          { root: "currence", affix: "re-", answer: "recurrence",
+
+            why: "The disease returning in the same patient. Two <i>r</i>s, because the root begins with one." },
+
+          { root: "sistant", affix: "re-", answer: "resistant",
+
+            why: "Here <i>re-</i> is <i>back</i> rather than <i>again</i>: a resistant strain stands back against the treatment." },
+
+          { root: "cover", affix: "re-", answer: "recover",
+
+            why: "To get better. <i>Re-cover</i>, with a hyphen, is to put a lid back on \u2014 the hyphen is the only thing separating them." },
+
+          { root: "emerge", affix: "pre-", answer: "preemerge",
+
+            why: "<i>pre-</i> is before, not again. Different prefix, different relation to time, and this one takes a hyphen in most writing: <i>pre-emerge</i>." },
+
+          { root: "spread", affix: "wide-", answer: "widespread",
+
+            why: "Not a prefix at all but the first half of a compound, which is how English builds many of its commonest adjectives in this field." }
+
+        ],
+        prompt: "<b>re-</b> means <i>again</i> or <i>back</i>, and in this subject it is everywhere, because disease is a thing that returns. Build each word \u2014 and note where the hyphen is doing real work.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>re + cover → <b>re</b>cover · re + infect → <b>re</b>infect · re + currence → <b>re</b>currence · re + sistant → <b>re</b>sistant · re + duce → <b>re</b>duce.<br>Note that <i>recover</i> and <i>re-cover</i> are different words: the hyphen keeps <i>cover again</i> apart from <i>get better</i>.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "RE- IN PUBLIC HEALTH",

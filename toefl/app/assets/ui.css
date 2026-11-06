@@ -1017,3 +1017,5 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .ann-group{margin:14px 0 7px;font:700 11px/1.5 var(--ui);color:var(--ink-3);
   text-transform:uppercase;letter-spacing:.07em;}
 .ann-group:first-child{margin-top:0;}
+.gr-stressline{display:inline;}
+.ann-say{flex:0 0 auto;margin-left:6px;}

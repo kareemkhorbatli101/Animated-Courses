@@ -47,6 +47,8 @@ for (const u of fs.readdirSync(ROOT).filter(d => /^u\d\d$/.test(d)).sort()) {
 
 /* kinds the book does not use yet: benched by hand so they cannot rot */
 const SUPPLEMENT = {
+  /* `read-only` is deliberately absent: the kind was removed from the
+     registry once all 91 of its scenes became exercises. */
   order: {
     kind: 'order', n: 1,
     prompt: 'Put the words in order to make one sentence.',

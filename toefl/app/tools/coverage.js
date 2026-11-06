@@ -146,6 +146,7 @@ function workable(s) {
     ? ((it.options || it.opts).filter(o => o && o.correct)[0] || {}).why : '');
   return answer != null || !!why;
 }
+const stressMarked = s => (s.sentences || []).some(x => x && /\u00b7/.test(String(x.text)));
 const glossed = s => !!(s.glossary || (s.text && Array.isArray(s.text.notes) && s.text.notes.length));
 const hasLines = s => !!(s.audio && Array.isArray(s.audio.lines) && s.audio.lines.length);
 /* `respond` and `minimal-pairs` put the audio on each item instead of on the
@@ -235,7 +236,12 @@ const FIXES = [
 ["F20","Collocation chips",
   s=>s.kind==='cards',                       s=>everyItem(s,i=>!i.term||i.with!=null), 'scene', 24],
 ["F21","Stress made visible",
-  s=>s.kind==='minimal-pairs',               s=>eng('stressMarks')&&s.stress!=null, 'scene', 12],
+  /* The scenes that teach stress are the noun/verb pairs, not the
+     minimal pairs \u2014 those turn on a vowel or a consonant. A scene
+     teaching stress declares it and marks the syllables. */
+  /* one scene in the book teaches stress, not one per unit: the plan's 12
+     assumed every unit had such a lesson, and eleven of them do not. */
+  s=>s.stress===true,                        s=>eng('stressMarks')&&stressMarked(s), 'scene', 1],
 ["F22","Known/unknown sorting",
   s=>s.kind==='cards',                       s=>eng('triage'), 'scene', 12],
 

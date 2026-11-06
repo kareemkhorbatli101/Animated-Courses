@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "measurement", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. Four take <b>-ment</b> again, as in Unit 10 — but here they belong to method rather than to law.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "measurement", ar: "\u0642\u064a\u0627\u0633",
+            meaning: "a quantity obtained by a stated procedure",
+            with: ["take a measurement", "a precise measurement", "measurement error"],
+            why: "Not just a number: a number plus the procedure that produced it. Report one without the other and you have reported half of it." },
+          { term: "experiment", ar: "\u062a\u062c\u0631\u0628\u0629",
+            meaning: "a deliberate intervention to test a claim",
+            with: ["run an experiment", "a controlled experiment", "the experiment showed"],
+            why: "<i>Intervention</i> is the whole word. An experiment changes something on purpose; an observation watches, and the difference decides what you may conclude." },
+          { term: "instrument", ar: "\u062c\u0647\u0627\u0632 \u0642\u064a\u0627\u0633",
+            meaning: "the device the measurement is taken with",
+            with: ["calibrate the instrument", "instrument precision", "a sensitive instrument"],
+            why: "Every instrument has a precision, and reporting a figure finer than that precision is a mistake however carefully you did the arithmetic." },
+          { term: "assessment", ar: "\u062a\u0642\u064a\u064a\u0645",
+            meaning: "a judgment of quality, made against criteria",
+            with: ["an independent assessment", "assess against", "the assessment concluded"],
+            why: "<i>Against criteria</i> is what separates it from an opinion. Stating the criteria first is what makes an assessment answerable." },
+          { term: "replication", ar: "\u062a\u0643\u0631\u0627\u0631 \u0627\u0644\u062f\u0631\u0627\u0633\u0629",
+            meaning: "repeating a study to see whether it holds",
+            with: ["a direct replication", "failed to replicate", "the replication crisis"],
+            why: "The article\u0027s subject. Almost everyone assumes it happens routinely, and almost nothing in the system pays for it." },
+          { term: "hypothesis", ar: "\u0641\u0631\u0636\u064a\u0651\u0629",
+            meaning: "the claim being tested",
+            with: ["test a hypothesis", "the null hypothesis", "support the hypothesis"],
+            why: "Plural <i>hypotheses</i>. A hypothesis is not a guess: it is a claim stated so that evidence could go against it." },
+          { term: "variable", ar: "\u0645\u062a\u063a\u064a\u0651\u0631",
+            meaning: "anything that can differ between cases",
+            with: ["control for a variable", "the dependent variable", "a confounding variable"],
+            why: "Also an adjective, which is why it can be confusing. A variable you have not controlled for is one that may be doing the explaining." },
+          { term: "peer review", ar: "\u0645\u0631\u0627\u062c\u0639\u0629 \u0627\u0644\u0646\u064f\u0638\u0631\u0627\u0621",
+            meaning: "assessment by others in the same field, before publication",
+            with: ["under peer review", "peer-reviewed journal", "survive peer review"],
+            why: "Hyphenated as an adjective. It checks whether a study was reported plausibly \u2014 not whether its result is true, which only replication can do." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. The fifth is the article\u0027s subject, and it is the one most people assume happens more often than it does.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 measurement</b> — a quantity obtained by a stated procedure",
           "<b>2 experiment</b> — a deliberate intervention to test a claim",
@@ -97,8 +131,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The suffix -ment, in method", letter: "A",
         concepts: ["read", "measurement", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "The same suffix as Unit 10, a different vocabulary. Note how precise these four are.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "measure", affix: "-ment", answer: "measurement",
+
+            why: "The plain case, and the <i>e</i> stays: <i>measurment</i> would lose the syllable." },
+
+          { root: "assess", affix: "-ment", answer: "assessment",
+
+            why: "Also plain. Two <i>s</i>s in the root, and both survive." },
+
+          { root: "govern", affix: "-ment", answer: "government",
+
+            why: "The <i>n</i> is easy to lose in speech and must not be lost in writing. <i>Goverment</i> is among the most frequent misspellings in English." },
+
+          { root: "state", affix: "-ment", answer: "statement",
+
+            why: "The <i>e</i> stays again, as it does for every root ending in a consonant plus <i>e</i> in this group." },
+
+          { root: "replicate", affix: "-ion", answer: "replication",
+
+            why: "A different suffix for a method noun: <i>-ate</i> verbs take <i>-ion</i>, never <i>-ment</i>. <i>Replicatement</i> is the form the pattern would wrongly predict." },
+
+          { root: "precise", affix: "-ion", answer: "precision",
+
+            why: "And another consonant change on the way: <i>-se</i> becomes <i>-sion</i>, as in <i>decide</i> and <i>decision</i>." }
+
+        ],
+        prompt: "The same suffix as Unit 10, in a different vocabulary. Build each one \u2014 and note which of them is not built from a modern English verb at all.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>measure → measure<b>ment</b> · experiment · instru<b>ment</b> · assess → assess<b>ment</b>.<br><i>Instrument</i> is not built from a modern English verb, which is why you cannot work it out — it simply has to be learned.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "-MENT IN METHOD",

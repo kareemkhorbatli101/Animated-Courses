@@ -71,8 +71,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read", "cause"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "disproportionately", ar: "\u0628\u0635\u0648\u0631\u0629 \u063a\u064a\u0631 \u0645\u062a\u0646\u0627\u0633\u0628\u0629",
+            meaning: "more than their share would lead you to expect",
+            with: ["disproportionately affected", "disproportionately high", "bear a disproportionate share"],
+            why: "A comparison with a baseline, always. The word is meaningless until you know what share would have been proportionate." },
+          { term: "attribute to", ar: "\u064a\u0639\u0632\u0648 \u0625\u0644\u0649",
+            meaning: "to name as the cause",
+            with: ["attribute the decline to", "widely attributed to", "attributable to"],
+            why: "The one the article quarrels with. Attributing is a claim about causation dressed as a statement of fact, and the chronology is what tests it." },
+          { term: "consequential", ar: "\u0630\u0648 \u0623\u062b\u0631 \u0643\u0628\u064a\u0631",
+            meaning: "having large effects",
+            with: ["a consequential decision", "consequential for", "the most consequential"],
+            why: "Not the same as <i>consequent</i>, which only means following after. One is about size of effect, the other about order." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the second is the one the article quarrels with.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>disproportionately</span> (adv) more than their share would lead you to expect",
           "<span class='gloss'>attribute to</span> (v) to name as the cause",
@@ -337,8 +351,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "measurement", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, two charts, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "n1", label: "The drug on the curve",
+
+            detail: "Hiba writes that antibiotics ended tuberculosis, pointing at a chart where mortality falls almost to zero." },
+
+          { id: "n2", label: "The improving rate",
+
+            detail: "Faisal reports that the fatality rate halved in a month and treats it as evidence the treatment improved." },
+
+          { id: "n3", label: "The bare percentage",
+
+            detail: "Dania repeats a figure of forty per cent without knowing whether it came from twenty cases or twenty thousand." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What ended the infections</b> \u2014 mostly not medicine, and the chronology is the evidence.", caseId: "n1",
+
+            why: "The fall began decades before the drug existed. Hiba has attributed a decline to something that arrived after most of it had happened." },
+
+          { text: "<b>Why the rate moves</b> \u2014 the bottom of the fraction, not the disease.", caseId: "n2",
+
+            why: "Wider testing finds milder cases, the denominator grows, and the rate falls with no change in treatment or in the illness itself." },
+
+          { text: "<b>What to ask</b> \u2014 out of how many?", caseId: "n3",
+
+            why: "Four words that turn a percentage back into evidence. Forty per cent of twenty cases and of twenty thousand are not comparable claims." }
+
+        ],
+        prompt: "Two articles, two charts, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>What ended the infections</b> — mostly not medicine, and the chronology is the evidence.",
           "<b>Why the rate moves</b> — the bottom of the fraction, not the disease.",

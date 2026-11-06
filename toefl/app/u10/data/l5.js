@@ -72,8 +72,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "incompatible", ar: "\u063a\u064a\u0631 \u0645\u062a\u0648\u0627\u0641\u0642",
+            meaning: "unable to be true together",
+            with: ["incompatible with", "mutually incompatible", "logically incompatible"],
+            why: "The article applies it to the impressions two reports leave, not to their facts \u2014 which is the distinction the whole piece rests on." },
+          { term: "discrepancy", ar: "\u062a\u0628\u0627\u064a\u0646 / \u0627\u062e\u062a\u0644\u0627\u0641",
+            meaning: "a difference between two accounts",
+            with: ["a discrepancy between", "explain the discrepancy", "minor discrepancies"],
+            why: "Neutral as to blame. Reporting a discrepancy says two accounts differ, not that either is false." },
+          { term: "materially", ar: "\u0628\u0635\u0648\u0631\u0629 \u062c\u0648\u0647\u0631\u064a\u0629",
+            meaning: "in a way that actually matters",
+            with: ["materially different", "materially affect", "not materially"],
+            why: "A legal borrowing, and not about matter. Two accounts can differ in a hundred details without differing materially in one." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 and notice that the article uses the first of the impressions, not of the facts.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>incompatible</span> (adj) unable to be true together",
           "<span class='gloss'>discrepancy</span> (n) a difference between two accounts",
@@ -343,8 +357,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one chart, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "x1", label: "The two true reports",
+
+            detail: "Rawan has two accounts of the same meeting that leave opposite impressions. She assumes one of them must contain a falsehood." },
+
+          { id: "x2", label: "The quiet breach",
+
+            detail: "Jamal treats a company hiding a breach and a group announcing one as the same kind of act, since both broke the same rule." },
+
+          { id: "x3", label: "The reliable source",
+
+            detail: "Basma checks that each fact in a report is accurate and stops there, satisfied." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Why two true reports differ</b> \u2014 what was placed first, and which verb was chosen.", caseId: "x1",
+
+            why: "Neither has to be false. Order and verb choice carry an argument that survives every individual sentence being accurate." },
+
+          { text: "<b>What separates protest from evasion</b> \u2014 whether the act is addressed to anybody.", caseId: "x2",
+
+            why: "Civil disobedience is a public argument that accepts its penalty. Evasion is the same breach with the audience and the cost removed, and the two are not morally alike." },
+
+          { text: "<b>What to ask of a source</b> \u2014 not only is this true, but why is it here, and first?", caseId: "x3",
+
+            why: "Accuracy is the easy test and the weak one. Selection and placement are where a true report does its persuading." }
+
+        ],
+        prompt: "Two articles, one chart, one habit \u2014 in three parts. Drag each part onto the reader it would change.",
         text: { blocks: [{ lines: [
           "<b>Why two true reports differ</b> — what was placed first, and which verb was chosen.",
           "<b>What separates protest from evasion</b> — whether the act is addressed to anybody.",
