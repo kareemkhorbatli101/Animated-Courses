@@ -115,29 +115,29 @@
               { text: "down it", why: "Not possible with a pronoun." },
               { text: "down of it", why: "No such pattern." }
             ] },
-          { q: "We ____ the method before we started.", from: "Lesson 3",
-            options: [
-              { text: "went over", correct: true, why: "<i>Go over</i> is inseparable, so the object follows the whole verb." },
-              { text: "went it over", why: "Inseparable verbs never split." },
-              { text: "went over of", why: "No such pattern." }
-            ] },
-          { q: "Those readings are ____.", from: "Lesson 3",
-            options: [
-              { text: "ours", correct: true, why: "A possessive pronoun: no noun after it, no apostrophe." },
-              { text: "our's", why: "Possessive pronouns never take an apostrophe." },
-              { text: "ours readings", why: "<i>Ours</i> cannot be followed by a noun; <i>our readings</i> would be correct." }
-            ] },
           { q: "The article says the number on a packet measures:", from: "Lesson 5",
             options: [
               { text: "heat released when the food is burned in a laboratory.", correct: true, why: "Its exact claim, and the pivot of the piece." },
               { text: "energy absorbed by the body.", why: "That is precisely what it says the figure is <i>not</i>." },
               { text: "the mass of each nutrient class.", why: "Mass is not what a calorie measures." }
             ] },
+          { q: "We ____ the method before we started.", from: "Lesson 3",
+            options: [
+              { text: "went over", correct: true, why: "<i>Go over</i> is inseparable, so the object follows the whole verb." },
+              { text: "went it over", why: "Inseparable verbs never split." },
+              { text: "went over of", why: "No such pattern." }
+            ] },
           { q: "You hear: “If we'd checked the bath, we wouldn't have lost the run.” This means:", from: "Lesson 4",
             options: [
               { text: "they did not check it, and they lost the run.", correct: true, why: "A past counterfactual reverses both clauses." },
               { text: "they checked it and kept the run.", why: "<i>We'd have</i> marks what did not happen." },
               { text: "the run is still going.", why: "The sentence is about a finished run." }
+            ] },
+          { q: "Those readings are ____.", from: "Lesson 3",
+            options: [
+              { text: "ours", correct: true, why: "A possessive pronoun: no noun after it, no apostrophe." },
+              { text: "our's", why: "Possessive pronouns never take an apostrophe." },
+              { text: "ours readings", why: "<i>Ours</i> cannot be followed by a noun; <i>our readings</i> would be correct." }
             ] },
           { q: "Professor Haddad says that when intake falls, the body:", from: "On Campus",
             options: [

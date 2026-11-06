@@ -149,6 +149,16 @@ function workable(s) {
 /* every item carries its own passage */
 const perItemText = s => (s.items || []).length > 0 &&
   (s.items || []).every(i => i && typeof i.text === 'string' && i.text.length > 40);
+/* the most items in a row drawn from one source */
+function longestRun(list) {
+  const src = i => String((i && i.from) || '').split(/[\u00b7(]/)[0].trim();
+  let run = 1, worst = 1;
+  for (let i = 1; i < (list || []).length; i++) {
+    run = src(list[i]) === src(list[i - 1]) ? run + 1 : 1;
+    if (run > worst) worst = run;
+  }
+  return worst;
+}
 const stressMarked = s => (s.sentences || []).some(x => x && /\u00b7/.test(String(x.text)));
 const glossed = s => !!(s.glossary || (s.text && Array.isArray(s.text.notes) && s.text.notes.length));
 const hasLines = s => !!(s.audio && Array.isArray(s.audio.lines) && s.audio.lines.length);
@@ -310,8 +320,15 @@ const FIXES = [
   s=>items(s).length>0,                      s=>eng('selfExplain'), 'scene', 519],
 ["F45","Elaborative interrogation on distractors",
   s=>withOptions(s),                         s=>eng('askWhy')&&everyItem(s,i=>!(i.options||i.opts||[]).length||i.why!=null||(i.options||i.opts||[]).every(o=>typeof o!=='object'||o.why!=null)), 'scene', 204],
-["F46","Interleave within the lesson",
-  s=>s.kind==='letterbox'&&items(s).length>=8, s=>s.interleaved===true, 'scene', 84],
+["F46","Interleave within the review",
+  /* The plan put this on Lesson 1's Complete the Words, which are four
+     items a scene and blocked by type. Blocking is RIGHT on first
+     encounter: meeting a form for the first time needs several of it
+     together. Interleaving is for review, where the skill is choosing the
+     method rather than applying the one just demonstrated \u2014 so the rule
+     belongs on the unit review, and it is measurable there: no more than
+     two consecutive items from the same lesson. */
+  s=>(s.items||[]).some(i=>i&&i.from),       s=>longestRun(s.items)<=2, 'scene', 12],
 ["F47","Signal after, not before",
   /* every scene with a passage or chart to mark, whether it owns it or
      carries it: the plan's 60 predated `carry` existing */

@@ -115,23 +115,17 @@
               { text: "either", why: "<i>Either</i> follows a negative." },
               { text: "neither", why: "<i>Neither</i> would need inversion: <i>and neither were the buses</i>." }
             ] },
-          { q: "Widening did not help, and pricing alone did not ____.", from: "Lesson 3",
-            options: [
-              { text: "either", correct: true, why: "<i>Either</i> after a negative." },
-              { text: "too", why: "<i>Too</i> cannot follow a negative." },
-              { text: "also", why: "Not used in this end position." }
-            ] },
-          { q: "____ the survey was repeated, the traffic had climbed back.", from: "Lesson 3",
-            options: [
-              { text: "By the time", correct: true, why: "<i>By the time</i> + past, with the past perfect in the main clause." },
-              { text: "While", why: "<i>While</i> implies simultaneity, not a deadline reached." },
-              { text: "Until", why: "<i>Until</i> would reverse the logic." }
-            ] },
           { q: "The verb <i>indicate</i> gives which agent noun?", from: "Lesson 1",
             options: [
               { text: "indicator", correct: true, why: "<i>-ate</i> verbs almost always take <i>-or</i>." },
               { text: "indicater", why: "Not an English spelling." },
               { text: "indicant", why: "Not the agent noun in ordinary use." }
+            ] },
+          { q: "Widening did not help, and pricing alone did not ____.", from: "Lesson 3",
+            options: [
+              { text: "either", correct: true, why: "<i>Either</i> after a negative." },
+              { text: "too", why: "<i>Too</i> cannot follow a negative." },
+              { text: "also", why: "Not used in this end position." }
             ] },
           { q: "The article says the extra traffic comes from:", from: "Lesson 5",
             options: [
@@ -139,6 +133,12 @@
                 why: "All three sources, in one sentence." },
               { text: "population growth.", why: "Not part of the mechanism described." },
               { text: "longer journeys by existing drivers.", why: "Not among the three given." }
+            ] },
+          { q: "____ the survey was repeated, the traffic had climbed back.", from: "Lesson 3",
+            options: [
+              { text: "By the time", correct: true, why: "<i>By the time</i> + past, with the past perfect in the main clause." },
+              { text: "While", why: "<i>While</i> implies simultaneity, not a deadline reached." },
+              { text: "Until", why: "<i>Until</i> would reverse the logic." }
             ] },
           { q: "Professor Haddad says a grid appears where land was being:", from: "On Campus",
             options: [

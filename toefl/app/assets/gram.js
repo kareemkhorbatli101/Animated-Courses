@@ -118,9 +118,13 @@
     var box = host.querySelector(".gr-extra");
     if (!box) { box = E("div", "gr-extra"); host.appendChild(box); }
     box.innerHTML = "";
-    box.appendChild(E("span", "gr-extra-tag", "“" + esc(text) + "”"));
-    box.appendChild(E("span", "gr-extra-why",
-      why || "This word belongs to a different sentence — nothing here needs it."));
+    /* Every explanation names the word itself, so a quoted tag in front of
+       it printed the word twice: "because" because introduces a reason... */
+    var w = E("span", "gr-extra-why");
+    w.innerHTML = why ||
+      ("Nothing in this sentence needs <i>" + esc(text) + "</i>. " +
+       "A word you cannot name a job for is the spare one.");
+    box.appendChild(w);
     if (M()) M().pulse(box);
     return box;
   }

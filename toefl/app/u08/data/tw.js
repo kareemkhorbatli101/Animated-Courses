@@ -115,18 +115,6 @@
               { text: "used to", why: "Double past marking." },
               { text: "using to", why: "Not a possible form." }
             ] },
-          { q: "Researchers ____ the decline for over a century.", from: "Lesson 3",
-            options: [
-              { text: "have been studying", correct: true, why: "Present perfect continuous: began in the past, still going on." },
-              { text: "used to study", why: "Closes a period the sentence treats as open." },
-              { text: "are studying since", why: "<i>Since</i> needs a perfect form." }
-            ] },
-          { q: "<i>I'm used to working nights</i> means:", from: "Lesson 3",
-            options: [
-              { text: "I am accustomed to it.", correct: true, why: "<i>be used to</i> + <i>-ing</i> — a different construction from <i>used to do</i>." },
-              { text: "I formerly worked nights.", why: "That would be <i>I used to work nights</i>." },
-              { text: "I will work nights.", why: "No future is expressed." }
-            ] },
           { q: "The article says the chronology does not <i>entirely</i> support the attribution. <i>Entirely</i> signals that:", from: "Lesson 5",
             options: [
               { text: "medicine mattered, but was not the main cause.", correct: true,
@@ -134,11 +122,23 @@
               { text: "medicine played no part.", why: "<i>Entirely</i> would then be pointless." },
               { text: "the data are unreliable.", why: "The data are not questioned." }
             ] },
+          { q: "Researchers ____ the decline for over a century.", from: "Lesson 3",
+            options: [
+              { text: "have been studying", correct: true, why: "Present perfect continuous: began in the past, still going on." },
+              { text: "used to study", why: "Closes a period the sentence treats as open." },
+              { text: "are studying since", why: "<i>Since</i> needs a perfect form." }
+            ] },
           { q: "A fatality rate divides deaths by:", from: "On Campus",
             options: [
               { text: "recorded cases, not infections.", correct: true, why: "Her subtler problem, and the reason early rates run high." },
               { text: "everyone infected.", why: "That is the assumption she corrects." },
               { text: "the whole population.", why: "That is a different measure." }
+            ] },
+          { q: "<i>I'm used to working nights</i> means:", from: "Lesson 3",
+            options: [
+              { text: "I am accustomed to it.", correct: true, why: "<i>be used to</i> + <i>-ing</i> — a different construction from <i>used to do</i>." },
+              { text: "I formerly worked nights.", why: "That would be <i>I used to work nights</i>." },
+              { text: "I will work nights.", why: "No future is expressed." }
             ] },
           { q: "Cancer's share of deaths rising from 4% to 27% could happen because:", from: "Lesson 5",
             options: [
