@@ -1,6 +1,12 @@
 /* Unit 10 · Rules, Rights and Ethics — ON CAMPUS
    Function: take a position in a debate. */
 (function () {
+
+  /* Two exercises use this talk: the comprehension items, and the outline
+     filled in while it plays. */
+  var TALK1 = { track: "10-12", label: "Two ways of breaking a rule", lines: [{ who: "haddad", text:
+          "I want to put a question to you that sounds simple and is not. Should a rule ever be broken? The usual classroom answer is that it depends on the rule, which is true and almost useless, so let us be more precise. There is a difference between a rule you think is wrong and a rule you think does not apply to you. Breaking a rule you believe is unjust, openly, and accepting the penalty, is a recognised political act with a long history. Breaking the same rule quietly, because it is inconvenient, is not that act, even when the rule is equally unjust and the person equally sincere. The difference is not in the rule and it is not in the motive. It is in whether you are trying to change the rule or trying to escape it. And notice what follows. Accepting the penalty is not a moral flourish. It is the thing that makes the act legible as an argument rather than as an evasion. Take that away and the observer cannot tell the two cases apart, which means the act can no longer do the work it was meant to do." }] };
+
   window.PAGE = {
     id: "u10-oc", unit: "u10", block: "oc", up: "../", tab: "NAVIGATIONAL",
     objective: "Take a position in a debate",
@@ -34,12 +40,41 @@
             ] }
         ] },
 
+            { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
+        prompt: "A second notice, read out before a debate. It plays once.",
+        speaker: "dan", speakerNote: "debating society",
+        audio: { track: "10-13", label: "Thursday's debate", lines: [{ who: "dan", text:
+          "Three things about Thursday. Speakers get seven minutes each and we will cut you off at seven, which sounds harsh and is the only way the evening finishes. Sides are assigned, not chosen, and if you find yourself arguing for something you do not believe, that is the exercise rather than an accident. And a procedural note: objections to the wording of the motion go to the committee by Tuesday, in writing. Raising them on the night is not an objection, it is a speech, and it will come out of your seven minutes." }] },
+        items: [
+          { q: "What happens at seven minutes?",
+            options: [
+              { text: "The speaker is stopped.", correct: true,
+                why: "<i>We will cut you off</i>, and he gives the reason: otherwise the evening does not end." },
+              { text: "The speaker gets a warning.", why: "No warning is mentioned." },
+              { text: "The debate moves to questions.", why: "Nothing about questions appears." }
+            ] },
+          { q: "What does he say about being assigned a side you disagree with?",
+            options: [
+              { text: "That it is the point of the exercise.", correct: true,
+                why: "<i>That is the exercise rather than an accident</i> — he forestalls the complaint before it arrives." },
+              { text: "That you may ask to swap.", why: "Sides are assigned, not chosen." },
+              { text: "That you should say so in your speech.", why: "He makes no such suggestion." }
+            ] },
+          { q: "How must an objection to the wording be made?",
+            options: [
+              { text: "In writing, to the committee, by Tuesday.", correct: true,
+                why: "Three conditions in one sentence, and the last line says what happens if you ignore them." },
+              { text: "At the start of your speech.", why: "That would come out of your seven minutes, which is his point." },
+              { text: "To the chair on the night.", why: "He rules this out explicitly." }
+            ] }
+        ] },
+
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on whether a rule may be broken. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
-        audio: { track: "10-12", label: "Two ways of breaking a rule", lines: [{ who: "haddad", text:
-          "I want to put a question to you that sounds simple and is not. Should a rule ever be broken? The usual classroom answer is that it depends on the rule, which is true and almost useless, so let us be more precise. There is a difference between a rule you think is wrong and a rule you think does not apply to you. Breaking a rule you believe is unjust, openly, and accepting the penalty, is a recognised political act with a long history. Breaking the same rule quietly, because it is inconvenient, is not that act, even when the rule is equally unjust and the person equally sincere. The difference is not in the rule and it is not in the motive. It is in whether you are trying to change the rule or trying to escape it. And notice what follows. Accepting the penalty is not a moral flourish. It is the thing that makes the act legible as an argument rather than as an evasion. Take that away and the observer cannot tell the two cases apart, which means the act can no longer do the work it was meant to do." }] },
+        audio: TALK1,
         transcript: "<p>The difference is not in the rule or the motive. It is whether you are trying to change the rule or escape it — and accepting the penalty is what makes that visible to anyone else.</p>",
         items: [
           { q: "What distinction is the speaker drawing?",
@@ -71,6 +106,64 @@
             ] }
         ] },
 
+            { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
+        prompt: "The same lecturer, on how two true accounts can disagree.",
+        speaker: "haddad", speakerNote: "lecturer",
+        audio: { track: "10-14", label: "Everything in it is true", lines: [{ who: "haddad", text:
+          "Here are two reports of the same afternoon. The first begins with eleven arrests. The second begins with four thousand people. Both numbers appear in both reports. Nothing has been invented and nothing has been omitted. And yet a reader of the first comes away with a disturbance, and a reader of the second with a demonstration. So where did that come from? Two places, and neither of them is a lie. The first is order. Whatever stands at the top of a report is what the report is about, and deciding what goes first is a judgement about what matters, made by somebody, usually in a hurry. The second is the verb. A crowd that clashed with police has done something. A crowd that was dispersed by police has had something done to it. Same afternoon, and the agent has moved from one side of the sentence to the other. Now, I am not telling you both reports are equally good. I am telling you that you cannot settle which is better by checking the facts, because the facts are not where the disagreement is. You settle it by asking what each report decided to put first, and why." }] },
+        transcript: "<p>Order and voice. Whatever stands first is what the report is about, and a crowd that clashed has done something while a crowd that was dispersed has had something done to it.</p>",
+        items: [
+          { q: "What is the speaker's main point?",
+            options: [
+              { text: "Two reports can differ in impression without differing in fact.", correct: true,
+                why: "She establishes that nothing is invented or omitted, then names the two levers that remain." },
+              { text: "One of the two reports is dishonest.", why: "<i>Neither of them is a lie</i> — she says so directly." },
+              { text: "Readers should check the facts more carefully.", why: "Her closing point is that checking facts will not settle it." }
+            ] },
+          { q: "What does she say about whatever stands at the top of a report?",
+            options: [
+              { text: "It is what the report is about, and placing it there is a judgement.", correct: true,
+                why: "And she adds who makes the judgement and under what conditions — somebody, usually in a hurry." },
+              { text: "It is the most reliable fact in the report.", why: "Reliability is not what ordering tracks." },
+              { text: "It is chosen by the editor rather than the reporter.", why: "She says <i>somebody</i> and leaves it there." }
+            ] },
+          { q: "What is the difference she draws between the two verbs?",
+            options: [
+              { text: "One makes the crowd the doer; the other makes it the thing done to.", correct: true,
+                why: "<i>The agent has moved from one side of the sentence to the other</i>." },
+              { text: "One is more violent than the other.", why: "Her point is about who acts, not about degree." },
+              { text: "One is a passive and therefore less accurate.", why: "She never suggests the passive is inaccurate." }
+            ] },
+          { q: "How does she say the question should be settled?",
+            options: [
+              { text: "By asking what each report put first, and why.", correct: true,
+                why: "Her closing instruction, and it follows from the facts being identical in both." },
+              { text: "By checking the facts against a third source.", why: "She has just said the facts are not where the disagreement is." },
+              { text: "By preferring whichever report is longer.", why: "Length never comes up." }
+            ] }
+        ] },
+
+      { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        kind: "notes", task: null, n: 0,
+        prompt: "Play the first talk again and complete the outline while it runs.",
+        audio: TALK1,
+        title: "Lecture — two ways of breaking a rule",
+        note: { kind: "reader",
+                body: "<p>She refuses the easy answer, draws a distinction, says where the distinction is <i>not</i>, and then says what follows. The third line is the one worth copying into your own notes.</p>" },
+        lines: [
+          "Question: should a rule ever be broken? <i>It depends</i> is true and almost ___",
+          "- Open breaking, accepting the ___ : a recognised political act",
+          "- The difference is not in the rule and not in the ___",
+          "- It is whether you are trying to ___ the rule or to escape it"
+        ],
+        gaps: [
+          { answer: "useless", why: "her own verdict on the classroom answer, and the reason the talk continues." },
+          { answer: "penalty", why: "the condition that makes the act what it is." },
+          { answer: "motive", why: "the thing she rules out, which Lesson 5's second article then argues at length." },
+          { answer: "change", why: "the criterion, in one word, and the one to leave with." }
+        ] },
+
       { id: "c", section: 3, sectionTitle: "Take a position", letter: "A",
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. In a debate the strongest openings concede before they argue.",
@@ -89,9 +182,35 @@
               "If it turned out the consultation was genuine, I would drop the objection."
             ] }
           ] },
-        after: "<p>The third is the rarest and the most powerful. Naming in advance what would change your mind is what separates an argument from a position.</p>",
+        after: "<p>The third is the rarest and the most powerful. Naming in advance what would change your mind is what separates an argument from a position.</p>" },
+
+      { id: "c2", section: 3, sectionTitle: "Take a position", letter: "B",
+        kind: "table", task: null, n: 0,
+        prompt: "Complete the table from the chart in 3A. The right-hand column says what each move costs the other side.",
+        caption: "Four moves, and what each one costs the other side",
+        head: ["Move", "What you say", "What it costs them"],
+        rows: [
+          ["Concede first",   "I ___ that the rule is badly drafted", "the easy reply, which was to prove the thing you just granted"],
+          ["Narrow the claim","What I ___ is that it is unjust", "the version of your position they had prepared for"],
+          ["Separate two things", "My objection isn't to the policy, it's to ___ it was introduced", "the right to defend the policy instead of the process"],
+          ["Name your own defeat", "If the consultation turned out to be ___ , I would drop the objection", "the suspicion that you cannot be ___ "]
+        ],
+        gaps: [
+          { answer: "accept", why: "conceding a specific point, not the whole case, which is what makes it usable." },
+          { answer: "dispute", why: "the narrower the claim, the easier it is to hold." },
+          { answer: "how", why: "splitting one argument into two, only one of which you are having." },
+          { answer: "genuine", why: "the condition that would defeat you, stated before anybody asks for it." },
+          { answer: "moved", why: "the rarest move, and the one that converts a position into an argument." }
+        ] },
+
+      { id: "c3", section: 3, sectionTitle: "Take a position", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "One sentence to leave with.",
+        text: { blocks: [{ lines: [
+          "Saying in advance what would change your mind costs you nothing if you are right, and it is the only thing that tells anyone you are arguing rather than defending."
+        ],
         closer: { kind: "life",
-          body: "<p>In your next disagreement, say one thing you accept before the thing you reject. Notice whether the other person softens.</p>" } }
+          body: "<p>In your next disagreement, say one thing you accept before the thing you reject. Notice whether the other person softens.</p>" } }] } }
     ]
   };
 })();

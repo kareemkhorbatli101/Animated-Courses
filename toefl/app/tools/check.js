@@ -195,6 +195,12 @@ function checkScene(where, s, unit){
     (s.items || []).forEach((it, i) => {
       if (!it.wrong || !it.right) return bad(where, `item ${i + 1} needs both wrong and right`);
       if (it.wrong === it.right) bad(where, `item ${i + 1}: the correction is the same word`);
+      /* The grader normalises punctuation and case away before comparing, so a
+         correction that only changes those cannot be marked at all. */
+      const flat = t => String(t).toLowerCase().replace(/[^a-z0-9' ]+/g, '').replace(/\s+/g, ' ').trim();
+      if (flat(it.wrong) === flat(it.right))
+        bad(where, `item ${i + 1}: "${it.wrong}" to "${it.right}" differs only in punctuation or case, which the grader cannot see`);
+      else ok();
       const re = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[\\s.,!?;:])');
       if (!re.test(String(it.text))) bad(where, `item ${i + 1}: "${it.wrong}" is not a whole word in the sentence`);
       else ok();

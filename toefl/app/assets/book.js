@@ -75,7 +75,7 @@
       affix: "-er / -or", pron: "the schwa", chart: "compare-table",
       campus: "ask for directions on an unfamiliar campus",
       strategy: { writing: "the purpose of an introduction", reading: "using questions to organise a text; reading tables" } },
-    { n: 10, id: "u10", title: "Rules, Rights and Ethics",    field: "law and philosophy",
+    { n: 10, id: "u10", title: "Rules, Rights and Ethics",    field: "law and philosophy", doubled: true,
       grammar: ["gerunds as subjects", "gerunds and the present continuous compared", "infinitives and gerunds"],
       affix: "-ment", pron: "stressed words in sentences", chart: "line",
       campus: "take a position in a debate",

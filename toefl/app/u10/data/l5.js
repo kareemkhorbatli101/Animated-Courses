@@ -31,6 +31,40 @@
     source: "University Library"
   };
 
+  /* The second academic passage: the first is about two accurate reports,
+     this one about the line between protest and evasion. */
+  var PASSAGE2 = {
+    masthead: "THE PENALTY IS PART OF THE ARGUMENT", every: 1,
+    blocks: [
+      { h: "Two people, one rule", lines: [
+        "Consider two people who break the same rule for the same reason and differ only in what they do afterwards.",
+        "The first announces the act, names herself and accepts whatever follows; the second conceals it and hopes to be overlooked."
+      ] },
+      { h: "Why the difference is not about sincerity", lines: [
+        "It is tempting to locate the distinction in motive, and the attempt does not survive examination: both may be equally convinced, and neither can be inspected.",
+        "What distinguishes them is observable rather than internal, and it consists in whether the act is addressed to anybody.",
+        "An act performed where no one can see it makes no claim, enters no argument and leaves the rule exactly as it found it."
+      ] },
+      { h: "What acceptance buys", lines: [
+        "Accepting the penalty is therefore not a moral ornament but the mechanism by which the act becomes legible as an argument.",
+        "Remove it and an observer has no way to distinguish a protest from a convenience, which means the act can no longer do the work it was undertaken to do."
+      ] }
+    ],
+    notes: ["legible: able to be read as what it is, by someone who was not told"],
+    source: "Written for this book"
+  };
+
+  var NOTICE2 = {
+    masthead: "LIBRARY · GROUP ROOMS", mastColor: "blue", every: 1,
+    blocks: [{ lines: [
+      "Group rooms are released ten minutes after the booking starts if unoccupied.",
+      "A room may be booked twice in one day, but not consecutively.",
+      "Food is not permitted in the group rooms.",
+      "Bookings cannot be transferred to another student."
+    ] }],
+    source: "University Library"
+  };
+
   window.PAGE = {
     id: "u10-l5", unit: "u10", block: "l5", up: "../", tab: "ACADEMIC",
     objective: "Compare two sources without calling either a liar",
@@ -121,6 +155,26 @@
             why: "No location is ever given." }
         ] },
 
+            { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
+        kind: "selectintext", task: null, n: 0,
+        prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
+        note: { kind: "reader",
+                body: "<p>This unit's reading strategy is comparing sources. The sentence worth marking is usually the one that would have to be true for the rest of the paragraph to follow — the assumption rather than the claim.</p>" },
+        items: [
+          { prompt: "Which sentence states an assumption the rest depends on?",
+            text: "The motion asks whether unjust laws should be broken. Every speaker so far has argued about the breaking. Whether the laws in question are unjust has been taken as settled throughout. That question is the one the motion was presumably meant to raise.",
+            answer: "Whether the laws in question are unjust has been taken as settled throughout.",
+            why: "The others describe the motion and the debate. Only this one names what everybody is assuming without saying so." },
+          { prompt: "Which sentence rejects a possible reading of the argument?",
+            text: "Accepting the penalty makes an act legible as a protest. It is not a demonstration of sincerity, and nothing here turns on how strongly anyone feels. Sincerity cannot be inspected from outside in any case. What can be observed is whether the act was addressed to anyone.",
+            answer: "It is not a demonstration of sincerity, and nothing here turns on how strongly anyone feels.",
+            why: "The only sentence in the negative, and it is there to head off the reading most people arrive with." },
+          { prompt: "Which sentence gives the consequence rather than the principle?",
+            text: "An act nobody can see makes no claim on anybody. It enters no argument and changes no rule. The person who performs it may be entirely sincere. So the observer cannot tell a protest from a convenience, and the act loses the power it was meant to have.",
+            answer: "So the observer cannot tell a protest from a convenience, and the act loses the power it was meant to have.",
+            why: "<i>So</i> plus a result. The three sentences before it set the principle out." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "This unit's suffix, in the article's register.",
@@ -158,9 +212,129 @@
               { text: "Only “crime up 55%”.", why: "The second line is equally present and equally real." },
               { text: "Neither — the chart is inconclusive.", why: "Both figures read straight off it." }
             ] }
+        ] },
+
+      /* ---------------- 4 Read a second article ---------------- */
+      { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
+        prompt: "A second article, on the distinction Lesson 1 opened with. Read it, then answer.",
+        text: PASSAGE2,
+        note: { kind: "reader",
+                body: "<p>Read the second section first if you like. It contains the move the whole article depends on: refusing to locate the difference in motive.</p>" },
+        items: [
+          { q: "What is the main idea?",
+            options: [
+              { text: "Accepting the penalty is what makes rule-breaking readable as an argument.", correct: true,
+                why: "The three sections set up the pair, rule out motive, and then say what acceptance does." },
+              { text: "Breaking rules is justified when the rule is unjust.", why: "Both people in the example believe the rule is unjust; that is held constant on purpose." },
+              { text: "Sincere protesters should not be punished.", why: "The article argues that the punishment is part of what makes the protest work." }
+            ] },
+          { q: "Why does the article reject motive as the distinction?",
+            options: [
+              { text: "Both people may be equally sincere, and sincerity cannot be inspected.", correct: true,
+                why: "Two reasons in one sentence: it does not separate them, and it could not be checked if it did." },
+              { text: "Motive is always dishonest.", why: "Nothing of the kind is suggested about either person." },
+              { text: "Motives cannot be described in words.", why: "The objection is about inspection from outside, not about description." }
+            ] },
+          { q: "What does the article say an unseen act does?",
+            options: [
+              { text: "Makes no claim, enters no argument and leaves the rule as it was.", correct: true,
+                why: "Three consequences in one sentence, and they are what the final section builds on." },
+              { text: "Changes the rule more slowly.", why: "It leaves the rule exactly as it found it — not slower, but not at all." },
+              { text: "Is morally worse than an open act.", why: "The article avoids ranking them morally; it says one of them cannot be read." }
+            ] },
+          { q: "What does the article mean by calling acceptance “not a moral ornament”?",
+            options: [
+              { text: "It does something, rather than merely looking admirable.", correct: true,
+                why: "The sentence replaces the decorative reading with a functional one: it is the mechanism." },
+              { text: "It is not required.", why: "The article treats it as the thing without which the act fails." },
+              { text: "It is unrelated to morality.", why: "The point is that its role is practical as well as moral, not that morality is absent." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        kind: "paraphrase", task: null, n: 0,
+        prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
+        note: { kind: "reader",
+                body: "<p>In this unit the wrong paraphrase usually adds a moral judgement the sentence was careful not to make. Watch for an answer that is more certain, or more condemning, than its source.</p>" },
+        items: [
+          { source: "Two newspapers reporting the same demonstration can both be entirely accurate and still leave their readers with incompatible impressions of it.",
+            options: [
+              { text: "Two papers can get every fact right about one event and still send readers away believing different things.", correct: true,
+                why: "Keeps the accuracy of both and the incompatibility of the impressions." },
+              { text: "One of the two papers must be inaccurate.",
+                why: "The sentence is constructed precisely to deny this." },
+              { text: "Readers draw different conclusions because they read carelessly.",
+                why: "The cause offered by the article is arrangement, not the reader." },
+              { text: "Newspapers should agree on how to report an event.",
+                why: "A recommendation; the sentence is making an observation." }
+            ] },
+          { source: "What distinguishes them is observable rather than internal, and it consists in whether the act is addressed to anybody.",
+            options: [
+              { text: "The difference can be seen from outside: is the act aimed at someone or not?", correct: true,
+                why: "Keeps both halves — observable, and the specific criterion." },
+              { text: "The difference lies in how strongly each person believes.",
+                why: "That is the internal account the sentence rejects." },
+              { text: "The difference is that one act is legal.",
+                why: "Both break the same rule, which is given at the start." },
+              { text: "Only acts with an audience are sincere.",
+                why: "Sincerity is explicitly not the criterion." }
+            ] },
+          { source: "Accepting the penalty is not a moral ornament but the mechanism by which the act becomes legible as an argument.",
+            options: [
+              { text: "Taking the punishment is not decoration: it is what lets the act be read as a case being made.", correct: true,
+                why: "Keeps the <i>not … but …</i> frame and the functional claim inside it." },
+              { text: "Protesters who accept punishment are more admirable.",
+                why: "<i>Not a moral ornament</i> is there to rule this reading out." },
+              { text: "The penalty makes the protest more effective.",
+                why: "Close, and it drops <i>legible</i>: the claim is about being understood, not about force." },
+              { text: "Any act becomes an argument once it is punished.",
+                why: "Reverses the direction: acceptance is the protester's move, not the state's." }
+            ] }
+        ] },
+
+      /* ---------------- 5 Read in daily life again ---------------- */
+      { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
+        prompt: "A second card from the library. Read it.",
+        text: NOTICE2,
+        items: [
+          { q: "You book a room for two o'clock and arrive at ten past. What may have happened?",
+            options: [
+              { text: "The room has been released to someone else.", correct: true,
+                why: "Line 1: ten minutes after the booking starts, if nobody is in it." },
+              { text: "Nothing — the booking lasts two hours.", why: "Line 1 applies before the two hours do." },
+              { text: "The booking has been transferred.", why: "Line 4 says bookings cannot be transferred." }
+            ] },
+          { q: "Can you book the same room for two o'clock and four o'clock on one day?",
+            options: [
+              { text: "Yes — two bookings are allowed, as long as they are not back to back.", correct: true,
+                why: "Line 2 permits two and forbids consecutive ones, and two till four then four till six would be consecutive." },
+              { text: "No — only one booking a day is allowed.", why: "Line 2 allows two." },
+              { text: "Yes, and they may be consecutive.", why: "That is the one thing line 2 rules out." }
+            ] }
+        ] },
+
+      { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
+        prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
+        items: [
+          { stem: "A friend may use your booking if you cannot come.", answer: "F", line: 4,
+            why: "Line 4 forbids transfer outright, with no exception offered." },
+          { stem: "Drinks are permitted in the group rooms.", answer: "NI", line: null,
+            why: "Line 3 names food only. Whether a drink counts as food is exactly the sort of thing the card does not settle, and guessing is not reading." }
+        ] },
+
+      { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "Two articles, one chart, one habit.",
+        text: { blocks: [{ lines: [
+          "<b>Why two true reports differ</b> — what was placed first, and which verb was chosen.",
+          "<b>What separates protest from evasion</b> — whether the act is addressed to anybody.",
+          "<b>What to ask of a source</b> — not only is this true, but why is it here, and first?"
         ],
         closer: { kind: "life",
-          body: "<p>Find one news story reported by two outlets. What does each put in its first sentence? Neither needs to be wrong for them to differ.</p>" } }
+          body: "<p>Find one news story reported by two outlets. What does each put in its first sentence? Neither needs to be wrong for them to differ.</p>" } }] } }
     ]
   };
 })();
