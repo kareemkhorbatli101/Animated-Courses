@@ -1014,3 +1014,6 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .rl-term{font:400 14px/1.65 var(--ui);color:var(--ink);}
 .i6-intro{margin:0 0 15px;}
 .buildrows{margin-top:14px;}
+.ann-group{margin:14px 0 7px;font:700 11px/1.5 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.ann-group:first-child{margin-top:0;}

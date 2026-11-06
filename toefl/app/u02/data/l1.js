@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "measurement", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words that do specific work in this subject. Two of them are often confused, and the article in Lesson 5 turns on the difference.",
+        kind: "cards", task: null, n: 0,
+        prompt: "Eight words that do specific work in this subject. Say each meaning before you turn the card. Two of them are often confused, and the article in Lesson 5 turns on the difference.",
+        cards: [
+          { term: "prediction", ar: "\u062a\u0646\u0628\u0651\u0624",
+            meaning: "a claim about what will happen",
+            with: ["make a prediction", "an accurate prediction", "the prediction failed"],
+            why: "Unconditional. A prediction says the thing will happen, and is simply right or wrong." },
+          { term: "projection", ar: "\u0625\u0633\u0642\u0627\u0637",
+            meaning: "what would follow if a given scenario held",
+            with: ["under this projection", "the central projection", "projections to 2100"],
+            why: "The pair with <i>prediction</i>, and the whole article turns on it. A projection is conditional: it says <i>if this, then that</i>." },
+          { term: "scenario", ar: "\u0633\u064a\u0646\u0627\u0631\u064a\u0648",
+            meaning: "one named set of assumptions about emissions and policy",
+            with: ["under a high-emissions scenario", "a plausible scenario", "the scenario assumes"],
+            why: "The <i>if</i> that a projection depends on. Change the scenario and the projection changes with it." },
+          { term: "emissions", ar: "\u0627\u0646\u0628\u0639\u0627\u062b\u0627\u062a",
+            meaning: "the gases released, usually measured per year",
+            with: ["cut emissions", "annual emissions", "emissions per head"],
+            why: "Nearly always plural, and nearly always with a rate attached: per year, per head, per unit of output." },
+          { term: "trend", ar: "\u0627\u062a\u0651\u062c\u0627\u0647",
+            meaning: "the direction once year-to-year noise is removed",
+            with: ["a rising trend", "the underlying trend", "the trend over thirty years"],
+            why: "A single cold year does not touch a trend. Confusing the two is the commonest mistake in reading this subject." },
+          { term: "average", ar: "\u0645\u062a\u0648\u0633\u0651\u0637",
+            meaning: "the mean across a period, often thirty years",
+            with: ["the thirty-year average", "above average", "on average"],
+            why: "Always ask across what. An average over ten years and one over a century are different claims." },
+          { term: "range", ar: "\u0645\u062f\u0649",
+            meaning: "the span between the lowest and highest result",
+            with: ["a wide range", "the range of outcomes", "within the range"],
+            why: "A range is a statement about what the evidence allows, not a list of equally likely outcomes." },
+          { term: "uncertainty", ar: "\u0639\u062f\u0645 \u0627\u0644\u064a\u0642\u064a\u0646",
+            meaning: "how wide that span is, stated honestly",
+            with: ["quantify the uncertainty", "a large uncertainty", "uncertainty remains"],
+            why: "In this subject uncertainty is not doubt about whether \u2014 it is a measured width, and reporting it is a mark of care." }
+        ],
         text: { every: 1, blocks: [{ lines: [
           "<b>1 prediction</b> — a claim about what <i>will</i> happen",
           "<b>2 projection</b> — what would follow <i>if</i> a given scenario held",
@@ -96,8 +130,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The suffix -ful", letter: "A",
         concepts: ["read", "measurement", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "This unit's affix. <b>-ful</b> turns a noun into an adjective meaning <i>full of</i> or <i>having</i>.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "meaning", affix: "-ful", answer: "meaningful",
+
+            why: "<i>-ful</i>: having meaning. A meaningful difference is one large enough to matter, not merely one you can measure." },
+
+          { root: "doubt", affix: "-ful", answer: "doubtful",
+
+            why: "<i>-ful</i>: carrying doubt. A doubtful result is one the authors themselves are not confident in." },
+
+          { root: "harm", affix: "-less", answer: "harmless",
+
+            why: "<i>-less</i> is the mirror of <i>-ful</i>: without harm, where <i>harmful</i> is full of it." },
+
+          { root: "use", affix: "-less", answer: "useless",
+
+            why: "The same pair again. <i>Useful</i> has a use; <i>useless</i> has none. One root, two directions." },
+
+          { root: "certain", affix: "un-", answer: "uncertain",
+
+            why: "<i>un-</i> negates an adjective that already exists. It does not build one out of a noun, which is what the two suffixes do." },
+
+          { root: "predict", affix: "-able", answer: "predictable",
+
+            why: "<i>-able</i> builds from a verb and means <i>can be done to</i>: a predictable result is one that can be predicted." }
+
+        ],
+        prompt: "This unit's affix. <b>-ful</b> turns a noun into an adjective meaning <i>full of</i> or <i>having</i> \u2014 and the quickest way to feel what it does is against the suffix that means the opposite.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>harm → <b>harm</b>ful · power → <b>power</b>ful · meaning → <b>meaning</b>ful · doubt → <b>doubt</b>ful · use → <b>use</b>ful.<br>One <i>l</i>, always. The stress does not move.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "-FUL IN ACADEMIC WRITING",

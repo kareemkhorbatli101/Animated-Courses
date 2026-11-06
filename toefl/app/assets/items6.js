@@ -30,8 +30,9 @@
     return String(h == null ? "" : h).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
   }
 
-  function intro(stage, spec, api) {
-    if (spec.text && root.Docs) {
+  function intro(stage, spec, api, opts) {
+    opts = opts || {};
+    if (spec.text && !opts.skipText && root.Docs) {
       var r = root.Docs.reading(spec.text);
       r.classList.add("i6-intro");
       stage.appendChild(r);
@@ -393,13 +394,23 @@
   /* --------------------------------------------------------- annotate --- */
   /* spec.sentences : [{ text, job, why }]  spec.jobs : [labels] */
   D.register("annotate", function (stage, spec, api) {
-    intro(stage, spec, api);
+    /* The sentences below ARE the passage, made clickable. Printing the
+       passage above them as well shows the learner the same words twice
+       and doubles the length of the scene. Where the original had block
+       headings, each sentence carries its group instead, so nothing of
+       the source is lost. */
+    intro(stage, spec, api, { skipText: !!(spec.sentences || []).length });
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Click a sentence, then choose what it is doing."));
     var jobs = spec.jobs || [];
     var chosen = {};
     var model = E("div", "model annotated");
+    var lastGroup = null;
     (spec.sentences || []).forEach(function (sn, n) {
+      if (sn.group && sn.group !== lastGroup) {
+        model.appendChild(E("h4", "ann-group", esc(sn.group)));
+        lastGroup = sn.group;
+      }
       var row = E("div", "ann-row");
       var b = E("button", "ann-sent", sn.text);
       b.type = "button";
@@ -409,9 +420,12 @@
       var blank = doc.createElement("option");
       blank.value = ""; blank.textContent = "— what is it doing? —";
       sel.appendChild(blank);
+      /* a <select> option is text only, so the markup in a job label has
+         to come off here or the learner chooses between "<i>will</i> ..."
+         and "<i>going to</i> ..." */
       api.shuffle(jobs.slice()).forEach(function (j) {
         var o = doc.createElement("option");
-        o.value = j; o.textContent = j;
+        o.value = j; o.textContent = plainText(j);
         sel.appendChild(o);
       });
       sel.addEventListener("change", function () {

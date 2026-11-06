@@ -8,8 +8,28 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the future forms", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the two notes. Both are about the same afternoon, and they use different futures for a reason.",
+        kind: "annotate", task: null, n: 0,
+        jobs: ["<i>going to</i> \u2014 a decision already made",
+               "<i>will</i> \u2014 what the evidence leads you to expect",
+               "<i>may</i> \u2014 a possibility the evidence leaves open"],
+        sentences: [
+          { group: "The plan, made last week", text: "We are going to collect samples from the three sites on Thursday.",
+            job: "<i>going to</i> \u2014 a decision already made",
+            why: "The plan was made last week. <i>Going to</i> reports an intention that already exists, which is why it cannot carry a forecast." },
+          { text: "I am going to bring the cold box.",
+            job: "<i>going to</i> \u2014 a decision already made",
+            why: "Same form, same reason: somebody has decided. Nothing here is being predicted." },
+          { group: "What the forecast says", text: "It will probably rain on Thursday afternoon.",
+            job: "<i>will</i> \u2014 what the evidence leads you to expect",
+            why: "Nobody decided it would rain. <i>Will</i> is for where the evidence points, and <i>probably</i> admits it is evidence rather than certainty." },
+          { text: "The river will be high by then.",
+            job: "<i>will</i> \u2014 what the evidence leads you to expect",
+            why: "A consequence of the rain that the speaker is confident of, so it takes the same future as the rain itself." },
+          { text: "So site three may not be safe.",
+            job: "<i>may</i> \u2014 a possibility the evidence leaves open",
+            why: "The same sentence drops to <i>may</i> for the part the evidence does not settle. Two futures in one line, because the confidence changes across it." }
+        ],
+        prompt: "Two notes about the same Thursday afternoon. Click each line and say which future it uses. The choice is never free \u2014 it says where the speaker's confidence comes from.",
         text: { every: 1, blocks: [
           { h: "The plan, made last week", lines: [
             "We are going to collect samples from the three sites on Thursday.",

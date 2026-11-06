@@ -171,8 +171,60 @@
 
       { id: "c", section: 3, sectionTitle: "Disagree politely", letter: "A",
         concepts: ["read", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. In a seminar, disagreeing well is a skill with its own phrases.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Name the part you accept before the part you don\u0027t.",
+
+            say: "Name the part you accept before the part you do not.",
+
+            when: "Before any disagreement, every time.",
+
+            why: "It proves you were listening and narrows the argument to the part that is actually in dispute, which is usually smaller than it first looked." },
+
+          { text: "Disagree with the claim, not the person who made it.",
+
+            say: "Disagree with the claim, not the person who made it.",
+
+            when: "Whenever you feel the urge to say <i>you are wrong</i>.",
+
+            why: "<i>That assumes</i> invites an answer; <i>you assume</i> invites a defence. The grammar decides whether the seminar continues." },
+
+          { text: "Ask a question when you are not yet sure you disagree.",
+
+            say: "Ask a question when you are not yet sure you disagree.",
+
+            when: "The moment before you commit to a position you may not hold.",
+
+            why: "Most apparent disagreements are two people using one word differently. A question finds that out before anyone has to retreat." },
+
+          { text: "I think that\u0027s right about the scenarios, but I\u0027d separate that from the model differences.",
+
+            say: "I think that is right about the scenarios, but I would separate that from the model differences.",
+
+            when: "When someone has merged two things that should be kept apart.",
+
+            why: "Concede, then split. The disagreement is not about whether they are right but about where one claim ends and another begins." },
+
+          { text: "That\u0027s true up to a point \u2014 though it assumes the extremes are as likely as the middle.",
+
+            say: "That is true up to a point, though it assumes the extremes are as likely as the middle.",
+
+            when: "When a claim holds under an assumption the speaker has not stated.",
+
+            why: "<i>Up to a point</i> grants the ground; <i>it assumes</i> names the hidden step. Together they disagree without contradicting." },
+
+          { text: "Can I check what you mean by <i>prediction</i> there?",
+
+            say: "Can I check what you mean by prediction there?",
+
+            when: "As soon as a word is doing two jobs in one conversation.",
+
+            why: "Not a retreat. Asking what someone means by a word is the most efficient disagreement there is, and in this unit it is the whole argument." }
+
+        ],
+        prompt: "In a seminar, disagreeing well is a skill with its own phrases. Hear each one, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>I see it slightly differently.</i><i>That's true up to a point, but…</i><i>I'd want to separate two things there.</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO DISAGREE POLITELY",
@@ -211,8 +263,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Disagree politely", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "d1", label: "The soft retreat",
+
+            detail: "Amal thinks the projection is being misread, says \u201cmaybe I am wrong, it is probably fine\u201d, and the point is never examined." },
+
+          { id: "d2", label: "The flat no",
+
+            detail: "Bilal says \u201cthat is not right\u201d and stops there. The other student defends the whole position rather than the part at issue." },
+
+          { id: "d3", label: "The whole package",
+
+            detail: "Dina disagrees with one assumption and ends up arguing against the entire paper, including the parts she accepts." }
+
+        ],
+
+        takeaways: [
+
+          { text: "Disagreeing well is <b>not softening what you think</b>.", caseId: "d1",
+
+            why: "Amal softened until there was nothing left to answer. Hedging a point out of existence is not politeness; it removes the thing the seminar was for." },
+
+          { text: "It is <b>being precise</b>", caseId: "d2",
+
+            why: "Bilal was precise about nothing. <i>That is not right</i> gives the other person no part to defend, so they defend everything." },
+
+          { text: "<b>about which part of it you are disagreeing with</b>.", caseId: "d3",
+
+            why: "Dina is arguing with a whole paper over one assumption. Naming the part she accepts would leave one question on the table instead of twenty." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three seminars about to need it. Drag each part onto the person it would change.",
         text: { blocks: [{ lines: [
           "Disagreeing well is not softening what you think. It is being precise about which part of it you are disagreeing with."
         ] }] },

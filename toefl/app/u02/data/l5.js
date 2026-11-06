@@ -76,8 +76,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "projection", ar: "\u0625\u0633\u0642\u0627\u0637",
+            meaning: "what would follow if stated assumptions held",
+            with: ["under this projection", "the central projection", "a projection to 2100"],
+            why: "Conditional, and that is the whole point. A projection cannot be wrong in the way a prediction can: it is a claim about what follows from an <i>if</i>." },
+          { term: "scenario", ar: "\u0633\u064a\u0646\u0627\u0631\u064a\u0648",
+            meaning: "one named set of assumptions",
+            with: ["a high-emissions scenario", "under that scenario", "the scenario assumes"],
+            why: "The <i>if</i> itself. Naming the scenario is what lets two groups argue about the same projection without talking past each other." },
+          { term: "improbable", ar: "\u0645\u0633\u062a\u0628\u0639\u064e\u062f",
+            meaning: "unlikely, though not impossible",
+            with: ["an improbable outcome", "improbable but possible", "highly improbable"],
+            why: "Not the same as impossible, and the gap matters: a range includes improbable ends precisely because they are not ruled out." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the article turns on the first of them.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>projection</span> (n) what would follow if stated assumptions held",
           "<span class='gloss'>scenario</span> (n) one named set of assumptions",
@@ -353,8 +367,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one chart, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "r1", label: "The single number",
+
+            detail: "Idris reports that warming will be 2.7 degrees, from a chart that showed a band from 2.1 to 3.5." },
+
+          { id: "r2", label: "The biggest slice",
+
+            detail: "Noor picks the largest wedge of a pie chart of emissions by sector and concludes that is where the cuts should start." },
+
+          { id: "r3", label: "The shape first",
+
+            detail: "Sami looks at a steeply rising line, says the rise is alarming, and has not yet looked at what the axis measures." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Why a range</b> \u2014 scenarios differ, and so do the models given the same scenario.", caseId: "r1",
+
+            why: "Idris turned a band into a number, which throws away the one thing the band was reporting: two separate sources of spread, neither of which has gone away." },
+
+          { text: "<b>Why not the biggest slice</b> \u2014 size is agreed; difficulty is what decides, and it is not drawn.", caseId: "r2",
+
+            why: "The chart shows how much each sector emits. It says nothing about which is cheapest or quickest to cut, and that is the question Noor is actually asking." },
+
+          { text: "<b>What to do</b> \u2014 read the key, then the labels, then the text around the chart. The shape last.", caseId: "r3",
+
+            why: "A steep line means nothing until you know the units and the span. Shape is the most persuasive part of a chart and the least informative on its own." }
+
+        ],
+        prompt: "Two articles, one chart, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>Why a range</b> — scenarios differ, and so do the models given the same scenario.",
           "<b>Why not the biggest slice</b> — size is agreed; difficulty is what decides, and it is not drawn.",
