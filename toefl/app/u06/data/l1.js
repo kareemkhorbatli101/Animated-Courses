@@ -9,8 +9,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "This subject runs on phrasal verbs. That is not casual English — it is the register the process itself is described in.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "break down", ar: "\u064a\u064f\u0641\u0643\u0651\u0643 / \u064a\u062d\u0644\u0651\u0644",
+            meaning: "to separate into smaller parts",
+            with: ["enzymes break starch down", "break it down", "broken down into glucose"],
+            why: "Separable: with a pronoun the object must sit in the middle. <i>Break down it</i> is immediately audible as wrong." },
+          { term: "take in", ar: "\u064a\u0645\u062a\u0635\u0651",
+            meaning: "to absorb",
+            with: ["the gut takes in glucose", "take it in", "taken in through the wall"],
+            why: "Also separable. In the lab it means absorb; in a lecture it means understand, and context does all the work." },
+          { term: "give off", ar: "\u064a\u064f\u0637\u0644\u0642 / \u064a\u0628\u0639\u062b",
+            meaning: "to release",
+            with: ["gives off heat", "give off a gas", "given off as vapour"],
+            why: "Nearly always about something unintended or incidental \u2014 heat, light, a smell \u2014 rather than a product you wanted." },
+          { term: "build up", ar: "\u064a\u062a\u0631\u0627\u0643\u0645",
+            meaning: "to accumulate",
+            with: ["lactate builds up", "build up slowly", "a build-up of"],
+            why: "Usually intransitive here: the lactate builds up by itself. As a noun it is hyphenated: <i>a build-up</i>." },
+          { term: "use up", ar: "\u064a\u0633\u062a\u0646\u0641\u062f",
+            meaning: "to consume entirely",
+            with: ["use up the store", "used it up", "the glucose is used up"],
+            why: "<i>Up</i> adds completeness, which it does to many of these: used, and used to exhaustion." },
+          { term: "carry out", ar: "\u064a\u064f\u062c\u0631\u064a",
+            meaning: "to perform",
+            with: ["carry out an assay", "carried out in triplicate", "carry it out"],
+            why: "The standard verb for performing a procedure, and far commoner in method sections than <i>do</i> or <i>make</i>." },
+          { term: "make up", ar: "\u064a\u064f\u0634\u0643\u0651\u0644",
+            meaning: "to constitute",
+            with: ["water makes up most of the body", "makes up 60 per cent", "made up of"],
+            why: "<i>Make up</i> for constitute, <i>be made up of</i> for consist of. The passive is the form you will write most often." },
+          { term: "convert", ar: "\u064a\u064f\u062d\u0648\u0651\u0644",
+            meaning: "the single-word equivalent of several of the above",
+            with: ["convert glucose to", "converted into", "the conversion rate"],
+            why: "The one that matters for writing. The phrasal verb is for speech and the bench; the Latinate verb is for the paper." }
+        ],
+        prompt: "This subject runs on phrasal verbs \u2014 not casual English, but the register the process itself is described in. Say each meaning before you turn the card.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 break down</b> — to separate into smaller parts: <i>enzymes break starch down</i>",
           "<b>2 take in</b> — to absorb: <i>the gut takes in glucose</i>",
@@ -100,8 +134,58 @@
 
       { id: "2a", section: 2, sectionTitle: "Separable and inseparable", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Some phrasal verbs let the object sit in the middle. Some do not, and getting it wrong is immediately audible.",
+        kind: "annotate", task: null, n: 0,
+
+        jobs: ["Separable \u2014 the object may sit in the middle",
+
+               "Separable \u2014 with a pronoun it MUST sit in the middle",
+
+               "Inseparable \u2014 the object always follows the particle"],
+
+        sentences: [
+
+          { group: "Separable",
+
+            text: "Enzymes break the starch down.",
+
+            job: "Separable \u2014 the object may sit in the middle",
+
+            why: "A noun object may go either side. Both this and <i>break down the starch</i> are correct, and neither is more formal." },
+
+          { group: "Separable",
+
+            text: "Enzymes break down the starch.",
+
+            job: "Separable \u2014 the object may sit in the middle",
+
+            why: "The same verb, the other position. The choice is rhythm: a long object tends to go to the end." },
+
+          { group: "Separable",
+
+            text: "Enzymes break it down.",
+
+            job: "Separable \u2014 with a pronoun it MUST sit in the middle",
+
+            why: "The rule hardens for pronouns. <i>Break down it</i> is the one version a native speaker will not produce." },
+
+          { group: "Inseparable",
+
+            text: "We went over the method.",
+
+            job: "Inseparable \u2014 the object always follows the particle",
+
+            why: "<i>Go over</i> never splits, with a noun or a pronoun. <i>We went the method over</i> is not an option at all." },
+
+          { group: "Inseparable",
+
+            text: "We went over it.",
+
+            job: "Inseparable \u2014 the object always follows the particle",
+
+            why: "And the pronoun changes nothing here, which is exactly the opposite of <i>break down</i>. The difference is not style, and no rule predicts it." }
+
+        ],
+        prompt: "Some phrasal verbs let the object sit in the middle and some do not, and getting it wrong is immediately audible. Click each line and say which it shows.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p><b>Separable:</b> break it down · take it in · use it up · carry it out.<br>With a <b>pronoun</b> the object <i>must</i> go in the middle: <i>break it down</i>, never <i>break down it</i>.<br><b>Inseparable:</b> look after it · go over it · get over it. The object always follows the whole verb.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "WHERE THE OBJECT GOES",

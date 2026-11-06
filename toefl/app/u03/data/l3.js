@@ -8,8 +8,29 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review comparison", letter: "A",
         concepts: ["read", "comparison", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the two field notes. The comparisons in them follow a rule you can state.",
+        kind: "annotate", task: null, n: 0,
+        jobs: ["<i>-er than</i> \u2014 a short adjective, one or two syllables",
+               "<i>more … than</i> \u2014 a long adjective, three or more",
+               "<i>the -est</i> \u2014 the top of a group, short adjective"],
+        sentences: [
+          { group: "Before the drought",
+            text: "Beaks on this island are slightly deeper than on the island to the north.",
+            job: "<i>-er than</i> \u2014 a short adjective, one or two syllables",
+            why: "<i>Deep</i> is one syllable, so it takes the ending. <i>More deep</i> is understandable and wrong." },
+          { group: "Before the drought",
+            text: "The seeds here are smaller and softer than the ones we measured last year.",
+            job: "<i>-er than</i> \u2014 a short adjective, one or two syllables",
+            why: "Two short adjectives, both with the ending, and one <i>than</i> serving both. Repeating <i>than</i> would be wrong here." },
+          { group: "After",
+            text: "The surviving birds have the deepest beaks we have recorded anywhere.",
+            job: "<i>the -est</i> \u2014 the top of a group, short adjective",
+            why: "Not a comparison between two things but a claim about the top of a set, so the superlative and the article <i>the</i> go together." },
+          { group: "After",
+            text: "Cracking these seeds is far more difficult than cracking last year\u0027s.",
+            job: "<i>more … than</i> \u2014 a long adjective, three or more",
+            why: "<i>Difficult</i> is three syllables, so the comparison goes in front of it. <i>Difficulter</i> is the form the other rule would give." }
+        ],
+        prompt: "Two field notes from the same island. Click each comparison and say which form it uses. The rule is not about meaning \u2014 it is about how many syllables the adjective has.",
         text: { every: 1, blocks: [
           { h: "Before the drought", lines: [
             "Beaks on this island are slightly deeper than on the island to the north.",

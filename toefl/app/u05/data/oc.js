@@ -171,8 +171,60 @@
 
       { id: "c", section: 3, sectionTitle: "Make a suggestion", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. In a group project, a suggestion lands or not depending almost entirely on how it is framed.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Offer it as one option, not as the answer.",
+
+            say: "Offer it as one option, not as the answer.",
+
+            when: "Every time, and especially when you are confident.",
+
+            why: "<i>One option would be</i> leaves room for a better idea. <i>We should</i> makes anyone with a better idea have to defeat yours first." },
+
+          { text: "Say what problem it solves.",
+
+            say: "Say what problem it solves.",
+
+            when: "Attached to the suggestion, in the same breath.",
+
+            why: "A suggestion without a problem is a preference. With one, the group can judge it on something other than who said it." },
+
+          { text: "Offer to do part of it yourself.",
+
+            say: "Offer to do part of it yourself.",
+
+            when: "Before the group has to decide who would.",
+
+            why: "The one that changes outcomes. Attaching your own labour is what separates a suggestion from an instruction." },
+
+          { text: "What if we took the second half? Our targets don\u0027t rise until after midnight anyway.",
+
+            say: "What if we took the second half? Our targets do not rise until after midnight anyway.",
+
+            when: "When your preference happens to cost you nothing.",
+
+            why: "<i>What if</i> opens it as a question, and the reason given makes clear you are not simply taking the better slot." },
+
+          { text: "One option would be to split the night \u2014 though I think that wastes both setups.",
+
+            say: "One option would be to split the night, though I think that wastes both setups.",
+
+            when: "When you want to put an option on the table and argue against it.",
+
+            why: "Naming the alternative yourself, with its weakness, is far more persuasive than waiting for someone else to raise it." },
+
+          { text: "Would it help if I wrote to the technician this afternoon?",
+
+            say: "Would it help if I wrote to the technician this afternoon?",
+
+            when: "As the suggestion lands, before anyone asks who will do it.",
+
+            why: "<i>Would it help</i> asks permission to take work on, which is the one request almost nobody refuses." }
+
+        ],
+        prompt: "In a group project, a suggestion lands or not depending almost entirely on how it is framed. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>What if we…?</i><i>One option would be to…</i><i>Would it help if I…?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO SUGGEST SOMETHING",
@@ -212,8 +264,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Make a suggestion", letter: "C",
         concepts: ["read", "comparison"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "s1", label: "The good idea nobody took",
+
+            detail: "Hana proposes a neat fix for the timetable. Everyone agrees it is sensible. Nobody does it, and the meeting moves on." },
+
+          { id: "s2", label: "The instruction",
+
+            detail: "Youssef says the group should rewrite the method section. The others hear it as being told what to do and resist a change they privately agree with." },
+
+          { id: "s3", label: "The volunteer who was not asked",
+
+            detail: "Dalia would happily write to the technician but waits to be assigned, and the task sits unclaimed for a week." }
+
+        ],
+
+        takeaways: [
+
+          { text: "A suggestion <b>with your own name attached to part of the work</b>", caseId: "s1",
+
+            why: "Hana\u0027s idea was accepted and orphaned. An idea with nobody\u0027s name on it is everybody\u0027s to agree with and nobody\u0027s to start." },
+
+          { text: "<b>is not a suggestion any more</b>.", caseId: "s2",
+
+            why: "Youssef made a proposal that only other people would carry out, which is what an instruction is. The content was right; the shape made it refusable." },
+
+          { text: "It is <b>an offer, and offers get accepted</b>.", caseId: "s3",
+
+            why: "Dalia is waiting for a process that is not coming. <i>Would it help if I...</i> converts a stalled task into an accepted offer in one sentence." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three meetings where a good idea is about to die. Drag each part onto the one it would save.",
         text: { blocks: [{ lines: [
           "A suggestion with your own name attached to part of the work is not a suggestion any more. It is an offer, and offers get accepted."
         ],

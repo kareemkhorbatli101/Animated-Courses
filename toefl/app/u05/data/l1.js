@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "comparison", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. The last pair matters most: a great deal of this subject turns on the difference between what is there and what can be detected.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "orbit", ar: "\u0645\u062f\u0627\u0631",
+            meaning: "the path one body takes around another",
+            with: ["enter orbit", "a stable orbit", "in orbit around"],
+            why: "Both noun and verb, and the verb takes no preposition: a moon <i>orbits</i> a planet, not <i>orbits around</i> it." },
+          { term: "probe", ar: "\u0645\u0633\u0628\u0627\u0631",
+            meaning: "an uncrewed spacecraft sent to observe",
+            with: ["launch a probe", "the probe returned data", "a deep-space probe"],
+            why: "Also a verb meaning to investigate carefully, which is where the noun comes from: the craft is the question, sent out." },
+          { term: "payload", ar: "\u0627\u0644\u062d\u0645\u0648\u0644\u0629",
+            meaning: "what a vehicle carries, instruments included",
+            with: ["the scientific payload", "payload capacity", "a heavy payload"],
+            why: "Everything the mission exists to carry, as against the fuel and structure that exist to carry it." },
+          { term: "transit", ar: "\u0639\u0628\u0648\u0631",
+            meaning: "a planet passing in front of its star, seen from here",
+            with: ["a transit event", "observe the transit", "transit depth"],
+            why: "<i>Seen from here</i> is the whole word. A planet only transits relative to an observer, which is the first hint that this method is partial." },
+          { term: "signal", ar: "\u0625\u0634\u0627\u0631\u0629",
+            meaning: "the measurable trace an object leaves in the data",
+            with: ["a weak signal", "signal-to-noise", "the signal disappeared"],
+            why: "Not the object. A planet with no signal is still a planet, and that gap is what the Lesson 5 article is about." },
+          { term: "catalogue", ar: "\u0641\u0647\u0631\u0633",
+            meaning: "the published list of what has been found",
+            with: ["in the catalogue", "a catalogue of planets", "catalogue entry"],
+            why: "American English writes <i>catalog</i>. Found, not existing \u2014 and the article turns on that distinction." },
+          { term: "sample", ar: "\u0639\u064a\u0651\u0646\u0629",
+            meaning: "the part of a population you actually observed",
+            with: ["a representative sample", "the sample size", "sampled at random"],
+            why: "Hold this with <i>bias</i>. A catalogue is a sample, and treating it as the population is the mistake the whole unit is built around." },
+          { term: "bias", ar: "\u062a\u062d\u064a\u0651\u0632",
+            meaning: "the way a method makes some things easier to find than others",
+            with: ["selection bias", "correct for bias", "a biased sample"],
+            why: "Not dishonesty. A method that finds big close planets is biased towards big close planets by its physics, and saying so is a technical statement." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. The last pair matters most: a great deal of this subject turns on the difference between what is there and what can be detected.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 orbit</b> — the path one body takes around another",
           "<b>2 probe</b> — an uncrewed spacecraft sent to observe",
@@ -95,8 +129,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The prefix un-", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>un-</b> negates. It is the commonest negative prefix in English and it attaches to adjectives and participles.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "crewed", affix: "un-", answer: "uncrewed",
+
+            why: "<i>un-</i> attaches happily to participles. <i>Unmanned</i> is the older word and still common in the literature." },
+
+          { root: "stable", affix: "un-", answer: "unstable",
+
+            why: "An unstable orbit is one that will not persist. <i>un-</i> before an adjective is the plainest use of it." },
+
+          { root: "expected", affix: "un-", answer: "unexpected",
+
+            why: "An unexpected result is worth reading twice: it is either a discovery or a mistake." },
+
+          { root: "complete", affix: "in-", answer: "incomplete",
+
+            why: "<i>in-</i> does the same job on a different set of words, and no rule tells you which takes which. <i>Uncomplete</i> is not English." },
+
+          { root: "possible", affix: "im-", answer: "impossible",
+
+            why: "<i>im-</i> is <i>in-</i> before <i>p</i>, <i>b</i> and <i>m</i>, because that is easier to say. The spelling follows the mouth." },
+
+          { root: "regular", affix: "ir-", answer: "irregular",
+
+            why: "And <i>ir-</i> before <i>r</i>, for the same reason. Four prefixes, one meaning, and the choice is phonetic rather than logical." }
+
+        ],
+        prompt: "<b>un-</b> negates, and it is the commonest negative prefix in English. Build each word \u2014 the other negatives are here because choosing the right one is most of the skill.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>un + manned → <b>un</b>manned · un + stable → <b>un</b>stable · un + explored → <b>un</b>explored · un + likely → <b>un</b>likely · un + expected → <b>un</b>expected.<br>It does not move the stress, and it never doubles the <i>n</i> except where the word already begins with one: <i>un + necessary → unnecessary</i>.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "UN- IN ACADEMIC WRITING",

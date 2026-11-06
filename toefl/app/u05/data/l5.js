@@ -74,8 +74,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "displace", ar: "\u064a\u064f\u0632\u064a\u062d",
+            meaning: "to move something slightly from its position",
+            with: ["displace the star", "a displaced orbit", "displacement of"],
+            why: "<i>Slightly</i> is the point: a planet displaces its star by a few metres a second, and that tiny motion is the whole detection method." },
+          { term: "convenient", ar: "\u0645\u064f\u0648\u0627\u062a\u064d / \u0633\u0647\u0644 \u0627\u0644\u0645\u0646\u0627\u0644",
+            meaning: "easy, given the method you are using",
+            with: ["a convenient target", "conveniently placed", "convenient for the method"],
+            why: "Hold this against <i>equivalent</i>. What is convenient to find is not therefore common, and reading one as the other is the article\u0027s subject." },
+          { term: "equivalent", ar: "\u0645\u064f\u0643\u0627\u0641\u0626",
+            meaning: "the same in value or effect",
+            with: ["equivalent to", "the equivalent mass", "broadly equivalent"],
+            why: "The other half of the argument. Two catalogues are equivalent only if the methods behind them had the same biases, which they rarely do." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the last two carry the argument between them.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>displace</span> (v) to move something slightly from its position",
           "<span class='gloss'>convenient</span> (adj) easy, given the method you are using",
@@ -343,8 +357,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "measurement", "sample"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one chart, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "p1", label: "The census",
+
+            detail: "Rami reports that most planets are large and close to their stars, citing the catalogue of confirmed detections." },
+
+          { id: "p2", label: "The cut-off",
+
+            detail: "Lara treats the detection threshold as a property of the instrument, like its mass, rather than something somebody chose." },
+
+          { id: "p3", label: "The missing half",
+
+            detail: "Zaid has a list of detections and no way of saying what the method would have missed." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What the catalogue was</b> \u2014 a sample of the method, not of the universe.", caseId: "p1",
+
+            why: "Rami has described the method\u0027s preferences and called them the universe\u0027s. Large close planets are the easiest to detect, which tells you about the telescope first." },
+
+          { text: "<b>What the threshold is</b> \u2014 a choice between two errors, not a measurement.", caseId: "p2",
+
+            why: "Lower it and you catch more real planets and more noise; raise it and you lose both. Somebody picked the balance, and the catalogue inherits that choice." },
+
+          { text: "<b>What to ask</b> \u2014 would this object have been in the list if it were half the size?", caseId: "p3",
+
+            why: "The question that turns a catalogue back into a sample. If the answer is no, the list is telling you about its own limits as much as about anything out there." }
+
+        ],
+        prompt: "Two articles, one chart, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>What the catalogue was</b> — a sample of the method, not of the universe.",
           "<b>What the threshold is</b> — a choice between two errors, not a measurement.",

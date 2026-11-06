@@ -171,8 +171,60 @@
 
       { id: "c", section: 3, sectionTitle: "Check you have understood", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. Checking is not admitting you were lost; it is how you find out early.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Say it back in your own words, not theirs.",
+
+            say: "Say it back in your own words, not theirs.",
+
+            when: "Any time a point was long or mattered.",
+
+            why: "The only check that works. Repeating the speaker\u0027s words proves you heard them; your own words are the first moment either of you finds out whether you understood." },
+
+          { text: "Check the consequence, not just the fact.",
+
+            say: "Check the consequence, not just the fact.",
+
+            when: "When what follows from a point matters more than the point.",
+
+            why: "Understanding a fact and understanding what it obliges you to do next are different, and only the second one changes what you do at the bench." },
+
+          { text: "Name the thing it refers to.",
+
+            say: "Name the thing it refers to.",
+
+            when: "Whenever the speaker has said <i>it</i>, <i>that</i> or <i>this</i> about something ambiguous.",
+
+            why: "Half of all misunderstandings in a lab are a pronoun with two possible referents. Naming it costs four words." },
+
+          { text: "So you mean the enzyme has to go in after the bath is up to temperature?",
+
+            say: "So you mean the enzyme has to go in after the bath is up to temperature?",
+
+            when: "After an instruction with an order in it.",
+
+            why: "Your own words, and the order made explicit. If you have the sequence backwards, you find out now rather than halfway through the run." },
+
+          { text: "Just to check \u2014 does that mean we start the whole run again?",
+
+            say: "Just to check, does that mean we start the whole run again?",
+
+            when: "When the consequence is expensive.",
+
+            why: "Checking the consequence rather than the fact. <i>Just to check</i> keeps it light while asking about an hour of work." },
+
+          { text: "When you say <i>go over it</i>, do you mean the method or the readings?",
+
+            say: "When you say go over it, do you mean the method or the readings?",
+
+            when: "The moment a phrase could point at two things.",
+
+            why: "Naming both candidates makes the question answerable in one word, which is what distinguishes a check from an interruption." }
+
+        ],
+        prompt: "Checking is not admitting you were lost; it is how you find out early. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>So you mean…?</i><i>Just to check — is that…?</i><i>Can I say that back to you?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT TO CHECK YOU HAVE UNDERSTOOD",
@@ -211,8 +263,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Check you have understood", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "u1", label: "The echo",
+
+            detail: "Rana repeats the demonstrator\u0027s sentence back word for word. Both take it as understanding, and she gets the step wrong anyway." },
+
+          { id: "u2", label: "The silent assumption",
+
+            detail: "Tarek thinks he has followed but says nothing, and discovers at the end of the run that he had the order reversed." },
+
+          { id: "u3", label: "The paraphrase that worked",
+
+            detail: "Nour says it back in her own words, gets a small correction, and the correction takes four seconds." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>Repeating somebody\u0027s words proves you heard them.</b>", caseId: "u1",
+
+            why: "Rana\u0027s echo tested her hearing, not her understanding. The words can pass through intact with no model of them behind." },
+
+          { text: "<b>Only your own words</b>", caseId: "u3",
+
+            why: "Nour\u0027s paraphrase did the work: it exposed what she thought, which is the only thing a correction can get hold of." },
+
+          { text: "<b>prove you understood.</b>", caseId: "u2",
+
+            why: "Tarek proved nothing either way, and the cost of finding out was a whole run. Silence is the most expensive check there is." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three checks that are about to fail. Drag each part onto the one it would fix.",
         text: { blocks: [{ lines: [
           "Repeating somebody's words proves you heard them. Only your own words prove you understood."
         ],

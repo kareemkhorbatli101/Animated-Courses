@@ -72,8 +72,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "vertebrate", ar: "\u0641\u0642\u0627\u0631\u064a",
+            meaning: "an animal with a backbone",
+            with: ["a small vertebrate", "vertebrate species", "vertebrates and invertebrates"],
+            why: "The <i>in-</i> form is the one you meet more often in this subject: invertebrates outnumber vertebrates by a long way." },
+          { term: "composition", ar: "\u062a\u0631\u0643\u064a\u0628",
+            meaning: "what a group is made up of",
+            with: ["the composition of the population", "species composition", "changed its composition"],
+            why: "Another <i>-tion</i> noun, and the one the article needs: the population did not change size, it changed composition." },
+          { term: "differential", ar: "\u062a\u0641\u0627\u0636\u0644\u064a",
+            meaning: "different for different members of a group",
+            with: ["differential survival", "differential access", "a differential effect"],
+            why: "The key to the whole article. Survival that is differential is not survival that is lower \u2014 it is survival that depends on which bird you are." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the third is the key to the whole article.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>vertebrate</span> (n) an animal with a backbone",
           "<span class='gloss'>composition</span> (n) what a group is made up of",
@@ -342,8 +356,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "measurement", "sample"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one graph, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "g1", label: "The bird that adapted",
+
+            detail: "Rania writes that the finches adapted their beaks to the drought, growing deeper beaks as the seeds got harder." },
+
+          { id: "g2", label: "The two islands",
+
+            detail: "Tarek finds both islands have an average beak depth of 9.4 mm and reports that the populations are the same." },
+
+          { id: "g3", label: "The bar on its own",
+
+            detail: "Lina reads an average off a bar chart and uses it without asking what the spread behind it looked like." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What changed</b> \u2014 the population, not any bird in it.", caseId: "g1",
+
+            why: "No bird grew a deeper beak. Birds with deeper beaks survived more often, and the average moved because the membership changed. Rania has described an effort where there was only a filter." },
+
+          { text: "<b>What the bar shows</b> \u2014 the average, which two quite different populations can share.", caseId: "g2",
+
+            why: "One island can be tightly clustered at 9.4 and the other split between 7 and 12. Same average, different populations, and selection would act on them quite differently." },
+
+          { text: "<b>What to ask</b> \u2014 what distribution was this computed from?", caseId: "g3",
+
+            why: "The question that turns an average back into evidence. Without it a bar is a single number standing in for a shape nobody has seen." }
+
+        ],
+        prompt: "Two articles, one graph, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>What changed</b> — the population, not any bird in it.",
           "<b>What the bar shows</b> — the average, which two quite different populations can share.",

@@ -9,8 +9,23 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
         concepts: ["read", "time"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the model. Four paragraphs, four jobs — and you should be able to name each one.",
+        kind: "annotate", task: null, n: 0,
+        jobs: ["Why I am writing", "What happened", "What I propose", "What I need from you"],
+        sentences: [
+          { text: "I am writing about the observing slot our group was given for Tuesday.",
+            job: "Why I am writing",
+            why: "One sentence, and the reader knows what the message is about before any detail arrives. Everything after this is support." },
+          { text: "The dome was rebooked after Monday\u0027s session was clouded out, and the two bookings now overlap. We only found out this morning, when both groups arrived.",
+            job: "What happened",
+            why: "Facts, with nothing asked for yet. Mixing the request in here is the commonest fault, and it makes the reader hunt for what you want." },
+          { text: "Rather than split the night, we would like to take the second half and let the other group start. Our targets rise after midnight, so the later slot suits us better in any case.",
+            job: "What I propose",
+            why: "A proposal with its reason attached. Note that it gives the other group the earlier slot \u2014 a proposal that costs the writer something is far harder to refuse." },
+          { text: "Could you confirm that this is acceptable, and let us know by Monday afternoon so that both groups can plan?",
+            job: "What I need from you",
+            why: "One request, one deadline, one reason for the deadline, in one place. The reader knows exactly what to do and by when." }
+        ],
+        prompt: "The model, four paragraphs. Click each one and name its job \u2014 you should be able to, and if you cannot, the paragraph is doing two things at once.",
         note: { kind: "writer",
                 body: "<p>In a message of more than two paragraphs, give each one a single job: <b>why I am writing</b>, <b>what happened</b>, <b>what I propose</b>, <b>what I need from you</b>. A reader should be able to skip to the paragraph they care about.</p>" },
         text: { every: 1, blocks: [{ lines: [

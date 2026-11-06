@@ -172,8 +172,60 @@
 
       { id: "c", section: 3, sectionTitle: "Ask for help", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. Asking for help is a skill, and most of it is in the framing.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Say what you have already tried.",
+
+            say: "Say what you have already tried.",
+
+            when: "First, before the question itself.",
+
+            why: "It does two things at once: it respects the other person\u0027s time, and it shows you are not asking them to do the work for you." },
+
+          { text: "Ask for a direction, not for the answer.",
+
+            say: "Ask for a direction, not for the answer.",
+
+            when: "Whenever the full answer would take longer than the other person has.",
+
+            why: "A direction is cheap to give and nearly always enough. Asking for the answer makes helping expensive, and expensive help is refused." },
+
+          { text: "Apologise once, at most.",
+
+            say: "Apologise once, at most.",
+
+            when: "At the start, briefly, and then not again.",
+
+            why: "Repeated apology turns a small request into an occasion and makes the other person manage your discomfort as well as your question." },
+
+          { text: "I\u0027ve looked in the catalogue and the index \u2014 could you point me at the right section?",
+
+            say: "I have looked in the catalogue and the index. Could you point me at the right section?",
+
+            when: "In a library, an office hour, or any request to someone who knows where things are.",
+
+            why: "All three moves in one sentence: what you tried, a direction rather than an answer, and no apology at all." },
+
+          { text: "I may be missing something obvious.",
+
+            say: "I may be missing something obvious.",
+
+            when: "When you suspect the answer is simple and you cannot see it.",
+
+            why: "It gives the other person permission to say something simple without it sounding like a correction." },
+
+          { text: "I\u0027ve not come across this before; what would you check first?",
+
+            say: "I have not come across this before. What would you check first?",
+
+            when: "When the problem is new to you and routine to them.",
+
+            why: "<i>What would you check first</i> asks for their method rather than their conclusion, which is the part you can reuse next time." }
+
+        ],
+        prompt: "Asking for help is a skill, and most of it is in the framing. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>I may be missing something obvious.</i><i>I've not come across this before.</i><i>Could you point me at the right section?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT HELP AND NOT PITY",
@@ -213,8 +265,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Ask for help", letter: "C",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "h1", label: "The polished question",
+
+            detail: "Yara spends two minutes framing her question in the most sophisticated terms she can manage. The lecturer answers a question she did not ask." },
+
+          { id: "h2", label: "The vague one",
+
+            detail: "Sami says he does not really understand chapter four. The answer is a summary of chapter four, which he had already read." },
+
+          { id: "h3", label: "The silent one",
+
+            detail: "Ines knows exactly which line stopped her but thinks it is too small a thing to ask about, so she asks nothing." }
+
+        ],
+
+        takeaways: [
+
+          { text: "The question that gets the best answer is <b>not the one that sounds cleverest</b>.", caseId: "h1",
+
+            why: "Yara optimised for how the question sounded, and the cost was precision. The lecturer answered the question she appeared to be asking." },
+
+          { text: "It is the one that shows <b>exactly where you got stuck</b>.", caseId: "h2",
+
+            why: "<i>I do not understand chapter four</i> gives no purchase. Naming the sentence where it stopped making sense turns a lecture into a thirty-second answer." },
+
+          { text: "<b>Exactly</b> \u2014 which means small is good.", caseId: "h3",
+
+            why: "Ines has the most answerable question in the room and is not asking it. The smaller and more specific the stuck point, the better the answer it gets." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three questions that are about to get a poor answer. Drag each part onto the one it would fix.",
         text: { blocks: [{ lines: [
           "The question that gets the best answer is not the one that sounds cleverest. It is the one that shows exactly where you got stuck."
         ],

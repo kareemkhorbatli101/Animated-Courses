@@ -71,8 +71,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "conversion", ar: "\u062a\u062d\u0648\u064a\u0644",
+            meaning: "a change from one form into another",
+            with: ["energy conversion", "the conversion of glucose", "conversion efficiency"],
+            why: "The noun of <i>convert</i>, and the formal alternative to several of Lesson 1\u0027s phrasal verbs at once." },
+          { term: "bond", ar: "\u0631\u0627\u0628\u0637\u0629",
+            meaning: "the link holding two atoms together",
+            with: ["a chemical bond", "break a bond", "bond energy"],
+            why: "Breaking a bond costs energy and making one releases it, which is the opposite of what most people assume on first meeting the word." },
+          { term: "fate", ar: "\u0645\u0622\u0644",
+            meaning: "what eventually becomes of something",
+            with: ["the fate of the carbon", "metabolic fate", "trace its fate"],
+            why: "Doing unusual work here. In ordinary English it is dramatic; in this subject it is a neutral technical term for where an atom ends up." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the third is doing unusual work in this article.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>conversion</span> (n) a change from one form into another",
           "<span class='gloss'>bond</span> (n) the link holding two atoms together",
@@ -337,8 +351,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one table, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "m1", label: "The calorie",
+
+            detail: "Khalid reads that a food contains 240 kilocalories and concludes that his body will obtain 240 kilocalories from it." },
+
+          { id: "m2", label: "The suspicious sum",
+
+            detail: "Mona finds that two measurements in a table always rise and fall together and treats their total as an independent check." },
+
+          { id: "m3", label: "The flat highlighter",
+
+            detail: "Ziad has highlighted every fact in the article and cannot say what any of them is there to show." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>What the number is</b> \u2014 heat from a machine, not the fate of a molecule.", caseId: "m1",
+
+            why: "A calorimeter burns the food completely. A body does not, and what it absorbs depends on the food, the cooking and the gut. The number is real and it is not the same number." },
+
+          { text: "<b>Why the sum misbehaves</b> \u2014 the two sides of it move together.", caseId: "m2",
+
+            why: "If two quantities are not independent, adding them does not give an independent check: the errors move together and the total looks steadier than it is." },
+
+          { text: "<b>What to annotate</b> \u2014 not the facts, but the sentence that says what they are for.", caseId: "m3",
+
+            why: "Ziad has marked the content and lost the argument. The sentence that says why the facts are there is the one you will want again." }
+
+        ],
+        prompt: "Two articles, one table, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>What the number is</b> — heat from a machine, not the fate of a molecule.",
           "<b>Why the sum misbehaves</b> — the two sides of it move together.",

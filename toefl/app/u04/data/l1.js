@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "evidence", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words this subject uses precisely. The last two are the ones students most often blur.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "site", ar: "\u0645\u0648\u0642\u0639 \u0623\u062b\u0631\u064a",
+            meaning: "one place where material was left and can be excavated",
+            with: ["an archaeological site", "excavate a site", "the site was occupied"],
+            why: "A place, not a find. Everything else in this list is either what is in a site or what you do to one." },
+          { term: "excavation", ar: "\u062a\u0646\u0642\u064a\u0628",
+            meaning: "the controlled removal of that material, recorded as it goes",
+            with: ["a controlled excavation", "during excavation", "the excavation report"],
+            why: "<i>Controlled</i> and <i>recorded</i> are the whole word: digging without recording destroys the stratigraphy, which is most of the evidence." },
+          { term: "artefact", ar: "\u0642\u0637\u0639\u0629 \u0623\u062b\u0631\u064a\u0629",
+            meaning: "an object made or modified by people",
+            with: ["a stone artefact", "artefacts were recovered", "an artefact assemblage"],
+            why: "<i>Modified</i> matters: a pebble used as a hammer is an artefact, though nobody made it. American English writes <i>artifact</i>." },
+          { term: "sediment", ar: "\u0631\u0648\u0627\u0633\u0628",
+            meaning: "the layers the artefacts sit in",
+            with: ["sediment layers", "the sediment above it", "sediment accumulated"],
+            why: "Usually uncountable. The sediment is not the find, but it is what dates the find." },
+          { term: "stratigraphy", ar: "\u0639\u0644\u0645 \u0637\u0628\u0642\u0627\u062a \u0627\u0644\u0623\u0631\u0636",
+            meaning: "the order of those layers, and so of time",
+            with: ["read the stratigraphy", "clear stratigraphy", "stratigraphic sequence"],
+            why: "Deeper is older, unless something disturbed it. The order is the argument; destroy it and the objects are just objects." },
+          { term: "radiocarbon", ar: "\u0627\u0644\u0643\u0631\u0628\u0648\u0646 \u0627\u0644\u0645\u0634\u0639\u0651",
+            meaning: "a dating method using the decay of carbon-14",
+            with: ["a radiocarbon date", "radiocarbon dating", "calibrated radiocarbon"],
+            why: "It dates the death of something organic \u2014 not the artefact beside it, and not the event you care about. That gap is Lesson 5\u0027s argument." },
+          { term: "evidence", ar: "\u062f\u0644\u064a\u0644",
+            meaning: "what a claim rests on",
+            with: ["strong evidence", "evidence for the claim", "the evidence suggests"],
+            why: "Uncountable in academic English: <i>an evidence</i> and <i>evidences</i> are both wrong. Say <i>a piece of evidence</i>." },
+          { term: "assertion", ar: "\u0627\u062f\u0651\u0639\u0627\u0621",
+            meaning: "a claim with the evidence left out",
+            with: ["a bare assertion", "assert without evidence", "that is an assertion"],
+            why: "The pair with <i>evidence</i>, and the one the talk turns on. Calling something an assertion is not calling it false \u2014 only unsupported." }
+        ],
+        prompt: "Eight words this subject uses precisely. Say each meaning before you turn the card. The last two are the ones students most often blur, and the On Campus talk turns on exactly that difference.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 site</b> — one place where material was left and can be excavated",
           "<b>2 excavation</b> — the controlled removal of that material, recorded as it goes",
@@ -96,8 +130,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The prefix inter-", letter: "A",
         concepts: ["read", "measurement"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>inter-</b> means <i>between</i> or <i>among</i>. It is everywhere in academic English.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "pret", affix: "inter-", answer: "interpret",
+
+            why: "To interpret a date is to say what it means \u2014 a step <i>between</i> the measurement and the conclusion." },
+
+          { root: "val", affix: "inter-", answer: "interval",
+
+            why: "The gap <i>between</i> two points in time. The root is not a word on its own, which is true of many <i>inter-</i> words." },
+
+          { root: "disciplinary", affix: "inter-", answer: "interdisciplinary",
+
+            why: "Methods from more than one field brought to one question \u2014 literally working <i>between</i> disciplines." },
+
+          { root: "national", affix: "trans-", answer: "transnational",
+
+            why: "<i>trans-</i> means <i>across</i>, not <i>between</i>: moving over a boundary rather than working in the space between two." },
+
+          { root: "group", affix: "intra-", answer: "intragroup",
+
+            why: "<i>intra-</i> is the one <i>inter-</i> is most often confused with: <i>within</i> a group, not <i>between</i> groups." },
+
+          { root: "state", affix: "pre-", answer: "prestate",
+
+            why: "<i>pre-</i> is about time, not space: before states existed. Three prefixes, three different relations." }
+
+        ],
+        prompt: "<b>inter-</b> means <i>between</i> or <i>among</i>, and it is everywhere in academic English. Build each word \u2014 the other prefixes are here to make the choice a real one.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>inter + act → <b>inter</b>act · inter + pret → <b>inter</b>pret · inter + val → <b>inter</b>val · inter + national → <b>inter</b>national · inter + disciplinary → <b>inter</b>disciplinary.<br>Do not confuse it with <i>intra-</i>, which means <i>within</i>.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "INTER- IN ACADEMIC WRITING",

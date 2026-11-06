@@ -71,8 +71,22 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the definitions before you begin.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "accumulation", ar: "\u062a\u0631\u0627\u0643\u0645",
+            meaning: "a gradual build-up of many small things",
+            with: ["an accumulation of evidence", "accumulate slowly", "the accumulation of sediment"],
+            why: "Another <i>-tion</i> process noun. In this article it is the whole method: no single find settles anything, and the pile does." },
+          { term: "decisive", ar: "\u062d\u0627\u0633\u0650\u0645",
+            meaning: "enough to settle the matter",
+            with: ["decisive evidence", "nothing decisive", "a decisive result"],
+            why: "Held against <i>accumulation</i>, this is the article\u0027s argument: evidence can be decisive without any one piece of it being so." },
+          { term: "framework", ar: "\u0625\u0637\u0627\u0631 \u0646\u0638\u0631\u064a",
+            meaning: "the set of assumptions a field currently works within",
+            with: ["a theoretical framework", "within this framework", "the framework shifted"],
+            why: "What makes a date surprising rather than merely new. A framework decides which results need explaining." }
+        ],
+        prompt: "Three words before you begin. Say each meaning before you turn the card \u2014 the article\u0027s argument depends on holding the first two together.",
         text: { every: 1, blocks: [{ lines: [
           "<span class='gloss'>accumulation</span> (n) a gradual build-up of many small things",
           "<span class='gloss'>decisive</span> (adj) enough to settle the matter",
@@ -337,8 +351,40 @@
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
         concepts: ["read", "inference", "sample"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Two articles, one diagram, one habit.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "a1", label: "The corridor",
+
+            detail: "Faris writes that people entered by the ice-free corridor, because the corridor is the route on the map he has." },
+
+          { id: "a2", label: "The date on the bone",
+
+            detail: "Nadia reads a radiocarbon date of 14,500 years on a bone and writes that people were there 14,500 years ago." },
+
+          { id: "a3", label: "The number without the sample",
+
+            detail: "Omar quotes a date to the year and cannot say what was dated or which layer it came from." }
+
+        ],
+
+        takeaways: [
+
+          { text: "<b>The route</b> \u2014 the corridor was shut when people were already south of it.", caseId: "a1",
+
+            why: "The dates rule the corridor out rather than confirming it. Faris has taken the route that is easiest to draw for the route the evidence supports." },
+
+          { text: "<b>The date</b> \u2014 the laboratory dates the sample; connecting it to people is your inference.", caseId: "a2",
+
+            why: "The laboratory dated the death of an animal. Whether a person killed it, and whether the bone lay where it was found, are separate claims that need separate support." },
+
+          { text: "<b>The question to ask</b> \u2014 what was the sample, and where exactly did it lie?", caseId: "a3",
+
+            why: "A date without a sample and a layer is a number without evidence attached \u2014 an assertion, in the vocabulary of Lesson 1." }
+
+        ],
+        prompt: "Two articles, one diagram, one habit \u2014 in three parts. Drag each part onto the reader it would stop from going wrong.",
         text: { blocks: [{ lines: [
           "<b>The route</b> — the corridor was shut when people were already south of it.",
           "<b>The date</b> — the laboratory dates the sample; connecting it to people is your inference.",

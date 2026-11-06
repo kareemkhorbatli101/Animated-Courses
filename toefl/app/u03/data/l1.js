@@ -7,8 +7,42 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
         concepts: ["read", "measurement", "sample"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Eight words. Four of them end in <b>-tion</b>, which is this unit's suffix and no accident: this subject names processes.",
+        kind: "cards", task: null, n: 0,
+        cards: [
+          { term: "variation", ar: "\u062a\u0628\u0627\u064a\u0646",
+            meaning: "the differences already present in a population",
+            with: ["genetic variation", "variation within a population", "the variation was already there"],
+            why: "Stage one, and it comes first in time: selection cannot act on a difference that does not yet exist." },
+          { term: "selection", ar: "\u0627\u0646\u062a\u0642\u0627\u0621",
+            meaning: "the differential survival of some of that variation",
+            with: ["natural selection", "selection acted on", "selection pressure"],
+            why: "Stage two. Nothing is created here; some of what was already present survives more often than the rest." },
+          { term: "adaptation", ar: "\u062a\u0643\u064a\u0651\u0641",
+            meaning: "the outcome, after selection has acted",
+            with: ["an adaptation to drought", "a costly adaptation", "the adaptation spread"],
+            why: "Stage three, and a result rather than an effort. A bird does not adapt; a population ends up adapted." },
+          { term: "population", ar: "\u0639\u0634\u064a\u0631\u0629 / \u062a\u062c\u0645\u0651\u0639",
+            meaning: "the group selection acts on, never the individual",
+            with: ["a local population", "the population shifted", "within the population"],
+            why: "The single most useful correction in this unit. Individuals are born, breed and die; only populations change." },
+          { term: "trait", ar: "\u0635\u0641\u0629",
+            meaning: "one measurable feature, such as beak depth",
+            with: ["a heritable trait", "measure the trait", "trait variation"],
+            why: "Measurable is the operative word. A trait is something you can put a number on across a population." },
+          { term: "heritable", ar: "\u0642\u0627\u0628\u0644 \u0644\u0644\u062a\u0648\u0631\u064a\u062b",
+            meaning: "passed from parent to offspring",
+            with: ["a heritable difference", "highly heritable", "heritable variation"],
+            why: "The condition that makes the story work. A difference that is not passed on cannot accumulate across generations." },
+          { term: "offspring", ar: "\u0630\u0631\u0651\u064a\u0651\u0629 / \u0646\u0633\u0644",
+            meaning: "the next generation",
+            with: ["produce offspring", "surviving offspring", "offspring per season"],
+            why: "Same form singular and plural, like <i>sheep</i>. <i>Offsprings</i> is one of the commonest slips in this subject." },
+          { term: "species", ar: "\u0646\u0648\u0639",
+            meaning: "a group that breeds within itself",
+            with: ["a new species", "the species diverged", "closely related species"],
+            why: "Also the same singular and plural. <i>One specie</i> does not exist, however reasonable it looks." }
+        ],
+        prompt: "Eight words. Say each meaning before you turn the card. Hold the first three apart \u2014 they are three stages of one story, and most confusion comes from treating them as one word.",
         text: { every: 1, blocks: [{ lines: [
           "<b>1 variation</b> — the differences already present in a population",
           "<b>2 selection</b> — the differential survival of some of that variation",
@@ -97,8 +131,36 @@
 
       { id: "2a", section: 2, sectionTitle: "The suffix -tion", letter: "A",
         concepts: ["read"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "<b>-tion</b> turns a verb into a noun naming the process or its result.",
+        kind: "build", task: null, n: 0,
+
+        items: [
+
+          { root: "observe", affix: "-ation", answer: "observation",
+
+            why: "<i>-ation</i> after a verb ending in <i>e</i>: the <i>e</i> goes. The stress moves to <i>-VA-</i>: obser-VA-tion." },
+
+          { root: "vary", affix: "-ation", answer: "variation",
+
+            why: "The <i>y</i> becomes <i>i</i>. Again the stress lands on the syllable before <i>-tion</i>: vari-A-tion." },
+
+          { root: "select", affix: "-ion", answer: "selection",
+
+            why: "A verb already ending in <i>t</i> takes the shorter <i>-ion</i>. You never write <i>selecttion</i>." },
+
+          { root: "adapt", affix: "-ation", answer: "adaptation",
+
+            why: "The result, not the act. An adaptation is what a population ends up with after selection has acted." },
+
+          { root: "measure", affix: "-ment", answer: "measurement",
+
+            why: "Not every process noun takes <i>-tion</i>. <i>-ment</i> does the same job on a different set of verbs, and no rule predicts which." },
+
+          { root: "survive", affix: "-al", answer: "survival",
+
+            why: "A third suffix for the same job. <i>Survivation</i> is the word the pattern predicts, and it does not exist." }
+
+        ],
+        prompt: "<b>-tion</b> turns a verb into a noun naming the process or its result \u2014 and it is no accident that this subject is full of it. Build each noun, and watch the stress move.",
         note: { kind: "gram", title: "Grammar Notes",
                 body: "<p>adapt → adapt<b>ation</b> · vary → vari<b>ation</b> · select → selec<b>tion</b> · populate → popula<b>tion</b> · observe → observa<b>tion</b>.<br><b>The stress moves to the syllable before -tion.</b> <i>ADapt → adapTAtion.</i> That shift is itself tested on the reading section.</p>" },
         text: { every: 1, mastColor: "blue", masthead: "-TION AND THE STRESS SHIFT",

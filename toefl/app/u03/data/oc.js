@@ -172,8 +172,60 @@
 
       { id: "c", section: 3, sectionTitle: "Ask for the evidence", letter: "A",
         concepts: ["read", "measurement", "evidence"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "Read the chart. Asking for evidence is a normal academic move, not an accusation — if you phrase it as one.",
+        kind: "phrases", task: null, n: 0,
+
+        phrases: [
+
+          { text: "Ask about the claim, not about the person who made it.",
+
+            say: "Ask about the claim, not about the person who made it.",
+
+            when: "Before every question you are about to ask about evidence.",
+
+            why: "<i>What is that based on?</i> is a question about a claim. <i>How do you know that?</i> can be heard as a question about the speaker." },
+
+          { text: "Ask for one specific thing: a number, a source, a method.",
+
+            say: "Ask for one specific thing: a number, a source, or a method.",
+
+            when: "When you want an answer rather than a defence.",
+
+            why: "A broad challenge invites a broad reply. One named thing is answerable in a sentence, and the conversation keeps moving." },
+
+          { text: "Say what you would accept as an answer.",
+
+            say: "Say what you would accept as an answer.",
+
+            when: "When you suspect you are about to disagree with everything.",
+
+            why: "The strongest of the three. Naming in advance what would convince you turns a challenge into a collaboration \u2014 and tells you whether you are arguing in good faith." },
+
+          { text: "Is that measured, or is it an estimate?",
+
+            say: "Is that measured, or is it an estimate?",
+
+            when: "Any time a number arrives without a method attached.",
+
+            why: "Two sentences can carry the same figure and mean completely different things. This question separates them in four words." },
+
+          { text: "Do you know roughly how many birds that was?",
+
+            say: "Do you know roughly how many birds that was?",
+
+            when: "When a result is stated as a proportion or a rate.",
+
+            why: "<i>Roughly</i> is doing real work: it asks for the order of magnitude and makes clear you are not demanding a citation." },
+
+          { text: "I\u0027d find that convincing if the same thing happened on a second island \u2014 did it?",
+
+            say: "I would find that convincing if the same thing happened on a second island. Did it?",
+
+            when: "When one result is being treated as settled.",
+
+            why: "Replication asked for politely. You have stated your condition, so the other person can meet it instead of guessing what you want." }
+
+        ],
+        prompt: "Asking for evidence is a normal academic move, not an accusation \u2014 if you phrase it as one. Hear each line, say it along with the model, then rate what you could produce unprompted.",
         note: { kind: "speak",
                 body: "<i>What's that based on?</i><i>Is that measured or estimated?</i><i>How big was the sample?</i>" },
         text: { every: 1, mastColor: "blue", masthead: "WHEN YOU WANT THE EVIDENCE BEHIND A CLAIM",
@@ -213,8 +265,40 @@
 
       { id: "c3", section: 3, sectionTitle: "Ask for the evidence", letter: "C",
         concepts: ["read", "evidence", "claim"],
-        kind: "read-only", task: null, n: 0,
-        prompt: "One sentence to leave with.",
+        kind: "recap", task: null, n: 0,
+
+        cases: [
+
+          { id: "e1", label: "The unanswerable challenge",
+
+            detail: "Hadi keeps saying the study is not convincing. Asked what would convince him, he says he is not sure, and the discussion runs out." },
+
+          { id: "e2", label: "The two-hour standoff",
+
+            detail: "Two students repeat their positions four times each. Neither has named a piece of evidence that would move them." },
+
+          { id: "e3", label: "The retreat",
+
+            detail: "Maya thinks asking what would change her mind looks weak, so she defends her first position after she has stopped believing it." }
+
+        ],
+
+        takeaways: [
+
+          { text: "Asking what would change your mind is <b>not a weaker move</b>", caseId: "e3",
+
+            why: "Maya has mistaken a strong move for a concession. Stating your condition is what a confident position looks like; defending a view you no longer hold is the weak one." },
+
+          { text: "<b>than disagreeing</b>.", caseId: "e1",
+
+            why: "Hadi is disagreeing and nothing more. Without a condition attached, the disagreement cannot be met, which also means it cannot be taken seriously." },
+
+          { text: "It is <b>the only one that can end an argument</b>.", caseId: "e2",
+
+            why: "Two positions repeated are two positions repeated. The moment either names what evidence would settle it, the argument has somewhere to go." }
+
+        ],
+        prompt: "One sentence to leave with \u2014 and three arguments that are going nowhere. Drag each part onto the one it would end.",
         text: { blocks: [{ lines: [
           "Asking what would change your mind is not a weaker move than disagreeing. It is the only one that can end an argument."
         ],
