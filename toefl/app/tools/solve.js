@@ -35,13 +35,20 @@ const B = window.BOOK;
         await pg.evaluate(()=>{
           const idx=[...document.querySelectorAll('.dot')].findIndex(d=>d.classList.contains('now'));
           const s=window.PAGE.scenes[idx];
+          // Match the option's own text EXACTLY. A substring match picks the
+          // wrong button whenever one option contains another ("go" / "to go").
+          const norm = t => t.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
           const pick = (box, wantText) => {
-            const t = wantText.replace(/<[^>]+>/g,'').slice(0,38);
-            const b = [...box.querySelectorAll('.opt')].find(x=>x.textContent.includes(t));
-            if (b) b.click();
+            const want = norm(wantText);
+            const opts = [...box.querySelectorAll('.opt')];
+            let b = opts.find(x => norm(x.lastChild.textContent) === want);
+            if (!b) b = opts.find(x => norm(x.lastChild.textContent).startsWith(want));
+            if (b) b.click(); else window.__pickFail = (window.__pickFail||0)+1;
           };
           const boxes = [...document.querySelectorAll('.opts')];
-          if (s.kind==='choice'){ if(boxes[0]) pick(boxes[0], (s.options.find(o=>o.correct)||{}).text||''); }
+          if (s.kind==='choice' || s.kind==='register-dial'){
+            if(boxes[0] && s.options) pick(boxes[0], (s.options.find(o=>o.correct)||{}).text||'');
+          }
           else if (['read','chartread','listen','talk','quiz'].includes(s.kind)){
             (s.items||[]).forEach((it,j)=>{ if(boxes[j]&&it.options) pick(boxes[j],(it.options.find(o=>o.correct)||{}).text||''); });
           }
@@ -104,6 +111,8 @@ const B = window.BOOK;
             document.querySelectorAll('.rubric input[type=checkbox]').forEach(c=>c.checked=true);
           }
         });
+        const pf = await pg.evaluate(()=>{ const n=window.__pickFail||0; window.__pickFail=0; return n; });
+        if (pf) failures.push(`${u.id}/${blk}/${meta.id}: solver could not find ${pf} option(s)`);
         await pg.click('.btn-check'); await pg.waitForTimeout(90);
         const v = await pg.textContent('.verdict');
         const cls = await pg.getAttribute('.verdict','class');
