@@ -39,7 +39,7 @@
       affix: "-ful", pron: "j and ch", chart: "pie",
       campus: "disagree politely in a seminar",
       strategy: { writing: "writing a business email", reading: "understanding chart labels and text" } },
-    { n: 3,  id: "u03", title: "Adaptation and Diversity",    field: "evolutionary biology",
+    { n: 3,  id: "u03", title: "Adaptation and Diversity",    field: "evolutionary biology", doubled: true,
       grammar: ["comparatives", "superlatives"],
       affix: "-tion", pron: "v, b and f", chart: "bar",
       campus: "ask for the evidence behind a claim",
