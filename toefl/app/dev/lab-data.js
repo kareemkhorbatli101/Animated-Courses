@@ -222,7 +222,102 @@
           "I give at least one reason, not only a preference.",
           "At least one sentence reports something that actually happened to me.",
           "I say what I would do instead, not only what I would stop."
+        ] },
+
+      { id: "cards", section: 8, sectionTitle: "Flip deck", letter: "A",
+        kind: "cards", n: 0,
+        cards: [
+          { term: "retrieval", meaning: "bringing something back from memory without looking", ar: "الاسترجاع",
+            why: "the act itself changes the memory, which is why it beats re-reading." },
+          { term: "spacing", meaning: "leaving a gap between two study sessions", ar: "المباعدة",
+            why: "the forgetting in the gap is what makes the second session work." },
+          { term: "interleaving", meaning: "mixing two topics instead of finishing one", ar: "التداخل",
+            why: "it forces you to choose a method, which the exam also does." },
+          { term: "fluency", meaning: "the feeling that material is easy", ar: "الطلاقة",
+            why: "routinely mistaken for knowing it." }
+        ] },
+
+      { id: "build", section: 8, sectionTitle: "Build with an affix", letter: "B",
+        kind: "build", n: 0,
+        items: [
+          { root: "agree",   affix: "dis-",   answer: "disagree",    why: "<i>dis-</i> negates: not agree." },
+          { root: "prove",   affix: "dis-",   answer: "disprove",    why: "<i>dis-</i> reverses: undo a proof by showing it false." },
+          { root: "stable",  affix: "un-",    answer: "unstable",    why: "<i>un-</i> on an adjective: the quality is absent." },
+          { root: "pack",    affix: "un-",    answer: "unpack",      why: "<i>un-</i> on an action verb: undo what was done." },
+          { root: "appear",  affix: "re-",    answer: "reappear",    why: "<i>re-</i> means again." },
+          { root: "national", affix: "inter-", answer: "international", why: "<i>inter-</i> means between." }
+        ] },
+
+      { id: "cmp", section: 8, sectionTitle: "What changed", letter: "C",
+        kind: "compare", n: 0,
+        beforeLabel: "First draft", afterLabel: "After editing",
+        before: [
+          "Research show that spacing helps.",
+          "Students who re-read feel confident and do worse.",
+          "The effect is very big."
+        ],
+        after: [
+          "Research [[shows]] that spacing helps.",
+          "Students who re-read feel confident and [[perform]] worse.",
+          "The effect is [[substantial]]."
+        ],
+        changes: [
+          { text: "shows", why: "<i>research</i> is uncountable, so the verb is singular." },
+          { text: "perform", why: "<i>do worse</i> is spoken register; <i>perform worse</i> is the written one." },
+          { text: "substantial", why: "<i>very big</i> is vague. A results section sizes an effect with one word." }
+        ] },
+
+      { id: "phr", section: 9, sectionTitle: "Phrases to use aloud", letter: "A",
+        kind: "phrases", n: 0,
+        phrases: [
+          { text: "So if I've understood, you're saying the discomfort is the point?",
+            when: "to show you are following, without claiming to agree",
+            why: "saying it back in your own words is the only check that works." },
+          { text: "Could you go over the last part again?",
+            when: "when you lost one step and not the whole thing",
+            why: "asks for a repeat without admitting you were lost." },
+          { text: "Can I check one thing before you move on?",
+            when: "when a single word is doing all the work",
+            why: "cheap to ask, and it stops ten minutes of building on sand." }
+        ] },
+
+      { id: "recap", section: 9, sectionTitle: "Apply it somewhere new", letter: "B",
+        kind: "recap", n: 0,
+        cases: [
+          { id: "c1", label: "A student who highlights for an hour",
+            detail: "and feels they have revised" },
+          { id: "c2", label: "A student revising four hours tonight",
+            detail: "for an exam in a fortnight" }
+        ],
+        takeaways: [
+          { text: "The page changed; the memory did not", caseId: "c1",
+            why: "highlighting is recognition work, and recognition is not what the exam asks for." },
+          { text: "Ease is being mistaken for knowing", caseId: "c1",
+            why: "fluency is the feeling, and it rises exactly when retrieval is not happening." },
+          { text: "The same hours spread out would leave more behind", caseId: "c2",
+            why: "spacing, and the gap is doing the work rather than the hours." },
+          { text: "The second session has to reconstruct, not recognise", caseId: "c2",
+            why: "which is why the forgetting between them is useful rather than a loss." }
+        ] },
+
+      { id: "ann", section: 9, sectionTitle: "What each sentence does", letter: "C",
+        kind: "annotate", n: 0,
+        jobs: ["States the position", "Gives a reason from experience", "Answers an objection", "Concedes a point"],
+        sentences: [
+          { text: "I think groups help most when they force you to explain something.",
+            job: "States the position",
+            why: "first sentence, one claim, no hedging." },
+          { text: "Last term I could not finish a sentence about a formula I had read four times.",
+            job: "Gives a reason from experience",
+            why: "a specific thing that happened, which is what makes it evidence rather than assertion." },
+          { text: "Tomás is right that groups can carry passengers.",
+            job: "Concedes a point",
+            why: "grants the strongest thing the other side has, by name." },
+          { text: "But the fix is to make everyone explain something, not to study alone.",
+            job: "Answers an objection",
+            why: "accepts the problem and refuses the conclusion drawn from it." }
         ] }
+
     ]
   };
 })();

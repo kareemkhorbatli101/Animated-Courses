@@ -15,8 +15,9 @@ const ONLY = (process.argv.find(a => a.startsWith('--unit=')) || '').split('=')[
 
 function pageList() {
   const out = [];
-  if (LAB && fs.existsSync(path.join(ROOT, 'dev/lab.html')))
-    out.push({ label: 'dev/lab', file: path.join(ROOT, 'dev/lab.html') });
+  if (LAB)
+    for (const f of fs.readdirSync(path.join(ROOT, 'dev')).filter(f => /^lab\d*\.html$/.test(f)).sort())
+      out.push({ label: 'dev/' + f.replace(/\.html$/, ''), file: path.join(ROOT, 'dev', f) });
   for (const u of B.UNITS) {
     if (ONLY && u.id !== ONLY) continue;
     const dir = path.join(ROOT, u.id);

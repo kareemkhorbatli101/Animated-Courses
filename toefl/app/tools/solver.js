@@ -25,8 +25,13 @@ function solveScene() {
 
   /* chip -> zone, through the click path the learner uses */
   const place = (chipText, zoneId) => {
-    const chip = [...document.querySelectorAll('.chip')]
-      .find(c => norm(c.textContent) === norm(chipText));
+    /* Prefer a chip still in the tray, exactly as a learner would: once
+       several chips share a label, picking an already-placed one just
+       moves it and the previous target goes empty. */
+    const all = [...document.querySelectorAll('.chip')];
+    const free = all.filter(c => c.closest('.tray'));
+    const chip = (free.find(c => norm(c.textContent) === norm(chipText))
+               || all.find(c => norm(c.textContent) === norm(chipText)));
     const zone = document.querySelector('[data-zone-id="' + CSS.escape(String(zoneId)) + '"]');
     if (!chip || !zone) { fail(); return; }
     if (!chip.classList.contains('lifted')) chip.click();
@@ -186,6 +191,45 @@ function solveScene() {
 
     /* Deliberately ungradable: a passage to read before the items that follow. */
     case 'read-only':
+      break;
+
+    /* ---------- the seven that replaced read-only ---------- */
+    case 'cards': {
+      /* turn every card over, then claim it */
+      const n = (s.cards || []).length;
+      for (let k = 0; k < n; k++) {
+        const flip = [...document.querySelectorAll('.card-btn')].find(b => b.textContent === 'Turn over');
+        if (flip) flip.click(); else { fail(); break; }
+        const yes = document.querySelector('.card-btn.yes');
+        if (yes) yes.click(); else { fail(); break; }
+      }
+      break;
+    }
+    case 'build':
+      (s.items || []).forEach((it, j) => place(it.affix, 'r' + j));
+      break;
+    case 'compare':
+      (s.changes || []).forEach(c => {
+        const el = [...document.querySelectorAll('.cmp-hit')].find(x => norm(x.textContent) === norm(c.text));
+        if (el) el.click(); else fail();
+      });
+      break;
+    case 'phrases':
+      document.querySelectorAll('.phrase .rubric').forEach(r => {
+        const b = r.querySelector('input[type=radio]');
+        if (b) { b.checked = true; b.dispatchEvent(new Event('change')); } else fail();
+      });
+      break;
+    case 'recap':
+      (s.takeaways || []).forEach(t => place(t.text, t.caseId));
+      break;
+    case 'annotate':
+      (s.sentences || []).forEach((sn, j) => {
+        const sel = document.querySelectorAll('.ann-job')[j];
+        if (!sel) { fail(); return; }
+        sel.value = sn.job;
+        sel.dispatchEvent(new Event('change'));
+      });
       break;
 
     default:

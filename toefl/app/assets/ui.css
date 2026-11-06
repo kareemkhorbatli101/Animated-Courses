@@ -590,3 +590,67 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
   .m-settle,.m-sweep,.m-pulse,.m-reveal,.m-swap-in{animation:none}
   .m-swap-out{transition:none;opacity:1;transform:none}
 }
+
+/* ===================== cards ===================== */
+.cardbox{max-width:520px;margin:0 auto}
+.card-face{border:1px solid var(--boxline);border-radius:14px;background:var(--card);
+ padding:28px 24px;min-height:190px;display:flex;flex-direction:column;align-items:center;
+ justify-content:center;text-align:center;gap:8px;box-shadow:0 6px 20px -14px rgba(0,0,0,.4)}
+.card-face.flipped{background:var(--mint)}
+.card-term{margin:0;font:700 26px var(--ui);color:var(--ink);letter-spacing:.01em}
+.card-term.small{font-size:17px;color:var(--ink-3);font-weight:600}
+.card-speak{margin:0}
+.card-ask{margin:6px 0 0;font:italic 14px var(--serif);color:var(--ink-3)}
+.card-meaning{margin:0;font:17px/1.6 var(--serif);color:var(--ink)}
+.card-ar{display:flex;align-items:center;gap:8px;margin:2px 0 0}
+.card-ar .ar{font:22px/1.8 var(--serif);color:var(--blue)}
+.card-why{margin:6px 0 0;font:13.5px/1.55 var(--serif);color:var(--ink-2);max-width:40ch}
+.card-controls{display:flex;gap:9px;justify-content:center;margin:14px 0 0}
+.card-btn{font:600 14px var(--ui);padding:9px 18px;border:1.5px solid var(--rule-2);
+ border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+.card-btn:hover{border-color:var(--maroon)}
+.card-btn:focus-visible{outline:2px solid var(--maroon);outline-offset:2px}
+.card-btn.yes{border-color:var(--ok);color:var(--ok)}
+.card-btn.no{border-color:var(--orange);color:var(--orange)}
+.card-count{margin:10px 0 0;text-align:center;font:12.5px var(--ui);color:var(--ink-3)}
+
+/* ===================== build ===================== */
+.buildrows{display:grid;gap:10px;margin:0 0 14px}
+.buildrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+ padding:9px 12px;border:1px solid var(--rule);border-radius:9px;background:var(--card)}
+.build-z{min-width:112px;min-height:40px}
+.build-plus,.build-eq{font:700 17px var(--ui);color:var(--ink-3)}
+.build-root{font:17px var(--ui);color:var(--ink);padding:5px 11px;
+ border:1.5px dashed var(--rule-2);border-radius:7px;background:var(--sunk)}
+.build-out{font:700 17px var(--ui);color:var(--maroon);min-width:140px}
+
+/* ===================== compare ===================== */
+.cmp-line{margin:0 0 8px;font:15px/1.75 var(--serif);color:var(--ink)}
+.cmp-hit{font:inherit;color:inherit;background:none;border:0;cursor:pointer;
+ border-bottom:1.5px dotted var(--rule-2);padding:1px 3px;border-radius:3px}
+.cmp-hit:hover{background:var(--tint-y)}
+.cmp-hit:focus-visible{outline:2px solid var(--maroon);outline-offset:1px}
+.cmp-hit.on{background:var(--tint-o);border-bottom:1.5px solid var(--orange);font-weight:600}
+.cmp-hit.ok{background:color-mix(in srgb,var(--ok) 20%,transparent);border-bottom-color:var(--ok)}
+.cmp-hit.no{background:color-mix(in srgb,var(--no) 18%,transparent);border-bottom-color:var(--no)}
+
+/* ===================== phrases ===================== */
+.phrase{border:1px solid var(--rule);border-radius:9px;padding:12px 14px;
+ margin:0 0 11px;background:var(--card)}
+.phrase-head{display:flex;align-items:flex-start;gap:10px}
+.phrase-text{margin:0;font:16px/1.6 var(--serif);color:var(--ink);flex:1}
+.phrase-when{margin:5px 0 0;font:12.5px var(--ui);color:var(--ink-3)}
+
+/* ===================== annotate ===================== */
+.model.annotated{display:grid;gap:9px}
+.ann-row{display:grid;grid-template-columns:1fr 210px;gap:10px;align-items:start}
+@media(max-width:700px){.ann-row{grid-template-columns:1fr}}
+.ann-sent{text-align:left;font:15px/1.6 var(--serif);color:var(--ink);background:var(--card);
+ border:1px solid var(--rule);border-radius:7px;padding:8px 11px;cursor:pointer}
+.ann-sent:hover{border-color:var(--maroon)}
+.ann-sent:focus-visible{outline:2px solid var(--maroon);outline-offset:2px}
+.ann-sent.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 10%,transparent)}
+.ann-sent.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 10%,transparent)}
+.ann-job{font:13.5px var(--ui);padding:7px 9px;border:1.5px solid var(--rule-2);
+ border-radius:7px;background:var(--sunk);color:var(--ink);width:100%}
+.ann-job:focus-visible{outline:2px solid var(--maroon);outline-offset:1px}
