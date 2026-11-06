@@ -1,7 +1,7 @@
 # Making every page interactive, explained, spoken and illustrated
 
-A plan to close five gaps you named and thirty-five more I found, across
-754 scenes in twelve units, without losing anything that currently works.
+Second pass. The Explain panel is now a popup, and the whole plan has been
+re-examined for what it actually teaches rather than what it adds.
 
 ---
 
@@ -14,376 +14,455 @@ A plan to close five gaps you named and thirty-five more I found, across
 | Scenes whose question refers to a stimulus not on the page | **37** | **0** |
 | Scenes with any audio | 156 (21%) | **754 (100%)** |
 | Scenes with a picture, chart or animation | 24 (3%) | **754 (100%)** |
-| Scenes with an Explain panel | 0 | **754 (100%)** |
+| Scenes with an Explain popup | 0 | **754 (100%)** |
 | Arabic anywhere in the book | **none** | every taught term |
 | Exercise kinds | 29 | 39 |
-| Gate checks | 2,936 | ~5,500 |
+| Gate checks | 2,936 | ~5,800 |
 
-Those first three rows are the defects. The rest is absence.
+The first three rows are defects. The rest is absence. The 37 includes
+**every T/F/NI scene in the book**, each of which says *write the line of
+the article* while the article is on a different step of the deck.
 
 ---
 
-## 1. The five you named
+## 1. The Explain popup — confirmed, with its design
 
-### F1 — No exercise is read-only
+### 1.1 It works, and here is the proof
 
-91 scenes currently present text and ask nothing. They are not random:
-they fall into six repeating patterns, so this is six conversions applied
-many times, not 91 inventions.
+A native `<dialog>` with `showModal()`, tested in Chromium from `file://`:
 
-| Pattern | Where | Scenes | Becomes |
-|---|---|---|---|
-| Glossary list of 8–9 terms | L1 1A | 12 | **`cards`** — a flip deck: term, tap to hear, flip for meaning + Arabic, swipe to sort known/unknown |
-| Affix or stress chart with examples | L1 2A | 12 | **`build`** — drag the prefix onto the root and watch the meaning assemble |
-| Two-column realia (before/after, active/passive) | L3 1A | 12 | **`compare`** — tap the three things that changed between the two versions |
-| Definitions before a reading | L5 1A | 12 | folded into the reading as a tappable glossary rail (F2 also requires this) |
-| "Do this / Say this" chart | OC 3A | 12 | **`phrases`** — tap to hear each phrase, then shadow it and self-rate |
-| Closing takeaway panel | L5 5C, OC c3 | 24 | **`recap`** — drag each takeaway onto the lesson it came from |
-| Model answer, shown before writing | L2 1A | 7 | **`annotate`** — tap each sentence to label its job |
+| Check | Result |
+|---|---|
+| Opens, `:modal` matches, backdrop paints | ✅ |
+| Focus moves inside; native focus trap holds | ✅ |
+| Escape closes **and** returns focus to the opening button | ✅ |
+| An unsaved draft in a textarea survives open and close | ✅ |
+| Arabic renders right-to-left inside | ✅ |
+| Console errors | none |
 
-Seven new renderers. Nothing is deleted: every word of the existing
-read-only text survives inside the interactive version, which matters
-because that text is the teaching.
+No library, no origin requirement, nothing that `file://` forbids. The
+deck's existing footer gains one button.
 
-### F2 — A question is always on the page with its stimulus
+**One reserved name.** `.dialog` is already a class in `ui.css`, used for
+spoken dialogue lines inside listening exercises. The popup must not use
+it. This is the same class of mistake as the leader-line element I gave
+the class `dot` in the last pass, which silently broke scene lookup for
+the deck and the solver. The popup uses `.explain-sheet`, and the gate
+gains a reserved-class check so this cannot recur.
 
-37 scenes ask about something that is on a different step of the deck.
-The deck shows one scene at a time, so "different step" means the learner
-is answering from memory, which is not the skill being tested.
+### 1.2 Popup for the task, inline for the content
 
-| Scene | Asks about | Fix |
-|---|---|---|
-| L5 1B preview (12) | the article | carry the masthead and headings — that **is** the preview task, so this is the honest stimulus |
-| L5 1E T/F/NI (12) | "the line of the **article**" | carry the whole passage beside the items, with line numbers |
-| OC c2 table (12) | "the chart in 3A" | carry the chart |
-| TW d quiz (12 × 12 items) | items tagged `from: Lesson 3` | each item carries a one-line `recall` snippet of what it is testing |
+Covering the page is right for some help and wrong for other help, and the
+difference is not a matter of taste.
 
-Implemented once as a rule rather than 37 times as a patch: **a scene may
-not reference a stimulus it does not carry.** The gate parses every
-prompt and item for referring expressions — *the article*, *the chart in
-3A*, *look back at*, *the first talk* — and fails the scene unless it has
-its own `text`, `audio`, `chart`, `scene` or `recall`.
+- **Task help belongs in the popup.** *What am I being asked, how do I
+  operate this, why does it matter.* You do not need to see the exercise
+  to read it, so covering the exercise costs nothing.
+- **Content help must stay inline.** A word's meaning, a line of the
+  passage, a transcript. Covering the thing being explained while
+  explaining it forces the learner to hold it in memory and read at the
+  same time, which is precisely the load the popup was meant to remove.
 
-### F3 — Explain, on every page
+So the popup carries four things, and the glossary rail, line highlight
+and transcript stay on the page.
 
-A button in the footer of every scene opens a panel with four parts:
+### 1.3 What the popup contains
 
 ```js
 explain: {
-  what:  "One sentence: what this exercise is asking you to do.",
+  what:  "One sentence: what this exercise is asking.",
   how:   "One sentence: how to operate it — click, drag, type.",
-  why:   "One sentence: what it is practising, and where it appears on the test.",
+  why:   "One sentence: what it practises, and where it appears on the test.",
+  page:  "A short walkthrough of what is on this page, in order.",
   terms: [ { en: "denominator", ar: "المقام", gloss: "the number underneath" } ]
 }
 ```
 
-Each of the three sentences has its own play button. Each term has two:
-English and Arabic. Arabic is right-to-left, in a serif face, at a larger
-size, because 14px Arabic is unreadable.
+Each sentence has its own play button. Each term has two — English and
+Arabic. Arabic renders right-to-left, in a serif face, two steps larger,
+because 14px Arabic is unreadable.
 
-**Coverage is guaranteed by generation, not by discipline.** Every scene
-gets a panel on day one, assembled from its kind, its prompt and its
-note. A hand-written `explain` block overrides the generated one. So the
-figure is 100% from the first commit of the engine, and the work after
-that is improving panels rather than filling holes.
+**It never contains the answer.** That is a hard rule with a gate behind
+it, because a help button that resolves the exercise destroys the
+retrieval the exercise exists to produce. Answers live in the hint ladder
+(F35), which is gated behind an attempt.
 
-The gate reports the ratio of hand-written to generated and fails if a
-hand-written panel is missing any of the four parts.
+**Coverage is guaranteed by generation.** Every scene gets a popup on day
+one, assembled from its kind, prompt and note. A hand-written block
+overrides it. Coverage is therefore 100% from the first engine commit, and
+the content work is improving popups rather than hunting for holes.
+
+### 1.4 Where it sits
+
+On a wide screen the popup is a **right-hand sheet** occupying 380px, so
+the exercise stays visible beside it. On a narrow screen it is a full
+modal. Both are the same `<dialog>`; only the CSS differs. This keeps the
+split-attention cost at zero on desktop and accepts it on a phone, where
+there is no alternative.
+
+---
+
+## 2. The five you named
+
+### F1 — No exercise is read-only
+
+The 91 read-only scenes fall into seven repeating patterns, so this is
+seven renderers applied many times.
+
+| Pattern | Where | Scenes | Becomes |
+|---|---|---|---|
+| Glossary list of 8–9 terms | L1 1A | 12 | **`cards`** — retrieval-first flip deck (see F41) |
+| Affix or stress chart | L1 2A | 12 | **`build`** — drag prefix onto root, meaning assembles |
+| Two-column realia | L3 1A | 12 | **`compare`** — tap the three things that changed |
+| Definitions before a reading | L5 1A | 12 | folded into the reading as a tappable glossary rail |
+| "Do this / Say this" chart | OC 3A | 12 | **`phrases`** — hear it, shadow it, self-rate |
+| Closing takeaway panel | L5 5C, OC c3 | 24 | **`recap`** — apply the takeaway to a new case (F48) |
+| Model answer shown before writing | L2 1A | 7 | **`annotate`** — tap each sentence to label its job |
+
+No text is deleted. Every word of the existing read-only content survives
+inside the interactive version, because that text is the teaching.
+
+### F2 — A question is always on the page with its stimulus
+
+| Scene | Asks about | Fix |
+|---|---|---|
+| L5 1B preview (12) | the article | carry masthead and headings — that **is** the preview task |
+| L5 1E T/F/NI (12) | "the line of the **article**" | carry the passage with line numbers |
+| OC c2 table (12) | "the chart in 3A" | carry the chart |
+| TW d quiz (144 items) | items tagged `from: Lesson 3` | each item carries a one-line `recall` snippet |
+
+Implemented once as a rule: **a scene may not reference a stimulus it does
+not carry.** The gate parses every prompt and item for referring
+expressions — *the article*, *the chart in 3A*, *look back at*, *the first
+talk* — and fails the scene unless it has its own `text`, `audio`,
+`chart`, `scene` or `recall`.
+
+### F3 — Explain popup on every page
+
+As above. Four parts, generated by default, never the answer.
 
 ### F4 — A play button on every page and every exercise
 
-Two levels.
-
-**Page level.** Every scene gets "Play this page": the heading, the
-prompt, then each item in turn, with a visible cursor moving through the
-text as it is read.
-
-**Exercise level.** Every kind declares what playing it means. This is a
-contract, not a guess:
+Two levels. Page level reads the heading, prompt and items in turn with a
+visible cursor. Exercise level is a per-kind contract:
 
 | Kind | What "play" says |
 |---|---|
-| `letterbox` | the sentence with the gap read as "blank" |
-| `order` / `orderset` | the target sentence, once assembled correctly; before that, the cue |
+| `letterbox` | the sentence, gap read as "blank" |
+| `order` / `orderset` | the cue before, the assembled sentence after |
 | `match` | each word as it is dropped, then the full list |
 | `sort` | the bin labels, then each card |
-| `cloze` | the rule with each gap read as "blank" |
-| `errorfix` | the sentence as written, then the sentence corrected — the contrast **is** the teaching |
-| `tfni` | the statement, then the cited line from the passage |
-| `read` | each paragraph, with the line being read highlighted |
+| `cloze` | the rule, gaps read as "blank" |
+| `errorfix` | the sentence as written, **then** corrected — the contrast is the teaching |
+| `tfni` | the statement, then the cited line |
+| `read` | each paragraph, with the line highlighted as it is read |
 | `table` / `notes` | the row or line, gaps read as "blank" |
 | `wordbank` | the sentence with the chosen word in place |
-| `minimal-pairs` | already does this |
 | `paraphrase` | the source, then the chosen option |
 | `write-email` / `discussion` | the model, sentence by sentence |
 
-The gate requires every registered kind to have a `sayable()` and fails
-on any kind that does not.
+The gate requires every registered kind to implement `sayable()`.
 
 ### F5 — Illustration, animation or cards on every exercise
 
-Minimum one per scene, two or more wherever the content supports it. Four
-mechanisms, all built once:
+Four mechanisms built once: **`icons.js`** (line-art set keyed by concept),
+**`motion.js`** (six verbs: `settle`, `sweep`, `count`, `swap`, `reveal`,
+`pulse`, all honouring `prefers-reduced-motion`), **`SCENES`** (34
+primitives, already built, extended to every L1, L3 and OC scene), and
+**`cards`**.
 
-1. **`icons.js`** — a line-art icon set in the book's existing style, keyed
-   by concept (`measure`, `compare`, `listen`, `sequence`, `error`, `credit`),
-   so an icon is a data reference rather than a drawing.
-2. **`motion.js`** — a small animation vocabulary: `settle` (a dropped chip
-   seats itself), `sweep` (a reading cursor), `count` (a number rolls),
-   `swap` (the wrong word becomes the right one), `reveal` (a card flips),
-   `pulse` (a target asks to be looked at). Every one checks
-   `prefers-reduced-motion` and degrades to an instant state change.
-3. **`SCENES`**, already built — 34 line-art primitives, currently used by
-   12 scenes. Extended to every L1, L3 and OC scene.
-4. **`cards`** — the flip-card renderer from F1, reused anywhere a set of
-   terms needs rehearsing.
-
-The gate counts visual elements per scene and fails at zero.
+**The visual must be load-bearing.** A picture that merely decorates adds
+extraneous load and teaches nothing, so the gate requires every scene's
+visual to be referenced by at least one item, rationale or label. This is
+the rule that stops "add a clipart to satisfy F5" — which is exactly the
+drift you asked me to prevent.
 
 ---
 
-## 2. The thirty-five more
+## 3. The thirty-five more, by category
 
-Each applies to a whole category, so each is written once and lands many
-times. The number in brackets is how many scenes it touches.
+### Reading
 
-### Reading (L5, `read`, `tfni`, `selectintext`, `paraphrase`)
+**F6 Clickable line citation** [24] — typing a line number highlights that
+line; clicking the line fills the number.
 
-**F6 Clickable line citation** [24] — in `tfni`, typing a line number
-highlights that line in the passage; clicking the line fills the number.
-The citation stops being an act of faith.
+**F7 Tappable glossary rail** [48] — bolded terms open a strip with
+definition, Arabic and audio, inline, never a popup.
 
-**F7 Tappable glossary rail** [48] — every bolded term in a passage opens
-a strip with definition, Arabic and audio, without leaving the page.
+**F8 Reading pace band** [48] — the ETS expected time for this passage's
+length, filling as you read. A calibration, not a punishment.
 
-**F8 Reading pace band** [48] — a quiet bar showing the ETS expected time
-for this passage's length, filling as you read. Not a timer that punishes;
-a calibration you can ignore.
+**F9 Evidence before verdict** [24] — T/F/NI requires selecting the
+sentence you are relying on before the buttons activate.
 
-**F9 Evidence before verdict** [24] — optional mode in which `tfni`
-requires you to select the sentence you are relying on before the T/F/NI
-buttons activate. This is the single highest-value reading habit in the
-book and it is currently unenforced.
+**F10 Paragraph spine** [48] — a marker showing which paragraph each item
+draws from, filling in as you answer.
 
-**F10 Paragraph spine** [48] — a vertical marker beside the passage
-showing which paragraph each item draws from, filling in as you answer, so
-the distribution of questions becomes visible.
+**F11 Distractor autopsy** [96] — after checking, each wrong option shows
+*which word in the passage* it misreads, highlighted in place.
 
-**F11 Distractor autopsy** [96] — after checking, each wrong option
-expands to show *which* word in the passage it misreads, highlighted in
-place. The rationales already exist; they are currently only text.
+### Listening
 
-### Listening (L4, OC, `listen`, `talk`, `respond`, `notes`, `dictation`)
+**F12 Transcript after, never before** [72], with the answer sentence
+highlighted on review.
 
-**F12 Transcript after, never before** [72] — a transcript panel that
-unlocks only after the first check, with the sentence containing each
-answer highlighted as you review.
+**F13 Slow replay, earned** [72] — 0.8× after the first attempt only.
 
-**F13 Slow replay, earned** [72] — a 0.8× replay available after the first
-attempt. Before that the audio plays once, as on the test.
+**F14 Who is speaking** [72] — the cast portraits exist and are unused
+during playback; the speaker's portrait lights as their line plays.
 
-**F14 Who is speaking** [72] — the cast portraits already exist and are
-unused during playback. The speaker's portrait lights as their line plays.
+**F15 Notepad everywhere** [48] — currently only in `talk`; it persists
+into the items.
 
-**F15 Notepad everywhere** [48] — the note pad currently exists only in
-`talk`. Every listening scene gets one, and it persists into the items.
-
-**F16 Shadowing mode** [36] — play a line, record yourself, play both back
-to back. Falls back to self-rating where the microphone is unavailable,
-which it is from `file://`.
+**F16 Shadowing mode** [36] — play, record, compare. Degrades to
+self-rating where the microphone is unavailable, which it is from `file://`.
 
 **F17 Dictation diff** [12] — the word-level comparison is computed
-already and shown as text. Show it as an aligned diff with the missed
-words in place.
+already; show it aligned, with the missed words in place.
 
-### Vocabulary (L1, `letterbox`, `match`, `oddone`, `sort`)
+### Vocabulary
 
-**F18 Every taught term carries Arabic** [~600 terms] — not only in the
-Explain panel: in the glossary, the flip cards and the answer feedback.
+**F18 Every taught term carries Arabic** [~600 terms] — in the glossary,
+the cards and the feedback, not only the popup.
 
-**F19 Word family tree** [24] — for each `-tion`/`-ment`/`-al` set, a
-tappable tree showing noun, verb, adjective and adverb with stress marked.
+**F19 Word family tree** [24] — noun, verb, adjective, adverb, stress marked.
 
-**F20 Collocation chips** [24] — tap a taught word, see the three words it
-most often sits beside, which is what makes a word usable rather than
-recognised.
+**F20 Collocation chips** [24] — the three words a term usually sits beside,
+which is what makes a word usable rather than recognised.
 
-**F21 Stress made visible** [12] — Unit 12's noun/verb pairs render the
-stressed syllable larger and louder on playback. Currently the lesson
-describes a sound the learner cannot hear.
+**F21 Stress made visible** [12] — Unit 12's pairs render the stressed
+syllable larger and louder. The lesson currently describes a sound the
+learner cannot hear.
 
-**F22 Known/unknown sorting** [12] — the flip deck records which terms you
-turned over twice, and feeds them to the spaced scheduler.
+**F22 Known/unknown sorting** [12] — feeds the spaced scheduler already built.
 
-### Grammar (L3, `order`, `orderset`, `cloze`, `errorfix`, `wordbank`)
+### Grammar
 
-**F23 Function colouring** [60] — as a sentence is assembled in `order`,
-each tile colours by its job: subject, verb, object, adjunct. The
-structure becomes visible rather than asserted.
+**F23 Function colouring** [60] — tiles colour by job as a sentence assembles.
 
-**F24 The rule fills itself in** [27] — in `cloze`, the Grammar Note beside
-it completes as each gap is answered, so the rule is built rather than read.
+**F24 The rule fills itself in** [27] — the Grammar Note completes as each
+cloze gap is answered: the rule is built, not read.
 
-**F25 The correction animates** [24] — in `errorfix`, the wrong word slides
-out and the right one slides in, and the corrected sentence is then spoken.
+**F25 The correction animates** [24] — the wrong word slides out, the right
+one slides in, and the corrected sentence is spoken.
 
-**F26 Verb-pattern matrix** [24] — for Units 10 and 12, a sortable grid of
-verb against form, filled by dragging, replacing the list that currently
-has to be memorised.
+**F26 Verb-pattern matrix** [24] — a sortable grid of verb against form.
 
-**F27 Why this tile is wrong** [60] — the distractor tiles in `order` are
-currently silent. Dropping one shows why it cannot go there.
+**F27 Why this tile is wrong** [60] — distractor tiles in `order` are
+currently silent; dropping one explains why it cannot go there.
 
-### Writing (L2, TW, `discussion`, `write-email`, `paragraph`)
+### Writing
 
-**F28 Model and draft side by side** [48] — with the model's four jobs
-colour-coded and your own paragraphs colouring as they match.
+**F28 Model and draft side by side** [48] — the model's four jobs
+colour-coded, your paragraphs colouring as they match.
 
-**F29 Checklist that points** [48] — ticking a checklist line highlights
-the sentence in your draft that satisfies it, or tells you it cannot find
-one. This turns self-assessment from a formality into a check.
+**F29 Checklist that points** [48] — ticking a line highlights the sentence
+in your draft that satisfies it, or says it cannot find one.
 
-**F30 Word-count ring** [48] — a ring rather than a number, filling to the
-minimum and then continuing in a different tone.
+**F30 Word-count ring** [48].
 
-**F31 Sentence-shape hints** [48] — three sentence frames from this unit's
-grammar, available on demand, inserted at the cursor.
+**F31 Sentence-shape hints** [48] — three frames from this unit's grammar,
+inserted at the cursor on demand.
 
-### Speaking (`repeat`, `interview`)
+### Speaking
 
-**F32 Countdown ring with band descriptors** [72] — the 45 seconds shown
-as a ring, with the 1–6 band descriptors beside it, so self-rating has
-criteria rather than a feeling.
+**F32 Countdown ring with band descriptors** [72] — self-rating gains
+criteria instead of a feeling.
 
-**F33 Model answer, played** [48] — the model answers are written and
-never spoken. Play them.
+**F33 Model answers played** [48] — they are written and never spoken.
 
-**F34 Length against the model** [48] — show your recording's length
-against the model's, which is the single most actionable thing about a
-45-second answer.
+**F34 Length against the model** [48].
 
 ### Cross-cutting
 
-**F35 Progressive hints** [754] — three levels on every exercise: a nudge,
-a narrowing, then the method. Never the answer.
+**F35 Progressive hints** [754] — three levels, gated behind an attempt:
+a nudge, a narrowing, then the method. Never the answer.
 
-**F36 Arabic interface toggle** [754] — instructions, buttons and the
-Explain panel in Arabic; the English content stays English, because
-translating the content would remove the exercise.
+**F36 Arabic interface toggle** [754] — instructions and buttons in Arabic;
+content stays English, because translating it removes the exercise.
 
-**F37 Mistake log** [12 units] — every wrong answer recorded with its
-rationale, reviewable per unit, feeding the spaced scheduler already built.
+**F37 Mistake log** [12 units] — every wrong answer with its rationale,
+feeding the spaced scheduler.
 
-**F38 Reduced motion and screen-reader parity** [754] — every animation has
-a static equivalent and every state change is announced. Verified by the
+**F38 Reduced motion and screen-reader parity** [754] — verified by the
 gate, not by intention.
 
-**F39 Audio pack manifest** [12 units] — a per-unit manifest naming every
-line that needs recording, so human audio can be dropped in later without
-touching the data. The fallback to speech synthesis stays.
+**F39 Audio pack manifest** [12 units] — every line that needs recording,
+named, so human audio drops in later without touching the data.
 
-**F40 Worked first item** [754] — "show me one" does the first item of any
-exercise with a narration of why, then resets it.
+**F40 Worked first item** [754] — does the first item with a narration of
+why, then resets it. Fades across the unit (F43).
 
 ---
 
-## 3. How this is built without drift
+## 4. The pedagogical pass
 
-### 3.1 The gate is the specification
+Twelve additions from re-reading the plan against what is known about how
+people learn, rather than against a feature list. Several of them are the
+book finally practising what its own Unit 1 teaches.
 
-Every requirement above becomes a gate rule **before** any content is
-written. The gate then fails loudly, with a count, until the work is done.
-There is no checklist to forget and no scene that can be missed, because
-the gate enumerates all 754.
+**F41 Retrieval before presentation, in every card** [12] — the flip deck
+asks for the meaning *before* it shows it, and records the attempt. A deck
+that shows first and asks second is recognition practice, which Unit 1
+spends a whole lesson arguing against. The book should not contradict
+itself in its own interface.
 
-New rules, added in this order:
+**F42 Predict, then check** [754] — before Check Answers, an optional
+one-tap prediction: *how many of these do you think you have right?* The
+actual score appears beside the prediction. Unit 1's article is about
+students mispredicting their own accuracy; this makes the book measure the
+thing it teaches, per exercise, and the gap is logged.
 
-1. `no-read-only` — the kind `read-only` is removed from the registry
+**F43 Faded worked examples** [754] — F40's "show me one" is full in
+Lesson 1, partial by Lesson 3, and withdrawn by Lesson 5. A worked example
+that helps a beginner hinders someone who no longer needs it, so support
+that does not fade becomes a crutch.
+
+**F44 Self-explanation after a miss** [754] — one optional line: *in your
+own words, why is the right answer right?* Ungraded, stored, and surfaced
+again in the spaced review. Producing the explanation is what consolidates
+it; reading mine is not.
+
+**F45 Elaborative interrogation on distractors** [~400] — before revealing
+why an option is wrong, ask the learner why they think it is. The
+rationales are already written for every option in the book; they are
+currently delivered without ever asking.
+
+**F46 Interleave within the lesson** [84] — L1's sixteen Complete the Words
+items are blocked in four sets of four by type. Mixing them forces the
+learner to select the method rather than apply the one just demonstrated.
+This is Unit 6's own content, applied to Unit 6's own page.
+
+**F47 Signal after, not before** [168] — highlighting the relevant region
+of a passage or chart is a real aid and gives the answer away if shown
+first. It appears on review only.
+
+**F48 Transfer in the recap** [24] — the closing panel asks the learner to
+apply the unit's distinction to a *new* case rather than restate it.
+Restating is recognition; applying is the thing being taught.
+
+**F49 Segmented audio** [72] — long talks are chunkable into their stated
+parts. Working memory is the binding constraint in listening, and a
+245-word talk played as one block exceeds it for most learners at this level.
+
+**F50 One concept, one icon, twelve units** [754] — the same idea takes the
+same icon everywhere, so the icon becomes a retrieval cue rather than
+decoration. *Measurement*, *comparison*, *evidence*, *inference* and
+*claim* recur in every unit of this book under different subject matter;
+this is what makes that visible.
+
+**F51 The mistake log resurfaces the item** [12 units] — not the topic. A
+learner who got *fewer/less* wrong needs that sentence again, not a lesson
+on countability.
+
+**F52 Calibration report per unit** [12] — the predictions from F42
+collected: where you were confident and wrong, which is the most useful
+single page in any study tool and costs nothing to produce once F42 exists.
+
+---
+
+## 5. How this is built without drift
+
+### 5.1 The gate is the specification
+
+Every requirement becomes a gate rule **before** any content is written.
+The gate then fails loudly, with a count, until the work is done. There is
+no checklist to forget because there is no checklist: the gate enumerates
+all 754 scenes.
+
+New rules, in this order:
+
+1. `no-read-only` — the kind is removed from the registry
 2. `stimulus-present` — no referring expression without its referent
 3. `explain-complete` — four parts, or generated
-4. `sayable` — every kind implements it
-5. `visual-min` — at least one visual element per scene
-6. `arabic-terms` — every term in an Explain panel has Arabic
-7. `hint-ladder` — three levels, none of which is the answer
-8. `motion-safe` — every animation has a reduced-motion path
-9. `aria-live` — every state change is announced
+4. `explain-has-no-answer` — the popup's text must not contain any item's answer
+5. `sayable` — every kind implements it
+6. `visual-load-bearing` — every visual is referenced by an item or rationale
+7. `arabic-terms` — every term in a popup has Arabic, marked reviewed or not
+8. `hint-ladder` — three levels, none of which is the answer
+9. `motion-safe` — every animation has a reduced-motion path
+10. `aria-live` — every state change is announced
+11. `reserved-class` — no renderer may use `.dialog`, `.dot`, `.tile`, `.opt`,
+    or any other class the deck or solver selects on
 
-### 3.2 Zero regression, mechanically
+Rule 11 exists because I have now made that mistake twice: `.dot` broke
+scene lookup in the last pass, and `.dialog` would have broken dialogue
+lines in this one.
+
+### 5.2 Zero regression, mechanically
 
 Three existing guarantees become preconditions for every commit:
 
 - **2,936 gate checks** stay green and only grow
 - **768/768 scenes** keep solving through their own click path
-- **`shots.js`** reports no clipping in either theme at desktop and phone width
+- **`shots.js`** reports no clipping, both themes, desktop and phone
 
 The solver is the one that matters. Every new renderer needs a branch in
 `tools/solver.js` before its content is written, and the gate already
-fails on a kind with no branch. That is what stopped eight broken
-error-correction items shipping last time, and it is the same mechanism.
+fails on a kind with no branch. That is what caught eight broken
+error-correction items last time.
 
-Two additions to the harness:
+Three additions to the harness:
 
-- **`tools/coverage.js`** — a matrix of 754 scenes against the 40
-  requirements, printing the unmet cells. This is the progress report and
-  the definition of done in one file.
-- **`tools/a11y.js`** — keyboard-only traversal of every scene, plus a
-  check that every interactive element has an accessible name.
+- **`tools/coverage.js`** — a 754 × 52 matrix printing the unmet cells.
+  This is the progress report and the definition of done in one file.
+- **`tools/a11y.js`** — keyboard-only traversal of every scene, plus an
+  accessible name on every interactive element.
+- **`tools/popup.js`** — opens the Explain popup on every scene and checks
+  focus, Escape, draft preservation and that no answer string appears in it.
 
-### 3.3 Phase order
+### 5.3 Phase order
 
-Engine first, entirely. Content second, unit by unit. No unit is started
-until the engine it needs is finished and benched, because the alternative
-is twelve units each needing a retrofit.
+Engine first, entirely. Content second, unit by unit. No unit begins until
+the engine it needs is finished and benched.
 
 | Phase | Work | Done when |
 |---|---|---|
-| **1** | `speech.js` ported from the CMA build and extended: Arabic voices, fallback chain, visible degradation | the bench speaks English and Arabic, and says so plainly when it cannot |
-| **2** | `explain.js` + generated panels + `sayable()` for all 29 existing kinds | every existing scene has a panel and a play button; gate rules 3 and 4 go green |
-| **3** | `icons.js`, `motion.js`, reduced-motion paths | gate rule 5 and 8 green on existing scenes |
-| **4** | Seven new renderers for F1, with solver branches and bench scenes | `dev/lab.html` exercises all 39 kinds |
-| **5** | F6–F17 reading and listening mechanisms | gate rules green; no content yet |
+| **1** | `speech.js` ported from the CMA build, extended for Arabic | the bench speaks both and says so plainly when it cannot |
+| **2** | `explain.js`: popup, sheet layout, generated panels, `sayable()` for all 29 kinds | rules 3–5 green on every existing scene |
+| **3** | `icons.js`, `motion.js`, reduced-motion paths | rules 6, 9, 10 green |
+| **4** | Seven new renderers for F1, with solver branches | `dev/lab.html` exercises all 39 kinds |
+| **5** | F6–F17 reading and listening mechanisms | rules green, no content yet |
 | **6** | F18–F34 by category | as above |
 | **7** | F35–F40 cross-cutting | `coverage.js` shows only content cells unmet |
-| **8** | **Unit 1 converted in full**, as the review gate | you look at it before eleven more inherit its decisions |
-| **9** | Units 2–12, one per pass | `coverage.js` all green |
-| **10** | Whole-book QA, audio manifests, package | solve 768/768, shots clean, zip verified from a clean extraction |
+| **8** | **F41–F52, the pedagogical layer** | predict/explain/fade working on the bench |
+| **9** | **Unit 1 converted in full**, as the review gate | you look at it before eleven more inherit its decisions |
+| **10** | Units 2–12, one per pass | `coverage.js` all green |
+| **11** | Whole-book QA, audio manifests, package | solve clean, shots clean, zip verified from a clean extraction |
 
-Phase 8 exists for the same reason it did last time. Unit 1 doubled was
-worth looking at before Units 2–12 copied its shape, and three of its
-decisions changed as a result.
+Phase 9 exists for the same reason it did last time: Unit 1 doubled was
+worth looking at before Units 2–12 copied its shape, and three decisions
+changed because of it.
 
 ---
 
-## 4. What this costs, honestly
+## 6. Cost, and what I would cut
 
-This is larger than the doubling, and the doubling was the largest piece
-of work in the project so far.
+Larger than the doubling, which was the largest piece of work so far.
 
-- **Engine**: ten new modules or major extensions, seven new renderers,
-  two new tools. Phases 1–7.
-- **Content**: 754 Explain panels, ~600 Arabic terms, 91 conversions,
-  and a visual element for every scene that lacks one — 730 of them.
-- **The Arabic is the part I would flag hardest.** Six hundred terms is a
-  translation job, and a wrong Arabic gloss is worse than none, because it
-  is invisible to a reader who needs it. I can produce them, and I would
-  want them checked by someone who reads Arabic before they ship. I will
-  mark every one as unreviewed in the data until that happens, and the
-  gate will report the count.
+- **Engine**: eleven new modules or major extensions, seven new renderers,
+  three new tools.
+- **Content**: 754 Explain popups, ~600 Arabic terms, 91 conversions, and a
+  load-bearing visual for the 730 scenes that lack one.
+
+**The Arabic is what I would flag hardest.** Six hundred terms is a
+translation job, and a wrong gloss is invisible to exactly the reader who
+needs it. I can produce them; they should be checked by someone who reads
+Arabic before they ship. Every term will carry `reviewed: false` until that
+happens and the gate will report the count, so it cannot quietly pass.
 
 ### If it has to be smaller, cut in this order
 
-1. **F16, F32–F34 (recording and self-assessment)** — the microphone does
-   not work from `file://` anyway, so these degrade to self-rating, which
-   already exists.
-2. **F26, F19, F20 (the richer vocabulary and grammar views)** — real gains,
-   and the least load-bearing.
-3. **F36 (Arabic interface)** — keep Arabic on the terms, drop it on the
-   buttons. The terms are the part that teaches.
-4. **F10, F8 (reading spine and pace band)** — informational rather than
-   instructional.
+1. **F16, F32–F34** — recording and self-assessment. The microphone does not
+   work from `file://` anyway, so these degrade to what already exists.
+2. **F26, F19, F20** — the richer vocabulary and grammar views. Real gains,
+   least load-bearing.
+3. **F36** — Arabic interface. Keep Arabic on the terms; the terms teach.
+4. **F10, F8** — reading spine and pace band. Informational, not instructional.
 
-What I would not cut is **F1, F2, F9 and F25**. F2 because a question
-asked away from its stimulus is testing memory and claiming to test
-reading. F9 because citing evidence before judging is the habit the whole
-book has been building. F1 and F25 because they are the difference between
-a book that explains and a book that asks.
+**What I would not cut: F1, F2, F9, F25, F41, F42, F44.** F2 because a
+question asked away from its stimulus tests memory and claims to test
+reading. F9 and F44 because citing evidence and explaining your own
+reasoning are the two habits the whole book has been building. F41 and F42
+because a book that teaches the testing effect and then builds recognition
+exercises with no calibration is arguing against itself on its own pages.
