@@ -48,7 +48,18 @@
     "ruleBuilds",    /* F24 the rule assembled from your own right answers   */
     "functionColour",/* F23 tiles coloured by the job they do                */
     "tileWhy",       /* F27 a spare tile explains itself when you reach for it */
-    "stressMarks"    /* F21 which syllable carries the stress, shown         */
+    "stressMarks",   /* F21 which syllable carries the stress, shown         */
+
+    /* Phase 7, the cross-cutting learning layer (learn.js) */
+    "hints",         /* F35 three levels, none of them the answer            */
+    "predict",       /* F42 your guess beside your score                     */
+    "selfExplain",   /* F44 your words for why the right answer is right     */
+    "mistakeLog",    /* F37 the item kept, not the topic                     */
+    "resurfaceItem", /* F51 and brought back as itself                       */
+    "calibration",   /* F52 where you were confident and wrong               */
+    "worked",        /* F40 the first item done, with the thinking shown     */
+    "fade",          /* F43 and withdrawn as the unit goes on                */
+    "askWhy"         /* F45 asked before the rationales are handed over      */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

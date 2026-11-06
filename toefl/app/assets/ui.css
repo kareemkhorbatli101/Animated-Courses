@@ -915,3 +915,68 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
   text-decoration:underline;text-decoration-thickness:2px;
   text-underline-offset:3px;text-decoration-color:var(--orange);}
 .gr-syl-dot{color:var(--ink-3);font-size:11px;}
+
+/* ===================================================================
+   learn.js — the cross-cutting learning layer (F35, F37, F42, F44, F45)
+   =================================================================== */
+
+/* F35 hints */
+.ln-hints{margin:14px 0 0;display:flex;flex-wrap:wrap;gap:9px;align-items:center;}
+.ln-hints-label{font:700 10.5px/1.8 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.ln-hint-btn{font:600 13px/1 var(--ui);padding:7px 13px;border-radius:999px;
+  border:1px dashed var(--rule-2);background:var(--card);color:var(--ink-2);cursor:pointer;}
+.ln-hint-btn:hover:not(:disabled){border-style:solid;color:var(--ink);background:var(--cream);}
+.ln-hint-btn:disabled{opacity:.55;cursor:default;}
+.ln-hint-out{flex:1 0 100%;display:flex;flex-direction:column;gap:6px;}
+.ln-hint{display:flex;gap:9px;align-items:baseline;margin:0;padding:8px 11px;
+  border-radius:8px;background:var(--cream);border-left:3px solid var(--orange);
+  font:400 14px/1.65 var(--ui);color:var(--ink);}
+.ln-hint-n{flex:0 0 auto;width:18px;height:18px;border-radius:50%;background:var(--orange);
+  color:#fff;font:700 11px/18px var(--ui);text-align:center;}
+
+/* F42 predict, then check */
+.ln-predict{margin:14px 0 0;padding:11px 13px;border-radius:10px;
+  background:var(--paleblue);border:1px solid var(--rule);}
+.ln-predict-q{display:block;font:600 13.5px/1.6 var(--ui);color:var(--ink);}
+.ln-predict-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;}
+.ln-predict-n{min-width:34px;font:600 14px/1 var(--ui);padding:8px 10px;border-radius:8px;
+  border:1px solid var(--rule-2);background:var(--card);color:var(--ink);cursor:pointer;}
+.ln-predict-n.on{background:var(--blue);border-color:var(--blue);color:#fff;}
+.ln-predict-n.ln-actual{box-shadow:inset 0 -3px 0 var(--ok);}
+.ln-predict-skip{display:block;margin:7px 0 0;font:400 11.5px/1.5 var(--ui);color:var(--ink-3);}
+.ln-predict-res{margin:9px 0 0;padding:8px 11px;border-radius:8px;
+  font:500 13.5px/1.6 var(--ui);}
+.ln-predict-res.ln-good{background:var(--mint);color:var(--ink);}
+.ln-predict-res.ln-over{background:var(--peach);color:var(--ink);}
+.ln-predict-res.ln-under{background:var(--cream);color:var(--ink);}
+
+/* F44 self-explanation, F45 ask before telling */
+.ln-why{margin:11px 0 0;}
+.ln-why-q{display:block;font:600 13px/1.6 var(--ui);color:var(--ink-2);margin:0 0 5px;}
+.ln-why-box{width:100%;box-sizing:border-box;border:1px solid var(--rule);
+  border-radius:8px;background:var(--card);color:var(--ink);padding:8px 11px;
+  font:400 14px/1.6 var(--ui);resize:vertical;}
+.ln-why-box:focus{outline:2px solid var(--boxline);outline-offset:1px;}
+.ln-askwhy{margin:10px 0;padding:10px 12px;border-radius:9px;background:var(--sunk);
+  border-left:3px solid var(--blue);}
+.ln-askwhy-q{margin:0 0 6px;font:600 13px/1.6 var(--ui);color:var(--ink-2);}
+.ln-askwhy-go{margin:7px 0 0;font:600 13px/1 var(--ui);padding:7px 13px;
+  border-radius:999px;border:1px solid var(--rule-2);background:var(--card);
+  color:var(--ink);cursor:pointer;}
+.ln-answered{border-left-color:var(--ok);}
+
+/* F40/F43 the worked first item, which fades across the unit */
+.ln-worked{margin:12px 0 0;}
+.ln-worked-btn{font:600 13px/1 var(--ui);padding:7px 13px;border-radius:999px;
+  border:1px solid var(--rule-2);background:var(--card);color:var(--ink-2);cursor:pointer;}
+.ln-worked-btn:hover{color:var(--ink);background:var(--cream);}
+.ln-worked-body{margin:9px 0 0;padding:11px 14px;border-radius:9px;
+  background:var(--sunk);border-left:3px solid var(--c1);}
+.ln-worked-tag{margin:0 0 7px;font:700 10.5px/1.6 var(--ui);color:var(--c1);
+  text-transform:uppercase;letter-spacing:.07em;}
+.ln-worked-q{margin:0 0 6px;font:400 14px/1.65 var(--ui);color:var(--ink-2);}
+.ln-worked-a,.ln-worked-why{margin:0 0 5px;font:400 14.5px/1.7 var(--ui);color:var(--ink);}
+.ln-worked-label{display:inline-block;min-width:62px;font:700 10.5px/1.7 var(--ui);
+  color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;}
+.ln-worked-foot{margin:7px 0 0;font:400 12px/1.6 var(--ui);color:var(--ink-3);}

@@ -306,6 +306,24 @@
 
     var checkedHooks = [];
 
+    /* does this scene offer options whose rationales are worth asking about */
+    function hasDistractors(sp) {
+      var lists = [].concat(sp.items || [], sp.gaps || []);
+      return lists.some(function (i) {
+        return i && Array.isArray(i.options || i.opts) && (i.options || i.opts).length > 1;
+      });
+    }
+
+    /* the feedback a renderer produced, as plain lines, for the mistake log */
+    function missedTexts(res) {
+      if (!res || !res.html) return [];
+      var holder = E("div");
+      holder.innerHTML = res.html;
+      return [].slice.call(holder.querySelectorAll("li"))
+        .map(function (li) { return li.textContent.replace(/\s+/g, " ").trim(); })
+        .filter(Boolean).slice(0, 12);
+    }
+
     function render() {
       stopReading();
       stage.innerHTML = "";
@@ -329,6 +347,28 @@
       /* Reading and listening behaviours that are the same on every scene of
          their kind live in one place rather than in each renderer. */
       if (root.RL) root.RL.decorate(stage, spec, api, page);
+
+      /* The learning layer: help that is graded rather than given (F35), a
+         prediction before the mark (F42), an explanation asked for after a
+         miss (F44), and a record of what went wrong (F37). All optional,
+         none of it gating Check Answers, because a learner who wants to
+         just answer the question must always be able to. */
+      if (root.Learn) {
+        var count = itemCount(spec);
+        root.Learn.workedExample(stage, spec, page, api);
+        root.Learn.hintBar(stage, spec, api);
+        if (count > 1) root.Learn.predictBar(stage, count, api, page, spec);
+      }
+    }
+
+    /* how many things this scene marks, which is what a prediction is about */
+    function itemCount(sp) {
+      if (typeof sp.n === "number" && sp.n > 1) return sp.n;
+      var lists = ["items", "gaps", "pairs", "steps", "cards", "phrases",
+                   "sentences", "takeaways", "lines"];
+      for (var i = 0; i < lists.length; i++)
+        if (Array.isArray(sp[lists[i]]) && sp[lists[i]].length > 1) return sp[lists[i]].length;
+      return 0;
     }
 
     check.onclick = function () {
@@ -340,7 +380,23 @@
       verdict.textContent = res.verdict ||
         (res.total > 1 ? res.score + " of " + res.total + " right" : (ok ? "Right" : "Not yet"));
       fb.className = "fb show " + (ok ? "ok" : "no");
-      fb.innerHTML = res.html || "";
+      fb.innerHTML = "";
+      /* F45 — the rationales for every wrong option are written and have
+         always been handed over unasked. Asking the learner why they think
+         they went wrong, before showing them, is the difference between
+         reading an explanation and producing one. */
+      var holder = E("div");
+      holder.innerHTML = res.html || "";
+      if (!ok && root.Learn && hasDistractors(spec) && res.html) {
+        holder.hidden = true;
+        fb.appendChild(holder);
+        root.Learn.askWhyFirst(fb, function () {
+          holder.hidden = false;
+          if (root.Motion) root.Motion.reveal(holder);
+        });
+      } else {
+        fb.appendChild(holder);
+      }
       live.textContent = verdict.textContent;
       api.attempts++;
       checkedHooks.forEach(function (fn) {
@@ -359,6 +415,12 @@
         }
       } else if (P && P.miss) {
         P.miss(page.id, spec.id);
+      }
+      if (!ok && root.Learn) {
+        /* F44 — producing the explanation is what consolidates it; reading
+           mine is not. F37 — and the item itself is kept, not its topic. */
+        if (!fb.querySelector(".ln-why")) root.Learn.selfExplain(fb, page, spec);
+        root.Learn.logMiss(page, spec, missedTexts(res));
       }
     };
     again.onclick = function () {
