@@ -166,6 +166,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "Tomás has identified the real limit of the argument, but I think he draws the wrong conclusion from it.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason or an example",
+            text: "He is right that sanitation does not touch heart disease.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "So I would agree with Priya's principle and update her examples.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -203,6 +214,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "measurement"],
+        modelJobs: [
+          { job: "My first paragraph says whether the figure should be published",
+            text: "Publish, and publish the denominator in the same breath as the rate.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used numerator , denominator or rate accurately",
+            text: "Dan is right that the caveat does not travel.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Mei has the stronger position if the format changes.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "wrote about what happens to the figure after publication, not only about whether it is correct",
+            text: "A sentence of explanation beneath a number is read by a fraction of the people who read the number, and planning otherwise is wishful.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

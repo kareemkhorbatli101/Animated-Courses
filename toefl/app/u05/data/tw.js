@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "Paragraph 1 says why I am writing",
+            text: "Could you confirm that this is acceptable by Monday afternoon, so that both groups can plan?",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "Paragraph 2 says what happened",
+            text: "I am writing about the dome slot our group has been given for Tuesday evening.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "Paragraph 3 proposes something specific",
+            text: "Rather than split the night and lose two setups, we would like to take the second half and let the other group begin.",
+            why: "it proposes one specific alternative rather than describing a problem" },
+          { job: "Paragraph 4 asks for one thing, with a deadline",
+            text: "Our session was rebooked after Monday was clouded out, and it appears the second group's booking was never cleared, so both of us arrived this morning expecting the same slot.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "Has ___ been ___ yet?",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "claim"],
+        modelJobs: [
+          { job: "Paragraph 1 says what I am accepting",
+            text: "Thank you for the four compensation nights offered for March.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "Paragraph 2 gives the astronomical reason the other two are useless to us",
+            text: "We should like to accept the nights of the eighth and the ninth.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "Paragraph 3 says what I think should happen to them",
+            text: "The remaining two are of no use to us: our field sets before eleven in the second half of March, so on the twenty-second and twenty-third we would have under an hour of usable dark time.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "did not claim credit for giving them back",
+            text: "We have already checked this against the ephemeris rather than assuming it.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "used the present perfect at least once, correctly",
+            text: "We would suggest that the two nights go to the group whose November request was refused, if their targets are better placed.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

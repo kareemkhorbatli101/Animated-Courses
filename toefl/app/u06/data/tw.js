@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said why I was writing in the first sentence",
+            text: "I am writing to report that our enzyme assay failed this morning, and to ask whether we may repeat it next week.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "described the stages in order , and marked them",
+            text: "First, we set the bath to thirty-seven and added the sample.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what I think went wrong, without guessing wildly",
+            text: "Once it was in, we added the enzyme straight away rather than waiting for the bath to come up to temperature.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "made one specific request",
+            text: "Would it be possible to book a bath for Tuesday?",
+            why: "a plain modal request, which is where politeness actually lives" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "We carried out ___ and ___.",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first sentence makes clear the problem is in my own work",
+            text: "I am writing about a problem we have found in our own report, which we submitted on Monday.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "described the circularity in a way a reader could check",
+            text: "The calibration curve on page three fits every point exactly.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "used a phrasal verb or its single-word equivalent accurately",
+            text: "We worked out why last night: we calculated the concentrations from that curve and then plotted them against it, so the fit was guaranteed by the method and shows nothing at all about the samples.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed something specific rather than asking what to do",
+            text: "We would rather the figure were withdrawn than marked.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "did not apologise more than once",
+            text: "If it helps, we can go over the raw absorbances and produce a plot of the measured values on their own before Friday.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

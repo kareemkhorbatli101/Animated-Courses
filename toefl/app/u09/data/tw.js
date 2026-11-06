@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first sentence says what the message is about and takes a position",
+            text: "I am writing about the evening seminars at the science building, which currently finish half an hour after the last shuttle.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "said what the problem is costing, concretely",
+            text: "The walk back is fifteen minutes and mostly downhill in the dark.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed one specific change, not a general complaint",
+            text: "Three students in our group have stopped attending the evening sessions entirely, and two others have been arriving late because they allow extra time to walk up.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "kept it short enough to be read in full",
+            text: "Would it be possible to extend the shuttle to eight on seminar evenings?",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "___ did not ___, and ___ did not either.",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "claim"],
+        modelJobs: [
+          { job: "said what the appraisal measures before saying what is wrong with it",
+            text: "What a measure of that shape cannot count is a journey nobody makes.",
+            why: "it carries the words this line asks for" },
+          { job: "named who cannot appear in the measure, and why not",
+            text: "To the consultation team, The appraisal values the time saved by people who currently drive along the access road, and as far as I can see the arithmetic in it is sound.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "used capacity , deterrent or induced demand accurately",
+            text: "I have not cycled in since my first week, because there is no safe way across that road, and I contribute no journey time at all to the appraisal — not a long one, not a slow one, none.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed one specific addition rather than opposing the scheme",
+            text: "I realise Friday is close, which is why I am asking for one figure rather than a different appraisal.",
+            why: "it proposes one specific alternative rather than describing a problem" },
+          { job: "named the Friday deadline",
+            text: "The same is true of everyone deterred in the same way, and the scheme therefore reads our absence as satisfaction.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

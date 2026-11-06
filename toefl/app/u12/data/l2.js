@@ -154,6 +154,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "Tomás has found the place where Priya's argument proves too much, and the way out is to separate two claims she is running together.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a specific, checkable example",
+            text: "The weak claim is that a work's effect depends on its audience.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "That cannot be right, because as Tomás says we could then never disagree about one.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -191,6 +202,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says which kind of label serves the visitor better",
+            text: "The fuller label, with the interpretation marked as one.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used convention , reception or interpretation accurately",
+            text: "Mei is right about the cost, and it is a real one: a sentence telling you the figure is turning away arrives before you have looked, and you cannot look again for the first time.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "But Dan has identified what the bare label hides.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "gave at least one detail somebody could check",
+            text: "A card reading Oil on canvas, 1887 is perfectly informative to somebody who already knows what that meant in 1887, and tells everybody else nothing at all.",
+            why: "a specific thing that happened, which is what makes it evidence rather than assertion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

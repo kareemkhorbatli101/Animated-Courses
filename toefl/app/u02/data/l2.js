@@ -139,6 +139,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think the range has to be reported, but Tomás has identified a real cost.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason or an example",
+            text: "A single number would be a claim nobody can support, and when it failed it would discredit the work that was done properly.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Tomás is right that people hear the comfortable end.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -177,6 +188,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "claim"],
+        modelJobs: [
+          { job: "My first paragraph says who the published version should be written for",
+            text: "The published version should be written for the specialists, and a second version should exist.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason, not only a preference",
+            text: "The answer is not to simplify the paper; it is to write the summary as well, under the same names, so that the judgement is at least made by people who can be asked about it.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Mei is right that simplifying hides a judgement.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "wrote about the audience, not about whether the science is right",
+            text: "Choosing which number to lead with, or which caveat to drop, is an editorial decision that the reader cannot see and cannot undo, and it is made by whoever writes the simple version.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

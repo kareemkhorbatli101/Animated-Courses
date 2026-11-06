@@ -8,6 +8,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said what I was writing about in the first sentence",
+            text: "I am writing about the new meeting time for Thursday's gallery visit.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave concrete detail, not a general complaint",
+            text: "The difficulty is that five students in our group are in the seminar that finishes at half past one across the city.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed a workable alternative",
+            text: "The gallery is forty minutes away, which puts them at the entrance at about ten past two — twenty-five minutes after the group now meets, and ten minutes into the curator's tour.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "asked for a decision by a stated time",
+            text: "Would it be possible for those five to join the tour in the second room, as the announcement already allows for latecomers?",
+            why: "a plain modal request, which is where politeness actually lives" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "Which part lost you — ___ or ___?",
@@ -35,6 +49,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says what the review got right, specifically",
+            text: "Thank you for the review, and particularly for the paragraph about the camera staying behind her — that was deliberate, and nobody else noticed it.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "corrected the factual claim without disputing the reading",
+            text: "One thing I should tell you.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "conceded that the effect may hold whatever caused it",
+            text: "What I will concede is that the effect may be real anyway.",
+            why: "it carries the words this line asks for" },
+          { job: "said clearly that I am not asking for a withdrawal",
+            text: "The four silent minutes at the end were not a choice.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "separated an observation from an interpretation at least once",
+            text: "The location sound was unusable and I could not get a re-record before the deadline, so what you are hearing is a fault rather than a refusal.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

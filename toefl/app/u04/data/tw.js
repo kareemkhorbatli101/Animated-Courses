@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said what I was asking for in the first sentence",
+            text: "I am writing to request the coastal survey folder from the restricted series for Friday morning.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used a colon correctly, with a complete sentence before it",
+            text: "The details are as follows: Priya Raman, MSc Archaeology, supervisor Dr R.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "gave every detail the form requires",
+            text: "Okonkwo.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "explained the change of day without blaming anyone",
+            text: "Our Thursday session has been shortened from three hours to two, so I would not be able to use the folder properly on that day.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "I have ___ twice since ___, and ___.",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "time"],
+        modelJobs: [
+          { job: "My subject line names the appendix and the problem",
+            text: "I am writing about the dating appendix, which I was checking against the sample list.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "used a colon, with a complete sentence in front of it",
+            text: "Four of the shell determinations are given without any statement of the marine correction: numbers 7, 9, 14 and 15.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what the appendix does not state, rather than what was done wrong",
+            text: "Three of those four are cited in the conclusion.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said why it matters — three of them are in the conclusion",
+            text: "If I have not heard by Friday I will ask the laboratory directly, since they will hold the submission records.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "said what I will do if I hear nothing",
+            text: "I should say that I do not know whether the correction was applied; only that the appendix does not record it either way.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

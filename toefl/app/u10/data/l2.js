@@ -131,6 +131,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think Tomás is closer, although Priya has identified something real about legitimacy.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used however , although , despite or whereas correctly",
+            text: "The difficulty with her position is that it leaves an observer unable to distinguish two cases: someone acting on conscience and someone acting on convenience.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Both break the rule, both may be sincere, and only one of them is making an argument that anyone else can examine.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -168,6 +179,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph answers the question asked, not a nearby one",
+            text: "It is still a rule, and Dan's test is the one that settles it.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used enforcement , obligation or entitlement accurately",
+            text: "Mei is right that enforcement is not decoration.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Despite that, Dan's observation is decisive.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "used a gerund as a subject at least once",
+            text: "A rule nobody ever applies does none of the work rules are for: it does not guide anybody, and it cannot be relied on.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

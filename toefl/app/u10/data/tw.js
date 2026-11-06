@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said what I was objecting to in the first sentence",
+            text: "I am writing to raise a point about the wording of Thursday's motion, This house would break unjust laws .",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "said precisely what is wrong, not that I dislike it",
+            text: "Whether the laws in question are unjust is precisely what the two sides disagree about, whereas the motion treats it as given.",
+            why: "it carries the words this line asks for" },
+          { job: "used however , although or whereas correctly",
+            text: "The difficulty is that the phrase settles in advance the question the debate exists to examine.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed a specific alternative",
+            text: "Would the committee consider This house would break laws it believes to be unjust ?",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "I am writing about ___.",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says what I accept, specifically",
+            text: "I accept the substance of the letter.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "named the single thing I will not sign",
+            text: "The account of what was said in the seminar matches what I heard, the response from the department was inadequate, and I would say both of those publicly under my own name.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "declined clearly, without leaving it ambiguous",
+            text: "What I cannot sign up to is the final paragraph.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what I would sign instead",
+            text: "Dismissal is not proportionate to what is described in the three paragraphs above it, and signing would commit me to a conclusion I do not hold.",
+            why: "it carries the words this line asks for" },
+          { job: "used a contrast marker — however , although or whereas — with the right punctuation",
+            text: "So I will not be signing this version.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

@@ -7,6 +7,17 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said why I was writing in the first sentence",
+            text: "I am writing to let you know that site three was cancelled on Friday, as the path was still flooded, so our group was only able to sample sites one and two.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "explained the problem without blaming anyone",
+            text: "As a result, we propose to compare the two estuary sites in detail and to use the published figures for site three, clearly marked as secondary data.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed a specific alternative",
+            text: "Would that be acceptable, or would you prefer us to wait for a second visit?",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "We are going to ___ on ___.",
@@ -35,6 +46,20 @@
 
       { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first sentence names the clash",
+            text: "I am writing because Tuesday's seminar at two clashes with the compulsory laboratory session for this module, which I understand cannot be moved.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "said what I will do anyway — the reading, the question",
+            text: "I will do the eleven-page reading before Tuesday and send my question to Dr Vasquez by Monday evening, so that it can be raised in the session.",
+            why: "it says what the writer will do regardless, which turns a request into a plan" },
+          { job: "asked for one specific thing, not for an exemption in general",
+            text: "Could I ask whether a recording or a set of notes will be available afterwards?",
+            why: "a plain modal request, which is where politeness actually lives" },
+          { job: "signed off in a way that matches the reader",
+            text: "Kind regards, Priya Raman",
+            why: "the sign-off matches the distance between writer and reader" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
 

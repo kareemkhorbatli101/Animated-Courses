@@ -8,6 +8,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said why I was writing in the first sentence",
+            text: "I am writing to ask whether there is still a place in the Thursday study-skills workshop.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "explained what happened, briefly",
+            text: "Unfortunately I missed the sign-up deadline by a day, as I was away on Friday.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "made a specific request",
+            text: "Would it be possible to add me to the waiting list?",
+            why: "a plain modal request, which is where politeness actually lives" },
+          { job: "signed off in a way that matches the reader",
+            text: "Many thanks, Mei Lin",
+            why: "the sign-off matches the distance between writer and reader" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "I am writing because ___.",
@@ -36,6 +50,20 @@
 
       { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first sentence says who I am writing for and why",
+            text: "I am writing on behalf of group four for the methods assignment, which is due on the twenty-eighth.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "described the problem without blaming anyone by name",
+            text: "So far we have messaged the group chat three times and emailed directly twice.",
+            why: "it describes the problem by what happened rather than by who caused it" },
+          { job: "said what the group has already tried",
+            text: "We have not been able to reach one of our members for a week, and until we do we cannot divide the work.",
+            why: "it says what has already been tried, which respects the reader's time" },
+          { job: "asked for one specific thing, not for help in general",
+            text: "Could you advise whether we should proceed as a group of three, and whether the division of work needs to be recorded anywhere?",
+            why: "a plain modal request, which is where politeness actually lives" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
 

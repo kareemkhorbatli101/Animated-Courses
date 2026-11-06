@@ -122,12 +122,23 @@
      were writing is worse than useless. */
   var GREETING = /^(dear|hi|hello|good (morning|afternoon|evening))\b/i;
   var SIGNOFF = /^(best wishes|best regards|kind regards|regards|yours( sincerely| faithfully)?|sincerely|many thanks|thanks|thank you)\b[,.]?\s*\w*[.,]?$/i;
+  /* A greeting and the first real sentence often share one sentence:
+     "Dear Dan, I am writing to ask whether there is still a place."
+     Dropping that whole sentence as a greeting throws away the purpose,
+     which is the one thing the first line is supposed to carry. The
+     greeting is trimmed as a prefix instead, and only a sentence that is
+     nothing but a greeting is dropped. */
+  var GREET_PREFIX = /^(dear|hi|hello|good (morning|afternoon|evening))\b[^,.]{0,40}[,.]\s*/i;
   function body(ss) {
-    var a = ss.slice();
+    var a = ss.map(function (x) {
+      var t = x.replace(GREET_PREFIX, "").trim();
+      return t.length > 2 ? t : x;
+    });
     while (a.length > 1 && GREETING.test(a[0])) a.shift();
     while (a.length > 1 && SIGNOFF.test(a[a.length - 1])) a.pop();
     return a.length ? a : ss;
   }
+
   /* "in the first sentence" is a claim about position, which no amount of
      word matching can test. Find the position it names and show the learner
      that sentence. */

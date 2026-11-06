@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "said what, how much, and since when",
+            text: "I am writing to report that the shared incubator has been running about two degrees above its set point since Tuesday.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what is now in doubt",
+            text: "It did not use to drift at all, which is what makes me think this is a new fault rather than a calibration we have always had.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what I have and have not already done",
+            text: "This means that anything cultured in it this week should be treated as unreliable.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "asked one specific question",
+            text: "Should I ask them to discard this week's plates, or would you prefer to see them first?",
+            why: "a plain modal request, which is where politeness actually lives" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "___ has been ___ since ___.",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "measurement"],
+        modelJobs: [
+          { job: "said the figure is accurate before saying what is wrong with it",
+            text: "The fatality figure in this week's issue is correctly calculated, and I think the sentence around it will be read in a way nobody intends.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "gave both the deaths and the tests, for both weeks",
+            text: "Over the fortnight the deaths went from forty-five to fifty.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "used numerator or denominator accurately",
+            text: "So the numerator moved by five and the denominator fell by a third, and almost the whole of the rise from nine per cent to fifteen comes from the second of those.",
+            why: "it carries the words this line asks for" },
+          { job: "proposed an exact wording rather than asking for a correction",
+            text: "Would it be possible to print fifty deaths among three hundred and thirty people tested, against forty-five among five hundred a fortnight ago ?",
+            why: "a plain modal request, which is where politeness actually lives" },
+          { job: "named the Friday deadline",
+            text: "The tests went from five hundred to three hundred and thirty.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

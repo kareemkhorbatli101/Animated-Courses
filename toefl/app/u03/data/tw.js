@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My subject line names the thing and the action",
+            text: "Subject: Trays 3 and 4 — labels do not match collection order Dear Dr Okonkwo, I am writing to report that the labels on trays three and four do not follow the order in which the specimens were collected.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what I found in the first sentence",
+            text: "Subject: Trays 3 and 4 — labels do not match collection order Dear Dr Okonkwo, I am writing to report that the labels on trays three and four do not follow the order in which the specimens were collected.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "explained why it matters",
+            text: "Tray four is the later sample, although its number suggests otherwise.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "asked a question the reader can decide",
+            text: "Should we re-measure both trays, or would you prefer us simply to swap the dates in the record and note the correction?",
+            why: "a plain modal request, which is where politeness actually lives" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "The ___ is ___er than it was ___.",
@@ -34,6 +48,20 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My subject line names the page",
+            text: "I wondered whether I could ask about one sentence on page 14 of the handbook: the birds adapted their beaks to the drought .",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "quoted the exact sentence",
+            text: "As written, it puts the birds in the position of doing something to their own beaks, which is the reading you spent Tuesday's lecture removing, and it was certainly the reading I arrived with.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what a reader might take from it, rather than calling it wrong",
+            text: "Would the population became adapted as deeper-beaked birds survived work instead?",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "proposed a specific replacement wording",
+            text: "It is longer, but it carries the mechanism.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

@@ -159,6 +159,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "Tomás is right about the bias, and Priya is right that not every null result is informative.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason or an example",
+            text: "The two are compatible.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "The problem is not that nulls are uninteresting but that they are invisible.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -196,6 +207,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "claim"],
+        modelJobs: [
+          { job: "My first paragraph says whether it would be an improvement",
+            text: "It would be an improvement, and Dan has identified what it would cost rather than a reason against it.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used replication , protocol or significant accurately",
+            text: "Mei's argument is the stronger one.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Dan is right that editors would become cautious, and I do not think that is answered by denying it.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "used a passive at least once, with the agent dropped on purpose",
+            text: "When acceptance is decided after the result is known, the result is what the work is optimised towards, and nobody involved has to intend anything dishonest for that to happen.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

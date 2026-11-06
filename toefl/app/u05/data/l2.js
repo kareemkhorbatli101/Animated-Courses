@@ -145,6 +145,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think Priya has found the limit of Tomás's argument without quite saying so.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason or an example",
+            text: "He is wrong that the question is closed, because it has only been tested where machines were always going to win.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Tomás is right about cost and risk.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -182,6 +193,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says whether the bias undermines the catalogue",
+            text: "The catalogue stands, but Dan has identified a cost that Mei's answer does not reach.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used sample , bias or catalogue accurately",
+            text: "Mei is right about the arithmetic.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "A selection function that can be written down can be divided out, and the corrected distribution is a real result rather than a guess.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "wrote about what can and cannot be corrected, not only about the data",
+            text: "That part of the problem is solved in the ordinary way.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

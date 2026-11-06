@@ -26,6 +26,28 @@ const problems = [];
 function ok(m){ pass++; }
 function bad(where, m){ fail++; problems.push(`${where}: ${m}`); }
 /* fields one renderer owns, which another must not borrow */
+/* A regex LITERAL containing \\b, \\s, \\w or \\d is almost always a
+   generation accident: in a literal those mean a backslash followed by the
+   letter, not a word boundary or a space. It fails silently \u2014 the regex
+   compiles, matches nothing it was meant to, and the feature it guards
+   quietly stops working. One such pair sat in ws.js and disabled greeting
+   and sign-off detection entirely. (Inside a string passed to new RegExp,
+   the doubling is correct, so only literals are checked.) */
+function doubledEscapes() {
+  const bad = [];
+  for (const f of fs.readdirSync(path.join(__dirname, '..', 'assets'))) {
+    if (!/\.js$/.test(f)) continue;
+    const src = fs.readFileSync(path.join(__dirname, '..', 'assets', f), 'utf8');
+    src.split('\n').forEach((line, i) => {
+      /* a regex literal on this line, and a doubled class escape inside it */
+      const m = /(?:^|[=(,:[|&!?{;])\s*\/(?![*\/])(?:\\.|\[[^\]]*\]|[^\/\n\\])+\/[gimsuy]*/.exec(line);
+      if (!m) return;
+      if (/\\\\[bswdBSWD]/.test(m[0])) bad.push(`${f}:${i + 1}  ${m[0].slice(0, 70)}`);
+    });
+  }
+  return bad;
+}
+
 /* The recording file name is computed twice: once in assets/audio.js, to
    look a recording up, and once in tools/audio-manifest.js, to name it.
    If the two ever disagree the book silently stops finding its audio, so
@@ -497,6 +519,12 @@ kindsUsed.forEach((where, kind)=>{
   if (!SOLVED.has(kind)) bad(where, `kind "${kind}" has no branch in tools/solver.js, so nothing verifies it can be answered`);
   else ok();
 });
+
+/* no regex literal may carry a doubled class escape */
+(function () {
+  const bad2 = doubledEscapes();
+  if (bad2.length) bad2.forEach(b => bad('regex escape', b)); else pass++;
+})();
 
 /* the two copies of the recording-name hash must agree */
 (function () {

@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "asked for what I wanted in the first sentence",
+            text: "I am writing to ask whether the calibration settings used for the spectrometer runs in your 2024 paper are available.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "apologised at most once — or not at all",
+            text: "I have been attempting to reproduce the absorbance results and my figures differ from yours by about eight per cent.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "said what I had already tried",
+            text: "I have checked the supplementary material and the departmental log, and the settings do not appear in either.",
+            why: "it says what has already been tried, which respects the reader's time" },
+          { job: "made clear I was not alleging an error",
+            text: "I am not suggesting there is any error in the published work — the most likely explanation is that my instrument is calibrated differently.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "Could you ___ by ___?",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first sentence says I am correcting something, not thanking anyone",
+            text: "I need to correct an attribution in our poster abstract, which I have only noticed now that it has been circulated.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "named Priya and said specifically what she did",
+            text: "The abstract says that I identified the systematic offset in the readings.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "copied the group rather than writing privately",
+            text: "I have copied the group so that this is on the record where the original claim was made.",
+            why: "it carries the words this line asks for" },
+          { job: "asked for a specific amendment",
+            text: "Could the abstract be amended to name her, and the correction sent to the same list the announcement went to?",
+            why: "a plain modal request, which is where politeness actually lives" },
+          { job: "used a passive at least once, with the agent kept because it matters",
+            text: "I did not.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

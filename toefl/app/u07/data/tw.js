@@ -7,6 +7,20 @@
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
         concepts: ["write", "claim"],
+        modelJobs: [
+          { job: "said what I wanted in the first sentence",
+            text: "I am writing to ask you to remove a late fee charged on my second instalment.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used since or because to join the claim to its reason",
+            text: "Since I arranged a payment plan on the eleventh of March, the fifteenth deadline should not have applied to me.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "said what evidence I hold",
+            text: "The fee appears to have been charged because the plan was recorded against the wrong student number — one digit out from mine.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "asked for one specific action",
+            text: "Could you confirm that the fee has been removed, and that the plan is now attached to the correct record?",
+            why: "a plain modal request, which is where politeness actually lives" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         frames: [
           { frame: "What happens if I ___?",
@@ -34,6 +48,23 @@
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
         concepts: ["write", "comparison", "claim"],
+        modelJobs: [
+          { job: "My first sentence says this is about the design, not about anyone's conduct",
+            text: "I want to raise a design point about the attendance ranking rather than a complaint about anybody's conduct.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "described the incentive the rules create, using incentive or target accurately",
+            text: "If the measure counts people rather than dividing by them, the incentive points the same way as the aim.",
+            why: "it carries the words this line asks for" },
+          { job: "said explicitly that nobody has done this",
+            text: "Nobody in our group has done this and I am not suggesting anyone elsewhere has.",
+            why: "it carries the words this line asks for" },
+          { job: "proposed a specific change rather than asking for the scheme to be dropped",
+            text: "Would it be possible to rank on total attendances rather than the average?",
+            why: "a plain modal request, which is where politeness actually lives" },
+          { job: "used a real conditional at least once, correctly",
+            text: "As the scheme stands, a group's average rises if its least regular members stop signing the sheet.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
 
               frames: [

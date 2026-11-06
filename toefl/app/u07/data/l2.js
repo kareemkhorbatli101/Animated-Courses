@@ -128,6 +128,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write", "measurement"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think Priya describes the mechanism correctly, but Tomás is right that the alternative is worse.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used because or since to join a claim to its reason",
+            text: "Measurement does distort, because people respond to the measure as they understand it rather than to the thing it stands for.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Once waiting time is the target, the cheapest route to a good number is to change when the clock starts.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -165,6 +176,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says whether the flat charge is a flaw",
+            text: "It is a flaw, and Mei's fix is the right one, but Dan has shown why it is not optional.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used incentive , cost or trade-off accurately",
+            text: "The trade-off is administrative cost, which is real and small.",
+            why: "it carries the words this line asks for" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Dan's point is that a flat charge does not produce a flat incentive.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "wrote about who bears the cost, not only about whether traffic fell",
+            text: "The charge still falls on everyone who drives, so the incentive is untouched, and the payment goes to everyone whether they drive or not, so the people who gave up driving are compensated by the people who did not.",
+            why: "it carries the words this line asks for" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

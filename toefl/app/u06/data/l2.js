@@ -149,6 +149,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think both are right about different things, and the disagreement is really about what a number on a packet is for .",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason or an example",
+            text: "Tomás is correct that the figure measures combustion in a calorimeter rather than metabolism in a person, and that two foods of equal calorific value can behave quite differently once eaten.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "But Priya's point is about comparison, not accuracy.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -186,6 +197,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says whether a single figure is right",
+            text: "A single figure, with a range printed next to it in the same size.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used a phrasal verb or its single-word equivalent accurately",
+            text: "Mei is right about the purpose.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Dan has identified the cost of how it is printed rather than of the figure itself.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "wrote about what the advice does to the reader, not only about accuracy",
+            text: "Public guidance is a lever on a population, not a prescription for a person, and a figure that shifts the average has done its job whether or not it suits any particular reader.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

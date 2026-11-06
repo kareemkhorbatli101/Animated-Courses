@@ -158,6 +158,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "Priya has identified the condition that makes Tomás's answer incomplete rather than wrong.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason or an example",
+            text: "But her objection matters because a charge changes a traveller's calculation only if there is something to change to.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "answered Priya or Tomás by name ",
+            text: "He is right that visibility explains the political preference: a lane opens, a charge merely exists.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -195,6 +206,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "measurement"],
+        modelJobs: [
+          { job: "My first paragraph says which measure a planner should use",
+            text: "Neither, on its own: the choice has to be made street by street, and the network decides which measure applies to which street.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used capacity , corridor or induced demand accurately",
+            text: "Mei is right about what happens when every street is measured by flow.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "But Dan's objection is the one that defeats the simple version.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "used too , either or but at least once, correctly",
+            text: "The high street becomes a corridor, the shops close, and nobody has gained anything they wanted.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

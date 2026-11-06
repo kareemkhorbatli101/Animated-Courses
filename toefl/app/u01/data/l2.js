@@ -151,6 +151,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think a group helps most when it forces you to explain something out loud.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason from my own experience",
+            text: "Last term I could not finish a sentence explaining a formula I had read four times.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Tomás is right that groups carry passengers — I have been in one.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -189,6 +200,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says whether recording helps or harms, not both",
+            text: "Recording helps, but only for the students who were already going to attend.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "My second paragraph gives one thing that actually happened to me",
+            text: "I used the recordings of a statistics course to replay a two-minute derivation about eight times, and I understood it on the seventh.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Dan is right that a recording removes the urgency, and I have lost a Tuesday the same way.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "wrote about the recording, not only about my own habits",
+            text: "Nothing in the room would have let me do that, because the lecturer could not stop for me.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

@@ -119,6 +119,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think the phrase misleads, and Priya's experience is the evidence.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used variation , selection or adaptation accurately",
+            text: "The grammar of a species adapted to its environment puts the species in the subject position, doing something.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Tomás is right that the full mechanism cannot be repeated every time.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -157,6 +168,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "My first paragraph says which the case should show",
+            text: "I would show the range, with the typical pair marked as typical.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "used variation , population or species accurately",
+            text: "Variation is not noise around the species; it is the material selection works on.",
+            why: "it carries the words this line asks for" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Dan is right about the cost of the alternative.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "gave a reason that is about the visitor, not only about the specimens",
+            text: "But that is an argument for labelling, not for choosing the specimens differently: if two of the six are marked as common and four as the edges, the visitor gets both facts.",
+            why: "it carries the words this line asks for" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [

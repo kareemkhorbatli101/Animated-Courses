@@ -134,6 +134,17 @@
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         concepts: ["write"],
+        modelJobs: [
+          { job: "stated my position in the first paragraph",
+            text: "I think it was mostly the system working, though Priya is identifying something real.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "gave a reason, not just an opinion",
+            text: "Accepting one such date immediately would make the framework worthless, because any framework can be overturned by one bad measurement.",
+            why: "it gives the reason, with the cause named rather than implied" },
+          { job: "answered Priya or Tomás by name ",
+            text: "Where Priya is right is that the burden was applied unevenly.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
@@ -171,6 +182,20 @@
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
         concepts: ["write", "claim"],
+        modelJobs: [
+          { job: "My first paragraph says how it should be resolved",
+            text: "The decision should sit with the descendant community, with research possible by agreement rather than by default.",
+            why: "it is the first sentence of the message, where a reader looks for the point" },
+          { job: "answered Mei or Dan by name and conceded something fair",
+            text: "Mei has found the weak point in the research argument.",
+            why: "it answers a classmate by name, which is what turns a post into a discussion" },
+          { job: "wrote about who decides, not only about what can be learnt",
+            text: "A future method might learn more is true of every object that has ever existed, so it cannot by itself settle anything; used as a reason to retain, it is a reason to retain forever.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+          { job: "used the present perfect at least once, correctly",
+            text: "Dan is right that returning is not costless, and I would not pretend otherwise.",
+            why: "the model takes the jobs in the order the checklist lists them" },
+        ],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
 
         frames: [
