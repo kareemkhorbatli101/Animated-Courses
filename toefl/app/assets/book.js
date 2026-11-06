@@ -34,7 +34,7 @@
       campus: "show that you are following a lecture",
       strategy: { writing: "focusing on the main idea in different paragraphs",
                   reading: "reading with a purpose; reading complex charts more than once" } },
-    { n: 2,  id: "u02", title: "Climate and Prediction",      field: "earth science",
+    { n: 2,  id: "u02", title: "Climate and Prediction",      field: "earth science", doubled: true,
       grammar: ["be going to and will", "plans, promises and predictions", "would rather + verb"],
       affix: "-ful", pron: "j and ch", chart: "pie",
       campus: "disagree politely in a seminar",
