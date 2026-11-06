@@ -14,7 +14,7 @@
 
   /* ----------------------------------------------------------- orderset --- */
   D.register("orderset", function (stage, spec, api) {
-    var rows = [];
+    var rows = [], jobsSeen = [];
     spec.items.forEach(function (it, i) {
       var box = E("div");
       box.style.cssText = "border:1px solid var(--rule);border-radius:9px;padding:13px 15px;margin:0 0 11px";
@@ -66,12 +66,19 @@
          pattern that transfers rather than a sequence to memorise. */
       if (root.Gram && it.jobs) {
         root.Gram.colourTiles(box, function (word) { return it.jobs[word]; });
-        if (!stage.querySelector(".gr-key"))
-          root.Gram.jobKey(stage, Object.keys(it.jobs).map(function (k) { return it.jobs[k]; })
-            .filter(function (v, n, a) { return a.indexOf(v) === n; }));
+        jobsSeen = jobsSeen.concat(Object.keys(it.jobs).map(function (k) { return it.jobs[k]; }));
       }
       rows.push({ it: it, want: want, slot: slot });
     });
+
+    /* The key explains the colours, so it goes above the first thing it
+       explains. Appending it as the first coloured item was built left it
+       sitting between exercise one and exercise two. */
+    if (jobsSeen.length && root.Gram) {
+      var uniq = jobsSeen.filter(function (v, n, a) { return a.indexOf(v) === n; });
+      var key = root.Gram.jobKey(stage, uniq);
+      if (key) stage.insertBefore(key, stage.firstChild);
+    }
 
     return function () {
       var right = 0, miss = [];

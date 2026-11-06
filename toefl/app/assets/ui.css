@@ -885,21 +885,25 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 
 /* F23 tiles coloured by job */
 .tile[data-job]{border-bottom-width:3px;}
-.tile[data-job="0"]{border-bottom-color:var(--c1);}
-.tile[data-job="1"]{border-bottom-color:var(--c2);}
-.tile[data-job="2"]{border-bottom-color:var(--c3);}
-.tile[data-job="3"]{border-bottom-color:var(--teal);}
-.tile[data-job="4"]{border-bottom-color:var(--orange);}
-.tile[data-job="5"]{border-bottom-color:var(--blue);}
+/* Six jobs need six colours a reader can tell apart. The first palette
+   gave verb --c2 and linker --orange, which differ by a few points of hue
+   and read as the same colour on a tile; subject and complement had the
+   same problem in blue. */
+.tile[data-job="0"]{border-bottom-color:var(--c1);}      /* subject    blue   */
+.tile[data-job="1"]{border-bottom-color:var(--maroon);}  /* verb       maroon */
+.tile[data-job="2"]{border-bottom-color:var(--c3);}      /* object     green  */
+.tile[data-job="3"]{border-bottom-color:var(--teal);}    /* adverbial  teal   */
+.tile[data-job="4"]{border-bottom-color:var(--orange);}  /* linker     orange */
+.tile[data-job="5"]{border-bottom-color:var(--hand);}    /* complement jade   */
 .gr-key{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 10px;}
 .gr-key-chip{font:600 11px/1.6 var(--ui);padding:3px 9px;border-radius:999px;
   background:var(--sunk);border-bottom:3px solid var(--rule-2);color:var(--ink-2);}
 .gr-key-chip[data-job="0"]{border-bottom-color:var(--c1);}
-.gr-key-chip[data-job="1"]{border-bottom-color:var(--c2);}
+.gr-key-chip[data-job="1"]{border-bottom-color:var(--maroon);}
 .gr-key-chip[data-job="2"]{border-bottom-color:var(--c3);}
 .gr-key-chip[data-job="3"]{border-bottom-color:var(--teal);}
 .gr-key-chip[data-job="4"]{border-bottom-color:var(--orange);}
-.gr-key-chip[data-job="5"]{border-bottom-color:var(--blue);}
+.gr-key-chip[data-job="5"]{border-bottom-color:var(--hand);}
 
 /* F27 why a spare tile cannot go there */
 .gr-extra{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;margin:9px 0 0;
