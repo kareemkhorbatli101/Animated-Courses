@@ -33,6 +33,40 @@
     source: "Department of Physics and Astronomy"
   };
 
+  /* The second academic passage: the first is about a biased catalogue, this
+     one about the step after it — when does a candidate become a detection. */
+  var PASSAGE2 = {
+    masthead: "WHEN A CANDIDATE BECOMES A PLANET", every: 1,
+    blocks: [
+      { h: "Two kinds of mistake", lines: [
+        "Any detection threshold must be set somewhere, and wherever it is set it produces two kinds of error that cannot be reduced at the same time.",
+        "A threshold low enough to catch every real planet will also admit objects that are not planets at all; a threshold high enough to exclude those will discard real ones."
+      ] },
+      { h: "Which error is worse", lines: [
+        "The field has generally preferred the second kind, for a reason that is sociological rather than statistical.",
+        "A false detection is published, cited and eventually withdrawn, and the withdrawal reaches a small fraction of the readers the announcement reached.",
+        "A real planet that was missed, by contrast, is usually found later by somebody else, and the cost falls on one team rather than on the literature."
+      ] },
+      { h: "Why the word matters", lines: [
+        "This is why the vocabulary is policed so carefully, and why a paper distinguishes a candidate from a confirmed detection even when the authors privately believe the candidate is real.",
+        "The distinction is not modesty; it is a statement about which of the two errors the authors have chosen to risk."
+      ] }
+    ],
+    notes: ["threshold: the level of evidence a signal must reach before it is called a detection"],
+    source: "Written for this book"
+  };
+
+  var NOTICE2 = {
+    masthead: "DOME · NIGHT RULES", mastColor: "blue", every: 1,
+    blocks: [{ lines: [
+      "Red torches only, from dusk onward.",
+      "Sign the logbook at the start and the end of your slot.",
+      "Report any cloud above sixty per cent to the operator.",
+      "The last person out closes the shutter, whatever the forecast says."
+    ] }],
+    source: "Department of Physics and Astronomy"
+  };
+
   window.PAGE = {
     id: "u05-l5", unit: "u05", block: "l5", up: "../", tab: "ACADEMIC",
     objective: "Read a scatter plot, and ask what is missing from it",
@@ -122,6 +156,26 @@
             why: "No date for the correction is given." }
         ] },
 
+            { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
+        kind: "selectintext", task: null, n: 0,
+        prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
+        note: { kind: "reader",
+                body: "<p>This subject hedges with a particular set of words: <i>candidate</i>, <i>apparent</i>, <i>consistent with</i>, <i>suggests</i>. Spotting which sentence is hedged is usually the same as spotting which one is the actual claim.</p>" },
+        items: [
+          { prompt: "Which sentence reports a result rather than a method or a plan?",
+            text: "The field was observed for ninety consecutive nights. Each frame was compared against a reference image taken at the start of the run. Eleven objects showed a repeated dip in brightness of the expected shape. Follow-up spectra have been requested for the four strongest.",
+            answer: "Eleven objects showed a repeated dip in brightness of the expected shape.",
+            why: "The first two sentences describe what was done and the last what will be done. Only this one says what came out." },
+          { prompt: "Which sentence is hedged?",
+            text: "The orbital period is 3.2 days. The host star is slightly cooler than the Sun. The depth of the dip is consistent with a planet somewhat larger than Neptune. The system lies about four hundred light years away.",
+            answer: "The depth of the dip is consistent with a planet somewhat larger than Neptune.",
+            why: "<i>Consistent with</i> and <i>somewhat</i> in one sentence. The other three are flat statements of measured quantities." },
+          { prompt: "Which sentence explains why the result was unexpected?",
+            text: "Small planets were long thought to be rare. The earliest surveys found almost none of them. Those surveys could only detect objects that displaced their star by several metres per second, which a small planet does not do. Later instruments reached a tenth of that.",
+            answer: "Those surveys could only detect objects that displaced their star by several metres per second, which a small planet does not do.",
+            why: "The only sentence giving a cause. The first two report the belief and the observation; the last reports a later improvement." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "This unit's prefix, in the article's own register.",
@@ -158,9 +212,128 @@
               { text: "Mass and period are unrelated.", why: "The points fall along a clear diagonal." },
               { text: "Most early detections were Earth-sized.", why: "Only point g is, and it sits alone at the far right." }
             ] }
+        ] },
+
+      /* ---------------- 4 Read a second article ---------------- */
+      { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
+        prompt: "A second article, on the word the first one kept using. Read it, then answer.",
+        text: PASSAGE2,
+        note: { kind: "reader",
+                body: "<p>The first article was about which planets a method can see. This one is about where a field draws the line between seeing something and saying so.</p>" },
+        items: [
+          { q: "What is the main idea?",
+            options: [
+              { text: "Where the threshold is set decides which of two unavoidable errors you risk, and the field has chosen.", correct: true,
+                why: "The three sections are the trade-off, the choice, and what the vocabulary is doing about it." },
+              { text: "Detection thresholds should be set lower.", why: "The article explains the preference rather than arguing against it." },
+              { text: "Most planet candidates turn out to be false.", why: "No rate is given anywhere in the text." }
+            ] },
+          { q: "Why does the article call the field's preference sociological rather than statistical?",
+            options: [
+              { text: "The reason concerns how announcements and withdrawals travel, not the numbers.", correct: true,
+                why: "The second section is entirely about readership: the withdrawal reaches a fraction of the people the announcement did." },
+              { text: "Because astronomers vote on the threshold.", why: "No decision procedure is described." },
+              { text: "Because the statistics are disputed.", why: "The arithmetic is not in question in this article at all." }
+            ] },
+          { q: "According to the article, what happens to a real planet that is missed?",
+            options: [
+              { text: "Somebody else usually finds it, and the cost falls on one team.", correct: true,
+                why: "Stated as the contrast with the false detection, whose cost falls on the literature." },
+              { text: "It is never found.", why: "<i>Usually found later</i> says the opposite." },
+              { text: "It is published as a candidate.", why: "A missed object is by definition below the threshold and not published at all." }
+            ] },
+          { q: "Why does a paper say <i>candidate</i> when the authors believe the object is real?",
+            options: [
+              { text: "To state which of the two errors they have decided to risk.", correct: true,
+                why: "The last sentence says exactly this, and explicitly rules out modesty as the explanation." },
+              { text: "Because they are being modest.", why: "<i>The distinction is not modesty</i> — the article rejects this reading by name." },
+              { text: "Because the journal requires it.", why: "No editorial rule is mentioned." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        kind: "paraphrase", task: null, n: 0,
+        prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
+        note: { kind: "reader",
+                body: "<p>Two of these sentences are about what a method can do, and one is about what a word is doing. The wrong answers mostly turn a statement about the instrument into a statement about the universe.</p>" },
+        items: [
+          { source: "Early catalogues were not a sample of what exists but a sample of what is convenient to detect.",
+            options: [
+              { text: "The first lists described what was easy to find, not what is actually out there.", correct: true,
+                why: "Keeps the <i>not … but …</i> frame and the distinction between the universe and the method." },
+              { text: "Early catalogues were too small to be representative.",
+                why: "Size is not the problem. A larger catalogue made the same way would be biased in the same direction." },
+              { text: "Early catalogues contained errors.",
+                why: "The entries were correct. What was wrong was the inference from the list to the population." },
+              { text: "Convenient planets are commoner than inconvenient ones.",
+                why: "Reads a fact about detection as a fact about the universe — the exact confusion the sentence prevents." }
+            ] },
+          { source: "A threshold low enough to catch every real planet will also admit objects that are not planets at all.",
+            options: [
+              { text: "Set the bar low enough to miss nothing real and some unreal things get through too.", correct: true,
+                why: "Keeps the conditional and both consequences, which is what makes it a trade-off rather than a flaw." },
+              { text: "A low threshold produces more real detections.",
+                why: "True and incomplete: the sentence exists to name the cost that comes with them." },
+              { text: "Thresholds should be set high.",
+                why: "A recommendation. The sentence is describing a mechanism." },
+              { text: "Every real planet can be caught without admitting anything false.",
+                why: "The sentence is constructed precisely to deny this." }
+            ] },
+          { source: "The distinction is not modesty; it is a statement about which of the two errors the authors have chosen to risk.",
+            options: [
+              { text: "Calling it a candidate is not humility but a declaration of which mistake they are willing to make.", correct: true,
+                why: "Keeps the rejection and the replacement, which is the whole shape of the sentence." },
+              { text: "Authors use the word <i>candidate</i> to be careful.",
+                why: "<i>Careful</i> collapses back into the modesty reading the semicolon rules out." },
+              { text: "The distinction shows the authors doubt their own result.",
+                why: "The article says they may privately believe it is real." },
+              { text: "Both errors are equally serious.",
+                why: "The previous section says the field prefers one, which is why the choice has to be declared." }
+            ] }
+        ] },
+
+      /* ---------------- 5 Read in daily life again ---------------- */
+      { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
+        prompt: "A second card, this one inside the dome. Read it.",
+        text: NOTICE2,
+        items: [
+          { q: "When do you sign the logbook?",
+            options: [
+              { text: "At the start and at the end of your slot.", correct: true, why: "Line 2 names both, and the <i>and</i> makes both compulsory." },
+              { text: "Only at the end.", why: "Line 2 asks for two signatures." },
+              { text: "Only if something goes wrong.", why: "No condition is attached." }
+            ] },
+          { q: "Who closes the shutter?",
+            options: [
+              { text: "Whoever leaves last.", correct: true,
+                why: "Line 4, and the clause after the comma removes the obvious excuse." },
+              { text: "The operator.", why: "The operator is told about cloud, in line 3; the shutter is not their job here." },
+              { text: "Nobody, if the forecast is clear.", why: "<i>Whatever the forecast says</i> exists to rule exactly this out." }
+            ] }
+        ] },
+
+      { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
+        prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
+        items: [
+          { stem: "A white torch may be used before dusk.", answer: "T", line: 1,
+            why: "Line 1 restricts red torches to <i>from dusk onward</i>, which leaves the time before it unrestricted. Reading the limit as absolute is the trap." },
+          { stem: "The operator decides when a session is abandoned.", answer: "NI", line: null,
+            why: "Line 3 says cloud must be reported to the operator. Who then decides is not stated anywhere on the card." }
+        ] },
+
+      { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "Two articles, one chart, one habit.",
+        text: { blocks: [{ lines: [
+          "<b>What the catalogue was</b> — a sample of the method, not of the universe.",
+          "<b>What the threshold is</b> — a choice between two errors, not a measurement.",
+          "<b>What to ask</b> — would this object have been in the list if it were half the size?"
         ],
         closer: { kind: "life",
-          body: "<p>Find a scatter plot anywhere. Is either axis logarithmic? If the label does not say, how would you tell from the tick marks?</p>" } }
+          body: "<p>Find a scatter plot anywhere. Is either axis logarithmic? If the label does not say, how would you tell from the tick marks?</p>" } }] } }
     ]
   };
 })();

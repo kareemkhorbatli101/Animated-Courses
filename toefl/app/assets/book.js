@@ -49,7 +49,7 @@
       affix: "inter-", pron: "two pronunciations of th", chart: "flow",
       campus: "ask for help without losing face",
       strategy: { writing: "using colons in a formal message", reading: "reading insets and organisational charts" } },
-    { n: 5,  id: "u05", title: "Exploring Space",             field: "astronomy",
+    { n: 5,  id: "u05", title: "Exploring Space",             field: "astronomy", doubled: true,
       grammar: ["yes/no questions with the present perfect", "ever, already and yet", "simple past and present perfect"],
       affix: "un-", pron: "I'm, I'd and I'll", chart: "scatter",
       campus: "give a helpful suggestion in a group project",

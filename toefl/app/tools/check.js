@@ -198,6 +198,20 @@ function checkScene(where, s, unit){
       const re = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[\\s.,!?;:])');
       if (!re.test(String(it.text))) bad(where, `item ${i + 1}: "${it.wrong}" is not a whole word in the sentence`);
       else ok();
+      /* An exercise is only honest if swapping that one word really does repair
+         the sentence. Eight items failed this and nothing caught them, because
+         the renderer and the grader both only compare the clicked word. The
+         author must now write out the corrected sentence, and it must be what
+         the substitution actually produces. */
+      if (!it.fixed) bad(where, `item ${i + 1} does not give the corrected sentence`);
+      else {
+        const got = String(it.text).replace(re, (m, a, c) => a + it.right + c);
+        if (got !== it.fixed)
+          bad(where, `item ${i + 1}: replacing "${it.wrong}" with "${it.right}" gives "${got}", not the stated "${it.fixed}"`);
+        else if (got === String(it.text))
+          bad(where, `item ${i + 1}: the correction changes nothing`);
+        else ok();
+      }
       if (!it.why) bad(where, `item ${i + 1} has no rationale`);
     });
   }
