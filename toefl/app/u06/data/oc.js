@@ -1,6 +1,12 @@
 /* Unit 6 · Food, Energy and the Body — ON CAMPUS
    Function: check that you have understood. */
 (function () {
+
+  /* Two exercises use this talk: the comprehension items, and the outline
+     filled in while it plays. */
+  var TALK1 = { track: "6-12", label: "The word metabolism", lines: [{ who: "haddad", text:
+          "I want to spend a few minutes on a word that causes more trouble than any other in this subject, and that word is metabolism. People speak of having a fast metabolism or a slow one, as though it were a single dial that could be turned up. It is not one process. It is the sum of every chemical conversion going on in the body at once, and the great majority of them are not optional. Keeping your heart beating, your temperature steady and your cell membranes intact accounts for most of what you spend in a day. Deliberate activity accounts for far less than people expect. Now, this matters practically. If you take in less than you spend, the body does not simply draw the difference from stored fat and carry on as before. It also reduces what it spends, quietly, by lowering body temperature slightly, by moving less, by making a hundred small economies you do not notice and cannot feel. This is why the arithmetic that looks so simple on paper behaves so badly in practice, and why anyone who tells you the sum is straightforward has not looked at the measurements." }] };
+
   window.PAGE = {
     id: "u06-oc", unit: "u06", block: "oc", up: "../", tab: "NAVIGATIONAL",
     objective: "Check that you have understood",
@@ -33,12 +39,41 @@
             ] }
         ] },
 
+            { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
+        prompt: "A second notice, read out at the start of a practical. It plays once.",
+        speaker: "dan", speakerNote: "demonstrator",
+        audio: { track: "6-13", label: "Before you start", lines: [{ who: "dan", text:
+          "Three things before you start. The water baths take about twenty minutes to come up to temperature, so switch yours on now and read the method while it warms. Second, there is one pipette per bench and not one per person, so work out between you who is pipetting before you need it rather than afterwards. And third, if your mixture has not cleared by ten minutes, stop and call me. Do not add more enzyme. Adding more is the commonest thing people do and it makes the result impossible to interpret." }] },
+        items: [
+          { q: "Why should the bath be switched on immediately?",
+            options: [
+              { text: "It takes about twenty minutes to reach temperature.", correct: true,
+                why: "The reason comes before the instruction, and the reading is offered as something to do meanwhile." },
+              { text: "Because the room is cold.", why: "Room temperature is not mentioned." },
+              { text: "To check that it works.", why: "No testing is suggested." }
+            ] },
+          { q: "What does he ask each bench to settle in advance?",
+            options: [
+              { text: "Who will use the single pipette.", correct: true,
+                why: "<i>Rather than afterwards</i> tells you this is about avoiding a queue at the moment it matters." },
+              { text: "Who will write up the results.", why: "The write-up is not mentioned." },
+              { text: "Which bench gets the second pipette.", why: "There is only one per bench." }
+            ] },
+          { q: "What should you NOT do if the mixture has not cleared?",
+            options: [
+              { text: "Add more enzyme.", correct: true,
+                why: "He names it, forbids it and says why: it is common, and it destroys the interpretation." },
+              { text: "Call the demonstrator.", why: "That is exactly what he asks for." },
+              { text: "Stop the run.", why: "Also what he asks for." }
+            ] }
+        ] },
+
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on a word that causes trouble. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
-        audio: { track: "6-12", label: "The word metabolism", lines: [{ who: "haddad", text:
-          "I want to spend a few minutes on a word that causes more trouble than any other in this subject, and that word is metabolism. People speak of having a fast metabolism or a slow one, as though it were a single dial that could be turned up. It is not one process. It is the sum of every chemical conversion going on in the body at once, and the great majority of them are not optional. Keeping your heart beating, your temperature steady and your cell membranes intact accounts for most of what you spend in a day. Deliberate activity accounts for far less than people expect. Now, this matters practically. If you take in less than you spend, the body does not simply draw the difference from stored fat and carry on as before. It also reduces what it spends, quietly, by lowering body temperature slightly, by moving less, by making a hundred small economies you do not notice and cannot feel. This is why the arithmetic that looks so simple on paper behaves so badly in practice, and why anyone who tells you the sum is straightforward has not looked at the measurements." }] },
+        audio: TALK1,
         transcript: "<p>Metabolism is not a dial. It is the sum of everything happening at once, most of it not optional — and when intake falls, spending falls too, quietly.</p>",
         items: [
           { q: "What is the speaker's main point?",
@@ -71,6 +106,64 @@
             ] }
         ] },
 
+            { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
+        prompt: "The same lecturer, on an equation everyone can recite.",
+        speaker: "haddad", speakerNote: "lecturer",
+        audio: { track: "6-14", label: "Why the sum misbehaves", lines: [{ who: "haddad", text:
+          "Everybody in this room can recite the energy equation. Intake minus expenditure equals change in storage. It is true. It is also, as a tool for predicting anything, close to useless, and I want to be precise about why. The reason is not that the equation is wrong. The reason is that the two terms are not independent of each other. Reduce intake and expenditure falls as well, partly for an uninteresting reason and partly for an interesting one. The uninteresting reason is that a lighter body costs less to carry about, so the same walk uses less energy than it did. The interesting reason is regulation. Core temperature drops very slightly. Spontaneous movement falls, and nobody notices themselves fidgeting less. These are not decisions. Nobody chooses them and nobody feels them. So when a prediction built on the static equation says a particular reduction will produce a particular loss over six months, the prediction is almost always too large, and the error is not small. None of this means intake does not matter. It means an equation whose two sides are tied together cannot be solved as though they were free." }] },
+        transcript: "<p>Intake minus expenditure equals change in storage — true, and nearly useless for prediction, because reducing intake lowers expenditure too, partly through mass and partly through regulation.</p>",
+        items: [
+          { q: "What is the speaker's main point?",
+            options: [
+              { text: "The equation is true but cannot predict, because its two terms are tied together.", correct: true,
+                why: "She says the equation is true twice, and spends the talk on why that does not help." },
+              { text: "The energy equation is incorrect.", why: "<i>The reason is not that the equation is wrong</i> — she rules this out explicitly." },
+              { text: "Intake has no effect on weight.", why: "Her last two sentences exist to prevent exactly that conclusion." }
+            ] },
+          { q: "What does she call the <i>uninteresting</i> reason expenditure falls?",
+            options: [
+              { text: "A lighter body uses less energy for the same activity.", correct: true,
+                why: "She separates it from regulation as a matter of arithmetic rather than biology." },
+              { text: "People deliberately move less.", why: "She says nobody chooses or feels these changes." },
+              { text: "Core temperature drops.", why: "That is on the regulatory side, which she calls the interesting one." }
+            ] },
+          { q: "Why does she emphasise that nobody notices these changes?",
+            options: [
+              { text: "Because they are regulation rather than decisions, so willpower does not reach them.", correct: true,
+                why: "<i>These are not decisions</i> is the sentence the whole middle of the talk is building towards." },
+              { text: "Because they are too small to measure.", why: "They are measured; that is how she knows about them." },
+              { text: "Because they happen only in some people.", why: "No individual variation is claimed here." }
+            ] },
+          { q: "What does she say her argument does NOT show?",
+            options: [
+              { text: "That intake is irrelevant.", correct: true,
+                why: "Her final two sentences name the misreading and reject it, which is a move worth copying." },
+              { text: "That the equation is true.", why: "She asserts that it is true, repeatedly." },
+              { text: "That expenditure can be measured.", why: "Measurement is not in dispute in this talk." }
+            ] }
+        ] },
+
+      { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        kind: "notes", task: null, n: 0,
+        prompt: "Play the first talk again and complete the outline while it runs.",
+        audio: TALK1,
+        title: "Lecture — the word metabolism",
+        note: { kind: "reader",
+                body: "<p>She corrects a popular idea, gives the real definition, says where most of the spending goes, and then draws the practical consequence. Four lines, in that order.</p>" },
+        lines: [
+          "Not a single dial: metabolism is the ___ of every chemical conversion at once",
+          "- Most of the daily spend goes on things that are not ___",
+          "- Deliberate activity accounts for far ___ than people expect",
+          "- Eat less and the body also ___ less, quietly and unnoticed"
+        ],
+        gaps: [
+          { answer: "sum", why: "her own word, and the correction the whole talk rests on." },
+          { answer: "optional", why: "heartbeat, temperature, membranes — the part nobody can decide about." },
+          { answer: "less", why: "a comparative, and the number most listeners get wrong in the other direction." },
+          { answer: "spends", why: "the practical consequence, and the bridge to the second talk." }
+        ] },
+
       { id: "c", section: 3, sectionTitle: "Check you have understood", letter: "A",
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. Checking is not admitting you were lost; it is how you find out early.",
@@ -89,9 +182,34 @@
               "When you say <i>go over it</i>, do you mean the method or the readings?"
             ] }
           ] },
-        after: "<p>Saying it back in your own words is the only check that works. Repeating the speaker's words proves you heard them, not that you understood.</p>",
+        after: "<p>Saying it back in your own words is the only check that works. Repeating the speaker's words proves you heard them, not that you understood.</p>" },
+
+      { id: "c2", section: 3, sectionTitle: "Check you have understood", letter: "B",
+        kind: "table", task: null, n: 0,
+        prompt: "Complete the table from the chart in 3A. The right-hand column says what each check would catch.",
+        caption: "Four checks, and what each one catches",
+        head: ["Check", "What you say", "What it catches"],
+        rows: [
+          ["Say it back",      "So you ___ the enzyme goes in after the bath is up?", "a misunderstanding, before it costs you a run"],
+          ["Check the consequence", "Just to check — does that mean we start the whole run ___ ?", "an instruction you understood and underestimated"],
+          ["Name the referent",     "When you say <i>go over it</i>, do you mean the method or the ___ ?", "the commonest ambiguity in spoken instructions"],
+          ["Use your own words",    "— not theirs", "the illusion of understanding, which ___ their words cannot"]
+        ],
+        gaps: [
+          { answer: "mean", why: "<i>So you mean…</i> is the shortest form of the move." },
+          { answer: "again", why: "checking the consequence is what separates a small misunderstanding from an expensive one." },
+          { answer: "readings", why: "<i>it</i> is the single most dangerous word in a laboratory instruction." },
+          { answer: "repeating", why: "repeating proves you heard. Rephrasing is the only thing that proves you understood." }
+        ] },
+
+      { id: "c3", section: 3, sectionTitle: "Check you have understood", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "One sentence to leave with.",
+        text: { blocks: [{ lines: [
+          "Repeating somebody's words proves you heard them. Only your own words prove you understood."
+        ],
         closer: { kind: "life",
-          body: "<p>In your next class, say one instruction back in your own words before you act on it. Note whether the answer corrects you.</p>" } }
+          body: "<p>In your next class, say one instruction back in your own words before you act on it. Note whether the answer corrects you.</p>" } }] } }
     ]
   };
 })();

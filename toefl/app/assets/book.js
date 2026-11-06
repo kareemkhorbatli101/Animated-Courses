@@ -55,7 +55,7 @@
       campus: "give a helpful suggestion in a group project",
       strategy: { writing: "the purpose of each paragraph in a multi-paragraph message",
                   reading: "reading scatter plots" } },
-    { n: 6,  id: "u06", title: "Food, Energy and the Body",   field: "nutrition and metabolism",
+    { n: 6,  id: "u06", title: "Food, Energy and the Body",   field: "nutrition and metabolism", doubled: true,
       grammar: ["separable phrasal verbs", "inseparable phrasal verbs", "possessive pronouns"],
       affix: null, pron: "linking in phrasal verbs", chart: "table",
       campus: "check that you have understood",

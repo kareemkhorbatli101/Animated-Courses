@@ -39,6 +39,24 @@
             why: "<i>theirs</i>, not <i>their's</i>. <i>It's</i> is always <i>it is</i>." }
         ] },
 
+            { id: "1c", section: 1, sectionTitle: "Review phrasal verbs", letter: "C",
+        kind: "cloze", task: null, n: 0,
+        prompt: "Which phrasal verbs take an object at all, and what that decides. Complete the rule.",
+        heading: "Language connection: transitive, intransitive, and the passive",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p><b>With an object:</b> break it down · carry it out · use it up — these can go passive: <i>the starch was broken down</i>.<br><b>Without one:</b> the lactate builds up · the reading levels off — these cannot.<br>A phrasal verb that takes no object can never be split, because there is nothing to split it with.</p>" },
+        text: "A phrasal verb that takes an object may be able to be ___ , which is why reports use them so freely. A phrasal verb with no object cannot be made passive and cannot be ___ either. When the object is a pronoun and the verb is separable, the pronoun goes ___ . And when the verb is inseparable, a noun object goes ___ .",
+        gaps: [
+          { options: ["made passive", "split by a pronoun"], answer: "made passive",
+            why: "<i>the starch was broken down</i> — which is how a methods section usually wants to say it." },
+          { options: ["split", "shortened"], answer: "split",
+            why: "<i>the lactate builds up</i>: there is no object, so nothing can go in the middle." },
+          { options: ["in the middle", "after the particle"], answer: "in the middle",
+            why: "<i>break it down</i>, never <i>break down it</i>." },
+          { options: ["after the whole verb", "in the middle"], answer: "after the whole verb",
+            why: "<i>went over the method</i>, never <i>went the method over</i>." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
@@ -69,6 +87,62 @@
             why: "<i>Once</i> + present perfect for the condition, and <i>carry out</i> split by its noun object." }
         ] },
 
+            { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
+        prompt: "Six more. Three of them have no object at all, which settles where everything goes.",
+        items: [
+          { cue: "No object, so nothing can split it.", band: "A2",
+            target: "The lactate builds up in the working muscle",
+            extra: ["up the lactate", "ups"],
+            why: "Intransitive: nothing follows the particle but a place." },
+          { cue: "A passive from a separable verb.", band: "B1",
+            target: "The starch was broken down within a few minutes",
+            extra: ["down broken", "breaks"],
+            why: "A transitive phrasal verb goes passive cleanly, and the particle stays attached to the participle." },
+          { cue: "Inseparable, with a pronoun.", band: "B1",
+            target: "The demonstrator looked after it herself",
+            extra: ["it after", "afters"],
+            why: "Inseparable means inseparable: even a pronoun goes after the whole verb." },
+          { cue: "A reading that stops changing.", band: "B2",
+            target: "The curve levels off after about four minutes",
+            extra: ["off the curve", "levelling"],
+            why: "Another intransitive one, and the standard way to describe a plateau." },
+          { cue: "Two possessives contrasted.", band: "B2",
+            target: "That rack is ours and the one by the window is theirs",
+            extra: ["our", "their's", "ours'"],
+            why: "No noun after either, and no apostrophe in either." },
+          { cue: "A condition and a consequence.", band: "C1",
+            target: "If the enzyme is used up the reaction stops before the curve flattens",
+            extra: ["up used", "will", "uses"],
+            why: "A passive phrasal verb in the <i>if</i> clause, and a present form in the main clause because the whole sentence is a general truth." }
+        ] },
+
+      { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        kind: "errorfix", task: null, n: 0,
+        prompt: "Five sentences from lab reports. One word in each is wrong. Click it, then type the correction.",
+        items: [
+          { text: "The lactate build up faster than it could be cleared.",
+            fixed: "The lactate built up faster than it could be cleared.",
+            wrong: "build", right: "built",
+            why: "<i>Could</i> in the second half puts the sentence in the past, so the first verb goes with it." },
+          { text: "The store was use up within ninety seconds.",
+            fixed: "The store was used up within ninety seconds.",
+            wrong: "use", right: "used",
+            why: "A passive needs the participle, and the particle sitting after it is what hides the missing <i>-d</i>." },
+          { text: "The gut take in glucose across the intestinal wall.",
+            fixed: "The gut takes in glucose across the intestinal wall.",
+            wrong: "take", right: "takes",
+            why: "<i>Gut</i> is singular, and the particle between the verb and its object is what hides the missing ending." },
+          { text: "Those tubes are our, not theirs.",
+            fixed: "Those tubes are ours, not theirs.",
+            wrong: "our", right: "ours",
+            why: "<i>Our</i> needs a noun after it. Standing alone, the word is <i>ours</i> — as the second half of the sentence already shows." },
+          { text: "The demonstrator looked after it while we weigh the sample.",
+            fixed: "The demonstrator looked after it while we weighed the sample.",
+            wrong: "weigh", right: "weighed",
+            why: "<i>Looked</i> sets the sentence in the past, so the verb in the <i>while</i> clause goes with it." }
+        ] },
+
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the single-word verb academic writing would prefer here.",
@@ -77,6 +151,33 @@
             why: "<i>Convert</i> is the written register; <i>turn into</i> is the spoken one." },
           { text: "Say the gut a___ nutrients rather than <i>takes them in</i>.", answer: "absorbs", given: [0, 1, 2],
             why: "<i>Absorb</i> for <i>take in</i>." }
+        ] },
+
+      { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
+        prompt: "Two more. Both are the written form of a phrasal verb from Lesson 1.",
+        items: [
+          { text: "Say the reaction r___ energy rather than <i>gives it off</i>.", answer: "releases", given: [0, 1],
+            why: "<i>Release</i> for <i>give off</i>, and it nominalises: <i>the release of energy</i>." },
+          { text: "Say the muscle d___ its store rather than <i>uses it up</i>.", answer: "depletes", given: [0, 1],
+            why: "<i>Deplete</i> for <i>use up</i>, and it gives <i>depletion</i>, which the phrasal verb cannot." }
+        ] },
+
+      { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        kind: "wordbank", task: null, n: 0,
+        prompt: "Drag a word into each gap. Two in the bank are not used, and both of them are possessives that need a noun after them.",
+        extra: ["our", "their"],
+        items: [
+          { text: "That rack of tubes is ___ , not the other group's.", answer: "ours",
+            why: "standing alone, so no noun follows and no apostrophe." },
+          { text: "The green book is ___ — I recognise the handwriting.", answer: "theirs",
+            why: "<i>theirs</i>, never <i>their's</i>." },
+          { text: "The enzyme breaks ___ down within a few minutes.", answer: "it",
+            why: "a pronoun object, so it must split the verb." },
+          { text: "We went over ___ twice before starting.", answer: "the method",
+            why: "an inseparable verb, so the object stays outside it." },
+          { text: "The reading ___ after about four minutes.", answer: "levels off",
+            why: "no object at all, so nothing can go in the middle." }
         ],
         closer: { kind: "test", body: "<p>Close the page. Write three sentences about an object near you using <i>mine</i>, <i>yours</i> and <i>theirs</i> — with no noun after any of them.</p>" } }
     ]
