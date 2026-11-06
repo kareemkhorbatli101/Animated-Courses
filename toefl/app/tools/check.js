@@ -264,8 +264,24 @@ function checkScene(where, s, unit){
     need(!!s.focus, 'a minimal-pairs exercise must name the contrast it drills');
     (s.items || []).forEach((it, i) => {
       checkOptions(`${where} line ${i + 1}`, it.options, 2);
-      if (!it.say) bad(where, `line ${i + 1} has nothing to say`);
-      else if (!(it.options || []).some(o => o.correct && o.text === it.say))
+      if (!it.say) return bad(where, `line ${i + 1} has nothing to say`);
+      if (s.byContext){
+        /* True homophones are identical in sound, so the only honest form of
+           this exercise plays a whole sentence and asks which word it was.
+           The check then has to be that the sentence really contains the
+           right word and really does not contain the wrong one. */
+        const has = w => new RegExp('(^|\\s)' + String(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[\\s.,!?;:])', 'i').test(it.say);
+        const right = (it.options || []).find(o => o.correct) || {};
+        if (!has(right.text)) bad(where, `line ${i + 1} plays a sentence that does not contain "${right.text}"`);
+        else ok();
+        (it.options || []).forEach(o => {
+          if (!o.correct && has(o.text))
+            bad(where, `line ${i + 1}: the sentence also contains the wrong option "${o.text}"`);
+        });
+        if (String(it.say).trim().split(/\s+/).length < 4)
+          bad(where, `line ${i + 1} is only ${String(it.say).trim().split(/\s+/).length} words; a homophone needs enough context to settle it`);
+        else ok();
+      } else if (!(it.options || []).some(o => o.correct && o.text === it.say))
         bad(where, `line ${i + 1} plays "${it.say}" but that is not the correct option`);
       else ok();
     });

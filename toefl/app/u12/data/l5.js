@@ -31,6 +31,40 @@
     source: "City Art Gallery"
   };
 
+  /* The second academic passage: the first is about what an audience adds,
+     this one about the joint between observation and interpretation. */
+  var PASSAGE2 = {
+    masthead: "WHERE THE SENTENCE TURNS", every: 1,
+    blocks: [
+      { h: "One sentence, two kinds of claim", lines: [
+        "Consider a sentence of the sort that appears in almost every review: <i>the film refuses the consolations of its genre</i>.",
+        "Part of it is an observation, available to anyone who watches the film and knows what such films usually do.",
+        "The remainder is an interpretation, and the word carrying it is <i>refuses</i>, which attributes an intention that no sequence of images can display."
+      ] },
+      { h: "Why this is not a complaint", lines: [
+        "Nothing is wrong with the sentence, and a criticism confined to the checkable would be a catalogue rather than an argument.",
+        "The difficulty is only that the two kinds of claim are joined without a seam, so a reader who agrees with the first finds themselves having agreed to the second."
+      ] },
+      { h: "A reading habit", lines: [
+        "The useful question is therefore not whether a claim is true but what one would have to see in order to accept it.",
+        "Where a writer has shown that thing, the argument is made; where they have not, the sentence marks the place at which the argument was supposed to happen and did not."
+      ] }
+    ],
+    notes: ["seam: the visible join between two things, here between what is reported and what is inferred"],
+    source: "Written for this book"
+  };
+
+  var NOTICE2 = {
+    masthead: "GALLERY · CURATOR'S TOUR", mastColor: "blue", every: 1,
+    blocks: [{ lines: [
+      "Thursday's curator tour begins at two, not three.",
+      "The tour lasts fifty minutes and does not include the upper floor.",
+      "Places are limited to twenty and cannot be reserved by telephone.",
+      "The gallery is forty minutes from the main campus by bus."
+    ] }],
+    source: "City Art Gallery"
+  };
+
   window.PAGE = {
     id: "u12-l5", unit: "u12", block: "l5", up: "../", tab: "ACADEMIC",
     objective: "Find the author's own opinion inside the argument",
@@ -121,6 +155,26 @@
             why: "The comparison is about how each exists, not about which is better." }
         ] },
 
+            { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
+        kind: "selectintext", task: null, n: 0,
+        prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
+        note: { kind: "reader",
+                body: "<p>This unit's reading strategy is finding the author's opinion. It is rarely the sentence with the strongest adjective in it; it is the sentence that would still be a claim if every adjective were removed.</p>" },
+        items: [
+          { prompt: "Which sentence is the author's own judgement rather than a report of someone else's?",
+            text: "Contemporary reviews described the film as cold. Audiences stayed away in the first month and filled the cinemas in the second. Most later critics have read the coldness as deliberate. The reading is convenient, and the evidence for it is thinner than its popularity suggests.",
+            answer: "The reading is convenient, and the evidence for it is thinner than its popularity suggests.",
+            why: "The first three report what was said and what happened. Only the last one is the writer taking a position." },
+          { prompt: "Which sentence is an observation rather than an interpretation?",
+            text: "The camera remains behind the character for the whole of the final scene. This withholds her reaction at the moment it would matter most. The effect is to leave the ending unresolved. Several critics have called the choice evasive.",
+            answer: "The camera remains behind the character for the whole of the final scene.",
+            why: "Anyone can check it. <i>Withholds</i>, <i>unresolved</i> and <i>evasive</i> are all readings of that one fact." },
+          { prompt: "Which sentence concedes something to the opposing view?",
+            text: "The adaptation cuts two subplots and a narrator. Readers of the novel have objected for thirty years. It is true that the narrator carried most of the book's irony. Whether a film can carry irony the same way is a separate question, and the objection assumes it can.",
+            answer: "It is true that the narrator carried most of the book's irony.",
+            why: "<i>It is true that</i> grants the other side its strongest point, immediately before the sentence that limits it." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "Noun or verb? The stress decides.",
@@ -160,9 +214,128 @@
               { text: "1,200 is too small a sample.", why: "1,200 is ample; the problem is who was in it." },
               { text: "The categories overlap.", why: "They are distinct routes." }
             ] }
+        ] },
+
+      /* ---------------- 4 Read a second article ---------------- */
+      { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
+        prompt: "A second article, on a sentence of the kind you have been reading all unit. Read it, then answer.",
+        text: PASSAGE2,
+        note: { kind: "reader",
+                body: "<p>The second section is the one to read twice. It is there to stop the article being taken as an attack on criticism, which is how an argument of this shape is usually misread.</p>" },
+        items: [
+          { q: "What is the main idea?",
+            options: [
+              { text: "Observation and interpretation are joined without a seam, so agreeing to one can commit you to the other.", correct: true,
+                why: "The three sections are the example, the refusal to complain about it, and the habit that follows." },
+              { text: "Critics should avoid attributing intentions.", why: "<i>Nothing is wrong with the sentence</i> — the article says so explicitly." },
+              { text: "Reviews should contain only checkable claims.", why: "That would be a catalogue, which the article names and rejects." }
+            ] },
+          { q: "Which word does the article identify as carrying the interpretation?",
+            options: [
+              { text: "refuses", correct: true,
+                why: "Because it attributes an intention, and no sequence of images can display one." },
+              { text: "consolations", why: "A description of what such films usually offer, which is checkable against the genre." },
+              { text: "genre", why: "The classification is not what the article disputes." }
+            ] },
+          { q: "Why does the article say a purely checkable criticism would be worse?",
+            options: [
+              { text: "It would be a catalogue rather than an argument.", correct: true,
+                why: "The concession is doing real work: it stops the article recommending the thing it is warning about." },
+              { text: "It would be too short.", why: "Length is not mentioned." },
+              { text: "Nobody would read it.", why: "Readership is not the article's concern." }
+            ] },
+          { q: "What question does the article recommend asking?",
+            options: [
+              { text: "What would I have to see in order to accept this?", correct: true,
+                why: "And the article adds the follow-up: has the writer shown it?" },
+              { text: "Is this claim true?", why: "The article says explicitly that this is not the useful question." },
+              { text: "Does the critic know the genre?", why: "Expertise is not what the habit tests." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        kind: "paraphrase", task: null, n: 0,
+        prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
+        note: { kind: "reader",
+                body: "<p>The last unit of the book, and the same discipline as the first: the wrong answer is almost never about a word you did not know. It is about a relationship you did not notice.</p>" },
+        items: [
+          { source: "It is plainly true that a film watched by somebody who knows nothing of its tradition is a different experience from the same film watched by a critic.",
+            options: [
+              { text: "Obviously the same film is experienced differently by a newcomer and by a specialist.", correct: true,
+                why: "Keeps <i>experience</i>, which is the weaker of the two claims the article separates." },
+              { text: "A newcomer and a critic are watching two different films.",
+                why: "That is the stronger claim, and the next sentence calls it <i>another matter</i>." },
+              { text: "Critics understand films better than other viewers.",
+                why: "Nothing about understanding or quality; the claim is about difference." },
+              { text: "Tradition has no effect on how a film is watched.",
+                why: "Reverses it." }
+            ] },
+          { source: "The difficulty is only that the two kinds of claim are joined without a seam, so a reader who agrees with the first finds themselves having agreed to the second.",
+            options: [
+              { text: "The trouble is that nothing marks the join, so accepting the first half quietly commits you to the second.", correct: true,
+                why: "Keeps <i>only</i>, which limits the complaint, and keeps the mechanism." },
+              { text: "Critics deliberately disguise their interpretations as facts.",
+                why: "Adds an intention the article is careful not to allege." },
+              { text: "Readers should not agree with the first half.",
+                why: "The first half is the checkable one; the article has no objection to it." },
+              { text: "The two kinds of claim cannot be separated.",
+                why: "The whole article is an exercise in separating them." }
+            ] },
+          { source: "Where a writer has shown that thing, the argument is made; where they have not, the sentence marks the place at which the argument was supposed to happen and did not.",
+            options: [
+              { text: "If the evidence is there, the case stands; if not, the sentence shows where the case should have been built.", correct: true,
+                why: "Keeps both branches, and keeps the second one as a diagnosis rather than an accusation." },
+              { text: "A sentence without evidence is dishonest.",
+                why: "The article calls it a missing argument, not a lie." },
+              { text: "Writers should show their evidence in every sentence.",
+                why: "A rule the article does not propose; it has just conceded that criticism cannot work that way." },
+              { text: "Arguments cannot be made in single sentences.",
+                why: "The first branch says exactly that they can." }
+            ] }
+        ] },
+
+      /* ---------------- 5 Read in daily life again ---------------- */
+      { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
+        prompt: "A second card from the gallery. Read it.",
+        text: NOTICE2,
+        items: [
+          { q: "When does the tour finish?",
+            options: [
+              { text: "At ten to three.", correct: true, why: "Lines 1 and 2 together: two o'clock plus fifty minutes." },
+              { text: "At three.", why: "Three is the time it no longer begins." },
+              { text: "The card does not say.", why: "It gives the start and the length, which is the same as giving the end." }
+            ] },
+          { q: "How can a place be booked?",
+            options: [
+              { text: "By any means except the telephone.", correct: true,
+                why: "Line 3 rules out one route and names no other, which is all you can conclude." },
+              { text: "Only in person.", why: "The card excludes the telephone and says nothing about what remains." },
+              { text: "Places cannot be booked at all.", why: "<i>Limited to twenty</i> implies they can." }
+            ] }
+        ] },
+
+      { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
+        prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
+        items: [
+          { stem: "The tour includes the upper floor.", answer: "F", line: 2,
+            why: "Line 2 excludes it, which matters because the first card said the upper floor closes early." },
+          { stem: "The bus to the gallery runs every ten minutes.", answer: "NI", line: null,
+            why: "Line 4 gives the journey time and nothing about frequency. The two are easy to conflate when you are planning." }
+        ] },
+
+      { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "Two articles, one chart, and the habit this book has been building for twelve units.",
+        text: { blocks: [{ lines: [
+          "<b>What the audience adds</b> — a different experience, certainly. A different work, arguably, and that is the interesting claim.",
+          "<b>Where the sentence turns</b> — the word that attributes an intention nothing on screen can show.",
+          "<b>What to ask, of anything</b> — what would I have to see in order to agree, and have they shown me that?"
         ],
         closer: { kind: "life",
-          body: "<p>Find a survey result quoted in a newspaper. Who was asked, and where? If the article does not say, you cannot use the number.</p>" } }
+          body: "<p>Find a survey result quoted in a newspaper. Who was asked, and where? If the article does not say, you cannot use the number.</p>" } }] } }
     ]
   };
 })();

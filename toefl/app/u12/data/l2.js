@@ -33,6 +33,24 @@
             why: "Repetition is a style point. The structural problem is that nothing in it is checkable." }
         ] },
 
+            { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        kind: "sequence", task: null, n: 0,
+        prompt: "Turning an assertion into something a reader can check has an order. Put the five steps on the right rungs.",
+        note: { kind: "writer",
+                body: "<p>The order matters because step two is where most paragraphs fail. A writer who moves from the claim straight to the next claim has written a position; a writer who stops to supply the detail has written an argument.</p>" },
+        steps: [
+          { text: "State the claim in one sentence", pos: 1,
+            why: "so the reader knows what the detail is going to be evidence for." },
+          { text: "Give the detail anybody could check", pos: 2,
+            why: "the four silent minutes, the camera position, the date. This is the step that gets skipped." },
+          { text: "Say what the detail shows", pos: 3,
+            why: "the join between the two, and the sentence a careless essay leaves to the reader." },
+          { text: "Name the best objection", pos: 4,
+            why: "before the reader thinks of it, which is the only time naming it helps you." },
+          { text: "Say what would count against you", pos: 5,
+            why: "last, and it is what turns a reading into an argument somebody could answer." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the verb pattern: infinitive, gerund, or either.",
@@ -55,6 +73,54 @@
             why: "<i>Remember seeing</i> = the memory of the event; <i>forget to mention</i> = the mention never happened." }
         ] },
 
+            { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
+        prompt: "Four more. Two of them attach a detail to a claim, which is this unit's whole writing lesson.",
+        items: [
+          { cue: "A verb that insists on a gerund.", band: "B1",
+            target: "The editor suggested cutting the final scene altogether",
+            extra: ["to cut", "cut"],
+            why: "<i>Suggest</i> never takes an infinitive, whatever the meaning seems to invite." },
+          { cue: "Attach the checkable detail.", band: "B2",
+            target: "The ending runs for four minutes without a word of dialogue",
+            extra: ["running", "which", "and"],
+            why: "A plain declarative with a number in it. Nothing here is a judgement, which is what makes it evidence." },
+          { cue: "Say what the detail shows.", band: "B2",
+            target: "That silence is what leaves the ending unresolved",
+            extra: ["which", "being", "and"],
+            why: "A cleft sentence, putting the silence in the position of a cause." },
+          { cue: "Name what would count against you.", band: "C1",
+            target: "If the novel ends the same way the adaptation deserves no credit for it",
+            extra: ["would", "will end", "although"],
+            why: "A real conditional naming the evidence that would defeat the claim — Unit 7's construction, used here on an argument about art." }
+        ] },
+
+      { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        kind: "errorfix", task: null, n: 0,
+        prompt: "Five lines from essays about film. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
+        items: [
+          { text: "The editor suggested cut the final scene.",
+            fixed: "The editor suggested cutting the final scene.",
+            wrong: "cut", right: "cutting",
+            why: "<i>Suggest</i> takes a gerund, so the bare verb cannot stand there." },
+          { text: "Audiences enjoy watch a story they already know.",
+            fixed: "Audiences enjoy watching a story they already know.",
+            wrong: "watch", right: "watching",
+            why: "<i>Enjoy</i> also takes a gerund, and for the same reason: there is no rule, only the verb." },
+          { text: "The director chose ending the film in silence.",
+            fixed: "The director chose to end the film in silence.",
+            wrong: "ending", right: "to end",
+            why: "<i>Choose</i> takes an infinitive, which is the opposite pattern from the two above it." },
+          { text: "Its lost its ending somewhere in the second act.",
+            fixed: "It's lost its ending somewhere in the second act.",
+            wrong: "Its", right: "It's",
+            why: "<i>It's</i> is <i>it has</i> here. The second <i>its</i> in the sentence is correct, which is what makes the first one hard to see." },
+          { text: "The critic who's review you read disagreed.",
+            fixed: "The critic whose review you read disagreed.",
+            wrong: "who's", right: "whose",
+            why: "<i>Who's</i> is <i>who is</i>. Possession takes <i>whose</i>, with no apostrophe — the same rule as <i>its</i>." }
+        ] },
+
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about what an audience contributes.",
@@ -73,8 +139,33 @@
           "I answered Priya or Tomás <b>by name</b>.",
           "I wrote 100 words or more."
         ],
-        model: "<p>Tomás has found the place where Priya's argument proves too much, and the way out is to separate two claims she is running together.</p><p>The weak claim is that a work's <i>effect</i> depends on its audience. That is plainly true: a film watched by someone who knows nothing of its tradition is a different experience from the same film watched by a critic.</p><p>The strong claim is that it is therefore a different <i>work</i>. That cannot be right, because as Tomás says we could then never disagree about one. When two people argue about an ending, they are arguing about the same sequence of shots — which is exactly what makes the disagreement possible.</p>",
-        closer: { kind: "test", body: "<p>After this writing lesson, I can… / I need more help with…</p>" } }
+        model: "<p>Tomás has found the place where Priya's argument proves too much, and the way out is to separate two claims she is running together.</p><p>The weak claim is that a work's <i>effect</i> depends on its audience. That is plainly true: a film watched by someone who knows nothing of its tradition is a different experience from the same film watched by a critic.</p><p>The strong claim is that it is therefore a different <i>work</i>. That cannot be right, because as Tomás says we could then never disagree about one. When two people argue about an ending, they are arguing about the same sequence of shots — which is exactly what makes the disagreement possible.</p>" },
+
+      { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
+        prompt: "A second question, about what a label should say.",
+        minWords: 100,
+        note: { kind: "writer",
+                body: "<p>Both classmates are arguing about the same small card, and they mean different things by <i>let the work speak</i>. Naming that is a stronger reply than taking a side.</p>" },
+        posts: [
+          { who: "haddad", role: "prof",
+            text: "A gallery label has room for about forty words. Some galleries give only title, date and medium; others use the space to tell you how to look at the work. Which serves the visitor better?" },
+          { who: "mei", when: "4 hours ago",
+            text: "Title, date and medium. A label that tells you what to see decides your reaction before you have had one, and you cannot unread it." },
+          { who: "dan", when: "2 hours ago",
+            text: "Nothing on a wall is neutral. The bare label is also a choice, and it quietly favours visitors who already have the context the sparse version assumes." }
+        ],
+        checklist: [
+          "My first paragraph says which kind of label serves the visitor better.",
+          "I used <i>convention</i>, <i>reception</i> or <i>interpretation</i> accurately.",
+          "I answered Mei or Dan <b>by name</b> and conceded something fair.",
+          "I gave at least one detail somebody could check.",
+          "I wrote 100 words or more."
+        ],
+        model: "<p>The fuller label, with the interpretation marked as one.</p>" +
+               "<p>Mei is right about the cost, and it is a real one: a sentence telling you the figure is turning away arrives before you have looked, and you cannot look again for the first time. But Dan has identified what the bare label hides. A card reading <i>Oil on canvas, 1887</i> is perfectly informative to somebody who already knows what that meant in 1887, and tells everybody else nothing at all.</p>" +
+               "<p>What I would change is the grammar rather than the length. <i>The figure is turning away</i> and <i>critics have read the turned figure as a refusal</i> take almost the same number of words, and only the second lets the visitor disagree.</p>",
+        closer: { kind: "test", body: "<p>After this writing lesson, I can… / I need more help with…</p>" } },
     ]
   };
 })();

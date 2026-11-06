@@ -86,7 +86,7 @@
       affix: "-ment", pron: "rising and falling intonation", chart: "bubble",
       campus: "acknowledge a classmate's contribution",
       strategy: { writing: "what to avoid in formal messages", reading: "paraphrasing; reading an infographic" } },
-    { n: 12, id: "u12", title: "Art, Audience and Culture",   field: "humanities and media",
+    { n: 12, id: "u12", title: "Art, Audience and Culture",   field: "humanities and media", doubled: true,
       grammar: ["verbs + infinitives", "verbs + gerunds or infinitives"],
       affix: "word stress in nouns and verbs", pron: "homophones", chart: "pie",
       campus: "help someone else understand",
