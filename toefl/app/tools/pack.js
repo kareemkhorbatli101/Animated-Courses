@@ -39,6 +39,15 @@ for (const u of B.UNITS) {
   }
 }
 
+/* the recording manifest, so human audio can be dropped in later */
+let audioFiles = 0;
+if (fs.existsSync(path.join(ROOT, 'audio'))) {
+  for (const f of fs.readdirSync(path.join(ROOT, 'audio'))) {
+    copy(path.join('audio', f));
+    audioFiles++;
+  }
+}
+
 /* a README that says what this is and what it needs */
 const perUnit = B.unitTotal(B.UNITS[0].id);
 fs.writeFileSync(path.join(APP, 'README.txt'),
@@ -67,6 +76,28 @@ Audio
   any audio files. On Windows the voices are installed with the system;
   on macOS and Linux the browser supplies them.
 
+  audio/record-list.csv lists every spoken line in the book with the
+  voice it belongs to, and audio/manifest.json gives each one the file
+  name the player looks for. Drop recordings into audio/ under those
+  names and they are used instead of the speech engine; the name comes
+  from the line itself, so a recording can only ever play against the
+  words it was made for. Recording part of the book works: what exists
+  is played and the rest is spoken.
+
+Language
+  The interface can be switched to Arabic with the button beside the
+  theme switch. Only the controls and labels change. Not one word of the
+  English being taught is translated, because translating a passage or
+  an option would remove the exercise; the Arabic for taught vocabulary
+  sits beside each term instead, on the cards and in the glossaries.
+
+Help while you work
+  Every exercise offers three hints, graded from a nudge to the method,
+  and none of them is the answer. Most offer a worked first item, which
+  fades as the unit goes on. Before checking you can say how many you
+  expect to get right, and the book keeps the gap between that and your
+  score, per unit.
+
 Microphone
   The speaking exercises try to record you and will quietly fall back to
   self-assessment if they cannot. Recording does not work from file://,
@@ -86,5 +117,5 @@ Keyboard
 
 cp.execFileSync('zip', ['-q', '-r', OUT, 'toefl-2026'], { cwd: STAGE });
 const size = (fs.statSync(OUT).size / 1048576).toFixed(1);
-console.log(`${OUT}\n  ${pages} lesson pages, ${data} data files, ${size} MB`);
+console.log(`${OUT}\n  ${pages} lesson pages, ${data} data files, ${audioFiles} audio manifest files, ${size} MB`);
 fs.rmSync(STAGE, { recursive: true, force: true });

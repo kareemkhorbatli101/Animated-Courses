@@ -1,7 +1,7 @@
 {
  "note": "Drop recordings into this folder under the file names below. The player prefers a file and falls back to the speech engine when it is missing, so partial recording works: record what you can, in any order.",
- "generated": "2026-11-06T20:05:13.883Z",
- "lines": 635,
+ "generated": "2026-11-06T22:25:50.770Z",
+ "lines": 707,
  "files": [
   {
    "file": "u01-l4-1a-a296bdc8.mp3",
@@ -278,6 +278,42 @@
    "accent": "en-GB",
    "speaker": "Professor Nadia Haddad",
    "text": "I want to explain a result that most students find annoying. If you read a chapter twice, you will feel that you know it. If instead you read it once and then close the book and write down everything you can remember, you will feel considerably worse. You will also, two weeks later, remember roughly twice as much. The reason is that retrieval is not a test of learning. It is an episode of learning. Each time you pull a fact out of memory, the route to that fact is strengthened, in a way that simply seeing the fact again does not strengthen it. So the discomfort you feel is not a sign that the method is failing. It is a sign that the method is doing the work. There is a catch, and it matters. Retrieval only helps if you afterwards check what you got wrong. Students who test themselves and never look at the answers improve very little, because they rehearse their errors as faithfully as their successes. So the sequence is: read once, close the book, write what you have, and then — this is the part people skip — go back and find out which parts you invented."
+  },
+  {
+   "file": "u01-oc-c-ad628e65.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Take notes visibly, not constantly."
+  },
+  {
+   "file": "u01-oc-c-a5943499.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Look up at the end of a point, not during it."
+  },
+  {
+   "file": "u01-oc-c-5343953b.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Nod once at a claim, not at every sentence."
+  },
+  {
+   "file": "u01-oc-c-0fc65563.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "So if I have understood, you are saying the discomfort is the point?"
+  },
+  {
+   "file": "u01-oc-c-93816bb8.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Could you go over the last part again?"
+  },
+  {
+   "file": "u01-oc-c-ac3bad05.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Can I check one thing before you move on?"
   },
   {
    "file": "u01-tw-b-eb191687.mp3",
@@ -598,6 +634,42 @@
    "text": "People often picture a climate model as a very large piece of software that is asked what the temperature will be in 2080. That is not what it does. A model divides the atmosphere and the ocean into boxes, and for each box it applies the same physics you would apply to a bucket of air: conservation of energy, conservation of mass, the behaviour of water as it changes state. Then it steps forward, half an hour at a time, for a simulated century. Nothing in that process is a prediction. The model is told what the emissions are; it is not asked to guess them. So when two models disagree, it is worth asking which kind of disagreement it is. If they were given different emissions, they are answering different questions and the gap means very little. If they were given identical emissions and still differ, the gap is telling you something about the physics they represent differently, and clouds are almost always where that difference lives. That second kind is the interesting one, and it is the one that has narrowed slowly over thirty years."
   },
   {
+   "file": "u02-oc-c-dca2366b.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Name the part you accept before the part you do not."
+  },
+  {
+   "file": "u02-oc-c-0797e0c9.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Disagree with the claim, not the person who made it."
+  },
+  {
+   "file": "u02-oc-c-9b9de8a5.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask a question when you are not yet sure you disagree."
+  },
+  {
+   "file": "u02-oc-c-efb7e5ff.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I think that is right about the scenarios, but I would separate that from the model differences."
+  },
+  {
+   "file": "u02-oc-c-cd853f0e.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "That is true up to a point, though it assumes the extremes are as likely as the middle."
+  },
+  {
+   "file": "u02-oc-c-487f88c1.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Can I check what you mean by prediction there?"
+  },
+  {
    "file": "u02-tw-b-b66899db.mp3",
    "accent": "en-US",
    "speaker": "Dan Okafor",
@@ -914,6 +986,42 @@
    "accent": "en-GB",
    "speaker": "Professor Nadia Haddad",
    "text": "I want to take apart a sentence you will meet constantly, which is that a species adapted to its environment. The sentence is not wrong, but it hides the mechanism, and the hidden part is where most people go astray. Consider a population of birds in which beak depth varies, as it does in every real population. A drought arrives and the only seeds left are large and hard. Birds with deeper beaks crack them; birds with shallower beaks do not, and many of those birds die. The survivors breed, and because beak depth is heritable, the next generation has on average a slightly deeper beak than the generation before the drought. Notice what did not happen. No bird grew a deeper beak. No bird tried harder. The variation was already present before the drought began, and all the drought did was change which portion of it was passed on. This is why the phrase adapted to is best read as a description of an outcome rather than an account of a process. The process is differential survival acting on variation that already exists, and if you can hold those two ideas together you will not be caught by most of the confusions in this field."
+  },
+  {
+   "file": "u03-oc-c-bf907e34.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask about the claim, not about the person who made it."
+  },
+  {
+   "file": "u03-oc-c-fd9b135a.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask for one specific thing: a number, a source, or a method."
+  },
+  {
+   "file": "u03-oc-c-108e3077.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what you would accept as an answer."
+  },
+  {
+   "file": "u03-oc-c-409166da.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Is that measured, or is it an estimate?"
+  },
+  {
+   "file": "u03-oc-c-d9e34be0.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Do you know roughly how many birds that was?"
+  },
+  {
+   "file": "u03-oc-c-ce26d420.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I would find that convincing if the same thing happened on a second island. Did it?"
   },
   {
    "file": "u03-tw-b-f5dac94f.mp3",
@@ -1234,6 +1342,42 @@
    "text": "There is a habit of mind I want you to resist, and it is the habit of asking who got there first. The question feels natural and it produces bad archaeology, because it makes every site a competitor and every date a claim to a title. A better question is what the distribution of dates looks like. If the earliest secure sites cluster along a coast and the inland corridor sites are consistently later, that pattern tells you something about a route. It tells you more than any single early date could, and it is far harder to overturn, because it does not rest on one excavation being right. Now, the uncomfortable part. We have known for decades that radiocarbon dates from coastal sites are harder to interpret, because marine carbon behaves differently from atmospheric carbon. That is not a reason to discard them. It is a reason to correct them, and to say in the paper exactly what correction was applied. A date without its correction stated is not a measurement; it is an assertion. And a field that publishes assertions will eventually find itself arguing about who got there first, which is where we came in."
   },
   {
+   "file": "u04-oc-c-ca3a80d1.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what you have already tried."
+  },
+  {
+   "file": "u04-oc-c-3fa3bd70.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask for a direction, not for the answer."
+  },
+  {
+   "file": "u04-oc-c-3e7f8db3.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Apologise once, at most."
+  },
+  {
+   "file": "u04-oc-c-63537e13.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I have looked in the catalogue and the index. Could you point me at the right section?"
+  },
+  {
+   "file": "u04-oc-c-9caff69b.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I may be missing something obvious."
+  },
+  {
+   "file": "u04-oc-c-9c87effa.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I have not come across this before. What would you check first?"
+  },
+  {
    "file": "u04-tw-b-f5a8129b.mp3",
    "accent": "en-US",
    "speaker": "Dan Okafor",
@@ -1550,6 +1694,42 @@
    "accent": "en-GB",
    "speaker": "Professor Nadia Haddad",
    "text": "I am often asked why so much of what we do in space is done without people, and the honest answer has three parts. The first is duration. A probe can wait. It can spend seven years travelling to a planet and then work for twenty more, and it does not need to be fed or brought home. No crewed mission has ever been designed on that timescale, and none realistically could be. The second is mass. Every kilogram of life support is a kilogram not spent on instruments, and the ratio is brutal: a crewed vehicle carries a small fraction of the scientific payload that an uncrewed one of the same mass can carry. The third part is the one people like least. It is risk. We have lost a great many spacecraft and we will lose more, and that is an acceptable cost precisely because nobody is aboard. Now, I want to be careful here, because this is not an argument that people should never go. There are things a geologist standing on a surface can do in an afternoon that a rover has not managed in a decade. But if the question is where the knowledge has come from so far, the answer is overwhelmingly from machines that went alone."
+  },
+  {
+   "file": "u05-oc-c-f55b9e53.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Offer it as one option, not as the answer."
+  },
+  {
+   "file": "u05-oc-c-87cf3908.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what problem it solves."
+  },
+  {
+   "file": "u05-oc-c-e827bd63.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Offer to do part of it yourself."
+  },
+  {
+   "file": "u05-oc-c-103e4d9c.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "What if we took the second half? Our targets do not rise until after midnight anyway."
+  },
+  {
+   "file": "u05-oc-c-2f13e005.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "One option would be to split the night, though I think that wastes both setups."
+  },
+  {
+   "file": "u05-oc-c-51479fee.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Would it help if I wrote to the technician this afternoon?"
   },
   {
    "file": "u05-tw-b-31dc09b1.mp3",
@@ -1870,6 +2050,42 @@
    "text": "I want to spend a few minutes on a word that causes more trouble than any other in this subject, and that word is metabolism. People speak of having a fast metabolism or a slow one, as though it were a single dial that could be turned up. It is not one process. It is the sum of every chemical conversion going on in the body at once, and the great majority of them are not optional. Keeping your heart beating, your temperature steady and your cell membranes intact accounts for most of what you spend in a day. Deliberate activity accounts for far less than people expect. Now, this matters practically. If you take in less than you spend, the body does not simply draw the difference from stored fat and carry on as before. It also reduces what it spends, quietly, by lowering body temperature slightly, by moving less, by making a hundred small economies you do not notice and cannot feel. This is why the arithmetic that looks so simple on paper behaves so badly in practice, and why anyone who tells you the sum is straightforward has not looked at the measurements."
   },
   {
+   "file": "u06-oc-c-ca417cf5.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say it back in your own words, not theirs."
+  },
+  {
+   "file": "u06-oc-c-9deed45f.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Check the consequence, not just the fact."
+  },
+  {
+   "file": "u06-oc-c-dadefe48.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Name the thing it refers to."
+  },
+  {
+   "file": "u06-oc-c-63c2e111.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "So you mean the enzyme has to go in after the bath is up to temperature?"
+  },
+  {
+   "file": "u06-oc-c-8dea8bed.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Just to check, does that mean we start the whole run again?"
+  },
+  {
+   "file": "u06-oc-c-331e1ed1.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "When you say go over it, do you mean the method or the readings?"
+  },
+  {
    "file": "u06-tw-b-a2a62d89.mp3",
    "accent": "en-US",
    "speaker": "Dan Okafor",
@@ -2186,6 +2402,42 @@
    "accent": "en-GB",
    "speaker": "Professor Nadia Haddad",
    "text": "There is a sentence I want you to be suspicious of whenever you meet it, and it is that the market will decide. The market is not a person and it does not decide anything. What exists is a very large number of people, each responding to the prices and rules they face, and the pattern that results. Saying that the market decided is a way of describing an outcome without naming anyone responsible for the rules that produced it. Take a congestion charge. If you price entry to a city centre, traffic falls. That is not the market deciding; that is a specific rule, set by a specific body, having a predictable effect. If the charge is set too low, traffic does not fall and the scheme is called a failure of the market, when it was a failure of the price. The reason this matters to you is that almost every economic argument you will read contains at least one sentence of this kind. When you find it, ask who set the rule, and what they were trying to achieve. The answer is usually available and usually interesting."
+  },
+  {
+   "file": "u07-oc-c-25043b3a.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask what happens, not whether it is allowed."
+  },
+  {
+   "file": "u07-oc-c-d36daeb4.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask for the deadline and the documents in the same breath."
+  },
+  {
+   "file": "u07-oc-c-30edc5b6.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask what the fallback is, before you need it."
+  },
+  {
+   "file": "u07-oc-c-b750aa4f.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "What happens if I cannot get here before the fifteenth?"
+  },
+  {
+   "file": "u07-oc-c-21328d03.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "What do I need to bring, and is there a deadline for the form?"
+  },
+  {
+   "file": "u07-oc-c-e98efaa7.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "If I miss it, is there a way to appeal, and how long does that take?"
   },
   {
    "file": "u07-tw-b-d4b346af.mp3",
@@ -2506,6 +2758,42 @@
    "text": "I want to show you why a single number can be entirely accurate and still mislead almost everyone who reads it. Consider a disease that kills one per cent of the people who catch it. That sounds small, and in a sense it is. But a case fatality rate tells you nothing on its own, because it is a proportion and the thing it is a proportion of can change enormously. One per cent of a thousand people is ten. One per cent of ten million is a hundred thousand. The number did not change; the population it applied to did, and that is where the public argument usually goes wrong. There is a second problem, and it is subtler. The denominator is not the number of people who were infected. It is the number who were tested and recorded. If testing is scarce, mild cases are invisible, the recorded denominator shrinks, and the fatality rate appears to rise. Early in any outbreak the measured rate is therefore almost always too high, and it falls as testing widens, which looks like the disease becoming milder and is nothing of the kind."
   },
   {
+   "file": "u08-oc-c-8bac34a2.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what, how much, and since when, in that order."
+  },
+  {
+   "file": "u08-oc-c-6dbd5f61.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what is now in doubt because of it."
+  },
+  {
+   "file": "u08-oc-c-18065915.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what you have and have not already done."
+  },
+  {
+   "file": "u08-oc-c-0f5f355a.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "The incubator has been running about two degrees warm, since Tuesday."
+  },
+  {
+   "file": "u08-oc-c-c5f000eb.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "That means anything cultured in it this week is unreliable."
+  },
+  {
+   "file": "u08-oc-c-2326b0f9.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I have not told the other groups yet. I wanted to check the display first."
+  },
+  {
    "file": "u08-tw-b-365bf52e.mp3",
    "accent": "en-US",
    "speaker": "Dan Okafor",
@@ -2822,6 +3110,42 @@
    "accent": "en-GB",
    "speaker": "Professor Nadia Haddad",
    "text": "When you look at a map of a city you are looking at a decision, although it rarely announces itself as one. Streets do not arrange themselves. Somebody decided how wide they would be, who would pay for them, and what would be demolished to make room. Consider the grid. A grid is often described as the natural form of a city, and it is nothing of the kind. It is a form that makes land easy to survey, easy to divide and easy to sell, which is why it appears wherever land was being distributed quickly. The curving streets of an older European quarter are not a different aesthetic; they are the record of a different process, in which the street followed the boundary of whatever was already there. Now, why does this matter when you are reading about transport? Because the argument you will meet most often is that a city is congested because it was badly planned. Sometimes that is true. More often the city was planned for a different purpose, by people with different instruments, and what you are looking at is not a failure but an inheritance."
+  },
+  {
+   "file": "u09-oc-c-37f12ace.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Name the destination, not the building number."
+  },
+  {
+   "file": "u09-oc-c-83e03c51.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask how long, not just which way."
+  },
+  {
+   "file": "u09-oc-c-09fbcc17.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask what you will see when you have gone too far."
+  },
+  {
+   "file": "u09-oc-c-95fcb2d3.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Am I going the right way for the science building?"
+  },
+  {
+   "file": "u09-oc-c-c9556cd0.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "How long is that on foot?"
+  },
+  {
+   "file": "u09-oc-c-d4144f52.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "What will I see if I have gone too far?"
   },
   {
    "file": "u09-tw-b-5e5f331b.mp3",
@@ -3142,6 +3466,42 @@
    "text": "I want to put a question to you that sounds simple and is not. Should a rule ever be broken? The usual classroom answer is that it depends on the rule, which is true and almost useless, so let us be more precise. There is a difference between a rule you think is wrong and a rule you think does not apply to you. Breaking a rule you believe is unjust, openly, and accepting the penalty, is a recognised political act with a long history. Breaking the same rule quietly, because it is inconvenient, is not that act, even when the rule is equally unjust and the person equally sincere. The difference is not in the rule and it is not in the motive. It is in whether you are trying to change the rule or trying to escape it. And notice what follows. Accepting the penalty is not a moral flourish. It is the thing that makes the act legible as an argument rather than as an evasion. Take that away and the observer cannot tell the two cases apart, which means the act can no longer do the work it was meant to do."
   },
   {
+   "file": "u10-oc-c-1ca4e8b0.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what you accept before you say what you reject."
+  },
+  {
+   "file": "u10-oc-c-a6e3125e.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Narrow the claim you are defending until you can defend it."
+  },
+  {
+   "file": "u10-oc-c-2855805c.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Name what would change your mind."
+  },
+  {
+   "file": "u10-oc-c-e0147486.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "I accept that the rule is badly drafted. What I dispute is that it is unjust."
+  },
+  {
+   "file": "u10-oc-c-0245dad8.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "My objection is not to the policy. It is to how it was introduced."
+  },
+  {
+   "file": "u10-oc-c-af703070.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "If it turned out the consultation was genuine, I would drop the objection."
+  },
+  {
    "file": "u10-tw-b-ff8dcebc.mp3",
    "accent": "en-US",
    "speaker": "Dan Okafor",
@@ -3454,6 +3814,42 @@
    "text": "I am going to defend a sentence that students are often told to avoid, which is the passive. You will have been advised to write the researchers heated the sample rather than the sample was heated, on the grounds that the active is clearer. In most writing that advice is sound. In a methods section it is wrong, and for a reason worth understanding. A methods section is a set of instructions for reproducing what was done. Who did it is, for that purpose, irrelevant. If the result depends on which person held the pipette, you have not described a method; you have described an anecdote. The passive removes the agent precisely because the agent should not matter, and the sentence is honest about that. Now, the passive is also used to hide agency when agency is exactly what a reader needs, and that is a real abuse. Mistakes were made is the famous example. The test is simple enough: ask whether naming the agent would change what a competent reader should do next. In a methods section it would not. In an apology it would."
   },
   {
+   "file": "u11-oc-c-404612e7.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Name the person, not someone."
+  },
+  {
+   "file": "u11-oc-c-b846c687.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Say what they contributed, specifically."
+  },
+  {
+   "file": "u11-oc-c-3eed9c0e.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Do it in the room where the credit was lost."
+  },
+  {
+   "file": "u11-oc-c-3d79f4aa.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Building on what Mei said last week about the denominator."
+  },
+  {
+   "file": "u11-oc-c-c703da4f.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "That was Priya's point originally. I am just repeating it."
+  },
+  {
+   "file": "u11-oc-c-2fefa686.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Credit where it is due: Tomás spotted the drift, not me."
+  },
+  {
    "file": "u11-tw-b-cb8cc2ca.mp3",
    "accent": "en-US",
    "speaker": "Dan Okafor",
@@ -3764,6 +4160,42 @@
    "accent": "en-GB",
    "speaker": "Professor Nadia Haddad",
    "text": "I want to talk about a habit of reading that will serve you in every subject, and it is the habit of separating what a writer claims from what a writer has shown. Criticism is unusually good practice for this, because critics tend to move between the two without marking the transition. Here is a typical sentence. The film refuses the consolations of its genre, choosing instead to leave its audience unsettled. Now, part of that is observation. The film does not end the way films of that kind usually end, and anyone can check it. The rest is interpretation. Refusing is a word about intention, and choosing is another, and neither of them is visible on the screen. I am not objecting to the sentence. Interpretation is the whole point of criticism and a review without it would be a listing. What I am asking is that you notice where the joint is. When you meet a claim about what a work is doing, ask what you would have to see in order to agree, and then ask whether the writer has shown you that. Sometimes they have. When they have not, you have found the place where the argument is actually being made."
+  },
+  {
+   "file": "u12-oc-c-efafd3a5.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Find out where they stopped following, before explaining anything."
+  },
+  {
+   "file": "u12-oc-c-c0e39760.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Give the checkable thing first, the interpretation second."
+  },
+  {
+   "file": "u12-oc-c-5d540a2c.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Ask them to say it back."
+  },
+  {
+   "file": "u12-oc-c-a0d73cd2.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Which part lost you: what happens, or what the critic says about it?"
+  },
+  {
+   "file": "u12-oc-c-b1e95396.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Here is what is on the screen. Here is what he is claiming about it."
+  },
+  {
+   "file": "u12-oc-c-525c9d22.mp3",
+   "accent": "en-US",
+   "speaker": "narrator",
+   "text": "Can you put that back to me in your own words?"
   },
   {
    "file": "u12-tw-b-66481704.mp3",
