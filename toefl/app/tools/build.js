@@ -7,7 +7,7 @@ require(path.join(ROOT, 'assets/spec.js'));
 require(path.join(ROOT, 'assets/book.js'));
 const B = window.BOOK;
 
-const SCRIPTS = ['spec','book','progress','deck','cast','items','items2','audio','charts','docs','write','speak'];
+const SCRIPTS = ['spec','book','progress','deck','cast','drag','scenes','items','items2','items3','items4','items5','audio','charts','docs','write','speak'];
 
 function page(unit, block, prevHref, nextHref) {
   const b = B.block(block);
@@ -26,7 +26,7 @@ ${SCRIPTS.map(s=>`<script src="../assets/${s}.js"></script>`).join('\n')}
 
 function unitIndex(unit, built) {
   const rows = B.BLOCKS.filter(b=>built.includes(b.id)).map(b=>{
-    const n = B.budgetTotal(b.id);
+    const n = B.budgetTotal(b.id, unit.id);
     return `      <a class="blk" href="${b.id}.html">
         <span class="bn">${b.n ? 'Lesson ' + b.n : '&nbsp;'}</span>
         <b>${b.name}</b>

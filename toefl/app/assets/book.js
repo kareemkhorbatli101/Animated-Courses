@@ -107,18 +107,38 @@
     if (!b) return "";
     return b.n ? "LESSON " + b.n + " " + b.name.toUpperCase() : b.name.toUpperCase();
   }
-  function budgetTotal(blockId) {
-    var m = BUDGET[blockId], t = 0;
+  /* The doubled budget. Every ETS task count is exactly twice the original,
+     so a unit still mirrors the live test's section proportions: Reading 36,
+     Listening 34, Writing 24, Speaking 12, plus 12 review. A unit is measured
+     against this table once it carries `doubled: true`, and against the
+     original until then, so the gate stays meaningful while the work is in
+     progress rather than reporting eleven false failures. */
+  var BUDGET2 = {
+    l1: { "complete-the-words": 16 },
+    l2: { "write-academic-discussion": 2, "build-a-sentence": 8 },
+    l3: { "build-a-sentence": 12, "complete-the-words": 4 },
+    l4: { "listen-choose-response": 12, "listen-conversation": 8, "listen-and-repeat": 8 },
+    l5: { "read-daily-life": 8, "read-academic-passage": 8 },
+    oc: { "listen-announcement": 6, "listen-academic-talk": 8 },
+    tw: { "write-an-email": 2, "take-an-interview": 4, "review": 12 }
+  };
+
+  function budgetFor(unitId) {
+    var u = unit(unitId);
+    return (u && u.doubled) ? BUDGET2 : BUDGET;
+  }
+  function budgetTotal(blockId, unitId) {
+    var m = (unitId ? budgetFor(unitId) : BUDGET)[blockId], t = 0;
     for (var k in m) if (m.hasOwnProperty(k)) t += m[k];
     return t;
   }
-  function unitTotal() {
-    return BLOCKS.reduce(function (a, b) { return a + budgetTotal(b.id); }, 0);
+  function unitTotal(unitId) {
+    return BLOCKS.reduce(function (a, b) { return a + budgetTotal(b.id, unitId); }, 0);
   }
 
   root.BOOK = {
-    BLOCKS: BLOCKS, BUDGET: BUDGET, UNITS: UNITS,
-    unit: unit, block: block, banner: banner,
+    BLOCKS: BLOCKS, BUDGET: BUDGET, BUDGET2: BUDGET2, UNITS: UNITS,
+    unit: unit, block: block, banner: banner, budgetFor: budgetFor,
     budgetTotal: budgetTotal, unitTotal: unitTotal,
     title: "TOEFL iBT 2026"
   };

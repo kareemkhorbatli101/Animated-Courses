@@ -256,6 +256,15 @@
         done[spec.id] = true;
         if (P) P.mark(page.id, spec.id);
         dots.children[current].classList.add("done");
+        if (P && P.nextFor) {
+          var when = P.nextFor(page.id, spec.id);
+          if (when) {
+            var sch = E("p", "sched", "Scheduled for review " + when + ".");
+            fb.appendChild(sch);
+          }
+        }
+      } else if (P && P.miss) {
+        P.miss(page.id, spec.id);
       }
     };
     again.onclick = function () {
