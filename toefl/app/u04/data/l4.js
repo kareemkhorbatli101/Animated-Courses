@@ -52,6 +52,54 @@
             ] }
         ] },
 
+            { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
+        prompt: "Six more. Three of them use the present perfect, and the reply has to hear what it is doing.",
+        items: [
+          { who: "mei", say: "Have you ever worked in an archive before?",
+            options: [
+              { text: "Once, two summers ago.", correct: true,
+                why: "<i>Ever</i> asks about all of time up to now; the answer narrows it to one occasion." },
+              { text: "Yes, I work there.", why: "Answers about a current job rather than about experience." },
+              { text: "I will work there.", why: "The question is about the past, not the future." }
+            ] },
+          { who: "dan", say: "The folder still hasn't arrived.",
+            options: [
+              { text: "Did you order it a day ahead?", correct: true,
+                why: "<i>Still hasn't</i> is a complaint with a cause implied; the reply goes after the cause." },
+              { text: "It arrived yesterday.", why: "Contradicts the speaker about something they would know." },
+              { text: "It has arrived already.", why: "Same contradiction, and <i>already</i> cannot sit beside <i>still hasn't</i>." }
+            ] },
+          { who: "priya", say: "Could you give me a hand with these boxes?",
+            options: [
+              { text: "Of course — which shelf are they going on?", correct: true,
+                why: "Agrees and asks the one question that makes the help useful." },
+              { text: "I have two hands.", why: "Takes an idiom literally." },
+              { text: "Yes, they are heavy.", why: "Agrees that they are heavy, which is not what was asked." }
+            ] },
+          { who: "tomas", say: "I've been staring at this layer number for ten minutes.",
+            options: [
+              { text: "Shall I take a look?", correct: true,
+                why: "The sentence is an indirect request for help. Answering the literal content would miss it entirely." },
+              { text: "Ten minutes isn't long.", why: "Technically true and quite unhelpful." },
+              { text: "I stared at it too.", why: "Matches the complaint without offering anything." }
+            ] },
+          { who: "haddad", say: "This is the first time I've seen that correction applied properly.",
+            options: [
+              { text: "Is it usually left out?", correct: true,
+                why: "<i>The first time I have seen</i> implies it is usually not done, and the reply follows that implication." },
+              { text: "Yes, I applied it yesterday.", why: "Answers about the occasion when the comment is about the pattern." },
+              { text: "I have never seen it.", why: "Possible, but it takes the conversation away from the speaker's point." }
+            ] },
+          { who: "dan", say: "If I'd known the folder had to be ordered, I'd have done it on Monday.",
+            options: [
+              { text: "Order it now and we can go on Friday instead.", correct: true,
+                why: "The folder was <b>not</b> ordered. Only this reply works from that and proposes a way out." },
+              { text: "Good, so it will be here Thursday.", why: "It will not: the ordering did not happen." },
+              { text: "You ordered it on Monday, then.", why: "The counterfactual says exactly the opposite." }
+            ] }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "A student at the archive desk. Listen once.",
@@ -94,6 +142,49 @@
             ] }
         ] },
 
+            { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
+        prompt: "Two students working out why two dates disagree. Listen once.",
+        speaker: "tomas", speakerNote: "with Mei Lin",
+        audio: { track: "4-05", label: "Two dates that disagree", lines: [
+          { who: "tomas", text: "The shell gives eleven thousand two hundred. The charcoal from the same layer gives ten thousand six hundred." },
+          { who: "mei", text: "Six hundred years apart, in one layer." },
+          { who: "tomas", text: "Has the marine correction been applied to the shell?" },
+          { who: "mei", text: "I assumed so. It does not say on the sheet." },
+          { who: "tomas", text: "Then that is where I would look first. It is usually about four hundred years, and in some places more." },
+          { who: "mei", text: "Which would leave two hundred, and two hundred is just two dates." }
+        ] },
+        items: [
+          { q: "How far apart are the two dates as reported?",
+            options: [
+              { text: "Six hundred years.", correct: true,
+                why: "Mei states it, having subtracted the two figures Tomás gave. The item tests whether you tracked both numbers." },
+              { text: "Four hundred years.", why: "That is the size of the correction Tomás mentions afterwards." },
+              { text: "Two hundred years.", why: "That is what would be left once the correction is applied." }
+            ] },
+          { q: "What does Tomás suspect?",
+            options: [
+              { text: "The marine correction may not have been applied to the shell date.", correct: true,
+                why: "He asks it as a question, which in this register is how a suspicion is usually offered." },
+              { text: "The charcoal came from a different layer.", why: "Both are said to come from the same layer." },
+              { text: "One of the measurements was made badly.", why: "He points at a processing step, not at the measurement." }
+            ] },
+          { q: "What does Mei say about the record sheet?",
+            options: [
+              { text: "It does not record whether the correction was applied.", correct: true,
+                why: "<i>I assumed so. It does not say on the sheet.</i> — the gap in the record is the real finding here." },
+              { text: "It says the correction was applied.", why: "She says it does not say either way." },
+              { text: "She has not looked at it.", why: "She has: that is how she knows it is silent." }
+            ] },
+          { q: "What does Mei mean by “two hundred is just two dates”?",
+            options: [
+              { text: "A gap that small is ordinary disagreement, not a problem to explain.", correct: true,
+                why: "She is saying the discrepancy would disappear into normal uncertainty once the correction is applied." },
+              { text: "Two hundred years is too large to ignore.", why: "The whole point of <i>just</i> is that it is small." },
+              { text: "Two more dates are needed.", why: "<i>Two dates</i> here means the ordinary scatter between any two measurements." }
+            ] }
+        ] },
+
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "<b>th</b> spells two different sounds. Voiceless /θ/ in <i>think</i>; voiced /ð/ in <i>this</i>. Grammar words usually take the voiced one.",
@@ -106,6 +197,61 @@
             note: "<i>Although, they, there</i> voiced; <i>months, nothing</i> voiceless." },
           { text: "The authors who gathered these northern samples thought them worth another look.",
             note: "Relative clause plus a complex noun phrase, with both sounds throughout." }
+        ] },
+
+      { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
+        prompt: "Four more lines. The grammar words — <i>the, this, that, they, them, there</i> — almost all take the voiced one.",
+        speaker: "haddad",
+        lines: [
+          { text: "They think this is the third.", note: "Voiced /ð/ in <i>They, this, the</i>; voiceless /θ/ in <i>think, third</i>." },
+          { text: "Both of those methods are worth the trouble.",
+            note: "/θ/ in <i>Both, worth</i>; /ð/ in <i>those, the</i>. The two sounds alternate across six words." },
+          { text: "There is nothing in that layer thicker than a thumb.",
+            note: "/ð/ in <i>There, that, than</i>; /θ/ in <i>nothing, thicker, thumb</i>." },
+          { text: "The authors thought the three thin layers belonged together rather than to the north.",
+            note: "Eight of the two sounds in one sentence, including the hardest pair: <i>thought the</i>." }
+        ] },
+
+      { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        kind: "minimal-pairs", task: null, n: 0,
+        focus: "<p>Two sounds, one spelling. The tongue goes between the teeth for both. <b>/θ/</b> is voiceless, as in <i>think</i>; <b>/ð/</b> is voiced, as in <i>this</i>. There is no rule in the spelling, but there is one in the grammar: <i>the, this, that, they, there, then, than, though</i> are all voiced.</p>" +
+               "<i>/θ/ — thin · thigh · breath · worth</i><i>/ð/ — then · thy · breathe · worthy</i>",
+        items: [
+          { say: "thin",
+            options: [
+              { text: "thin", correct: true, why: "/θ/ — voiceless. Put a finger on your throat and there is no buzz." },
+              { text: "then", why: "/ð/ — voiced, and a grammar word, which is the usual clue." }
+            ] },
+          { say: "breathe",
+            options: [
+              { text: "breath",  why: "/θ/ — the noun, with a short vowel and no voice at the end." },
+              { text: "breathe", correct: true, why: "/ð/ — the verb. The <i>e</i> on the end both lengthens the vowel and voices the consonant." }
+            ] },
+          { say: "worth",
+            options: [
+              { text: "worth",  correct: true, why: "/θ/ — voiceless at the end of the word." },
+              { text: "worthy", why: "/ð/ — adding the ending voices the consonant, as it does in <i>north → northern</i>." }
+            ] },
+          { say: "this",
+            options: [
+              { text: "thistle", why: "/θ/ — a content word, so the voiceless one, despite the identical first three letters." },
+              { text: "this",    correct: true, why: "/ð/ — a grammar word. This is the single most useful rule in the pair." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        kind: "dictation", task: null, n: 0,
+        prompt: "Play each line and write exactly what you hear. Spelling counts; punctuation does not.",
+        items: [
+          { answer: "They think the third layer is older than this one",
+            why: "Five of the two sounds, and <i>than</i> and <i>then</i> are easy to confuse when unstressed." },
+          { answer: "Both of these dates are worth checking again",
+            why: "<i>Both of these</i> moves from voiceless to voiced inside three words." },
+          { answer: "There is nothing in that layer thicker than a thumb",
+            why: "<i>There is nothing</i> reduces almost to one word in connected speech." },
+          { answer: "The authors have not published the site for fifty years",
+            why: "A present perfect with <i>for</i>, which Lesson 3 separated from <i>since</i>." }
         ],
         closer: { kind: "test", body: "<p>Assess your own part: today I was able to … ask for help without apologising twice · use <i>for</i> and <i>since</i> · hear the two <i>th</i> sounds.</p>" } }
     ]

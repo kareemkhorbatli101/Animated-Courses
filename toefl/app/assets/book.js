@@ -44,7 +44,7 @@
       affix: "-tion", pron: "v, b and f", chart: "bar",
       campus: "ask for the evidence behind a claim",
       strategy: { writing: "writing a title for an email", reading: "reading a bar graph" } },
-    { n: 4,  id: "u04", title: "Migration and the Human Past", field: "archaeology",
+    { n: 4,  id: "u04", title: "Migration and the Human Past", field: "archaeology", doubled: true,
       grammar: ["the present perfect", "for and since", "contractions with the present perfect"],
       affix: "inter-", pron: "two pronunciations of th", chart: "flow",
       campus: "ask for help without losing face",

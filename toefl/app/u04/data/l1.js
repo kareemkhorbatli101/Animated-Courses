@@ -20,7 +20,49 @@
         ] }] },
         after: "<p>Keep 7 and 8 apart. The talk in On Campus turns on exactly that difference.</p>" },
 
-      { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+            { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        kind: "match", task: null, n: 0,
+        prompt: "An excavation, from above ground. Drag each word onto the thing it names.",
+        scene: { w: 1000, h: 560,
+          alt: "An excavation: a site hut, a signpost, a spoil heap of earth, a trench with a measuring board, a tray of finds and a recording sheet",
+          parts: [
+            { p: "wall",  x: 0, y: 0,   sx: 10, sy: 2.9 },
+            { p: "floor", x: 0, y: 180, sx: 10, sy: 3.9 },
+            { p: "building", x: 700, y: 40,  s: 2.0 },
+            { p: "tree",     x: 40,  y: 55,  s: 1.5 },
+            { p: "sign",     x: 560, y: 120, s: 1.1 },
+            { p: "counter",  x: 120, y: 250, sx: 3.0, sy: 1.1 },
+            { p: "board",    x: 180, y: 300, s: 1.1 },
+            { p: "bench",    x: 560, y: 380, sx: 3.6, sy: 1.5 },
+            { p: "paper",    x: 610, y: 376, s: 0.72 },
+            { p: "pen",      x: 700, y: 400, s: 0.6 },
+            { p: "books",    x: 790, y: 372, s: 0.8 },
+            { p: "person",   x: 330, y: 300, s: 1.6 }
+          ] },
+        pins: [
+          { id: "p-hut",    x: 80, y: 10, tx: 77, ty: 20, w: 130 },
+          { id: "p-sign",   x: 58, y: 44, tx: 60, ty: 28, w: 130 },
+          { id: "p-spoil",  x: 13, y: 76, tx: 20, ty: 52, w: 150 },
+          { id: "p-board",  x: 29, y: 88, tx: 23, ty: 61, w: 160 },
+          { id: "p-sheet",  x: 55, y: 88, tx: 64, ty: 73, w: 150 },
+          { id: "p-finds",  x: 86, y: 90, tx: 82, ty: 72, w: 150 }
+        ],
+        pairs: [
+          { word: "site hut", pin: "p-hut",
+            why: "where the records and the kettle live. <i>Site</i> is the whole place; the hut is one building on it." },
+          { word: "signpost", pin: "p-sign",
+            why: "an excavation that the public can reach is signed, because an unmarked trench is a hole in a field." },
+          { word: "spoil heap", pin: "p-spoil",
+            why: "<i>spoil</i> is the earth removed. It is a noun here, and uncountable: <i>the spoil</i>, never <i>the spoils</i>." },
+          { word: "measuring board", pin: "p-board",
+            why: "the scale that goes in every photograph, so that a picture of an object is also a measurement of it." },
+          { word: "recording sheet", pin: "p-sheet",
+            why: "the context an object was found in is recorded here. Without it the object is an ornament, not evidence." },
+          { word: "finds tray", pin: "p-finds",
+            why: "<i>finds</i> is plural and used as a noun: <i>the finds from trench two</i>." }
+        ] },
+
+      { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -32,6 +74,20 @@
             why: "<i>excavate → excavation</i>." },
           { text: "A claim with its e___ left out is not a finding.", answer: "evidence", given: [0, 1, 2],
             why: "<i>Evidence</i> — as against an <i>assertion</i>." }
+        ] },
+
+            { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
+        prompt: "Four more. These are the words the dating argument in Lesson 5 is built from.",
+        items: [
+          { text: "Each s___ of earth was lifted separately and bagged.", answer: "sediment", given: [0, 1],
+            why: "Usually uncountable: <i>the sediment</i>. <i>Sediments</i> means the different kinds." },
+          { text: "The r___ date came back as eleven thousand years.", answer: "radiocarbon", given: [0, 1],
+            why: "One word, no hyphen. The method is named after the isotope it measures." },
+          { text: "A date on its own is a measurement; saying what it means is an i___.", answer: "interpretation", given: [0, 1],
+            why: "<i>interpret → interpretation</i>, which is also this unit's prefix at work." },
+          { text: "Nothing may be moved before its position has been r___.", answer: "recorded", given: [0, 1],
+            why: "The passive is standard in this register, because who did the recording is not the point." }
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The prefix inter-", letter: "A",
@@ -60,6 +116,70 @@
             why: "<i>inter + disciplinary</i>: between fields." },
           { text: "Genetic evidence shows the two groups i___ for several thousand years.", answer: "interbred", given: [0, 1, 2, 3, 4],
             why: "<i>inter + bred</i> — the past of <i>interbreed</i>." }
+        ] },
+
+      { id: "2c", section: 2, sectionTitle: "The prefix inter-", letter: "C",
+        kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
+        prompt: "Four more words with <b>inter-</b>, all of them common in a methods section.",
+        items: [
+          { text: "The two teams had to i___ their recording systems before merging the data.", answer: "integrate", given: [0, 1],
+            why: "A trap: <i>integrate</i> comes from <i>integer</i>, whole. The <i>inte-</i> is not this unit's prefix." },
+          { text: "Nobody may i___ with the trench while photography is in progress.", answer: "interfere", given: [0, 1],
+            why: "<i>inter + fere</i>, from a Latin verb meaning to strike. <i>Interfere with</i>, never <i>interfere to</i>." },
+          { text: "The report was written for an i___ audience, not for specialists.", answer: "international", given: [0, 1],
+            why: "<i>inter + national</i>: between nations." },
+          { text: "The two methods give dates that i___ at about nine thousand years.", answer: "intersect", given: [0, 1],
+            why: "<i>inter + sect</i>, to cut. Two lines that cross <i>intersect</i>; so do two kinds of evidence." }
+        ] },
+
+      { id: "2d", section: 2, sectionTitle: "The prefix inter-", letter: "D",
+        kind: "oddone", task: null, n: 0,
+        prompt: "Three words in each row belong together. Choose the one that does not.",
+        items: [
+          { group: "three really begin with this unit's prefix",
+            options: [
+              { text: "interval",   why: "<i>inter + val</i>: the space between two ramparts, originally." },
+              { text: "interpret",  why: "<i>inter + pret</i>: to act as a go-between." },
+              { text: "interbreed", why: "<i>inter + breed</i>: between two groups." },
+              { text: "integrate", correct: true,
+                why: "the odd one: it comes from <i>integer</i>, whole. The letters look the same and the meaning is unrelated." }
+            ] },
+          { group: "three are things a site produces",
+            options: [
+              { text: "artefact",  why: "an object made or modified by people." },
+              { text: "sediment",  why: "the layers the artefacts sit in." },
+              { text: "finds",     why: "the collective noun for what comes out of a trench." },
+              { text: "assertion", correct: true,
+                why: "the odd one: an assertion is something an archaeologist produces, and specifically the kind with its evidence left out." }
+            ] },
+          { group: "three mean the gap between two things",
+            options: [
+              { text: "interval", why: "in time or in space." },
+              { text: "gap",      why: "the everyday word for the same idea." },
+              { text: "hiatus",   why: "a gap in a sequence, and in this subject a gap in deposition." },
+              { text: "horizon", correct: true,
+                why: "the odd one: in archaeology a horizon is a layer, not the space between two of them. Outside the subject it is a line, which is also not a gap." }
+            ] }
+        ] },
+
+      { id: "3a", section: 3, sectionTitle: "inter- or intra-", letter: "A",
+        kind: "sort", task: null, n: 0,
+        prompt: "<b>inter-</b> means between, <b>intra-</b> means within. One letter decides which, and in this subject the two make opposite claims. Sort these eight.",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p><i>Intergroup</i> conflict is between groups; <i>intragroup</i> conflict is inside one. A paper that confuses them has reported the opposite of its finding, and the only difference on the page is a single vowel.</p>" },
+        bins: [
+          { id: "between", label: "Between two or more", hint: "inter-" },
+          { id: "within",  label: "Inside one",          hint: "intra-" }
+        ],
+        items: [
+          { text: "international",  bin: "between", why: "between nations." },
+          { text: "interbreeding",  bin: "between", why: "between two populations — which is how genes move." },
+          { text: "intercontinental", bin: "between", why: "between continents, which is what a migration route is." },
+          { text: "interdisciplinary", bin: "between", why: "between fields." },
+          { text: "intravenous",    bin: "within",  why: "within a vein. The commonest <i>intra-</i> word in English." },
+          { text: "intragroup",     bin: "within",  why: "inside one group, as against <i>intergroup</i>, which is its opposite." },
+          { text: "intracellular",  bin: "within",  why: "inside a cell." },
+          { text: "intrapersonal",  bin: "within",  why: "within one person. <i>Interpersonal</i> is between people, and the two are routinely swapped." }
         ],
         closer: { kind: "test", body: "<p>Close the page. Explain the difference between evidence and an assertion, in one sentence.</p>" } }
     ]
