@@ -127,29 +127,29 @@
             options: [
               { text: "The record treated single studies as more conclusive than their methods justified.", correct: true,
                 why: "That is what the article says the projects <i>did</i> establish, as against what people assumed." },
-              { text: "Most published findings are false.", why: "The article refuses that inference explicitly." },
-              { text: "Replication projects were badly designed.", why: "It says a repetition <i>may</i> be flawed, not that these were." }
+              { text: "Most published findings are false.", misreads: "overread", why: "The article refuses that inference explicitly." },
+              { text: "Replication projects were badly designed.", misreads: "may", why: "It says a repetition <i>may</i> be flawed, not that these were." }
             ] },
           { para: 2, q: "Why does a failed replication not establish that the original was wrong?",
             options: [
               { text: "The repetition may itself have been flawed.", correct: true,
                 why: "Stated directly, and paired with the reminder that one study was never meant to settle anything." },
-              { text: "Because the original was peer reviewed.", why: "Peer review is not offered as a defence." },
-              { text: "Because fewer than half were tested.", why: "Fewer than half were <i>recovered</i>, which is different." }
+              { text: "Because the original was peer reviewed.", misreads: "overread", why: "Peer review is not offered as a defence." },
+              { text: "Because fewer than half were tested.", misreads: "recovered", why: "Fewer than half were <i>recovered</i>, which is different." }
             ] },
           { para: 2, q: "<i>More conclusive than their methods warranted</i> means the studies were:",
             options: [
               { text: "treated as settling more than their design could support.", correct: true,
                 why: "<i>Warranted</i> is about entitlement: what the method licenses you to claim." },
-              { text: "badly conducted.", why: "The sentence is about how they were <i>treated</i>, not how they were done." },
-              { text: "too small to publish.", why: "Size is not the criterion named." }
+              { text: "badly conducted.", misreads: "overread", why: "The sentence is about how they were <i>treated</i>, not how they were done." },
+              { text: "too small to publish.", misreads: "overread", why: "Size is not the criterion named." }
             ] },
           { para: 3, q: "Why does the author call the remedies <i>unglamorous</i>?",
             options: [
               { text: "They are procedural rather than discoveries.", correct: true,
                 why: "Registration, sharing and publishing nulls are housekeeping, and the word is doing gentle work." },
-              { text: "They are unlikely to succeed.", why: "No doubt about their effect is expressed." },
-              { text: "They are expensive.", why: "Cost is not mentioned." }
+              { text: "They are unlikely to succeed.", misreads: "their", why: "No doubt about their effect is expressed." },
+              { text: "They are expensive.", misreads: "absent", why: "Cost is not mentioned." }
             ] }
         ] },
 
@@ -162,8 +162,8 @@
           { para: 0, q: "What happens if you cancel on the day?",
             options: [
               { text: "The slot counts against your group.", correct: true, why: "Cancellation must be at least a day before." },
-              { text: "Nothing.", why: "The card attaches a consequence." },
-              { text: "You lose your training.", why: "Training is a separate requirement." }
+              { text: "Nothing.", misreads: "overread", why: "The card attaches a consequence." },
+              { text: "You lose your training.", misreads: "Training", why: "Training is a separate requirement." }
             ] }
         ] },
 
@@ -259,29 +259,29 @@
             options: [
               { text: "The shortage of replication follows from the incentives, not from carelessness.", correct: true,
                 why: "The first section rejects the carelessness reading; the second shows where the incentives point." },
-              { text: "Researchers are careless about checking their work.", why: "<i>That reading misses what they actually found</i> — the article rejects it in its second sentence." },
-              { text: "Replication projects were badly designed.", why: "Their design is not criticised anywhere." }
+              { text: "Researchers are careless about checking their work.", misreads: "reading", why: "<i>That reading misses what they actually found</i> — the article rejects it in its second sentence." },
+              { text: "Replication projects were badly designed.", misreads: "absent", why: "Their design is not criticised anywhere." }
             ] },
           { para: 2, q: "What does the article say a successful replication adds?",
             options: [
               { text: "Nothing to the researcher's record.", correct: true,
                 why: "And the failed one is worse than nothing: it makes an enemy." },
-              { text: "A citation and a publication.", why: "Journals have historically declined them." },
-              { text: "A claim on a grant.", why: "Grants are listed among the things decided on original findings." }
+              { text: "A citation and a publication.", misreads: "Journals", why: "Journals have historically declined them." },
+              { text: "A claim on a grant.", misreads: "grants", why: "Grants are listed among the things decided on original findings." }
             ] },
           { para: 2, q: "Why does the article call the journals' position “entirely consistent”?",
             options: [
               { text: "Neither kind of replication is news, which is the standard they apply to everything.", correct: true,
                 why: "The phrase concedes that the journals are not behaving oddly, which is what makes the problem structural." },
-              { text: "Because journals always publish replications.", why: "The article says they have historically declined them." },
-              { text: "Because the standard is written down.", why: "No written rule is mentioned." }
+              { text: "Because journals always publish replications.", misreads: "historically", why: "The article says they have historically declined them." },
+              { text: "Because the standard is written down.", misreads: "overread", why: "No written rule is mentioned." }
             ] },
           { para: 3, q: "Why are the remedies procedural rather than moral?",
             options: [
               { text: "Appeals to individual virtue have been tried for a century without working.", correct: true,
                 why: "Stated directly, and each remedy named afterwards removes a decision from where the incentive acts." },
-              { text: "Researchers cannot be trusted.", why: "The article has just finished arguing that nobody here is behaving badly." },
-              { text: "Procedures are cheaper.", why: "Cost is never discussed." }
+              { text: "Researchers cannot be trusted.", misreads: "overread", why: "The article has just finished arguing that nobody here is behaving badly." },
+              { text: "Procedures are cheaper.", misreads: "absent", why: "Cost is never discussed." }
             ] }
         ] },
 
@@ -297,33 +297,33 @@
             options: [
               { text: "When a repeat fails, that does not prove the first study was mistaken: the repeat might be the faulty one.", correct: true,
                 why: "Keeps the refusal and the reason for it." },
-              { text: "A failed replication proves the original was wrong.",
+              { text: "A failed replication proves the original was wrong.", misreads: "overread",
                 why: "The exact inference the sentence exists to block." },
-              { text: "Replications are usually flawed.",
+              { text: "Replications are usually flawed.", misreads: "overread",
                 why: "<i>May have been</i> is a possibility, not a tendency." },
-              { text: "Neither study can be trusted.",
+              { text: "Neither study can be trusted.", misreads: "overread",
                 why: "The sentence withholds a verdict rather than condemning both." }
             ] },
           { source: "No part of the system rewards repeating somebody else's experiment, and almost every part of it rewards producing something new.",
             options: [
               { text: "Checking other people's work earns nothing, while novelty is rewarded nearly everywhere.", correct: true,
                 why: "Keeps both halves, and keeps <i>almost</i>." },
-              { text: "Researchers prefer doing new work.",
+              { text: "Researchers prefer doing new work.", misreads: "overread",
                 why: "Turns a fact about the rules into a fact about preferences — exactly the move the article warns against." },
-              { text: "The system punishes replication.",
+              { text: "The system punishes replication.", misreads: "overread",
                 why: "<i>Does not reward</i> is weaker than punishes, and the difference matters to the argument." },
-              { text: "New findings are more important than replications.",
+              { text: "New findings are more important than replications.", misreads: "overread",
                 why: "A judgement about value; the sentence is about what is rewarded." }
             ] },
           { source: "The published record had been treating individual studies as more conclusive than their methods warranted.",
             options: [
               { text: "Single studies were being read as settling more than their design could support.", correct: true,
                 why: "Keeps the comparison between what was claimed and what the method could carry." },
-              { text: "The published studies used poor methods.",
+              { text: "The published studies used poor methods.", misreads: "methods",
                 why: "The methods may be fine for what they can show; the overreach is in the reading." },
-              { text: "Individual studies should not be published.",
+              { text: "Individual studies should not be published.", misreads: "absent",
                 why: "A recommendation nowhere in the sentence." },
-              { text: "The record was deliberately misleading.",
+              { text: "The record was deliberately misleading.", misreads: "overread",
                 why: "Nothing in the sentence attributes intent, and the whole article argues against doing so." }
             ] }
         ] },
@@ -339,15 +339,15 @@
             options: [
               { text: "Before you first book, not before you first use the machine.", correct: true,
                 why: "Line 1 draws exactly that distinction, which is the kind a card exists to settle." },
-              { text: "Before you first use the machine.", why: "Line 1 rules this out in its second half." },
-              { text: "Within two years of your first booking.", why: "Two years is how long training lasts, in line 2." }
+              { text: "Before you first use the machine.", misreads: "overread", why: "Line 1 rules this out in its second half." },
+              { text: "Within two years of your first booking.", misreads: "years", why: "Two years is how long training lasts, in line 2." }
             ] },
           { para: 0, q: "Your training expired last month. Can you book?",
             options: [
               { text: "Yes, if a trained member of your group is present.", correct: true,
                 why: "Line 3 gives the one condition under which a lapsed user may still book." },
-              { text: "No, not until you retrain.", why: "Line 3 offers a way round it." },
-              { text: "Yes, with no conditions.", why: "The condition is the whole of line 3." }
+              { text: "No, not until you retrain.", misreads: "overread", why: "Line 3 offers a way round it." },
+              { text: "Yes, with no conditions.", misreads: "overread", why: "The condition is the whole of line 3." }
             ] }
         ] },
 

@@ -128,29 +128,29 @@
             options: [
               { text: "A calorie figure measures combustion in a laboratory, not metabolism in a body.", correct: true,
                 why: "That is the third heading's content, and the first two exist to prepare it." },
-              { text: "Energy can be stored and extracted like a substance.", why: "The article denies this in its second sentence." },
-              { text: "All meals of equal calories feel the same.", why: "It says the opposite, and gives the reason." }
+              { text: "Energy can be stored and extracted like a substance.", misreads: "overread", why: "The article denies this in its second sentence." },
+              { text: "All meals of equal calories feel the same.", misreads: "overread", why: "It says the opposite, and gives the reason." }
             ] },
           { para: 2, q: "Why can two meals of equal calorific value feel different?",
             options: [
               { text: "The three nutrient classes enter and travel through the sequence differently.", correct: true,
                 why: "Stated as the reason, with <i>which is why</i> marking it explicitly." },
-              { text: "One contains more energy than the other.", why: "<i>Equal calorific value</i> rules that out." },
-              { text: "The laboratory measurement is inaccurate.", why: "Accuracy is not the issue; relevance is." }
+              { text: "One contains more energy than the other.", misreads: "calorific", why: "<i>Equal calorific value</i> rules that out." },
+              { text: "The laboratory measurement is inaccurate.", misreads: "overread", why: "Accuracy is not the issue; relevance is." }
             ] },
           { para: 3, q: "In the last section, <i>the fate of the molecules</i> contrasts with:",
             options: [
               { text: "the heat released when food is burned.", correct: true,
                 why: "The sentence is built as a contrast between the two, with <i>not</i> hinging it." },
-              { text: "the weight printed on the packet.", why: "Weight is not mentioned." },
-              { text: "the reader's own experience of the meal.", why: "That belongs to the previous section." }
+              { text: "the weight printed on the packet.", misreads: "absent", why: "Weight is not mentioned." },
+              { text: "the reader's own experience of the meal.", misreads: "overread", why: "That belongs to the previous section." }
             ] },
           { para: 3, q: "What does the author imply about most nutritional confusion?",
             options: [
               { text: "Much of it comes from treating a combustion figure as a biological one.", correct: true,
                 why: "“accounts for a surprising proportion of the confusion” sits immediately after that distinction." },
-              { text: "It comes from people not reading packaging.", why: "The problem is reading it as something it is not." },
-              { text: "It is caused by disagreement among scientists.", why: "No disagreement is described." }
+              { text: "It comes from people not reading packaging.", misreads: "overread", why: "The problem is reading it as something it is not." },
+              { text: "It is caused by disagreement among scientists.", misreads: "described", why: "No disagreement is described." }
             ] }
         ] },
 
@@ -163,8 +163,8 @@
           { para: 0, q: "Where must raw meat go?",
             options: [
               { text: "On the bottom shelf.", correct: true, why: "“bottom shelf <i>only</i>” — the word makes it a rule, not a preference." },
-              { text: "Anywhere, if it is labelled.", why: "Labelling is a separate rule." },
-              { text: "Not in the fridge.", why: "The card assumes it goes in the fridge." }
+              { text: "Anywhere, if it is labelled.", misreads: "overread", why: "Labelling is a separate rule." },
+              { text: "Not in the fridge.", misreads: "fridge", why: "The card assumes it goes in the fridge." }
             ] }
         ] },
 
@@ -257,29 +257,29 @@
             options: [
               { text: "The energy equation is correct but cannot be solved, because its two terms move together.", correct: true,
                 why: "The article concedes the equation in its second sentence and spends the rest explaining the coupling." },
-              { text: "Energy intake does not affect weight.", why: "The final sentence rules out this reading by name." },
-              { text: "Expenditure cannot be measured.", why: "Resting expenditure is measured directly in the examples around this article." }
+              { text: "Energy intake does not affect weight.", misreads: "overread", why: "The final sentence rules out this reading by name." },
+              { text: "Expenditure cannot be measured.", misreads: "expenditure", why: "Resting expenditure is measured directly in the examples around this article." }
             ] },
           { para: 2, q: "What two causes does the article give for expenditure falling?",
             options: [
               { text: "Regulatory economies the body makes, and the lower cost of moving a lighter body.", correct: true,
                 why: "The second section names both and separates them: one is regulation, the other is arithmetic." },
-              { text: "Deliberate reductions in activity and in food intake.", why: "<i>Neither deliberate nor perceptible</i> rules the first of those out." },
-              { text: "Lower core temperature alone.", why: "That is one of several mechanisms listed inside the first cause." }
+              { text: "Deliberate reductions in activity and in food intake.", misreads: "Neither deliberate nor perceptible", why: "<i>Neither deliberate nor perceptible</i> rules the first of those out." },
+              { text: "Lower core temperature alone.", misreads: "mechanisms", why: "That is one of several mechanisms listed inside the first cause." }
             ] },
           { para: 2, q: "Why does the article say part of the reduction is “arithmetic rather than regulatory”?",
             options: [
               { text: "A lighter body costs less to move, whatever the body does about it.", correct: true,
                 why: "The distinction separates what the body actively does from what simply follows from mass." },
-              { text: "The equation has been calculated wrongly.", why: "No calculation error is claimed anywhere." },
-              { text: "The reduction is too small to measure.", why: "Size is not the issue; cause is." }
+              { text: "The equation has been calculated wrongly.", misreads: "overread", why: "No calculation error is claimed anywhere." },
+              { text: "The reduction is too small to measure.", misreads: "overread", why: "Size is not the issue; cause is." }
             ] },
           { para: 3, q: "What does the article say its argument is NOT?",
             options: [
               { text: "An argument that intake does not matter.", correct: true,
                 why: "The last sentence names the misreading and rejects it, which is a move worth noticing in itself." },
-              { text: "An argument about public advice.", why: "The third section is explicitly about what follows for advice." },
-              { text: "An argument about measurement.", why: "It does not discuss measurement error at all, so it has no need to disclaim it." }
+              { text: "An argument about public advice.", misreads: "overread", why: "The third section is explicitly about what follows for advice." },
+              { text: "An argument about measurement.", misreads: "absent", why: "It does not discuss measurement error at all, so it has no need to disclaim it." }
             ] }
         ] },
 
@@ -294,33 +294,33 @@
             options: [
               { text: "The equation is true but barely usable, since changing one side changes the other.", correct: true,
                 why: "Keeps the concession, the complaint and the reason, in that order." },
-              { text: "The equation is wrong because its terms are coupled.",
+              { text: "The equation is wrong because its terms are coupled.", misreads: "Not wrong",
                 why: "<i>Not wrong</i> is the first thing the sentence says." },
-              { text: "The equation is useful once both terms are measured.",
+              { text: "The equation is useful once both terms are measured.", misreads: "overread",
                 why: "Measuring them does not uncouple them, and the sentence does not offer this escape." },
-              { text: "Both terms of the equation are constant.",
+              { text: "Both terms of the equation are constant.", misreads: "overread",
                 why: "Exactly the assumption the sentence is written to deny." }
             ] },
           { source: "The number printed on a packet measures the heat released when the food is burned in a laboratory, not the fate of the molecules inside a living body.",
             options: [
               { text: "The packet figure comes from burning the food in a machine, not from what a body does with it.", correct: true,
                 why: "Keeps both halves of the <i>not</i>, which is where the whole point sits." },
-              { text: "The packet figure is inaccurate.",
+              { text: "The packet figure is inaccurate.", misreads: "overread",
                 why: "It is an accurate measurement of something else, which is a different and more interesting claim." },
-              { text: "Burning food in a laboratory is how the body uses it.",
+              { text: "Burning food in a laboratory is how the body uses it.", misreads: "overread",
                 why: "Reverses the sentence." },
-              { text: "Packets should print a different number.",
+              { text: "Packets should print a different number.", misreads: "overread",
                 why: "A recommendation the sentence does not make." }
             ] },
           { source: "Predictions derived from the static equation overstate the loss that a given reduction will produce, typically by a wide margin over periods of months.",
             options: [
               { text: "Working from the fixed equation predicts more loss than actually happens, usually by a lot over several months.", correct: true,
                 why: "Keeps the direction of the error, the hedge <i>typically</i> and the timescale." },
-              { text: "The static equation underestimates how much weight is lost.",
+              { text: "The static equation underestimates how much weight is lost.", misreads: "Overstate",
                 why: "<i>Overstate</i> points the other way." },
-              { text: "Predictions from the equation are accurate in the short term.",
+              { text: "Predictions from the equation are accurate in the short term.", misreads: "periods",
                 why: "The sentence says nothing about short periods; adding that claim is not paraphrasing." },
-              { text: "The equation always overstates the loss by a wide margin.",
+              { text: "The equation always overstates the loss by a wide margin.", misreads: "Typically",
                 why: "<i>Typically</i> is doing real work, and dropping it turns a tendency into a law." }
             ] }
         ] },
@@ -335,14 +335,14 @@
           { para: 0, q: "What happens to food with no label?",
             options: [
               { text: "It is thrown out on Fridays.", correct: true, why: "Line 1, and the day is part of the rule." },
-              { text: "It is moved to the bottom shelf.", why: "The shelves rule is about cooked food, in line 2." },
-              { text: "Nothing, unless it is old.", why: "The rule has no condition about age." }
+              { text: "It is moved to the bottom shelf.", misreads: "shelves", why: "The shelves rule is about cooked food, in line 2." },
+              { text: "Nothing, unless it is old.", misreads: "overread", why: "The rule has no condition about age." }
             ] },
           { para: 0, q: "Where does cooked food go?",
             options: [
               { text: "On the top two shelves.", correct: true, why: "Line 2 names both the food and the place." },
-              { text: "On the bottom shelf.", why: "The card does not say, and the previous card put raw meat there." },
-              { text: "In the freezer.", why: "The freezer appears in line 3, about defrosting." }
+              { text: "On the bottom shelf.", misreads: "absent", why: "The card does not say, and the previous card put raw meat there." },
+              { text: "In the freezer.", misreads: "freezer", why: "The freezer appears in line 3, about defrosting." }
             ] }
         ] },
 

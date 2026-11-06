@@ -134,31 +134,31 @@
             options: [
               { text: "The range reflects real, identifiable sources of uncertainty rather than a failure to decide.", correct: true,
                 why: "The article names two sources — scenarios and model differences — and then limits what a range implies." },
-              { text: "Climate models should be made simpler.", why: "Simplicity is never discussed." },
-              { text: "Emissions decisions have already been taken.", why: "The article says the opposite: they have not yet been taken." }
+              { text: "Climate models should be made simpler.", misreads: "absent", why: "Simplicity is never discussed." },
+              { text: "Emissions decisions have already been taken.", misreads: "overread", why: "The article says the opposite: they have not yet been taken." }
             ] },
           { para: 2, q: "What is the second source of width?",
             options: [
               { text: "Models differ in how they represent clouds and ocean circulation.", correct: true,
                 why: "Stated directly — and the giveaway is that they disagree <i>even when given identical assumptions</i>." },
-              { text: "Different countries report differently.", why: "Reporting is not mentioned." },
-              { text: "The measurements are imprecise.", why: "The article is about projection, not measurement." }
+              { text: "Different countries report differently.", misreads: "absent", why: "Reporting is not mentioned." },
+              { text: "The measurements are imprecise.", misreads: "projection", why: "The article is about projection, not measurement." }
             ] },
           { para: 3, q: "In line 8, <i>that disagreement</i> refers to:",
             options: [
               { text: "the difference between models given the same assumptions", correct: true,
                 why: "The nearest preceding idea is the models disagreeing on identical assumptions — not the scenario range, which is a separate source." },
-              { text: "the disagreement between researchers and readers",
+              { text: "the disagreement between researchers and readers", misreads: "absent",
                 why: "No such disagreement is described." },
-              { text: "the gap between the central estimate and the extremes",
+              { text: "the gap between the central estimate and the extremes", misreads: "overread",
                 why: "That comes later, in the final section." }
             ] },
           { para: 3, q: "What would the author say about someone who quotes the top of the range as the expected outcome?",
             options: [
               { text: "They are treating an improbable case as a likely one.", correct: true,
                 why: "The last sentence says the extremes require conditions most researchers regard as improbable." },
-              { text: "They are reading the report correctly.", why: "The final paragraph exists to rule this out." },
-              { text: "They should use a single number instead.", why: "The whole article argues against single numbers." }
+              { text: "They are reading the report correctly.", misreads: "overread", why: "The final paragraph exists to rule this out." },
+              { text: "They should use a single number instead.", misreads: "single", why: "The whole article argues against single numbers." }
             ] }
         ] },
 
@@ -171,8 +171,8 @@
           { para: 0, q: "What do you need to bring?",
             options: [
               { text: "Waterproofs and lunch.", correct: true, why: "Boots are provided, so they are not on your list." },
-              { text: "Boots and lunch.", why: "Boots are provided." },
-              { text: "Nothing — everything is provided.", why: "Two things are asked for." }
+              { text: "Boots and lunch.", misreads: "Boots", why: "Boots are provided." },
+              { text: "Nothing — everything is provided.", misreads: "overread", why: "Two things are asked for." }
             ] }
         ] },
 
@@ -270,31 +270,31 @@
             options: [
               { text: "Ranking sectors by size does not tell you which one to tackle first.", correct: true,
                 why: "The article accepts the sizes and argues that they rank the wrong quantity." },
-              { text: "Emissions charts use the wrong figures.", why: "It never disputes the numbers; it disputes what they are used for." },
-              { text: "Agriculture produces more emissions than electricity.", why: "The article says the opposite, and uses that as its example." }
+              { text: "Emissions charts use the wrong figures.", misreads: "absent", why: "It never disputes the numbers; it disputes what they are used for." },
+              { text: "Agriculture produces more emissions than electricity.", misreads: "overread", why: "The article says the opposite, and uses that as its example." }
             ] },
           { para: 2, q: "Why does the article call agriculture harder than electricity?",
             options: [
               { text: "Its emissions come from biological processes rather than from a choice of fuel.", correct: true,
                 why: "Stated directly, and it is the reason the replacement technologies do not transfer." },
-              { text: "Agriculture is a larger share.", why: "It is a <i>considerably smaller</i> share, which is the point." },
-              { text: "Farmers are less willing to change.", why: "No claim about willingness appears anywhere in the text." }
+              { text: "Agriculture is a larger share.", misreads: "considerably smaller", why: "It is a <i>considerably smaller</i> share, which is the point." },
+              { text: "Farmers are less willing to change.", misreads: "overread", why: "No claim about willingness appears anywhere in the text." }
             ] },
           { para: 1, q: "In the first section, <i>that inference</i> refers to:",
             options: [
               { text: "the idea that you should begin with the largest slice", correct: true,
                 why: "The colon in the sentence before introduces exactly that idea, and nothing else in the paragraph is an inference." },
-              { text: "the chart of emissions by sector",
+              { text: "the chart of emissions by sector", misreads: "chart",
                 why: "The chart is what invites the inference; it is not itself one." },
-              { text: "the claim that sectors are equally easy to change",
+              { text: "the claim that sectors are equally easy to change", misreads: "inference",
                 why: "That is the assumption the inference needs, introduced after the pronoun." }
             ] },
           { para: 2, q: "What would this author say about a policy that starts with the largest sector?",
             options: [
               { text: "It may be right, but the chart is not what makes it right.", correct: true,
                 why: "The article argues the chart is silent on the deciding quantity — not that the biggest sector is the wrong place to start." },
-              { text: "It is certainly mistaken.", why: "Electricity happens to be both largest and most tractable, so the policy may well be correct." },
-              { text: "It should start with agriculture instead.", why: "Agriculture is the article's example of the hard case, not its recommendation." }
+              { text: "It is certainly mistaken.", misreads: "Electricity", why: "Electricity happens to be both largest and most tractable, so the policy may well be correct." },
+              { text: "It should start with agriculture instead.", misreads: "Agriculture", why: "Agriculture is the article's example of the hard case, not its recommendation." }
             ] }
         ] },
 
@@ -310,33 +310,33 @@
             options: [
               { text: "To reach either end of the range, things would have to happen that the field mostly considers unlikely.", correct: true,
                 why: "Keeps <i>most</i>, keeps <i>improbable</i>, and keeps the conditions as the thing being judged." },
-              { text: "The extremes are impossible.",
+              { text: "The extremes are impossible.", misreads: "Improbable",
                 why: "<i>Improbable</i> is not <i>impossible</i>, and <i>most researchers</i> is not everyone. Two hedges gone in four words." },
-              { text: "Most researchers disagree about the extremes.",
+              { text: "Most researchers disagree about the extremes.", misreads: "extremes",
                 why: "They agree the extremes are unlikely. Disagreement is a different claim." },
-              { text: "Researchers regard the extremes as the most likely outcomes.",
+              { text: "Researchers regard the extremes as the most likely outcomes.", misreads: "overread",
                 why: "Reverses it." }
             ] },
           { source: "A chart that orders sectors by magnitude ranks them by a quantity nobody disputes, while remaining silent about the quantity that determines what should be attempted first.",
             options: [
               { text: "Sorting sectors by size uses an agreed measure but leaves out the one that decides where to start.", correct: true,
                 why: "Keeps both halves: the agreement on size, and the silence on difficulty." },
-              { text: "Charts that order sectors by size use figures that are disputed.",
+              { text: "Charts that order sectors by size use figures that are disputed.", misreads: "nobody",
                 why: "The article says the opposite: nobody disputes them." },
-              { text: "Sorting sectors by size shows which should be attempted first.",
+              { text: "Sorting sectors by size shows which should be attempted first.", misreads: "overread",
                 why: "That is the inference the whole article exists to block." },
-              { text: "Charts should display difficulty instead of magnitude.",
+              { text: "Charts should display difficulty instead of magnitude.", misreads: "chart",
                 why: "Closer, but it is a recommendation the sentence does not make; it reports what the chart does not do." }
             ] },
           { source: "A projection is not a forecast of what will happen; it is a statement of what would follow if a particular set of assumptions held.",
             options: [
               { text: "A projection says what a given set of assumptions would lead to, not what is going to occur.", correct: true,
                 why: "Keeps the negative half and the conditional half, which is the whole distinction." },
-              { text: "A projection is a forecast based on assumptions.",
+              { text: "A projection is a forecast based on assumptions.", misreads: "forecast",
                 why: "Calling it a forecast is the exact error the sentence is written to prevent." },
-              { text: "A projection describes what will happen under current policy.",
+              { text: "A projection describes what will happen under current policy.", misreads: "overread",
                 why: "Names one scenario and then drops the conditionality anyway." },
-              { text: "A projection and a forecast are the same thing stated differently.",
+              { text: "A projection and a forecast are the same thing stated differently.", misreads: "overread",
                 why: "The semicolon is separating them, not equating them." }
             ] }
         ] },
@@ -351,14 +351,14 @@
           { para: 0, q: "When does the minibus leave now?",
             options: [
               { text: "At 7:15.", correct: true, why: "Line 1 gives the new time and the old one, in that order." },
-              { text: "At 7:30.", why: "That is the time it has moved away from." },
-              { text: "The card does not say.", why: "Both times are in the first line." }
+              { text: "At 7:30.", misreads: "overread", why: "That is the time it has moved away from." },
+              { text: "The card does not say.", misreads: "overread", why: "Both times are in the first line." }
             ] },
           { para: 0, q: "What do you still need to bring?",
             options: [
               { text: "Waterproofs and lunch.", correct: true, why: "Line 4. Boots are provided, so they are not your responsibility." },
-              { text: "Boots and waterproofs.", why: "Boots are provided." },
-              { text: "Nothing.", why: "Two items are asked for in the last line." }
+              { text: "Boots and waterproofs.", misreads: "Boots", why: "Boots are provided." },
+              { text: "Nothing.", misreads: "overread", why: "Two items are asked for in the last line." }
             ] }
         ] },
 

@@ -1059,3 +1059,11 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .quiz-recall{margin:4px 0 7px 26px;padding:7px 11px;border-radius:8px;
   background:var(--sunk);border-left:3px solid var(--rule-2);
   font:400 12.5px/1.6 var(--ui);color:var(--ink-3);}
+
+/* F11 — what a wrong option misreads */
+.opt-autopsy{display:block;margin:5px 0 0;font:400 12px/1.5 var(--ui);
+  color:var(--no);cursor:pointer;text-decoration:underline dotted;}
+.opt-autopsy.opt-absent{color:var(--ink-3);cursor:default;text-decoration:none;font-style:italic;}
+.opt .opt-autopsy{text-align:left;}
+.rl-misread{background:var(--peach);box-shadow:inset 3px 0 0 var(--no);
+  border-radius:5px;padding:1px 4px;margin-left:-4px;}

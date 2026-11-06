@@ -179,6 +179,28 @@
       opts.forEach(function (o, i) {
         if (o.correct) btns[i].classList.add("ok");
         else if (o === picked) btns[i].classList.add("no");
+        /* F11 \u2014 a wrong option is wrong for a reason you can point at.
+           Saying which word in the passage it misreads, and lighting that
+           word, turns "you got it wrong" into "here is the move you made".
+           Shown on every wrong option, not only the chosen one: the ones
+           you rejected are where the method is practised. */
+        if (!o.correct && o.misreads && !btns[i].querySelector(".opt-autopsy")) {
+          var a = E("span", "opt-autopsy");
+          if (o.misreads === "absent") {
+            a.textContent = "nothing in the passage says this";
+            a.className += " opt-absent";
+          } else if (o.misreads === "overread") {
+            a.textContent = "this is in the passage \u2014 it does not mean this";
+            a.className += " opt-absent";
+          } else {
+            a.textContent = "misreads \u201c" + o.misreads + "\u201d";
+            a.addEventListener("click", function (e) {
+              e.stopPropagation();
+              if (root.RL && root.RL.lightPhrase) root.RL.lightPhrase(o.misreads);
+            });
+          }
+          btns[i].appendChild(a);
+        }
       });
       return {
         ok: ok, picked: picked, rightText: right.text, rightWhy: right.why,

@@ -131,29 +131,29 @@
             options: [
               { text: "Extra road capacity creates traffic, so capacity cannot be matched against a fixed demand.", correct: true,
                 why: "The third section states the consequence, and the first two establish it." },
-              { text: "Congestion is caused by poor driving.", why: "Behaviour of that kind is never mentioned." },
-              { text: "Roads should never be widened.", why: "The article recommends other instruments, not a prohibition." }
+              { text: "Congestion is caused by poor driving.", misreads: "absent", why: "Behaviour of that kind is never mentioned." },
+              { text: "Roads should never be widened.", misreads: "other", why: "The article recommends other instruments, not a prohibition." }
             ] },
           { para: 2, q: "Where does the new traffic come from?",
             options: [
               { text: "Journeys that were suppressed, or made at other times or by other means.", correct: true,
                 why: "All three sources are listed in one sentence." },
-              { text: "Population growth.", why: "Growth is not part of the mechanism described." },
-              { text: "Freight diverted from other roads.", why: "Freight is not mentioned." }
+              { text: "Population growth.", misreads: "mechanism", why: "Growth is not part of the mechanism described." },
+              { text: "Freight diverted from other roads.", misreads: "absent", why: "Freight is not mentioned." }
             ] },
           { para: 3, q: "Why do planners who understand this reach for pricing?",
             options: [
               { text: "Because pricing changes the calculation a traveller makes.", correct: true,
                 why: "The final clause gives exactly this reason — and <i>only instruments</i> marks it as the whole argument." },
-              { text: "Because it raises money.", why: "Revenue is never mentioned." },
-              { text: "Because concrete is expensive.", why: "Cost is not the stated objection." }
+              { text: "Because it raises money.", misreads: "absent", why: "Revenue is never mentioned." },
+              { text: "Because concrete is expensive.", misreads: "overread", why: "Cost is not the stated objection." }
             ] },
           { para: 1, q: "What would the author say about a city planning a third lane to fix congestion?",
             options: [
               { text: "It is likely to be disappointed within a year or two.", correct: true,
                 why: "One step from the opening sentence, applied to a new case." },
-              { text: "It will succeed if the lane is wide enough.", why: "Width is not the variable." },
-              { text: "It should widen two roads at once.", why: "Nothing in the article suggests scale helps." }
+              { text: "It will succeed if the lane is wide enough.", misreads: "overread", why: "Width is not the variable." },
+              { text: "It should widen two roads at once.", misreads: "absent", why: "Nothing in the article suggests scale helps." }
             ] }
         ] },
 
@@ -166,8 +166,8 @@
           { para: 0, q: "Where does the shuttle stop?",
             options: [
               { text: "The library, the science building and the north gate.", correct: true, why: "<i>only</i> makes the list exhaustive." },
-              { text: "Anywhere you ask.", why: "The card names three stops and says <i>only</i>." },
-              { text: "The library alone.", why: "Three stops are listed." }
+              { text: "Anywhere you ask.", misreads: "only", why: "The card names three stops and says <i>only</i>." },
+              { text: "The library alone.", misreads: "Stops", why: "Three stops are listed." }
             ] }
         ] },
 
@@ -264,29 +264,29 @@
             options: [
               { text: "A measure built from existing journeys can only recommend improving existing journeys.", correct: true,
                 why: "The three sections are the shape of the measure, who it excludes, and what would have to be added." },
-              { text: "Journey times are measured inaccurately.", why: "The article never disputes the measurement, only what it can see." },
-              { text: "Transport schemes save less time than claimed.", why: "No claim about the size of the savings is made." }
+              { text: "Journey times are measured inaccurately.", misreads: "absent", why: "The article never disputes the measurement, only what it can see." },
+              { text: "Transport schemes save less time than claimed.", misreads: "overread", why: "No claim about the size of the savings is made." }
             ] },
           { para: 2, q: "Why does a resident who cannot cross a dual carriageway register nothing?",
             options: [
               { text: "No journey is recorded, so there is no journey time to count.", correct: true,
                 why: "The measure counts time saved on journeys made, and an impossible journey is not a slow one." },
-              { text: "They are counted under a different scheme.", why: "No other scheme appears in the article." },
-              { text: "Their journey is too short to matter.", why: "The journey is not short; it does not happen." }
+              { text: "They are counted under a different scheme.", misreads: "appears", why: "No other scheme appears in the article." },
+              { text: "Their journey is too short to matter.", misreads: "journey", why: "The journey is not short; it does not happen." }
             ] },
           { para: 2, q: "Why does the article call the effect “systematic rather than accidental”?",
             options: [
               { text: "The measure counts exactly the journeys the network already makes possible.", correct: true,
                 why: "That is the definition of the measure, so the exclusion follows from its design rather than from an error." },
-              { text: "The data are collected carelessly.", why: "Collection is not criticised anywhere." },
-              { text: "The same mistake is made in every country.", why: "<i>Systematic</i> here means built in, not widespread." }
+              { text: "The data are collected carelessly.", misreads: "absent", why: "Collection is not criticised anywhere." },
+              { text: "The same mistake is made in every country.", misreads: "Systematic", why: "<i>Systematic</i> here means built in, not widespread." }
             ] },
           { para: 3, q: "What does the article propose?",
             options: [
               { text: "Adding a measure of access alongside the existing one.", correct: true,
                 why: "<i>Not abandoning the measure, only supplementing it</i> — and it names administrations that already do." },
-              { text: "Replacing time saving with access.", why: "The sentence explicitly refuses to abandon the first measure." },
-              { text: "Valuing time savings at a higher rate.", why: "The rate is not what the article is about." }
+              { text: "Replacing time saving with access.", misreads: "measure", why: "The sentence explicitly refuses to abandon the first measure." },
+              { text: "Valuing time savings at a higher rate.", misreads: "overread", why: "The rate is not what the article is about." }
             ] }
         ] },
 
@@ -302,33 +302,33 @@
             options: [
               { text: "You cannot size a road against a set level of traffic, because building it changes how much traffic there is.", correct: true,
                 why: "Keeps both quantities and the direction of the effect between them." },
-              { text: "Demand for road space is fixed and capacity should match it.",
+              { text: "Demand for road space is fixed and capacity should match it.", misreads: "overread",
                 why: "Exactly the view the sentence is written to reject." },
-              { text: "Roads should not be widened.",
+              { text: "Roads should not be widened.", misreads: "overread",
                 why: "A recommendation. The sentence is describing why the usual calculation fails." },
-              { text: "Traffic increases on its own over time.",
+              { text: "Traffic increases on its own over time.", misreads: "capacity",
                 why: "The article's claim is that the capacity causes the increase, not that it happens anyway." }
             ] },
           { source: "The measure counts the journeys the existing network makes possible, which is precisely the set of journeys least in need of improvement.",
             options: [
               { text: "It counts the trips people can already make, and those are the ones that need help least.", correct: true,
                 why: "Keeps the circularity, which is the whole complaint." },
-              { text: "The measure counts too few journeys.",
+              { text: "The measure counts too few journeys.", misreads: "journeys",
                 why: "The number is not the problem; which journeys are counted is." },
-              { text: "The existing network is adequate for most journeys.",
+              { text: "The existing network is adequate for most journeys.", misreads: "overread",
                 why: "Takes the measure's blind spot as a finding about the city." },
-              { text: "Journeys that are already easy should be improved first.",
+              { text: "Journeys that are already easy should be improved first.", misreads: "measure",
                 why: "The sentence says this is what the measure recommends, not what should happen." }
             ] },
           { source: "The absence is read as satisfaction rather than as exclusion.",
             options: [
               { text: "Nobody travelling that way is taken to mean nobody wants to, instead of nobody can.", correct: true,
                 why: "Keeps both readings of the same absence, which is where the sentence does its work." },
-              { text: "People are satisfied with the network.",
+              { text: "People are satisfied with the network.", misreads: "overread",
                 why: "Reports the misreading as if it were true." },
-              { text: "Excluded people are counted separately.",
+              { text: "Excluded people are counted separately.", misreads: "absent",
                 why: "They are counted nowhere, which is the point." },
-              { text: "Absence of data makes the measure unreliable.",
+              { text: "Absence of data makes the measure unreliable.", misreads: "overread",
                 why: "The data are complete for what they measure; the problem is what is not a datum at all." }
             ] }
         ] },
@@ -343,15 +343,15 @@
           { para: 0, q: "It is half past eight in the evening. How long might you wait?",
             options: [
               { text: "Up to an hour.", correct: true, why: "Line 2: one an hour after seven, on the hour, so the next is at nine." },
-              { text: "Up to ten minutes.", why: "That frequency applies only until seven." },
-              { text: "There is no service.", why: "Line 2 says there is one an hour." }
+              { text: "Up to ten minutes.", misreads: "until", why: "That frequency applies only until seven." },
+              { text: "There is no service.", misreads: "overread", why: "Line 2 says there is one an hour." }
             ] },
           { para: 0, q: "Where should you get off for the north gate?",
             options: [
               { text: "The library, and walk five minutes further.", correct: true,
                 why: "Lines 3 and 4 together: the stop is closed and the card names the substitute and its cost." },
-              { text: "The north gate — it is still open.", why: "Line 3 says it is closed while the path is resurfaced." },
-              { text: "The science building.", why: "Not mentioned on this card." }
+              { text: "The north gate — it is still open.", misreads: "closed", why: "Line 3 says it is closed while the path is resurfaced." },
+              { text: "The science building.", misreads: "overread", why: "Not mentioned on this card." }
             ] }
         ] },
 

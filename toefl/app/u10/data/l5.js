@@ -130,29 +130,29 @@
             options: [
               { text: "Accurate accounts can differ because of what is selected and how it is ordered.", correct: true,
                 why: "Both levers are named in the second section, and the third draws the practical conclusion." },
-              { text: "One of the two newspapers must be lying.", why: "The article exists to rule that inference out." },
-              { text: "Headlines should be banned.", why: "No recommendation of that kind appears." }
+              { text: "One of the two newspapers must be lying.", misreads: "overread", why: "The article exists to rule that inference out." },
+              { text: "Headlines should be banned.", misreads: "overread", why: "No recommendation of that kind appears." }
             ] },
           { para: 2, q: "What are the two levers the article names?",
             options: [
               { text: "The order of presentation and the choice of verb.", correct: true,
                 why: "<i>ordering</i> first, then <i>the selection of the verb</i> — a detail worth marking." },
-              { text: "The headline and the photograph.", why: "Photographs are never mentioned." },
-              { text: "The length and the placement in the paper.", why: "Neither is discussed." }
+              { text: "The headline and the photograph.", misreads: "absent", why: "Photographs are never mentioned." },
+              { text: "The length and the placement in the paper.", misreads: "Neither", why: "Neither is discussed." }
             ] },
           { para: 2, q: "<i>Clashed with police</i> and <i>were dispersed by them</i> differ because:",
             options: [
               { text: "one makes the protesters the agents and the other makes them the object.", correct: true,
                 why: "That is what <i>materially different</i> is pointing at, and it prepares Unit 11's work on the passive." },
-              { text: "one is true and one is false.", why: "The article says the same afternoon is being described." },
-              { text: "one is longer.", why: "Length is irrelevant to the distinction." }
+              { text: "one is true and one is false.", misreads: "afternoon", why: "The article says the same afternoon is being described." },
+              { text: "one is longer.", misreads: "overread", why: "Length is irrelevant to the distinction." }
             ] },
           { para: 3, q: "What does the article say reading across two sources requires?",
             options: [
               { text: "Asking which statements were selected, and in what order.", correct: true,
                 why: "Its closing sentence, and the only instruction it gives." },
-              { text: "Deciding which source is more trustworthy.", why: "It offers no test of trustworthiness." },
-              { text: "Finding a third source.", why: "A third source is never suggested." }
+              { text: "Deciding which source is more trustworthy.", misreads: "overread", why: "It offers no test of trustworthiness." },
+              { text: "Finding a third source.", misreads: "overread", why: "A third source is never suggested." }
             ] }
         ] },
 
@@ -165,8 +165,8 @@
           { para: 0, q: "What happens to a bag left alone for an hour?",
             options: [
               { text: "It is taken to the front desk.", correct: true, why: "After thirty minutes — so an hour is well past the limit." },
-              { text: "It reserves the seat.", why: "The notice denies exactly this." },
-              { text: "Nothing, if the room is booked.", why: "The rule is about unattended items, not bookings." }
+              { text: "It reserves the seat.", misreads: "overread", why: "The notice denies exactly this." },
+              { text: "Nothing, if the room is booked.", misreads: "Unattended", why: "The rule is about unattended items, not bookings." }
             ] }
         ] },
 
@@ -261,29 +261,29 @@
             options: [
               { text: "Accepting the penalty is what makes rule-breaking readable as an argument.", correct: true,
                 why: "The three sections set up the pair, rule out motive, and then say what acceptance does." },
-              { text: "Breaking rules is justified when the rule is unjust.", why: "Both people in the example believe the rule is unjust; that is held constant on purpose." },
-              { text: "Sincere protesters should not be punished.", why: "The article argues that the punishment is part of what makes the protest work." }
+              { text: "Breaking rules is justified when the rule is unjust.", misreads: "people", why: "Both people in the example believe the rule is unjust; that is held constant on purpose." },
+              { text: "Sincere protesters should not be punished.", misreads: "makes", why: "The article argues that the punishment is part of what makes the protest work." }
             ] },
           { para: 2, q: "Why does the article reject motive as the distinction?",
             options: [
               { text: "Both people may be equally sincere, and sincerity cannot be inspected.", correct: true,
                 why: "Two reasons in one sentence: it does not separate them, and it could not be checked if it did." },
-              { text: "Motive is always dishonest.", why: "Nothing of the kind is suggested about either person." },
-              { text: "Motives cannot be described in words.", why: "The objection is about inspection from outside, not about description." }
+              { text: "Motive is always dishonest.", misreads: "overread", why: "Nothing of the kind is suggested about either person." },
+              { text: "Motives cannot be described in words.", misreads: "overread", why: "The objection is about inspection from outside, not about description." }
             ] },
           { para: 2, q: "What does the article say an unseen act does?",
             options: [
               { text: "Makes no claim, enters no argument and leaves the rule as it was.", correct: true,
                 why: "Three consequences in one sentence, and they are what the final section builds on." },
-              { text: "Changes the rule more slowly.", why: "It leaves the rule exactly as it found it — not slower, but not at all." },
-              { text: "Is morally worse than an open act.", why: "The article avoids ranking them morally; it says one of them cannot be read." }
+              { text: "Changes the rule more slowly.", misreads: "leaves", why: "It leaves the rule exactly as it found it — not slower, but not at all." },
+              { text: "Is morally worse than an open act.", misreads: "overread", why: "The article avoids ranking them morally; it says one of them cannot be read." }
             ] },
           { para: 3, q: "What does the article mean by calling acceptance “not a moral ornament”?",
             options: [
               { text: "It does something, rather than merely looking admirable.", correct: true,
                 why: "The sentence replaces the decorative reading with a functional one: it is the mechanism." },
-              { text: "It is not required.", why: "The article treats it as the thing without which the act fails." },
-              { text: "It is unrelated to morality.", why: "The point is that its role is practical as well as moral, not that morality is absent." }
+              { text: "It is not required.", misreads: "overread", why: "The article treats it as the thing without which the act fails." },
+              { text: "It is unrelated to morality.", misreads: "moral", why: "The point is that its role is practical as well as moral, not that morality is absent." }
             ] }
         ] },
 
@@ -299,33 +299,33 @@
             options: [
               { text: "Two papers can get every fact right about one event and still send readers away believing different things.", correct: true,
                 why: "Keeps the accuracy of both and the incompatibility of the impressions." },
-              { text: "One of the two papers must be inaccurate.",
+              { text: "One of the two papers must be inaccurate.", misreads: "overread",
                 why: "The sentence is constructed precisely to deny this." },
-              { text: "Readers draw different conclusions because they read carelessly.",
+              { text: "Readers draw different conclusions because they read carelessly.", misreads: "overread",
                 why: "The cause offered by the article is arrangement, not the reader." },
-              { text: "Newspapers should agree on how to report an event.",
+              { text: "Newspapers should agree on how to report an event.", misreads: "overread",
                 why: "A recommendation; the sentence is making an observation." }
             ] },
           { source: "What distinguishes them is observable rather than internal, and it consists in whether the act is addressed to anybody.",
             options: [
               { text: "The difference can be seen from outside: is the act aimed at someone or not?", correct: true,
                 why: "Keeps both halves — observable, and the specific criterion." },
-              { text: "The difference lies in how strongly each person believes.",
+              { text: "The difference lies in how strongly each person believes.", misreads: "internal",
                 why: "That is the internal account the sentence rejects." },
-              { text: "The difference is that one act is legal.",
+              { text: "The difference is that one act is legal.", misreads: "overread",
                 why: "Both break the same rule, which is given at the start." },
-              { text: "Only acts with an audience are sincere.",
+              { text: "Only acts with an audience are sincere.", misreads: "overread",
                 why: "Sincerity is explicitly not the criterion." }
             ] },
           { source: "Accepting the penalty is not a moral ornament but the mechanism by which the act becomes legible as an argument.",
             options: [
               { text: "Taking the punishment is not decoration: it is what lets the act be read as a case being made.", correct: true,
                 why: "Keeps the <i>not … but …</i> frame and the functional claim inside it." },
-              { text: "Protesters who accept punishment are more admirable.",
+              { text: "Protesters who accept punishment are more admirable.", misreads: "Not a moral ornament",
                 why: "<i>Not a moral ornament</i> is there to rule this reading out." },
-              { text: "The penalty makes the protest more effective.",
+              { text: "The penalty makes the protest more effective.", misreads: "legible",
                 why: "Close, and it drops <i>legible</i>: the claim is about being understood, not about force." },
-              { text: "Any act becomes an argument once it is punished.",
+              { text: "Any act becomes an argument once it is punished.", misreads: "overread",
                 why: "Reverses the direction: acceptance is the protester's move, not the state's." }
             ] }
         ] },
@@ -341,15 +341,15 @@
             options: [
               { text: "The room has been released to someone else.", correct: true,
                 why: "Line 1: ten minutes after the booking starts, if nobody is in it." },
-              { text: "Nothing — the booking lasts two hours.", why: "Line 1 applies before the two hours do." },
-              { text: "The booking has been transferred.", why: "Line 4 says bookings cannot be transferred." }
+              { text: "Nothing — the booking lasts two hours.", misreads: "overread", why: "Line 1 applies before the two hours do." },
+              { text: "The booking has been transferred.", misreads: "Bookings", why: "Line 4 says bookings cannot be transferred." }
             ] },
           { para: 0, q: "Can you book the same room for two o'clock and four o'clock on one day?",
             options: [
               { text: "Yes — two bookings are allowed, as long as they are not back to back.", correct: true,
                 why: "Line 2 permits two and forbids consecutive ones, and two till four then four till six would be consecutive." },
-              { text: "No — only one booking a day is allowed.", why: "Line 2 allows two." },
-              { text: "Yes, and they may be consecutive.", why: "That is the one thing line 2 rules out." }
+              { text: "No — only one booking a day is allowed.", misreads: "overread", why: "Line 2 allows two." },
+              { text: "Yes, and they may be consecutive.", misreads: "overread", why: "That is the one thing line 2 rules out." }
             ] }
         ] },
 

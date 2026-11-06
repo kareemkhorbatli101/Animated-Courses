@@ -727,6 +727,26 @@
     return wrap;
   }
 
+  /* ===================== F11 — light the word a distractor misreads ===== */
+  /* The autopsy names the word; this is what makes it findable. Marks every
+     occurrence in the passage on screen, because a reader hunting for one
+     word should not have to decide which of three is meant. */
+  function lightPhrase(phrase) {
+    var scope = doc.querySelector(".stage");
+    if (!scope || !phrase) return 0;
+    [].forEach.call(scope.querySelectorAll(".rl-misread"), function (el) {
+      el.classList.remove("rl-misread");
+    });
+    var needle = String(phrase).toLowerCase();
+    var n = 0;
+    [].forEach.call(scope.querySelectorAll(".ln, .rl-tr-line, .i6-intro p"), function (row) {
+      if (row.textContent.toLowerCase().indexOf(needle) < 0) return;
+      row.classList.add("rl-misread");
+      n++;
+    });
+    return n;
+  }
+
   /* ==================================================== the entry point === */
   function decorate(stage, spec, api, page) {
     if (!spec) return;
@@ -755,6 +775,7 @@
     carryStimulus: carryStimulus, markCitedLine: markCitedLine, fillCite: fillCite,
     shadowBar: shadowBar, canRecord: canRecord, glossRail: glossRail,
     segments: segments, signalOnReview: signalOnReview, paraSpine: paraSpine,
+    lightPhrase: lightPhrase,
     countWords: countWords, audioLines: audioLines, _key: key
   };
 })(window, document);

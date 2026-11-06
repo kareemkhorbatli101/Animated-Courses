@@ -228,25 +228,25 @@
         items: [
           { group: "three move their stress between noun and verb",
             options: [
-              { text: "record",   why: "a <b>RE</b>cord, to re<b>CORD</b>." },
-              { text: "contrast", why: "a <b>CON</b>trast, to con<b>TRAST</b>." },
-              { text: "permit",   why: "a <b>PER</b>mit, to per<b>MIT</b>." },
+              { text: "record", misreads: "overread",   why: "a <b>RE</b>cord, to re<b>CORD</b>." },
+              { text: "contrast", misreads: "overread", why: "a <b>CON</b>trast, to con<b>TRAST</b>." },
+              { text: "permit", misreads: "overread",   why: "a <b>PER</b>mit, to per<b>MIT</b>." },
               { text: "comment", correct: true,
                 why: "the odd one: <b>COM</b>ment either way. The pattern is reliable enough to guess with and not universal." }
             ] },
           { group: "three can be checked in the work itself",
             options: [
-              { text: "the length of the final scene", why: "anyone with a stopwatch can settle it." },
-              { text: "the colour of the background",  why: "visible, and not in dispute." },
-              { text: "the date on the label",         why: "written down, and checkable against the record." },
+              { text: "the length of the final scene", misreads: "anyone", why: "anyone with a stopwatch can settle it." },
+              { text: "the colour of the background", misreads: "overread",  why: "visible, and not in dispute." },
+              { text: "the date on the label", misreads: "overread",         why: "written down, and checkable against the record." },
               { text: "what the ending is saying", correct: true,
                 why: "the odd one: an interpretation. It may be well argued and it cannot be checked the way the other three can." }
             ] },
           { group: "three describe how a work was received",
             options: [
-              { text: "reception", why: "the historical fact of how it was taken." },
-              { text: "reviews",   why: "the written evidence of that reception." },
-              { text: "box office", why: "the commercial evidence of it." },
+              { text: "reception", misreads: "overread", why: "the historical fact of how it was taken." },
+              { text: "reviews", misreads: "reception",   why: "the written evidence of that reception." },
+              { text: "box office", misreads: "overread", why: "the commercial evidence of it." },
               { text: "intention", correct: true,
                 why: "the odd one: intention belongs to the maker, before anybody received anything. Confusing the two is the commonest error in a first essay on this." }
             ] }

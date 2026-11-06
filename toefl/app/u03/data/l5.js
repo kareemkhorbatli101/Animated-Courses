@@ -129,28 +129,28 @@
             options: [
               { text: "A half-millimetre change matters because it shows selection acting on a population.", correct: true,
                 why: "The article concedes the number is small and then explains why it is nonetheless the clearest demonstration there is." },
-              { text: "Finches can grow deeper beaks when food is hard.", why: "The article denies this in so many words." },
-              { text: "Droughts reduce the size of seeds.", why: "The seeds that <i>remained</i> were larger, not smaller." }
+              { text: "Finches can grow deeper beaks when food is hard.", misreads: "overread", why: "The article denies this in so many words." },
+              { text: "Droughts reduce the size of seeds.", misreads: "remained", why: "The seeds that <i>remained</i> were larger, not smaller." }
             ] },
           { para: 1, q: "By how much did average beak depth increase?",
             options: [
               { text: "About half a millimetre, within two years.", correct: true, why: "Both the amount and the period are stated." },
-              { text: "About half a centimetre.", why: "Ten times too large." },
-              { text: "The article does not say.", why: "It gives the figure twice, in effect." }
+              { text: "About half a centimetre.", misreads: "overread", why: "Ten times too large." },
+              { text: "The article does not say.", misreads: "overread", why: "It gives the figure twice, in effect." }
             ] },
           { para: 3, q: "In line 6, <i>Nothing about any individual bird changed</i> is there to:",
             options: [
               { text: "rule out the idea that birds responded by growing.", correct: true,
                 why: "The next clause makes it explicit: birds do not grow deeper beaks because conditions are hard." },
-              { text: "say the measurements were unreliable.", why: "Reliability is never questioned." },
-              { text: "introduce a second study.", why: "There is only one study here." }
+              { text: "say the measurements were unreliable.", misreads: "overread", why: "Reliability is never questioned." },
+              { text: "introduce a second study.", misreads: "overread", why: "There is only one study here." }
             ] },
           { para: 3, q: "What would the author say about the sentence <i>the finches adapted to the drought</i>?",
             options: [
               { text: "It describes the outcome in the grammar of an action.", correct: true,
                 why: "The final sentence names exactly this error: treating adaptation as something an organism does." },
-              { text: "It is a precise summary of the study.", why: "The last paragraph exists to rule that out." },
-              { text: "It overstates how much the beaks changed.", why: "The author's objection is about mechanism, not size." }
+              { text: "It is a precise summary of the study.", misreads: "overread", why: "The last paragraph exists to rule that out." },
+              { text: "It overstates how much the beaks changed.", misreads: "overread", why: "The author's objection is about mechanism, not size." }
             ] }
         ] },
 
@@ -163,8 +163,8 @@
           { para: 0, q: "What must you never do?",
             options: [
               { text: "Move a label from one specimen to another.", correct: true, why: "“for any reason” makes it the absolute rule on the card." },
-              { text: "Wear gloves.", why: "Gloves are required, not forbidden." },
-              { text: "Return a tray to its slot.", why: "That is required too." }
+              { text: "Wear gloves.", misreads: "gloves", why: "Gloves are required, not forbidden." },
+              { text: "Return a tray to its slot.", misreads: "overread", why: "That is required too." }
             ] }
         ] },
 
@@ -261,29 +261,29 @@
             options: [
               { text: "A mean says nothing about the spread, and the spread is what this subject needs.", correct: true,
                 why: "The whole article is one argument with one example: identical bars, different populations." },
-              { text: "Bar graphs should not be used in biology.", why: "It asks what the bar was computed from, and recommends error bars, which is not abolition." },
-              { text: "The beak measurements were inaccurate.", why: "Accuracy is never in question; the article accepts the numbers." }
+              { text: "Bar graphs should not be used in biology.", misreads: "computed", why: "It asks what the bar was computed from, and recommends error bars, which is not abolition." },
+              { text: "The beak measurements were inaccurate.", misreads: "question", why: "Accuracy is never in question; the article accepts the numbers." }
             ] },
           { para: 2, q: "What do the two populations in the second section have in common?",
             options: [
               { text: "Their mean beak depth, and therefore the height of their bars.", correct: true,
                 why: "Nine, against half at eight and half at ten — both average nine. That identity is the article's entire demonstration." },
-              { text: "The number of birds in them.", why: "No sizes are given; they could differ." },
-              { text: "The amount of variation they contain.", why: "That is the one thing deliberately made different." }
+              { text: "The number of birds in them.", misreads: "overread", why: "No sizes are given; they could differ." },
+              { text: "The amount of variation they contain.", misreads: "different", why: "That is the one thing deliberately made different." }
             ] },
           { para: 2, q: "Why does the article say only the second population matters to selection?",
             options: [
               { text: "Selection needs differences already present, and the first population has none.", correct: true,
                 why: "<i>Only the second contains the variation on which selection depends</i> — and Lesson 1 made variation stage one of three." },
-              { text: "The second population is larger.", why: "Size is not mentioned, and would not be the reason if it were." },
-              { text: "Deeper beaks are better.", why: "Better at one thing, under one condition. The article is not making that claim." }
+              { text: "The second population is larger.", misreads: "absent", why: "Size is not mentioned, and would not be the reason if it were." },
+              { text: "Deeper beaks are better.", misreads: "better", why: "Better at one thing, under one condition. The article is not making that claim." }
             ] },
           { para: 3, q: "What would the author accept as a good figure?",
             options: [
               { text: "One that shows the individuals, or at least an error bar.", correct: true,
                 why: "Stated at the end as the better and the acceptable answer, in that order." },
-              { text: "A bar graph with the means clearly labelled.", why: "Labelling the mean more clearly does not address what the mean leaves out." },
-              { text: "A table of the two means.", why: "A table of means has exactly the same problem as a bar of means." }
+              { text: "A bar graph with the means clearly labelled.", misreads: "overread", why: "Labelling the mean more clearly does not address what the mean leaves out." },
+              { text: "A table of the two means.", misreads: "overread", why: "A table of means has exactly the same problem as a bar of means." }
             ] }
         ] },
 
@@ -299,33 +299,33 @@
             options: [
               { text: "The population ended up made of different birds, because the deeper-beaked ones were likelier to survive and breed.", correct: true,
                 why: "Keeps the population as the thing that changed and the individuals as the thing that was selected." },
-              { text: "The birds developed deeper beaks in order to survive.",
+              { text: "The birds developed deeper beaks in order to survive.", misreads: "overread",
                 why: "Moves the change into the individual and adds a purpose. Both are the error the article exists to correct." },
-              { text: "Deeper-beaked birds became more common because the population changed.",
+              { text: "Deeper-beaked birds became more common because the population changed.", misreads: "overread",
                 why: "Reverses cause and effect: the commonness <i>is</i> the change, not its result." },
-              { text: "All the birds in the population survived at a higher rate.",
+              { text: "All the birds in the population survived at a higher rate.", misreads: "overread",
                 why: "<i>Differential</i> means they did not, which is the whole mechanism." }
             ] },
           { source: "A population in which every bird has a beak of nine millimetres, and a population in which half have eight and half have ten, produce bars of identical height.",
             options: [
               { text: "A uniform population and a split one can give exactly the same average, and so the same bar.", correct: true,
                 why: "Keeps both populations, the identity of the average and the consequence for the graph." },
-              { text: "Two populations with the same bar must contain the same birds.",
+              { text: "Two populations with the same bar must contain the same birds.", misreads: "overread",
                 why: "Exactly what the sentence is constructed to disprove." },
-              { text: "A split population gives a taller bar than a uniform one.",
+              { text: "A split population gives a taller bar than a uniform one.", misreads: "Identical height",
                 why: "<i>Identical height</i> rules this out in two words." },
-              { text: "Bars are an unreliable way to show averages.",
+              { text: "Bars are an unreliable way to show averages.", misreads: "overread",
                 why: "The bar shows the average perfectly well. The complaint is about what else the reader takes from it." }
             ] },
           { source: "The question to put to any bar is not how tall it is but what distribution it was computed from.",
             options: [
               { text: "Ask what spread of values produced the bar, rather than reading its height.", correct: true,
                 why: "Keeps the <i>not … but …</i> frame, which is where the instruction lives." },
-              { text: "The height of a bar is unimportant.",
+              { text: "The height of a bar is unimportant.", misreads: "absent",
                 why: "The sentence redirects attention; it does not say the height means nothing." },
-              { text: "Readers should calculate the distribution themselves.",
+              { text: "Readers should calculate the distribution themselves.", misreads: "overread",
                 why: "It says what to ask, not who should do the arithmetic." },
-              { text: "A bar should always be replaced by a distribution.",
+              { text: "A bar should always be replaced by a distribution.", misreads: "overread",
                 why: "That is the next article's recommendation, not what this sentence says." }
             ] }
         ] },
@@ -340,15 +340,15 @@
           { para: 0, q: "Where are the calipers kept now?",
             options: [
               { text: "In the grey cabinet.", correct: true, why: "Line 1 gives the new place and the old one, in that order." },
-              { text: "In the drawer.", why: "That is where they are no longer kept." },
-              { text: "On the bench.", why: "The bench is not mentioned." }
+              { text: "In the drawer.", misreads: "overread", why: "That is where they are no longer kept." },
+              { text: "On the bench.", misreads: "absent", why: "The bench is not mentioned." }
             ] },
           { para: 0, q: "How should a tray be worked on?",
             options: [
               { text: "By two people, one measuring and one writing.", correct: true,
                 why: "Line 3. The division of labour is the instruction, not just the number of people." },
-              { text: "By one person, who measures and writes.", why: "Line 3 asks for two." },
-              { text: "By as many people as are free.", why: "The rule is exactly two per tray." }
+              { text: "By one person, who measures and writes.", misreads: "overread", why: "Line 3 asks for two." },
+              { text: "By as many people as are free.", misreads: "overread", why: "The rule is exactly two per tray." }
             ] }
         ] },
 

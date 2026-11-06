@@ -164,36 +164,36 @@
             options: [
               { text: "Re-reading produces a feeling of knowing that retrieval does not, and the feeling is misleading.", correct: true,
                 why: "Paragraph 1 names the illusion; paragraphs 2 and 3 show what works instead and why." },
-              { text: "Students in the 1970s studied differently from students today.",
+              { text: "Students in the 1970s studied differently from students today.", misreads: "overread",
                 why: "The date is a detail about when the work began, not the point of the article." },
-              { text: "Examinations measure memory rather than understanding.",
+              { text: "Examinations measure memory rather than understanding.", misreads: "absent",
                 why: "The article never discusses what examinations measure." }
             ] },
           { para: 2, q: "What happened a week after the test?",
             options: [
               { text: "The gap between the two groups had grown.", correct: true,
                 why: "“A week later it had widened” — <i>it</i> is the margin between the groups." },
-              { text: "Both groups had forgotten most of the material.",
+              { text: "Both groups had forgotten most of the material.", misreads: "absent",
                 why: "The article does not say this; it compares the groups rather than their absolute scores." },
-              { text: "The groups performed about the same.",
+              { text: "The groups performed about the same.", misreads: "widened",
                 why: "That is the opposite of <i>widened</i>." }
             ] },
           { para: 3, q: "In line 8, <i>that pathway</i> refers to:",
             options: [
               { text: "the route by which a fact is recalled from memory", correct: true,
                 why: "The clause before it introduces <i>the pathway to it</i>, where <i>it</i> is the fact recovered from memory." },
-              { text: "the practical advice the author gives",
+              { text: "the practical advice the author gives", misreads: "overread",
                 why: "The advice comes after, in a new sentence, and is not a path." },
-              { text: "the order in which the notes were written",
+              { text: "the order in which the notes were written", misreads: "absent",
                 why: "Notes are not mentioned in that paragraph." }
             ] },
           { para: 1, q: "What would the author most likely say about a student who only highlights their notes?",
             options: [
               { text: "They are building fluency rather than memory.", correct: true,
                 why: "Highlighting is a form of re-reading: it makes the page feel easier without requiring retrieval." },
-              { text: "They should highlight more of the page.",
+              { text: "They should highlight more of the page.", misreads: "absent",
                 why: "Nothing in the article suggests doing more of what it criticises." },
-              { text: "Highlighting is better than reading the notes twice.",
+              { text: "Highlighting is better than reading the notes twice.", misreads: "retrieval",
                 why: "The article draws its line between retrieval and everything else, not between kinds of re-reading." }
             ] }
         ] },
@@ -207,8 +207,8 @@
           { para: 0, q: "What should you bring?",
             options: [
               { text: "Notes and a past paper.", correct: true, why: "Line 1 names both." },
-              { text: "Nothing — materials are provided.", why: "The card asks you to bring two things." },
-              { text: "A booking confirmation.", why: "It says there is no booking." }
+              { text: "Nothing — materials are provided.", misreads: "Bring", why: "The card asks you to bring two things." },
+              { text: "A booking confirmation.", misreads: "booking", why: "It says there is no booking." }
             ] }
         ] },
 
@@ -309,36 +309,36 @@
             options: [
               { text: "The same hours of study produce more when they are spread out.", correct: true,
                 why: "The first paragraph sets up equal totals; the rest explains why the distributed total wins." },
-              { text: "Four hours of study is not enough before an examination.",
+              { text: "Four hours of study is not enough before an examination.", misreads: "absent",
                 why: "The article never argues about how many hours are needed; it holds the hours constant on purpose." },
-              { text: "Students should avoid forgetting between sessions.",
+              { text: "Students should avoid forgetting between sessions.", misreads: "forgetting",
                 why: "The second paragraph argues the reverse: the forgetting is doing the work." }
             ] },
           { para: 1, q: "What do the two students in the first paragraph have in common?",
             options: [
               { text: "The chapter and the number of hours.", correct: true,
                 why: "<i>Each devote four hours to the same chapter</i> — holding both constant is what makes the comparison mean anything." },
-              { text: "The number of evenings they study.",
+              { text: "The number of evenings they study.", misreads: "evening",
                 why: "That is the one thing deliberately made different: one evening against four." },
-              { text: "Their examination result.",
+              { text: "Their examination result.", misreads: "overread",
                 why: "The paragraph ends by saying the results differ, often substantially." }
             ] },
           { para: 2, q: "In the second paragraph, <i>it</i> in “rather than upon preventing it” refers to:",
             options: [
               { text: "forgetting", correct: true,
                 why: "The sentence contrasts two things one might depend upon, and both halves take the same object: depending on forgetting, not on preventing forgetting." },
-              { text: "the mechanism",
+              { text: "the mechanism", misreads: "mechanism",
                 why: "The mechanism is the subject of the sentence; it cannot also be the thing being prevented." },
-              { text: "the interval between sessions",
+              { text: "the interval between sessions", misreads: "interval",
                 why: "The interval appears in the next sentence, after this pronoun." }
             ] },
           { para: 3, q: "What would this author most likely say about a timetable that gives each subject one whole day?",
             options: [
               { text: "It will feel organised and leave less behind than it should.", correct: true,
                 why: "The last sentence says exactly this about block schedules, in the author's own words: disciplined, and delivering less." },
-              { text: "It is the best way to cover a long syllabus.",
+              { text: "It is the best way to cover a long syllabus.", misreads: "absent",
                 why: "Coverage is never the article's measure; retention is." },
-              { text: "It should be replaced by longer blocks.",
+              { text: "It should be replaced by longer blocks.", misreads: "overread",
                 why: "Longer blocks are more of what the article argues against." }
             ] }
         ] },
@@ -354,33 +354,33 @@
             options: [
               { text: "Both students put in the same hours, and the one who spread them out will very probably remember more.", correct: true,
                 why: "Keeps the concession, the equal totals and the hedge <i>almost certainly</i>." },
-              { text: "The second student puts in more hours and therefore remembers more.",
+              { text: "The second student puts in more hours and therefore remembers more.", misreads: "overread",
                 why: "Breaks the premise the whole comparison rests on: the totals are equal." },
-              { text: "Both students remember the same amount, although they studied differently.",
+              { text: "Both students remember the same amount, although they studied differently.", misreads: "overread",
                 why: "Reverses the finding." },
-              { text: "The second student will certainly remember more.",
+              { text: "The second student will certainly remember more.", misreads: "almost",
                 why: "Drops <i>almost</i>. Turning a hedge into a certainty is the commonest wrong answer on this item type." }
             ] },
           { source: "That growing ease is routinely mistaken for growing knowledge.",
             options: [
               { text: "People regularly take the feeling that something has got easier as a sign that they have learnt it.", correct: true,
                 why: "Keeps <i>routinely</i>, keeps the mistaking, and keeps which thing is mistaken for which." },
-              { text: "Knowledge grows as the material becomes easier.",
+              { text: "Knowledge grows as the material becomes easier.", misreads: "overread",
                 why: "States as fact the very thing the sentence calls a mistake." },
-              { text: "Students rarely confuse ease with knowledge.",
+              { text: "Students rarely confuse ease with knowledge.", misreads: "Routinely",
                 why: "<i>Routinely</i> means often, not rarely." },
-              { text: "Growing knowledge makes the material feel easier.",
+              { text: "Growing knowledge makes the material feel easier.", misreads: "overread",
                 why: "Reverses the direction. Plausible in itself, which is what makes it a good distractor." }
             ] },
           { source: "A schedule that concentrates a subject into one long block feels disciplined and delivers less.",
             options: [
               { text: "Blocking a subject into a single long session seems rigorous but produces a poorer result.", correct: true,
                 why: "Keeps the contrast between how it feels and what it produces." },
-              { text: "A long block is undisciplined and produces a poorer result.",
+              { text: "A long block is undisciplined and produces a poorer result.", misreads: "feels",
                 why: "The sentence says it <i>feels</i> disciplined, which is the opposite of calling it undisciplined." },
-              { text: "A disciplined schedule delivers more than a scattered one.",
+              { text: "A disciplined schedule delivers more than a scattered one.", misreads: "overread",
                 why: "Reverses the claim, and is what most readers expect to be true." },
-              { text: "Long blocks deliver less because students lose concentration.",
+              { text: "Long blocks deliver less because students lose concentration.", misreads: "overread",
                 why: "Adds a cause the sentence does not give. A paraphrase may not explain." }
             ] }
         ] },
@@ -395,15 +395,15 @@
           { para: 0, q: "Where is the session from next week?",
             options: [
               { text: "Library B-118.", correct: true, why: "Line 1 gives the new room." },
-              { text: "Library B-214.", why: "That was the old room, in the first card." },
-              { text: "The card does not say.", why: "It names the room in its first line." }
+              { text: "Library B-214.", misreads: "overread", why: "That was the old room, in the first card." },
+              { text: "The card does not say.", misreads: "overread", why: "It names the room in its first line." }
             ] },
           { para: 0, q: "What should you bring?",
             options: [
               { text: "Your six questions.", correct: true,
                 why: "Line 2 asks for the questions and explicitly rules out the notes they came from." },
-              { text: "Your notes.", why: "Line 2 says <i>not the notes</i>." },
-              { text: "Both the questions and the notes.", why: "The <i>not</i> in line 2 excludes the notes." }
+              { text: "Your notes.", misreads: "not the notes", why: "Line 2 says <i>not the notes</i>." },
+              { text: "Both the questions and the notes.", misreads: "not", why: "The <i>not</i> in line 2 excludes the notes." }
             ] }
         ] },
 

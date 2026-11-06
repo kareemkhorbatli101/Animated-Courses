@@ -126,29 +126,29 @@
             options: [
               { text: "When a measure is rewarded it becomes a target and detaches from what it represented.", correct: true,
                 why: "That is the second section's claim, and the first and third exist to set it up and answer it." },
-              { text: "People respond to incentives dishonestly.", why: "“Nobody need be dishonest for this to happen.”" },
-              { text: "Waiting times are the wrong thing to measure.", why: "Waiting times are the example, not the argument." }
+              { text: "People respond to incentives dishonestly.", misreads: "Nobody", why: "“Nobody need be dishonest for this to happen.”" },
+              { text: "Waiting times are the wrong thing to measure.", misreads: "waiting", why: "Waiting times are the example, not the argument." }
             ] },
           { para: 2, q: "Why does the author say nobody need be dishonest?",
             options: [
               { text: "The drift happens through ordinary responses to the rules as written.", correct: true,
                 why: "The sentence is there to block the easy reading that this is a story about bad actors." },
-              { text: "Because hospitals are closely supervised.", why: "Supervision is not mentioned." },
-              { text: "Because the measure is usually accurate.", why: "Accuracy is not the problem; relevance is." }
+              { text: "Because hospitals are closely supervised.", misreads: "absent", why: "Supervision is not mentioned." },
+              { text: "Because the measure is usually accurate.", misreads: "overread", why: "Accuracy is not the problem; relevance is." }
             ] },
           { para: 3, q: "What does a well designed scheme specify, according to the article?",
             options: [
               { text: "Both what is rewarded and how the result will be verified.", correct: true,
                 why: "Stated as a pair, and <i>not only … but</i> marks the second half as the one usually missing." },
-              { text: "Only what will be rewarded.", why: "That is the hurried scheme." },
-              { text: "Who will be punished for failure.", why: "Punishment is never discussed." }
+              { text: "Only what will be rewarded.", misreads: "scheme", why: "That is the hurried scheme." },
+              { text: "Who will be punished for failure.", misreads: "absent", why: "Punishment is never discussed." }
             ] },
           { para: 3, q: "<i>Technically correct and substantively absurd</i> describes a result that:",
             options: [
               { text: "satisfies the written rule while defeating its purpose.", correct: true,
                 why: "The two adverbs are deliberately opposed — the letter against what actually matters." },
-              { text: "is simply miscalculated.", why: "<i>Technically correct</i> rules out an arithmetic error." },
-              { text: "nobody can measure.", why: "It is measured; that is the trouble." }
+              { text: "is simply miscalculated.", misreads: "Technically correct", why: "<i>Technically correct</i> rules out an arithmetic error." },
+              { text: "nobody can measure.", misreads: "overread", why: "It is measured; that is the trouble." }
             ] }
         ] },
 
@@ -161,8 +161,8 @@
           { para: 0, q: "When is the office closed?",
             options: [
               { text: "Between one and two.", correct: true, why: "Stated in the opening-hours line." },
-              { text: "All afternoon.", why: "It reopens at two and runs to four." },
-              { text: "Before ten only.", why: "That is before it opens, which the card does not call a closure." }
+              { text: "All afternoon.", misreads: "overread", why: "It reopens at two and runs to four." },
+              { text: "Before ten only.", misreads: "before", why: "That is before it opens, which the card does not call a closure." }
             ] }
         ] },
 
@@ -260,29 +260,29 @@
             options: [
               { text: "A flat charge works by changing the behaviour of those least able to pay it, and the revenue can be used to reverse that.", correct: true,
                 why: "The three sections are the uneven effect, where the reduction comes from, and the remedy that leaves the incentive intact." },
-              { text: "Congestion charges do not reduce traffic.", why: "The article accepts the reduction throughout; its question is who produced it." },
-              { text: "Charges should be set according to income.", why: "The remedy it proposes keeps the charge identical and changes what happens to the money." }
+              { text: "Congestion charges do not reduce traffic.", misreads: "overread", why: "The article accepts the reduction throughout; its question is who produced it." },
+              { text: "Charges should be set according to income.", misreads: "remedy", why: "The remedy it proposes keeps the charge identical and changes what happens to the money." }
             ] },
           { para: 2, q: "Why does the article say the reduction comes from one group?",
             options: [
               { text: "Because the wealthier group has not materially changed its behaviour.", correct: true,
                 why: "<i>Since the second has not materially changed its behaviour at all</i> — the inference follows directly from the first section." },
-              { text: "Because the wealthier group drives less to begin with.", why: "No claim about baseline driving is made." },
-              { text: "Because only one group pays the charge.", why: "Both pay it; that is what makes the effect uneven rather than selective." }
+              { text: "Because the wealthier group drives less to begin with.", misreads: "driving", why: "No claim about baseline driving is made." },
+              { text: "Because only one group pays the charge.", misreads: "overread", why: "Both pay it; that is what makes the effect uneven rather than selective." }
             ] },
           { para: 2, q: "Who does the article say the benefit accrues to?",
             options: [
               { text: "Disproportionately to those who continue to drive.", correct: true,
                 why: "The cleaner, quieter streets are enjoyed most by the people whose behaviour did not change." },
-              { text: "Equally to all residents.", why: "<i>Disproportionately</i> is the word the sentence turns on." },
-              { text: "To the people who gave up driving.", why: "They bear the cost of the change and share least in the result." }
+              { text: "Equally to all residents.", misreads: "Disproportionately", why: "<i>Disproportionately</i> is the word the sentence turns on." },
+              { text: "To the people who gave up driving.", misreads: "overread", why: "They bear the cost of the change and share least in the result." }
             ] },
           { para: 3, q: "Why does the remedy not weaken the incentive?",
             options: [
               { text: "The charge itself is unchanged, so the reason to drive less is unchanged.", correct: true,
                 why: "The payment is separate from the charge, and it goes to everyone whether they drive or not." },
-              { text: "The payment is given only to those who stop driving.", why: "That would weaken it: the payment is universal, which is what makes it neutral." },
-              { text: "The revenue is too small to matter.", why: "The article treats the revenue as substantial enough to redistribute." }
+              { text: "The payment is given only to those who stop driving.", misreads: "payment", why: "That would weaken it: the payment is universal, which is what makes it neutral." },
+              { text: "The revenue is too small to matter.", misreads: "revenue", why: "The article treats the revenue as substantial enough to redistribute." }
             ] }
         ] },
 
@@ -298,33 +298,33 @@
             options: [
               { text: "No deception is required: people start aiming at the number, and the number drifts away from what it stood for.", correct: true,
                 why: "Keeps the explicit refusal to allege dishonesty, which is the sentence's main point." },
-              { text: "People cheat in order to hit the target.",
+              { text: "People cheat in order to hit the target.", misreads: "overread",
                 why: "The sentence exists to rule this reading out, and it is the reading most readers arrive with." },
-              { text: "The measure was badly chosen from the start.",
+              { text: "The measure was badly chosen from the start.", misreads: "measure",
                 why: "It may have been a good measure; that is what makes the mechanism worth describing." },
-              { text: "Targets should not be used at all.",
+              { text: "Targets should not be used at all.", misreads: "overread",
                 why: "A recommendation. The sentence is describing a process." }
             ] },
           { source: "The benefit accrues disproportionately to those who continue to drive.",
             options: [
               { text: "The people still driving get more of the gain than their share.", correct: true,
                 why: "Keeps <i>disproportionately</i>, which says uneven rather than exclusive." },
-              { text: "Only drivers benefit from the scheme.",
+              { text: "Only drivers benefit from the scheme.", misreads: "Disproportionately",
                 why: "<i>Disproportionately</i> is not <i>only</i>; everyone breathes the cleaner air." },
-              { text: "Drivers pay more than they gain.",
+              { text: "Drivers pay more than they gain.", misreads: "overread",
                 why: "The sentence is about who gains, and it says the opposite about this group." },
-              { text: "The benefit is shared evenly.",
+              { text: "The benefit is shared evenly.", misreads: "overread",
                 why: "The word in the middle of the sentence denies precisely this." }
             ] },
           { source: "A charge of five pounds is identical for every driver who pays it, and it is not remotely the same thing for all of them.",
             options: [
               { text: "The sum is the same for everyone and what it means is not.", correct: true,
                 why: "Keeps the apparent contradiction, which is the whole figure of the sentence." },
-              { text: "The charge is unfair because it is the same for everyone.",
+              { text: "The charge is unfair because it is the same for everyone.", misreads: "overread",
                 why: "<i>Unfair</i> is a judgement the sentence has not yet made; it is making an observation first." },
-              { text: "Different drivers pay different amounts.",
+              { text: "Different drivers pay different amounts.", misreads: "overread",
                 why: "They pay the same amount. That is the first half of the sentence." },
-              { text: "Five pounds means nothing to most drivers.",
+              { text: "Five pounds means nothing to most drivers.", misreads: "overread",
                 why: "The sentence distinguishes two groups rather than generalising about most." }
             ] }
         ] },
@@ -339,15 +339,15 @@
           { para: 0, q: "What is a payment plan recorded against?",
             options: [
               { text: "Your student number.", correct: true, why: "Line 2, and it says explicitly that it is not your name." },
-              { text: "Your name.", why: "Line 2 rules this out, which is why the error in Lesson 4 happened." },
-              { text: "Your email address.", why: "Not mentioned." }
+              { text: "Your name.", misreads: "overread", why: "Line 2 rules this out, which is why the error in Lesson 4 happened." },
+              { text: "Your email address.", misreads: "overread", why: "Not mentioned." }
             ] },
           { para: 0, q: "You arrive at twenty to four to pay. What happens?",
             options: [
               { text: "You are too late; payments stop at half past three.", correct: true,
                 why: "Line 4. The office is open until four, which is the trap." },
-              { text: "You can pay — the office is open until four.", why: "Open and taking payments are two different things here." },
-              { text: "You must arrange a plan instead.", why: "The card does not offer that as an alternative." }
+              { text: "You can pay — the office is open until four.", misreads: "payments", why: "Open and taking payments are two different things here." },
+              { text: "You must arrange a plan instead.", misreads: "overread", why: "The card does not offer that as an alternative." }
             ] }
         ] },
 

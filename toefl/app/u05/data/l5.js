@@ -131,29 +131,29 @@
             options: [
               { text: "The first catalogues reflected what was easy to detect, not what is common.", correct: true,
                 why: "That is the hinge sentence, and both other sections lead to or from it." },
-              { text: "Early instruments were badly made.", why: "Nothing is said against the instruments; the issue is what they can see." },
-              { text: "Massive planets orbit faster than small ones.", why: "A detail about detectability, not the argument." }
+              { text: "Early instruments were badly made.", misreads: "Nothing", why: "Nothing is said against the instruments; the issue is what they can see." },
+              { text: "Massive planets orbit faster than small ones.", misreads: "overread", why: "A detail about detectability, not the argument." }
             ] },
           { para: 2, q: "Why does a massive close-in planet announce itself quickly?",
             options: [
               { text: "It displaces its star measurably and transits often.", correct: true,
                 why: "Both halves of the mechanism are given in one sentence." },
-              { text: "It is brighter than other planets.", why: "Brightness is never mentioned." },
-              { text: "It is nearer to Earth.", why: "Distance from <i>us</i> is not the variable; distance from its own star is." }
+              { text: "It is brighter than other planets.", misreads: "absent", why: "Brightness is never mentioned." },
+              { text: "It is nearer to Earth.", misreads: "overread", why: "Distance from <i>us</i> is not the variable; distance from its own star is." }
             ] },
           { para: 3, q: "In line 6, <i>the two are not equivalent</i> refers to:",
             options: [
               { text: "a sample of what exists and a sample of what is convenient to detect", correct: true,
                 why: "The two things are named in the first half of the same sentence." },
-              { text: "large planets and small planets", why: "Those are compared, but not as the referents of <i>the two</i>." },
-              { text: "the method and the instruments", why: "Instruments are not a party to this comparison." }
+              { text: "large planets and small planets", misreads: "the two", why: "Those are compared, but not as the referents of <i>the two</i>." },
+              { text: "the method and the instruments", misreads: "instruments", why: "Instruments are not a party to this comparison." }
             ] },
           { para: 3, q: "What does the last sentence imply about the corrected picture?",
             options: [
               { text: "It matches what people expected before the data arrived.", correct: true,
                 why: "“approximately what anyone would have predicted before the instruments began answering” — gently ironic, and an inference item lives exactly there." },
-              { text: "It is still surprising.", why: "<i>Considerably less exotic</i> says the opposite." },
-              { text: "It proves the early catalogues were falsified.", why: "They were biased, which is not the same as false." }
+              { text: "It is still surprising.", misreads: "Considerably less exotic", why: "<i>Considerably less exotic</i> says the opposite." },
+              { text: "It proves the early catalogues were falsified.", misreads: "overread", why: "They were biased, which is not the same as false." }
             ] }
         ] },
 
@@ -166,8 +166,8 @@
           { para: 0, q: "Where should you meet?",
             options: [
               { text: "At the gate.", correct: true, why: "“at the gate, <i>not</i> the car park” — the card anticipates the mistake." },
-              { text: "At the car park.", why: "Explicitly ruled out." },
-              { text: "Inside the dome.", why: "Not mentioned as a meeting point." }
+              { text: "At the car park.", misreads: "overread", why: "Explicitly ruled out." },
+              { text: "Inside the dome.", misreads: "overread", why: "Not mentioned as a meeting point." }
             ] }
         ] },
 
@@ -262,29 +262,29 @@
             options: [
               { text: "Where the threshold is set decides which of two unavoidable errors you risk, and the field has chosen.", correct: true,
                 why: "The three sections are the trade-off, the choice, and what the vocabulary is doing about it." },
-              { text: "Detection thresholds should be set lower.", why: "The article explains the preference rather than arguing against it." },
-              { text: "Most planet candidates turn out to be false.", why: "No rate is given anywhere in the text." }
+              { text: "Detection thresholds should be set lower.", misreads: "overread", why: "The article explains the preference rather than arguing against it." },
+              { text: "Most planet candidates turn out to be false.", misreads: "overread", why: "No rate is given anywhere in the text." }
             ] },
           { para: 2, q: "Why does the article call the field's preference sociological rather than statistical?",
             options: [
               { text: "The reason concerns how announcements and withdrawals travel, not the numbers.", correct: true,
                 why: "The second section is entirely about readership: the withdrawal reaches a fraction of the people the announcement did." },
-              { text: "Because astronomers vote on the threshold.", why: "No decision procedure is described." },
-              { text: "Because the statistics are disputed.", why: "The arithmetic is not in question in this article at all." }
+              { text: "Because astronomers vote on the threshold.", misreads: "overread", why: "No decision procedure is described." },
+              { text: "Because the statistics are disputed.", misreads: "overread", why: "The arithmetic is not in question in this article at all." }
             ] },
           { para: 2, q: "According to the article, what happens to a real planet that is missed?",
             options: [
               { text: "Somebody else usually finds it, and the cost falls on one team.", correct: true,
                 why: "Stated as the contrast with the false detection, whose cost falls on the literature." },
-              { text: "It is never found.", why: "<i>Usually found later</i> says the opposite." },
-              { text: "It is published as a candidate.", why: "A missed object is by definition below the threshold and not published at all." }
+              { text: "It is never found.", misreads: "Usually found later", why: "<i>Usually found later</i> says the opposite." },
+              { text: "It is published as a candidate.", misreads: "missed", why: "A missed object is by definition below the threshold and not published at all." }
             ] },
           { para: 3, q: "Why does a paper say <i>candidate</i> when the authors believe the object is real?",
             options: [
               { text: "To state which of the two errors they have decided to risk.", correct: true,
                 why: "The last sentence says exactly this, and explicitly rules out modesty as the explanation." },
-              { text: "Because they are being modest.", why: "<i>The distinction is not modesty</i> — the article rejects this reading by name." },
-              { text: "Because the journal requires it.", why: "No editorial rule is mentioned." }
+              { text: "Because they are being modest.", misreads: "The distinction is not modesty", why: "<i>The distinction is not modesty</i> — the article rejects this reading by name." },
+              { text: "Because the journal requires it.", misreads: "overread", why: "No editorial rule is mentioned." }
             ] }
         ] },
 
@@ -300,33 +300,33 @@
             options: [
               { text: "The first lists described what was easy to find, not what is actually out there.", correct: true,
                 why: "Keeps the <i>not … but …</i> frame and the distinction between the universe and the method." },
-              { text: "Early catalogues were too small to be representative.",
+              { text: "Early catalogues were too small to be representative.", misreads: "overread",
                 why: "Size is not the problem. A larger catalogue made the same way would be biased in the same direction." },
-              { text: "Early catalogues contained errors.",
+              { text: "Early catalogues contained errors.", misreads: "overread",
                 why: "The entries were correct. What was wrong was the inference from the list to the population." },
-              { text: "Convenient planets are commoner than inconvenient ones.",
+              { text: "Convenient planets are commoner than inconvenient ones.", misreads: "overread",
                 why: "Reads a fact about detection as a fact about the universe — the exact confusion the sentence prevents." }
             ] },
           { source: "A threshold low enough to catch every real planet will also admit objects that are not planets at all.",
             options: [
               { text: "Set the bar low enough to miss nothing real and some unreal things get through too.", correct: true,
                 why: "Keeps the conditional and both consequences, which is what makes it a trade-off rather than a flaw." },
-              { text: "A low threshold produces more real detections.",
+              { text: "A low threshold produces more real detections.", misreads: "overread",
                 why: "True and incomplete: the sentence exists to name the cost that comes with them." },
-              { text: "Thresholds should be set high.",
+              { text: "Thresholds should be set high.", misreads: "overread",
                 why: "A recommendation. The sentence is describing a mechanism." },
-              { text: "Every real planet can be caught without admitting anything false.",
+              { text: "Every real planet can be caught without admitting anything false.", misreads: "overread",
                 why: "The sentence is constructed precisely to deny this." }
             ] },
           { source: "The distinction is not modesty; it is a statement about which of the two errors the authors have chosen to risk.",
             options: [
               { text: "Calling it a candidate is not humility but a declaration of which mistake they are willing to make.", correct: true,
                 why: "Keeps the rejection and the replacement, which is the whole shape of the sentence." },
-              { text: "Authors use the word <i>candidate</i> to be careful.",
+              { text: "Authors use the word <i>candidate</i> to be careful.", misreads: "modesty",
                 why: "<i>Careful</i> collapses back into the modesty reading the semicolon rules out." },
-              { text: "The distinction shows the authors doubt their own result.",
+              { text: "The distinction shows the authors doubt their own result.", misreads: "overread",
                 why: "The article says they may privately believe it is real." },
-              { text: "Both errors are equally serious.",
+              { text: "Both errors are equally serious.", misreads: "overread",
                 why: "The previous section says the field prefers one, which is why the choice has to be declared." }
             ] }
         ] },
@@ -341,15 +341,15 @@
           { para: 0, q: "When do you sign the logbook?",
             options: [
               { text: "At the start and at the end of your slot.", correct: true, why: "Line 2 names both, and the <i>and</i> makes both compulsory." },
-              { text: "Only at the end.", why: "Line 2 asks for two signatures." },
-              { text: "Only if something goes wrong.", why: "No condition is attached." }
+              { text: "Only at the end.", misreads: "overread", why: "Line 2 asks for two signatures." },
+              { text: "Only if something goes wrong.", misreads: "overread", why: "No condition is attached." }
             ] },
           { para: 0, q: "Who closes the shutter?",
             options: [
               { text: "Whoever leaves last.", correct: true,
                 why: "Line 4, and the clause after the comma removes the obvious excuse." },
-              { text: "The operator.", why: "The operator is told about cloud, in line 3; the shutter is not their job here." },
-              { text: "Nobody, if the forecast is clear.", why: "<i>Whatever the forecast says</i> exists to rule exactly this out." }
+              { text: "The operator.", misreads: "operator", why: "The operator is told about cloud, in line 3; the shutter is not their job here." },
+              { text: "Nobody, if the forecast is clear.", misreads: "Whatever the forecast says", why: "<i>Whatever the forecast says</i> exists to rule exactly this out." }
             ] }
         ] },
 

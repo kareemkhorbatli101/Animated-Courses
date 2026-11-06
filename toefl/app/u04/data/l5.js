@@ -126,29 +126,29 @@
             options: [
               { text: "An accumulation of ordinary findings overturned the corridor account, and the field's caution was reasonable.", correct: true,
                 why: "Both halves are the article: what changed, and why the change took as long as it did." },
-              { text: "One spectacular discovery changed the field.", why: "The article denies this explicitly." },
-              { text: "Radiocarbon dating is unreliable near coasts.", why: "Not raised in this passage at all." }
+              { text: "One spectacular discovery changed the field.", misreads: "overread", why: "The article denies this explicitly." },
+              { text: "Radiocarbon dating is unreliable near coasts.", misreads: "overread", why: "Not raised in this passage at all." }
             ] },
           { para: 2, q: "Why can the people at those sites not have used the corridor?",
             options: [
               { text: "The sites date to periods when it was still closed.", correct: true,
                 why: "Stated directly, and the logic is the article's hinge." },
-              { text: "The corridor was too narrow.", why: "Width is never mentioned." },
-              { text: "The sites are on the wrong continent.", why: "They are in the Americas, which is the point." }
+              { text: "The corridor was too narrow.", misreads: "absent", why: "Width is never mentioned." },
+              { text: "The sites are on the wrong continent.", misreads: "Americas", why: "They are in the Americas, which is the point." }
             ] },
           { para: 2, q: "In line 4, <i>each individually arguable and collectively decisive</i> means that:",
             options: [
               { text: "no single finding settles it, but together they do.", correct: true,
                 why: "The two adjectives are deliberately opposed, which is why the sentence is built that way." },
-              { text: "the findings contradict one another.", why: "<i>Collectively decisive</i> rules that out." },
-              { text: "the findings were all disputed and remain so.", why: "<i>Decisive</i> says the dispute was settled." }
+              { text: "the findings contradict one another.", misreads: "Collectively decisive", why: "<i>Collectively decisive</i> rules that out." },
+              { text: "the findings were all disputed and remain so.", misreads: "Decisive", why: "<i>Decisive</i> says the dispute was settled." }
             ] },
           { para: 3, q: "What would the author say about a field that accepted a framework-overturning claim immediately?",
             options: [
               { text: "It would not be applying the standard such a claim deserves.", correct: true,
                 why: "The last clause says a claim that overturns ought to be examined harder than one that confirms." },
-              { text: "It would be admirably open-minded.", why: "The article defends the slowness." },
-              { text: "It would be behaving as archaeology did.", why: "Archaeology took twenty years." }
+              { text: "It would be admirably open-minded.", misreads: "overread", why: "The article defends the slowness." },
+              { text: "It would be behaving as archaeology did.", misreads: "overread", why: "Archaeology took twenty years." }
             ] }
         ] },
 
@@ -161,8 +161,8 @@
           { para: 0, q: "How many boxes may you have out at once?",
             options: [
               { text: "One.", correct: true, why: "“One box at a time”." },
-              { text: "As many as you need.", why: "The card limits it." },
-              { text: "It does not say.", why: "It says exactly." }
+              { text: "As many as you need.", misreads: "overread", why: "The card limits it." },
+              { text: "It does not say.", misreads: "overread", why: "It says exactly." }
             ] }
         ] },
 
@@ -255,29 +255,29 @@
             options: [
               { text: "The method dates the sample, and connecting that to human activity is a separate inference.", correct: true,
                 why: "The three sections are the measurement, the inference, and why the gap between them is easy to miss." },
-              { text: "Radiocarbon dating is unreliable.", why: "The article calls the measurement correct, which is the whole force of its argument." },
-              { text: "Driftwood should never be dated.", why: "Driftwood is the example, and the article's point is about the inference rather than the material." }
+              { text: "Radiocarbon dating is unreliable.", misreads: "measurement", why: "The article calls the measurement correct, which is the whole force of its argument." },
+              { text: "Driftwood should never be dated.", misreads: "driftwood", why: "Driftwood is the example, and the article's point is about the inference rather than the material." }
             ] },
           { para: 1, q: "What exactly does the method measure?",
             options: [
               { text: "When the organism stopped exchanging carbon with the atmosphere.", correct: true,
                 why: "Stated twice, and the second time with the gloss <i>that moment is the death of the organism</i>." },
-              { text: "When people were present at the site.", why: "That is what the archaeologist wants and what the method does not give." },
-              { text: "How long the sample lay in the ground.", why: "The article never mentions burial duration." }
+              { text: "When people were present at the site.", misreads: "archaeologist", why: "That is what the archaeologist wants and what the method does not give." },
+              { text: "How long the sample lay in the ground.", misreads: "absent", why: "The article never mentions burial duration." }
             ] },
           { para: 2, q: "Why does the article call a driftwood date “a correct measurement of the wrong event”?",
             options: [
               { text: "The number is accurate for the wood's death, which may long precede the fire.", correct: true,
                 why: "Both halves have to be held: accurate, and about something else. That is what makes the problem hard to see." },
-              { text: "Driftwood cannot be dated accurately.", why: "It can; the article says the measurement is correct." },
-              { text: "The laboratory applied the wrong correction.", why: "No processing error is involved — that was Lesson 4's conversation." }
+              { text: "Driftwood cannot be dated accurately.", misreads: "measurement", why: "It can; the article says the measurement is correct." },
+              { text: "The laboratory applied the wrong correction.", misreads: "overread", why: "No processing error is involved — that was Lesson 4's conversation." }
             ] },
           { para: 3, q: "Where does the article say the clue lies?",
             options: [
               { text: "In the record of what the sample was and where it lay.", correct: true,
                 why: "The last sentence puts it there explicitly, and adds <i>not in the date</i>." },
-              { text: "In the stated uncertainty on the determination.", why: "The uncertainty describes the measurement, which is not where the problem is." },
-              { text: "In the number of samples submitted.", why: "Sample count is not discussed in this article." }
+              { text: "In the stated uncertainty on the determination.", misreads: "uncertainty", why: "The uncertainty describes the measurement, which is not where the problem is." },
+              { text: "In the number of samples submitted.", misreads: "sample", why: "Sample count is not discussed in this article." }
             ] }
         ] },
 
@@ -292,33 +292,33 @@
             options: [
               { text: "No one find settled it; many unremarkable finds, each disputable on its own, together did.", correct: true,
                 why: "Keeps the negative half, the accumulation, and the contrast between individually arguable and collectively decisive." },
-              { text: "A series of spectacular discoveries forced the revision.",
+              { text: "A series of spectacular discoveries forced the revision.", misreads: "spectacular",
                 why: "The sentence says the opposite of <i>spectacular</i> in its second half." },
-              { text: "Each of the finds was decisive on its own.",
+              { text: "Each of the finds was decisive on its own.", misreads: "Individually arguable",
                 why: "<i>Individually arguable</i> rules this out, and it is the clause that makes the sentence interesting." },
-              { text: "The evidence was too ordinary to force a revision.",
+              { text: "The evidence was too ordinary to force a revision.", misreads: "overread",
                 why: "Reverses the outcome. It did force one." }
             ] },
           { source: "That delay is often told as a story of stubbornness, but it is better understood as the system working slowly and correctly.",
             options: [
               { text: "People usually explain the delay as obstinacy; it makes more sense as caution doing its job.", correct: true,
                 why: "Keeps <i>often told</i> as a report of how others describe it, and keeps the author's own reading as a preference rather than a proof." },
-              { text: "The delay was caused by stubbornness.",
+              { text: "The delay was caused by stubbornness.", misreads: "overread",
                 why: "That is the account the sentence sets aside." },
-              { text: "The system always works slowly and correctly.",
+              { text: "The system always works slowly and correctly.", misreads: "Better understood as",
                 why: "<i>Better understood as</i> is about this case, and it does not generalise." },
-              { text: "The delay was neither stubborn nor correct.",
+              { text: "The delay was neither stubborn nor correct.", misreads: "overread",
                 why: "The sentence does choose: it prefers the second reading." }
             ] },
           { source: "Nothing in the number itself reveals the discrepancy, because the laboratory reports the age of the sample and makes no claim at all about the activity.",
             options: [
               { text: "You cannot see the problem in the date, since the lab is only reporting the sample's age, not what people were doing.", correct: true,
                 why: "Keeps the invisibility, the reason, and the limited scope of the laboratory's claim." },
-              { text: "The laboratory conceals the discrepancy.",
+              { text: "The laboratory conceals the discrepancy.", misreads: "makes",
                 why: "It makes no claim about the activity, which is not the same as hiding anything." },
-              { text: "The number is wrong, which is why the discrepancy is invisible.",
+              { text: "The number is wrong, which is why the discrepancy is invisible.", misreads: "number",
                 why: "The number is right. That is precisely why the discrepancy is invisible." },
-              { text: "Laboratories should report on the activity as well.",
+              { text: "Laboratories should report on the activity as well.", misreads: "overread",
                 why: "A recommendation the sentence does not make; the next sentence puts the responsibility elsewhere." }
             ] }
         ] },
@@ -333,15 +333,15 @@
           { para: 0, q: "When must a box be ordered?",
             options: [
               { text: "By four o'clock the day before.", correct: true, why: "Line 1 gives both the time and the day." },
-              { text: "By four o'clock on the day.", why: "<i>The day before</i> is the part that matters." },
-              { text: "A week in advance.", why: "No week is mentioned." }
+              { text: "By four o'clock on the day.", misreads: "The day before", why: "<i>The day before</i> is the part that matters." },
+              { text: "A week in advance.", misreads: "overread", why: "No week is mentioned." }
             ] },
           { para: 0, q: "You order a box on Friday morning. When does it arrive?",
             options: [
               { text: "Monday.", correct: true,
                 why: "Line 4 states the rule for Friday orders, overriding the day-before rule in line 1." },
-              { text: "Saturday.", why: "Line 4 names Monday, not the next calendar day." },
-              { text: "Friday afternoon.", why: "Line 1 already rules out same-day collection." }
+              { text: "Saturday.", misreads: "Monday", why: "Line 4 names Monday, not the next calendar day." },
+              { text: "Friday afternoon.", misreads: "overread", why: "Line 1 already rules out same-day collection." }
             ] }
         ] },
 

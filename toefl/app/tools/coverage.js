@@ -172,6 +172,16 @@ function longestRun(list) {
   }
   return worst;
 }
+/* does this scene show a passage, its own or one it carries? */
+const hasPassage = s => !!(s.text || s.carry);
+/* kinds whose options are claims about the passage's meaning */
+const READS = new Set(['read', 'choice', 'paraphrase', 'chartread', 'selectintext', 'tfni']);
+const everyWrongOption = (s, fn) => {
+  const all = [].concat(s.items || [], s.gaps || [])
+    .reduce((a, i) => a.concat((i && (i.options || i.opts)) || []), [])
+    .filter(o => o && !o.correct);
+  return all.length > 0 && all.every(fn);
+};
 const stressMarked = s => (s.sentences || []).some(x => x && /\u00b7/.test(String(x.text)));
 /* the glossary lives on the text object, beside the footnotes it extends */
 const glossed = s => !!(s.text && ((Array.isArray(s.text.notes) && s.text.notes.length) ||
@@ -259,7 +269,16 @@ const FIXES = [
 ["F10","Paragraph spine",
   s=>s.kind==='read'&&items(s).length>0,     s=>eng('paraSpine')&&everyItem(s,i=>i.para!=null), 'scene', 48],
 ["F11","Distractor autopsy",
-  s=>withOptions(s),                         s=>eng('autopsy')&&everyItem(s,i=>!(i.options||i.opts||[]).length||i.misreads!=null), 'scene', 204],
+  /* "which word in the passage it misreads" only means something where
+     there IS a passage: 55 scenes have one, their own or one they carry.
+     And `misreads` lives on an option, not on the item \u2014 the earlier
+     predicate looked for it on the item and so could never be true. */
+  /* And only where the options are READINGS of that passage. A cloze
+     carries a passage for context, but its options are grammatical
+     choices: "which word does this misread" is not a question about them,
+     and the rationale already says what the right answer turns on. */
+  s=>hasPassage(s)&&withOptions(s)&&READS.has(s.kind),
+    s=>eng('autopsy')&&everyWrongOption(s, o=>o.misreads!=null), 'scene', 55],
 
 /* ---- listening --------------------------------------------------------- */
 ["F12","Transcript after, never before",

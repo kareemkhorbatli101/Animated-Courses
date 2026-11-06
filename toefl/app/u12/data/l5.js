@@ -129,29 +129,29 @@
             options: [
               { text: "Two different claims about audiences are routinely run together, and separating them clarifies the argument.", correct: true,
                 why: "The second section names both and the third turns that into a reading discipline." },
-              { text: "Audiences complete the meaning of every work.", why: "The article treats that as the contested claim, not its own." },
-              { text: "Interactivity is a modern invention.", why: "It says the question is older than that language." }
+              { text: "Audiences complete the meaning of every work.", misreads: "overread", why: "The article treats that as the contested claim, not its own." },
+              { text: "Interactivity is a modern invention.", misreads: "question", why: "It says the question is older than that language." }
             ] },
           { para: 2, q: "What is the <i>weaker</i> claim the article identifies?",
             options: [
               { text: "That a work is experienced differently by different audiences.", correct: true,
                 why: "It calls this plainly true, and the critic example illustrates it." },
-              { text: "That a work is a different work for each audience.", why: "That is the stronger claim." },
-              { text: "That a play needs an audience to occur.", why: "That is the opening observation, not one of the two claims." }
+              { text: "That a work is a different work for each audience.", misreads: "stronger", why: "That is the stronger claim." },
+              { text: "That a play needs an audience to occur.", misreads: "overread", why: "That is the opening observation, not one of the two claims." }
             ] },
           { para: 2, q: "<i>The argument usually turns on that distinction without acknowledging that it has</i> means:",
             options: [
               { text: "the whole disagreement depends on a difference the writers do not name.", correct: true,
                 why: "<i>Turn on</i> means depend entirely upon, and <i>without acknowledging</i> is the criticism." },
-              { text: "the distinction is unimportant.", why: "The opposite — everything depends on it." },
-              { text: "both claims are false.", why: "The article calls the weaker one plainly true." }
+              { text: "the distinction is unimportant.", misreads: "overread", why: "The opposite — everything depends on it." },
+              { text: "both claims are false.", misreads: "weaker", why: "The article calls the weaker one plainly true." }
             ] },
           { para: 3, q: "What is the author's own view?",
             options: [
               { text: "That readers should ask which of the two claims is being made.", correct: true,
                 why: "<i>A useful discipline… is to ask</i> — the only sentence that recommends rather than describes." },
-              { text: "That criticism should be avoided.", why: "No such recommendation appears." },
-              { text: "That the stronger claim is false.", why: "It calls it <i>interesting</i>, which is deliberately not a verdict." }
+              { text: "That criticism should be avoided.", misreads: "appears", why: "No such recommendation appears." },
+              { text: "That the stronger claim is false.", misreads: "interesting", why: "It calls it <i>interesting</i>, which is deliberately not a verdict." }
             ] }
         ] },
 
@@ -164,8 +164,8 @@
           { para: 0, q: "When does the upper floor close?",
             options: [
               { text: "Half an hour before the rest of the building.", correct: true, why: "Stated exactly." },
-              { text: "At the same time as the rest.", why: "The card says earlier." },
-              { text: "It does not say.", why: "It gives the interval." }
+              { text: "At the same time as the rest.", misreads: "overread", why: "The card says earlier." },
+              { text: "It does not say.", misreads: "overread", why: "It gives the interval." }
             ] }
         ] },
 
@@ -263,29 +263,29 @@
             options: [
               { text: "Observation and interpretation are joined without a seam, so agreeing to one can commit you to the other.", correct: true,
                 why: "The three sections are the example, the refusal to complain about it, and the habit that follows." },
-              { text: "Critics should avoid attributing intentions.", why: "<i>Nothing is wrong with the sentence</i> — the article says so explicitly." },
-              { text: "Reviews should contain only checkable claims.", why: "That would be a catalogue, which the article names and rejects." }
+              { text: "Critics should avoid attributing intentions.", misreads: "Nothing is wrong with the sentence", why: "<i>Nothing is wrong with the sentence</i> — the article says so explicitly." },
+              { text: "Reviews should contain only checkable claims.", misreads: "catalogue", why: "That would be a catalogue, which the article names and rejects." }
             ] },
           { para: 1, q: "Which word does the article identify as carrying the interpretation?",
             options: [
               { text: "refuses", correct: true,
                 why: "Because it attributes an intention, and no sequence of images can display one." },
-              { text: "consolations", why: "A description of what such films usually offer, which is checkable against the genre." },
-              { text: "genre", why: "The classification is not what the article disputes." }
+              { text: "consolations", misreads: "films", why: "A description of what such films usually offer, which is checkable against the genre." },
+              { text: "genre", misreads: "overread", why: "The classification is not what the article disputes." }
             ] },
           { para: 2, q: "Why does the article say a purely checkable criticism would be worse?",
             options: [
               { text: "It would be a catalogue rather than an argument.", correct: true,
                 why: "The concession is doing real work: it stops the article recommending the thing it is warning about." },
-              { text: "It would be too short.", why: "Length is not mentioned." },
-              { text: "Nobody would read it.", why: "Readership is not the article's concern." }
+              { text: "It would be too short.", misreads: "absent", why: "Length is not mentioned." },
+              { text: "Nobody would read it.", misreads: "overread", why: "Readership is not the article's concern." }
             ] },
           { para: 3, q: "What question does the article recommend asking?",
             options: [
               { text: "What would I have to see in order to accept this?", correct: true,
                 why: "And the article adds the follow-up: has the writer shown it?" },
-              { text: "Is this claim true?", why: "The article says explicitly that this is not the useful question." },
-              { text: "Does the critic know the genre?", why: "Expertise is not what the habit tests." }
+              { text: "Is this claim true?", misreads: "useful", why: "The article says explicitly that this is not the useful question." },
+              { text: "Does the critic know the genre?", misreads: "overread", why: "Expertise is not what the habit tests." }
             ] }
         ] },
 
@@ -301,33 +301,33 @@
             options: [
               { text: "Obviously the same film is experienced differently by a newcomer and by a specialist.", correct: true,
                 why: "Keeps <i>experience</i>, which is the weaker of the two claims the article separates." },
-              { text: "A newcomer and a critic are watching two different films.",
+              { text: "A newcomer and a critic are watching two different films.", misreads: "overread",
                 why: "That is the stronger claim, and the next sentence calls it <i>another matter</i>." },
-              { text: "Critics understand films better than other viewers.",
+              { text: "Critics understand films better than other viewers.", misreads: "nothing",
                 why: "Nothing about understanding or quality; the claim is about difference." },
-              { text: "Tradition has no effect on how a film is watched.",
+              { text: "Tradition has no effect on how a film is watched.", misreads: "overread",
                 why: "Reverses it." }
             ] },
           { source: "The difficulty is only that the two kinds of claim are joined without a seam, so a reader who agrees with the first finds themselves having agreed to the second.",
             options: [
               { text: "The trouble is that nothing marks the join, so accepting the first half quietly commits you to the second.", correct: true,
                 why: "Keeps <i>only</i>, which limits the complaint, and keeps the mechanism." },
-              { text: "Critics deliberately disguise their interpretations as facts.",
+              { text: "Critics deliberately disguise their interpretations as facts.", misreads: "overread",
                 why: "Adds an intention the article is careful not to allege." },
-              { text: "Readers should not agree with the first half.",
+              { text: "Readers should not agree with the first half.", misreads: "overread",
                 why: "The first half is the checkable one; the article has no objection to it." },
-              { text: "The two kinds of claim cannot be separated.",
+              { text: "The two kinds of claim cannot be separated.", misreads: "overread",
                 why: "The whole article is an exercise in separating them." }
             ] },
           { source: "Where a writer has shown that thing, the argument is made; where they have not, the sentence marks the place at which the argument was supposed to happen and did not.",
             options: [
               { text: "If the evidence is there, the case stands; if not, the sentence shows where the case should have been built.", correct: true,
                 why: "Keeps both branches, and keeps the second one as a diagnosis rather than an accusation." },
-              { text: "A sentence without evidence is dishonest.",
+              { text: "A sentence without evidence is dishonest.", misreads: "argument",
                 why: "The article calls it a missing argument, not a lie." },
-              { text: "Writers should show their evidence in every sentence.",
+              { text: "Writers should show their evidence in every sentence.", misreads: "overread",
                 why: "A rule the article does not propose; it has just conceded that criticism cannot work that way." },
-              { text: "Arguments cannot be made in single sentences.",
+              { text: "Arguments cannot be made in single sentences.", misreads: "overread",
                 why: "The first branch says exactly that they can." }
             ] }
         ] },
@@ -342,15 +342,15 @@
           { para: 0, q: "When does the tour finish?",
             options: [
               { text: "At ten to three.", correct: true, why: "Lines 1 and 2 together: two o'clock plus fifty minutes." },
-              { text: "At three.", why: "Three is the time it no longer begins." },
-              { text: "The card does not say.", why: "It gives the start and the length, which is the same as giving the end." }
+              { text: "At three.", misreads: "three", why: "Three is the time it no longer begins." },
+              { text: "The card does not say.", misreads: "overread", why: "It gives the start and the length, which is the same as giving the end." }
             ] },
           { para: 0, q: "How can a place be booked?",
             options: [
               { text: "By any means except the telephone.", correct: true,
                 why: "Line 3 rules out one route and names no other, which is all you can conclude." },
-              { text: "Only in person.", why: "The card excludes the telephone and says nothing about what remains." },
-              { text: "Places cannot be booked at all.", why: "<i>Limited to twenty</i> implies they can." }
+              { text: "Only in person.", misreads: "telephone", why: "The card excludes the telephone and says nothing about what remains." },
+              { text: "Places cannot be booked at all.", misreads: "Limited to twenty", why: "<i>Limited to twenty</i> implies they can." }
             ] }
         ] },
 
