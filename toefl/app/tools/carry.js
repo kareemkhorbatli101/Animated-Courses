@@ -16,7 +16,7 @@ const APPLY = process.argv.includes('--apply');
 function load(p) { const src = fs.readFileSync(p, 'utf8'), w = {};
   new Function('window', src + '\n;return window.PAGE;')(w); return w.PAGE; }
 
-const REFERS = /\b(the|that) (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|card|notice|poster|leaflet|flyer|email|message|advert|advertisement|sign|schedule|timetable|form|receipt|label|post)\b|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b/i;
+const REFERS = /\bthe (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|card|notice|poster|leaflet|flyer|email|message|advert|advertisement|sign|schedule|timetable|form|receipt|label|post)\b(?!['’]s)|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b|\bfrom Lesson \d\b/i;
 const wantsChart = t => /\b(chart|graph|figure)\b/i.test(t);
 const wantsAudio = t => /\b(talk|lecture|conversation|discussion|announcement|speaker|hear)\b/i.test(t);
 const hasText  = s => !!s.text;

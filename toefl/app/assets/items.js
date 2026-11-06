@@ -12,6 +12,13 @@
      `text` contains "___" where the word goes. Given letters are shown; the
      rest are boxes. A wrong letter marks THAT box only, never the whole word. */
   D.register("letterbox", function (stage, spec, api) {
+    /* F2 — a scene that points at another lesson says what it is pointing
+       at, or the reference is a dead end for anyone who met it last week. */
+    if (spec.recall) {
+      var rc = E("p", "quiz-recall");
+      rc.innerHTML = spec.recall;
+      stage.appendChild(rc);
+    }
     var rows = [];
     spec.items.forEach(function (it, i) {
       var p = E("p", "item");

@@ -191,6 +191,7 @@
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
         concepts: ["word"],
+        recall: "From Lesson 1: <i>give off</i> and <i>use up</i> \u2014 the phrasal verbs these two single words replace in formal writing.",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. Both are the written form of a phrasal verb from Lesson 1.",
         items: [

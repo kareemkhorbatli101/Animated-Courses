@@ -130,7 +130,7 @@
               { text: "I am extremely frustrated that nobody has replied.",
                 why: "Opens with feeling, which puts the reader on the defensive." }
             ] },
-          { q: "The article says a failed replication does not prove the original wrong because:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on replication, and what a failed repetition does and does not establish.", q: "The article says a failed replication does not prove the original wrong because:", from: "Lesson 5",
             options: [
               { text: "the repetition may itself have been flawed.", correct: true, why: "One of the two reasons it gives." },
               { text: "the original was peer reviewed.", why: "Peer review is not offered as a defence." },

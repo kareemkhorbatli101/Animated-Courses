@@ -128,7 +128,7 @@
               { text: "the second syllable — re-CORD.", why: "That is the verb." },
               { text: "neither — both are equal.", why: "English words have one main stress." }
             ] },
-          { q: "The article calls the weaker claim:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on what an audience adds to a work, and where observation becomes interpretation.", q: "The article calls the weaker claim:", from: "Lesson 5",
             options: [
               { text: "plainly true.", correct: true, why: "And the stronger one <i>almost always interesting</i> — deliberately not a verdict." },
               { text: "obviously false.", why: "It accepts the weaker claim." },

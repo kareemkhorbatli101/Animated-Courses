@@ -114,6 +114,7 @@
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
         concepts: ["word", "claim"],
+        recall: "From On Campus: the talk arguing that open rule-breaking which accepts its penalty is a different act from quiet evasion.",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the talk in On Campus is argued with.",
         items: [

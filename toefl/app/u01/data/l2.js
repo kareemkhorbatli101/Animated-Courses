@@ -41,6 +41,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
         concepts: ["claim"],
+        carry: "1a",
         kind: "choice", task: "write-academic-discussion", cefr: "B2", n: 0,
         prompt: "Study the model. What does its third paragraph do that the first two do not?",
         options: [

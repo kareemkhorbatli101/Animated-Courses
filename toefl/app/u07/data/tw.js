@@ -135,7 +135,7 @@
               { text: "seasonal", why: "That is a pattern repeating each year." },
               { text: "financial", why: "That just means measured in money." }
             ] },
-          { q: "The article says a result can be:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on schemes, targets and verification \u2014 the one about the hospital that improved its numbers.", q: "The article says a result can be:", from: "Lesson 5",
             options: [
               { text: "technically correct and substantively absurd.", correct: true,
                 why: "Its closing phrase, and the whole thesis in four words." },

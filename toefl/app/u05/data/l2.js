@@ -38,6 +38,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
         concepts: ["claim"],
+        carry: "1a",
         kind: "choice", task: null, n: 0,
         prompt: "Which paragraph of the model does the most work for a busy reader?",
         options: [
@@ -51,6 +52,7 @@
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
         concepts: ["sequence"],
+        carry: "1a",
         kind: "sequence", task: null, n: 0,
         prompt: "The four jobs of the model, plus the one that comes before writing anything. Put them in order.",
         note: { kind: "writer",

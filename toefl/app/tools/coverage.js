@@ -104,7 +104,7 @@ const gradable = s => s.kind === 'choice' || s.kind === 'register-dial' ||
 const has = (s, ...f) => f.some(k => s[k] != null && (!Array.isArray(s[k]) || s[k].length));
 const txt = s => JSON.stringify(s);
 /* a scene that points at something it must therefore carry */
-const REFERS = /\bthe (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|card|notice|poster|leaflet|flyer|email|message|advert|advertisement|sign|schedule|timetable|form|receipt|label|post|model|email|post)\b|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b|\bfrom Lesson \d\b/i;
+const REFERS = /\bthe (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|card|notice|poster|leaflet|flyer|email|message|advert|advertisement|sign|schedule|timetable|form|receipt|label|post)\b(?!['’]s)|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b|\bfrom Lesson \d\b/i;
 /* A scene satisfies F2 by carrying the stimulus itself, or by naming the
    scene on its page that owns it (`carry`), which the deck carries in at
    render time. The gate separately proves every `carry` resolves and that
@@ -132,13 +132,14 @@ function workable(s) {
      count it as built */
   if (NO_WORKED.has(s.kind)) return false;
   const list = s.items || s.gaps || s.cards || s.sentences || s.pairs ||
-               s.steps || s.lines || s.phrases || [];
+               s.steps || s.lines || s.phrases || s.takeaways || [];
   const it = list[0];
   if (!it) return false;
   const answer = it.answer != null ? it.answer : it.right != null ? it.right
                : it.target != null ? it.target : it.job != null ? it.job
                : it.bin != null ? it.bin : it.pin != null ? it.word
-               : it.pos != null ? it.pos : it.meaning != null ? it.meaning
+               : it.pos != null ? it.pos : it.caseId != null ? it.caseId
+               : it.meaning != null ? it.meaning
                : (Array.isArray(it.options || it.opts)
                   ? ((it.options || it.opts).filter(o => o && o.correct)[0] || {}).text
                   : null);
@@ -147,6 +148,18 @@ function workable(s) {
   return answer != null || !!why;
 }
 /* every item carries its own passage */
+/* what a scene asks: its prompt and the question half of each item */
+/* a review draws on several lessons, so the reminder belongs on the item
+   that refers, not on the scene: the other eleven questions are self-
+   contained and would only be cluttered by it */
+const everyReferringItemRecalls = s => {
+  const refs = (s.items || []).filter(i => i && REFERS.test(String(i.q || i.text || '')));
+  return refs.length > 0 && refs.every(i => i.recall);
+};
+const asked = s => [String(s.prompt || ''), String(s.objective || '')]
+  .concat([].concat(s.items || [], s.gaps || [], s.steps || [])
+    .map(i => i && (i.q || i.stem || i.prompt || i.cue || '')))
+  .join(' ');
 const perItemText = s => (s.items || []).length > 0 &&
   (s.items || []).every(i => i && typeof i.text === 'string' && i.text.length > 40);
 /* the most items in a row drawn from one source */
@@ -190,7 +203,24 @@ const FIXES = [
      defects. What makes a scene read-only is having nothing to answer. */
   s=>true,                                   s=>!READONLY.has(s.kind)&&gradable(s), 'scene', 754],
 ["F2","Question on the page with its stimulus",
-  s=>REFERS.test((String(s.prompt||'')+txt(items(s))).replace(/<[^>]+>/g,' ')), s=>STIMULUS(s), 'scene', 204],
+  /* Test what the scene ASKS, not its rationales. "the reading wouldn't
+     have drifted" is a measurement, "the n belongs to the article" is the
+     grammatical article, and "takes the reading the unit exists to
+     correct" is an interpretation — none of them points at a text, and
+     all three were being counted as a scene missing its stimulus. */
+  /* "three words you will meet in the article" points forward to a text
+     that has not been read yet; it asks nothing about it, and carrying the
+     article into a vocabulary preview would defeat the preview. */
+  /* A retrieval deck asks you to recall a meaning, and the stimulus for
+     that is the card in front of you. A vocabulary preview that mentions
+     the article it is preparing you for is pointing forward, not asking
+     about it \u2014 and carrying the article into the preview would defeat
+     the preview. */
+  s=>s.kind!=='cards'&&REFERS.test(asked(s).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ')),
+  /* 147 scenes genuinely point at a stimulus. The plan's 204 and the
+     earlier 282 both counted rationales, where "the reading" is a
+     measurement and "the article" is the grammatical article a/an. */
+    s=>STIMULUS(s)||everyReferringItemRecalls(s), 'scene', 147],
 ["F3","Explain popup, four parts",
   s=>true,                                   s=>eng('explainPopup')&&(s.explain?['what','how','why','page'].every(k=>s.explain[k]):EXPLAINED.has(s.kind)), 'scene', 754],
 ["F4","Play button says this kind aloud",
@@ -311,13 +341,15 @@ const FIXES = [
 ["F39","Audio pack manifest",
   s=>true,                                   (s,p,w)=>!!(MANIFEST&&MANIFEST.units&&MANIFEST.units.includes(w)), 'unit', 12],
 ["F40","Worked first item",
-  s=>items(s).length>0,                      s=>eng('worked')&&workable(s), 'scene', 519],
+  /* 36 scenes are deliberately excluded: a shuffled retrieval deck and a
+     shadowing drill have nothing to work that would not spoil them. */
+  s=>items(s).length>0,                      s=>eng('worked')&&workable(s), 'scene', 574],
 ["F41","Retrieval before presentation",
   s=>s.kind==='cards',                       s=>eng('interactive6')&&s.retrievalFirst!==false, 'scene', 12],
 ["F42","Predict, then check",
   s=>items(s).length>0,                      s=>eng('predict'), 'scene', 519],
 ["F43","Faded worked examples",
-  s=>items(s).length>0,                      (s,p)=>eng('fade')&&eng('worked')&&workable(s), 'scene', 519],
+  s=>items(s).length>0,                      (s,p)=>eng('fade')&&eng('worked')&&workable(s), 'scene', 574],
 ["F44","Self-explanation after a miss",
   s=>items(s).length>0,                      s=>eng('selfExplain'), 'scene', 519],
 ["F45","Elaborative interrogation on distractors",

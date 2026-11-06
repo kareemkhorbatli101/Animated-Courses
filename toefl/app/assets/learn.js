@@ -10,6 +10,9 @@
    to a book that still works, not a book that stops. */
 (function (root, doc) {
   "use strict";
+  var plainText = function (h) {
+    return String(h == null ? "" : h).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  };
   var E = function (t, c, h) {
     var e = doc.createElement(t);
     if (c) e.className = c;
@@ -208,6 +211,13 @@
      gets in the way of someone who no longer needs it, so support that does
      not fade becomes a crutch: full in Lesson 1, offered but closed by
      Lesson 3, gone by Lesson 5. */
+  /* a recap answers with a case, which is named rather than written out */
+  function caseLabel(spec, id) {
+    var found = null;
+    (spec.cases || []).forEach(function (c) { if (c.id === id) found = c.label; });
+    return found;
+  }
+
   function firstItem(spec) {
     /* Every kind names its items and its answer differently. Rather than a
        branch per kind, which would need editing each time a kind is added,
@@ -215,7 +225,8 @@
        kind it cannot read gets no worked example, which is the honest
        outcome: better none than a wrong one. */
     var it = (spec.items || spec.gaps || spec.cards || spec.sentences ||
-              spec.pairs || spec.steps || spec.lines || spec.phrases || [])[0];
+              spec.pairs || spec.steps || spec.lines || spec.phrases ||
+              spec.takeaways || [])[0];
     if (!it) return null;
     var answer = it.answer != null ? it.answer
                : it.right != null ? it.right
@@ -224,6 +235,7 @@
                : it.bin != null ? it.bin          /* sort */
                : it.pin != null ? it.word         /* match: the word goes on the pin */
                : it.pos != null ? String(it.pos)  /* sequence: its place in the order */
+               : it.caseId != null ? caseLabel(spec, it.caseId)   /* recap */
                : it.meaning != null ? it.meaning
                : null;
     if (answer == null && Array.isArray(it.options || it.opts)) {
@@ -233,6 +245,7 @@
 
     var asked = it.q || it.stem || it.prompt || it.cue || it.group || it.say ||
                 it.text || it.term || (it.pin ? "Which thing in the picture is this?" : "") || "";
+    if (it.caseId != null) asked = plainText(it.text);
     /* A match pair's answer is a place in a picture, which cannot be
        written out. Its teaching is entirely in the rationale, so the
        worked example shows that and no answer line at all. */

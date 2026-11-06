@@ -115,7 +115,7 @@
               { text: "used to", why: "Double past marking." },
               { text: "using to", why: "Not a possible form." }
             ] },
-          { q: "The article says the chronology does not <i>entirely</i> support the attribution. <i>Entirely</i> signals that:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on the great fall in infectious mortality, and what the chronology shows about its cause.", q: "The article says the chronology does not <i>entirely</i> support the attribution. <i>Entirely</i> signals that:", from: "Lesson 5",
             options: [
               { text: "medicine mattered, but was not the main cause.", correct: true,
                 why: "The hedge concedes a real role while denying the leading one." },

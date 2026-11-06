@@ -199,6 +199,15 @@
       h.innerHTML = "<span class='n'>" + (i + 1) + ".</span> " + it.q +
         (it.from ? " <span style='color:var(--ink-3);font-size:12.5px'>" + it.from + "</span>" : "");
       stage.appendChild(h);
+      /* F2 — a review question that asks about a text read two lessons ago
+         must carry enough to find that text again. The snippet says which
+         article and what it was about; it does not say what it concluded,
+         because recalling that is the question. */
+      if (it.recall) {
+        var rc = E("p", "quiz-recall");
+        rc.innerHTML = it.recall;
+        stage.appendChild(rc);
+      }
       var sub = E("div");
       stage.appendChild(sub);
       graders.push(D._choiceInto(sub, it.options, api));

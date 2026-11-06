@@ -115,7 +115,7 @@
               { text: "down it", why: "Not possible with a pronoun." },
               { text: "down of it", why: "No such pattern." }
             ] },
-          { q: "The article says the number on a packet measures:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on what a calorie figure is measured by, and where the body and the machine part company.", q: "The article says the number on a packet measures:", from: "Lesson 5",
             options: [
               { text: "heat released when the food is burned in a laboratory.", correct: true, why: "Its exact claim, and the pivot of the piece." },
               { text: "energy absorbed by the body.", why: "That is precisely what it says the figure is <i>not</i>." },

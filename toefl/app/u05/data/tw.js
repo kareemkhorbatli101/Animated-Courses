@@ -127,7 +127,7 @@
               { text: "unstable", why: "That is about the orbit." },
               { text: "unexplored", why: "That describes a place, not a vehicle." }
             ] },
-          { q: "The article says early catalogues were a sample of:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on catalogues of planets, and what a detection method can and cannot see.", q: "The article says early catalogues were a sample of:", from: "Lesson 5",
             options: [
               { text: "what is convenient to detect.", correct: true, why: "Its exact phrase, and the pivot of the argument." },
               { text: "what exists.", why: "That is precisely what it says they were <i>not</i>." },

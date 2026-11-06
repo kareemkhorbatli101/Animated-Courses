@@ -133,7 +133,7 @@
               { text: "enforcing", why: "A gerund, not the abstract noun." },
               { text: "enforcation", why: "Not an English word." }
             ] },
-          { q: "The article says two accurate reports can differ because of:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on two accurate reports of the same meeting that leave opposite impressions.", q: "The article says two accurate reports can differ because of:", from: "Lesson 5",
             options: [
               { text: "selection and ordering.", correct: true, why: "Its two named levers." },
               { text: "one of them inventing facts.", why: "Explicitly ruled out." },

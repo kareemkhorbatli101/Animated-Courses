@@ -136,7 +136,7 @@
               { text: "harmful", why: "That is about damage, not confidence." },
               { text: "powerful", why: "That is about explanatory reach." }
             ] },
-          { q: "The article says a range means:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on projections and scenarios, and why climate results are published as a span rather than a figure.", q: "The article says a range means:", from: "Lesson 5",
             options: [
               { text: "the span across scenarios and across models.", correct: true,
                 why: "Those are the two sources it names." },

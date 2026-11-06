@@ -127,7 +127,7 @@
               { text: "too", why: "<i>Too</i> cannot follow a negative." },
               { text: "also", why: "Not used in this end position." }
             ] },
-          { q: "The article says the extra traffic comes from:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on widening a congested road, and why the congestion comes back.", q: "The article says the extra traffic comes from:", from: "Lesson 5",
             options: [
               { text: "journeys that were suppressed, or made at other times or by other means.", correct: true,
                 why: "All three sources, in one sentence." },

@@ -134,7 +134,7 @@
               { text: "within", why: "That is <i>intra-</i>." },
               { text: "against", why: "That is <i>anti-</i> or <i>counter-</i>." }
             ] },
-          { q: "The article calls the evidence “each individually arguable and collectively decisive”. This means:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on when people reached the Americas, and how a case is built from finds that are weak one at a time.", q: "The article calls the evidence “each individually arguable and collectively decisive”. This means:", from: "Lesson 5",
             options: [
               { text: "no one finding settles it, but together they do.", correct: true,
                 why: "The two adjectives are deliberately opposed." },

@@ -344,6 +344,7 @@
   function srcLabel(src) {
     if (src.cards) return "The terms from earlier, to look up";
     if (src.phrases) return "The phrases from earlier, to look up";
+    if (src.sentences) return "The model, carried here so you can look at it";
     if (src.text) return "The passage, carried here so you can cite it";
     if (src.chart) return "The chart, carried here";
     return "The audio, carried here";

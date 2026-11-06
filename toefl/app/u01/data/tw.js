@@ -143,7 +143,7 @@
               { text: "signed up early.", why: "<i>I'd have</i> marks something that did not happen." },
               { text: "has not decided whether to sign up.", why: "The decision is in the past." }
             ] },
-          { q: "In the article, the writer calls the feeling of easy material:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on why re-reading feels effective and is not \u2014 the one with the footnote on an illusion.", q: "In the article, the writer calls the feeling of easy material:", from: "Lesson 5",
             options: [
               { text: "fluency", correct: true, why: "Defined in the footnote: the sense that material is easy, which is not knowing it." },
               { text: "retrieval", why: "Retrieval is the method, not the feeling." },

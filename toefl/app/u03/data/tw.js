@@ -126,7 +126,7 @@
               { text: "varyness", why: "Not an English form." },
               { text: "varying", why: "A participle, not the process noun." }
             ] },
-          { q: "The article says what changed during the drought was:", from: "Lesson 5",
+          { recall: "From Lesson 5: the article on the finches after the drought, and what a changed average does and does not tell you.", q: "The article says what changed during the drought was:", from: "Lesson 5",
             options: [
               { text: "the composition of the population.", correct: true, why: "Its exact phrase, and the point of the final paragraph." },
               { text: "the beaks of individual birds.", why: "Explicitly denied." },

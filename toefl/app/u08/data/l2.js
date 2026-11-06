@@ -58,6 +58,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
         concepts: ["claim", "evidence"],
+        carry: "1a",
         kind: "choice", task: null, n: 0,
         prompt: "What does line 4 of the outline do that lines 1 to 3 do not?",
         options: [
@@ -71,6 +72,7 @@
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
         concepts: ["sequence", "evidence", "claim"],
+        carry: "1a",
         kind: "sequence", task: null, n: 0,
         prompt: "This unit's strategy is the outline. Put the five steps of building one in order.",
         note: { kind: "writer",

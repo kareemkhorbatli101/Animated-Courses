@@ -1054,3 +1054,8 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .rl-spine-dot.on{background:var(--ok);}
 .rl-spine-whole{flex:1 0 100%;font:400 12px/1.6 var(--ui);color:var(--ink-3);}
 @media (prefers-reduced-motion: reduce){ .rl-spine-dot{transition:none;} }
+
+/* F2 — a review item's reminder of the text it asks about */
+.quiz-recall{margin:4px 0 7px 26px;padding:7px 11px;border-radius:8px;
+  background:var(--sunk);border-left:3px solid var(--rule-2);
+  font:400 12.5px/1.6 var(--ui);color:var(--ink-3);}

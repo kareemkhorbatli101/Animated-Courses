@@ -43,6 +43,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
         concepts: ["claim"],
+        carry: "1a",
         kind: "choice", task: null, n: 0,
         prompt: "Which sentence in the model does the most to protect the reader?",
         options: [
