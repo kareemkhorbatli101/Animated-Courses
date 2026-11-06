@@ -38,6 +38,24 @@
             why: "<i>has been able to</i> — <i>has could</i> does not exist." }
         ] },
 
+            { id: "1c", section: 1, sectionTitle: "Review the passive", letter: "C",
+        kind: "cloze", task: null, n: 0,
+        prompt: "When the passive is the right choice, and when it is a place to hide. Complete the rule.",
+        heading: "Language connection: choosing the passive",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p>Use the passive when the doer is <b>unknown</b>, <b>irrelevant</b>, or <b>obvious</b>: <i>the samples were heated</i>.<br>Use it to put the important thing <b>first</b>: <i>the effect was reproduced by two groups</i>.<br>Avoid it when it conceals who is responsible: <i>mistakes were made</i>.</p>" },
+        text: "In a methods section the doer is usually ___ , which is why the passive belongs there. The passive also lets us put the thing we are writing about at the ___ of the sentence. We keep the agent, with <i>by</i>, when the agent is part of the ___ . And the passive is a poor choice when dropping the agent hides who is ___ .",
+        gaps: [
+          { options: ["irrelevant", "unknown"], answer: "irrelevant",
+            why: "Everyone knows the researchers heated the samples; saying so adds nothing." },
+          { options: ["front", "end"], answer: "front",
+            why: "<i>Absorbance was measured…</i> puts the quantity first, where the reader is looking for it." },
+          { options: ["claim", "method"], answer: "claim",
+            why: "<i>reproduced by two independent groups</i> — the independence is the finding." },
+          { options: ["responsible", "present"], answer: "responsible",
+            why: "<i>Mistakes were made</i> is grammatical, and it is the standard example of the passive used as cover." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
@@ -68,6 +86,62 @@
             why: "<i>has been able to</i>. <i>Has could</i> does not exist — this is the reason the form is taught." }
         ] },
 
+            { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
+        prompt: "Six more. Decide in each case whether the agent earns its place.",
+        items: [
+          { cue: "A passive with the agent dropped.", band: "A2",
+            target: "The protocol was registered before the study began",
+            extra: ["registering", "by", "we"],
+            why: "Who registered it is not the point; the order of events is." },
+          { cue: "A passive with the agent kept.", band: "B1",
+            target: "The result was confirmed by a laboratory with no connection to the first",
+            extra: ["confirming", "from", "which"],
+            why: "<i>By</i> stays because the independence of the second laboratory is the whole claim." },
+          { cue: "A passive in the present, as a standing fact.", band: "B1",
+            target: "Each instrument is calibrated twice a year",
+            extra: ["calibrate", "calibrating", "by"],
+            why: "Present passive for a routine. The agent is a technician nobody needs named." },
+          { cue: "<i>Be able to</i> after a modal.", band: "B2",
+            target: "A smaller study might not be able to detect an effect of that size",
+            extra: ["could", "can", "cannot"],
+            why: "<i>Might can</i> does not exist, so the only route to this meaning is <i>be able to</i>." },
+          { cue: "A passive carrying a hedge.", band: "B2",
+            target: "These findings are widely regarded as provisional",
+            extra: ["regarding", "by", "which"],
+            why: "<i>Are regarded</i> attributes the judgement to the field rather than to the writer, which is exactly what it is for." },
+          { cue: "An active sentence that should stay active.", band: "C1",
+            target: "The second team reported the failure to replicate within a month",
+            extra: ["was", "reported by", "being"],
+            why: "Here the doer is the news. Making this passive would bury the one fact worth having." }
+        ] },
+
+      { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        kind: "errorfix", task: null, n: 0,
+        prompt: "Five sentences from reports. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
+        items: [
+          { text: "Each instrument is calibrate twice a year.",
+            fixed: "Each instrument is calibrated twice a year.",
+            wrong: "calibrate", right: "calibrated",
+            why: "A passive needs the participle, and the missing ending is swallowed before <i>twice</i>." },
+          { text: "The effect has been reproduce by two other groups.",
+            fixed: "The effect has been reproduced by two other groups.",
+            wrong: "reproduce", right: "reproduced",
+            why: "<i>Has been</i> is followed by the participle, not the bare verb." },
+          { text: "A smaller study might not can detect an effect that size.",
+            fixed: "A smaller study might not be able to detect an effect that size.",
+            wrong: "can", right: "be able to",
+            why: "Two modals cannot stand together, which is the gap <i>be able to</i> exists to fill." },
+          { text: "The findings are widely regarded like provisional.",
+            fixed: "The findings are widely regarded as provisional.",
+            wrong: "like", right: "as",
+            why: "<i>Regard as</i> is fixed. <i>Like</i> would be a comparison rather than a classification." },
+          { text: "The samples was assigned to groups by computer.",
+            fixed: "The samples were assigned to groups by computer.",
+            wrong: "was", right: "were",
+            why: "<i>Samples</i> is plural, and the agent at the end pulls the eye away from the subject." }
+        ] },
+
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the noun. Both use this unit's suffix.",
@@ -76,6 +150,35 @@
             why: "<i>measure → measurement</i>." },
           { text: "No i___ is finer than its calibration.", answer: "instrument", given: [0, 1, 2],
             why: "<i>Instrument</i> — not derived from a modern verb." }
+        ] },
+
+      { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
+        prompt: "Two more nouns from this unit. Only one takes <b>-ment</b>.",
+        items: [
+          { text: "The a___ of samples to groups was done by computer.", answer: "assignment", given: [0, 1],
+            why: "<i>assign → assignment</i>, and doing it by machine is what makes it random rather than convenient." },
+          { text: "No conclusion stands without r___ by an independent group.", answer: "replication", given: [0, 1],
+            why: "<i>replicate → replication</i>: <i>-ation</i>, not <i>-ment</i>. The suffix cannot be predicted from the meaning." }
+        ] },
+
+      { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        kind: "wordbank", task: null, n: 0,
+        prompt: "Drag a form into each gap. Two in the bank are not used, and both of them are modals with no form available here.",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p><i>Can</i> has a present and a past and nothing else: no infinitive, no participle, no form after another modal. Every one of those gaps is filled by <i>be able to</i>.</p>" },
+        extra: ["can", "could"],
+        items: [
+          { text: "No group ___ reproduce the original finding.", answer: "has been able to",
+            why: "a perfect, where <i>can</i> has no form at all." },
+          { text: "A smaller study might not ___ detect an effect that size.", answer: "be able to",
+            why: "after another modal, where two modals cannot stand together." },
+          { text: "The second team ___ reproduce it, after three attempts.", answer: "was able to",
+            why: "a past success on a particular occasion — here <i>could</i> would actually be weaker." },
+          { text: "We hope ___ publish the replication this year.", answer: "to be able to",
+            why: "an infinitive, which <i>can</i> does not have." },
+          { text: "Each instrument ___ twice a year.", answer: "is calibrated",
+            why: "a present passive, and the one gap here that is not about modals at all." }
         ],
         closer: { kind: "test", body: "<p>Close the page. Write three sentences of a method in the passive, then say for each whether naming the agent would add anything.</p>" } }
     ]

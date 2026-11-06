@@ -30,6 +30,40 @@
     source: "Department of Chemistry"
   };
 
+  /* The second academic passage: the first is about results that will not
+     repeat, this one about why nobody tries. */
+  var PASSAGE2 = {
+    masthead: "NOBODY IS PAID TO CHECK", every: 1,
+    blocks: [
+      { h: "A gap with no villain in it", lines: [
+        "The replication projects are often read as exposing carelessness, and that reading misses what they actually found.",
+        "No part of the system rewards repeating somebody else's experiment, and almost every part of it rewards producing something new."
+      ] },
+      { h: "Where the incentives point", lines: [
+        "Appointments, grants and promotions are decided on original findings; a successful replication adds nothing to a record and a failed one makes an enemy.",
+        "Journals have historically declined both, on the entirely consistent ground that neither is news.",
+        "A researcher who spends a year checking a published claim has therefore spent a year that counts for nothing, whatever the year establishes."
+      ] },
+      { h: "Why the remedies are procedural", lines: [
+        "Changes that depend on individual virtue have been tried for a century and have not worked, which is why the measures now being adopted alter the procedure instead.",
+        "Registering an analysis before the data exist, requiring materials to be shared, and accepting papers on the method alone each remove a decision from the point where the incentive bites."
+      ] }
+    ],
+    notes: ["incentive: a reason to act that the rules create, whatever anybody intends — the sense Unit 7 established"],
+    source: "Written for this book"
+  };
+
+  var NOTICE2 = {
+    masthead: "EQUIPMENT · TRAINING", mastColor: "blue", every: 1,
+    blocks: [{ lines: [
+      "Training must be completed before your first booking, not before your first use.",
+      "Training is valid for two years.",
+      "A lapsed user may book only with a trained member of the group present.",
+      "Calibration records are held by the technician and released on request."
+    ] }],
+    source: "Department of Chemistry"
+  };
+
   window.PAGE = {
     id: "u11-l5", unit: "u11", block: "l5", up: "../", tab: "ACADEMIC",
     objective: "Say it back in your own words, and read a graphic",
@@ -120,6 +154,26 @@
             why: "Funding is never mentioned." }
         ] },
 
+            { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
+        kind: "selectintext", task: null, n: 0,
+        prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
+        note: { kind: "reader",
+                body: "<p>This unit's reading strategy is paraphrasing. The sentence worth paraphrasing is the one that would survive if you deleted everything else — and it is very rarely the sentence with the percentage in it.</p>" },
+        items: [
+          { prompt: "Which sentence states what the finding does NOT show?",
+            text: "Fewer than half the original effects were recovered. The projects were large and the teams independent. A failed replication does not establish that the original was wrong, since the repetition may itself have been flawed. Several of the original authors have since published further data.",
+            answer: "A failed replication does not establish that the original was wrong, since the repetition may itself have been flawed.",
+            why: "The only sentence in the negative, and it is there because the obvious inference is the wrong one." },
+          { prompt: "Which sentence gives the cause rather than the effect?",
+            text: "Negative results are published far less often than positive ones. The literature therefore over-represents effects that exist. Editors have historically regarded a null finding as not news. Readers who meta-analyse the published record inherit the distortion.",
+            answer: "Editors have historically regarded a null finding as not news.",
+            why: "The other three describe the distortion and its consequences; only this one says where it comes from." },
+          { prompt: "Which sentence describes a remedy rather than a problem?",
+            text: "An analysis chosen after the data are seen can be chosen to fit them. This is not usually deliberate and is very hard to detect afterwards. Registering the analysis in advance removes the possibility entirely. The practice is now required by several journals.",
+            answer: "Registering the analysis in advance removes the possibility entirely.",
+            why: "The last sentence reports uptake, which is not the same as describing what the remedy does." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "This unit's suffix, in the article's register.",
@@ -157,9 +211,129 @@
               { text: "Because medicine received about four times as much.", why: "The figures say 106 against 54." },
               { text: "Because the circles are not to scale.", why: "They are — that is precisely the problem." }
             ] }
+        ] },
+
+      /* ---------------- 4 Read a second article ---------------- */
+      { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
+        prompt: "A second article, on why the first article's problem persists. Read it, then answer.",
+        text: PASSAGE2,
+        note: { kind: "reader",
+                body: "<p>Paraphrase each heading before you read under it. The third one promises remedies, and it is the only section that does not describe something going wrong.</p>" },
+        items: [
+          { q: "What is the main idea?",
+            options: [
+              { text: "The shortage of replication follows from the incentives, not from carelessness.", correct: true,
+                why: "The first section rejects the carelessness reading; the second shows where the incentives point." },
+              { text: "Researchers are careless about checking their work.", why: "<i>That reading misses what they actually found</i> — the article rejects it in its second sentence." },
+              { text: "Replication projects were badly designed.", why: "Their design is not criticised anywhere." }
+            ] },
+          { q: "What does the article say a successful replication adds?",
+            options: [
+              { text: "Nothing to the researcher's record.", correct: true,
+                why: "And the failed one is worse than nothing: it makes an enemy." },
+              { text: "A citation and a publication.", why: "Journals have historically declined them." },
+              { text: "A claim on a grant.", why: "Grants are listed among the things decided on original findings." }
+            ] },
+          { q: "Why does the article call the journals' position “entirely consistent”?",
+            options: [
+              { text: "Neither kind of replication is news, which is the standard they apply to everything.", correct: true,
+                why: "The phrase concedes that the journals are not behaving oddly, which is what makes the problem structural." },
+              { text: "Because journals always publish replications.", why: "The article says they have historically declined them." },
+              { text: "Because the standard is written down.", why: "No written rule is mentioned." }
+            ] },
+          { q: "Why are the remedies procedural rather than moral?",
+            options: [
+              { text: "Appeals to individual virtue have been tried for a century without working.", correct: true,
+                why: "Stated directly, and each remedy named afterwards removes a decision from where the incentive acts." },
+              { text: "Researchers cannot be trusted.", why: "The article has just finished arguing that nobody here is behaving badly." },
+              { text: "Procedures are cheaper.", why: "Cost is never discussed." }
+            ] }
+        ] },
+
+      { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        kind: "paraphrase", task: null, n: 0,
+        prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
+        note: { kind: "reader",
+                body: "<p>Two of these sentences refuse an inference the reader is about to make. A paraphrase that makes the inference anyway is not a simplification; it is the opposite of what the sentence says.</p>" },
+        items: [
+          { source: "A failed replication does not establish that the original was wrong, because the repetition may itself have been flawed.",
+            options: [
+              { text: "When a repeat fails, that does not prove the first study was mistaken: the repeat might be the faulty one.", correct: true,
+                why: "Keeps the refusal and the reason for it." },
+              { text: "A failed replication proves the original was wrong.",
+                why: "The exact inference the sentence exists to block." },
+              { text: "Replications are usually flawed.",
+                why: "<i>May have been</i> is a possibility, not a tendency." },
+              { text: "Neither study can be trusted.",
+                why: "The sentence withholds a verdict rather than condemning both." }
+            ] },
+          { source: "No part of the system rewards repeating somebody else's experiment, and almost every part of it rewards producing something new.",
+            options: [
+              { text: "Checking other people's work earns nothing, while novelty is rewarded nearly everywhere.", correct: true,
+                why: "Keeps both halves, and keeps <i>almost</i>." },
+              { text: "Researchers prefer doing new work.",
+                why: "Turns a fact about the rules into a fact about preferences — exactly the move the article warns against." },
+              { text: "The system punishes replication.",
+                why: "<i>Does not reward</i> is weaker than punishes, and the difference matters to the argument." },
+              { text: "New findings are more important than replications.",
+                why: "A judgement about value; the sentence is about what is rewarded." }
+            ] },
+          { source: "The published record had been treating individual studies as more conclusive than their methods warranted.",
+            options: [
+              { text: "Single studies were being read as settling more than their design could support.", correct: true,
+                why: "Keeps the comparison between what was claimed and what the method could carry." },
+              { text: "The published studies used poor methods.",
+                why: "The methods may be fine for what they can show; the overreach is in the reading." },
+              { text: "Individual studies should not be published.",
+                why: "A recommendation nowhere in the sentence." },
+              { text: "The record was deliberately misleading.",
+                why: "Nothing in the sentence attributes intent, and the whole article argues against doing so." }
+            ] }
+        ] },
+
+      /* ---------------- 5 Read in daily life again ---------------- */
+      { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
+        prompt: "A second card from the department. Read it.",
+        text: NOTICE2,
+        items: [
+          { q: "When must training be completed?",
+            options: [
+              { text: "Before you first book, not before you first use the machine.", correct: true,
+                why: "Line 1 draws exactly that distinction, which is the kind a card exists to settle." },
+              { text: "Before you first use the machine.", why: "Line 1 rules this out in its second half." },
+              { text: "Within two years of your first booking.", why: "Two years is how long training lasts, in line 2." }
+            ] },
+          { q: "Your training expired last month. Can you book?",
+            options: [
+              { text: "Yes, if a trained member of your group is present.", correct: true,
+                why: "Line 3 gives the one condition under which a lapsed user may still book." },
+              { text: "No, not until you retrain.", why: "Line 3 offers a way round it." },
+              { text: "Yes, with no conditions.", why: "The condition is the whole of line 3." }
+            ] }
+        ] },
+
+      { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
+        prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
+        items: [
+          { stem: "Calibration records are published online.", answer: "F", line: 4,
+            why: "Line 4 says they are held by the technician and released on request, which is not publication." },
+          { stem: "Retraining takes a full day.", answer: "NI", line: null,
+            why: "The card says training is needed and how long it lasts. How long it takes is never mentioned." }
+        ] },
+
+      { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "Two articles, one chart, one habit.",
+        text: { blocks: [{ lines: [
+          "<b>What the projects found</b> — fewer than half the effects reappeared.",
+          "<b>Why that persists</b> — nothing in the system pays anyone to check.",
+          "<b>What to ask of a single study</b> — has anybody else tried this, and what happened?"
         ],
         closer: { kind: "life",
-          body: "<p>Find an infographic online. Are its figures printed, or must you judge by size alone? If the latter, try reading two values off it and then check them.</p>" } }
+          body: "<p>Find an infographic online. Are its figures printed, or must you judge by size alone? If the latter, try reading two values off it and then check them.</p>" } }] } }
     ]
   };
 })();

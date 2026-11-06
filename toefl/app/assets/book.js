@@ -81,7 +81,7 @@
       campus: "take a position in a debate",
       strategy: { writing: "connecting words that show contrast; quotation marks",
                   reading: "comparing information from more than one source" } },
-    { n: 11, id: "u11", title: "How Science Works",           field: "scientific method",
+    { n: 11, id: "u11", title: "How Science Works",           field: "scientific method", doubled: true,
       grammar: ["the present passive", "active and passive voice", "the passive with by", "be able to + verb"],
       affix: "-ment", pron: "rising and falling intonation", chart: "bubble",
       campus: "acknowledge a classmate's contribution",
