@@ -32,7 +32,16 @@
     "evidenceFirst", /* F9  True and False wait for a citation; NI does not  */
     "dictationDiff", /* F17 word-aligned comparison, shown in place          */
     "shadow",        /* F16 speak along with the model; record where allowed */
-    "glossaryRail"   /* F7  the gloss opens where the word is, inline        */
+    "glossaryRail",  /* F7  the gloss opens where the word is, inline        */
+
+    /* Phase 6, writing and speaking (ws.js) */
+    "sideBySide",    /* F28 the model's sentences, each job named            */
+    "checklistPoints",/* F29 a tick must find the sentence that earns it     */
+    "wordRing",      /* F30 word count as a ring, read at a glance           */
+    "frames",        /* F31 sentence shapes inserted at the cursor           */
+    "bandRing",      /* F32 countdown with what a good answer is doing now   */
+    "modelAudio",    /* F33 the model answer spoken, not only written        */
+    "lengthCheck"    /* F34 your length against the model's                  */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

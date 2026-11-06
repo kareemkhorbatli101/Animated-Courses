@@ -54,7 +54,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
-        from: "1a",
+        carry: "1a",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [

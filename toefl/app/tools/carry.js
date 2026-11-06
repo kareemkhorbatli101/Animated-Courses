@@ -1,13 +1,13 @@
-/* carry.js — propose (and with --apply, write) the `from` reference that
+/* carry.js — propose (and with --apply, write) the `carry` reference that
    makes F2 true: a scene may not ask about a stimulus it does not carry.
 
    The passage, chart or talk keeps its single home. A scene that asks about
-   it names that scene in `from`, and the deck carries it in at render time.
+   it names that scene in `carry`, and the deck carries it in at render time.
    Copying the text into both scenes would be the other way to do this, and
    it would mean two copies free to drift apart.
 
    Usage: node tools/carry.js            report
-          node tools/carry.js --apply    write the `from` fields */
+          node tools/carry.js --apply    write the `carry` fields */
 'use strict';
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..');
@@ -42,7 +42,7 @@ for (const u of fs.readdirSync(ROOT).filter(d => /^u\d\d$/.test(d)).sort()) {
     const P = load(path.join(dd, f));
     if (!P || !P.scenes) continue;
     P.scenes.forEach((s, i) => {
-      if (carries(s) || s.from) return;
+      if (carries(s) || s.carry) return;
       /* strip tags first: the prompts write "the line of the <b>card</b>",
          and a regex looking for "the card" never sees it through the markup */
       const blob = (String(s.prompt || '') + ' ' + JSON.stringify(s.items || ''))
@@ -149,9 +149,9 @@ for (const file of Object.keys(edits)) {
     const re = new RegExp('(\\{\\s*id:\\s*"' + e.id + '"[\\s\\S]{0,400}?)(\\n(\\s*)kind:)');
     const before = src;
     src = src.replace(re, (m, head, kindPart, indent) => `${head}\n${indent}from: "${e.from}",${kindPart}`);
-    if (src === before) { console.log(`  ! could not place from on ${path.basename(file)}/${e.id}`); continue; }
+    if (src === before) { console.log(`  ! could not place carry on ${path.basename(file)}/${e.id}`); continue; }
     written++;
   }
   fs.writeFileSync(file, src);
 }
-console.log(`wrote ${written} \`from\` fields.`);
+console.log("wrote " + written + " carry fields.");

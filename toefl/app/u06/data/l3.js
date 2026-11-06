@@ -164,7 +164,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
-        from: "1a",
+        carry: "1a",
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a word into each gap. Two in the bank are not used, and both of them are possessives that need a noun after them.",
         extra: ["our", "their"],

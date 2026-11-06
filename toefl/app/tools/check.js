@@ -25,6 +25,11 @@ let pass = 0, fail = 0;
 const problems = [];
 function ok(m){ pass++; }
 function bad(where, m){ fail++; problems.push(`${where}: ${m}`); }
+/* fields one renderer owns, which another must not borrow */
+const RESERVED = {
+  from: { kinds: ['write-email'], owner: "the email renderer (the sender address)",
+          instead: 'carry' }
+};
 /* the same split the reader uses, so a line number here is the line the
    learner sees numbered on screen */
 function readingLines(t){
@@ -384,29 +389,40 @@ B.UNITS.forEach(u=>{
         if (first && first.split('/')[0] !== u.id) bad(where,`repeats a stem first used at ${first}: "${t.slice(0,54)}..."`);
         else if (!first) stems.set(k, where);
       });
+      /* Reserved-field lock. `from` is the sender address of an email and
+         nothing else; a carried stimulus is `carry`. Two renderers reading
+         the same field name for different things is the bug that `.dot`
+         and `.dialog` were in CSS, and it is silent in exactly the same
+         way, so the gate names the owner of each contested field. */
+      Object.keys(RESERVED).forEach(f => {
+        if (s[f] == null) return;
+        if (RESERVED[f].kinds.indexOf(s.kind) < 0)
+          bad(where, `uses "${f}", which belongs to ${RESERVED[f].owner}` +
+                     (RESERVED[f].instead ? ` — use "${RESERVED[f].instead}"` : ''));
+      });
       /* F2 carry lock. A scene that names a source must name one that is
          on its page and actually carries a stimulus, and a scene that cites
          line numbers must cite lines its source has. A dangling or wrong
          `from` is worse than none: the learner cites confidently from a
          text that does not say it. */
-      if (s.from) {
-        const src = P.scenes.filter(x => x.id === s.from)[0];
-        if (!src) bad(where, `from: "${s.from}" names no scene on this page`);
-        else if (src.id === s.id) bad(where, 'from: points at itself');
+      if (s.carry) {
+        const src = P.scenes.filter(x => x.id === s.carry)[0];
+        if (!src) bad(where, `carry: "${s.carry}" names no scene on this page`);
+        else if (src.id === s.id) bad(where, 'carry: points at itself');
         else if (!(src.text || src.chart || (src.audio && src.audio.lines)))
-          bad(where, `from: "${s.from}" carries no text, chart or audio`);
+          bad(where, `carry: "${s.carry}" carries no text, chart or audio`);
         else if (src.text) {
           const n = readingLines(src.text).length;
           (s.items || []).forEach((it, i) => {
             if (it && it.line != null && it.line > n)
-              bad(where, `item ${i + 1} cites line ${it.line} but ${s.from} has ${n} lines`);
+              bad(where, `item ${i + 1} cites line ${it.line} but ${s.carry} has ${n} lines`);
           });
         }
       }
       /* a scene that points at a stimulus must carry or name one */
-      if (!s.from && !(s.text || s.chart || s.scene || (s.audio && s.audio.lines)) &&
+      if (!s.carry && !(s.text || s.chart || s.scene || (s.audio && s.audio.lines)) &&
           (s.items || []).some(it => it && it.line != null))
-        bad(where, 'cites line numbers but carries no passage and names no `from`');
+        bad(where, 'cites line numbers but carries no passage and names no `carry`');
       checkScene(where, s, u);
       if (s.task) tally[s.task] = (tally[s.task]||0) + (s.n||0);
     });

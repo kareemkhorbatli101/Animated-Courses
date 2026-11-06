@@ -24,13 +24,16 @@
       lab.appendChild(cb);
       lab.appendChild(sp);
       r.appendChild(lab);
-      boxes.push({ cb: cb, text: t });
+      boxes.push({ cb: cb, text: t, id: "ck" + i });
     });
     host.appendChild(r);
     return boxes;
   }
 
   function counter(ta, host, min) {
+    /* F30 — a ring, read at a glance while writing. The plain number is
+       kept as the fallback when ws.js is not loaded. */
+    if (root.WS) return root.WS.wordRing(ta, host, min);
     var c = E("p", "wc");
     host.appendChild(c);
     function upd() {
@@ -107,7 +110,13 @@
     stage.appendChild(cols);
 
     var count = counter(mail.textarea, left, spec.minWords || null);
+    /* F31 — the shapes go above the checklist, because they help while you
+       write and the checklist is for when you have stopped. */
+    if (root.WS) root.WS.frames(left, mail.textarea, spec.frames);
+    if (root.WS && spec.modelJobs) root.WS.modelJobs(stage, spec.model, spec.modelJobs);
     var boxes = checklist(spec, stage);
+    /* F29 — a tick has to find the sentence that earns it. */
+    if (root.WS) root.WS.pointingChecklist(boxes, mail.textarea, stage);
 
     /* Draft survives Try Again and a reload: losing a draft is unforgivable. */
     var key = "toefl.draft." + (root.PAGE ? root.PAGE.id : "x") + "." + spec.id;
@@ -122,6 +131,14 @@
     return function () {
       var n = count(), ticked = boxes.filter(function (b) { return b.cb.checked; });
       var missing = boxes.filter(function (b) { return !b.cb.checked; });
+      /* F34 — your length against the model's. In writing this is really
+         measurable, unlike speaking, where nothing records what you said. */
+      var old = stage.querySelector(".ws-len");
+      if (old) old.parentNode.removeChild(old);
+      if (root.WS && spec.model && n) {
+        var mw = root.WS.words(String(spec.model).replace(/<[^>]+>/g, " "));
+        if (mw) root.WS.lengthVsModel(stage, n, mw);
+      }
       if (!n) return { ok: false, total: 1, verdict: "Nothing written",
                        html: "<p>Write the email first, then check it against the list.</p>" };
       if (spec.minWords && n < spec.minWords) {
@@ -170,7 +187,10 @@
     stage.appendChild(mine);
 
     var cnt = counter(ta, stage, spec.minWords || 100);
+    if (root.WS) root.WS.frames(stage, ta, spec.frames);
+    if (root.WS && spec.modelJobs) root.WS.modelJobs(stage, spec.model, spec.modelJobs);
     var boxes = checklist(spec, stage);
+    if (root.WS) root.WS.pointingChecklist(boxes, ta, stage);
 
     var key = "toefl.draft." + (root.PAGE ? root.PAGE.id : "x") + "." + spec.id;
     try {

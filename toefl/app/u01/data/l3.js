@@ -62,7 +62,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
-        from: "1a",
+        carry: "1a",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order. There are always more words than places.",
         items: [
@@ -124,7 +124,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
-        from: "1a",
+        carry: "1a",
         kind: "errorfix", task: null, n: 0,
         prompt: "Five more sentences from drafts. One word in each is wrong. Click it, then type the correction.",
         items: [

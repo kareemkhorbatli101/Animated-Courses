@@ -54,7 +54,7 @@
 
 
       { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
-        from: "2a",
+        carry: "2a",
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. In three of them the speaker is hedging, and the reply has to hear the hedge.",
         items: [
@@ -242,7 +242,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
-        from: "2a",
+        carry: "2a",
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Spelling counts; punctuation does not. Play as often as you need.",
         items: [

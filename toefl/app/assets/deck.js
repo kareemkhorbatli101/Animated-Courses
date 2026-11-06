@@ -291,13 +291,13 @@
             /* F2: a scene may not ask about a stimulus it does not carry.
                The passage, chart or talk has one home — the scene that
                teaches it — and a scene that asks about it names that scene
-               in `from`. Resolved here so no renderer has to go looking,
+               in `carry`. Resolved here so no renderer has to go looking,
                and so the text can never drift from its source by being
                copied twice. */
             source: (function () {
-              if (!spec.from) return null;
+              if (!spec.carry) return null;
               for (var i = 0; i < page.scenes.length; i++)
-                if (page.scenes[i].id === spec.from) return page.scenes[i];
+                if (page.scenes[i].id === spec.carry) return page.scenes[i];
               return null;
             })(),
             attempts: 0,

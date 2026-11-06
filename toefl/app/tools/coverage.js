@@ -83,10 +83,10 @@ const txt = s => JSON.stringify(s);
 /* a scene that points at something it must therefore carry */
 const REFERS = /\bthe (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|card|notice|poster|leaflet|flyer|email|message|advert|advertisement|sign|schedule|timetable|form|receipt|label|post|model|email|post)\b|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b|\bfrom Lesson \d\b/i;
 /* A scene satisfies F2 by carrying the stimulus itself, or by naming the
-   scene on its page that owns it (`from`), which the deck carries in at
-   render time. The gate separately proves every `from` resolves and that
+   scene on its page that owns it (`carry`), which the deck carries in at
+   render time. The gate separately proves every `carry` resolves and that
    cited line numbers exist in the source. */
-const STIMULUS = s => has(s, 'text', 'audio', 'chart', 'scene', 'recall', 'from', 'model', 'posts', 'lines', 'rows');
+const STIMULUS = s => has(s, 'text', 'audio', 'chart', 'scene', 'recall', 'carry', 'model', 'posts', 'lines', 'rows');
 /* every item of a scene, whatever the kind calls them */
 const items = s => [].concat(s.items || [], s.gaps || [], s.pairs || [], s.steps || [],
                              s.cards || [], s.phrases || [], s.sentences || [], s.takeaways || []);

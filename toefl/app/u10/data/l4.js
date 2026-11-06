@@ -54,7 +54,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
-        from: "2a",
+        carry: "2a",
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them concede something before disagreeing, which is the move this unit is about.",
         items: [

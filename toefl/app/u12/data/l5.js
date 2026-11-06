@@ -81,7 +81,7 @@
         after: "<p>The third is a phrasal verb doing academic work, which Unit 6 said was unusual.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
-        from: "1c",
+        carry: "1c",
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the article. Where is the author's own opinion most likely to be?",
         note: { kind: "reader",
@@ -143,7 +143,7 @@
         ] },
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
-        from: "1c",
+        carry: "1c",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>article</b>.",
         note: { kind: "reader",
@@ -158,7 +158,7 @@
         ] },
 
             { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
-        from: "4a",
+        carry: "4a",
         kind: "selectintext", task: null, n: 0,
         prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
         note: { kind: "reader",
@@ -258,7 +258,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
-        from: "4a",
+        carry: "4a",
         kind: "paraphrase", task: null, n: 0,
         prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
         note: { kind: "reader",
@@ -321,7 +321,7 @@
         ] },
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
-        from: "5a",
+        carry: "5a",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
         items: [

@@ -63,7 +63,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
-        from: "1a",
+        carry: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -78,7 +78,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
-        from: "1a",
+        carry: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the article in Lesson 5 is argued with.",
         items: [

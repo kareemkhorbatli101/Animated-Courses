@@ -62,7 +62,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
-        from: "1a",
+        carry: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -105,7 +105,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The suffix -al", letter: "B",
-        from: "2a",
+        carry: "2a",
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the adjective. The sentence tells you which noun it is built from.",
         items: [

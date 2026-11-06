@@ -163,7 +163,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
-        from: "1a",
+        carry: "1a",
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a verb form into each gap. Two in the bank are not used, and each of them is the wrong form for the verb in front of it.",
         note: { kind: "gram", title: "Grammar Notes",

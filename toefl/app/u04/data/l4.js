@@ -7,7 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
-        from: "2a",
+        carry: "2a",
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -54,7 +54,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
-        from: "2b",
+        carry: "2b",
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them use the present perfect, and the reply has to hear what it is doing.",
         items: [

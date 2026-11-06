@@ -136,32 +136,42 @@
                        label: "The question", once: false, src: spec.src });
     stage.appendChild(p);
 
-    var clock = E("div");
-    clock.style.cssText = "font:700 30px var(--mono);margin:12px 0;color:var(--ink-2)";
-    clock.textContent = seconds + "s";
-    stage.appendChild(clock);
+    /* F32 — a ring, and a descriptor that says what a good answer is DOING
+       at this point in the time, rather than only how many seconds are
+       left. A number counting down tells you to hurry; it does not tell
+       you what to say next, and that is the thing a learner at this level
+       does not yet know. */
+    var started = false, clk = null;
+    var bands = spec.bands || [
+      { upTo: Math.round(seconds * 0.2), says: "Opening: answer the question directly, in one sentence." },
+      { upTo: Math.round(seconds * 0.6), says: "Middle: one reason, then one specific example of it." },
+      { upTo: Math.round(seconds * 0.9), says: "Developing: say why that example matters, not another example." },
+      { upTo: seconds, says: "Closing: finish the sentence you are in. A clean stop beats a rushed point." }
+    ];
+    var clockHost = E("div", "ws-clock");
+    stage.appendChild(clockHost);
 
     var go = E("button", "btn btn-ghost", "Start the clock");
     go.type = "button";
     stage.appendChild(go);
-    var timer = null, started = false;
+
+    if (root.WS) clk = root.WS.countdown(clockHost, seconds, bands);
+    else {
+      var plain = E("div");
+      plain.style.cssText = "font:700 30px var(--mono);margin:12px 0;color:var(--ink-2)";
+      plain.textContent = seconds + "s";
+      clockHost.appendChild(plain);
+    }
+
     go.addEventListener("click", function () {
-      if (timer) return;
+      if (!clk) { started = true; return; }
       started = true;
-      var left = seconds;
       go.disabled = true;
-      go.textContent = "Speaking…";
-      timer = setInterval(function () {
-        left--;
-        clock.textContent = left + "s";
-        if (left <= 0) {
-          clearInterval(timer); timer = null;
-          clock.textContent = "Time";
-          clock.style.color = "var(--maroon)";
-          go.disabled = false;
-          go.textContent = "Again";
-        }
-      }, 1000);
+      go.textContent = "Speaking\u2026";
+      clk.start(function () {
+        go.disabled = false;
+        go.textContent = "Again";
+      });
     });
 
     var modelWrap = E("div");
@@ -171,7 +181,18 @@
     var model = E("div", "model");
     model.style.display = "none";
     model.innerHTML = spec.model || "";
-    rev.addEventListener("click", function () { model.style.display = ""; rev.style.display = "none"; });
+    rev.addEventListener("click", function () {
+      model.style.display = "";
+      rev.style.display = "none";
+      /* F33 — the model answers are written and were never spoken, on a
+         test where what is scored is the speaking. F34 — and its length
+         is the measure a learner can actually check themselves against. */
+      if (root.WS) {
+        var plain = String(spec.model || "").replace(/<[^>]+>/g, " ")
+                      .replace(/\s+/g, " ").trim();
+        if (plain) root.WS.modelAnswer(model, plain, seconds);
+      }
+    });
     modelWrap.appendChild(rev);
     modelWrap.appendChild(model);
     stage.appendChild(modelWrap);
