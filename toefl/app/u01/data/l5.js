@@ -126,7 +126,7 @@
         ] },
 
       { id: "1d", section: 1, sectionTitle: "Read", letter: "D",
-        kind: "read", task: "read-daily-life", cefr: "A2", n: 0,
+        kind: "read", task: "read-daily-life", cefr: "A2", n: 1,
         prompt: "Now a short everyday text. Read the card from the noticeboard.",
         text: NOTICE,
         items: [
@@ -168,7 +168,7 @@
 
       /* ---------------- 3 Talk it over ---------------- */
       { id: "3a", section: 3, sectionTitle: "Talk it over", letter: "A",
-        kind: "chartread", task: "read-academic-passage", cefr: "B2", n: 1,
+        kind: "chartread", task: "read-academic-passage", cefr: "B2", n: 0,
         prompt: "Look at the graph and read the note. Then answer the question.",
         note: { kind: "reader", body: "<p>Match each line to the key before you read any value off the chart. Then read the axis labels. Only then look at the shape.</p>" },
         chart: {
