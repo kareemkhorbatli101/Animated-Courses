@@ -1,6 +1,12 @@
 /* Unit 9 · Cities and Movement — ON CAMPUS
    Function: ask for directions on an unfamiliar campus. */
 (function () {
+
+  /* Two exercises use this talk: the comprehension items, and the outline
+     filled in while it plays. */
+  var TALK1 = { track: "9-12", label: "A map is a decision", lines: [{ who: "haddad", text:
+          "When you look at a map of a city you are looking at a decision, although it rarely announces itself as one. Streets do not arrange themselves. Somebody decided how wide they would be, who would pay for them, and what would be demolished to make room. Consider the grid. A grid is often described as the natural form of a city, and it is nothing of the kind. It is a form that makes land easy to survey, easy to divide and easy to sell, which is why it appears wherever land was being distributed quickly. The curving streets of an older European quarter are not a different aesthetic; they are the record of a different process, in which the street followed the boundary of whatever was already there. Now, why does this matter when you are reading about transport? Because the argument you will meet most often is that a city is congested because it was badly planned. Sometimes that is true. More often the city was planned for a different purpose, by people with different instruments, and what you are looking at is not a failure but an inheritance." }] };
+
   window.PAGE = {
     id: "u09-oc", unit: "u09", block: "oc", up: "../", tab: "NAVIGATIONAL",
     objective: "Ask for directions on an unfamiliar campus",
@@ -34,12 +40,41 @@
             ] }
         ] },
 
+            { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
+        prompt: "A second notice, read out on the shuttle. It plays once.",
+        speaker: "dan", speakerNote: "transport office",
+        audio: { track: "9-13", label: "From November", lines: [{ who: "dan", text:
+          "Three changes from November. The shuttle goes to every ten minutes until seven, which is better than it has been, and after seven it drops to one an hour on the hour, which is worse. The north gate stop closes while the path is resurfaced, and the nearest alternative is the library, about five minutes further on foot. And if you have a seminar that ends at half past seven, please tell your department rather than us: we set the timetable from the room bookings, and the bookings for the science building were submitted after the timetable was fixed." }] },
+        items: [
+          { q: "What changes about the evening service?",
+            options: [
+              { text: "After seven it drops to one bus an hour.", correct: true,
+                why: "He gives the improvement and the worsening in the same sentence, which is why the second half is easy to miss." },
+              { text: "It stops running after seven.", why: "There is still one an hour." },
+              { text: "It becomes more frequent all day.", why: "The ten-minute service runs only until seven." }
+            ] },
+          { q: "Why does he ask students to tell their department?",
+            options: [
+              { text: "The timetable is set from room bookings, which arrived late.", correct: true,
+                why: "The reason is the whole last sentence, and it explains why complaining to him would achieve nothing." },
+              { text: "The transport office does not take complaints.", why: "He is taking this one; he is redirecting the one that would work." },
+              { text: "Departments pay for the service.", why: "Funding is not mentioned." }
+            ] },
+          { q: "What is the alternative to the north gate stop?",
+            options: [
+              { text: "The library, five minutes further on foot.", correct: true,
+                why: "He names the substitute and its cost in the same breath, which is what makes it usable information." },
+              { text: "The science building.", why: "Not mentioned as a stop here." },
+              { text: "There is no alternative.", why: "He gives one." }
+            ] }
+        ] },
+
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on reading a city map. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
-        audio: { track: "9-12", label: "A map is a decision", lines: [{ who: "haddad", text:
-          "When you look at a map of a city you are looking at a decision, although it rarely announces itself as one. Streets do not arrange themselves. Somebody decided how wide they would be, who would pay for them, and what would be demolished to make room. Consider the grid. A grid is often described as the natural form of a city, and it is nothing of the kind. It is a form that makes land easy to survey, easy to divide and easy to sell, which is why it appears wherever land was being distributed quickly. The curving streets of an older European quarter are not a different aesthetic; they are the record of a different process, in which the street followed the boundary of whatever was already there. Now, why does this matter when you are reading about transport? Because the argument you will meet most often is that a city is congested because it was badly planned. Sometimes that is true. More often the city was planned for a different purpose, by people with different instruments, and what you are looking at is not a failure but an inheritance." }] },
+        audio: TALK1,
         transcript: "<p>A street plan is a record of decisions. A grid is not natural: it is a form that makes land easy to survey and sell. What looks like bad planning is often planning for a different purpose.</p>",
         items: [
           { q: "What is the speaker's main point?",
@@ -72,6 +107,64 @@
             ] }
         ] },
 
+            { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
+        prompt: "The same lecturer, on the number that decides which schemes get built.",
+        speaker: "haddad", speakerNote: "lecturer",
+        audio: { track: "9-14", label: "Counting the journeys nobody makes", lines: [{ who: "haddad", text:
+          "Last week I said a map is a decision. Today I want to show you a number that is also a decision, and it is the one that decides which transport schemes get built. The number is time saved. You take the journeys people currently make along a corridor, you work out how much quicker each would be after the scheme, you multiply by a value per hour, and you compare that with the cost. It is a perfectly reasonable thing to compute. Now ask yourself who is in that calculation. Everyone who already makes the journey. And who is not? The person who cannot cross the road on foot and therefore makes no journey at all. The child who is not allowed to walk to school. Neither of them has a journey time, because neither of them has a journey, so neither contributes a single minute to the total. The measure is not biased because somebody wanted it to be. It is biased because of what it is made of: it counts the journeys the network already permits, which is exactly the set of journeys that needs the least help. And a measure like that will recommend making easy journeys easier, forever, and it will do it with impeccable arithmetic." }] },
+        transcript: "<p>Time saved counts only the journeys people already make. The person who cannot cross the road has no journey time, because they have no journey — so the measure recommends making easy journeys easier, with impeccable arithmetic.</p>",
+        items: [
+          { q: "What is the speaker's main point?",
+            options: [
+              { text: "The dominant appraisal measure can only see journeys that already happen.", correct: true,
+                why: "She builds the measure up carefully, then asks who is inside it and who is not." },
+              { text: "Transport appraisal uses the wrong value per hour.", why: "She calls the computation perfectly reasonable; her objection is about who is in it." },
+              { text: "Most transport schemes are not worth building.", why: "She makes no claim about whether particular schemes are worthwhile." }
+            ] },
+          { q: "Why does the person who cannot cross the road contribute nothing?",
+            options: [
+              { text: "They make no journey, so they have no journey time.", correct: true,
+                why: "She says it twice, in slightly different words, because it is the hinge of the argument." },
+              { text: "Their journey is counted under walking rather than driving.", why: "There is no journey to count under any heading." },
+              { text: "They were not surveyed.", why: "Surveying is not the issue; the measure has nowhere to put them." }
+            ] },
+          { q: "What does she mean by saying the bias is not deliberate?",
+            options: [
+              { text: "It follows from what the measure is made of, not from anybody's intention.", correct: true,
+                why: "<i>It is biased because of what it is made of</i> — the same move Unit 7 made about incentives." },
+              { text: "Nobody has noticed it before.", why: "She is teaching it, and names administrations elsewhere in the course who act on it." },
+              { text: "The bias is too small to matter.", why: "She calls the effect systematic and permanent." }
+            ] },
+          { q: "What does she mean by “with impeccable arithmetic”?",
+            options: [
+              { text: "The sums are correct and the conclusion is still wrong.", correct: true,
+                why: "The phrase is there to stop you looking for an error in the calculation, which is where people look first." },
+              { text: "The arithmetic should be checked more carefully.", why: "She is saying it does not need checking." },
+              { text: "Transport economists are unusually careful.", why: "The remark is about the measure, not about the people using it." }
+            ] }
+        ] },
+
+      { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        kind: "notes", task: null, n: 0,
+        prompt: "Play the first talk again and complete the outline while it runs.",
+        audio: TALK1,
+        title: "Lecture — a map is a decision",
+        note: { kind: "reader",
+                body: "<p>She makes a claim, gives an example that is usually explained the wrong way, gives its real explanation, and ends with a warning about an argument you will meet. Four lines.</p>" },
+        lines: [
+          "Claim: a city map records a ___, not a natural form",
+          "- The grid is popular because it makes land easy to survey, divide and ___",
+          "- Curving streets are the record of a different ___ , not a different taste",
+          "- Warning: congestion is more often an ___ than a failure of planning"
+        ],
+        gaps: [
+          { answer: "decision", why: "her opening sentence, and the title of the whole talk." },
+          { answer: "sell", why: "the third item in her list, and the one that explains where grids appear." },
+          { answer: "process", why: "the street followed what was already there, which is a process rather than an aesthetic." },
+          { answer: "inheritance", why: "her closing word, and the thing she wants you to weigh before blaming planners." }
+        ] },
+
       { id: "c", section: 3, sectionTitle: "Ask for directions", letter: "A",
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. A good direction answers a question the asker did not know to ask.",
@@ -90,9 +183,35 @@
               "What will I see if I've gone too far?"
             ] }
           ] },
-        after: "<p>The third question is the one almost nobody asks, and it is the one that saves you. A landmark past the destination turns a direction into something you can check as you walk.</p>",
+        after: "<p>The third question is the one almost nobody asks, and it is the one that saves you. A landmark past the destination turns a direction into something you can check as you walk.</p>" },
+
+      { id: "c2", section: 3, sectionTitle: "Ask for directions", letter: "B",
+        kind: "table", task: null, n: 0,
+        prompt: "Complete the table from the chart in 3A. The right-hand column says what each question protects you from.",
+        caption: "Four questions, and what each one saves you",
+        head: ["Question", "What you say", "What it saves you from"],
+        rows: [
+          ["Name the destination", "Am I going the right way for the ___ building?", "an answer about a number you cannot recognise"],
+          ["Ask the time",         "How ___ is that on foot?", "<i>not far</i>, which means nothing"],
+          ["Ask for a landmark",   "Is it ___ after the library?", "doubting yourself halfway there"],
+          ["Ask what is too far",  "What will I see if I have gone too ___ ?", "walking twenty minutes past it before you ___"]
+        ],
+        gaps: [
+          { answer: "science", why: "a name the other person can picture; a building number is only useful to someone who already knows." },
+          { answer: "long", why: "a figure rather than a judgement." },
+          { answer: "signposted", why: "a checkpoint partway, so you find out early rather than at the end." },
+          { answer: "far", why: "the question almost nobody asks, and the one that makes a direction self-correcting." },
+          { answer: "stop", why: "the failure mode this question exists to prevent." }
+        ] },
+
+      { id: "c3", section: 3, sectionTitle: "Ask for directions", letter: "C",
+        kind: "read-only", task: null, n: 0,
+        prompt: "One sentence to leave with.",
+        text: { blocks: [{ lines: [
+          "Ask what you will see if you have gone too far. It is the only question that turns a direction into something you can check while you are still walking."
+        ],
         closer: { kind: "life",
-          body: "<p>Next time you ask the way, add the third question. Note whether the answer gets you there with less doubling back.</p>" } }
+          body: "<p>Next time you ask the way, add the third question. Note whether the answer gets you there with less doubling back.</p>" } }] } }
     ]
   };
 })();

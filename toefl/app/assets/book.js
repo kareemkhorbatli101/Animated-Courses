@@ -70,7 +70,7 @@
       affix: "re-", pron: "z and s in use (to)", chart: "pie-pair",
       campus: "report a problem to a supervisor",
       strategy: { writing: "writing an outline", reading: "reading text near a chart" } },
-    { n: 9,  id: "u09", title: "Cities and Movement",         field: "urban geography",
+    { n: 9,  id: "u09", title: "Cities and Movement",         field: "urban geography", doubled: true,
       grammar: ["time clauses to describe events", "comparing time clauses", "and...too, and...not either, but"],
       affix: "-er / -or", pron: "the schwa", chart: "compare-table",
       campus: "ask for directions on an unfamiliar campus",
