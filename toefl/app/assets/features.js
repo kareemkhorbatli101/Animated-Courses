@@ -59,7 +59,9 @@
     "calibration",   /* F52 where you were confident and wrong               */
     "worked",        /* F40 the first item done, with the thinking shown     */
     "fade",          /* F43 and withdrawn as the unit goes on                */
-    "askWhy"         /* F45 asked before the rationales are handed over      */
+    "askWhy",        /* F45 asked before the rationales are handed over      */
+    "audioFiles",    /* F39 a recording is looked up by the line it speaks   */
+    "arabicUI"       /* F36 chrome in Arabic; the English taught stays English */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

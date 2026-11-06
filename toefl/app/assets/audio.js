@@ -31,6 +31,33 @@
   }
 
   /* Build a player. opts: {track, src, text, speaker, once, onended} */
+  /* ---- where a recording of this line would live (F39) ----------------
+     The name is derived from the line itself, never from its position on
+     the scene, so a recording can only ever play against the words it was
+     made for. tools/audio-manifest.js computes the same name; the two
+     copies of this hash must agree. */
+  var sceneId = null;
+  function setScene(id) { sceneId = id; }
+  function hash(str) {
+    var h = 0x811c9dc5;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
+    }
+    return ("0000000" + h.toString(16)).slice(-8);
+  }
+  function plain(t) {
+    return String(t == null ? "" : t).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  }
+  function fileFor(text) {
+    var P = root.PAGE;
+    if (!P || !sceneId) return null;
+    var t = plain(text);
+    if (!t) return null;
+    return (P.up || "") + "audio/" + P.unit + "-" + P.block + "-" + sceneId +
+           "-" + hash(t) + ".mp3";
+  }
+
   function player(opts) {
     var wrap = doc.createElement("div");
     wrap.className = "player";
@@ -101,7 +128,17 @@
       if (played && opts.once !== false) return;
       played = true;
       wrap.classList.add("playing");
-      if (opts.src) { mode = "file"; playFile(); }
+      /* A recording if one has been dropped in, the speech engine if not.
+         The file handler already falls back on error, so a half-recorded
+         book plays recordings where they exist and speaks the rest. */
+      var src = opts.src;
+      if (!src) {
+        var one = Array.isArray(opts.text)
+          ? (opts.text.length === 1 ? opts.text[0].text : null)
+          : opts.text;
+        if (one) src = fileFor(one);
+      }
+      if (src) { mode = "file"; opts.src = src; playFile(); }
       else { mode = "tts"; playTTS(); }
     });
 
@@ -127,6 +164,7 @@
   }
 
   root.AudioKit = { player: player, stageFor: stageFor, pickVoice: pickVoice,
+                    setScene: setScene, fileFor: fileFor, hash: hash,
                     voices: function () { return voices; } };
 
   /* ---- listening item kinds: one audio, a cluster of choice items ---- */

@@ -88,6 +88,9 @@
       try { root.localStorage.setItem("toefl.theme", nx); } catch (e) {}
     });
     bar.appendChild(th);
+    /* F36 — the interface in Arabic, beside the theme switch. The English
+       being taught is never translated; the button says so. */
+    if (root.AR) root.AR.toggle(bar);
     return bar;
   }
 
@@ -326,6 +329,9 @@
 
     function render() {
       stopReading();
+      /* so a player built during this render knows which scene it is on,
+         and can look up a recording of its own line (F39) */
+      if (root.AudioKit && root.AudioKit.setScene) root.AudioKit.setScene(spec.id);
       stage.innerHTML = "";
       checkedHooks.length = 0;
       api.attempts = 0;
@@ -353,6 +359,7 @@
          miss (F44), and a record of what went wrong (F37). All optional,
          none of it gating Check Answers, because a learner who wants to
          just answer the question must always be able to. */
+      if (root.AR) root.AR.refresh();
       if (root.Learn) {
         var count = itemCount(spec);
         root.Learn.workedExample(stage, spec, page, api);

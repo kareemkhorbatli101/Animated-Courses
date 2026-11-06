@@ -268,7 +268,8 @@ for (const r of rows) {
   for (const u of scopeList) {
     r.applies++;
     let done = false;
-    try { done = !!r.met({}, {}); } catch (e) { done = false; }
+    /* unit- and book-level predicates are asked about the unit, not a scene */
+    try { done = !!r.met({}, {}, u); } catch (e) { done = false; }
     if (done) r.done++; else r.unmet.push(u);
   }
 }

@@ -26,6 +26,30 @@ const problems = [];
 function ok(m){ pass++; }
 function bad(where, m){ fail++; problems.push(`${where}: ${m}`); }
 /* fields one renderer owns, which another must not borrow */
+/* The recording file name is computed twice: once in assets/audio.js, to
+   look a recording up, and once in tools/audio-manifest.js, to name it.
+   If the two ever disagree the book silently stops finding its audio, so
+   the gate runs both on the same strings and compares. */
+function hashesAgree() {
+  const grab = (file) => {
+    const src = fs.readFileSync(path.join(__dirname, '..', file), 'utf8');
+    const i = src.indexOf('function hash(str)');
+    if (i < 0) return null;
+    const end = src.indexOf('}', src.indexOf('return (', i)) + 1;
+    return src.slice(i, end).replace('function hash', 'function');
+  };
+  const a = grab('assets/audio.js'), b = grab('tools/audio-manifest.js');
+  if (!a || !b) return 'one of the two hash functions is missing';
+  let fa, fb;
+  try { fa = eval('(' + a + ')'); fb = eval('(' + b + ')'); }
+  catch (e) { return 'a hash function would not parse: ' + e.message; }
+  const probes = ['', 'a', "Is this seat taken?", 'The Thursday drop-in moves to Library B-118.',
+                  'x'.repeat(200), 'punctuation, and \u2014 dashes!'];
+  for (const t of probes)
+    if (fa(t) !== fb(t)) return `disagree on ${JSON.stringify(t.slice(0, 30))}: ${fa(t)} vs ${fb(t)}`;
+  return null;
+}
+
 const RESERVED = {
   from: { kinds: ['write-email'], owner: "the email renderer (the sender address)",
           instead: 'carry' }
@@ -461,6 +485,12 @@ kindsUsed.forEach((where, kind)=>{
   if (!SOLVED.has(kind)) bad(where, `kind "${kind}" has no branch in tools/solver.js, so nothing verifies it can be answered`);
   else ok();
 });
+
+/* the two copies of the recording-name hash must agree */
+(function () {
+  const bad2 = hashesAgree();
+  if (bad2) bad('audio file names', bad2); else pass++;
+})();
 
 console.log(`\n${pass} checks passed, ${fail} failed`);
 if (problems.length){ console.log('\nPROBLEMS'); problems.forEach(p=>console.log('  ✗ '+p)); process.exit(1); }

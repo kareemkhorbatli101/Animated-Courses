@@ -980,3 +980,10 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .ln-worked-label{display:inline-block;min-width:62px;font:700 10.5px/1.7 var(--ui);
   color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;}
 .ln-worked-foot{margin:7px 0 0;font:400 12px/1.6 var(--ui);color:var(--ink-3);}
+
+/* F36 — the interface language switch */
+.ar-toggle{font:600 13px/1 var(--ui);padding:7px 13px;border-radius:999px;
+  border:1px solid var(--rule-2);background:var(--card);color:var(--ink-2);cursor:pointer;}
+.ar-toggle:hover{color:var(--ink);background:var(--cream);}
+[dir="rtl"]{text-align:right;}
+.btn-check[dir="rtl"],.btn-again[dir="rtl"],.ar-toggle[dir="rtl"]{text-align:center;}
