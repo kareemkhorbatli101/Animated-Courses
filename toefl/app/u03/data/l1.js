@@ -40,7 +40,7 @@
             { p: "plant",      x: 872, y: 300, s: 1.0 }
           ] },
         pins: [
-          { id: "p-bench", x: 16, y: 94, tx: 45, ty: 77, w: 160 },
+          { id: "p-bench", x: 16, y: 94, tx: 25, ty: 79, w: 160 },
           { id: "p-scope", x: 15, y: 54, tx: 24, ty: 69, w: 150 },
           { id: "p-jar",   x: 40, y: 54, tx: 37, ty: 69, w: 160 },
           { id: "p-guide", x: 62, y: 94, tx: 46, ty: 73, w: 150 },
