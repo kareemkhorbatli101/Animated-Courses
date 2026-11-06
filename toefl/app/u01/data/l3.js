@@ -42,6 +42,25 @@
             why: "<i>what was going on at a particular time</i> is the past continuous's job." }
         ] },
 
+
+      { id: "1c", section: 1, sectionTitle: "Review present and past forms", letter: "C",
+        kind: "cloze", task: null, n: 0,
+        prompt: "The same two tenses, seen from the question and the negative. Complete the rule.",
+        heading: "Language connection: questions and negatives",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p><b>Question</b> Do you test yourself? · Did they read it twice?<br><b>Negative</b> She does not re-read. · They did not remember.<br>In both, the tense sits in the auxiliary and the main verb goes bare.</p>" },
+        text: "To ask a yes/no question in the present we put ___ in front of the subject, and the main verb goes back to its ___ form. For a finished event we use ___ instead, and the main verb still does not change. To make either one negative we add ___ straight after the auxiliary.",
+        gaps: [
+          { options: ["do or does", "is or are"], answer: "do or does",
+            why: "<i>Do you check…?</i> — <i>be</i> would give us the continuous, which asks a different question." },
+          { options: ["base", "past"], answer: "base",
+            why: "<i>Do you test</i>, never <i>Do you tests</i>: the auxiliary has already taken the ending." },
+          { options: ["did", "was"], answer: "did",
+            why: "<i>Did they read it twice?</i> — <i>was</i> would again give the continuous." },
+          { options: ["not", "no"], answer: "not",
+            why: "<i>did not</i>, <i>does not</i>. <i>No</i> goes in front of a noun, not a verb." }
+        ] },
+
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order. There are always more words than places.",
@@ -72,6 +91,58 @@
             why: "<i>Judge</i> is a verb, so it takes the adverb <i>accurately</i>, not the adjective." }
         ] },
 
+
+      { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
+        prompt: "Six more. Three of them are questions or negatives, where the tense moves into the auxiliary.",
+        items: [
+          { cue: "A standing fact.", band: "A2",
+            target: "Memory fades fastest in the first day",
+            extra: ["faded", "very"],
+            why: "Simple present for something that is generally true, not for one occasion." },
+          { cue: "In progress in the past.", band: "A2",
+            target: "They were still reading when the hour ended",
+            extra: ["read", "are"],
+            why: "Past continuous for the longer action, simple past for the one that interrupts it." },
+          { cue: "A yes/no question in the present.", band: "B1",
+            target: "Do you check what you got wrong",
+            extra: ["did", "checking", "are"],
+            why: "<i>Do</i> + bare infinitive. The past inside the sentence sits in <i>got</i>, not in the auxiliary." },
+          { cue: "A negative in the past.", band: "B1",
+            target: "The re-readers did not predict their scores well",
+            extra: ["do", "predicted", "good"],
+            why: "<i>did not predict</i>, never <i>did not predicted</i>. And <i>well</i>, because it describes the verb." },
+          { cue: "Two finished actions in order.", band: "B2",
+            target: "She closed the book and then wrote what she remembered",
+            extra: ["closes", "writing", "while"],
+            why: "Two simple pasts joined by <i>and then</i>: one finished, then the next began." },
+          { cue: "An adverb in front of an adjective.", band: "C1",
+            target: "The difference was remarkably consistent across every age group",
+            extra: ["remarkable", "consistently", "is"],
+            why: "<i>Remarkably</i> modifies the adjective <i>consistent</i>, which in turn describes <i>difference</i>." }
+        ] },
+
+      { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        kind: "errorfix", task: null, n: 0,
+        prompt: "Five more sentences from drafts. One word in each is wrong. Click it, then type the correction.",
+        items: [
+          { text: "They readed the passage twice before the test.",
+            wrong: "readed", right: "read",
+            why: "<i>Read</i> is irregular: the past is spelled the same and said differently, /red/." },
+          { text: "Did the second group remembered more a week later?",
+            wrong: "remembered", right: "remember",
+            why: "<i>Did</i> already carries the past, so the main verb goes bare." },
+          { text: "The results was the same in every group.",
+            wrong: "was", right: "were",
+            why: "<i>Results</i> is plural. <i>Result</i> would take <i>was</i>." },
+          { text: "She hardly worked all term and still got the top mark.",
+            wrong: "hardly", right: "hard",
+            why: "<i>Hard</i> is both adjective and adverb. <i>Hardly</i> is a different word meaning <i>almost not at all</i>, so the sentence as written says the opposite of what it means." },
+          { text: "He don't test himself before an exam.",
+            wrong: "don't", right: "doesn't",
+            why: "Third person singular: <i>he doesn't</i>. The <i>-s</i> has moved onto the auxiliary." }
+        ] },
+
       { id: "3a", section: 3, sectionTitle: "Adjectives and adverbs", letter: "A",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word. Decide first whether it describes a noun or a verb.",
@@ -82,6 +153,35 @@
             why: "It describes <i>answered</i>, a verb, so the adverb." },
           { text: "He is a c___ worker who checks everything twice.", answer: "careful", given: [0, 1],
             why: "It describes <i>worker</i>, a noun, so the adjective — not <i>carefully</i>." }
+        ] },
+
+      { id: "3b", section: 3, sectionTitle: "Adjectives and adverbs", letter: "B",
+        kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
+        prompt: "Two more. Again, decide first whether the word describes a noun or a verb.",
+        items: [
+          { text: "The two groups performed very d___ a week later.", answer: "differently", given: [0, 1],
+            why: "It describes <i>performed</i>, a verb, so the adverb. The adjective <i>different</i> would need a noun after it." },
+          { text: "An a___ reader notices when an argument changes direction.", answer: "attentive", given: [0, 1],
+            why: "It describes <i>reader</i>, a noun, so the adjective. The adverb <i>attentively</i> would describe how someone reads." }
+        ] },
+
+      { id: "3c", section: 3, sectionTitle: "Adjectives and adverbs", letter: "C",
+        kind: "wordbank", task: null, n: 0,
+        prompt: "Drag a word into each gap. Two words in the bank are not used — and both of them are the wrong half of a pair.",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p>The test for which half you need is never the meaning. It is what the word is attached to: a noun takes the adjective, a verb or an adjective takes the adverb.</p>" },
+        extra: ["careless", "consider"],
+        items: [
+          { text: "She reads ___ when the material is new to her, and faster afterwards.", answer: "slowly",
+            why: "attached to <i>reads</i>, a verb." },
+          { text: "A ___ reader checks the date on every source.", answer: "cautious",
+            why: "attached to <i>reader</i>, a noun." },
+          { text: "The effect was ___ larger in the older group.", answer: "considerably",
+            why: "attached to <i>larger</i>, an adjective — so an adverb, not <i>consider</i>." },
+          { text: "His notes are ___ but almost unreadable.", answer: "complete",
+            why: "after <i>are</i>, describing <i>notes</i>: an adjective." },
+          { text: "They answered ___ and lost four marks.", answer: "carelessly",
+            why: "attached to <i>answered</i>, a verb — so not <i>careless</i>, which is sitting in the bank to catch you." }
         ],
         closer: { kind: "test", body: "<p>Close the page. Write four sentences about your own week — one in each of the four tenses in 1B.</p>" } }
     ]

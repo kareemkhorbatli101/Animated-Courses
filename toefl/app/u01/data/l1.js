@@ -30,7 +30,7 @@
             { p: "wall",  x: 0,   y: 0,   sx: 10,  sy: 5.4 },
             { p: "floor", x: 0,   y: 335, sx: 10,  sy: 2.3 },
             { p: "shelf",   x: 60,  y: 50,  s: 2.4 },
-            { p: "window",  x: 640, y: 55,  s: 2.2 },
+            { p: "window",  x: 600, y: 55,  s: 2.2 },
             { p: "clock",   x: 880, y: 58,  s: 0.7 },
             { p: "desk",    x: 180, y: 330, sx: 6.4, sy: 2.0 },
             { p: "books",   x: 250, y: 316, s: 0.85 },
@@ -41,11 +41,11 @@
           ] },
         pins: [
           { id: "p-shelf",  x: 14, y: 62, tx: 18, ty: 30, w: 140 },
-          { id: "p-clock",  x: 86, y: 33, tx: 91, ty: 17, w: 120 },
+          { id: "p-clock",  x: 88, y: 36, tx: 91, ty: 17, w: 120 },
           { id: "p-book",   x: 18, y: 86, tx: 28, ty: 68, w: 150 },
           { id: "p-laptop", x: 40, y: 86, tx: 47, ty: 66, w: 150 },
           { id: "p-notes",  x: 62, y: 86, tx: 58, ty: 66, w: 140 },
-          { id: "p-pen",    x: 82, y: 62, tx: 67, ty: 69, w: 150 }
+          { id: "p-pen",    x: 86, y: 78, tx: 67, ty: 69, w: 150 }
         ],
         pairs: [
           { word: "bookshelf",   pin: "p-shelf",

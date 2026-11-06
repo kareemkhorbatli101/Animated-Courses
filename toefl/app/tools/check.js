@@ -86,7 +86,9 @@ function checkScene(where, s, unit){
   }
   if (s.options) checkOptions(where, s.options);
   (s.items||[]).forEach((it,i)=>{
-    if (it.options) checkOptions(`${where} item ${i+1}`, it.options);
+    /* minimal-pairs is a two-way contrast by definition; its own rule below
+       checks it with a minimum of two. */
+    if (it.options && s.kind !== 'minimal-pairs') checkOptions(`${where} item ${i+1}`, it.options);
     if (s.kind === 'tfni'){
       if (!['T','F','NI'].includes(it.answer)) bad(where,`item ${i+1} answer must be T, F or NI`);
       else if (it.answer === 'NI' && it.line !== null) bad(where,`item ${i+1} is NI so line must be null`);

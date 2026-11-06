@@ -28,7 +28,7 @@
      Forward's, in its order. Topics are TOEFL academic subjects, each chosen
      because that unit's grammar is native to it. See ../UNIT-MAP.md. */
   var UNITS = [
-    { n: 1,  id: "u01", title: "How We Learn",                field: "cognitive psychology",
+    { n: 1,  id: "u01", title: "How We Learn",                field: "cognitive psychology", doubled: true,
       grammar: ["present and past verb forms", "yes/no questions and answers", "adjectives and adverbs"],
       affix: "dis-", pron: "sh, ch and j", chart: "line",
       campus: "show that you are following a lecture",

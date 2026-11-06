@@ -6,6 +6,9 @@ function solveScene() {
   const idx = [...document.querySelectorAll('.dot')].findIndex(d => d.classList.contains('now'));
   const s = window.PAGE.scenes[idx];
   const norm = t => String(t).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  /* A clickable token keeps its punctuation on screen ("good."), so a token
+     match has to ignore it, exactly as the grader does. */
+  const bare = t => norm(t).toLowerCase().replace(/[^a-z0-9' ]+/g, '').trim();
   const fail = () => { window.__pickFail = (window.__pickFail || 0) + 1; };
 
   /* Match an option by its own text EXACTLY. A substring match picks the wrong
@@ -122,7 +125,7 @@ function solveScene() {
       (s.items || []).forEach((it, j) => {
         const host = document.querySelectorAll('.sit')[j];
         if (!host) { fail(); return; }
-        const t = [...host.querySelectorAll('.tok')].find(x => norm(x.textContent) === norm(it.answer));
+        const t = [...host.querySelectorAll('.tok')].find(x => bare(x.textContent) === bare(it.answer));
         if (t) t.click(); else fail();
       });
       break;
@@ -130,7 +133,7 @@ function solveScene() {
       (s.items || []).forEach((it, j) => {
         const host = document.querySelectorAll('.efx')[j];
         if (!host) { fail(); return; }
-        const t = [...host.querySelectorAll('.tok')].find(x => norm(x.textContent) === norm(it.wrong));
+        const t = [...host.querySelectorAll('.tok')].find(x => bare(x.textContent) === bare(it.wrong));
         if (t) t.click(); else { fail(); return; }
         const inp = host.querySelector('input');
         if (inp) { inp.value = it.right; inp.dispatchEvent(new Event('input')); }
@@ -147,15 +150,23 @@ function solveScene() {
         rubrics();
       }
       break;
-    case 'discussion':
+    case 'discussion': {
+      /* The grader's 5-band test is whether a classmate is answered BY NAME,
+         and the classmates differ per scene, so read them off the page. */
+      const who = [...document.querySelectorAll('.post')]
+        .filter(p => !p.classList.contains('me') && !p.classList.contains('prof'))
+        .map(p => (p.querySelector('.name') || p.querySelector('b') || {}).textContent || '')
+        .map(t => String(t).trim().split(/\s+/)[0]).filter(Boolean);
+      const a = who[0] || 'My classmate', b = who[1] || who[0] || 'the other reply';
       typeInto('.post.me textarea',
-        'I think a study group helps most when it forces you to explain something out loud to another person. ' +
-        'Working alone lets you avoid ever finding out which parts of an explanation you cannot actually produce. ' +
-        'Priya is right that explaining is when you discover what you do not know, and that has been my own experience as well. ' +
-        'Last term I could not finish a single sentence about a formula I had read four times over, which told me far more than those four readings had. ' +
-        'Tomas is right that some groups carry passengers, but the remedy is to make every member explain one thing, rather than to abandon groups altogether.');
+        'My own position is that the arrangement helps, but only for the people who were already going to turn up. ' +
+        'Last term I replayed the same two minutes of a statistics derivation eight times before it held, and nothing in the room would have let me do that. ' +
+        a + ' is right that this is where the real value sits, and that has been my experience as well. ' +
+        b + ' is right that the urgency disappears, and I have lost a whole week the same way. ' +
+        'But that is an argument about deadlines rather than about the arrangement itself, because the same student misses the same hour whatever is posted afterwards.');
       rubrics();
       break;
+    }
     case 'write-email':
       typeInto('.mail textarea',
         'Dear Dan, I am writing to ask whether there is still a place available in the Thursday study-skills workshop. ' +
