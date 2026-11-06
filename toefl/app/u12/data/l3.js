@@ -92,6 +92,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        from: "1a",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them put a person between the verb and the form it governs.",
         items: [

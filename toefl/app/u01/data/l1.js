@@ -77,6 +77,7 @@
         ] },
 
       { id: "1d", section: 1, sectionTitle: "Identify ways of studying", letter: "D",
+        from: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. Each one names something in the list you read in 1A.",
         items: [

@@ -80,6 +80,7 @@
         after: "<p>The second is the one the article quarrels with.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
+        from: "1c",
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the article. Look at the title and the three headings.",
         note: { kind: "reader", body: "<p>Read with a purpose. A heading containing the word <i>uncomfortable</i> is telling you where the argument lands.</p>" },
@@ -140,6 +141,7 @@
         ] },
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
+        from: "1c",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>article</b>.",
         note: { kind: "reader",
@@ -248,6 +250,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        from: "1c",
         kind: "paraphrase", task: null, n: 0,
         prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
         note: { kind: "reader",
@@ -310,6 +313,7 @@
         ] },
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        from: "5a",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
         items: [

@@ -251,6 +251,8 @@
       if (S()) head.appendChild(S().button(String(ph.say || ph.text).replace(/<[^>]+>/g, ""), "en", "Hear it"));
       row.appendChild(head);
       if (ph.when) row.appendChild(E("p", "phrase-when", ph.when));
+      /* F16 — say it WITH the model before you say it alone. */
+      if (root.RL) root.RL.shadowBar(row, String(ph.say || ph.text).replace(/<[^>]+>/g, ""), null);
       var r = E("div", "rubric");
       r.appendChild(E("h4", null, "Say it aloud, then:"));
       ["I said it fluently", "I said it with effort", "I could not say it yet"].forEach(function (lbl, k) {

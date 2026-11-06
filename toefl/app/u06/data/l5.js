@@ -80,6 +80,7 @@
         after: "<p>The third is doing unusual work in this article. Watch for it.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
+        from: "1c",
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the article. Look at the title and the three headings.",
         note: { kind: "reader",
@@ -141,6 +142,7 @@
         ] },
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
+        from: "1c",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>article</b>.",
         note: { kind: "reader",
@@ -175,6 +177,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
+        from: "1c",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "The written register of this unit's phrasal verbs.",
         items: [
@@ -310,6 +313,7 @@
         ] },
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        from: "5a",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
         items: [

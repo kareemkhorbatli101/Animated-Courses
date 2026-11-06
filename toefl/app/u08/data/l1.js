@@ -62,6 +62,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        from: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [

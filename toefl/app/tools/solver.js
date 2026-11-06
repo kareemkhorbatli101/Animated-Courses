@@ -91,9 +91,16 @@ function solveScene() {
     case 'tfni':
       document.querySelectorAll('.tfni').forEach((row, j) => {
         const it = s.items[j];
+        const box = row.querySelector('input');
+        /* F9 gates True and False behind a citation, so cite first — which
+           is the order the exercise now asks a learner to work in. */
+        if (it.line != null && box) {
+          box.value = String(it.line);
+          box.dispatchEvent(new Event('input', { bubbles: true }));
+        }
         const b = [...row.querySelectorAll('.mark button')].find(x => x.textContent === it.answer);
-        if (b) b.click(); else fail();
-        if (it.line !== null && row.querySelector('input')) row.querySelector('input').value = String(it.line);
+        if (b && !b.disabled) b.click(); else fail();
+        if (it.line != null && box) box.value = String(it.line);
       });
       break;
 

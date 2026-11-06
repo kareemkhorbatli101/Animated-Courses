@@ -654,3 +654,125 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .ann-job{font:13.5px var(--ui);padding:7px 9px;border:1.5px solid var(--rule-2);
  border-radius:7px;background:var(--sunk);color:var(--ink);width:100%}
 .ann-job:focus-visible{outline:2px solid var(--maroon);outline-offset:1px}
+
+/* ===================================================================
+   rl.js — reading and listening mechanisms (F6–F17).
+   Every selector here is prefixed .rl- : two bugs in this project came
+   from reusing a class the deck or the solver selects on.
+   =================================================================== */
+
+/* F8 reading pace band */
+.rl-pace{margin:0 0 14px;}
+.rl-pace-label{display:block;font:500 12.5px/1.5 var(--ui);color:var(--ink-3);
+  letter-spacing:.01em;margin:0 0 5px;}
+.rl-pace-track{height:4px;background:var(--sunk);border-radius:3px;overflow:hidden;
+  border:1px solid var(--rule);}
+.rl-pace-fill{height:100%;width:0;background:var(--teal);border-radius:3px;
+  transition:width .25s linear;}
+.rl-pace-fill.rl-over{background:var(--orange);}
+@media (prefers-reduced-motion: reduce){ .rl-pace-fill{transition:none;} }
+
+/* F15 notepad */
+.rl-pad{margin:16px 0 0;border:1px solid var(--rule);border-radius:10px;
+  background:var(--sunk);padding:11px 13px 13px;}
+.rl-pad-head{display:flex;justify-content:space-between;align-items:baseline;
+  gap:10px;margin:0 0 7px;font:600 13px/1.4 var(--ui);color:var(--ink-2);}
+.rl-pad-hint{font:400 11.5px/1.4 var(--ui);color:var(--ink-3);}
+.rl-pad-box{width:100%;box-sizing:border-box;min-height:74px;resize:vertical;
+  border:1px solid var(--rule);border-radius:8px;background:var(--card);
+  color:var(--ink);font:400 14px/1.6 var(--ui);padding:9px 11px;}
+.rl-pad-box:focus{outline:2px solid var(--boxline);outline-offset:1px;}
+
+/* F12 transcript, shown on review only */
+.rl-tr{margin:16px 0 0;border:1px solid var(--rule);border-left:3px solid var(--teal);
+  border-radius:8px;background:var(--card);padding:12px 15px 14px;}
+.rl-tr-h{margin:0 0 9px;font:600 13px/1.4 var(--ui);color:var(--teal);
+  text-transform:uppercase;letter-spacing:.06em;}
+.rl-tr-line{margin:0 0 7px;font:400 14.5px/1.65 var(--ui);color:var(--ink);}
+.rl-tr-who{color:var(--ink-2);}
+
+/* F13 earned slow replay */
+.rl-slow-wrap{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:9px 0 0;}
+.rl-slow{font:600 13px/1 var(--ui);padding:7px 12px;border-radius:999px;
+  border:1px solid var(--rule-2);background:var(--card);color:var(--ink);cursor:pointer;}
+.rl-slow:disabled{opacity:.42;cursor:not-allowed;}
+.rl-slow-note{font:400 12px/1.4 var(--ui);color:var(--ink-3);}
+
+/* F14 who is speaking */
+.rl-cast{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 13px;}
+.rl-cast-cell{display:flex;flex-direction:column;align-items:center;gap:4px;
+  padding:6px 9px 7px;border:1px solid transparent;border-radius:10px;
+  transition:border-color .18s ease, background .18s ease;}
+.rl-cast-cell svg{display:block;}
+.rl-cast-name{font:500 11.5px/1.3 var(--ui);color:var(--ink-3);text-align:center;}
+.rl-cast-cell.rl-talking{border-color:var(--teal);background:var(--paleblue);}
+.rl-cast-cell.rl-talking .rl-cast-name{color:var(--teal);font-weight:700;}
+@media (prefers-reduced-motion: reduce){ .rl-cast-cell{transition:none;} }
+
+/* F12/F13 where the items carry the audio */
+.rl-slow-item{padding:5px 10px;font-size:12px;flex:0 0 auto;margin-left:8px;}
+.rl-said{display:flex;gap:9px;align-items:baseline;margin:9px 0 0;
+  padding:8px 11px;border-radius:8px;background:var(--sunk);
+  font:400 14px/1.6 var(--ui);color:var(--ink);}
+.rl-said-tag{flex:0 0 auto;font:700 10.5px/1.6 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+
+/* F2 — the stimulus carried in from the scene that owns it */
+.rl-carried{margin:0 0 15px;}
+.rl-carried-tag{margin:0 0 7px;font:600 11px/1.5 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.rl-carried-audio{margin:0 0 4px;}
+
+/* F6 — citable lines. Every line is a target, so it must look like one. */
+.rl-cite .ln{cursor:pointer;border-radius:5px;padding:1px 4px;margin-left:-4px;
+  transition:background .14s ease;}
+.rl-cite .ln:hover{background:var(--cream);}
+.rl-cite .ln:focus-visible{outline:2px solid var(--boxline);outline-offset:1px;}
+.rl-cite .ln.rl-lit{background:var(--tan);box-shadow:inset 3px 0 0 var(--orange);}
+@media (prefers-reduced-motion: reduce){ .rl-cite .ln{transition:none;} }
+
+/* F9 — a verdict you have not earned yet must look unavailable, or the
+   learner clicks a dead button and concludes the page is broken. */
+.mark button:disabled{opacity:.38;cursor:not-allowed;}
+.mark button:disabled:hover{background:inherit;}
+.rl-gate{margin:0 0 12px;padding:9px 12px;border-radius:8px;background:var(--cream);
+  border-left:3px solid var(--orange);font:400 13.5px/1.6 var(--ui);color:var(--ink-2);}
+
+/* F17 — the dictation comparison, aligned and in place */
+.dict-diff{display:flex;flex-wrap:wrap;gap:5px 7px;align-items:baseline;
+  margin:8px 0 0;padding:9px 11px;border-radius:8px;background:var(--sunk);
+  font:400 14.5px/1.7 var(--ui);}
+.dict-diff .d-ok{color:var(--ink);}
+.dict-diff .d-miss{color:var(--no);font-weight:700;
+  border-bottom:2px solid var(--no);}
+.dict-diff .d-extra{color:var(--ink-3);text-decoration:line-through;}
+.dict-key{flex:1 0 100%;margin:5px 0 0;font:400 11.5px/1.5 var(--ui);
+  color:var(--ink-3);display:flex;gap:12px;}
+.dict-key .d-miss,.dict-key .d-extra{font-size:11.5px;border:0;}
+
+/* F16 — shadowing */
+.rl-shadow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:9px 0 0;
+  padding:9px 11px;border-radius:9px;background:var(--sunk);border:1px solid var(--rule);}
+.rl-shadow-label{font:700 10.5px/1.6 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.rl-shadow-btn{font:600 13px/1 var(--ui);padding:7px 12px;border-radius:999px;
+  border:1px solid var(--rule-2);background:var(--card);color:var(--ink);cursor:pointer;}
+.rl-shadow-btn:disabled{opacity:.5;cursor:not-allowed;}
+.rl-shadow-why{font:400 12px/1.5 var(--ui);color:var(--ink-3);flex:1 1 180px;}
+.rl-shadow-text{flex:1 0 100%;margin:7px 0 0;padding:8px 11px;border-radius:7px;
+  background:var(--card);border-left:3px solid var(--teal);
+  font:500 15px/1.7 var(--ui);color:var(--ink);}
+.rl-shadow-audio{flex:1 0 100%;margin-top:7px;width:100%;}
+
+/* F7 — glossary opened where the word is */
+.rl-gloss{font:inherit;font-weight:700;color:var(--teal);background:none;
+  border:0;border-bottom:1.5px dotted var(--teal);padding:0;cursor:pointer;}
+.rl-gloss:hover{background:var(--paleblue);}
+.rl-gloss:focus-visible{outline:2px solid var(--boxline);outline-offset:1px;}
+.rl-gloss-strip{margin:6px 0 8px 26px;padding:10px 13px;border-radius:9px;
+  background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--teal);}
+.rl-gloss-top{display:flex;align-items:center;gap:9px;}
+.rl-gloss-term{font:700 14.5px/1.5 var(--ui);color:var(--ink);}
+.rl-gloss-def{margin:5px 0 0;font:400 14px/1.65 var(--ui);color:var(--ink-2);}
+.rl-gloss-ar{margin:6px 0 0;font:400 16px/1.9 var(--ui);color:var(--ink);}
+.rl-cast-note{flex:1 0 100%;margin:2px 0 0;font:400 12.5px/1.5 var(--ui);color:var(--ink-3);}

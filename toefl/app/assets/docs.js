@@ -8,8 +8,10 @@
 
   /* ---- a reading, with line numbers every `every` lines ---- */
   /* spec: {masthead, byline, blocks:[{h, text}], notes:[], source, every} */
-  function reading(spec) {
+  function reading(spec, opts) {
+    opts = opts || {};
     var wrap = E("div", "read");
+    if (opts.cite) wrap.classList.add("rl-cite");
     if (spec.masthead) {
       var m = E("div", "mast" + (spec.mastColor === "blue" ? " blue" : ""));
       if (spec.icon) {
@@ -30,12 +32,31 @@
       var units = b.lines || String(b.text).split(/(?<=\.)\s+/);
       units.forEach(function (t) {
         lineNo++;
+        /* Capture this line's own number. `lineNo` belongs to the enclosing
+           function, so a handler that closes over it reports the LAST line
+           however you click — every line said 9 on a nine-line passage. */
+        var myLine = lineNo;
         var row = E("div", "ln");
-        var u = E("u", null, (lineNo % every === 0) ? String(lineNo) : "");
+        /* F6: when the exercise asks which line an answer came from, every
+           line needs a visible number and a hit area. Otherwise the numbers
+           appear every fifth line, which is enough to find your place and
+           not enough to cite. */
+        var u = E("u", null, (opts.cite || myLine % every === 0) ? String(myLine) : "");
         row.appendChild(u);
         var sp = E("span");
         sp.innerHTML = t;
         row.appendChild(sp);
+        row.dataset.line = String(myLine);
+        if (opts.cite) {
+          row.tabIndex = 0;
+          row.setAttribute("role", "button");
+          row.setAttribute("aria-label", "Cite line " + myLine);
+          var fire = function () { if (opts.onCite) opts.onCite(myLine, row); };
+          row.addEventListener("click", fire);
+          row.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fire(); }
+          });
+        }
         cols.appendChild(row);
       });
     });
@@ -45,6 +66,8 @@
     });
     if (spec.source) cols.appendChild(E("p", "src", "Source: " + spec.source));
     wrap.appendChild(cols);
+    /* F7 — open each gloss where its word is, not at the foot of the page */
+    if (root.RL && root.RL.glossRail) root.RL.glossRail(wrap, spec.notes, spec.glossary);
     wrap.dataset.lines = lineNo;
     return wrap;
   }

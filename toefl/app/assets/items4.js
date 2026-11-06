@@ -273,6 +273,29 @@
 
   /* --------------------------------------------------------- dictation --- */
   /* spec.items : [{ answer, why }] — the sentence is both the audio and the key */
+  /* Longest common subsequence over words, so the two lines are aligned
+     before they are compared. Dictation lines are short, so the quadratic
+     table costs nothing and is far easier to read than a windowed diff. */
+  function diff(want, got) {
+    var n = want.length, m = got.length, i, j;
+    var t = [];
+    for (i = 0; i <= n; i++) { t[i] = []; for (j = 0; j <= m; j++) t[i][j] = 0; }
+    for (i = n - 1; i >= 0; i--)
+      for (j = m - 1; j >= 0; j--)
+        t[i][j] = want[i] === got[j] ? t[i + 1][j + 1] + 1
+                                     : Math.max(t[i + 1][j], t[i][j + 1]);
+    var out = [];
+    i = 0; j = 0;
+    while (i < n && j < m) {
+      if (want[i] === got[j]) { out.push({ op: "same", w: want[i] }); i++; j++; }
+      else if (t[i + 1][j] >= t[i][j + 1]) { out.push({ op: "missed", w: want[i] }); i++; }
+      else { out.push({ op: "extra", w: got[j] }); j++; }
+    }
+    while (i < n) { out.push({ op: "missed", w: want[i] }); i++; }
+    while (j < m) { out.push({ op: "extra", w: got[j] }); j++; }
+    return out;
+  }
+
   D.register("dictation", function (stage, spec, api) {
     if (!spec.prompt) stage.appendChild(E("p", "prompt",
       "Play each line and write exactly what you hear. Spelling counts; punctuation does not."));
@@ -297,14 +320,36 @@
     return function () {
       var right = 0, miss = [];
       rows.forEach(function (r, i) {
+        var old = r.inp.parentNode.querySelector(".dict-diff");
+        if (old) old.parentNode.removeChild(old);
         var want = norm(r.it.answer), got = norm(r.inp.value);
         var ok = got === want;
         r.inp.classList.remove("ok", "no"); r.inp.classList.add(ok ? "ok" : "no");
         if (ok) right++;
         else {
-          /* say WHICH words differ — "wrong" is useless feedback in dictation */
-          var w = want.split(" "), g = got.split(" "), bad = [];
-          w.forEach(function (x, j) { if (g[j] !== x) bad.push(x); });
+          /* F17 — show the comparison aligned, in place.
+             The old check compared word j with word j, so a single word
+             typed in extra marked every word after it wrong, and the
+             feedback blamed the learner for words they had heard correctly.
+             This aligns the two lines first. */
+          var d = diff(want.split(" "), got.split(" "));
+          var strip = E("div", "dict-diff");
+          strip.setAttribute("aria-label", "Your line compared with the original");
+          d.forEach(function (part) {
+            var cls = part.op === "same" ? "d-ok" : part.op === "missed" ? "d-miss" : "d-extra";
+            var w = E("span", cls, esc(part.w));
+            if (part.op === "extra") w.title = "You wrote this; it is not in the line";
+            if (part.op === "missed") w.title = "This word is in the line; you did not write it";
+            strip.appendChild(w);
+          });
+          var key = E("p", "dict-key");
+          key.innerHTML = "<span class='d-miss'>missed</span> " +
+                          "<span class='d-extra'>written but not said</span>";
+          strip.appendChild(key);
+          r.inp.parentNode.appendChild(strip);
+
+          var bad = d.filter(function (x) { return x.op === "missed"; })
+                     .map(function (x) { return x.w; });
           miss.push("<b>" + (i + 1) + ".</b> " + esc(r.it.answer) +
             (bad.length ? " <i>(missed: " + esc(bad.slice(0, 6).join(", ")) + ")</i>" : "") +
             (r.it.why ? " — " + r.it.why : ""));

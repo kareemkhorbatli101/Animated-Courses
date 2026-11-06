@@ -281,11 +281,36 @@
 
     api = { spec: spec, stage: stage, live: live, fb: fb, verdict: verdict,
             check: check, again: again, shuffle: shuffle, E: E, esc: esc,
-            fbList: fbList, yoursFirst: yoursFirst, note: noteBox, SPEC: SPEC };
+            fbList: fbList, yoursFirst: yoursFirst, note: noteBox, SPEC: SPEC,
+            /* Several fixes turn on "has this been attempted yet?": the
+               transcript appears only after (F12), slow replay is earned
+               (F13), the passage highlight is a hint if shown first and a
+               lesson if shown after (F47), and the distractor autopsy has
+               nothing to explain until something is wrong (F11). The deck
+               owns that signal so no renderer has to invent it. */
+            /* F2: a scene may not ask about a stimulus it does not carry.
+               The passage, chart or talk has one home — the scene that
+               teaches it — and a scene that asks about it names that scene
+               in `from`. Resolved here so no renderer has to go looking,
+               and so the text can never drift from its source by being
+               copied twice. */
+            source: (function () {
+              if (!spec.from) return null;
+              for (var i = 0; i < page.scenes.length; i++)
+                if (page.scenes[i].id === spec.from) return page.scenes[i];
+              return null;
+            })(),
+            attempts: 0,
+            onChecked: function (fn) { checkedHooks.push(fn); },
+            reviewing: function () { return api.attempts > 0; } };
+
+    var checkedHooks = [];
 
     function render() {
       stopReading();
       stage.innerHTML = "";
+      checkedHooks.length = 0;
+      api.attempts = 0;
       /* Concept badges, every scene. Inferred where not declared, so this
          is never empty and the same idea always wears the same icon. */
       if (root.Icons && root.Explain) {
@@ -301,6 +326,9 @@
       var r = KINDS[spec.kind];
       if (!r) { stage.appendChild(E("p", null, "Unknown exercise kind: " + spec.kind)); return; }
       api.grade = r(stage, spec, api);
+      /* Reading and listening behaviours that are the same on every scene of
+         their kind live in one place rather than in each renderer. */
+      if (root.RL) root.RL.decorate(stage, spec, api, page);
     }
 
     check.onclick = function () {
@@ -314,6 +342,10 @@
       fb.className = "fb show " + (ok ? "ok" : "no");
       fb.innerHTML = res.html || "";
       live.textContent = verdict.textContent;
+      api.attempts++;
+      checkedHooks.forEach(function (fn) {
+        try { fn(res, ok); } catch (e) {}
+      });
       if (ok) {
         done[spec.id] = true;
         if (P) P.mark(page.id, spec.id);

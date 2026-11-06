@@ -20,7 +20,19 @@
     "sayable",       /* every registered kind reads itself aloud            */
     "icons",         /* icons.js: concept-keyed line art                    */
     "motion",        /* motion.js: six verbs, all reduced-motion safe       */
-    "interactive6"   /* cards, build, compare, phrases, recap, annotate     */
+    "interactive6",  /* cards, build, compare, phrases, recap, annotate     */
+
+    /* Phase 5, reading and listening (rl.js) */
+    "paceBand",      /* F8  the ETS pace for this passage, filling as you read */
+    "notepad",       /* F15 note-taking on every listening scene, persisted  */
+    "transcriptAfter",/* F12 transcript built from audio.lines, on review only */
+    "slowReplay",    /* F13 0.8x, unlocked by an attempt                     */
+    "portraits",     /* F14 the speaking portrait lights as their line plays */
+    "lineCite",      /* F6  every line numbered and clickable where cited    */
+    "evidenceFirst", /* F9  True and False wait for a citation; NI does not  */
+    "dictationDiff", /* F17 word-aligned comparison, shown in place          */
+    "shadow",        /* F16 speak along with the model; record where allowed */
+    "glossaryRail"   /* F7  the gloss opens where the word is, inline        */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

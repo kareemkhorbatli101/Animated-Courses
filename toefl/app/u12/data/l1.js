@@ -77,6 +77,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        from: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the article in Lesson 5 is argued with.",
         items: [
@@ -133,6 +134,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "Stress in nouns and verbs", letter: "D",
+        from: "1a",
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [

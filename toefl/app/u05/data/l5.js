@@ -83,6 +83,7 @@
         after: "<p>The last two carry the argument between them.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
+        from: "1c",
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the article. Look at the title and the three headings.",
         note: { kind: "reader", body: "<p>Read with a purpose. Decide what you want from the text before the first sentence.</p>" },
@@ -143,6 +144,7 @@
         ] },
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
+        from: "1c",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>article</b>.",
         note: { kind: "reader",
@@ -177,6 +179,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
+        from: "1c",
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "This unit's prefix, in the article's own register.",
         items: [
@@ -253,6 +256,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
+        from: "4a",
         kind: "paraphrase", task: null, n: 0,
         prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
         note: { kind: "reader",
@@ -315,6 +319,7 @@
         ] },
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        from: "5a",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
         items: [

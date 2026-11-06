@@ -196,6 +196,15 @@
      spec.items: [{ stem, answer:"T"|"F"|"NI", line: n|null, why }] */
   D.register("tfni", function (stage, spec, api) {
     var rows = [];
+    /* F9 — say the rule in the open. A greyed button with a tooltip is a
+       dead end on a touch screen, where there is no hover. */
+    if (api.source && api.source.text) {
+      var gate = E("p", "rl-gate");
+      gate.innerHTML = "Find your evidence first: click a line, or type its number. " +
+        "<b>True</b> and <b>False</b> unlock once you have. " +
+        "<b>NI</b> needs no line \u2014 it is the one verdict you cannot cite.";
+      stage.appendChild(gate);
+    }
     spec.items.forEach(function (it, i) {
       var r = E("div", "tfni");
       var mark = E("span", "mark"), chosen = null, mb = {};
@@ -205,6 +214,7 @@
         b.setAttribute("aria-pressed", "false");
         b.setAttribute("aria-label", v + " for statement " + (i + 1));
         b.addEventListener("click", function () {
+          if (b.disabled) return;
           chosen = v;
           ["T", "F", "NI"].forEach(function (k) {
             mb[k].setAttribute("aria-pressed", String(k === v));
@@ -222,11 +232,36 @@
       r.appendChild(st);
       var line = doc.createElement("input");
       line.type = "text";
-      line.className = "abox sm";
+      line.className = "abox sm rl-citebox";
       line.setAttribute("aria-label", "Line number for statement " + (i + 1));
       line.placeholder = "line";
       line.title = "The line number where you found it";
       r.appendChild(line);
+
+      /* F9 — evidence before verdict. True and False are claims about what
+         the passage says, so they wait until you have pointed at a line.
+         No Information is the one verdict you cannot cite, because it is a
+         claim about absence, so it stays open: gating it would make the
+         exercise unanswerable rather than rigorous.
+
+         Only gated when the passage is actually on the page. A scene that
+         does not carry its text (F2) would otherwise be impossible. */
+      var gated = !!(api.source && api.source.text);
+      if (gated) {
+        ["T", "F"].forEach(function (k) {
+          mb[k].disabled = true;
+          mb[k].title = "Point to a line first";
+        });
+        line.addEventListener("input", function () {
+          var n = String(line.value).trim();
+          var ok = /^\d+$/.test(n);
+          ["T", "F"].forEach(function (k) {
+            mb[k].disabled = !ok;
+            mb[k].title = ok ? "" : "Point to a line first";
+          });
+          if (ok && root.RL) root.RL.markCitedLine(stage, n);
+        });
+      }
       stage.appendChild(r);
       rows.push({ it: it, get chosen() { return chosen; }, mb: mb, line: line });
     });

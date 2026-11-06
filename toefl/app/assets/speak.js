@@ -87,6 +87,9 @@
       });
       row.appendChild(rev);
       row.appendChild(model);
+      /* F16 — speaking along with the model is the part that trains rhythm,
+         and it is available here where recording is not. */
+      if (root.RL) root.RL.shadowBar(row, ln.text, spec.speaker);
       rates.push(selfRate(row, "How close were you?"));
       list.appendChild(row);
     });

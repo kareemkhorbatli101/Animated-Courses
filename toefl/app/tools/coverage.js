@@ -81,14 +81,23 @@ const READONLY = new Set(['read-only']);
 const has = (s, ...f) => f.some(k => s[k] != null && (!Array.isArray(s[k]) || s[k].length));
 const txt = s => JSON.stringify(s);
 /* a scene that points at something it must therefore carry */
-const REFERS = /\bthe (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|model|email|post)\b|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b|\bfrom Lesson \d\b/i;
-const STIMULUS = s => has(s, 'text', 'audio', 'chart', 'scene', 'recall', 'transcript', 'model', 'posts', 'lines', 'rows');
+const REFERS = /\bthe (article|passage|reading|chart|graph|table|talk|lecture|conversation|discussion|announcement|text|card|notice|poster|leaflet|flyer|email|message|advert|advertisement|sign|schedule|timetable|form|receipt|label|post|model|email|post)\b|\bin \d[A-E]\b|\blook back\b|\bthe first (talk|speaker)\b|\bfrom Lesson \d\b/i;
+/* A scene satisfies F2 by carrying the stimulus itself, or by naming the
+   scene on its page that owns it (`from`), which the deck carries in at
+   render time. The gate separately proves every `from` resolves and that
+   cited line numbers exist in the source. */
+const STIMULUS = s => has(s, 'text', 'audio', 'chart', 'scene', 'recall', 'from', 'model', 'posts', 'lines', 'rows');
 /* every item of a scene, whatever the kind calls them */
 const items = s => [].concat(s.items || [], s.gaps || [], s.pairs || [], s.steps || [],
                              s.cards || [], s.phrases || [], s.sentences || [], s.takeaways || []);
 const everyItem = (s, fn) => { const a = items(s); return a.length > 0 && a.every(fn); };
 const lessonNo = b => (/^l(\d)$/.exec(b) || [])[1];
 const withOptions = s => items(s).some(i => (i.options || i.opts || []).length);
+const hasLines = s => !!(s.audio && Array.isArray(s.audio.lines) && s.audio.lines.length);
+/* `respond` and `minimal-pairs` put the audio on each item instead of on the
+   scene: 36 more listening scenes than a scan for scene-level audio finds. */
+const itemSay = s => (s.items || []).some(i => i && i.say);
+const listens = s => hasLines(s) || itemSay(s);
 /* tools/audio-manifest.js writes this */
 let MANIFEST = null;
 try { MANIFEST = JSON.parse(fs.readFileSync(path.join(__dirname, '.audio-manifest.json'), 'utf8')); } catch (e) {}
@@ -107,7 +116,7 @@ const FIXES = [
 ["F1","No exercise is read-only",
   s=>true,                                   s=>!READONLY.has(s.kind)&&s.kind!=='chartread', 'scene', 754],
 ["F2","Question on the page with its stimulus",
-  s=>REFERS.test(String(s.prompt||'')+txt(items(s))), s=>STIMULUS(s), 'scene', 204],
+  s=>REFERS.test((String(s.prompt||'')+txt(items(s))).replace(/<[^>]+>/g,' ')), s=>STIMULUS(s), 'scene', 204],
 ["F3","Explain popup, four parts",
   s=>true,                                   s=>eng('explainPopup')&&(s.explain?['what','how','why','page'].every(k=>s.explain[k]):EXPLAINED.has(s.kind)), 'scene', 754],
 ["F4","Play button says this kind aloud",
@@ -131,13 +140,16 @@ const FIXES = [
 
 /* ---- listening --------------------------------------------------------- */
 ["F12","Transcript after, never before",
-  s=>has(s,'audio'),                         s=>eng('transcriptAfter')&&has(s,'transcript'), 'scene', 84],
+  /* the transcript is built from audio.lines, which all 84 listening scenes
+     carry. spec.transcript is prose instructions on several scenes and is
+     deliberately NOT the source. */
+  s=>listens(s),                             s=>eng('transcriptAfter')&&listens(s), 'scene', 120],
 ["F13","Slow replay, earned",
-  s=>has(s,'audio'),                         s=>eng('slowReplay'), 'scene', 84],
+  s=>listens(s),                             s=>eng('slowReplay'), 'scene', 120],
 ["F14","Who is speaking",
-  s=>has(s,'audio')&&has(s,'speaker'),       s=>eng('portraits'), 'scene', 72],
+  s=>hasLines(s)&&has(s,'speaker'),          s=>eng('portraits'), 'scene', 72],
 ["F15","Notepad everywhere",
-  s=>has(s,'audio'),                         s=>eng('notepad'), 'scene', 84],
+  s=>hasLines(s)||s.kind==='respond',        s=>eng('notepad'), 'scene', 108],
 ["F16","Shadowing mode",
   s=>s.kind==='repeat'||s.kind==='phrases',  s=>eng('shadow'), 'scene', 36],
 ["F17","Dictation diff",
@@ -215,7 +227,7 @@ const FIXES = [
 ["F48","Transfer in the recap",
   s=>s.kind==='recap',                       s=>everyItem(s,i=>!i.caseId||i.transfer!==false), 'scene', 24],
 ["F49","Segmented audio",
-  s=>has(s,'audio'),                         s=>has(s,'segments'), 'scene', 84],
+  s=>hasLines(s),                            s=>has(s,'segments'), 'scene', 84],
 ["F50","One concept, one icon, twelve units",
   s=>true,                                   s=>eng('icons')&&(s.concepts||[]).length>0&&(s.concepts||[]).every(c=>ICON_CONCEPTS.has(c)), 'scene', 754],
 ["F51","The mistake log resurfaces the item",

@@ -55,6 +55,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        from: "1a",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is <i>used to</i> and the present perfect continuous.",
         items: [

@@ -104,6 +104,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The prefix un-", letter: "B",
+        from: "2a",
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the word. Each is built with this unit's prefix.",
         items: [

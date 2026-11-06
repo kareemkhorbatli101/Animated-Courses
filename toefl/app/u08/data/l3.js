@@ -57,6 +57,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        from: "1a",
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -163,6 +164,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        from: "1a",
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a form into each gap. Two in the bank are not used.",
         note: { kind: "gram", title: "Grammar Notes",

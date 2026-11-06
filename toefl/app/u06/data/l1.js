@@ -80,6 +80,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        from: "1a",
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more particles. Each one changes the verb completely.",
         items: [

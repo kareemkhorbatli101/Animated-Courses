@@ -110,6 +110,7 @@
         after: "<p>Watch for <i>fluency</i> in particular. The article argues it misleads you.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
+        from: "1c",
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the reading. Look at the title and the three bold headings. What can you guess?",
         note: { kind: "reader", body: "<p>Read with a purpose. Before they read, good readers ask themselves: what do I want from this text?</p>" },
@@ -180,6 +181,7 @@
         ] },
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
+        from: "1c",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i> (true), <i>F</i> (false) or <i>NI</i> (no information). For T and F, write the line of the <b>article</b> where you found it.",
         items: [
@@ -367,6 +369,7 @@
         ] },
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
+        from: "5a",
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b> where you found it.",
         items: [

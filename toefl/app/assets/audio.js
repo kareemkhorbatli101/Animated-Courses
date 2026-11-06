@@ -81,12 +81,15 @@
         root.speechSynthesis.cancel();
         var lines = Array.isArray(opts.text) ? opts.text : [{ who: opts.speaker, text: opts.text }];
         var n = 0;
-        lines.forEach(function (ln) {
+        lines.forEach(function (ln, idx) {
           var u = new root.SpeechSynthesisUtterance(ln.text);
           var person = C && ln.who ? C.person(ln.who) : null;
           var v = pickVoice(person ? person.accent : "en-US");
           if (v) u.voice = v;
-          u.rate = 0.98;
+          u.rate = opts.rate || 0.98;
+          /* F14: the portraits were drawn and never used during playback.
+             Whoever is listening needs to know who is talking. */
+          u.onstart = function () { if (opts.onLine) try { opts.onLine(ln, idx); } catch (e) {} };
           u.onend = function () { if (++n >= lines.length) finish(); };
           u.onerror = function () { if (++n >= lines.length) finish(); };
           root.speechSynthesis.speak(u);
@@ -103,6 +106,7 @@
     });
 
     wrap.replay = function () { played = false; btn.disabled = false; };
+    wrap.opts = opts;
     return wrap;
   }
 
