@@ -31,6 +31,11 @@
       "Bring waterproofs and lunch. Boots are provided.",
       "Sign the list outside the lab by Wednesday."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "estuary", def: "the wide mouth of a river where it meets the sea", ar: "مصبّ النهر" },
+      { term: "waterproofs", def: "clothes that keep the rain out", ar: "ملابس ضد المطر" },
+    ],
     source: "Department of Earth Sciences"
   };
 
@@ -66,6 +71,10 @@
       "Afternoon group: check your email tonight.",
       "Boots are provided. Bring waterproofs and lunch."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "minibus", def: "a small bus, usually for about a dozen people", ar: "حافلة صغيرة" },
+    ],
     source: "Department of Earth Sciences"
   };
 

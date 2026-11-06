@@ -28,6 +28,10 @@
       "Bags larger than A4 to the cloakroom.",
       "The upper floor closes thirty minutes before the rest of the building."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "cloakroom", def: "a room where you leave coats and bags", ar: "غرفة الأمانات" },
+    ],
     source: "City Art Gallery"
   };
 
@@ -62,6 +66,11 @@
       "Places are limited to twenty and cannot be reserved by telephone.",
       "The gallery is forty minutes from the main campus by bus."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "curator", def: "the person who chooses and looks after what is shown", ar: "أمين المتحف" },
+      { term: "reserved", def: "kept for you in advance", ar: "يُحجز" },
+    ],
     source: "City Art Gallery"
   };
 

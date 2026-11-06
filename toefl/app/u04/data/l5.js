@@ -27,6 +27,10 @@
       "Bags in the lockers.",
       "One box at a time, and keep the order of the folders inside it."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "archive", def: "a place where original documents are kept", ar: "أرشيف" },
+    ],
     source: "University Special Collections"
   };
 
@@ -61,6 +65,10 @@
       "You may hold three boxes at a time, no more.",
       "Orders placed on Friday arrive on Monday."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "supervisor", def: "the member of staff responsible for your work", ar: "مشرف" },
+    ],
     source: "University Special Collections"
   };
 

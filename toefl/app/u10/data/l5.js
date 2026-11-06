@@ -28,6 +28,11 @@
       "Leaving belongings does not reserve a seat.",
       "Unattended items are taken to the front desk after thirty minutes."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "belongings", def: "the things you have with you", ar: "متعلّقات" },
+      { term: "unattended", def: "left with nobody watching them", ar: "متروك دون مراقبة" },
+    ],
     source: "University Library"
   };
 
@@ -62,6 +67,11 @@
       "Food is not permitted in the group rooms.",
       "Bookings cannot be transferred to another student."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "unoccupied", def: "with nobody in it", ar: "شاغر" },
+      { term: "consecutively", def: "one straight after the other", ar: "على التوالي" },
+    ],
     source: "University Library"
   };
 

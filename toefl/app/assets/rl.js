@@ -485,6 +485,28 @@
     return { term: t.slice(0, i).trim(), def: t.slice(i + 1).trim() };
   }
 
+  /* Find a term in the passage's own text and make that occurrence tappable,
+     without disturbing anything else on the line. Whole words only: glossing
+     "raw" must not light up the "raw" inside "drawer". */
+  function wrapInText(scope, term) {
+    var re = new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i");
+    var walker = doc.createTreeWalker(scope, 4 /* TEXT_NODE */, null);
+    var node;
+    while ((node = walker.nextNode())) {
+      if (node.parentNode && node.parentNode.closest &&
+          node.parentNode.closest(".rl-gloss, .fn, .src")) continue;
+      var m = re.exec(node.nodeValue);
+      if (!m) continue;
+      var after = node.splitText(m.index);
+      after.nodeValue = after.nodeValue.slice(m[0].length);
+      var btn = E("button", "rl-gloss", esc(m[0]));
+      btn.type = "button";
+      after.parentNode.insertBefore(btn, after);
+      return btn;
+    }
+    return null;
+  }
+
   function glossRail(wrap, notes, extra) {
     var defs = [];
     (notes || []).forEach(function (n) {
@@ -497,20 +519,30 @@
     var wired = 0;
     defs.forEach(function (d) {
       var key = d.term.toLowerCase();
+      var btn = null;
+
+      /* The academic passages bold their glossed words, so the bold element
+         is the thing to make tappable. An everyday notice bolds nothing,
+         and its hard words are just as worth glossing, so where there is no
+         bold the word is found in the text itself and wrapped. */
       var hit = null;
       [].slice.call(wrap.querySelectorAll("b")).some(function (b) {
         if (b.dataset.glossed) return false;
         if (b.textContent.trim().toLowerCase().replace(/[.,;:]$/, "") !== key) return false;
         hit = b; return true;
       });
-      if (!hit) return;
-      hit.dataset.glossed = "1";
-      var btn = E("button", "rl-gloss");
-      btn.type = "button";
-      btn.innerHTML = hit.innerHTML;
+      if (hit) {
+        hit.dataset.glossed = "1";
+        btn = E("button", "rl-gloss");
+        btn.type = "button";
+        btn.innerHTML = hit.innerHTML;
+        hit.parentNode.replaceChild(btn, hit);
+      } else {
+        btn = wrapInText(wrap, d.term);
+        if (!btn) return;
+      }
       btn.setAttribute("aria-expanded", "false");
       btn.setAttribute("aria-label", d.term + " \u2014 show meaning");
-      hit.parentNode.replaceChild(btn, hit);
       wired++;
 
       var strip = null;

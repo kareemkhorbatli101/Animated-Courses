@@ -28,6 +28,11 @@
       "Return every tray to its numbered slot before you leave.",
       "Do not move labels between specimens, for any reason."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "specimen", def: "a single sample kept for study", ar: "عيّنة" },
+      { term: "slot", def: "the exact space something belongs in", ar: "موضع محدّد" },
+    ],
     source: "Museum of Natural History, teaching collection"
   };
 
@@ -62,6 +67,11 @@
       "Two people per tray: one measures, one writes.",
       "Return all trays before five; the room is locked at five fifteen."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "calipers", def: "a tool for measuring the width of something precisely", ar: "فرجار قياس" },
+      { term: "decimal place", def: "a digit after the point: 9.4 has one", ar: "خانة عشريّة" },
+    ],
     source: "Museum of Natural History, teaching collection"
   };
 

@@ -27,6 +27,10 @@
       "Cancel at least a day before, or the slot is counted against your group.",
       "Training is required before your first booking."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "spectrometer", def: "an instrument that measures the spectrum of light", ar: "مطياف" },
+    ],
     source: "Department of Chemistry"
   };
 
@@ -61,6 +65,10 @@
       "A lapsed user may book only with a trained member of the group present.",
       "Calibration records are held by the technician and released on request."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "lapsed", def: "no longer valid, because the time ran out", ar: "منتهٍ" },
+    ],
     source: "Department of Chemistry"
   };
 

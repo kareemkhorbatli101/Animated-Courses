@@ -160,7 +160,9 @@ function longestRun(list) {
   return worst;
 }
 const stressMarked = s => (s.sentences || []).some(x => x && /\u00b7/.test(String(x.text)));
-const glossed = s => !!(s.glossary || (s.text && Array.isArray(s.text.notes) && s.text.notes.length));
+/* the glossary lives on the text object, beside the footnotes it extends */
+const glossed = s => !!(s.text && ((Array.isArray(s.text.notes) && s.text.notes.length) ||
+                                   (Array.isArray(s.text.glossary) && s.text.glossary.length)));
 const hasLines = s => !!(s.audio && Array.isArray(s.audio.lines) && s.audio.lines.length);
 /* `respond` and `minimal-pairs` put the audio on each item instead of on the
    scene: 36 more listening scenes than a scan for scene-level audio finds. */

@@ -26,6 +26,11 @@
       "Bring photo identification and your student number.",
       "Payment plans must be arranged before the first instalment is due."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "bursar", def: "the officer who deals with fees and payments", ar: "أمين الصندوق" },
+      { term: "instalment", def: "one of several payments spread over time", ar: "قسط" },
+    ],
     source: "Student Finance"
   };
 
@@ -59,6 +64,11 @@
       "Late fees are reversed only on written evidence.",
       "The office does not take payments after half past three."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "falls due", def: "becomes the date by which it must be paid", ar: "يحلّ موعده" },
+      { term: "reversed", def: "cancelled after it was applied", ar: "يُلغى" },
+    ],
     source: "Student Finance"
   };
 

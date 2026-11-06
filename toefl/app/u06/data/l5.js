@@ -28,6 +28,10 @@
       "Label everything you put in the fridge with the date.",
       "Clear up as you go."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "raw", def: "not yet cooked", ar: "نيِء" },
+    ],
     source: "Hall of Residence"
   };
 
@@ -61,6 +65,11 @@
       "The freezer is defrosted on the first of the month.",
       "Do not store anything in the oven, for any reason."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "unlabelled", def: "with no name or date written on it", ar: "غير معنون" },
+      { term: "defrosted", def: "emptied of ice and allowed to warm", ar: "يُزال عنه الجليد" },
+    ],
     source: "Hall of Residence"
   };
 

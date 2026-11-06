@@ -27,6 +27,11 @@
       "Bring your registration number.",
       "Repeat prescriptions take two working days."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "walk-in", def: "with no appointment needed", ar: "بدون موعد" },
+      { term: "repeat prescription", def: "a further supply of a medicine you already take", ar: "وصفة طبيّة متكررة" },
+    ],
     source: "University Health Service"
   };
 
@@ -61,6 +66,10 @@
       "The walk-in clinic does not require registration.",
       "Repeat prescriptions cannot be requested by telephone."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "register", def: "to put your name on the official list", ar: "يسجّل" },
+    ],
     source: "University Health Service"
   };
 

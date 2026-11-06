@@ -30,6 +30,11 @@
       "Meet at the gate, not the car park.",
       "Sessions are cancelled if cloud cover is above sixty per cent."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "dome", def: "the round roof the telescope sits under", ar: "قبّة" },
+      { term: "cloud cover", def: "how much of the sky is covered, as a percentage", ar: "نسبة الغيوم" },
+    ],
     source: "Department of Physics and Astronomy"
   };
 
@@ -64,6 +69,11 @@
       "Report any cloud above sixty per cent to the operator.",
       "The last person out closes the shutter, whatever the forecast says."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "dusk", def: "the time just after sunset, before full dark", ar: "الغسق" },
+      { term: "logbook", def: "a book where each visit is recorded in order", ar: "سجلّ" },
+    ],
     source: "Department of Physics and Astronomy"
   };
 

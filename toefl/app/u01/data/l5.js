@@ -58,6 +58,10 @@
       "Thursdays 4:00-5:30, Library B-214. No booking; just come.",
       "If the room is full we run a second session at 6:00."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "past paper", def: "an examination paper from a previous year, used for practice", ar: "ورقة امتحان سابقة" },
+    ],
     source: "Student Learning Centre"
   };
 
@@ -99,6 +103,11 @@
       "We stop at 5:30 sharp.",
       "The 6:00 overflow session has been cancelled."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "sharp", def: "exactly at that time, not a minute after", ar: "بالضبط" },
+      { term: "overflow", def: "an extra session for people who could not fit into the first", ar: "جلسة إضافية" },
+    ],
     source: "Student Learning Centre"
   };
 

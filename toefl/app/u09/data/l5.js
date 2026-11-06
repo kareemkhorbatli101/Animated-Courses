@@ -28,6 +28,10 @@
       "Does not run on Sundays.",
       "Stops at the library, the science building and the north gate only."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "shuttle", def: "a bus going back and forth on a short fixed route", ar: "حافلة مكوكيّة" },
+    ],
     source: "Estates and Transport"
   };
 
@@ -62,6 +66,11 @@
       "The north gate stop is closed while the path is resurfaced.",
       "Use the library stop instead; it is five minutes further on foot."
     ] }],
+    /* F7/F18 — the words a reader stops on in an everyday notice. */
+    glossary: [
+      { term: "on the hour", def: "at exactly one o'clock, two o'clock, and so on", ar: "عند رأس الساعة" },
+      { term: "resurfaced", def: "given a new top layer", ar: "يُعاد رصفه" },
+    ],
     source: "Estates and Transport"
   };
 
