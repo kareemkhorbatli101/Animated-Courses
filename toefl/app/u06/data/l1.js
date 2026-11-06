@@ -8,6 +8,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "This subject runs on phrasal verbs. That is not casual English — it is the register the process itself is described in.",
         text: { every: 1, blocks: [{ lines: [
@@ -23,6 +24,7 @@
         after: "<p>Number 8 matters. In writing you will often need the Latinate verb instead; the phrasal one is for speech and for the lab.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A teaching laboratory set up for a digestion assay. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -66,6 +68,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the particle — the small word that changes the verb's meaning entirely.",
         items: [
@@ -81,6 +84,7 @@
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
         carry: "1a",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more particles. Each one changes the verb completely.",
         items: [
@@ -95,6 +99,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Separable and inseparable", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Some phrasal verbs let the object sit in the middle. Some do not, and getting it wrong is immediately audible.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -114,6 +119,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "Separable and inseparable", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the word. These are the single-word verbs academic writing prefers.",
         items: [
@@ -128,6 +134,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Separable and inseparable", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more single-word verbs. These are the ones a written report uses in place of the phrasal verb.",
         items: [
@@ -142,6 +149,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "Separable and inseparable", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -172,6 +180,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Which register", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "The same eight meanings, in two registers. Sort them by which one a written report would use.",
         note: { kind: "words", title: "In other words…",

@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen", "sample", "place"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice about Friday's seminar. It plays once.",
         speaker: "dan", speakerNote: "course administrator",
@@ -41,6 +42,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out in the teaching laboratory. It plays once.",
         speaker: "dan", speakerNote: "laboratory manager",
@@ -71,6 +73,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "inference", "measurement"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on why an accurate number can mislead. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -107,6 +110,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference", "claim"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on what actually ended the great infections.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -145,6 +149,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen", "measurement"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -165,6 +170,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Report a problem", letter: "A",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. A problem reported badly becomes two problems.",
         note: { kind: "speak",
@@ -185,6 +191,7 @@
         after: "<p>The second line is the one people leave out. A supervisor needs the consequence more than the symptom, because the consequence is what they have to act on.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Report a problem", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says why each line is there.",
         caption: "Four lines, and why each one earns its place",
@@ -204,6 +211,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Report a problem", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

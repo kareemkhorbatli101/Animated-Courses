@@ -8,6 +8,7 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
         carry: "2a",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -55,6 +56,7 @@
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
         carry: "2b",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them use the present perfect, and the reply has to hear what it is doing.",
         items: [
@@ -103,6 +105,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "A student at the archive desk. Listen once.",
         speaker: "priya", speakerNote: "with Dan Okafor",
@@ -145,6 +148,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students working out why two dates disagree. Listen once.",
         speaker: "tomas", speakerNote: "with Mei Lin",
@@ -188,6 +192,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "<b>th</b> spells two different sounds. Voiceless /θ/ in <i>think</i>; voiced /ð/ in <i>this</i>. Grammar words usually take the voiced one.",
         speaker: "haddad",
@@ -202,6 +207,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more lines. The grammar words — <i>the, this, that, they, them, there</i> — almost all take the voiced one.",
         speaker: "haddad",
@@ -216,6 +222,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>Two sounds, one spelling. The tongue goes between the teeth for both. <b>/θ/</b> is voiceless, as in <i>think</i>; <b>/ð/</b> is voiced, as in <i>this</i>. There is no rule in the spelling, but there is one in the grammar: <i>the, this, that, they, there, then, than, though</i> are all voiced.</p>" +
                "<i>/θ/ — thin · thigh · breath · worth</i><i>/ð/ — then · thy · breathe · worthy</i>",
@@ -243,6 +250,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Spelling counts; punctuation does not.",
         items: [

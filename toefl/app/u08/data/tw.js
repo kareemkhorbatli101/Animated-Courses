@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. Outline the four jobs before you start.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Dr Okonkwo,</p><p>I am writing to report that the shared incubator has been running about two degrees above its set point since Tuesday. It did not use to drift at all, which is what makes me think this is a new fault rather than a calibration we have always had.</p><p>This means that anything cultured in it this week should be treated as unreliable. Three groups have used it, as far as I can establish.</p><p>I have checked the reading against a separate thermometer and put a notice on the door, but I have not yet contacted the other groups.</p><p>Should I ask them to discard this week's plates, or would you prefer to see them first?</p><p>Kind regards,<br>Mei Lin</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write", "measurement"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to correct a figure that has already been circulated.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Mei Lin</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>People in my city used to drink bottled water almost exclusively, because the tap water had a reputation for being unsafe. That has changed in about ten years. The water itself was improved, but I think the bigger factor was that the utility started publishing its test results monthly, so the reputation had something to argue with. It is a small example of the point this unit keeps making: the change that mattered was not medical, it was infrastructure and information.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak", "measurement"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to explain a common error.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>Because a percentage is a proportion, and it tells you nothing until you know what it is a proportion of. One per cent of a thousand is ten; one per cent of ten million is a hundred thousand. The figure has not changed but the consequence has, by a factor of ten thousand. The second problem is what the bottom of the fraction counts. A fatality rate divides deaths by recorded cases, not by infections, so when testing is scarce the mild cases are invisible and the rate looks worse than it is.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about reporting something inconvenient.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>I found that a shared incubator had been running two degrees warm for most of a week, which put three groups' cultures in doubt including two that were not mine. The thing I got right was the order: I said what was wrong and since when, then what it meant for the week's work, then what I had already checked. The thing I got wrong was waiting until I was certain. I spent an afternoon confirming it against a second thermometer, and during that afternoon another group started a culture in it.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to weigh openness against clarity.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>Yes, and they should change the format rather than the decision. The argument for withholding is that a number without its context gets quoted badly, which is true. The argument against is that silence does not leave a gap; somebody else's number fills it, with no context at all. What actually helps is putting the context inside the sentence instead of beneath it — fifty deaths among three hundred tested, rather than fifteen per cent with a footnote. The footnote never travels. The denominator, written into the sentence, does.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -158,6 +165,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight statements about the same outbreak. Sort them by whether they are about the disease or about the counting.",
         note: { kind: "reader",

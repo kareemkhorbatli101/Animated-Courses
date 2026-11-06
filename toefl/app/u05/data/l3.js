@@ -8,6 +8,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the present perfect in questions", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the exchange at the start of an observing session. Watch where <i>ever</i>, <i>already</i> and <i>yet</i> sit.",
         text: { every: 1, blocks: [
@@ -25,6 +26,7 @@
         after: "<p><i>Ever</i> and <i>already</i> go before the participle. <i>Yet</i> goes at the end, and only in questions and negatives.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the present perfect in questions", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: ever, already and yet",
@@ -40,6 +42,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review the present perfect in questions", letter: "C",
+        concepts: ["word", "comparison"],
         kind: "cloze", task: null, n: 0,
         prompt: "When the present perfect is NOT the answer. Complete the rule.",
         heading: "Language connection: when the simple past wins",
@@ -58,6 +61,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -88,6 +92,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them must be in the simple past, whatever they feel like.",
         items: [
@@ -118,6 +123,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from observing logs. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -144,6 +150,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word. Both use this unit's prefix.",
         items: [
@@ -154,6 +161,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word", "sample"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. One negates a quality; one reverses an action.",
         items: [
@@ -164,6 +172,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a word into each gap. Two in the bank are not used, and both of them are the wrong tense.",
         extra: ["already", "did"],

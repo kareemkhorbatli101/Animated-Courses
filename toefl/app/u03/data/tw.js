@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. Pay attention to the subject line — it is this unit's writing strategy.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p><b>Subject:</b> Trays 3 and 4 — labels do not match collection order</p><p>Dear Dr Okonkwo,</p><p>I am writing to report that the labels on trays three and four do not follow the order in which the specimens were collected. Tray four is the later sample, although its number suggests otherwise.</p><p>This means that last week's class may have recorded their beak measurements against the wrong dates. Should we re-measure both trays, or would you prefer us simply to swap the dates in the record and note the correction?</p><p>Kind regards,<br>Mei Lin</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to correct someone senior, in writing.",
         scenarioTitle: "The situation",
@@ -46,6 +48,7 @@
                "<p>Kind regards,<br>Mei Lin</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -53,6 +56,7 @@
         model: "<p>For a long time I thought animals changed during their own lives to suit their surroundings — that a bird in a hard season would somehow grow a stronger beak. What changed my mind was a graph of beak depth across four seasons. The individual birds were not in the graph at all; only the average of the population was. Once I saw that the thing being measured was the group and not the animal, the whole subject rearranged itself.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to compare.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -60,6 +64,7 @@
         model: "<p>I would take the repeat. A large study can be large and still wrong in one consistent way, because everything in it shares a method, a place and a season. If a smaller result appears again somewhere else, with different people measuring, the things that could have produced it by accident are far fewer. Size tells you about precision; repetition tells you whether the effect is real at all.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, asking you to compare two things and say which you would choose.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -67,6 +72,7 @@
         model: "<p>Five ordinary ones, though it is slower. A single book is one person's arrangement of the material, and if that arrangement has a hole in it you will never find out, because you have nothing to compare it against. With five, the disagreements become visible, and the disagreements are usually where the interesting part is. The cost is that you spend time on repetition, and some of the five will be worse than the one good book would have been.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, about how a field should talk to people outside it.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -74,6 +80,7 @@
         model: "<p>I would use them and then break them, in that order. A phrase like <i>the species adapted</i> gets a beginner to the right rough picture in four words, and nothing else does that as fast. The problem is only that most courses stop there, and the shorthand hardens into the thing people believe. So I would use it on the first day and spend the second day taking it apart, which is roughly what happened to me and is why I now notice the sentence at all.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "inference", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -155,6 +162,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "sample"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight sentences about the same study. Sort them by whether the subject of the sentence is the thing that really acted.",
         note: { kind: "reader",

@@ -8,6 +8,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. The last two are the pair this unit turns on, and most criticism moves between them without saying so.",
         text: { every: 1, blocks: [{ lines: [
@@ -23,6 +24,7 @@
         after: "<p>7 and 8 look alike in a sentence and are not alike at all. The talk in On Campus is about finding the joint between them.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A gallery room, hung for an exhibition. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -78,6 +81,7 @@
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
         carry: "1a",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the article in Lesson 5 is argued with.",
         items: [
@@ -92,6 +96,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Stress in nouns and verbs", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Many English words are a noun and a verb with the same spelling. The <b>stress moves</b>, and that is the only difference you can hear.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -106,6 +111,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "Stress in nouns and verbs", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the word, then decide where the stress falls.",
         items: [
@@ -120,6 +126,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Stress in nouns and verbs", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more pairs. Complete the word, then say it aloud and listen to where the stress lands.",
         items: [
@@ -135,6 +142,7 @@
 
       { id: "2d", section: 2, sectionTitle: "Stress in nouns and verbs", letter: "D",
         carry: "1a",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -165,6 +173,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Observation or interpretation", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight sentences from student essays about the same film. Sort them by whether anyone could check them against the film itself.",
         note: { kind: "words", title: "In other words…",

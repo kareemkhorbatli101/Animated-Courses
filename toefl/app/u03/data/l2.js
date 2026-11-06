@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Four subject lines for the same message: a student asking to reschedule a lab session. Which one does the most work?",
         note: { kind: "writer",
@@ -24,6 +25,7 @@
 
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["sequence"],
         kind: "sequence", task: null, n: 0,
         prompt: "Writing a subject line is five decisions, in this order. Put them on the right rungs.",
         note: { kind: "writer",
@@ -42,6 +44,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word", "comparison", "measurement"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is comparison, so these are the sentences comparison needs.",
         items: [
@@ -65,6 +68,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word", "comparison"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more comparisons, each a shape the last four did not cover.",
         items: [
@@ -87,6 +91,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "measurement"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five comparisons from student drafts. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -113,6 +118,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about how the subject is usually taught.",
         minWords: 100,
@@ -134,6 +140,7 @@
         closer: { kind: "test", body: "<p>After this writing lesson, I can… / I need more help with…</p>" } },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about what a display case should show.",
         minWords: 100,

@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice before the archive visit. It plays once.",
         speaker: "dan", speakerNote: "course administrator",
@@ -41,6 +42,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out in the reading room. It plays once.",
         speaker: "dan", speakerNote: "archive assistant",
@@ -71,6 +73,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on a habit of mind. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -108,6 +111,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference", "sample"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on the gap between a date and an event.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -146,6 +150,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen", "claim"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -166,6 +171,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Ask for help", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. Asking for help is a skill, and most of it is in the framing.",
         note: { kind: "speak",
@@ -186,6 +192,7 @@
         after: "<p>Saying what you have already tried does two things at once: it respects the other person's time, and it shows you are not asking them to do the work.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Ask for help", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each move buys you.",
         caption: "Four moves, and what each one buys",
@@ -205,6 +212,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Ask for help", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

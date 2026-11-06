@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review used to", letter: "A",
+        concepts: ["read", "cause"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two notes. One describes a world that has gone; the other describes work still going on.",
         text: { every: 1, blocks: [
@@ -23,6 +24,7 @@
         after: "<p><i>Used to</i> closes the door on a past state. The present perfect continuous leaves it open.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review used to", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: used to and have been -ing",
@@ -39,6 +41,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review used to", letter: "C",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Three constructions that share the word <i>used</i>, and the one that is a different tense altogether. Complete the rule.",
         heading: "Language connection: used to, be used to, get used to",
@@ -58,6 +61,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         carry: "1a",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -88,6 +92,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them use <i>used</i> in three different constructions.",
         items: [
@@ -118,6 +123,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from reports. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -144,6 +150,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word. Both use this unit's prefix.",
         items: [
@@ -154,6 +161,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word", "cause"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. One carries this unit's prefix and one only appears to.",
         items: [
@@ -165,6 +173,7 @@
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
         carry: "1a",
+        concepts: ["word", "evidence"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a form into each gap. Two in the bank are not used.",
         note: { kind: "gram", title: "Grammar Notes",

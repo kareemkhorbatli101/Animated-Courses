@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["word", "comparison", "evidence"],
         kind: "cloze", task: null, n: 0,
         prompt: "Contrast words are not interchangeable. Complete the rule.",
         heading: "Language connection: marking a contrast",
@@ -22,6 +23,7 @@
         ] },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Which sentence quotes correctly?",
         note: { kind: "writer",
@@ -36,6 +38,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "comparison"],
         kind: "sequence", task: null, n: 0,
         prompt: "Comparing two sources that disagree has an order. Put the five steps on the right rungs.",
         note: { kind: "writer",
@@ -54,6 +57,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the gerund.",
         items: [
@@ -76,6 +80,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word", "comparison", "claim"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Three of them mark a contrast, and each marker has its own punctuation.",
         items: [
@@ -98,6 +103,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "evidence"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from essays. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -124,6 +130,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about rule-breaking.",
         minWords: 100,
@@ -144,6 +151,7 @@
         model: "<p>I think Tomás is closer, although Priya has identified something real about legitimacy.</p><p>The difficulty with her position is that it leaves an observer unable to distinguish two cases: someone acting on conscience and someone acting on convenience. Both break the rule, both may be sincere, and only one of them is making an argument that anyone else can examine.</p><p>Accepting the penalty is not a moral flourish, whereas it is often treated as one. It is the thing that makes the act legible as a claim about the rule rather than an exception claimed for oneself.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about a rule that is never enforced.",
         minWords: 100,

@@ -7,6 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -53,6 +54,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. In three of them you have to work out what <i>it</i> refers to before you can answer.",
         items: [
@@ -101,6 +103,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference", "cause"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students at the bench. Listen once.",
         speaker: "tomas", speakerNote: "with Mei Lin",
@@ -142,6 +145,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students checking a result that came out too neat. Listen once.",
         speaker: "priya", speakerNote: "with Dan Okafor",
@@ -185,6 +189,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "In a phrasal verb the particle <b>links</b> onto what follows. <i>Break it down</i> sounds like <i>brea-ki-down</i>. Hearing the link is how you catch the particle at speed.",
         speaker: "haddad",
@@ -199,6 +204,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. When a consonant meets a vowel across a word boundary, the two run together — and that is exactly where the particle hides.",
         speaker: "haddad",
@@ -212,6 +218,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>These pairs are not different sounds. They are the same sounds grouped differently, because an ending consonant links onto a following vowel. <i>Picked it up</i> becomes <i>pi-ckdi-tup</i>, and the boundaries you think you hear are not where the words are. This is why a phrasal verb at speed is so much harder than the same verb written down.</p>" +
                "<i>made out → may doubt</i><i>picked it up → pick dit up</i><i>warmed up → warm dup</i>",
@@ -239,6 +246,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. The particles are unstressed; write them anyway.",
         items: [

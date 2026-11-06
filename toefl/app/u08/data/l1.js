@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "measurement", "sample"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. Numbers 7 and 8 are the pair that decides whether a published rate means anything.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>A fatality rate is 7 divided by 8. The talk in On Campus is about what happens when 8 is wrong.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A district clinic during an outbreak. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
         carry: "1a",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -77,6 +80,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the argument in Lesson 5 is conducted in.",
         items: [
@@ -91,6 +95,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The prefix re-", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>re-</b> means <i>again</i> or <i>back</i>. In this subject it is everywhere, because disease is a thing that returns.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -105,6 +110,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The prefix re-", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the word. Each is built with this unit's prefix.",
         items: [
@@ -119,6 +125,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The prefix re-", letter: "C",
+        concepts: ["word", "evidence", "sample"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more. Two of them only look as though they carry the prefix.",
         items: [
@@ -133,6 +140,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The prefix re-", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -163,6 +171,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Which number moved", letter: "A",
+        concepts: ["comparison", "measurement", "cause"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight things that would change a reported case fatality rate. Sort them by which half of the fraction they move.",
         note: { kind: "words", title: "In other words…",

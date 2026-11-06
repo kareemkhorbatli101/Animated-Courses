@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen", "sample"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice sent to the observing group. It plays once.",
         speaker: "dan", speakerNote: "session coordinator",
@@ -41,6 +42,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out before an observing run. It plays once.",
         speaker: "dan", speakerNote: "dome technician",
@@ -71,6 +73,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on why so much exploration is uncrewed. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -106,6 +109,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference", "measurement"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on how a field decides what it has found.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -144,6 +148,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -165,6 +170,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Make a suggestion", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. In a group project, a suggestion lands or not depending almost entirely on how it is framed.",
         note: { kind: "speak",
@@ -185,6 +191,7 @@
         after: "<p>The third pattern is the one that changes outcomes. Attaching your own labour to a suggestion is what separates it from an instruction.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Make a suggestion", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each move prevents.",
         caption: "Four moves, and what each one prevents",
@@ -204,6 +211,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Make a suggestion", letter: "C",
+        concepts: ["read", "comparison"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

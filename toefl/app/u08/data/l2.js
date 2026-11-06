@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read", "comparison", "evidence"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the outline, then the paragraph it produced. The outline is four lines; the paragraph is one.",
         note: { kind: "writer",
@@ -25,6 +26,7 @@
         after: "<p>Four jobs, three sentences. Line 1 and line 4 of the outline became the first and last sentence — which is where a reader looks.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim", "evidence"],
         kind: "choice", task: null, n: 0,
         prompt: "What does line 4 of the outline do that lines 1 to 3 do not?",
         options: [
@@ -37,6 +39,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "evidence", "claim"],
         kind: "sequence", task: null, n: 0,
         prompt: "This unit's strategy is the outline. Put the five steps of building one in order.",
         note: { kind: "writer",
@@ -56,6 +59,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
         carry: "1a",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is <i>used to</i> and the present perfect continuous.",
         items: [
@@ -78,6 +82,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word", "claim"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Two of them separate a closed past from a trend that is still running.",
         items: [
@@ -100,6 +105,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "evidence"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from essay drafts. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -126,6 +132,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about where health money should go.",
         minWords: 100,
@@ -146,6 +153,7 @@
         model: "<p>Tomás has identified the real limit of the argument, but I think he draws the wrong conclusion from it.</p><p>He is right that sanitation does not touch heart disease. But the general lesson was never about drains specifically — it was that the conditions people live in determine how many of them need treating. For today's diseases those conditions are different: diet, air quality, how walkable a city is, how much people work.</p><p>So I would agree with Priya's principle and update her examples. The error is not spending on treatment; it is classifying everything upstream of treatment as somebody else's budget.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write", "measurement"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about a number that was true and misleading at the same time.",
         minWords: 100,

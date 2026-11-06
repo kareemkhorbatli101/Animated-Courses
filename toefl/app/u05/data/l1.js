@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "comparison", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. The last pair matters most: a great deal of this subject turns on the difference between what is there and what can be detected.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>Hold 7 and 8 together. The article in Lesson 5 is about what happens when a catalogue is mistaken for a population.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A control room on an observing night. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -62,6 +64,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -76,6 +79,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the argument in Lesson 5 is built from.",
         items: [
@@ -90,6 +94,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The prefix un-", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>un-</b> negates. It is the commonest negative prefix in English and it attaches to adjectives and participles.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -105,6 +110,7 @@
 
       { id: "2b", section: 2, sectionTitle: "The prefix un-", letter: "B",
         carry: "2a",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the word. Each is built with this unit's prefix.",
         items: [
@@ -119,6 +125,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The prefix un-", letter: "C",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more. Two of them negate an adjective; two negate a verb, which is a different job.",
         items: [
@@ -133,6 +140,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The prefix un-", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -163,6 +171,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Two jobs for un-", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "<b>un-</b> does the same two jobs Unit 1's <i>dis-</i> did. Sort these eight by which one it is doing.",
         note: { kind: "gram", title: "Grammar Notes",

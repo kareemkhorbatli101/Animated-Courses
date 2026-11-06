@@ -7,6 +7,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's strategy is detail — give something the reader can check.",
         scenarioTitle: "The situation",
@@ -25,6 +26,7 @@
         model: "<p>Dear Administrator,</p><p>I am writing about the new meeting time for Thursday's gallery visit.</p><p>The difficulty is that five students in our group are in the seminar that finishes at half past one across the city. The gallery is forty minutes away, which puts them at the entrance at about ten past two — twenty-five minutes after the group now meets, and ten minutes into the curator's tour.</p><p>Would it be possible for those five to join the tour in the second room, as the announcement already allows for latecomers? If so, could you let us know by Wednesday afternoon, so I can tell them before they make their own arrangements?</p><p>Kind regards,<br>Priya Raman</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation, and the last email in the book. This one asks you to disagree with a published reading of your own work.",
         scenarioTitle: "The situation",
@@ -48,6 +50,7 @@
                "<p>Best,<br>Mei</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -55,6 +58,7 @@
         model: "<p>A documentary about an orchestra changed how I listen. There is a sequence where the same two minutes are played three times: once by the full orchestra, once by the strings alone, and once by a single player. Nothing is explained over it. What changed for me was that I could finally hear what a part contributes, because I had heard the same passage with it and without it. Before that I had been told music was layered and had never actually perceived the layers.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "The last speaking task of the book. One pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -62,6 +66,7 @@
         model: "<p>I think it changes the experience, and I am not persuaded it changes the work. It is obviously true that a film means something different to someone who knows its tradition and someone who does not — nobody disputes that. The stronger claim is that these are therefore different works, and I resist it because it would make disagreement impossible. When two people argue about an ending they are arguing about the same sequence of shots, and that shared object is exactly what lets them disagree at all.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about explaining something to somebody else.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -69,6 +74,7 @@
         model: "<p>I was explaining a reading of a film to someone in my seminar group and started from the beginning, which was the mistake. He had followed everything up to the last two minutes; what he had lost was one step, and I spent ten minutes re-covering ground he already had before we reached it. What I should have asked first was which part lost him. The second thing I got wrong was giving him my interpretation and the thing on screen in the same breath, so he could not tell which one he was being asked to accept.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "The last question in the book. It asks you to look back at the whole of it.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -76,6 +82,7 @@
         model: "<p>Asking what I would have to see in order to agree. It sounds like a small thing and it does most of the work of the others. It is the same question as asking what a rate was divided by, or what a chart was computed from, or which claim a sentence is actually making — all of those turned out to be one habit wearing different clothes. What I like about it is that it is not scepticism. It does not ask whether something is true. It asks what would settle it, which is a question you can answer, and often the answer is already on the page.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence", "claim"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit — and the last six items in the book.",
         items: [
@@ -158,6 +165,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement", "evidence"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight sentences from across the whole book. Sort them by whether they report something checkable or make a claim about what it means. This is the habit the course has been building since Unit 1.",
         note: { kind: "reader",

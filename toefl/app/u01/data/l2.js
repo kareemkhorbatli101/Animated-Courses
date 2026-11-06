@@ -8,6 +8,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the model answer. It is a reply on a class discussion board.",
         note: { kind: "writer",
@@ -20,6 +21,7 @@
         after: "<p>Three paragraphs, three jobs. That is the whole technique.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: "write-academic-discussion", cefr: "B2", n: 0,
         prompt: "Study the model. What does its third paragraph do that the first two do not?",
         options: [
@@ -33,6 +35,7 @@
 
 
       { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "claim"],
         kind: "sequence", task: null, n: 0,
         prompt: "The strategy itself, in order. Put the five steps of a discussion reply on the right rung.",
         note: { kind: "writer",
@@ -51,6 +54,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word", "claim"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. These are the sentence shapes a discussion post needs.",
         items: [
@@ -74,6 +78,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more shapes. These are the ones a reply needs once it has to answer somebody.",
         items: [
@@ -96,6 +101,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "claim"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from real drafts. One word in each is wrong. Click it, then type the correction.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -124,6 +130,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "Now write your own reply. The professor's question and both classmates stay on screen.",
         minWords: 100,
@@ -145,6 +152,7 @@
         closer: { kind: "test", body: "<p>After this writing lesson, I can… / I need more help with…</p>" } },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A different question, and two classmates who disagree about it. Same three jobs, three paragraphs.",
         minWords: 100,

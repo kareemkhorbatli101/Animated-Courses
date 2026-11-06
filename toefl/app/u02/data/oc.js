@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice read out before the field trip. It plays once.",
         speaker: "dan", speakerNote: "trip coordinator",
@@ -41,6 +42,7 @@
 
 
       { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out at the end of a lecture. It plays once.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -71,6 +73,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on what a climate model actually does. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -108,6 +111,7 @@
 
 
       { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "evidence"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on four words that carry numbers.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -145,6 +149,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen", "claim"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -165,6 +170,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Disagree politely", letter: "A",
+        concepts: ["read", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. In a seminar, disagreeing well is a skill with its own phrases.",
         note: { kind: "speak",
@@ -185,6 +191,7 @@
         after: "<p>The last one is not a retreat. Asking what someone means by a word is the most efficient disagreement there is.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Disagree politely", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each move is protecting.",
         caption: "Four moves, and what each one protects",
@@ -203,6 +210,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Disagree politely", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

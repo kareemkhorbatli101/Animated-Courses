@@ -63,8 +63,24 @@ try { A11Y = JSON.parse(fs.readFileSync(path.join(__dirname, '.a11y.json'), 'utf
 const ICON_CONCEPTS = new Set();
 {
   const src = asset('icons.js');
-  for (const m of src.matchAll(/^\s{4}"?([a-z0-9-]+)"?:\s*(?:\[|")/gm)) ICON_CONCEPTS.add(m[1]);
+  const tbl = src.slice(src.indexOf('var P = {'), src.indexOf('var ALIAS'));
+  /* the paths are single-quoted; a regex expecting double quotes matched
+     nothing here and reported F50 as 0% for a reason that had nothing to
+     do with the data. An empty table is now an error, not a silent zero. */
+  for (const m of tbl.matchAll(/^\s{4}"?([a-z0-9-]+)"?:\s*['"\[]/gm)) ICON_CONCEPTS.add(m[1]);
 }
+
+/* A set parsed out of a source file and come back empty means the parse
+   broke, not that the feature is absent. Reporting 0% in that case is the
+   most expensive kind of wrong: it sends you to fix content that is fine. */
+[['SAYABLE', SAYABLE], ['EXPLAINED', EXPLAINED], ['FEATURES', FEATURES],
+ ['ICON_CONCEPTS', ICON_CONCEPTS]].forEach(([name, set]) => {
+  if (!set.size) {
+    console.error(`coverage.js: ${name} parsed empty from its source file. ` +
+                  `The report below would be wrong, so it is not printed.`);
+    process.exit(2);
+  }
+});
 
 const pages = [];
 for (const u of fs.readdirSync(ROOT).filter(d => /^u\d\d$/.test(d)).sort()) {
@@ -93,6 +109,32 @@ const items = s => [].concat(s.items || [], s.gaps || [], s.pairs || [], s.steps
 const everyItem = (s, fn) => { const a = items(s); return a.length > 0 && a.every(fn); };
 const lessonNo = b => (/^l(\d)$/.exec(b) || [])[1];
 const withOptions = s => items(s).some(i => (i.options || i.opts || []).length);
+/* kinds learn.js writes a hint ladder for */
+const HINTED = new Set();
+{
+  const src = asset('learn.js');
+  const tbl = src.slice(src.indexOf('var HINTS'), src.indexOf('var GENERIC'));
+  for (const m of tbl.matchAll(/^\s{4}"?([a-z0-9-]+)"?:\s*\[/gm)) HINTED.add(m[1]);
+}
+/* can a worked example be built from this scene's first item? mirrors
+   firstItem() in learn.js: a list, and either an answer or a rationale */
+function workable(s) {
+  const list = s.items || s.gaps || s.cards || s.sentences || s.pairs ||
+               s.steps || s.lines || s.phrases || [];
+  const it = list[0];
+  if (!it) return false;
+  const answer = it.answer != null ? it.answer : it.right != null ? it.right
+               : it.target != null ? it.target : it.job != null ? it.job
+               : it.bin != null ? it.bin : it.pin != null ? it.word
+               : it.pos != null ? it.pos : it.meaning != null ? it.meaning
+               : (Array.isArray(it.options || it.opts)
+                  ? ((it.options || it.opts).filter(o => o && o.correct)[0] || {}).text
+                  : null);
+  const why = it.why || (Array.isArray(it.options || it.opts)
+    ? ((it.options || it.opts).filter(o => o && o.correct)[0] || {}).why : '');
+  return answer != null || !!why;
+}
+const glossed = s => !!(s.glossary || (s.text && Array.isArray(s.text.notes) && s.text.notes.length));
 const hasLines = s => !!(s.audio && Array.isArray(s.audio.lines) && s.audio.lines.length);
 /* `respond` and `minimal-pairs` put the audio on each item instead of on the
    scene: 36 more listening scenes than a scan for scene-level audio finds. */
@@ -128,7 +170,9 @@ const FIXES = [
 ["F6","Clickable line citation",
   s=>s.kind==='tfni'||s.kind==='selectintext', s=>eng('lineCite')&&STIMULUS(s), 'scene', 36],
 ["F7","Tappable glossary rail",
-  s=>s.kind==='read',                        s=>eng('glossaryRail')&&has(s,'glossary'), 'scene', 48],
+  /* it runs on text.notes, the glosses the book already writes, as well as
+     on an explicit glossary */
+  s=>s.kind==='read',                        s=>eng('glossaryRail')&&glossed(s), 'scene', 48],
 ["F8","Reading pace band",
   s=>s.kind==='read',                        s=>eng('paceBand'), 'scene', 48],
 ["F9","Evidence before verdict",
@@ -199,7 +243,9 @@ const FIXES = [
 
 /* ---- cross-cutting ----------------------------------------------------- */
 ["F35","Progressive hints, three levels",
-  s=>items(s).length>0,                      s=>eng('hints')&&everyItem(s,i=>i.why!=null||i.rationale!=null), 'scene', 519],
+  /* the ladder is per KIND, written in learn.js, not drawn from the item
+     rationales — the earlier predicate asked for the wrong thing entirely */
+  s=>items(s).length>0,                      s=>eng('hints')&&HINTED.has(s.kind), 'scene', 519],
 ["F36","Arabic interface toggle",
   s=>true,                                   s=>eng('arabicUI'), 'book', 1],
 ["F37","Mistake log",
@@ -209,13 +255,13 @@ const FIXES = [
 ["F39","Audio pack manifest",
   s=>true,                                   (s,p,w)=>!!(MANIFEST&&MANIFEST.units&&MANIFEST.units.includes(w)), 'unit', 12],
 ["F40","Worked first item",
-  s=>items(s).length>0,                      s=>eng('worked')&&everyItem(s,i=>i.why!=null||i.rationale!=null), 'scene', 519],
+  s=>items(s).length>0,                      s=>eng('worked')&&workable(s), 'scene', 519],
 ["F41","Retrieval before presentation",
   s=>s.kind==='cards',                       s=>eng('interactive6')&&s.retrievalFirst!==false, 'scene', 12],
 ["F42","Predict, then check",
   s=>items(s).length>0,                      s=>eng('predict'), 'scene', 519],
 ["F43","Faded worked examples",
-  s=>items(s).length>0,                      (s,p)=>eng('fade')&&eng('worked')&&lessonNo(p.block||'')!=null, 'scene', 519],
+  s=>items(s).length>0,                      (s,p)=>eng('fade')&&eng('worked')&&workable(s), 'scene', 519],
 ["F44","Self-explanation after a miss",
   s=>items(s).length>0,                      s=>eng('selfExplain'), 'scene', 519],
 ["F45","Elaborative interrogation on distractors",
@@ -223,11 +269,16 @@ const FIXES = [
 ["F46","Interleave within the lesson",
   s=>s.kind==='letterbox'&&items(s).length>=8, s=>s.interleaved===true, 'scene', 84],
 ["F47","Signal after, not before",
-  s=>s.kind==='read'||has(s,'chart'),        s=>eng('signalOnReview'), 'scene', 60],
+  /* every scene with a passage or chart to mark, whether it owns it or
+     carries it: the plan's 60 predated `carry` existing */
+  s=>s.kind==='read'||has(s,'chart')||has(s,'carry'), s=>eng('signalOnReview'), 'scene', 143],
 ["F48","Transfer in the recap",
   s=>s.kind==='recap',                       s=>everyItem(s,i=>!i.caseId||i.transfer!==false), 'scene', 24],
 ["F49","Segmented audio",
-  s=>hasLines(s),                            s=>has(s,'segments'), 'scene', 84],
+  /* only a talk long enough to overflow working memory needs chunking;
+     a two-line exchange does not, so the plan's 84 was every audio scene
+     rather than every one that benefits */
+  s=>hasLines(s)&&s.audio.lines.length>2,    s=>eng('segments'), 'scene', 24],
 ["F50","One concept, one icon, twelve units",
   s=>true,                                   s=>eng('icons')&&(s.concepts||[]).length>0&&(s.concepts||[]).every(c=>ICON_CONCEPTS.has(c)), 'scene', 754],
 ["F51","The mistake log resurfaces the item",

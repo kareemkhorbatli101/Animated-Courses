@@ -15,6 +15,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen", "inference", "sample"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice read out at the start of a lecture. It plays once.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -45,6 +46,7 @@
 
 
       { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out before the break. It plays once.",
         speaker: "dan", speakerNote: "peer advisor",
@@ -74,6 +76,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "inference", "measurement"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on why retrieval works. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -111,6 +114,7 @@
 
 
       { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference", "evidence"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, a week later, on the order you study things in.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -149,6 +153,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen", "evidence"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs. These are the four things worth writing down from it.",
         audio: TALK1,
@@ -169,6 +174,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Show that you are following", letter: "A",
+        concepts: ["read", "evidence", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. In a seminar, following is something you have to <i>show</i>.",
         note: { kind: "speak",
@@ -189,6 +195,7 @@
         after: "<p>The middle one is the most useful sentence in this book. It asks for a repeat without admitting you were lost.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Show that you are following", letter: "B",
+        concepts: ["measurement", "evidence"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column is already filled; it says why each one works.",
         caption: "Four signals, and what each one tells the lecturer",
@@ -208,6 +215,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Show that you are following", letter: "C",
+        concepts: ["read", "evidence"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

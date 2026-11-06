@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's writing strategy is one job per paragraph.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Mr Adeyemi,</p><p>I am writing about the dome slot our group has been given for Tuesday evening.</p><p>Our session was rebooked after Monday was clouded out, and it appears the second group's booking was never cleared, so both of us arrived this morning expecting the same slot.</p><p>Rather than split the night and lose two setups, we would like to take the second half and let the other group begin. Our targets do not rise until after midnight, so the later slot suits us better in any case.</p><p>Could you confirm that this is acceptable by Monday afternoon, so that both groups can plan?</p><p>Kind regards,<br>Mei Lin</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to argue for less than you were offered.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Tomás Beltrán</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>I have never observed a full night at a telescope. I have been to an observatory twice, but both visits were two hours and both were partly clouded out. It has not happened mainly because the sessions are booked months ahead and the good ones go to research groups rather than to students. I have already put my name down for the spring run, so I am hoping that changes.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to weigh two things.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>For almost everything we have actually attempted, machines. They can wait decades, they carry far more instruments for the same mass, and losing one costs money rather than lives. But I would not say the question is settled, because we have only really tested it where machines were always going to win — long journeys and steady measurement. The one thing a person has is judgement on the spot, and we have barely tried that anywhere.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak", "comparison"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, asking about a time you reported something awkward.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>We had been given eleven candidates and told, informally, that the group was hoping for ten detections. Four of them were strong and the rest were marginal. What I did in the end was report the four as detections and all eleven as candidates, with a sentence saying exactly what separated the two groups. The number at the top of the report was smaller than anybody wanted, but nobody could accuse us of hiding the other seven, and two of them have since been confirmed.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to judge a general practice.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>Held, mostly, and the reason is asymmetry rather than caution. An announcement travels a long way and a retraction does not, so the cost of being early is paid by everyone who read the first version and never saw the second. The exception is anything that other people need in order to observe the same thing — a transient event, a passing object — where holding it means nobody can check you at all. So my rule would be: announce early if announcing lets others verify, and otherwise wait.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence", "sample"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -155,6 +162,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight statements about a planet search. Sort them by whether they describe the universe or describe the instrument.",
         note: { kind: "reader",

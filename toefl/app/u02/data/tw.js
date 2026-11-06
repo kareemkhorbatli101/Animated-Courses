@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email.",
         scenarioTitle: "The situation",
@@ -25,6 +26,7 @@
 
 
       { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one is about a clash you cannot resolve yourself.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Priya Raman</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>We had planned to sample three sites on an estuary field trip, and the day before, one of them flooded. We could either go anyway and rush, or drop a site. We decided to do two sites properly rather than three badly, and to use published figures for the third, clearly marked as somebody else's data. It made the report weaker in one way and more honest in another.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking for a prediction and a reason.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -62,6 +66,7 @@
 
 
       { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about disagreement rather than planning.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -69,6 +74,7 @@
         model: "<p>We were deciding what to put on a poster, and one person wanted a single headline figure instead of the range. I did not want to say flatly that it was wrong, so I started with the part I agreed with: that a range is harder to read quickly. Then I separated the two things — readability, and what we would be claiming. Once it was two questions rather than one, we found a third option, which was to print the range and mark the likeliest part of it.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to weigh two goods against each other.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -76,6 +82,7 @@
         model: "<p>I would say yes to simple and no to simplified. A simple answer uses short words and keeps the hedge: <i>probably more than two degrees, and we are not sure how much more</i>. A simplified answer drops the hedge to get a headline, and the cost arrives later, when the number turns out to be at the other end and the audience concludes that nobody knew anything. So my test would be whether the simple version would still be true if the uncertain part turned out badly.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Twelve items, interleaved across the whole unit.",
         items: [
@@ -157,6 +164,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement", "evidence"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight sentences from this unit. Sort them by whether they report something measured or state what would follow under stated conditions.",
         note: { kind: "reader",

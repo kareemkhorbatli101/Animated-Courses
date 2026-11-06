@@ -71,6 +71,7 @@
     next: "oc.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the definitions before you begin.",
         text: { every: 1, blocks: [{ lines: [
@@ -82,6 +83,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
         carry: "1c",
+        concepts: ["read", "claim", "place"],
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the article. Where is the author's own opinion most likely to be?",
         note: { kind: "reader",
@@ -94,6 +96,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Read", letter: "C",
+        concepts: ["read", "claim"],
         kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
         prompt: "Read the article, then answer. The text stays on screen.",
         text: PASSAGE,
@@ -130,6 +133,7 @@
         ] },
 
       { id: "1d", section: 1, sectionTitle: "Read", letter: "D",
+        concepts: ["read", "place"],
         kind: "read", task: "read-daily-life", cefr: "A2", n: 1,
         prompt: "A short everyday text. Read the card at the gallery entrance.",
         text: NOTICE,
@@ -144,6 +148,7 @@
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
         carry: "1c",
+        concepts: ["read"],
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>article</b>.",
         note: { kind: "reader",
@@ -159,6 +164,7 @@
 
             { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
         carry: "4a",
+        concepts: ["read", "claim"],
         kind: "selectintext", task: null, n: 0,
         prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
         note: { kind: "reader",
@@ -179,6 +185,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "Noun or verb? The stress decides.",
         items: [
@@ -189,6 +196,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Talk it over", letter: "A",
+        concepts: ["measurement", "sample"],
         kind: "chartread", task: "read-academic-passage", cefr: "B2", n: 0,
         prompt: "Look at the chart, then ask where the figures came from.",
         note: { kind: "reader",
@@ -221,6 +229,7 @@
 
       /* ---------------- 4 Read a second article ---------------- */
       { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        concepts: ["read", "inference", "claim"],
         kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
         prompt: "A second article, on a sentence of the kind you have been reading all unit. Read it, then answer.",
         text: PASSAGE2,
@@ -259,6 +268,7 @@
 
       { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
         carry: "4a",
+        concepts: ["read"],
         kind: "paraphrase", task: null, n: 0,
         prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
         note: { kind: "reader",
@@ -301,6 +311,7 @@
 
       /* ---------------- 5 Read in daily life again ---------------- */
       { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        concepts: ["read"],
         kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
         prompt: "A second card from the gallery. Read it.",
         text: NOTICE2,
@@ -322,6 +333,7 @@
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
         carry: "5a",
+        concepts: ["read"],
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
         items: [
@@ -332,6 +344,7 @@
         ] },
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Two articles, one chart, and the habit this book has been building for twelve units.",
         text: { blocks: [{ lines: [

@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "measurement", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words that do specific work in this subject. Two of them are often confused, and the article in Lesson 5 turns on the difference.",
         text: { every: 1, blocks: [{ lines: [
@@ -22,6 +23,7 @@
 
 
       { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "Before the abstractions, the place the numbers come from. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -61,6 +63,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -77,6 +80,7 @@
 
       { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
         carry: "1a",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. Each one names a number, or the honesty around a number.",
         items: [
@@ -91,6 +95,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The suffix -ful", letter: "A",
+        concepts: ["read", "measurement", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "This unit's affix. <b>-ful</b> turns a noun into an adjective meaning <i>full of</i> or <i>having</i>.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -105,6 +110,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The suffix -ful", letter: "B",
+        concepts: ["word", "comparison"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the adjective. The sentence tells you which noun it is built from.",
         items: [
@@ -119,6 +125,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The suffix -ful", letter: "C",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more <b>-ful</b> adjectives, all of them common in a results section.",
         items: [
@@ -133,6 +140,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The suffix -ful", letter: "D",
+        concepts: ["word", "claim"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -163,6 +171,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Two jobs for -ful", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "<b>-ful</b> does two different jobs, and only one of them makes an adjective. Sort these eight.",
         note: { kind: "words", title: "In other words…",

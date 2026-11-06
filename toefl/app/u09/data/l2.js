@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read", "inference", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Two openings for the same essay. Read both.",
         note: { kind: "writer",
@@ -22,6 +23,7 @@
         after: "<p>A says nothing a reader did not already know. B states the question, the surprise and the answer in three clauses.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "What is the single worst feature of Opening A?",
         options: [
@@ -34,6 +36,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "claim"],
         kind: "sequence", task: null, n: 0,
         prompt: "This unit's strategy is the introduction. Put the five jobs of one in order.",
         note: { kind: "writer",
@@ -53,6 +56,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
         carry: "1a",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is time clauses and the <i>too / either</i> pair.",
         items: [
@@ -75,6 +79,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word", "claim"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Two of them put a time clause at the end rather than the front.",
         items: [
@@ -97,6 +102,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from essay introductions. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -123,6 +129,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about how cities should respond to congestion.",
         minWords: 100,
@@ -143,6 +150,7 @@
         model: "<p>Priya has identified the condition that makes Tomás's answer incomplete rather than wrong.</p><p>He is right that visibility explains the political preference: a lane opens, a charge merely exists. But her objection matters because a charge changes a traveller's calculation only if there is something to change to. Where the alternative is a bus every forty minutes, the charge does not shift the journey; it just makes it more expensive.</p><p>So I would sequence them. Build the alternative first and price afterwards — which is slower and less satisfying than either of their answers, and is probably why few cities do it.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write", "measurement"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about who a street is for.",
         minWords: 100,

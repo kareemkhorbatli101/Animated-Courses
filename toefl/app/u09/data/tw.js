@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's writing strategy is the introduction — your first sentence must earn the rest.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Estates,</p><p>I am writing about the evening seminars at the science building, which currently finish half an hour after the last shuttle.</p><p>The walk back is fifteen minutes and mostly downhill in the dark. Three students in our group have stopped attending the evening sessions entirely, and two others have been arriving late because they allow extra time to walk up.</p><p>Would it be possible to extend the shuttle to eight on seminar evenings? That is two additional runs on three days a week, and it would make the difference between attending and not for several people.</p><p>Kind regards,<br>Priya Raman</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to argue against a scheme that is about to be approved.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Priya Raman</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>I take the metro, about twenty-two minutes door to door. The alternative is cycling, which is thirty-four minutes but costs nothing and has no emissions at all. On the numbers alone the bicycle wins three of the four columns I would compare. What decides it for me is weather and what I am carrying, which is not in any of those columns — and I think that is true of most people's real transport decisions.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to explain something counter-intuitive.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>Because the traffic is not a fixed quantity waiting to be accommodated. While a road is slow and unpleasant, some journeys are simply not made, and others are made at a different hour or by a different route. When the road improves, that deterrent disappears and those journeys reappear. So the new capacity fills with traffic that did not exist before it was built. It is not that the widening was done badly — it is that supplying capacity changes the demand you were trying to meet.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about a journey you stopped making.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>I used to cycle to a market on the other side of a dual carriageway, about twenty minutes away. Nothing was ever announced; the crossing was taken out during roadworks and never put back, and the alternative adds a mile. For about a month I went the long way and then I simply stopped going. What strikes me now is that nobody counted that. The traffic on the carriageway was measured before and after, and my journey disappeared from the figures by disappearing entirely.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak", "measurement"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to judge a measure rather than a scheme.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>I would use access: how many jobs, schools and shops a person can reach in half an hour without a car, before and after. The reason is that it counts people who currently travel and people who currently cannot, which time saved does not. The objection is that it is much harder to compute and far easier to argue about — you have to decide which destinations count, and that decision carries a politics of its own. My answer to that would be to publish both measures and the disagreement between them, rather than to pick the one that is easy.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "measurement", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -156,6 +163,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight journeys. Sort them by whether a time-saving appraisal would be able to count them.",
         note: { kind: "reader",

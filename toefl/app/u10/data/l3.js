@@ -8,6 +8,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the gerund", letter: "A",
+        concepts: ["read", "place"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two sets. The same <i>-ing</i> form is doing two completely different jobs.",
         text: { every: 1, blocks: [
@@ -24,6 +25,7 @@
         after: "<p>In the first set you could replace the <i>-ing</i> word with <i>it</i>. In the second you could not. That is the test.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the gerund", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: gerunds and infinitives",
@@ -39,6 +41,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review the gerund", letter: "C",
+        concepts: ["word", "evidence"],
         kind: "cloze", task: null, n: 0,
         prompt: "The three verbs where the choice changes the meaning rather than only the form. Complete the rule.",
         heading: "Language connection: when the two forms mean different things",
@@ -57,6 +60,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -87,6 +91,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them turn on which form a particular verb insists upon.",
         items: [
@@ -117,6 +122,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct", "evidence"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from essays. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -143,6 +149,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the noun. Both use this unit's suffix.",
         items: [
@@ -153,6 +160,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more <b>-ment</b> nouns, both from verbs you have met in this unit.",
         items: [
@@ -164,6 +172,7 @@
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
         carry: "1a",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a verb form into each gap. Two in the bank are not used, and each of them is the wrong form for the verb in front of it.",
         note: { kind: "gram", title: "Grammar Notes",

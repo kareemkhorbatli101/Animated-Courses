@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "measurement", "sample"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. Four of them end in <b>-tion</b>, which is this unit's suffix and no accident: this subject names processes.",
         text: { every: 1, blocks: [{ lines: [
@@ -22,6 +23,7 @@
 
 
       { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "match", task: null, n: 0,
         prompt: "The bench where the measurements are actually made. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -78,6 +81,7 @@
 
 
       { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the case study in Lesson 5 is built from.",
         items: [
@@ -92,6 +96,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The suffix -tion", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>-tion</b> turns a verb into a noun naming the process or its result.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -106,6 +111,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The suffix -tion", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the noun. The sentence tells you the verb it comes from.",
         items: [
@@ -120,6 +126,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The suffix -tion", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more <b>-tion</b> nouns. Say each one aloud and listen for where the stress lands.",
         items: [
@@ -134,6 +141,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The suffix -tion", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -164,6 +172,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "-tion or -sion", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "Each of these verbs makes a noun. Sort them by which ending the noun takes. The verbs are given, not the nouns, so you have to know rather than see.",
         note: { kind: "gram", title: "Grammar Notes",

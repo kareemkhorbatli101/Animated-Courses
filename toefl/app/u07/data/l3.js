@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the real conditional", letter: "A",
+        concepts: ["read", "time"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two notes. Both describe the future, and neither uses <i>will</i> where you might expect it.",
         text: { every: 1, blocks: [
@@ -22,6 +23,7 @@
         after: "<p>Neither the <i>if</i> clause nor the <i>when</i> clause takes <i>will</i>. The future is carried by the main clause only, and English does not repeat it.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the real conditional", letter: "B",
+        concepts: ["word", "money"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: real conditionals and time clauses",
@@ -36,6 +38,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review the real conditional", letter: "C",
+        concepts: ["word", "claim"],
         kind: "cloze", task: null, n: 0,
         prompt: "Real against unreal, and what <i>unless</i> is doing. Complete the rule.",
         heading: "Language connection: real, unreal, and unless",
@@ -55,6 +58,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         carry: "1a",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -85,6 +89,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word", "time", "claim"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them put the condition in a word other than <i>if</i>.",
         items: [
@@ -115,6 +120,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct", "claim"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from essays. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -141,6 +147,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the adjective. Both use this unit's suffix.",
         items: [
@@ -151,6 +158,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more adjectives, both built with this unit's suffix.",
         items: [
@@ -161,6 +169,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a conjunction into each gap. Two in the bank are not used.",
         note: { kind: "writer",

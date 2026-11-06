@@ -7,6 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -52,6 +53,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Two of them turn on hearing which contraction was used.",
         items: [
@@ -100,6 +102,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students sorting out a clash. Listen once.",
         speaker: "mei", speakerNote: "with Dan Okafor",
@@ -141,6 +144,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen", "measurement"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students deciding what to put in a project report. Listen once.",
         speaker: "mei", speakerNote: "with Tomás Beltrán",
@@ -183,6 +187,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "<b>I'm</b>, <b>I'd</b> and <b>I'll</b> are easy to confuse and carry completely different meanings. Hear the consonant at the end.",
         speaker: "haddad",
@@ -198,6 +203,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. The whole difference between a promise, a preference and a report is one consonant at the end of one syllable.",
         speaker: "haddad",
@@ -213,6 +219,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>These are not sounds in isolation: they are whole words reduced almost to nothing, and the only thing left is the final consonant. <b>I'm</b> ends in a hum through the nose. <b>I'll</b> ends with the tongue on the ridge behind the teeth. <b>I'd</b> ends with a tap in the same place, released. The vowel is identical in all three.</p>" +
                "<i>I'm = I am · a state</i><i>I'll = I will · a promise</i><i>I'd = I would, or I had · a condition or a past</i>",
@@ -240,6 +247,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Write the contractions as you hear them, with the apostrophe.",
         items: [

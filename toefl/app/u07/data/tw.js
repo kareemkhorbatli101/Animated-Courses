@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's writing strategy is joining a claim to its reason.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Student Finance,</p><p>I am writing to ask you to remove a late fee charged on my second instalment.</p><p>Since I arranged a payment plan on the eleventh of March, the fifteenth deadline should not have applied to me. The fee appears to have been charged because the plan was recorded against the wrong student number — one digit out from mine.</p><p>I have the confirmation email from March and can forward it if that would help.</p><p>Could you confirm that the fee has been removed, and that the plan is now attached to the correct record?</p><p>Kind regards,<br>Priya Raman</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write", "comparison", "claim"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to argue against a rule rather than against its application.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Tomás Beltrán</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>My university introduced a charge for printing, about five pence a page. Before that I printed every reading and highlighted it on paper. Afterwards I read almost everything on screen. What interests me is that five pence is trivial — it was never about the money. It was that the charge made me decide each time, where before printing was the default and required no decision at all. The price worked by making the choice visible, not by making it expensive.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to predict and justify.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>Satisfaction scores would rise, and I would not be confident that satisfaction had. The cheapest route to a better score is usually not better teaching — it is asking at a different moment, or asking a slightly different question, or marking a little more generously. Nobody has to be dishonest for that to happen; people simply respond to what is rewarded. If I were designing it I would publish the scores but reward something harder to influence, and I would say in advance how the result would be checked.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about a cost that does not appear in money.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>I gave up a part-time job in my second year to take an unpaid placement. The financial cost was easy to state — about two hundred a month — and it was not the real cost. The real one was that the job had been the only fixed point in my week, and without it I stopped having a reason to be anywhere at a particular time. It was worth it in the end, but not for the reason I expected: the placement taught me less than the loss of structure did.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to design rather than to judge.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>I would reward the proportion of students who can still do the thing six months later, and I would check it by testing a random sample of them, not by asking anyone. The reason for choosing that measure is that almost every easier one can be hit without the thing happening: satisfaction can be bought with lenient marking, and pass rates with easier papers. A delayed test is expensive and awkward, and it is hard to hit by any route other than teaching well, which is the only property of a measure that really matters.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence", "cause"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -160,6 +167,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight ways a measure could be gamed. Sort them by whether the number would still be honest.",
         note: { kind: "reader",

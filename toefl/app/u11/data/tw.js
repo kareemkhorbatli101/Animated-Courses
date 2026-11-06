@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's strategy is what to <i>avoid</i> — no double apology, no buried request.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Dr Mensah,</p><p>I am writing to ask whether the calibration settings used for the spectrometer runs in your 2024 paper are available.</p><p>I have been attempting to reproduce the absorbance results and my figures differ from yours by about eight per cent. I have checked the supplementary material and the departmental log, and the settings do not appear in either.</p><p>I am not suggesting there is any error in the published work — the most likely explanation is that my instrument is calibrated differently.</p><p>Would it be possible to send the settings, or to point me to where they are recorded?</p><p>Kind regards,<br>Tomás Ferreira</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to give credit back after it has already gone to you.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Mei Lin</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>I would start with what kind of claim it is. If it rests on a single study, I would treat it as provisional however well the study was done, because one study was never meant to settle anything. Then I would look for whether anyone had repeated it independently, and whether the method was registered before the data were collected. And I would notice whether negative results in that area get published at all, because if they do not, the record I am reading is a selection rather than a sample.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to defend something unpopular.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>Not in a methods section. A method is a set of instructions for reproducing something, and who held the pipette is irrelevant to that — if it were relevant, you would not have a method, you would have an anecdote. The passive removes the agent precisely because the agent should not matter. Where I would agree is that the passive can hide agency when a reader needs it. The test I would use is whether naming the person would change what a reader should do next. In a method it would not. In an apology it would.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak", "evidence"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about a disagreement with evidence in it.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>We were trying to reproduce a result from another group in the department and came out eight per cent low on every single run. The temptation was to assume they had got it wrong, and the thing that stopped me was that the discrepancy was the same every time: random error scatters, and a constant offset points at the procedure. Their method did not give the calibration settings and the supplementary material did not either. So I wrote and asked for them, framed as a question about the method rather than as an accusation, and it turned out to be exactly that.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak", "evidence"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to judge a reform.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>I would have journals accept papers on the method alone, before the results exist. The reason is that every other reform depends on people behaving well, and this one does not: if acceptance is decided before anyone knows what was found, the result stops being the thing the work is aimed at. The cost is real and I would not pretend otherwise. Editors judging a method blind will be cautious, and the literature would fill up with careful studies of safe questions. I still think that is a better failure than the one we have.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -161,6 +168,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight passive sentences. Sort them by whether dropping the agent is honest or evasive.",
         note: { kind: "gram", title: "Grammar Notes",

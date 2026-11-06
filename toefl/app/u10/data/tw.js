@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. Mark your contrast correctly — that is this unit's strategy.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Committee,</p><p>I am writing to raise a point about the wording of Thursday's motion, <i>This house would break unjust laws</i>.</p><p>The difficulty is that the phrase settles in advance the question the debate exists to examine. Whether the laws in question are unjust is precisely what the two sides disagree about, whereas the motion treats it as given.</p><p>Would the committee consider <i>This house would break laws it believes to be unjust</i>? That keeps the substance and removes the assumption.</p><p>However, I am not asking to change sides. I am happy to argue the motion as assigned once the wording is neutral.</p><p>Kind regards,<br>Priya Raman</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to decline something while staying on good terms.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Best wishes,<br>Tomás Beltrán</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>There is a rule at my university that library group rooms cannot be booked for more than two hours, which in practice means a long project gets interrupted halfway. I disagree with it, but I would not break it quietly by rebooking under a friend's name, which is what people do. If I thought it was worth breaking I would say so openly and accept whatever follows, because that is the only version that is an argument about the rule rather than an exception claimed for myself.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to judge between two accounts.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>I would start by assuming neither has lied, because that is usually true and it is the assumption that makes the comparison useful. Then I would look at what each put first, and at the verbs. <i>Protesters clashed with police</i> and <i>protesters were dispersed by police</i> describe the same afternoon and assign the action to different people. Once I had separated what was selected from what was asserted, I would look for the facts both reports contain, because those are the ones neither side thought worth leaving out.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak", "claim"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about changing your mind.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>I used to argue that an unenforced rule was not a rule, which sounded clean and turned out to be wrong. What changed my mind was watching somebody actually be asked to leave the library for eating. Nobody said there was no such rule. They said it was unfair to start enforcing it now, which is a completely different complaint — and it only makes sense if the rule had been there the whole time. So the rule existed, and what had gone was any expectation of consistency.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak", "claim"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to defend a position you may not hold.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>Yes, and the value is not the one usually given. People say it teaches you empathy, which I doubt. What it actually does is force you to find the best version of the other case, and most of us have never met the best version — we have only met the worst one, which is easy to beat. Having to build it yourself tells you exactly where your own position is weak, because you discover which of your objections survive it and which were only working against the weak version.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "comparison", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -157,6 +164,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "evidence", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight sentences a reviewer might write. Sort them by whether they attack the argument or the person making it.",
         note: { kind: "reader",

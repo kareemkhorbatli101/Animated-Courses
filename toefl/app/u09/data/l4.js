@@ -7,6 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -53,6 +54,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them agree with something, and the word you need depends on whether it was positive or negative.",
         items: [
@@ -101,6 +103,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "A visitor finding their way. Listen once.",
         speaker: "dan", speakerNote: "with Priya Raman",
@@ -142,6 +145,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen", "measurement"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students comparing the shuttle with walking. Listen once.",
         speaker: "priya", speakerNote: "with Dan Okafor",
@@ -185,6 +189,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "The <b>schwa</b> /ə/ is the commonest sound in English and it has no spelling of its own. Unstressed syllables collapse into it, which is why fast English is hard to hear.",
         speaker: "haddad",
@@ -199,6 +204,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. Say the stressed syllable firmly and let every other vowel fall to schwa. The rhythm is what makes it sound like English.",
         speaker: "haddad",
@@ -213,6 +219,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>The <b>schwa</b> /ə/ is the commonest sound in English and it has no letter of its own: any unstressed vowel collapses into it. That is why these four pairs are so easily confused. In each one the difference lives in a single unstressed syllable, which is exactly the syllable that disappears at speed.</p>" +
                "<i>/ə/ in the first syllable: accept · affect · about · again</i><i>A fuller vowel instead: except · effect · quite · personnel</i>",
@@ -240,6 +247,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Most of the vowels in these lines are the same sound.",
         items: [

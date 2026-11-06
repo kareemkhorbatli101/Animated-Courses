@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify ways of studying", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Nine things students do when they study. Two of them feel productive and are not — the rest of this unit is about which.",
         text: { every: 1, blocks: [{ lines: [
@@ -22,6 +23,7 @@
         after: "<p>Keep 1 and 2 in mind. They are the two the research keeps finding against.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Identify ways of studying", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A place to study, and the things in it. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify ways of studying", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words. The first letters are given.",
         items: [
@@ -78,6 +81,7 @@
 
       { id: "1d", section: 1, sectionTitle: "Identify ways of studying", letter: "D",
         carry: "1a",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. Each one names something in the list you read in 1A.",
         items: [
@@ -92,6 +96,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Learn what the evidence says", letter: "A",
+        concepts: ["read", "evidence", "sample"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the summary card. It uses the academic vocabulary this unit teaches.",
         note: { kind: "words", title: "Academic language",
@@ -106,6 +111,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "Learn what the evidence says", letter: "B",
+        concepts: ["word", "evidence", "sample"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the academic words. Watch the word form — the sentence tells you whether you need a noun, a verb or an adverb.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -122,6 +128,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Learn what the evidence says", letter: "C",
+        concepts: ["word", "comparison", "evidence"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more academic words. Again the sentence, not the meaning, tells you which form to write.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -138,6 +145,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "Learn what the evidence says", letter: "D",
+        concepts: ["word", "evidence"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not, and read why.",
         items: [
@@ -168,6 +176,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Build words with dis-", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "The prefix <i>dis-</i> does two different jobs. Sort these eight words by which job it is doing.",
         note: { kind: "words", title: "In other words…",

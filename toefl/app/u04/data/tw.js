@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's writing strategy is the colon — use one, correctly.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Archivist,</p><p>I am writing to request the coastal survey folder from the restricted series for Friday morning. The details are as follows: Priya Raman, MSc Archaeology, supervisor Dr R. Okonkwo.</p><p>Our Thursday session has been shortened from three hours to two, so I would not be able to use the folder properly on that day. Friday would give me the time the material needs.</p><p>Kind regards,<br>Priya Raman</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write", "time"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation, and a harder one: you are reporting a problem in work that is not yours.",
         scenarioTitle: "The situation",
@@ -46,6 +48,7 @@
                "<p>Kind regards,<br>Tomás Beltrán</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -53,6 +56,7 @@
         model: "<p>Last term I could not find a folder in an archive catalogue. I had already searched the catalogue and the index, so when I went to the desk I said that first, and then asked where I should look rather than asking what the answer was. The archivist told me immediately that it was held in a restricted series and had to be ordered a day ahead. Saying what I had already tried turned a thirty-second exchange into a useful one.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak", "evidence"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking you to take a position.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -60,6 +64,7 @@
         model: "<p>Slowly, but not evenly slowly. A claim that overturns a whole framework should face a harder test than one that fits, because otherwise the framework is not doing any work at all. What I would object to is applying that standard in only one direction — examining the inconvenient evidence hard and letting the convenient evidence through. The delay is defensible; the asymmetry is not.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about a time you were wrong.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -67,6 +72,7 @@
         model: "<p>I argued for most of a term that a set of dates in a report were unusable, because two of them were obviously too old. What I had not done was read the sample descriptions, and when I finally did, both of the odd ones turned out to be driftwood. The dates were fine; my inference about them was not. What changed my mind was not somebody arguing with me — it was being asked, quite mildly, what the samples actually were, and realising I did not know.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to weigh a public good against a private one.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -74,6 +80,7 @@
         model: "<p>Mostly left, with a clear exception. Excavation destroys the thing it studies: once a layer is lifted, the only record of it is the record you made, and every decade adds a question you did not know to ask. So the default should be to leave. The exception is a site that is going to be lost anyway, to a road or to the sea, and there the argument reverses completely, because the choice is not between now and later but between a record and nothing.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "evidence", "cause"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -157,6 +164,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "evidence", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight sentences about the same site. Sort them by whether they are reporting evidence or making an assertion — the distinction Lesson 1 opened with and On Campus closed on.",
         note: { kind: "reader",

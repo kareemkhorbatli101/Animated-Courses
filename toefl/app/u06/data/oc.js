@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice before the practical. It plays once.",
         speaker: "dan", speakerNote: "laboratory demonstrator",
@@ -40,6 +41,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out at the start of a practical. It plays once.",
         speaker: "dan", speakerNote: "demonstrator",
@@ -70,6 +72,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "inference", "cause"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on a word that causes trouble. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -107,6 +110,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference", "claim"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on an equation everyone can recite.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -145,6 +149,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -165,6 +170,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Check you have understood", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. Checking is not admitting you were lost; it is how you find out early.",
         note: { kind: "speak",
@@ -185,6 +191,7 @@
         after: "<p>Saying it back in your own words is the only check that works. Repeating the speaker's words proves you heard them, not that you understood.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Check you have understood", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each check would catch.",
         caption: "Four checks, and what each one catches",
@@ -203,6 +210,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Check you have understood", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

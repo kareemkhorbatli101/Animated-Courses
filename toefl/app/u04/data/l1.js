@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "evidence", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words this subject uses precisely. The last two are the ones students most often blur.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>Keep 7 and 8 apart. The talk in On Campus turns on exactly that difference.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "An excavation, from above ground. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -77,6 +80,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        concepts: ["word", "measurement", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the dating argument in Lesson 5 is built from.",
         items: [
@@ -91,6 +95,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The prefix inter-", letter: "A",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>inter-</b> means <i>between</i> or <i>among</i>. It is everywhere in academic English.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -105,6 +110,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The prefix inter-", letter: "B",
+        concepts: ["word", "measurement", "evidence"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the word. Each one is built with this unit's prefix.",
         items: [
@@ -119,6 +125,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The prefix inter-", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more words with <b>inter-</b>, all of them common in a methods section.",
         items: [
@@ -133,6 +140,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The prefix inter-", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -163,6 +171,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "inter- or intra-", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "<b>inter-</b> means between, <b>intra-</b> means within. One letter decides which, and in this subject the two make opposite claims. Sort these eight.",
         note: { kind: "gram", title: "Grammar Notes",

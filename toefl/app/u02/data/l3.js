@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the future forms", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two notes. Both are about the same afternoon, and they use different futures for a reason.",
         text: { every: 1, blocks: [
@@ -22,6 +23,7 @@
         after: "<p><i>Going to</i> for a decision already made. <i>Will</i> for what the evidence leads you to expect. That split is the whole lesson.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the future forms", letter: "B",
+        concepts: ["word", "evidence"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: will and going to",
@@ -39,6 +41,7 @@
 
 
       { id: "1c", section: 1, sectionTitle: "Review the future forms", letter: "C",
+        concepts: ["word", "time", "evidence"],
         kind: "cloze", task: null, n: 0,
         prompt: "The same forms, sorted by what the speaker is <i>doing</i> rather than when it happens. Complete the rule.",
         heading: "Language connection: plans, promises and predictions",
@@ -57,6 +60,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word", "evidence"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -88,6 +92,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word", "evidence"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them are the cases where the obvious form is the wrong one.",
         items: [
@@ -118,6 +123,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from fieldwork emails. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -144,6 +150,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word. Both are built with this unit's suffix.",
         items: [
@@ -154,6 +161,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more, again with this unit's suffix.",
         items: [
@@ -164,6 +172,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        concepts: ["word", "time", "evidence"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a future form into each gap. Two forms in the bank are not used.",
         note: { kind: "gram", title: "Grammar Notes",

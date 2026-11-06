@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the present perfect", letter: "A",
+        concepts: ["read", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two entries. One is a finished event; the other is a situation that still holds.",
         text: { every: 1, blocks: [
@@ -23,6 +24,7 @@
         after: "<p>A finished time takes the simple past. A line running from the past to now takes the present perfect — and that is what <i>for</i> and <i>since</i> mark.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the present perfect", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: for, since, and the present perfect",
@@ -37,6 +39,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review the present perfect", letter: "C",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "The words that travel with the present perfect, and the one that blocks it. Complete the rule.",
         heading: "Language connection: ever, never, yet, already, still",
@@ -55,6 +58,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -85,6 +89,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word", "cause"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Watch which of them name a finished time, because those cannot take the present perfect at all.",
         items: [
@@ -115,6 +120,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from a literature review. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -141,6 +147,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word. Both use this unit's prefix.",
         items: [
@@ -151,6 +158,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word", "evidence"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. One has this unit's prefix and one only looks as though it does.",
         items: [
@@ -161,6 +169,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        concepts: ["word", "claim"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a time expression into each gap. Two in the bank are not used, and both of them are the wrong half of a pair.",
         note: { kind: "gram", title: "Grammar Notes",

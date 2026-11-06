@@ -525,14 +525,108 @@
     return wired;
   }
 
+
+  /* ============================================= F49 — segmented audio == */
+  /* Working memory is the binding constraint in listening. A 245-word talk
+     played as one block exceeds it for most learners at this level, and
+     the usual result is that they hear the first third and guess the rest.
+
+     The parts are the lines the talk is already written in, grouped into
+     three; no new data, and a learner who wants it whole still has the
+     whole. Offered alongside the single play, never instead of it: the
+     test plays it whole, and practising only in pieces would practise the
+     wrong thing. */
+  function segments(stage, spec) {
+    var ls = audioLines(spec);
+    if (ls.length < 3) return null;
+    var per = Math.ceil(ls.length / 3), parts = [];
+    for (var i = 0; i < ls.length; i += per) parts.push(ls.slice(i, i + per));
+    if (parts.length < 2) return null;
+
+    var wrap = E("div", "rl-seg");
+    wrap.appendChild(E("span", "rl-seg-label", "Or take it in parts"));
+    parts.forEach(function (part, n) {
+      var b = E("button", "rl-seg-btn", "Part " + (n + 1));
+      b.type = "button";
+      var words = part.reduce(function (a, l) { return a + l.text.split(/\s+/).length; }, 0);
+      b.title = part.length + (part.length === 1 ? " line, " : " lines, ") + words + " words";
+      b.setAttribute("aria-label", "Play part " + (n + 1) + " of " + parts.length);
+      b.addEventListener("click", function () {
+        if (!S()) return;
+        [].forEach.call(wrap.querySelectorAll(".rl-seg-btn"), function (x) {
+          x.classList.remove("on");
+        });
+        b.classList.add("on");
+        S().speakSegments(part.map(function (l) { return { text: l.text, lang: "en" }; }), {
+          onDone: function () { b.classList.remove("on"); }
+        });
+      });
+      wrap.appendChild(b);
+    });
+    var note = E("span", "rl-seg-note",
+      "The test plays it whole \u2014 use the parts to find what you missed, then play it whole again.");
+    wrap.appendChild(note);
+    stage.appendChild(wrap);
+    return wrap;
+  }
+
+
+  /* ========================================= F47 — signal, after only === */
+  /* Highlighting the part of a passage an answer came from is a real aid
+     and a complete giveaway, depending entirely on when it appears. Shown
+     first it answers the question; shown on review it teaches where to
+     look next time. Same highlight, opposite effect.
+
+     The regions are the ones the items already cite — a line number, or
+     the sentence a rationale quotes — so this needs no new data. */
+  function signalOnReview(stage, spec, api) {
+    var its = [].concat(spec.items || [], spec.gaps || []);
+    if (!its.length) return null;
+    api.onChecked(function () {
+      var lit = 0;
+      its.forEach(function (it) {
+        if (!it) return;
+        if (it.line != null) {
+          var row = stage.querySelector('.ln[data-line="' + it.line + '"]');
+          if (row && !row.classList.contains("rl-signal")) {
+            row.classList.add("rl-signal"); lit++;
+          }
+          return;
+        }
+        /* a rationale that quotes the passage marks what it quotes */
+        var q = /[\u201c"]([^\u201d"]{12,})[\u201d"]/.exec(String(it.why || ""));
+        if (!q) return;
+        var needle = q[1].toLowerCase().slice(0, 40);
+        [].slice.call(stage.querySelectorAll(".ln, .tok-s")).some(function (row) {
+          if (row.classList.contains("rl-signal")) return false;
+          if (row.textContent.toLowerCase().indexOf(needle) < 0) return false;
+          row.classList.add("rl-signal"); lit++; return true;
+        });
+      });
+      if (lit) {
+        var note = stage.querySelector(".rl-signal-note");
+        if (!note) {
+          note = E("p", "rl-signal-note",
+            "Marked above: where each answer came from. Worth a look before the next one \u2014 " +
+            "it is the same move every time.");
+          var host = stage.querySelector(".rl-carried") || stage;
+          host.appendChild(note);
+        }
+      }
+    });
+    return true;
+  }
+
   /* ==================================================== the entry point === */
   function decorate(stage, spec, api, page) {
     if (!spec) return;
     carryStimulus(stage, spec, api);
+    if (spec.kind === "read" || spec.carry || spec.chart) signalOnReview(stage, spec, api);
     if (spec.kind === "read" || spec.kind === "read-only") paceBand(stage, spec);
     if (audioLines(spec).length) {
       portraits(stage, spec);
       slowReplay(stage, spec, api);
+      segments(stage, spec);
       transcriptAfter(stage, spec, api);
       notepad(stage, spec, page);
     } else if (itemSay(spec).some(Boolean)) {
@@ -550,6 +644,7 @@
     itemAudioReview: itemAudioReview, itemSay: itemSay,
     carryStimulus: carryStimulus, markCitedLine: markCitedLine, fillCite: fillCite,
     shadowBar: shadowBar, canRecord: canRecord, glossRail: glossRail,
+    segments: segments, signalOnReview: signalOnReview,
     countWords: countWords, audioLines: audioLines, _key: key
   };
 })(window, document);

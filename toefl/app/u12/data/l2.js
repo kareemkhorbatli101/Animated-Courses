@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Two versions of the same paragraph. One asserts; the other shows.",
         note: { kind: "writer",
@@ -22,6 +23,7 @@
         after: "<p>The second version makes three claims a reader could verify by watching. The first makes none.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "What exactly is wrong with the first version?",
         options: [
@@ -34,6 +36,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "claim"],
         kind: "sequence", task: null, n: 0,
         prompt: "Turning an assertion into something a reader can check has an order. Put the five steps on the right rungs.",
         note: { kind: "writer",
@@ -52,6 +55,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the verb pattern: infinitive, gerund, or either.",
         items: [
@@ -74,6 +78,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word", "claim"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Two of them attach a detail to a claim, which is this unit's whole writing lesson.",
         items: [
@@ -96,6 +101,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from essays about film. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -122,6 +128,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about what an audience contributes.",
         minWords: 100,
@@ -142,6 +149,7 @@
         model: "<p>Tomás has found the place where Priya's argument proves too much, and the way out is to separate two claims she is running together.</p><p>The weak claim is that a work's <i>effect</i> depends on its audience. That is plainly true: a film watched by someone who knows nothing of its tradition is a different experience from the same film watched by a critic.</p><p>The strong claim is that it is therefore a different <i>work</i>. That cannot be right, because as Tomás says we could then never disagree about one. When two people argue about an ending, they are arguing about the same sequence of shots — which is exactly what makes the disagreement possible.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about what a label should say.",
         minWords: 100,

@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. The last two are the pair this unit is really about.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>When 7 becomes 8, people start optimising the number instead of the thing. The article in Lesson 5 is about exactly that.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A street where the charge applies. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
         carry: "1a",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -77,6 +80,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        concepts: ["word", "claim", "money"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the scheme in Lesson 5 is argued about with.",
         items: [
@@ -91,6 +95,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The suffix -al", letter: "A",
+        concepts: ["read", "measurement", "cause"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>-al</b> turns a noun into an adjective. It is everywhere in economics writing.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -106,6 +111,7 @@
 
       { id: "2b", section: 2, sectionTitle: "The suffix -al", letter: "B",
         carry: "2a",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the adjective. The sentence tells you which noun it is built from.",
         items: [
@@ -120,6 +126,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The suffix -al", letter: "C",
+        concepts: ["word", "cause"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more <b>-al</b> adjectives. Two of them change the noun's spelling on the way.",
         items: [
@@ -134,6 +141,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The suffix -al", letter: "D",
+        concepts: ["word", "cause"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -164,6 +172,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Cost and price", letter: "A",
+        concepts: ["comparison", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight things somebody gave up. Sort them by whether an accountant would count them.",
         note: { kind: "words", title: "In other words…",

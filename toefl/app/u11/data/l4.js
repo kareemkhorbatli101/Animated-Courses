@@ -7,6 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen", "sample"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -54,6 +55,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen", "sample"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them are chances to give credit, and the reply either takes them or does not.",
         items: [
@@ -102,6 +104,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference", "claim"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students after a seminar. Listen once.",
         speaker: "priya", speakerNote: "with Tomás Ferreira",
@@ -143,6 +146,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen", "inference", "evidence"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students trying to repeat somebody else's experiment. Listen once.",
         speaker: "mei", speakerNote: "with Tomás Beltrán",
@@ -186,6 +190,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "The tune carries meaning on its own. A <b>rising</b> end makes a statement into a question or signals you have not finished; a <b>falling</b> end closes it.",
         speaker: "haddad",
@@ -201,6 +206,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. Say each line twice, once rising and once falling, and listen to what changes.",
         speaker: "haddad",
@@ -216,6 +222,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound", "inference"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>Four pairs that are confused constantly in writing about method, and in speech the difference is one consonant or one vowel. In each case the two words make different claims about evidence, so hearing them wrongly changes what you think was found.</p>" +
                "<i>infer (work out from evidence) · imply (suggest without saying)</i><i>precision (how fine) · accuracy (how close to true)</i>",
@@ -243,6 +250,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Two of them contain a word from 4A.",
         items: [

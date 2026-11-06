@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the passive", letter: "A",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two versions of the same method. One names the people; the other does not.",
         text: { every: 1, blocks: [
@@ -23,6 +24,7 @@
         after: "<p>The last line keeps its agent, and should. Who did the analysis is the whole point of that sentence.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the passive", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: the passive and be able to",
@@ -39,6 +41,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review the passive", letter: "C",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "When the passive is the right choice, and when it is a place to hide. Complete the rule.",
         heading: "Language connection: choosing the passive",
@@ -58,6 +61,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         carry: "1a",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -88,6 +92,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Decide in each case whether the agent earns its place.",
         items: [
@@ -118,6 +123,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from reports. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -144,6 +150,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the noun. Both use this unit's suffix.",
         items: [
@@ -154,6 +161,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more nouns from this unit. Only one takes <b>-ment</b>.",
         items: [
@@ -164,6 +172,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a form into each gap. Two in the bank are not used, and both of them are modals with no form available here.",
         note: { kind: "gram", title: "Grammar Notes",

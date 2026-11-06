@@ -8,6 +8,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["write"],
         kind: "register-dial", task: null, n: 0,
         prompt: "Two messages. Same writer, same request, same day. Flip the switch and read both.",
         note: { kind: "writer",
@@ -42,6 +43,7 @@
 
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["sequence"],
         kind: "sequence", task: null, n: 0,
         prompt: "A formal request has a fixed order, and it is not the order you think of things in. Put the five moves on the right rung.",
         note: { kind: "writer",
@@ -60,6 +62,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word", "time"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. These are the sentences a formal request needs.",
         items: [
@@ -83,6 +86,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. These are the sentences that place you for a reader who does not know you.",
         items: [
@@ -105,6 +109,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "time"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from student emails to staff. One word in each is wrong. Click it, then type the correction.",
         note: { kind: "writer",
@@ -133,6 +138,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion board question about how certainty should be reported.",
         minWords: 100,
@@ -154,6 +160,7 @@
         closer: { kind: "test", body: "<p>After this writing lesson, I can… / I need more help with…</p>" } },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write", "claim"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about who a projection is written for.",
         minWords: 100,

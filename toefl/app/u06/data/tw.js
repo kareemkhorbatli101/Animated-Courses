@@ -6,6 +6,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. This unit's writing strategy is sequencing — mark every stage.",
         scenarioTitle: "The situation",
@@ -24,6 +25,7 @@
         model: "<p>Dear Dan,</p><p>I am writing to report that our enzyme assay failed this morning, and to ask whether we may repeat it next week.</p><p>First, we set the bath to thirty-seven and added the sample. Once it was in, we added the enzyme straight away rather than waiting for the bath to come up to temperature. At this point the mixture should have begun to clear; after twelve minutes it had not.</p><p>I think the enzyme was denatured by being warmed from cold along with the sample. We have enough reagent for one further run, but not until next week.</p><p>Would it be possible to book a bath for Tuesday?</p><p>Kind regards,<br>Tomás Ferreira</p>" },
 
             { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation. This one asks you to withdraw a result you have already submitted.",
         scenarioTitle: "The situation",
@@ -47,6 +49,7 @@
                "<p>Kind regards,<br>Priya Raman</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -54,6 +57,7 @@
         model: "<p>I will describe an enzyme assay. First you set the water bath to thirty-seven degrees and let it stabilise, which takes a few minutes. Once it is at temperature, you put the sample in and let it equilibrate. Only then do you add the enzyme and start the timer. At this point the mixture should begin to clear within about five minutes; if it does not, the enzyme has probably been denatured and you have to start again. Finally you take readings every minute for ten minutes and plot them against time.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak", "comparison", "claim"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question, asking for an opinion.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -61,6 +65,7 @@
         model: "<p>Differently rather than more. A single calorie figure measures heat released by burning the food, which is not what happens in a body, and printing it in large bold type suggests a precision the method does not have. I would keep the number, because it lets you compare two packets, but I would present it as approximate. Adding more figures would not help — most people are making a quick comparison in a shop, not conducting an analysis.</p>" },
 
             { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question, about a time you did not understand and said so.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -68,6 +73,7 @@
         model: "<p>In a practical last term I added the enzyme while the water bath was still warming up, because I had heard <i>once it is warm</i> as <i>while it warms</i>. Twelve minutes later nothing had cleared and I assumed the enzyme was old. What I should have done at the start was say the instruction back in my own words, which takes about four seconds. What I actually did was stop, tell the demonstrator what I had done rather than what had gone wrong, and we worked out the cause in under a minute.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question, asking you to judge how a subject is taught.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -75,6 +81,7 @@
         model: "<p>The simple rule, as long as it is taught as a first approximation and not as the truth. The energy equation is a good example: it is true and nearly useless for prediction, and teaching it as a fact produces people who believe the arithmetic and conclude that anyone it fails is lying. If the same rule is introduced as a starting point with its known failure attached, you get the same usefulness without the damage. So my answer is really about the labelling rather than about the rule.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall", "measurement", "evidence"],
         kind: "quiz", task: null, n: 0,
         prompt: "Interleaved across the unit.",
         items: [
@@ -155,6 +162,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight phrasal verbs from this unit. Sort them by whether the object can sit in the middle.",
         note: { kind: "gram", title: "Grammar Notes",

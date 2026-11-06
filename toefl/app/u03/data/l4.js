@@ -8,6 +8,7 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
         carry: "2a",
+        concepts: ["listen", "measurement"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -54,6 +55,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen", "evidence"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them are answered best by asking what the speaker meant.",
         items: [
@@ -102,6 +104,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference", "measurement"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students in the lab, measuring specimens. Listen once.",
         speaker: "mei", speakerNote: "with Tomás Ferreira",
@@ -144,6 +147,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen", "measurement"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students comparing their island's figures with another team's. Listen once.",
         speaker: "priya", speakerNote: "with Tomás Beltrán",
@@ -188,6 +192,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "This unit's sounds are <b>v</b>, <b>b</b> and <b>f</b>. <i>v</i> and <i>f</i> use the lip and teeth; <i>b</i> uses both lips.",
         speaker: "haddad",
@@ -202,6 +207,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more lines. <i>f</i> and <i>v</i> are the same mouth with the voice off and on; <i>b</i> is a different mouth altogether.",
         speaker: "haddad",
@@ -216,6 +222,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>Three sounds, two mouths. For <b>/f/</b> and <b>/v/</b> the top teeth rest on the bottom lip and the air hisses through; they differ only in whether the voice is on. For <b>/b/</b> the lips close completely and then burst apart. If your language has only two of these three, the third is the one to drill.</p>" +
                "<i>/f/ — fan · fine · few</i><i>/v/ — van · vine · view</i><i>/b/ — ban · bine · boat</i>",
@@ -243,6 +250,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Spelling counts; punctuation does not.",
         items: [

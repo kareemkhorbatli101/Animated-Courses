@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. Several end in <b>-er</b> or <b>-or</b>, which is this unit's suffix and no accident: this subject is full of agents.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>Number 8 is the article's subject, and it undoes the common sense of number 3.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A junction where three ways of travelling meet. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -64,6 +66,7 @@
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
         carry: "1a",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -79,6 +82,7 @@
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
         carry: "1a",
+        concepts: ["word", "measurement", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the article in Lesson 5 is argued with.",
         items: [
@@ -93,6 +97,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The suffixes -er and -or", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>-er</b> and <b>-or</b> both make an agent noun — the one who or the thing which. There is no rule; the spelling is simply learned.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -107,6 +112,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The suffixes -er and -or", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the agent noun. The verb it comes from decides the ending.",
         items: [
@@ -121,6 +127,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The suffixes -er and -or", letter: "C",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more agent nouns. Two name people and two name things, and the suffix does not distinguish them.",
         items: [
@@ -135,6 +142,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The suffixes -er and -or", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -165,6 +173,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Person or thing", letter: "A",
+        concepts: ["comparison"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight agent nouns. Sort them by whether the agent is a person or a thing. The suffix will not help you.",
         note: { kind: "words", title: "In other words…",

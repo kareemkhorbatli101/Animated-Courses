@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice at the start of the laboratory session. It plays once.",
         speaker: "dan", speakerNote: "laboratory demonstrator",
@@ -41,6 +42,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out in the collection room. It plays once.",
         speaker: "dan", speakerNote: "collection assistant",
@@ -71,6 +73,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "claim"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on a sentence you will meet constantly. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -108,6 +111,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference", "claim"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on why one island is not enough.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -146,6 +150,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen", "claim"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -166,6 +171,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Ask for the evidence", letter: "A",
+        concepts: ["read", "measurement", "evidence"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. Asking for evidence is a normal academic move, not an accusation — if you phrase it as one.",
         note: { kind: "speak",
@@ -186,6 +192,7 @@
         after: "<p>The third pattern is the strongest. Naming in advance what would convince you turns a challenge into a collaboration.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Ask for the evidence", letter: "B",
+        concepts: ["measurement", "evidence"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each question is really after.",
         caption: "Four questions, and what each one is asking for",
@@ -205,6 +212,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Ask for the evidence", letter: "C",
+        concepts: ["read", "evidence", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["word", "inference", "claim"],
         kind: "cloze", task: null, n: 0,
         prompt: "<i>Because</i> and <i>since</i> both give reasons, but they are not interchangeable. Complete the rule.",
         heading: "Language connection: because and since",
@@ -21,6 +22,7 @@
         ] },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Which sentence puts the reason where the reader needs it?",
         options: [
@@ -33,6 +35,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "claim"],
         kind: "sequence", task: null, n: 0,
         prompt: "Arguing that a policy caused an outcome has a fixed order. Put the five moves on the right rungs.",
         note: { kind: "writer",
@@ -51,6 +54,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the real conditional.",
         items: [
@@ -73,6 +77,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Two of them hand a reason to the reader and two take one away.",
         items: [
@@ -95,6 +100,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "measurement"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from policy briefs. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -121,6 +127,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write", "measurement"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about measuring performance.",
         minWords: 100,
@@ -141,6 +148,7 @@
         model: "<p>I think Priya describes the mechanism correctly, but Tomás is right that the alternative is worse.</p><p>Measurement does distort, because people respond to the measure as they understand it rather than to the thing it stands for. Once waiting time is the target, the cheapest route to a good number is to change when the clock starts.</p><p>But the answer is not to stop measuring, since the pre-measurement world was not neutral — it simply left the judgement with whoever spoke most confidently. The answer is to specify how a claimed result will be verified, which is the part schemes designed in a hurry always leave out.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about who a charge falls on.",
         minWords: 100,

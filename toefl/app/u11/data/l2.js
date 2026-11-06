@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Four habits that weaken a formal message. Each one is common, and each one is avoidable.",
         note: { kind: "writer",
@@ -25,6 +26,7 @@
         after: "<p>Politeness lives in the modal verb, not in the number of words. <i>Could you send it by Friday?</i> is polite and takes six words.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Which opening sentence is best for a formal request?",
         options: [
@@ -39,6 +41,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "measurement"],
         kind: "sequence", task: null, n: 0,
         prompt: "Writing a methods section has an order, and it is not the order you did the work in. Put the five steps on the right rungs.",
         note: { kind: "writer",
@@ -57,6 +60,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the passive.",
         items: [
@@ -79,6 +83,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Two of them keep their agent and two deliberately lose it.",
         items: [
@@ -101,6 +106,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "measurement"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from methods sections. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -127,6 +133,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about publication.",
         minWords: 100,
@@ -147,6 +154,7 @@
         model: "<p>Tomás is right about the bias, and Priya is right that not every null result is informative. The two are compatible.</p><p>The problem is not that nulls are uninteresting but that they are invisible. A study that was adequately powered and found nothing is a real piece of evidence, and at present it is as likely to sit in a drawer as a badly designed one.</p><p>So I would separate the two questions. Whether a result deserves a journal's pages is an editorial judgment. Whether it enters the record at all should not be — registration before data collection solves most of this without costing anyone a page.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write", "claim"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about what should be published.",
         minWords: 100,

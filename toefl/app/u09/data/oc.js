@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen", "time"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice about the shuttle. It plays once.",
         speaker: "dan", speakerNote: "estates and transport",
@@ -41,6 +42,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out on the shuttle. It plays once.",
         speaker: "dan", speakerNote: "transport office",
@@ -71,6 +73,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on reading a city map. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -108,6 +111,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on the number that decides which schemes get built.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -146,6 +150,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen", "claim"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -166,6 +171,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Ask for directions", letter: "A",
+        concepts: ["read", "place"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. A good direction answers a question the asker did not know to ask.",
         note: { kind: "speak",
@@ -186,6 +192,7 @@
         after: "<p>The third question is the one almost nobody asks, and it is the one that saves you. A landmark past the destination turns a direction into something you can check as you walk.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Ask for directions", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each question protects you from.",
         caption: "Four questions, and what each one saves you",
@@ -205,6 +212,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Ask for directions", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

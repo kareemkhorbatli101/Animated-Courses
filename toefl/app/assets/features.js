@@ -61,7 +61,9 @@
     "fade",          /* F43 and withdrawn as the unit goes on                */
     "askWhy",        /* F45 asked before the rationales are handed over      */
     "audioFiles",    /* F39 a recording is looked up by the line it speaks   */
-    "arabicUI"       /* F36 chrome in Arabic; the English taught stays English */
+    "arabicUI",      /* F36 chrome in Arabic; the English taught stays English */
+    "segments",      /* F49 a long talk offered in parts, as well as whole   */
+    "signalOnReview" /* F47 where the answer came from, marked after only    */
   ];
   root.hasFeature = function (n) { return root.FEATURES.indexOf(n) >= 0; };
 })(window);

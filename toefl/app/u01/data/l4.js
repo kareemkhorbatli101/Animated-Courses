@@ -8,6 +8,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen", "time"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -55,6 +56,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
         carry: "2a",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. In three of them the speaker is hedging, and the reply has to hear the hedge.",
         items: [
@@ -103,6 +105,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Mei is at the advising desk. Listen once, then answer.",
         speaker: "dan", speakerNote: "peer advisor, with Mei Lin",
@@ -145,6 +148,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen", "inference", "claim"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Priya and Tomás are planning Friday's revision. Listen once, then answer.",
         speaker: "priya", speakerNote: "with Tomás",
@@ -189,6 +193,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "This unit's sounds are <b>sh</b>, <b>ch</b> and <b>j</b>. Listen, then say each line back.",
         speaker: "haddad",
@@ -203,6 +208,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more lines, longer each time. Keep the three sounds apart at speed.",
         speaker: "haddad",
@@ -215,6 +221,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>Three sounds that English keeps apart and many languages do not. <b>/ʃ/</b> is a long hiss with no stop in front of it. <b>/tʃ/</b> is the same hiss with a <i>t</i> fired into it. <b>/dʒ/</b> is /tʃ/ with the voice on.</p>" +
                "<i>/ʃ/ — share · wash · session</i><i>/tʃ/ — chair · watch · check</i><i>/dʒ/ — jeer · judge · major</i>",
@@ -243,6 +250,7 @@
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
         carry: "2a",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Spelling counts; punctuation does not. Play as often as you need.",
         items: [

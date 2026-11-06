@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. Four end in <b>-ment</b>, this unit's suffix, and they are all abstract nouns made from verbs.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>Hold 7 and 8 apart. The talk in On Campus argues that the whole moral difference lies between them.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word"],
         kind: "match", task: null, n: 0,
         prompt: "A hearing room, laid out as these rooms always are. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -62,6 +64,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -76,6 +79,7 @@
         ] },
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the talk in On Campus is argued with.",
         items: [
@@ -90,6 +94,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The suffix -ment", letter: "A",
+        concepts: ["read", "claim"],
         kind: "read-only", task: null, n: 0,
         prompt: "<b>-ment</b> turns a verb into a noun naming the act or its result.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -104,6 +109,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The suffix -ment", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the noun. The sentence tells you the verb it comes from.",
         items: [
@@ -118,6 +124,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The suffix -ment", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more <b>-ment</b> nouns. Two of them only look as though they are built that way.",
         items: [
@@ -132,6 +139,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The suffix -ment", letter: "D",
+        concepts: ["word"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -162,6 +170,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Open or quiet", letter: "A",
+        concepts: ["comparison", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight ways of not following a rule. Sort them by whether the rule-breaking is done openly.",
         note: { kind: "words", title: "In other words…",

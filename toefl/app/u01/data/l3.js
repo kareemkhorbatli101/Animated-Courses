@@ -9,6 +9,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review present and past forms", letter: "A",
+        concepts: ["read", "evidence"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the student's note and the lab record beside it. Notice which tense each one uses, and why.",
         text: { every: 1, blocks: [
@@ -25,6 +26,7 @@
         after: "<p>Habits and standing facts take the present. A completed study takes the past. The whole unit sits on that contrast.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review present and past forms", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Look back at 1A, then complete the rule in your own words.",
         heading: "Language connection: present and past",
@@ -44,6 +46,7 @@
 
 
       { id: "1c", section: 1, sectionTitle: "Review present and past forms", letter: "C",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "The same two tenses, seen from the question and the negative. Complete the rule.",
         heading: "Language connection: questions and negatives",
@@ -63,6 +66,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         carry: "1a",
+        concepts: ["word", "comparison"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order. There are always more words than places.",
         items: [
@@ -94,6 +98,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them are questions or negatives, where the tense moves into the auxiliary.",
         items: [
@@ -125,6 +130,7 @@
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
         carry: "1a",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five more sentences from drafts. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -151,6 +157,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Adjectives and adverbs", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word. Decide first whether it describes a noun or a verb.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -163,6 +170,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Adjectives and adverbs", letter: "B",
+        concepts: ["word", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. Again, decide first whether the word describes a noun or a verb.",
         items: [
@@ -173,6 +181,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Adjectives and adverbs", letter: "C",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a word into each gap. Two words in the bank are not used — and both of them are the wrong half of a pair.",
         note: { kind: "gram", title: "Grammar Notes",

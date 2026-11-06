@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen", "inference", "time"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice about fees. It plays once.",
         speaker: "dan", speakerNote: "student finance",
@@ -43,6 +44,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out in the finance office queue. It plays once.",
         speaker: "dan", speakerNote: "office clerk",
@@ -73,6 +75,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on a sentence to be suspicious of. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -110,6 +113,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen", "inference"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on who a flat charge really falls on.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -148,6 +152,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -168,6 +173,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Ask a procedural question", letter: "A",
+        concepts: ["read", "time"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. At an office, the quality of the answer depends almost entirely on the shape of the question.",
         note: { kind: "speak",
@@ -188,6 +194,7 @@
         after: "<p>Asking what happens rather than whether you may gets you the rule itself, instead of one person's reading of it.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Ask a procedural question", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each question gets you that the obvious one does not.",
         caption: "Four questions, and what each one gets you",
@@ -207,6 +214,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Ask a procedural question", letter: "C",
+        concepts: ["read", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "One sentence to leave with.",
         text: { blocks: [{ lines: [

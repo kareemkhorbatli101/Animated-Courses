@@ -8,6 +8,7 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
         carry: "2a",
+        concepts: ["listen", "time", "money"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -54,6 +55,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them answer with a condition rather than a yes or a no.",
         items: [
@@ -102,6 +104,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "A student at the bursar's office. Listen once.",
         speaker: "priya", speakerNote: "with Dan Okafor",
@@ -144,6 +147,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "A student and an office clerk working out which rule applies. Listen once.",
         speaker: "dan", speakerNote: "with Mei Lin",
@@ -187,6 +191,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Words <b>link</b> across boundaries. A consonant runs onto a following vowel, and two vowels are joined by a glide. This is why fast speech sounds like one long word.",
         speaker: "haddad",
@@ -201,6 +206,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. Listen for where one word ends and the next begins — and notice that you often cannot tell.",
         speaker: "haddad",
@@ -215,6 +221,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>Nothing here is a different sound. The pairs are identical streams of sound divided in two different places, which is what linking does to a sentence. <i>An aim</i> and <i>a name</i> contain exactly the same consonants and vowels in exactly the same order; only the grammar tells you which you heard.</p>" +
                "<i>an aim → a name</i><i>it is → it his</i><i>ice cream → I scream</i>",
@@ -242,6 +249,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. The word boundaries are not where they sound.",
         items: [

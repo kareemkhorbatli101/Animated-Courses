@@ -7,6 +7,7 @@
     next: "index.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Problem solving", letter: "A",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "Read the situation, then write the email. Audience and purpose are given, as they are on the test.",
         scenarioTitle: "The situation",
@@ -26,6 +27,7 @@
 
 
       { id: "a2", section: 1, sectionTitle: "Problem solving", letter: "B",
+        concepts: ["write"],
         kind: "write-email", task: "write-an-email", cefr: "C1", n: 1,
         prompt: "A second situation, and a harder one: you are writing about another person.",
         scenarioTitle: "The situation",
@@ -48,6 +50,7 @@
                "<p>Many thanks,<br>Mei Lin</p>" },
 
       { id: "b", section: 2, sectionTitle: "Take an interview", letter: "A",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "One question, one pass, forty-five seconds.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -55,6 +58,7 @@
         model: "<p>Last term I joined a statistics study group. What made it work was that we each had to explain one method to the others. The first time it was my turn I could not finish a sentence about a formula I had read four times, and that was the moment I realised I did not know it. After that I prepared differently — I would close the book and try to say the method aloud before the meeting.</p>" },
 
       { id: "c", section: 2, sectionTitle: "Take an interview", letter: "B",
+        concepts: ["speak", "claim"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A second question. This one asks for an opinion and a reason.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -63,6 +67,7 @@
 
 
       { id: "c2", section: 2, sectionTitle: "Take an interview", letter: "C",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A third question. This one asks for a change and a reason for it.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -70,6 +75,7 @@
         model: "<p>I used to highlight everything I read, and by the end of a chapter the page was more yellow than white. It felt like work, but when I closed the book I could not say what the chapter had argued. So I replaced it: now I write one question in the margin of each section, and before I turn the page I answer it out loud. It is slower, and the first week I hated it, but I can now get through a chapter and still say what it claimed.</p>" },
 
       { id: "c3", section: 2, sectionTitle: "Take an interview", letter: "D",
+        concepts: ["speak"],
         kind: "interview", task: "take-an-interview", cefr: "C1", n: 1,
         prompt: "A fourth question. This one asks you to advise an institution, not describe yourself.",
         speaker: "dan", speakerNote: "interviewer", seconds: 45,
@@ -77,6 +83,7 @@
         model: "<p>I would record them, but I would not let the recording stand in for the hour. The recording is valuable for one specific thing: replaying the two minutes you did not follow, which nobody can do in a lecture theatre. What it does badly is remove the deadline, and a lecture you can always watch is one you never watch. So my advice would be to post the recordings, and to put something in the hour itself that only happens in the hour — a question, a problem, anything that is gone by the evening.</p>" },
 
       { id: "d", section: 3, sectionTitle: "Language review", letter: "A",
+        concepts: ["recall"],
         kind: "quiz", task: null, n: 0,
         prompt: "Twelve items, interleaved across the whole unit — which is itself one of the methods the unit taught.",
         items: [
@@ -158,6 +165,7 @@
         ] },
 
       { id: "e", section: 3, sectionTitle: "Language review", letter: "B",
+        concepts: ["comparison", "measurement", "claim"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight things a student might do. Sort them by what this unit actually argued. The last two in each column are the ones worth arguing about.",
         bins: [

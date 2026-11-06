@@ -8,6 +8,7 @@
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
         carry: "2a",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -56,6 +57,7 @@
         ] },
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them ask the speaker to separate what they saw from what they think it means.",
         items: [
@@ -104,6 +106,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students after a screening. Listen once.",
         speaker: "mei", speakerNote: "with Tomás Ferreira",
@@ -145,6 +148,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students taking a review apart. Listen once.",
         speaker: "priya", speakerNote: "with Tomás Beltrán",
@@ -188,6 +192,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "<b>Homophones</b> sound identical and mean different things. Nothing in the sound tells them apart — only the grammar around them does, which is why listening for structure matters.",
         speaker: "haddad",
@@ -203,6 +208,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. Every homophone here is settled by grammar alone, so say each line slowly enough that the structure is audible.",
         speaker: "haddad",
@@ -218,6 +224,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound", "evidence"],
         kind: "minimal-pairs", task: null, n: 0, byContext: true,
         focus: "<p><b>Homophones are identical in sound.</b> There is nothing to hear, which is why this exercise plays a whole sentence instead of a word: the only thing that can tell you which word it was is the grammar around it. If you find yourself listening harder, you are listening for something that is not there.</p>" +
                "<i>complement (completes) · compliment (praises)</i><i>stationary (not moving) · stationery (paper and pens)</i><i>discrete (separate) · discreet (tactful)</i><i>cite (quote) · site (place)</i>",
@@ -245,6 +252,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Every line contains a homophone, and only the grammar can tell you which one.",
         items: [

@@ -6,6 +6,7 @@
     next: "l2.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Identify the vocabulary", letter: "A",
+        concepts: ["read", "measurement", "evidence"],
         kind: "read-only", task: null, n: 0,
         prompt: "Eight words. Four take <b>-ment</b> again, as in Unit 10 — but here they belong to method rather than to law.",
         text: { every: 1, blocks: [{ lines: [
@@ -21,6 +22,7 @@
         after: "<p>Number 5 is the article's subject, and it is the one most people assume happens more often than it does.</p>" },
 
             { id: "1b", section: 1, sectionTitle: "Identify the vocabulary", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "match", task: null, n: 0,
         prompt: "A bench set up to measure one thing carefully. Drag each word onto the thing it names.",
         scene: { w: 1000, h: 560,
@@ -63,6 +65,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Identify the vocabulary", letter: "C",
+        concepts: ["word", "evidence", "claim"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Complete the words.",
         items: [
@@ -78,6 +81,7 @@
 
             { id: "1d", section: 1, sectionTitle: "Identify the vocabulary", letter: "D",
         carry: "1a",
+        concepts: ["word", "measurement", "sample"],
         kind: "letterbox", task: "complete-the-words", cefr: "B1", n: 4,
         prompt: "Four more. These are the words the article in Lesson 5 is built from.",
         items: [
@@ -92,6 +96,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "The suffix -ment, in method", letter: "A",
+        concepts: ["read", "measurement", "evidence"],
         kind: "read-only", task: null, n: 0,
         prompt: "The same suffix as Unit 10, a different vocabulary. Note how precise these four are.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -106,6 +111,7 @@
           source: "Written for this book" } },
 
       { id: "2b", section: 2, sectionTitle: "The suffix -ment, in method", letter: "B",
+        concepts: ["word", "comparison"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Complete the noun.",
         items: [
@@ -120,6 +126,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "The suffix -ment, in method", letter: "C",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "C1", n: 4,
         prompt: "Four more nouns from this unit's register. Only two of them take <b>-ment</b>.",
         items: [
@@ -134,6 +141,7 @@
         ] },
 
       { id: "2d", section: 2, sectionTitle: "The suffix -ment, in method", letter: "D",
+        concepts: ["word", "evidence"],
         kind: "oddone", task: null, n: 0,
         prompt: "Three words in each row belong together. Choose the one that does not.",
         items: [
@@ -164,6 +172,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Technical or everyday", letter: "A",
+        concepts: ["comparison", "measurement"],
         kind: "sort", task: null, n: 0,
         prompt: "Eight words that mean one thing in this subject and something else outside it. Sort them by which meaning the sentence on each card is using.",
         note: { kind: "words", title: "In other words…",

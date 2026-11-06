@@ -71,6 +71,7 @@
     next: "oc.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Read", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the definitions before you begin.",
         text: { every: 1, blocks: [{ lines: [
@@ -82,6 +83,7 @@
 
       { id: "1b", section: 1, sectionTitle: "Read", letter: "B",
         carry: "1c",
+        concepts: ["read"],
         kind: "choice", task: "read-academic-passage", cefr: "B1", n: 0,
         prompt: "Preview the article by turning its headings into questions. Which set would you be reading to answer?",
         note: { kind: "reader",
@@ -96,6 +98,7 @@
         ] },
 
       { id: "1c", section: 1, sectionTitle: "Read", letter: "C",
+        concepts: ["read"],
         kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
         prompt: "Read the article, then answer. The text stays on screen.",
         text: PASSAGE,
@@ -132,6 +135,7 @@
         ] },
 
       { id: "1d", section: 1, sectionTitle: "Read", letter: "D",
+        concepts: ["read", "place"],
         kind: "read", task: "read-daily-life", cefr: "A2", n: 1,
         prompt: "A short everyday text. Read the card at the shuttle stop.",
         text: NOTICE,
@@ -146,6 +150,7 @@
 
       { id: "1e", section: 1, sectionTitle: "Read", letter: "E",
         carry: "1c",
+        concepts: ["read"],
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 3,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>article</b>.",
         note: { kind: "reader",
@@ -160,6 +165,7 @@
         ] },
 
             { id: "1f", section: 1, sectionTitle: "Read", letter: "F",
+        concepts: ["read"],
         kind: "selectintext", task: null, n: 0,
         prompt: "Three short paragraphs. In each one, click the single sentence that does the job named.",
         note: { kind: "reader",
@@ -181,6 +187,7 @@
 
       { id: "2a", section: 2, sectionTitle: "Word study", letter: "A",
         carry: "1c",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 0,
         prompt: "This unit's suffixes, in the article's register.",
         items: [
@@ -191,6 +198,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Talk it over", letter: "A",
+        concepts: ["measurement", "comparison"],
         kind: "chartread", task: "read-academic-passage", cefr: "B2", n: 0,
         prompt: "Read the table. Check each column's heading — including which direction counts as better.",
         note: { kind: "reader",
@@ -222,6 +230,7 @@
 
       /* ---------------- 4 Read a second article ---------------- */
       { id: "4a", section: 4, sectionTitle: "Read a second article", letter: "A",
+        concepts: ["read", "comparison", "measurement"],
         kind: "read", task: "read-academic-passage", cefr: "C1", n: 4,
         prompt: "A second article, on the measure behind the comparison in 3A. Read it, then answer.",
         text: PASSAGE2,
@@ -260,6 +269,7 @@
 
       { id: "4b", section: 4, sectionTitle: "Read a second article", letter: "B",
         carry: "4a",
+        concepts: ["read", "measurement", "claim"],
         kind: "paraphrase", task: null, n: 0,
         prompt: "One sentence from each article, restated. Choose the version that keeps the meaning.",
         note: { kind: "reader",
@@ -302,6 +312,7 @@
 
       /* ---------------- 5 Read in daily life again ---------------- */
       { id: "5a", section: 5, sectionTitle: "Read in daily life again", letter: "A",
+        concepts: ["read", "time", "place"],
         kind: "read", task: "read-daily-life", cefr: "A2", n: 2,
         prompt: "A second shuttle card. Read it.",
         text: NOTICE2,
@@ -323,6 +334,7 @@
 
       { id: "5b", section: 5, sectionTitle: "Read in daily life again", letter: "B",
         carry: "5a",
+        concepts: ["read"],
         kind: "tfni", task: "read-daily-life", cefr: "B1", n: 2,
         prompt: "Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T and F, write the line of the <b>card</b>.",
         items: [
@@ -333,6 +345,7 @@
         ] },
 
       { id: "5c", section: 5, sectionTitle: "Read in daily life again", letter: "C",
+        concepts: ["read", "comparison", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Two articles, one comparison table, one habit.",
         text: { blocks: [{ lines: [

@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review phrasal verbs", letter: "A",
+        concepts: ["read", "sample"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two lab notes. Each contains one phrasal verb used correctly and shows where the object can sit.",
         text: { every: 1, blocks: [
@@ -24,6 +25,7 @@
         after: "<p>Bench A splits its verbs. Bench B cannot — and the difference is not a matter of style.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review phrasal verbs", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: separable, inseparable, and possessives",
@@ -40,6 +42,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review phrasal verbs", letter: "C",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Which phrasal verbs take an object at all, and what that decides. Complete the rule.",
         heading: "Language connection: transitive, intransitive, and the passive",
@@ -58,6 +61,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -88,6 +92,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them have no object at all, which settles where everything goes.",
         items: [
@@ -118,6 +123,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct", "sample"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from lab reports. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -144,6 +150,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the single-word verb academic writing would prefer here.",
         items: [
@@ -154,6 +161,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. Both are the written form of a phrasal verb from Lesson 1.",
         items: [
@@ -165,6 +173,7 @@
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
         carry: "1a",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a word into each gap. Two in the bank are not used, and both of them are possessives that need a noun after them.",
         extra: ["our", "their"],

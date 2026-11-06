@@ -7,6 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -55,6 +56,7 @@
 
             { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
         carry: "2a",
+        concepts: ["listen", "claim"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Three of them concede something before disagreeing, which is the move this unit is about.",
         items: [
@@ -103,6 +105,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference", "claim"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students preparing for a debate. Listen once.",
         speaker: "tomas", speakerNote: "with Priya Raman",
@@ -145,6 +148,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students comparing two reports of the same afternoon. Listen once.",
         speaker: "tomas", speakerNote: "with Mei Lin",
@@ -188,6 +192,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak", "claim"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "English stresses the words that carry meaning and swallows the rest. Moving the stress changes what a sentence argues, without changing a word.",
         speaker: "haddad",
@@ -203,6 +208,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak", "claim"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more. Decide which word carries the argument, stress that one, and let the rest of the sentence fall away.",
         speaker: "haddad",
@@ -218,6 +224,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>These four pairs are confused constantly in writing about rules, and in speech the difference is a single consonant or a single unstressed vowel. Getting one wrong reverses what you are claiming, which is why they are worth drilling rather than looking up.</p>" +
                "<i>principle (a rule) · principal (chief, or the head of a school)</i><i>prosecute (to bring a case) · persecute (to harass)</i>",
@@ -245,6 +252,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Two of them contain a word from 4A.",
         items: [

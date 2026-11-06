@@ -987,3 +987,18 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .ar-toggle:hover{color:var(--ink);background:var(--cream);}
 [dir="rtl"]{text-align:right;}
 .btn-check[dir="rtl"],.btn-again[dir="rtl"],.ar-toggle[dir="rtl"]{text-align:center;}
+
+/* F49 — a long talk, in parts */
+.rl-seg{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 0;}
+.rl-seg-label{font:700 10.5px/1.8 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.rl-seg-btn{font:600 13px/1 var(--ui);padding:7px 13px;border-radius:999px;
+  border:1px solid var(--rule-2);background:var(--card);color:var(--ink);cursor:pointer;}
+.rl-seg-btn.on{background:var(--teal);border-color:var(--teal);color:#fff;}
+.rl-seg-note{flex:1 0 100%;font:400 11.5px/1.5 var(--ui);color:var(--ink-3);}
+
+/* F47 — where the answer came from, marked on review only */
+.rl-signal{background:var(--mint);box-shadow:inset 3px 0 0 var(--ok);
+  border-radius:5px;padding:1px 4px;margin-left:-4px;}
+.rl-signal-note{margin:10px 0 0;padding:8px 11px;border-radius:8px;
+  background:var(--mint);font:400 13px/1.6 var(--ui);color:var(--ink);}

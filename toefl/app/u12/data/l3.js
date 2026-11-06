@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review the patterns", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the three groups. The verb decides the form — there is no meaning rule behind it.",
         text: { every: 1, blocks: [
@@ -28,6 +29,7 @@
         after: "<p>The third group is the trap. With <i>begin</i> nothing changes; with <i>stop</i> everything does.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review the patterns", letter: "B",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: which form follows which verb",
@@ -44,6 +46,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Review the patterns", letter: "C",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "What happens when a person comes between the verb and the form it governs. Complete the rule.",
         heading: "Language connection: verb + object + form",
@@ -62,6 +65,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -93,6 +97,7 @@
 
             { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
         carry: "1a",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them put a person between the verb and the form it governs.",
         items: [
@@ -123,6 +128,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from essays. One word in each is wrong — a wrong word, not a wrong order. Click it, then type the correction.",
         items: [
@@ -149,6 +155,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word stress", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the word, then decide whether it is a noun or a verb — and where the stress falls.",
         items: [
@@ -159,6 +166,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word stress", letter: "B",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more pairs. Complete the word, then say it aloud and hear where the stress falls.",
         items: [
@@ -169,6 +177,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word stress", letter: "C",
+        concepts: ["word"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a form into each gap. Two in the bank are not used, and each of them is the wrong form for the verb in front of it.",
         note: { kind: "gram", title: "Grammar Notes",

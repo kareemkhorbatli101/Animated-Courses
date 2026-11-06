@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["word"],
         kind: "cloze", task: null, n: 0,
         prompt: "The colon has one job in formal writing: what comes after it explains or lists what came before. Complete the rule.",
         heading: "Language connection: the colon",
@@ -23,6 +24,7 @@
         ] },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Which sentence uses the colon correctly?",
         options: [
@@ -37,6 +39,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "evidence"],
         kind: "sequence", task: null, n: 0,
         prompt: "A message that reports a problem and proposes a fix has a fixed order. Put the five moves on the right rungs.",
         note: { kind: "writer",
@@ -55,6 +58,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the present perfect, so these are the sentences it is for.",
         items: [
@@ -77,6 +81,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. Two of them use the colon this lesson is about.",
         items: [
@@ -99,6 +104,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "claim"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from report drafts. One word in each is wrong. Click it, then type the correction.",
         note: { kind: "writer",
@@ -127,6 +133,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about how a field changes its mind.",
         minWords: 100,
@@ -147,6 +154,7 @@
         model: "<p>I think it was mostly the system working, though Priya is identifying something real.</p><p>A single early date can be wrong in a dozen ordinary ways: contamination, a mis-recorded layer, an uncorrected marine sample. Accepting one such date immediately would make the framework worthless, because any framework can be overturned by one bad measurement.</p><p>Where Priya is right is that the burden was applied unevenly. Dates that fitted the corridor model were not examined as hard as dates that did not. The delay was defensible; the asymmetry was not.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write", "claim"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about who the past belongs to.",
         minWords: 100,

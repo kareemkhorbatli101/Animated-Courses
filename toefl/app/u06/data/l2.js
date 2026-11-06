@@ -7,6 +7,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read", "sample"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the model. It describes a sequence, and every stage is marked.",
         note: { kind: "writer",
@@ -21,6 +22,7 @@
         after: "<p>Notice that one stage carries a condition. A sequence that cannot fail is a recipe, not a method.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Which sentence in the model does the most to protect the reader?",
         options: [
@@ -33,6 +35,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence", "measurement"],
         kind: "sequence", task: null, n: 0,
         prompt: "This unit's writing strategy is sequencing. Put the five stages of a method section in the order a reader needs them.",
         note: { kind: "writer",
@@ -51,6 +54,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. Watch where the object goes.",
         items: [
@@ -73,6 +77,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. These are the sentences a sequence needs to hold together.",
         items: [
@@ -95,6 +100,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "sample"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from method sections. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -121,6 +127,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about how nutrition is communicated.",
         minWords: 100,
@@ -141,6 +148,7 @@
         model: "<p>I think both are right about different things, and the disagreement is really about what a number on a packet is <i>for</i>.</p><p>Tomás is correct that the figure measures combustion in a calorimeter rather than metabolism in a person, and that two foods of equal calorific value can behave quite differently once eaten.</p><p>But Priya's point is about comparison, not accuracy. A consistently wrong measure can still rank things correctly, and ranking is what most people are doing in a supermarket. What I would change is not the number but the typography: printing it in bold implies a precision the method does not have.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about a number everybody uses and nobody checks.",
         minWords: 100,

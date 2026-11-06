@@ -8,6 +8,7 @@
     next: "l3.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Prepare to write", letter: "A",
+        concepts: ["read", "time"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the model. Four paragraphs, four jobs — and you should be able to name each one.",
         note: { kind: "writer",
@@ -21,6 +22,7 @@
         after: "<p>Nothing in paragraph three belongs in paragraph two, and the request is in one place only. That is the whole technique.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Prepare to write", letter: "B",
+        concepts: ["claim"],
         kind: "choice", task: null, n: 0,
         prompt: "Which paragraph of the model does the most work for a busy reader?",
         options: [
@@ -33,6 +35,7 @@
         ] },
 
             { id: "1c", section: 1, sectionTitle: "Prepare to write", letter: "C",
+        concepts: ["sequence"],
         kind: "sequence", task: null, n: 0,
         prompt: "The four jobs of the model, plus the one that comes before writing anything. Put them in order.",
         note: { kind: "writer",
@@ -51,6 +54,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentences", letter: "A",
+        concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Put the words in order. This unit's grammar is the present perfect in questions, so these are the sentences it is for.",
         items: [
@@ -73,6 +77,7 @@
         ] },
 
             { id: "2b", section: 2, sectionTitle: "Build the sentences", letter: "B",
+        concepts: ["word", "time"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 4,
         prompt: "Four more. These are the sentences a proposal needs once the problem has been stated.",
         items: [
@@ -95,6 +100,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build the sentences", letter: "C",
+        concepts: ["correct", "time"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five lines from messages to an observatory office. One word in each is wrong. Click it, then type the correction.",
         items: [
@@ -121,6 +127,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Write and check", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A discussion question about how exploration should be done.",
         minWords: 100,
@@ -141,6 +148,7 @@
         model: "<p>I think Priya has found the limit of Tomás's argument without quite saying so.</p><p>The record of uncrewed missions is overwhelming, but it is a record of one kind of task: travelling far, waiting long, and measuring steadily. Those are exactly the things machines are better at, so the evidence is not neutral between the two methods.</p><p>Where people have an advantage is judgement on the spot — noticing that a rock is odd and deciding to turn it over. Tomás is right about cost and risk. He is wrong that the question is closed, because it has only been tested where machines were always going to win.</p>" },
 
       { id: "4a", section: 4, sectionTitle: "Write a second reply", letter: "A",
+        concepts: ["write"],
         kind: "discussion", task: "write-academic-discussion", cefr: "C1", n: 1,
         prompt: "A second question, about what a catalogue is a catalogue of.",
         minWords: 100,

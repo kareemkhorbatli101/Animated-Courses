@@ -7,6 +7,7 @@
     next: "l5.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Choose a response", letter: "A",
+        concepts: ["listen"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "You hear one short line. Choose the reply that fits.",
         note: { kind: "words",
@@ -55,6 +56,7 @@
 
 
       { id: "1b", section: 1, sectionTitle: "Choose a response", letter: "B",
+        concepts: ["listen", "sample"],
         kind: "respond", task: "listen-choose-response", cefr: "B2", n: 6,
         prompt: "Six more. Two of them are offers, and an offer is not answered the way a question is.",
         items: [
@@ -103,6 +105,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Listen to a conversation", letter: "A",
+        concepts: ["listen", "inference"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Two students settling the arrangements. Listen once.",
         speaker: "tomas", speakerNote: "with Priya Raman",
@@ -145,6 +148,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Listen to a conversation", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-conversation", cefr: "C1", n: 4,
         prompt: "Mei and Dan are designing a poster. Listen once, then answer.",
         speaker: "mei", speakerNote: "with Dan Okafor",
@@ -188,6 +192,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Practise your pronunciation", letter: "A",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "This unit's sounds are <b>j</b> /dʒ/ and <b>ch</b> /tʃ/. They differ only in voicing, and English keeps them apart.",
         speaker: "haddad",
@@ -202,6 +207,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Practise your pronunciation", letter: "B",
+        concepts: ["speak"],
         kind: "repeat", task: "listen-and-repeat", cefr: "C1", n: 4,
         prompt: "Four more lines. The two sounds differ only in whether your voice is on, so run them together at speed.",
         speaker: "haddad",
@@ -214,6 +220,7 @@
         ] },
 
       { id: "4a", section: 4, sectionTitle: "Hear the difference", letter: "A",
+        concepts: ["sound"],
         kind: "minimal-pairs", task: null, n: 0,
         focus: "<p>These two sounds are made in exactly the same place, with the tongue in exactly the same position. The only difference is whether the voice is switched on. Put a finger on your throat and say both: <b>/dʒ/</b> buzzes, <b>/tʃ/</b> does not.</p>" +
                "<i>/dʒ/ — joke · badge · ridge · edge</i><i>/tʃ/ — choke · batch · rich · etch</i>",
@@ -241,6 +248,7 @@
         ] },
 
       { id: "4b", section: 4, sectionTitle: "Hear the difference", letter: "B",
+        concepts: ["listen"],
         kind: "dictation", task: null, n: 0,
         prompt: "Play each line and write exactly what you hear. Spelling counts; punctuation does not.",
         items: [

@@ -13,6 +13,7 @@
     next: "tw.html",
     scenes: [
       { id: "a", section: 1, sectionTitle: "Listen to an announcement", letter: "A",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A notice about the gallery visit. It plays once.",
         speaker: "dan", speakerNote: "course administrator",
@@ -42,6 +43,7 @@
         ] },
 
             { id: "a2", section: 1, sectionTitle: "Listen to an announcement", letter: "B",
+        concepts: ["listen"],
         kind: "listen", task: "listen-announcement", cefr: "B1", n: 3,
         prompt: "A second notice, read out before the gallery visit. It plays once.",
         speaker: "dan", speakerNote: "course administrator",
@@ -72,6 +74,7 @@
         ] },
 
       { id: "b", section: 2, sectionTitle: "Listen to an academic talk", letter: "A",
+        concepts: ["listen", "inference", "claim"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "Professor Haddad on a habit of reading. A notepad opens beside the player.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -109,6 +112,7 @@
         ] },
 
             { id: "b2", section: 2, sectionTitle: "Listen to an academic talk", letter: "B",
+        concepts: ["listen"],
         kind: "talk", task: "listen-academic-talk", cefr: "C1", n: 4,
         prompt: "The same lecturer, on the question this course has been circling all year.",
         speaker: "haddad", speakerNote: "lecturer",
@@ -147,6 +151,7 @@
         ] },
 
       { id: "b3", section: 2, sectionTitle: "Listen to an academic talk", letter: "C",
+        concepts: ["listen"],
         kind: "notes", task: null, n: 0,
         prompt: "Play the first talk again and complete the outline while it runs.",
         audio: TALK1,
@@ -167,6 +172,7 @@
         ] },
 
       { id: "c", section: 3, sectionTitle: "Help someone understand", letter: "A",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the chart. Explaining well begins with finding out what was actually lost.",
         note: { kind: "speak",
@@ -187,6 +193,7 @@
         after: "<p>The last one is the only real test. If they can say it back differently, they have it; if they can only repeat your words, they do not — which is the same test Unit 11 applied to paraphrasing.</p>" },
 
       { id: "c2", section: 3, sectionTitle: "Help someone understand", letter: "B",
+        concepts: ["measurement"],
         kind: "table", task: null, n: 0,
         prompt: "Complete the table from the chart in 3A. The right-hand column says what each move protects.",
         caption: "Four moves, and what each one protects",
@@ -206,6 +213,7 @@
         ] },
 
       { id: "c3", section: 3, sectionTitle: "Help someone understand", letter: "C",
+        concepts: ["read"],
         kind: "read-only", task: null, n: 0,
         prompt: "The last sentence in the book.",
         text: { blocks: [{ lines: [

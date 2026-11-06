@@ -7,6 +7,7 @@
     next: "l4.html",
     scenes: [
       { id: "1a", section: 1, sectionTitle: "Review comparison", letter: "A",
+        concepts: ["read", "comparison", "measurement"],
         kind: "read-only", task: null, n: 0,
         prompt: "Read the two field notes. The comparisons in them follow a rule you can state.",
         text: { every: 1, blocks: [
@@ -22,6 +23,7 @@
         after: "<p>Short adjectives take an ending. Long ones take a word in front. The dividing line is syllables.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Review comparison", letter: "B",
+        concepts: ["word", "comparison"],
         kind: "cloze", task: null, n: 0,
         prompt: "Complete the rule in your own words.",
         heading: "Language connection: comparatives and superlatives",
@@ -38,6 +40,7 @@
 
 
       { id: "1c", section: 1, sectionTitle: "Review comparison", letter: "C",
+        concepts: ["word", "comparison", "measurement"],
         kind: "cloze", task: null, n: 0,
         prompt: "The shapes comparison takes once you are past <i>-er</i> and <i>more</i>. Complete the rule.",
         heading: "Language connection: equality, multiples and degree",
@@ -56,6 +59,7 @@
         ] },
 
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
+        concepts: ["word", "comparison", "measurement"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Put the words in order.",
         items: [
@@ -87,6 +91,7 @@
 
 
       { id: "2b", section: 2, sectionTitle: "Build sentences", letter: "B",
+        concepts: ["word", "comparison", "measurement"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,
         prompt: "Six more. Three of them compare without using a comparative at all.",
         items: [
@@ -117,6 +122,7 @@
         ] },
 
       { id: "2c", section: 2, sectionTitle: "Build sentences", letter: "C",
+        concepts: ["correct", "sample"],
         kind: "errorfix", task: null, n: 0,
         prompt: "Five sentences from lab reports. One word in each is wrong. Click it, then type the correction.",
         note: { kind: "gram", title: "Grammar Notes",
@@ -145,6 +151,7 @@
         ] },
 
       { id: "3a", section: 3, sectionTitle: "Word building", letter: "A",
+        concepts: ["word"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Complete the noun. Both use this unit's suffix, and both move the stress.",
         items: [
@@ -155,6 +162,7 @@
         ] },
 
       { id: "3b", section: 3, sectionTitle: "Word building", letter: "B",
+        concepts: ["word", "measurement"],
         kind: "letterbox", task: "complete-the-words", cefr: "B2", n: 2,
         prompt: "Two more. One takes <i>-tion</i> and one takes <i>-sion</i>.",
         items: [
@@ -165,6 +173,7 @@
         ] },
 
       { id: "3c", section: 3, sectionTitle: "Word building", letter: "C",
+        concepts: ["word", "measurement"],
         kind: "wordbank", task: null, n: 0,
         prompt: "Drag a noun into each gap. The two words left in the bank are verbs, and no gap will take one.",
         extra: ["select", "observe"],
