@@ -83,6 +83,34 @@
             why: "<i>Try to do</i> implies the attempt may not succeed." }
         ] },
 
+      /* F26 \u2014 which verbs take a gerund, as a grid rather than a list. */
+      { id: "1d", section: 1, sectionTitle: "Review the gerund", letter: "D",
+        concepts: ["word"],
+        kind: "matrix", task: null, n: 0,
+        prompt: "Put each verb in its column. The test is whether you can replace what follows with <i>it</i>.",
+        matrix: {
+          rowLabel: "verb",
+          cols: ["takes <i>doing</i>", "takes <i>to do</i>", "takes a <i>that</i> clause"],
+          rows: [
+            { item: "admit", col: "takes <i>doing</i>",
+              why: "<i>She admitted taking the documents</i>, and <i>she admitted it</i> works, which is the test." },
+            { item: "deny", col: "takes <i>doing</i>",
+              why: "Same group as <i>admit</i>: verbs about owning or refusing an act take the gerund." },
+            { item: "avoid", col: "takes <i>doing</i>",
+              why: "<i>Avoid to answer</i> is not English, however reasonable it looks." },
+            { item: "refuse", col: "takes <i>to do</i>",
+              why: "<i>Refused answering</i> is wrong \u2014 and <i>refuse</i> sits next to <i>deny</i> in meaning, which is why this has to be learned rather than reasoned." },
+            { item: "decide", col: "takes <i>to do</i>",
+              why: "A decision points forward, and so does the infinitive. That is a memory aid, not a rule." },
+            { item: "claim", col: "takes a <i>that</i> clause",
+              why: "<i>Claimed that the consultation was genuine</i>. The gerund is not available here at all." },
+            { item: "argue", col: "takes a <i>that</i> clause",
+              why: "<i>Argue doing</i> and <i>argue to do</i> are both wrong; the clause is the only option." }
+          ],
+          note: "Notice <i>deny</i> and <i>refuse</i>: close in meaning, opposite in pattern."
+        } },
+
+
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,

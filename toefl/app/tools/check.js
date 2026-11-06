@@ -125,6 +125,7 @@ function trueCount(s){
     case 'phrases': return (s.phrases || []).length;
     case 'recap': return (s.takeaways || []).length;
     case 'annotate': return (s.sentences || []).length;
+    case 'matrix': return ((s.matrix || {}).rows || []).length;
     default: return s.items ? s.items.length : s.n;
   }
 }

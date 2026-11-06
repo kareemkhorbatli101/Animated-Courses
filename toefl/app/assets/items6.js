@@ -414,6 +414,91 @@
     };
   });
 
+  /* ----------------------------------------------------------- matrix --- */
+  /* spec.matrix: { rows:[{item, col, why}], cols:[labels], rowLabel, note }
+
+     A grid of one thing against another, filled in by the learner. Unit 12
+     teaches that the verb decides whether it takes an infinitive or a
+     gerund and that no meaning rule predicts which — which is exactly the
+     kind of fact a table holds better than prose, and exactly the kind a
+     learner has to build to remember.
+
+     One cell per row, because the claim is that each verb takes one
+     pattern. Where a verb takes both, that is its own column, and the
+     rationale is where the difference lives. */
+  D.register("matrix", function (stage, spec, api) {
+    intro(stage, spec, api);
+    var m = spec.matrix || {};
+    var cols = m.cols || [];
+    if (!spec.prompt) stage.appendChild(E("p", "prompt",
+      "Put each one in its column."));
+
+    var table = E("table", "mx");
+    var head = E("tr");
+    /* Column labels are authored markup: "takes <i>to do</i>". The deck's
+       E() sets textContent, which printed the tags on screen, and esc()
+       before it printed them escaped. They have to go in as innerHTML. */
+    var rh = E("th", "mx-rowhead");
+    rh.innerHTML = m.rowLabel || "";
+    head.appendChild(rh);
+    cols.forEach(function (c) {
+      var th = E("th");
+      th.innerHTML = c;
+      head.appendChild(th);
+    });
+    table.appendChild(head);
+
+    var picks = {};
+    api.shuffle((m.rows || []).slice()).forEach(function (r, n) {
+      var tr = E("tr");
+      var th = E("th", "mx-item", esc(r.item));
+      tr.appendChild(th);
+      cols.forEach(function (c) {
+        var td = E("td");
+        var b = E("button", "mx-cell");
+        b.type = "button";
+        b.setAttribute("role", "radio");
+        b.setAttribute("aria-checked", "false");
+        b.setAttribute("aria-label", r.item + ": " + plainText(c));
+        b.addEventListener("click", function () {
+          picks[r.item] = c;
+          [].forEach.call(tr.querySelectorAll(".mx-cell"), function (x) {
+            x.classList.remove("on", "ok", "no");
+            x.setAttribute("aria-checked", "false");
+          });
+          b.classList.add("on");
+          b.setAttribute("aria-checked", "true");
+        });
+        td.appendChild(b);
+        tr.appendChild(td);
+      });
+      table.appendChild(tr);
+      r._row = tr;
+    });
+    stage.appendChild(table);
+    if (m.note) stage.appendChild(E("p", "mx-note", m.note));
+
+    return function () {
+      var right = 0, miss = [];
+      (m.rows || []).forEach(function (r) {
+        var got = picks[r.item];
+        var ok = got === r.col;
+        var cells = r._row.querySelectorAll(".mx-cell");
+        cols.forEach(function (c, i) {
+          cells[i].classList.remove("ok", "no");
+          if (c === r.col) cells[i].classList.add("ok");
+          else if (c === got) cells[i].classList.add("no");
+        });
+        if (ok) right++;
+        else miss.push("<b>" + esc(r.item) + "</b> — " + esc(r.col) +
+          (r.why ? ". " + r.why : ""));
+      });
+      return { score: right, total: (m.rows || []).length,
+        html: miss.length ? "<p>Not yet placed:</p>" + api.fbList(miss)
+                          : "<p>Every verb in its column. There is no meaning rule behind this — the grid is the rule.</p>" };
+    };
+  });
+
   /* --------------------------------------------------------- annotate --- */
   /* spec.sentences : [{ text, job, why }]  spec.jobs : [labels] */
   D.register("annotate", function (stage, spec, api) {

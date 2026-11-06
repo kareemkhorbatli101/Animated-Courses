@@ -94,6 +94,38 @@
             why: "<i>helped her carry</i> and <i>helped her to carry</i> are both standard." }
         ] },
 
+      /* F26 \u2014 the fact Lesson 3 states and cannot drill in prose: the verb
+         decides, and no meaning rule predicts which. A grid is the right
+         shape for that, and building it is what fixes it. */
+      { id: "1d", section: 1, sectionTitle: "Review the patterns", letter: "D",
+        concepts: ["word"],
+        kind: "matrix", task: null, n: 0,
+        prompt: "Put each verb in its column. There is no meaning rule behind this \u2014 which is exactly why it has to be learned as a grid.",
+        matrix: {
+          rowLabel: "verb",
+          cols: ["takes <i>to do</i>", "takes <i>doing</i>", "takes both"],
+          rows: [
+            { item: "decide", col: "takes <i>to do</i>",
+              why: "<i>She decided leaving</i> is not a stylistic choice; it is not English." },
+            { item: "refuse", col: "takes <i>to do</i>",
+              why: "Verbs about choosing and promising lean this way \u2014 a tendency, not a rule." },
+            { item: "hope", col: "takes <i>to do</i>",
+              why: "<i>Hope doing</i> does not exist, though <i>hope that</i> is fine." },
+            { item: "enjoy", col: "takes <i>doing</i>",
+              why: "<i>Enjoy to watch</i> is the commonest error in this group." },
+            { item: "avoid", col: "takes <i>doing</i>",
+              why: "And no meaning explains why, which is the lesson." },
+            { item: "suggest", col: "takes <i>doing</i>",
+              why: "<i>Suggested to cut</i> is wrong, though <i>suggested that they cut</i> is fine." },
+            { item: "begin", col: "takes both",
+              why: "And means the same either way \u2014 the safe half of the third group." },
+            { item: "stop", col: "takes both",
+              why: "The trap: <i>stopped explaining</i> ended the explaining, <i>stopped to explain</i> started it." }
+          ],
+          note: "Two of these take both forms, and only one of the two changes meaning. That is the whole of the third group."
+        } },
+
+
       { id: "2a", section: 2, sectionTitle: "Build sentences", letter: "A",
         concepts: ["word"],
         kind: "orderset", task: "build-a-sentence", cefr: "C1", n: 6,

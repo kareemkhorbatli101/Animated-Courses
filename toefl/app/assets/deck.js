@@ -373,6 +373,8 @@
       if (typeof sp.n === "number" && sp.n > 1) return sp.n;
       var lists = ["items", "gaps", "pairs", "steps", "cards", "phrases",
                    "sentences", "takeaways", "lines"];
+      if (sp.matrix && Array.isArray(sp.matrix.rows) && sp.matrix.rows.length > 1)
+        return sp.matrix.rows.length;
       for (var i = 0; i < lists.length; i++)
         if (Array.isArray(sp[lists[i]]) && sp[lists[i]].length > 1) return sp[lists[i]].length;
       return 0;

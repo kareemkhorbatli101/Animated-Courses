@@ -141,6 +141,7 @@
         "concepts": [
           "claim"
         ],
+        "carry": "1a",
         "kind": "choice",
         "task": "write-academic-discussion",
         "cefr": "B2",
@@ -228,10 +229,41 @@
         "concepts": [
           "write"
         ],
+        "modelJobs": [
+          {
+            "job": "stated my position in the first paragraph",
+            "text": "I think a group helps most when it forces you to explain something out loud.",
+            "why": "it is the first sentence of the message, where a reader looks for the point"
+          },
+          {
+            "job": "gave a reason from my own experience",
+            "text": "Last term I could not finish a sentence explaining a formula I had read four times.",
+            "why": "it gives the reason, with the cause named rather than implied"
+          },
+          {
+            "job": "answered Priya or Tomás by name ",
+            "text": "Tomás is right that groups carry passengers — I have been in one.",
+            "why": "it answers a classmate by name, which is what turns a post into a discussion"
+          }
+        ],
         "kind": "discussion",
         "task": "write-academic-discussion",
         "cefr": "C1",
         "n": 1,
+        "frames": [
+          {
+            "frame": "I ___ every ___, and I usually ___.",
+            "why": "Simple present for a habit of your own — the form Lesson 3 contrasts with the past."
+          },
+          {
+            "frame": "Last ___ I ___, and I found that ___.",
+            "why": "Simple past for one finished occasion, which is what turns a claim into evidence."
+          },
+          {
+            "frame": "___ is right that ___, but ___.",
+            "why": "Concede by name, then answer. The present tense keeps the concession a standing fact."
+          }
+        ],
         "prompt": "Now write your own reply. The professor's question and both classmates stay on screen.",
         "minWords": 100,
         "posts": [
@@ -461,6 +493,67 @@
         ]
       },
 
+      /* matrix — lifted from u10/l3 */
+      {
+        "id": "b7",
+        "section": 8,
+        "sectionTitle": "matrix — from u10/l3",
+        "letter": "A",
+        "concepts": [
+          "word"
+        ],
+        "kind": "matrix",
+        "task": null,
+        "n": 0,
+        "prompt": "Put each verb in its column. The test is whether you can replace what follows with <i>it</i>.",
+        "matrix": {
+          "rowLabel": "verb",
+          "cols": [
+            "takes <i>doing</i>",
+            "takes <i>to do</i>",
+            "takes a <i>that</i> clause"
+          ],
+          "rows": [
+            {
+              "item": "admit",
+              "col": "takes <i>doing</i>",
+              "why": "<i>She admitted taking the documents</i>, and <i>she admitted it</i> works, which is the test."
+            },
+            {
+              "item": "deny",
+              "col": "takes <i>doing</i>",
+              "why": "Same group as <i>admit</i>: verbs about owning or refusing an act take the gerund."
+            },
+            {
+              "item": "avoid",
+              "col": "takes <i>doing</i>",
+              "why": "<i>Avoid to answer</i> is not English, however reasonable it looks."
+            },
+            {
+              "item": "refuse",
+              "col": "takes <i>to do</i>",
+              "why": "<i>Refused answering</i> is wrong — and <i>refuse</i> sits next to <i>deny</i> in meaning, which is why this has to be learned rather than reasoned."
+            },
+            {
+              "item": "decide",
+              "col": "takes <i>to do</i>",
+              "why": "A decision points forward, and so does the infinitive. That is a memory aid, not a rule."
+            },
+            {
+              "item": "claim",
+              "col": "takes a <i>that</i> clause",
+              "why": "<i>Claimed that the consultation was genuine</i>. The gerund is not available here at all."
+            },
+            {
+              "item": "argue",
+              "col": "takes a <i>that</i> clause",
+              "why": "<i>Argue doing</i> and <i>argue to do</i> are both wrong; the clause is the only option."
+            }
+          ],
+          "note": "Notice <i>deny</i> and <i>refuse</i>: close in meaning, opposite in pattern."
+        }
+      },
+
       /* order — hand-written */
       {
         "kind": "order",
@@ -473,16 +566,16 @@
         ],
         "hint": "Tap a word, or drag it here",
         "why": "The subject is a whole clause — <i>spacing the same hours over more days</i> — so the verb is singular <i>is</i>. The two spare words belong to no clause here.",
-        "id": "b7",
-        "section": 8,
+        "id": "b8",
+        "section": 9,
         "letter": "A",
         "sectionTitle": "order — hand-written, unused in the book"
       },
 
       /* orderset — lifted from u01/l2 */
       {
-        "id": "b8",
-        "section": 9,
+        "id": "b9",
+        "section": 10,
         "sectionTitle": "orderset — from u01/l2",
         "letter": "A",
         "concepts": [
@@ -499,44 +592,86 @@
             "cue": "State a position.",
             "band": "A2",
             "target": "I usually learn more when I study with other people",
+            "jobs": {
+              "I": "subject",
+              "usually": "adverbial",
+              "when": "linker",
+              "with": "adverbial"
+            },
             "extra": [
               "because",
               "very"
             ],
+            "extraWhy": {
+              "because": "<i>because</i> introduces a reason clause — and nothing in this sentence needs that done.",
+              "very": "<i>very</i> intensifies an adjective or adverb — and nothing in this sentence needs that done."
+            },
             "why": "Simple sentence with a <i>when</i> clause."
           },
           {
             "cue": "Give a reason and a result.",
             "band": "B1",
             "target": "I had read the formula four times but I could not explain it",
+            "jobs": {
+              "I": "subject",
+              "had": "verb",
+              "but": "linker",
+              "could": "verb",
+              "not": "verb"
+            },
             "extra": [
               "so",
               "although",
               "then"
             ],
+            "extraWhy": {
+              "so": "<i>so</i> introduces a result — and nothing in this sentence needs that done.",
+              "although": "<i>although</i> concedes before the main clause — and nothing in this sentence needs that done.",
+              "then": "<i>then</i> marks the next step — and nothing in this sentence needs that done."
+            },
             "why": "Compound, joined by <i>but</i>."
           },
           {
             "cue": "Concede, then disagree.",
             "band": "B2",
             "target": "Although Tomás makes a fair point my experience has been different",
+            "jobs": {
+              "Although": "linker",
+              "has": "verb",
+              "been": "verb"
+            },
             "extra": [
               "because",
               "however",
               "and"
             ],
+            "extraWhy": {
+              "because": "<i>because</i> introduces a reason clause — and nothing in this sentence needs that done.",
+              "however": "<i>however</i> contrasts with what came before — and nothing in this sentence needs that done.",
+              "and": "<i>and</i> joins two things of the same kind — and nothing in this sentence needs that done."
+            },
             "why": "Complex, with a concessive <i>although</i> clause in front."
           },
           {
             "cue": "Say what matters most.",
             "band": "C1",
             "target": "What I find most useful is having to explain an idea to someone else",
+            "jobs": {
+              "I": "subject",
+              "is": "verb"
+            },
             "extra": [
               "happy",
               "because",
               "very",
               "which"
             ],
+            "extraWhy": {
+              "happy": "Nothing in this sentence needs <i>happy</i>. A word you cannot name a job for is the spare one.",
+              "because": "<i>because</i> introduces a reason clause — and nothing in this sentence needs that done.",
+              "very": "<i>very</i> intensifies an adjective or adverb — and nothing in this sentence needs that done.",
+              "which": "<i>which</i> opens a relative clause — and nothing in this sentence needs that done."
+            },
             "why": "A cleft sentence: <i>What I find most useful is…</i> puts the key idea at the end."
           }
         ]
@@ -544,8 +679,8 @@
 
       /* quiz — lifted from u01/tw */
       {
-        "id": "b9",
-        "section": 10,
+        "id": "b10",
+        "section": 11,
         "sectionTitle": "quiz — from u01/tw",
         "letter": "A",
         "concepts": [
@@ -633,6 +768,7 @@
             ]
           },
           {
+            "recall": "From Lesson 5: the article on why re-reading feels effective and is not — the one with the footnote on an illusion.",
             "q": "In the article, the writer calls the feeling of easy material:",
             "from": "Lesson 5",
             "options": [
@@ -789,8 +925,8 @@
 
       /* read — lifted from u01/l5 */
       {
-        "id": "b10",
-        "section": 11,
+        "id": "b11",
+        "section": 12,
         "sectionTitle": "read — from u01/l5",
         "letter": "A",
         "concepts": [
@@ -861,6 +997,7 @@
         },
         "items": [
           {
+            "para": 0,
             "q": "What is the main idea?",
             "options": [
               {
@@ -870,15 +1007,18 @@
               },
               {
                 "text": "Students in the 1970s studied differently from students today.",
+                "misreads": "overread",
                 "why": "The date is a detail about when the work began, not the point of the article."
               },
               {
                 "text": "Examinations measure memory rather than understanding.",
+                "misreads": "absent",
                 "why": "The article never discusses what examinations measure."
               }
             ]
           },
           {
+            "para": 2,
             "q": "What happened a week after the test?",
             "options": [
               {
@@ -888,15 +1028,18 @@
               },
               {
                 "text": "Both groups had forgotten most of the material.",
+                "misreads": "absent",
                 "why": "The article does not say this; it compares the groups rather than their absolute scores."
               },
               {
                 "text": "The groups performed about the same.",
+                "misreads": "widened",
                 "why": "That is the opposite of <i>widened</i>."
               }
             ]
           },
           {
+            "para": 3,
             "q": "In line 8, <i>that pathway</i> refers to:",
             "options": [
               {
@@ -906,15 +1049,18 @@
               },
               {
                 "text": "the practical advice the author gives",
+                "misreads": "overread",
                 "why": "The advice comes after, in a new sentence, and is not a path."
               },
               {
                 "text": "the order in which the notes were written",
+                "misreads": "absent",
                 "why": "Notes are not mentioned in that paragraph."
               }
             ]
           },
           {
+            "para": 1,
             "q": "What would the author most likely say about a student who only highlights their notes?",
             "options": [
               {
@@ -924,10 +1070,12 @@
               },
               {
                 "text": "They should highlight more of the page.",
+                "misreads": "absent",
                 "why": "Nothing in the article suggests doing more of what it criticises."
               },
               {
                 "text": "Highlighting is better than reading the notes twice.",
+                "misreads": "retrieval",
                 "why": "The article draws its line between retrieval and everything else, not between kinds of re-reading."
               }
             ]
@@ -937,8 +1085,8 @@
 
       /* register-dial — lifted from u02/l2 */
       {
-        "id": "b11",
-        "section": 12,
+        "id": "b12",
+        "section": 13,
         "sectionTitle": "register-dial — from u02/l2",
         "letter": "A",
         "concepts": [
@@ -999,8 +1147,8 @@
 
       /* repeat — lifted from u01/l4 */
       {
-        "id": "b12",
-        "section": 13,
+        "id": "b13",
+        "section": 14,
         "sectionTitle": "repeat — from u01/l4",
         "letter": "A",
         "concepts": [
@@ -1034,8 +1182,8 @@
 
       /* respond — lifted from u01/l4 */
       {
-        "id": "b13",
-        "section": 14,
+        "id": "b14",
+        "section": 15,
         "sectionTitle": "respond — from u01/l4",
         "letter": "A",
         "concepts": [
@@ -1171,8 +1319,8 @@
 
       /* talk — lifted from u01/oc */
       {
-        "id": "b14",
-        "section": 15,
+        "id": "b15",
+        "section": 16,
         "sectionTitle": "talk — from u01/oc",
         "letter": "A",
         "concepts": [
@@ -1276,8 +1424,8 @@
 
       /* tfni — lifted from u01/l5 */
       {
-        "id": "b15",
-        "section": 16,
+        "id": "b16",
+        "section": 17,
         "sectionTitle": "tfni — from u01/l5",
         "letter": "A",
         "carry": "1c",
@@ -1318,17 +1466,53 @@
 
       /* write-email — lifted from u01/tw */
       {
-        "id": "b16",
-        "section": 17,
+        "id": "b17",
+        "section": 18,
         "sectionTitle": "write-email — from u01/tw",
         "letter": "A",
         "concepts": [
           "write"
         ],
+        "modelJobs": [
+          {
+            "job": "said why I was writing in the first sentence",
+            "text": "I am writing to ask whether there is still a place in the Thursday study-skills workshop.",
+            "why": "it is the first sentence of the message, where a reader looks for the point"
+          },
+          {
+            "job": "explained what happened, briefly",
+            "text": "Unfortunately I missed the sign-up deadline by a day, as I was away on Friday.",
+            "why": "it gives the reason, with the cause named rather than implied"
+          },
+          {
+            "job": "made a specific request",
+            "text": "Would it be possible to add me to the waiting list?",
+            "why": "a plain modal request, which is where politeness actually lives"
+          },
+          {
+            "job": "signed off in a way that matches the reader",
+            "text": "Many thanks, Mei Lin",
+            "why": "the sign-off matches the distance between writer and reader"
+          }
+        ],
         "kind": "write-email",
         "task": "write-an-email",
         "cefr": "C1",
         "n": 1,
+        "frames": [
+          {
+            "frame": "I am writing because ___.",
+            "why": "Present continuous for what you are doing now: the reason, in the first sentence."
+          },
+          {
+            "frame": "Last ___ I ___, and since then ___.",
+            "why": "Past for the finished event, present for what still holds."
+          },
+          {
+            "frame": "Could you ___ before ___?",
+            "why": "A plain modal and a deadline. Politeness lives in the modal, not in extra words."
+          }
+        ],
         "prompt": "Read the situation, then write the email. Audience and purpose are given, as they are on the test.",
         "scenarioTitle": "The situation",
         "scenario": "<p>You meant to join the Thursday study-skills workshop and missed the sign-up deadline by a day. Dan Okafor runs the waiting list.</p><p><b>Write to Dan.</b> Say what happened, ask whether a place is left, and ask what you should do next.</p>",

@@ -230,6 +230,17 @@ function solveScene() {
     case 'recap':
       (s.takeaways || []).forEach(t => place(t.text, t.caseId));
       break;
+    case 'matrix': {
+      const cols = (s.matrix && s.matrix.cols) || [];
+      (s.matrix && s.matrix.rows || []).forEach(r => {
+        const row = [...document.querySelectorAll('.mx tr')]
+          .find(tr => { const th = tr.querySelector('.mx-item'); return th && norm(th.textContent) === norm(r.item); });
+        if (!row) { fail(); return; }
+        const cell = row.querySelectorAll('.mx-cell')[cols.indexOf(r.col)];
+        if (cell) cell.click(); else fail();
+      });
+      break;
+    }
     case 'annotate':
       (s.sentences || []).forEach((sn, j) => {
         const sel = document.querySelectorAll('.ann-job')[j];

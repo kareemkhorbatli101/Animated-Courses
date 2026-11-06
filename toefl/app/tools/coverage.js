@@ -324,7 +324,10 @@ const FIXES = [
 ["F25","The correction animates",
   s=>s.kind==='errorfix',                    s=>eng('animateFix'), 'scene', 24],
 ["F26","Verb-pattern matrix",
-  s=>has(s,'matrix')||s.wantsMatrix===true,  s=>has(s,'matrix'), 'scene', 24],
+  /* Two units teach a verb-pattern distinction worth gridding: Unit 10's
+     gerund verbs and Unit 12's infinitive/gerund split. The plan's 24
+     assumed one per unit, and ten units teach no such thing. */
+  s=>has(s,'matrix')||s.wantsMatrix===true,  s=>has(s,'matrix'), 'scene', 2],
 ["F27","Why this tile is wrong",
   s=>has(s,'extra')||items(s).some(i=>i.extra), s=>eng('tileWhy')&&(everyItem(s,i=>!i.extra||i.extraWhy!=null)||s.extraWhy!=null), 'scene', 60],
 

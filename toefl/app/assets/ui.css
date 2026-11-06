@@ -1071,3 +1071,22 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .opt .opt-autopsy{text-align:left;}
 .rl-misread{background:var(--peach);box-shadow:inset 3px 0 0 var(--no);
   border-radius:5px;padding:1px 4px;margin-left:-4px;}
+
+/* F26 — a grid of one thing against another */
+/* Fixed layout, or three long column labels push the table past its card. */
+.mx{width:100%;table-layout:fixed;border-collapse:collapse;margin:14px 0 0;
+  font:400 14.5px/1.5 var(--ui);}
+.mx th,.mx td{word-break:normal;overflow-wrap:anywhere;}
+.mx th,.mx td{border:1px solid var(--rule);padding:8px 11px;text-align:center;}
+.mx th{background:var(--sunk);font-weight:600;color:var(--ink-2);font-size:13px;}
+.mx .mx-rowhead{background:transparent;border:0;}
+.mx .mx-item{text-align:left;font-weight:500;color:var(--ink);background:var(--card);}
+.mx-cell{width:100%;min-height:26px;height:26px;border:1px dashed var(--rule-2);
+  border-radius:6px;background:var(--card);cursor:pointer;display:block;}
+.mx-cell:hover{background:var(--cream);}
+.mx-cell.on{background:var(--blue);border-style:solid;border-color:var(--blue);}
+.mx-cell.ok{background:var(--mint);border-color:var(--ok);border-style:solid;
+  box-shadow:inset 0 0 0 2px var(--ok);}
+.mx-cell.no{background:var(--peach);border-color:var(--no);border-style:solid;}
+.mx-cell:focus-visible{outline:2px solid var(--boxline);outline-offset:1px;}
+.mx-note{margin:10px 0 0;font:400 13px/1.65 var(--ui);color:var(--ink-3);}
