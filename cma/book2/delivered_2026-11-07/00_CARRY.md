@@ -162,7 +162,36 @@ landing, which is what the plan's own "done when" asks for.
    family that shipped in Book 1 — an exhibit printing the answers below it — was found by taking
    a screenshot and reading it.
 
-## 8. How to check this package
+## 8. Committed; the backup is still owed
+
+Both repositories are committed:
+
+| | |
+|---|---|
+| `_publish_Animated-Courses` | `bd1e9a92` — the site: 1,005 files under `cma/`, plus the one link in the root `index.html` |
+| `SVG_To_Video_Using_Python` | `55104d6` — 40 files: twelve tools, ten gates, the eighteen extractions |
+
+Each was committed by **explicit pathspec**, because both trees carry substantial uncommitted
+work that is not this task's: 294 files under `lib/` and 36 under `courses/` in the publish tree,
+and 343 already-staged files under `output/`, `engine/`, `forge/` and `packages/` in the
+pipeline. None of it was touched, and the pipeline's index is exactly as it was found.
+
+**`backup_to_drive` has NOT run: drive E: is not attached.** Only C: and D: are present. That
+backup is the only second copy of this work, so it is the one outstanding step — reattach the
+drive and run:
+
+```
+python -m tools.backup_to_drive E:\SVG_To_Video_Remote_Git
+```
+
+**Nothing was pushed to GitHub, and that is deliberate.** The publish tree has an `origin`, and
+local `main` is three commits ahead of it — this commit plus two earlier CMA Book 1 commits from
+previous sessions, so CMA has never been pushed there. `tools/backup_to_drive`'s own header
+records the standing instruction: *"Back up what cannot be recreated to a local drive — nothing
+remote (the owner, 2026-09-29)."* Pushing would publish the author's textbook, so it waits on the
+owner saying otherwise.
+
+## 9. How to check this package
 
 ```
 python check_package.py --teeth
