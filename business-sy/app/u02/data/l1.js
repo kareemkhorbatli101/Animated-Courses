@@ -39,7 +39,7 @@
             meaning: "to bind yourself to do something",
             with: ["commit to a date", "I cannot commit yet", "a firm commitment"],
             why: "<i>I cannot commit to that date yet</i> is one of the most useful sentences in this course. It refuses without refusing." },
-          { term: "lead time", ar: "مدة التوريد",
+          { term: "lead time", ar: "مدة التسليم",
             meaning: "the time between order and delivery",
             with: ["a four-week lead time", "quote a lead time", "the lead time has gone out"],
             why: "From Unit 1, and now it is something you promise rather than something you report." },
@@ -200,7 +200,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The suffix <b>-ful</b> and the suffix <b>-less</b>. Drag each root into the box for the suffix it takes here.",
         note: { kind: "words", title: "Word building: -ful and -less",
-                body: "<p><b>-ful</b> means <i>having it</i>: <i>care → careful</i>.<br><b>-less</b> means <i>without it</i>: <i>care → careless</i>.<br>Many roots take both and mean opposite things. A few take only one — there is no <i>successless</i>.</p>" },
+                body: "<p><b>-ful</b> means <em>having it</em>: <em>care → careful</em>.<br><b>-less</b> means <em>without it</em>: <em>care → careless</em>.<br>Many roots take both and mean opposite things. A few take only one — there is no <em>successless</em>.</p>" },
         family: { word: "success", forms: [
           { part: "noun", word: "suc·CESS" },
           { part: "verb", word: "suc·CEED", note: "note the spelling changes" },
@@ -253,7 +253,7 @@
         kind: "sort", task: null, n: 0,
         prompt: "Sort each phrase by how much it commits you.",
         note: { kind: "words", title: "A scale, not a switch",
-                body: "<p>English gives you a whole ladder between <i>no</i> and <i>yes</i>. Choosing the right rung is most of what a careful quotation does — and using a binding phrase when you meant a soft one is how people end up paying penalties.</p>" },
+                body: "<p>English gives you a whole ladder between <em>no</em> and <em>yes</em>. Choosing the right rung is most of what a careful quotation does — and using a binding phrase when you meant a soft one is how people end up paying penalties.</p>" },
         bins: [
           { id: "soft", label: "Does not bind you" },
           { id: "firm", label: "Binds you" }

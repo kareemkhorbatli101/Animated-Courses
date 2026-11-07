@@ -106,7 +106,7 @@
         kind: "selectintext", task: "read-match-text", cefr: "B1", n: 4,
         prompt: "Four extracts. Click the sentence that shows nothing was actually settled.",
         note: { kind: "reader", title: "Agreement-shaped sentences",
-                body: "<p>Minutes are full of sentences that sound like decisions and are not. <i>Noted</i>, <i>in principle</i>, <i>carried forward</i> and <i>discussed</i> are the four to watch for.</p>" },
+                body: "<p>Minutes are full of sentences that sound like decisions and are not. <em>Noted</em>, <em>in principle</em>, <em>carried forward</em> and <em>discussed</em> are the four to watch for.</p>" },
         items: [
           { prompt: "Which sentence shows the matter is still open?",
             text: "The need for a second dye supplier was raised. All present recognised the risk of a single source. It was agreed in principle that a second supplier is necessary. Khoury will report in April.",

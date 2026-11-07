@@ -32,7 +32,7 @@
             why: "A third linker behaving the same way. <i>Until they will expire</i> is the error to watch for." }
         ],
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>If</b> + present, <b>will</b> + bare verb: <i>If you order 6,000, we will hold the price.</i><br>The same rule after <b>when</b>, <b>as soon as</b>, <b>until</b>, <b>before</b>, <b>after</b>.<br><b>if</b> = it may happen · <b>when</b> = it will happen</p>" },
+                body: "<p><b>If</b> + present, <b>will</b> + bare verb: <em>If you order 6,000, we will hold the price.</em><br>The same rule after <b>when</b>, <b>as soon as</b>, <b>until</b>, <b>before</b>, <b>after</b>.<br><b>if</b> = it may happen · <b>when</b> = it will happen</p>" },
         after: "<p>Arabic, like many languages, marks the future in both halves. English marks it in one, and putting <i>will</i> in the <i>if</i> clause is the single most recognisable error at this level.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Two halves, two tenses", letter: "B",
@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: where the future goes",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><i>If the target is missed, the price reverts.</i> — present in both halves, for an automatic rule.<br><i>If the price moves, we may reopen it.</i> — <i>may</i> for a right rather than a promise.<br><i>What happens if we miss it?</i> — questions keep the present too.</p>" },
+                body: "<p><em>If the target is missed, the price reverts.</em> — present in both halves, for an automatic rule.<br><em>If the price moves, we may reopen it.</em> — <em>may</em> for a right rather than a promise.<br><em>What happens if we miss it?</em> — questions keep the present too.</p>" },
         text: "In a real conditional about the future, the <i>if</i> clause takes the ___ and the main clause takes <i>will</i> or another modal. The same rule applies after ___ , <i>as soon as</i> and <i>until</i>. We use <i>if</i> when the event is ___ , and <i>when</i> when we expect it to happen. In contract English the main clause often takes the present as well, for a consequence that is ___ .",
         gaps: [
           { options: ["present", "future"], answer: "present",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "The one word that should not be there",
-                body: "<p>In almost every sentence on this page the extra word is <i>will</i>, sitting in a clause that cannot have it. Read the clause on its own: if it starts with <i>if</i>, <i>when</i>, <i>as soon as</i>, <i>until</i>, <i>before</i> or <i>after</i>, the future is not written there.</p>" },
+                body: "<p>In almost every sentence on this page the extra word is <em>will</em>, sitting in a clause that cannot have it. Read the clause on its own: if it starts with <em>if</em>, <em>when</em>, <em>as soon as</em>, <em>until</em>, <em>before</em> or <em>after</em>, the future is not written there.</p>" },
         items: [
           { text: "If you will commit to six thousand metres, we can hold the price.",
             fixed: "If you commit to six thousand metres, we can hold the price.",
@@ -153,7 +153,7 @@
         kind: "wordbank", task: null, n: 0,
         prompt: "Complete each line with one word from the bank. Two are left over.",
         note: { kind: "gram", title: "Five linkers, one rule",
-                body: "<p><i>if</i>, <i>when</i>, <i>unless</i>, <i>until</i> and <i>as soon as</i> all take the present for a future event. What differs is the certainty each one implies, and in a contract that is where the money is.</p>" },
+                body: "<p><em>if</em>, <em>when</em>, <em>unless</em>, <em>until</em> and <em>as soon as</em> all take the present for a future event. What differs is the certainty each one implies, and in a contract that is where the money is.</p>" },
         extra: ["because", "although"],
         items: [
           { text: "___ you commit to six thousand metres, we will hold the price.", answer: "If",

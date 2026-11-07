@@ -110,7 +110,7 @@
         kind: "selectintext", task: "read-match-text", cefr: "B1", n: 4,
         prompt: "Four short extracts. Click the one sentence that actually binds the writer.",
         note: { kind: "reader", title: "Binding or not",
-                body: "<p>Look for a verb of commitment — <i>we will</i>, <i>we undertake</i>, <i>we guarantee</i> — attached to something measurable. A sentence that is warm but names no number or date almost never binds anyone.</p>" },
+                body: "<p>Look for a verb of commitment — <em>we will</em>, <em>we undertake</em>, <em>we guarantee</em> — attached to something measurable. A sentence that is warm but names no number or date almost never binds anyone.</p>" },
         items: [
           { prompt: "Which sentence binds the seller to a date?",
             text: "Thank you for your order. We are delighted to be working with you. Our team will do everything possible to get your fabric to you quickly. We will dispatch on or before 14 May.",
@@ -196,7 +196,7 @@
         prompt: "Right, Wrong, or Doesn't say? Use the terms of sale in 1B.",
         carry: "1b",
         note: { kind: "reader", title: "Contracts reward the third option",
-                body: "<p>A contract is silent on far more than it covers. <i>Doesn't say</i> is often the commercially important answer, because it tells you what still has to be negotiated.</p>" },
+                body: "<p>A contract is silent on far more than it covers. <em>Doesn't say</em> is often the commercially important answer, because it tells you what still has to be negotiated.</p>" },
         items: [
           { stem: "The quoted price includes delivery to the buyer.", answer: "F", line: 1,
             why: "<i>Ex works Hama, and exclude transport and insurance.</i>" },

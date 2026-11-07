@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six things a supplier says. Choose the reply that asks for the evidence rather than accepting the claim.",
         note: { kind: "life", title: "The useful question is almost always a number",
-                body: "<p>A supplier's claim is usually true and vague at the same time. <i>How many</i>, <i>since when</i> and <i>compared with what</i> turn it into something you can check.</p>" },
+                body: "<p>A supplier's claim is usually true and vague at the same time. <em>How many</em>, <em>since when</em> and <em>compared with what</em> turn it into something you can check.</p>" },
         items: [
           { who: "fadi", say: "We have a very strong record on delivery.",
             options: [
@@ -150,7 +150,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>Arabic has <b>/f/</b> and <b>/b/</b> but no <b>/v/</b> and no <b>/p/</b>, so English piles four sounds into two slots. The fix is mechanical rather than musical.</p><p><b>/f/</b> top teeth on bottom lip, no voice. <b>/v/</b> same position, voice on. <b>/b/</b> both lips together, voice on. <b>/p/</b> both lips, no voice.</p><i>/f/ — fan · file · proof</i><i>/v/ — van · vile · prove</i><i>/b/ — ban · bile · probe</i>",
+        focus: "<p>Arabic has <b>/f/</b> and <b>/b/</b> but no <b>/v/</b> and no <b>/p/</b>, so English piles four sounds into two slots. The fix is mechanical rather than musical.</p><p><b>/f/</b> top teeth on bottom lip, no voice. <b>/v/</b> same position, voice on. <b>/b/</b> both lips together, voice on. <b>/p/</b> both lips, no voice.</p><em>/f/ — fan · file · proof</em><em>/v/ — van · vile · prove</em><em>/b/ — ban · bile · probe</em>",
         items: [
           { say: "van", options: [
             { text: "van", correct: true, why: "/v/ — teeth on lip, voice on. The vehicle that takes the goods." },

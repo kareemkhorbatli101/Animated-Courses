@@ -59,7 +59,7 @@
           "It goes in the April minutes as …"
         ],
         note: { kind: "writer", title: "Chase the action, not the person",
-                body: "<p>Give the dates, ask for the next step, and offer a route if something is blocking it. A chase that opens with <i>why has this not been done</i> gets an explanation; one that asks for a date gets a date.</p>" },
+                body: "<p>Give the dates, ask for the next step, and offer a route if something is blocking it. A chase that opens with <em>why has this not been done</em> gets an explanation; one that asks for a date gets a date.</p>" },
         checklist: [
           "Are the two dates given plainly?",
           "Have you avoided asking for an explanation?",

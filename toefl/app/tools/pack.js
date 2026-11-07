@@ -8,14 +8,16 @@
  */
 const fs = require('fs'), path = require('path'), cp = require('child_process');
 const ROOT = path.join(__dirname, '..');
-const OUT = path.resolve(process.argv[2] || path.join(ROOT, '../toefl-2026-complete.zip'));
 global.window = {};
+require(path.join(ROOT, 'assets/course.js'));
 require(path.join(ROOT, 'assets/spec.js'));
 require(path.join(ROOT, 'assets/book.js'));
-const B = window.BOOK;
+const B = window.BOOK, C = window.COURSE;
+const SLUG = C.slug;
+const OUT = path.resolve(process.argv[2] || path.join(ROOT, '..', '..', SLUG + '.zip'));
 
-const STAGE = fs.mkdtempSync('/tmp/toefl-pack-');
-const APP = path.join(STAGE, 'toefl-2026');
+const STAGE = fs.mkdtempSync('/tmp/' + C.id + '-pack-');
+const APP = path.join(STAGE, SLUG);
 fs.mkdirSync(APP, { recursive: true });
 
 function copy(rel) {
@@ -51,7 +53,7 @@ if (fs.existsSync(path.join(ROOT, 'audio'))) {
 /* a README that says what this is and what it needs */
 const perUnit = B.unitTotal(B.UNITS[0].id);
 fs.writeFileSync(path.join(APP, 'README.txt'),
-`TOEFL iBT 2026 — a twelve-unit course
+`${C.title} \u2014 a twelve-unit course
 =====================================
 
 Open index.html in any modern browser. No server, no install, no network.
@@ -115,7 +117,7 @@ Keyboard
   it back.
 `);
 
-cp.execFileSync('zip', ['-q', '-r', OUT, 'toefl-2026'], { cwd: STAGE });
+cp.execFileSync('zip', ['-q', '-r', OUT, SLUG], { cwd: STAGE });
 const size = (fs.statSync(OUT).size / 1048576).toFixed(1);
 console.log(`${OUT}\n  ${pages} lesson pages, ${data} data files, ${audioFiles} audio manifest files, ${size} MB`);
 fs.rmSync(STAGE, { recursive: true, force: true });

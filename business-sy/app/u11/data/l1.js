@@ -11,11 +11,11 @@
         kind: "cards", task: null, n: 0,
         prompt: "Nine words from the inspection bench. Say what each is for before you turn it over.",
         cards: [
-          { term: "specification", ar: "مواصفات",
+          { term: "specification", ar: "مواصفة",
             meaning: "what the fabric is supposed to be",
             with: ["to specification", "within spec", "out of spec"],
             why: "From Unit 3. Quality is not a feeling; it is agreement with a document, and the document comes first." },
-          { term: "tolerance", ar: "هامش السماح",
+          { term: "tolerance", ar: "حدود السماح",
             meaning: "how far from the specification is still acceptable",
             with: ["within tolerance", "a tolerance of 2%"],
             why: "Nothing is made exactly to specification. A spec with no tolerance means every piece fails, which is why the number matters more than the target." },
@@ -35,7 +35,7 @@
             meaning: "putting right something already made",
             with: ["sent for rework", "rework costs"],
             why: "One word, noun and verb. Cheaper than scrap and always more expensive than making it right first time." },
-          { term: "scrap", ar: "هدر",
+          { term: "scrap", ar: "تالف",
             meaning: "material that cannot be used or sold",
             with: ["scrap rate", "scrapped"],
             why: "The end of the line for a defect. Scrap is counted in metres and in money, and the two tell different stories." },
@@ -49,7 +49,7 @@
             why: "Often abbreviated NCR, for non-conformance report. Raising one is not an accusation; it is how a process gets fixed." }
         ],
         explain: { terms: [
-          { en: "tolerance", gloss: "how far from the specification is still acceptable", ar: "هامش السماح" },
+          { en: "tolerance", gloss: "how far from the specification is still acceptable", ar: "حدود السماح" },
           { en: "defect", gloss: "a fault in the goods themselves", ar: "عيب" },
           { en: "rework", gloss: "putting right something already made", ar: "إعادة المعالجة" },
           { en: "traceability", gloss: "being able to say which batch something came from", ar: "إمكانية التتبّع" }
@@ -177,7 +177,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The suffix <b>-ion</b> and the suffix <b>-ure</b>. Drag each root into the box for the suffix it takes.",
         note: { kind: "words", title: "Word building: two ways to make a process noun",
-                body: "<p>Both turn a verb into the name of a process or its result.<br><i>inspect → inspection</i> · <i>fail → failure</i><br>There is no <i>inspecture</i> and no <i>failion</i>. The pairs have to be learned as pairs.</p>" },
+                body: "<p>Both turn a verb into the name of a process or its result.<br><em>inspect → inspection</em> · <em>fail → failure</em><br>There is no <em>inspecture</em> and no <em>failion</em>. The pairs have to be learned as pairs.</p>" },
         family: { word: "inspect", forms: [
           { part: "verb", word: "in·SPECT" },
           { part: "noun, process", word: "in·SPEC·tion" },

@@ -19,7 +19,7 @@
             meaning: "past the date it should have been paid",
             with: ["thirty days overdue", "an overdue invoice"],
             why: "A fact, not an insult. An invoice can be overdue because a cheque is in the post." },
-          { term: "outstanding", ar: "مستحقّ غير مسدَّد",
+          { term: "outstanding (unpaid)", ar: "مستحقّ غير مسدَّد",
             meaning: "still unpaid, whether or not it is late",
             with: ["the outstanding balance", "two invoices outstanding"],
             why: "Softer than <i>overdue</i>, and often the better word in a first chase, because it does not say whose fault it is." },
@@ -49,7 +49,7 @@
             why: "Two words as a verb, one as a noun: <i>a write-off</i>. The last step, and the one that is never a surprise if the ageing report is read." }
         ],
         explain: { terms: [
-          { en: "outstanding", gloss: "still unpaid, not necessarily late", ar: "مستحقّ غير مسدَّد" },
+          { en: "outstanding (unpaid)", gloss: "still unpaid, not necessarily late", ar: "مستحقّ غير مسدَّد" },
           { en: "overdue", gloss: "past the date it was due", ar: "متأخّر السداد" },
           { en: "remittance advice", gloss: "a note saying what a payment covers", ar: "إشعار تحويل" },
           { en: "credit note", gloss: "a document reducing what is owed", ar: "إشعار دائن" }
@@ -177,7 +177,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The prefix <b>un-</b> and the prefix <b>dis-</b>. Drag each root into the box for the prefix it takes here.",
         note: { kind: "words", title: "Word building: two ways to say not",
-                body: "<p>Both reverse, and English chooses between them by habit.<br><i>paid → unpaid</i> · <i>agree → disagree</i><br>There is no <i>dispaid</i> and no <i>unagree</i>. A few roots take both with different meanings: <i>uninterested</i> is bored, <i>disinterested</i> is impartial.</p>" },
+                body: "<p>Both reverse, and English chooses between them by habit.<br><em>paid → unpaid</em> · <em>agree → disagree</em><br>There is no <em>dispaid</em> and no <em>unagree</em>. A few roots take both with different meanings: <em>uninterested</em> is bored, <em>disinterested</em> is impartial.</p>" },
         family: { word: "allocate", forms: [
           { part: "verb", word: "AL·lo·cate" },
           { part: "noun", word: "al·lo·CA·tion" },
@@ -230,7 +230,7 @@
         kind: "sequence", task: null, n: 0,
         prompt: "Put the stages of chasing an invoice into the order they happen.",
         note: { kind: "life", title: "Each stage changes the temperature",
-                body: "<p>The order matters because you cannot go back down it. Once you have used the word <i>overdue</i>, a later message using <i>outstanding</i> reads as a retreat.</p>" },
+                body: "<p>The order matters because you cannot go back down it. Once you have used the word <em>overdue</em>, a later message using <em>outstanding</em> reads as a retreat.</p>" },
         steps: [
           { text: "The invoice is issued and the clock starts", pos: 1, why: "The due date is counted from here, not from delivery." },
           { text: "A first reminder, five days after the due date", pos: 2, why: "Neutral wording, and it offers an innocent explanation." },

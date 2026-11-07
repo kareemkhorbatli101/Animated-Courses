@@ -11,7 +11,10 @@
   root.COURSE = {
     id: "toefl-2026",
     ns: "toefl.",
+    /* the folder inside the release zip, and its default file name */
+    slug: "toefl-2026",
     title: "TOEFL iBT 2026",
-    cefr: ["A1", "C2"]
+    cefr: ["A1", "C2"],
+    blurb: "Twelve units, seven blocks each, built on the architecture of a standards-based course and aimed at what the 2026 test actually examines."
   };
 })(window);

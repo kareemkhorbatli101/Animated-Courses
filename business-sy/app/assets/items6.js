@@ -451,7 +451,10 @@
     var picks = {};
     api.shuffle((m.rows || []).slice()).forEach(function (r, n) {
       var tr = E("tr");
-      var th = E("th", "mx-item", esc(r.item));
+      /* E() sets textContent, which escapes already: passing esc(r.item)
+           as well printed "&amp;" for "&". The row label is deliberately
+           plain text, unlike the column headers above. */
+        var th = E("th", "mx-item", r.item);
       tr.appendChild(th);
       cols.forEach(function (c) {
         var td = E("td");

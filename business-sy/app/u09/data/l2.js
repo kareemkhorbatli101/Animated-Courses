@@ -128,7 +128,7 @@
           "5. AOB — … minutes"
         ],
         note: { kind: "writer", title: "Say what each item is for",
-                body: "<p>Marking an item <i>decision needed</i> or <i>for information</i> changes how people prepare and how long they talk. It is the cheapest way to make a meeting finish on time.</p>" },
+                body: "<p>Marking an item <em>decision needed</em> or <em>for information</em> changes how people prepare and how long they talk. It is the cheapest way to make a meeting finish on time.</p>" },
         checklist: [
           "Are the standard items in the usual order?",
           "Is the carried-forward item under matters arising?",

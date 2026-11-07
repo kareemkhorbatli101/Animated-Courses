@@ -145,7 +145,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English squeezes <i>I will</i>, <i>I would</i> and <i>I am</i> into one syllable, and the whole meaning sits in a sound most learners drop.</p><p><b>I'll</b> = I will, a promise. <b>I'd</b> = I would, a preference or a hypothesis. <b>I've</b> = I have, something already done.</p><p>Said without the contraction, <i>I send it</i> means you send things generally. <i>I'll send it</i> means you are about to.</p>",
+        focus: "<p>English squeezes <em>I will</em>, <em>I would</em> and <em>I am</em> into one syllable, and the whole meaning sits in a sound most learners drop.</p><p><b>I'll</b> = I will, a promise. <b>I'd</b> = I would, a preference or a hypothesis. <b>I've</b> = I have, something already done.</p><p>Said without the contraction, <em>I send it</em> means you send things generally. <em>I'll send it</em> means you are about to.</p>",
         items: [
           { say: "I'll check it today", options: [
             { text: "I'll check it today", correct: true, why: "<i>I will</i> — a promise, made now. The <i>l</i> is short but it is the whole commitment." },

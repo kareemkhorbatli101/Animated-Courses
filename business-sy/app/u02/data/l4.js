@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six questions about a quotation. Choose the reply that answers what was asked.",
         note: { kind: "life", title: "Two traps",
-                body: "<p>A question about <i>how long the price holds</i> is not a question about <i>how long delivery takes</i>. And a question about a total is not a question about a unit price. Both pairs sound alike and mean different money.</p>" },
+                body: "<p>A question about <em>how long the price holds</em> is not a question about <em>how long delivery takes</em>. And a question about a total is not a question about a unit price. Both pairs sound alike and mean different money.</p>" },
         items: [
           { who: "rana", say: "How long is this price good for?",
             options: [
@@ -136,7 +136,7 @@
           { answer: "Friday", why: "She gives her own deadline at the end, which is the single most useful line in the call." }
         ],
         note: { kind: "life", title: "Write the conditions, not just the numbers",
-                body: "<p>Three of the eight gaps are conditions rather than figures. A note that records <i>three weeks</i> without <i>if the yarn arrives Thursday</i> will be read next week as a promise.</p>" },
+                body: "<p>Three of the eight gaps are conditions rather than figures. A note that records <em>three weeks</em> without <em>if the yarn arrives Thursday</em> will be read next week as a promise.</p>" },
         explain: { terms: [
           { en: "to match a price", gloss: "to offer the same price as a competitor", ar: "مطابقة السعر" },
           { en: "set-up cost", gloss: "what it costs to start a production run, whatever its size", ar: "تكلفة التجهيز" },
@@ -146,7 +146,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>Unit 1 separated the hiss from the stop. This unit separates the two stops from each other.</p><p><b>/tʃ/</b> as in <i>charge</i> has no voice. <b>/dʒ/</b> as in <i>jar</i> is the same shape with the voice on. Put two fingers on your throat: /dʒ/ buzzes and /tʃ/ does not.</p><i>/tʃ/ — charge · cheap · batch · which</i><i>/dʒ/ — large · jeep · badge · wage</i>",
+        focus: "<p>Unit 1 separated the hiss from the stop. This unit separates the two stops from each other.</p><p><b>/tʃ/</b> as in <em>charge</em> has no voice. <b>/dʒ/</b> as in <em>jar</em> is the same shape with the voice on. Put two fingers on your throat: /dʒ/ buzzes and /tʃ/ does not.</p><em>/tʃ/ — charge · cheap · batch · which</em><em>/dʒ/ — large · jeep · badge · wage</em>",
         items: [
           { say: "charge", options: [
             { text: "charge", correct: true, why: "/tʃ/ — no voice. <i>There is no charge for the sample.</i>" },

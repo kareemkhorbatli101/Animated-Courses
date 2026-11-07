@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: which form after which verb",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p>A few verbs take both with different meanings.<br><i>stop smoking</i> = give it up · <i>stop to smoke</i> = pause in order to<br><i>remember signing</i> = recall the past act · <i>remember to sign</i> = do not forget<br>In a procedure, the gerund version is almost always the one meant.</p>" },
+                body: "<p>A few verbs take both with different meanings.<br><em>stop smoking</em> = give it up · <em>stop to smoke</em> = pause in order to<br><em>remember signing</em> = recall the past act · <em>remember to sign</em> = do not forget<br>In a procedure, the gerund version is almost always the one meant.</p>" },
         text: "A gerund can be the ___ of a sentence, and it then takes a ___ verb. After a preposition the verb always takes ___ . Verbs such as <i>recommend</i>, <i>avoid</i> and <i>consider</i> are followed by a gerund, while <i>decide</i>, <i>agree</i> and <i>refuse</i> are followed by ___ .",
         gaps: [
           { options: ["subject", "object"], answer: "subject",
@@ -53,6 +53,42 @@
           { options: ["an infinitive", "a gerund"], answer: "an infinitive",
             why: "<i>Decided to name</i>, <i>agreed to sign</i>. The two lists have to be learned as lists." }
         ] },
+
+      { id: "1c", section: 1, sectionTitle: "The -ing form, three ways", letter: "C",
+        concepts: ["word", "comparison"],
+        kind: "matrix", task: null, n: 0,
+        prompt: "Put each line in the column for what its <i>-ing</i> word is doing. The form is identical in all three; only the job changes.",
+        matrix: {
+          rowLabel: "line",
+          cols: ["subject of the sentence", "object of a verb or preposition", "part of a continuous verb"],
+          rows: [
+            { item: "Keeping complete records is a condition of the licence.",
+              col: "subject of the sentence",
+              why: "It is what the sentence is about, which is why the verb after it is singular: <i>is</i>, not <i>are</i>." },
+            { item: "Chasing delivery notes takes twenty minutes a week.",
+              col: "subject of the sentence",
+              why: "Same test: swap in <i>it</i> and the sentence still works." },
+            { item: "The auditor recommends naming one person.",
+              col: "object of a verb or preposition",
+              why: "<i>Recommend</i> takes a gerund as its object, and never an infinitive." },
+            { item: "We were criticised for not recording the gap.",
+              col: "object of a verb or preposition",
+              why: "After <i>for</i>, a preposition, and that is the whole reason for the <i>-ing</i>." },
+            { item: "She insisted on seeing the original.",
+              col: "object of a verb or preposition",
+              why: "Another preposition. The rule is about <i>on</i>, not about <i>insist</i>." },
+            { item: "The dye house is reworking the batch today.",
+              col: "part of a continuous verb",
+              why: "<i>Is</i> plus <i>-ing</i>. Take the auxiliary away and the sentence collapses, which the other two do not." },
+            { item: "We were waiting for the signed note all week.",
+              col: "part of a continuous verb",
+              why: "Past continuous. The <i>-ing</i> word is not a noun here and cannot be replaced by <i>it</i>." },
+            { item: "Signing in advance is a non-conformance.",
+              col: "subject of the sentence",
+              why: "A gerund subject again, and the sentence states a rule rather than describing a moment." }
+          ],
+          note: "The test for the first column is whether the word \u201cit\u201d can replace the phrase. The test for the third is whether the sentence still stands when the auxiliary is removed. If neither works, it is the second."
+        } },
 
       { id: "2a", section: 2, sectionTitle: "Build the sentence", letter: "A",
         concepts: ["write", "approval"],
@@ -113,7 +149,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where gerunds attract extra words",
-                body: "<p>A stray <i>to</i> in front of a gerund, a stray subject in front of a gerund subject, or an auxiliary that makes a gerund look like a tense.</p>" },
+                body: "<p>A stray <em>to</em> in front of a gerund, a stray subject in front of a gerund subject, or an auxiliary that makes a gerund look like a tense.</p>" },
         items: [
           { text: "The auditor recommends to chasing notes within thirty days.",
             fixed: "The auditor recommends chasing notes within thirty days.",

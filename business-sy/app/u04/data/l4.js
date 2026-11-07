@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six things you hear when chasing an order. Choose the reply that moves it forward.",
         note: { kind: "life", title: "Chase the next step, not the whole order",
-                body: "<p>Asking <i>when will it arrive</i> invites a guess. Asking <i>what has to happen next, and when</i> gets you something checkable — and the person on the other end can actually answer it.</p>" },
+                body: "<p>Asking <em>when will it arrive</em> invites a guess. Asking <em>what has to happen next, and when</em> gets you something checkable — and the person on the other end can actually answer it.</p>" },
         items: [
           { who: "ziad", say: "It should be with you soon.",
             options: [
@@ -134,7 +134,7 @@
           { answer: "van", why: "Something she can check without calling him again. The point of the last exchange." }
         ],
         note: { kind: "life", title: "She asked for the chain, not the date",
-                body: "<p>Her question was <i>what has to happen before that yarn leaves you</i>. The answer gave her five steps with times on them, and from those she worked out Monday herself. A question that asks for the end date would have got <i>Friday, probably</i>.</p>" },
+                body: "<p>Her question was <em>what has to happen before that yarn leaves you</em>. The answer gave her five steps with times on them, and from those she worked out Monday herself. A question that asks for the end date would have got <em>Friday, probably</em>.</p>" },
         explain: { terms: [
           { en: "to be behind", gloss: "to be later in a queue than something else", ar: "في الدور بعد" },
           { en: "to plan round something", gloss: "to arrange things so a problem matters less", ar: "التخطيط لتفادي" }
@@ -143,7 +143,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English spells two different sounds with the same <b>th</b>. The tongue is in the same place for both — lightly between the teeth — and the only difference is the voice.</p><p><b>/θ/</b> no voice: <i>thirty, three, month, both</i>.<br><b>/ð/</b> voice on: <i>this, that, they, there, with</i>.</p><p>Almost every common <i>th</i> word that is a grammar word — <i>the, this, they, them, there</i> — is voiced. Almost every number is not.</p>",
+        focus: "<p>English spells two different sounds with the same <b>th</b>. The tongue is in the same place for both — lightly between the teeth — and the only difference is the voice.</p><p><b>/θ/</b> no voice: <em>thirty, three, month, both</em>.<br><b>/ð/</b> voice on: <em>this, that, they, there, with</em>.</p><p>Almost every common <em>th</em> word that is a grammar word — <em>the, this, they, them, there</em> — is voiced. Almost every number is not.</p>",
         items: [
           { say: "thirty", options: [
             { text: "thirty", correct: true, why: "/θ/ — no voice. <i>Thirty days from the invoice date.</i>" },

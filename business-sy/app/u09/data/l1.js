@@ -170,7 +170,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The suffix <b>-er</b> and the suffix <b>-or</b>. Drag each root into the box for the suffix it takes.",
         note: { kind: "words", title: "Word building: the person who does it",
-                body: "<p>Both make a person or a thing from a verb, and English chooses by habit.<br><i>supply → supplier</i> · <i>distribute → distributor</i><br>There is no <i>supplior</i> and no <i>distributer</i>. Words from Latin <i>-ate</i> verbs usually take <i>-or</i>.</p>" },
+                body: "<p>Both make a person or a thing from a verb, and English chooses by habit.<br><em>supply → supplier</em> · <em>distribute → distributor</em><br>There is no <em>supplior</em> and no <em>distributer</em>. Words from Latin <em>-ate</em> verbs usually take <em>-or</em>.</p>" },
         family: { word: "distribute", forms: [
           { part: "verb", word: "dis·TRIB·ute" },
           { part: "noun, person", word: "dis·TRIB·u·tor" },

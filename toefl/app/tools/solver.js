@@ -147,7 +147,11 @@ function solveScene() {
         if (!host) { fail(); return; }
         const t = [...host.querySelectorAll('.tok')].find(x => bare(x.textContent) === bare(it.wrong));
         if (t) t.click(); else { fail(); return; }
+        /* a `drop` item has one word too many: clicking it IS the answer,
+           and there is no correction to type */
+        if (it.drop) return;
         const inp = host.querySelector('input');
+        if (!inp) return;
         if (inp) { inp.value = it.right; inp.dispatchEvent(new Event('input')); }
       });
       break;

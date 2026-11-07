@@ -177,7 +177,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The suffix <b>-al</b> and the suffix <b>-able</b>. Drag each root into the box for the suffix it takes here.",
         note: { kind: "words", title: "Word building: -al and -able",
-                body: "<p><b>-al</b> makes an adjective from a noun: <i>contract → contractual</i>, <i>commerce → commercial</i>.<br><b>-able</b> means <i>can be done</i>: <i>negotiate → negotiable</i>.<br>A few roots take both with different senses: <i>conditional</i> is dependent on a condition; <i>conditionable</i> is not a word.</p>" },
+                body: "<p><b>-al</b> makes an adjective from a noun: <em>contract → contractual</em>, <em>commerce → commercial</em>.<br><b>-able</b> means <em>can be done</em>: <em>negotiate → negotiable</em>.<br>A few roots take both with different senses: <em>conditional</em> is dependent on a condition; <em>conditionable</em> is not a word.</p>" },
         family: { word: "commerce", forms: [
           { part: "noun", word: "COM·merce" },
           { part: "adjective", word: "com·MER·cial", note: "the stress moves and the c softens" },

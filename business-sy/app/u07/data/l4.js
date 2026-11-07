@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six things a buyer says. Choose the reply that trades rather than concedes.",
         note: { kind: "life", title: "Never give one thing away",
-                body: "<p>Every concession should buy something. <i>If you … then we …</i> is the shape, and using it every time trains the other side to expect it.</p>" },
+                body: "<p>Every concession should buy something. <em>If you … then we …</em> is the shape, and using it every time trains the other side to expect it.</p>" },
         items: [
           { who: "rana", say: "Can you do better than 1,780?",
             options: [
@@ -146,7 +146,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English joins words together, and the joins change what you hear. Three rules cover most of it.</p><p>A consonant runs onto a following vowel: <i>six thousand</i> keeps its break, but <i>price is</i> becomes <b>prye-siz</b>.<br>Two identical consonants become one long one: <i>what time</i> is <b>wha-time</b>.<br>A <i>t</i> between vowels softens or disappears: <i>letter of credit</i> is <b>le-er-ov-credit</b> in many accents.</p>",
+        focus: "<p>English joins words together, and the joins change what you hear. Three rules cover most of it.</p><p>A consonant runs onto a following vowel: <em>six thousand</em> keeps its break, but <em>price is</em> becomes <b>prye-siz</b>.<br>Two identical consonants become one long one: <em>what time</em> is <b>wha-time</b>.<br>A <em>t</em> between vowels softens or disappears: <em>letter of credit</em> is <b>le-er-ov-credit</b> in many accents.</p>",
         items: [
           { say: "the price is held", options: [
             { text: "the price is held", correct: true, why: "<i>prye-siz-held</i>. The <i>s</i> of <i>price</i> joins <i>is</i> and the two words become one shape." },

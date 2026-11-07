@@ -222,6 +222,14 @@
   function generate(spec, page) {
     var k = KIND[spec.kind] || { what: "An exercise.", how: "Work through it, then check.", why: "" };
     var own = spec.explain || {};
+    /* A scene may overrule its kind's generic explanation. The table below
+       describes what a kind usually does, and occasionally a scene uses the
+       kind for something else: the homophone exercise in the business course
+       is built on `minimal-pairs` and its whole point is that the two options
+       sound identical, which is the opposite of what that kind's "why" says.
+       Any of what / how / why may be given; the rest fall back to the kind. */
+    if (own.what || own.how || own.why)
+      k = { what: own.what || k.what, how: own.how || k.how, why: own.why || k.why };
     var pageWalk = own.page;
     if (!pageWalk) {
       var bits = [];

@@ -196,7 +196,7 @@
         kind: "sort", task: null, n: 0,
         prompt: "Sort each phrasal verb by whether it can be split by its object.",
         note: { kind: "words", title: "Separable and inseparable",
-                body: "<p><b>Separable:</b> the object can go in the middle — <i>hand the pallets over</i> or <i>hand over the pallets</i>. With a pronoun it <b>must</b>: <i>hand them over</i>.<br><b>Inseparable:</b> the object always follows the whole verb — <i>cover for Fadi</i>, never <i>cover Fadi for</i>.</p>" },
+                body: "<p><b>Separable:</b> the object can go in the middle — <em>hand the pallets over</em> or <em>hand over the pallets</em>. With a pronoun it <b>must</b>: <em>hand them over</em>.<br><b>Inseparable:</b> the object always follows the whole verb — <em>cover for Fadi</em>, never <em>cover Fadi for</em>.</p>" },
         bins: [
           { id: "sep",   label: "Separable" },
           { id: "insep", label: "Inseparable" }

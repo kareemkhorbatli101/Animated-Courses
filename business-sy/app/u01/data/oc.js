@@ -37,7 +37,7 @@
           { answer: "shift supervisor", why: "The one she flags as the thing to remember — and the one with a story attached, which is why it sticks." }
         ],
         note: { kind: "life", title: "Listen for the numbering",
-                body: "<p>She says <i>four things</i> at the start and then counts them. A speaker who numbers their points is telling you how many gaps your notes should have before they say anything.</p>" },
+                body: "<p>She says <em>four things</em> at the start and then counts them. A speaker who numbers their points is telling you how many gaps your notes should have before they say anything.</p>" },
         explain: { terms: [
           { en: "briefing", gloss: "a short meeting where one person tells the others what is happening", ar: "إحاطة" },
           { en: "priority", gloss: "the thing to do first", ar: "أولوية" },

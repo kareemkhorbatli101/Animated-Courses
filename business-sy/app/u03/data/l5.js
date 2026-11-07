@@ -23,7 +23,7 @@
             meaning: "the difference between what was expected and what happened",
             with: ["price variance", "explain the variance", "within variance"],
             why: "Finance uses it constantly. If someone asks you to <i>explain the variance</i>, they want the reason, not the number." },
-          { term: "weighting", ar: "الترجيح",
+          { term: "weighting", ar: "وزن نسبي",
             meaning: "how much each factor counts in the decision",
             with: ["the weighting", "weighted 60/40", "price is weighted heavily"],
             why: "Saying the weighting before you compare stops the argument afterwards about whether price mattered most." },
@@ -38,7 +38,7 @@
         ],
         explain: { terms: [
           { en: "like for like", gloss: "comparing things that really are the same", ar: "مقارنة متكافئة" },
-          { en: "weighting", gloss: "how much each factor counts", ar: "الترجيح" },
+          { en: "weighting", gloss: "how much each factor counts", ar: "وزن نسبي" },
           { en: "due diligence", gloss: "checking done before committing", ar: "العناية الواجبة" }
         ] } },
 

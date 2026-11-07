@@ -42,7 +42,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: three small words",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><i>Have you ever worked with them?</i> — any time at all<br><i>Have they paid already?</i> — sooner than I expected<br><i>Have they paid yet?</i> — I expect not<br>All three take the present perfect. None of them works with a finished date.</p>" },
+                body: "<p><em>Have you ever worked with them?</em> — any time at all<br><em>Have they paid already?</em> — sooner than I expected<br><em>Have they paid yet?</em> — I expect not<br>All three take the present perfect. None of them works with a finished date.</p>" },
         text: "To ask a yes/no question in the present perfect we put ___ or <i>has</i> in front of the subject. ___ asks about any time up to now and belongs in questions. ___ says something happened sooner than expected and sits between the auxiliary and the participle. ___ says it has not happened and goes at the end.",
         gaps: [
           { options: ["have", "do"], answer: "have",
@@ -114,7 +114,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where these forms attract extra words",
-                body: "<p><i>Did</i> next to a present perfect, <i>yet</i> next to <i>already</i>, a date next to a perfect. All three sound almost right, which is exactly the problem.</p>" },
+                body: "<p><em>Did</em> next to a present perfect, <em>yet</em> next to <em>already</em>, a date next to a perfect. All three sound almost right, which is exactly the problem.</p>" },
         items: [
           { text: "Have they did replied to either of the reminders?",
             fixed: "Have they replied to either of the reminders?",

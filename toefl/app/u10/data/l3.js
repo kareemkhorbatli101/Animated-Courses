@@ -107,7 +107,7 @@
             { item: "argue", col: "takes a <i>that</i> clause",
               why: "<i>Argue doing</i> and <i>argue to do</i> are both wrong; the clause is the only option." }
           ],
-          note: "Notice <i>deny</i> and <i>refuse</i>: close in meaning, opposite in pattern."
+          note: "Notice “deny” and “refuse”: close in meaning, opposite in pattern."
         } },
 
 

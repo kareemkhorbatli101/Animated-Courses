@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six short questions you will hear at work. Choose the reply that answers the question that was actually asked.",
         note: { kind: "life", title: "The commonest mistake",
-                body: "<p>Most wrong answers here are good English. They answer a different question — a <i>when</i> with a place, a <i>how many</i> with a price. Listen for the question word first.</p>" },
+                body: "<p>Most wrong answers here are good English. They answer a different question — a <em>when</em> with a place, a <em>how many</em> with a price. Listen for the question word first.</p>" },
         items: [
           { who: "nour", say: "What's the lead time on this one?",
             options: [
@@ -132,7 +132,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>Three sounds English keeps apart that Arabic does not use in the same way. <b>/ʃ/</b> is a long hiss with nothing in front of it. <b>/tʃ/</b> is the same hiss with a <i>t</i> fired into it first. <b>/dʒ/</b> is /tʃ/ with the voice switched on.</p><i>/ʃ/ — shipment · cash · machine</i><i>/tʃ/ — charge · catch · purchase</i><i>/dʒ/ — jeep · damage · arrange</i>",
+        focus: "<p>Three sounds English keeps apart that Arabic does not use in the same way. <b>/ʃ/</b> is a long hiss with nothing in front of it. <b>/tʃ/</b> is the same hiss with a <em>t</em> fired into it first. <b>/dʒ/</b> is /tʃ/ with the voice switched on.</p><em>/ʃ/ — shipment · cash · machine</em><em>/tʃ/ — charge · catch · purchase</em><em>/dʒ/ — jeep · damage · arrange</em>",
         items: [
           { say: "cash", options: [
             { text: "cash", correct: true, why: "/ʃ/ — the end is one continuous hiss, with no stop before it." },

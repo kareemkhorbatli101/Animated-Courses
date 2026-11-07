@@ -61,7 +61,7 @@
         kind: "sequence", task: null, n: 0,
         prompt: "Put the stages of an export order into the order they happen.",
         note: { kind: "life", title: "Why the order matters",
-                body: "<p>Each stage can only start when the one before it has finished, which is why a single delay moves everything after it. Knowing the chain is how you answer <i>when will it arrive</i> without guessing.</p>" },
+                body: "<p>Each stage can only start when the one before it has finished, which is why a single delay moves everything after it. Knowing the chain is how you answer <em>when will it arrive</em> without guessing.</p>" },
         steps: [
           { text: "The order is confirmed in writing", pos: 1, why: "Quantity, price and date agreed. Nothing has been made yet, and the lead time starts here." },
           { text: "The deposit is received", pos: 2, why: "On a first order, production does not begin until the money is in." },
@@ -115,7 +115,7 @@
             why: "<i>Last time</i> is a finished occasion, so the simple past. This is the one gap where the present perfect would be wrong." }
         ],
         explain: { terms: [
-          { en: "outstanding", gloss: "still owed or still not done", ar: "ما زال معلّقًا" },
+          { en: "outstanding (not yet done)", gloss: "still not done or not received", ar: "ما زال معلّقًا" },
           { en: "on the shelf", gloss: "available in the shop for customers to buy", ar: "على الرفّ" }
         ] } },
 
@@ -170,7 +170,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The prefix <b>inter-</b> and the prefix <b>trans-</b>. Drag each root into the box for the prefix it takes here.",
         note: { kind: "words", title: "Word building: between and across",
-                body: "<p><b>inter-</b> means between: <i>international</i> is between nations.<br><b>trans-</b> means across: <i>transport</i> is carrying across.<br>Both turn up constantly in shipping, and they are not interchangeable.</p>" },
+                body: "<p><b>inter-</b> means between: <em>international</em> is between nations.<br><b>trans-</b> means across: <em>transport</em> is carrying across.<br>Both turn up constantly in shipping, and they are not interchangeable.</p>" },
         family: { word: "transport", forms: [
           { part: "verb", word: "trans·PORT" },
           { part: "noun", word: "TRANS·port", note: "the stress moves — Unit 12 returns to this" },

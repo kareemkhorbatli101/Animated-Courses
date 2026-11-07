@@ -37,7 +37,7 @@
           { answer: "ask", why: "The rule she applies to herself. Thanking the wrong person is a very public kind of wrong." }
         ],
         note: { kind: "life", title: "A record, not a compliment",
-                body: "<p>The test is whether somebody who was not in the room could repeat it accurately. <i>Well done</i> cannot be repeated. <i>Fadi split the defects from the non-conformances</i> can.</p>" },
+                body: "<p>The test is whether somebody who was not in the room could repeat it accurately. <em>Well done</em> cannot be repeated. <em>Fadi split the defects from the non-conformances</em> can.</p>" },
         explain: { terms: [
           { en: "to deflect", gloss: "to turn credit or blame away from yourself", ar: "يصرف الإطراء عن نفسه" },
           { en: "a record", gloss: "something written or witnessed that can be relied on later", ar: "سجل" }
@@ -128,7 +128,7 @@
         kind: "phrases", task: null, n: 0,
         prompt: "The sentences that put names on a procedure. Click each one.",
         note: { kind: "life", title: "Refuse the deflection with a fact",
-                body: "<p>When somebody says <i>I only did X</i>, agreeing is easy and it ends the credit. Naming what X actually achieved is harder, takes one sentence, and is the only version anybody remembers.</p>" },
+                body: "<p>When somebody says <em>I only did X</em>, agreeing is easy and it ends the credit. Naming what X actually achieved is harder, takes one sentence, and is the only version anybody remembers.</p>" },
         text: "Fadi added that field in March, after the audit, and it is the reason we can answer the client at all. I only added a column. You added the column that makes step two checkable. That is the better of the two things you have said today. Marwan found the shade fault by resampling when the first set looked even. And put his name on the note, in the revision history. It should have said it in March, and that is mine, not yours.",
         phrases: [
           { text: "Fadi added that field in March, after the audit, and it is the reason we can answer the client at all.",

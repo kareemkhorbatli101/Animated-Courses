@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: the one rule that never bends",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>Possessive adjective + noun</b> my number · their order<br><b>Possessive pronoun alone</b> mine · theirs<br><i>It is their order</i> and <i>the order is theirs</i> say the same thing with different grammar. <i>Its</i> is possessive; <i>it's</i> is <i>it is</i>.</p>" },
+                body: "<p><b>Possessive adjective + noun</b> my number · their order<br><b>Possessive pronoun alone</b> mine · theirs<br><em>It is their order</em> and <em>the order is theirs</em> say the same thing with different grammar. <em>Its</em> is possessive; <em>it's</em> is <em>it is</em>.</p>" },
         text: "With a separable verb and a noun object, the object may go in the ___ or after the whole verb. With a ___ object it must go in the middle. With an inseparable verb the object ___ goes in the middle. A possessive pronoun such as <i>ours</i> replaces a noun phrase and takes ___ apostrophe.",
         gaps: [
           { options: ["middle", "front"], answer: "middle",
@@ -153,7 +153,7 @@
         kind: "wordbank", task: null, n: 0,
         prompt: "Complete each line with one word from the bank. Two are left over.",
         note: { kind: "gram", title: "The small word carries the meaning",
-                body: "<p><i>Hand over</i>, <i>hand out</i>, <i>hand in</i> and <i>hand down</i> are four different verbs sharing one stem. The particle is not decoration; it is where the meaning lives.</p>" },
+                body: "<p><em>Hand over</em>, <em>hand out</em>, <em>hand in</em> and <em>hand down</em> are four different verbs sharing one stem. The particle is not decoration; it is where the meaning lives.</p>" },
         extra: ["in", "down"],
         items: [
           { text: "I'll put you ___ to accounts.", answer: "through",

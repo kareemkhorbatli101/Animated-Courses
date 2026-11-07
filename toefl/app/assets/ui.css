@@ -1165,3 +1165,8 @@ text.dg-c3{fill:var(--c3);stroke:none;}
 @media (max-width:620px){ .dg-eq{display:none;} }
 .dg-slot-open{fill:var(--card);stroke:var(--rule-2);stroke-dasharray:4 3;stroke-width:1.2;}
 .dg-dash{stroke-dasharray:5 4;}
+
+/* errorfix, `drop` items: one word too many, nothing to type. The line
+   replaces the Correction box so the learner is not hunting for a
+   replacement word that does not exist. */
+.efx-drop { font-size: .88rem; color: var(--muted); font-style: italic; }

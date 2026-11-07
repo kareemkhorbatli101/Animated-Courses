@@ -32,7 +32,7 @@
             why: "<i>Can</i> would also work. <i>Be able to</i> reads as a tested capability, and it has a future and a past, which <i>can</i> does not." }
         ],
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>Present passive</b> is / are + past participle: <i>is inspected</i><br><b>Past passive</b> was / were + past participle: <i>was taken</i><br><b>With an agent</b> … by the supervisor<br><b>be able to</b> am / is / are / was / will be able to — <i>can</i> has no future or infinitive</p>" },
+                body: "<p><b>Present passive</b> is / are + past participle: <em>is inspected</em><br><b>Past passive</b> was / were + past participle: <em>was taken</em><br><b>With an agent</b> … by the supervisor<br><b>be able to</b> am / is / are / was / will be able to — <em>can</em> has no future or infinitive</p>" },
         after: "<p>The rule that saves the most trouble: use <i>by</i> only when the agent is news. <i>The batch was inspected by an inspector</i> tells the reader nothing they did not assume.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Who did it, and does it matter", letter: "B",
@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: making a passive",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p>To make a passive: take the object of the active sentence, make it the subject, add the right form of <i>be</i>, and use the past participle.<br><i>We inspect every batch</i> → <i>Every batch is inspected</i>.<br>The agent goes after <i>by</i>, or nowhere at all.</p>" },
+                body: "<p>To make a passive: take the object of the active sentence, make it the subject, add the right form of <em>be</em>, and use the past participle.<br><em>We inspect every batch</em> → <em>Every batch is inspected</em>.<br>The agent goes after <em>by</em>, or nowhere at all.</p>" },
         text: "A passive is made with a form of ___ and the past ___ . The object of the active sentence becomes the ___ of the passive one. The agent may be added with ___ , and is left out when it is unknown or does not matter.",
         gaps: [
           { options: ["be", "have"], answer: "be",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where passives attract extra words",
-                body: "<p>An extra auxiliary, an agent that tells you nothing, or a <i>by</i> where <i>with</i> belongs. All three read like a careful report and are not.</p>" },
+                body: "<p>An extra auxiliary, an agent that tells you nothing, or a <em>by</em> where <em>with</em> belongs. All three read like a careful report and are not.</p>" },
         items: [
           { text: "Every batch is being inspected before it leaves the finishing room.",
             fixed: "Every batch is inspected before it leaves the finishing room.",

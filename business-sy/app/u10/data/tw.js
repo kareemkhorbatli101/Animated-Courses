@@ -24,7 +24,7 @@
           "When paper is destroyed, … ."
         ],
         note: { kind: "writer", title: "Present simple, named owners, numbers",
-                body: "<p>No <i>should</i>, no <i>please</i>. Every sentence a rule, every rule with a who or a number in it. Lesson 2's register, applied to the thing the whole unit has been building.</p>" },
+                body: "<p>No <em>should</em>, no <em>please</em>. Every sentence a rule, every rule with a who or a number in it. Lesson 2's register, applied to the thing the whole unit has been building.</p>" },
         checklist: [
           "Is each rule in the present simple?",
           "Is the scope of the paper rule stated?",

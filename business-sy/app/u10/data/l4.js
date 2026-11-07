@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six questions from an auditor. Choose the answer that is accurate and offers the evidence.",
         note: { kind: "life", title: "An auditor is not an opponent",
-                body: "<p>They are checking whether you can show what you did. The useful answer is the one that points at a document, and <i>I do not know, I will find out</i> is a perfectly good answer.</p>" },
+                body: "<p>They are checking whether you can show what you did. The useful answer is the one that points at a document, and <em>I do not know, I will find out</em> is a perfectly good answer.</p>" },
         items: [
           { who: "ziad", say: "How long do you keep shipping records?",
             options: [
@@ -135,7 +135,7 @@
           { answer: "Monday", why: "The second date, and the one that matters to anyone outside the company." }
         ],
         note: { kind: "life", title: "The sentence worth keeping",
-                body: "<p><i>Finding an error is not a failure. Being unable to show how it was corrected is.</i> That is the whole of this unit in two sentences, and it came from the auditor rather than from the company.</p>" },
+                body: "<p><em>Finding an error is not a failure. Being unable to show how it was corrected is.</em> That is the whole of this unit in two sentences, and it came from the auditor rather than from the company.</p>" },
         explain: { terms: [
           { en: "an observation", gloss: "something noted that is not a formal finding", ar: "ملاحظة" },
           { en: "adequate", gloss: "good enough for the purpose", ar: "كافٍ" }
@@ -144,7 +144,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English puts one strong stress in each short phrase, and moving it changes what the sentence is claiming. The words do not change at all.</p><p><i><b>I</b> did not sign it</i> — somebody else did.<br><i>I did not <b>sign</b> it</i> — I did something else with it.<br><i>I did not sign <b>it</b></i> — I signed something else.</p><p>Arabic marks this contrast with word order; English marks it with loudness and pitch, and a flat delivery loses it entirely.</p>",
+        focus: "<p>English puts one strong stress in each short phrase, and moving it changes what the sentence is claiming. The words do not change at all.</p><p><em><b>I</b> did not sign it</em> — somebody else did.<br><em>I did not <b>sign</b> it</em> — I did something else with it.<br><em>I did not sign <b>it</b></em> — I signed something else.</p><p>Arabic marks this contrast with word order; English marks it with loudness and pitch, and a flat delivery loses it entirely.</p>",
         items: [
           { say: "I did not SIGN it", options: [
             { text: "I did not SIGN it", correct: true, why: "Stress on the verb: the signing is what did not happen. This is the neutral reading of the sentence." },

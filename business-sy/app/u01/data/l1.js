@@ -23,7 +23,7 @@
             meaning: "a request to supply a stated quantity, at a stated price, by a stated date",
             with: ["place an order", "confirm an order", "the order is ready"],
             why: "Three things make it an order and not an enquiry: quantity, price, date. If one is missing, it is still a conversation." },
-          { term: "lead time", ar: "مدة التوريد",
+          { term: "lead time", ar: "مدة التسليم",
             meaning: "the time between placing an order and receiving it",
             with: ["a four-week lead time", "shorten the lead time", "what is your lead time?"],
             why: "Two words, no hyphen. The single most asked question in business correspondence, and the one most often answered vaguely." },
@@ -51,7 +51,7 @@
         explain: { terms: [
           { en: "supplier", gloss: "the company you buy from", ar: "مورِّد" },
           { en: "client", gloss: "the company that buys from you", ar: "عميل" },
-          { en: "lead time", gloss: "how long an order takes to arrive", ar: "مدة التوريد" },
+          { en: "lead time", gloss: "how long an order takes to arrive", ar: "مدة التسليم" },
           { en: "turnover", gloss: "total sales, not profit", ar: "حجم الأعمال" }
         ] },
         after: "<p>Keep <b>supplier</b> and <b>client</b> apart from the start. Everything in this course runs in one direction: a supplier sells to us, and we sell to a client.</p>" },
@@ -127,7 +127,7 @@
         explain: { terms: [
           { en: "workforce", gloss: "all the people a company employs", ar: "القوى العاملة" },
           { en: "raw material", gloss: "what a product is made from before it is made", ar: "مادة خام" },
-          { en: "lead time", gloss: "how long an order takes", ar: "مدة التوريد" }
+          { en: "lead time", gloss: "how long an order takes", ar: "مدة التسليم" }
         ] } },
 
       { id: "2b", section: 2, sectionTitle: "Complete a company profile", letter: "B",
@@ -213,7 +213,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The prefix <b>dis-</b> and the prefix <b>re-</b>. Drag each root into the box for the prefix it takes here.",
         note: { kind: "words", title: "Word building: dis-",
-                body: "<p><b>dis-</b> reverses or removes: <i>agree → disagree</i>, <i>connect → disconnect</i>.<br><b>re-</b> does it again: <i>order → reorder</i>, <i>send → resend</i>.<br>Some roots take both, and mean different things: <i>discount</i> is money off, <i>recount</i> is counting again.</p>" },
+                body: "<p><b>dis-</b> reverses or removes: <em>agree → disagree</em>, <em>connect → disconnect</em>.<br><b>re-</b> does it again: <em>order → reorder</em>, <em>send → resend</em>.<br>Some roots take both, and mean different things: <em>discount</em> is money off, <em>recount</em> is counting again.</p>" },
         family: { word: "dispatch", forms: [
           { part: "verb", word: "dis·PATCH" },
           { part: "noun", word: "DIS·patch", note: "the sending itself" },

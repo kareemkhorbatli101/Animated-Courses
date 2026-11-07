@@ -59,7 +59,7 @@
           "Do you want me to … ?"
         ],
         note: { kind: "writer", title: "Say what you have not done, and why",
-                body: "<p>Lina's restraint is a decision, not an omission. Saying <i>I have not yet told Samer, because…</i> shows the manager a choice rather than presenting her with a fact.</p>" },
+                body: "<p>Lina's restraint is a decision, not an omission. Saying <em>I have not yet told Samer, because…</em> shows the manager a choice rather than presenting her with a fact.</p>" },
         checklist: [
           "Is the age of the invoice a number?",
           "Have you said what you have already done?",
@@ -162,7 +162,7 @@
           "If not, could you … by … ?"
         ],
         note: { kind: "writer", title: "Escalate once, and only once",
-                body: "<p>The temperature goes up here and must not go up again in the same message. One use of <i>overdue</i>, one date, one request. Adding a threat on top wastes the step you have left.</p>" },
+                body: "<p>The temperature goes up here and must not go up again in the same message. One use of <em>overdue</em>, one date, one request. Adding a threat on top wastes the step you have left.</p>" },
         checklist: [
           "Have you referred to the first reminder and its date?",
           "Is <i>overdue</i> used once, with the number of days?",

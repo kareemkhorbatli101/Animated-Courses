@@ -137,7 +137,7 @@
           { answer: "Thursday", why: "Name and end date together, which is what stops the question recurring." }
         ],
         note: { kind: "life", title: "He refuses to guess",
-                body: "<p><i>I do not know, and I would rather not guess in a handover.</i> A guess passed between shifts becomes a fact by the third telling. Saying what you are certain of, and only that, is a discipline worth copying.</p>" },
+                body: "<p><em>I do not know, and I would rather not guess in a handover.</em> A guess passed between shifts becomes a fact by the third telling. Saying what you are certain of, and only that, is a discipline worth copying.</p>" },
         explain: { terms: [
           { en: "a do-not", gloss: "an instruction about what must not be done", ar: "تعليمة منع" },
           { en: "to keep an eye on", gloss: "to watch and be ready to help", ar: "يراقب / ينتبه لـ" }
@@ -146,7 +146,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English runs a phrasal verb together, and the join is where learners lose the meaning. A consonant at the end of the verb attaches itself to the vowel at the start of the particle.</p><p><i>hand it over</i> sounds like <b>han-di-tover</b>. <i>put it on</i> sounds like <b>pu-ti-ton</b>. The words do not change; the boundaries do.</p><p>If you say each word separately you are still understood. If you cannot hear them joined, you will miss half of what is said to you.</p>",
+        focus: "<p>English runs a phrasal verb together, and the join is where learners lose the meaning. A consonant at the end of the verb attaches itself to the vowel at the start of the particle.</p><p><em>hand it over</em> sounds like <b>han-di-tover</b>. <em>put it on</em> sounds like <b>pu-ti-ton</b>. The words do not change; the boundaries do.</p><p>If you say each word separately you are still understood. If you cannot hear them joined, you will miss half of what is said to you.</p>",
         items: [
           { say: "hand it over", options: [
             { text: "hand it over", correct: true, why: "Three words, two joins: <i>han-di-tover</i>. The <i>d</i> and the <i>t</i> both move right." },

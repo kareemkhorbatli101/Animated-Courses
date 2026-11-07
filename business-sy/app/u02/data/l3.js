@@ -32,7 +32,7 @@
             why: "<i>May</i> leaves it open. The second clause says why, which is what stops it sounding evasive." }
         ],
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>going to</b> we are going to quote · it is going to rain<br><b>will</b> I will call · I will send it today<br><b>may / might</b> it may be ready<br>Decision before = <i>going to</i>. Decision now = <i>will</i>.</p>" },
+                body: "<p><b>going to</b> we are going to quote · it is going to rain<br><b>will</b> I will call · I will send it today<br><b>may / might</b> it may be ready<br>Decision before = <em>going to</em>. Decision now = <em>will</em>.</p>" },
         after: "<p>Both <b>will</b> and <b>going to</b> are correct English for the future. Which one you choose tells the listener <i>when you decided</i> — and in a negotiation, that is information.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Which future, and why", letter: "B",
@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: the three futures",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>Would rather</b> + bare verb: <i>I would rather wait.</i><br><b>Would rather</b> + person + past form: <i>I would rather you waited.</i><br>Neither is about the past.</p>" },
+                body: "<p><b>Would rather</b> + bare verb: <em>I would rather wait.</em><br><b>Would rather</b> + person + past form: <em>I would rather you waited.</em><br>Neither is about the past.</p>" },
         text: "We use ___ when the decision was made before we started speaking, and ___ when we decide at the moment of speaking. For a prediction we can see the reason for, we use ___ . To say which of two things we prefer, we use <i>would rather</i> followed by a verb with ___ in front of it.",
         gaps: [
           { options: ["going to", "will"], answer: "going to",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where the extra word hides",
-                body: "<p>Future forms attract extra words: an infinitive <i>to</i> after a modal, a second <i>will</i> in a time clause, a stray subject pronoun. Read the line without the word you suspect.</p>" },
+                body: "<p>Future forms attract extra words: an infinitive <em>to</em> after a modal, a second <em>will</em> in a time clause, a stray subject pronoun. Read the line without the word you suspect.</p>" },
         items: [
           { text: "We would rather to hold the price than shorten the lead time.",
             fixed: "We would rather hold the price than shorten the lead time.",

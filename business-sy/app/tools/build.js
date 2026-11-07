@@ -3,8 +3,41 @@
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..');
 global.window = {};
+require(path.join(ROOT, 'assets/course.js'));
 require(path.join(ROOT, 'assets/spec.js'));
 require(path.join(ROOT, 'assets/book.js'));
+const C = window.COURSE;
+
+/* The skill mix on the book index is derived from the item budget rather
+   than typed, so it cannot say one thing while assets/book.js says
+   another. It was typed before, and it was wrong: this course's index
+   claimed "Reading 18 / Listening 17 / Writing 12 / Speaking 6" while its
+   own BUDGET2 adds up to something else entirely. Review items are left
+   out because they are not scored. An unmapped task name throws rather
+   than being dropped silently, because a figure with a task missing from
+   it is worse than no figure. */
+const SKILL_ORDER = ['Reading', 'Listening', 'Writing', 'Speaking',
+                     'Pronunciation', 'Sentence building', 'Vocabulary'];
+function skillOf(task) {
+  if (task === 'review') return null;                       /* not scored */
+  if (task === 'listen-and-repeat' || /^pronounce/.test(task)) return 'Pronunciation';
+  if (/^read/.test(task))      return 'Reading';
+  if (/^listen/.test(task))    return 'Listening';
+  if (/^write/.test(task))     return 'Writing';
+  if (/^speak|interview/.test(task)) return 'Speaking';
+  if (/sentence|build-a-sentence/.test(task)) return 'Sentence building';
+  if (/^complete-the-words/.test(task)) return 'Vocabulary';
+  throw new Error('build.js: no skill for task "' + task + '" \u2014 add it to skillOf()');
+}
+const skillMix = (() => {
+  const t = {};
+  const table = window.BOOK.BUDGET2 || window.BOOK.BUDGET;
+  Object.keys(table).forEach(b => Object.keys(table[b]).forEach(task => {
+    const name = skillOf(task);
+    if (name) t[name] = (t[name] || 0) + table[b][task];
+  }));
+  return SKILL_ORDER.filter(n => t[n]).map(n => n + ' ' + t[n]).join(' \u00b7 ');
+})();
 const B = window.BOOK;
 
 const SCRIPTS = ['course','spec','features','book','progress','speech','explain','icons','motion','diagrams','rl','ws','gram','learn','ar','deck','cast','drag','scenes','items','items2','items3','items4','items5','items6','audio','charts','docs','write','speak'];
@@ -55,7 +88,7 @@ function unitIndex(unit, built) {
 .blk b{flex:1;font-weight:600;font-size:15.5px}
 .blk .bi{font-size:12.5px;color:var(--ink-3)}
 </style></head><body>
-<div class="topbar"><a class="home" href="../index.html">TOEFL iBT 2026</a>
+<div class="topbar"><a class="home" href="../index.html">${C.title}</a>
 <div class="where">Unit ${unit.n}</div></div>
 <div class="motif"></div>
 <div class="wrap">
@@ -65,7 +98,10 @@ function unitIndex(unit, built) {
     <p>${unit.field.charAt(0).toUpperCase()+unit.field.slice(1)}.</p>
     <div class="look"><h3>A look at</h3><ul>
       <li>${unit.grammar.join(' · ')}</li>
-      <li>${unit.affix ? 'The affix <b>' + unit.affix + '</b>' : 'Phrasal verbs'}</li>
+      <li>${unit.affix ? (/-/.test(unit.affix)
+          ? 'The affix <b>' + unit.affix + '</b>'
+          : '<b>' + unit.affix.charAt(0).toUpperCase() + unit.affix.slice(1) + '</b>')
+        : 'Phrasal verbs'}</li>
       <li>Pronunciation: ${unit.pron}</li>
     </ul></div>
   </div>
@@ -90,7 +126,7 @@ function bookIndex(unitsBuilt) {
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TOEFL iBT 2026</title>
+<title>${C.title}</title>
 <link rel="stylesheet" href="assets/ui.css">
 <style>
 .hero{padding:40px 0 10px;max-width:64ch}
@@ -110,14 +146,13 @@ function bookIndex(unitsBuilt) {
 .u .t em{display:block;font-size:12px;color:var(--ink-3);font-style:normal}
 .u .s{font-size:11.5px;color:var(--ink-3)}
 </style></head><body>
-<div class="topbar"><span class="home">TOEFL iBT 2026</span><div class="where">Contents</div></div>
+<div class="topbar"><span class="home">${C.title}</span><div class="where">Contents</div></div>
 <div class="motif"></div>
 <div class="wrap">
   <div class="hero">
-    <h1>TOEFL iBT 2026</h1>
-    <p>Twelve units, seven blocks each, built on the architecture of a
-    standards-based course and aimed at what the 2026 test actually examines.</p>
-    <p style="font-size:14.5px">Reading 18 · Listening 17 · Writing 12 · Speaking 6 per unit.
+    <h1>${C.title}</h1>
+    <p>${C.blurb}</p>
+    <p style="font-size:14.5px">${skillMix} per unit.
     Every exercise has <b>Check Answers</b> and <b>Try Again</b>. Nothing loads from the network.</p>
   </div>
   <div class="units">

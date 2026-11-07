@@ -38,7 +38,7 @@
         ],
         after: "<p>Four of the five are promises. The fifth is a promise about what you are <i>not</i> promising, and it is the one that keeps the other four honest.</p>",
         explain: { terms: [
-          { en: "outstanding", gloss: "still not done or not received", ar: "ما زال معلّقًا" },
+          { en: "outstanding (not yet done)", gloss: "still not done or not received", ar: "ما زال معلّقًا" },
           { en: "receipt", gloss: "the act of receiving something", ar: "استلام" }
         ] } },
 
@@ -129,7 +129,7 @@
           "I would rather … than …"
         ],
         note: { kind: "writer", title: "Ask a question that can be answered",
-                body: "<p><i>Can we do three weeks?</i> cannot be answered honestly, because it depends on the yarn. <i>If the yarn arrives Thursday, could we do three weeks?</i> can be. Put the condition in the question.</p>" },
+                body: "<p><em>Can we do three weeks?</em> cannot be answered honestly, because it depends on the yarn. <em>If the yarn arrives Thursday, could we do three weeks?</em> can be. Put the condition in the question.</p>" },
         checklist: [
           "Have you said what the client asked for?",
           "Have you made clear you did not agree to it?",

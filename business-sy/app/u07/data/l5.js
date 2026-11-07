@@ -133,7 +133,7 @@
         kind: "chartread", task: "read-graphic", cefr: "B1", n: 6,
         prompt: "Where the 1,780 a metre actually goes. Read the chart, then answer.",
         note: { kind: "reader", title: "Read the key before the slices",
-                body: "<p>A cost breakdown is only useful if you know what is inside each name. <i>Overheads</i> and <i>margin</i> look similar on a chart and are completely different things.</p>" },
+                body: "<p>A cost breakdown is only useful if you know what is inside each name. <em>Overheads</em> and <em>margin</em> look similar on a chart and are completely different things.</p>" },
         chart: {
           kind: "pie",
           title: "Where 1,780 a metre goes",

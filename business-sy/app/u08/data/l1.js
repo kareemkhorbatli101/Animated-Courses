@@ -177,7 +177,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The prefix <b>re-</b> and the prefix <b>over-</b>. Drag each root into the box for the prefix it takes here.",
         note: { kind: "words", title: "Word building: again, and too much",
-                body: "<p><b>re-</b> means again: <i>build → rebuild</i>.<br><b>over-</b> means too much, or above: <i>charge → overcharge</i>, <i>see → oversee</i>.<br><i>Overhaul</i> is the odd one: it means a thorough repair, not too much hauling.</p>" },
+                body: "<p><b>re-</b> means again: <em>build → rebuild</em>.<br><b>over-</b> means too much, or above: <em>charge → overcharge</em>, <em>see → oversee</em>.<br><em>Overhaul</em> is the odd one: it means a thorough repair, not too much hauling.</p>" },
         family: { word: "build", forms: [
           { part: "verb", word: "BUILD" },
           { part: "verb, again", word: "re·BUILD" },

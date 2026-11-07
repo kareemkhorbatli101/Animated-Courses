@@ -17,11 +17,14 @@
   root.COURSE = {
     id: "bes-sy",
     ns: "bes.",
+    /* the folder inside the release zip, and its default file name */
+    slug: "business-english-syria",
     title: "Business English — Syria",
     /* The course's own level range, in CEFR bands. Used by the gate to
        reject a scene whose declared band falls outside what this course
        claims to teach. See research/baseline.md for where the per-task
        bands come from. */
-    cefr: ["B1", "B2"]
+    cefr: ["B1", "B2"],
+    blurb: "Twelve units, seven pages each, for people who already work in Arabic and need the English their job is actually conducted in: quotations, orders, calls, reports and proposals."
   };
 })(window);

@@ -11,7 +11,7 @@
         kind: "respond", task: "listen-extracts", cefr: "B1", n: 6,
         prompt: "Six questions about how you work. Choose the answer that describes a process rather than an intention.",
         note: { kind: "life", title: "Describe what happens, not what should",
-                body: "<p>A client asking how you inspect wants the present passive: what <i>is</i> done, every time. <i>We try to</i> and <i>we always aim to</i> describe an intention, and an intention cannot be relied on.</p>" },
+                body: "<p>A client asking how you inspect wants the present passive: what <em>is</em> done, every time. <em>We try to</em> and <em>we always aim to</em> describe an intention, and an intention cannot be relied on.</p>" },
         items: [
           { who: "rana", say: "How do you check the shade?",
             options: [
@@ -144,7 +144,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English tells you whether a sentence is a question by where the pitch goes at the end, and the words often do not change at all.</p><p><b>Falling</b> at the end means telling, or a <i>wh-</i> question. <b>Rising</b> means asking, or checking.</p><p><i>The batch is ready.</i> — falling, a statement.<br><i>The batch is ready?</i> — rising, and now it is a question with no grammar to mark it.</p>",
+        focus: "<p>English tells you whether a sentence is a question by where the pitch goes at the end, and the words often do not change at all.</p><p><b>Falling</b> at the end means telling, or a <em>wh-</em> question. <b>Rising</b> means asking, or checking.</p><p><em>The batch is ready.</em> — falling, a statement.<br><em>The batch is ready?</em> — rising, and now it is a question with no grammar to mark it.</p>",
         items: [
           { say: "The batch is ready ↓", options: [
             { text: "The batch is ready ↓", correct: true, why: "Falling. A statement, and the listener is being told." },

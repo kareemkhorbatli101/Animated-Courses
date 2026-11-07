@@ -27,6 +27,21 @@ const kindsUsed = new Map();   /* kind -> first place it appears */
    course's, not Cambridge's. */
 const taskLens = new Map();
 const stems = new Map();       /* normalised stem -> first place it appears */
+/* en -> { ar, where }. Every Arabic string a learner can see comes from a
+   card's `ar` or an explain term's `ar`, and both are collected here so
+   that one English headword cannot carry two Arabic renderings, and so
+   that GLOSSARY-AR.md can be held to the course rather than beside it. */
+const glossSeen = new Map();
+function noteGloss(where, en, ar){
+  if (!en || !ar) return;
+  const k = String(en).trim(), a = String(ar).trim();
+  const prev = glossSeen.get(k);
+  if (!prev) { glossSeen.set(k, { ar: a, where: where }); return; }
+  if (prev.ar !== a)
+    bad(where, `shows "${k}" as "${a}" but ${prev.where} shows it as "${prev.ar}" \u2014 ` +
+               `split the headword by sense rather than giving one term two glosses`);
+  else ok();
+}
 const SPEC = window.SPEC, B = window.BOOK;
 
 let pass = 0, fail = 0;
@@ -291,6 +306,97 @@ function checkScene(where, s, unit){
         bad(where, `${k} chart is missing ${missing.join(' and ')}, which its renderer dereferences`);
       else ok();
     }
+  }
+
+
+  /* Renderer-input lock.
+     A scene whose data uses a key no renderer reads is silent: the gate
+     passes, the page builds, and the exercise dies at runtime when the
+     renderer dereferences the key it actually wants. That is how a
+     `notices: [...]` array survived a full gate run in u12/l1 and only
+     failed in the solver, and it is the same class of bug as the pie chart
+     with no `slices`. This table names, for each kind, the fields its
+     renderer reads without checking. `carry` satisfies a stimulus
+     requirement, because the stimulus then lives on another scene. */
+  const KIND_NEEDS = {
+    'annotate':      ['jobs', 'sentences'],
+    'build':         ['items'],
+    'cards':         ['cards'],
+    'chartread':     ['chart', 'items'],
+    'choice':        ['options'],
+    'cloze':         ['gaps', 'text'],
+    'compare':       ['after', 'before', 'changes'],
+    'dictation':     ['items'],
+    'discussion':    ['model', 'posts'],
+    'errorfix':      ['items'],
+    'interview':     ['model', 'question'],
+    'letterbox':     ['items'],
+    'listen':        ['items'],
+    'match':         ['pairs'],
+    'matrix':        ['matrix'],
+    'minimal-pairs': ['items'],
+    'notes':         ['audio', 'gaps', 'lines'],
+    'oddone':        ['items'],
+    'order':         ['target'],
+    'orderset':      ['items'],
+    'paragraph':     ['model', 'must'],
+    'paraphrase':    ['items'],
+    'phrases':       ['phrases'],
+    'quiz':          ['items'],
+    'read':          ['items', 'text'],
+    'recap':         ['cases', 'takeaways'],
+    'register-dial': ['versions'],
+    'repeat':        ['lines'],
+    'respond':       ['items'],
+    'selectintext':  ['items'],
+    'sequence':      ['steps'],
+    'sort':          ['bins', 'items'],
+    'table':         ['gaps', 'head', 'rows'],
+    'talk':          ['audio', 'items'],
+    'tfni':          ['items'],
+    'wordbank':      ['items'],
+    'write-email':   ['model', 'scenario']
+  };
+  const STIMULUS = { text: 1, chart: 1, audio: 1, cards: 1, phrases: 1 };
+  if (KIND_NEEDS[s.kind]){
+    const missing = KIND_NEEDS[s.kind].filter(f =>
+      s[f] == null && !(s.carry && STIMULUS[f]));
+    if (missing.length)
+      bad(where, `kind "${s.kind}" renders ${missing.join(' and ')}, which this scene does not have ` +
+                 `\u2014 a key no renderer reads is silent until the page runs`);
+    else ok();
+  }
+
+  /* A matrix's column headers go in as innerHTML; its row items and its
+     closing note go in as textContent. Markup in either of the latter two
+     is printed to the learner as literal angle brackets, and the solver
+     matches the row by its text, so an <b> in an item also breaks the one
+     tool that would have caught it. */
+  /* Inside a note, <i> is not emphasis. assets/ui.css carries
+     `.note i{display:block}`, because in the engine's own convention an
+     italic in a note is a DISPLAYED EXAMPLE on its own line. Used
+     mid-sentence it silently breaks the sentence across three lines, which
+     is what the reader note on u12/l5 was doing until a screenshot caught
+     it. The inline form is <em>, which has no block rule. A note's `focus`
+     goes through the same api.note(), so it is checked too. */
+  ['body', 'focus'].forEach(f => {
+    const v = f === 'focus' ? s.focus : (s.note && s.note.body);
+    if (typeof v === 'string' && /<i>/.test(v))
+      bad(where, `note ${f} uses <i>, which .note renders as a block \u2014 ` +
+                 `use <em> for inline emphasis`);
+    else ok();
+  });
+
+  if (s.kind === 'matrix' && s.matrix){
+    const tagged = [];
+    (s.matrix.rows || []).forEach((r, i) => {
+      if (/<[a-z/][^>]*>/i.test(String(r.item || ''))) tagged.push(`row ${i + 1}`);
+    });
+    if (/<[a-z/][^>]*>/i.test(String(s.matrix.note || ''))) tagged.push('note');
+    if (tagged.length)
+      bad(where, `matrix ${tagged.join(' and ')} carries markup, which is rendered as ` +
+                 `text \u2014 only the column headers are read as HTML`);
+    else ok();
   }
 
   if (s.kind === 'errorfix'){
@@ -580,6 +686,9 @@ B.UNITS.forEach(u=>{
       if (!s.carry && !(s.text || s.chart || s.scene || (s.audio && s.audio.lines)) &&
           (s.items || []).some(it => it && it.line != null))
         bad(where, 'cites line numbers but carries no passage and names no `carry`');
+      (s.cards || []).forEach(c => noteGloss(where, c.term, c.ar));
+      if (s.explain && s.explain.terms)
+        s.explain.terms.forEach(t => noteGloss(where, t.en, t.ar));
       checkScene(where, s, u);
       if (s.task) tally[s.task] = (tally[s.task]||0) + (s.n||0);
     });
@@ -648,6 +757,39 @@ kindsUsed.forEach((where, kind)=>{
 (function () {
   const bad2 = hashesAgree();
   if (bad2) bad('audio file names', bad2); else pass++;
+})();
+
+/* GLOSSARY-AR.md lock.
+   The glossary is generated from these same scenes by tools/glossary.js,
+   so the only way the two can disagree is that a data file changed and
+   the glossary was not rebuilt. A learner who meets an Arabic word that
+   the course's own glossary does not list has no way to check it, which
+   is the failure this prevents. */
+(function () {
+  const GL = path.join(ROOT, '..', 'GLOSSARY-AR.md');
+  if (!fs.existsSync(GL)) {
+    bad('GLOSSARY-AR.md', 'missing \u2014 run node tools/glossary.js');
+    return;
+  }
+  const listed = new Map();
+  fs.readFileSync(GL, 'utf8').split('\n').forEach(line => {
+    const m = /^\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(?:u\d\d\/)/.exec(line);
+    if (m) listed.set(m[1], m[2]);
+  });
+  if (!listed.size) { bad('GLOSSARY-AR.md', 'has no index rows to check against'); return; }
+  let miss = 0;
+  glossSeen.forEach((v, en) => {
+    if (!listed.has(en))
+      { bad('GLOSSARY-AR.md', `does not list "${en}", shown at ${v.where}`); miss++; }
+    else if (listed.get(en) !== v.ar)
+      { bad('GLOSSARY-AR.md', `lists "${en}" as "${listed.get(en)}" but ${v.where} shows "${v.ar}"`); miss++; }
+    else ok();
+  });
+  listed.forEach((ar, en) => {
+    if (!glossSeen.has(en))
+      { bad('GLOSSARY-AR.md', `lists "${en}", which no scene shows \u2014 rebuild it`); miss++; }
+  });
+  if (!miss) ok();
 })();
 
 console.log(`\n${pass} checks passed, ${fail} failed`);

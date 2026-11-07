@@ -24,7 +24,7 @@
           "The remaining balance …"
         ],
         note: { kind: "writer", title: "Concede completely or not at all",
-                body: "<p>A half-admission — <i>it appears there may have been a discrepancy</i> — costs you the credit you would have earned by saying <i>you are right</i>. The money is the same either way.</p>" },
+                body: "<p>A half-admission — <em>it appears there may have been a discrepancy</em> — costs you the credit you would have earned by saying <em>you are right</em>. The money is the same either way.</p>" },
         checklist: [
           "Have you thanked them for raising it?",
           "Have you said plainly that they were right?",
@@ -59,7 +59,7 @@
           "It would apply from …"
         ],
         note: { kind: "writer", title: "Name what it is not",
-                body: "<p>The reader's first thought will be <i>do they not trust us?</i> Answer it before they think it. Saying <i>this is not a comment on your account</i> costs one sentence and saves the relationship.</p>" },
+                body: "<p>The reader's first thought will be <em>do they not trust us?</em> Answer it before they think it. Saying <em>this is not a comment on your account</em> costs one sentence and saves the relationship.</p>" },
         checklist: [
           "Is the threshold and the percentage stated?",
           "Is it framed as reserving capacity rather than as credit?",

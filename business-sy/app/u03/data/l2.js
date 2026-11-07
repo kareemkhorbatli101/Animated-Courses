@@ -163,7 +163,7 @@
           "If you are able to … , I would be glad to …"
         ],
         note: { kind: "writer", title: "Tell them why",
-                body: "<p>A supplier who is told only <i>unsuccessful</i> learns nothing and quotes the same way next time. Two specific reasons cost you one sentence and buy you a better quotation next season.</p>" },
+                body: "<p>A supplier who is told only <em>unsuccessful</em> learns nothing and quotes the same way next time. Two specific reasons cost you one sentence and buy you a better quotation next season.</p>" },
         checklist: [
           "Have you thanked them for the work of quoting?",
           "Have you said plainly that they were not selected?",
@@ -186,7 +186,7 @@
         prompt: "One paragraph for the tender invitation itself — the part that tells suppliers how they will be judged.",
         min: 60,
         note: { kind: "writer", title: "Say how you will decide",
-                body: "<p>Suppliers price differently when they know what you are weighing. A tender that says <i>lowest price wins</i> gets cheap quotations; one that says what else counts gets quotations you can use.</p>" },
+                body: "<p>Suppliers price differently when they know what you are weighing. A tender that says <em>lowest price wins</em> gets cheap quotations; one that says what else counts gets quotations you can use.</p>" },
         must: [
           "What will be compared — landed cost, not unit price",
           "That the specification is fixed",

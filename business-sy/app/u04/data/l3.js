@@ -32,7 +32,7 @@
             why: "This moment, not this period. <i>Goes through</i> would make it the normal routine instead of today's state." }
         ],
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>Simple past</b> it was ordered on the ninth<br><b>Present perfect</b> it has been finished<br><b>Present perfect continuous</b> we have been waiting<br><b>Present continuous</b> it is going through now</p><p>A finished time expression — <i>yesterday</i>, <i>on the ninth</i>, <i>last week</i> — forces the simple past.</p>" },
+                body: "<p><b>Simple past</b> it was ordered on the ninth<br><b>Present perfect</b> it has been finished<br><b>Present perfect continuous</b> we have been waiting<br><b>Present continuous</b> it is going through now</p><p>A finished time expression — <em>yesterday</em>, <em>on the ninth</em>, <em>last week</em> — forces the simple past.</p>" },
         after: "<p>The line above is the point of this whole lesson. English does not have one past; it has several, and each one puts the event somewhere different relative to now.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Where the present perfect puts things", letter: "B",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where the present perfect attracts extra words",
-                body: "<p>A second auxiliary, a stray <i>been</i> in a sentence that is not passive, or a <i>since</i> sitting in front of a length. All three read smoothly and all three are wrong.</p>" },
+                body: "<p>A second auxiliary, a stray <em>been</em> in a sentence that is not passive, or a <em>since</em> sitting in front of a length. All three read smoothly and all three are wrong.</p>" },
         items: [
           { text: "The first thousand metres have been finished and packed them.",
             fixed: "The first thousand metres have been finished and packed.",

@@ -122,7 +122,7 @@
         ],
         explain: { terms: [
           { en: "to go quiet", gloss: "to stop replying", ar: "ينقطع التواصل" },
-          { en: "discrepancy", gloss: "a difference between two figures that should match", ar: "تباين / فرق" }
+          { en: "discrepancy", gloss: "a difference between two figures that should match", ar: "تباين" }
         ] } },
 
       { id: "2a", section: 2, sectionTitle: "Ask without losing face", letter: "A",
@@ -130,7 +130,7 @@
         kind: "phrases", task: null, n: 0,
         prompt: "The phrases that make a request read as competence. Click each one.",
         note: { kind: "life", title: "Why hedging backfires",
-                body: "<p><i>It is probably nothing</i> and <i>I do not want to waste your time</i> are meant to be polite. They tell the listener to pay less attention, and then you have to work to get it back.</p>" },
+                body: "<p><em>It is probably nothing</em> and <em>I do not want to waste your time</em> are meant to be polite. They tell the listener to pay less attention, and then you have to work to get it back.</p>" },
         text: "Nour, I need five minutes. I have called the Homs dye house three times since Monday. Each time they have said tomorrow and nothing has come. I would like you to call Ziad directly today. Nothing else on 4417 can move until that yarn is released. The 4412 invoice does not reconcile. The signed delivery note has never come back from the carrier. Could you ask them for it, because they do not answer me. I do not need you to do anything. I want to tell you something before you hear it elsewhere.",
         phrases: [
           { text: "Nour, I need five minutes.",

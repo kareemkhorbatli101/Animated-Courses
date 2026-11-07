@@ -132,36 +132,41 @@
         concepts: ["read", "notice"],
         kind: "read", task: "read-notices", cefr: "B1", n: 4,
         prompt: "Four notices from the tender file. Match each one to what it means.",
-        notices: [
-          { title: "Clarifications",
-            body: "Questions about this invitation must be submitted in writing by 30 June. Answers are circulated to all tenderers without naming the questioner. No clarification is given by telephone." },
-          { title: "Late submission",
-            body: "A tender received after noon on 14 July is returned unopened. The time of receipt, not the time of sending, governs. Tenderers are advised not to rely on a courier for the final day." },
-          { title: "Variant offers",
-            body: "A tenderer may submit one variant in addition to a compliant tender. A variant alone is not considered. Variants are evaluated only after compliant tenders have been scored." },
-          { title: "Award and signature",
-            body: "Notice of award does not create a contract. A contract exists on signature of both parties. Barada Hotels reserves the right not to award." }
-        ],
+        text: { every: 1, mastColor: "blue", masthead: "NOTICES \u2014 TENDER FILE",
+          blocks: [
+            { h: "Clarifications", lines: [
+              "Questions about this invitation must be submitted in writing by 30 June.",
+              "Answers are circulated to all tenderers without naming the questioner. No clarification is given by telephone." ] },
+            { h: "Late submission", lines: [
+              "A tender received after noon on 14 July is returned unopened.",
+              "The time of receipt, not the time of sending, governs. Tenderers are advised not to rely on a courier for the final day." ] },
+            { h: "Variant offers", lines: [
+              "A tenderer may submit one variant in addition to a compliant tender. A variant alone is not considered.",
+              "Variants are evaluated only after compliant tenders have been scored." ] },
+            { h: "Award and signature", lines: [
+              "Notice of award does not create a contract. A contract exists on signature of both parties.",
+              "Barada Hotels reserves the right not to award." ] }
+          ] },
         items: [
-          { q: "You telephone the buyer with a question about the azo dye certificate. What happens?",
+          { para: 1, q: "You telephone the buyer with a question about the azo dye certificate. What happens?",
             options: [
               { text: "Nothing useful — clarifications are in writing only.", correct: true,
                 why: "And the written answer goes to every tenderer, which is the real reason the rule exists." },
               { text: "You get an answer your competitors do not have.", why: "The point of circulating answers is to prevent exactly that." },
               { text: "Your tender is disqualified.", why: "Nothing says so. You simply get no answer." } ] },
-          { q: "Your courier delivers at 12.10 on 14 July. What happens to your tender?",
+          { para: 2, q: "Your courier delivers at 12.10 on 14 July. What happens to your tender?",
             options: [
               { text: "It is returned unopened.", correct: true,
                 why: "Receipt governs, and the notice warns about couriers in the same breath." },
               { text: "It is opened and scored late.", why: "The notice says unopened, which means no part of your work is read." },
               { text: "It depends how good it is.", why: "That is the one thing it does not depend on." } ] },
-          { q: "You want to offer six-week lead time at a lower price instead of four weeks. How?",
+          { para: 3, q: "You want to offer six-week lead time at a lower price instead of four weeks. How?",
             options: [
               { text: "Submit a compliant tender and the cheaper one as a variant.", correct: true,
                 why: "A variant alone is not considered, so the compliant tender is the ticket of entry." },
               { text: "Submit the cheaper one and explain why it is better.", why: "A variant alone is discarded, however good the explanation." },
               { text: "Ask for the requirement to be changed.", why: "Clarifications explain requirements; they do not negotiate them." } ] },
-          { q: "You receive notice of award. What do you not yet have?",
+          { para: 4, q: "You receive notice of award. What do you not yet have?",
             options: [
               { text: "A contract — that needs both signatures.", correct: true,
                 why: "The gap between award and signature is real, and it is where terms are still moved." },
@@ -230,7 +235,44 @@
             { text: "REcord", why: "the written trace." },
             { text: "exPORT", correct: true, why: "The verb. Nothing but the stress separates it from the noun above it." } ] }
         ],
-        closer: "<p>The last one is the test for this lesson's stress rule, and it is the only one of the five where the spelling gives you nothing.</p>" }
+        closer: "<p>The last one is the test for this lesson's stress rule, and it is the only one of the five where the spelling gives you nothing.</p>" },
+
+      { id: "3d", section: 3, sectionTitle: "Read four short notices", letter: "D",
+        concepts: ["sound", "word"],
+        kind: "annotate", task: null, n: 0,
+        prompt: "Click each line and say whether the marked word is a noun or a verb. The dots show the syllables and the capitals show which one carries the stress.",
+        stress: true,
+        note: { kind: "words", title: "The grammar moves the stress, not the speaker",
+                body: "<p>Nobody decides to shift the stress. It moves because the word is doing a different job in the sentence, and the words around it give the job away: an article or a possessive in front means a noun, an auxiliary or a subject pronoun means a verb.</p>" },
+        jobs: [
+          "Noun \u2014 stress on the first syllable",
+          "Verb \u2014 stress on the second syllable"
+        ],
+        sentences: [
+          { text: "Our EX\u00b7ports went up eleven per cent last year.",
+            job: "Noun \u2014 stress on the first syllable",
+            why: "<b>EX</b>ports. <i>Our</i> in front of it can only precede a noun, and the sentence already has its verb in <i>went</i>." },
+          { text: "We ex\u00b7PORT mostly to Jordan and Lebanon.",
+            job: "Verb \u2014 stress on the second syllable",
+            why: "ex<b>PORT</b>. <i>We</i> in front of it and nothing else to be the verb, so the stress follows the grammar without anybody choosing to move it." },
+          { text: "The CON\u00b7tract was awarded in August.",
+            job: "Noun \u2014 stress on the first syllable",
+            why: "<b>CON</b>tract, with <i>the</i> in front and <i>was awarded</i> already doing the work of the verb." },
+          { text: "Cotton will con\u00b7TRACT if it is washed hot.",
+            job: "Verb \u2014 stress on the second syllable",
+            why: "con<b>TRACT</b>, meaning to shrink. <i>Will</i> in front of it settles the question, and in bed linen this is a real risk rather than a grammar example." },
+          { text: "There has been a sharp IN\u00b7crease in freight.",
+            job: "Noun \u2014 stress on the first syllable",
+            why: "<b>IN</b>crease. <i>A sharp</i> is an article and an adjective, which can only be building a noun phrase." },
+          { text: "Freight costs in\u00b7CREASE every July.",
+            job: "Verb \u2014 stress on the second syllable",
+            why: "in<b>CREASE</b>. <i>Freight costs</i> is the subject, so this word has to be the verb, and the stress has already moved to say so." }
+        ],
+        after: "<p>Six lines, three words, and each word appears twice with the stress in a different place. Notice that you never had to decide: the article, the auxiliary or the subject told you, every time.</p>",
+        explain: { terms: [
+          { en: "word stress", gloss: "which syllable of a word is said with most force", ar: "النبر في الكلمة" },
+          { en: "an auxiliary", gloss: "a helping verb such as will, has or was", ar: "فعل مساعد" }
+        ] } }
 
     ]
   };

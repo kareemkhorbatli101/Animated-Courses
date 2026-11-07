@@ -256,19 +256,115 @@ function checkScene(where, s, unit){
     need(got === want, `positions are ${got}; they must be ${want}`);
   }
 
+
+  /* Renderer-input lock.
+     A scene whose data uses a key no renderer reads is silent: the gate
+     passes, the page builds, and the exercise dies at runtime when the
+     renderer dereferences the key it actually wants. That is how a
+     `notices: [...]` array survived a full gate run in u12/l1 and only
+     failed in the solver, and it is the same class of bug as the pie chart
+     with no `slices`. This table names, for each kind, the fields its
+     renderer reads without checking. `carry` satisfies a stimulus
+     requirement, because the stimulus then lives on another scene. */
+  const KIND_NEEDS = {
+    'annotate':      ['jobs', 'sentences'],
+    'build':         ['items'],
+    'cards':         ['cards'],
+    'chartread':     ['chart', 'items'],
+    'choice':        ['options'],
+    'cloze':         ['gaps', 'text'],
+    'compare':       ['after', 'before', 'changes'],
+    'dictation':     ['items'],
+    'discussion':    ['model', 'posts'],
+    'errorfix':      ['items'],
+    'interview':     ['model', 'question'],
+    'letterbox':     ['items'],
+    'listen':        ['items'],
+    'match':         ['pairs'],
+    'matrix':        ['matrix'],
+    'minimal-pairs': ['items'],
+    'notes':         ['audio', 'gaps', 'lines'],
+    'oddone':        ['items'],
+    'order':         ['target'],
+    'orderset':      ['items'],
+    'paragraph':     ['model', 'must'],
+    'paraphrase':    ['items'],
+    'phrases':       ['phrases'],
+    'quiz':          ['items'],
+    'read':          ['items', 'text'],
+    'recap':         ['cases', 'takeaways'],
+    'register-dial': ['versions'],
+    'repeat':        ['lines'],
+    'respond':       ['items'],
+    'selectintext':  ['items'],
+    'sequence':      ['steps'],
+    'sort':          ['bins', 'items'],
+    'table':         ['gaps', 'head', 'rows'],
+    'talk':          ['audio', 'items'],
+    'tfni':          ['items'],
+    'wordbank':      ['items'],
+    'write-email':   ['model', 'scenario']
+  };
+  const STIMULUS = { text: 1, chart: 1, audio: 1, cards: 1, phrases: 1 };
+  if (KIND_NEEDS[s.kind]){
+    const missing = KIND_NEEDS[s.kind].filter(f =>
+      s[f] == null && !(s.carry && STIMULUS[f]));
+    if (missing.length)
+      bad(where, `kind "${s.kind}" renders ${missing.join(' and ')}, which this scene does not have ` +
+                 `\u2014 a key no renderer reads is silent until the page runs`);
+    else ok();
+  }
+
+  /* A matrix's column headers go in as innerHTML; its row items and its
+     closing note go in as textContent. Markup in either of the latter two
+     is printed to the learner as literal angle brackets, and the solver
+     matches the row by its text, so an <b> in an item also breaks the one
+     tool that would have caught it. */
+  if (s.kind === 'matrix' && s.matrix){
+    const tagged = [];
+    (s.matrix.rows || []).forEach((r, i) => {
+      if (/<[a-z/][^>]*>/i.test(String(r.item || ''))) tagged.push(`row ${i + 1}`);
+    });
+    if (/<[a-z/][^>]*>/i.test(String(s.matrix.note || ''))) tagged.push('note');
+    if (tagged.length)
+      bad(where, `matrix ${tagged.join(' and ')} carries markup, which is rendered as ` +
+                 `text \u2014 only the column headers are read as HTML`);
+    else ok();
+  }
+
   if (s.kind === 'errorfix'){
     (s.items || []).forEach((it, i) => {
-      if (!it.wrong || !it.right) return bad(where, `item ${i + 1} needs both wrong and right`);
-      if (it.wrong === it.right) bad(where, `item ${i + 1}: the correction is the same word`);
+      /* A `drop` item is the published B2 proofreading task: one word too
+         many, and the answer is the word itself. It must NOT carry a
+         `right`, because there is no replacement to type and a stray one
+         would be silently ignored by the grader. Its `fixed` is checked
+         below against the sentence with that word taken out. */
+      if (it.drop) {
+        if (!it.wrong) return bad(where, `item ${i + 1} is a drop item with no word to drop`);
+        if (it.right) return bad(where, `item ${i + 1} is a drop item but also gives right: "${it.right}" \u2014 nothing is typed for a drop item`);
+      } else if (!it.wrong || !it.right) return bad(where, `item ${i + 1} needs both wrong and right`);
+      if (!it.drop && it.wrong === it.right) bad(where, `item ${i + 1}: the correction is the same word`);
       /* The grader normalises punctuation and case away before comparing, so a
          correction that only changes those cannot be marked at all. */
       const flat = t => String(t).toLowerCase().replace(/[^a-z0-9' ]+/g, '').replace(/\s+/g, ' ').trim();
-      if (flat(it.wrong) === flat(it.right))
+      if (!it.drop && flat(it.wrong) === flat(it.right))
         bad(where, `item ${i + 1}: "${it.wrong}" to "${it.right}" differs only in punctuation or case, which the grader cannot see`);
       else ok();
       const re = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[\\s.,!?;:])');
       if (!re.test(String(it.text))) bad(where, `item ${i + 1}: "${it.wrong}" is not a whole word in the sentence`);
       else ok();
+      /* A `drop` item is answered by clicking the word, so the word has to be
+         findable. If it occurs twice, two different clicks are both "right" to
+         the learner and only one is right to the grader, and the feedback
+         cannot explain which. A substitution item does not have this problem,
+         because the typed correction disambiguates it. */
+      if (it.drop) {
+        const all = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=$|[\\s.,!?;:])', 'g');
+        const hits = (String(it.text).match(all) || []).length;
+        if (hits !== 1)
+          bad(where, `item ${i + 1}: "${it.wrong}" occurs ${hits} times, so clicking it is ambiguous \u2014 a drop item needs exactly one`);
+        else ok();
+      }
       /* An exercise is only honest if swapping that one word really does repair
          the sentence. Eight items failed this and nothing caught them, because
          the renderer and the grader both only compare the clicked word. The
@@ -276,9 +372,13 @@ function checkScene(where, s, unit){
          the substitution actually produces. */
       if (!it.fixed) bad(where, `item ${i + 1} does not give the corrected sentence`);
       else {
-        const got = String(it.text).replace(re, (m, a, c) => a + it.right + c);
+        const got = it.drop
+          ? String(it.text).replace(re, (m, a, c) => (a && c && !/^[\s]*$/.test(c) ? c : (a || c))).replace(/\s+/g, ' ').trim()
+          : String(it.text).replace(re, (m, a, c) => a + it.right + c);
         if (got !== it.fixed)
-          bad(where, `item ${i + 1}: replacing "${it.wrong}" with "${it.right}" gives "${got}", not the stated "${it.fixed}"`);
+          bad(where, it.drop
+            ? `item ${i + 1}: removing "${it.wrong}" gives "${got}", not the stated "${it.fixed}"`
+            : `item ${i + 1}: replacing "${it.wrong}" with "${it.right}" gives "${got}", not the stated "${it.fixed}"`);
         else if (got === String(it.text))
           bad(where, `item ${i + 1}: the correction changes nothing`);
         else ok();

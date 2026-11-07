@@ -32,7 +32,7 @@
             why: "A single dated event. <i>Used to close</i> would mean it closed repeatedly, which is a different story." }
         ],
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>used to</b> + bare verb: <i>we used to dye</i><br><b>negative</b> did not use to — no <i>d</i> on <i>use</i><br><b>question</b> did you use to …?<br><b>present perfect continuous</b> have/has been + <i>-ing</i></p>" },
+                body: "<p><b>used to</b> + bare verb: <em>we used to dye</em><br><b>negative</b> did not use to — no <em>d</em> on <em>use</em><br><b>question</b> did you use to …?<br><b>present perfect continuous</b> have/has been + <em>-ing</em></p>" },
         after: "<p>Two of these describe a past state and two describe a single event or a continuing one. Mixing them is how a company accidentally tells a buyer that a problem is current.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Over, or still going on", letter: "B",
@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: where the d goes",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><i>We used to dye.</i> · <i>We did not use to dye.</i> · <i>Did you use to dye?</i><br>The <i>-d</i> sits on <b>used</b> in the positive and on <b>did</b> in the negative and the question. It is never in both places.</p>" },
+                body: "<p><em>We used to dye.</em> · <em>We did not use to dye.</em> · <em>Did you use to dye?</em><br>The <em>-d</em> sits on <b>used</b> in the positive and on <b>did</b> in the negative and the question. It is never in both places.</p>" },
         text: "<i>Used to</i> describes a past state or habit that has ___ . In the negative and in questions the <i>-d</i> moves onto <i>did</i>, so we write ___ . The present perfect continuous describes something that started in the past and is ___ going on. For one finished dated event we use the ___ .",
         gaps: [
           { options: ["ended", "started"], answer: "ended",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where these forms attract extra words",
-                body: "<p>A second auxiliary, a <i>been</i> in a sentence that is not continuous, or a <i>to</i> after a bare-verb structure. All three read smoothly.</p>" },
+                body: "<p>A second auxiliary, a <em>been</em> in a sentence that is not continuous, or a <em>to</em> after a bare-verb structure. All three read smoothly.</p>" },
         items: [
           { text: "We used to have dye our own cloth on this site.",
             fixed: "We used to dye our own cloth on this site.",

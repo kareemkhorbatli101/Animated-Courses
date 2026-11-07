@@ -163,7 +163,7 @@
           "If I have any of that wrong, …"
         ],
         note: { kind: "writer", title: "The sentence that makes it polite",
-                body: "<p><i>If I have any of that wrong, tell me</i> turns a record into a draft. It invites correction rather than asserting a version, and it costs eight words.</p>" },
+                body: "<p><em>If I have any of that wrong, tell me</em> turns a record into a draft. It invites correction rather than asserting a version, and it costs eight words.</p>" },
         checklist: [
           "Have you said what the email is for in the first line?",
           "Are the agreed facts listed rather than narrated?",

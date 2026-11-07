@@ -110,7 +110,7 @@
         kind: "selectintext", task: "read-match-text", cefr: "B1", n: 4,
         prompt: "Four questions, four short texts. Click the one sentence that answers each question.",
         note: { kind: "reader", title: "How this is done quickly",
-                body: "<p>Read the question first and decide what <i>kind</i> of answer it needs — a number, a reason, a date, a name. Then look only for that. Reading the whole text first is slower and no more accurate.</p>" },
+                body: "<p>Read the question first and decide what <em>kind</em> of answer it needs — a number, a reason, a date, a name. Then look only for that. Reading the whole text first is slower and no more accurate.</p>" },
         items: [
           { prompt: "Which sentence gives the reason for the delay?",
             text: "The Amman order was due to leave on Thursday. The truck was booked and the paperwork was ready. The dark blue yarn did not arrive from the supplier until Friday morning. We have told the client and offered a part delivery next week.",
@@ -197,7 +197,7 @@
         prompt: "Right, Wrong, or Doesn't say? Use the profile in 1B. <i>Doesn't say</i> is not a wrong answer — it is the right one whenever the text is silent.",
         carry: "1b",
         note: { kind: "reader", title: "The third option is the hard one",
-                body: "<p><b>Wrong</b> means the text says something different. <b>Doesn't say</b> means the text says nothing either way. Most learners pick <i>Wrong</i> when the honest answer is <i>Doesn't say</i>, because a statement that sounds unlikely feels false.</p>" },
+                body: "<p><b>Wrong</b> means the text says something different. <b>Doesn't say</b> means the text says nothing either way. Most learners pick <em>Wrong</em> when the honest answer is <em>Doesn't say</em>, because a statement that sounds unlikely feels false.</p>" },
         items: [
           { stem: "The company has been owned by the same family since it started.", answer: "T", line: 1,
             why: "<i>Founded in 1998 by the Haddad family and is still owned by them.</i>" },

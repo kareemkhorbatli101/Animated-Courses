@@ -136,7 +136,7 @@
           { answer: "mornings", why: "The action that costs nothing, agreed in the same breath as the one that does." }
         ],
         note: { kind: "life", title: "He brought the log",
-                body: "<p>The most valuable sentence in the call is <i>I have been logging the hours since January</i>. Without it, <i>it cuts out sometimes</i> is an impression. With it, there is a pattern, a time of day, and a free fix.</p>" },
+                body: "<p>The most valuable sentence in the call is <em>I have been logging the hours since January</em>. Without it, <em>it cuts out sometimes</em> is an impression. With it, there is a pattern, a time of day, and a free fix.</p>" },
         explain: { terms: [
           { en: "to cut out", gloss: "to stop working suddenly", ar: "ينقطع فجأة" },
           { en: "the right call", gloss: "the correct decision", ar: "القرار الصائب" }
@@ -145,7 +145,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>The letter <b>s</b> is two sounds in English, and <i>use</i> is the clearest example in the language.</p><p><b>/s/</b> unvoiced: the noun <i>use</i>, and <i>used to</i>.<br><b>/z/</b> voiced: the verb <i>to use</i>, and <i>used</i> meaning employed.</p><p><i>We used to dye</i> has an /s/. <i>We used a subcontractor</i> has a /z/. Same four letters, two sounds, two meanings.</p>",
+        focus: "<p>The letter <b>s</b> is two sounds in English, and <em>use</em> is the clearest example in the language.</p><p><b>/s/</b> unvoiced: the noun <em>use</em>, and <em>used to</em>.<br><b>/z/</b> voiced: the verb <em>to use</em>, and <em>used</em> meaning employed.</p><p><em>We used to dye</em> has an /s/. <em>We used a subcontractor</em> has a /z/. Same four letters, two sounds, two meanings.</p>",
         items: [
           { say: "we used to dye in house", options: [
             { text: "we used to dye in house", correct: true, why: "/s/ — <i>used to</i> is one unit and it is unvoiced. It is nearly <i>use-to</i>." },

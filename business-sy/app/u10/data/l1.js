@@ -43,7 +43,7 @@
             meaning: "to make two sets of records agree, or explain why they do not",
             with: ["reconcile the accounts", "it does not reconcile"],
             why: "From Unit 5. Reconciling is not making them match; it is accounting for every difference." },
-          { term: "sign-off", ar: "اعتماد نهائي",
+          { term: "sign-off", ar: "اعتماد",
             meaning: "formal approval by somebody with the authority to give it",
             with: ["get sign-off", "awaiting sign-off"],
             why: "Hyphenated as a noun, two words as a verb: <i>to sign off</i>. A sign-off names a person, which is the whole point of it." }
@@ -170,7 +170,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The suffix <b>-ment</b> and the suffix <b>-ance</b>. Drag each root into the box for the suffix it takes.",
         note: { kind: "words", title: "Word building: making a noun from a verb",
-                body: "<p>Both turn a verb into an abstract noun, and English chooses by habit.<br><i>ship → shipment</i> · <i>comply → compliance</i><br>There is no <i>complyment</i> and no <i>shipance</i>. Verbs ending in <i>-y</i> after a consonant often take <i>-ance</i>.</p>" },
+                body: "<p>Both turn a verb into an abstract noun, and English chooses by habit.<br><em>ship → shipment</em> · <em>comply → compliance</em><br>There is no <em>complyment</em> and no <em>shipance</em>. Verbs ending in <em>-y</em> after a consonant often take <em>-ance</em>.</p>" },
         family: { word: "comply", forms: [
           { part: "verb", word: "com·PLY" },
           { part: "noun", word: "com·PLI·ance", note: "the y becomes i" },

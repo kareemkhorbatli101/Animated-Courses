@@ -145,7 +145,7 @@
       { id: "2b", section: 2, sectionTitle: "Hear the difference", letter: "B",
         concepts: ["sound", "speak"],
         kind: "minimal-pairs", task: "pronounce-pair", n: 4,
-        focus: "<p>English throws away most of its unstressed vowels and replaces them with one neutral sound, the schwa. It is the commonest vowel in the language and it is never written.</p><p><i>agenda</i> is <b>uh-JEN-duh</b> — two schwas around one strong syllable. <i>supplier</i> is <b>suh-PLY-uh</b>.</p><p>Pronouncing every vowel fully is the single clearest marker of a learner, and it makes you harder to follow, not easier.</p>",
+        focus: "<p>English throws away most of its unstressed vowels and replaces them with one neutral sound, the schwa. It is the commonest vowel in the language and it is never written.</p><p><em>agenda</em> is <b>uh-JEN-duh</b> — two schwas around one strong syllable. <em>supplier</em> is <b>suh-PLY-uh</b>.</p><p>Pronouncing every vowel fully is the single clearest marker of a learner, and it makes you harder to follow, not easier.</p>",
         items: [
           { say: "agenda", options: [
             { text: "agenda", correct: true, why: "<i>uh-JEN-duh</i>. One strong syllable in the middle and two schwas." },

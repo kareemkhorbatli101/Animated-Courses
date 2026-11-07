@@ -41,7 +41,7 @@
         prompt: "Look back at 1A, then complete the rule.",
         heading: "Language connection: how many things?",
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p>Two syllables ending in <b>-y</b> take <b>-ier</b>: <i>early → earlier</i>.<br>Most other two-syllable and all longer adjectives take <b>more</b>: <i>more compliant</i>.<br>Never both: <i>more cheaper</i> is the commonest error in this lesson.</p>" },
+                body: "<p>Two syllables ending in <b>-y</b> take <b>-ier</b>: <em>early → earlier</em>.<br>Most other two-syllable and all longer adjectives take <b>more</b>: <em>more compliant</em>.<br>Never both: <em>more cheaper</em> is the commonest error in this lesson.</p>" },
         text: "When we measure two things against each other we use a ___ , usually with <i>than</i>. When we pick one out of three or more we use a ___ , which takes <i>the</i> in front of it. To say two things are equal we put the plain adjective between ___ . A long adjective like <i>reliable</i> takes ___ rather than <i>-er</i>.",
         gaps: [
           { options: ["comparative", "superlative"], answer: "comparative",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where comparatives attract extra words",
-                body: "<p>Doubling is the classic one: <i>more cheaper</i>. The others are a stray <i>the</i> before a comparative, and <i>than</i> turning up where <i>as</i> belongs.</p>" },
+                body: "<p>Doubling is the classic one: <em>more cheaper</em>. The others are a stray <em>the</em> before a comparative, and <em>than</em> turning up where <em>as</em> belongs.</p>" },
         items: [
           { text: "Their quotation is more cheaper than ours on every line.",
             fixed: "Their quotation is cheaper than ours on every line.",

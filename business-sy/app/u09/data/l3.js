@@ -32,7 +32,7 @@
             why: "<i>Until</i> marks the moment a continuing state stopped. Swapping it for <i>before</i> would change what the sentence claims." }
         ],
         note: { kind: "gram", title: "Grammar Notes",
-                body: "<p><b>before / after / while / until / as soon as</b> introduce a time clause.<br>The clause can go first or second. First, it takes a comma: <i>Before the meeting started, …</i><br>With a future meaning they take the present — Unit 7's rule.</p>" },
+                body: "<p><b>before / after / while / until / as soon as</b> introduce a time clause.<br>The clause can go first or second. First, it takes a comma: <em>Before the meeting started, …</em><br>With a future meaning they take the present — Unit 7's rule.</p>" },
         after: "<p>The linker does the ordering, so the tenses do not have to. That is why <i>before the meeting started the agenda was circulated</i> is understood perfectly even without the past perfect.</p>" },
 
       { id: "1b", section: 1, sectionTitle: "Putting two events in order", letter: "B",
@@ -113,7 +113,7 @@
         kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
         prompt: "Each line has one word too many. Click the word that should come out.",
         note: { kind: "gram", title: "Where time clauses attract extra words",
-                body: "<p>A second linker, a repeated subject, or a <i>not</i> next to <i>neither</i>. All three happen when the writer reaches the middle of a long sentence and starts again.</p>" },
+                body: "<p>A second linker, a repeated subject, or a <em>not</em> next to <em>neither</em>. All three happen when the writer reaches the middle of a long sentence and starts again.</p>" },
         items: [
           { text: "Before when the meeting started the agenda had been circulated.",
             fixed: "Before the meeting started the agenda had been circulated.",

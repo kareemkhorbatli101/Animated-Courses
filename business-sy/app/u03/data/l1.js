@@ -11,11 +11,11 @@
         kind: "cards", task: null, n: 0,
         prompt: "Nine words you need before you can compare two offers. Say what each means before you turn it over.",
         cards: [
-          { term: "tender", ar: "مناقصة",
+          { term: "invitation to tender", ar: "مناقصة",
             meaning: "a formal invitation to several suppliers to quote for the same job",
             with: ["invite tenders", "submit a tender", "win the tender"],
             why: "The point of a tender is that everyone answers the same question, which is the only way prices can be compared at all." },
-          { term: "specification", ar: "مواصفات",
+          { term: "specification", ar: "مواصفة",
             meaning: "exactly what is being asked for: material, size, finish, tolerance",
             with: ["to specification", "meet the spec", "a tight specification"],
             why: "Shortened to <i>spec</i> in speech. Two prices for different specs are not two prices for the same thing." },
@@ -27,7 +27,7 @@
             meaning: "what a supplier has actually done before, as against what they promise",
             with: ["a strong track record", "no track record", "check their track record"],
             why: "Two words. The thing most buyers weigh heaviest and most sellers mention last." },
-          { term: "reference", ar: "مرجع / تزكية",
+          { term: "reference", ar: "جهة مرجعية",
             meaning: "a customer who will say what the supplier was like to deal with",
             with: ["ask for references", "a trade reference", "take up references"],
             why: "<i>Take up a reference</i> means actually contact them. Many buyers ask for references and never call." },
@@ -49,7 +49,7 @@
             why: "Noun, hyphenated. Almost every supplier decision is one, and naming it out loud usually ends the argument." }
         ],
         explain: { terms: [
-          { en: "specification", gloss: "exactly what is being asked for", ar: "مواصفات" },
+          { en: "specification", gloss: "exactly what is being asked for", ar: "مواصفة" },
           { en: "track record", gloss: "what a supplier has actually done before", ar: "سجلّ الأداء" },
           { en: "landed cost", gloss: "total cost once freight and duty are paid", ar: "التكلفة النهائية" },
           { en: "trade-off", gloss: "giving up one thing to get another", ar: "مقايضة" }
@@ -198,7 +198,7 @@
         kind: "build", task: null, n: 0,
         prompt: "The suffix <b>-tion</b> and the suffix <b>-ment</b>. Drag each root into the box for the suffix it takes.",
         note: { kind: "words", title: "Word building: making nouns from verbs",
-                body: "<p><b>-tion</b> and <b>-ment</b> both turn a verb into a noun, and English chooses between them by habit rather than by rule.<br><i>negotiate → negotiation</i> · <i>ship → shipment</i><br>There is no <i>negotiatement</i> and no <i>shiption</i>. Learn them as whole words.</p>" },
+                body: "<p><b>-tion</b> and <b>-ment</b> both turn a verb into a noun, and English chooses between them by habit rather than by rule.<br><em>negotiate → negotiation</em> · <em>ship → shipment</em><br>There is no <em>negotiatement</em> and no <em>shiption</em>. Learn them as whole words.</p>" },
         family: { word: "negotiate", forms: [
           { part: "verb", word: "ne·GO·ti·ate" },
           { part: "noun", word: "ne·go·ti·A·tion", note: "the stress moves" },
