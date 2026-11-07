@@ -264,6 +264,35 @@ function checkScene(where, s, unit){
     need(got === want, `positions are ${got}; they must be ${want}`);
   }
 
+  /* A chart renderer reads one shape per kind and throws on anything else.
+     u02/l5 shipped a pie built like a line chart - series and labels instead
+     of slices - and every static rule passed it. The page then died at
+     runtime with "Cannot read properties of undefined", which only solve.js
+     and a11y.js saw. These are the keys each renderer actually dereferences,
+     read off assets/charts.js. */
+  if (s.chart) {
+    const CHART_NEEDS = {
+      line:         ['x', 'series'],
+      bar:          ['bars'],
+      pie:          ['slices'],
+      piePair:      ['categories'],
+      scatter:      ['xmax', 'ymax', 'points'],
+      bubble:       ['bubbles'],
+      flow:         ['steps'],
+      compareTable: ['cols', 'rows'],
+      table:        ['cols', 'rows']
+    };
+    const k = s.chart.kind;
+    if (!k) bad(where, 'chart has no kind');
+    else if (!CHART_NEEDS[k]) bad(where, `chart kind "${k}" has no renderer in assets/charts.js`);
+    else {
+      const missing = CHART_NEEDS[k].filter(f => s.chart[f] === undefined);
+      if (missing.length)
+        bad(where, `${k} chart is missing ${missing.join(' and ')}, which its renderer dereferences`);
+      else ok();
+    }
+  }
+
   if (s.kind === 'errorfix'){
     (s.items || []).forEach((it, i) => {
       /* A `drop` item is the published B2 proofreading task: one word too
@@ -285,6 +314,18 @@ function checkScene(where, s, unit){
       const re = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[\\s.,!?;:])');
       if (!re.test(String(it.text))) bad(where, `item ${i + 1}: "${it.wrong}" is not a whole word in the sentence`);
       else ok();
+      /* A `drop` item is answered by clicking the word, so the word has to be
+         findable. If it occurs twice, two different clicks are both "right" to
+         the learner and only one is right to the grader, and the feedback
+         cannot explain which. A substitution item does not have this problem,
+         because the typed correction disambiguates it. */
+      if (it.drop) {
+        const all = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=$|[\\s.,!?;:])', 'g');
+        const hits = (String(it.text).match(all) || []).length;
+        if (hits !== 1)
+          bad(where, `item ${i + 1}: "${it.wrong}" occurs ${hits} times, so clicking it is ambiguous \u2014 a drop item needs exactly one`);
+        else ok();
+      }
       /* An exercise is only honest if swapping that one word really does repair
          the sentence. Eight items failed this and nothing caught them, because
          the renderer and the grader both only compare the clicked word. The
