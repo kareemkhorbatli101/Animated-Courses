@@ -1,0 +1,175 @@
+/* Unit 5 · Following Up and Payment — LESSON 3 · GRAMMAR
+   yes/no questions with the present perfect · ever, already and yet
+   · simple past and present perfect compared */
+(function () {
+  window.PAGE = {
+    id: "u05-l3", unit: "u05", block: "l3", up: "../", tab: "AT WORK",
+    objective: "Ask whether something has happened, and know when a date forces the past",
+    next: "l4.html",
+    scenes: [
+
+      { id: "1a", section: 1, sectionTitle: "Has it happened, or did it happen?", letter: "A",
+        concepts: ["time", "invoice"],
+        kind: "annotate", task: null, n: 0,
+        prompt: "Four sentences from a chase. Click each one and say which form it uses.",
+        jobs: [
+          "Present perfect — from a point in the past up to now",
+          "Simple past — one finished point in the past",
+          "Present perfect continuous — still going on",
+          "Present perfect — experience at any time up to now"
+        ],
+        sentences: [
+          { text: "They have not paid invoice 4412.",
+            job: "Present perfect — from a point in the past up to now",
+            why: "No time expression at all, and that is the signal: the sentence is about the present state of the account." },
+          { text: "The invoice was issued on the twelfth.",
+            job: "Simple past — one finished point in the past",
+            why: "A date closes the event. <i>Has been issued on the twelfth</i> is the error this unit exists to prevent." },
+          { text: "We have been chasing it since the eighteenth.",
+            job: "Present perfect continuous — still going on",
+            why: "The chasing has not stopped, and <i>since</i> gives the point it started." },
+          { text: "Have you ever had a problem with this client before?",
+            job: "Present perfect — experience at any time up to now",
+            why: "<i>Ever</i> opens the whole of the past to the question without naming any part of it." }
+        ],
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p><b>Question</b> Have you paid it? · Has it arrived yet?<br><b>ever</b> at any time up to now — in questions<br><b>already</b> sooner than expected — between auxiliary and participle<br><b>yet</b> not up to now — at the end, in questions and negatives</p>" },
+        after: "<p>The test is simple and almost never fails: if the sentence names a finished time, use the simple past. If it does not, the present perfect is usually right.</p>" },
+
+      { id: "1b", section: 1, sectionTitle: "Has it happened, or did it happen?", letter: "B",
+        concepts: ["word", "time"],
+        kind: "cloze", task: null, n: 0,
+        prompt: "Look back at 1A, then complete the rule.",
+        heading: "Language connection: three small words",
+        note: { kind: "gram", title: "Grammar Notes",
+                body: "<p><i>Have you ever worked with them?</i> — any time at all<br><i>Have they paid already?</i> — sooner than I expected<br><i>Have they paid yet?</i> — I expect not<br>All three take the present perfect. None of them works with a finished date.</p>" },
+        text: "To ask a yes/no question in the present perfect we put ___ or <i>has</i> in front of the subject. ___ asks about any time up to now and belongs in questions. ___ says something happened sooner than expected and sits between the auxiliary and the participle. ___ says it has not happened and goes at the end.",
+        gaps: [
+          { options: ["have", "do"], answer: "have",
+            why: "<i>Have you paid it?</i> — <i>do</i> would make it a simple present question about a habit." },
+          { options: ["Ever", "Already"], answer: "Ever",
+            why: "<i>Have you ever had a problem?</i> — the whole past, none of it named." },
+          { options: ["Already", "Yet"], answer: "Already",
+            why: "<i>They have already paid two of the three.</i>" },
+          { options: ["Yet", "Ever"], answer: "Yet",
+            why: "<i>Has it arrived yet?</i> — and it expects the answer no." }
+        ] },
+
+      { id: "2a", section: 2, sectionTitle: "Build the sentence", letter: "A",
+        concepts: ["write", "time"],
+        kind: "orderset", task: "sentence-build", cefr: "B1", n: 5,
+        prompt: "Put the words in order. The cue tells you which form to expect.",
+        items: [
+          { cue: "Ask whether something has happened by now.", band: "B1",
+            target: "Has the payment reached our account yet",
+            jobs: { "Has": "verb", "the payment": "subject", "yet": "adverbial" },
+            why: "Auxiliary, subject, participle, and <i>yet</i> at the end." },
+          { cue: "Ask about experience at any time.", band: "B1",
+            target: "Have you ever written off a debt with this client",
+            jobs: { "Have": "verb", "you": "subject", "ever": "adverbial", "with": "adverbial" },
+            why: "<i>Ever</i> between subject and participle. It opens the whole past without naming any of it." },
+          { cue: "Report something sooner than expected.", band: "B1",
+            target: "They have already settled two of the three invoices",
+            jobs: { "They": "subject", "have": "verb", "already": "adverbial" },
+            why: "<i>Already</i> carries the surprise and sits inside the verb group." },
+          { cue: "Report a dated event.", band: "B1",
+            target: "We issued the credit note on the fourteenth",
+            jobs: { "We": "subject", "issued": "verb", "on": "adverbial" },
+            why: "<i>On the fourteenth</i> closes the event. No present perfect can survive it." },
+          { cue: "Say how long you have been doing something.", band: "B1",
+            target: "We have been chasing this invoice since the eighteenth",
+            jobs: { "We": "subject", "have": "verb", "since": "linker" },
+            why: "Continuous because it is still happening, and <i>since</i> because the eighteenth is a point." }
+        ] },
+
+      { id: "2b", section: 2, sectionTitle: "Build the sentence", letter: "B",
+        concepts: ["write", "escalation"],
+        kind: "orderset", task: "sentence-build", cefr: "B1", n: 5,
+        prompt: "Five more, all from the same account.",
+        items: [
+          { cue: "Say something has not happened, and you still expect it to.", band: "B1",
+            target: "The remittance advice has not arrived yet",
+            jobs: { "The remittance advice": "subject", "has": "verb", "not": "verb", "yet": "adverbial" },
+            why: "<i>Not … yet</i> together. Dropping <i>yet</i> makes the sentence sound final." },
+          { cue: "Ask a question expecting the answer no.", band: "B1",
+            target: "Have they replied to either of your reminders",
+            jobs: { "Have": "verb", "they": "subject", "to": "adverbial" },
+            why: "<i>Either</i> after a question or a negative; <i>both</i> would need a positive statement." },
+          { cue: "Contrast what happened then with what is true now.", band: "B1",
+            target: "They paid on time last year but they have slipped twice this year",
+            jobs: { "They": "subject", "paid": "verb", "but": "linker", "they": "subject", "have": "verb" },
+            why: "<i>Last year</i> is closed, so the simple past. <i>This year</i> is not, so the present perfect. Both in one sentence, on purpose." },
+          { cue: "Say what you have deliberately not done.", band: "B1",
+            target: "I have not yet involved the sales side",
+            jobs: { "I": "subject", "have": "verb", "not": "verb", "yet": "adverbial" },
+            why: "<i>Not yet</i> again, marking restraint as temporary rather than permanent." },
+          { cue: "Ask whether a decision has been taken at any point.", band: "B1",
+            target: "Have we ever agreed a payment plan with them",
+            jobs: { "Have": "verb", "we": "subject", "ever": "adverbial", "with": "adverbial" },
+            why: "<i>Ever</i> with <i>we</i>. The question is about precedent, which is why no date belongs in it." }
+        ] },
+
+      { id: "3a", section: 3, sectionTitle: "Find the word that should not be there", letter: "A",
+        concepts: ["error", "time"],
+        kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
+        prompt: "Each line has one word too many. Click the word that should come out.",
+        note: { kind: "gram", title: "Where these forms attract extra words",
+                body: "<p><i>Did</i> next to a present perfect, <i>yet</i> next to <i>already</i>, a date next to a perfect. All three sound almost right, which is exactly the problem.</p>" },
+        items: [
+          { text: "Have they did replied to either of the reminders?",
+            fixed: "Have they replied to either of the reminders?",
+            wrong: "did", drop: true,
+            why: "One auxiliary carries the question. <i>Have</i> has already done it, so <i>did</i> has no work left." },
+          { text: "They have already paid yet two of the three invoices.",
+            fixed: "They have already paid two of the three invoices.",
+            wrong: "yet", drop: true,
+            why: "<i>Already</i> says it has happened; <i>yet</i> says it has not. They contradict each other in one clause." },
+          { text: "We have been chasing it since from the eighteenth.",
+            fixed: "We have been chasing it since the eighteenth.",
+            wrong: "from", drop: true,
+            why: "<i>Since</i> already means from that point onwards." }
+        ] },
+
+      { id: "3b", section: 3, sectionTitle: "Find the word that should not be there", letter: "B",
+        concepts: ["error", "invoice"],
+        kind: "errorfix", task: "read-proofread", cefr: "B2", n: 3,
+        prompt: "Three more. All three are words that have to come out.",
+        items: [
+          { text: "The invoice was been issued on the twelfth of last month.",
+            fixed: "The invoice was issued on the twelfth of last month.",
+            wrong: "been", drop: true,
+            why: "The past passive is <i>was issued</i>. <i>Been</i> belongs to the perfect, which a closed date has already ruled out." },
+          { text: "Have you ever worked with their accounts office before now?",
+            fixed: "Have you ever worked with their accounts office before?",
+            wrong: "now", drop: true,
+            why: "<i>Before</i> on its own already means before now. <i>Before now</i> is not wrong so much as redundant, and in a short question that shows." },
+          { text: "I have not yet never involved the sales side.",
+            fixed: "I have not yet involved the sales side.",
+            wrong: "never", drop: true,
+            why: "Two negatives for one negation. <i>Not yet</i> already carries it, and <i>never</i> reverses the sentence into the opposite of what is meant." }
+        ] },
+
+      { id: "3c", section: 3, sectionTitle: "Find the word that should not be there", letter: "C",
+        concepts: ["word", "time"],
+        kind: "wordbank", task: null, n: 0,
+        prompt: "Complete each line with one word from the bank. Two are left over.",
+        note: { kind: "gram", title: "Each one changes the claim",
+                body: "<p>These five words are shorter than everything around them and they decide what the sentence actually asserts about time. Swapping any two of them produces a sentence that is still grammatical and no longer true.</p>" },
+        extra: ["since", "never"],
+        items: [
+          { text: "Have you ___ had a problem with this client?", answer: "ever",
+            why: "Any time up to now. It belongs in questions." },
+          { text: "They have ___ settled two of the three.", answer: "already",
+            why: "Sooner than expected, between the auxiliary and the participle." },
+          { text: "The remittance advice has not arrived ___ .", answer: "yet",
+            why: "Not up to now, and still expected. At the end." },
+          { text: "We have been chasing it ___ three weeks.", answer: "for",
+            why: "A length, so <i>for</i>. <i>Since</i> would need the date it started." },
+          { text: "The invoice ___ issued on the twelfth.", answer: "was",
+            why: "A closed date forces the simple past, and this is the passive of it." }
+        ],
+        closer: "<p>The leftovers are <b>since</b> and <b>never</b>. <i>Since</i> would fit the fourth gap if the sentence named a date instead of a length, and <i>never</i> would turn the first gap's question into a statement.</p>" }
+
+    ]
+  };
+})();
