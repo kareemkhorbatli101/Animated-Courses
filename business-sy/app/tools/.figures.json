@@ -1,5 +1,5 @@
 {
- "scenes": 380,
+ "scenes": 474,
  "figures": {
   "u01/l1/3c": [
    "dg-set"
@@ -150,6 +150,42 @@
   ],
   "u08/l4/2b": [
    "dg-pair"
+  ],
+  "u09/l1/1b": [
+   "dg-flow"
+  ],
+  "u09/l1/3c": [
+   "dg-set"
+  ],
+  "u09/l2/2a": [
+   "dg-slots"
+  ],
+  "u09/l2/2b": [
+   "dg-slots"
+  ],
+  "u09/l3/2a": [
+   "dg-slots"
+  ],
+  "u09/l3/2b": [
+   "dg-slots"
+  ],
+  "u10/l1/1b": [
+   "dg-flow"
+  ],
+  "u10/l1/3c": [
+   "dg-set"
+  ],
+  "u10/l2/2a": [
+   "dg-slots"
+  ],
+  "u10/l2/2b": [
+   "dg-slots"
+  ],
+  "u10/l3/2a": [
+   "dg-slots"
+  ],
+  "u10/l3/2b": [
+   "dg-slots"
   ]
  }
 }
