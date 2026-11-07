@@ -1,5 +1,5 @@
 {
- "scenes": 144,
+ "scenes": 191,
  "figures": {
   "u01/l1/3c": [
    "dg-set"
@@ -56,6 +56,27 @@
    "dg-slots"
   ],
   "u03/l4/2b": [
+   "dg-pair"
+  ],
+  "u04/l1/1b": [
+   "dg-flow"
+  ],
+  "u04/l2/2a": [
+   "dg-slots"
+  ],
+  "u04/l2/2b": [
+   "dg-slots"
+  ],
+  "u04/l3/1a": [
+   "dg-timeline"
+  ],
+  "u04/l3/2a": [
+   "dg-slots"
+  ],
+  "u04/l3/2b": [
+   "dg-slots"
+  ],
+  "u04/l4/2b": [
    "dg-pair"
   ]
  }
