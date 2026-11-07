@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Barada's 2027 income tax",
   "terms": L.KEYS,
   "brief": {
     "anim": "twobooks"

@@ -183,7 +183,7 @@
     var seen = {};
     scenes.forEach(function (x) {
       [x.s.kicker, x.s.label].forEach(function (t) {
-        var m = /F\d\d-\d\d/.exec(String(t || ""));
+        var m = /F\d{2,4}-\d{1,3}/.exec(String(t || ""));
         if (m) seen[m[0]] = 1;
       });
     });
@@ -379,7 +379,8 @@
     "nothing external");
   ck(g, "localStorage works from this origin", P.storageWorks === true,
     P.storageWorks ? "progress saved" : "in-memory fallback");
-  ck(g, "Progress is namespaced to this chapter", P.chapter === "ch04", P.chapter);
+  ck(g, "Progress is namespaced to this volume and chapter", P.chapter === "ch04",
+     P.chapter);
   ck(g, "Speech synthesis present", window.Speech.supported,
     window.Speech.supported ? window.Speech.voicesFor("en").length + " en / " +
       window.Speech.voicesFor("ar").length + " ar voices" : "none");

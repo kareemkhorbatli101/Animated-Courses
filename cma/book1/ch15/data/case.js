@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Orontes's 2027 comprehensive income",
   "terms": L.KEYS,
   "brief": {
     "anim": "belowLine"

@@ -79,7 +79,7 @@ window.CHAPTER_TOC = [
   "file": "case.html",
   "kind": "back",
   "n": "◆",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · the Orontes investment portfolio",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
  },
  {

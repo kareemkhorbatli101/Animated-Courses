@@ -1,0 +1,55 @@
+  PASS book_is_verbatim/ch01          355 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch01      the chapter has 826 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch01      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch02          345 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch02      the chapter has 803 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch02      all 41 of the site's own checks pass
+  PASS book_is_verbatim/ch03          352 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch03      the chapter has 807 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch03      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch04          344 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch04      the chapter has 753 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch04      all 41 of the site's own checks pass
+  PASS book_is_verbatim/ch05          353 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch05      the chapter has 765 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch05      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch06          365 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch06      the chapter has 811 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch06      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch07          371 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch07      the chapter has 846 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch07      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch08          354 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch08      the chapter has 809 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch08      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch09          371 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch09      the chapter has 751 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch09      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch10          359 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch10      the chapter has 772 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch10      all 41 of the site's own checks pass
+  PASS book_is_verbatim/ch11          368 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch11      the chapter has 770 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch11      all 42 of the site's own checks pass
+  PASS book_is_verbatim/ch12          372 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch12      the chapter has 894 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch12      all 41 of the site's own checks pass
+  PASS book_is_verbatim/ch13          346 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch13      the chapter has 885 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch13      all 40 of the site's own checks pass
+  PASS book_is_verbatim/ch14          359 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch14      the chapter has 867 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch14      all 41 of the site's own checks pass
+  PASS book_is_verbatim/ch15          345 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch15      the chapter has 864 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch15      all 40 of the site's own checks pass
+  PASS book_is_verbatim/ch16          327 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch16      the chapter has 843 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch16      all 41 of the site's own checks pass
+  PASS book_is_verbatim/ch17          361 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch17      the chapter has 1011 distinct words; the baseline holds 100.0% of them, 0 absent
+  FAIL site_provenance_lock/ch17      2 failing check(s); harness verdict missing
+  PASS book_is_verbatim/ch18          353 blocks verbatim against CMA_P1_Book2_volume_v1.0.docx (sha dbb9d303bf5c)
+  PASS baseline_is_the_book/ch18      the chapter has 803 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch18      all 41 of the site's own checks pass
+RESULT: FAIL

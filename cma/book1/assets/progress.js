@@ -48,6 +48,19 @@
      does not wipe the other. */
   var CH = String(root.CHAPTER_ID || "ch01");
 
+  /* THE VOLUME'S OWN PREFIX, taken off the chapter id by dropping its trailing number.
+     Book 1's chapters are stored as "ch07", Book 2's as "b2ch07" - qualified because
+     localStorage is per ORIGIN and both books are served from the same site, so an
+     unqualified "ch07" would have shown a Book 2 learner their Book 1 progress.
+
+     allChapters() below walked every key beginning "ch", which is right for Book 1 and
+     finds NOTHING for any later volume: Book 2's hub would have shown an empty
+     "all chapters" panel, and an empty panel looks like a learner who has not started.
+     Deriving the prefix keeps each volume's roll-up to its own chapters, and for Book 1
+     the prefix is "ch" and the behaviour is exactly what it was. */
+  var BOOK_PREFIX = CH.replace(/\d+$/, "") || "ch";
+  var CH_KEY = new RegExp("^(" + BOOK_PREFIX + "\\d+)\\.([^.]+)\\.(count|done)$");
+
   /* ---- the chapter's 13 pages, in the book's order. One definition, used by
          the rail, the hub, prev/next and the review page. ---- */
   var CH01_TOC = [
@@ -116,8 +129,8 @@
      nothing stored is indistinguishable from one that does not exist. */
   function allChapters() {
     var out = {};
-    keysWithPrefix("ch").forEach(function (k) {
-      var m = /^(ch\d+)\.([^.]+)\.(count|done)$/.exec(k);
+    keysWithPrefix(BOOK_PREFIX).forEach(function (k) {
+      var m = CH_KEY.exec(k);
       if (!m) return;
       var c = out[m[1]] || (out[m[1]] = { chapter: m[1], items: 0, done: 0, pages: 0 });
       var v = Number(get(k) || 0);

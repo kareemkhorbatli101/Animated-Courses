@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Barada's liabilities at the end of 2027",
   "terms": L.KEYS,
   "brief": {
     "anim": "refinance"

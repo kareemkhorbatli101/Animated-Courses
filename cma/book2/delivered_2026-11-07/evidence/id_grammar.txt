@@ -1,0 +1,140 @@
+BOOK 1  CMA_P1_Book1_volume_v1.3.docx
+======================================================================================
+chapters: 18
+
+  ch  figure-tag stems          case-tag stems      section stems   n.fig  n.case
+  ----------------------------------------------------------------------------------
+   1  F01                      C1                  1                  31     14
+   2  F02                      C2                  2                  29     16
+   3  F03                      C3                  3                  30     16
+   4  F04                      C4                  4                  30     16
+   5  F05                      C5                  5                  29     16
+   6  F01,F06                  C6                  6                  28     16
+   7  F07                      C7                  7                  26     16
+   8  F08                      C8                  8                  30     16
+   9  F09                      C9                  9                  24     16
+  10  F10                      C10                 10                 28     16
+  11  F11                      C11                 11                 35     16
+  12  F12                      C12                 12                 34     16
+  13  F13                      C13                 13                 34     16
+  14  F14                      C14                 14                 32     16
+  15  F15                      C15                 15                 31     16
+  16  F16                      C16                 16                 36     16
+  17  F17                      C17                 17                 30     16
+  18  F18                      C18                 18                 27     16
+
+  figure stems seen : F01(33), F02(29), F03(30), F04(30), F05(29), F06(26), F07(26), F08(30), F09(24), F10(28), F11(35), F12(34), F13(34), F14(32), F15(31), F16(36), F17(30), F18(27)
+  case stems seen   : C1(14), C10(16), C11(16), C12(16), C13(16), C14(16), C15(16), C16(16), C17(16), C18(16), C2(16), C3(16), C4(16), C5(16), C6(16), C7(16), C8(16), C9(16)
+  section stems seen: 1(7), 2(6), 3(6), 4(6), 5(6), 6(4), 7(6), 8(6), 9(5), 10(6), 11(7), 12(6), 13(6), 14(7), 15(7), 16(7), 17(7), 18(7)
+
+  what the stem IS, per chapter (this is what fid() must return)
+     chapters whose figure stem is the bare chapter  (F%02d)      : 18
+     chapters whose figure stem is book+chapter      (F1%02d)    : 0
+     chapters with figure tags of some OTHER shape                : 0
+     chapters with no figure tags at all                          : 0
+
+BOOK 2  CMA_P1_Book2_volume_v1.0.docx
+======================================================================================
+chapters: 18
+
+  ch  figure-tag stems          case-tag stems      section stems   n.fig  n.case
+  ----------------------------------------------------------------------------------
+   1  F201                     C201                1                  26     16
+   2  F202                     C202                2                  27     16
+   3  F203                     C203                3                  27     16
+   4  F204                     C204                4                  25     16
+   5  F205                     C205                5                  26     16
+   6  F206                     C206                6                  28     16
+   7  F207                     C207                7                  31     16
+   8  F208                     C208                8                  32     16
+   9  F209                     C209                9                  31     16
+  10  F210                     C210                10                 29     16
+  11  F211                     C211                11                 30     16
+  12  F212                     C212                12                 30     16
+  13  F213                     C213                13                 32     16
+  14  F214                     C214                14                 33     16
+  15  F215                     C215                15                 30     16
+  16  F216                     C216                16                 30     16
+  17  F217                     C217                17                 30     16
+  18  F218                     C218                18                 31     16
+
+  figure stems seen : F201(26), F202(27), F203(27), F204(25), F205(26), F206(28), F207(31), F208(32), F209(31), F210(29), F211(30), F212(30), F213(32), F214(33), F215(30), F216(30), F217(30), F218(31)
+  case stems seen   : C201(16), C202(16), C203(16), C204(16), C205(16), C206(16), C207(16), C208(16), C209(16), C210(16), C211(16), C212(16), C213(16), C214(16), C215(16), C216(16), C217(16), C218(16)
+  section stems seen: 1(6), 2(6), 3(7), 4(6), 5(6), 6(7), 7(7), 8(6), 9(7), 10(7), 11(7), 12(7), 13(6), 14(7), 15(6), 16(5), 17(7), 18(6)
+
+  what the stem IS, per chapter (this is what fid() must return)
+     chapters whose figure stem is the bare chapter  (F%02d)      : 0
+     chapters whose figure stem is book+chapter      (F2%02d)    : 18
+     chapters with figure tags of some OTHER shape                : 0
+     chapters with no figure tags at all                          : 0
+
+BOOK 3  CMA_P1_Book3_volume_v1.0.docx
+======================================================================================
+chapters: 18
+
+  ch  figure-tag stems          case-tag stems      section stems   n.fig  n.case
+  ----------------------------------------------------------------------------------
+   1  F301                     C301                1                  28     16
+   2  F302                     C302                2                  32     16
+   3  F303                     C303                3                  30     16
+   4  F304                     C304                4                  31     16
+   5  F305                     C305                5                  30     16
+   6  F306                     C306                6                  29     16
+   7  F307                     C307                7                  28     16
+   8  F308                     C308                8                  28     16
+   9  F309                     C309                9                  30     16
+  10  F310                     C310                10                 28     16
+  11  F311                     C311                11                 28     16
+  12  F312                     C312                12                 32     16
+  13  F313                     C313                13                 28     16
+  14  F314                     C314                14                 26     16
+  15  F315                     C315                15                 26     16
+  16  F316                     C316                16                 26     16
+  17  F317                     C317                17                 30     16
+  18  F318                     C318                18                 26     16
+
+  figure stems seen : F301(28), F302(32), F303(30), F304(31), F305(30), F306(29), F307(28), F308(28), F309(30), F310(28), F311(28), F312(32), F313(28), F314(26), F315(26), F316(26), F317(30), F318(26)
+  case stems seen   : C301(16), C302(16), C303(16), C304(16), C305(16), C306(16), C307(16), C308(16), C309(16), C310(16), C311(16), C312(16), C313(16), C314(16), C315(16), C316(16), C317(16), C318(16)
+  section stems seen: 1(6), 2(7), 3(7), 4(6), 5(6), 6(6), 7(5), 8(5), 9(6), 10(6), 11(6), 12(6), 13(4), 14(6), 15(6), 16(6), 17(6), 18(6)
+
+  what the stem IS, per chapter (this is what fid() must return)
+     chapters whose figure stem is the bare chapter  (F%02d)      : 0
+     chapters whose figure stem is book+chapter      (F3%02d)    : 18
+     chapters with figure tags of some OTHER shape                : 0
+     chapters with no figure tags at all                          : 0
+
+BOOK 4  CMA_P1_Book4_volume_v1.0.docx
+======================================================================================
+chapters: 18
+
+  ch  figure-tag stems          case-tag stems      section stems   n.fig  n.case
+  ----------------------------------------------------------------------------------
+   1  F401                     C401                1                  16     25
+   2  F402                     C402                2                  19     25
+   3  F403                     C403                3                  18     25
+   4  F404                     C404                4                  20     25
+   5  F405                     C405                5                  22     25
+   6  F406                     C406                6                  16     25
+   7  F407                     C407                7                  17     25
+   8  F408                     C408                8                  19     25
+   9  F409                     C409                9                  14     25
+  10  F409,F410                C410                10                 19     25
+  11  F411                     C411                11                 18     25
+  12  F412                     C412                12                 20     25
+  13  F413                     C413                13                 19     25
+  14  F410,F414                C414                14                 18     25
+  15  F415                     C415                15                 19     25
+  16  F415,F416                C416                16                 18     25
+  17  F417                     C417                17                 18     25
+  18  F415,F417,F418           C418                18                 20     25
+
+  figure stems seen : F401(16), F402(19), F403(18), F404(20), F405(22), F406(16), F407(17), F408(19), F409(15), F410(19), F411(18), F412(20), F413(19), F414(17), F415(21), F416(17), F417(21), F418(16)
+  case stems seen   : C401(25), C402(25), C403(25), C404(25), C405(25), C406(25), C407(25), C408(25), C409(25), C410(25), C411(25), C412(25), C413(25), C414(25), C415(25), C416(25), C417(25), C418(25)
+  section stems seen: 1(5), 2(5), 3(6), 4(6), 5(7), 6(5), 7(5), 8(7), 9(5), 10(6), 11(7), 12(6), 13(7), 14(5), 15(7), 16(6), 17(7), 18(6)
+
+  what the stem IS, per chapter (this is what fid() must return)
+     chapters whose figure stem is the bare chapter  (F%02d)      : 0
+     chapters whose figure stem is book+chapter      (F4%02d)    : 18
+     chapters with figure tags of some OTHER shape                : 0
+     chapters with no figure tags at all                          : 0
+

@@ -1,0 +1,101 @@
+BOOK-1 COUPLING IN THE CMA TOOLCHAIN
+======================================================================================
+file                       lines   PATH   KEYED   id regexes with the chapter interpolated
+--------------------------------------------------------------------------------------
+cma_book.py                355     7      0       2
+cma_terms.py               220     1      0       0
+cma_scenes.py              5929    3      74      32
+cma_index.py               97      1      0       0
+cma_provenance.py          233     1      0       1
+cma_render.py              399     1      0       1
+cma_interactive.py         1072    1      0       0
+cma_crosstie.py            187     1      0       0
+cma_depth.py               263     0      17      1
+--------------------------------------------------------------------------------------
+TOTAL                      8755    16     91      37
+
+THE TABLES KEYED BY A BARE CHAPTER NUMBER - each must gain the book
+======================================================================================
+   BRIEF_ANIM_BY_CHAPTER      27 rows
+   SUMMARY_CLOZE              17 rows
+   CASE_RULES                 17 rows
+   FLOORS                     17 rows
+   DUPLICATE_OPTIONS          5 rows
+   TRAPS                      4 rows
+   EXTENDED_EXAMPLE           4 rows
+                              91 rows TOTAL
+
+Left alone, Book 1 chapter 5's row answers for Book 2 chapter 5 - silently, and
+with the author's own sentences, so a provenance check would pass it. `.get(n)`
+returning an empty dict is the mechanism: a missing row reads as 'nothing to
+add', never as 'wrong book'.
+
+THE ID REGEXES WITH THE CHAPTER NUMBER INTERPOLATED (37 lines)
+======================================================================================
+These are the lines the author's leading `2` breaks. Each finds ZERO on Book 2
+and zero is indistinguishable from clean.
+   cma_book.py:219  m = re.search(r"F%02d-\d+" % n, seq[j]["t"])
+   cma_book.py:225  name = ("%s%s" % (tag, ext)) if tag else ("ch%02d-img%04d%s" % (n, i, ext))
+   cma_scenes.py:386  return _sort("classify", "Figure F%02d-04" % n,
+   cma_scenes.py:501  "kicker": "Figure F%02d-02" % n,
+   cma_scenes.py:566  "kicker": "Figure F%02d-02" % n,
+   cma_scenes.py:582  m = re.search(r"F%02d-\d+" % n, seq[j]["t"])
+   cma_scenes.py:599  m = re.search(r"F%02d-\d+" % n, b.get("t", ""))
+   cma_scenes.py:728  return _sort("ctg-accrue", "Figure F%02d-07" % n,
+   cma_scenes.py:742  return _sort("ctg-disclose", "Figure F%02d-07" % n,
+   cma_scenes.py:1254  if str(b.get("k", "")).startswith("Heading") and re.match(r"^%d\.\d" % n, t):
+   cma_scenes.py:1258  m = re.search(r"F%02d-\d\d" % n, t)
+   cma_scenes.py:1404  if str(b.get("k", "")).startswith("Heading") and re.match(r"^%d\.\d" % n, t):
+   cma_scenes.py:1414  m = re.search(r"F%02d-\d\d" % n, body)
+   cma_scenes.py:1843  if tag == "F%02d-01" % n:
+   cma_scenes.py:1855  m = re.match(r"^(%d\.\d+)" % n, t)
+   cma_scenes.py:2243  m = re.match(r"^(%d\.\d+)" % n, t)
+   cma_scenes.py:2263  pid = "s%d-%s" % (n, cur.split(".")[1])
+   cma_scenes.py:2290  m = re.match(r"^(%d\.\d+)" % n, t)
+   cma_scenes.py:2310  pid = "s%d-%s" % (n, cur.split(".")[1])
+   cma_scenes.py:3980  cp = "C%d-" % n
+   cma_scenes.py:4269  if nxt and nxt["k"] == "p" and not re.match(r"^C%d-\d" % n, nxt["t"].strip()):
+   cma_scenes.py:4297  m = re.search(r"F%02d-\d+" % n, b.get("t", ""))
+   cma_scenes.py:4978  if re.match(r"^%d\.\d" % n, s["title"].strip())])
+   cma_scenes.py:4986  return ["s%d-%d" % (n, i) for i in range(1, sections + 1)] + list(BACK_MATTER)
+   cma_scenes.py:5014  if str(b.get("k", "")).startswith("Heading") and re.match(r"^%d\.\d" % n, t):
+   cma_scenes.py:5088  if page["id"].startswith("s%d-" % n):
+   cma_scenes.py:5163  "kind": "section" if pid.startswith("s%d-" % n) else "back",
+   cma_scenes.py:5174  "window.CHAPTER_ID = \"ch%02d\";\n"
+   cma_scenes.py:5175  "window.CHAPTER_LABEL = \"Chapter %d\";\n"
+   cma_scenes.py:5176  "window.CHAPTER_MARK = \"C%d\";\n"
+   cma_scenes.py:5308  road = "F%02d-01" % n
+   cma_scenes.py:5741  for m in [re.match(r"^C%d-\d" % n, b["t"].strip())] if m})
+   cma_scenes.py:5776  figids=_j.dumps(sorted(t for t in figs if t != "F%02d-01" % n)),
+   cma_scenes.py:5777  nfigscene=len([t for t in figs if t != "F%02d-01" % n]),
+   cma_provenance.py:180  r_bad = run_qa(site, patch=("ch%02d/data/s%d-1.js" % (n, n), "\n" + plant), n=n)
+   cma_render.py:312  if re.match(r"^s%d-\d+\.html$" % cn, f)])
+   cma_depth.py:133  allf = set(CS.all_figures(d, n)) - {"F%02d-01" % n}
+
+THE PUBLISHED SITE
+======================================================================================
+book1/ holds 686 files (plan_* excluded)
+assets/ has 91 entries: 70 are per-chapter data, 21 are shared renderers/chrome
+
+the shared ones - what Book 2 needs a copy of, or a shared home for:
+   answers-view.js
+   brief.js
+   figure.js
+   figures
+   grid.js
+   hub.js
+   icons.js
+   ledger.js
+   lines.js
+   objects.js
+   objects2.js
+   objects3.js
+   objects4.js
+   objects5.js
+   progress.js
+   provenance.js
+   scene.js
+   site.css
+   source-text.js
+   speech.js
+   terms-merge.js

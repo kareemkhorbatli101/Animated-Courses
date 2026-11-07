@@ -1,0 +1,54 @@
+### CHAPTER 1
+A cost object is anything whose cost is measured. Direct and indirect depend on the cost object; product and period costs decide whether a cost waits in inventory or is expensed at once. Indirect costs are grouped in pools and assigned with bases that should cause the cost. Product costs flow from raw materials to work in process, finished goods and cost of goods sold, and the schedule of cost of goods manufactured records that flow.
+
+### CHAPTER 2
+Variable costs change in total with activity and are constant per unit. Fixed costs are constant in total and fall per unit as activity rises. Mixed costs have both parts, and step costs jump at set levels. These rules hold only inside the relevant range and for a stated time frame; in the long run all costs can change. Account analysis separates each cost into its fixed and variable parts to give a cost function for budgets.
+
+### CHAPTER 3
+A cost function has a fixed part and a variable rate. The high-low method draws a line through the highest and lowest activity months; it is quick but uses only two points. Simple regression fits the best line through all points and reports R², t-statistics and the standard error. To forecast, put the activity in x and stay inside the relevant range. The intercept estimates fixed cost within that range. Multiple regression adds more drivers, each with its own rate.
+
+### CHAPTER 4
+Labor time per unit falls as workers repeat a task. Under the cumulative average-time model, each doubling of cumulative output makes the new average equal to the learning rate times the old one. The doubling table gives totals at doublings; the formula Y = aX^b gives any quantity. Cost later orders with their incremental hours, and apply learning only to labor and labor-driven costs. Learning curves and regression both improve estimates, but both rest on assumptions that must be checked.
+
+### CHAPTER 5
+Actual costing uses actual materials, labor and overhead; it is exact but late, and its unit cost moves with volume. Normal costing applies overhead at a predetermined rate times the actual base, which gives timely, smooth costs. Standard costing values the standard quantities allowed at standard prices and records the differences as variances. Variable overhead is the sum of its components; choose a base that drives them, and multiply the rate by the base per unit.
+
+### CHAPTER 6
+Job order costing collects costs for each separate job on a job cost sheet. Direct materials and direct labor come from requisitions and time tickets; overhead is applied at a predetermined rate times the actual base. Indirect costs go to Manufacturing Overhead Control. Open job sheets equal work in process, finished unsold sheets equal finished goods, and sold jobs make up cost of goods sold. Job costing gives accurate order costs but needs detailed records, and its overhead is still an allocation.
+
+### CHAPTER 7
+Process costing collects costs by department for identical units, and transferred-in cost moves with the product like a material added at the start. Equivalent units express partly finished work as whole units; the exam tests only the idea. Normal spoilage is part of the cost of good units, abnormal spoilage is a period loss, and the normal rate is based on good output. In job costing, spoilage goes to the job, to overhead or to a loss. Accurate costs support pricing, product mix and quality decisions.
+
+### CHAPTER 8
+A plantwide rate is simple, while departmental and cost-driver rates follow the real drivers and give more accurate costs at a higher record-keeping cost. Fixed overhead is the cost of capacity; its rate is budgeted fixed overhead divided by a chosen capacity level, and Orontes uses normal capacity. Overhead becomes under- or overapplied through spending, volume and efficiency. At year-end an immaterial difference is closed to COGS and a material one is prorated on the overhead applied in WIP, finished goods and COGS.
+
+### CHAPTER 9
+Absorption costing includes fixed manufacturing overhead in inventory; variable costing expenses it in the period. The contribution margin is sales minus all variable costs. Income differs only by the fixed overhead that enters or leaves inventory: the change in inventory units times the fixed rate. The capacity level in the denominator changes unit cost, inventory values and pricing; practical capacity shows the cost of unused capacity and helps avoid a downward demand spiral.
+
+### CHAPTER 10
+Service department costs are allocated so that products carry full cost and users value the services. Bases should follow cause and effect. The direct method ignores service-to-service links, the step-down method recognizes them in one direction, and the reciprocal method recognizes them all. Budgeted dual rates charge variable cost on use and fixed cost on planned capacity, so users do not pay for the service department's waste or idle capacity.
+
+### CHAPTER 11
+Joint products have significant value; by-products have small value. Costs before the split-off point are joint and must be allocated; costs after it are separable. By-products reduce joint cost at NRV under the production method or become income when sold under the sales method. The physical measure, sales value at split-off, NRV and constant gross-margin methods all share the same joint cost in different ways. Joint costs are irrelevant to the decision to process further.
+
+### CHAPTER 12
+One volume rate overcosts simple, high-volume products and undercosts complex ones. ABC assigns resources to activity pools with resource drivers and pools to products with activity drivers. Costs sit at unit, batch, product-sustaining and facility levels. Each rate is the pool cost divided by the driver quantity. ABC uses the normal accounts, changes inventory values and gives better information for pricing and product decisions, at the cost of more data and judgment.
+
+### CHAPTER 13
+Service companies use ABC to trace their mostly indirect costs through activities. Profit by customer starts from net revenue, after rebates and listing fees, and deducts product cost, the cost to serve and customer-sustaining costs. The whale curve shows that a few customers earn more than the total profit. Managers are judged on controllable margin, and a customer or product is dropped only when the lost revenue is smaller than the costs that would really go away.
+
+### CHAPTER 14
+Life-cycle costing adds upstream, manufacturing and downstream costs so that a product is judged on everything it costs. Most costs are committed at the design stage, long before they are incurred. Value chain analysis studies Porter's primary and support activities in five steps, and shows whether a company competes on low cost or on valued differences. Removing non-value-added activities lowers cost without reducing value to customers.
+
+### CHAPTER 15
+Process analysis maps and measures each step of a process. Reengineering redesigns the process radically, and its net saving is the old cost minus the new cost minus the cost of the change. Best practice analysis adapts what leaders do. Benchmarking compares processes with internal units, competitors, functional leaders or the best organizations anywhere, using the same definitions on both sides, and it creates a lasting advantage only if it continues.
+
+### CHAPTER 16
+Continuous improvement raises quality in many small steps, using kaizen, the PDCA cycle, total quality management and Six Sigma. The ideal standard shows the direction, while attainable standards move toward it each year. The cost of quality has four parts: prevention, appraisal, internal failure and external failure, including hidden lost sales. Spending more on prevention pays when failure and appraisal costs fall by more, and the financial impact is always the net change.
+
+### CHAPTER 17
+Supply chain management coordinates goods, information and money across companies. Lean removes the eight wastes and brings benefits in time, space and quality. MRP plans materials from the production schedule by netting gross needs against stock and receipts. JIT pulls materials only when needed, and ERP links every function through one database. Outsourcing is judged on avoidable cost plus its risks, and every change is valued by its yearly effect and any one-time release of cash.
+
+### CHAPTER 18
+Standards turn into budgets by multiplying the cost per unit by planned output, and later measure actual performance. Currently attainable standards allow for normal loss and breaks; ideal standards show the direction of improvement. Participative standards build acceptance, while management keeps the final decision. A price standard includes discounts, freight and receiving; a quantity standard includes normal loss; labor standards add allowances and benefits. Activity analysis and historical data are used together to set standards that are demanding but fair.
+

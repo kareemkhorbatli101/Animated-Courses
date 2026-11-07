@@ -1,0 +1,37 @@
+=== DEPTH book 2 --teeth ===
+  PASS no chapter asks about fewer of the author's figures than it did 107 of 238 figures asked (45%); the target is 70% in every chapter
+  PASS no chapter builds fewer instruments than it did                287 of 961 exercises are instruments the site builds (30%); the target is 45% in every chapter
+  PASS no chapter uses fewer instrument kinds than it did             12 chapters are still under the target of 10 kinds: ch01, ch03, ch04, ch06, ch07, ch08, ch13, ch14, ch15, ch16, ch17, ch18
+  PASS every chapter wires at least 4 named traps                     72 traps across 18 chapters
+  PASS every section opens its Brief with a drawing                   116 sections, every one drawn
+  NOTE every chapter of this volume is measured: it has no hand-authored chapter for the generator to refuse.
+
+=== TEETH (both ends) ===
+  clean run: PASS
+  BITES a figure put back on a screen nobody can get wrong
+  BITES an instrument replaced by one of his multiple-choice questions
+  BITES a chapter that drops an instrument kind
+  BITES a chapter whose trap register is emptied
+  BITES a section whose Brief loses its drawing
+  PASS every check has teeth
+
+RESULT: PASS
+
+=== DEPTH book 1 --teeth ===
+  PASS no chapter asks about fewer of the author's figures than it did 109 of 203 figures asked (54%); the target is 70% in every chapter
+  PASS no chapter builds fewer instruments than it did                306 of 1011 exercises are instruments the site builds (30%); the target is 45% in every chapter
+  PASS no chapter uses fewer instrument kinds than it did             2 chapters are still under the target of 10 kinds: ch17, ch18
+  PASS every chapter wires at least 4 named traps                     116 traps across 17 chapters
+  PASS every section opens its Brief with a drawing                   105 sections, every one drawn
+  NOTE chapter 1 is not measured here: its pages predate the generator, so `tools.cma_scenes` refuses to build it and there is nothing here to walk. cma_interactive counts its exercises.
+
+=== TEETH (both ends) ===
+  clean run: PASS
+  BITES a figure put back on a screen nobody can get wrong
+  BITES an instrument replaced by one of his multiple-choice questions
+  BITES a chapter that drops an instrument kind
+  BITES a chapter whose trap register is emptied
+  BITES a section whose Brief loses its drawing
+  PASS every check has teeth
+
+RESULT: PASS

@@ -712,6 +712,423 @@
     return s;
   };
 
+  /* ==================================================================
+   * BOOK 2: COST MANAGEMENT. Twenty-four mechanisms.
+   *
+   * WHY BOOK 2 COULD NOT REUSE THE FORTY-FOUR ABOVE. Every one of them has Book 1's
+   * vocabulary lettered into it - "carrying amount" and "market value", "trading /
+   * available-for-sale / held-to-maturity", "LIFO" and "FIFO", "FASB" and "IASB",
+   * "parent" and "subsidiary", "Net sales -> Gross profit -> Net income". Naming one of
+   * them for a cost-accounting section would have put the wrong words on the screen, and
+   * the registry's own rule is that a Brief with no animation shows none, which is better
+   * than a generic one implying a mechanism the section does not have.
+   *
+   * Same frame(), same bf-* classes, same 320x132 box: no new CSS, nothing new to load,
+   * and each reads correctly with no animation running, which is what a learner who has
+   * asked for reduced motion gets.
+   * ================================================================== */
+
+  /* What volume does to a cost: one line flat, one through the origin, one with a base. */
+  ANIM.costLine = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 40, y1: 108, x2: 300, y2: 108, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 40, y1: 108, x2: 40, y2: 20, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 40, y1: 76, x2: 300, y2: 76, class: "bf-flow" }));
+    txt(s, 304, 74, "fixed", "bf-tiny");
+    s.appendChild(svg("path", { d: "M 40 108 L 300 36", class: "bf-flow2" }));
+    txt(s, 304, 36, "variable", "bf-tiny");
+    s.appendChild(svg("path", { d: "M 40 92 L 300 24", class: "bf-flow3 bf-grow" }));
+    txt(s, 304, 22, "mixed", "bf-tiny");
+    s.appendChild(svg("circle", { cx: 40, cy: 92, r: 3, class: "bf-dot" }));
+    txt(s, 170, 126, "total cost against activity", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* A pool, the base that should cause it, and the object it lands on. */
+  ANIM.poolBase = function () {
+    var s = frame();
+    s.appendChild(svg("path", { d: "M 24 28 H 92 L 84 76 H 32 Z", class: "bf-band1" }));
+    txt(s, 58, 20, "cost pool", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 96 52 H 200", class: "bf-flow bf-slide" }));
+    txt(s, 148, 44, "allocation base", "bf-mid bf-tiny");
+    txt(s, 148, 68, "the base should CAUSE the cost", "bf-mid bf-tiny");
+    rect(s, 206, 28, 90, 48, "bf-band3");
+    txt(s, 251, 20, "cost object", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 24, y1: 100, x2: 296, y2: 100, class: "bf-base" }));
+    [60, 110, 160, 210, 260].forEach(function (x) {
+      s.appendChild(svg("line", { x1: x, y1: 100, x2: x, y2: 110, class: "bf-base" }));
+    });
+    txt(s, 170, 126, "measured driver quantity", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Materials, in process, finished, sold: the cost moves with the goods. */
+  ANIM.threeBoxes = function () {
+    var s = frame();
+    [["raw materials", 16], ["work in process", 116], ["finished goods", 216]]
+      .forEach(function (b, i) {
+        rect(s, b[1], 34, 88, 42, "bf-band" + i);
+        txt(s, b[1] + 44, 28, b[0], "bf-mid bf-tiny");
+      });
+    s.appendChild(svg("path", { d: "M 106 55 H 114", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 206 55 H 214", class: "bf-flow bf-flow2" }));
+    s.appendChild(svg("path", { d: "M 260 80 V 100", class: "bf-flow3 bf-slide" }));
+    txt(s, 260, 118, "cost of goods sold", "bf-mid bf-tiny");
+    txt(s, 160, 100, "cost of goods manufactured", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Three bars, two brackets: the middle one belongs to both totals. */
+  ANIM.primeConv = function () {
+    var s = frame();
+    [["direct materials", 30], ["direct labor", 126], ["overhead", 222]]
+      .forEach(function (b, i) {
+        rect(s, b[1], 30, 72, 46, "bf-band" + (i + 1));
+        txt(s, b[1] + 36, 24, b[0], "bf-mid bf-tiny");
+      });
+    s.appendChild(svg("path", { d: "M 30 86 V 94 H 198 V 86", class: "bf-beam" }));
+    txt(s, 114, 108, "prime cost", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 126 100 V 114 H 294 V 100", class: "bf-beam bf-pulse" }));
+    txt(s, 210, 128, "conversion cost", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* The rate is a fraction, and the denominator is a choice. */
+  ANIM.rateFraction = function () {
+    var s = frame();
+    rect(s, 78, 20, 164, 32, "bf-band1");
+    txt(s, 160, 40, "budgeted overhead", "bf-mid bf-sm");
+    s.appendChild(svg("line", { x1: 60, y1: 64, x2: 260, y2: 64, class: "bf-beam" }));
+    rect(s, 78, 76, 164, 32, "bf-band3");
+    txt(s, 160, 96, "chosen capacity level", "bf-mid bf-sm");
+    txt(s, 286, 68, "= rate", "bf-tiny");
+    txt(s, 160, 126, "a different denominator, a different unit cost",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Applied is an estimate; actual is what happened. The gap has a name. */
+  ANIM.appliedActual = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 30, y1: 104, x2: 290, y2: 104, class: "bf-base" }));
+    rect(s, 72, 44, 54, 60, "bf-band1");
+    txt(s, 99, 36, "applied", "bf-mid bf-tiny");
+    rect(s, 186, 26, 54, 78, "bf-band3");
+    txt(s, 213, 18, "actual", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 72, y1: 44, x2: 240, y2: 44, class: "bf-cut" }));
+    rect(s, 186, 26, 54, 18, "bf-pulse");
+    txt(s, 160, 122, "underapplied: the gap is still in the accounts",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* One job, its three costs, and the ledger that totals every job. */
+  ANIM.jobCard = function () {
+    var s = frame();
+    rect(s, 26, 18, 150, 96, "bf-card");
+    txt(s, 101, 34, "job cost sheet", "bf-mid bf-tiny");
+    [["materials requisition", 54], ["labor time ticket", 74], ["overhead applied", 94]]
+      .forEach(function (r, i) {
+        s.appendChild(svg("line", { x1: 40, y1: r[1], x2: 162, y2: r[1],
+                                    class: "bf-flow" + (i ? i + 1 : "") }));
+        txt(s, 101, r[1] - 4, r[0], "bf-mid bf-tiny");
+      });
+    s.appendChild(svg("path", { d: "M 182 66 H 206", class: "bf-flow bf-slide" }));
+    rect(s, 212, 34, 82, 64, "bf-band2");
+    txt(s, 253, 26, "Overhead Control", "bf-mid bf-tiny");
+    txt(s, 253, 70, "every job", "bf-mid bf-tiny");
+    txt(s, 160, 128, "open sheets ARE work in process", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Part of a unit is still a cost: two half-finished make one equivalent unit. */
+  ANIM.equivUnits = function () {
+    var s = frame();
+    rect(s, 36, 26, 68, 76, "bf-base");
+    rect(s, 36, 64, 68, 38, "bf-band1 bf-rise");
+    txt(s, 70, 20, "60% complete", "bf-mid bf-tiny");
+    rect(s, 128, 26, 68, 76, "bf-base");
+    rect(s, 128, 72, 68, 30, "bf-band1 bf-rise");
+    txt(s, 162, 20, "40% complete", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 204 64 H 226", class: "bf-flow" }));
+    rect(s, 232, 26, 62, 76, "bf-band3");
+    txt(s, 263, 20, "1 equivalent", "bf-mid bf-tiny");
+    txt(s, 160, 122, "partly finished work, expressed as whole units",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* The inspection point, and the three places a bad unit can go. */
+  ANIM.spoilGate = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 16, y1: 48, x2: 304, y2: 48, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 160, y1: 20, x2: 160, y2: 48, class: "bf-cut" }));
+    s.appendChild(svg("circle", { cx: 160, cy: 18, r: 5, class: "bf-dot bf-pulse" }));
+    txt(s, 160, 12, "inspection point", "bf-mid bf-tiny");
+    rect(s, 262, 32, 40, 14, "bf-band3");
+    txt(s, 282, 28, "good", "bf-mid bf-tiny");
+    [["normal: to the good units", 20], ["abnormal: a period loss", 112],
+     ["scrap: at disposal value", 204]].forEach(function (b, i) {
+      rect(s, b[1], 70, 96, 30, "bf-band" + i);
+      txt(s, b[1] + 48, 112, b[0], "bf-mid bf-tiny");
+    });
+    return s;
+  };
+
+  /* Before the split-off point the cost is joint; after it, it belongs to one product. */
+  ANIM.splitPoint = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 16, y1: 66, x2: 140, y2: 66, class: "bf-beam" }));
+    txt(s, 76, 58, "joint cost", "bf-mid bf-tiny");
+    s.appendChild(svg("circle", { cx: 148, cy: 66, r: 6, class: "bf-dot bf-pulse" }));
+    txt(s, 148, 50, "split-off point", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 156 60 L 254 34", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 156 72 L 254 98", class: "bf-flow2" }));
+    rect(s, 258, 22, 44, 24, "bf-band1");
+    txt(s, 280, 16, "joint product", "bf-mid bf-tiny");
+    rect(s, 258, 86, 44, 24, "bf-band4");
+    txt(s, 280, 122, "by-product", "bf-mid bf-tiny");
+    txt(s, 205, 84, "separable", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* A cost sits at the level that drives it, not at the unit by default. */
+  ANIM.abcLevels = function () {
+    var s = frame();
+    [["unit", 26, 40], ["batch", 50, 80], ["product-sustaining", 74, 130],
+     ["facility-sustaining", 98, 180]].forEach(function (b, i) {
+      rect(s, 160 - b[2] / 2, b[1], b[2], 20, "bf-band" + i);
+      txt(s, 160, b[1] + 14, b[0], "bf-mid bf-tiny");
+    });
+    txt(s, 160, 128, "one rate for everything flattens this", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Service departments serve production - and sometimes each other. */
+  ANIM.svcArrows = function () {
+    var s = frame();
+    rect(s, 20, 20, 84, 32, "bf-band0");
+    txt(s, 62, 40, "maintenance", "bf-mid bf-tiny");
+    rect(s, 20, 72, 84, 32, "bf-band0");
+    txt(s, 62, 92, "canteen", "bf-mid bf-tiny");
+    rect(s, 216, 20, 84, 32, "bf-band3");
+    txt(s, 258, 40, "blending", "bf-mid bf-tiny");
+    rect(s, 216, 72, 84, 32, "bf-band3");
+    txt(s, 258, 92, "bottling", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 110 34 H 210", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 110 88 H 210", class: "bf-flow2" }));
+    s.appendChild(svg("path", { d: "M 62 58 V 66", class: "bf-flow3 bf-pulse" }));
+    txt(s, 160, 126, "step-down allows one direction; reciprocal both",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Which capacity goes in the denominator decides the unit cost. */
+  ANIM.capacityJar = function () {
+    var s = frame();
+    s.appendChild(svg("path", { d: "M 110 18 V 104 H 210 V 18", class: "bf-base" }));
+    rect(s, 110, 60, 100, 44, "bf-band1 bf-rise");
+    [["theoretical", 24], ["practical", 42], ["master budget", 72]]
+      .forEach(function (m, i) {
+        s.appendChild(svg("line", { x1: 86, y1: m[1], x2: 110, y2: m[1],
+                                    class: i === 1 ? "bf-beam" : "bf-base" }));
+        txt(s, 78, m[1] + 4, m[0], "bf-tiny bf-end");
+      });
+    txt(s, 236, 46, "unused", "bf-tiny");
+    txt(s, 236, 60, "capacity", "bf-tiny");
+    txt(s, 160, 126, "a smaller denominator makes every unit look dearer",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Two points, or all of them. */
+  ANIM.scatterLine = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 40, y1: 104, x2: 300, y2: 104, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 40, y1: 104, x2: 40, y2: 18, class: "bf-base" }));
+    [[70, 88], [100, 76], [130, 70], [160, 56], [196, 48], [250, 30]]
+      .forEach(function (p, i) {
+        s.appendChild(svg("circle", { cx: p[0], cy: p[1], r: 3.5,
+                                      class: (i === 0 || i === 5) ? "bf-dot bf-pulse" : "bf-dot" }));
+      });
+    s.appendChild(svg("path", { d: "M 70 88 L 250 30", class: "bf-cut" }));
+    txt(s, 286, 26, "high-low", "bf-tiny");
+    s.appendChild(svg("path", { d: "M 40 96 L 300 26", class: "bf-flow bf-grow" }));
+    txt(s, 286, 100, "regression", "bf-tiny");
+    s.appendChild(svg("circle", { cx: 40, cy: 96, r: 4, class: "bf-dot" }));
+    txt(s, 160, 126, "the intercept is the estimated fixed cost", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Each doubling of output takes the same proportion off the average. */
+  ANIM.learnCurve = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 40, y1: 104, x2: 300, y2: 104, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 40, y1: 104, x2: 40, y2: 18, class: "bf-base" }));
+    s.appendChild(svg("path", { d: "M 40 24 Q 120 92, 300 98", class: "bf-flow bf-grow" }));
+    [[60, 36], [100, 62], [180, 86]].forEach(function (p) {
+      s.appendChild(svg("line", { x1: p[0], y1: 104, x2: p[0], y2: p[1], class: "bf-cut" }));
+      s.appendChild(svg("circle", { cx: p[0], cy: p[1], r: 3.5, class: "bf-dot" }));
+    });
+    txt(s, 60, 118, "1", "bf-mid bf-tiny");
+    txt(s, 100, 118, "2", "bf-mid bf-tiny");
+    txt(s, 180, 118, "4", "bf-mid bf-tiny");
+    txt(s, 170, 132, "cumulative output doubles", "bf-mid bf-tiny");
+    txt(s, 256, 30, "average time per unit", "bf-tiny bf-end");
+    return s;
+  };
+
+  /* The same fixed overhead, on one side of the line or the other. */
+  ANIM.absVar = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 160, y1: 16, x2: 160, y2: 116, class: "bf-cut" }));
+    txt(s, 80, 16, "absorption", "bf-mid bf-tiny");
+    rect(s, 40, 58, 80, 46, "bf-base");
+    rect(s, 40, 26, 80, 30, "bf-band1");
+    txt(s, 80, 46, "fixed OH", "bf-mid bf-tiny");
+    txt(s, 80, 118, "in inventory", "bf-mid bf-tiny");
+    txt(s, 240, 16, "variable", "bf-mid bf-tiny");
+    rect(s, 200, 58, 80, 46, "bf-base");
+    rect(s, 200, 26, 80, 20, "bf-band3 bf-pulse");
+    txt(s, 240, 42, "fixed OH", "bf-mid bf-tiny");
+    txt(s, 240, 118, "expensed now", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* A price and a quantity, agreed before the work is done. */
+  ANIM.stdCard = function () {
+    var s = frame();
+    rect(s, 44, 18, 232, 84, "bf-card");
+    s.appendChild(svg("line", { x1: 160, y1: 18, x2: 160, y2: 102, class: "bf-base" }));
+    rect(s, 64, 36, 76, 24, "bf-band1");
+    txt(s, 102, 30, "price standard", "bf-mid bf-tiny");
+    rect(s, 180, 36, 76, 24, "bf-band3");
+    txt(s, 218, 30, "quantity standard", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 64, y1: 80, x2: 256, y2: 80, class: "bf-beam" }));
+    txt(s, 160, 94, "standard cost of one unit", "bf-mid bf-tiny");
+    txt(s, 160, 124, "attainable allows for normal loss; ideal does not",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Two costs are spent to prevent; two are paid because you did not. */
+  ANIM.qualityFour = function () {
+    var s = frame();
+    [["prevention", 18], ["appraisal", 40]].forEach(function (b, i) {
+      rect(s, 50, b[1], 220, 18, "bf-band" + i);
+      txt(s, 160, b[1] + 13, b[0], "bf-mid bf-tiny");
+    });
+    s.appendChild(svg("line", { x1: 30, y1: 66, x2: 290, y2: 66, class: "bf-cut" }));
+    txt(s, 160, 62, "the unit leaves", "bf-mid bf-tiny");
+    [["internal failure", 72], ["external failure", 94]].forEach(function (b, i) {
+      rect(s, 50, b[1], 220, 18, "bf-band" + (i + 3));
+      txt(s, 160, b[1] + 13, b[0], "bf-mid bf-tiny");
+    });
+    txt(s, 160, 128, "spend above the line and more falls below it",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Who asks for the next unit: the step after, or the step before. */
+  ANIM.pullPush = function () {
+    var s = frame();
+    rect(s, 30, 52, 76, 40, "bf-band1");
+    txt(s, 68, 76, "blending", "bf-mid bf-tiny");
+    rect(s, 214, 52, 76, 40, "bf-band3");
+    txt(s, 252, 76, "bottling", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 208 64 H 112", class: "bf-flow bf-slide" }));
+    txt(s, 160, 56, "pull: the signal travels back", "bf-mid bf-tiny");
+    rect(s, 138, 20, 44, 20, "bf-card bf-pulse");
+    txt(s, 160, 34, "kanban", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 112 84 H 208", class: "bf-flow3" }));
+    txt(s, 160, 104, "push: made to a schedule instead", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Improve a step, then hold the new level. */
+  ANIM.kaizenStair = function () {
+    var s = frame();
+    s.appendChild(svg("path", { d: "M 24 104 H 84 V 84 H 144 V 64 H 204 V 44 H 264 V 26",
+                                class: "bf-flow bf-grow" }));
+    txt(s, 150, 122, "many small steps, held each time", "bf-mid bf-tiny");
+    s.appendChild(svg("circle", { cx: 262, cy: 60, r: 22, class: "bf-ring" }));
+    s.appendChild(svg("path", { d: "M 262 38 A 22 22 0 0 1 284 60",
+                                class: "bf-flow2 bf-orbit" }));
+    txt(s, 262, 64, "PDCA", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* The decision is early; the money is spent late. */
+  ANIM.valueChain = function () {
+    var s = frame();
+    [["research", 16], ["design", 74], ["make", 132], ["market", 190], ["service", 248]]
+      .forEach(function (b, i) {
+        rect(s, b[1], 50, 54, 34, "bf-band" + (i % 5));
+        txt(s, b[1] + 27, 70, b[0], "bf-mid bf-tiny");
+      });
+    s.appendChild(svg("path", { d: "M 101 30 V 46", class: "bf-flow bf-pulse" }));
+    txt(s, 101, 24, "cost locked in here", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 159 100 V 88", class: "bf-flow3" }));
+    txt(s, 170, 114, "and incurred here", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 16, y1: 96, x2: 70, y2: 96, class: "bf-beam" }));
+    txt(s, 43, 110, "upstream", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 190, y1: 40, x2: 302, y2: 40, class: "bf-beam" }));
+    txt(s, 246, 34, "downstream", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Map the steps, then ask which of them a customer would pay for. */
+  ANIM.processMap = function () {
+    var s = frame();
+    rect(s, 20, 50, 62, 34, "bf-band1");
+    txt(s, 51, 70, "receive", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 86 67 H 104", class: "bf-flow" }));
+    s.appendChild(svg("polygon", { points: "136,44 168,67 136,90 104,67", class: "bf-band2" }));
+    txt(s, 136, 70, "check?", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 172 67 H 190", class: "bf-flow2" }));
+    rect(s, 194, 50, 62, 34, "bf-band4");
+    txt(s, 225, 70, "re-type", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 198, y1: 54, x2: 252, y2: 80, class: "bf-cut" }));
+    txt(s, 225, 100, "non-value-added", "bf-mid bf-tiny");
+    txt(s, 51, 100, "value-added", "bf-mid bf-tiny");
+    txt(s, 160, 126, "remove the step; do not do it faster", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* One plan, read by every link in the chain. */
+  ANIM.supplyPlan = function () {
+    var s = frame();
+    rect(s, 108, 16, 104, 30, "bf-band1");
+    txt(s, 160, 36, "one plan", "bf-mid bf-tiny");
+    [["supplier", 30], ["plant", 110], ["depot", 190], ["customer", 262]]
+      .forEach(function (b, i) {
+        s.appendChild(svg("circle", { cx: b[1] + 14, cy: 86, r: 13,
+                                      class: "bf-band" + (i % 5) }));
+        txt(s, b[1] + 14, 114, b[0], "bf-mid bf-tiny");
+        if (i) {
+          s.appendChild(svg("line", { x1: b[1] - 52, y1: 86, x2: b[1] + 1, y2: 86,
+                                      class: "bf-flow" + (i > 1 ? i : "") }));
+        }
+        s.appendChild(svg("line", { x1: b[1] + 14, y1: 73, x2: 160, y2: 50,
+                                    class: "bf-cut" }));
+      });
+    return s;
+  };
+
+  /* Cumulative profit, customer by customer: it rises, then it falls. */
+  ANIM.whaleCurve = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 30, y1: 106, x2: 300, y2: 106, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 30, y1: 106, x2: 30, y2: 18, class: "bf-base" }));
+    s.appendChild(svg("path", { d: "M 30 98 Q 120 14, 196 24 Q 260 32, 300 68",
+                                class: "bf-flow bf-grow" }));
+    s.appendChild(svg("circle", { cx: 192, cy: 23, r: 4, class: "bf-dot bf-pulse" }));
+    txt(s, 192, 16, "total profit", "bf-mid bf-tiny");
+    txt(s, 268, 86, "the tail costs", "bf-mid bf-tiny");
+    txt(s, 160, 126, "a few customers earn more than all of it", "bf-mid bf-tiny");
+    return s;
+  };
+
   /* ------------------------------------------------------------------ *
    * THE PANEL
    * ------------------------------------------------------------------ */

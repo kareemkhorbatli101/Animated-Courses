@@ -95,7 +95,7 @@ window.CHAPTER_TOC = [
   "file": "case.html",
   "kind": "back",
   "n": "◆",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Barada buys Tadmor Retail",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
  },
  {

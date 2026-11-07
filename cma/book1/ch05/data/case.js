@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Barada Wholesale's cash flows in 2026",
   "terms": L.KEYS,
   "brief": {
     "anim": "signs"

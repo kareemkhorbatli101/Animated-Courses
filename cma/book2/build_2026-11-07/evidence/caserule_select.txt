@@ -1,0 +1,358 @@
+  C201-5  Enter cost of goods sold for the quarter.
+      answer: 480,000
+      [ 3] 1.6   The schedules are exam-core: questions often ask for cost of goods manufactured or c
+      [ 2] 1.5   Sold goods move to cost of goods sold.
+      [ 2] 1.5   Finished goods inventory holds completed goods not yet sold.
+
+  C201-6  The best base for assigning factory utilities to halva batches is: [select]
+      answer: machine hours
+      [ 5] 1.3   Tahini & Spreads uses one plantwide pool today: all its overhead is applied with mac
+      [ 4] 1.4   Grinding sesame takes machine time, so machine hours drive grinding power and mainte
+      [ 2] 1.3   Second, each pool is assigned to jobs and products with its own base.
+
+  C201-7  When cost of goods manufactured is higher than cost of goods sold, finished goods in
+      answer: increased
+      [ 4] 1.5   Finished goods inventory holds completed goods not yet sold.
+      [ 4] 1.6   The schedules are exam-core: questions often ask for cost of goods manufactured or c
+      [ 4] 1.5   The cost of goods manufactured is the cost of the goods finished in the period: begi
+
+BOOK 2 CHAPTER 2
+==============================================================================================
+  C202-5  Enter the total fixed cost per month at 80,000 cases (include the fixed parts of mix
+      answer: 23,500
+      [ 4] 2.2   Fixed cost is constant in total but changes per unit: the more hours, the lower the 
+      [ 4] 2.6   Variable cost per hour is flat, fixed cost per hour falls, and so total cost per hou
+      [ 3] 2.2   Variable cost is constant per unit but changes in total.
+
+  C202-6  Cost per case falls from $0.635 at 60,000 cases to $0.579 at 80,000 cases mainly bec
+      answer: fixed costs are spread over more cases
+      [ 6] 2.2   Fixed cost is constant in total but changes per unit: the more hours, the lower the 
+      [ 5] 2.6   Variable cost per hour is flat, fixed cost per hour falls, and so total cost per hou
+      [ 4] 2.5   For maintenance and utilities, Oils uses the fixed monthly contract and the rate per
+
+  C202-7  A cost formula is reliable only inside the ____, where fixed costs stay fixed and th
+      answer: relevant range
+      [ 6] 2.6   Compute total overhead at each volume, check which volumes are inside the relevant r
+      [ 5] 2.6   Fixed overhead is the same in the first three columns; only the variable part moves.
+      [ 5] 2.3   The relevant range is the band of activity in which the cost behavior assumptions ho
+
+BOOK 2 CHAPTER 3
+==============================================================================================
+  C203-5  Enter the fixed cost per month estimated by regression.
+      answer: 9,000
+      [ 3] 3.3   The intercept a is the estimated fixed cost for the period.
+      [ 2] 3.2   The fixed cost is what is left at either point.
+      [ 2] 3.6   Book 4 shows how such equations are estimated and tested.
+
+  C203-6  The regression R² of 0.964 means: [select]
+      answer: about 96% of the variation in delivery cost is explained by the number of deliveries
+      [ 2] 3.6   Suppose Oils also records the number of setups each month.
+      [ 2] 3.6   Multiple regression uses two or more independent variables: y = a + b₁x₁ + b₂x₂.
+      [ 2] 3.3   Each coefficient has a t-statistic: above about 2 means it is reliably different fro
+
+  C203-7  The ____ method uses only two months of data, so one unusual month can distort the e
+      answer: high-low
+      [ 6] 3.7   The high-low line depends on two months only; the regression line passes through the
+      [ 5] 3.2   The high-low method draws a line through two points: the months with the highest and
+      [ 4] 3.1   The first step in every method is to draw a scatter plot: one point for each month, 
+
+BOOK 2 CHAPTER 4
+==============================================================================================
+  C204-5  Enter the direct labor cost budgeted for lots 5 to 8.
+      answer: 15,552
+      [ 2] 4.5   Learning curves correct the labor estimate when the task is new.
+      [ 2] 4.6   Book 3 calls these labor efficiency variances; here they come only from learning.
+      [ 2] 4.6   This example uses the learning curve to cost two orders, sets a price floor for the 
+
+  C204-6  Quarter 2 needs fewer labor hours than quarter 1 for the same number of lots because
+      answer: cumulative output doubles, so the crew works faster
+      [ 7] 4.1   Learning is measured each time cumulative output doubles.
+      [ 5] 4.1   A learning curve shows how labor time per unit falls as cumulative output grows.
+      [ 5] 4.2   At each doubling of cumulative output, the average time for all units so far is the 
+
+  C204-7  Under the cumulative average-time model, each time cumulative output ____, the avera
+      answer: doubles
+      [ 9] 4.2   At each doubling of cumulative output, the average time for all units so far is the 
+      [ 7] 4.1   Learning is measured each time cumulative output doubles.
+      [ 7] 4.3   Y is the cumulative average time per unit, a is the time for the first unit, X is cu
+
+BOOK 2 CHAPTER 5
+==============================================================================================
+  C205-5  Enter the variable overhead applied to job T-0306 (actual machine hours).
+      answer: 7,200
+      [ 4] 5.3   Its limit is that the rate is only an estimate, so applied and actual overhead diffe
+      [ 3] 5.3   Applied overhead equals the actual base times the rate.
+      [ 3] 5.5   Variable overhead is indirect production cost that changes with activity.
+
+  C205-6  To price a similar job during June, before the month's actual overhead is known, the
+      answer: normal costing
+      [ 7] 5.1   Normal costing uses actual direct costs but applies overhead with a predetermined ra
+      [ 6] 5.2   Under actual costing, overhead is assigned only when the period ends and the actual 
+      [ 6] 5.3   Normal costing gives a cost as soon as the work is done, and the rate smooths out se
+
+  C205-7  Under standard costing, a job is charged with the standard price times the ____ for 
+      answer: standard quantity allowed
+      [ 9] 5.4   Each part equals the standard quantity allowed for the actual output times the stand
+      [ 5] 5.4   Standard costing values every input at what it should cost for the output achieved.
+      [ 4] 5.1   Standard costing uses standard quantities and prices for everything.
+
+BOOK 2 CHAPTER 6
+==============================================================================================
+  C206-5  Enter cost of goods sold for April (before any year-end overhead adjustment).
+      answer: 346,000
+      [ 3] 6.5   When the goods are sold, the job cost moves from Finished Goods Inventory to Cost of
+      [ 3] 6.7   The calculations are exam-core: the exam asks for job costs, inventory values and co
+      [ 2] 6.4   The difference is under- or over-applied overhead.
+
+  C206-6  April's actual overhead exceeds applied overhead. At April 30 the difference: [selec
+      answer: stays in the overhead accounts until year-end
+      [ 6] 6.4   It stays open until year-end, when Chapter 8 closes it.
+      [ 6] 6.4   Actual overhead is not known until the end of the year, but a job needs a cost when 
+      [ 4] 6.4   The difference is under- or over-applied overhead.
+
+  C206-7  When a completed job is sold, its cost moves from finished goods to ____.
+      answer: cost of goods sold
+      [ 8] 6.5   When the goods are sold, the job cost moves from Finished Goods Inventory to Cost of
+      [ 6] 6.2   When a job is finished, its sheet moves to the finished goods file.
+      [ 6] 6.7   The calculations are exam-core: the exam asks for job costs, inventory values and co
+
+BOOK 2 CHAPTER 7
+==============================================================================================
+  C207-5  Enter the net debit to Manufacturing Overhead Control in May from common spoilage, r
+      answer: 9,300
+      [ 6] 7.5   Normal spoilage common to all jobs goes to Manufacturing Overhead Control and is spr
+      [ 2] 7.2   Forgetting transferred-in cost is a common error.
+      [ 2] 7.4   Normal spoilage is expected even when operations are efficient.
+
+  C207-6  The loss from the power failure is reported: [select]
+      answer: in the income statement of May as a period loss
+      [ 3] 7.4   The cost of abnormal spoilage is taken out and recorded as a loss in the period.
+      [ 3] 7.3   Materials added at the start are complete for every unit; conversion added evenly ma
+      [ 3] 7.5   This is the setting in which the exam asks for spoilage calculations: the official s
+
+  C207-7  Spoiled units that can be sold are valued at their ____, which reduces the cost char
+      answer: disposal value
+      [ 7] 7.5   In every case, the disposal value of the spoiled units is recorded first.
+      [ 5] 7.5   Scrap, leftover material with a small value, reduces overhead or the job that caused
+      [ 3] 7.6   Cost information also shows where value is lost.
+
+BOOK 2 CHAPTER 8
+==============================================================================================
+  C208-5  The difference is material. Enter the amount prorated to ending finished goods.
+      answer: 12,000
+      [ 5] 8.5   If it is material, it is spread by proration over ending work in process, ending fin
+      [ 3] 8.5   If the difference is immaterial, it is closed to cost of goods sold.
+      [ 2] 8.4   When applied is more, the difference is overapplied overhead.
+
+  C208-6  Compared with writing the difference off to COGS, proration makes 2026 operating inc
+      answer: higher by the amounts kept in WIP and finished goods
+      [ 6] 8.5   If it is material, it is spread by proration over ending work in process, ending fin
+      [ 4] 8.5   If the difference is immaterial, it is closed to cost of goods sold.
+      [ 3] 8.6   The proration and its effect on income are exam-core; the variance split previews Bo
+
+  C208-7  An immaterial overhead difference at year-end is usually closed to ____.
+      answer: cost of goods sold
+      [ 8] 8.5   If the difference is immaterial, it is closed to cost of goods sold.
+      [ 5] 8.5   If it is material, it is spread by proration over ending work in process, ending fin
+      [ 4] 8.5   At year-end it must be closed so that both overhead accounts return to zero.
+
+BOOK 2 CHAPTER 9
+==============================================================================================
+  C209-5  Enter ending inventory under absorption costing.
+      answer: 99,000
+      [ 4] 9.4   When inventory rises, absorption costing defers some fixed overhead to next year, so
+      [ 3] 9.3   Use absorption costing for the published statements and for pricing that must cover 
+      [ 2] 9.3   The absorption statement uses the gross margin format.
+
+  C209-6  Absorption income is higher than variable costing income because: [select]
+      answer: production exceeded sales, so fixed overhead was deferred in inventory
+      [11] 9.4   When inventory rises, absorption costing defers some fixed overhead to next year, so
+      [ 8] 9.4   When inventory falls, it releases fixed overhead from earlier years, so its income i
+      [ 7] 9.4   The difference comes only from fixed overhead held in inventory.
+
+  C209-7  A variable costing income statement shows ____ instead of gross margin.
+      answer: contribution margin
+      [ 6] 9.3   The variable costing statement uses the contribution format.
+      [ 6] 9.2   The contribution margin is sales minus all variable costs, both manufacturing and se
+      [ 5] 9.3   The absorption statement uses the gross margin format.
+
+BOOK 2 CHAPTER 10
+==============================================================================================
+  C210-5  Reciprocal method. Enter Fleet Maintenance's total cost.
+      answer: 250,000
+      [ 3] 10.4  It is more accurate than the direct method, but the order matters and the link from 
+      [ 2] 10.4  Step-down is Orontes's policy method.
+      [ 2] 10.5  The reciprocal method recognizes all service-to-service links.
+
+  C210-6  Levant wants the most accurate allocation of the two linked service departments. It 
+      answer: the reciprocal method
+      [ 6] 10.5  It is the most accurate method but needs algebra, or matrix methods for many departm
+      [ 4] 10.5  The reciprocal method recognizes all service-to-service links.
+      [ 4] 10.3  The direct method ignores the services that service departments give each other.
+
+  C210-7  Under the ____ method, a service department that has been allocated receives no furt
+      answer: step-down
+      [ 5] 10.4  A department that has been allocated receives nothing back.
+      [ 4] 10.4  Step-down is Orontes's policy method.
+      [ 4] 10.4  Service departments are allocated one at a time.
+
+BOOK 2 CHAPTER 11
+==============================================================================================
+  C211-5  Enter the gain from processing tahini base into jarred tahini.
+      answer: 60,000
+      [ 2] 11.6  Figure F211-10 shows that both oils are worth processing further.
+      [ 1] 11.5  It is Orontes's policy method.
+      [ 1] 11.4  It is simple and needs no prices.
+
+  C211-6  The joint cost allocated to tahini base should affect the decision to process it fur
+      answer: not at all, because it is the same either way
+      [ 9] 11.6  That decision compares the extra revenue with the separable cost only; the joint cos
+      [ 5] 11.1  Joint products are two or more products from the same process, each with significant
+      [ 4] 11.6  No allocation should drive a decision to sell at split-off or process further.
+
+  C211-7  Costs incurred after the split-off point that belong to one product are called ____ 
+      answer: separable
+      [ 7] 11.2  Costs after split-off that belong to one product are separable costs.
+      [ 4] 11.5  The net realizable value method uses each product's final sales value minus its sepa
+      [ 3] 11.2  The split-off point is where the joint products become separately identifiable.
+
+BOOK 2 CHAPTER 12
+==============================================================================================
+  C212-5  Enter the overhead per case of standard juice under the machine-hour rate.
+      answer: 2.00
+      [ 3] 12.4  A product's overhead is the rate times the driver quantity it uses, added over all p
+      [ 3] 12.5  Materials and labor go to work in process as before; overhead is applied at the acti
+      [ 2] 12.1  That works when every product uses overhead in the same way as it uses labor.
+
+  C212-6  Compared with ABC, the machine-hour rate makes premium juice look: [select]
+      answer: less costly than it is
+      [ 2] 12.5  ABC suits companies with many products that use activities in different ways.
+      [ 2] 12.7  Entry 4 is where ABC differs: overhead is applied at the five activity rates.
+      [ 2] 12.4  For each pool, the activity rate is the pool cost divided by the total driver quanti
+
+  C212-7  In ABC, the cost of a resource such as indirect labor is assigned to activity pools 
+      answer: resource
+      [ 5] 12.2  The first stage uses resource drivers, such as the share of staff time spent on each
+      [ 3] 12.2  An activity is a task that uses resources, such as a setup or a quality test.
+      [ 3] 12.2  A value-added activity is one that customers would pay for, such as blending.
+
+BOOK 2 CHAPTER 13
+==============================================================================================
+  C213-5  Enter the ABC cost to serve the supermarket chain.
+      answer: 207,500
+      [ 2] 13.3  The cost to serve is the cost of the activities a customer causes.
+      [ 2] 13.3  Qasr orders often and asks for many rush deliveries, so its cost to serve is high fo
+      [ 1] 13.4  This shape is called the whale curve.
+
+  C213-6  The best first recommendation for the small shops is to: [select]
+      answer: set a minimum order size or charge per delivery stop
+      [12] 13.5  The division can first set a minimum order size, charge for rush deliveries, or serv
+      [ 5] 13.3  Some are caused by each order or delivery; some by keeping one customer, such as a k
+      [ 3] 13.1  Its main activities are picking order lines, delivering to stops and invoicing.
+
+  C213-7  Under ASC 606, a listing fee paid to a retailer for shelf space is recorded as a red
+      answer: revenue
+      [ 7] 13.2  Under ASC 606, rebates and fees paid to a customer for shelf space reduce revenue; t
+      [ 5] 13.6  Record the sales net of expected rebates, treat the listing fee as a reduction of re
+      [ 3] 13.2  A customer's revenue is therefore its net revenue.
+
+BOOK 2 CHAPTER 14
+==============================================================================================
+  C214-5  Enter the profit of year 1 on a yearly report (excluding research and development).
+      answer: (130,000)
+      [ 2] 14.7  On a yearly view, the first report after launch would suggest dropping the product.
+      [ 2] 14.1  A yearly product report would miss the upstream costs, because they were spent befor
+      [ 1] 14.2  A cost is incurred when the money is spent.
+
+  C214-6  The division has the best chance to reduce the juice's total cost: [select]
+      answer: at the design stage, before costs are committed
+      [ 6] 14.2  This is the strategic value of life-cycle costing: the cheapest time to reduce cost 
+      [ 6] 14.2  At the end of design, the halva team estimates that 80% of the life-cycle cost is al
+      [ 3] 14.2  It is committed, or locked in, when a decision makes it unavoidable later.
+
+  C214-7  In Porter's value chain, procurement and technology development are ____ activities.
+      answer: support
+      [ 6] 14.3  The value chain is the chain of activities a company performs to design, make, sell,
+      [ 6] 14.3  Support activities help all of them: firm infrastructure, human resource management,
+      [ 3] 14.5  Value chain analysis shows whether a strategy is working.
+
+BOOK 2 CHAPTER 15
+==============================================================================================
+  C215-5  Enter the gap in hours per truck between the redesigned process and the best-practic
+      answer: 0.4
+      [ 3] 15.2  Two steps disappear, four are shortened, and staff time falls to 0.87 hours per orde
+      [ 3] 15.1  The cycle time from order to cash is 9 days, and the staff time is 2.10 hours per or
+      [ 2] 15.1  The first tool is a process map, a diagram of the steps in order.
+
+  C215-6  Before comparing receiving times with the best-practice distributor, Nadia should fi
+      answer: make sure both sides define receiving time the same way
+      [ 7] 15.4  Measures must be defined the same way on both sides.
+      [ 3] 15.2  Two steps disappear, four are shortened, and staff time falls to 0.87 hours per orde
+      [ 3] 15.1  The cycle time from order to cash is 9 days, and the staff time is 2.10 hours per or
+
+  C215-7  Removing the counting and typing steps completely, instead of doing them faster, is 
+      answer: reengineering
+      [ 4] 15.2  Business process reengineering is a radical redesign of a process, not a small impro
+      [ 4] 15.2  Instead of typing orders faster, Tahini lets customers order online; instead of prep
+      [ 3] 15.1  The first tool is a process map, a diagram of the steps in order.
+
+BOOK 2 CHAPTER 16
+==============================================================================================
+  C216-5  Enter the net yearly saving from the proposal.
+      answer: 103,500
+      [ 3] 16.5  With the kaizen saving, the total yearly impact is shown on the last line.
+      [ 2] 16.4  The net saving already deducts the extra prevention spending.
+      [ 1] 16.5  Figure F216-12 sets out the yearly effect.
+
+  C216-6  The division's next quality dollar is best spent on: [select]
+      answer: prevention
+      [ 2] 16.3  Prevention costs stop defects before they happen.
+      [ 2] 16.4  Prevention rises, and everything else falls by more.
+      [ 2] 16.4  The net saving already deducts the extra prevention spending.
+
+  C216-7  The Japanese name for continuous improvement in small steps, suggested by the people
+      answer: kaizen
+      [ 6] 16.1  The best-known approach is kaizen, in which the people who do the work suggest the i
+      [ 4] 16.1  Continuous improvement means improving processes in many small, regular steps instea
+      [ 3] 16.5  With the kaizen saving, the total yearly impact is shown on the last line.
+
+BOOK 2 CHAPTER 17
+==============================================================================================
+  C217-5  Enter the yearly advantage of keeping bottling in-house (enter a negative number if 
+      answer: 60,000
+      [ 1] 17.4  Just-in-time (JIT) is a pull system.
+      [ 1] 17.6  The numbers are only half of the decision.
+      [ 1] 17.1  Supply chain management is more than purchasing.
+
+  C217-6  The most important risk that the numbers do not show is: [select]
+      answer: loss of control over the quality of a premium product
+      [ 4] 17.6  For a core activity with one possible supplier, the same saving might not be worth t
+      [ 3] 17.1  The aim is the right product, in the right place, at the right time and the lowest t
+      [ 3] 17.4  JIT needs reliable suppliers, short setups and good quality, because there is almost
+
+  C217-7  In a pull system, a card or signal that tells the previous step to produce or delive
+      answer: kanban
+      [ 4] 17.2  Lean uses simple techniques to remove waste: tidy work areas, kanban signals that pu
+      [ 3] 17.4  Just-in-time (JIT) is a pull system.
+      [ 2] 17.1  Supply chain management is more than purchasing.
+
+BOOK 2 CHAPTER 18
+==============================================================================================
+  C218-5  Enter the direct labor standard per jar.
+      answer: 0.18
+      [ 3] 18.4  For labor they are called the time standard and the rate standard.
+      [ 3] 18.1  Budgets are built from the card: standard cost per unit times planned units.
+      [ 3] 18.2  For juice labor, the ideal is 0.040 hours a case; the standard set is 0.050 hours.
+
+  C218-6  The rest and cleaning allowances belong in the time standard because: [select]
+      answer: they are part of efficient, normal work
+      [ 4] 18.1  A standard is the expected cost of one unit of output under efficient conditions.
+      [ 4] 18.2  A currently attainable standard allows for normal loss, rest, setups and normal down
+      [ 4] 18.5  Activity analysis sets a standard by studying how the work should be done: time and 
+
+  C218-7  Setting the filling time with a stopwatch study of each step is called ____ analysis
+      answer: activity
+      [ 4] 18.5  Activity analysis sets a standard by studying how the work should be done: time and 
+      [ 3] 18.4  For labor they are called the time standard and the rate standard.
+      [ 2] 18.5  The juice time study found a basic time of 0.040 hours a case.
+

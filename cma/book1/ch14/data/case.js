@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Barada's leases in 2028",
   "terms": L.KEYS,
   "brief": {
     "anim": "rou"

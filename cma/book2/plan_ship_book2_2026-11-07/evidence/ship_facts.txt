@@ -1,0 +1,134 @@
+WHAT SHIPPING BOOK 1 PRODUCED  -  the measured target for Book 2
+publish root : D:\MyWork\AnimatedMatrix\Apps\_publish_Animated-Courses
+pipeline     : D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python
+
+A. THE SHIPPED ARTEFACT: cma/book1
+======================================================================================
+files in book1/ (plan_* packages excluded) : 686
+                      ... in MB            : 24.6
+files inside plan_* packages (not shipped) : 62
+
+per chapter: 18 chapter folders
+   ch     pages    data    
+   ch01   14       13      
+   ch02   13       12      
+   ch03   13       12      
+   ch04   13       12      
+   ch05   13       12      
+   ch06   11       10      
+   ch07   13       12      
+   ch08   13       12      
+   ch09   12       11      
+   ch10   13       12      
+   ch11   14       13      
+   ch12   13       12      
+   ch13   13       12      
+   ch14   14       13      
+   ch15   14       13      
+   ch16   14       13      
+   ch17   14       13      
+   ch18   14       13      
+   TOTAL  238      220     
+
+assets/: 21 shared, 70 per-chapter, 104 figure files
+SHARED RENDERERS Book 2 needs a copy of (or a shared home for):
+   answers-view.js
+   brief.js
+   figure.js
+   figures/
+   grid.js
+   hub.js
+   icons.js
+   ledger.js
+   lines.js
+   objects.js
+   objects2.js
+   objects3.js
+   objects4.js
+   objects5.js
+   progress.js
+   provenance.js
+   scene.js
+   site.css
+   source-text.js
+   speech.js
+   terms-merge.js
+
+B. THE EXERCISE COUNT, AND A DRIFT IN THE PAGE THAT STATES IT
+======================================================================================
+chapters listed in index.html : 18
+   ch    count   title
+   ch01  91      The Language and Framework of Financial Reporting
+   ch02  78      The Balance Sheet
+   ch03  66      The Income Statement and Comprehensive Income
+   ch04  71      Equity and the Statement of Changes in Equity
+   ch05  69      The Statement of Cash Flows
+   ch06  46      Receivables: Credit Losses and Transfers
+   ch07  53      Inventory I: Goods, Costs and Cost Flows
+   ch08  55      Inventory II: Measurement Tests, Retail Estimates and Choo
+   ch09  50      Investments in Debt and Equity Securities
+   ch10  53      Long-Lived Assets: Depreciation, Disposal and Impairment
+   ch11  63      Revenue Recognition
+   ch12  58      Current Liabilities and Warranties
+   ch13  60      Income Taxes
+   ch14  59      Leases
+   ch15  59      Measuring Income: Gains, Losses, Comprehensive Income and 
+   ch16  59      Consolidated Financial Statements
+   ch17  58      U.S. GAAP and IFRS: The Six Tested Differences
+   ch18  54      Integrated Reporting
+   SUM   1102     <- the figure the page COMPUTES and displays
+
+but the prose on the same page says: '1,078 exercises over 203 pages'
+   MISMATCH: prose 1078 vs computed 1102  (drift of 24)
+   The <b id=statItems> literal is overwritten by script at load, so the
+   LIVE number is 1102; the sentence beneath it was not updated.
+
+Book 1 therefore ships 1102 graded exercises across 18 chapters.
+
+C. CAN A VISITOR REACH IT?  (measured, not assumed)
+======================================================================================
+files outside cma/book1 that link to it : 0
+   (none - the book is published but nothing points at it)
+
+catalogue.json courses (5): eam-b1, eam, efd, tours, alhasan
+   'cma' present in catalogue : NO
+   occurrences of 'cma' in index.html     : 0
+   occurrences of 'cma' in manifest.json  : 0
+   occurrences of 'cma' in sw.js          : 0
+   cma/index.html (a landing for the course) exists : NO
+
+VERDICT: Book 1 is reachable only by typing cma/book1/index.html directly.
+Shipping Book 2 'exactly as we shipped Book 1' would ship a second unreachable book.
+
+D. THE TOOLCHAIN THAT WOULD HAVE TO TAKE A SECOND BOOK
+======================================================================================
+file                     lines  --book?   --chapter? book1 hardcoded in
+--------------------------------------------------------------------------------------
+cma_book.py                355  YES       YES       BOOK
+cma_terms.py               220  no        YES       SITE
+cma_scenes.py             5929  no        YES       SITE
+cma_index.py                97  no        no        SITE
+cma_ledger.py              269  no        YES       SITE
+cma_provenance.py          233  no        no        SITE
+cma_render.py              399  no        no        SITE
+cma_interactive.py        1072  no        no        SITE
+cma_depth.py               263  no        no        -
+cma_crosstie.py            187  no        no        SITE
+--------------------------------------------------------------------------------------
+TOTAL                     9024
+
+Only cma_book.py takes --book, and it takes a PATH, not a book NUMBER.
+The five gates take no arguments at all: each pins SITE to .../cma/book1.
+
+E. CARRIED FROM THE 2026-11-06 ANALYSIS PACKAGE (re-read, not retyped)
+======================================================================================
+   structure.txt    found
+   dispatch.txt     found
+   coupling.txt     found
+   PATH couplings   16
+   keyed rows       91
+   id regexes       37
+   figures graded   104
+   table figures    164
+
+END

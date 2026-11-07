@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CMA Part 1 &middot; Book 2 &mdash; Cost Management</title>
+<meta name="description" content="Cost Management &mdash; a graded-English CMA Part 1 textbook with Arabic term bridges. Interactive, offline, no web server needed.">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.book-hero{background:#0e2936;color:#fff;border-radius:26px;padding:50px 54px;margin:18px 0 34px;
+  position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.book-hero:after{content:"";position:absolute;width:340px;height:340px;right:-60px;top:-120px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.14);box-shadow:0 0 0 34px rgba(255,255,255,.03),0 0 0 68px rgba(255,255,255,.02)}
+.book-hero .eyebrow{color:#7fd9d0}
+.book-hero h1{font-size:clamp(32px,5vw,54px);max-width:760px;margin:12px 0}
+.book-hero .ar{color:#9fd8e4;font-size:1.5rem;margin:0 0 18px}
+.book-hero p.lede{max-width:640px;color:#cfe2e6;font-size:17px;margin:0 0 26px}
+.book-hero .stats{position:relative;z-index:1}
+.book-hero .stats b{color:#fff}
+.cta{display:inline-flex;align-items:center;gap:11px;background:var(--gold);color:#1a2b33;
+  border-radius:11px;padding:14px 20px;font-weight:800;font-size:15px}
+.cta:hover{text-decoration:none;filter:brightness(1.06)}
+.part-head{display:flex;align-items:baseline;gap:14px;margin:36px 0 14px;flex-wrap:wrap}
+.part-head h2{font-size:22px}
+.part-head span{font-size:12.5px;color:var(--muted)}
+.chapters{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.chapter{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px 18px}
+.chapter.live:hover{border-color:var(--teal-line);box-shadow:var(--shadow-sm);text-decoration:none}
+.chapter.planned{opacity:.6}
+.ch-n{flex:none;width:38px;height:38px;border-radius:11px;background:var(--card-2);color:var(--muted);
+  display:grid;place-items:center;font-weight:800;font-size:13px;font-family:var(--mono)}
+.chapter.live .ch-n{background:var(--teal);color:#fff}
+.ch-t{display:block;font-weight:700;font-size:14.5px;color:var(--ink)}
+.ch-s{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.ch-badge{flex:none;align-self:center;font-size:10.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--muted)}
+.chapter.live .ch-badge{color:var(--teal)}
+@media(max-width:700px){.book-hero{padding:32px 24px;border-radius:20px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="../index.html"><span class="bar-mark">B2</span><span>CMA Part 1 &middot; Book 2</span></a>
+  <div class="bar-where">Cost Management</div>
+  <a class="bar-menu" href="../index.html">All four books</a>
+</div></header>
+<main id="main">
+<div class="wrap">
+
+<header class="book-hero">
+  <p class="eyebrow">CMA Part 1 &middot; Book 2 &middot; Section B</p>
+  <h1>Cost Management</h1>
+  <p class="ar" lang="ar" dir="rtl">إدارة التكاليف</p>
+  <p class="lede">A graded-English textbook with Arabic term bridges, built as an interactive site. Learn how costs behave, how product cost is measured, and how the costing system you choose changes the answer - practised in the item formats the exam itself uses.</p>
+  <a class="cta" href="ch01/index.html">Start Chapter 1 <span aria-hidden="true">&rarr;</span></a>
+  <div class="stats">
+    <span><b id="statItems">&mdash;</b> <span id="statLabel">exercises in all 18 chapters</span></span>
+    <span><b>English + &#1593;&#1585;&#1576;&#1610;</b> on every term</span>
+    <span><b id="statDone">&mdash;</b></span>
+  </div>
+</header>
+
+<p class="lede">Every chapter covers the ICMA Learning Outcome Statements for Part 1, Section B,
+  effective September 1, 2024, written in graded English (B1+ to B2) with the exact exam terms.</p>
+
+<div class="part-head"><h2>Part I &mdash; Cost language and behavior</h2><span>Chapters 1 to 4</span></div>
+<div class="chapters" id="part1">
+  <a class="chapter" data-ch="1" href="ch01/index.html"><span class="ch-n">1</span><span class="ch-t">Cost Objects, Pools and Drivers<span class="ch-s">Cost objects, Classifying costs, Cost pools and assigning costs to activities, Cost drivers</span></span><span class="ch-badge" data-count="1">&mdash;</span></a>
+  <a class="chapter" data-ch="2" href="ch02/index.html"><span class="ch-n">2</span><span class="ch-t">Cost Behavior and the Relevant Range<span class="ch-s">Four cost behaviors, Total cost and cost per unit, The relevant range...</span></span><span class="ch-badge" data-count="2">&mdash;</span></a>
+  <a class="chapter" data-ch="3" href="ch03/index.html"><span class="ch-n">3</span><span class="ch-t">Estimating Costs: High-Low and Regression<span class="ch-s">Why estimate cost functions, The high-low method, Simple regression, Using the regression equation</span></span><span class="ch-badge" data-count="3">&mdash;</span></a>
+  <a class="chapter" data-ch="4" href="ch04/index.html"><span class="ch-n">4</span><span class="ch-t">Learning Curves<span class="ch-s">What learning is, The doubling table, The learning curve formula, Using learning curves</span></span><span class="ch-badge" data-count="4">&mdash;</span></a>
+</div>
+
+<div class="part-head"><h2>Part II &mdash; Measuring product cost</h2><span>Chapters 5 to 11</span></div>
+<div class="chapters" id="part2">
+  <a class="chapter" data-ch="5" href="ch05/index.html"><span class="ch-n">5</span><span class="ch-t">Actual, Normal and Standard Costing<span class="ch-s">Three measurement techniques, Actual costing, Normal costing, Standard costing</span></span><span class="ch-badge" data-count="5">&mdash;</span></a>
+  <a class="chapter" data-ch="6" href="ch06/index.html"><span class="ch-n">6</span><span class="ch-t">Job Order Costing<span class="ch-s">When job order costing fits, The job cost sheet, Recording materials and labor, Applying overhead</span></span><span class="ch-badge" data-count="6">&mdash;</span></a>
+  <a class="chapter" data-ch="7" href="ch07/index.html"><span class="ch-n">7</span><span class="ch-t">Process Costing, Spoilage and the Value of Cost Information<span class="ch-s">Process costing and departments, Transferred-in costs, Equivalent units: the idea, Spoilage: the ideas...</span></span><span class="ch-badge" data-count="7">&mdash;</span></a>
+  <a class="chapter" data-ch="8" href="ch08/index.html"><span class="ch-n">8</span><span class="ch-t">Overhead Rates and Over- or Under-Applied Overhead<span class="ch-s">Plantwide, departmental and cost-driver rates, Fixed overhead, The allocation base and the denominator...</span></span><span class="ch-badge" data-count="8">&mdash;</span></a>
+  <a class="chapter" data-ch="9" href="ch09/index.html"><span class="ch-n">9</span><span class="ch-t">Variable and Absorption Costing; Capacity<span class="ch-s">Two ways to cost inventory, The contribution margin, Two income statements for the same year...</span></span><span class="ch-badge" data-count="9">&mdash;</span></a>
+  <a class="chapter" data-ch="10" href="ch10/index.html"><span class="ch-n">10</span><span class="ch-t">Allocating Service Department Costs<span class="ch-s">Why allocate service department costs, Choosing allocation bases, The direct method, The step-down method</span></span><span class="ch-badge" data-count="10">&mdash;</span></a>
+  <a class="chapter" data-ch="11" href="ch11/index.html"><span class="ch-n">11</span><span class="ch-t">Joint Products and By-Products<span class="ch-s">Joint products, by-products and scrap, The split-off point and separable costs...</span></span><span class="ch-badge" data-count="11">&mdash;</span></a>
+</div>
+
+<div class="part-head"><h2>Part III &mdash; Costing systems and business processes</h2><span>Chapters 12 to 18</span></div>
+<div class="chapters" id="part3">
+  <a class="chapter" data-ch="12" href="ch12/index.html"><span class="ch-n">12</span><span class="ch-t">Activity-Based Costing<span class="ch-s">Why one overhead rate can mislead, The elements of an ABC system, The cost hierarchy...</span></span><span class="ch-badge" data-count="12">&mdash;</span></a>
+  <a class="chapter" data-ch="13" href="ch13/index.html"><span class="ch-n">13</span><span class="ch-t">ABC in Services and Profitability Analysis<span class="ch-s">ABC in service companies, Measuring profitability: the issues...</span></span><span class="ch-badge" data-count="13">&mdash;</span></a>
+  <a class="chapter" data-ch="14" href="ch14/index.html"><span class="ch-n">14</span><span class="ch-t">Life-Cycle Costing and Value Chain Analysis<span class="ch-s">Life-cycle costing, Locked-in costs and the strategic value of the design stage, The value chain...</span></span><span class="ch-badge" data-count="14">&mdash;</span></a>
+  <a class="chapter" data-ch="15" href="ch15/index.html"><span class="ch-n">15</span><span class="ch-t">Process Analysis, Reengineering, Best Practice and Benchmarking<span class="ch-s">Process analysis, Business process reengineering and its savings, Best practice analysis...</span></span><span class="ch-badge" data-count="15">&mdash;</span></a>
+  <a class="chapter" data-ch="16" href="ch16/index.html"><span class="ch-n">16</span><span class="ch-t">Continuous Improvement and the Cost of Quality<span class="ch-s">Continuous improvement techniques and quality, Continuous improvement and ideal standards...</span></span><span class="ch-badge" data-count="16">&mdash;</span></a>
+  <a class="chapter" data-ch="17" href="ch17/index.html"><span class="ch-n">17</span><span class="ch-t">Supply Chain Management: Lean, MRP, JIT, ERP and Outsourcing<span class="ch-s">Supply chain management, Lean resource management, Material requirements planning, Just-in-time systems</span></span><span class="ch-badge" data-count="17">&mdash;</span></a>
+  <a class="chapter" data-ch="18" href="ch18/index.html"><span class="ch-n">18</span><span class="ch-t">Setting Standards: The Standard Cost Card<span class="ch-s">Cost standards in budgeting, Ideal and currently attainable standards...</span></span><span class="ch-badge" data-count="18">&mdash;</span></a>
+</div>
+
+<aside class="box box-know" style="margin-top:30px">
+  <div class="box-head"><span class="box-kind">OFFLINE BY DESIGN</span><h3>No internet, no web server, no install</h3></div>
+  <div class="box-body">
+    <p>Open <code>index.html</code> straight from the folder and everything works: every exercise, every figure,
+      every drag-and-drop, and the progress that is saved in this browser on this computer. Pronunciation uses the
+      voices already installed on your computer.</p>
+    <p class="note">All eighteen chapters are built: <b id="statItems2">&mdash;</b> exercises over
+      <b id="statPages">&mdash;</b> pages, every one of them generated from the author's own chapter and
+      checked against it word by word. Each chapter keeps its own saved progress, so resetting one leaves
+      the others alone.</p>
+  </div>
+</aside>
+
+</div>
+</main>
+
+<script src="assets/ledger.js"></script>
+<script src="assets/speech.js"></script>
+<script src="assets/progress.js"></script>
+<script>
+(function () {
+  /* The last number of each row is the chapter's EXERCISE count, and NOTHING on this page
+     types a total: every figure shown is summed from these rows at load. Book 1's page
+     still carries the defect this avoids - a prose sentence reading "1,078 exercises"
+     under a table that sums to 1,102, because the sentence was written once by hand.
+
+     The counts themselves are written in by `python -m tools.cma_index --book 2`,
+     which asks `gates.cma_interactive`'s browser walk rather than counting a second way.
+     A row left at 0 means that chapter has not been walked yet. */
+  var CH = [
+    [1, "Cost Objects, Pools and Drivers", "Cost objects, Classifying costs, Cost pools and assigning costs to activities, Cost drivers", 1, "ch01/index.html", 51],
+    [2, "Cost Behavior and the Relevant Range", "Four cost behaviors, Total cost and cost per unit, The relevant range...", 1, "ch02/index.html", 51],
+    [3, "Estimating Costs: High-Low and Regression", "Why estimate cost functions, The high-low method, Simple regression, Using the regression equation", 1, "ch03/index.html", 54],
+    [4, "Learning Curves", "What learning is, The doubling table, The learning curve formula, Using learning curves", 1, "ch04/index.html", 51],
+    [5, "Actual, Normal and Standard Costing", "Three measurement techniques, Actual costing, Normal costing, Standard costing", 2, "ch05/index.html", 51],
+    [6, "Job Order Costing", "When job order costing fits, The job cost sheet, Recording materials and labor, Applying overhead", 2, "ch06/index.html", 55],
+    [7, "Process Costing, Spoilage and the Value of Cost Information", "Process costing and departments, Transferred-in costs, Equivalent units: the idea, Spoilage: the ideas...", 2, "ch07/index.html", 53],
+    [8, "Overhead Rates and Over- or Under-Applied Overhead", "Plantwide, departmental and cost-driver rates, Fixed overhead, The allocation base and the denominator...", 2, "ch08/index.html", 51],
+    [9, "Variable and Absorption Costing; Capacity", "Two ways to cost inventory, The contribution margin, Two income statements for the same year...", 2, "ch09/index.html", 55],
+    [10, "Allocating Service Department Costs", "Why allocate service department costs, Choosing allocation bases, The direct method, The step-down method", 2, "ch10/index.html", 57],
+    [11, "Joint Products and By-Products", "Joint products, by-products and scrap, The split-off point and separable costs...", 2, "ch11/index.html", 58],
+    [12, "Activity-Based Costing", "Why one overhead rate can mislead, The elements of an ABC system, The cost hierarchy...", 3, "ch12/index.html", 56],
+    [13, "ABC in Services and Profitability Analysis", "ABC in service companies, Measuring profitability: the issues...", 3, "ch13/index.html", 54],
+    [14, "Life-Cycle Costing and Value Chain Analysis", "Life-cycle costing, Locked-in costs and the strategic value of the design stage, The value chain...", 3, "ch14/index.html", 55],
+    [15, "Process Analysis, Reengineering, Best Practice and Benchmarking", "Process analysis, Business process reengineering and its savings, Best practice analysis...", 3, "ch15/index.html", 53],
+    [16, "Continuous Improvement and the Cost of Quality", "Continuous improvement techniques and quality, Continuous improvement and ideal standards...", 3, "ch16/index.html", 49],
+    [17, "Supply Chain Management: Lean, MRP, JIT, ERP and Outsourcing", "Supply chain management, Lean resource management, Material requirements planning, Just-in-time systems", 3, "ch17/index.html", 53],
+    [18, "Setting Standards: The Standard Cost Card", "Cost standards in budgeting, Ideal and currently attainable standards...", 3, "ch18/index.html", 54],
+  ];
+  var PARTS = {"1": 1, "2": 1, "3": 1};
+
+  /* The cards are already in the HTML, with a link that works before this runs. All this
+     adds is each chapter's exercise count, from the one table above. A chapter with a count
+     of 0 has not been walked yet and is marked as not ready rather than linked. */
+  CH.forEach(function (r) {
+    var a = document.querySelector('.chapter[data-ch="' + r[0] + '"]');
+    if (!a) return;
+    var badge = a.querySelector(".ch-badge");
+    if (r[5] > 0) {
+      a.className = "chapter live";
+      if (badge) badge.textContent = r[5] + " exercises";
+    } else {
+      a.className = "chapter planned";
+      a.removeAttribute("href");
+      if (badge) badge.textContent = "soon";
+    }
+  });
+
+  var total = CH.reduce(function (s, r) { return s + r[5]; }, 0);
+  var txt = total.toLocaleString("en-US");
+  ["statItems", "statItems2"].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = txt;
+  });
+  var pages = document.getElementById("statPages");
+  if (pages) pages.textContent = String(242);
+
+  if (window.Progress && Progress.allChapters) {
+    var done = Progress.allChapters().reduce(function (s, c) { return s + c.done; }, 0);
+    var el = document.getElementById("statDone");
+    if (el) el.textContent = done ? done.toLocaleString("en-US") + " done by you" : "nothing done yet";
+  }
+})();
+</script>
+</body>
+</html>

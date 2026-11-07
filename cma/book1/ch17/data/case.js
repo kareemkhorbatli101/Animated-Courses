@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · converting Levant's IFRS figures",
   "terms": L.KEYS,
   "brief": {
     "anim": "revalue"

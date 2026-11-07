@@ -749,6 +749,553 @@
   };
 
   /* --- 14. TIER 3: a typographic mark, for a word with no geometry --- */
+  /* =================================================================
+   * FAMILIES 41 TO 65: BOOK 2, COST MANAGEMENT
+   *
+   * Book 2's 166 new bridged terms are cost accounting, and they are not 166 ideas
+   * either. They are the same two dozen shapes the author draws over and over: the
+   * cost line against a volume axis, the three inventory boxes, the overhead rate as
+   * a fraction, the pipe that splits at the split-off point, the four-level hierarchy,
+   * the scatter with a line through it. So each family below is one of those drawings
+   * and a term's mark is that drawing with its own part lit - families 1 to 40 exactly.
+   *
+   * Same ti-* classes and the same 24x24 box, so there is no new CSS and nothing new
+   * to load. Nothing here is referenced by any Book 1 term, so Book 1's pages render
+   * byte for byte as before; this file stays ONE shared renderer rather than becoming
+   * two that drift.
+   * ================================================================= */
+
+  /* --- 41. THE COST LINE: what happens to cost as volume rises --- */
+  F.costbehave = function (part) {
+    var g = root24("ti-cb");
+    g.appendChild(s("line", { x1: 4, y1: 20, x2: 21, y2: 20, class: "ti-rule" }));
+    g.appendChild(s("line", { x1: 4, y1: 20, x2: 4, y2: 4, class: "ti-rule" }));
+    if (part === "step") {
+      g.appendChild(s("path", { d: "M 4 17 H 9 V 13 H 14 V 9 H 19 V 5", class: "ti-on" }));
+      return g;
+    }
+    if (part === "range") {
+      g.appendChild(s("rect", { x: 8, y: 4, width: 8, height: 16, rx: 1, class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 4 18 L 21 7", class: "ti-off" }));
+      return g;
+    }
+    /* fixed is flat, variable rises from the origin, mixed rises from an intercept */
+    g.appendChild(s("line", { x1: 4, y1: 9, x2: 21, y2: 9, class: cl(part, "fixed") }));
+    g.appendChild(s("path", { d: "M 4 20 L 21 6", class: cl(part, "variable") }));
+    g.appendChild(s("path", { d: "M 4 15 L 21 6", class: cl(part, "mixed") }));
+    if (part === "mixed") {
+      g.appendChild(s("circle", { cx: 4, cy: 15, r: 1.4, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 42. THE POOL, THE DRIVER AND THE OBJECT: how a cost gets somewhere --- */
+  F.costobj = function (part) {
+    var g = root24("ti-co");
+    g.appendChild(s("path", { d: "M 3 4 H 10 L 9 11 H 4 Z", class: cl(part, "pool") }));
+    g.appendChild(s("path", { d: "M 9.5 7.5 H 15.5", class: cl(part, "driver") }));
+    g.appendChild(s("path", { d: "M 14 5.8 L 16.5 7.5 L 14 9.2 Z", class: cl(part, "driver") }));
+    g.appendChild(s("rect", { x: 16, y: 4, width: 5, height: 7, rx: 1, class: cl(part, "object") }));
+    /* the base is the measured thing the pool is divided by, drawn as its scale */
+    g.appendChild(s("line", { x1: 3, y1: 16, x2: 21, y2: 16, class: cl(part, "base") }));
+    [5.5, 9, 12.5, 16, 19.5].forEach(function (x) {
+      g.appendChild(s("line", { x1: x, y1: 16, x2: x, y2: 19, class: cl(part, "base") }));
+    });
+    return g;
+  };
+
+  /* --- 43. THE THREE BOXES: materials, in process, finished, then out --- */
+  F.flow3 = function (part) {
+    var g = root24("ti-f3");
+    g.appendChild(s("rect", { x: 2, y: 5, width: 5, height: 6, rx: 1, class: cl(part, "rm") }));
+    g.appendChild(s("rect", { x: 9.5, y: 5, width: 5, height: 6, rx: 1, class: cl(part, "wip") }));
+    g.appendChild(s("rect", { x: 17, y: 5, width: 5, height: 6, rx: 1, class: cl(part, "fg") }));
+    g.appendChild(s("path", { d: "M 7.2 8 H 9.3 M 14.7 8 H 16.8", class: "ti-rule" }));
+    g.appendChild(s("path", { d: "M 19.5 11.3 V 15", class: cl(part, "cogs") }));
+    g.appendChild(s("path", { d: "M 17.9 13.8 L 19.5 16.3 L 21.1 13.8 Z", class: cl(part, "cogs") }));
+    g.appendChild(s("path", { d: "M 12 11.3 V 15", class: cl(part, "cogm") }));
+    g.appendChild(s("path", { d: "M 10.4 13.8 L 12 16.3 L 13.6 13.8 Z", class: cl(part, "cogm") }));
+    return g;
+  };
+
+  /* --- 44. THE THREE BARS AND THE TWO BRACKETS: prime is the first two, conversion
+         the last two, and the middle bar belongs to both --- */
+  F.dmdloh = function (part) {
+    var g = root24("ti-dlo");
+    g.appendChild(s("rect", { x: 3, y: 6, width: 4.5, height: 9, rx: 1, class: cl(part, "dm") }));
+    g.appendChild(s("rect", { x: 9.5, y: 6, width: 4.5, height: 9, rx: 1, class: cl(part, "dl") }));
+    g.appendChild(s("rect", { x: 16, y: 6, width: 4.5, height: 9, rx: 1, class: cl(part, "oh") }));
+    if (part === "prime") {
+      g.appendChild(s("path", { d: "M 3 18 V 20 H 14 V 18", class: "ti-on" }));
+      g.appendChild(s("rect", { x: 3, y: 6, width: 4.5, height: 9, rx: 1, class: "ti-on" }));
+      g.appendChild(s("rect", { x: 9.5, y: 6, width: 4.5, height: 9, rx: 1, class: "ti-on" }));
+    }
+    if (part === "conv") {
+      g.appendChild(s("path", { d: "M 9.5 18 V 20 H 20.5 V 18", class: "ti-on" }));
+      g.appendChild(s("rect", { x: 9.5, y: 6, width: 4.5, height: 9, rx: 1, class: "ti-on" }));
+      g.appendChild(s("rect", { x: 16, y: 6, width: 4.5, height: 9, rx: 1, class: "ti-on" }));
+    }
+    if (part === "indirect") {
+      g.appendChild(s("line", { x1: 16, y1: 10.5, x2: 20.5, y2: 10.5, class: "ti-dash" }));
+    }
+    return g;
+  };
+
+  /* --- 45. THE RATE: a budgeted pool over a denominator level --- */
+  F.ohrate = function (part) {
+    var g = root24("ti-rate");
+    g.appendChild(s("rect", { x: 5, y: 3.5, width: 14, height: 5, rx: 1, class: cl(part, "num") }));
+    g.appendChild(s("line", { x1: 3, y1: 11.5, x2: 21, y2: 11.5, class: "ti-rule" }));
+    g.appendChild(s("rect", { x: 5, y: 14.5, width: 14, height: 5, rx: 1, class: cl(part, "den") }));
+    if (part === "plant") {
+      g.appendChild(s("rect", { x: 5, y: 14.5, width: 14, height: 5, rx: 1, class: "ti-on" }));
+    }
+    if (part === "dept") {
+      /* one rate per department: the denominator is cut into three */
+      g.appendChild(s("line", { x1: 9.7, y1: 14.5, x2: 9.7, y2: 19.5, class: "ti-on" }));
+      g.appendChild(s("line", { x1: 14.3, y1: 14.5, x2: 14.3, y2: 19.5, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 46. APPLIED AGAINST ACTUAL: the gap, and which way it falls --- */
+  F.ohvar = function (part) {
+    var g = root24("ti-ohv");
+    g.appendChild(s("line", { x1: 3, y1: 20, x2: 21, y2: 20, class: "ti-rule" }));
+    var ap = part === "over" ? 5 : (part === "under" ? 12 : 8);
+    g.appendChild(s("rect", { x: 5, y: ap, width: 6, height: 20 - ap, rx: 1,
+                              class: cl(part, "applied") }));
+    g.appendChild(s("rect", { x: 13, y: 8, width: 6, height: 12, rx: 1,
+                              class: cl(part, "actual") }));
+    if (part === "over" || part === "under") {
+      g.appendChild(s("line", { x1: 5, y1: ap, x2: 19, y2: ap, class: "ti-dash" }));
+      g.appendChild(s("rect", { x: 13, y: Math.min(ap, 8), width: 6,
+                                height: Math.abs(8 - ap), rx: 0.5, class: "ti-on" }));
+    }
+    if (part === "prorate") {
+      g.appendChild(s("path", { d: "M 11 10 H 13 M 11 14 H 13 M 11 18 H 13", class: "ti-on" }));
+    }
+    if (part === "pvv") {
+      g.appendChild(s("line", { x1: 3, y1: 8, x2: 21, y2: 8, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 47. THE JOB CARD: one job, its three costs, and the ledger behind it --- */
+  F.jobsheet = function (part) {
+    var g = root24("ti-job");
+    g.appendChild(s("rect", { x: 3, y: 3, width: 14, height: 18, rx: 1.5,
+                              class: cl(part, "sheet") }));
+    g.appendChild(s("line", { x1: 5.5, y1: 8, x2: 14.5, y2: 8, class: cl(part, "mat") }));
+    g.appendChild(s("line", { x1: 5.5, y1: 12, x2: 14.5, y2: 12, class: cl(part, "labor") }));
+    g.appendChild(s("line", { x1: 5.5, y1: 16, x2: 14.5, y2: 16, class: cl(part, "oh") }));
+    /* the subsidiary card behind, and the control account that totals them */
+    g.appendChild(s("path", { d: "M 17 6 H 20.5 V 21 H 17", class: cl(part, "sub") }));
+    if (part === "control") {
+      g.appendChild(s("rect", { x: 3, y: 3, width: 14, height: 18, rx: 1.5, class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 17 6 H 20.5 V 21 H 17", class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 48. PART OF A UNIT IS STILL A COST: the equivalent-unit box --- */
+  F.eunits = function (part) {
+    var g = root24("ti-eu");
+    g.appendChild(s("rect", { x: 3, y: 6, width: 8, height: 12, rx: 1, class: "ti-rule" }));
+    g.appendChild(s("rect", { x: 3, y: 11, width: 8, height: 7, rx: 1,
+                              class: cl(part, "partial") }));
+    g.appendChild(s("rect", { x: 13, y: 6, width: 8, height: 12, rx: 1,
+                              class: cl(part, "whole") }));
+    if (part === "transin") {
+      g.appendChild(s("path", { d: "M 11.2 12 H 12.8", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 11.6 10.4 L 13.4 12 L 11.6 13.6 Z", class: "ti-on" }));
+    }
+    if (part === "report") {
+      g.appendChild(s("line", { x1: 3, y1: 20.5, x2: 21, y2: 20.5, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 49. THE INSPECTION POINT: good units go on, the rest are sorted --- */
+  F.spoil = function (part) {
+    var g = root24("ti-sp");
+    g.appendChild(s("line", { x1: 2, y1: 9, x2: 22, y2: 9, class: "ti-rule" }));
+    g.appendChild(s("line", { x1: 12, y1: 4, x2: 12, y2: 9, class: cl(part, "point") }));
+    g.appendChild(s("circle", { cx: 12, cy: 4, r: 1.6, class: cl(part, "point") }));
+    g.appendChild(s("rect", { x: 17, y: 5.5, width: 4.5, height: 3, rx: 0.8,
+                              class: cl(part, "good") }));
+    /* three bins under the line: expected loss, unexpected loss, and what is reworked */
+    g.appendChild(s("rect", { x: 2.5, y: 13, width: 5, height: 6, rx: 1,
+                              class: cl(part, "normal") }));
+    g.appendChild(s("rect", { x: 9.5, y: 13, width: 5, height: 6, rx: 1,
+                              class: cl(part, "abnormal") }));
+    g.appendChild(s("rect", { x: 16.5, y: 13, width: 5, height: 6, rx: 1,
+                              class: cl(part, "scrap") }));
+    if (part === "rework") {
+      g.appendChild(s("path", { d: "M 12 19 Q 4 21 4 12", class: "ti-arrow" }));
+      g.appendChild(s("path", { d: "M 2.6 13.4 L 4 11 L 5.4 13.4 Z", class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 50. THE SPLIT-OFF POINT: one process, then separate products --- */
+  F.splitoff = function (part) {
+    var g = root24("ti-so");
+    g.appendChild(s("line", { x1: 2, y1: 12, x2: 11, y2: 12, class: cl(part, "joint") }));
+    g.appendChild(s("circle", { cx: 11.5, cy: 12, r: 1.8, class: cl(part, "point") }));
+    g.appendChild(s("path", { d: "M 13 11 L 21 6", class: cl(part, "main") }));
+    g.appendChild(s("path", { d: "M 13 13 L 21 18", class: cl(part, "by") }));
+    g.appendChild(s("rect", { x: 18.5, y: 4, width: 3.2, height: 3.2, rx: 0.7,
+                              class: cl(part, "main") }));
+    g.appendChild(s("rect", { x: 18.5, y: 16.5, width: 3.2, height: 3.2, rx: 0.7,
+                              class: cl(part, "by") }));
+    if (part === "sep") {
+      /* costs incurred AFTER the split belong to one product alone */
+      g.appendChild(s("line", { x1: 14.5, y1: 9.3, x2: 19.5, y2: 12.6, class: "ti-dash" }));
+      g.appendChild(s("circle", { cx: 17, cy: 8, r: 1.3, class: "ti-on" }));
+    }
+    if (part === "further") {
+      g.appendChild(s("path", { d: "M 21 6 L 21 2", class: "ti-arrow" }));
+    }
+    return g;
+  };
+
+  /* --- 51. THE HIERARCHY: a cost sits at the level that drives it --- */
+  F.hier = function (part) {
+    var g = root24("ti-hi");
+    [["unit", 3.0, 3], ["batch", 7.2, 6], ["prod", 11.4, 9], ["fac", 15.6, 12]]
+      .forEach(function (b) {
+        g.appendChild(s("rect", { x: 12 - b[2] / 2 - 2, y: b[1], width: b[2] + 4, height: 3.4,
+                                  rx: 0.8, class: cl(part, b[0]) }));
+      });
+    if (part === "cust") {
+      g.appendChild(s("circle", { cx: 12, cy: 21.4, r: 2, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 52. SERVICE DEPARTMENTS FEED PRODUCING ONES, and sometimes each other --- */
+  F.svcalloc = function (part) {
+    var g = root24("ti-sa");
+    g.appendChild(s("rect", { x: 2.5, y: 3, width: 6, height: 5, rx: 1, class: cl(part, "svc") }));
+    g.appendChild(s("rect", { x: 2.5, y: 10, width: 6, height: 5, rx: 1, class: cl(part, "svc") }));
+    g.appendChild(s("rect", { x: 15.5, y: 3, width: 6, height: 5, rx: 1, class: cl(part, "prod") }));
+    g.appendChild(s("rect", { x: 15.5, y: 10, width: 6, height: 5, rx: 1, class: cl(part, "prod") }));
+    g.appendChild(s("path", { d: "M 8.8 5.5 H 15.2 M 8.8 12.5 H 15.2", class: "ti-rule" }));
+    if (part === "single") {
+      g.appendChild(s("path", { d: "M 8.8 5.5 H 15.2 M 8.8 12.5 H 15.2", class: "ti-on" }));
+    }
+    if (part === "dual") {
+      /* two rates: one for capacity, one for use */
+      g.appendChild(s("path", { d: "M 8.8 4.6 H 15.2 M 8.8 6.4 H 15.2", class: "ti-on" }));
+    }
+    if (part === "step") {
+      g.appendChild(s("path", { d: "M 5.5 8.2 V 9.8", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 4.1 8.4 L 5.5 10.8 L 6.9 8.4 Z", class: "ti-on" }));
+    }
+    if (part === "recip") {
+      g.appendChild(s("path", { d: "M 4.4 8.2 V 9.8 M 6.6 9.8 V 8.2", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 3.2 8.4 L 4.4 10.6 L 5.6 8.4 Z", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 5.4 9.6 L 6.6 7.4 L 7.8 9.6 Z", class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 53. THE VESSEL: how much of what could be made, is --- */
+  F.capacity = function (part) {
+    var g = root24("ti-cap");
+    g.appendChild(s("path", { d: "M 6 3 V 20 H 18 V 3", class: "ti-rule" }));
+    var lv = { theo: 4.5, prac: 7.5, master: 11, normal: 9.5 }[part];
+    if (lv === undefined) lv = 7.5;
+    g.appendChild(s("rect", { x: 6, y: lv, width: 12, height: 20 - lv, class: "ti-on" }));
+    [["theo", 4.5], ["prac", 7.5], ["master", 11]].forEach(function (m) {
+      g.appendChild(s("line", { x1: 3.5, y1: m[1], x2: 6, y2: m[1],
+                                class: part === m[0] ? "ti-on" : "ti-off" }));
+    });
+    if (part === "unused") {
+      g.appendChild(s("rect", { x: 6, y: 3, width: 12, height: 4.5, class: "ti-on" }));
+      g.appendChild(s("rect", { x: 6, y: 7.5, width: 12, height: 12.5, class: "ti-off" }));
+    }
+    if (part === "spiral") {
+      g.appendChild(s("path", { d: "M 8 5 L 16 9 L 8 13 L 16 17", class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 54. THE SCATTER AND THE LINE THROUGH IT --- */
+  F.scatter = function (part) {
+    var g = root24("ti-sc");
+    g.appendChild(s("line", { x1: 4, y1: 20, x2: 21, y2: 20, class: "ti-rule" }));
+    g.appendChild(s("line", { x1: 4, y1: 20, x2: 4, y2: 3, class: "ti-rule" }));
+    [[7, 16], [9, 14], [11, 13], [13, 10], [15, 9], [18, 6]].forEach(function (p, i) {
+      var lit = (part === "pts") || (part === "hilo" && (i === 0 || i === 5));
+      g.appendChild(s("circle", { cx: p[0], cy: p[1], r: 1.3,
+                                  class: lit ? "ti-on" : "ti-off" }));
+    });
+    g.appendChild(s("path", { d: "M 4 18 L 21 5",
+                              class: cl(part, "line") }));
+    if (part === "hilo") {
+      g.appendChild(s("path", { d: "M 7 16 L 18 6", class: "ti-on" }));
+    }
+    if (part === "intercept") {
+      g.appendChild(s("circle", { cx: 4, cy: 18, r: 1.8, class: "ti-on" }));
+    }
+    if (part === "spread") {
+      /* the scatter about the line is what the error measures */
+      g.appendChild(s("path", { d: "M 9 14 L 9 11.5 M 13 10 L 13 12.5 M 18 6 L 18 8",
+                                class: "ti-on" }));
+    }
+    if (part === "axis") {
+      g.appendChild(s("line", { x1: 4, y1: 20, x2: 21, y2: 20, class: "ti-on" }));
+    }
+    if (part === "yaxis") {
+      g.appendChild(s("line", { x1: 4, y1: 20, x2: 4, y2: 3, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 55. THE LEARNING CURVE: the same task costs less each doubling --- */
+  F.learn = function (part) {
+    var g = root24("ti-lc");
+    g.appendChild(s("line", { x1: 4, y1: 20, x2: 21, y2: 20, class: "ti-rule" }));
+    g.appendChild(s("line", { x1: 4, y1: 20, x2: 4, y2: 3, class: "ti-rule" }));
+    g.appendChild(s("path", { d: "M 4 5 Q 10 17 21 18", class: cl(part, "curve") }));
+    if (part === "rate") {
+      /* the doublings: each one takes the same proportion off */
+      g.appendChild(s("path", { d: "M 6 20 V 8.5 M 10 20 V 14 M 18 20 V 17.6",
+                                class: "ti-dash" }));
+      g.appendChild(s("circle", { cx: 6, cy: 8.5, r: 1.3, class: "ti-on" }));
+      g.appendChild(s("circle", { cx: 10, cy: 14, r: 1.3, class: "ti-on" }));
+      g.appendChild(s("circle", { cx: 18, cy: 17.6, r: 1.3, class: "ti-on" }));
+    }
+    if (part === "cumavg") {
+      g.appendChild(s("path", { d: "M 4 5 Q 10 17 21 18", class: "ti-on" }));
+    }
+    if (part === "incr") {
+      g.appendChild(s("path", { d: "M 4 8 Q 11 18 21 19", class: "ti-on" }));
+    }
+    if (part === "output") {
+      g.appendChild(s("line", { x1: 4, y1: 20, x2: 21, y2: 20, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 56. WHICH SIDE OF THE LINE FIXED OVERHEAD FALLS ON --- */
+  F.absvar = function (part) {
+    var g = root24("ti-av");
+    /* left column: absorption, fixed overhead inside the product cost */
+    g.appendChild(s("rect", { x: 3, y: 12, width: 7, height: 8, rx: 1, class: "ti-rule" }));
+    g.appendChild(s("rect", { x: 3, y: 7, width: 7, height: 5, rx: 1, class: cl(part, "abs") }));
+    /* right column: variable costing, the same fixed overhead expensed instead */
+    g.appendChild(s("rect", { x: 14, y: 12, width: 7, height: 8, rx: 1, class: "ti-rule" }));
+    g.appendChild(s("rect", { x: 14, y: 3, width: 7, height: 4, rx: 1, class: cl(part, "var") }));
+    g.appendChild(s("line", { x1: 12, y1: 3, x2: 12, y2: 21, class: "ti-dash" }));
+    if (part === "cm") {
+      g.appendChild(s("rect", { x: 14, y: 12, width: 7, height: 8, rx: 1, class: "ti-on" }));
+    }
+    if (part === "cmr") {
+      g.appendChild(s("rect", { x: 14, y: 12, width: 7, height: 8, rx: 1, class: "ti-on" }));
+      g.appendChild(s("line", { x1: 14, y1: 16, x2: 21, y2: 16, class: "ti-strike" }));
+    }
+    return g;
+  };
+
+  /* --- 57. THE STANDARD CARD: a price and a quantity, agreed in advance --- */
+  F.stdcard = function (part) {
+    var g = root24("ti-std");
+    g.appendChild(s("rect", { x: 3, y: 4, width: 18, height: 16, rx: 1.5,
+                              class: cl(part, "card") }));
+    g.appendChild(s("line", { x1: 12, y1: 4, x2: 12, y2: 20, class: "ti-rule" }));
+    g.appendChild(s("rect", { x: 5, y: 7, width: 5, height: 3, rx: 0.7,
+                              class: cl(part, "price") }));
+    g.appendChild(s("rect", { x: 14, y: 7, width: 5, height: 3, rx: 0.7,
+                              class: cl(part, "qty") }));
+    g.appendChild(s("line", { x1: 5, y1: 16, x2: 19, y2: 16, class: cl(part, "allowed") }));
+    if (part === "tight" || part === "fair") {
+      /* where the standard is SET on the scale between ideal and attainable */
+      g.appendChild(s("line", { x1: 5, y1: 13, x2: 19, y2: 13, class: "ti-rule" }));
+      g.appendChild(s("circle", { cx: part === "tight" ? 6.5 : 14, cy: 13, r: 1.6,
+                                  class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 58. THE FOUR COSTS OF QUALITY: two spent before, two paid after --- */
+  F.quality = function (part) {
+    var g = root24("ti-q");
+    [["prev", 3.2], ["appr", 7.4], ["intf", 12.6], ["extf", 16.8]].forEach(function (b) {
+      g.appendChild(s("rect", { x: 3, y: b[1], width: 18, height: 3.6, rx: 0.8,
+                                class: cl(part, b[0]) }));
+    });
+    /* the line is the moment the unit leaves: above it, conformance; below it, failure */
+    g.appendChild(s("line", { x1: 2, y1: 11.8, x2: 22, y2: 11.8, class: "ti-dash" }));
+    if (part === "six") {
+      g.appendChild(s("circle", { cx: 12, cy: 11.8, r: 2.4, class: "ti-on" }));
+      g.appendChild(s("circle", { cx: 12, cy: 11.8, r: 1, class: "ti-hole" }));
+    }
+    return g;
+  };
+
+  /* --- 59. WHO ASKS FOR THE NEXT UNIT: the station after, or the one before --- */
+  F.pull = function (part) {
+    var g = root24("ti-pl");
+    g.appendChild(s("rect", { x: 2.5, y: 9, width: 6, height: 6, rx: 1, class: "ti-rule" }));
+    g.appendChild(s("rect", { x: 15.5, y: 9, width: 6, height: 6, rx: 1, class: "ti-rule" }));
+    if (part === "push") {
+      g.appendChild(s("path", { d: "M 9 12 H 14.6", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 13.2 10.4 L 15.6 12 L 13.2 13.6 Z", class: "ti-on" }));
+    } else {
+      /* the default drawing is the pull: the demand travels backwards */
+      g.appendChild(s("path", { d: "M 15 12 H 9.4", class: cl(part, "pull") }));
+      g.appendChild(s("path", { d: "M 10.8 10.4 L 8.4 12 L 10.8 13.6 Z", class: cl(part, "pull") }));
+    }
+    if (part === "kanban") {
+      g.appendChild(s("rect", { x: 9.8, y: 4, width: 4.4, height: 3.4, rx: 0.6, class: "ti-on" }));
+      g.appendChild(s("line", { x1: 12, y1: 7.4, x2: 12, y2: 10, class: "ti-dash" }));
+    }
+    if (part === "jit") {
+      /* nothing waits between the stations */
+      g.appendChild(s("circle", { cx: 12, cy: 18, r: 1.4, class: "ti-on" }));
+    }
+    if (part === "backflush") {
+      g.appendChild(s("path", { d: "M 18.5 15.3 V 19 H 5.5 V 15.3", class: "ti-on" }));
+    }
+    if (part === "cycle") {
+      g.appendChild(s("path", { d: "M 5.5 8.6 Q 12 3 18.5 8.6", class: "ti-arrow" }));
+    }
+    return g;
+  };
+
+  /* --- 60. THE STAIR AND THE WHEEL: improve it, then hold the new level --- */
+  F.kaizen = function (part) {
+    var g = root24("ti-kz");
+    g.appendChild(s("path", { d: "M 3 20 H 8 V 16 H 13 V 12 H 18 V 8 H 21",
+                              class: cl(part, "step") }));
+    if (part === "pdca") {
+      g.appendChild(s("circle", { cx: 12, cy: 8, r: 4.5, class: "ti-ring" }));
+      g.appendChild(s("path", { d: "M 12 3.5 A 4.5 4.5 0 0 1 16.5 8", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 15.1 6.6 L 17.4 7.2 L 16.3 9.3 Z", class: "ti-on" }));
+    }
+    if (part === "bench") {
+      /* somebody else's level, read off and aimed at */
+      g.appendChild(s("line", { x1: 2, y1: 6, x2: 22, y2: 6, class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 18 8 V 6.4", class: "ti-arrow" }));
+    }
+    if (part === "best") {
+      g.appendChild(s("circle", { cx: 20, cy: 6, r: 1.8, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 61. THE CHAIN: where in the whole run of activities the cost is locked in --- */
+  F.chain = function (part) {
+    var g = root24("ti-ch");
+    [["up", 3], ["up", 6.8], ["mid", 10.6], ["down", 14.4], ["down", 18.2]]
+      .forEach(function (b) {
+        g.appendChild(s("rect", { x: b[1], y: 8, width: 3.2, height: 8, rx: 0.8,
+                                  class: cl(part, b[0]) }));
+      });
+    if (part === "primary") {
+      g.appendChild(s("path", { d: "M 3 18.5 H 21.4", class: "ti-on" }));
+    }
+    if (part === "support") {
+      g.appendChild(s("path", { d: "M 3 5.5 H 21.4", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 6 5.5 V 7.6 M 12 5.5 V 7.6 M 18 5.5 V 7.6",
+                                class: "ti-dash" }));
+    }
+    if (part === "locked") {
+      /* the decision is early; the money is spent late */
+      g.appendChild(s("rect", { x: 3, y: 8, width: 3.2, height: 8, rx: 0.8, class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 4.6 6.5 V 4", class: "ti-arrow" }));
+      g.appendChild(s("circle", { cx: 4.6, cy: 3, r: 1.4, class: "ti-on" }));
+    }
+    if (part === "life") {
+      g.appendChild(s("path", { d: "M 3 20.5 H 21.4", class: "ti-on" }));
+      g.appendChild(s("path", { d: "M 3 20.5 V 18.4 M 21.4 20.5 V 18.4", class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 62. THE PROCESS MAP: the steps, and which of them add something --- */
+  F.procmap = function (part) {
+    var g = root24("ti-pm");
+    g.appendChild(s("rect", { x: 2.5, y: 9.5, width: 5, height: 5, rx: 1, class: cl(part, "va") }));
+    g.appendChild(s("polygon", { points: "12,8 15.5,12 12,16 8.5,12", class: cl(part, "map") }));
+    g.appendChild(s("rect", { x: 16.5, y: 9.5, width: 5, height: 5, rx: 1,
+                              class: cl(part, "nva") }));
+    g.appendChild(s("path", { d: "M 7.7 12 H 8.3 M 15.7 12 H 16.3", class: "ti-rule" }));
+    if (part === "nva") {
+      g.appendChild(s("line", { x1: 16.8, y1: 9.8, x2: 21.2, y2: 14.2, class: "ti-strike" }));
+    }
+    if (part === "bpr") {
+      /* the map is not improved, it is redrawn */
+      g.appendChild(s("path", { d: "M 2.5 5 H 21.5", class: "ti-on" }));
+      g.appendChild(s("line", { x1: 2.5, y1: 19, x2: 21.5, y2: 19, class: "ti-strike" }));
+    }
+    if (part === "activity") {
+      g.appendChild(s("polygon", { points: "12,8 15.5,12 12,16 8.5,12", class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 63. THE PLAN AND THE CHAIN OF SUPPLY --- */
+  F.supply = function (part) {
+    var g = root24("ti-su");
+    g.appendChild(s("rect", { x: 7, y: 2.5, width: 10, height: 5, rx: 1, class: cl(part, "plan") }));
+    [4, 9.3, 14.6, 19.9].forEach(function (x, i) {
+      g.appendChild(s("circle", { cx: x, cy: 15, r: 2,
+                                  class: cl(part, i === 0 ? "out" : "node") }));
+      if (i) {
+        g.appendChild(s("line", { x1: x - 3.3, y1: 15, x2: x - 2, y2: 15, class: "ti-rule" }));
+      }
+    });
+    g.appendChild(s("line", { x1: 12, y1: 7.5, x2: 12, y2: 13, class: cl(part, "plan") }));
+    if (part === "erp") {
+      g.appendChild(s("rect", { x: 7, y: 2.5, width: 10, height: 5, rx: 1, class: "ti-on" }));
+      [4, 9.3, 14.6, 19.9].forEach(function (x) {
+        g.appendChild(s("line", { x1: x, y1: 13, x2: 12, y2: 7.5, class: "ti-dash" }));
+      });
+    }
+    if (part === "out") {
+      g.appendChild(s("line", { x1: 2.5, y1: 19, x2: 5.5, y2: 11, class: "ti-dash" }));
+    }
+    return g;
+  };
+
+  /* --- 64. THE WHALE CURVE: cumulative profit, customer by customer --- */
+  F.whale = function (part) {
+    var g = root24("ti-wh");
+    g.appendChild(s("line", { x1: 3, y1: 20, x2: 21, y2: 20, class: "ti-rule" }));
+    g.appendChild(s("path", { d: "M 3 18 Q 10 3 15 5 Q 19 6.5 21 12",
+                              class: cl(part, "curve") }));
+    if (part === "peak") {
+      g.appendChild(s("circle", { cx: 14.2, cy: 4.9, r: 1.8, class: "ti-on" }));
+    }
+    if (part === "tail") {
+      g.appendChild(s("path", { d: "M 15 5 Q 19 6.5 21 12", class: "ti-on" }));
+    }
+    if (part === "serve") {
+      /* what it costs to serve, under the line that shows what it earns */
+      g.appendChild(s("rect", { x: 16, y: 13, width: 5, height: 6, rx: 0.8, class: "ti-on" }));
+    }
+    return g;
+  };
+
+  /* --- 65. THE TWO WAYS TO COMPETE: be cheaper, or be different --- */
+  F.strategy = function (part) {
+    var g = root24("ti-sg");
+    g.appendChild(s("circle", { cx: 5, cy: 12, r: 2, class: "ti-rule" }));
+    g.appendChild(s("path", { d: "M 7 11 L 19 5", class: cl(part, "cost") }));
+    g.appendChild(s("path", { d: "M 7 13 L 19 19", class: cl(part, "diff") }));
+    g.appendChild(s("path", { d: "M 16.5 3.3 L 20.5 4.6 L 17.8 7.2 Z", class: cl(part, "cost") }));
+    g.appendChild(s("polygon", { points: "19,16 21.4,19 19,22 16.6,19",
+                                 class: cl(part, "diff") }));
+    if (part === "unit") {
+      g.appendChild(s("circle", { cx: 5, cy: 12, r: 2, class: "ti-on" }));
+    }
+    return g;
+  };
+
   F.type = function (part, term) {
     var g = root24("ti-type");
     g.appendChild(s("rect", { x: 2.5, y: 2.5, width: 19, height: 19, rx: 4, class: "ti-ring" }));
@@ -1069,6 +1616,237 @@
   reg(1, "capitals6", "out", ["outputs", "outcomes"]);
   reg(1, "doc", "notes", ["integrated report"]);
   reg(2, "verbs", "present", ["content elements", "guiding principles"]);
+
+  /* =================================================================
+   * BOOK 2: COST MANAGEMENT. 166 terms over 25 families.
+   *
+   * Tier 1 is a shape the author draws and the mark is a reduction of it. Tier 2 is a
+   * term with no shape of its own that names a RELATION or a CHOICE within one that is
+   * drawn - "committed" and "discretionary" are both the flat fixed line and differ only
+   * in whether management can cut it; "net realizable value method" and "physical measure
+   * method" are both the split-off pipe and differ in what is divided by what. Those get
+   * the family's shape with the relevant part lit and are declared tier 2, which is the
+   * honest label: the learner sees the right geometry, and nothing here claims the author
+   * drew a picture of the word.
+   *
+   * THREE OF BOOK 2's TERMS ARE ALREADY REGISTERED and are deliberately absent below -
+   * "direct method", "normal capacity" and "period cost" keep the Book 1 families they
+   * already have. Re-registering them here would silently move Book 1's marks.
+   * ================================================================= */
+
+  /* --- the cost line: what volume does to a cost --- */
+  reg(1, "costbehave", "fixed", ["fixed cost"]);
+  reg(1, "costbehave", "variable", ["variable cost"]);
+  reg(1, "costbehave", "mixed", ["mixed cost"]);
+  reg(1, "costbehave", "step", ["step cost"]);
+  reg(1, "costbehave", "range", ["relevant range"]);
+  reg(1, "costbehave", "all", ["cost behavior"]);
+  /* both are the same flat line; the difference is whether it can be cut, which is a
+     statement about management and not about the geometry */
+  reg(2, "costbehave", "fixed", ["committed fixed cost", "discretionary fixed cost"]);
+  reg(2, "costbehave", "all", ["account analysis"]);
+
+  /* --- the pool, the driver, the object --- */
+  reg(1, "costobj", "object", ["cost object"]);
+  reg(1, "costobj", "pool", ["cost pool", "activity cost pool"]);
+  reg(1, "costobj", "base", ["allocation base"]);
+  reg(1, "costobj", "driver", ["cost driver", "resource driver", "activity driver",
+                               "volume-based cost driver"]);
+
+  /* --- the three inventory boxes --- */
+  reg(1, "flow3", "rm", ["raw materials inventory"]);
+  reg(1, "flow3", "wip", ["work in process"]);
+  reg(1, "flow3", "fg", ["finished goods inventory"]);
+  reg(1, "flow3", "cogm", ["cost of goods manufactured"]);
+  reg(1, "flow3", "all", ["product cost"]);
+
+  /* --- the three bars, and the two brackets over them --- */
+  reg(1, "dmdloh", "dm", ["direct cost"]);
+  reg(1, "dmdloh", "indirect", ["indirect cost"]);
+  reg(1, "dmdloh", "oh", ["manufacturing overhead", "fixed overhead", "variable overhead"]);
+  reg(1, "dmdloh", "prime", ["prime cost"]);
+  reg(1, "dmdloh", "conv", ["conversion cost"]);
+  /* a material, but traced to the overhead bar rather than to the job */
+  reg(2, "dmdloh", "oh", ["indirect materials"]);
+
+  /* --- the rate: a budgeted pool over a denominator level --- */
+  reg(1, "ohrate", "all", ["predetermined overhead rate"]);
+  reg(1, "ohrate", "num", ["budgeted rate"]);
+  reg(1, "ohrate", "den", ["denominator level"]);
+  reg(1, "ohrate", "plant", ["plantwide overhead rate"]);
+  reg(1, "ohrate", "dept", ["departmental overhead rate"]);
+
+  /* --- applied against actual, and which way the gap falls --- */
+  reg(1, "ohvar", "applied", ["applied overhead"]);
+  reg(1, "ohvar", "over", ["overapplied overhead"]);
+  reg(1, "ohvar", "under", ["underapplied overhead"]);
+  reg(1, "ohvar", "pvv", ["production-volume variance"]);
+  /* which rate the system uses is a choice, not a shape */
+  reg(2, "ohvar", "actual", ["actual costing"]);
+  reg(2, "ohvar", "applied", ["normal costing"]);
+  reg(2, "ohvar", "prorate", ["proration"]);
+
+  /* --- the job card and the ledger behind it --- */
+  reg(1, "jobsheet", "sheet", ["job cost sheet"]);
+  reg(1, "jobsheet", "all", ["job order costing"]);
+  reg(1, "jobsheet", "mat", ["materials requisition"]);
+  reg(1, "jobsheet", "labor", ["labor time ticket"]);
+  reg(1, "jobsheet", "control", ["control account"]);
+  reg(1, "jobsheet", "sub", ["subsidiary ledger"]);
+
+  /* --- part of a unit is still a cost --- */
+  reg(1, "eunits", "partial", ["equivalent units"]);
+  reg(1, "eunits", "all", ["process costing"]);
+  reg(1, "eunits", "report", ["production cost report"]);
+  reg(1, "eunits", "transin", ["transferred-in costs"]);
+
+  /* --- the inspection point and the three bins --- */
+  reg(1, "spoil", "all", ["spoilage"]);
+  reg(1, "spoil", "point", ["inspection point"]);
+  reg(1, "spoil", "normal", ["normal spoilage", "normal loss"]);
+  reg(1, "spoil", "abnormal", ["abnormal spoilage"]);
+  reg(1, "spoil", "scrap", ["scrap"]);
+  reg(1, "spoil", "rework", ["rework"]);
+
+  /* --- the split-off point --- */
+  reg(1, "splitoff", "joint", ["joint products"]);
+  reg(1, "splitoff", "point", ["split-off point"]);
+  reg(1, "splitoff", "by", ["by-product"]);
+  reg(1, "splitoff", "sep", ["separable costs"]);
+  /* four ways to divide one joint cost; all of them are this pipe, and which one you use
+     is arithmetic rather than geometry */
+  reg(2, "splitoff", "point", ["sales value at split-off method"]);
+  reg(2, "splitoff", "sep", ["net realizable value method"]);
+  reg(2, "splitoff", "main", ["physical measure method",
+                              "constant gross-margin percentage method"]);
+  reg(2, "splitoff", "by", ["production method (by-products)", "sales method (by-products)"]);
+  reg(2, "splitoff", "further", ["sell-or-process-further decision"]);
+
+  /* --- the hierarchy: a cost sits at the level that drives it --- */
+  reg(1, "hier", "all", ["cost hierarchy", "activity-based costing"]);
+  /* The pyramid draws a unit level too, and no term in Book 1 or Book 2 names it - the author
+     writes "batch-level cost" and the three sustaining costs and leaves the base implied. So
+     the base is drawn as context and registered to nothing: a mark for a word the author never
+     wrote would be this file inventing vocabulary, which is the one thing it must not do. */
+  reg(1, "hier", "batch", ["batch-level cost"]);
+  reg(1, "hier", "prod", ["product-sustaining cost"]);
+  reg(1, "hier", "fac", ["facility-sustaining cost"]);
+  reg(1, "hier", "cust", ["customer-sustaining cost", "customer cost hierarchy"]);
+
+  /* --- service departments feed producing ones --- */
+  reg(1, "svcalloc", "svc", ["service department"]);
+  reg(1, "svcalloc", "prod", ["production department"]);
+  reg(1, "svcalloc", "single", ["single-rate method"]);
+  reg(1, "svcalloc", "dual", ["dual-rate method"]);
+  reg(1, "svcalloc", "step", ["step-down method"]);
+  reg(1, "svcalloc", "recip", ["reciprocal method"]);
+
+  /* --- how much of what could be made, is --- */
+  reg(1, "capacity", "theo", ["theoretical capacity"]);
+  reg(1, "capacity", "prac", ["practical capacity"]);
+  reg(1, "capacity", "master", ["master-budget capacity"]);
+  reg(1, "capacity", "unused", ["unused capacity"]);
+  reg(1, "capacity", "spiral", ["downward demand spiral"]);
+
+  /* --- the scatter and the line through it --- */
+  reg(1, "scatter", "pts", ["scatter plot"]);
+  reg(1, "scatter", "line", ["regression analysis"]);
+  reg(1, "scatter", "hilo", ["high-low method"]);
+  reg(1, "scatter", "intercept", ["intercept"]);
+  reg(1, "scatter", "axis", ["independent variable"]);
+  reg(1, "scatter", "yaxis", ["dependent variable"]);
+  /* these three MEASURE the fitted line rather than being a shape of their own */
+  reg(2, "scatter", "line", ["coefficient of determination", "multiple regression"]);
+  reg(2, "scatter", "spread", ["standard error of the estimate", "t-statistic"]);
+
+  /* --- the learning curve --- */
+  reg(1, "learn", "curve", ["learning curve"]);
+  reg(1, "learn", "rate", ["learning rate"]);
+  reg(1, "learn", "cumavg", ["cumulative average-time learning model"]);
+  reg(1, "learn", "incr", ["incremental unit-time learning model"]);
+  reg(1, "learn", "output", ["cumulative output"]);
+
+  /* --- which side of the line fixed overhead falls on --- */
+  reg(1, "absvar", "abs", ["absorption costing"]);
+  reg(1, "absvar", "var", ["variable costing"]);
+  reg(1, "absvar", "cm", ["contribution margin"]);
+  reg(1, "absvar", "cmr", ["contribution margin ratio"]);
+  reg(2, "absvar", "cm", ["controllable margin"]);
+
+  /* --- the standard card --- */
+  reg(1, "stdcard", "card", ["standard cost card"]);
+  reg(1, "stdcard", "all", ["standard costing"]);
+  reg(1, "stdcard", "price", ["price standard"]);
+  reg(1, "stdcard", "qty", ["quantity standard"]);
+  reg(1, "stdcard", "allowed", ["standard quantity allowed"]);
+  reg(1, "stdcard", "tight", ["ideal standard"]);
+  reg(1, "stdcard", "fair", ["currently attainable standard"]);
+  /* who sets the standard is not a position on the scale */
+  reg(2, "stdcard", "card", ["participative standard", "authoritative standard"]);
+
+  /* --- the four costs of quality --- */
+  reg(1, "quality", "all", ["cost of quality"]);
+  reg(1, "quality", "prev", ["prevention costs"]);
+  reg(1, "quality", "appr", ["appraisal costs"]);
+  reg(1, "quality", "intf", ["internal failure costs"]);
+  reg(1, "quality", "extf", ["external failure costs"]);
+  reg(1, "quality", "six", ["six sigma"]);
+  reg(2, "quality", "all", ["total quality management"]);
+
+  /* --- who asks for the next unit --- */
+  reg(1, "pull", "pull", ["pull system"]);
+  reg(1, "pull", "push", ["push system"]);
+  reg(1, "pull", "kanban", ["kanban"]);
+  reg(1, "pull", "jit", ["just-in-time (jit)"]);
+  reg(1, "pull", "backflush", ["backflush costing"]);
+  reg(1, "pull", "cycle", ["cycle time"]);
+  reg(2, "pull", "all", ["lean resource management"]);
+
+  /* --- improve it, then hold the new level --- */
+  reg(1, "kaizen", "step", ["kaizen"]);
+  reg(1, "kaizen", "pdca", ["pdca cycle"]);
+  reg(1, "kaizen", "bench", ["benchmarking"]);
+  reg(2, "kaizen", "step", ["continuous improvement"]);
+  /* the four benchmarkings are one drawing; they differ in WHO the line belongs to */
+  reg(2, "kaizen", "bench", ["competitive benchmarking", "functional benchmarking",
+                             "generic benchmarking", "internal benchmarking"]);
+  reg(2, "kaizen", "best", ["best practice analysis"]);
+
+  /* --- where in the chain the cost is locked in --- */
+  reg(1, "chain", "all", ["value chain"]);
+  reg(1, "chain", "up", ["upstream costs"]);
+  reg(1, "chain", "down", ["downstream costs"]);
+  reg(1, "chain", "locked", ["locked-in costs"]);
+  reg(1, "chain", "life", ["life-cycle costing"]);
+  reg(1, "chain", "primary", ["primary activities"]);
+  reg(1, "chain", "support", ["support activities"]);
+  reg(2, "chain", "all", ["value chain analysis"]);
+
+  /* --- the steps, and which of them add something --- */
+  reg(1, "procmap", "map", ["process map"]);
+  reg(1, "procmap", "va", ["value-added activity"]);
+  reg(1, "procmap", "nva", ["non-value-added activity"]);
+  reg(1, "procmap", "bpr", ["business process reengineering"]);
+  reg(1, "procmap", "activity", ["activity"]);
+  reg(2, "procmap", "map", ["process analysis"]);
+  reg(2, "procmap", "activity", ["activity analysis"]);
+
+  /* --- the plan and the chain of supply --- */
+  reg(1, "supply", "plan", ["master production schedule",
+                            "material requirements planning (mrp)"]);
+  reg(1, "supply", "erp", ["enterprise resource planning (erp)"]);
+  reg(1, "supply", "out", ["outsourcing"]);
+  reg(1, "supply", "all", ["supply chain management"]);
+
+  /* --- cumulative profit, customer by customer --- */
+  reg(1, "whale", "curve", ["whale curve"]);
+  reg(1, "whale", "peak", ["customer profitability analysis"]);
+  reg(2, "whale", "serve", ["cost to serve"]);
+
+  /* --- the two ways to compete --- */
+  reg(1, "strategy", "cost", ["cost leadership"]);
+  reg(1, "strategy", "diff", ["differentiation"]);
+  reg(2, "strategy", "unit", ["business unit"]);
 
   /* =================================================================
    * Anything not above is tier 3 and gets a typographic mark. That is a

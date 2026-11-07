@@ -1,0 +1,47 @@
+wrote book 2 ch01: 15 pages, 60 scenes
+wrote book 2 ch02: 15 pages, 60 scenes
+wrote book 2 ch03: 16 pages, 62 scenes
+wrote book 2 ch04: 15 pages, 59 scenes
+wrote book 2 ch05: 15 pages, 59 scenes
+wrote book 2 ch06: 16 pages, 63 scenes
+wrote book 2 ch07: 16 pages, 64 scenes
+wrote book 2 ch08: 15 pages, 61 scenes
+wrote book 2 ch09: 16 pages, 64 scenes
+wrote book 2 ch10: 16 pages, 63 scenes
+wrote book 2 ch11: 16 pages, 64 scenes
+wrote book 2 ch12: 16 pages, 65 scenes
+wrote book 2 ch13: 15 pages, 61 scenes
+wrote book 2 ch14: 16 pages, 64 scenes
+wrote book 2 ch15: 15 pages, 61 scenes
+wrote book 2 ch16: 14 pages, 58 scenes
+wrote book 2 ch17: 16 pages, 64 scenes
+wrote book 2 ch18: 15 pages, 62 scenes
+=== DEPTH ===
+  PASS no chapter asks about fewer of the author's figures than it did 107 of 238 figures asked (45%); the target is 70% in every chapter
+  PASS no chapter builds fewer instruments than it did                287 of 961 exercises are instruments the site builds (30%); the target is 45% in every chapter
+  PASS no chapter uses fewer instrument kinds than it did             12 chapters are still under the target of 10 kinds: ch01, ch03, ch04, ch06, ch07, ch08, ch13, ch14, ch15, ch16, ch17, ch18
+  PASS every chapter wires at least 4 named traps                     72 traps across 18 chapters
+  PASS every section opens its Brief with a drawing                   116 sections, every one drawn
+  NOTE chapter  is not measured here: its pages predate the generator, so `tools.cma_scenes` refuses to build it and there is nothing here to walk. cma_interactive counts its exercises.
+
+=== the floors as measured, to paste into FLOORS ===
+    1:  (5,  51, 15, 9),
+    2:  (5,  51, 15, 10),
+    3:  (5,  54, 15, 9),
+    4:  (5,  51, 15, 9),
+    5:  (5,  51, 15, 10),
+    6:  (6,  55, 16, 9),
+    7:  (4,  53, 14, 9),
+    8:  (5,  51, 15, 9),
+    9:  (6,  55, 16, 10),
+    10: (8,  57, 18, 10),
+    11: (9,  58, 19, 10),
+    12: (6,  56, 16, 10),
+    13: (8,  54, 18, 9),
+    14: (6,  55, 16, 8),
+    15: (7,  53, 17, 9),
+    16: (6,  49, 16, 9),
+    17: (4,  53, 14, 9),
+    18: (7,  54, 17, 9),
+
+RESULT: PASS

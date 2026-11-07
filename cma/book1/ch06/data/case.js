@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Orontes Dubai sales office",
   "terms": L.KEYS,
   "brief": {
     "anim": "aging"

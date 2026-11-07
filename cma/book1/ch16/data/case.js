@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Barada buys Tadmor Retail",
   "terms": L.KEYS,
   "brief": {
     "anim": "group"

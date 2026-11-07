@@ -1,0 +1,35 @@
+wrote book 1 ch02: 15 pages, 86 scenes
+wrote book 1 ch03: 15 pages, 74 scenes
+wrote book 1 ch04: 15 pages, 78 scenes
+wrote book 1 ch05: 15 pages, 76 scenes
+wrote book 1 ch06: 13 pages, 55 scenes
+  NOTE SC7-13 offers '16,000' twice in the book; the duplicate that is not the answer was dropped. Tell the author.
+wrote book 1 ch08: 15 pages, 63 scenes
+wrote book 1 ch09: 14 pages, 58 scenes
+wrote book 1 ch10: 15 pages, 63 scenes
+wrote book 1 ch11: 16 pages, 72 scenes
+wrote book 1 ch12: 15 pages, 66 scenes
+  NOTE SC13-11 offers '357,000' twice in the book; the duplicate that is not the answer was dropped. Tell the author.
+wrote book 1 ch14: 16 pages, 66 scenes
+wrote book 1 ch15: 16 pages, 65 scenes
+wrote book 1 ch16: 16 pages, 68 scenes
+wrote book 1 ch17: 16 pages, 64 scenes
+wrote book 1 ch18: 16 pages, 64 scenes
+wrote book 2 ch01: 15 pages, 60 scenes
+wrote book 2 ch02: 15 pages, 60 scenes
+wrote book 2 ch03: 16 pages, 62 scenes
+wrote book 2 ch04: 15 pages, 59 scenes
+wrote book 2 ch05: 15 pages, 59 scenes
+wrote book 2 ch06: 16 pages, 63 scenes
+wrote book 2 ch07: 16 pages, 64 scenes
+wrote book 2 ch08: 15 pages, 61 scenes
+wrote book 2 ch09: 16 pages, 64 scenes
+wrote book 2 ch10: 16 pages, 63 scenes
+wrote book 2 ch11: 16 pages, 64 scenes
+wrote book 2 ch12: 16 pages, 65 scenes
+wrote book 2 ch13: 15 pages, 61 scenes
+wrote book 2 ch14: 16 pages, 64 scenes
+wrote book 2 ch15: 15 pages, 61 scenes
+wrote book 2 ch16: 14 pages, 58 scenes
+wrote book 2 ch17: 16 pages, 64 scenes
+wrote book 2 ch18: 15 pages, 62 scenes

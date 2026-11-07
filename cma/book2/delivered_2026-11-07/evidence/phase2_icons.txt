@@ -1,0 +1,18 @@
+=== A DRAWN MARK FOR EVERY BRIDGED TERM (book 2) ===
+   icons.js: 66 families, 499 registered terms
+  PASS I1  every bridged term of this volume is registered            169 terms, 0 unregistered
+  PASS I2  no term falls back to a typographic mark (tier 3)          tier-3: 0 
+  PASS I3  every registered family has a drawing                      missing: none
+  PASS I4  every registered part is one its family's drawing actually lights dead registrations: 0 
+  PASS I5  no term is registered twice with different families        clashes: none
+  PASS I6  book 1 has not regressed: still every term registered, still 0 tier-3 316 book-1 terms, 0 unregistered, 0 tier-3
+
+=== TEETH ===
+  PASS I1     broke: I1
+  PASS I2     broke: I2
+  PASS I3     broke: I3
+  PASS I4     broke: I4
+  PASS I5     broke: I5
+  PASS I6     broke: I6
+
+RESULT: PASS

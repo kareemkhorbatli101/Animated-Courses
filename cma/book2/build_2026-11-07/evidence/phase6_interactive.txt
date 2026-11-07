@@ -1,0 +1,42 @@
+wrote book 2 ch01: 15 pages, 60 scenes
+wrote book 2 ch02: 15 pages, 60 scenes
+wrote book 2 ch03: 16 pages, 62 scenes
+wrote book 2 ch04: 15 pages, 59 scenes
+wrote book 2 ch05: 15 pages, 59 scenes
+wrote book 2 ch06: 16 pages, 63 scenes
+wrote book 2 ch07: 16 pages, 64 scenes
+wrote book 2 ch08: 15 pages, 61 scenes
+wrote book 2 ch09: 16 pages, 64 scenes
+wrote book 2 ch10: 16 pages, 63 scenes
+wrote book 2 ch11: 16 pages, 64 scenes
+wrote book 2 ch12: 16 pages, 65 scenes
+wrote book 2 ch13: 15 pages, 61 scenes
+wrote book 2 ch14: 16 pages, 64 scenes
+wrote book 2 ch15: 15 pages, 61 scenes
+wrote book 2 ch16: 14 pages, 58 scenes
+wrote book 2 ch17: 16 pages, 64 scenes
+wrote book 2 ch18: 15 pages, 62 scenes
+=== INDEX ===
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+counted: ch01 51, ch02 51, ch03 54, ch04 51, ch05 51, ch06 55, ch07 53, ch08 51, ch09 55, ch10 57, ch11 58, ch12 56, ch13 54, ch14 55, ch15 53, ch16 49, ch17 53, ch18 54 = 961
+index.html: ch01 0 -> 51, ch02 0 -> 51, ch03 0 -> 54, ch04 0 -> 51, ch05 0 -> 51, ch06 0 -> 55, ch07 0 -> 53, ch08 0 -> 51, ch09 0 -> 55, ch10 0 -> 57, ch11 0 -> 58, ch12 0 -> 56, ch13 0 -> 54, ch14 0 -> 55, ch15 0 -> 53, ch16 0 -> 49, ch17 0 -> 53, ch18 0 -> 54
+=== INTERACTIVE ===
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+=== STANDARD A: DECIDE, DO NOT REVEAL ===
+  PASS A1 every exercise can be marked at all               0 of 961 offer no marking: 
+  PASS A2 an untouched exercise is not already right        0 pass untouched: 
+  PASS A3 clicking every button is not enough to pass       0 pass on coverage alone: 
+  PASS A4 every instrument exposes an operable control      0 draw but do not move: 
+  PASS A5 no scene scores the learner on coverage           0 of 33 renderers: 
+  PASS A5 the lint actually read the renderers              33 renderers linted
+  PASS A6 no journal row is posted for the learner          12 posting scene(s), every row the learner's
+  PASS A7 no page ships an unresolved ledger reference      224 data files clean
+  PASS A9 no scene prints the figures another scene asks for 224 decks checked page by page
+  PASS A8 the book index's exercise count per chapter is the counted one ch01 51, ch02 51, ch03 54, ch04 51, ch05 51, ch06 55, ch07 53, ch08 51, ch09 55, ch10 57, ch11 58, ch12 56, ch13 54, ch14 55, ch15 53, ch16 49, ch17 53, ch18 54 = 961
+  PASS every exercise was reached                           961 exercises, 134 exempt
+
+RESULT: PASS

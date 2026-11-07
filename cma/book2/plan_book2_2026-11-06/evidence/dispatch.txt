@@ -1,0 +1,229 @@
+WHAT THE SHIPPED DISPATCHER BUILDS FROM BOOK 2
+======================================================================================
+Only `figure_tables`'s prefix regex is changed (F%02d -> F2%02d). Every
+classification rule and builder is the one Book 1 ships.
+
+ch    tables  graded  shown   YT    the kinds the shapes asked for
+--------------------------------------------------------------------------------------
+1     7       4       2       4     grid=1, lines=1, number=1, post=1, shares=2
+2     8       5       1       4     grid=1, post=1, schedule=2, shares=2
+3     9       5       2       3     grid=1, lines=1, number=2, schedule=2, shares=1
+4     9       4       2       3     lines=2, schedule=3, shares=1
+5     7       5       1       2     grid=1, number=1, post=1, schedule=1, shares=2
+6     8       5       1       3     lines=1, number=3, post=1, shares=1
+7     7       4       2       2     lines=2, number=2, post=1, shares=1
+8     9       5       3       2     grid=2, lines=1, number=1, schedule=3, shares=1
+9     8       6       1       2     lines=1, number=1, post=2, schedule=2, shares=1
+10    11      8       0       2     number=1, post=1, schedule=3, shares=3
+11    12      9       1       2     lines=1, post=2, schedule=4, shares=3
+12    9       6       2       2     grid=1, lines=1, post=1, schedule=4, shares=1
+13    10      8       1       2     lines=1, number=2, post=1, schedule=5
+14    10      6       2       2     lines=2, number=1, schedule=5
+15    9       7       1       2     lines=1, schedule=2, shares=5
+16    9       6       1       2     lines=1, number=3, schedule=2, shares=1
+17    10      4       4       2     lines=4, schedule=2, shares=2
+18    12      7       1       2     lines=1, number=2, schedule=2, shares=3
+--------------------------------------------------------------------------------------
+table-shaped figures      164
+dispatched into a scene   132
+  of those GRADED         104
+  of those ONLY SHOWN     28
+not dispatched at all     32   <-- skipped, or the Your-turn figure itself
+Your-turn answer pairs    43
+
+kinds over the whole book:
+   schedule     42
+   shares       30
+   lines        21
+   number       20
+   post         12
+   grid         7
+
+no dispatcher errors on any of the eighteen chapters
+
+NOTE, and it is a question rather than a result: `auto_fill` - the general case,
+which took 13 of Book 1's figures - is chosen 0 times here. Either the rules
+above it claim everything, or its one guarantee (the answer must not already
+appear in its own row) cannot be met by this book's tables. Worth one
+measurement before the build, not an assumption either way.
+
+TERM ICONS
+======================================================================================
+icons.js registers 333 terms across 40 families (8.3 terms per family)
+Book 1 distinct terms   316  -> registered 316, tier-3 fallback 0
+Book 2 distinct terms   169
+   already registered   3
+   shared with Book 1   3
+   NEW, need a family   166   <-- the largest hand item in the plan
+
+At Book 1's measured density of 8.3 terms per family, 166 new terms is roughly
+20 new families. Book 1 ships ZERO tier-3 typographic fallbacks, so shipping
+Book 2 without them would be a visible regression of a standard, not a gap.
+
+the new terms, in full:
+   abnormal spoilage
+   absorption costing
+   account analysis
+   activity
+   activity analysis
+   activity cost pool
+   activity driver
+   activity-based costing
+   actual costing
+   allocation base
+   applied overhead
+   appraisal costs
+   authoritative standard
+   backflush costing
+   batch-level cost
+   benchmarking
+   best practice analysis
+   budgeted rate
+   business process reengineering
+   business unit
+   by-product
+   coefficient of determination
+   committed fixed cost
+   competitive benchmarking
+   constant gross-margin percentage method
+   continuous improvement
+   contribution margin
+   contribution margin ratio
+   control account
+   controllable margin
+   conversion cost
+   cost behavior
+   cost driver
+   cost hierarchy
+   cost leadership
+   cost object
+   cost of goods manufactured
+   cost of quality
+   cost pool
+   cost to serve
+   cumulative average-time learning model
+   cumulative output
+   currently attainable standard
+   customer cost hierarchy
+   customer profitability analysis
+   customer-sustaining cost
+   cycle time
+   denominator level
+   departmental overhead rate
+   dependent variable
+   differentiation
+   direct cost
+   discretionary fixed cost
+   downstream costs
+   downward demand spiral
+   dual-rate method
+   enterprise resource planning (erp)
+   equivalent units
+   external failure costs
+   facility-sustaining cost
+   finished goods inventory
+   fixed cost
+   fixed overhead
+   functional benchmarking
+   generic benchmarking
+   high-low method
+   ideal standard
+   incremental unit-time learning model
+   independent variable
+   indirect cost
+   indirect materials
+   inspection point
+   intercept
+   internal benchmarking
+   internal failure costs
+   job cost sheet
+   job order costing
+   joint products
+   just-in-time (jit)
+   kaizen
+   kanban
+   labor time ticket
+   lean resource management
+   learning curve
+   learning rate
+   life-cycle costing
+   locked-in costs
+   manufacturing overhead
+   master production schedule
+   master-budget capacity
+   material requirements planning (mrp)
+   materials requisition
+   mixed cost
+   multiple regression
+   net realizable value method
+   non-value-added activity
+   normal costing
+   normal loss
+   normal spoilage
+   outsourcing
+   overapplied overhead
+   participative standard
+   pdca cycle
+   physical measure method
+   plantwide overhead rate
+   practical capacity
+   predetermined overhead rate
+   prevention costs
+   price standard
+   primary activities
+   prime cost
+   process analysis
+   process costing
+   process map
+   product cost
+   product-sustaining cost
+   production cost report
+   production department
+   production method (by-products)
+   production-volume variance
+   proration
+   pull system
+   push system
+   quantity standard
+   raw materials inventory
+   reciprocal method
+   regression analysis
+   relevant range
+   resource driver
+   rework
+   sales method (by-products)
+   sales value at split-off method
+   scatter plot
+   scrap
+   sell-or-process-further decision
+   separable costs
+   service department
+   single-rate method
+   six sigma
+   split-off point
+   spoilage
+   standard cost card
+   standard costing
+   standard error of the estimate
+   standard quantity allowed
+   step cost
+   step-down method
+   subsidiary ledger
+   supply chain management
+   support activities
+   t-statistic
+   theoretical capacity
+   total quality management
+   transferred-in costs
+   underapplied overhead
+   unused capacity
+   upstream costs
+   value chain
+   value chain analysis
+   value-added activity
+   variable cost
+   variable costing
+   variable overhead
+   volume-based cost driver
+   whale curve
+   work in process

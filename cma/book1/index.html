@@ -58,7 +58,7 @@
     item formats the exam itself uses.</p>
   <a class="cta" href="ch01/index.html">Start Chapter 1 <span aria-hidden="true">→</span></a>
   <div class="stats">
-    <span><b id="statItems">1,078</b> <span id="statLabel">exercises in all 18 chapters</span></span>
+    <span><b id="statItems">&mdash;</b> <span id="statLabel">exercises in all 18 chapters</span></span>
     <span><b>English + عربي</b> on every term</span>
     <span><b id="statDone">—</b></span>
   </div>
@@ -101,7 +101,7 @@
       every drag-and-drop, and the progress that is saved in this browser on this computer. Pronunciation uses the
       voices already installed on your computer — on Windows, Chrome and Microsoft Edge expose them directly.
       If the Arabic icon is dimmed, no Arabic voice is installed; the foot of any chapter page says how to add one.</p>
-    <p class="note">All eighteen chapters are built: 1,078 exercises over 203 pages, every one of them
+    <p class="note">All eighteen chapters are built: <b id="statItems2">—</b> exercises, every one of them
       generated from the author's own chapter and checked against it word by word. Each chapter keeps its own
       saved progress, so resetting one leaves the others alone.</p>
   </div>
@@ -161,7 +161,21 @@
      built chapter carries its own count, and the reader's progress is read back per chapter. */
   var built = CH.filter(function (c) { return !!c[4]; });
   var scenes = built.reduce(function (a, c) { return a + (c[5] || 0); }, 0);
-  document.getElementById("statItems").textContent = scenes;
+  /* EVERY TOTAL ON THIS PAGE IS SUMMED FROM THE TABLE ABOVE, and now the prose is too.
+     The sentence in the OFFLINE BY DESIGN box read "1,078 exercises over 203 pages" - typed
+     once, by hand, and never re-derived. The table sums to 1,102, and the <b> in the hero is
+     overwritten by this line at load, so the page showed 1,102 in one place and 1,078 in the
+     other and neither number was wrong about where it came from.
+
+     The page figure is GONE rather than corrected. This page loads no chapter's toc.js, so
+     nothing here can count pages - the fourth column of each row is the part the chapter
+     belongs to, not a page count - and a number the page cannot check is the number that
+     drifted. It is stated where it can be derived: on the course landing, from the files. */
+  var txt = scenes.toLocaleString("en-US");
+  ["statItems", "statItems2"].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = txt;
+  });
   document.getElementById("statLabel").textContent =
     built.length > 1 ? "exercises in Chapters 1–" + built[built.length - 1][0]
                      : "exercises in Chapter 1";

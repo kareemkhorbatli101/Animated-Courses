@@ -1,0 +1,23 @@
+PHASE 1 - book 2: CMA_P1_Book2_volume_v1.0.docx
+  sha256 verified; writing to courses/cma/book2_chNN.json and _publish_Animated-Courses\cma\book2
+
+  ok   ch01   355 blocks    9 sections   13 figures    6 images    28 terms    6 drawn    5205 baseline words   8.4s
+  ok   ch02   345 blocks    9 sections   13 figures    6 images    21 terms    6 drawn    5091 baseline words   8.6s
+  ok   ch03   352 blocks   10 sections   13 figures    5 images    23 terms    5 drawn    5400 baseline words   7.8s
+  ok   ch04   344 blocks    9 sections   12 figures    5 images    13 terms    5 drawn    4901 baseline words   8.1s
+  ok   ch05   353 blocks    9 sections   13 figures    6 images    21 terms    6 drawn    5111 baseline words   9.6s
+  ok   ch06   365 blocks   10 sections   13 figures    6 images    24 terms    6 drawn    5677 baseline words  11.1s
+  ok   ch07   371 blocks   10 sections   15 figures    8 images    21 terms    8 drawn    5690 baseline words  15.2s
+  ok   ch08   354 blocks    9 sections   15 figures    6 images    21 terms    6 drawn    5005 baseline words  16.9s
+  ok   ch09   371 blocks   10 sections   15 figures    7 images    21 terms    7 drawn    5273 baseline words  25.6s
+  ok   ch10   359 blocks   10 sections   14 figures    5 images    19 terms    5 drawn    4888 baseline words  12.9s
+  ok   ch11   368 blocks   10 sections   15 figures    4 images    23 terms    4 drawn    5313 baseline words  13.3s
+  ok   ch12   372 blocks   10 sections   15 figures    6 images    23 terms    6 drawn    5596 baseline words  11.6s
+  ok   ch13   346 blocks    9 sections   15 figures    5 images    17 terms    5 drawn    4951 baseline words  13.2s
+  ok   ch14   359 blocks   10 sections   15 figures    6 images    25 terms    6 drawn    5115 baseline words  13.1s
+  ok   ch15   345 blocks    9 sections   15 figures    6 images    23 terms    6 drawn    4777 baseline words  13.1s
+  ok   ch16   327 blocks    8 sections   15 figures    7 images    25 terms    7 drawn    4548 baseline words  12.8s
+  ok   ch17   361 blocks   10 sections   15 figures    6 images    25 terms    6 drawn    5274 baseline words  16.0s
+  ok   ch18   353 blocks    9 sections   15 figures    6 images    19 terms    6 drawn    4953 baseline words  17.7s
+
+RESULT: OK

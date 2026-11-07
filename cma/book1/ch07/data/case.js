@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Orontes tahini cartons",
   "terms": L.KEYS,
   "brief": {
     "anim": "layers"

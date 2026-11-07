@@ -1,0 +1,22 @@
+=== THE TOOLCHAIN TAKES A BOOK NUMBER ===
+  PASS V1  all four volumes are on disk                               present: [1, 2, 3, 4]
+  PASS V2  every volume hashes to the file cma_vol recorded           verified: [1, 2, 3, 4]
+  PASS V3  no two volumes share a localStorage chapter prefix         ch7 ids: b1=ch07, b2=b2ch07, b3=b3ch07, b4=b4ch07
+  PASS V4  no two volumes share a figure-tag stem                     collisions: none
+  PASS V5  a table with no row for this book RAISES                   the defect was book 1 chapter 5's row answering for book 2 chapter 5
+  PASS V6  a chapter with no row in a book that HAS the table is empty, not an error most chapters have no traps authored
+  PASS V7  every extracted chapter finds at least one figure tag      18 chapters over 1 volume(s); zero-finds: none
+  PASS V8  the book derived from a chapter is the book it was loaded from mismatches: none
+  PASS V9  book 1's chapters re-extract BYTE-IDENTICALLY after the Phase 0 edits 18 chapters compared, differing: none
+
+=== TEETH (each defect must break exactly its own check) ===
+  PASS V1       broke: V1
+  PASS V2       broke: V2
+  PASS V3       broke: V3
+  PASS V4       broke: V4
+  PASS V5       broke: V5
+  PASS V6       broke: V6
+  PASS V7       broke: V7
+  PASS V8       broke: V8
+
+RESULT: PASS

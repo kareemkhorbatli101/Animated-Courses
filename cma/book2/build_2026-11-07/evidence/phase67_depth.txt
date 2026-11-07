@@ -1,0 +1,50 @@
+=== CROSSTIE book 2 ===
+=== THE FOUR STATEMENTS AGREE ===
+  PASS chapters 3 and 4 agree on net income                     undefined = undefined
+  PASS chapters 3 and 5 agree on net income                     undefined = undefined
+  PASS chapters 3 and 4 agree on other comprehensive income     undefined = undefined
+  FAIL chapters 3 agree on comprehensive income adds up         NaN vs undefined
+  PASS chapters 4 and 2 agree on total stockholders' equity     undefined = undefined
+  PASS chapters 4 and 2 agree on retained earnings              undefined = undefined
+  PASS chapters 4 and 2 agree on common stock                   undefined = undefined
+  PASS chapters 4 and 2 agree on additional paid-in capital     undefined = undefined
+  PASS chapters 4 and 2 agree on accumulated OCI                undefined = undefined
+  FAIL chapters 4 and 2 agree on contributed capital            NaN vs undefined
+  FAIL chapters 5 and 3 agree on impairment losses, reversed in sign undefined vs NaN
+  FAIL chapters 5 and 3 agree on equity-method income, reversed in sign undefined vs NaN
+  FAIL chapters 5 and 3 agree on gain on sale of equipment, reversed in sign undefined vs NaN
+  FAIL chapters 5 and 3 agree on unrealized gains, reversed in sign undefined vs NaN
+  PASS chapters 5 and 4 agree on the share issue                undefined = undefined
+  FAIL chapters 5 and 4 agree on dividends PAID are not dividends DECLARED false vs true
+
+RESULT: FAIL
+
+=== DEPTH book 2 --raise ===
+  PASS no chapter asks about fewer of the author's figures than it did 107 of 238 figures asked (45%); the target is 70% in every chapter
+  PASS no chapter builds fewer instruments than it did                287 of 961 exercises are instruments the site builds (30%); the target is 45% in every chapter
+  PASS no chapter uses fewer instrument kinds than it did             12 chapters are still under the target of 10 kinds: ch01, ch03, ch04, ch06, ch07, ch08, ch13, ch14, ch15, ch16, ch17, ch18
+  FAIL every chapter wires at least 4 named traps                     ch01 has 3; ch02 has 3; ch03 has 3; ch05 has 3; ch06 has 3; ch08 has 2; ch09 has 3; ch10 has 3; ch11 has 3; ch12 has 3; ch13 has 3; ch14 has 3; ch15 has 3; ch16 has 3; ch17 has 3; ch18 has 3
+  PASS every section opens its Brief with a drawing                   116 sections, every one drawn
+  NOTE chapter  is not measured here: its pages predate the generator, so `tools.cma_scenes` refuses to build it and there is nothing here to walk. cma_interactive counts its exercises.
+
+=== the floors as measured, to paste into FLOORS ===
+    1:  (5,  51, 15, 9),
+    2:  (5,  51, 15, 10),
+    3:  (5,  54, 15, 9),
+    4:  (5,  51, 15, 9),
+    5:  (5,  51, 15, 10),
+    6:  (6,  55, 16, 9),
+    7:  (4,  53, 14, 9),
+    8:  (5,  51, 15, 9),
+    9:  (6,  55, 16, 10),
+    10: (8,  57, 18, 10),
+    11: (9,  58, 19, 10),
+    12: (6,  56, 16, 10),
+    13: (8,  54, 18, 9),
+    14: (6,  55, 16, 8),
+    15: (7,  53, 17, 9),
+    16: (6,  49, 16, 9),
+    17: (4,  53, 14, 9),
+    18: (7,  54, 17, 9),
+
+RESULT: FAIL

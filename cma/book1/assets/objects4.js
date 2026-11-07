@@ -74,7 +74,17 @@
       line.appendChild(E("span", "sch-name", r.label));
       cols.forEach(function (c) {
         var v = (r.cells || {})[c.id];
-        if (c.given) {
+        /* A SINGLE CELL CAN BE GIVEN, not only a whole column. `given` was a property of the
+           column, which is right for "this side of the table is the data and that side is the
+           exercise" - and cannot express the one case that matters: a cell whose figure another
+           scene on the same page already prints. Asking for a number the page states is the
+           defect A9 exists to catch, and the honest repair is to hand that cell over and keep
+           asking for the rest of the column.
+
+           Additive: no row in Book 1 carries `given`, so every existing schedule renders
+           exactly as before. */
+        var rowGiven = r.given && r.given.indexOf && r.given.indexOf(c.id) !== -1;
+        if (c.given || rowGiven) {
           line.appendChild(E("span", "sch-n sch-given", v == null ? "" : String(v)));
           return;
         }

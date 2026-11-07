@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CMA Part 1 &mdash; four books, graded English with Arabic term bridges</title>
+<meta name="description" content="CMA Part 1 as four interactive textbooks: graded English, Arabic and French term bridges, every exercise generated from the author's own chapters.">
+<link rel="stylesheet" href="book1/assets/site.css">
+<style>
+.hero{background:#0e2936;color:#fff;border-radius:26px;padding:48px 52px;margin:18px 0 30px;
+  position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.hero:after{content:"";position:absolute;width:340px;height:340px;right:-60px;top:-120px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.14);box-shadow:0 0 0 34px rgba(255,255,255,.03),0 0 0 68px rgba(255,255,255,.02)}
+.hero .eyebrow{color:#7fd9d0}
+.hero h1{font-size:clamp(30px,5vw,50px);max-width:760px;margin:12px 0}
+.hero .ar{color:#9fd8e4;font-size:1.45rem;margin:0 0 16px}
+.hero p.lede{max-width:650px;color:#cfe2e6;font-size:17px;margin:0 0 8px}
+.books{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin-top:8px}
+.bk{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 22px}
+.bk.live:hover{border-color:var(--teal-line);box-shadow:var(--shadow-sm);text-decoration:none}
+.bk.soon{opacity:.58}
+.bk-n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;
+  background:var(--card-2);color:var(--muted);font-weight:800;font-size:12.5px;font-family:var(--mono)}
+.bk.live .bk-n{background:var(--teal);color:#fff}
+.bk h2{font-size:18px;margin:12px 0 4px}
+.bk p{font-size:13px;color:var(--muted);margin:0 0 12px}
+.bk .st{display:flex;gap:16px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.bk .st b{color:var(--ink)}
+.bk .go{margin-top:14px;font-size:11px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted)}
+.bk.live .go{color:var(--teal)}
+@media(max-width:700px){.hero{padding:30px 22px;border-radius:20px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="../index.html"><span class="bar-mark">AE</span><span>AnimatedEverything</span></a>
+  <div class="bar-where">CMA Part 1</div>
+  <a class="bar-menu" href="book1/how-to-use.html">How to use these books</a>
+</div></header>
+<main id="main">
+<div class="wrap">
+
+<header class="hero">
+  <p class="eyebrow">Certified Management Accountant &middot; Part 1</p>
+  <h1>Four books, in graded English with Arabic term bridges</h1>
+  <p class="ar" lang="ar" dir="rtl">&#1575;&#1604;&#1605;&#1581;&#1575;&#1587;&#1576; &#1575;&#1604;&#1573;&#1583;&#1575;&#1585;&#1610; &#1575;&#1604;&#1605;&#1593;&#1578;&#1605;&#1583; &#1605; &#1575;&#1604;&#1580;&#1586;&#1569; &#1575;&#1604;&#1571;&#1608;&#1604;</p>
+  <p class="lede">Every exercise on these pages is generated from the author's own chapter and checked
+    against it word by word. They run from the folder with no web server, no install and no internet.</p>
+</header>
+
+<div class="books">
+  <a class="bk live" href="book1/index.html">
+    <span class="bk-n">B1</span>
+    <h2>External Financial Reporting Decisions</h2>
+    <p>Book 1 &middot; Section A &middot; 18 chapters in 4 parts</p>
+    <div class="st"><span><b>1,102</b> exercises</span><span><b>238</b> pages</span><span><b>104</b> figures</span></div>
+    <div class="go">Open the book &rarr;</div>
+  </a>
+  <a class="bk live" href="book2/index.html">
+    <span class="bk-n">B2</span>
+    <h2>Cost Management</h2>
+    <p>Book 2 &middot; Section B &middot; 18 chapters in 3 parts</p>
+    <div class="st"><span><b>961</b> exercises</span><span><b>242</b> pages</span><span><b>106</b> figures</span></div>
+    <div class="go">Open the book &rarr;</div>
+  </a>
+</div>
+
+<aside class="box box-know" style="margin-top:28px">
+  <div class="box-head"><span class="box-kind">HOW THESE BOOKS ARE BUILT</span><h3>The book is the source of truth</h3></div>
+  <div class="box-body">
+    <p>Each chapter is read straight out of the author's manuscript, and the site is held against that
+      reading word for word rather than against anybody's transcription of it. The figures on every page
+      recompute from the chapter's own ledger on each load, so a number cannot drift from the book it
+      came from.</p>
+    <p class="note">2 of the four books are built: 2,063 exercises over 480 pages, with 210 drawn figures. Each book keeps its own saved progress in this browser, so resetting one leaves the others alone.</p>
+  </div>
+</aside>
+
+</div>
+</main>
+</body>
+</html>

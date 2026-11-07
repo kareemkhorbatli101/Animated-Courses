@@ -1,0 +1,28 @@
+wrote book 2 ch01: 15 pages, 60 scenes
+wrote book 2 ch02: 15 pages, 60 scenes
+wrote book 2 ch03: 16 pages, 62 scenes
+wrote book 2 ch04: 15 pages, 59 scenes
+wrote book 2 ch05: 15 pages, 59 scenes
+wrote book 2 ch06: 16 pages, 63 scenes
+wrote book 2 ch07: 16 pages, 64 scenes
+wrote book 2 ch08: 15 pages, 61 scenes
+wrote book 2 ch09: 16 pages, 64 scenes
+wrote book 2 ch10: 16 pages, 63 scenes
+wrote book 2 ch11: 16 pages, 64 scenes
+wrote book 2 ch12: 16 pages, 65 scenes
+wrote book 2 ch13: 15 pages, 61 scenes
+wrote book 2 ch14: 16 pages, 64 scenes
+wrote book 2 ch15: 15 pages, 61 scenes
+wrote book 2 ch16: 14 pages, 58 scenes
+wrote book 2 ch17: 16 pages, 64 scenes
+wrote book 2 ch18: 15 pages, 62 scenes
+=== PROVENANCE ===
+RESULT: PASS
+=== INTERACTIVE ===
+  PASS A8 the book index's exercise count per chapter is the counted one ch01 51, ch02 51, ch03 54, ch04 51, ch05 51, ch06 55, ch07 53, ch08 51, ch09 55, ch10 57, ch11 58, ch12 56, ch13 54, ch14 55, ch15 53, ch16 49, ch17 53, ch18 54 = 961
+  PASS every exercise was reached                           961 exercises, 134 exempt
+
+RESULT: PASS
+=== RENDER ===
+  1758/1758 checks pass
+RESULT: PASS

@@ -7,7 +7,7 @@
   window.PAGE = {
   "id": "case",
   "up": "../",
-  "title": "Case question · Barada Wholesale",
+  "title": "Case question · Orontes and Qasr Hotels",
   "terms": L.KEYS,
   "brief": {
     "anim": "fivesteps"
