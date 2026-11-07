@@ -19,6 +19,8 @@
     lina:  { name: "Lina Al-Masri", role: "accounts",             accent: "en-GB", sk:"#e8c49c", hr:"#1f1b19", hs:"bob",   cl:"#1baf7a" },
     fadi:  { name: "Fadi Barakat",  role: "warehouse supervisor", accent: "en-US", sk:"#a8744b", hr:"#302019", hs:"curl",  cl:"#eb6834" },
     rana:  { name: "Rana Darwish",  role: "buyer, client side",   accent: "en-AU", sk:"#b07d52", hr:"#3b2b20", hs:"bun",   cl:"#6250d6" },
+    ziad:  { name: "Ziad Haffar",   role: "Homs Spinning",        accent: "en-GB", sk:"#8a5a3b", hr:"#1f1b19", hs:"short", cl:"#7a6a4a" },
+    maya:  { name: "Maya Seif",     role: "Aleppo Weaving",       accent: "en-US", sk:"#d9a97d", hr:"#2f2a26", hs:"long",  cl:"#2f7d7a" },
     you:   { name: "You",           role: "",                     accent: "en-US", sk:"#bdb9ae", hr:"#8a877e", hs:"short", cl:"#8a877e" }
   };
   function svg(key, size) {
