@@ -29,7 +29,13 @@ EAFM.voices({
     'u1-layth':         { fadi: 'en-US-AndrewNeural', layth: 'en-US-GuyNeural' },
     'u1-reading-a':     { narr: 'en-US-RogerNeural' },
     'u1-reading-b':     { narr: 'en-US-RogerNeural' },
-    'u1-track':         { fadi: 'en-US-AndrewNeural', layth: 'en-US-GuyNeural' },
+    /* Audio 1.5 is Fadi and MR HAYTHAM, not Layth. This cast said layth
+       until the casting gate refused the export: the scene had been
+       rewritten to the book's actual recording and the voices had not
+       followed, so Mr Haytham would have spoken in the browser's robot
+       voice on a page where everyone else was recorded. He keeps the same
+       voice here as in Unit 2. */
+    'u1-track':         { fadi: 'en-US-AndrewNeural', haytham: 'en-US-EricNeural' },
     'u1-consolidation': { narr: 'en-US-JennyNeural' }
   }
 });

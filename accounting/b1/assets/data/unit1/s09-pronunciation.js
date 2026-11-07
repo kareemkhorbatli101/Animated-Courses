@@ -18,6 +18,7 @@ EAFM.page('u1-s09', {
       id: 'c1', covers: ['Audio 1.1', 'Part 3'], ref: '1.1a', bookRef: 'Unit 1 · Audio 1.1', type: 'chipcols',
       title: 'The -s ending has three sounds',
       instruction: 'Listen and repeat. Notice the -s ending: <b>records</b> /z/, <b>checks</b> /s/, <b>manages</b> /ɪz/. Then sort the eight verbs below into the sound their -s makes. Play each one before you decide.',
+      sayChips: 'course',
       poolLabel: 'Click a verb to hear it, then click the column its -s belongs to — or drag it there. Double-click a verb in a column to take it out again.',
       cols: [
         { label: '/z/ — after a voiced sound', seed: ['records'] },

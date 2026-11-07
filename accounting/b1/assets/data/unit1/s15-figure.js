@@ -82,6 +82,7 @@ EAFM.page('u1-s15', {
       id: 'c2', covers: ['Figure 1.1'], ref: 'F1.1-b', bookRef: 'Unit 1 · Figure 1.1', type: 'order',
       title: 'Put the five stages back in order',
       instruction: 'The caption names the five stages in order. They are shuffled here — put them back, then check against the diagram above.',
+      say: { key: 'course' },
       poolLabel: 'Click a stage, then click its place — or drag it there.',
       blocks: [
         { id: 'g4', text: 'helps to budget the money' },

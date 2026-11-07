@@ -72,7 +72,27 @@
 /* a finished section is marked, not just counted */
 .sec-row .sec-tag:first-letter { font-size: 13px; }
 
-/* ---- 3. the glossary grid on the hub --------------------------------- */
+/* ---- 3. the speaker on a sortable chip -------------------------------
+   Added with `sayChips` in components.js, for the two sorts whose columns
+   are SOUNDS. Without it a learner is asked to sort by ear with nothing to
+   listen to. */
+.chip-say {
+  border: 0;
+  background: transparent;
+  color: var(--primary, #1f4e5f);
+  cursor: pointer;
+  padding: 0 0 0 6px;
+  margin-left: 2px;
+  line-height: 1;
+  vertical-align: -1px;
+  opacity: .66;
+  transition: opacity .12s ease;
+}
+.chip-say:hover,
+.chip-say:focus-visible { opacity: 1; outline: none; }
+.chip-say svg { display: inline-block; }
+
+/* ---- 4. the glossary grid on the hub --------------------------------- */
 .card-body .cols > div { margin-bottom: 14px; }
 [dir="rtl"] { text-align: right; }
 

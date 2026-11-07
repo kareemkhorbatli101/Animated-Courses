@@ -2709,6 +2709,22 @@
         var s = mk('span', 'chip', esc(sd));
         s.style.opacity = '.72'; s.style.cursor = 'default';
         s.title = 'Given as an example';
+        /* The seeded chips are the WORKED EXAMPLES — in the -ed drill they
+           are the three sounds the book tells the learner to listen to
+           first. They were the only chips with no speaker, which made the
+           reference sounds the one thing on the card you could not hear. */
+        if (card.sayChips) {
+          var ss = mk('button', 'chip-say no-print', art.icon('sound', 13));
+          ss.type = 'button';
+          ss.title = 'Hear this word';
+          ss.setAttribute('aria-label', 'Hear ' + sd);
+          ss.style.cursor = 'pointer';
+          ss.onclick = function (ev) {
+            ev.stopPropagation();
+            EAFM.say(sd, typeof card.sayChips === 'string' ? card.sayChips : 'course');
+          };
+          s.appendChild(ss);
+        }
         inner.appendChild(s);
       });
     });
@@ -2717,6 +2733,21 @@
       var cEl = mk('span', 'chip', esc(x));
       cEl.dataset.cid = x;
       pick.wireChip(cEl);
+      /* A sort whose columns are SOUNDS has to be audible: the -s and -ed
+         ending drills ask the learner to hear a word before placing it, and
+         chipcols could not say anything at all. `sayChips` adds a speaker to
+         each chip without changing any card that does not ask for one. */
+      if (card.sayChips) {
+        var sp = mk('button', 'chip-say no-print', art.icon('sound', 13));
+        sp.type = 'button';
+        sp.title = 'Hear this word';
+        sp.setAttribute('aria-label', 'Hear ' + x);
+        sp.onclick = function (ev) {
+          ev.stopPropagation();
+          EAFM.say(x, typeof card.sayChips === 'string' ? card.sayChips : 'course');
+        };
+        cEl.appendChild(sp);
+      }
       pool.appendChild(cEl);
       chipEls[x] = cEl;
     });

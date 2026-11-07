@@ -84,6 +84,7 @@ EAFM.page('u2-s15', {
       bookRef: 'Unit 2 · Figure 2.1', type: 'order',
       title: 'Put the three stages back in order',
       instruction: 'The diagram has three numbered stages and two arrows. They are shuffled here — put them back, then check against the picture above.',
+      say: { key: 'course' },
       poolLabel: 'Click a stage, then click its place — or drag it there.',
       blocks: [
         { id: 'f3', text: 'The ledger — the entry reaches both T-accounts, and the two sides stay equal.' },

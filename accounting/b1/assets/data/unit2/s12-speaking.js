@@ -16,6 +16,7 @@ EAFM.page('u2-s12', {
       bookRef: 'Unit 2 · Part 4 · Model exchange', type: 'order',
       title: 'The model exchange, out of order',
       instruction: 'The book prints a model exchange between A and B. Its six lines are shuffled here. Put them back in order — the questions and their answers have to stay together, and the signposts (<i>First… Then… After that…</i>) tell you which is which.',
+      say: { key: 'course' },
       poolLabel: 'Click a line, then click the slot it belongs in — or drag it there.',
       visual: { art: 'two-actions',
         caption: 'One of B’s answers has a long action with a short one inside it. Find it before you place anything.' },

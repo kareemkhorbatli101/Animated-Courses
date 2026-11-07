@@ -16,6 +16,7 @@ EAFM.page('u1-s12', {
       id: 'c1', covers: ['Part 4'], ref: '4A', bookRef: 'Unit 1 · Part 4 · Model exchange', type: 'order',
       title: 'The model exchange, out of order',
       instruction: 'The book prints a model exchange between A and B. Its six lines are shuffled here. Put them back in order — the questions and their answers have to stay together, and the tenses tell you which answer belongs to which question.',
+      say: { key: 'course' },
       poolLabel: 'Click a line, then click the slot it belongs in — or drag it there.',
       visual: { art: 'tense-timeline',
         caption: 'Two questions about every day, one about this week. The tense of each answer gives it away.' },

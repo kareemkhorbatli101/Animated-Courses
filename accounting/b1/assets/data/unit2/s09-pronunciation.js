@@ -18,6 +18,7 @@ EAFM.page('u2-s09', {
       bookRef: 'Unit 2 · Audio 2.1', type: 'chipcols',
       title: 'The -ed ending has three sounds',
       instruction: 'Listen and repeat the -ed endings: <b>recorded</b> /ɪd/, <b>checked</b> /t/, <b>closed</b> /d/. Then sort the eight verbs below into the sound their -ed makes. Play each one before you decide.',
+      sayChips: 'course',
       poolLabel: 'Click a verb to hear it, then click the column its -ed belongs to — or drag it there. Double-click a verb in a column to take it out again.',
       cols: [
         { label: '/ɪd/ — an extra syllable', seed: ['recorded'] },
