@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Charts</title>
+<link rel="stylesheet" href="assets/ui.css"></head>
+<body><div class="wrap" style="padding-top:24px"><div id="g"></div></div>
+<script src="assets/charts.js"></script>
+<script>
+var G = document.getElementById('g');
+function add(spec){ var h=document.createElement('div'); h.style.margin='0 0 30px';
+  h.appendChild(Charts.make(spec)); G.appendChild(h); }
+add({kind:"line", title:"Retention after 14 days", sub:"Same total study time, split two ways",
+  unit:"%", xlabel:"Days after studying", x:[1,2,3,5,7,10,14], ymax:100,
+  series:[{name:"self-testing",v:[88,82,78,73,70,66,63]},{name:"re-reading",v:[92,74,62,48,39,30,24]}],
+  source:"Illustrative, authored for this item",
+  cols:["Day","Self-testing","Re-reading"],
+  rows:[[1,88,92],[2,82,74],[3,78,62],[5,73,48],[7,70,39],[10,66,30],[14,63,24]]});
+add({kind:"bar", title:"Mean beak depth before and after a drought", ylabel:"mm",
+  groups:["Before","After"],
+  bars:[{name:"1976",v:9.4,group:0},{name:"1977",v:9.7,group:0},{name:"1978",v:10.2,group:1},{name:"1979",v:10.4,group:1}],
+  source:"Illustrative"});
+add({kind:"pie-key", title:"Where the research budget goes",
+  sub:"One faculty, one year", source:"Illustrative",
+  slices:[{name:"Salaries",v:38},{name:"Equipment",v:15},{name:"Fieldwork",v:15},
+          {name:"Publication",v:9},{name:"Travel",v:8},{name:"Software",v:4},
+          {name:"Training",v:3},{name:"Other",v:3}]});
+add({kind:"scatter", title:"Planet mass against orbital distance", xmax:32, ymax:1000, ymin:0.01, ylog:true,
+  xlabel:"Distance from star (AU)", ylabel:"Mass (Earths, log scale)",
+  points:[{x:0.4,y:0.055,name:"a"},{x:1,y:1,name:"b"},{x:5.2,y:318,name:"c"},
+          {x:9.6,y:95,name:"d"},{x:19.2,y:14,name:"e"},{x:30,y:17,name:"f"}],
+  source:"Illustrative"});
+add({kind:"bubble", title:"Research funding by field", source:"Illustrative",
+  bubbles:[{name:"Medicine",v:106,x:200,y:160,label:"106"},{name:"Physics",v:54,x:360,y:130,label:"54"},
+           {name:"Biology",v:38,x:470,y:210,label:"38"},{name:"History",v:12,x:120,y:255,label:"12"},
+           {name:"Arts",v:8,x:555,y:95,label:"8"}]});
+add({kind:"table", title:"Four ways across the city", caption:"Compared on one journey",
+  cols:["Mode","Cost","Time","Capacity","CO2"],
+  rows:[["Metro","$2.40","22 min","1,200/train","low"],["Bus","$1.80","41 min","80/bus","medium"],
+        ["Bicycle","$0.00","34 min","1","none"],["Car","$6.10","29 min","1-4","high"]],
+  source:"Illustrative"});
+</script></body></html>
+<script>
+add({kind:"pie-pair", title:"Leading causes of death, then and now",
+  sub:"Same six categories, same colours, so the two halves can be compared",
+  source:"Illustrative",
+  categories:["Infectious disease","Heart and circulatory","Cancer","Injury","Respiratory","Other"],
+  left:{label:"1900", values:{"Infectious disease":44,"Heart and circulatory":14,"Cancer":4,"Injury":9,"Respiratory":12,"Other":17}},
+  right:{label:"Today", values:{"Infectious disease":5,"Heart and circulatory":31,"Cancer":27,"Injury":6,"Respiratory":13,"Other":18}}});
+</script>
+<script>
+add({kind:"compare-table", title:"Four ways across the city",
+  sub:"One journey, compared on what actually differs",
+  caption:"Peak-hour, 6 km, city centre to campus",
+  cols:["Mode","Cost","Time (min)","Capacity","CO2 (g/km)"],
+  better:[null,"low","low","high","low"],
+  rows:[["Metro","2.40","22","1200","41"],["Bus","1.80","41","80","68"],
+        ["Bicycle","0.00","34","1","0"],["Car","6.10","29","4","192"]],
+  note:"Capacity is per vehicle, which is why the bicycle wins three columns and loses one.",
+  source:"Illustrative"});
+</script>

@@ -1,0 +1,461 @@
+/* deck.js — the lesson as a deck of scenes.
+ *
+ * One scene = one lettered exercise (1A, 1B, 2A ...). It carries Step Forward's
+ * chrome - the chevron banner, the section number, the exercise letter, a named
+ * sidebar, the objective bar - but only ONE interactive object, so the page
+ * never becomes a scroll-wall.
+ *
+ * Contract every scene keeps: a "Check Answers" button and a "Try Again" button,
+ * per-element marking, and feedback that leads with the learner's own choice.
+ */
+(function (root, doc) {
+  "use strict";
+
+  var B = root.BOOK, SPEC = root.SPEC, P = root.Progress;
+
+  function E(tag, cls, text) {
+    var n = doc.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+  function esc(s) {
+    return String(s === null || s === undefined ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  /* Reproducible shuffling: ?seed=N makes a run repeatable for testing. */
+  var seed = (function () {
+    var m = String(root.location.search || "").match(/[?&]seed=(\d+)/);
+    return m ? Number(m[1]) : null;
+  })(), seedN = 0;
+  function rnd() {
+    if (seed === null) return Math.random;
+    var s = (seed + (seedN++) * 7919) % 2147483647;
+    if (s <= 0) s += 2147483646;
+    return function () { s = (s * 16807) % 2147483647; return (s - 1) / 2147483646; };
+  }
+  function shuffle(a) {
+    var r = rnd(), x = a.slice(), i, j, t;
+    for (i = x.length - 1; i > 0; i--) { j = Math.floor(r() * (i + 1)); t = x[i]; x[i] = x[j]; x[j] = t; }
+    return x;
+  }
+
+  /* Feedback that names the learner's own answer before the right one. */
+  function yoursFirst(yours, right) {
+    var h = "";
+    if (yours) h += "<p><b>You chose:</b> " + yours + "</p>";
+    if (right) h += "<p><b>The answer:</b> " + right + "</p>";
+    return h;
+  }
+  function fbList(rows) {
+    if (!rows || !rows.length) return "";
+    return "<ul>" + rows.map(function (r) { return "<li>" + r + "</li>"; }).join("") + "</ul>";
+  }
+
+  var KINDS = {};
+  var current = 0, api = null, page = null, done = {};
+
+  function noteBox(note) {
+    if (!note) return null;
+    var cls = { reader: "note-reader", writer: "note-writer", words: "note-words",
+                speak: "note-speak", help: "note-help", gram: "note-gram" }[note.kind] || "note-reader";
+    var ttl = { reader: "Reader's Note", writer: "Writer's Note", words: "In other words…",
+                speak: "Speaking Note", help: "Need help?", gram: "Grammar Notes" }[note.kind] || "Note";
+    var n = E("aside", "note " + cls);
+    n.appendChild(E("h3", null, note.title || ttl));
+    var b = E("div");
+    b.innerHTML = note.body || "";
+    n.appendChild(b);
+    return n;
+  }
+
+  function topBar() {
+    var bar = E("div", "topbar");
+    var home = E("a", "home", B.title);
+    home.href = page.up ? page.up + "index.html" : "index.html";
+    bar.appendChild(home);
+    var w = E("div", "where"); w.id = "where";
+    bar.appendChild(w);
+    var th = E("button", null, "Theme");
+    th.type = "button";
+    th.addEventListener("click", function () {
+      var cur = doc.documentElement.getAttribute("data-theme");
+      if (!cur) cur = root.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      var nx = cur === "dark" ? "light" : "dark";
+      doc.documentElement.setAttribute("data-theme", nx);
+      try { root.localStorage.setItem((root.COURSE && root.COURSE.ns || "toefl.") + "theme", nx); } catch (e) {}
+    });
+    bar.appendChild(th);
+    /* F36 — the interface in Arabic, beside the theme switch. The English
+       being taught is never translated; the button says so. */
+    if (root.AR) root.AR.toggle(bar);
+    return bar;
+  }
+
+  function build() {
+    page = root.PAGE;
+    try {
+      var t = root.localStorage.getItem((root.COURSE && root.COURSE.ns || "toefl.") + "theme");
+      if (t) doc.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+
+    doc.body.appendChild(topBar());
+    doc.body.appendChild(E("div", "motif"));
+
+    var bw = E("div", "wrap");
+    var ban = E("div", "banner", B.banner(page.block));
+    bw.appendChild(ban);
+    doc.body.appendChild(bw);
+
+    if (page.tab) {
+      var tab = E("div", "edgetab", page.tab);
+      doc.body.appendChild(tab);
+    }
+
+    var w2 = E("div", "wrap");
+    var sc = E("section", "scene");
+    sc.id = "scene";
+    w2.appendChild(sc);
+    doc.body.appendChild(w2);
+
+    var ob = E("div", "objbar");
+    ob.id = "objbar";
+    doc.body.appendChild(ob);
+
+    go(startAt());
+
+    doc.addEventListener("keydown", function (e) {
+      if (e.target && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+      if (e.altKey || e.ctrlKey || e.metaKey) return;
+      if (e.key === "ArrowRight") next();
+      if (e.key === "ArrowLeft") prev();
+    });
+  }
+
+  function startAt() {
+    var n = Number(String(root.location.hash || "").replace("#s", ""));
+    return (n >= 1 && n <= page.scenes.length) ? n - 1 : 0;
+  }
+
+  function go(i) {
+    current = Math.max(0, Math.min(i, page.scenes.length - 1));
+    var spec = page.scenes[current];
+    var host = doc.getElementById("scene");
+    host.innerHTML = "";
+    try { root.history.replaceState(null, "", "#s" + (current + 1)); } catch (e) {}
+
+    var u = B.unit(page.unit);
+    doc.getElementById("where").innerHTML =
+      "<b>" + esc((u ? "Unit " + u.n + " · " + u.title : page.title)) + "</b>&nbsp;·&nbsp;" +
+      (current + 1) + " of " + page.scenes.length;
+
+    /* section heading, only when the section changes */
+    var prev2 = page.scenes[current - 1];
+    if (spec.section && (!prev2 || prev2.section !== spec.section)) {
+      var s = E("div", "sec");
+      s.appendChild(E("span", "num", String(spec.section)));
+      s.appendChild(E("h2", null, spec.sectionTitle || ""));
+      host.appendChild(s);
+    }
+
+    var ex = E("div", "ex");
+    if (spec.audio) {
+      var at = E("span", "audio-tag");
+      var ab = E("button", null, "♪");
+      ab.type = "button";
+      ab.setAttribute("aria-label", "Play audio");
+      ab.dataset.track = spec.audio.track || "";
+      at.appendChild(ab);
+      at.appendChild(E("span", null, spec.audio.track || ""));
+      ex.appendChild(at);
+    }
+    ex.appendChild(E("span", "ltr", spec.letter || "A"));
+    var body = E("div", "body");
+    if (spec.prompt) {
+      var p = E("p", "prompt");
+      p.innerHTML = spec.prompt;
+      body.appendChild(p);
+    }
+    var stage = E("div", "stage");
+    body.appendChild(stage);
+    ex.appendChild(body);
+    host.appendChild(ex);
+
+    var live = E("p", "live");
+    live.setAttribute("aria-live", "polite");
+    host.appendChild(live);
+
+    var foot = E("div", "foot");
+    var check = E("button", "btn btn-primary btn-check", "Check Answers");
+    check.type = "button";
+    var again = E("button", "btn btn-ghost btn-again", "Try Again");
+    again.type = "button";
+    var verdict = E("span", "verdict");
+    verdict.setAttribute("aria-live", "polite");
+    foot.appendChild(check); foot.appendChild(again); foot.appendChild(verdict);
+    host.appendChild(foot);
+
+    var fb = E("div", "fb");
+    host.appendChild(fb);
+
+    if (spec.closer) {
+      var c = E("div", "closer" + (spec.closer.kind === "life" ? " life" : ""));
+      c.appendChild(E("h3", null, spec.closer.kind === "life" ? "Bring it to life" : "Test yourself"));
+      var cb = E("div"); cb.innerHTML = spec.closer.body || "";
+      c.appendChild(cb);
+      host.appendChild(c);
+    }
+
+    /* Explain and Play, on every scene without exception. The Explain
+       popup is task help and never contains an answer; content help
+       (glossary, line highlight, transcript) stays inline on the page. */
+    var aux = E("div", "aux");
+
+    var exb = E("button", null, "Explain");
+    exb.type = "button";
+    exb.setAttribute("aria-haspopup", "dialog");
+    exb.addEventListener("click", function () {
+      if (root.Explain) root.Explain.open(spec, page, exb);
+    });
+    aux.appendChild(exb);
+
+    var playb = E("button", null, "Play this page");
+    playb.type = "button";
+    var reading = null;
+    function stopReading() {
+      if (reading) { reading.cancel(); reading = null; }
+      playb.classList.remove("on");
+      playb.textContent = "Play this page";
+      stage.querySelectorAll(".say-cursor").forEach(function (n) { n.classList.remove("say-cursor"); });
+    }
+    playb.addEventListener("click", function () {
+      if (reading) { stopReading(); return; }
+      if (!root.Speech || !root.Explain) return;
+      var segs = root.Explain.sayable(spec);
+      if (!segs.length) return;
+      playb.classList.add("on");
+      playb.textContent = "Stop";
+      reading = root.Speech.speakSegments(segs, {
+        onSegment: function (i, seg) { markCursor(typeof seg === "string" ? seg : seg.text); },
+        onDone: stopReading
+      });
+    });
+    aux.appendChild(playb);
+    fb.parentNode.insertBefore(aux, fb.nextSibling);
+
+    /* Move a highlight to whatever is being read, so the learner can see
+       where they are. Matching on text keeps this independent of every
+       renderer's markup. */
+    function markCursor(text) {
+      var want = String(text).replace(/\s+/g, " ").trim().slice(0, 48).toLowerCase();
+      stage.querySelectorAll(".say-cursor").forEach(function (n) { n.classList.remove("say-cursor"); });
+      if (!want) return;
+      var nodes = stage.querySelectorAll("p,li,td,th,h3,h4,.tok,.opt,.chip,.item");
+      for (var i = 0; i < nodes.length; i++) {
+        var t = (nodes[i].textContent || "").replace(/\s+/g, " ").trim().toLowerCase();
+        if (t && t.indexOf(want) === 0) { nodes[i].classList.add("say-cursor"); return; }
+      }
+    }
+
+    var steps = E("nav", "steps");
+    var pv = E("button", "step-btn", "← Back");
+    pv.type = "button"; pv.disabled = current === 0;
+    pv.addEventListener("click", prev);
+    var dots = E("div", "dots");
+    page.scenes.forEach(function (sp, j) {
+      var d = E("button", "dot" + (j === current ? " now" : (done[sp.id] ? " done" : "")));
+      d.type = "button";
+      d.title = (j + 1) + ". " + (sp.sectionTitle || sp.id);
+      d.setAttribute("aria-label", "Go to exercise " + (j + 1));
+      d.addEventListener("click", function () { go(j); });
+      dots.appendChild(d);
+    });
+    var nx = E("button", "step-btn next", current === page.scenes.length - 1 ? "Finish →" : "Next →");
+    nx.type = "button";
+    nx.addEventListener("click", next);
+    steps.appendChild(pv); steps.appendChild(dots); steps.appendChild(nx);
+    host.appendChild(steps);
+
+    doc.getElementById("objbar").innerHTML =
+      "<span>" + esc(spec.objective || page.objective || "") + "</span>" +
+      "<span>" + esc((u ? "Unit " + u.n + " " : "") + B.banner(page.block).replace(/ .*/, "")) + "</span>";
+
+    api = { spec: spec, stage: stage, live: live, fb: fb, verdict: verdict,
+            check: check, again: again, shuffle: shuffle, E: E, esc: esc,
+            fbList: fbList, yoursFirst: yoursFirst, note: noteBox, SPEC: SPEC,
+            /* Several fixes turn on "has this been attempted yet?": the
+               transcript appears only after (F12), slow replay is earned
+               (F13), the passage highlight is a hint if shown first and a
+               lesson if shown after (F47), and the distractor autopsy has
+               nothing to explain until something is wrong (F11). The deck
+               owns that signal so no renderer has to invent it. */
+            /* F2: a scene may not ask about a stimulus it does not carry.
+               The passage, chart or talk has one home — the scene that
+               teaches it — and a scene that asks about it names that scene
+               in `carry`. Resolved here so no renderer has to go looking,
+               and so the text can never drift from its source by being
+               copied twice. */
+            source: (function () {
+              if (!spec.carry) return null;
+              for (var i = 0; i < page.scenes.length; i++)
+                if (page.scenes[i].id === spec.carry) return page.scenes[i];
+              return null;
+            })(),
+            attempts: 0,
+            onChecked: function (fn) { checkedHooks.push(fn); },
+            reviewing: function () { return api.attempts > 0; } };
+
+    var checkedHooks = [];
+
+    /* does this scene offer options whose rationales are worth asking about */
+    function hasDistractors(sp) {
+      var lists = [].concat(sp.items || [], sp.gaps || []);
+      return lists.some(function (i) {
+        return i && Array.isArray(i.options || i.opts) && (i.options || i.opts).length > 1;
+      });
+    }
+
+    /* the feedback a renderer produced, as plain lines, for the mistake log */
+    function missedTexts(res) {
+      if (!res || !res.html) return [];
+      var holder = E("div");
+      holder.innerHTML = res.html;
+      return [].slice.call(holder.querySelectorAll("li"))
+        .map(function (li) { return li.textContent.replace(/\s+/g, " ").trim(); })
+        .filter(Boolean).slice(0, 12);
+    }
+
+    function render() {
+      stopReading();
+      /* so a player built during this render knows which scene it is on,
+         and can look up a recording of its own line (F39) */
+      if (root.AudioKit && root.AudioKit.setScene) root.AudioKit.setScene(spec.id);
+      stage.innerHTML = "";
+      checkedHooks.length = 0;
+      api.attempts = 0;
+      /* Concept badges, every scene. Inferred where not declared, so this
+         is never empty and the same idea always wears the same icon. */
+      if (root.Icons && root.Explain) {
+        var cs = root.Explain.concepts(spec), rowEl = E("div", "icon-row");
+        cs.slice(0, 3).forEach(function (c) {
+          var b = root.Icons.badge(doc, c, c.replace(/-/g, " "));
+          if (b) rowEl.appendChild(b);
+        });
+        if (rowEl.children.length) stage.appendChild(rowEl);
+      }
+      fb.className = "fb"; fb.innerHTML = "";
+      verdict.textContent = ""; verdict.className = "verdict";
+      var r = KINDS[spec.kind];
+      if (!r) { stage.appendChild(E("p", null, "Unknown exercise kind: " + spec.kind)); return; }
+      api.grade = r(stage, spec, api);
+      /* Reading and listening behaviours that are the same on every scene of
+         their kind live in one place rather than in each renderer. */
+      if (root.RL) root.RL.decorate(stage, spec, api, page);
+
+      /* The learning layer: help that is graded rather than given (F35), a
+         prediction before the mark (F42), an explanation asked for after a
+         miss (F44), and a record of what went wrong (F37). All optional,
+         none of it gating Check Answers, because a learner who wants to
+         just answer the question must always be able to. */
+      if (root.AR) root.AR.refresh();
+      if (root.Learn) {
+        var count = itemCount(spec);
+        root.Learn.workedExample(stage, spec, page, api);
+        root.Learn.hintBar(stage, spec, api);
+        if (count > 1) root.Learn.predictBar(stage, count, api, page, spec);
+      }
+    }
+
+    /* how many things this scene marks, which is what a prediction is about */
+    function itemCount(sp) {
+      if (typeof sp.n === "number" && sp.n > 1) return sp.n;
+      var lists = ["items", "gaps", "pairs", "steps", "cards", "phrases",
+                   "sentences", "takeaways", "lines"];
+      if (sp.matrix && Array.isArray(sp.matrix.rows) && sp.matrix.rows.length > 1)
+        return sp.matrix.rows.length;
+      for (var i = 0; i < lists.length; i++)
+        if (Array.isArray(sp[lists[i]]) && sp[lists[i]].length > 1) return sp[lists[i]].length;
+      return 0;
+    }
+
+    check.onclick = function () {
+      if (!api.grade) return;
+      var res = api.grade();
+      if (!res) return;
+      var ok = res.ok !== undefined ? res.ok : res.score === res.total;
+      verdict.className = "verdict " + (ok ? "ok" : "no");
+      verdict.textContent = res.verdict ||
+        (res.total > 1 ? res.score + " of " + res.total + " right" : (ok ? "Right" : "Not yet"));
+      fb.className = "fb show " + (ok ? "ok" : "no");
+      fb.innerHTML = "";
+      /* F45 — the rationales for every wrong option are written and have
+         always been handed over unasked. Asking the learner why they think
+         they went wrong, before showing them, is the difference between
+         reading an explanation and producing one. */
+      var holder = E("div");
+      holder.innerHTML = res.html || "";
+      if (!ok && root.Learn && hasDistractors(spec) && res.html) {
+        holder.hidden = true;
+        fb.appendChild(holder);
+        root.Learn.askWhyFirst(fb, function () {
+          holder.hidden = false;
+          if (root.Motion) root.Motion.reveal(holder);
+        });
+      } else {
+        fb.appendChild(holder);
+      }
+      live.textContent = verdict.textContent;
+      api.attempts++;
+      checkedHooks.forEach(function (fn) {
+        try { fn(res, ok); } catch (e) {}
+      });
+      if (ok) {
+        done[spec.id] = true;
+        if (P) P.mark(page.id, spec.id);
+        dots.children[current].classList.add("done");
+        if (P && P.nextFor) {
+          var when = P.nextFor(page.id, spec.id);
+          if (when) {
+            var sch = E("p", "sched", "Scheduled for review " + when + ".");
+            fb.appendChild(sch);
+          }
+        }
+      } else if (P && P.miss) {
+        P.miss(page.id, spec.id);
+      }
+      if (!ok && root.Learn) {
+        /* F44 — producing the explanation is what consolidates it; reading
+           mine is not. F37 — and the item itself is kept, not its topic. */
+        if (!fb.querySelector(".ln-why")) root.Learn.selfExplain(fb, page, spec);
+        root.Learn.logMiss(page, spec, missedTexts(res));
+      }
+    };
+    again.onclick = function () {
+      render();
+      live.textContent = "Reset and reshuffled.";
+      var f = stage.querySelector("input,button,textarea,select,.tile");
+      if (f) f.focus();
+    };
+
+    render();
+    root.scrollTo(0, 0);
+  }
+
+  function next() {
+    if (current < page.scenes.length - 1) go(current + 1);
+    else if (page.next) root.location.href = page.next;
+  }
+  function prev() { if (current > 0) go(current - 1); }
+
+  root.Deck = {
+    register: function (kind, fn) { KINDS[kind] = fn; },
+    kinds: function () { return Object.keys(KINDS); },
+    start: function () {
+      if (doc.readyState === "loading") doc.addEventListener("DOMContentLoaded", build);
+      else build();
+    },
+    E: E, esc: esc, shuffle: shuffle, noteBox: noteBox
+  };
+})(window, document);
