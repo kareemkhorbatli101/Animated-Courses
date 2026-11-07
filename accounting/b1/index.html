@@ -30,7 +30,7 @@
     { n: 1, t: 'Working in the Finance Team', live: true,
       g: 'Present simple and present continuous',
       b: 'Who the finance team is, what a finance officer does every day, and the five stages of the finance cycle.' },
-    { n: 2, t: 'Recording What Happened',
+    { n: 2, t: 'Recording What Happened', live: true,
       g: 'Past simple and past continuous',
       b: 'The month-end close, and one transaction travelling from a receipt through the journal to the ledger.' },
     { n: 3, t: 'Comparing Budget and Actuals', g: 'Comparatives and superlatives',
@@ -150,6 +150,8 @@
   var row = el('div', 'btn-row');
   var go = el('a', 'btn btn-primary btn-lg', art.icon('play', 16) + 'Open Unit 1');
   go.href = 'unit1/index.html'; row.appendChild(go);
+  var g2 = el('a', 'btn btn-lg', art.icon('play', 16) + 'Open Unit 2');
+  g2.href = 'unit2/index.html'; row.appendChild(g2);
   hb.appendChild(row); how.appendChild(hb); wrap.appendChild(how);
 
   var cr = el('p', 'wc');
