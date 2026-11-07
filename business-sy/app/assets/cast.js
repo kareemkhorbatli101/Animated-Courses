@@ -1,17 +1,26 @@
 /* cast.js — the recurring cast. Same face, name, voice and accent in every unit.
    Authored SVG rather than photography: no licence exposure, no model release,
-   a few hundred bytes each, and it gives the book one identity. */
+   a few hundred bytes each, and it gives the book one identity.
+
+   All six are fictional. None is a real person, company or official.
+
+   A NOTE ON `accent`, so nothing here is read as a claim. The field selects a
+   Web Speech API voice, and the voices a browser offers are en-GB, en-US and
+   en-AU. There is no Arabic-accented English voice to choose. The values
+   below are therefore chosen so the six speakers are TELLABLE APART in a
+   listening exercise, which is what the exercises need. They are not a claim
+   about how a Syrian colleague sounds, and the course says so in its README
+   rather than leaving a learner to infer it. */
 (function (root, doc) {
   "use strict";
   var PEOPLE = {
-    haddad: { name: "Professor Nadia Haddad", role: "lecturer",     accent: "en-GB", sk:"#c99a72", hr:"#2f2a26", hs:"bob",   cl:"#4a5f7a" },
-    mei:    { name: "Mei Lin",                role: "first year",   accent: "en-US", sk:"#e8c49c", hr:"#1f1b19", hs:"long",  cl:"#2a78d6" },
-    dan:    { name: "Dan Okafor",             role: "peer advisor", accent: "en-US", sk:"#8a5a3b", hr:"#241c17", hs:"short", cl:"#1baf7a" },
-    priya:  { name: "Priya Raman",            role: "student",      accent: "en-AU", sk:"#b07d52", hr:"#302019", hs:"bun",   cl:"#eb6834" },
-    tomas:  { name: "Tomás Ferreira",    role: "student",      accent: "en-US", sk:"#d9a97d", hr:"#3b2b20", hs:"curl",  cl:"#6250d6" },
-    you:    { name: "You",                    role: "",             accent: "en-US", sk:"#bdb9ae", hr:"#8a877e", hs:"short", cl:"#8a877e" }
+    nour:  { name: "Nour Haddad",   role: "operations manager",   accent: "en-GB", sk:"#d9ab80", hr:"#2f2a26", hs:"hijab", cl:"#4a5f7a" },
+    samer: { name: "Samer Khoury",  role: "export coordinator",   accent: "en-US", sk:"#c99a72", hr:"#241c17", hs:"short", cl:"#2a78d6" },
+    lina:  { name: "Lina Al-Masri", role: "accounts",             accent: "en-GB", sk:"#e8c49c", hr:"#1f1b19", hs:"bob",   cl:"#1baf7a" },
+    fadi:  { name: "Fadi Barakat",  role: "warehouse supervisor", accent: "en-US", sk:"#a8744b", hr:"#302019", hs:"curl",  cl:"#eb6834" },
+    rana:  { name: "Rana Darwish",  role: "buyer, client side",   accent: "en-AU", sk:"#b07d52", hr:"#3b2b20", hs:"bun",   cl:"#6250d6" },
+    you:   { name: "You",           role: "",                     accent: "en-US", sk:"#bdb9ae", hr:"#8a877e", hs:"short", cl:"#8a877e" }
   };
-
   function svg(key, size) {
     var a = PEOPLE[key] || PEOPLE.you, s = size || 46, h = "";
     h += '<svg viewBox="0 0 84 84" width="' + s + '" height="' + s + '" aria-hidden="true">';
@@ -31,6 +40,13 @@
       h += '<path d="M24 37c0-13 8-21 18-21s18 8 18 21c0 0-2-9-18-9s-18 9-18 9z" fill="' + a.hr + '"/>'
          + '<circle cx="27" cy="28" r="5" fill="' + a.hr + '"/><circle cx="42" cy="21" r="6" fill="' + a.hr + '"/>'
          + '<circle cx="57" cy="28" r="5" fill="' + a.hr + '"/>';
+    else if (a.hs === "hijab")
+      /* Drawn in the same stroke-and-fill language as the other styles: a
+         covering that frames the face and drapes to the shoulder line. It
+         uses `cl`, the clothing colour, because that is what it is. */
+      h += '<path d="M20 40c0-15 10-24 22-24s22 9 22 24c0 7-1 13-3 19h-6c3-7 4-13 4-19 0-10-7-16-17-16s-17 6-17 16c0 6 1 12 4 19h-6c-2-6-3-12-3-19z" fill="' + a.cl + '"/>'
+         + '<path d="M23 55c-2 8-2 15 0 22h38c2-7 2-14 0-22-3 6-10 9-19 9s-16-3-19-9z" fill="' + a.cl + '"/>'
+         + '<path d="M25 36c0-9 7-15 17-15s17 6 17 15c0 0-3-6-17-6s-17 6-17 6z" fill="' + a.cl + '" opacity=".55"/>';
     else
       h += '<path d="M25 38c0-12 8-20 17-20s17 8 17 20c0 0-2-8-17-8s-17 8-17 8z" fill="' + a.hr + '"/>';
     h += '<circle cx="35" cy="38" r="2.1" fill="#2b2622"/><circle cx="49" cy="38" r="2.1" fill="#2b2622"/>';
