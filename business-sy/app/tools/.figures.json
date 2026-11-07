@@ -1,5 +1,5 @@
 {
- "scenes": 239,
+ "scenes": 333,
  "figures": {
   "u01/l1/3c": [
    "dg-set"
@@ -98,6 +98,36 @@
    "dg-slots"
   ],
   "u05/l3/2b": [
+   "dg-slots"
+  ],
+  "u06/l1/3c": [
+   "dg-set"
+  ],
+  "u06/l2/2a": [
+   "dg-slots"
+  ],
+  "u06/l2/2b": [
+   "dg-slots"
+  ],
+  "u06/l3/2a": [
+   "dg-slots"
+  ],
+  "u06/l3/2b": [
+   "dg-slots"
+  ],
+  "u07/l1/3c": [
+   "dg-set"
+  ],
+  "u07/l2/2a": [
+   "dg-slots"
+  ],
+  "u07/l2/2b": [
+   "dg-slots"
+  ],
+  "u07/l3/2a": [
+   "dg-slots"
+  ],
+  "u07/l3/2b": [
    "dg-slots"
   ]
  }
