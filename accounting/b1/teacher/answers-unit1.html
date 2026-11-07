@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Answer key · Unit 1 · Accounting &amp; Finance B1</title>
+<meta name="description" content="The full answer key for Unit 1, generated from the activity data itself.">
+<link rel="stylesheet" href="../assets/css/app.css">
+<link rel="stylesheet" href="../assets/css/eafm.css">
+<script>window.EAFM_BASE='../';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/art-eafm.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/js/scene.js"></script>
+<script src="../assets/data/unit1/meta.js"></script>
+<script src="../assets/data/unit1/voices.js"></script>
+<script src="../assets/data/unit1/narration.js"></script>
+<script src="../assets/data/unit1/glossary.js"></script>
+<script src="../assets/data/unit1/scenes.js"></script>
+<script src="../assets/data/unit1/map.js"></script>
+<script src="../assets/data/unit1/ar.js"></script>
+<script src="../assets/data/unit1/audio.js"></script>
+<script src="../unit1/coverage.js"></script>
+<script src="../assets/data/unit1/s01-warmup.js"></script>
+<script src="../assets/data/unit1/s02-read.js"></script>
+<script src="../assets/data/unit1/s03-vocab-match.js"></script>
+<script src="../assets/data/unit1/s04-vocab-mcq.js"></script>
+<script src="../assets/data/unit1/s05-grammar-rule.js"></script>
+<script src="../assets/data/unit1/s06-grammar-gap.js"></script>
+<script src="../assets/data/unit1/s07-grammar-fix.js"></script>
+<script src="../assets/data/unit1/s08-grammar-freer.js"></script>
+<script src="../assets/data/unit1/s09-pronunciation.js"></script>
+<script src="../assets/data/unit1/s10-dialogue-1.js"></script>
+<script src="../assets/data/unit1/s11-dialogue-2.js"></script>
+<script src="../assets/data/unit1/s12-speaking.js"></script>
+<script src="../assets/data/unit1/s13-reading-a.js"></script>
+<script src="../assets/data/unit1/s14-reading-b.js"></script>
+<script src="../assets/data/unit1/s15-figure.js"></script>
+<script src="../assets/data/unit1/s16-writing.js"></script>
+<script src="../assets/data/unit1/s17-stakeholder.js"></script>
+<script src="../assets/data/unit1/s18-consolidation.js"></script>
+<script src="../assets/data/unit1/s19-cases.js"></script>
+<script src="../assets/data/unit1/s20-review.js"></script>
+<script src="../assets/data/unit1/s21-foundations.js"></script>
+</head>
+<body>
+<noscript><p style="padding:40px;font:600 16px system-ui">This page needs JavaScript.</p></noscript>
+<script>
+/* ============================================================
+   The answer key is GENERATED from the same data the learner's page
+   renders. It is not written twice, so it cannot disagree with the
+   exercises — which is the usual way an answer key goes wrong.
+   ============================================================ */
+(function () {
+  var U = EAFM.util, el = U.el, art = EAFM.art;
+  var unit = 'unit1', meta = (EAFM.unitMeta || {})[unit] || {};
+  EAFM.chrome = { refresh: function () {} };
+
+  var bar = el('header', 'topbar'), w1 = el('div', 'wrap');
+  var brand = el('a', 'brand'); brand.href = '../index.html';
+  brand.innerHTML = art.logo() + '<span>' + EAFM.COURSE.name + '</span>';
+  w1.appendChild(brand);
+  var cr = el('div', 'crumbs');
+  cr.innerHTML = '<span class="sep">▸</span><a href="../unit1/index.html">Unit 1</a>' +
+                 '<span class="sep">▸</span><span>Answer key</span>';
+  w1.appendChild(cr);
+  w1.appendChild(el('div', 'spacer'));
+  var tools = el('div', 'tb-tools');
+  var pr = el('button', 'btn btn-sm btn-ghost', art.icon('print', 16));
+  pr.title = 'Print the key'; pr.onclick = function () { window.print(); };
+  tools.appendChild(pr);
+  w1.appendChild(tools); bar.appendChild(w1); document.body.appendChild(bar);
+
+  var main = el('main', 'page-main'), wrap = el('div', 'wrap');
+  var head = el('div', 'page-head');
+  head.innerHTML = '<div class="eyebrow">Teacher · Unit ' + (meta.n || 1) + '</div>' +
+    '<h1>Answer key — ' + U.esc(meta.title || '') + '</h1>' +
+    '<p class="wc" style="max-width:74ch">Generated from the activity data, so it cannot disagree with ' +
+    'what the learner sees. Open answers (writing, speaking, discussion) have no key: they are ' +
+    'scaffolded and not scored, and what is printed for them is the task and the model.</p>';
+  wrap.appendChild(head);
+
+  var rows = EAFM.unitMaps[unit] || [];
+  var counts = { marked: 0, open: 0 };
+
+  rows.forEach(function (r) {
+    var def = EAFM.pages[r.id];
+    if (!def) return;
+    var sec = el('div', 'card'); var b = el('div', 'card-body');
+    b.innerHTML = '<div class="eyebrow">' + U.esc(r.lesson) + '</div>' +
+      '<h3 style="margin:2px 0 10px"><a href="../unit1/' + r.file + '.html">' +
+      U.esc(r.label) + '</a></h3>';
+
+    (def.cards || []).forEach(function (c) {
+      var box = el('div', 'note');
+      var h = '<h4>' + U.esc(c.ref || c.id) + ' — ' + U.esc(c.title || '') +
+        ' <span class="wc">(' + U.esc(c.type) + ')</span></h4>';
+      var body = '';
+
+      if (c.worked) {
+        body += '<div><b>worked example</b> — ' + U.esc(c.worked.q) + ' → <b>' +
+          U.esc(c.worked.a) + '</b></div>';
+      }
+      if (c.items && c.items.length && c.items[0] && c.items[0].options) {
+        c.items.forEach(function (it, i) {
+          var ok = (it.options || []).filter(function (o) { return o.ok; });
+          counts.marked++;
+          body += '<div style="margin:5px 0"><b>' + (i + 1) + '.</b> ' + U.esc(it.q) + '<br>' +
+            '<span style="color:var(--yes,#2e7d52)">✓ ' +
+            ok.map(function (o) { return U.esc(o.t); }).join(' / ') + '</span>' +
+            (it.evidence ? '<br><span class="wc">evidence: ' + U.esc(it.evidence) + '</span>' : '') +
+            '</div>';
+        });
+      } else if (c.type === 'choiceinline' && c.items) {
+        c.items.forEach(function (it, i) {
+          counts.marked++;
+          var opts = (it.text.match(/\{\{(.*?)\}\}/) || [, ''])[1].split('|');
+          body += '<div style="margin:4px 0"><b>' + (i + 1) + '.</b> ' +
+            U.esc(it.text.replace(/\{\{.*?\}\}/, '…')) + ' → <b>' +
+            U.esc((opts[it.answer] || '').trim()) + '</b></div>';
+        });
+      } else if (c.type === 'cloze' && c.answers) {
+        Object.keys(c.answers).forEach(function (k) {
+          counts.marked++;
+          body += '<div><b>' + k + '.</b> ' + U.esc([].concat(c.answers[k]).join(' / ')) + '</div>';
+        });
+      } else if (c.type === 'chipcols' && c.answers) {
+        Object.keys(c.answers).forEach(function (k) {
+          counts.marked++;
+          body += '<div>' + U.esc(k) + ' → <b>' +
+            U.esc((c.cols[c.answers[k]] || {}).label || '?') + '</b></div>';
+        });
+      } else if (c.type === 'dragmatch' && c.targets) {
+        c.targets.forEach(function (t) {
+          counts.marked++;
+          var chip = (c.chips || []).filter(function (x) { return x.id === t.accept; })[0];
+          body += '<div><b>' + (t.num !== undefined ? t.num + '. ' : '') + U.esc(t.label) +
+            '</b> → ' + U.esc(chip ? chip.label : t.accept) + '</div>';
+        });
+      } else if (c.type === 'order' && c.positions) {
+        c.positions.forEach(function (pid, i) {
+          counts.marked++;
+          var bl = (c.blocks || []).filter(function (x) { return x.id === pid; })[0];
+          body += '<div><b>' + (i + 1) + '.</b> ' + U.esc(bl ? bl.text : pid) + '</div>';
+        });
+      } else if (c.ruleGate && c.ruleGate.answers) {
+        Object.keys(c.ruleGate.answers).forEach(function (k) {
+          counts.marked++;
+          body += '<div>rule blank ' + k + ' → <b>' + U.esc(c.ruleGate.answers[k]) + '</b></div>';
+        });
+      } else if (c.type === 'tensewrite' && c.boxes) {
+        c.boxes.forEach(function (bx) {
+          body += '<div>' + U.esc(bx.label) + ' — the checker requires the <b>' +
+            U.esc(U.tenseLabel ? U.tenseLabel(bx.tense) : bx.tense) + '</b>. e.g. <i>' +
+            U.esc(bx.eg) + '</i></div>';
+        });
+        counts.open++;
+      } else {
+        counts.open++;
+        body += '<div class="wc">Open — not scored. ' +
+          (c.coach ? 'Task: ' + U.esc(c.coach.task || '') : U.esc(c.instruction || '').slice(0, 220)) +
+          '</div>';
+        if (c.model) body += '<div style="margin-top:6px"><b>Model:</b> <i>' + U.esc(c.model) + '</i></div>';
+        if (c.coach && c.coach.example) {
+          body += '<div style="margin-top:6px"><b>Example:</b> <i>' +
+            c.coach.example.map(U.esc).join(' ') + '</i></div>';
+        }
+      }
+      box.innerHTML = h + body;
+      b.appendChild(box);
+    });
+    sec.appendChild(b); wrap.appendChild(sec);
+  });
+
+  var sum = el('div', 'card'); var sb = el('div', 'card-body');
+  sb.innerHTML = '<div class="eyebrow">This key covers</div><p class="wc">' +
+    counts.marked + ' marked items with a right answer, and ' + counts.open +
+    ' open activities that are scaffolded rather than scored, across ' + rows.length + ' sections.</p>';
+  sum.appendChild(sb);
+  wrap.insertBefore(sum, wrap.children[1]);
+
+  main.appendChild(wrap); document.body.appendChild(main);
+}());
+</script>
+</body>
+</html>
