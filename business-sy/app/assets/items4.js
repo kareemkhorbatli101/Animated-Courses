@@ -123,19 +123,34 @@
       var picked = null;
       var tk = tokens(line, it.text, "word", function (t) {
         picked = t;
+        if (!inp) return;                  /* a drop item has no correction box */
         inp.disabled = !t;                 /* stable layout; the box is simply dead until a word is chosen */
         if (t) inp.focus();
       });
       box.appendChild(line);
+      /* Two kinds of item. The usual one has a wrong word to replace. A
+         `drop` item has one word too many, which is the published B2
+         proofreading task: the answer is the word itself, and there is
+         nothing to type. Showing a dead "Correction:" box on those would
+         tell the learner to look for a replacement that does not exist. */
+      var drop = !!it.drop;
       var fix = E("div", "efx-fix");
-      fix.appendChild(E("label", null, "Correction:"));
-      var inp = doc.createElement("input");
-      inp.type = "text";
-      inp.className = "efx-in";
-      inp.disabled = true;
-      inp.placeholder = "click the wrong word first";
-      inp.setAttribute("aria-label", "Correction for sentence " + (i + 1));
-      fix.appendChild(inp);
+      var inp = null;
+      if (drop) {
+        /* No input at all, not even a hidden one: a hidden input is still an
+           input, and the accessibility pass counts it as a control with no
+           name. There is genuinely nothing to type here. */
+        fix.appendChild(E("label", "efx-drop", "This line has one word too many \u2014 click it."));
+      } else {
+        fix.appendChild(E("label", null, "Correction:"));
+        inp = doc.createElement("input");
+        inp.type = "text";
+        inp.className = "efx-in";
+        inp.disabled = true;
+        inp.placeholder = "click the wrong word first";
+        inp.setAttribute("aria-label", "Correction for sentence " + (i + 1));
+        fix.appendChild(inp);
+      }
       box.appendChild(fix);
       stage.appendChild(box);
       rows.push({ it: it, tk: tk, inp: inp, box: box, get: function () { return picked; } });
@@ -144,15 +159,16 @@
     return function () {
       var right = 0, miss = [];
       rows.forEach(function (r, i) {
-        var gotWord = r.tk.get(), gotFix = norm(r.inp.value);
+        var gotWord = r.tk.get(), gotFix = r.inp ? norm(r.inp.value) : "";
+        var isDrop = !!r.it.drop;
         var wordOk = gotWord && norm(gotWord) === norm(r.it.wrong);
-        var fixOk = gotFix === norm(r.it.right);
+        var fixOk = isDrop || gotFix === norm(r.it.right);
         var ok = wordOk && fixOk;
         r.box.classList.remove("ok", "no"); r.box.classList.add(ok ? "ok" : "no");
         /* F25 — put the correction into the sentence they are looking at,
            and say it. Several of these errors are audible before they are
            visible: "readed" and "read" differ by a sound, not a spelling. */
-        if (root.Gram) {
+        if (root.Gram && !r.it.drop) {
           var tokEl = null;
           [].slice.call(r.box.querySelectorAll(".tok")).some(function (t) {
             if (norm(t.textContent) !== norm(r.it.wrong)) return false;

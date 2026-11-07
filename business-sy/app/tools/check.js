@@ -266,12 +266,20 @@ function checkScene(where, s, unit){
 
   if (s.kind === 'errorfix'){
     (s.items || []).forEach((it, i) => {
-      if (!it.wrong || !it.right) return bad(where, `item ${i + 1} needs both wrong and right`);
-      if (it.wrong === it.right) bad(where, `item ${i + 1}: the correction is the same word`);
+      /* A `drop` item is the published B2 proofreading task: one word too
+         many, and the answer is the word itself. It must NOT carry a
+         `right`, because there is no replacement to type and a stray one
+         would be silently ignored by the grader. Its `fixed` is checked
+         below against the sentence with that word taken out. */
+      if (it.drop) {
+        if (!it.wrong) return bad(where, `item ${i + 1} is a drop item with no word to drop`);
+        if (it.right) return bad(where, `item ${i + 1} is a drop item but also gives right: "${it.right}" \u2014 nothing is typed for a drop item`);
+      } else if (!it.wrong || !it.right) return bad(where, `item ${i + 1} needs both wrong and right`);
+      if (!it.drop && it.wrong === it.right) bad(where, `item ${i + 1}: the correction is the same word`);
       /* The grader normalises punctuation and case away before comparing, so a
          correction that only changes those cannot be marked at all. */
       const flat = t => String(t).toLowerCase().replace(/[^a-z0-9' ]+/g, '').replace(/\s+/g, ' ').trim();
-      if (flat(it.wrong) === flat(it.right))
+      if (!it.drop && flat(it.wrong) === flat(it.right))
         bad(where, `item ${i + 1}: "${it.wrong}" to "${it.right}" differs only in punctuation or case, which the grader cannot see`);
       else ok();
       const re = new RegExp('(^|\\s)' + it.wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[\\s.,!?;:])');
@@ -284,9 +292,13 @@ function checkScene(where, s, unit){
          the substitution actually produces. */
       if (!it.fixed) bad(where, `item ${i + 1} does not give the corrected sentence`);
       else {
-        const got = String(it.text).replace(re, (m, a, c) => a + it.right + c);
+        const got = it.drop
+          ? String(it.text).replace(re, (m, a, c) => (a && c && !/^[\s]*$/.test(c) ? c : (a || c))).replace(/\s+/g, ' ').trim()
+          : String(it.text).replace(re, (m, a, c) => a + it.right + c);
         if (got !== it.fixed)
-          bad(where, `item ${i + 1}: replacing "${it.wrong}" with "${it.right}" gives "${got}", not the stated "${it.fixed}"`);
+          bad(where, it.drop
+            ? `item ${i + 1}: removing "${it.wrong}" gives "${got}", not the stated "${it.fixed}"`
+            : `item ${i + 1}: replacing "${it.wrong}" with "${it.right}" gives "${got}", not the stated "${it.fixed}"`);
         else if (got === String(it.text))
           bad(where, `item ${i + 1}: the correction changes nothing`);
         else ok();
