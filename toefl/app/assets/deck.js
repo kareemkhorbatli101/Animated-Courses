@@ -85,7 +85,7 @@
       if (!cur) cur = root.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
       var nx = cur === "dark" ? "light" : "dark";
       doc.documentElement.setAttribute("data-theme", nx);
-      try { root.localStorage.setItem("toefl.theme", nx); } catch (e) {}
+      try { root.localStorage.setItem((root.COURSE && root.COURSE.ns || "toefl.") + "theme", nx); } catch (e) {}
     });
     bar.appendChild(th);
     /* F36 — the interface in Arabic, beside the theme switch. The English
@@ -97,7 +97,7 @@
   function build() {
     page = root.PAGE;
     try {
-      var t = root.localStorage.getItem("toefl.theme");
+      var t = root.localStorage.getItem((root.COURSE && root.COURSE.ns || "toefl.") + "theme");
       if (t) doc.documentElement.setAttribute("data-theme", t);
     } catch (e) {}
 

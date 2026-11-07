@@ -27,7 +27,7 @@
   var M = function () { return root.Motion; };
 
   /* --------------------------------------------------------- storage --- */
-  var NS = "toefl.learn.";
+  var NS = (root.COURSE && root.COURSE.ns || "toefl.") + "learn.";
   function get(k, dflt) {
     try {
       var v = root.localStorage.getItem(NS + k);

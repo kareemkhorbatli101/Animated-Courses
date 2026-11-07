@@ -1,6 +1,18 @@
 {
- "scenes": 756,
+ "scenes": 794,
  "figures": {
+  "dev/lab/seq": [
+   "dg-flow"
+  ],
+  "dev/lab/para": [
+   "dg-twin"
+  ],
+  "dev/lab/odd": [
+   "dg-set"
+  ],
+  "dev/lab2/b9": [
+   "dg-slots"
+  ],
   "u01/l1/2d": [
    "dg-set"
   ],

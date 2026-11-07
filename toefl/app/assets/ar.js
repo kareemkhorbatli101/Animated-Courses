@@ -16,7 +16,7 @@
    marked dir="rtl" individually, which is what they need. */
 (function (root, doc) {
   "use strict";
-  var KEY = "toefl.ui.lang";
+  var KEY = (root.COURSE && root.COURSE.ns || "toefl.") + "ui.lang";
 
   /* English exactly as the engine writes it -> Arabic */
   var AR = {

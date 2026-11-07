@@ -30,7 +30,7 @@
   var ready = false;
   var waiting = [];
   var AUDIO_DIR = null;          /* set by Speech.setAudioDir() when a pack ships */
-  var PREF_KEY = "toefl.voice.";
+  var PREF_KEY = (root.COURSE && root.COURSE.ns || "toefl.") + "voice.";
 
   function store(k, v) { try { root.localStorage.setItem(k, v); } catch (e) {} }
   function read(k) { try { return root.localStorage.getItem(k); } catch (e) { return null; } }

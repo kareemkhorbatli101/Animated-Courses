@@ -7,7 +7,7 @@ require(path.join(ROOT, 'assets/spec.js'));
 require(path.join(ROOT, 'assets/book.js'));
 const B = window.BOOK;
 
-const SCRIPTS = ['spec','features','book','progress','speech','explain','icons','motion','diagrams','rl','ws','gram','learn','ar','deck','cast','drag','scenes','items','items2','items3','items4','items5','items6','audio','charts','docs','write','speak'];
+const SCRIPTS = ['course','spec','features','book','progress','speech','explain','icons','motion','diagrams','rl','ws','gram','learn','ar','deck','cast','drag','scenes','items','items2','items3','items4','items5','items6','audio','charts','docs','write','speak'];
 
 function page(unit, block, prevHref, nextHref) {
   const b = B.block(block);

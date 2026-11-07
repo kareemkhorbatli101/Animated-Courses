@@ -14,7 +14,7 @@
  */
 (function (root) {
   "use strict";
-  var KEY = "toefl.v1";
+  var KEY = (root.COURSE && root.COURSE.ns || "toefl.") + "v1";
   var DAY = 86400000;
   var LADDER = [1, 3, 7, 16, 35];
 

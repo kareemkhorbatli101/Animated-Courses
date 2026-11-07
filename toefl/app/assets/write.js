@@ -119,7 +119,7 @@
     if (root.WS) root.WS.pointingChecklist(boxes, mail.textarea, stage);
 
     /* Draft survives Try Again and a reload: losing a draft is unforgivable. */
-    var key = "toefl.draft." + (root.PAGE ? root.PAGE.id : "x") + "." + spec.id;
+    var key = (root.COURSE && root.COURSE.ns || "toefl.") + "draft." + (root.PAGE ? root.PAGE.id : "x") + "." + spec.id;
     try {
       var saved = root.localStorage.getItem(key);
       if (saved) { mail.textarea.value = saved; count(); }
@@ -192,7 +192,7 @@
     var boxes = checklist(spec, stage);
     if (root.WS) root.WS.pointingChecklist(boxes, ta, stage);
 
-    var key = "toefl.draft." + (root.PAGE ? root.PAGE.id : "x") + "." + spec.id;
+    var key = (root.COURSE && root.COURSE.ns || "toefl.") + "draft." + (root.PAGE ? root.PAGE.id : "x") + "." + spec.id;
     try {
       var saved = root.localStorage.getItem(key);
       if (saved) { ta.value = saved; cnt(); }

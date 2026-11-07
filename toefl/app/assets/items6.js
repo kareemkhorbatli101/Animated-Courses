@@ -116,7 +116,7 @@
           if (n) { delete got[c.term]; shaky[c.term] = true; }
           else { got[c.term] = true; delete shaky[c.term]; }
           try {
-            var key = "toefl.cards." + (root.PAGE ? root.PAGE.id : "p") + "." + spec.id;
+            var key = (root.COURSE && root.COURSE.ns || "toefl.") + "cards." + (root.PAGE ? root.PAGE.id : "p") + "." + spec.id;
             root.localStorage.setItem(key, JSON.stringify({ got: Object.keys(got), shaky: Object.keys(shaky) }));
           } catch (e) {}
           /* a card you did not have comes back two cards later, not at

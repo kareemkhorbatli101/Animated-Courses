@@ -26,7 +26,7 @@
 
   /* ------------------------------------------------------- scratch keys --- */
   function key(page, spec, what) {
-    return "toefl.rl." + (page && page.id || "p") + "." + (spec && spec.id || "s") + "." + what;
+    return (root.COURSE && root.COURSE.ns || "toefl.") + "rl." + (page && page.id || "p") + "." + (spec && spec.id || "s") + "." + what;
   }
   function load(k) { try { return root.localStorage.getItem(k) || ""; } catch (e) { return ""; } }
   function save(k, v) { try { root.localStorage.setItem(k, v); } catch (e) {} }
