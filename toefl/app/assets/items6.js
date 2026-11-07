@@ -513,6 +513,25 @@
     var jobs = spec.jobs || [];
     var chosen = {};
     var model = E("div", "model annotated");
+    /* Where in time each form puts its event. A tense lesson can only
+       assert this in words; the line is the thing prose cannot draw. Shown
+       from the start, not on review: it is the lesson, not the answer, and
+       the exercise is which line each sentence belongs to. Drawn only when
+       EVERY job maps, so a partial picture never stands for a whole one. */
+    if (root.Diagrams && jobs.length) {
+      var times = jobs.map(function (j) { return root.Diagrams.timeOf(j); });
+      if (times.length >= 2 && times.every(Boolean)) {
+        stage.appendChild(root.Diagrams.timeline(
+          jobs.map(function (j, i) {
+            return { label: plainText(j).split(/\s+\u2014\s+/)[0],
+                     said: times[i].said, from: times[i].from, to: times[i].to,
+                     open: times[i].open, dash: times[i].dash };
+          }),
+          "Where each form puts its event. The dashed line is what is not settled; " +
+          "an arrow means it has not stopped."));
+      }
+    }
+
     var lastGroup = null;
     (spec.sentences || []).forEach(function (sn, n) {
       if (sn.group && sn.group !== lastGroup) {

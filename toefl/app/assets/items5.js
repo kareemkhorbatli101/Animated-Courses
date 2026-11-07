@@ -5,6 +5,9 @@
    paragraph      Write a paragraph from a model  (the book's Lesson 2 productive task) */
 (function (root, doc) {
   "use strict";
+  function plainText(h) {
+    return String(h == null ? "" : h).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  }
   var D = root.Deck, E = D.E, esc = D.esc;
   function A() { return root.AudioKit; }
   function W() { return root.Write; }
@@ -36,6 +39,22 @@
     (spec.items || []).forEach(function (it, i) {
       var sub = E("div", "sub mpair");
       sub.appendChild(E("p", "sub-h", "Line " + (i + 1)));
+      /* Where in the mouth each sound is made. The rationales already say
+         it in words \u2014 "you can hear the t stop the air before the hiss
+         starts" \u2014 and a side view is the one thing that shows it. The
+         symbols come out of those rationales, so the picture and the
+         explanation cannot drift apart. */
+      if (root.Diagrams) {
+        var syms = (it.options || []).map(function (o) {
+          var m = /\/([^\/]{1,3})\//.exec(String(o.why || ""));
+          return m ? m[1] : null;
+        });
+        if (syms.length >= 2 && syms[0] && syms[1] && syms[0] !== syms[1]) {
+          var fig = root.Diagrams.mouthPair(syms[0], syms[1],
+            "Two sounds, two places. The orange mark is where the air is held or narrowed.");
+          if (fig) sub.appendChild(fig);
+        }
+      }
       sub.appendChild(A().player({ label: "Line " + (i + 1), say: it.say,
                                    src: it.src, once: false, compact: true }));
       graders.push(D._choiceInto(sub, it.options, api));
@@ -56,6 +75,19 @@
     (spec.items || []).forEach(function (it, i) {
       var sub = E("div", "sub");
       sub.appendChild(E("p", "sub-h", "Sentence " + (i + 1)));
+      /* "Same meaning, different words" is two boxes. Fading the words the
+         two share leaves the words they do not, which is where a
+         paraphrase either holds or quietly changes the claim. On review,
+         because before it the right answer would be the unfaded one. */
+      if (root.Diagrams && it.source) {
+        api.onChecked(function () {
+          if (sub.querySelector(".dg-twin")) return;
+          var right = (it.options || []).filter(function (o) { return o.correct; })[0];
+          if (!right) return;
+          sub.appendChild(root.Diagrams.twin(it.source, right.text,
+            "Faded words are in both. What is left is what a paraphrase has to get right."));
+        });
+      }
       var q = E("blockquote", "source");
       q.innerHTML = it.source;
       sub.appendChild(q);
@@ -76,8 +108,25 @@
     (spec.items || []).forEach(function (it, i) {
       var sub = E("div", "sub odd");
       sub.appendChild(E("p", "sub-h", "Row " + (i + 1) +
-        (it.group ? " — " + it.group : "")));
+        (it.group ? " \u2014 " + it.group : "")));
       graders.push(D._choiceInto(sub, it.options, api));
+      /* The category is a set, and a set has a shape. Shown only on review:
+         before that it would hand over the answer, which is the whole of
+         F47. Drawn from the row's own options, so it cannot disagree with
+         the exercise beside it. */
+      if (root.Diagrams && it.group) {
+        api.onChecked(function () {
+          if (sub.querySelector(".dg-set")) return;
+          var odd = (it.options || []).filter(function (o) { return o.correct; })[0];
+          var inside = (it.options || []).filter(function (o) { return !o.correct; })
+            .map(function (o) { return plainText(o.text); });
+          if (!odd || inside.length < 2) return;
+          sub.appendChild(root.Diagrams.setDiagram(it.group, inside,
+            plainText(odd.text),
+            "The ring is the rule. <b>" + plainText(odd.text) +
+            "</b> is outside it, and naming the rule is what the exercise was for."));
+        });
+      }
       stage.appendChild(sub);
     });
     return multi(stage, graders, api, "Rows to look at again:", "Every row sorted correctly.");

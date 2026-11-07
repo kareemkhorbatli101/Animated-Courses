@@ -19,6 +19,20 @@
   /* ---------------------------------------------------------- sequence --- */
   /* spec.steps : [{ text, pos, why }]  pos is 1-based */
   D.register("sequence", function (stage, spec, api) {
+    /* Order with dependencies is a graph, and the arrows are the claim:
+       each step cannot start until the one above it has finished. Shown on
+       review, drawn from the steps' own positions. */
+    if (root.Diagrams) {
+      api.onChecked(function () {
+        if (stage.querySelector(".dg-flow")) return;
+        var inOrder = (spec.steps || []).slice()
+          .sort(function (a, b) { return (a.pos || 0) - (b.pos || 0); })
+          .map(function (st) { return String(st.text || "").replace(/<[^>]+>/g, ""); });
+        if (inOrder.length < 2) return;
+        stage.appendChild(root.Diagrams.flow(inOrder,
+          "Each arrow is a dependency, not a preference: the step below cannot start first."));
+      });
+    }
     var live = E("div", "sr-live"); live.setAttribute("aria-live", "polite");
     stage.appendChild(live);
     var tray = E("div", "tiles tray");

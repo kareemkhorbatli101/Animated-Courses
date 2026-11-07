@@ -37,8 +37,26 @@ function pageList() {
   const pages = pageList();
   let lastUnit = '';
 
+  /* Which scenes draw a figure that teaches, recorded rather than asserted.
+     coverage.js F5c reads this: a diagram derived from scene data cannot be
+     tested by looking at a spec field, because no field says "has a
+     diagram" — the renderer decides from the data it already has. A second
+     copy of each derivation rule in coverage.js would be a copy that drifts.
+     This is the measurement instead: what the browser actually rendered. */
+  const figures = {};
+  /* Every diagram wrapper is <figure class="dg dg-KIND">. Matching the inner
+     parts instead would read className off an SVG element, where it is an
+     SVGAnimatedString and not a string at all. */
+  const FIGSEL = 'figure.dg';
+  const sampleFigs = () => Array.from(
+    document.querySelectorAll('.stage ' + window.__FIGSEL))
+    .map(e => (e.getAttribute('class') || '').split(/\s+/)
+      .find(c => c.indexOf('dg-') === 0 && c !== 'dg-cap'))
+    .filter(Boolean);
+
   for (const p of pages) {
     const pg = await browser.newPage({ viewport: { width: 1020, height: 900 } });
+    await pg.addInitScript(sel => { window.__FIGSEL = sel; }, FIGSEL);
     pg.on('pageerror', e => errors.push(`${p.label}: ${e.message}`));
     pg.on('console', m => { if (m.type() === 'error') errors.push(`${p.label} console: ${m.text()}`); });
     await pg.goto('file://' + p.file + '?seed=5');
@@ -51,6 +69,7 @@ function pageList() {
         const s = window.PAGE.scenes[idx];
         return { id: s.id, kind: s.kind };
       });
+      const figStart = await pg.evaluate(sampleFigs);
       await pg.evaluate(solveScene);
       const probe = await pg.evaluate(() => {
         const r = { pf: window.__pickFail || 0, nb: window.__noBranch || [] };
@@ -60,6 +79,10 @@ function pageList() {
       if (probe.pf) failures.push(`${p.label}/${meta.id}: solver could not operate ${probe.pf} control(s)`);
       probe.nb.forEach(k => noBranch.add(k));
       await pg.click('.btn-check'); await pg.waitForTimeout(90);
+      const figEnd = await pg.evaluate(sampleFigs);
+      const fkey = `${p.label}/${meta.id}`;
+      const fset = [...new Set([...figStart, ...figEnd])];
+      if (fset.length) figures[fkey] = fset;
       const v = await pg.textContent('.verdict');
       const cls = await pg.getAttribute('.verdict', 'class');
       scenes++;
@@ -75,6 +98,10 @@ function pageList() {
     process.stdout.write('.');
   }
   await browser.close();
+  /* A partial run would write a manifest that says the unvisited scenes have
+     no figure, and coverage.js would believe it. Only a full sweep writes. */
+  if (!ONLY) fs.writeFileSync(path.join(__dirname, '.figures.json'),
+    JSON.stringify({ scenes, figures }, null, 1));
   console.log(`\n\n${okCount}/${scenes} scenes solved through their own click path`);
   if (noBranch.size) { console.log('\nNO SOLVER BRANCH (unverifiable kinds)'); [...noBranch].forEach(k => console.log('  ✗ ' + k)); }
   if (failures.length) { console.log('\nUNSOLVED'); failures.forEach(f => console.log('  ✗ ' + f)); }

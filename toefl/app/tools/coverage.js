@@ -56,6 +56,15 @@ const FEATURES = new Set();
 }
 const eng = n => FEATURES.has(n);
 
+/* solve.js writes this: the scenes that actually rendered a derived diagram,
+   observed in the browser. A diagram built from data the scene already has
+   is not visible in any spec field — no field says "has a diagram", the
+   renderer decides — so the alternative was a second copy of each
+   derivation rule here, which is a copy that drifts. */
+let FIGURES = null;
+try { FIGURES = JSON.parse(fs.readFileSync(path.join(__dirname, '.figures.json'), 'utf8')); } catch (e) {}
+const drawn = where => !!(FIGURES && FIGURES.figures[where]);
+
 /* a11y.js writes this when every scene passes keyboard and name checks */
 let A11Y = null;
 try { A11Y = JSON.parse(fs.readFileSync(path.join(__dirname, '.a11y.json'), 'utf8')); } catch (e) {}
@@ -259,11 +268,20 @@ const FIXES = [
                                                (eng('motion')&&gradable(s)||(s.concepts||[]).length>1), 'scene', 754],
 ["F5c","\u2514 a bespoke illustration where one would teach",
   /* Tracked separately and deliberately not forced. Scene art, a chart, a
-     flip deck, a pinned diagram or a grid: 72 scenes have one. Most of the
-     rest are a cloze or a Complete the Words, where a picture would be the
-     decoration F5's own rule exists to prevent. This is an ambition with a
-     number against it, not a target to be met by adding clipart. */
-  s=>true,                                   s=>has(s,'scene','chart','cards','figure','visual','pins','tree','matrix','family','phrases'), 'scene', 754],
+     flip deck, a pinned diagram or a grid: 72 scenes carry one in their own
+     data. A further set is DERIVED — a time line, a mouth cross-section, a
+     set diagram, a flow, a sentence-slot row, a paraphrase twin — built
+     from what the exercise already holds, so it cannot drift from the
+     exercise and costs the author nothing. Those are counted from what
+     solve.js saw the browser render, not from a field.
+
+     The rest are mostly a cloze or a Complete the Words, where a picture
+     would be the decoration F5's own rule exists to prevent. This is an
+     ambition with a number against it, not a target met by adding clipart:
+     where a diagram needs data the scene does not have, the honest move is
+     to author the data, not to let a renderer guess it. */
+  s=>true, (s,p,where)=>has(s,'scene','chart','cards','figure','visual','pins','tree','matrix','family','phrases')
+             || drawn(where), 'scene', 754],
 
 /* ---- reading ----------------------------------------------------------- */
 ["F6","Clickable line citation",

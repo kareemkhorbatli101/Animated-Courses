@@ -1,0 +1,275 @@
+{
+ "scenes": 756,
+ "figures": {
+  "u01/l1/2d": [
+   "dg-set"
+  ],
+  "u01/l2/1c": [
+   "dg-flow"
+  ],
+  "u01/l2/2a": [
+   "dg-slots"
+  ],
+  "u01/l2/2b": [
+   "dg-slots"
+  ],
+  "u01/l3/1a": [
+   "dg-timeline"
+  ],
+  "u01/l3/2a": [
+   "dg-slots"
+  ],
+  "u01/l3/2b": [
+   "dg-slots"
+  ],
+  "u01/l4/4a": [
+   "dg-pair"
+  ],
+  "u01/l5/4b": [
+   "dg-twin"
+  ],
+  "u02/l1/2d": [
+   "dg-set"
+  ],
+  "u02/l2/1b": [
+   "dg-flow"
+  ],
+  "u02/l2/2a": [
+   "dg-slots"
+  ],
+  "u02/l2/2b": [
+   "dg-slots"
+  ],
+  "u02/l3/1a": [
+   "dg-timeline"
+  ],
+  "u02/l3/2a": [
+   "dg-slots"
+  ],
+  "u02/l3/2b": [
+   "dg-slots"
+  ],
+  "u02/l4/4a": [
+   "dg-pair"
+  ],
+  "u02/l5/4b": [
+   "dg-twin"
+  ],
+  "u03/l1/2d": [
+   "dg-set"
+  ],
+  "u03/l2/1b": [
+   "dg-flow"
+  ],
+  "u03/l2/2a": [
+   "dg-slots"
+  ],
+  "u03/l2/2b": [
+   "dg-slots"
+  ],
+  "u03/l3/2a": [
+   "dg-slots"
+  ],
+  "u03/l3/2b": [
+   "dg-slots"
+  ],
+  "u03/l4/4a": [
+   "dg-pair"
+  ],
+  "u03/l5/4b": [
+   "dg-twin"
+  ],
+  "u04/l1/2d": [
+   "dg-set"
+  ],
+  "u04/l2/1c": [
+   "dg-flow"
+  ],
+  "u04/l2/2a": [
+   "dg-slots"
+  ],
+  "u04/l2/2b": [
+   "dg-slots"
+  ],
+  "u04/l3/1a": [
+   "dg-timeline"
+  ],
+  "u04/l3/2a": [
+   "dg-slots"
+  ],
+  "u04/l3/2b": [
+   "dg-slots"
+  ],
+  "u04/l4/4a": [
+   "dg-pair"
+  ],
+  "u04/l5/4b": [
+   "dg-twin"
+  ],
+  "u05/l1/2d": [
+   "dg-set"
+  ],
+  "u05/l2/1c": [
+   "dg-flow"
+  ],
+  "u05/l2/2a": [
+   "dg-slots"
+  ],
+  "u05/l2/2b": [
+   "dg-slots"
+  ],
+  "u05/l3/2a": [
+   "dg-slots"
+  ],
+  "u05/l3/2b": [
+   "dg-slots"
+  ],
+  "u05/l4/4a": [
+   "dg-pair"
+  ],
+  "u05/l5/4b": [
+   "dg-twin"
+  ],
+  "u06/l1/2d": [
+   "dg-set"
+  ],
+  "u06/l2/1c": [
+   "dg-flow"
+  ],
+  "u06/l2/2a": [
+   "dg-slots"
+  ],
+  "u06/l2/2b": [
+   "dg-slots"
+  ],
+  "u06/l3/2a": [
+   "dg-slots"
+  ],
+  "u06/l3/2b": [
+   "dg-slots"
+  ],
+  "u06/l5/4b": [
+   "dg-twin"
+  ],
+  "u07/l1/2d": [
+   "dg-set"
+  ],
+  "u07/l2/1c": [
+   "dg-flow"
+  ],
+  "u07/l2/2a": [
+   "dg-slots"
+  ],
+  "u07/l2/2b": [
+   "dg-slots"
+  ],
+  "u07/l3/2a": [
+   "dg-slots"
+  ],
+  "u07/l3/2b": [
+   "dg-slots"
+  ],
+  "u07/l5/4b": [
+   "dg-twin"
+  ],
+  "u08/l1/2d": [
+   "dg-set"
+  ],
+  "u08/l2/1c": [
+   "dg-flow"
+  ],
+  "u08/l2/2a": [
+   "dg-slots"
+  ],
+  "u08/l2/2b": [
+   "dg-slots"
+  ],
+  "u08/l3/1a": [
+   "dg-timeline"
+  ],
+  "u08/l3/2b": [
+   "dg-slots"
+  ],
+  "u08/l4/4a": [
+   "dg-pair"
+  ],
+  "u08/l5/4b": [
+   "dg-twin"
+  ],
+  "u09/l1/2d": [
+   "dg-set"
+  ],
+  "u09/l2/1c": [
+   "dg-flow"
+  ],
+  "u09/l2/2a": [
+   "dg-slots"
+  ],
+  "u09/l2/2b": [
+   "dg-slots"
+  ],
+  "u09/l3/2a": [
+   "dg-slots"
+  ],
+  "u09/l3/2b": [
+   "dg-slots"
+  ],
+  "u09/l5/4b": [
+   "dg-twin"
+  ],
+  "u10/l1/2d": [
+   "dg-set"
+  ],
+  "u10/l2/1c": [
+   "dg-flow"
+  ],
+  "u10/l2/2a": [
+   "dg-slots"
+  ],
+  "u10/l2/2b": [
+   "dg-slots"
+  ],
+  "u10/l3/2a": [
+   "dg-slots"
+  ],
+  "u10/l5/4b": [
+   "dg-twin"
+  ],
+  "u11/l1/2d": [
+   "dg-set"
+  ],
+  "u11/l2/1c": [
+   "dg-flow"
+  ],
+  "u11/l2/2a": [
+   "dg-slots"
+  ],
+  "u11/l2/2b": [
+   "dg-slots"
+  ],
+  "u11/l3/2a": [
+   "dg-slots"
+  ],
+  "u11/l3/2b": [
+   "dg-slots"
+  ],
+  "u11/l5/4b": [
+   "dg-twin"
+  ],
+  "u12/l1/2d": [
+   "dg-set"
+  ],
+  "u12/l2/1c": [
+   "dg-flow"
+  ],
+  "u12/l2/2a": [
+   "dg-slots"
+  ],
+  "u12/l3/2a": [
+   "dg-slots"
+  ],
+  "u12/l5/4b": [
+   "dg-twin"
+  ]
+ }
+}

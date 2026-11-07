@@ -1090,3 +1090,78 @@ table.sf.cmp td.win{background:color-mix(in srgb,var(--ok) 15%,transparent);font
 .mx-cell.no{background:var(--peach);border-color:var(--no);border-style:solid;}
 .mx-cell:focus-visible{outline:2px solid var(--boxline);outline-offset:1px;}
 .mx-note{margin:10px 0 0;font:400 13px/1.65 var(--ui);color:var(--ink-3);}
+
+/* ===================================================================
+   diagrams.js — pictures that carry what the words cannot
+   =================================================================== */
+.dg{margin:14px 0 0;padding:12px 14px;border:1px solid var(--rule);
+  border-radius:10px;background:var(--card);}
+.dg-svg{display:block;width:100%;max-width:340px;height:auto;margin:0 auto;}
+.dg-cap{margin:8px 0 0;font:400 12.5px/1.6 var(--ui);color:var(--ink-3);text-align:center;}
+.dg-t{font:500 10px/1 var(--ui);fill:var(--ink-2);}
+.dg-small{font-size:8.5px;fill:var(--ink-3);}
+.dg-lab{font-weight:700;font-size:10.5px;}
+
+/* timeline */
+.dg-axis{stroke:var(--rule-2);stroke-width:1.5;}
+.dg-now{stroke:var(--orange);stroke-width:1.5;stroke-dasharray:3 3;}
+.dg-span{stroke-width:4;stroke-linecap:round;}
+.dg-dot{stroke:none;}
+.dg-arrow{fill:none;stroke-width:1.6;stroke:currentColor;}
+.dg-c0{stroke:var(--c1);fill:var(--c1);color:var(--c1);}
+.dg-c1{stroke:var(--teal);fill:var(--teal);color:var(--teal);}
+.dg-c2{stroke:var(--maroon);fill:var(--maroon);color:var(--maroon);}
+.dg-c3{stroke:var(--c3);fill:var(--c3);color:var(--c3);}
+text.dg-c0{fill:var(--c1);stroke:none;}
+text.dg-c1{fill:var(--teal);stroke:none;}
+text.dg-c2{fill:var(--maroon);stroke:none;}
+text.dg-c3{fill:var(--c3);stroke:none;}
+
+/* the mouth */
+.dg-pair{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;}
+.dg-col{flex:1 1 210px;min-width:0;}
+.dg-mouth{fill:none;stroke:var(--ink-3);stroke-width:1.6;stroke-linejoin:round;}
+.dg-tongue{fill:var(--peach);stroke:var(--rule-2);stroke-width:1;}
+.dg-throat{stroke:var(--rule-2);stroke-width:1.4;stroke-dasharray:2 3;}
+.dg-place{fill:var(--orange);opacity:.85;stroke:var(--maroon);stroke-width:1.4;}
+.dg-sym{font:700 12px/1 var(--mono);fill:var(--maroon);}
+.dg-voice{fill:none;stroke:var(--teal);stroke-width:1.6;}
+.dg-note{margin:6px 0 0;font:400 12.5px/1.6 var(--ui);color:var(--ink-2);}
+
+/* the set */
+.dg-ring{fill:var(--paleblue);stroke:var(--blue);stroke-width:1.6;}
+.dg-pill{fill:var(--card);stroke:var(--rule-2);stroke-width:1.2;}
+.dg-pill-out{fill:var(--cream);stroke:var(--orange);stroke-dasharray:4 3;}
+.dg-pill-t{font:500 10.5px/1 var(--ui);fill:var(--ink);}
+.dg-out-t{fill:var(--maroon);font-weight:700;}
+.dg-link{stroke:var(--rule-2);stroke-width:1.4;stroke-dasharray:3 3;}
+
+/* the flow */
+.dg-step{fill:var(--sunk);stroke:var(--rule);stroke-width:1;}
+.dg-step-t{font-size:10px;fill:var(--ink);}
+.dg-num{fill:var(--blue);}
+.dg-num-t{font:700 10px/1 var(--ui);fill:#fff;}
+
+/* the slots */
+.dg-slot{fill:var(--sunk);stroke:var(--rule-2);stroke-width:1.2;}
+.dg-slot-t{font-size:9.5px;fill:var(--ink-2);}
+.dg-j0{stroke:var(--c1);stroke-width:2;}
+.dg-j1{stroke:var(--maroon);stroke-width:2;}
+.dg-j2{stroke:var(--c3);stroke-width:2;}
+.dg-j3{stroke:var(--teal);stroke-width:2;}
+.dg-j4{stroke:var(--orange);stroke-width:2;}
+.dg-j5{stroke:var(--hand);stroke-width:2;}
+
+/* the twins */
+.dg-twin{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+.dg-box{flex:1 1 230px;min-width:0;padding:9px 12px;border-radius:9px;
+  background:var(--sunk);border-left:3px solid var(--teal);}
+.dg-box-tag{display:block;font:700 10px/1.8 var(--ui);color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.07em;}
+.dg-box-t{margin:3px 0 0;font:400 14px/1.65 var(--ui);color:var(--ink);}
+.dg-same{color:var(--ink-3);}
+.dg-eq{flex:0 0 auto;font:700 20px/1 var(--ui);color:var(--ink-3);}
+.dg-twin .dg-cap{flex:1 0 100%;}
+@media (max-width:620px){ .dg-eq{display:none;} }
+.dg-slot-open{fill:var(--card);stroke:var(--rule-2);stroke-dasharray:4 3;stroke-width:1.2;}
+.dg-dash{stroke-dasharray:5 4;}

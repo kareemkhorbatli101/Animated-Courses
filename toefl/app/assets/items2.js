@@ -71,6 +71,39 @@
       rows.push({ it: it, want: want, slot: slot });
     });
 
+    /* The shape of the sentence, as a row of slots, drawn from the jobs
+       already on the first item. This is the thing that transfers: a
+       learner who has seen the row can build a sentence they have never
+       met. On review, because the order IS the answer. */
+    if (root.Diagrams && jobsSeen.length) {
+      var first = (spec.items || [])[0];
+      if (first && first.jobs && first.target) {
+        api.onChecked(function () {
+          if (stage.querySelector(".dg-slots")) return;
+          /* Walk the sentence once, collapsing runs: each named word
+             becomes its slot, each run of unnamed words becomes an open
+             one carrying the words it stands for. */
+          var seq = [], run = [];
+          function flush() {
+            if (!run.length) return;
+            seq.push({ job: null, n: run.length, words: run.join(" ") });
+            run = [];
+          }
+          String(first.target).trim().split(/\s+/).forEach(function (w) {
+            var j = first.jobs[w];
+            if (!j) { run.push(w); return; }
+            flush();
+            if (!seq.length || seq[seq.length - 1].job !== j) seq.push({ job: j });
+          });
+          flush();
+          if (seq.length < 2) return;
+          stage.appendChild(root.Diagrams.slots(seq,
+            "The shape of the first sentence. The words between the slots are its content; " +
+            "this row is what stays the same in the next one."));
+        });
+      }
+    }
+
     /* The key explains the colours, so it goes above the first thing it
        explains. Appending it as the first coloured item was built left it
        sitting between exercise one and exercise two. */
