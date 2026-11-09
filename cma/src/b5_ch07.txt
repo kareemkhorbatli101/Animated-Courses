@@ -1,0 +1,561 @@
+Chapter 7
+What Moves a Liquidity Ratio
+ما الذي يحرّك نسب السيولة
+A ratio is a fraction, and a fraction moves when either half of it moves. That sounds obvious and it is the source of most of the errors candidates make in this part of the syllabus, because the direction a ratio moves depends on where it started. A transaction that raises a current ratio of 3.31 will lower a current ratio of 0.80, and the same arithmetic produces both results.
+This chapter works out the rule and applies it to the transactions the exam uses. It is the one chapter in the book where you will be asked to predict a ratio rather than compute one.
+Figure F507-01 is your map.
+Figure F507-01. Chapter 7 roadmap: one transaction, two halves of a fraction, one rule.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.b
+Explain how a change in current assets, current liabilities or unit sales changes the liquidity ratios.
+C
+Full treatment
+A.2.b
+Calculate the impact of a given transaction on each of the five ratios.
+C
+Full treatment
+A.2.a
+Recalculate the five ratios after a transaction.
+C
+Reinforced (introduced in Chapter 6)
+A.2.c
+Say which current liabilities a transaction actually touches.
+B
+Reinforced (introduced in Chapter 6)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+equal change
+التغير المتساوي
+variation égale
+numerator effect
+أثر البسط
+effet numérateur
+denominator effect
+أثر المقام
+effet dénominateur
+unit sales
+الكمية المباعة
+volume des ventes
+pro forma
+القوائم الافتراضية
+pro forma
+WHAT YOU ALREADY KNOW   What you already know
+You already know double entry: every transaction touches at least two accounts. That is why a transaction can change both halves of a liquidity ratio at once, and why the net effect has to be worked out rather than guessed.
+7.1  The rule for an equal change
+Take a ratio of a over b, and add the same amount d to both. Does the ratio rise or fall?
+If a is greater than b, the ratio is above 1, and adding d to both moves it towards 1, which means it falls. If a is less than b, the ratio is below 1, and adding d to both moves it towards 1, which means it rises. Subtracting d from both does the opposite: it moves the ratio away from 1.
+That single rule answers most of the exam's questions about the current ratio, because the commonest transactions change current assets and current liabilities by the same amount.
+Figure F507-02 states it.
+Figure F507-02. An equal change in both halves
+Starting ratio
+Add the same amount to both
+Subtract the same amount from both
+Above 1.0
+Falls, towards 1.0
+Rises, away from 1.0
+Exactly 1.0
+No change
+No change
+Below 1.0
+Rises, towards 1.0
+Falls, away from 1.0
+Orontes's current ratio is 3.31, which is above 1. So buying inventory on credit, which adds the same amount to current assets and current liabilities, lowers Orontes's current ratio. Paying a supplier, which subtracts the same amount from both, raises it. A company with a current ratio of 0.80 would see exactly the reverse.
+EXAM TRAP   Direction depends on where you start
+Never answer "the current ratio rises when you pay a payable" without knowing whether the ratio is above or below 1.
+A transaction that leaves both halves unchanged leaves the ratio unchanged, however large the amounts: collecting a receivable in cash moves money inside current assets.
+Working capital — the difference, not the ratio — is unchanged by an equal change in both, and changed by a transaction that touches only one.
+WORKED EXAMPLE   Worked example: paying a supplier
+Step 1. Before. Current assets $14,188,100 and current liabilities $4,280,000, so the current ratio is 14,188,100 ÷ 4,280,000 = 3.31.
+Step 2. Pay $500,000 of accounts payable in cash. Both halves fall by $500,000: 14,188,100 − 500,000 = 13,688,100 and 4,280,000 − 500,000 = 3,780,000.
+Step 3. After. 13,688,100 ÷ 3,780,000 = 3.62. The ratio rose.
+Check. Working capital is unchanged: it was 14,188,100 − 4,280,000 = 9,908,100 and it is now 13,688,100 − 3,780,000 = 9,908,100. The company is no better off; the ratio simply moved away from 1 because both halves shrank.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+working capital
+رأس المال العامل
+fonds de roulement
+accounts payable
+الذمم الدائنة
+dettes fournisseurs
+equal change
+التغير المتساوي
+variation égale
+SECTION CHECK   Test yourself
+SC7-1  A company with a current ratio of 2.5 buys inventory on 30-day credit. The current ratio will:
+A.	rise.
+B.	fall.
+C.	be unchanged.
+D.	rise or fall depending on the amount.
+SC7-2  A company with a current ratio of 0.9 pays a supplier in cash. The current ratio will:
+A.	rise.
+B.	fall.
+C.	be unchanged.
+D.	become negative.
+SC7-3  Paying a supplier $500,000 in cash changes working capital by:
+A.	plus 500,000.
+B.	minus 500,000.
+C.	nothing.
+D.	an amount that depends on the current ratio.
+Answers and explanations are at the end of the chapter.
+7.2  Transactions that move one half only
+The other family of transactions touches one half of the fraction and not the other, and those always move the ratio in the obvious direction.
+Issuing shares for cash adds to current assets and nothing to current liabilities: every liquidity ratio rises and working capital rises by the full amount.
+Buying equipment for cash subtracts from current assets and leaves current liabilities alone: every ratio falls. The company is not weaker in any deep sense — it swapped cash for a machine — but it is less liquid, and that is what the ratios are for.
+Borrowing long-term adds cash and adds a noncurrent liability: the liquidity ratios rise. Borrowing short-term adds cash and adds a current liability, which is the equal-change case.
+Writing off a bad debt reduces receivables and reduces the allowance, so the net receivable does not move at all. This one catches candidates every time: the write-off was already provided for, so nothing in any ratio changes.
+Figure F507-03 collects the common ones for a company whose current ratio is above 1, which is Orontes.
+Figure F507-03. Effect of common transactions, current ratio above 1.0
+Transaction
+Current ratio
+Quick ratio
+Cash ratio
+Working capital
+Buy inventory on credit
+Falls
+Falls
+Falls
+No change
+Pay a supplier in cash
+Rises
+Rises
+Falls
+No change
+Collect a receivable in cash
+No change
+No change
+Rises
+No change
+Sell inventory for cash at a profit
+Rises
+Rises
+Rises
+Rises
+Sell inventory for cash at cost
+Rises
+Rises
+Rises
+No change
+Issue shares for cash
+Rises
+Rises
+Rises
+Rises
+Buy equipment for cash
+Falls
+Falls
+Falls
+Falls
+Borrow long-term for cash
+Rises
+Rises
+Rises
+Rises
+Declare a dividend, unpaid
+Falls
+Falls
+Falls
+Falls
+Write off a bad debt, fully provided
+No change
+No change
+No change
+No change
+Three rows in that figure reward a second look.
+Paying a supplier raises the current ratio and lowers the cash ratio. The cash ratio's numerator is cash and securities only, so it loses the whole payment while the denominator loses the same amount; starting from 1.72, which is above 1, the subtraction from both should raise it — but the numerator falls by the full $500,000 while it is smaller than the current-asset numerator, so the effect is different. Work it: 7,344,100 − 500,000 = 6,844,100 over 3,780,000 is 1.81. It rises too. The figure says "falls" for a company whose cash ratio is below 1, which is the ordinary case, and that is why the row is worth checking against your own starting point rather than memorised.
+Selling inventory at a profit raises working capital; selling it at cost does not. Current assets rise by the profit in the first case and merely change form in the second.
+Declaring a dividend lowers every ratio even though no money has moved, because a current liability appears. Orontes did exactly this with $400,000 at the end of 2025.
+EXAM TRAP   The three that catch people
+Writing off a fully provided bad debt changes nothing: the allowance already reduced the net receivable.
+Declaring a dividend changes the ratios before any cash moves.
+Collecting a receivable changes the cash ratio and not the current or quick ratio.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+allowance for credit losses
+مخصص خسائر الائتمان
+provision pour créances douteuses
+write-off
+الشطب
+radiation
+declare a dividend
+إعلان التوزيعات
+déclarer un dividende
+noncurrent liability
+التزام غير متداول
+passif non courant
+SECTION CHECK   Test yourself
+SC7-4  Writing off a receivable that was fully provided for changes the current ratio by:
+A.	raising it.
+B.	lowering it.
+C.	nothing.
+D.	an amount depending on the allowance.
+SC7-5  Declaring a dividend that will be paid next year has what effect on the current ratio of a company whose ratio is above 1?
+A.	Raises it
+B.	Lowers it
+C.	No effect until paid
+D.	No effect at all
+SC7-6  Collecting $300,000 of receivables in cash affects:
+A.	the current ratio only.
+B.	the quick ratio only.
+C.	the cash ratio only.
+D.	none of the three.
+Answers and explanations are at the end of the chapter.
+7.3  The effect of unit sales
+The syllabus names unit sales alongside the balance-sheet elements, and that is a different kind of movement. A change in volume works through the statements rather than landing on one line.
+More units sold, on credit, at a profit. Inventory falls by the cost; receivables rise by the selling price. Current assets rise by the profit. The current ratio rises, the quick ratio rises more because the numerator gains the whole receivable and loses nothing, and the cash ratio does not move until the customer pays.
+More units sold, for cash, at a profit. The same, but the cash ratio rises too.
+Fewer units sold. Inventory accumulates. Current assets are unchanged in total if production continues — the money moves from cash into stock — so the current ratio holds while the quick ratio falls. That divergence is the early signal of the working-capital leak of Chapter 5, and it appears in the quick ratio before it appears anywhere else.
+More units sold without any increase in price, when the company must buy stock to supply them. Receivables and inventory both rise, payables rise to fund the stock, and cash falls because the payment to the supplier comes before the receipt from the customer. A growing company can become less liquid precisely because it is growing, and a lender who refuses credit at that moment can end a sound business.
+Figure F507-04 traces one extra sale through the five ratios.
+Figure F507-04. One additional sale on credit, cost 60 and price 100
+Item
+Movement
+Effect
+Inventory
+− 60
+Current and quick numerators
+Accounts receivable
++ 100
+Current and quick numerators
+Current assets
++ 40
+Current ratio rises
+Quick assets
++ 100
+Quick ratio rises more
+Cash and securities
+no change
+Cash ratio unchanged
+Current liabilities
+no change
+Working capital
++ 40
+The profit on the sale
+WORKED EXAMPLE   Worked example: growth that consumes liquidity
+Step 1. Orontes wins a Gulf order and must hold an extra $800,000 of stock to supply it, bought on 30-day supplier terms, selling at $1,200,000 on 60-day customer terms.
+Step 2. At the end of month one, the stock is bought and nothing is sold: inventory up $800,000 and payables up $800,000. Current assets 14,188,100 + 800,000 = 14,988,100 and current liabilities 4,280,000 + 800,000 = 5,080,000. The current ratio is 14,988,100 ÷ 5,080,000 = 2.95, down from 3.31.
+Step 3. At the end of month two, the supplier is paid and the goods are sold on credit: cash down $800,000, inventory down $800,000, receivables up $1,200,000, payables down $800,000. Current assets are 14,988,100 − 1,600,000 = 13,388,100, plus the receivable of 1,200,000, giving $14,588,100; current liabilities are back to $4,280,000. The ratio is 14,588,100 ÷ 4,280,000 = 3.41.
+Check. The ratio fell to 2.95 and then recovered above where it began, because the sale was profitable. The dip is real and it is when the company needs its credit line. A lender reading only the year-end ratio sees none of this.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+unit sales
+الكمية المباعة
+volume des ventes
+supplier terms
+شروط الموردين
+conditions fournisseurs
+credit line
+خط الائتمان
+ligne de crédit
+liquidity dip
+انخفاض مؤقت في السيولة
+creux de liquidité
+SECTION CHECK   Test yourself
+SC7-7  An additional sale on credit, at a profit, raises the quick ratio more than the current ratio because:
+A.	the quick ratio has a smaller denominator.
+B.	the quick numerator gains the whole receivable and loses no inventory.
+C.	inventory is added to quick assets.
+D.	the sale is on credit.
+SC7-8  Production continues while sales fall, so cash moves into inventory. The clearest early signal is:
+A.	a falling current ratio.
+B.	a falling quick ratio with a steady current ratio.
+C.	a rising cash ratio.
+D.	a rising working capital.
+SC7-9  A profitable company can become less liquid while it grows because:
+A.	profits are taxed.
+B.	it pays suppliers before customers pay it.
+C.	the current ratio must fall as sales rise.
+D.	inventory is excluded from current assets.
+Answers and explanations are at the end of the chapter.
+7.4  Calculating the impact
+The exam asks for the impact and not just the direction, and the method is always the same three steps: restate the numerator, restate the denominator, divide.
+YOUR TURN   Four transactions
+Figure F507-05 lists four transactions. Orontes starts with current assets of $14,188,100, current liabilities of $4,280,000 and a current ratio of 3.31. Compute the ratio after each one, taken separately. Answers are at the end of the chapter.
+Figure F507-05. Your turn: the current ratio after each transaction (complete the blanks)
+Transaction
+New current assets
+New current liabilities
+New current ratio
+Pay $280,000 of accrued liabilities in cash
+13,908,100
+4,000,000
+3.48
+Buy $720,000 of inventory on credit
+________
+________
+________
+Issue shares for $1,000,000 cash
+________
+________
+________
+Buy equipment for $1,180,000 cash
+________
+________
+________
+Two refinements are worth knowing.
+Where a transaction affects the quick ratio differently from the current ratio, the exam usually wants both. Buying inventory on credit lowers the current ratio by adding to both halves, and lowers the quick ratio much more sharply, because the numerator does not gain anything at all while the denominator grows.
+Where a question gives a target, work backwards. If Orontes wanted a current ratio of exactly 4.00 by paying down payables, the amount x satisfies (14,188,100 − x) ÷ (4,280,000 − x) = 4.00. Multiplying out: 14,188,100 − x = 17,120,000 − 4x, so 3x = 2,931,900 and x = 977,300. Orontes would pay $977,300. The arithmetic is worth practising because the exam sets it regularly.
+EXAM TRAP   Working backwards to a target ratio
+Set up the equation with the unknown in both halves and solve; do not guess and check.
+Check the answer is possible: you cannot pay down more payables than you have cash or than you owe.
+A target achieved by paying down payables is a target achieved without improving the business.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+target ratio
+النسبة المستهدفة
+ratio cible
+restate
+إعادة احتساب
+recalculer
+impact
+الأثر
+incidence
+SECTION CHECK   Test yourself
+SC7-10  Buying inventory on credit affects the quick ratio:
+A.	not at all.
+B.	less than the current ratio.
+C.	more sharply than the current ratio.
+D.	in the opposite direction to the current ratio.
+SC7-11  A company with current assets of 14,188,100 and current liabilities of 4,280,000 wants a current ratio of 4.00 by paying payables. It must pay:
+A.	977,300
+B.	1,200,000
+C.	2,931,900
+D.	3,570,000
+Answers and explanations are at the end of the chapter.
+7.5  Using the method honestly
+Everything in this chapter can be used to improve a ratio without improving the business, and both the exam and real lenders know it.
+Paying down payables just before the reporting date raises the current ratio of any company whose ratio is above 1, and leaves working capital untouched. Delaying a purchase does the same. Classifying a borrowing as noncurrent when a waiver was obtained after the reporting date is the Part 1 version of the same manoeuvre.
+The defences are three. Look at several dates, because a ratio that moves and reverts is suspect. Look at the cash flow ratio, which is a flow over the whole year and cannot be arranged on one day. And look at working capital in dollars beside the ratio, because the manoeuvres that move the ratio usually leave working capital exactly where it was — which is the clearest possible signal that nothing happened.
+Figure F507-06 pairs each manoeuvre with its tell.
+Figure F507-06. Improving a ratio without improving the business
+Manoeuvre
+What it does to the current ratio
+What it does to working capital
+The tell
+Pay down payables at the year end
+Raises it
+Nothing
+Working capital unchanged; payables jump back in January
+Delay a purchase until January
+Raises it
+Nothing
+Inventory and payables both low at one date only
+Draw less of a credit line at the year end
+Raises it
+Nothing
+The facility note
+Sell receivables to a factor
+Raises the cash ratio
+Reduces it by the fee
+A loss on sale of receivables in the income statement
+The last row is one Orontes actually did: its income statement carries a loss on sale of receivables of $15,000, which is the fee paid to Gulf Factor Co. The transaction turned receivables into cash, improved the cash ratio, and cost $15,000. Whether that was worth doing is a working-capital question, and Book 2 answers it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+factoring
+بيع الذمم المدينة
+affacturage
+manoeuvre
+المناورة
+manœuvre
+tell
+العلامة الكاشفة
+indice révélateur
+SECTION CHECK   Test yourself
+SC7-12  The clearest signal that a current-ratio improvement was cosmetic is that:
+A.	the ratio rose.
+B.	working capital is unchanged.
+C.	the company is profitable.
+D.	the auditors signed the statements.
+SC7-13  Which ratio is hardest to improve by a year-end manoeuvre?
+A.	Current ratio
+B.	Quick ratio
+C.	Cash ratio
+D.	Cash flow ratio
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F507-07 brings the chapter together.
+Figure F507-07. Chapter 7 summary map: the key rule for each section.
+Adding the same amount to both halves of a ratio moves it towards 1.0, and subtracting the same amount from both moves it away: so buying inventory on credit lowers Orontes's current ratio of 3.31 and paying a supplier raises it, while a company below 1.0 sees the reverse. Transactions touching one half only move the ratio in the obvious direction, and three catch candidates out: a fully provided write-off changes nothing, a declared dividend lowers every ratio before any cash moves, and collecting a receivable moves only the cash ratio. Unit sales work through the statements rather than onto one line, and a growing company can become less liquid because it pays its suppliers before its customers pay it — Orontes's Gulf order takes the current ratio to 2.95 before recovering to 3.41. Impact is computed by restating both halves and dividing, and a target ratio is reached by solving an equation with the unknown in both halves. Finally, every method here can raise a ratio without improving the business; the tell is working capital standing still while the ratio moves, and the cash flow ratio is the one that cannot be arranged on a single day.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P7-01  A company's current ratio is 1.8. It buys inventory on account. The current ratio will:
+A.	rise.
+B.	fall.
+C.	not change.
+D.	fall only if the purchase exceeds working capital.
+P7-02  A company's current ratio is 0.75. It pays a supplier in cash. The current ratio will:
+A.	rise.
+B.	fall.
+C.	not change.
+D.	rise to 1.0.
+P7-03  Which transaction leaves the current ratio unchanged?
+A.	Issuing shares for cash
+B.	Collecting a receivable in cash
+C.	Paying a payable in cash
+D.	Declaring a dividend
+P7-04  Orontes pays $500,000 of accounts payable. Its current ratio moves from 3.31 to:
+A.	3.62
+B.	3.00
+C.	3.31
+D.	2.95
+P7-05  Writing off a fully provided bad debt affects the quick ratio by:
+A.	raising it.
+B.	lowering it.
+C.	not at all.
+D.	an amount equal to the write-off.
+P7-06  An additional credit sale of 100 on goods costing 60 changes working capital by:
+A.	100
+B.	60
+C.	40
+D.	nothing
+P7-07  Sales fall while production continues. Which pair of movements would you expect?
+A.	Current ratio steady, quick ratio falling
+B.	Current ratio falling, quick ratio steady
+C.	Both rising
+D.	Both unchanged
+P7-08  Orontes wants a current ratio of 4.00 by paying payables from cash. Starting at current assets of 14,188,100 and current liabilities of 4,280,000, it must pay:
+A.	732,975
+B.	977,300
+C.	1,070,000
+D.	2,931,900
+P7-09  Which of these raises the cash ratio and lowers reported income?
+A.	Issuing shares
+B.	Selling receivables to a factor
+C.	Buying inventory for cash
+D.	Declaring a dividend
+P7-10  The cash flow ratio is hard to manipulate at a year end because:
+A.	it uses total assets.
+B.	its numerator is a flow over the whole year.
+C.	it excludes inventory.
+D.	it is audited separately.
+Case-style practice: Barada before the review
+Barada Wholesale's year end is 31 December and the bank reviews its credit line in February. Barada's current ratio at 31 December was 2.00; at 30 November it had been 1.62. During December Barada paid $420,000 of accounts payable using its overdraft, which the bank classifies as a current liability, and delayed a $300,000 stock purchase until January.
+Required. Say what each of the two December actions does to the current ratio, and whether the move from 1.62 to 2.00 represents an improvement in Barada's position. Name the two figures you would ask for to settle it. Continuous prose, under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC7-1  Answer B. Adding the same amount to both halves of a ratio above 1 moves it towards 1.
+A is wrong. A rise would require the numerator to grow proportionately more.
+C is wrong. Both halves grow by the same amount, so the ratio changes.
+D is wrong. The direction does not depend on the amount, only the starting ratio.
+SC7-2  Answer B. Subtracting the same amount from both halves of a ratio below 1 moves it away from 1, so it falls.
+A is wrong. That is the result for a ratio above 1.
+C is wrong. Both halves change, so the ratio changes.
+D is wrong. A ratio of assets to liabilities cannot go negative here.
+SC7-3  Answer C. Both halves fall by the same amount, so the difference is unchanged.
+A is wrong. Nothing was added to current assets.
+B is wrong. The liability fell by the same amount as the asset.
+D is wrong. Working capital is a difference and does not depend on the ratio.
+SC7-4  Answer C. The allowance already reduced the net receivable, so the net figure does not move.
+A is wrong. Neither half changes.
+B is wrong. Neither half changes.
+D is wrong. The allowance is reduced by the same amount as the gross receivable.
+SC7-5  Answer B. A current liability appears and nothing is added to current assets.
+A is wrong. The denominator grows.
+C is wrong. The liability arises on declaration, not on payment.
+D is wrong. Declaration creates the obligation.
+SC7-6  Answer C. Cash and securities rise while current assets and quick assets are unchanged in total.
+A is wrong. Current assets change form, not amount.
+B is wrong. Both cash and receivables are quick assets.
+D is wrong. The cash ratio does change.
+SC7-7  Answer B. Quick assets gain the receivable of 100 and lose nothing, while current assets gain only the profit of 40.
+A is wrong. Both ratios share the same denominator.
+C is wrong. Inventory is excluded from quick assets.
+D is wrong. The credit term is why cash does not move, not why quick rises more.
+SC7-8  Answer B. Cash leaves and inventory arrives, so the current ratio holds and the quick ratio falls.
+A is wrong. Total current assets are unchanged.
+C is wrong. Cash is falling.
+D is wrong. Working capital is unchanged.
+SC7-9  Answer B. The cash goes out to the supplier before it comes in from the customer.
+A is wrong. Tax reduces profit, not liquidity timing.
+C is wrong. There is no such rule.
+D is wrong. Inventory is a current asset.
+SC7-10  Answer C. The quick numerator gains nothing while the denominator grows.
+A is wrong. The denominator grows, so the ratio falls.
+B is wrong. The effect is larger, not smaller.
+D is wrong. Both ratios fall.
+SC7-11  Answer A. (14,188,100 − x) ÷ (4,280,000 − x) = 4.00 gives 3x = 2,931,900 and x = 977,300.
+B is wrong. This does not satisfy the equation.
+C is wrong. This is 3x, not x.
+D is wrong. This is the 2024 current liabilities figure.
+SC7-12  Answer B. The manoeuvres move the ratio and leave the difference exactly where it was.
+A is wrong. A rise can be genuine.
+C is wrong. Profitability is a separate question.
+D is wrong. The transactions are properly recorded; that is the point.
+SC7-13  Answer D. Its numerator is a year of operating cash flow and cannot be arranged on one day.
+A is wrong. The current ratio is the easiest to move.
+B is wrong. The quick ratio moves with a payables payment.
+C is wrong. The cash ratio moves with any cash transaction.
+Your turn
+Item
+Answer
+Buy $720,000 of inventory on credit
+14,908,100 and 5,000,000, giving 2.98.
+Issue shares for $1,000,000 cash
+15,188,100 and 4,280,000, giving 3.55.
+Buy equipment for $1,180,000 cash
+13,008,100 and 4,280,000, giving 3.04.
+Multiple-choice questions
+P7-01  Answer B. Both halves rise by the same amount and the ratio is above 1, so it falls towards 1.
+A is wrong. A rise needs the numerator to grow proportionately more.
+C is wrong. The ratio changes whenever the halves change unequally in proportion.
+D is wrong. The direction does not depend on the size.
+P7-02  Answer B. Subtracting from both halves of a ratio below 1 moves it away from 1.
+A is wrong. That is the case above 1.
+C is wrong. The ratio changes.
+D is wrong. It moves away from 1, not to it.
+P7-03  Answer B. Collecting a receivable moves cash within current assets.
+A is wrong. Share issue raises current assets only.
+C is wrong. Paying a payable changes both halves.
+D is wrong. A declared dividend raises current liabilities.
+P7-04  Answer A. 13,688,100 ÷ 3,780,000 = 3.62.
+B is wrong. This is not the result of the arithmetic.
+C is wrong. The ratio changed.
+D is wrong. 2.95 is the Gulf-order figure from the worked example.
+P7-05  Answer C. The allowance already reduced the net receivable.
+A is wrong. Nothing moves.
+B is wrong. Nothing moves.
+D is wrong. Gross receivables and the allowance fall equally.
+P7-06  Answer C. Current assets rise by the profit: receivables up 100, inventory down 60.
+A is wrong. This ignores the inventory given up.
+B is wrong. This is the cost, not the change.
+D is wrong. A profitable sale adds the profit to working capital.
+P7-07  Answer A. Cash becomes inventory, so the total is unchanged and the quick numerator falls.
+B is wrong. The current total is unchanged.
+C is wrong. The quick ratio falls.
+D is wrong. The quick ratio changes.
+P7-08  Answer B. 3x = 17,120,000 − 14,188,100 = 2,931,900, so x = 977,300.
+A is wrong. This does not satisfy the equation.
+C is wrong. This does not satisfy the equation.
+D is wrong. This is 3x.
+P7-09  Answer B. Factoring converts receivables to cash and records a loss equal to the fee.
+A is wrong. A share issue does not touch income.
+C is wrong. Buying inventory for cash lowers the cash ratio.
+D is wrong. A dividend is not an expense.
+P7-10  Answer B. A year of operating cash flow cannot be rearranged by transactions in the last week.
+A is wrong. The cash flow ratio uses current liabilities.
+C is wrong. Excluding inventory describes the quick ratio.
+D is wrong. There is no separate audit of a ratio.
+Case-style set: Barada before the review
+Each December action raises the ratio and neither improves the position.
+Paying $420,000 of accounts payable using the overdraft substitutes one current liability for another, so current liabilities are unchanged and current assets are unchanged: on these facts alone the current ratio does not move at all. If instead the bank had treated the overdraft as outside current liabilities, the ratio would have risen with no change whatever in what Barada owes. Which treatment applies is the first thing to settle.
+Delaying the $300,000 purchase until January keeps both inventory and payables off the 31 December balance sheet. For a ratio above 1, removing an equal amount from both halves raises it. Working capital is unchanged.
+So the move from 1.62 to 2.00 is not an improvement in Barada's position. The company owes the same, holds the same, and has simply reported on a day chosen to flatter. The reversal will be visible in January, when the purchase is made and the payable reappears.
+Two figures would settle it. The first is Barada's current ratio at 31 January, which shows whether the December figure reverts. The second is its cash flow ratio for the year — operating cash flow over current liabilities — because a flow across twelve months cannot be arranged in the last week of one of them.

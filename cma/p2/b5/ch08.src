@@ -1,0 +1,431 @@
+Chapter 8
+Solvency, and the Two Leverages
+الملاءة المالية والرافعتان
+Liquidity asks whether a company can pay what falls due in the coming year. Solvency asks whether it can meet all its obligations over their whole lives, and whether it would survive a bad year. The two are different questions and a company can pass one and fail the other: a business with large cash balances and debt it cannot ultimately service is liquid and insolvent, and a business with no cash and no debt is illiquid and perfectly solvent.
+Between the two sits leverage, which is the word English uses for the effect of a fixed cost on a variable result. There are two kinds. Operating leverage comes from fixed costs in the business; financial leverage comes from fixed charges in the financing. Both magnify, in both directions, and both are measured.
+Figure F508-01 is your map.
+Figure F508-01. Chapter 8 roadmap: solvency, operating leverage, financial leverage, and the two together.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.2.d | Define solvency and distinguish it from liquidity. | B | Full treatment
+A.2.e | Define operating leverage and financial leverage. | B | Full treatment
+A.2.f | Calculate the degree of operating leverage and the degree of financial leverage. | C | Full treatment
+A.2.k | Say how a leverage decision changes the risk profile of a company. | B | Introduced (full in Chapter 9)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+solvency | الملاءة المالية | solvabilité
+operating leverage | الرافعة التشغيلية | levier d'exploitation
+financial leverage | الرافعة المالية | levier financier
+degree of operating leverage | درجة الرافعة التشغيلية | degré du levier d'exploitation
+degree of financial leverage | درجة الرافعة المالية | degré du levier financier
+contribution margin | هامش المساهمة | marge sur coûts variables
+fixed cost | التكلفة الثابتة | coût fixe
+variable cost | التكلفة المتغيرة | coût variable
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Part 1 taught you to separate fixed from variable costs and to compute a contribution margin. This chapter uses both, and adds the financing side. If the contribution margin is unfamiliar, it is sales less variable costs: what each extra unit contributes towards covering the fixed costs.
+8.1  Solvency against liquidity
+Liquidity is about the next twelve months and about current assets against current liabilities. Solvency is about the whole balance sheet and the whole life of the obligations.
+The two are measured with different ratios and answer to different people. A supplier granting 30-day terms cares about liquidity. A bondholder lending for ten years cares about solvency. Figure F508-02 sets them apart.
+Figure F508-02. Liquidity and solvency
+@table
+| Liquidity | Solvency
+The question | Can the company pay what falls due soon? | Can it meet all obligations over their lives?
+The horizon | Up to one year, or the operating cycle | The life of the debt
+The ratios | Current, quick, cash, cash flow, net working capital | Debt-to-equity, debt-to-assets, interest cover, fixed charge cover
+Who asks | Suppliers, short-term lenders | Bondholders, long-term lenders, shareholders
+A failure looks like | Cannot meet a payroll | Cannot service the debt; the business is worth less than it owes
+@end
+Two combinations are worth naming because the exam sets them.
+Liquid and insolvent. A company sells assets, holds the proceeds in cash, and still owes more than the business can ever earn. Its current ratio is excellent on the day the receiver is appointed.
+Illiquid and solvent. A company with no debt, substantial plant and a cash squeeze caused by one slow customer. It is in difficulty and it is not insolvent, and the remedy is a credit line rather than a restructuring.
+Orontes is comfortably both. Its liquidity ratios are in Chapter 6; its solvency is this chapter and the next.
+EXAM TRAP   The two words are not interchangeable
+A question about paying debts "as they fall due" over the coming year is liquidity.
+A question about the ability to meet obligations over the long term, or about the debt-to-equity ratio, is solvency.
+Insolvency has a second, legal meaning — liabilities exceeding assets — and the exam sometimes uses it. Read which is meant.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+solvency | الملاءة المالية | solvabilité
+insolvency | الإعسار | insolvabilité
+obligation | الالتزام | obligation
+debt service | خدمة الدين | service de la dette
+@end
+SECTION CHECK   Test yourself
+SC8-1  A company with a current ratio of 3.0 and debt it can never repay from its earnings is:
+A.	liquid and solvent.
+B.	liquid and insolvent.
+C.	illiquid and solvent.
+D.	illiquid and insolvent.
+SC8-2  Which ratio bears on solvency rather than liquidity?
+A.	The quick ratio
+B.	The cash ratio
+C.	The debt-to-equity ratio
+D.	The net working capital ratio
+SC8-3  A bondholder lending for ten years is concerned mainly with:
+A.	liquidity.
+B.	solvency.
+C.	the current ratio.
+D.	days sales outstanding.
+Answers and explanations are at the end of the chapter.
+8.2  Operating leverage
+Operating leverage is the effect of fixed operating costs on operating income. A company whose costs are mostly fixed sees its operating income swing far more than its sales; a company whose costs are mostly variable sees the two move together.
+The measure is the degree of operating leverage, written DOL. It is the percentage change in operating income divided by the percentage change in sales, and at a given level of sales it can be computed directly as the contribution margin divided by operating income.
+Orontes's total operating cost in 2025 was cost of goods sold of $27,300,000 plus operating expenses of $10,524,000, which is 27,300,000 + 10,524,000 = 37,824,000. Its cost accountants split that into variable costs of $25,200,000 and fixed costs of $12,624,000.
+Contribution margin is therefore 42,000,000 − 25,200,000 = 16,800,000, and operating income is 16,800,000 − 12,624,000 = 4,176,000, which is the figure on the income statement.
+The degree of operating leverage is 16,800,000 ÷ 4,176,000 = 4.02.
+WORKED EXAMPLE   Worked example: what a DOL of 4.02 means
+Step 1. Read it as a multiplier. A 1 per cent change in sales produces a 4.02 per cent change in operating income, in the same direction.
+Step 2. Test it upwards. Sales rise 10 per cent to $46,200,000. Variable costs rise 10 per cent to $27,720,000. Contribution is 46,200,000 − 27,720,000 = 18,480,000; fixed costs are unchanged, so operating income is 18,480,000 − 12,624,000 = 5,856,000. The change is 5,856,000 − 4,176,000 = 1,680,000, which on 4,176,000 is 40.2 per cent — ten times 4.02, as predicted.
+Step 3. Test it downwards. Sales fall 10 per cent and operating income falls 40.2 per cent, to $2,496,000. The multiplier works both ways, and that is the risk.
+Check. 4.02 is high. A company at this level of operating leverage loses a quarter of its operating income on a 6 per cent fall in sales. For Orontes the cause is visible on the balance sheet: 46.7 per cent of its assets are plant, and plant produces depreciation whether or not anything is sold.
+Figure F508-03 shows the swing.
+Figure F508-03. Orontes operating income at three sales levels, DOL 4.02
+@table
+Sales change | Net sales | Contribution margin | Fixed costs | Operating income | Change in operating income
+Down 10 per cent | 37,800,000 | 15,120,000 | 12,624,000 | 2,496,000 | (40.2) per cent
+No change | 42,000,000 | 16,800,000 | 12,624,000 | 4,176,000 | —
+Up 10 per cent | 46,200,000 | 18,480,000 | 12,624,000 | 5,856,000 | 40.2 per cent
+@end
+EXAM TRAP   DOL moves as sales move
+The degree of operating leverage is computed at one level of sales and changes as sales change. It is highest near breakeven and falls as sales rise above it.
+DOL uses the contribution margin, not gross profit. Gross profit deducts all cost of goods sold, including the fixed part.
+A high DOL is not bad. It is a description of a cost structure, and it rewards growth exactly as much as it punishes decline.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+degree of operating leverage | درجة الرافعة التشغيلية | degré du levier d'exploitation
+contribution margin | هامش المساهمة | marge sur coûts variables
+breakeven | نقطة التعادل | seuil de rentabilité
+cost structure | هيكل التكاليف | structure des coûts
+@end
+SECTION CHECK   Test yourself
+SC8-4  The degree of operating leverage is:
+A.	gross profit divided by operating income.
+B.	contribution margin divided by operating income.
+C.	operating income divided by net sales.
+D.	fixed costs divided by total costs.
+SC8-5  Orontes's DOL is 4.02. A 5 per cent fall in sales changes operating income by about:
+A.	5 per cent
+B.	20 per cent
+C.	40 per cent
+D.	4 per cent
+SC8-6  The degree of operating leverage is highest:
+A.	well above breakeven.
+B.	near breakeven.
+C.	when fixed costs are zero.
+D.	when sales are zero.
+Answers and explanations are at the end of the chapter.
+8.3  Financial leverage
+Financial leverage is the same idea applied to the financing. Interest is a fixed charge: it is owed whether or not the company earned anything. So a change in operating income produces a larger change in what is left for the shareholders.
+The measure is the degree of financial leverage, written DFL. It is the percentage change in net income, or in earnings per share, divided by the percentage change in operating income. At a given level it is computed as earnings before interest and taxes divided by earnings before interest and taxes less interest.
+Orontes's earnings before interest and taxes is income before income taxes of $3,958,800 plus interest expense of $390,000, which is 3,958,800 + 390,000 = 4,348,800.
+The degree of financial leverage is 4,348,800 ÷ 3,958,800 = 1.10.
+A DFL of 1.10 is very low, and it says what Chapter 2 already implied: Orontes borrows very little, so the fixed charge is small and the magnifying effect is small with it. A company financed half by debt might carry a DFL of 1.8 or 2.0.
+Note what does not appear in the formula. Tax does not, because tax is proportional and a proportional charge does not magnify anything. Repayments of principal do not, because they are not an expense. Only the interest matters.
+WORKED EXAMPLE   Worked example: DFL at two capital structures
+Step 1. As it is. EBIT $4,348,800, interest $390,000. DFL = 4,348,800 ÷ 3,958,800 = 1.10. A 10 per cent change in EBIT changes pre-tax income by 11.0 per cent.
+Step 2. If Orontes borrowed $12,000,000 more at 6 per cent, interest would rise by 12,000,000 × 0.06 = 720,000 to 390,000 + 720,000 = 1,110,000.
+Step 3. Then DFL = 4,348,800 ÷ 3,238,800 = 1.34. The same 10 per cent change in EBIT would now move pre-tax income by 13.4 per cent.
+Check. The business did not change; only the financing did. More debt, more magnification, in both directions. Chapter 9 measures the same decision from the balance sheet side.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+degree of financial leverage | درجة الرافعة المالية | degré du levier financier
+earnings before interest and taxes | الأرباح قبل الفوائد والضرائب | résultat avant intérêts et impôts
+fixed charge | العبء الثابت | charge fixe
+capital structure | هيكل رأس المال | structure du capital
+@end
+SECTION CHECK   Test yourself
+SC8-7  The degree of financial leverage is:
+A.	EBIT divided by EBIT less interest.
+B.	net income divided by EBIT.
+C.	total debt divided by total equity.
+D.	interest divided by EBIT.
+SC8-8  Why does the income tax charge not appear in the DFL formula?
+A.	Because tax is not a cost
+B.	Because tax is proportional and does not magnify a change
+C.	Because tax is paid after the year end
+D.	Because the formula uses pre-tax figures by convention only
+SC8-9  Orontes's DFL is 1.10. If it borrowed heavily, the DFL would:
+A.	fall.
+B.	rise.
+C.	stay the same.
+D.	become negative.
+Answers and explanations are at the end of the chapter.
+8.4  The two together
+The two leverages multiply. A change in sales is magnified first by the fixed operating costs and then by the fixed financing charge, and the product is the degree of total, or combined, leverage.
+For Orontes: 4.02 × 1.10 = 4.42. A 1 per cent change in sales produces about a 4.42 per cent change in income before tax.
+Figure F508-04 traces a 10 per cent fall in sales all the way down.
+Figure F508-04. Orontes: a 10 per cent fall in sales, traced down the statement
+@table
+Line | At 2025 sales | At sales down 10 per cent | Change
+Net sales | 42,000,000 | 37,800,000 | (10.0) per cent
+Variable costs | 25,200,000 | 22,680,000 | (10.0) per cent
+Contribution margin | 16,800,000 | 15,120,000 | (10.0) per cent
+Fixed costs | 12,624,000 | 12,624,000 | none
+Operating income | 4,176,000 | 2,496,000 | (40.2) per cent
+Interest and other, net | (217,200) | (217,200) | none
+Income before income taxes | 3,958,800 | 2,278,800 | (42.4) per cent
+@end
+Ten per cent off the top becomes forty-two per cent off the bottom. That is the arithmetic the board has to understand before it decides anything about either cost structure or borrowing, and it is why Chapter 9 treats the capital structure decision as a decision about risk and not only about cost.
+The exam's point is usually the asymmetry of the two choices. Operating leverage is largely given: a manufacturer has plant and a distributor does not, and changing it means changing what the business is. Financial leverage is chosen: the board can borrow or not, this quarter, by resolution. So two companies with the same operating leverage can carry very different total leverage, and the difference is a decision somebody made.
+Figure F508-05 sets the four combinations out.
+Figure F508-05. Four positions
+@table
+| Low financial leverage | High financial leverage
+Low operating leverage | Stable: a distributor financed by equity | Moderate: fixed charges on a flexible business
+High operating leverage | Orontes: swings with volume, no fixed charge | Dangerous: both magnifiers at once
+@end
+Orontes sits in the lower left. Its operating income swings hard with volume, and because it has almost no debt the swing stops there. A company in the lower right with the same plant and $20,000,000 of borrowing would face the same 40.2 per cent fall in operating income with interest of over a million to find out of it.
+YOUR TURN   Compute the three leverages
+Figure F508-06 gives a second company, Jordan Glass Co. Compute its DOL, DFL and combined leverage. Answers are at the end of the chapter.
+Figure F508-06. Your turn: Jordan Glass Co., 2025 (complete the blanks)
+@table
+Item | Amount
+Net sales | 9,000,000
+Variable costs | 3,600,000
+Contribution margin | 5,400,000
+Fixed costs | 3,600,000
+Operating income | 1,800,000
+Interest expense | 600,000
+Degree of operating leverage | ________
+Degree of financial leverage | ________
+Combined leverage | ________
+@end
+LANGUAGE FOCUS   "Leverage" and "gearing"
+American English says leverage; British English often says gearing, and the exam uses leverage throughout. Arabic الرافعة and French levier are the same metaphor: a lever magnifies a small force. Note that English also uses leverage as a verb in business writing, meaning to make use of something. That sense never appears in the exam.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+combined leverage | الرافعة المشتركة | levier combiné
+magnification | التضخيم | amplification
+asymmetry | عدم التماثل | asymétrie
+risk profile | ملف المخاطر | profil de risque
+@end
+SECTION CHECK   Test yourself
+SC8-10  Combined leverage is:
+A.	DOL plus DFL.
+B.	DOL multiplied by DFL.
+C.	DOL divided by DFL.
+D.	the larger of DOL and DFL.
+SC8-11  Orontes's combined leverage is 4.42. A 10 per cent fall in sales changes income before income taxes by about:
+A.	10 per cent
+B.	40 per cent
+C.	44 per cent
+D.	4.4 per cent
+SC8-12  Which of the two leverages is more readily changed by a board decision?
+A.	Operating leverage
+B.	Financial leverage
+C.	Both equally
+D.	Neither
+Answers and explanations are at the end of the chapter.
+8.5  What the leverages do not say
+Three limits, and the exam uses all three.
+A degree of leverage is a point estimate. Both are computed at one level of sales and both change as sales change. A DOL of 4.02 is true at $42,000,000 of sales and not at $30,000,000, where it would be far higher. The exam sometimes gives two sales levels precisely to test this.
+A leverage figure says nothing about probability. A DOL of 4.02 tells you what happens if sales fall 10 per cent; it does not tell you whether they will. The risk is the product of the magnification and the likelihood, and the statements give only the first.
+A leverage figure assumes the cost split holds. Fixed costs are fixed only within a range of activity. A fall in volume large enough to close a line turns a fixed cost into an avoidable one, and a rise large enough to need a second shift adds a step. Part 1 called this the relevant range, and it bounds everything in this chapter.
+Figure F508-07 lists them.
+Figure F508-07. Three limits on a leverage measure
+@table
+Limit | What it means | What to do about it
+A point estimate | DOL and DFL change with the level of sales | Compute at the level the question asks about
+Says nothing about likelihood | Magnification is not probability | Combine with a view on demand
+The cost split holds only in a range | Fixed costs step and become avoidable | State the relevant range
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+relevant range | المدى الملائم | plage de pertinence
+point estimate | التقدير عند نقطة | estimation ponctuelle
+step cost | التكلفة المتدرجة | coût par paliers
+likelihood | الاحتمالية | probabilité
+@end
+SECTION CHECK   Test yourself
+SC8-13  Why is a degree of operating leverage described as a point estimate?
+A.	Because it is rounded
+B.	Because it is computed at one level of sales and changes with the level
+C.	Because it uses a single year's figures
+D.	Because it is unaudited
+SC8-14  Fixed costs are fixed only:
+A.	within the relevant range of activity.
+B.	for companies with plant.
+C.	in the short term, never the long term.
+D.	when sales are rising.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F508-08 brings the chapter together.
+Figure F508-08. Chapter 8 summary map: the key rule for each section.
+Liquidity asks about the coming year; solvency asks about the whole life of the obligations, and a company can be liquid and insolvent or illiquid and solvent. Between them sits leverage, the effect of a fixed cost on a variable result. Operating leverage comes from fixed costs in the business and is measured as contribution margin over operating income: for Orontes, 16,800,000 ÷ 4,176,000 = 4.02, so a 10 per cent movement in sales moves operating income by 40.2 per cent in either direction, and the cause is visible as 46.7 per cent of assets held in plant. Financial leverage comes from the fixed interest charge and is measured as EBIT over EBIT less interest: 4,348,800 ÷ 3,958,800 = 1.10, very low, because Orontes borrows very little. The two multiply to a combined leverage of 4.42, so ten per cent off sales is forty-two per cent off pre-tax income. Operating leverage is largely given by what the business is; financial leverage is chosen by the board. And every one of these figures is a point estimate, says nothing about how likely the movement is, and holds only within the relevant range.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P8-01  Solvency differs from liquidity because solvency concerns:
+A.	the coming twelve months.
+B.	the whole life of the obligations.
+C.	current assets only.
+D.	the operating cycle.
+P8-02  The degree of operating leverage equals:
+A.	contribution margin ÷ operating income.
+B.	operating income ÷ contribution margin.
+C.	gross profit ÷ net sales.
+D.	fixed costs ÷ variable costs.
+P8-03  Orontes's contribution margin is 16,800,000 and its operating income is 4,176,000. Its DOL is:
+A.	0.25
+B.	4.02
+C.	1.10
+D.	4.42
+P8-04  A company with a DOL of 3.0 sees sales fall 8 per cent. Operating income falls by:
+A.	8 per cent
+B.	24 per cent
+C.	3 per cent
+D.	11 per cent
+P8-05  The degree of financial leverage uses:
+A.	EBIT and interest.
+B.	net income and dividends.
+C.	total debt and total equity.
+D.	operating cash flow and interest.
+P8-06  Orontes's EBIT is 4,348,800 and its interest expense is 390,000. Its DFL is:
+A.	11.15
+B.	1.10
+C.	0.09
+D.	4.42
+P8-07  Combined leverage of 4.42 means that a 2 per cent rise in sales raises pre-tax income by about:
+A.	2 per cent
+B.	4.42 per cent
+C.	8.8 per cent
+D.	0.45 per cent
+P8-08  Which company is in the most dangerous position?
+A.	High operating leverage, low financial leverage
+B.	Low operating leverage, high financial leverage
+C.	High operating leverage, high financial leverage
+D.	Low operating leverage, low financial leverage
+P8-09  A degree of operating leverage is highest:
+A.	at very high sales.
+B.	near the breakeven point.
+C.	when variable costs are high.
+D.	when there is no plant.
+P8-10  A company's fixed costs will not remain fixed if:
+A.	sales rise within the relevant range.
+B.	volume falls far enough to close a production line.
+C.	the company borrows.
+D.	the tax rate changes.
+Case-style practice: the board considers borrowing
+Orontes's board is asked to approve $12,000,000 of new borrowing at 6 per cent to build a second pressing line. The finance director notes that interest cover would still be comfortable and that the project is expected to raise sales by 20 per cent.
+Required. Compute the new degree of financial leverage and the new combined leverage, taking operating leverage as unchanged at 4.02. Then say what the combined figure means for a year in which sales fall 10 per cent rather than rise, and name the one feature of Orontes's cost structure that makes the board's decision more consequential than it would be for a distributor. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC8-1  Answer B. It can pay this year's bills and cannot ultimately meet its obligations.
+A is wrong. Debt that can never be repaid is insolvency.
+C is wrong. A current ratio of 3.0 is liquid.
+D is wrong. The company is liquid.
+SC8-2  Answer C. Debt to equity measures the balance of financing over the long term.
+A is wrong. The quick ratio is a liquidity measure.
+B is wrong. The cash ratio is a liquidity measure.
+D is wrong. The net working capital ratio is a liquidity measure.
+SC8-3  Answer B. A ten-year horizon is a solvency horizon.
+A is wrong. Liquidity concerns the coming year.
+C is wrong. The current ratio is a liquidity ratio.
+D is wrong. Days sales outstanding is an activity measure.
+SC8-4  Answer B. DOL is contribution margin over operating income.
+A is wrong. Gross profit deducts fixed production costs as well as variable ones.
+C is wrong. That is the operating margin.
+D is wrong. That is a description of the cost structure, not the DOL.
+SC8-5  Answer B. 5 × 4.02 = 20.1 per cent.
+A is wrong. That is the change in sales.
+C is wrong. That is the effect of a 10 per cent fall.
+D is wrong. That is the DOL itself.
+SC8-6  Answer B. Near breakeven, operating income is small and the ratio of contribution to it is large.
+A is wrong. Well above breakeven the DOL falls towards 1.
+C is wrong. With no fixed costs the DOL is 1.
+D is wrong. At zero sales there is no contribution margin to divide.
+SC8-7  Answer A. DFL is EBIT over EBIT less interest.
+B is wrong. That is a margin, not a leverage.
+C is wrong. That is the debt-to-equity ratio.
+D is wrong. That is the proportion of EBIT taken by interest.
+SC8-8  Answer B. A proportional charge scales a change; it does not magnify it.
+A is wrong. Tax is a cost; it is simply not a fixed one.
+C is wrong. Timing is irrelevant to the formula.
+D is wrong. The reason is substantive, not conventional.
+SC8-9  Answer B. More interest means a smaller denominator and a larger ratio.
+A is wrong. Borrowing raises the fixed charge.
+C is wrong. The denominator changes.
+D is wrong. A negative DFL requires EBIT below interest, which heavy borrowing alone does not guarantee.
+SC8-10  Answer B. The magnifications multiply.
+A is wrong. Adding them would give 5.12 here, which is not the effect.
+C is wrong. Dividing has no meaning.
+D is wrong. Both act.
+SC8-11  Answer C. 10 × 4.42 = 44.2 per cent.
+A is wrong. That is the change in sales.
+B is wrong. That is the operating-leverage effect alone.
+D is wrong. That is the combined figure itself.
+SC8-12  Answer B. The board can resolve to borrow or repay; changing the plant changes the business.
+A is wrong. Operating leverage follows from the cost structure.
+C is wrong. They are not equally changeable.
+D is wrong. Financial leverage is a decision.
+SC8-13  Answer B. It is calculated at a level of sales and is different at another.
+A is wrong. Rounding is not the issue.
+C is wrong. Using one year is common to most ratios.
+D is wrong. Audit status is irrelevant.
+SC8-14  Answer A. Outside the relevant range fixed costs step or become avoidable.
+B is wrong. Every company has some fixed costs.
+C is wrong. The range, not the horizon alone, is the condition.
+D is wrong. Direction does not matter.
+Your turn
+@table
+Item | Answer
+Degree of operating leverage | 3.00: 5,400,000 ÷ 1,800,000.
+Degree of financial leverage | 1.50: EBIT of 1,800,000 ÷ (1,800,000 − 600,000).
+Combined leverage | 4.50: 3.00 × 1.50.
+@end
+Multiple-choice questions
+P8-01  Answer B. Solvency looks to the whole life of the obligations.
+A is wrong. That is liquidity.
+C is wrong. Current assets are a liquidity matter.
+D is wrong. The operating cycle bounds the current classification.
+P8-02  Answer A. DOL is contribution margin over operating income.
+B is wrong. This is the reciprocal.
+C is wrong. This is the gross margin.
+D is wrong. This is a cost ratio, not a leverage.
+P8-03  Answer B. 16,800,000 ÷ 4,176,000 = 4.02.
+A is wrong. This is the reciprocal.
+C is wrong. 1.10 is the DFL.
+D is wrong. 4.42 is the combined leverage.
+P8-04  Answer B. 8 × 3.0 = 24 per cent.
+A is wrong. That is the change in sales.
+C is wrong. That is the DOL itself.
+D is wrong. This has no basis.
+P8-05  Answer A. DFL is EBIT over EBIT less interest.
+B is wrong. Dividends are not a fixed charge in the formula.
+C is wrong. That is a balance-sheet leverage ratio.
+D is wrong. Operating cash flow appears in coverage ratios, not in DFL.
+P8-06  Answer B. 4,348,800 ÷ 3,958,800 = 1.10.
+A is wrong. 11.15 is interest cover.
+C is wrong. This is interest over EBIT.
+D is wrong. 4.42 is combined leverage.
+P8-07  Answer C. 2 × 4.42 = 8.84 per cent.
+A is wrong. That is the change in sales.
+B is wrong. That is the multiplier.
+D is wrong. This divides rather than multiplies.
+P8-08  Answer C. Both magnifiers act on the same fall in sales.
+A is wrong. The swing stops at operating income, as for Orontes.
+B is wrong. A flexible cost base limits the fall before interest.
+D is wrong. This is the most stable position.
+P8-09  Answer B. Operating income is small near breakeven, so the ratio is large.
+A is wrong. At high sales the DOL falls towards 1.
+C is wrong. High variable costs mean low fixed costs and low DOL.
+D is wrong. No plant means few fixed costs.
+P8-10  Answer B. Outside the relevant range a fixed cost becomes avoidable.
+A is wrong. Within the range they remain fixed.
+C is wrong. Borrowing affects financial, not operating, leverage.
+D is wrong. Tax is below operating income.
+Case-style set: the board considers borrowing
+New interest is 12,000,000 × 0.06 = 720,000, so total interest becomes 390,000 + 720,000 = 1,110,000. EBIT is unchanged at $4,348,800 before the project contributes, so the new degree of financial leverage is 4,348,800 ÷ 3,238,800 = 1.34. Combined leverage becomes 4.02 × 1.34 = 5.39.
+What that means in a bad year is the point. A 10 per cent fall in sales would now reduce income before income taxes by about 53.9 per cent rather than 44.2. On the 2025 base, pre-tax income of $3,958,800 would fall to roughly $1,824,000 on the present structure and to about $1,480,000 with the new borrowing, and the interest of $1,110,000 would still have to be found out of operating income of $2,496,000. The margin is real but it is much thinner than it looks when sales are rising.
+The feature that makes this decision more consequential for Orontes than for a distributor is its operating leverage of 4.02, which comes from holding 46.7 per cent of its assets in plant. A distributor's operating income moves nearly in step with its sales, so adding financial leverage to it compounds a small swing. Adding financial leverage to a cost structure that already multiplies by four compounds a large one, and the two multiply rather than add.
