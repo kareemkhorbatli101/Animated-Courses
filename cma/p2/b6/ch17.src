@@ -1,0 +1,423 @@
+Chapter 17
+Inventory: lead time, safety stock, EOQ and JIT
+المخزون: فترة التوريد والمخزون الاحتياطي وكمية الطلب الاقتصادية والإنتاج في الوقت المحدد
+Orontes holds $2,450,000 of inventory and turns it 11.49 times a year, which is 31.8 days of cover. Barada holds a third of its assets as stock and turns it 9.00 times. Neither figure is right or wrong on its own: a company that holds too little loses the sale it cannot supply, and one that holds too much funds, stores, insures and eventually writes down goods nobody wanted.
+This chapter sets out why inventory exists, what it costs in both directions, and the two pieces of arithmetic the exam asks for: the reorder point, which says when to order, and the economic order quantity, which says how much. It closes on just-in-time, which is the attempt to make both questions smaller.
+Figure F617-01 is your map.
+Figure F617-01. Chapter 17 roadmap: why stock is held, what it costs, when to order and how much.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.4.u | Define lead time and safety stock, and identify the reasons for carrying inventory. | C | Full treatment
+B.4.v | Identify and calculate carrying costs, ordering costs and stockout costs. | C | Full treatment
+B.4.y | Explain the economic order quantity and how a change in one variable affects it. | C | Full treatment
+B.4.w | Explain how a just-in-time system helps manage inventory. | C | Full treatment
+B.4.x | Identify the interaction between high inventory turnover and high gross margin. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+lead time | فترة التوريد | délai d'approvisionnement
+safety stock | المخزون الاحتياطي | stock de sécurité
+reorder point | نقطة إعادة الطلب | point de commande
+economic order quantity | كمية الطلب الاقتصادية | quantité économique de commande
+carrying cost | تكلفة الاحتفاظ | coût de possession
+ordering cost | تكلفة الطلب | coût de passation
+stockout cost | تكلفة نفاد المخزون | coût de rupture
+just-in-time | الإنتاج في الوقت المحدد | juste-à-temps
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's inventory turnover of 11.49 times and its days sales in inventory of 31.8, and found inventory growing 6.52 per cent against sales growth of 15.38 — the healthy direction. It also found Barada's stock up 41 per cent on sales up 11, which it called the warning. This chapter explains what decides either number.
+17.1  Why inventory is held
+Four reasons, and the exam asks for them by name.
+To meet demand that is not perfectly predictable. A customer who wants something today will buy it from somebody who has it. The stock held for this reason is the buffer, and its size depends on how variable the demand is and on how expensive a lost sale is.
+To decouple the stages of a process. A mill that stops when the roaster stops is a mill that runs at the roaster's worst day. Work in progress between the stages lets each run at its own rhythm. This is the reason just-in-time attacks most directly, by removing the need rather than the stock.
+To obtain quantity discounts and reduce ordering effort. Buying in larger lots costs less per unit in both price and administration, and the saving is paid for in storage and funding — which is exactly the trade-off the economic order quantity resolves.
+To guard against price rises or supply interruptions. A company whose input is seasonal, imported, or subject to a volatile price may hold more than it needs now because it expects to need it later at a worse price. Orontes importing sesame is this case, and Chapter 6 offered it a cheaper alternative in the forward market.
+What sets the level, beyond the reasons, is a short list: the predictability of demand, the length and reliability of the lead time, the cost of a stockout, the cost of money, the shelf life of the goods, and the terms available from suppliers.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+buffer stock | المخزون الوقائي | stock tampon
+decoupling | الفصل بين المراحل | découplage
+work in progress | الإنتاج تحت التشغيل | en-cours
+shelf life | العمر التخزيني | durée de conservation
+@end
+SECTION CHECK   Test yourself
+SC17-1  Holding work in progress between two stages of a process:
+A.	decouples them, so each can run at its own rhythm.
+B.	raises the cost of the finished goods only.
+C.	is prohibited under just-in-time.
+D.	has no cost.
+SC17-2  Buying in larger lots saves:
+A.	ordering cost and often the unit price, at the cost of storage and funding.
+B.	carrying cost.
+C.	stockout cost only.
+D.	nothing at all.
+SC17-3  Which factor increases the stock a company should hold?
+A.	A long and unreliable lead time
+B.	a short shelf life
+C.	A high cost of money
+D.	Highly predictable demand
+Answers and explanations are at the end of the chapter.
+17.2  The three costs
+Everything in this chapter is a trade between three costs, and the outcome requires each to be identified and computed.
+Carrying costs rise with the quantity held. They are the cost of funding the money in the stock, which is the largest item; storage, handling and insurance; shrinkage from theft and damage; and obsolescence. They are usually expressed as an amount per unit per year, or as a percentage of the unit cost — twenty to twenty-five per cent a year is a common figure once funding, storage and obsolescence are added.
+Ordering costs fall with the quantity held, because a larger order means fewer orders. They are the administrative cost of raising and receiving an order, the inspection, the transport where it does not vary with quantity, and for a manufacturer the cost of setting up a production run.
+Stockout costs arise when the stock runs out: the lost contribution on the sale, the expedited freight to get goods urgently, the idle production line, and the customer who goes elsewhere permanently. They are the hardest to measure and usually the largest, which is why they are estimated rather than computed and why companies hold more stock than any formula suggests.
+Figure F617-02 sets out the behaviour of each.
+Figure F617-02. Three costs, three directions
+@table
+Cost | What it contains | As order quantity rises | How it is measured
+Carrying | Funding, storage, insurance, obsolescence | Rises | Per unit a year
+Ordering | Administration, inspection, set-up | Falls | Per order
+Stockout | Lost contribution, expediting, lost customers | Falls, then flattens | Estimated
+@end
+EXAM TRAP   Which cost is which
+Funding the stock is a carrying cost, not an ordering cost, however the invoice is paid.
+A set-up cost in a factory behaves exactly as an ordering cost does, and the economic order quantity formula is used for production batches with the set-up cost in place of the ordering cost.
+Quantity discounts are not in the basic formula. Where a question offers one, compute the total cost at the economic order quantity and at each discount break and compare them.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+shrinkage | الفاقد | démarque inconnue
+set-up cost | تكلفة التهيئة | coût de lancement
+expediting | التعجيل بالتوريد | affrètement d'urgence
+quantity discount | خصم الكمية | remise sur quantité
+@end
+SECTION CHECK   Test yourself
+SC17-4  As the order quantity rises:
+A.	carrying cost rises and ordering cost falls.
+B.	both rise.
+C.	both fall.
+D.	carrying cost falls and ordering cost rises.
+SC17-5  The cost of funding money tied up in stock is:
+A.	a carrying cost.
+B.	an ordering cost.
+C.	a stockout cost.
+D.	not a cost of inventory.
+SC17-6  The hardest of the three costs to measure, and usually the largest, is:
+A.	stockout cost.
+B.	carrying cost.
+C.	ordering cost.
+D.	insurance.
+Answers and explanations are at the end of the chapter.
+17.3  Lead time, safety stock and the reorder point
+Lead time is the interval between placing an order and receiving the goods. It is why a company cannot wait until the shelf is empty: an order placed on the day of the stockout arrives a week after it.
+The reorder point is the stock level at which the next order is placed. In the simplest case it is the quantity that will be used during the lead time: daily usage times lead time in days.
+Safety stock is the buffer held against the two things that go wrong — demand higher than expected during the lead time, and a lead time longer than expected. Adding it to the reorder point gives the full rule.
+WORKED EXAMPLE   Worked example: when to order
+Step 1. The usage. A company uses 10,000 units a year over 250 working days, which is 10,000 ÷ 250 = 40 units a day.
+Step 2. The lead time. Five working days, so the usage during the lead time is 40 × 5 = 200 units.
+Step 3. The safety stock. Demand is variable and the supplier is occasionally late, so the company holds 100 units of safety stock — about two and a half days of usage.
+Step 4. The reorder point. 200 + 100 = 300 units: when the stock falls to 300, the next order goes out.
+Check. The safety stock is held all the time and used occasionally, so it is a permanent addition to the average stock and its whole cost is a carrying cost: at $4 a unit a year, 100 × 4 = 400 a year. That is the price of the protection, and it should be compared with the cost of the stockouts it prevents. Where a question gives the probability of a stockout at each level of safety stock and the cost of one, the answer is the level at which the expected stockout cost plus the carrying cost is lowest.
+Figure F617-03 sets out what changes the reorder point.
+Figure F617-03. What moves the reorder point
+@table
+Change | Effect on the reorder point | Why
+Longer lead time | Higher | More is used before the goods arrive
+More variable demand | Higher | More safety stock is needed
+Less reliable supplier | Higher | More safety stock is needed
+Higher usage | Higher | More is used each day
+Higher carrying cost | Lower | Safety stock becomes more expensive
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+daily usage | الاستهلاك اليومي | consommation journalière
+service level | مستوى الخدمة | niveau de service
+expected stockout cost | التكلفة المتوقعة للنفاد | coût attendu de rupture
+@end
+SECTION CHECK   Test yourself
+SC17-7  A company using 40 units a day with a five-day lead time and 100 units of safety stock reorders at:
+A.	300 units
+B.	200 units
+C.	100 units
+D.	500 units
+SC17-8  Safety stock is held against:
+A.	higher-than-expected demand and longer-than-expected lead times.
+B.	price rises only.
+C.	ordering costs.
+D.	obsolescence.
+SC17-9  The cost of holding safety stock is:
+A.	a carrying cost, borne all the time.
+B.	an ordering cost.
+C.	incurred only when it is used.
+D.	zero.
+Answers and explanations are at the end of the chapter.
+17.4  How much to order
+The economic order quantity is the order size at which the total of carrying and ordering costs is lowest. It comes from a formula the exam does not require to be derived: twice the annual demand times the cost of placing one order, divided by the carrying cost of one unit for a year, all under a square root.
+WORKED EXAMPLE   Worked example: the economic order quantity
+Step 1. The inputs. Annual demand is 10,000 units, each order costs $50 to place, and carrying one unit for a year costs $4.
+Step 2. The numerator. Twice the demand times the ordering cost: 2 × 10,000 × 50 = 1,000,000.
+Step 3. Divide by the carrying cost. 1,000,000 ÷ 4 = 250,000, and the square root of 250,000 is 500 units.
+Step 4. What follows. At 500 units an order, the company places 10,000 ÷ 500 = 20 orders a year, costing 20 × 50 = 1,000. Its average stock is half the order quantity, 500 ÷ 2 = 250 units, costing 250 × 4 = 1,000 to carry. Total cost is 1,000 + 1,000 = 2,000 a year.
+Check. The two costs are equal at the optimum, and that is not a coincidence: it is a property of the formula and a quick way to verify an answer. It is also why the total cost curve is flat near the bottom — ordering 450 or 550 units instead of 500 costs only a few dollars more a year — which matters in practice, because it means the formula's precision is not worth agonising over while its direction is worth following.
+The outcome asks how a change in one variable affects the answer, and the square root supplies the rule: every input moves the order quantity by its own square root.
+Double the demand and the order quantity rises by about 41 per cent, not 100, because the square root of two is about 1.41. This is why a company twice the size does not hold twice the stock, and it is the single most examinable consequence of the formula.
+Double the ordering cost and the quantity rises by the same 41 per cent: with an ordering cost of $100, the numerator becomes 2 × 10,000 × 100 = 2,000,000, and dividing by 4 and taking the root gives about 707 units.
+Double the carrying cost and the quantity falls by about 29 per cent, to about 354 units, because dividing by two inside a square root multiplies by about 0.71.
+Figure F617-04 sets the sensitivities out.
+Figure F617-04. What a change does to the economic order quantity
+@table
+Change | Effect on the order quantity | Size of the effect
+Demand doubles | Rises | About 41 per cent
+Ordering cost doubles | Rises | About 41 per cent
+Carrying cost doubles | Falls | About 29 per cent
+Demand falls by half | Falls | About 29 per cent
+All three double together | Rises | About 41 per cent
+@end
+The assumptions are examinable in their own right, because every one of them fails somewhere. Demand is assumed constant and known; the lead time is assumed constant; the ordering cost per order and the carrying cost per unit are assumed fixed; no quantity discounts exist; and the whole order arrives at once. A question that varies any of these is asking whether the candidate knows the model's limits — and the standard answer is that the formula gives the right order of magnitude, that the cost curve is flat near its minimum, and that the assumptions matter less than the discipline of comparing the two costs.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+order quantity | كمية الطلب | quantité commandée
+square root | الجذر التربيعي | racine carrée
+total relevant cost | إجمالي التكلفة ذات الصلة | coût total pertinent
+flat optimum | الأمثلية المسطحة | optimum plat
+@end
+SECTION CHECK   Test yourself
+SC17-10  With demand of 10,000, an ordering cost of 50 and a carrying cost of 4, the economic order quantity is:
+A.	500 units
+B.	250 units
+C.	1,000 units
+D.	2,000 units
+SC17-11  At the economic order quantity:
+A.	total ordering cost equals total carrying cost.
+B.	carrying cost is zero.
+C.	ordering cost is zero.
+D.	stockout cost is zero.
+SC17-12  If annual demand doubles, the economic order quantity rises by about:
+A.	41 per cent
+B.	100 per cent
+C.	29 per cent
+D.	nothing
+Answers and explanations are at the end of the chapter.
+17.5  Just-in-time, and the turnover a margin allows
+Just-in-time is the proposition that stock held to protect a process is a symptom, and that the process should be fixed instead. Materials arrive as they are needed, in small quantities, from suppliers close by and contractually committed; production is pulled by demand rather than pushed by a schedule; and the buffer between stages is removed so that any problem stops the line and has to be solved rather than absorbed.
+What it achieves is examinable. Inventory falls, often by most of it, releasing the funding and the space. Quality improves, because a defect cannot hide in a pile of stock. Obsolescence and write-downs fall. And the discipline exposes problems — an unreliable machine, a supplier who is sometimes late — that stock was concealing.
+What it requires is equally examinable, and it is the reason just-in-time is not universal. Reliable suppliers, geographically close, and few of them. Reliable transport. Reliable machines. Short set-up times, so that small batches are economic, which is the same as saying that the ordering cost in section 17.4 has been engineered down. Accurate demand information. And a willingness to stop the line, which is a cultural matter more than a technical one.
+The risks are the mirror: a single supplier's failure, a transport disruption, a natural disaster or a pandemic stops a line that has no buffer, and the saving of years can be lost in a month. The exam expects both halves.
+The last outcome of this chapter is a relationship rather than a calculation, and it is the one Book 1 prepared. Inventory turnover and gross margin tend to move in opposite directions across businesses. A supermarket turns its stock thirty times a year on a gross margin near 25 per cent; a jeweller turns it twice on a margin near 50. Each is viable because the product of the two is enough: turnover times margin is a crude measure of the gross profit earned on each dollar invested in stock, and businesses survive at many combinations of the pair.
+The practical consequences are two. A company comparing its turnover with another's must compare margins at the same time, or it is comparing two different business models — which is exactly what Book 1 warned about when it set Barada's 14 per cent gross margin against Orontes's 35. And a company that wants to raise its turnover by cutting stock must ask what that does to its margin: if the stock cut causes stockouts, discounting to recover the customers, or expedited freight, the turnover will rise and the margin will fall, and the company will be no better off.
+Figure F617-05 shows the pattern.
+Figure F617-05. Turnover and margin across businesses
+@table
+Business | Inventory turnover | Gross margin | Why the combination works
+Supermarket | About 30 times | About 25% | Volume and speed; nothing sits
+Orontes, a food manufacturer | 11.49 times | 35.0% | A moderate cycle at a fair margin
+Barada, a distributor | 9.00 times | 14.0% | Thin margin, and the stockroom is the business
+Jeweller | About 2 times | About 50% | Slow, high-value, bought rarely
+@end
+YOUR TURN   Order and reorder
+Figure F617-06 gives a company's inventory data. Complete the blanks. Answers are at the end of the chapter.
+Figure F617-06. Your turn: inventory arithmetic (complete the blanks)
+@table
+Item | Data | Answer
+Daily usage | 18,000 units a year over 300 days | ________
+Usage during the lead time | Lead time 8 days | ________
+Reorder point | Safety stock 240 units | ________
+Economic order quantity | Ordering cost 40, carrying cost 5 a unit a year | ________
+Orders a year | | ________
+Total relevant cost | Ordering plus carrying at the optimum | ________
+@end
+LANGUAGE FOCUS   "Stock"
+English stock means two entirely different things in these two books, and the two meanings sit in adjacent chapters. Inventory is called stock in British usage, so stockout, stock turn and safety stock all concern goods. Shares are called stock in American usage, so common stock, preferred stock and stock dividend all concern equity. The exam, written in American English, uses stock for shares and inventory for goods, and a candidate who learned the British sense must read carefully: a stock dividend has nothing to do with the warehouse. Arabic avoids the clash completely with مخزون for goods and أسهم for shares, and French does the same with stocks and actions. Note the one survival of the goods sense in American usage: a company is said to be out of stock, never out of inventory.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+pull system | نظام السحب | flux tiré
+supplier reliability | موثوقية المورد | fiabilité fournisseur
+buffer removal | إزالة المخزون الوقائي | suppression des tampons
+inventory turnover | معدل دوران المخزون | rotation des stocks
+@end
+SECTION CHECK   Test yourself
+SC17-13  Just-in-time requires, above all:
+A.	reliable suppliers, transport and machines, and short set-up times.
+B.	large safety stocks.
+C.	many suppliers at a distance.
+D.	long production runs.
+SC17-14  A company raises its inventory turnover by cutting stock and its gross margin falls. The most likely explanation is:
+A.	stockouts led to discounting, expediting or lost sales.
+B.	the turnover calculation is wrong.
+C.	carrying costs rose.
+D.	the supplier raised prices.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F617-07 brings the chapter together.
+Figure F617-07. Chapter 17 summary map: the key rule for each section.
+Stock is held to meet uncertain demand, to decouple the stages of a process, to buy in economic lots and to guard against price or supply shocks, and its level is set by the predictability of demand, the lead time, the cost of a stockout, the cost of money and the shelf life. Three costs trade against each other: carrying costs rise with quantity, ordering costs fall with it, and stockout costs are the largest and least measurable. Lead time fixes when to order — 10,000 ÷ 250 = 40 units a day, 40 × 5 = 200 during a five-day lead time, plus 100 of safety stock, so 200 + 100 = 300 — and the safety stock's whole cost, 100 × 4 = 400 a year, is the price of the protection. The economic order quantity fixes how much: 2 × 10,000 × 50 = 1,000,000, divided by 4 gives 250,000, whose square root is 500 units, at which 20 orders cost 1,000 and 250 units of average stock cost 1,000, the two always equal at the optimum. Every input moves the answer by its square root, so doubling demand raises the order by 41 per cent and not 100. And just-in-time removes the need for the buffer rather than the buffer itself, at the price of requiring everything else to be reliable — while turnover and margin move in opposite directions across businesses, which is why a supermarket at thirty times and a jeweller at two are both viable and neither can be judged by the other's figure.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P17-01  Lead time is:
+A.	the interval between placing an order and receiving the goods.
+B.	the time stock sits in the warehouse.
+C.	the credit period.
+D.	the production run length.
+P17-02  Safety stock protects against:
+A.	higher demand or a longer lead time than expected.
+B.	ordering costs.
+C.	quantity discounts.
+D.	obsolescence.
+P17-03  A company uses 18,000 units over 300 days. Daily usage is:
+A.	60 units
+B.	18,000 units
+C.	600 units
+D.	50 units
+P17-04  With daily usage of 60, a lead time of 8 days and safety stock of 240, the reorder point is:
+A.	720 units
+B.	480 units
+C.	240 units
+D.	1,200 units
+P17-05  As order quantity rises, ordering cost:
+A.	falls and carrying cost rises.
+B.	rises and carrying cost falls.
+C.	falls and carrying cost falls.
+D.	is unchanged.
+P17-06  The economic order quantity with demand 10,000, ordering cost 50 and carrying cost 4 is:
+A.	500 units
+B.	250 units
+C.	707 units
+D.	354 units
+P17-07  At the economic order quantity, total ordering cost:
+A.	equals total carrying cost.
+B.	is zero.
+C.	exceeds carrying cost.
+D.	is below carrying cost.
+P17-08  If the carrying cost per unit doubles, the economic order quantity:
+A.	falls by about 29 per cent.
+B.	falls by half.
+C.	rises by 41 per cent.
+D.	is unchanged.
+P17-09  Just-in-time reduces inventory by:
+A.	removing the need for buffers through reliability and short set-ups.
+B.	ordering in larger quantities.
+C.	increasing safety stock.
+D.	lengthening lead times.
+P17-10  A supermarket turns stock about 30 times at a 25 per cent margin and a jeweller twice at 50 per cent. This shows that:
+A.	turnover and margin must be read together.
+B.	the jeweller is badly run.
+C.	the supermarket is badly run.
+D.	turnover alone measures performance.
+Case-style practice: a bulk offer to Orontes
+Orontes's sesame supplier offers a 3 per cent discount on the price of a full shipload rather than Orontes's usual quarterly orders. Orontes uses sesame worth about $9,000,000 a year. Its current ordering cost is $2,000 an order and its carrying cost is about 22 per cent of the value held a year. The shipload would be six months' supply. The purchasing manager says the discount is worth $270,000 and should be taken.
+Required. Test the claim. Set out what the discount is worth, what the extra stock would cost, and what else you would want to know. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC17-1  Answer A. A buffer lets each stage run at its own pace.
+B is wrong. Decoupling is the purpose, not a costing effect.
+C is wrong. Just-in-time removes the need for the buffer; it does not forbid work in progress by rule.
+D is wrong. Work in progress is funded and stored like any stock.
+SC17-2  Answer A. Fewer orders and often a lower price, paid for in storage and funding.
+B is wrong. Carrying cost rises with larger lots.
+C is wrong. Stockout cost is affected by the reorder point rather than the lot size.
+D is wrong. Both savings are real.
+SC17-3  Answer A. A long, unreliable lead time requires more cover.
+B is wrong. A short shelf life argues for less stock.
+C is wrong. Expensive money argues for less stock.
+D is wrong. Predictable demand needs less safety stock.
+SC17-4  Answer A. Carrying rises with quantity and ordering falls with it.
+B is wrong. They move in opposite directions.
+C is wrong. The same objection applies.
+D is wrong. The directions are reversed.
+SC17-5  Answer A. Funding is the largest carrying cost.
+B is wrong. Ordering costs are per order.
+C is wrong. Stockout costs arise when stock runs out.
+D is wrong. It is usually the largest single element.
+SC17-6  Answer A. Stockout costs are estimated and usually the largest.
+B is wrong. Carrying costs are computable.
+C is wrong. Ordering costs are computable.
+D is wrong. Insurance is one small component of carrying cost.
+SC17-7  Answer A. 40 × 5 = 200, plus 100 of safety stock.
+B is wrong. That omits the safety stock.
+C is wrong. That is the safety stock alone.
+D is wrong. This has no basis in the figures.
+SC17-8  Answer A. Both kinds of surprise.
+B is wrong. Price rises are guarded against by buying forward or by speculative stock.
+C is wrong. Ordering costs are addressed by the order quantity.
+D is wrong. More stock increases obsolescence risk.
+SC17-9  Answer A. It is held permanently and funded permanently.
+B is wrong. Ordering costs are per order.
+C is wrong. The cost is incurred whether or not the stock is drawn on.
+D is wrong. Safety stock has a real and continuing cost.
+SC17-10  Answer A. 2 × 10,000 × 50 = 1,000,000, divided by 4 is 250,000, whose root is 500.
+B is wrong. 250 is the average stock at that quantity.
+C is wrong. 707 follows from an ordering cost of 100.
+D is wrong. 354 follows from a carrying cost of 8.
+SC17-11  Answer A. The two costs are equal at the optimum.
+B is wrong. Carrying cost is half the total.
+C is wrong. Ordering cost is the other half.
+D is wrong. The formula does not address stockouts at all.
+SC17-12  Answer A. The square root of two is about 1.41.
+B is wrong. The relationship is not proportional.
+C is wrong. That is the effect of halving.
+D is wrong. Demand is in the formula.
+SC17-13  Answer A. Reliability throughout, and short set-ups.
+B is wrong. Large buffers are what it removes.
+C is wrong. Distant suppliers make frequent small deliveries impossible.
+D is wrong. Long runs require large batches.
+SC17-14  Answer A. Cutting stock too far costs margin elsewhere.
+B is wrong. The arithmetic is not in question.
+C is wrong. Carrying costs are below the gross margin line in most presentations and would not explain it.
+D is wrong. A price rise would not follow from the company's own stock cut.
+Your turn
+@table
+Item | Answer
+Daily usage | 60 units: 18,000 ÷ 300 = 60.
+Usage during the lead time | 480 units: 60 × 8 = 480.
+Reorder point | 720 units: 480 + 240 = 720.
+Economic order quantity | 537 units: 2 × 18,000 × 40 = 1,440,000, and 1,440,000 ÷ 5 = 288,000, whose square root is about 537.
+Orders a year | About 34: 18,000 ÷ 537 = 33.5.
+Total relevant cost | About 2,683: ordering is 33.5 × 40 = 1,340 and carrying is half of 537 at 5 a unit, which is about 1,343.
+What it tells you | The two costs are equal at the optimum, as they must be, and the safety stock of 240 units is a further 240 × 5 = 1,200 a year on top — half as much again as either, which is worth knowing before anybody decides that 240 units is a prudent round number.
+@end
+Multiple-choice questions
+P17-01  Answer A. Order to receipt.
+B is wrong. That is the holding period.
+C is wrong. Credit concerns payment, not delivery.
+D is wrong. A production run is a different interval.
+P17-02  Answer A. Demand or lead time worse than expected.
+B is wrong. Ordering costs are addressed by the lot size.
+C is wrong. Discounts are a separate decision.
+D is wrong. More stock raises obsolescence risk.
+P17-03  Answer A. 18,000 ÷ 300 = 60.
+B is wrong. That is the annual figure.
+C is wrong. This misplaces the decimal.
+D is wrong. This divides by 360.
+P17-04  Answer A. 60 × 8 = 480, plus 240 of safety stock.
+B is wrong. That omits the safety stock.
+C is wrong. That is the safety stock alone.
+D is wrong. This has no basis in the figures.
+P17-05  Answer A. Fewer, larger orders cost less to place and more to hold.
+B is wrong. The directions are reversed.
+C is wrong. They cannot both fall.
+D is wrong. Both change.
+P17-06  Answer A. The square root of 250,000 is 500.
+B is wrong. 250 is the average stock.
+C is wrong. 707 follows from doubling the ordering cost.
+D is wrong. 354 follows from doubling the carrying cost.
+P17-07  Answer A. The two are equal at the optimum.
+B is wrong. Neither is zero.
+C is wrong. They are equal, not unequal.
+D is wrong. The same objection applies.
+P17-08  Answer A. Dividing by two inside a square root multiplies by about 0.71.
+B is wrong. The relationship is not proportional.
+C is wrong. The quantity falls when carrying becomes dearer.
+D is wrong. Carrying cost is in the formula.
+P17-09  Answer A. It removes the need for buffers.
+B is wrong. Larger orders raise stock.
+C is wrong. Safety stock is what it reduces.
+D is wrong. Long lead times make it impossible.
+P17-10  Answer A. The two must be read together.
+B is wrong. A jeweller's business model is slow by nature.
+C is wrong. A supermarket's model is fast by nature.
+D is wrong. Turnover alone describes a business model, not performance.
+Case-style set: a bulk offer to Orontes
+What the discount is worth. Three per cent of $9,000,000 is 9,000,000 × 0.03 = 270,000 a year, so the purchasing manager's figure is right as far as it goes.
+What the extra stock would cost. Buying six months at a time means an average stock of about three months' usage, which is 9,000,000 ÷ 4 = 2,250,000, against roughly 9,000,000 ÷ 8 = 1,125,000 under quarterly ordering. The extra stock is therefore about $1,125,000, and at a carrying cost of 22 per cent a year that is 1,125,000 × 0.22 = 247,500. Against the discount of $270,000, the net gain is about $22,500 a year — a tenth of what the manager claimed, and inside the margin of error of the 22 per cent estimate.
+What else I would want to know. First, the shelf life and the storage: sesame held for six months must stay in condition, and if additional or refrigerated space is needed, the carrying rate is higher than 22 per cent. Second, the price risk: committing to six months at today's price is a position in the sesame market, which Chapter 6 showed can be taken more cheaply and more precisely with a forward contract than by buying the physical. Third, the cash: a shipload is a single large payment, and Chapter 13's forecast must show the company can make it without drawing a facility that costs more than the discount. Fourth, whether the supplier would offer the same discount for a commitment to volume rather than a single delivery, which would capture most of the $270,000 with none of the stock.
+On these figures I would not take the offer as proposed, and would ask for the fourth option.

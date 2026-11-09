@@ -107,22 +107,27 @@ def arithmetic(text, say):
         if not ok:
             continue
         # A quotient may be stated as a percentage or as an index -- every
-        # common-size figure in this book is one or the other. Nothing
-        # else may: "100.0 - 28.0 = 72.0 per cent" is already in
-        # percentage points, and "5 x 4.02 = 20.1 per cent" multiplies a
-        # rate by a number of points. Scaling either multiplied the right
-        # answer by a hundred and reported it as wrong.
+        # common-size figure in this book is one or the other -- so where
+        # the text says so, the scaled reading is admitted beside the raw
+        # one and the sum passes if either comes out. Scaling
+        # unconditionally failed "3.0 / 0.75 = 4.00 per cent", whose two
+        # sides are already rates; refusing to scale above one failed
+        # "5,202,100 / 2,100,000 = 247.7 per cent", a rise of more than
+        # the base. Only division may be read this way: "100.0 - 28.0 =
+        # 72.0 per cent" is already in points and "5 x 4.02 = 20.1 per
+        # cent" multiplies a rate by a number of points.
         tailing = text[m.end():m.end() + 36].lower()
+        cands = [r]
         if all(o in u'\u00f7/' for o in ops) and (
                 tailing.lstrip().startswith(('per cent', '%'))
                 or 'index' in tailing or 'base of 100' in tailing):
-            r = r * 100
+            cands.append(r * 100)
         dp = len(m.group(3).split('.')[1]) if '.' in m.group(3) else 0
         tol = max(0.5 * 10 ** -dp, abs(z) * 0.002)
-        if abs(r - z) > tol:
+        if not any(abs(c - z) <= tol for c in cands):
             say('arithmetic: %s = %s, but it is %s'
                 % ((m.group(1) + m.group(2)).strip(), m.group(3),
-                   ('%.4f' % r).rstrip('0').rstrip('.')))
+                   ('%.4f' % cands[-1]).rstrip('0').rstrip('.')))
 
 
 def check(bk, n, say):

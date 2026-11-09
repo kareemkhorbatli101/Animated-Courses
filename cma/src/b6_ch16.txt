@@ -1,0 +1,574 @@
+Chapter 16
+Receivables and credit policy
+الذمم المدينة وسياسة الائتمان
+Orontes is owed $4,144,000 by its customers. That money was earned, has been recognised as revenue, has left the warehouse as goods, and is not in the bank. It is the second-largest asset on the current side of the balance sheet, it takes 34.3 days to arrive, and every one of those facts is the result of a decision somebody made about who may buy on credit and on what terms.
+This chapter is about that decision. Selling on credit is not an administrative inconvenience; it is an investment, financed like any other, undertaken because it buys sales that would otherwise go to a competitor. The question is never whether to grant credit but how much, to whom, and at what price — and the exam's version of the question is always the same incremental calculation.
+Figure F616-01 is your map.
+Figure F616-01. Chapter 16 roadmap: what sets the level of receivables, and how a change in policy is tested.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.4.q
+Identify the factors influencing the level of receivables.
+C
+Full treatment
+B.4.r
+Analyse the effect of a change in credit terms or collection policy on receivables, working capital and sales.
+C
+Full treatment
+B.4.s
+Define default risk.
+C
+Full treatment
+B.4.t
+Identify the factors in determining an optimal credit policy.
+C
+Full treatment
+A.2.m
+Carry days sales outstanding into the policy decision.
+B
+Reinforced (Book 1, Chapter 12)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+credit policy
+سياسة الائتمان
+politique de crédit
+credit standards
+معايير منح الائتمان
+normes de crédit
+credit terms
+شروط الائتمان
+conditions de paiement
+collection policy
+سياسة التحصيل
+politique de recouvrement
+default risk
+مخاطر التعثر
+risque de défaut
+ageing schedule
+جدول أعمار الذمم
+balance âgée
+credit scoring
+التقييم الائتماني
+scoring de crédit
+incremental analysis
+التحليل التفاضلي
+analyse différentielle
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's receivables turnover of 10.63 times, its days sales outstanding of 34.3 days, its allowance for credit losses of $156,000 against a gross book of $4,300,000, and its credit loss expense of $63,000. It also found receivables growing 10.21 per cent against sales growth of 15.38, which it called the healthy direction. This chapter asks what the company should do next.
+16.1  What sets the level of receivables
+Receivables are the product of two things only: how much is sold on credit, and how long it takes to collect. Everything that influences the level works through one of those two.
+Sales volume. More sales on the same terms means more receivables, in proportion. This is the largest factor and the least interesting, which is why the ratio measures — days outstanding, turnover — strip it out.
+The credit terms offered. Terms of net 45 produce half as much again in receivables as net 30, on the same sales. This is the company's own decision and the subject of section 16.4.
+The mix of customers. Large retailers pay slowly and reliably; small shops pay quickly or not at all; government bodies pay slowest of all and never default. A change in the customer mix changes the collection period without any change in policy.
+The collection effort. How quickly an overdue account is chased, by whom, and with what consequence. Two companies with identical terms can have collection periods a fortnight apart.
+Seasonality and industry practice. A supplier to a harvest-driven business is paid after the harvest, whatever the invoice says. A company whose competitors all offer 60 days cannot offer 30 and keep its customers.
+Discounts for early settlement. A discount buys days with margin, and the proportion of customers who take it determines how many days are bought.
+The economy. In a downturn, every customer pays more slowly and more of them fail, and the collection period lengthens without anybody deciding anything.
+Figure F616-02 separates what the company controls from what it does not.
+Figure F616-02. What moves the receivable balance
+Factor
+Controlled by the company?
+Works through
+Sales volume
+Partly
+The amount sold on credit
+Credit terms
+Yes
+The collection period
+Credit standards
+Yes
+Who is allowed to buy on credit
+Collection effort
+Yes
+The collection period
+Settlement discounts
+Yes
+The collection period
+Customer mix
+Partly
+The collection period
+Industry practice
+No
+The terms the company can offer
+The economy
+No
+Both
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+collection period
+فترة التحصيل
+délai de recouvrement
+customer mix
+مزيج العملاء
+mix clients
+overdue account
+الحساب المتأخر
+compte échu
+industry practice
+العرف القطاعي
+usage du secteur
+SECTION CHECK   Test yourself
+SC16-1  The level of receivables is the product of:
+A.	how much is sold on credit and how long collection takes.
+B.	profit and the tax rate.
+C.	inventory and payables.
+D.	the share price and the dividend.
+SC16-2  A change in the mix of customers towards large retailers typically:
+A.	lengthens the collection period without any change in policy.
+B.	shortens the collection period.
+C.	has no effect on receivables.
+D.	eliminates default risk.
+SC16-3  Which factor is outside the company's control?
+A.	Industry practice on credit terms
+B.	Its own credit standards
+C.	Its collection effort
+D.	Its settlement discount
+Answers and explanations are at the end of the chapter.
+16.2  The four parts of a credit policy
+A credit policy has four elements, and a question that asks about "an optimal credit policy" is asking which of them to move.
+Credit standards decide who is granted credit at all. They are set by the risk the company will accept, and assessed by the five Cs: character, meaning the customer's willingness to pay as shown by its record; capacity, its ability to pay out of cash flow; capital, the equity behind it; collateral, what could be taken if it failed; and conditions, the state of its industry and the economy. The sources are trade references, bank references, published statements, a credit agency's report, and the company's own experience.
+Credit terms decide how long and on what conditions. The standard notation is read as follows: "2/10, net 30" means two per cent may be deducted if payment is made within ten days, and the full amount is due in thirty. "Net 45" means the full amount in forty-five days with no discount. "2/10, net 30, ROG" dates the terms from receipt of goods rather than from the invoice.
+Collection policy decides what happens when an account goes past due: the statement, the reminder, the telephone call, the stop on further supply, the collection agency, the lawyer. Each step costs money and each risks the customer relationship, so the sequence is a policy and not an improvisation.
+The discount decides how much margin the company will give up to be paid sooner, and Chapter 18 computes what a discount costs the customer who does not take it — which is the same number from the other side.
+The optimum, which is the examinable idea, is where the marginal benefit of relaxing a policy equals its marginal cost. Relaxing standards wins customers and adds bad debts. Lengthening terms wins sales and adds financing cost. Softening collection keeps customers and lengthens the period. Every move has a gain and a cost, and the analysis of section 16.4 is how they are compared.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+the five Cs
+المعايير الخمسة
+les cinq C
+trade reference
+المرجع التجاري
+référence commerciale
+past due
+متأخر السداد
+en souffrance
+credit limit
+الحد الائتماني
+plafond de crédit
+SECTION CHECK   Test yourself
+SC16-4  "2/10, net 30" means:
+A.	two per cent off if paid within ten days, with the full amount due in thirty.
+B.	two per cent interest after ten days.
+C.	ten per cent off if paid within two days.
+D.	thirty per cent off within ten days.
+SC16-5  Which of the five Cs refers to the customer's record of paying?
+A.	Character
+B.	Capacity
+C.	Capital
+D.	Collateral
+SC16-6  An optimal credit policy is one where:
+A.	the marginal benefit of relaxing a policy equals its marginal cost.
+B.	bad debts are zero.
+C.	receivables are zero.
+D.	every customer is granted credit.
+Answers and explanations are at the end of the chapter.
+16.3  Default risk
+Default risk is the risk that a customer does not pay what it owes, in full or at all. It is the price of selling on credit, it can be reduced and never removed, and the exam wants it measured rather than described.
+Three instruments measure it.
+The ageing schedule sorts the receivable book by how long each balance has been outstanding: current, 1 to 30 days past due, 31 to 60, 61 to 90, over 90. It is the instrument Book 1 said a days-outstanding figure cannot replace, because an average of 34.3 days is consistent with everybody paying on time and with one large account at 120 days. The pattern of movement between the columns is the early warning.
+The allowance for credit losses is the company's estimate of what will not be collected, charged to the income statement as a credit loss expense. Orontes's allowance is $156,000 against a gross book of $4,300,000, which is 156,000 ÷ 4,300,000 = 3.63 per cent — held steady against 3.59 per cent a year earlier, which Book 1 read as consistent.
+Credit scoring assigns a number to a customer from its characteristics and its history, and sets a credit limit from the score. It makes decisions consistent and fast, and it is only as good as the data behind it.
+Four ways to reduce the risk, each with a cost.
+Tighter standards, which lose sales.
+Security: a personal guarantee, a letter of credit, a retention of title clause, a deposit. Each costs the customer something and may lose the sale.
+Credit insurance, which transfers the risk for a premium.
+Factoring, which sells the receivable outright. Book 1 found a $15,000 loss on sale of receivables in Orontes's income statement, which is this decision already taken for part of the book, and Chapter 18 computes what factoring costs.
+Figure F616-03 is an ageing schedule and what it says.
+Figure F616-03. An ageing schedule, and the reading
+Age
+Amount
+Share of the book
+What it suggests
+Current
+2,800,000
+65%
+Normal
+1 to 30 days past due
+900,000
+21%
+Watch; routine slippage
+31 to 60 days
+350,000
+8%
+Chase; a collection problem
+61 to 90 days
+150,000
+3%
+Escalate; provision likely
+Over 90 days
+100,000
+2%
+Provide in full; legal or agency
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+credit loss expense
+مصروف الخسائر الائتمانية
+charge pour pertes de crédit
+letter of credit
+الاعتماد المستندي
+lettre de crédit
+retention of title
+الاحتفاظ بالملكية
+clause de réserve de propriété
+credit insurance
+التأمين الائتماني
+assurance-crédit
+SECTION CHECK   Test yourself
+SC16-7  An ageing schedule is superior to a days-outstanding figure because it:
+A.	shows the spread behind the average.
+B.	is faster to compute.
+C.	is required by the standards.
+D.	removes default risk.
+SC16-8  An allowance held steady at about 3.6 per cent of a growing receivable book is:
+A.	consistent, and what a reader hopes to see.
+B.	evidence of manipulation.
+C.	a breach of the standards.
+D.	proof that no account will default.
+SC16-9  Which method transfers default risk to a third party?
+A.	Credit insurance or factoring
+B.	A tighter credit standard
+C.	An ageing schedule
+D.	A settlement discount
+Answers and explanations are at the end of the chapter.
+16.4  Testing a change in credit policy
+This is the calculation the outcome names and the exam sets. The structure never varies: compare the incremental gain with the incremental cost, counting only what changes.
+WORKED EXAMPLE   Worked example: lengthening the terms from 30 to 45 days
+Step 1. The proposal. Orontes's sales director proposes moving from net 30 to net 45. Sales are expected to rise from $42,000,000 to $45,000,000. The contribution margin on the extra sales is 40 per cent, so variable costs are 60 per cent. Receivables are expected to run at the new 45 days. Bad debts on the new business are expected at 4 per cent of those sales. The carrying cost of money is the company's cost of capital of 9.04 per cent.
+Step 2. The gain. The extra sales are 45,000,000 − 42,000,000 = 3,000,000, and at a 40 per cent contribution margin they add 3,000,000 × 0.40 = 1,200,000 of contribution. Fixed costs do not change, so that is the gross benefit.
+Step 3. The extra investment in receivables. At 45 days, the book becomes 45,000,000 × 45 ÷ 365 = 5,547,945 against the present $4,144,000, an increase of 5,547,945 − 4,144,000 = 1,403,945. The company's own money in that increase is its cost, not its selling price, so at a 60 per cent variable-cost ratio the investment is 1,403,945 × 0.60 = 842,367.
+Step 4. The cost of carrying it. 842,367 × 0.0904 = 76,150 a year.
+Step 5. The bad debts. Four per cent of the new sales: 3,000,000 × 0.04 = 120,000.
+Step 6. The decision. 1,200,000 − 76,150 − 120,000 = 1,003,850 of net benefit a year. The proposal should be accepted.
+Check. Notice which numbers did the work. The gain is large because the contribution margin is high and fixed costs do not change; the costs are small because money is cheap relative to a 40 per cent margin. Reverse either and the answer reverses: at a 10 per cent contribution margin the gain would be $300,000 and the costs would still be nearly $200,000, and at a 20 per cent cost of money the carrying cost alone would be $168,473. The exam's version of this question is always a test of whether the candidate knows which figures to vary.
+Figure F616-04 sets the calculation out as a template.
+Figure F616-04. The credit policy template
+Line
+Computation
+This case
+Increase in sales
+New sales less old
+3,000,000
+Increase in contribution
+Times the contribution margin
+1,200,000
+New receivable balance
+New sales times new days, over 365
+5,547,945
+Increase in receivables
+New balance less old
+1,403,945
+Investment in that increase
+Times the variable-cost ratio
+842,367
+Carrying cost
+Times the cost of money
+(76,150)
+Additional bad debts
+New sales times the expected rate
+(120,000)
+Net benefit
+1,003,850
+The same template tests every other change, with one line altered.
+Tightening standards: sales fall, contribution falls, receivables fall, bad debts fall. Accept if the bad debts and carrying cost saved exceed the contribution lost.
+Offering a discount of 2/10 on terms of net 30, where 60 per cent of customers take it: the cost is 0.02 × 0.60 × 45,000,000 = 540,000 a year of margin, and the benefit is the carrying cost saved on a shorter collection period plus any reduction in bad debts. On these figures the discount is expensive and would have to shorten the period by a great deal to pay.
+Tightening collection: the cost is the collection expenditure plus any customers lost; the benefit is a shorter period and fewer write-offs.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+contribution margin
+هامش المساهمة
+marge sur coûts variables
+incremental
+تفاضلي
+différentiel
+carrying cost
+تكلفة الاحتفاظ
+coût de portage
+variable-cost ratio
+نسبة التكلفة المتغيرة
+taux de coûts variables
+SECTION CHECK   Test yourself
+SC16-10  In testing a credit policy change, the investment in additional receivables is measured at:
+A.	the variable cost of the goods, not the selling price.
+B.	the selling price.
+C.	the gross margin.
+D.	the sales tax.
+SC16-11  Extra sales of 3,000,000 at a 40 per cent contribution margin add:
+A.	1,200,000 of contribution.
+B.	3,000,000 of profit.
+C.	1,800,000 of contribution.
+D.	120,000 of contribution.
+SC16-12  A discount of 2 per cent taken by 60 per cent of customers on sales of 45,000,000 costs:
+A.	540,000 a year
+B.	900,000 a year
+C.	54,000 a year
+D.	1,350,000 a year
+Answers and explanations are at the end of the chapter.
+16.5  Collection, and a verdict on Orontes
+Collection policy is the part of credit management that is executed rather than decided, and three principles govern it.
+Act early and consistently. An account that is three days overdue is a clerical matter; the same account at ninety days is a dispute. The cost of the first contact is trivial and its effect is large, which is why the ageing schedule is reviewed weekly rather than monthly.
+Separate the collection decision from the sales relationship. A sales representative paid on revenue is the wrong person to stop a customer's supply, and a credit function that reports to sales will not do it either. The exam treats this as a control question, which it is.
+Escalate by steps that are agreed in advance. Statement, reminder, call, stop on supply, final demand, agency, legal action — with the authority for each step and the days at which it triggers written down, so that the decision to continue supplying a slow payer is taken deliberately.
+Now the verdict on Orontes. Its days sales outstanding is 34.3 against terms the company describes as about 30: four days of slippage, which on daily sales of $115,068 is 115,068 × 4 = 460,272 of money the terms say should be in the bank. Its allowance ratio is steady and its credit loss expense of $63,000 is modest. Its receivables grew more slowly than its sales. The book is well run.
+The finding is therefore not a problem but an opportunity, and it is the one section 16.4 quantified: a company with a 35 per cent gross margin, a cost of money near 9 per cent and well-controlled bad debts is a company that should probably be selling more on credit rather than less. The $1,003,850 of net benefit in the worked example is larger than the $840,000 of lost gross margin that Book 1 ranked as the company's first finding — and it is the first idea in two books that would actually address that finding, because it buys volume without cutting price.
+That is the note on which the working-capital chapters turn from controlling cost to creating value, and Chapters 17 and 18 complete the set.
+YOUR TURN   Test a tightening
+Figure F616-05 gives a proposal to tighten credit. Complete the blanks. Answers are at the end of the chapter.
+Figure F616-05. Your turn: tightening credit standards (complete the blanks)
+Item
+Data
+Answer
+Sales lost
+Sales fall from 20,000,000 to 18,500,000
+________
+Contribution lost
+Contribution margin 30 per cent
+________
+New receivable balance
+25 days on the new sales
+________
+Old receivable balance
+2,400,000
+________
+Reduction in receivables
+________
+Investment released
+Variable-cost ratio 70 per cent
+________
+Carrying cost saved
+Cost of money 10 per cent
+________
+Bad debts saved
+5 per cent of the lost sales
+________
+Decision
+________
+LANGUAGE FOCUS   "Credit"
+English credit is one of the most overloaded words in the whole syllabus. It is the facility a seller grants a buyer, as in credit terms. It is the right-hand side of a double entry, as in debit and credit. It is a reduction in tax, as in a tax credit. It is a rating, as in credit risk. And to credit an account is to increase a liability or reduce an asset, which is the opposite of what a customer means by getting credit. Arabic separates the senses firmly: ائتمان for the facility and دائن for the bookkeeping side. French does the same with crédit for the facility and the entry but avoir for a credit note, and note that a French crédit in a bank statement means money coming in — from the bank's point of view, not the customer's, which is the source of endless confusion.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+escalation
+التصعيد المتدرج
+escalade
+stop on supply
+إيقاف التوريد
+suspension des livraisons
+segregation of duties
+الفصل بين المهام
+séparation des tâches
+write-off
+الإعدام المحاسبي
+passation en perte
+SECTION CHECK   Test yourself
+SC16-13  The credit function should not report to the sales function because:
+A.	a person paid on revenue will not stop a customer's supply.
+B.	sales staff cannot read an ageing schedule.
+C.	the standards forbid it.
+D.	collection is a legal matter.
+SC16-14  Four days of slippage against terms, on daily sales of 115,068, is:
+A.	460,272 of money that the terms say should be collected.
+B.	115,068 a year.
+C.	4 per cent of sales.
+D.	not measurable.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F616-06 brings the chapter together.
+Figure F616-06. Chapter 16 summary map: the key rule for each section.
+Receivables are the product of what is sold on credit and how long collection takes, and everything that moves them — volume, terms, standards, collection effort, discounts, customer mix, industry practice and the economy — works through one of the two. A credit policy has four parts: standards, assessed by the five Cs; terms, written as 2/10 net 30; a collection policy escalating by agreed steps; and a discount, which buys days with margin. Default risk is measured by the ageing schedule, which shows the spread an average hides, by the allowance ratio, which for Orontes is 156,000 ÷ 4,300,000 = 3.63 per cent and steady, and by credit scoring — and it is reduced by tighter standards, security, insurance or factoring, each at a price. A change in policy is tested by one template: extra sales of 3,000,000 × 0.40 = 1,200,000 of contribution, against a receivable book rising to 45,000,000 × 45 ÷ 365 = 5,547,945, an investment of 1,403,945 × 0.60 = 842,367 costing 842,367 × 0.0904 = 76,150 to carry, and 3,000,000 × 0.04 = 120,000 of bad debts, giving 1,200,000 − 76,150 − 120,000 = 1,003,850 of net benefit. And Orontes's own book is well run at 34.3 days with a steady allowance, which means the opportunity is to sell more on credit rather than less — the first proposal in two books that addresses the margin finding without cutting price.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P16-01  The level of receivables depends on:
+A.	credit sales and the collection period.
+B.	inventory and payables.
+C.	the tax rate.
+D.	the dividend policy.
+P16-02  "2/10, net 30" means:
+A.	a 2 per cent discount for payment within 10 days, with the balance due in 30.
+B.	2 per cent interest after 10 days.
+C.	10 per cent discount within 2 days.
+D.	payment in 2 instalments over 30 days.
+P16-03  Which of the five Cs is the equity behind the customer?
+A.	Capital
+B.	Character
+C.	Conditions
+D.	Collateral
+P16-04  An ageing schedule shows:
+A.	how long each balance has been outstanding.
+B.	the average collection period.
+C.	the allowance percentage.
+D.	the contribution margin.
+P16-05  Additional sales of 3,000,000 at a 40 per cent contribution margin give:
+A.	1,200,000 of additional contribution.
+B.	1,800,000 of additional contribution.
+C.	3,000,000 of additional profit.
+D.	120,000 of additional contribution.
+P16-06  The investment in an increase in receivables is measured at:
+A.	the variable cost of the goods.
+B.	the selling price.
+C.	the gross profit.
+D.	the list price.
+P16-07  Sales of 45,000,000 at 45 days give a receivable balance of about:
+A.	5,547,945
+B.	4,144,000
+C.	1,000,000
+D.	45,000,000
+P16-08  Bad debts expected at 4 per cent of additional sales of 3,000,000 are:
+A.	120,000
+B.	12,000
+C.	1,200,000
+D.	750,000
+P16-09  A 2 per cent discount taken by 60 per cent of customers on sales of 45,000,000 costs:
+A.	540,000
+B.	900,000
+C.	54,000
+D.	270,000
+P16-10  A company should relax its credit policy when:
+A.	the additional contribution exceeds the additional carrying cost and bad debts.
+B.	bad debts would fall.
+C.	receivables would fall.
+D.	the collection period would lengthen.
+Case-style practice: a customer asks for terms
+A regional supermarket chain offers Orontes an order worth $2,400,000 a year. It will not buy on Orontes's standard net 30, and requires net 60. Orontes's contribution margin on this business would be 35 per cent, its variable-cost ratio 65 per cent, its cost of money 9.04 per cent. The customer is rated at the lower end of investment grade, and the credit manager estimates bad debts at 3 per cent of the sales. Orontes's existing customers pay in 34.3 days and some of them would learn of the terms.
+Required. Compute the net benefit of accepting. Say whether you would accept, naming the risk the calculation does not capture. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC16-1  Answer A. The two drivers are the amount and the delay.
+B is wrong. Neither affects the receivable balance directly.
+C is wrong. Those are other components of working capital.
+D is wrong. Market measures do not determine the balance.
+SC16-2  Answer A. Large retailers pay slowly and reliably.
+B is wrong. The effect runs the other way.
+C is wrong. The mix is one of the main influences.
+D is wrong. Large customers reduce default risk; they do not remove it.
+SC16-3  Answer A. What competitors offer is a market fact.
+B is wrong. Standards are the company's own.
+C is wrong. Collection effort is the company's own.
+D is wrong. The discount is the company's own.
+SC16-4  Answer A. Two per cent within ten days, full amount in thirty.
+B is wrong. No interest is implied.
+C is wrong. The numbers are reversed.
+D is wrong. This misreads both figures.
+SC16-5  Answer A. Character is the record and willingness to pay.
+B is wrong. Capacity is the ability to pay from cash flow.
+C is wrong. Capital is the equity behind the customer.
+D is wrong. Collateral is what secures the debt.
+SC16-6  Answer A. The optimum is where the margins meet.
+B is wrong. Zero bad debts means standards that are too tight.
+C is wrong. Zero receivables means no credit sales at all.
+D is wrong. Granting credit to everyone maximises bad debts.
+SC16-7  Answer A. The average hides the spread.
+B is wrong. It takes more work, not less.
+C is wrong. No standard requires the schedule itself.
+D is wrong. It measures the risk rather than removing it.
+SC16-8  Answer A. A steady ratio on a growing book is consistent.
+B is wrong. Manipulation shows as a falling ratio.
+C is wrong. Nothing is breached.
+D is wrong. The allowance exists because some will default.
+SC16-9  Answer A. Insurance and factoring both transfer the risk.
+B is wrong. Tighter standards avoid risk rather than transferring it.
+C is wrong. The schedule measures.
+D is wrong. A discount accelerates payment.
+SC16-10  Answer A. The company's money in a receivable is what the goods cost it.
+B is wrong. The margin has not been spent.
+C is wrong. The gross margin is the part not invested.
+D is wrong. Tax is not the investment.
+SC16-11  Answer A. 3,000,000 × 0.40 = 1,200,000.
+B is wrong. Contribution is not the whole of the sales.
+C is wrong. That is the variable cost.
+D is wrong. This misplaces the decimal.
+SC16-12  Answer A. 0.02 × 0.60 × 45,000,000 = 540,000.
+B is wrong. That assumes every customer takes the discount.
+C is wrong. This misplaces the decimal.
+D is wrong. This has no basis in the figures.
+SC16-13  Answer A. The incentive conflicts with the duty.
+B is wrong. Ability is not the issue.
+C is wrong. No standard addresses reporting lines in this way.
+D is wrong. Collection becomes legal only at the end of the escalation.
+SC16-14  Answer A. 115,068 × 4 = 460,272 of cash sitting in the book.
+B is wrong. That is one day.
+C is wrong. Four days is not four per cent of sales.
+D is wrong. The arithmetic is straightforward.
+Your turn
+Item
+Answer
+Sales lost
+1,500,000: 20,000,000 − 18,500,000 = 1,500,000.
+Contribution lost
+450,000: 1,500,000 × 0.30 = 450,000.
+New receivable balance
+1,267,123: 18,500,000 × 25 ÷ 365 = 1,267,123.
+Old receivable balance
+2,400,000, as given.
+Reduction in receivables
+1,132,877: 2,400,000 − 1,267,123 = 1,132,877.
+Investment released
+793,014: 1,132,877 × 0.70 = 793,014.
+Carrying cost saved
+79,301: 793,014 × 0.10 = 79,301.
+Bad debts saved
+75,000: 1,500,000 × 0.05 = 75,000.
+Decision
+Reject the tightening. The savings are 79,301 + 75,000 = 154,301 against 450,000 of contribution lost, so the company would be 295,699 a year worse off. A 30 per cent contribution margin is too valuable to give up for a 10 per cent saving on the money released.
+Multiple-choice questions
+P16-01  Answer A. Credit sales and the collection period.
+B is wrong. Those are other working-capital items.
+C is wrong. Tax does not drive the balance.
+D is wrong. Dividends are unrelated.
+P16-02  Answer A. Two per cent within ten days, net thirty.
+B is wrong. No interest is stated.
+C is wrong. The figures are reversed.
+D is wrong. It is not an instalment arrangement.
+P16-03  Answer A. Capital is the equity behind the customer.
+B is wrong. Character is the willingness to pay.
+C is wrong. Conditions are the economic environment.
+D is wrong. Collateral is security.
+P16-04  Answer A. It sorts balances by how long they are outstanding.
+B is wrong. The average is a single figure the schedule improves on.
+C is wrong. The allowance is informed by the schedule, not shown by it.
+D is wrong. Contribution is a trading measure.
+P16-05  Answer A. 3,000,000 × 0.40 = 1,200,000.
+B is wrong. That is the variable cost.
+C is wrong. Contribution is not profit until fixed costs are covered.
+D is wrong. This misplaces the decimal.
+P16-06  Answer A. The company's money in the receivable is the cost of the goods.
+B is wrong. The margin was never spent.
+C is wrong. The gross profit is the part not invested.
+D is wrong. The list price may not even be the selling price.
+P16-07  Answer A. 45,000,000 × 45 ÷ 365 = 5,547,945.
+B is wrong. That is the existing balance.
+C is wrong. This has no basis in the figures.
+D is wrong. That is a year's sales.
+P16-08  Answer A. 3,000,000 × 0.04 = 120,000.
+B is wrong. This misplaces the decimal.
+C is wrong. This is 40 per cent.
+D is wrong. This has no basis in the figures.
+P16-09  Answer A. 0.02 × 0.60 × 45,000,000 = 540,000.
+B is wrong. That assumes all customers take it.
+C is wrong. This misplaces the decimal.
+D is wrong. This halves the correct figure.
+P16-10  Answer A. The incremental test decides.
+B is wrong. Falling bad debts follow a tightening, not a relaxation.
+C is wrong. Receivables rise when credit is relaxed.
+D is wrong. A longer period is a cost, not a reason.
+Case-style set: a customer asks for terms
+The calculation. The additional contribution is 2,400,000 × 0.35 = 840,000. The receivable this customer would carry is 2,400,000 × 60 ÷ 365 = 394,521, and the company's money in it is 394,521 × 0.65 = 256,439, which costs 256,439 × 0.0904 = 23,182 a year to carry. Bad debts at 3 per cent are 2,400,000 × 0.03 = 72,000. The net benefit is 840,000 − 23,182 − 72,000 = 744,818 a year.
+Whether I would accept. On these figures, yes, and comfortably: the contribution is more than eight times the two costs together, which is what a 35 per cent margin against a 9 per cent cost of money produces. The order would also absorb capacity, and at an operating leverage of 4.02 the contribution falls almost entirely to operating income.
+The risk the calculation does not capture. The existing customers. Orontes's other customers pay in 34.3 days on terms of about 30, and a supermarket chain's 60-day terms will not stay confidential. If a quarter of the existing $42,000,000 of sales migrated to 60-day terms, the additional receivable would be roughly 10,500,000 × 26 ÷ 365 = 747,945 at selling price, and the carrying cost on its variable element would be several times the $23,182 computed above — before any argument about fairness with customers who are told no.
+I would therefore accept, and structure it so that the terms are defensible: a documented volume threshold at which 60-day terms apply, available to any customer who meets it, with a credit limit for this customer at the level of the quarterly order and a review if the rating falls below investment grade.

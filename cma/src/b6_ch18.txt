@@ -1,0 +1,613 @@
+Chapter 18
+Short-term credit, the cost of working capital, and a strategy for current assets
+الائتمان قصير الأجل وتكلفة رأس المال العامل واستراتيجية الأصول المتداولة
+Six chapters have measured what a company's current assets cost it. This one pays for them. Short-term credit is the other side of the working-capital balance sheet — trade credit, bank lines, commercial paper, borrowings secured on the receivables and the stock — and every one of those sources has a price that is almost never the rate it is quoted at.
+The chapter ends the book where Book 1 began: with a judgment. Having priced the components, it sets out the policy question — how much current asset to hold and how much of it to fund short — and then asks a candidate to recommend a strategy for a company whose figures have run through thirty-six chapters.
+Figure F618-01 is your map.
+Figure F618-01. Chapter 18 roadmap: the financing policy, the sources, their real costs, and the strategy.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.4.z
+Explain how risk affects a company's current asset financing policy.
+C
+Full treatment
+B.4.ee
+Explain the maturity matching or hedging approach to financing.
+C
+Full treatment
+B.4.aa
+Describe the types of short-term credit.
+C
+Full treatment
+B.4.bb
+Estimate the annual cost of not taking a cash discount.
+C
+Full treatment
+B.4.cc
+Calculate the effective rate of a loan with a compensating balance or a commitment fee.
+C
+Full treatment
+B.4.dd
+Explain factoring and calculate its cost.
+C
+Full treatment
+B.4.ff
+Explain the factors in managing the cost of working capital.
+C
+Full treatment
+B.4.gg
+Recommend a strategy for managing current assets to meet a given objective.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+trade credit
+الائتمان التجاري
+crédit fournisseurs
+line of credit
+حد ائتماني
+ligne de crédit
+revolving credit
+الائتمان المتجدد
+crédit renouvelable
+commercial paper
+الأوراق التجارية
+billet de trésorerie
+commitment fee
+رسم الالتزام
+commission d'engagement
+factoring
+بيع الذمم المدينة
+affacturage
+pledging
+رهن الذمم
+nantissement
+maturity matching
+مطابقة الآجال
+adossement des échéances
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 12 distinguished permanent from seasonal working capital. Chapter 14 computed an effective rate with a compensating balance. Chapter 16 priced a settlement discount from the seller's side. Book 1 found Orontes with no short-term borrowings at all and Barada with a $240,000 overdraft. This chapter completes each of those.
+18.1  How much to fund short
+Chapter 12 made the distinction this section builds on. Some current assets are permanent — the stock a company never goes below, the receivable book that never empties — and some are seasonal, rising and falling with the year. The financing question is which kind of money funds which.
+Three policies, and the exam names all three.
+The maturity matching or hedging approach funds permanent assets, including the permanent part of working capital, with long-term money, and seasonal assets with short-term money that is repaid as the season unwinds. It is the textbook benchmark: each asset is financed over its own life, so nothing has to be refinanced before it has turned into cash.
+The aggressive approach funds some of the permanent requirement with short-term money. It is cheaper, because the yield curve usually slopes upward, and riskier in two ways: the rate can rise at every rollover, and the facility may not be renewed at all when it matters. Barada's overdraft funding a permanently larger stockroom is the aggressive approach arrived at by accident.
+The conservative approach funds all of the permanent requirement and part of the seasonal with long-term money, so that in the trough the company holds surplus cash. It costs more and removes refinancing risk almost entirely. Orontes, with $6,400,000 of long-term debt, no short-term borrowings and $7,302,100 of cash, is at this end.
+The choice is a risk decision, which is what the outcome means by the effect of risk on financing policy. A company with volatile cash flows, thin coverage or a covenant near its limit should sit conservatively; one with stable flows, wide coverage and a committed facility can afford to sit aggressively. The cost of being wrong is asymmetric: an aggressive policy saves a fraction of a point most years and fails completely in the year credit tightens.
+Figure F618-02 sets the three out.
+Figure F618-02. Three financing policies
+Policy
+Permanent assets funded with
+Seasonal assets funded with
+Cost
+Risk
+Maturity matching
+Long-term money
+Short-term money
+Moderate
+Moderate
+Aggressive
+Partly short-term money
+Short-term money
+Lower
+Higher
+Conservative
+Long-term money
+Partly long-term money
+Higher
+Lower
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+hedging approach
+منهج المطابقة
+approche d'adossement
+rollover
+التجديد
+renouvellement
+refinancing risk
+مخاطر إعادة التمويل
+risque de refinancement
+trough
+القاع الموسمي
+creux saisonnier
+SECTION CHECK   Test yourself
+SC18-1  The maturity matching approach funds:
+A.	permanent assets with long-term money and seasonal assets with short-term money.
+B.	everything with short-term money.
+C.	everything with equity.
+D.	seasonal assets with long-term money.
+SC18-2  An aggressive current-asset financing policy is:
+A.	cheaper most years and exposed to rollover and renewal risk.
+B.	more expensive and safer.
+C.	identical to the hedging approach.
+D.	prohibited.
+SC18-3  A company with volatile cash flows and a covenant near its limit should:
+A.	finance conservatively.
+B.	finance aggressively.
+C.	use only trade credit.
+D.	hold no cash.
+Answers and explanations are at the end of the chapter.
+18.2  The sources
+Six sources of short-term credit, and the exam expects each described.
+Trade credit is the largest and the least examined. A supplier offering 30 days is lending the company the value of the goods for a month, and Orontes's $2,050,000 of accounts payable is that loan. It arises automatically with purchases, requires no negotiation, and is free — unless a discount is being forgone, which section 18.3 prices and which makes it the most expensive money in the chapter.
+A line of credit is an arrangement under which a bank will lend up to a limit, usually for a year, usually reviewed annually. An uncommitted line is a statement of intent the bank may withdraw; a committed line is a contractual obligation, for which the bank charges a commitment fee on the undrawn part. The difference matters exactly when it matters: in a downturn.
+Revolving credit is a committed facility over several years that can be drawn, repaid and redrawn. It is the most reliable short-term money and the most expensive, carrying both a margin and a commitment fee.
+A short-term bank loan is a single advance for a fixed period, repaid at the end or in instalments, often secured.
+Commercial paper is unsecured short-term borrowing sold directly into the money market by companies of good credit standing, in large amounts, for up to 270 days. It is cheaper than a bank loan for issuers that can use it, and it is unreliable in a crisis because the buyers simply stop buying. A $5,000,000 issue for 90 days at 5.5 per cent costs 5,000,000 × 0.055 × 90 ÷ 365 = 67,808.
+Secured borrowing uses the current assets themselves. Pledging receivables borrows against them while keeping them; factoring sells them outright, which section 18.4 prices. Inventory may be used through a floating charge, a warehouse receipt, or a trust receipt where the goods are identifiable.
+Figure F618-03 compares the sources.
+Figure F618-03. Six sources of short-term credit
+Source
+Cost
+Reliability
+Best for
+Trade credit
+Free, unless a discount is forgone
+High, within terms
+Everyday purchasing
+Uncommitted line
+Low margin, no fee
+Low in a downturn
+Occasional small needs
+Committed line
+Margin plus a commitment fee
+High
+Seasonal peaks
+Revolving credit
+Margin plus a fee, over years
+Highest
+A standing facility
+Commercial paper
+Lowest, for good credits
+Low in a crisis
+Large, frequent needs
+Secured borrowing
+Higher, plus administration
+Moderate
+Companies without unsecured capacity
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+uncommitted
+غير ملزم
+non confirmé
+floating charge
+الرهن العائم
+nantissement flottant
+warehouse receipt
+إيصال المستودع
+récépissé d'entrepôt
+margin over a reference rate
+الهامش فوق السعر المرجعي
+marge sur taux de référence
+SECTION CHECK   Test yourself
+SC18-4  The largest source of short-term credit for most companies is:
+A.	trade credit.
+B.	commercial paper.
+C.	revolving credit.
+D.	factoring.
+SC18-5  A committed line of credit differs from an uncommitted one in that:
+A.	the bank is contractually obliged to lend, and charges a fee for the undrawn part.
+B.	it is cheaper.
+C.	it is unsecured.
+D.	it has no limit.
+SC18-6  Commercial paper is:
+A.	unsecured short-term borrowing sold into the money market by good credits.
+B.	secured on inventory.
+C.	always available in a crisis.
+D.	issued by banks only.
+Answers and explanations are at the end of the chapter.
+18.3  The cost of not taking a discount
+A supplier offering 2/10, net 30 is making an offer with a price. Pay on day 10 and pay 98 per cent; pay on day 30 and pay 100. The company that pays on day 30 has borrowed 98 for twenty days and repaid 100, and the exam wants that expressed as an annual rate.
+WORKED EXAMPLE   Worked example: what 2/10, net 30 really costs
+Step 1. The rate for the period. The discount forgone is 2 on the 98 that would have been paid: 2 ÷ 98 = 2.04 per cent for the twenty days of extra credit.
+Step 2. The number of periods. The extra credit runs from day 10 to day 30, which is twenty days, so there are 365 ÷ 20 = 18.25 such periods in a year.
+Step 3. The annual cost. 2.04 × 18.25 = 37.2 per cent a year.
+Step 4. Compare. Orontes borrows from its bank at 6 per cent. Paying on day 30 instead of day 10 costs it 37.2 per cent a year — six times as much. A company with a facility available should always take the discount and draw on the facility to do it.
+Check. The arithmetic is sensitive to both terms, and the exam varies them. On 1/10, net 30 the cost is 1 ÷ 99 = 1.01 per cent for twenty days, which is 1.01 × 18.25 = 18.4 per cent a year — still far above any borrowing rate. On 2/10, net 60 the extra credit is fifty days, so the periods are 365 ÷ 50 = 7.3 and the cost is 2.04 × 7.3 = 14.9 per cent. The longer the net period, the cheaper it is to forgo the discount, because the borrowing lasts longer for the same fee.
+Figure F618-04 sets out a range of terms.
+Figure F618-04. What forgoing a discount costs a year
+Terms
+Rate for the period
+Periods a year
+Annual cost
+1/10, net 30
+1.01%
+18.25
+18.4%
+2/10, net 30
+2.04%
+18.25
+37.2%
+2/10, net 60
+2.04%
+7.3
+14.9%
+3/15, net 45
+3.09%
+12.17
+37.6%
+Two consequences follow for the two sides of the transaction.
+For the buyer: take the discount unless there is genuinely no money and no facility, in which case the company has a financing problem that the discount decision merely reveals. And where a supplier is paid late anyway, the effective rate falls, which is the unspoken reason stretching is common — and Chapter 14 explained why it is not costless.
+For the seller: Chapter 16 computed the cost of offering a discount as margin given up, and this section gives the buyer's view of the same number. A seller offering 2/10 net 30 is paying about 37 per cent annualised to be paid twenty days earlier, which is only sensible if the alternative is losing the sale or funding at a comparable rate.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cash discount
+الخصم النقدي
+escompte de règlement
+discount period
+فترة الخصم
+délai d'escompte
+stretching payables
+إطالة فترة السداد
+étirement du crédit fournisseurs
+annualised rate
+المعدل السنوي
+taux annualisé
+SECTION CHECK   Test yourself
+SC18-7  On terms of 2/10, net 30, forgoing the discount costs about:
+A.	37.2 per cent a year
+B.	2.0 per cent a year
+C.	24.0 per cent a year
+D.	18.4 per cent a year
+SC18-8  On terms of 2/10, net 60, forgoing the discount costs:
+A.	less than on 2/10, net 30, because the borrowing lasts longer.
+B.	more, because the period is longer.
+C.	the same.
+D.	nothing.
+SC18-9  A company with a 6 per cent facility that does not take a 2/10, net 30 discount is:
+A.	borrowing at about 37 per cent when 6 per cent is available.
+B.	saving money.
+C.	preserving its credit rating.
+D.	acting correctly.
+Answers and explanations are at the end of the chapter.
+18.4  What a bank facility and a factor really cost
+Three calculations complete the pricing of short-term money, and each turns a quoted rate into an effective one.
+A loan with a compensating balance, which Chapter 14 computed: interest is charged on the whole loan and only part of it is usable, so the effective rate is the interest divided by the usable funds.
+A line with a commitment fee. The fee is charged on the undrawn portion, so the effective cost depends on how much of the line is used.
+A discount loan, where the interest is deducted in advance. Borrowing $1,000,000 at 8 per cent on this basis gives proceeds of 1,000,000 − 80,000 = 920,000, and the effective rate is 80,000 ÷ 920,000 = 8.70 per cent rather than 8.
+WORKED EXAMPLE   Worked example: a line with a commitment fee, and a factoring quote
+Step 1. The line. A company arranges a $5,000,000 committed line at 7 per cent, with a commitment fee of 0.5 per cent on the undrawn part, and draws an average of $3,000,000 through the year.
+Step 2. What it pays. Interest is 3,000,000 × 0.07 = 210,000 and the fee is 2,000,000 × 0.005 = 10,000, so the total is 210,000 + 10,000 = 220,000.
+Step 3. The effective rate on the money used. 220,000 ÷ 3,000,000 = 7.33 per cent against a quoted 7.
+Step 4. A factoring alternative. A factor offers to buy $1,000,000 of receivables with an average age of 45 days, charging a 2 per cent fee and advancing 80 per cent of the face value at 10 per cent a year. The fee is 1,000,000 × 0.02 = 20,000; the advance is 1,000,000 × 0.80 = 800,000, and the interest on it for 45 days is 800,000 × 0.10 × 45 ÷ 365 = 9,863. The total cost is 20,000 + 9,863 = 29,863 on $800,000 of money for 45 days, which is 29,863 ÷ 800,000 = 3.73 per cent for the period, or about 30.3 per cent a year.
+Check. Thirty per cent looks indefensible beside a 7.33 per cent bank line, and sometimes it is not, which is the point of the comparison. Factoring without recourse transfers the default risk, which Chapter 16 priced; it removes the cost of running a credit and collection department, which can be a large part of the fee; and it is available to companies whose credit standing gives them no bank line at all. The right comparison is therefore not the rate alone but the rate less the costs and risks the factor absorbs — and Book 1 found a $15,000 loss on sale of receivables in Orontes's own income statement, which is this decision already taken for a small part of the book.
+Figure F618-05 sets out the three calculations.
+Figure F618-05. Turning a quoted rate into an effective one
+Arrangement
+Quoted
+What changes it
+Effective
+Loan with a 10 per cent compensating balance
+8.0%
+Only 90 per cent is usable
+8.89%
+Line with a 0.5 per cent commitment fee
+7.0%
+A fee on the undrawn part
+7.33%
+Discount loan
+8.0%
+Interest deducted in advance
+8.70%
+Factoring
+2 per cent plus 10 per cent
+Fee, advance rate and period
+About 30% a year
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+discount loan
+القرض المخصوم مقدماً
+prêt précompté
+without recourse
+بدون حق الرجوع
+sans recours
+advance rate
+نسبة التمويل المقدم
+taux d'avance
+effective annual rate
+المعدل السنوي الفعلي
+taux annuel effectif
+SECTION CHECK   Test yourself
+SC18-10  A 1,000,000 discount loan at 8 per cent gives proceeds of:
+A.	920,000
+B.	1,000,000
+C.	1,080,000
+D.	80,000
+SC18-11  A 5,000,000 line at 7 per cent with a 0.5 per cent fee on the undrawn part, drawn at an average of 3,000,000, costs:
+A.	220,000 a year
+B.	210,000 a year
+C.	350,000 a year
+D.	10,000 a year
+SC18-12  Factoring at an apparent 30 per cent a year may still be reasonable because:
+A.	it transfers default risk and removes the cost of a credit department.
+B.	the rate is misquoted.
+C.	it is always cheaper than a bank.
+D.	it improves the gross margin.
+Answers and explanations are at the end of the chapter.
+18.5  A strategy for current assets
+The last outcome of Book 2 asks for a recommendation, which means the whole of the working-capital section arranged into an argument. Four steps make one.
+Step one: size the requirement. Separate the permanent core from the seasonal peak, using the cash forecast of Chapter 13 and the cycle of Book 1. The permanent core is funded long; the peak is funded short, by a facility arranged before it is needed.
+Step two: price every component. The cost of working capital is the sum of the funding, the carrying costs of stock, the credit losses, the discounts forgone and the interest not earned on idle balances — and the single most common error is to count only the first. Orontes's own bill reads: $272,640 to fund the trade cycle, $292,084 of interest forgone on idle cash, $63,000 of credit losses, and whatever discounts it does not take.
+Step three: attack the components in order of what they are worth. Book 1's discipline, applied here, ranks the items by money rather than by ease. For Orontes the order is: put the idle cash to work, which is worth about $176,084 a year with no risk; take every supplier discount, because forgoing one costs 37.2 per cent against a 6 per cent facility; and consider lengthening customer terms, which Chapter 16 valued at over a million a year in contribution.
+Step four: match the policy to the risk. A company with a falling gross margin and a covenant to respect should not also be carrying rollover risk on its permanent assets. Orontes can afford to be slightly less conservative than it is; Barada cannot afford to be as aggressive as it has accidentally become.
+Figure F618-06 sets out the recommendation the two books support.
+Figure F618-06. A current-asset strategy for Orontes
+Component
+Position today
+Recommendation
+Worth a year
+Cash
+7,302,100, earning nothing
+Hold 30 days of payments; place the rest to maturity dates
+About 176,084
+Marketable securities
+42,000
+Build a matched and laddered portfolio
+Included above
+Receivables
+4,144,000 at 34.3 days
+Lengthen terms selectively to win volume
+Over 1,000,000 of contribution
+Inventory
+2,450,000 at 31.8 days
+Hold; it is already tight against sales growth
+Nil, and a risk if cut
+Payables
+2,050,000
+Take every discount offered; pay on the due date otherwise
+The discounts, at 37 per cent each
+Short-term debt
+None
+Arrange a committed line for seasonal peaks
+Insurance, at a commitment fee
+One warning closes the book. Every recommendation above improves a cost or releases a balance, and the total of all of them is smaller than the single finding Book 1 ranked first: the $840,000 a year of gross margin the company has given away over three years. Working capital is where a management accountant can act quickly, and that is exactly why it must not become where a management accountant acts instead. The order of the four steps is right; so is their place in a larger order that begins with what the company sells and at what price.
+YOUR TURN   Price the short-term money
+Figure F618-07 gives four quotes. Complete the blanks. Answers are at the end of the chapter.
+Figure F618-07. Your turn: the real cost of short-term credit (complete the blanks)
+Item
+Data
+Answer
+Cost of forgoing a discount
+Terms 2/10, net 40
+________
+Discount loan proceeds
+2,000,000 at 9 per cent, deducted in advance
+________
+Effective rate on that loan
+________
+Line with a commitment fee
+4,000,000 at 6.5 per cent, 0.4 per cent on the undrawn part, average draw 2,500,000
+________
+Effective rate on the money used
+________
+Commercial paper interest
+5,000,000 for 90 days at 5.5 per cent
+________
+LANGUAGE FOCUS   "Credit line"
+English line of credit and credit line are the same thing, and both mean a facility a borrower may draw on. The word line is a metaphor of a limit drawn, not of a queue, and nothing in the phrase says whether the bank is obliged to lend — which is why the words committed and uncommitted have to be added and why the difference is worth more than the margin. Arabic uses حد ائتماني, literally a credit limit, which states the meaning precisely and loses the metaphor. French ligne de crédit keeps the metaphor as English does, and adds confirmée or non confirmée for the distinction that matters. Note the related trap: drawdown is taking money under a facility, and drawdown in investment management is a fall in the value of a portfolio — two unconnected senses that appear in the same examination.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+permanent core
+النواة الدائمة
+noyau permanent
+seasonal peak
+الذروة الموسمية
+pic saisonnier
+cost of working capital
+تكلفة رأس المال العامل
+coût du besoin en fonds de roulement
+drawdown
+السحب من التسهيل
+tirage
+SECTION CHECK   Test yourself
+SC18-13  The cost of working capital is the sum of:
+A.	funding, carrying costs, credit losses, discounts forgone and interest not earned.
+B.	funding alone.
+C.	interest paid to banks alone.
+D.	the current ratio.
+SC18-14  A company whose gross margin is falling and whose covenant is near its limit should:
+A.	not also carry rollover risk on its permanent current assets.
+B.	fund everything with short-term money.
+C.	stop taking supplier discounts.
+D.	maximise its overdraft.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F618-08 brings the chapter together.
+Figure F618-08. Chapter 18 summary map: the key rule for each section.
+Permanent current assets should be funded long and seasonal ones short, which is the maturity matching approach; an aggressive policy funds part of the permanent core short and is cheaper most years and exposed in the year credit tightens, while a conservative one holds surplus cash in the trough, which is where Orontes sits and where Barada did not choose to be. Six sources supply the money: trade credit, which is free until a discount is forgone; uncommitted and committed lines; revolving credit; commercial paper, cheapest for good credits and unreliable in a crisis at 5,000,000 × 0.055 × 90 ÷ 365 = 67,808 for ninety days; and borrowing secured on the receivables or the stock. Forgoing 2/10, net 30 costs 2 ÷ 98 = 2.04 per cent for twenty days over 365 ÷ 20 = 18.25 periods, which is 2.04 × 18.25 = 37.2 per cent a year against a 6 per cent facility. A quoted rate is rarely the real one: a compensating balance turns 8 into 8.89, a commitment fee turns 7 into 220,000 ÷ 3,000,000 = 7.33 per cent, interest deducted in advance turns 8 into 80,000 ÷ 920,000 = 8.70 per cent, and a factoring quote of 2 per cent plus 10 is about 30 per cent a year before the credit department it replaces. And a strategy sizes the requirement, prices every component, attacks them in order of what they are worth, and matches the policy to the risk — while remembering that all of it together is smaller than the $840,000 of gross margin that Book 1 ranked first.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P18-01  The maturity matching approach funds permanent current assets with:
+A.	long-term money.
+B.	an overdraft.
+C.	trade credit.
+D.	commercial paper.
+P18-02  An aggressive financing policy is:
+A.	cheaper in most years and exposed at renewal.
+B.	more expensive and safer.
+C.	required for listed companies.
+D.	the same as maturity matching.
+P18-03  Trade credit is free unless:
+A.	a cash discount is forgone.
+B.	the supplier is foreign.
+C.	the goods are perishable.
+D.	the buyer is listed.
+P18-04  A committed line of credit carries a commitment fee on:
+A.	the undrawn portion.
+B.	the drawn portion.
+C.	the whole facility, always.
+D.	nothing.
+P18-05  Forgoing a discount on terms of 2/10, net 40 costs approximately:
+A.	24.8 per cent a year
+B.	37.2 per cent a year
+C.	18.4 per cent a year
+D.	2.0 per cent a year
+P18-06  A 2,000,000 discount loan at 9 per cent gives proceeds of:
+A.	1,820,000
+B.	2,000,000
+C.	2,180,000
+D.	180,000
+P18-07  The effective rate on that loan is approximately:
+A.	9.89 per cent
+B.	9.00 per cent
+C.	8.26 per cent
+D.	18.00 per cent
+P18-08  A 4,000,000 line at 6.5 per cent with a 0.4 per cent fee on the undrawn part, drawn at an average of 2,500,000, costs:
+A.	168,500 a year
+B.	162,500 a year
+C.	6,000 a year
+D.	260,000 a year
+P18-09  Commercial paper of 5,000,000 for 90 days at 5.5 per cent costs:
+A.	67,808
+B.	275,000
+C.	6,781
+D.	137,500
+P18-10  Factoring at 2 per cent of face plus 10 per cent on an 80 per cent advance for 45 days is expensive, and may still be worth taking because it:
+A.	transfers default risk and replaces a credit department.
+B.	is cheaper than a bank line.
+C.	raises the gross margin.
+D.	shortens the operating cycle without cost.
+Case-style practice: a working-capital strategy for Barada
+Barada Wholesale has an overdraft of $240,000, inventory up 41 per cent, receivables up 38 per cent and payables up 9 per cent on sales up 11 per cent to $21,978,000. Its quick ratio is 0.94, its cash cycle 44.4 days, its net margin 1.29 per cent, its debt-to-equity 1.26 against a covenant limit of 1.50, and its suppliers offer 2/10, net 30 which Barada does not take. Its bank would lend at 7 per cent against receivables. A factor offers 2 per cent of face with an 85 per cent advance at 11 per cent.
+Required. Recommend a strategy for Barada's current assets and their financing. Rank your actions by what each is worth, and say which one you would do first. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC18-1  Answer A. Each asset is funded over its own life.
+B is wrong. That is the aggressive extreme.
+C is wrong. Equity funding of everything is possible and costly.
+D is wrong. That reverses the principle.
+SC18-2  Answer A. Cheaper on an upward-sloping curve, and exposed at every rollover.
+B is wrong. That describes the conservative policy.
+C is wrong. The hedging approach matches maturities.
+D is wrong. Nothing prohibits it.
+SC18-3  Answer A. Volatility and a tight covenant call for safety.
+B is wrong. Aggression adds risk where there is already risk.
+C is wrong. Trade credit alone cannot fund a business.
+D is wrong. No cash is the most exposed position of all.
+SC18-4  Answer A. Trade credit arises automatically with every purchase.
+B is wrong. Commercial paper is available to few companies.
+C is wrong. Revolving credit is a negotiated facility.
+D is wrong. Factoring is a specialised arrangement.
+SC18-5  Answer A. The obligation, and the fee that pays for it.
+B is wrong. A commitment costs more, not less.
+C is wrong. Either may be secured or unsecured.
+D is wrong. Both carry limits.
+SC18-6  Answer A. Unsecured, short, sold into the money market.
+B is wrong. It is unsecured by definition.
+C is wrong. Buyers withdraw in a crisis.
+D is wrong. Companies issue it; banks buy and place it.
+SC18-7  Answer A. 2 ÷ 98 = 2.04 per cent over 365 ÷ 20 = 18.25 periods.
+B is wrong. That is the rate for twenty days, not for a year.
+C is wrong. This has no basis in the figures.
+D is wrong. 18.4 per cent is the 1/10, net 30 case.
+SC18-8  Answer A. The same fee buys fifty days instead of twenty.
+B is wrong. A longer borrowing for the same fee is cheaper annually.
+C is wrong. The period changes the annualisation.
+D is wrong. The discount is still forgone.
+SC18-9  Answer A. It is paying about 37 per cent for money available at 6.
+B is wrong. It is spending money, not saving it.
+C is wrong. Taking a discount with borrowed money does not harm a rating.
+D is wrong. The arithmetic says otherwise.
+SC18-10  Answer A. 1,000,000 − 80,000 = 920,000.
+B is wrong. The interest is deducted in advance.
+C is wrong. Interest is deducted, not added.
+D is wrong. That is the interest itself.
+SC18-11  Answer A. 210,000 + 10,000 = 220,000.
+B is wrong. That omits the commitment fee.
+C is wrong. That charges interest on the whole line.
+D is wrong. That is the fee alone.
+SC18-12  Answer A. The factor absorbs risk and work that the rate must be compared against.
+B is wrong. The rate is correctly quoted and genuinely high.
+C is wrong. It is normally dearer than a bank line.
+D is wrong. The fee reduces income rather than improving the margin.
+SC18-13  Answer A. All five elements belong in the total.
+B is wrong. Funding is the one most often counted and not the whole.
+C is wrong. Bank interest is part of the funding element.
+D is wrong. The current ratio is a measure, not a cost.
+SC18-14  Answer A. Two risks of the same kind should not be stacked.
+B is wrong. That maximises the risk already present.
+C is wrong. Discounts are the cheapest money available.
+D is wrong. An overdraft is repayable on demand.
+Your turn
+Item
+Answer
+Cost of forgoing 2/10, net 40
+About 24.8 per cent a year: the rate is 2 ÷ 98 = 2.04 per cent for thirty days, and there are 365 ÷ 30 = 12.17 periods, so 2.04 × 12.17 = 24.8 per cent.
+Discount loan proceeds
+1,820,000: the interest is 2,000,000 × 0.09 = 180,000, and 2,000,000 − 180,000 = 1,820,000.
+Effective rate on that loan
+9.89 per cent: 180,000 ÷ 1,820,000 = 9.89 per cent.
+Line with a commitment fee
+168,500: interest is 2,500,000 × 0.065 = 162,500 and the fee is 1,500,000 × 0.004 = 6,000, so 162,500 + 6,000 = 168,500.
+Effective rate on the money used
+6.74 per cent: 168,500 ÷ 2,500,000 = 6.74 per cent.
+Commercial paper interest
+67,808: 5,000,000 × 0.055 × 90 ÷ 365 = 67,808.
+What it tells you
+Every quoted rate understated the real one, and the discount forgone is dearer than all four borrowings put together — which is the practical lesson of the whole chapter.
+Multiple-choice questions
+P18-01  Answer A. Permanent assets, permanent money.
+B is wrong. An overdraft is repayable on demand.
+C is wrong. Trade credit funds part of the cycle, not the permanent core.
+D is wrong. Commercial paper is short-term.
+P18-02  Answer A. Cheaper most years, exposed at renewal.
+B is wrong. That is the conservative policy.
+C is wrong. No rule requires a financing policy.
+D is wrong. Matching funds permanent assets long.
+P18-03  Answer A. Forgoing a discount prices the credit.
+B is wrong. Nationality is irrelevant.
+C is wrong. Perishability affects inventory policy.
+D is wrong. Listing is irrelevant.
+P18-04  Answer A. The fee pays for the commitment on what is not drawn.
+B is wrong. The drawn part carries interest.
+C is wrong. The fee applies to the undrawn balance.
+D is wrong. A commitment is not free.
+P18-05  Answer A. 2 ÷ 98 = 2.04 per cent over 365 ÷ 30 = 12.17 periods gives about 24.8 per cent.
+B is wrong. 37.2 per cent is the net 30 case.
+C is wrong. 18.4 per cent is the 1/10, net 30 case.
+D is wrong. That is the period rate, not the annual one.
+P18-06  Answer A. 2,000,000 − 180,000 = 1,820,000.
+B is wrong. Interest is deducted in advance.
+C is wrong. Interest is deducted, not added.
+D is wrong. That is the interest.
+P18-07  Answer A. 180,000 ÷ 1,820,000 = 9.89 per cent.
+B is wrong. That is the quoted rate.
+C is wrong. This divides by the face amount plus interest.
+D is wrong. This doubles the rate.
+P18-08  Answer A. 162,500 + 6,000 = 168,500.
+B is wrong. That omits the fee.
+C is wrong. That is the fee alone.
+D is wrong. That charges interest on the whole line.
+P18-09  Answer A. 5,000,000 × 0.055 × 90 ÷ 365 = 67,808.
+B is wrong. That is a full year's interest.
+C is wrong. This misplaces the decimal.
+D is wrong. That is a quarter of a year at a different rate.
+P18-10  Answer A. Risk transfer and the work it replaces.
+B is wrong. It is normally dearer than a bank line.
+C is wrong. The fee reduces income.
+D is wrong. It shortens the cycle at a substantial cost.
+Case-style set: a working-capital strategy for Barada
+Ranked by what each is worth.
+First, take the supplier discounts. Barada forgoes 2/10, net 30, which costs about 37 per cent a year. On purchases of roughly $18,900,000, taking the discount is worth about 18,900,000 × 0.02 = 378,000 a year — more than the company's entire net income of $283,500. It requires money on day 10 instead of day 30, which is exactly what a receivables-backed bank line at 7 per cent is for: borrowing at 7 to save 37 is the clearest arbitrage in either book.
+Second, reduce the inventory. Stock rose 41 per cent on sales up 11, and at 40.6 days of cover a distributor should be able to release a substantial part of it. Every dollar released repays the overdraft and then funds the discount above. This is slow and it is where most of the money is.
+Third, collect. Receivables up 38 per cent on sales up 11 means the collection period has lengthened materially; returning it to its earlier level would release cash without any loss of sales.
+What I would not do is factor. At 2 per cent of face plus 11 per cent on an 85 per cent advance, the cost is above 25 per cent a year, which is dearer than the bank line and dearer than the problem. Factoring is for a company with no bank line; Barada has one available at 7 per cent against the same receivables.
+What I would do first. Arrange the receivables-backed line and take the next discount. It is the fastest, the most valuable per day of effort, and it buys the time needed for the inventory and collection work — and it must be sized with the covenant in mind, since at 1.26 against a limit of 1.50 the headroom is about $360,000 of additional debt.

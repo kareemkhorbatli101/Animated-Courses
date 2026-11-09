@@ -1,0 +1,411 @@
+Chapter 15
+Marketable securities
+الأوراق المالية القابلة للتداول
+Chapter 13 ended with $4,402,100 of Orontes's cash that the business does not need this month and will need in instalments over the year. Leaving it in a current account costs the company the return it could have earned; locking it into a five-year bond costs the company the ability to pay for a roasting line in March. Marketable securities are the middle: instruments that earn a return and can be turned back into cash quickly and at a predictable price.
+This chapter names the instruments, sets out the four variables a treasurer trades off between them, and builds a portfolio for a company whose future needs are known approximately and whose tolerance for loss is nil.
+Figure F615-01 is your map.
+Figure F615-01. Chapter 15 roadmap: why to hold securities, which ones, and on what trade-offs.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.4.m | Describe the reasons for holding marketable securities. | C | Full treatment
+B.4.n | Define the main money market instruments. | C | Full treatment
+B.4.o | Evaluate the trade-offs among safety, marketability, yield, maturity and taxability. | C | Full treatment
+B.4.p | Explain the risk and return trade-off in a short-term portfolio. | C | Full treatment
+B.4.f | Use the cash forecast to choose maturities. | B | Reinforced (introduced in Chapter 13)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+marketable security | الورقة المالية القابلة للتداول | titre négociable
+treasury bill | أذون الخزانة | bon du Trésor
+commercial paper | الأوراق التجارية | billet de trésorerie
+certificate of deposit | شهادة الإيداع | certificat de dépôt
+repurchase agreement | اتفاقية إعادة الشراء | pension livrée
+banker's acceptance | القبول المصرفي | acceptation bancaire
+money market fund | صندوق أسواق النقد | fonds monétaire
+tax-equivalent yield | العائد المكافئ ضريبياً | rendement équivalent imposable
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Part 1 classified Orontes's $42,000 of trading securities, its $88,500 of debt securities and its $27,000 of equity securities, and taught the accounting for each. Chapter 13 of this book found a cash balance of 75.9 days of operating payments and recommended placing the surplus against the dates it will be needed. This chapter chooses the instruments.
+15.1  Why a company holds securities rather than cash
+Four reasons, and the exam asks for them in these terms.
+As a substitute for cash. Money needed within the year earns something while it waits, and the only requirement is that it can be realised when the day comes. This is the largest use and the one Orontes has.
+As a store against a known future payment. A tax instalment in March, a bond maturing in September, a capital project's third payment in July: each is a known amount on a known date, and a security maturing on that date funds it exactly, with no risk that a sale is needed at a bad moment.
+As a buffer for the unexpected, which is the precautionary motive of Chapter 13 held in an earning form rather than as a balance.
+As a home for seasonal surpluses. A company that collects in three months and spends through twelve has a predictable rise and fall, and the peak sits in securities until it drains away.
+Note what marketable securities are not for. They are not an investment portfolio: a treasury department buying equities with working capital is speculating with money the business needs, however good the equities. The test in every case is the one the exam applies — could this be turned into its full value in cash on the day the business needs it?
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+realisable | قابل للتسييل | réalisable
+seasonal surplus | الفائض الموسمي | excédent saisonnier
+known commitment | الالتزام المعلوم | engagement connu
+@end
+SECTION CHECK   Test yourself
+SC15-1  The principal reason a company holds marketable securities is:
+A.	to earn a return on cash it will need within the year.
+B.	to speculate on markets.
+C.	to obtain voting rights.
+D.	to avoid tax.
+SC15-2  A tax instalment due in four months is best funded by:
+A.	a security maturing in four months.
+B.	a five-year bond.
+C.	common shares.
+D.	an overdraft arranged on the day.
+SC15-3  Buying equities with working capital is:
+A.	speculating with money the business needs.
+B.	prudent diversification.
+C.	required by the standards.
+D.	the definition of a marketable security.
+Answers and explanations are at the end of the chapter.
+15.2  The instruments
+The money market offers a short list, and the exam names it.
+Treasury bills are short-term obligations of the government, issued at a discount and redeemed at face value, with maturities of a few weeks to a year. They carry no credit risk in their own currency and the deepest secondary market of any instrument, which makes them the benchmark against which everything else is priced.
+Treasury notes and treasury bonds are the same issuer at longer maturities — notes to about ten years, bonds beyond. They are not money market instruments, but a note with three months left to run behaves like one, and a treasurer buys them in the secondary market for exactly that reason.
+Commercial paper is unsecured short-term borrowing by a large company, issued at a discount, usually for up to 270 days. It pays more than a treasury bill because it carries the issuer's credit risk, and it is rated; Chapter 18 looks at it from the issuer's side.
+Certificates of deposit are time deposits with a bank, evidenced by a negotiable certificate so that they can be sold before maturity. They pay interest rather than being issued at a discount.
+Repurchase agreements are sales of securities with an agreement to buy them back at a stated price on a stated date, usually overnight. Economically they are secured loans: the lender holds the securities as collateral and earns the difference between the two prices. They are the standard way to employ cash for one night.
+Bankers' acceptances are time drafts drawn on and accepted by a bank, originally to finance trade. The bank's acceptance makes the instrument the bank's obligation, so it is high-quality and trades at a small spread over treasury bills.
+Money market funds pool many such instruments and offer daily access. They give a small company the diversification and the professional selection it could not arrange itself, for a management fee.
+Municipal securities, in the United States, are issued by states and local authorities and their interest is exempt from federal income tax, which changes the comparison entirely — section 15.3 does the arithmetic.
+Eurodollar deposits are dollar deposits held outside the United States, which pay slightly more because they fall outside domestic banking regulation.
+Figure F615-02 sets them out.
+Figure F615-02. The money market instruments
+@table
+Instrument | Issuer | Typical maturity | Credit risk | Yield against a treasury bill
+Treasury bill | Government | Up to 1 year | None in its own currency | The benchmark
+Commercial paper | Large companies | Up to 270 days | The issuer's | Higher
+Certificate of deposit | Banks | 1 month to 1 year | The bank's | Higher
+Repurchase agreement | Dealers and banks | Overnight to weeks | Low; collateralised | Close to the benchmark
+Banker's acceptance | A bank, on a trade draft | 30 to 180 days | The bank's | Slightly higher
+Money market fund | A fund manager | Daily access | Diversified | Lower, after fees
+Municipal security | States and local authorities | Any | The authority's | Lower before tax, higher after
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+discount instrument | أداة مخصومة | titre à escompte
+negotiable | قابل للتداول | négociable
+collateral | الضمانة | collatéral
+time draft | الكمبيالة لأجل | traite à terme
+@end
+SECTION CHECK   Test yourself
+SC15-4  A repurchase agreement is economically:
+A.	a secured loan.
+B.	an equity investment.
+C.	an unsecured loan.
+D.	a derivative.
+SC15-5  Commercial paper yields more than a treasury bill because:
+A.	it carries the issuing company's credit risk.
+B.	it has a longer maturity.
+C.	it is secured.
+D.	it is tax-exempt.
+SC15-6  A banker's acceptance is an obligation of:
+A.	the accepting bank.
+B.	the government.
+C.	the buyer of the goods only.
+D.	a money market fund.
+Answers and explanations are at the end of the chapter.
+15.3  The trade-offs
+Five variables decide a selection and they pull against each other. The outcome names them and the exam's questions are always about which one is being sacrificed.
+Safety, meaning the risk that the principal is not returned. For working capital this is close to absolute: the money is needed, so a security that might not pay is unusable whatever its yield. Treasury bills are safest, bank instruments next, corporate paper after that.
+Marketability or liquidity, meaning how quickly the instrument can be sold at a price close to its value. A treasury bill can be sold in any size in minutes; a certificate of deposit from a small bank may take a day and a concession in price. Note that marketability is not the same as maturity: a thirty-year treasury bond is highly marketable and has a long maturity, while a three-month deposit at a small bank may be unmarketable and short.
+Yield, which rises as the other four worsen. A yield materially above the benchmark is always compensation for something, and the treasurer's job is to identify what.
+Maturity, which brings two separate risks. Interest rate risk, which Chapter 4 measured with duration: a longer instrument falls further if rates rise and the money has to be raised early by selling. And reinvestment risk, the mirror: a short instrument has to be rolled over at whatever rate exists then.
+Taxability. Where interest on an instrument is tax-exempt, its stated yield is not comparable with a taxable one. The tax-equivalent yield puts them on the same basis: a municipal security yielding 3.0 per cent, for a company paying 25 per cent, is worth 3.0 ÷ 0.75 = 4.00 per cent of taxable yield. Anything taxable yielding less than 4.00 per cent is inferior to that municipal, and anything above it is better.
+WORKED EXAMPLE   Worked example: comparing three instruments
+Step 1. A treasury bill. A $1,000,000 bill with 90 days to run is offered at $985,000. The gain is 1,000,000 − 985,000 = 15,000, which over the period is 15,000 ÷ 985,000 = 1.52 per cent.
+Step 2. Annualise it. There are 365 ÷ 90 = 4.0556 such periods in a year, so the bond-equivalent yield is about 1.52 × 4.0556 = 6.17 per cent.
+Step 3. A municipal at 4.8 per cent, tax-exempt. Its taxable equivalent at a 25 per cent rate is 4.8 ÷ 0.75 = 6.40 per cent.
+Step 4. Commercial paper at 6.5 per cent, taxable, from an A-rated issuer.
+Check. On yield alone the commercial paper wins, by 0.10 points over the municipal and 0.33 over the bill. On safety the bill wins outright. On marketability the bill wins again, and the municipal is the weakest of the three. For a company's working capital the correct answer is usually the bill, and the question the exam is really asking is whether a third of a point a year — on $1,000,000 that is $3,300 — is worth the credit risk of an A-rated corporate and the loss of same-day marketability. For money that must be there, it is not.
+Figure F615-03 sets the trade-offs out.
+Figure F615-03. What each choice costs
+@table
+Choose more | And you give up | Measured by
+Yield | Safety, marketability, or both | The spread over treasury bills
+Safety | Yield | The same spread, forgone
+Marketability | Yield | A smaller spread again
+A longer maturity | Price stability | Duration, from Chapter 4
+A shorter maturity | Certainty of future rate | Reinvestment risk
+A tax-exempt instrument | Pre-tax yield | The tax-equivalent comparison
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+bond-equivalent yield | العائد المكافئ للسندات | rendement équivalent obligataire
+reinvestment risk | مخاطر إعادة الاستثمار | risque de réinvestissement
+marketability | قابلية التسويق | négociabilité
+spread | الفارق السعري | écart de rendement
+@end
+SECTION CHECK   Test yourself
+SC15-7  A municipal security yielding 3.0 per cent tax-exempt, for a company taxed at 25 per cent, is equivalent to a taxable yield of:
+A.	4.00 per cent
+B.	2.25 per cent
+C.	3.75 per cent
+D.	3.00 per cent
+SC15-8  Marketability is:
+A.	how quickly an instrument can be sold near its value.
+B.	the same as a short maturity.
+C.	the credit rating.
+D.	the yield.
+SC15-9  A yield well above the benchmark always indicates:
+A.	compensation for a risk, which should be identified.
+B.	a mispriced bargain.
+C.	a government issuer.
+D.	a tax exemption.
+Answers and explanations are at the end of the chapter.
+15.4  Risk and return in a short-term portfolio
+Chapter 1 established that return rises with risk. A short-term portfolio is where that principle meets a constraint which overrides it: the money is spoken for.
+The constraint works like this. A working-capital portfolio exists to be spent. If it falls in value, the company does not have the option of waiting for recovery, because the payment it was held against falls due on a date. So the first filter is not return at all; it is whether the instrument will be worth its full value on the day the money is needed. Everything that survives that filter is then ranked on yield.
+Two strategies follow, and both appear in questions.
+Maturity matching buys instruments that mature on the dates the forecast says the money is needed. It removes interest rate risk entirely for that money, because nothing has to be sold: the instrument simply matures. It is the strategy for known commitments.
+Laddering spreads the portfolio across a series of maturities — three, six, nine and twelve months — so that something matures regularly and the average yield is higher than a succession of very short instruments would give. It is the strategy for the part of the balance whose timing is uncertain, and it reduces reinvestment risk by never rolling the whole portfolio at one rate.
+Both are forms of the same discipline: let the cash forecast of Chapter 13 drive the maturity structure, rather than choosing maturities by the yield curve and hoping.
+Three risks remain and should be named in any answer.
+Credit risk, which is managed by quality limits — a policy that nothing below A-1 or P-1 may be bought, and that no single issuer may exceed a stated share of the portfolio.
+Interest rate risk, which maturity matching removes for matched money and laddering reduces for the rest.
+Liquidity risk, which is the risk that an instrument cannot be sold when an unforeseen need arises, and which is managed by keeping a tranche of the portfolio in treasury bills or an overnight fund regardless of yield.
+A written investment policy that states those limits is the control the exam expects a management accountant to recommend, because a treasury department left to maximise yield will eventually find an instrument that does.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+maturity matching | مطابقة الآجال | adossement des échéances
+laddering | التدرج الزمني | échelonnement
+quality limit | حد الجودة الائتمانية | limite de qualité
+investment policy | سياسة الاستثمار | politique de placement
+@end
+SECTION CHECK   Test yourself
+SC15-10  The first filter applied to a working-capital investment is:
+A.	whether it will be worth its full value on the day the money is needed.
+B.	its yield.
+C.	its tax treatment.
+D.	its issuer's share price.
+SC15-11  Laddering a portfolio:
+A.	spreads maturities so that something matures regularly and reinvestment risk is reduced.
+B.	buys only overnight instruments.
+C.	concentrates the portfolio in one maturity.
+D.	is a form of speculation.
+SC15-12  A written investment policy with quality and concentration limits exists because:
+A.	a department asked only to maximise yield will eventually take a risk the company did not intend.
+B.	the standards require one.
+C.	yields are unpredictable.
+D.	banks insist on it.
+Answers and explanations are at the end of the chapter.
+15.5  Building Orontes's portfolio
+Put the chapter to work. Chapter 13 concluded that Orontes should keep a working balance of about thirty days of operating payments, roughly $2,900,000, and place the rest against the dates the forecast gives. The surplus is 7,302,100 − 2,900,000 = 4,402,100.
+The known commitments come first. Two projects need $6,000,000 over four quarters, of which the first instalments fall within this surplus. Each instalment is matched: a treasury bill or a government note maturing in the month the payment is due, bought today at a price that fixes the yield and requires no sale.
+What is left is laddered. Divide the unmatched balance across three, six, nine and twelve-month maturities, so that a tranche matures every quarter and the yield exceeds what an overnight account would pay.
+A liquidity tranche sits inside the ladder, not beside it: a portion held in treasury bills or an overnight repurchase agreement, available the same day, sized against the precautionary motive of Chapter 13.
+What it is worth. At the 4 per cent available on short-dated government paper, the surplus earns 4,402,100 × 0.04 = 176,084 a year that the company earned nothing on in 2025. Against Orontes's net income of $2,969,100 that is about six per cent of a year's profit, obtained with no risk to the principal, no change to the business and no capital investment — which is why treasury management is the part of finance with the highest return on effort, and the part most often left undone.
+What it does not change. The $176,084 is real and it is not a substitute for the $840,000 of gross margin Book 1 found the company giving away each year. Ranking findings by size, as Book 1's last chapter insisted, puts the margin first and this second. Both are worth doing and only one of them is easy.
+YOUR TURN   Select and compare
+Figure F615-04 gives four instruments and a company taxed at 25 per cent. Complete the blanks. Answers are at the end of the chapter.
+Figure F615-04. Your turn: comparing instruments (complete the blanks)
+@table
+Instrument | Data | Answer
+Treasury bill | 500,000 face, bought at 492,500, 90 days | Period return: ________
+The same bill | Annualised | ________
+Municipal security | 3.6 per cent, tax-exempt | Tax-equivalent yield: ________
+Commercial paper | 5.1 per cent, taxable, A-rated | After-tax yield: ________
+Which to buy for a payment due in 90 days | | ________
+Annual return on a 4,402,100 surplus at 4 per cent | | ________
+@end
+LANGUAGE FOCUS   "Security"
+English security was the false friend of Book 2, Chapter 3, where it meant both an instrument and a collateral. Here a third sense appears that is easier to miss: in the phrase safety of principal, the quality a treasurer wants, English avoids the word security altogether and uses safety, because security would be ambiguous. Arabic keeps the three apart — ورقة مالية for the instrument, ضمان for collateral, أمان for safety — and French does the same with titre, garantie and sécurité. The practical consequence is that the French sécurité, which looks like the English security, means only the third of the three, so a French speaker reading an English prospectus about securities must suppress the obvious reading.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+liquidity tranche | شريحة السيولة | tranche de liquidité
+matched instrument | أداة مطابقة | placement adossé
+overnight | ليلة واحدة | au jour le jour
+return on effort | العائد على الجهد | rendement de l'effort
+@end
+SECTION CHECK   Test yourself
+SC15-13  Orontes's surplus of 4,402,100 placed at 4 per cent earns:
+A.	176,084 a year
+B.	17,608 a year
+C.	4,402,100 a year
+D.	440,210 a year
+SC15-14  A known commitment on a known date is best funded by:
+A.	an instrument maturing on that date.
+B.	an equity holding.
+C.	an overnight deposit rolled indefinitely.
+D.	a thirty-year bond.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F615-05 brings the chapter together.
+Figure F615-05. Chapter 15 summary map: the key rule for each section.
+Marketable securities hold money that will be needed within the year in an earning form: as a cash substitute, against known commitments, as a precautionary buffer and as a home for seasonal surpluses — and never as an investment portfolio, because the money belongs to the business. The instruments are treasury bills, which are the benchmark; commercial paper, certificates of deposit, repurchase agreements, bankers' acceptances, money market funds, municipal securities and Eurodollar deposits, each priced against that benchmark by what it adds in credit risk or takes away in marketability. The trade-offs are safety, marketability, yield, maturity and taxability, and every extra point of yield is compensation for one of the others: a bill bought at 985,000 and redeemed at 1,000,000 in 90 days returns 15,000 ÷ 985,000 = 1.52 per cent, which is 1.52 × 4.0556 = 6.17 per cent a year, against a 4.8 per cent municipal worth 4.8 ÷ 0.75 = 6.40 per cent taxable. In a short-term portfolio the first filter is not return but whether the money will be there on the day, after which maturity matching handles known commitments and a ladder handles the rest, under a written policy with quality and concentration limits. And for Orontes the whole exercise is worth 4,402,100 × 0.04 = 176,084 a year — six per cent of a year's profit, for no risk to principal, and still second in rank to the $840,000 of margin.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P15-01  Marketable securities are held principally to:
+A.	earn a return on cash needed within the year.
+B.	diversify the shareholders' portfolio.
+C.	obtain control of other companies.
+D.	hedge the share price.
+P15-02  Which instrument carries no credit risk in its own currency?
+A.	A treasury bill
+B.	Commercial paper
+C.	A certificate of deposit
+D.	A banker's acceptance
+P15-03  A repurchase agreement is:
+A.	economically a secured loan.
+B.	an equity purchase.
+C.	an unsecured corporate borrowing.
+D.	a tax-exempt instrument.
+P15-04  A 500,000 treasury bill bought at 492,500 and redeemed in 90 days returns over the period:
+A.	1.52 per cent
+B.	7,500 per cent
+C.	6.17 per cent
+D.	0.15 per cent
+P15-05  A municipal yielding 3.6 per cent tax-exempt at a 25 per cent tax rate is equivalent to a taxable:
+A.	4.80 per cent
+B.	2.70 per cent
+C.	3.60 per cent
+D.	4.50 per cent
+P15-06  Commercial paper yielding 5.1 per cent, taxable at 25 per cent, yields after tax:
+A.	3.825 per cent
+B.	5.100 per cent
+C.	6.800 per cent
+D.	1.275 per cent
+P15-07  Marketability refers to:
+A.	how quickly an instrument can be sold near its value.
+B.	its maturity.
+C.	its coupon.
+D.	its tax status.
+P15-08  Maturity matching removes:
+A.	interest rate risk on the matched money, because nothing must be sold.
+B.	credit risk.
+C.	all risk.
+D.	the need for a forecast.
+P15-09  Laddering a portfolio principally reduces:
+A.	reinvestment risk.
+B.	credit risk.
+C.	tax.
+D.	marketability.
+P15-10  A surplus of 4,402,100 placed at 4 per cent earns:
+A.	176,084 a year
+B.	17,608 a year
+C.	1,760,840 a year
+D.	44,021 a year
+Case-style practice: an investment policy for Orontes
+Orontes has no written investment policy. Its $7,302,100 sits in a current account. The treasurer proposes investing the whole balance in one-year certificates of deposit from a regional bank yielding 4.6 per cent, on the ground that the company's cash has grown every year and will not be needed. The forecast shows project payments of $1,500,000 a quarter for four quarters, a tax instalment of $500,000 in March and a working balance requirement of about $2,900,000.
+Required. Say what is wrong with the proposal, set out the structure you would adopt instead, and list four provisions you would put in a written investment policy. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC15-1  Answer A. The money is needed within the year and should earn while it waits.
+B is wrong. Speculation with working capital is the error the chapter warns against.
+C is wrong. Votes belong to equity investments, which are not suitable here.
+D is wrong. Tax treatment affects the choice, not the purpose.
+SC15-2  Answer A. Matching the maturity to the payment removes the need to sell.
+B is wrong. A five-year bond must be sold, at whatever price exists then.
+C is wrong. Shares can fall and must be sold.
+D is wrong. Borrowing on the day is more expensive than having funded it.
+SC15-3  Answer A. The money belongs to the business and may be needed.
+B is wrong. Diversification is the shareholder's business, not the treasury's.
+C is wrong. No standard requires it.
+D is wrong. Equities are marketable and are not suitable for working capital.
+SC15-4  Answer A. The securities are collateral and the price difference is the interest.
+B is wrong. No equity changes hands permanently.
+C is wrong. It is secured by the collateral.
+D is wrong. It is a financing transaction, not a derivative.
+SC15-5  Answer A. The company may fail; the government, in its own currency, does not.
+B is wrong. Maturities overlap substantially.
+C is wrong. Commercial paper is unsecured.
+D is wrong. It is fully taxable.
+SC15-6  Answer A. The bank's acceptance makes it the bank's obligation.
+B is wrong. No government is involved.
+C is wrong. The buyer's obligation is what the acceptance replaces.
+D is wrong. A fund may hold it; it does not issue it.
+SC15-7  Answer A. 3.0 ÷ 0.75 = 4.00 per cent.
+B is wrong. This taxes an exempt yield.
+C is wrong. This applies the rate the wrong way.
+D is wrong. That is the stated exempt yield.
+SC15-8  Answer A. Speed of sale near value.
+B is wrong. A long bond can be highly marketable.
+C is wrong. The rating measures credit, not saleability.
+D is wrong. Yield is the compensation, not the quality.
+SC15-9  Answer A. The spread is paid for something.
+B is wrong. Bargains in the money market are rare and usually explained.
+C is wrong. Government paper yields least.
+D is wrong. Exempt instruments yield less before tax.
+SC15-10  Answer A. The money is spoken for, so certainty comes first.
+B is wrong. Yield ranks the survivors of the first filter.
+C is wrong. Tax adjusts the comparison, not the filter.
+D is wrong. A money market instrument's issuer's share price is irrelevant.
+SC15-11  Answer A. Regular maturities and no single reinvestment date.
+B is wrong. That is an overnight strategy and the lowest-yielding.
+C is wrong. Concentration is the opposite of laddering.
+D is wrong. It is a conservative technique.
+SC15-12  Answer A. Unconstrained yield maximisation finds risk eventually.
+B is wrong. No standard requires a treasury policy.
+C is wrong. Unpredictability is a reason for limits, not the explanation of their existence.
+D is wrong. The policy is the company's own control.
+SC15-13  Answer A. 4,402,100 × 0.04 = 176,084.
+B is wrong. This misplaces the decimal.
+C is wrong. That is the principal.
+D is wrong. That would be a 10 per cent rate.
+SC15-14  Answer A. The instrument matures as the payment falls due.
+B is wrong. Equity can fall and must be sold.
+C is wrong. Rolling overnight earns less and leaves the rate uncertain.
+D is wrong. A long bond must be sold at an unknown price.
+Your turn
+@table
+Instrument | Answer
+Treasury bill, period return | 1.52 per cent: the gain is 500,000 − 492,500 = 7,500, and 7,500 ÷ 492,500 = 1.52 per cent.
+The same bill, annualised | About 6.17 per cent: there are 365 ÷ 90 = 4.0556 periods in a year, and 1.52 × 4.0556 = 6.17 per cent.
+Municipal, tax-equivalent yield | 4.80 per cent: 3.6 ÷ 0.75 = 4.80 per cent.
+Commercial paper, after-tax yield | 3.825 per cent: 5.1 × 0.75 = 3.825 per cent.
+Which to buy for a payment in 90 days | The treasury bill: it matures exactly when the money is needed, carries no credit risk, and on these figures its annualised 6.17 per cent beats both alternatives on a comparable basis.
+Return on a 4,402,100 surplus at 4 per cent | 176,084: 4,402,100 × 0.04 = 176,084.
+@end
+Multiple-choice questions
+P15-01  Answer A. Earning on cash needed within the year.
+B is wrong. Shareholders diversify for themselves.
+C is wrong. Control is a strategic investment, not a marketable security.
+D is wrong. Hedging a share price is not a treasury function.
+P15-02  Answer A. A government in its own currency.
+B is wrong. Commercial paper is corporate credit.
+C is wrong. A certificate carries the bank's credit.
+D is wrong. An acceptance carries the bank's credit.
+P15-03  Answer A. A sale with an agreement to repurchase is a secured loan.
+B is wrong. No equity is involved.
+C is wrong. It is collateralised.
+D is wrong. Its return is taxable.
+P15-04  Answer A. 7,500 ÷ 492,500 = 1.52 per cent for the period.
+B is wrong. That is the gain in money, not a percentage.
+C is wrong. 6.17 per cent is the annualised figure.
+D is wrong. This misplaces the decimal.
+P15-05  Answer A. 3.6 ÷ 0.75 = 4.80 per cent.
+B is wrong. This taxes an exempt yield.
+C is wrong. That is the stated yield.
+D is wrong. This has no basis in the figures.
+P15-06  Answer A. 5.1 × 0.75 = 3.825 per cent.
+B is wrong. That is the pre-tax yield.
+C is wrong. This divides instead of multiplying.
+D is wrong. That is the tax alone.
+P15-07  Answer A. Speed of sale near value.
+B is wrong. Maturity is a separate dimension.
+C is wrong. The coupon is the income.
+D is wrong. Tax status is a separate dimension.
+P15-08  Answer A. Nothing has to be sold, so price movements do not matter.
+B is wrong. The issuer can still fail.
+C is wrong. Credit and liquidity risks remain.
+D is wrong. Matching depends entirely on a forecast.
+P15-09  Answer A. Staggered maturities avoid rolling everything at one rate.
+B is wrong. Credit risk is managed by quality limits.
+C is wrong. Tax is unaffected.
+D is wrong. Marketability depends on the instruments chosen.
+P15-10  Answer A. 4,402,100 × 0.04 = 176,084.
+B is wrong. This misplaces the decimal.
+C is wrong. That would be a 40 per cent rate.
+D is wrong. That would be a 1 per cent rate.
+Case-style set: an investment policy for Orontes
+What is wrong with the proposal. Three things, in order of seriousness. It invests money that is needed: $1,500,000 falls due each quarter for the projects and $500,000 in March for tax, and a one-year certificate cannot be used for either without selling it — and a certificate from a regional bank is the least marketable instrument on the list. It concentrates the entire balance in one issuer, so a single bank's difficulty would put the whole of Orontes's liquidity in question. And it reaches for 4.6 per cent when the premium over government paper is precisely the compensation for those two defects; the treasurer has identified the yield and not what is being given up for it.
+The structure I would adopt. Keep about $2,900,000 as the working balance, roughly thirty days of operating payments. Match the known commitments: treasury bills or government notes maturing in March for the tax instalment and in each quarter for the project payments. Ladder the remainder across three, six, nine and twelve months so that a tranche matures each quarter. Keep a liquidity tranche in bills or overnight repurchase agreements for the unexpected.
+Four provisions for a written policy. First, permitted instruments, by name, with government paper, bank certificates from rated institutions, A-1 or P-1 commercial paper and money market funds, and nothing else. Second, a maximum maturity, which for working capital should not exceed twelve months and should not exceed the date the money is forecast to be needed. Third, concentration limits: no more than a stated proportion with any one issuer and none at all with an unrated one. Fourth, that the cash forecast, not the yield curve, determines the maturity structure, and that the treasurer reports monthly against it.
