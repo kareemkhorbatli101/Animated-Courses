@@ -1,0 +1,564 @@
+Chapter 15
+Hurdle rate, risk, real options and the postaudit
+معدل القبول والمخاطر والخيارات الحقيقية والمراجعة اللاحقة
+Chapter 14 built a project's cash flows and left them undiscounted. Before they can be discounted, two questions have to be answered: at what rate, and what to do about the fact that every number in the forecast is an estimate.
+This chapter answers both. It defines the hurdle rate and explains why a riskier project should face a higher one; sets out the ways of handling risk and the three techniques for measuring it; introduces the options that are embedded in a project and are worth money even when they are never exercised; and ends with the qualitative considerations and the postaudit, which is where capital budgeting learns from itself.
+Figure F715-01 is your map.
+Figure F715-01. Chapter 15 roadmap: the rate, the risk, the options inside a project, and the review afterwards.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+E.1.g
+Define the hurdle rate.
+C
+Full treatment
+E.1.j
+Explain why a risk-adjusted discount rate is used for projects of unusual risk.
+C
+Full treatment
+E.1.h
+Identify alternative approaches to dealing with risk in capital budgeting.
+C
+Full treatment
+E.1.i
+Distinguish sensitivity analysis, scenario analysis and Monte Carlo simulation.
+C
+Full treatment
+E.1.k
+Explain how considering the ability to add on, speed up, delay or abandon increases a project's value.
+C
+Full treatment
+E.1.l
+Explain real options: to abandon, delay, expand and scale back.
+C
+Full treatment
+E.1.m
+Identify the qualitative considerations in a capital budgeting decision.
+C
+Full treatment
+E.1.n
+Describe the role of the postaudit.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section E outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+hurdle rate
+معدل القبول
+taux de rejet
+risk-adjusted discount rate
+معدل الخصم المعدل بالمخاطر
+taux ajusté du risque
+certainty equivalent
+المكافئ المؤكد
+équivalent certain
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+scenario analysis
+تحليل السيناريوهات
+analyse de scénarios
+Monte Carlo simulation
+محاكاة مونت كارلو
+simulation de Monte-Carlo
+real option
+الخيار الحقيقي
+option réelle
+postaudit
+المراجعة اللاحقة
+audit a posteriori
+WHAT YOU ALREADY KNOW   What you already know
+Book 2 put Orontes's weighted average cost of capital at 9.04 per cent and warned that a single company-wide rate systematically accepts risky projects and rejects safe ones. Chapter 4 of this book distinguished one-at-a-time sensitivity from scenario analysis. Chapter 14 built a roasting line costing $3,400,000 and returning $1,050,000 a year. All three reappear here.
+15.1  The hurdle rate
+A hurdle rate is the minimum return a project must earn to be accepted. It is the rate used to discount the cash flows, and a project whose net present value is positive at that rate has cleared it.
+For a project of ordinary risk, the hurdle is the company's weighted average cost of capital, which Book 2 built from the required returns of every provider of money. Orontes's is 9.04 per cent. Earning less than that leaves the providers worse off, which is the economic profit of Book 1 stated as a rate.
+Three adjustments are made in practice, and the exam asks about each.
+A risk adjustment, where the project's risk differs from the company's. This is the fourth outcome of this chapter and section 15.2 develops it.
+A premium for rationing. Where a company has more good projects than money, raising the hurdle above the cost of capital is a crude way of selecting among them. It is crude because it confuses the cost of money with its scarcity, and the better method is to rank by value created for each dollar invested, which Chapter 17 does with the profitability index.
+A margin for optimism. Many companies set a hurdle above their cost of capital because project sponsors' forecasts are systematically hopeful. It is a reasonable response to a real problem and it has a cost: a hurdle set far above the cost of capital rejects projects that would create value, and the honest remedy is to correct the forecasts rather than the rate.
+The risk-adjusted rate works as a premium added to the cost of capital, or as a rate estimated directly from the risk of the activity using the capital asset pricing model of Book 2's Chapter 2 with a beta drawn from companies in that industry.
+WORKED EXAMPLE   Worked example: what three points of hurdle rate cost a project
+Step 1. The project. Chapter 14's roasting line: $3,400,000 out, $1,050,000 a year for five years, and $550,000 more at the end.
+Step 2. At the company's rate. At 9 per cent the five-year annuity factor is 3.8897 and the five-year present-value factor 0.6499, so the value is 1,050,000 × 3.8897 = 4,084,185 plus 550,000 × 0.6499 = 357,445, which is 4,084,185 + 357,445 = 4,441,630, giving a net present value of 4,441,630 − 3,400,000 = 1,041,630.
+Step 3. At a risk-adjusted rate. Suppose the line serves a new export market and the board adds three points, so the hurdle becomes 9.04 + 3.00 = 12.04 per cent, which at 12 per cent factors of 3.6048 and 0.5674 gives 1,050,000 × 3.6048 = 3,785,040 plus 550,000 × 0.5674 = 312,070, which is 3,785,040 + 312,070 = 4,097,110 and a net present value of 4,097,110 − 3,400,000 = 697,110.
+Step 4. The effect. Three points of hurdle rate removed 1,041,630 − 697,110 = 344,520 of value, a third of it, from a project whose cash flows did not change at all.
+Check. The project still clears the higher hurdle, so the adjustment did not change the decision here — but it would have, had the margin been thinner, and a company that adds a premium without a reason is rejecting value for a feeling. The reason must be stated: this project is riskier than the company's existing business because it sells into a market Orontes does not know, and the premium is the price of that unfamiliarity.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+minimum acceptable return
+الحد الأدنى للعائد المقبول
+rendement minimal acceptable
+risk premium
+علاوة المخاطرة
+prime de risque
+capital rationing
+ترشيد رأس المال
+rationnement du capital
+optimism bias
+تحيز التفاؤل
+biais d'optimisme
+SECTION CHECK   Test yourself
+SC15-1  A hurdle rate is:
+A.	the minimum return a project must earn to be accepted.
+B.	the return the project is expected to earn.
+C.	the risk-free rate.
+D.	the tax rate.
+SC15-2  A project riskier than the company's existing business should be discounted at:
+A.	a rate above the company's weighted average cost of capital.
+B.	the company's weighted average cost of capital.
+C.	the risk-free rate.
+D.	the after-tax cost of debt.
+SC15-3  Raising the hurdle rate to deal with optimistic forecasts:
+A.	is a response to a real problem and rejects some projects that would create value.
+B.	corrects the forecasts.
+C.	has no cost.
+D.	is the only available remedy.
+Answers and explanations are at the end of the chapter.
+15.2  Approaches to risk
+The outcome asks for alternative approaches, and there are five in common use.
+Raise the discount rate. The risk-adjusted rate of section 15.1. Simple, widely used, and blunt: it assumes risk grows steadily with time, because a higher rate penalises distant flows most, which is true of some risks and not of others.
+Use certainty equivalents. Replace each uncertain cash flow with the certain amount the company would accept instead, then discount at the risk-free rate. A flow of $1,050,000 might be treated as worth 1,050,000 × 0.85 = 892,500 for certain. The method is conceptually cleaner than a risk-adjusted rate, because it separates the risk adjustment from the time adjustment, and it is harder to use because somebody must state the equivalents.
+Shorten the required payback. Requiring a project to repay within three years rather than five is a crude way of insisting that the uncertain distant years do not carry the case, and Chapter 17 treats payback properly.
+Analyse the risk explicitly, with the techniques of section 15.3, and present the range rather than a single figure.
+Reduce the risk itself. Stage the investment so that it can be stopped, pilot it in one region, contract a price in advance as Book 2's Chapter 6 did with sesame, insure what can be insured, or share it with a partner.
+That last approach is the one most often omitted in an exam answer and the most valuable in practice. The purpose of analysing risk is to manage it, and a project that can be stopped after a year is a different project from one that cannot.
+Figure F715-02 compares the approaches.
+Figure F715-02. Five ways to deal with risk
+Approach
+What it does
+Strength
+Weakness
+Risk-adjusted rate
+Discounts risky flows more heavily
+Simple; widely understood
+Assumes risk rises with time
+Certainty equivalent
+Replaces flows with certain amounts
+Separates risk from time
+Requires explicit judgments
+Shorter payback
+Ignores distant, uncertain years
+Easy to apply
+Rejects good long projects
+Explicit analysis
+Shows the range of outcomes
+Informative
+Does not decide anything by itself
+Risk reduction
+Changes the project
+Acts on the cause
+Costs money or forgoes return
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+staging
+التنفيذ على مراحل
+phasage
+pilot
+التجربة الأولية
+projet pilote
+risk sharing
+تقاسم المخاطر
+partage du risque
+blunt instrument
+أداة غير دقيقة
+instrument grossier
+SECTION CHECK   Test yourself
+SC15-4  The certainty equivalent approach discounts at:
+A.	the risk-free rate, having already adjusted the cash flows for risk.
+B.	the risk-adjusted rate.
+C.	the cost of equity.
+D.	the internal rate of return.
+SC15-5  A risk-adjusted discount rate assumes that:
+A.	risk increases with time, because distant flows are penalised most.
+B.	risk is constant.
+C.	risk falls with time.
+D.	cash flows are certain.
+SC15-6  The approach most often omitted from exam answers, and the most valuable in practice, is:
+A.	reducing the risk itself by staging, piloting, contracting or sharing.
+B.	raising the discount rate.
+C.	shortening the payback.
+D.	using certainty equivalents.
+Answers and explanations are at the end of the chapter.
+15.3  Three ways to measure the risk
+The outcome names three techniques and asks for them to be distinguished.
+Sensitivity analysis changes one input at a time and records the effect on the net present value. Its output is a ranking of the inputs by influence, and the most useful form states, for each input, the value at which the net present value falls to zero.
+For the roasting line, the present value of the terminal flow at 9 per cent is 550,000 × 0.6499 = 357,445, so the annual flows must cover 3,400,000 − 357,445 = 3,042,555, which over an annuity factor of 3.8897 is 3,042,555 ÷ 3.8897 = 782,208 a year. The project therefore survives a fall in its annual cash flow from $1,050,000 to $782,208 — a margin of 267,792 ÷ 1,050,000 = 25.50 per cent. That single sentence is worth more to a board than any number of discounted tables.
+Scenario analysis changes several inputs together in a coherent story — a bad case in which volume, price and input costs all move the wrong way at once. It captures the correlations that one-at-a-time analysis cannot, and it produces a handful of outcomes rather than a ranking.
+Monte Carlo simulation assigns a probability distribution to each uncertain input, draws thousands of combinations at random, and produces a distribution of net present values. Its outputs are the mean, the spread, and the probability that the project destroys value — which is the question a board actually asks. Its weaknesses are that it needs distributions nobody can observe, that correlations between inputs must be specified and are usually guessed, and that the apparent precision of a computed probability flatters the underlying estimates.
+Figure F715-03 sets the three out.
+Figure F715-03. Three risk techniques
+Technique
+Changes
+Produces
+Best for
+Sensitivity
+One input at a time
+A ranking, and break-even values
+Finding what the answer depends on
+Scenario
+Several inputs together
+A few coherent outcomes
+Capturing correlated risks
+Simulation
+All inputs, many times
+A distribution of outcomes
+Estimating the probability of loss
+EXAM TRAP   What each technique cannot do
+Sensitivity analysis cannot capture the fact that bad things arrive together. That is what scenarios are for.
+A simulation's distribution is only as good as the input distributions, and these are usually assumed rather than measured.
+None of the three makes the decision. They describe the uncertainty; somebody still has to judge whether the company can bear it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+break-even value
+القيمة المتعادلة
+valeur critique
+probability distribution
+التوزيع الاحتمالي
+loi de probabilité
+correlation
+الارتباط
+corrélation
+apparent precision
+الدقة الظاهرية
+précision apparente
+SECTION CHECK   Test yourself
+SC15-7  Sensitivity analysis is most useful for:
+A.	identifying which input the answer depends on, and at what value it reverses.
+B.	capturing correlated risks.
+C.	estimating the probability of loss.
+D.	setting the discount rate.
+SC15-8  A project's annual flow of 1,050,000 can fall to 782,208 before its net present value reaches zero. The margin is:
+A.	25.50 per cent
+B.	74.50 per cent
+C.	267,792 per cent
+D.	34.2 per cent
+SC15-9  Monte Carlo simulation produces:
+A.	a distribution of outcomes, including the probability of a negative result.
+B.	a single net present value.
+C.	a ranking of inputs.
+D.	the hurdle rate.
+Answers and explanations are at the end of the chapter.
+15.4  Real options
+A discounted cash flow analysis values a project as though it were a commitment made once and then endured. Real projects are not like that: managers can wait, expand, contract or stop, and each of those abilities is worth something. They are called real options because they have the structure of the financial options of Book 2's Chapter 6 — a right without an obligation — attached to a real asset.
+The outcome names four.
+The option to delay. Waiting for information — a planning decision, a competitor's move, a harvest, a price. A project that can be started next year as easily as this one carries the value of what will be learned in between. The cost of delay is the cash flow forgone and the risk that a competitor moves first.
+The option to expand. A project that creates the ability to do more if things go well — a plant built with foundations for a second line, a product launched in one city that could be rolled out to twenty. Much of the value of a small first project is the large second one it makes possible, and a discounted cash flow of the first alone will reject it.
+The option to abandon. The ability to stop and recover something — selling the equipment, subletting the building, cancelling the contract. It puts a floor under the downside, and it is worth most where the assets are general-purpose and can be sold, and least where they are specialised and cannot.
+The option to scale back. Running at reduced volume rather than closing, mothballing a line, switching a plant to another product. It is the partial version of abandonment.
+Two consequences the exam asks for.
+Considering these options raises a project's value, because each is a right and not an obligation: it will be exercised only when it pays. So a valuation that ignores them understates the project, and the understatement is largest where uncertainty is greatest — the opposite of the intuition that uncertainty always reduces value.
+And they should be designed in. A plant that can be converted, a lease that can be broken, a contract staged in phases, a supplier arrangement with an option to increase volume: each costs something at the outset and is worth more than it costs where the future is genuinely uncertain. That is the practical use of the idea, and no calculation is required to act on it.
+Figure F715-04 sets the four out.
+Figure F715-04. Four real options
+Option
+The right to
+Worth most when
+Example
+Delay
+Start later, with more information
+Information arrives soon and the position can be held
+Waiting for a harvest or a ruling
+Expand
+Do more if it goes well
+The upside is large and the first step is small
+Foundations laid for a second line
+Abandon
+Stop and recover value
+Assets are general-purpose and resaleable
+Equipment with a resale market
+Scale back
+Run smaller rather than stop
+Demand is volatile and costs are partly variable
+Mothballing one shift
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+option to delay
+خيار التأجيل
+option de report
+option to expand
+خيار التوسع
+option de croissance
+option to abandon
+خيار التخلي
+option d'abandon
+mothballing
+التجميد المؤقت
+mise sous cocon
+SECTION CHECK   Test yourself
+SC15-10  A real option is:
+A.	a right without an obligation, attached to a real asset.
+B.	a financial derivative.
+C.	an obligation to continue.
+D.	a contractual penalty.
+SC15-11  Ignoring the options embedded in a project:
+A.	understates its value, most where uncertainty is greatest.
+B.	overstates its value.
+C.	has no effect.
+D.	matters only for financial assets.
+SC15-12  The option to abandon is worth most where:
+A.	the assets are general-purpose and can be resold.
+B.	the assets are highly specialised.
+C.	demand is certain.
+D.	the project is short.
+Answers and explanations are at the end of the chapter.
+15.5  Qualitative factors and the postaudit
+Two outcomes close the chapter, and both concern what the numbers do not contain.
+The qualitative considerations are the ones a net present value cannot carry, and the exam expects them named.
+Strategic fit. Does the project take the company where it intends to go, or is it a profitable distraction? A positive net present value in a business the company does not understand is Chapter 15's risk premium in another form.
+Effects on people. Redundancies, retraining, morale, the loss of skills that will be needed again.
+Customers and suppliers. A project that changes service levels, lead times or specifications affects relationships that no cash flow line captures.
+Regulatory, environmental and safety consequences, some of which are not optional at any return.
+Reversibility, which section 15.4 priced as the option to abandon.
+Reputation, which is slow to build and quick to lose.
+And the quality of the estimates themselves: a project proposed by a sponsor whose last three forecasts were wrong is a different proposition from the same figures proposed by somebody whose were right.
+The postaudit is the stage that makes all of this better next time. It is a review, usually a year or two after completion, comparing the project's actual cash flows, costs and timing with those promised in the proposal.
+Its purposes are four, and the exam asks for them.
+To improve future estimates. Systematic optimism is only visible in a series of postaudits, and once visible it can be corrected at the source rather than by raising the hurdle rate.
+To hold sponsors accountable. A proposal written by somebody who knows it will be audited is a more careful proposal, and that effect operates before any audit is done.
+To decide what to do now. A project running badly may be expanded, scaled back or abandoned — the real options of section 15.4, exercised — and the postaudit is when that choice is made deliberately rather than by drift.
+To improve the process. Recurring errors in a particular kind of project, or a particular department, point to something fixable.
+Three cautions belong with it. The audit should compare like with like, adjusting for things outside the sponsor's control. It should not become a search for blame, or proposals will become defensive and conservative. And the sunk cost rule of Chapter 5 applies to its conclusions: what the project cost is history, and the only question it can answer about the future is what to do from here.
+YOUR TURN   Rate, risk and options
+Figure F715-05 gives a project and four questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F715-05. Your turn: rate and risk (complete the blanks)
+Item
+Data
+Answer
+Hurdle rate for a project of ordinary risk
+Cost of capital 9.04 per cent
+________
+Hurdle rate with a 3-point risk premium
+________
+Certainty equivalent of a 900,000 flow
+Factor 0.80
+________
+Which technique gives the probability of a negative net present value
+________
+Which real option a general-purpose, resaleable asset creates
+________
+The main purpose of a postaudit
+________
+LANGUAGE FOCUS   "Hurdle"
+English hurdle rate takes its image from an athletics race: a barrier the project must clear. The metaphor is apt in one way and misleading in another. It is apt because clearing it is pass or fail. It is misleading because a hurdle in a race is the same height for every runner, and a hurdle rate should not be: a riskier project should face a higher one, which is the whole of this chapter's fourth outcome. Arabic معدل القبول, literally the acceptance rate, carries no metaphor and states the function. French taux de rejet names it from the other side — the rate below which a project is rejected — and taux de rendement minimal is the fuller phrase. Any of the three is clear; what matters in an answer is to say which rate was used and why.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+strategic fit
+التوافق الاستراتيجي
+cohérence stratégique
+accountability
+المساءلة
+responsabilisation
+like with like
+المقارنة المتكافئة
+comparaison à périmètre constant
+drift
+الانجراف
+dérive
+SECTION CHECK   Test yourself
+SC15-13  The postaudit's most important purpose is:
+A.	to improve future estimates by making systematic errors visible.
+B.	to assign blame.
+C.	to recompute the net present value.
+D.	to satisfy the auditors.
+SC15-14  A postaudit finding that a project is running badly should lead to:
+A.	a decision about what to do from here, ignoring what has been spent.
+B.	continuing, because the money is spent.
+C.	abandonment in every case.
+D.	a higher hurdle rate for all future projects.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F715-06 brings the chapter together.
+Figure F715-06. Chapter 15 summary map: the key rule for each section.
+A hurdle rate is the minimum return a project must earn, which for ordinary risk is the weighted average cost of capital of 9.04 per cent, adjusted upwards for unusual risk, for rationing, or for optimism — and three points of adjustment removed 1,041,630 − 697,110 = 344,520 from the roasting line's value without changing a single cash flow. Risk is handled by raising the rate, by certainty equivalents discounted at the risk-free rate, by a shorter required payback, by explicit analysis, and best of all by reducing the risk itself through staging, piloting, contracting and sharing. Three techniques measure it: sensitivity, which showed the roasting line surviving a 267,792 ÷ 1,050,000 = 25.50 per cent fall in its annual flow; scenarios, which let correlated risks move together; and simulation, which gives the probability of a loss and the apparent precision to go with it. Real options — to delay, expand, abandon and scale back — are rights rather than obligations, so ignoring them understates a project, and most where uncertainty is greatest. And the qualitative factors and the postaudit carry what no net present value can: strategic fit, people, relationships, reversibility, the quality of the estimates, and the discipline of comparing what happened with what was promised.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P15-01  A hurdle rate is:
+A.	the minimum acceptable return on a project.
+B.	the expected return.
+C.	the internal rate of return.
+D.	the risk-free rate.
+P15-02  A project riskier than the company's existing business is discounted at:
+A.	a rate above the company's cost of capital.
+B.	the company's cost of capital.
+C.	the after-tax cost of debt.
+D.	the risk-free rate.
+P15-03  The certainty equivalent method discounts the adjusted flows at:
+A.	the risk-free rate.
+B.	the risk-adjusted rate.
+C.	the cost of equity.
+D.	the hurdle rate plus a premium.
+P15-04  A certainty equivalent factor of 0.80 applied to 900,000 gives:
+A.	720,000
+B.	1,125,000
+C.	180,000
+D.	900,000
+P15-05  Which technique changes one input at a time?
+A.	Sensitivity analysis
+B.	Scenario analysis
+C.	Monte Carlo simulation
+D.	Certainty equivalents
+P15-06  Which technique gives the probability that a project destroys value?
+A.	Monte Carlo simulation
+B.	Sensitivity analysis
+C.	Payback
+D.	The hurdle rate
+P15-07  A real option is:
+A.	a right without an obligation attached to a real asset.
+B.	a traded derivative.
+C.	an obligation to expand.
+D.	a tax election.
+P15-08  Ignoring real options in a valuation:
+A.	understates the project.
+B.	overstates the project.
+C.	has no effect.
+D.	is required by the standards.
+P15-09  The option to abandon is most valuable when assets are:
+A.	general-purpose and resaleable.
+B.	highly specialised.
+C.	fully depreciated.
+D.	leased.
+P15-10  The principal purpose of a postaudit is to:
+A.	improve future estimates and decide what to do from here.
+B.	recompute the original net present value.
+C.	identify who to blame.
+D.	satisfy the external auditor.
+Case-style practice: the export line
+Orontes's roasting line can be built in two ways. Version A costs $3,400,000, returns $1,050,000 a year for five years and $550,000 at the end, and is purpose-built for the export blend. Version B costs $3,900,000, returns the same cash flows, and uses general-purpose equipment that could be resold for $1,400,000 at any time or switched to the standard blend. The export market is new to Orontes, and the board has proposed a hurdle rate of 12 per cent rather than the company's 9.04.
+Required. Say which version you would recommend and why, dealing with the hurdle rate and with the real options. Name the evidence you would want before approving either. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC15-1  Answer A. The minimum acceptable return.
+B is wrong. That is the project's own return.
+C is wrong. The risk-free rate is a component, not the hurdle.
+D is wrong. Tax is a separate adjustment.
+SC15-2  Answer A. Greater risk requires a greater return.
+B is wrong. The company rate describes the existing business.
+C is wrong. The risk-free rate ignores risk entirely.
+D is wrong. The financing mix is not the project's risk.
+SC15-3  Answer A. It is a crude but reasonable response with a real cost.
+B is wrong. The forecasts are unchanged.
+C is wrong. Good projects are rejected.
+D is wrong. Correcting the forecasts is the better remedy.
+SC15-4  Answer A. The risk adjustment is already in the flows.
+B is wrong. That would adjust twice.
+C is wrong. Equity's rate is not the risk-free rate.
+D is wrong. The internal rate is an output, not a discount rate.
+SC15-5  Answer A. A constant premium penalises distant flows most.
+B is wrong. The method implies risk growing with time.
+C is wrong. The opposite of what the method implies.
+D is wrong. Certainty would need no adjustment.
+SC15-6  Answer A. Acting on the cause is the most valuable approach.
+B is wrong. Raising the rate is the most common one.
+C is wrong. Payback is a crude screen.
+D is wrong. Certainty equivalents describe rather than reduce.
+SC15-7  Answer A. It finds what the answer depends on.
+B is wrong. Scenarios handle correlation.
+C is wrong. Simulation gives probabilities.
+D is wrong. The rate comes from the cost of capital.
+SC15-8  Answer A. 267,792 ÷ 1,050,000 = 25.50 per cent.
+B is wrong. That is the remaining proportion.
+C is wrong. The dollar fall is not a percentage.
+D is wrong. This has no basis in the figures.
+SC15-9  Answer A. A distribution, including the chance of a loss.
+B is wrong. A single figure is what it replaces.
+C is wrong. Ranking is sensitivity analysis.
+D is wrong. The rate is an input.
+SC15-10  Answer A. A right without an obligation, on a real asset.
+B is wrong. Real options are not traded.
+C is wrong. An obligation is the opposite of an option.
+D is wrong. A penalty is a cost, not an option.
+SC15-11  Answer A. Options have value, and most under uncertainty.
+B is wrong. Ignoring value understates it.
+C is wrong. The effect can be large.
+D is wrong. The idea applies to real assets by definition.
+SC15-12  Answer A. Resale value is what makes abandonment worth something.
+B is wrong. Specialised assets have little resale value.
+C is wrong. Certainty removes the need for the option.
+D is wrong. Short projects have less to abandon.
+SC15-13  Answer A. Making systematic error visible is the point.
+B is wrong. Blame makes proposals defensive.
+C is wrong. The original figure is history.
+D is wrong. External auditors do not require postaudits.
+SC15-14  Answer A. Sunk costs are irrelevant to what to do next.
+B is wrong. That is the sunk cost fallacy.
+C is wrong. Abandonment is one option among several.
+D is wrong. One project does not set the company's hurdle rate.
+Your turn
+Item
+Answer
+Hurdle rate for ordinary risk
+9.04 per cent, the weighted average cost of capital.
+Hurdle rate with a 3-point premium
+12.04 per cent: 9.04 + 3.00 = 12.04.
+Certainty equivalent of a 900,000 flow
+720,000: 900,000 × 0.80 = 720,000, discounted at the risk-free rate.
+Technique giving the probability of a negative net present value
+Monte Carlo simulation.
+Real option created by a general-purpose, resaleable asset
+The option to abandon, and in part the option to scale back.
+Main purpose of a postaudit
+To improve future estimates by making systematic errors visible, and to decide what to do from here.
+What it tells you
+Three of the six answers are definitions and three are judgments, which is the balance of this topic: the arithmetic is small and the reasoning is most of the marks.
+Multiple-choice questions
+P15-01  Answer A. The minimum acceptable return.
+B is wrong. That is what the project offers.
+C is wrong. The internal rate is a measure of the project.
+D is wrong. The risk-free rate is one component.
+P15-02  Answer A. More risk, more required return.
+B is wrong. The company rate describes its existing business.
+C is wrong. Financing mix is not project risk.
+D is wrong. The risk-free rate ignores risk.
+P15-03  Answer A. The risk is already in the flows.
+B is wrong. That double-counts the risk.
+C is wrong. Equity's rate is not risk-free.
+D is wrong. The same objection applies.
+P15-04  Answer A. 900,000 × 0.80 = 720,000.
+B is wrong. This divides instead of multiplying.
+C is wrong. That is the reduction.
+D is wrong. That is the unadjusted flow.
+P15-05  Answer A. One at a time is its definition.
+B is wrong. Scenarios move several together.
+C is wrong. Simulation moves all at once, repeatedly.
+D is wrong. Certainty equivalents adjust flows rather than test them.
+P15-06  Answer A. Simulation produces a distribution.
+B is wrong. Sensitivity gives break-even values.
+C is wrong. Payback measures speed of recovery.
+D is wrong. The hurdle rate is an input.
+P15-07  Answer A. A right without an obligation on a real asset.
+B is wrong. Real options are not traded.
+C is wrong. An obligation is not an option.
+D is wrong. A tax election is a different thing.
+P15-08  Answer A. Options add value, so ignoring them understates.
+B is wrong. The error runs the other way.
+C is wrong. The effect is often large.
+D is wrong. No standard governs internal appraisal.
+P15-09  Answer A. Resale value makes abandonment worth something.
+B is wrong. Specialised assets fetch little.
+C is wrong. Depreciation is an accounting matter.
+D is wrong. A lease may help or hinder, depending on its terms.
+P15-10  Answer A. Better estimates, and a decision from here.
+B is wrong. The original figure cannot be changed.
+C is wrong. Blame is counterproductive.
+D is wrong. It is a management process.
+Case-style set: the export line
+The hurdle rate. Twelve per cent against the company's 9.04 is a three-point premium, and it is justified in principle: the export market is new, so the project's risk is not the company's average risk, and Book 2's Chapter 8 warned that a single company-wide rate accepts risky projects systematically. The premium should be stated as what it is — a judgment about unfamiliarity — rather than presented as a calculation. At 12 per cent, Version A's net present value falls from 1,041,630 to 697,110, so it still clears.
+The two versions. Version B costs $500,000 more and buys two things the arithmetic does not show. It can be resold for $1,400,000 at any time, which puts a floor under the downside; and it can be switched to the standard blend, which converts a bet on a new export market into a bet that is reversible. Those are the options to abandon and to scale back, and they are worth most precisely because the market is unfamiliar — which is the same fact that justified the higher hurdle rate.
+Recommendation: Version B. The $500,000 is the price of an option that the three-point risk premium says the board thinks is needed, and buying the option is a better response to unfamiliarity than discounting the cash flows more heavily. Buying both — the premium and the flexible equipment — would be charging twice for the same risk.
+The evidence I would want. First, something on the export demand beyond a forecast: a letter of intent, a trial shipment, a distributor's commitment. Second, a resale quotation for the general-purpose equipment, because the whole case for Version B rests on the $1,400,000 being real; if it is a list price rather than a market price, the option is worth considerably less than it costs.

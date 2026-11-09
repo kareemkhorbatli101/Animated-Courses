@@ -68,6 +68,36 @@ Step 2. The proposal. To sell 3,800,000 jars, the price must fall to $11.50 — 
 Step 3. Marginal revenue. Revenue rises by 43,700,000 − 42,000,000 = 1,700,000 for 300,000 extra jars, so marginal revenue is 1,700,000 ÷ 300,000 = 5.67 a jar.
 Step 4. The decision. Marginal cost is $7.20. Each extra jar earns $5.67 and costs $7.20, so the company would lose 7.20 − 5.67 = 1.53 on each of them. Reject.
 Check. The price is $11.50 and the marginal revenue is $5.67, and the gap between them is the revenue given up on the 3,500,000 jars that would have sold at $12.00: 3,500,000 × 0.50 = 1,750,000 of lost revenue against 300,000 × 11.50 = 3,450,000 gained. That is the arithmetic behind Book 1's finding that Orontes had been buying growth with price, and it is why marginal revenue, not price, is the figure to set against marginal cost.
+Figure F707-02 lays the two positions side by side.
+Figure F707-02. Marginal revenue when the price has to fall for every jar
+Item
+Now
+Proposal
+Difference
+Jars sold
+3,500,000
+3,800,000
+300,000
+Price a jar
+12.00
+11.50
+(0.50)
+Total revenue
+42,000,000
+43,700,000
+1,700,000
+Marginal revenue a jar
+—
+5.67
+—
+Marginal cost a jar
+7.20
+7.20
+—
+Verdict
+—
+Reject
+Cost above marginal revenue
 The decision rule that follows is the foundation of the next three chapters. Do more of something while marginal revenue exceeds marginal cost; stop where they are equal; do less where marginal cost is higher. Everything in Chapters 8 and 9 is a special case of that sentence.
 TERM BRIDGE   Key words in this section
 English (exam term)
@@ -108,8 +138,8 @@ Total cost is the fixed costs plus the variable costs at that volume. For Oronte
 Average variable cost is the variable cost divided by the units, which is $7.20 and does not change within the range. It equals marginal cost here, which is a property of the straight-line model and not a general truth.
 Average fixed cost is the fixed costs divided by the units: 12,624,000 ÷ 3,500,000 = 3.61 a jar. It falls as volume rises, which is the whole of what people mean by spreading the overhead.
 Average total cost is the total divided by the units: 37,824,000 ÷ 3,500,000 = 10.81 a jar. It equals the average variable cost plus the average fixed cost, 7.20 + 3.61 = 10.81, and it falls as volume rises because its fixed component does.
-Figure F707-02 computes the four at three volumes.
-Figure F707-02. The averages at three volumes
+Figure F707-03 computes the four at three volumes.
+Figure F707-03. The averages at three volumes
 Measure
 3,000,000 jars
 3,500,000 jars
@@ -230,8 +260,8 @@ Step 2. The incremental contribution. 8.50 − 7.50 = 1.00 a jar.
 Step 3. The effect on operating income. 300,000 × 1.00 = 300,000 of additional operating income.
 Step 4. What is excluded, and why. The fixed costs of $12,624,000 do not change, so no part of them belongs in the analysis; the average total cost of $10.81 is therefore irrelevant, and the order's apparent loss of 10.81 − 8.50 = 2.31 a jar is an artefact of a costing system doing a job it was not designed for.
 Check. Accepting raises operating income from $4,176,000 to 4,176,000 + 300,000 = 4,476,000. The price of $8.50 is below full cost and above incremental cost, and that is precisely the range in which a special order is worth taking. Below $7.50 it would not be.
-Figure F707-03 sets the two views side by side.
-Figure F707-03. The same order, two ways of looking at it
+Figure F707-04 sets the two views side by side.
+Figure F707-04. The same order, two ways of looking at it
 Per jar
 Full-cost view
 Relevant-cost view
@@ -296,8 +326,8 @@ Answers and explanations are at the end of the chapter.
 Change one fact. Suppose Orontes is making 3,800,000 jars and selling every one of them. Taking the hotel order now means making 300,000 fewer standard jars.
 The incremental cost is still $7.50. But the 300,000 standard jars forgone would each have contributed $4.80, so the opportunity cost is 300,000 × 4.80 = 1,440,000. Against an incremental contribution of 300,000 × 1.00 = 300,000, the order would leave the company 1,440,000 − 300,000 = 1,140,000 worse off. Reject.
 The minimum acceptable price at full capacity is the incremental cost plus the contribution displaced: 7.50 + 4.80 = 12.30 a jar — thirty cents above the regular price, which is the special labelling, and far above the $8.50 offered.
-Figure F707-04 compares the two cases.
-Figure F707-04. The same order, with and without spare capacity
+Figure F707-05 compares the two cases.
+Figure F707-05. The same order, with and without spare capacity
 Spare capacity
 Full capacity
 Incremental cost a jar
@@ -320,8 +350,8 @@ What the order displaces in the relationship, not only in the figures. A regular
 Whether the capacity is really spare. Capacity used for a special order is capacity not available for a sudden opportunity, and a company close to full should price that risk.
 And what happens next year. A one-off order that is repeated becomes the regular business, priced at a level that does not cover fixed costs.
 YOUR TURN   Price three orders
-Figure F707-05 gives a company's figures and three offers. Complete the blanks. Answers are at the end of the chapter.
-Figure F707-05. Your turn: special orders (complete the blanks)
+Figure F707-06 gives a company's figures and three offers. Complete the blanks. Answers are at the end of the chapter.
+Figure F707-06. Your turn: special orders (complete the blanks)
 Item
 Data
 Answer
@@ -371,8 +401,8 @@ C.	the whole order is priced at full capacity rates.
 D.	the order must be refused.
 Answers and explanations are at the end of the chapter.
 Chapter summary
-Figure F707-06 brings the chapter together.
-Figure F707-06. Chapter 7 summary map: the key rule for each section.
+Figure F707-07 brings the chapter together.
+Figure F707-07. Chapter 7 summary map: the key rule for each section.
 Marginal cost is the cost of one more unit, which inside the relevant range is Orontes's variable cost of $7.20, and marginal revenue is the revenue from one more unit, which falls below the price whenever selling more requires cutting it: dropping the jar to $11.50 to sell 300,000 more raises revenue by 43,700,000 − 42,000,000 = 1,700,000, so marginal revenue is 1,700,000 ÷ 300,000 = 5.67 against a marginal cost of 7.20, and the move loses money. The averages answer a different question: total cost of 25,200,000 + 12,624,000 = 37,824,000 gives an average total cost of 37,824,000 ÷ 3,500,000 = 10.81, of which 12,624,000 ÷ 3,500,000 = 3.61 is fixed and falls with volume while marginal cost does not. Marginal analysis accepts any change whose extra revenue exceeds its extra cost, and the special order is its classic test: with spare capacity the relevant cost of the hotel order is 7.20 + 0.30 = 7.50, so $8.50 adds 300,000 × 1.00 = 300,000 even though it is $2.31 below full cost. Without spare capacity the displaced contribution of 300,000 × 4.80 = 1,440,000 reverses the answer, and the minimum price becomes 7.50 + 4.80 = 12.30. And the qualitative factors — what regular customers will think, whether the buyer will resell, and what happens when a one-off is repeated — decide as many of these cases as the arithmetic does.
 Practice
 Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.

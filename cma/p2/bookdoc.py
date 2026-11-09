@@ -315,7 +315,13 @@ def chapter(d, blocks, hdr=None):
 TITLES = {5: (u'CMA Part 2 · Book 1 · Reading the Statements',
               u'Section A: Financial Statement Analysis — chapters 1 to 18'),
           6: (u'CMA Part 2 · Book 2 · Paying for It',
-              u'Section B: Corporate Finance — chapters 1 to 18')}
+              u'Section B: Corporate Finance — chapters 1 to 18'),
+          7: (u'CMA Part 2 · Book 3 · Choosing',
+              u'Sections C and E: Decision Analysis and Capital Investment '
+              u'— chapters 1 to 18'),
+          8: (u'CMA Part 2 · Book 4 · What Can Go Wrong, and What You Owe',
+              u'Sections D and F: Risk Management and Professional Ethics '
+              u'— chapters 1 to 18')}
 
 
 def build(bk, chs, out):
@@ -342,7 +348,9 @@ def main(argv):
         (re.match(r'^ch(\d+)\.src$', f)
          for f in os.listdir(os.path.join(HERE, 'b%d' % bk))) if m)
     name = {5: 'CMA_Part2_Book1_Reading_the_Statements.docx',
-            6: 'CMA_Part2_Book2_Paying_for_It.docx'}.get(
+            6: 'CMA_Part2_Book2_Paying_for_It.docx',
+            7: 'CMA_Part2_Book3_Choosing.docx',
+            8: 'CMA_Part2_Book4_What_Can_Go_Wrong.docx'}.get(
                 bk, 'CMA_Part2_Book%d.docx' % bk)
     out = os.path.join(os.path.dirname(CMA), name)
     build(bk, chs, out)

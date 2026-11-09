@@ -1,0 +1,449 @@
+Chapter 16
+Net present value and the internal rate of return
+القيمة الحالية الصافية ومعدل العائد الداخلي
+Chapter 14 built the cash flows and Chapter 15 chose the rate. This chapter puts them together in the two measures that decide most capital investments: net present value, which states the value a project creates in money, and the internal rate of return, which states it as a rate.
+They usually agree. Where they disagree, net present value is right and the reasons it is right are themselves examinable. This chapter computes both for the roasting line, sets out what each assumes, works through the three situations in which they part company, and ends with the modified internal rate of return, which repairs the worst of the problems.
+Figure F716-01 is your map.
+Figure F716-01. Chapter 16 roadmap: the two measures, what they assume, and where they disagree.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+E.2.a | Demonstrate an understanding of the two main discounted cash flow methods, net present value and the internal rate of return. | C | Full treatment
+E.2.b | Calculate net present value and the internal rate of return. | C | Full treatment
+E.2.c | Demonstrate an understanding of the decision criteria used in each analysis to identify acceptable projects. | C | Full treatment
+E.2.f | Identify the assumptions of net present value and of the internal rate of return. | C | Full treatment
+E.2.d | Compare the two methods, with their relative advantages and disadvantages, for independent and for mutually exclusive projects. | C | Full treatment
+E.2.e | Explain why the two methods can produce conflicting rankings if not applied properly. | C | Full treatment
+E.2.g | Evaluate and recommend project investments on the basis of discounted cash flow analysis. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section E outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+net present value | القيمة الحالية الصافية | valeur actuelle nette
+discount factor | معامل الخصم | facteur d'actualisation
+annuity factor | معامل الدفعات المتساوية | facteur d'annuité
+internal rate of return | معدل العائد الداخلي | taux de rendement interne
+reinvestment assumption | افتراض إعادة الاستثمار | hypothèse de réinvestissement
+mutually exclusive projects | مشروعات متنافية | projets mutuellement exclusifs
+multiple internal rates of return | معدلات عائد داخلي متعددة | taux de rendement interne multiples
+modified internal rate of return | معدل العائد الداخلي المعدل | taux de rendement interne modifié
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 14 gave the roasting line: 3,400,000 out at the start, 1,050,000 a year for five years, and 550,000 more at the end. Chapter 15 gave the rate: 9 per cent for a project of ordinary risk, higher where the risk is unusual. Book 2's Chapter 1 gave the arithmetic of present value. Everything in this chapter uses those three.
+16.1  Net present value
+Net present value is the present value of a project's cash inflows less the present value of its outflows, all discounted at the hurdle rate. A positive figure means the project returns more than the money costs, so it creates value; a negative figure means it destroys value; zero means it exactly earns its cost of capital, which is a pass rather than a failure.
+The computation has four steps, and the exam tests each of them.
+Lay out the cash flows by year, as Chapter 14 did, using cash and not accounting profit.
+Find the discount factor for each year. For a single amount in year n at rate r the factor is 1 ÷ (1 + r) to the power n. For a level amount in every year from 1 to n, the annuity factor is the sum of those factors, and using it saves four multiplications.
+Multiply and add.
+Subtract the initial investment, which needs no discounting because it happens now.
+WORKED EXAMPLE   Worked example: the roasting line at 9 per cent
+Step 1. The flows. Year 0: −3,400,000. Years 1 to 5: +1,050,000. Year 5 also: +550,000, being 400,000 of released working capital and 150,000 of after-tax salvage.
+Step 2. The factors. At 9 per cent the five-year annuity factor is 3.8897 and the year-5 single-amount factor is 0.6499.
+Step 3. The present values. The level flows are worth 1,050,000 × 3.8897 = 4,084,185. The terminal amount is worth 550,000 × 0.6499 = 357,445. Together 4,084,185 + 357,445 = 4,441,630.
+Step 4. The net figure. 4,441,630 − 3,400,000 = 1,041,630, which is positive, so the line clears its hurdle.
+Check. Read the result as a sentence: building this line makes Orontes about 1,041,630 better off today than not building it, after paying the providers of the money everything they require. That is the economic profit of Book 1 and the market value added of Book 2, computed in advance instead of after the fact.
+Three readings of the figure are worth having.
+It is additive. The net present value of two projects is the sum of their individual figures, which no rate-based measure can claim. That is why net present values can be aggregated into a capital budget and compared with the company's market value.
+It is stated in money, so it reflects size. A project earning 40 per cent on 100,000 creates less value than one earning 12 per cent on 10,000,000, and only a money measure says so.
+It is the shareholders' gain. In the theory of Book 2, announcing a project with a positive net present value should raise the company's market value by about that amount, which is the link between capital budgeting and the share price.
+Figure F716-02 shows the computation laid out.
+Figure F716-02. The roasting line discounted at 9 per cent
+@table
+Year | Cash flow | Factor at 9% | Present value
+0 | (3,400,000) | 1.0000 | (3,400,000)
+1–5 | 1,050,000 each | 3.8897 | 4,084,185
+5 (terminal) | 550,000 | 0.6499 | 357,445
+Net present value | | | 1,041,630
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+present value | القيمة الحالية | valeur actuelle
+additive | قابل للجمع | additif
+value created | القيمة المضافة | valeur créée
+hurdle | الحد الأدنى | seuil
+@end
+SECTION CHECK   Test yourself
+SC16-1  A net present value of zero means the project:
+A.	exactly earns its cost of capital.
+B.	earns nothing.
+C.	should be rejected.
+D.	has no cash flows.
+SC16-2  Flows of 1,050,000 for five years at an annuity factor of 3.8897 are worth:
+A.	4,084,185
+B.	5,250,000
+C.	3,400,000
+D.	269,950
+SC16-3  The property net present value has and no rate measure has is that it:
+A.	is additive across projects.
+B.	ignores the discount rate.
+C.	needs no forecast.
+D.	is expressed as a percentage.
+Answers and explanations are at the end of the chapter.
+16.2  What net present value is good at, and what it is not
+The outcome asks for advantages and limitations, and both lists are short enough to learn.
+Its advantages. It uses all the cash flows, including those beyond any payback period. It discounts them, so timing is handled properly. It uses the cost of capital, so the required return is explicit and can be adjusted for risk as Chapter 15 showed. It measures in money, so size matters. It is additive. And it corresponds directly to value created for the providers of capital, which makes it the measure most consistent with the objective Book 2 set out.
+Its limitations, and these are the ones candidates forget.
+It depends entirely on the forecasts. A net present value computed to the nearest dollar from volumes guessed to the nearest hundred thousand jars has a precision it has not earned, which is why Chapter 15's sensitivity analysis belongs beside it.
+It depends on the rate, and the rate is an estimate. Three points of hurdle rate removed a third of the roasting line's value in Chapter 15.
+It is hard to explain to people who do not work with discounting. A rate or a payback period communicates immediately; a net present value usually needs a paragraph.
+It gives no sense of scale relative to the investment. A net present value of 1,041,630 is excellent on 3,400,000 and trivial on 340,000,000, and Chapter 17's profitability index exists to fix exactly that.
+It assumes the money is available. Where capital is rationed, the highest net present value is not necessarily the right choice, which again is Chapter 17's subject.
+And it says nothing about the pattern of the flows, so it cannot distinguish a project that recovers its money quickly from one that does not — a difference that matters when a company's survival depends on liquidity, as Book 1's Chapter 11 made clear.
+EXAM TRAP   The precision illusion
+A question that gives a net present value to the dollar and asks whether to accept is testing arithmetic. A question that gives one and asks what else you would want to know is testing judgment, and the answer is always some combination of: the reliability of the volume and price forecasts, the basis of the discount rate, what happens if the key assumption is wrong, and what the project commits the company to that cannot be undone.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+forecast dependence | الاعتماد على التقديرات | dépendance aux prévisions
+false precision | الدقة الزائفة | fausse précision
+scale | الحجم | échelle
+communicability | قابلية الإيصال | intelligibilité
+@end
+SECTION CHECK   Test yourself
+SC16-4  Which is a limitation of net present value?
+A.	It gives no sense of the return relative to the amount invested.
+B.	It ignores cash flows after the payback period.
+C.	It ignores the time value of money.
+D.	It cannot be computed for uneven flows.
+SC16-5  Net present value is the measure most consistent with:
+A.	value created for the providers of capital.
+B.	accounting profit.
+C.	liquidity.
+D.	taxable income.
+SC16-6  A net present value stated to the nearest dollar on volumes forecast to the nearest hundred thousand units displays:
+A.	precision it has not earned.
+B.	appropriate accuracy.
+C.	a computational error.
+D.	conservatism.
+Answers and explanations are at the end of the chapter.
+16.3  The internal rate of return
+The internal rate of return is the discount rate at which a project's net present value is exactly zero. It is the project's own return, computed from its cash flows and nothing else, which is where the word internal comes from: no external rate enters the calculation.
+The decision rule is to accept where the internal rate of return exceeds the hurdle rate. For a conventional project — one outflow followed by inflows — that rule gives the same answer as net present value, because a positive net present value at the hurdle rate and an internal rate above it are two statements of one fact.
+There is no formula for it. It is found by trial, by interpolation between two trials, or by a spreadsheet doing the same thing quickly. The exam expects the interpolation.
+WORKED EXAMPLE   Worked example: the roasting line's internal rate of return
+Step 1. Try 19 per cent. The five-year annuity factor is 3.0576 and the year-5 factor 0.4190, so the inflows are worth 1,050,000 × 3.0576 = 3,210,480 plus 550,000 × 0.4190 = 230,450, which is 3,210,480 + 230,450 = 3,440,930, giving a net present value of 3,440,930 − 3,400,000 = 40,930. Still positive, so the true rate is higher.
+Step 2. Try 20 per cent. The factors are 2.9906 and 0.4019, so the inflows are worth 1,050,000 × 2.9906 = 3,140,130 plus 550,000 × 0.4019 = 221,045, which is 3,140,130 + 221,045 = 3,361,175, and the net present value is 3,400,000 − 3,361,175 = 38,825 negative. The rate lies between the two.
+Step 3. Interpolate. The total swing between the two trials is 40,930 + 38,825 = 79,755, and the positive part is 40,930 ÷ 79,755 = 0.513 of it, so the rate is 19 + 0.51 = 19.51 per cent.
+Check. Call it about 19.5 per cent against a hurdle of 9 per cent, which is comfortable, and note that it is the same conclusion the net present value reached. For a conventional project it always is.
+Its advantages. It is a rate, so it can be compared with the cost of capital, with other projects and with returns outside the business without any further work; it communicates to people who will not sit through a discounting explanation; it needs no discount rate as an input, which is useful where the cost of capital is disputed; and the gap between it and the hurdle rate is a visible margin of safety.
+Its limitations, and these are heavily examined.
+The reinvestment assumption. The arithmetic implicitly assumes that every interim cash flow is reinvested at the internal rate of return itself. For a project returning 19.5 per cent that assumes Orontes can keep finding 19.5 per cent uses for the money, which is a strong claim; net present value assumes reinvestment at the cost of capital, which is far more defensible because the company can always repay debt or return cash at that rate.
+It ignores scale, being a rate. Section 16.4 shows what that does.
+It can have more than one value, or none at all, where the flows change sign more than once. Section 16.5 deals with that.
+It cannot be averaged or added across projects, because rates on different amounts do not combine.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+trial and error | التجربة والخطأ | essais successifs
+interpolation | الاستقراء الخطي | interpolation
+margin of safety | هامش الأمان | marge de sécurité
+conventional project | مشروع تقليدي | projet conventionnel
+@end
+SECTION CHECK   Test yourself
+SC16-7  The internal rate of return is the rate at which:
+A.	net present value equals zero.
+B.	net present value is greatest.
+C.	payback is achieved.
+D.	the project breaks even in accounting terms.
+SC16-8  Trials at 19 and 20 per cent give net present values of 40,930 and 38,825 negative. The internal rate of return is about:
+A.	19.5 per cent
+B.	19.0 per cent
+C.	20.0 per cent
+D.	39.5 per cent
+SC16-9  The reinvestment assumption built into the internal rate of return is that interim flows earn:
+A.	the internal rate of return itself.
+B.	the cost of capital.
+C.	the risk-free rate.
+D.	nothing.
+Answers and explanations are at the end of the chapter.
+16.4  Where the two measures disagree
+For a single project considered on its own, the two measures never disagree about acceptance. They disagree about ranking, and only where projects are mutually exclusive — where taking one means not taking the other, because they use the same site, the same licence, the same machine or the same scarce manager.
+Three causes, and the exam asks for them by name.
+Scale. A small project can have a very high rate and create little value.
+Timing. A project whose flows arrive early has a higher internal rate of return than one of the same size whose flows arrive late, even where the late one creates more value in total.
+Life. A short project and a long one of the same size rank differently by rate and by value, for the same reason.
+WORKED EXAMPLE   Worked example: a high rate on a small project
+Step 1. Two projects, one site. Project S is a repacking contract: 1,000,000 out now and 1,400,000 back in a year. Project L is the roasting line of section 16.1. Only one can occupy the free floor space.
+Step 2. Project S by rate. The money grows 1,400,000 ÷ 1,000,000 = 1.40 times in one year, so its internal rate of return is 40 per cent — more than twice the line's 19.5 per cent.
+Step 3. Project S by value. Discounting at 9 per cent, 1,400,000 ÷ 1.09 = 1,284,404, so the net present value is 1,284,404 − 1,000,000 = 284,404.
+Step 4. Compare. Project S: 40 per cent, 284,404 of value. Project L: 19.5 per cent, 1,041,630 of value. The rate prefers S and the value prefers L.
+Check. Take L. Orontes is not trying to earn the highest rate on the smallest sum; it is trying to be worth more. The missing 1,041,630 − 284,404 = 757,226 is the cost of letting a percentage make the decision — and the honest way to see it is to ask what Orontes would do with the 2,400,000 it did not invest in Project S, which is to put it to work at the cost of capital, where by definition it creates nothing.
+That last sentence is the whole argument. A rate tells you how hard a dollar works; a value tells you how much money the project makes. When the two conflict, net present value is correct, because the company's objective is to be worth more and not to maximise a ratio.
+Two supplementary points the exam uses.
+The crossover rate. Plotting both projects' net present values against the discount rate gives two curves that cross. Below the crossover rate one project is better; above it the other is. Where the hurdle rate sits on the wrong side of the crossover, the rate ranking misleads, which is exactly the situation above.
+The incremental approach. Where a rate answer is wanted anyway, compute the internal rate of return on the difference between the two projects — the extra 2,400,000 invested and the extra flows it brings — and accept the larger project if that incremental rate beats the hurdle. It reaches the same conclusion as net present value, with more work.
+Figure F716-03 sets the comparison out.
+Figure F716-03. Rate against value: the repacking contract and the roasting line
+@table
+Measure | Project S (repacking) | Project L (roasting line) | Prefers
+Investment | 1,000,000 | 3,400,000 | —
+Internal rate of return | 40 per cent | 19.5 per cent | S
+Net present value at 9% | 284,404 | 1,041,630 | L
+Correct choice | | Take L | Value, not rate
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+mutually exclusive | متنافية | mutuellement exclusifs
+crossover rate | معدل التقاطع | taux d'intersection
+incremental analysis | التحليل التفاضلي | analyse différentielle
+ranking | الترتيب | classement
+@end
+SECTION CHECK   Test yourself
+SC16-10  Net present value and the internal rate of return can rank projects differently because of:
+A.	differences in scale, timing and life.
+B.	errors in the cash flows.
+C.	the tax rate.
+D.	inflation only.
+SC16-11  Where the two measures conflict for mutually exclusive projects, the correct choice follows:
+A.	net present value, because the objective is to be worth more.
+B.	the internal rate of return, because it is a return.
+C.	whichever is higher.
+D.	payback.
+SC16-12  Project S returns 40 per cent on 1,000,000 and Project L 19.5 per cent on 3,400,000. Taking S instead of L would forgo:
+A.	757,226 of value
+B.	284,404 of value
+C.	20.5 percentage points
+D.	nothing
+Answers and explanations are at the end of the chapter.
+16.5  Multiple rates, no rate, and the modified internal rate of return
+A conventional project has one sign change — out, then in — and exactly one internal rate of return. Where the flows change sign more than once the equation can have several roots, or none.
+Projects with more than one sign change are common: a mine or quarry that must be restored at the end, a plant with a large decommissioning cost, a project needing a second injection of capital in the middle, a contract with a penalty on completion.
+WORKED EXAMPLE   Worked example: a project with two internal rates of return
+Step 1. The flows. A sesame-hulling site costs 1,000,000 now, returns 2,600,000 at the end of year 1, and requires 1,650,000 of restoration at the end of year 2. Two sign changes.
+Step 2. Test 10 per cent. The inflow is worth 2,600,000 ÷ 1.1 = 2,363,636 and the restoration 1,650,000 ÷ 1.21 = 1,363,636, so the net of the two is 2,363,636 − 1,363,636 = 1,000,000, which exactly offsets the initial outlay. The net present value is zero, so 10 per cent is an internal rate of return.
+Step 3. Test 50 per cent. Now the inflow is worth 2,600,000 ÷ 1.5 = 1,733,333 and the restoration 1,650,000 ÷ 2.25 = 733,333, so the net is 1,733,333 − 733,333 = 1,000,000 and the net present value is zero again. Fifty per cent is also an internal rate of return.
+Step 4. So what. Both are mathematically correct and neither is a return in any useful sense. The question "is the internal rate of return above the 9 per cent hurdle?" has two contradictory answers, so the measure has failed.
+Check. Net present value has not failed. At 9 per cent the value is 2,600,000 ÷ 1.09 = 2,385,321 for the inflow and 1,650,000 ÷ 1.1881 = 1,388,772 for the restoration, so the project's value is 2,385,321 − 1,388,772 = 996,549 against an outlay of 1,000,000 — very slightly negative, and the decision is to reject, by the narrowest of margins. One rate, one answer.
+The no-rate case is rarer and also real: some flow patterns give no real solution at all, so there is simply no internal rate of return to compute.
+The modified internal rate of return repairs the reinvestment problem and, incidentally, the multiple-rate one. It works in three steps: compound every inflow forward to the end of the project at the cost of capital, discount every outflow back to time zero at the same rate, and find the single rate that links the two. Because only one sign change survives, there is exactly one answer.
+WORKED EXAMPLE   Worked example: the roasting line's modified rate
+Step 1. Compound the inflows at 9 per cent. The five annual flows of 1,050,000, compounded forward to the end of year 5, carry factors of 1.41158, 1.29503, 1.18810, 1.09000 and 1.00000, which sum to 5.98471, so they are worth 1,050,000 × 5.98471 = 6,283,946 at the end.
+Step 2. Add the terminal flow. It already falls at the end of year 5, so 6,283,946 + 550,000 = 6,833,946.
+Step 3. Link to the outlay. The investment of 3,400,000 grows to 6,833,946 over five years, a multiple of 6,833,946 ÷ 3,400,000 = 2.010.
+Step 4. Take the fifth root. The fifth root of 2.010 is 1.1499, so the modified internal rate of return is 15.0 per cent.
+Check. Fifteen per cent against the unmodified 19.5 per cent. The difference is the whole of the reinvestment assumption: the plain internal rate of return credited the project with reinvesting its interim flows at 19.5 per cent, and the modified measure credits it only with 9 per cent, which is what Orontes can actually get. The project still clears the hurdle, by a smaller and more honest margin.
+Figure F716-04 summarises the four measures of this chapter.
+Figure F716-04. The measures compared
+@table
+Measure | Reinvests interim flows at | Unique answer | Reflects size | Verdict on the line
+Net present value | Cost of capital | Always | Yes | 1,041,630 — accept
+Internal rate of return | Itself | Not always | No | 19.5 per cent — accept
+Modified internal rate | Cost of capital | Always | No | 15.0 per cent — accept
+Crossover analysis | n/a | n/a | n/a | Explains conflicts
+@end
+YOUR TURN   Two measures, one project
+Figure F716-05 gives a project and asks for both measures. Complete the blanks. Answers are at the end of the chapter.
+Figure F716-05. Your turn: value and rate (complete the blanks)
+@table
+Item | Data | Answer
+Present value of five flows of 1,050,000 | Factor 3.8897 | ________
+Present value of 550,000 in year 5 | Factor 0.6499 | ________
+Net present value | Outlay 3,400,000 | ________
+Decision on that basis | | ________
+Rate at which net present value is zero | Between 19 and 20 per cent | ________
+Which measure wins a conflict between mutually exclusive projects | | ________
+@end
+LANGUAGE FOCUS   "Internal" and "net"
+Two adjectives in this chapter's titles do real work. Internal in internal rate of return means computed from the project's own flows, with no external rate used — which is both its appeal and the source of every one of its faults, because a measure that needs no cost of capital also ignores one. Arabic معدل العائد الداخلي and French taux de rendement interne both translate internal literally, so the word travels. Net in net present value means after deducting the investment: the present value of what comes in, less the present value of what goes out. Candidates who compute 4,441,630 and stop have found a present value and not a net present value, and the missing word costs the mark. Arabic صافية and French nette carry exactly the same instruction: subtract what you put in.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+sign change | تغير الإشارة | changement de signe
+decommissioning | إنهاء التشغيل وإزالة الأصل | démantèlement
+compounding forward | التجميع المستقبلي | capitalisation
+root | الجذر | racine
+@end
+SECTION CHECK   Test yourself
+SC16-13  A project can have more than one internal rate of return when:
+A.	its cash flows change sign more than once.
+B.	its flows are uneven.
+C.	it lasts more than five years.
+D.	the hurdle rate is high.
+SC16-14  The modified internal rate of return assumes interim flows are reinvested at:
+A.	the cost of capital.
+B.	the internal rate of return.
+C.	zero.
+D.	the risk-free rate.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F716-06 brings the chapter together.
+Figure F716-06. Chapter 16 summary map: the key rule for each section.
+Net present value is the present value of the inflows less the present value of the outflows at the hurdle rate, and for the roasting line it was 4,084,185 + 357,445 = 4,441,630 against an outlay of 3,400,000, leaving 1,041,630 of value created. Its advantages are that it uses every cash flow, discounts properly, makes the required return explicit, measures in money and is additive; its limitations are its dependence on forecasts and on the rate, its difficulty of explanation, and its silence about scale and liquidity. The internal rate of return is the rate at which that value is zero — here 19 + 0.51 = 19.51 per cent, found by interpolating between trials at 19 and 20 per cent — and it communicates well, needs no cost of capital, and assumes interim flows are reinvested at itself, which is usually indefensible. The two never disagree about accepting a single project and can disagree about ranking mutually exclusive ones, through scale, timing and life: the repacking contract's 40 per cent on 1,000,000 created only 284,404 of value against the line's 1,041,630, and the value is right. And where flows change sign more than once there can be two rates or none, as the hulling site's 10 and 50 per cent showed, while the modified internal rate of return — 6,833,946 ÷ 3,400,000 = 2.010, fifth root 1.1499, so 15.0 per cent — compounds at the cost of capital and always gives exactly one.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P16-01  Net present value is:
+A.	the present value of inflows less the present value of outflows.
+B.	the total of the cash flows.
+C.	the accounting profit discounted.
+D.	the rate at which the project breaks even.
+P16-02  Five annual flows of 1,050,000 at an annuity factor of 3.8897, plus 550,000 at a factor of 0.6499, are worth:
+A.	4,441,630
+B.	4,084,185
+C.	5,800,000
+D.	1,041,630
+P16-03  An outlay of 3,400,000 against inflows worth 4,441,630 gives a net present value of:
+A.	1,041,630
+B.	4,441,630
+C.	7,841,630
+D.	1.31
+P16-04  A net present value of zero means:
+A.	the project exactly earns the hurdle rate.
+B.	the project earns nothing.
+C.	the cash flows are zero.
+D.	the project must be rejected.
+P16-05  The internal rate of return assumes interim cash flows are reinvested at:
+A.	the internal rate of return.
+B.	the cost of capital.
+C.	the risk-free rate.
+D.	the inflation rate.
+P16-06  Trials at 19 and 20 per cent give 40,930 positive and 38,825 negative. The internal rate of return is nearest:
+A.	19.5 per cent
+B.	19.1 per cent
+C.	19.9 per cent
+D.	20.5 per cent
+P16-07  Which cannot be added across projects?
+A.	The internal rate of return
+B.	Net present value
+C.	Cash flows
+D.	Initial investments
+P16-08  Net present value and the internal rate of return may rank mutually exclusive projects differently because of:
+A.	scale, timing and life.
+B.	the tax rate.
+C.	depreciation method.
+D.	working capital.
+P16-09  A project with two sign changes in its cash flows may have:
+A.	two internal rates of return.
+B.	two net present values at one rate.
+C.	no cash flows.
+D.	no net present value.
+P16-10  A project's inflows compound to 6,833,946 against an outlay of 3,400,000 over five years, a multiple of 2.010 whose fifth root is 1.1499. The modified internal rate of return is:
+A.	15.0 per cent
+B.	20.1 per cent
+C.	10.1 per cent
+D.	19.5 per cent
+Case-style practice: the licence
+Orontes can bid for one of two five-year licences at the Latakia port, and can hold only one. Licence A needs 800,000 of equipment and returns 320,000 a year for five years. Licence B needs 3,400,000 — it is the roasting line, relocated — and returns 1,050,000 a year plus 550,000 at the end. The cost of capital is 9 per cent, where the five-year annuity factor is 3.8897 and the year-5 factor 0.6499. Licence A's internal rate of return is 28.6 per cent; Licence B's is 19.5 per cent.
+Required. Compute Licence A's net present value, say which licence you would bid for, and explain to a non-financial director why the licence with the lower rate may be the right one. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC16-1  Answer A. Zero means the project exactly covers its cost of capital.
+B is wrong. It earns exactly the required return, which is not nothing.
+C is wrong. It is acceptable, if marginal.
+D is wrong. The flows exist; they discount to the outlay.
+SC16-2  Answer A. 1,050,000 × 3.8897 = 4,084,185.
+B is wrong. That is the undiscounted total.
+C is wrong. That is the outlay.
+D is wrong. That is a single-year figure.
+SC16-3  Answer A. Money measures add; rates do not.
+B is wrong. The rate is central to it.
+C is wrong. Forecasts are essential.
+D is wrong. It is stated in money.
+SC16-4  Answer A. It says nothing about return relative to investment.
+B is wrong. It uses all flows, which is a strength.
+C is wrong. Discounting is its method.
+D is wrong. Uneven flows are handled year by year.
+SC16-5  Answer A. It measures value created for capital providers.
+B is wrong. Accounting profit is not its basis.
+C is wrong. It ignores the pattern of recovery.
+D is wrong. Tax enters the flows, not the objective.
+SC16-6  Answer A. The output cannot be more precise than the input.
+B is wrong. The precision is spurious.
+C is wrong. The arithmetic may be perfect.
+D is wrong. Conservatism is a different matter.
+SC16-7  Answer A. Zero net present value defines it.
+B is wrong. The greatest value is at the lowest rate.
+C is wrong. Payback is a different measure.
+D is wrong. Accounting break-even is unrelated.
+SC16-8  Answer A. 40,930 ÷ 79,755 = 0.513, so about 19.5 per cent.
+B is wrong. At 19 per cent the value is still positive.
+C is wrong. At 20 per cent it is negative.
+D is wrong. That is not a rate in this range.
+SC16-9  Answer A. It implicitly reinvests at its own rate.
+B is wrong. That is net present value's assumption.
+C is wrong. No measure here assumes the risk-free rate.
+D is wrong. The flows are assumed to earn something.
+SC16-10  Answer A. The three classic causes.
+B is wrong. Errors would affect both measures alike.
+C is wrong. Tax is inside the flows.
+D is wrong. Inflation is one input among many.
+SC16-11  Answer A. The objective is to be worth more.
+B is wrong. A rate ignores size.
+C is wrong. That is not a rule.
+D is wrong. Payback ignores later flows entirely.
+SC16-12  Answer A. 1,041,630 − 284,404 = 757,226.
+B is wrong. That is S's own value.
+C is wrong. The difference in rates is not the loss.
+D is wrong. The loss is substantial.
+SC16-13  Answer A. More than one sign change permits multiple roots.
+B is wrong. Unevenness alone is harmless.
+C is wrong. Length is irrelevant.
+D is wrong. The hurdle rate is not part of the computation.
+SC16-14  Answer A. Compounding forward at the cost of capital is its definition.
+B is wrong. That is the assumption it removes.
+C is wrong. Zero would understate the flows.
+D is wrong. The cost of capital, not the risk-free rate, is used.
+Your turn
+@table
+Item | Answer
+Present value of five flows of 1,050,000 | 4,084,185: 1,050,000 × 3.8897 = 4,084,185.
+Present value of 550,000 in year 5 | 357,445: 550,000 × 0.6499 = 357,445.
+Net present value | 1,041,630: 4,441,630 − 3,400,000 = 1,041,630.
+Decision on that basis | Accept: the value is positive, so the project returns more than the money costs.
+Rate at which net present value is zero | About 19.5 per cent, by interpolation between the two trials.
+Which measure wins a conflict | Net present value, because the objective is value and not a ratio.
+What it tells you | The two measures were computed from one set of flows and one rate. Everything else about them concerns what each one leaves out: scale, timing, reinvestment and the number of answers.
+@end
+Multiple-choice questions
+P16-01  Answer A. Inflows less outflows, both discounted.
+B is wrong. Undiscounted totals ignore timing.
+C is wrong. Accounting profit is not cash.
+D is wrong. That describes the internal rate of return.
+P16-02  Answer A. 4,084,185 + 357,445 = 4,441,630.
+B is wrong. That omits the terminal flow.
+C is wrong. That discounts nothing.
+D is wrong. That is the net figure after the outlay.
+P16-03  Answer A. 4,441,630 − 3,400,000 = 1,041,630.
+B is wrong. That is before the outlay.
+C is wrong. This adds instead of subtracting.
+D is wrong. That is a ratio, not a value.
+P16-04  Answer A. Zero means exactly the required return.
+B is wrong. The required return is earned in full.
+C is wrong. The flows are not zero.
+D is wrong. Zero is acceptable.
+P16-05  Answer A. It reinvests at its own rate.
+B is wrong. That is net present value, and the modified rate.
+C is wrong. Neither measure uses it.
+D is wrong. Inflation is handled in the flows or the rate.
+P16-06  Answer A. 40,930 ÷ 79,755 = 0.513 of the one-point gap.
+B is wrong. That understates the interpolation.
+C is wrong. That overstates it.
+D is wrong. Above 20 per cent the value is negative.
+P16-07  Answer A. Rates on different amounts do not combine.
+B is wrong. Net present values are additive.
+C is wrong. Cash flows add.
+D is wrong. Investments add.
+P16-08  Answer A. The three classic causes of conflict.
+B is wrong. Tax affects both measures identically.
+C is wrong. Depreciation affects the flows, not the conflict.
+D is wrong. Working capital is one flow among several.
+P16-09  Answer A. Two sign changes permit two roots.
+B is wrong. One rate gives one value.
+C is wrong. The flows exist.
+D is wrong. Net present value is always computable.
+P16-10  Answer A. The fifth root of 2.010 implies 15.0 per cent.
+B is wrong. That is the multiple expressed as a rate.
+C is wrong. That misreads the root.
+D is wrong. That is the unmodified rate.
+Case-style set: the licence
+Licence A's net present value. The flows are level, so 320,000 × 3.8897 = 1,244,704, and against an outlay of 800,000 the value is 1,244,704 − 800,000 = 444,704.
+Licence B's net present value. From section 16.1, 1,041,630.
+Which to bid for. Licence B. It creates 1,041,630 − 444,704 = 596,926 more value than Licence A, and value is what the company is trying to create.
+Explaining it to a non-financial director. The rate answers a different question from the one we are asking. Licence A's 28.6 per cent says that every dollar we put into it works harder than every dollar in Licence B — and that is true. But we are not short of dollars; we are short of licences, and we can hold only one. The question is therefore not "which uses a dollar best?" but "which makes us more money?", and Licence B makes us about 597,000 more.
+Put the other way: if we take Licence A we save 2,600,000 of capital, and the best we can do with it is earn our cost of capital, which by definition adds nothing. So the saved capital does not make up the difference. If a second licence were available on Licence A's terms, we would want both — but that is not the choice in front of us.
+What I would want before bidding. The reliability of Licence B's volume forecast, since it carries five times the capital; whether the licence can be surrendered or sublet, which is Chapter 15's option to abandon; and what the port authority can change during the five years, because a licence is a promise by somebody else.

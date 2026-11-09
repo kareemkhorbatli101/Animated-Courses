@@ -1,0 +1,491 @@
+Chapter 17
+Payback, the profitability index and capital rationing
+فترة الاسترداد ومؤشر الربحية وترشيد رأس المال
+Net present value answers the question "does this create value?" and the internal rate of return answers "at what rate?". Two other questions get asked in every real investment meeting, and neither of the Chapter 16 measures answers them: how long before we get our money back, and what do we do when there is not enough money for everything?
+This chapter answers both. Payback and discounted payback measure the speed of recovery; the profitability index measures value for each dollar committed and is the tool for rationing; and the accounting rate of return, which discounts nothing, closes the chapter because the exam still asks for it and because the budget committee often starts with it.
+Figure F717-01 is your map.
+Figure F717-01. Chapter 17 roadmap: speed of recovery, value per dollar, and what to do when money is short.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+E.2.h | Demonstrate an understanding of the payback and discounted payback methods. | C | Full treatment
+E.2.j | Calculate payback periods and discounted payback periods. | C | Full treatment
+E.2.i | Identify the advantages and disadvantages of the payback and discounted payback methods. | C | Full treatment
+E.2.k | Define and calculate the profitability index. | C | Full treatment
+E.2.l | Describe how sensitivity analysis is used in capital investment decision analysis. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section E outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+payback period | فترة الاسترداد | délai de récupération
+discounted payback period | فترة الاسترداد المخصومة | délai de récupération actualisé
+profitability index | مؤشر الربحية | indice de profitabilité
+capital rationing | ترشيد رأس المال | rationnement du capital
+accounting rate of return | معدل العائد المحاسبي | taux de rendement comptable
+divisible project | مشروع قابل للتجزئة | projet divisible
+@end
+WHAT YOU ALREADY KNOW   What you already know
+The roasting line of Chapters 14 to 16: 3,400,000 out, 1,050,000 a year for five years, 550,000 more at the end; a net present value of 1,041,630 at 9 per cent; an internal rate of return of about 19.5 per cent. Chapter 16 also listed net present value's two blind spots — it says nothing about the speed of recovery and nothing about value relative to the amount invested. This chapter fills both.
+17.1  The payback period
+The payback period is the time taken for a project's cash inflows to recover its initial investment. It is not a measure of profitability and it was never meant to be: it is a measure of exposure, answering how long the company's money is at risk.
+Where the inflows are level, divide. Where they are uneven, accumulate them year by year until the investment is covered, then take the fraction of the final year needed.
+WORKED EXAMPLE   Worked example: the roasting line's payback
+Step 1. Level flows, so divide. The investment is 3,400,000 and the annual inflow 1,050,000, so the payback is 3,400,000 ÷ 1,050,000 = 3.24 years.
+Step 2. The long way, which also handles uneven flows. Three years bring in 1,050,000 × 3 = 3,150,000, leaving 3,400,000 − 3,150,000 = 250,000 to recover.
+Step 3. Take the fraction. That remainder is 250,000 ÷ 1,050,000 = 0.238 of the fourth year's inflow, so the payback is 3 + 0.24 = 3.24 years, agreeing with step 1.
+Check. Note what step 3 assumes: that cash arrives evenly through the fourth year. It does not, for a business with a harvest in it, and a payback stated to two decimals from annual data is as falsely precise as anything Chapter 16 warned about. "Between three and four years" is the honest answer.
+Its advantages, and they are real.
+It is simple and universally understood. A plant manager who will never discount anything understands three and a quarter years.
+It measures liquidity exposure, which matters to a company that cannot afford to have its cash tied up — Book 1's Chapter 11 and Book 2's whole working-capital section.
+It is a crude proxy for risk, because distant cash flows are the least certain, so a short payback means the case rests on the years that can be forecast.
+It is useful as a screen. Where a company sees two hundred proposals a year, rejecting those that cannot repay within five is a cheap first filter before the discounting work begins.
+Its limitations, which are the examined half.
+It ignores everything after the payback point. A project repaying in three years and then stopping ranks equally with one repaying in three years and running for twenty.
+It ignores the time value of money within the payback period, treating a dollar in year three as equal to one today — which section 17.2 repairs.
+It has no decision rule of its own. The required period is chosen, not derived: nothing in the arithmetic says whether four years is acceptable.
+It is biased against exactly the projects that create most value — long-lived infrastructure, research, brand building — because their returns arrive late.
+And it is not a profitability measure at all, so a project can have an attractive payback and a negative net present value.
+Figure F717-02 sets the two sides out.
+Figure F717-02. Payback: what it does and does not do
+@table
+Question | Payback's answer | Adequate?
+How long is our money at risk? | 3.24 years | Yes — this is its job
+Does the project create value? | No answer | No
+What happens after year 3.24? | Ignored | No
+Is a dollar in year 3 worth one today? | Assumed yes | No
+Is 3.24 years acceptable? | No answer | No — the standard is set by policy
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+recovery of investment | استرداد الاستثمار | récupération de l'investissement
+exposure | التعرض للمخاطر | exposition
+screen | أداة فرز أولي | filtre
+cut-off period | الفترة الحدية | délai maximal admis
+@end
+SECTION CHECK   Test yourself
+SC17-1  The payback period measures:
+A.	how long the investment takes to be recovered.
+B.	the project's profitability.
+C.	the value the project creates.
+D.	the project's internal rate of return.
+SC17-2  An investment of 3,400,000 recovering 1,050,000 a year pays back in:
+A.	3.24 years
+B.	3.00 years
+C.	4.00 years
+D.	3.90 years
+SC17-3  Payback's most serious limitation is that it:
+A.	ignores every cash flow after the payback point.
+B.	is hard to compute.
+C.	requires a discount rate.
+D.	cannot be applied to uneven flows.
+Answers and explanations are at the end of the chapter.
+17.2  Discounted payback
+Discounted payback asks the same question of discounted flows: how long until the present value of the inflows covers the investment? It repairs one of payback's two great faults — the ignoring of time value within the period — and leaves the other untouched, because flows after the recovery point are still ignored.
+WORKED EXAMPLE   Worked example: the roasting line's discounted payback
+Step 1. Discount each year at 9 per cent. The factors are 0.9174, 0.8417, 0.7722, 0.7084 and 0.6499, so the five inflows of 1,050,000 are worth 963,270, 883,785, 810,810, 743,820 and 682,395 respectively.
+Step 2. Accumulate. After one year 963,270; after two, 963,270 + 883,785 = 1,847,055; after three, 1,847,055 + 810,810 = 2,657,865.
+Step 3. Find the shortfall. The investment is still short by 3,400,000 − 2,657,865 = 742,135 at the end of year three.
+Step 4. Take the fraction of year four. That shortfall is 742,135 ÷ 743,820 = 0.998 of the fourth year's discounted inflow, so the discounted payback is 3 + 1.00 = 4.00 years.
+Check. Undiscounted 3.24 years; discounted 4.00 years. The difference of three quarters of a year is the cost of the money during the recovery period, and it is always a lengthening: discounting can only make the inflows smaller. A company with a four-year cut-off would accept this project on payback and reject it on discounted payback, which is why the policy must say which one it means.
+Two further observations.
+A project whose discounted payback is shorter than its life has a positive net present value, necessarily, because by the time the discounted inflows cover the investment the net present value has passed zero, and every later flow adds to it. So discounted payback at least cannot contradict net present value about acceptance, which plain payback can.
+And it is harder to explain than payback while being easier to misread: "we get our money back in four years" is not what it says. It says the inflows cover the investment and its financing cost in four years.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+discounted inflow | التدفق الداخل المخصوم | flux actualisé
+cumulative present value | القيمة الحالية التراكمية | valeur actuelle cumulée
+shortfall | النقص | insuffisance
+financing cost | تكلفة التمويل | coût du financement
+@end
+SECTION CHECK   Test yourself
+SC17-4  Discounted payback is always:
+A.	longer than plain payback.
+B.	shorter than plain payback.
+C.	the same as plain payback.
+D.	equal to the project's life.
+SC17-5  A project whose discounted payback falls within its life necessarily has:
+A.	a positive net present value.
+B.	a negative net present value.
+C.	an internal rate of return below the hurdle.
+D.	a profitability index below one.
+SC17-6  Discounted payback still ignores:
+A.	cash flows arising after the recovery point.
+B.	the time value of money.
+C.	the initial investment.
+D.	the discount rate.
+Answers and explanations are at the end of the chapter.
+17.3  The profitability index
+The profitability index is the present value of a project's inflows divided by the investment. It converts a net present value into a measure of value for each dollar committed, which is precisely the blind spot Chapter 16 identified.
+The index for the roasting line is 4,441,630 ÷ 3,400,000 = 1.306, or 1.31 to two decimals: every dollar invested comes back as about $1.31 of present value.
+Two conventions exist and both appear in exams. The common one divides the present value of the inflows by the investment, so the accept rule is an index above 1.00. The other divides the net present value by the investment, so the accept rule is an index above zero; the roasting line's index on that basis is 1,041,630 ÷ 3,400,000 = 0.306. The two carry the same information and differ by exactly 1.00. Read the question: if it offers answers near 1.3, it wants the first; near 0.3, the second.
+Three things make the index worth having.
+It is consistent with net present value about acceptance. An index above 1.00 and a positive net present value are the same statement, because the index exceeds one precisely when the inflows' present value exceeds the outlay.
+It ranks correctly under capital rationing, which is section 17.4.
+And it states value per dollar, which makes projects of very different sizes comparable in a way net present value cannot.
+Its limitation is the mirror image of net present value's. Being a ratio, it ignores absolute size: an index of 1.50 on 200,000 creates 100,000 of value and an index of 1.10 on 10,000,000 creates 1,000,000. Where money is not short, take the bigger value; the index matters only when the money is.
+Figure F717-03 compares the three measures on the roasting line.
+Figure F717-03. Four readings of one project
+@table
+Measure | Figure | What it says | Decision
+Net present value | 1,041,630 | Value created in money | Accept
+Internal rate of return | 19.5 per cent | The project's own return | Accept
+Profitability index | 1.31 | Present value per dollar invested | Accept
+Discounted payback | 4.00 years | Years to recover investment and its cost | Policy decides
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+value per dollar invested | القيمة لكل وحدة نقد مستثمرة | valeur par unité investie
+ratio measure | مقياس نسبي | mesure relative
+accept rule | قاعدة القبول | règle d'acceptation
+convention | العرف المحاسبي | convention
+@end
+SECTION CHECK   Test yourself
+SC17-7  The profitability index of a project with inflows worth 4,441,630 and an outlay of 3,400,000 is:
+A.	1.31
+B.	0.76
+C.	1.04
+D.	3.24
+SC17-8  On the convention that divides the present value of inflows by the investment, the accept rule is an index above:
+A.	1.00
+B.	zero
+C.	the hurdle rate
+D.	1.31
+SC17-9  The profitability index's limitation is that it:
+A.	ignores absolute size.
+B.	ignores the time value of money.
+C.	cannot be computed for uneven flows.
+D.	contradicts net present value about acceptance.
+Answers and explanations are at the end of the chapter.
+17.4  Capital rationing
+Capital rationing is the condition in which a company has more value-creating projects than money to fund them. It comes in two forms, and the exam distinguishes them.
+Hard rationing is external: the company cannot raise more money on acceptable terms, because lenders will not lend, because covenants of the kind Book 2's Chapter 5 described forbid more debt, or because an equity issue would be prohibitively dilutive.
+Soft rationing is internal: the board sets a capital budget. Reasons include wanting to avoid the scrutiny of new financing, limiting how fast the organisation must absorb change, forcing divisions to compete so that weak proposals are filtered out, and distrust of the forecasts, which is Chapter 15's optimism problem again.
+Soft rationing is far more common, and worth noticing: a company turning down projects with positive net present values because of a self-imposed limit is choosing to be worth less than it could be, and it may have good reasons, but they should be stated.
+The method under rationing is to rank by profitability index rather than by net present value, and the reason is the arithmetic of a constraint: with a fixed budget, what should be maximised is value for each dollar of the scarce resource, exactly as Chapter 7's throughput analysis maximised contribution per hour of the bottleneck. The principle is the same and so is the mistake it prevents.
+WORKED EXAMPLE   Worked example: a budget of 5,000,000 and three proposals
+Step 1. The proposals. Project A needs 5,000,000 and has a net present value of 900,000. Project B needs 2,500,000 and has 600,000. Project C needs 2,500,000 and has 550,000. All three create value, and the budget is 5,000,000.
+Step 2. Rank by net present value. Project A's 900,000 is the largest, and it uses the entire budget, so the greedy answer is A alone, for a total of 900,000.
+Step 3. Compute the indices. A: 5,900,000 ÷ 5,000,000 = 1.18. B: 3,100,000 ÷ 2,500,000 = 1.24. C: 3,050,000 ÷ 2,500,000 = 1.22.
+Step 4. Rank by index. B first, then C, and together they need exactly 2,500,000 + 2,500,000 = 5,000,000 — the whole budget — for a total value of 600,000 + 550,000 = 1,150,000.
+Check. The index ranking creates 1,150,000 − 900,000 = 250,000 more value from the same money, and the reason is visible in step 1: Project A is the biggest project, not the most productive one. Ranking by net present value under a constraint rewards size; ranking by index rewards productivity, which is what a constraint demands.
+Three cautions belong with the method.
+The index ranking is exactly right only where projects are divisible — where half a project can be taken for half the money and half the value. Most capital projects are not: a roasting line cannot be bought in halves.
+So where projects are indivisible, the index gives the ranking from which to start, and the answer is then found by testing the feasible combinations and choosing the one with the greatest total net present value. With a handful of projects that is quick; with many it is a formal problem of a kind solved by linear programming, which the exam mentions but does not require you to solve.
+And the method assumes a single period's constraint. A project needing money in two successive years, in a company rationed in both, is a harder problem again.
+Figure F717-04 shows the two rankings side by side.
+Figure F717-04. Two rankings of the same three projects, budget 5,000,000
+@table
+Project | Investment | Net present value | Profitability index | Chosen by value | Chosen by index
+A | 5,000,000 | 900,000 | 1.18 | Yes | No
+B | 2,500,000 | 600,000 | 1.24 | No | Yes
+C | 2,500,000 | 550,000 | 1.22 | No | Yes
+Total value created | | | | 900,000 | 1,150,000
+@end
+17.5  Sensitivity analysis in the investment decision
+Chapter 15 introduced sensitivity analysis as one of three risk techniques. This section does the thing the outcome actually asks for: uses it on a capital investment decision, which means stating, for each input that matters, how far it can move before the decision reverses.
+The method is mechanical. Take the net present value, hold everything constant except one input, and solve for the value of that input at which the net present value becomes zero. Express the answer as a margin — the distance between the forecast and the reversal point — and then ask whether that margin is comfortable given what is known about the input.
+WORKED EXAMPLE   Worked example: four margins on the roasting line
+Step 1. The annual cash flow. The terminal flow is worth 550,000 × 0.6499 = 357,445 today, so the annual flows must cover 3,400,000 − 357,445 = 3,042,555, which over the annuity factor is 3,042,555 ÷ 3.8897 = 782,208 a year. The forecast is 1,050,000, so the margin is 1,050,000 − 782,208 = 267,792, which is 267,792 ÷ 1,050,000 = 25.50 per cent.
+Step 2. The investment. Every dollar of overrun reduces the net present value by a dollar, so the project survives an overrun of the whole net present value: 3,400,000 + 1,041,630 = 4,441,630 before it breaks even, a margin of 1,041,630 ÷ 3,400,000 = 30.64 per cent.
+Step 3. The discount rate. The net present value reaches zero at the internal rate of return, which Chapter 16 put at 19.5 per cent, so the rate has 19.5 − 9.0 = 10.5 points of headroom.
+Step 4. The life. Four years of flows are worth 1,050,000 × 3.2397 = 3,401,685, and the terminal amount arriving a year earlier is worth 550,000 × 0.7084 = 389,620, so a four-year project is worth 3,401,685 + 389,620 = 3,791,305, giving 3,791,305 − 3,400,000 = 391,305 and still clearing. The project survives losing a fifth of its life.
+Check. Every margin is in double figures, so the decision is robust — and the tightest is the annual cash flow at a quarter. That is the number to investigate before approving, and the next step is to push it back to its drivers: the after-tax operating flow would have to fall to 782,208 − 150,000 = 632,208, which before tax is 632,208 ÷ 0.75 = 842,944, a fall of 1,200,000 − 842,944 = 357,056, or 357,056 ÷ 1,200,000 = 29.75 per cent of the operating cash flow. Thirty per cent of the operating margin is a large miss; if the volume forecast could plausibly be thirty per cent wrong, the forecast is the problem and not the project.
+Three uses follow from an analysis like that, and the exam asks for them.
+It identifies the variable that decides. Here it is the annual operating cash flow, and within it the volume, which is where the appraisal effort and the sensitivity of Chapter 4 belong.
+It converts a forecast into a question somebody can answer. Nobody can say whether 1,050,000 a year is right. A sales manager can say whether volume could fall by thirty per cent.
+It tells you where to build in protection. Where the tight variable is one that can be contracted — an input price, a volume commitment, a lease term — the margin can be bought rather than hoped for.
+And two limits, both from Chapter 15. One-at-a-time analysis misses the fact that bad things arrive together, which is what scenario analysis is for; and it says nothing about how likely any of the reversal points is, which is what simulation attempts.
+Figure F717-05 collects the margins.
+Figure F717-05. How far each input can move before the roasting line breaks even
+@table
+Input | Forecast | Break-even value | Margin
+Annual cash flow | 1,050,000 | 782,208 | 25.50 per cent
+Initial investment | 3,400,000 | 4,441,630 | 30.64 per cent overrun
+Discount rate | 9.0 per cent | 19.5 per cent | 10.5 points
+Project life | 5 years | Between 4 and 5 years | Over a year
+@end
+SECTION CHECK   Test yourself
+SC17-10  Sensitivity analysis in a capital investment decision states, for each input:
+A.	the value at which the net present value becomes zero.
+B.	the probability of a loss.
+C.	the correlation with other inputs.
+D.	the discount rate.
+SC17-11  A project with a net present value of 1,041,630 on an investment of 3,400,000 survives a cost overrun of up to:
+A.	30.64 per cent
+B.	9.00 per cent
+C.	19.50 per cent
+D.	25.50 per cent
+Answers and explanations are at the end of the chapter.
+17.6  The accounting rate of return, and choosing among the measures
+The accounting rate of return — also met as the return on investment of Book 1 and as the simple or unadjusted rate of return — divides average annual accounting profit by the investment. It discounts nothing and uses profit rather than cash, which makes it the weakest of the measures and the one most often seen first, because it is the only one that speaks the language of the financial statements the project will eventually appear in.
+WORKED EXAMPLE   Worked example: the roasting line's accounting rate of return
+Step 1. From cash flow to profit. The line's pre-tax operating cash flow is 1,200,000 a year, and depreciation of 1,200,000 − 600,000 = 600,000 must be deducted to reach accounting profit, giving 600,000 before tax.
+Step 2. After tax. At 25 per cent, 600,000 × 0.75 = 450,000 of average annual profit.
+Step 3. On the initial investment. 450,000 ÷ 3,400,000 = 13.24 per cent.
+Step 4. On the average investment. Where the convention is to use the average of the opening and closing book amounts, (3,400,000 + 550,000) ÷ 2 = 1,975,000, so the rate is 450,000 ÷ 1,975,000 = 22.78 per cent.
+Check. The same project is 13.24 per cent or 22.78 per cent depending on a convention nobody outside the finance department knows about, and neither figure can be compared with the 9 per cent cost of capital, because one is an accounting ratio and the other a required return on cash. That is the measure's central weakness and the reason a question that offers both figures is testing whether you read the word average.
+Its weaknesses, stated plainly for the exam: it ignores the time value of money entirely; it uses accrual profit rather than cash, so it is affected by the depreciation method and by every accrual Book 1's Chapter 17 discussed; it depends on an arbitrary choice between initial and average investment; and it has no principled accept rule. Its one genuine advantage is that it is the measure in which the project's effect on reported results and on the divisional performance measures of Book 4 will actually show up — which matters for the behaviour of the manager being asked to propose it.
+Which measure, then. The practical answer used by most well-run companies is to compute several and let each answer its own question. Net present value decides. The internal rate of return communicates and gives the margin over the hurdle. The profitability index ranks under rationing. Payback or discounted payback states the liquidity exposure against a policy limit. The accounting rate of return shows what the financial statements will say. A proposal carrying all five, with the sensitivity analysis of Chapter 15 beside them, is a proposal a board can actually decide on.
+YOUR TURN   Five measures, one project
+Figure F717-06 gives the roasting line and asks for the measures. Complete the blanks. Answers are at the end of the chapter.
+Figure F717-06. Your turn: the measures (complete the blanks)
+@table
+Item | Data | Answer
+Payback period | Outlay 3,400,000; inflow 1,050,000 a year | ________
+Discounted payback | Cumulative present value 2,657,865 after 3 years | ________
+Profitability index | Inflows worth 4,441,630 | ________
+Net present value | | ________
+Which measure ranks projects under a fixed capital budget | | ________
+Which measure the financial statements will show | | ________
+@end
+LANGUAGE FOCUS   "Payback" and "index"
+English payback is a compound of ordinary words and sounds like plain speech, which is why it survives in boardrooms that have never discounted anything. The danger is that it sounds like a verdict — "the project pays back" — when it is only a duration. Arabic فترة الاسترداد keeps the word فترة, period, in the term itself, so the Arabic cannot be mistaken for a judgment; French délai de récupération does the same with délai. Index in profitability index means a ratio to a base, as in the index numbers of statistics, and the base here is the money invested. Note that Arabic مؤشر and French indice both mean an indicator rather than a measure of profit, which is the right instinct: the index indicates where to put scarce money and does not measure how much profit there is.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+average annual profit | متوسط الربح السنوي | bénéfice annuel moyen
+average investment | متوسط الاستثمار | investissement moyen
+accrual basis | أساس الاستحقاق | comptabilité d'engagement
+reported results | النتائج المعلنة | résultats publiés
+@end
+SECTION CHECK   Test yourself
+SC17-12  Under capital rationing, projects are ranked by:
+A.	profitability index, which maximises value for each dollar of the constraint.
+B.	net present value, which maximises value.
+C.	payback, which is quickest.
+D.	the accounting rate of return.
+SC17-13  Soft capital rationing arises from:
+A.	a budget limit set by the company itself.
+B.	lenders refusing to lend.
+C.	covenant restrictions.
+D.	an unavailable equity market.
+SC17-14  The profitability index ranking is exactly correct only where projects are:
+A.	divisible.
+B.	mutually exclusive.
+C.	of equal size.
+D.	of equal life.
+SC17-15  The accounting rate of return's central weakness is that it:
+A.	ignores the time value of money and uses profit rather than cash.
+B.	is hard to compute.
+C.	requires a discount rate.
+D.	cannot be compared with other projects.
+SC17-16  Average annual profit of 450,000 on an initial investment of 3,400,000 is an accounting rate of return of:
+A.	13.24 per cent
+B.	22.78 per cent
+C.	7.56 per cent
+D.	19.50 per cent
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F717-07 brings the chapter together.
+Figure F717-07. Chapter 17 summary map: the key rule for each section.
+The payback period is 3,400,000 ÷ 1,050,000 = 3.24 years for the roasting line, and it measures exposure rather than profitability: simple, understood by everyone, useful as a screen and as a liquidity test, and blind to everything after the recovery point, to time value within it, and to whether the period is acceptable at all. Discounted payback repairs the time-value fault, pushing the same project to 3 + 1.00 = 4.00 years, and a discounted payback inside the project's life guarantees a positive net present value. The profitability index — 4,441,630 ÷ 3,400,000 = 1.306, or 1.31 — states value for each dollar committed and agrees with net present value about acceptance while adding a correct ranking under a budget: with 5,000,000 to spend, the index chose two projects worth 600,000 + 550,000 = 1,150,000 where ranking by value alone chose one worth 900,000. Capital rationing is hard when it comes from outside and soft when the board imposes it, and the index ranking is exactly right only for divisible projects, so indivisible ones need the feasible combinations tested. Sensitivity analysis then states how far each input can move before the decision reverses: the annual flow by 267,792 ÷ 1,050,000 = 25.50 per cent, the investment by 1,041,630 ÷ 3,400,000 = 30.64 per cent, the rate by 19.5 − 9.0 = 10.5 points, and the life by more than a year — which identifies the variable that decides and turns a forecast into a question somebody can answer. And the accounting rate of return, at 450,000 ÷ 3,400,000 = 13.24 per cent on the initial investment or 22.78 per cent on the average, discounts nothing and uses profit rather than cash, which makes it the weakest measure and the one the financial statements will nonetheless report.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P17-01  The payback period measures:
+A.	the time taken to recover the investment.
+B.	the value created.
+C.	the project's return.
+D.	the cost of capital.
+P17-02  An outlay of 3,400,000 against level inflows of 1,050,000 pays back in:
+A.	3.24 years
+B.	3.00 years
+C.	2.76 years
+D.	4.00 years
+P17-03  Discounted payback differs from payback in that it:
+A.	discounts the inflows before accumulating them.
+B.	includes flows after recovery.
+C.	uses accounting profit.
+D.	ignores the investment.
+P17-04  Cumulative present value is 2,657,865 after three years and the fourth year's discounted inflow is 743,820. On an outlay of 3,400,000 the discounted payback is about:
+A.	4.0 years
+B.	3.2 years
+C.	3.5 years
+D.	4.6 years
+P17-05  The profitability index is:
+A.	the present value of inflows divided by the investment.
+B.	net present value divided by the inflows.
+C.	the investment divided by annual cash flow.
+D.	profit divided by sales.
+P17-06  An index of 1.31 means each dollar invested returns:
+A.	about $1.31 of present value.
+B.	31 cents of cash a year.
+C.	$1.31 of profit.
+D.	131 per cent a year.
+P17-07  Under a fixed capital budget, ranking by net present value rather than by profitability index tends to favour:
+A.	larger projects over more productive ones.
+B.	shorter projects.
+C.	divisible projects.
+D.	projects with earlier flows.
+P17-08  Hard capital rationing arises from:
+A.	an inability to raise further money on acceptable terms.
+B.	a board-imposed budget.
+C.	a desire to filter weak proposals.
+D.	distrust of forecasts.
+P17-09  With a budget of 5,000,000, Project A needs 5,000,000 for 900,000 of value while B and C each need 2,500,000 for 600,000 and 550,000. The best total value is:
+A.	1,150,000
+B.	900,000
+C.	2,050,000
+D.	550,000
+P17-10  Average annual profit of 450,000 on an average investment of 1,975,000 is an accounting rate of return of:
+A.	22.78 per cent
+B.	13.24 per cent
+C.	43.9 per cent
+D.	9.00 per cent
+P17-11  Which measure ignores the time value of money entirely?
+A.	The accounting rate of return
+B.	Discounted payback
+C.	The profitability index
+D.	Net present value
+P17-12  A project with a short payback and a negative net present value should be:
+A.	rejected, because payback is not a profitability measure.
+B.	accepted, because the money returns quickly.
+C.	accepted if the payback is under three years.
+D.	ranked by its accounting rate of return.
+Case-style practice: the capital budget
+Orontes's board has set next year's capital budget at $4,000,000 — soft rationing, imposed because last year's forecasts proved optimistic. Four proposals compete, all with positive net present values at 9 per cent.
+@table
+Proposal | Investment | Present value of inflows | Net present value
+Roasting line | 3,400,000 | 4,441,630 | 1,041,630
+Warehouse racking | 1,600,000 | 2,000,000 | 400,000
+Boiler replacement | 2,400,000 | 2,880,000 | 480,000
+Fleet renewal | 600,000 | 810,000 | 210,000
+@end
+None can be taken in part. Required. Compute each profitability index, recommend a combination, and comment on the board's decision to impose the limit. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC17-1  Answer A. It is a duration, not a return.
+B is wrong. It measures no profit.
+C is wrong. Value is net present value's job.
+D is wrong. That is a separate measure.
+SC17-2  Answer A. 3,400,000 ÷ 1,050,000 = 3.24 years.
+B is wrong. Three years recover only 3,150,000.
+C is wrong. That is the discounted figure.
+D is wrong. This has no basis in the data.
+SC17-3  Answer A. Everything after recovery is ignored.
+B is wrong. It is the easiest measure to compute.
+C is wrong. Plain payback uses no rate.
+D is wrong. Uneven flows are handled by accumulation.
+SC17-4  Answer A. Discounting shrinks the inflows, so recovery takes longer.
+B is wrong. It can never be shorter.
+C is wrong. Only at a zero discount rate.
+D is wrong. There is no such relationship.
+SC17-5  Answer A. Recovery inside the life means value has passed zero.
+B is wrong. The opposite follows.
+C is wrong. A positive value means the rate beats the hurdle.
+D is wrong. The index would exceed one.
+SC17-6  Answer A. Later flows are still excluded.
+B is wrong. Time value is exactly what it adds.
+C is wrong. The investment is the target to be recovered.
+D is wrong. The rate is used in the discounting.
+SC17-7  Answer A. 4,441,630 ÷ 3,400,000 = 1.306, or 1.31.
+B is wrong. That inverts the ratio.
+C is wrong. This has no basis in the figures.
+D is wrong. That is the payback period.
+SC17-8  Answer A. Inflows must exceed the outlay.
+B is wrong. Zero is the rule on the net-present-value convention.
+C is wrong. The index is not a rate.
+D is wrong. That is this project's index, not the rule.
+SC17-9  Answer A. A ratio says nothing about magnitude.
+B is wrong. Time value is in the present values.
+C is wrong. Any flows can be discounted.
+D is wrong. The two always agree about acceptance.
+SC17-10  Answer A. The reversal point for each input, one at a time.
+B is wrong. Probabilities come from simulation.
+C is wrong. Correlations are what scenarios capture.
+D is wrong. The rate is an input to be tested, not an output.
+SC17-11  Answer A. 1,041,630 ÷ 3,400,000 = 30.64 per cent.
+B is wrong. That is the discount rate.
+C is wrong. That is the internal rate of return.
+D is wrong. That is the margin on the annual cash flow.
+SC17-12  Answer A. Value per unit of the constraint.
+B is wrong. That rewards size under a budget.
+C is wrong. Payback measures no value.
+D is wrong. It discounts nothing.
+SC17-13  Answer A. Soft rationing is self-imposed.
+B is wrong. That is hard rationing.
+C is wrong. Covenants are external.
+D is wrong. Market conditions are external.
+SC17-14  Answer A. Divisibility makes the ranking exact.
+B is wrong. Mutual exclusivity is a different constraint.
+C is wrong. Equal size would remove the problem.
+D is wrong. Life is not the issue.
+SC17-15  Answer A. No discounting, and profit rather than cash.
+B is wrong. It is simple to compute.
+C is wrong. It uses none.
+D is wrong. It can be compared; the comparison is just unsound.
+SC17-16  Answer A. 450,000 ÷ 3,400,000 = 13.24 per cent.
+B is wrong. That uses the average investment.
+C is wrong. This has no basis in the figures.
+D is wrong. That is the internal rate of return.
+Your turn
+@table
+Item | Answer
+Payback period | 3.24 years: 3,400,000 ÷ 1,050,000 = 3.24.
+Discounted payback | 4.00 years: the shortfall of 742,135 is almost exactly the fourth year's discounted inflow.
+Profitability index | 1.31: 4,441,630 ÷ 3,400,000 = 1.306.
+Net present value | 1,041,630: 4,441,630 − 3,400,000 = 1,041,630.
+Measure that ranks under a fixed budget | The profitability index, which maximises value per dollar of the constraint.
+Measure the financial statements will show | The accounting rate of return, which uses accrual profit.
+What it tells you | Five measures, one project, one decision — accept. The measures differ in what they say when money is short or when liquidity is the worry, which is exactly when more than one is needed.
+@end
+Multiple-choice questions
+P17-01  Answer A. A duration.
+B is wrong. No value is measured.
+C is wrong. No return is measured.
+D is wrong. Plain payback uses no rate.
+P17-02  Answer A. 3,400,000 ÷ 1,050,000 = 3.24 years.
+B is wrong. Three years are not enough.
+C is wrong. This inverts the figures.
+D is wrong. That is the discounted payback.
+P17-03  Answer A. The inflows are discounted first.
+B is wrong. Both ignore later flows.
+C is wrong. Neither uses profit.
+D is wrong. Both target the investment.
+P17-04  Answer A. The shortfall of 742,135 is nearly all of 743,820.
+B is wrong. That is the undiscounted payback.
+C is wrong. Recovery is not complete by then.
+D is wrong. The fourth year completes it.
+P17-05  Answer A. Present value of inflows over investment.
+B is wrong. That ratio is not used.
+C is wrong. That is the payback period.
+D is wrong. That is a margin.
+P17-06  Answer A. $1.31 of present value for each dollar.
+B is wrong. The index is not an annual figure.
+C is wrong. It is present value, not profit.
+D is wrong. It is not a rate.
+P17-07  Answer A. Size wins over productivity under a constraint.
+B is wrong. Length is not what the measures differ on here.
+C is wrong. Divisibility is an assumption, not a bias.
+D is wrong. Timing is handled by discounting in both.
+P17-08  Answer A. Inability to raise money is external.
+B is wrong. A board limit is soft rationing.
+C is wrong. Filtering is a reason for soft rationing.
+D is wrong. Distrust of forecasts is also internal.
+P17-09  Answer A. 600,000 + 550,000 = 1,150,000 from B and C.
+B is wrong. That is A alone, the greedy answer.
+C is wrong. The budget cannot fund all three.
+D is wrong. That is C alone.
+P17-10  Answer A. 450,000 ÷ 1,975,000 = 22.78 per cent.
+B is wrong. That uses the initial investment.
+C is wrong. This has no basis in the figures.
+D is wrong. That is the cost of capital.
+P17-11  Answer A. The accounting rate of return discounts nothing.
+B is wrong. Discounting is in its name.
+C is wrong. Its numerator is a present value.
+D is wrong. Discounting is its method.
+P17-12  Answer A. Payback says nothing about value.
+B is wrong. Quick recovery of a value-destroying project is still value destroyed.
+C is wrong. No cut-off makes a negative value acceptable.
+D is wrong. That measure is weaker still.
+Case-style set: the capital budget
+The indices. Roasting line: 4,441,630 ÷ 3,400,000 = 1.31. Racking: 2,000,000 ÷ 1,600,000 = 1.25. Boiler: 2,880,000 ÷ 2,400,000 = 1.20. Fleet: 810,000 ÷ 600,000 = 1.35.
+The index ranking is therefore fleet, roasting line, racking, boiler.
+Testing the combinations. The projects are indivisible, so the ranking is a starting point rather than the answer. Taking the fleet at 600,000 leaves 3,400,000, which the roasting line uses exactly: total value 1,041,630 + 210,000 = 1,251,630, and the budget is fully spent. The alternatives are worse: racking plus boiler costs 4,000,000 for 400,000 + 480,000 = 880,000; fleet plus racking plus... the boiler will not fit alongside both. No feasible combination beats 1,251,630.
+Recommendation: the fleet renewal and the roasting line, for a total of 1,251,630 of value on exactly 4,000,000 of capital.
+On the limit itself. The board is turning down the racking and the boiler, which together would create another 880,000 of value, so the self-imposed budget costs the company that much on these figures. Three things should be said about it. First, the reason given — optimistic forecasts — is a reason to correct the forecasts, not to cap the spending: capping punishes the honest proposals along with the hopeful ones. Second, if the concern is specific projects, the postaudit evidence of Chapter 15 should identify which sponsors and which kinds of project were optimistic, and the 880,000 may be partly illusory. Third, if the limit is really about something else — debt capacity, covenants, the organisation's ability to absorb four projects at once — that should be said plainly, because it is a better reason and it points to a different answer: stage the racking and the boiler into next year rather than reject them.

@@ -262,7 +262,6 @@ Comparable products. What similar goods sell for, adjusted for differences in si
 The competitor's price directly. In a market with few sellers, each watches the others, and a price change by one is answered by the rest. Chapter 11 calls this oligopoly and explains why prices there are often sticky.
 The customer's alternative. In an industrial sale, the price ceiling is what the customer would pay for the next best way of solving the same problem — which may be a competitor's product, doing it themselves, or doing nothing.
 For Orontes, the market price is close to given. Tahini sits on a shelf beside other tahini; the customer compares jars; and Book 1's finding that the gross margin fell from 37.0 to 35.0 per cent while sales grew is exactly what a market-priced product looks like when a company buys share.
-The analytical question in a market-priced business is therefore not what to charge but whether to be in the market at the price it offers, and that question is answered with the tools of Chapters 1 to 9: at $11.50 a jar Orontes's contribution would be 11.50 − 7.20 = 4.30, its breakeven would rise to 12,624,000 ÷ 4.30 = 2,935,814 jars, and its margin of safety would fall from 24.86 per cent to about 16 per cent. Whether to accept the market's price is a cost-structure question, and whether to try to change it is the subject of the next three chapters.
 Figure F710-05 summarises when each approach governs.
 Figure F710-05. Who sets the price?
 Situation
@@ -284,7 +283,9 @@ Chapters 11 and 12
 A regulated monopoly
 The regulator
 Cost, and the asset base
-This chapter, section 10.3
+Rate-of-return pricing, section 10.3
+The analytical question in a market-priced business is therefore not what to charge but whether to be in the market at the price it offers, and that question is answered with the tools of Chapters 1 to 9.
+Take the test at $11.50 a jar. The contribution would be 11.50 − 7.20 = 4.30, the breakeven would rise to 12,624,000 ÷ 4.30 = 2,935,814 jars, and the margin of safety would fall from 24.86 per cent to about 16 per cent. Whether to accept the market’s price is a cost-structure question, and whether to try to change it is the subject of the next three chapters.
 EXAM TRAP   A price floor is not a price
 The relevant cost of Chapter 6 is a floor below which an order should be refused. The full cost of this chapter is a long-run floor below which the business cannot survive. Neither is a price, and the gap between the floor and what the customer will pay is where the profit is.
 In a market-priced business, cost-plus produces a price nobody will pay, and the right use of the cost figure is to decide whether to be in the market at all.
@@ -342,14 +343,18 @@ Full cost a unit
 Variable 18.00, fixed costs 2,400,000 over 200,000 units
 ________
 Price at a 25 per cent markup on full cost
+Markup 25 per cent on full cost
 ________
 Markup on variable cost needed to reach that price
+Variable cost 18.00
 ________
 Margin on price at that price
+Full cost and price from the lines above
 ________
 Required profit at a 12 per cent return on 9,000,000 of capital
 ________
 Price under cost plus target rate of return
+Required profit spread over 200,000 units
 ________
 LANGUAGE FOCUS   "Markup"
 English markup is a percentage added to a cost, and margin is a percentage of a price, and the two are related but never equal — a point this chapter makes arithmetically and language makes harder. In retail speech markup is often used loosely for both, and a shopkeeper who says "I work on fifty per cent" may mean either. Arabic هامش الإضافة names the markup and هامش الربح the margin, keeping the two apart by the qualifier. French is the clearest: taux de marque is the margin on the selling price and taux de marge is the markup on cost, and French practice is to state which is meant every time. An exam answer should do the same, in any language: write the base beside the percentage.

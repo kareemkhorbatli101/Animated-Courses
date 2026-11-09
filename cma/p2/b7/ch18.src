@@ -1,0 +1,534 @@
+Chapter 18
+Buying a business: mergers, buyouts, defences, divestitures and the valuation
+شراء شركة: الاندماج والاستحواذ بالرفع المالي ودفاعات الاستحواذ والتصفية الجزئية والتقييم
+Everything in Chapters 14 to 17 valued a project. This chapter values a company, which is the same arithmetic applied to a bigger and messier set of cash flows, plus a set of ideas that belong to nothing else: the kinds of combination, the synergies that are supposed to justify a premium, the defences a target can raise, the ways a company can be taken apart as well as put together, and the judgment that decides whether a deal that looks right on paper is right in fact.
+Orontes has been buying hulled sesame from Ghab Mills for eleven years. The mill is for sale. This chapter decides whether to buy it and at what price, and in doing so covers every outcome in this part of the syllabus.
+Figure F718-01 is your map.
+Figure F718-01. Chapter 18 roadmap: the kinds of deal, the synergies, the defences, the divestitures, the valuation and the recommendation.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.5.a | Demonstrate an understanding of mergers and acquisitions — horizontal, vertical and conglomerate — and of leveraged buyouts. | C | Full treatment
+B.5.e | Identify possible synergies in targeted mergers and acquisitions. | C | Full treatment
+B.5.b | Identify and describe defences against takeovers. | C | Full treatment
+B.5.c | Identify and describe divestiture concepts: spin-offs, split-ups, equity carve-outs and tracking stock. | C | Full treatment
+B.5.d | Evaluate key factors in a company's financial situation and determine whether a restructuring would benefit shareholders. | C | Full treatment
+B.5.f | Value a business, a business segment and a business combination using the discounted cash flow method. | C | Full treatment
+B.5.g | Evaluate a proposed business combination and recommend on quantitative and qualitative grounds. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+horizontal merger | الاندماج الأفقي | fusion horizontale
+vertical merger | الاندماج الرأسي | fusion verticale
+conglomerate merger | الاندماج التكتلي | fusion conglomérale
+leveraged buyout | الاستحواذ بالرفع المالي | rachat par endettement
+synergy | التضافر | synergie
+poison pill | حبة السم | pilule empoisonnée
+white knight | الفارس الأبيض | chevalier blanc
+spin-off | التوزيع الانفصالي | scission-distribution
+equity carve-out | الطرح الجزئي للوحدة | introduction partielle en bourse
+tracking stock | السهم التتبعي | action traçante
+control premium | علاوة السيطرة | prime de contrôle
+terminal value | القيمة النهائية | valeur terminale
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Book 2 built Orontes's cost of capital at 9.04 per cent and valued the company's equity at 8,100,000 × 9.25 = 74,925,000 on the market's figures. Chapter 16 of this book discounted a stream of cash flows. Chapter 15 added a risk premium where the activity is unfamiliar. A company valuation uses all three, with the single complication that a company does not stop after five years.
+18.1  Mergers, acquisitions and leveraged buyouts
+A merger combines two companies into one; an acquisition is one company buying control of another, whether or not the target survives as a legal entity. The exam uses the terms loosely and classifies deals by the economic relationship between the parties.
+A horizontal combination joins competitors in the same industry and the same stage of production — two tahini producers. The usual case is economies of scale, the elimination of duplicated overhead and increased market power, and the usual obstacle is competition law.
+A vertical combination joins a company and its supplier or its customer, at different stages of the same chain. Orontes buying Ghab Mills is vertical and backward, moving towards the raw material; buying a chain of grocers would be vertical and forward. The usual case is security of supply, the removal of the supplier's margin and better coordination; the usual objection is that the acquirer takes on a business it does not know how to run, and loses the discipline of being able to switch suppliers.
+A conglomerate combination joins unrelated businesses. The case made for it is diversification of earnings and the use of surplus cash, and both arguments are weak: as Book 2's Chapter 2 showed, shareholders can diversify far more cheaply by holding both shares than a company can by buying one business with another, and surplus cash can be returned to them. Conglomerate deals are the ones most often found, on postaudit, to have destroyed value.
+A leveraged buyout is a different animal: the purchase of a company, usually by a private equity firm or by its own managers, financed largely by debt secured on the target's own assets and repaid out of its own cash flow. Where the buyers are the existing management it is a management buyout.
+Four features define it and the exam asks for them.
+The capital structure is deliberately extreme — debt of seventy per cent or more of the purchase price — which, as Book 2's Chapter 7 showed, magnifies the return on the small slice of equity and magnifies the risk in the same proportion.
+The target must have steady, predictable cash flow, because the interest has to be paid every quarter whatever the trading conditions. Cyclical businesses and research-heavy businesses make poor targets.
+Saleable assets help, both as security for the lenders and as a source of repayment: the sale of a division often funds part of the debt.
+And the discipline of debt is part of the argument. A management team that must generate cash to survive behaves differently from one sitting on a comfortable balance sheet, which is the free cash flow problem of Book 2's Chapter 9 solved by force.
+The risks are the mirror image. A leveraged company has no capacity to absorb a bad year; interest crowds out investment, so the business can be starved of the capital expenditure it needs; and the pressure to show cash quickly can cut exactly the long-lived spending that Chapter 17's payback bias already discourages.
+Figure F718-02 sets the kinds out.
+Figure F718-02. Four kinds of deal
+@table
+Kind | Who combines | Principal case made | Principal objection
+Horizontal | Competitors at the same stage | Scale, overhead, market power | Competition law; integration risk
+Vertical | Supplier and customer | Security of supply, margin, coordination | Unfamiliar business; loss of flexibility
+Conglomerate | Unrelated businesses | Diversification; use of surplus cash | Shareholders diversify more cheaply
+Leveraged buyout | A financial or management buyer | Debt discipline; return on thin equity | No capacity to absorb a bad year
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+acquirer | الشركة المستحوذة | acquéreur
+target | الشركة المستهدفة | cible
+backward integration | التكامل الخلفي | intégration en amont
+management buyout | استحواذ الإدارة | rachat par les cadres
+@end
+SECTION CHECK   Test yourself
+SC18-1  Orontes buying its sesame supplier is a:
+A.	vertical combination.
+B.	horizontal combination.
+C.	conglomerate combination.
+D.	leveraged buyout.
+SC18-2  The weakest argument for a conglomerate merger is:
+A.	diversification, because shareholders can diversify more cheaply themselves.
+B.	the use of surplus cash.
+C.	economies of scale.
+D.	security of supply.
+SC18-3  A good leveraged buyout target has:
+A.	steady, predictable cash flow and saleable assets.
+B.	high research spending.
+C.	cyclical earnings.
+D.	no debt capacity.
+Answers and explanations are at the end of the chapter.
+18.2  Synergies, and what they are worth
+Synergy is the value the combination creates that neither company could create alone — the reason the combined business can be worth more than the sum of its parts, and therefore the only honest justification for paying more than a target's standalone value.
+The exam expects the possible synergies identified by type.
+Revenue synergies. Cross-selling to each other's customers; access to the other's distribution or export licences; a stronger brand; pricing power from a larger share; filling gaps in a product range.
+Cost synergies. Removing duplicated head office, finance, IT and sales functions; closing one of two plants and running the other fuller, which is the operating leverage of Chapter 2; purchasing scale on inputs; eliminating the supplier's margin in a vertical deal; moving production to the lower-cost site.
+Asset synergies. Selling surplus property or duplicated equipment; releasing working capital where the two businesses can share inventory, which is Book 1's Chapter 12 applied twice over.
+Financial synergies. A larger, more diversified company may borrow more cheaply or more deeply; a profitable acquirer can use a target's tax losses where the law allows; and a company with cash can fund a target's investment programme that the target could not finance alone.
+Management synergy. Replacing a weak management team with a better one, which is real and is also the hardest to claim credibly, since it requires the acquirer to be demonstrably better at running the business.
+Three disciplines separate a real synergy from a hopeful one, and the examiners test them.
+Cost synergies are far more reliable than revenue synergies. A closed office is a measurable saving with a date on it; a cross-selling forecast is a hope with a spreadsheet attached.
+Every synergy has a cost. Redundancy payments, system integration, rebranding, retraining and the management time consumed are real and usually immediate, while the benefits arrive slowly. They belong in the valuation as a cash outflow at the start.
+And a synergy must be exclusive to the deal. A saving the acquirer could have made anyway is not a reason to pay for the target.
+EXAM TRAP   The synergy that justifies any price
+Because synergy is a forecast and the premium is a certainty, the arithmetic of a deal can always be made to work by raising the synergy estimate. The question to ask of every claimed figure is: who will be accountable for delivering it, by when, and how will we know? A synergy with no owner and no date is a number written to justify a price that was decided first.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+cross-selling | البيع المتقاطع | vente croisée
+duplicated function | الوظيفة المكررة | fonction redondante
+integration cost | تكلفة الدمج | coût d'intégration
+exclusive to the deal | خاص بالعملية | spécifique à l'opération
+@end
+SECTION CHECK   Test yourself
+SC18-4  The most reliable class of synergy is:
+A.	cost synergy, because a closed office is measurable and dated.
+B.	revenue synergy.
+C.	management synergy.
+D.	financial synergy.
+SC18-5  A saving the acquirer could have achieved without the deal:
+A.	is not a reason to pay for the target.
+B.	should be added to the synergy estimate.
+C.	justifies a higher premium.
+D.	is a financial synergy.
+SC18-6  Integration costs should be treated as:
+A.	an early cash outflow in the valuation.
+B.	an accounting adjustment only.
+C.	irrelevant, being one-off.
+D.	a reduction in the discount rate.
+Answers and explanations are at the end of the chapter.
+18.3  Defences against a takeover
+Where an offer is unwelcome, a target's board has a set of devices available, some built into its constitution in advance and some deployed in response. The exam names them and expects each described in a sentence.
+A poison pill, formally a shareholders' rights plan, gives existing shareholders other than the bidder the right to buy new shares cheaply once a bidder's holding passes a trigger — typically ten or twenty per cent. Exercising it floods the register with new shares and dilutes the bidder's stake, making the acquisition prohibitively expensive. It is the most powerful of the defences and, because the board can usually redeem it, it works mainly as a lever to force the bidder to negotiate.
+A staggered board, also called a classified board, divides the directors into classes with only one class elected each year, so a bidder who buys control of the shares cannot replace the board for two or three annual meetings. It is a delay rather than a block, and delay is often enough.
+A golden parachute is a contract entitling senior executives to a large payment if they lose their jobs after a change of control. As a defence it is weak, because the cost is small relative to a bid; its real justification is that managers who know they are protected can evaluate an offer on its merits instead of fighting to keep their jobs. Its objection is the obvious one: shareholders pay executives for losing a contest the executives may have caused.
+A leveraged recapitalisation has the target borrow heavily and pay a large special dividend or buy back shares, so that it becomes a highly leveraged company and much less attractive to a bidder whose plan was to use that unused debt capacity. It delivers value to shareholders immediately and leaves the company carrying the risks Book 2's Chapter 7 described.
+A fair price amendment requires any bidder to pay all shareholders the same price, or a price approved by a supermajority, which prevents the two-tier offer in which early sellers get a good price and the rest are squeezed.
+A voting rights plan restricts the votes attaching to a large block — for example by removing voting rights from shares above a threshold unless other shareholders approve — so that buying shares does not deliver control.
+A white knight is a friendly third party invited to make a competing offer on terms the board prefers. The company is still sold; the board chooses the buyer.
+Three more appear in questions. Greenmail is the repurchase of a hostile bidder's stake at a premium, usually with a standstill agreement not to bid again, and it benefits the bidder at the expense of the remaining shareholders. A crown jewel defence sells the asset the bidder most wants. A Pac-Man defence has the target bid for the bidder.
+The test to apply to all of them is whose interest they serve. A defence that forces a higher price serves shareholders; a defence that preserves the board's position at the cost of an attractive offer does not, which is why poison pills and staggered boards are the ones institutional investors most often vote to remove.
+Figure F718-03 sets them out.
+Figure F718-03. Takeover defences
+@table
+Defence | Mechanism | Effect | Serves shareholders?
+Poison pill | Cheap new shares to others on a trigger | Dilutes the bidder | Yes if used to negotiate
+Staggered board | Directors elected in classes | Delays board control | Mainly delay
+Golden parachute | Payment on loss of office | Frees managers to judge the offer | Mixed
+Leveraged recapitalisation | Heavy borrowing and a payout | Uses up debt capacity | Yes, with added risk
+Fair price amendment | Equal price for all holders | Blocks two-tier offers | Yes
+Voting rights plan | Votes limited above a threshold | Shares do not deliver control | Mainly the board
+White knight | A friendly competing bidder | Company sold on better terms | Yes
+Greenmail | Buying out the bidder at a premium | Bid withdrawn | No
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+shareholders' rights plan | خطة حقوق المساهمين | plan de droits des actionnaires
+staggered board | مجلس إدارة متدرج التجديد | conseil à renouvellement échelonné
+golden parachute | المظلة الذهبية | parachute doré
+leveraged recapitalisation | إعادة الهيكلة الرأسمالية بالاقتراض | recapitalisation par endettement
+@end
+SECTION CHECK   Test yourself
+SC18-7  A poison pill works by:
+A.	letting other shareholders buy cheap new shares, diluting the bidder.
+B.	paying executives on a change of control.
+C.	selling the asset the bidder wants.
+D.	inviting a friendly bidder.
+SC18-8  A staggered board defends by:
+A.	delaying the bidder's control of the board for two or three annual meetings.
+B.	diluting the bidder's shares.
+C.	increasing the target's debt.
+D.	equalising the price paid to shareholders.
+SC18-9  Greenmail:
+A.	benefits the hostile bidder at the expense of the remaining shareholders.
+B.	treats all shareholders equally.
+C.	is a shareholders' rights plan.
+D.	invites a competing offer.
+Answers and explanations are at the end of the chapter.
+18.4  Divestitures and restructuring
+Companies are taken apart as often as they are put together, and for the same reason: because the parts are worth more separately than together. The exam names four forms and expects them distinguished.
+A spin-off distributes the shares of a subsidiary to the parent's own shareholders, pro rata. No cash changes hands and no new investor is involved; the shareholders simply end up holding two shares instead of one. It is used where the subsidiary would be valued better on its own, where its management needs its own currency for incentives and acquisitions, or where a conglomerate discount is being removed.
+A split-up divides the whole company into two or more independent companies and the parent ceases to exist. It is the extreme case of a spin-off and arises from a strategic decision that the businesses have nothing to offer each other, or from a regulator requiring separation.
+An equity carve-out sells a minority stake in a subsidiary to outside investors, usually by a public offering. Unlike a spin-off it raises cash, and unlike a sale it keeps control. It also creates a market price for the unit, which is useful as a step towards a later full separation and as a measure of what the unit is worth.
+A tracking stock is a class of the parent's own shares whose dividend and value are tied to the results of one division, while the division remains legally inside the parent. It gives investors exposure to the unit's performance without a separation, which is its appeal and its weakness: the assets are not ring-fenced, the governance is ambiguous — the board owes duties to two sets of holders whose interests conflict over shared costs — and tracking stocks have largely fallen out of use for exactly that reason.
+Alongside these sit the plain divestiture, a sale of a unit for cash to a trade buyer or a financial one, and liquidation, where the assets are worth more sold separately than the business is worth running.
+The outcome also asks you to judge whether a restructuring would benefit shareholders, which is a question with a method.
+Value each unit separately on its own cash flows and its own cost of capital — a cyclical unit and a stable one do not share a discount rate.
+Compare the total with the company's market value. A sum of parts well above the market value is the conglomerate discount, and it is evidence that separation would be rewarded.
+Identify what the group genuinely provides to the unit: shared customers, shared technology, a cheaper cost of capital, scarce management. Those are the synergies of section 18.2 in reverse, and they are what separation would destroy.
+Price the costs of separation: duplicated head-office functions, lost purchasing scale, transaction and listing costs, tax on any gain, and the covenants of Book 2's Chapter 5, which may have to be renegotiated.
+And recommend only where the gain survives all four steps.
+WORKED EXAMPLE   Worked example: should Orontes sell its retail-pack segment?
+Step 1. Value the segment on its own flows. The segment generates free cash flow of 450,000 a year growing at 2 per cent, and as a retail business carries more risk than the group, so it is discounted at 9.5 per cent. The denominator is 0.095 − 0.02 = 0.075, giving a value of 450,000 ÷ 0.075 = 6,000,000.
+Step 2. What is on the table. A regional distributor has offered $7,200,000 in cash for the segment.
+Step 3. The gain. 7,200,000 − 6,000,000 = 1,200,000 before the costs of separation, which is a fifth more than the segment is worth to Orontes.
+Step 4. What separation would destroy. The segment buys its jars through the group's purchasing contract and shares the Latakia warehouse. If those advantages are worth, say, 200,000 of present value, the gain falls to about 1,000,000 and the recommendation still holds.
+Check. The right question is not whether the segment is profitable — it is — but whether it is worth more to somebody else, and here it is, by about a fifth. That is what a restructuring decision always comes down to, and it is Chapter 9's drop-or-keep analysis applied to a whole business instead of a product line.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+divestiture | التصفية الجزئية | cession
+split-up | التقسيم الكامل | scission totale
+conglomerate discount | خصم التكتل | décote de conglomérat
+sum of the parts | مجموع الأجزاء | somme des parties
+@end
+SECTION CHECK   Test yourself
+SC18-10  A spin-off:
+A.	distributes a subsidiary's shares to the parent's own shareholders and raises no cash.
+B.	sells a minority stake for cash.
+C.	creates a class of parent shares tied to one division.
+D.	dissolves the parent.
+SC18-11  An equity carve-out differs from a spin-off in that it:
+A.	raises cash and keeps control.
+B.	raises no cash.
+C.	dissolves the parent company.
+D.	keeps the unit legally inside the parent.
+SC18-12  A segment worth 6,000,000 to its owner and offered 7,200,000 should be:
+A.	sold, subject to the costs of separation and the advantages lost.
+B.	retained, because it is profitable.
+C.	spun off instead.
+D.	valued at the group's cost of capital.
+Answers and explanations are at the end of the chapter.
+18.5  Valuing a business by discounted cash flow
+The method is Chapter 16's, with four differences that the exam concentrates on.
+The cash flow is free cash flow to the firm, not a project's incremental flow: operating profit after tax, plus depreciation and other non-cash charges, less capital expenditure, less the increase in net working capital. It is the cash the business generates for all providers of capital, before any payment to them.
+The horizon is infinite, so the forecast is split in two: an explicit forecast for five or ten years, where each year is modelled, and a terminal value for everything after it. The terminal value is usually the larger half of the answer, which is why its two assumptions — the long-run growth rate and the rate — deserve more attention than the detail of year four.
+The rate is the target's weighted average cost of capital, not the acquirer's, because what is being discounted is the target's risk. Using Orontes's 9.04 per cent to value a mill with different operating risk and different gearing would be the error Chapter 15 warned about.
+And the result is an enterprise value — the value of the whole business. Subtracting the target's debt gives the value of its equity, which is what is actually being bought.
+The growing-perpetuity formula does the terminal value: a cash flow of C in the next year, growing at g for ever, discounted at r, is worth C divided by the quantity r minus g. It requires g to be below r, and a long-run growth rate above the growth of the economy is not credible for any company.
+WORKED EXAMPLE   Worked example: what is Ghab Mills worth?
+Step 1. Build next year's free cash flow. The mill's sales are $9,000,000 and its operating profit $1,200,000, so after tax at 25 per cent that is 1,200,000 × 0.75 = 900,000. Adding back depreciation of $300,000 gives 900,000 + 300,000 = 1,200,000 of operating cash. Capital expenditure of 464,000 leaves 1,200,000 − 464,000 = 736,000, and an increase in working capital of 50,000 leaves 736,000 − 50,000 = 686,000 of free cash flow.
+Step 2. Choose the rate and the growth. The mill is a stable, asset-heavy business, and its own weighted average cost of capital is 10 per cent; long-run growth of 3 per cent is defensible for a business whose volumes track the regional crop. The denominator is 0.10 − 0.03 = 0.07.
+Step 3. The enterprise value. 686,000 ÷ 0.07 = 9,800,000.
+Step 4. The equity value. The mill carries $2,000,000 of debt, so its equity is worth 9,800,000 − 2,000,000 = 7,800,000, which across 1,200,000 shares is 7,800,000 ÷ 1,200,000 = 6.50 a share.
+Check. The mill's shares trade at $6.50. The valuation has reproduced the market price exactly, which is what a standalone valuation should do for a fairly priced business, and it is the right starting point: the premium Orontes can justify is not based on the mill being mispriced but on what Orontes can do with it that nobody else can.
+Two refinements the exam uses.
+Valuing a segment. The same method applied to part of a company, as section 18.4 did with the retail-pack segment: its own flows, its own rate, and a share of corporate costs that would genuinely disappear — not an allocation, which is Chapter 9's lesson.
+Valuing the combination. The combined business is worth the acquirer's standalone value, plus the target's standalone value, plus the present value of the synergies net of the costs of achieving them. The acquirer's shareholders gain that net synergy less whatever premium is paid away, which is the arithmetic of section 18.6.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+free cash flow to the firm | التدفق النقدي الحر للشركة | flux de trésorerie disponible
+explicit forecast period | فترة التقدير التفصيلي | période de prévision explicite
+growing perpetuity | الدفعة الدائمة المتزايدة | rente perpétuelle croissante
+enterprise value | قيمة المنشأة | valeur d'entreprise
+@end
+SECTION CHECK   Test yourself
+SC18-13  Free cash flow to the firm is operating profit after tax, plus depreciation, less:
+A.	capital expenditure and the increase in net working capital.
+B.	interest and dividends.
+C.	tax only.
+D.	depreciation again.
+SC18-14  A target should be valued at:
+A.	its own weighted average cost of capital.
+B.	the acquirer's cost of capital.
+C.	the risk-free rate.
+D.	the acquirer's cost of equity.
+SC18-15  Free cash flow of 686,000 growing at 3 per cent, discounted at 10 per cent, gives an enterprise value of:
+A.	9,800,000
+B.	6,860,000
+C.	22,866,667
+D.	7,800,000
+Answers and explanations are at the end of the chapter.
+18.6  Evaluating the deal and recommending
+The arithmetic of a recommendation is short. The maximum Orontes can pay for the mill's equity is its standalone value plus the net synergy; anything above that transfers value from Orontes's shareholders to the mill's. The minimum the mill's owners will take is its market value. The negotiation happens between those two numbers, and the premium decides how the created value is split.
+WORKED EXAMPLE   Worked example: the price range, and what an offer is worth
+Step 1. The synergies. Buying the mill removes the trading margin and the duplicated administration on the sixty per cent of its output Orontes already takes, worth 180,000 a year before tax, which after tax is 180,000 × 0.75 = 135,000. Treated as a growing perpetuity on the same terms as the mill's own flows, that is worth 135,000 ÷ 0.07 = 1,928,571.
+Step 2. The cost of getting them. Integration — systems, redundancies, relabelling — will cost 400,000 before tax at the outset, which after tax is 400,000 × 0.75 = 300,000. So the net synergy is 1,928,571 − 300,000 = 1,628,571.
+Step 3. The ceiling. The most Orontes can pay for the equity is 7,800,000 + 1,628,571 = 9,428,571, which is 9,428,571 ÷ 1,200,000 = 7.86 a share. At that price every penny of the created value has gone to the seller.
+Step 4. An offer of $7.25 a share. That is 1,200,000 × 7.25 = 8,700,000 in total, a premium of 8,700,000 − 7,800,000 = 900,000 over market value, or 900,000 ÷ 7,800,000 = 11.54 per cent. Orontes keeps 9,428,571 − 8,700,000 = 728,571 of value and gives away 900,000 ÷ 1,628,571 = 55.26 per cent of the synergy.
+Check. Confirm it from the other direction. The combined equity is worth Orontes's 74,925,000 plus the mill's 7,800,000, which is 74,925,000 + 7,800,000 = 82,725,000, plus the net synergy, giving 82,725,000 + 1,628,571 = 84,353,571. Paying 8,700,000 in cash leaves Orontes's shareholders with 84,353,571 − 8,700,000 = 75,653,571, a gain of 75,653,571 − 74,925,000 = 728,571 — the same figure. The two routes must agree, and checking that they do is the quickest way to find an arithmetic error in an exam.
+Note what step 4 shows: more than half the value created by the deal goes to the target's shareholders at a premium of only eleven and a half per cent. That is the normal result in real acquisitions and the reason the research finds acquirers' shareholders gaining little on average while targets' shareholders gain a great deal. The premium is paid in certain cash now; the synergy is a forecast delivered over years by people who have just been acquired.
+The qualitative considerations decide as often as the arithmetic does, and the outcome asks for them.
+Can we run it? A tahini producer buying a mill is taking on a business with its own technology, its own labour practices and its own seasonal crop risk.
+Integration and culture. A mill of forty people acquired by a company of four hundred will either be absorbed or resented, and the difference is managed rather than assumed.
+Key people. In a small supplier the value may walk out of the door: the mill's chief engineer and its buyer of sesame may be the business.
+Concentration. Owning the supplier concentrates risk that was previously diversified across several. If the mill's crop fails, Orontes now carries the loss twice.
+Flexibility lost. Orontes can currently switch suppliers if the mill's prices rise. Afterwards it cannot, and the discipline that kept the mill's prices honest disappears.
+Financing and its effects. How the deal is paid for changes the gearing of Book 2's Chapter 7 and may touch the covenants of its Chapter 5.
+Regulatory and tax consequences, and the accounting: goodwill will arise, and Book 1's Chapter 7 showed what happens when it is later impaired.
+Alternatives. A long-term supply contract, a minority stake, or a joint venture may deliver much of the synergy for a fraction of the price and the risk — and no recommendation is complete without saying why the full acquisition is better than those.
+Figure F718-04 sets the price range out.
+Figure F718-04. The price range for Ghab Mills
+@table
+Item | Amount | Per share
+Standalone equity value (the floor) | 7,800,000 | 6.50
+Net synergy | 1,628,571 | 1.36
+Maximum justifiable price (the ceiling) | 9,428,571 | 7.86
+Offer at 7.25 | 8,700,000 | 7.25
+Value retained by Orontes | 728,571 | 0.61
+@end
+YOUR TURN   The deal in six lines
+Figure F718-05 gives the deal and asks for the figures and the names. Complete the blanks. Answers are at the end of the chapter.
+Figure F718-05. Your turn: the acquisition (complete the blanks)
+@table
+Item | Data | Answer
+Kind of combination | Orontes buys its sesame supplier | ________
+Enterprise value of the mill | Free cash flow 686,000; rate 10%; growth 3% | ________
+Equity value | Debt 2,000,000 | ________
+Maximum justifiable offer | Net synergy 1,628,571 | ________
+Premium at 7.25 a share | Market 6.50 | ________
+Defence that dilutes a bidder's stake | | ________
+@end
+LANGUAGE FOCUS   "Synergy", "goodwill" and the vocabulary of deals
+Deal language is unusually figurative in English and the figures do not all travel. Synergy comes from Greek for working together and in finance means specifically the value created by combination; Arabic التضافر and French synergie both carry the same technical sense, so the term is safe. Poison pill, white knight, golden parachute and greenmail are metaphors that have become technical terms, and the Arabic and French equivalents are literal translations — حبة السم, الفارس الأبيض, pilule empoisonnée, chevalier blanc — which means they are understood but should still be explained the first time they appear in a report. Goodwill is the trap: in ordinary English it means benevolence, and in accounting it means the excess of the price paid over the fair value of the identifiable net assets acquired. Arabic الشهرة, reputation, and French écart d'acquisition, the acquisition difference, are each better than the English at saying what it is — and the French is best of all, because goodwill is literally a difference and not a thing.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+premium | العلاوة | prime
+value transferred | القيمة المنقولة | valeur transférée
+goodwill | الشهرة | écart d'acquisition
+joint venture | المشروع المشترك | coentreprise
+@end
+SECTION CHECK   Test yourself
+SC18-16  The maximum an acquirer can justify paying for a target's equity is:
+A.	its standalone value plus the net synergy.
+B.	its standalone value.
+C.	its market value plus the gross synergy.
+D.	the combined value of both companies.
+SC18-17  A premium of 900,000 against a net synergy of 1,628,571 gives the target's shareholders:
+A.	55.26 per cent of the value created.
+B.	11.54 per cent of the value created.
+C.	all of the value created.
+D.	none of the value created.
+SC18-18  Which alternative should a recommendation on an acquisition always consider?
+A.	A supply contract, a minority stake or a joint venture.
+B.	A higher offer.
+C.	A leveraged recapitalisation.
+D.	A tracking stock.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F718-06 brings the chapter together.
+Figure F718-06. Chapter 18 summary map: the key rule for each section.
+Combinations are horizontal between competitors, vertical between a company and its supplier or customer, and conglomerate between unrelated businesses, with the leveraged buyout a separate case financed by debt on the target's own cash flow and suited only to steady, asset-rich businesses. Synergy is the only honest justification for a premium, and cost synergies are more reliable than revenue synergies, every synergy carries an integration cost, and a saving available without the deal is not a synergy at all. A target can defend with a poison pill, a staggered board, a golden parachute, a leveraged recapitalisation, a fair price amendment, a voting rights plan or a white knight, and the test of each is whether it serves shareholders or the board. Companies come apart through spin-offs, split-ups, equity carve-outs and tracking stock, and a restructuring is worth doing where the parts valued separately exceed the whole by more than the cost of separation — the retail-pack segment at 450,000 ÷ 0.075 = 6,000,000 against an offer of 7,200,000 being an example. A business is valued by discounting free cash flow to the firm at the target's own cost of capital: the mill's 686,000 ÷ 0.07 = 9,800,000 of enterprise value, less debt, gave 9,800,000 − 2,000,000 = 7,800,000 of equity and exactly its market price of 6.50 a share. And the recommendation lies between the floor of standalone value and the ceiling of 7,800,000 + 1,628,571 = 9,428,571: an offer of 7.25 a share kept 728,571 for Orontes and handed the mill's shareholders 900,000 ÷ 1,628,571 = 55.26 per cent of the value the deal creates — before any of the qualitative questions about running it, keeping its people, and whether a supply contract would have done instead.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P18-01  A combination of two competitors at the same stage of production is:
+A.	horizontal.
+B.	vertical.
+C.	conglomerate.
+D.	a carve-out.
+P18-02  A leveraged buyout is best suited to a target with:
+A.	steady cash flow and saleable assets.
+B.	high research spending.
+C.	volatile earnings.
+D.	no tangible assets.
+P18-03  Which is the least reliable synergy claim?
+A.	Cross-selling revenue
+B.	A closed head office
+C.	Eliminated supplier margin
+D.	Sold surplus property
+P18-04  A shareholders' rights plan is also known as a:
+A.	poison pill.
+B.	golden parachute.
+C.	white knight.
+D.	fair price amendment.
+P18-05  Inviting a friendly competing bidder is the:
+A.	white knight defence.
+B.	Pac-Man defence.
+C.	crown jewel defence.
+D.	greenmail defence.
+P18-06  Distributing a subsidiary's shares to the parent's shareholders, raising no cash, is a:
+A.	spin-off.
+B.	equity carve-out.
+C.	split-up.
+D.	tracking stock.
+P18-07  Selling a minority stake in a subsidiary to the public is an:
+A.	equity carve-out.
+B.	spin-off.
+C.	split-up.
+D.	asset sale.
+P18-08  Free cash flow to the firm of 686,000 next year, growing at 3 per cent, discounted at 10 per cent, is worth:
+A.	9,800,000
+B.	6,860,000
+C.	10,088,000
+D.	7,800,000
+P18-09  An enterprise value of 9,800,000 and debt of 2,000,000 give an equity value of:
+A.	7,800,000
+B.	11,800,000
+C.	9,800,000
+D.	2,000,000
+P18-10  Equity of 7,800,000 across 1,200,000 shares is worth per share:
+A.	6.50
+B.	7.86
+C.	7.25
+D.	9.80
+P18-11  With a net synergy of 1,628,571, the maximum justifiable price for equity worth 7,800,000 is:
+A.	9,428,571
+B.	7,800,000
+C.	6,171,429
+D.	1,628,571
+P18-12  An offer of 8,700,000 for equity worth 7,800,000 with a net synergy of 1,628,571 leaves the acquirer:
+A.	728,571 of value
+B.	900,000 of value
+C.	1,628,571 of value
+D.	nothing
+Case-style practice: the mill, revisited
+The mill's board has rejected Orontes's offer of $7.25 a share and has adopted a shareholders' rights plan triggered at 15 per cent. It has also disclosed that two of its three senior managers hold contracts entitling them to two years' salary on a change of control. A private equity firm has meanwhile approached the mill with a leveraged buyout proposal at $7.60 a share, financed 75 per cent by debt.
+Required. Advise Orontes's board. Deal with the ceiling on what Orontes can pay, the significance of the rights plan and the contracts, the competing bid, and the alternatives to acquisition. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC18-1  Answer A. Supplier and customer are different stages of one chain.
+B is wrong. Horizontal means the same stage.
+C is wrong. The businesses are related.
+D is wrong. The financing, not the relationship, defines a buyout.
+SC18-2  Answer A. Shareholders diversify by holding both shares.
+B is wrong. Weak, but surplus cash is at least a real resource.
+C is wrong. Scale is a horizontal argument.
+D is wrong. Supply security is a vertical argument.
+SC18-3  Answer A. Predictable cash pays the interest; assets secure it.
+B is wrong. Research spending competes with interest.
+C is wrong. Cyclicality is fatal to heavy debt.
+D is wrong. Debt capacity is the point of the structure.
+SC18-4  Answer A. A closed office has an amount and a date.
+B is wrong. Revenue synergies are forecasts.
+C is wrong. Management synergy is the hardest to claim.
+D is wrong. Financial synergies are real but usually small.
+SC18-5  Answer A. It is not created by the deal.
+B is wrong. That double-counts.
+C is wrong. It justifies nothing.
+D is wrong. Its classification is irrelevant; it is not a synergy.
+SC18-6  Answer A. The costs are real and early.
+B is wrong. They are cash.
+C is wrong. One-off cash flows still matter.
+D is wrong. The rate reflects risk, not costs.
+SC18-7  Answer A. Dilution through cheap new shares.
+B is wrong. That is a golden parachute.
+C is wrong. That is the crown jewel defence.
+D is wrong. That is a white knight.
+SC18-8  Answer A. Classes of directors delay board control.
+B is wrong. Dilution is the poison pill.
+C is wrong. Debt is the leveraged recapitalisation.
+D is wrong. Equal pricing is the fair price amendment.
+SC18-9  Answer A. The bidder is bought out at a premium others do not get.
+B is wrong. It does the opposite.
+C is wrong. That is the poison pill.
+D is wrong. That is the white knight.
+SC18-10  Answer A. Shares distributed pro rata, no cash raised.
+B is wrong. That is a carve-out.
+C is wrong. That is a tracking stock.
+D is wrong. That is a split-up.
+SC18-11  Answer A. Cash is raised and control retained.
+B is wrong. That describes a spin-off.
+C is wrong. Neither dissolves the parent.
+D is wrong. That describes a tracking stock.
+SC18-12  Answer A. It is worth more to the buyer than to us.
+B is wrong. Profitability is not the test.
+C is wrong. A spin-off raises no cash and forgoes the premium.
+D is wrong. The segment's own risk sets its rate.
+SC18-13  Answer A. Capital expenditure and working capital are deducted.
+B is wrong. Payments to capital providers are not deducted.
+C is wrong. Tax alone is not enough.
+D is wrong. Depreciation is added, not deducted twice.
+SC18-14  Answer A. The target's risk is what is being discounted.
+B is wrong. The acquirer's risk is a different risk.
+C is wrong. No business is risk-free.
+D is wrong. Equity's rate ignores the target's debt.
+SC18-15  Answer A. 686,000 ÷ 0.07 = 9,800,000.
+B is wrong. That multiplies by ten.
+C is wrong. That divides by the growth rate.
+D is wrong. That is the equity value after debt.
+SC18-16  Answer A. Above that, value passes to the seller.
+B is wrong. That is the floor, not the ceiling.
+C is wrong. Gross synergy ignores the cost of achieving it.
+D is wrong. The combined value includes the acquirer's own.
+SC18-17  Answer A. 900,000 ÷ 1,628,571 = 55.26 per cent.
+B is wrong. That is the premium over market value.
+C is wrong. The acquirer keeps 728,571.
+D is wrong. The premium is value transferred.
+SC18-18  Answer A. A contract, a stake or a venture may deliver much of the synergy for less.
+B is wrong. A higher offer is not an alternative to acquiring.
+C is wrong. That is a target's defence.
+D is wrong. That is a divestiture device.
+Your turn
+@table
+Item | Answer
+Kind of combination | Vertical, and backward: Orontes moves towards its raw material.
+Enterprise value of the mill | 9,800,000: 686,000 ÷ 0.07 = 9,800,000.
+Equity value | 7,800,000: 9,800,000 − 2,000,000 = 7,800,000, or 6.50 a share.
+Maximum justifiable offer | 9,428,571: 7,800,000 + 1,628,571 = 9,428,571, or 7.86 a share.
+Premium at 7.25 a share | 11.54 per cent: 900,000 ÷ 7,800,000 = 11.54 per cent.
+Defence that dilutes a bidder's stake | The poison pill, or shareholders' rights plan.
+What it tells you | The valuation sets a floor and a ceiling; everything between them is negotiation, and the premium decides who keeps the value the deal creates.
+@end
+Multiple-choice questions
+P18-01  Answer A. Same industry, same stage.
+B is wrong. Vertical joins different stages.
+C is wrong. Conglomerate joins unrelated businesses.
+D is wrong. A carve-out is a divestiture.
+P18-02  Answer A. Steady cash and security for lenders.
+B is wrong. Research competes with interest for cash.
+C is wrong. Volatility and heavy debt do not mix.
+D is wrong. Lenders want security.
+P18-03  Answer A. Cross-selling is a forecast.
+B is wrong. A closure is measurable.
+C is wrong. The margin is known.
+D is wrong. A sale produces cash on a date.
+P18-04  Answer A. The two names describe the same device.
+B is wrong. That is an executive contract.
+C is wrong. That is a friendly bidder.
+D is wrong. That is a constitutional amendment on price.
+P18-05  Answer A. A friendly competing bidder is the white knight.
+B is wrong. Pac-Man bids for the bidder.
+C is wrong. The crown jewel sells the prize asset.
+D is wrong. Greenmail buys the bidder out.
+P18-06  Answer A. Pro rata distribution, no cash.
+B is wrong. A carve-out raises cash.
+C is wrong. A split-up ends the parent.
+D is wrong. Tracking stock keeps the unit inside.
+P18-07  Answer A. A minority public offering of the subsidiary.
+B is wrong. A spin-off raises nothing.
+C is wrong. A split-up separates everything.
+D is wrong. An asset sale transfers assets, not shares in the unit.
+P18-08  Answer A. 686,000 ÷ 0.07 = 9,800,000.
+B is wrong. That multiplies by ten.
+C is wrong. That applies growth without discounting.
+D is wrong. That is the equity value.
+P18-09  Answer A. 9,800,000 − 2,000,000 = 7,800,000.
+B is wrong. Debt is subtracted, not added.
+C is wrong. That ignores the debt.
+D is wrong. That is the debt itself.
+P18-10  Answer A. 7,800,000 ÷ 1,200,000 = 6.50.
+B is wrong. That is the ceiling price.
+C is wrong. That is the offer.
+D is wrong. That is the enterprise value in millions.
+P18-11  Answer A. 7,800,000 + 1,628,571 = 9,428,571.
+B is wrong. That is the floor.
+C is wrong. This subtracts instead of adding.
+D is wrong. That is the synergy alone.
+P18-12  Answer A. 9,428,571 − 8,700,000 = 728,571.
+B is wrong. That is the premium handed over.
+C is wrong. That is the whole synergy, not the acquirer's share.
+D is wrong. Value remains, because the offer is below the ceiling.
+Case-style set: the mill, revisited
+The ceiling has not moved. Orontes can justify up to 9,428,571 for the equity — 7.86 a share — because that is the mill's standalone value of 7,800,000 plus the net synergy of 1,628,571. Nothing the mill's board has done changes that figure; a defence raises the price a bidder must pay, not the value the bidder can create.
+The rights plan. The 15 per cent trigger makes a hostile accumulation of shares impractical: crossing it would dilute Orontes's stake deliberately. Its practical effect is to force negotiation with the board, which the board can do because it can redeem the plan. So the question becomes whether a negotiated price below 7.86 is achievable. Note also that the plan protects the mill's shareholders' price as well as the board's position, and institutional holders may press for it to be redeemed if the alternative is no offer at all.
+The managers' contracts. Two years' salary for two of three managers is a cost, but a small one against an 8,700,000 offer, and its intended effect is benign: managers whose jobs are protected can judge an offer on its merits. The more important point is the one from section 18.6 — in a business of this size the managers may be the value, so Orontes should want them retained, not paid off.
+The competing bid. At 7.60 a share the buyout offer is 9,120,000 in total, below Orontes's ceiling of 9,428,571 but above the 7.25 already refused. Orontes can outbid it and still keep value — about 308,571 at 7.60 — but the margin is now thin, and a contested auction is how acquirers end up paying away all of their synergy.
+Recommendation. Approach the board with a negotiated offer up to about 7.70, make clear that 7.86 is an absolute ceiling, and prepare the alternative in parallel: a five-year supply contract with a volume commitment and a price formula. That captures a large part of the 180,000 a year of trading margin and duplicated administration without the price, the integration cost or the concentration of crop risk in one mill.

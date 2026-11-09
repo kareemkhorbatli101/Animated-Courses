@@ -1,0 +1,575 @@
+Chapter 14
+The capital budget, and its relevant cash flows
+الموازنة الرأسمالية وتدفقاتها النقدية الملائمة
+Book 2 ended with Orontes holding $7,302,100 of cash and two projects waiting: a roasting line and a warehouse, returning 14 and 11 per cent against a cost of capital of 9.04. Chapter 8 of that book said the budget stops where the projects cross the cost of the money. It did not say how the 14 per cent was computed.
+This chapter and the three that follow answer that. Capital budgeting is the analysis of investments whose effects run for years, and it differs from everything in Chapters 1 to 13 in two ways: the amounts are large and irreversible, and the timing matters, because a dollar in year five is worth less than a dollar today. This chapter builds the cash flows. Chapters 16 and 17 discount them.
+Figure F714-01 is your map.
+Figure F714-01. Chapter 14 roadmap: the stages of a capital budget, and the three groups of cash flow it needs.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+E.1.a
+Define capital budgeting and identify the stages of developing and implementing a capital budget.
+C
+Full treatment
+E.1.b
+Identify and calculate the relevant cash flows of a project, before and after tax.
+C
+Full treatment
+E.1.c
+Explain how income taxes affect project cash flows.
+C
+Full treatment
+E.1.d
+Distinguish cash flows from accounting profits, and apply incremental and sunk cost reasoning.
+C
+Full treatment
+E.1.e
+Explain the importance of changes in net working capital in capital budgeting.
+C
+Full treatment
+E.1.f
+Explain how inflation is reflected in capital budgeting.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section E outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+capital budgeting
+الموازنة الرأسمالية
+budget d'investissement
+initial investment
+الاستثمار المبدئي
+investissement initial
+operating cash flow
+التدفق النقدي التشغيلي
+flux d'exploitation
+terminal cash flow
+التدفق النقدي النهائي
+flux terminal
+depreciation tax shield
+الوفر الضريبي للإهلاك
+économie d'impôt liée à l'amortissement
+net working capital investment
+الاستثمار في رأس المال العامل
+investissement en fonds de roulement
+nominal cash flow
+التدفق الإسمي
+flux nominal
+real cash flow
+التدفق الحقيقي
+flux réel
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 established that only future cash flows that differ between alternatives are relevant, and that sunk costs and allocated overheads are not. Chapter 9 added that tax scales every option alike unless the options are taxed differently. Book 2 put Orontes's cost of capital at 9.04 per cent and its tax rate at 25. All four are inputs to this chapter.
+14.1  What capital budgeting is
+Capital budgeting is the process by which a company identifies, evaluates, selects and controls investments whose benefits extend beyond one year. The outcome asks for the stages, and there are six.
+Identification. Proposals arise from the strategy, from operations, from a regulatory requirement, or from a problem — a machine that is failing, a market that is growing, a rule that must be met. A company with no flow of proposals has a management problem rather than an investment problem.
+Screening. A quick test against the strategy, the available funds and an obvious hurdle, to avoid evaluating in detail what will never be approved.
+Evaluation. The analysis this chapter and the next three set out: estimate the cash flows, choose a discount rate, compute the measures, and test the result for risk.
+Selection. Ranking the surviving proposals and fitting them to the funds available, which Book 2's Chapter 8 did with the marginal cost of capital schedule.
+Implementation. Authorising, spending, and controlling the spend against the authority — because a project approved at $3,000,000 and delivered at $4,200,000 was a different project.
+Review, or the postaudit. Comparing what happened with what was promised, which Chapter 15 treats in full.
+Two features distinguish the whole process from the decisions of Chapters 5 to 9.
+Irreversibility. A machine bought is hard to unbuy, and a plant built in the wrong place stays there. That is why the analysis is done before rather than after, and why Chapter 15 spends a section on real options.
+Time. The money goes out now and comes back over years, so the arithmetic must account for the fact that money has a time value — which is why the measures of Chapters 16 and 17 discount.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+proposal
+المقترح الاستثماري
+projet d'investissement
+screening
+الفرز الأولي
+présélection
+authorisation
+الاعتماد
+autorisation
+postaudit
+المراجعة اللاحقة
+audit a posteriori
+SECTION CHECK   Test yourself
+SC14-1  Capital budgeting deals with investments whose benefits:
+A.	extend beyond one year.
+B.	arise within the month.
+C.	are certain.
+D.	are accounted for as expenses.
+SC14-2  Screening a proposal before full evaluation exists to:
+A.	avoid evaluating in detail what will never be approved.
+B.	replace the evaluation.
+C.	set the discount rate.
+D.	compute the payback.
+SC14-3  The stage that compares what happened with what was promised is:
+A.	the postaudit.
+B.	screening.
+C.	authorisation.
+D.	identification.
+Answers and explanations are at the end of the chapter.
+14.2  Cash flows, not accounting profits
+Capital budgeting uses cash flows and not accounting profits, and the outcome asks why. Four reasons.
+Cash is what can be reinvested, distributed or used to repay debt. Profit is an opinion about timing; cash is a fact about a bank account.
+Accrual accounting deliberately spreads things. Revenue is recognised when earned rather than when received, and the cost of an asset is spread as depreciation over its life. Both are right for reporting a period and wrong for valuing a project, because the whole point is when the money moves.
+Depreciation is not a cash flow at all. The cash moved when the asset was bought, which is the initial investment, and depreciation enters a capital budgeting analysis only through the tax it saves — the depreciation tax shield of section 14.4.
+And the relevance rules of Chapter 5 apply unchanged. Only incremental cash flows count: those that would not exist without the project.
+Five items recur and each is examined.
+Sunk costs are excluded. Market research already paid for, a site survey, a feasibility study. The $25,000 of development in Chapter 6's contract was the same idea in a different setting.
+Opportunity costs are included. If the project uses land the company already owns, the land's market value is a cost of the project, because selling it is the alternative. If it uses capacity that would otherwise make something else, the contribution forgone is a cost.
+Allocated overhead is excluded unless it changes. A project charged a share of head office costs that do not move is being charged for something it does not cause.
+Financing costs are excluded from the cash flows. Interest and the repayment of principal are not project cash flows; the cost of money is accounted for in the discount rate, and including it in both places charges for it twice. This is the single most common error in this topic.
+Side effects are included. Cannibalisation of the company's existing products, as in Chapter 9, and any benefit to other products, both belong in the project's cash flows.
+Figure F714-02 sorts them.
+Figure F714-02. In or out of a project's cash flows
+Item
+In?
+Why
+Incremental revenue and cash costs
+Yes
+They would not exist without the project
+Depreciation
+No, except through tax
+The cash moved when the asset was bought
+Interest and loan repayments
+No
+The cost of money is in the discount rate
+Sunk costs already incurred
+No
+They fail the first relevance test
+Opportunity cost of assets used
+Yes
+The alternative use is given up
+Allocated head office overhead
+No, unless it changes
+The project does not cause it
+Lost contribution on cannibalised sales
+Yes
+An incremental effect of the project
+Working capital invested and recovered
+Yes
+Cash out and later cash in
+EXAM TRAP   Interest belongs in the rate, not the flows
+Deducting interest from a project's cash flows and then discounting at the cost of capital charges for the money twice and will reject good projects.
+Depreciation appears in the analysis only as a tax shield. It is added back if a question starts from accounting profit, and never deducted as a cost.
+A question that gives you an accounting profit is asking you to convert it: add back depreciation, adjust for working capital movements, and remove any non-cash item.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+incremental cash flow
+التدفق النقدي التفاضلي
+flux différentiel
+side effect
+الأثر الجانبي
+effet induit
+non-cash item
+البند غير النقدي
+élément non monétaire
+double counting
+الازدواج الحسابي
+double comptage
+SECTION CHECK   Test yourself
+SC14-4  Depreciation enters a capital budgeting analysis:
+A.	only through the tax it saves.
+B.	as an annual cash cost.
+C.	as part of the initial investment.
+D.	not at all, in any form.
+SC14-5  Interest on the loan financing a project is:
+A.	excluded from the cash flows, because the cost of money is in the discount rate.
+B.	deducted from the operating cash flows.
+C.	added to the initial investment.
+D.	part of the terminal flow.
+SC14-6  Land the company already owns, used by a project, is:
+A.	included at its market value, as an opportunity cost.
+B.	excluded, because no cash is paid.
+C.	included at its historical cost.
+D.	included at its book value.
+Answers and explanations are at the end of the chapter.
+14.3  The three groups of cash flow
+Every project's cash flows fall into three groups, and building them in that order is the discipline that prevents omissions.
+The initial investment, at time zero. The purchase price of the asset, plus delivery, installation and commissioning; plus the initial investment in working capital; plus any opportunity cost of assets committed; less the after-tax proceeds of anything sold or displaced.
+The operating cash flows, each year of the project's life. The incremental revenue less the incremental cash operating costs, taxed, plus the depreciation tax shield.
+The terminal cash flow, in the final year. The after-tax proceeds of selling the asset, plus the recovery of the working capital, plus or less any closing costs.
+WORKED EXAMPLE   Worked example: Orontes's roasting line
+Step 1. The initial investment. The line costs $3,000,000 installed, and the extra stock and receivables it brings require $400,000 of working capital. The initial outlay is 3,000,000 + 400,000 = 3,400,000.
+Step 2. The annual operating flows, before tax. The line adds $2,400,000 of revenue and $1,200,000 of cash operating costs, so the pre-tax operating cash flow is 2,400,000 − 1,200,000 = 1,200,000 a year.
+Step 3. Tax on that. At 25 per cent the after-tax operating cash flow is 1,200,000 × 0.75 = 900,000.
+Step 4. The depreciation tax shield. The line is depreciated straight-line over five years to nil: 3,000,000 ÷ 5 = 600,000 a year, which at 25 per cent saves 600,000 × 0.25 = 150,000 of tax a year.
+Step 5. The annual total. 900,000 + 150,000 = 1,050,000 a year for five years.
+Step 6. The terminal flow. The line would fetch $200,000 at the end, and since its book value is nil the whole proceeds are taxable: 200,000 × 0.75 = 150,000 after tax. The working capital of $400,000 is released. The terminal flow is 400,000 + 150,000 = 550,000, received in year five in addition to that year's operating flow.
+Check. The project is $3,400,000 out and $1,050,000 a year in for five years, with $550,000 more at the end. Undiscounted that is 1,050,000 × 5 = 5,250,000 plus 550,000, or 5,800,000 — comfortably more than $3,400,000, but the comparison is meaningless until the timing is accounted for. Chapter 16 discounts it and finds a net present value of about 1,041,630 at 9 per cent, which is where the 14 per cent return quoted in Book 2 comes from.
+Figure F714-03 sets the three groups out.
+Figure F714-03. The roasting line's cash flows
+Item
+Amount
+Equipment, installed, at time zero
+(3,000,000)
+Working capital invested at time zero
+(400,000)
+Total initial investment
+(3,400,000)
+Pre-tax operating cash flow, each year
+1,200,000
+After-tax operating cash flow, each year
+900,000
+Depreciation tax shield, each year
+150,000
+Annual cash flow, each of years 1 to 5
+1,050,000
+Sale proceeds in year five, before tax
+200,000
+Tax on those proceeds
+(50,000)
+Working capital released in year five
+400,000
+Terminal flow in year five, additional
+550,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+time zero
+اللحظة صفر
+date zéro
+installation and commissioning
+التركيب والتشغيل التجريبي
+installation et mise en service
+disposal proceeds
+متحصلات البيع
+produit de cession
+project life
+عمر المشروع
+durée du projet
+SECTION CHECK   Test yourself
+SC14-7  A project costing 3,000,000 with 400,000 of working capital has an initial investment of:
+A.	3,400,000
+B.	3,000,000
+C.	2,600,000
+D.	400,000
+SC14-8  Pre-tax operating cash flow of 1,200,000 at a 25 per cent tax rate becomes:
+A.	900,000 after tax
+B.	1,200,000 after tax
+C.	300,000 after tax
+D.	1,600,000 after tax
+SC14-9  Depreciation of 600,000 a year at a 25 per cent tax rate produces a shield of:
+A.	150,000 a year
+B.	600,000 a year
+C.	450,000 a year
+D.	2,400,000 a year
+Answers and explanations are at the end of the chapter.
+14.4  How tax reaches the cash flows
+Tax enters a capital budgeting analysis in three places, and the outcome asks for all three.
+On the operating flows. Every dollar of incremental pre-tax operating cash flow is taxed, so it is worth one less the rate: 1,200,000 × 0.75 = 900,000 in the example above.
+Through the depreciation tax shield. Depreciation is not a cash cost, but it is deductible, so it reduces the tax paid. The shield is the depreciation times the tax rate, and it is a genuine cash inflow of the project. Where the tax rules allow accelerated depreciation, the shield arrives earlier and is worth more, which is why the tax code's depreciation method matters to a project's value even though the total deduction is the same.
+On the disposal. Selling an asset for more than its tax book value produces a taxable gain; for less, a deductible loss. In the example the line's book value is nil, so the whole $200,000 is taxed: 200,000 × 0.25 = 50,000 of tax, leaving $150,000. Had the book value been $200,000 there would have been no tax at all, and had it been $500,000 the $300,000 loss would have saved 300,000 × 0.25 = 75,000.
+Two further points appear in harder questions.
+A company with losses has a marginal tax rate of nil until they are used, so its shields are worth nothing now and something later — which, as Book 2's Chapter 7 showed, is the standard reason a loss-making company leases rather than buys.
+And an investment tax credit, where one exists, is a direct reduction of tax in the year of purchase and belongs in the initial investment rather than in the operating flows.
+Figure F714-04 shows the shield's effect.
+Figure F714-04. The same project, taxed and untaxed
+Line
+No tax
+At 25 per cent
+Pre-tax operating cash flow
+1,200,000
+1,200,000
+Tax on it
+—
+(300,000)
+Depreciation tax shield
+—
+150,000
+Annual cash flow
+1,200,000
+1,050,000
+Five-year total before terminal flows
+6,000,000
+5,250,000
+Tax takes 12.5 per cent of this project's annual cash flow rather than 25, because half the deduction comes back as the shield. That is the practical point of the whole section: a 25 per cent tax rate does not reduce a project's value by a quarter.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+accelerated depreciation
+الإهلاك المعجل
+amortissement accéléré
+tax book value
+القيمة الدفترية الضريبية
+valeur fiscale nette
+taxable gain
+الربح الخاضع للضريبة
+plus-value imposable
+investment tax credit
+الائتمان الضريبي الاستثماري
+crédit d'impôt à l'investissement
+SECTION CHECK   Test yourself
+SC14-10  Selling an asset for 200,000 when its tax book value is nil produces, at a 25 per cent rate:
+A.	150,000 after tax.
+B.	200,000 after tax.
+C.	50,000 after tax.
+D.	no cash flow.
+SC14-11  Accelerated depreciation makes a project more valuable because:
+A.	the tax shield arrives earlier.
+B.	the total deduction is larger.
+C.	the asset lasts longer.
+D.	the tax rate falls.
+Answers and explanations are at the end of the chapter.
+14.5  Working capital and inflation
+Two refinements complete the cash flows, and both are examined in their own right.
+Working capital. A project that adds sales adds receivables and inventory, and usually adds some payables. The net amount is an investment: cash goes out at the start, more may go out as the project grows, and the whole of it comes back at the end when the stock is sold and the receivables collected. Three rules follow.
+The investment is a cash outflow when it is made and an inflow when it is recovered, and the recovery is usually assumed to happen in the final year.
+Only the net change matters: an increase in payables funds part of the increase in receivables and inventory, exactly as Book 2's Chapter 12 described.
+It is not depreciated and it generates no tax shield, because it is not consumed. The $400,000 in Orontes's roasting line goes out at time zero and comes back in year five undiminished.
+Omitting working capital is a common error and it always flatters the project, because it removes an early outflow and a late inflow of equal size — and the early one is discounted less.
+Inflation. Where prices and costs will rise, the analysis must be consistent, and there are two consistent ways to do it.
+The nominal approach inflates the cash flows at the expected rate and discounts them at the nominal rate — the rate the market actually quotes, which already includes expected inflation, as Book 2's Chapter 3 showed through the Fisher effect.
+The real approach leaves the cash flows in today's prices and discounts at a real rate, found by removing inflation from the nominal rate: at a nominal 9 per cent and 3 per cent inflation, 1.09 ÷ 1.03 = 1.0583, a real rate of 5.83 per cent.
+Both give the same answer when applied correctly. The error the exam tests is mixing them: discounting cash flows stated in today's prices at a nominal rate understates every future inflow and rejects good projects, and it is the commonest inflation mistake in practice.
+Two complications are worth naming. Not everything inflates at the same rate — sesame may rise faster than wages, and a contracted price may not rise at all — so a general inflation adjustment is a simplification. And the depreciation tax shield never inflates, because it is computed on the historical cost of the asset: in a period of inflation the shield loses real value every year, which is one of Book 1's points about historical cost, arriving in a project appraisal.
+YOUR TURN   Build the cash flows
+Figure F714-05 gives a project. Complete the blanks. Answers are at the end of the chapter.
+Figure F714-05. Your turn: a project's cash flows (complete the blanks)
+Item
+Data
+Answer
+Initial investment
+Equipment 1,800,000; working capital 250,000
+________
+Annual depreciation
+Four-year life, straight line to nil
+________
+After-tax operating cash flow
+Revenue 1,500,000, cash costs 760,000, tax 25 per cent
+________
+Annual depreciation tax shield
+________
+Total annual cash flow
+________
+Terminal cash flow
+Asset sold for 120,000, book value nil; working capital recovered
+________
+Real discount rate
+Nominal 10 per cent, inflation 4 per cent
+________
+LANGUAGE FOCUS   "Capital"
+English capital budgeting is about spending on long-lived assets, and the word capital here means the assets rather than the money, which is the opposite of its sense in Book 2's cost of capital. A capital expenditure buys a machine; capital employed is the money that funded it; and capital budgeting is the process of choosing between machines. Arabic uses نفقات رأسمالية for the spending and رأس المال for the funding, which keeps them apart. French uses investissement or immobilisation for the asset side and capital or capitaux for the funding, so budget d'investissement names this chapter's subject without ambiguity. The rule for an answer is to let the noun beside the word decide: budgeting and expenditure point to assets, cost and structure point to money.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+nominal rate
+المعدل الإسمي
+taux nominal
+real rate
+المعدل الحقيقي
+taux réel
+consistency
+الاتساق
+cohérence
+recovery of working capital
+استرداد رأس المال العامل
+récupération du BFR
+SECTION CHECK   Test yourself
+SC14-12  Working capital invested in a project is:
+A.	an outflow when invested and an inflow when recovered, with no tax shield.
+B.	depreciated over the project's life.
+C.	ignored, because it returns.
+D.	taxed on recovery.
+SC14-13  At a nominal rate of 9 per cent and inflation of 3 per cent, the real rate is about:
+A.	5.83 per cent
+B.	6.00 per cent
+C.	12.27 per cent
+D.	3.00 per cent
+SC14-14  Discounting cash flows stated in today's prices at a nominal rate:
+A.	understates the project and may reject a good one.
+B.	overstates the project.
+C.	is the correct method.
+D.	makes no difference.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F714-06 brings the chapter together.
+Figure F714-06. Chapter 14 summary map: the key rule for each section.
+Capital budgeting evaluates investments whose benefits run beyond a year, in six stages from identification to postaudit, and it differs from short-run decisions because its commitments are irreversible and its timing matters. It uses cash flows rather than profits: depreciation enters only as a tax shield, interest never enters at all because the cost of money is in the discount rate, sunk costs and unchanged allocations are excluded, and opportunity costs and side effects are included. The flows fall into three groups — an initial investment of 3,000,000 + 400,000 = 3,400,000, annual flows of 1,200,000 × 0.75 = 900,000 plus a shield of 600,000 × 0.25 = 150,000, giving 1,050,000, and a terminal flow of 400,000 + 150,000 = 550,000. Tax reaches the project in three places: on the operating flows, through the shield, and on the disposal, where proceeds of $200,000 against a nil book value leave 200,000 × 0.75 = 150,000 — and because half the deduction returns as the shield, a 25 per cent tax rate costs this project only 12.5 per cent of its annual flow. Working capital goes out at the start and returns at the end, is never depreciated and generates no shield, and omitting it always flatters a project. And inflation must be handled consistently: nominal flows at a nominal rate, or real flows at the real rate of 1.09 ÷ 1.03 = 1.0583, never one of each.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P14-01  Capital budgeting uses:
+A.	incremental cash flows.
+B.	accounting profits.
+C.	absorbed costs.
+D.	allocated overhead.
+P14-02  Depreciation enters a project's cash flows:
+A.	only as a tax shield.
+B.	as an annual cash cost.
+C.	as part of the terminal flow.
+D.	not at all.
+P14-03  Interest on project finance is:
+A.	excluded, because the cost of money is in the discount rate.
+B.	deducted from operating cash flows.
+C.	added to the initial investment.
+D.	treated as a tax shield.
+P14-04  A machine costing 1,800,000 with 250,000 of working capital has an initial outlay of:
+A.	2,050,000
+B.	1,800,000
+C.	1,550,000
+D.	250,000
+P14-05  Revenue of 1,500,000 and cash costs of 760,000, taxed at 25 per cent, give an after-tax operating cash flow of:
+A.	555,000
+B.	740,000
+C.	185,000
+D.	1,125,000
+P14-06  Depreciation of 450,000 a year at a 25 per cent tax rate produces a shield of:
+A.	112,500
+B.	450,000
+C.	337,500
+D.	1,800,000
+P14-07  An asset with a nil tax book value sold for 120,000 at a 25 per cent rate yields:
+A.	90,000 after tax
+B.	120,000 after tax
+C.	30,000 after tax
+D.	nothing
+P14-08  Working capital invested in a project is:
+A.	recovered at the end and generates no tax shield.
+B.	depreciated over the life.
+C.	never recovered.
+D.	taxed when recovered.
+P14-09  At a nominal rate of 10 per cent and inflation of 4 per cent, the real rate is about:
+A.	5.77 per cent
+B.	6.00 per cent
+C.	14.40 per cent
+D.	4.00 per cent
+P14-10  Discounting real cash flows at a nominal rate:
+A.	understates the project's value.
+B.	overstates it.
+C.	is correct.
+D.	has no effect.
+Case-style practice: the warehouse proposal
+Orontes's second project is a warehouse costing $2,600,000, with a ten-year life and straight-line depreciation to nil. It would save $520,000 a year of third-party storage and handling, and release $180,000 of working capital immediately by allowing stock to be consolidated. The site is land Orontes already owns, bought in 2009 for $300,000 and now worth $900,000. A feasibility study costing $45,000 has been completed. The company's tax rate is 25 per cent and its cost of capital 9.04 per cent. The finance director's draft shows an initial investment of $2,645,000 and annual savings of $520,000.
+Required. Correct the draft, with figures, and state the annual cash flow the project should be credited with. Name the two items the draft has treated wrongly and the one it has omitted. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC14-1  Answer A. Beyond one year is the defining feature.
+B is wrong. That is an operating decision.
+C is wrong. Capital projects are uncertain.
+D is wrong. Capital spending is capitalised, not expensed.
+SC14-2  Answer A. Screening saves effort.
+B is wrong. Screening is coarse and evaluation is not optional.
+C is wrong. The rate comes from the cost of capital.
+D is wrong. Payback is a measure, not a stage.
+SC14-3  Answer A. The postaudit compares outcome with promise.
+B is wrong. Screening happens first.
+C is wrong. Authorisation permits the spending.
+D is wrong. Identification generates proposals.
+SC14-4  Answer A. The shield is the only cash effect.
+B is wrong. No cash moves for depreciation.
+C is wrong. The cash moved when the asset was bought.
+D is wrong. The shield is real and must be counted.
+SC14-5  Answer A. Counting it twice is the error.
+B is wrong. That double-counts the cost of money.
+C is wrong. Interest is not part of the asset's cost in this analysis.
+D is wrong. Interest is not a terminal item.
+SC14-6  Answer A. The alternative is to sell it.
+B is wrong. Opportunity costs are included although no cash is paid.
+C is wrong. Historical cost is sunk.
+D is wrong. Book value is an accounting remnant.
+SC14-7  Answer A. 3,000,000 + 400,000 = 3,400,000.
+B is wrong. That omits the working capital.
+C is wrong. This subtracts instead of adding.
+D is wrong. That is the working capital alone.
+SC14-8  Answer A. 1,200,000 × 0.75 = 900,000.
+B is wrong. That ignores tax.
+C is wrong. That is the tax.
+D is wrong. This divides instead of multiplying.
+SC14-9  Answer A. 600,000 × 0.25 = 150,000.
+B is wrong. That is the depreciation itself, which is not a cash flow.
+C is wrong. That is depreciation less the shield.
+D is wrong. This has no basis in the figures.
+SC14-10  Answer A. 200,000 × 0.75 = 150,000.
+B is wrong. The gain is taxable.
+C is wrong. That is the tax.
+D is wrong. The proceeds are a real inflow.
+SC14-11  Answer A. Earlier shields are worth more in present value.
+B is wrong. The total deduction is the asset's cost either way.
+C is wrong. Depreciation method does not change the asset's life.
+D is wrong. The rate is set by the tax code.
+SC14-12  Answer A. Out, then back, with no tax effect.
+B is wrong. It is not consumed and is not depreciated.
+C is wrong. Ignoring it flatters the project.
+D is wrong. Recovering an investment is not taxable income.
+SC14-13  Answer A. 1.09 ÷ 1.03 = 1.0583.
+B is wrong. That is the subtraction approximation.
+C is wrong. This multiplies the two rates.
+D is wrong. That is inflation itself.
+SC14-14  Answer A. Real flows discounted at a nominal rate are penalised twice.
+B is wrong. The error reduces the computed value.
+C is wrong. The two bases must match.
+D is wrong. The effect is large over long lives.
+Your turn
+Item
+Answer
+Initial investment
+2,050,000: 1,800,000 + 250,000 = 2,050,000.
+Annual depreciation
+450,000: 1,800,000 ÷ 4 = 450,000.
+After-tax operating cash flow
+555,000: the pre-tax flow is 1,500,000 − 760,000 = 740,000, and 740,000 × 0.75 = 555,000.
+Annual depreciation tax shield
+112,500: 450,000 × 0.25 = 112,500.
+Total annual cash flow
+667,500: 555,000 + 112,500 = 667,500.
+Terminal cash flow
+340,000: the sale yields 120,000 × 0.75 = 90,000 after tax, plus 250,000 of working capital recovered.
+Real discount rate
+5.77 per cent: 1.10 ÷ 1.04 = 1.0577.
+What it tells you
+The project is 2,050,000 out and 667,500 a year in for four years, with 340,000 more at the end — which Chapter 16 will discount. Note that the shield is a sixth of the annual flow, and that it would be worth nothing to a company with no taxable profit.
+Multiple-choice questions
+P14-01  Answer A. Incremental cash flows.
+B is wrong. Profits spread things that cash does not.
+C is wrong. Absorbed costs include unchanged allocations.
+D is wrong. Allocations do not change with the project.
+P14-02  Answer A. The shield is its only cash effect.
+B is wrong. No cash moves.
+C is wrong. The terminal flow carries proceeds and working capital.
+D is wrong. The shield is genuine.
+P14-03  Answer A. The rate carries the cost of money.
+B is wrong. That double-counts.
+C is wrong. Interest is not part of the asset's cost here.
+D is wrong. Interest is deductible but is handled in the rate.
+P14-04  Answer A. 1,800,000 + 250,000 = 2,050,000.
+B is wrong. That omits working capital.
+C is wrong. This subtracts instead of adding.
+D is wrong. That is the working capital.
+P14-05  Answer A. 740,000 × 0.75 = 555,000.
+B is wrong. That is before tax.
+C is wrong. That is the tax.
+D is wrong. This has no basis in the figures.
+P14-06  Answer A. 450,000 × 0.25 = 112,500.
+B is wrong. That is the depreciation.
+C is wrong. That is depreciation less the shield.
+D is wrong. That is the asset's cost.
+P14-07  Answer A. 120,000 × 0.75 = 90,000.
+B is wrong. The gain is taxed.
+C is wrong. That is the tax.
+D is wrong. The proceeds are real.
+P14-08  Answer A. Recovered, and untaxed.
+B is wrong. It is not consumed.
+C is wrong. It returns when stock and receivables are liquidated.
+D is wrong. Recovering capital is not income.
+P14-09  Answer A. 1.10 ÷ 1.04 = 1.0577.
+B is wrong. That is the subtraction approximation.
+C is wrong. This multiplies the rates.
+D is wrong. That is inflation.
+P14-10  Answer A. The flows are penalised for inflation twice.
+B is wrong. The error lowers the value.
+C is wrong. The bases must match.
+D is wrong. Over a long life the effect is large.
+Case-style set: the warehouse proposal
+The corrections. The draft's $2,645,000 includes the $45,000 feasibility study, which is sunk and must come out. It excludes the land, which is an opportunity cost of $900,000 — the company could sell it — and must go in. And it ignores the $180,000 of working capital released, which is an inflow at time zero rather than an outflow. The corrected initial investment is 2,600,000 + 900,000 = 3,500,000, less 180,000 of working capital released, which is 3,320,000.
+The annual cash flow. The $520,000 of savings is a pre-tax cash flow, so after tax it is 520,000 × 0.75 = 390,000. Depreciation is 2,600,000 ÷ 10 = 260,000 a year, giving a shield of 260,000 × 0.25 = 65,000. The annual cash flow is therefore 390,000 + 65,000 = 455,000, not the $520,000 in the draft.
+Note that the land is not depreciated and generates no shield, which is why only the building's cost enters the depreciation line.
+The three errors, named. The two treated wrongly are the feasibility study, included although sunk, and the savings, taken before tax and without the shield. The one omitted is the land, which the company owns and which the project consumes: at $900,000 it is more than a third of the building's cost and is the largest single correction.
+One further point for the board. The working capital release of $180,000 is an inflow now and will have to be reinvested if the warehouse is ever given up, so it should be shown as a recovery at the end of the project's life in the opposite direction — a detail the draft omits and which matters little at 9 per cent over ten years.

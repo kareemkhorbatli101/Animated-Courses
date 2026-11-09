@@ -457,7 +457,7 @@ Bundle revenue
 Weighted contribution ratio
 36.25 per cent: 29.00 ÷ 80.00 = 36.25 per cent.
 Breakeven in bundles
-40,000: 1,160,000 ÷ 29.00 = 40,000.
+40,000: fixed costs of 1,160,000 divided by the bundle contribution give 40,000 bundles.
 Units of each at breakeven
 80,000 of A and 120,000 of B: 2 × 40,000 = 80,000 and 3 × 40,000 = 120,000.
 What it tells you
