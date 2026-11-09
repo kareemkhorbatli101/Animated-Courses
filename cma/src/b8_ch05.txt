@@ -1,0 +1,597 @@
+Chapter 5
+Responding: avoid, retain, reduce, transfer, exploit
+الاستجابة: التجنب والاحتفاظ والتخفيف والتحويل والاستغلال
+Chapters 3 and 4 measured risk. This chapter does something about it.
+There are five responses and no sixth. Every action a company can take about a risk is one of them, or a combination: not doing the activity, doing it and keeping the consequences, doing it with controls that make the consequences smaller, arranging for somebody else to carry the consequences, or doing more of it because the risk is one the company is paid to bear. The skill tested is choosing among them, and the choice is made with the arithmetic of Chapter 3 and the appetite of Chapter 6.
+Figure F805-01 is your map.
+Figure F805-01. Chapter 5 roadmap: five responses, and the insurance that carries most of the transfer.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+D.1.h
+Identify strategies for risk response, including avoiding, retaining, reducing, transferring and exploiting risks.
+C
+Full treatment
+D.1.i
+Define risk transfer, for example by purchasing insurance or issuing debt.
+C
+Full treatment
+D.1.n
+Demonstrate a general understanding of the use of liability and hazard insurance to transfer risk.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+risk avoidance
+تجنب المخاطر
+évitement du risque
+risk retention
+الاحتفاظ بالمخاطر
+rétention du risque
+risk reduction
+تخفيف المخاطر
+atténuation du risque
+risk transfer
+تحويل المخاطر
+transfert du risque
+risk exploitation
+استغلال المخاطر
+exploitation du risque
+deductible
+التحمل
+franchise
+premium loading
+تحميل القسط
+chargement de prime
+self-insurance
+التأمين الذاتي
+auto-assurance
+liability insurance
+تأمين المسؤولية
+assurance de responsabilité
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 put the roaster's expected loss at 267,500 a year, with a 95th percentile loss of 800,000 and a worst case of 3,000,000. Chapter 4 showed controls reducing an inherent 620,000 to that 267,500 for 95,000 a year. This chapter uses the same figures to choose between controlling the risk further, insuring it and keeping it.
+5.1  The five responses
+The responses, with the test each must pass.
+Avoid. Do not undertake the activity, or stop undertaking it: decline the customer, withdraw from the market, do not make the product. It is the only response that removes the risk entirely, and it also removes the return, which is why it is appropriate only where the risk cannot be brought within appetite by any other means, or where the activity was never going to earn its cost of capital anyway.
+Reduce, also called mitigate. Act on the probability, the severity, or both: maintenance, training, testing, duplicate equipment, segregation of duties, fire doors, a second supplier. Most risk management is this, and the test is the cost-benefit comparison of Chapter 9.
+Transfer, also called share. Arrange for another party to carry some or all of the consequences, for a price: insurance, a contractual indemnity, a hedge, outsourcing, a joint venture, a guarantee. The risk does not disappear; it is moved, and the test is whether the other party can carry it and will still be there when it matters.
+Retain, also called accept or tolerate. Carry the risk deliberately. This is the correct response for small, frequent, predictable losses and for risks the company is paid to take, and the key word is deliberately: a retained risk is one somebody has decided to keep, written down, and budgeted for. A risk nobody noticed is not retained; it is missed.
+Exploit. Take more of the risk, because the company has an advantage in bearing it or because the upside is worth the exposure. A company with a strong balance sheet can offer credit terms a weaker competitor cannot; a company with deep knowledge of a market can take positions in it that others would not. This is the response that follows from Chapter 1's insistence that risk runs in both directions, and the response most often absent from a candidate's answer.
+Two combinations are so common they deserve names. Reduce then retain is the ordinary pattern for operational risk: control what can be controlled cheaply, budget for what remains. Retain to a limit then transfer is the ordinary pattern for hazard risk: carry the first slice through a deductible and insure the tail, which section 5.3 computes.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+mitigate
+يخفف
+atténuer
+tolerate
+يتحمل
+tolérer
+indemnity
+التعويض
+indemnité
+deliberate decision
+القرار المقصود
+décision délibérée
+SECTION CHECK   Test yourself
+SC5-1  The only response that removes a risk entirely is:
+A.	avoidance.
+B.	reduction.
+C.	transfer.
+D.	retention.
+SC5-2  A risk that nobody has identified is:
+A.	missed, not retained.
+B.	retained by default.
+C.	transferred.
+D.	avoided.
+SC5-3  Taking more of a risk because the company has an advantage in bearing it is:
+A.	exploitation.
+B.	avoidance.
+C.	transfer.
+D.	reduction.
+Answers and explanations are at the end of the chapter.
+5.2  Avoiding and reducing
+Avoidance is the strongest response and the most expensive, because it forgoes the return along with the risk.
+Orontes could avoid its currency exposure entirely by refusing to sell to its Gulf distributor, whose business contributes 820,000 a year. The currency risk on that trade has an expected loss of 75,000. Avoiding a 75,000 expected loss by giving up 820,000 of contribution is an obviously bad trade, and stating it that way is the whole analysis: avoidance is correct only where the exposure, not the expectation, is what cannot be borne — a risk whose maximum possible loss exceeds what the company could survive, as Chapter 3 put it.
+Three legitimate cases for avoidance, and an exam answer should have them.
+Where the maximum possible loss is unsurvivable and cannot be transferred.
+Where the activity does not earn its cost of capital once the risk is priced — which is Book 3's analysis with the risk premium of its Chapter 15 included.
+Where the risk is one the company has no competence to manage: a market it does not understand, a technology it cannot maintain, a jurisdiction whose rules it cannot follow.
+Reduction acts on probability, on severity, or on both, and a complete answer distinguishes the three.
+Probability reduction: preventive maintenance, supplier approval, training, access controls, driver testing, the goods-inwards check of Chapter 1.
+Severity reduction: fire doors and sprinklers, a second site, backups, limits on the size of any single exposure, the contract that caps a liability.
+Both: redundancy. A second roaster does not make the first one less likely to fail; it makes the failure cost almost nothing, and a standby supplier does the same for a supply failure.
+Two principles govern how much reduction to buy.
+Diminishing returns. Chapter 4 showed the first controls removing 352,500 for 95,000 and the next tranche removing 183,000 for $180,000. Every further increment costs more and delivers less, and the stopping point is where the marginal cost exceeds the marginal benefit, which is Book 3's Chapter 7 rule applied to safety instead of to output.
+Controls create their own risks. A new system, a new approval step, a new party in the process: each adds operational risk of its own, and a control whose own failure rate is high can be worse than the exposure it addresses.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+preventive control
+الضابط الوقائي
+contrôle préventif
+redundancy
+الازدواج الاحتياطي
+redondance
+diminishing returns
+تناقص العوائد
+rendements décroissants
+cap on liability
+سقف المسؤولية
+plafond de responsabilité
+SECTION CHECK   Test yourself
+SC5-4  Avoiding a risk with an expected loss of 75,000 by giving up 820,000 of contribution is:
+A.	a bad trade, unless the exposure is unsurvivable.
+B.	always correct.
+C.	risk reduction.
+D.	risk transfer.
+SC5-5  A second roaster held as a standby is an example of reducing:
+A.	severity, through redundancy.
+B.	probability.
+C.	exposure to tax.
+D.	the cost of capital.
+SC5-6  Risk reduction should stop where:
+A.	the marginal cost of the next control exceeds its marginal benefit.
+B.	the risk reaches zero.
+C.	the budget is exhausted.
+D.	the insurer requires it.
+Answers and explanations are at the end of the chapter.
+5.3  Retaining
+Retention is the response for risks that are small relative to the company, frequent enough to be predictable, and cheaper to carry than to transfer.
+Three forms appear in questions.
+Unfunded retention: the loss is absorbed in the results when it happens. Appropriate for small, frequent losses — breakages, minor write-offs, the ordinary bad debts covered by the allowance.
+Funded retention, or self-insurance: an amount is set aside, formally or informally, against the expected loss, so that the charge is smoothed instead of lumpy. A large group may do this through a captive insurer, which is its own insurance company; the exam needs the term, not the mechanics.
+Partial retention through a deductible: the company carries the first slice of every loss and the insurer carries the rest. This is the most common arrangement in practice, because the first slice is where the small, predictable, expensive-to-administer losses live, and because carrying it reduces the premium by more than the expected cost of the losses retained.
+WORKED EXAMPLE   Worked example: full cover, or a deductible?
+Step 1. The risk. The roaster distribution of Chapter 3: nothing at 0.60, 150,000 at 0.25, 800,000 at 0.10, 3,000,000 at 0.05, for an expected loss of 267,500.
+Step 2. Full cover. The insurer quotes a premium of $400,000. That is 400,000 − 267,500 = 132,500 more than the expected loss, a loading of 132,500 ÷ 267,500 = 49.53 per cent, which pays for the insurer's expenses, capital and profit.
+Step 3. A 250,000 deductible. The premium falls to $180,000. Orontes now carries the 150,000 outcome in full, contributing 0.25 × 150,000 = 37,500, and the first 250,000 of each larger loss, contributing 0.10 × 250,000 = 25,000 and 0.05 × 250,000 = 12,500. Retained expected loss is 37,500 + 25,000 + 12,500 = 75,000.
+Step 4. Compare the total cost. With the deductible the expected annual cost is 180,000 + 75,000 = 255,000, against 400,000 for full cover — a saving of 400,000 − 255,000 = 145,000 a year.
+Check. The deductible is better, and the reason is structural rather than arithmetical: the insurer charges its loading on every dollar of cover, and the first 250,000 is the part Orontes can predict and absorb without difficulty. The test for how large a deductible should be is not where the saving is largest but how large a loss the company can take in a single year without disrupting anything — which is Chapter 2's liquidity question, not an optimisation.
+Two cautions with retention.
+Retained risk must be funded, not merely accepted. A decision to retain that is not reflected in a budget, a provision or a cash buffer is a decision to be surprised.
+And retention concentrates. Ten retained risks of 75,000 each have a combined expected cost of 750,000 and a much larger bad-year cost, and the aggregate retention across the company is a figure somebody should know, not a by-product of ten separate decisions.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+self-insurance
+التأمين الذاتي
+auto-assurance
+captive insurer
+شركة التأمين الأسيرة
+captive d'assurance
+aggregate retention
+إجمالي المحتفظ به
+rétention globale
+funded
+ممول
+provisionné
+SECTION CHECK   Test yourself
+SC5-7  A premium of 400,000 against an expected loss of 267,500 carries a loading of:
+A.	132,500
+B.	267,500
+C.	400,000
+D.	667,500
+SC5-8  A deductible arrangement costing 180,000 of premium plus 75,000 of retained expected loss compares with full cover at 400,000 as a saving of:
+A.	145,000
+B.	220,000
+C.	75,000
+D.	325,000
+SC5-9  The size of a deductible should be set by:
+A.	how large a loss the company can absorb without disruption.
+B.	the largest available saving.
+C.	the insurer's preference.
+D.	the expected loss.
+Answers and explanations are at the end of the chapter.
+5.4  Transferring
+Risk transfer is an arrangement under which another party bears some or all of the financial consequences of a risk, in return for a payment or another consideration. The outcome names two examples and both repay attention.
+Purchasing insurance. The company pays a premium and the insurer pays the loss, within the limits and exclusions of the policy. The premium exceeds the expected loss by the loading of section 5.3, and the company pays that loading willingly because it converts an uncertain large loss into a certain small cost — which is Chapter 2's unexpected loss removed from the capital requirement.
+Issuing debt. This one puzzles candidates, and the logic is worth stating. A company financed partly by debt has transferred part of its business risk to lenders: they accept a fixed return and, in exchange, bear the risk that the company cannot pay, which in the limit means they absorb losses the shareholders' limited liability protects the shareholders from. Book 2's Chapter 7 looked at the same arrangement from the other side, as the lenders' required return. Note the exam's point: risk transfer is not only insurance, and the financing structure of a company is itself a risk-sharing arrangement.
+Other transfers appear in questions.
+Contractual transfer: an indemnity, a warranty from a supplier, a liability cap, a hold-harmless clause, a penalty for late delivery. These are the cheapest transfers available and the most neglected, because they cost nothing but negotiation.
+Hedging: a forward, a future, an option or a swap, which transfers a price risk to a counterparty, as Book 2's Chapter 6 showed with sesame and this book's Chapter 11 shows with currency.
+Outsourcing: giving an activity to a specialist who carries its operational risk — subject to the warning below.
+Joint ventures and partnerships: sharing an exposure with somebody who shares the return.
+Securitisation and other capital market transfers, where a risk is packaged and sold to investors.
+Four tests every transfer must pass, and they are the examined part.
+Can the counterparty actually pay? A transfer to a party that fails when the risk crystallises is not a transfer; it is an additional credit risk. This is why insurers' financial strength matters and why concentration with one counterparty is itself an exposure.
+What exactly has been transferred? Policies have limits, exclusions, deductibles and conditions. A transfer that covers the direct loss and not the consequential loss of Chapter 1 has moved the smaller half.
+What cannot be transferred at all? Reputation, regulatory responsibility and legal accountability generally stay with the company. Outsourcing a process transfers its cost and some of its operational risk; it does not transfer the obligation to the regulator or the customer, and a candidate who writes that outsourcing eliminates a risk has made the standard error.
+And does the transfer create new risk? Every transfer introduces a counterparty, a contract and a dependency, which are themselves exposures.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+counterparty
+الطرف المقابل
+contrepartie
+exclusion
+الاستثناء من التغطية
+exclusion
+hold-harmless clause
+شرط عدم المسؤولية
+clause de non-recours
+accountability
+المساءلة
+responsabilité
+SECTION CHECK   Test yourself
+SC5-10  Issuing debt transfers risk because lenders:
+A.	accept a fixed return and bear the risk that the company cannot pay.
+B.	insure the company's assets.
+C.	guarantee the company's profits.
+D.	share the company's upside.
+SC5-11  Outsourcing a process:
+A.	transfers some operational risk but not regulatory accountability.
+B.	eliminates the risk.
+C.	transfers reputation risk.
+D.	removes the need for controls.
+SC5-12  A transfer to a counterparty that may fail when the risk crystallises:
+A.	creates a credit risk in place of the original one.
+B.	is a complete transfer.
+C.	reduces the expected loss to zero.
+D.	is always cheaper.
+Answers and explanations are at the end of the chapter.
+5.5  Liability and hazard insurance
+The outcome asks for a general understanding of insurance as a transfer mechanism, not for the detail of policy wordings. Five things are enough.
+What insurance does. It pools a large number of similar exposures so that the insurer, which cannot predict any one loss, can predict the total closely. That is the law of large numbers, and it is why an insurer can charge each company a premium close to its expected loss plus a loading and still be confident of its own result.
+What makes a risk insurable. The exam uses six conditions: the loss must be accidental rather than within the insured's control; it must be measurable in money and identifiable as to time and place; there must be a large number of similar, independent exposures; the loss must not be catastrophic to the insurer, which is why flood and war are often excluded or reinsured; the premium must be economically feasible, which rules out risks that are near-certain; and the insured must have an insurable interest — must actually stand to lose.
+The main classes a company buys.
+Property and hazard cover: the buildings, plant and stock against fire, flood, storm, explosion and theft — the direct loss of Chapter 1.
+Business interruption cover: the profit lost and the extra cost of working while the asset is out of use — Chapter 1's consequential loss, and the cover companies most often buy too little of.
+Liability insurance: the company's legal liability to others. Public liability for injury or damage to third parties; product liability for harm caused by what the company sells, which for a food producer is the material one; employers' liability for injury to employees; professional indemnity for advice; and directors' and officers' liability for claims against the board personally.
+Other covers: goods in transit, credit insurance on receivables, political risk insurance, key person cover, cyber.
+The structural features that decide what a policy is worth. The limit, which is the most the insurer will pay and which should be set against Chapter 3's maximum possible loss rather than its expected loss; the deductible of section 5.3; the exclusions, which is where most disputes live; the conditions, breach of which can void cover — a sprinkler system required to be maintained, a notification required within a period; and the basis of settlement, replacement cost or market value.
+Two moral hazards the examiners like. Insurance can reduce the incentive to prevent losses, which is why insurers use deductibles, co-insurance and conditions; and a company that is insured may under-invest in continuity planning, which protects something insurance does not pay for — the customer who went elsewhere while the plant was rebuilt.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+law of large numbers
+قانون الأعداد الكبيرة
+loi des grands nombres
+insurable interest
+المصلحة التأمينية
+intérêt d'assurance
+product liability
+مسؤولية المنتج
+responsabilité du fait des produits
+moral hazard
+الخطر الأخلاقي
+aléa moral
+SECTION CHECK   Test yourself
+SC5-13  A risk is insurable only if the loss is:
+A.	accidental, measurable, and one of many similar independent exposures.
+B.	certain to occur.
+C.	within the insured's control.
+D.	impossible to value.
+SC5-14  The insurance limit should be set against:
+A.	the maximum possible loss.
+B.	the expected loss.
+C.	the premium.
+D.	last year's claims.
+SC5-15  Business interruption cover pays for:
+A.	the profit lost and the extra cost of working while an asset is out of use.
+B.	the asset itself.
+C.	third-party injury.
+D.	directors' legal costs.
+Answers and explanations are at the end of the chapter.
+5.6  Exploiting, and choosing
+Exploitation is the response for a risk the company is better placed to bear than others are, and the examiners include it precisely because candidates forget that risk management can increase an exposure on purpose.
+Three forms.
+Taking more of a risk the company is paid for. Orontes's strong cash position lets it offer sixty-day terms where a weaker competitor must ask for thirty, which wins volume. The credit risk rises deliberately, and the contribution rises with it.
+Changing a response that over-controls. A control bought when the company was smaller, an insurance limit set for a risk that has shrunk, an approval threshold nobody has revisited: each is a cost without a matching benefit, and releasing it is as much a risk decision as adding one.
+Pursuing an upside the risk creates. A currency movement that hurts imports helps exports; a competitor's supply failure is an opportunity for a company with spare capacity; a new regulation that is expensive to meet is a barrier to smaller entrants.
+Figure F805-02 collects the five responses with their tests.
+Figure F805-02. The five responses
+Response
+What it does
+Right when
+Watch for
+Avoid
+Removes the risk and the return
+The exposure cannot be survived or transferred
+Forgone contribution
+Reduce
+Lowers probability, severity or both
+The control costs less than it saves
+Diminishing returns; new risks
+Transfer
+Moves consequences to another party
+The other party can carry it and will be there
+Limits, exclusions, counterparty failure
+Retain
+Keeps the consequences deliberately
+Losses are small, frequent and predictable
+Must be funded; aggregates across the company
+Exploit
+Takes more of the exposure
+The company has an advantage in bearing it
+The advantage must be real
+Choosing among them follows a pattern that is worth learning as a sequence.
+Start with the maximum possible loss of Chapter 3. If it cannot be survived, the risk must be transferred or avoided, whatever the probability.
+Then ask whether reduction is cheap. The early controls of Chapter 4 usually are, and they shrink both the premium and the retention.
+Then compare transfer with retention on the remaining exposure, using the total-cost arithmetic of section 5.3 — premium plus retained expected loss — rather than the premium alone.
+Then retain the rest deliberately, write it down, and fund it.
+And finally ask the exploitation question: is there a risk here we should be taking more of?
+YOUR TURN   Match the response
+Figure F805-03 gives six situations. Name the response. Answers are at the end of the chapter.
+Figure F805-03. Your turn: which response? (complete the blanks)
+Situation
+Response
+A 250,000 deductible with the rest insured
+________
+Declining to trade in a country whose rules cannot be followed
+________
+Installing sprinklers in the roasting hall
+________
+Offering sixty-day terms to win volume, funded by the cash balance
+________
+Budgeting 75,000 a year for small write-offs
+________
+A supplier contract that caps Orontes's liability for a recall
+________
+LANGUAGE FOCUS   "Transfer", "share" and "deductible"
+Transfer is the word most likely to mislead a board, because in English it suggests the risk has gone somewhere else and is no longer the company's problem. Risk is not transferred in the way an asset is; what moves is the financial consequence, and only to the extent the contract says. Several frameworks now prefer share for exactly that reason, and it is the better word: it keeps the company in the picture. Arabic تحويل carries the same implication of moving something away and needs the same qualification; French transfert likewise, with partage available for share. Deductible is an English-language trap of its own: in British practice it is the excess, in reinsurance the retention, and all three mean the slice the insured carries. Arabic التحمل, what is borne, and French franchise both name it clearly. When a question gives a figure, check whether it is deducted from every loss or only applies once in a year, because the arithmetic of section 5.3 changes completely.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+informed exposure
+التعرض المدروس
+exposition maîtrisée
+over-control
+الإفراط في الرقابة
+excès de contrôle
+barrier to entry
+عائق الدخول
+barrière à l'entrée
+sequence of decision
+تسلسل القرار
+séquence de décision
+SECTION CHECK   Test yourself
+SC5-16  Exploiting a risk means:
+A.	taking more of it, where the company has an advantage in bearing it.
+B.	ignoring it.
+C.	insuring it fully.
+D.	transferring it to a supplier.
+SC5-17  Where a maximum possible loss cannot be survived, the response must be:
+A.	transfer or avoidance, whatever the probability.
+B.	retention, if the probability is low.
+C.	reduction alone.
+D.	exploitation.
+SC5-18  Transfer and retention should be compared on:
+A.	premium plus retained expected loss.
+B.	premium alone.
+C.	the expected loss alone.
+D.	the maximum possible loss alone.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F805-04 brings the chapter together.
+Figure F805-04. Chapter 5 summary map: the key rule for each section.
+There are five responses and no sixth: avoid, reduce, transfer, retain and exploit. Avoidance removes the return with the risk, so it is right only where the exposure cannot be survived, where the activity does not earn its cost of capital once risk is priced, or where the company cannot manage the risk at all — giving up 820,000 of contribution to avoid a 75,000 expected loss is the shape of the wrong answer. Reduction acts on probability, on severity or on both, stops where marginal cost exceeds marginal benefit, and creates risks of its own. Retention is for small, frequent, predictable losses and must be deliberate and funded: a 250,000 deductible left Orontes carrying 37,500 + 25,000 + 12,500 = 75,000 of expected loss against a premium of $180,000, a total of 180,000 + 75,000 = 255,000 against 400,000 for full cover, saving 400,000 − 255,000 = 145,000. Transfer moves the financial consequence to a counterparty, by insurance, by issuing debt, by contract, by hedging or by outsourcing, and it must pass four tests: can they pay, what exactly moved, what cannot move at all — reputation, regulatory accountability — and what new risk the arrangement creates. Insurance works by pooling many similar exposures, requires six conditions to be insurable, and is bought as property, business interruption and liability cover with the limit set against the maximum possible loss. And exploitation takes more of a risk the company is better placed to bear, which is the response candidates forget and boards most need.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P5-01  The five risk responses are avoid, reduce, transfer, exploit and:
+A.	retain.
+B.	ignore.
+C.	report.
+D.	insure.
+P5-02  Avoidance is appropriate when:
+A.	the maximum possible loss cannot be survived or transferred.
+B.	the expected loss is positive.
+C.	insurance is available.
+D.	the probability is above 50 per cent.
+P5-03  Installing a standby roaster reduces:
+A.	severity, by redundancy.
+B.	probability.
+C.	the premium only.
+D.	inherent risk.
+P5-04  Risk reduction should continue until:
+A.	the next control costs more than it saves.
+B.	the risk is zero.
+C.	the insurer is satisfied.
+D.	the budget runs out.
+P5-05  Retained risk should be:
+A.	deliberate and funded.
+B.	unrecorded.
+C.	equal to the maximum possible loss.
+D.	transferred later.
+P5-06  A premium of 400,000 on an expected loss of 267,500 is a loading of:
+A.	49.53 per cent
+B.	66.88 per cent
+C.	132,500 per cent
+D.	33.13 per cent
+P5-07  With a 250,000 deductible, retained expected loss of 75,000 and a premium of 180,000, the total expected cost is:
+A.	255,000
+B.	180,000
+C.	75,000
+D.	400,000
+P5-08  Issuing debt is a risk transfer because:
+A.	lenders bear the risk that the company cannot pay, for a fixed return.
+B.	debt is insured.
+C.	interest is tax deductible.
+D.	debt reduces business risk.
+P5-09  Which cannot generally be transferred?
+A.	Regulatory accountability
+B.	The cost of repairing a building
+C.	A price movement
+D.	A customer's failure to pay
+P5-10  A risk is insurable only where the loss is:
+A.	accidental and measurable, among many similar exposures.
+B.	certain.
+C.	controlled by the insured.
+D.	unquantifiable.
+P5-11  Business interruption insurance covers:
+A.	lost profit and the extra cost of working.
+B.	the building.
+C.	product liability claims.
+D.	directors' defence costs.
+P5-12  Offering longer credit terms because the company's cash position allows it is:
+A.	exploiting a risk.
+B.	avoiding a risk.
+C.	transferring a risk.
+D.	reducing a risk.
+Case-style practice: the insurance renewal
+Orontes's insurance comes up for renewal. The broker offers three options on the roaster and the roasting hall: full cover at a premium of $400,000; a 250,000 deductible at $180,000; and a 1,000,000 deductible at $90,000. Chapter 3's distribution applies — nothing at 0.60, 150,000 at 0.25, 800,000 at 0.10, 3,000,000 at 0.05. Orontes holds $7,302,100 of cash.
+Required. Evaluate the three options on expected cost, recommend one, and say what considerations beyond the arithmetic should decide it. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC5-1  Answer A. Only not doing the activity removes it.
+B is wrong. Reduction leaves residual risk.
+C is wrong. Transfer moves consequences, not the risk.
+D is wrong. Retention keeps it.
+SC5-2  Answer A. Retention is a decision; this is an omission.
+B is wrong. Default is not a decision.
+C is wrong. Nothing has been moved.
+D is wrong. The activity continues.
+SC5-3  Answer A. That is exploitation.
+B is wrong. Avoidance stops the activity.
+C is wrong. Transfer moves consequences away.
+D is wrong. Reduction lowers exposure.
+SC5-4  Answer A. The return forgone dwarfs the expectation.
+B is wrong. Avoidance is rarely correct.
+C is wrong. Nothing has been controlled.
+D is wrong. Nobody else has taken it on.
+SC5-5  Answer A. Redundancy cuts the consequence of failure.
+B is wrong. The first roaster fails as often as before.
+C is wrong. Tax is unrelated.
+D is wrong. Any effect on capital costs is indirect.
+SC5-6  Answer A. Marginal cost against marginal benefit.
+B is wrong. Zero risk is unattainable and uneconomic.
+C is wrong. A budget is not a criterion.
+D is wrong. The insurer's preference is evidence, not a rule.
+SC5-7  Answer A. 400,000 − 267,500 = 132,500.
+B is wrong. That is the expected loss.
+C is wrong. That is the premium.
+D is wrong. This adds instead of subtracting.
+SC5-8  Answer A. 400,000 − 255,000 = 145,000.
+B is wrong. That compares the premiums only.
+C is wrong. That is the retained expected loss.
+D is wrong. That has no basis in the figures.
+SC5-9  Answer A. Absorbable loss, not maximum saving.
+B is wrong. The largest saving may be unaffordable in a bad year.
+C is wrong. The insurer is a counterparty, not the decision-maker.
+D is wrong. The expected loss is an average.
+SC5-10  Answer A. Lenders bear default risk for a fixed return.
+B is wrong. Debt is not insurance.
+C is wrong. No profits are guaranteed.
+D is wrong. Lenders do not share the upside.
+SC5-11  Answer A. Accountability stays with the company.
+B is wrong. Risk remains in various forms.
+C is wrong. Reputation cannot be outsourced.
+D is wrong. Oversight controls become more important, not less.
+SC5-12  Answer A. A failed counterparty converts one risk into another.
+B is wrong. It is incomplete by definition.
+C is wrong. Expected loss is not eliminated.
+D is wrong. Cheapness is not the issue.
+SC5-13  Answer A. The core insurability conditions.
+B is wrong. Certainty makes a premium uneconomic.
+C is wrong. Control by the insured invites moral hazard.
+D is wrong. Losses must be measurable.
+SC5-14  Answer A. The limit answers the survival question.
+B is wrong. The expected loss sets the premium, not the limit.
+C is wrong. The premium is an output.
+D is wrong. History is one input.
+SC5-15  Answer A. Consequential loss while the asset is out of use.
+B is wrong. That is property cover.
+C is wrong. That is liability cover.
+D is wrong. That is directors' and officers' cover.
+SC5-16  Answer A. More exposure, deliberately, where there is an advantage.
+B is wrong. Ignoring is not a response.
+C is wrong. That is transfer.
+D is wrong. That is also transfer.
+SC5-17  Answer A. Survival outranks likelihood.
+B is wrong. Low probability does not make ruin acceptable.
+C is wrong. Reduction may not be enough.
+D is wrong. Exploitation increases the exposure.
+SC5-18  Answer A. Total expected cost is the right comparison.
+B is wrong. The premium ignores what is retained.
+C is wrong. The expected loss ignores the premium.
+D is wrong. The maximum matters for the limit, not the comparison.
+Your turn
+Situation
+Response
+A 250,000 deductible with the rest insured
+Partial retention with transfer above it.
+Declining to trade where the rules cannot be followed
+Avoidance.
+Installing sprinklers
+Reduction, acting on severity.
+Offering sixty-day terms to win volume
+Exploitation.
+Budgeting 75,000 for small write-offs
+Retention, funded.
+A supplier contract capping liability
+Transfer, by contract.
+What it tells you
+Four of the six are things a company does every day without calling them risk responses — which is the point: the classification names decisions that are already being made, and makes them deliberate.
+Multiple-choice questions
+P5-01  Answer A. Retain completes the five.
+B is wrong. Ignoring is not a response.
+C is wrong. Reporting is part of the process, not a response.
+D is wrong. Insurance is one form of transfer.
+P5-02  Answer A. Unsurvivable and untransferable.
+B is wrong. Nearly every risk has a positive expected loss.
+C is wrong. Available insurance argues against avoidance.
+D is wrong. Probability alone does not decide.
+P5-03  Answer A. Redundancy attacks severity.
+B is wrong. Failure remains as likely.
+C is wrong. The premium effect is a consequence.
+D is wrong. Inherent risk is measured before controls.
+P5-04  Answer A. The marginal test.
+B is wrong. Zero is unattainable.
+C is wrong. Satisfaction is not a criterion.
+D is wrong. Budgets constrain, they do not decide.
+P5-05  Answer A. Deliberate and funded.
+B is wrong. Unrecorded retention is an omission.
+C is wrong. Retention above capacity is reckless.
+D is wrong. Deferral is not a decision.
+P5-06  Answer A. 132,500 ÷ 267,500 = 49.53 per cent.
+B is wrong. This inverts the ratio.
+C is wrong. That is the loading in money, not per cent.
+D is wrong. That uses the premium as the base.
+P5-07  Answer A. 180,000 + 75,000 = 255,000.
+B is wrong. That omits the retained loss.
+C is wrong. That omits the premium.
+D is wrong. That is the full-cover premium.
+P5-08  Answer A. Lenders bear default risk.
+B is wrong. Lending is not insurance.
+C is wrong. Deductibility is a tax matter.
+D is wrong. Debt leaves business risk unchanged.
+P5-09  Answer A. Accountability to a regulator stays.
+B is wrong. Property insurance covers it.
+C is wrong. Hedging transfers it.
+D is wrong. Credit insurance covers it.
+P5-10  Answer A. Accidental, measurable, and pooled.
+B is wrong. Certainty makes it uninsurable.
+C is wrong. Control invites moral hazard.
+D is wrong. It must be quantifiable.
+P5-11  Answer A. Lost profit and extra cost of working.
+B is wrong. That is property cover.
+C is wrong. That is liability cover.
+D is wrong. That is directors' and officers' cover.
+P5-12  Answer A. Deliberately taking more credit risk for return.
+B is wrong. Nothing is being declined.
+C is wrong. Nobody else is carrying it.
+D is wrong. The exposure rises.
+Case-style set: the insurance renewal
+Option 1, full cover. The expected cost is the premium alone: $400,000.
+Option 2, a 250,000 deductible. Orontes retains 0.25 × 150,000 = 37,500 on the small outcome and 250,000 on each of the two larger ones, contributing 0.10 × 250,000 = 25,000 and 0.05 × 250,000 = 12,500, so retained expected loss is 37,500 + 25,000 + 12,500 = 75,000 and the total expected cost is 180,000 + 75,000 = 255,000.
+Option 3, a 1,000,000 deductible. Now the 150,000 and 800,000 outcomes fall entirely on Orontes, contributing 37,500 and 0.10 × 800,000 = 80,000, and the 3,000,000 outcome contributes its first million, 0.05 × 1,000,000 = 50,000. Retained expected loss is 37,500 + 80,000 + 50,000 = 167,500, and the total expected cost is 90,000 + 167,500 = 257,500.
+On expected cost the middle option wins, narrowly: 255,000 against 257,500 and 400,000.
+What should actually decide it. Three things, and they point to option 2 more firmly than the arithmetic does.
+What a bad year costs, not an average one. Under option 2 the worst retained loss in any year is 250,000. Under option 3 it is 1,000,000, which is a seventh of the cash balance and would arrive alongside a stopped plant and a rebuilding programme. The two options cost almost the same on average and are very different in a bad year, and Chapter 2's capital adequacy question — not the expected cost — is the one to answer.
+The aggregate across the company. A 250,000 retention here sits alongside every other retained risk, and the figure that matters is the total Orontes could face in one year across all of them.
+And what the policy actually covers. Before choosing between deductibles I would want the limit tested against the maximum possible loss of Chapter 3 — the assessors' 14,000,000, not the 3,000,000 in this distribution — and the business interruption section examined, since Chapter 1 showed the consequential loss running to 2,761,620 for sixty days alone.
+Recommendation: option 2, at a limit set from the maximum possible loss rather than from this table, with the business interruption period checked against a realistic rebuilding time.

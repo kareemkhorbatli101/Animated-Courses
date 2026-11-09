@@ -1,0 +1,428 @@
+Chapter 4
+Inherent risk, residual risk, and what managing it is worth
+المخاطر الكامنة والمخاطر المتبقية وقيمة إدارتها
+Chapter 3 produced numbers. This chapter asks when those numbers are measured — before the company does anything about the risk, or after — and then asks the question that decides whether any of this work is worth doing: what does managing risk actually buy?
+The two questions are connected. A risk measured before the controls is inherent risk; the same risk measured after them is residual risk; and the difference between the two, set against what the controls cost, is the value of risk management stated in money. Everything else claimed for it — stability, reputation, a lower cost of capital, better decisions — builds on that arithmetic.
+Figure F804-01 is your map.
+Figure F804-01. Chapter 4 roadmap: risk before controls, risk after them, and what the difference is worth.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+D.1.j | Demonstrate an understanding of residual risk and distinguish it from inherent risk. | C | Full treatment
+D.1.k | Identify and explain the benefits of risk management. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+inherent risk | المخاطر الكامنة | risque inhérent
+residual risk | المخاطر المتبقية | risque résiduel
+control | الضابط الرقابي | contrôle
+target risk | المخاطر المستهدفة | risque cible
+risk appetite | الرغبة في المخاطرة | appétit pour le risque
+control effectiveness | فعالية الضوابط | efficacité des contrôles
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 put the roaster's expected loss at 267,500 a year and noted that every probability in a risk table is conditional on the controls that exist now. This chapter is about that sentence. Book 2's Chapter 2 priced risk into the cost of capital; section 4.4 collects what the saving is worth.
+4.1  Inherent risk
+Inherent risk is the risk in an activity before any management action — the exposure that exists because of what the business does, measured as though no control, no insurance and no procedure were in place.
+It is a deliberately artificial figure, and that is the first thing to understand about it. Orontes's inherent food-safety risk is the risk of selling contaminated tahini with no testing, no supplier approval, no traceability and no hygiene regime — a situation that has never existed and never will. The figure is constructed, not observed.
+Why compute something artificial? Three reasons, and the exam asks for them.
+It shows what the controls are carrying. A residual risk of near zero can mean the activity is harmless or that an elaborate control structure is holding back something enormous, and only the inherent figure distinguishes the two. The difference is what would happen if the controls stopped working — which is exactly what happens in a crisis, a system migration or a year of heavy staff turnover.
+It ranks activities for attention. Two processes with the same residual risk are not equally important; the one with the higher inherent risk deserves more oversight, more testing and more attention from internal audit, because it has further to fall.
+And it prevents the circular comfort of assessing only what is left. A company that measures nothing but residual risk concludes that its risks are small because its controls work, which is a conclusion it has assumed rather than tested.
+Two practical difficulties go with it, and a good answer mentions them.
+Inherent risk is hard to measure, because nobody has observed the world without the controls. The estimate is a judgment anchored on industry events, on near-misses, and on what happened in the places where the control genuinely failed.
+And "no controls" has to be defined. Does inherent mean no controls at all, or no controls beyond those required by law, or the controls a prudent company would have anyway? Practice varies; the exam's position is the strict one — before any management action — and an answer should say which basis it is using.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+before controls | قبل الضوابط | avant contrôles
+near miss | الحادث الوشيك | quasi-accident
+oversight | الإشراف | supervision
+basis of assessment | أساس التقييم | base d'évaluation
+@end
+SECTION CHECK   Test yourself
+SC4-1  Inherent risk is risk measured:
+A.	before any management action.
+B.	after controls are applied.
+C.	after insurance.
+D.	at the maximum possible loss.
+SC4-2  The main reason to assess inherent risk is to:
+A.	show how much the controls are carrying.
+B.	satisfy the auditors.
+C.	compute the insurance premium.
+D.	measure profit.
+SC4-3  A company that measures only residual risk:
+A.	assumes its controls work rather than testing that they do.
+B.	overstates its risks.
+C.	complies with the framework.
+D.	needs no risk register.
+Answers and explanations are at the end of the chapter.
+4.2  Residual risk
+Residual risk is what remains after the controls and other responses have done their work. It is the risk the company is actually running, and it is the figure that should be compared with risk appetite and reported to a board.
+Between the two sits everything in Chapter 5: the controls that reduce the probability, the controls that reduce the severity, the insurance that transfers the loss, the contract that shares it, and the decision not to do the activity at all.
+WORKED EXAMPLE   Worked example: inherent, residual and target for the roaster
+Step 1. Inherent. With no maintenance regime, no condition monitoring, no critical spares and no trained operators, Orontes's engineers put the expected loss from roaster failure at 620,000 a year.
+Step 2. Residual as things stand. The present regime — scheduled servicing, two trained operators, a set of spares — brings it to the 267,500 of Chapter 3.
+Step 3. What the controls deliver. The reduction is 620,000 − 267,500 = 352,500 a year, and the regime costs 95,000, so it returns 352,500 − 95,000 = 257,500 of net benefit.
+Step 4. Target. With the maintenance contract of Chapter 3's case study the expected loss would fall to 84,500, which would be the target residual risk.
+Check. Note the shape of the numbers. The existing controls are extremely good value: they remove more than half the risk for 95,000. The proposed contract removes 267,500 − 84,500 = 183,000 more for $180,000, which is barely worth it on expected loss alone. That pattern — the first controls cheap and powerful, later ones expensive and marginal — is the normal one, and it is why the question is never "are the controls adequate?" but "is the next control worth its cost?"
+Three distinctions belong with residual risk.
+Residual risk is not zero risk, and it is not meant to be. Reducing a risk to nothing is almost always possible — by stopping the activity — and almost never worth it.
+Residual risk is compared with risk appetite, which Chapter 6 defines. Where residual risk exceeds appetite, something must change: more control, transfer, or a decision to accept a larger exposure deliberately and say so.
+And residual risk assumes the controls work. A control that exists on paper, is performed inconsistently, or is performed by the same person who performs the activity it checks, does not reduce risk by the amount claimed for it — which is why control effectiveness must be tested rather than asserted, and why Chapter 15 connects this directly to internal control and ethics.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+after controls | بعد الضوابط | après contrôles
+risk reduction | تخفيض المخاطر | réduction du risque
+appetite breach | تجاوز حدود المخاطرة | dépassement de l'appétit
+control testing | اختبار الضوابط | test des contrôles
+@end
+SECTION CHECK   Test yourself
+SC4-4  Residual risk is:
+A.	the risk remaining after controls and other responses.
+B.	the risk before controls.
+C.	the maximum possible loss.
+D.	always zero.
+SC4-5  Inherent risk of 620,000 reduced to 267,500 by controls costing 95,000 gives a net benefit of:
+A.	257,500
+B.	352,500
+C.	172,500
+D.	95,000
+SC4-6  Residual risk should be compared with:
+A.	the company's risk appetite.
+B.	the inherent risk only.
+C.	last year's losses.
+D.	the insurance premium.
+Answers and explanations are at the end of the chapter.
+4.3  Reading the two together
+The pair of figures is more informative than either alone, and the exam rewards an answer that reads them together. Figure F804-02 shows four combinations and what each means.
+Figure F804-02. What the pair of figures tells you
+@table
+Inherent | Residual | What it means | What to do
+High | Low | Controls are carrying a great deal | Test them hard; plan for their failure
+High | High | The risk is not being managed | Act: control, transfer, or stop
+Low | Low | A genuinely small risk | Do not spend more on it
+Low | High | Controls are making things worse, or the assessment is wrong | Re-examine the assessment
+@end
+The fourth row deserves a sentence, because candidates assume it is impossible. It is not: a control can create risk. A new system introduced to reduce error introduces implementation risk; an approval step introduces delay; a segregation of duties that nobody has staffed creates a process that stops. More often, though, the fourth row means the assessment is wrong — usually because the inherent figure was estimated as though the controls were partly in place.
+Three further uses of the pair.
+Prioritising assurance. Internal audit should spend its time where the gap between inherent and residual is largest, because that is where the company is most dependent on controls it has not recently tested.
+Planning for failure. Chapter 7's continuity planning asks what happens when a control fails, and the inherent figure is the answer.
+Reporting honestly. A board that is shown only residual risk sees a company with small risks. A board shown both sees a company whose small risks are small because of specific things that specific people do, which is a different and more actionable picture.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+assurance | التأكيد | assurance
+dependence on controls | الاعتماد على الضوابط | dépendance aux contrôles
+segregation of duties | الفصل بين المهام | séparation des tâches
+re-examination | إعادة الفحص | réexamen
+@end
+SECTION CHECK   Test yourself
+SC4-7  High inherent risk with low residual risk means:
+A.	the controls are carrying a great deal and should be tested hard.
+B.	the risk is unimportant.
+C.	the assessment is wrong.
+D.	the risk should be transferred.
+SC4-8  Internal audit should concentrate where:
+A.	the gap between inherent and residual risk is largest.
+B.	residual risk is lowest.
+C.	inherent risk is lowest.
+D.	losses have already occurred.
+SC4-9  Residual risk higher than inherent risk usually means:
+A.	the assessment is wrong, though a control can genuinely create risk.
+B.	the controls are excellent.
+C.	the risk is uninsurable.
+D.	the company has no appetite.
+Answers and explanations are at the end of the chapter.
+4.4  The benefits of risk management
+The outcome asks for the benefits to be identified and explained, and an answer that lists them in order of how hard they are to prove is a better answer than one that recites them.
+Fewer and smaller losses. The direct benefit, and the measurable one: the reduction from inherent to residual risk, which for Orontes's roaster alone was 352,500 a year against a cost of 95,000.
+More stable results. Chapter 2's volatility falls. That matters for its own sake — plans hold, covenants are not breached, the dividend of Book 2's Chapter 9 is not cut — and it matters because of the next benefit.
+A lower cost of capital. Lenders price default risk and equity investors price volatility, so a company that demonstrably manages risk borrows more cheaply, keeps a better rating, and faces a smaller equity risk premium. The effect is small per unit and large in total: Orontes employs equity of $20,392,975 and debt of 390,000 ÷ 0.06 = 6,500,000, which is 20,392,975 + 6,500,000 = 26,892,975 of capital, so twenty basis points off its 9.04 per cent cost of capital is worth 26,892,975 × 0.002 = 53,786 a year, every year, for nothing but credibility.
+The ability to take more risk where it pays. This is the benefit most often omitted and the one that matters most to a board. A company that knows its exposures, and knows it can absorb them, can take the deliberate risks it is paid for — the new market, the new product, the acquisition of Book 3's Chapter 18 — instead of avoiding them out of ignorance. Risk management is not for reducing risk; it is for taking the right risks knowingly.
+Protection of reputation and of the licence to operate. A recall, a safety failure, a fraud, a sanction: each damages something that took years to build and is not on the balance sheet. Book 1's Chapter 7 showed goodwill of $2,724,000 written off in an afternoon.
+Better decisions. Every project in Book 3 was appraised with an estimate; risk management supplies the range around the estimate and the question of what happens if it is wrong.
+Fewer surprises, which is the benefit boards actually ask for. A loss that was identified, quantified and accepted is a managed outcome; the same loss arriving unannounced is a governance failure, and the difference is entirely in whether anybody wrote it down first.
+Compliance and governance. Codes of corporate governance in most jurisdictions require the board to state that it has reviewed the effectiveness of risk management, which makes some of this work obligatory regardless of its economics.
+And lower insurance costs, since insurers price the quality of a company's risk management directly, through premiums, deductibles and the terms they are willing to offer.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+basis point | نقطة أساس | point de base
+licence to operate | رخصة التشغيل الاجتماعية | licence d'exploitation
+informed risk-taking | المخاطرة المدروسة | prise de risque éclairée
+governance code | مدونة الحوكمة | code de gouvernance
+@end
+SECTION CHECK   Test yourself
+SC4-10  The benefit of risk management most often omitted is:
+A.	the ability to take more risk deliberately where it is paid for.
+B.	fewer losses.
+C.	lower insurance premiums.
+D.	compliance with governance codes.
+SC4-11  Twenty basis points off the cost of capital on 26,892,975 of capital is worth:
+A.	53,786 a year
+B.	537,860 a year
+C.	5,379 a year
+D.	26,893 a year
+SC4-12  Stable results benefit a company because:
+A.	plans hold, covenants are not breached, and capital costs less.
+B.	profits are higher.
+C.	tax is lower.
+D.	risk disappears.
+Answers and explanations are at the end of the chapter.
+4.5  Why the benefits are hard to prove
+Risk management has a measurement problem that every candidate should be able to state, because exam questions on the benefits often turn into questions about this.
+Its successes are invisible. The fire that did not happen leaves no trace, and a function whose entire output is the absence of events cannot point to anything. The losses it failed to prevent, by contrast, are extremely visible.
+Its costs are immediate and certain, while its benefits are deferred and probabilistic — the same asymmetry that makes Book 3's long-lived projects hard to defend against a payback rule.
+And the counterfactual is unobservable. Nobody can show what the loss would have been without the control, which is why the inherent-risk estimate of section 4.1 matters so much: it is the only available statement of the counterfactual, and it is a judgment.
+Four ways of showing the value anyway, and an answer that offers them is answering the harder question.
+Track near-misses and the events that controls caught. A control that stopped forty incorrect deliveries this year has a visible output, and the loss database of Chapter 1 is where it lives.
+Report inherent and residual together, as section 4.3 argued, so that the gap is the stated output of the function.
+Use the cost-benefit arithmetic of Chapter 9 on each significant control, so that decisions are documented in money at the time they are taken rather than defended afterwards.
+And measure the second-order benefits where they can be observed: insurance premiums and terms, the credit rating, covenant headroom, the volatility of earnings over time, the number of surprises reported to the board.
+WORKED EXAMPLE   Worked example: what risk management is worth at Orontes
+Step 1. Loss reduction on the register. The five risks of Chapter 3 carry 264,747 of residual expected loss. The inherent figure for the same five is estimated at 940,000, so the controls remove 940,000 − 264,747 = 675,253 a year.
+Step 2. What the controls cost. Maintenance, testing, approvals, the quality function and insurance premiums come to 410,000 a year.
+Step 3. Net on the direct benefit alone. 675,253 − 410,000 = 265,253 a year, before any second-order effect.
+Step 4. Add the cost of capital. Twenty basis points on 26,892,975 of capital is 53,786, giving 265,253 + 53,786 = 319,039.
+Check. Against operating income of $4,176,000 that is nearly eight per cent, which is a defensible answer to a director who asks what the risk function is for. Two honest qualifications go with it. The inherent estimate of 940,000 is a judgment and the whole calculation rests on it. And the twenty basis points cannot be observed directly; it is inferred from what lenders and insurers say they price. State both, and the number is credible; omit them, and it is advocacy.
+YOUR TURN   Before, after, and what it is worth
+Figure F804-03 gives a risk and asks for the pair of figures. Complete the blanks. Answers are at the end of the chapter.
+Figure F804-03. Your turn: inherent and residual (complete the blanks)
+@table
+Item | Data | Answer
+Risk measured before any management action | | ________
+Risk measured after the controls | | ________
+Reduction delivered by the roaster regime | Inherent 620,000; residual 267,500 | ________
+Net benefit of that regime | Controls cost 95,000 | ________
+What residual risk should be compared with | | ________
+Why the benefits of risk management are hard to prove | | ________
+@end
+LANGUAGE FOCUS   "Inherent" and "residual"
+Both words are Latin and both are precise, which is unusual in risk vocabulary. Inherent means sticking in — a property of the thing itself, not of what anybody has done about it — and that is exactly right: inherent risk belongs to the activity. Residual means left over, and it carries the correct implication that something has been taken away. The pair survives translation well: Arabic الكامنة, latent or lying hidden, and المتبقية, remaining, carry the same two ideas, as do French inhérent and résiduel. The trap is elsewhere, in the word control, which in English accounting means a procedure that reduces risk, while in ordinary English it means power over something. A manager who says "we have that under control" is making the ordinary-language claim; a control in the technical sense is a specific, performable, testable act, and if nobody can name who performs it and when, it is not one.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+counterfactual | الوضع الافتراضي البديل | contrefactuel
+near-miss reporting | الإبلاغ عن الحوادث الوشيكة | déclaration des quasi-accidents
+covenant headroom | هامش التعهدات | marge de manœuvre sur les covenants
+second-order benefit | المنفعة غير المباشرة | bénéfice indirect
+@end
+SECTION CHECK   Test yourself
+SC4-13  Risk management's successes are hard to show because:
+A.	the events that did not happen leave no trace.
+B.	the costs are deferred.
+C.	the benefits are certain.
+D.	no records are kept.
+SC4-14  Inherent expected loss of 940,000 against residual of 264,747 means the controls remove:
+A.	675,253 a year
+B.	1,204,747 a year
+C.	264,747 a year
+D.	410,000 a year
+SC4-15  Near-miss reporting helps demonstrate value because it:
+A.	makes the output of a control visible.
+B.	reduces the inherent risk.
+C.	removes the need for an estimate.
+D.	lowers the cost of capital directly.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F804-04 brings the chapter together.
+Figure F804-04. Chapter 4 summary map: the key rule for each section.
+Inherent risk is the risk in an activity before any management action — artificial, hard to estimate, and worth estimating because it shows what the controls are carrying, ranks activities for assurance, and prevents the circular comfort of measuring only what is left. Residual risk is what remains afterwards, and it is the figure to compare with appetite: the roaster's 620,000 − 267,500 = 352,500 of reduction for 95,000 of cost leaves 352,500 − 95,000 = 257,500 of net benefit, and the pattern of cheap early controls and expensive later ones means the question is always whether the next control pays. Read together, the pair tells you whether a small risk is genuinely small or merely well-controlled, where assurance should go, and what to plan for when a control fails. The benefits of managing risk run from fewer losses through stabler results, a lower cost of capital — twenty basis points on 26,892,975 of capital being 26,892,975 × 0.002 = 53,786 a year — the ability to take the risks the company is paid for, protection of reputation, better decisions, fewer surprises, governance compliance and cheaper insurance. And they are hard to prove because prevented events are invisible, costs are certain while benefits are not, and the counterfactual cannot be observed: the answers are near-miss data, reporting both figures, documenting the cost-benefit case at the time, and tracking the second-order measures that can be seen.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P4-01  Inherent risk is measured:
+A.	before any management action.
+B.	after controls.
+C.	after insurance.
+D.	net of expected recoveries.
+P4-02  Residual risk is:
+A.	what remains after the responses have been applied.
+B.	the inherent risk.
+C.	the maximum possible loss.
+D.	the uninsured portion only.
+P4-03  Controls reducing an inherent 620,000 to a residual 267,500 deliver a reduction of:
+A.	352,500
+B.	267,500
+C.	620,000
+D.	887,500
+P4-04  Those controls cost 95,000. The net benefit is:
+A.	257,500
+B.	352,500
+C.	172,500
+D.	95,000
+P4-05  A combination of high inherent and low residual risk calls for:
+A.	hard testing of the controls and a plan for their failure.
+B.	no further attention.
+C.	immediate transfer of the risk.
+D.	stopping the activity.
+P4-06  Residual risk above inherent risk most often indicates:
+A.	an error in the assessment.
+B.	excellent controls.
+C.	a transferred risk.
+D.	an uninsurable risk.
+P4-07  Which benefit of risk management is the most directly measurable?
+A.	The reduction in expected loss
+B.	The protection of reputation
+C.	Better decisions
+D.	Fewer surprises
+P4-08  Twenty basis points is:
+A.	0.20 of a percentage point.
+B.	20 per cent.
+C.	2 per cent.
+D.	0.02 of a percentage point.
+P4-09  Risk management's purpose is best described as:
+A.	taking the right risks knowingly.
+B.	eliminating risk.
+C.	minimising risk.
+D.	insuring everything.
+P4-10  Risk management's benefits are hard to prove because:
+A.	prevented events cannot be observed.
+B.	the costs are uncertain.
+C.	the benefits arrive first.
+D.	no framework exists.
+P4-11  A control that exists on paper but is performed inconsistently:
+A.	does not reduce risk by the amount claimed for it.
+B.	reduces inherent risk.
+C.	reduces residual risk fully.
+D.	is irrelevant to the assessment.
+P4-12  Internal audit's attention is best directed by:
+A.	the gap between inherent and residual risk.
+B.	the size of the department.
+C.	last year's plan.
+D.	the lowest residual risks.
+Case-style practice: the quality function
+Orontes's new chief executive has asked why the company spends $410,000 a year on quality, testing, supplier approval and insurance when "we have not had a serious incident in six years."
+Required. Answer the question, using the figures in this chapter. Explain what the six clean years do and do not prove, and say what you would put in front of the chief executive to make the case verifiable rather than merely asserted. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC4-1  Answer A. Before any management action.
+B is wrong. That is residual risk.
+C is wrong. Insurance is one of the responses.
+D is wrong. That is a severity measure.
+SC4-2  Answer A. It reveals the controls' load.
+B is wrong. Auditors use it; they are not the reason.
+C is wrong. Premiums follow the exposure as insured.
+D is wrong. Profit is not its subject.
+SC4-3  Answer A. The conclusion is assumed.
+B is wrong. It understates them.
+C is wrong. Frameworks ask for both.
+D is wrong. A register is still needed.
+SC4-4  Answer A. What remains after the responses.
+B is wrong. That is inherent risk.
+C is wrong. That is the worst case.
+D is wrong. Zero is neither achievable nor desirable.
+SC4-5  Answer A. 352,500 − 95,000 = 257,500.
+B is wrong. That is the gross reduction.
+C is wrong. This has no basis in the figures.
+D is wrong. That is the cost.
+SC4-6  Answer A. Appetite is the benchmark.
+B is wrong. Inherent risk is the starting point, not the test.
+C is wrong. History is evidence, not a standard.
+D is wrong. A premium is a price.
+SC4-7  Answer A. The controls are load-bearing.
+B is wrong. It is important precisely because it is controlled.
+C is wrong. The pattern is normal, not an error.
+D is wrong. Transfer may not be needed at all.
+SC4-8  Answer A. The largest dependence on controls.
+B is wrong. Low residual risk may be well controlled or trivial.
+C is wrong. Low inherent risk needs little attention.
+D is wrong. Past losses are one input among several.
+SC4-9  Answer A. Usually an error, occasionally genuine.
+B is wrong. Good controls lower the residual figure.
+C is wrong. Insurability is unrelated.
+D is wrong. Appetite is a separate matter.
+SC4-10  Answer A. Informed risk-taking is the forgotten benefit.
+B is wrong. That is the one everybody names.
+C is wrong. Premiums are a second-order benefit.
+D is wrong. Compliance is routinely cited.
+SC4-11  Answer A. 26,892,975 × 0.002 = 53,786.
+B is wrong. That is ten times too large.
+C is wrong. That is ten times too small.
+D is wrong. That misreads the figures.
+SC4-12  Answer A. Stability protects plans, covenants and capital costs.
+B is wrong. Stability is not the same as higher profit.
+C is wrong. Tax is unaffected.
+D is wrong. Risk is reduced, not removed.
+SC4-13  Answer A. Prevented events are invisible.
+B is wrong. The costs are immediate.
+C is wrong. The benefits are probabilistic.
+D is wrong. Records exist; the counterfactual does not.
+SC4-14  Answer A. 940,000 − 264,747 = 675,253.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the residual figure.
+D is wrong. That is the cost of the controls.
+SC4-15  Answer A. A caught incident is an observable output.
+B is wrong. Inherent risk is unchanged by reporting.
+C is wrong. Estimates are still needed.
+D is wrong. The effect on capital costs is indirect.
+Your turn
+@table
+Item | Answer
+Risk before any management action | Inherent risk.
+Risk after the controls | Residual risk.
+Reduction delivered by the regime | 352,500: 620,000 − 267,500 = 352,500.
+Net benefit of that regime | 257,500: 352,500 − 95,000 = 257,500.
+What residual risk is compared with | Risk appetite, and where it exceeds appetite something must change.
+Why benefits are hard to prove | Prevented events leave no trace, costs are certain while benefits are not, and the counterfactual cannot be observed.
+What it tells you | Two measurements and one subtraction produce the only defensible statement of what risk management is worth — and the subtraction depends entirely on an estimate that must be made honestly.
+@end
+Multiple-choice questions
+P4-01  Answer A. Before any management action.
+B is wrong. That is residual.
+C is wrong. Insurance is a response.
+D is wrong. Recoveries are part of the response.
+P4-02  Answer A. What is left after the responses.
+B is wrong. That is the starting point.
+C is wrong. That is a severity measure.
+D is wrong. Residual risk covers more than insurance gaps.
+P4-03  Answer A. 620,000 − 267,500 = 352,500.
+B is wrong. That is the residual figure.
+C is wrong. That is the inherent figure.
+D is wrong. This adds instead of subtracting.
+P4-04  Answer A. 352,500 − 95,000 = 257,500.
+B is wrong. That ignores the cost.
+C is wrong. This has no basis in the figures.
+D is wrong. That is the cost itself.
+P4-05  Answer A. The controls are carrying the risk.
+B is wrong. That is the complacent reading.
+C is wrong. Transfer may be unnecessary.
+D is wrong. Stopping is disproportionate.
+P4-06  Answer A. Usually an assessment error.
+B is wrong. Good controls reduce the residual figure.
+C is wrong. Transfer lowers residual risk.
+D is wrong. Insurability is a separate question.
+P4-07  Answer A. The reduction in expected loss is arithmetic.
+B is wrong. Reputation is hard to quantify.
+C is wrong. Decision quality is hard to observe.
+D is wrong. Absence of surprise is hard to price.
+P4-08  Answer A. A basis point is one hundredth of a percentage point.
+B is wrong. That is a hundred times too large.
+C is wrong. That is ten times too large.
+D is wrong. That is ten times too small.
+P4-09  Answer A. Taking the right risks knowingly.
+B is wrong. Elimination means not trading.
+C is wrong. Minimisation is not the objective either.
+D is wrong. Insurance is one response among five.
+P4-10  Answer A. The counterfactual cannot be observed.
+B is wrong. Costs are certain.
+C is wrong. Costs arrive first.
+D is wrong. Frameworks are plentiful.
+P4-11  Answer A. Claimed effectiveness must be tested.
+B is wrong. Inherent risk is unaffected by controls.
+C is wrong. Inconsistent performance delivers less.
+D is wrong. It is central to the assessment.
+P4-12  Answer A. The dependence gap directs assurance.
+B is wrong. Size is not a risk measure.
+C is wrong. Repetition is not a plan.
+D is wrong. That is where least is at stake.
+Case-style set: the quality function
+What the six clean years prove. They prove that the controls and the luck together have been sufficient for six years. They do not prove that the risk is small, because what is being observed is residual risk — the risk after the $410,000 has been spent. Reading six clean years as evidence that the spending is unnecessary is the circular comfort of section 4.1: the conclusion assumes that the outcome would have been the same without the controls, which is precisely the thing nobody can observe.
+What the arithmetic says. On the five risks in the register, inherent expected loss is estimated at 940,000 and residual at 264,747, so the controls remove 940,000 − 264,747 = 675,253 a year for 410,000, a net 675,253 − 410,000 = 265,253. Adding about twenty basis points of cost of capital on 26,892,975 of capital, worth 53,786, gives 265,253 + 53,786 = 319,039 — some eight per cent of operating income, from spending that produces no visible output at all.
+What the figures depend on. The inherent estimate is a judgment. It should be stated as one, and it should be anchored on something: the industry's recall record, the two near-misses the goods-inwards check caught last year, and what happened at the mill that had no supplier approval process.
+What I would put in front of the chief executive. Four things, so that the case is verifiable rather than asserted. First, the near-miss log: how many incorrect deliveries, mislabelled batches and out-of-specification results the controls caught this year, with what each would have cost. Second, the inherent and residual figures side by side, with the basis of the inherent estimate written down. Third, the insurer's position — what the premium and the deductible would be if the quality function were reduced, which is an outside party pricing the same question. Fourth, a proposal: rather than defending the whole $410,000, test the marginal items. Some of the spending will be the cheap, powerful early control of section 4.2 and some will be the expensive marginal one, and only a control-by-control cost-benefit analysis distinguishes them. That answers the chief executive's question properly, which is not "is quality worth anything?" but "is every part of this worth what it costs?"

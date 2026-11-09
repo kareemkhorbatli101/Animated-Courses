@@ -1,0 +1,595 @@
+Chapter 1
+The kinds of risk
+أنواع المخاطر
+Books 1, 2 and 3 of this part measured what a company has done, how it paid for it, and how it chooses what to do next. All three assumed the numbers happen. This book is about the fact that they might not.
+Risk is not a department and not a form. It is the condition every figure in the first three books was computed under, and the first discipline of managing it is being able to say what kind of risk you are looking at — because the answer determines who owns it, how it is measured, and what can be done about it.
+This chapter sets out the classification the exam uses: business risk, hazard risk, financial risk, operational risk and strategic risk, with operational risk treated at length because it is the one that causes most of the losses and gets least of the attention, and with legal, compliance and political risk defined as the three that arrive from outside and cannot be negotiated with.
+Figure F801-01 is your map.
+Figure F801-01. Chapter 1 roadmap: what risk is, and the five families the exam names.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+D.1.a
+Identify and explain the different types of risk, including business, hazard, financial, operational and strategic risk.
+C
+Full treatment
+D.1.b
+Demonstrate an understanding of operational risk.
+C
+Full treatment
+D.1.c
+Define legal risk, compliance risk and political risk.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+risk
+المخاطرة
+risque
+uncertainty
+عدم اليقين
+incertitude
+business risk
+مخاطر الأعمال
+risque d'exploitation
+hazard risk
+المخاطر العارضة
+risque de sinistre
+financial risk
+المخاطر المالية
+risque financier
+operational risk
+المخاطر التشغيلية
+risque opérationnel
+strategic risk
+المخاطر الاستراتيجية
+risque stratégique
+legal risk
+المخاطر القانونية
+risque juridique
+compliance risk
+مخاطر الامتثال
+risque de conformité
+political risk
+المخاطر السياسية
+risque politique
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 measured Orontes's results: sales of $42,000,000, operating income of $4,176,000, net income of $2,969,100. Book 2 financed them, at a weighted average cost of capital of 9.04 per cent. Book 3 found an operating leverage of 4.02 and a margin of safety of 24.86 per cent. Those last two numbers are risk measures, and this book is where they are read as such.
+1.1  What risk is
+Risk is the possibility that an outcome differs from what was expected. Two things follow from that definition and both are examined.
+Risk runs in both directions. The possibility that sales exceed the forecast is as much a deviation as the possibility that they fall short, and a definition that admits only the downside misses half of what risk management is for: Chapter 5's fifth response is to exploit a risk, which has no meaning unless risk can be favourable. In ordinary speech risk means danger; in this syllabus it means variability, and the examiners use the wider sense.
+Risk is not the same as uncertainty. In the classical distinction, a risk is a possibility whose outcomes and probabilities can be described — a machine that fails on average once in two hundred days — while uncertainty describes a situation where the outcomes themselves are not known in advance. The distinction matters because the tools of Chapters 3 and 8 need probabilities, and a situation that has none is managed by judgment, redundancy and flexibility rather than by arithmetic.
+Two more terms belong here before the classification.
+An exposure is what stands to be lost: the amount at stake, not the chance of losing it. Orontes's exposure to a Syrian pound devaluation is the value of its pound-denominated receivables; its exposure to a fire at the Hama plant is the plant plus the profit the plant would have earned while it was rebuilt.
+An event is the thing that happens. Risk management works on events, and Chapter 8's event identification is the step that makes the rest possible: a risk nobody has named is a risk nobody is managing.
+The classification that follows is not a natural fact. It is a working device, and a single event can sit in more than one family — a fire caused by a badly maintained roaster is a hazard risk and an operational risk at once. The reason to classify at all is that the families differ in who owns them, how they are measured and what can be done about them, which is what the rest of this chapter shows.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+deviation from expectation
+الانحراف عن المتوقع
+écart par rapport à l'attendu
+exposure
+التعرض
+exposition
+event
+الحدث
+événement
+upside risk
+المخاطرة الإيجابية
+risque favorable
+SECTION CHECK   Test yourself
+SC1-1  In this syllabus, risk means:
+A.	the possibility that an outcome differs from what was expected, in either direction.
+B.	the possibility of loss only.
+C.	the probability of bankruptcy.
+D.	the variance of a share price.
+SC1-2  The classical distinction between risk and uncertainty is that:
+A.	a risk has describable outcomes and probabilities; uncertainty does not.
+B.	risk is larger than uncertainty.
+C.	uncertainty applies only to financial markets.
+D.	risk is insurable and uncertainty is not.
+SC1-3  An exposure is:
+A.	the amount that stands to be lost.
+B.	the probability of a loss.
+C.	the expected loss.
+D.	the insurance premium.
+Answers and explanations are at the end of the chapter.
+1.2  Business risk and strategic risk
+Business risk is the variability of a company's operating results arising from the business it is in: demand, prices, input costs, competition, technology and the cost structure that turns all of those into profit. It is the risk the company exists in order to take, and it is measured before any financing effect.
+Book 3 measured Orontes's. The company's operating leverage is 4.02, so a 10 per cent fall in sales becomes a 4.02 × 10 = 40.2 per cent fall in operating income — on operating income of $4,176,000, a loss of 4,176,000 × 0.402 = 1,678,752. The margin of safety of 24.86 per cent says how far sales can fall before operating income reaches zero. Those two figures are Orontes's business risk, stated in the language Book 3 taught, and they are a direct consequence of a cost structure in which $12,624,000 of the costs do not move with volume.
+Four drivers of business risk are worth naming, because an exam answer that names them is a better answer than one that defines the term.
+Demand variability. How much the volume moves, which for a food producer follows household incomes and, in Orontes's case, the sesame harvest and the festival calendar.
+Input price variability. Sesame is a commodity, and Book 2's Chapter 6 showed what a forward contract on it does.
+Output price flexibility. Whether the company can pass an input cost increase on, which Book 3's Chapter 11 analysed as market structure.
+Operating leverage. The proportion of costs that do not vary, which magnifies everything above.
+Strategic risk is different in kind. It is the risk that the company's chosen direction is wrong, or becomes wrong — that the market it serves disappears, that a competitor changes the terms of competition, that a technology makes its assets obsolete, that an acquisition of the kind Book 3's Chapter 18 analysed destroys value instead of creating it, that its reputation is lost.
+Three features distinguish strategic risk and all three are examined.
+It is owned by the board, not by a risk function. Nobody below the directors can decide that the company's strategy is wrong.
+It is slow and large. Business risk shows up in a quarter; strategic risk shows up over years, and by the time it is visible in the numbers the window to respond has usually closed.
+And it is the family least amenable to measurement. There is no probability distribution for "tahini is displaced by a product nobody has invented yet", which is exactly the uncertainty of section 1.1, and the response is strategic flexibility — the real options of Book 3's Chapter 15 — rather than a calculation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+operating leverage
+الرفع التشغيلي
+levier d'exploitation
+demand variability
+تقلب الطلب
+variabilité de la demande
+obsolescence
+التقادم
+obsolescence
+strategic flexibility
+المرونة الاستراتيجية
+flexibilité stratégique
+SECTION CHECK   Test yourself
+SC1-4  Business risk is measured:
+A.	before any financing effect, from the business and its cost structure.
+B.	after interest.
+C.	from the debt-to-equity ratio.
+D.	from the share price.
+SC1-5  With an operating leverage of 4.02, a 10 per cent fall in sales changes operating income by:
+A.	40.2 per cent
+B.	10.0 per cent
+C.	4.02 per cent
+D.	2.49 per cent
+SC1-6  Strategic risk is owned by:
+A.	the board, because only the directors can change the strategy.
+B.	the risk manager.
+C.	the internal auditor.
+D.	the treasurer.
+Answers and explanations are at the end of the chapter.
+1.3  Hazard risk
+Hazard risk — also called pure risk — is the risk of loss from a physical event: fire, flood, storm, earthquake, explosion, theft, accident, product contamination, the death or injury of a key person.
+Its defining feature is that it has no upside. A fire can destroy a plant and cannot improve one, which is why the term pure risk is used and why hazard risk is the family where insurance is the natural response: an insurable risk is one that is accidental, measurable, and part of a large enough pool of similar exposures for an insurer to price it. Chapter 5 returns to that.
+Two kinds of loss follow a hazard event and the exam expects both.
+Direct loss: the asset itself — the building, the plant, the stock.
+Consequential loss: the profit that would have been earned while the asset was out of use, together with the extra cost of working around it. This is usually the larger figure and the one companies underinsure.
+WORKED EXAMPLE   Worked example: what sixty days of fire would cost Orontes
+Step 1. The direct loss. The roasting hall and its equipment would have to be rebuilt, and the stock in it replaced.
+Step 2. The consequential loss. Orontes earns a contribution of 3,500,000 × 4.80 = 16,800,000 a year, which is 16,800,000 ÷ 365 = 46,027 a day.
+Step 3. Sixty days. At that rate a sixty-day stoppage costs 46,027 × 60 = 2,761,620 of contribution.
+Step 4. Against what. Orontes's whole operating income is $4,176,000, so a two-month stoppage removes about two thirds of a year's operating profit without touching a single asset on the insurance schedule.
+Check. The calculation assumes nothing is recovered — no production caught up afterwards, no stock on hand to sell, no customer who waits. Each of those softens the figure and none of them is free: the right use of the number is to show that the consequential loss is of the same order as the direct one, which is the argument for business interruption cover and for the continuity planning of Chapter 7.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+pure risk
+المخاطر البحتة
+risque pur
+direct loss
+الخسارة المباشرة
+dommage direct
+consequential loss
+الخسارة التبعية
+perte d'exploitation
+business interruption
+انقطاع الأعمال
+interruption d'activité
+SECTION CHECK   Test yourself
+SC1-7  Hazard risk is called pure risk because it:
+A.	has no upside.
+B.	is always insured.
+C.	is caused by people.
+D.	can be measured exactly.
+SC1-8  A contribution of 16,800,000 a year lost for sixty days is:
+A.	2,761,620
+B.	1,380,810
+C.	16,800,000
+D.	46,027
+SC1-9  The loss companies most often underinsure is:
+A.	the consequential loss of profit while the asset is out of use.
+B.	the building.
+C.	the stock.
+D.	the equipment.
+Answers and explanations are at the end of the chapter.
+1.4  Financial risk
+Financial risk is the risk arising from a company's financing and from its financial position rather than from its trading: the risk that it cannot meet its obligations, and the risk that financial prices move against it.
+Four kinds, and the exam names them.
+Credit risk: that a customer or counterparty does not pay. Orontes carries $4,144,000 of receivables, and Book 1's Chapter 12 measured how long they take to collect.
+Liquidity risk: that cash is not available when it is needed, even though the company is solvent on paper. This is the risk that kills otherwise healthy companies, and Book 1's working-capital chapters are its measurement.
+Market risk: that a price moves — an interest rate, an exchange rate, a commodity price, a share price. Chapters 10 and 11 of this book take exchange rates in detail.
+Leverage or default risk: that the fixed claims of debt cannot be met out of a variable operating income. Orontes's liabilities are 31,672,600 − 20,392,975 = 11,279,625 and its interest is $390,000 a year against operating income of $4,348,800, an interest cover of 4,348,800 ÷ 390,000 = 11.15 times, which is comfortable.
+The point the examiners press is the relationship between business risk and financial risk. Business risk is given by the industry and the cost structure; financial risk is chosen, by the capital structure decision of Book 2's Chapter 7. A company in a volatile business that also borrows heavily has multiplied two variabilities together, and the combined leverage of Book 3 is the arithmetic of that multiplication. Orontes's operating leverage of 4.02 is high; its interest cover of 11.15 times says it has not compounded the problem with debt, and that is a deliberate choice rather than an accident.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+credit risk
+مخاطر الائتمان
+risque de crédit
+liquidity risk
+مخاطر السيولة
+risque de liquidité
+market risk
+مخاطر السوق
+risque de marché
+interest cover
+تغطية الفوائد
+couverture des intérêts
+SECTION CHECK   Test yourself
+SC1-10  Liquidity risk is the risk that:
+A.	cash is not available when needed, even though the company is solvent.
+B.	a customer does not pay.
+C.	an exchange rate moves.
+D.	a plant burns down.
+SC1-11  Operating income of 4,348,800 against interest of 390,000 gives an interest cover of:
+A.	11.15 times
+B.	8.97 times
+C.	1.11 times
+D.	0.09 times
+SC1-12  The difference between business risk and financial risk is that financial risk is:
+A.	chosen, through the capital structure decision.
+B.	given by the industry.
+C.	uninsurable.
+D.	always larger.
+Answers and explanations are at the end of the chapter.
+1.5  Operational risk
+Operational risk is the risk of loss from inadequate or failed internal processes, people and systems, or from external events. That definition, which comes from banking regulation and is now used everywhere, repays reading twice, because it is built from four sources and the exam tests them separately.
+Processes. A control that does not work, a reconciliation nobody performs, a procedure that two departments interpret differently, a handover where responsibility is lost. The recall of a mislabelled batch is a process failure before it is anything else.
+People. Error, inexperience, inadequate training, turnover that takes knowledge with it, and deliberate wrongdoing — internal fraud, which Chapter 12 treats in its own right.
+Systems. An outage, a failed implementation, a spreadsheet with a wrong formula in it, a data loss, a cyber intrusion. The spreadsheet is not a joke: errors in uncontrolled spreadsheets are among the most frequently reported operational losses in surveys of finance functions.
+External events. Suppliers failing, utilities interrupted, transport blocked, a pandemic, a regulatory change applied at short notice. The event is external; the risk is operational because the loss comes through the company's own ability to keep running.
+Four characteristics distinguish the family, and an exam answer that gives them is answering the outcome rather than reciting the definition.
+It is present in every activity, so it cannot be assigned to one department. Everybody who runs a process owns some of it.
+Its loss distribution is lopsided: very many small losses and a few enormous ones. That shape is why Chapter 3's expected loss is a poor summary of it and why the maximum possible loss of that chapter matters more here than anywhere else.
+It is rarely taken deliberately. A company takes business risk because it expects a return for it. Nobody is paid for operational risk, which makes reducing it the usual response and means the test of a control is the cost-benefit analysis of Chapter 9.
+And it is under-reported. A credit loss appears in the accounts as a bad debt; an operational loss appears as a slightly worse margin, an unexplained variance, a write-off, a cost of poor quality — which is why Chapter 8's event identification and a loss database matter.
+WORKED EXAMPLE   Worked example: one operational event at Orontes
+Step 1. The event. A supplier delivers sesame with an undeclared change in origin, and 40,000 jars are produced before the paperwork is checked. The jars must be recalled from three distributors.
+Step 2. Which source. Processes first — the goods-inwards check did not match the certificate to the delivery; people second — the control was performed by one person without review; external third — the supplier's own documentation was wrong.
+Step 3. The loss. The contribution forgone on the recalled jars is 40,000 × 4.80 = 192,000, with the recall's own costs, the investigation, the destroyed stock and the distributors' goodwill on top.
+Step 4. What it shows. The direct financial loss is modest against $42,000,000 of sales. The consequence that matters is the one not in the arithmetic: a regulator that now looks at every consignment, and three distributors who will ask what else is not being checked.
+Check. Note where the event would have appeared in the accounts if nobody had classified it: in cost of goods sold, as a write-off, invisible by the time the figures were consolidated. That is what under-reporting means in practice, and it is why operational risk needs a register of its own.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+internal process
+العملية الداخلية
+processus interne
+system failure
+عطل الأنظمة
+défaillance des systèmes
+loss database
+سجل الخسائر
+base des incidents
+cost of poor quality
+تكلفة الجودة الرديئة
+coût de la non-qualité
+SECTION CHECK   Test yourself
+SC1-13  Operational risk arises from inadequate or failed:
+A.	internal processes, people and systems, or external events.
+B.	financing decisions.
+C.	strategic choices.
+D.	commodity prices.
+SC1-14  The loss distribution of operational risk is typically:
+A.	many small losses and a few very large ones.
+B.	symmetrical.
+C.	uniform.
+D.	entirely large losses.
+SC1-15  Operational risk is rarely taken deliberately because:
+A.	nobody is paid a return for bearing it.
+B.	it is illegal to take it.
+C.	it cannot be measured.
+D.	it is always insured.
+Answers and explanations are at the end of the chapter.
+1.6  Legal, compliance and political risk
+Three risks arrive from outside the company's control and the outcome asks for each to be defined.
+Legal risk is the risk of loss from legal proceedings or from legal defects: a contract that does not say what the company thought it said, a claim from a customer, an employee or a supplier, a dispute over intellectual property, a liability for a defective product, a judgment in a jurisdiction the company did not expect to be sued in. Its distinguishing feature is that the loss is determined by a third party — a court or an arbitrator — on a timetable the company does not set, which is why legal risk is so poorly suited to point estimates and so well suited to a range.
+Compliance risk is the risk of loss from failing to observe laws, regulations, licence conditions, standards or the company's own internal rules. The loss comes as a fine, a suspended licence, a required remediation, a prohibition on selling, and increasingly as the cost of the investigation itself. For a food producer, compliance is labelling, hygiene, traceability, weights and measures, export certification and employment law. Two features distinguish it from legal risk: the standard is written down in advance, so the risk can be assessed by comparing practice against the rule; and it is largely controllable, because compliance is a process the company runs.
+Political risk is the risk of loss from political action or instability in a country where the company operates or sells: expropriation, a change in tax law, exchange controls that trap cash in a country, import or export restrictions, sanctions, civil disorder, war, and the slower risk of a government that changes the rules of an industry. Its features are that it is largely uninsurable through ordinary markets — though specialist political risk insurance exists — that it is correlated across every exposure in one country at once, and that the usual responses are structural: limiting what is held in one country, financing locally so that a loss of assets is matched by a loss of liabilities, joint ventures with local partners, and the contract terms that Chapter 11 discusses with export finance.
+Figure F801-02 sets the five families and the three external risks out together.
+Figure F801-02. The families of risk
+Family
+Arises from
+Measured by
+Usual response
+Business
+Demand, prices, costs, cost structure
+Operating leverage; margin of safety
+Accept and manage; flexibility
+Strategic
+A wrong or outdated direction
+Judgment; scenarios
+Board attention; real options
+Hazard
+Physical events
+Loss frequency and severity
+Insurance; prevention; continuity plans
+Financial
+Financing, counterparties, prices
+Cover ratios; value at risk
+Hedging; limits; liquidity buffers
+Operational
+Processes, people, systems, externals
+Loss data; maximum possible loss
+Controls; redundancy; training
+Legal
+Proceedings and legal defects
+A range, not a point
+Contract discipline; provisions; insurance
+Compliance
+Breach of rules written in advance
+Gap against the rule
+Process, monitoring, training
+Political
+Government action and instability
+Country exposure
+Limit, localise, insure, structure
+YOUR TURN   Name the risk
+Figure F801-03 gives six events. Name the family each belongs to. Answers are at the end of the chapter.
+Figure F801-03. Your turn: which family? (complete the blanks)
+Event
+Family
+A fire stops the roasting hall for sixty days
+________
+A new labelling regulation is applied at six weeks' notice
+________
+The Syrian pound falls 20 per cent against the euro
+________
+A goods-inwards check is not performed and a batch is recalled
+________
+Household incomes fall and jar volumes drop 10 per cent
+________
+A competitor launches a tahini with a two-year shelf life
+________
+LANGUAGE FOCUS   "Risk", "hazard" and "exposure"
+English uses risk for the possibility, hazard for the thing that could cause harm and exposure for what stands to be lost, and professional writing keeps the three apart: a wet floor is a hazard, the possibility of somebody falling is a risk, and the exposure is the claim that would follow. Ordinary speech uses all three for all three, which is why exam answers blur them. Arabic المخاطرة is the possibility and التعرض the exposure, with الخطر closer to hazard; French distinguishes risque from danger and from exposition in the same way, and French regulatory writing is particularly strict about it. Note also that English risk is both noun and verb and that the verb carries blame — "they risked it" — which is one reason people avoid the word in reports and write issue or challenge instead. A risk register that contains no risks is a symptom, not a style.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+expropriation
+نزع الملكية
+expropriation
+exchange controls
+قيود الصرف
+contrôle des changes
+remediation
+الإجراءات التصحيحية
+mise en conformité
+traceability
+التتبع
+traçabilité
+SECTION CHECK   Test yourself
+SC1-16  Compliance risk differs from legal risk in that the standard is:
+A.	written down in advance, so practice can be compared against it.
+B.	set by a court.
+C.	unknowable.
+D.	always financial.
+SC1-17  Exchange controls that trap cash in a country are an example of:
+A.	political risk.
+B.	compliance risk.
+C.	hazard risk.
+D.	operational risk.
+SC1-18  A structural response to political risk is:
+A.	financing locally, so that lost assets are matched by lost liabilities.
+B.	buying ordinary property insurance.
+C.	increasing operating leverage.
+D.	shortening the payback period.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F801-04 brings the chapter together.
+Figure F801-04. Chapter 1 summary map: the key rule for each section.
+Risk is the possibility that an outcome differs from what was expected, in either direction, and it differs from uncertainty in having describable outcomes and probabilities; an exposure is what stands to be lost and an event is what happens. Business risk is the variability of operating results from the business itself, which for Orontes is an operating leverage of 4.02 — so a 10 per cent fall in sales becomes 4.02 × 10 = 40.2 per cent of operating income, or 4,176,000 × 0.402 = 1,678,752 — while strategic risk is the risk that the direction itself is wrong, owned by the board and resistant to measurement. Hazard risk is pure risk from physical events, where the consequential loss is usually larger than the direct one: sixty days of stoppage would cost 46,027 × 60 = 2,761,620 of contribution, two thirds of a year's operating income. Financial risk covers credit, liquidity, market and leverage, and is chosen through the capital structure where business risk is given — Orontes's interest cover of 4,348,800 ÷ 390,000 = 11.15 times says it has not compounded one with the other. Operational risk is loss from inadequate or failed processes, people and systems or from external events: present everywhere, lopsided in its losses, never taken for a return, and systematically under-reported. And legal, compliance and political risk arrive from outside, differing in who sets the standard — a court, a rulebook, or a government.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P1-01  Risk, as the term is used in this syllabus, is:
+A.	the possibility that an outcome differs from expectation, in either direction.
+B.	the probability of loss.
+C.	the standard deviation of returns.
+D.	an insured peril.
+P1-02  Which risk has no upside?
+A.	Hazard risk
+B.	Business risk
+C.	Market risk
+D.	Strategic risk
+P1-03  Business risk is driven by all of the following except:
+A.	the company's debt-to-equity ratio.
+B.	demand variability.
+C.	input price variability.
+D.	operating leverage.
+P1-04  The risk that the company's chosen direction becomes wrong is:
+A.	strategic risk.
+B.	business risk.
+C.	compliance risk.
+D.	hazard risk.
+P1-05  Operational risk is defined as loss from inadequate or failed:
+A.	processes, people and systems, or external events.
+B.	investments.
+C.	exchange rates.
+D.	board decisions.
+P1-06  A spreadsheet with an incorrect formula that overstates a price is an example of:
+A.	systems-related operational risk.
+B.	market risk.
+C.	legal risk.
+D.	strategic risk.
+P1-07  Operational losses are typically distributed as:
+A.	many small and a few very large.
+B.	evenly spread.
+C.	symmetrical around a mean.
+D.	all of similar size.
+P1-08  The risk that a customer does not pay is:
+A.	credit risk.
+B.	liquidity risk.
+C.	market risk.
+D.	operational risk.
+P1-09  Loss from failing to observe a labelling regulation is:
+A.	compliance risk.
+B.	legal risk.
+C.	political risk.
+D.	hazard risk.
+P1-10  Expropriation of a foreign subsidiary is:
+A.	political risk.
+B.	compliance risk.
+C.	credit risk.
+D.	business risk.
+P1-11  A contribution of 16,800,000 a year lost for sixty days costs about:
+A.	2,761,620
+B.	1,000,000
+C.	16,800,000
+D.	276,162
+P1-12  Financial risk differs from business risk in that it is:
+A.	chosen by the company through its financing.
+B.	imposed by the industry.
+C.	always insurable.
+D.	not measurable.
+Case-style practice: the risk workshop
+Orontes's board has asked for a one-page statement of the company's principal risks, to be discussed at its next meeting. The finance director has drafted a list: "exchange rates, the sesame price, the new labelling rules, machine breakdowns, and competition."
+Required. Classify each item on the list by family, say what is missing from it, and explain to the board why the classification changes what they should do about each. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC1-1  Answer A. Deviation in either direction.
+B is wrong. That is the ordinary sense, not the technical one.
+C is wrong. Bankruptcy is one outcome among many.
+D is wrong. That is one measure of one kind of risk.
+SC1-2  Answer A. Describable outcomes and probabilities define a risk.
+B is wrong. Size is not the distinction.
+C is wrong. Both apply everywhere.
+D is wrong. Insurability is a consequence, not the definition.
+SC1-3  Answer A. The amount at stake.
+B is wrong. That is likelihood.
+C is wrong. Expected loss combines both.
+D is wrong. The premium is the price of transferring it.
+SC1-4  Answer A. It is measured before financing.
+B is wrong. Interest belongs to financial risk.
+C is wrong. That ratio measures financial risk.
+D is wrong. The share price reflects everything at once.
+SC1-5  Answer A. 4.02 × 10 = 40.2 per cent.
+B is wrong. That is the change in sales.
+C is wrong. That is the leverage itself.
+D is wrong. That is unrelated to the calculation.
+SC1-6  Answer A. Only the board can change direction.
+B is wrong. A risk manager advises; the board decides.
+C is wrong. Internal audit reviews rather than owns.
+D is wrong. The treasurer owns financial exposures.
+SC1-7  Answer A. There is no favourable outcome.
+B is wrong. Insurance is a response, not a definition.
+C is wrong. Many hazards are natural.
+D is wrong. Measurability varies.
+SC1-8  Answer A. 16,800,000 ÷ 365 = 46,027 a day, and 46,027 × 60 = 2,761,620.
+B is wrong. That is thirty days.
+C is wrong. That is a full year.
+D is wrong. That is one day.
+SC1-9  Answer A. Consequential loss is usually the largest and least covered.
+B is wrong. Buildings are routinely insured.
+C is wrong. Stock is normally covered.
+D is wrong. Equipment is on the schedule.
+SC1-10  Answer A. Solvent but illiquid is the classic failure.
+B is wrong. That is credit risk.
+C is wrong. That is market risk.
+D is wrong. That is hazard risk.
+SC1-11  Answer A. 4,348,800 ÷ 390,000 = 11.15 times.
+B is wrong. This uses the wrong income figure.
+C is wrong. This misplaces the decimal.
+D is wrong. This inverts the ratio.
+SC1-12  Answer A. The capital structure decision is the company's own.
+B is wrong. That describes business risk.
+C is wrong. Insurability is unrelated.
+D is wrong. Size varies with the company.
+SC1-13  Answer A. The four-source definition.
+B is wrong. Those are financial risks.
+C is wrong. Those are strategic risks.
+D is wrong. That is a market risk.
+SC1-14  Answer A. A long tail of rare, large losses.
+B is wrong. The distribution is markedly skewed.
+C is wrong. Losses are not uniform.
+D is wrong. Most events are small.
+SC1-15  Answer A. There is no return for bearing it.
+B is wrong. It is not a question of legality.
+C is wrong. It is measurable, if imperfectly.
+D is wrong. Only part of it is insurable.
+SC1-16  Answer A. The rule exists in advance.
+B is wrong. Courts determine legal risk.
+C is wrong. The standard is published.
+D is wrong. Consequences may be licence conditions, not only money.
+SC1-17  Answer A. Government action on the movement of money.
+B is wrong. The company has broken no rule.
+C is wrong. Nothing physical has happened.
+D is wrong. No internal process has failed.
+SC1-18  Answer A. Matching assets with local liabilities limits the loss.
+B is wrong. Property insurance does not cover government action.
+C is wrong. Leverage makes variability worse.
+D is wrong. Payback is a capital budgeting screen.
+Your turn
+Event
+Family
+A fire stops the roasting hall for sixty days
+Hazard risk, with a consequential loss larger than the direct one.
+A new labelling regulation at six weeks' notice
+Compliance risk, and an operational one in the execution.
+The Syrian pound falls 20 per cent against the euro
+Financial risk, specifically market risk.
+A goods-inwards check is not performed
+Operational risk, in the process source.
+Household incomes fall and volumes drop 10 per cent
+Business risk, magnified by operating leverage.
+A competitor launches a longer-life product
+Strategic risk, owned by the board.
+What it tells you
+Six events, six families, six different owners and six different responses — which is the only reason the classification is worth making.
+Multiple-choice questions
+P1-01  Answer A. Deviation in either direction.
+B is wrong. That is only the downside.
+C is wrong. That is a measure, not the definition.
+D is wrong. An insured peril is one hazard.
+P1-02  Answer A. Hazard risk is pure risk.
+B is wrong. Demand may exceed the forecast.
+C is wrong. Prices move both ways.
+D is wrong. A strategy may prove better than expected.
+P1-03  Answer A. Gearing is financial risk.
+B is wrong. Demand variability is a driver.
+C is wrong. Input prices are a driver.
+D is wrong. Operating leverage magnifies all of them.
+P1-04  Answer A. Direction is the subject of strategic risk.
+B is wrong. Business risk is about variability within a direction.
+C is wrong. Compliance is about rules.
+D is wrong. Hazard is about physical events.
+P1-05  Answer A. The standard four-source definition.
+B is wrong. Investment outcomes are business or market risks.
+C is wrong. Rates are market risk.
+D is wrong. Board decisions are strategic risk.
+P1-06  Answer A. Systems, under the operational definition.
+B is wrong. No market price has moved.
+C is wrong. No proceedings are involved.
+D is wrong. No change of direction is involved.
+P1-07  Answer A. A skewed distribution with a long tail.
+B is wrong. Losses are not evenly spread.
+C is wrong. Symmetry is not observed.
+D is wrong. Sizes vary enormously.
+P1-08  Answer A. Non-payment by a counterparty.
+B is wrong. Liquidity is about the company's own cash.
+C is wrong. No price has moved.
+D is wrong. No internal failure is implied.
+P1-09  Answer A. A published rule has been breached.
+B is wrong. Proceedings may follow but the risk is compliance.
+C is wrong. No government instability is involved.
+D is wrong. Nothing physical has occurred.
+P1-10  Answer A. Government seizure is the classic political risk.
+B is wrong. The company has breached nothing.
+C is wrong. No counterparty has failed to pay.
+D is wrong. It is not a trading variability.
+P1-11  Answer A. 46,027 a day for sixty days.
+B is wrong. This is a round guess, not the arithmetic.
+C is wrong. That is a whole year.
+D is wrong. That misplaces a decimal.
+P1-12  Answer A. Financing is a decision.
+B is wrong. That is business risk.
+C is wrong. Financial risks are mostly hedged, not insured.
+D is wrong. It is among the most measurable.
+Case-style set: the risk workshop
+The classification. Exchange rates and the sesame price are financial risks, specifically market risks, and both are hedgeable with the instruments of Book 2's Chapter 6 and this book's Chapter 11. The new labelling rules are a compliance risk in the obligation and an operational risk in the execution — the rule is certain, and what is uncertain is whether we meet it. Machine breakdowns are operational risk, with a hazard element where a breakdown causes physical damage. Competition is business risk at the level of volumes and prices, and strategic risk where a competitor changes what the product is.
+What is missing. Four families are absent from the list. There is no credit or liquidity risk, although the company carries $4,144,000 of receivables and the whole of Book 1's working-capital analysis bears on it. There is no political risk, although the company sells across borders and holds cash in more than one currency. There is no people risk — the loss of a key person, a fraud, a safety failure — which is the largest single source of operational loss in most companies. And there is no strategic risk stated as such: the board's own decisions, including any acquisition, are a risk nobody below them can raise.
+Why classification changes the response. Each family has a different owner and a different instrument. The market risks belong to the treasurer and are managed with hedges and limits. The compliance risk belongs to operations and quality, and is managed with a process and a deadline, not a probability. The operational risks belong to every manager who runs a process, and are managed with controls, redundancy and training, tested by the cost-benefit analysis of Chapter 9. The business risk is the one we are paid to take, so it is managed by cost structure and flexibility rather than avoided. And the strategic risk belongs to the board itself — which is why it must appear on the page, even though it is the one item nobody else can put there.

@@ -1,0 +1,542 @@
+Chapter 6
+The risk management process, and attitude to risk
+عملية إدارة المخاطر والموقف من المخاطرة
+Chapters 1 to 5 supplied the parts: the families of risk, the measures, the pair of figures before and after control, and the five responses. This chapter assembles them into a process that runs continuously, and then asks the question that decides what the process is aiming at — how much risk does this company want to take?
+The two halves belong together. A process without a stated appetite produces assessments nobody can act on, because there is no standard against which a residual risk is too large. An appetite without a process is a sentence in an annual report. Together they are what the examiners mean by managing risk rather than measuring it.
+Figure F806-01 is your map.
+Figure F806-01. Chapter 6 roadmap: the steps of the process, and the appetite that tells them what to aim at.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+D.1.l
+Identify and describe the key steps in the risk management process.
+C
+Full treatment
+D.1.m
+Explain how attitude toward risk might affect the management of risk.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+risk management process
+عملية إدارة المخاطر
+processus de gestion des risques
+risk identification
+تحديد المخاطر
+identification des risques
+risk assessment
+تقييم المخاطر
+évaluation des risques
+monitoring
+المتابعة
+suivi
+risk appetite
+الرغبة في المخاطرة
+appétit pour le risque
+risk tolerance
+حدود تحمل المخاطر
+tolérance au risque
+risk capacity
+القدرة على تحمل المخاطر
+capacité de risque
+risk averse
+متجنب للمخاطرة
+averse au risque
+risk neutral
+محايد تجاه المخاطرة
+neutre au risque
+risk seeking
+ساعٍ للمخاطرة
+preneur de risque
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 4 said residual risk should be compared with appetite and did not define it. Chapter 5 said retention must be deliberate and did not say who decides. This chapter supplies both. Book 3's Chapter 15 added a premium to a hurdle rate for unusual risk, which is an attitude to risk expressed as a number.
+6.1  The steps of the process
+Frameworks name the steps differently, and the examiners accept any sensible version provided the logic is right. Five steps cover it, with a sixth that runs alongside all of them.
+Establish the context and the objectives. What the business is trying to achieve, in what environment, with what appetite. Risk is defined relative to an objective — the risk that something will not happen — so a process that starts by listing risks rather than objectives produces a list of worries instead of a list of threats to something specific.
+Identify the risks. What could happen that would affect those objectives, from any of Chapter 1's families. Chapter 8 gives the techniques, and the step deserves more time than it usually gets: an unidentified risk is untreated by definition.
+Assess them. Likelihood and impact, inherent and residual, with the expected loss, unexpected loss and maximum possible loss of Chapter 3 where the numbers allow. Chapter 8 supplies the qualitative and quantitative tools.
+Respond. Choose from Chapter 5's five, with the cost-benefit test of Chapter 9, and assign each response to a named owner with a date.
+Monitor and review. Confirm that the responses are in place and working, that the assessments are still right, and that no new risk has arrived. Risks change faster than registers do.
+And throughout: communicate and consult. Risk information has to move up to the board, down to the people who run the processes, and sideways between functions that each see part of an exposure. The step is listed separately in most frameworks because it is the one most often missing — a register that lives in a file nobody reads is a completed process with no effect.
+Three properties of the process as a whole are examined.
+It is iterative, not linear. Monitoring feeds back into identification; a response changes the assessment; a changed objective changes everything.
+It is owned by management, not by a risk function. The risk manager designs and runs the process and advises on it; the manager who owns the business process owns the risk, and the board owns the appetite.
+And it operates at every level. The same five steps apply to a factory process, to a project, to a division and to the enterprise, which is the connection Chapter 9 makes between this process and enterprise risk management.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+context
+السياق
+contexte
+objective
+الهدف
+objectif
+risk owner
+مالك المخاطرة
+propriétaire du risque
+iterative
+تكراري
+itératif
+SECTION CHECK   Test yourself
+SC6-1  The risk management process should begin with:
+A.	the objectives and the context.
+B.	a list of risks.
+C.	the insurance schedule.
+D.	the risk register from last year.
+SC6-2  A risk is owned by:
+A.	the manager who owns the process or objective it threatens.
+B.	the risk manager.
+C.	internal audit.
+D.	the insurer.
+SC6-3  The step most often missing in practice is:
+A.	communication and consultation.
+B.	identification.
+C.	assessment.
+D.	response.
+Answers and explanations are at the end of the chapter.
+6.2  Identification and assessment in practice
+Two of the steps deserve more than a sentence, because most of the work and most of the failure is in them.
+Identification fails in characteristic ways, and naming them is examinable.
+It stops at the familiar. People list the risks they have already experienced, which are by definition the ones already managed.
+It stops at the boundary of a department. Nobody owns the risk that falls between sales and production, which is usually where it is.
+It conflates risks with their causes and their effects. "Loss of a key customer" is an event; "weak account management" is a cause; "revenue falls" is an effect. A register that mixes all three double-counts and obscures where a response would act.
+And it omits the risks nobody wants to write down: the risk that the strategy is wrong, the risk from a dominant personality, the risk that a figure management is attached to is unachievable. Chapter 17's discussion of tone and groupthink is directly about this.
+Assessment has its own failure modes.
+Scales that are not anchored. "High" means different things to different people. An anchored scale defines high as, say, more than 500,000 or more than a 20 per cent chance in a year, so that two assessors produce the same answer.
+Assessing with the controls half in place, which produces a figure that is neither inherent nor residual.
+Assessing likelihood and impact without a time horizon, which Chapter 2 showed makes both meaningless.
+And treating the assessment as the output. The output is the response; the assessment exists to choose it.
+WORKED EXAMPLE   Worked example: one line of Orontes's register, properly made
+Step 1. The objective. Supply the Gulf distributor on contract terms for the next twelve months.
+Step 2. The event. A single supplier of hulled sesame fails to deliver for six weeks in the harvest gap.
+Step 3. The assessment. Likelihood 0.25 in a year on the current single-source arrangement; impact a stoppage costing 46,027 a day, so about 1,933,134 over six weeks; expected loss therefore 0.25 × 1,933,134 = 483,284.
+Step 4. The response and the owner. Qualify a second supplier and hold four weeks of buffer stock. Owner: the procurement manager. Date: before the next harvest. Residual likelihood after the response: 0.05.
+Check. Every element the step list requires is present: an objective, an event distinct from its cause and its effect, a quantified likelihood and impact over a stated horizon, a response, a named owner and a date. A register line without those is a note, and a register of notes is what most companies actually have.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+anchored scale
+المقياس المعياري
+échelle calibrée
+cause and effect
+السبب والأثر
+cause et effet
+single source
+المصدر الوحيد
+source unique
+buffer stock
+المخزون الاحتياطي
+stock tampon
+SECTION CHECK   Test yourself
+SC6-4  A likelihood of 0.25 against an impact of 1,933,134 gives an expected loss of:
+A.	483,284
+B.	1,933,134
+C.	7,732,536
+D.	96,657
+SC6-5  An anchored assessment scale is one that:
+A.	defines each level in numbers, so two assessors agree.
+B.	uses only words.
+C.	is set by the insurer.
+D.	changes each year.
+SC6-6  "Weak account management" in a risk register is:
+A.	a cause, not a risk.
+B.	an event.
+C.	an effect.
+D.	a response.
+Answers and explanations are at the end of the chapter.
+6.3  Monitoring, reporting and review
+The last step is the one that turns a project into a process, and the exam asks what it consists of.
+Confirming that responses are in place. An agreed action with an owner and a date is not a control until somebody has checked it exists.
+Testing that controls work. Chapter 4 made the point: a control asserted is not a control tested, and residual risk is only as good as the testing behind it.
+Watching indicators. Key risk indicators are measures that move before a loss does — supplier delivery performance, staff turnover, overdue reconciliations, the age of receivables, complaint volumes, near-misses. They are the early-warning half of the process, and they differ from key performance indicators in pointing forward at a risk rather than backward at a result.
+Reporting. To the board, periodically, in a form that shows the significant risks, their assessment, the responses, the owners and what has changed. What has changed is the part boards read.
+Reviewing the process itself. Whether the register is current, whether the appetite still fits the strategy, whether any loss occurred that the process should have caught — which is Book 3's postaudit applied to risk.
+And escalation. A route by which a risk discovered at any level reaches the people who can act, without depending on the goodwill of everybody in between. Chapter 18's whistleblowing framework is the ethical case of the same mechanism.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+key risk indicator
+مؤشر المخاطر الرئيسي
+indicateur clé de risque
+early warning
+الإنذار المبكر
+alerte précoce
+escalation
+التصعيد
+remontée
+review
+المراجعة
+revue
+SECTION CHECK   Test yourself
+SC6-7  A key risk indicator differs from a key performance indicator in that it:
+A.	points forward at a risk rather than backward at a result.
+B.	is financial.
+C.	is reported annually.
+D.	is set by the board.
+SC6-8  Residual risk is only as reliable as:
+A.	the testing of the controls behind it.
+B.	the inherent estimate.
+C.	the insurance limit.
+D.	last year's losses.
+SC6-9  An escalation route exists so that:
+A.	a risk found at any level reaches people who can act on it.
+B.	the register is completed.
+C.	auditors are satisfied.
+D.	losses are reported to insurers.
+Answers and explanations are at the end of the chapter.
+6.4  Attitude toward risk
+The second outcome asks how attitude to risk affects its management, and the answer begins with three classical positions.
+Risk averse. A decision-maker who prefers a certain outcome to a gamble of the same expected value, and who requires compensation for bearing variability. Most companies and most individuals are risk averse over amounts that matter to them, and the entire cost of capital of Book 2 is built on the assumption.
+Risk neutral. A decision-maker indifferent between a certain amount and a gamble with the same expected value, who therefore decides by expected value alone. This is the assumption behind Chapter 3's expected loss and behind every net present value in Book 3, which is why those calculations need the risk adjustments of Book 3's Chapter 15 bolted on.
+Risk seeking. A decision-maker who prefers the gamble — who will pay for variability. It appears in companies more often than theory suggests: in a division with nothing left to lose, in a manager whose bonus pays only above a threshold, and in anybody who has already lost money and is trying to recover it.
+WORKED EXAMPLE   Worked example: what attitude costs, in money
+Step 1. The gamble. A new export contract offers a 50 per cent chance of adding 2,000,000 of contribution and a 50 per cent chance of losing 1,000,000.
+Step 2. Expected value. The favourable branch contributes 0.5 × 2,000,000 = 1,000,000, the unfavourable 0.5 × 1,000,000 = 500,000, so the expected value is 1,000,000 − 500,000 = 500,000 positive.
+Step 3. A risk-neutral company takes it. The expected value is positive, which is the whole of the test.
+Step 4. A risk-averse company may not. If Orontes's board would be indifferent between this gamble and a certain 200,000, then its certainty equivalent is 200,000 and the risk premium it demands is 500,000 − 200,000 = 300,000. Any version of the contract that locks in less than 200,000 of certain contribution will be refused, even though its expected value is 500,000.
+Check. That number — 300,000 — is what risk aversion costs, and it is not a mistake. It is the price of avoiding a 50 per cent chance of losing a million, and whether it is too high depends on whether losing a million would matter, which is the capacity question of section 6.5. Risk aversion that reflects real consequences is rational; risk aversion that reflects a manager's fear of being blamed is a governance problem, and Chapter 17 addresses it.
+Four ways attitude changes the management of risk, and these are the examinable consequences.
+It sets the responses chosen. An averse organisation insures, controls and avoids; a neutral one retains more and compares expected costs; a seeking one exploits. Faced with Chapter 5's insurance decision, three attitudes produce three different deductibles from the same arithmetic.
+It sets the hurdle. Book 3's risk premium is attitude expressed as a discount rate, and a higher premium rejects projects a less averse company would accept.
+It differs across the organisation, which is the problem. A company can be averse about safety, neutral about credit and seeking about new products, and that is coherent only if somebody has said so. Where it is not said, attitude is set by whoever is deciding, and it varies with their incentives — which is why the appetite statement of the next section exists.
+And it is shaped by incentives and by framing. A bonus that pays above a target makes a manager risk-seeking just below it; a loss already incurred makes people take worse risks to recover it; and the same decision presented as a possible gain or a possible loss produces different answers from the same person. Those are findings about human behaviour, and the exam expects them to be recognised as a reason for written limits rather than individual judgment.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+certainty equivalent
+المكافئ المؤكد
+équivalent certain
+risk premium
+علاوة المخاطرة
+prime de risque
+framing
+التأطير
+cadrage
+incentive effect
+أثر الحوافز
+effet d'incitation
+SECTION CHECK   Test yourself
+SC6-10  A risk-averse decision-maker:
+A.	prefers a certain outcome to a gamble of the same expected value.
+B.	is indifferent between them.
+C.	prefers the gamble.
+D.	ignores expected values.
+SC6-11  A gamble with an expected value of 500,000 and a certainty equivalent of 200,000 implies a risk premium of:
+A.	300,000
+B.	500,000
+C.	200,000
+D.	700,000
+SC6-12  A bonus that pays only above a target tends to make a manager:
+A.	risk-seeking just below the target.
+B.	risk-averse just below the target.
+C.	risk-neutral everywhere.
+D.	indifferent to outcomes.
+Answers and explanations are at the end of the chapter.
+6.5  Appetite, tolerance and capacity
+Attitude becomes manageable when it is written down, and three terms do that work. The exam distinguishes them and candidates routinely confuse them.
+Risk capacity is the maximum risk the company could bear — a fact about its balance sheet, its cash and its obligations, not a preference. Orontes's lending covenant requires interest cover of four times, which on interest of $390,000 means operating income must stay above 390,000 × 4 = 1,560,000. Against the present $4,348,800 that is a headroom of 4,348,800 − 1,560,000 = 2,788,800: the company can lose that much of its operating income before the covenant binds, and that figure is part of its capacity.
+Risk appetite is the amount and kind of risk the company chooses to take in pursuit of its objectives. It is a decision of the board, it is necessarily less than capacity, and it is expressed by category: which risks the company seeks, which it accepts, and which it will not take at any price.
+Risk tolerance is the acceptable variation around a specific objective — the limit in practice. Where appetite says "we accept moderate credit risk in export markets", tolerance says "no single distributor above 600,000 of exposure, and total export receivables below 2,500,000."
+A usable appetite statement has four features, and an answer that gives them is a complete answer.
+It is expressed in measures the business already uses. "Earnings at risk no greater than 10 per cent of operating income" is 4,176,000 × 0.10 = 417,600 for Orontes, and it can be checked.
+It differentiates by category. A single appetite for all risks is useless: nobody has the same appetite for a food-safety risk and a currency risk.
+It names the zero-tolerance categories explicitly. Bribery, safety, deliberate misstatement, breach of sanctions: these are the categories where the answer is no regardless of the return, and Book 4's second half is about why.
+And it connects to limits that bind somebody's decision. An appetite that does not change what anybody may do is a paragraph, not a control.
+Figure F806-02 sets the three terms out.
+Figure F806-02. Capacity, appetite and tolerance
+Term
+What it is
+Who sets it
+Orontes's example
+Capacity
+The maximum risk the company could bear
+A fact of the balance sheet
+2,788,800 of operating income before the covenant binds
+Appetite
+The risk it chooses to take
+The board
+Moderate credit risk in exports; none on food safety
+Tolerance
+Acceptable variation on a specific objective
+Management, within appetite
+No distributor above 600,000 of exposure
+Limit
+The rule that binds a decision
+Management
+Earnings at risk below 417,600
+YOUR TURN   Process and appetite
+Figure F806-03 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F806-03. Your turn: running the process (complete the blanks)
+Item
+Data
+Answer
+The step the process should begin with
+________
+Expected loss on a supplier failure
+Likelihood 0.25; impact 1,933,134
+________
+Risk premium demanded
+Expected value 500,000; certainty equivalent 200,000
+________
+Operating income floor under a four-times cover covenant
+Interest 390,000
+________
+Headroom against that floor
+Operating income 4,348,800
+________
+Earnings at risk limit at 10 per cent of operating income
+Operating income 4,176,000
+________
+LANGUAGE FOCUS   "Appetite", "tolerance" and "capacity"
+English risk appetite is a metaphor from eating, and like most metaphors it leaks: appetite suggests a quantity somebody wants, when what is meant is a considered policy about which risks to take and how much. Tolerance comes from medicine and engineering, where a tolerance is the permitted deviation from a specification, and that image is exactly right — a tolerance is a band around a target. Capacity is from physics, a container's volume, and is equally apt: it is what the company could hold, not what it wants to. The three English words therefore carry three different images and three different meanings, and the Arabic and French terms preserve them: الرغبة في المخاطرة is literally the desire for risk, حدود تحمل المخاطر the limits of bearing it, and القدرة the ability; French appétit, tolérance and capacité run in parallel. The error to avoid in any language is using appetite where you mean capacity, which turns a preference into a constraint and lets a board believe it has decided something when it has only described its balance sheet.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+covenant headroom
+هامش التعهدات
+marge sur les covenants
+zero tolerance
+عدم التسامح مطلقاً
+tolérance zéro
+limit
+الحد
+limite
+appetite statement
+بيان الرغبة في المخاطرة
+déclaration d'appétit
+SECTION CHECK   Test yourself
+SC6-13  Risk capacity is:
+A.	the maximum risk the company could bear, as a fact of its position.
+B.	the risk it chooses to take.
+C.	the variation allowed around one objective.
+D.	the same as appetite.
+SC6-14  Interest of 390,000 under a four-times cover covenant requires operating income of at least:
+A.	1,560,000
+B.	97,500
+C.	390,000
+D.	4,348,800
+SC6-15  An appetite statement that does not change what anybody may do is:
+A.	a paragraph, not a control.
+B.	a tolerance.
+C.	a limit.
+D.	a capacity measure.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F806-04 brings the chapter together.
+Figure F806-04. Chapter 6 summary map: the key rule for each section.
+The process runs in five steps with a sixth alongside: establish context and objectives, identify, assess, respond, monitor and review, communicating throughout — iterative rather than linear, owned by the managers who own the processes rather than by a risk function, and applicable at every level from a machine to the enterprise. Identification fails by stopping at the familiar, at departmental boundaries, by confusing risks with causes and effects, and by omitting what nobody wants to write down; assessment fails through unanchored scales, half-applied controls, missing horizons, and treating the assessment rather than the response as the output — a properly made register line carries an objective, an event, a quantified likelihood of 0.25 against an impact of 1,933,134 for an expected loss of 0.25 × 1,933,134 = 483,284, a response, an owner and a date. Monitoring confirms responses exist, tests that controls work, watches forward-looking indicators, reports what has changed, reviews the process itself and provides a route for escalation. Attitude to risk runs from averse through neutral to seeking, and it costs money in a measurable way: a gamble worth 1,000,000 − 500,000 = 500,000 in expectation but accepted only at a certainty equivalent of 200,000 carries a risk premium of 500,000 − 200,000 = 300,000, which is rational where the loss would matter and a governance problem where it reflects fear of blame. And attitude becomes manageable only when written down as capacity — the 4,348,800 − 1,560,000 = 2,788,800 of headroom under a four-times cover covenant — appetite, which the board chooses, and tolerance, which binds a particular decision.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P6-01  The risk management process begins with:
+A.	establishing objectives and context.
+B.	identifying risks.
+C.	buying insurance.
+D.	assessing controls.
+P6-02  Risks are owned by:
+A.	the managers who own the processes they threaten.
+B.	the risk function.
+C.	the audit committee.
+D.	the external auditor.
+P6-03  "Revenue falls" in a risk register is:
+A.	an effect, not an event.
+B.	an event.
+C.	a cause.
+D.	a control.
+P6-04  Likelihood 0.25 and impact 1,933,134 give an expected loss of:
+A.	483,284
+B.	1,933,134
+C.	241,642
+D.	7,732,536
+P6-05  An anchored scale:
+A.	defines each level numerically.
+B.	uses only descriptive words.
+C.	is unique to each assessor.
+D.	is set annually by the auditors.
+P6-06  A key risk indicator:
+A.	moves before a loss does.
+B.	reports last year's result.
+C.	measures profit.
+D.	is the same as a key performance indicator.
+P6-07  A risk-neutral decision-maker decides by:
+A.	expected value alone.
+B.	the worst case.
+C.	the certainty equivalent.
+D.	the maximum possible loss.
+P6-08  An expected value of 500,000 and a certainty equivalent of 200,000 give a risk premium of:
+A.	300,000
+B.	200,000
+C.	500,000
+D.	2.5
+P6-09  Risk capacity is:
+A.	a fact about what the company could bear.
+B.	a board preference.
+C.	a limit on one objective.
+D.	the same as tolerance.
+P6-10  Interest of 390,000 with a four-times interest cover covenant sets an operating income floor of:
+A.	1,560,000
+B.	1,170,000
+C.	390,000
+D.	97,500
+P6-11  Earnings at risk limited to 10 per cent of operating income of 4,176,000 is:
+A.	417,600
+B.	41,760
+C.	4,176,000
+D.	1,044,000
+P6-12  An organisation can rationally be averse about safety and neutral about credit provided that:
+A.	somebody has stated the difference.
+B.	the two are the same size.
+C.	the board does not know.
+D.	both are insured.
+Case-style practice: the appetite statement
+Orontes's board has adopted the following: "The company has a low appetite for risk and will take only those risks necessary to achieve its objectives."
+Required. Say what is wrong with that statement, and draft a better one of no more than six lines that a manager could actually apply, using the figures in this chapter. Explain how you would know whether the company was within it. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC6-1  Answer A. Risk is defined relative to an objective.
+B is wrong. A list without objectives is a list of worries.
+C is wrong. Insurance is a response, near the end.
+D is wrong. Last year's register is an input, not a start.
+SC6-2  Answer A. The process owner owns the risk.
+B is wrong. The risk manager runs the process.
+C is wrong. Audit provides assurance.
+D is wrong. The insurer is a counterparty.
+SC6-3  Answer A. Communication is the step most often absent.
+B is wrong. Identification is usually attempted.
+C is wrong. Assessment is usually attempted.
+D is wrong. Responses are usually at least named.
+SC6-4  Answer A. 0.25 × 1,933,134 = 483,284.
+B is wrong. That is the impact alone.
+C is wrong. That divides instead of multiplying.
+D is wrong. That halves the correct answer.
+SC6-5  Answer A. Numbers make assessors agree.
+B is wrong. Words alone are the problem.
+C is wrong. The insurer does not set it.
+D is wrong. Stability is a virtue in a scale.
+SC6-6  Answer A. It is a cause of an event.
+B is wrong. The event is the loss of the customer.
+C is wrong. The effect is the revenue fall.
+D is wrong. A response is an action.
+SC6-7  Answer A. It is forward-looking.
+B is wrong. Many are non-financial.
+C is wrong. Frequency varies.
+D is wrong. Management usually sets them.
+SC6-8  Answer A. Untested controls do not deliver what is claimed.
+B is wrong. The inherent figure is a separate estimate.
+C is wrong. Limits concern transfer.
+D is wrong. History is evidence, not assurance.
+SC6-9  Answer A. A route that does not depend on goodwill in between.
+B is wrong. Completion is not the purpose.
+C is wrong. Auditors are not the audience.
+D is wrong. Insurers receive claims, not escalations.
+SC6-10  Answer A. Certainty preferred at equal expected value.
+B is wrong. That is risk neutrality.
+C is wrong. That is risk seeking.
+D is wrong. Expected values are still computed.
+SC6-11  Answer A. 500,000 − 200,000 = 300,000.
+B is wrong. That is the expected value.
+C is wrong. That is the certainty equivalent.
+D is wrong. This adds instead of subtracting.
+SC6-12  Answer A. The threshold makes gambling attractive below it.
+B is wrong. Aversion rises above the target, not below.
+C is wrong. Thresholds destroy neutrality.
+D is wrong. The manager is highly sensitive to outcomes.
+SC6-13  Answer A. What could be borne, as a fact.
+B is wrong. That is appetite.
+C is wrong. That is tolerance.
+D is wrong. Appetite is less than capacity.
+SC6-14  Answer A. 390,000 × 4 = 1,560,000.
+B is wrong. That divides instead of multiplying.
+C is wrong. That is the interest itself.
+D is wrong. That is the current operating income.
+SC6-15  Answer A. It binds nothing, so it controls nothing.
+B is wrong. A tolerance binds a specific objective.
+C is wrong. A limit binds a decision.
+D is wrong. Capacity is a fact, not a statement.
+Your turn
+Item
+Answer
+The first step
+Establish the objectives and the context; risk is defined relative to an objective.
+Expected loss on a supplier failure
+483,284: 0.25 × 1,933,134 = 483,284.
+Risk premium demanded
+300,000: 500,000 − 200,000 = 300,000.
+Operating income floor
+1,560,000: 390,000 × 4 = 1,560,000.
+Headroom against the floor
+2,788,800: 4,348,800 − 1,560,000 = 2,788,800.
+Earnings at risk limit
+417,600: 4,176,000 × 0.10 = 417,600.
+What it tells you
+The first answer is the process and the other five are the appetite — and the appetite only becomes usable at the point where it turns into a number somebody can check against.
+Multiple-choice questions
+P6-01  Answer A. Objectives first.
+B is wrong. Identification is the second step.
+C is wrong. Insurance is a response.
+D is wrong. Controls come after the assessment.
+P6-02  Answer A. Process owners own risks.
+B is wrong. The function facilitates.
+C is wrong. The committee oversees.
+D is wrong. External audit is outside the process.
+P6-03  Answer A. It is a consequence.
+B is wrong. The event is what happens.
+C is wrong. The cause is why it happens.
+D is wrong. A control is an action.
+P6-04  Answer A. 0.25 × 1,933,134 = 483,284.
+B is wrong. That is the impact.
+C is wrong. That halves it.
+D is wrong. That divides by the probability.
+P6-05  Answer A. Numerical anchors.
+B is wrong. Words alone are ambiguous.
+C is wrong. Consistency is the purpose.
+D is wrong. Auditors do not set it.
+P6-06  Answer A. It leads the loss.
+B is wrong. That is a performance measure.
+C is wrong. Profit is a result.
+D is wrong. The two differ in direction.
+P6-07  Answer A. Expected value alone.
+B is wrong. That is extreme aversion.
+C is wrong. Certainty equivalents belong to aversion.
+D is wrong. That is a severity measure.
+P6-08  Answer A. 500,000 − 200,000 = 300,000.
+B is wrong. That is the certainty equivalent.
+C is wrong. That is the expected value.
+D is wrong. That is a ratio, not a premium.
+P6-09  Answer A. A fact about the balance sheet.
+B is wrong. Preference is appetite.
+C is wrong. That is tolerance.
+D is wrong. Tolerance operates within appetite.
+P6-10  Answer A. 390,000 × 4 = 1,560,000.
+B is wrong. That is three times.
+C is wrong. That is the interest.
+D is wrong. That divides instead of multiplying.
+P6-11  Answer A. 4,176,000 × 0.10 = 417,600.
+B is wrong. That is 1 per cent.
+C is wrong. That is the whole figure.
+D is wrong. That is 25 per cent.
+P6-12  Answer A. Differentiated appetite must be stated.
+B is wrong. Size is irrelevant.
+C is wrong. The board must set it.
+D is wrong. Insurance does not substitute for a decision.
+Case-style set: the appetite statement
+What is wrong with it. Four things. It is undifferentiated: a single "low appetite" gives the same answer for food safety and for a currency hedge, which cannot be right. It is unmeasurable: nobody can test whether the company is inside it. It is circular: "risks necessary to achieve its objectives" describes every risk the company runs, so it excludes nothing. And it binds nobody, which by section 6.5 makes it a paragraph rather than a control.
+A better statement.
+"Food safety, bribery and deliberate misstatement: no tolerance. Any exposure is escalated to the board immediately.
+Operating and supply risk: we accept exposure that keeps total earnings at risk below 417,600, being 10 per cent of operating income, over a twelve-month horizon.
+Credit: we seek export growth and accept credit risk within limits of 600,000 for any one distributor and 2,500,000 for export receivables in total.
+Currency: we hedge at least 75 per cent of contracted foreign-currency exposure and take no open position for gain.
+Capital: we maintain interest cover above six times, against the covenant minimum of four times — operating income of 390,000 × 4 = 1,560,000 — so that a bad year does not threaten the financing.
+New markets and products: we accept the risk of individual failures, with no single commitment above 1,000,000 before a review."
+How we would know whether we were inside it. Each line is testable against something the company already produces. The 417,600 comes from the aggregate of the register's residual assessments, reported quarterly. The credit limits come from the receivables ledger, reported monthly. The hedge ratio comes from the treasury position against the order book. The interest cover comes from the management accounts, with the covenant headroom of 4,348,800 − 1,560,000 = 2,788,800 shown beside it. And the zero-tolerance line is tested not by a measure but by whether anything was escalated — which means the escalation route of section 6.3 has to exist and be known, or the silence proves nothing.

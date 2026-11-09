@@ -1,0 +1,512 @@
+Chapter 2
+Volatility, time, and capital adequacy
+التقلب والزمن وكفاية رأس المال
+Chapter 1 named the families of risk. This chapter supplies the two quantities every one of them is measured against — how much a thing moves, and how long it is exposed — and then asks the question those two quantities exist to answer: is there enough capital behind the business to survive what the movement might do?
+Volatility and time are the raw material of every risk measure in this book. Expected loss, value at risk, earnings at risk, the insurance premium, the covenant headroom: each is a statement about how far something might move within some period. And capital adequacy is the answer to the only question that ultimately matters, which is not how much might be lost but whether the company would still be there afterwards.
+Figure F802-01 is your map.
+Figure F802-01. Chapter 2 roadmap: how much it moves, how long it is exposed, and whether there is enough behind it.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+D.1.d
+Demonstrate an understanding of how volatility and time impact risk.
+C
+Full treatment
+D.1.e
+Define the concept of capital adequacy — solvency, liquidity, reserves and sufficient capital.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+volatility
+التقلب
+volatilité
+standard deviation
+الانحراف المعياري
+écart-type
+coefficient of variation
+معامل الاختلاف
+coefficient de variation
+time horizon
+الأفق الزمني
+horizon temporel
+capital adequacy
+كفاية رأس المال
+adéquation des fonds propres
+solvency
+الملاءة
+solvabilité
+liquidity
+السيولة
+liquidité
+reserves
+الاحتياطيات
+réserves
+buffer
+الوسادة الرأسمالية
+matelas de sécurité
+WHAT YOU ALREADY KNOW   What you already know
+Book 2's Chapter 2 measured risk as the standard deviation of a return and used it to price equity. Book 1 measured Orontes's liquidity through the working-capital ratios and its solvency through the debt-to-equity ratio. Book 3's sensitivity analysis asked how far one input could move. This chapter puts the three together and asks the question none of them asked: how far can everything move at once before the company cannot continue?
+2.1  Volatility
+Volatility is the extent to which a quantity moves about its average. It is the first of the two things that make a risk large, and it is what people mean when they say that one business is riskier than another even when both earn the same on average.
+Three properties of volatility matter for the exam.
+It is about dispersion, not direction. A series that is sometimes far above its average and sometimes far below it is volatile; one that rises steadily is not, however fast it rises.
+It is measured from history and used for the future, which is the assumption underneath every number in this chapter. A volatility estimated from five calm years will understate the risk of the sixth, and a crisis is precisely the moment when past volatility stops predicting future volatility.
+And it is not the same as risk. Volatility is a measurement of movement; risk is the consequence of that movement for the company. A business whose sales move twenty per cent either way but whose costs move with them has high volatility and modest risk, which is the whole lesson of Book 3's cost structure.
+The standard measures are the ones Book 2 used. The standard deviation states dispersion in the units of the thing being measured — dollars of operating income, cents of share price. The variance is its square and is used in the arithmetic rather than in reports. The coefficient of variation divides the standard deviation by the mean, giving a relative measure that allows a large business and a small one to be compared, and the range or the worst observed outcome gives a crude but intuitive alternative.
+WORKED EXAMPLE   Worked example: how volatile is Orontes's operating income?
+Step 1. The history. Orontes's operating income over five years was 3,600,000, 4,900,000, 3,100,000, 4,600,000 and 4,176,000.
+Step 2. The average. The five add to 20,376,000, so the mean is 20,376,000 ÷ 5 = 4,075,200.
+Step 3. The dispersion. Taking each year's difference from the mean, squaring, averaging over four degrees of freedom and taking the root gives a standard deviation of 731,900.
+Step 4. In relative terms. The coefficient of variation is 731,900 ÷ 4,075,200 = 17.96 per cent, which is the figure to compare with another company or another division.
+Check. Read the two figures as a sentence: Orontes earns about 4,075,200 of operating income in a typical year and that figure moves by about 731,900 either way in an ordinary year. Then note what the arithmetic cannot know — the five years contain no fire, no devaluation and no recall, so the measured volatility describes ordinary trading and says nothing at all about the tail. Chapter 3 is about the tail.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+dispersion
+التشتت
+dispersion
+mean
+المتوسط
+moyenne
+relative measure
+مقياس نسبي
+mesure relative
+tail
+الذيل
+queue de distribution
+SECTION CHECK   Test yourself
+SC2-1  Volatility measures:
+A.	dispersion about an average, in either direction.
+B.	the direction of a trend.
+C.	the probability of loss.
+D.	the size of a company.
+SC2-2  Operating income averaging 4,075,200 with a standard deviation of 731,900 has a coefficient of variation of:
+A.	17.96 per cent
+B.	5.57 per cent
+C.	731,900
+D.	82.04 per cent
+SC2-3  The coefficient of variation is useful because it:
+A.	allows businesses of different size to be compared.
+B.	removes the need for a mean.
+C.	measures direction.
+D.	is unaffected by history.
+Answers and explanations are at the end of the chapter.
+2.2  How time impacts risk
+Time is the second thing that makes a risk large, and it works in three distinct ways that the outcome expects to be distinguished.
+The longer the horizon, the wider the distribution. A quantity that moves randomly drifts further from its starting point the longer it is allowed to move. Where the movements in successive periods are independent, the standard deviation grows with the square root of time: four years of exposure carries twice the one-year dispersion, not four times.
+The longer the horizon, the more likely a rare event becomes. An event with a 5 per cent chance in any one year has a 1 − 0.5987 = 0.4013 chance of happening at least once in ten, because 0.95 multiplied by itself ten times is 0.5987. Nothing about the event has changed; only the window has.
+And the longer the horizon, the less anybody knows. Beyond a few years the estimates themselves become unreliable, which is the uncertainty of Chapter 1 rather than risk, and it is why Book 3 put a terminal value on everything after year five rather than pretending to forecast year eleven.
+Two consequences run through the rest of this book.
+Risk measures must state their horizon. "A value at risk of 400,000" means nothing until somebody says over what period, and a daily figure and an annual figure differ by a factor of about sixteen.
+And exposure can be managed by shortening time as well as by reducing movement. A shorter payment term reduces credit exposure without changing any customer's creditworthiness; a hedge that matures in three months leaves the fourth month exposed; holding stock for sixty days rather than ninety reduces the price risk in it by a third of the period. Chapter 5's responses include several that work only on the clock.
+WORKED EXAMPLE   Worked example: scaling volatility with time
+Step 1. The one-year figure. Orontes's operating income has a standard deviation of 731,900 over a year.
+Step 2. Four years. Where the years are independent, the four-year dispersion is the one-year figure times the square root of four, which is 731,900 × 2 = 1,463,800.
+Step 3. A quarter. Going the other way, the quarterly figure is the annual one divided by the square root of four, which is 731,900 ÷ 2 = 365,950.
+Step 4. The assumption. All of this holds only where the periods are independent. Orontes's sales are seasonal and its sesame price is persistent, so the real four-year dispersion is wider than the rule suggests in some respects and narrower in others.
+Check. The square-root rule is a convention, not a law, and the examiners test whether you know what it assumes. Where movements are positively correlated from period to period — a trend, a persistent price, a reputation that decays slowly — the rule understates the long-horizon risk. That is the single most important caveat in this chapter.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+square root of time
+الجذر التربيعي للزمن
+racine carrée du temps
+independence
+الاستقلال
+indépendance
+horizon
+المدى الزمني
+horizon
+persistence
+الاستمرارية
+persistance
+SECTION CHECK   Test yourself
+SC2-4  Where successive periods are independent, volatility over four years is the one-year figure multiplied by:
+A.	2
+B.	4
+C.	16
+D.	1
+SC2-5  An event with a 5 per cent annual probability will occur at least once in ten years with probability:
+A.	about 40 per cent
+B.	5 per cent
+C.	50 per cent
+D.	95 per cent
+SC2-6  The square-root-of-time rule understates long-horizon risk where movements are:
+A.	positively correlated from period to period.
+B.	independent.
+C.	negatively correlated.
+D.	normally distributed.
+Answers and explanations are at the end of the chapter.
+2.3  Capital adequacy: solvency
+Capital adequacy is the condition of having enough capital, of the right kinds and in the right places, to absorb the losses a business might suffer and still continue. The term comes from banking and insurance, where regulators impose it, but the concept applies to every company and the outcome asks for its four elements: solvency, liquidity, reserves and sufficient capital.
+Solvency is the first: that assets exceed liabilities, so that the company could meet its obligations if everything were realised. It is a balance-sheet condition and it is measured by the equity cushion.
+Orontes's equity is $20,392,975 against total assets of $31,672,600, so equity funds 20,392,975 ÷ 31,672,600 = 64.39 per cent of the assets. Read as a risk statement, that says asset values could fall by nearly two thirds before the creditors were threatened — which is a different and more useful reading of the same ratio Book 1 computed as a measure of gearing.
+Three cautions belong with the solvency test and all three appear in questions.
+It depends on the measurement of the assets. Book 1's Chapter 7 showed goodwill being impaired by $2,724,000, and an impairment is the discovery that the solvency cushion was smaller than the balance sheet said.
+It is a point in time. A company solvent at the year end can be insolvent in March, and the test that matters is solvency after the loss, not before it.
+And solvency is not survival. A company can be solvent and still fail, which is the subject of the next section and the most examined distinction in this chapter.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+balance-sheet solvency
+الملاءة الدفترية
+solvabilité bilancielle
+equity cushion
+وسادة حقوق الملكية
+coussin de fonds propres
+realisable value
+القيمة القابلة للتحقق
+valeur réalisable
+impairment
+انخفاض القيمة
+dépréciation
+SECTION CHECK   Test yourself
+SC2-7  Solvency is the condition that:
+A.	assets exceed liabilities.
+B.	cash is available when needed.
+C.	profits are positive.
+D.	the share price exceeds book value.
+SC2-8  Equity of 20,392,975 against assets of 31,672,600 funds:
+A.	64.39 per cent of the assets
+B.	35.61 per cent of the assets
+C.	155.3 per cent of the assets
+D.	20.4 per cent of the assets
+SC2-9  An impairment of goodwill is, in risk terms:
+A.	the discovery that the solvency cushion was smaller than reported.
+B.	a cash outflow.
+C.	a liquidity event.
+D.	a compliance breach.
+Answers and explanations are at the end of the chapter.
+2.4  Capital adequacy: liquidity
+Liquidity is the ability to meet obligations as they fall due, in cash, at the moment they fall due. It is a flow condition rather than a balance-sheet one, and it is the element that actually kills companies: the great majority of corporate failures are liquidity failures in businesses that were solvent on paper.
+The distinction is worth stating in one line, because the exam tests it directly. Solvency asks whether there is enough. Liquidity asks whether it is available in time and in the right form.
+Orontes's position is strong. It holds $7,302,100 of cash and $4,144,000 of receivables, which together are 7,302,100 + 4,144,000 = 11,446,100 of near-cash against payables of $2,050,000 — a cover of 11,446,100 ÷ 2,050,000 = 5.58 times. Book 1 read that as a sign of cash sitting idle; read as a risk statement it is a buffer, and the tension between those two readings is a real one that Chapter 4 resolves with the cost-benefit test.
+Four sources of liquidity exist and a company should know the size and reliability of each.
+Cash and deposits, which are certain and earn little.
+Undrawn committed facilities, which are nearly certain — subject to the covenants of Book 2's Chapter 5, which are exactly the conditions most likely to be breached in the circumstances where the facility is needed.
+Assets that can be sold or financed, which are reliable in calm markets and least reliable in the moment they are called on, because everybody else is selling the same things.
+And the operating cycle itself: receivables that will be collected and stock that will be sold, whose timing is the subject of Book 1's Chapter 12.
+That ordering is the lesson. Liquidity sources behave worst at exactly the moment they are needed, which is why a liquidity buffer is held in cash and committed facilities and not in the hope of selling something.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+falling due
+الاستحقاق
+exigibilité
+near-cash
+شبه النقد
+quasi-liquidités
+committed facility
+التسهيل الملتزم به
+ligne de crédit confirmée
+fire sale
+البيع الاضطراري
+vente forcée
+SECTION CHECK   Test yourself
+SC2-10  Liquidity differs from solvency in that it asks whether funds are:
+A.	available in time and in the right form.
+B.	greater than liabilities.
+C.	profitable.
+D.	owned outright.
+SC2-11  Cash of 7,302,100 and receivables of 4,144,000 against payables of 2,050,000 give a cover of:
+A.	5.58 times
+B.	3.56 times
+C.	2.02 times
+D.	0.18 times
+SC2-12  The least reliable source of liquidity in a crisis is:
+A.	selling assets, because everybody is selling the same things.
+B.	cash on deposit.
+C.	a committed facility.
+D.	collecting receivables already due.
+Answers and explanations are at the end of the chapter.
+2.5  Reserves and sufficient capital
+The last two elements of capital adequacy are the ones candidates most often confuse, because the word reserve is used in two different senses.
+A reserve in the accounting sense is a component of equity — retained earnings, a revaluation reserve, a translation reserve. It is a label on the right-hand side of the balance sheet describing where the equity came from, and it is not money. A company with large retained earnings and no cash cannot pay anything out of its reserves, which is one of the most persistent misunderstandings in business conversation.
+A reserve in the risk sense is an amount set aside against an identified future loss: an insurer's claims reserve, a bank's loan-loss provision, a manufacturer's warranty provision, a company's allowance for doubtful receivables. This reserve is a recognition that a loss is expected, and that is the key: reserves cover expected losses, which Chapter 3 defines precisely.
+Sufficient capital is the element that covers what reserves do not. Capital absorbs unexpected loss — the amount by which an actual loss exceeds what was expected and reserved. The division is exact and the exam uses it:
+expected loss is a cost, priced into the product and provided for through reserves;
+unexpected loss is a risk, absorbed by capital;
+and the extreme or catastrophic loss beyond what capital can absorb is managed by transfer, by limits, and by the continuity planning of Chapter 7, because no company holds capital against every conceivable outcome.
+How much capital is sufficient depends on four things, and an answer that names them is a complete answer.
+The volatility and the horizon of sections 2.1 and 2.2 — how far results might move, over how long.
+The risk appetite of Chapter 6: how much chance of failure the owners are willing to run.
+The claims that must be met whatever happens: interest, repayments, committed capital expenditure, the fixed costs of Book 3.
+And any external requirement: regulatory capital for a financial institution, covenant minimums for a borrower, a credit rating the company wants to keep.
+WORKED EXAMPLE   Worked example: does Orontes hold enough?
+Step 1. A plausible bad year. Sales fall 10 per cent, which at an operating leverage of 4.02 removes 4,176,000 × 0.402 = 1,678,752 of operating income, leaving 4,176,000 − 1,678,752 = 2,497,248.
+Step 2. Add an event. A sixty-day stoppage of the kind Chapter 1 costed would remove a further 2,761,620 of contribution, and since 2,761,620 − 2,497,248 = 264,372, the year ends 264,372 below zero.
+Step 3. Can it be absorbed? The interest of $390,000 must still be paid, and the cash balance of $7,302,100 covers both that and the loss many times over.
+Step 4. Where the limit is. The constraint is therefore not this year's loss but the rebuilding: capital expenditure to replace the roasting hall, on top of a year with no cash generation, is what would consume the buffer.
+Check. That is what a capital adequacy assessment looks like for a company that is not a bank: not a formula, but a plausible combination of bad things, costed, set against the cash and the facilities actually available, with the fixed claims that do not stop. Chapter 9 formalises it as scenario analysis; the arithmetic here is the whole of the idea.
+YOUR TURN   Volatility, time and adequacy
+Figure F802-02 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F802-02. Your turn: measuring and surviving (complete the blanks)
+Item
+Data
+Answer
+Coefficient of variation
+Standard deviation 731,900; mean 4,075,200
+________
+Four-year volatility
+One-year 731,900; periods independent
+________
+Probability of a 5 per cent event in ten years
+0.95 to the tenth power is 0.5987
+________
+Equity as a share of assets
+Equity 20,392,975; assets 31,672,600
+________
+Cash and receivables against payables
+7,302,100 and 4,144,000 against 2,050,000
+________
+What covers expected loss, and what covers unexpected loss
+________
+LANGUAGE FOCUS   "Reserve", "provision" and "capital"
+Few words cause more confusion in English than reserve. In accounting a reserve is part of equity and describes where money came from; in insurance and banking a reserve is an amount set aside against a loss; in ordinary speech a reserve is something held back for later, which is closer to the second. Provision is the narrower accounting term for a liability of uncertain timing or amount, and in English practice provision is the correct word where a loss is expected, with reserve kept for equity. Arabic احتياطي covers both senses and مخصص is the provision, which is clearer than the English. French distinguishes réserve, part of capitaux propres, from provision, a charge against profit, with the same strictness. And capital in this chapter means the loss-absorbing equity of a business, not the capital of Book 3's capital budgeting, which means money invested in assets. Where a question uses the word, read which of the two it means before answering.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+provision
+المخصص
+provision
+expected loss
+الخسارة المتوقعة
+perte attendue
+unexpected loss
+الخسارة غير المتوقعة
+perte inattendue
+risk appetite
+الرغبة في المخاطرة
+appétit pour le risque
+SECTION CHECK   Test yourself
+SC2-13  Reserves, in the risk sense, cover:
+A.	expected losses.
+B.	unexpected losses.
+C.	catastrophic losses.
+D.	no losses at all.
+SC2-14  Capital, in a capital adequacy assessment, absorbs:
+A.	unexpected loss, above what was expected and reserved.
+B.	expected loss.
+C.	operating costs.
+D.	interest.
+SC2-15  A company with large retained earnings and no cash:
+A.	cannot pay out of its reserves, because reserves are not money.
+B.	can pay from its reserves.
+C.	is insolvent.
+D.	has no equity.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F802-03 brings the chapter together.
+Figure F802-03. Chapter 2 summary map: the key rule for each section.
+Volatility is dispersion about an average, measured by the standard deviation and, relatively, by the coefficient of variation — Orontes's operating income averaging 20,376,000 ÷ 5 = 4,075,200 with a standard deviation of 731,900, a coefficient of 731,900 ÷ 4,075,200 = 17.96 per cent — and it is measured from history, so it describes ordinary trading rather than the tail. Time widens the distribution with the square root of its length, so four years carry 731,900 × 2 = 1,463,800 of dispersion where the periods are independent; it makes rare events likely, a 5 per cent annual event arriving at least once in ten years with probability 1 − 0.5987 = 0.4013; and it degrades every estimate, which is why exposure can be managed by shortening the clock as well as by reducing the movement. Capital adequacy has four elements. Solvency is assets above liabilities, Orontes's equity funding 20,392,975 ÷ 31,672,600 = 64.39 per cent of its assets. Liquidity is funds available in time and in the right form, and it is what actually kills companies: 7,302,100 + 4,144,000 = 11,446,100 of near-cash covers payables 11,446,100 ÷ 2,050,000 = 5.58 times, and the reliability of liquidity sources falls in exactly the order they are needed. Reserves cover expected loss and capital absorbs unexpected loss, with the extreme tail managed by transfer, limits and continuity planning rather than by holding capital against everything.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P2-01  Volatility is:
+A.	dispersion about an average.
+B.	the rate of growth.
+C.	the probability of failure.
+D.	the size of a loss.
+P2-02  The coefficient of variation is:
+A.	the standard deviation divided by the mean.
+B.	the mean divided by the standard deviation.
+C.	the variance.
+D.	the range.
+P2-03  A standard deviation of 731,900 on a mean of 4,075,200 is a coefficient of variation of:
+A.	17.96 per cent
+B.	5.57 per cent
+C.	27.3 per cent
+D.	73.2 per cent
+P2-04  Where periods are independent, volatility over nine years is the one-year figure times:
+A.	3
+B.	9
+C.	81
+D.	1.5
+P2-05  Lengthening the horizon makes a rare event:
+A.	more likely to occur at least once.
+B.	less likely.
+C.	equally likely.
+D.	impossible.
+P2-06  The square-root-of-time rule assumes that movements in successive periods are:
+A.	independent.
+B.	positively correlated.
+C.	negatively correlated.
+D.	identical.
+P2-07  Solvency means that:
+A.	assets exceed liabilities.
+B.	cash exceeds payables.
+C.	profits are positive.
+D.	the company has no debt.
+P2-08  Most corporate failures are failures of:
+A.	liquidity, in companies solvent on paper.
+B.	solvency, in companies with cash.
+C.	profitability.
+D.	compliance.
+P2-09  The least reliable liquidity source in a crisis is:
+A.	the sale of assets.
+B.	cash.
+C.	a committed facility.
+D.	cash collected from a customer who has already paid.
+P2-10  An accounting reserve is:
+A.	a component of equity describing where it came from.
+B.	a sum of money set aside in cash.
+C.	a liability.
+D.	an insurance policy.
+P2-11  Expected losses are covered by reserves; unexpected losses are covered by:
+A.	capital.
+B.	provisions.
+C.	revenue.
+D.	receivables.
+P2-12  How much capital is sufficient depends on all of the following except:
+A.	the depreciation method used.
+B.	volatility and horizon.
+C.	risk appetite.
+D.	covenants and ratings.
+Case-style practice: the treasurer's proposal
+Orontes's treasurer proposes to reduce the cash balance from $7,302,100 to $3,000,000, investing the difference in a three-year bond that cannot be sold before maturity without a penalty, and to replace the lost flexibility with an uncommitted overdraft facility from the company's bank.
+Required. Evaluate the proposal in terms of solvency, liquidity and sufficient capital, using the figures from this chapter and Chapter 1. Say what you would want changed before agreeing. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC2-1  Answer A. Dispersion, in either direction.
+B is wrong. Direction is trend, not volatility.
+C is wrong. That is a probability, not a dispersion.
+D is wrong. Size is not movement.
+SC2-2  Answer A. 731,900 ÷ 4,075,200 = 17.96 per cent.
+B is wrong. This inverts the ratio.
+C is wrong. That is the standard deviation itself.
+D is wrong. That is the complement, which has no meaning here.
+SC2-3  Answer A. It is relative, so size cancels.
+B is wrong. The mean is its denominator.
+C is wrong. It measures dispersion.
+D is wrong. It is estimated from history like everything else.
+SC2-4  Answer A. The square root of four is two.
+B is wrong. That would be linear scaling.
+C is wrong. That is four squared.
+D is wrong. Time does change the figure.
+SC2-5  Answer A. 1 − 0.5987 = 0.4013.
+B is wrong. That is the one-year probability.
+C is wrong. This has no basis in the arithmetic.
+D is wrong. That is the one-year survival probability.
+SC2-6  Answer A. Correlated movements compound rather than cancel.
+B is wrong. Independence is the rule's assumption.
+C is wrong. Negative correlation would overstate it.
+D is wrong. Normality is a separate assumption.
+SC2-7  Answer A. A balance-sheet condition.
+B is wrong. That is liquidity.
+C is wrong. Profits are a flow, not a cushion.
+D is wrong. Market value is not the test.
+SC2-8  Answer A. 20,392,975 ÷ 31,672,600 = 64.39 per cent.
+B is wrong. That is the liabilities' share.
+C is wrong. This inverts the ratio.
+D is wrong. That misreads the figures.
+SC2-9  Answer A. The cushion was overstated.
+B is wrong. Impairment is non-cash.
+C is wrong. No cash timing is involved.
+D is wrong. No rule has been breached.
+SC2-10  Answer A. Timing and form are the liquidity questions.
+B is wrong. That is solvency.
+C is wrong. Profit is neither.
+D is wrong. Ownership is not the issue.
+SC2-11  Answer A. 11,446,100 ÷ 2,050,000 = 5.58 times.
+B is wrong. That uses cash alone.
+C is wrong. That uses receivables alone.
+D is wrong. This inverts the ratio.
+SC2-12  Answer A. Markets are least liquid when everybody needs liquidity.
+B is wrong. Cash is the most reliable.
+C is wrong. A committed facility is contractual.
+D is wrong. Money already received is certain.
+SC2-13  Answer A. Reserves cover what is expected.
+B is wrong. Capital covers the unexpected.
+C is wrong. The extreme tail is transferred or limited.
+D is wrong. They cover expected losses by definition.
+SC2-14  Answer A. Capital absorbs the unexpected part.
+B is wrong. That is reserved.
+C is wrong. Operating costs are charged against revenue.
+D is wrong. Interest is a claim, not a loss.
+SC2-15  Answer A. Reserves are a label on equity, not cash.
+B is wrong. Payment needs cash.
+C is wrong. It may be entirely solvent.
+D is wrong. Retained earnings are equity.
+Your turn
+Item
+Answer
+Coefficient of variation
+17.96 per cent: 731,900 ÷ 4,075,200 = 17.96 per cent.
+Four-year volatility
+1,463,800: 731,900 × 2 = 1,463,800, the square root of four being two.
+Probability over ten years
+About 40 per cent: 1 − 0.5987 = 0.4013.
+Equity as a share of assets
+64.39 per cent: 20,392,975 ÷ 31,672,600 = 64.39 per cent.
+Cash and receivables against payables
+5.58 times: 11,446,100 ÷ 2,050,000 = 5.58.
+What covers each kind of loss
+Reserves cover expected loss; capital absorbs unexpected loss.
+What it tells you
+The first five are measurements and the sixth is the principle they serve: measure the movement, measure the time, and then ask whether what stands behind the business is enough.
+Multiple-choice questions
+P2-01  Answer A. Dispersion about an average.
+B is wrong. Growth is direction.
+C is wrong. That is a probability.
+D is wrong. That is severity.
+P2-02  Answer A. Standard deviation over mean.
+B is wrong. That is its reciprocal.
+C is wrong. The variance is the squared deviation.
+D is wrong. The range is a different measure.
+P2-03  Answer A. 731,900 ÷ 4,075,200 = 17.96 per cent.
+B is wrong. This inverts the ratio.
+C is wrong. This has no basis in the figures.
+D is wrong. That misplaces a decimal.
+P2-04  Answer A. The square root of nine is three.
+B is wrong. That is linear scaling.
+C is wrong. That is nine squared.
+D is wrong. That has no basis in the rule.
+P2-05  Answer A. More windows, more chances.
+B is wrong. The opposite is true.
+C is wrong. The window matters.
+D is wrong. Nothing becomes impossible with time.
+P2-06  Answer A. Independence is the assumption.
+B is wrong. Correlation breaks the rule.
+C is wrong. So does negative correlation.
+D is wrong. Identical movements are not random.
+P2-07  Answer A. Assets above liabilities.
+B is wrong. That is a liquidity test.
+C is wrong. Profit is a flow.
+D is wrong. Debt is compatible with solvency.
+P2-08  Answer A. Solvent companies run out of cash.
+B is wrong. The reverse is uncommon.
+C is wrong. Unprofitable companies can survive on cash for years.
+D is wrong. Compliance failures are rarely fatal on their own.
+P2-09  Answer A. Asset sales fail when everybody is selling.
+B is wrong. Cash is certain.
+C is wrong. A committed facility is contractual.
+D is wrong. Money received is already in hand.
+P2-10  Answer A. A component of equity.
+B is wrong. Reserves are not cash.
+C is wrong. A provision is the liability.
+D is wrong. Insurance is a contract.
+P2-11  Answer A. Capital absorbs the unexpected.
+B is wrong. Provisions cover the expected.
+C is wrong. Revenue is not a buffer.
+D is wrong. Receivables are an asset, not a cushion.
+P2-12  Answer A. Depreciation policy does not change loss-absorbing capacity.
+B is wrong. Both are central.
+C is wrong. Appetite sets the tolerance.
+D is wrong. External requirements bind directly.
+Case-style set: the treasurer's proposal
+Solvency is unaffected. Moving 4,302,100 from a deposit to a bond changes the form of an asset and not its amount, so equity still funds 64.39 per cent of the assets and the balance-sheet cushion is the same. If anything the bond improves reported returns, since idle cash earns least, and Book 1's criticism of a cash balance this size stands.
+Liquidity is materially affected, in two ways the proposal understates. First, the near-cash cover falls: cash and receivables of 11,446,100 against payables of $2,050,000 becomes about 7,144,000, so the cover falls from 5.58 times to about 3.5. That is still comfortable for ordinary trading. Second, and more seriously, an uncommitted facility is not a liquidity source. The bank may withdraw it, and it will withdraw it in precisely the circumstances that would make Orontes need it. Section 2.4's ordering applies: cash and committed facilities are reliable; everything else is reliable only while it is not needed.
+Sufficient capital is the test the proposal fails. Chapter 1's sixty-day stoppage costs 2,761,620 of contribution, and the bad-year combination of section 2.5 left the year 264,372 below zero before any rebuilding. The cash balance is the only thing that funds a rebuilding while the business generates nothing, and the proposal locks away most of it for three years with a penalty for early exit — exactly the wrong maturity against a risk whose timing is unknown.
+What I would want changed. Three things, and I would then support it. Replace the uncommitted overdraft with a committed facility, documented, with covenant headroom tested against the bad-year scenario rather than against the budget. Reduce the amount invested, or ladder it so that part matures each year, so that the lock-up is not total. And set the retained cash balance from the scenario rather than from a round number: the figure that matters is the rebuilding cost plus a year of fixed claims, not $3,000,000 chosen because it is tidy.

@@ -1,0 +1,529 @@
+Chapter 3
+Probability, expected loss, unexpected loss and the maximum possible
+الاحتمال والخسارة المتوقعة والخسارة غير المتوقعة والحد الأقصى الممكن
+Chapter 2 supplied volatility and time. This chapter turns them into the three numbers every risk assessment produces: what a risk costs on average, how much worse than average a bad year can plausibly be, and how bad the worst conceivable outcome is.
+The three are not alternatives. They answer different questions, they are covered by different things — reserves, capital, and the responses of Chapter 5 — and a risk report that gives only one of them is incomplete. The arithmetic is simple; the discipline is in knowing which figure answers which question, and in knowing what the probabilities are actually worth.
+Figure F803-01 is your map.
+Figure F803-01. Chapter 3 roadmap: where probabilities come from, and the three losses they produce.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+D.1.f
+Explain the use of probabilities in determining exposure to risk, and calculate expected loss given a set of probabilities.
+C
+Full treatment
+D.1.g
+Define the concepts of unexpected loss and maximum possible loss — extreme or catastrophic loss.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+probability
+الاحتمال
+probabilité
+frequency
+التكرار
+fréquence
+severity
+الشدة
+gravité
+expected loss
+الخسارة المتوقعة
+perte attendue
+unexpected loss
+الخسارة غير المتوقعة
+perte inattendue
+maximum possible loss
+الحد الأقصى الممكن للخسارة
+sinistre maximum possible
+percentile
+المئين
+centile
+risk register
+سجل المخاطر
+cartographie des risques
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 2 divided losses into the expected, which reserves cover, and the unexpected, which capital absorbs. Chapter 1 costed two events: a batch recall at 40,000 × 4.80 = 192,000 of contribution, and a sixty-day stoppage at 46,027 × 60 = 2,761,620. This chapter supplies the probabilities that turn those severities into a budget.
+3.1  Where probabilities come from
+A probability is a number between zero and one describing how likely an event is. Risk work uses three sources for them and the exam expects the distinction, because the three differ enormously in how much they can be trusted.
+Frequency, from data. Where an event has happened many times under similar conditions — machine failures, delivery delays, customer defaults, claims on a class of insurance — the proportion of occasions on which it occurred is an estimate of its probability. This is the strongest source and it requires volume: a company with four hundred suppliers can estimate the probability that a supplier fails; a company with one cannot.
+Judgment, from people who know. Where data do not exist, the people closest to the process estimate the likelihood, usually on a scale — remote, unlikely, possible, likely, almost certain — anchored to numbers so that the words mean the same thing to everybody. This is where most corporate risk assessment actually lives, and Chapter 8's risk ranking formalises it.
+A model, from a structure. Where the event depends on things that can themselves be modelled — an exchange rate, an interest rate, a commodity price — a distribution can be fitted and probabilities read off it. This is the strongest-looking source and the most dangerous, because the apparent precision of a computed probability is inherited from assumptions nobody tests.
+Four rules of use follow, and they are the examinable part.
+Probabilities of mutually exclusive outcomes sum to one. A severity table whose probabilities add to 0.9 is incomplete, and the missing tenth is usually the outcome nobody wanted to write down.
+Independence must be argued, not assumed. The probability that two things both happen is the product of their probabilities only where neither affects the other, and in a company almost nothing is independent: a bad year for volumes is also a bad year for collections, because the same economy causes both.
+Probabilities are conditional on the controls that exist now. The likelihood of a loss from an unchecked delivery is not the likelihood after the check is reinstated, which is the inherent-and-residual distinction of Chapter 4.
+And a probability estimated for a frequent event does not transfer to a rare one. Estimating a one-in-two-hundred-year event from twenty years of data is extrapolation, not measurement, and section 3.5 is about exactly that problem.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+relative frequency
+التكرار النسبي
+fréquence relative
+subjective probability
+الاحتمال الذاتي
+probabilité subjective
+mutually exclusive
+متنافية
+mutuellement exclusifs
+extrapolation
+الاستقراء
+extrapolation
+SECTION CHECK   Test yourself
+SC3-1  The strongest source of a probability estimate is:
+A.	observed frequency, where the event has occurred many times under similar conditions.
+B.	a manager's judgment.
+C.	a fitted model.
+D.	the industry average.
+SC3-2  The probabilities of mutually exclusive outcomes must:
+A.	sum to one.
+B.	sum to less than one.
+C.	be equal.
+D.	be independent.
+SC3-3  Multiplying two probabilities to find the chance both occur requires:
+A.	that the events be independent.
+B.	that they be mutually exclusive.
+C.	equal probabilities.
+D.	a normal distribution.
+Answers and explanations are at the end of the chapter.
+3.2  Expected loss
+Expected loss is probability multiplied by severity. It is the average loss per period over many periods, and it is the figure that belongs in a budget, in a price and in a provision.
+Where a risk has a single severity, the calculation is one multiplication. Where it has a range of possible severities, the expected loss is the sum of probability times severity across every outcome, including the outcome in which nothing happens.
+WORKED EXAMPLE   Worked example: the expected cost of a roaster failure
+Step 1. The outcomes. Orontes's engineers put the year's roaster performance into four cases: no significant failure, with probability 0.60; a short stop costing 150,000, with probability 0.25; a serious failure costing 800,000, with probability 0.10; and a destroyed roaster costing 3,000,000, with probability 0.05.
+Step 2. Check the probabilities. 0.60 + 0.25 + 0.10 + 0.05 = 1.00, so the table is complete.
+Step 3. Multiply and add. The short stop contributes 0.25 × 150,000 = 37,500; the serious failure 0.10 × 800,000 = 80,000; the destroyed roaster 0.05 × 3,000,000 = 150,000; and the no-failure case contributes nothing. Together 37,500 + 80,000 + 150,000 = 267,500.
+Step 4. Read it. The expected loss from roaster failure is 267,500 a year.
+Check. Note what that figure is not. It is not what will happen: in 60 per cent of years the loss is zero, and the expected loss of 267,500 is an outcome that cannot occur at all. It is the amount to put in the budget, the amount a fair insurer would charge before expenses, and the amount against which the cost of a preventive maintenance contract should be compared. Anybody who reads it as a forecast of this year's loss has misunderstood it.
+Three uses and one warning.
+In pricing. An expected credit loss belongs in the margin, which is why a customer with a weaker covenant should be charged more or given shorter terms.
+In provisioning. The expected loss is what Chapter 2's reserves cover, and an allowance for doubtful receivables is an expected loss calculation whether or not anybody calls it one.
+In comparing responses. A control costing 100,000 a year that halves a 267,500 expected loss saves 267,500 ÷ 2 = 133,750, so it pays — which is Chapter 9's cost-benefit analysis in one line.
+The warning is that the expected loss is an average and averages hide shape. Two risks with the same expected loss of 267,500 — one that loses 267,500 every year with certainty, and one that loses nothing for nineteen years and 5,350,000 in the twentieth — are entirely different problems, and the second may end the company. Sections 3.4 and 3.5 exist because of that sentence.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+expected value
+القيمة المتوقعة
+espérance
+severity distribution
+توزيع الشدة
+distribution de gravité
+provision
+المخصص
+provision
+preventive maintenance
+الصيانة الوقائية
+maintenance préventive
+SECTION CHECK   Test yourself
+SC3-4  Expected loss is:
+A.	probability multiplied by severity, summed across outcomes.
+B.	the largest possible loss.
+C.	the most likely loss.
+D.	the loss in a bad year.
+SC3-5  Outcomes of 150,000 at 0.25, 800,000 at 0.10 and 3,000,000 at 0.05, with 0.60 of nothing, give an expected loss of:
+A.	267,500
+B.	3,950,000
+C.	1,316,667
+D.	150,000
+SC3-6  A control costing 100,000 that halves an expected loss of 267,500:
+A.	pays, because it saves 133,750.
+B.	does not pay.
+C.	is irrelevant to expected loss.
+D.	eliminates the risk.
+Answers and explanations are at the end of the chapter.
+3.3  A register of risks, and the portfolio effect
+A company does not face one risk. It faces a list, and the expected losses on that list add — which is one of the few places in risk work where simple addition is correct, because expectations add whether or not the risks are independent.
+Figure F803-02 is Orontes's register, reduced to five lines.
+Figure F803-02. Orontes's expected loss, five risks
+Risk
+Probability
+Severity
+Expected loss
+Batch recall
+0.10
+192,000
+19,200
+Roaster stoppage, seven days
+0.25
+322,189
+80,547
+Distributor default
+0.05
+600,000
+30,000
+Fire, sixty days and rebuilding
+0.01
+6,000,000
+60,000
+Currency loss on export sales
+0.30
+250,000
+75,000
+Total expected loss
+264,747
+The arithmetic is four multiplications and an addition: 19,200 + 80,547 + 30,000 = 129,747 for the first three, and 129,747 + 60,000 + 75,000 = 264,747 with the last two. Against operating income of $4,176,000 that is about six per cent, which is a reasonable statement of what risk costs Orontes in a typical year.
+Three readings of the table repay attention, and all three are examined.
+The ranking by expected loss is not the ranking by danger. The roaster stoppage has the largest expected loss and would not threaten the company; the fire has the smallest but one and could. Expected loss ranks risks by what they cost on average, not by what they could do, which is why Chapter 8's risk map plots likelihood against impact rather than their product.
+Expected losses add; dispersions do not. The total expected loss is 264,747 whether the risks move together or not, but the chance of a very bad year depends entirely on whether they do. If the currency loss, the default and the recall all follow from the same economic shock, the portfolio is far riskier than five independent risks of the same sizes.
+And the total is only as good as the register. Every number in this table is for a risk somebody wrote down. The loss that ends a company is usually one that was not on the list, which is why Chapter 8's event identification comes before any of this arithmetic.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+risk register
+سجل المخاطر
+registre des risques
+portfolio effect
+أثر المحفظة
+effet de portefeuille
+correlation
+الارتباط
+corrélation
+common cause
+السبب المشترك
+cause commune
+SECTION CHECK   Test yourself
+SC3-7  Expected losses across several risks:
+A.	add, whether or not the risks are correlated.
+B.	add only if the risks are independent.
+C.	multiply.
+D.	cannot be combined.
+SC3-8  Risks of 19,200, 80,547, 30,000, 60,000 and 75,000 of expected loss total:
+A.	264,747
+B.	129,747
+C.	135,000
+D.	8,538,000
+SC3-9  Ranking risks by expected loss is inadequate because it:
+A.	ranks by average cost rather than by what the risk could do.
+B.	ignores probability.
+C.	ignores severity.
+D.	cannot be computed.
+Answers and explanations are at the end of the chapter.
+3.4  Unexpected loss
+Unexpected loss is the amount by which an actual loss exceeds the expected loss. It is the dispersion of the loss distribution rather than its average, and it is what Chapter 2's capital exists to absorb.
+It is stated in two ways and both appear in questions.
+As a statistical dispersion: the standard deviation of the loss, which is the usual definition where a distribution has been fitted.
+As the distance from the expected loss to a chosen percentile: the loss that will not be exceeded in, say, 95 or 99 per cent of years, less the expected loss. This is the definition behind the value at risk of Chapter 8 and the one most used in practice, because it answers the question a board actually asks — how bad is a bad year?
+WORKED EXAMPLE   Worked example: the roaster's unexpected loss
+Step 1. Accumulate the probabilities. From section 3.2: no loss at 0.60, so 60 per cent of years cost nothing; adding the short stop takes the cumulative probability to 0.60 + 0.25 = 0.85; adding the serious failure takes it to 0.85 + 0.10 = 0.95; the destroyed roaster takes it to one.
+Step 2. Find the 95th percentile. The loss not exceeded in 95 per cent of years is 800,000.
+Step 3. Subtract the expected loss. The unexpected loss at that confidence level is 800,000 − 267,500 = 532,500.
+Step 4. Read the two together. In an average year the roaster costs 267,500. In a bad year — one year in twenty — it costs 800,000, which is 532,500 more than the budget provides for.
+Check. Those two sentences are what a risk report should say, and the second is the one that determines how much capital or how large a facility is needed. Note also the awkwardness at the boundary: the 95th percentile of this distribution lands exactly on an outcome, so a slightly different confidence level — 96 per cent — jumps straight to 3,000,000. Discrete distributions behave like that, and an answer that quotes a percentile from a four-row table should say which row it fell on.
+Two properties of unexpected loss matter.
+It depends on the confidence level chosen, which is a judgment about risk appetite and not a fact about the risk. A 99 per cent standard requires more capital than a 95 per cent one for the same business.
+And unlike expected losses, unexpected losses do not add. Two risks that are not perfectly correlated produce a combined unexpected loss smaller than the sum of the two — the diversification Book 2's Chapter 2 priced for shares, operating here on losses. That is the single strongest argument for assessing risk at the enterprise level rather than one department at a time, which is Chapter 9's subject.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+confidence level
+مستوى الثقة
+niveau de confiance
+cumulative probability
+الاحتمال التراكمي
+probabilité cumulée
+diversification benefit
+منفعة التنويع
+effet de diversification
+loss distribution
+توزيع الخسائر
+distribution des pertes
+SECTION CHECK   Test yourself
+SC3-10  Unexpected loss is:
+A.	the excess of a loss at a chosen percentile over the expected loss.
+B.	the expected loss.
+C.	the largest conceivable loss.
+D.	the insurance premium.
+SC3-11  With an expected loss of 267,500 and a 95th percentile loss of 800,000, the unexpected loss is:
+A.	532,500
+B.	800,000
+C.	267,500
+D.	1,067,500
+SC3-12  Unexpected losses across several risks:
+A.	combine to less than their sum, unless the risks are perfectly correlated.
+B.	add exactly.
+C.	multiply.
+D.	cancel entirely.
+Answers and explanations are at the end of the chapter.
+3.5  Maximum possible loss
+The maximum possible loss is the largest loss that could occur if everything that could go wrong did — no partial recovery, no working control, no mitigating circumstance. It is also met as the extreme or catastrophic loss, and in insurance practice two related terms are used: the maximum possible loss, which assumes the worst conceivable outcome, and the maximum probable loss, which assumes the worst outcome that is realistically likely, with fire doors holding and the alarm working.
+Three things define its role.
+It is not probability-weighted. The expected loss of Orontes's fire risk is 60,000 a year; the maximum possible loss is the plant, the stock, the business interrupted and any liability to third parties — a figure of a completely different order, and the one that decides the insurance limit.
+It answers the survival question. The purpose of the figure is to ask whether the company would continue to exist, and the answer governs whether the risk may be retained at all. A loss larger than the company's capital cannot be retained however unlikely it is, which is the rule behind Chapter 5's whole treatment of transfer.
+And it is the figure most often wrong, because it is never observed. Nobody has data on an event that has not happened, so the maximum possible loss is built from structure rather than from frequency: what is physically there, what could burn, what claims could follow, what the business would lose while it was gone, and what else fails at the same time.
+WORKED EXAMPLE   Worked example: three figures for one risk
+Step 1. The expected loss. Fire at the Hama plant: probability 0.01 against a severity of 6,000,000, so the expected loss is 0.01 × 6,000,000 = 60,000 a year.
+Step 2. The unexpected loss. In the one year in a hundred where the fire happens, the loss exceeds the expectation by 6,000,000 − 60,000 = 5,940,000.
+Step 3. The maximum possible loss. Assume the fire spreads: the roasting hall, the adjoining store, a year of interrupted production rather than sixty days, and a product liability claim. Orontes's assessors put it at 14,000,000.
+Step 4. The decision each figure drives. The 60,000 goes in the budget. The 5,940,000 tests whether the cash and facilities of Chapter 2 could absorb the event. The 14,000,000 sets the insurance limit, and since it exceeds the company's cash and most of its equity, the risk cannot be retained.
+Check. One risk, three numbers, three different uses — and the mistake the examiners look for is using one of them for another's job. Budgeting the maximum possible loss would make the company look unprofitable; insuring the expected loss would leave it uninsured for everything that matters; and holding capital against the maximum possible loss of every risk at once would require more capital than any business has.
+YOUR TURN   Three losses from one table
+Figure F803-03 gives a severity table for a supplier failure. Complete the blanks. Answers are at the end of the chapter.
+Figure F803-03. Your turn: expected, unexpected and maximum (complete the blanks)
+Item
+Data
+Answer
+Do the probabilities sum to one?
+0.70 nothing; 0.20 of 100,000; 0.08 of 500,000; 0.02 of 2,000,000
+________
+Expected loss
+________
+Loss not exceeded in 98 per cent of years
+________
+Unexpected loss at that level
+________
+Maximum possible loss on this table
+________
+Which figure decides whether the risk may be retained
+________
+LANGUAGE FOCUS   "Expected"
+The most misleading word in this chapter is expected. In ordinary English what you expect is what you think will happen; in statistics the expected value is a weighted average that frequently cannot happen at all — Orontes's expected roaster loss of 267,500 is not among the four outcomes. Boards misread the word constantly, and the remedy in a report is to write the sentence out: "in an average year this costs 267,500; in 60 per cent of years it costs nothing; in one year in twenty it costs 800,000 or more." Arabic الخسارة المتوقعة carries the same ambiguity as the English and needs the same explanation; French perte attendue is slightly better, since attendue is closer to awaited than to predicted, and French technical writing often prefers espérance de perte, which names the mathematical expectation explicitly and cannot be misread as a forecast.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+catastrophic loss
+الخسارة الكارثية
+sinistre catastrophique
+maximum probable loss
+الحد الأقصى المرجح للخسارة
+sinistre maximum probable
+insurance limit
+حد التغطية التأمينية
+limite de garantie
+retention
+الاحتفاظ بالمخاطرة
+rétention
+SECTION CHECK   Test yourself
+SC3-13  The maximum possible loss is:
+A.	the largest loss that could occur, not weighted by probability.
+B.	the expected loss at the 99th percentile.
+C.	probability times severity.
+D.	the insurance premium.
+SC3-14  A risk whose maximum possible loss exceeds the company's capital:
+A.	cannot be retained, however unlikely it is.
+B.	should be retained if the probability is low.
+C.	should be budgeted at the maximum.
+D.	should be ignored.
+SC3-15  Fire with probability 0.01 and severity 6,000,000 has an expected loss of:
+A.	60,000
+B.	6,000,000
+C.	600,000
+D.	5,940,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F803-04 brings the chapter together.
+Figure F803-04. Chapter 3 summary map: the key rule for each section.
+Probabilities come from observed frequency, from judgment and from models, in descending order of trustworthiness; they must sum to one across mutually exclusive outcomes, independence must be argued rather than assumed, and a probability describes the world as the controls now stand. Expected loss is probability times severity summed over outcomes — the roaster's 37,500 + 80,000 + 150,000 = 267,500 — and it belongs in budgets, prices and provisions while being an outcome that often cannot occur. Expected losses add across a register, so Orontes's five risks total 129,747 + 60,000 + 75,000 = 264,747, about six per cent of operating income, but the ranking by expected loss is not the ranking by danger and the total is only as good as the list. Unexpected loss is the excess of a chosen percentile over the expectation — 800,000 − 267,500 = 532,500 at the 95th — it depends on the confidence level chosen rather than on the risk, and unlike expected losses it does not add, which is the argument for assessing risk across the enterprise. And the maximum possible loss is the worst conceivable outcome, unweighted by probability, whose job is to answer the survival question: Orontes's fire costs 0.01 × 6,000,000 = 60,000 in the budget, 6,000,000 − 60,000 = 5,940,000 against the buffer, and 14,000,000 on the insurance schedule, and using any one of the three for another's job is the error the examiners look for.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P3-01  Expected loss is:
+A.	the sum of probability times severity over all outcomes.
+B.	the largest loss.
+C.	the most frequent loss.
+D.	the loss at the 95th percentile.
+P3-02  Probabilities of 0.60, 0.25, 0.10 and 0.05 across four outcomes:
+A.	sum to one, so the table is complete.
+B.	sum to less than one.
+C.	are mutually exclusive but incomplete.
+D.	cannot be used.
+P3-03  Outcomes of 0.25 × 150,000, 0.10 × 800,000 and 0.05 × 3,000,000 give an expected loss of:
+A.	267,500
+B.	3,950,000
+C.	1,316,667
+D.	950,000
+P3-04  Expected loss is the right figure for:
+A.	a budget or a provision.
+B.	an insurance limit.
+C.	a capital buffer.
+D.	a worst-case plan.
+P3-05  A control costing 100,000 a year halves an expected loss of 267,500. The annual saving is:
+A.	133,750
+B.	267,500
+C.	33,750
+D.	100,000
+P3-06  Across a register of risks, expected losses:
+A.	add.
+B.	add only if independent.
+C.	multiply.
+D.	average.
+P3-07  Unexpected loss at the 95th percentile, with an expected loss of 267,500 and a percentile loss of 800,000, is:
+A.	532,500
+B.	267,500
+C.	800,000
+D.	1,067,500
+P3-08  Unexpected loss depends on:
+A.	the confidence level chosen.
+B.	the expected loss only.
+C.	the insurance premium.
+D.	the number of risks.
+P3-09  Unexpected losses from imperfectly correlated risks combine to:
+A.	less than their sum.
+B.	exactly their sum.
+C.	more than their sum.
+D.	zero.
+P3-10  Maximum possible loss is used to:
+A.	decide whether the company would survive the event.
+B.	set the budget.
+C.	price the product.
+D.	compute the provision.
+P3-11  Fire with probability 0.01 and severity 6,000,000 exceeds its expected loss, in the year it occurs, by:
+A.	5,940,000
+B.	60,000
+C.	6,000,000
+D.	600,000
+P3-12  The difference between maximum possible loss and maximum probable loss is that the probable figure:
+A.	assumes mitigating features work.
+B.	is weighted by probability.
+C.	is the expected loss.
+D.	is always larger.
+Case-style practice: the maintenance contract
+Orontes's engineering manager proposes a maintenance contract on the roaster costing $180,000 a year. The supplier's evidence suggests it would change the four outcomes of section 3.2 to: nothing with probability 0.80, a short stop costing 150,000 with probability 0.15, a serious failure costing 800,000 with probability 0.04, and a destroyed roaster costing 3,000,000 with probability 0.01.
+Required. Compute the new expected loss, decide whether the contract pays, and say what else you would consider before recommending it. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC3-1  Answer A. Frequency from repeated observation is strongest.
+B is wrong. Judgment is used where data are absent.
+C is wrong. A model inherits its assumptions.
+D is wrong. Industry averages may not fit this company.
+SC3-2  Answer A. Exhaustive, mutually exclusive outcomes sum to one.
+B is wrong. A shortfall means an outcome is missing.
+C is wrong. Equality is not required.
+D is wrong. Independence is a different property.
+SC3-3  Answer A. The product rule needs independence.
+B is wrong. Mutually exclusive events cannot both occur.
+C is wrong. Equality is irrelevant.
+D is wrong. No distributional assumption is needed.
+SC3-4  Answer A. Probability times severity, summed.
+B is wrong. That is the maximum possible loss.
+C is wrong. The most likely outcome here is zero.
+D is wrong. That is a percentile.
+SC3-5  Answer A. 37,500 + 80,000 + 150,000 = 267,500.
+B is wrong. That adds severities without weighting.
+C is wrong. That averages the three severities.
+D is wrong. That is one severity.
+SC3-6  Answer A. The saving of 133,750 exceeds the 100,000 cost.
+B is wrong. The arithmetic says otherwise.
+C is wrong. Halving the loss changes the expectation.
+D is wrong. Halving is not elimination.
+SC3-7  Answer A. Expectations are additive regardless.
+B is wrong. Independence is needed for dispersions, not expectations.
+C is wrong. Multiplication is for joint probabilities.
+D is wrong. They combine straightforwardly.
+SC3-8  Answer A. 129,747 + 60,000 + 75,000 = 264,747.
+B is wrong. That is the first three only.
+C is wrong. That is the last two only.
+D is wrong. That adds severities, not expected losses.
+SC3-9  Answer A. Average cost is not the same as danger.
+B is wrong. Probability is in the product.
+C is wrong. So is severity.
+D is wrong. It is easily computed.
+SC3-10  Answer A. The excess over the expectation at a percentile.
+B is wrong. That is the average.
+C is wrong. That is the maximum possible loss.
+D is wrong. A premium is a price.
+SC3-11  Answer A. 800,000 − 267,500 = 532,500.
+B is wrong. That is the percentile loss itself.
+C is wrong. That is the expectation.
+D is wrong. This adds instead of subtracting.
+SC3-12  Answer A. Imperfect correlation gives a diversification benefit.
+B is wrong. Only perfect correlation gives exact addition.
+C is wrong. Multiplication is not involved.
+D is wrong. Cancellation would require perfect negative correlation.
+SC3-13  Answer A. The worst conceivable outcome, unweighted.
+B is wrong. That is an unexpected loss measure.
+C is wrong. That is the expected loss.
+D is wrong. A premium is a price.
+SC3-14  Answer A. Survival outranks likelihood.
+B is wrong. Low probability does not make ruin acceptable.
+C is wrong. Budgeting the maximum would distort every figure.
+D is wrong. Ignoring it is the error the measure exists to prevent.
+SC3-15  Answer A. 0.01 × 6,000,000 = 60,000.
+B is wrong. That is the severity.
+C is wrong. That misplaces a decimal.
+D is wrong. That is the excess in the year it occurs.
+Your turn
+Item
+Answer
+Do the probabilities sum to one?
+Yes: 0.70 + 0.20 + 0.08 + 0.02 = 1.00.
+Expected loss
+100,000: 0.20 × 100,000 = 20,000, plus 0.08 × 500,000 = 40,000, plus 0.02 × 2,000,000 = 40,000.
+Loss not exceeded in 98 per cent of years
+500,000, since the cumulative probability reaches 0.98 at that outcome.
+Unexpected loss at that level
+400,000: 500,000 − 100,000 = 400,000.
+Maximum possible loss on this table
+2,000,000, the worst outcome listed.
+Which figure decides retention
+The maximum possible loss, compared with the company's capacity to absorb it.
+What it tells you
+One table, three figures, three decisions: what to budget, what to hold capital against, and whether the risk may be kept at all.
+Multiple-choice questions
+P3-01  Answer A. Probability times severity, summed.
+B is wrong. That is the maximum.
+C is wrong. Frequency is not expectation.
+D is wrong. That is a percentile.
+P3-02  Answer A. They sum to one.
+B is wrong. The sum is exactly one.
+C is wrong. Completeness follows from the sum.
+D is wrong. They are perfectly usable.
+P3-03  Answer A. 37,500 + 80,000 + 150,000 = 267,500.
+B is wrong. That adds unweighted severities.
+C is wrong. That is a simple average.
+D is wrong. That omits a term.
+P3-04  Answer A. Budgets and provisions carry the average.
+B is wrong. Limits follow the maximum.
+C is wrong. Capital follows the unexpected loss.
+D is wrong. Worst-case planning uses the maximum.
+P3-05  Answer A. 267,500 ÷ 2 = 133,750 saved.
+B is wrong. That is the whole loss.
+C is wrong. That is the net gain after the cost.
+D is wrong. That is the cost.
+P3-06  Answer A. Expectations add.
+B is wrong. Independence is not required for expectations.
+C is wrong. Multiplication applies to joint probabilities.
+D is wrong. Averaging would understate the total.
+P3-07  Answer A. 800,000 − 267,500 = 532,500.
+B is wrong. That is the expectation.
+C is wrong. That is the percentile loss.
+D is wrong. This adds instead of subtracting.
+P3-08  Answer A. The chosen confidence level sets it.
+B is wrong. The expectation is only one term.
+C is wrong. Premiums are prices.
+D is wrong. The number of risks affects the portfolio, not the definition.
+P3-09  Answer A. Diversification reduces the combined figure.
+B is wrong. That requires perfect correlation.
+C is wrong. The sum is an upper bound.
+D is wrong. Zero would need perfect offsetting.
+P3-10  Answer A. It is the survival test.
+B is wrong. Budgets use the expectation.
+C is wrong. Pricing uses the expectation.
+D is wrong. So does a provision.
+P3-11  Answer A. 6,000,000 − 60,000 = 5,940,000.
+B is wrong. That is the expected loss.
+C is wrong. That is the severity.
+D is wrong. That misplaces a decimal.
+P3-12  Answer A. The probable figure assumes the mitigations work.
+B is wrong. Neither is probability-weighted.
+C is wrong. The expected loss is a different measure.
+D is wrong. The possible figure is the larger.
+Case-style set: the maintenance contract
+The new expected loss. The contract changes three of the four outcomes. The short stop now contributes 0.15 × 150,000 = 22,500; the serious failure 0.04 × 800,000 = 32,000; the destroyed roaster 0.01 × 3,000,000 = 30,000. Together 22,500 + 32,000 + 30,000 = 84,500, against the present 267,500.
+Does it pay? The expected loss falls by 267,500 − 84,500 = 183,000 a year, against a contract costing $180,000 — a net gain of 183,000 − 180,000 = 3,000. On expected loss alone the contract is marginal, and a decision made on that figure could go either way.
+What else I would consider, and why it changes the answer. Three things, and they point the same way.
+The contract does more than reduce the average. It cuts the probability of the destroyed roaster from 0.05 to 0.01, which is a fifth of the chance of the one outcome that would require unplanned capital expenditure, a long stoppage and the drawing-down of the buffer Chapter 2 examined. The unexpected loss falls much further in proportion than the expected loss does, and that improvement is worth something the expected-loss arithmetic does not price.
+The supplier's probabilities are the supplier's. They are the source with the clearest interest in the answer, and before signing I would want Orontes's own failure history, the experience of two other users of the same contract, and a specification of what the contract actually obliges the supplier to do and how quickly.
+And the response of Chapter 5 is not either-or. Some of the benefit could be obtained by training Orontes's own engineers and holding critical spares, at lower cost and without the dependency.
+Recommendation: proceed, subject to verifying the probabilities independently and to a response-time commitment in the contract — not because the expected-loss saving of 3,000 justifies it, which it barely does, but because the contract removes four fifths of the chance of the outcome the company cannot easily absorb.
