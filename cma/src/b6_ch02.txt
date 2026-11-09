@@ -1,0 +1,568 @@
+Chapter 2
+Portfolios, diversification, beta and the CAPM
+المحافظ الاستثمارية والتنويع ومعامل بيتا ونموذج تسعير الأصول الرأسمالية
+Chapter 1 ended on a sentence that needs a formula: only systematic risk is rewarded. This chapter supplies it, and in doing so supplies the number that the whole of corporate finance runs on — the required return on a company's equity.
+The route has four steps. A portfolio's return is easy and its risk is not, because two assets that move apart offset each other. The offsetting is measured by correlation, and as more assets are added the company-specific part of the risk falls away, leaving only the part that moves with the market. That remaining part, scaled against the market itself, is beta. And a required return built on beta is the Capital Asset Pricing Model.
+Figure F602-01 is your map.
+Figure F602-01. Chapter 2 roadmap: from two assets to beta to a required return.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.1.e
+Distinguish individual security risk from portfolio risk.
+C
+Full treatment
+B.1.f
+Explain diversification and what it can and cannot remove.
+C
+Full treatment
+B.1.g
+Define beta and explain how a change in beta affects a security's price.
+C
+Full treatment
+B.1.h
+Apply the Capital Asset Pricing Model and calculate a risk-adjusted expected return.
+C
+Full treatment
+B.1.b
+Use the systematic and unsystematic split as the foundation of the model.
+B
+Reinforced (introduced in Chapter 1)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+portfolio
+المحفظة الاستثمارية
+portefeuille
+correlation coefficient
+معامل الارتباط
+coefficient de corrélation
+covariance
+التغاير
+covariance
+diversification
+التنويع
+diversification
+beta
+معامل بيتا
+bêta
+market portfolio
+محفظة السوق
+portefeuille de marché
+security market line
+خط سوق الأوراق المالية
+droite de marché des titres
+risk-adjusted return
+العائد المعدل بالمخاطر
+rendement ajusté du risque
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 separated company-specific risk, which diversification removes and the market does not pay for, from market risk, which it cannot and does. It also built the required-return ladder: a risk-free rate plus a premium. This chapter measures the premium.
+2.1  From one security to a portfolio
+The expected return of a portfolio is the weighted average of the expected returns of what is in it. Put 60 per cent of the money into a share expected to return 12 per cent and 40 per cent into one expected to return 8 per cent: 0.6 × 12 = 7.2 and 0.4 × 8 = 3.2, so the portfolio expects 7.2 + 3.2 = 10.4 per cent. No subtlety at all.
+The risk of a portfolio is not the weighted average of the risks, and that single fact is the foundation of modern finance. It is less, unless the two assets move in perfect step. The reason is that when one is having a bad year the other may be having a good one, and the two partly cancel.
+How much they cancel is measured by the correlation coefficient, which runs from minus one to plus one. At plus one the two move in exact proportion and nothing cancels. At zero they are unrelated. At minus one they are mirror images and, in the right proportions, cancel exactly.
+WORKED EXAMPLE   Worked example: the same two shares, three correlations
+Step 1. The holdings. Sixty per cent in a share with a standard deviation of 20 points and forty per cent in one with 10 points. The contributions are 0.6 × 20 = 12 and 0.4 × 10 = 4.
+Step 2. Perfect positive correlation. Nothing offsets, so the portfolio's standard deviation is the weighted average: 12 + 4 = 16 points.
+Step 3. Zero correlation. The squared contributions add instead: 12 squared is 144 and 4 squared is 16, so the variance is 144 + 16 = 160 and the standard deviation is 12.65 points.
+Step 4. Perfect negative correlation. The contributions offset directly: 12 − 4 = 8 points.
+Check. The expected return is 10.4 per cent in all three cases, because correlation does not touch the return. Only the risk moved, from 16 points to 8, and the investor paid nothing for the improvement. That free improvement is what the word diversification means, and it is the only free thing in finance.
+Figure F602-02 sets the three out.
+Figure F602-02. One portfolio, three correlations
+Correlation
+What it means
+Portfolio standard deviation
+Expected return
+Plus 1.0
+The two move in exact step
+16.0 points
+10.4%
+Zero
+The two are unrelated
+12.65 points
+10.4%
+Minus 1.0
+The two are mirror images
+8.0 points
+10.4%
+EXAM TRAP   Returns average, risks do not
+A portfolio's expected return is always the weighted average. Its standard deviation is the weighted average only at a correlation of exactly plus one, and is lower otherwise.
+Correlation of zero does not mean no risk. The variance still adds.
+Covariance and correlation measure the same relationship. The correlation coefficient is the covariance scaled to run between minus one and plus one, which is why the exam quotes it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+weight
+الوزن النسبي
+pondération
+offsetting
+التعويض المتبادل
+compensation
+perfect correlation
+الارتباط التام
+corrélation parfaite
+SECTION CHECK   Test yourself
+SC2-1  A portfolio's expected return is:
+A.	the weighted average of the expected returns of its holdings.
+B.	the highest of its holdings' returns.
+C.	lower than the weighted average when correlation is low.
+D.	unrelated to the weights.
+SC2-2  A portfolio's standard deviation equals the weighted average of its holdings' standard deviations when correlation is:
+A.	plus one.
+B.	zero.
+C.	minus one.
+D.	any value.
+SC2-3  Two assets with a correlation of minus one, held in the right proportions:
+A.	can offset each other almost exactly.
+B.	double the risk.
+C.	have no expected return.
+D.	cannot be held together.
+Answers and explanations are at the end of the chapter.
+2.2  Diversification, and where it stops
+Add a third share to the two, then a tenth, then a fiftieth. Each new holding brings its own company-specific risk and partly cancels the others', and the portfolio's standard deviation falls — quickly at first and then more slowly.
+It does not fall to zero. What is left when the company-specific risk has gone is the part every share has in common, which is the market itself. A portfolio of fifty shares still falls in a recession, because a recession is not a company-specific event.
+The practical numbers are worth remembering. Most of the benefit arrives within the first fifteen or twenty holdings; beyond thirty, adding names changes very little. The risk that remains is the systematic risk of Chapter 1, and it is the floor.
+Three things limit diversification in practice, and the exam names them.
+Correlation is rarely low within one market. Shares in the same country and the same industry move together, so a portfolio of twenty food manufacturers is far less diversified than a portfolio of twenty companies in twenty industries.
+Diversification across borders works until it is needed. International holdings reduce risk in normal conditions, and correlations rise sharply in a crisis, which is when the protection was wanted.
+A company diversifying on its own account is not doing its shareholders a favour. A shareholder can buy shares in a glass works directly and more cheaply than Orontes can buy the glass works. That is the standard objection to conglomerate acquisitions, and Book 3 returns to it.
+Figure F602-03 draws the fall.
+Figure F602-03. What happens as holdings are added
+Number of holdings
+Total risk
+What has gone
+What remains
+1
+Highest
+Nothing
+All company risk and all market risk
+10
+Much lower
+Most company-specific risk
+Market risk and some company risk
+30
+Near the floor
+Almost all company-specific risk
+Market risk
+100
+At the floor
+All company-specific risk
+Market risk only
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+naive diversification
+التنويع البسيط
+diversification naïve
+conglomerate
+التكتل الشركاتي
+conglomérat
+floor
+الحد الأدنى
+plancher
+SECTION CHECK   Test yourself
+SC2-4  As the number of holdings rises, portfolio risk:
+A.	falls towards the level of market risk and stops there.
+B.	falls to zero.
+C.	rises.
+D.	is unchanged.
+SC2-5  Twenty food manufacturers are less diversified than twenty companies in twenty industries because:
+A.	their returns are highly correlated with each other.
+B.	they are smaller.
+C.	food is riskier.
+D.	they pay no dividends.
+SC2-6  A company acquiring an unrelated business to reduce risk is open to the objection that:
+A.	its shareholders could diversify more cheaply themselves.
+B.	diversification never reduces risk.
+C.	acquisitions are prohibited.
+D.	market risk would rise.
+Answers and explanations are at the end of the chapter.
+2.3  Beta
+If the only risk that is rewarded is the part that moves with the market, then what has to be measured is how much a given share moves with the market. That measure is beta.
+Beta is the sensitivity of a security's return to the return on the market as a whole. The market portfolio has a beta of 1.0 by definition. A share with a beta of 1.5 tends to rise 15 per cent when the market rises 10 and to fall 15 when it falls 10. A share with a beta of 0.5 moves half as far in each direction. A beta below zero is rare and means the share tends to move against the market.
+Three properties matter and all three are examined.
+Beta measures systematic risk only. A company can have enormous company-specific risk and a low beta, because its risks have nothing to do with the economy. A gold miner is the standard example and a pharmaceutical company in a trial is another.
+Betas are weighted-average additive. The beta of a portfolio is the weighted average of the betas in it: half in a share of beta 0.9 and half in one of 1.5 gives 0.5 × 0.9 = 0.45 and 0.5 × 1.5 = 0.75, so the portfolio beta is 0.45 + 0.75 = 1.20.
+Beta is driven by the business and by the financing. A company whose sales swing with the economy has a higher beta than one whose sales do not — which is why a food manufacturer like Orontes, selling a staple, has a beta below 1.0 while a car maker has one above. Debt raises it further, because the fixed interest magnifies whatever the business does. That is the degree of financial leverage of Book 1, Chapter 8, seen in the market's measure.
+WORKED EXAMPLE   Worked example: what a change in beta does to a price
+Step 1. The share today. A share pays a dividend of 0.60 next year, growing at 4 per cent a year for ever. Its beta is 0.90, the risk-free rate is 4 per cent and the market is expected to return 10 per cent.
+Step 2. The required return. The market premium is 10.0 − 4.0 = 6.0 points, and at a beta of 0.90 the premium earned is 0.90 × 6.0 = 5.4 points, so the required return is 9.4 per cent.
+Step 3. The price. Chapter 5 derives the model; here it is enough that the price is the dividend over the required return less the growth rate: 0.60 ÷ 0.054 = 11.11.
+Step 4. The beta rises. Suppose the company borrows heavily and its beta rises to 1.20. The premium becomes 1.20 × 6.0 = 7.2 points and the required return 11.2 per cent, so the price becomes 0.60 ÷ 0.072 = 8.33.
+Check. Nothing about the dividend changed. The share fell 25 per cent because the market now requires more to hold it, and the only thing that moved was the sensitivity of its returns to the economy. That is the whole of what the outcome means by the impact of a change in beta on a security's price, and it is the reason a chapter on capital structure later in this book is a chapter about shareholders and not only about lenders.
+Figure F602-04 reads a range of betas.
+Figure F602-04. What a beta says
+Beta
+Behaviour against the market
+Typical business
+Required return at rf 4%, premium 6%
+1.60
+Moves 60 per cent further
+Construction, luxury goods
+13.6%
+1.00
+Moves with the market
+The market portfolio
+10.0%
+0.90
+Moves slightly less
+Food manufacturing
+9.4%
+0.40
+Moves far less
+Regulated utility
+6.4%
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sensitivity
+الحساسية
+sensibilité
+levered beta
+بيتا مع الرفع المالي
+bêta endetté
+defensive share
+السهم الدفاعي
+valeur défensive
+cyclical share
+السهم الدوري
+valeur cyclique
+SECTION CHECK   Test yourself
+SC2-7  A share with a beta of 1.5 tends to:
+A.	move 15 per cent when the market moves 10 per cent.
+B.	move 10 per cent when the market moves 15 per cent.
+C.	move against the market.
+D.	be riskless.
+SC2-8  The beta of a portfolio is:
+A.	the weighted average of the betas of its holdings.
+B.	always 1.0.
+C.	the highest beta in the portfolio.
+D.	zero if the portfolio is diversified.
+SC2-9  A rise in a company's beta, with its dividends unchanged, causes its share price to:
+A.	fall, because the required return has risen.
+B.	rise, because the expected return has risen.
+C.	stay the same.
+D.	become undefined.
+Answers and explanations are at the end of the chapter.
+2.4  The Capital Asset Pricing Model
+The model states the required return on any security as the risk-free rate plus beta times the market risk premium.
+Each of the three inputs is a question in itself. The risk-free rate is a government security of matching maturity. The market risk premium is the extra return the market as a whole is expected to earn over that rate, which is estimated from long runs of history and typically quoted between four and six points. Beta is estimated by regressing the security's returns on the market's, usually over five years of monthly data.
+Apply it to Orontes. At a risk-free rate of 4 per cent, a market premium of 6 points and a beta of 0.90, the premium earned is 0.90 × 6.0 = 5.4 points and the required return on Orontes's equity is 9.4 per cent. Book 1 charged its shareholders 10 per cent when it computed economic profit, and said at the time that the figure would be justified later. This is the justification, and the two are close enough that the conclusion there — a positive economic profit of about 1.1 million dollars — survives either number.
+Drawn as a line, with beta on one axis and required return on the other, the model is the security market line. Its intercept is the risk-free rate and its slope is the market risk premium. Every correctly priced security sits on the line. A security above it offers more return than its risk requires and is a buy; one below it is a sell — and the act of buying and selling moves prices until it sits on the line again, which is what the model means by equilibrium.
+Figure F602-05 works four securities.
+Figure F602-05. The security market line at a 4 per cent risk-free rate and a 6-point premium
+Security
+Beta
+Required return
+If it is expected to return 10%
+Verdict
+Treasury bill
+0.00
+4.0%
+n/a
+The intercept
+Orontes
+0.90
+9.4%
+10.0%
+Above the line: a buy
+The market
+1.00
+10.0%
+10.0%
+On the line
+A construction firm
+1.60
+13.6%
+10.0%
+Below the line: a sell
+EXAM TRAP   Expected against required
+The CAPM gives the required return — what the risk deserves. The expected return is what the analyst thinks the security will deliver. The comparison of the two is the investment decision, and a question that gives you both is asking for exactly that comparison.
+The market risk premium is the market return less the risk-free rate, not the market return. Multiplying beta by the whole market return is the commonest arithmetic error on this outcome.
+A beta of zero gives the risk-free rate, not a zero return.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+market risk premium
+علاوة مخاطر السوق
+prime de risque de marché
+equilibrium
+التوازن
+équilibre
+regression
+الانحدار
+régression
+mispriced
+مُسعّر بشكل خاطئ
+mal valorisé
+SECTION CHECK   Test yourself
+SC2-10  At a risk-free rate of 4 per cent, a market premium of 6 points and a beta of 1.2, the required return is:
+A.	11.2 per cent
+B.	12.0 per cent
+C.	7.2 per cent
+D.	16.0 per cent
+SC2-11  A security whose expected return is above its required return is:
+A.	underpriced, and a buy.
+B.	overpriced, and a sell.
+C.	correctly priced.
+D.	riskless.
+Answers and explanations are at the end of the chapter.
+2.5  What the model assumes, and where it breaks
+The CAPM is used everywhere and believed nowhere completely, and the exam expects both halves.
+The assumptions are strong. Investors are rational and risk-averse, hold diversified portfolios, agree about the expected returns and risks of everything, can borrow and lend freely at the risk-free rate, pay no taxes or transaction costs, and act over one period. None of these is true.
+The measurement problems are worse than the assumptions. The market portfolio should contain every risky asset in the world, including property, private businesses and human capital; in practice an index of large listed shares stands in for it. Beta is estimated from the past and is unstable: a beta measured over the last five years may describe a company that no longer exists in that form. And the market risk premium cannot be observed at all, only estimated, with reputable estimates ranging from about three points to about seven — a spread that moves a required return by four points and a valuation by far more.
+What survives all that is the structure, which is why the model is still taught. Return should rise with risk; only non-diversifiable risk should be rewarded; and the compensation for risk should be proportional to the sensitivity. Alternatives exist — multi-factor models adding size, value and momentum factors, and the arbitrage pricing theory, which allows several sources of systematic risk — and all of them keep that structure and refine the measurement.
+For a candidate, three practical rules follow. Use the model when the question gives you its three inputs. State the inputs you used. And treat the output as a required return for a decision, not as a prediction of next year.
+YOUR TURN   Apply the model
+Figure F602-06 gives four securities and a market. Complete the blanks, taking the risk-free rate as 3 per cent and the expected market return as 9 per cent. Answers are at the end of the chapter.
+Figure F602-06. Your turn: required returns (complete the blanks)
+Security
+Beta
+Expected return
+Required return
+Buy or sell
+Market risk premium
+________
+n/a
+Barada Wholesale
+1.30
+12.0%
+________
+________
+Orontes Foods
+0.90
+8.0%
+________
+________
+A utility
+0.50
+7.0%
+________
+________
+A portfolio, half Orontes and half the utility
+________
+________
+n/a
+LANGUAGE FOCUS   "Expected"
+English expected in finance means the probability-weighted average of the outcomes, not what anybody anticipates in the ordinary sense and not what is likely. An expected return of 8.5 per cent can be an outcome that cannot occur at all, as it was in Chapter 1. Arabic المتوقع carries the everyday sense of anticipation and has to be read technically here. French espéré is the technical term, deliberately distinct from attendu or prévu, and the French usage is the clearer of the three. Note the pairing the exam relies on: expected return against required return, where the first is a forecast and the second is a standard, and reading either as the other reverses the buy-or-sell conclusion.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+assumption
+الافتراض
+hypothèse
+proxy
+البديل التقريبي
+approximation
+multi-factor model
+نموذج متعدد العوامل
+modèle multifactoriel
+arbitrage pricing theory
+نظرية التسعير بالمراجحة
+théorie d'évaluation par arbitrage
+SECTION CHECK   Test yourself
+SC2-12  Which is NOT an assumption of the CAPM?
+A.	Investors can borrow and lend at the risk-free rate
+B.	Investors agree about expected returns and risks
+C.	Betas are stable and measured without error
+D.	Companies pay no dividends
+SC2-13  The market risk premium is:
+A.	estimated rather than observed, with a wide range of reputable estimates.
+B.	published daily by the exchange.
+C.	always exactly 6 points.
+D.	the same as the risk-free rate.
+SC2-14  The arbitrage pricing theory differs from the CAPM mainly in that it:
+A.	allows several sources of systematic risk.
+B.	removes the risk-free rate.
+C.	rewards unsystematic risk.
+D.	ignores diversification.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F602-07 brings the chapter together.
+Figure F602-07. Chapter 2 summary map: the key rule for each section.
+A portfolio's expected return is the weighted average of what is in it, and its risk is not: the same two shares give a standard deviation of 16 points at a correlation of plus one, 12.65 at zero and 8 at minus one, with the expected return unmoved at 10.4 per cent in all three. Adding holdings drives company-specific risk out, quickly to about twenty names and almost completely by thirty, and stops at the floor of market risk — which is why a company that diversifies on its shareholders' behalf is usually doing something they could do more cheaply themselves. What is left is measured by beta, the sensitivity of a security to the market, which is weighted-average additive across a portfolio, rises with the cyclicality of the business and with debt, and moves prices directly: a beta rising from 0.90 to 1.20 takes a required return from 9.4 to 11.2 per cent and the same unchanged dividend stream from 11.11 to 8.33, a fall of a quarter. The Capital Asset Pricing Model states the required return as the risk-free rate plus beta times the market premium, puts Orontes at 9.4 per cent against the 10 Book 1 assumed, and draws every correctly priced security on the security market line. And the model's assumptions are all false, its market portfolio unobservable and its premium a matter of estimate — which is why its structure, not its precision, is what survives.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P2-01  Sixty per cent of a portfolio returns 12 per cent and forty per cent returns 8 per cent. The portfolio returns:
+A.	10.4 per cent
+B.	10.0 per cent
+C.	20.0 per cent
+D.	9.6 per cent
+P2-02  Portfolio risk is lowest when the correlation between two holdings is:
+A.	minus one.
+B.	zero.
+C.	plus one.
+D.	plus two.
+P2-03  Diversification removes:
+A.	company-specific risk and leaves market risk.
+B.	market risk and leaves company-specific risk.
+C.	both.
+D.	neither.
+P2-04  Beta measures:
+A.	systematic risk.
+B.	total risk.
+C.	unsystematic risk.
+D.	the standard deviation of returns.
+P2-05  Half a portfolio has a beta of 0.9 and half a beta of 1.5. The portfolio beta is:
+A.	1.20
+B.	2.40
+C.	1.00
+D.	0.60
+P2-06  At a risk-free rate of 4 per cent, an expected market return of 10 per cent and a beta of 0.9, the required return is:
+A.	9.4 per cent
+B.	13.0 per cent
+C.	9.0 per cent
+D.	5.4 per cent
+P2-07  A company increases its debt and its beta rises. Its share price, with dividends unchanged:
+A.	falls.
+B.	rises.
+C.	is unaffected.
+D.	rises then falls.
+P2-08  A security plotting above the security market line is:
+A.	offering more than its risk requires, and is a buy.
+B.	overpriced.
+C.	riskless.
+D.	at equilibrium.
+P2-09  The market risk premium is:
+A.	the expected market return less the risk-free rate.
+B.	the expected market return.
+C.	beta times the risk-free rate.
+D.	the standard deviation of the market.
+P2-10  The weakest practical element of the CAPM is:
+A.	that the market portfolio is unobservable and the premium only estimated.
+B.	that it uses a risk-free rate.
+C.	that returns rise with risk.
+D.	that beta is additive across a portfolio.
+Case-style practice: the required return on Orontes
+Orontes's board is setting the return it will require from new investment. The treasurer proposes using the 6 per cent the company pays Levant Commerce Bank, on the ground that it is the company's actual cost of money. The chief financial officer proposes the CAPM, with a risk-free rate of 4 per cent, a market risk premium of 6 points and an equity beta of 0.90.
+Required. Compute the CAPM figure. Say which proposal you would adopt and why, and name two inputs whose estimation you would want to see before relying on the number. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC2-1  Answer A. Returns weight exactly.
+B is wrong. A portfolio cannot return more than its best holding.
+C is wrong. Correlation affects risk, not expected return.
+D is wrong. The weights are precisely what the average uses.
+SC2-2  Answer A. Only at perfect positive correlation does nothing offset.
+B is wrong. At zero correlation the variances add and the standard deviation is lower.
+C is wrong. At minus one the holdings offset most strongly.
+D is wrong. The relationship holds only at plus one.
+SC2-3  Answer A. Mirror-image returns cancel in the right proportions.
+B is wrong. Negative correlation reduces risk.
+C is wrong. Expected return is unaffected by correlation.
+D is wrong. Such pairs are exactly what a hedger looks for.
+SC2-4  Answer A. The floor is market risk.
+B is wrong. No portfolio of risky assets is riskless.
+C is wrong. Risk falls as holdings are added.
+D is wrong. The fall is the point of diversifying.
+SC2-5  Answer A. Shares in one industry move together.
+B is wrong. Size is not what limits the diversification here.
+C is wrong. Food is a defensive industry.
+D is wrong. Dividends do not determine correlation.
+SC2-6  Answer A. A shareholder can buy the other business directly.
+B is wrong. Diversification does reduce risk; the question is who should do it.
+C is wrong. Acquisitions are lawful and common.
+D is wrong. Market risk is not reduced by either route.
+SC2-7  Answer A. A beta of 1.5 moves half as far again as the market.
+B is wrong. That describes a beta of about 0.67.
+C is wrong. Moving against the market requires a negative beta.
+D is wrong. A beta of 1.5 is more volatile than the market, not less.
+SC2-8  Answer A. Betas are weighted-average additive.
+B is wrong. Only the market portfolio has a beta of 1.0 by definition.
+C is wrong. The average, not the maximum, is taken.
+D is wrong. Diversification removes company risk, not beta.
+SC2-9  Answer A. A higher required return discounts the same dividends more heavily.
+B is wrong. The required return rose; the dividends did not.
+C is wrong. The price moves with the required return.
+D is wrong. The price is defined so long as the required return exceeds the growth rate.
+SC2-10  Answer A. The premium earned is 1.2 × 6.0 = 7.2 points on top of 4 per cent.
+B is wrong. This multiplies beta by the premium and forgets the risk-free rate.
+C is wrong. This is the premium alone.
+D is wrong. This multiplies beta by the whole market return and adds the risk-free rate.
+SC2-11  Answer A. More return than the risk requires means the price is too low.
+B is wrong. That describes a security below the line.
+C is wrong. A correctly priced security sits on the line.
+D is wrong. Nothing here makes the security riskless.
+SC2-12  Answer D. The model says nothing about dividends.
+A is wrong. Free borrowing and lending at the risk-free rate is an assumption.
+B is wrong. Homogeneous expectations is an assumption.
+C is wrong. Stable, well-measured betas are assumed in practice.
+SC2-13  Answer A. It is an estimate with a wide reputable range.
+B is wrong. No exchange publishes it.
+C is wrong. Six points is a common assumption, not a fact.
+D is wrong. The premium is the excess over the risk-free rate.
+SC2-14  Answer A. The arbitrage pricing theory allows several systematic factors.
+B is wrong. It retains a risk-free rate.
+C is wrong. No model rewards diversifiable risk.
+D is wrong. It rests on diversification as the CAPM does.
+Your turn
+Item
+Answer
+Market risk premium
+6.0 points: 9.0 − 3.0 = 6.0.
+Barada Wholesale
+Required 10.8 per cent, from 1.30 × 6.0 = 7.8 points on top of 3 per cent. Expected 12.0, so it is above the line and a buy.
+Orontes Foods
+Required 8.4 per cent, from 0.90 × 6.0 = 5.4 points on top of 3 per cent. Expected 8.0, so it is marginally below the line and a sell on these figures.
+A utility
+Required 6.0 per cent, from 0.50 × 6.0 = 3.0 points on top of 3 per cent. Expected 7.0, so it is above the line and a buy.
+The portfolio
+Beta 0.70, from 0.5 × 0.90 = 0.45 and 0.5 × 0.50 = 0.25, so 0.45 + 0.25 = 0.70; the required return is 7.2 per cent, from 0.70 × 6.0 = 4.2 points on top of 3 per cent.
+What it tells you
+Two of the three are mispriced on these estimates, and the one that looks dearest — the utility, on the lowest expected return — is the best buy of the three, because its risk is so low that 7.0 per cent is more than it needs to offer. Ranking by expected return alone reverses the answer.
+Multiple-choice questions
+P2-01  Answer A. 0.6 × 12 = 7.2 and 0.4 × 8 = 3.2, so 7.2 + 3.2 = 10.4 per cent.
+B is wrong. This is the simple average, which ignores the weights.
+C is wrong. The two returns do not add.
+D is wrong. This reverses the weights.
+P2-02  Answer A. Perfect negative correlation gives the largest offset.
+B is wrong. Zero correlation reduces risk, but less.
+C is wrong. Plus one removes the benefit entirely.
+D is wrong. Correlation cannot exceed plus one.
+P2-03  Answer A. Company-specific risk cancels; market risk does not.
+B is wrong. Market risk is what remains.
+C is wrong. No portfolio of risky assets is riskless.
+D is wrong. Diversification removes a great deal.
+P2-04  Answer A. Beta is the sensitivity to the market.
+B is wrong. Total risk is measured by the standard deviation.
+C is wrong. Unsystematic risk is what beta ignores.
+D is wrong. Beta is a sensitivity, not a dispersion.
+P2-05  Answer A. 0.5 × 0.9 = 0.45 and 0.5 × 1.5 = 0.75, so 0.45 + 0.75 = 1.20.
+B is wrong. The betas are weighted, not added.
+C is wrong. The average of 0.9 and 1.5 is not 1.0.
+D is wrong. This halves the answer twice.
+P2-06  Answer A. 0.9 × 6.0 = 5.4 points on top of 4 per cent.
+B is wrong. This multiplies beta by the whole market return and adds the risk-free rate.
+C is wrong. That is the market return less a point for no reason.
+D is wrong. That is the premium alone.
+P2-07  Answer A. A higher beta raises the required return and lowers the price.
+B is wrong. Higher required returns lower prices.
+C is wrong. The discount rate changed, so the price must.
+D is wrong. There is no two-stage effect here.
+P2-08  Answer A. Above the line means more return than the risk requires.
+B is wrong. Overpriced securities plot below the line.
+C is wrong. Only a zero-beta asset is riskless in this model.
+D is wrong. Equilibrium is on the line.
+P2-09  Answer A. The premium is the excess of the market over the risk-free rate.
+B is wrong. That omits the subtraction.
+C is wrong. Beta multiplies the premium, not the risk-free rate.
+D is wrong. The premium is a return, not a dispersion.
+P2-10  Answer A. Neither the market portfolio nor the premium can be observed.
+B is wrong. A risk-free rate is readily available.
+C is wrong. That is the model's strength.
+D is wrong. Additivity is a convenience, not a weakness.
+Case-style set: the required return on Orontes
+The CAPM figure. The market premium is 10.0 − 4.0 = 6.0 points and the beta is 0.90, so the premium earned is 0.90 × 6.0 = 5.4 points and the required return on equity is 9.4 per cent.
+Which proposal. The CAPM, and the treasurer's proposal is wrong in a way worth stating precisely. The 6 per cent paid to Levant Commerce Bank is the cost of one source of money, and the cheapest one, because the bank is paid before the shareholders and holds security. Using it as the hurdle for new investment would approve projects that earn 7 per cent while the shareholders who stand behind the bank require more than 9 — which destroys value while appearing to create it. The correct hurdle is the weighted average of what every provider of capital requires, and Chapter 8 builds it; the 9.4 per cent computed here is the equity component of that average.
+Two inputs I would want to see estimated. First, the beta. At 0.90 it is doing a great deal of work, and I would want to know the period it was measured over, whether it reflects Orontes's capital structure as it is now after the 2025 share issue, and whether a listed peer group was used in place of the company's own history.
+Second, the market risk premium. Reputable estimates run from about three points to about seven, and that range alone moves the required return from 6.7 to 10.3 per cent — a spread wide enough to change which projects are approved. I would want the source, the period and the method stated, and the final decision tested at both ends of the range.

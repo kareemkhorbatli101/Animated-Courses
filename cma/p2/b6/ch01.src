@@ -1,0 +1,431 @@
+Chapter 1
+Return, and the risks a company carries
+العائد والمخاطر التي تتحملها الشركة
+Book 1 ended with a verdict on Orontes: strong, well funded, and giving away two points of gross margin to buy growth. Every figure in it was historical. This book is about the other direction in time — the money a company raises, the price it pays for it, and the decisions it takes with it — and every one of those is a decision under uncertainty.
+Uncertainty is the subject of this chapter. A shareholder who earned 19.30 per cent on Orontes in 2025 did not know in January what the year would bring, and neither did the bank that lent at 6 per cent. What each of them did know was the shape of what could happen, and that shape has a name, a measure, and a price. Everything in Section B rests on the two ideas introduced here: that a return must be computed consistently before it can be compared, and that no return can be judged without the risk that was run to get it.
+Figure F601-01 is your map.
+Figure F601-01. Chapter 1 roadmap: how a return is measured, and the risks behind it.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.1.a | Calculate rates of return, including holding-period, annualised, real and expected returns. | C | Full treatment
+B.1.b | Distinguish systematic (market) risk from unsystematic (company) risk. | C | Full treatment
+B.1.c | Explain credit risk, foreign exchange risk, interest rate risk and market risk. | C | Full treatment
+B.1.d | Explain the relationship between risk and return. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+rate of return | معدل العائد | taux de rendement
+holding period return | عائد فترة الاحتفاظ | rendement sur la période de détention
+expected return | العائد المتوقع | rendement espéré
+standard deviation | الانحراف المعياري | écart type
+coefficient of variation | معامل الاختلاف | coefficient de variation
+systematic risk | المخاطر المنتظمة | risque systématique
+unsystematic risk | المخاطر غير المنتظمة | risque spécifique
+risk premium | علاوة المخاطرة | prime de risque
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed four returns for Orontes in 2025: a return on assets of 10.22 per cent, a return on equity of 16.15 per cent, an earnings yield of 3.96 per cent and a shareholder return of 19.30 per cent. All four were returns on a year that had already happened. This chapter keeps the arithmetic and changes the tense.
+1.1  Rates of return
+A rate of return is what was earned, over what was put in, over a stated period. The three parts of that sentence are where the marks are.
+The holding period return is the simplest and the one the exam uses most. It is the income received plus the change in value, over the value at the start. For an Orontes shareholder in 2025: the price rose 9.25 − 7.80 = 1.45 and the dividend was 0.0556, so the return is 1.45 + 0.0556 = 1.5056 on an opening 7.80, which is 1.5056 ÷ 7.80 = 19.30 per cent.
+Where the period is not a year, the return has to be annualised before it can be compared with anything. A return of 19.30 per cent over two years is not 19.30 per cent a year; compounding makes it 1.1930 raised to the power of one half, which is 9.22 per cent a year. Where the period is shorter than a year the same relationship runs the other way: 2 per cent over a quarter compounds to 8.24 per cent a year, not 8.
+Averaging a series of returns has the same trap in a sharper form. The arithmetic mean of +40 per cent and −30 per cent is 5 per cent, and an investor who lived through those two years has lost money: 1.40 × 0.70 = 0.98, so one dollar became 98 cents and the true compound return is about minus 1 per cent a year. The geometric mean is the honest figure for a series of returns actually earned; the arithmetic mean is the right figure for a single period drawn at random from the same distribution, which is why both appear in the exam and why the question always says which.
+Figure F601-02 sets out the four.
+Figure F601-02. Four rates of return, and when each is right
+@table
+Measure | Computation | Use it for
+Holding period return | Income plus price change, over opening value | One period, any length
+Annualised return | The holding period return compounded to a year | Comparing periods of different lengths
+Arithmetic mean | The simple average of the periods | One period drawn from the same distribution
+Geometric mean | The compound rate that links start to finish | What an investor actually earned
+@end
+Finally, a return quoted in money of the day is a nominal return, and what it buys depends on inflation. The real return divides one by the other: at 19.30 per cent nominal and 4 per cent inflation, 1.1930 ÷ 1.04 = 1.1471, so the real return is 14.71 per cent. The approximation that every candidate reaches for, 19.30 − 4.00 = 15.30 per cent, is close enough at these rates and wrong by a percentage point when rates are high — which is exactly when the question asks.
+EXAM TRAP   Say which period and which basis
+A return with no period attached is meaningless. Annualise before comparing.
+Geometric for a series lived through, arithmetic for a single expected period. The question will tell you; the figures will not.
+Nominal less inflation is an approximation. Where the question gives both rates to one decimal, use the division.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+annualised return | العائد السنوي المكافئ | rendement annualisé
+geometric mean | المتوسط الهندسي | moyenne géométrique
+real return | العائد الحقيقي | rendement réel
+compounding | التراكم | capitalisation
+@end
+SECTION CHECK   Test yourself
+SC1-1  The holding period return is:
+A.	income plus the change in value, over the opening value.
+B.	income over the closing value.
+C.	the change in value alone.
+D.	the annual coupon rate.
+SC1-2  Two yearly returns are +40 per cent and −30 per cent. The investor has:
+A.	gained 5 per cent a year.
+B.	lost slightly, because 1.40 × 0.70 = 0.98.
+C.	broken even exactly.
+D.	gained 10 per cent in total.
+SC1-3  A nominal return of 19.30 per cent with inflation of 4 per cent gives a real return of about:
+A.	14.71 per cent
+B.	23.30 per cent
+C.	4.83 per cent
+D.	19.30 per cent
+Answers and explanations are at the end of the chapter.
+1.2  Expected return, and the spread around it
+A return that has happened is a fact. A return that has not happened yet is a distribution, and the exam describes it with a short list of outcomes and their probabilities.
+The expected return is the probability-weighted average of the outcomes. Consider a project whose return is 25 per cent if the harvest is good, 10 per cent if it is ordinary and minus 5 per cent if it fails, with probabilities of 0.2, 0.5 and 0.3. Then 0.2 × 25 = 5.0, 0.5 × 10 = 5.0 and 0.3 × 5 = 1.5 in the other direction, so the expected return is 5.0 + 5.0 − 1.5 = 8.5 per cent.
+Nobody earns 8.5 per cent. The expected return is the centre of the distribution and not a forecast of any single year, which is why it must always be quoted with a measure of how wide the distribution is.
+WORKED EXAMPLE   Worked example: the spread, and what it is worth knowing
+Step 1. The deviations. Each outcome's distance from the 8.5 per cent expectation: 25.0 − 8.5 = 16.5, then 10.0 − 8.5 = 1.5, then an outcome of minus 5 which is 13.5 below the mean.
+Step 2. The variance. Square each deviation and weight it by its probability: 0.2 × 272.25 = 54.45, 0.5 × 2.25 = 1.125 and 0.3 × 182.25 = 54.675. The three add to 110.25.
+Step 3. The standard deviation and the coefficient of variation. The square root of 110.25 is 10.5 percentage points. Expressed against the expected return, the coefficient of variation is 10.5 ÷ 8.5 = 1.24.
+Check. Two projects with the same expected return are not the same project. The standard deviation says how far a single year is likely to fall from the centre; the coefficient of variation scales that spread by the size of the return, which is what lets a small project be compared with a large one. The exam asks for the coefficient whenever the two projects differ in size, and for the standard deviation whenever they do not.
+Figure F601-03 lays out the computation.
+Figure F601-03. The expected return and its spread
+@table
+Outcome | Probability | Return | Weighted return | Weighted squared deviation
+Good harvest | 0.2 | 25.0% | 5.0 | 54.45
+Ordinary | 0.5 | 10.0% | 5.0 | 1.125
+Failure | 0.3 | (5.0)% | (1.5) | 54.675
+Total | 1.0 | | 8.5% | 110.25
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+probability | الاحتمال | probabilité
+variance | التباين | variance
+dispersion | التشتت | dispersion
+downside | الجانب السلبي | risque de perte
+@end
+SECTION CHECK   Test yourself
+SC1-4  The expected return is:
+A.	the probability-weighted average of the possible returns.
+B.	the highest possible return.
+C.	the return that will be earned.
+D.	the average of the best and worst cases.
+SC1-5  The coefficient of variation is:
+A.	the standard deviation divided by the expected return.
+B.	the expected return divided by the standard deviation.
+C.	the variance divided by the mean.
+D.	the square of the standard deviation.
+SC1-6  Two projects have the same expected return and different standard deviations. A risk-averse investor prefers:
+A.	the one with the lower standard deviation.
+B.	the one with the higher standard deviation.
+C.	neither, because the expected returns are equal.
+D.	the one with the higher variance.
+Answers and explanations are at the end of the chapter.
+1.3  Systematic and unsystematic risk
+Not all risk is the same kind, and the difference decides whether an investor is paid for carrying it.
+Unsystematic risk, also called company-specific or diversifiable risk, belongs to one company or one industry. A fire in Orontes's plant, a recall of one product, the loss of its largest customer, a strike, a lawsuit, the departure of a chief executive. These events are independent across companies: a fire at Orontes tells you nothing about a fire at a glass works in Amman.
+Systematic risk, also called market risk or non-diversifiable risk, belongs to the economy. A rise in interest rates, a recession, a tax change, a war, a currency crisis. Every company is affected, in different degrees but in the same direction.
+The consequence is the most important sentence in Section B. Because unsystematic risk is independent across companies, holding many companies at once makes most of it disappear: the fire at one is offset by the good year at another. Systematic risk cannot be removed by holding more companies, because it moves them all together. So an investor who can diversify will not pay to avoid unsystematic risk — and will not be paid for bearing it. Only systematic risk carries a reward. Chapter 2 turns that sentence into a formula.
+A company's management sees it differently, and the exam tests the difference. A diversified shareholder does not care about the fire; the chief executive, the workforce and the lender very much do, because they cannot diversify their exposure to this one company. That is why companies buy insurance and hedge currencies when, on a strict reading of portfolio theory, their shareholders need neither.
+Figure F601-04 contrasts them.
+Figure F601-04. The two kinds of risk
+@table
+| Unsystematic risk | Systematic risk
+Also called | Company-specific, diversifiable | Market risk, non-diversifiable
+Examples | Fire, recall, strike, lawsuit, a lost customer | Recession, rates, inflation, tax, war
+Removable by diversification? | Yes, almost entirely | No
+Rewarded by the market? | No | Yes
+Who still cares | Managers, employees, lenders | Everybody
+@end
+EXAM TRAP   Diversifiable means unpaid
+A risk that can be diversified away earns no premium, however frightening it is to the company carrying it.
+Diversification reduces unsystematic risk; it does not eliminate risk. A portfolio of a hundred shares still falls in a recession.
+The distinction is about the source of the risk, not its size. A large company-specific risk is still unsystematic.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+diversifiable risk | المخاطر القابلة للتنويع | risque diversifiable
+market risk | مخاطر السوق | risque de marché
+recession | الركود | récession
+hedge | التحوط | couverture
+@end
+SECTION CHECK   Test yourself
+SC1-7  A fire at a single company's plant is:
+A.	unsystematic risk, which diversification removes.
+B.	systematic risk, which diversification cannot remove.
+C.	credit risk.
+D.	not a risk at all.
+SC1-8  Which risk earns a premium in an efficient market?
+A.	Systematic risk only
+B.	Unsystematic risk only
+C.	Both equally
+D.	Neither
+SC1-9  A chief executive hedges a currency exposure that a diversified shareholder would not pay to remove. The best explanation is:
+A.	the manager's own exposure to this one company cannot be diversified.
+B.	the shareholder is wrong.
+C.	currency risk is unsystematic for everybody.
+D.	hedging is free.
+Answers and explanations are at the end of the chapter.
+1.4  The four risks a treasurer names
+The outcome names four risks specifically, and each of them can be pointed at in Orontes's own statements.
+Credit risk is the risk that somebody who owes money does not pay. Orontes carries $4,144,000 of receivables net of an allowance of $156,000, which is the company's own estimate of the credit risk it is running on its customers. A lender carries the same risk the other way round, which is why Chapter 9 of this book deals with ratings.
+Foreign exchange risk is the risk that a rate moves against a position. Orontes imports sesame, so a fall in the dollar raises its input cost and squeezes the gross margin that Book 1 spent a chapter on. There are three kinds, and the exam separates them: transaction exposure on a contract already struck, translation exposure on the statements of a foreign subsidiary, and economic exposure on the long-run competitiveness of the business.
+Interest rate risk is the risk that a change in rates changes the value of an instrument or the cost of a borrowing. Orontes has $6,000,000 of long-term debt and $400,000 of it due within the year, so a rate rise reaches it at refinancing rather than immediately. A bondholder meets the same risk as a fall in price, which Chapter 4 measures with duration.
+Market risk, in the narrow sense used here, is the risk that the price of a traded instrument moves. Orontes holds $42,000 of trading securities and $88,500 of debt securities, and the $4,000 of unrealised gains in its income statement is market risk showing up in reported profit.
+Figure F601-05 collects them.
+Figure F601-05. Four risks, and where each one touches Orontes
+@table
+Risk | What it is | Orontes's exposure | Managed by
+Credit risk | A counterparty does not pay | Receivables of 4,144,000 | Credit policy, allowance, factoring
+Foreign exchange risk | A rate moves against a position | Imported sesame; any foreign sale | Forwards, matching, pricing
+Interest rate risk | Rates change value or cost | 6,000,000 of long-term debt | Fixed rates, swaps, maturity choice
+Market risk | A traded price moves | 42,000 of trading securities | Position size, maturity, quality
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+credit risk | مخاطر الائتمان | risque de crédit
+counterparty | الطرف المقابل | contrepartie
+transaction exposure | التعرض للمعاملات | exposition transactionnelle
+economic exposure | التعرض الاقتصادي | exposition économique
+@end
+SECTION CHECK   Test yourself
+SC1-10  The allowance for credit losses is a company's own estimate of its:
+A.	credit risk.
+B.	interest rate risk.
+C.	foreign exchange risk.
+D.	market risk.
+SC1-11  A company with a contract to pay a foreign supplier in three months has:
+A.	transaction exposure.
+B.	translation exposure.
+C.	no foreign exchange exposure.
+D.	credit risk only.
+Answers and explanations are at the end of the chapter.
+1.5  Risk and return together
+The relationship between risk and return is not a tendency observed in the data. It is a condition for a market to clear. If two assets offered the same return and one was riskier, nobody would hold the riskier one, and its price would fall until its return rose enough to attract a buyer. Risk and return move together because prices make them.
+The structure that follows is simple and is used in every chapter of this book. A required return is a risk-free rate plus a premium for the risk carried.
+The risk-free rate is what a lender earns with no credit risk and no reinvestment uncertainty over the period — in practice a government security of matching maturity. It compensates for two things only: waiting, and expected inflation.
+The risk premium is everything else, and it is specific to the asset. A corporate bond pays more than a treasury because the company may default. A share pays more than the company's own bond because the shareholder is paid last. A small company pays more than a large one, and an illiquid asset more than a liquid one.
+Orontes's own statements show the ladder. The company borrows from Levant Commerce Bank at 6 per cent. Book 1 charged its shareholders 10 per cent as a required return when it computed economic profit, and the shareholders actually earned 19.30 per cent in 2025. The gap between 6 and 10 is the price of standing behind the lender; the gap between 10 and 19.30 is the year turning out well.
+Figure F601-06 draws the ladder.
+Figure F601-06. The required-return ladder
+@table
+Claim | Required return | Why it sits there
+Government security | 3% to 4% | Waiting and expected inflation only
+Senior secured bank debt | 6% | Default risk, with security and covenants
+Unsecured corporate bond | 7% to 8% | Default risk, no security
+Preferred stock | 9% | Paid after debt; dividend not contractual
+Common equity | 10% and above | Paid last, and only what is left
+@end
+Two consequences close the chapter, and both are examined.
+The first is that a company's cost of capital is its investors' required return seen from the other side. Every rate in that ladder is a cost to Orontes and a return to somebody. Chapter 8 builds the weighted average of them.
+The second is that risk aversion is a matter of degree, not of principle. A risk-averse investor is not one who refuses risk; it is one who requires compensation for it. An investor who required no compensation would be risk-neutral, and an investor who paid for risk would be risk-seeking — which is a fair description of a lottery ticket and of nothing a company should be doing with its shareholders' money.
+YOUR TURN   Compute the returns and the spread
+Figure F601-07 gives a share's two possible years and a three-outcome project. Complete the blanks. Answers are at the end of the chapter.
+Figure F601-07. Your turn: returns and risk (complete the blanks)
+@table
+Item | Data | Answer
+Holding period return | Bought 20.00, dividend 0.80, sold 23.00 | ________
+Real return | Nominal 12.0 per cent, inflation 5.0 per cent | ________
+Geometric mean of +50% then −40% | Two years | ________
+Expected return | 30% at 0.3, 10% at 0.4, (10)% at 0.3 | ________
+Standard deviation | The same three outcomes | ________
+Coefficient of variation | The same three outcomes | ________
+@end
+LANGUAGE FOCUS   "Risk"
+English risk in finance is neutral: it means the dispersion of possible outcomes, good and bad alike, and an asset whose return might be far above expectations is risky in exactly the sense meant here. Everyday English uses the word only for the bad half, and that is the reading candidates import by mistake. Arabic مخاطرة carries the same everyday bias towards danger, and the technical sense has to be learned. French distinguishes helpfully: risque for the dispersion, aléa for the chance element, and danger for what everyday English means. Note the phrase risk-averse: it does not mean refusing risk, it means requiring payment for it, and a candidate who reads it as refusal will answer half the questions in this book backwards.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+risk-free rate | المعدل الخالي من المخاطر | taux sans risque
+required return | العائد المطلوب | rendement exigé
+risk aversion | النفور من المخاطرة | aversion au risque
+cost of capital | تكلفة رأس المال | coût du capital
+@end
+SECTION CHECK   Test yourself
+SC1-12  A required return is best described as:
+A.	the risk-free rate plus a premium for the risk carried.
+B.	the return actually earned.
+C.	the inflation rate.
+D.	the coupon on a government bond.
+SC1-13  A risk-averse investor is one who:
+A.	requires compensation for bearing risk.
+B.	refuses all risk.
+C.	is indifferent to risk.
+D.	pays for the chance of a large gain.
+SC1-14  A company's cost of capital is:
+A.	its investors' required return, seen from the company's side.
+B.	the interest it pays on its bank debt only.
+C.	its return on assets.
+D.	unrelated to the risk of its business.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F601-08 brings the chapter together.
+Figure F601-08. Chapter 1 summary map: the key rule for each section.
+A rate of return is income plus the change in value over the opening value, which made an Orontes shareholder 19.30 per cent in 2025; it must be annualised before it is compared, averaged geometrically when it is a series lived through, and divided by one plus inflation to become a real return of 14.71 per cent. A return still to come is a distribution: the probability-weighted expectation of 8.5 per cent has a standard deviation of 10.5 points around it and a coefficient of variation of 1.24, and two projects with the same expectation are not the same project. Risk comes in two kinds, and only one is paid for: company-specific risk disappears in a portfolio and earns nothing, while market risk moves every company together and carries the whole of the premium — though a manager who cannot diversify still hedges what a shareholder would not pay to remove. Four risks are named by the syllabus and all four are visible in Orontes's statements: credit in the allowance of $156,000, currency in the imported sesame, interest rate in the $6,000,000 of debt and market in the $42,000 of trading securities. And every required return is a risk-free rate plus a premium, which is why Orontes's bank takes 6 per cent and its shareholders require 10.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P1-01  A share bought at 20.00 pays a dividend of 0.80 and is sold at 23.00. The holding period return is:
+A.	19.00 per cent
+B.	15.00 per cent
+C.	4.00 per cent
+D.	13.04 per cent
+P1-02  Returns of +50 per cent and then −40 per cent leave an investor with:
+A.	a gain of 5 per cent a year.
+B.	0.90 of each dollar invested.
+C.	1.10 of each dollar invested.
+D.	exactly what was invested.
+P1-03  Nominal return 12.0 per cent, inflation 5.0 per cent. The real return is closest to:
+A.	6.67 per cent
+B.	7.00 per cent
+C.	17.00 per cent
+D.	2.40 per cent
+P1-04  The expected return of 30 per cent at 0.3, 10 per cent at 0.4 and minus 10 per cent at 0.3 is:
+A.	10.0 per cent
+B.	13.0 per cent
+C.	30.0 per cent
+D.	3.0 per cent
+P1-05  Which is unsystematic risk?
+A.	A recession
+B.	A strike at one company's factory
+C.	A rise in the central bank's rate
+D.	A change in the corporate tax rate
+P1-06  Diversification removes:
+A.	most unsystematic risk and no systematic risk.
+B.	all risk.
+C.	systematic risk only.
+D.	neither kind.
+P1-07  A company's receivables carry:
+A.	credit risk.
+B.	interest rate risk.
+C.	foreign exchange translation risk.
+D.	no risk, because they are current assets.
+P1-08  Translation exposure arises from:
+A.	consolidating the statements of a foreign subsidiary.
+B.	a contract to buy goods in a foreign currency.
+C.	the long-run competitiveness of the business.
+D.	a domestic bank loan.
+P1-09  The coefficient of variation is used in preference to the standard deviation when:
+A.	the two investments differ in size or expected return.
+B.	the returns are equal.
+C.	the risk is systematic.
+D.	the period is longer than a year.
+P1-10  An investor who requires no compensation for bearing risk is:
+A.	risk-neutral.
+B.	risk-averse.
+C.	risk-seeking.
+D.	diversified.
+Case-style practice: two projects for Orontes
+Orontes can invest $2,000,000 in one of two projects. Project Roasting has an expected return of 12 per cent with a standard deviation of 4 points. Project Export has an expected return of 18 per cent with a standard deviation of 15 points. The company's required return on its equity is 10 per cent. The chief executive says the second project is obviously better because it earns more.
+Required. Compute the coefficient of variation for each. Say which you would recommend and why, naming the kind of risk the export project adds and whether Orontes's shareholders are compensated for it. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC1-1  Answer A. Income plus the change in value, over what was paid at the start.
+B is wrong. Dividing by the closing value answers a different question.
+C is wrong. Ignoring the income understates the return.
+D is wrong. A coupon rate is a contractual rate, not a realised return.
+SC1-2  Answer B. 1.40 × 0.70 = 0.98, so a dollar became 98 cents.
+A is wrong. That is the arithmetic mean, which nobody earned.
+C is wrong. The investor is slightly worse off.
+D is wrong. The two returns do not add.
+SC1-3  Answer A. 1.1930 ÷ 1.04 = 1.1471, a real return of 14.71 per cent.
+B is wrong. Inflation is divided out, not added.
+C is wrong. This has no basis in the figures.
+D is wrong. That is the nominal return.
+SC1-4  Answer A. Each outcome weighted by its probability.
+B is wrong. The best case is one outcome among several.
+C is wrong. The expectation is the centre, not a forecast of one year.
+D is wrong. Ignoring the middle outcome and the probabilities gives a different figure.
+SC1-5  Answer A. Spread divided by expectation.
+B is wrong. That inverts the ratio.
+C is wrong. The variance is in squared units.
+D is wrong. The square of the standard deviation is the variance.
+SC1-6  Answer A. With equal expectations, less spread is preferred.
+B is wrong. That describes a risk-seeker.
+C is wrong. Equal returns make the risk the deciding factor.
+D is wrong. Higher variance is the same as higher standard deviation.
+SC1-7  Answer A. A fire at one plant is independent of other companies.
+B is wrong. Systematic risk moves every company together.
+C is wrong. Credit risk is about a counterparty's failure to pay.
+D is wrong. It is a risk, and an insurable one.
+SC1-8  Answer A. Only non-diversifiable risk is rewarded.
+B is wrong. Unsystematic risk can be diversified away for nothing.
+C is wrong. The two are not treated alike.
+D is wrong. Systematic risk carries the whole premium.
+SC1-9  Answer A. The manager's human capital and reputation sit in one company.
+B is wrong. Both parties are reasoning correctly from different positions.
+C is wrong. Currency risk has both systematic and company-specific elements.
+D is wrong. Hedging has a cost, which is part of the point.
+SC1-10  Answer A. The allowance estimates the receivables that will not be collected.
+B is wrong. Interest rate risk concerns the price of money.
+C is wrong. The receivable here is in the company's own currency.
+D is wrong. Market risk concerns traded prices.
+SC1-11  Answer A. A contract already struck in a foreign currency is transaction exposure.
+B is wrong. Translation exposure arises on consolidating a foreign subsidiary.
+C is wrong. The exposure is real and measurable.
+D is wrong. The risk here is the rate, not the counterparty.
+SC1-12  Answer A. A risk-free rate plus a premium for the risk.
+B is wrong. The realised return is what happened, not what was required.
+C is wrong. Inflation is one component of the risk-free rate.
+D is wrong. A government coupon is close to the risk-free rate, not to a required return on a risky asset.
+SC1-13  Answer A. Aversion means requiring payment, not refusing.
+B is wrong. An investor who refused all risk would hold nothing but treasuries, which is a corner case and not the definition.
+C is wrong. Indifference is risk-neutrality.
+D is wrong. Paying for risk is risk-seeking.
+SC1-14  Answer A. One side's cost is the other side's required return.
+B is wrong. Bank debt is one component of several.
+C is wrong. The return on assets is a historical result.
+D is wrong. The cost of capital rises with the risk of the business.
+Your turn
+@table
+Item | Answer
+Holding period return | 19.00 per cent: 23.00 − 20.00 = 3.00 of price gain, plus 0.80 of dividend, and 3.80 ÷ 20.00 = 19.00 per cent.
+Real return | 6.67 per cent: 1.1200 ÷ 1.05 = 1.0667.
+Geometric mean of +50% then −40% | A loss: 1.50 × 0.60 = 0.90, so one dollar became 90 cents, about minus 5.1 per cent a year.
+Expected return | 10.0 per cent: 0.3 × 30 = 9.0, 0.4 × 10 = 4.0, and 0.3 × 10 = 3.0 in the other direction, so 9.0 + 4.0 − 3.0 = 10.0.
+Standard deviation | 15.49 points: the weighted squared deviations are 0.3 × 400 = 120, nil for the middle outcome, and 0.3 × 400 = 120, giving a variance of 240.
+Coefficient of variation | 1.549: 15.49 ÷ 10.0.
+@end
+Multiple-choice questions
+P1-01  Answer A. 3.80 ÷ 20.00 = 19.00 per cent.
+B is wrong. This omits the dividend.
+C is wrong. This is the dividend yield on cost.
+D is wrong. This divides by the selling price.
+P1-02  Answer B. 1.50 × 0.60 = 0.90.
+A is wrong. That is the arithmetic mean, which was not earned.
+C is wrong. The order of the two returns does not create a gain.
+D is wrong. The investor is 10 per cent worse off.
+P1-03  Answer A. 1.1200 ÷ 1.05 = 1.0667.
+B is wrong. That is the subtraction approximation, which is close and not exact.
+C is wrong. Inflation is divided out, not added.
+D is wrong. This has no basis in the figures.
+P1-04  Answer A. 9.0 + 4.0 − 3.0 = 10.0 per cent.
+B is wrong. This ignores the negative outcome's sign.
+C is wrong. That is the best case alone.
+D is wrong. This has no basis in the figures.
+P1-05  Answer B. A strike at one factory affects one company.
+A is wrong. A recession is systematic.
+C is wrong. A policy rate is systematic.
+D is wrong. A tax change affects every company.
+P1-06  Answer A. Company-specific risks offset each other; market risk does not.
+B is wrong. No portfolio of shares is riskless.
+C is wrong. Systematic risk is precisely what cannot be diversified.
+D is wrong. Diversification works on unsystematic risk.
+P1-07  Answer A. A receivable is a promise by a customer to pay.
+B is wrong. Interest rate risk concerns the price of money.
+C is wrong. Translation risk concerns foreign subsidiaries.
+D is wrong. Being current does not make a receivable certain.
+P1-08  Answer A. Translation exposure arises on consolidation.
+B is wrong. That is transaction exposure.
+C is wrong. That is economic exposure.
+D is wrong. A domestic loan carries no currency exposure.
+P1-09  Answer A. Scaling the spread by the return allows unlike investments to be compared.
+B is wrong. With equal returns the standard deviations can be compared directly.
+C is wrong. The coefficient is not about the source of the risk.
+D is wrong. The period does not determine which measure is used.
+P1-10  Answer A. Risk-neutral means indifferent to risk.
+B is wrong. A risk-averse investor requires compensation.
+C is wrong. A risk-seeker pays for risk.
+D is wrong. Diversification is a strategy, not an attitude to risk.
+Case-style set: two projects for Orontes
+The coefficients of variation. Project Roasting: 4 ÷ 12 = 0.33. Project Export: 15 ÷ 18 = 0.83. For each point of expected return, the export project carries about two and a half times the spread.
+The recommendation. I would take Project Roasting on these figures. Both clear the 10 per cent the shareholders require, so the question is not whether either is worth doing but which buys its return more cheaply in risk, and the roasting project does so by a wide margin. The export project's extra six points of expected return are bought with eleven extra points of standard deviation.
+The kind of risk. Most of what the export project adds is foreign exchange risk — transaction exposure on each contract, and economic exposure if a sustained move in the rate makes Orontes uncompetitive in the new market. Some of that is systematic, because currency moves with the economy, and some is specific to one trade route and one customer base.
+Whether shareholders are compensated. Only for the systematic part. The company-specific element of the export risk earns nothing in an efficient market, because a diversified shareholder has already removed it by holding other companies. That is the argument the chief executive is missing: a higher expected return is not by itself a better project, and a return bought with diversifiable risk is bought with risk nobody will pay for.
+A fuller answer would ask what the two projects do to each other. If the export project's returns move against the domestic business, the combination could be less risky than either alone, which is the subject of Chapter 2.

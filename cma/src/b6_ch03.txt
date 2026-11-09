@@ -1,0 +1,574 @@
+Chapter 3
+The term structure, inflation, and what a bond is
+هيكل أسعار الفائدة والتضخم وماهية السند
+A company that wants money has to pay the going rate for it, and there is no single going rate. There is a rate for three months and a different one for ten years, a rate for a government and a higher one for a food manufacturer, a rate quoted today and an expectation of what it will be in a year. The pattern of those rates across time is the term structure, and a treasurer who can read it borrows better than one who cannot.
+Behind the whole pattern sits inflation. A lender who expects prices to rise 3 per cent will not lend at 2, so expected inflation is built into every quoted rate, and a change in what people expect moves the price of every instrument that pays a fixed amount. This chapter sets out the structure of rates and the inflation inside them, and then describes the instrument the rest of the section is about: the bond.
+Figure F603-01 is your map.
+Figure F603-01. Chapter 3 roadmap: the shape of rates, the inflation inside them, and the anatomy of a bond.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.2.a
+Describe the term structure of interest rates and explain why it changes.
+C
+Full treatment
+B.2.p
+Explain the relationship among inflation, interest rates and the prices of financial instruments.
+C
+Full treatment
+B.2.c
+Identify the basic features of a bond: maturity, par value, coupon, redemption and conversion provisions, and covenants.
+C
+Full treatment
+B.1.c
+Place interest rate risk in the structure of rates.
+B
+Reinforced (introduced in Chapter 1)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+term structure of interest rates
+هيكل أسعار الفائدة الزمني
+structure par terme des taux
+yield curve
+منحنى العائد
+courbe des taux
+par value
+القيمة الإسمية
+valeur nominale
+coupon rate
+سعر الكوبون
+taux nominal
+yield to maturity
+العائد حتى تاريخ الاستحقاق
+taux de rendement à l'échéance
+call provision
+حق الاستدعاء
+clause de remboursement anticipé
+sinking fund
+صندوق الإطفاء
+fonds d'amortissement
+covenant
+التعهد
+clause restrictive
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 built the required-return ladder, with a risk-free rate at the bottom and a premium for every kind of risk above it. Part 1 recorded Orontes's own borrowing: $6,000,000 of long-term debt, $400,000 of it due within the year, and $390,000 of interest paid. This chapter explains why the rate on that debt is what it is, and what would change it.
+3.1  The term structure of interest rates
+Plot the yield on government securities against their maturity and the result is the yield curve. It is normally upward-sloping: a ten-year security yields more than a one-year one. It can be flat, and occasionally it inverts, with short rates above long ones.
+Three theories explain the shape, and the exam names all three.
+The expectations theory says long rates are averages of expected future short rates. If one-year money costs 4 per cent now and is expected to cost 6 per cent next year, then two-year money must cost about the same as rolling over: 1.04 × 1.06 = 1.1024, which is about 4.99 per cent a year. On this theory an upward-sloping curve means the market expects rates to rise, and an inverted curve means it expects them to fall — which is why an inversion is watched as a recession signal, since rates fall when the economy weakens.
+The liquidity preference theory adds that lenders dislike tying money up and require a premium for length, so the curve slopes upward even when no change in rates is expected. This explains why upward slopes are the normal case rather than the occasional one.
+The market segmentation theory says that borrowers and lenders have preferred maturities — a pension fund wants thirty-year assets, a company financing stock wants ninety-day money — and that rates in each segment are set by supply and demand there. On this theory the curve can take any shape at all, and a large government issue at one maturity can move that part of the curve without telling you anything about expectations.
+Figure F603-02 reads the three shapes.
+Figure F603-02. Three yield curves and what each is taken to mean
+Shape
+Short rates
+Long rates
+Usual reading
+Upward-sloping
+Lower
+Higher
+Normal: a term premium, or rates expected to rise
+Flat
+Equal
+Equal
+Rates expected to hold; a turning point
+Inverted
+Higher
+Lower
+Rates expected to fall; often a recession signal
+The curve moves for the reasons the outcome asks about. A central bank raising its policy rate lifts the short end directly. A rise in expected inflation lifts the whole curve, and the long end most. A flight to safety in a crisis pushes money into government securities and pushes long yields down. And a government borrowing heavily at one maturity lifts that segment.
+EXAM TRAP   Yield curve questions are about direction
+The exam rarely asks you to draw a curve. It asks what a stated change does to it, or what a stated shape implies.
+A curve is drawn for one credit quality, normally government. A corporate curve sits above it by the credit spread, and the spread itself widens in a downturn.
+An inverted curve is a signal, not a mechanism. It predicts nothing on its own.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+yield
+العائد
+rendement
+maturity
+تاريخ الاستحقاق
+échéance
+term premium
+علاوة الأجل
+prime de terme
+credit spread
+فارق الائتمان
+écart de crédit
+SECTION CHECK   Test yourself
+SC3-1  An upward-sloping yield curve is explained by the liquidity preference theory as:
+A.	a premium lenders require for tying money up longer.
+B.	proof that rates will rise.
+C.	evidence of a recession.
+D.	a central bank policy error.
+SC3-2  Under the expectations theory, an inverted curve means the market expects:
+A.	short rates to fall.
+B.	short rates to rise.
+C.	inflation to rise.
+D.	defaults to fall.
+SC3-3  Market segmentation theory holds that rates at each maturity are set by:
+A.	supply and demand within that maturity.
+B.	the central bank alone.
+C.	expected inflation alone.
+D.	the longest maturity available.
+Answers and explanations are at the end of the chapter.
+3.2  Inflation, interest rates and the price of an instrument
+A lender gives up money now and gets money back later. If prices rise in between, the money that comes back buys less, so the lender requires compensation for the loss before any compensation for risk. That is why every nominal interest rate contains an inflation expectation.
+The relationship is the Fisher effect, and it is multiplicative rather than additive. A lender wanting a real return of 2 per cent who expects inflation of 3 per cent requires 1.02 × 1.03 = 1.0506, that is 5.06 per cent. The approximation everybody uses, 2.0 + 3.0 = 5.0 per cent, is close at low rates and wrong by a full point at the rates of a high-inflation economy.
+Two consequences matter for the exam.
+Only expected inflation is in the rate. Inflation that was not expected transfers wealth: between a borrower and a lender at a fixed rate, unexpected inflation makes the borrower better off and the lender worse off, because the fixed payments are made in cheaper money. That is the point Book 1, Chapter 18 made about historical-cost debt ratios, reached from the other side.
+A change in the expectation moves prices now. A fixed-rate instrument promises fixed amounts. If the market's required return rises, the only thing that can adjust is the price, and it falls. If the required return falls, the price rises. This inverse relationship between rates and the price of a fixed-income instrument is the most important mechanical fact in Section B, and Chapter 4 measures it.
+WORKED EXAMPLE   Worked example: one bond, three interest rate environments
+Step 1. The bond. A five-year bond with a par value of $1,000 and a 6 per cent annual coupon pays $60 a year and $1,000 at the end.
+Step 2. Rates equal the coupon. If the market requires 6 per cent, the promised payments are worth exactly what the bond promises to repay and the bond trades at par, $1,000.
+Step 3. Rates rise. If the market now requires 7 per cent, nobody will pay $1,000 for a 6 per cent coupon when a new bond pays 7. The price falls until the total return matches: a little under $960 on these terms, and the bond trades at a discount.
+Step 4. Rates fall. If the market requires 5 per cent, the 6 per cent coupon is worth having and the price rises above par, to a little over $1,040. The bond trades at a premium.
+Check. Nothing about the issuer changed in any of the three cases. The coupon is fixed, the maturity is fixed, and the price did all the moving. The yield to maturity — the rate that makes the promised payments worth the market price — is 6, 7 and 5 per cent in the three cases, and it is the number a buyer actually earns.
+Figure F603-03 collects the three.
+Figure F603-03. Price, coupon and the market rate
+Market required return
+Price against par
+Called
+Coupon rate against yield
+Below the coupon rate
+Above par
+A premium bond
+Coupon higher than yield
+Equal to the coupon rate
+At par
+A par bond
+Coupon equals yield
+Above the coupon rate
+Below par
+A discount bond
+Coupon lower than yield
+Inflation reaches shares as well, and less predictably. A company whose prices rise with inflation passes the cost on and its nominal earnings grow; one locked into fixed selling prices does not. Higher nominal rates also raise the discount rate applied to those earnings, which lowers the value of a given stream. Which effect dominates is an empirical question and the exam treats shares as a partial inflation hedge: better than a fixed-rate bond, worse than an asset whose price moves with the price level directly.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Fisher effect
+أثر فيشر
+effet Fisher
+nominal rate
+المعدل الإسمي
+taux nominal
+unexpected inflation
+التضخم غير المتوقع
+inflation non anticipée
+inflation hedge
+التحوط ضد التضخم
+protection contre l'inflation
+SECTION CHECK   Test yourself
+SC3-4  A lender requiring a real return of 2 per cent who expects inflation of 3 per cent requires a nominal rate of about:
+A.	5.06 per cent
+B.	1.00 per cent
+C.	6.00 per cent
+D.	0.67 per cent
+SC3-5  Unexpected inflation, at a fixed rate of interest:
+A.	benefits the borrower and harms the lender.
+B.	benefits the lender and harms the borrower.
+C.	benefits neither.
+D.	changes the coupon rate.
+SC3-6  Market rates rise. The price of an existing fixed-coupon bond:
+A.	falls.
+B.	rises.
+C.	is unchanged.
+D.	depends on the issuer's profit.
+Answers and explanations are at the end of the chapter.
+3.3  What a bond is
+A bond is a contract to pay stated amounts on stated dates. Everything else about it is a feature, and the exam asks for the features by name.
+Par value, also called face value or principal, is the amount repaid at maturity and the base on which the coupon is computed. The convention is $1,000 in the United States.
+Maturity is the date the principal is repaid. Short-term paper runs to a year, notes to about ten, bonds beyond that; the terms overlap and the exam uses whatever the question says.
+The coupon rate is the annual interest as a percentage of par. A 6 per cent coupon on a $1,000 bond pays $60 a year, usually in two instalments of $30. A zero-coupon bond pays nothing until maturity and is sold at a deep discount, so the whole return is the rise to par. A floating-rate note resets its coupon periodically against a reference rate, which removes most of the price risk and gives the holder rate risk instead.
+Redemption provisions say how and when the principal comes back. A call provision lets the issuer repay early, normally at a stated premium above par, and it is valuable to the issuer and costly to the holder: the issuer will call when rates have fallen, which is exactly when the holder would rather keep the bond. A put provision is the mirror image, letting the holder demand early repayment. A sinking fund requires the issuer to retire part of the issue each year, which reduces the risk of a single large repayment and is usually welcomed by holders. Serial bonds mature in instalments by design.
+Conversion provisions let the holder exchange the bond for a fixed number of shares. The option is worth something, so a convertible carries a lower coupon than the same company's ordinary debt, and Chapter 7 prices what the issuer gives away.
+Covenants are promises in the indenture, which is the contract between the issuer and the trustee acting for the holders. Affirmative covenants require the issuer to do something: maintain insurance, supply audited statements, keep a current ratio above a stated figure. Negative covenants forbid something: further borrowing beyond a stated debt-to-equity ratio, the sale of major assets, dividends beyond a limit. Book 1 met one of these when Barada breached a debt-to-equity covenant at 1.50 and the bank waived it.
+Security ranks the claim. A mortgage bond is secured on named property; a debenture is unsecured and relies on the general credit of the issuer; subordinated debt stands behind other debt in a liquidation. The weaker the claim, the higher the coupon.
+Figure F603-04 collects the features.
+Figure F603-04. The anatomy of a bond
+Feature
+What it fixes
+Who it favours
+Effect on the coupon demanded
+Par value and maturity
+How much comes back, and when
+Neutral
+Longer maturity, higher rate
+Coupon rate
+The periodic payment
+Neutral
+The price adjusts if it is wrong
+Call provision
+Early repayment at the issuer's choice
+The issuer
+Higher
+Put provision
+Early repayment at the holder's choice
+The holder
+Lower
+Sinking fund
+Gradual retirement of the issue
+The holder
+Lower
+Conversion
+Exchange into shares
+The holder
+Much lower
+Covenants
+What the issuer may and may not do
+The holder
+Lower
+Security
+Rank in a liquidation
+The holder, if secured
+Lower if secured
+EXAM TRAP   Coupon rate is not yield
+The coupon rate is fixed at issue and never changes. The current yield is the coupon over the current price. The yield to maturity is the return earned by a buyer holding to maturity, and it is the one that answers "what does this bond pay now".
+A call provision raises the coupon the issuer must offer, because it takes something from the holder. A sinking fund and a conversion right lower it, because they give something.
+A bond trading at a discount has a yield above its coupon rate; at a premium, below.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+indenture
+عقد الإصدار
+contrat d'émission
+debenture
+سند غير مضمون
+obligation non garantie
+subordinated debt
+الدين المساند
+dette subordonnée
+zero-coupon bond
+سند بدون كوبون
+obligation à coupon zéro
+SECTION CHECK   Test yourself
+SC3-7  A call provision is valuable to:
+A.	the issuer, who will call when rates have fallen.
+B.	the holder, who can demand repayment.
+C.	neither party.
+D.	the trustee.
+SC3-8  Which feature lowers the coupon an issuer must offer?
+A.	A conversion right
+B.	A call provision
+C.	Subordination
+D.	A longer maturity
+SC3-9  A covenant requiring the issuer to keep its current ratio above 1.5 is:
+A.	an affirmative covenant.
+B.	a negative covenant.
+C.	a call provision.
+D.	a sinking fund.
+Answers and explanations are at the end of the chapter.
+3.4  Three yields, and the one that matters
+A bond quoted at $950 with a 6 per cent coupon and five years to run has three rates attached to it, and the exam will use all three in one question.
+The coupon rate is 6 per cent, fixed at issue on the par value. It tells you the cash payment, $60 a year, and nothing about what a buyer earns.
+The current yield is the coupon over the market price: 60 ÷ 950 = 6.32 per cent. It is a quick measure of the cash return and it ignores the $50 the holder will gain when $1,000 is repaid.
+The yield to maturity is the rate that makes all the promised payments worth exactly $950 today. It is found properly by trial or by a calculator, and the exam accepts a standard approximation: the annual coupon plus the annual amortisation of the discount, over the average of par and price. Here the discount is 1,000 − 950 = 50 spread over five years, which is 10 a year, so the numerator is 60 + 10 = 70; the average of par and price is 975; and the yield is 70 ÷ 975 = 7.18 per cent.
+So the same bond pays 6, 6.32 or 7.18 per cent depending on which question is being asked, and only the last is the return a buyer earns by holding to maturity.
+Two more yields appear in questions on callable bonds. The yield to call computes the same thing to the call date at the call price, and the prudent figure to quote on a callable bond trading above par is the lower of yield to maturity and yield to call. The realised yield assumes a sale before maturity at an assumed price.
+Figure F603-05 sets out the four.
+Figure F603-05. Four yields on one bond
+Measure
+What it divides
+On this bond
+What it ignores
+Coupon rate
+Coupon over par
+6.00%
+The market price entirely
+Current yield
+Coupon over price
+6.32%
+The gain to par at maturity
+Yield to maturity
+All payments over price
+7.18%
+Reinvestment risk
+Yield to call
+Payments to the call date
+Depends on the call terms
+What happens if it is not called
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+current yield
+العائد الجاري
+rendement courant
+yield to call
+العائد حتى الاستدعاء
+rendement au premier remboursement
+discount
+الخصم على القيمة الإسمية
+décote
+premium
+العلاوة على القيمة الإسمية
+prime
+SECTION CHECK   Test yourself
+SC3-10  A $1,000 bond with a 6 per cent coupon trading at $950 has a current yield of:
+A.	6.32 per cent
+B.	6.00 per cent
+C.	7.18 per cent
+D.	5.70 per cent
+SC3-11  The yield to maturity of a bond trading at a discount is:
+A.	above its coupon rate.
+B.	below its coupon rate.
+C.	equal to its coupon rate.
+D.	equal to its current yield.
+Answers and explanations are at the end of the chapter.
+3.5  Reading the structure as a borrower
+Everything above is written from the lender's side. Turn it round, because a candidate works for the issuer.
+The maturity choice is the first decision, and it is a trade-off the exam states as a rule. Borrowing short is usually cheaper, because the curve usually slopes upward, and it exposes the company to refinancing at whatever rate prevails when the loan falls due. Borrowing long costs more and fixes the cost. The maturity-matching principle — which Chapter 18 of this book develops for working capital — says to fund long-lived assets with long-dated money and short-lived assets with short-dated money, so that a refinancing never arrives before the asset has paid for itself.
+Orontes's own position reads cleanly against that rule. It carries $6,000,000 of long-term debt against $14,802,000 of net property, plant and equipment, with only $400,000 falling due within the year, and it has $7,302,100 of cash. Its plant is funded long, its working capital is funded by suppliers and by its own cash, and its refinancing risk in any one year is small. Book 1 called the maturity profile gentle; this is what gentle means.
+The second decision is fixed against floating. Fixed-rate debt makes the cost certain and the value of the liability move with rates. Floating-rate debt keeps the value near par and makes the cost uncertain. A company whose revenue rises with inflation can carry floating-rate debt more comfortably than one whose revenue is contractually fixed, because its receipts and its payments move together.
+The third decision is what to give away. Every feature in section 3.3 that favours the holder lowers the coupon, and every feature that favours the issuer raises it. A company that wants the right to refinance cheaply pays for it in the coupon from the first day; a company that accepts tight covenants is paid for them in the same way, and then has to live inside them. Barada, whose covenant at 1.50 was already breached when it wanted to borrow, is the illustration of what living inside them means.
+YOUR TURN   Read the curve and the bond
+Figure F603-06 gives a yield curve and a bond. Complete the blanks. Answers are at the end of the chapter.
+Figure F603-06. Your turn: rates and a bond (complete the blanks)
+Item
+Data
+Answer
+One-year government yield
+3.0%
+n/a
+Ten-year government yield
+5.0%
+n/a
+Shape of the curve
+________
+Orontes's ten-year borrowing cost, at a 2-point credit spread
+________
+Nominal rate wanted
+Real 2.5%, expected inflation 4.0%
+________
+A bond's current yield
+7% coupon, $1,000 par, priced at $875
+________
+Its approximate yield to maturity
+Four years to run
+________
+LANGUAGE FOCUS   "Security"
+English security in finance means two unrelated things. A security is a tradable financial instrument — a share, a bond, a bill. Security, uncountable, is the collateral a lender takes. A secured bond is therefore a security with security, and the sentence is not a joke but a standard description. Arabic separates them cleanly: ورقة مالية for the instrument and ضمان for the collateral. French does the same: titre for the instrument, sûreté or garantie for the collateral, and note that sécurité means safety in the everyday sense and never collateral. The exam uses both English senses freely, and the one meant is always clear from whether the word takes an article.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+refinancing risk
+مخاطر إعادة التمويل
+risque de refinancement
+maturity matching
+مطابقة الآجال
+adossement des échéances
+floating rate
+سعر متغير
+taux variable
+collateral
+الضمانة
+garantie
+SECTION CHECK   Test yourself
+SC3-12  The maturity-matching principle says to fund:
+A.	long-lived assets with long-dated money.
+B.	all assets with short-term debt.
+C.	all assets with equity.
+D.	inventory with ten-year bonds.
+SC3-13  A company borrowing short on an upward-sloping curve:
+A.	pays less now and carries refinancing risk.
+B.	pays more now and carries no risk.
+C.	fixes its cost for the life of the asset.
+D.	avoids interest rate risk entirely.
+SC3-14  Accepting tighter covenants:
+A.	lowers the coupon the issuer must offer.
+B.	raises the coupon.
+C.	has no effect on the coupon.
+D.	is prohibited for listed companies.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F603-07 brings the chapter together.
+Figure F603-07. Chapter 3 summary map: the key rule for each section.
+The term structure is the pattern of yields across maturities, normally upward-sloping, and three theories explain it: expectations, which reads an inverted curve as a forecast of falling rates; liquidity preference, which adds a premium for length and explains why upward is the normal case; and segmentation, which lets supply and demand at each maturity set the rate there. Inside every nominal rate sits expected inflation, multiplicatively: 1.02 × 1.03 = 1.0506, so a 2 per cent real return against 3 per cent inflation needs 5.06 per cent — and because a bond's payments are fixed, a change in the required return moves the price instead, down when rates rise and up when they fall. A bond is a contract described by its par value, maturity and coupon, and modified by call, put, sinking-fund and conversion provisions, by covenants in its indenture and by its security, each of which raises or lowers the coupon according to which side it favours. The same bond has three yields — 6.00 per cent coupon, 60 ÷ 950 = 6.32 per cent current, and 70 ÷ 975 = 7.18 per cent to maturity — and only the last is what a buyer earns. And from the issuer's side the structure is three decisions: how long to borrow, fixed or floating, and what to give away in features, which is why Orontes's $6,000,000 of long-term debt against $14,802,000 of plant reads as a gentle profile and Barada's breached covenant does not.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P3-01  The usual shape of the yield curve is:
+A.	upward-sloping.
+B.	inverted.
+C.	flat.
+D.	U-shaped.
+P3-02  Under the expectations theory, an upward-sloping curve means the market expects short rates to:
+A.	rise.
+B.	fall.
+C.	hold.
+D.	become negative.
+P3-03  The liquidity preference theory explains the upward slope as:
+A.	a premium for tying money up for longer.
+B.	a forecast of inflation.
+C.	government issuance.
+D.	a segmented market.
+P3-04  A real return of 2.5 per cent with expected inflation of 4.0 per cent requires a nominal rate of about:
+A.	6.6 per cent
+B.	6.5 per cent
+C.	1.5 per cent
+D.	10.0 per cent
+P3-05  Market rates fall below a bond's coupon rate. The bond trades:
+A.	at a premium.
+B.	at a discount.
+C.	at par.
+D.	at its call price.
+P3-06  Which provision allows the ISSUER to repay early?
+A.	A call provision
+B.	A put provision
+C.	A conversion provision
+D.	A sinking fund
+P3-07  A negative covenant:
+A.	forbids the issuer from doing something, such as borrowing beyond a limit.
+B.	requires the issuer to supply audited statements.
+C.	sets the coupon rate.
+D.	applies only to government bonds.
+P3-08  A 7 per cent coupon bond with a par value of 1,000 priced at 875 has a current yield of:
+A.	8.00 per cent
+B.	7.00 per cent
+C.	6.13 per cent
+D.	11.43 per cent
+P3-09  The yield to maturity of a bond trading at a premium is:
+A.	below its coupon rate.
+B.	above its coupon rate.
+C.	equal to its current yield.
+D.	not computable.
+P3-10  Maturity matching means funding:
+A.	long-lived assets with long-dated money and short-lived assets with short-dated money.
+B.	everything with equity.
+C.	everything with overdrafts.
+D.	inventory with thirty-year bonds.
+Case-style practice: Orontes refinances
+Orontes's $6,000,000 of long-term debt carries a fixed 6.5 per cent coupon and matures in four years. The one-year government yield is 3.0 per cent and the ten-year is 5.0 per cent; Orontes borrows at about two points above the government curve. The treasurer proposes repaying the bond early and refinancing with a one-year facility rolled over annually, saving about 1.5 points of interest a year.
+Required. Compute the approximate annual saving and the two rates being compared. Say whether you would accept the proposal, naming the risks it creates and one feature of the existing bond you would check first. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC3-1  Answer A. Liquidity preference is a term premium for length.
+B is wrong. That is the expectations theory.
+C is wrong. A recession signal is an inverted curve, not an upward one.
+D is wrong. Policy affects the short end; the slope has its own explanation.
+SC3-2  Answer A. Long rates below short rates imply expected falls.
+B is wrong. Expected rises produce an upward slope.
+C is wrong. Rising inflation expectations lift the long end.
+D is wrong. Default expectations affect spreads, not the government curve.
+SC3-3  Answer A. Each maturity has its own supply and demand.
+B is wrong. The central bank sets the very short end only.
+C is wrong. That is closer to the expectations theory.
+D is wrong. Segmentation means maturities are not linked in that way.
+SC3-4  Answer A. 1.02 × 1.03 = 1.0506.
+B is wrong. This subtracts inflation instead of adding it.
+C is wrong. This has no basis in the figures.
+D is wrong. This divides the real rate by inflation.
+SC3-5  Answer A. The fixed payments are made in cheaper money.
+B is wrong. The lender receives the cheaper money.
+C is wrong. The transfer is real in both directions.
+D is wrong. A fixed coupon does not change.
+SC3-6  Answer A. The payments are fixed, so the price adjusts downwards.
+B is wrong. Prices and rates move in opposite directions.
+C is wrong. Something must adjust, and it is the price.
+D is wrong. The issuer's profit affects the credit spread, not this mechanism.
+SC3-7  Answer A. The issuer calls when it can refinance more cheaply.
+B is wrong. That describes a put provision.
+C is wrong. The option has value to one side.
+D is wrong. The trustee acts for the holders and holds no option.
+SC3-8  Answer A. A conversion right is valuable to the holder, so the coupon can be lower.
+B is wrong. A call provision takes value from the holder, so the coupon is higher.
+C is wrong. Subordination weakens the claim and raises the coupon.
+D is wrong. A longer maturity usually raises the rate.
+SC3-9  Answer A. It requires the issuer to maintain something.
+B is wrong. A negative covenant forbids an action.
+C is wrong. A call provision concerns repayment.
+D is wrong. A sinking fund concerns retirement of the issue.
+SC3-10  Answer A. 60 ÷ 950 = 6.32 per cent.
+B is wrong. That is the coupon rate on par.
+C is wrong. 7.18 per cent is the approximate yield to maturity.
+D is wrong. This divides the coupon by par and then by something else.
+SC3-11  Answer A. The buyer also gains the rise to par, so the yield exceeds the coupon.
+B is wrong. That is the premium case.
+C is wrong. They are equal only at par.
+D is wrong. The current yield ignores the gain to par.
+SC3-12  Answer A. Fund long assets with long money.
+B is wrong. That is the aggressive approach and it maximises refinancing risk.
+C is wrong. Equity funding of everything is possible and expensive.
+D is wrong. Funding stock with thirty-year money is the opposite error.
+SC3-13  Answer A. Short money is cheaper on an upward curve and must be refinanced.
+B is wrong. Short borrowing is the cheaper of the two.
+C is wrong. Fixing the cost requires long-dated money.
+D is wrong. Refinancing is precisely interest rate risk.
+SC3-14  Answer A. Covenants protect holders, so they accept a lower coupon.
+B is wrong. The direction is the opposite.
+C is wrong. Every feature prices into the coupon.
+D is wrong. Covenants are standard in listed debt.
+Your turn
+Item
+Answer
+Shape of the curve
+Upward-sloping: the ten-year yield of 5.0 per cent is two points above the one-year 3.0 per cent.
+Orontes's ten-year borrowing cost
+About 7.0 per cent: 5.0 + 2.0 = 7.0.
+Nominal rate wanted
+6.6 per cent: 1.025 × 1.04 = 1.066.
+Current yield
+8.00 per cent: 70 ÷ 875 = 8.00 per cent.
+Approximate yield to maturity
+About 10.8 per cent: the discount is 1,000 − 875 = 125 over four years, which is 31.25 a year, so the numerator is 70 + 31.25 = 101.25 and the average of par and price is 937.50, giving 101.25 ÷ 937.50 = 10.80 per cent.
+What it tells you
+The bond's 7 per cent coupon says almost nothing about what a buyer earns. At $875 the buyer earns about 10.8 per cent, which is three points above the coupon and a point above what the curve plus a credit spread would suggest — so either the market thinks this issuer is riskier than a two-point spread, or the bond is cheap.
+Multiple-choice questions
+P3-01  Answer A. Upward-sloping is the normal case.
+B is wrong. Inversions are occasional.
+C is wrong. Flat curves occur at turning points.
+D is wrong. A U-shape is not a standard description.
+P3-02  Answer A. Long rates above short rates imply expected rises.
+B is wrong. Expected falls invert the curve.
+C is wrong. A flat curve implies holding.
+D is wrong. Nothing in the slope implies negative rates.
+P3-03  Answer A. Lenders require a premium for length.
+B is wrong. Inflation forecasts belong to the expectations theory.
+C is wrong. Issuance belongs to segmentation.
+D is wrong. Segmentation is a separate theory.
+P3-04  Answer A. 1.025 × 1.04 = 1.066.
+B is wrong. That is the addition approximation, which is close and not exact.
+C is wrong. This subtracts inflation.
+D is wrong. This has no basis in the figures.
+P3-05  Answer A. A coupon above the market rate is worth paying for.
+B is wrong. Discounts arise when rates rise above the coupon.
+C is wrong. Par requires the two to be equal.
+D is wrong. The call price applies only if the bond is called.
+P3-06  Answer A. The call is the issuer's option.
+B is wrong. A put is the holder's option.
+C is wrong. Conversion exchanges the bond for shares.
+D is wrong. A sinking fund retires the issue gradually by agreement.
+P3-07  Answer A. Negative covenants forbid.
+B is wrong. That is an affirmative covenant.
+C is wrong. The coupon is set at issue.
+D is wrong. Government bonds rarely carry covenants of this kind.
+P3-08  Answer A. 70 ÷ 875 = 8.00 per cent.
+B is wrong. That is the coupon on par.
+C is wrong. This divides by a figure above par.
+D is wrong. This divides par by the price.
+P3-09  Answer A. The buyer pays above par and receives par, so the yield is below the coupon.
+B is wrong. That is the discount case.
+C is wrong. They differ unless the bond is at par.
+D is wrong. It is computable in the ordinary way.
+P3-10  Answer A. Match the life of the asset to the life of the money.
+B is wrong. Equity funding is not matching.
+C is wrong. Overdraft funding of long assets is the aggressive extreme.
+D is wrong. That reverses the principle.
+Case-style set: Orontes refinances
+The two rates. The existing bond costs 6.5 per cent fixed for four more years. One-year money at two points above a 3.0 per cent government yield costs 3.0 + 2.0 = 5.0 per cent today. The saving is 1.5 points on $6,000,000, which is 6,000,000 × 0.015 = 90,000 a year before any costs of the change.
+The recommendation. I would not accept it as proposed. The saving is real and it is the price of three risks the proposal does not mention.
+The first is refinancing risk. The company would be committing to borrow again in twelve months at whatever rate exists then. The curve itself says the market expects short rates to rise — two points between one year and ten — so on the market's own expectations the saving shrinks and may reverse within the four years.
+The second is renewal risk, which is worse than rate risk. A one-year facility has to be granted again, and a bank's willingness depends on the company's condition at that date. Book 1 found a gross margin falling a point a year; a lender reading that in two years' time may renew on tighter terms, or at a smaller amount, or not at all.
+The third is maturity mismatch. The debt funds plant with a long life, and the proposal would fund it with money that has to be found again every year.
+The feature I would check first is the call provision. If the bond is not callable, the proposal cannot be executed at all without negotiating a redemption with the holders, which normally costs a premium — and that premium, spread over four years, can consume the whole $90,000 saving.
