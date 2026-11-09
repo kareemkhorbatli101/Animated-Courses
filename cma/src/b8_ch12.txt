@@ -1,0 +1,541 @@
+Chapter 12
+Business ethics, and the shapes fraud takes
+أخلاقيات الأعمال وأشكال الاحتيال
+The second half of this book changes subject. Chapters 1 to 11 were about things that might happen to a company. The remaining chapters are about what the people inside it do — which is a risk in exactly the sense Chapter 1 defined, and the only one where the management accountant is not merely an adviser but a participant with obligations of their own.
+This chapter lays the foundation. It defines business ethics, works through the four concepts the syllabus names — fairness, integrity, due diligence and fiduciary responsibility — and then catalogues the forms business fraud takes, which is both an ethics topic and a control topic, because every fraud in the list is also a failure of something in Chapter 7.
+Figure F812-01 is your map.
+Figure F812-01. Chapter 12 roadmap: what ethics is, the four concepts, and the shapes fraud takes.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+F.1.a
+Define business ethics.
+C
+Full treatment
+F.1.b
+Define fairness, integrity, due diligence and fiduciary responsibility, and how they affect ethical decision making.
+C
+Full treatment
+F.1.c
+Identify and explain the types of business fraud, including asset misappropriation, manipulation of financial statements, cash and inventory theft, payroll fraud, fake suppliers and accounts receivable fraud.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section F outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+business ethics
+أخلاقيات الأعمال
+éthique des affaires
+fairness
+الإنصاف
+équité
+integrity
+النزاهة
+intégrité
+due diligence
+العناية الواجبة
+diligence raisonnable
+fiduciary responsibility
+المسؤولية الائتمانية
+responsabilité fiduciaire
+asset misappropriation
+اختلاس الأصول
+détournement d'actifs
+financial statement fraud
+التلاعب بالقوائم المالية
+fraude comptable
+payroll fraud
+احتيال الرواتب
+fraude à la paie
+fictitious supplier
+المورد الوهمي
+fournisseur fictif
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 put deliberate wrongdoing among the people sources of operational risk. Chapter 7 built the controls — segregation of duties, three-way matching, supplier master file discipline, mandatory leave — that address it. Book 1's Chapter 17 examined earnings quality, which is where financial statement fraud shows up in the numbers. This chapter supplies the conduct those controls are about.
+12.1  What business ethics is
+Business ethics is the application of moral principles and standards of conduct to the decisions and behaviour of organisations and the people in them. It asks what ought to be done, where law asks what must be done and economics asks what pays.
+Four points of definition carry the weight in this syllabus.
+It concerns conduct, not sentiment. Ethics is about what is done, not about how anybody feels, and an ethical company is one whose decisions are consistently defensible, not one whose values statement is well written.
+It is not the same as legality, and Chapter 15 develops the distinction: much that is legal is unethical, and the gap between the two is where most professional dilemmas live.
+It applies to the organisation and to the individual separately. A company has obligations, and so does each professional inside it, and the Statement of Ethical Professional Practice in Chapter 13 binds the individual regardless of what the organisation does.
+And it concerns everybody affected by a decision, not only its shareholders. Customers, employees, suppliers, lenders, communities and regulators all have interests, and ethical reasoning means weighing them rather than assuming one of them always wins.
+Three approaches to deciding appear in exam answers and are worth having.
+Consequences. Which action produces the best overall outcome for everybody affected. Its strength is practicality; its weakness is that it permits harm to a few for the benefit of many and that consequences are forecast rather than known.
+Duties and rights. Some things are owed regardless of outcome: tell the truth, keep agreements, respect the rights of others. Its strength is that it does not negotiate; its weakness is that duties conflict.
+Character and virtue. What a person of integrity would do, and what the decision makes of the person who takes it. Its strength is that it describes how people actually decide; its weakness is that it gives little guidance in a genuinely new situation.
+A practical answer uses all three as tests rather than choosing between them, and adds a fourth that is more useful than any of them in an exam: would this decision survive publication? If an action could not be explained to the people affected, or would be indefensible on the front page of a newspaper, that is strong evidence about it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+moral principle
+المبدأ الأخلاقي
+principe moral
+stakeholder
+صاحب المصلحة
+partie prenante
+consequentialism
+مذهب النتائج
+conséquentialisme
+publicity test
+اختبار العلانية
+test de publicité
+SECTION CHECK   Test yourself
+SC12-1  Business ethics asks:
+A.	what ought to be done.
+B.	what must be done by law.
+C.	what is most profitable.
+D.	what is customary.
+SC12-2  An ethical company is best described as one whose:
+A.	decisions are consistently defensible.
+B.	values statement is well written.
+C.	profits are modest.
+D.	staff feel good about their work.
+SC12-3  The publicity test asks whether a decision:
+A.	could be explained to the people it affects.
+B.	is legal.
+C.	is profitable.
+D.	is customary in the industry.
+Answers and explanations are at the end of the chapter.
+12.2  Fairness and integrity
+The outcome names four concepts and asks what each means and how it affects decisions. Two of them are about the character of a decision and two about the care taken over it.
+Fairness is treating like cases alike, and treating people according to standards they could accept if they knew them. It has three dimensions the exam uses.
+Fairness of outcome: whether the distribution of benefit and burden is defensible. A supplier squeezed on payment terms because it cannot afford to argue is being treated unfairly in outcome, whatever the contract allows.
+Fairness of process: whether the decision was made by a method that treats everybody consistently, with the same information and the same opportunity to be heard. A tender awarded on criteria that were changed after bids were received is unfair in process even if the winner was the best bidder.
+Fairness of treatment: whether people are dealt with honestly and with respect — told the truth, told in time, not misled by omission.
+In practice fairness bites hardest where a company has power: over a small supplier, over a customer who cannot evaluate what is being sold, over an employee who cannot easily leave. The test is not whether the other party agreed; it is whether they agreed on terms they understood and could have refused.
+Integrity is wholeness — acting on the same principles consistently, whether or not anybody is watching, and whether or not it is convenient. For a management accountant it has four practical components.
+Honesty in what is reported, including what is omitted. A technically true figure presented so as to mislead is a breach of integrity, and Book 1's Chapter 17 showed how much can be done without telling a single lie.
+Avoiding conflicts of interest, and disclosing those that cannot be avoided. The conflict is the problem, not the wrongdoing it might lead to, and the obligation arises before anything has gone wrong.
+Refusing to do indirectly what may not be done directly — which covers the request to leave something out, to delay a recognition, to book an entry somebody else will reverse.
+And consistency between what is said and what is done, which is the component other people actually observe and the one on which a finance function's credibility rests.
+Integrity's practical difficulty is that it is tested in small matters long before it is tested in large ones. Nobody is asked to commit a fraud on their first day; they are asked to accept an expense claim they know is wrong, to describe a provision in a way that is technically defensible, to leave a sentence out of a paper. Chapter 14's fraud triangle explains what happens next.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+procedural fairness
+الإنصاف الإجرائي
+équité procédurale
+conflict of interest
+تضارب المصالح
+conflit d'intérêts
+misleading by omission
+التضليل بالإغفال
+tromperie par omission
+consistency
+الاتساق
+cohérence
+SECTION CHECK   Test yourself
+SC12-4  A tender awarded on criteria changed after bids were received breaches:
+A.	fairness of process.
+B.	fiduciary responsibility.
+C.	due diligence.
+D.	nothing, if the best bidder won.
+SC12-5  A technically true figure presented so as to mislead:
+A.	breaches integrity.
+B.	is acceptable if no rule is broken.
+C.	is a due diligence failure.
+D.	is a fairness issue only.
+SC12-6  A conflict of interest must be disclosed:
+A.	when it arises, before anything has gone wrong.
+B.	only if a loss results.
+C.	only at the year end.
+D.	only if a rule requires it.
+Answers and explanations are at the end of the chapter.
+12.3  Due diligence and fiduciary responsibility
+Due diligence is the care a reasonable and competent person would take before acting — the obligation to find out, rather than to assume, before committing the organisation or signing something.
+It has a general sense and a specific one, and the exam uses both.
+In its general sense, due diligence is the standard of care in any professional act: checking the figures before certifying them, understanding a contract before recommending it, verifying a counterparty before relying on it, reading the file before giving the advice. Its breach is negligence rather than dishonesty, which is why it is the obligation professionals most often fail without noticing.
+In its specific sense it is the investigation of a target before an acquisition — the work Book 3's Chapter 18 assumed had been done when it valued Ghab Mills: financial due diligence on the numbers, legal on the contracts and liabilities, commercial on the market and customers, operational on the assets and processes, and increasingly ethical due diligence on conduct, sanctions and bribery exposure.
+Three ethical dimensions of due diligence are examinable.
+It is owed even where the answer is unwelcome. Due diligence performed to confirm a decision already taken is not due diligence; it is documentation.
+Its scope must match the stakes. Reasonable care on a 10,000 contract is not reasonable care on a 10,000,000 one.
+And a professional who cannot complete it must say so, rather than signing with an unspoken reservation.
+Fiduciary responsibility is the duty owed by someone who acts for another and is trusted with their interests or their property. Directors owe it to the company; trustees to beneficiaries; agents to principals; and a finance professional with authority over funds or information is in a fiduciary position whether or not the word appears anywhere in their contract.
+Its content is specific and worth learning as a list.
+The duty of loyalty: to act in the beneficiary's interest and not one's own, which is why self-dealing, taking a corporate opportunity for oneself, and undisclosed benefits from suppliers are breaches of a different order from ordinary misconduct.
+The duty of care: to act with the competence and diligence of section 12.3's first half.
+The duty of good faith: to act honestly and for the purpose for which the authority was given.
+The duty of confidentiality: not to use or disclose information obtained in the role for any other purpose — which Chapter 13 makes one of the four IMA standards.
+And the duty to account: to be able to show what was done with what was entrusted, which is the ethical foundation of the entire discipline of accounting.
+A fiduciary duty is stricter than an ordinary commercial obligation in one specific way the exam likes: the fiduciary must avoid even the possibility of a conflict, and good intentions are not a defence. It is no answer that the transaction was fair, or that the company did not lose; what is objected to is acting for oneself in a matter where one was acting for another.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+duty of loyalty
+واجب الولاء
+devoir de loyauté
+self-dealing
+التعامل الذاتي
+opération avec soi-même
+corporate opportunity
+الفرصة المملوكة للشركة
+opportunité d'affaires
+duty to account
+واجب تقديم الحساب
+obligation de rendre compte
+SECTION CHECK   Test yourself
+SC12-7  Due diligence performed to confirm a decision already taken is:
+A.	documentation rather than due diligence.
+B.	sufficient if it is complete.
+C.	a fiduciary duty.
+D.	required by the standards.
+SC12-8  The duty of loyalty prohibits:
+A.	acting in one's own interest in a matter where one acts for another.
+B.	taking any risk.
+C.	disclosing information to the board.
+D.	resigning.
+SC12-9  A fiduciary who took a corporate opportunity but caused the company no loss:
+A.	has still breached the duty of loyalty.
+B.	has done nothing wrong.
+C.	has breached due diligence only.
+D.	must simply disclose it afterwards.
+Answers and explanations are at the end of the chapter.
+12.4  The shapes fraud takes
+Fraud is deception for gain. The outcome asks for the types of business fraud, and the standard classification has three branches, of which the syllabus's list is the detail.
+Asset misappropriation is the theft or misuse of the organisation's assets. It is by far the most common branch — the great majority of occupational frauds — and usually the smallest in individual value, though not in total. Its forms include the following.
+Cash theft. Skimming, where cash is taken before it is recorded, which leaves no accounting trace at all and is therefore the hardest to detect; larceny, where recorded cash is taken afterwards, which does leave a trace; and fraudulent disbursements, where the company is made to pay out money improperly.
+Inventory and other asset theft. Product taken from the warehouse or in transit; raw material written off as waste and sold; equipment removed; misuse of assets rather than outright theft, such as using company vehicles or facilities for private business. For a food producer, shrinkage is a continuing cost: 1.5 per cent of Orontes's $2,450,000 of stock is 2,450,000 × 0.015 = 36,750 a year, and distinguishing theft from spoilage and from miscounting is itself a control problem.
+Payroll fraud. Ghost employees kept on the payroll by whoever controls both the records and the payments; falsified hours or overtime; inflated commissions; and expense reimbursement fraud, which is the most widespread and most tolerated of all — fictitious expenses, overstated amounts, personal costs claimed as business, and the same receipt claimed twice.
+Fictitious suppliers. An employee creates a supplier that exists only in the master file, with bank details they control, and approves invoices to it for services nobody can verify. Chapter 7's three controls — restricted master file access, verification of bank details to a number held on file, and a review of new suppliers against the employee address file — exist precisely for this. The sums are rarely dramatic individually: eighteen invoices averaging 14,500 is 18 × 14,500 = 261,000, spread across two years and buried in professional fees.
+Accounts receivable fraud. Lapping, in which a receipt from one customer is used to cover a balance previously stolen from another, and the gap is rolled forward indefinitely; writing off a live balance as uncollectible after taking the payment; issuing false credit notes; and diverting payments to an account the employee controls.
+Financial statement fraud is the deliberate misstatement of reported results. It is the least common branch and by far the most expensive, because the amounts are the amounts of the accounts rather than of a cash drawer. Its forms are the ones Book 1's Chapter 17 described from the outside: revenue recognised too early or invented outright; expenses deferred, capitalised or simply not recorded; liabilities and commitments concealed; assets overstated through inventory, receivables or avoided impairments; reserves released to smooth a result; and disclosures omitted. Its motive is almost never personal enrichment directly; it is a target, a covenant, a share price, a bonus or a reputation, which is what makes it so easy to rationalise.
+Corruption is the third branch: bribery, kickbacks, undisclosed conflicts of interest, bid rigging and extortion. Chapter 18 deals with the anti-bribery laws; the ethical point here is that corruption is the branch where the company is often not the victim but the beneficiary, which is why it survives so long and why it must be addressed by the tone of Chapter 17 rather than by controls alone.
+WORKED EXAMPLE   Worked example: what a fraud costs
+Step 1. The loss. The fictitious supplier above has taken 261,000 over two years.
+Step 2. What it takes to replace it. Orontes's net margin is 2,969,100 ÷ 42,000,000 = 7.07 per cent, so recovering 261,000 of lost profit requires 261,000 ÷ 0.0707 = 3,691,655 of additional sales.
+Step 3. The other costs. Investigation, legal fees, management time, the auditors' additional work, the controls that must now be built, and the effect on the people who were not involved.
+Step 4. The real exposure. The amount taken is rarely the material figure. What matters is what the fraud reveals about the control environment and what else may have happened under the same conditions.
+Check. The arithmetic in step 2 is the sentence to use with a board that regards a fraud as small. A quarter of a million is three and a half million of sales, and the sales are hard.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+skimming
+السرقة قبل التسجيل
+détournement avant enregistrement
+lapping
+تدوير المتحصلات
+cavalerie sur encaissements
+ghost employee
+الموظف الوهمي
+employé fictif
+kickback
+العمولة السرية
+rétrocommission
+SECTION CHECK   Test yourself
+SC12-10  Skimming is harder to detect than larceny because:
+A.	the cash is taken before it is recorded, leaving no accounting trace.
+B.	the amounts are larger.
+C.	it involves two employees.
+D.	it is not illegal.
+SC12-11  Lapping is a fraud in:
+A.	accounts receivable.
+B.	payroll.
+C.	inventory.
+D.	financial reporting.
+SC12-12  Financial statement fraud is:
+A.	the least common branch and the most expensive.
+B.	the most common and the cheapest.
+C.	always for personal enrichment.
+D.	impossible where an audit is performed.
+Answers and explanations are at the end of the chapter.
+12.5  Preventing and detecting
+The control methods were set out in Chapter 7; what belongs here is how they map onto the frauds and what ethics adds to them.
+Figure F812-02 makes the mapping.
+Figure F812-02. Frauds and the controls that address them
+Fraud
+How it works
+Principal control
+What it depends on
+Skimming
+Cash taken before recording
+Independent recording at the point of receipt
+Two people, or a machine
+Inventory theft
+Stock removed or written off
+Counts, reconciliation of waste, access control
+Counts done by people who do not hold the stock
+Payroll fraud
+Ghost employees, false hours
+Separation of payroll records from payments; review of the payroll
+Somebody checking a list they did not make
+Fictitious supplier
+A supplier that exists only in the file
+Master file access, bank verification, new supplier review
+Restricted access being enforced
+Receivable fraud
+Lapping, false credit notes, write-offs
+Statement reconciliation, authorisation of write-offs, mandatory leave
+Rotation and independent confirmation
+Statement fraud
+Entries, estimates and omissions
+Review by somebody competent and independent; audit committee access
+Tone at the top, and a route to raise concerns
+The last column is the ethics column, and it is the point of this chapter. Every control in the fifth column depends on something in the sixth, and what the sixth column contains is people being willing and able to do their job honestly. A segregation of duties that everybody agrees to work around is not a control; a review performed by somebody who will not question the chief executive is not a review; and a supplier approval process in which no approval has ever been refused is a procedure, not a control.
+Three ethical additions to the control framework, which Chapters 16 to 18 develop.
+A code of conduct that says specifically what is and is not acceptable, so that nobody has to guess.
+A route to raise a concern that does not require going through the person the concern is about, which is Chapter 18's whistleblowing framework.
+And a demonstrated willingness to act on what is found, at every level. A fraud by a junior employee that ends in dismissal, and a similar act by a senior one that ends in a quiet resignation, teach everybody the same lesson about which rules apply to whom — and that lesson does more damage than the original act.
+YOUR TURN   Concepts and frauds
+Figure F812-03 gives six items. Complete the blanks. Answers are at the end of the chapter.
+Figure F812-03. Your turn: naming it correctly (complete the blanks)
+Item
+Answer
+Treating like cases alike, on standards people could accept
+________
+Acting on the same principles whether or not anybody is watching
+________
+The care a reasonable and competent person takes before acting
+________
+The duty owed by one who acts for another and is trusted with their interests
+________
+Using a later customer's receipt to cover an earlier balance already stolen
+________
+Sales needed to replace 261,000 of loss at a 7.07 per cent net margin
+________
+LANGUAGE FOCUS   "Integrity", "fraud" and "irregularity"
+Integrity in English carries two senses that are really one: moral uprightness, and structural wholeness — the integrity of a dam. Both mean nothing missing and nothing hollow, which is the right image for the professional sense. Arabic النزاهة and French intégrité carry the moral sense cleanly. Fraud is a legal term as well as an ethical one, and that matters in a report: writing that an employee committed fraud is an allegation of a crime, which is why investigators write irregularity, discrepancy or unexplained difference until a conclusion is reached, and why a management accountant should do the same. The caution is not evasion: it is the difference between describing what is known and asserting what has not been established. Arabic احتيال and French fraude carry the same legal weight, and the same caution applies. Write what you observed, say what it is consistent with, and let the conclusion follow the investigation rather than precede it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+control environment
+بيئة الرقابة
+environnement de contrôle
+code of conduct
+مدونة السلوك
+code de conduite
+irregularity
+المخالفة
+irrégularité
+consistent enforcement
+التطبيق المتسق
+application cohérente
+SECTION CHECK   Test yourself
+SC12-13  A segregation of duties that everybody works around is:
+A.	not a control.
+B.	a control with reduced effect.
+C.	a detective control.
+D.	sufficient if documented.
+SC12-14  Net income of 2,969,100 on sales of 42,000,000 is a net margin of:
+A.	7.07 per cent
+B.	14.1 per cent
+C.	70.7 per cent
+D.	0.71 per cent
+SC12-15  Treating a senior employee's misconduct more leniently than a junior's:
+A.	teaches everybody which rules apply to whom.
+B.	is efficient.
+C.	protects the company.
+D.	is required by confidentiality.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F812-04 brings the chapter together.
+Figure F812-04. Chapter 12 summary map: the key rule for each section.
+Business ethics is the application of moral principles to the conduct of organisations and the people in them: about conduct rather than sentiment, distinct from legality, binding on the individual as well as the organisation, and concerned with everybody a decision affects — tested by consequences, by duties and rights, by character, and practically by whether a decision could be explained to those it affects. Fairness means treating like cases alike in outcome, in process and in treatment, and it bites hardest where a company has power; integrity means acting on the same principles consistently, including honesty about what is omitted, avoidance and disclosure of conflicts, refusal to do indirectly what may not be done directly, and consistency between word and act — tested in small matters long before large ones. Due diligence is the care a reasonable and competent person takes before acting, owed even when the answer is unwelcome and scaled to the stakes; fiduciary responsibility is the duty of one who acts for another, comprising loyalty, care, good faith, confidentiality and the duty to account, and it is breached by self-dealing even where no loss results. Fraud takes three branches: asset misappropriation, the most common, through skimming, larceny, inventory theft, payroll fraud and ghost employees, fictitious suppliers and receivable frauds such as lapping; financial statement fraud, the rarest and most expensive, motivated by targets, covenants and bonuses rather than by direct enrichment; and corruption, where the company is often the beneficiary rather than the victim. And every control that addresses them depends on something a control cannot supply — 261,000 taken by a fictitious supplier needs 261,000 ÷ 0.0707 = 3,691,655 of sales to replace, but what matters more is what the fraud shows about an environment in which people are willing and able to do their jobs honestly.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P12-01  Business ethics is concerned with:
+A.	what ought to be done.
+B.	what the law requires.
+C.	what competitors do.
+D.	what maximises profit.
+P12-02  Fairness of process concerns:
+A.	whether the method treats everybody consistently.
+B.	whether the outcome is equal.
+C.	whether the result is profitable.
+D.	whether the law was followed.
+P12-03  Integrity requires that a professional:
+A.	act on the same principles whether or not observed.
+B.	avoid all risk.
+C.	follow instructions.
+D.	maximise shareholder value.
+P12-04  A conflict of interest should be disclosed:
+A.	as soon as it arises.
+B.	only after a loss.
+C.	only to the external auditor.
+D.	only if asked.
+P12-05  Due diligence is breached by:
+A.	failing to find out what a reasonable professional would have found out.
+B.	dishonesty alone.
+C.	any loss.
+D.	disagreeing with management.
+P12-06  Fiduciary duty includes all of the following except:
+A.	a duty to maximise short-term profit.
+B.	a duty of loyalty.
+C.	a duty of care.
+D.	a duty to account.
+P12-07  Skimming is:
+A.	taking cash before it is recorded.
+B.	taking recorded cash.
+C.	creating a false supplier.
+D.	overstating revenue.
+P12-08  A ghost employee is a form of:
+A.	payroll fraud.
+B.	receivable fraud.
+C.	statement fraud.
+D.	corruption.
+P12-09  Lapping covers a stolen balance by:
+A.	applying a later customer's receipt to it.
+B.	writing it off.
+C.	issuing a credit note.
+D.	capitalising it.
+P12-10  Financial statement fraud is usually motivated by:
+A.	a target, covenant, bonus or reputation.
+B.	direct personal theft.
+C.	inventory shortages.
+D.	supplier pressure.
+P12-11  Loss of 261,000 at a net margin of 7.07 per cent requires replacement sales of about:
+A.	3,691,655
+B.	18,453
+C.	261,000
+D.	369,166
+P12-12  Corruption differs from the other branches in that:
+A.	the company is often the beneficiary rather than the victim.
+B.	it is always small.
+C.	it leaves no trace.
+D.	it is never illegal.
+Case-style practice: the professional fees
+Orontes's internal auditor notices that payments to a consultancy called Levant Advisory have totalled 261,000 over two years, in eighteen invoices averaging 14,500, each just below the 15,000 threshold requiring a second approval. The supplier was created in the master file by the assistant financial controller, who also approves invoices below the threshold. The bank details on the file match no bank branch near the address given. No contract or deliverable can be found.
+Required. Say what this pattern is consistent with, what you would do next and in what order, and which controls failed. Do not assert that a fraud has occurred. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC12-1  Answer A. Ethics asks what ought to be done.
+B is wrong. That is law.
+C is wrong. That is economics.
+D is wrong. Custom is evidence, not a standard.
+SC12-2  Answer A. Defensible decisions, consistently.
+B is wrong. A statement is not conduct.
+C is wrong. Profit level is not the test.
+D is wrong. Feeling is not conduct.
+SC12-3  Answer A. Explicability to those affected.
+B is wrong. Legality is a separate test.
+C is wrong. Profit is not the question.
+D is wrong. Custom does not justify.
+SC12-4  Answer A. The method was not applied consistently.
+B is wrong. No fiduciary relationship is at issue.
+C is wrong. Care was not the failing.
+D is wrong. The outcome does not cure the process.
+SC12-5  Answer A. Misleading is a breach of integrity.
+B is wrong. Rules are a floor, not the standard.
+C is wrong. Care was exercised; honesty was not.
+D is wrong. It is primarily an honesty failure.
+SC12-6  Answer A. On arising, before harm.
+B is wrong. The duty does not wait for loss.
+C is wrong. Timing is immediate.
+D is wrong. The duty is not conditional on a rule.
+SC12-7  Answer A. It is documentation.
+B is wrong. Completeness does not cure the purpose.
+C is wrong. Due diligence is a duty of care.
+D is wrong. Standards require genuine inquiry.
+SC12-8  Answer A. Self-interest in another's matter.
+B is wrong. Risk-taking is permitted.
+C is wrong. Reporting to the board is required.
+D is wrong. Resignation may be the remedy.
+SC12-9  Answer A. The breach is the conflict, not the loss.
+B is wrong. The duty was breached.
+C is wrong. Loyalty, not care, failed.
+D is wrong. Disclosure afterwards does not cure it.
+SC12-10  Answer A. Nothing was recorded to compare against.
+B is wrong. Skimming amounts are usually small.
+C is wrong. One person suffices.
+D is wrong. It is theft.
+SC12-11  Answer A. Receipts are rolled between customer accounts.
+B is wrong. Payroll frauds use employees.
+C is wrong. Inventory frauds use goods.
+D is wrong. Reporting fraud misstates the accounts.
+SC12-12  Answer A. Rarest and costliest.
+B is wrong. Misappropriation is the common one.
+C is wrong. The motive is usually indirect.
+D is wrong. Audits reduce but do not eliminate it.
+SC12-13  Answer A. A control worked around is not a control.
+B is wrong. Its effect is nil, not reduced.
+C is wrong. Segregation is preventive.
+D is wrong. Documentation does not perform it.
+SC12-14  Answer A. 2,969,100 ÷ 42,000,000 = 7.07 per cent.
+B is wrong. That doubles it.
+C is wrong. That is ten times too large.
+D is wrong. That is ten times too small.
+SC12-15  Answer A. Inconsistency teaches the wrong lesson.
+B is wrong. The long-run cost exceeds any saving.
+C is wrong. It damages the control environment.
+D is wrong. Confidentiality does not require inconsistency.
+Your turn
+Item
+Answer
+Treating like cases alike on acceptable standards
+Fairness.
+Acting on the same principles whether or not observed
+Integrity.
+The care a reasonable, competent person takes
+Due diligence.
+The duty of one who acts for another
+Fiduciary responsibility.
+Using a later receipt to cover an earlier theft
+Lapping, a receivable fraud.
+Sales needed to replace 261,000 at 7.07 per cent
+3,691,655: 261,000 ÷ 0.0707 = 3,691,655.
+What it tells you
+Four concepts and two frauds — and the four concepts are what the controls against the two frauds ultimately rest on.
+Multiple-choice questions
+P12-01  Answer A. What ought to be done.
+B is wrong. That is law.
+C is wrong. Custom is not a standard.
+D is wrong. Profit is not the criterion.
+P12-02  Answer A. Consistency of method.
+B is wrong. That is fairness of outcome.
+C is wrong. Profit is irrelevant.
+D is wrong. Legality is separate.
+P12-03  Answer A. Consistency, observed or not.
+B is wrong. Risk is not the subject.
+C is wrong. Instructions may be improper.
+D is wrong. That is an objective, not a principle of conduct.
+P12-04  Answer A. Immediately.
+B is wrong. Loss is not the trigger.
+C is wrong. Internal disclosure comes first.
+D is wrong. The duty is not reactive.
+P12-05  Answer A. A failure of inquiry.
+B is wrong. Dishonesty breaches integrity.
+C is wrong. Loss alone proves nothing.
+D is wrong. Disagreement is not a breach.
+P12-06  Answer A. No such fiduciary duty exists.
+B is wrong. Loyalty is central.
+C is wrong. Care is central.
+D is wrong. Accounting is central.
+P12-07  Answer A. Before recording.
+B is wrong. That is larceny.
+C is wrong. That is a disbursement fraud.
+D is wrong. That is statement fraud.
+P12-08  Answer A. Payroll.
+B is wrong. Receivables involve customers.
+C is wrong. Statements involve reporting.
+D is wrong. Corruption involves outsiders.
+P12-09  Answer A. A later receipt covers the gap.
+B is wrong. A write-off is a different method.
+C is wrong. So is a credit note.
+D is wrong. Capitalising is a reporting manipulation.
+P12-10  Answer A. Indirect motives dominate.
+B is wrong. Direct theft characterises misappropriation.
+C is wrong. Inventory is a different branch.
+D is wrong. Suppliers are not the usual motive.
+P12-11  Answer A. 261,000 ÷ 0.0707 = 3,691,655.
+B is wrong. That multiplies instead of dividing.
+C is wrong. That is the loss itself.
+D is wrong. That is ten times too small.
+P12-12  Answer A. The company may gain from it.
+B is wrong. Corruption can be very large.
+C is wrong. It leaves traces, if often outside the company.
+D is wrong. It is illegal in most jurisdictions.
+Case-style set: the professional fees
+What the pattern is consistent with. Four features point the same way. Payments to a supplier created by the person who also approves them is a failure of segregation of duties. Eighteen invoices averaging 14,500, each just below a 15,000 second-approval threshold, is a pattern consistent with deliberate structuring rather than with coincidence. Bank details matching no branch near the stated address is a discrepancy requiring explanation. And the absence of any contract or deliverable means nothing has been received for 261,000. Taken together these are consistent with a fictitious supplier arrangement. They are not proof: there may be an explanation, and it is not my role to conclude one way or the other at this stage.
+What I would do next, in order. First, preserve the evidence: secure the master file change log, the approval records, the invoices and the bank instructions, before anything can be altered. Second, restrict the ability to alter the supplier record and to approve payments to it, without announcing why, since further payments would increase the loss. Third, report to the audit committee or its chair, not to the financial controller, because the assistant financial controller's line management is within the area in question. Fourth, obtain advice on how to proceed — legal, and on handling evidence — before anybody is interviewed. Fifth, establish the full extent: every supplier created by the same person, every payment just under a threshold, and every bank detail changed in the period.
+Which controls failed. Master file access was not restricted to people who do not approve payments. Bank details were not verified independently to a number held on file. New suppliers were not reviewed against employee records. The approval threshold was applied mechanically, with no review of the pattern of invoices just below it. No contract or deliverable was required before payment for services. And no exception report on new or low-activity suppliers reached anybody independent.
+One further point for the audit committee. The amount is 261,000, which at Orontes's net margin of 7.07 per cent is 261,000 ÷ 0.0707 = 3,691,655 of sales. But the material question is not this amount; it is what else could have happened under the same conditions, and over what period.

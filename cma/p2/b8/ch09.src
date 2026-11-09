@@ -1,0 +1,438 @@
+Chapter 9
+Enterprise risk management, COSO, and the cost-benefit case
+إدارة مخاطر المؤسسة وإطار كوسو وتحليل التكلفة والعائد
+Everything so far in this book has been done risk by risk. This chapter raises the view to the whole company, which is what enterprise risk management means and why it exists: the sum of well-managed parts is not a well-managed company, because risks interact, resources are finite, and the only level at which a portfolio of risks can be compared with the capital behind it is the top.
+Five outcomes meet here. What enterprise risk management is and what it is for; how it connects to governance, analytics, portfolio thinking, performance management and internal control; how to evaluate a scenario and recommend a response; how to prepare the cost-benefit analysis that justifies any of it; and the COSO framework the exam uses as its reference.
+Figure F809-01 is your map.
+Figure F809-01. Chapter 9 roadmap: the enterprise view, the framework, the integrations, scenarios, and the arithmetic that justifies the spend.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+D.1.t | Define enterprise risk management and identify its key objectives, components and benefits. | C | Full treatment
+D.1.y | Demonstrate an understanding of the COSO Enterprise Risk Management — Integrated Framework. | C | Full treatment
+D.1.v | Explain how ERM practices integrate with corporate governance, risk analytics, portfolio management, performance management and internal control. | C | Full treatment
+D.1.w | Evaluate scenarios and recommend risk mitigation strategies. | C | Full treatment
+D.1.x | Prepare a cost-benefit analysis and explain its use in risk assessment and decision making. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+enterprise risk management | إدارة مخاطر المؤسسة | gestion des risques d'entreprise
+portfolio view | النظرة الشاملة للمحفظة | vision portefeuille
+corporate governance | حوكمة الشركات | gouvernance d'entreprise
+internal control | الرقابة الداخلية | contrôle interne
+risk analytics | تحليلات المخاطر | analytique des risques
+cost-benefit analysis | تحليل التكلفة والعائد | analyse coûts-bénéfices
+scenario | السيناريو | scénario
+silo | الصومعة الإدارية | silo
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 showed that expected losses add but unexpected losses do not, which is the arithmetic case for looking at risk across a whole company. Chapter 6 gave the process and the appetite. Chapter 8 gave the measures. Book 3's Chapter 17 ranked projects under a capital constraint, which is the same problem this chapter applies to risk spending.
+9.1  What enterprise risk management is
+Enterprise risk management is the process, directed by the board and applied across the whole organisation, of identifying and managing the risks to its strategy and objectives within an appetite the board has set, so as to provide reasonable assurance that the objectives will be achieved.
+Four elements of that definition carry the examinable weight.
+Across the whole organisation. Risk is considered in every unit and function and then aggregated, rather than managed separately in each. The failure it corrects has a name — the silo — in which each department manages its own exposures competently and nobody sees the combination.
+Directed by the board. The appetite is set at the top, the significant risks are reported there, and the process is owned by management rather than delegated to a technical function.
+Applied to strategy and objectives. Enterprise risk management is about what could stop the company achieving what it has set out to do, including the risk that the strategy itself is wrong, which no departmental process can raise.
+Reasonable assurance, not certainty. No system prevents all loss; the standard is a sensible balance of cost and benefit, which section 9.5 computes.
+The objectives of an enterprise programme, which the exam asks for, are to align risk-taking with appetite and strategy; to improve the quality of risk responses by choosing among them consistently; to reduce surprises and losses; to identify and manage risks that cross units; to seize opportunities, which is Chapter 5's exploitation at enterprise level; and to deploy capital more effectively, because a company that knows its aggregate exposure knows how much capital it needs.
+The benefits follow from those objectives and were set out in Chapter 4; three are specific to the enterprise view.
+A portfolio perspective. Because unexpected losses do not add, the enterprise exposure is smaller than the sum of the parts. Where Orontes's four areas report unexpected losses totalling 1,900,000 and the enterprise figure is 1,400,000, the 1,900,000 − 1,400,000 = 500,000 of difference is a diversification benefit that no division can see from where it stands — and a company that manages risk only in silos will buy 500,000 more protection than it needs.
+Consistent prioritisation. One appetite, one set of scales, one method of comparing responses means that the next dollar of risk spending goes where it does most good, instead of to whichever manager argued hardest.
+And visible risk interactions. The combinations that cause serious losses — a currency movement, a customer failure and a supply interruption with one economic cause — are invisible to each department and obvious from the centre.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+reasonable assurance | التأكيد المعقول | assurance raisonnable
+aggregation | التجميع | agrégation
+risk interaction | تفاعل المخاطر | interaction des risques
+diversification benefit | منفعة التنويع | effet de diversification
+@end
+SECTION CHECK   Test yourself
+SC9-1  The failure enterprise risk management is designed to correct is:
+A.	the silo, in which each unit manages its own risks and nobody sees the whole.
+B.	excessive insurance.
+C.	the absence of a risk register.
+D.	non-compliance.
+SC9-2  Divisional unexpected losses of 1,900,000 against an enterprise figure of 1,400,000 show a diversification benefit of:
+A.	500,000
+B.	1,400,000
+C.	3,300,000
+D.	1,900,000
+SC9-3  Enterprise risk management offers:
+A.	reasonable assurance, not certainty.
+B.	elimination of loss.
+C.	a guarantee of objectives.
+D.	compliance only.
+Answers and explanations are at the end of the chapter.
+9.2  The COSO framework
+The Committee of Sponsoring Organizations of the Treadway Commission publishes two documents the exam refers to: the Internal Control — Integrated Framework, which underlies Chapter 15's treatment of control, and Enterprise Risk Management — Integrating with Strategy and Performance, the 2017 revision of the 2004 enterprise framework. Candidates meet both versions, and it is worth knowing each.
+The 2004 framework presented a cube: eight components against four categories of objective — strategic, operations, reporting and compliance — across the units of the entity. The eight components were the internal environment, objective setting, event identification, risk assessment, risk response, control activities, information and communication, and monitoring. The structure is recognisably the process of Chapter 6 with a control environment wrapped around it, and questions still use the eight component names.
+The 2017 framework is the current one and is organised quite differently, as five interrelated components containing twenty principles, with risk presented as part of strategy and performance rather than as a separate exercise.
+Governance and culture. The board's oversight of risk, the operating structure, the desired culture, the commitment to core values, and the attraction and retention of capable people. Chapters 16 and 17 of this book are this component.
+Strategy and objective-setting. Analysing the business context, defining risk appetite, evaluating alternative strategies, and formulating business objectives. The central insight of the 2017 revision lives here: the greatest risk is not a risk to the strategy but the possibility that the strategy itself is misaligned with the mission, or that the company has chosen a strategy whose implications it has not understood.
+Performance. Identifying risk, assessing severity, prioritising risks, implementing responses, and developing a portfolio view — Chapters 5 to 8 of this book.
+Review and revision. Assessing substantial change, reviewing risk and performance, and pursuing improvement in enterprise risk management — Chapter 6's monitoring step.
+Information, communication and reporting. Leveraging information systems, communicating risk information, and reporting on risk, culture and performance.
+Three themes of the revision are examinable.
+Risk is integrated with performance, not parallel to it. The same meeting that reviews results reviews the risks to them.
+Culture is treated as a component in its own right, because frameworks do not fail technically; they fail where people do not use them.
+And risk appetite connects strategy to execution, which is why Chapter 6 insisted that an appetite must be expressed in limits somebody applies.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+governance and culture | الحوكمة والثقافة | gouvernance et culture
+objective setting | تحديد الأهداف | fixation des objectifs
+review and revision | المراجعة والتحديث | revue et révision
+misaligned strategy | الاستراتيجية غير المتوافقة | stratégie non alignée
+@end
+SECTION CHECK   Test yourself
+SC9-4  The 2017 COSO enterprise framework is organised as:
+A.	five components containing twenty principles.
+B.	eight components in a cube.
+C.	three lines of defence.
+D.	four objective categories only.
+SC9-5  The 2004 framework's eight components include:
+A.	event identification and risk response.
+B.	strategy and objective-setting.
+C.	governance and culture.
+D.	review and revision.
+SC9-6  The central insight of the 2017 revision is that the greatest risk may be:
+A.	that the strategy itself is misaligned or misunderstood.
+B.	an uninsured fire.
+C.	a currency movement.
+D.	a control failure.
+Answers and explanations are at the end of the chapter.
+9.3  What it integrates with
+The outcome asks how enterprise risk practices integrate with five other things, and each connection has a specific content.
+Corporate governance. The board sets the appetite, oversees the process, and satisfies itself that it works; the audit committee or a separate risk committee does the detailed review; management owns the risks; internal audit provides independent assurance that the process operates. That division is often summarised as the three lines: the business owns and manages risk, risk and compliance functions set the framework and challenge, and internal audit provides independent assurance.
+Risk analytics. The measurement of Chapter 8 — the distributions, the at-risk figures, the loss databases, and increasingly the models that predict failures from operating data. Analytics serve the process; they are not the process, and a company with excellent analytics and no appetite statement has measured things nobody can act on.
+Portfolio management. The aggregation of section 9.1: risks combined across units with correlations taken into account, compared with capital and appetite, and resources allocated across them as Book 3's Chapter 17 allocated capital — to the risks where the next dollar does most good.
+Performance management. Risk belongs in the same conversation as results, which means three practical things: targets set with the risk of missing them understood; variances investigated for what they reveal about exposure as well as about performance; and incentives designed so that they do not pay for risk-taking the company has not agreed to. Book 4's Chapter 17 and Book 1's analysis of earnings quality both bear on that last point.
+Internal control. Controls are the execution layer for the reduction response of Chapter 5. Enterprise risk management decides which risks matter and how far they should be reduced; internal control delivers the reduction; and the control framework reports whether the controls work. Chapter 15 connects internal control to ethics, which is the dimension that no framework can supply by itself.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+three lines | خطوط الدفاع الثلاثة | trois lignes
+independent assurance | التأكيد المستقل | assurance indépendante
+resource allocation | تخصيص الموارد | allocation des ressources
+incentive design | تصميم الحوافز | conception des incitations
+@end
+SECTION CHECK   Test yourself
+SC9-7  Under the three lines model, independent assurance is provided by:
+A.	internal audit.
+B.	the business units.
+C.	the risk function.
+D.	the external auditor.
+SC9-8  Risk analytics without an appetite statement produces:
+A.	measurements nobody can act on.
+B.	a complete framework.
+C.	internal control.
+D.	a portfolio view.
+SC9-9  Integrating risk with performance management requires that incentives:
+A.	do not pay for risk-taking the company has not agreed to.
+B.	be purely financial.
+C.	be set annually.
+D.	exclude risk measures.
+Answers and explanations are at the end of the chapter.
+9.4  Evaluating a scenario and recommending
+The outcome asks for scenarios to be evaluated and mitigation recommended, which is the practical skill the essay section of the exam tests. A method in five steps produces an answer that earns the marks.
+Describe the scenario precisely, including what else is true. A scenario is not one variable moving; it is a coherent situation. "The sesame harvest fails" implies a higher input price, a supply interruption, a competitor under the same pressure, and possibly a currency effect if the shortfall is imported.
+Trace the consequences through the figures. Volume, price, contribution, operating income, cash, covenant headroom, in that order, because the question that matters is not what profit falls to but whether anything breaks.
+Identify the breaking points. Which covenant, which facility, which customer commitment, which regulatory threshold fails first, and when. Chapter 6's 4,348,800 − 1,560,000 = 2,788,800 of covenant headroom is this kind of figure.
+Choose responses from Chapter 5's five, with the cost-benefit test of section 9.5, and say what each does to the breaking points rather than to the average.
+Recommend, with an owner, a cost, a date and a trigger — the observable condition that would cause the response to be activated, which converts a plan into a decision somebody can take.
+WORKED EXAMPLE   Worked example: a scenario and its mitigation
+Step 1. The scenario. A poor harvest raises hulled sesame prices by 25 per cent for a year and Orontes's single supplier cannot deliver for six weeks.
+Step 2. Through the figures. The supply interruption costs 46,027 a day of contribution, so six weeks is about 1,933,134. The price increase, on variable costs that are mostly sesame, would remove a further large part of the 16,800,000 annual contribution unless prices can be raised, which Book 3's Chapter 11 says is difficult in a market-priced product.
+Step 3. The breaking point. Operating income of $4,348,800 against a covenant floor of 1,560,000 gives 2,788,800 of headroom, and the supply interruption alone consumes two thirds of it. Combined with the price effect the covenant is the first thing to break, not the cash balance.
+Step 4. Responses and their cost. Qualify a second supplier (cost 60,000 a year); hold four weeks of buffer stock (cost 180,000 of carrying); contract forward for part of the crop as Book 2's Chapter 6 did (cost: the forward premium and the loss of any price fall); and open a conversation with the lender about the covenant before it is needed rather than after.
+Step 5. The recommendation, with triggers. Qualify the second supplier now. Build buffer stock when the harvest forecast first falls below the five-year average, not when the delivery fails. Hedge half the expected volume at the point the forward price is below budget. And review the covenant at the half-year.
+Check. Note what the last step adds. Without triggers, a scenario analysis is an interesting document; with them, it is a set of decisions that have already been taken and only need to be activated, which is the difference between a company that responds in a week and one that responds in a quarter.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+breaking point | نقطة الانهيار | point de rupture
+trigger | المُحفِّز | seuil de déclenchement
+coherent scenario | السيناريو المتسق | scénario cohérent
+pre-agreed response | الاستجابة المتفق عليها مسبقاً | réponse préétablie
+@end
+SECTION CHECK   Test yourself
+SC9-10  A scenario differs from a sensitivity test in that it:
+A.	moves several variables together in a coherent situation.
+B.	moves one variable.
+C.	requires a probability.
+D.	uses historical data only.
+SC9-11  In evaluating a scenario, the question that matters most is:
+A.	whether anything breaks, and when.
+B.	what profit falls to.
+C.	what the probability is.
+D.	what the insurer would pay.
+SC9-12  A trigger in a mitigation plan is:
+A.	the observable condition that activates the response.
+B.	the cost of the response.
+C.	the owner of the risk.
+D.	the scenario's probability.
+Answers and explanations are at the end of the chapter.
+9.5  The cost-benefit analysis
+Every risk response competes for money with every other use of money, and the instrument that decides is a cost-benefit analysis. The outcome asks you to prepare one, which means knowing what goes on each side.
+The costs, and candidates usually stop too early.
+The direct cost of the response: the premium, the contract, the equipment, the salaries of the people performing a control.
+The implementation cost: systems, training, project time.
+The operating friction: the delay an approval adds, the sales lost to a tighter credit policy, the capital tied up in buffer stock.
+And the new risks the response creates, which Chapter 5 insisted on.
+The benefits.
+The reduction in expected loss, which is the measurable core: inherent expected loss less residual.
+The reduction in unexpected loss, which is worth more than it looks because it reduces the capital or facilities the company must hold.
+Second-order effects: lower premiums, better terms from lenders, fewer disruptions to customers, and the cost-of-capital effect of Chapter 4.
+And any operational benefit that comes with the control, since many risk responses also improve the process — a second supplier is also a negotiating position.
+WORKED EXAMPLE   Worked example: the second supplier
+Step 1. The present position. Chapter 6 assessed the single-source supply failure at a likelihood of 0.25 against an impact of 1,933,134, giving an expected loss of 0.25 × 1,933,134 = 483,284.
+Step 2. After the response. Qualifying a second supplier and holding buffer stock reduces the likelihood to 0.05, so the expected loss becomes 0.05 × 1,933,134 = 96,657.
+Step 3. The benefit and the cost. The reduction is 483,284 − 96,657 = 386,627 a year, against costs of 240,000 — 60,000 of qualification and oversight and 180,000 of carrying the stock — so the net benefit is 386,627 − 240,000 = 146,627 a year and the benefit-to-cost ratio is 386,627 ÷ 240,000 = 1.61.
+Step 4. Over the life of the decision. Treating it as a five-year commitment and discounting at the 9 per cent of Book 3, the annual net benefit is worth 146,627 × 3.8897 = 570,335, against a one-off qualification and trial cost of 150,000, giving 570,335 − 150,000 = 420,335 of value created.
+Check. Three things make this a complete analysis rather than an arithmetic exercise. The benefit on unexpected loss is not in the figures: reducing the likelihood from 0.25 to 0.05 removes most of the chance of the event that would consume the covenant headroom, and that is worth more to the board than the 146,627. The buffer stock has an operational cost beyond its carrying charge, since stock ages and this is a food product. And the whole calculation rests on two judgments — the 0.25 and the 0.05 — so the honest presentation states them as such and shows what the answer becomes if the reduction is half as effective.
+Four principles for any cost-benefit analysis in risk work.
+Use cash flows and incremental amounts, exactly as Book 3's Chapter 14 required, and ignore allocated costs.
+Include the benefits that cannot be quantified, as a stated list beside the arithmetic, rather than omitting them and allowing the quantified ones to decide alone.
+Test the judgments that drive the answer.
+And state the limit of the analysis. A control whose benefit is the avoidance of a catastrophic loss cannot be justified by expected-value arithmetic, because the expected value of a rare event is small; the justification is the survival test of Chapter 3, and the cost-benefit analysis has nothing to say about it.
+YOUR TURN   The enterprise view
+Figure F809-02 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F809-02. Your turn: enterprise risk management (complete the blanks)
+@table
+Item | Data | Answer
+Expected loss before the response | Likelihood 0.25; impact 1,933,134 | ________
+Expected loss after it | Likelihood 0.05 | ________
+Annual benefit | | ________
+Net annual benefit | Cost 240,000 | ________
+Benefit-to-cost ratio | | ________
+Diversification benefit of the portfolio view | Divisions 1,900,000; enterprise 1,400,000 | ________
+@end
+LANGUAGE FOCUS   "Enterprise", "framework" and "integrated"
+Enterprise in enterprise risk management means the whole entity, every unit and function, and it is doing real work: the word was chosen to contrast with the departmental risk management it replaced. English also uses enterprise for a venture and for initiative, and neither is meant here. Arabic المؤسسة and French entreprise both mean the organisation as a whole, so the sense carries. Framework is a word to use carefully: a framework is a structure for organising work, not the work, and a company that says it has adopted a framework has said nothing about whether it manages risk. Integrated, in the COSO titles, is the strongest claim in either document — it means the practices are part of how the business is run rather than an exercise performed beside it — and it is the claim most companies fail. When an exam question asks whether a company's risk management is effective, the answer turns on integration and culture rather than on whether a framework has been adopted.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+incremental cash flow | التدفق النقدي التفاضلي | flux différentiel
+unquantified benefit | المنفعة غير القابلة للقياس | bénéfice non chiffrable
+survival test | اختبار البقاء | test de survie
+friction cost | تكلفة الاحتكاك | coût de friction
+@end
+SECTION CHECK   Test yourself
+SC9-13  An expected loss of 483,284 reduced to 96,657 is a benefit of:
+A.	386,627
+B.	579,941
+C.	96,657
+D.	240,000
+SC9-14  A benefit of 386,627 against a cost of 240,000 gives a ratio of:
+A.	1.61
+B.	0.62
+C.	2.61
+D.	146,627
+SC9-15  A control whose purpose is to avoid a catastrophic loss:
+A.	cannot be justified by expected-value arithmetic alone.
+B.	always has the highest benefit-to-cost ratio.
+C.	needs no analysis.
+D.	is never worth buying.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F809-03 brings the chapter together.
+Figure F809-03. Chapter 9 summary map: the key rule for each section.
+Enterprise risk management is the board-directed, organisation-wide process of managing risks to strategy and objectives within an appetite, giving reasonable assurance rather than certainty, and its purpose is to correct the silo: its objectives are to align risk-taking with strategy, improve responses, reduce surprises, manage risks that cross units, seize opportunities and deploy capital better, and its distinctive benefits are the portfolio view — divisional unexpected losses of 1,900,000 against an enterprise 1,400,000 showing 1,900,000 − 1,400,000 = 500,000 of diversification — consistent prioritisation and visible interactions. COSO's 2004 cube set eight components against four objective categories; the 2017 revision uses five components and twenty principles, treats culture as a component, integrates risk with performance, and makes the misaligned strategy the greatest risk of all. It integrates with governance through the board, the committees and the three lines; with analytics, which serve the process rather than being it; with portfolio management; with performance management, including incentives that do not pay for unagreed risk; and with internal control, which is the execution layer. A scenario is evaluated by describing it coherently, tracing it through the figures, finding what breaks first — the covenant, with 2,788,800 of headroom, before the cash — costing the responses and recommending with owners, dates and triggers. And the cost-benefit case is prepared on incremental cash flows: 0.25 × 1,933,134 = 483,284 falling to 0.05 × 1,933,134 = 96,657 is a benefit of 483,284 − 96,657 = 386,627 against 240,000 of cost, a net 386,627 − 240,000 = 146,627 and a ratio of 386,627 ÷ 240,000 = 1.61, worth 146,627 × 3.8897 = 570,335 over five years at 9 per cent — with the unquantified benefits listed beside it and the survival test kept separate, because no expected-value arithmetic justifies protection against ruin.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P9-01  Enterprise risk management is directed by:
+A.	the board.
+B.	internal audit.
+C.	the risk function alone.
+D.	the external auditor.
+P9-02  The failure it addresses is:
+A.	risk managed in silos.
+B.	excessive control.
+C.	under-insurance.
+D.	weak forecasting.
+P9-03  It offers:
+A.	reasonable assurance.
+B.	certainty.
+C.	elimination of loss.
+D.	a guarantee.
+P9-04  The 2017 COSO enterprise framework has:
+A.	five components and twenty principles.
+B.	eight components and four objective categories.
+C.	three lines and five principles.
+D.	seventeen principles in five components.
+P9-05  Which is a component of the 2004 framework but not a 2017 component name?
+A.	Event identification
+B.	Governance and culture
+C.	Performance
+D.	Review and revision
+P9-06  Under the three lines model, the business units:
+A.	own and manage the risks.
+B.	provide independent assurance.
+C.	set the framework.
+D.	audit the controls.
+P9-07  A scenario analysis should identify, above all:
+A.	what breaks first and when.
+B.	the probability of the scenario.
+C.	the insurer's liability.
+D.	the accounting treatment.
+P9-08  A trigger converts a plan into:
+A.	a decision that only needs activating.
+B.	a probability.
+C.	a control.
+D.	an insurance claim.
+P9-09  A likelihood of 0.05 against an impact of 1,933,134 gives an expected loss of:
+A.	96,657
+B.	483,284
+C.	386,627
+D.	1,933,134
+P9-10  A benefit of 386,627 against costs of 240,000 gives a net annual benefit of:
+A.	146,627
+B.	626,627
+C.	1.61
+D.	240,000
+P9-11  Costs in a risk cost-benefit analysis should include:
+A.	operating friction and the new risks the response creates.
+B.	allocated head office cost.
+C.	sunk implementation costs already incurred.
+D.	depreciation of unrelated assets.
+P9-12  Protection against a catastrophic loss is justified by:
+A.	the survival test rather than expected value.
+B.	the benefit-to-cost ratio.
+C.	the expected loss.
+D.	the risk map score.
+Case-style practice: the board paper
+Orontes's board has read a proposal to spend $240,000 a year on a second sesame supplier and buffer stock. One director objects that the company "has never had a supply failure in eleven years" and that the money would be better spent on the roasting line of Book 3.
+Required. Write the case for the board, using the figures in this chapter. Address the eleven clean years, the comparison with the roasting line, and what the board should decide. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC9-1  Answer A. The silo is the named failure.
+B is wrong. Over-insurance is a symptom at most.
+C is wrong. Registers exist in silos too.
+D is wrong. Compliance is one objective among several.
+SC9-2  Answer A. 1,900,000 − 1,400,000 = 500,000.
+B is wrong. That is the enterprise figure.
+C is wrong. This adds instead of subtracting.
+D is wrong. That is the divisional total.
+SC9-3  Answer A. Reasonable assurance is the standard.
+B is wrong. No system eliminates loss.
+C is wrong. Objectives are never guaranteed.
+D is wrong. Its scope is far wider.
+SC9-4  Answer A. Five components, twenty principles.
+B is wrong. That is the 2004 structure.
+C is wrong. The three lines is a different model.
+D is wrong. Objective categories belong to the cube.
+SC9-5  Answer A. Both are 2004 component names.
+B is wrong. That is a 2017 component.
+C is wrong. So is that.
+D is wrong. So is that.
+SC9-6  Answer A. Strategic misalignment is the 2017 insight.
+B is wrong. That is a hazard risk.
+C is wrong. That is a market risk.
+D is wrong. Control failure is operational.
+SC9-7  Answer A. Internal audit is the third line.
+B is wrong. They are the first line and own the risk.
+C is wrong. Risk and compliance are the second line.
+D is wrong. The external auditor sits outside the model.
+SC9-8  Answer A. Measurement without a standard produces no action.
+B is wrong. A framework needs more than analytics.
+C is wrong. Control is a different layer.
+D is wrong. A portfolio view needs aggregation and appetite.
+SC9-9  Answer A. Incentives must not reward unagreed risk.
+B is wrong. Non-financial measures matter too.
+C is wrong. Frequency is not the issue.
+D is wrong. Risk measures belong in incentives.
+SC9-10  Answer A. Several variables in one coherent situation.
+B is wrong. That is sensitivity analysis.
+C is wrong. Scenarios need not carry probabilities.
+D is wrong. Scenarios may be hypothetical.
+SC9-11  Answer A. What breaks, and when.
+B is wrong. Profit is an intermediate figure.
+C is wrong. Plausibility matters more than probability here.
+D is wrong. Insurance is one response.
+SC9-12  Answer A. An observable activating condition.
+B is wrong. Cost is a separate element.
+C is wrong. The owner is a person.
+D is wrong. Probability is not a trigger.
+SC9-13  Answer A. 483,284 − 96,657 = 386,627.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the residual expected loss.
+D is wrong. That is the cost.
+SC9-14  Answer A. 386,627 ÷ 240,000 = 1.61.
+B is wrong. This inverts the ratio.
+C is wrong. That adds one unnecessarily.
+D is wrong. That is the net benefit in money.
+SC9-15  Answer A. Rare events have small expected values.
+B is wrong. The ratio is usually poor.
+C is wrong. Analysis is still required.
+D is wrong. It may be essential.
+Your turn
+@table
+Item | Answer
+Expected loss before the response | 483,284: 0.25 × 1,933,134 = 483,284.
+Expected loss after it | 96,657: 0.05 × 1,933,134 = 96,657.
+Annual benefit | 386,627: 483,284 − 96,657 = 386,627.
+Net annual benefit | 146,627: 386,627 − 240,000 = 146,627.
+Benefit-to-cost ratio | 1.61: 386,627 ÷ 240,000 = 1.61.
+Diversification benefit | 500,000: 1,900,000 − 1,400,000 = 500,000.
+What it tells you | Five of the six are the cost-benefit case for one control; the sixth is the reason the case has to be made at the top, where the portfolio is visible.
+@end
+Multiple-choice questions
+P9-01  Answer A. The board directs it.
+B is wrong. Audit assures it.
+C is wrong. The function facilitates.
+D is wrong. External audit is outside.
+P9-02  Answer A. Silo management.
+B is wrong. Excess control is a symptom.
+C is wrong. Insurance is one response.
+D is wrong. Forecasting is a separate discipline.
+P9-03  Answer A. Reasonable assurance.
+B is wrong. Certainty is unattainable.
+C is wrong. Loss cannot be eliminated.
+D is wrong. Nothing is guaranteed.
+P9-04  Answer A. Five components, twenty principles.
+B is wrong. That is the 2004 cube.
+C is wrong. That conflates two models.
+D is wrong. Seventeen principles belong to the internal control framework.
+P9-05  Answer A. Event identification is a 2004 component.
+B is wrong. That is a 2017 component.
+C is wrong. So is that.
+D is wrong. So is that.
+P9-06  Answer A. The first line owns and manages.
+B is wrong. That is the third line.
+C is wrong. That is the second line.
+D is wrong. Auditing is the third line.
+P9-07  Answer A. The breaking points.
+B is wrong. Probability is often unknowable.
+C is wrong. Insurance follows the analysis.
+D is wrong. Accounting is a consequence.
+P9-08  Answer A. A decision awaiting activation.
+B is wrong. A trigger is observable, not probabilistic.
+C is wrong. A control is a procedure.
+D is wrong. Claims follow losses.
+P9-09  Answer A. 0.05 × 1,933,134 = 96,657.
+B is wrong. That uses the original likelihood.
+C is wrong. That is the reduction.
+D is wrong. That is the impact.
+P9-10  Answer A. 386,627 − 240,000 = 146,627.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the ratio.
+D is wrong. That is the cost.
+P9-11  Answer A. Friction and new risks belong in the costs.
+B is wrong. Allocations are not incremental.
+C is wrong. Sunk costs are irrelevant.
+D is wrong. Unrelated depreciation is not incremental.
+P9-12  Answer A. The survival test decides.
+B is wrong. The ratio is usually unfavourable.
+C is wrong. The expectation of a rare event is small.
+D is wrong. A score is ordinal.
+Case-style set: the board paper
+The proposal. Qualify a second sesame supplier and hold four weeks of buffer stock, at a cost of $240,000 a year.
+The arithmetic. A six-week interruption costs 46,027 a day of contribution, about 1,933,134 in total. On the present single-source arrangement the likelihood is assessed at 0.25 in a year, so the expected loss is 0.25 × 1,933,134 = 483,284. With a second supplier and buffer stock the likelihood falls to 0.05 and the expected loss to 0.05 × 1,933,134 = 96,657. The benefit is therefore 483,284 − 96,657 = 386,627 a year against 240,000 of cost, a net 386,627 − 240,000 = 146,627 and a ratio of 386,627 ÷ 240,000 = 1.61. Over five years at 9 per cent the annual net benefit is worth 146,627 × 3.8897 = 570,335, against 150,000 of one-off qualification cost, leaving 570,335 − 150,000 = 420,335 of value.
+The eleven clean years. They are evidence and they are not proof. An event assessed at a quarter in a year would be expected to occur about three times in eleven years, so eleven clean years is either good fortune or evidence that the 0.25 is too high — and that question is answerable, from the supplier's own delivery record, from the harvest history, and from what happened to competitors in the poor crop years. If the honest figure is 0.10 rather than 0.25, the benefit falls to about 155,000 and the proposal is marginal. The board should ask for that work rather than decide on the anecdote.
+Against the roasting line. The two are not competing uses of the same money, and presenting them as alternatives misstates the choice. The roasting line creates 1,041,630 of value by adding capacity; the supply arrangement protects the contribution the existing capacity earns. A new line that cannot be fed is worth nothing, which makes the supply arrangement a condition of the investment rather than a rival to it.
+What the board should decide. Approve the supplier qualification now, at 60,000, since it is cheap, reversible and improves the negotiating position with the incumbent. Defer the buffer stock, which is the expensive 180,000, until the likelihood has been tested against the delivery and harvest records, and set a trigger: build the stock when the harvest forecast falls below the five-year average. That gives the board most of the protection immediately, at a quarter of the cost, with the rest conditional on evidence.

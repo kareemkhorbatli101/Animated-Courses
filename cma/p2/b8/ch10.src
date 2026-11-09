@@ -1,0 +1,431 @@
+Chapter 10
+Currency: what moves a rate, and what a move costs
+العملات: ما الذي يحرك سعر الصرف وما الذي يكلفه تغيره
+Orontes sells tahini in four countries and buys equipment from two. Every one of those transactions is agreed in one currency and settled in another, and between the agreement and the settlement the rate moves. This chapter is about that gap.
+It covers four things: how an exchange rate works its way into the price of a good, which is where the exposure starts; what makes rates move, which is the part candidates most often reduce to a list; how to compute an appreciation or a depreciation and say which way it ran; and what a movement costs, in the accounts and in the business. Chapter 11 then manages the exposure.
+Figure F810-01 is your map.
+Figure F810-01. Chapter 10 roadmap: rates and prices, what moves them, measuring the move, and what it costs.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.6.a | Demonstrate an understanding of foreign currencies and how they affect the prices of goods and services. | C | Full treatment
+B.6.b | Identify the variables that affect exchange rates. | C | Full treatment
+B.6.c | Calculate whether a currency has appreciated or depreciated against another over time and evaluate the impact. | C | Full treatment
+B.6.e | Calculate the net profit or loss of cross-border transactions and evaluate its impact. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+exchange rate | سعر الصرف | taux de change
+spot rate | السعر الفوري | taux au comptant
+forward rate | السعر الآجل | taux à terme
+direct quote | التسعير المباشر | cotation au certain
+appreciation | ارتفاع قيمة العملة | appréciation
+depreciation | انخفاض قيمة العملة | dépréciation
+purchasing power parity | تعادل القوة الشرائية | parité des pouvoirs d'achat
+interest rate parity | تعادل أسعار الفائدة | parité des taux d'intérêt
+transaction exposure | التعرض المعاملاتي | exposition de transaction
+translation exposure | تعرض الترجمة | exposition de conversion
+economic exposure | التعرض الاقتصادي | exposition économique
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 classified a currency movement as market risk, a kind of financial risk. Chapter 7 measured Orontes's net euro exposure at 2,000,000 − 400,000 = 1,600,000 and hedged three quarters of it. Chapter 8 computed a value at risk on that position. This chapter explains what the exposure is, and Chapter 11 covers the instruments.
+10.1  Rates, and the prices of goods
+An exchange rate is the price of one currency in another, and like any price it can be quoted either way round. For a company reporting in dollars, a direct quote states how many dollars one unit of the foreign currency costs — $1.0800 to the euro — and an indirect quote states how many euros a dollar buys, which is 1 ÷ 1.0800 = 0.9259. Both describe the same rate, and reversing them is the single commonest arithmetic error in this topic. Read the quote before computing anything.
+The first outcome asks how foreign currency affects the prices of goods and services, and the mechanism runs in both directions.
+What the company's product costs a foreign buyer. Orontes's jar sells at $12.00. At 1.0800 dollars to the euro, a European buyer pays 12.00 ÷ 1.0800 = 11.11 euros. If the rate moves to 1.1500 — the euro buying more dollars — the same jar costs 12.00 ÷ 1.1500 = 10.43 euros. Orontes has not changed its price and its product has become 6 per cent cheaper in Europe.
+What a foreign input costs the company. A spare part priced at 50 euros costs 50 × 1.0800 = 54.00 before the move and 50 × 1.1500 = 57.50 after it. Orontes's costs have risen without any supplier raising a price.
+Three consequences follow and they are the examinable substance.
+A weaker home currency helps exporters and hurts importers, and a stronger one does the reverse. Orontes, which exports tahini and imports equipment, is affected both ways and the net position depends on the balance of the two.
+Competitiveness changes even where the company does not trade at all. A domestic producer competing with imports is helped by a weaker home currency, because the imports become dearer; it has a currency exposure without a single foreign transaction, which is the economic exposure of section 10.4.
+And prices do not adjust fully or immediately. Exporters often hold foreign prices steady and absorb the movement in their margins, to protect market share — pricing to market — which converts a price effect into a profit effect. Orontes's decision whether to pass the euro movement on is exactly Book 3's Chapter 11 question about market structure, asked in another currency.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+indirect quote | التسعير غير المباشر | cotation à l'incertain
+pricing to market | التسعير وفق السوق | prix de marché local
+competitiveness | القدرة التنافسية | compétitivité
+pass-through | انتقال أثر السعر | répercussion
+@end
+SECTION CHECK   Test yourself
+SC10-1  At 1.0800 dollars to the euro, a jar priced at 12.00 dollars costs a European buyer:
+A.	11.11 euros
+B.	12.96 euros
+C.	10.43 euros
+D.	13.00 euros
+SC10-2  A weaker home currency:
+A.	helps exporters and hurts importers.
+B.	helps importers and hurts exporters.
+C.	helps both.
+D.	affects neither.
+SC10-3  A purely domestic producer competing with imports:
+A.	has a currency exposure without any foreign transaction.
+B.	has no currency exposure.
+C.	has only translation exposure.
+D.	is unaffected by rates.
+Answers and explanations are at the end of the chapter.
+10.2  What moves a rate
+The outcome asks for the variables that affect exchange rates, and seven cover the syllabus. Learn them with their direction, because a question usually asks which way the rate moves.
+Relative inflation. A country whose prices rise faster than its trading partners' sees its currency weaken, because its goods become uncompetitive until the rate corrects. This is purchasing power parity, which says that the expected change in the rate equals the difference in inflation rates. Where home inflation is 8 per cent and the other country's is 3 per cent, the home currency is expected to weaken by about 1.08 ÷ 1.03 = 1.0485, which is 4.85 per cent. Purchasing power parity holds poorly over months and reasonably well over years, which is exactly the opposite of what a treasurer needs.
+Relative interest rates. Higher interest rates attract capital and strengthen a currency in the short run, while the forward market prices the opposite: interest rate parity says the currency with the higher interest rate trades at a forward discount, so that no risk-free profit exists from borrowing in one currency and lending in the other. At a spot of 1.0800, a dollar rate of 6 per cent and a euro rate of 3 per cent, the forward rate is 1.06 ÷ 1.03 = 1.0291 times the spot, which is 1.0800 × 1.0291 = 1.1114.
+The balance of payments. A persistent trade deficit means more of the home currency is being sold to buy foreign goods than is being bought, which weakens it, subject to capital flows running the other way.
+Economic growth and relative performance. A growing economy attracts investment and strengthens its currency, though growth also pulls in imports, which works the other way.
+Government and central bank action. Intervention in the market, capital controls, and above all monetary policy. A central bank raising rates to control inflation is acting on the rate whether or not that is its purpose.
+Political stability and country risk. The political risk of Chapter 1, priced. Instability, conflict, a disputed election or an unpredictable legal system all drive capital out and weaken a currency.
+Expectations and speculation. Rates move on what the market expects rather than on what has happened, which is why an announcement moves a rate and the event it announces often does not. Speculative flows dwarf trade flows in the major currencies, so a rate can move a long way from anything a trade-based model would predict, and stay there.
+Two cautions belong with the list, and strong answers include them.
+The variables interact and often conflict. Higher interest rates strengthen a currency; the inflation they are being used to fight weakens it. Which dominates depends on what the market believes about the future, not on either variable alone.
+And exchange rate forecasting is unreliable over the horizons companies care about. That is not a reason to ignore the variables, which explain the direction of pressure; it is a reason to manage exposure with the instruments of Chapter 11 rather than to take positions based on a view.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+forward discount | الخصم الآجل | déport
+balance of payments | ميزان المدفوعات | balance des paiements
+intervention | التدخل | intervention
+capital flows | تدفقات رأس المال | flux de capitaux
+@end
+SECTION CHECK   Test yourself
+SC10-4  Purchasing power parity says the expected change in a rate equals:
+A.	the difference in inflation rates.
+B.	the difference in interest rates.
+C.	the trade balance.
+D.	the growth differential.
+SC10-5  Home inflation of 8 per cent against 3 per cent abroad implies an expected weakening of about:
+A.	4.85 per cent
+B.	5.00 per cent
+C.	11.00 per cent
+D.	2.67 per cent
+SC10-6  Interest rate parity implies that the currency with the higher interest rate trades at:
+A.	a forward discount.
+B.	a forward premium.
+C.	the spot rate.
+D.	a fixed rate.
+Answers and explanations are at the end of the chapter.
+10.3  Appreciation and depreciation
+The third outcome asks for a calculation and for a judgment, and the calculation has one trap in it.
+A currency appreciates when it buys more of another currency and depreciates when it buys less. The percentage change is computed on the currency being described, which means the same movement produces two different percentages depending on which side you stand.
+WORKED EXAMPLE   Worked example: one movement, two percentages
+Step 1. The movement. The rate goes from 1.0800 dollars to the euro at the start of the year to 1.1500 at the end.
+Step 2. From the euro's side. The euro now buys more dollars, so it has appreciated, by 1.1500 − 1.0800 = 0.0700 on a base of 1.0800, which is 0.0700 ÷ 1.0800 = 6.48 per cent.
+Step 3. From the dollar's side. Restate the rate in euros per dollar: it was 1 ÷ 1.0800 = 0.9259 and is now 1 ÷ 1.1500 = 0.8696. The dollar now buys fewer euros, so it has depreciated, by 0.9259 − 0.8696 = 0.0563 on a base of 0.9259, which is 0.0563 ÷ 0.9259 = 6.08 per cent.
+Step 4. Why the two differ. A 6.48 per cent appreciation of one currency is a 6.08 per cent depreciation of the other, because the base changes. The two are never equal except for very small movements, and a question that gives one and asks for the other is testing precisely this.
+Check. State the direction in words before computing anything: "the euro buys more dollars than it did, so the euro is stronger and the dollar is weaker." Candidates lose marks by computing a correct percentage and attaching it to the wrong currency.
+Evaluating the impact is the second half of the outcome, and it runs through three questions.
+Who is helped. Orontes's export sales are invoiced in euros, so a stronger euro means more dollars per sale. Its European purchases cost more. On balance, a company that sells more abroad than it buys gains from a weaker home currency.
+What it does to competitiveness. Orontes's jar fell from 11.11 to 10.43 euros without a price change, which is an opportunity to take share or to raise the euro price and keep the gain — a decision, not an automatic consequence.
+And whether the movement is temporary or structural. A movement that reverses within the year affects transactions in flight and nothing else. A movement that persists changes where it is sensible to produce, source and sell, which is the economic exposure of the next section and a matter for the board rather than the treasurer.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+base of a percentage | أساس النسبة | base du pourcentage
+stronger currency | العملة الأقوى | monnaie plus forte
+structural movement | التغير الهيكلي | mouvement structurel
+share gain | اكتساب حصة سوقية | gain de parts de marché
+@end
+SECTION CHECK   Test yourself
+SC10-7  A rate moving from 1.0800 to 1.1500 dollars per euro means the euro has:
+A.	appreciated by 6.48 per cent.
+B.	depreciated by 6.48 per cent.
+C.	appreciated by 6.08 per cent.
+D.	depreciated by 6.08 per cent.
+SC10-8  The same movement means the dollar has:
+A.	depreciated by 6.08 per cent.
+B.	depreciated by 6.48 per cent.
+C.	appreciated by 6.08 per cent.
+D.	not changed.
+SC10-9  The two percentages differ because:
+A.	the base of the calculation changes with the currency described.
+B.	one is computed over a different period.
+C.	one includes inflation.
+D.	one uses the forward rate.
+Answers and explanations are at the end of the chapter.
+10.4  Three kinds of exposure
+Before computing the profit or loss on a transaction, it is worth separating three exposures, because they are measured differently, managed differently and confused constantly.
+Transaction exposure. The risk that the home-currency value of a committed foreign-currency cash flow changes between the commitment and the settlement: an invoice issued, an order placed, a loan to be repaid. It is specific, dated, measurable, and it is what the hedges of Chapter 11 address. Section 10.5 computes it.
+Translation exposure, also called accounting exposure. The risk that the reported value of foreign assets, liabilities and results changes when they are translated into the reporting currency for the financial statements. It affects the balance sheet and the reported figures without any cash moving, which is why companies disagree about how far it should be hedged: hedging an accounting number with a real cash instrument converts a book entry into a cash gain or loss.
+Economic exposure, also called operating exposure. The risk that the present value of the company's future cash flows changes because of a rate movement — including the cash flows of a business that has no foreign transactions at all. It is the largest of the three, the hardest to measure, and the one that cannot be hedged with a forward contract, because it has no date and no amount. It is managed structurally: where production is located, where inputs are bought, what currency prices are set in, how flexible sourcing is.
+Figure F810-02 sets them out.
+Figure F810-02. Three exposures
+@table
+Exposure | What is at risk | Horizon | Managed by
+Transaction | Committed foreign-currency cash flows | Days to months | Forwards, options, matching
+Translation | Reported amounts on consolidation | Reporting date | Matching assets with local borrowing
+Economic | Present value of future cash flows | Years | Location, sourcing, pricing, flexibility
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+committed cash flow | التدفق النقدي الملتزم به | flux engagé
+accounting exposure | التعرض المحاسبي | exposition comptable
+operating exposure | التعرض التشغيلي | exposition opérationnelle
+structural response | الاستجابة الهيكلية | réponse structurelle
+@end
+SECTION CHECK   Test yourself
+SC10-10  Translation exposure affects:
+A.	reported amounts, without any cash moving.
+B.	committed cash flows.
+C.	future operating cash flows.
+D.	nothing measurable.
+SC10-11  Economic exposure cannot be hedged with a forward contract because it:
+A.	has no fixed date or amount.
+B.	is too small.
+C.	is an accounting entry.
+D.	is always hedged naturally.
+SC10-12  A company with no foreign transactions:
+A.	can still have economic exposure through competition with imports.
+B.	has no exposure of any kind.
+C.	has only translation exposure.
+D.	has only transaction exposure.
+Answers and explanations are at the end of the chapter.
+10.5  The profit or loss on a cross-border transaction
+The fourth outcome asks for a calculation and for its evaluation. The calculation is a subtraction and the discipline is in getting the dates right.
+A foreign-currency transaction is recorded at the rate on the day it is entered into. It is settled at the rate on the day the money moves. The difference, applied to the foreign-currency amount, is the exchange gain or loss, and it goes to the income statement in the period it arises.
+WORKED EXAMPLE   Worked example: Orontes's year in euros
+Step 1. The sale. On 1 March Orontes invoices its European distributor 2,000,000 euros, payable in ninety days. The spot rate is 1.0800, so the sale is recorded at 2,000,000 × 1.0800 = 2,160,000.
+Step 2. The settlement. On 30 May the euro has strengthened to 1.1500, so the receipt is worth 2,000,000 × 1.1500 = 2,300,000 and the exchange gain is 2,300,000 − 2,160,000 = 140,000.
+Step 3. The purchase. On the same dates Orontes owes 400,000 euros for packaging, recorded at 400,000 × 1.0800 = 432,000 and settled at 400,000 × 1.1500 = 460,000, giving a loss of 460,000 − 432,000 = 28,000.
+Step 4. The net. The year's cross-border position produces 140,000 − 28,000 = 112,000 of net exchange gain.
+Check. Two things to notice. The gain and the loss arise on the same movement in opposite directions, which is the natural hedge of Chapter 7 visible in the accounts: only the net 1,600,000 of exposure was ever at risk. And the 112,000 is a windfall, not a performance: it arose because the euro moved favourably, and the same position would have produced a loss of similar size had it moved the other way. Reporting it as a trading result would be exactly the kind of earnings-quality problem Book 1's Chapter 17 examined.
+Evaluating the impact, which the outcome also asks for, means saying four things.
+How large it is relative to the business. On operating income of $4,176,000, a 112,000 swing is under 3 per cent — material but not threatening. The same movement on a company with half the margin and twice the exports would be decisive.
+Whether it is symmetrical. It is: the position that produced 112,000 of gain would have produced a comparable loss, and a board told only about favourable years is being misled.
+What it says about the exposure. A gain on an unhedged position is not a success; it is evidence that the company was carrying an unmanaged exposure and was lucky.
+And whether it changes any decision. A persistent movement changes the competitiveness of exporting and may change where Orontes buys its packaging, which is economic exposure and belongs in a strategy discussion rather than a treasury report.
+YOUR TURN   Rates and results
+Figure F810-03 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F810-03. Your turn: currency arithmetic (complete the blanks)
+@table
+Item | Data | Answer
+Euro appreciation | From 1.0800 to 1.1500 dollars per euro | ________
+Dollar depreciation on the same move | Inverse rates 0.9259 and 0.8696 | ________
+A 12.00 jar in euros, after the move | Rate 1.1500 | ________
+Gain on a 2,000,000 euro receivable | Invoiced at 1.0800, settled at 1.1500 | ________
+Loss on a 400,000 euro payable | Same two rates | ________
+Forward rate implied by interest parity | Spot 1.0800; dollar 6 per cent, euro 3 per cent | ________
+@end
+LANGUAGE FOCUS   "Strong", "weak", "up" and "down"
+No vocabulary in finance causes more confusion than this one, because the words are relative and the direction depends on which currency you are standing in. "The rate went up" is meaningless without saying which rate: 1.0800 to 1.1500 is up if you are quoting dollars per euro and down if you are quoting euros per dollar, and it is the same event. Strong and weak are safer, because they attach to a named currency — "the euro strengthened" cannot be misread — and professional writing uses them for exactly that reason. English also carries a value judgment in the pair: strong sounds good and weak sounds bad, which is wrong for an exporter, and newspapers in every language make the same mistake. Arabic ارتفاع قيمة العملة and انخفاض قيمتها state the rise and fall of a named currency's value, which is unambiguous; French appréciation and dépréciation do the same. In an exam answer, name the currency and say strengthened or weakened, then give the percentage and the base.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+exchange gain | ربح الصرف | gain de change
+settlement date | تاريخ التسوية | date de règlement
+windfall | المكسب العارض | gain fortuit
+symmetrical outcome | النتيجة المتماثلة | résultat symétrique
+@end
+SECTION CHECK   Test yourself
+SC10-13  A 2,000,000 euro receivable invoiced at 1.0800 and settled at 1.1500 produces:
+A.	a gain of 140,000
+B.	a loss of 140,000
+C.	a gain of 2,300,000
+D.	no gain or loss
+SC10-14  An exchange gain on an unhedged position is evidence that:
+A.	the company carried an unmanaged exposure and was fortunate.
+B.	the treasury performed well.
+C.	the exposure was hedged.
+D.	the rate will continue to move that way.
+SC10-15  A gain of 140,000 and a loss of 28,000 in the same period net to:
+A.	112,000
+B.	168,000
+C.	140,000
+D.	28,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F810-04 brings the chapter together.
+Figure F810-04. Chapter 10 summary map: the key rule for each section.
+An exchange rate is the price of one currency in another and can be quoted directly or indirectly, with 1 ÷ 1.0800 = 0.9259 the same rate read the other way; it reaches the price of goods in both directions, so a 12.00 jar costs 12.00 ÷ 1.0800 = 11.11 euros before a move and 12.00 ÷ 1.1500 = 10.43 after it, a weaker home currency helps exporters and hurts importers, and a purely domestic producer competing with imports has an exposure without a single foreign transaction. Rates move on relative inflation — purchasing power parity putting the expected change at 1.08 ÷ 1.03 = 1.0485, or 4.85 per cent — relative interest rates, which interest rate parity turns into a forward of 1.0800 × 1.0291 = 1.1114, the balance of payments, growth, government and central bank action, political stability, and expectations, with the variables interacting and forecasting unreliable over the horizons that matter. One movement gives two percentages: from 1.0800 to 1.1500 the euro appreciated 0.0700 ÷ 1.0800 = 6.48 per cent while the dollar depreciated 0.0563 ÷ 0.9259 = 6.08 per cent, because the base changes. Three exposures must be kept apart — transaction, on committed flows; translation, on reported amounts with no cash moving; and economic, on the value of future cash flows, which has no date and so cannot be forwarded away. And the profit or loss on a cross-border transaction is the movement applied to the amount between recording and settlement: 2,300,000 − 2,160,000 = 140,000 of gain on the receivable, 460,000 − 432,000 = 28,000 of loss on the payable, a net 140,000 − 28,000 = 112,000 — which is a windfall on an unmanaged position rather than a performance, and would have been a loss of similar size had the euro moved the other way.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P10-01  A direct quote for a dollar-reporting company states:
+A.	how many dollars one unit of the foreign currency costs.
+B.	how many foreign units a dollar buys.
+C.	the forward rate.
+D.	the inflation differential.
+P10-02  At 1.1500 dollars to the euro, a 12.00 dollar jar costs:
+A.	10.43 euros
+B.	13.80 euros
+C.	11.11 euros
+D.	12.00 euros
+P10-03  A weaker home currency:
+A.	makes exports more competitive and imports dearer.
+B.	makes exports dearer.
+C.	has no effect on competitiveness.
+D.	lowers import costs.
+P10-04  Purchasing power parity links exchange rate changes to:
+A.	inflation differentials.
+B.	interest differentials.
+C.	growth differentials.
+D.	trade volumes.
+P10-05  Interest rate parity links the forward rate to:
+A.	interest differentials.
+B.	inflation differentials.
+C.	the trade balance.
+D.	political risk.
+P10-06  A spot of 1.0800 with interest of 6 per cent and 3 per cent implies a forward of about:
+A.	1.1114
+B.	1.0497
+C.	1.1448
+D.	1.0291
+P10-07  A rate moving from 1.0800 to 1.1500 dollars per euro is a euro appreciation of:
+A.	6.48 per cent
+B.	6.08 per cent
+C.	7.00 per cent
+D.	0.07 per cent
+P10-08  The matching dollar depreciation is:
+A.	6.08 per cent
+B.	6.48 per cent
+C.	5.63 per cent
+D.	9.26 per cent
+P10-09  Translation exposure arises on:
+A.	consolidation of foreign amounts into the reporting currency.
+B.	settlement of an invoice.
+C.	a competitor's pricing.
+D.	a forward contract.
+P10-10  Economic exposure is best managed by:
+A.	where the company produces, sources and prices.
+B.	a forward contract.
+C.	an option.
+D.	a currency swap.
+P10-11  A 2,000,000 euro receivable recorded at 1.0800 and settled at 1.1500 gives:
+A.	a gain of 140,000
+B.	a loss of 140,000
+C.	a gain of 70,000
+D.	a gain of 2,160,000
+P10-12  A gain of 140,000 offset by a loss of 28,000 is a net:
+A.	gain of 112,000
+B.	loss of 112,000
+C.	gain of 168,000
+D.	gain of 28,000
+Case-style practice: the European year
+Over the past year the euro moved from 1.0800 to 1.1500 dollars. Orontes invoiced 2,000,000 euros of sales and paid 400,000 euros of costs, neither hedged, and reported a net exchange gain of 112,000 in other income. Its European distributor has asked for a euro price reduction, pointing out that Orontes's jars have become cheaper in dollar terms.
+Required. Explain to Orontes's board what happened, whether the 112,000 is good news, how to answer the distributor, and what should change. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC10-1  Answer A. 12.00 ÷ 1.0800 = 11.11 euros.
+B is wrong. That multiplies instead of dividing.
+C is wrong. That uses the later rate.
+D is wrong. This has no basis in the figures.
+SC10-2  Answer A. Exports become cheaper abroad; imports cost more.
+B is wrong. That is a stronger currency.
+C is wrong. The effects run opposite ways.
+D is wrong. Both are affected.
+SC10-3  Answer A. Competing imports change price with the rate.
+B is wrong. Exposure does not require a transaction.
+C is wrong. Nothing is being translated.
+D is wrong. No transaction is committed.
+SC10-4  Answer A. Inflation differentials drive it.
+B is wrong. That is interest rate parity.
+C is wrong. The trade balance is a separate variable.
+D is wrong. Growth is another separate variable.
+SC10-5  Answer A. 1.08 ÷ 1.03 = 1.0485, or 4.85 per cent.
+B is wrong. That is the simple difference.
+C is wrong. That adds the two rates.
+D is wrong. That has no basis in the relationship.
+SC10-6  Answer A. A discount offsets the interest advantage.
+B is wrong. A premium would create arbitrage.
+C is wrong. The forward differs from spot.
+D is wrong. Rates are not fixed by parity.
+SC10-7  Answer A. 0.0700 ÷ 1.0800 = 6.48 per cent, and the euro buys more.
+B is wrong. The euro is stronger, not weaker.
+C is wrong. That is the dollar's percentage.
+D is wrong. Both the direction and the base are wrong.
+SC10-8  Answer A. 0.0563 ÷ 0.9259 = 6.08 per cent.
+B is wrong. That is the euro's percentage.
+C is wrong. The dollar is weaker.
+D is wrong. It has changed.
+SC10-9  Answer A. A different base gives a different percentage.
+B is wrong. The period is identical.
+C is wrong. Inflation is not in the calculation.
+D is wrong. Both use spot rates.
+SC10-10  Answer A. Reported amounts change without cash moving.
+B is wrong. That is transaction exposure.
+C is wrong. That is economic exposure.
+D is wrong. It is measurable at each reporting date.
+SC10-11  Answer A. No date and no amount to contract for.
+B is wrong. It is usually the largest exposure.
+C is wrong. That is translation exposure.
+D is wrong. Natural hedging is partial at best.
+SC10-12  Answer A. Import competition transmits the rate.
+B is wrong. Exposure exists through competition.
+C is wrong. Nothing foreign is consolidated.
+D is wrong. No foreign transaction exists.
+SC10-13  Answer A. 2,300,000 − 2,160,000 = 140,000.
+B is wrong. The movement was favourable for a receivable.
+C is wrong. That is the settled amount.
+D is wrong. The rate changed.
+SC10-14  Answer A. It is luck, not management.
+B is wrong. No decision produced it.
+C is wrong. A hedge would have removed it.
+D is wrong. Past movements do not predict future ones.
+SC10-15  Answer A. 140,000 − 28,000 = 112,000.
+B is wrong. This adds instead of subtracting.
+C is wrong. That ignores the loss.
+D is wrong. That is the loss alone.
+Your turn
+@table
+Item | Answer
+Euro appreciation | 6.48 per cent: 0.0700 ÷ 1.0800 = 6.48 per cent.
+Dollar depreciation | 6.08 per cent: 0.0563 ÷ 0.9259 = 6.08 per cent.
+A 12.00 jar in euros after the move | 10.43 euros: 12.00 ÷ 1.1500 = 10.43.
+Gain on the receivable | 140,000: 2,300,000 − 2,160,000 = 140,000.
+Loss on the payable | 28,000: 460,000 − 432,000 = 28,000.
+Forward rate by interest parity | 1.1114: 1.0800 × 1.0291 = 1.1114.
+What it tells you | The first three are about competitiveness and the last three about cash — and the exam asks for both, because a movement that helps the income statement may be hurting the business, or the reverse.
+@end
+Multiple-choice questions
+P10-01  Answer A. Home currency per foreign unit.
+B is wrong. That is the indirect quote.
+C is wrong. Forwards are a different rate.
+D is wrong. Inflation is a driver, not a quote.
+P10-02  Answer A. 12.00 ÷ 1.1500 = 10.43 euros.
+B is wrong. That multiplies instead of dividing.
+C is wrong. That uses the earlier rate.
+D is wrong. The price is in dollars.
+P10-03  Answer A. Exports cheaper abroad, imports dearer at home.
+B is wrong. That is a stronger currency.
+C is wrong. Competitiveness changes directly.
+D is wrong. Imports become more expensive.
+P10-04  Answer A. Inflation differentials.
+B is wrong. That is interest rate parity.
+C is wrong. Growth is separate.
+D is wrong. Volumes are a consequence.
+P10-05  Answer A. Interest differentials.
+B is wrong. That is purchasing power parity.
+C is wrong. Trade is a separate variable.
+D is wrong. Political risk is separate.
+P10-06  Answer A. 1.0800 × 1.0291 = 1.1114.
+B is wrong. That uses the wrong differential.
+C is wrong. That applies the rates directly.
+D is wrong. That is the ratio, not the rate.
+P10-07  Answer A. 0.0700 ÷ 1.0800 = 6.48 per cent.
+B is wrong. That is the dollar's figure.
+C is wrong. That is the absolute change, not a percentage.
+D is wrong. That misplaces a decimal.
+P10-08  Answer A. 0.0563 ÷ 0.9259 = 6.08 per cent.
+B is wrong. That is the euro's figure.
+C is wrong. That is the absolute change in the inverse rate.
+D is wrong. That has no basis in the calculation.
+P10-09  Answer A. Consolidation of foreign amounts.
+B is wrong. Settlement gives transaction exposure.
+C is wrong. Competition gives economic exposure.
+D is wrong. A forward is a hedge.
+P10-10  Answer A. Structural choices.
+B is wrong. Forwards need a date and an amount.
+C is wrong. So do options.
+D is wrong. So do swaps.
+P10-11  Answer A. 2,300,000 − 2,160,000 = 140,000.
+B is wrong. The direction is favourable.
+C is wrong. That halves it.
+D is wrong. That is the recorded amount.
+P10-12  Answer A. 140,000 − 28,000 = 112,000.
+B is wrong. The net is a gain.
+C is wrong. This adds instead of subtracting.
+D is wrong. That is the loss alone.
+Case-style set: the European year
+What happened. The euro strengthened from 1.0800 to 1.1500 dollars, an appreciation of 0.0700 ÷ 1.0800 = 6.48 per cent, which is the same movement as a dollar depreciation of 0.0563 ÷ 0.9259 = 6.08 per cent. Orontes held euro receivables and euro payables through that movement, gaining 2,300,000 − 2,160,000 = 140,000 on the first and losing 460,000 − 432,000 = 28,000 on the second, for a net 140,000 − 28,000 = 112,000.
+Is it good news? It is a favourable outcome and not a good result. Nothing the company did produced it: the position was unhedged, so an identical movement in the other direction would have produced a loss of comparable size, and the board should be told that explicitly. A gain of this kind belongs in other income, as it has been reported, and should never be described as a trading improvement. The useful conclusion is not that 112,000 was earned but that the company was carrying 1,600,000 of net exposure that nobody had decided to carry.
+The distributor's request. The distributor is right about the arithmetic and wrong about the entitlement. At the new rate the jar costs 12.00 ÷ 1.1500 = 10.43 euros against 11.11 before, so Orontes's product has become about 6 per cent cheaper in Europe without any price change. But that is a benefit the movement handed to the distributor, not a saving Orontes made — Orontes still receives 12.00 — and the question is who keeps it. Three answers are defensible: hold the euro price and let the distributor's margin improve, in exchange for a volume commitment; cut the euro price and take the share gain; or share it, with a contractual mechanism that adjusts the price when the rate moves more than a stated amount in either direction. The third is the one I would propose, because it also protects Orontes when the rate moves back.
+What should change. The policy of Chapter 6 — at least 75 per cent of contracted exposure hedged — should actually be applied, which it evidently was not. The natural offset of euro purchases should be taken first, leaving the net 1,600,000 to hedge. And the economic exposure, which is the real one, belongs in the board's discussion of where Orontes buys its packaging and in what currency it prices its exports.

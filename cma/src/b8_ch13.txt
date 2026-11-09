@@ -1,0 +1,568 @@
+Chapter 13
+The IMA Statement: four principles, four standards
+بيان الممارسة المهنية الأخلاقية: أربعة مبادئ وأربعة معايير
+Chapter 12 described ethics in general. This chapter is about the specific document that binds you: the IMA Statement of Ethical Professional Practice, which every member and every certificate holder agrees to follow, and which the exam tests by giving you a situation and asking which standards it engages.
+The Statement is short. It sets out four overarching principles that describe the values, and four standards that describe conduct, each with its specific obligations. Learning it as eight headings is enough to recognise them; learning what each obligation actually requires is what earns the marks, because the examiners write situations in which two or three standards are engaged at once and the answer must say which and why.
+Figure F813-01 is your map.
+Figure F813-01. Chapter 13 roadmap: four principles, four standards, and how to apply them to a situation.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+F.2.a
+Identify and describe the four overarching ethical principles and the four standards.
+C
+Full treatment
+F.2.b
+Evaluate a given business situation for its ethical implications.
+C
+Full treatment
+F.2.c
+Identify and describe the standards that may have been violated in a situation and explain why they apply.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section F outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+honesty
+الصدق
+honnêteté
+fairness
+الإنصاف
+équité
+objectivity
+الموضوعية
+objectivité
+responsibility
+المسؤولية
+responsabilité
+competence
+الكفاءة
+compétence
+confidentiality
+السرية
+confidentialité
+integrity
+النزاهة
+intégrité
+credibility
+المصداقية
+crédibilité
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 12 defined fairness, integrity, due diligence and fiduciary responsibility and catalogued the frauds. This chapter is the professional codification of the same material: two of Chapter 12's four concepts appear here as a principle and a standard, due diligence appears inside Competence, and the fiduciary duty of confidentiality is a standard of its own.
+13.1  The four principles
+The Statement opens with four overarching ethical principles, which express the values members are expected to hold. They are not rules to be complied with one at a time; they are the basis on which the standards rest, and the Statement says that members shall act in accordance with these principles and shall encourage others within their organisations to do the same.
+Honesty. Not deceiving: in what is said, in what is written, and in what is left out. Chapter 12 made the point that a technically true statement arranged to mislead is dishonest, and the principle covers it.
+Fairness. Treating people and interests even-handedly, with the three dimensions of Chapter 12 — outcome, process and treatment.
+Objectivity. Reporting and judging on the evidence, free from bias and from the influence of personal interest or of pressure from others. It is the principle that distinguishes a professional opinion from a convenient one.
+Responsibility. Accepting accountability for one's actions and for one's professional obligations, including the obligation to act when something is wrong rather than to observe it.
+Two points about the principles are worth having for an exam.
+They apply to the individual, personally and continuously, regardless of the employer's instructions. The Statement is a commitment made by the member, and no instruction from an employer releases it.
+And they are the reason the standards exist, which matters when a situation is not covered neatly by any standard. Where the rules run out, the principles decide.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+overarching principle
+المبدأ الشامل
+principe directeur
+even-handed
+غير متحيز
+impartial
+accountability
+المساءلة
+responsabilité
+personal commitment
+الالتزام الشخصي
+engagement personnel
+SECTION CHECK   Test yourself
+SC13-1  The four overarching principles are honesty, fairness, objectivity and:
+A.	responsibility.
+B.	competence.
+C.	confidentiality.
+D.	credibility.
+SC13-2  The principles apply:
+A.	to the member personally, regardless of the employer's instructions.
+B.	only where a standard is specific.
+C.	only to senior members.
+D.	only within the employer's code.
+SC13-3  Where no standard covers a situation precisely:
+A.	the principles decide.
+B.	no obligation arises.
+C.	the employer decides.
+D.	the law alone applies.
+Answers and explanations are at the end of the chapter.
+13.2  Competence
+The first standard. Its obligations are four and each has teeth.
+Maintain an appropriate level of professional leadership and expertise by continually developing knowledge and skills. Competence is not a state reached once; the obligation is continuing, and it extends to leadership as well as technique.
+Perform professional duties in accordance with relevant laws, regulations and technical standards. This is the obligation that makes a breach of accounting standards an ethical matter and not only a technical one.
+Provide decision support information and recommendations that are accurate, clear, concise and timely. All four adjectives are obligations: an accurate analysis delivered after the decision, or an accurate one nobody can follow, has not met the standard.
+Recognise and help manage risk. The whole first half of this book is inside this clause, and it is the clause most candidates forget. Identifying an exposure and saying nothing is a breach of competence.
+Three situations in which competence is the standard engaged.
+Accepting an assignment beyond one's expertise without saying so. The obligation is not to know everything; it is to be honest about the limit and to get help, which also engages Credibility's fourth clause.
+Working from a model, a spreadsheet or an assumption the professional has not understood. Chapter 7's spreadsheet error is an operational risk and also, where the preparer did not understand it, a competence failure.
+And failing to keep up: applying a superseded standard, missing a change in the law, using a technique that has been replaced.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+continuing development
+التطوير المستمر
+formation continue
+technical standard
+المعيار الفني
+norme technique
+decision support
+دعم القرار
+aide à la décision
+timeliness
+التوقيت المناسب
+opportunité
+SECTION CHECK   Test yourself
+SC13-4  Which obligation sits inside Competence?
+A.	Recognise and help manage risk.
+B.	Keep information confidential.
+C.	Avoid conflicts of interest.
+D.	Communicate information fairly and objectively.
+SC13-5  An accurate analysis delivered after the decision has been taken:
+A.	fails the timeliness obligation within Competence.
+B.	meets the standard, being accurate.
+C.	breaches Confidentiality.
+D.	breaches Integrity.
+SC13-6  Accepting work beyond one's expertise without saying so engages:
+A.	Competence, and Credibility's duty to communicate limitations.
+B.	Confidentiality only.
+C.	no standard.
+D.	Integrity only.
+Answers and explanations are at the end of the chapter.
+13.3  Confidentiality
+The second standard, and the one with the clearest edges and the hardest exceptions. Its obligations are three.
+Keep information confidential except when disclosure is authorised or legally required. The exception is narrow and precise: authorised, or legally required. A belief that disclosure would be beneficial is not an exception, and neither is a request from somebody who ought to know.
+Inform all relevant parties regarding the appropriate use of confidential information, and monitor to ensure compliance. The obligation extends to subordinates and to anyone to whom information is passed: a professional who hands confidential information to a team without saying what may be done with it has not met the standard.
+Refrain from using confidential information for unethical or illegal advantage. Note that the prohibition is on use, not only on disclosure. Trading on inside information, buying a property the company is about to need, or taking a customer list to a new employer are breaches whether or not anything is ever told to anybody.
+Four points the examiners test.
+Confidentiality survives the employment. Leaving the company does not release the obligation.
+Confidentiality is not a reason to conceal wrongdoing from those entitled to know within the organisation. Reporting a concern up the internal chain, or to the audit committee, is not a breach, and Chapter 14's resolution process relies on that.
+Where disclosure outside the organisation is contemplated, the Statement's position is that this is not appropriate except where legally prescribed, and legal advice should be obtained. Chapter 18 deals with whistleblowing frameworks, which exist partly to give such concerns an internal route.
+And confidentiality covers more than financial data: plans, personnel matters, customer information, security arrangements, and the fact of an investigation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+legally required disclosure
+الإفصاح المطلوب قانوناً
+divulgation légalement requise
+inside information
+المعلومات الداخلية
+information privilégiée
+subordinate
+المرؤوس
+collaborateur
+survives employment
+يستمر بعد انتهاء العمل
+subsiste après le départ
+SECTION CHECK   Test yourself
+SC13-7  Confidential information may be disclosed when:
+A.	disclosure is authorised or legally required.
+B.	it would be beneficial.
+C.	the recipient asks.
+D.	the member has left the company.
+SC13-8  Using confidential information for personal advantage without telling anyone:
+A.	breaches Confidentiality, which prohibits use as well as disclosure.
+B.	is permitted, since nothing was disclosed.
+C.	breaches Competence.
+D.	is a legal matter only.
+SC13-9  Reporting a concern to the audit committee:
+A.	is not a breach of confidentiality.
+B.	breaches confidentiality.
+C.	requires the chief executive's consent.
+D.	is prohibited.
+Answers and explanations are at the end of the chapter.
+13.4  Integrity
+The third standard. Chapter 12 defined the concept; here are the Statement's four obligations.
+Mitigate actual conflicts of interest, communicate regularly with business associates to avoid apparent conflicts, and advise all parties of any potential conflicts. Three categories — actual, apparent and potential — and three different duties. An apparent conflict matters even where no actual conflict exists, because the appearance damages the reliance others place on the professional's judgment.
+Refrain from conduct that would prejudice carrying out duties ethically. This covers accepting gifts, hospitality or favours that could influence or appear to influence a decision, and anything that creates an obligation to somebody whose interests may diverge from the employer's.
+Abstain from engaging in or supporting any activity that might discredit the profession. The word supporting is important: assisting, enabling or remaining silent about such an activity falls within it.
+Contribute to a positive ethical culture and place integrity of the profession above personal interests. This is the forward-looking obligation — not merely avoiding wrong, but helping to build the culture Chapters 16 and 17 describe.
+Two distinctions candidates are expected to make.
+Integrity concerns the professional's own conduct and interests; Credibility concerns what is communicated to others. A conflict of interest engages Integrity; an incomplete report engages Credibility; and a report made incomplete in order to protect an interest engages both.
+And a gift's value is not the only test. A modest gift from a supplier in a competitive tender is a problem where a larger one from a long-standing customer with nothing pending may not be. What matters is whether it could influence, or appear to influence, a decision.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+apparent conflict
+التضارب الظاهري
+conflit apparent
+gift and hospitality
+الهدايا والضيافة
+cadeaux et invitations
+discredit the profession
+الإساءة إلى المهنة
+discréditer la profession
+ethical culture
+الثقافة الأخلاقية
+culture éthique
+SECTION CHECK   Test yourself
+SC13-10  An apparent conflict of interest matters because:
+A.	the appearance damages the reliance others place on the judgment.
+B.	it is always an actual conflict.
+C.	it is illegal.
+D.	it affects competence.
+SC13-11  Accepting hospitality from a supplier during a competitive tender:
+A.	engages Integrity, whatever its value.
+B.	is acceptable below a stated value.
+C.	engages Confidentiality.
+D.	engages Competence.
+SC13-12  Remaining silent about an activity that would discredit the profession:
+A.	falls within the prohibition on supporting such activity.
+B.	is permitted, since nothing was done.
+C.	breaches Credibility only.
+D.	is a legal matter only.
+Answers and explanations are at the end of the chapter.
+13.5  Credibility
+The fourth standard, and the one most often engaged in exam situations, because it governs what is reported. Its obligations are four.
+Communicate information fairly and objectively. Fairly covers presentation as well as content: a chart with a truncated axis, a comparison against a revised budget, a result shown before an unfavourable adjustment.
+Disclose all relevant information that could reasonably be expected to influence an intended user's understanding of reports, analyses or recommendations. This is the completeness obligation, and it is the one that makes omission a breach. The test is what the user would need, not what the preparer was asked for.
+Disclose delays or deficiencies in information, timeliness, processing or internal controls, in conformance with organisation policy or applicable law. A professional who knows a control has failed and says nothing has breached this clause, whether or not a loss followed.
+Communicate professional limitations or other constraints that would preclude responsible judgment or successful performance of an activity. If you cannot do it properly — for lack of time, information, expertise or access — say so, to somebody who can act on it.
+Three situations that engage Credibility.
+A forecast prepared on assumptions the preparer believes to be unachievable, presented without that reservation.
+A variance analysis that explains the favourable items and attributes the unfavourable ones to timing without evidence.
+And an analysis prepared for a decision in which a known weakness — an estimate with a wide range, a figure that could not be verified, a control that was not operating — is not stated.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+completeness
+الاكتمال
+exhaustivité
+intended user
+المستخدم المقصود
+utilisateur destinataire
+deficiency
+القصور
+déficience
+reservation
+التحفظ
+réserve
+SECTION CHECK   Test yourself
+SC13-13  The obligation to disclose all information that could influence a user's understanding sits within:
+A.	Credibility.
+B.	Competence.
+C.	Integrity.
+D.	Confidentiality.
+SC13-14  A professional who knows an internal control has failed and says nothing:
+A.	breaches Credibility, whether or not a loss followed.
+B.	breaches nothing until a loss occurs.
+C.	breaches Confidentiality.
+D.	has acted properly by not alarming management.
+SC13-15  Presenting results against a budget revised after the fact, without saying so, breaches:
+A.	the obligation to communicate fairly and objectively.
+B.	Confidentiality.
+C.	Competence only.
+D.	no standard, if the figures are accurate.
+Answers and explanations are at the end of the chapter.
+13.6  Applying the Statement to a situation
+The third outcome asks which standards may have been violated and why they apply, which is a specific skill with a method. Four steps produce a complete answer.
+State the facts that matter, separating what is known from what is assumed. An exam situation contains facts, and an answer that adds facts of its own loses marks.
+Identify each standard engaged, by name, and say which specific obligation within it. "This breaches Integrity" earns less than "this breaches Integrity, which requires a member to mitigate actual conflicts of interest and advise all parties of potential ones."
+Explain why the obligation applies to these facts. This is the step that carries the marks and the one candidates skip.
+Note where a standard is engaged but not necessarily breached, which is often the honest answer at the point the facts are known.
+WORKED EXAMPLE   Worked example: four facts and the standards they engage
+Step 1. The situation. Orontes's controller is asked by the chief executive to delay recognising an inventory write-down of 180,000 until after the year end, because the covenant tested at the year end requires interest cover above four times and the margin is thin. The controller's brother-in-law supplies the inventory in question. The controller mentions the request to nobody, prepares the accounts as asked, and does not refer to the write-down in the board pack.
+Step 2. Credibility, on two obligations. Communicating fairly and objectively is breached by accounts that omit a write-down known to be required; and the obligation to disclose all information that could reasonably influence a user's understanding is breached by the board pack, since the covenant position depends on it.
+Step 3. Integrity, on the conflict. The supplier relationship is an actual conflict of interest, and the obligation is to mitigate it and to advise all parties. Not mentioning it is a breach whether or not it influenced anything.
+Step 4. Competence, and then the principles. Competence requires duties to be performed in accordance with technical standards, and deferring a required write-down does not. Underneath all three, the principles of honesty and objectivity are engaged directly.
+Check. Note what the answer does not say. It does not say the chief executive is dishonest, because the facts given do not establish intent. It does not say a fraud has been committed, for Chapter 12's reason. And it does not stop at naming the standards: each is tied to a specific obligation and to a specific fact, which is what the outcome asks for.
+Figure F813-02 collects the Statement in one place.
+Figure F813-02. The Statement at a glance
+Element
+Content
+Engaged when
+Principles
+Honesty, fairness, objectivity, responsibility
+Always; and where no standard fits exactly
+Competence
+Develop expertise; follow laws and technical standards; accurate, clear, concise, timely information; recognise and help manage risk
+Work beyond expertise; standards breached; late or unclear analysis; risk unreported
+Confidentiality
+Keep it; inform and monitor those who receive it; do not use it for advantage
+Disclosure without authority; use for private gain; careless handling
+Integrity
+Mitigate actual, apparent and potential conflicts; avoid prejudicial conduct; do not support discrediting activity; build ethical culture
+Conflicts; gifts; silence about misconduct
+Credibility
+Communicate fairly and objectively; disclose all influencing information; report delays and control deficiencies; state limitations
+Omissions; misleading presentation; unreported control failures
+YOUR TURN   Which standard?
+Figure F813-03 gives six situations. Name the standard. Answers are at the end of the chapter.
+Figure F813-03. Your turn: naming the standard (complete the blanks)
+Situation
+Standard
+Omitting a known write-down from a board pack
+________
+Buying shares on information not yet public
+________
+Accepting an assignment beyond one's expertise without saying so
+________
+Failing to disclose that a supplier is a relative
+________
+Not reporting that a reconciliation control has stopped operating
+________
+Applying a superseded accounting standard through inattention
+________
+LANGUAGE FOCUS   "Shall", "should" and "may"
+Professional codes are written in a vocabulary of obligation, and the words are not interchangeable. Shall and must state a requirement: the member has no discretion. Should states a strong expectation that may yield to circumstances, and a member who departs from a should is expected to be able to say why. May grants permission or describes an option. English codes use all three deliberately, and a candidate reading a standard quickly will often turn a shall into a should in their memory, which changes the answer. Arabic يجب for a requirement and ينبغي for an expectation make the same distinction, as do French doit and devrait. The practical habit worth forming is this: when a situation asks whether something was permitted, find the verb in the obligation and read it exactly. Most ethics questions are decided by a verb.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+obligation
+الالتزام
+obligation
+discretion
+السلطة التقديرية
+pouvoir d'appréciation
+engaged but not breached
+معني دون مخالفة
+concerné sans violation
+specific obligation
+الالتزام المحدد
+obligation spécifique
+SECTION CHECK   Test yourself
+SC13-16  A complete answer to "which standards were violated" must:
+A.	name the standard, the specific obligation, and why it applies to these facts.
+B.	name the standard only.
+C.	state the law.
+D.	recommend a resignation.
+SC13-17  Where the facts do not establish intent, an answer should:
+A.	say which standards are engaged without asserting dishonesty.
+B.	assume dishonesty.
+C.	say nothing.
+D.	conclude that no standard applies.
+SC13-18  A conflict of interest that influenced nothing:
+A.	still breaches Integrity if not disclosed.
+B.	breaches nothing.
+C.	breaches Credibility.
+D.	breaches Confidentiality.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F813-04 brings the chapter together.
+Figure F813-04. Chapter 13 summary map: the key rule for each section.
+The IMA Statement of Ethical Professional Practice rests on four overarching principles — honesty, fairness, objectivity and responsibility — which bind the member personally regardless of any employer's instruction and which decide where the standards run out. Competence requires continuing development of expertise and leadership, performance in accordance with laws, regulations and technical standards, information that is accurate, clear, concise and timely, and the recognition and management of risk. Confidentiality requires information to be kept unless disclosure is authorised or legally required, those who receive it to be informed and monitored, and the information never to be used for unethical or illegal advantage — the prohibition covering use as well as disclosure, surviving the employment, and never standing in the way of reporting a concern internally. Integrity requires actual conflicts to be mitigated, apparent ones avoided and potential ones disclosed, conduct that would prejudice ethical performance refused, activities that would discredit the profession neither engaged in nor supported, and a positive ethical culture built. Credibility requires fair and objective communication, disclosure of everything that could influence an intended user's understanding, reporting of delays and deficiencies including control failures, and a statement of any limitation that would preclude responsible judgment. And applying all of it to a situation means stating the facts, naming each standard with its specific obligation, explaining why it applies to those facts, and saying where a standard is engaged without yet being breached.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P13-01  The four overarching principles are:
+A.	honesty, fairness, objectivity, responsibility.
+B.	competence, confidentiality, integrity, credibility.
+C.	honesty, competence, loyalty, care.
+D.	fairness, diligence, loyalty, accountability.
+P13-02  "Recognise and help manage risk" belongs to:
+A.	Competence.
+B.	Credibility.
+C.	Integrity.
+D.	Confidentiality.
+P13-03  Information that is accurate but late breaches:
+A.	Competence.
+B.	Confidentiality.
+C.	Integrity.
+D.	no standard.
+P13-04  Confidential information may be disclosed where:
+A.	disclosure is authorised or legally required.
+B.	it benefits the company.
+C.	a colleague asks.
+D.	the member has resigned.
+P13-05  Using confidential information for private gain without disclosing it breaches:
+A.	Confidentiality.
+B.	Credibility.
+C.	Competence.
+D.	nothing, since nothing was disclosed.
+P13-06  Advising all parties of a potential conflict of interest is required by:
+A.	Integrity.
+B.	Credibility.
+C.	Competence.
+D.	Confidentiality.
+P13-07  Supporting an activity that would discredit the profession:
+A.	breaches Integrity.
+B.	breaches Credibility.
+C.	breaches Competence.
+D.	is permitted if the member does not participate.
+P13-08  Disclosing all information that could influence a user's understanding is required by:
+A.	Credibility.
+B.	Integrity.
+C.	Competence.
+D.	Confidentiality.
+P13-09  Failing to report a control deficiency breaches:
+A.	Credibility.
+B.	Confidentiality.
+C.	Integrity.
+D.	no standard unless a loss occurs.
+P13-10  Communicating professional limitations that would preclude responsible judgment is required by:
+A.	Credibility.
+B.	Competence only.
+C.	Integrity.
+D.	Confidentiality.
+P13-11  A member instructed by an employer to breach a standard:
+A.	remains bound by the Statement.
+B.	is released by the instruction.
+C.	must comply.
+D.	is bound only if a law applies.
+P13-12  Naming a standard without tying it to a specific obligation and fact:
+A.	is an incomplete answer.
+B.	is sufficient.
+C.	breaches Credibility.
+D.	is the required form.
+Case-style practice: the quarterly pack
+Orontes's management accountant is preparing the quarterly board pack. Three things are true. The sales director has asked for the comparison to be shown against the revised forecast rather than the original budget, because the original is now unachievable, and has not asked for the change to be noted. The inventory reconciliation has not been performed for two months because the person who did it left. And a provision against a distributor's balance, agreed last quarter at 240,000, has been reduced to 90,000 on the chief executive's instruction, on the basis of a verbal assurance from the distributor that the management accountant has not seen.
+Required. Identify the standards engaged, with the specific obligations, and explain why each applies. Say what the management accountant should do. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC13-1  Answer A. Responsibility completes the four.
+B is wrong. That is a standard.
+C is wrong. So is that.
+D is wrong. So is that.
+SC13-2  Answer A. The commitment is personal and continuing.
+B is wrong. The principles apply throughout.
+C is wrong. Seniority is irrelevant.
+D is wrong. An employer's code does not define them.
+SC13-3  Answer A. The principles decide the gaps.
+B is wrong. Obligations do not lapse.
+C is wrong. The employer does not define ethics.
+D is wrong. Law is a floor, not the standard.
+SC13-4  Answer A. Risk recognition sits within Competence.
+B is wrong. That is Confidentiality.
+C is wrong. That is Integrity.
+D is wrong. That is Credibility.
+SC13-5  Answer A. Timeliness is one of the four adjectives.
+B is wrong. Accuracy alone is insufficient.
+C is wrong. No confidential information is involved.
+D is wrong. No conflict is involved.
+SC13-6  Answer A. Both standards are engaged.
+B is wrong. Confidentiality is not in point.
+C is wrong. Two standards are engaged.
+D is wrong. Competence is engaged too.
+SC13-7  Answer A. Authorised, or legally required.
+B is wrong. Benefit is not an exception.
+C is wrong. A request is not authority.
+D is wrong. The duty survives departure.
+SC13-8  Answer A. Use is prohibited as well as disclosure.
+B is wrong. The prohibition covers use.
+C is wrong. Competence is not engaged.
+D is wrong. It is a professional breach as well.
+SC13-9  Answer A. Internal reporting is not a breach.
+B is wrong. The committee is entitled to know.
+C is wrong. Consent from the subject is not required.
+D is wrong. It is the expected route.
+SC13-10  Answer A. Appearance undermines reliance.
+B is wrong. It may be only apparent.
+C is wrong. Legality is a separate question.
+D is wrong. Competence is a different standard.
+SC13-11  Answer A. Integrity is engaged regardless of value.
+B is wrong. No threshold cures a tender conflict.
+C is wrong. No confidential information is involved.
+D is wrong. Competence is not in point.
+SC13-12  Answer A. Supporting includes acquiescence.
+B is wrong. Silence can be support.
+C is wrong. Integrity is the standard engaged.
+D is wrong. Professional obligations are additional to law.
+SC13-13  Answer A. Completeness belongs to Credibility.
+B is wrong. Competence concerns capability and standards.
+C is wrong. Integrity concerns conflicts and conduct.
+D is wrong. Confidentiality concerns disclosure.
+SC13-14  Answer A. Reporting deficiencies is required.
+B is wrong. The duty is not conditional on loss.
+C is wrong. Confidentiality is not engaged.
+D is wrong. Silence is the breach.
+SC13-15  Answer A. Fair and objective communication is required.
+B is wrong. No confidential matter arises.
+C is wrong. Credibility is the standard engaged.
+D is wrong. Accuracy does not cure misleading presentation.
+SC13-16  Answer A. Standard, obligation, and application to the facts.
+B is wrong. Naming alone is incomplete.
+C is wrong. Law is a separate question.
+D is wrong. Resignation is rarely the first step.
+SC13-17  Answer A. Engagement without assertion of intent.
+B is wrong. Intent must be established, not assumed.
+C is wrong. Silence fails the question.
+D is wrong. Standards may be engaged without proven intent.
+SC13-18  Answer A. Non-disclosure is the breach.
+B is wrong. The obligation is to disclose.
+C is wrong. Credibility concerns communication to users.
+D is wrong. No confidential information is involved.
+Your turn
+Situation
+Standard
+Omitting a known write-down from a board pack
+Credibility: disclose all information influencing understanding.
+Buying shares on information not yet public
+Confidentiality: no use for unethical or illegal advantage.
+Accepting work beyond one's expertise silently
+Competence, with Credibility's duty to state limitations.
+Not disclosing that a supplier is a relative
+Integrity: mitigate and disclose conflicts.
+Not reporting a failed reconciliation control
+Credibility: report deficiencies in internal controls.
+Applying a superseded standard through inattention
+Competence: perform duties in accordance with technical standards.
+What it tells you
+Six situations, four standards, and in two of them more than one standard applies — which is why an answer names each one with the obligation it rests on.
+Multiple-choice questions
+P13-01  Answer A. The four principles.
+B is wrong. Those are the four standards.
+C is wrong. A mixture of both and of other concepts.
+D is wrong. The same.
+P13-02  Answer A. Competence includes managing risk.
+B is wrong. Credibility concerns communication.
+C is wrong. Integrity concerns conduct and conflicts.
+D is wrong. Confidentiality concerns information.
+P13-03  Answer A. Timeliness is an obligation.
+B is wrong. No confidential matter arises.
+C is wrong. No conflict arises.
+D is wrong. The standard is explicit.
+P13-04  Answer A. Authorised or legally required.
+B is wrong. Benefit is not an exception.
+C is wrong. A request is not authority.
+D is wrong. Resignation does not release it.
+P13-05  Answer A. Use is prohibited.
+B is wrong. Communication is not in point.
+C is wrong. Capability is not in point.
+D is wrong. Use alone is the breach.
+P13-06  Answer A. Integrity covers conflicts.
+B is wrong. Credibility covers reporting.
+C is wrong. Competence covers capability.
+D is wrong. Confidentiality covers information.
+P13-07  Answer A. Supporting such activity breaches Integrity.
+B is wrong. Credibility concerns communication.
+C is wrong. Competence concerns capability.
+D is wrong. Support is itself prohibited.
+P13-08  Answer A. Credibility's completeness obligation.
+B is wrong. Integrity concerns conduct.
+C is wrong. Competence concerns capability.
+D is wrong. Confidentiality concerns secrecy.
+P13-09  Answer A. Reporting deficiencies is a Credibility obligation.
+B is wrong. No disclosure issue arises.
+C is wrong. No conflict arises.
+D is wrong. The duty does not wait for loss.
+P13-10  Answer A. Stating limitations is a Credibility obligation.
+B is wrong. Competence is engaged too, but the clause is in Credibility.
+C is wrong. Integrity concerns conduct.
+D is wrong. Confidentiality is not in point.
+P13-11  Answer A. The Statement binds the member.
+B is wrong. Instructions do not release obligations.
+C is wrong. Compliance with an improper instruction is itself a breach.
+D is wrong. Professional obligations are independent of law.
+P13-12  Answer A. The reasoning carries the marks.
+B is wrong. Naming is only the first step.
+C is wrong. It is an exam failing, not a breach.
+D is wrong. The required form includes the reasoning.
+Case-style set: the quarterly pack
+The comparison against a revised forecast. Credibility is engaged on two obligations. Communicating information fairly and objectively is breached by presenting performance against a target that has been moved without saying so, because the reader will believe they are seeing performance against the plan they approved. And the obligation to disclose all information that could reasonably influence an intended user's understanding requires the change, and the reason for it, to be on the page. The remedy is not to refuse the revised forecast — which may be the more useful comparison — but to show both, with the change explained.
+The missing reconciliation. Credibility again, on the third obligation: report delays or deficiencies in information, processing or internal controls. Two months without the inventory reconciliation is a control deficiency, and it must be reported to the board or the audit committee whether or not anything has gone wrong. Competence is also engaged, in the obligation to recognise and help manage risk: a stock reconciliation that has stopped is exactly the condition under which Chapter 12's inventory frauds and errors go undetected.
+The reduced provision. Three standards. Competence requires duties to be performed in accordance with technical standards, and a provision cannot be reduced from 240,000 to 90,000 on an assurance the preparer has not seen. Credibility requires the basis to be disclosed, and the board pack as drafted does not say that the reduction rests on a verbal statement with no evidence behind it. And the principle of objectivity is engaged directly, since the instruction comes from the person whose results the provision affects.
+What the management accountant should do, in order. Prepare the pack correctly: both comparisons shown with the change explained, the control deficiency reported, and the provision either supported by evidence obtained or left at 240,000 with the chief executive's view disclosed. Raise each point with the chief executive first, in writing, setting out the obligations rather than accusing anybody. If the instruction stands, escalate within the organisation — to the chief financial officer and then to the audit committee chair, which Chapter 14 sets out as the resolution process. Document each step. And on the provision specifically, ask for the assurance in writing from the distributor, which is a request nobody can reasonably refuse and which resolves the question either way.

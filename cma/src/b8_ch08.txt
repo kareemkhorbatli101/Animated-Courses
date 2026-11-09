@@ -1,0 +1,545 @@
+Chapter 8
+Assessing risk: identification, maps, ranking and the quantitative tools
+تقييم المخاطر: التحديد والخرائط والترتيب والأدوات الكمية
+Chapter 6 listed identification and assessment as the second and third steps of the process and left the techniques to this chapter. Here they are: first the ways of finding risks, which is the step everything else depends on, then the qualitative tools that most companies actually use, then the quantitative measures that put a figure on exposure, and finally value at risk, which is the best known of them and the most often misunderstood.
+The division is not between serious tools and unserious ones. A risk map built from honest judgment is more useful than an earnings-at-risk figure computed from invented distributions, and the skill is knowing which instrument the available evidence can support.
+Figure F808-01 is your map.
+Figure F808-01. Chapter 8 roadmap: finding risks, ranking them, and the measures that put money on them.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+D.1.u
+Identify event identification techniques and give examples within an enterprise risk management approach.
+C
+Full treatment
+D.1.q
+Identify and explain qualitative risk assessment tools, including identification, ranking and risk maps.
+C
+Full treatment
+D.1.r
+Identify and explain quantitative tools, including cash flow at risk, earnings at risk, earnings distributions and earnings-per-share distributions.
+C
+Full treatment
+D.1.s
+Identify and explain value at risk.
+C
+Full treatment, calculations illustrative
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+event identification
+تحديد الأحداث
+identification des événements
+risk map
+خريطة المخاطر
+cartographie des risques
+risk ranking
+ترتيب المخاطر
+hiérarchisation des risques
+heat map
+الخريطة الحرارية
+matrice de criticité
+cash flow at risk
+التدفق النقدي المعرض للخطر
+flux de trésorerie en risque
+earnings at risk
+الأرباح المعرضة للخطر
+résultat en risque
+value at risk
+القيمة المعرضة للخطر
+valeur en risque
+confidence level
+مستوى الثقة
+niveau de confiance
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 computed expected, unexpected and maximum possible losses from a severity table. Chapter 6 warned that an unanchored scale makes two assessors disagree and that an unidentified risk is untreated by definition. Book 3's Chapter 15 distinguished sensitivity, scenario and simulation. This chapter supplies the instruments those warnings were about.
+8.1  Finding the risks
+Event identification is the step that determines the quality of everything after it, and the outcome asks for techniques with examples. Eight are standard.
+Workshops and structured interviews. A facilitated session with the people who run a process, working through what could go wrong and what has nearly gone wrong. The most productive single technique, and the one whose quality depends most on whether people feel able to speak — which Chapter 17 treats as a question of tone.
+Checklists and risk taxonomies. A standard list of risk categories, such as Chapter 1's families, worked through systematically so that nothing is missed by inattention. Cheap, and limited to what is on the list.
+Process mapping. Walking a process from end to end and asking at each step what could fail. This is the technique that finds the risks between departments, because a process map crosses boundaries that an organisation chart does not.
+Loss and incident data. The company's own history, near-misses included, and published data from the industry. The strongest evidence available and necessarily backward-looking.
+Event inventories and industry benchmarks. Lists of events that have happened to comparable companies, including events this company has not experienced.
+Leading indicators and exception reports. Rising staff turnover, lengthening delivery times, growing overdue reconciliations: things that identify a risk before it is an event.
+Scenario analysis and what-if questioning. Deliberately asking what would have to be true for a serious loss to occur, which finds combinations rather than single events.
+Root cause analysis of events that have occurred, which typically surfaces three or four risks that nobody had listed.
+Three principles improve the output of any of them.
+Identify at the level of the event, not of the cause or the effect, as Chapter 6 showed. One event, with its causes listed and its consequences costed, is worth more than three register lines describing the same thing.
+Include the upside. An event inventory that contains only bad outcomes will never produce Chapter 5's exploitation.
+And include what people are reluctant to write. The risk from a dominant chief executive, the risk that a target is unachievable, the risk that a long-standing supplier relationship is too comfortable: these do not appear in a workshop unless somebody is asked for them directly and nothing happens to them afterwards.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+facilitated workshop
+ورشة عمل موجهة
+atelier animé
+risk taxonomy
+تصنيف المخاطر
+taxonomie des risques
+process map
+خريطة العمليات
+cartographie des processus
+event inventory
+قائمة الأحداث
+inventaire d'événements
+SECTION CHECK   Test yourself
+SC8-1  The technique that best finds risks falling between departments is:
+A.	process mapping.
+B.	a checklist.
+C.	a loss database.
+D.	an industry benchmark.
+SC8-2  The limitation of a checklist is that it:
+A.	finds only what is on the list.
+B.	takes too long.
+C.	requires statistics.
+D.	cannot be documented.
+SC8-3  An event inventory containing only adverse outcomes will never produce:
+A.	an opportunity to exploit a risk.
+B.	a risk map.
+C.	an expected loss.
+D.	a control.
+Answers and explanations are at the end of the chapter.
+8.2  Qualitative assessment: ranking and maps
+Qualitative assessment scores each risk on two dimensions — likelihood and impact — using anchored scales, and then displays the result.
+An anchored scale defines each level in terms somebody can check. Figure F808-02 is Orontes's.
+Figure F808-02. Orontes's anchored scales
+Level
+Likelihood in a year
+Impact on operating income
+Example
+1 Remote
+Below 2 per cent
+Below 50,000
+A single delivery rejected
+2 Unlikely
+2 to 10 per cent
+50,000 to 250,000
+A week of one line stopped
+3 Possible
+10 to 30 per cent
+250,000 to 1,000,000
+A distributor defaults
+4 Likely
+30 to 60 per cent
+1,000,000 to 2,500,000
+A six-week supply failure
+5 Almost certain
+Above 60 per cent
+Above 2,500,000
+A sixty-day plant stoppage
+Risk ranking multiplies or combines the two scores to order the register. A supply failure assessed as likelihood 4 and impact 4 scores 4 × 4 = 16; a plant fire at likelihood 1 and impact 5 scores 1 × 5 = 5. Ranking is simple, communicates instantly and has three weaknesses the exam expects to be named.
+The product of two ordinal scales is not a number. A score of 16 is not twice as bad as a score of 8, because the levels are categories and not quantities, and multiplying them manufactures a precision that is not there.
+It compresses the tail. The fire scores 5 and could end the company; the supply failure scores 16 and could not. This is Chapter 3's point again — ranking by a product ranks by something close to expected loss, which is not the ranking by danger.
+And it hides disagreement. A single agreed score conceals the fact that two assessors put the likelihood at 2 and 4, and the disagreement is usually more informative than the average.
+A risk map, or heat map, plots the same two dimensions on a grid, with likelihood on one axis and impact on the other, and each risk placed as a point. Its advantages are visual and real: it shows the whole portfolio at once, it makes the top-right corner obvious, and it supports the convention by which different zones require different responses — the top right treated, the bottom left accepted, the top left (rare but severe) transferred, and the bottom right (frequent but small) reduced or absorbed into normal operations.
+Three refinements are worth knowing.
+Plot inherent and residual positions for each risk, with an arrow between them, so that the map shows what the controls are doing — Chapter 4's pair of figures made visible.
+Plot the target position as well, so that the gap between residual and target becomes the action list.
+And show velocity, the speed with which a risk would develop: a reputational collapse and a slow regulatory change may occupy the same square and need entirely different responses.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+ordinal scale
+المقياس الترتيبي
+échelle ordinale
+likelihood
+الاحتمالية
+probabilité d'occurrence
+impact
+الأثر
+impact
+velocity
+سرعة التحقق
+vitesse de matérialisation
+SECTION CHECK   Test yourself
+SC8-4  A risk scored likelihood 4 and impact 4 ranks at:
+A.	16
+B.	8
+C.	4
+D.	44
+SC8-5  The main weakness of ranking by the product of two scores is that it:
+A.	compresses the tail, so rare severe risks rank low.
+B.	is hard to compute.
+C.	requires a distribution.
+D.	cannot be displayed.
+SC8-6  Plotting inherent and residual positions with an arrow between them shows:
+A.	what the controls are doing.
+B.	the expected loss.
+C.	the velocity of the risk.
+D.	the insurance limit.
+Answers and explanations are at the end of the chapter.
+8.3  Quantitative assessment: at-risk measures
+Where the evidence supports a distribution, the assessment can be stated in money. The outcome names four measures and they share one structure: take the distribution of an outcome, choose a confidence level, and state how far below the expectation the outcome could fall.
+An earnings distribution is the whole picture: the range of operating income or net income the company might produce, with probabilities attached, usually built by simulation from distributions of the underlying drivers — volume, price, input cost, exchange rate. Everything below is a summary of it.
+Earnings at risk is the amount by which earnings could fall below expectation at a chosen confidence level over a chosen period. For Orontes, if operating income is expected at $4,176,000 and the simulation's fifth percentile is 2,900,000, earnings at risk at 95 per cent for a year is 4,176,000 − 2,900,000 = 1,276,000. Read that against Chapter 6's appetite limit of 417,600 and the company is outside its stated appetite, which is precisely the use of the measure.
+Cash flow at risk is the same calculation applied to cash flow rather than earnings, and for most non-financial companies it is the more useful of the two, because cash is what pays interest, capital expenditure and dividends. Orontes's expected operating cash flow is 4,176,000 + 2,100,000 = 6,276,000 with depreciation added back; if the fifth percentile is 4,500,000, cash flow at risk is 6,276,000 − 4,500,000 = 1,776,000, and the question is whether the facilities and buffers of Chapter 7 cover it.
+An earnings-per-share distribution restates the earnings distribution per share, which is the form in which equity investors and analysts think. Orontes's net income of $2,969,100 across 8,100,000 shares is 2,969,100 ÷ 8,100,000 = 0.3666 a share; in the adverse case where net income falls to 2,000,000 it is 2,000,000 ÷ 8,100,000 = 0.2469. The distribution matters because the market reacts to earnings per share relative to expectations, so the probability of falling short of a published guidance figure is itself a risk — one Book 2's Chapter 9 touched on with dividend policy and one that drives a great deal of real corporate behaviour.
+Four cautions apply to all of them, and an exam answer that gives them is answering the outcome rather than defining the terms.
+They are only as good as the input distributions, which are assumptions.
+They assume correlations that are usually guessed, and correlations are exactly what matters in a bad year.
+They describe a chosen percentile and say nothing about what lies beyond it, which is Chapter 3's maximum possible loss.
+And they are easiest to compute for the risks that are easiest to model — prices and rates — which can shift attention away from the operational and strategic risks that are harder to quantify and more likely to be fatal.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+percentile
+المئين
+centile
+guidance
+التوجيه الإرشادي للأرباح
+prévision communiquée
+simulation
+المحاكاة
+simulation
+driver
+المحرك
+inducteur
+SECTION CHECK   Test yourself
+SC8-7  Earnings at risk is:
+A.	the shortfall of earnings below expectation at a chosen confidence level.
+B.	the expected earnings.
+C.	the maximum possible loss.
+D.	the variance of earnings.
+SC8-8  Expected operating income of 4,176,000 with a fifth percentile of 2,900,000 gives earnings at risk of:
+A.	1,276,000
+B.	2,900,000
+C.	4,176,000
+D.	7,076,000
+SC8-9  For most non-financial companies the more useful measure is:
+A.	cash flow at risk, because cash pays the obligations.
+B.	earnings at risk.
+C.	the earnings-per-share distribution.
+D.	the risk map.
+Answers and explanations are at the end of the chapter.
+8.4  Value at risk
+Value at risk states the maximum loss on a position or a portfolio over a given period at a given confidence level. It is the measure that made quantitative risk management famous, it is required knowledge for this exam, and the syllabus does not require its calculation — which is a relief, because the calculation is the least interesting thing about it.
+Its definition has three parts and all three must be quoted together. A value at risk of 15,792 means nothing; a one-day value at risk of 15,792 at 95 per cent confidence means that on 95 days out of 100 the loss on this position will be less than 15,792.
+Three methods of computing it appear in questions.
+The variance-covariance or parametric method assumes the returns follow a known distribution, usually the normal, and computes the figure from the position's volatility. It is quick and it understates the tail, because real financial returns have more extreme movements than the normal distribution allows.
+Historical simulation applies the actual movements of the last few hundred days to today's position and reads the percentile off the result. It needs no distributional assumption and assumes the past period is representative.
+Monte Carlo simulation generates movements from assumed distributions, as Book 3's Chapter 15 described, and is the most flexible and most demanding.
+WORKED EXAMPLE   Worked example: value at risk on a currency position
+Step 1. The position. Orontes's unhedged euro exposure from Chapter 7 is 1,600,000.
+Step 2. The volatility. The euro has moved about 0.6 per cent a day against the company's reporting currency, so one standard deviation of daily movement is 1,600,000 × 0.006 = 9,600.
+Step 3. The confidence level. For 95 per cent on a normal distribution the multiplier is 1.645, giving 9,600 × 1.645 = 15,792.
+Step 4. A ten-day horizon. Using Chapter 2's square root of time, the ten-day figure is 15,792 × 3.162 = 49,934.
+Check. State it in words: on 95 trading days out of 100, the one-day loss on this position should be below 15,792, and over a ten-day settlement period below 49,934. Then state what it does not say, which is the whole of the exam's interest in this topic.
+Four limitations, and they are examined more often than the method.
+It says nothing about the size of the loss when the threshold is exceeded. A 95 per cent figure is silent about the worst five days in a hundred, which are the days that matter. The measure called expected shortfall exists to answer that question and is increasingly preferred.
+It depends on the historical period chosen. A calm period produces a comforting figure, and volatility clusters: calm periods precede violent ones.
+It assumes positions can be held or closed within the horizon, which fails in exactly the markets where it matters.
+And it invites false comfort. A single number, computed daily, produces an impression of control that is not warranted — which is why it should always be accompanied by stress testing, where positions are revalued under specified extreme scenarios chosen for their plausibility rather than their probability.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+parametric method
+الطريقة المعلمية
+méthode paramétrique
+historical simulation
+المحاكاة التاريخية
+simulation historique
+expected shortfall
+العجز المتوقع
+perte moyenne au-delà
+stress testing
+اختبار التحمل
+test de résistance
+SECTION CHECK   Test yourself
+SC8-10  A value at risk figure must always be quoted with:
+A.	a holding period and a confidence level.
+B.	an insurance limit.
+C.	an expected loss.
+D.	a risk map position.
+SC8-11  A position of 1,600,000 with a daily volatility of 0.6 per cent has a one-standard-deviation move of:
+A.	9,600
+B.	15,792
+C.	96,000
+D.	960
+SC8-12  The principal limitation of value at risk is that it:
+A.	says nothing about losses beyond the threshold.
+B.	cannot be computed.
+C.	requires no assumptions.
+D.	covers operational risk fully.
+Answers and explanations are at the end of the chapter.
+8.5  Choosing the instrument
+The last question is which tool to use, and the answer follows from the evidence available and the decision to be made.
+Use qualitative tools where probabilities cannot be estimated from data: strategic risks, reputational risks, most operational risks, anything novel. A ranked register and a map, with anchored scales and honest disagreement recorded, are the right instruments and should not apologise for being judgments.
+Use quantitative tools where a distribution can be supported: market prices, rates, credit portfolios with many names, high-volume operational processes with loss histories. Here an at-risk measure converts a risk into a figure that can be compared with appetite and with capital.
+Use both where possible, and reconcile them. A risk that the map puts in the top-right corner but that no quantitative measure can find is a warning about the measurement, not about the map.
+And whichever is used, apply three disciplines.
+State the horizon and the confidence level. Chapter 2 showed that a risk measure without a period is not a measure.
+State the assumptions that drive the answer, and test the one that drives it most, which is Book 3's sensitivity analysis.
+And keep the register honest about what is not measurable. The most dangerous line in any assessment is a risk quantified at a comfortable number because a number was required.
+YOUR TURN   Choosing and computing
+Figure F808-03 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F808-03. Your turn: assessment tools (complete the blanks)
+Item
+Data
+Answer
+Ranking score
+Likelihood 4, impact 4
+________
+Earnings at risk
+Expected 4,176,000; fifth percentile 2,900,000
+________
+Expected operating cash flow
+Operating income 4,176,000; depreciation 2,100,000
+________
+Earnings per share
+Net income 2,969,100; shares 8,100,000
+________
+One-standard-deviation daily move
+Position 1,600,000; volatility 0.6 per cent
+________
+What value at risk does not tell you
+________
+LANGUAGE FOCUS   "At risk", "map" and "heat"
+The phrase at risk in earnings at risk, cash flow at risk and value at risk is a compressed technical idiom and it misleads beginners, because it sounds as though the whole amount is in danger. It is not: the figure is the possible shortfall at a confidence level, not the amount exposed. Writing "earnings at risk of 1,276,000" where the reader expects "earnings of 4,176,000, of which 1,276,000 could be lost in a bad year" invites exactly the wrong reading, and the cure is to write the sentence out. Arabic الأرباح المعرضة للخطر has the same problem and the same cure; French résultat en risque likewise. Heat map is journalism rather than terminology — the colours carry no information the position on the grid does not — and risk map or risk matrix is the better term in a report, because a reader who sees red may believe something has been measured when it has only been coloured.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+judgment-based
+قائم على التقدير
+fondé sur le jugement
+reconciliation of methods
+المواءمة بين الطرق
+rapprochement des méthodes
+unmeasurable
+غير قابل للقياس
+non mesurable
+spurious comfort
+الطمأنينة الزائفة
+fausse assurance
+SECTION CHECK   Test yourself
+SC8-13  Qualitative tools are the right choice where:
+A.	probabilities cannot be estimated from data.
+B.	a long loss history exists.
+C.	the risk is a market price.
+D.	a distribution is available.
+SC8-14  A risk in the top-right corner of a map that no quantitative measure finds is:
+A.	a warning about the measurement.
+B.	proof the map is wrong.
+C.	evidence the risk is small.
+D.	irrelevant.
+SC8-15  Net income of 2,969,100 across 8,100,000 shares is:
+A.	0.3666 a share
+B.	3.666 a share
+C.	0.0367 a share
+D.	2.73 a share
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F808-04 brings the chapter together.
+Figure F808-04. Chapter 8 summary map: the key rule for each section.
+Event identification uses workshops, checklists and taxonomies, process mapping, loss and near-miss data, event inventories, leading indicators, scenario questioning and root cause analysis; it should work at the level of the event, include the upside, and include what people are reluctant to write down. Qualitative assessment scores likelihood and impact on anchored scales and displays them: ranking by the product is simple and communicates, but the product of two ordinal scales is not a number, it compresses the tail so that a fire at 1 × 5 = 5 ranks below a supply failure at 4 × 4 = 16, and it hides disagreement — while a risk map shows the whole portfolio, supports zone-based responses, and improves further when inherent, residual and target positions and velocity are plotted. Quantitative assessment summarises an earnings distribution: earnings at risk of 4,176,000 − 2,900,000 = 1,276,000 against an appetite of 417,600, cash flow at risk of 6,276,000 − 4,500,000 = 1,776,000 on an expected 4,176,000 + 2,100,000 = 6,276,000, and an earnings-per-share distribution around 2,969,100 ÷ 8,100,000 = 0.3666 — all of them only as good as their input distributions and correlations, silent beyond the chosen percentile, and easiest to compute for the risks least likely to be fatal. Value at risk states a maximum loss over a period at a confidence level — 1,600,000 × 0.006 = 9,600 of daily movement becoming 9,600 × 1.645 = 15,792 at 95 per cent and 15,792 × 3.162 = 49,934 over ten days — computed parametrically, historically or by simulation, and limited by its silence about the tail, its dependence on the period chosen, its liquidity assumption and the false comfort of a single number, which is why stress testing accompanies it. And the choice of instrument follows the evidence: judgment where no distribution exists, figures where one does, both where possible, with the horizon, the confidence level and the driving assumption always stated.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P8-01  Which technique is most likely to find a risk that falls between two departments?
+A.	Process mapping
+B.	A checklist
+C.	An industry benchmark
+D.	A loss database
+P8-02  An anchored scale is one whose levels are:
+A.	defined in checkable numbers.
+B.	described in words only.
+C.	set by the insurer.
+D.	revised each quarter.
+P8-03  A risk scored likelihood 1 and impact 5 ranks at:
+A.	5
+B.	15
+C.	6
+D.	25
+P8-04  Ranking risks by the product of two ordinal scores:
+A.	compresses the tail.
+B.	measures expected loss exactly.
+C.	avoids judgment.
+D.	needs a distribution.
+P8-05  An arrow drawn on a risk map between two positions usually shows:
+A.	the movement from inherent to residual risk.
+B.	the velocity.
+C.	the confidence level.
+D.	the insurance limit.
+P8-06  Earnings at risk with expected income of 4,176,000 and a fifth percentile of 2,900,000 is:
+A.	1,276,000
+B.	2,900,000
+C.	4,176,000
+D.	417,600
+P8-07  Operating income of 4,176,000 plus depreciation of 2,100,000 gives operating cash flow of:
+A.	6,276,000
+B.	2,076,000
+C.	4,176,000
+D.	8,376,000
+P8-08  An earnings-per-share distribution matters because:
+A.	the market reacts to earnings per share against expectations.
+B.	it measures cash.
+C.	it replaces the risk map.
+D.	it is required by accounting standards.
+P8-09  A value at risk figure requires:
+A.	a period and a confidence level.
+B.	an expected loss.
+C.	an insurance limit.
+D.	a risk score.
+P8-10  A position of 1,600,000 with 0.6 per cent daily volatility has a 95 per cent one-day value at risk of about:
+A.	15,792
+B.	9,600
+C.	49,934
+D.	96,000
+P8-11  The measure designed to describe losses beyond the value-at-risk threshold is:
+A.	expected shortfall.
+B.	earnings at risk.
+C.	the risk map.
+D.	the ranking score.
+P8-12  Stress testing differs from value at risk in that scenarios are chosen for their:
+A.	plausibility rather than their probability.
+B.	probability rather than their severity.
+C.	convenience.
+D.	historical frequency only.
+Case-style practice: the assessment that found nothing
+Orontes's first risk assessment produced a register of twenty-two risks, all scored by a single manager from each department, with likelihood and impact rated high, medium or low. Nineteen were scored medium or low. The highest-scoring risk was "failure of the accounting system". No quantitative measure was produced, and no risk relating to the board's strategy, to a key person or to a supplier relationship appeared.
+Required. Say what is wrong with the assessment as a piece of work, and set out how you would redo it. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC8-1  Answer A. Processes cross boundaries that structures do not.
+B is wrong. A checklist finds only listed items.
+C is wrong. Loss data is backward-looking.
+D is wrong. Benchmarks describe others.
+SC8-2  Answer A. Completeness is bounded by the list.
+B is wrong. Checklists are quick.
+C is wrong. No statistics are needed.
+D is wrong. Documentation is easy.
+SC8-3  Answer A. Only adverse events gives no upside to exploit.
+B is wrong. A map can still be drawn.
+C is wrong. Expected loss needs only adverse events.
+D is wrong. Controls follow from adverse events.
+SC8-4  Answer A. 4 × 4 = 16.
+B is wrong. That is the sum doubled.
+C is wrong. That is one score.
+D is wrong. That concatenates the digits.
+SC8-5  Answer A. Rare severe risks score low.
+B is wrong. It is trivial to compute.
+C is wrong. No distribution is needed.
+D is wrong. It displays easily.
+SC8-6  Answer A. The arrow is the effect of the controls.
+B is wrong. Expected loss is a separate figure.
+C is wrong. Velocity is shown differently.
+D is wrong. Limits are a transfer matter.
+SC8-7  Answer A. A shortfall at a confidence level.
+B is wrong. That is the expectation.
+C is wrong. That is unbounded by percentile.
+D is wrong. Variance is a different statistic.
+SC8-8  Answer A. 4,176,000 − 2,900,000 = 1,276,000.
+B is wrong. That is the percentile outcome.
+C is wrong. That is the expectation.
+D is wrong. This adds instead of subtracting.
+SC8-9  Answer A. Cash meets the obligations.
+B is wrong. Earnings are an accounting measure.
+C is wrong. That is for equity investors.
+D is wrong. A map is qualitative.
+SC8-10  Answer A. Both are part of the definition.
+B is wrong. Insurance is unrelated.
+C is wrong. Expected loss is a different measure.
+D is wrong. Maps are a separate tool.
+SC8-11  Answer A. 1,600,000 × 0.006 = 9,600.
+B is wrong. That applies the confidence multiplier.
+C is wrong. That is ten times too large.
+D is wrong. That is ten times too small.
+SC8-12  Answer A. It is silent beyond the threshold.
+B is wrong. It is routinely computed.
+C is wrong. It rests on several assumptions.
+D is wrong. It is a market risk measure.
+SC8-13  Answer A. Judgment where data cannot support a distribution.
+B is wrong. A loss history supports quantification.
+C is wrong. Prices are the quantifiable case.
+D is wrong. A distribution invites a quantitative measure.
+SC8-14  Answer A. The measurement has missed something.
+B is wrong. The map may be right.
+C is wrong. The opposite is implied.
+D is wrong. It is the most important line on the page.
+SC8-15  Answer A. 2,969,100 ÷ 8,100,000 = 0.3666.
+B is wrong. That is ten times too large.
+C is wrong. That is ten times too small.
+D is wrong. That inverts the calculation.
+Your turn
+Item
+Answer
+Ranking score
+16: 4 × 4 = 16.
+Earnings at risk
+1,276,000: 4,176,000 − 2,900,000 = 1,276,000.
+Expected operating cash flow
+6,276,000: 4,176,000 + 2,100,000 = 6,276,000.
+Earnings per share
+0.3666: 2,969,100 ÷ 8,100,000 = 0.3666.
+One-standard-deviation daily move
+9,600: 1,600,000 × 0.006 = 9,600.
+What value at risk does not tell you
+How large the loss is on the days the threshold is exceeded.
+What it tells you
+Five calculations and one limitation — and the limitation is the one the examiners test, because every measure in this chapter is silent about the outcomes that actually end companies.
+Multiple-choice questions
+P8-01  Answer A. Processes cross organisational boundaries.
+B is wrong. Lists bound the answer.
+C is wrong. Benchmarks describe other companies.
+D is wrong. History records what has happened here.
+P8-02  Answer A. Checkable numbers.
+B is wrong. Words alone are ambiguous.
+C is wrong. Insurers do not set internal scales.
+D is wrong. Frequent revision undermines comparability.
+P8-03  Answer A. 1 × 5 = 5.
+B is wrong. That adds a digit.
+C is wrong. That is the sum.
+D is wrong. That is five squared.
+P8-04  Answer A. Rare severe risks are pushed down.
+B is wrong. Ordinal scores are not quantities.
+C is wrong. Judgment is embedded in the scoring.
+D is wrong. No distribution is involved.
+P8-05  Answer A. Inherent to residual.
+B is wrong. Velocity is usually shown by colour or size.
+C is wrong. Confidence levels belong to quantitative measures.
+D is wrong. Limits are not plotted.
+P8-06  Answer A. 4,176,000 − 2,900,000 = 1,276,000.
+B is wrong. That is the percentile.
+C is wrong. That is the expectation.
+D is wrong. That is the appetite limit.
+P8-07  Answer A. 4,176,000 + 2,100,000 = 6,276,000.
+B is wrong. This subtracts instead of adding.
+C is wrong. That omits depreciation.
+D is wrong. That double-counts.
+P8-08  Answer A. Markets react to earnings per share against expectations.
+B is wrong. It is an accounting measure.
+C is wrong. Maps serve a different purpose.
+D is wrong. Standards require disclosure, not a distribution.
+P8-09  Answer A. Period and confidence level.
+B is wrong. Expected loss is separate.
+C is wrong. Insurance is unrelated.
+D is wrong. Scores belong to qualitative tools.
+P8-10  Answer A. 9,600 × 1.645 = 15,792.
+B is wrong. That is one standard deviation.
+C is wrong. That is the ten-day figure.
+D is wrong. That misplaces a decimal.
+P8-11  Answer A. Expected shortfall.
+B is wrong. That measures earnings.
+C is wrong. A map is qualitative.
+D is wrong. A score is ordinal.
+P8-12  Answer A. Plausibility rather than probability.
+B is wrong. Probability is what stress testing sets aside.
+C is wrong. Convenience is not a criterion.
+D is wrong. Historical frequency is the limitation being escaped.
+Case-style set: the assessment that found nothing
+What is wrong with it. Five things, and they compound.
+The scales are not anchored. High, medium and low mean whatever each assessor thought, so twenty-two scores from twelve people are not comparable and the register cannot be ranked.
+The assessment is single-source. One manager per department produces no challenge, no disagreement and no cross-boundary risks, which by section 8.1 are where the serious ones live.
+The result is implausible. Nineteen of twenty-two risks rated medium or low is the signature of an exercise performed to be completed. A register in which nothing is serious has told the board nothing, and a board that accepts it has learned nothing.
+The top risk is a symptom, not an event. "Failure of the accounting system" is an event with no impact stated, no likelihood anchored and no consequence costed; it reads like the risk somebody was comfortable naming.
+And the omissions are the real finding. No strategic risk, no key person risk and no supplier risk — three of the categories most likely to be material for a company of this size, and all three in the class of things people do not write down unless they are asked directly.
+How I would redo it. Anchor the scales first, in money and in percentages, as Figure F808-02 does, so that two assessors produce the same score. Identify by process rather than by department, walking the main flows end to end so that the gaps between functions are covered. Run facilitated workshops with more than one person present, record disagreement rather than averaging it away, and ask explicitly for the risks nobody wants to raise, with the board's own strategy on the list. Quantify where the evidence allows: the supply failure, the credit exposures and the currency position all support figures, and an earnings-at-risk number can then be compared with the 417,600 appetite limit. Plot inherent and residual positions so that the map shows what the controls are carrying. And for each of the top risks, require an owner, a response and a date — because the assessment is not the output, as Chapter 6 said, and a register that produces no actions has not been done.

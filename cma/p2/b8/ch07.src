@@ -1,0 +1,429 @@
+Chapter 7
+Managing operational risk and financial risk
+إدارة المخاطر التشغيلية والمخاطر المالية
+Chapters 5 and 6 gave the responses and the process. This chapter applies both to the two families where a management accountant is expected to know the methods in detail: operational risk, which arises everywhere the company does anything, and financial risk, which arises from money — who owes it, whether it is there when needed, and what its price does.
+The two families are managed by different people with different instruments. Operational risk is managed by the people who run the processes, with controls, redundancy, training and plans for when things fail. Financial risk is managed by the finance function, with limits, hedges and buffers. Both are managed under the appetite of Chapter 6, and both are tested by the arithmetic of Chapter 9.
+Figure F807-01 is your map.
+Figure F807-01. Chapter 7 roadmap: the operational toolkit, the continuity plan, and the three financial exposures.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+D.1.o | Identify methods of managing operational risk. | C | Full treatment
+D.1.p | Identify and explain financial risk management methods. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section D outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+preventive control | الضابط الوقائي | contrôle préventif
+detective control | الضابط الكاشف | contrôle de détection
+segregation of duties | الفصل بين المهام | séparation des tâches
+business continuity plan | خطة استمرارية الأعمال | plan de continuité d'activité
+disaster recovery | التعافي من الكوارث | reprise après sinistre
+credit limit | حد الائتمان | limite de crédit
+natural hedge | التحوط الطبيعي | couverture naturelle
+asset and liability matching | مطابقة الأصول والخصوم | adossement actif-passif
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 defined operational risk from four sources and financial risk in four kinds. Chapter 5 supplied the five responses. Book 1 measured Orontes's receivables at 36 days and its cash at $7,302,100; Book 2 hedged a sesame price with a forward contract. This chapter is the method behind all of them.
+7.1  Managing operational risk
+Operational risk is managed almost entirely by reduction, because, as Chapter 1 noted, nobody is paid a return for bearing it. The methods fall into six groups and an answer that uses the groups is clearer than one that lists twenty controls.
+Controls, in their two kinds. A preventive control stops the event — an approval before a payment, a check before a delivery is accepted, an access right that does not exist. A detective control finds it afterwards — a reconciliation, an exception report, a stock count, a review of unusual items. Both are needed: prevention is better and never complete, and detection limits the duration of what prevention missed.
+Structural controls. Segregation of duties, so that no one person both performs and checks a transaction; authorisation limits that rise with seniority; mandatory leave, during which somebody else does the job and anything being concealed surfaces; rotation of duties; dual signatures on payments. These are the controls that address deliberate as well as accidental loss, and Chapter 14's fraud triangle explains why they work.
+Standardisation and automation. A documented procedure performed the same way every time produces fewer errors than judgment exercised afresh; a system that will not accept an invalid entry prevents what a reminder cannot. The caution of Chapter 5 applies: automation converts many small human errors into few large systematic ones, so an automated control needs its own testing.
+People measures. Recruitment checks, training, supervision, competence assessment, succession planning for key roles, and attention to workload and turnover, which are among the best leading indicators of operational failure.
+Redundancy and resilience. A second supplier, a standby machine, backups kept somewhere else, spare capacity, cross-trained staff. These do not reduce the probability of an event; they reduce what it costs, which section 7.2 develops.
+Measurement and feedback. A loss database that records events and near-misses, root cause analysis of significant ones, key risk indicators of the kind Chapter 6 listed, and the postaudit discipline of asking, after every loss, which control should have caught it and why it did not.
+WORKED EXAMPLE   Worked example: designing the control for one process
+Step 1. The process. Orontes pays about four hundred supplier invoices a month. The risks are paying an invoice that is not owed, paying it twice, paying the wrong amount, and paying a fraudulent supplier invented by an employee.
+Step 2. Preventive controls. Three-way matching of purchase order, goods received note and invoice, performed by the system; a supplier master file that only two named people may change, with changes reviewed by a third; payment authorisation limits by value; and bank details verified by telephone to a number held on file, never to a number on the invoice.
+Step 3. Detective controls. A monthly report of duplicate invoice numbers and amounts; a quarterly review of new suppliers created, matched against the employee address file; a supplier statement reconciliation.
+Step 4. The structural control. The person who creates a supplier may not approve a payment to it, and the person who approves may not release it at the bank.
+Check. Notice the shape. Four risks, ten controls, and the costly ones are the automated preventive checks that run on every transaction. The structural control costs nothing but organisation, and it is the one most often absent in a small finance team — which is precisely why the fake-supplier fraud of Chapter 12 is so common in small finance teams.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+three-way match | المطابقة الثلاثية | rapprochement à trois voies
+authorisation limit | حد الاعتماد | seuil d'autorisation
+mandatory leave | الإجازة الإلزامية | congé obligatoire
+root cause analysis | تحليل الأسباب الجذرية | analyse des causes
+@end
+SECTION CHECK   Test yourself
+SC7-1  A reconciliation is:
+A.	a detective control.
+B.	a preventive control.
+C.	a structural control.
+D.	a transfer.
+SC7-2  Mandatory leave works as a control because:
+A.	somebody else performs the job and concealment surfaces.
+B.	it reduces workload.
+C.	it saves cost.
+D.	it is required by law.
+SC7-3  Automation of a control:
+A.	converts many small human errors into few large systematic ones.
+B.	removes the need for testing.
+C.	eliminates operational risk.
+D.	is always cheaper.
+Answers and explanations are at the end of the chapter.
+7.2  Continuity and recovery
+Some operational events cannot be prevented, and for those the management method is planning what happens next. The exam distinguishes two related things.
+A business continuity plan sets out how the business keeps operating during a disruption: which activities are critical, in what order they are restored, where people work, how customers are told, who decides. Its unit of analysis is the business process.
+A disaster recovery plan is the technical subset: how systems and data are restored, from what backups, at what site, within what time. Its unit of analysis is the system.
+Four concepts travel with them.
+A business impact analysis, which asks what each process is worth per hour or per day of interruption. Chapter 1's 46,027 of contribution a day is the beginning of one for Orontes.
+The recovery time objective: how quickly a process must be back. It is a business decision, not a technical one, and it drives the cost of everything else.
+The recovery point objective: how much data the company can afford to lose, which determines backup frequency.
+And the critical dependency list: the suppliers, utilities, systems, premises and people without which a process cannot run. Most continuity plans fail at this point, because the dependency that stops the business is usually one nobody mapped — a single approver, a single shipping agent, a licence held in one person's name.
+Three rules make a plan real rather than decorative.
+It must be tested. An untested plan is a document, and testing finds the omissions: the contact list that is out of date, the backup that cannot be restored, the alternative site with no power for the equipment.
+It must be accessible when the event happens. A plan stored only on the system that is down is a familiar and complete failure.
+And it must name people and decisions, not intentions. "Communicate with customers" is not a plan; "the commercial director, or in her absence the sales manager, telephones the five largest distributors within four hours using the list at appendix C" is.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+business impact analysis | تحليل الأثر على الأعمال | bilan d'impact sur l'activité
+recovery time objective | هدف زمن التعافي | durée maximale d'interruption admissible
+critical dependency | الاعتمادية الحرجة | dépendance critique
+plan testing | اختبار الخطة | test du plan
+@end
+SECTION CHECK   Test yourself
+SC7-4  A disaster recovery plan is:
+A.	the technical subset of continuity planning, covering systems and data.
+B.	the whole continuity plan.
+C.	an insurance policy.
+D.	a risk assessment.
+SC7-5  The recovery time objective is set by:
+A.	the business, from the cost of interruption.
+B.	the information technology department.
+C.	the insurer.
+D.	the backup software.
+SC7-6  The most common reason a continuity plan fails is that:
+A.	a critical dependency was never mapped.
+B.	the plan is too long.
+C.	insurance was not bought.
+D.	the risk was not quantified.
+Answers and explanations are at the end of the chapter.
+7.3  Managing credit risk
+Financial risk management begins with the money owed to the company. The methods form a sequence that matches the life of a receivable.
+Before the sale: assessment. Financial statements, credit agency reports, trade references, the length and history of the relationship, and the country the customer sits in. The output is a credit limit and terms, not a yes or no.
+At the sale: structure. Terms of payment, deposits or part-payment in advance, retention of title until payment, a letter of credit or a bank guarantee for export sales — Chapter 11 covers the trade finance instruments in detail — and a contractual right to stop supply.
+During the life: monitoring. Ageing of the balance, utilisation against the limit, the pattern of payments rather than only the total, and alerts on deterioration elsewhere in the market.
+After the due date: collection. A defined escalation with dates, from a reminder through to suspension of supply and legal action, applied consistently, because customers learn quickly which suppliers mean what they say.
+And across the whole: portfolio measures. Concentration limits so that no single customer can cause an unacceptable loss, credit insurance, factoring, and diversification across customers, sectors and countries.
+WORKED EXAMPLE   Worked example: pricing a distributor's credit
+Step 1. The exposure. Orontes's limit for a single distributor is 600,000, which Chapter 6's tolerance set.
+Step 2. The expected loss. The credit agency puts the distributor's probability of default at 2 per cent in a year, and Orontes expects to recover 30 per cent of any balance, so the loss given default is 70 per cent. The expected loss is 600,000 × 0.02 = 12,000 of defaulted exposure, of which 12,000 × 0.70 = 8,400 would be lost.
+Step 3. Against what. The distributor's trade earns a contribution of 240,000 a year.
+Step 4. The decision. An expected credit loss of 8,400 against 240,000 of contribution is a cost of doing business, not a reason to refuse. What would change the answer is concentration — a balance that could not be absorbed if it went — or a deterioration that raises the default probability.
+Check. Observe that the right response here is not to reduce the credit risk but to price it and watch it. This is Chapter 5's exploitation: Orontes's cash position lets it offer terms a weaker competitor cannot, and the 8,400 is what that advantage costs.
+One further method belongs here because candidates forget it. Shortening terms reduces exposure without refusing anybody. Orontes's receivables stand at $4,144,000, which on sales of $42,000,000 is 36 days; since sales run at 42,000,000 ÷ 365 = 115,068 a day, cutting six days from the collection period would release 115,068 × 6 = 690,408 of cash and reduce the amount at risk by the same figure.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+probability of default | احتمال التعثر | probabilité de défaut
+loss given default | الخسارة عند التعثر | perte en cas de défaut
+retention of title | الاحتفاظ بالملكية | clause de réserve de propriété
+concentration limit | حد التركز | limite de concentration
+@end
+SECTION CHECK   Test yourself
+SC7-7  An exposure of 600,000 with a 2 per cent default probability and a 70 per cent loss given default has an expected credit loss of:
+A.	8,400
+B.	12,000
+C.	420,000
+D.	600,000
+SC7-8  Sales of 42,000,000 a year are:
+A.	115,068 a day
+B.	3,500,000 a day
+C.	1,150,680 a day
+D.	11,507 a day
+SC7-9  The output of a credit assessment should be:
+A.	a limit and terms.
+B.	a yes or a no.
+C.	an insurance claim.
+D.	a provision.
+Answers and explanations are at the end of the chapter.
+7.4  Managing liquidity risk
+Chapter 2 established that liquidity failure is what actually ends companies. The management methods are four.
+Forecasting. A rolling cash forecast — thirteen weeks in detail, twelve months in outline — built from receipts and payments rather than from profit, with the sensitivity of Book 3's Chapter 4 applied to the two or three assumptions that matter. A company that cannot say what its cash will be in eight weeks is not managing liquidity; it is watching it.
+Buffers. Cash and committed facilities sized against something, not chosen round. A defensible basis is the fixed cost base: Orontes's fixed costs of $12,624,000 are 12,624,000 ÷ 12 = 1,052,000 a month, so three months of fixed costs with no receipts at all is 1,052,000 × 3 = 3,156,000 — which the $7,302,100 cash balance covers twice over, and which gives the board a reason for the number rather than a habit.
+Structure. Matching the maturity of funding to the life of the assets it supports, so that long assets are not financed by money that can be withdrawn; staggering maturities so that nothing large falls due at once; keeping covenant headroom, which Chapter 6 measured at 4,348,800 − 1,560,000 = 2,788,800 of operating income; and holding facilities that are committed rather than uncommitted.
+Working capital management. Everything in Book 1's Chapters 11 to 13: collecting faster, paying no earlier than agreed, holding less stock. These are the cheapest liquidity sources a company has, and the 690,408 released by six days of collection in section 7.3 is larger than most facilities a company of Orontes's size would negotiate.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+rolling forecast | التوقعات المتجددة | prévision glissante
+maturity matching | مطابقة الآجال | adossement des échéances
+committed facility | التسهيل الملتزم به | ligne confirmée
+headroom | الهامش المتاح | marge disponible
+@end
+SECTION CHECK   Test yourself
+SC7-10  Fixed costs of 12,624,000 a year are:
+A.	1,052,000 a month
+B.	12,624,000 a month
+C.	105,200 a month
+D.	3,156,000 a month
+SC7-11  Three months of fixed costs with no receipts is:
+A.	3,156,000
+B.	1,052,000
+C.	12,624,000
+D.	4,176,000
+SC7-12  Maturity matching means:
+A.	funding long-lived assets with long-term money.
+B.	paying suppliers early.
+C.	holding more inventory.
+D.	borrowing at floating rates.
+Answers and explanations are at the end of the chapter.
+7.5  Managing market risk
+Market risk is managed in four ways, and an answer that gives them in this order gives them in the order of cost.
+Natural hedging, which costs nothing. Arrange the business so that exposures offset: buy inputs in the currency sales are made in, borrow in the currency of the assets, match a floating-rate asset with a floating-rate liability, source from the region sales are made to. Orontes's export sales in euros are partly matched by its purchases of equipment and packaging in euros, and the exposure that needs managing is only the difference.
+Operational responses. Pricing in the company's own currency, contractual clauses that share a price movement above a threshold, the ability to switch sourcing between regions, and the shorter exposure periods of section 7.2 — invoice promptly, collect promptly, and the exposure window shrinks.
+Hedging with instruments. Forwards, futures, options and swaps, which Book 2's Chapter 6 introduced on commodities and Chapter 11 develops on currency. The essential points are that a hedge removes the favourable movement along with the unfavourable one; that a hedge has a cost, explicit for an option and implicit in the forward rate; and that a hedge is only a hedge if it matches the exposure in amount and in timing, since a mismatch is a position.
+Limits and governance. A policy that says what proportion of exposure is hedged, over what horizon, with what instruments and with which counterparties; a prohibition on taking positions for gain; separation of dealing from settlement and from recording; and regular reporting of positions and their value. More corporate treasury disasters come from the absence of this paragraph than from any market movement.
+WORKED EXAMPLE   Worked example: two exposures at Orontes
+Step 1. Interest rate. Orontes's debt is $6,500,000 at 6 per cent. A one-point rise in rates on floating debt costs 6,500,000 × 0.01 = 65,000 a year, which against operating income of $4,348,800 is immaterial — so the right response is to do nothing and say why.
+Step 2. Currency. Contracted euro receipts for the next twelve months are 2,000,000. Chapter 6's policy requires at least 75 per cent hedged, which is 2,000,000 × 0.75 = 1,500,000.
+Step 3. The natural hedge first. Euro purchases of packaging and spares run to 400,000 over the same period, so the net exposure is 2,000,000 − 400,000 = 1,600,000 and the policy applies to that.
+Step 4. The instrument. Forward sales of euros matching the expected receipt dates, for 1,600,000 × 0.75 = 1,200,000, leaving a quarter unhedged against the risk that a shipment slips.
+Check. Two exposures, two different answers, and both defensible in writing. The interest rate exposure is left open because it is small relative to the company — a conclusion reached by measuring rather than by assuming — and the currency exposure is hedged after the natural offset is taken first, which is the order that costs least. An exam answer that hedges everything with instruments has done the expensive thing first.
+YOUR TURN   Operational and financial methods
+Figure F807-02 gives six situations. Name the method. Answers are at the end of the chapter.
+Figure F807-02. Your turn: which method? (complete the blanks)
+@table
+Situation | Method
+The person who creates a supplier may not approve its payment | ________
+A monthly report of duplicate invoice amounts | ________
+Buying packaging in the currency exports are sold in | ________
+Thirteen weeks of receipts and payments, updated weekly | ________
+A list of the suppliers and systems without which a process stops | ________
+A limit of 600,000 on any one distributor's balance | ________
+@end
+LANGUAGE FOCUS   "Control", "hedge" and "exposure"
+Control was discussed in Chapter 4; here note the pair preventive and detective, which in English are adjectives describing when the control acts rather than how strong it is — a detective control is not a weak one, it is a later one. Hedge comes from the hedgerow that marks a boundary and limits movement, and the metaphor is exact: a hedge does not improve the position, it narrows the range of outcomes in both directions. Candidates who write that a hedge protects against loss have given half the definition, and the other half — that it gives up the gain — is what makes hedging a policy decision rather than an obvious good. Arabic التحوط carries the same idea of putting something around a thing for protection; French couverture is a covering. And exposure, which Chapter 1 defined, is the word to use when you mean the amount at stake: an exposure is hedged, a risk is managed, and a loss is incurred, and keeping the three verbs with their proper nouns makes a report much easier to read.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+forward contract | العقد الآجل | contrat à terme
+hedge ratio | نسبة التحوط | ratio de couverture
+open position | المركز المكشوف | position ouverte
+dealing and settlement | التعامل والتسوية | négociation et règlement
+@end
+SECTION CHECK   Test yourself
+SC7-13  A one-point rise in rates on 6,500,000 of floating debt costs:
+A.	65,000 a year
+B.	650,000 a year
+C.	6,500 a year
+D.	390,000 a year
+SC7-14  Exposure of 2,000,000 against natural offsets of 400,000, hedged at 75 per cent, requires instruments for:
+A.	1,200,000
+B.	1,500,000
+C.	1,600,000
+D.	2,000,000
+SC7-15  A hedge that does not match the exposure in amount and timing is:
+A.	a position.
+B.	a natural hedge.
+C.	a limit.
+D.	a control.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F807-03 brings the chapter together.
+Figure F807-03. Chapter 7 summary map: the key rule for each section.
+Operational risk is managed by reduction, through preventive and detective controls, structural controls such as segregation of duties and mandatory leave, standardisation and automation, people measures, redundancy, and measurement through loss data and indicators — with automation needing its own testing because it turns many small errors into few systematic ones. Continuity planning handles what cannot be prevented, distinguishing the business continuity plan from the disaster recovery plan and resting on a business impact analysis, a recovery time objective, a recovery point objective and a critical dependency list, with testing, accessibility and named people as the three rules that make it real. Credit risk is managed along the life of a receivable — assess, structure, monitor, collect, and limit concentration — and priced rather than avoided: 600,000 × 0.02 = 12,000 of defaulted exposure at a 70 per cent loss given default is 12,000 × 0.70 = 8,400 against 240,000 of contribution, while six days off the collection period on 42,000,000 ÷ 365 = 115,068 of daily sales releases 115,068 × 6 = 690,408. Liquidity is managed by rolling forecasts, buffers sized against something — 12,624,000 ÷ 12 = 1,052,000 a month of fixed costs, so 1,052,000 × 3 = 3,156,000 for a quarter — maturity structure and covenant headroom, and working capital. And market risk is managed in order of cost: natural hedges first, operational responses second, instruments third and governance throughout, so that a one-point rate rise costing 6,500,000 × 0.01 = 65,000 is left open deliberately while a net euro exposure of 2,000,000 − 400,000 = 1,600,000 is hedged to policy at 1,600,000 × 0.75 = 1,200,000.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P7-01  An approval required before a payment is made is:
+A.	a preventive control.
+B.	a detective control.
+C.	a structural control.
+D.	a transfer.
+P7-02  Segregation of duties means that:
+A.	no one person both performs and checks a transaction.
+B.	duties are rotated annually.
+C.	staff take mandatory leave.
+D.	payments are automated.
+P7-03  Redundancy, such as a standby machine, reduces:
+A.	the cost of an event rather than its probability.
+B.	the probability rather than the cost.
+C.	both equally.
+D.	neither.
+P7-04  A business impact analysis establishes:
+A.	what each process is worth per hour or day of interruption.
+B.	the cause of a loss.
+C.	the insurance premium.
+D.	the probability of failure.
+P7-05  The recovery point objective determines:
+A.	how much data can be lost, and therefore backup frequency.
+B.	how fast a process must be restored.
+C.	the cost of the plan.
+D.	who is in charge.
+P7-06  An exposure of 600,000 at a 2 per cent default probability carries defaulted exposure of:
+A.	12,000
+B.	8,400
+C.	120,000
+D.	600,000
+P7-07  Reducing the collection period by six days on sales of 42,000,000 releases:
+A.	690,408
+B.	115,068
+C.	4,144,000
+D.	252,000
+P7-08  A rolling thirteen-week cash forecast should be built from:
+A.	receipts and payments.
+B.	accrual profit.
+C.	the budget.
+D.	the prior year.
+P7-09  Fixed costs of 12,624,000 a year, held as a three-month buffer, require:
+A.	3,156,000
+B.	1,052,000
+C.	6,312,000
+D.	12,624,000
+P7-10  The cheapest way to manage a currency exposure is:
+A.	a natural hedge.
+B.	a forward contract.
+C.	an option.
+D.	a swap.
+P7-11  A hedge:
+A.	removes the favourable movement along with the unfavourable one.
+B.	protects against loss while keeping the gain.
+C.	is free.
+D.	increases the exposure.
+P7-12  The absence of which element causes most treasury losses?
+A.	A policy with limits, separation of duties and reporting
+B.	A forward contract
+C.	A natural hedge
+D.	A credit limit
+Case-style practice: the new distributor
+A new distributor in a neighbouring country offers Orontes 2,400,000 of annual sales at a contribution margin of 40 per cent. It wants ninety-day terms and payment in euros. Its credit agency rating implies a 4 per cent probability of default, and Orontes would expect to recover 30 per cent of any unpaid balance. Chapter 6's tolerances are 600,000 for a single distributor and 2,500,000 for export receivables in total, with at least 75 per cent of contracted currency exposure hedged.
+Required. Evaluate the proposal against the tolerances, quantify the credit and currency exposures, and recommend terms on which it could be accepted. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC7-1  Answer A. It finds errors after the event.
+B is wrong. Prevention acts before.
+C is wrong. Structural controls concern who does what.
+D is wrong. Nothing has been moved to another party.
+SC7-2  Answer A. Concealment requires continuous presence.
+B is wrong. Workload is a side effect.
+C is wrong. It costs rather than saves.
+D is wrong. Legal requirements vary and are not the mechanism.
+SC7-3  Answer A. Systematic errors replace scattered ones.
+B is wrong. Automated controls need more testing, not less.
+C is wrong. It changes the shape of the risk.
+D is wrong. Cost depends on the case.
+SC7-4  Answer A. Systems and data are its scope.
+B is wrong. Continuity covers the whole business.
+C is wrong. Insurance is a transfer.
+D is wrong. Assessment precedes planning.
+SC7-5  Answer A. The cost of interruption is a business fact.
+B is wrong. Technology delivers it; it does not set it.
+C is wrong. Insurers price the consequence.
+D is wrong. Software is a constraint, not an objective.
+SC7-6  Answer A. The unmapped dependency is the usual failure.
+B is wrong. Length is a symptom at worst.
+C is wrong. Insurance does not keep a business running.
+D is wrong. Quantification helps but is not the failure.
+SC7-7  Answer A. 12,000 × 0.70 = 8,400.
+B is wrong. That is the defaulted exposure before recovery.
+C is wrong. That applies the loss rate to the whole balance.
+D is wrong. That is the exposure.
+SC7-8  Answer A. 42,000,000 ÷ 365 = 115,068.
+B is wrong. That is annual jar volume.
+C is wrong. That misplaces a decimal.
+D is wrong. That is ten times too small.
+SC7-9  Answer A. A limit and terms, not a binary answer.
+B is wrong. That throws away the middle ground.
+C is wrong. A claim follows a loss.
+D is wrong. A provision follows an expectation of loss.
+SC7-10  Answer A. 12,624,000 ÷ 12 = 1,052,000.
+B is wrong. That is the annual figure.
+C is wrong. That is ten times too small.
+D is wrong. That is a quarter.
+SC7-11  Answer A. 1,052,000 × 3 = 3,156,000.
+B is wrong. That is one month.
+C is wrong. That is a year.
+D is wrong. That is operating income.
+SC7-12  Answer A. Long assets, long money.
+B is wrong. Early payment worsens liquidity.
+C is wrong. More inventory consumes cash.
+D is wrong. Rate basis is a different question.
+SC7-13  Answer A. 6,500,000 × 0.01 = 65,000.
+B is wrong. That is ten times too large.
+C is wrong. That is ten times too small.
+D is wrong. That is the current interest charge.
+SC7-14  Answer A. 1,600,000 × 0.75 = 1,200,000.
+B is wrong. That applies the ratio before the natural offset.
+C is wrong. That is the net exposure, unhedged.
+D is wrong. That is the gross exposure.
+SC7-15  Answer A. A mismatch is a position taken deliberately or otherwise.
+B is wrong. A natural hedge arises from the business.
+C is wrong. A limit is a rule.
+D is wrong. A control is a procedure.
+Your turn
+@table
+Situation | Method
+Creator of a supplier may not approve its payment | Segregation of duties, a structural control.
+Monthly report of duplicate invoice amounts | A detective control.
+Buying packaging in the export currency | A natural hedge.
+Thirteen weeks of receipts and payments | A rolling cash forecast.
+A list of suppliers and systems a process needs | A critical dependency list, within continuity planning.
+A 600,000 limit on one distributor | A concentration limit, within credit risk management.
+What it tells you | Six methods, and only one of them involves buying anything. Most risk management is organisation, information and discipline rather than expenditure.
+@end
+Multiple-choice questions
+P7-01  Answer A. It acts before the event.
+B is wrong. Detection is after.
+C is wrong. Structure concerns who does what.
+D is wrong. Nothing is transferred.
+P7-02  Answer A. Performance and checking are separated.
+B is wrong. That is rotation.
+C is wrong. That is mandatory leave.
+D is wrong. Automation is a different method.
+P7-03  Answer A. The event still happens; it costs less.
+B is wrong. Probability is unchanged.
+C is wrong. Only severity falls.
+D is wrong. The effect is real.
+P7-04  Answer A. The value of interruption per period.
+B is wrong. Cause analysis follows an event.
+C is wrong. Premiums are priced by insurers.
+D is wrong. Probability is assessed separately.
+P7-05  Answer A. Tolerable data loss drives backup frequency.
+B is wrong. That is the recovery time objective.
+C is wrong. Cost is a consequence.
+D is wrong. Roles are set in the plan.
+P7-06  Answer A. 600,000 × 0.02 = 12,000.
+B is wrong. That is after applying the loss rate.
+C is wrong. That is ten times too large.
+D is wrong. That is the whole exposure.
+P7-07  Answer A. 115,068 × 6 = 690,408.
+B is wrong. That is one day.
+C is wrong. That is the whole balance.
+D is wrong. This has no basis in the figures.
+P7-08  Answer A. Cash in and cash out.
+B is wrong. Profit is not cash.
+C is wrong. A budget is an input, not the method.
+D is wrong. History does not forecast receipts.
+P7-09  Answer A. 1,052,000 × 3 = 3,156,000.
+B is wrong. That is one month.
+C is wrong. That is six months.
+D is wrong. That is a year.
+P7-10  Answer A. Natural hedges cost nothing.
+B is wrong. A forward carries an implicit cost.
+C is wrong. An option carries an explicit premium.
+D is wrong. A swap is a contract with a price.
+P7-11  Answer A. Both tails are removed.
+B is wrong. That describes an option, and it is not free.
+C is wrong. Every hedge has a cost.
+D is wrong. It reduces the exposure.
+P7-12  Answer A. Governance failures, not market movements.
+B is wrong. An instrument is neutral.
+C is wrong. Natural hedges reduce exposure.
+D is wrong. Credit limits address a different risk.
+Case-style set: the new distributor
+The credit exposure. Ninety-day terms on 2,400,000 of annual sales means a balance of about 2,400,000 ÷ 4 = 600,000 outstanding at any time, which is exactly the single-distributor tolerance and leaves no room for a late payment or a seasonal peak. The expected credit loss is 600,000 × 0.04 = 24,000 of defaulted exposure, of which 24,000 × 0.70 = 16,800 would be lost. Against a contribution of 2,400,000 × 0.40 = 960,000 a year that is small, so on expected value the trade is clearly worth doing.
+The tolerances. The single-distributor limit is met exactly, which in practice means breached, since the balance will exceed 600,000 whenever payment runs late. The total export receivables limit of 2,500,000 must be checked against existing distributors before the limit is used. And the currency policy requires at least 75 per cent of the contracted euro exposure hedged.
+The currency exposure. Euro receipts of 2,400,000 a year, less any euro costs already incurred, with each shipment exposed for ninety days — a long window, which is itself a risk management variable: the exposure is a function of the terms as much as of the rate.
+Recommended terms. Four conditions, which together bring the proposal inside the tolerances.
+Sixty-day terms rather than ninety, which cuts the standing balance to about 400,000 and leaves headroom under the 600,000 limit for a late payment.
+A deposit or a documentary letter of credit for the first two shipments, after which the arrangement is reviewed on the payment record rather than on the agency rating.
+Retention of title until payment, and a contractual right to suspend supply, so that the exposure can be stopped rather than merely watched.
+And forward sales of euros covering 75 per cent of contracted receipts, dated to the expected receipt dates, with the natural offset of euro purchases taken first.
+On those terms I would recommend acceptance. The contribution of 960,000 is large, the expected credit loss of 16,800 is a cost of doing business, and the two things that would make it unacceptable — a balance that breaches the limit and an unhedged currency position — are both fixed by the terms rather than by refusing the customer.

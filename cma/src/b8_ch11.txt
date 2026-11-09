@@ -1,0 +1,568 @@
+Chapter 11
+Hedging exposure, diversifying abroad, and financing trade
+التحوط من التعرض والتنويع الدولي وتمويل التجارة
+Chapter 10 measured the exposure. This chapter does something about it, with the four instruments the syllabus names, the arithmetic that compares them, the case for investing abroad rather than merely selling abroad, and the financing arrangements that make cross-border trade possible at all.
+One principle runs through everything here and it is worth stating before the instruments arrive: a hedge removes the unfavourable outcome and the favourable one together. Every comparison in this chapter is therefore between a certain result and a distribution of results, and the question is never which produces the most money — that is known only afterwards — but which the company should prefer given the appetite of Chapter 6.
+Figure F811-01 is your map.
+Figure F811-01. Chapter 11 roadmap: the four instruments, the comparison, investing abroad, and financing the trade.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.6.d
+Demonstrate how currency futures, currency swaps and currency options can be used to manage exchange rate risk.
+C
+Full treatment
+B.6.f
+Recommend methods of managing exchange rate risk and calculate the net profit or loss of the recommended methods.
+C
+Full treatment
+B.6.g
+Identify and explain the benefits of international diversification.
+C
+Full treatment
+B.6.h
+Identify and explain common trade financing methods, including cross-border factoring, letters of credit, banker's acceptances, forfaiting and countertrade.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+forward contract
+العقد الآجل
+contrat à terme de gré à gré
+currency future
+العقد المستقبلي للعملة
+contrat à terme standardisé
+currency option
+خيار العملة
+option de change
+currency swap
+مبادلة العملات
+swap de devises
+money market hedge
+التحوط بسوق النقد
+couverture par le marché monétaire
+letter of credit
+الاعتماد المستندي
+crédit documentaire
+banker's acceptance
+القبول المصرفي
+acceptation bancaire
+forfaiting
+شراء الديون التجارية
+forfaitage
+countertrade
+التجارة المقابلة
+échange compensé
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 put natural hedging first, operational responses second and instruments third, and set Orontes's net euro exposure at 2,000,000 − 400,000 = 1,600,000. Chapter 10 valued a 2,000,000 euro receivable at two rates. Book 2's Chapter 6 introduced forwards, futures, options and swaps on a commodity; the mechanics here are the same with a currency in place of sesame.
+11.1  Forwards and futures
+A forward contract is an agreement with a bank to exchange a fixed amount of one currency for another, at a fixed rate, on a fixed date. It is the instrument companies use most, because it matches an exposure exactly in amount and date and because it costs nothing to enter.
+The forward rate is not a forecast. It is set by interest rate parity, as Chapter 10 showed: the rate that removes any risk-free gain from borrowing in one currency and lending in the other. Over ninety days, with dollar interest at 6 per cent and euro interest at 3 per cent, a spot of 1.0800 gives a forward of about 1.0880, and a company that contracts at that rate has not predicted anything.
+Its features, stated as the exam wants them: it is a private contract between the company and its bank; it is tailored in amount and date; it carries no up-front payment; it obliges both parties, so the favourable movement is given up along with the unfavourable; and it carries counterparty risk, since the bank must perform.
+A currency future is the exchange-traded version. The differences are the examinable part.
+It is standardised in amount and in maturity date, so it rarely matches an exposure exactly, and the mismatch — basis risk — remains.
+It is traded on an exchange with a clearing house as counterparty, which removes the credit risk of dealing with one bank.
+It requires margin: an initial deposit and daily variation margin as the position is marked to market, so a hedge that is winning or losing generates cash flows before the exposure settles. That is a liquidity consequence of a risk management decision, and it has embarrassed companies whose hedges were correct and whose margin calls were not funded.
+And a position can be closed at any time by taking the opposite contract, which a forward cannot.
+For a company of Orontes's size, hedging specific commercial exposures, the forward is almost always the right instrument. Futures belong where the amounts are large, the maturities standard, the counterparty risk material, or where positions must be adjusted frequently.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+tailored contract
+العقد المفصل
+contrat sur mesure
+basis risk
+مخاطر الأساس
+risque de base
+margin call
+طلب التغطية
+appel de marge
+marked to market
+التقييم بسعر السوق
+évaluation au prix du marché
+SECTION CHECK   Test yourself
+SC11-1  A forward contract:
+A.	is tailored in amount and date and costs nothing to enter.
+B.	is standardised and exchange-traded.
+C.	requires a premium.
+D.	gives a right without an obligation.
+SC11-2  Daily variation margin on a futures position means that:
+A.	cash moves before the underlying exposure settles.
+B.	the hedge costs nothing.
+C.	the contract is tailored.
+D.	there is no counterparty.
+SC11-3  The forward rate is determined by:
+A.	interest rate parity.
+B.	a forecast of the spot rate.
+C.	the inflation differential alone.
+D.	the trade balance.
+Answers and explanations are at the end of the chapter.
+11.2  Options and swaps
+A currency option gives the holder the right, but not the obligation, to exchange currency at a stated rate on or before a stated date, in return for a premium paid at the outset. An exporter expecting foreign currency buys a put option on that currency; an importer who will need it buys a call.
+The asymmetry is the whole point and it is what the premium buys. If the rate moves unfavourably the option is exercised and the company has a floor; if it moves favourably the option is abandoned and the company keeps the gain, less the premium. Against a forward, an option costs money and preserves the upside; a forward is free and does not.
+Three cases where an option is the right instrument, and the exam looks for them.
+Where the exposure is uncertain. A tender for a contract that may not be won creates a currency exposure only if the tender succeeds. A forward would leave the company with an unwanted position if it lost; an option simply lapses.
+Where the company has a view it is unwilling to bet on. An option is the instrument for "we think it will move our way but cannot afford to be wrong."
+And where the downside must be capped for a covenant, a budget or a board.
+A currency swap is an agreement to exchange principal and interest payments in one currency for principal and interest in another, usually over several years. Its typical use is not the hedging of a single transaction but the matching of a long-term funding stream to a long-term revenue stream: a company with euro revenues that has borrowed in dollars swaps the dollar obligation into euros, so that its debt service arises in the currency its income arrives in.
+Three points the exam uses. A swap hedges a series of flows rather than one, so it suits translation and funding exposures. It is driven partly by comparative advantage in borrowing: each party borrows where it is best known and swaps into the currency it wants, and both can be better off. And it carries counterparty risk over its whole life, which is longer than a forward's.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+put option
+خيار البيع
+option de vente
+premium
+العلاوة
+prime
+contingent exposure
+التعرض المشروط
+exposition conditionnelle
+comparative advantage
+الميزة النسبية
+avantage comparatif
+SECTION CHECK   Test yourself
+SC11-4  An exporter expecting foreign currency receipts buys:
+A.	a put option on that currency.
+B.	a call option on that currency.
+C.	a currency swap.
+D.	a future to buy the currency.
+SC11-5  The instrument for an exposure that exists only if a tender is won is:
+A.	an option, which lapses if the tender is lost.
+B.	a forward.
+C.	a future.
+D.	a swap.
+SC11-6  A currency swap is best suited to:
+A.	matching a long-term funding stream to a revenue stream.
+B.	a single ninety-day receivable.
+C.	a contingent exposure.
+D.	a daily trading position.
+Answers and explanations are at the end of the chapter.
+11.3  Choosing, and computing the outcome
+The second outcome asks for a recommendation with the net profit or loss of the recommended method computed, which is the calculation most likely to appear in an exam.
+WORKED EXAMPLE   Worked example: four ways to handle 2,000,000 euros in ninety days
+Step 1. The exposure. Orontes will receive 2,000,000 euros in ninety days. The spot rate is 1.0800, the ninety-day forward is 1.0880, dollar interest is 6 per cent a year and euro interest 3 per cent, and a put option on euros at a strike of 1.0800 costs 0.0150 a euro.
+Step 2. Do nothing. The result depends on the rate in ninety days. At 1.1500 the receipt is 2,000,000 × 1.1500 = 2,300,000; at 1.0200 it is 2,000,000 × 1.0200 = 2,040,000. The range is 260,000 wide and nothing is known in advance.
+Step 3. Forward. Contract to sell 2,000,000 euros at 1.0880 for 2,000,000 × 1.0880 = 2,176,000, certain, whatever the rate does.
+Step 4. Money market hedge. Borrow euros today against the receivable, convert at spot and hold dollars. The amount to borrow is 2,000,000 ÷ 1.0075 = 1,985,112, since ninety days of euro interest at 3 per cent a year is a quarter of 3 per cent. Converting gives 1,985,112 × 1.0800 = 2,143,921, and holding that in dollars at 6 per cent for ninety days gives 2,143,921 × 1.015 = 2,176,080.
+Step 5. Option. Pay a premium of 2,000,000 × 0.0150 = 30,000 now. If the rate falls to 1.0200, exercise at 1.0800 for 2,000,000 × 1.0800 = 2,160,000, so the net is 2,160,000 − 30,000 = 2,130,000. If it rises to 1.1500, let the option lapse and sell at spot for 2,300,000, so the net is 2,300,000 − 30,000 = 2,270,000.
+Check. Two results are worth noticing. The forward and the money market hedge give 2,176,000 and 2,176,080 — the same answer, which is interest rate parity working exactly as Chapter 10 said it must; any material difference between them would be an arbitrage. And the option is never the best outcome and never the worst: it costs 30,000 to convert the whole range into a floor with the upside intact.
+Figure F811-02 sets the four side by side.
+Figure F811-02. The same exposure, four treatments
+Method
+If the rate falls to 1.0200
+If the rate rises to 1.1500
+Certainty
+Cost today
+Do nothing
+2,040,000
+2,300,000
+None
+None
+Forward at 1.0880
+2,176,000
+2,176,000
+Complete
+None
+Money market hedge
+2,176,080
+2,176,080
+Complete
+Uses borrowing capacity
+Option at 1.0800
+2,130,000
+2,270,000
+Floor only
+30,000
+The recommendation, which the outcome requires, follows from four questions rather than from the table.
+Is the exposure certain? If the sale is contracted and the customer is good, the forward is appropriate. If it is contingent, use an option.
+What does the policy say? Chapter 6's appetite required at least 75 per cent of contracted exposure hedged and no open positions taken for gain, which settles most of the question before any arithmetic.
+Has the natural hedge been taken first? Orontes's 400,000 of euro costs reduce the exposure needing an instrument to 1,600,000, and hedging the gross amount would create a position.
+And what can the company afford to be wrong about? If 260,000 of variation would breach a covenant or a budget commitment, certainty is worth paying for; if it would not, the premium may not be.
+On that basis the recommendation for Orontes is a forward for 75 per cent of the net 1,600,000 exposure, dated to the expected receipt, with the balance left open against the risk that the shipment slips — which is the answer Chapter 7 reached by another route.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+arbitrage
+المراجحة
+arbitrage
+floor
+الحد الأدنى
+plancher
+contracted exposure
+التعرض المتعاقد عليه
+exposition contractée
+over-hedging
+الإفراط في التحوط
+surcouverture
+SECTION CHECK   Test yourself
+SC11-7  A forward at 1.0880 on 2,000,000 euros gives:
+A.	2,176,000
+B.	2,160,000
+C.	2,300,000
+D.	2,040,000
+SC11-8  A money market hedge and a forward give nearly the same result because of:
+A.	interest rate parity.
+B.	purchasing power parity.
+C.	the premium.
+D.	chance.
+SC11-9  An option costing 30,000 on an exposure with a 260,000 range:
+A.	is never the best or the worst outcome.
+B.	is always the best outcome.
+C.	is always the worst outcome.
+D.	removes the upside.
+Answers and explanations are at the end of the chapter.
+11.4  International diversification
+The third outcome asks for the benefits of international diversification, which means investing and operating abroad rather than merely selling abroad. Six benefits, with their qualifications.
+Lower variability of results. Economies do not move together, so profits from several countries are less variable in total than profits from one. This is Book 2's Chapter 2 portfolio argument applied to operating income, and it works for the same reason: imperfect correlation.
+Access to growth. Markets that are growing faster than the home market, and populations the company's products suit.
+Lower input costs and access to inputs. Producing or sourcing where labour, materials or energy are cheaper, or where the raw material grows.
+Natural hedging of currency. A company with euro costs as well as euro revenues has reduced its exposure structurally, which Chapter 7 put first among the methods because it costs nothing.
+Reduced political and regulatory concentration. A single adverse decision affects one country's operations rather than the whole business, which is Chapter 1's structural response to political risk.
+Learning and competitive position. Exposure to demanding customers, different competitors and other regulatory standards improves the business at home, and presence in a competitor's market is itself a deterrent.
+Against that, four costs the exam expects as the other half of a good answer.
+New risks: political, legal, cultural, and the operational risk of running something far away.
+Correlations rise in a crisis, so the diversification is smallest in the years it is most wanted — the same observation Chapter 3 made about losses.
+Management attention is finite, and a foreign operation consumes more of it per dollar than a domestic one.
+And shareholders can diversify internationally for themselves, more cheaply, by buying foreign shares. That is Book 3's Chapter 18 objection to conglomerate mergers, and it applies here with the same force: the case for international investment must rest on something the company can do — a product, a brand, a process, a cost position — and not on diversification alone.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+imperfect correlation
+الارتباط غير التام
+corrélation imparfaite
+structural hedge
+التحوط الهيكلي
+couverture structurelle
+concentration
+التركز
+concentration
+management attention
+اهتمام الإدارة
+attention managériale
+SECTION CHECK   Test yourself
+SC11-10  International diversification lowers the variability of results because:
+A.	economies are imperfectly correlated.
+B.	foreign profits are larger.
+C.	currencies always offset.
+D.	taxes are lower.
+SC11-11  The objection that shareholders can diversify internationally themselves means that:
+A.	the case for investing abroad must rest on something the company can do.
+B.	international investment is never justified.
+C.	diversification has no value.
+D.	currency risk disappears.
+SC11-12  International diversification delivers least benefit:
+A.	in a crisis, when correlations rise.
+B.	in a growing economy.
+C.	when currencies are stable.
+D.	when margins are high.
+Answers and explanations are at the end of the chapter.
+11.5  Financing the trade
+Cross-border sales create two problems at once: the exporter wants payment and the importer wants the goods, and neither will go first. The instruments of trade finance exist to break that deadlock, and the outcome names five.
+A letter of credit is an undertaking by the importer's bank to pay the exporter on presentation of specified documents — typically the bill of lading, the invoice and a certificate of inspection or origin. It substitutes a bank's credit for the buyer's, which is its whole purpose: the exporter no longer has to assess a customer in another country. It is documentary, meaning the bank pays against conforming documents and not against the goods, so a discrepancy in the paperwork can delay payment even where the shipment is perfect. A confirmed letter of credit adds the exporter's own bank's undertaking, removing the risk of the issuing bank or its country.
+A banker's acceptance is a time draft drawn on a bank which the bank accepts, so that the bank becomes primarily liable to pay it at maturity. Because a bank's acceptance is a high-quality instrument, it can be sold at a discount in the money market, which means the exporter can have the cash immediately while the importer still has time to pay. It converts trade credit into a tradeable security.
+Cross-border factoring is the sale of foreign receivables to a factor, usually through a chain of correspondent factors with one in the importer's country, who assesses and collects locally. It provides cash immediately, transfers the collection work, and where it is without recourse it transfers the credit risk as well. Its cost is the fee and the discount, and that cost must be compared with the alternative uses of the money.
+Forfaiting is the purchase, without recourse, of medium-term receivables from an exporter — typically notes or drafts, often guaranteed by a bank in the importer's country, over terms of one to seven years. It suits capital goods sold to buyers in difficult markets: the exporter is paid at once and keeps none of the credit, country or currency risk, and pays a substantial discount for that.
+Countertrade is payment in goods rather than money, in various forms: barter, where goods are exchanged directly; counterpurchase, where the exporter agrees to buy unrelated goods from the importing country; and offset, where part of the value must be sourced or produced in the buyer's country. It appears where currency is scarce or controlled, where the buyer is a government, and in large defence and infrastructure contracts. Its costs are real — the exporter must dispose of goods it did not want, often at a discount — and should be valued explicitly rather than treated as free.
+WORKED EXAMPLE   Worked example: what factoring costs
+Step 1. The receivable. Orontes's 2,000,000 euro receivable, due in ninety days.
+Step 2. The quote. A factor offers 2 per cent of face value as a fee, plus interest at 7 per cent a year on the advance for the ninety days.
+Step 3. The cost. The fee is 2,000,000 × 0.02 = 40,000 and the interest 2,000,000 × 0.07 × 0.25 = 35,000, so the total is 40,000 + 35,000 = 75,000.
+Step 4. As a rate. That is 75,000 ÷ 2,000,000 = 3.75 per cent for ninety days, which annualises to roughly 3.75 × 4 = 15.0 per cent.
+Check. Fifteen per cent against a cost of capital of 9.04 per cent looks expensive, and may still be worth it: the comparison is not with the cost of capital but with what the alternative costs. If the arrangement is without recourse it also removes the credit risk, which Chapter 7 priced separately, and it removes the collection effort in a country where Orontes has no presence. An exam answer that stops at "15 per cent is more than the cost of capital, so reject" has not finished the analysis.
+Figure F811-03 sets the five instruments out.
+Figure F811-03. Trade finance instruments
+Instrument
+What it does
+Who it protects
+Typical use
+Letter of credit
+A bank pays against conforming documents
+The exporter, against the buyer
+First dealings; difficult markets
+Banker's acceptance
+A bank accepts a time draft, which can be discounted
+Both, with early cash
+Short-term goods trade
+Cross-border factoring
+Receivables sold to a factor who collects locally
+The exporter, with cash and often credit cover
+Continuing export sales
+Forfaiting
+Medium-term receivables bought without recourse
+The exporter, completely
+Capital goods, long terms
+Countertrade
+Payment in goods rather than money
+The importer short of currency
+Currency controls; state buyers
+YOUR TURN   Instruments and arithmetic
+Figure F811-04 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F811-04. Your turn: hedging and financing (complete the blanks)
+Item
+Data
+Answer
+Proceeds under a forward
+2,000,000 euros at 1.0880
+________
+Option premium
+2,000,000 euros at 0.0150
+________
+Net proceeds if the option is exercised
+Strike 1.0800, premium as above
+________
+Instrument for an exposure that exists only if a tender is won
+________
+Instrument substituting a bank's credit for the buyer's
+________
+Annualised cost of factoring
+Fee 40,000 plus interest 35,000 on 2,000,000 for 90 days
+________
+LANGUAGE FOCUS   "Hedge", "cover" and "without recourse"
+Chapter 7 noted that a hedge narrows the range of outcomes in both directions. Two further terms matter here. Cover is used in British practice as a near-synonym for hedge — "we have covered the exposure" — and in insurance for what a policy pays; in a cross-border document it may mean either, so a report should use hedged for positions and insured for policies. Without recourse is the phrase that carries the money in trade finance: it means the buyer of the receivable cannot come back to the exporter if the customer does not pay, so the credit risk has genuinely moved. With recourse means the opposite, and the difference in price between the two is the price of the credit risk. Arabic بدون حق الرجوع and French sans recours are exact equivalents and equally decisive. When a question describes a factoring or forfaiting arrangement, the first thing to establish is which of the two it is, because everything about the risk analysis follows from it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+bill of lading
+بوليصة الشحن
+connaissement
+documentary credit
+الاعتماد المستندي
+crédit documentaire
+without recourse
+بدون حق الرجوع
+sans recours
+counterpurchase
+الشراء المقابل
+achat en contrepartie
+SECTION CHECK   Test yourself
+SC11-13  A letter of credit pays against:
+A.	conforming documents, not the goods themselves.
+B.	inspection of the goods on arrival.
+C.	the importer's instruction at the time.
+D.	the exporter's invoice alone.
+SC11-14  Forfaiting is the purchase of:
+A.	medium-term receivables without recourse.
+B.	short-term receivables with recourse.
+C.	shares in a foreign subsidiary.
+D.	currency forwards.
+SC11-15  A fee of 40,000 plus interest of 35,000 on a 2,000,000 receivable for ninety days annualises to about:
+A.	15.0 per cent
+B.	3.75 per cent
+C.	7.0 per cent
+D.	2.0 per cent
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F811-05 brings the chapter together.
+Figure F811-05. Chapter 11 summary map: the key rule for each section.
+A forward is a tailored, free, obliging contract at a rate set by interest rate parity rather than by forecast; a future is its standardised exchange-traded cousin, carrying basis risk and daily margin that moves cash before the exposure settles. An option gives a right without an obligation for a premium, which makes it the instrument for contingent exposures and for capping a downside while keeping the upside; a swap exchanges streams of principal and interest and suits long-term funding matched to revenue. Comparing them on 2,000,000 euros: a forward at 1.0880 gives 2,000,000 × 1.0880 = 2,176,000 with certainty, a money market hedge gives 2,143,921 × 1.015 = 2,176,080 — the same answer, because parity requires it — and an option costing 2,000,000 × 0.0150 = 30,000 yields 2,160,000 − 30,000 = 2,130,000 if the rate falls and 2,300,000 − 30,000 = 2,270,000 if it rises, never best and never worst. The recommendation follows from whether the exposure is certain, what the policy requires, whether the natural hedge has been taken first and what the company can afford to be wrong about. International diversification lowers variability through imperfect correlation and adds growth, cost access, structural currency hedging, political spread and learning — against new risks, correlations that rise in a crisis, finite management attention, and the objection that shareholders can diversify more cheaply themselves. And trade finance breaks the deadlock between exporter and importer through letters of credit, banker's acceptances, cross-border factoring, forfaiting and countertrade, at a cost that must be computed: 40,000 + 35,000 = 75,000 on a 2,000,000 receivable is 75,000 ÷ 2,000,000 = 3.75 per cent for ninety days, or about 3.75 × 4 = 15.0 per cent a year, which may still be worth paying.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P11-01  A currency forward:
+A.	is tailored and obliges both parties.
+B.	is standardised and exchange-traded.
+C.	is a right without an obligation.
+D.	requires an up-front premium.
+P11-02  Which instrument requires daily variation margin?
+A.	A currency future
+B.	A forward
+C.	An option bought
+D.	A letter of credit
+P11-03  An exporter expecting euros hedges by:
+A.	buying a put option on euros or selling them forward.
+B.	buying a call option on euros.
+C.	buying euros forward.
+D.	issuing euro debt.
+P11-04  2,000,000 euros sold forward at 1.0880 yields:
+A.	2,176,000
+B.	2,160,000
+C.	2,040,000
+D.	2,300,000
+P11-05  A money market hedge on the same exposure yields about the same as the forward because of:
+A.	interest rate parity.
+B.	purchasing power parity.
+C.	the law of large numbers.
+D.	coincidence.
+P11-06  A premium of 0.0150 a euro on 2,000,000 euros costs:
+A.	30,000
+B.	3,000
+C.	300,000
+D.	15,000
+P11-07  Exercising a put at 1.0800 on 2,000,000 euros after paying 30,000 of premium nets:
+A.	2,130,000
+B.	2,160,000
+C.	2,190,000
+D.	2,270,000
+P11-08  The right instrument for an exposure contingent on winning a tender is:
+A.	an option.
+B.	a forward.
+C.	a future.
+D.	a swap.
+P11-09  International diversification works because economies are:
+A.	imperfectly correlated.
+B.	perfectly correlated.
+C.	identical.
+D.	uncorrelated with each other entirely.
+P11-10  A letter of credit substitutes:
+A.	a bank's credit for the buyer's.
+B.	goods for money.
+C.	a forward for a future.
+D.	equity for debt.
+P11-11  Forfaiting differs from factoring chiefly in:
+A.	the maturity of the receivables and its medium-term, without-recourse nature.
+B.	requiring a letter of credit.
+C.	being a currency hedge.
+D.	applying only to domestic sales.
+P11-12  Countertrade means:
+A.	payment in goods rather than money.
+B.	trading against a counterparty.
+C.	hedging with a future.
+D.	factoring without recourse.
+Case-style practice: the Gulf contract
+Orontes has tendered for a two-year supply contract worth 6,000,000 euros, with the result known in sixty days and deliveries quarterly thereafter. The buyer is a state-owned distributor in a country with exchange controls, and its bank has offered a letter of credit. Orontes's treasurer proposes to sell 6,000,000 euros forward now, to fix the value of the contract.
+Required. Evaluate the treasurer's proposal, recommend how the currency exposure and the payment risk should be handled, and say what you would want to know before committing. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC11-1  Answer A. Tailored, free to enter, binding.
+B is wrong. That is a future.
+C is wrong. That is an option.
+D is wrong. That is also an option.
+SC11-2  Answer A. Margin generates cash flows before settlement.
+B is wrong. Margin is a real cash commitment.
+C is wrong. Futures are standardised.
+D is wrong. The clearing house is the counterparty.
+SC11-3  Answer A. Parity sets it, not prediction.
+B is wrong. The forward is not a forecast.
+C is wrong. Inflation drives expected spot rates, not the forward.
+D is wrong. Trade is one influence on spot.
+SC11-4  Answer A. A put gives the right to sell the currency.
+B is wrong. A call suits an importer.
+C is wrong. A swap suits streams.
+D is wrong. The exporter sells rather than buys.
+SC11-5  Answer A. An option lapses at no further cost.
+B is wrong. A forward would leave an unwanted position.
+C is wrong. So would a future.
+D is wrong. A swap is for streams.
+SC11-6  Answer A. Streams of principal and interest.
+B is wrong. A forward suits a single flow.
+C is wrong. An option suits contingency.
+D is wrong. Futures suit trading positions.
+SC11-7  Answer A. 2,000,000 × 1.0880 = 2,176,000.
+B is wrong. That uses the spot rate.
+C is wrong. That is the unhedged low case.
+D is wrong. That is the unhedged high case.
+SC11-8  Answer A. Parity makes the two equivalent.
+B is wrong. That links inflation to spot rates.
+C is wrong. That concerns insurance pooling.
+D is wrong. The equality is structural.
+SC11-9  Answer A. A floor with the upside retained, for a price.
+B is wrong. The unhedged case beats it on the upside.
+C is wrong. The unhedged case is worse on the downside.
+D is wrong. The upside is retained.
+SC11-10  Answer A. Imperfect correlation reduces combined variability.
+B is wrong. Size is not the mechanism.
+C is wrong. Currencies do not always offset.
+D is wrong. Tax is a separate matter.
+SC11-11  Answer A. The company must bring something of its own.
+B is wrong. Many foreign investments are justified.
+C is wrong. Diversification has value; it is just available elsewhere.
+D is wrong. Currency risk remains.
+SC11-12  Answer A. Correlations rise exactly when diversification is needed.
+B is wrong. Growth is unrelated to correlation.
+C is wrong. Stability is favourable.
+D is wrong. Margins are unrelated.
+SC11-13  Answer A. It is a documentary instrument.
+B is wrong. Banks do not inspect goods.
+C is wrong. The undertaking is independent of the buyer's wishes.
+D is wrong. A full set of documents is required.
+SC11-14  Answer A. Medium-term, without recourse.
+B is wrong. That describes factoring.
+C is wrong. No equity is involved.
+D is wrong. It is not a hedging instrument.
+SC11-15  Answer A. 3.75 per cent for ninety days, about 15.0 per cent a year.
+B is wrong. That is the ninety-day figure.
+C is wrong. That is the interest element only.
+D is wrong. That is the fee element only.
+Your turn
+Item
+Answer
+Proceeds under a forward
+2,176,000: 2,000,000 × 1.0880 = 2,176,000.
+Option premium
+30,000: 2,000,000 × 0.0150 = 30,000.
+Net proceeds if exercised
+2,130,000: 2,160,000 − 30,000 = 2,130,000.
+Instrument for a tender-contingent exposure
+An option, which lapses if the tender is lost.
+Instrument substituting a bank's credit
+A letter of credit.
+Annualised cost of factoring
+About 15.0 per cent: 3.75 per cent for ninety days.
+What it tells you
+Three calculations and three choices — and in every case the arithmetic narrows the options while the decision turns on whether the exposure is certain and what the company can afford to be wrong about.
+Multiple-choice questions
+P11-01  Answer A. Tailored and binding.
+B is wrong. That is a future.
+C is wrong. That is an option.
+D is wrong. Forwards cost nothing to enter.
+P11-02  Answer A. Futures are margined daily.
+B is wrong. Forwards settle at maturity.
+C is wrong. A bought option has no margin.
+D is wrong. A letter of credit is a payment undertaking.
+P11-03  Answer A. Sell the currency forward, or buy the right to sell it.
+B is wrong. A call is for a buyer of the currency.
+C is wrong. The exporter already expects euros.
+D is wrong. That is a structural hedge, not this transaction's.
+P11-04  Answer A. 2,000,000 × 1.0880 = 2,176,000.
+B is wrong. That uses the spot rate.
+C is wrong. That is the low unhedged case.
+D is wrong. That is the high unhedged case.
+P11-05  Answer A. Parity equalises them.
+B is wrong. That relates inflation to spot.
+C is wrong. That is an insurance principle.
+D is wrong. The result is structural.
+P11-06  Answer A. 2,000,000 × 0.0150 = 30,000.
+B is wrong. That is ten times too small.
+C is wrong. That is ten times too large.
+D is wrong. That halves it.
+P11-07  Answer A. 2,160,000 − 30,000 = 2,130,000.
+B is wrong. That ignores the premium.
+C is wrong. This adds the premium.
+D is wrong. That is the lapse case.
+P11-08  Answer A. An option lapses if the tender fails.
+B is wrong. A forward leaves a position.
+C is wrong. So does a future.
+D is wrong. A swap is for streams.
+P11-09  Answer A. Imperfect correlation.
+B is wrong. Perfect correlation gives no benefit.
+C is wrong. Identical economies would not diversify.
+D is wrong. Zero correlation is rare and not required.
+P11-10  Answer A. The bank's credit stands in for the buyer's.
+B is wrong. That is countertrade.
+C is wrong. These are different markets.
+D is wrong. No financing structure changes.
+P11-11  Answer A. Medium-term, without recourse.
+B is wrong. A guarantee is common but not the distinction.
+C is wrong. Neither is a hedging instrument.
+D is wrong. Both apply across borders.
+P11-12  Answer A. Goods instead of money.
+B is wrong. Every trade has a counterparty.
+C is wrong. That is hedging.
+D is wrong. That is factoring.
+Case-style set: the Gulf contract
+The treasurer's proposal is wrong in two ways. First, the exposure is contingent: the tender result is sixty days away, and selling 6,000,000 euros forward creates an obligation to deliver euros Orontes may never receive. If the tender is lost and the euro has strengthened, Orontes must buy euros in the market at a loss to close a hedge on a contract it does not have. That is a position, not a hedge. Second, the exposure is not a single amount on a single date: deliveries are quarterly over two years, so a single forward would mismatch every receipt.
+The currency recommendation, in two stages. Until the result is known, use a currency option on an amount close to the expected first year's receipts — the instrument for exactly this case, since it lapses at the cost of its premium if the tender fails. Once the contract is won, replace the option position with a strip of forwards matched to the quarterly receipt dates, hedging the policy proportion of each after any euro costs have been netted off. Over a two-year horizon a currency swap is also worth pricing, particularly if Orontes borrows to fund the working capital the contract will absorb, since it would match the debt service to the euro income.
+The payment risk is the more serious half of this question and the treasurer's proposal does not address it at all. A state-owned buyer in a country with exchange controls carries two risks that no currency hedge touches: the buyer may not pay, and the country may not permit the currency to leave. The letter of credit addresses the first and only partly the second. I would require it to be confirmed by a bank outside that country, so that Orontes's recourse does not depend on the issuing bank or on the exchange controls, and I would check the documentary conditions carefully, since payment follows the documents and not the shipment.
+What I would want to know before committing. The confirming bank and its standing; the exact documentary requirements and who produces each document; whether the contract price can be adjusted if the rate moves more than a stated amount; the working capital the contract absorbs over two years, which is a cash commitment larger than the currency risk; and whether forfaiting is available on the later receipts, since it would convert a two-year exposure to a difficult market into cash at a price Orontes can compare with the alternatives.
