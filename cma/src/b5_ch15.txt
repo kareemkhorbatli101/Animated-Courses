@@ -338,7 +338,7 @@ ________
 Market-to-book, at the investor's implied price of 6.00
 ________
 LANGUAGE FOCUS   "Value"
-English value carries no built-in basis: book value, market value, fair value, net realisable value and present value are five different numbers for one asset, and the word alone tells the reader nothing. Arabic uses قيمة with the same breadth, and French valeur likewise. The professional habit is never to write value without the qualifier — valeur comptable for book, juste valeur for fair, valeur de marché for market — and candidates who carry that habit into English write answers a marker cannot misread. Note the one trap: in French, valorisation is the act of valuing, not the value, and évaluation is closer to assessment than to measurement.
+English value carries no built-in basis: book value, market value, fair value, net realisable value and present value are five different numbers for one asset, and the word alone tells the reader nothing. Arabic uses قيمة with the same breadth, and French valeur likewise. The professional habit is to name the basis every time. A marker cannot misread an answer written that way.
 TERM BRIDGE   Key words in this section
 English (exam term)
 العربية

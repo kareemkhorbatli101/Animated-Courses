@@ -148,6 +148,15 @@ EXAM TRAP   Who has the right, and who has the obligation
 The holder of a call or a put has the right. The writer has the obligation and keeps the premium whatever happens.
 Intrinsic value is never negative. An out-of-the-money option has an intrinsic value of zero, not a negative one.
 A call is not the opposite of a put. The opposite of buying a call is writing a call. Buying a put is a different position entirely.
+Figure F606-05 sets out the four positions.
+Figure F606-05. Who holds the right, and who carries the obligation
+@table
+Position | Right or obligation | Maximum gain | Maximum loss
+Buyer of a call | The right to buy at the strike | Unlimited | The premium paid
+Writer of a call | The obligation to sell at the strike | The premium received | Unlimited
+Buyer of a put | The right to sell at the strike | The strike less the premium | The premium paid
+Writer of a put | The obligation to buy at the strike | The premium received | The strike less the premium
+@end
 TERM BRIDGE   Key words in this section
 @table
 English (exam term) | العربية | Français
@@ -181,8 +190,8 @@ Time to expiration. More is better for both. Time is the chance of a favourable 
 Volatility of the underlying. More is better for both, and this is the one candidates find counter-intuitive. A more volatile underlying produces more extreme outcomes in both directions, and the option holder keeps the good extremes and is protected from the bad ones. Volatility is therefore the variable option traders actually trade.
 The risk-free rate. A higher rate is slightly better for a call, because the strike will be paid later and money paid later is worth less; slightly worse for a put, by the same reasoning.
 Dividends on the underlying. A dividend lowers the share price on the ex-dividend date, so expected dividends reduce a call's value and raise a put's.
-Figure F606-05 lays the six out.
-Figure F606-05. What moves an option premium
+Figure F606-06 lays the six out.
+Figure F606-06. What moves an option premium
 @table
 Variable | An increase in it | Effect on a call | Effect on a put
 Price of the underlying | Up | Up | Down
@@ -224,8 +233,8 @@ Two warnings close the chapter.
 Basis risk. A hedge is rarely exact. If the contract's underlying is not precisely what the company buys — a sesame future against a specific grade, or a crude oil future against jet fuel — the two prices move together but not identically, and the difference between them is basis risk, which no hedge of that kind removes.
 A hedge that becomes a speculation. A company that hedges more than its exposure, or keeps a contract after the exposure has gone, is speculating with the shareholders' money. Every famous derivatives loss in corporate history began as an authorised hedging programme, and the control that prevents it is a policy limiting positions to documented exposures.
 YOUR TURN   Price the positions
-Figure F606-06 gives one underlying and several positions. Complete the blanks. Answers are at the end of the chapter.
-Figure F606-06. Your turn: positions and values (complete the blanks)
+Figure F606-07 gives one underlying and several positions. Complete the blanks. Answers are at the end of the chapter.
+Figure F606-07. Your turn: positions and values (complete the blanks)
 @table
 Position | Data | Answer
 Intrinsic value of a call | Strike 50, underlying 58 | ________
@@ -264,8 +273,8 @@ C.	a short future.
 D.	no instrument at all.
 Answers and explanations are at the end of the chapter.
 Chapter summary
-Figure F606-07 brings the chapter together.
-Figure F606-07. Chapter 6 summary map: the key rule for each section.
+Figure F606-08 brings the chapter together.
+Figure F606-08. Chapter 6 summary map: the key rule for each section.
 A derivative takes its value from an underlying and creates no asset, so one side's gain is the other's loss; the same contract hedges an existing exposure, speculates on one that did not exist, or arbitrages two prices, and only what else the holder owns says which. Forwards are private and tailored and settle once; futures are standardised, cleared, margined and marked to market daily — and in both, long means committed to buy and gains when prices rise, short means committed to sell and gains when they fall. A forward obliges and an option entitles: a call is the right to buy at the strike, a put the right to sell, the premium is paid either way, intrinsic value is never negative, and premium equals intrinsic plus time value. Orontes's 1,000 tonnes show the whole trade-off: unhedged it pays 1,100 or 1,350 a tonne, forward it pays 1,200 either way, and with a 1,250 call at a premium of 40 it pays 1,140 or 1,290 — the only strategy that caps the bad outcome and keeps the good one, at a cost of exactly $40,000. Six variables move an option's premium, of which volatility is the one traders trade and the expected return on the underlying is conspicuously not among them. And the best hedge of all is usually the natural one inside the business, while the worst risk in a hedging programme is the hedge that outlives its exposure.
 Practice
 Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.

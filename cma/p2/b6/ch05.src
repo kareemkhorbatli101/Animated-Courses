@@ -83,11 +83,11 @@ Figure F605-03 prices the variants.
 Figure F605-03. What each preferred feature does
 @table
 Feature | Who it favours | Effect on the rate the issuer must offer
-Cumulative | The holder | Lower
+Arrears carried forward | The holder | Lower
 Participating | The holder | Lower
 Convertible | The holder | Much lower
 Callable | The issuer | Higher
-Non-cumulative | The issuer | Higher
+Arrears lost if unpaid | The issuer | Higher
 @end
 EXAM TRAP   Preferred is not debt
 A missed preferred dividend is not a default and creates no liability on the balance sheet. It creates arrears, disclosed in the notes, which block the common dividend.

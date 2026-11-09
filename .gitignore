@@ -27,3 +27,6 @@ CMA_Part_1_Summary_Handouts.zip
 # megabytes, so it is a build artefact rather than source.
 cma/wsart_cache/
 cma/CMA_Summaries_*.docx
+
+# The Part 2 delivery bundle: 43 files that are all tracked elsewhere.
+CMA_Part_2_Books_1_and_2.zip

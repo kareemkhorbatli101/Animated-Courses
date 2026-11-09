@@ -133,7 +133,7 @@ Figure F605-03. What each preferred feature does
 Feature
 Who it favours
 Effect on the rate the issuer must offer
-Cumulative
+Arrears carried forward
 The holder
 Lower
 Participating
@@ -145,7 +145,7 @@ Much lower
 Callable
 The issuer
 Higher
-Non-cumulative
+Arrears lost if unpaid
 The issuer
 Higher
 EXAM TRAP   Preferred is not debt
