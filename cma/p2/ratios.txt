@@ -1,0 +1,68 @@
+=== LIQUIDITY 2025 / 2024 ===
+current ratio 2025                                   3.31
+current ratio 2024                                   2.35
+quick ratio 2025 (cash+TS+AR)                        2.68
+quick 2024                                           1.65
+cash ratio 2025                                      1.72
+cash ratio 2024                                      0.60
+cash flow ratio 2025 (OCF/CL)                        1.76
+net working capital ratio 2025 (NWC/TA)              0.3128
+net working capital 2025                             9908100
+net working capital 2024                             4810000
+
+=== LEVERAGE ===
+debt-to-equity 2025 (TL/TE)                          0.55
+2024                                                 0.61
+long-term debt-to-equity 2025                        0.29
+debt-to-total-assets 2025                            0.36
+2024                                                 0.38
+equity multiplier 2025 (TA/TE)                       1.55
+2024                                                 1.61
+times interest earned (EBIT/int)                     11.15
+EBIT                                                 4348800
+cash flow to fixed charges (OCF+int+tax)/int         22.46
+
+=== ACTIVITY ===
+AR turnover (sales/avg AR)                           10.63
+DSO                                                  34.3
+Inventory turnover (cogs/avg inv)                    11.49
+DSI                                                  31.8
+purchases (cogs+end inv-beg inv)                     27450000
+AP turnover (purch/avg AP)                           13.90
+DPO                                                  26.3
+total asset turnover (sales/avg TA)                  1.45
+fixed asset turnover (sales/avg PPE)                 2.73
+operating cycle (DSO+DSI)                            66.1
+cash cycle (OC - DPO)                                39.8
+
+=== PROFITABILITY ===
+gross margin                                         35.0
+operating margin                                     9.9
+net margin                                           7.1
+EBITDA (OI+dep+impair)                               9000000
+EBITDA margin                                        21.4
+ROA (NI/avg TA)                                      10.2
+ROE (NI/avg TE)                                      16.2
+ROE (NI/ending TE)                                   14.6
+DuPont: margin                                       7.07
+DuPont: asset turnover                               1.4453
+DuPont: equity multiplier (avg)                      1.5807
+   check 0.0707 x 1.4453 x 1.5807 = 0.1615
+
+=== MARKET (price 9.25 / 7.80; shares out 8,100,000) ===
+EPS (NI/wtd avg shares)                              0.3666
+book value per share (TE/shares out)                 2.5177
+market/book at 9.25                                  3.67
+P/E at 9.25                                          25.23
+earnings yield                                       4.0
+dividends declared (RE roll-forward)                 450000
+DPS                                                  0.0556
+dividend yield at 9.25                               0.60
+payout ratio                                         15.2
+shareholder return (9.25-7.80+DPS)/7.80              19.3
+sustainable growth g = ROE x (1-payout), ending equity 12.35
+
+=== misc ===
+market cap at 9.25                                   74925000
+sales growth? (no 2024 IS)                           0.00
+PPE fall                                             1198000

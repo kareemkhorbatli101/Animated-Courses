@@ -19,6 +19,7 @@ LOS = json.load(open(os.path.join(HERE, 'los.json'), encoding='utf8'))
 PLAN = json.load(open(os.path.join(HERE, 'plan.json'), encoding='utf8'))
 CODES = set(s['code'] for s in LOS['statements'])
 ORONTES = json.load(open(os.path.join(HERE, 'orontes.json'), encoding='utf8'))
+SERIES = json.load(open(os.path.join(HERE, 'series.json'), encoding='utf8'))
 
 ARABIC = re.compile(u'[؀-ۿ]')
 SECPAT = re.compile(r'^(\d{1,2}\.\d{1,2})\s{2}(.+)$')
@@ -39,6 +40,14 @@ def amounts():
             for v in row[1:]:
                 if isinstance(v, (int, float)):
                     got.add('%d' % round(abs(v)))
+    # And the earlier years Book 1 supplies. Part 1 published one income
+    # statement and two balance sheets; horizontal analysis needs a
+    # series, so series.json carries 2024 and 2023 and every chapter
+    # quotes the same figures from it.
+    for row in SERIES['income_statement']['rows']:
+        for v in row[1:]:
+            if isinstance(v, (int, float)):
+                got.add('%d' % round(abs(v)))
     return got
 
 
@@ -78,8 +87,10 @@ def arithmetic(text, say):
         # figure in this book is. A difference may not: "100.0 − 28.0 =
         # 72.0 per cent" is already in percentage points, and scaling it
         # multiplied the right answer by a hundred.
-        if op in u'\u00f7/' and text[m.end():m.end() + 12].lstrip().startswith(
-                ('per cent', '%')):
+        tailing = text[m.end():m.end() + 36].lower()
+        if op in u'\u00f7/' and (
+                tailing.lstrip().startswith(('per cent', '%'))
+                or 'index' in tailing or 'base of 100' in tailing):
             r = r * 100
         # Half a unit of the last place the result is written to, so a
         # figure rounded to one decimal is not reported as wrong for
@@ -145,6 +156,18 @@ def check(bk, n, say):
             say('section %d is numbered %s' % (k, s))
     if len(secs) < 3:
         say('has only %d sections' % len(secs))
+
+    # --- long enough to be a chapter of this series
+    #
+    # Part 1's four books ran 4,867 to 6,119 words a chapter. A chapter
+    # that falls below that is not a shorter chapter; it is a chapter
+    # whose sections have been summarised instead of taught.
+    words = len(txt.split())
+    if words < 4800:
+        say('is %d words, below the 4,800 this series runs to' % words)
+    if words > 8600:
+        say('is %d words, above what a chapter of this series carries'
+            % words)
 
     # --- every question is answerable
     def items(pat, where):

@@ -1,0 +1,439 @@
+Chapter 4
+Growth Rates and Variation Analysis
+معدلات النمو وتحليل التغير
+Chapter 3 stated a movement three ways and left one question open: when a line has moved over several years, what single number describes how fast it is moving? A series of year-over-year percentages is honest but hard to hold in the head. Sales grew 13.8 per cent and then 15.4 per cent. Is that one rate or two?
+This chapter answers it. A growth rate is a percentage change expressed as a rate per period, and when several periods are involved there is a right way and a wrong way to average them. Variation analysis is the same arithmetic given the name the exam uses for it.
+Figure F504-01 is your map.
+Figure F504-01. Chapter 4 roadmap: from a series of movements to one rate.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.1.c | Calculate the growth rate of an individual line item on the balance sheet or income statement. | C | Full treatment
+A.1.c | Calculate a compound growth rate over several years and say why it is not the average of the annual rates. | C | Full treatment
+A.3.i | Define and perform a variation analysis. | C | Full treatment
+A.1.d | Use a growth rate to raise the right question about the business. | B | Introduced (full in Chapter 5)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+growth rate | معدل النمو | taux de croissance
+compound annual growth rate | معدل النمو السنوي المركب | taux de croissance annuel composé
+variation analysis | تحليل التغير | analyse des écarts
+arithmetic mean | الوسط الحسابي | moyenne arithmétique
+geometric mean | الوسط الهندسي | moyenne géométrique
+organic growth | النمو الداخلي | croissance organique
+@end
+WHAT YOU ALREADY KNOW   What you already know
+You already know how to calculate a percentage change: the movement divided by the earlier amount. A growth rate is that same figure, named as a rate because it attaches to a period. Everything in this chapter follows from that one definition.
+4.1  The growth rate of a line
+The growth rate of a line item for one period is the change divided by the opening amount.
+Orontes's net sales went from $36,400,000 to $42,000,000. The growth rate is 5,600,000 ÷ 36,400,000 = 15.4 per cent. The year before, sales went from $32,000,000 to $36,400,000, a growth rate of 4,400,000 ÷ 32,000,000 = 13.8 per cent.
+Every line has a growth rate, and the exam asks for them on the balance sheet as readily as on the income statement. Figure F504-02 collects the ones that matter for Orontes.
+Figure F504-02. Orontes Foods, Inc. — growth rates of selected lines
+@table
+Line | 2024 | 2025 | What it says
+Net sales | 13.8 | 15.4 | The business is growing, and faster
+Cost of goods sold | 15.6 | 17.2 | Costs are growing faster still
+Gross profit | 10.7 | 12.2 | What is left grows more slowly than sales
+Operating income | 13.8 | 4.3 | Something below gross profit broke in 2025
+Net income | 12.0 | 14.3 | Below operating income, the picture recovers
+Total assets | — | 19.8 | The balance sheet grew faster than sales
+Accounts receivable | — | 10.2 | Collections are keeping up
+Inventory | — | 6.5 | Stock is not building up
+@end
+Two readings come straight off that figure, and neither needs another calculation.
+Total assets grew 19.8 per cent while sales grew 15.4 per cent. A company whose balance sheet grows faster than its sales is using more assets to produce each dollar of revenue, and Chapter 11 measures exactly that as asset turnover. Here the cause is known: it is the cash.
+Net income grew faster than operating income. That is unusual, and it happens because the lines below operating income — interest, the equity-method share of Jordan Glass, and the tax charge — moved in Orontes's favour. Chapter 13 separates the three.
+EXAM TRAP   Growth of a line against growth of its base
+A line growing faster than sales is a line becoming a larger share of sales.
+A balance-sheet line growing faster than total assets is a line becoming a larger share of the company.
+A growth rate on a small line can be huge and still not matter. Always ask what the absolute amount is.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+growth rate | معدل النمو | taux de croissance
+opening amount | المبلغ الافتتاحي | montant d'ouverture
+line item | بند القائمة | poste
+asset turnover | معدل دوران الأصول | rotation de l'actif
+@end
+SECTION CHECK   Test yourself
+SC4-1  A line rose from 32,000,000 to 36,400,000. Its growth rate is:
+A.	12.1 per cent
+B.	13.8 per cent
+C.	13.75 per cent of the later amount
+D.	113.8 per cent
+SC4-2  Total assets grew 19.8 per cent and net sales grew 15.4 per cent. This means that:
+A.	the company used fewer assets per dollar of sales.
+B.	the company used more assets per dollar of sales.
+C.	asset turnover was unchanged.
+D.	sales were overstated.
+SC4-3  Net income grew faster than operating income. The explanation must lie:
+A.	in the cost of goods sold.
+B.	in gross profit.
+C.	in the lines below operating income.
+D.	in net sales.
+Answers and explanations are at the end of the chapter.
+4.2  Several years: the compound rate
+Two annual rates of 13.8 and 15.4 per cent do not average to one rate by adding them and halving. That is the commonest arithmetical error in this part of the syllabus, and the exam tests it directly.
+The reason is that growth compounds. A line that grows 13.8 per cent and then 15.4 per cent has not grown 29.2 per cent, and it has not grown at 14.6 per cent a year in the sense that the simple average suggests. It has grown by a factor of 1.138 × 1.154, and the rate that produces the same result in two equal steps is the square root of that factor.
+The measure is the compound annual growth rate, usually written CAGR. For a series running n periods from a beginning value to an ending value:
+CAGR = (ending value ÷ beginning value) raised to the power of 1 ÷ n, minus 1.
+WORKED EXAMPLE   Worked example: the CAGR of Orontes sales
+Step 1. The beginning and the end. Sales in 2023 were $32,000,000 and in 2025 were $42,000,000. There are two periods between them, not three: 2023 to 2024, and 2024 to 2025.
+Step 2. The total factor. 42,000,000 ÷ 32,000,000 = 1.3125. Sales are 1.3125 times what they were.
+Step 3. The rate per period. The square root of 1.3125 is 1.1456, so the CAGR is 14.56 per cent.
+Check. Grow 32,000,000 by 14.56 per cent twice: 32,000,000 × 1.1456 = 36,659,200, and 36,659,200 × 1.1456 = 41,996,780, which is 42,000,000 to the nearest rounding. The simple average of 13.8 and 15.4 is 14.6 per cent, close here because the two rates are close; the two diverge sharply when the rates are far apart or when one is negative.
+Figure F504-03 shows why the simple average fails.
+Figure F504-03. Two companies, the same simple average, different results
+@table
+Company | Year 1 growth | Year 2 growth | Simple average | Value of 100 after two years | CAGR
+Orontes | 13.8 | 15.4 | 14.6 | 131.3 | 14.56
+Steady Co. | 14.6 | 14.6 | 14.6 | 131.3 | 14.60
+Swing Co. | 60.0 | (30.6) | 14.7 | 111.0 | 5.36
+@end
+Swing Co. shows the point. Its simple average is slightly higher than Orontes's, and $100 invested in it is worth $111.00 after two years against $131.30 in Orontes. The simple average of a series of growth rates is not the growth of the series.
+EXAM TRAP   Counting the periods
+The exponent is 1 divided by the number of PERIODS, not the number of data points. Three annual figures give two periods.
+A CAGR describes a smooth path that the company did not actually follow. It is a summary, not a history.
+A CAGR cannot be calculated when the beginning value is zero or negative, for the same reason a percentage change cannot.
+LANGUAGE FOCUS   "Compound" in English
+English compound as a verb means to build on itself: interest compounds, growth compounds. Arabic مركب and French composé carry the same idea. Do not confuse it with English compound as a noun, meaning a mixture, or with a compound journal entry, which is one entry with several lines. The exam uses all three senses in Part 1 and Part 2.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+compound annual growth rate | معدل النمو السنوي المركب | taux de croissance annuel composé
+geometric mean | الوسط الهندسي | moyenne géométrique
+arithmetic mean | الوسط الحسابي | moyenne arithmétique
+compounding | التراكم المركب | capitalisation
+@end
+SECTION CHECK   Test yourself
+SC4-4  A series has three annual figures. The exponent in the CAGR formula is one divided by:
+A.	3
+B.	2
+C.	4
+D.	the number of years since the company was founded
+SC4-5  A line grows 60 per cent in one year and falls 30.6 per cent in the next. Its CAGR over the two years is:
+A.	higher than the simple average of the two rates.
+B.	lower than the simple average of the two rates.
+C.	equal to the simple average of the two rates.
+D.	not calculable.
+SC4-6  Sales were $32,000,000 in 2023 and $42,000,000 in 2025. The CAGR is closest to:
+A.	14.6 per cent
+B.	15.6 per cent
+C.	31.3 per cent
+D.	10.4 per cent
+Answers and explanations are at the end of the chapter.
+4.3  Variation analysis
+Variation analysis is the name the Learning Outcome Statements give to the calculation and interpretation of percentage change over time. It is the technique of Chapter 3 and this one, used deliberately on a chosen set of lines rather than on the whole statement.
+The method has three steps, and the third is the one candidates skip.
+First, choose the lines. Not every line: the ones that drive the business. For a manufacturer they are usually sales, cost of goods sold, the main operating expenses, inventory, receivables and payables.
+Second, compute the variation. The percentage change, year by year, and the compound rate over the series.
+Third, explain each variation that is out of line with the others. A variation that matches the rest of the statement needs no explanation; a variation that does not is the finding.
+Figure F504-04 is a variation analysis of Orontes's operating lines.
+Figure F504-04. Orontes Foods, Inc. — variation analysis, 2023 to 2025
+@table
+Line | 2023 | 2025 | Variation over two years | CAGR
+Net sales | 32,000,000 | 42,000,000 | 31.2 per cent | 14.56
+Cost of goods sold | 20,160,000 | 27,300,000 | 35.4 per cent | 16.38
+Gross profit | 11,840,000 | 14,700,000 | 24.2 per cent | 11.43
+Total operating expenses | 8,320,000 | 10,524,000 | 26.5 per cent | 12.48
+Operating income | 3,520,000 | 4,176,000 | 18.6 per cent | 8.91
+Net income | 2,320,000 | 2,969,100 | 28.0 per cent | 13.14
+@end
+Three findings fall out of the third step.
+Cost of goods sold is out of line, and it is the central finding of the book so far. It grew at 16.38 per cent against sales at 14.56 per cent. Everything else on the income statement is consequence.
+Operating income is out of line in the other direction, growing at 8.91 per cent, slower than gross profit. The operating expenses grew faster than gross profit, and the impairment is most of why.
+Net income is out of line with operating income, growing at 13.14 per cent against 8.91. Below the operating line, something is helping. An analyst would now go and find it rather than conclude anything.
+WORKED EXAMPLE   Worked example: explaining one variation
+Step 1. Find the line that is out of step. Over 2023 to 2025 sales grew 31.2 per cent and cost of goods sold grew 35.4 per cent. Every other line on the income statement is downstream of those two.
+Step 2. Size the effect. Had cost of goods sold grown at the same 31.2 per cent as sales, it would be 20,160,000 × 1.312 = 26,449,920 instead of 27,300,000. The difference is 27,300,000 − 26,449,920 = 850,080 of cost that growth alone does not account for.
+Step 3. Say what it is worth. That $850,080 is gross profit Orontes did not earn, on an actual gross profit of $14,700,000. It is about 5.8 per cent of the gross profit the company made, and it is the whole of the margin decline from 37.0 per cent to 35.0 per cent.
+Check. The two statements agree. The common-size column said the margin fell two points; the variation analysis says the same fall is worth $850,080 at this year's volume. A manager asked to act needs the second figure, because two percentage points is not a sum of money and $850,080 is.
+
+4.4  Three patterns worth recognising
+Most variation analyses end in one of three patterns, and naming them saves time.
+The margin squeeze is Orontes's pattern: sales growing, a cost line growing faster, and every subtotal below it growing more slowly than sales. The cause is upstream — purchase prices, product mix, discounting — and the remedy is a pricing or sourcing decision, not a cost-cutting one.
+The working-capital leak is Barada's pattern in Chapter 3: sales growing modestly while receivables and inventory grow sharply. The income statement looks adequate and the cash does not arrive. The cause is downstream of the sale, in collection and in stock, and Chapters 11 and 12 measure it.
+The one-off distortion is the pattern of Orontes's operating income in 2025: a single line moving so far that it breaks the series on its own. The test is whether removing it restores the pattern. Take out the impairment of $2,724,000 and operating income grows 15.4 per cent in 2025 rather than 4.3, which is sales growth exactly; the series was never broken, one line was.
+Figure F504-05 sets the three out.
+Figure F504-05. Three patterns a variation analysis ends in
+@table
+Pattern | What the figures look like | Where the cause is | What settles it
+Margin squeeze | Sales grow; a cost line grows faster | Pricing, mix or sourcing | The gross margin, year by year
+Working-capital leak | Sales grow a little; receivables and inventory grow a lot | Collection and stockholding | Days outstanding and days in inventory
+One-off distortion | One line breaks the series alone | A single event | Does removing it restore the pattern?
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+margin squeeze | ضغط الهامش | compression de la marge
+working capital | رأس المال العامل | fonds de roulement
+one-off item | بند لمرة واحدة | élément ponctuel
+mix | المزيج | composition des ventes
+@end
+SECTION CHECK   Test yourself
+SC4-13  Sales grow 15 per cent, receivables grow 40 per cent and inventory grows 38 per cent. This is:
+A.	a margin squeeze.
+B.	a working-capital leak.
+C.	a one-off distortion.
+D.	organic growth.
+SC4-14  What is the test for a one-off distortion?
+A.	Whether the item is material
+B.	Whether removing it restores the pattern in the rest of the series
+C.	Whether it was disclosed in the notes
+D.	Whether it recurs in the following year
+Answers and explanations are at the end of the chapter.
+YOUR TURN   Complete the variation analysis
+Figure F504-06 gives four balance-sheet lines for the two years you have. Compute the variation. Answers are at the end of the chapter.
+Figure F504-06. Your turn: variation analysis of the balance sheet (complete the blanks)
+@table
+Line | 2024 | 2025 | Variation
+Total current assets | 8,380,000 | 14,188,100 | 69.3 per cent
+Total current liabilities | 3,570,000 | 4,280,000 | ________
+Total liabilities | 10,070,000 | 11,279,625 | ________
+Total stockholders' equity | 16,375,000 | 20,392,975 | ________
+TOTAL ASSETS | 26,445,000 | 31,672,600 | ________
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+variation analysis | تحليل التغير | analyse des écarts
+out of line | خارج النمط | hors tendance
+driver | المحرك | inducteur
+finding | النتيجة | constat
+@end
+SECTION CHECK   Test yourself
+SC4-7  The third step of a variation analysis is to:
+A.	calculate the percentage change for every line.
+B.	choose the lines that drive the business.
+C.	explain the variations that are out of line with the others.
+D.	compare the company with its industry.
+SC4-8  Use Figure F504-04. Which variation is the central finding?
+A.	Net sales growing at 14.56 per cent
+B.	Cost of goods sold growing at 16.38 per cent
+C.	Net income growing at 13.14 per cent
+D.	Total operating expenses growing at 12.48 per cent
+SC4-9  A variation that matches the rest of the statement:
+A.	should be reported as a finding.
+B.	needs no explanation.
+C.	indicates an error.
+D.	should be recalculated on a different base.
+Answers and explanations are at the end of the chapter.
+4.5  What a growth rate hides
+A growth rate is one number standing for a year of trading, and four things disappear inside it.
+Price and volume. Sales grew 15.4 per cent. That is more jars, or dearer jars, or both. Nothing in the financial statements separates them, and the two have opposite implications: more jars at the same price means the business is winning customers; the same jars at a higher price may mean only that costs were passed on. An analyst looks for unit data in the MD&A or the segment note.
+Acquisition and organic growth. A company that buys another company grows. Orontes's equity-method investment in Jordan Glass rose by $1,307,000, and if that had been a controlling stake the consolidated sales would have jumped without a single extra jar being sold. Growth that comes from buying is called inorganic, and growth from the existing business is organic. The exam expects the distinction.
+Currency. A company selling into the Gulf and the Levant reports in dollars. If a customer's currency weakens, the same local sales translate into fewer dollars and the growth rate falls with no change in the business. Chapter 18 takes this up.
+Inflation. A general rise in prices lifts every money figure. In a year of 10 per cent inflation, growth of 15.4 per cent is about 5 per cent in real terms. Chapter 18 takes this up too.
+Figure F504-07 sets the four out.
+Figure F504-07. Four things a growth rate does not separate
+@table
+What is hidden | The question to ask | Where to look
+Price against volume | Did we sell more, or charge more? | MD&A, segment note, unit data
+Organic against acquired | Did the existing business grow? | Acquisitions note, cash flow statement
+Currency | Would the rate be the same in local currency? | Segment note, Chapter 18
+Inflation | What is the real rate? | A price index, Chapter 18
+@end
+EXAM TRAP   Real against nominal
+A growth rate from the statements is nominal: it includes inflation.
+A real growth rate subtracts inflation. If a question gives you an inflation rate, it usually wants the real figure.
+Growth from an acquisition is not evidence that the business improved.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+organic growth | النمو الداخلي | croissance organique
+nominal | الاسمي | nominal
+real | الحقيقي | réel
+translation | الترجمة (تحويل العملة) | conversion
+@end
+SECTION CHECK   Test yourself
+SC4-10  A company's sales grew 15.4 per cent in a year when general prices rose 10 per cent. Its real sales growth is approximately:
+A.	25.4 per cent
+B.	5 per cent
+C.	15.4 per cent
+D.	1.54 per cent
+SC4-11  Growth that comes from acquiring another company is called:
+A.	organic growth.
+B.	inorganic growth.
+C.	real growth.
+D.	compound growth.
+SC4-12  Sales to a Gulf customer were unchanged in local currency, but the local currency weakened against the dollar. Orontes's reported sales growth will be:
+A.	unaffected.
+B.	lower than the underlying business performance.
+C.	higher than the underlying business performance.
+D.	not meaningful.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F504-08 brings the chapter together.
+Figure F504-08. Chapter 4 summary map: the key rule for each section.
+A growth rate is the change in a line divided by its opening amount, and every line on both statements has one. Orontes's sales grew 13.8 and then 15.4 per cent, while cost of goods sold grew 15.6 and 17.2, and total assets grew 19.8 per cent against sales of 15.4. Over several periods the rates compound, so the summary measure is the compound annual growth rate: the ending value over the beginning value, raised to one over the number of periods, less one. Orontes's sales CAGR from 2023 to 2025 is 14.56 per cent. The simple average of annual rates is not the growth of the series, and the gap widens as the rates spread. Variation analysis is this arithmetic applied deliberately: choose the lines that drive the business, compute the change, and explain only the variations that are out of line — for Orontes, cost of goods sold at 16.38 per cent against sales at 14.56. A growth rate hides price against volume, organic against acquired growth, currency translation and inflation.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P4-01  The growth rate of a line item is the change divided by:
+A.	the closing amount.
+B.	the opening amount.
+C.	the average of the two.
+D.	total assets.
+P4-02  A series shows four annual figures. The number of periods for a CAGR calculation is:
+A.	4
+B.	3
+C.	5
+D.	2
+P4-03  Sales rose from $32,000,000 to $42,000,000 over two periods. The CAGR is closest to:
+A.	14.56 per cent
+B.	15.63 per cent
+C.	31.25 per cent
+D.	29.12 per cent
+P4-04  Why is the simple average of annual growth rates not the growth rate of the series?
+A.	Because the rates are percentages
+B.	Because growth compounds
+C.	Because the periods are of unequal length
+D.	Because inflation is excluded
+P4-05  Use Figure F504-04. Which line grew fastest over 2023 to 2025?
+A.	Net sales
+B.	Cost of goods sold
+C.	Gross profit
+D.	Operating income
+P4-06  A company's CAGR cannot be calculated. The most likely reason is that:
+A.	the series has more than five years.
+B.	the beginning value is zero or negative.
+C.	the growth rates differ between years.
+D.	the company changed its accounting policy.
+P4-07  Growth from the company's existing operations, excluding acquisitions, is called:
+A.	nominal growth.
+B.	compound growth.
+C.	organic growth.
+D.	real growth.
+P4-08  Total assets grew 19.8 per cent and net sales grew 15.4 per cent. Which ratio has fallen?
+A.	Gross profit margin
+B.	Total asset turnover
+C.	Debt to equity
+D.	Current ratio
+P4-09  In a year of 10 per cent inflation, a company's nominal sales growth of 15.4 per cent represents real growth of approximately:
+A.	15.4 per cent
+B.	5 per cent
+C.	25.4 per cent
+D.	1.5 per cent
+P4-10  Use Figure F504-02. Which pair of growth rates shows that the gross profit margin fell in 2025?
+A.	Net sales 15.4 and total assets 19.8
+B.	Cost of goods sold 17.2 and net sales 15.4
+C.	Operating income 4.3 and net income 14.3
+D.	Inventory 6.5 and receivables 10.2
+Case-style practice: two years of Barada
+Barada Wholesale reports net sales of $18,000,000 in 2023, $19,800,000 in 2024 and $21,978,000 in 2025. Its cost of goods sold was $15,120,000, $16,830,000 and $18,900,000 over the same three years. Its accountant tells the bank that "sales are growing at about 10 per cent a year and the business is stable".
+Required. Calculate the sales growth rate for each year and the sales CAGR. Then calculate the gross profit for each year and say whether the accountant's description is accurate, giving the evidence. State one thing the three years cannot tell the bank. Continuous prose and figures, under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC4-1  Answer B. 4,400,000 ÷ 32,000,000 = 13.8 per cent.
+A is wrong. This divides by the later amount.
+C is wrong. A growth rate is a percentage of the earlier amount, not the later one.
+D is wrong. This is the index, which includes the base of 100.
+SC4-2  Answer B. Assets grew faster than the sales they support, so each dollar of sales rests on more assets.
+A is wrong. Fewer assets per dollar of sales would need assets to grow more slowly.
+C is wrong. Different growth rates change the ratio between the two.
+D is wrong. Nothing suggests misstatement.
+SC4-3  Answer C. Operating income and net income differ only by the lines between them.
+A is wrong. Cost of goods sold is above operating income and affects both equally.
+B is wrong. Gross profit is above operating income.
+D is wrong. Net sales is above both.
+SC4-4  Answer B. Three annual figures give two periods between them.
+A is wrong. Three is the number of data points.
+C is wrong. Four exceeds even the number of data points.
+D is wrong. The company's age is irrelevant.
+SC4-5  Answer B. A volatile series compounds to less than its simple average suggests.
+A is wrong. Volatility reduces the compound result, it does not raise it.
+C is wrong. The two are equal only when every rate is the same.
+D is wrong. The beginning value is positive, so the CAGR is calculable.
+SC4-6  Answer A. 42,000,000 ÷ 32,000,000 = 1.3125, whose square root is 1.1456.
+B is wrong. This is roughly the cost of goods sold CAGR.
+C is wrong. 31.3 per cent is the total growth over the two periods.
+D is wrong. This halves the total growth rather than compounding it.
+SC4-7  Answer C. The explanation of the out-of-line variations is the output of the analysis.
+A is wrong. That is the second step.
+B is wrong. That is the first step.
+D is wrong. Industry comparison is a different technique.
+SC4-8  Answer B. Cost of goods sold grew faster than sales, and everything below it follows.
+A is wrong. Sales growth is the benchmark the other lines are read against.
+C is wrong. Net income's variation is a consequence of lines below operating income.
+D is wrong. Operating expenses are a secondary finding, driven by the impairment.
+SC4-9  Answer B. A variation consistent with the rest of the statement carries no information.
+A is wrong. A finding is a variation that is out of line.
+C is wrong. Consistency is evidence of correctness, not of error.
+D is wrong. Changing the base would not make a consistent variation interesting.
+SC4-10  Answer B. Real growth is approximately nominal growth less inflation: 15.4 − 10 = 5.4, about 5 per cent.
+A is wrong. This adds inflation instead of removing it.
+C is wrong. This is the nominal rate.
+D is wrong. This divides the nominal rate by ten.
+SC4-11  Answer B. Growth from acquiring another company is inorganic.
+A is wrong. Organic growth comes from the existing business.
+C is wrong. Real growth is nominal growth less inflation.
+D is wrong. Compound growth describes how rates accumulate.
+SC4-12  Answer B. The same local sales translate into fewer dollars, so reported growth understates the business.
+A is wrong. Translation changes the reported amount.
+C is wrong. A weaker local currency reduces, not raises, reported dollars.
+D is wrong. The figure is meaningful; it simply mixes trading and translation.
+SC4-13  Answer B. The sale is made and the cash does not follow it, so the growth sits in receivables and stock.
+A is wrong. A margin squeeze shows in the income statement, as a cost growing faster than sales.
+C is wrong. Two lines moving together over a period is a pattern, not a single event.
+D is wrong. Organic growth describes the source of sales, not this pattern.
+SC4-14  Answer B. If the rest of the series is consistent once the item is removed, the series was never broken.
+A is wrong. Materiality says the item matters, not that it is one-off.
+C is wrong. Disclosure is required for many recurring items too.
+D is wrong. Whether it recurs is known only later; the test must work now.
+Your turn
+@table
+Item | Answer
+Total current liabilities | 19.9 per cent: 710,000 ÷ 3,570,000.
+Total liabilities | 12.0 per cent: 1,209,625 ÷ 10,070,000.
+Total stockholders' equity | 24.5 per cent: 4,017,975 ÷ 16,375,000.
+TOTAL ASSETS | 19.8 per cent: 5,227,600 ÷ 26,445,000.
+@end
+Multiple-choice questions
+P4-01  Answer B. The growth rate divides the change by the amount it grew from.
+A is wrong. The closing amount is the result, not the base.
+C is wrong. The average is used in turnover ratios, not growth rates.
+D is wrong. Total assets is the base for common-size analysis.
+P4-02  Answer B. Four figures have three periods between them.
+A is wrong. Four is the number of data points.
+C is wrong. Five exceeds the number of data points.
+D is wrong. Two would be right for three figures.
+P4-03  Answer A. The square root of 1.3125 is 1.1456.
+B is wrong. This halves the total growth rather than compounding it.
+C is wrong. This is total growth over both periods.
+D is wrong. This has no basis in the figures.
+P4-04  Answer B. Each year's growth applies to a base that already includes the previous year's growth.
+A is wrong. Being percentages is not the reason; it is the compounding.
+C is wrong. The periods here are equal.
+D is wrong. Inflation affects nominal and real rates equally in a simple average.
+P4-05  Answer B. Cost of goods sold grew 35.4 per cent over the two years, more than any other line.
+A is wrong. Net sales grew 31.2 per cent.
+C is wrong. Gross profit grew 24.2 per cent.
+D is wrong. Operating income grew 18.6 per cent.
+P4-06  Answer B. The formula divides by the beginning value and takes a root of the result.
+A is wrong. Long series present no difficulty.
+C is wrong. Differing rates are the normal case.
+D is wrong. A policy change makes the series incomparable but does not prevent the arithmetic.
+P4-07  Answer C. Organic growth is growth from the business the company already had.
+A is wrong. Nominal describes money figures including inflation.
+B is wrong. Compound describes how rates accumulate.
+D is wrong. Real describes a figure after inflation.
+P4-08  Answer B. Total asset turnover is sales over assets, and assets grew faster.
+A is wrong. The gross profit margin depends on sales and cost of goods sold.
+C is wrong. Debt to equity depends on the composition of financing.
+D is wrong. The current ratio rose, from 2.35 to 3.31.
+P4-09  Answer B. 15.4 per cent nominal less 10 per cent inflation is about 5 per cent real.
+A is wrong. This is the nominal figure.
+C is wrong. This adds inflation.
+D is wrong. This divides by ten.
+P4-10  Answer B. When cost of goods sold grows faster than sales, the margin between them narrows.
+A is wrong. This pair concerns asset turnover.
+C is wrong. This pair concerns the lines below operating income.
+D is wrong. This pair concerns working capital.
+Case-style set: two years of Barada
+Sales growth is 19,800,000 ÷ 18,000,000 = 1.100, or 10.0 per cent in 2024, and 21,978,000 ÷ 19,800,000 = 1.110, or 11.0 per cent in 2025. The CAGR is 21,978,000 ÷ 18,000,000 = 1.221, whose square root is 1.1050, so 10.5 per cent. The accountant's "about 10 per cent a year" is accurate for sales.
+Gross profit is 18,000,000 − 15,120,000 = 2,880,000 in 2023; 19,800,000 − 16,830,000 = 2,970,000 in 2024; and 21,978,000 − 18,900,000 = 3,078,000 in 2025. As a percentage of sales that is 16.0, 15.0 and 14.0 per cent.
+So the description is accurate about sales and wrong about stability. The gross margin has fallen a full point in each of two years, which on 2025 sales is worth about $440,000 a year of lost profit. Cost of goods sold grew at 11.8 per cent a year against sales at 10.5, and a distributor whose margin erodes steadily is not stable; it is being squeezed, by suppliers or by customers or by both.
+What the three years cannot tell the bank is whether the margin fell because prices were cut to win volume or because purchase costs rose. The two call for different remedies, and the statements do not separate them.

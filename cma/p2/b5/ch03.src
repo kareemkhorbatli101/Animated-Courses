@@ -1,0 +1,451 @@
+Chapter 3
+Horizontal Analysis and the Base Year
+التحليل الأفقي وسنة الأساس
+A common-size column tells you what a company is made of. It cannot tell you what has changed, because each year is divided by its own total and a line that grew exactly as fast as the company shows no movement at all. You saw that in Chapter 2: Orontes's current liabilities rose by $710,000 and stayed at 13.5 per cent of total assets both years.
+Horizontal analysis is the other direction. Each line is compared with the same line in an earlier year, so the question becomes what moved and by how much. Because the comparison runs across the page, it is horizontal; the common-size comparison runs down the column, so it is vertical.
+Figure F503-01 is your map.
+Figure F503-01. Chapter 3 roadmap: one line, two years, three ways of stating the difference.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.1.b | Prepare a comparative horizontal analysis of the balance sheet and income statement. | C | Full treatment
+A.1.b | Calculate year-over-year change for every item against a base year. | C | Full treatment
+A.1.b | Choose a base year and say why the choice matters. | B | Full treatment
+A.1.c | State a movement as a growth rate. | B | Introduced (full in Chapter 4)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+horizontal analysis | التحليل الأفقي | analyse horizontale
+base year | سنة الأساس | année de base
+trend index | الرقم القياسي للاتجاه | indice de tendance
+year-over-year change | التغير السنوي | variation annuelle
+absolute change | التغير المطلق | variation absolue
+percentage change | التغير النسبي | variation en pourcentage
+comparative statements | القوائم المقارنة | états comparatifs
+@end
+WHAT YOU ALREADY KNOW   What you already know
+You already know that published statements show the prior year beside the current one, because the standards require comparatives. Horizontal analysis is what an analyst does with that second column once it is there.
+3.1  Three ways to state a difference
+Take one line and two years. There are three honest ways to say how it moved, and the exam uses all three.
+The absolute change is the later amount minus the earlier one, in currency. Orontes's cash rose by 7,302,100 − 2,100,000 = 5,202,100 dollars. This is the figure that matters when you are asking whether the movement is large enough to care about.
+The percentage change is the absolute change divided by the earlier amount. For cash that is 5,202,100 ÷ 2,100,000 = 247.7 per cent. This is the figure that lets you compare movements in lines of very different size.
+The trend index sets the base year to 100 and expresses every later year against it. Cash at the end of 2025 is 7,302,100 ÷ 2,100,000 = 347.7 on a 2024 base of 100. The index and the percentage change say the same thing: an index of 347.7 is a rise of 247.7 per cent.
+EXAM TRAP   The denominator is the earlier year
+Percentage change divides by the earlier amount, not the later one and not the average.
+An index of 347.7 means a rise of 247.7 per cent. Subtract 100 to get the change.
+A percentage change cannot be calculated when the earlier amount is zero, and it is meaningless when the earlier amount is negative. Say "not meaningful" rather than inventing a figure.
+Figure F503-02 sets the three out on one line.
+Figure F503-02. Three statements of one movement
+@table
+Measure | How it is calculated | Orontes cash | What it is good for
+Absolute change | Later − earlier | 5,202,100 | Is the movement big enough to matter?
+Percentage change | (Later − earlier) ÷ earlier | 247.7 per cent | Comparing lines of different size
+Trend index | Later ÷ base, × 100 | 347.7 | Following one line over several years
+@end
+A large percentage on a small line is the commonest way for horizontal analysis to mislead. Orontes's assets held for sale went from nothing to $46,000, which is an infinite percentage rise on a line that is one-tenth of one per cent of the company. Trading securities rose 5.0 per cent, on $40,000. Neither tells you anything. The discipline is to read the absolute change and the percentage change together, and the exam sets questions that punish reading only one.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+absolute change | التغير المطلق | variation absolue
+percentage change | التغير النسبي | variation en pourcentage
+trend index | الرقم القياسي للاتجاه | indice de tendance
+not meaningful | غير ذي دلالة | non significatif
+@end
+SECTION CHECK   Test yourself
+SC3-1  In a percentage change calculation, the denominator is:
+A.	the later year's amount.
+B.	the earlier year's amount.
+C.	the average of the two.
+D.	the base-year total.
+SC3-2  A line shows a trend index of 128.0 against a base year of 100. This means the line has:
+A.	risen by 128.0 per cent.
+B.	risen by 28.0 per cent.
+C.	fallen by 28.0 per cent.
+D.	risen by 12.8 per cent.
+SC3-3  A line rose from $8,000 to $24,000 while total assets rose from $20,000,000 to $26,000,000. The BEST comment is:
+A.	the line tripled, so it is the most important movement in the statement.
+B.	a 200 per cent rise on an amount this small is not significant to the company.
+C.	the percentage change cannot be calculated.
+D.	the movement should be reported as an index of 300 only.
+Answers and explanations are at the end of the chapter.
+3.2  Horizontal analysis of the balance sheet
+Figure F503-03 is Orontes's balance sheet with both an absolute and a percentage column. Read it with the common-size column of Chapter 2 beside you: the two answer different questions about the same statement.
+Figure F503-03. Orontes Foods, Inc. — horizontal analysis of the balance sheet, 2025 against 2024
+@table
+Line | 2025 | 2024 | Change | Per cent
+Cash | 7,302,100 | 2,100,000 | 5,202,100 | 247.7
+Trading securities | 42,000 | 40,000 | 2,000 | 5.0
+Accounts receivable, net | 4,144,000 | 3,760,000 | 384,000 | 10.2
+Inventory | 2,450,000 | 2,300,000 | 150,000 | 6.5
+Prepaid expenses | 204,000 | 180,000 | 24,000 | 13.3
+Total current assets | 14,188,100 | 8,380,000 | 5,808,100 | 69.3
+Equity-method investments | 1,807,000 | 500,000 | 1,307,000 | 261.4
+Property, plant and equipment, net | 14,802,000 | 16,000,000 | (1,198,000) | (7.5)
+Goodwill | 300,000 | 950,000 | (650,000) | (68.4)
+TOTAL ASSETS | 31,672,600 | 26,445,000 | 5,227,600 | 19.8
+Accounts payable | 2,050,000 | 1,900,000 | 150,000 | 7.9
+Accrued liabilities | 900,000 | 850,000 | 50,000 | 5.9
+Total current liabilities | 4,280,000 | 3,570,000 | 710,000 | 19.9
+Long-term debt, less current portion | 6,000,000 | 5,600,000 | 400,000 | 7.1
+Total liabilities | 11,279,625 | 10,070,000 | 1,209,625 | 12.0
+Common stock, $1 par | 8,100,000 | 8,000,000 | 100,000 | 1.3
+Additional paid-in capital | 5,400,000 | 4,000,000 | 1,400,000 | 35.0
+Retained earnings | 6,894,100 | 4,375,000 | 2,519,100 | 57.6
+Total stockholders' equity | 20,392,975 | 16,375,000 | 4,017,975 | 24.5
+@end
+The company grew by 19.8 per cent in a year, and the horizontal column says where the growth came from and where it went.
+It came from three places. Operations generated cash: retained earnings rose by $2,519,100, which is net income of $2,969,100 less the dividends declared. Owners put money in: common stock and additional paid-in capital together rose by $1,500,000. And the bank lent a little more: long-term debt rose by $400,000.
+It went into two places. Cash, by far: $5,202,100 of the $5,227,600 increase in total assets is cash. And an investment: the equity-method holding rose by $1,307,000, which was the purchase of the stake in Jordan Glass Co.
+Plant fell by $1,198,000, which is the year's depreciation of $2,100,000 less the $3,000,000 of new equipment, less the carrying amount of what was sold. Goodwill fell by $650,000 because of the impairment.
+Nothing in the percentage column is as instructive as the two largest entries read together. Total assets rose 19.8 per cent; total liabilities rose 12.0 per cent; equity rose 24.5 per cent. The company grew and became less reliant on borrowing at the same time, which is what the common-size column showed from the other side when liabilities fell from 38.1 to 35.6 per cent of assets.
+WORKED EXAMPLE   Worked example: one line, three statements
+Step 1. Absolute. Accounts receivable, net: 4,144,000 − 3,760,000 = 384,000. The company is owed $384,000 more than a year ago.
+Step 2. Percentage. 384,000 ÷ 3,760,000 = 10.2 per cent. Receivables grew by about a tenth.
+Step 3. In context. Total assets grew 19.8 per cent, so receivables grew more slowly than the company. That is why the common-size column showed receivables falling from 14.2 per cent of assets to 13.1 per cent.
+Check. Three numbers, one fact: receivables rose in dollars, rose by a tenth, and fell as a share of the company. All three are true, and a reader who has only one of them can be misled by any of the others.
+YOUR TURN   Complete the horizontal columns
+Figure F503-04 gives four lines. The first is done. Fill in the absolute change and the percentage change, rounding the percentage to one decimal. Answers are at the end of the chapter.
+Figure F503-04. Your turn: the horizontal columns (complete the blanks)
+@table
+Line | 2025 | 2024 | Change | Per cent
+Inventory | 2,450,000 | 2,300,000 | 150,000 | 6.5
+Accounts payable | 2,050,000 | 1,900,000 | ________ | ________
+Long-term debt, less current portion | 6,000,000 | 5,600,000 | ________ | ________
+Goodwill | 300,000 | 950,000 | ________ | ________
+Total stockholders' equity | 20,392,975 | 16,375,000 | ________ | ________
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+comparative statements | القوائم المقارنة | états comparatifs
+equity-method investment | استثمار بطريقة حقوق الملكية | participation mise en équivalence
+depreciation | الإهلاك | amortissement
+paid-in capital | رأس المال المدفوع | capital versé
+@end
+SECTION CHECK   Test yourself
+SC3-4  Use Figure F503-03. Which line accounts for most of the increase in total assets?
+A.	Accounts receivable
+B.	Cash
+C.	Equity-method investments
+D.	Inventory
+SC3-5  Total assets rose 19.8 per cent and total liabilities rose 12.0 per cent. Together these show that:
+A.	the company borrowed to fund its growth.
+B.	the company grew while becoming less reliant on borrowing.
+C.	the company repaid debt during the year.
+D.	the percentages are inconsistent.
+SC3-6  Receivables rose 10.2 per cent while total assets rose 19.8 per cent. On a common-size balance sheet, receivables will therefore:
+A.	rise as a percentage of total assets.
+B.	fall as a percentage of total assets.
+C.	stay the same percentage of total assets.
+D.	cannot be determined without the income statement.
+Answers and explanations are at the end of the chapter.
+3.3  Horizontal analysis of the income statement
+A balance sheet comes with one comparative. An income statement is usually shown for three years, and three years is the minimum from which an analyst will read a direction. Figure F503-05 is Orontes's.
+Figure F503-05. Orontes Foods, Inc. — income statement, three years (whole USD)
+@table
+Line | 2025 | 2024 | 2023
+Net sales | 42,000,000 | 36,400,000 | 32,000,000
+Cost of goods sold | (27,300,000) | (23,296,000) | (20,160,000)
+Gross profit | 14,700,000 | 13,104,000 | 11,840,000
+Total operating expenses | (10,524,000) | (9,100,000) | (8,320,000)
+Operating income | 4,176,000 | 4,004,000 | 3,520,000
+Net income | 2,969,100 | 2,598,000 | 2,320,000
+@end
+Figure F503-06 turns it into year-over-year percentages and into an index on a 2023 base.
+Figure F503-06. Orontes Foods, Inc. — income statement trends
+@table
+Line | 2024 change | 2025 change | Index 2023 = 100, at 2025
+Net sales | 13.8 | 15.4 | 131.2
+Cost of goods sold | 15.6 | 17.2 | 135.4
+Gross profit | 10.7 | 12.2 | 124.2
+Total operating expenses | 9.4 | 15.6 | 126.5
+Operating income | 13.8 | 4.3 | 118.6
+Net income | 12.0 | 14.3 | 128.0
+@end
+Now the statement speaks. Sales grew 13.8 per cent and then 15.4 per cent: a company accelerating. But cost of goods sold grew faster in both years, 15.6 and then 17.2 per cent, so gross profit grew more slowly than sales. That is the whole story of the common-size margin falling from 37.0 per cent in 2023 to 36.0 and then 35.0 per cent.
+Operating income grew 13.8 per cent in 2024 and only 4.3 per cent in 2025, far slower than sales. The reason is in the operating expenses, which rose 15.6 per cent in 2025 — and most of that rise is the impairment. Take the impairment out and the picture changes completely, which is why Chapter 17 insists on identifying lines that do not recur before any trend is read.
+EXAM TRAP   Read the lines against each other
+A cost growing faster than sales means a falling margin, every time. You do not need the common-size statement to see it.
+A subtotal growing more slowly than the line above it means something between them grew faster.
+When one year breaks a trend, find the line that broke it before explaining the trend.
+LANGUAGE FOCUS   "Trend" and "tendency"
+English trend means the direction of a series over time, and it carries no judgment: a trend can be bad. Arabic اتجاه and French tendance are the same. What English does not allow is using trend of a single movement between two points. Two numbers give a change; three or more give a trend.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+net sales | صافي المبيعات | ventes nettes
+cost of goods sold | تكلفة البضاعة المباعة | coût des marchandises vendues
+gross profit | مجمل الربح | marge brute
+operating expenses | المصروفات التشغيلية | charges d'exploitation
+non-recurring item | بند غير متكرر | élément non récurrent
+@end
+SECTION CHECK   Test yourself
+SC3-7  Use Figure F503-06. Cost of goods sold grew faster than net sales in both years. It follows that:
+A.	gross profit fell in dollars.
+B.	the gross profit margin fell.
+C.	operating income fell in dollars.
+D.	net sales fell as a percentage of total revenue.
+SC3-8  Operating income grew 13.8 per cent in 2024 and 4.3 per cent in 2025, while sales grew faster in 2025 than in 2024. The FIRST thing to look for is:
+A.	a fall in sales volume.
+B.	a line of operating expense that grew sharply in 2025.
+C.	an error in the index.
+D.	a change in the tax rate.
+SC3-9  How many years of data does an analyst need before speaking of a trend?
+A.	One
+B.	Two
+C.	Three or more
+D.	Five or more
+Answers and explanations are at the end of the chapter.
+3.4  Choosing the base year
+The index depends entirely on which year is set to 100, and the choice is not neutral.
+A base year should be normal. If the base year was a year of strike, flood, acquisition or impairment, every later index is measured against a distorted figure and every later year looks better or worse than it is. Had Orontes used 2025 as its base, the impairment would sit in the denominator and the next three years of operating income would all show handsome growth for no reason connected to trading.
+A base year should be far enough back to show a cycle and close enough to be comparable. Three to five years is the usual range. Ten years back the business may be a different business; one year back there is no trend to see.
+A base year must be restated when the company restates. If a prior year is restated for a change in accounting principle or for an error, the index must use the restated figure, or the series mixes two measurement bases. Chapter 18 returns to this.
+Figure F503-07 shows what the choice does to one series.
+Figure F503-07. Orontes operating income on two different bases
+@table
+Year | Operating income | Index, 2023 = 100 | Index, 2024 = 100
+2023 | 3,520,000 | 100.0 | 87.9
+2024 | 4,004,000 | 113.8 | 100.0
+2025 | 4,176,000 | 118.6 | 104.3
+@end
+Both columns are correct and neither is a trick. The first says operating income is up 18.6 per cent over two years; the second says it is up 4.3 per cent over one. An analyst states the base with the index, every time, because an index without its base is not a number.
+EXAM TRAP   State the base
+An index means nothing without its base year, and an exam answer that gives one without the other is incomplete.
+If a question changes the base, every index in the series changes.
+A base year with an unusual event in it distorts the whole series; say so rather than reading the trend.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+base year | سنة الأساس | année de base
+restatement | إعادة العرض | retraitement
+accounting principle | المبدأ المحاسبي | principe comptable
+comparability | قابلية المقارنة | comparabilité
+@end
+SECTION CHECK   Test yourself
+SC3-10  Why should a base year be a normal year?
+A.	Because the standards require it
+B.	Because a distorted base distorts every index calculated from it
+C.	Because indexes may not exceed 200
+D.	Because the base year must be audited
+SC3-11  Use Figure F503-07. Operating income for 2025 shows an index of 118.6 on one base and 104.3 on another. This shows that:
+A.	one of the indexes is wrong.
+B.	an index is meaningless without its base year.
+C.	operating income both rose and fell.
+D.	the base year must always be the earliest year available.
+SC3-12  A company restates its 2023 results for an error. Its trend indexes on a 2023 base should:
+A.	be left as they were, for consistency.
+B.	be recalculated using the restated 2023 figures.
+C.	be abandoned in favour of absolute changes.
+D.	use the original figures with a note.
+Answers and explanations are at the end of the chapter.
+3.5  What horizontal analysis cannot do
+Horizontal analysis compares a company with itself, and that is both its strength and its limit.
+It cannot tell you whether the level is right. Orontes's sales grew 15.4 per cent. Whether that is good depends on whether the market grew 5 per cent or 30 per cent, and the statements do not say.
+It cannot separate price from volume. A 15.4 per cent rise in sales may be 15.4 per cent more jars, or the same jars at a 15.4 per cent higher price, or any combination. Chapter 4 shows what can and cannot be recovered, and Chapter 18 returns to it as the inflation problem.
+It cannot survive a change of accounting. If the company moved from FIFO to LIFO during the series, the cost of goods sold line is measured two ways and the percentage change across the break is not a change in the business.
+And it cannot cope with a negative or zero base. A company whose operating income moved from a loss of $500,000 to a profit of $500,000 has no meaningful percentage change: the arithmetic gives −200 per cent, which says nothing. Write "not meaningful" and give the absolute change.
+Figure F503-08 lists the four limits with the question each one raises.
+Figure F503-08. Four things a horizontal column will not tell you
+@table
+Limit | The question it raises | Where it is answered
+The level may still be wrong | How did the market move? | Industry data, Chapter 1
+Price and volume are mixed | Did we sell more, or charge more? | Chapter 4, and Chapter 18 on inflation
+An accounting change breaks the series | Is this the same measurement? | Chapter 18
+A zero or negative base | What does a percentage mean here? | Report the absolute change instead
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+price effect | أثر السعر | effet prix
+volume effect | أثر الكمية | effet volume
+accounting change | التغير المحاسبي | changement de méthode
+not meaningful | غير ذي دلالة | non significatif
+@end
+SECTION CHECK   Test yourself
+SC3-13  A company's operating income moved from a loss of $500,000 to a profit of $500,000. The percentage change should be reported as:
+A.	200 per cent.
+B.	−200 per cent.
+C.	not meaningful, with the absolute change given.
+D.	100 per cent.
+SC3-14  Net sales rose 15.4 per cent. Horizontal analysis alone cannot say whether this was achieved by:
+A.	selling more units or charging higher prices.
+B.	increasing or decreasing total assets.
+C.	paying or not paying a dividend.
+D.	using FIFO or LIFO.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F503-09 brings the chapter together.
+Figure F503-09. Chapter 3 summary map: the key rule for each section.
+Horizontal analysis compares each line with itself in an earlier year, and states the movement three ways: the absolute change, the percentage change with the earlier year as denominator, and a trend index on a base year set to 100. A large percentage on a small line means nothing, so the two are read together. Orontes grew 19.8 per cent in 2025, of which almost all the asset increase was cash, financed by retained earnings of $2,519,100, new shares of $1,500,000 and $400,000 more debt; liabilities grew more slowly than the company, so leverage fell. On the income statement, cost of goods sold grew faster than sales in both years, which is the falling gross margin seen from the other side, and operating income grew only 4.3 per cent in 2025 because of the impairment inside operating expenses. The base year must be normal, recent enough to be comparable, and restated when the company restates; an index without its base is not a number. Horizontal analysis cannot say whether the level is right, cannot separate price from volume, does not survive an accounting change, and has no meaning from a zero or negative base.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P3-01  Horizontal analysis compares each line with:
+A.	a total in the same statement.
+B.	the same line in an earlier period.
+C.	the industry average.
+D.	a budget.
+P3-02  A line rose from 2,300,000 to 2,450,000. The percentage change is:
+A.	6.1 per cent
+B.	6.5 per cent
+C.	106.5 per cent
+D.	not meaningful
+P3-03  A trend index of 131.2 on a 2023 base means the line has risen since 2023 by:
+A.	131.2 per cent
+B.	31.2 per cent
+C.	13.1 per cent
+D.	3.12 per cent
+P3-04  Use Figure F503-03. Which movement is largest in absolute terms?
+A.	The rise in accounts receivable
+B.	The rise in cash
+C.	The fall in property, plant and equipment
+D.	The rise in retained earnings
+P3-05  Use Figure F503-06. Why did gross profit grow more slowly than net sales in 2025?
+A.	Operating expenses rose.
+B.	Cost of goods sold grew faster than net sales.
+C.	The tax rate rose.
+D.	Interest expense rose.
+P3-06  A company's base year contained a large flood loss. Using it as the base will:
+A.	have no effect on the indexes.
+B.	make every later year's index look better than the underlying trend.
+C.	make every later year's index look worse than the underlying trend.
+D.	make the indexes impossible to calculate.
+P3-07  Orontes's total liabilities rose 12.0 per cent while total assets rose 19.8 per cent. On the common-size balance sheet, total liabilities will:
+A.	rise as a percentage of assets.
+B.	fall as a percentage of assets.
+C.	be unchanged as a percentage of assets.
+D.	exceed 50 per cent of assets.
+P3-08  An analyst calculates a percentage change on a line whose earlier amount was zero. The correct treatment is to:
+A.	report an infinite percentage.
+B.	report zero per cent.
+C.	report the change as not meaningful and give the absolute amount.
+D.	use the later amount as the denominator.
+P3-09  Use Figure F503-05. Orontes's gross profit for 2024 is:
+A.	11,840,000
+B.	13,104,000
+C.	14,700,000
+D.	9,100,000
+P3-10  Which of these breaks a trend series so that the percentage change across the break is not a change in the business?
+A.	A rise in unit sales
+B.	A change from FIFO to LIFO
+C.	A dividend increase
+D.	A share issue
+Case-style practice: Barada's two years
+Barada Wholesale's accountant hands the credit officer a horizontal analysis of its balance sheet. Inventory is up 41 per cent, accounts receivable are up 38 per cent, accounts payable are up 9 per cent, and the bank overdraft, which was nil a year ago, now stands at $240,000. Total assets are up 22 per cent. Sales for the year are up 11 per cent.
+Required. Say what the pattern of these six movements suggests about Barada's year, naming the two that worry you most and why. Then state one figure you would ask for that is not in the list, and what it would settle. Continuous prose, under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC3-1  Answer B. Percentage change divides the movement by the earlier amount.
+A is wrong. Dividing by the later amount understates a rise and overstates a fall.
+C is wrong. The average of the two is used in some turnover ratios, not here.
+D is wrong. The base-year total is used in common-size analysis.
+SC3-2  Answer B. An index of 128.0 against 100 is a rise of 28.0 per cent.
+A is wrong. The index includes the original 100.
+C is wrong. An index above 100 is a rise.
+D is wrong. This divides the increase by ten.
+SC3-3  Answer B. A 200 per cent rise on $8,000 is $16,000 in a company whose assets are $26,000,000.
+A is wrong. Importance depends on the absolute amount as well as the percentage.
+C is wrong. The earlier amount is $8,000, so the percentage is calculable.
+D is wrong. The index is one valid statement, but it is no more informative here than the percentage.
+SC3-4  Answer B. Cash rose $5,202,100 of a total asset increase of $5,227,600.
+A is wrong. Receivables rose $384,000.
+C is wrong. The investment rose $1,307,000, less than cash.
+D is wrong. Inventory rose $150,000.
+SC3-5  Answer B. Assets grew faster than liabilities, so liabilities are a smaller share of the company.
+A is wrong. Borrowing grew more slowly than the company.
+C is wrong. Total liabilities rose; they were not repaid.
+D is wrong. Both percentages are consistent with the figures.
+SC3-6  Answer B. A line growing more slowly than the base falls as a percentage of it.
+A is wrong. A rise in the percentage needs growth faster than the base.
+C is wrong. Equal growth would leave the percentage unchanged.
+D is wrong. Both figures come from the balance sheet.
+SC3-7  Answer B. If cost grows faster than sales, the margin between them narrows.
+A is wrong. Gross profit still rose, by 12.2 per cent.
+C is wrong. Operating income also rose, by 4.3 per cent.
+D is wrong. Net sales is the base and is not a percentage of anything here.
+SC3-8  Answer B. Sales accelerated, so a slowdown below the sales line must come from a cost.
+A is wrong. Sales rose faster in 2025 than in 2024.
+C is wrong. The index is consistent with the dollar amounts.
+D is wrong. Tax affects net income, not operating income.
+SC3-9  Answer C. Two points give a change; three or more give a direction.
+A is wrong. One year gives nothing to compare.
+B is wrong. Two years give a single movement, which may be an exception.
+D is wrong. Five years is desirable but not the minimum.
+SC3-10  Answer B. Every index in the series is divided by the base, so a distorted base distorts them all.
+A is wrong. Nothing in the standards prescribes a base year for analysis.
+C is wrong. There is no upper limit to an index.
+D is wrong. The base year's figures are usually audited, but that is not the reason.
+SC3-11  Answer B. The same amount gives different indexes on different bases, so the base is part of the statement.
+A is wrong. Both are correctly calculated.
+C is wrong. Operating income rose in both comparisons.
+D is wrong. The earliest year is often chosen, but not because it must be.
+SC3-12  Answer B. The series must be measured on one basis, so the restated figures are used.
+A is wrong. Consistency with a figure now known to be wrong is not consistency.
+C is wrong. Absolute changes have the same problem.
+D is wrong. A note does not make a mixed-basis series comparable.
+SC3-13  Answer C. A percentage change from a negative base is arithmetically defined and economically meaningless.
+A is wrong. There is no basis for a positive 200 per cent.
+B is wrong. The arithmetic gives this and it says nothing: the company improved.
+D is wrong. The result is not a 100 per cent change on any defensible base.
+SC3-14  Answer A. The sales line mixes price and volume, and the statements do not separate them.
+B is wrong. Total assets are on the balance sheet and can be compared directly.
+C is wrong. Dividends are visible in equity and in the cash flow statement.
+D is wrong. The cost flow assumption is disclosed in the notes.
+Your turn
+@table
+Item | Answer
+Accounts payable | 150,000 and 7.9 per cent: 150,000 ÷ 1,900,000.
+Long-term debt, less current portion | 400,000 and 7.1 per cent: 400,000 ÷ 5,600,000.
+Goodwill | (650,000) and (68.4) per cent: 650,000 ÷ 950,000, shown as a fall.
+Total stockholders' equity | 4,017,975 and 24.5 per cent: 4,017,975 ÷ 16,375,000.
+@end
+Multiple-choice questions
+P3-01  Answer B. Horizontal analysis compares a line with itself in an earlier period.
+A is wrong. Comparison with a total in the same statement is common-size analysis.
+C is wrong. The industry average is an external benchmark, not horizontal analysis.
+D is wrong. Budget comparison is variance analysis.
+P3-02  Answer B. 150,000 ÷ 2,300,000 = 6.5 per cent.
+A is wrong. This divides by the later amount.
+C is wrong. This is the index, not the change.
+D is wrong. The base is positive, so the percentage is meaningful.
+P3-03  Answer B. An index of 131.2 is a rise of 31.2 per cent.
+A is wrong. The index includes the base of 100.
+C is wrong. This divides the rise by ten.
+D is wrong. This divides the rise by a hundred.
+P3-04  Answer B. Cash rose $5,202,100, larger than any other movement in the figure.
+A is wrong. Receivables rose $384,000.
+C is wrong. Plant fell $1,198,000.
+D is wrong. Retained earnings rose $2,519,100.
+P3-05  Answer B. Cost of goods sold grew 17.2 per cent against sales of 15.4 per cent, so what is left over grew more slowly.
+A is wrong. Operating expenses fall below gross profit and do not affect it.
+C is wrong. Tax falls below operating income.
+D is wrong. Interest falls below operating income.
+P3-06  Answer B. A flood depresses the base, so later years are divided by a smaller number and the indexes overstate the improvement.
+A is wrong. The base enters every index.
+C is wrong. A depressed base flatters, it does not penalise.
+D is wrong. The arithmetic still works; it is the meaning that fails.
+P3-07  Answer B. Liabilities grew more slowly than the base, so they are a smaller share of it.
+A is wrong. A rising share needs faster growth than the base.
+C is wrong. Equal growth would hold the share constant.
+D is wrong. Liabilities are 35.6 per cent of assets.
+P3-08  Answer C. A percentage change from zero has no meaning; the absolute change does.
+A is wrong. An infinite percentage is not a reportable figure.
+B is wrong. Zero per cent asserts no change, which is false.
+D is wrong. Changing the denominator changes the definition of the measure.
+P3-09  Answer B. Net sales of 36,400,000 less cost of goods sold of 23,296,000.
+A is wrong. This is 2023's gross profit.
+C is wrong. This is 2025's gross profit.
+D is wrong. This is 2024's total operating expenses.
+P3-10  Answer B. A change of cost flow assumption measures the same goods a different way.
+A is wrong. A rise in unit sales is a change in the business and belongs in the trend.
+C is wrong. Dividends do not enter the income statement.
+D is wrong. A share issue changes the balance sheet, not the measurement basis of the series.
+Case-style set: Barada's two years
+A good answer reads the six movements as one pattern.
+Inventory up 41 per cent and receivables up 38 per cent against sales up only 11 per cent is the pattern that matters. Both working-capital assets grew about three and a half times as fast as the sales they exist to support. That is money going into stock that is not selling and into customers who are not paying, and it is not being funded by suppliers, because payables grew only 9 per cent. The overdraft of $240,000, where there was none before, is the consequence: the bank is now financing the gap.
+The two most worrying are the inventory and the overdraft. The inventory movement is the cause and the overdraft is the symptom; a distributor that cannot convert stock to cash inside its season is borrowing to hold goods it has already paid for.
+One figure to ask for: the ageing of the receivables, or failing that the days sales outstanding for each of the two years. Sales up 11 per cent with receivables up 38 per cent suggests collection has slowed, but it could also be a large sale made just before the year end. The ageing settles which, and the two have completely different implications for a credit line.
