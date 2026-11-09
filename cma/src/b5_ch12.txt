@@ -1,0 +1,537 @@
+Chapter 12
+Days, the Operating Cycle and the Cash Cycle
+الأيام ودورة التشغيل والدورة النقدية
+A turnover of 10.63 times is correct and hard to feel. The same fact expressed as 34 days to collect is immediately usable: a manager knows what a month is, and can compare it with the 30-day terms the company offers.
+This chapter converts the turnovers of Chapter 11 into days, and then puts the days end to end. Two sums fall out of that. The operating cycle is how long money is locked up in stock and in customers. The cash cycle is the operating cycle less the time the company takes to pay its own suppliers, and it is the number of days the company has to finance out of its own pocket.
+Figure F512-01 is your map.
+Figure F512-01. Chapter 12 roadmap: three turnovers, three day-counts, two cycles.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.m
+Calculate and interpret days sales outstanding in receivables, days sales in inventory and days purchases in accounts payable.
+C
+Full treatment
+A.2.n
+Define and calculate the operating cycle and the cash cycle of a company.
+C
+Full treatment
+A.2.n
+Say what a cycle is worth in money and what shortens it.
+C
+Full treatment
+A.2.l
+Convert between a turnover and a number of days in either direction.
+B
+Reinforced (introduced in Chapter 11)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+days sales outstanding
+متوسط فترة التحصيل
+délai moyen de recouvrement
+days sales in inventory
+متوسط فترة بقاء المخزون
+délai d'écoulement des stocks
+days purchases in accounts payable
+متوسط فترة السداد للموردين
+délai de règlement fournisseurs
+operating cycle
+دورة التشغيل
+cycle d'exploitation
+cash cycle
+الدورة النقدية
+cycle de conversion de trésorerie
+cash conversion cycle
+دورة تحويل النقد
+cycle de conversion de trésorerie
+trade working capital
+رأس المال العامل التجاري
+besoin en fonds de roulement
+WHAT YOU ALREADY KNOW   What you already know
+Part 1 told you that Orontes takes about 32 days to sell its inventory and about 34 days to collect from its customers, 66 days in total, and that because this is shorter than a year Orontes uses one year to classify current items. This chapter derives those figures and adds the third one.
+12.1  From times to days
+A turnover says how many times a year a balance is replaced. Dividing 365 by it gives the average number of days the balance sits there.
+Days sales outstanding, usually written DSO, is 365 divided by receivables turnover. For Orontes: 365 ÷ 10.63 = 34.3 days.
+Days sales in inventory, written DSI, is 365 divided by inventory turnover: 365 ÷ 11.49 = 31.8 days.
+Days purchases in accounts payable, written DPO, is 365 divided by payables turnover: 365 ÷ 13.90 = 26.3 days.
+Two conventions matter before the arithmetic is trusted. Some questions supply a year-end balance and some an average of opening and closing; a day-count built on a year-end balance measures that one day, while a day-count built on an average measures the year, and in a growing company the two differ by the better part of a week. And where a question gives a 360-day year rather than 365, every day-count shortens: 360 ÷ 10.63 = 33.9 days rather than 34.3. Neither convention is wrong, and an answer that states which one it used cannot be marked down for it.
+The same figures can be reached without computing the turnover at all, by dividing the average balance by the daily flow. Daily sales are 42,000,000 ÷ 365 = 115,068, and average receivables of 3,952,000 divided by that is 34.3 days. The two routes are the same arithmetic written in a different order, and the exam uses both.
+Figure F512-02 sets out the three.
+Figure F512-02. Orontes Foods, Inc. — the three day-counts, 2025
+Measure
+Turnover
+Days
+What it describes
+Days sales outstanding
+10.63
+34.3
+From invoice to cash from the customer
+Days sales in inventory
+11.49
+31.8
+From goods ready to goods sold
+Days purchases in payables
+13.90
+26.3
+From supplier invoice to payment
+EXAM TRAP   Which denominator for which day-count
+DSO divides by daily credit sales. DSI divides by daily cost of goods sold. DPO divides by daily purchases.
+Some texts use 360 days rather than 365. The exam states which; if it does not, use 365 and say so.
+A day-count is an average. Thirty-four days does not mean every customer pays on day 34.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+daily sales
+المبيعات اليومية
+ventes journalières
+average collection period
+متوسط فترة التحصيل
+délai moyen de recouvrement
+reciprocal
+المقلوب
+inverse
+SECTION CHECK   Test yourself
+SC12-1  Days sales outstanding is:
+A.	365 divided by receivables turnover.
+B.	receivables turnover divided by 365.
+C.	365 multiplied by receivables turnover.
+D.	average receivables divided by 365.
+SC12-2  Days sales in inventory uses which daily flow?
+A.	Daily net sales
+B.	Daily cost of goods sold
+C.	Daily purchases
+D.	Daily gross profit
+SC12-3  Receivables turnover is 10.63. Days sales outstanding is:
+A.	10.6 days
+B.	34.3 days
+C.	36.5 days
+D.	29.1 days
+Answers and explanations are at the end of the chapter.
+12.2  The operating cycle
+The operating cycle is the time from paying for goods to collecting the cash from selling them. It is days sales in inventory plus days sales outstanding.
+For Orontes: 31.8 + 34.3 = 66.1 days.
+That is the figure Part 1 quoted. Money spent on sesame today comes back as cash from a customer about sixty-six days later, on average, and during those sixty-six days it is somebody's money and not available for anything else.
+The operating cycle also decides a classification rule you learned in Part 1. An asset is current if it will be realised within one year or within the operating cycle, whichever is longer. Orontes's cycle is 66 days, far shorter than a year, so Orontes uses the year. A shipbuilder with a three-year cycle uses the three years, and its work in progress is a current asset even though it will sit there for thirty months.
+Figure F512-03 shows the cycle.
+Figure F512-03. Orontes's operating cycle, 2025
+Stage
+Days
+Running total
+Goods held in inventory
+31.8
+31.8
+Customer takes to pay
+34.3
+66.1
+Operating cycle
+66.1 days
+WORKED EXAMPLE   Worked example: what the operating cycle costs
+Step 1. The daily cost. Cost of goods sold is $27,300,000 a year, which is 27,300,000 ÷ 365 = 74,795 a day.
+Step 2. The money in the cycle. Sixty-six days of it: 74,795 × 66.1 = 4,943,949. Roughly five million dollars is inside the cycle at any moment.
+Step 3. Check it against the balance sheet. Inventory of $2,450,000 plus receivables of $4,144,000 is 2,450,000 + 4,144,000 = 6,594,000. The two figures differ because the receivable carries the selling price and the day-count was costed at cost; both are correct measures of the same lock-up on different bases, and the exam accepts either where it says which it wants.
+Check. Either way the order of magnitude is the same, and the point is that the cycle is not an abstraction. Shortening it by one day frees about seventy-five thousand dollars at cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+work in progress
+الإنتاج تحت التشغيل
+en-cours de production
+lock-up
+رأس المال المحتجز
+immobilisation de fonds
+realisation
+التحقق النقدي
+réalisation
+SECTION CHECK   Test yourself
+SC12-4  The operating cycle is:
+A.	DSO plus DSI.
+B.	DSO plus DSI less DPO.
+C.	DSI less DPO.
+D.	365 divided by total asset turnover.
+SC12-5  A shipbuilder has an operating cycle of three years. Its work in progress is classified as:
+A.	noncurrent, because it exceeds one year.
+B.	current, because the operating cycle is longer than a year and the cycle governs.
+C.	partly current and partly noncurrent.
+D.	an intangible asset.
+SC12-6  Orontes's operating cycle is 66.1 days. One day shorter releases approximately, at cost:
+A.	7,500
+B.	74,795
+C.	115,068
+D.	747,950
+Answers and explanations are at the end of the chapter.
+12.3  The cash cycle
+The operating cycle assumes the company pays for its goods on the day it receives them. It does not: suppliers give credit, and the days of that credit are days the company does not have to fund.
+The cash cycle, also called the cash conversion cycle, is the operating cycle less days purchases in payables.
+For Orontes: 66.1 − 26.3 = 39.8 days.
+So Orontes funds about forty days. Its suppliers fund twenty-six of the sixty-six, and the company itself funds the rest.
+Figure F512-04 draws the two cycles together.
+Figure F512-04. Orontes: from operating cycle to cash cycle
+Component
+Days
+Effect
+Days sales in inventory
+31.8
+Adds to the lock-up
+Days sales outstanding
+34.3
+Adds to the lock-up
+Operating cycle
+66.1
+Total lock-up
+Days purchases in payables
+(26.3)
+Funded by suppliers
+Cash cycle
+39.8
+Funded by the company
+A negative cash cycle is possible and is the strongest working-capital position there is. A supermarket sells for cash, so its DSO is near zero; it turns its stock in about twenty days; and it pays its suppliers in sixty. Twenty plus nothing less sixty is minus forty days: the supermarket is financed by its suppliers and holds the customers' money for forty days before passing it on. That is why such businesses can run a current ratio below 1.0 permanently, which Chapter 6 noted and could not then explain.
+Figure F512-05 compares three businesses.
+Figure F512-05. The cash cycle across three businesses
+Business
+DSI
+DSO
+DPO
+Cash cycle
+Orontes, a manufacturer
+31.8
+34.3
+26.3
+39.8 days
+Barada, a distributor
+40.6
+30.4
+26.6
+44.4 days
+A supermarket
+20
+1
+60
+(39) days
+EXAM TRAP   The sign and the direction
+A shorter cash cycle is better. A negative cash cycle is better still.
+Lengthening DPO shortens the cash cycle and may cost supplier goodwill or a settlement discount. The exam treats this as a trade-off, not a free gain.
+A cash cycle computed from year-end balances is a snapshot. For a seasonal business compute it at more than one date if the data allows.
+WORKED EXAMPLE   Worked example: shortening the cycle three ways
+Step 1. Collect five days faster. DSO falls from 34.3 to 29.3 and the cash cycle from 39.8 to 34.8 days. At daily sales of $115,068 that releases 115,068 × 5 = 575,340 of receivables.
+Step 2. Hold five days less stock. DSI falls from 31.8 to 26.8 and the cycle to 34.8 days again. At daily cost of goods sold of $74,795 that releases 74,795 × 5 = 373,975.
+Step 3. Take five more days to pay. DPO rises from 26.3 to 31.3 and the cycle falls to 34.8 days once more. At daily purchases of about $75,205 that releases roughly 376,000.
+Check. Three different actions, the same five days off the cycle, and three different amounts of cash released, because each day is valued at a different daily flow. A manager choosing between them needs the money figures, not the day-counts, and that is the point of the exercise.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cash conversion cycle
+دورة تحويل النقد
+cycle de conversion de trésorerie
+settlement discount
+خصم السداد المبكر
+escompte de règlement
+supplier goodwill
+علاقة الموردين
+relation fournisseurs
+snapshot
+لقطة لحظية
+photographie instantanée
+SECTION CHECK   Test yourself
+SC12-7  The cash cycle is:
+A.	DSI plus DSO.
+B.	DSI plus DSO less DPO.
+C.	DSO less DPO.
+D.	the operating cycle plus DPO.
+SC12-8  A negative cash cycle means the company:
+A.	is insolvent.
+B.	collects from customers before it pays its suppliers.
+C.	has no inventory.
+D.	has made a loss.
+SC12-9  Orontes's cash cycle is 39.8 days. Which action shortens it?
+A.	Offering customers longer credit terms
+B.	Building stock ahead of a season
+C.	Taking five more days to pay suppliers
+D.	Paying suppliers earlier to take a discount
+Answers and explanations are at the end of the chapter.
+12.4  What the cycle is worth
+A day of the cash cycle is a sum of money, and the exam expects the conversion.
+The simplest version values a day at the daily cost of sales, because that is what is funded. For Orontes a day is $74,795, so the whole forty-day cycle is about 74,795 × 39.8 = 2,976,841 of funding.
+A fuller version builds it from the balance sheet. Trade working capital is receivables plus inventory less payables: 4,144,000 + 2,450,000 = 6,594,000, and 6,594,000 − 2,050,000 = 4,544,000. That is what Orontes actually has tied up in trade at the year end.
+The two differ because the first costs everything at cost and the second carries the receivable at its selling price. Either is acceptable; what is not acceptable is to mix them.
+What the number is for is the next question. Orontes funds $4,544,000 of trade working capital. At the 6 per cent it pays Levant Commerce Bank, that funding costs about 4,544,000 × 0.06 = 272,640 a year. Shortening the cash cycle by ten days would release roughly a quarter of it and save about $68,000 a year — which is a real sum and a smaller one than the $840,000 the margin decline of Chapter 5 is worth. Putting the two side by side is what ranking findings means.
+YOUR TURN   Build Barada's cycle
+Figure F512-06 gives Barada's turnovers. Compute the three day-counts and the two cycles. Answers are at the end of the chapter.
+Figure F512-06. Your turn: Barada's cycles (complete the blanks)
+Measure
+Turnover
+Days
+Days sales in inventory
+9.00
+________
+Days sales outstanding
+12.01
+________
+Days purchases in payables
+13.70
+________
+Operating cycle
+________
+Cash cycle
+________
+LANGUAGE FOCUS   "Outstanding"
+English outstanding has two opposite-feeling senses: excellent, and not yet settled. In days sales outstanding it is the second — the sales still owed to the company. Arabic المستحقة and French en souffrance carry the unsettled sense. A candidate who reads the phrase as praise will misread the ratio entirely.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+funding cost
+تكلفة التمويل
+coût de financement
+release of cash
+تحرير النقد
+libération de trésorerie
+ranking
+ترتيب الأولويات
+hiérarchisation
+SECTION CHECK   Test yourself
+SC12-10  Orontes's trade working capital at the year end is:
+A.	6,594,000
+B.	4,544,000
+C.	2,050,000
+D.	9,908,100
+SC12-11  Shortening the cash cycle releases cash. The saving is the cash released multiplied by:
+A.	the gross margin.
+B.	the company's cost of funding.
+C.	the tax rate.
+D.	the asset turnover.
+Answers and explanations are at the end of the chapter.
+12.5  What the cycles do not show
+Three limits, each examinable, and a fourth worth knowing.
+An average hides its spread. A DSO of 34.3 days is consistent with every customer paying on day 34 and with most paying on day 20 and one large one paying on day 120. The ageing schedule separates the two and the ratio cannot.
+A cycle computed at a year end is a snapshot of the quietest day. Many companies choose a year end at the bottom of their season precisely because stock and receivables are low then. A seasonal business should be measured at several dates.
+WORKED EXAMPLE   Worked example: the same company measured twice
+Step 1. The year end. Ghab Mills, a flour miller, closes its year in February, when the harvest has been sold and the silos are empty. Inventory is $1,200,000 and daily cost of goods sold is $20,000, so days sales in inventory is 1,200,000 ÷ 20,000 = 60.0 days.
+Step 2. The peak. In September, just after the harvest, inventory is $3,000,000. The same daily flow gives 3,000,000 ÷ 20,000 = 150.0 days.
+Step 3. The year as a whole. The average of the twelve month-end balances is $2,100,000, which gives 2,100,000 ÷ 20,000 = 105.0 days.
+Check. Three defensible figures for one year, running from 60 to 150 days. The published accounts will show the 60, and an analyst who stops there will believe Ghab Mills holds a little over half the stock it really carries through the year. Where monthly data exists, use it; where it does not, say which date the figure comes from and whether that date flatters the company.
+A short cycle can be bought. Factoring receivables shortens DSO immediately and costs a fee, which is the loss on sale of receivables of $15,000 in Orontes's own income statement. Stretching suppliers shortens the cycle and may cost a settlement discount worth far more than the funding saved. The cycle measures the position and not how it was reached.
+A fourth limit is quieter than the other three. The cycle is built from three ratios, and each of them has a denominator the company chooses. Purchases are rarely disclosed and must be estimated from cost of goods sold and the movement in stock, so days purchases in payables inherits whatever error is in that estimate. Credit sales are rarely disclosed separately either, so days sales outstanding is usually computed on total sales and understates the true collection period for any company with a cash counter. None of this is a reason to abandon the cycle. It is a reason to compare a company with itself over several years, where one convention runs through every figure, before comparing it with a competitor whose conventions cannot be seen.
+Figure F512-07 lists them.
+Figure F512-07. Three things the cycles do not show
+Limit
+Why it matters
+What answers it
+An average hides its spread
+One slow customer can hide inside a good average
+The ageing schedule
+A year end is one day
+A seasonal business is measured at its quietest
+Several dates, or a monthly average
+A short cycle can be bought
+Factoring and stretching both shorten it at a price
+The fee, and the discount forgone
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+ageing schedule
+جدول أعمار الذمم
+balance âgée
+factoring
+بيع الذمم المدينة
+affacturage
+spread
+التشتت
+dispersion
+SECTION CHECK   Test yourself
+SC12-12  A DSO of 34 days is consistent with:
+A.	every customer paying on day 34 only.
+B.	most paying early and one large customer paying very late.
+C.	no customer paying late.
+D.	a company with no credit sales.
+SC12-13  Factoring receivables shortens DSO and:
+A.	costs nothing.
+B.	costs a fee, which appears in the income statement.
+C.	raises the gross margin.
+D.	lengthens the cash cycle.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F512-08 brings the chapter together.
+Figure F512-08. Chapter 12 summary map: the key rule for each section.
+Dividing 365 by a turnover converts it into days: Orontes collects in 34.3 days, holds stock for 31.8 and pays its suppliers in 26.3. The operating cycle is the first two added, 66.1 days, which is the figure Part 1 quoted and the reason Orontes classifies on a one-year basis rather than on its cycle. The cash cycle subtracts the third, leaving 39.8 days that the company funds itself; a supermarket, selling for cash and paying in sixty days, runs a negative cycle and can hold a current ratio below 1.0 for ever. A day of cycle is worth the daily flow it is measured against, so five days off DSO releases $575,340 and five days off DSI releases $373,975 — the same five days, different money. Orontes's trade working capital is 4,144,000 plus 2,450,000 less 2,050,000, or $4,544,000, costing about $272,640 a year to fund. And the cycles hide the spread behind an average, measure a seasonal business on its quietest day, and say nothing about whether a short cycle was earned or bought.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P12-01  Inventory turnover is 11.49 times. Days sales in inventory is:
+A.	11.5 days
+B.	31.8 days
+C.	34.3 days
+D.	26.3 days
+P12-02  The operating cycle equals:
+A.	DSI + DSO
+B.	DSI + DSO − DPO
+C.	DSO − DPO
+D.	DSI − DPO
+P12-03  Orontes's DSI is 31.8 and its DSO is 34.3. Its operating cycle is:
+A.	66.1 days
+B.	39.8 days
+C.	92.4 days
+D.	2.5 days
+P12-04  Orontes's operating cycle is 66.1 days and its DPO is 26.3. Its cash cycle is:
+A.	92.4 days
+B.	39.8 days
+C.	66.1 days
+D.	26.3 days
+P12-05  A company with DSI 20, DSO 1 and DPO 60 has a cash cycle of:
+A.	81 days
+B.	(39) days
+C.	39 days
+D.	21 days
+P12-06  Which action lengthens the cash cycle?
+A.	Collecting faster
+B.	Extending customer credit terms
+C.	Paying suppliers later
+D.	Reducing stock
+P12-07  Daily cost of goods sold is 74,795. Five days off days sales in inventory releases:
+A.	373,975
+B.	575,340
+C.	74,795
+D.	148,000
+P12-08  Trade working capital is receivables plus inventory less:
+A.	accrued liabilities.
+B.	accounts payable.
+C.	total current liabilities.
+D.	long-term debt.
+P12-09  A DSO of 34 days computed from year-end balances is least reliable for:
+A.	a company with level monthly sales.
+B.	a seasonal company with a year end in its quiet month.
+C.	a company that sells for cash.
+D.	a company with one customer.
+P12-10  Orontes's trade working capital of 4,544,000 funded at 6 per cent costs about:
+A.	272,640 a year
+B.	27,264 a year
+C.	454,400 a year
+D.	68,160 a year
+Case-style practice: a board asks for forty days
+Orontes's board asks for the cash cycle to be cut from 39.8 days to 30 days within a year. The finance director must say how. Daily sales are $115,068, daily cost of goods sold is $74,795, and daily purchases are about $75,205.
+Required. Set out three ways of removing 9.8 days, one from each component, and the cash each would release. Say which you would attempt first and why, naming one cost of each of the other two. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC12-1  Answer A. DSO is 365 divided by receivables turnover.
+B is wrong. This inverts the calculation.
+C is wrong. Multiplying gives an enormous and meaningless figure.
+D is wrong. This divides a balance by a number of days, not by a daily flow.
+SC12-2  Answer B. Inventory is at cost, so the daily flow is daily cost of goods sold.
+A is wrong. Daily sales includes the gross margin.
+C is wrong. Daily purchases is the flow for payables.
+D is wrong. Gross profit does not flow through inventory.
+SC12-3  Answer B. 365 ÷ 10.63 = 34.3 days.
+A is wrong. This is the turnover, not the days.
+C is wrong. 36.5 would follow from a turnover of 10.0.
+D is wrong. This has no basis in the figures.
+SC12-4  Answer A. The operating cycle is days in stock plus days to collect.
+B is wrong. That is the cash cycle.
+C is wrong. This omits DSO.
+D is wrong. Asset turnover does not produce a cycle.
+SC12-5  Answer B. The classification uses one year or the operating cycle, whichever is longer.
+A is wrong. The cycle governs when it is longer than a year.
+C is wrong. The item is classified whole.
+D is wrong. Work in progress is inventory.
+SC12-6  Answer B. One day of daily cost of goods sold is $74,795.
+A is wrong. This is a tenth of the daily figure.
+C is wrong. This is daily sales, not daily cost.
+D is wrong. This is ten days.
+SC12-7  Answer B. The cash cycle is the operating cycle less the supplier credit.
+A is wrong. That is the operating cycle.
+C is wrong. This omits the inventory days.
+D is wrong. Adding DPO would lengthen rather than shorten the cycle.
+SC12-8  Answer B. Cash arrives before the suppliers must be paid.
+A is wrong. A negative cycle is a strong position, not insolvency.
+C is wrong. A supermarket holds inventory and still runs a negative cycle.
+D is wrong. The cycle says nothing about profit.
+SC12-9  Answer C. A longer DPO is subtracted from the operating cycle.
+A is wrong. Longer customer terms lengthen DSO and the cycle.
+B is wrong. Building stock lengthens DSI.
+D is wrong. Paying earlier shortens DPO and lengthens the cycle.
+SC12-10  Answer B. 4,144,000 + 2,450,000 − 2,050,000 = 4,544,000.
+A is wrong. This omits the payables deduction.
+C is wrong. This is payables alone.
+D is wrong. This is total net working capital, including cash.
+SC12-11  Answer B. The gain is the funding no longer needed.
+A is wrong. The margin is a trading measure.
+C is wrong. The tax rate affects the after-tax saving, not the gross one.
+D is wrong. Asset turnover is unrelated.
+SC12-12  Answer B. An average is consistent with a wide spread of behaviour.
+A is wrong. That is one possibility among many.
+C is wrong. Late payers can hide inside a good average.
+D is wrong. A company with no credit sales has no DSO.
+SC12-13  Answer B. The fee appears as a loss on sale of receivables.
+A is wrong. Factors charge for the service.
+C is wrong. The fee reduces income.
+D is wrong. Factoring shortens the cycle.
+Your turn
+Item
+Answer
+Days sales in inventory
+40.6 days: 365 ÷ 9.00.
+Days sales outstanding
+30.4 days: 365 ÷ 12.01.
+Days purchases in payables
+26.6 days: 365 ÷ 13.70.
+Operating cycle
+71.0 days: 40.6 + 30.4.
+Cash cycle
+44.4 days: 71.0 − 26.6.
+Multiple-choice questions
+P12-01  Answer B. 365 ÷ 11.49 = 31.8 days.
+A is wrong. This is the turnover.
+C is wrong. 34.3 is days sales outstanding.
+D is wrong. 26.3 is days purchases in payables.
+P12-02  Answer A. The operating cycle is inventory days plus collection days.
+B is wrong. That is the cash cycle.
+C is wrong. This omits inventory.
+D is wrong. This omits collection.
+P12-03  Answer A. 31.8 + 34.3 = 66.1 days.
+B is wrong. 39.8 is the cash cycle.
+C is wrong. This adds the payables days instead of subtracting them.
+D is wrong. This is the difference between the two components.
+P12-04  Answer B. 66.1 − 26.3 = 39.8 days.
+A is wrong. This adds rather than subtracts.
+C is wrong. This is the operating cycle.
+D is wrong. This is DPO alone.
+P12-05  Answer B. 20 + 1 − 60 = −39 days.
+A is wrong. This adds the payables days.
+C is wrong. The sign is negative.
+D is wrong. This omits the payables days.
+P12-06  Answer B. Longer customer terms raise DSO.
+A is wrong. Faster collection shortens the cycle.
+C is wrong. Paying later shortens the cycle.
+D is wrong. Less stock shortens the cycle.
+P12-07  Answer A. 74,795 × 5 = 373,975.
+B is wrong. This uses daily sales, which belongs to DSO.
+C is wrong. This is one day.
+D is wrong. This has no basis in the figures.
+P12-08  Answer B. Trade working capital nets the trade payables against the trade assets.
+A is wrong. Accruals are not trade payables.
+C is wrong. Total current liabilities includes tax and debt.
+D is wrong. Long-term debt is not working capital.
+P12-09  Answer B. A year end chosen at the quiet point understates both balances.
+A is wrong. Level sales make the year-end balance representative.
+C is wrong. A cash seller has no meaningful DSO.
+D is wrong. One customer makes the average exact, not unreliable.
+P12-10  Answer A. 4,544,000 × 0.06 = 272,640.
+B is wrong. This is a tenth of the correct figure.
+C is wrong. This is 10 per cent of the working capital.
+D is wrong. This is roughly the saving from ten days, not the whole cost.
+Case-style set: a board asks for forty days
+Nine point eight days can come from any of the three components, and each releases a different amount.
+From collection. Cutting DSO from 34.3 to 24.5 days releases 115,068 × 9.8 = 1,127,666 of receivables. It is the largest of the three because receivables are valued at the selling price.
+From stock. Cutting DSI from 31.8 to 22.0 days releases 74,795 × 9.8 = 732,991.
+From suppliers. Stretching DPO from 26.3 to 36.1 days releases about 75,205 × 9.8 = 737,009.
+I would attempt the collection first. It releases the most money, it is within the company's own control, and the ageing schedule will usually show that most of the excess sits with a few accounts rather than being spread across every customer. Orontes's DSO of 34.3 days against terms of about 30 suggests exactly that.
+The cost of the second is the risk of running out of stock. A manufacturer with an operating leverage of 4.02 loses a great deal of operating income from a lost sale, and 22 days of cover is thin for a company importing sesame.
+The cost of the third is the settlement discounts forgone and the goodwill of suppliers who are already being paid faster than the customers pay Orontes. Book 2 prices the discount; the goodwill is not priced anywhere, and it is the reason this is the option of last resort.

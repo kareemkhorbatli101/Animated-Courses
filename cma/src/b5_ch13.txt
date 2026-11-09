@@ -1,0 +1,623 @@
+Chapter 13
+Margins, from gross profit to EBITDA
+الهوامش: من الربح الإجمالي إلى الأرباح قبل الفوائد والضرائب والإهلاك
+Orontes earned $2,969,100 in 2025 on sales of $42,000,000. Whether that is a good year cannot be answered from the two amounts, because a dollar of profit means one thing on forty-two million of sales and another on four hundred and twenty million. Dividing each level of profit by sales turns the amounts into rates, and a rate can be compared with last year, with a competitor and with the company's own plan.
+A margin is a level of profit expressed as a percentage of sales. There are four that the exam names, and they sit one below the other on the income statement: gross, operating, net, and the margin on earnings before interest, taxes, depreciation and amortisation. Each one adds a layer of cost, so the four together read as a staircase, and the interesting work is never the top step on its own but the distance between the steps.
+Figure F513-01 is your map.
+Figure F513-01. Chapter 13 roadmap: four margins, one income statement, and the gaps between them.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.p
+Calculate and interpret the gross, operating, net and EBITDA margin percentages.
+C
+Full treatment
+A.3.g
+Analyse cost of sales by calculating and interpreting the gross profit margin.
+C
+Full treatment
+A.3.h
+Distinguish the three profit margins and analyse the effect of a change in any component of each.
+C
+Full treatment
+A.1.a
+Read a margin as the common-size income statement that produces it.
+B
+Reinforced (introduced in Chapter 2)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+gross profit margin
+هامش الربح الإجمالي
+marge brute
+operating profit margin
+هامش الربح التشغيلي
+marge opérationnelle
+net profit margin
+هامش الربح الصافي
+marge nette
+EBITDA
+الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك
+EBITDA
+EBITDA margin
+هامش الأرباح قبل الفوائد والضرائب والإهلاك
+marge d'EBITDA
+cost of sales
+تكلفة المبيعات
+coût des ventes
+operating expense ratio
+نسبة المصاريف التشغيلية
+ratio de charges d'exploitation
+effective tax rate
+معدل الضريبة الفعلي
+taux d'imposition effectif
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 2 built the common-size income statement, in which every line is a percentage of sales. The four margins of this chapter are four lines of that statement, given names because they are the four the exam asks for. Chapter 5 noticed that Orontes's gross margin had slipped two points over three years and promised that a later chapter would say what the slip is worth. This is that chapter.
+13.1  The four margins and where they come from
+A margin is a profit figure over net sales. The numerator changes; the denominator never does.
+Gross profit margin is gross profit over net sales. Gross profit is what is left of the selling price after the cost of the goods themselves, so the gross margin is the margin of the trade. For Orontes, gross profit is 42,000,000 − 27,300,000 = 14,700,000, and the margin is 14,700,000 ÷ 42,000,000 = 35.0 per cent.
+Operating profit margin is operating income over net sales. Operating income is gross profit less the operating expenses — selling, administration, research, credit losses and any impairment — so this margin is the margin of the business as a business, before anything to do with how it is financed or taxed. For Orontes: 4,176,000 ÷ 42,000,000 = 9.94 per cent, which rounds to 9.9.
+Net profit margin is net income over net sales. It is the last line over the first, so everything that happened in the year is inside it: interest, investment income, one-off gains and losses, and tax. For Orontes: 2,969,100 ÷ 42,000,000 = 7.07 per cent, or 7.1 to one decimal.
+EBITDA margin is earnings before interest, taxes, depreciation and amortisation over net sales. It adds back to operating profit the charges that do not move cash in the year, and section 13.5 builds it properly, because it is the only one of the four whose numerator is not printed on the face of the statement.
+Figure F513-02 sets the four out for 2025.
+Figure F513-02. Orontes Foods, Inc. — the four margins, 2025
+Margin
+Numerator
+Amount
+Over sales
+Gross profit margin
+Gross profit
+14,700,000
+35.0%
+Operating profit margin
+Operating income
+4,176,000
+9.9%
+EBITDA margin
+EBITDA, built in 13.5
+6,448,800
+15.4%
+Net profit margin
+Net income
+2,969,100
+7.1%
+Read down that column and the staircase is obvious. Thirty-five cents of every sales dollar survives the cost of goods; ten cents survive the running of the company; seven cents reach the owners. The two gaps — twenty-five points between gross and operating, three points between operating and net — are where the questions are.
+EXAM TRAP   One denominator, four numerators
+Every margin divides by net sales, not by gross sales, not by total revenue including other income, and not by assets. A profit over assets is a return, which is Chapter 14, not a margin.
+Operating income excludes interest and tax by construction. A candidate who deducts interest before computing the operating margin has computed something else.
+A margin is a percentage. A markup is a percentage of cost. A 35 per cent gross margin is a markup of about 54 per cent, and the two are not interchangeable.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+net sales
+المبيعات الصافية
+ventes nettes
+markup
+هامش الإضافة على التكلفة
+taux de marque
+one-off item
+بند غير متكرر
+élément non récurrent
+SECTION CHECK   Test yourself
+SC13-1  Every profit margin divides by:
+A.	net sales.
+B.	total assets.
+C.	gross profit.
+D.	equity.
+SC13-2  Operating income is stated:
+A.	after interest and after tax.
+B.	before interest and before tax.
+C.	after interest and before tax.
+D.	before cost of goods sold.
+SC13-3  Orontes's gross profit is 14,700,000 on sales of 42,000,000. The gross margin is:
+A.	35.0 per cent
+B.	65.0 per cent
+C.	9.9 per cent
+D.	54.0 per cent
+Answers and explanations are at the end of the chapter.
+13.2  Gross margin and the cost of sales
+The gross margin and the cost-of-sales ratio are the same fact written twice. Orontes's cost of goods sold is 27,300,000 ÷ 42,000,000 = 65.0 per cent of sales, and what is left is the 35.0 per cent gross margin. Whenever the exam asks what happened to a gross margin, the answer is always something that happened to one of those two percentages, and there are only four candidates.
+Selling prices. A price rise lifts the margin; a discount campaign lowers it. The volume sold may be unchanged.
+Input costs. A rise in the cost of sesame, freight or packaging lowers the margin unless the price rises with it.
+Product mix. Selling more of a thin-margin line and less of a fat one lowers the average margin although no single product's margin has moved. This is the cause candidates forget.
+Costing and inventory method. Under last-in, first-out, rising prices push the newest and highest costs into cost of sales and depress the margin, while first-in, first-out leaves them in inventory. A write-down of stock passes through cost of sales as well.
+Figure F513-03 reads Orontes's three years.
+Figure F513-03. Orontes: the three margins, 2023 to 2025
+Margin
+2025
+2024
+2023
+Direction
+Gross profit margin
+35.0%
+36.0%
+37.0%
+Down one point a year
+Operating profit margin
+9.9%
+11.0%
+11.0%
+Down in 2025 only
+Net profit margin
+7.1%
+7.1%
+7.3%
+Almost flat
+The gross margins come straight from the three income statements: 11,840,000 ÷ 32,000,000 = 37.0 per cent in 2023, 13,104,000 ÷ 36,400,000 = 36.0 per cent in 2024 and 35.0 per cent in 2025. Sales rose every year and the margin fell every year, which is the signature of growth bought with price. Chapter 4 showed the same three years as growth rates and could not see this; the common-size view can.
+WORKED EXAMPLE   Worked example: what two points of gross margin are worth
+Step 1. The size of the slip. The gross margin was 37.0 per cent in 2023 and is 35.0 per cent in 2025: 37.0 − 35.0 = 2.0 points.
+Step 2. The money. Two points of the 2025 sales figure is 42,000,000 × 0.02 = 840,000. Had Orontes held its 2023 margin, gross profit would have been $840,000 higher, and because no operating expense would have changed, so would operating income.
+Step 3. Against what Orontes earns. Net income for the year is $2,969,100, so the lost margin is 840,000 ÷ 2,969,100 = 28.29 per cent of the profit the company actually made.
+Check. The slip is one point a year and sounds small. Expressed in money it is the largest single finding in the whole of Book 1 — larger than the $272,640 a year the trade working capital costs to fund, and larger than anything the liquidity chapters turned up. A two-point move in the biggest percentage on the statement beats a large move in a small one, every time.
+EXAM TRAP   A margin can fall while profit rises
+Orontes's gross profit rose from $11,840,000 to $14,700,000 over the three years while the gross margin fell. Volume did the work; the rate got worse. An answer that says profit fell is simply wrong.
+"Cost of sales rose" is not an explanation of a margin fall. It is the arithmetic of it. The explanation is a price, a cost, a mix or a method.
+Where the question gives no mix information, say that mix is a possible cause rather than asserting a price war.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+product mix
+مزيج المنتجات
+mix produits
+input cost
+تكلفة المستلزمات
+coût des intrants
+margin erosion
+تآكل الهامش
+érosion de la marge
+write-down
+تخفيض قيمة المخزون
+dépréciation des stocks
+SECTION CHECK   Test yourself
+SC13-4  If cost of goods sold is 65 per cent of sales, the gross margin is:
+A.	35 per cent
+B.	65 per cent
+C.	135 per cent
+D.	not determinable
+SC13-5  A company's gross margin falls although every product's own margin is unchanged. The most likely cause is:
+A.	a change in product mix.
+B.	a rise in interest expense.
+C.	a higher tax rate.
+D.	an increase in dividends.
+SC13-6  Two points of gross margin on sales of $42,000,000 is:
+A.	84,000
+B.	840,000
+C.	8,400,000
+D.	2,100,000
+Answers and explanations are at the end of the chapter.
+13.3  From gross to operating: the expense ratios
+Twenty-five points of Orontes's sales dollar disappear between gross profit and operating income. They disappear into one line, total operating expenses, and the ratio of that line to sales is the second number to track.
+Orontes's operating expenses are 10,524,000 ÷ 42,000,000 = 25.06 per cent of sales in 2025. In 2024 they were 9,100,000 ÷ 36,400,000 = 25.0 per cent and in 2023 8,320,000 ÷ 32,000,000 = 26.0 per cent. On the face of it the company has held its overheads steady while growing, which is the opposite of the gross-margin story and would be good news.
+It is not what happened. The 2025 figure contains an impairment loss of $2,724,000, which is 2,724,000 ÷ 42,000,000 = 6.49 per cent of sales on its own and did not occur in either earlier year. Strip it out and the comparison reverses.
+Figure F513-04 does the stripping.
+Figure F513-04. Orontes: operating expenses with and without the impairment
+Measure
+2025 as reported
+2025 excluding impairment
+2024
+Operating expenses
+10,524,000
+7,800,000
+9,100,000
+As a percentage of sales
+25.06%
+18.57%
+25.0%
+Operating income
+4,176,000
+6,900,000
+4,004,000
+Operating margin
+9.9%
+16.4%
+11.0%
+WORKED EXAMPLE   Worked example: the operating margin without the one-off
+Step 1. Remove the charge from the expenses. 10,524,000 − 2,724,000 = 7,800,000, which is 7,800,000 ÷ 42,000,000 = 18.57 per cent of sales against 25.0 per cent in 2024.
+Step 2. Add it back to profit. 4,176,000 + 2,724,000 = 6,900,000, and the operating margin becomes 6,900,000 ÷ 42,000,000 = 16.43 per cent.
+Step 3. Read the two together. Orontes lost two points of gross margin and gained six and a half points of operating margin by spending proportionately less on running the business. Both are real; the reported operating margin of 9.9 per cent shows neither, because a single charge of $2,724,000 sits on top of them.
+Check. The adjusted figure is the better description of the year's trading and the reported figure is the one that happened. The exam wants both, in that order, with the adjustment named. Presenting only the adjusted margin is what the term non-GAAP measure was invented to describe.
+The arithmetic that links the two margins is worth stating once, because it is the shape of every question on this outcome. The operating margin is the gross margin less the operating expense ratio: 35.0 − 25.06 = 9.94 per cent. So there are exactly two ways for an operating margin to move, and a complete answer says which of the two did it, and by how much. In 2025 both moved and in opposite directions: the gross margin took one point off and the expense ratio, loaded with the impairment, took a further point.
+Figure F513-05 lays out the four moves and their effect.
+Figure F513-05. What moves the operating margin
+Change
+Gross margin
+Expense ratio
+Operating margin
+Selling price rises, costs unchanged
+Up
+Unchanged
+Up
+Input cost rises, price unchanged
+Down
+Unchanged
+Down
+Mix shifts to thin-margin lines
+Down
+Unchanged
+Down
+Overheads grow faster than sales
+Unchanged
+Up
+Down
+EXAM TRAP   Which expenses are operating expenses
+Interest is not an operating expense; it is a financing cost, and it belongs below operating income. Tax is not an operating expense either.
+An impairment loss is an operating expense under both GAAP and IFRS, however unusual it is. It cannot be excluded from the reported operating margin, only disclosed separately.
+A research expense is an operating expense of the period it is incurred in, not an asset, and cutting it raises this year's operating margin at the cost of later years.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+impairment loss
+خسارة الهبوط في القيمة
+perte de valeur
+non-GAAP measure
+مقياس غير مطابق للمعايير المحاسبية
+mesure non normalisée
+overhead
+المصاريف العامة
+frais généraux
+adjusted figure
+الرقم المعدّل
+chiffre ajusté
+SECTION CHECK   Test yourself
+SC13-7  The operating margin equals the gross margin less:
+A.	the operating expense ratio.
+B.	the effective tax rate.
+C.	interest over sales.
+D.	the cost-of-sales ratio.
+SC13-8  Orontes's 2025 operating margin excluding the impairment loss is:
+A.	9.9 per cent
+B.	16.4 per cent
+C.	25.1 per cent
+D.	35.0 per cent
+SC13-9  Which item is NOT an operating expense?
+A.	Research and development
+B.	Credit loss expense
+C.	Interest expense
+D.	Impairment losses
+Answers and explanations are at the end of the chapter.
+13.4  From operating to net: what sits below the line
+Three points of sales separate Orontes's operating margin from its net margin, and three things cause them: the financing cost, the non-operating items, and tax.
+Start with the total of the other income and expense section, which is a net cost of $217,200: 4,176,000 − 217,200 = 3,958,800 of income before income taxes. Inside that net figure, interest expense of $390,000 is the only large item, and it is offset by $177,000 of equity-method income from Jordan Glass Co. and a handful of small gains and losses.
+Then tax. Orontes's income tax expense is $989,700, so its effective tax rate is 989,700 ÷ 3,958,800 = 25.0 per cent. What is left is net income of $2,969,100.
+Figure F513-06 walks the bridge.
+Figure F513-06. Orontes: from operating margin to net margin, 2025
+Step
+Amount
+Over sales
+Operating income
+4,176,000
+9.9%
+Other income and expense, net
+(217,200)
+(0.5)%
+Income before income taxes
+3,958,800
+9.4%
+Income tax expense
+(989,700)
+(2.4)%
+Net income
+2,969,100
+7.1%
+This is why the net margin is the least useful of the three for judging trading, and the most useful for judging the year. Orontes's net margin held at about 7.1 per cent across 2024 and 2025 — 2,598,000 ÷ 36,400,000 = 7.14 per cent then and 7.07 per cent now — while the operating margin fell more than a point. Two things held it up: the equity-method income, which has nothing to do with selling food, and a lower effective tax rate. Neither will do so reliably again.
+EXAM TRAP   The net margin moves for reasons that are not trading
+A company can report a better net margin on worse trading, through a tax refund, a gain on a disposal, or a fall in interest rates.
+The effective tax rate is tax expense over pre-tax income, not the statutory rate. A difference between them has a cause, and the tax note gives it.
+Where a question gives you a one-off gain inside net income, say so before comparing net margins across years.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+equity-method income
+حصة من أرباح الشركات الزميلة
+quote-part de résultat des entreprises associées
+pre-tax income
+الربح قبل الضريبة
+résultat avant impôt
+statutory rate
+المعدل القانوني
+taux légal
+SECTION CHECK   Test yourself
+SC13-10  The effective tax rate is income tax expense divided by:
+A.	net sales.
+B.	income before income taxes.
+C.	net income.
+D.	operating income.
+SC13-11  Orontes's net margin was almost unchanged while its operating margin fell. A reason given in the statements is:
+A.	a higher gross margin.
+B.	equity-method income and a lower effective tax rate.
+C.	higher interest expense.
+D.	a larger impairment.
+Answers and explanations are at the end of the chapter.
+13.5  EBITDA, and what it leaves out
+EBITDA is earnings before interest, taxes, depreciation and amortisation. It is not a line of any income statement, which is why it has to be built, and the exam expects the build.
+Start from earnings before interest and taxes, which Chapter 10 computed as income before income taxes plus interest expense: 3,958,800 + 390,000 = 4,348,800. Then add back the depreciation charged for the year, which the cash flow statement gives as $2,100,000: 4,348,800 + 2,100,000 = 6,448,800. Orontes has no amortisation of intangibles to add. The EBITDA margin is therefore 6,448,800 ÷ 42,000,000 = 15.35 per cent, or 15.4.
+What EBITDA is for is comparison between companies whose financing and asset bases differ. Two food manufacturers of the same size, one owning its plant and one leasing it, one financed with debt and one with equity, will report very different net margins and similar EBITDA margins, because EBITDA removes exactly the differences that are not about making and selling food.
+What EBITDA is not is cash flow, and it is not profit.
+Figure F513-07 builds it and then takes away what it ignores.
+Figure F513-07. Orontes: building EBITDA, and the claims it steps over
+Step
+Amount
+Note
+Income before income taxes
+3,958,800
+As reported
+Add interest expense
+390,000
+Gives EBIT of 4,348,800
+Add depreciation
+2,100,000
+From the cash flow statement
+EBITDA
+6,448,800
+15.4% of sales
+Less capital expenditure
+(3,000,000)
+The plant has to be replaced
+Less interest paid
+(390,000)
+The lenders have to be paid
+Less income taxes paid
+(839,700)
+The tax authority has to be paid
+What is left
+2,219,100
+5.3% of sales
+The last line is the point of the figure: 6,448,800 − 3,000,000 − 390,000 − 839,700 = 2,219,100. Adding back depreciation does not make the plant last longer, and Orontes spent $3,000,000 on property, plant and equipment in the year against a depreciation charge of $2,100,000. A company that quotes its EBITDA margin and not its capital expenditure is quoting the half of the sentence that suits it.
+There is one more trap, and it is the common one in practice. Many companies report adjusted EBITDA, adding back anything they consider unusual. On Orontes's figures that would mean adding the impairment: 6,448,800 + 2,724,000 = 9,172,800, which is 9,172,800 ÷ 42,000,000 = 21.84 per cent of sales. The same year, the same statements, and a margin of 21.8 per cent instead of 7.1. Both numbers are arithmetically correct. Only one of them is net income.
+YOUR TURN   Build Barada's four margins
+Figure F513-08 gives Barada Wholesale's 2025 figures. Compute the four margins. Answers are at the end of the chapter.
+Figure F513-08. Your turn: Barada's margins (complete the blanks)
+Item
+Amount
+Margin
+Net sales
+21,978,000
+100.0%
+Cost of goods sold
+(18,900,000)
+________
+Gross profit
+________
+________
+Operating expenses
+(2,520,000)
+________
+Operating income
+________
+________
+Depreciation for the year
+220,000
+________
+EBITDA
+________
+________
+Net income
+283,500
+________
+LANGUAGE FOCUS   "Margin"
+English margin is used for three different things in finance: a percentage of sales, as here; the cash a broker requires against a position; and the edge of anything. Arabic هامش carries the same breadth, and French marge likewise. In the phrase gross profit margin it is always the percentage, and a candidate who reads a margin call into a margin analysis question has lost the thread entirely. Note also that the French marge brute is a percentage while the English gross margin is used loosely for both the percentage and the amount — say gross profit for the amount and gross margin for the rate, and no reader will be in doubt.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+depreciation
+الإهلاك
+dotation aux amortissements
+amortisation
+إطفاء الأصول غير الملموسة
+amortissement des incorporels
+capital expenditure
+النفقات الرأسمالية
+dépenses d'investissement
+adjusted EBITDA
+الأرباح المعدلة قبل الفوائد والضرائب والإهلاك
+EBITDA ajusté
+SECTION CHECK   Test yourself
+SC13-12  EBITDA is operating earnings before:
+A.	interest, taxes, depreciation and amortisation.
+B.	interest and taxes only.
+C.	cost of goods sold.
+D.	dividends.
+SC13-13  The main objection to using the EBITDA margin on its own is that it:
+A.	is always lower than the net margin.
+B.	ignores the cost of replacing the assets it depends on.
+C.	cannot be computed from published statements.
+D.	is prohibited by GAAP.
+SC13-14  Orontes's EBITDA is $6,448,800 and its sales are $42,000,000. The EBITDA margin is:
+A.	15.4 per cent
+B.	9.9 per cent
+C.	21.8 per cent
+D.	7.1 per cent
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F513-09 brings the chapter together.
+Figure F513-09. Chapter 13 summary map: the key rule for each section.
+Four margins divide four profit figures by the one denominator, net sales: gross 35.0 per cent, operating 9.9, EBITDA 15.4 and net 7.1 for Orontes in 2025. The gross margin is the mirror of the cost-of-sales ratio of 65.0 per cent, and it moves for four reasons only — price, input cost, mix and costing method — so Orontes's fall from 37.0 to 35.0 per cent over three years is worth $840,000 of 2025 gross profit, or 28.29 per cent of the year's net income, and it is the largest finding in the book. The operating margin is the gross margin less the operating expense ratio, which means a complete answer says which of the two moved; in 2025 both did, and an impairment loss of $2,724,000 inside the expense ratio hides an underlying operating margin of 16.4 per cent. Below the operating line sit financing, non-operating items and tax, which is why Orontes's net margin held at about 7.1 per cent while its trading got worse. And EBITDA, built as 3,958,800 plus 390,000 plus 2,100,000, flatters every company with a plant to replace: Orontes's $6,448,800 becomes $2,219,100 once capital expenditure, interest and taxes paid are met, and becomes $9,172,800 if the impairment is adjusted away.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P13-01  Net sales are 42,000,000 and cost of goods sold is 27,300,000. The gross profit margin is:
+A.	35.0 per cent
+B.	65.0 per cent
+C.	53.8 per cent
+D.	9.9 per cent
+P13-02  Which margin is stated before interest and tax but after all operating expenses?
+A.	Gross profit margin
+B.	Operating profit margin
+C.	Net profit margin
+D.	EBITDA margin
+P13-03  A company's gross margin is unchanged and its operating margin falls. The cause must be:
+A.	a higher cost of sales ratio.
+B.	operating expenses growing faster than sales.
+C.	a higher tax rate.
+D.	higher interest expense.
+P13-04  Orontes's operating expenses are 10,524,000 on sales of 42,000,000. The operating expense ratio is:
+A.	25.1 per cent
+B.	18.6 per cent
+C.	35.0 per cent
+D.	65.0 per cent
+P13-05  Removing the $2,724,000 impairment from Orontes's 2025 operating expenses raises the operating margin to:
+A.	9.9 per cent
+B.	16.4 per cent
+C.	21.8 per cent
+D.	11.0 per cent
+P13-06  The effective tax rate on pre-tax income of 3,958,800 and tax expense of 989,700 is:
+A.	25.0 per cent
+B.	33.3 per cent
+C.	21.0 per cent
+D.	2.4 per cent
+P13-07  EBITDA is built from EBIT by adding back:
+A.	interest and taxes.
+B.	depreciation and amortisation.
+C.	capital expenditure.
+D.	dividends paid.
+P13-08  Orontes's EBIT is 4,348,800 and its depreciation is 2,100,000. Its EBITDA is:
+A.	6,448,800
+B.	2,248,800
+C.	9,172,800
+D.	4,176,000
+P13-09  A gross margin falls while gross profit rises. This is possible because:
+A.	the figures must be wrong.
+B.	sales grew faster than the margin fell.
+C.	cost of sales fell.
+D.	tax rates changed.
+P13-10  Which pair of figures is most likely to mislead if quoted alone?
+A.	Gross margin and the cost of sales ratio
+B.	Adjusted EBITDA margin and no capital expenditure figure
+C.	Operating margin and the operating expense ratio
+D.	Net margin and the effective tax rate
+Case-style practice: the press release and the statements
+Orontes's investor relations team drafts a press release for 2025. The headline reads: "Record sales of $42 million and an adjusted EBITDA margin of 21.8 per cent, up strongly on the prior year." The chief financial officer asks you, before it is issued, to say what a careful reader will do with it.
+Required. Identify what the headline leaves out, state the three reported margins alongside it, and say which single figure you would insist the release also carry. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC13-1  Answer A. Every profit margin is a profit figure over net sales.
+B is wrong. Profit over assets is a return, not a margin.
+C is wrong. Gross profit is a numerator, never the denominator.
+D is wrong. Profit over equity is return on equity.
+SC13-2  Answer B. Operating income is struck before financing cost and before tax.
+A is wrong. That describes net income.
+C is wrong. Deducting interest gives pre-tax income, not operating income.
+D is wrong. Cost of goods sold is deducted before gross profit.
+SC13-3  Answer A. 14,700,000 ÷ 42,000,000 = 35.0 per cent.
+B is wrong. 65.0 per cent is the cost-of-sales ratio.
+C is wrong. 9.9 per cent is the operating margin.
+D is wrong. About 54 per cent is the markup on cost, not the margin.
+SC13-4  Answer A. The two percentages add to 100.
+B is wrong. That repeats the cost ratio.
+C is wrong. A margin cannot exceed 100 per cent of sales.
+D is wrong. The gross margin follows directly from the cost ratio.
+SC13-5  Answer A. A shift towards thin-margin lines lowers the average with no product's own margin moving.
+B is wrong. Interest is below the operating line and affects no gross margin.
+C is wrong. Tax affects the net margin only.
+D is wrong. Dividends are not an expense at all.
+SC13-6  Answer B. 42,000,000 × 0.02 = 840,000.
+A is wrong. This is two points of $4,200,000.
+C is wrong. This is twenty points, not two.
+D is wrong. This is five points of sales.
+SC13-7  Answer A. Gross margin less the operating expense ratio is the operating margin.
+B is wrong. The tax rate belongs between pre-tax income and net income.
+C is wrong. Interest is below the operating line.
+D is wrong. Deducting the cost-of-sales ratio from the gross margin double-counts it.
+SC13-8  Answer B. 6,900,000 ÷ 42,000,000 = 16.43 per cent.
+A is wrong. That is the margin as reported, with the impairment inside it.
+C is wrong. 25.1 per cent is the operating expense ratio.
+D is wrong. 35.0 per cent is the gross margin.
+SC13-9  Answer C. Interest is a financing cost, reported below operating income.
+A is wrong. Research is an operating expense of the period.
+B is wrong. Credit loss expense is an operating expense.
+D is wrong. An impairment loss is an operating expense however unusual.
+SC13-10  Answer B. The effective rate is tax expense over income before income taxes.
+A is wrong. Tax over sales is a common-size line, not a rate of tax.
+C is wrong. Dividing by net income overstates the rate.
+D is wrong. Operating income is struck before the non-operating items the tax is charged on.
+SC13-11  Answer B. Equity-method income and a lower effective rate both sit below the operating line.
+A is wrong. The gross margin fell.
+C is wrong. Higher interest would reduce the net margin.
+D is wrong. The impairment reduced the operating margin, not the gap below it.
+SC13-12  Answer A. The letters say what is added back.
+B is wrong. That is EBIT.
+C is wrong. Cost of goods sold is never added back.
+D is wrong. Dividends are a distribution, not an expense.
+SC13-13  Answer B. Adding back depreciation does not remove the need to replace the asset.
+A is wrong. The EBITDA margin is normally the highest of the four.
+C is wrong. It can be built from published statements, as section 13.5 does.
+D is wrong. GAAP does not prohibit it; it merely does not define it.
+SC13-14  Answer A. 6,448,800 ÷ 42,000,000 = 15.35 per cent, which rounds to 15.4.
+B is wrong. 9.9 per cent is the operating margin.
+C is wrong. 21.8 per cent is the adjusted figure, with the impairment added back.
+D is wrong. 7.1 per cent is the net margin.
+Your turn
+Item
+Answer
+Cost of goods sold
+86.0 per cent of sales: 18,900,000 ÷ 21,978,000.
+Gross profit
+3,078,000, from 21,978,000 − 18,900,000 = 3,078,000; the margin is 3,078,000 ÷ 21,978,000 = 14.0 per cent.
+Operating expenses
+11.5 per cent of sales: 2,520,000 ÷ 21,978,000.
+Operating income
+558,000, from 3,078,000 − 2,520,000 = 558,000; the margin is 558,000 ÷ 21,978,000 = 2.54 per cent.
+Depreciation
+1.0 per cent of sales: 220,000 ÷ 21,978,000.
+EBITDA
+778,000, from 558,000 + 220,000 = 778,000; the margin is 778,000 ÷ 21,978,000 = 3.54 per cent.
+Net income
+The net margin is 283,500 ÷ 21,978,000 = 1.29 per cent.
+What it tells you
+A distributor's margins are a different order of magnitude from a manufacturer's: 14.0 per cent gross against Orontes's 35.0, and 1.29 per cent net against 7.1. Neither company is failing. The comparison that matters for Barada is its own 16.0 per cent gross margin of 2023.
+Multiple-choice questions
+P13-01  Answer A. 14,700,000 ÷ 42,000,000 = 35.0 per cent.
+B is wrong. This is the cost-of-sales ratio.
+C is wrong. This is the markup on cost.
+D is wrong. This is the operating margin.
+P13-02  Answer B. The operating margin is after operating expenses and before interest and tax.
+A is wrong. The gross margin is before operating expenses.
+C is wrong. The net margin is after interest and tax.
+D is wrong. The EBITDA margin adds back depreciation.
+P13-03  Answer B. With the gross margin unchanged, only the expense ratio can have moved.
+A is wrong. A higher cost ratio would have lowered the gross margin.
+C is wrong. Tax is below the operating line.
+D is wrong. Interest is below the operating line.
+P13-04  Answer A. 10,524,000 ÷ 42,000,000 = 25.06 per cent.
+B is wrong. 18.6 per cent excludes the impairment loss.
+C is wrong. 35.0 per cent is the gross margin.
+D is wrong. 65.0 per cent is the cost-of-sales ratio.
+P13-05  Answer B. 4,176,000 + 2,724,000 = 6,900,000, which is 16.4 per cent of sales.
+A is wrong. That is the reported margin.
+C is wrong. 21.8 per cent is the adjusted EBITDA margin.
+D is wrong. 11.0 per cent was the 2024 operating margin.
+P13-06  Answer A. 989,700 ÷ 3,958,800 = 25.0 per cent.
+B is wrong. This has no basis in the figures.
+C is wrong. 21 per cent is a statutory rate, not this effective rate.
+D is wrong. 2.4 per cent is tax as a percentage of sales.
+P13-07  Answer B. EBIT plus depreciation and amortisation is EBITDA.
+A is wrong. Interest and taxes are already excluded from EBIT.
+C is wrong. Capital expenditure is never added back.
+D is wrong. Dividends are not in any earnings figure.
+P13-08  Answer A. 4,348,800 + 2,100,000 = 6,448,800.
+B is wrong. This subtracts rather than adds.
+C is wrong. 9,172,800 adds back the impairment as well.
+D is wrong. 4,176,000 is operating income.
+P13-09  Answer B. A larger base at a lower rate can still give a larger amount.
+A is wrong. The two move independently and both can be right.
+C is wrong. A falling cost of sales would have raised the margin.
+D is wrong. Tax affects neither figure.
+P13-10  Answer B. An adjusted EBITDA margin with no capital expenditure figure omits exactly what the adjustment removed.
+A is wrong. These two always add to 100 and mislead nobody.
+C is wrong. These two are the standard pair for analysing the operating margin.
+D is wrong. These two are consistent with each other and both disclosed.
+Case-style set: the press release and the statements
+The headline is arithmetically true and economically incomplete.
+What it leaves out. Adjusted EBITDA of $9,172,800 is built by adding back $2,100,000 of depreciation and then a $2,724,000 impairment loss. The impairment is an operating expense under the standards and the depreciation corresponds to assets that Orontes replaced during the year at a cost of $3,000,000. The release reports a margin of 21.8 per cent on a company whose capital expenditure exceeded its depreciation charge, and says nothing about either figure. "Up strongly on the prior year" is also unverifiable, because the prior year had no impairment to add back, so the two adjusted figures are not built on the same basis.
+The reported margins. Gross 35.0 per cent, down from 36.0. Operating 9.9 per cent, down from 11.0. Net 7.1 per cent, broadly flat, and held there by equity-method income and a lower effective tax rate rather than by trading.
+The figure I would insist on. Capital expenditure of $3,000,000, stated next to the EBITDA figure. One line turns a flattering ratio into a usable one: it tells the reader that the $6,448,800 of EBITDA has a prior claim on it of three million dollars before any lender or shareholder is paid, and $2,219,100 is what remained once interest and taxes paid were met as well.

@@ -1,0 +1,445 @@
+Chapter 14
+ROA, ROE and the DuPont decomposition
+العائد على الأصول والعائد على حقوق الملكية وتحليل دوبونت
+A margin says how much of each sales dollar is kept. It says nothing about how much had to be invested to make that sale. A grocer keeping two cents of every dollar and turning its assets over five times a year is doing better than a jeweller keeping twenty cents and turning its assets over a quarter of a time, and no margin in Chapter 13 can show that.
+A return does. A return divides profit by the money that is tied up to produce it, which makes it the one ratio in Section A that can be compared across industries with some hope of meaning. Two of them matter: the return on assets, which measures the business, and the return on equity, which measures what the owners get out of it. The gap between the two is leverage, and the DuPont decomposition is the piece of arithmetic that opens both of them up into the things a manager can act on.
+Figure F514-01 is your map.
+Figure F514-01. Chapter 14 roadmap: two returns, three factors, five factors, and the definitions problem.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.2.q | Calculate and interpret return on total assets and return on equity. | C | Full treatment
+A.3.b | Determine the effect on return on total assets of a change in one or more elements of the statements. | C | Full treatment
+A.3.a | Explain the factors that make the definitions of equity, assets and return inconsistent in practice. | C | Full treatment
+A.2.i | Read the equity multiplier as the leverage factor inside a return. | B | Reinforced (introduced in Chapter 9)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+return on assets | العائد على الأصول | rentabilité économique
+return on equity | العائد على حقوق الملكية | rentabilité financière
+average total assets | متوسط إجمالي الأصول | total de l'actif moyen
+DuPont decomposition | تحليل دوبونت | méthode DuPont
+equity multiplier | مضاعف حقوق الملكية | multiplicateur des capitaux propres
+tax burden ratio | نسبة العبء الضريبي | taux de rétention après impôt
+interest burden ratio | نسبة العبء المالي | poids des charges financières
+operating assets | الأصول التشغيلية | actif d'exploitation
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 9 computed Orontes's equity multiplier as total assets over total equity and found 1.55 at the end of 2025. Chapter 11 computed total asset turnover as 1.45 times. Chapter 13 computed a net margin of 7.1 per cent. Those three figures are the whole of the DuPont decomposition, and this chapter does nothing more than multiply them together and read the result.
+14.1  Return on assets
+Return on assets is profit over the assets employed to earn it. Orontes's net income for 2025 is $2,969,100. Its assets, though, were not one figure during the year: they began at $26,445,000 and ended at $31,672,600, because the company raised equity and bought plant as the year went on.
+Dividing a flow by a closing balance compares a whole year's earnings with the assets of the last day. The convention that answers this is the average: 31,672,600 + 26,445,000 = 58,117,600, and half of that is $29,058,800. Return on assets is therefore 2,969,100 ÷ 29,058,800 = 10.22 per cent, or 10.2 to one decimal.
+Ten cents of profit a year for every dollar of assets. That is the whole of what the ratio says, and it is enough to compare Orontes with another food manufacturer, with its own last year, and with the cost of the money that funds those assets — which at the 6 per cent Orontes pays Levant Commerce Bank means the assets earn comfortably more than they cost to finance, and that is the test that matters.
+Figure F514-02 sets the computation out.
+Figure F514-02. Orontes Foods, Inc. — return on assets, 2025
+@table
+Element | Amount | Source
+Net income | 2,969,100 | Income statement
+Total assets, end of 2025 | 31,672,600 | Balance sheet
+Total assets, end of 2024 | 26,445,000 | Balance sheet
+Average total assets | 29,058,800 | Half the sum of the two
+Return on assets | 10.22% | Net income over average assets
+@end
+Now the examinable half of this outcome: what happens to the return when one element of the statements changes. Work it by asking which of the two parts of the fraction the change touches, and in which direction.
+A change that reduces profit alone lowers the return. A rise in the cost of sesame, a larger credit loss expense, a higher effective tax rate.
+A change that increases assets alone lowers the return. Buying plant, building inventory, letting receivables run.
+A change that touches both may do either, and the arithmetic decides. Writing an asset off reduces assets, which helps the ratio, and reduces profit, which hurts it; which effect wins depends on the size of the write-off against the size of each total.
+A change that touches neither leaves the return alone. Paying a dividend that was already declared, refinancing debt at the same amount, issuing shares and holding the cash — the last of these raises assets, so it does lower the return, and candidates who answer otherwise have forgotten that cash is an asset.
+WORKED EXAMPLE   Worked example: a further write-off, and what it does to both returns
+Step 1. The charge. Suppose Orontes impairs a further $1,000,000 of goodwill at the very end of 2025, deductible at its 25 per cent effective rate: 1,000,000 × 0.25 = 250,000 of tax relief, so net income falls by 750,000 to 2,969,100 − 750,000 = 2,219,100.
+Step 2. The assets. Ending assets fall to 31,672,600 − 1,000,000 = 30,672,600, so the average becomes half of 26,445,000 + 30,672,600 = 57,117,600, which is 28,558,800.
+Step 3. The return. Return on assets becomes 2,219,100 ÷ 28,558,800 = 7.77 per cent, against 10.22 per cent before.
+Check. Both parts of the fraction fell and the return still fell sharply, because profit fell by a quarter while average assets fell by less than two per cent. That is the general rule for a write-off: the numerator is always the smaller number, so a charge of a given size moves it proportionately more. An exam answer that says "assets fall, so the return rises" has the mechanism right and the magnitudes wrong.
+EXAM TRAP   Average or closing
+Where the question gives two balance sheets, use the average, and say that you have. Where it gives one, use the closing figure and say that too.
+The average of two year ends is itself a rough measure. A company that bought its plant in December has carried those assets for a month, and the average treats them as carried for six.
+Return on assets uses total assets, not net assets and not operating assets, unless the question says otherwise. Section 14.5 is about what happens when it does.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+write-off | الإعدام المحاسبي | passation en charges
+assets employed | الأصول المستخدمة | actifs engagés
+closing balance | الرصيد الختامي | solde de clôture
+@end
+SECTION CHECK   Test yourself
+SC14-1  Return on assets divides:
+A.	net income by average total assets.
+B.	net income by net sales.
+C.	net sales by average total assets.
+D.	average total assets by equity.
+SC14-2  Orontes's average total assets for 2025 are:
+A.	31,672,600
+B.	29,058,800
+C.	26,445,000
+D.	58,117,600
+SC14-3  A company issues shares for cash and holds the cash. Return on assets:
+A.	rises, because equity rose.
+B.	falls, because assets rose and profit did not.
+C.	is unchanged, because cash is not an operating asset.
+D.	cannot be computed.
+Answers and explanations are at the end of the chapter.
+14.2  Return on equity
+Return on equity is profit over the owners' money. Orontes's equity began the year at $16,375,000 and ended at $20,392,975, so the average is half of 20,392,975 + 16,375,000 = 36,767,975, which is $18,383,988. Return on equity is 2,969,100 ÷ 18,383,988 = 16.15 per cent.
+On the closing balance instead it is 2,969,100 ÷ 20,392,975 = 14.56 per cent. The two differ by more than a point and a half, and the reason is the $1,500,000 share issue and the $1,400,000 of additional paid-in capital that came with it: equity grew by a quarter during the year, so the question of which equity to divide by is not a quibble.
+Why is the return on equity higher than the return on assets? Because some of the assets are funded by somebody else. Orontes's $31,672,600 of assets are funded by $11,279,625 of liabilities and $20,392,975 of equity, so the owners put up about two-thirds of the money and keep all of the profit that the whole of it earns, after paying the lenders their fixed interest. That is the arithmetic of leverage, and Chapter 9 named the factor that measures it.
+Figure F514-03 puts the two returns side by side.
+Figure F514-03. Orontes: the two returns, and the gap between them
+@table
+Measure | 2025 | Basis | What it measures
+Return on assets | 10.22% | Net income over average assets | The business
+Return on equity | 16.15% | Net income over average equity | The owners' share
+Return on equity, closing basis | 14.56% | Net income over closing equity | The same, measured at one date
+Gap, assets to equity | 5.93 points | The effect of the liabilities | Leverage
+@end
+EXAM TRAP   Return on equity rewards debt until it does not
+A company can raise its return on equity by replacing equity with debt, and nothing about the business improves when it does. Chapter 8 priced the risk that comes with it.
+Return on equity for a loss-making company with negative equity is a positive number and is meaningless. Always look at the two parts before quoting the ratio.
+Preferred dividends are deducted from net income before computing the return to common equity, and preferred stock is excluded from the equity. Orontes has no preferred stock; many exam questions do.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+leverage | الرفع المالي | effet de levier
+preferred dividends | أرباح الأسهم الممتازة | dividendes préférentiels
+paid-in capital | علاوة الإصدار | prime d'émission
+@end
+SECTION CHECK   Test yourself
+SC14-4  Return on equity exceeds return on assets whenever:
+A.	the company has liabilities and earns more on its assets than its debt costs.
+B.	the company has no debt.
+C.	the tax rate is zero.
+D.	equity exceeds assets.
+SC14-5  Orontes's return on equity on average equity is:
+A.	10.22 per cent
+B.	16.15 per cent
+C.	14.56 per cent
+D.	7.07 per cent
+SC14-6  Where a company has preferred stock, return on common equity:
+A.	uses net income and total equity unchanged.
+B.	deducts preferred dividends from income and preferred stock from equity.
+C.	adds the preferred dividends back to income.
+D.	cannot be computed.
+Answers and explanations are at the end of the chapter.
+14.3  The DuPont decomposition
+The DuPont decomposition is a piece of cancelling. Write the return on equity as three fractions multiplied together and every intermediate term cancels, leaving net income over equity, which is where you started. What the three fractions buy is a diagnosis.
+Net income over sales is the net profit margin: how profitable each sale is.
+Sales over average assets is the total asset turnover: how hard the assets work.
+Average assets over average equity is the equity multiplier: how much of the assets the owners had to fund.
+For Orontes, the net margin is 7.07 per cent, the asset turnover is 42,000,000 ÷ 29,058,800 = 1.4453 times, and the equity multiplier on average balances is 29,058,800 ÷ 18,383,988 = 1.5807. Multiply them: 7.07 × 1.4453 × 1.5807 = 16.15 per cent, which is the return on equity computed directly in section 14.2.
+The first two factors multiply to the return on assets: 7.07 × 1.4453 = 10.22 per cent. So the two-factor version is return on assets times the equity multiplier: 10.22 × 1.5807 = 16.15 per cent. The exam asks for either.
+Figure F514-04 sets out the decomposition.
+Figure F514-04. Orontes: the three-factor DuPont decomposition, 2025
+@table
+Factor | Computation | Value | Question it answers
+Net profit margin | 2,969,100 over 42,000,000 | 7.07% | How profitable is a sale?
+Total asset turnover | 42,000,000 over 29,058,800 | 1.4453 | How hard do the assets work?
+Equity multiplier | 29,058,800 over 18,383,988 | 1.5807 | How much is funded by others?
+Return on equity | The three multiplied | 16.15% | What do the owners earn?
+@end
+The point of the decomposition is that two companies with the same return on equity can be completely different businesses, and the three factors say which. Figure F514-05 makes that concrete with Barada, whose figures you have met in Chapters 9, 11 and 13.
+Figure F514-05. The same return reached three ways
+@table
+Company | Net margin | Asset turnover | Equity multiplier | Return on equity
+Orontes, a manufacturer | 7.07% | 1.4453 | 1.5807 | 16.15%
+A supermarket | 2.0% | 3.50 | 2.30 | 16.1%
+A software company | 25.0% | 0.55 | 1.17 | 16.1%
+@end
+Three identical returns and no two of these companies would be run the same way. The supermarket lives on turnover and would be destroyed by a week of empty shelves. The software company lives on margin and could lose a third of it and still show a decent return. Orontes sits between them. A manager told to raise the return on equity needs to know which of the three factors is the one with room in it, and that is a question about the business, not about the ratio.
+EXAM TRAP   The multiplier is not a target
+Raising the equity multiplier always raises the return on equity in the arithmetic. It does so by adding debt, which adds the fixed interest Chapter 10 measured and the risk Chapter 8 measured. The exam treats a return raised this way as a different kind of return.
+The three factors must use consistent bases. If the multiplier uses average assets, the turnover must use average assets too, or the cancelling fails and the product will not equal the return.
+An equity multiplier computed on closing balances is 31,672,600 over 20,392,975, which is 1.55 — the figure Chapter 9 reported. It is not wrong; it is a different basis, and it belongs with a closing-basis return.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+decomposition | التحليل إلى عوامل | décomposition
+cancelling | الاختصار | simplification
+consistent basis | أساس متسق | base homogène
+@end
+SECTION CHECK   Test yourself
+SC14-7  The three-factor DuPont decomposition multiplies:
+A.	net margin, asset turnover and the equity multiplier.
+B.	gross margin, inventory turnover and the current ratio.
+C.	return on assets, return on equity and leverage.
+D.	margin, days sales outstanding and the cash cycle.
+SC14-8  Orontes's net margin is 7.07 per cent and its asset turnover is 1.4453. Its return on assets is:
+A.	16.15 per cent
+B.	10.22 per cent
+C.	4.89 per cent
+D.	1.45 per cent
+SC14-9  Two companies report a return on equity of 16 per cent. The DuPont decomposition tells you:
+A.	which is the better company.
+B.	which of margin, turnover and leverage produced it.
+C.	which has the higher share price.
+D.	nothing, because the returns are equal.
+Answers and explanations are at the end of the chapter.
+14.4  The five-factor decomposition
+The three-factor version hides two things inside the net margin: the interest the company pays and the tax it pays. Splitting them out gives the five-factor decomposition, which the exam also names, and which is the version a finance director actually uses.
+Start at the top of the income statement and work down. The operating margin on an earnings-before-interest-and-taxes basis is 4,348,800 ÷ 42,000,000 = 10.35 per cent. The interest burden ratio is pre-tax income over EBIT, which measures how much of the operating profit survives the lenders: 3,958,800 ÷ 4,348,800 = 91.03 per cent. The tax burden ratio is net income over pre-tax income, which measures how much survives the tax authority: 2,969,100 ÷ 3,958,800 = 75.0 per cent. The remaining two factors are the turnover and the multiplier, unchanged.
+Multiply the operating side first: 10.35 × 1.4453 × 1.5807 = 23.65 per cent. That is what the owners would earn if there were no interest and no tax. Then apply the two burdens: 23.65 × 0.9103 × 0.7500 = 16.14 per cent, the return on equity again, give or take the rounding.
+Figure F514-06 lists the five.
+Figure F514-06. Orontes: the five-factor decomposition, 2025
+@table
+Factor | Computation | Value | What a change in it means
+Tax burden | Net income over pre-tax income | 75.0% | A tax change, not a trading change
+Interest burden | Pre-tax income over EBIT | 91.03% | The cost of the debt
+Operating margin | EBIT over sales | 10.35% | Trading
+Asset turnover | Sales over average assets | 1.4453 | Asset efficiency
+Equity multiplier | Average assets over average equity | 1.5807 | Funding mix
+@end
+Read the five together and the leverage question becomes visible in a way the three-factor version cannot show. Debt enters twice and in opposite directions: it raises the equity multiplier, which helps, and it lowers the interest burden ratio, which hurts. Orontes keeps 91 cents of each operating dollar after interest and multiplies its asset base by 1.58, so on these figures the trade is clearly worthwhile. Push the debt far enough and the interest burden falls faster than the multiplier rises, and the return on equity turns down. That is the same break-even Chapter 8 described through the degree of financial leverage, reached from the other end.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+earnings before interest and taxes | الأرباح قبل الفوائد والضرائب | résultat d'exploitation avant frais financiers
+burden ratio | نسبة العبء | ratio de poids
+funding mix | هيكل التمويل | structure de financement
+@end
+SECTION CHECK   Test yourself
+SC14-10  The interest burden ratio is:
+A.	pre-tax income over EBIT.
+B.	interest over sales.
+C.	EBIT over interest.
+D.	net income over pre-tax income.
+SC14-11  In the five-factor decomposition, taking on more debt:
+A.	helps through the multiplier and hurts through the interest burden.
+B.	helps through both.
+C.	hurts through both.
+D.	affects neither.
+Answers and explanations are at the end of the chapter.
+14.5  Whose assets, whose equity, whose return
+A candidate who computes a return on assets of 10.22 per cent and an analyst who computes 14.97 per cent for the same company in the same year may both be right. The ratio has three parts and each of them is defined by convention rather than by a standard.
+The return. Net income is the usual numerator and it is not the only one. Net income is struck after interest, which is a payment to one of the two groups that funded the assets, so dividing it by all of the assets mixes two bases. Adding back the after-tax interest repairs that: 390,000 × 0.75 = 292,500, so the numerator becomes 2,969,100 + 292,500 = 3,261,600 and the return is 3,261,600 ÷ 29,058,800 = 11.22 per cent. An analyst who wants a pre-financing measure uses EBIT instead: 4,348,800 ÷ 29,058,800 = 14.97 per cent. All three are called return on assets in print.
+The assets. Average or closing is the first choice, and it moved Orontes's return on equity by a point and a half in section 14.2. Then: total assets, or only the assets used in the business? Orontes holds $1,807,000 of equity-method investments, $115,500 of securities and $46,000 of assets held for sale, none of which produces any of its operating profit. Taking them out gives a return on operating assets, which is higher and is a better measure of the trade. Gross or net of accumulated depreciation is a third choice, and it matters: Orontes's plant cost $26,790,000 and stands at $14,802,000, so a return computed on gross plant is barely half the one computed on net.
+The equity. Total equity includes accumulated other comprehensive income, which for Orontes is a negative $1,125 and so changes nothing, but for a company with large currency or pension reserves can swing the denominator by a tenth. Preferred stock is normally excluded, with its dividends taken out of the numerator. Where a group has subsidiaries it does not wholly own, the non-controlling interest is part of consolidated equity and no part of the parent shareholders' equity, and the two returns differ. Treasury stock reduces equity and therefore raises the return, which is a point Chapter 15 returns to.
+Figure F514-07 collects the variants on Orontes's own figures.
+Figure F514-07. One company, one year, five returns on assets
+@table
+Definition | Numerator | Denominator | Return
+Net income over average assets | 2,969,100 | 29,058,800 | 10.22%
+Net income over closing assets | 2,969,100 | 31,672,600 | 9.37%
+Net income plus after-tax interest | 3,261,600 | 29,058,800 | 11.22%
+EBIT over average assets | 4,348,800 | 29,058,800 | 14.97%
+Net income over average equity, for contrast | 2,969,100 | 18,383,988 | 16.15%
+@end
+None of this makes the ratio useless. It makes three rules compulsory. State the definition you used. Use the same definition on both sides of every comparison. And when a published figure disagrees with yours, find the definition before you find a fault.
+YOUR TURN   Decompose Barada's return
+Figure F514-08 gives Barada Wholesale's figures for 2025. Only one balance sheet is available, so use closing balances throughout. Answers are at the end of the chapter.
+Figure F514-08. Your turn: Barada's returns (complete the blanks)
+@table
+Item | Amount or ratio
+Net sales | 21,978,000
+Net income | 283,500
+Total assets | 7,000,000
+Total equity | 3,100,000
+Net profit margin | ________
+Total asset turnover | ________
+Equity multiplier | ________
+Return on assets | ________
+Return on equity | ________
+@end
+LANGUAGE FOCUS   "Return"
+English return does duty for three ideas that the exam keeps apart: a rate of profit, as in return on assets; the act of giving something back, as in a return of capital; and a filed document, as in a tax return. Arabic uses العائد for the rate and الإقرار for the document, so the ambiguity disappears. French separates them further: rentabilité for the rate of profit on assets or equity, rendement for a yield on an investment, and déclaration for the filing. Note too that French distinguishes rentabilité économique, the return on assets, from rentabilité financière, the return on equity — two settled terms where English says return twice and relies on the preposition.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+non-controlling interest | حقوق الملكية غير المسيطرة | intérêts minoritaires
+treasury stock | أسهم الخزينة | actions propres
+accumulated depreciation | مجمع الإهلاك | amortissements cumulés
+operating assets | الأصول التشغيلية | actif d'exploitation
+@end
+SECTION CHECK   Test yourself
+SC14-12  Adding after-tax interest back to net income before dividing by assets:
+A.	makes the numerator consistent with a denominator funded by both lenders and owners.
+B.	double-counts the interest.
+C.	is never done in practice.
+D.	converts the ratio into a margin.
+SC14-13  A company's published return on assets differs from yours. The first thing to check is:
+A.	the audit opinion.
+B.	the definition each of you used.
+C.	the share price.
+D.	the tax rate.
+SC14-14  Which choice would RAISE a reported return on assets?
+A.	Using gross rather than net property, plant and equipment
+B.	Using EBIT rather than net income as the numerator
+C.	Using average rather than closing assets in a growing company, where the closing figure is larger
+D.	Both B and C
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F514-09 brings the chapter together.
+Figure F514-09. Chapter 14 summary map: the key rule for each section.
+Return on assets is net income over average total assets, which for Orontes is 2,969,100 over 29,058,800, or 10.22 per cent, and it falls when profit falls or assets rise; a $1,000,000 write-off takes it to 7.77 per cent because the numerator is the smaller number and moves proportionately more. Return on equity is the same profit over average equity of $18,383,988, or 16.15 per cent, and it exceeds the return on assets by 5.93 points because lenders funded a third of the assets and take only their interest. The DuPont decomposition explains the whole of that: a net margin of 7.07 per cent, an asset turnover of 1.4453 and an equity multiplier of 1.5807, which multiply to 16.15 per cent, and which can be identical in total for a supermarket and a software company whose businesses have nothing in common. The five-factor version splits the margin into an operating margin of 10.35 per cent, an interest burden of 91.03 per cent and a tax burden of 75.0 per cent, which shows debt entering twice and in opposite directions. And the definitions of return, assets and equity are conventions, not standards: the same company and the same year give 9.37, 10.22, 11.22 and 14.97 per cent, so state the definition, use it on both sides, and look for a definition before you look for an error.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P14-01  Net income is 2,969,100 and average total assets are 29,058,800. Return on assets is:
+A.	10.22 per cent
+B.	9.37 per cent
+C.	16.15 per cent
+D.	14.97 per cent
+P14-02  The equity multiplier equals:
+A.	average assets over average equity.
+B.	average equity over average assets.
+C.	debt over equity.
+D.	sales over equity.
+P14-03  A company's net margin is 5 per cent, its asset turnover is 2.0 and its equity multiplier is 1.5. Its return on equity is:
+A.	10 per cent
+B.	15 per cent
+C.	7.5 per cent
+D.	30 per cent
+P14-04  Which factor is NOT part of the three-factor DuPont decomposition?
+A.	Net profit margin
+B.	Total asset turnover
+C.	Equity multiplier
+D.	Interest burden ratio
+P14-05  Return on equity rises and return on assets is unchanged. The cause is:
+A.	more leverage.
+B.	a higher margin.
+C.	faster asset turnover.
+D.	a lower tax rate.
+P14-06  Orontes's return on equity on closing equity of 20,392,975 is:
+A.	16.15 per cent
+B.	14.56 per cent
+C.	10.22 per cent
+D.	9.37 per cent
+P14-07  Using EBIT rather than net income as the numerator of return on assets:
+A.	lowers the ratio.
+B.	raises the ratio and removes the effect of financing and tax.
+C.	leaves the ratio unchanged.
+D.	is prohibited.
+P14-08  A company writes off an asset. The effect on return on assets is:
+A.	always an increase, because assets fall.
+B.	usually a decrease, because profit falls proportionately more.
+C.	nil.
+D.	not determinable in any circumstances.
+P14-09  The tax burden ratio in the five-factor decomposition is:
+A.	net income over pre-tax income.
+B.	tax expense over sales.
+C.	pre-tax income over EBIT.
+D.	one minus the statutory rate.
+P14-10  Two companies have the same return on equity. The one with the higher asset turnover and the lower margin is most likely:
+A.	a software company.
+B.	a supermarket.
+C.	a bank.
+D.	indistinguishable.
+Case-style practice: the board wants twenty per cent
+Orontes's board sets a target return on equity of 20 per cent, against the 16.15 per cent earned in 2025. The finance director is asked how it could be reached. The three factors are a net margin of 7.07 per cent, an asset turnover of 1.4453 and an equity multiplier of 1.5807.
+Required. Say what each factor would have to become, holding the other two constant, for the return to reach 20 per cent. Then say which route you would recommend and why, naming the risk of the route you would not take. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC14-1  Answer A. The return divides a year's profit by the assets held through that year.
+B is wrong. Net income over sales is the net profit margin.
+C is wrong. Sales over assets is the asset turnover.
+D is wrong. Assets over equity is the equity multiplier.
+SC14-2  Answer B. Half of 31,672,600 plus 26,445,000 is 29,058,800.
+A is wrong. This is the closing figure alone.
+C is wrong. This is the opening figure alone.
+D is wrong. This is the sum, not the average.
+SC14-3  Answer B. Cash is an asset, so the denominator rises while profit does not.
+A is wrong. Equity is not the denominator of this ratio.
+C is wrong. Return on assets uses total assets unless the question says otherwise.
+D is wrong. Both figures are available.
+SC14-4  Answer A. Leverage lifts the return to the owners when the assets earn more than the debt costs.
+B is wrong. With no debt the two returns are equal.
+C is wrong. Tax affects both returns alike.
+D is wrong. Equity cannot exceed assets unless liabilities are negative.
+SC14-5  Answer B. 2,969,100 ÷ 18,383,988 = 16.15 per cent.
+A is wrong. 10.22 per cent is the return on assets.
+C is wrong. 14.56 per cent uses closing equity.
+D is wrong. 7.07 per cent is the net margin.
+SC14-6  Answer B. The common shareholders' return excludes the preferred claim from both parts.
+A is wrong. That measures the return to all equity, preferred included.
+C is wrong. Adding the dividends back overstates the common return.
+D is wrong. It is computed routinely.
+SC14-7  Answer A. Those three multiply to the return on equity.
+B is wrong. None of these three cancels into a return.
+C is wrong. This is circular.
+D is wrong. These are working-capital measures.
+SC14-8  Answer B. 7.07 × 1.4453 = 10.22 per cent.
+A is wrong. 16.15 per cent includes the equity multiplier.
+C is wrong. This divides rather than multiplies.
+D is wrong. This is the turnover alone.
+SC14-9  Answer B. The decomposition identifies the source of the return.
+A is wrong. Equal returns from different sources need a judgment the ratio cannot make.
+C is wrong. Share prices are Chapter 16.
+D is wrong. Equal totals from different factors is exactly what it reveals.
+SC14-10  Answer A. Pre-tax income over EBIT is how much operating profit survives the interest.
+B is wrong. Interest over sales is a common-size line.
+C is wrong. EBIT over interest is interest coverage.
+D is wrong. That is the tax burden ratio.
+SC14-11  Answer A. Debt raises the multiplier and lowers the interest burden ratio.
+B is wrong. The interest burden always worsens with more debt.
+C is wrong. The multiplier always improves with more debt.
+D is wrong. It affects both.
+SC14-12  Answer A. The assets were funded by lenders and owners, so the return should be measured before the lenders are paid.
+B is wrong. The interest is added once, not twice.
+C is wrong. It is a standard analytical adjustment.
+D is wrong. The denominator is still assets, so it is still a return.
+SC14-13  Answer B. The definitions of return, assets and equity are conventions.
+A is wrong. An unqualified opinion does not settle a ratio definition.
+C is wrong. The share price is not in either figure.
+D is wrong. The tax rate is the same for both calculations.
+SC14-14  Answer D. EBIT is a larger numerator, and an average is a smaller denominator than a larger closing figure.
+A is wrong. Gross plant is a larger denominator and lowers the return.
+B is wrong. It is correct but incomplete.
+C is wrong. It is correct but incomplete.
+Your turn
+@table
+Item | Answer
+Net profit margin | 1.29 per cent: 283,500 ÷ 21,978,000.
+Total asset turnover | 3.14 times: 21,978,000 ÷ 7,000,000.
+Equity multiplier | 2.2581: 7,000,000 ÷ 3,100,000.
+Return on assets | 4.05 per cent: 283,500 ÷ 7,000,000.
+Return on equity | 9.15 per cent: 283,500 ÷ 3,100,000, and the same figure from the decomposition, 1.29 × 3.14 × 2.2581 = 9.15.
+What it tells you | Barada turns its assets more than twice as fast as Orontes and carries more leverage, and still earns a return on equity little more than half of Orontes's, because its margin is a fifth of Orontes's. The margin is the factor to work on, and it is the one a distributor has least control over.
+@end
+Multiple-choice questions
+P14-01  Answer A. 2,969,100 ÷ 29,058,800 = 10.22 per cent.
+B is wrong. 9.37 per cent uses closing assets.
+C is wrong. 16.15 per cent is the return on equity.
+D is wrong. 14.97 per cent uses EBIT as the numerator.
+P14-02  Answer A. Assets over equity is the multiplier.
+B is wrong. This is its reciprocal, the equity-to-assets ratio.
+C is wrong. Debt over equity is a different leverage ratio.
+D is wrong. Sales over equity is not a leverage measure.
+P14-03  Answer B. 5 × 2.0 × 1.5 = 15 per cent.
+A is wrong. This stops at the return on assets.
+C is wrong. This divides by the multiplier.
+D is wrong. This has no basis in the figures.
+P14-04  Answer D. The interest burden belongs to the five-factor version.
+A is wrong. The margin is the first factor.
+B is wrong. The turnover is the second.
+C is wrong. The multiplier is the third.
+P14-05  Answer A. With the return on assets fixed, only the multiplier can have moved.
+B is wrong. A higher margin would have raised the return on assets.
+C is wrong. Faster turnover would also have raised it.
+D is wrong. A lower tax rate raises both returns.
+P14-06  Answer B. 2,969,100 ÷ 20,392,975 = 14.56 per cent.
+A is wrong. 16.15 per cent uses average equity.
+C is wrong. 10.22 per cent is the return on assets.
+D is wrong. 9.37 per cent is net income over closing assets.
+P14-07  Answer B. EBIT is struck before interest and tax, so the ratio measures the assets alone.
+A is wrong. EBIT exceeds net income, so the ratio rises.
+C is wrong. The numerator changes, so the ratio changes.
+D is wrong. It is a standard variant.
+P14-08  Answer B. Both parts fall and the numerator falls proportionately more.
+A is wrong. This looks at the denominator only.
+C is wrong. Both parts of the fraction move.
+D is wrong. It is determinable once the amounts are known.
+P14-09  Answer A. Net income over pre-tax income is what survives the tax.
+B is wrong. Tax over sales is a common-size line.
+C is wrong. That is the interest burden ratio.
+D is wrong. The effective rate, not the statutory rate, is what the statements show.
+P14-10  Answer B. High turnover with a thin margin is the supermarket pattern.
+A is wrong. Software is the high-margin, low-turnover case.
+C is wrong. A bank's balance sheet is dominated by leverage, not turnover.
+D is wrong. The factors distinguish them precisely.
+Case-style set: the board wants twenty per cent
+Each factor alone would have to move a long way.
+Through the margin. Holding turnover and the multiplier, the net margin would have to rise from 7.07 to about 8.76 per cent — a quarter higher. On 2025 sales that is roughly $710,000 more net income, which is almost exactly the $840,000 of gross margin the company has given away since 2023.
+Through turnover. The asset turnover would have to rise from 1.4453 to about 1.79, which on unchanged sales means running the business on about $23,500,000 of assets instead of $29,058,800. Chapters 11 and 12 found about $4,500,000 of trade working capital and no obvious slack in the plant, so this route cannot deliver on its own.
+Through leverage. The equity multiplier would have to rise from 1.5807 to about 1.96, which means replacing roughly a quarter of the equity with debt. The arithmetic works and nothing in the business improves.
+I would take the margin route, because the margin is where the company has demonstrably lost ground and the lost ground is worth more than the gap to the target. Recovering two points of gross margin would carry most of the distance by itself, and it improves the return on assets rather than only the return on equity.
+The risk of the leverage route is that interest coverage of 11.15 times would fall towards 6, the fixed charges Chapter 10 measured would rise, and the degree of financial leverage of 1.10 would climb — a higher return bought entirely with risk.
