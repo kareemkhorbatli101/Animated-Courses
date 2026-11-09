@@ -1,0 +1,419 @@
+Chapter 1
+Why Anyone Reads a Statement Twice
+لماذا تُقرأ القائمة المالية مرتين
+In Part 1 you prepared financial statements. You classified the accounts, you measured the inventory, you recognized the revenue, and at the end of Book 1 you had four statements for Orontes Foods, Inc. that balanced. That was the first reading of those statements: the reading that asks whether they are right.
+Part 2 begins the second reading. It asks what the statements mean. Is Orontes able to pay its bills next month? Is it earning enough on what the owners have put in? Is it growing, and is the growth worth what it cost? Can it survive a bad year? These are different questions from the ones in Part 1, and they are answered with different tools: percentages, trends and ratios rather than debits and credits.
+This chapter sets up the method and tells you where the numbers come from. Figure F501-01 is your map.
+Figure F501-01. Chapter 1 roadmap: from a prepared statement to a judgment about the company.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.2.x | Name the public sources of financial information about a company, and the published sources of industry ratio averages. | A | Full treatment
+A.1.a | Say what a common-size statement is and why an analyst makes one. | B | Introduced (full in Chapter 2)
+A.2.w | Say why a ratio on its own answers nothing. | A | Introduced (full in Chapter 18)
+A.2.y | Describe how several ratios together support a judgment about a company. | C | Introduced (full in Chapter 18)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+financial statement analysis | التحليل المالي للقوائم المالية | analyse des états financiers
+common-size statement | قائمة مالية بنسب مئوية | état en pourcentage
+horizontal analysis | التحليل الأفقي | analyse horizontale
+vertical analysis | التحليل الرأسي | analyse verticale
+ratio analysis | تحليل النسب المالية | analyse par ratios
+benchmark | معيار المقارنة | référence
+industry average | متوسط القطاع | moyenne sectorielle
+annual report | التقرير السنوي | rapport annuel
+Form 10-K | التقرير السنوي للهيئة | formulaire 10-K
+Form 10-Q | التقرير الربعي | formulaire 10-Q
+proxy statement | بيان التفويض | circulaire de procurations
+management's discussion and analysis | مناقشة وتحليل الإدارة | rapport de gestion
+@end
+WHAT YOU ALREADY KNOW   What you already know
+You already know what each statement contains, because you built them. You know that the balance sheet is at one date and the income statement is for a period, that net income flows into retained earnings, and that the ending cash on the statement of cash flows is the cash on the balance sheet. Part 2 never asks you to prepare those statements again. It asks you what to do with them once they are in front of you.
+1.1  The second reading
+A set of financial statements is a record of what happened. Reading it a second time turns that record into a judgment about what is likely to happen next. The two readings use the same paper and ask opposite questions. The first asks: does this follow the rules? The second asks: on this evidence, would I lend to this company, buy it, supply it, or work for it?
+Nothing in the second reading is certain. A ratio is not a measurement the way a weight is a measurement. It is a comparison, and a comparison only means something against something else: the same company last year, a competitor, the industry, or a target the company set itself. A current ratio of 3.3 is neither good nor bad until you know what it was a year ago and what a food manufacturer normally carries.
+That is the first rule of financial statement analysis, and it is the one candidates forget under exam pressure. A number alone answers nothing. Chapter 18 returns to it at the end, when you have all the ratios and have to produce a verdict.
+EXAM TRAP   A ratio needs a comparison
+A question that gives you one ratio and asks whether the company is healthy is testing whether you know that you cannot say.
+When the exam asks for an interpretation, it will give you a comparison: a prior year, a competitor, or an industry figure.
+Watch the direction of the comparison. A higher inventory turnover is usually better; a higher days-sales-outstanding is usually worse.
+1.2  Who asks, and what each one wants
+The same statements are read by people who want different things from them. The analysis follows the question, so the first thing to settle is whose question you are answering.
+Figure F501-02 lists the readers you met in Part 1, with what each one looks for first.
+Figure F501-02. Who reads the statements a second time, and what each looks for
+@table
+Reader | The question | Looks first at
+A bank lending for 90 days | Will the cash be there when the note falls due? | Liquidity ratios and the cash cycle
+A bank lending for ten years | Will the company still exist, and can it carry the interest? | Leverage and coverage ratios
+A shareholder | Is the return on my money worth the risk? | ROE, margins, earnings per share
+An acquirer | What is this business worth to me? | Cash flows, margins, asset turnover
+A supplier granting credit | Will I be paid, and how slowly? | Days purchases in accounts payable
+Management | Which part of the business is dragging? | Segment margins and asset turnover
+@end
+A lender and a shareholder can read the same balance sheet and reach opposite conclusions about the same fact. Heavy borrowing worries the lender, because it ranks ahead of him only in part and raises the chance of default. The same borrowing can please the shareholder, because interest is cheaper than equity and the surplus belongs to him. You will meet that disagreement again in Chapter 9, where capital structure is measured.
+LANGUAGE FOCUS   The word "analysis"
+In Arabic تحليل and in French analyse both cover the whole of this work. English divides the work into named techniques, and the exam uses the names: horizontal analysis, vertical analysis, ratio analysis, variation analysis. Learn the names as labels for procedures, not as synonyms for thinking about the numbers.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+liquidity | السيولة | liquidité
+solvency | الملاءة المالية | solvabilité
+creditor | الدائن | créancier
+shareholder | المساهم | actionnaire
+acquirer | الجهة المستحوذة | acquéreur
+@end
+SECTION CHECK   Test yourself
+SC1-1  A bank is deciding whether to renew a 90-day note. Which group of ratios does it look at FIRST?
+A.	Liquidity ratios
+B.	Market ratios
+C.	Profitability ratios
+D.	Growth rates
+SC1-2  A shareholder and a long-term lender read the same balance sheet. Which fact is most likely to please one and worry the other?
+A.	A rise in cash
+B.	A rise in borrowing
+C.	A rise in inventory
+D.	A rise in prepaid expenses
+SC1-3  Which statement about a single ratio is correct?
+A.	A current ratio above 2.0 shows the company is healthy.
+B.	A ratio is a measurement, so it needs no comparison.
+C.	A ratio means something only against a comparison.
+D.	A ratio is reliable only if it is calculated from audited figures.
+Answers and explanations are at the end of the chapter.
+1.3  The three lenses
+There are only three things you can do to a financial statement to make it speak, and the first five chapters take them in turn.
+The first is to turn every line into a percentage of one total. On the balance sheet every line becomes a percentage of total assets; on the income statement every line becomes a percentage of net sales. This is a common-size statement, and because the percentages run down the column it is also called vertical analysis. It lets you compare a company with one ten times its size, because both become 100 per cent. Chapter 2 does this to Orontes.
+The second is to compare each line with itself in an earlier year. Every item is expressed against the same item in a base year, so you can see what has moved and by how much. Because the comparison runs across the page it is called horizontal analysis. Chapter 3 does this, and Chapter 4 turns the movements into growth rates.
+The third is to divide one line by another. That is a ratio, and the rest of the book is ratios: twenty-five of them in Section A alone, grouped by what they are for. Liquidity ratios in Chapters 6 and 7, leverage in Chapters 8 to 10, activity in Chapters 11 and 12, profitability in Chapters 13 to 15, market ratios in Chapters 15 and 16.
+Figure F501-03 sets the three side by side.
+Figure F501-03. The three lenses, and what each one is for
+@table
+Lens | What it does | Also called | Answers
+Common-size | Divides every line by one total | Vertical analysis | What is this company made of?
+Trend | Divides every line by the same line in a base year | Horizontal analysis | What has changed?
+Ratio | Divides one line by another | Ratio analysis | How do the parts relate?
+@end
+The three are not alternatives. An analyst uses all of them on the same statements, and each one raises the question the next one answers. Common-size analysis shows that cost of goods sold is 65 per cent of sales; trend analysis shows that it was 62 per cent two years ago; ratio analysis shows that inventory turnover fell at the same time, which suggests where the extra cost went.
+WORKED EXAMPLE   Worked example: three lenses on one line
+Step 1. Orontes's inventory at December 31, 2025 is $2,450,000, and total assets are $31,672,600. The common-size figure is 2,450,000 ÷ 31,672,600 = 7.74 per cent. Inventory is a small part of what Orontes owns.
+Step 2. A year earlier, inventory was $2,300,000. The trend figure is 2,450,000 ÷ 2,300,000 = 1.065, so inventory rose by 6.5 per cent.
+Step 3. Cost of goods sold for 2025 is $27,300,000. The ratio is 27,300,000 ÷ 2,450,000 = 11.14 times, so Orontes turns its inventory about eleven times a year.
+Check. Each step used the same line and a different partner: a total, an earlier year, and another statement. The three answers are about size, about movement, and about speed, and none of them could be read off the balance sheet alone.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+common-size statement | قائمة مالية بنسب مئوية | état en pourcentage
+vertical analysis | التحليل الرأسي | analyse verticale
+horizontal analysis | التحليل الأفقي | analyse horizontale
+base year | سنة الأساس | année de base
+inventory turnover | معدل دوران المخزون | rotation des stocks
+@end
+SECTION CHECK   Test yourself
+SC1-4  On a common-size balance sheet, every line is expressed as a percentage of:
+A.	net sales.
+B.	total assets.
+C.	total equity.
+D.	the same line in the base year.
+SC1-5  Which technique is also called vertical analysis?
+A.	Ratio analysis
+B.	Horizontal analysis
+C.	Common-size analysis
+D.	Variation analysis
+SC1-6  Use the worked example. Orontes's inventory is 7.74 per cent of total assets and rose 6.5 per cent in the year. What do these two figures together NOT tell you?
+A.	How large inventory is relative to the company
+B.	How fast inventory moved during the year
+C.	The direction of the change in inventory
+D.	The size of the change in inventory
+Answers and explanations are at the end of the chapter.
+1.4  Where the numbers come from
+For a private company you analyze what you are given. For a company whose shares are publicly traded in the United States, a great deal is published, and the exam expects you to know what each document is called and what is in it.
+Figure F501-04 lists the sources.
+Figure F501-04. Sources of financial information about a public company
+@table
+Source | What it is | What it holds that the others do not
+Form 10-K | The annual report filed with the SEC | Audited statements, the notes, MD&A, risk factors, segment data
+Form 10-Q | The quarterly report filed with the SEC | Unaudited statements for the quarter, filed within weeks
+Form 8-K | A report of a major event | An acquisition, an auditor change, a bankruptcy, a material agreement
+Proxy statement | Sent to shareholders before the annual meeting | Director and officer pay, board membership, matters put to a vote
+Annual report to shareholders | The company's own published report | The 10-K statements, with a narrative and a letter from the chief executive
+Press releases and earnings calls | The company speaking directly | Management's own measures, guidance, and answers to analysts
+@end
+All of the filings above are public and free. In the United States they are held in EDGAR, the Securities and Exchange Commission's electronic filing database, and anyone can read them. That matters for the exam because a question about where an analyst would find segment information, or officer compensation, has a definite answer.
+Two parts of the 10-K deserve naming. Management's discussion and analysis, usually called MD&A, is where management explains the results in words: why revenue moved, what the liquidity position is, what capital commitments exist. The notes to the statements carry the accounting policies, the detail behind the summarized lines, and the contingencies. Part 1 taught you to prepare the notes; here they are evidence.
+EXAM TRAP   Which document?
+Officer and director compensation is in the proxy statement, not the 10-K.
+A quarterly figure comes from the 10-Q, and it is unaudited.
+A single major event between reports is announced on a Form 8-K.
+Non-GAAP measures such as adjusted EBITDA usually come from a press release, not from the audited statements.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+Form 10-K | التقرير السنوي للهيئة | formulaire 10-K
+Form 10-Q | التقرير الربعي | formulaire 10-Q
+Form 8-K | تقرير الأحداث الجوهرية | formulaire 8-K
+proxy statement | بيان التفويض | circulaire de procurations
+notes | الإيضاحات المتممة | notes annexes
+segment information | معلومات القطاعات | information sectorielle
+@end
+SECTION CHECK   Test yourself
+SC1-7  An analyst wants to know how much the chief executive was paid. Which document should she read?
+A.	Form 10-K
+B.	Form 10-Q
+C.	The proxy statement
+D.	Form 8-K
+SC1-8  A company changed its auditor in March. Where is that reported?
+A.	In the next Form 10-Q
+B.	On a Form 8-K
+C.	In the notes to the annual statements only
+D.	In the proxy statement
+SC1-9  Which of these is NOT audited?
+A.	The statements in the Form 10-K
+B.	The statements in the Form 10-Q
+C.	The prior-year comparatives in the Form 10-K
+D.	The consolidated balance sheet in the annual report
+Answers and explanations are at the end of the chapter.
+1.5  Industry averages, and what they are worth
+A company's own history is the easiest comparison, because you have it. The harder and more useful comparison is with other companies doing the same thing. For that you need industry figures, and those are published too.
+Figure F501-05 names the usual sources.
+Figure F501-05. Published sources of industry ratio averages
+@table
+Source | What it publishes
+RMA Annual Statement Studies | Balance-sheet and income-statement ratios by industry, from bank lending files
+Dun & Bradstreet Industry Norms and Key Business Ratios | Ratios by industry and by company size
+Trade and industry associations | Operating statistics for their own members
+Commercial data services | Company and industry ratios drawn from public filings
+Government statistical agencies | Industry-level output, price and cost data
+@end
+An industry average is a comparison, not a target. Three things limit it, and the exam tests all three.
+The first is that the industry classification may not fit. Orontes presses olive oil, mills tahini and bottles juice. A food manufacturing average covers companies that do none of those things, and a company that does all three sits in no single category.
+The second is that the companies in the average may use different accounting. One uses LIFO and another FIFO; one leases its plant and another owns it. Part 1 taught you how far two sets of statements can differ while both follow the rules.
+The third is that an average hides its own spread. Half the industry is on one side of it. A company at the average is not thereby safe, and a company away from the average is not thereby wrong: it may be better, or it may be doing something the average does not describe.
+FALSE-FRIEND ALERT   Average, mean, median, norm
+English "industry average" is loose: a published figure may be a mean, a median, or an upper and lower quartile. Arabic متوسط and French moyenne both suggest an arithmetic mean. Read the publication's own definition. Statement Studies, for example, reports quartiles as well as a median, and the quartile is often the more useful comparison.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+industry average | متوسط القطاع | moyenne sectorielle
+benchmark | معيار المقارنة | référence
+peer group | مجموعة النظراء | groupe de comparables
+median | الوسيط | médiane
+quartile | الربيع الإحصائي | quartile
+@end
+SECTION CHECK   Test yourself
+SC1-10  Which is the BEST description of an industry average?
+A.	A target the company should reach
+B.	A comparison whose basis must be checked before it is used
+C.	A regulatory minimum
+D.	A measure of the company's own past
+SC1-11  Orontes presses oil, mills tahini and bottles juice. What is the main difficulty in comparing it with a published food-manufacturing average?
+A.	Its statements are not audited.
+B.	Its accounting policies are unusual.
+C.	No single industry classification describes what it does.
+D.	It is too large for the published categories.
+SC1-12  Two companies in one industry report very different inventory turnover. Which explanation should be checked FIRST?
+A.	One of them has misstated its inventory.
+B.	They use different inventory cost flow assumptions.
+C.	One of them is more profitable.
+D.	The industry average is wrong.
+Answers and explanations are at the end of the chapter.
+1.6  The company every ratio is calculated from
+Every ratio in Part 2 is calculated from one company, and it is the company you already know. Orontes Foods, Inc. presses olive oil and mills tahini in Amman, makes frozen pastries in Dubai, and sells through distributors across the Levant and the Gulf. Its three divisions are Oils, Tahini & Spreads, and Beverages. You prepared its statements in Part 1.
+Figure F501-06 summarizes those statements. The full statements are reproduced in Chapter 2, and every ratio ahead is calculated from them, so any figure you do not recognize can be traced back to a line you wrote yourself.
+Figure F501-06. Orontes Foods, Inc. — the three statements in summary (whole USD)
+@table
+Item | 2025 | 2024
+Total current assets | 14,188,100 | 8,380,000
+TOTAL ASSETS | 31,672,600 | 26,445,000
+Total current liabilities | 4,280,000 | 3,570,000
+Total liabilities | 11,279,625 | 10,070,000
+Total stockholders' equity | 20,392,975 | 16,375,000
+Net sales | 42,000,000 |
+Cost of goods sold | (27,300,000) |
+Operating income | 4,176,000 |
+Net income | 2,969,100 |
+Net cash provided by operating activities | 7,531,100 |
+@end
+Two features of the 2025 figures will occupy several chapters. Cash rose from $2,100,000 to $7,302,100, which is a very large movement for a company of this size and has to be explained before any liquidity ratio is believed. And operating income carries impairment losses of $2,724,000, which is a real charge but not one that recurs every year. Chapter 17, on the quality of earnings, is about exactly that kind of line.
+The other companies of Part 1 come with it. Barada Wholesale, Inc. is the distributor whose own statements you worked on, and it supplies the case-style practice at the end of most chapters. Jordan Glass Co. is the bottle supplier Orontes holds an equity-method investment in. Levant Commerce Bank lends to Orontes, and Gulf Factor Co. buys its receivables.
+EXAM TRAP   Analyze the company you are given
+Exam questions give you the statements or the ratios they want used. Do not import what you think you know about the industry.
+If a question gives both a prior year and an industry figure, the answer usually turns on one of them. Read what is asked.
+SECTION CHECK   Test yourself
+SC1-13  Why is every ratio in Part 2 calculated from one company's statements?
+A.	Because ratios are only valid within one company
+B.	So that any figure can be traced back to a statement line the reader has prepared
+C.	Because industry averages are unavailable
+D.	Because the exam uses only one company
+SC1-14  Orontes's cash rose from $2,100,000 to $7,302,100 during 2025. Before using that figure in a liquidity ratio, an analyst should FIRST:
+A.	compare it with the industry average.
+B.	find out what produced the increase.
+C.	recalculate the current ratio.
+D.	adjust it for inflation.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F501-07 brings the chapter together.
+Figure F501-07. Chapter 1 summary map: the key rule for each section.
+Part 1 prepared the statements; Part 2 reads them a second time, to judge rather than to verify. A ratio is a comparison and says nothing on its own, so every figure is set against the prior year, a competitor or an industry figure. Three lenses do the work: common-size analysis divides every line by one total, trend analysis divides every line by itself in a base year, and ratio analysis divides one line by another. For a public company the evidence is published: the 10-K with its notes and MD&A, the 10-Q, the 8-K, the proxy statement and the company's own releases, all filed with the SEC and held in EDGAR. Industry averages are published too, by RMA, by Dun & Bradstreet and by trade associations, and all three of their limits are examinable: the classification may not fit, the accounting may differ, and the average hides its spread. Every ratio ahead is calculated from the Orontes statements you prepared in Part 1.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P1-01  Financial statement analysis differs from financial statement preparation mainly because analysis:
+A.	uses only audited figures.
+B.	asks what the statements mean rather than whether they are correct.
+C.	is performed only by outsiders.
+D.	requires no knowledge of accounting standards.
+P1-02  Which document contains management's own explanation of why revenue moved during the year?
+A.	The proxy statement
+B.	Management's discussion and analysis in the Form 10-K
+C.	The auditor's report
+D.	Form 8-K
+P1-03  An analyst needs quarterly revenue for the three months ended September 30. The BEST source is:
+A.	the Form 10-K.
+B.	the proxy statement.
+C.	the Form 10-Q.
+D.	the annual report to shareholders.
+P1-04  Common-size analysis of an income statement expresses each line as a percentage of:
+A.	total assets.
+B.	net sales.
+C.	net income.
+D.	the same line in the base year.
+P1-05  Use Figure F501-06. Orontes's total current liabilities as a percentage of total assets at December 31, 2025 is closest to:
+A.	13.5 per cent
+B.	21.0 per cent
+C.	30.2 per cent
+D.	35.6 per cent
+P1-06  Which limitation of industry averages does an analyst meet when a company operates in three different product lines?
+A.	The average may be out of date.
+B.	No single industry classification describes the company.
+C.	The average is a median rather than a mean.
+D.	The companies in the average are audited by different firms.
+P1-07  Two food manufacturers report inventory turnover of 11 times and 6 times. Which explanation must be ruled out before concluding that the first is better managed?
+A.	The two use different inventory cost flow assumptions.
+B.	The first has higher net income.
+C.	The second pays higher dividends.
+D.	The first is listed and the second is not.
+P1-08  Which of the following is filed with the SEC when a company completes a major acquisition between its regular reports?
+A.	Form 10-K
+B.	Form 10-Q
+C.	Form 8-K
+D.	The proxy statement
+P1-09  Use Figure F501-06. Orontes's working capital at December 31, 2024 (whole USD) is:
+A.	4,810,000
+B.	8,380,000
+C.	3,570,000
+D.	11,950,000
+P1-10  A long-term lender and a shareholder disagree about a company's increased borrowing. The disagreement arises because:
+A.	the lender uses different statements.
+B.	borrowing raises the shareholder's return and the lender's risk.
+C.	borrowing is reported differently under IFRS.
+D.	the shareholder cannot see the debt.
+Case-style practice: Barada Wholesale asks for a credit line
+Barada Wholesale, Inc. distributes Orontes products across Jordan. It has asked Levant Commerce Bank for a one-year credit line of $600,000, to be drawn in the months when it builds stock before the autumn season. Barada is not a public company. It has offered the bank its last two years of statements, prepared by its own accountant and reviewed but not audited, together with a schedule of its receivables by age.
+Required. Write a short note to the bank's credit officer setting out: (a) which of the three lenses you would apply first and why; (b) two comparisons you would want that Barada has not offered; and (c) one limitation of comparing Barada with a published wholesale-distribution average. Write in continuous prose, not in bullets, and keep it under 200 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC1-1  Answer A. A 90-day note is repaid out of short-term resources, so the bank looks at liquidity first.
+B is wrong. Market ratios concern the share price and matter to investors, not to a short-term lender.
+C is wrong. A profitable company can still be short of cash in a given quarter.
+D is wrong. Growth rates describe direction over years, not the ability to pay in 90 days.
+SC1-2  Answer B. Borrowing raises the shareholder's return when the company earns more than the interest, and raises the lender's risk of not being repaid.
+A is wrong. A rise in cash reassures both.
+C is wrong. A rise in inventory worries both, because it ties up cash and may not sell.
+D is wrong. Prepaid expenses are small and interest neither party particularly.
+SC1-3  Answer C. A ratio is a comparison; without something to compare it with it answers nothing.
+A is wrong. There is no universal threshold; 2.0 may be high for one industry and low for another.
+B is wrong. A ratio is a relationship between two amounts, not a measurement of a thing.
+D is wrong. Audit improves the reliability of the inputs but does not remove the need for a comparison.
+SC1-4  Answer B. On a common-size balance sheet every line is divided by total assets.
+A is wrong. Net sales is the base for the common-size income statement.
+C is wrong. Total equity is one of the lines being expressed, not the base.
+D is wrong. Comparison with a base year is horizontal analysis.
+SC1-5  Answer C. Common-size analysis runs down the column, so it is called vertical analysis.
+A is wrong. Ratio analysis divides one line by another, not by a single total.
+B is wrong. Horizontal analysis compares across years.
+D is wrong. Variation analysis is percentage change over time, which is horizontal.
+SC1-6  Answer B. Neither figure involves the income statement, so neither says how fast inventory moved.
+A is wrong. The common-size figure of 7.74 per cent is exactly the size relative to the company.
+C is wrong. The 6.5 per cent rise gives the direction.
+D is wrong. The 6.5 per cent rise gives the size of the change.
+SC1-7  Answer C. Officer and director compensation is disclosed in the proxy statement.
+A is wrong. The 10-K carries the statements, notes and MD&A, not the detailed pay tables.
+B is wrong. The 10-Q is a quarterly financial report.
+D is wrong. The 8-K reports a single major event.
+SC1-8  Answer B. A change of auditor is a reportable event, announced on a Form 8-K.
+A is wrong. The 10-Q is a periodic financial report and may appear months later.
+C is wrong. Waiting for the annual notes would leave users uninformed for most of a year.
+D is wrong. The proxy statement concerns matters put to shareholders.
+SC1-9  Answer B. The statements in a Form 10-Q are unaudited.
+A is wrong. The annual statements in the 10-K are audited.
+C is wrong. The comparatives presented in an audited annual report are covered by the audit.
+D is wrong. The consolidated balance sheet in the annual report is the audited one.
+SC1-10  Answer B. An industry average is a comparison whose classification, accounting basis and spread must be checked before it is relied on.
+A is wrong. There is no reason a company should aim at the middle of its industry.
+C is wrong. Industry averages are published statistics, not regulation.
+D is wrong. The company's own past is a different comparison.
+SC1-11  Answer C. A company in three product lines sits in no single published classification.
+A is wrong. Audit status does not affect the choice of comparison.
+B is wrong. Nothing in the question suggests unusual policies.
+D is wrong. Published studies cover a range of sizes.
+SC1-12  Answer B. Different cost flow assumptions change both inventory and cost of goods sold, so they change turnover without any difference in management.
+A is wrong. Misstatement is possible but is not the first explanation to test.
+C is wrong. Profitability does not determine turnover.
+D is wrong. The question compares two companies, not either with an average.
+SC1-13  Answer B. Using one familiar company means every ratio can be traced back to a line the reader prepared.
+A is wrong. Ratios are routinely compared across companies.
+C is wrong. Industry averages are published and are discussed in this chapter.
+D is wrong. The exam uses many unrelated scenarios.
+SC1-14  Answer B. A movement of that size must be explained before the closing figure is used; the statement of cash flows shows what produced it.
+A is wrong. Comparing an unexplained figure with an average compounds the problem.
+C is wrong. Recalculating uses the figure without understanding it.
+D is wrong. Inflation adjustment is a separate issue and does not explain a one-year movement.
+Multiple-choice questions
+P1-01  Answer B. Preparation asks whether the statements follow the rules; analysis asks what they mean.
+A is wrong. Analysts work on unaudited figures too, as in the Barada case.
+C is wrong. Management analyses its own statements constantly.
+D is wrong. Analysis requires more knowledge of the standards, not less, because the standards shape the numbers.
+P1-02  Answer B. Management's discussion and analysis is management's own narrative explanation of the results.
+A is wrong. The proxy statement concerns pay and matters put to a vote.
+C is wrong. The auditor's report gives an opinion, not an explanation of performance.
+D is wrong. An 8-K reports one event.
+P1-03  Answer C. Quarterly figures are filed on Form 10-Q.
+A is wrong. The 10-K is annual.
+B is wrong. The proxy statement carries no quarterly results.
+D is wrong. The annual report to shareholders is annual.
+P1-04  Answer B. Every line of a common-size income statement is a percentage of net sales.
+A is wrong. Total assets is the base for the balance sheet.
+C is wrong. Net income is one of the lines expressed, not the base.
+D is wrong. Comparison with a base year is horizontal analysis.
+P1-05  Answer A. 4,280,000 ÷ 31,672,600 = 13.5 per cent.
+B is wrong. This is roughly current liabilities over current assets inverted; it uses the wrong base.
+C is wrong. This is close to total liabilities over total assets.
+D is wrong. This is close to total liabilities over total assets plus an error.
+P1-06  Answer B. Several product lines mean no single industry classification fits.
+A is wrong. Currency of the data is a separate limitation.
+C is wrong. Whether the statistic is a median or a mean is a definitional point, not the difficulty here.
+D is wrong. The auditors of the comparison companies are irrelevant.
+P1-07  Answer A. LIFO and FIFO produce different inventory and different cost of goods sold, so turnover differs without any difference in management.
+B is wrong. Net income does not determine turnover.
+C is wrong. Dividend policy is unrelated.
+D is wrong. Listing status is unrelated.
+P1-08  Answer C. A major acquisition between regular reports is announced on a Form 8-K.
+A is wrong. The 10-K is annual.
+B is wrong. The 10-Q is quarterly and may be months away.
+D is wrong. The proxy statement concerns shareholder votes.
+P1-09  Answer A. 8,380,000 − 3,570,000 = 4,810,000.
+B is wrong. This is current assets alone.
+C is wrong. This is current liabilities alone.
+D is wrong. This adds the two instead of subtracting.
+P1-10  Answer B. Borrowing raises the return on the shareholder's money when the company earns more than the interest, and raises the risk that the lender is not repaid.
+A is wrong. Both read the same statements.
+C is wrong. The disagreement is about economics, not presentation.
+D is wrong. Debt is on the face of the balance sheet.
+Case-style set: Barada Wholesale asks for a credit line
+A good answer makes three points.
+(a) Ratio analysis of liquidity comes first, because the bank's question is whether cash will be there within a year. The current and quick ratios, the cash cycle and the ageing schedule answer it directly; common-size and trend analysis are useful but secondary for a one-year facility.
+(b) Two comparisons that are missing. The first is a forecast: the facility is to be drawn seasonally, so a cash forecast by month matters more than two completed years. The second is a comparison with other distributors of similar size, since Barada's own two years show direction but not whether the level is normal.
+(c) One limitation. A published wholesale-distribution average is drawn mostly from audited companies using consistent policies; Barada's statements are reviewed rather than audited, so the inputs to its ratios are less reliable than the inputs to the average, and the comparison flatters or penalises it for reasons that have nothing to do with its business.

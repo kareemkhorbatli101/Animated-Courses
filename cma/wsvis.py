@@ -1922,6 +1922,23 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
 
 
 def webfig(title, subject, pairs, seed, first, spares=(), avoid=()):
+    """The section's terms around its subject, kept to a page.
+
+    A web of six spokes whose meanings run to a line and a half stands
+    1190px tall, and a figure a reader cannot see whole teaches nothing.
+    It gives up a spoke at a time rather than a whole figure: three is
+    the floor, because below it the web is not a web. Nothing is lost
+    with it -- the terms are in the section's own grid as well, which is
+    printed wherever the web was not drawn from it.
+    """
+    for n in range(len(pairs), 2, -1):
+        got = _webfig(title, subject, pairs[:n], seed, first, spares, avoid)
+        if got is None or got['h'] <= PAGE_H:
+            return got
+    return got
+
+
+def _webfig(title, subject, pairs, seed, first, spares=(), avoid=()):
     """The section's terms around its subject, some of them missing.
 
     A spoke carries two parts or three. Two is the term against what it

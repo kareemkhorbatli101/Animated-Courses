@@ -12,7 +12,9 @@ Design rules, enforced by habit rather than by code:
   - the regions a question will name are named in the figure
   - readable when photocopied in grey: colour reinforces, never carries
 """
+import glob
 import os
+import shutil
 import subprocess
 import tempfile
 import hashlib
@@ -20,7 +22,35 @@ import textwrap
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, 'wsart_cache')
-CHROME = '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell'
+
+
+def _chrome():
+    """The headless browser that renders an SVG to a PNG.
+
+    Its path was a constant, and the constant named a versioned directory
+    -- chromium_headless_shell-1194 -- which the container image moved
+    out from under the book on the next rebuild: every figure in four
+    books stopped rendering, and the only symptom was a chapter that
+    would not build. So it is looked up, newest build first, and the
+    error says what was looked for.
+    """
+    pats = ['/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell',
+            '/opt/pw-browsers/chromium_headless_shell-*/*/headless_shell',
+            '/opt/pw-browsers/chromium-*/*/chrome',
+            '/opt/pw-browsers/chromium/*/chrome']
+    for pat in pats:
+        got = sorted(glob.glob(pat), reverse=True)
+        if got:
+            return got[0]
+    for name in ('google-chrome', 'chromium', 'chromium-browser'):
+        p = shutil.which(name)
+        if p:
+            return p
+    raise RuntimeError('no headless browser found; looked for %s'
+                       % ', '.join(pats))
+
+
+CHROME = None
 
 # ---- palette ----------------------------------------------------------------
 # Three hues only, so a photocopy stays legible: ink for structure, indigo for
@@ -183,6 +213,9 @@ def render(svg_body, w, h, bg=PAPER):
             src = f.name
         # 2x device scale, then the PNG is placed at half size in the document,
         # so a photocopied sheet still has clean type.
+        global CHROME
+        if CHROME is None:
+            CHROME = _chrome()
         subprocess.run([CHROME, '--headless', '--no-sandbox', '--disable-gpu',
                         '--hide-scrollbars', '--force-device-scale-factor=2',
                         '--window-size=%d,%d' % (w, h),
