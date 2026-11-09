@@ -1,0 +1,618 @@
+Chapter 12
+Target pricing, target costing and value engineering
+التسعير المستهدف والتكلفة المستهدفة وهندسة القيمة
+Cost-plus pricing asks what the company needs and hopes the customer agrees. Target costing asks what the customer will pay and then requires the company to fit inside it. The first is a calculation; the second is a discipline, and it is the one that works in a market where the price is not the company's to choose.
+Orontes is about to design a squeeze bottle of tahini sauce for restaurants and canteens. The food-service buyers it has spoken to will pay $6.40 a bottle and not a cent more, because that is what the alternatives cost them. The design engineers' first estimate is $6.70 a bottle. This chapter is about what happens next.
+Figure F712-01 is your map.
+Figure F712-01. Chapter 12 roadmap: from the customer's price to the cost the company must achieve.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.3.g
+Identify techniques for setting prices from customers' perceptions of value and competitors' offerings.
+C
+Full treatment
+C.3.h
+Explain target pricing and target costing, and the steps in developing them.
+C
+Full treatment
+C.3.j
+Calculate the target operating income per unit and the target cost per unit.
+C
+Full treatment
+C.3.i
+Define value engineering.
+C
+Full treatment
+C.3.k
+Distinguish value-added from nonvalue-added costs.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+target price
+السعر المستهدف
+prix cible
+target cost
+التكلفة المستهدفة
+coût cible
+target operating income
+الربح التشغيلي المستهدف
+résultat d'exploitation cible
+cost gap
+فجوة التكلفة
+écart à combler
+value engineering
+هندسة القيمة
+analyse de la valeur
+value-added cost
+التكلفة المضيفة للقيمة
+coût à valeur ajoutée
+nonvalue-added cost
+التكلفة غير المضيفة للقيمة
+coût sans valeur ajoutée
+cross-functional team
+الفريق متعدد الوظائف
+équipe pluridisciplinaire
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 10 set out three pricing approaches and said that the sequence a well-run company follows is to establish what the market will pay, subtract the profit required, and manage the cost down to what is left. Chapter 11 explained why the market's price is not usually negotiable for a product with close substitutes. This chapter is that sequence, in full.
+12.1  Finding out what the customer values
+Before a target price can be set, somebody has to know what the customer is buying. The outcome names the techniques, and they divide into three families.
+Asking customers directly. Surveys, interviews and focus groups establish what features matter and what the product is compared with. Conjoint analysis is the formal version: customers choose between bundles of features at different prices, and the analysis infers what each feature is worth to them. It is the most reliable method and the most expensive.
+Watching what customers do. Test markets, trial pricing in one region, and analysis of how sales respond to past price changes — which is the elasticity of Chapter 11, estimated from the company's own history rather than assumed.
+Studying competitors and the alternatives. What rivals charge, what features they include, what a customer would do if neither product existed. Reverse engineering a competitor's product to establish what it must cost to make is standard practice in manufacturing and tells a company both what its rival's margin is and what is technically possible.
+For the squeeze bottle, the answer came from the third family and part of the second. Food-service buyers compare a bottle of tahini sauce with the cost of making the sauce themselves from bulk paste, and with two competing branded bottles at $6.50 and $6.60. A new entrant with no reputation must price below both, and the buyers interviewed were clear that $6.40 is the figure at which they would switch.
+That is the target price, and it is now a constraint rather than an outcome.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+conjoint analysis
+تحليل التفضيلات المركبة
+analyse conjointe
+test market
+السوق الاختبارية
+marché test
+reverse engineering
+الهندسة العكسية
+rétro-ingénierie
+perceived benefit
+المنفعة المدركة
+bénéfice perçu
+SECTION CHECK   Test yourself
+SC12-1  Conjoint analysis establishes:
+A.	what each feature of a product is worth to customers.
+B.	the company's full cost.
+C.	the competitor's cost.
+D.	the breakeven point.
+SC12-2  Reverse engineering a competitor's product tells a company:
+A.	what the rival's product must cost and what is technically possible.
+B.	the rival's selling price.
+C.	its own fixed costs.
+D.	the market elasticity.
+SC12-3  In target pricing, the market price is:
+A.	a constraint the company must work inside.
+B.	an outcome of the cost calculation.
+C.	set by the company's required return.
+D.	irrelevant.
+Answers and explanations are at the end of the chapter.
+12.2  Target pricing and target costing
+Target costing reverses the cost-plus sequence, and the outcome asks for the steps. There are five.
+Determine the target price. What the market will pay, from the techniques of section 12.1, for a product with the features customers want.
+Determine the target operating income a unit. What the company requires, usually derived from a return on the capital the product will employ, which section 12.3 computes.
+Subtract to find the target cost. Target price less target operating income is the cost the product must not exceed.
+Compare with the estimated cost of the product as designed. The difference is the cost gap.
+Close the gap before the product is launched, by value engineering, and by redesigning the product, the process and the supply chain until the estimated cost falls to the target.
+Two features of that sequence distinguish it from everything in Chapter 10.
+The cost is an output, not an input. In cost-plus the cost determines the price; here the price determines the cost that is permitted.
+It happens before production starts. By the time a product is in production, most of its cost has been committed by its design — the materials chosen, the number of parts, the tolerances, the process required. Estimates vary, and the usual figure quoted is that design locks in about eighty per cent of a product's lifetime cost while accounting for a small fraction of the spending. Target costing is therefore a design activity, and it is run by a cross-functional team of engineers, buyers, production staff, marketers and accountants, because no one of those functions can close a cost gap alone.
+Where the gap cannot be closed, the discipline requires the project to be abandoned. That is the hardest part of the method and the part that makes it work: a company that launches anyway has merely used an elaborate process to arrive at a price it could not afford.
+Figure F712-02 contrasts the two sequences.
+Figure F712-02. Cost-plus and target costing
+Step
+Cost-plus pricing
+Target costing
+Starts from
+The estimated cost
+The market price
+Then
+Adds a markup
+Subtracts the required profit
+Arrives at
+A price
+A permitted cost
+If the number is unacceptable
+The company hopes customers accept the price
+The company redesigns, or abandons the product
+When it happens
+After the product exists
+Before the design is fixed
+Who does it
+Accounting
+A cross-functional team
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+committed cost
+التكلفة الملتزم بها
+coût engagé
+design stage
+مرحلة التصميم
+phase de conception
+supply chain
+سلسلة التوريد
+chaîne d'approvisionnement
+abandonment
+إلغاء المشروع
+abandon du projet
+SECTION CHECK   Test yourself
+SC12-4  In target costing, the cost is:
+A.	an output, determined by the price and the required profit.
+B.	an input, to which a markup is added.
+C.	irrelevant.
+D.	set by the accounting system.
+SC12-5  Target costing is carried out:
+A.	before the design is fixed, by a cross-functional team.
+B.	after production has begun.
+C.	by the accounting department alone.
+D.	at the end of the product's life.
+SC12-6  If the cost gap cannot be closed, the discipline requires the company to:
+A.	abandon the product.
+B.	raise the price anyway.
+C.	lower the required profit to nil.
+D.	allocate less overhead to it.
+Answers and explanations are at the end of the chapter.
+12.3  The two target calculations
+The outcome asks for two figures, and the arithmetic is short.
+WORKED EXAMPLE   Worked example: the target cost of a squeeze bottle
+Step 1. The target price. $6.40 a bottle, from section 12.1.
+Step 2. The capital and the required return. The line would employ $3,000,000 of capital — the filling equipment, the inventory and the receivables — and the board requires 18 per cent on new product capital, a premium over the company's 9.04 per cent cost of capital that reflects the risk of a new line.
+Step 3. The target operating income. In total: 3,000,000 × 0.18 = 540,000 a year. A unit, on a forecast of 1,200,000 bottles: 540,000 ÷ 1,200,000 = 0.45 a bottle.
+Step 4. The target cost. 6.40 − 0.45 = 5.95 a bottle.
+Step 5. The cost gap. The engineers' first estimate is $6.70, so the gap is 6.70 − 5.95 = 0.75 a bottle, which on 1,200,000 bottles is 1,200,000 × 0.75 = 900,000 a year.
+Check. The $900,000 is the number that makes the method work. A gap stated as 75 cents a bottle sounds like a detail for the purchasing department; stated as $900,000 a year against a target profit of $540,000, it is plainly a question of whether the product should exist. Scaling a unit gap to the annual total is the first thing to do with it.
+Two refinements appear in harder questions.
+The target operating income may be given directly as a margin — "the company requires an operating margin of 8 per cent" — in which case the target income a unit is simply the price times that margin: 6.40 × 0.08 = 0.512.
+The target cost may be expressed over the product's life rather than a year, including the costs of design, launch, support and disposal. That is life-cycle costing, and it matters most where those costs are large relative to manufacturing — software, pharmaceuticals, aircraft.
+Figure F712-03 sets the calculation out as a template.
+Figure F712-03. The target-cost template
+Line
+Computation
+The squeeze bottle
+Target price
+What the market will pay
+6.40
+Capital employed
+Equipment, inventory, receivables
+3,000,000
+Required return
+Board's rate for new products
+18%
+Target operating income in total
+Capital times the rate
+540,000
+Forecast volume
+A year
+1,200,000 bottles
+Target operating income a unit
+Total over volume
+0.45
+Target cost a unit
+Price less target income
+5.95
+Estimated cost as designed
+From the engineers
+6.70
+Cost gap a unit
+Estimate less target
+0.75
+Cost gap a year
+Gap times volume
+900,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+required return on new products
+العائد المطلوب للمنتجات الجديدة
+taux exigé sur les nouveaux produits
+life-cycle costing
+تكلفة دورة الحياة
+coût du cycle de vie
+forecast volume
+الحجم المتوقع
+volume prévisionnel
+scaling to the annual total
+التحويل إلى الإجمالي السنوي
+mise à l'échelle annuelle
+SECTION CHECK   Test yourself
+SC12-7  Capital of 3,000,000 at an 18 per cent required return gives a target operating income of:
+A.	540,000 a year
+B.	54,000 a year
+C.	3,540,000 a year
+D.	166,667 a year
+SC12-8  Spread over 1,200,000 bottles, that target income a unit is:
+A.	0.45
+B.	4.50
+C.	0.045
+D.	2.22
+SC12-9  A target price of 6.40 with a target income of 0.45 a unit gives a target cost of:
+A.	5.95
+B.	6.85
+C.	6.40
+D.	0.45
+Answers and explanations are at the end of the chapter.
+12.4  Value engineering
+Value engineering is the systematic examination of a product and its production process to find ways of delivering the functions the customer values at a lower cost. The emphasis on function is what distinguishes it from cost cutting: the question is not "what can we remove" but "what does this part do, and is there a cheaper way of doing it".
+The method has four moves, and a question will usually need at least two of them.
+Simplify the design. Fewer parts, fewer fasteners, fewer operations, common components shared with other products, a tolerance relaxed where precision does nothing for the customer.
+Substitute materials or processes. A different polymer, a moulded part instead of an assembled one, a supplier's standard component instead of a bespoke one.
+Redesign the process. Fewer handling steps, a shorter route through the factory, a change in batch size, a machine moved.
+Work with suppliers. Open-book costing, joint design, longer contracts in exchange for lower prices, and moving a component's design to the supplier who makes it.
+WORKED EXAMPLE   Worked example: closing the 75-cent gap
+Step 1. The starting cost. $6.70 a bottle, made up of a nozzle at 0.80, the bottle at 1.10, the label at 0.20, filling labour at 0.60, the sauce itself at 3.00, and allocated overhead at 1.00.
+Step 2. The nozzle. The first design uses a bespoke three-part nozzle. The supplier's standard two-part nozzle does the same job: 0.80 − 0.55 = 0.25 saved.
+Step 3. The bottle and the label. A standard bottle in place of a custom shape saves 1.10 − 0.95 = 0.15, and printing the label directly on the bottle saves 0.20 − 0.12 = 0.08.
+Step 4. The process. Filling the standard bottle runs faster and needs no change of tooling between batches: 0.60 − 0.45 = 0.15 saved.
+Step 5. The overhead. Fewer parts and one less handling step reduce the activities that drive the overhead, taking the allocation from 1.00 to 0.88, a saving of 0.12.
+Step 6. The total. 0.25 + 0.15 + 0.08 + 0.15 = 0.63 from the first four, and with the overhead 0.63 + 0.12 = 0.75 — exactly the gap. The product can be made for $5.95 and should go ahead.
+Check. Note what was not done. The sauce itself, at $3.00, was left alone, because it is the thing the customer is buying: reducing the sesame content would close the gap faster and destroy the product. Value engineering protects the functions the customer values and attacks everything else, and an answer that proposes diluting the product has missed the whole idea.
+Figure F712-04 sets the analysis out.
+Figure F712-04. Closing the cost gap, component by component
+Component
+As designed
+After value engineering
+Saving
+How
+Nozzle
+0.80
+0.55
+0.25
+Supplier's standard two-part design
+Bottle
+1.10
+0.95
+0.15
+Standard shape in place of a custom mould
+Label
+0.20
+0.12
+0.08
+Printed directly on the bottle
+Filling labour
+0.60
+0.45
+0.15
+Faster run, no tooling change
+Sauce
+3.00
+3.00
+Nil
+Protected: it is what the customer buys
+Allocated overhead
+1.00
+0.88
+0.12
+Fewer parts, one less handling step
+Total
+6.70
+5.95
+0.75
+Gap closed
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+function analysis
+تحليل الوظائف
+analyse fonctionnelle
+standard component
+المكون القياسي
+composant standard
+tolerance
+حدود التفاوت
+tolérance
+open-book costing
+التكلفة المفتوحة
+coûts ouverts
+SECTION CHECK   Test yourself
+SC12-10  Value engineering asks:
+A.	what each part does, and whether there is a cheaper way of doing it.
+B.	what can be removed from the product.
+C.	how to allocate overhead differently.
+D.	how to raise the price.
+SC12-11  In closing a cost gap, the component that should normally be protected is:
+A.	the one the customer is actually buying.
+B.	the most expensive one.
+C.	the one with the longest lead time.
+D.	the allocated overhead.
+SC12-12  Savings of 0.25, 0.15, 0.08, 0.15 and 0.12 a unit close a gap of:
+A.	0.75
+B.	0.63
+C.	0.87
+D.	0.60
+Answers and explanations are at the end of the chapter.
+12.5  Value-added and nonvalue-added costs
+The last outcome of this chapter supplies the vocabulary that value engineering uses to decide where to look.
+A value-added cost is one the customer would be willing to pay for if they understood what it was: the sesame in the sauce, the filling of the bottle, the moulding of the nozzle, the design that makes the bottle easy to pour. Remove it and the product is worth less.
+A nonvalue-added cost is one that adds nothing the customer values: moving material between stores, waiting between operations, inspecting work that should have been right, reworking what was wrong, counting inventory, expediting a late order, storing finished goods nobody has ordered.
+The test is the customer's willingness, not the company's necessity. Some nonvalue-added activities are unavoidable — a company must count its inventory and inspect its output — and calling them nonvalue-added is not a criticism of the people who do them. It is a statement about where the cost ought to be attacked first, because reducing a nonvalue-added cost takes nothing away from the product.
+The classic framework applies five categories to manufacturing time, and the exam uses it.
+Processing time adds value. Inspection, moving, waiting and storing do not. The ratio of processing time to total time is the manufacturing cycle efficiency, and in most factories it is startlingly low — a part that takes four hours to process may spend three weeks in the building.
+Figure F712-05 applies the idea to the squeeze bottle.
+Figure F712-05. Where the cost of a bottle goes
+Activity
+Value-added?
+Why
+Mixing and cooking the sauce
+Yes
+It is the product
+Moulding the nozzle
+Yes
+A function the customer uses
+Filling and capping
+Yes
+Necessary to deliver the product
+Moving pallets between the filling hall and the warehouse
+No
+The customer pays nothing for distance
+Waiting for a tooling change
+No
+Pure delay
+Inspecting for leaks
+No, though necessary
+The customer pays for bottles that do not leak, not for the checking
+Reworking leaking bottles
+No
+The cost of doing it wrong once
+Storing finished goods for eleven weeks
+No
+Chapter 17 of Book 2 priced this
+Three uses of the distinction close the chapter.
+It directs the cost gap work. Attack the nonvalue-added costs first, because they can be removed without touching the product.
+It supports the just-in-time argument of Book 2's Chapter 17 with a cost language: a buffer of work in progress is storage, moving and waiting, all nonvalue-added.
+And it is a reporting idea as well as a design one. A cost report that splits each department's spending into value-added and nonvalue-added activity tells a manager something no conventional variance report does, which is why it belongs in the same examination as the performance measures of Part 1.
+YOUR TURN   Set a target and close a gap
+Figure F712-06 gives a new product. Complete the blanks. Answers are at the end of the chapter.
+Figure F712-06. Your turn: target costing (complete the blanks)
+Item
+Data
+Answer
+Target operating income in total
+Capital 5,000,000, required return 16 per cent
+________
+Target operating income a unit
+Volume 800,000 units
+________
+Target cost a unit
+Target price 14.00
+________
+Cost gap a unit
+Estimated cost 14.60
+________
+Cost gap a year
+________
+Gap after savings of 0.35, 0.18 and 0.12 a unit
+________
+Which of these is value-added: mixing, inspecting, moving to the warehouse?
+________
+LANGUAGE FOCUS   "Target"
+English target in this chapter is a constraint rather than an aspiration, and that is the opposite of its everyday sense. A sales target is something to aim at and perhaps miss; a target cost is a ceiling the product must come in under or not be made at all. The same word does both jobs in the same syllabus, and the difference is the whole discipline of the method. Arabic مستهدف carries the aspirational sense most naturally, and the constraint sense has to be read from the context. French cible is used for both — prix cible, coût cible — with the same ambiguity, and French practice adds à ne pas dépasser when the constraint is meant. In an answer, say which it is: "a target cost of $5.95, which the design must not exceed".
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+manufacturing cycle efficiency
+كفاءة دورة التصنيع
+efficience du cycle de production
+rework
+إعادة التشغيل
+reprise
+expediting
+التعجيل
+traitement en urgence
+unavoidable but nonvalue-added
+ضروري وغير مضيف للقيمة
+nécessaire sans valeur ajoutée
+SECTION CHECK   Test yourself
+SC12-13  A nonvalue-added cost is one that:
+A.	the customer would not willingly pay for.
+B.	is avoidable.
+C.	is small.
+D.	is indirect.
+SC12-14  Inspecting for defects is:
+A.	nonvalue-added, although it may be necessary.
+B.	value-added, because quality matters.
+C.	not a cost.
+D.	value-added only in manufacturing.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F712-07 brings the chapter together.
+Figure F712-07. Chapter 12 summary map: the key rule for each section.
+What a customer values is established by asking them, by watching what they do, and by studying competitors and alternatives — which for the squeeze bottle gives a target price of $6.40 set by two rival bottles and the option of making the sauce in house. Target costing then reverses the cost-plus sequence in five steps: the price, the required profit, the permitted cost, the gap, and the work of closing it before the design is fixed, by a cross-functional team, with abandonment as the honest answer where the gap will not close. The two calculations are short: 3,000,000 × 0.18 = 540,000 of required profit is 540,000 ÷ 1,200,000 = 0.45 a bottle, so the target cost is 6.40 − 0.45 = 5.95 against an estimate of 6.70 — a gap of 0.75 a bottle and 1,200,000 × 0.75 = 900,000 a year. Value engineering closes it by simplifying the design, substituting materials, redesigning the process and working with suppliers, and here five changes worth 0.25 + 0.15 + 0.08 + 0.15 = 0.63 plus an overhead saving of 0.12 close it exactly — while the $3.00 of sauce is protected, because it is what the customer is buying. And the search is directed by the distinction between value-added costs, which the customer would pay for, and nonvalue-added costs such as moving, waiting, inspecting, reworking and storing, which can be removed without taking anything away from the product.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P12-01  Target costing starts from:
+A.	the price the market will pay.
+B.	the estimated cost.
+C.	the company's markup.
+D.	the absorption rate.
+P12-02  The target cost equals:
+A.	the target price less the target operating income.
+B.	the target price plus the markup.
+C.	the estimated cost less the gap.
+D.	the full cost.
+P12-03  Capital of 5,000,000 at a 16 per cent required return gives a target operating income of:
+A.	800,000
+B.	80,000
+C.	312,500
+D.	5,800,000
+P12-04  Over 800,000 units, that target income a unit is:
+A.	1.00
+B.	0.10
+C.	10.00
+D.	0.80
+P12-05  A target price of 14.00 with a target income of 1.00 a unit gives a target cost of:
+A.	13.00
+B.	15.00
+C.	14.00
+D.	1.00
+P12-06  An estimated cost of 14.60 against that target gives a gap a unit of:
+A.	1.60
+B.	0.60
+C.	1.00
+D.	2.60
+P12-07  Most of a product's cost is committed:
+A.	at the design stage.
+B.	during production.
+C.	at the point of sale.
+D.	after launch.
+P12-08  Value engineering asks:
+A.	what function each part performs and whether it can be performed more cheaply.
+B.	which features can be deleted.
+C.	how overhead should be allocated.
+D.	what price to charge.
+P12-09  Which is a nonvalue-added activity?
+A.	Moving pallets between the filling hall and the warehouse
+B.	Mixing the sauce
+C.	Moulding the nozzle
+D.	Filling the bottle
+P12-10  If a cost gap cannot be closed, the discipline of target costing requires:
+A.	the product to be abandoned.
+B.	the price to be raised.
+C.	the required return to be waived.
+D.	more overhead to be allocated elsewhere.
+Case-style practice: the bottle, two years later
+The squeeze bottle launched at $6.40 with a cost of $5.95 and sold 1,200,000 units in its first year. In year two, a competitor launches at $5.95, and Orontes's buyers say they will not pay more than $6.00. The current cost is $5.95, of which $3.00 is sauce, $0.88 allocated overhead and the rest components and labour. The board still requires 18 per cent on the $3,000,000 employed, and volume would hold at 1,200,000 at the lower price.
+Required. Compute the new target cost and the new gap. Say what you would do, naming two places you would look and one you would not. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC12-1  Answer A. It infers the value of each feature from choices between bundles.
+B is wrong. Cost is an internal matter.
+C is wrong. Reverse engineering estimates a rival's cost.
+D is wrong. Breakeven is a cost-volume relationship.
+SC12-2  Answer A. Taking the product apart shows what it must cost and what can be done.
+B is wrong. The price is on the shelf.
+C is wrong. Own fixed costs come from the records.
+D is wrong. Elasticity comes from price and volume data.
+SC12-3  Answer A. The price is given and the cost must fit inside it.
+B is wrong. That is cost-plus.
+C is wrong. The required return sets the profit, not the price.
+D is wrong. It is the starting point of the method.
+SC12-4  Answer A. The permitted cost falls out of the price and the profit.
+B is wrong. That is cost-plus.
+C is wrong. The cost is the whole object of the exercise.
+D is wrong. The system records cost; the market sets the limit.
+SC12-5  Answer A. Before the design is fixed, across functions.
+B is wrong. By then the cost is committed.
+C is wrong. Accounting alone cannot redesign a product.
+D is wrong. The end of life is too late.
+SC12-6  Answer A. Abandonment is the honest answer.
+B is wrong. The market will not pay more.
+C is wrong. Waiving the return destroys the purpose.
+D is wrong. Moving an allocation changes nothing real.
+SC12-7  Answer A. 3,000,000 × 0.18 = 540,000.
+B is wrong. This misplaces the decimal.
+C is wrong. This adds instead of multiplying.
+D is wrong. This divides by 18.
+SC12-8  Answer A. 540,000 ÷ 1,200,000 = 0.45.
+B is wrong. This misplaces the decimal.
+C is wrong. The same objection applies the other way.
+D is wrong. This inverts the division.
+SC12-9  Answer A. 6.40 − 0.45 = 5.95.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the price.
+D is wrong. That is the target income.
+SC12-10  Answer A. Function first, cost second.
+B is wrong. Removing features is cost cutting, not value engineering.
+C is wrong. Allocation changes nothing real.
+D is wrong. The price is fixed by the market in this method.
+SC12-11  Answer A. The thing the customer is buying must survive.
+B is wrong. Expense alone is not the test.
+C is wrong. Lead time is a supply question.
+D is wrong. Overhead is a prime target, not a protected one.
+SC12-12  Answer A. 0.25 + 0.15 + 0.08 + 0.15 = 0.63, and 0.63 + 0.12 = 0.75.
+B is wrong. That omits the overhead saving.
+C is wrong. This has no basis in the figures.
+D is wrong. This omits two items.
+SC12-13  Answer A. The customer's willingness is the test.
+B is wrong. Many nonvalue-added activities are unavoidable.
+C is wrong. Size is irrelevant.
+D is wrong. Directness is a different classification.
+SC12-14  Answer A. Necessary, and the customer pays for good bottles rather than for checking.
+B is wrong. Quality is value-added; inspecting for it is not.
+C is wrong. It is certainly a cost.
+D is wrong. The classification applies everywhere.
+Your turn
+Item
+Answer
+Target operating income in total
+800,000: 5,000,000 × 0.16 = 800,000.
+Target operating income a unit
+1.00: 800,000 ÷ 800,000 = 1.00.
+Target cost a unit
+13.00: 14.00 − 1.00 = 13.00.
+Cost gap a unit
+1.60: 14.60 − 13.00 = 1.60.
+Cost gap a year
+1,280,000: 800,000 × 1.60 = 1,280,000.
+Gap after savings of 0.35, 0.18 and 0.12
+0.95 remaining: the savings are 0.35 + 0.18 + 0.12 = 0.65, against a gap of 1.60.
+Which is value-added
+Mixing only. Inspecting and moving to the warehouse are nonvalue-added, though both may be necessary.
+What it tells you
+Two-thirds of the gap is still open after three good ideas, and a gap of 0.95 a unit on a target cost of 13.00 is more than seven per cent of the whole cost. Either a fourth and fifth idea are found, or the product does not go ahead.
+Multiple-choice questions
+P12-01  Answer A. The market price is the starting point.
+B is wrong. That is cost-plus.
+C is wrong. The markup belongs to cost-plus.
+D is wrong. The absorption rate is an accounting device.
+P12-02  Answer A. Price less required profit.
+B is wrong. That is cost-plus in reverse.
+C is wrong. The gap is the difference from the estimate, not the definition.
+D is wrong. Full cost is what the estimate measures.
+P12-03  Answer A. 5,000,000 × 0.16 = 800,000.
+B is wrong. This misplaces the decimal.
+C is wrong. This divides instead of multiplying.
+D is wrong. This adds the return to the capital.
+P12-04  Answer A. 800,000 ÷ 800,000 = 1.00.
+B is wrong. This misplaces the decimal.
+C is wrong. The same objection applies.
+D is wrong. This has no basis in the figures.
+P12-05  Answer A. 14.00 − 1.00 = 13.00.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the price.
+D is wrong. That is the target income.
+P12-06  Answer A. 14.60 − 13.00 = 1.60.
+B is wrong. This has no basis in the figures.
+C is wrong. That is the target income.
+D is wrong. This adds instead of subtracting.
+P12-07  Answer A. Design commits most of the cost.
+B is wrong. Production spends what design committed.
+C is wrong. The sale is downstream of both.
+D is wrong. After launch the cost is locked in.
+P12-08  Answer A. Function first.
+B is wrong. Deleting features is not the method.
+C is wrong. Allocation is not value engineering.
+D is wrong. Price is set by the market here.
+P12-09  Answer A. Moving adds nothing the customer pays for.
+B is wrong. Mixing is the product.
+C is wrong. The nozzle is a function used.
+D is wrong. Filling delivers the product.
+P12-10  Answer A. Abandonment is the discipline.
+B is wrong. The market will not pay more.
+C is wrong. Waiving the return defeats the method.
+D is wrong. Moving an allocation changes nothing real.
+Case-style set: the bottle, two years later
+The new target. The market price is now $6.00. The required profit is unchanged at 3,000,000 × 0.18 = 540,000, which over 1,200,000 bottles is 0.45 a unit, so the target cost becomes 6.00 − 0.45 = 5.55. The current cost is $5.95, so the new gap is 5.95 − 5.55 = 0.40 a bottle, or 1,200,000 × 0.40 = 480,000 a year.
+Two places I would look. First, the allocated overhead of $0.88. The first round of value engineering took it from 1.00 to 0.88 by removing parts and a handling step; the activities behind it should now be examined directly, because an allocation that falls when parts are removed is an allocation driven by real activity and therefore reducible again. Second, the supply contracts. The bottle and nozzle are now standard components bought in volume for two years, and a longer contract or a second supplier qualified against the first is the ordinary way to take another five or ten cents out of a component bought 1,200,000 times a year.
+The place I would not look is the sauce. It is $3.00 of the $5.95, it is the largest single component, and it is the product. Reducing the sesame content to close a 40-cent gap would turn a branded sauce into a cheaper one and hand the competitor the argument it needs.
+What I would also put to the board. The competitor is at $5.95 and our target cost is now $5.55, which means they are either making it for less than we can or accepting a thinner return. Before spending on another round of value engineering, I would reverse engineer their bottle — which is what section 12.1 is for — and find out which of the two it is.

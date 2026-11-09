@@ -1,0 +1,565 @@
+Chapter 10
+Cost-based and market-based pricing
+التسعير على أساس التكلفة والتسعير على أساس السوق
+Every chapter so far has taken the price as given. Chapter 1 priced a jar at $12.00, Chapter 7 asked whether to accept $8.50 for a special order, and Book 1 found that Orontes had been giving away two points of gross margin a year. None of them asked where the $12.00 came from.
+It came from one of two places, and the difference between them is the subject of this chapter. A cost-based price starts inside the company, adds a margin to a cost and arrives at a number. A market-based price starts outside, with what customers will pay and what competitors charge, and works back to what the product must cost. Most companies use both, and the exam tests whether a candidate knows which question each answers.
+Figure F710-01 is your map.
+Figure F710-01. Chapter 10 roadmap: pricing from the inside out, and from the outside in.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.3.a
+Identify pricing methodologies: market comparables, cost-based and value-based.
+C
+Full treatment
+C.3.b
+Distinguish a cost-based from a market-based approach to setting prices.
+C
+Full treatment
+C.3.c
+Calculate a selling price using a cost-based approach.
+C
+Full treatment
+C.3.l
+Define cost plus target rate of return pricing.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cost-based pricing
+التسعير على أساس التكلفة
+prix de revient majoré
+market-based pricing
+التسعير على أساس السوق
+prix de marché
+value-based pricing
+التسعير على أساس القيمة
+tarification à la valeur
+market comparables
+المقارنات السوقية
+comparables de marché
+markup
+هامش الإضافة
+taux de marque
+cost base
+قاعدة التكلفة
+base de coût
+target rate of return
+معدل العائد المستهدف
+taux de rendement cible
+price taker
+متلقي السعر
+preneur de prix
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 computed Orontes's average total cost at $10.81 a jar and its marginal cost at $7.20. Chapter 1 recorded a price of $12.00 and a contribution margin of $4.80. Book 2 put the company's cost of capital at 9.04 per cent and its average assets at $29,058,800. All four appear in this chapter's formulas.
+10.1  Three approaches
+The outcome names three methodologies and the exam expects them distinguished.
+Cost-based pricing starts from a cost and adds a margin. Its merits are that it is simple, it can be applied to thousands of products without market research, it covers costs by construction, and it is defensible to a customer who asks how the price was reached — which is why it is standard for government contracts and for professional fees. Its defect is that it ignores the customer: it answers the question "what do we need" rather than "what will they pay".
+Market-based pricing starts from the market. Market comparables set the price at or around what similar products fetch, which is the method for commodities, for retail lines facing a shelf of rivals, and for anything whose price is effectively quoted. The company then has to make the product for less than that price, which is the target costing of Chapter 12.
+Value-based pricing starts from the customer's perception of what the product is worth to them. It is the hardest to do and the most profitable where it works: a product that saves a customer $100,000 a year can be priced at far more than it costs to make, and at far more than a comparable product with a weaker claim. It requires knowing the customer's economics, which is why it is common in industrial sales and rare in grocery.
+Figure F710-02 sets the three against each other.
+Figure F710-02. Three ways to arrive at a price
+Approach
+Starts from
+Asks
+Best suited to
+Main defect
+Cost-based
+The company's cost
+What do we need to earn?
+Many products, contracts, regulated work
+Ignores what the customer will pay
+Market comparables
+Competitors' prices
+What do others charge?
+Commodities, crowded shelves
+Ignores the company's own cost position
+Value-based
+The customer's benefit
+What is it worth to them?
+Industrial products with measurable benefit
+Hard to measure; needs customer knowledge
+In practice the three are used together, and the standard sequence in a well-run company is: establish what the market will pay, subtract the profit required, and manage the cost down to what is left. That sentence is target costing, and Chapter 12 develops it. The rest of this chapter is about the cost-based route, because it is the one the exam asks to be calculated.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+methodology
+المنهجية
+méthode
+regulated price
+السعر المنظم
+prix réglementé
+perceived value
+القيمة المدركة
+valeur perçue
+industrial sale
+البيع الصناعي
+vente industrielle
+SECTION CHECK   Test yourself
+SC10-1  Cost-based pricing starts from:
+A.	the company's own cost, and adds a margin.
+B.	the customer's perception of value.
+C.	competitors' prices.
+D.	the market share target.
+SC10-2  The principal defect of cost-based pricing is that it:
+A.	ignores what the customer will pay.
+B.	fails to cover costs.
+C.	cannot be computed.
+D.	is unlawful.
+SC10-3  Value-based pricing is most common in:
+A.	industrial sales where the customer's benefit can be measured.
+B.	grocery retail.
+C.	commodity trading.
+D.	regulated utilities.
+Answers and explanations are at the end of the chapter.
+10.2  Pricing from a cost
+A cost-based price has two components: a cost base, and a markup applied to it. The exam's questions turn on which cost base is being used, because the same price can be expressed as very different markups.
+Four cost bases are used, each with its own markup.
+Variable manufacturing cost. The markup must cover fixed manufacturing costs, all selling and administrative costs, and the profit. It is the largest markup and the most flexible base, because it makes the contribution visible.
+Total variable cost, including variable selling costs. The markup covers all fixed costs and the profit.
+Full manufacturing cost, often called absorption cost. The markup covers selling and administrative costs and the profit. This is the commonest base in practice because the figure is already in the inventory records.
+Full cost including selling and administration. The markup covers profit alone.
+WORKED EXAMPLE   Worked example: four routes to the same $12.00
+Step 1. The figures. Orontes's variable cost is $7.20 a jar, its fixed costs are $12,624,000 over 3,500,000 jars, which is 12,624,000 ÷ 3,500,000 = 3.61 a jar, and its full cost is 7.20 + 3.61 = 10.81.
+Step 2. On the variable cost. To reach $12.00 the markup must be 12.00 − 7.20 = 4.80 over a base of 7.20, which is 4.80 ÷ 7.20 = 66.67 per cent.
+Step 3. On the full cost. The markup is 12.00 − 10.81 = 1.19 over 10.81, which is 1.19 ÷ 10.81 = 11.01 per cent.
+Step 4. Read the two together. The same price is a 67 per cent markup on one base and an 11 per cent markup on another. A markup percentage means nothing until the base is stated, and a question that gives a markup without a base cannot be answered.
+Check. Note which base is riskier. The full-cost markup of 11 per cent is computed on a fixed cost per unit of $3.61 that depends on selling 3,500,000 jars. If volume falls to 3,000,000, the fixed cost per unit becomes 12,624,000 ÷ 3,000,000 = 4.21, the full cost becomes 7.20 + 4.21 = 11.41, and the same 11 per cent markup gives a price of $12.67. The company would be raising its price because demand fell, which is the circular trap built into full-cost pricing and the first thing to say about it in an exam.
+Figure F710-03 sets the bases out.
+Figure F710-03. Four cost bases for the same $12.00 price
+Cost base
+Amount a jar
+Markup needed
+What the markup must cover
+Variable manufacturing cost
+7.20
+66.67%
+Fixed manufacturing, all selling and administration, profit
+Full manufacturing cost
+About 10.20
+About 17.6%
+Selling and administration, profit
+Full cost
+10.81
+11.01%
+Profit only
+Marginal cost, for a special order
+7.20
+Any positive amount
+Nothing; it is a floor, not a price
+One more conversion appears constantly and is worth automating. A markup is a percentage of cost; a margin is a percentage of price. Orontes's gross margin of 35 per cent corresponds to a markup of 0.35 ÷ 0.65 = 53.85 per cent on cost, and a markup of 66.67 per cent on variable cost corresponds to a contribution margin of 40 per cent on price. Confusing the two is the single commonest arithmetic error in pricing questions.
+EXAM TRAP   Markup against margin
+A markup is on cost and a margin is on price. A 50 per cent markup is a 33.3 per cent margin; a 50 per cent margin is a 100 per cent markup.
+A full-cost price depends on an assumed volume. Say which volume, and note that the price rises as volume falls — which is the opposite of what a market would do.
+A cost-plus price is a starting point for negotiation and a check that costs are covered. It is not evidence that customers will pay it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+absorption cost
+التكلفة المستوعبة
+coût de revient complet
+assumed volume
+الحجم المفترض
+volume de référence
+circularity
+الدورية
+circularité
+conversion
+التحويل
+conversion
+SECTION CHECK   Test yourself
+SC10-4  A markup of 66.67 per cent on a variable cost of 7.20 gives a price of:
+A.	12.00
+B.	4.80
+C.	10.81
+D.	7.20
+SC10-5  A 35 per cent margin on price corresponds to a markup on cost of:
+A.	53.85 per cent
+B.	35.0 per cent
+C.	65.0 per cent
+D.	26.0 per cent
+SC10-6  Full-cost pricing is circular because:
+A.	the unit cost depends on the volume, which depends on the price.
+B.	the markup is applied twice.
+C.	variable costs are excluded.
+D.	the margin is on price.
+Answers and explanations are at the end of the chapter.
+10.3  Cost plus a target rate of return
+The fourth outcome of this chapter names a particular version of cost-based pricing, and it is the one that connects pricing to Book 2.
+Cost plus target rate of return sets the markup so that the company earns a stated return on the capital the product employs. Instead of asking what margin feels right, it asks what profit the investors require and spreads that profit over the units.
+WORKED EXAMPLE   Worked example: pricing for a 15 per cent return
+Step 1. The capital employed. Orontes's average total assets are $29,058,800.
+Step 2. The required profit. At a target return of 15 per cent: 29,058,800 × 0.15 = 4,358,820.
+Step 3. The profit a unit. Over 3,500,000 jars: 4,358,820 ÷ 3,500,000 = 1.25 a jar.
+Step 4. The price. Full cost plus that profit: 10.81 + 1.25 = 12.06.
+Check. The method has one powerful merit and two serious weaknesses, and the exam wants all three. The merit is that it ties the price to the return the providers of capital require, which Book 2's Chapter 8 put at a weighted average cost of capital of 9.04 per cent — so a target of 15 per cent is a deliberate premium over the cost of capital, and the difference is the value the company intends to create.
+The first weakness is the same circularity as before, and worse: the price depends on the volume, and now also on the capital employed, which itself depends on the volume through inventory and receivables.
+The second is that it says nothing about whether anyone will pay $12.06. A target return is an input to the pricing decision and never a justification of it.
+Where the method is genuinely used is in regulated industries — a utility allowed to earn a stated return on its asset base — and in long-term contracts where a customer accepts a cost-plus basis and negotiates the rate of return rather than the price. In both cases the customer agrees to the mechanism in advance, which is precisely what makes it work.
+Figure F710-04 compares the two cost-plus methods.
+Figure F710-04. Markup pricing and target-return pricing
+Markup on cost
+Cost plus target rate of return
+The markup is set by
+Convention, or what the trade bears
+The return required on capital employed
+Needs an estimate of
+Volume
+Volume and capital employed
+Price on Orontes's figures
+12.00 at an 11.01% markup on full cost
+12.06 at a 15% return on assets
+Used in
+General practice
+Regulated industries, cost-plus contracts
+Weakness
+The markup has no economic basis
+Circular, and still ignores demand
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+capital employed
+رأس المال المستخدم
+capitaux engagés
+required profit
+الربح المطلوب
+profit exigé
+regulated industry
+القطاع المنظم
+secteur réglementé
+cost-plus contract
+عقد التكلفة زائد هامش
+marché en régie
+SECTION CHECK   Test yourself
+SC10-7  Cost plus target rate of return sets the markup so that:
+A.	the company earns a stated return on the capital employed.
+B.	the gross margin matches the industry.
+C.	the price matches competitors.
+D.	variable costs are covered.
+SC10-8  Assets of 29,058,800 and a 15 per cent target give a required profit of:
+A.	4,358,820
+B.	2,905,880
+C.	1,937,253
+D.	435,882
+SC10-9  Spread over 3,500,000 jars, that profit adds to the price:
+A.	1.25 a jar
+B.	12.45 a jar
+C.	0.12 a jar
+D.	4.80 a jar
+Answers and explanations are at the end of the chapter.
+10.4  Pricing from the market
+Market-based pricing reverses the arithmetic. The price is given by what comparable products fetch, and the company's task is to be able to make the product for less.
+Three sources of a market price appear in questions.
+Comparable products. What similar goods sell for, adjusted for differences in size, quality, brand and service. This is the retail case and the commodity case.
+The competitor's price directly. In a market with few sellers, each watches the others, and a price change by one is answered by the rest. Chapter 11 calls this oligopoly and explains why prices there are often sticky.
+The customer's alternative. In an industrial sale, the price ceiling is what the customer would pay for the next best way of solving the same problem — which may be a competitor's product, doing it themselves, or doing nothing.
+For Orontes, the market price is close to given. Tahini sits on a shelf beside other tahini; the customer compares jars; and Book 1's finding that the gross margin fell from 37.0 to 35.0 per cent while sales grew is exactly what a market-priced product looks like when a company buys share.
+The analytical question in a market-priced business is therefore not what to charge but whether to be in the market at the price it offers, and that question is answered with the tools of Chapters 1 to 9: at $11.50 a jar Orontes's contribution would be 11.50 − 7.20 = 4.30, its breakeven would rise to 12,624,000 ÷ 4.30 = 2,935,814 jars, and its margin of safety would fall from 24.86 per cent to about 16 per cent. Whether to accept the market's price is a cost-structure question, and whether to try to change it is the subject of the next three chapters.
+Figure F710-05 summarises when each approach governs.
+Figure F710-05. Who sets the price?
+Situation
+Who sets the price
+What the company controls
+The relevant chapter
+Commodity, many sellers
+The market entirely
+Cost and volume
+Chapters 1 to 9
+Few sellers, differentiated products
+The company, within limits
+Price and position
+Chapters 11 and 13
+A unique or protected product
+The company
+Price, subject to demand
+Chapters 11 and 12
+A regulated monopoly
+The regulator
+Cost, and the asset base
+This chapter, section 10.3
+EXAM TRAP   A price floor is not a price
+The relevant cost of Chapter 6 is a floor below which an order should be refused. The full cost of this chapter is a long-run floor below which the business cannot survive. Neither is a price, and the gap between the floor and what the customer will pay is where the profit is.
+In a market-priced business, cost-plus produces a price nobody will pay, and the right use of the cost figure is to decide whether to be in the market at all.
+A price change by one seller in a concentrated market will be answered. Any calculation that assumes competitors do nothing should say so.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+price ceiling
+سقف السعر
+prix plafond
+price floor
+أرضية السعر
+prix plancher
+sticky price
+السعر الجامد
+prix rigide
+next best alternative
+البديل الأفضل التالي
+meilleure solution de remplacement
+SECTION CHECK   Test yourself
+SC10-10  In a commodity market with many sellers, the price is set by:
+A.	the market, and the company controls only its cost and volume.
+B.	the company's full cost.
+C.	the largest seller's markup.
+D.	the regulator.
+SC10-11  At a market price of 11.50 with variable costs of 7.20 and fixed costs of 12,624,000, the breakeven is:
+A.	2,935,814 jars
+B.	2,630,000 jars
+C.	1,097,739 jars
+D.	3,500,000 jars
+SC10-12  In an industrial sale, the price ceiling is:
+A.	what the customer would pay for the next best solution.
+B.	the company's full cost plus a markup.
+C.	the competitor's cost.
+D.	the regulated rate.
+Answers and explanations are at the end of the chapter.
+10.5  Choosing and defending a price
+Four questions settle a pricing decision, and an exam answer that works through them in order will be a good one.
+What does the product cost, on two bases? The relevant cost, as a floor for a one-off, and the full cost, as the long-run floor. Orontes's are $7.20 and $10.81.
+What will the market bear? From comparables, from the competitor's price, or from the customer's alternative. For Orontes this is around $12.00, and Book 1 shows what happened when the company tested below it.
+What return does the company require? The target-return method of section 10.3 converts the cost of capital into a price, which for Orontes is $12.06 at a 15 per cent target.
+What will the competitors and the customers do? A price is a move in a game with other players, which is Chapter 11's subject and the reason a static calculation is never the whole answer.
+Three further considerations belong in any serious pricing answer.
+Price consistency across customers and channels. A special order at $8.50, a supermarket at $9.40 and a shelf price of $12.00 can coexist only while the three markets stay separate, and Chapter 7 priced the risk that they do not.
+The legal position. Pricing below cost to drive out a competitor, agreeing prices with rivals and discriminating between customers without justification are all restricted in most jurisdictions, and Chapter 11 names the cartel case specifically.
+The signal a price sends. A low price says cheap as well as inexpensive, and a price cut in a branded market is read as a statement about quality as well as about cost — which is a further reason Book 1's two points of margin were expensive.
+YOUR TURN   Price a product four ways
+Figure F710-06 gives a product's costs. Complete the blanks. Answers are at the end of the chapter.
+Figure F710-06. Your turn: cost-based prices (complete the blanks)
+Item
+Data
+Answer
+Full cost a unit
+Variable 18.00, fixed costs 2,400,000 over 200,000 units
+________
+Price at a 25 per cent markup on full cost
+________
+Markup on variable cost needed to reach that price
+________
+Margin on price at that price
+________
+Required profit at a 12 per cent return on 9,000,000 of capital
+________
+Price under cost plus target rate of return
+________
+LANGUAGE FOCUS   "Markup"
+English markup is a percentage added to a cost, and margin is a percentage of a price, and the two are related but never equal — a point this chapter makes arithmetically and language makes harder. In retail speech markup is often used loosely for both, and a shopkeeper who says "I work on fifty per cent" may mean either. Arabic هامش الإضافة names the markup and هامش الربح the margin, keeping the two apart by the qualifier. French is the clearest: taux de marque is the margin on the selling price and taux de marge is the markup on cost, and French practice is to state which is meant every time. An exam answer should do the same, in any language: write the base beside the percentage.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+price consistency
+اتساق الأسعار
+cohérence tarifaire
+channel
+قناة التوزيع
+canal de distribution
+predatory pricing
+التسعير الافتراسي
+prix prédateurs
+price signal
+إشارة السعر
+signal-prix
+SECTION CHECK   Test yourself
+SC10-13  A relevant-cost floor and a full-cost floor differ because:
+A.	the first serves a one-off decision and the second the long run.
+B.	the first includes fixed costs.
+C.	the second excludes variable costs.
+D.	they are the same figure.
+SC10-14  Different prices to different customers can coexist only while:
+A.	the markets stay separate.
+B.	the products differ.
+C.	costs are unknown.
+D.	the markup is constant.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F710-07 brings the chapter together.
+Figure F710-07. Chapter 10 summary map: the key rule for each section.
+Three methodologies set a price: cost-based, which starts inside and ignores the customer; market comparables, which start outside and ignore the company's costs; and value-based, which starts from what the product is worth to the buyer and is the most profitable where the benefit can be measured. A cost-based price is a base plus a markup, and the markup means nothing without its base: Orontes's $12.00 is 4.80 ÷ 7.20 = 66.67 per cent on variable cost and 1.19 ÷ 10.81 = 11.01 per cent on full cost — and full-cost pricing is circular, because a fall in volume to 3,000,000 jars raises the unit cost to 7.20 + 4.21 = 11.41 and the price with it. A markup is on cost and a margin is on price: 35 per cent of price is 0.35 ÷ 0.65 = 53.85 per cent on cost. Cost plus target rate of return sets the markup from the capital employed: 29,058,800 × 0.15 = 4,358,820 of required profit is 4,358,820 ÷ 3,500,000 = 1.25 a jar and a price of 10.81 + 1.25 = 12.06, which suits regulated industries and cost-plus contracts and still says nothing about demand. In a market-priced business the price is given and the question is whether to be in the market at it. And a defensible price answers four questions — the two floors, what the market bears, the return required, and what the other players will do.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P10-01  Cost-based pricing starts from:
+A.	a cost, to which a markup is added.
+B.	the customer's willingness to pay.
+C.	the competitor's price.
+D.	the regulator's allowance.
+P10-02  Value-based pricing starts from:
+A.	the benefit the product gives the customer.
+B.	the company's full cost.
+C.	the variable cost.
+D.	the market share target.
+P10-03  Variable cost 18.00, fixed costs 2,400,000 over 200,000 units. Full cost a unit is:
+A.	30.00
+B.	18.00
+C.	12.00
+D.	2,418,000
+P10-04  A 25 per cent markup on a full cost of 30.00 gives a price of:
+A.	37.50
+B.	40.00
+C.	22.50
+D.	24.00
+P10-05  A margin of 35 per cent on price equals a markup on cost of:
+A.	53.85 per cent
+B.	35.00 per cent
+C.	65.00 per cent
+D.	46.15 per cent
+P10-06  Full-cost pricing is circular because:
+A.	the unit cost depends on volume, which depends on price.
+B.	the markup is doubled.
+C.	fixed costs are excluded.
+D.	it uses the market price.
+P10-07  Capital of 9,000,000 at a 12 per cent target return requires profit of:
+A.	1,080,000
+B.	750,000
+C.	108,000
+D.	10,800,000
+P10-08  Cost plus target rate of return is most used in:
+A.	regulated industries and cost-plus contracts.
+B.	commodity markets.
+C.	luxury goods.
+D.	special orders.
+P10-09  In a commodity market, the company controls:
+A.	its costs and its volume, not the price.
+B.	the price.
+C.	the regulator.
+D.	the comparables.
+P10-10  A relevant-cost floor is appropriate for:
+A.	a one-off order, not for regular pricing.
+B.	all pricing decisions.
+C.	regulated pricing.
+D.	long-run pricing.
+Case-style practice: a price for a new line
+Orontes plans a premium tahini in a 500 gram jar. Its variable cost would be $5.60 a jar, it would need $900,000 a year of new fixed costs, and the volume forecast is 600,000 jars a year. The capital employed would be $4,000,000. Competing premium jars retail at about $9.50. The board's target return on capital is 15 per cent.
+Required. Compute a price on full cost plus a 20 per cent markup, and on cost plus the target rate of return. Compare both with the market and recommend. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC10-1  Answer A. A cost base plus a markup.
+B is wrong. That is value-based pricing.
+C is wrong. That is market comparables.
+D is wrong. A share target is a strategy, not a price method.
+SC10-2  Answer A. It answers the company's question, not the customer's.
+B is wrong. Covering costs is what it does best.
+C is wrong. It is the easiest of the three to compute.
+D is wrong. It is lawful and common.
+SC10-3  Answer A. A measurable benefit makes the method workable.
+B is wrong. Grocery prices are set by comparables.
+C is wrong. Commodities are priced by the market.
+D is wrong. Utilities are priced on allowed returns.
+SC10-4  Answer A. 7.20 × 1.6667 = 12.00.
+B is wrong. That is the markup in dollars.
+C is wrong. That is the full cost.
+D is wrong. That is the base.
+SC10-5  Answer A. 0.35 ÷ 0.65 = 53.85 per cent.
+B is wrong. That is the margin itself.
+C is wrong. That is the cost ratio.
+D is wrong. This inverts the calculation.
+SC10-6  Answer A. Volume determines the unit cost and the price affects volume.
+B is wrong. The markup is applied once.
+C is wrong. Full cost includes variable costs.
+D is wrong. The margin base is a different issue.
+SC10-7  Answer A. The markup delivers the required return on capital.
+B is wrong. Industry margins are a comparables method.
+C is wrong. Matching competitors is market-based.
+D is wrong. Covering variable costs is a floor, not a target return.
+SC10-8  Answer A. 29,058,800 × 0.15 = 4,358,820.
+B is wrong. That is 10 per cent.
+C is wrong. This has no basis in the figures.
+D is wrong. This misplaces the decimal.
+SC10-9  Answer A. 4,358,820 ÷ 3,500,000 = 1.25.
+B is wrong. That is the whole price plus the profit.
+C is wrong. This misplaces the decimal.
+D is wrong. That is the contribution margin.
+SC10-10  Answer A. The price is given; cost and volume are not.
+B is wrong. Full cost does not set a market price.
+C is wrong. No single seller sets a commodity price.
+D is wrong. Commodity markets are not usually regulated in this way.
+SC10-11  Answer A. 12,624,000 ÷ 4.30 = 2,935,814 jars.
+B is wrong. That is the breakeven at a price of 12.00.
+C is wrong. This divides by 11.50.
+D is wrong. That is actual volume.
+SC10-12  Answer A. The customer's alternative sets the ceiling.
+B is wrong. That is the seller's cost-based price.
+C is wrong. The competitor's cost is unknown and not the ceiling.
+D is wrong. Regulation applies to regulated markets.
+SC10-13  Answer A. One is short-run and one is long-run.
+B is wrong. The relevant-cost floor excludes unavoidable fixed costs.
+C is wrong. Full cost includes variable costs.
+D is wrong. For Orontes they are 7.20 and 10.81.
+SC10-14  Answer A. Separate markets keep the prices apart.
+B is wrong. Differing products help but are not the condition.
+C is wrong. Secrecy about costs is not the issue.
+D is wrong. A constant markup does not keep markets apart.
+Your turn
+Item
+Answer
+Full cost a unit
+30.00: fixed costs are 2,400,000 ÷ 200,000 = 12.00 a unit, plus variable of 18.00.
+Price at a 25 per cent markup on full cost
+37.50: 30.00 × 1.25 = 37.50.
+Markup on variable cost needed
+108.33 per cent: the markup is 37.50 − 18.00 = 19.50, and 19.50 ÷ 18.00 = 108.33 per cent.
+Margin on price at that price
+52.0 per cent: the contribution is 19.50, and 19.50 ÷ 37.50 = 52.0 per cent.
+Required profit at 12 per cent on 9,000,000
+1,080,000: 9,000,000 × 0.12 = 1,080,000.
+Price under cost plus target return
+35.40: the profit a unit is 1,080,000 ÷ 200,000 = 5.40, plus the full cost of 30.00.
+What it tells you
+The same product is priced at 37.50 by convention and 35.40 by the return the capital requires, and the second figure is the one that can be explained to an investor. Neither says anything about what a customer would pay.
+Multiple-choice questions
+P10-01  Answer A. Cost plus markup.
+B is wrong. That is value-based.
+C is wrong. That is comparables.
+D is wrong. That is regulated pricing.
+P10-02  Answer A. The customer's benefit.
+B is wrong. That is cost-based.
+C is wrong. That is a floor.
+D is wrong. A share target is not a pricing base.
+P10-03  Answer A. 18.00 + 12.00 = 30.00.
+B is wrong. That omits the fixed costs.
+C is wrong. That is the fixed cost per unit.
+D is wrong. That adds a total to a unit figure.
+P10-04  Answer A. 30.00 × 1.25 = 37.50.
+B is wrong. That is a 33 per cent markup.
+C is wrong. This subtracts instead of adding.
+D is wrong. This has no basis in the figures.
+P10-05  Answer A. 0.35 ÷ 0.65 = 53.85 per cent.
+B is wrong. That is the margin itself.
+C is wrong. That is the cost ratio.
+D is wrong. This inverts the calculation.
+P10-06  Answer A. Volume sets the unit cost and price sets the volume.
+B is wrong. The markup is applied once.
+C is wrong. Full cost includes variable costs.
+D is wrong. The market price is not an input to it.
+P10-07  Answer A. 9,000,000 × 0.12 = 1,080,000.
+B is wrong. That is 8.3 per cent.
+C is wrong. This misplaces the decimal.
+D is wrong. This multiplies by 1.2.
+P10-08  Answer A. Regulated industries and cost-plus contracts.
+B is wrong. Commodity prices are set by the market.
+C is wrong. Luxury goods are value-priced.
+D is wrong. Special orders use relevant cost floors.
+P10-09  Answer A. Cost and volume, not price.
+B is wrong. No single seller sets the price.
+C is wrong. Regulators are absent from such markets.
+D is wrong. Comparables are the market's doing.
+P10-10  Answer A. A one-off, where fixed costs do not change.
+B is wrong. Regular pricing must cover fixed costs.
+C is wrong. Regulated pricing uses allowed returns.
+D is wrong. The long run needs full cost.
+Case-style set: a price for a new line
+The two cost-based prices. The fixed cost a jar is 900,000 ÷ 600,000 = 1.50, so the full cost is 5.60 + 1.50 = 7.10. A 20 per cent markup gives 7.10 × 1.20 = 8.52. On the target-return method, the required profit is 4,000,000 × 0.15 = 600,000, which over 600,000 jars is 600,000 ÷ 600,000 = 1.00 a jar, giving a price of 7.10 + 1.00 = 8.10.
+Against the market. Competing premium jars retail at about $9.50. Both cost-based prices are below it — by 98 cents and by $1.40 — which means the company would be leaving money on the table by pricing from its own costs. That is the characteristic failure of cost-plus in a market where the product is differentiated: the method cannot see the premium the customer is willing to pay.
+Recommendation. Price at or just below the market, around $9.25, and treat the cost-based figures as floors rather than as answers. At $9.25 the contribution is 9.25 − 5.60 = 3.65 a jar, which on 600,000 jars is 600,000 × 3.65 = 2,190,000 against $900,000 of new fixed costs — an operating gain of $1,290,000 and a return on the $4,000,000 of capital far above the 15 per cent target.
+Two things I would check first. Whether the 600,000 jars are incremental or partly taken from the standard line, since each cannibalised standard jar costs $4.80 of contribution and the break-even cannibalisation is 1,290,000 ÷ 4.80 = 268,750 jars. And whether a premium product priced below the premium shelf will be read as a premium product at all — a price is a signal, and $8.10 on a shelf of $9.50 jars says something the board may not intend.

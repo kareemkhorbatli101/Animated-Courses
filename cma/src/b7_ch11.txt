@@ -1,0 +1,590 @@
+Chapter 11
+Demand, market structure and elasticity
+الطلب وهيكل السوق ومرونة الطلب
+Chapter 10 ended with a question it could not answer: what will the customers do? A cost-based price assumes they will buy whatever quantity the plan assumed. They will not. They will buy more when the price falls and less when it rises, and how much more or less is the single most valuable number in a pricing decision.
+This chapter supplies it. It sets out what moves demand and supply, how much freedom a company has to set its own price in each kind of market, what happens when sellers agree not to compete, and how to measure the response of quantity to price and turn it into a revenue forecast.
+Figure F711-01 is your map.
+Figure F711-01. Chapter 11 roadmap: demand, four market structures, cartels, and the elasticity that measures the response.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.3.d
+Explain how a company's pricing is affected by the demand for and supply of its product.
+C
+Full treatment
+C.3.f
+Explain the short-term equilibrium price under pure competition, monopolistic competition, oligopoly and monopoly.
+C
+Full treatment
+C.3.e
+Explain the impact of cartels on pricing.
+C
+Full treatment
+C.3.m
+Calculate the price elasticity of demand using the midpoint formula.
+C
+Full treatment
+C.3.n
+Define and explain elastic and inelastic demand.
+C
+Full treatment
+C.3.o
+Estimate total revenue given changes in price, demand and elasticity.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+demand curve
+منحنى الطلب
+courbe de demande
+supply curve
+منحنى العرض
+courbe d'offre
+equilibrium price
+سعر التوازن
+prix d'équilibre
+pure competition
+المنافسة الكاملة
+concurrence pure et parfaite
+monopolistic competition
+المنافسة الاحتكارية
+concurrence monopolistique
+oligopoly
+احتكار القلة
+oligopole
+cartel
+الكارتل
+cartel
+price elasticity of demand
+مرونة الطلب السعرية
+élasticité-prix de la demande
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 computed the marginal revenue of a price cut: dropping the jar to $11.50 to sell 300,000 more raises revenue by $1,700,000 but costs more than it brings. Chapter 10 said that in a market-priced business the price is given. This chapter explains both, and measures the first.
+11.1  Demand, supply and the price between them
+A demand curve shows the quantity buyers will take at each price, and it slopes downward: lower prices bring more buyers and more purchases from each. A supply curve shows the quantity sellers will offer at each price, and it slopes upward: higher prices make production worthwhile for more sellers and for more output from each.
+The price at which the two quantities are equal is the equilibrium price, and it is where a competitive market settles. Above it there are unsold goods and the price falls; below it there are unsatisfied buyers and the price rises.
+The outcome asks what moves each curve, and the exam distinguishes two things carefully.
+A movement along a curve is a response to a change in the price of the good itself. Nothing has shifted; the market is reading off a different point.
+A shift of the whole curve is a response to a change in something else. Demand shifts with incomes, with the prices of substitutes and complements, with tastes, with the number of buyers and with expectations. Supply shifts with input costs, technology, the number of sellers, taxes and subsidies, and expectations.
+For Orontes, the practical readings are immediate. A rise in the price of a competing spread shifts the demand for tahini to the right, because the two are substitutes. A rise in the price of bread, which is eaten with it, shifts demand to the left, because the two are complements. A fall in the sesame price shifts supply to the right, lowering the equilibrium price for everybody — which is why a cost saving in a competitive market is often competed away rather than kept.
+Figure F711-02 sets the shifters out.
+Figure F711-02. What moves demand and supply
+Curve
+Moves right when
+Moves left when
+Demand
+Incomes rise; a substitute's price rises; tastes favour the product; more buyers
+Incomes fall; a complement's price rises; tastes move away
+Supply
+Input costs fall; technology improves; more sellers; a subsidy
+Input costs rise; sellers leave; a tax is imposed
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+substitute
+السلعة البديلة
+bien substituable
+complement
+السلعة المكملة
+bien complémentaire
+movement along a curve
+الحركة على المنحنى
+déplacement le long de la courbe
+shift of a curve
+انتقال المنحنى
+déplacement de la courbe
+SECTION CHECK   Test yourself
+SC11-1  A change in the price of the good itself causes:
+A.	a movement along the demand curve.
+B.	a shift of the demand curve.
+C.	a shift of the supply curve.
+D.	no change.
+SC11-2  A rise in the price of a substitute product shifts the demand for this product:
+A.	to the right.
+B.	to the left.
+C.	not at all.
+D.	vertically only.
+SC11-3  A fall in input costs across an industry:
+A.	shifts supply to the right and lowers the equilibrium price.
+B.	shifts demand to the right.
+C.	raises the equilibrium price.
+D.	is kept entirely by the sellers.
+Answers and explanations are at the end of the chapter.
+11.2  Four market structures
+How much freedom a company has to set its own price depends on the structure of its market, and the outcome names four.
+Pure competition. Many small sellers, an identical product, free entry and exit, and buyers who know the prices. No seller can charge more than the market price, because buyers would simply go elsewhere, and none needs to charge less, because each can sell all it wants at the market price. The company is a price taker: its demand curve is horizontal at the market price, so price equals marginal revenue, and in the short run it produces where marginal cost equals that price. Profits above the normal level attract entrants, which pushes the price down until only a normal return remains. Agricultural commodities are the usual example.
+Monopolistic competition. Many sellers, but a differentiated product — by brand, recipe, packaging, service or location. Each seller has a little pricing power, because its product is not quite the same as the others, and its demand curve slopes gently downward. It can raise the price without losing every customer, and it loses some. Entry is free, so economic profits are competed away in the long run, usually by rivals imitating the differentiation. Branded food is the standard example, and it is where Orontes sits.
+Oligopoly. Few sellers, each large enough that its actions affect the others. The defining feature is interdependence: a price change by one will be answered, so each seller must consider the response before moving. Prices are often sticky, because a cut will be matched — losing margin without gaining share — while a rise may not be followed, losing share without gaining margin. Competition shifts into advertising, quality and product variety, where responses are slower. Supermarkets, airlines and mobile operators are examples.
+Monopoly. One seller of a product with no close substitutes, protected by a barrier — a patent, a licence, control of a resource, or an economy of scale so large that a second entrant could not survive. The monopolist faces the whole market demand curve and chooses the point on it that maximises profit, producing where marginal revenue equals marginal cost and charging what the curve will bear at that quantity. Because marginal revenue is below price, the monopoly price is above the competitive one and the quantity is lower, which is why monopolies are regulated.
+Figure F711-03 compares the four.
+Figure F711-03. Four structures, four degrees of pricing power
+Structure
+Sellers
+Product
+Pricing power
+Short-run price set where
+Pure competition
+Very many
+Identical
+None; a price taker
+Marginal cost equals the market price
+Monopolistic competition
+Many
+Differentiated
+Some, limited by close substitutes
+Marginal revenue equals marginal cost
+Oligopoly
+Few
+Either
+Considerable, limited by rivals' responses
+Interdependently; prices often sticky
+Monopoly
+One
+No close substitute
+Greatest, limited by demand and regulation
+Marginal revenue equals marginal cost
+The rule that unites the last three is Chapter 7's: produce while marginal revenue exceeds marginal cost, and stop where they are equal. Only in pure competition does that collapse into producing where marginal cost equals the price, because only there is marginal revenue equal to price.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+price taker
+متلقي السعر
+preneur de prix
+differentiation
+التمايز
+différenciation
+interdependence
+الترابط
+interdépendance
+barrier to entry
+عائق الدخول
+barrière à l'entrée
+SECTION CHECK   Test yourself
+SC11-4  A company in pure competition:
+A.	is a price taker and sells all it wants at the market price.
+B.	sets its own price freely.
+C.	faces a downward-sloping demand curve.
+D.	has no marginal cost.
+SC11-5  Prices are often sticky in an oligopoly because:
+A.	a cut will be matched and a rise may not be followed.
+B.	the product is identical.
+C.	entry is free.
+D.	demand is perfectly elastic.
+SC11-6  A monopolist sets output where:
+A.	marginal revenue equals marginal cost.
+B.	price equals marginal cost.
+C.	average cost is lowest.
+D.	demand is perfectly elastic.
+Answers and explanations are at the end of the chapter.
+11.3  Cartels
+A cartel is an agreement among sellers to act as if they were one. Members agree a price, or divide the market by quantity or territory, or both, and the effect is to convert competition into a shared monopoly: the price rises towards the monopoly price, the quantity falls, and the profits are divided among the members.
+Three features of cartels are examinable.
+They raise prices above the competitive level. That is their purpose, and it is why the arrangement is a criminal offence in most jurisdictions when practised by private companies. The exam's textbook example, the oil producers' organisation, is an agreement between states rather than companies and sits outside those laws.
+They are unstable. Each member gains by cheating: with the price held up by the others, an individual seller who quietly shades its price or exceeds its quota sells more at a high price. Since every member faces that incentive, cartels require monitoring and punishment to survive, and most collapse — through cheating, through entry by outsiders attracted by the high price, or through a fall in demand that makes the agreed quotas unbearable.
+They are detectable by their effects. Prices that move together without a common cost cause, bids that rotate among suppliers, identical quotations, and prices that are sticky upwards and never downwards are the classic signals, and a management accountant who sees them in a supplier market has a reporting obligation to consider.
+Tacit collusion is the version without an agreement: firms in a concentrated market may arrive at similar prices simply by watching each other, with no communication at all. It is harder to prosecute and produces similar effects, which is one reason regulators scrutinise concentrated markets even where no agreement can be shown.
+Figure F711-04 sets out the effects.
+Figure F711-04. What a cartel does
+Effect
+Direction
+Who gains
+Who loses
+Price
+Rises towards the monopoly price
+The members
+Buyers
+Quantity
+Falls
+—
+Buyers, and suppliers to the industry
+Profits
+Rise and are shared
+The members
+—
+Stability
+Falls over time
+—
+The members themselves
+Entry
+Attracted by high prices
+Entrants
+The members
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+collusion
+التواطؤ
+collusion
+quota
+الحصة
+quota
+bid rotation
+تناوب العطاءات
+rotation des offres
+tacit collusion
+التواطؤ الضمني
+collusion tacite
+SECTION CHECK   Test yourself
+SC11-7  A cartel's effect on price and quantity is to:
+A.	raise the price and lower the quantity.
+B.	lower both.
+C.	raise both.
+D.	leave both unchanged.
+SC11-8  Cartels are unstable because:
+A.	each member gains by cheating while the others hold the price up.
+B.	prices fall over time.
+C.	demand always rises.
+D.	regulators always detect them.
+SC11-9  Firms arriving at similar prices by watching each other, without any agreement, is:
+A.	tacit collusion.
+B.	a formal cartel.
+C.	pure competition.
+D.	price discrimination.
+Answers and explanations are at the end of the chapter.
+11.4  Elasticity
+Price elasticity of demand measures how much the quantity demanded responds to a change in price. It is the percentage change in quantity divided by the percentage change in price, and because the two move in opposite directions the result is negative — so it is conventionally quoted as a positive number and the exam does the same.
+The midpoint formula avoids an awkward feature of the simple calculation: the answer differs depending on which end you start from. It solves this by dividing each change by the average of the two values rather than by the starting value.
+WORKED EXAMPLE   Worked example: the elasticity of Orontes's demand
+Step 1. The two points. At $12.00 the company sells 3,500,000 jars; at $11.50 it would sell 3,800,000.
+Step 2. The percentage change in quantity. The change is 300,000 and the average quantity is 3,650,000, so the percentage change is 300,000 ÷ 3,650,000 = 8.22 per cent.
+Step 3. The percentage change in price. The change is 0.50 and the average price is 11.75, so the percentage change is 0.50 ÷ 11.75 = 4.26 per cent.
+Step 4. The elasticity. 8.22 ÷ 4.26 = 1.93.
+Check. An elasticity above 1 means demand is elastic: quantity responds more than proportionately, so the price cut raises total revenue. And it does: 11.50 × 3,800,000 = 43,700,000 against $42,000,000. But Chapter 7 showed the same move lowers operating income, because contribution falls to 3,800,000 × 4.30 = 16,340,000 from $16,800,000 — a loss of 460,000. Elasticity tells you what happens to revenue. Only the contribution margin tells you what happens to profit, and the two can point in opposite directions, as they do here.
+The vocabulary is fixed and the exam uses it precisely.
+Elastic demand has an elasticity above 1. Quantity responds more than price, so a price cut raises total revenue and a price rise lowers it. Products with many substitutes, products that take a large share of a buyer's budget, and luxuries tend to be elastic, and demand is more elastic over a long period than a short one, because buyers have time to find alternatives.
+Inelastic demand has an elasticity below 1. Quantity responds less than price, so a price rise raises total revenue. Necessities, products with no close substitutes, products that are a small part of a budget, and addictive goods tend to be inelastic.
+Unitary elasticity is exactly 1, where total revenue does not change at all.
+Figure F711-05 sets out the consequences.
+Figure F711-05. Elasticity and total revenue
+Elasticity
+Demand is
+A price rise
+A price cut
+Typical products
+Above 1
+Elastic
+Lowers total revenue
+Raises total revenue
+Luxuries, many substitutes
+Equal to 1
+Unitary
+Leaves revenue unchanged
+Leaves revenue unchanged
+The boundary case
+Below 1
+Inelastic
+Raises total revenue
+Lowers total revenue
+Necessities, few substitutes
+EXAM TRAP   Revenue is not profit
+An elastic demand means a price cut raises revenue. Whether it raises profit depends on the contribution margin, and Orontes is the standing example of a cut that does one and not the other.
+Use the midpoint formula whenever the question says so, and say which formula you used when it does not. The simple formula gives a different answer in each direction.
+Elasticity is not a property of a product for ever. It differs between the short run and the long run, between one price range and another on the same curve, and between markets.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+midpoint formula
+صيغة النقطة الوسطى
+formule du point médian
+elastic
+مرن
+élastique
+inelastic
+غير مرن
+inélastique
+unitary elasticity
+المرونة الأحادية
+élasticité unitaire
+SECTION CHECK   Test yourself
+SC11-10  The midpoint formula divides each change by:
+A.	the average of the two values.
+B.	the starting value.
+C.	the ending value.
+D.	the larger value.
+SC11-11  An elasticity of 1.93 means demand is:
+A.	elastic, so a price cut raises total revenue.
+B.	inelastic, so a price cut lowers total revenue.
+C.	unitary.
+D.	perfectly inelastic.
+SC11-12  A price cut that raises revenue:
+A.	may still lower operating income, depending on the contribution margin.
+B.	always raises operating income.
+C.	proves demand is inelastic.
+D.	leaves contribution unchanged.
+Answers and explanations are at the end of the chapter.
+11.5  Estimating revenue from a price change
+The last outcome asks for a revenue estimate given a price change and an elasticity, which is the calculation run in reverse.
+The method is three steps. Multiply the percentage change in price by the elasticity to get the percentage change in quantity, in the opposite direction. Apply that to the current quantity. Multiply the new quantity by the new price.
+WORKED EXAMPLE   Worked example: a price rise in an inelastic market
+Step 1. The proposal. Orontes raises the jar by 5 per cent, from $12.00 to $12.60. Market research puts the elasticity of its branded demand at about 0.41 — inelastic, because loyal buyers have no exact substitute.
+Step 2. The quantity response. Volume falls about 2 per cent, from 3,500,000 to 3,430,000 jars.
+Step 3. The new revenue. 12.60 × 3,430,000 = 43,218,000 against $42,000,000, a rise of $1,218,000.
+Step 4. The profit effect, which is the point. The contribution margin becomes 12.60 − 7.20 = 5.40, so contribution is 3,430,000 × 5.40 = 18,522,000 against $16,800,000 — a gain of 1,722,000, or 41 per cent of the company's operating income.
+Check. Compare this with the price cut of section 11.4, which raised revenue by $1,700,000 and cut profit by $460,000. The two moves are almost mirror images in revenue and opposite in profit, and the reason is the contribution margin: at 40 per cent, Orontes loses $4.80 on every jar it does not sell and gains only the price change on every jar it does. A company with a high contribution margin should be slow to cut price and quick to consider raising it, which is the arithmetic behind the warning Book 1 issued and Chapter 2 ranked as the most powerful of the four levers.
+Figure F711-06 sets the two scenarios out.
+Figure F711-06. The same company, two price moves
+Price cut to 11.50
+Price rise to 12.60
+Elasticity assumed
+1.93
+0.41
+Volume
+3,800,000
+3,430,000
+Total revenue
+43,700,000
+43,218,000
+Contribution margin a jar
+4.30
+5.40
+Total contribution
+16,340,000
+18,522,000
+Change in operating income
+(460,000)
+1,722,000
+Three cautions close the chapter, and an exam answer should carry at least one.
+An elasticity is an estimate, usually from a narrow range of prices and a particular period. Applying it to a large price change extrapolates beyond the evidence.
+It holds other things equal, and competitors are not other things. In the oligopoly of section 11.2, a price rise that rivals do not follow has a far higher effective elasticity than one they match.
+And the long run differs from the short. A price rise that loses 2 per cent of volume this year may lose far more over three years as buyers find alternatives and rivals position against it — which is the mirror of Book 1's point that a price concession is permanent in a way a volume gain is not.
+YOUR TURN   Measure and forecast
+Figure F711-07 gives two price changes. Complete the blanks. Answers are at the end of the chapter.
+Figure F711-07. Your turn: elasticity and revenue (complete the blanks)
+Item
+Data
+Answer
+Percentage change in quantity
+40,000 units rising to 44,000
+________
+Percentage change in price
+20.00 falling to 19.00
+________
+Elasticity, midpoint
+________
+Elastic or inelastic?
+________
+Effect on total revenue
+________
+New revenue if a 4 per cent price rise meets an elasticity of 0.60, from a base of 50,000 units at 20.00
+________
+LANGUAGE FOCUS   "Elastic"
+English elastic in economics means responsive, and the metaphor is of something that stretches a long way when pulled. The everyday sense of flexible or accommodating is close enough to be misleading: an elastic demand is not a forgiving one, it is a demand that punishes a price rise severely. Arabic مرن carries the same everyday pull towards flexibility and must be read technically. French élastique is the technical term and souple the everyday one, so the French reader is less likely to blur them. Note the companion trap in all three languages: inelastic does not mean rigid in the sense of unchanging — an inelastic demand still falls when the price rises, just less than proportionately.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+extrapolation
+الاستقراء
+extrapolation
+other things equal
+مع ثبات العوامل الأخرى
+toutes choses égales par ailleurs
+short run and long run
+المدى القصير والطويل
+court et long terme
+effective elasticity
+المرونة الفعلية
+élasticité effective
+SECTION CHECK   Test yourself
+SC11-13  To estimate the quantity response to a price change, multiply the percentage price change by:
+A.	the elasticity, in the opposite direction.
+B.	the contribution margin.
+C.	the markup.
+D.	the market share.
+SC11-14  An elasticity estimated over a narrow price range:
+A.	should not be extrapolated to a large price change.
+B.	applies to any price change.
+C.	is a permanent property of the product.
+D.	is unaffected by competitors.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F711-08 brings the chapter together.
+Figure F711-08. Chapter 11 summary map: the key rule for each section.
+Demand slopes down, supply slopes up, and the price between them clears the market; a change in the good's own price moves along a curve while a change in anything else shifts it, so a substitute's price rise lifts demand and an industry-wide cost fall lowers the equilibrium price for everybody. Four structures give four degrees of freedom: pure competition makes a price taker whose marginal revenue equals price, monopolistic competition gives a little power through differentiation, oligopoly makes every move interdependent and prices sticky, and monopoly lets one seller choose a point on the whole demand curve — with all but the first producing where marginal revenue equals marginal cost. A cartel converts competition into shared monopoly, raising price and cutting quantity, and it is unstable because each member gains by cheating. Elasticity measures the response: for Orontes, 300,000 ÷ 3,650,000 = 8.22 per cent of quantity against 0.50 ÷ 11.75 = 4.26 per cent of price gives 8.22 ÷ 4.26 = 1.93, which is elastic, so the cut raises revenue to 11.50 × 3,800,000 = 43,700,000 and still lowers operating income by 460,000. And run the other way, a 5 per cent rise against an elasticity of 0.41 takes contribution to 3,430,000 × 5.40 = 18,522,000, a gain of 1,722,000 — which is why a company with a 40 per cent contribution margin should be slow to cut and quick to consider raising.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P11-01  A change in consumers' incomes causes:
+A.	a shift of the demand curve.
+B.	a movement along the demand curve.
+C.	a shift of the supply curve.
+D.	no change.
+P11-02  A company in pure competition faces a demand curve that is:
+A.	horizontal at the market price.
+B.	downward-sloping.
+C.	vertical.
+D.	upward-sloping.
+P11-03  Monopolistic competition is characterised by:
+A.	many sellers with differentiated products.
+B.	one seller.
+C.	few sellers of an identical product.
+D.	no entry.
+P11-04  Prices are sticky in an oligopoly because:
+A.	a cut is matched and a rise may not be followed.
+B.	the product is identical.
+C.	demand is perfectly elastic.
+D.	entry is free.
+P11-05  A cartel's purpose is to:
+A.	raise the price towards the monopoly level.
+B.	lower the price.
+C.	increase output.
+D.	encourage entry.
+P11-06  Quantity rises from 40,000 to 44,000 as price falls from 20.00 to 19.00. The midpoint percentage change in quantity is:
+A.	9.52 per cent
+B.	10.00 per cent
+C.	9.09 per cent
+D.	4.00 per cent
+P11-07  On those figures the midpoint percentage change in price is:
+A.	5.13 per cent
+B.	5.00 per cent
+C.	5.26 per cent
+D.	1.00 per cent
+P11-08  The elasticity on those figures is approximately:
+A.	1.86
+B.	0.54
+C.	2.00
+D.	0.50
+P11-09  Demand with an elasticity below 1 is:
+A.	inelastic, so a price rise raises total revenue.
+B.	elastic, so a price rise raises total revenue.
+C.	unitary.
+D.	perfectly elastic.
+P11-10  A price cut that raises total revenue:
+A.	may still reduce operating income.
+B.	always raises operating income.
+C.	always reduces revenue.
+D.	proves demand is inelastic.
+Case-style practice: the premium jar meets the market
+Orontes's premium 500 gram jar, priced at $9.25 in Chapter 10, faces two competing brands at $9.50. Marketing estimates that at $8.75 the company would sell 780,000 jars instead of 600,000, and that at $9.75 it would sell 480,000. The variable cost is $5.60 a jar and the line's fixed costs are $900,000.
+Required. Compute the elasticity between $8.75 and $9.75 using the midpoint formula, the revenue and the operating income at each of the three prices, and recommend. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC11-1  Answer A. Only the good's own price moves along the curve.
+B is wrong. Shifts come from other variables.
+C is wrong. The supply curve responds to its own shifters.
+D is wrong. Quantity demanded changes.
+SC11-2  Answer A. Buyers move towards the cheaper alternative, which is this product.
+B is wrong. That is the effect of a complement's price rise.
+C is wrong. Substitutes are a classic shifter.
+D is wrong. Curves shift horizontally in this analysis.
+SC11-3  Answer A. More is supplied at every price, so the price falls.
+B is wrong. Demand is unaffected by sellers' costs.
+C is wrong. Greater supply lowers the price.
+D is wrong. In a competitive market the saving is largely competed away.
+SC11-4  Answer A. A price taker sells all it wants at the market price.
+B is wrong. No seller has that freedom there.
+C is wrong. The individual seller's curve is horizontal.
+D is wrong. Every producer has a marginal cost.
+SC11-5  Answer A. The asymmetry of responses deters movement.
+B is wrong. Oligopolies exist with differentiated products too.
+C is wrong. Entry is usually restricted.
+D is wrong. Perfect elasticity belongs to pure competition.
+SC11-6  Answer A. The general rule for any price setter.
+B is wrong. That is the competitive outcome.
+C is wrong. Minimum average cost is not the profit-maximising rule.
+D is wrong. A monopolist faces a downward-sloping curve.
+SC11-7  Answer A. Price up, quantity down.
+B is wrong. The price rises.
+C is wrong. The quantity falls.
+D is wrong. Both change, which is the purpose.
+SC11-8  Answer A. Cheating is individually profitable.
+B is wrong. Cartel prices rise.
+C is wrong. Demand is not always rising.
+D is wrong. Detection is difficult, which is why monitoring matters.
+SC11-9  Answer A. Tacit collusion needs no agreement.
+B is wrong. A cartel involves an agreement.
+C is wrong. Pure competition has no such coordination.
+D is wrong. Price discrimination is charging different buyers differently.
+SC11-10  Answer A. Each change is divided by the average of the two values.
+B is wrong. That is the simple formula.
+C is wrong. The ending value gives a different answer again.
+D is wrong. There is no such convention.
+SC11-11  Answer A. Above 1 is elastic.
+B is wrong. Below 1 is inelastic.
+C is wrong. Unitary is exactly 1.
+D is wrong. Perfect inelasticity is zero.
+SC11-12  Answer A. Revenue and profit can move in opposite directions.
+B is wrong. Orontes is the counter-example.
+C is wrong. Rising revenue on a cut proves elasticity.
+D is wrong. The contribution per unit falls with the price.
+SC11-13  Answer A. Elasticity converts a price change into a quantity change.
+B is wrong. The margin converts quantity into profit.
+C is wrong. The markup is a pricing device.
+D is wrong. Market share is an outcome.
+SC11-14  Answer A. Extrapolation goes beyond the evidence.
+B is wrong. Elasticity varies along the curve.
+C is wrong. It varies with time and market.
+D is wrong. Competitors' responses change it materially.
+Your turn
+Item
+Answer
+Percentage change in quantity
+9.52 per cent: the change is 4,000 and the average quantity is 42,000, so 4,000 ÷ 42,000 = 9.52 per cent.
+Percentage change in price
+5.13 per cent: the change is 1.00 and the average price is 19.50, so 1.00 ÷ 19.50 = 5.13 per cent.
+Elasticity, midpoint
+1.86: 9.52 ÷ 5.13 = 1.86.
+Elastic or inelastic?
+Elastic, because the figure exceeds 1.
+Effect on total revenue
+Revenue rises: 19.00 × 44,000 = 836,000 against 20.00 × 40,000 = 800,000.
+New revenue after a 4 per cent price rise at an elasticity of 0.60
+1,015,040: quantity falls 2.4 per cent to 48,800 and the price rises to 20.80, so 20.80 × 48,800 = 1,015,040 against 1,000,000 before.
+What it tells you
+The same product is elastic in one range and assumed inelastic in another, which is the ordinary state of affairs: elasticity is a local measurement, not a label.
+Multiple-choice questions
+P11-01  Answer A. Income is a shifter.
+B is wrong. Only the good's own price moves along the curve.
+C is wrong. Supply responds to costs and sellers.
+D is wrong. Demand moves with income.
+P11-02  Answer A. A price taker's own curve is horizontal.
+B is wrong. That is the market curve, and the curve facing a price setter.
+C is wrong. A vertical curve is perfectly inelastic.
+D is wrong. Demand curves do not slope upward.
+P11-03  Answer A. Many sellers, differentiated products.
+B is wrong. That is monopoly.
+C is wrong. That is closer to oligopoly.
+D is wrong. Entry is free in monopolistic competition.
+P11-04  Answer A. The asymmetry of responses.
+B is wrong. Oligopoly does not require identical products.
+C is wrong. Perfect elasticity is a competitive feature.
+D is wrong. Entry is usually limited.
+P11-05  Answer A. Towards the monopoly price.
+B is wrong. Lowering the price defeats the purpose.
+C is wrong. Output falls.
+D is wrong. High prices attract entry, which members fear.
+P11-06  Answer A. 4,000 ÷ 42,000 = 9.52 per cent.
+B is wrong. That is the simple formula on the starting value.
+C is wrong. That uses the ending value.
+D is wrong. This has no basis in the figures.
+P11-07  Answer A. 1.00 ÷ 19.50 = 5.13 per cent.
+B is wrong. That uses the starting price.
+C is wrong. That uses the ending price.
+D is wrong. That is the change in dollars.
+P11-08  Answer A. 9.52 ÷ 5.13 = 1.86.
+B is wrong. This inverts the ratio.
+C is wrong. This uses rounded simple percentages.
+D is wrong. This inverts a rounded figure.
+P11-09  Answer A. Inelastic demand rewards a price rise in revenue.
+B is wrong. Elastic is above 1.
+C is wrong. Unitary is exactly 1.
+D is wrong. Perfect elasticity is infinite.
+P11-10  Answer A. Contribution can fall while revenue rises.
+B is wrong. Orontes is the counter-example.
+C is wrong. Revenue rose, by assumption.
+D is wrong. It proves elasticity, not inelasticity.
+Case-style set: the premium jar meets the market
+The elasticity. Between $8.75 and $9.75 the quantity falls from 780,000 to 480,000, a change of 300,000 on an average of 630,000, which is 300,000 ÷ 630,000 = 47.62 per cent. The price changes by 1.00 on an average of 9.25, which is 1.00 ÷ 9.25 = 10.81 per cent. The elasticity is 47.62 ÷ 10.81 = 4.41 — highly elastic, as a premium product facing two close substitutes at $9.50 should be.
+The three outcomes. At $8.75 the contribution is 8.75 − 5.60 = 3.15 a jar, so 780,000 × 3.15 = 2,457,000 of contribution and 2,457,000 − 900,000 = 1,557,000 of operating income, on revenue of 8.75 × 780,000 = 6,825,000. At $9.25, the contribution is 3.65 and 600,000 × 3.65 = 2,190,000 gives 1,290,000 of operating income on revenue of $5,550,000. At $9.75 the contribution is 4.15 and 480,000 × 4.15 = 1,992,000 gives 1,092,000, on revenue of $4,680,000.
+Recommendation: price at $8.75. It earns the most operating income of the three by $267,000, and it is the only one of the three that is clearly below both competitors rather than beside them. The elasticity of 4.41 is what makes the low price pay: in this range the company gains far more volume than it gives up in margin, which is the opposite of the standard jar's position in Chapter 11's main example.
+Two cautions. The volume figures are marketing estimates across a wide price range, and the break-even volume at $8.75 is 900,000 ÷ 3.15 = 285,714 jars, so there is room for the estimate to be wrong. And at $8.75 the premium jar may cannibalise the standard line, which contributes $4.80 — a loss of margin on every switched buyer that this analysis has not counted.
