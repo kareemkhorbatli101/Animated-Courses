@@ -1,0 +1,471 @@
+Chapter 18
+Whistleblowing, bribery law, responsibility, sustainability and data ethics
+الإبلاغ عن المخالفات وقوانين مكافحة الرشوة والمسؤولية والاستدامة وأخلاقيات البيانات
+The last chapter of Part 2 collects the obligations a company owes outward: to the person inside it who sees something wrong, to the law that reaches its conduct abroad, to the society it operates in, to the environment it draws on, and to the people whose data it holds.
+Eight outcomes meet here, which makes this the longest chapter in the book and the one most likely to supply an essay question, because every topic in it is contested, current and capable of being argued rather than recited. Take each in turn and keep the structure: what it is, what the company must do, and what the management accountant specifically contributes.
+Figure F818-01 is your map.
+Figure F818-01. Chapter 18 roadmap: raising concerns, bribery law, responsibility, sustainability and data.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+F.3.m | Explain the importance of a whistleblowing framework in maintaining an ethical culture. | C | Full treatment
+F.3.o | Identify the purpose of anti-bribery laws such as the US Foreign Corrupt Practices Act and the UK Bribery Act. | C | Full treatment
+F.3.p | Discuss corporate responsibility for ethical conduct. | C | Full treatment
+F.3.r | Identify and define the four levels of social responsibility: economic, legal, ethical and philanthropic. | C | Full treatment
+F.3.q | Define and demonstrate an understanding of the major issues of sustainability and social responsibility. | C | Full treatment
+F.3.s | Identify and define the three conceptual spheres of sustainability: economic, environmental and social. | C | Full treatment
+F.3.t | Define data ethics and explain fairness, privacy, transparency, ownership and accountability in how companies and artificial intelligence models use data. | C | Full treatment
+F.3.u | Demonstrate a general understanding of the purpose of governmental data protection regulations. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section F outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+whistleblowing | الإبلاغ عن المخالفات | alerte éthique
+retaliation | الانتقام | représailles
+facilitation payment | دفعة التيسير | paiement de facilitation
+adequate procedures | الإجراءات الكافية | procédures adéquates
+corporate social responsibility | المسؤولية الاجتماعية للشركات | responsabilité sociétale
+sustainability | الاستدامة | durabilité
+materiality | الأهمية النسبية | matérialité
+greenwashing | التضليل البيئي | écoblanchiment
+data ethics | أخلاقيات البيانات | éthique des données
+personal data | البيانات الشخصية | données personnelles
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 14 gave the internal resolution ladder and said that going outside the organisation is not appropriate except where legally prescribed — which is why section 18.1's internal route has to work. Chapter 15 refused the facilitation payment and named the laws without describing them. Chapter 17 built the climate in which somebody is willing to speak. This chapter completes all three.
+18.1  A whistleblowing framework
+Whistleblowing is the raising of a concern about wrongdoing by somebody inside the organisation, through a route that does not depend on the goodwill of the person the concern is about. A whistleblowing framework is the mechanism that makes it possible, and the outcome asks why it matters to an ethical culture.
+Five reasons, and they build on each other.
+It is how wrongdoing is found. More occupational fraud is detected by tips than by internal audit, external audit and management review combined, and most of those tips come from employees. No control detects what somebody already knows.
+It makes the code operative. Chapter 16 observed that a code with standards and no route is half a code: the framework is the route, and without it an employee who reads the code has been told what is expected and not how to act on it.
+It gives the resolution ladder of Chapter 14 somewhere to go when the ladder itself is blocked — when the supervisor is implicated, or when two levels of management are.
+It provides early warning. A concern raised when something is irregular is cheap; the same matter after a loss, a regulator or a journalist is not.
+And its existence changes behaviour before it is ever used. Somebody contemplating an act behaves differently where any of several colleagues could report it without being identified.
+What makes a framework work, which is the examinable half.
+Several routes, not one, including at least one outside the management line — the audit committee chair, an independent hotline, an external provider.
+Confidentiality, and anonymity as an option. Anonymity makes investigation harder and some people will use nothing else; a framework that offers only named reporting excludes exactly the concerns that carry most risk to the reporter.
+Protection against retaliation, stated explicitly, enforced visibly, and extended to dismissal, demotion, exclusion, reassignment and the quieter forms — the person who is suddenly not invited to meetings. Retaliation is often unlawful as well, and in several jurisdictions carries its own penalties independent of the original wrongdoing.
+Accessibility: available to everybody including suppliers, agents and contractors, in the local language, outside working hours, and usable by people without company email.
+A defined process: acknowledgement, triage, investigation by somebody independent of the subject, a decision, and — as far as confidentiality permits — feedback to the person who raised it. Nothing kills a framework faster than concerns that disappear.
+Records and reporting: the number of concerns, their categories, how long they took and what happened, reported to the audit committee. Chapter 16 proposed exactly this in place of training completion rates.
+And a demonstrated history. The only thing that persuades the second person to report is what happened to the first.
+Two difficulties an honest answer acknowledges. Not every report is well founded, and a few are malicious; the framework must therefore protect the subject of a report as well as its author, through confidentiality and a proper investigation, and a person who reports in good faith must be protected even when the concern proves unfounded. And a framework in a company with the wrong tone does not work: the employee's calculation is about what they expect to happen, which is set by Chapter 17 rather than by the policy.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+tip | البلاغ | signalement
+anonymity | إخفاء الهوية | anonymat
+triage | الفرز | tri initial
+good faith | حسن النية | bonne foi
+@end
+SECTION CHECK   Test yourself
+SC18-1  Most occupational fraud is detected by:
+A.	tips, mainly from employees.
+B.	external audit.
+C.	internal audit.
+D.	management review.
+SC18-2  A framework offering only named reporting:
+A.	excludes the concerns that carry most risk to the reporter.
+B.	is more effective.
+C.	satisfies the requirement fully.
+D.	prevents malicious reports.
+SC18-3  What most persuades the second person to report is:
+A.	what happened to the first.
+B.	the policy wording.
+C.	the training.
+D.	the hotline provider.
+Answers and explanations are at the end of the chapter.
+18.2  Anti-bribery laws
+The outcome asks for the purpose of anti-bribery laws and names two. Both reach conduct far outside their own countries, which is why they matter to a company like Orontes.
+The purpose, stated generally, is threefold: to prevent the corruption of public officials and of commercial decisions; to protect fair competition, since a market in which contracts are won by payment rather than by merit allocates resources badly and raises costs for everybody; and to protect the integrity of financial records, since a bribe must always be disguised in the books as something else.
+The US Foreign Corrupt Practices Act has two parts, and candidates are expected to know both.
+The anti-bribery provisions prohibit offering, paying, promising or authorising anything of value to a foreign official, directly or through an intermediary, in order to obtain or retain business or to secure an improper advantage. Intermediaries are expressly covered, which is why Chapter 15's agent is the central exposure.
+The accounting provisions require issuers to keep books and records that accurately and fairly reflect transactions, and to maintain a system of internal accounting control. These are enforced far more often than the bribery provisions themselves, because a mis-described payment is easier to prove than the corrupt intent behind it — and they are the provisions that make this a management accountant's subject directly.
+Two exceptions and defences are examinable. There is a narrow exception for facilitating payments to expedite routine governmental action, which is drawn tightly, is not available for any discretionary decision, and is prohibited outright by other countries' laws and by most companies' own policies. And there are affirmative defences where the payment was lawful under the written law of the foreign country, or was a reasonable and bona fide expenditure such as travel directly related to the promotion of products or the performance of a contract.
+The UK Bribery Act differs in ways the exam uses to contrast them.
+It covers commercial bribery as well as bribery of officials — offering or receiving a bribe between private parties is an offence in its own right.
+It creates four offences: bribing another person, being bribed, bribing a foreign public official, and the corporate offence of failing to prevent bribery by an associated person.
+That fourth offence is the significant one. A commercial organisation is liable where someone associated with it — an employee, agent, subsidiary or other person performing services for it — bribes to obtain business for it, unless the organisation can show it had adequate procedures in place to prevent bribery. Liability is strict, subject to that defence, and the defence is the entire subject of a compliance programme.
+It has no facilitation payment exception.
+And it reaches any organisation carrying on business in the United Kingdom, wherever the conduct occurs.
+The six principles of adequate procedures are worth learning, because they are also a complete answer to "what should a company do about bribery risk": proportionate procedures, matched to the risk and the size of the organisation; top-level commitment, which is Chapter 17's tone; risk assessment, periodic and documented; due diligence on the people who perform services for the organisation; communication, including training; and monitoring and review.
+What the management accountant contributes is specific. Payments cannot be made without being recorded, so the finance function is where a bribe becomes visible: in a vague description, an unusual intermediary, a payment in the wrong country, a commission out of line with the work, a cash payment, an invoice with no deliverable. Chapter 12's controls are the mechanism, and the accounting provisions of the Act make their failure an offence in itself.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+foreign official | الموظف العمومي الأجنبي | agent public étranger
+books and records provision | أحكام الدفاتر والسجلات | dispositions comptables
+associated person | الشخص المرتبط | personne associée
+strict liability | المسؤولية المشددة | responsabilité objective
+@end
+SECTION CHECK   Test yourself
+SC18-4  The accounting provisions of the Foreign Corrupt Practices Act require:
+A.	accurate books and records and a system of internal accounting control.
+B.	disclosure of all payments abroad.
+C.	approval of agents by the regulator.
+D.	a whistleblowing hotline.
+SC18-5  The corporate offence under the UK Bribery Act is:
+A.	failing to prevent bribery by an associated person.
+B.	bribing a foreign official.
+C.	being bribed.
+D.	keeping inaccurate records.
+SC18-6  The defence to that offence is:
+A.	having adequate procedures in place.
+B.	lack of knowledge.
+C.	local custom.
+D.	a small amount.
+Answers and explanations are at the end of the chapter.
+18.3  Corporate responsibility and its four levels
+The outcome asks you to discuss corporate responsibility for ethical conduct, and a good answer begins by taking the question seriously rather than asserting a position.
+Two classical views frame it. The narrow view holds that a company's responsibility is to its owners: to make money within the rules of the game, lawfully and without deception, and that managers spending the owners' money on social purposes are spending money that is not theirs for objectives nobody elected them to pursue. The broader view holds that a company's licence to operate comes from society, that it affects many parties besides its owners, and that it is responsible to all of them — the stakeholder reasoning of Chapter 12.
+The position that answers the exam takes the useful part of both. Even on the narrow view, a company is responsible for conduct: the narrow view says within the rules, and the rules include honesty, safety and the law. And the broader view is strengthened, not weakened, by the long-run argument — a company that damages its customers, its employees, its suppliers or its community is usually destroying value rather than transferring it, which is what Book 2's long-run value maximisation actually implies.
+Four specific responsibilities for ethical conduct follow, and they are what the outcome is asking for.
+For its own conduct, by the people it employs, which is the subject of Chapters 12 to 17.
+For conduct in its name, by agents, distributors and partners, which section 18.2 makes a legal liability and not only an ethical one.
+For conduct in its supply chain, to the extent of its influence. This is the most contested of the four: a company cannot audit every tier, and the standard applied is that it should know its material risks, use its leverage where it has any, and not arrange its affairs so as to avoid knowing.
+And for the effects of its products and operations on people who never agreed to them: the customer who cannot evaluate what they are buying, the community affected by the plant, the person whose data the company holds.
+The four levels of social responsibility, which the outcome asks to be defined, are the classical pyramid and provide the structure for an answer.
+Economic responsibility: to be profitable. It is the foundation, because a company that does not cover its costs can meet none of the other obligations, and Book 1's whole analysis is about whether it does.
+Legal responsibility: to obey the law — the floor of Chapter 15.
+Ethical responsibility: to do what is right, fair and expected beyond what the law requires, which is the gap Chapter 15 described.
+Philanthropic responsibility: to contribute resources to the community — donations, volunteering, support for education and the arts. It is discretionary, and the order matters: philanthropy does not compensate for failures at the levels below it, and a company that underpays its suppliers and funds a scholarship has not balanced anything.
+Figure F818-02 sets the four levels out.
+Figure F818-02. Four levels of social responsibility
+@table
+Level | Obligation | Nature | Orontes example
+Economic | Be profitable | Required by owners and by survival | Earn more than the cost of capital
+Legal | Obey the law | Required by society | Food safety, labelling, employment law
+Ethical | Do what is right beyond the law | Expected by society | Tell a customer before they find out
+Philanthropic | Contribute to the community | Desired, discretionary | Support for the agricultural college
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+licence to operate | رخصة التشغيل المجتمعية | licence d'exploitation
+leverage | النفوذ | levier d'influence
+supply chain tier | مستوى سلسلة التوريد | rang de la chaîne
+discretionary | تقديري | discrétionnaire
+@end
+SECTION CHECK   Test yourself
+SC18-7  The four levels of social responsibility are economic, legal, ethical and:
+A.	philanthropic.
+B.	environmental.
+C.	regulatory.
+D.	fiduciary.
+SC18-8  Economic responsibility is the foundation because:
+A.	a company that does not cover its costs can meet no other obligation.
+B.	profit is the only objective.
+C.	the law requires it.
+D.	shareholders demand it.
+SC18-9  A company that underpays suppliers and funds a scholarship:
+A.	has not balanced anything, since philanthropy does not compensate for lower levels.
+B.	has met its ethical responsibility.
+C.	has exceeded its obligations.
+D.	is acting economically.
+Answers and explanations are at the end of the chapter.
+18.4  Sustainability
+Two outcomes meet here: the major issues of sustainability and social responsibility, and the three conceptual spheres.
+The three spheres — sometimes the three pillars, or people, planet and profit — are the structure to use.
+The economic sphere: whether the activity is financially viable over the long run, for the company and for those who depend on it. An unprofitable activity is not sustainable in any sense, which is why this sphere comes first and why sustainability and the economics of Books 1 to 3 are not opposed.
+The environmental sphere: whether the activity can continue without depleting or damaging the natural systems it depends on — emissions, energy, water, waste, land, biodiversity, materials.
+The social sphere: the effects on people — employees, communities, customers and supply chain workers — covering safety, labour conditions, human rights, development and community impact.
+The point of the three-sphere framing is that sustainability is where they overlap. An initiative that is good environmentally and loses money indefinitely will stop; one that is profitable and damages a community will be stopped; and the useful work is in finding the overlap, which is also where a management accountant is most useful, because the overlap is identified with numbers.
+The major issues the outcome asks about, grouped.
+Climate and emissions: greenhouse gas emissions from a company's own operations, from the energy it buys, and from its value chain — the last of which is usually the largest and the hardest to measure. Transition risk, as regulation and markets change, and physical risk, as weather patterns do; for a food company, the physical risk is direct, since Orontes's sesame comes from fields.
+Resources: energy, water, raw materials and the waste produced. These have the useful property of appearing in the accounts: Orontes's energy cost is 42,000,000 × 0.03 = 1,260,000 a year, and a 15 per cent reduction is 1,260,000 × 0.15 = 189,000 of saving as well as an emissions reduction — which is the overlap of the three spheres in one line. Process waste of 1.5 per cent of cost of goods sold is 27,300,000 × 0.015 = 409,500, and waste is both an environmental issue and the cost of poor quality of Book 1.
+People: safety, pay and conditions, forced and child labour in the supply chain, diversity and inclusion, community effects.
+Products: nutrition and safety for a food company, packaging and its disposal, honest marketing, and what the product does to the people who use it.
+Governance and reporting: how sustainability is governed, what is disclosed, to what standard, and whether it is assured. Reporting frameworks have converged considerably — the International Sustainability Standards Board's standards building on earlier frameworks, with climate disclosure modelled on the task force recommendations — and the direction is toward disclosure that is comparable, assured and located in the financial report rather than beside it.
+Two issues that produce exam questions.
+Materiality, and its two senses. Financial materiality asks which sustainability matters affect the company's own cash flows and value — climate risk to the sesame crop, for example. Impact materiality asks which of the company's effects on the world are significant regardless of whether they rebound on it. Some frameworks require only the first and some require both, and an answer should say which sense it is using.
+And greenwashing: claims that overstate performance, that are unmeasurable, that count something the company would have done anyway, or that offset rather than reduce. It matters ethically because it is simply dishonesty about a technical subject, and it matters practically because regulators in several jurisdictions now treat it as a misleading commercial practice. The discipline is the one this book has applied throughout: state the measure, the basis, the period and the comparison, and do not claim what cannot be verified.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+value chain emissions | انبعاثات سلسلة القيمة | émissions de la chaîne de valeur
+transition risk | مخاطر التحول | risque de transition
+impact materiality | الأهمية من حيث الأثر | matérialité d'impact
+assurance | التحقق المستقل | vérification
+@end
+SECTION CHECK   Test yourself
+SC18-10  The three conceptual spheres of sustainability are:
+A.	economic, environmental and social.
+B.	economic, legal and ethical.
+C.	profit, people and philanthropy.
+D.	climate, water and waste.
+SC18-11  Energy costing 1,260,000 reduced by 15 per cent saves:
+A.	189,000
+B.	18,900
+C.	1,071,000
+D.	1,260,000
+SC18-12  Impact materiality asks:
+A.	which of the company's effects on the world are significant.
+B.	which matters affect the company's cash flows.
+C.	which disclosures are required by law.
+D.	which risks are insurable.
+Answers and explanations are at the end of the chapter.
+18.5  Data ethics and data protection
+The last two outcomes concern the newest of the obligations and the one changing fastest.
+Data ethics is the application of ethical principles to the collection, use, sharing and retention of data — particularly data about people, and particularly where decisions about people are made from it, including by models the company cannot fully explain. The outcome names five principles.
+Fairness. Data and the models built on it should not produce outcomes that disadvantage people on grounds that are irrelevant or unacceptable. The practical problem is that a model trained on historical data reproduces the patterns in that data, including the ones nobody would defend: a credit model, a recruitment screen or a pricing algorithm can discriminate accurately and indefensibly without any instruction to do so, and without anybody being able to point to the line that does it. Fairness is therefore a property to be tested for in outcomes, not an intention to be declared.
+Privacy. People should retain control over information about them: what is collected, for what purpose, who sees it, and how long it is kept. The ethical standard goes beyond consent, because consent obtained through a document nobody reads, as a condition of a service with no alternative, is not meaningful agreement — which is Chapter 12's fairness of process applied to data.
+Transparency. People should be able to know what data is held, how it is used, and when a decision about them has been made or assisted by a model. Where a model's workings cannot be explained, the company should be able to explain the decision anyway — what factors mattered, and how the decision can be questioned.
+Ownership. Whose data it is, and what rights follow. The legal answer varies and the ethical one is more settled: data about a person is not simply an asset of whoever collected it, and the rights that come with it — to access, to correct, to withdraw, to have it deleted — belong to the person.
+Accountability. Somebody is answerable for how data and models are used, for their outcomes, and for putting things right. A model is not a party and cannot be responsible; the company is, and the obligation is not discharged by the fact that an outcome was produced automatically.
+Four practical issues a management accountant meets directly.
+Data collected for one purpose used for another — the most common failure and the easiest to avoid, by asking whether the person would recognise this use as the one they agreed to.
+Retention: data kept because storage is cheap, long after any purpose, which raises both the ethical exposure and the loss if it is breached.
+Security, which is the operational risk of Chapter 1 applied to data, and where the duty to those whose data it is survives any outsourcing.
+And the use of models in decisions about people — credit limits, prices, employment — where the five principles apply together and where somebody must be able to answer a question about an individual case.
+Governmental data protection regulation, which is the final outcome, exists for a purpose the exam asks you to state: to protect individuals' rights in relation to information about them, by placing obligations on the organisations that hold it. The common features across jurisdictions are worth knowing as a set, since the detail varies and the pattern does not.
+A lawful basis is required for processing personal data, of which consent is only one; others include contract, legal obligation and a legitimate interest that does not override the person's rights.
+Purpose limitation and data minimisation: collect for a specified purpose, collect no more than is needed, and do not repurpose without a basis.
+Accuracy, and retention no longer than necessary.
+Security appropriate to the risk, with notification of breaches to the regulator and, where the risk is high, to the people affected, within short deadlines.
+Rights for individuals: to be informed, to access their data, to have it corrected or deleted, to object to certain processing, to portability, and in several regimes a right not to be subject to a decision made solely by automated processing where it has significant effects.
+Accountability and records: the organisation must be able to demonstrate compliance, which usually means documented assessments, policies and a responsible person.
+Restrictions on transferring data across borders, which bear directly on a company operating in several countries, as Chapter 15 noted.
+And substantial penalties, in several regimes calculated as a percentage of worldwide turnover, which places the subject firmly on the risk register of Chapter 3 rather than in the legal department alone.
+WORKED EXAMPLE   Worked example: the distributor's customer list
+Step 1. The proposal. Orontes's marketing manager proposes to buy a list of 40,000 consumer names and addresses from a distributor, for a direct campaign offering samples.
+Step 2. The questions to ask first. On what basis were these people's details collected, and does that basis cover a different company contacting them? Were they told their data might be shared? Can Orontes evidence that, or is it relying on the distributor's assurance?
+Step 3. The ethical test, independent of the legal one. Would these people recognise this use as something they agreed to? If the answer is no, the campaign fails the fairness and transparency principles whatever the contract with the distributor says, and Chapter 15's point applies: the lawfulness is a floor.
+Step 4. What to do. Require written evidence of the lawful basis and of what people were told; contract for it with warranties and an indemnity; limit the data taken to what the campaign needs and delete it afterwards; provide a clear opt-out in the first contact; and record the assessment. If the distributor cannot evidence the basis, decline the list, because the exposure is a penalty measured against turnover and a public failure in Orontes's own name.
+Check. The pattern is the same as the agent in Chapter 15: a third party offering something valuable whose provenance the company has not verified, where the liability and the reputation remain the company's own.
+YOUR TURN   The outward obligations
+Figure F818-03 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F818-03. Your turn: the last obligations (complete the blanks)
+@table
+Item | Data | Answer
+How most occupational fraud is detected | More than audit and review combined | ________
+The corporate offence under the UK Bribery Act, and its defence | Liability is strict, subject to one defence | ________
+The four levels of social responsibility | In ascending order | ________
+The three spheres of sustainability | Sustainability lives where they overlap | ________
+Saving from a 15 per cent cut in energy cost | Energy 1,260,000 | ________
+The five principles of data ethics | Named in the learning outcome | ________
+@end
+LANGUAGE FOCUS   "Whistleblower", "stakeholder" and "sustainable"
+Three words that carry arguments inside them. Whistleblower is an unfortunate English coinage: it suggests an outsider interrupting a game, and in many organisations it has acquired the sense of informer, which is why codes increasingly use speak up or raise a concern instead — the act is ordinary and the vocabulary should be too. Arabic الإبلاغ عن المخالفات, reporting violations, is neutral and better; French lanceur d'alerte, one who raises an alarm, is better still, since an alarm is something one is grateful for. Stakeholder was coined as a deliberate play on shareholder, and the play is the argument: it asserts that others hold a stake too. And sustainable has been used so widely that it now means little on its own — a sustainable product, a sustainable margin, a sustainable pace. In a report, replace it with what is meant: emissions reduced by a stated amount against a stated baseline, or water use per tonne, or a margin that does not depend on deferring maintenance. The general word is where greenwashing lives; the specific one cannot be greenwashed.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+lawful basis | الأساس القانوني | base légale
+data minimisation | تقليل البيانات | minimisation des données
+automated decision | القرار الآلي | décision automatisée
+provenance | مصدر البيانات | provenance
+@end
+SECTION CHECK   Test yourself
+SC18-13  Data ethics requires fairness to be:
+A.	tested for in outcomes, not declared as an intention.
+B.	assumed where no discrimination was intended.
+C.	established by consent.
+D.	delegated to the model.
+SC18-14  Consent obtained through an unread document as a condition of a service with no alternative:
+A.	is not meaningful agreement.
+B.	satisfies the ethical standard.
+C.	transfers accountability.
+D.	is required by regulation.
+SC18-15  The purpose of data protection regulation is to:
+A.	protect individuals' rights in relation to information about them.
+B.	protect companies from breaches.
+C.	standardise databases.
+D.	restrict competition.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F818-04 brings the chapter together.
+Figure F818-04. Chapter 18 summary map: the key rule for each section.
+A whistleblowing framework is how wrongdoing is actually found, since tips outrank every other detection method; it makes the code operative, extends the resolution ladder when that ladder is blocked, gives early warning and changes behaviour before it is used — requiring several routes including one outside the management line, confidentiality with anonymity available, explicit and enforced protection from retaliation, accessibility to everybody including agents, a defined process with feedback, reporting to the audit committee, and above all a demonstrated history. Anti-bribery laws exist to protect public decisions, fair competition and the integrity of records: the Foreign Corrupt Practices Act prohibits anything of value to a foreign official to obtain or retain business, including through intermediaries, and separately requires accurate books and records and internal accounting control, with a narrow facilitation exception and defences for conduct lawful under written local law or for reasonable promotional expenditure; the UK Bribery Act covers commercial bribery, creates four offences including the corporate failure to prevent bribery by an associated person, allows only the defence of adequate procedures under six principles, has no facilitation exception, and reaches any organisation doing business in the United Kingdom. Corporate responsibility for conduct covers the company's own people, conduct in its name by agents, its supply chain to the extent of its influence, and the effects of its products — structured by the four levels of economic, legal, ethical and philanthropic responsibility, in that order, so that philanthropy compensates for nothing below it. Sustainability has three spheres — economic, environmental and social — and lives where they overlap, as a 15 per cent cut in 42,000,000 × 0.03 = 1,260,000 of energy cost shows at 1,260,000 × 0.15 = 189,000, with major issues in climate and emissions, resources and waste at 27,300,000 × 0.015 = 409,500, people, products, and governance and reporting, and with materiality in two senses and greenwashing as the characteristic failure. And data ethics applies fairness tested in outcomes, privacy beyond nominal consent, transparency about decisions, ownership that rests with the person, and accountability that no model can carry — supported by data protection regulation whose purpose is to protect individuals' rights through lawful bases, purpose limitation and minimisation, accuracy and retention limits, security and breach notification, individual rights including over automated decisions, demonstrable accountability, cross-border restrictions and penalties measured against turnover.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P18-01  Occupational fraud is most often detected by:
+A.	tips.
+B.	external audit.
+C.	internal audit.
+D.	accident.
+P18-02  An effective whistleblowing framework must include:
+A.	at least one route outside the management line.
+B.	named reporting only.
+C.	investigation by the subject's manager.
+D.	a single annual report.
+P18-03  Protection from retaliation must extend to:
+A.	demotion, exclusion and reassignment as well as dismissal.
+B.	dismissal only.
+C.	employees only.
+D.	proven concerns only.
+P18-04  The accounting provisions of the Foreign Corrupt Practices Act concern:
+A.	books, records and internal accounting control.
+B.	political donations.
+C.	audit fees.
+D.	tax filings.
+P18-05  The UK Bribery Act's corporate offence is:
+A.	failing to prevent bribery by an associated person.
+B.	paying a foreign official.
+C.	failing to report bribery.
+D.	inaccurate accounting.
+P18-06  "Adequate procedures" rest on six principles beginning with:
+A.	proportionate procedures and top-level commitment.
+B.	insurance and indemnity.
+C.	audit and prosecution.
+D.	disclosure and consent.
+P18-07  Which level of social responsibility is discretionary?
+A.	Philanthropic
+B.	Economic
+C.	Legal
+D.	Ethical
+P18-08  The three spheres of sustainability are:
+A.	economic, environmental, social.
+B.	economic, legal, ethical.
+C.	climate, water, waste.
+D.	profit, people, philanthropy.
+P18-09  Energy cost of 3 per cent of 42,000,000 of sales is:
+A.	1,260,000
+B.	126,000
+C.	12,600,000
+D.	420,000
+P18-10  Waste of 1.5 per cent of cost of goods sold of 27,300,000 is:
+A.	409,500
+B.	40,950
+C.	4,095,000
+D.	273,000
+P18-11  Greenwashing is:
+A.	a claim that overstates environmental performance or cannot be verified.
+B.	a reporting standard.
+C.	an assurance procedure.
+D.	a carbon market.
+P18-12  Accountability in data ethics means:
+A.	a person or company is answerable, since a model cannot be.
+B.	the model is responsible for its outputs.
+C.	the user accepts the risk.
+D.	the regulator decides each case.
+Case-style practice: three items for the audit committee
+Orontes's audit committee has three items. First, the whistleblowing line received one call in two years and the committee is asked to approve its renewal at 12,000 a year. Second, the company is about to appoint an agent in a new market who will be paid 4 per cent of sales, and the agent is a former official of the ministry that licenses food imports there. Third, marketing proposes to buy a list of 40,000 consumer records from a distributor, and the proposal says the distributor "confirms the data is compliant".
+Required. Advise the committee on each item. Under 400 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC18-1  Answer A. Tips, chiefly from employees.
+B is wrong. External audit detects a small proportion.
+C is wrong. Internal audit detects more than external but less than tips.
+D is wrong. Review detects less than tips.
+SC18-2  Answer A. The highest-risk concerns go unreported.
+B is wrong. It is less effective.
+C is wrong. It is incomplete.
+D is wrong. Malice is addressed by investigation, not by naming.
+SC18-3  Answer A. The precedent set by the first case.
+B is wrong. Wording persuades nobody.
+C is wrong. Training explains the route only.
+D is wrong. The provider is a mechanism.
+SC18-4  Answer A. Accurate records and internal accounting control.
+B is wrong. No general disclosure is required.
+C is wrong. Regulators do not approve agents.
+D is wrong. Hotlines come from other rules.
+SC18-5  Answer A. Failure to prevent by an associated person.
+B is wrong. That is a separate offence.
+C is wrong. So is that.
+D is wrong. That belongs to the US accounting provisions.
+SC18-6  Answer A. Adequate procedures is the statutory defence.
+B is wrong. Knowledge is not required for the offence.
+C is wrong. Custom is no defence.
+D is wrong. Size does not matter.
+SC18-7  Answer A. Philanthropic completes the four.
+B is wrong. Environmental is a sustainability sphere.
+C is wrong. Regulatory is part of legal.
+D is wrong. Fiduciary is a different duty.
+SC18-8  Answer A. Without viability nothing else is possible.
+B is wrong. It is the foundation, not the sole objective.
+C is wrong. Law does not require profit.
+D is wrong. Shareholder demand is not the reason given.
+SC18-9  Answer A. Philanthropy does not offset lower levels.
+B is wrong. The ethical level was failed.
+C is wrong. Obligations below were not met.
+D is wrong. The economic level is about viability.
+SC18-10  Answer A. Economic, environmental, social.
+B is wrong. Those are levels of responsibility.
+C is wrong. Philanthropy is not a sphere.
+D is wrong. Those are environmental issues.
+SC18-11  Answer A. 1,260,000 × 0.15 = 189,000.
+B is wrong. That is ten times too small.
+C is wrong. That is the remaining cost.
+D is wrong. That is the whole cost.
+SC18-12  Answer A. Effects on the world.
+B is wrong. That is financial materiality.
+C is wrong. Legal requirement is separate.
+D is wrong. Insurability is unrelated.
+SC18-13  Answer A. Outcomes must be tested.
+B is wrong. Intention does not prevent disparate outcomes.
+C is wrong. Consent concerns privacy.
+D is wrong. A model cannot hold a duty.
+SC18-14  Answer A. It is not meaningful agreement.
+B is wrong. Legality is a floor, not the standard.
+C is wrong. Accountability cannot be transferred this way.
+D is wrong. Regulation requires a valid basis.
+SC18-15  Answer A. Protecting individuals' rights.
+B is wrong. Companies bear the obligations.
+C is wrong. Standardisation is not the purpose.
+D is wrong. Competition is a different field.
+Your turn
+@table
+Item | Answer
+How most fraud is detected | Tips, chiefly from employees — more than audit and review combined.
+The UK corporate offence and its defence | Failing to prevent bribery by an associated person; the defence is adequate procedures.
+The four levels of responsibility | Economic, legal, ethical and philanthropic.
+The three spheres of sustainability | Economic, environmental and social.
+Saving from a 15 per cent energy cut | 189,000: 1,260,000 × 0.15 = 189,000.
+The five principles of data ethics | Fairness, privacy, transparency, ownership and accountability.
+What it tells you | Five lists and one calculation — and the calculation is there to show that the sustainability sphere where the three overlap is found with figures, which is the management accountant's part of all of this.
+@end
+Multiple-choice questions
+P18-01  Answer A. Tips lead every other method.
+B is wrong. External audit is a small proportion.
+C is wrong. Internal audit detects less than tips.
+D is wrong. Accident is a residual category.
+P18-02  Answer A. A route outside management.
+B is wrong. Anonymity must be available.
+C is wrong. The subject's manager is not independent.
+D is wrong. Annual reporting is not the mechanism.
+P18-03  Answer A. All forms of detriment.
+B is wrong. Dismissal is one form.
+C is wrong. Agents and contractors should be covered.
+D is wrong. Good-faith reports are protected regardless.
+P18-04  Answer A. Records and internal accounting control.
+B is wrong. Donations are a separate topic.
+C is wrong. Fees are unrelated.
+D is wrong. Tax is a different regime.
+P18-05  Answer A. The failure-to-prevent offence.
+B is wrong. That is a separate offence.
+C is wrong. No general failure-to-report offence exists there.
+D is wrong. That is the US accounting provision.
+P18-06  Answer A. Proportionality and top-level commitment.
+B is wrong. Insurance is not a principle.
+C is wrong. Prosecution is an outcome.
+D is wrong. Consent belongs to data protection.
+P18-07  Answer A. Philanthropy is discretionary.
+B is wrong. Economic is required.
+C is wrong. Legal is required.
+D is wrong. Ethical is expected.
+P18-08  Answer A. Economic, environmental, social.
+B is wrong. Those are responsibility levels.
+C is wrong. Those are issues.
+D is wrong. Philanthropy is not a sphere.
+P18-09  Answer A. 42,000,000 × 0.03 = 1,260,000.
+B is wrong. That is ten times too small.
+C is wrong. That is ten times too large.
+D is wrong. That is 1 per cent.
+P18-10  Answer A. 27,300,000 × 0.015 = 409,500.
+B is wrong. That is ten times too small.
+C is wrong. That is ten times too large.
+D is wrong. That is 1 per cent.
+P18-11  Answer A. Overstated or unverifiable claims.
+B is wrong. It is not a standard.
+C is wrong. Assurance is the opposite.
+D is wrong. A market is a mechanism.
+P18-12  Answer A. Somebody must be answerable.
+B is wrong. A model cannot bear responsibility.
+C is wrong. Risk does not transfer to the user.
+D is wrong. Regulators adjudicate; they do not hold the duty.
+Case-style set: three items for the audit committee
+The whistleblowing line. One call in two years from four hundred employees is not evidence that the line is unnecessary; it is evidence that it is not trusted or not known, and cancelling it would remove the mechanism that detects more wrongdoing than audit and management review combined. I would renew it and fix it: add a route to the committee chair directly; confirm anonymity is available; publish, with the renewal, what happened to the one concern that was raised; state the protection from retaliation in terms that cover exclusion and reassignment, not only dismissal; make it available to agents, contractors and suppliers in their own languages; and ask the committee to receive a standing report of concerns raised, categories, time taken and outcomes. The 12,000 is not the decision; whether people believe the line works is the decision.
+The agent. This is the highest-risk item on the agenda. A 4 per cent commission is not in itself improper, but an agent who is a former official of the ministry that licenses the company's imports is the exact profile the anti-bribery laws are written about, and the company would be liable under the UK Bribery Act's failure-to-prevent offence for a bribe paid by that agent to obtain business, with adequate procedures its only defence. Before any appointment I would require documented due diligence covering the agent's ownership, continuing relationships with the ministry and reputation; a written contract with a defined scope, deliverables, anti-bribery warranties, audit rights and termination on breach; payment by bank transfer in the country of performance against invoices, never in cash or to a third country; a commission benchmarked to what the services are worth; and training and periodic certification. If the due diligence cannot be completed, the appointment should not proceed — and the committee should note that the finance function's own records are where any problem will first be visible.
+The consumer list. "The distributor confirms the data is compliant" is an assurance, not evidence, and the liability and the reputation would be Orontes's. I would require written evidence of the lawful basis on which the 40,000 records were collected and of what those people were told, including whether sharing with another company was disclosed; a contract with warranties and an indemnity; minimisation of what is taken and deletion after the campaign; a clear opt-out in the first contact; and a documented assessment. The test that decides it is simpler than any of that: would these people recognise this use as something they agreed to? If not, the campaign should not run, whatever the distributor confirms.

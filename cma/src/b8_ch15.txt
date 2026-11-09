@@ -1,0 +1,522 @@
+Chapter 15
+Values across borders; ethics, law and internal control
+القيم عبر الحدود؛ الأخلاق والقانون والرقابة الداخلية
+Orontes sells in four countries, buys from two more, and will shortly be asked to do something in one of them that would be unthinkable at home and is entirely normal there. This chapter is about that situation and two others like it.
+Three outcomes meet here and they belong together. What happens to a company's values when it operates in places with different laws and different customs. How ethical behaviour differs from legal behaviour, which is the distinction the first question keeps running into. And how ethics and internal control depend on one another, which is where the second half of this book rejoins the first.
+Figure F815-01 is your map.
+Figure F815-01. Chapter 15 roadmap: values across borders, the gap between law and ethics, and the control environment that rests on it.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+F.3.a
+Discuss the issues organisations face in applying their values and ethical standards internationally.
+C
+Full treatment
+F.3.n
+Demonstrate an understanding of the differences between ethical and legal behaviour.
+C
+Full treatment
+F.3.b
+Demonstrate an understanding of the relationship between ethics and internal controls.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section F outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cultural relativism
+النسبية الثقافية
+relativisme culturel
+ethical absolutism
+الإطلاقية الأخلاقية
+absolutisme moral
+core value
+القيمة الجوهرية
+valeur fondamentale
+facilitation payment
+دفعة التيسير
+paiement de facilitation
+extraterritorial law
+القانون خارج الحدود
+loi extraterritoriale
+control environment
+بيئة الرقابة
+environnement de contrôle
+management override
+تجاوز الإدارة للضوابط
+contournement par la direction
+local practice
+الممارسة المحلية
+pratique locale
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 12 noted that ethics is not the same as legality and left the distinction here. Chapter 7 built the controls and Chapter 12 observed that each of them depends on people being willing to do their jobs honestly. Chapter 1 defined political and compliance risk, which are what a values conflict looks like when it reaches the risk register.
+15.1  Applying values across borders
+The outcome asks for the issues an organisation faces in applying its values and ethical standards internationally, and there are seven worth naming.
+Different laws, and conflicting ones. Employment protections, environmental limits, data rules, disclosure requirements and competition law differ, and occasionally a company is required by one country's law to do what another's forbids. Data transfer and sanctions produce the sharpest cases.
+Different customs around gifts, hospitality and payments. In some markets a payment to an official to do what they are already obliged to do — clear a shipment, issue a licence — is routine and expected. It is a facilitation payment, it is a criminal offence under the laws Chapter 18 describes, and the company that refuses it bears a real cost: a consignment held five days costs Orontes 46,027 × 5 = 230,135 of contribution, against a payment of 2,000 which is 2,000 ÷ 450,000 = 0.44 per cent of the shipment's value. The arithmetic is exactly why the rule has to be absolute: anything less than a prohibition becomes a calculation, and the calculation always favours paying.
+Different labour and safety standards. Working hours, minimum ages, union rights, accommodation and safety equipment. A company may be entirely lawful locally and far below what it would accept at home, and the question is which standard applies to its own operations and to its suppliers'.
+Different environmental standards, with the same structure.
+Conduct in the supply chain and among partners. A company is judged by what is done in its name — by its distributors, agents, joint-venture partners and suppliers — and it usually has less control over them than over its own staff. Agents in particular are the standard route by which bribery enters a company that has prohibited it.
+The reach of home-country law. Anti-bribery statutes, sanctions and some tax and disclosure rules apply to conduct abroad, so "it is legal there" is not even a legal defence, let alone an ethical one.
+And the practical problems of applying a code at a distance: translation that must carry meaning and not only words, local managers who have to interpret general principles in situations the code never contemplated, training delivered in a language and a format that work locally, monitoring that is genuine rather than a questionnaire, and a reporting route a local employee will actually use.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+conflicting requirements
+المتطلبات المتعارضة
+exigences contradictoires
+agent
+الوكيل
+agent
+supply chain conduct
+سلوك سلسلة التوريد
+conduite de la chaîne d'approvisionnement
+local interpretation
+التفسير المحلي
+interprétation locale
+SECTION CHECK   Test yourself
+SC15-1  A facilitation payment is:
+A.	a payment to an official to do what they are already obliged to do.
+B.	a commission to an agent.
+C.	a customs duty.
+D.	a lawful discount.
+SC15-2  The reason a rule against such payments must be absolute is that:
+A.	anything less becomes a calculation that favours paying.
+B.	the amounts are large.
+C.	they are always detected.
+D.	no business is lost by refusing.
+SC15-3  Bribery most often enters a company that has prohibited it through:
+A.	agents and intermediaries.
+B.	its own finance staff.
+C.	its external auditors.
+D.	its customers.
+Answers and explanations are at the end of the chapter.
+15.2  Three positions, and the workable one
+Two extreme positions are available and both fail, which is why the exam wants the middle one described.
+Absolutism holds that the company's home standards apply everywhere without variation. Its strength is clarity: nobody has to interpret anything, and the rule is the same in every office. Its weaknesses are that it can be arrogant — not every local practice is worse, merely different — that it may be impractical or even unlawful locally, and that it leaves no room for the genuine differences in custom that have nothing to do with right and wrong.
+Relativism holds that the right standard is whatever is accepted locally — "when in Rome". Its strength is respect for local practice and the recognition that outsiders understand less than they think. Its weakness is fatal: it provides no ground on which to refuse anything, since every practice is accepted somewhere, and it hands the standard to whoever benefits from the worst local custom.
+The workable position distinguishes between core values and local practice.
+Core values do not vary. Honesty, safety, no bribery, no forced or child labour, no deliberate misstatement, no discrimination of the kinds the company has named: these apply in every country and in every operation, and they are the zero-tolerance categories of Chapter 6's appetite statement.
+Local practice varies, and should. Negotiating style, the role of relationships and intermediaries, how directly disagreement is expressed, hospitality norms, hierarchy, working patterns, how decisions are made and recorded. A company that treats these as ethical matters mistakes unfamiliarity for wrongdoing.
+The hard cases live in between, and the exam uses them: a gift that is customary and substantial; a hiring practice that favours family and is universal locally; a supplier whose working conditions are lawful and poor; a payment that is demanded rather than offered. Four tests help.
+Would we do it at home, and if not, what exactly is different? Sometimes the answer is a real difference in circumstance and sometimes it is only that nobody would see.
+Is it lawful under every law that reaches us, including the home-country law of section 15.1?
+Could we describe it publicly — to our own employees, to a customer, to a newspaper?
+And is it being required of us, or offered to us? Extortion and opportunity are different cases, and a payment demanded under threat of harm is treated differently in most anti-bribery regimes from one offered to win business — though the company should still report and record it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+core and local
+الجوهري والمحلي
+fondamental et local
+zero tolerance
+عدم التسامح مطلقاً
+tolérance zéro
+extortion
+الابتزاز
+extorsion
+hard case
+الحالة الصعبة
+cas limite
+SECTION CHECK   Test yourself
+SC15-4  The fatal weakness of relativism is that it:
+A.	provides no ground on which to refuse anything.
+B.	is impractical.
+C.	is unlawful.
+D.	is arrogant.
+SC15-5  A workable international ethics policy distinguishes:
+A.	core values, which do not vary, from local practice, which does.
+B.	large payments from small ones.
+C.	home operations from foreign ones.
+D.	employees from agents.
+SC15-6  Treating local negotiating style and hospitality norms as ethical failings:
+A.	mistakes unfamiliarity for wrongdoing.
+B.	is required by a code of conduct.
+C.	is relativism.
+D.	is the absolutist position correctly applied.
+Answers and explanations are at the end of the chapter.
+15.3  Ethical and legal behaviour
+The outcome asks for the differences, and four of them matter.
+Law is a floor; ethics is a standard. Everything the law forbids is unethical in the ordinary case, but a great deal that is lawful is not ethical: a contract term enforced against a party who did not understand it, a redundancy handled lawfully and brutally, a marketing claim technically true and designed to mislead, a tax structure that is legal and indefensible in public. Legal compliance is the minimum, not the objective.
+Law is enforced externally; ethics is enforced internally and professionally. The sanction for illegality is a court; the sanction for unethical conduct is reputation, professional membership, trust and the loss of people who will not work for the company.
+Law is specific, codified and backward-looking. It names acts, in writing, after a problem has been recognised. Ethics applies to situations no rule has contemplated — new technologies, new markets, new products — and it operates before the law catches up. The data ethics of Chapter 18 is the clearest current example.
+And law varies by jurisdiction; core ethical values are held to be the same everywhere, which is section 15.2's point.
+Figure F815-02 sets out the four combinations.
+Figure F815-02. Legal and ethical
+Case
+Example
+What to do
+Legal and ethical
+Ordinary trading on agreed terms
+Proceed
+Legal but unethical
+A technically true marketing claim designed to mislead
+Refuse; the law is not the standard
+Illegal but widely tolerated locally
+A facilitation payment
+Refuse; and report the demand
+Illegal and unethical
+Bribery to win a contract
+Refuse; report; investigate
+Two further points the examiners use.
+A legal requirement can conflict with an ethical obligation. A local law requiring disclosure of information a professional holds in confidence, or forbidding the employment of a group the company's values require it to treat equally, puts the two in direct conflict. The resolution is legal advice, escalation and, where the conflict is irreducible, a decision about whether to operate there at all.
+And "it is not illegal" is the most reliable warning phrase in business. It is almost never offered about a decision that is comfortable, and a professional who hears it should ask what the speaker thinks the ethical objection is, since they have evidently thought of one.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+minimum standard
+الحد الأدنى من المعايير
+norme minimale
+external sanction
+الجزاء الخارجي
+sanction externe
+irreducible conflict
+التعارض غير القابل للحل
+conflit insoluble
+warning phrase
+العبارة المنذرة
+formule d'alerte
+SECTION CHECK   Test yourself
+SC15-7  The relationship between law and ethics is best described as:
+A.	law is a floor and ethics a standard.
+B.	law is stricter than ethics.
+C.	they are identical.
+D.	ethics applies only where law is silent.
+SC15-8  Ethics operates before the law in situations such as:
+A.	new technologies the law has not yet addressed.
+B.	established contracts.
+C.	criminal prosecutions.
+D.	tax filings.
+SC15-9  The phrase "it is not illegal":
+A.	is a warning that the speaker has thought of an ethical objection.
+B.	settles the question.
+C.	indicates a legal opinion has been obtained.
+D.	is irrelevant.
+Answers and explanations are at the end of the chapter.
+15.4  Ethics and internal control
+The third outcome asks for the relationship between ethics and internal control, and it runs in both directions.
+Ethics is the foundation of internal control. COSO's internal control framework puts the control environment first among its five components and makes a commitment to integrity and ethical values its first principle, for a reason: every control is performed by somebody, and a control performed by somebody willing to subvert it is not a control. Chapter 12 made the point with the table of frauds, and three consequences follow.
+Controls can be overridden. Management override is the most common way serious control failures occur and the hardest to prevent, because the person overriding has the authority to do so. No amount of control design addresses it; what addresses it is a culture in which an override is questioned and a route by which the question reaches somebody independent.
+Controls can be circumvented by collusion. Segregation of duties works because two people must agree, and it fails when they do. The defence is ethical and cultural as much as procedural.
+And controls that are not believed in are not performed. A reconciliation signed without being done, an approval given without being considered, a supplier review completed from memory: these are the ordinary way a control framework hollows out, and nothing in the documentation reveals it.
+Internal control supports ethical behaviour. The relationship runs back the other way too, and this half is as examinable.
+Controls remove opportunity, which is one side of Chapter 14's triangle, and they remove it from honest people as well as dishonest ones. Segregation of duties protects the person who handles cash from suspicion as much as it protects the cash.
+Controls make the standard concrete. A code that says "we do not accept inappropriate gifts" is interpreted; a control that requires every gift above a value to be recorded in a register that somebody reviews is not.
+Controls create the record on which accountability depends — Chapter 12's duty to account.
+And controls reduce the pressure on individual courage. A professional who can point to a rule, a threshold or a required approval is in a far stronger position than one who must refuse on personal judgment alone, and that is one of the most practical arguments for having written policies at all.
+The two together produce the conclusion the exam wants: neither ethics nor control is sufficient alone. Controls without ethics are a structure people work around; ethics without controls is a good intention with no record, no consistency and no protection for the person who has to say no.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+collusion
+التواطؤ
+collusion
+hollowing out
+إفراغ الضوابط من مضمونها
+vidage de substance
+gift register
+سجل الهدايا
+registre des cadeaux
+written policy
+السياسة المكتوبة
+politique écrite
+SECTION CHECK   Test yourself
+SC15-10  Management override is hard to prevent because:
+A.	the person overriding has the authority to do so.
+B.	it is undocumented.
+C.	it is always collusive.
+D.	it is lawful.
+SC15-11  Segregation of duties protects:
+A.	the honest employee from suspicion as well as the asset from theft.
+B.	only the asset.
+C.	only management.
+D.	only the auditors.
+SC15-12  Ethics without controls leaves:
+A.	no record, no consistency and no protection for the person who refuses.
+B.	a complete framework.
+C.	a lower cost of compliance only.
+D.	nothing to improve.
+Answers and explanations are at the end of the chapter.
+15.5  Designing for both
+What a company actually does with all of this falls into five practical measures, and an exam answer that offers them is answering the outcome rather than describing it.
+A code of conduct that is specific where it matters. Chapter 16 develops this. For the international case specifically, the code should name the zero-tolerance categories explicitly, state that it applies to agents and partners, and say what to do when local law and the code conflict.
+Controls designed with the local situation in mind. A segregation of duties that assumes six people in a finance function cannot be applied in an office of three, and pretending otherwise produces a documented control nobody performs. The answer is a different control — review by the regional office, a payment approval held centrally, a rotation — not a fiction.
+Due diligence on third parties, proportionate to the risk, with contractual rights to audit and to terminate. The agent is the exposure, and the contract is where it is managed.
+A reporting route that works locally: in the local language, available to people who do not have company email, free of the expectation that a concern will reach the person it concerns, and with a demonstrated history of being used without consequence. Chapter 18 returns to this.
+And training in situations rather than rules. The useful training is the one that works through the shipment held at the port, the gift at the new year, the customer who asks for an invoice with a different date — because those are the forms in which the problem arrives.
+WORKED EXAMPLE   Worked example: the shipment at the port
+Step 1. The situation. A consignment of 450,000 is held at a port, and the official responsible indicates that it will be cleared promptly on payment of 2,000 in cash, which is customary.
+Step 2. The cost of refusing. Every day the consignment is held costs Orontes about 46,027 of contribution, so a five-day delay is 46,027 × 5 = 230,135 — more than a hundred times the payment, which is itself only 2,000 ÷ 450,000 = 0.44 per cent of the shipment's value.
+Step 3. Why the arithmetic is irrelevant. The payment is a bribe under the laws of Chapter 18, which reach Orontes wherever it operates; it is a zero-tolerance category under the appetite statement of Chapter 6; and the moment it is made once, the company has established that it pays, and the price and the frequency will both rise.
+Step 4. What to do instead. Refuse, clearly and politely, and say that the company is not permitted to make such payments. Escalate within the port authority and to the company's local counsel. Involve the customer, who may have standing. Record the demand in writing and report it through the company's own channel. Expect the delay and plan for it, which is a supply chain decision: buffer stock, earlier shipment, a different port, or a freight agent with a demonstrable record.
+Check. Note the shape of the answer. The refusal is the easy half; the difficult half is that somebody must bear the 230,135 and must not be penalised for it. A company whose local manager is measured on delivery performance and told to refuse facilitation payments has created exactly the pressure of Chapter 14's triangle, and it will get what it has designed for.
+YOUR TURN   Borders, law and control
+Figure F815-03 gives six questions. Complete the blanks. Answers are at the end of the chapter.
+Figure F815-03. Your turn: values and controls (complete the blanks)
+Item
+Data
+Answer
+A payment to an official to do what they already must do
+Customary locally; 2,000 on a 450,000 shipment
+________
+The position that local acceptance determines the standard
+"When in Rome"
+________
+What distinguishes core values from local practice
+Bribery against negotiating style
+________
+The relationship between law and ethics
+Much that is lawful is not ethical
+________
+Cost of a five-day delay in contribution
+46,027 a day
+________
+What makes controls fail despite good design
+Three mechanisms
+________
+LANGUAGE FOCUS   "When in Rome", "grease" and "gift"
+Three English expressions do a great deal of quiet work in this area. "When in Rome, do as the Romans do" is relativism compressed into a proverb, and it is almost always produced to justify something the speaker would not do at home — which is the test that defeats it. Grease payment is the informal term for a facilitation payment, and the metaphor is doing the arguing: grease makes machinery run smoothly and sounds harmless, which is the opposite of what the laws of Chapter 18 say about it. And gift is the most elastic word of all, covering a calendar, a dinner, a holiday and a payment; English practice in codes of conduct is therefore to abandon the word and specify — anything of value, including hospitality, travel, services and offers of employment to relatives. Arabic هدية and French cadeau are equally elastic, and the same solution applies in both. When writing or reading a code, look for the specifics; where a code says only "inappropriate gifts", nobody has yet decided anything.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+anything of value
+أي شيء ذي قيمة
+tout avantage
+third-party due diligence
+العناية الواجبة تجاه الأطراف الثالثة
+diligence sur les tiers
+right to audit
+حق التدقيق
+droit d'audit
+situational training
+التدريب على الحالات
+formation par cas
+SECTION CHECK   Test yourself
+SC15-13  A segregation of duties that an office of three cannot perform should be:
+A.	replaced by a different control, such as review from outside the office.
+B.	documented anyway.
+C.	ignored.
+D.	applied by combining roles.
+SC15-14  The main exposure in international bribery risk is usually:
+A.	third-party agents and intermediaries.
+B.	the finance function.
+C.	the external auditor.
+D.	the board.
+SC15-15  A local manager measured on delivery performance and told to refuse facilitation payments:
+A.	has been given the pressure side of the fraud triangle by design.
+B.	faces no conflict.
+C.	is adequately supported.
+D.	should use personal judgment.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F815-04 brings the chapter together.
+Figure F815-04. Chapter 15 summary map: the key rule for each section.
+Applying values internationally raises seven issues: conflicting laws, customs around gifts and facilitation payments, labour and safety standards, environmental standards, conduct by agents and suppliers, the extraterritorial reach of home-country law, and the practical difficulty of translating, interpreting, training and monitoring a code at a distance. Absolutism is clear and can be arrogant or unlawful; relativism respects local practice and provides no ground to refuse anything; the workable position holds core values constant — honesty, safety, no bribery, no forced or child labour, no deliberate misstatement — while allowing local practice to vary, and tests the hard cases by whether it would be done at home, whether every applicable law permits it, whether it could be described publicly, and whether it is demanded or offered. Law is a floor and ethics a standard; law is enforced externally and ethics professionally and reputationally; law is codified and backward-looking while ethics reaches situations no rule anticipated; and law varies by jurisdiction where core values do not. Ethics is the foundation of internal control, because controls can be overridden, circumvented by collusion or hollowed out by people who do not believe in them; and internal control supports ethics, by removing opportunity, making the standard concrete, creating the record accountability depends on, and relieving individuals of having to refuse on personal judgment alone — so neither is sufficient without the other. And designing for both means a specific code that covers agents, controls adapted to the local situation rather than documented fictions, third-party due diligence with rights to audit and terminate, a reporting route people will actually use, situational training, and a recognition that a five-day delay costing 46,027 × 5 = 230,135 must be borne by somebody who is not then penalised for bearing it.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P15-01  A facilitation payment is made to:
+A.	secure performance of a duty the official already owes.
+B.	win a contract against competitors.
+C.	settle a customs liability.
+D.	pay an agent's commission.
+P15-02  Cultural relativism fails because it:
+A.	gives no basis for refusing any practice.
+B.	is impractical to apply.
+C.	conflicts with local law.
+D.	is too strict.
+P15-03  Which belongs among core values that do not vary?
+A.	No bribery
+B.	Negotiating style
+C.	Hospitality norms
+D.	Directness of disagreement
+P15-04  "It is legal there" is:
+A.	not even a legal defence where home-country law reaches the conduct.
+B.	a complete answer.
+C.	an ethical justification.
+D.	irrelevant to the law.
+P15-05  Law in relation to ethics is:
+A.	a floor.
+B.	a ceiling.
+C.	identical.
+D.	broader.
+P15-06  Ethics reaches situations law has not addressed because law is:
+A.	codified and backward-looking.
+B.	universal.
+C.	enforced internally.
+D.	optional.
+P15-07  The first component of COSO's internal control framework is:
+A.	the control environment.
+B.	control activities.
+C.	monitoring.
+D.	risk assessment.
+P15-08  Management override is difficult to control because:
+A.	the person has authority to override.
+B.	it requires collusion.
+C.	it is always concealed.
+D.	it is lawful.
+P15-09  Internal control supports ethics by:
+A.	removing opportunity and making the standard concrete.
+B.	replacing the need for values.
+C.	increasing pressure.
+D.	eliminating judgment.
+P15-10  A control nobody performs but everybody documents is:
+A.	a hollowed-out control.
+B.	a detective control.
+C.	a compensating control.
+D.	adequate if documented.
+P15-11  A five-day delay at 46,027 of contribution a day costs:
+A.	230,135
+B.	46,027
+C.	92,054
+D.	450,000
+P15-12  The principal defence against bribery through agents is:
+A.	due diligence, contractual rights and monitoring.
+B.	a code of conduct alone.
+C.	a higher commission.
+D.	paying the agent in cash.
+Case-style practice: the new distributor's request
+Orontes's distributor in a new market asks for a 4 per cent "market development allowance" to be paid to a consultancy it nominates, in cash, in a third country, with no written agreement. The distributor says the arrangement is normal in that market, that the consultancy will handle registration and shelf placement, and that the business is worth 2,400,000 a year. Orontes's local manager supports the request and says the market cannot be entered without it.
+Required. Evaluate the request, say what you would do, and explain what the company should put in place for this market. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC15-1  Answer A. A payment for a duty already owed.
+B is wrong. That is an agent's fee.
+C is wrong. A duty is paid to the state.
+D is wrong. A discount is a commercial term.
+SC15-2  Answer A. Any threshold becomes a calculation.
+B is wrong. The amounts are typically small.
+C is wrong. Detection is uncertain.
+D is wrong. Refusing often costs real money.
+SC15-3  Answer A. Intermediaries are the usual route.
+B is wrong. Finance staff are rarely the channel.
+C is wrong. Auditors are outside the transaction.
+D is wrong. Customers are not the usual conduit.
+SC15-4  Answer A. Every practice is accepted somewhere.
+B is wrong. Relativism is easy to apply.
+C is wrong. Local law is what it defers to.
+D is wrong. Arrogance is absolutism's failing.
+SC15-5  Answer A. Core constant, local variable.
+B is wrong. Size is not the distinction.
+C is wrong. Geography is not the distinction.
+D is wrong. The code should cover agents too.
+SC15-6  Answer A. Unfamiliarity is not wrongdoing.
+B is wrong. A code should not do this.
+C is wrong. Relativism is the opposite error.
+D is wrong. Absolutism applied to core values, not to style.
+SC15-7  Answer A. A floor and a standard.
+B is wrong. Ethics is the stricter of the two.
+C is wrong. Much lawful conduct is unethical.
+D is wrong. Ethics applies everywhere.
+SC15-8  Answer A. Law follows events.
+B is wrong. Contracts are governed by law.
+C is wrong. Prosecutions are legal processes.
+D is wrong. Filings are legal requirements.
+SC15-9  Answer A. It signals a recognised objection.
+B is wrong. Legality is not the standard.
+C is wrong. It usually indicates the opposite.
+D is wrong. It is highly informative.
+SC15-10  Answer A. Authority defeats design.
+B is wrong. Overrides may be documented.
+C is wrong. One person can override.
+D is wrong. Lawfulness is not the issue.
+SC15-11  Answer A. It protects the person as well as the asset.
+B is wrong. Both are protected.
+C is wrong. Everyone benefits.
+D is wrong. Auditors are not the purpose.
+SC15-12  Answer A. No record, no consistency, no protection.
+B is wrong. The framework is incomplete.
+C is wrong. Cost is not the issue.
+D is wrong. Much remains to improve.
+SC15-13  Answer A. Use a different control that can actually be performed.
+B is wrong. Documenting a fiction is worse than nothing.
+C is wrong. The risk remains.
+D is wrong. Combining roles removes the control.
+SC15-14  Answer A. Agents and intermediaries.
+B is wrong. Finance is rarely the channel.
+C is wrong. Auditors are external.
+D is wrong. The board sets tone, but is not the usual conduit.
+SC15-15  Answer A. The design creates the pressure.
+B is wrong. The conflict is direct.
+C is wrong. Support is exactly what is missing.
+D is wrong. Personal judgment is what the policy should replace.
+Your turn
+Item
+Answer
+A payment for a duty already owed
+A facilitation payment, prohibited under anti-bribery laws.
+The position that local acceptance sets the standard
+Cultural relativism.
+Core values against local practice
+Core values do not vary; local practice may, where no core value is engaged.
+Law and ethics
+Law is a floor; ethics is the standard, and much that is lawful is unethical.
+Cost of a five-day delay
+230,135: 46,027 × 5 = 230,135.
+Why well-designed controls fail
+Override, collusion, and controls performed without belief.
+What it tells you
+Five of the six are about judgment and one is arithmetic — and the arithmetic exists to show exactly why the judgment has to be made in advance.
+Multiple-choice questions
+P15-01  Answer A. A duty already owed.
+B is wrong. That is bribery to obtain business.
+C is wrong. A liability is paid to the state.
+D is wrong. Commission is a contractual fee.
+P15-02  Answer A. No basis for refusal remains.
+B is wrong. It is easy to apply.
+C is wrong. It defers to local law.
+D is wrong. It is permissive, not strict.
+P15-03  Answer A. Bribery is a zero-tolerance category.
+B is wrong. Style varies legitimately.
+C is wrong. So do hospitality norms within limits.
+D is wrong. Directness is cultural.
+P15-04  Answer A. Home-country law reaches conduct abroad.
+B is wrong. It answers nothing.
+C is wrong. Legality is not ethics.
+D is wrong. It is directly relevant to the law.
+P15-05  Answer A. A minimum standard.
+B is wrong. Ethics goes further.
+C is wrong. They differ.
+D is wrong. Ethics is broader.
+P15-06  Answer A. Codified after the event.
+B is wrong. Law varies by jurisdiction.
+C is wrong. Law is externally enforced.
+D is wrong. Law is not optional.
+P15-07  Answer A. The control environment.
+B is wrong. Activities come later.
+C is wrong. Monitoring is last.
+D is wrong. Assessment follows the environment.
+P15-08  Answer A. Authority to override.
+B is wrong. Collusion is a separate failure.
+C is wrong. It is often visible.
+D is wrong. Lawfulness is irrelevant.
+P15-09  Answer A. Opportunity removed, standards made concrete.
+B is wrong. Values remain essential.
+C is wrong. Controls relieve pressure on individuals.
+D is wrong. Judgment is still required.
+P15-10  Answer A. Documented but not performed.
+B is wrong. Detection requires performance.
+C is wrong. A compensating control is performed.
+D is wrong. Documentation does not perform it.
+P15-11  Answer A. 46,027 × 5 = 230,135.
+B is wrong. That is one day.
+C is wrong. That is two days.
+D is wrong. That is the shipment's value.
+P15-12  Answer A. Due diligence, contract and monitoring.
+B is wrong. A code alone does not reach a third party.
+C is wrong. Higher commission increases the risk.
+D is wrong. Cash payment makes it worse.
+Case-style set: the new distributor's request
+What is being asked. Four features of the request point the same way: a payment of 4 per cent of 2,400,000, which is 96,000 a year, to a party Orontes has not chosen; in cash; in a third country; with no written agreement and no defined deliverable. Each of those is a recognised indicator of a corrupt arrangement, and together they are close to a complete set. The stated services — registration and shelf placement — are the kind of thing that may be legitimate consultancy or may be a channel to officials, and the absence of any contract means the company could not tell which afterwards.
+Why the local manager's argument does not settle it. "The market cannot be entered without it" may be entirely true, and it is not an answer. If entering a market requires an arrangement the company cannot describe publicly and cannot document, the correct conclusion is that this market cannot be entered on these terms — which is Chapter 5's avoidance response, chosen because the exposure cannot be brought within appetite by any other means.
+What I would do. Decline the arrangement as presented, in writing, with the reason stated as a matter of company policy rather than as an accusation against the distributor. Ask for the alternative: a named consultancy with a written contract, a defined scope, invoices against deliverables, payment by bank transfer to an account in the country where the services are performed, and the right to audit. If the distributor will accept that, the arrangement may well be legitimate and the problem was its form. If it will not, that refusal is the answer to the question.
+What the company should put in place for this market. Third-party due diligence before appointment, covering ownership, political connections and reputation, with the results documented. Contractual clauses requiring compliance with anti-bribery laws, giving a right to audit and a right to terminate on breach. Payment terms that make cash and third-country payments impossible. Training for the local manager in situations rather than rules, and a reporting route in the local language. And — the part most often omitted — a commercial plan that does not depend on the arrangement being refused, so that the manager who refuses it is not the person who misses the target.
