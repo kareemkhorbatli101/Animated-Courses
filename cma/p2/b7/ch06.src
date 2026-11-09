@@ -1,0 +1,438 @@
+Chapter 6
+Opportunity cost, and relevant cost in a numerical scenario
+تكلفة الفرصة البديلة والتكلفة الملائمة في سيناريو رقمي
+The most important cost in many decisions is one that nobody paid, nobody recorded and nobody can look up. If Orontes uses its roaster for an hour to make drums, that hour cannot be used to make jars, and the contribution the jars would have earned is a real cost of the drums. It is called an opportunity cost, and it is the subject of the first half of this chapter.
+The second half puts everything from Chapter 5 and this one into a single numerical scenario, because the exam's version of this outcome is always a table of figures with several traps in it and one right answer.
+Figure F706-01 is your map.
+Figure F706-01. Chapter 6 roadmap: the cost nobody paid, and the scenario that uses it.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+C.2.c | Explain and calculate opportunity costs. | C | Full treatment
+C.2.d | Calculate relevant costs in a numerical scenario. | C | Full treatment
+C.2.a | Apply the relevance tests to each item of a scenario. | B | Reinforced (introduced in Chapter 5)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+opportunity cost | تكلفة الفرصة البديلة | coût d'opportunité
+next best alternative | البديل الأفضل التالي | meilleure solution de rechange
+idle capacity | الطاقة العاطلة | capacité inutilisée
+constrained resource | المورد المقيد | ressource rare
+contribution per unit of constraint | المساهمة لكل وحدة من المورد المقيد | marge par unité de facteur rare
+displaced sales | المبيعات المزاحة | ventes déplacées
+replacement cost | تكلفة الإحلال | coût de remplacement
+relevant cost of materials | التكلفة الملائمة للمواد | coût pertinent des matières
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 defined an implicit cost as one that involves no payment, and named the opportunity cost as the most important of them. Chapter 3 ranked Orontes's three products by contribution per unit and by contribution per sales dollar, and said that where some other resource is scarce, neither ranking is right. This chapter supplies the ranking that is.
+6.1  What an opportunity cost is
+An opportunity cost is the benefit given up by using a resource in one way rather than in its best available alternative. Three features define it and the exam tests each.
+It arises only where there is an alternative. A resource with nothing else to do has no opportunity cost: an idle machine used for an extra order costs nothing in forgone contribution, because nothing was forgone. That is why the phrase idle capacity appears in almost every special-order question, and Chapter 7 turns on it.
+It is measured as the best alternative forgone, not as the sum of all alternatives. A kilogram of sesame that could be used for a jar earning $4.80 of contribution or sold for $2.00 has an opportunity cost of $4.80, not $6.80.
+It is a cost even though no payment is made. It never appears in the accounts, it never appears in a cost ledger, and omitting it from an analysis will approve work that destroys value.
+Two common forms recur.
+The forgone contribution of displaced work. Accepting an order that fills capacity used by existing sales costs the contribution of the sales displaced.
+The forgone receipt from an asset. Using a building the company owns costs the rent it could have earned; using material already in stock costs whatever the material could otherwise have realised.
+Figure F706-02 gives the rule for materials, which is the form examined most often.
+Figure F706-02. The relevant cost of material already held
+@table
+The material is … | Relevant cost | Why
+Not in stock | The purchase price | It must be bought
+In stock, and used regularly | The replacement cost | Using it means buying more
+In stock, no other use, scrap value only | The scrap value forgone | The alternative is to sell it
+In stock, with an alternative use | The contribution forgone in that use | The best alternative is given up
+@end
+That table is worth learning as it stands. The original cost of material in stock is never in it, because the original cost is sunk — a point Chapter 5 made and this one applies.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+forgone | المتنازل عنه | sacrifié
+alternative use | الاستخدام البديل | usage alternatif
+scrap value | قيمة الخردة | valeur de rebut
+regular use | الاستخدام المعتاد | usage courant
+@end
+SECTION CHECK   Test yourself
+SC6-1  An opportunity cost is:
+A.	the benefit forgone from the best alternative use of a resource.
+B.	the sum of all alternative uses.
+C.	the original cost of the resource.
+D.	always recorded in the accounts.
+SC6-2  A machine standing idle, used for an extra order, has an opportunity cost of:
+A.	nil, because nothing is forgone.
+B.	its depreciation.
+C.	its original cost.
+D.	its replacement cost.
+SC6-3  Material in regular use, already in stock, has a relevant cost equal to:
+A.	its replacement cost.
+B.	its original cost.
+C.	its book value.
+D.	nil.
+Answers and explanations are at the end of the chapter.
+6.2  Opportunity cost when a resource is scarce
+The clearest case of an opportunity cost is a bottleneck: a machine, a skilled grade of labour, a material in short supply, a certification, a licence. Where one resource limits output, every unit of it used for one product is a unit not available for another, and the opportunity cost is whatever that other product would have contributed.
+The rule that follows is the one Chapter 3 promised. Rank products by contribution per unit of the constrained resource, not per unit of product and not per sales dollar.
+WORKED EXAMPLE   Worked example: the roaster is the bottleneck
+Step 1. The constraint. Orontes's roaster is fully used. A jar takes 0.004 roaster hours, a bar 0.001 and a drum 0.020.
+Step 2. Contribution per roaster hour. For the jar: 4.80 ÷ 0.004 = 1,200 an hour. For the bar: 1.20 ÷ 0.001 = 1,200 an hour. For the drum: 21.00 ÷ 0.020 = 1,050 an hour.
+Step 3. The ranking. The jar and the bar are equally good at $1,200 an hour, and the drum is the worst of the three — although it has by far the highest contribution per unit, at $21.00 against $4.80 and $1.20.
+Step 4. The opportunity cost. An hour given to drums earns $1,050 and forgoes $1,200, so each drum hour costs the company 1,200 − 1,050 = 150 of contribution. On 2,000 drum hours that is 2,000 × 150 = 300,000 a year.
+Check. Chapter 3 ranked the drum first on contribution per unit and third on contribution per sales dollar. Here it is third again, for a third reason, and the three rankings would produce three different product strategies. Which one is right depends entirely on what limits the business, and establishing that is the first question to ask of any product-mix problem — before computing anything.
+Two refinements complete the outcome.
+The ranking holds while the constraint holds. If the roaster could be run an extra shift, the constraint moves elsewhere and the ranking changes with it. A constraint is a fact about the present configuration, not about the products.
+Relieving the constraint has a value, and the opportunity cost measures it. If an hour of roaster time is worth $1,200 of contribution, then an extra hour bought in — overtime, a subcontractor, a second machine — is worth up to $1,200, and anything cheaper than that is worth doing. That figure is sometimes called the shadow price of the constraint, and it is the most useful number a bottleneck analysis produces.
+Figure F706-03 sets the three rankings out together.
+Figure F706-03. Three rankings, three answers
+@table
+Product | Contribution per unit | Contribution ratio | Contribution per roaster hour
+Tahini jar | 4.80 | 40.0% | 1,200
+Halva bar | 1.20 | 40.0% | 1,200
+Sesame drum | 21.00 | 35.0% | 1,050
+Best by this measure | The drum | The jar and the bar | The jar and the bar
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+bottleneck | عنق الزجاجة | goulot d'étranglement
+shadow price | السعر الظلي | prix fictif
+relieving a constraint | تخفيف القيد | desserrement de la contrainte
+product mix decision | قرار مزيج المنتجات | décision de mix
+@end
+SECTION CHECK   Test yourself
+SC6-4  Where one resource limits output, products should be ranked by:
+A.	contribution per unit of that resource.
+B.	contribution per unit of product.
+C.	contribution ratio.
+D.	selling price.
+SC6-5  A jar contributing 4.80 and using 0.004 roaster hours earns per hour:
+A.	1,200
+B.	0.0192
+C.	4.80
+D.	250
+SC6-6  If an hour of a bottleneck earns 1,200 of contribution, buying an extra hour is worth doing at any price below:
+A.	1,200
+B.	150
+C.	1,050
+D.	nil
+Answers and explanations are at the end of the chapter.
+6.3  A full scenario
+The exam's version of this outcome is a table with traps. Here is one, worked in full.
+Orontes is asked to quote for a one-off contract to supply a hotel group with 40,000 jars of a special blend. The following facts are supplied.
+Sesame: the contract needs 20,000 kg. Orontes holds 12,000 kg bought last year at $3.00 a kilogram; sesame now costs $3.40 and is used continuously.
+Labour: 2,000 hours of filling-line labour, paid $18 an hour. The line is fully employed on standard jars; the staff cannot be increased in the time available.
+Packaging: special jars and labels costing $1.10 a unit, bought in.
+Machine time: 160 roaster hours. The roaster is fully used, and the contribution forgone is $1,200 an hour.
+Supervision: the existing supervisor would oversee the contract within the present salary of $6,000 a month.
+Development: $25,000 was spent last month designing the blend at the hotel group's request.
+Overhead: the company absorbs factory overhead at $4.00 a jar; none of it would change.
+WORKED EXAMPLE   Worked example: the minimum price
+Step 1. Sesame. All 20,000 kg must be valued at the replacement cost of $3.40, because the material is in continuous use: using the 12,000 kg in stock means buying 12,000 kg more. The relevant cost is 20,000 × 3.40 = 68,000. The $3.00 original price is sunk.
+Step 2. Labour. The workers are already employed and already paid, so their wages are not incremental — but their time is. Using 2,000 hours on this contract displaces standard production, so the relevant cost is the contribution forgone on the jars not made. Where a question gives that contribution directly, use it; here the roaster hours in step 4 are the binding constraint and the labour follows them, so the labour cost is the wages only if extra hours must be paid for. On these facts no extra wages arise, so the relevant labour cost is nil and the displacement is captured in step 4.
+Step 3. Packaging. Bought in specially, so wholly incremental: 40,000 × 1.10 = 44,000.
+Step 4. Machine time. 160 hours at a forgone contribution of $1,200 an hour: 160 × 1,200 = 192,000. This is the opportunity cost of section 6.2, and it is the largest number in the analysis.
+Step 5. Supervision, development and overhead. All three are excluded. The supervisor's salary does not change; the $25,000 is sunk; the $4.00 a jar is an absorption rate, not a cost that moves.
+Step 6. The minimum price. 68,000 + 44,000 + 192,000 = 304,000, which is 304,000 ÷ 40,000 = 7.60 a jar.
+Check. Note the three figures a careless answer would include: the $25,000 of development, the $36,000 of wages at $18 an hour, and the $160,000 of absorbed overhead at $4.00 a jar. Adding all three would give a minimum price of $12.63 a jar, and the contract — which is worth taking at anything above $7.60 — would be refused. Note also the one figure a careless answer would omit: the $192,000 of forgone contribution, without which the minimum price falls to $2.80 and the company would accept work that makes it poorer.
+Figure F706-04 sets the analysis out.
+Figure F706-04. The contract, item by item
+@table
+Item | Amount | Included? | Reason
+Sesame, 20,000 kg at replacement cost | 68,000 | Yes | In continuous use; using stock means buying more
+Original cost of sesame in stock | | No | Sunk
+Filling-line wages | | No | Already paid; no extra hours arise
+Special packaging | 44,000 | Yes | Bought in for this contract
+Roaster time, 160 hours | 192,000 | Yes | Contribution forgone on displaced output
+Supervisor's salary | | No | Unchanged
+Development spent last month | | No | Sunk
+Absorbed factory overhead | | No | An absorption rate, not an incremental cost
+Minimum price for the contract | 304,000 | | 7.60 a jar
+@end
+EXAM TRAP   The minimum price is a floor, not a quote
+The relevant cost is the price below which the contract makes the company worse off. What to actually charge is a commercial question, and Chapters 10 to 13 answer it.
+A minimum price computed on relevant costs is valid for a one-off contract with idle or displaceable capacity. It is not a basis for regular pricing, because fixed costs have to be covered by somebody.
+Where labour is paid whether or not the contract is taken, its wages are not relevant; where the contract requires overtime or new hires, they are.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+minimum price | السعر الأدنى | prix plancher
+absorption rate | معدل التحميل | taux d'imputation
+one-off contract | عقد غير متكرر | contrat ponctuel
+incremental | تفاضلي | différentiel
+@end
+SECTION CHECK   Test yourself
+SC6-7  Material in continuous use, taken from stock, is valued at:
+A.	its replacement cost.
+B.	the price originally paid.
+C.	its scrap value.
+D.	nil.
+SC6-8  Absorbed factory overhead of 4.00 a jar, where no overhead changes, is:
+A.	excluded, because it is an absorption rate rather than an incremental cost.
+B.	included at 4.00 a jar.
+C.	included at half the rate.
+D.	an opportunity cost.
+SC6-9  Omitting the contribution forgone on displaced output would:
+A.	understate the minimum price and risk accepting unprofitable work.
+B.	overstate the minimum price.
+C.	make no difference.
+D.	be correct where capacity is scarce.
+Answers and explanations are at the end of the chapter.
+6.4  Where the traps are
+Four traps account for most of the marks lost on this outcome, and all four appeared in section 6.3.
+The recorded cost of something already owned. Material at the price paid, a machine at book value, a building at cost. Each is sunk; what matters is what the thing could otherwise do.
+Labour that is paid anyway. A salaried workforce costs the same whether a contract is taken or not, so its wages are not incremental — but its time may be, if the work displaces something else. The relevant cost of labour is nil where there is spare capacity, the wages where extra hours must be bought, and the forgone contribution where existing work is displaced.
+Absorbed or apportioned overhead. An absorption rate exists to put a full cost on a product for inventory valuation and reporting. It is not a statement that the overhead moves with the product, and in a relevant-cost analysis it is excluded unless the question says the overhead itself changes.
+The missing opportunity cost. The three traps above cause costs to be included that should not be; this one causes a cost to be omitted that should be included, and it is the more dangerous, because the error approves work rather than refusing it.
+Figure F706-05 states the rule for each resource.
+Figure F706-05. The relevant cost of each resource, in one table
+@table
+Resource | Spare capacity exists | Fully employed
+Labour | Nil, if already paid | The contribution forgone, or the overtime premium
+Machine time | Nil | The contribution forgone on displaced output
+Material not in stock | The purchase price | The purchase price
+Material in stock, in regular use | The replacement cost | The replacement cost
+Material in stock, no other use | The scrap value forgone | The scrap value forgone
+@end
+A fifth trap is subtler and worth a sentence of its own. An opportunity cost exists only where the alternative is genuinely available. If the displaced jars could not have been sold anyway — because demand is short, or the warehouse is full — then nothing is forgone and the opportunity cost is nil. A question that says "the company can sell all it produces" is telling you the alternative exists; a question that says demand is 3,500,000 jars and capacity is 4,000,000 is telling you it does not.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+spare capacity | الطاقة الفائضة | capacité disponible
+overtime premium | علاوة العمل الإضافي | majoration d'heures supplémentaires
+full employment of a resource | الاستخدام الكامل للمورد | plein emploi d'une ressource
+genuinely available | متاح فعلياً | réellement disponible
+@end
+SECTION CHECK   Test yourself
+SC6-10  The relevant cost of labour already employed and not fully occupied is:
+A.	nil.
+B.	the hourly wage.
+C.	the wage plus overhead.
+D.	the contribution forgone.
+SC6-11  An opportunity cost is nil when:
+A.	no alternative use is genuinely available.
+B.	the resource is expensive.
+C.	the resource is owned.
+D.	the decision is one-off.
+SC6-12  The most dangerous of the four traps is:
+A.	omitting an opportunity cost, because it approves work that destroys value.
+B.	including absorbed overhead.
+C.	including a sunk cost.
+D.	including salaried wages.
+Answers and explanations are at the end of the chapter.
+6.5  What to write
+An analysis of this kind is marked on its reasoning as much as its arithmetic, so three habits are worth building.
+Give every item a line, including the ones excluded. A table with a reason against each excluded item shows that the exclusion was decided rather than forgotten, and it is the difference between a sound answer and one that looks lucky.
+Name the opportunity cost explicitly. Write "contribution forgone on 160 displaced roaster hours at $1,200" rather than "machine cost $192,000". The marker is looking for the concept, and the words carry it.
+State what the answer is a floor for. A minimum price is not a recommendation to charge it; it is the point below which the company is worse off. The sentence "the contract is worth taking at any price above $7.60 a jar, and what to charge depends on what the hotel group would pay" is the professional ending, and it is the hinge into the pricing chapters that follow.
+YOUR TURN   Price a one-off order
+Figure F706-06 gives a small contract. Compute the minimum price. Answers are at the end of the chapter.
+Figure F706-06. Your turn: the relevant cost of a contract (complete the blanks)
+@table
+Item | Data | Relevant amount
+Material A | 3,000 kg needed; 1,000 kg in stock at a cost of 4.00; in regular use; current price 4.60 | ________
+Material B | 500 kg needed, all in stock, cost 9.00, no other use, scrap value 2.00 | ________
+Skilled labour | 400 hours at 22.00; the grade is fully employed and each hour earns 15.00 of contribution elsewhere | ________
+Unskilled labour | 600 hours at 14.00; there is spare capacity and the staff are salaried | ________
+Absorbed overhead | 30.00 an hour on 1,000 hours; no overhead changes | ________
+Design work done last month | 18,000 | ________
+Minimum price for the contract | | ________
+@end
+LANGUAGE FOCUS   "Cost"
+English cost in this chapter means four different things within a paragraph: the amount paid, as in the original cost; the amount that would be paid, as in replacement cost; the amount given up, as in opportunity cost; and the amount charged by an accounting system, as in absorbed cost. Only the second and third are relevant to a decision, and only the first and fourth appear in the records — which is the whole difficulty of the topic in one sentence. Arabic تكلفة covers all four and relies on the qualifier. French coût does the same, with coût de remplacement, coût d'opportunité and coût complet as settled phrases. The safeguard in every language is to never write the word alone.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+reason against each item | التعليل لكل بند | justification par poste
+floor price | السعر الأدنى | prix plancher
+professional judgment | الحكم المهني | jugement professionnel
+hinge | نقطة الانتقال | charnière
+@end
+SECTION CHECK   Test yourself
+SC6-13  Excluded items should appear in a relevant-cost table:
+A.	with a reason, to show the exclusion was decided.
+B.	never, because they are irrelevant.
+C.	at half value.
+D.	only if the question asks.
+SC6-14  A minimum price of 7.60 a jar means:
+A.	the company is worse off below it, and what to charge is a separate question.
+B.	the company should charge 7.60.
+C.	the company should refuse the order.
+D.	full cost is 7.60.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F706-07 brings the chapter together.
+Figure F706-07. Chapter 6 summary map: the key rule for each section.
+An opportunity cost is the benefit forgone from the best alternative use of a resource: it exists only where an alternative is genuinely available, it is measured as the best one and not the sum of them, and it appears in no ledger. Material already held is valued at replacement cost where it is in regular use and at the scrap or alternative value forgone where it is not, never at what was paid. Where one resource is scarce, products rank by contribution per unit of that resource, so Orontes's jar and bar at 4.80 ÷ 0.004 = 1,200 an hour beat the drum at 21.00 ÷ 0.020 = 1,050 — a third ranking, different from both of Chapter 3's — and the $1,200 is also the shadow price, the most a company should pay to relieve the bottleneck. In a full scenario the relevant cost of a 40,000-jar contract is 68,000 + 44,000 + 192,000 = 304,000, or 304,000 ÷ 40,000 = 7.60 a jar, once the sunk development, the salaried wages and the absorbed overhead are excluded and the 160 × 1,200 = 192,000 of forgone contribution is included. Four traps account for the lost marks, of which the omitted opportunity cost is the worst because it approves work rather than refusing it. And the answer is a floor rather than a quotation, which is where the pricing chapters begin.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P6-01  An opportunity cost is:
+A.	the benefit forgone from the best alternative use.
+B.	the sum of all alternatives forgone.
+C.	the amount paid for a resource.
+D.	an accounting allocation.
+P6-02  Material in stock and in regular use is valued at:
+A.	replacement cost.
+B.	original cost.
+C.	scrap value.
+D.	nil.
+P6-03  Material in stock with no other use and a scrap value of 2.00 a kilogram is valued at:
+A.	2.00 a kilogram.
+B.	its original cost.
+C.	its replacement cost.
+D.	nil.
+P6-04  A product contributing 4.80 and using 0.004 bottleneck hours earns per bottleneck hour:
+A.	1,200
+B.	250
+C.	4.80
+D.	0.0192
+P6-05  Where the roaster is the constraint, the best product is the one with the highest:
+A.	contribution per roaster hour.
+B.	contribution per unit.
+C.	contribution ratio.
+D.	selling price.
+P6-06  The maximum worth paying for an extra hour of a bottleneck earning 1,200 an hour is:
+A.	1,200
+B.	150
+C.	1,050
+D.	nil
+P6-07  Labour already employed, with spare capacity, has a relevant cost of:
+A.	nil.
+B.	the hourly wage.
+C.	the wage plus absorbed overhead.
+D.	the contribution forgone.
+P6-08  Absorbed overhead that does not change is:
+A.	excluded from a relevant-cost analysis.
+B.	included in full.
+C.	included at half.
+D.	treated as an opportunity cost.
+P6-09  Development costs spent last month on a contract under consideration are:
+A.	sunk and excluded.
+B.	relevant and included.
+C.	an opportunity cost.
+D.	added to overhead.
+P6-10  A minimum price computed on relevant costs is:
+A.	a floor, below which the company is worse off.
+B.	the price that should be charged.
+C.	the full cost of the order.
+D.	the market price.
+Case-style practice: the hotel contract, revisited
+The hotel group offers $9.00 a jar for the 40,000-jar contract of section 6.3, on condition that Orontes guarantees supply for three years at the same price. The relevant cost today is $7.60 a jar, of which $4.80 is the forgone contribution on displaced roaster time. Orontes's roaster is fully used; a second roaster would cost $1,800,000 and add 3,000 hours a year.
+Required. Say whether to accept, dealing separately with the one-off contract and the three-year commitment. Compute what the second roaster would have to earn to be worth buying. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC6-1  Answer A. The best alternative forgone.
+B is wrong. Only one alternative can actually be taken.
+C is wrong. The amount paid is sunk.
+D is wrong. Opportunity costs appear in no ledger.
+SC6-2  Answer A. Nothing is given up by using idle capacity.
+B is wrong. Depreciation spreads a past payment.
+C is wrong. The original cost is sunk.
+D is wrong. Replacement cost applies to materials in use, not to idle machines.
+SC6-3  Answer A. Using stock means buying more.
+B is wrong. The original price is sunk.
+C is wrong. Book value is an accounting figure.
+D is wrong. The material has to be replaced.
+SC6-4  Answer A. The scarce resource sets the ranking.
+B is wrong. That ranks by product, not by what is scarce.
+C is wrong. The ratio ranks by sales dollars.
+D is wrong. Price ignores cost entirely.
+SC6-5  Answer A. 4.80 ÷ 0.004 = 1,200 an hour.
+B is wrong. This multiplies instead of dividing.
+C is wrong. That is the contribution per jar.
+D is wrong. This divides the hours by the contribution.
+SC6-6  Answer A. Up to the contribution it would release.
+B is wrong. That is the gap between two products' hourly contributions.
+C is wrong. That is the drum's hourly contribution.
+D is wrong. An extra hour has real value.
+SC6-7  Answer A. Replacement cost, because the stock must be replaced.
+B is wrong. The price paid is sunk.
+C is wrong. Scrap value applies where there is no other use.
+D is wrong. The material has a cost.
+SC6-8  Answer A. An absorption rate is not an incremental cost.
+B is wrong. Including it overstates the minimum price.
+C is wrong. Half of an irrelevant figure is still irrelevant.
+D is wrong. Nothing is forgone by absorbing overhead.
+SC6-9  Answer A. The floor would be too low.
+B is wrong. Omitting a cost lowers the total.
+C is wrong. It is the largest item in the example.
+D is wrong. Scarcity is precisely when it must be included.
+SC6-10  Answer A. The wages are paid either way and nothing is displaced.
+B is wrong. The wage is not incremental.
+C is wrong. Overhead is not incremental either.
+D is wrong. With spare capacity nothing is forgone.
+SC6-11  Answer A. No alternative means nothing forgone.
+B is wrong. Expense is not the test.
+C is wrong. Ownership does not determine the alternative.
+D is wrong. One-off decisions often have the largest opportunity costs.
+SC6-12  Answer A. An omitted opportunity cost approves bad work.
+B is wrong. Including overhead refuses good work, which is less dangerous.
+C is wrong. The same applies to a sunk cost.
+D is wrong. The same applies to salaried wages.
+SC6-13  Answer A. The reason shows the exclusion was decided.
+B is wrong. Showing the exclusion is the point.
+C is wrong. Half of nothing is nothing.
+D is wrong. It is good practice whether asked or not.
+SC6-14  Answer A. The floor and the quotation are different questions.
+B is wrong. Charging the floor earns nothing.
+C is wrong. The floor is the point above which to accept.
+D is wrong. Full cost includes irrelevant absorbed overhead.
+Your turn
+@table
+Item | Relevant amount
+Material A | 13,800: all 3,000 kg at the replacement cost of 4.60, because the material is in regular use.
+Material B | 1,000: the scrap value forgone, 500 × 2.00, because there is no other use.
+Skilled labour | 14,800: the wages of 400 × 22.00 = 8,800 plus the contribution forgone of 400 × 15.00 = 6,000, because the grade is fully employed.
+Unskilled labour | Nil: the staff are salaried and have spare capacity, so nothing changes.
+Absorbed overhead | Nil: no overhead changes, so the rate is not a cost of this contract.
+Design work | Nil: sunk.
+Minimum price | 29,600: 13,800 + 1,000 = 14,800 of materials, plus 14,800 of skilled labour.
+What it tells you | Two of the six items are excluded entirely and one is included at more than its wage rate. A full-cost quotation on these figures would have charged 30.00 an hour of overhead on 1,000 hours and 18,000 of design, and would have refused work worth taking at anything above 29,600.
+@end
+Multiple-choice questions
+P6-01  Answer A. The best alternative forgone.
+B is wrong. Only one alternative is actually given up.
+C is wrong. That is an explicit, and usually sunk, cost.
+D is wrong. Allocations are not opportunity costs.
+P6-02  Answer A. The stock must be replaced.
+B is wrong. The original cost is sunk.
+C is wrong. Scrap applies where there is no other use.
+D is wrong. There is a real cost.
+P6-03  Answer A. The scrap value is what is given up.
+B is wrong. The original cost is sunk.
+C is wrong. The material will not be replaced.
+D is wrong. The scrap proceeds are forgone.
+P6-04  Answer A. 4.80 ÷ 0.004 = 1,200.
+B is wrong. This inverts the division.
+C is wrong. That is per unit, not per hour.
+D is wrong. This multiplies instead of dividing.
+P6-05  Answer A. Contribution per unit of the constraint.
+B is wrong. Per unit ignores the constraint.
+C is wrong. The ratio ranks by sales value.
+D is wrong. Price ignores cost.
+P6-06  Answer A. Up to the contribution released.
+B is wrong. That is a difference between products.
+C is wrong. That is the lowest hourly contribution.
+D is wrong. An extra hour is worth having.
+P6-07  Answer A. Nothing changes and nothing is displaced.
+B is wrong. The wage is paid either way.
+C is wrong. Overhead is not incremental.
+D is wrong. Nothing is forgone where capacity is spare.
+P6-08  Answer A. It is not an incremental cost.
+B is wrong. Including it overstates the floor.
+C is wrong. Partial inclusion has no basis.
+D is wrong. Nothing is forgone.
+P6-09  Answer A. Past spending is sunk.
+B is wrong. It cannot be changed by the decision.
+C is wrong. Nothing is forgone by it.
+D is wrong. It is not an overhead question.
+P6-10  Answer A. The point below which the company is worse off.
+B is wrong. Charging the floor earns nothing.
+C is wrong. Full cost includes irrelevant items.
+D is wrong. The market price is a separate matter.
+Case-style set: the hotel contract, revisited
+The one-off contract. At $9.00 a jar against a relevant cost of $7.60, the contract adds 9.00 − 7.60 = 1.40 a jar, which on 40,000 jars is 40,000 × 1.40 = 56,000 of contribution. Taken on its own and for one year, it is worth having.
+The three-year commitment. This changes the question entirely, for three reasons. First, the $7.60 floor contains $4.80 a jar of forgone contribution at today's constraint; if demand for jars grows, the roaster time becomes more valuable and the floor rises, while the price is fixed at $9.00. Second, the floor also contains sesame at today's replacement cost of $3.40, and a three-year price commitment with no escalation clause takes the whole of the input price risk — which Book 2's Chapter 6 showed can be hedged, at a cost that should be priced into the quotation. Third, a fixed price for three years in a company whose gross margin has fallen a point a year compounds the problem Book 1 identified.
+I would accept the one-off contract and decline the three-year commitment at $9.00, offering instead a three-year arrangement with an annual price review linked to the sesame price, or a higher fixed price that funds the hedge.
+The second roaster. It costs $1,800,000 and adds 3,000 hours a year. At the current shadow price of $1,200 an hour it would release 3,000 × 1,200 = 3,600,000 of contribution a year, which pays for the machine twice over in a year — if the output could be sold. That condition is the whole of the question: the shadow price assumes every displaced jar had a buyer, and Orontes sells 3,500,000 jars into a market where it has been buying volume with price. The roaster is worth buying only if the sales exist, and the figure to establish before spending $1,800,000 is demand, not capacity.

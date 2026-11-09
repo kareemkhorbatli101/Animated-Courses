@@ -1,0 +1,558 @@
+Chapter 8
+Make or buy
+التصنيع أو الشراء
+Orontes makes the metal lids for its tahini jars in a small pressing shop at one end of the factory. A supplier offers to deliver the same lids for 42 cents each. The costing system says a lid costs 48 cents to make, so buying looks like an obvious saving of six cents on three and a half million lids.
+It is not obvious, and on the figures in this chapter it is wrong. A make-or-buy decision is the relevant-costing apparatus of Chapters 5 and 6 applied to a particular question, and the answer turns on which of the 48 cents would actually stop being spent — which is never all of them and is sometimes less than half.
+Figure F708-01 is your map.
+Figure F708-01. Chapter 8 roadmap: what making really costs, what buying releases, and what the numbers cannot say.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.2.j
+Calculate the effect on operating income of a make-or-buy decision.
+C
+Full treatment
+C.2.i
+Identify the qualitative factors in a make-or-buy decision, including quality and the dependability of suppliers.
+C
+Full treatment
+C.2.c
+Bring the opportunity cost of released capacity into the comparison.
+B
+Reinforced (introduced in Chapter 6)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+make-or-buy decision
+قرار التصنيع أو الشراء
+décision de faire ou faire-faire
+outsourcing
+الاستعانة بمصادر خارجية
+externalisation
+avoidable fixed cost
+التكلفة الثابتة القابلة للتجنب
+coût fixe évitable
+released capacity
+الطاقة المحررة
+capacité libérée
+indifference price
+سعر اللامبالاة
+prix d'indifférence
+supplier dependability
+موثوقية المورد
+fiabilité du fournisseur
+core competence
+الكفاءة الجوهرية
+compétence distinctive
+switching cost
+تكلفة التحول
+coût de changement
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 separated avoidable from unavoidable fixed costs and warned that an allocated share of a common cost is almost never avoidable. Chapter 6 added that a released resource has a value only where an alternative use exists. Those two sentences decide every make-or-buy question in this chapter.
+8.1  What the costing system says, and what it means
+Figure F708-02 is the lid, as the costing system reports it.
+Figure F708-02. The cost of a lid, as reported
+Element
+Cost a lid
+Annual cost on 3,500,000 lids
+Behaviour
+Direct materials
+0.18
+630,000
+Variable
+Direct labour
+0.10
+350,000
+Variable
+Variable overhead
+0.06
+210,000
+Variable
+Fixed overhead absorbed
+0.14
+490,000
+Fixed
+Total
+0.48
+1,680,000
+The first three lines stop if the lids are bought. The fourth is the question. Absorbed fixed overhead of $490,000 is a share of the factory's fixed costs allocated to the pressing shop by whatever basis the system uses, and the amount that would actually stop is a matter of fact rather than of allocation.
+Suppose the facts are these: the pressing shop has its own supervisor, whose $175,000 post would be eliminated, and the remaining $315,000 is the shop's share of factory rent, insurance, heating and head office costs, all of which continue whether the shop presses lids or stands empty.
+Then the relevant cost of making is the three variable lines plus the supervisor: 0.18 + 0.10 + 0.06 = 0.34 a lid, which is 3,500,000 × 0.34 = 1,190,000, plus the avoidable $175,000, giving 1,190,000 + 175,000 = 1,365,000. Per lid that is 1,365,000 ÷ 3,500,000 = 0.39.
+The supplier wants 0.42. Buying costs 3,500,000 × 0.42 = 1,470,000 against a relevant cost of making of $1,365,000, so buying would make the company 1,470,000 − 1,365,000 = 105,000 worse off a year. Orontes should go on making its lids.
+EXAM TRAP   The three ways this goes wrong
+Comparing the supplier's price with the full cost of 0.48. That treats $315,000 of unavoidable overhead as a saving, and it is the error the question is built to catch.
+Comparing with the variable cost alone, at 0.34. That ignores the supervisor's post, which genuinely does disappear, and understates the cost of making.
+Forgetting that the unavoidable $315,000 does not vanish: if the lids are bought, that overhead is re-absorbed by the other products, whose reported costs rise. Nothing has been saved and several products now look worse.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+absorbed overhead
+التكلفة الثابتة المحملة
+charges imputées
+re-absorbed
+يُعاد تحميلها
+réimputé
+pressing shop
+ورشة الكبس
+atelier de presse
+basis of allocation
+أساس التوزيع
+base de répartition
+SECTION CHECK   Test yourself
+SC8-1  In a make-or-buy decision, absorbed fixed overhead that continues after the change is:
+A.	irrelevant.
+B.	relevant, because it is a cost of making.
+C.	added to the supplier's price.
+D.	avoidable.
+SC8-2  The relevant cost of making, on 3,500,000 lids with variable costs of 0.34 and avoidable fixed costs of 175,000, is:
+A.	1,365,000
+B.	1,190,000
+C.	1,680,000
+D.	1,470,000
+SC8-3  At a supplier price of 0.42, buying 3,500,000 lids would:
+A.	cost 105,000 a year more than making them.
+B.	save 210,000 a year.
+C.	save 105,000 a year.
+D.	make no difference.
+Answers and explanations are at the end of the chapter.
+8.2  What buying releases
+The arithmetic above assumes the pressing shop would simply stand empty. If it would not, the comparison changes, and the change is an opportunity cost of the kind Chapter 6 defined.
+Suppose the floor space and the two presses, once free, could be used to make a new line of sesame bars earning a contribution of $200,000 a year. That $200,000 is receivable only if the lids are bought, so it belongs on the buying side.
+Buying now costs 1,470,000 − 200,000 = 1,270,000 in net terms, against $1,365,000 for making, so buying is better by 1,365,000 − 1,270,000 = 95,000 a year. The recommendation reverses on a figure that appears nowhere in the costing system.
+WORKED EXAMPLE   Worked example: the indifference price
+Step 1. The question. At what supplier price would Orontes be indifferent, assuming the space stands empty?
+Step 2. The arithmetic. Making costs $1,365,000 a year, so the company is indifferent at a price of 1,365,000 ÷ 3,500,000 = 0.39 a lid.
+Step 3. With the alternative use. If the released space earns $200,000, the company can afford to pay 1,365,000 + 200,000 = 1,565,000, which is 1,565,000 ÷ 3,500,000 = 0.447 a lid.
+Step 4. Reading it. The supplier's 0.42 sits between the two. Whether to buy depends entirely on whether the alternative use is real, and the negotiation with the supplier should be conducted knowing that 0.447 is the ceiling and 0.39 is the walk-away point.
+Check. The indifference price is the most useful single output of a make-or-buy analysis, because it converts a yes-or-no answer into a negotiating position. A buyer who knows the ceiling can ask for a better price; one who knows only that 0.42 beats 0.48 will accept whatever is offered below 0.48.
+Figure F708-03 sets the cases out.
+Figure F708-03. Make or buy, three cases
+Case
+Cost of making
+Cost of buying
+Better by
+Space stands empty
+1,365,000
+1,470,000
+Making, by 105,000
+Space earns 200,000
+1,365,000
+1,270,000
+Buying, by 95,000
+Space earns 200,000 and the supplier charges 0.39
+1,365,000
+1,165,000
+Buying, by 200,000
+Two further elements belong in the figures whenever a question supplies them.
+One-off costs of switching. Redundancy payments, the loss on selling the presses, the cost of qualifying the supplier, the write-off of specialised tooling. These fall on the buying side in the first year and nowhere thereafter, which is why a make-or-buy decision should be evaluated over several years and discounted, as Chapter 16 does.
+Changes in other costs. Buying may raise inward freight, inspection and inventory; it may lower scrap, rework and insurance. Each belongs in the comparison if it changes.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+walk-away price
+سعر الانسحاب
+prix de retrait
+qualifying a supplier
+اعتماد المورد
+homologation du fournisseur
+tooling
+العدد والقوالب
+outillage
+inward freight
+أجور الشحن الداخلي
+fret à l'entrée
+SECTION CHECK   Test yourself
+SC8-4  Released capacity that could earn 200,000 of contribution belongs:
+A.	on the buying side, as a benefit of buying.
+B.	on the making side, as a cost of making.
+C.	in neither column.
+D.	as an addition to the supplier's price.
+SC8-5  The indifference price is:
+A.	the supplier price at which making and buying cost the same.
+B.	the full cost of making.
+C.	the supplier's quoted price.
+D.	the variable cost of making.
+SC8-6  Redundancy payments arising only if production stops are:
+A.	a one-off cost on the buying side.
+B.	irrelevant.
+C.	a cost of making.
+D.	an opportunity cost.
+Answers and explanations are at the end of the chapter.
+8.3  The qualitative factors
+The outcome names these explicitly, and in practice they decide more make-or-buy questions than the arithmetic does.
+Quality. A supplier's lid is not necessarily the company's lid. Where the component affects the customer's experience — a seal that leaks, a cap that cross-threads — the cost of a quality failure is far larger than six cents a unit and falls on the brand rather than on the component.
+Dependability of supply. A lid that arrives late stops a filling line. The questions are whether the supplier can be relied on, whether there is a second source, how far away it is, and what happens in a strike, a storm or a border closure. Book 2's chapter on just-in-time made the same point from the inventory side: removing a buffer transfers risk to the supplier's reliability.
+Control over the process and the schedule. Making keeps the ability to change a specification quickly, to run a short batch for a trial, and to prioritise one product over another. Buying gives that up to somebody else's production plan.
+Confidentiality and intellectual property. A supplier making a component to a specification learns the specification. Where the component embodies something the company regards as its own, outsourcing is a transfer of knowledge as well as of work.
+The supplier's future conduct. A supplier that wins the work gains leverage: the company has sold its presses, dismissed its operators, and cannot easily go back. The price offered in the first year is not always the price in the fifth, and the standard protection is a contract of several years with a price mechanism rather than a single-year quotation.
+Core competence. A company should be slow to outsource what it is distinctively good at and quicker to outsource what anybody can do. Pressing lids is not what Orontes is for; roasting and grinding sesame is.
+The workforce and the community. Closing a shop means redundancies, which cost money, morale and reputation, and in some jurisdictions require consultation that takes months.
+Figure F708-04 sets the two sides out.
+Figure F708-04. The qualitative case, both ways
+Factor
+Argues for making
+Argues for buying
+Quality
+The company controls it
+A specialist may do it better
+Dependability
+No third party to fail
+A supplier with several plants may be more robust
+Control of schedule
+Full control
+The supplier's plan governs
+Confidentiality
+Nothing leaves the company
+Specifications must be shared
+Capacity
+Uses space the company owns
+Releases space for better uses
+Expertise
+Keeps skills in house
+Buys skills the company lacks
+Cost behaviour
+Fixed costs are already incurred
+Converts fixed costs into variable ones
+The last row deserves its own sentence, because it connects this chapter to Chapter 4. Buying converts a fixed cost into a variable one: the company pays only for the lids it needs, so its breakeven falls and its operating leverage falls with it. For a company whose demand is uncertain that is worth something real, and it is an argument for buying that has nothing to do with the price per lid.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+second source
+المصدر الثاني
+seconde source
+specification
+المواصفة
+cahier des charges
+leverage in negotiation
+القوة التفاوضية
+rapport de force
+consultation
+التشاور
+consultation
+SECTION CHECK   Test yourself
+SC8-7  Which is a qualitative factor in a make-or-buy decision?
+A.	The dependability of the supplier
+B.	The variable cost a unit
+C.	The avoidable fixed cost
+D.	The indifference price
+SC8-8  Buying rather than making tends to:
+A.	convert fixed costs into variable ones and lower the breakeven.
+B.	raise fixed costs.
+C.	raise the operating leverage.
+D.	have no effect on cost structure.
+SC8-9  A company should be slowest to outsource:
+A.	what it is distinctively good at.
+B.	what anybody can do.
+C.	its lowest-value components.
+D.	its packaging.
+Answers and explanations are at the end of the chapter.
+8.4  Variants of the same question
+The outcome's phrase "make or buy" covers a family of decisions with identical arithmetic, and a question may use any of them.
+Outsourcing a service. Payroll, catering, cleaning, information technology, internal audit. The analysis is the same: what stops being spent, what is released, what is given up.
+In-sourcing. The reverse decision, where a company presently buying decides to make. Here the fixed costs are the ones being added rather than avoided, and the comparison is between the supplier's price and the incremental cost of making, including the new fixed costs and the capital required — which turns it into the capital investment decision of Chapter 14.
+Buying a part of the volume. Often the best answer is neither all nor nothing: make the base load in house, where the fixed costs are already committed, and buy the peak from a supplier, where the alternative is overtime or a second shift. The arithmetic ranks the two sources at the margin, exactly as Chapter 7 did.
+Closing one plant of several. The same table, with the avoidable costs of one site on one side and the extra transport and overtime at the others on the opposite side.
+Figure F708-05 shows the base-load variant, which the exam likes because it needs two calculations.
+Figure F708-05. Make the base, buy the peak
+Volume band
+Cost of making a unit
+Cost of buying a unit
+Source
+First 3,000,000 lids
+0.34 variable, fixed already committed
+0.42
+Make
+Next 500,000, within capacity
+0.34
+0.42
+Make
+Beyond capacity, needing overtime
+0.34 plus an overtime premium of 0.11
+0.42
+Buy, if the premium exceeds 0.08
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+in-sourcing
+الإنتاج الداخلي
+internalisation
+base load
+الحمل الأساسي
+charge de base
+peak volume
+حجم الذروة
+volume de pointe
+dual sourcing
+التوريد المزدوج
+double approvisionnement
+SECTION CHECK   Test yourself
+SC8-10  In-sourcing a component presently bought turns the decision into:
+A.	a capital investment decision, because fixed costs and capital are added.
+B.	an inventory decision.
+C.	a pricing decision.
+D.	a tax decision.
+SC8-11  Making the base load and buying the peak is right when:
+A.	the marginal cost of making beyond capacity exceeds the supplier's price.
+B.	the full cost of making exceeds the supplier's price.
+C.	the supplier is cheaper at every volume.
+D.	capacity is unlimited.
+Answers and explanations are at the end of the chapter.
+8.5  Writing the answer
+A make-or-buy answer has five parts and the exam rewards each.
+The comparison, as a column of differences, with the avoidable costs identified. Not two full costings.
+The treatment of the unavoidable overhead, stated explicitly. One sentence — "the $315,000 of factory and head office overhead continues whichever is chosen and is excluded" — earns a mark and prevents the commonest error.
+The opportunity cost of released capacity, if any, with its source named. If the question gives no alternative use, say that none has been identified and that the recommendation would change at a value of $105,000 a year or more.
+The indifference price, as a negotiating position.
+The qualitative factors that bear on this particular component, chosen rather than recited. For a lid that seals a food product, quality and dependability lead; for a cleaning contract they do not.
+And the recommendation, which on the facts of section 8.1 is to go on making the lids, to ask the supplier for a price below 0.39, and to re-open the question if a use for the pressing shop is found.
+YOUR TURN   Decide on a bracket
+Figure F708-06 gives a component a company presently makes. Complete the blanks. Answers are at the end of the chapter.
+Figure F708-06. Your turn: make or buy (complete the blanks)
+Item
+Data
+Answer
+Variable cost of making a unit
+Materials 1.40, labour 0.90, variable overhead 0.50
+________
+Annual variable cost
+400,000 units a year
+________
+Avoidable fixed costs
+A supervisor at 60,000 and machine insurance of 9,000
+________
+Total relevant cost of making
+________
+Cost of buying
+Supplier price 3.20 a unit
+________
+Better by
+________
+Indifference price
+________
+LANGUAGE FOCUS   "Outsourcing"
+English outsourcing means buying from outside what was previously made inside, and it carries overtones in ordinary use — of job losses, of distance, of something done cheaply — that the technical term does not. Offshoring is a different idea again: moving work to another country, which may be outsourced to a supplier or kept inside the company. Arabic الاستعانة بمصادر خارجية is literal and neutral, and the distinction from offshoring has to be made with النقل إلى الخارج. French externalisation is the settled term for outsourcing and délocalisation for offshoring, and French keeps the two apart more cleanly than English does. In an exam answer, use make or buy for the decision and outsourcing only where the question does.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+column of differences
+عمود الفروق
+tableau des écarts
+negotiating position
+الموقف التفاوضي
+position de négociation
+re-open the question
+إعادة فتح القرار
+réexaminer la décision
+recited
+مسرودة
+récitée
+SECTION CHECK   Test yourself
+SC8-12  A make-or-buy answer should state explicitly:
+A.	that unavoidable overhead continues and is excluded.
+B.	the full cost of each option.
+C.	every cost in the factory.
+D.	the absorption rate.
+SC8-13  Where a question gives no alternative use for released capacity:
+A.	say so, and give the value at which the answer would change.
+B.	assume a value.
+C.	ignore capacity entirely.
+D.	refuse to recommend.
+SC8-14  Qualitative factors should be:
+A.	chosen for the component in question rather than recited.
+B.	listed in full every time.
+C.	omitted where figures are given.
+D.	placed before the calculation.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F708-07 brings the chapter together.
+Figure F708-07. Chapter 8 summary map: the key rule for each section.
+A lid reported at 0.48 is not a lid costing 0.48 to make: the relevant cost is the variable 0.18 + 0.10 + 0.06 = 0.34 plus the fixed costs that genuinely stop, which here is a $175,000 supervisor and not the $315,000 of factory and head office overhead that continues. So making costs 3,500,000 × 0.34 = 1,190,000 plus 175,000, or 1,365,000, against 3,500,000 × 0.42 = 1,470,000 to buy — and Orontes should keep making, by $105,000 a year. Released capacity changes that: a pressing shop that could earn $200,000 of contribution makes buying better by 1,365,000 − 1,270,000 = 95,000, and the recommendation turns on a figure the costing system does not contain. The indifference price of 1,365,000 ÷ 3,500,000 = 0.39 is the most useful output, because it is a negotiating position rather than a verdict. The qualitative factors — quality, dependability, control, confidentiality, the supplier's future leverage, core competence and the workforce — decide many of these cases outright, and buying also converts fixed cost into variable, which lowers the breakeven and the operating leverage. And the same arithmetic serves outsourcing a service, in-sourcing a part, buying only the peak volume and closing one plant of several.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P8-01  In a make-or-buy decision, the relevant cost of making includes:
+A.	variable costs plus avoidable fixed costs.
+B.	the full absorbed cost.
+C.	variable costs only.
+D.	allocated head office costs.
+P8-02  Fixed overhead that continues whichever option is chosen is:
+A.	excluded from the comparison.
+B.	added to the cost of buying.
+C.	added to the cost of making.
+D.	halved between the two.
+P8-03  Variable costs of 0.34 on 3,500,000 units with avoidable fixed costs of 175,000 give a relevant cost of making of:
+A.	1,365,000
+B.	1,190,000
+C.	1,680,000
+D.	175,000
+P8-04  Buying at 0.42 a unit for 3,500,000 units costs:
+A.	1,470,000
+B.	1,365,000
+C.	1,190,000
+D.	105,000
+P8-05  Released capacity that could earn 200,000 of contribution:
+A.	reduces the net cost of buying by 200,000.
+B.	increases the cost of buying.
+C.	is irrelevant.
+D.	is added to the cost of making.
+P8-06  The indifference price on a relevant making cost of 1,365,000 for 3,500,000 units is:
+A.	0.39
+B.	0.42
+C.	0.48
+D.	0.34
+P8-07  Which is a qualitative factor?
+A.	The risk that the supplier fails to deliver on time
+B.	The variable cost of making
+C.	The supplier's quoted price
+D.	The avoidable fixed cost
+P8-08  Buying rather than making usually:
+A.	lowers the breakeven point by converting fixed cost into variable.
+B.	raises the breakeven point.
+C.	raises operating leverage.
+D.	leaves the cost structure unchanged.
+P8-09  Making the base load and buying the peak is sensible when:
+A.	the marginal cost of making beyond capacity exceeds the supplier's price.
+B.	the supplier is always cheaper.
+C.	the company has unlimited capacity.
+D.	fixed costs are avoidable.
+P8-10  In-sourcing a bought component is evaluated as:
+A.	a capital investment, because capacity and capital must be added.
+B.	a pricing decision.
+C.	a working capital decision.
+D.	a tax decision.
+Case-style practice: the lid contract
+The supplier returns with a firm offer: 0.40 a lid for three years, with a price linked to the metal index thereafter, on condition that Orontes closes the pressing shop. Orontes's relevant cost of making is $1,365,000 a year on 3,500,000 lids. Closing would cost $120,000 in redundancy, and the two presses would fetch $60,000 against a book value of $310,000. The shop's floor space has no identified alternative use. The supplier has one plant, 400 kilometres away.
+Required. Evaluate the offer with figures over three years, ignoring discounting. State your recommendation and the single condition you would attach. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC8-1  Answer A. A cost that continues cannot differ between the options.
+B is wrong. It is a cost of the factory, not of the decision.
+C is wrong. Adding it to the supplier's price flatters making.
+D is wrong. Continuing is the opposite of avoidable.
+SC8-2  Answer A. 1,190,000 + 175,000 = 1,365,000.
+B is wrong. That omits the avoidable fixed costs.
+C is wrong. That is the full absorbed cost.
+D is wrong. That is the cost of buying.
+SC8-3  Answer A. 1,470,000 − 1,365,000 = 105,000 worse off.
+B is wrong. Nothing of that size is saved.
+C is wrong. The sign is the wrong way round.
+D is wrong. The difference is material.
+SC8-4  Answer A. The contribution is earned only if the lids are bought.
+B is wrong. Making forgoes it, so it is not a cost of making in the table.
+C is wrong. It is the figure that reverses the decision.
+D is wrong. It is a benefit, not a price.
+SC8-5  Answer A. The price at which the two are equal.
+B is wrong. Full cost includes unavoidable overhead.
+C is wrong. The quote is what is being tested.
+D is wrong. Variable cost omits avoidable fixed costs.
+SC8-6  Answer A. They arise only on the buying option, once.
+B is wrong. They are future and differ.
+C is wrong. They do not arise if making continues.
+D is wrong. They are an explicit payment.
+SC8-7  Answer A. Dependability is a judgment, not a figure.
+B is wrong. That is a cost.
+C is wrong. That is a cost.
+D is wrong. That is a computed price.
+SC8-8  Answer A. Paying per unit replaces a fixed commitment.
+B is wrong. Fixed costs fall.
+C is wrong. Leverage falls with the fixed base.
+D is wrong. The structure changes materially.
+SC8-9  Answer A. Core competence should stay inside.
+B is wrong. Commodity work is the easiest to outsource.
+C is wrong. Low-value components are usual outsourcing candidates.
+D is wrong. Packaging is commonly bought in.
+SC8-10  Answer A. Capacity and capital must be created.
+B is wrong. Inventory is a consequence, not the decision.
+C is wrong. Pricing is a separate question.
+D is wrong. Tax is an adjustment, not the frame.
+SC8-11  Answer A. At the margin the supplier is cheaper.
+B is wrong. Full cost is not the test.
+C is wrong. Then everything should be bought.
+D is wrong. With unlimited capacity there is no peak problem.
+SC8-12  Answer A. Saying so prevents the commonest error.
+B is wrong. Full costs hide the difference.
+C is wrong. A complete list is not an analysis.
+D is wrong. The rate is an accounting device.
+SC8-13  Answer A. Name the value at which the answer changes.
+B is wrong. An assumed figure is an invented one.
+C is wrong. Capacity is central.
+D is wrong. The outcome asks for a recommendation.
+SC8-14  Answer A. Chosen factors show judgment.
+B is wrong. A recital shows memory.
+C is wrong. Figures rarely settle these decisions alone.
+D is wrong. The calculation frames the discussion.
+Your turn
+Item
+Answer
+Variable cost a unit
+2.80: 1.40 + 0.90 + 0.50 = 2.80.
+Annual variable cost
+1,120,000: 400,000 × 2.80 = 1,120,000.
+Avoidable fixed costs
+69,000: 60,000 + 9,000 = 69,000.
+Total relevant cost of making
+1,189,000: 1,120,000 + 69,000 = 1,189,000.
+Cost of buying
+1,280,000: 400,000 × 3.20 = 1,280,000.
+Better by
+Making, by 91,000: 1,280,000 − 1,189,000 = 91,000.
+Indifference price
+2.9725: 1,189,000 ÷ 400,000 = 2.9725.
+What it tells you
+The supplier is 23 cents a unit too expensive, and the company's negotiating ceiling is about 2.97 — unless a use is found for the released capacity, in which case the ceiling rises by whatever that use earns, divided by 400,000.
+Multiple-choice questions
+P8-01  Answer A. Variable plus avoidable fixed.
+B is wrong. Absorbed cost includes unavoidable overhead.
+C is wrong. Avoidable fixed costs genuinely stop.
+D is wrong. Head office costs continue.
+P8-02  Answer A. It does not differ, so it is excluded.
+B is wrong. That would flatter making.
+C is wrong. That would flatter buying.
+D is wrong. Splitting an irrelevant figure is still irrelevant.
+P8-03  Answer A. 1,190,000 + 175,000 = 1,365,000.
+B is wrong. That omits the avoidable fixed costs.
+C is wrong. That is full absorbed cost.
+D is wrong. That is the avoidable fixed cost alone.
+P8-04  Answer A. 3,500,000 × 0.42 = 1,470,000.
+B is wrong. That is the cost of making.
+C is wrong. That is the variable cost of making.
+D is wrong. That is the difference.
+P8-05  Answer A. It is a benefit obtainable only if the lids are bought.
+B is wrong. It reduces the net cost.
+C is wrong. It is the figure that can reverse the decision.
+D is wrong. It belongs on the buying side.
+P8-06  Answer A. 1,365,000 ÷ 3,500,000 = 0.39.
+B is wrong. That is the supplier's quote.
+C is wrong. That is the full absorbed cost.
+D is wrong. That is the variable cost alone.
+P8-07  Answer A. Delivery risk is a judgment.
+B is wrong. That is a figure.
+C is wrong. That is a figure.
+D is wrong. That is a figure.
+P8-08  Answer A. Fixed becomes variable, so the breakeven falls.
+B is wrong. Fixed costs fall.
+C is wrong. Leverage falls with them.
+D is wrong. The structure changes.
+P8-09  Answer A. The margin decides, not the average.
+B is wrong. Then all volume should be bought.
+C is wrong. Unlimited capacity removes the peak problem.
+D is wrong. Avoidability is a separate question.
+P8-10  Answer A. It needs capacity and capital.
+B is wrong. Pricing is downstream.
+C is wrong. Working capital is a consequence.
+D is wrong. Tax is an adjustment.
+Case-style set: the lid contract
+The figures over three years. Making costs 1,365,000 × 3 = 4,095,000. Buying at 0.40 costs 3,500,000 × 0.40 = 1,400,000 a year, which is 1,400,000 × 3 = 4,200,000, plus $120,000 of redundancy, less $60,000 from selling the presses: 4,200,000 + 120,000 = 4,320,000, less 60,000, giving 4,260,000. Making is cheaper by 4,260,000 − 4,095,000 = 165,000 over the three years, or about $55,000 a year.
+Three figures that do not belong. The $310,000 book value of the presses is sunk; only the $60,000 they would fetch is relevant. The $315,000 a year of unavoidable overhead continues whichever is chosen. And the full cost of 0.48 a lid, which makes the offer look like an easy saving, contains both.
+Recommendation: decline the offer at 0.40 and go on making. Tell the supplier that the walk-away price is 0.39 before switching costs and about 0.38 once the redundancy and the loss on the presses are spread over three years, and invite a revised quotation.
+The condition I would attach to any future acceptance. A second source, or a contractual commitment that makes one unnecessary. The supplier has one plant 400 kilometres away, and a lid that does not arrive stops a filling line making 3,500,000 jars a year at a contribution of $4.80 each. One week of lost production is roughly 67,000 jars and $320,000 of contribution — six years of the saving the offer promises. Before closing a shop the company owns, I would want either a second supplier qualified or a stock of lids large enough to cover the longest plausible interruption, and the cost of that stock put into the comparison.

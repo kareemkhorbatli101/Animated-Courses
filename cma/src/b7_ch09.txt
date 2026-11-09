@@ -1,0 +1,574 @@
+Chapter 9
+Process further, drop or add, capacity, taxes, and the recommendation
+التصنيع الإضافي وإضافة أو إلغاء القطاعات والطاقة والضريبة والتوصية
+Three more decisions complete the marginal-analysis family, and all three are the rule of Chapter 7 in new clothes: do it while what it adds exceeds what it costs.
+Should a product be sold as it is or processed into something worth more? Should a segment be kept or dropped, started or not? What changes when capacity itself is the variable rather than a constraint? The chapter ends with the two things every Section C answer needs: the effect of income taxes on the arithmetic, and the recommendation the outcome actually asks for.
+Figure F709-01 is your map.
+Figure F709-01. Chapter 9 roadmap: three more decisions, the tax adjustment, and the answer.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.2.k
+Calculate the effect on operating income of selling or processing further, and of dropping or adding a segment.
+C
+Full treatment
+C.2.l
+Identify the effects of changes in capacity on production decisions.
+C
+Full treatment
+C.2.m
+Explain the impact of income taxes on marginal analysis.
+C
+Full treatment
+C.2.n
+Recommend a course of action using marginal analysis.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+joint cost
+التكلفة المشتركة
+coût joint
+split-off point
+نقطة الانفصال
+point de séparation
+process further
+التصنيع الإضافي
+transformation complémentaire
+segment
+القطاع
+segment
+cannibalisation
+التآكل الداخلي للمبيعات
+cannibalisation
+capacity constraint
+قيد الطاقة
+contrainte de capacité
+after-tax effect
+الأثر بعد الضريبة
+effet après impôt
+recommendation
+التوصية
+recommandation
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 gave Orontes three products: a drum of sesame paste contributing $21.00, and ten jars of tahini from the same quantity of paste contributing $4.80 each. Chapter 5 set out a case in which the halva line earns $900,000 of contribution against $500,000 of avoidable fixed costs. Both reappear here as decisions.
+9.1  Sell now or process further
+A joint process produces something that can be sold as it is, or taken further and sold for more. The point at which the choice arises is the split-off point, and everything spent before it is irrelevant to the choice.
+That last sentence is the whole topic. The cost of producing the paste has been incurred by the time the question arises, and it is the same whether the paste is sold or filled into jars. It is therefore a joint cost, common to both options, and it belongs in neither column — whatever basis the costing system has used to apportion it between them.
+WORKED EXAMPLE   Worked example: paste or jars
+Step 1. The two options. A 10 kg drum of sesame paste sells for $60.00. The same paste fills ten tahini jars selling at $12.00 each, which is 10 × 12.00 = 120.00.
+Step 2. The incremental revenue. 120.00 − 60.00 = 60.00 a drum.
+Step 3. The incremental cost. Filling, jars, labels and the extra handling cost $33.00 a drum. Nothing else changes.
+Step 4. The decision. 60.00 − 33.00 = 27.00 a drum in favour of processing further.
+Check. The same answer appears in Chapter 3's figures without any new arithmetic: ten jars contribute 10 × 4.80 = 48.00 against a drum's $21.00, and 48.00 − 21.00 = 27.00. The two routes agree because the paste's own variable cost of $39.00 a drum is in both and cancels — which is the joint cost doing exactly what the rule says it does.
+Three qualifications belong in any answer on this outcome.
+The further processing must have its own capacity. If filling the jars uses roaster or line time that something else needs, the opportunity cost of Chapter 6 enters and can reverse the answer.
+The two markets must both exist. Processing further is worth $27.00 a drum only if the jars can be sold; if the jar market is already supplied and the paste market is not, the extra jars are inventory rather than revenue.
+A joint product may be unavoidable. Where a process yields two outputs in fixed proportions, the question is never whether to make one of them but only what to do with each at split-off.
+Figure F709-02 sets the decision out.
+Figure F709-02. Sell at split-off, or process further
+Line
+Per drum
+In the decision?
+Revenue as paste
+60.00
+Yes, forgone if processed
+Revenue as ten jars
+120.00
+Yes
+Incremental revenue
+60.00
+The benefit
+Cost of further processing
+33.00
+The cost
+Cost of producing the paste
+39.00
+No; it is a joint cost, incurred either way
+Apportioned share of joint cost
+Any figure
+No; apportionment changes nothing real
+Net benefit of processing
+27.00
+The answer
+EXAM TRAP   Apportioned joint costs
+A question will often give you a joint cost apportioned between the products by weight, by value or by volume. The apportionment is for inventory valuation and it is irrelevant to the decision. Say so.
+Processing further can be worth doing for one joint product and not for another from the same process. Each is decided on its own incremental figures.
+If the further processing cost exceeds the incremental revenue, sell at split-off — even where the final product sells for far more than the intermediate one.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+intermediate product
+المنتج الوسيط
+produit intermédiaire
+final product
+المنتج النهائي
+produit fini
+apportionment basis
+أساس التوزيع
+clé de répartition
+by-product
+المنتج العرضي
+sous-produit
+SECTION CHECK   Test yourself
+SC9-1  In a sell-or-process-further decision, the joint cost incurred before split-off is:
+A.	irrelevant, because it is the same under both options.
+B.	relevant, because it is a cost of the product.
+C.	apportioned between the options.
+D.	added to the further processing cost.
+SC9-2  Paste selling at 60.00 can become ten jars selling at 12.00 each, at a further cost of 33.00. The net benefit of processing is:
+A.	27.00 a drum
+B.	60.00 a drum
+C.	87.00 a drum
+D.	33.00 a drum
+SC9-3  Further processing should not go ahead when:
+A.	the incremental cost exceeds the incremental revenue.
+B.	the final product sells for more than the intermediate one.
+C.	the joint cost is large.
+D.	the apportionment is unfavourable.
+Answers and explanations are at the end of the chapter.
+9.2  Drop or add a segment
+A segment is any part of a business whose results can be separated: a product line, a department, a branch, a customer group, a region. The question is whether the company is better off with it or without it, and the arithmetic is Chapter 5's avoidable-cost rule.
+Keep a segment if its contribution exceeds the fixed costs that would actually be avoided by dropping it. Drop it if not.
+For Orontes's halva line, with a contribution of $900,000 and avoidable fixed costs of $500,000, the line is worth 900,000 − 500,000 = 400,000 a year and should be kept. The $300,000 of apportioned factory and head office cost that makes it look unprofitable in the management accounts does not disappear on closure; it moves to the other products.
+Adding a segment is the same test run forwards. A proposed new line of sesame bars would contribute $820,000 and need $600,000 of new fixed costs, so it is worth 820,000 − 600,000 = 220,000 and should be added.
+WORKED EXAMPLE   Worked example: the new line that was not worth adding
+Step 1. The proposal as presented. Contribution of $820,000 against $600,000 of new fixed costs, a gain of $220,000.
+Step 2. The question nobody asked. Where will the customers come from? The marketing plan expects a tenth of the new line's volume to be bought by customers who would otherwise have bought tahini jars — 100,000 jars a year.
+Step 3. The cannibalisation. Those jars contribute $4.80 each, so 100,000 × 4.80 = 480,000 of existing contribution is lost.
+Step 4. The revised decision. 220,000 − 480,000 = (260,000). The new line would make the company $260,000 a year worse off.
+Check. Nothing in the new line's own figures changed. The decision reversed because the analysis was widened to include an effect on a different product — and that is the characteristic error in add-a-segment decisions, exactly as a missing opportunity cost is the characteristic error in special orders. The rule is to draw the boundary of the analysis around the company, not around the segment.
+Four effects belong inside that boundary whenever a question supplies them.
+Cannibalisation, as above: sales taken from the company's own products.
+Complementarity, the opposite: a segment that is unprofitable alone but brings customers who buy other things. A loss-making café in a food hall is the standard example.
+Shared costs that genuinely change. Dropping a segment may allow a warehouse to be given up or a delivery round to be dropped; adding one may push a shared resource past a step.
+Released capacity, valued as Chapter 6 values it.
+Figure F709-03 sets out the test.
+Figure F709-03. Keep, drop, add
+Question
+Compare
+Decide
+Keep a segment?
+Contribution earned
+Against fixed costs genuinely avoided by dropping
+Drop a segment?
+Fixed costs avoided
+Against contribution lost, plus any effect on other segments
+Add a segment?
+Contribution gained, less any cannibalised
+Against new fixed costs and any capacity displaced
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+segment margin
+هامش القطاع
+marge de segment
+complementary product
+المنتج المكمل
+produit complémentaire
+boundary of the analysis
+حدود التحليل
+périmètre de l'analyse
+step cost
+التكلفة المتدرجة
+coût par paliers
+SECTION CHECK   Test yourself
+SC9-4  A segment should be kept if its contribution exceeds:
+A.	the fixed costs that would actually be avoided by dropping it.
+B.	its share of all fixed costs.
+C.	its full absorbed cost.
+D.	the company's total fixed costs.
+SC9-5  A new line contributing 820,000 with new fixed costs of 600,000 and cannibalising 480,000 of existing contribution:
+A.	makes the company 260,000 worse off.
+B.	makes it 220,000 better off.
+C.	makes it 340,000 better off.
+D.	makes no difference.
+SC9-6  A loss-making segment that brings customers who buy profitable products is an example of:
+A.	complementarity.
+B.	cannibalisation.
+C.	a joint cost.
+D.	a step cost.
+Answers and explanations are at the end of the chapter.
+9.3  When capacity changes
+Chapter 6 treated capacity as fixed and priced what it displaced. This section treats capacity as the decision.
+Capacity can be added in three ways and each behaves differently.
+Overtime adds hours at a premium, with no change in fixed costs. It is the most flexible and the most expensive per unit, and it is the right answer for a short peak.
+A second shift adds a block of capacity and a block of fixed cost: supervision, lighting, canteen, shift premium. It is a step, and the step has to be justified by the volume that will use it.
+New plant adds capacity and converts the question into the capital investment decision of Chapters 14 to 17.
+The arithmetic of a step is always the same. A second shift at Orontes would add $1,200,000 of fixed costs and 800,000 jars of capacity. At a contribution of $4.80 a jar it pays for itself at 1,200,000 ÷ 4.80 = 250,000 jars — less than a third of the capacity it creates. So the shift is worth adding if the company can sell 250,000 more jars, and the whole question becomes a demand question rather than a cost one.
+Three consequences of a capacity change belong in an answer.
+The relevant costs of every other decision change with it. A special order refused at full capacity becomes acceptable once capacity is added, because the displaced contribution disappears. Chapter 7's two answers were the same order on two sides of this line.
+The breakeven rises. A step of $1,200,000 of fixed cost raises the breakeven by 1,200,000 ÷ 4.80 = 250,000 jars, which is Chapter 4's margin-of-safety question in another form.
+A step once taken is hard to untake. Shift premiums can be withdrawn and supervisors released, with difficulty; a new building cannot. The more irreversible the step, the stronger the demand evidence should be.
+Figure F709-04 compares the three routes.
+Figure F709-04. Three ways to add capacity
+Route
+Capacity added
+Fixed cost added
+Reversible?
+Suits
+Overtime
+Small, immediate
+None
+Yes, at once
+A short peak
+Second shift
+Large, in a step
+1,200,000 a year
+With difficulty
+A sustained rise
+New plant
+Largest
+A capital outlay
+No
+A permanent rise
+Buying in
+Whatever is bought
+None
+Yes
+Peaks, and testing demand
+That last row is Chapter 8 returning: buying the peak is a way of adding capacity without adding fixed cost, and for a company uncertain about demand it is often the best of the four.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+second shift
+الوردية الثانية
+deuxième équipe
+shift premium
+علاوة الوردية
+prime d'équipe
+irreversible
+غير قابل للتراجع
+irréversible
+demand evidence
+دليل الطلب
+preuve de la demande
+SECTION CHECK   Test yourself
+SC9-7  A second shift adding 1,200,000 of fixed cost pays for itself, at a contribution of 4.80 a jar, at:
+A.	250,000 extra jars.
+B.	800,000 extra jars.
+C.	1,200,000 extra jars.
+D.	57,600 extra jars.
+SC9-8  Adding capacity changes the relevant cost of a special order because:
+A.	the displaced contribution disappears.
+B.	the variable cost falls.
+C.	fixed costs are avoided.
+D.	the selling price rises.
+SC9-9  The more irreversible a capacity step is:
+A.	the stronger the demand evidence should be before taking it.
+B.	the cheaper it is per unit.
+C.	the lower the breakeven.
+D.	the less it matters.
+Answers and explanations are at the end of the chapter.
+9.4  Income taxes in marginal analysis
+Everything so far has been computed before tax. The outcome asks what tax does, and the answer has three parts.
+Tax scales the answer. An incremental contribution of $300,000 at a 25 per cent rate is worth 300,000 × 0.75 = 225,000 after tax. Every option in a comparison is scaled by the same factor, so no ranking changes and the decision is the same before and after tax.
+Except where the options are taxed differently, and then tax decides. Three cases recur. A capital allowance available on a purchased machine and not on a leased one, which Book 2 priced as the net advantage to leasing. Operations in two jurisdictions with different rates, so that the same contribution is worth more in one place. And a company with losses available to shelter income, for which the marginal tax rate is nil until the losses are used.
+Tax follows cash, not accounting profit. A decision's tax effect is computed on the taxable amounts it changes, which is why Chapter 14 builds capital budgeting on after-tax cash flows and why depreciation enters there as a tax shield rather than as a cost.
+The practical rule for Section C is short: compute before tax unless the question gives a tax rate or the alternatives are taxed differently, and when a rate is given, state the answer both ways — "an incremental gain of $300,000, which is $225,000 after tax at 25 per cent" — because a marker can see both and the board only wants one.
+Figure F709-05 shows when tax matters.
+Figure F709-05. Does tax change the decision?
+Situation
+Tax effect
+Does the ranking change?
+A special order, one company, one rate
+Scales both options alike
+No
+Lease against buy
+Different allowances
+Yes; Book 2 computed it
+Two jurisdictions
+Different rates
+Yes
+A company with unused losses
+Marginal rate near nil
+Yes, in timing
+A segment closure with a tax loss on asset disposal
+A relief in the year
+Possibly
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+marginal tax rate
+معدل الضريبة الحدي
+taux marginal d'imposition
+capital allowance
+الاستهلاك الضريبي
+amortissement fiscal
+jurisdiction
+النطاق الضريبي
+juridiction fiscale
+shelter
+الملاذ الضريبي
+abri fiscal
+SECTION CHECK   Test yourself
+SC9-10  An incremental gain of 300,000 at a 25 per cent tax rate is worth, after tax:
+A.	225,000
+B.	300,000
+C.	75,000
+D.	400,000
+SC9-11  Tax changes the ranking of two alternatives when:
+A.	the alternatives are taxed differently.
+B.	the rate is high.
+C.	the amounts are large.
+D.	never.
+Answers and explanations are at the end of the chapter.
+9.5  The recommendation
+The last outcome of this topic asks for a course of action, and the five-part structure of Chapter 4 applies with two additions for marginal analysis.
+State the decision, with the incremental figure that supports it: "process further: it is worth $27.00 a drum".
+Name what was excluded and why: the joint cost, the apportioned overhead, the sunk development, the book value.
+Name the opportunity cost or the displaced contribution, if there is one, and the capacity assumption behind it: "this assumes the filling line has spare capacity; if it does not, the answer reverses".
+Widen the boundary once, deliberately. Ask what the decision does to the company's other products, its customers, its suppliers and its next year. The cannibalisation of section 9.2 and the market disturbance of Chapter 7 both live here.
+Give the qualitative factors their place, chosen rather than recited.
+Say what would change the answer, with a number: "the new line is worth adding if cannibalisation is below 45,833 jars a year".
+That last figure is worth deriving, because it shows the habit. The new line gains $220,000 before cannibalisation, and each cannibalised jar costs $4.80, so the break-even cannibalisation is 220,000 ÷ 4.80 = 45,833 jars. Below that the line is worth adding and above it is not — and the whole decision now rests on a single marketing estimate that somebody can be asked to defend.
+YOUR TURN   Four decisions
+Figure F709-06 gives four small decisions. Complete the blanks. Answers are at the end of the chapter.
+Figure F709-06. Your turn: four marginal decisions (complete the blanks)
+Decision
+Data
+Answer
+Process further?
+Sell at 40.00 or process at a cost of 18.00 and sell at 62.00
+________
+Drop a segment?
+Contribution 300,000; avoidable fixed costs 340,000
+________
+Add a segment?
+Contribution 500,000; new fixed costs 380,000; cannibalises 90,000
+________
+Second shift?
+Adds 700,000 of fixed cost; contribution 3.50 a unit
+________
+After-tax value of a 120,000 gain
+Tax rate 25 per cent
+________
+Break-even cannibalisation on the added segment
+________
+LANGUAGE FOCUS   "Segment"
+English segment in management accounting means any part of a business whose results can be reported separately — a product line, a region, a customer group — and it is deliberately broader than division or department, which name parts of an organisation chart. The exam also uses it in the reporting sense of Part 1, where a segment is defined by how management reviews the business. Arabic قطاع covers both. French uses segment for the analytical sense and secteur for the reporting one — secteur opérationnel is the standard-setter's term — so the French reader meets two words where English has one, and the distinction is worth importing: the thing being analysed need not be a reportable segment at all.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+break-even cannibalisation
+حد التآكل المتعادل
+seuil de cannibalisation
+widen the boundary
+توسيع نطاق التحليل
+élargir le périmètre
+defend an estimate
+الدفاع عن التقدير
+justifier une estimation
+course of action
+مسار العمل
+ligne de conduite
+SECTION CHECK   Test yourself
+SC9-12  A recommendation on a process-further decision should state:
+A.	the incremental benefit and the capacity assumption behind it.
+B.	the apportioned joint cost.
+C.	the full cost of both products.
+D.	the absorption rate.
+SC9-13  A new line gaining 220,000 before cannibalisation, where each cannibalised unit costs 4.80 of contribution, breaks even at:
+A.	45,833 units cannibalised.
+B.	220,000 units cannibalised.
+C.	1,056,000 units cannibalised.
+D.	nil.
+SC9-14  Widening the boundary of a marginal analysis means asking:
+A.	what the decision does to the company's other products and customers.
+B.	for more decimal places.
+C.	for the full cost.
+D.	for the tax rate.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F709-07 brings the chapter together.
+Figure F709-07. Chapter 9 summary map: the key rule for each section.
+At a split-off point the joint cost is the same under both options and belongs in neither: paste at $60.00 against ten jars at 10 × 12.00 = 120.00 gives an incremental revenue of 60.00 against a further cost of 33.00, so processing is worth 60.00 − 33.00 = 27.00 a drum — the same answer Chapter 3's contributions give as 48.00 − 21.00 = 27.00. A segment is kept while its contribution exceeds the fixed costs genuinely avoided, so the halva line at 900,000 − 500,000 = 400,000 stays; and a new line gaining 820,000 − 600,000 = 220,000 is rejected once 100,000 × 4.80 = 480,000 of cannibalised contribution is counted, because the boundary of the analysis belongs round the company rather than the segment. Capacity can be added by overtime, a shift, new plant or buying in, and a shift adding $1,200,000 of fixed cost pays at 1,200,000 ÷ 4.80 = 250,000 jars, turning a cost question into a demand question. Tax scales every option alike and changes no ranking — 300,000 × 0.75 = 225,000 — except where the options are taxed differently, which is the lease, the second jurisdiction and the company with losses. And the recommendation states the decision, the exclusions, the capacity assumption, the wider effects, the chosen qualitative factors, and the figure at which the answer would reverse: 220,000 ÷ 4.80 = 45,833 jars of cannibalisation.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P9-01  In a sell-or-process-further decision, joint costs incurred before split-off are:
+A.	irrelevant.
+B.	apportioned between the options.
+C.	added to the further processing cost.
+D.	deducted from the incremental revenue.
+P9-02  A product sells at 40.00 at split-off, or at 62.00 after processing costing 18.00. The company should:
+A.	process further, gaining 4.00.
+B.	sell at split-off.
+C.	process further, gaining 22.00.
+D.	be indifferent.
+P9-03  A segment contributing 300,000 with avoidable fixed costs of 340,000 should be:
+A.	dropped, improving income by 40,000.
+B.	kept, since it contributes.
+C.	kept, improving income by 40,000.
+D.	dropped, improving income by 300,000.
+P9-04  Cannibalisation means:
+A.	sales of a new product taken from the company's own existing products.
+B.	sales taken from a competitor.
+C.	a shared fixed cost.
+D.	an apportionment basis.
+P9-05  A new line contributes 500,000, needs 380,000 of new fixed costs and cannibalises 90,000 of contribution. It:
+A.	adds 30,000 to operating income.
+B.	adds 120,000.
+C.	loses 30,000.
+D.	adds 210,000.
+P9-06  A second shift adding 700,000 of fixed costs, at a contribution of 3.50 a unit, requires extra volume of:
+A.	200,000 units
+B.	700,000 units
+C.	2,450,000 units
+D.	100,000 units
+P9-07  Adding capacity makes a previously rejected special order acceptable because:
+A.	there is no longer displaced contribution.
+B.	the variable cost falls.
+C.	fixed costs disappear.
+D.	the price rises.
+P9-08  An incremental gain of 120,000 at a 25 per cent tax rate is worth after tax:
+A.	90,000
+B.	120,000
+C.	30,000
+D.	160,000
+P9-09  Income taxes change the ranking of alternatives when:
+A.	the alternatives are taxed differently.
+B.	the rate exceeds 25 per cent.
+C.	the company is profitable.
+D.	never.
+P9-10  The strongest way to express what a recommendation depends on is:
+A.	the value of the key variable at which the answer would reverse.
+B.	a list of assumptions.
+C.	the full cost of each option.
+D.	the apportionment basis.
+Case-style practice: the drum decision, under constraint
+Orontes can sell a 10 kg drum of paste at $60.00 or fill it into ten jars selling at $12.00 each, at a further processing cost of $33.00 a drum. Filling uses 0.04 hours of line time a drum, and the filling line is fully occupied; line time currently earns $900 an hour of contribution on other work. The company produces 120,000 drums of paste a year. The jar market would absorb an extra 400,000 jars; beyond that the price would have to fall.
+Required. Say how many drums should be processed further and how many sold as paste, with figures. Name the two assumptions your answer depends on. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC9-1  Answer A. The joint cost is common to both options.
+B is wrong. Being a product cost does not make it differ.
+C is wrong. Apportionment is for inventory valuation.
+D is wrong. Adding it distorts the comparison.
+SC9-2  Answer A. 60.00 − 33.00 = 27.00 a drum.
+B is wrong. That is the incremental revenue before the cost.
+C is wrong. This adds the cost instead of deducting it.
+D is wrong. That is the processing cost.
+SC9-3  Answer A. The test is incremental, not absolute.
+B is wrong. A higher final price proves nothing by itself.
+C is wrong. The joint cost is irrelevant either way.
+D is wrong. Apportionment has no bearing on the decision.
+SC9-4  Answer A. Only genuinely avoidable fixed costs count.
+B is wrong. An allocated share is not avoided.
+C is wrong. Full cost includes unavoidable allocations.
+D is wrong. Total fixed costs are not caused by one segment.
+SC9-5  Answer A. 220,000 − 480,000 = (260,000).
+B is wrong. That omits the cannibalisation.
+C is wrong. This has no basis in the figures.
+D is wrong. The effect is material and negative.
+SC9-6  Answer A. The segment supports sales elsewhere.
+B is wrong. Cannibalisation takes sales away.
+C is wrong. A joint cost is a production idea.
+D is wrong. A step cost is a behaviour, not a relationship between products.
+SC9-7  Answer A. 1,200,000 ÷ 4.80 = 250,000 jars.
+B is wrong. That is the capacity added, not the volume required.
+C is wrong. That is the cost in dollars.
+D is wrong. This multiplies instead of dividing.
+SC9-8  Answer A. With spare capacity nothing is displaced.
+B is wrong. The variable cost is unchanged.
+C is wrong. Fixed costs rise with the capacity.
+D is wrong. The price is a market matter.
+SC9-9  Answer A. Irreversibility raises the cost of being wrong.
+B is wrong. Large steps are often cheaper per unit, which is the temptation.
+C is wrong. A step raises the breakeven.
+D is wrong. Irreversibility makes it matter more.
+SC9-10  Answer A. 300,000 × 0.75 = 225,000.
+B is wrong. That is the pre-tax figure.
+C is wrong. That is the tax.
+D is wrong. This divides instead of multiplying.
+SC9-11  Answer A. Different treatment breaks the common factor.
+B is wrong. A high rate scales both alike.
+C is wrong. Size does not change a ranking.
+D is wrong. The lease decision is a standing counter-example.
+SC9-12  Answer A. The benefit, and what it assumes about capacity.
+B is wrong. The joint cost is excluded.
+C is wrong. Full cost is not a decision figure.
+D is wrong. The absorption rate is an accounting device.
+SC9-13  Answer A. 220,000 ÷ 4.80 = 45,833 units.
+B is wrong. That is the gain in dollars.
+C is wrong. This multiplies instead of dividing.
+D is wrong. Some cannibalisation is affordable.
+SC9-14  Answer A. The effect on everything else the company does.
+B is wrong. Precision is not breadth.
+C is wrong. Full cost is a different error.
+D is wrong. Tax is a separate adjustment.
+Your turn
+Decision
+Answer
+Process further?
+Yes: the incremental revenue is 62.00 − 40.00 = 22.00 against a cost of 18.00, a gain of 4.00 a unit.
+Drop a segment?
+Drop it: avoidable fixed costs of 340,000 exceed the contribution of 300,000 by 40,000.
+Add a segment?
+Add it: 500,000 − 380,000 = 120,000 of gain, less 90,000 of cannibalisation, leaves 30,000.
+Second shift?
+It needs 200,000 extra units: 700,000 ÷ 3.50 = 200,000.
+After-tax value of a 120,000 gain
+90,000: 120,000 × 0.75 = 90,000.
+Break-even cannibalisation
+120,000 of contribution: the gain before cannibalisation is 120,000, so anything above that reverses the decision.
+What it tells you
+Three of the four decisions are close: 4.00 a unit, 40,000 a year and 30,000 a year are all small enough that an error in one estimate would reverse them. Only the shift question has a clear answer, and it is a question about demand rather than about cost.
+Multiple-choice questions
+P9-01  Answer A. They are common to both options.
+B is wrong. Apportionment is for valuation.
+C is wrong. Adding them distorts the comparison.
+D is wrong. The same objection applies.
+P9-02  Answer A. 62.00 − 40.00 = 22.00 against a cost of 18.00.
+B is wrong. The incremental revenue exceeds the incremental cost.
+C is wrong. That omits the processing cost.
+D is wrong. There is a gain of 4.00.
+P9-03  Answer A. Avoided costs of 340,000 exceed the contribution of 300,000.
+B is wrong. Contributing is not enough; it must cover its avoidable costs.
+C is wrong. Keeping it loses 40,000.
+D is wrong. The contribution is lost on dropping.
+P9-04  Answer A. Sales taken from the company's own products.
+B is wrong. Taking sales from a competitor is the purpose of the new line.
+C is wrong. That is an allocation question.
+D is wrong. That is a costing device.
+P9-05  Answer A. 500,000 − 380,000 = 120,000, less 90,000 of cannibalisation.
+B is wrong. That omits the cannibalisation.
+C is wrong. The net effect is positive.
+D is wrong. This has no basis in the figures.
+P9-06  Answer A. 700,000 ÷ 3.50 = 200,000 units.
+B is wrong. That is the cost in dollars.
+C is wrong. This multiplies instead of dividing.
+D is wrong. This divides by 7.00.
+P9-07  Answer A. Nothing is displaced once capacity exists.
+B is wrong. Variable costs are unchanged.
+C is wrong. Fixed costs rise.
+D is wrong. The price is unaffected.
+P9-08  Answer A. 120,000 × 0.75 = 90,000.
+B is wrong. That is before tax.
+C is wrong. That is the tax.
+D is wrong. This divides instead of multiplying.
+P9-09  Answer A. Different tax treatment changes relative values.
+B is wrong. A higher rate still scales both alike.
+C is wrong. Profitability alone does not differentiate.
+D is wrong. Leasing against buying is the standard counter-example.
+P9-10  Answer A. A reversal value is specific and testable.
+B is wrong. A list is not a conclusion.
+C is wrong. Full cost is not a decision figure.
+D is wrong. Apportionment is irrelevant.
+Case-style set: the drum decision, under constraint
+The incremental benefit, ignoring the constraint. Processing a drum gains 60.00 − 33.00 = 27.00, as section 9.1 computed.
+The constraint. Filling uses 0.04 line hours a drum, and line time earns $900 an hour elsewhere, so the opportunity cost of processing a drum is 0.04 × 900 = 36.00. Against an incremental benefit of $27.00, processing a drum makes the company 36.00 − 27.00 = 9.00 worse off. On the figures as given, none of the 120,000 drums should be processed further: all should be sold as paste.
+What would change that. The answer turns entirely on the $900 an hour. Processing is worth doing if line time earns less than 27.00 ÷ 0.04 = 675.00 an hour, so the decision reverses the moment the other work on the filling line falls below that rate. Since the line's alternative work is presumably jars of other kinds, that figure should be checked rather than accepted: it is the single number the whole recommendation rests on.
+The jar market limit matters only if the first test is passed. If line time were worth less than $675 an hour, the company could process up to 40,000 drums, because the market absorbs 400,000 extra jars and each drum yields ten.
+The two assumptions. First, that the $900 an hour is a genuine contribution forgone — that the alternative work exists and will be lost, rather than merely delayed. Second, that the paste market will absorb all 120,000 drums at $60.00; if it will not, the drums that cannot be sold have no alternative use and the comparison for those changes entirely, because the opportunity cost of the line time is then weighed against nothing at all.

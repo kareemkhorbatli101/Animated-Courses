@@ -1,0 +1,554 @@
+Chapter 7
+Marginal cost, marginal revenue, the averages, and the special order
+التكلفة الحدية والإيراد الحدي والمتوسطات والطلبية الخاصة
+A hotel group offers to buy 300,000 jars at $8.50. The jars cost $10.81 each to make, according to the costing system. Refusing the order would be the obvious decision and the wrong one.
+This chapter explains why. It sets out the marginal figures — the cost of one more unit and the revenue from one more unit — against the average figures that a costing system reports, and shows that only the first pair answers a question about doing more or less of something. The special order is the classic application and the one the exam sets most often.
+Figure F707-01 is your map.
+Figure F707-01. Chapter 7 roadmap: margins against averages, and the order that tests the difference.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.2.e
+Define and calculate marginal cost and marginal revenue.
+C
+Full treatment
+C.2.f
+Identify and calculate total cost, average fixed cost, average variable cost and average total cost.
+C
+Full treatment
+C.2.g
+Use marginal analysis in decisions.
+C
+Full treatment
+C.2.h
+Calculate the effect on operating income of accepting or rejecting a special order, with and without idle capacity.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+marginal cost
+التكلفة الحدية
+coût marginal
+marginal revenue
+الإيراد الحدي
+recette marginale
+total cost
+التكلفة الكلية
+coût total
+average fixed cost
+متوسط التكلفة الثابتة
+coût fixe moyen
+average variable cost
+متوسط التكلفة المتغيرة
+coût variable moyen
+average total cost
+متوسط التكلفة الكلية
+coût total moyen
+special order
+الطلبية الخاصة
+commande spéciale
+idle capacity
+الطاقة العاطلة
+capacité inutilisée
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 established that only future costs that differ between alternatives are relevant. Chapter 6 added the opportunity cost of displaced work. This chapter gives those two rules their most examined application, and supplies the vocabulary of margins and averages the exam uses to state it.
+7.1  Marginal cost and marginal revenue
+Marginal cost is the increase in total cost from producing one more unit. Marginal revenue is the increase in total revenue from selling one more unit. Both are differences, not averages, and that is the whole of the distinction this chapter rests on.
+Within the relevant range, marginal cost equals the variable cost per unit. For Orontes, making one more jar costs another $7.20 of sesame, packaging and the rest, and nothing else moves: the lease, the salaries and the depreciation are the same at 3,500,001 jars as at 3,500,000. So marginal cost is $7.20 — and notice that the full cost of a jar, which section 7.2 computes as $10.81, is not the cost of making another one.
+Outside the relevant range, marginal cost jumps. The 4,000,001st jar might need a second shift, which adds a supervisor and a premium rate; at that point marginal cost rises in a step, which is why the classic economics diagram draws marginal cost as a curve rather than a line.
+Marginal revenue equals the selling price only where the company can sell any quantity at that price — the condition economists call pure competition and Chapter 11 examines. Where selling more requires a lower price, and the lower price applies to all units and not only the extra ones, marginal revenue is below the price and can be negative.
+WORKED EXAMPLE   Worked example: what the extra jars really earn
+Step 1. The position now. Orontes sells 3,500,000 jars at $12.00, so total revenue is 3,500,000 × 12.00 = 42,000,000.
+Step 2. The proposal. To sell 3,800,000 jars, the price must fall to $11.50 — for every jar, not only the extra ones. Total revenue becomes 11.50 × 3,800,000 = 43,700,000.
+Step 3. Marginal revenue. Revenue rises by 43,700,000 − 42,000,000 = 1,700,000 for 300,000 extra jars, so marginal revenue is 1,700,000 ÷ 300,000 = 5.67 a jar.
+Step 4. The decision. Marginal cost is $7.20. Each extra jar earns $5.67 and costs $7.20, so the company would lose 7.20 − 5.67 = 1.53 on each of them. Reject.
+Check. The price is $11.50 and the marginal revenue is $5.67, and the gap between them is the revenue given up on the 3,500,000 jars that would have sold at $12.00: 3,500,000 × 0.50 = 1,750,000 of lost revenue against 300,000 × 11.50 = 3,450,000 gained. That is the arithmetic behind Book 1's finding that Orontes had been buying growth with price, and it is why marginal revenue, not price, is the figure to set against marginal cost.
+The decision rule that follows is the foundation of the next three chapters. Do more of something while marginal revenue exceeds marginal cost; stop where they are equal; do less where marginal cost is higher. Everything in Chapters 8 and 9 is a special case of that sentence.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+one more unit
+الوحدة الإضافية
+unité supplémentaire
+pure competition
+المنافسة الكاملة
+concurrence pure
+price cut across all units
+خفض السعر على جميع الوحدات
+baisse de prix généralisée
+decision rule
+قاعدة القرار
+règle de décision
+SECTION CHECK   Test yourself
+SC7-1  Marginal cost is:
+A.	the increase in total cost from one more unit.
+B.	total cost divided by units.
+C.	fixed cost per unit.
+D.	the selling price less the full cost.
+SC7-2  Within the relevant range, marginal cost usually equals:
+A.	the variable cost per unit.
+B.	the average total cost.
+C.	the average fixed cost.
+D.	the contribution margin.
+SC7-3  Where selling more requires a lower price on all units, marginal revenue is:
+A.	below the selling price.
+B.	equal to the selling price.
+C.	above the selling price.
+D.	equal to marginal cost.
+Answers and explanations are at the end of the chapter.
+7.2  The averages
+Four averages appear in exam questions, and the arithmetic is simple once the four are kept apart.
+Total cost is the fixed costs plus the variable costs at that volume. For Orontes at 3,500,000 jars: variable costs are 3,500,000 × 7.20 = 25,200,000, and with fixed costs of $12,624,000 the total is 25,200,000 + 12,624,000 = 37,824,000.
+Average variable cost is the variable cost divided by the units, which is $7.20 and does not change within the range. It equals marginal cost here, which is a property of the straight-line model and not a general truth.
+Average fixed cost is the fixed costs divided by the units: 12,624,000 ÷ 3,500,000 = 3.61 a jar. It falls as volume rises, which is the whole of what people mean by spreading the overhead.
+Average total cost is the total divided by the units: 37,824,000 ÷ 3,500,000 = 10.81 a jar. It equals the average variable cost plus the average fixed cost, 7.20 + 3.61 = 10.81, and it falls as volume rises because its fixed component does.
+Figure F707-02 computes the four at three volumes.
+Figure F707-02. The averages at three volumes
+Measure
+3,000,000 jars
+3,500,000 jars
+4,000,000 jars
+Variable cost in total
+21,600,000
+25,200,000
+28,800,000
+Fixed cost in total
+12,624,000
+12,624,000
+12,624,000
+Total cost
+34,224,000
+37,824,000
+41,424,000
+Average variable cost
+7.20
+7.20
+7.20
+Average fixed cost
+4.21
+3.61
+3.16
+Average total cost
+11.41
+10.81
+10.36
+Marginal cost
+7.20
+7.20
+7.20
+Three readings, all examinable.
+Average total cost falls with volume and marginal cost does not. The two are different numbers answering different questions, and the gap between them at 3,500,000 jars is 10.81 − 7.20 = 3.61, which is exactly the average fixed cost.
+A costing system reports the average and a decision needs the margin. That is the single most expensive confusion in management accounting, and the special order of section 7.4 is its standard illustration.
+Average total cost is the right figure for some questions. It is what a product must earn over the long run if the company is to cover its fixed costs, and it is the base of the cost-plus pricing of Chapter 10. It is simply not the figure for a decision about one more unit.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+spreading the overhead
+توزيع التكاليف الثابتة
+étalement des charges fixes
+unit cost
+تكلفة الوحدة
+coût unitaire
+long run
+المدى الطويل
+long terme
+full cost
+التكلفة الكاملة
+coût complet
+SECTION CHECK   Test yourself
+SC7-4  Average fixed cost at 3,500,000 units with fixed costs of 12,624,000 is:
+A.	3.61
+B.	7.20
+C.	10.81
+D.	12,624,000
+SC7-5  Average total cost equals:
+A.	average variable cost plus average fixed cost.
+B.	marginal cost.
+C.	total cost plus fixed cost.
+D.	the contribution margin.
+SC7-6  As volume rises within the relevant range:
+A.	average total cost falls and marginal cost is unchanged.
+B.	both fall.
+C.	both rise.
+D.	average total cost is unchanged.
+Answers and explanations are at the end of the chapter.
+7.3  Marginal analysis as a decision rule
+Marginal analysis compares the change in revenue with the change in cost, and accepts whatever change leaves the company better off. Four everyday decisions are the same calculation in different clothes, and Chapters 8 and 9 take three of them in detail.
+A special order: does the extra revenue exceed the extra cost?
+Make or buy: does the cost avoided by buying exceed the price paid?
+Sell or process further: does the extra revenue from processing exceed the extra processing cost?
+Drop or keep: does the contribution lost exceed the fixed cost avoided?
+In every case the analysis contains only what changes, which is Chapter 5's rule, and includes the opportunity cost of anything displaced, which is Chapter 6's.
+Two cautions apply to all four.
+The analysis is short-run by construction. It holds the fixed costs and the capacity constant, which is correct for a decision inside the relevant range and wrong for a decision that changes the shape of the business.
+Repetition changes the question. A special order accepted once uses spare capacity; the same order accepted every month becomes part of the regular business, and regular business must cover fixed costs. The exam signals this with the words "one-off" or "will not recur", and an answer that notices their absence is answering better than one that does not.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+marginal analysis
+التحليل الحدي
+analyse marginale
+short run
+المدى القصير
+court terme
+recurring
+متكرر
+récurrent
+better off
+الأفضل حالاً
+plus avantageux
+SECTION CHECK   Test yourself
+SC7-7  Marginal analysis includes:
+A.	only what changes, plus any opportunity cost.
+B.	every cost of the company.
+C.	the full cost of each unit.
+D.	allocated overhead.
+SC7-8  A special order accepted every month rather than once:
+A.	becomes regular business and must cover fixed costs.
+B.	is analysed in exactly the same way.
+C.	uses no capacity.
+D.	has no opportunity cost.
+SC7-9  Marginal analysis is a short-run technique because it:
+A.	holds fixed costs and capacity constant.
+B.	ignores revenue.
+C.	uses average cost.
+D.	requires a tax rate.
+Answers and explanations are at the end of the chapter.
+7.4  The special order with idle capacity
+Now the question the chapter opened with. A hotel group offers $8.50 a jar for 300,000 jars, in plain labelling of its own design. Orontes has capacity to spare: it can make 3,800,000 jars and sells 3,500,000. The special labels cost 30 cents a jar more than the standard ones. No other cost changes.
+WORKED EXAMPLE   Worked example: the order, with capacity to spare
+Step 1. The incremental cost. Variable cost of $7.20 plus special labelling of $0.30 is 7.20 + 0.30 = 7.50 a jar.
+Step 2. The incremental contribution. 8.50 − 7.50 = 1.00 a jar.
+Step 3. The effect on operating income. 300,000 × 1.00 = 300,000 of additional operating income.
+Step 4. What is excluded, and why. The fixed costs of $12,624,000 do not change, so no part of them belongs in the analysis; the average total cost of $10.81 is therefore irrelevant, and the order's apparent loss of 10.81 − 8.50 = 2.31 a jar is an artefact of a costing system doing a job it was not designed for.
+Check. Accepting raises operating income from $4,176,000 to 4,176,000 + 300,000 = 4,476,000. The price of $8.50 is below full cost and above incremental cost, and that is precisely the range in which a special order is worth taking. Below $7.50 it would not be.
+Figure F707-03 sets the two views side by side.
+Figure F707-03. The same order, two ways of looking at it
+Per jar
+Full-cost view
+Relevant-cost view
+Price offered
+8.50
+8.50
+Variable cost
+(7.20)
+(7.20)
+Special labelling
+(0.30)
+(0.30)
+Absorbed fixed cost
+(3.61)
+Not relevant; it does not change
+Result a jar
+(2.61) loss
+1.00 contribution
+Effect on operating income
+Appears to lose 783,000
+Gains 300,000
+The right-hand column is the answer and the left-hand column is what a costing system would print. Which is why this outcome exists.
+Four conditions make the relevant-cost answer the right one, and an exam answer should state them.
+There is genuinely spare capacity, so nothing is displaced.
+The order is one-off, so it does not become the business.
+It does not disturb the regular market — the hotel group will not resell into Orontes's own customers, and the existing customers will not learn of the price and demand it.
+Any costs specific to the order, such as the special labelling, are included.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+incremental contribution
+المساهمة التفاضلية
+marge différentielle
+below full cost
+أقل من التكلفة الكاملة
+sous le coût complet
+market disturbance
+اضطراب السوق
+perturbation du marché
+specific cost
+التكلفة الخاصة
+coût spécifique
+SECTION CHECK   Test yourself
+SC7-10  With idle capacity, the relevant cost of a special order is:
+A.	the incremental variable and specific costs only.
+B.	the full absorbed cost.
+C.	the average total cost.
+D.	the average fixed cost.
+SC7-11  An order at 8.50 with incremental costs of 7.50 adds, on 300,000 units:
+A.	300,000 to operating income.
+B.	2,550,000 to operating income.
+C.	nothing.
+D.	a loss of 693,000.
+SC7-12  A special order priced below full cost should be rejected when:
+A.	it would displace regular sales or disturb the regular market.
+B.	it is below average total cost.
+C.	fixed costs are high.
+D.	the customer is new.
+Answers and explanations are at the end of the chapter.
+7.5  The special order without idle capacity
+Change one fact. Suppose Orontes is making 3,800,000 jars and selling every one of them. Taking the hotel order now means making 300,000 fewer standard jars.
+The incremental cost is still $7.50. But the 300,000 standard jars forgone would each have contributed $4.80, so the opportunity cost is 300,000 × 4.80 = 1,440,000. Against an incremental contribution of 300,000 × 1.00 = 300,000, the order would leave the company 1,440,000 − 300,000 = 1,140,000 worse off. Reject.
+The minimum acceptable price at full capacity is the incremental cost plus the contribution displaced: 7.50 + 4.80 = 12.30 a jar — thirty cents above the regular price, which is the special labelling, and far above the $8.50 offered.
+Figure F707-04 compares the two cases.
+Figure F707-04. The same order, with and without spare capacity
+Spare capacity
+Full capacity
+Incremental cost a jar
+7.50
+7.50
+Opportunity cost a jar
+Nil
+4.80
+Minimum price a jar
+7.50
+12.30
+At an offer of 8.50
+Accept; 300,000 better off
+Reject; 1,140,000 worse off
+Partial capacity is the case the exam likes best, because it needs both halves. Suppose Orontes can make 3,650,000 jars and sells 3,500,000, so 150,000 jars of capacity are spare and the other 150,000 of the order would displace standard sales. Then half the order carries no opportunity cost and half carries $4.80: the relevant cost is 150,000 × 7.50 = 1,125,000 for the first part and 150,000 × 12.30 = 1,845,000 for the second, so the whole order should not be accepted below 1,125,000 + 1,845,000 = 2,970,000, which is 2,970,000 ÷ 300,000 = 9.90 a jar.
+The qualitative factors close the chapter and carry real marks.
+What the regular customers will think. A price of $8.50 that becomes known is a price every customer will ask for, and Book 1 showed what two points of margin are worth.
+Whether the buyer will resell. A hotel group with 300,000 jars at $8.50 is a potential competitor in Orontes's own market.
+What the order displaces in the relationship, not only in the figures. A regular customer turned away for a one-off order may not return.
+Whether the capacity is really spare. Capacity used for a special order is capacity not available for a sudden opportunity, and a company close to full should price that risk.
+And what happens next year. A one-off order that is repeated becomes the regular business, priced at a level that does not cover fixed costs.
+YOUR TURN   Price three orders
+Figure F707-05 gives a company's figures and three offers. Complete the blanks. Answers are at the end of the chapter.
+Figure F707-05. Your turn: special orders (complete the blanks)
+Item
+Data
+Answer
+Average total cost
+Fixed 900,000, variable 14.00 a unit, volume 150,000
+________
+Minimum price with spare capacity
+Special packing adds 1.20 a unit
+________
+Minimum price at full capacity
+Regular contribution is 6.00 a unit
+________
+Effect of a 20,000-unit order at 16.00, with spare capacity
+________
+Effect of the same order at full capacity
+________
+The order that should be refused
+________
+LANGUAGE FOCUS   "Marginal"
+English marginal in economics and management accounting means at the margin — the effect of one more unit — and carries no suggestion of smallness or unimportance. In everyday English a marginal difference is a trivial one, and that reading destroys the technical sense completely: a marginal cost can be the largest number in a decision. Arabic حدي comes from حد, a boundary or limit, and keeps the technical meaning cleanly. French marginal has the same double life as English, with coût marginal technical and marginal in ordinary speech meaning peripheral — and French adds à la marge for the technical idea when clarity is needed. The exam uses the technical sense without exception.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+displaced contribution
+المساهمة المزاحة
+marge déplacée
+partial capacity
+طاقة جزئية
+capacité partielle
+minimum acceptable price
+أدنى سعر مقبول
+prix minimal acceptable
+customer relationship
+علاقة العميل
+relation client
+SECTION CHECK   Test yourself
+SC7-13  At full capacity, the minimum price for a special order is:
+A.	the incremental cost plus the contribution displaced.
+B.	the incremental cost.
+C.	the average total cost.
+D.	the regular selling price.
+SC7-14  Where half an order can be made from spare capacity and half displaces regular sales:
+A.	each half is priced separately and the two are added.
+B.	the whole order is priced at the incremental cost.
+C.	the whole order is priced at full capacity rates.
+D.	the order must be refused.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F707-06 brings the chapter together.
+Figure F707-06. Chapter 7 summary map: the key rule for each section.
+Marginal cost is the cost of one more unit, which inside the relevant range is Orontes's variable cost of $7.20, and marginal revenue is the revenue from one more unit, which falls below the price whenever selling more requires cutting it: dropping the jar to $11.50 to sell 300,000 more raises revenue by 43,700,000 − 42,000,000 = 1,700,000, so marginal revenue is 1,700,000 ÷ 300,000 = 5.67 against a marginal cost of 7.20, and the move loses money. The averages answer a different question: total cost of 25,200,000 + 12,624,000 = 37,824,000 gives an average total cost of 37,824,000 ÷ 3,500,000 = 10.81, of which 12,624,000 ÷ 3,500,000 = 3.61 is fixed and falls with volume while marginal cost does not. Marginal analysis accepts any change whose extra revenue exceeds its extra cost, and the special order is its classic test: with spare capacity the relevant cost of the hotel order is 7.20 + 0.30 = 7.50, so $8.50 adds 300,000 × 1.00 = 300,000 even though it is $2.31 below full cost. Without spare capacity the displaced contribution of 300,000 × 4.80 = 1,440,000 reverses the answer, and the minimum price becomes 7.50 + 4.80 = 12.30. And the qualitative factors — what regular customers will think, whether the buyer will resell, and what happens when a one-off is repeated — decide as many of these cases as the arithmetic does.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P7-01  Marginal cost is:
+A.	the change in total cost from one more unit.
+B.	total cost divided by units.
+C.	fixed cost divided by units.
+D.	the price less the full cost.
+P7-02  Fixed costs of 900,000 and variable costs of 14.00 a unit at 150,000 units give an average total cost of:
+A.	20.00
+B.	14.00
+C.	6.00
+D.	900,000
+P7-03  Average fixed cost, as volume rises:
+A.	falls.
+B.	rises.
+C.	is unchanged.
+D.	equals marginal cost.
+P7-04  A price cut applied to all units makes marginal revenue:
+A.	lower than the new price.
+B.	equal to the new price.
+C.	higher than the old price.
+D.	equal to marginal cost.
+P7-05  Revenue rises from 42,000,000 to 43,700,000 on 300,000 extra units. Marginal revenue is:
+A.	5.67
+B.	11.50
+C.	12.00
+D.	1,700,000
+P7-06  With spare capacity, the relevant cost of a special order is:
+A.	the incremental variable and order-specific costs.
+B.	the full absorbed cost.
+C.	the average total cost.
+D.	the average fixed cost.
+P7-07  An order of 20,000 units at 16.00, with variable costs of 14.00 and special packing of 1.20, with spare capacity:
+A.	adds 16,000 to operating income.
+B.	adds 40,000 to operating income.
+C.	loses 80,000.
+D.	adds 320,000.
+P7-08  At full capacity, the minimum price is the incremental cost plus:
+A.	the contribution displaced.
+B.	the average fixed cost.
+C.	the absorbed overhead.
+D.	nothing.
+P7-09  A special order at a price below full cost should be refused if:
+A.	it displaces regular sales or would disturb the regular market.
+B.	it is below average total cost.
+C.	the customer is overseas.
+D.	the company has high fixed costs.
+P7-10  Which is a qualitative factor in a special-order decision?
+A.	Whether regular customers would demand the same price
+B.	The variable cost per unit
+C.	The contribution displaced
+D.	The order quantity
+Case-style practice: two offers in the same week
+Orontes can make 3,800,000 jars and currently sells 3,500,000 at $12.00, with a variable cost of $7.20 and fixed costs of $12,624,000. Two offers arrive. A hotel group wants 300,000 jars at $8.50, with special labelling costing 30 cents a jar, as a one-off. A supermarket chain wants 500,000 jars at $9.40 a year for three years, in Orontes's standard packaging, to be sold under the supermarket's own brand in the same cities Orontes supplies.
+Required. Evaluate both. Recommend, and name the factor that decides the second one. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC7-1  Answer A. It is a difference, not an average.
+B is wrong. That is average total cost.
+C is wrong. That is average fixed cost.
+D is wrong. That is a margin on full cost.
+SC7-2  Answer A. Within the range only the variable costs move.
+B is wrong. Average total cost includes fixed costs.
+C is wrong. Average fixed cost is not incurred again for one more unit.
+D is wrong. Contribution margin is a revenue measure net of cost.
+SC7-3  Answer A. The cut applies to units that would have sold higher.
+B is wrong. That holds only where price is unaffected by quantity.
+C is wrong. Marginal revenue cannot exceed the price in this case.
+D is wrong. Equality is the optimum, not a definition.
+SC7-4  Answer A. 12,624,000 ÷ 3,500,000 = 3.61.
+B is wrong. That is the variable cost.
+C is wrong. That is average total cost.
+D is wrong. That is the total, not the average.
+SC7-5  Answer A. The two averages add.
+B is wrong. Marginal cost excludes fixed costs.
+C is wrong. This double-counts.
+D is wrong. Contribution margin is price less variable cost.
+SC7-6  Answer A. The fixed element of the average falls.
+B is wrong. Marginal cost is constant in the range.
+C is wrong. Neither rises in the range.
+D is wrong. Average total cost falls as fixed costs spread.
+SC7-7  Answer A. Only differences, plus opportunity costs.
+B is wrong. Most costs do not change.
+C is wrong. Full cost includes unchanged fixed costs.
+D is wrong. Allocations do not change with the decision.
+SC7-8  Answer A. Regular business must cover fixed costs.
+B is wrong. Repetition changes the capacity and pricing position.
+C is wrong. It uses capacity every month.
+D is wrong. Repeated use of capacity creates opportunity costs.
+SC7-9  Answer A. Capacity and fixed costs are held constant.
+B is wrong. Revenue is central to it.
+C is wrong. It uses marginal, not average, figures.
+D is wrong. Tax is a separate adjustment.
+SC7-10  Answer A. Only what changes.
+B is wrong. Absorbed cost includes unchanged fixed costs.
+C is wrong. The same objection applies.
+D is wrong. Average fixed cost does not change with the order.
+SC7-11  Answer A. 300,000 × 1.00 = 300,000.
+B is wrong. That is the revenue, not the contribution.
+C is wrong. The order contributes.
+D is wrong. That is the full-cost illusion.
+SC7-12  Answer A. Displacement or market damage reverses the answer.
+B is wrong. Below full cost is the normal case for a worthwhile special order.
+C is wrong. High fixed costs are a reason to welcome contribution.
+D is wrong. A new customer is not a reason to refuse.
+SC7-13  Answer A. Incremental cost plus displaced contribution.
+B is wrong. That ignores what is given up.
+C is wrong. Average total cost is not a decision figure.
+D is wrong. The regular price may be above or below the floor.
+SC7-14  Answer A. Each part has its own relevant cost.
+B is wrong. Half the order displaces sales.
+C is wrong. Half the order uses spare capacity.
+D is wrong. The order may be worth taking at a blended price.
+Your turn
+Item
+Answer
+Average total cost
+20.00: variable 14.00 plus fixed of 900,000 ÷ 150,000 = 6.00.
+Minimum price with spare capacity
+15.20: 14.00 + 1.20 = 15.20.
+Minimum price at full capacity
+21.20: 15.20 + 6.00 = 21.20.
+A 20,000-unit order at 16.00, spare capacity
+Adds 16,000: the contribution is 16.00 − 15.20 = 0.80 a unit, and 20,000 × 0.80 = 16,000.
+The same order at full capacity
+Loses 104,000: the displaced contribution is 20,000 × 6.00 = 120,000 against 16,000 of incremental contribution.
+The order that should be refused
+The one taken at full capacity, because it displaces contribution five times its own.
+What it tells you
+The same order at the same price is worth 16,000 or costs 104,000, and nothing about the order changed. Capacity is the fact that decides, and it is the first thing to establish in any question of this kind.
+Multiple-choice questions
+P7-01  Answer A. The change in total cost.
+B is wrong. That is average total cost.
+C is wrong. That is average fixed cost.
+D is wrong. That is a margin.
+P7-02  Answer A. 14.00 plus 900,000 ÷ 150,000 = 6.00.
+B is wrong. That is the variable cost alone.
+C is wrong. That is the fixed cost per unit alone.
+D is wrong. That is the total fixed cost.
+P7-03  Answer A. The same total is spread over more units.
+B is wrong. The total does not rise within the range.
+C is wrong. The per-unit figure changes.
+D is wrong. Marginal cost excludes fixed costs.
+P7-04  Answer A. The cut applies to units that would have sold at the old price.
+B is wrong. Equality holds only under pure competition.
+C is wrong. Marginal revenue falls, not rises.
+D is wrong. Equality with marginal cost is the optimum condition.
+P7-05  Answer A. 1,700,000 ÷ 300,000 = 5.67.
+B is wrong. That is the new price.
+C is wrong. That is the old price.
+D is wrong. That is the total change in revenue.
+P7-06  Answer A. Only what changes.
+B is wrong. Absorbed cost includes unchanged fixed costs.
+C is wrong. The same objection applies.
+D is wrong. Average fixed cost is not incremental.
+P7-07  Answer A. 16.00 − 15.20 = 0.80, and 20,000 × 0.80 = 16,000.
+B is wrong. This uses a 2.00 margin and ignores the packing.
+C is wrong. That applies full absorbed cost.
+D is wrong. That is the revenue less variable cost only.
+P7-08  Answer A. The contribution given up.
+B is wrong. Average fixed cost does not change.
+C is wrong. Absorption is not displacement.
+D is wrong. At full capacity something is always displaced.
+P7-09  Answer A. Displacement or market damage.
+B is wrong. Below full cost is the normal case for such orders.
+C is wrong. Location is not the test.
+D is wrong. High fixed costs argue for taking contribution.
+P7-10  Answer A. Customer reaction is qualitative.
+B is wrong. The variable cost is a figure.
+C is wrong. Displaced contribution is a figure.
+D is wrong. The quantity is a figure.
+Case-style set: two offers in the same week
+The hotel order. Spare capacity is 300,000 jars, exactly the quantity offered, so nothing is displaced. The incremental cost is 7.20 + 0.30 = 7.50 and the price is $8.50, so the contribution is 8.50 − 7.50 = 1.00 a jar and the order adds 300,000 × 1.00 = 300,000 to operating income. Accept it: it is one-off, it uses capacity that would otherwise stand idle, and the buyer is in a different trade.
+The supermarket order. The arithmetic looks better at first: a price of $9.40 against a variable cost of $7.20 in standard packaging gives 9.40 − 7.20 = 2.20 a jar, and 500,000 × 2.20 = 1,100,000 a year. But the capacity is not there. Spare capacity is 300,000 jars and the hotel order would take all of it, so at least 200,000 jars of the supermarket order — and all 500,000 if the hotel order is taken — would displace standard sales contributing $4.80. Displacing 500,000 jars costs 500,000 × 4.80 = 2,400,000 against 1,100,000 of contribution, a loss of 1,300,000 a year.
+Recommendation: accept the hotel order, decline the supermarket order at $9.40. The minimum price for displaced output is 7.20 + 4.80 = 12.00, so the supermarket would have to pay more than Orontes's own customers do.
+The factor that decides the second one is not the price at all: it is that the jars would be sold under another brand in the same cities Orontes supplies, for three years. That is not a special order, it is a competitor being supplied with its own product at below Orontes's regular price — and Book 1's finding that the company has already given away two points of gross margin is the reason to be most careful of exactly this kind of volume.
