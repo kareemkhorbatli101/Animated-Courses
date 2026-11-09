@@ -1,0 +1,602 @@
+Chapter 11
+Dividends, dividend policy, debt against equity, and leasing
+التوزيعات وسياستها والتمويل بالدين مقابل حقوق الملكية والتأجير
+A company that has earned money has to decide what to do with it, and a company that needs money has to decide where to get it. This chapter takes both decisions: the first as dividend policy, the second as the choice between debt, equity and a lease.
+They are the same decision from two sides. Every dollar paid out is a dollar that must be raised again if it is needed, at the costs Chapter 8 computed; every dollar retained is a dollar the shareholders did not receive and on which they require a return. The chapter ends on leasing, because a lease is the one financing route that can be compared with borrowing by a single arithmetic test — and the exam asks for that test.
+Figure F611-01 is your map.
+Figure F611-01. Chapter 11 roadmap: paying out, and three ways of raising it again.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.3.h
+Define cash dividends, stock dividends and stock splits.
+C
+Full treatment
+B.3.j
+Explain the dividend payment process for common and preferred stock.
+C
+Full treatment
+B.3.i
+Identify the factors that influence a company's dividend policy.
+C
+Full treatment
+B.3.m
+Identify the advantages and disadvantages of debt financing against equity financing.
+C
+Full treatment
+B.3.g
+Describe lease financing and calculate the net advantage to leasing.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cash dividend
+التوزيعات النقدية
+dividende en numéraire
+stock dividend
+توزيعات أسهم مجانية
+dividende en actions
+stock split
+تجزئة الأسهم
+division d'actions
+declaration date
+تاريخ الإعلان
+date de déclaration
+ex-dividend date
+تاريخ انفصال الاستحقاق
+date de détachement
+dividend policy
+سياسة التوزيعات
+politique de dividende
+clientele effect
+أثر فئة المستثمرين
+effet de clientèle
+net advantage to leasing
+صافي ميزة التأجير
+avantage net du crédit-bail
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's declared dividend of $450,000, a payout of 15.16 per cent, a dividend per share of $0.0556 and a sustainable growth rate of 13.70 per cent against actual growth of 15.38. Chapter 7 of this book described a lease and promised the calculation. Chapter 10 compared a dividend with a buyback.
+11.1  The kinds of dividend
+Four distributions appear in exam questions and only the first moves cash.
+A cash dividend is a payment out of retained earnings. It reduces cash and reduces equity by the same amount, and it does not touch the income statement — a distribution is not an expense. Orontes declared $450,000 for 2025, of which $50,000 was paid in cash during the year and $400,000 stood as a dividend payable at December 31.
+A stock dividend is a distribution of additional shares. Nothing leaves the company. A holder of 100 shares who receives a 10 per cent stock dividend holds 110 shares of a company worth exactly what it was worth before, so each share is worth proportionately less. In the accounts, a small stock dividend transfers an amount from retained earnings to common stock and additional paid-in capital at the market value of the shares issued: on Orontes's 8,100,000 shares a 10 per cent stock dividend would issue 810,000 shares, and at $9.25 that is 810,000 × 9.25 = 7,492,500 moved within equity. Earnings per share falls mechanically to 2,969,100 ÷ 8,910,000 = 0.3332.
+A stock split divides each share into more shares. A two-for-one split on Orontes gives 16,200,000 shares, each worth about half as much, and earnings per share becomes 2,969,100 ÷ 16,200,000 = 0.1833. Accounting-wise a split changes the par value and transfers nothing; economically it is identical to a stock dividend, and the reason both exist is a convention about size — a distribution of more than about a quarter is treated as a split.
+A property dividend distributes an asset rather than cash, and a liquidating dividend returns capital rather than profit, which reduces paid-in capital and is a signal in its own right.
+Why issue shares that are worth nothing new? Three reasons the exam accepts. To bring a high share price into a range where small investors trade more easily. To signal confidence, since a board that splits usually expects the price to keep rising. And to conserve cash while appearing to distribute something, which is the least respectable of the three and the commonest.
+Figure F611-02 sets out the effects.
+Figure F611-02. What each distribution changes
+Distribution
+Cash
+Total equity
+Shares outstanding
+Earnings per share
+Cash dividend
+Falls
+Falls
+Unchanged
+Unchanged
+Stock dividend
+Unchanged
+Unchanged
+Rises
+Falls
+Stock split
+Unchanged
+Unchanged
+Rises
+Falls
+Liquidating dividend
+Falls
+Falls, from paid-in capital
+Unchanged
+Unchanged
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+distribution
+التوزيع
+distribution
+par value
+القيمة الإسمية
+valeur nominale
+trading range
+نطاق التداول
+fourchette de cours
+liquidating dividend
+توزيع تصفوي
+dividende de liquidation
+SECTION CHECK   Test yourself
+SC11-1  A stock dividend:
+A.	leaves total equity and cash unchanged and raises the share count.
+B.	reduces cash.
+C.	raises total equity.
+D.	reduces the share count.
+SC11-2  A 10 per cent stock dividend on 8,100,000 shares, with net income unchanged at 2,969,100, gives earnings per share of:
+A.	0.3332
+B.	0.3666
+C.	0.1833
+D.	0.4033
+SC11-3  A cash dividend appears in:
+A.	the statement of changes in equity and the cash flow statement, not the income statement.
+B.	the income statement as an expense.
+C.	cost of goods sold.
+D.	other comprehensive income.
+Answers and explanations are at the end of the chapter.
+11.2  How a dividend is paid
+Four dates govern the process, and the exam asks which one matters.
+The declaration date is when the board declares the dividend. At that moment a legal liability arises: Orontes's $400,000 dividend payable exists because the board declared before the year end and had not yet paid.
+The date of record is the date on which the company looks at its share register. Whoever is on it receives the dividend.
+The ex-dividend date is one business day before the record date in most markets, and it is the one that matters to an investor. A share bought on or after it does not carry the dividend. On the ex-dividend date the price falls by approximately the dividend, because the buyer no longer receives it: Orontes's $9.25 share would open at about 9.25 − 0.0556 = 9.1944, before any other news.
+The payment date is when the cash goes out.
+For preferred stock the process is the same with one addition. The preferred dividend must be declared and paid in full before any common dividend, and where the stock is cumulative, any arrears from earlier years must be cleared first. Preferred dividends are usually at a fixed rate on par and are declared on a regular cycle, so the discretion a board exercises over the common dividend barely exists for the preferred — in practice if not in law.
+Figure F611-03 sets the dates out.
+Figure F611-03. The four dates
+Date
+What happens
+Effect
+Declaration date
+The board declares
+A liability arises; equity falls
+Ex-dividend date
+The shares trade without the dividend
+The price falls by about the dividend
+Date of record
+The register is read
+Holders on it will be paid
+Payment date
+The cash is sent
+Cash and the liability both fall
+EXAM TRAP   Which date, and which effect
+The liability arises on declaration, not on payment. Orontes's balance sheet carries $400,000 of dividends payable for exactly that reason.
+The price adjusts on the ex-dividend date, not on the payment date. Buying the day before the ex-date to capture the dividend gains nothing, because the price falls by it.
+A dividend is not an expense and never reduces net income. It reduces retained earnings.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+dividends payable
+التوزيعات المستحقة الدفع
+dividendes à payer
+share register
+سجل المساهمين
+registre des actionnaires
+arrears
+المتأخرات
+arriérés
+SECTION CHECK   Test yourself
+SC11-4  The liability for a dividend arises on:
+A.	the declaration date.
+B.	the ex-dividend date.
+C.	the date of record.
+D.	the payment date.
+SC11-5  On the ex-dividend date a share price would be expected to:
+A.	fall by approximately the dividend.
+B.	rise by the dividend.
+C.	be unchanged.
+D.	fall by twice the dividend.
+SC11-6  Before any common dividend may be paid, a company must first:
+A.	pay the preferred dividend in full, including any cumulative arrears.
+B.	repay its debt.
+C.	obtain shareholder approval.
+D.	issue a stock dividend.
+Answers and explanations are at the end of the chapter.
+11.3  What decides a dividend policy
+A dividend policy is the rule a board follows about how much of its profit to distribute. Eight factors influence it, and the exam expects them named.
+Legal and contractual constraints. Distributions are limited by law to profits available for the purpose, and covenants in loan agreements often restrict them further — a lender that has just advanced money does not want it paid out to shareholders.
+Liquidity. A dividend is paid in cash, not in profit. A company can be profitable and unable to pay, which is precisely Barada's position in Book 1: an overdraft where there was none, and the profit sitting in inventory.
+Investment opportunities. A company with projects earning more than its cost of capital should retain; one without should distribute. Orontes retains 84.84 per cent and has projects at 14 and 11 per cent against a cost of capital of 9.04, which is consistent.
+Access to capital. A large, listed, well-rated company can pay out and raise money again cheaply. A small private company cannot, so it retains.
+Stability and the signal. Boards dislike cutting dividends because a cut is read as bad news, so they raise only when the higher level can be sustained. The result is that dividends are smoothed and lag earnings, and an unexpected cut moves a share price far more than the cash involved would justify.
+The clientele effect. Different investors want different things: a pension fund wants income, a taxpaying individual in a high bracket may prefer capital gains, a growth investor wants everything retained. A company's existing holders have selected it partly for its policy, so changing the policy sells the company to a different clientele and the transition is costly.
+Taxes. Where dividends are taxed more heavily than capital gains, distribution is an expensive way to deliver value, which is the argument for the buyback of Chapter 10.
+Control. A dividend paid out may have to be raised again by issuing shares, which dilutes the existing holders. A family company protecting control retains instead.
+Figure F611-04 reads Orontes against the eight.
+Figure F611-04. Orontes's policy, tested against the factors
+Factor
+Orontes's position
+Points towards
+Legal and contractual
+No restrictive covenant disclosed
+Either
+Liquidity
+7,302,100 of cash, cash ratio 1.72
+Paying more
+Investment opportunities
+Projects at 14% and 11% against a 9.04% cost
+Retaining
+Access to capital
+Listed, modestly geared, able to issue
+Paying more
+Stability
+Dividend small and recently raised
+Holding
+Clientele
+A growth profile at a 0.60% yield
+Retaining
+Taxes
+Gains normally taxed more lightly
+Retaining, or a buyback
+Control
+No control issue disclosed
+Either
+Three theories close the section and the exam names them. The irrelevance theory says that in a world with no taxes, no transaction costs and no information problems, dividend policy cannot affect value: a shareholder wanting cash sells a share, and one not wanting it reinvests the dividend. The bird-in-the-hand view says investors prefer a certain dividend to an uncertain capital gain and will pay more for a payer. And the signalling view says the policy matters not for the cash but for what a change in it tells the market. The irrelevance theory is the correct starting point and the real world's frictions are what give the other two their force.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+payout policy
+سياسة التوزيع
+politique de distribution
+dividend smoothing
+تمهيد التوزيعات
+lissage du dividende
+irrelevance theory
+نظرية عدم الأهمية
+théorie de neutralité
+residual policy
+سياسة الفائض
+politique résiduelle
+SECTION CHECK   Test yourself
+SC11-7  A profitable company may be unable to pay a dividend because:
+A.	a dividend is paid in cash, which profit does not guarantee.
+B.	profit is not taxable.
+C.	the board has no discretion.
+D.	dividends are illegal above a certain size.
+SC11-8  The clientele effect means that:
+A.	investors select companies partly for their payout policy, so changing it is costly.
+B.	all investors want the same payout.
+C.	dividends must be constant.
+D.	only institutions receive dividends.
+SC11-9  Boards smooth dividends because:
+A.	a cut is read as bad news and moves the price more than the cash involved.
+B.	the law requires a constant dividend.
+C.	shareholders cannot sell shares.
+D.	taxes rise with the dividend.
+Answers and explanations are at the end of the chapter.
+11.4  Debt against equity
+The choice between the two is the oldest question in corporate finance and the exam wants the arguments on both sides, not a verdict.
+Debt is cheaper, for two reasons. The lender's claim is safer, so the required return is lower, and the interest is deductible, so a 6.5 per cent rate costs 6.5 × 0.75 = 4.875 per cent after tax. It does not dilute ownership or votes. Its cost is fixed, so all the upside of a good year belongs to the shareholders — the leverage of Book 1, Chapter 8. And it imposes a discipline: a company that must meet interest payments cannot easily waste cash, which is a genuine argument and not only a rhetorical one.
+Debt is also dangerous. The payments are compulsory, in bad years as in good. Covenants restrict what the company may do, as Barada discovered. It must be repaid or refinanced, which brings the refinancing risk of Chapter 3. And past some level it raises the cost of everything, including equity, because the residual claim has become riskier.
+Equity has the mirror properties. It never has to be repaid and its dividend is discretionary, so it absorbs a bad year instead of amplifying it. It carries no covenants. It improves the credit standing, which makes the next borrowing cheaper. But it is expensive, because the shareholders stand last and require the most; it is not deductible; it dilutes both ownership and control; and issuing it carries a signalling cost, because the market reads an issue as management's view that the shares are fully valued.
+Figure F611-05 sets the two against each other.
+Figure F611-05. Debt against equity
+Dimension
+Debt
+Equity
+Cost
+Lower, and deductible
+Higher, and not deductible
+Obligation
+Fixed and compulsory
+Discretionary
+Maturity
+Must be repaid or refinanced
+Permanent
+Control
+No dilution
+Dilutes ownership and votes
+Covenants
+Usually restrictive
+None
+In a bad year
+Amplifies the loss
+Absorbs it
+Effect on credit standing
+Worsens it
+Improves it
+Signal on issue
+Neutral to positive
+Usually negative
+The practical framework the exam rewards is a short checklist. How stable are the cash flows: stable flows support debt. How tangible are the assets: lenders secure on tangible assets. What is the existing leverage against the covenant limits and against the rating target of Chapter 9. What does the company's tax position look like, since the shield is worth nothing to a loss-maker. What matters to the owners, since a family may value control above cost. And what is the maturity of the need: permanent capital should not be funded with money that must be refinanced in a year.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+financial flexibility
+المرونة المالية
+flexibilité financière
+discipline of debt
+انضباط الدين
+discipline de la dette
+dilution of control
+تخفيف السيطرة
+dilution du contrôle
+pecking order
+ترتيب التفضيل التمويلي
+ordre hiérarchique de financement
+SECTION CHECK   Test yourself
+SC11-10  The two reasons debt costs less than equity are:
+A.	the lender's claim is safer and the interest is deductible.
+B.	lenders are less greedy and debt is permanent.
+C.	debt has covenants and equity does not.
+D.	debt dilutes control.
+SC11-11  Equity's principal advantage over debt is that it:
+A.	has no compulsory payment and never has to be repaid.
+B.	is cheaper.
+C.	is deductible.
+D.	carries covenants.
+Answers and explanations are at the end of the chapter.
+11.5  Leasing, and the net advantage to leasing
+Chapter 7 listed the reasons a company leases. This section computes whether it should.
+The comparison is always the same: lease the asset, or borrow the money and buy it. Both are ways of obtaining the use of an asset without paying cash today, so the investment decision — whether the asset is worth having at all — is settled first and separately. What remains is a financing comparison, and because it is a financing comparison it is discounted at the after-tax cost of debt, not at the weighted average cost of capital. That point carries marks on its own.
+WORKED EXAMPLE   Worked example: the net advantage to leasing
+Step 1. The two offers. A roasting line costs $1,000,000 to buy, lasts five years, and would be depreciated straight-line to nil, which is $200,000 a year. Alternatively it can be leased for $240,000 a year for five years. The company's tax rate is 25 per cent and it borrows at 8 per cent.
+Step 2. The discount rate. The after-tax cost of debt is 8.0 × 0.75 = 6.0 per cent, and the five-year annuity factor at 6 per cent is 4.2124.
+Step 3. The cost of leasing. Each lease payment is deductible, so it costs 240,000 × 0.75 = 180,000 after tax, and the present value of five of them is 180,000 × 4.2124 = 758,232. Leasing also forfeits the depreciation allowances, which are worth 200,000 × 0.25 = 50,000 a year, with a present value of 50,000 × 4.2124 = 210,620. The total cost of leasing is 758,232 + 210,620 = 968,852.
+Step 4. The cost of buying. Borrowing and buying costs the purchase price of $1,000,000 today; the interest on the borrowing is not counted separately, because discounting at the after-tax cost of debt has already accounted for the financing.
+Step 5. The net advantage. 1,000,000 − 968,852 = 31,148 in favour of leasing.
+Check. The answer turned on two numbers: the lease payment and the tax position. At a tax rate of nil the depreciation shield would be worth nothing, the lease payments would cost their full $240,000, and the present value of leasing would be 240,000 × 4.2124 = 1,010,976 — more than buying. That is the point Chapter 7 made in words: leasing is attractive to the company that cannot use the allowances, and it is the lessor's ability to use them that funds the rate.
+Figure F611-06 sets the calculation out as a template.
+Figure F611-06. The net advantage to leasing, as a template
+Line
+This case
+Note
+After-tax lease payment a year
+180,000
+The payment less the tax saved on it
+Present value of the lease payments
+758,232
+At the after-tax cost of debt
+Depreciation shield forfeited a year
+50,000
+Depreciation times the tax rate
+Present value of the shield forfeited
+210,620
+At the same rate
+Total cost of leasing
+968,852
+The two added
+Cost of buying
+1,000,000
+The purchase price
+Net advantage to leasing
+31,148
+Buying less leasing
+Three refinements complete the method and appear in harder questions. A residual value the owner would keep is a cost of leasing, added to the lease side at its present value. Maintenance included in a lease is a saving, deducted. And where the lease is a finance lease recognised on the balance sheet, the comparison does not change — the accounting follows the economics rather than driving it, which is a sentence worth remembering for both parts of the examination.
+YOUR TURN   Dividends and a lease
+Figure F611-07 gives six small problems. Complete the blanks. Answers are at the end of the chapter.
+Figure F611-07. Your turn: distributions and leasing (complete the blanks)
+Item
+Data
+Answer
+Shares after a 20 per cent stock dividend
+5,000,000 shares now
+________
+Earnings per share after it
+Net income 2,000,000
+________
+Price on the ex-dividend date
+Price 24.00, dividend 0.80
+________
+After-tax lease payment
+Payment 300,000, tax rate 25%
+________
+Present value of five such payments
+Annuity factor 4.2124
+________
+Depreciation shield forfeited each year
+Asset 1,200,000 over five years, tax 25%
+________
+LANGUAGE FOCUS   "Dividend"
+English dividend comes from the Latin for a thing to be divided, and in finance it means the share of profit distributed. Outside finance it survives in mathematics, where the dividend is the number being divided — the same root, a different object. The warning for an exam is the phrase dividend payout: it is a ratio of a distribution to earnings, not a payment. Arabic distinguishes the two senses outright, using التوزيعات for the distribution and المقسوم for the arithmetic term. French dividende is used only for the financial sense and dividende is never the number being divided, which French calls the dividende in arithmetic as well — so French has the same overlap as English and Arabic is the clearest. Note too that dividends declared and dividends paid are different figures in the same year, as Orontes's $450,000 and $50,000 show.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+after-tax cost of debt
+تكلفة الدين بعد الضريبة
+coût de la dette après impôt
+depreciation allowance
+مخصص الإهلاك الضريبي
+amortissement fiscal
+residual value
+القيمة المتبقية
+valeur résiduelle
+template
+النموذج الحسابي
+trame de calcul
+SECTION CHECK   Test yourself
+SC11-12  The lease-against-buy comparison is discounted at:
+A.	the after-tax cost of debt.
+B.	the weighted average cost of capital.
+C.	the cost of equity.
+D.	the risk-free rate.
+SC11-13  Leasing forfeits:
+A.	the depreciation allowances, which the lessor takes instead.
+B.	the use of the asset.
+C.	the tax deduction for the payments.
+D.	nothing.
+SC11-14  At a tax rate of nil, leasing in the worked example would be:
+A.	more expensive than buying.
+B.	cheaper than buying.
+C.	unchanged.
+D.	impossible to compute.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F611-08 brings the chapter together.
+Figure F611-08. Chapter 11 summary map: the key rule for each section.
+A cash dividend reduces cash and equity and is never an expense; a stock dividend and a split change nothing but the count, so a 10 per cent stock dividend on Orontes's 8,100,000 shares takes earnings per share to 2,969,100 ÷ 8,910,000 = 0.3332 and a two-for-one split takes it to 0.1833. Four dates govern the payment: the liability arises on declaration, which is why Orontes carries $400,000 of dividends payable, and the price falls by about the dividend on the ex-dividend date, to 9.25 − 0.0556 = 9.1944. Eight factors shape a policy — law and covenants, liquidity, investment opportunities, access to capital, stability and its signal, clientele, tax, and control — and three theories frame them, of which irrelevance is the right starting point and the frictions supply the rest. Debt is cheaper because the claim is safer and the interest deductible, and dangerous because the payments are compulsory, the covenants bind and the refinancing must be found; equity is expensive, permanent, undiluted by no obligation and read as a negative signal when issued. And the lease-against-buy test is one calculation at the after-tax cost of debt: 180,000 × 4.2124 = 758,232 of payments plus 50,000 × 4.2124 = 210,620 of forfeited shield is 968,852 against a price of 1,000,000, a net advantage to leasing of 31,148 — which disappears entirely if the company has no tax to shelter.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P11-01  A stock dividend:
+A.	leaves total equity unchanged and increases the share count.
+B.	reduces cash.
+C.	increases total equity.
+D.	increases earnings per share.
+P11-02  A company with 5,000,000 shares declares a 20 per cent stock dividend. The new count is:
+A.	6,000,000
+B.	5,200,000
+C.	4,000,000
+D.	10,000,000
+P11-03  The liability for a declared dividend arises on:
+A.	the declaration date.
+B.	the record date.
+C.	the ex-dividend date.
+D.	the payment date.
+P11-04  A share trading at 24.00 goes ex-dividend on a dividend of 0.80. Its price would be expected to open at about:
+A.	23.20
+B.	24.80
+C.	24.00
+D.	23.00
+P11-05  Which factor points a company towards retaining rather than distributing?
+A.	Projects earning more than the cost of capital
+B.	Surplus cash with no use
+C.	A clientele of income investors
+D.	Easy access to new capital
+P11-06  The dividend irrelevance theory assumes:
+A.	no taxes, no transaction costs and no information problems.
+B.	investors prefer dividends.
+C.	dividends signal value.
+D.	companies cannot issue shares.
+P11-07  Debt costs less than equity because:
+A.	the claim is safer and the interest is deductible.
+B.	lenders require no return.
+C.	debt is permanent.
+D.	debt dilutes ownership.
+P11-08  An after-tax lease payment where the payment is 300,000 and the tax rate 25 per cent is:
+A.	225,000
+B.	300,000
+C.	75,000
+D.	375,000
+P11-09  The lease-against-buy comparison uses a discount rate of:
+A.	the after-tax cost of debt.
+B.	the weighted average cost of capital.
+C.	the cost of equity.
+D.	the lessor's rate of return.
+P11-10  The net advantage to leasing is positive when:
+A.	the present value of leasing is below the purchase price.
+B.	the lease payments are lower than the depreciation.
+C.	the asset has no residual value.
+D.	the company has no tax liability.
+Case-style practice: Orontes's payout decision
+Orontes's board must decide its 2026 distribution. The company has $7,302,100 of cash, projects returning 14 and 11 per cent requiring $6,000,000, a cost of capital of 9.04 per cent, a current payout of 15.16 per cent and a dividend yield of 0.60 per cent. One director proposes raising the payout to 40 per cent; another proposes a special dividend of $2,000,000; the finance director proposes holding the dividend and funding the projects. Orontes's sustainable growth rate at the current payout is 13.70 per cent, against sales growth of 15.38 per cent.
+Required. Evaluate the three proposals against the factors that decide a dividend policy. Compute what a 40 per cent payout would do to the sustainable growth rate. Recommend. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC11-1  Answer A. Nothing leaves the company; the count rises.
+B is wrong. No cash moves.
+C is wrong. Equity is unchanged; only its internal composition shifts.
+D is wrong. The count rises.
+SC11-2  Answer A. 2,969,100 ÷ 8,910,000 = 0.3332.
+B is wrong. That is the figure before the stock dividend.
+C is wrong. 0.1833 follows a two-for-one split.
+D is wrong. Earnings per share falls, not rises.
+SC11-3  Answer A. A distribution is not an expense.
+B is wrong. Dividends never reduce net income.
+C is wrong. Cost of goods sold is a trading cost.
+D is wrong. Other comprehensive income carries unrealised items.
+SC11-4  Answer A. Declaration creates the obligation.
+B is wrong. The ex-date governs who receives it.
+C is wrong. The record date identifies the holders.
+D is wrong. Payment discharges the liability.
+SC11-5  Answer A. The buyer no longer receives the dividend.
+B is wrong. The price falls, not rises.
+C is wrong. The entitlement has gone, so the price must adjust.
+D is wrong. The adjustment is approximately one dividend.
+SC11-6  Answer A. The preferred claim comes first, arrears included.
+B is wrong. Debt repayment is on its own schedule.
+C is wrong. Common dividends are normally a board decision.
+D is wrong. A stock dividend is not a precondition.
+SC11-7  Answer A. Profit is not cash.
+B is wrong. Profit is taxable.
+C is wrong. The board has discretion over the common dividend.
+D is wrong. Size limits come from distributable profits, not from a general rule.
+SC11-8  Answer A. Holders have selected the company partly for its policy.
+B is wrong. Investors differ precisely in what they want.
+C is wrong. The effect concerns changes, not constancy.
+D is wrong. All holders receive dividends.
+SC11-9  Answer A. A cut carries a signal out of proportion to the cash.
+B is wrong. No law requires constancy.
+C is wrong. Shareholders can sell freely.
+D is wrong. The tax position does not vary with smoothing.
+SC11-10  Answer A. Safety of claim and deductibility.
+B is wrong. Lenders require a return; it is lower because the risk is lower.
+C is wrong. Covenants are a consequence, not the reason for the cost difference.
+D is wrong. Debt does not dilute control.
+SC11-11  Answer A. No compulsory payment and no maturity.
+B is wrong. Equity is the more expensive source.
+C is wrong. Dividends are not deductible.
+D is wrong. Equity carries no covenants.
+SC11-12  Answer A. It is a financing comparison, so the financing rate applies.
+B is wrong. The weighted average belongs to the investment decision.
+C is wrong. Equity's rate is not the financing rate for this comparison.
+D is wrong. The risk-free rate ignores the company's credit.
+SC11-13  Answer A. The lessor owns the asset and takes the allowances.
+B is wrong. A lease provides the use of the asset.
+C is wrong. Lease payments are deductible to the lessee.
+D is wrong. The forfeited allowances are the cost that the calculation turns on.
+SC11-14  Answer A. Without tax the payments cost their full amount and the shield is worth nothing.
+B is wrong. The advantage disappears and reverses.
+C is wrong. The tax rate changes both sides of the comparison.
+D is wrong. The computation is straightforward at a zero rate.
+Your turn
+Item
+Answer
+Shares after a 20 per cent stock dividend
+6,000,000: 5,000,000 × 1.20 = 6,000,000.
+Earnings per share after it
+0.3333: 2,000,000 ÷ 6,000,000 = 0.3333.
+Price on the ex-dividend date
+23.20: 24.00 − 0.80 = 23.20.
+After-tax lease payment
+225,000: 300,000 × 0.75 = 225,000.
+Present value of five such payments
+947,790: 225,000 × 4.2124 = 947,790.
+Depreciation shield forfeited each year
+60,000: the annual depreciation is 1,200,000 ÷ 5 = 240,000, and 240,000 × 0.25 = 60,000.
+What it tells you
+The stock dividend moved nothing but the arithmetic; the lease calculation turns on two tax effects running in opposite directions, and the shield forfeited here is a third of the payment saved.
+Multiple-choice questions
+P11-01  Answer A. Nothing leaves the company.
+B is wrong. No cash moves.
+C is wrong. Equity is unchanged in total.
+D is wrong. More shares on the same earnings lowers earnings per share.
+P11-02  Answer A. 5,000,000 × 1.20 = 6,000,000.
+B is wrong. This adds 4 per cent.
+C is wrong. This subtracts rather than adds.
+D is wrong. That is a two-for-one split.
+P11-03  Answer A. Declaration creates the liability.
+B is wrong. The record date identifies holders.
+C is wrong. The ex-date governs entitlement in the market.
+D is wrong. Payment settles the liability.
+P11-04  Answer A. 24.00 − 0.80 = 23.20.
+B is wrong. The price falls, not rises.
+C is wrong. The entitlement has been removed.
+D is wrong. The fall is approximately the dividend.
+P11-05  Answer A. Projects above the cost of capital justify retention.
+B is wrong. Surplus cash with no use should be returned.
+C is wrong. Income investors want distributions.
+D is wrong. Easy access to capital makes distribution safer.
+P11-06  Answer A. Those are the assumptions.
+B is wrong. That is the bird-in-the-hand view.
+C is wrong. That is the signalling view.
+D is wrong. The theory assumes free access to markets.
+P11-07  Answer A. A safer claim and a deductible payment.
+B is wrong. Lenders require a return.
+C is wrong. Equity is the permanent source.
+D is wrong. Equity dilutes, not debt.
+P11-08  Answer A. 300,000 × 0.75 = 225,000.
+B is wrong. That is the payment before tax.
+C is wrong. That is the tax saved.
+D is wrong. Tax reduces the cost.
+P11-09  Answer A. The comparison is a financing decision.
+B is wrong. That rate belongs to the investment decision.
+C is wrong. Equity is not the relevant financing.
+D is wrong. The lessor's return is embedded in the payments.
+P11-10  Answer A. Leasing is better when it costs less in present value.
+B is wrong. The comparison is of present values, not of annual amounts.
+C is wrong. A residual value is a separate adjustment.
+D is wrong. No tax liability usually makes leasing worse on this calculation and better on the Chapter 7 argument.
+Case-style set: Orontes's payout decision
+The 40 per cent proposal. Raising the payout to 40 per cent takes the retention ratio to 60 per cent, and the sustainable growth rate to 16.15 × 0.60 = 9.69 per cent against sales growth of 15.38. The company would be growing nearly six points a year faster than its retained profit could fund, and would have to raise the difference externally every year — having just distributed it. The proposal fails on the investment-opportunity factor and on the access-to-capital factor at once.
+The special dividend of 2,000,000. This is better reasoned, because a special dividend carries no expectation of repetition, which is the flexibility argument for a buyback applied to a distribution. But the cash is spoken for: the two projects need $6,000,000 of the $7,302,100 available, and distributing a further two million would leave the company with under a million of cash against $4,280,000 of current liabilities and a gross margin still falling.
+The finance director's proposal. Hold the dividend, fund the projects. It is consistent with every factor that points one way for this company: projects well above the cost of capital, a growth clientele content with a 0.60 per cent yield, a tax system that favours gains, and a margin problem that argues for keeping a reserve.
+Recommendation. Hold the dividend at its current level and fund both projects. Tell the market why, because a policy explained is a policy that will not be misread. Revisit the question when the projects are complete and the gross margin has stabilised: at that point a company with no remaining investment opportunities and a cash ratio of 1.72 should be returning money, and the special dividend proposed today will be the right instrument then.

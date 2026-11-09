@@ -1,0 +1,554 @@
+Chapter 12
+Working capital, and the forecast that manages it
+رأس المال العامل والتنبؤ الذي يديره
+The last seven chapters have been about money raised for years at a time. This one changes the horizon to weeks. Working capital is the money tied up in the ordinary running of the business — the stock on the shelves, the invoices not yet collected, the cash in the account, less what is owed to suppliers and due within the year — and it is where a profitable company most often runs into trouble.
+Book 1 showed the trouble twice. Orontes, with $9,908,100 of net working capital and a cash cycle of 39.8 days, had none. Barada, growing eleven per cent a year on a sustainable 9.15 with inventory up 41 per cent, had it arrive as an overdraft. The difference between them was not profit. It was the management of the seven chapters that begin here.
+Figure F612-01 is your map.
+Figure F612-01. Chapter 12 roadmap: what working capital is, what it costs, and the forecast that controls it.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.4.a
+Define working capital and identify its components.
+C
+Full treatment
+B.4.b
+Calculate net working capital.
+C
+Full treatment
+B.4.c
+Explain the benefit of short-term financial forecasts in managing working capital.
+C
+Full treatment
+A.2.n
+Carry the operating and cash cycles into the funding question.
+B
+Reinforced (Book 1, Chapter 12)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+working capital
+رأس المال العامل
+fonds de roulement
+net working capital
+صافي رأس المال العامل
+fonds de roulement net
+trade working capital
+رأس المال العامل التجاري
+besoin en fonds de roulement
+cash budget
+الموازنة النقدية
+budget de trésorerie
+rolling forecast
+التنبؤ المتجدد
+prévision glissante
+permanent working capital
+رأس المال العامل الدائم
+fonds de roulement permanent
+seasonal working capital
+رأس المال العامل الموسمي
+besoin saisonnier
+liquidity buffer
+الاحتياطي النقدي
+matelas de liquidité
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's current ratio of 3.31, its quick ratio of 2.68, its cash cycle of 39.8 days and its trade working capital of $4,544,000, and priced the funding of that trade working capital at about $272,640 a year. This chapter puts those figures into the management decision they belong to.
+12.1  What working capital is
+Working capital, in the broad sense, is the current assets of a business: the assets that will turn into cash within a year or within the operating cycle if that is longer. Net working capital is those assets less the current liabilities. The first measures what is tied up; the second measures how much of it the company has to fund itself after its short-term creditors have done their part.
+The components are the lines of the current section of the balance sheet, and each is managed by a different chapter of this book.
+Cash and equivalents, which Chapter 13 forecasts and Chapter 14 accelerates.
+Marketable securities, which are cash held in a form that earns a return, and which Chapter 15 selects.
+Accounts receivable, which Chapter 16 manages through credit policy.
+Inventory, which Chapter 17 sizes.
+Prepaid expenses, which are small and managed by nobody in particular.
+Against those stand the current liabilities: accounts payable, which is supplier credit and the cheapest funding in the business; accrued liabilities; taxes payable; the current portion of long-term debt; and short-term borrowings, which Chapter 18 prices.
+Two distinctions matter before any arithmetic.
+Permanent against seasonal. A business that never runs out of stock always has stock, so some part of its working capital is permanently invested even though the individual items turn over constantly. That permanent core should be funded like any other long-lived asset, with long-term money. The seasonal peak above it — the extra stock before a harvest, the extra receivables after it — is temporary and should be funded temporarily. Chapter 18 makes that principle into a financing policy.
+Gross against net, and trade against total. A question asking for working capital usually means current assets; one asking for net working capital means the difference. Trade working capital narrows it again to receivables plus inventory less payables, excluding cash and short-term debt, and it is the figure that measures the trading cycle rather than the funding position.
+Figure F612-02 lays out the components.
+Figure F612-02. The components, and where each is managed
+Component
+Orontes, 2025
+Managed in
+Governed by
+Cash
+7,302,100
+Chapters 13 and 14
+The cash budget
+Marketable securities
+42,000
+Chapter 15
+Safety, liquidity, yield
+Accounts receivable
+4,144,000
+Chapter 16
+Credit policy
+Inventory
+2,450,000
+Chapter 17
+Lead time and order quantity
+Accounts payable
+(2,050,000)
+Chapter 18
+Terms and discounts
+Short-term borrowing
+Nil at the year end
+Chapter 18
+The line of credit
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+current asset
+الأصل المتداول
+actif circulant
+current liability
+الالتزام المتداول
+passif circulant
+supplier credit
+ائتمان الموردين
+crédit fournisseurs
+prepaid expense
+المصروف المدفوع مقدماً
+charge constatée d'avance
+SECTION CHECK   Test yourself
+SC12-1  Working capital in the broad sense means:
+A.	current assets.
+B.	current liabilities.
+C.	total assets.
+D.	cash only.
+SC12-2  The permanent part of working capital should be funded with:
+A.	long-term money.
+B.	an overdraft.
+C.	trade credit alone.
+D.	nothing, because it turns over.
+SC12-3  Trade working capital excludes:
+A.	cash and short-term borrowings.
+B.	receivables.
+C.	inventory.
+D.	accounts payable.
+Answers and explanations are at the end of the chapter.
+12.2  Computing net working capital
+Net working capital is total current assets less total current liabilities. For Orontes at December 31, 2025: 14,188,100 − 4,280,000 = 9,908,100. A year earlier it was 8,380,000 − 3,570,000 = 4,810,000.
+So net working capital more than doubled in a year: 9,908,100 − 4,810,000 = 5,098,100 of additional money locked into the short-term side of the business. Where did it come from, and was it well spent? The cash flow statement answers the first question — a $1,500,000 share issue, an $800,000 bank note, and $7,531,100 of cash from operations — and Book 1 answers the second: most of the increase is cash, which rose from $2,100,000 to $7,302,100, and cash earning nothing is the least productive asset a company can hold.
+Three ratios express the same balance differently, and all three appeared in Book 1.
+The current ratio divides current assets by current liabilities: 14,188,100 ÷ 4,280,000 = 3.31 times.
+The net working capital ratio divides net working capital by total assets: 9,908,100 ÷ 31,672,600 = 31.3 per cent, which says that nearly a third of everything Orontes owns is tied up short term.
+And the trade figure, receivables plus inventory less payables, is $4,544,000 — less than half the net working capital, the difference being the cash pile.
+WORKED EXAMPLE   Worked example: what growth does to working capital
+Step 1. The relationship. Trade working capital is driven by sales. Orontes carries $4,544,000 of it on sales of $42,000,000, which is 4,544,000 ÷ 42,000,000 = 10.82 per cent of sales.
+Step 2. The requirement of growth. If sales grow 15 per cent next year and nothing about the cycle changes, trade working capital grows with them: 4,544,000 × 0.15 = 681,600 of additional funding required, before a single dollar of new plant.
+Step 3. Where it comes from. Orontes retains 84.84 per cent of a $2,969,100 profit, which is about $2,519,100 — comfortably more than the $681,600 the growth demands. The company can fund its own expansion in working capital, which is what a sustainable growth rate of 13.70 per cent meant in Book 1.
+Check. Run the same arithmetic for Barada. Its trade working capital is a far higher proportion of its sales, because it is a distributor whose inventory is a third of its assets; its net margin is 1.29 per cent, so its retained profit is about $283,500; and its sales grew 11 per cent. The requirement exceeds the retention, every year, and the gap went on the overdraft. The same two lines of arithmetic explain both companies.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+funding requirement
+الاحتياج التمويلي
+besoin de financement
+locked up
+محتجز
+immobilisé
+self-funding growth
+النمو الممول ذاتياً
+croissance autofinancée
+SECTION CHECK   Test yourself
+SC12-4  Orontes's net working capital at December 31, 2025 is:
+A.	9,908,100
+B.	14,188,100
+C.	4,280,000
+D.	4,544,000
+SC12-5  Trade working capital of 4,544,000 on sales of 42,000,000, where sales grow 15 per cent, requires additional funding of about:
+A.	681,600
+B.	4,544,000
+C.	6,300,000
+D.	68,160
+SC12-6  A company whose working-capital requirement grows faster than its retained profit must:
+A.	fund the difference externally or change the cycle.
+B.	stop selling.
+C.	pay a larger dividend.
+D.	do nothing; working capital funds itself.
+Answers and explanations are at the end of the chapter.
+12.3  What working capital costs
+Money tied up in working capital has to be financed, and the financing has a price. Book 1 computed it: $4,544,000 of trade working capital funded at the 6 per cent Orontes pays its bank costs about 4,544,000 × 0.06 = 272,640 a year.
+That is the visible cost. Three more are real and less often counted.
+The opportunity cost of the cash. Orontes holds $7,302,100 in a current account. At the 4 per cent a short-dated government security would pay, holding it idle forgoes 7,302,100 × 0.04 = 292,084 a year — more than the whole cost of funding the trade cycle. Chapter 15 is about not doing this.
+The risk cost of the inventory. Stock can be stolen, damaged, or made obsolete by a change in demand, and insurance and storage are paid whether or not it sells. A write-down passes through cost of sales and lands on the gross margin.
+The credit cost of the receivables. Some will not be paid. Orontes's allowance of $156,000 is its own estimate of that, and its credit loss expense of $63,000 is what the year actually cost.
+Against those costs stand the benefits, and this is the trade-off every chapter from here to eighteen turns on. Inventory exists so that a customer who wants something can have it; cutting it too far loses sales and, at Orontes's degree of operating leverage of 4.02, a lost sale costs four times its margin in operating income. Receivables exist because customers will not buy without credit; tightening terms loses volume. Cash exists so that obligations can be met without borrowing in a hurry.
+So the question is never "how little working capital can we hold" but "where is the level at which the cost of holding more exceeds the cost of holding less". Every one of the next six chapters answers that question for one component.
+Figure F612-03 sets the trade-off out.
+Figure F612-03. The two sides of every working-capital decision
+Component
+Cost of holding more
+Cost of holding less
+Cash
+Interest forgone
+Borrowing in a hurry, or missing a payment
+Marketable securities
+A lower yield than long investments
+Less liquidity when it is needed
+Receivables
+Funding, and credit losses
+Lost sales to customers who need terms
+Inventory
+Funding, storage, obsolescence
+Stockouts, lost sales, expedited freight
+Payables
+Lost settlement discounts, supplier goodwill
+Funding the gap yourself
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+carrying cost
+تكلفة الاحتفاظ
+coût de détention
+opportunity cost
+تكلفة الفرصة البديلة
+coût d'opportunité
+stockout
+نفاد المخزون
+rupture de stock
+obsolescence
+التقادم
+obsolescence
+SECTION CHECK   Test yourself
+SC12-7  The cost of funding 4,544,000 of trade working capital at 6 per cent is about:
+A.	272,640 a year
+B.	27,264 a year
+C.	4,544,000 a year
+D.	454,400 a year
+SC12-8  Holding 7,302,100 of idle cash where 4 per cent is available forgoes:
+A.	about 292,084 a year.
+B.	nothing, because cash is safe.
+C.	about 29,208 a year.
+D.	the whole amount.
+SC12-9  The right question about a level of working capital is:
+A.	where the cost of holding more exceeds the cost of holding less.
+B.	how to minimise it.
+C.	how to maximise it.
+D.	how to match the industry average exactly.
+Answers and explanations are at the end of the chapter.
+12.4  The short-term forecast
+Working capital is managed by forecasting, and the instrument is the cash budget: a statement of expected receipts and payments, period by period, usually monthly for a year and weekly or daily for the nearest weeks.
+What it does, and the outcome asks exactly this.
+It shows when, not whether. An annual profit forecast says the year will be profitable. A monthly cash forecast says that in March the company will be $900,000 short, because the harvest is paid for in February and the customers pay in April. Only the second can be acted on.
+It sizes the facilities before they are needed. A line of credit negotiated three months ahead of a seasonal peak is cheaper, larger and less conditional than one requested the week the overdraft appears. A bank asked to lend in a hurry charges for the hurry.
+It prices the alternatives. Once the shortfall and its duration are known, the treasurer can compare borrowing, delaying a payment, accelerating a collection, and deferring a capital project — which is the decision Chapter 18 formalises.
+It puts surplus cash to work. Knowing that $2,000,000 will not be needed for four months means it can be placed for four months rather than left overnight, which is Chapter 15's subject.
+It is a control as well as a plan. Comparing the forecast with what happened reveals which assumption was wrong — collections slower than assumed, a supplier paid earlier than agreed — and improves the next forecast.
+Three practices make a forecast useful rather than ornamental. A rolling horizon, re-cut every month so that twelve months are always in view rather than a budget that shortens to nothing by December. Sensitivity: a base case, and at least one case in which collections run a week slower, which is the single assumption that most often fails. And a reconciliation to the balance sheet, so that the forecast's closing receivables and inventory are the ones the sales and purchasing plans imply.
+Figure F612-04 is a cash budget in outline.
+Figure F612-04. The shape of a monthly cash budget
+Line
+What it contains
+Where it comes from
+Opening cash
+The closing balance of last month
+The prior column
+Receipts from customers
+Sales, spread by the collection pattern
+The sales forecast and the ageing
+Other receipts
+Interest, disposals, new borrowing
+Treasury and investment plans
+Payments to suppliers
+Purchases, spread by the payment terms
+The purchasing plan
+Payroll, overheads, tax, interest, dividends
+Fixed and scheduled items
+The operating budget
+Capital expenditure
+Project payments
+The capital plan
+Closing cash
+Opening plus receipts less payments
+Computed
+Surplus or shortfall against the minimum balance
+The decision line
+Compared with policy
+EXAM TRAP   A cash budget is not a forecast income statement
+Sales are not receipts. A sale on 30-day terms is cash next month, and a question that gives a collection pattern is testing exactly that.
+Depreciation never appears in a cash budget. Nor does any other non-cash item.
+Capital expenditure and dividends do appear, although neither is in the income statement.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+collection pattern
+نمط التحصيل
+profil d'encaissement
+minimum cash balance
+الحد الأدنى للرصيد النقدي
+solde de trésorerie minimal
+sensitivity
+تحليل الحساسية
+analyse de sensibilité
+variance
+الانحراف
+écart
+SECTION CHECK   Test yourself
+SC12-10  The principal benefit of a monthly cash forecast over an annual one is that it shows:
+A.	when a shortfall will occur, not merely whether.
+B.	the profit for the year.
+C.	the tax charge.
+D.	the depreciation policy.
+SC12-11  Which item appears in a cash budget?
+A.	Capital expenditure
+B.	Depreciation
+C.	Accrued but unpaid interest
+D.	The revaluation of an asset
+SC12-12  A line of credit arranged three months before it is needed is:
+A.	normally cheaper and larger than one requested in a hurry.
+B.	more expensive.
+C.	identical in cost.
+D.	unavailable.
+Answers and explanations are at the end of the chapter.
+12.5  How much to carry
+A working capital policy is a choice about the level of current assets to hold for a given level of sales, and it runs along a spectrum.
+A conservative policy holds high levels of cash, stock and receivables. Customers are never turned away for lack of stock, suppliers are paid promptly, the company is never short. It is safe and it is expensive: more funding, more storage, more obsolescence, and a lower return on assets, because the denominator is large.
+An aggressive policy holds the minimum of each. The return on assets is higher and so is the risk of a stockout, a lost customer, or a payment that cannot be made on the day it falls due.
+A moderate policy sits between them, and the exam's usual answer is that the right level depends on three things: the variability of the business, the cost of running out, and the cost of money. A company with volatile demand and expensive stockouts holds more; one with steady demand and cheap, quickly replaced stock holds less.
+Orontes sits firmly on the conservative side and Book 1 said so: a current ratio of 3.31 against an industry that would normally run nearer 2.0, a cash ratio of 1.72, and a cash balance that grew by five million in one year. The company is safe, and section 12.3 priced the safety at roughly $292,084 a year of forgone interest on the cash alone. That is a defensible choice for a company whose gross margin is falling and whose board may want options — and it is a choice, which is the point, rather than something that happened.
+YOUR TURN   Compute and judge
+Figure F612-05 gives a company's current position. Complete the blanks. Answers are at the end of the chapter.
+Figure F612-05. Your turn: working capital (complete the blanks)
+Item
+Data
+Answer
+Net working capital
+Current assets 6,400,000, current liabilities 2,500,000
+________
+Current ratio
+The same figures
+________
+Trade working capital
+Receivables 2,100,000, inventory 1,800,000, payables 1,200,000
+________
+Cost of funding it at 7 per cent
+________
+Extra funding needed if sales grow 20 per cent
+Trade working capital scales with sales
+________
+Retained profit available
+Net income 900,000, payout 25 per cent
+________
+Verdict
+________
+LANGUAGE FOCUS   "Capital"
+English working capital is a phrase in which neither word means what it usually means. The capital is not long-term funding, as in cost of capital or capital expenditure; it is the short-term money in the trading cycle. And working does not mean functioning; it means circulating, in the old sense of a sum that works by turning over. Arabic رأس المال العامل carries the same metaphor of a capital that works, and French fonds de roulement is the clearest of the three: a fund that rolls. French also distinguishes usefully between fonds de roulement, which is the funding available, and besoin en fonds de roulement, the need the trading cycle creates — a distinction English blurs by using working capital for both the assets and the gap.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+conservative policy
+السياسة المتحفظة
+politique prudente
+aggressive policy
+السياسة الجريئة
+politique agressive
+spectrum
+الطيف
+continuum
+trade-off
+المفاضلة
+arbitrage
+SECTION CHECK   Test yourself
+SC12-13  A conservative working capital policy produces:
+A.	lower risk and a lower return on assets.
+B.	higher risk and a higher return.
+C.	no effect on either.
+D.	the highest possible return.
+SC12-14  The right level of working capital depends mainly on:
+A.	the variability of the business, the cost of running out, and the cost of money.
+B.	the industry average alone.
+C.	the auditors' preference.
+D.	the share price.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F612-06 brings the chapter together.
+Figure F612-06. Chapter 12 summary map: the key rule for each section.
+Working capital is the current assets of a business and net working capital is those less the current liabilities, which for Orontes is 14,188,100 − 4,280,000 = 9,908,100 against 4,810,000 a year earlier — an increase of 5,098,100, most of it cash. Part of the requirement is permanent and should be funded long, part seasonal and funded short. It grows with sales: trade working capital of $4,544,000 is 10.82 per cent of sales, so fifteen per cent growth demands 4,544,000 × 0.15 = 681,600 more, which Orontes's retention covers and Barada's did not. It costs money in four ways — 4,544,000 × 0.06 = 272,640 of funding, 7,302,100 × 0.04 = 292,084 of interest forgone on idle cash, obsolescence, and credit losses — against the cost of holding too little, which is lost sales at an operating leverage of 4.02. The instrument that manages it is the short-term forecast, which shows when a shortfall arrives rather than whether, sizes the facilities before they are needed, prices the alternatives and puts surpluses to work. And the level held is a policy on a spectrum from conservative to aggressive, which for Orontes is firmly conservative and costs about a quarter of a million a year in forgone interest alone.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P12-01  Net working capital is:
+A.	current assets less current liabilities.
+B.	current assets.
+C.	total assets less total liabilities.
+D.	cash less payables.
+P12-02  Current assets of 6,400,000 and current liabilities of 2,500,000 give net working capital of:
+A.	3,900,000
+B.	8,900,000
+C.	2,560,000
+D.	2,500,000
+P12-03  Which is NOT a component of working capital?
+A.	Property, plant and equipment
+B.	Inventory
+C.	Accounts receivable
+D.	Accounts payable
+P12-04  The permanent core of working capital should be funded with:
+A.	long-term money.
+B.	an overdraft.
+C.	trade credit.
+D.	nothing.
+P12-05  Trade working capital of 4,544,000 where sales grow 15 per cent needs about:
+A.	681,600 of additional funding
+B.	4,544,000 of additional funding
+C.	no additional funding
+D.	68,160 of additional funding
+P12-06  Which item never appears in a cash budget?
+A.	Depreciation
+B.	Capital expenditure
+C.	Dividends paid
+D.	Tax paid
+P12-07  A monthly cash forecast is more useful than an annual one because it:
+A.	shows the timing of shortfalls.
+B.	is more accurate about the year's total.
+C.	includes depreciation.
+D.	is required by the standards.
+P12-08  An aggressive working capital policy:
+A.	raises the return on assets and the risk of a stockout.
+B.	lowers both risk and return.
+C.	has no effect on return.
+D.	is always preferable.
+P12-09  The cost of holding too little inventory is:
+A.	lost sales and expedited freight.
+B.	storage and insurance.
+C.	obsolescence.
+D.	funding cost.
+P12-10  Orontes's cash ratio of 1.72 and current ratio of 3.31 indicate a policy that is:
+A.	conservative.
+B.	aggressive.
+C.	moderate.
+D.	in breach of a covenant.
+Case-style practice: a forecast Barada did not make
+Barada Wholesale's year ends with inventory up 41 per cent, receivables up 38 per cent, payables up 9 per cent and an overdraft of $240,000 where there was none. Sales grew 11 per cent to $21,978,000 and net income was $283,500. The owner says the overdraft "came out of nowhere in the last quarter".
+Required. Explain, using working-capital arithmetic, why the overdraft was predictable from the start of the year. Say what a monthly cash forecast would have shown and when, and name the two actions the forecast would have made possible. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC12-1  Answer A. In the broad sense it is the current assets.
+B is wrong. Current liabilities are the other side of the net figure.
+C is wrong. Total assets include the plant.
+D is wrong. Cash is one component.
+SC12-2  Answer A. A permanent requirement is a long-term asset in substance.
+B is wrong. An overdraft is repayable on demand.
+C is wrong. Trade credit funds part of the cycle, not its permanent core.
+D is wrong. The individual items turn over; the level does not.
+SC12-3  Answer A. Trade working capital is receivables plus inventory less payables.
+B is wrong. Receivables are included.
+C is wrong. Inventory is included.
+D is wrong. Payables are deducted, which is to say included.
+SC12-4  Answer A. 14,188,100 − 4,280,000 = 9,908,100.
+B is wrong. That is current assets alone.
+C is wrong. That is current liabilities alone.
+D is wrong. 4,544,000 is trade working capital.
+SC12-5  Answer A. 4,544,000 × 0.15 = 681,600.
+B is wrong. That is the whole balance, not the increment.
+C is wrong. This has no basis in the figures.
+D is wrong. This misplaces the decimal.
+SC12-6  Answer A. The gap must be funded or the cycle shortened.
+B is wrong. Stopping sales is not a working-capital policy.
+C is wrong. A larger dividend makes the gap worse.
+D is wrong. Growth consumes working capital rather than funding it.
+SC12-7  Answer A. 4,544,000 × 0.06 = 272,640.
+B is wrong. This misplaces the decimal.
+C is wrong. That is the balance, not its annual cost.
+D is wrong. That is 10 per cent.
+SC12-8  Answer A. 7,302,100 × 0.04 = 292,084 forgone.
+B is wrong. Safety has a price, and this is it.
+C is wrong. This misplaces the decimal.
+D is wrong. The cash is not lost, only unemployed.
+SC12-9  Answer A. The level is a trade-off between two costs.
+B is wrong. Minimising invites stockouts and lost sales.
+C is wrong. Maximising wastes funding.
+D is wrong. The average belongs to other companies' circumstances.
+SC12-10  Answer A. Timing is what can be acted on.
+B is wrong. An annual forecast gives the profit.
+C is wrong. The tax charge is in the operating budget.
+D is wrong. Depreciation is not a cash item at all.
+SC12-11  Answer A. Capital expenditure is a payment.
+B is wrong. Depreciation is non-cash.
+C is wrong. Accrued and unpaid means no cash has moved.
+D is wrong. A revaluation moves no cash.
+SC12-12  Answer A. Time improves the terms.
+B is wrong. Urgency raises the price.
+C is wrong. The cost of borrowing reflects the circumstances of the request.
+D is wrong. Facilities are routinely arranged in advance.
+SC12-13  Answer A. More assets held means lower risk and a larger denominator.
+B is wrong. That describes an aggressive policy.
+C is wrong. The policy affects both.
+D is wrong. The highest return comes from holding least, with the risk that brings.
+SC12-14  Answer A. Variability, the cost of a stockout, and the cost of money.
+B is wrong. The average describes other companies.
+C is wrong. Auditors do not set operating policy.
+D is wrong. The share price is a consequence, not an input.
+Your turn
+Item
+Answer
+Net working capital
+3,900,000: 6,400,000 − 2,500,000 = 3,900,000.
+Current ratio
+2.56: 6,400,000 ÷ 2,500,000 = 2.56.
+Trade working capital
+2,700,000: 2,100,000 + 1,800,000 = 3,900,000, less payables of 1,200,000.
+Cost of funding it at 7 per cent
+189,000: 2,700,000 × 0.07 = 189,000.
+Extra funding if sales grow 20 per cent
+540,000: 2,700,000 × 0.20 = 540,000.
+Retained profit available
+675,000: 900,000 × 0.75 = 675,000.
+Verdict
+The growth is just affordable. Retained profit of 675,000 covers the 540,000 the working capital will absorb, with 135,000 left for everything else — so the company can grow at 20 per cent for one year without external funding, and not much faster, and not at all if it also needs new plant.
+Multiple-choice questions
+P12-01  Answer A. Current assets less current liabilities.
+B is wrong. That is working capital in the broad sense.
+C is wrong. That is net assets, or equity.
+D is wrong. That omits most of both sides.
+P12-02  Answer A. 6,400,000 − 2,500,000 = 3,900,000.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the current ratio times a million.
+D is wrong. That is current liabilities.
+P12-03  Answer A. Plant is a noncurrent asset.
+B is wrong. Inventory is a current asset.
+C is wrong. Receivables are a current asset.
+D is wrong. Payables are a current liability and part of the net figure.
+P12-04  Answer A. A permanent requirement needs permanent funding.
+B is wrong. An overdraft is repayable on demand.
+C is wrong. Trade credit funds part of the cycle.
+D is wrong. The requirement is real and must be funded.
+P12-05  Answer A. 4,544,000 × 0.15 = 681,600.
+B is wrong. That is the whole balance.
+C is wrong. Growth consumes working capital.
+D is wrong. This misplaces the decimal.
+P12-06  Answer A. Depreciation is non-cash.
+B is wrong. Capital expenditure is paid in cash.
+C is wrong. Dividends are paid in cash.
+D is wrong. Tax is paid in cash.
+P12-07  Answer A. Timing is the whole point.
+B is wrong. The annual total is the same either way.
+C is wrong. Depreciation belongs to neither.
+D is wrong. No standard requires a cash budget.
+P12-08  Answer A. Fewer assets, higher return, higher risk.
+B is wrong. That describes a conservative policy.
+C is wrong. The denominator of the return changes.
+D is wrong. Neither extreme is always right.
+P12-09  Answer A. Running out costs sales and urgent freight.
+B is wrong. Storage is a cost of holding more.
+C is wrong. Obsolescence is a cost of holding more.
+D is wrong. Funding is a cost of holding more.
+P12-10  Answer A. Both ratios are well above the usual range.
+B is wrong. An aggressive policy shows low ratios.
+C is wrong. A moderate policy would be nearer 2.0 and 0.5.
+D is wrong. High liquidity breaches nothing.
+Case-style set: a forecast Barada did not make
+Why it was predictable. Barada's working capital grows with its sales, and its sales grew 11 per cent. But its receivables grew 38 per cent and its inventory 41 per cent — three to four times the rate of sales — while its payables grew only 9 per cent. On a trade cycle that Book 1 measured at 44.4 days, that combination absorbs cash every month, and it absorbs it faster than the business earns it: net income was $283,500 against a working-capital increase several times that figure. A company retaining $283,500 and consuming well over a million in the cycle has a funding gap by arithmetic, not by surprise, and the only questions were how large and when.
+What a forecast would have shown, and when. A monthly cash budget built at the start of the year from the sales plan and the actual collection pattern would have shown the cash balance declining each month and crossing zero in the third quarter. By the end of the second month, the variance report would have shown collections running behind the assumption — the 38 per cent receivables growth is visible long before the year end — and the forecast would have been re-cut to show the crossing point arriving sooner.
+Two actions it would have made possible. First, negotiating a facility in advance: a seasonal line arranged in month three, with the forecast as evidence, costs less and carries fewer conditions than an overdraft taken in month nine because there is no alternative. Second, acting on the cycle itself: tightening collections and slowing the stock build are both slow to take effect, which is exactly why they have to be started before the shortfall, and a forecast is the only thing that tells a company to start.

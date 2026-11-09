@@ -1,0 +1,424 @@
+Chapter 13
+Cash: why it is held, and how it is forecast
+النقد: لماذا يُحتفظ به وكيف يُتنبأ به
+Cash is the only asset that earns nothing and the only one whose absence closes a business. Every other decision in working capital is about converting something into it or delaying something that consumes it, and the whole of this chapter is about two questions: how much of it to hold, and how to know in advance when it will run short.
+Orontes holds $7,302,100, which is more than two months of its total cash operating payments and nearly three and a half times the balance it held a year earlier. Barada holds an overdraft. Neither position arrived by accident, and both are explained by the reasons and the arithmetic set out here.
+Figure F613-01 is your map.
+Figure F613-01. Chapter 13 roadmap: three motives, several influences, and the forecast that settles it.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.4.e | Explain the three motives for holding cash. | C | Full treatment
+B.4.d | Identify the factors influencing the level of cash a company holds. | C | Full treatment
+B.4.f | Prepare a forecast of future cash flows. | C | Full treatment
+B.4.c | Use the forecast as the instrument of working-capital management. | B | Reinforced (introduced in Chapter 12)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+transaction motive | دافع المعاملات | motif de transaction
+precautionary motive | الدافع الاحترازي | motif de précaution
+speculative motive | الدافع المضاربي | motif de spéculation
+compensating balance | الرصيد التعويضي | solde compensateur
+cash budget | الموازنة النقدية | budget de trésorerie
+collection pattern | نمط التحصيل | profil d'encaissement
+minimum cash balance | الحد الأدنى للرصيد | encaisse minimale
+adjusted net income method | طريقة صافي الدخل المعدل | méthode du résultat ajusté
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 12 set out the shape of a cash budget and said that a forecast shows when a shortfall arrives rather than whether. This chapter fills the budget in with numbers, and first explains why any cash is held at all.
+13.1  Three motives for holding cash
+The classical analysis gives three reasons, and the exam asks for them by name.
+The transaction motive. Payments and receipts do not coincide. Payroll falls due on a day, suppliers on another, customers pay when they pay, and a balance is needed so that the ordinary business of the month can be conducted without borrowing on a Tuesday to repay on a Thursday. The size of this requirement depends on the volume of transactions and on how well they can be timed.
+The precautionary motive. The unexpected happens: a customer fails, a machine breaks, a shipment is delayed, a tax assessment arrives. A buffer absorbs the shock without forcing a sale of assets or a hurried loan. The size of this requirement depends on how variable the flows are and on how quickly the company could borrow instead — which is why a company with a committed, undrawn line of credit can hold less cash than one without, and the line is a substitute for the buffer.
+The speculative motive. Opportunities arrive at short notice: a competitor's assets at a price, a supplier offering a large discount for a bulk purchase, a company for sale. Cash is the ability to act, and a company with none cannot. In practice this is the motive most often given and least often true, since surplus cash is more usually the absence of a decision than the preparation for one.
+A fourth reason is institutional rather than classical and appears in questions constantly. A compensating balance is a minimum balance a bank requires a borrower to keep in its account as a condition of a loan or a line of credit. It is not available for use, so it is cash in form and not in substance, and it raises the effective cost of the borrowing — a calculation Chapter 18 performs.
+Figure F613-02 sets the four out.
+Figure F613-02. Why a company holds cash
+@table
+Motive | What it funds | What increases it | What substitutes for it
+Transaction | The timing gap in ordinary business | Volume, and poor timing of flows | Better scheduling, faster collection
+Precautionary | The unexpected | Variability of flows | A committed line of credit
+Speculative | Opportunities at short notice | A strategy of acquisition | Rapid access to borrowing
+Compensating balance | A bank's requirement | The terms of the facility | Negotiating a fee instead
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+buffer | الاحتياطي الوقائي | matelas de sécurité
+committed facility | التسهيل الملزم | ligne confirmée
+timing gap | الفجوة الزمنية | décalage de trésorerie
+@end
+SECTION CHECK   Test yourself
+SC13-1  The transaction motive for holding cash arises because:
+A.	receipts and payments do not coincide in time.
+B.	the company expects to buy a competitor.
+C.	the bank requires a balance.
+D.	cash earns interest.
+SC13-2  A committed, undrawn line of credit is the closest substitute for cash held under the:
+A.	precautionary motive.
+B.	transaction motive.
+C.	speculative motive.
+D.	compensating balance requirement.
+SC13-3  A compensating balance is:
+A.	a minimum balance a bank requires, which raises the effective cost of borrowing.
+B.	cash held for opportunities.
+C.	the same as a precautionary balance.
+D.	freely available for use.
+Answers and explanations are at the end of the chapter.
+13.2  What decides the level
+Beyond the motives, seven practical factors set the balance a company carries, and the outcome asks for them.
+The predictability of the cash flows. A utility collecting monthly from a million households can hold very little; a shipbuilder with four payments a year must hold a great deal.
+Seasonality. A business whose receipts arrive in three months of the year holds through the other nine, and the peak requirement, not the average, sizes the balance.
+Access to borrowing. A company with a committed facility and a strong rating can treat the facility as its buffer. One whose borrowing is uncommitted, or whose rating is at the investment-grade boundary of Chapter 9, cannot, because the facility may not be there on the day it is wanted.
+The cost of being short. A missed payroll, a supplier who stops delivering, a covenant tested on a date — the more expensive the consequence, the larger the balance.
+Interest rates. The higher the return available on short-term securities, the more expensive it is to hold idle cash, and the harder a treasurer works to invest it. At Orontes's $7,302,100 and a 4 per cent short rate, the cost of idleness is 7,302,100 × 0.04 = 292,084 a year.
+The maturity profile of the debt. A company with a large repayment in six months holds against it; one with nothing due for five years does not.
+Banking arrangements and policy. Compensating balances, minimum balances set by the board, and the number of accounts a group runs all raise the total held, which is why cash concentration — Chapter 14's subject — is worth doing.
+WORKED EXAMPLE   Worked example: how much cash is Orontes holding?
+Step 1. The daily requirement. Orontes's cash operating payments in 2025 were broadly its cost of goods sold of $27,300,000 and its cash operating expenses, which are the $10,524,000 of total operating expenses less the $2,724,000 impairment, so 10,524,000 − 2,724,000 = 7,800,000. Together that is 27,300,000 + 7,800,000 = 35,100,000 a year, or 35,100,000 ÷ 365 = 96,164 a day.
+Step 2. The cover. The $7,302,100 balance is therefore 7,302,100 ÷ 96,164 = 75.9 days of operating payments.
+Step 3. Judge it. Two and a half months of payments in the bank, against a cash cycle of 39.8 days and a committed relationship with Levant Commerce Bank, is a large buffer by any standard. A manufacturer with predictable flows and bank access would normally run on a third of it.
+Check. The surplus is not an error, and section 13.5 returns to what should be done with it. The point of the calculation is that "is $7,302,100 a lot of cash?" is unanswerable and "is 75.9 days of payments a lot of cash?" is answerable, which is what expressing a balance in days of its own flow is for — the same move Book 1 made with receivables and inventory.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+days of cash | أيام التغطية النقدية | jours de trésorerie
+peak requirement | الاحتياج في الذروة | besoin de pointe
+uncommitted facility | التسهيل غير الملزم | ligne non confirmée
+cash concentration | تجميع النقد | centralisation de trésorerie
+@end
+SECTION CHECK   Test yourself
+SC13-4  A company with highly predictable receipts can hold:
+A.	less cash than one with variable receipts.
+B.	more cash.
+C.	the same cash.
+D.	no cash at all.
+SC13-5  Orontes's cash of 7,302,100 against daily operating payments of 96,164 is:
+A.	about 75.9 days of payments.
+B.	about 7.6 days of payments.
+C.	about 759 days of payments.
+D.	not computable.
+SC13-6  A higher short-term interest rate makes holding idle cash:
+A.	more expensive in opportunity cost.
+B.	cheaper.
+C.	unchanged in cost.
+D.	compulsory.
+Answers and explanations are at the end of the chapter.
+13.3  Preparing the forecast
+The receipts and disbursements method builds the forecast from the transactions themselves. It is the method the exam sets, and it has four steps.
+Forecast the sales, month by month.
+Convert sales into receipts using the collection pattern — the proportions collected in the month of sale, the month after, and so on, with an allowance for what is never collected.
+Forecast the payments: purchases, converted by the supplier terms; payroll; overheads; tax; interest; dividends; capital expenditure.
+Roll the balance forward: opening cash plus receipts less payments is closing cash, which becomes next month's opening, and compare the result with the minimum balance the company has decided to hold.
+WORKED EXAMPLE   Worked example: a month that needs a facility
+Step 1. The sales. January $800,000, February $1,000,000, March $1,400,000, April $1,200,000.
+Step 2. The collection pattern. Twenty per cent is collected in the month of sale, 50 per cent in the following month, 28 per cent in the month after that, and 2 per cent is never collected. March receipts are therefore 0.20 × 1,400,000 = 280,000 from March's own sales, 0.50 × 1,000,000 = 500,000 from February and 0.28 × 800,000 = 224,000 from January, which is 280,000 + 500,000 + 224,000 = 1,004,000.
+Step 3. The payments. Purchases are 60 per cent of the following month's sales and are paid a month after purchase, so March pays for February's purchases of 0.60 × 1,400,000 = 840,000. Payroll is $220,000, overheads $90,000, and a tax instalment of $150,000 falls due, so payments are 840,000 + 220,000 + 90,000 + 150,000 = 1,300,000.
+Step 4. The balance. Opening cash is $300,000, so closing cash is 300,000 + 1,004,000 − 1,300,000 = 4,000. Against a minimum balance policy of $250,000, the company is short by 250,000 − 4,000 = 246,000.
+Check. The company is profitable in March — it sells $1,400,000 and its costs are far below that — and it is nearly out of money, because the sales growth means it is paying for a larger February purchase while still collecting on a smaller January sale. That is the pattern of every growing company's cash crisis, and the forecast found it two months before it happened, which is long enough to arrange a facility, collect faster, or delay the tax payment by agreement.
+Figure F613-03 sets the month out.
+Figure F613-03. One month of a cash budget
+@table
+Line | Computation | March
+Opening cash | Prior closing balance | 300,000
+Collections from March sales | 20% of 1,400,000 | 280,000
+Collections from February sales | 50% of 1,000,000 | 500,000
+Collections from January sales | 28% of 800,000 | 224,000
+Total receipts | | 1,004,000
+Payment for February purchases | 60% of March sales, paid a month later | (840,000)
+Payroll and overheads | | (310,000)
+Tax instalment | | (150,000)
+Closing cash | Opening plus receipts less payments | 4,000
+Shortfall against a 250,000 minimum | | (246,000)
+@end
+EXAM TRAP   Three things that go wrong in a cash budget
+Sales are not receipts. Apply the collection pattern, and remember that the percentages must include the uncollectable part so they sum to 100.
+Purchases are not payments. Apply the supplier terms, and watch for a question in which purchases are a percentage of the following month's sales rather than the current month's.
+The minimum balance is not zero. The shortfall to be financed is measured against the policy minimum, not against an empty account.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+receipts and disbursements | المقبوضات والمدفوعات | encaissements et décaissements
+instalment | القسط | acompte
+shortfall | العجز | déficit
+roll forward | الترحيل | report
+@end
+SECTION CHECK   Test yourself
+SC13-7  Sales of 1,400,000 with 20 per cent collected in the month of sale contribute receipts in that month of:
+A.	280,000
+B.	1,400,000
+C.	1,120,000
+D.	700,000
+SC13-8  The amount a company must finance is the shortfall measured against:
+A.	its minimum cash balance policy.
+B.	zero.
+C.	its opening balance.
+D.	its annual profit.
+SC13-9  A company can be profitable in a month and nearly out of cash because:
+A.	growth means paying for larger purchases before collecting on smaller sales.
+B.	profit is mis-stated.
+C.	depreciation is too high.
+D.	the sales were not real.
+Answers and explanations are at the end of the chapter.
+13.4  Longer horizons and other methods
+The receipts and disbursements method is exact and demanding: it needs a collection pattern, supplier terms and a payment schedule, and beyond a few months the detail is spurious. For a longer horizon the adjusted net income method is used instead, and it is the indirect cash flow statement of Part 1 run forwards.
+Start with forecast net income. Add back the non-cash charges — depreciation, amortisation, impairment. Adjust for the expected movements in working capital: an increase in receivables or inventory is a use of cash, an increase in payables a source. Deduct the planned capital expenditure, the debt repayments and the dividends. What is left is the expected change in cash.
+The two methods answer different questions and the exam distinguishes them. The receipts method tells a treasurer which week needs a facility. The adjusted net income method tells a board whether next year's plan is fundable at all. A company needs both, at different resolutions: daily for a fortnight, weekly for a quarter, monthly for a year, annually for the plan.
+Three techniques improve any of them.
+A rolling horizon. Re-cut every month so that the view ahead never shortens.
+Scenarios. A base case, a case in which collections run a week slower, and a case in which a large customer fails. The second of these is the assumption that most often breaks, and testing it is cheap.
+A reconciliation to the balance sheet. The forecast's closing receivables should equal the sales not yet collected under the assumed pattern, and its closing inventory should equal the cover the purchasing plan implies. A forecast that does not reconcile contains an error that the cash line alone will hide.
+Figure F613-04 compares the methods.
+Figure F613-04. Two forecasting methods
+@table
+Feature | Receipts and disbursements | Adjusted net income
+Built from | Individual flows and their timing | Forecast profit and balance movements
+Horizon | Days to a few months | Quarters to years
+Answers | When will we be short, and by how much? | Is the plan fundable?
+Needs | Collection pattern, supplier terms | A forecast income statement and balance sheet
+Weakness | Spurious precision at long range | No detail about timing within a period
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+indirect method | الطريقة غير المباشرة | méthode indirecte
+scenario | السيناريو | scénario
+reconciliation | التسوية | rapprochement
+resolution | دقة التفصيل | granularité
+@end
+SECTION CHECK   Test yourself
+SC13-10  The adjusted net income method starts from:
+A.	forecast net income, adding back non-cash charges.
+B.	the collection pattern.
+C.	the bank statement.
+D.	the dividend.
+SC13-11  An increase in forecast inventory is treated in that method as:
+A.	a use of cash.
+B.	a source of cash.
+C.	irrelevant.
+D.	an expense.
+Answers and explanations are at the end of the chapter.
+13.5  Acting on the answer
+A forecast produces one of two findings, and each has a short list of responses.
+A forecast shortfall. In order of preference: collect faster, which Chapter 14 is about; slow payments within the terms agreed, which Chapter 14 also covers; draw on a committed line of credit, which is why it was arranged; delay discretionary spending, such as a capital project or a dividend; sell marketable securities, which Chapter 15 arranged to mature at the right moment; and only then negotiate new borrowing, which is the most expensive because it is the least prepared.
+A forecast surplus. In order of preference: fund the investment opportunities, which Chapter 8 showed outrank everything; repay expensive short-term debt; place the money in marketable securities matched to the date it will be needed, which Chapter 15 selects; and, where the surplus is permanent rather than temporary, return it to shareholders by the dividend or buyback of Chapters 10 and 11.
+Orontes's $7,302,100 is a surplus by the measure of section 13.2 — 75.9 days of operating payments against a 39.8-day cash cycle and a bank relationship that works. The order above gives the answer Book 2 has been building towards: fund the two projects at 14 and 11 per cent, which absorb $6,000,000; place the rest for the dates the forecast says it will be needed; and hold the dividend where it is until the gross margin has stopped falling. What should not happen is what happened in 2025, which is that the balance grew by $5,202,100 and sat in a current account earning nothing while the company's cost of capital ran at 9.04 per cent.
+YOUR TURN   Build a month
+Figure F613-05 gives the data for one month. Complete the blanks. Answers are at the end of the chapter.
+Figure F613-05. Your turn: one month of a cash budget (complete the blanks)
+@table
+Item | Data | Answer
+Collections from June sales | June sales 900,000, 25 per cent collected in month | ________
+Collections from May sales | May sales 800,000, 55 per cent collected the month after | ________
+Collections from April sales | April sales 700,000, 18 per cent collected two months after | ________
+Total receipts | | ________
+Payments | Suppliers 600,000, payroll 180,000, overheads 70,000 | ________
+Closing cash | Opening cash 120,000 | ________
+Shortfall against a 200,000 minimum | | ________
+@end
+LANGUAGE FOCUS   "Liquid"
+English liquid in finance means convertible into cash quickly and without loss of value, and liquidity is that quality. The metaphor is of something that flows, and it is used in three related senses that a candidate must keep apart: an asset is liquid if it can be sold quickly; a company is liquid if it can meet its obligations; and a market is liquid if a large order can be executed without moving the price. Arabic سيولة covers all three with the same metaphor. French liquidité does the same, and French adds disponibilités for the cash itself — the money immediately available — which is a distinction English makes only with the clumsy phrase cash and cash equivalents. Note that illiquid never means insolvent: a company can be solvent and illiquid, which is exactly the case this chapter exists to prevent.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+surplus | الفائض | excédent
+discretionary spending | الإنفاق الاختياري | dépenses discrétionnaires
+line of credit | حد ائتماني | ligne de crédit
+idle balance | الرصيد العاطل | encaisse oisive
+@end
+SECTION CHECK   Test yourself
+SC13-12  The first response to a forecast shortfall should be:
+A.	to collect faster and slow payments within agreed terms.
+B.	to negotiate new borrowing.
+C.	to cut the dividend.
+D.	to sell a fixed asset.
+SC13-13  The first call on a forecast surplus is:
+A.	investment opportunities earning more than the cost of capital.
+B.	a share buyback.
+C.	a special dividend.
+D.	a longer-dated security.
+SC13-14  Cash left in a current account while the cost of capital is 9.04 per cent:
+A.	destroys value every day it stays there.
+B.	is prudent in all circumstances.
+C.	raises the return on assets.
+D.	is required by the standards.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F613-06 brings the chapter together.
+Figure F613-06. Chapter 13 summary map: the key rule for each section.
+Cash is held for three classical motives — transaction, precautionary and speculative — and for one institutional reason, the compensating balance a bank requires, which is cash in form and not in substance. The level is set by the predictability of the flows, seasonality, access to committed borrowing, the cost of being short, the interest rate forgone, the maturity profile of the debt and the company's own banking policy; and the way to judge it is in days of its own flow, so Orontes's $7,302,100 against payments of 35,100,000 ÷ 365 = 96,164 a day is 7,302,100 ÷ 96,164 = 75.9 days, which is generous. The receipts and disbursements forecast converts sales into receipts through a collection pattern and purchases into payments through supplier terms, and the worked month shows a profitable company closing at 300,000 + 1,004,000 − 1,300,000 = 4,000 against a policy minimum of 250,000 — a shortfall of 246,000 found two months before it arrived. For longer horizons the adjusted net income method runs the indirect cash flow statement forwards, and a company needs both at different resolutions. And the response is a short ordered list in each direction: collect, slow, draw, defer, sell, borrow on a shortfall; invest, repay, place, distribute on a surplus — which for Orontes means funding the projects and placing the rest, rather than letting five million dollars sit in a current account at a cost of capital of 9.04 per cent.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P13-01  The three classical motives for holding cash are:
+A.	transaction, precautionary and speculative.
+B.	operating, investing and financing.
+C.	short, medium and long.
+D.	current, quick and absolute.
+P13-02  A compensating balance:
+A.	is required by a bank and is not freely available.
+B.	earns a premium rate.
+C.	is held for opportunities.
+D.	reduces the cost of borrowing.
+P13-03  A company with a committed, undrawn line of credit can hold:
+A.	less precautionary cash.
+B.	more precautionary cash.
+C.	no transaction cash.
+D.	no cash at all.
+P13-04  Cash of 7,302,100 against daily operating payments of 96,164 represents:
+A.	about 75.9 days.
+B.	about 7.6 days.
+C.	about 13.2 days.
+D.	about 759 days.
+P13-05  Sales of 900,000 with 25 per cent collected in the month of sale give receipts that month of:
+A.	225,000
+B.	900,000
+C.	675,000
+D.	25,000
+P13-06  In a cash budget, purchases are converted into payments by applying:
+A.	the supplier's credit terms.
+B.	the collection pattern.
+C.	the depreciation rate.
+D.	the tax rate.
+P13-07  Opening cash 120,000, receipts 1,000,000, payments 850,000. Closing cash is:
+A.	270,000
+B.	150,000
+C.	1,120,000
+D.	970,000
+P13-08  The adjusted net income method is best suited to:
+A.	forecasting over quarters and years.
+B.	daily cash management.
+C.	collecting receivables.
+D.	pricing a bond.
+P13-09  Which is NOT a sensible first response to a forecast shortfall?
+A.	Negotiating a new loan at short notice
+B.	Accelerating collections
+C.	Drawing on a committed facility
+D.	Deferring discretionary spending
+P13-10  A permanent cash surplus, after investment opportunities are funded, should be:
+A.	returned to shareholders.
+B.	held indefinitely in a current account.
+C.	used to extend customer credit terms.
+D.	ignored.
+Case-style practice: Orontes's cash
+Orontes's treasurer presents the 2026 cash plan. The company holds $7,302,100, equal to 75.9 days of operating payments. Its cash cycle is 39.8 days, it has a working relationship with Levant Commerce Bank at 6 per cent, short-dated government securities yield 4 per cent, and its weighted average cost of capital is 9.04 per cent. Two projects returning 14 and 11 per cent need $6,000,000 during the year, with payments spread over four quarters. The board's current policy is a minimum balance of $2,000,000.
+Required. Say whether the balance is appropriate, what you would do with it through the year, and what you would change about the policy. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC13-1  Answer A. Ordinary business has a timing gap.
+B is wrong. That is the speculative motive.
+C is wrong. That is a compensating balance.
+D is wrong. Cash earns little or nothing, which is the cost of holding it.
+SC13-2  Answer A. A facility stands in for a buffer against the unexpected.
+B is wrong. Transaction balances fund day-to-day timing.
+C is wrong. A facility rarely funds an opportunistic purchase quickly enough.
+D is wrong. A compensating balance is a requirement, not a motive.
+SC13-3  Answer A. It is required, unusable, and raises the effective rate.
+B is wrong. That is the speculative motive.
+C is wrong. A precautionary balance is the company's own choice.
+D is wrong. Its unavailability is the point.
+SC13-4  Answer A. Predictability reduces the buffer needed.
+B is wrong. More cash is needed when flows are uncertain.
+C is wrong. The requirement differs.
+D is wrong. Transaction balances are still needed.
+SC13-5  Answer A. 7,302,100 ÷ 96,164 = 75.9 days.
+B is wrong. This misplaces the decimal.
+C is wrong. This misplaces it the other way.
+D is wrong. Both figures are given.
+SC13-6  Answer A. The forgone return is the cost of holding cash.
+B is wrong. A higher rate raises the opportunity cost.
+C is wrong. The cost moves with the rate.
+D is wrong. Nothing compels a company to invest its balances.
+SC13-7  Answer A. 0.20 × 1,400,000 = 280,000.
+B is wrong. That is the whole month's sales.
+C is wrong. That is the 80 per cent collected later.
+D is wrong. That is half the sales.
+SC13-8  Answer A. The policy minimum is the floor.
+B is wrong. Running to zero leaves no margin.
+C is wrong. The opening balance is an input, not the test.
+D is wrong. Profit is not a cash measure.
+SC13-9  Answer A. Growth pays out before it collects.
+B is wrong. Nothing here suggests misstatement.
+C is wrong. Depreciation is not a cash flow.
+D is wrong. The sales are real and uncollected.
+SC13-10  Answer A. It runs the indirect cash flow statement forwards.
+B is wrong. The collection pattern belongs to the receipts method.
+C is wrong. The bank statement is history.
+D is wrong. The dividend is one deduction among several.
+SC13-11  Answer A. Money goes into stock and does not come back this period.
+B is wrong. An increase in an asset uses cash.
+C is wrong. Working-capital movements are central to the method.
+D is wrong. Buying inventory is not an expense until it is sold.
+SC13-12  Answer A. The cheapest responses come first.
+B is wrong. Borrowing at short notice is the most expensive route.
+C is wrong. A dividend cut is a large signal for a timing problem.
+D is wrong. Selling a fixed asset to fund a month is disproportionate.
+SC13-13  Answer A. Projects above the cost of capital create value.
+B is wrong. A buyback returns money that could have earned more.
+C is wrong. The same objection applies.
+D is wrong. Placing the money is what to do with what remains.
+SC13-14  Answer A. The money earns nothing against a cost of 9.04 per cent.
+B is wrong. Prudence has a price and it can be excessive.
+C is wrong. Idle cash enlarges the denominator and lowers the return.
+D is wrong. No standard sets a cash balance.
+Your turn
+@table
+Item | Answer
+Collections from June sales | 225,000: 0.25 × 900,000 = 225,000.
+Collections from May sales | 440,000: 0.55 × 800,000 = 440,000.
+Collections from April sales | 126,000: 0.18 × 700,000 = 126,000.
+Total receipts | 791,000: 225,000 + 440,000 + 126,000 = 791,000.
+Payments | 850,000: 600,000 + 180,000 + 70,000 = 850,000.
+Closing cash | 61,000: 120,000 + 791,000 − 850,000 = 61,000.
+Shortfall against a 200,000 minimum | 139,000: 200,000 − 61,000 = 139,000.
+What it tells you | The month is close to break-even in cash and short against policy, and the company needs 139,000 of facility or acceleration. Note that 2 per cent of each month's sales is never collected on these percentages, which is a credit-policy question for Chapter 16 rather than a cash one.
+@end
+Multiple-choice questions
+P13-01  Answer A. Transaction, precautionary, speculative.
+B is wrong. Those are the sections of a cash flow statement.
+C is wrong. That is a maturity classification.
+D is wrong. Those are liquidity ratios.
+P13-02  Answer A. Required by the bank and unavailable for use.
+B is wrong. It usually earns little or nothing.
+C is wrong. That is the speculative motive.
+D is wrong. It raises the effective cost.
+P13-03  Answer A. The facility substitutes for the buffer.
+B is wrong. The facility reduces the need.
+C is wrong. Transaction balances are still required.
+D is wrong. No company operates on nothing.
+P13-04  Answer A. 7,302,100 ÷ 96,164 = 75.9 days.
+B is wrong. This misplaces the decimal.
+C is wrong. This has no basis in the figures.
+D is wrong. This misplaces the decimal the other way.
+P13-05  Answer A. 0.25 × 900,000 = 225,000.
+B is wrong. That is the whole month's sales.
+C is wrong. That is what is collected later.
+D is wrong. This misplaces the decimal.
+P13-06  Answer A. Supplier terms convert purchases into payments.
+B is wrong. The collection pattern applies to sales.
+C is wrong. Depreciation is not a cash item.
+D is wrong. Tax has its own payment schedule.
+P13-07  Answer A. 120,000 + 1,000,000 − 850,000 = 270,000.
+B is wrong. This omits the opening balance.
+C is wrong. This omits the payments.
+D is wrong. This subtracts the opening balance.
+P13-08  Answer A. It suits longer horizons.
+B is wrong. Daily management needs the receipts method.
+C is wrong. Collection is an operational activity.
+D is wrong. Bond pricing is Chapter 4.
+P13-09  Answer A. Borrowing at short notice is the last resort, not the first.
+B is wrong. Accelerating collections is the cheapest response.
+C is wrong. A committed facility exists for this.
+D is wrong. Deferring discretionary spending is sensible.
+P13-10  Answer A. A permanent surplus belongs to the shareholders.
+B is wrong. Idle cash destroys value.
+C is wrong. Extending credit terms to use up cash is a poor reason to change credit policy.
+D is wrong. Capital allocation is a decision, not an omission.
+Case-style set: Orontes's cash
+Is the balance appropriate? No. At 75.9 days of operating payments against a 39.8-day cash cycle, a working bank relationship and no large debt maturity, the company is holding roughly twice what its operations require. The cost is visible: at the 4 per cent available on short-dated government securities, the idle portion forgoes real money, and measured against the 9.04 per cent cost of capital the whole balance is expensive to carry.
+What I would do through the year. Fund the two projects first: $6,000,000 at 14 and 11 per cent, well above the cost of capital, and payable over four quarters rather than at once. Build a quarterly profile of those payments from the project plans, then place the cash in securities maturing on those dates — a laddered portfolio of three, six, nine and twelve-month instruments, which Chapter 15 selects. That converts an idle balance into a scheduled one and earns the 4 per cent on everything not yet needed, without any risk of having to sell early.
+Keep the remainder as the working balance, sized at around thirty days of operating payments, which is roughly $2,900,000 and comfortably covers the 39.8-day cycle given a committed facility.
+What I would change about the policy. The minimum balance of $2,000,000 is expressed as an amount and should be expressed in days of operating payments, so that it scales with the business instead of being revisited by memory. I would also ask the board to agree a standing instruction that any balance above the policy minimum is placed in marketable securities matched to forecast needs, so that the decision not to invest has to be taken deliberately rather than by default — which is how five million dollars came to be sitting in a current account in the first place.

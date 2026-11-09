@@ -1,0 +1,444 @@
+Chapter 14
+Speeding collections and slowing payments
+تسريع التحصيل وإبطاء المدفوعات
+A customer puts a cheque in the post on Monday. It arrives on Thursday, is opened and banked on Friday, and the funds become available the following Tuesday. The customer's account was debited a week after the money left their intention, and for that week the amount belonged to nobody in particular. It is called float, and managing it is the most mechanical and the most immediately profitable part of treasury work.
+This chapter is about shortening the delay on money coming in and lengthening it on money going out, within the terms agreed and the law. The tools are unglamorous — a post office box, a bank account that empties itself every night, a payment released on the day it is due rather than the day the invoice is approved — and on the scale of a company like Orontes, collecting $115,068 a day, each day of float is worth exactly that much.
+Figure F614-01 is your map.
+Figure F614-01. Chapter 14 roadmap: the three kinds of float, and what shortens or lengthens each.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.4.g | Identify methods of speeding up cash collections. | C | Full treatment
+B.4.h | Calculate the net benefit of a lockbox system. | C | Full treatment
+B.4.i | Define concentration banking. | C | Full treatment
+B.4.j | Explain compensating balances and their effect. | C | Full treatment
+B.4.k | Identify methods of slowing down disbursements. | C | Full treatment
+B.4.l | Explain disbursement float and overdraft systems. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+float | المدة العائمة | float
+lockbox | صندوق التحصيل البريدي | boîte postale de recouvrement
+concentration banking | التجميع المصرفي | centralisation bancaire
+zero-balance account | الحساب ذو الرصيد الصفري | compte à solde nul
+controlled disbursement | الصرف المنضبط | décaissement contrôlé
+compensating balance | الرصيد التعويضي | solde compensateur
+electronic funds transfer | التحويل الإلكتروني للأموال | virement électronique
+overdraft | السحب على المكشوف | découvert
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's daily sales as 42,000,000 ÷ 365 = 115,068 and its days sales outstanding as 34.3. Chapter 13 of this book showed a month failing by $246,000 against its minimum balance. Everything in this chapter either shortens the 34.3 days or moves the shortfall.
+14.1  Float, in three parts
+Float is the delay between one party's records and the other's. Collection float works against the company; disbursement float works for it; net float is the difference, and a company with more of the second than the first has a bank balance larger than its own ledger shows.
+Collection float has three components and each is attacked differently.
+Mail float is the time from the customer sending the payment to the company receiving it. It is attacked by moving the receiving point closer to the customer, which is what a lockbox does, or by removing the post from the process entirely with an electronic transfer.
+Processing float is the time from receipt to deposit: opening, recording, preparing the deposit, taking it to the bank. It is attacked by having the bank do the work, which again is a lockbox, or by direct credit to the account.
+Availability float, also called clearing float, is the time from deposit to the funds becoming usable. It is attacked by depositing in a bank where the item will clear fastest, and it has largely shrunk in markets where electronic clearing has replaced paper.
+Disbursement float is the same three delays on the paying side, seen from the other end. A cheque posted on the last permitted day, drawn on a bank where it will take time to clear, leaves the company's money in the company's account longer.
+WORKED EXAMPLE   Worked example: what a day of float is worth to Orontes
+Step 1. The daily flow. Orontes collects 42,000,000 ÷ 365 = 115,068 a day on average.
+Step 2. One day. Removing one day of collection float releases $115,068 of cash permanently — not once, but permanently, because every subsequent day's collections arrive a day earlier too.
+Step 3. Three days. A lockbox arrangement cutting mail and processing float by three days releases 115,068 × 3 = 345,204.
+Step 4. The annual value. At the 4 per cent Orontes could earn on short-dated securities, that released cash is worth 345,204 × 0.04 = 13,808 a year, for ever, against whatever the arrangement costs.
+Check. The released amount is a stock and the benefit is a flow, and confusing the two is the classic error on this outcome. Three days of float is a one-off release of $345,204 into the bank account; the recurring benefit is only the return earned on it. A candidate who compares $345,204 with an annual bank fee has compared a balance with a rent.
+Figure F614-02 sets out the components.
+Figure F614-02. The components of float
+@table
+Component | The delay | Who it favours | What shortens it
+Mail float | Customer posts to company receives | The customer | A lockbox near the customer
+Processing float | Receipt to deposit | Neither | Bank processing, direct credit
+Availability float | Deposit to usable funds | The bank | Faster-clearing instruments
+Disbursement float | Company pays to funds leave | The company | Nothing; the company wants it long
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+collection float | عائم التحصيل | float d'encaissement
+clearing | المقاصة | compensation
+net float | صافي العائم | float net
+released cash | النقد المحرر | trésorerie libérée
+@end
+SECTION CHECK   Test yourself
+SC14-1  Collection float is the delay between:
+A.	the customer paying and the funds becoming available to the company.
+B.	the sale and the invoice.
+C.	the invoice and the due date.
+D.	the payment and the bank statement.
+SC14-2  Removing three days of float for a company collecting 115,068 a day releases:
+A.	345,204 of cash, once and permanently.
+B.	345,204 a year.
+C.	115,068 a year.
+D.	nothing until the next year.
+SC14-3  Disbursement float is:
+A.	the delay between the company paying and the money leaving its account.
+B.	harmful to the company.
+C.	the same as collection float.
+D.	prohibited.
+Answers and explanations are at the end of the chapter.
+14.2  Speeding collections
+Six methods, and the exam expects them named and distinguished.
+A lockbox is a post office box in a city near a group of customers, emptied several times a day by a bank that opens the mail, deposits the cheques and reports the details to the company. It removes most of the mail float, because the box is closer, and all of the processing float, because the bank does the work.
+Electronic funds transfer removes mail and processing float entirely, and most of the availability float. Where a customer will pay electronically, every other method is inferior.
+A preauthorised debit lets the company draw the agreed amount from the customer's account on the due date. It is standard for regular payments — rent, subscriptions, instalments — and it removes the decision to pay from the payer, which is its advantage and the reason some customers resist it.
+Concentration banking moves the money from many local accounts into one. A company with branches collects locally, each branch banking where its customers are, and the balances are swept daily into a single concentration account. Three benefits follow: the total idle balance is far smaller than the sum of many local minimums; the one large balance can be invested on better terms than many small ones; and the company borrows once rather than in several places. The transfers themselves are made by depository transfer cheque or, more usually now, by electronic transfer.
+Prompt and accurate invoicing is the cheapest method of all and the most often neglected. An invoice issued three days after delivery is paid three days later, and an invoice with an error restarts the whole clock.
+A discount for early settlement buys speed with margin. Chapter 18 prices what that costs the seller and Chapter 16 decides whether to offer it.
+Figure F614-03 compares the methods.
+Figure F614-03. Six ways to collect faster
+@table
+Method | Float removed | Typical cost | Best suited to
+Lockbox | Mail and processing | A fee per item or a monthly fee | Many cheques from a wide area
+Electronic funds transfer | Nearly all | A small transaction fee | Any customer willing to use it
+Preauthorised debit | Nearly all | A small fee | Regular, repeating amounts
+Concentration banking | None directly; it frees balances | Transfer fees | Companies with many locations
+Prompt invoicing | The company's own delay | Nothing | Everybody
+Settlement discount | Days of credit | A percentage of the invoice | Sellers with high margins
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+preauthorised debit | الخصم المصرح به مسبقاً | prélèvement automatique
+sweep | الكنس اليومي | balayage de comptes
+depository transfer cheque | شيك التحويل الإيداعي | chèque de transfert
+local account | الحساب المحلي | compte local
+@end
+SECTION CHECK   Test yourself
+SC14-4  A lockbox removes:
+A.	most mail float and all processing float.
+B.	disbursement float.
+C.	the credit period.
+D.	the need for invoices.
+SC14-5  Concentration banking:
+A.	sweeps balances from many local accounts into one.
+B.	opens accounts in many banks.
+C.	slows payments to suppliers.
+D.	removes availability float.
+SC14-6  The cheapest method of speeding collections is usually:
+A.	invoicing promptly and accurately.
+B.	a lockbox network.
+C.	a settlement discount.
+D.	concentration banking.
+Answers and explanations are at the end of the chapter.
+14.3  Is the lockbox worth it?
+The calculation is a small net present value and the exam sets it often. Compare the recurring benefit of the cash released with the recurring cost of the service.
+WORKED EXAMPLE   Worked example: the lockbox decision
+Step 1. The flows. A company collects $200,000 a day through its central office. A bank offers a lockbox network that would cut total float by 2.5 days. The bank charges $0.35 an item and the company receives 60,000 items a year. The company can earn 5 per cent on released funds.
+Step 2. The cash released. 200,000 × 2.5 = 500,000, released once and held permanently.
+Step 3. The annual benefit. 500,000 × 0.05 = 25,000 a year.
+Step 4. The annual cost. 0.35 × 60,000 = 21,000 a year.
+Step 5. The decision. 25,000 − 21,000 = 4,000 of net annual benefit, so the lockbox is worth having — but only just, and the margin is thin enough that a rise in volume or a fall in interest rates would reverse it.
+Check. Two refinements change the answer and both appear in questions. If the bank asks for a compensating balance instead of a fee, the cost is the return forgone on that balance, computed as in section 14.4. And if the company has borrowings outstanding, the benefit should be computed at its borrowing rate rather than at its investment rate, because the released cash repays debt rather than buying securities — and at Orontes's 6 per cent rather than 4, the same release is worth half as much again.
+Figure F614-04 sets out the template.
+Figure F614-04. The lockbox template
+@table
+Line | Computation | This case
+Daily collections | Given | 200,000
+Days of float removed | Given | 2.5
+Cash released | Daily collections times days | 500,000
+Annual benefit | Released cash times the rate | 25,000
+Annual cost | Fee per item times items, or a monthly fee | 21,000
+Net annual benefit | Benefit less cost | 4,000
+@end
+EXAM TRAP   Stock against flow, and which rate
+The cash released is a one-off stock. The benefit is the return on it, which is a flow. Compare flows with flows.
+Use the borrowing rate where the company is borrowing, and the investment rate where it is not. The question's wording decides.
+Where the charge is per item, multiply by the number of items a year, not by the number of days.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+per-item fee | رسم لكل مستند | commission par opération
+net annual benefit | صافي المنفعة السنوية | gain annuel net
+break-even volume | حجم التعادل | volume d'équilibre
+@end
+SECTION CHECK   Test yourself
+SC14-7  Daily collections of 200,000 and float reduced by 2.5 days release:
+A.	500,000 of cash.
+B.	500,000 a year.
+C.	80,000 of cash.
+D.	2,500,000 of cash.
+SC14-8  Released cash of 500,000 at a 5 per cent rate gives an annual benefit of:
+A.	25,000
+B.	500,000
+C.	2,500
+D.	100,000
+SC14-9  A per-item fee of 0.35 on 60,000 items a year costs:
+A.	21,000 a year
+B.	210 a year
+C.	60,000 a year
+D.	17,143 a year
+Answers and explanations are at the end of the chapter.
+14.4  Compensating balances
+A bank may be paid in fees or in balances. A compensating balance is a sum the borrower agrees to keep in a non-interest-bearing account, from which the bank earns by lending it on, and its effect is to raise the effective cost of whatever it is attached to.
+WORKED EXAMPLE   Worked example: what a compensating balance costs
+Step 1. The facility. A company borrows $2,000,000 at a stated 8 per cent and must keep a compensating balance of 10 per cent of the loan.
+Step 2. What it actually has. 2,000,000 × 0.90 = 1,800,000 of usable money, because $200,000 must stay in the account.
+Step 3. What it pays. Interest is charged on the whole loan: 2,000,000 × 0.08 = 160,000.
+Step 4. The effective rate. 160,000 ÷ 1,800,000 = 8.89 per cent, against a stated 8 per cent.
+Check. The stated rate was never the rate. Two adjustments can change the answer and the exam uses both. If the company would in any case have held $200,000 in that account for transaction purposes, the requirement costs nothing extra and the effective rate stays at 8 per cent. And if the balance earns some interest, only the shortfall against the market rate is a cost. Read the question for which case it describes.
+Compensating balances also attach to services rather than loans: a bank may provide a lockbox or a concentration network free in exchange for balances left with it. The comparison is then between the fee it would otherwise charge and the return forgone on the balance, and the arithmetic is identical.
+Figure F614-05 compares the two ways of paying a bank.
+Figure F614-05. Fees against balances
+@table
+Arrangement | What the company gives up | Cost if it would hold the balance anyway | Visible in the accounts?
+A fee | Cash | The fee, in full | Yes, as an expense
+A compensating balance | The use of a balance | Nothing | No; it appears as cash
+@end
+That last column explains why balances are popular with managers and disliked by analysts: a fee is an expense that shows, and a balance is a restriction on an asset that does not — which is why the notes disclose compensating balance requirements, and why a reader of Book 1's liquidity ratios would want to know whether any of Orontes's $7,302,100 was restricted in this way.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+effective rate | المعدل الفعلي | taux effectif
+usable funds | الأموال القابلة للاستخدام | fonds disponibles
+restricted cash | النقد المقيد | trésorerie affectée
+@end
+SECTION CHECK   Test yourself
+SC14-10  A 2,000,000 loan at 8 per cent with a 10 per cent compensating balance has an effective rate of:
+A.	8.89 per cent
+B.	8.00 per cent
+C.	7.20 per cent
+D.	10.00 per cent
+SC14-11  A compensating balance costs nothing extra when:
+A.	the company would have held that balance for transaction purposes anyway.
+B.	the loan is large.
+C.	the bank charges a fee as well.
+D.	the balance earns no interest.
+Answers and explanations are at the end of the chapter.
+14.5  Slowing disbursements
+The mirror image, and the one where the line between good management and sharp practice has to be drawn explicitly.
+Legitimate methods, which the exam expects.
+Pay on the due date, not before. An invoice on 30-day terms should be paid on day 30. Paying on day 12 because the approval happened to finish then is a free loan to the supplier.
+Centralise payments. One payment run from one account is easier to control, to time and to fund than payments made by several locations.
+Use a zero-balance account. Each disbursement account is kept at nil, and the master account funds it each day with exactly the amount of cheques presenting. No idle balances sit waiting in the payment accounts.
+Use controlled disbursement. The bank notifies the company early each morning of the exact total that will clear that day, so the treasurer funds that amount and invests everything else — the practice that makes a zero-balance structure usable.
+Use a payable-through draft, which is presented to the company for approval before it is paid, adding a day and giving a control point against fraud.
+Consider a single payment run a week rather than daily, which slows payment on average by a few days and costs nothing.
+Methods that cross the line, and the exam has a view. Deliberately drawing cheques on a distant bank to extend clearing time — remote disbursement — is legal in most places and is regarded as an abuse by banks and by the professional codes. Delaying payment past agreed terms without agreement is not float management; it is unilaterally taking credit, and Chapter 18 prices what it does to a supplier relationship. Mailing on a Friday afternoon so that the item cannot be processed until Tuesday is a decision the company should be willing to describe to the supplier.
+The overdraft system belongs here because it changes the question. In markets where overdrafts are normal, a company holds no cash at all: the account runs negative during the month, interest is charged daily on the balance, and the whole apparatus of minimum balances and daily funding is replaced by a limit and a rate. That is cheaper and simpler than holding precautionary cash, and it is why a treasurer in such a market manages the limit rather than the balance. Barada's $240,000 overdraft is this arrangement arriving unplanned rather than chosen.
+Figure F614-06 sets out the methods.
+Figure F614-06. Slowing payments, and where the line falls
+@table
+Method | What it does | Acceptable?
+Paying on the due date | Takes the full agreed credit | Yes, and standard practice
+Zero-balance accounts | Removes idle balances in payment accounts | Yes
+Controlled disbursement | Funds exactly what will clear | Yes
+Payable-through draft | Adds a day and a control point | Yes
+Remote disbursement | Extends clearing by choosing a distant bank | Legal, widely regarded as abuse
+Paying late without agreement | Takes credit not granted | No; it is a breach of terms
+@end
+YOUR TURN   Price the float
+Figure F614-07 gives a company's collection and payment arrangements. Complete the blanks. Answers are at the end of the chapter.
+Figure F614-07. Your turn: float and its price (complete the blanks)
+@table
+Item | Data | Answer
+Cash released by a lockbox | Daily collections 150,000, float cut 3 days | ________
+Annual benefit of that release | At a 6 per cent borrowing rate | ________
+Annual cost of the lockbox | 0.40 an item, 55,000 items | ________
+Net annual benefit | | ________
+Usable funds on a loan | 3,000,000 at 9 per cent, 15 per cent compensating balance | ________
+Effective rate on that loan | | ________
+@end
+LANGUAGE FOCUS   "Float"
+English float in treasury means the money in transit between two sets of records, and the metaphor is of something suspended between two states. The word does three other jobs in finance that a candidate meets in the same syllabus: a company floats when it lists its shares, so a flotation is an issue and flotation costs are its fees; a floating rate is one that resets; and the free float is the proportion of a company's shares available to trade. Four meanings, one word, no overlap in sense. Arabic uses العائم for the treasury sense and الطرح for a flotation, keeping them apart. French uses float as a borrowing for the treasury sense, introduction en bourse for the flotation and taux variable for the floating rate — again, three different words. Where English is ambiguous, read the noun next to it.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+payment run | دفعة السداد | campagne de règlement
+remote disbursement | الصرف من بنك بعيد | décaissement à distance
+overdraft limit | حد السحب على المكشوف | plafond de découvert
+due date | تاريخ الاستحقاق | date d'échéance
+@end
+SECTION CHECK   Test yourself
+SC14-12  A zero-balance account:
+A.	is funded each day with exactly the amount presenting.
+B.	holds a permanent minimum balance.
+C.	is an overdraft.
+D.	cannot be used for payments.
+SC14-13  Paying a supplier on day 12 of 30-day terms is:
+A.	a free loan to the supplier.
+B.	good practice.
+C.	required by the standards.
+D.	necessary to preserve the discount.
+SC14-14  Deliberately paying later than the agreed terms without the supplier's agreement is:
+A.	taking credit that was not granted, and a breach of terms.
+B.	float management.
+C.	concentration banking.
+D.	controlled disbursement.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F614-08 brings the chapter together.
+Figure F614-08. Chapter 14 summary map: the key rule for each section.
+Float is the delay between two sets of records, in three parts on the way in — mail, processing and availability — and one on the way out, and for a company collecting 42,000,000 ÷ 365 = 115,068 a day, three days of it is 115,068 × 3 = 345,204 released once and held for ever. Collections are accelerated by a lockbox, by electronic transfer, by preauthorised debit, by concentration banking that sweeps many local accounts into one, by invoicing promptly, and by a discount that buys speed with margin. The lockbox decision is a template: 200,000 × 2.5 = 500,000 released, 500,000 × 0.05 = 25,000 of annual benefit against 0.35 × 60,000 = 21,000 of fees, a net 4,000 — and the released cash is a stock while the benefit is a flow. A compensating balance raises the effective rate, because 2,000,000 × 0.08 = 160,000 of interest on 2,000,000 × 0.90 = 1,800,000 of usable money is 160,000 ÷ 1,800,000 = 8.89 per cent, unless the balance would have been held anyway. And payments are slowed legitimately by paying on the due date, centralising, zero-balance accounts, controlled disbursement and payable-through drafts — while remote disbursement is an abuse and paying late without agreement is simply a breach of terms.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P14-01  Mail float is reduced principally by:
+A.	moving the receiving point closer to the customer.
+B.	banking more quickly.
+C.	choosing a distant bank.
+D.	paying suppliers later.
+P14-02  A company collecting 150,000 a day cuts float by three days. The cash released is:
+A.	450,000
+B.	150,000
+C.	450,000 a year
+D.	50,000
+P14-03  Cash released of 450,000 at a 6 per cent borrowing rate is worth:
+A.	27,000 a year
+B.	450,000 a year
+C.	2,700 a year
+D.	75,000 a year
+P14-04  A lockbox fee of 0.40 an item on 55,000 items a year costs:
+A.	22,000
+B.	2,200
+C.	220,000
+D.	137,500
+P14-05  Concentration banking is:
+A.	sweeping balances from local accounts into a single account.
+B.	using one bank for all services.
+C.	opening accounts near suppliers.
+D.	paying by draft.
+P14-06  A 3,000,000 loan at 9 per cent with a 15 per cent compensating balance leaves usable funds of:
+A.	2,550,000
+B.	3,000,000
+C.	450,000
+D.	2,700,000
+P14-07  The effective rate on that loan is approximately:
+A.	10.59 per cent
+B.	9.00 per cent
+C.	7.65 per cent
+D.	15.00 per cent
+P14-08  A zero-balance account:
+A.	is funded daily with exactly the amount of items presenting.
+B.	earns the highest interest available.
+C.	is never overdrawn by design but holds a buffer.
+D.	replaces the master account.
+P14-09  Which method of slowing payments is regarded as an abuse?
+A.	Remote disbursement from a distant bank
+B.	Paying on the due date
+C.	Controlled disbursement
+D.	A weekly payment run
+P14-10  In an overdraft system:
+A.	the account runs negative and interest is charged daily on the balance.
+B.	the company must hold a minimum balance.
+C.	no interest is charged.
+D.	payments cannot be centralised.
+Case-style practice: three proposals for Orontes
+Orontes's treasurer brings three proposals. First, a lockbox network: the company collects $115,068 a day, the network would cut float by two days, and the bank would charge $0.30 an item on 48,000 items a year. Second, moving the four regional accounts into a concentration structure, which would release about $400,000 of local minimum balances. Third, extending supplier payments from the agreed 30 days to 45 days, which would release about $300,000. Orontes can earn 4 per cent on short-dated securities and borrows at 6 per cent; it currently has no short-term borrowings.
+Required. Evaluate each proposal with figures, and recommend. Deal explicitly with the third. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC14-1  Answer A. From the customer's payment to usable funds.
+B is wrong. That is an internal delay in invoicing.
+C is wrong. That is the credit period, not float.
+D is wrong. The statement records the event; it does not define the delay.
+SC14-2  Answer A. 115,068 × 3 = 345,204, released once and held.
+B is wrong. The release is a stock, not an annual flow.
+C is wrong. That is one day.
+D is wrong. The release happens when the float is removed.
+SC14-3  Answer A. It is the company's own payment float.
+B is wrong. It works in the company's favour.
+C is wrong. The two run in opposite directions.
+D is wrong. Disbursement float is a normal feature of payment systems.
+SC14-4  Answer A. The box is nearer and the bank does the processing.
+B is wrong. Disbursement float is on the paying side.
+C is wrong. Credit terms are a separate matter.
+D is wrong. Invoices are still required.
+SC14-5  Answer A. Local balances are swept into one account.
+B is wrong. It reduces the number of balances, not increases the banks.
+C is wrong. It concerns collections, not payments.
+D is wrong. Availability float is addressed by clearing arrangements.
+SC14-6  Answer A. Prompt, accurate invoicing costs nothing.
+B is wrong. A network has fees.
+C is wrong. A discount costs margin.
+D is wrong. Concentration has transfer costs.
+SC14-7  Answer A. 200,000 × 2.5 = 500,000 of cash.
+B is wrong. The release is a stock.
+C is wrong. This has no basis in the figures.
+D is wrong. This multiplies by 12.5 days.
+SC14-8  Answer A. 500,000 × 0.05 = 25,000.
+B is wrong. That is the released cash.
+C is wrong. This misplaces the decimal.
+D is wrong. That would be a 20 per cent rate.
+SC14-9  Answer A. 0.35 × 60,000 = 21,000.
+B is wrong. This multiplies by 600.
+C is wrong. That is the number of items.
+D is wrong. This divides rather than multiplies.
+SC14-10  Answer A. 160,000 ÷ 1,800,000 = 8.89 per cent.
+B is wrong. That is the stated rate.
+C is wrong. This reduces the interest rather than the principal.
+D is wrong. That is the balance requirement.
+SC14-11  Answer A. A balance already held costs nothing additional.
+B is wrong. Size does not remove the cost.
+C is wrong. A fee as well makes it more expensive.
+D is wrong. A non-interest-bearing balance is the costly case.
+SC14-12  Answer A. It is funded with exactly what presents.
+B is wrong. The point is to hold nothing.
+C is wrong. An overdraft is a negative balance, not a funding mechanism of this kind.
+D is wrong. Payments are its only purpose.
+SC14-13  Answer A. The supplier has the money eighteen days early for nothing.
+B is wrong. Good practice is to use the agreed terms.
+C is wrong. No standard governs payment timing.
+D is wrong. A discount, if offered, usually requires payment within ten days and is a separate calculation.
+SC14-14  Answer A. The terms were agreed and are being broken.
+B is wrong. Float management works within the terms.
+C is wrong. Concentration concerns collections.
+D is wrong. Controlled disbursement funds what will clear.
+Your turn
+@table
+Item | Answer
+Cash released by a lockbox | 450,000: 150,000 × 3 = 450,000.
+Annual benefit of that release | 27,000: 450,000 × 0.06 = 27,000, computed at the borrowing rate because the cash repays debt.
+Annual cost of the lockbox | 22,000: 0.40 × 55,000 = 22,000.
+Net annual benefit | 5,000: 27,000 − 22,000 = 5,000.
+Usable funds on the loan | 2,550,000: 3,000,000 × 0.85 = 2,550,000.
+Effective rate on that loan | 10.59 per cent: interest is 3,000,000 × 0.09 = 270,000, and 270,000 ÷ 2,550,000 = 10.59 per cent.
+What it tells you | The lockbox clears its cost by 5,000 a year, which is worth having and is not large; the compensating balance adds more than a point and a half to a loan that was quoted at 9.
+@end
+Multiple-choice questions
+P14-01  Answer A. Receiving nearer the customer shortens the post.
+B is wrong. That addresses processing float.
+C is wrong. A distant bank lengthens clearing, which is a disbursement tactic.
+D is wrong. Paying later does not affect collections.
+P14-02  Answer A. 150,000 × 3 = 450,000.
+B is wrong. That is one day.
+C is wrong. The release is a stock, not an annual amount.
+D is wrong. This has no basis in the figures.
+P14-03  Answer A. 450,000 × 0.06 = 27,000.
+B is wrong. That is the released cash.
+C is wrong. This misplaces the decimal.
+D is wrong. That is a 16.7 per cent rate.
+P14-04  Answer A. 0.40 × 55,000 = 22,000.
+B is wrong. This misplaces the decimal.
+C is wrong. This multiplies by ten.
+D is wrong. This divides rather than multiplies.
+P14-05  Answer A. Sweeping local balances into one account.
+B is wrong. Using one bank is not the definition.
+C is wrong. Collections are banked near customers, not suppliers.
+D is wrong. A draft is a payment instrument.
+P14-06  Answer A. 3,000,000 × 0.85 = 2,550,000.
+B is wrong. The balance must stay in the account.
+C is wrong. That is the balance itself.
+D is wrong. That would be a 10 per cent requirement.
+P14-07  Answer A. 270,000 ÷ 2,550,000 = 10.59 per cent.
+B is wrong. That is the stated rate.
+C is wrong. This reduces the interest instead of the principal.
+D is wrong. That is the balance requirement.
+P14-08  Answer A. It is funded with exactly what presents.
+B is wrong. It holds nothing to earn interest on.
+C is wrong. It holds no buffer by design.
+D is wrong. The master account funds it.
+P14-09  Answer A. Remote disbursement is widely regarded as an abuse.
+B is wrong. Paying on the due date is standard practice.
+C is wrong. Controlled disbursement is a funding technique.
+D is wrong. A weekly run is ordinary administration.
+P14-10  Answer A. The balance runs negative and interest accrues daily.
+B is wrong. The system exists to avoid holding balances.
+C is wrong. Interest is charged on the overdrawn balance.
+D is wrong. Centralisation is compatible with overdrafts.
+Case-style set: three proposals for Orontes
+The lockbox. Two days of float at $115,068 a day releases 115,068 × 2 = 230,136 of cash. Orontes has no short-term borrowings, so the benefit is the 4 per cent available on securities: 230,136 × 0.04 = 9,205 a year. The cost is 0.30 × 48,000 = 14,400 a year. The proposal loses about $5,000 a year and should be declined as it stands. It would be worth having if the fee were nearer $0.19 an item, or if the company were borrowing at 6 per cent, in which case the benefit would be 230,136 × 0.06 = 13,808 — still short, which is the honest answer.
+Concentration banking. Releasing $400,000 of local minimum balances is worth 400,000 × 0.04 = 16,000 a year against transfer costs that are typically a few thousand. This is the better of the first two and should be done. It also improves control, because one balance is easier to invest and to supervise than four.
+Extending supplier payments to 45 days. This is not a float proposal and should not be presented as one. The terms agreed are 30 days; paying on day 45 takes credit the suppliers have not granted. The $300,000 it would release is a loan taken without asking, at a price that will be charged back in worse terms, slower deliveries, or a supplier who prefers a competitor — none of which appears in the calculation. Decline it, and if the company genuinely wants 45-day terms, negotiate them openly and pay whatever the supplier asks in price for the extra fifteen days.
+Recommendation: proceed with concentration banking, decline the lockbox at this fee and re-open it at a lower one, and reject the supplier proposal outright.
