@@ -62,53 +62,67 @@ def amounts():
 def arithmetic(text, say):
     """Any sum the chapter states in words has to come out.
 
-    Only the plain two-term forms are checked -- "a + b = c", "a − b = c",
-    "a × b = c", "a ÷ b = c" -- because those are the ones a reader
-    reproduces on a calculator and the ones a typo hides in.
+    Chains of two to four terms, evaluated left to right, and only where
+    every operator in the chain is of one kind -- all additive or all
+    multiplicative -- so that no question of precedence arises. Reading
+    only the last two terms of a chain was worse than not reading it:
+    "27,300,000 + 2,450,000 - 2,300,000 = 27,450,000" came back as
+    "2,450,000 - 2,300,000 = 27,450,000", which is a correct sum
+    reported as an error.
     """
-    pat = re.compile(
-        r'(\$?-?[\d,]+(?:\.\d+)?)\s*([+−–×÷*/-])\s*'
-        r'(\$?-?[\d,]+(?:\.\d+)?)\s*=\s*(\$?-?[\d,]+(?:\.\d+)?)')
+    N = r'\$?-?[\d,]+(?:\.\d+)?'
+    OP = u'[+\u2212\u2013\u00d7\u00f7*/-]'
+    pat = re.compile(r'(?<![\d,.])(%s)((?:\s*%s\s*%s){1,3})\s*=\s*(%s)'
+                     % (N, OP, N, N))
+    term = re.compile(r'(%s)\s*(%s)' % (OP, N))
 
-    def val(s):
-        return float(s.replace('$', '').replace(',', ''))
+    def val(x):
+        return float(x.replace('$', '').replace(',', ''))
+
+    ADD, MUL = u'+\u2212\u2013-', u'\u00d7\u00f7*/'
     for m in pat.finditer(text):
-        a, op, b, c = m.group(1), m.group(2), m.group(3), m.group(4)
-        # "2,450,000 ÷ 31,672,600 = 7.74 per cent" states the quotient as a
-        # percentage, which is how every common-size figure in this book is
-        # written.
         try:
-            x, y, z = val(a), val(b), val(c)
+            r = val(m.group(1))
+            parts = term.findall(m.group(2))
+            z = val(m.group(3))
         except ValueError:
             continue
-        if op == '+':
-            r = x + y
-        elif op in u'−–-':
-            r = x - y
-        elif op in u'×*':
-            r = x * y
-        else:
-            if y == 0:
-                continue
-            r = x / y
-        # A quotient may be stated as a percentage -- every common-size
-        # figure in this book is. A difference may not: "100.0 − 28.0 =
-        # 72.0 per cent" is already in percentage points, and scaling it
-        # multiplied the right answer by a hundred.
+        ops = [o for o, _v in parts]
+        if not (all(o in ADD for o in ops) or all(o in MUL for o in ops)):
+            continue
+        ok = True
+        for o, v in parts:
+            v = val(v)
+            if o == '+':
+                r = r + v
+            elif o in u'\u2212\u2013-':
+                r = r - v
+            elif o in u'\u00d7*':
+                r = r * v
+            else:
+                if v == 0:
+                    ok = False
+                    break
+                r = r / v
+        if not ok:
+            continue
+        # A quotient may be stated as a percentage or as an index -- every
+        # common-size figure in this book is one or the other. Nothing
+        # else may: "100.0 - 28.0 = 72.0 per cent" is already in
+        # percentage points, and "5 x 4.02 = 20.1 per cent" multiplies a
+        # rate by a number of points. Scaling either multiplied the right
+        # answer by a hundred and reported it as wrong.
         tailing = text[m.end():m.end() + 36].lower()
-        if op in u'\u00f7/' and (
+        if all(o in u'\u00f7/' for o in ops) and (
                 tailing.lstrip().startswith(('per cent', '%'))
                 or 'index' in tailing or 'base of 100' in tailing):
             r = r * 100
-        # Half a unit of the last place the result is written to, so a
-        # figure rounded to one decimal is not reported as wrong for
-        # being rounded. 7,941 against a stated 7.9 is the book's own
-        # rounding; 7.4 against a stated 7.9 is an error.
-        dp = len(c.split('.')[1]) if '.' in c else 0
+        dp = len(m.group(3).split('.')[1]) if '.' in m.group(3) else 0
         tol = max(0.5 * 10 ** -dp, abs(z) * 0.002)
         if abs(r - z) > tol:
-            say('arithmetic: %s %s %s = %s, but it is %s'
-                % (a, op, b, c, ('%.4f' % r).rstrip('0').rstrip('.')))
+            say('arithmetic: %s = %s, but it is %s'
+                % ((m.group(1) + m.group(2)).strip(), m.group(3),
+                   ('%.4f' % r).rstrip('0').rstrip('.')))
 
 
 def check(bk, n, say):

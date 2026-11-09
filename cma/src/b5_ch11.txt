@@ -1,0 +1,566 @@
+Chapter 11
+Activity: the Turnovers
+النشاط: معدلات الدوران
+Liquidity ratios say what a company holds. Leverage and coverage say how it is financed and whether it can carry the charge. Neither says anything about speed, and speed is where most working capital is lost.
+A turnover ratio divides a flow by the balance that produced it, and the answer is a number of times a year. Receivables that turn over ten times a year are collected in about five weeks; receivables that turn over four times a year are collected in about three months, and the company has financed the difference. The Learning Outcome Statements name five turnovers, and this chapter computes all of them.
+Figure F511-01 is your map.
+Figure F511-01. Chapter 11 roadmap: five balances, five flows, five speeds.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.l
+Calculate and interpret accounts receivable turnover, inventory turnover and accounts payable turnover.
+C
+Full treatment
+A.2.o
+Calculate and interpret total asset turnover and fixed asset turnover.
+C
+Full treatment
+A.2.m
+Convert a turnover into a number of days.
+B
+Introduced (full in Chapter 12)
+A.1.d
+Use a turnover to raise a question about the business.
+B
+Reinforced (introduced in Chapter 5)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+turnover
+معدل الدوران
+rotation
+accounts receivable turnover
+معدل دوران الذمم المدينة
+rotation des créances clients
+inventory turnover
+معدل دوران المخزون
+rotation des stocks
+accounts payable turnover
+معدل دوران الذمم الدائنة
+rotation des dettes fournisseurs
+total asset turnover
+معدل دوران إجمالي الأصول
+rotation de l'actif total
+fixed asset turnover
+معدل دوران الأصول الثابتة
+rotation de l'actif immobilisé
+average balance
+المتوسط الحسابي للرصيد
+solde moyen
+purchases
+المشتريات
+achats
+WHAT YOU ALREADY KNOW   What you already know
+You already know that a balance sheet is at one date and an income statement is for a period. A turnover ratio divides one by the other, which is why the balance is averaged: a flow across the year is compared with the balance that was there across the year, not with the balance on the last day of it.
+11.1  Why the balance is averaged
+Every turnover ratio puts a flow over a balance, and the two are measured differently. Net sales happened across twelve months; accounts receivable is a photograph of 31 December. Dividing one by the other compares a year with a day.
+The convention is to average the opening and closing balances. For Orontes's receivables that is 4,144,000 + 3,760,000 = 7,904,000, halved: 7,904,000 ÷ 2 = 3,952,000.
+The average is a crude correction and the exam knows it. For a seasonal business the two year-end balances may both be unrepresentative — a toy manufacturer's receivables in January say nothing about its receivables in November — and a monthly average would be better if the data existed. Where an exam question gives only a closing balance, use it and say what you have done.
+Figure F511-02 sets out the five ratios.
+Figure F511-02. The five turnover ratios
+Ratio
+Numerator
+Denominator
+Measures
+Accounts receivable turnover
+Net credit sales
+Average accounts receivable
+How often the receivables are collected
+Inventory turnover
+Cost of goods sold
+Average inventory
+How often the stock is sold
+Accounts payable turnover
+Purchases
+Average accounts payable
+How often the suppliers are paid
+Total asset turnover
+Net sales
+Average total assets
+Sales produced per dollar of assets
+Fixed asset turnover
+Net sales
+Average net fixed assets
+Sales produced per dollar of plant
+Three of the numerators repay attention.
+Receivable turnover should use credit sales, not total sales, because cash sales never become receivables. Few companies disclose the split, so net sales is used in practice and the exam accepts it — but if a question gives you the credit proportion, use it.
+Inventory turnover uses cost of goods sold, not sales. Inventory is carried at cost, so the numerator must be at cost too. Using sales inflates the ratio by the gross margin and is the commonest error in this chapter.
+Payable turnover uses purchases, not cost of goods sold. Purchases are cost of goods sold adjusted for the movement in inventory: what was sold, plus what was added to the shelf, less what was taken from it.
+EXAM TRAP   Match the numerator to the balance
+Inventory is at cost, so the numerator is cost of goods sold.
+Payables arise from purchases, so the numerator is purchases, not cost of goods sold.
+Receivables arise from credit sales, so the numerator is credit sales where the question gives them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+credit sales
+المبيعات الآجلة
+ventes à crédit
+cash sales
+المبيعات النقدية
+ventes au comptant
+seasonality
+الموسمية
+saisonnalité
+convention
+العرف المحاسبي
+convention
+SECTION CHECK   Test yourself
+SC11-1  Inventory turnover uses which numerator?
+A.	Net sales
+B.	Cost of goods sold
+C.	Purchases
+D.	Gross profit
+SC11-2  Why is the denominator of a turnover ratio an average?
+A.	To smooth out rounding
+B.	Because a flow over a year is being compared with a balance at a date
+C.	Because the standards require it
+D.	Because the closing balance is unaudited
+SC11-3  Using net sales instead of cost of goods sold in inventory turnover will:
+A.	understate the ratio.
+B.	overstate the ratio by the gross margin.
+C.	have no effect.
+D.	make the ratio negative.
+Answers and explanations are at the end of the chapter.
+11.2  The three working-capital turnovers
+Figure F511-03 computes them for Orontes.
+Figure F511-03. Orontes Foods, Inc. — working-capital turnovers, 2025
+Ratio
+Numerator
+Average balance
+Turnover
+Accounts receivable
+Net sales 42,000,000
+3,952,000
+10.63 times
+Inventory
+Cost of goods sold 27,300,000
+2,375,000
+11.49 times
+Accounts payable
+Purchases 27,450,000
+1,975,000
+13.90 times
+The arithmetic. Average receivables are (4,144,000 + 3,760,000) ÷ 2 = 3,952,000, and 42,000,000 ÷ 3,952,000 = 10.63. Average inventory is (2,450,000 + 2,300,000) ÷ 2 = 2,375,000, and 27,300,000 ÷ 2,375,000 = 11.49. Purchases are cost of goods sold plus the increase in inventory: 27,300,000 + 150,000 = 27,450,000, where the 150,000 is 2,450,000 − 2,300,000. Average payables are (2,050,000 + 1,900,000) ÷ 2 = 1,975,000, and 27,450,000 ÷ 1,975,000 = 13.90.
+WORKED EXAMPLE   Worked example: purchases from cost of goods sold
+Step 1. The identity. Opening inventory plus purchases less closing inventory equals cost of goods sold. Rearranged: purchases equal cost of goods sold plus closing inventory less opening inventory.
+Step 2. Apply it. 27,300,000 + 2,450,000 = 29,750,000, and 29,750,000 − 2,300,000 = 27,450,000.
+Step 3. Sense-check the direction. Inventory rose, so Orontes bought more than it sold: purchases exceed cost of goods sold by exactly the increase, $150,000.
+Check. Had inventory fallen, purchases would have been less than cost of goods sold. A candidate who writes purchases equal to cost of goods sold has assumed inventory did not move, and the exam sets the question precisely because inventory did.
+The three figures read together say something the liquidity ratios did not. Orontes pays its suppliers faster than it collects from its customers: payables turn 13.90 times against receivables at 10.63. Every day of that difference is a day Orontes finances out of its own money, and Chapter 12 converts the difference into days and dollars.
+Inventory turning 11.49 times is brisk for a food manufacturer, and it corroborates the common-size finding of Chapter 2 that inventory is only 7.7 per cent of assets. Nothing is sitting on the shelf.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+opening inventory
+مخزون أول المدة
+stock initial
+closing inventory
+مخزون آخر المدة
+stock final
+supplier terms
+شروط الموردين
+conditions fournisseurs
+collection
+التحصيل
+recouvrement
+SECTION CHECK   Test yourself
+SC11-4  Purchases equal cost of goods sold plus:
+A.	opening inventory less closing inventory.
+B.	closing inventory less opening inventory.
+C.	closing inventory.
+D.	gross profit.
+SC11-5  Orontes's payables turn 13.90 times and its receivables 10.63 times. This means Orontes:
+A.	collects from customers before it pays suppliers.
+B.	pays suppliers faster than it collects from customers.
+C.	has no working capital requirement.
+D.	is being financed by its suppliers.
+SC11-6  Average inventory of 2,375,000 against cost of goods sold of 27,300,000 gives a turnover of:
+A.	11.49 times
+B.	17.68 times
+C.	0.09 times
+D.	8.70 times
+Answers and explanations are at the end of the chapter.
+11.3  The two asset turnovers
+The same idea applied to the whole balance sheet asks how much revenue the company extracts from what it owns.
+Total asset turnover is net sales divided by average total assets. For Orontes: average total assets are (31,672,600 + 26,445,000) ÷ 2 = 29,058,800, and 42,000,000 ÷ 29,058,800 = 1.45 times.
+Fixed asset turnover is net sales divided by average net property, plant and equipment. Average net PP&E is (14,802,000 + 16,000,000) ÷ 2 = 15,401,000, and 42,000,000 ÷ 15,401,000 = 2.73 times.
+Figure F511-04 sets them beside two other kinds of company.
+Figure F511-04. Asset turnover across three businesses
+Business
+Total asset turnover
+Why
+A manufacturer such as Orontes
+About 1.5
+Heavy plant; each dollar of assets supports about a dollar and a half of sales
+A distributor such as Barada
+About 3.0
+Little plant; assets are stock and receivables, which move
+A utility
+Below 0.5
+Enormous fixed assets with a regulated revenue
+Two readings follow for Orontes.
+Total asset turnover of 1.45 is low for a food manufacturer, and the reason is in Chapter 2: 23.1 per cent of the assets are cash, which produces no sales at all. Strip the cash out and the ratio on operating assets would be far higher. An analyst would say so, because the ratio as published understates how hard the operating assets work.
+Fixed asset turnover of 2.73 is the figure that describes the factory, and it rose during the year: plant fell $1,198,000 while sales rose 15.4 per cent. The plant is being worked harder, which is consistent with a company whose operating leverage is 4.02.
+EXAM TRAP   Cash and asset turnover
+Idle cash lowers total asset turnover without any change in operations. Say so when the balance sheet shows a large cash holding.
+Fixed asset turnover rises when assets are old and heavily depreciated, because the denominator is net of accumulated depreciation. A high ratio can mean an efficient factory or an exhausted one.
+Leased assets that are on the balance sheet are in the denominator; a company that leases and expenses rentals has a smaller denominator and a flattering ratio.
+WORKED EXAMPLE   Worked example: turnover without the cash
+Step 1. Average cash. Cash was $7,302,100 at the end of 2025 and $2,100,000 at the end of 2024, so the average is (7,302,100 + 2,100,000) ÷ 2 = 4,701,050.
+Step 2. Average operating assets. 29,058,800 − 4,701,050 = 24,357,750.
+Step 3. Turnover on operating assets. 42,000,000 ÷ 24,357,750 = 1.72 times, against 1.45 as published.
+Check. Nearly three-tenths of a turn is hidden by the cash balance. Neither figure is wrong: 1.45 is what the shareholders' money produces and 1.72 is what the business produces. An answer that gives both, and says which is which, is a Level C answer.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+operating assets
+الأصول التشغيلية
+actifs d'exploitation
+accumulated depreciation
+مجمع الإهلاك
+amortissements cumulés
+capital intensity
+كثافة رأس المال
+intensité capitalistique
+utility
+مرفق عام
+service public
+SECTION CHECK   Test yourself
+SC11-7  Total asset turnover is net sales divided by:
+A.	total assets at the year end.
+B.	average total assets.
+C.	average operating assets.
+D.	average net fixed assets.
+SC11-8  A large idle cash balance affects total asset turnover by:
+A.	raising it.
+B.	lowering it, with no change in operations.
+C.	leaving it unchanged.
+D.	making it incalculable.
+SC11-9  A very high fixed asset turnover may mean the factory is efficient, or that:
+A.	the plant is new.
+B.	the plant is old and heavily depreciated, so the denominator is small.
+C.	sales are overstated.
+D.	the company leases nothing.
+Answers and explanations are at the end of the chapter.
+11.4  What makes a turnover move
+A turnover is a fraction, so it moves when the flow moves, when the balance moves, or when both move at different rates. Figure F511-05 names the usual causes.
+Figure F511-05. Why a turnover moves
+Ratio
+Rises when
+Falls when
+Receivables
+Collection tightens; cash sales grow; a large customer settles early
+Terms are extended to win sales; a customer stops paying; sales are made late in the year
+Inventory
+Stock is cut; demand rises; obsolete stock is written off
+Stock is built for a season; goods stop selling; a write-down is deferred
+Payables
+The company pays faster; a discount is taken
+The company stretches suppliers; a dispute delays payment
+Total assets
+Sales rise; assets are sold or written down
+Cash accumulates; a large asset is bought before it produces
+Fixed assets
+Sales rise; plant depreciates
+New plant is commissioned before it produces
+Two of those entries are the same event seen from opposite sides, and candidates are regularly caught by them.
+Writing off obsolete stock raises inventory turnover. The denominator falls and the numerator is unaffected, so a company that finally clears its dead stock reports an improvement in efficiency. The improvement is in the measure and not in the business.
+Buying a new plant lowers fixed asset turnover in the year it is commissioned and raises it afterwards. A falling ratio in a year of heavy capital expenditure is expected and is not a finding.
+YOUR TURN   Compute Barada's turnovers
+Figure F511-06 gives Barada Wholesale's figures. Compute the three working-capital turnovers. Answers are at the end of the chapter.
+Figure F511-06. Your turn: Barada's turnovers (complete the blanks)
+Item
+Amount
+Net sales
+21,978,000
+Cost of goods sold
+18,900,000
+Average accounts receivable
+1,830,000
+Average inventory
+2,100,000
+Average accounts payable
+1,400,000
+Purchases (inventory rose 280,000)
+19,180,000
+Accounts receivable turnover
+________
+Inventory turnover
+________
+Accounts payable turnover
+________
+LANGUAGE FOCUS   "Turnover" has two meanings
+In American English and on the CMA exam, turnover means the number of times a balance is replaced in a year. In British English, turnover also means revenue: a company's annual turnover is its sales. Arabic معدل الدوران is the first sense and إيرادات the second; French rotation and chiffre d'affaires likewise. The exam always means the first.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+obsolete stock
+المخزون الراكد
+stock obsolète
+write-off
+الشطب
+radiation
+commissioned
+التشغيل الفعلي
+mise en service
+stretch suppliers
+إطالة سداد الموردين
+allonger les délais fournisseurs
+SECTION CHECK   Test yourself
+SC11-10  Writing off obsolete inventory has what effect on inventory turnover?
+A.	It falls
+B.	It rises, because the average balance falls
+C.	No effect
+D.	It becomes negative
+SC11-11  Fixed asset turnover falls in the year a new plant is commissioned because:
+A.	sales fall.
+B.	the denominator rises before the plant produces sales.
+C.	depreciation rises.
+D.	the plant is leased.
+SC11-12  A company extends credit terms from 30 to 60 days to win sales. Receivables turnover will:
+A.	rise.
+B.	fall.
+C.	not change.
+D.	rise then fall.
+Answers and explanations are at the end of the chapter.
+11.5  Reading the five together
+The turnovers corroborate one another and they corroborate the liquidity ratios, and a Level C answer uses the cross-checks.
+Receivables turnover of 10.63 against a current ratio of 3.31. The current ratio is high and the receivables are moving, so the high ratio is not uncollected debts. Had receivables turnover been 4 or 5, the same current ratio would have meant something very different.
+Inventory turnover of 11.49 against inventory at 7.7 per cent of assets. Both say the same thing: little money is tied up in stock and what is there moves.
+Total asset turnover of 1.45 against cash at 23.1 per cent of assets. These point in opposite directions and the cash explains the turnover, which is the finding.
+Payables turnover of 13.90 against receivables at 10.63. Orontes funds the gap, and Chapter 12 prices it.
+Figure F511-07 lists the pairs worth checking.
+Figure F511-07. Cross-checks between the turnovers and the earlier ratios
+Turnover
+Check it against
+What agreement means
+What disagreement means
+Receivables
+The current and quick ratios
+Liquidity is real
+A high current ratio is uncollected debts
+Inventory
+Inventory as a share of assets
+Stock is under control
+Stock is accumulating
+Payables
+The cash ratio
+The company pays from strength
+The company is stretching suppliers
+Total assets
+The common-size balance sheet
+Assets are working
+Something large is idle
+Fixed assets
+Capital expenditure in the cash flow statement
+Capacity matches sales
+New capacity is not yet producing
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cross-check
+التحقق المتقاطع
+recoupement
+corroborate
+يؤكد
+corroborer
+idle asset
+أصل غير مستغل
+actif inutilisé
+SECTION CHECK   Test yourself
+SC11-13  A company has a current ratio of 3.5 and a receivables turnover of 4.0. The most likely explanation of the high current ratio is:
+A.	a large cash balance.
+B.	receivables that are not being collected.
+C.	rapid inventory turnover.
+D.	low current liabilities.
+SC11-14  Orontes's total asset turnover of 1.45 is explained chiefly by:
+A.	slow collections.
+B.	a cash balance of 23.1 per cent of assets.
+C.	high inventory.
+D.	a new plant.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F511-08 brings the chapter together.
+Figure F511-08. Chapter 11 summary map: the key rule for each section.
+A turnover divides a flow by the average balance that produced it and answers in times a year. The numerator must match the balance: cost of goods sold against inventory because inventory is at cost, purchases against payables because payables arise from purchases, credit sales against receivables. Purchases are cost of goods sold plus the increase in inventory, which for Orontes is 27,300,000 + 150,000 = 27,450,000. Orontes collects 10.63 times, sells its stock 11.49 times and pays its suppliers 13.90 times, so it pays faster than it collects and finances the difference. Total asset turnover is 1.45 and fixed asset turnover 2.73; the first is held down by cash at 23.1 per cent of assets, and on operating assets alone it would be 1.72. A turnover moves when the flow moves, the balance moves, or both move at different rates, and two cases catch candidates: writing off dead stock improves inventory turnover without improving anything, and new plant depresses fixed asset turnover in the year it is commissioned. Finally, the turnovers cross-check the liquidity ratios: a high current ratio with slow receivables means something quite different from a high current ratio with fast ones.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P11-01  Accounts payable turnover uses which numerator?
+A.	Cost of goods sold
+B.	Purchases
+C.	Net sales
+D.	Operating expenses
+P11-02  Cost of goods sold is 27,300,000, closing inventory is 2,450,000 and opening inventory is 2,300,000. Purchases are:
+A.	27,150,000
+B.	27,450,000
+C.	27,300,000
+D.	29,750,000
+P11-03  Average inventory is 2,375,000 and cost of goods sold is 27,300,000. Inventory turnover is:
+A.	11.49
+B.	17.68
+C.	10.63
+D.	13.90
+P11-04  Average total assets are 29,058,800 and net sales are 42,000,000. Total asset turnover is:
+A.	0.69
+B.	1.45
+C.	2.73
+D.	1.33
+P11-05  Which event raises inventory turnover without improving the business?
+A.	A rise in sales
+B.	Writing off obsolete stock
+C.	A fall in purchase prices
+D.	A new warehouse
+P11-06  Fixed asset turnover may be high because the plant is efficient or because:
+A.	the plant is new.
+B.	the plant is old and heavily depreciated.
+C.	sales are understated.
+D.	the company owns its buildings.
+P11-07  A company's receivables turnover falls from 10 to 6 while sales are unchanged. The most likely cause is:
+A.	faster collection.
+B.	extended credit terms or slower payment by customers.
+C.	more cash sales.
+D.	a write-off of bad debts.
+P11-08  Orontes's total asset turnover would be 1.72 rather than 1.45 if:
+A.	the cash balance were excluded from the denominator.
+B.	the fixed assets were excluded.
+C.	sales were measured gross.
+D.	the closing balance were used instead of the average.
+P11-09  Which pair would most worry an analyst?
+A.	Current ratio 3.3, receivables turnover 10.6
+B.	Current ratio 3.3, receivables turnover 4.0
+C.	Current ratio 1.2, receivables turnover 12.0
+D.	Current ratio 2.0, inventory turnover 11.0
+P11-10  Orontes pays its suppliers 13.90 times a year and collects 10.63 times. This means Orontes:
+A.	is funded by its suppliers.
+B.	funds the gap between paying and collecting.
+C.	has a negative cash cycle.
+D.	has no inventory.
+Case-style practice: Barada's turnovers against Orontes's
+Barada Wholesale's receivables turnover is 12.01 times, its inventory turnover is 9.00 times and its payables turnover is 13.70 times. Orontes's are 10.63, 11.49 and 13.90.
+Required. Say which company collects faster, which sells its stock faster, and which pays its suppliers faster. Then explain why a distributor would be expected to differ from a manufacturer on at least one of the three, and name the one further figure you would want before concluding that either company is better managed. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC11-1  Answer B. Inventory is carried at cost, so the numerator must be at cost.
+A is wrong. Net sales includes the gross margin and inflates the ratio.
+C is wrong. Purchases is the numerator for payables.
+D is wrong. Gross profit is not a cost flow through inventory.
+SC11-2  Answer B. A flow across twelve months is compared with a balance at one date.
+A is wrong. Rounding is not the issue.
+C is wrong. The standards do not prescribe analytical ratios.
+D is wrong. Both balances come from audited statements.
+SC11-3  Answer B. Sales exceed cost by the gross margin, so the ratio is inflated.
+A is wrong. A larger numerator raises the ratio.
+C is wrong. The numerator changes.
+D is wrong. Both figures are positive.
+SC11-4  Answer B. Purchases equal cost of goods sold plus the increase in inventory.
+A is wrong. This reverses the sign.
+C is wrong. This ignores the opening balance.
+D is wrong. Gross profit does not enter the identity.
+SC11-5  Answer B. A higher payables turnover means a shorter payment period.
+A is wrong. Collection is slower than payment.
+C is wrong. The gap is exactly the working capital requirement.
+D is wrong. Supplier funding would show as a lower payables turnover.
+SC11-6  Answer A. 27,300,000 ÷ 2,375,000 = 11.49.
+B is wrong. This uses net sales as the numerator.
+C is wrong. 10.63 is receivables turnover.
+D is wrong. This has no basis in the figures.
+SC11-7  Answer B. Total asset turnover uses average total assets.
+A is wrong. A year-end balance compares a year with a day.
+C is wrong. Operating assets give a different, unpublished measure.
+D is wrong. Net fixed assets is the denominator of fixed asset turnover.
+SC11-8  Answer B. Cash produces no sales, so it enlarges the denominator and lowers the ratio.
+A is wrong. A larger denominator lowers the ratio.
+C is wrong. Cash is part of total assets.
+D is wrong. The ratio remains calculable.
+SC11-9  Answer B. The denominator is net of accumulated depreciation, so old plant gives a small denominator.
+A is wrong. New plant raises the denominator and lowers the ratio.
+C is wrong. Understated sales would lower the ratio.
+D is wrong. Owning rather than leasing raises the denominator.
+SC11-10  Answer B. The average balance falls and cost of goods sold is unchanged.
+A is wrong. A smaller denominator raises the ratio.
+C is wrong. The denominator changes.
+D is wrong. Both figures remain positive.
+SC11-11  Answer B. The asset is in the denominator before it generates sales.
+A is wrong. Sales need not fall.
+C is wrong. Depreciation reduces the denominator and would raise the ratio.
+D is wrong. A leased asset on the balance sheet has the same effect.
+SC11-12  Answer B. Longer terms mean a larger receivables balance for the same sales.
+A is wrong. A larger denominator lowers the ratio.
+C is wrong. The balance changes.
+D is wrong. The effect persists while the terms do.
+SC11-13  Answer B. Slow collection inflates receivables, which inflates current assets.
+A is wrong. Cash would not depress receivables turnover.
+C is wrong. Rapid inventory turnover reduces inventory.
+D is wrong. Low current liabilities would raise the ratio without affecting turnover; but the turnover figure given points to receivables.
+SC11-14  Answer B. Cash produces no sales and is nearly a quarter of the denominator.
+A is wrong. Receivables turn 10.63 times, which is not slow.
+C is wrong. Inventory is 7.7 per cent of assets.
+D is wrong. Plant fell during the year.
+Your turn
+Item
+Answer
+Accounts receivable turnover
+12.01 times: 21,978,000 ÷ 1,830,000.
+Inventory turnover
+9.00 times: 18,900,000 ÷ 2,100,000.
+Accounts payable turnover
+13.70 times: 19,180,000 ÷ 1,400,000.
+Multiple-choice questions
+P11-01  Answer B. Payables arise from purchases.
+A is wrong. Cost of goods sold is the inventory numerator.
+C is wrong. Net sales is the receivables and asset numerator.
+D is wrong. Operating expenses are not bought on trade credit in this sense.
+P11-02  Answer B. 27,300,000 + 2,450,000 − 2,300,000 = 27,450,000.
+A is wrong. This subtracts the increase instead of adding it.
+C is wrong. This assumes inventory did not move.
+D is wrong. This omits the opening inventory deduction.
+P11-03  Answer A. 27,300,000 ÷ 2,375,000 = 11.49.
+B is wrong. This uses net sales.
+C is wrong. 10.63 is receivables turnover.
+D is wrong. 13.90 is payables turnover.
+P11-04  Answer B. 42,000,000 ÷ 29,058,800 = 1.45.
+A is wrong. This is the reciprocal.
+C is wrong. 2.73 is fixed asset turnover.
+D is wrong. This has no basis in the figures.
+P11-05  Answer B. The average balance falls and the cost flow is unchanged.
+A is wrong. A rise in sales is a real improvement.
+C is wrong. Lower purchase prices reduce the numerator as well.
+D is wrong. A warehouse is a fixed asset.
+P11-06  Answer B. The denominator is net of accumulated depreciation.
+A is wrong. New plant lowers the ratio.
+C is wrong. Understated sales lower the ratio.
+D is wrong. Owning raises the denominator.
+P11-07  Answer B. The balance grows for the same sales.
+A is wrong. Faster collection raises the ratio.
+C is wrong. More cash sales reduce receivables and raise the ratio.
+D is wrong. A write-off reduces receivables and raises the ratio.
+P11-08  Answer A. Removing average cash of 4,701,050 from the denominator gives 1.72.
+B is wrong. Excluding fixed assets would raise the ratio far above 1.72.
+C is wrong. Sales are already net.
+D is wrong. The closing balance would lower the ratio.
+P11-09  Answer B. A high current ratio built on slow receivables is the dangerous combination.
+A is wrong. Both figures are healthy and consistent.
+C is wrong. Fast collection supports a low current ratio.
+D is wrong. Both figures are unremarkable.
+P11-10  Answer B. Paying faster than collecting means the company bridges the difference.
+A is wrong. Supplier funding would require the opposite.
+C is wrong. A negative cash cycle requires payables to be slower than receivables and inventory combined.
+D is wrong. Orontes holds $2,450,000 of inventory.
+Case-style set: Barada's turnovers against Orontes's
+Barada collects faster: 12.01 times against Orontes's 10.63. Orontes sells its stock faster: 11.49 times against Barada's 9.00. Orontes pays its suppliers marginally faster: 13.90 against 13.70, which on any view is a difference too small to carry an argument.
+A distributor would be expected to differ on inventory. Barada buys finished goods and holds them until a retailer orders; it earns a thin margin and its whole business is the stockroom, with inventory at 34 per cent of its assets against Orontes's 7.7. A manufacturer converts material continuously and holds stock only as long as the process needs. So a distributor turning its stock 9.00 times against a manufacturer's 11.49 is not evidence of worse management; it is evidence of a different business.
+The collection difference is harder to explain away, because both sell to the same kind of customer. Barada collecting in about 30 days against Orontes's 34 suggests either tighter terms or a different customer mix.
+The further figure I would want is the ageing of each company's receivables. Turnover is an average, and an average of 12.01 is consistent with every customer paying in 30 days or with most paying in 20 and one large one paying in 120. Which of those is true changes the judgment about both companies entirely, and no turnover ratio can distinguish them.
