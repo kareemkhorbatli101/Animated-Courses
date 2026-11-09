@@ -1,0 +1,407 @@
+Chapter 10
+Covering the Fixed Charges
+تغطية الأعباء الثابتة
+The leverage ratios of Chapter 9 measure a stock against a stock: debt on the balance sheet against equity on the balance sheet. They say how much is owed and nothing about whether it can be serviced. A company with debt of $1,000,000 and earnings of $50,000 and a company with debt of $1,000,000 and earnings of $5,000,000 have identical leverage ratios and entirely different prospects.
+Coverage ratios close that gap. They measure a flow against a flow: the earnings or the cash of a year against the charges that year has to meet. For a long-term lender they are the more important of the two families, and the Learning Outcome Statements name three.
+Figure F510-01 is your map.
+Figure F510-01. Chapter 10 roadmap: three coverage ratios, from earnings to cash.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.2.j | Define, calculate and interpret interest coverage (times interest earned). | C | Full treatment
+A.2.j | Define, calculate and interpret fixed charge coverage (earnings to fixed charges). | C | Full treatment
+A.2.j | Define, calculate and interpret cash flow to fixed charges. | C | Full treatment
+A.2.k | Relate a coverage ratio to the company's risk profile. | B | Reinforced (introduced in Chapter 9)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+coverage ratio | نسبة التغطية | ratio de couverture
+times interest earned | عدد مرات تغطية الفوائد | couverture des intérêts
+interest coverage | تغطية الفوائد | couverture des intérêts
+fixed charge coverage | تغطية الأعباء الثابتة | couverture des charges fixes
+fixed charges | الأعباء الثابتة | charges fixes
+earnings before interest and taxes | الأرباح قبل الفوائد والضرائب | résultat avant intérêts et impôts
+operating lease rentals | إيجارات التشغيل | loyers d'exploitation
+@end
+WHAT YOU ALREADY KNOW   What you already know
+You already know that interest is deducted before tax and that a lease creates both a right-of-use asset and a lease liability. Both facts matter here: interest is added back before the ratio is computed, and lease payments are a fixed charge whether or not the lease is on the balance sheet.
+10.1  Times interest earned
+Interest coverage, also called times interest earned, divides earnings before interest and taxes by interest expense. It asks how many times over the year's earnings would pay the year's interest.
+Interest is added back to the numerator because the question is how much is available to pay it. Tax is added back because interest is deducted before tax is computed: a company does not have to earn the tax on money it pays as interest.
+For Orontes, earnings before interest and taxes is income before income taxes of $3,958,800 plus interest expense of $390,000, which is 3,958,800 + 390,000 = 4,348,800. Interest coverage is therefore 4,348,800 ÷ 390,000 = 11.15 times.
+Eleven times is a strong figure. Lenders commonly look for three or four times as a minimum and write covenants at two or two and a half. Orontes's earnings could fall by more than nine-tenths before the interest became difficult to find.
+Figure F510-02 shows what different levels mean.
+Figure F510-02. Reading an interest coverage figure
+@table
+Coverage | What it means | How much earnings can fall before interest is at risk
+Below 1.0 | Earnings do not cover the interest | Already there
+1.0 to 2.0 | Covered, with no margin | Under half
+2.0 to 4.0 | The usual covenant territory | Half to three-quarters
+Above 5.0 | Comfortable | More than four-fifths
+Orontes, 11.15 | Very comfortable; the fixed charge is small | More than nine-tenths
+@end
+EXAM TRAP   What goes in the numerator
+Earnings before interest and taxes, not net income and not operating income. Operating income excludes other income and expense, and the exam is specific.
+Interest expense in the denominator is the gross charge, not interest net of interest income.
+Capitalized interest is included in some definitions. If a question gives it to you, it wants it included.
+WORKED EXAMPLE   Worked example: coverage after borrowing
+Step 1. Today. EBIT $4,348,800 against interest of $390,000 is 11.15 times.
+Step 2. Orontes borrows $12,000,000 at 6 per cent. Extra interest is 12,000,000 × 0.06 = 720,000, so total interest becomes 390,000 + 720,000 = 1,110,000.
+Step 3. If the project adds nothing to EBIT in the first year, coverage is 4,348,800 ÷ 1,110,000 = 3.92 times.
+Check. The same company, the same earnings, and coverage down from 11.15 to 3.92 — from the top of Figure F510-02 to the middle of the usual covenant range. That is the real content of a borrowing decision, and it is why a lender reads this ratio before the leverage ratios.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+interest expense | مصروف الفوائد | charges d'intérêts
+capitalized interest | الفوائد المرسملة | intérêts capitalisés
+margin of safety | هامش الأمان | marge de sécurité
+covenant limit | حد التعهد المالي | seuil de covenant
+@end
+SECTION CHECK   Test yourself
+SC10-1  Times interest earned divides:
+A.	net income by interest expense.
+B.	earnings before interest and taxes by interest expense.
+C.	operating income by total debt.
+D.	operating cash flow by interest paid.
+SC10-2  Why is tax added back in the numerator?
+A.	Because tax is not an expense
+B.	Because interest is deducted before tax, so the company need not earn the tax on it
+C.	Because tax is paid in the following year
+D.	Because the ratio is computed on a cash basis
+SC10-3  Orontes's EBIT is 4,348,800 and interest is 390,000. Coverage is:
+A.	11.15 times
+B.	10.15 times
+C.	0.09 times
+D.	1.10 times
+Answers and explanations are at the end of the chapter.
+10.2  Fixed charge coverage
+Interest is not the only charge a company must meet whatever happens. Rent under an operating lease must be paid. So must the lease payments on equipment, preferred dividends in some definitions, and in many agreements the principal instalments too.
+Fixed charge coverage, which the Learning Outcome Statements also call earnings to fixed charges, widens the ratio to take those in. The standard form adds the interest element of lease rentals to both the numerator and the denominator, because that element was deducted in arriving at earnings and has to be added back before it is counted as a charge.
+Orontes pays operating lease rentals of $240,000 a year on its Gulf warehouses. The conventional treatment takes one-third of a rental as its interest element, which here is 240,000 ÷ 3 = 80,000.
+Fixed charges are therefore interest of $390,000 plus the lease element of $80,000: 390,000 + 80,000 = 470,000.
+The numerator is EBIT plus the same lease element: 4,348,800 + 80,000 = 4,428,800.
+Fixed charge coverage is 4,428,800 ÷ 470,000 = 9.42 times.
+Figure F510-03 sets the two ratios side by side.
+Figure F510-03. Orontes: interest coverage and fixed charge coverage
+@table
+| Numerator | Denominator | Ratio
+Interest coverage | EBIT 4,348,800 | Interest 390,000 | 11.15
+Fixed charge coverage | EBIT plus lease element 4,428,800 | Interest plus lease element 470,000 | 9.42
+@end
+Fixed charge coverage is always the lower of the two, because the denominator widens by more, proportionately, than the numerator. The gap between them is the measure of how much of a company's fixed burden is something other than interest. For Orontes the gap is small, because it owns most of its plant. For a retailer that leases every store, the gap is enormous, and a lender who looked only at interest coverage would badly misjudge it.
+EXAM TRAP   Fixed charge coverage traps
+Add the lease element to BOTH halves. Adding it only to the denominator understates the ratio.
+A preferred dividend, where a question includes it, must be grossed up for tax: it is paid out of after-tax income, so the pre-tax earnings needed are the dividend divided by one minus the tax rate.
+Principal repayments are included in some definitions and not in others. The exam says which.
+LANGUAGE FOCUS   "Charge" in English
+English charge has several accounting senses: an expense in the income statement, an obligation to pay, and a security given over an asset. A fixed charge in this chapter means an obligation that must be met whatever the level of activity. Arabic عبء ثابت and French charge fixe both carry the expense sense; the obligation sense has to be learned.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+operating lease | عقد إيجار تشغيلي | contrat de location simple
+rental | الإيجار | loyer
+preferred dividend | توزيعات الأسهم الممتازة | dividende privilégié
+gross up | التصحيح الضريبي للمبلغ | majoration avant impôt
+@end
+SECTION CHECK   Test yourself
+SC10-4  The lease element in a fixed charge coverage calculation is added to:
+A.	the denominator only.
+B.	the numerator only.
+C.	both the numerator and the denominator.
+D.	neither; it is excluded.
+SC10-5  Fixed charge coverage is always:
+A.	higher than interest coverage.
+B.	lower than interest coverage.
+C.	equal to interest coverage.
+D.	higher or lower depending on the tax rate.
+SC10-6  A preferred dividend included in fixed charges must be grossed up for tax because:
+A.	it is deductible.
+B.	it is paid out of after-tax income, so more pre-tax earnings are needed to produce it.
+C.	preferred shareholders pay tax on it.
+D.	it is a liability.
+Answers and explanations are at the end of the chapter.
+10.3  Cash flow to fixed charges
+Earnings are an accounting measure and the fixed charges are paid in money. A company can report earnings that cover its interest comfortably and still not have the cash, because the earnings are in receivables and inventory. The third ratio removes that risk by replacing earnings with cash.
+Cash flow to fixed charges divides operating cash flow, before the fixed charges and before tax, by the fixed charges. In practice the numerator is operating cash flow as reported, plus the fixed charges that were deducted in arriving at it, plus income taxes paid.
+Orontes's operating cash flow for 2025 is $7,531,100. It paid interest of $390,000 and income taxes of $839,700, both of which are deducted in arriving at that figure under U.S. GAAP, and the lease element of $80,000 is inside the rental expense. Adding the fixed charges of $470,000 and the taxes paid of $839,700 back:
+the numerator is 7,531,100 + 470,000 + 839,700, which is 8,840,800. Cash flow to fixed charges is 8,840,800 ÷ 470,000 = 18.81 times.
+That is very nearly twice the earnings-based figure, and the reason is the one Chapter 5 established: Orontes's earnings this year carry a large non-cash charge. The impairment of $2,724,000 reduced EBIT and took no cash. On a cash basis the company covers its fixed charges nineteen times over.
+Figure F510-04 sets all three out.
+Figure F510-04. Orontes: the three coverage ratios
+@table
+Ratio | 2025 | What it adds to the one above
+Interest coverage | 11.15 | —
+Fixed charge coverage | 9.42 | The lease rentals that must be paid
+Cash flow to fixed charges | 18.81 | Cash in place of earnings
+@end
+A lender reads them in that order and pays most attention to the third, because the third is what actually arrives in the bank. When the third is far below the first, earnings are not converting to cash and the lender is being told something the leverage ratios cannot say.
+WORKED EXAMPLE   Worked example: when cash coverage is the lower figure
+Step 1. Suppose a company reports EBIT of $5,000,000 and interest of $1,000,000, so interest coverage is 5.00 times.
+Step 2. But receivables rose $3,000,000 and inventory rose $1,500,000 during the year, so operating cash flow is only $1,200,000.
+Step 3. Cash coverage, adding back interest of $1,000,000 and taxes paid of $400,000, is 2,600,000 ÷ 1,000,000 = 2.60 times.
+Check. Coverage of 5.00 on earnings and 2.60 on cash describes a company whose profit is sitting in working capital. Orontes is the opposite case: 11.15 on earnings and 18.81 on cash. The direction of the gap is the finding, not its size.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+cash coverage | التغطية النقدية | couverture par la trésorerie
+income taxes paid | ضرائب الدخل المدفوعة | impôts payés
+non-cash charge | عبء غير نقدي | charge non décaissée
+conversion to cash | التحول إلى نقد | conversion en trésorerie
+@end
+SECTION CHECK   Test yourself
+SC10-7  The numerator of cash flow to fixed charges is operating cash flow plus:
+A.	depreciation.
+B.	the fixed charges and income taxes paid.
+C.	net income.
+D.	capital expenditure.
+SC10-8  A company has interest coverage of 5.00 and cash coverage of 2.60. This suggests:
+A.	the company has large non-cash charges.
+B.	profit is accumulating in receivables and inventory.
+C.	the interest rate rose during the year.
+D.	the company repaid debt.
+SC10-9  Orontes's cash coverage exceeds its interest coverage chiefly because:
+A.	it collected receivables faster.
+B.	its earnings include a large non-cash impairment.
+C.	it issued shares.
+D.	it paid no dividends.
+Answers and explanations are at the end of the chapter.
+10.4  Coverage and the lender's decision
+A lender uses the three ratios together, and it uses them forwards rather than backwards.
+The historical figure establishes the starting point. Orontes covers interest 11.15 times today.
+The pro forma figure is what matters. The lender recomputes coverage on the facility it is being asked to grant, at the interest rate it would charge, assuming the project contributes nothing in the first year. That was the worked example of section 10.1: 3.92 times.
+The stressed figure decides it. The lender then applies the operating leverage of Chapter 8. Orontes's DOL is 4.02, so a 10 per cent fall in sales cuts operating income 40.2 per cent. Take EBIT down by the same proportion, to about 2,600,000, and coverage on the enlarged interest becomes roughly 2,600,000 ÷ 1,110,000 = 2.34 times. That is the number the credit committee argues about.
+YOUR TURN   Build the lender's three figures
+Figure F510-05 gives the structure. Complete it. Answers are at the end of the chapter.
+Figure F510-05. Your turn: coverage as a lender computes it (complete the blanks)
+@table
+Basis | EBIT | Interest | Coverage
+As reported, 2025 | 4,348,800 | 390,000 | 11.15
+After borrowing 12,000,000 at 6 per cent | 4,348,800 | ________ | ________
+Stressed: sales down 10 per cent, DOL 4.02 | 2,600,000 | 1,110,000 | ________
+@end
+Note the asymmetry the exercise exposes. The leverage ratios of Chapter 9 would move from an equity multiplier of 1.55 to about 2.14 — a change a shareholder might welcome. The coverage ratio moves from 11.15 to 2.34 under stress, which is the same decision seen from the lender's side. Neither party is wrong; they are measuring different risks with different instruments.
+EXAM TRAP   Coverage is forward-looking
+A question that gives you a proposed borrowing wants the coverage AFTER it, not before.
+If the question gives you a degree of operating leverage and a fall in sales, it wants the stressed figure.
+Assume a project contributes nothing in its first year unless the question says otherwise.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+pro forma | القوائم الافتراضية | pro forma
+stress test | اختبار الضغط | test de résistance
+credit committee | لجنة الائتمان | comité de crédit
+facility | التسهيل الائتماني | ligne de crédit
+@end
+SECTION CHECK   Test yourself
+SC10-10  A lender asked to fund a new project computes coverage:
+A.	on last year's figures only.
+B.	after the new borrowing, usually assuming the project contributes nothing at first.
+C.	after the project reaches full output.
+D.	on the industry average.
+SC10-11  A degree of operating leverage of 4.02 and a 10 per cent fall in sales reduce EBIT by about:
+A.	10 per cent
+B.	40 per cent
+C.	4 per cent
+D.	4.02 per cent
+Answers and explanations are at the end of the chapter.
+10.5  What coverage ratios miss
+Three things, all examinable.
+They measure one year. A ratio of 11.15 computed on a year containing a large one-off gain says less than the same ratio computed on three years. Where the exam gives a series, use it.
+They assume the charge is the charge. Floating-rate debt changes the denominator without any decision by the company, and a covenant tested quarterly can be breached by an interest-rate movement alone.
+They ignore when the principal falls due. A company covering interest fifteen times with the whole principal repayable in eighteen months is in more danger than one covering it four times over a twenty-year schedule. The ratio sees the interest and not the maturity, which is why Chapter 9 insisted on reading the borrowings note.
+Figure F510-06 lists them.
+Figure F510-06. Three things a coverage ratio does not see
+@table
+Limit | Why it matters | Where it is answered
+One year of earnings | A one-off gain or charge distorts it | Use a series; Chapter 17 on earnings quality
+The rate may move | Floating-rate debt changes the denominator | The borrowings note
+The maturity is invisible | Interest is covered; the principal still falls due | The maturity profile, Chapter 9
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+floating rate | سعر فائدة متغير | taux variable
+maturity | تاريخ الاستحقاق | échéance
+refinancing | إعادة التمويل | refinancement
+@end
+SECTION CHECK   Test yourself
+SC10-12  Which company is in more danger?
+A.	Interest covered 15 times, whole principal due in 18 months
+B.	Interest covered 4 times, principal spread over 20 years
+C.	They are equally placed
+D.	Cannot be judged without the current ratio
+SC10-13  Floating-rate debt affects a coverage ratio by:
+A.	changing the numerator.
+B.	changing the denominator without any decision by the company.
+C.	having no effect.
+D.	removing the covenant.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F510-07 brings the chapter together.
+Figure F510-07. Chapter 10 summary map: the key rule for each section.
+Leverage ratios weigh a stock against a stock; coverage ratios weigh a year's flow against the charges that year must meet, and a lender reads them second. Times interest earned divides earnings before interest and taxes by interest expense: for Orontes, 4,348,800 ÷ 390,000 = 11.15 times, with interest added back because it is the thing being paid and tax added back because interest comes first. Fixed charge coverage widens the denominator to the charges that must be met whatever happens, adding one-third of the $240,000 of lease rentals to both halves and giving 4,428,800 ÷ 470,000 = 9.42 — always the lower of the two, and far lower for a company that leases rather than owns. Cash flow to fixed charges replaces earnings with cash and gives 18.81, nearly double, because Orontes's earnings carry a non-cash impairment; where that third figure falls below the first, profit is sitting in working capital. A lender computes all three forwards: after the borrowing, and then stressed through the operating leverage, which takes Orontes from 11.15 to 3.92 to about 2.34. And no coverage ratio sees past one year, past a floating rate, or past the date the principal falls due.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P10-01  Times interest earned uses which numerator?
+A.	Net income
+B.	Operating income
+C.	Earnings before interest and taxes
+D.	Operating cash flow
+P10-02  EBIT is 4,348,800 and interest expense is 390,000. Times interest earned is:
+A.	11.15
+B.	9.42
+C.	18.81
+D.	1.10
+P10-03  Fixed charge coverage differs from interest coverage because it includes:
+A.	income taxes.
+B.	charges such as lease rentals that must be met whatever happens.
+C.	depreciation.
+D.	dividends on common stock.
+P10-04  Operating lease rentals of 240,000 contribute what interest element under the conventional treatment?
+A.	240,000
+B.	120,000
+C.	80,000
+D.	24,000
+P10-05  Orontes's fixed charge coverage is:
+A.	11.15
+B.	9.42
+C.	18.81
+D.	3.92
+P10-06  Cash flow to fixed charges exceeds interest coverage when:
+A.	earnings contain large non-cash charges.
+B.	receivables are growing.
+C.	the interest rate falls.
+D.	the company issues shares.
+P10-07  A company has interest coverage of 6.0 and cash coverage of 2.0. The likeliest explanation is:
+A.	a large impairment.
+B.	profit accumulating in working capital.
+C.	a share issue.
+D.	a reduction in debt.
+P10-08  Orontes borrows 12,000,000 at 6 per cent. Its interest coverage, with EBIT unchanged, becomes:
+A.	11.15
+B.	3.92
+C.	2.34
+D.	9.42
+P10-09  Which charge must be grossed up for tax before it is included in fixed charges?
+A.	Interest expense
+B.	Operating lease rentals
+C.	Preferred dividends
+D.	Depreciation
+P10-10  A coverage ratio does not show:
+A.	the interest charge.
+B.	the date the principal falls due.
+C.	earnings before interest and taxes.
+D.	the lease rentals.
+Case-style practice: two borrowers
+Levant Commerce Bank is comparing two applications. Orontes seeks $12,000,000 at 6 per cent; its EBIT is $4,348,800, its existing interest is $390,000, its operating lease rentals are $240,000 and its degree of operating leverage is 4.02. A retailer, Levant Stores, seeks the same amount at the same rate; its EBIT is $4,200,000, its existing interest is $300,000, its operating lease rentals are $3,600,000 and its degree of operating leverage is 1.6.
+Required. Compute interest coverage and fixed charge coverage for each company before the new borrowing. Say which company looks stronger on interest coverage alone, which looks stronger on fixed charge coverage, and which you would lend to, giving your reason in terms of both coverage and operating leverage. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC10-1  Answer B. Earnings before interest and taxes over interest expense.
+A is wrong. Net income is after the interest the ratio is measuring.
+C is wrong. Total debt is a stock; this ratio compares flows.
+D is wrong. That is the cash coverage ratio.
+SC10-2  Answer B. Interest is deducted before tax, so the company does not have to earn the tax on it.
+A is wrong. Tax is an expense.
+C is wrong. Timing is not the reason.
+D is wrong. The ratio is computed on earnings, not cash.
+SC10-3  Answer A. 4,348,800 ÷ 390,000 = 11.15.
+B is wrong. This subtracts 1 from the result for no reason.
+C is wrong. This is the reciprocal.
+D is wrong. 1.10 is the degree of financial leverage.
+SC10-4  Answer C. The element was deducted in arriving at earnings, so it is added back and then counted as a charge.
+A is wrong. Adding it only to the denominator understates the ratio.
+B is wrong. Adding it only to the numerator overstates it.
+D is wrong. Lease rentals are a fixed charge.
+SC10-5  Answer B. The denominator widens proportionately more than the numerator.
+A is wrong. A wider denominator lowers the ratio.
+C is wrong. They are equal only when there are no charges beyond interest.
+D is wrong. The tax rate does not determine the direction.
+SC10-6  Answer B. A preferred dividend is paid after tax, so earning it requires more pre-tax income.
+A is wrong. Preferred dividends are not deductible.
+C is wrong. The recipient's tax position is irrelevant to the issuer's ratio.
+D is wrong. A declared dividend is a liability, but that is not why it is grossed up.
+SC10-7  Answer B. The fixed charges and taxes paid are added back to operating cash flow.
+A is wrong. Depreciation is already inside operating cash flow.
+C is wrong. Net income is not added to operating cash flow.
+D is wrong. Capital expenditure is an investing item.
+SC10-8  Answer B. Earnings are not converting to cash, and working capital is the usual place they are held.
+A is wrong. Non-cash charges push cash coverage above earnings coverage, not below.
+C is wrong. A rate rise would lower both ratios.
+D is wrong. Repayment lowers the denominator and raises both.
+SC10-9  Answer B. The impairment of $2,724,000 reduced EBIT and took no cash.
+A is wrong. Receivables rose, so collection did not accelerate.
+C is wrong. A share issue is a financing item.
+D is wrong. Dividends do not enter either ratio.
+SC10-10  Answer B. The lender measures the facility it is being asked to grant.
+A is wrong. Last year's figures are the starting point, not the decision.
+C is wrong. Assuming full output assumes the risk away.
+D is wrong. The industry average does not describe this borrower.
+SC10-11  Answer B. 10 × 4.02 = 40.2 per cent.
+A is wrong. That is the change in sales.
+C is wrong. This divides rather than multiplies.
+D is wrong. That is the multiplier itself.
+SC10-12  Answer A. Interest is easily covered and the whole principal must be refinanced within eighteen months.
+B is wrong. Four times over twenty years is a manageable schedule.
+C is wrong. The maturity profiles differ sharply.
+D is wrong. The maturity, not the current ratio, settles it.
+SC10-13  Answer B. The interest charge moves with market rates, without any decision by the borrower.
+A is wrong. EBIT is unaffected by the rate on the debt.
+C is wrong. The denominator changes.
+D is wrong. Rates and covenants are separate.
+Your turn
+@table
+Item | Answer
+After borrowing 12,000,000 at 6 per cent | Interest 1,110,000 and coverage 3.92: 4,348,800 ÷ 1,110,000.
+Stressed: sales down 10 per cent, DOL 4.02 | Coverage 2.34: 2,600,000 ÷ 1,110,000.
+@end
+Multiple-choice questions
+P10-01  Answer C. The ratio uses earnings before interest and taxes.
+A is wrong. Net income is struck after interest.
+B is wrong. Operating income excludes other income and expense.
+D is wrong. Operating cash flow is used in the cash coverage ratio.
+P10-02  Answer A. 4,348,800 ÷ 390,000 = 11.15.
+B is wrong. 9.42 is fixed charge coverage.
+C is wrong. 18.81 is cash coverage.
+D is wrong. 1.10 is the degree of financial leverage.
+P10-03  Answer B. Fixed charges are obligations that must be met whatever the level of activity.
+A is wrong. Tax is not a fixed charge.
+C is wrong. Depreciation is not paid.
+D is wrong. Common dividends are discretionary.
+P10-04  Answer C. One-third of 240,000 is 80,000.
+A is wrong. The whole rental is not the interest element.
+B is wrong. This is half, not a third.
+D is wrong. This is a tenth.
+P10-05  Answer B. 4,428,800 ÷ 470,000 = 9.42.
+A is wrong. 11.15 is interest coverage.
+C is wrong. 18.81 is cash coverage.
+D is wrong. 3.92 is coverage after the new borrowing.
+P10-06  Answer A. Non-cash charges reduce earnings and not cash, so the cash ratio is higher.
+B is wrong. Growing receivables reduce cash coverage.
+C is wrong. A lower rate raises both ratios.
+D is wrong. A share issue is a financing item.
+P10-07  Answer B. Earnings are not converting, and working capital is where they usually sit.
+A is wrong. An impairment raises cash coverage relative to earnings coverage.
+C is wrong. A share issue does not affect either numerator.
+D is wrong. Reducing debt raises both.
+P10-08  Answer B. Interest becomes 1,110,000 and 4,348,800 ÷ 1,110,000 = 3.92.
+A is wrong. That is the figure before borrowing.
+C is wrong. 2.34 is the stressed figure.
+D is wrong. 9.42 is fixed charge coverage before borrowing.
+P10-09  Answer C. Preferred dividends are paid out of after-tax income.
+A is wrong. Interest is deductible and is not grossed up.
+B is wrong. Rentals are deductible.
+D is wrong. Depreciation is not a fixed charge for this purpose.
+P10-10  Answer B. Coverage measures the charge for the year, not when the principal is repayable.
+A is wrong. The interest charge is the denominator.
+C is wrong. EBIT is the numerator.
+D is wrong. Lease rentals are in fixed charge coverage.
+Case-style set: two borrowers
+Orontes. Interest coverage is 4,348,800 ÷ 390,000 = 11.15 times. Its lease element is 240,000 ÷ 3 = 80,000, so fixed charges are 390,000 + 80,000 = 470,000 and the numerator is 4,348,800 + 80,000 = 4,428,800, giving fixed charge coverage of 9.42 times.
+Levant Stores. Interest coverage is 4,200,000 ÷ 300,000 = 14.00 times, which is better than Orontes. Its lease element is 3,600,000 ÷ 3 = 1,200,000, so fixed charges are 300,000 + 1,200,000 = 1,500,000 and the numerator is 4,200,000 + 1,200,000 = 5,400,000, giving fixed charge coverage of 5,400,000 ÷ 1,500,000 = 3.60 times.
+So the retailer looks stronger on interest coverage and much weaker on fixed charge coverage, and the second figure is the honest one: its stores are leased, and the rent is as unavoidable as interest.
+I would lend to Orontes, but the reason is not only the coverage. Orontes's degree of operating leverage is 4.02 against the retailer's 1.6, so a fall in sales hurts Orontes's earnings two and a half times as hard. Against that, Orontes starts from 9.42 times cover and the retailer from 3.60. A 10 per cent fall in sales takes Orontes to roughly 5.6 times and the retailer to roughly 3.0 times. Orontes is the safer borrower at every point in the cycle, and it is safer by a wider margin in a bad year than in a good one.

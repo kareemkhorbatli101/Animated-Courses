@@ -1,0 +1,548 @@
+Chapter 9
+Capital Structure and the Leverage Ratios
+هيكل رأس المال ونسب الرافعة
+Chapter 8 measured leverage from the income statement, as the magnifying effect of a fixed charge. This chapter measures the same thing from the balance sheet, as the proportion of the company financed by other people's money rather than the owners'. That proportion is the capital structure, and four ratios describe it.
+The four are not four different facts. They are one fact — how much of the company is debt — expressed against four different denominators, and the exam expects you to move between them.
+Figure F509-01 is your map.
+Figure F509-01. Chapter 9 roadmap: one fact, four ratios, one decision.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.i
+Calculate and interpret debt-to-equity, long-term debt-to-equity and debt-to-total-assets.
+C
+Full treatment
+A.2.h
+Calculate and interpret the financial leverage ratio (equity multiplier) and the effect of a change in capital structure on it.
+C
+Full treatment
+A.2.g
+Show the effect on capital structure and solvency of a change in the composition of debt and equity.
+C
+Full treatment
+A.2.k
+Discuss how capital structure decisions affect the risk profile of a company.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+capital structure
+هيكل رأس المال
+structure du capital
+debt-to-equity ratio
+نسبة الدين إلى حقوق الملكية
+ratio d'endettement
+debt-to-total-assets ratio
+نسبة الدين إلى إجمالي الأصول
+ratio dette sur actif
+equity multiplier
+مضاعف حقوق الملكية
+multiplicateur des capitaux propres
+financial leverage ratio
+نسبة الرافعة المالية
+ratio de levier financier
+risk profile
+ملف المخاطر
+profil de risque
+covenant
+التعهد المالي
+covenant
+WHAT YOU ALREADY KNOW   What you already know
+You already know the accounting equation: assets equal liabilities plus equity. Every ratio in this chapter is that equation rearranged, which is why they are all deducible from one another and why a question that gives you one can always be answered for the others.
+9.1  The four ratios
+Each of the four divides a measure of debt by a measure of what supports it.
+The debt-to-equity ratio is total liabilities divided by total stockholders' equity. It asks how many dollars of other people's money the company carries for each dollar of the owners'.
+The long-term debt-to-equity ratio uses only long-term debt in the numerator. It removes the trade payables and accruals that arise from trading rather than from a financing decision, so it isolates the borrowing the board chose.
+The debt-to-total-assets ratio is total liabilities divided by total assets. It asks what share of everything the company owns is financed by creditors.
+The equity multiplier, which the Learning Outcome Statements also call the financial leverage ratio, is total assets divided by total stockholders' equity. It asks how many dollars of assets each dollar of equity supports.
+Figure F509-02 computes all four for Orontes.
+Figure F509-02. Orontes Foods, Inc. — the capital structure ratios
+Ratio
+Formula
+2025
+2024
+Movement
+Debt to equity
+Total liabilities ÷ total equity
+0.55
+0.61
+Fell
+Long-term debt to equity
+Long-term debt ÷ total equity
+0.29
+0.34
+Fell
+Debt to total assets
+Total liabilities ÷ total assets
+0.36
+0.38
+Fell
+Equity multiplier
+Total assets ÷ total equity
+1.55
+1.61
+Fell
+The arithmetic for 2025. Debt to equity is 11,279,625 ÷ 20,392,975 = 0.55. Long-term debt to equity is 6,000,000 ÷ 20,392,975 = 0.29. Debt to total assets is 11,279,625 ÷ 31,672,600 = 0.36. The equity multiplier is 31,672,600 ÷ 20,392,975 = 1.55.
+All four fell, and they fell for one reason: equity grew 24.5 per cent while liabilities grew 12.0 per cent. Orontes financed its growth mainly out of retained profit and a share issue. The capital structure is conservative and became more so.
+EXAM TRAP   Which debt is in the numerator?
+Debt to equity normally uses TOTAL liabilities, including payables and accruals.
+Long-term debt to equity uses only the long-term borrowing. Whether the current portion is included varies; the exam states which it wants.
+Debt to total assets and the equity multiplier both use total liabilities, one against assets and one through equity.
+WORKED EXAMPLE   Worked example: the four ratios are one fact
+Step 1. Start from debt to total assets, 0.36. That means equity to total assets is 1.00 − 0.36 = 0.64.
+Step 2. Debt to equity follows. 0.36 ÷ 0.64 = 0.56, which is the 0.55 of the figure, the difference being rounding.
+Step 3. The equity multiplier follows too. 1.00 ÷ 0.64 = 1.56, again the 1.55 of the figure within rounding.
+Check. Three ratios, one underlying split of 36 per cent debt and 64 per cent equity. If an exam question gives you any one of the three, you can produce the other two without further information, and that is a question the exam sets.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+total liabilities
+إجمالي الالتزامات
+total du passif
+stockholders' equity
+حقوق المساهمين
+capitaux propres
+long-term debt
+الدين طويل الأجل
+dette à long terme
+trade payables
+الذمم الدائنة التجارية
+dettes fournisseurs
+SECTION CHECK   Test yourself
+SC9-1  The equity multiplier is:
+A.	total liabilities ÷ total equity.
+B.	total assets ÷ total equity.
+C.	total equity ÷ total assets.
+D.	total assets ÷ total liabilities.
+SC9-2  A company's debt-to-total-assets ratio is 0.40. Its equity multiplier is:
+A.	0.60
+B.	1.67
+C.	2.50
+D.	0.67
+SC9-3  Why does long-term debt-to-equity differ from debt-to-equity?
+A.	It uses market values.
+B.	It excludes liabilities that arise from trading rather than from a financing decision.
+C.	It excludes equity reserves.
+D.	It is calculated after tax.
+Answers and explanations are at the end of the chapter.
+9.2  What a change in the composition does
+The syllabus asks for the effect on capital structure and solvency of a change in the composition of debt against equity, and the method is to restate the balance sheet and recompute. Three transactions cover most of what the exam asks.
+Borrowing to buy an asset raises liabilities and assets by the same amount and leaves equity alone. Every one of the four ratios rises.
+Borrowing to buy back shares raises liabilities, reduces equity, and leaves total assets roughly unchanged. The ratios rise much more sharply, because the numerator grows while the denominator shrinks.
+Issuing shares to repay debt does the reverse of the second: liabilities fall, equity rises, assets are unchanged. All four ratios fall.
+Figure F509-03 works the three through Orontes's 2025 balance sheet.
+Figure F509-03. Three financing decisions, from Orontes's 2025 position
+Decision
+Total liabilities
+Total equity
+Total assets
+Debt to equity
+Equity multiplier
+As reported
+11,279,625
+20,392,975
+31,672,600
+0.55
+1.55
+Borrow 8,000,000 to build a plant
+19,279,625
+20,392,975
+39,672,600
+0.95
+1.95
+Borrow 8,000,000 to buy back shares
+19,279,625
+12,392,975
+31,672,600
+1.56
+2.56
+Issue 8,000,000 of shares to repay debt
+3,279,625
+28,392,975
+31,672,600
+0.12
+1.12
+The second row is the one to understand. The same $8,000,000 of borrowing takes debt to equity from 0.55 to 0.95 when it buys an asset, and to 1.56 when it buys back shares — nearly twice as far — because a buy-back removes equity from the denominator at the same time as it adds debt to the numerator. Boards do this deliberately, and a lender reading the statements afterwards sees a different company.
+Note what does not change in the second row. The business is the same: the same plant, the same customers, the same operating income. What changed is who has a claim on it and in what order. That is the whole of a capital structure decision, and Book 2 takes it up as a decision rather than a measurement.
+EXAM TRAP   Buying an asset is not the same as buying back shares
+Borrowing to invest raises both halves of the balance sheet.
+Borrowing to distribute raises liabilities and reduces equity, so the ratios move about twice as far.
+Retained earnings raise equity without any transaction at all, which is why a profitable company deleverages by standing still.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+share repurchase
+إعادة شراء الأسهم
+rachat d'actions
+recapitalization
+إعادة الهيكلة الرأسمالية
+recapitalisation
+deleverage
+خفض الرافعة
+désendettement
+retained earnings
+الأرباح المحتجزة
+résultats non distribués
+SECTION CHECK   Test yourself
+SC9-4  Borrowing $5,000,000 to buy equipment changes the equity multiplier by:
+A.	raising it.
+B.	lowering it.
+C.	leaving it unchanged.
+D.	raising it only if the company is profitable.
+SC9-5  Why does borrowing to repurchase shares move the leverage ratios further than borrowing to buy an asset?
+A.	Because the interest rate is higher
+B.	Because equity falls at the same time as debt rises
+C.	Because assets rise twice
+D.	Because the repurchase is taxed
+SC9-6  A profitable company that pays no dividend will see its debt-to-equity ratio:
+A.	rise.
+B.	fall.
+C.	stay the same.
+D.	move unpredictably.
+Answers and explanations are at the end of the chapter.
+9.3  The risk profile
+A capital structure decision changes three things about a company, and the exam asks about all three.
+It changes who bears the loss first. Equity absorbs losses before debt does. A company financed 90 per cent by equity can lose a great deal before a lender is at risk; a company financed 90 per cent by debt cannot.
+It changes the fixed charge. Interest must be paid in a bad year. Dividends need not: the board can simply not declare one, as Orontes could have chosen in 2025. That asymmetry is the heart of financial risk.
+It changes the return to the owners when things go well. Borrowing at 6 per cent to earn 12 per cent leaves the difference for the shareholders, so leverage raises return on equity as long as the company earns more than its interest. Chapter 14 measures that directly through the DuPont decomposition.
+Figure F509-04 sets the trade-off out.
+Figure F509-04. What more debt does
+More debt
+More equity
+Fixed charge
+Rises; must be paid in a bad year
+None; dividends are discretionary
+Return to owners in a good year
+Higher
+Lower
+Loss borne by owners in a bad year
+Larger, proportionately
+Smaller
+Control
+Unchanged
+Diluted among more shareholders
+Tax
+Interest is deductible
+Dividends are not
+Who is at risk first
+Equity, then debt
+Equity, and there is more of it
+The tax row is the one that makes the decision genuinely difficult. Interest reduces taxable income and dividends do not, so debt is cheaper after tax than its interest rate suggests. Orontes pays interest of $390,000; at its effective tax rate of about 25 per cent, the after-tax cost is roughly 390,000 × 0.75 = 292,500. Book 2 develops this as the cost of capital.
+Orontes's own risk profile is the most conservative in this book. Debt is 36 per cent of assets, the equity multiplier is 1.55, and Chapter 10 will show interest covered 11.15 times. The board has room to borrow and has not used it. Whether that is prudence or timidity is the question Chapter 14 returns to, because an unlevered balance sheet also holds the return on equity down.
+WORKED EXAMPLE   Worked example: what the unused capacity is worth
+Step 1. Suppose Orontes borrowed enough to take debt to total assets to 0.50, the level many food manufacturers carry. Total assets would have to be financed half by debt.
+Step 2. On the present balance sheet that means liabilities of 31,672,600 × 0.50 = 15,836,300, against the present 11,279,625. The additional borrowing is 15,836,300 − 11,279,625 = 4,556,675.
+Step 3. At 6 per cent the extra interest is about 4,556,675 × 0.06 = 273,401, against earnings before interest and taxes of $4,348,800. Interest cover would fall from 11.15 times to about 4,348,800 ÷ 663,401 = 6.56 times, which is still strong.
+Check. Orontes could raise over four and a half million dollars without taking its interest cover below six and a half times. That is what a conservative capital structure buys: not safety for its own sake, but the ability to act when something is worth acting on.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+financial risk
+المخاطر المالية
+risque financier
+dilution
+التخفيف
+dilution
+tax shield
+الوفر الضريبي
+économie d'impôt
+borrowing capacity
+الطاقة الاقتراضية
+capacité d'endettement
+SECTION CHECK   Test yourself
+SC9-7  The main asymmetry between interest and dividends is that:
+A.	interest is larger.
+B.	interest must be paid in a bad year and a dividend need not be declared.
+C.	dividends are tax deductible.
+D.	interest is paid to shareholders.
+SC9-8  Debt is cheaper after tax than its interest rate suggests because:
+A.	lenders accept lower rates than shareholders.
+B.	interest is deductible in computing taxable income.
+C.	principal repayments are deductible.
+D.	debt is secured.
+SC9-9  A very low equity multiplier means the company:
+A.	has little borrowing capacity left.
+B.	is financed largely by its owners and has capacity to borrow.
+C.	is at risk of insolvency.
+D.	pays no dividends.
+Answers and explanations are at the end of the chapter.
+9.4  Covenants and the composition of the debt
+A leverage ratio is not only an analyst's measure. It is often a term of the loan, and that gives it consequences.
+A covenant is a promise in a loan agreement, and the commonest are expressed as leverage and coverage ratios: debt to equity not above a stated figure, interest cover not below one. Part 1 recorded exactly this for Barada: at December 31 it had broken a debt-to-equity covenant on its note, and the bank waived the breach on January 20 before the statements were issued. You learned there what the waiver did to the classification; here the point is what the covenant does to the company.
+A breach usually makes the loan repayable on demand. That turns long-term debt into a current liability and can wreck a liquidity position overnight, which is why a company close to a covenant limit manages towards it. The measures of Chapter 7 are used for exactly this purpose, and so is the timing of a share issue.
+Figure F509-05 lists what an analyst looks for.
+Figure F509-05. Reading the debt, not just the ratio
+What to look for
+Where it is disclosed
+Why it matters
+Covenant ratios and their limits
+The borrowings note
+A breach can make the debt current
+Maturity profile
+The borrowings note
+Debt all maturing in one year is a different risk from debt spread over ten
+Fixed or floating rate
+The borrowings note
+Floating-rate debt moves the fixed charge with interest rates
+Security given
+The borrowings note
+Secured lenders rank ahead; unsecured creditors see less
+Guarantees and off-balance-sheet obligations
+Commitments and contingencies
+Obligations the ratio does not count
+Orontes's own note, as Part 1 recorded, carries $6,000,000 of long-term debt and $400,000 of it due within the year. The maturity profile is gentle and the cover is wide. Barada's is neither, which is the difference between the two companies that the ratios alone understate.
+EXAM TRAP   The ratio and the agreement
+A covenant may define debt or equity differently from the published ratio. Read the definition in the agreement.
+A waiver obtained after the reporting date does not change the classification under IFRS, and does under U.S. GAAP where the agreement is in place before the statements are issued.
+Off-balance-sheet obligations are a real claim and no ratio in this chapter counts them.
+LANGUAGE FOCUS   "Covenant"
+In ordinary English a covenant is a solemn promise. In a loan agreement it is a specific undertaking, and the exam uses it only in that sense. Arabic uses التعهدات المالية and French clauses restrictives or covenants. Note the pair of adjectives the exam uses: an affirmative covenant requires the borrower to do something, and a negative covenant forbids something.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+covenant
+التعهد المالي
+clause restrictive
+breach
+الإخلال
+manquement
+maturity profile
+هيكل الاستحقاقات
+échéancier
+waiver
+التنازل عن المطالبة
+renonciation
+SECTION CHECK   Test yourself
+SC9-10  A covenant breach commonly has what consequence?
+A.	The interest rate falls
+B.	The loan becomes repayable on demand
+C.	The lender must lend more
+D.	The debt is forgiven
+SC9-11  Which disclosure tells an analyst whether a company's fixed charge will move with interest rates?
+A.	The maturity profile
+B.	Whether the debt is at a fixed or a floating rate
+C.	The security given
+D.	The covenant limits
+Answers and explanations are at the end of the chapter.
+9.5  Putting the four ratios to work
+YOUR TURN   Recompute the ratios after a decision
+Figure F509-06 restates Orontes's balance sheet after it borrows $6,000,000 and uses it to repurchase shares. Compute the four ratios. Answers are at the end of the chapter.
+Figure F509-06. Your turn: after a debt-funded buy-back (complete the blanks)
+Item
+Amount
+Total liabilities
+17,279,625
+Total stockholders' equity
+14,392,975
+Total assets
+31,672,600
+Long-term debt
+12,000,000
+Debt to equity
+________
+Long-term debt to equity
+________
+Debt to total assets
+________
+Equity multiplier
+________
+Two habits separate a Level C answer from a Level B one.
+State the direction and the size. "Debt to equity rises" is Level B. "Debt to equity rises from 0.55 to 1.20, and interest cover falls from 11.15 times to about 5 times, which is still within the covenant" is Level C.
+Say who the change is for. The same movement reassures a shareholder expecting a higher return on equity and worries a bondholder whose cushion has halved. An answer that does not name the reader has not finished.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+restate
+إعادة العرض
+retraiter
+direction
+الاتجاه
+sens
+magnitude
+الحجم
+ampleur
+SECTION CHECK   Test yourself
+SC9-12  A Level C answer about a capital structure change should state:
+A.	the direction of the movement only.
+B.	the direction, the size, and who the change matters to.
+C.	the journal entry.
+D.	the tax effect only.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F509-07 brings the chapter together.
+Figure F509-07. Chapter 9 summary map: the key rule for each section.
+Four ratios describe one fact. Debt to equity is total liabilities over equity, 0.55 for Orontes in 2025; long-term debt to equity isolates the borrowing the board chose, 0.29; debt to total assets is 0.36; and the equity multiplier, which the syllabus also calls the financial leverage ratio, is total assets over equity, 1.55. All four follow from the split of 36 per cent debt and 64 per cent equity, so any one gives the others. All four fell during 2025 because equity grew 24.5 per cent against liabilities at 12.0. A change in composition is measured by restating and recomputing: borrowing to buy an asset raises both halves of the balance sheet, while borrowing to repurchase shares raises debt and reduces equity and so moves the ratios about twice as far. More debt means a larger fixed charge, a larger loss to the owners in a bad year, a higher return in a good one, and a deductible cost that equity does not have. Covenants turn these ratios into terms of the loan, and a breach can make long-term debt current overnight.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P9-01  Total liabilities are 11,279,625 and total equity is 20,392,975. Debt to equity is:
+A.	0.36
+B.	0.55
+C.	1.55
+D.	1.81
+P9-02  Total assets are 31,672,600 and total equity is 20,392,975. The equity multiplier is:
+A.	0.64
+B.	1.55
+C.	0.55
+D.	2.55
+P9-03  A company's debt-to-total-assets ratio is 0.25. Its debt-to-equity ratio is:
+A.	0.25
+B.	0.33
+C.	0.75
+D.	1.33
+P9-04  Which transaction raises the equity multiplier most?
+A.	Borrowing to buy a machine
+B.	Borrowing to repurchase shares
+C.	Issuing shares to repay debt
+D.	Retaining earnings
+P9-05  A profitable company that pays no dividend sees its equity multiplier:
+A.	rise.
+B.	fall.
+C.	stay the same.
+D.	become negative.
+P9-06  Long-term debt-to-equity differs from debt-to-equity because it excludes:
+A.	retained earnings.
+B.	liabilities arising from trading, such as payables and accruals.
+C.	the current portion of long-term debt in every presentation.
+D.	deferred tax.
+P9-07  Interest of 390,000 at an effective tax rate of 25 per cent has an after-tax cost of about:
+A.	390,000
+B.	292,500
+C.	97,500
+D.	487,500
+P9-08  A covenant limiting debt to equity to 1.00 is breached. The most likely consequence is that:
+A.	the interest rate is reduced.
+B.	the loan becomes repayable on demand and is reclassified as current.
+C.	the lender must advance further funds.
+D.	the covenant is automatically waived.
+P9-09  Which of the following is a claim the leverage ratios in this chapter do not count?
+A.	Accounts payable
+B.	The current portion of long-term debt
+C.	A guarantee of another company's borrowing
+D.	Deferred tax liability
+P9-10  Orontes borrows $8,000,000 and uses it to repurchase shares. Its debt-to-equity ratio becomes:
+A.	0.95
+B.	1.56
+C.	0.55
+D.	0.12
+Case-style practice: two offers for Barada
+Barada Wholesale needs $1,500,000 to fund its seasonal stock. Levant Commerce Bank offers a term loan at 7 per cent with a covenant limiting debt to equity to 1.50. A private investor offers to subscribe $1,500,000 of new shares for a quarter of the company. Barada's total liabilities are $3,900,000, its total equity is $3,100,000 and its total assets are $7,000,000.
+Required. Compute the debt-to-equity ratio and the equity multiplier under each offer. Say whether the loan would breach the covenant. Then name one advantage and one disadvantage of each offer from the point of view of Barada's existing owner. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC9-1  Answer B. The equity multiplier is total assets over total equity.
+A is wrong. That is the debt-to-equity ratio.
+C is wrong. That is the equity ratio, the reciprocal of the multiplier.
+D is wrong. This compares assets with liabilities, which is not a named ratio here.
+SC9-2  Answer B. If debt is 0.40 of assets, equity is 0.60, and 1.00 ÷ 0.60 = 1.67.
+A is wrong. 0.60 is equity to assets.
+C is wrong. This would follow from debt at 0.60 of assets.
+D is wrong. This is debt to equity, 0.40 ÷ 0.60.
+SC9-3  Answer B. It removes payables and accruals, which arise from trading.
+A is wrong. Both use carrying amounts.
+C is wrong. Equity is the same denominator in both.
+D is wrong. Neither ratio is computed after tax.
+SC9-4  Answer A. Assets and liabilities rise while equity is unchanged, so assets over equity rises.
+B is wrong. The numerator grows and the denominator does not.
+C is wrong. The numerator changes.
+D is wrong. Profitability does not affect this transaction.
+SC9-5  Answer B. Debt rises and equity falls, so the numerator and denominator move in opposite directions.
+A is wrong. The rate is not part of the ratio.
+C is wrong. Assets are roughly unchanged in a buy-back.
+D is wrong. Tax does not drive the ratio movement.
+SC9-6  Answer B. Retained earnings raise equity with no change in liabilities.
+A is wrong. Equity grows, so the ratio falls.
+C is wrong. Equity changes.
+D is wrong. The direction is determined.
+SC9-7  Answer B. Interest is contractual; a dividend is declared at the board's discretion.
+A is wrong. Size is not the asymmetry.
+C is wrong. Dividends are not deductible.
+D is wrong. Interest is paid to lenders.
+SC9-8  Answer B. Deductible interest reduces the tax bill, so the net cost is lower than the rate.
+A is wrong. Lenders do accept lower returns, but that is a different point from the tax effect.
+C is wrong. Principal repayment is not an expense.
+D is wrong. Security affects the rate, not the deductibility.
+SC9-9  Answer B. A low multiplier means assets are financed mostly by equity.
+A is wrong. Low leverage means capacity remains.
+C is wrong. Low leverage reduces insolvency risk.
+D is wrong. Dividend policy is a separate matter.
+SC9-10  Answer B. Breach typically accelerates the debt, making it repayable on demand.
+A is wrong. A breach does not improve the terms.
+C is wrong. A breach releases the lender rather than binding it.
+D is wrong. Forgiveness is not a consequence of breach.
+SC9-11  Answer B. A floating rate moves the interest charge with market rates.
+A is wrong. Maturity concerns when the principal falls due.
+C is wrong. Security concerns ranking on default.
+D is wrong. Covenants are limits, not pricing.
+SC9-12  Answer B. Level C requires direction, magnitude and the reader it matters to.
+A is wrong. Direction alone is Level B.
+C is wrong. The journal entry belongs to Part 1.
+D is wrong. Tax is one element of the answer, not the answer.
+Your turn
+Item
+Answer
+Debt to equity
+1.20: 17,279,625 ÷ 14,392,975.
+Long-term debt to equity
+0.83: 12,000,000 ÷ 14,392,975.
+Debt to total assets
+0.55: 17,279,625 ÷ 31,672,600.
+Equity multiplier
+2.20: 31,672,600 ÷ 14,392,975.
+Multiple-choice questions
+P9-01  Answer B. 11,279,625 ÷ 20,392,975 = 0.55.
+A is wrong. 0.36 is debt to total assets.
+C is wrong. 1.55 is the equity multiplier.
+D is wrong. This is equity over liabilities.
+P9-02  Answer B. 31,672,600 ÷ 20,392,975 = 1.55.
+A is wrong. 0.64 is equity to assets.
+C is wrong. 0.55 is debt to equity.
+D is wrong. This has no basis in the figures.
+P9-03  Answer B. Equity is 0.75 of assets, so debt to equity is 0.25 ÷ 0.75 = 0.33.
+A is wrong. That is debt to assets.
+C is wrong. That is equity to assets.
+D is wrong. That is the reciprocal of the answer.
+P9-04  Answer B. Debt rises and equity falls at the same time.
+A is wrong. Assets and liabilities both rise, so the effect is smaller.
+C is wrong. This lowers the multiplier.
+D is wrong. Retaining earnings lowers the multiplier.
+P9-05  Answer B. Equity rises with no change in liabilities, so assets over equity falls.
+A is wrong. The denominator grows.
+C is wrong. Equity changes.
+D is wrong. The multiplier stays above 1 while equity is positive.
+P9-06  Answer B. It isolates borrowing from liabilities created by trading.
+A is wrong. Retained earnings are in equity, the denominator.
+C is wrong. Treatment of the current portion varies and the exam states it.
+D is wrong. Deferred tax is excluded from long-term debt in most definitions but that is not the distinguishing feature.
+P9-07  Answer B. 390,000 × 0.75 = 292,500.
+A is wrong. This ignores the deduction.
+C is wrong. This is the tax saved, not the cost.
+D is wrong. This adds tax instead of deducting it.
+P9-08  Answer B. Acceleration is the usual remedy, and it reclassifies the debt as current.
+A is wrong. Breach does not improve terms.
+C is wrong. The lender is released, not bound.
+D is wrong. A waiver must be obtained; it is not automatic.
+P9-09  Answer C. A guarantee is a contingent obligation and is not a liability on the balance sheet.
+A is wrong. Payables are in total liabilities.
+B is wrong. The current portion is a liability.
+D is wrong. Deferred tax is a liability.
+P9-10  Answer B. Liabilities become 19,279,625 and equity 12,392,975, giving 1.56.
+A is wrong. 0.95 is the result of borrowing to buy an asset.
+C is wrong. 0.55 is the reported figure.
+D is wrong. 0.12 is the result of issuing shares to repay debt.
+Case-style set: two offers for Barada
+Under the loan, total liabilities become 3,900,000 + 1,500,000 = 5,400,000 and equity stays at $3,100,000, so debt to equity is 5,400,000 ÷ 3,100,000 = 1.74 and total assets become 7,000,000 + 1,500,000 = 8,500,000, giving an equity multiplier of 8,500,000 ÷ 3,100,000 = 2.74.
+Under the share subscription, liabilities stay at $3,900,000 and equity becomes 3,100,000 + 1,500,000 = 4,600,000, so debt to equity is 3,900,000 ÷ 4,600,000 = 0.85 and the equity multiplier is 8,500,000 ÷ 4,600,000 = 1.85.
+The loan would breach the covenant. At 1.74 the ratio is above the limit of 1.50, and on these figures the facility is unusable as drawn: Barada would have to borrow less, or find equity first.
+For the existing owner, the loan keeps the whole of the business and the whole of any future profit, and it costs 7 per cent and a covenant that is already breached at the amount needed. The share subscription removes the covenant problem entirely and brings a partner who shares the seasonal risk, and it costs a quarter of the company permanently — on $1,500,000 for 25 per cent, it values Barada's equity at $6,000,000 against a book equity of $3,100,000, which the owner should test before accepting.

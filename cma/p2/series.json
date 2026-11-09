@@ -1,21 +1,70 @@
 {
  "note": "Part 1 published Orontes' 2025 income statement and a 2024 balance sheet only. Horizontal analysis needs a series, so Book 1 supplies the three-year income statement and the market data the annual report would carry. Everything here is consistent with what Part 1 published: 2025 is Part 1's own column, and the 2024 and 2023 columns are new.",
  "income_statement": {
-  "periods": ["2025", "2024", "2023"],
+  "periods": [
+   "2025",
+   "2024",
+   "2023"
+  ],
   "rows": [
-   ["Net sales", 42000000, 36400000, 32000000],
-   ["Cost of goods sold", -27300000, -23296000, -20160000],
-   ["Gross profit", 14700000, 13104000, 11840000],
-   ["Total operating expenses", -10524000, -9100000, -8320000],
-   ["Operating income", 4176000, 4004000, 3520000],
-   ["Net income", 2969100, 2598000, 2320000]
+   [
+    "Net sales",
+    42000000,
+    36400000,
+    32000000
+   ],
+   [
+    "Cost of goods sold",
+    -27300000,
+    -23296000,
+    -20160000
+   ],
+   [
+    "Gross profit",
+    14700000,
+    13104000,
+    11840000
+   ],
+   [
+    "Total operating expenses",
+    -10524000,
+    -9100000,
+    -8320000
+   ],
+   [
+    "Operating income",
+    4176000,
+    4004000,
+    3520000
+   ],
+   [
+    "Net income",
+    2969100,
+    2598000,
+    2320000
+   ]
   ]
  },
  "market": {
-  "share_price": {"2025-12-31": 9.25, "2024-12-31": 7.8},
+  "share_price": {
+   "2025-12-31": 9.25,
+   "2024-12-31": 7.8
+  },
   "shares_outstanding": 8100000,
   "weighted_average_shares": 8099726,
   "dividends_declared_2025": 450000,
   "dividends_paid_2025": 50000
+ },
+ "supplied_amounts": {
+  "note": "Facts Book 1 supplies that Part 1 did not publish. Each is a round figure stated once in the chapter that needs it, and listed here so the checker treats it as published rather than invented.",
+  "operating_lease_rentals_2025": 240000,
+  "lease_interest_element_2025": 80000,
+  "fixed_charges_2025": 470000,
+  "variable_costs_2025": 25200000,
+  "fixed_costs_2025": 12624000,
+  "contribution_margin_2025": 16800000,
+  "ebit_2025": 4348800,
+  "share_price_2025": 9.25,
+  "share_price_2024": 7.8
  }
 }

@@ -48,6 +48,14 @@ def amounts():
         for v in row[1:]:
             if isinstance(v, (int, float)):
                 got.add('%d' % round(abs(v)))
+    # And the handful of facts Book 1 supplies that Part 1 did not
+    # publish: the cost split the leverage chapter needs, the lease
+    # rentals the coverage chapter needs, the share price the market
+    # ratios need. Each is declared here rather than appearing for the
+    # first time inside a chapter.
+    for k, v in SERIES.get('supplied_amounts', {}).items():
+        if isinstance(v, (int, float)):
+            got.add('%d' % round(abs(v)))
     return got
 
 
