@@ -1,0 +1,1622 @@
+{
+ "effective": "September 1, 2024",
+ "source": "IMA, Certified Management Accountant Learning Outcome Statements (Content Specification Outlines effective September 1, 2024)",
+ "part": "Part 2 – Strategic Financial Management",
+ "weights": {
+  "A": 20,
+  "B": 20,
+  "C": 25,
+  "D": 10,
+  "E": 10,
+  "F": 15
+ },
+ "section_titles": {
+  "A": "Financial Statement Analysis",
+  "B": "Corporate Finance",
+  "C": "Business Decision Analysis",
+  "D": "Enterprise Risk Management",
+  "E": "Capital Investment Decisions",
+  "F": "Professional Ethics"
+ },
+ "subsections": {
+  "A.1": "Comparative financial statement analysis",
+  "A.2": "Financial ratios",
+  "A.3": "Profitability analysis",
+  "A.4": "Special issues",
+  "B.1": "Financial risk and return",
+  "B.2": "Long-term financial management",
+  "B.3": "Raising capital",
+  "B.4": "Working capital management",
+  "B.5": "Corporate restructuring",
+  "B.6": "International finance",
+  "C.1": "Cost/volume/profit analysis",
+  "C.2": "Marginal analysis",
+  "C.3": "Pricing",
+  "D.1": "Enterprise risk",
+  "E.1": "Capital budgeting process",
+  "E.2": "Capital investment analysis methods",
+  "F.1": "Business ethics",
+  "F.2": "Ethical considerations for management accounting and financial",
+  "F.3": "Ethical considerations for the organization"
+ },
+ "statements": [
+  {
+   "code": "A.1a",
+   "subsection": "A.1",
+   "group": null,
+   "text": "for the balance sheet and income statement, prepare and analyze common-size financial statements (i.e., calculate percentage of assets and sales, respectively; also called vertical analysis)"
+  },
+  {
+   "code": "A.1b",
+   "subsection": "A.1",
+   "group": null,
+   "text": "for the balance sheet and income statement, prepare a comparative financial statement horizontal analysis (i.e., calculate year-over-year trends for every item on the financial statement compared to a base year)"
+  },
+  {
+   "code": "A.1c",
+   "subsection": "A.1",
+   "group": null,
+   "text": "calculate the growth rate of individual line items on the balance sheet and income statement"
+  },
+  {
+   "code": "A.1d",
+   "subsection": "A.1",
+   "group": null,
+   "text": "analyze financial statement data to identify patterns and trends that can be used to make business decisions"
+  },
+  {
+   "code": "A.2a",
+   "subsection": "A.2",
+   "group": "Liquidity",
+   "text": "calculate and interpret the current ratio, the quick (acid-test) ratio, the cash ratio, the cash flow ratio, and the net working capital ratio"
+  },
+  {
+   "code": "A.2b",
+   "subsection": "A.2",
+   "group": "Liquidity",
+   "text": "explain how changes in one or more of the elements of current assets, current liabilities, and/or unit sales can change the liquidity ratios and calculate that impact"
+  },
+  {
+   "code": "A.2c",
+   "subsection": "A.2",
+   "group": "Liquidity",
+   "text": "demonstrate an understanding of the liquidity of current liabilities"
+  },
+  {
+   "code": "A.2d",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "define solvency and distinguish from liquidity"
+  },
+  {
+   "code": "A.2e",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "define operating leverage and financial leverage"
+  },
+  {
+   "code": "A.2f",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "calculate degree of operating leverage and degree of financial leverage"
+  },
+  {
+   "code": "A.2g",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "demonstrate an understanding of the effect on the capital structure and solvency of a company with a change in the composition of debt vs. equity by calculating leverage ratios"
+  },
+  {
+   "code": "A.2h",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "calculate and interpret the financial leverage ratio (equity multiplier) and determine the effect of a given change in capital structure on this ratio"
+  },
+  {
+   "code": "A.2i",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "calculate and interpret the following ratios: debt-to-equity, long-term debt-to- equity, and debt-to-total assets"
+  },
+  {
+   "code": "A.2j",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "define, calculate, and interpret the following ratios: fixed charge coverage (earnings to fixed charges), interest coverage (times interest earned), and cash flow to fixed charges"
+  },
+  {
+   "code": "A.2k",
+   "subsection": "A.2",
+   "group": "Leverage",
+   "text": "discuss how capital structure decisions affect the risk profile of a company"
+  },
+  {
+   "code": "A.2l",
+   "subsection": "A.2",
+   "group": "Activity",
+   "text": "calculate and interpret accounts receivable turnover, inventory turnover, and accounts payable turnover"
+  },
+  {
+   "code": "A.2m",
+   "subsection": "A.2",
+   "group": "Activity",
+   "text": "calculate and interpret days sales outstanding in receivables, days sales in inventory, and days purchases in accounts payable"
+  },
+  {
+   "code": "A.2n",
+   "subsection": "A.2",
+   "group": "Activity",
+   "text": "define and calculate the operating cycle and the cash cycle of a company"
+  },
+  {
+   "code": "A.2o",
+   "subsection": "A.2",
+   "group": "Activity",
+   "text": "calculate and interpret total asset turnover and fixed asset turnover"
+  },
+  {
+   "code": "A.2p",
+   "subsection": "A.2",
+   "group": "Profitability",
+   "text": "calculate and interpret gross profit margin percentage; operating profit margin percentage; net profit margin percentage; and EBITDA margin percentage"
+  },
+  {
+   "code": "A.2q",
+   "subsection": "A.2",
+   "group": "Profitability",
+   "text": "calculate and interpret ROA and ROE"
+  },
+  {
+   "code": "A.2r",
+   "subsection": "A.2",
+   "group": "Market",
+   "text": "calculate and interpret the market/book ratio and the price/earnings ratio"
+  },
+  {
+   "code": "A.2s",
+   "subsection": "A.2",
+   "group": "Market",
+   "text": "calculate and interpret book value per share"
+  },
+  {
+   "code": "A.2t",
+   "subsection": "A.2",
+   "group": "Market",
+   "text": "identify and explain the limitations of book value per share"
+  },
+  {
+   "code": "A.2u",
+   "subsection": "A.2",
+   "group": "Market",
+   "text": "calculate and interpret basic and diluted EPS"
+  },
+  {
+   "code": "A.2v",
+   "subsection": "A.2",
+   "group": "Market",
+   "text": "calculate and interpret earnings yield, dividend yield, dividend payout ratio, and shareholder return"
+  },
+  {
+   "code": "A.2w",
+   "subsection": "A.2",
+   "group": "General",
+   "text": "identify the limitations of ratio analysis"
+  },
+  {
+   "code": "A.2x",
+   "subsection": "A.2",
+   "group": "General",
+   "text": "demonstrate a familiarity with the sources of financial information about public companies and industry ratio averages"
+  },
+  {
+   "code": "A.2y",
+   "subsection": "A.2",
+   "group": "General",
+   "text": "evaluate the financial strength and performance of an entity based on multiple ratios"
+  },
+  {
+   "code": "A.3a",
+   "subsection": "A.3",
+   "group": null,
+   "text": "demonstrate an understanding of the factors that contribute to inconsistent definitions of “equity,” “assets,” and “return” when using ROA and ROE"
+  },
+  {
+   "code": "A.3b",
+   "subsection": "A.3",
+   "group": null,
+   "text": "determine the effect on return on total assets of a change in one or more elements of the financial statements"
+  },
+  {
+   "code": "A.3c",
+   "subsection": "A.3",
+   "group": null,
+   "text": "identify factors to be considered in measuring income, including estimates, accounting methods, disclosure incentives, and the different needs of users"
+  },
+  {
+   "code": "A.3d",
+   "subsection": "A.3",
+   "group": null,
+   "text": "explain the importance of the source, stability, and trend of sales and revenue"
+  },
+  {
+   "code": "A.3e",
+   "subsection": "A.3",
+   "group": null,
+   "text": "demonstrate an understanding of the relationship between revenue and receivables and revenue and inventory"
+  },
+  {
+   "code": "A.3f",
+   "subsection": "A.3",
+   "group": null,
+   "text": "determine and analyze the effect on revenue of changes in revenue recognition and measurement methods"
+  },
+  {
+   "code": "A.3g",
+   "subsection": "A.3",
+   "group": null,
+   "text": "analyze cost of sales by calculating and interpreting the gross profit margin"
+  },
+  {
+   "code": "A.3h",
+   "subsection": "A.3",
+   "group": null,
+   "text": "distinguish between gross profit margin, operating profit margin, and net profit margin, and analyze the effects of changes in the components of each"
+  },
+  {
+   "code": "A.3i",
+   "subsection": "A.3",
+   "group": null,
+   "text": "define and perform a variation analysis (percentage change over time)"
+  },
+  {
+   "code": "A.3j",
+   "subsection": "A.3",
+   "group": null,
+   "text": "calculate and interpret sustainable equity growth"
+  },
+  {
+   "code": "A.4a",
+   "subsection": "A.4",
+   "group": null,
+   "text": "demonstrate an understanding of the impact of foreign exchange rate changes on financial statements (1) identify and explain issues in the accounting for foreign operations (e.g., historical vs. current rate and the treatment of translation gains and losses) (2) define functional currency (3) calculate the financial ratio impact of a change in exchange rates (4) discuss the possible impact on management and investor behavior of volatility in reported earnings"
+  },
+  {
+   "code": "A.4b",
+   "subsection": "A.4",
+   "group": null,
+   "text": "demonstrate an understanding of the impact of inflation on financial ratios and the reliability of financial ratios"
+  },
+  {
+   "code": "A.4c",
+   "subsection": "A.4",
+   "group": null,
+   "text": "describe how to adjust financial statements for changes in accounting treatments (principles, estimates, and errors) and how these adjustments impact financial ratios"
+  },
+  {
+   "code": "A.4d",
+   "subsection": "A.4",
+   "group": null,
+   "text": "distinguish between book value and market value, and distinguish between accounting profit and economic profit"
+  },
+  {
+   "code": "A.4e",
+   "subsection": "A.4",
+   "group": null,
+   "text": "identify the determinants and indicators of earnings quality and explain why they are important"
+  },
+  {
+   "code": "B.1a",
+   "subsection": "B.1",
+   "group": null,
+   "text": "calculate rates of return"
+  },
+  {
+   "code": "B.1b",
+   "subsection": "B.1",
+   "group": null,
+   "text": "identify and demonstrate an understanding of systematic (market) risk and unsystematic (company) risk"
+  },
+  {
+   "code": "B.1c",
+   "subsection": "B.1",
+   "group": null,
+   "text": "identify and demonstrate an understanding of credit risk, foreign exchange risk, interest rate risk, and market risk"
+  },
+  {
+   "code": "B.1d",
+   "subsection": "B.1",
+   "group": null,
+   "text": "demonstrate an understanding of the relationship between risk and return"
+  },
+  {
+   "code": "B.1e",
+   "subsection": "B.1",
+   "group": null,
+   "text": "distinguish between individual security risk and portfolio risk"
+  },
+  {
+   "code": "B.1f",
+   "subsection": "B.1",
+   "group": null,
+   "text": "demonstrate an understanding of diversification"
+  },
+  {
+   "code": "B.1g",
+   "subsection": "B.1",
+   "group": null,
+   "text": "define beta and explain how a change in beta impacts a security’s price"
+  },
+  {
+   "code": "B.1h",
+   "subsection": "B.1",
+   "group": null,
+   "text": "demonstrate an understanding of the Capital Asset Pricing Model (CAPM) and calculate the expected risk-adjusted returns using CAPM"
+  },
+  {
+   "code": "B.2a",
+   "subsection": "B.2",
+   "group": null,
+   "text": "describe the term structure of interest rates and explain why it changes over time"
+  },
+  {
+   "code": "B.2b",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define and identify the characteristics of common stock and preferred stock"
+  },
+  {
+   "code": "B.2c",
+   "subsection": "B.2",
+   "group": null,
+   "text": "identify and describe the basic features of a bond such as maturity, par value, coupon rate, redemption provisions, conversion provisions, covenants, options granted to the issuer or investor, indentures, and restrictions"
+  },
+  {
+   "code": "B.2d",
+   "subsection": "B.2",
+   "group": null,
+   "text": "identify and evaluate debt issuance or refinancing strategies"
+  },
+  {
+   "code": "B.2e",
+   "subsection": "B.2",
+   "group": null,
+   "text": "value bonds, common stock, and preferred stock using discounted cash flow methods"
+  },
+  {
+   "code": "B.2f",
+   "subsection": "B.2",
+   "group": null,
+   "text": "demonstrate an understanding of duration as a measure of bond interest rate sensitivity"
+  },
+  {
+   "code": "B.2g",
+   "subsection": "B.2",
+   "group": null,
+   "text": "explain how income taxes impact financing decisions"
+  },
+  {
+   "code": "B.2h",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define and demonstrate an understanding of derivatives and their uses"
+  },
+  {
+   "code": "B.2i",
+   "subsection": "B.2",
+   "group": null,
+   "text": "identify and describe the basic features of futures and forwards"
+  },
+  {
+   "code": "B.2j",
+   "subsection": "B.2",
+   "group": null,
+   "text": "distinguish a long position from a short position"
+  },
+  {
+   "code": "B.2k",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define options, and distinguish between a call and a put by identifying the characteristics of each"
+  },
+  {
+   "code": "B.2l",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define strike price (exercise price), option premium, and intrinsic value"
+  },
+  {
+   "code": "B.2m",
+   "subsection": "B.2",
+   "group": null,
+   "text": "demonstrate an understanding of the interrelationship of the variables that comprise the value of an option (e.g., relationship between exercise price and strike price, and value of a call)"
+  },
+  {
+   "code": "B.2n",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define interest rate and foreign currency swaps"
+  },
+  {
+   "code": "B.2o",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define and identify characteristics of other sources of long-term financing, such as leases, convertible securities, and warrants"
+  },
+  {
+   "code": "B.2p",
+   "subsection": "B.2",
+   "group": null,
+   "text": "demonstrate an understanding of the relationship among inflation, interest rates, and the prices of financial instruments"
+  },
+  {
+   "code": "B.2q",
+   "subsection": "B.2",
+   "group": null,
+   "text": "define the cost of capital and demonstrate an understanding of its applications in capital structure decisions"
+  },
+  {
+   "code": "B.2r",
+   "subsection": "B.2",
+   "group": null,
+   "text": "determine weighted average cost of capital (WACC) and the cost of its individual components"
+  },
+  {
+   "code": "B.2s",
+   "subsection": "B.2",
+   "group": null,
+   "text": "calculate the marginal cost of capital"
+  },
+  {
+   "code": "B.2t",
+   "subsection": "B.2",
+   "group": null,
+   "text": "explain the importance of using marginal cost as opposed to historical cost"
+  },
+  {
+   "code": "B.2u",
+   "subsection": "B.2",
+   "group": null,
+   "text": "demonstrate an understanding of the use of the cost of capital in capital investment decisions"
+  },
+  {
+   "code": "B.2v",
+   "subsection": "B.2",
+   "group": null,
+   "text": "demonstrate an understanding of how income taxes impact capital structure and capital investment decisions"
+  },
+  {
+   "code": "B.2w",
+   "subsection": "B.2",
+   "group": null,
+   "text": "use the constant growth dividend discount model to value stock and demonstrate an understanding of the two-stage dividend discount model"
+  },
+  {
+   "code": "B.2x",
+   "subsection": "B.2",
+   "group": null,
+   "text": "demonstrate an understanding of relative or comparable valuation methods, such as price/earnings (P/E) ratios, market/book ratios, and price/sales ratios"
+  },
+  {
+   "code": "B.3a",
+   "subsection": "B.3",
+   "group": null,
+   "text": "identify the characteristics of the different types of financial markets and exchanges"
+  },
+  {
+   "code": "B.3b",
+   "subsection": "B.3",
+   "group": null,
+   "text": "demonstrate an understanding of the concept of market efficiency, including the strong form, semi-strong form, and weak form of market efficiency"
+  },
+  {
+   "code": "B.3c",
+   "subsection": "B.3",
+   "group": null,
+   "text": "describe the role of the credit rating agencies"
+  },
+  {
+   "code": "B.3d",
+   "subsection": "B.3",
+   "group": null,
+   "text": "demonstrate an understanding of the roles of investment banks, including underwriting, advice, and trading"
+  },
+  {
+   "code": "B.3e",
+   "subsection": "B.3",
+   "group": null,
+   "text": "define IPOs"
+  },
+  {
+   "code": "B.3f",
+   "subsection": "B.3",
+   "group": null,
+   "text": "define subsequent/secondary offerings"
+  },
+  {
+   "code": "B.3g",
+   "subsection": "B.3",
+   "group": null,
+   "text": "describe lease financing, explain its advantages and disadvantages, and calculate the net advantage to leasing using discounted cash flow concepts"
+  },
+  {
+   "code": "B.3h",
+   "subsection": "B.3",
+   "group": null,
+   "text": "define the different types of dividends, including cash dividends, stock dividends, and stock splits"
+  },
+  {
+   "code": "B.3i",
+   "subsection": "B.3",
+   "group": null,
+   "text": "identify and discuss the factors that influence the dividend policy of a company"
+  },
+  {
+   "code": "B.3j",
+   "subsection": "B.3",
+   "group": null,
+   "text": "demonstrate an understanding of the dividend payment process for both common and preferred stock"
+  },
+  {
+   "code": "B.3k",
+   "subsection": "B.3",
+   "group": null,
+   "text": "define share repurchase and explain why a company would repurchase its stock"
+  },
+  {
+   "code": "B.3l",
+   "subsection": "B.3",
+   "group": null,
+   "text": "define insider trading and explain why it is illegal"
+  },
+  {
+   "code": "B.3m",
+   "subsection": "B.3",
+   "group": null,
+   "text": "identify the advantages and disadvantages of debt financing vs. equity financing"
+  },
+  {
+   "code": "B.4a",
+   "subsection": "B.4",
+   "group": "Working capital",
+   "text": "define working capital and identify its components"
+  },
+  {
+   "code": "B.4b",
+   "subsection": "B.4",
+   "group": "Working capital",
+   "text": "calculate net working capital"
+  },
+  {
+   "code": "B.4c",
+   "subsection": "B.4",
+   "group": "Working capital",
+   "text": "explain the benefit of short-term financial forecasts in the management of working capital"
+  },
+  {
+   "code": "B.4d",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "identify and describe factors influencing the levels of cash"
+  },
+  {
+   "code": "B.4e",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "identify and explain the three motives for holding cash"
+  },
+  {
+   "code": "B.4f",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "prepare forecasts of future cash flows"
+  },
+  {
+   "code": "B.4g",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "identify methods of speeding up cash collections"
+  },
+  {
+   "code": "B.4h",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "calculate the net benefit of a lockbox system"
+  },
+  {
+   "code": "B.4i",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "define concentration banking"
+  },
+  {
+   "code": "B.4j",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "demonstrate an understanding of compensating balances"
+  },
+  {
+   "code": "B.4k",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "identify methods of slowing down disbursements"
+  },
+  {
+   "code": "B.4l",
+   "subsection": "B.4",
+   "group": "Cash",
+   "text": "demonstrate an understanding of disbursement float and overdraft systems"
+  },
+  {
+   "code": "B.4m",
+   "subsection": "B.4",
+   "group": "Marketable securities",
+   "text": "identify and describe reasons for holding marketable securities"
+  },
+  {
+   "code": "B.4n",
+   "subsection": "B.4",
+   "group": "Marketable securities",
+   "text": "define the different types of marketable securities, including money market instruments, T-bills, treasury notes, treasury bonds, repurchase agreements, federal agency securities, banker’s acceptances, commercial paper, negotiable CDs, Eurodollar CDs, and other marketable securities"
+  },
+  {
+   "code": "B.4o",
+   "subsection": "B.4",
+   "group": "Marketable securities",
+   "text": "evaluate the trade-offs among the variables in marketable security selections, including safety, marketability/liquidity, yield, maturity, and taxability"
+  },
+  {
+   "code": "B.4p",
+   "subsection": "B.4",
+   "group": "Marketable securities",
+   "text": "demonstrate an understanding of the risk and return trade-off"
+  },
+  {
+   "code": "B.4q",
+   "subsection": "B.4",
+   "group": "Accounts receivable",
+   "text": "identify the factors influencing the level of receivables"
+  },
+  {
+   "code": "B.4r",
+   "subsection": "B.4",
+   "group": "Accounts receivable",
+   "text": "demonstrate an understanding of the impact of changes in credit terms or collection policies on accounts receivable, working capital, and sales volume"
+  },
+  {
+   "code": "B.4s",
+   "subsection": "B.4",
+   "group": "Accounts receivable",
+   "text": "define default risk"
+  },
+  {
+   "code": "B.4t",
+   "subsection": "B.4",
+   "group": "Accounts receivable",
+   "text": "identify and explain the factors involved in determining an optimal credit policy"
+  },
+  {
+   "code": "B.4u",
+   "subsection": "B.4",
+   "group": "Inventory",
+   "text": "define lead time and safety stock, and identify reasons for carrying inventory and the factors influencing its level"
+  },
+  {
+   "code": "B.4v",
+   "subsection": "B.4",
+   "group": "Inventory",
+   "text": "identify and calculate the costs related to inventory, including carrying costs, ordering costs, and shortage (stockout) costs"
+  },
+  {
+   "code": "B.4w",
+   "subsection": "B.4",
+   "group": "Inventory",
+   "text": "explain how a just-in-time (JIT) inventory management system helps manage inventory"
+  },
+  {
+   "code": "B.4x",
+   "subsection": "B.4",
+   "group": "Inventory",
+   "text": "identify the interaction between high inventory turnover and high gross margin (calculation not required)"
+  },
+  {
+   "code": "B.4y",
+   "subsection": "B.4",
+   "group": "Inventory",
+   "text": "demonstrate an understanding of economic order quantity (EOQ) and how a change in one variable would affect the EOQ (calculation not required)"
+  },
+  {
+   "code": "B.4z",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "demonstrate an understanding of how risk affects a company’s approach to its current asset financing policy (aggressive, conservative, etc.)"
+  },
+  {
+   "code": "B.4aa",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "identify and describe the different types of short-term credit, including trade credit, short-term bank loans, commercial paper, lines of credit, banker’s acceptances, and letters of credit"
+  },
+  {
+   "code": "B.4bb",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "estimate the annual cost and effective annual interest rate of not taking a cash discount"
+  },
+  {
+   "code": "B.4cc",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "calculate the effective annual interest rate of a bank loan with a compensating balance requirement and/or a commitment fee"
+  },
+  {
+   "code": "B.4dd",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "demonstrate an understanding of factoring accounts receivable and calculate the cost of factoring"
+  },
+  {
+   "code": "B.4ee",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "explain the maturity matching or hedging approach to financing"
+  },
+  {
+   "code": "B.4ff",
+   "subsection": "B.4",
+   "group": "Short-term credit and working capital cost management",
+   "text": "demonstrate an understanding of the factors involved in managing the costs of working capital"
+  },
+  {
+   "code": "B.4gg",
+   "subsection": "B.4",
+   "group": "General",
+   "text": "recommend a strategy for managing current assets that would fulfill a given objective"
+  },
+  {
+   "code": "B.5a",
+   "subsection": "B.5",
+   "group": null,
+   "text": "demonstrate an understanding of the following: (1) mergers and acquisitions, including horizontal, vertical, and conglomerate (2) leveraged buyouts"
+  },
+  {
+   "code": "B.5b",
+   "subsection": "B.5",
+   "group": null,
+   "text": "identify and describe defenses against takeovers (e.g., golden parachute, leveraged recapitalization, poison pill (shareholders’ rights plan), staggered Board of Directors, fair price, voting rights plan, white knight)"
+  },
+  {
+   "code": "B.5c",
+   "subsection": "B.5",
+   "group": null,
+   "text": "identify and describe divestiture concepts such as spin-offs, split-ups, equity carve-outs, and tracking stock"
+  },
+  {
+   "code": "B.5d",
+   "subsection": "B.5",
+   "group": null,
+   "text": "evaluate key factors in a company’s financial situation and determine if a restructuring would be beneficial to shareholders"
+  },
+  {
+   "code": "B.5e",
+   "subsection": "B.5",
+   "group": null,
+   "text": "identify possible synergies in targeted mergers and acquisitions"
+  },
+  {
+   "code": "B.5f",
+   "subsection": "B.5",
+   "group": null,
+   "text": "value a business, a business segment, and a business combination using the discounted cash flow method"
+  },
+  {
+   "code": "B.5g",
+   "subsection": "B.5",
+   "group": null,
+   "text": "evaluate a proposed business combination and make a recommendation based on both quantitative and qualitative considerations"
+  },
+  {
+   "code": "B.6a",
+   "subsection": "B.6",
+   "group": null,
+   "text": "demonstrate an understanding of foreign currencies and how foreign currency affects the prices of goods and services"
+  },
+  {
+   "code": "B.6b",
+   "subsection": "B.6",
+   "group": null,
+   "text": "identify the variables that affect exchange rates"
+  },
+  {
+   "code": "B.6c",
+   "subsection": "B.6",
+   "group": null,
+   "text": "calculate whether a currency has depreciated or appreciated against another currency over time and evaluate the impact of the change"
+  },
+  {
+   "code": "B.6d",
+   "subsection": "B.6",
+   "group": null,
+   "text": "demonstrate how currency futures, currency swaps, and currency options can be used to manage exchange rate risk"
+  },
+  {
+   "code": "B.6e",
+   "subsection": "B.6",
+   "group": null,
+   "text": "calculate the net profit/loss of cross-border transactions and evaluate the impact of this net profit/loss"
+  },
+  {
+   "code": "B.6f",
+   "subsection": "B.6",
+   "group": null,
+   "text": "recommend methods of managing exchange rate risk and calculate the net profit/loss of the recommended methods"
+  },
+  {
+   "code": "B.6g",
+   "subsection": "B.6",
+   "group": null,
+   "text": "identify and explain the benefits of international diversification"
+  },
+  {
+   "code": "B.6h",
+   "subsection": "B.6",
+   "group": null,
+   "text": "identify and explain common trade financing methods, including cross-border factoring, letters of credit, banker’s acceptances, forfaiting, and countertrade"
+  },
+  {
+   "code": "C.1a",
+   "subsection": "C.1",
+   "group": null,
+   "text": "demonstrate an understanding of how cost/volume/profit (CVP) analysis (breakeven analysis) is used to examine the behavior of total revenues, total costs, and operating income as changes occur in output levels, selling prices, variable costs per unit, or fixed costs"
+  },
+  {
+   "code": "C.1b",
+   "subsection": "C.1",
+   "group": null,
+   "text": "calculate operating income at different operating levels"
+  },
+  {
+   "code": "C.1c",
+   "subsection": "C.1",
+   "group": null,
+   "text": "differentiate between costs that are fixed and costs that are variable with respect to levels of output"
+  },
+  {
+   "code": "C.1d",
+   "subsection": "C.1",
+   "group": null,
+   "text": "explain why the classification of fixed vs. variable costs is affected by the time frame being considered"
+  },
+  {
+   "code": "C.1e",
+   "subsection": "C.1",
+   "group": null,
+   "text": "calculate contribution margin per unit and total contribution margin"
+  },
+  {
+   "code": "C.1f",
+   "subsection": "C.1",
+   "group": null,
+   "text": "calculate the breakeven point in units and dollar sales to achieve targeted operating income or targeted net income"
+  },
+  {
+   "code": "C.1g",
+   "subsection": "C.1",
+   "group": null,
+   "text": "demonstrate an understanding of how changes in unit sales mix affect operating income in multiple-product situations"
+  },
+  {
+   "code": "C.1h",
+   "subsection": "C.1",
+   "group": null,
+   "text": "calculate multiple-product breakeven points given percentage share of sales and explain why there is no unique breakeven point in multiple-product situations"
+  },
+  {
+   "code": "C.1i",
+   "subsection": "C.1",
+   "group": null,
+   "text": "define, calculate, and interpret the margin of safety and the margin of safety ratio"
+  },
+  {
+   "code": "C.1j",
+   "subsection": "C.1",
+   "group": null,
+   "text": "explain how sensitivity analysis can be used in CVP analysis when there is uncertainty about sales"
+  },
+  {
+   "code": "C.1k",
+   "subsection": "C.1",
+   "group": null,
+   "text": "analyze and recommend a course of action using CVP analysis"
+  },
+  {
+   "code": "C.1l",
+   "subsection": "C.1",
+   "group": null,
+   "text": "demonstrate an understanding of the impact of income taxes on CVP analysis"
+  },
+  {
+   "code": "C.2a",
+   "subsection": "C.2",
+   "group": null,
+   "text": "identify and define relevant costs (incremental, marginal, or differential costs), sunk costs, avoidable costs, explicit and implicit costs, split-off point, joint production costs, separable processing costs, and relevant revenues"
+  },
+  {
+   "code": "C.2b",
+   "subsection": "C.2",
+   "group": null,
+   "text": "explain why sunk costs are not relevant in the decision-making process"
+  },
+  {
+   "code": "C.2c",
+   "subsection": "C.2",
+   "group": null,
+   "text": "demonstrate an understanding of and calculate opportunity costs"
+  },
+  {
+   "code": "C.2d",
+   "subsection": "C.2",
+   "group": null,
+   "text": "calculate relevant costs given a numerical scenario"
+  },
+  {
+   "code": "C.2e",
+   "subsection": "C.2",
+   "group": null,
+   "text": "define and calculate marginal cost and marginal revenue"
+  },
+  {
+   "code": "C.2f",
+   "subsection": "C.2",
+   "group": null,
+   "text": "identify and calculate total cost, average fixed cost, average variable cost, and average total cost"
+  },
+  {
+   "code": "C.2g",
+   "subsection": "C.2",
+   "group": null,
+   "text": "demonstrate proficiency in the use of marginal analysis for decisions"
+  },
+  {
+   "code": "C.2h",
+   "subsection": "C.2",
+   "group": null,
+   "text": "calculate the effect on operating income of a decision to accept or reject a special order when there is idle capacity and the order has no long-term implications"
+  },
+  {
+   "code": "C.2i",
+   "subsection": "C.2",
+   "group": null,
+   "text": "identify and describe qualitative factors in make-or-buy decisions, such as product quality and dependability of suppliers"
+  },
+  {
+   "code": "C.2j",
+   "subsection": "C.2",
+   "group": null,
+   "text": "calculate the effect on operating income of a make-or-buy decision"
+  },
+  {
+   "code": "C.2k",
+   "subsection": "C.2",
+   "group": null,
+   "text": "calculate the effects on operating income of a decision to sell or process further or to drop or add a segment"
+  },
+  {
+   "code": "C.2l",
+   "subsection": "C.2",
+   "group": null,
+   "text": "identify the effects of changes in capacity on production decisions"
+  },
+  {
+   "code": "C.2m",
+   "subsection": "C.2",
+   "group": null,
+   "text": "demonstrate an understanding of the impact of income taxes on marginal analysis"
+  },
+  {
+   "code": "C.2n",
+   "subsection": "C.2",
+   "group": null,
+   "text": "recommend a course of action using marginal analysis"
+  },
+  {
+   "code": "C.3a",
+   "subsection": "C.3",
+   "group": null,
+   "text": "identify different pricing methodologies, including market comparables, cost- based, and value-based approaches"
+  },
+  {
+   "code": "C.3b",
+   "subsection": "C.3",
+   "group": null,
+   "text": "differentiate between a cost-based approach and a market-based approach to setting prices"
+  },
+  {
+   "code": "C.3c",
+   "subsection": "C.3",
+   "group": null,
+   "text": "calculate selling price using a cost-based approach"
+  },
+  {
+   "code": "C.3d",
+   "subsection": "C.3",
+   "group": null,
+   "text": "demonstrate an understanding of how a company’s pricing of a product or service is affected by the demand for and supply of the product or service, as well as the market structure within which the company operates"
+  },
+  {
+   "code": "C.3e",
+   "subsection": "C.3",
+   "group": null,
+   "text": "demonstrate an understanding of the impact of cartels on pricing"
+  },
+  {
+   "code": "C.3f",
+   "subsection": "C.3",
+   "group": null,
+   "text": "demonstrate an understanding of the short-term equilibrium price for the company in (i) pure competition, (ii) monopolistic competition, (iii) oligopoly, and (iv) monopoly using the concepts of marginal revenue and marginal cost"
+  },
+  {
+   "code": "C.3g",
+   "subsection": "C.3",
+   "group": null,
+   "text": "identify techniques used to set prices based on understanding customers’ perceptions of value and competitors’ technologies, products, and costs"
+  },
+  {
+   "code": "C.3h",
+   "subsection": "C.3",
+   "group": null,
+   "text": "define and demonstrate an understanding of target pricing and target costing, and identify the main steps in developing target prices and target costs"
+  },
+  {
+   "code": "C.3i",
+   "subsection": "C.3",
+   "group": null,
+   "text": "define value engineering"
+  },
+  {
+   "code": "C.3j",
+   "subsection": "C.3",
+   "group": null,
+   "text": "calculate the target operating income per unit and target cost per unit"
+  },
+  {
+   "code": "C.3k",
+   "subsection": "C.3",
+   "group": null,
+   "text": "define and distinguish between a value-added cost and a nonvalue-added cost"
+  },
+  {
+   "code": "C.3l",
+   "subsection": "C.3",
+   "group": null,
+   "text": "define the pricing technique of cost plus target rate of return"
+  },
+  {
+   "code": "C.3m",
+   "subsection": "C.3",
+   "group": null,
+   "text": "calculate the price elasticity of demand using the midpoint formula"
+  },
+  {
+   "code": "C.3n",
+   "subsection": "C.3",
+   "group": null,
+   "text": "define and explain elastic and inelastic demand"
+  },
+  {
+   "code": "C.3o",
+   "subsection": "C.3",
+   "group": null,
+   "text": "estimate total revenue given changes in prices and demand as well as elasticity"
+  },
+  {
+   "code": "C.3p",
+   "subsection": "C.3",
+   "group": null,
+   "text": "discuss how pricing decisions can differ in the short term and in the long term"
+  },
+  {
+   "code": "C.3q",
+   "subsection": "C.3",
+   "group": null,
+   "text": "define product life cycle, identify and explain the four stages of the product life cycle, and explain why pricing decisions might differ over the life of a product"
+  },
+  {
+   "code": "C.3r",
+   "subsection": "C.3",
+   "group": null,
+   "text": "evaluate and recommend pricing strategies under specific market conditions"
+  },
+  {
+   "code": "D.1a",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and explain the different types of risk, including business risk, hazard risk, financial risk, operational risk, and strategic risk"
+  },
+  {
+   "code": "D.1b",
+   "subsection": "D.1",
+   "group": null,
+   "text": "demonstrate an understanding of operational risk"
+  },
+  {
+   "code": "D.1c",
+   "subsection": "D.1",
+   "group": null,
+   "text": "define legal risk, compliance risk, and political risk"
+  },
+  {
+   "code": "D.1d",
+   "subsection": "D.1",
+   "group": null,
+   "text": "demonstrate an understanding of how volatility and time impact risk"
+  },
+  {
+   "code": "D.1e",
+   "subsection": "D.1",
+   "group": null,
+   "text": "define the concept of capital adequacy (i.e., solvency, liquidity, reserves, and sufficient capital)"
+  },
+  {
+   "code": "D.1f",
+   "subsection": "D.1",
+   "group": null,
+   "text": "explain the use of probabilities in determining exposure to risk and calculate expected loss given a set of probabilities"
+  },
+  {
+   "code": "D.1g",
+   "subsection": "D.1",
+   "group": null,
+   "text": "define the concepts of unexpected loss and maximum possible loss (extreme or catastrophic loss)"
+  },
+  {
+   "code": "D.1h",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify strategies for risk response (or treatment), including actions to avoid, retain, reduce (mitigate), transfer (share), and exploit (accept) risks"
+  },
+  {
+   "code": "D.1i",
+   "subsection": "D.1",
+   "group": null,
+   "text": "define risk transfer (e.g., purchasing insurance, issuing debt)"
+  },
+  {
+   "code": "D.1j",
+   "subsection": "D.1",
+   "group": null,
+   "text": "demonstrate an understanding of the concept of residual risk and distinguish it from inherent risk"
+  },
+  {
+   "code": "D.1k",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and explain the benefits of risk management"
+  },
+  {
+   "code": "D.1l",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and describe the key steps in the risk management process"
+  },
+  {
+   "code": "D.1m",
+   "subsection": "D.1",
+   "group": null,
+   "text": "explain how attitude toward risk might affect the management of risk"
+  },
+  {
+   "code": "D.1n",
+   "subsection": "D.1",
+   "group": null,
+   "text": "demonstrate a general understanding of the use of liability/hazard insurance to transfer risk (detailed knowledge not required)"
+  },
+  {
+   "code": "D.1o",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify methods of managing operational risk"
+  },
+  {
+   "code": "D.1p",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and explain financial risk management methods"
+  },
+  {
+   "code": "D.1q",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and explain qualitative risk assessment tools including risk identification, risk ranking, and risk maps"
+  },
+  {
+   "code": "D.1r",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and explain quantitative risk assessment tools including cash flow at risk, earnings at risk, earnings distributions, and EPS distributions"
+  },
+  {
+   "code": "D.1s",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify and explain Value at Risk (VaR) (calculations not required)"
+  },
+  {
+   "code": "D.1t",
+   "subsection": "D.1",
+   "group": null,
+   "text": "define enterprise risk management (ERM), and identify and describe key objectives, components, and benefits of an ERM program"
+  },
+  {
+   "code": "D.1u",
+   "subsection": "D.1",
+   "group": null,
+   "text": "identify event identification techniques and provide examples of event identification within the context of an ERM approach"
+  },
+  {
+   "code": "D.1v",
+   "subsection": "D.1",
+   "group": null,
+   "text": "explain how ERM practices are integrated with corporate governance, risk analytics, portfolio management, performance management, and internal control practices"
+  },
+  {
+   "code": "D.1w",
+   "subsection": "D.1",
+   "group": null,
+   "text": "evaluate scenarios and recommend risk mitigation strategies"
+  },
+  {
+   "code": "D.1x",
+   "subsection": "D.1",
+   "group": null,
+   "text": "prepare a cost-benefit analysis and demonstrate an understanding of its uses in risk assessment and decision making"
+  },
+  {
+   "code": "D.1y",
+   "subsection": "D.1",
+   "group": null,
+   "text": "demonstrate an understanding of the COSO Enterprise Risk Management— Integrated Framework"
+  },
+  {
+   "code": "E.1a",
+   "subsection": "E.1",
+   "group": null,
+   "text": "define capital budgeting and identify the steps or stages undertaken in developing and implementing a capital budget for a project"
+  },
+  {
+   "code": "E.1b",
+   "subsection": "E.1",
+   "group": null,
+   "text": "identify and calculate the relevant cash flows of a capital investment project on both a pretax and after-tax basis"
+  },
+  {
+   "code": "E.1c",
+   "subsection": "E.1",
+   "group": null,
+   "text": "demonstrate an understanding of how income taxes affect cash flows"
+  },
+  {
+   "code": "E.1d",
+   "subsection": "E.1",
+   "group": null,
+   "text": "distinguish between cash flows and accounting profits and discuss the relevance to capital budgeting of incremental cash flow, sunk cost, and opportunity cost"
+  },
+  {
+   "code": "E.1e",
+   "subsection": "E.1",
+   "group": null,
+   "text": "explain the importance of changes in net working capital in capital budgeting"
+  },
+  {
+   "code": "E.1f",
+   "subsection": "E.1",
+   "group": null,
+   "text": "discuss how the effects of inflation are reflected in capital budgeting analysis"
+  },
+  {
+   "code": "E.1g",
+   "subsection": "E.1",
+   "group": null,
+   "text": "define hurdle rate"
+  },
+  {
+   "code": "E.1h",
+   "subsection": "E.1",
+   "group": null,
+   "text": "identify alternative approaches to dealing with risk in capital budgeting"
+  },
+  {
+   "code": "E.1i",
+   "subsection": "E.1",
+   "group": null,
+   "text": "distinguish among sensitivity analysis, scenario analysis, and Monte Carlo simulation as risk analysis techniques"
+  },
+  {
+   "code": "E.1j",
+   "subsection": "E.1",
+   "group": null,
+   "text": "explain why a discount rate specifically adjusted for risk should be used when project cash flows are more risky or less risky than is normal for a company or business unit"
+  },
+  {
+   "code": "E.1k",
+   "subsection": "E.1",
+   "group": null,
+   "text": "explain how the value of a capital investment is increased if consideration is given to the possibility of adding on, speeding up, slowing down, or discontinuing early"
+  },
+  {
+   "code": "E.1l",
+   "subsection": "E.1",
+   "group": null,
+   "text": "demonstrate an understanding of real options, including the options to abandon, delay, expand, and scale back (calculations not required)"
+  },
+  {
+   "code": "E.1m",
+   "subsection": "E.1",
+   "group": null,
+   "text": "identify and discuss qualitative considerations involved in the capital budgeting decision"
+  },
+  {
+   "code": "E.1n",
+   "subsection": "E.1",
+   "group": null,
+   "text": "describe the role of the postaudit in the capital budgeting process"
+  },
+  {
+   "code": "E.2a",
+   "subsection": "E.2",
+   "group": null,
+   "text": "demonstrate an understanding of the two main discounted cash flow (DCF) methods, NPV and IRR"
+  },
+  {
+   "code": "E.2b",
+   "subsection": "E.2",
+   "group": null,
+   "text": "calculate NPV and IRR"
+  },
+  {
+   "code": "E.2c",
+   "subsection": "E.2",
+   "group": null,
+   "text": "demonstrate an understanding of the decision criteria used in NPV and IRR analyses to determine acceptable projects"
+  },
+  {
+   "code": "E.2d",
+   "subsection": "E.2",
+   "group": null,
+   "text": "compare NPV and IRR focusing on the relative advantages and disadvantages of each method, particularly with respect to independent vs. mutually exclusive projects and the “multiple IRR problem”"
+  },
+  {
+   "code": "E.2e",
+   "subsection": "E.2",
+   "group": null,
+   "text": "explain why NPV and IRR methods can produce conflicting rankings for capital projects if not applied properly"
+  },
+  {
+   "code": "E.2f",
+   "subsection": "E.2",
+   "group": null,
+   "text": "identify assumptions of NPV and IRR"
+  },
+  {
+   "code": "E.2g",
+   "subsection": "E.2",
+   "group": null,
+   "text": "evaluate and recommend project investments on the basis of DCF analysis"
+  },
+  {
+   "code": "E.2h",
+   "subsection": "E.2",
+   "group": null,
+   "text": "demonstrate an understanding of the payback and discounted payback methods"
+  },
+  {
+   "code": "E.2i",
+   "subsection": "E.2",
+   "group": null,
+   "text": "identify the advantages and disadvantages of the payback and discounted payback methods"
+  },
+  {
+   "code": "E.2j",
+   "subsection": "E.2",
+   "group": null,
+   "text": "calculate payback periods and discounted payback periods"
+  },
+  {
+   "code": "E.2k",
+   "subsection": "E.2",
+   "group": null,
+   "text": "define and calculate the profitability index"
+  },
+  {
+   "code": "E.2l",
+   "subsection": "E.2",
+   "group": null,
+   "text": "describe how sensitivity analysis is used in capital investment decision analysis"
+  },
+  {
+   "code": "F.1a",
+   "subsection": "F.1",
+   "group": null,
+   "text": "define business ethics"
+  },
+  {
+   "code": "F.1b",
+   "subsection": "F.1",
+   "group": null,
+   "text": "define the concepts of fairness, integrity, due diligence, and fiduciary responsibility, and how they impact ethical decision making"
+  },
+  {
+   "code": "F.1c",
+   "subsection": "F.1",
+   "group": null,
+   "text": "identify and explain the different types of business fraud, such as asset misappropriation, manipulation of financial statements, cash and inventory theft, payroll fraud, fake suppliers, and accounts receivable fraud"
+  },
+  {
+   "code": "F.2a",
+   "subsection": "F.2",
+   "group": null,
+   "text": "identify and describe the four overarching ethical principles and the four standards"
+  },
+  {
+   "code": "F.2b",
+   "subsection": "F.2",
+   "group": null,
+   "text": "evaluate a given business situation for its ethical implications"
+  },
+  {
+   "code": "F.2c",
+   "subsection": "F.2",
+   "group": null,
+   "text": "identify and describe relevant standards that may have been violated in a given business situation and explain why the specific standards are applicable"
+  },
+  {
+   "code": "F.2d",
+   "subsection": "F.2",
+   "group": null,
+   "text": "recommend a course of action for management accounting and financial management professionals to take when confronted with an ethical dilemma in the business environment"
+  },
+  {
+   "code": "F.2e",
+   "subsection": "F.2",
+   "group": null,
+   "text": "evaluate and propose resolutions for ethical issues such as fraudulent reporting or improper manipulation of forecasts, analyses, results, and budgets"
+  },
+  {
+   "code": "F.2f",
+   "subsection": "F.2",
+   "group": null,
+   "text": "identify the three components of the triangle"
+  },
+  {
+   "code": "F.2g",
+   "subsection": "F.2",
+   "group": null,
+   "text": "use the model to explain how a management accounting and financial management professional can identify and manage the risk of fraud"
+  },
+  {
+   "code": "F.3a",
+   "subsection": "F.3",
+   "group": null,
+   "text": "discuss the issues organizations face in applying their values and ethical standards internationally"
+  },
+  {
+   "code": "F.3b",
+   "subsection": "F.3",
+   "group": null,
+   "text": "demonstrate an understanding of the relationship between ethics and internal controls"
+  },
+  {
+   "code": "F.3c",
+   "subsection": "F.3",
+   "group": null,
+   "text": "define corporate culture and demonstrate an understanding of the role corporate culture plays in ethical decision making"
+  },
+  {
+   "code": "F.3d",
+   "subsection": "F.3",
+   "group": null,
+   "text": "demonstrate an understanding of the importance of a code of conduct and how it contributes to an organization’s ethical culture"
+  },
+  {
+   "code": "F.3e",
+   "subsection": "F.3",
+   "group": null,
+   "text": "demonstrate an understanding of the ways ethical values benefit an organization"
+  },
+  {
+   "code": "F.3f",
+   "subsection": "F.3",
+   "group": null,
+   "text": "analyze the impact of groupthink on ethical behavior"
+  },
+  {
+   "code": "F.3g",
+   "subsection": "F.3",
+   "group": null,
+   "text": "discuss how diversity of thought can lead to good ethical decisions"
+  },
+  {
+   "code": "F.3h",
+   "subsection": "F.3",
+   "group": null,
+   "text": "demonstrate an understanding of the role of “leadership by example” or “tone at the top” in determining an organization’s ethical environment"
+  },
+  {
+   "code": "F.3i",
+   "subsection": "F.3",
+   "group": null,
+   "text": "define ethical leadership, and identify and explain the traits of ethical leaders"
+  },
+  {
+   "code": "F.3j",
+   "subsection": "F.3",
+   "group": null,
+   "text": "explain the importance of creating a climate where “doing the right thing” is expected (e.g., hiring the right people, providing them with training, and practicing consistent values-based leadership)"
+  },
+  {
+   "code": "F.3k",
+   "subsection": "F.3",
+   "group": null,
+   "text": "explain the importance of an organization’s core values and how they promote ethical behavior and ethical decision making"
+  },
+  {
+   "code": "F.3l",
+   "subsection": "F.3",
+   "group": null,
+   "text": "discuss the importance of employee training to maintaining an ethical organizational culture"
+  },
+  {
+   "code": "F.3m",
+   "subsection": "F.3",
+   "group": null,
+   "text": "explain the importance of a whistleblowing framework to maintain an ethical organizational culture"
+  },
+  {
+   "code": "F.3n",
+   "subsection": "F.3",
+   "group": null,
+   "text": "demonstrate an understanding of the differences between ethical and legal behavior"
+  },
+  {
+   "code": "F.3o",
+   "subsection": "F.3",
+   "group": null,
+   "text": "identify the purpose of anti-bribery laws, such as the U.S. Foreign Corrupt Practices Act (FCPA) and the U.K. Bribery Act"
+  },
+  {
+   "code": "F.3p",
+   "subsection": "F.3",
+   "group": null,
+   "text": "discuss corporate responsibility for ethical conduct"
+  },
+  {
+   "code": "F.3q",
+   "subsection": "F.3",
+   "group": null,
+   "text": "define and demonstrate an understanding of the major issues of sustainability and social responsibility"
+  },
+  {
+   "code": "F.3r",
+   "subsection": "F.3",
+   "group": null,
+   "text": "identify and define the four levels of social responsibility: economic, legal, ethical, and philanthropic"
+  },
+  {
+   "code": "F.3s",
+   "subsection": "F.3",
+   "group": null,
+   "text": "identify and define the three conceptual spheres of sustainability: economic, environmental, and social"
+  },
+  {
+   "code": "F.3t",
+   "subsection": "F.3",
+   "group": null,
+   "text": "define data ethics and explain the principles of fairness, privacy, transparency, ownership, and accountability with respect to how companies and artificial intelligence (AI) models use and maintain the data they collect"
+  },
+  {
+   "code": "F.3u",
+   "subsection": "F.3",
+   "group": null,
+   "text": "demonstrate a general understanding of the purpose of governmental data protection regulations Acronyms/Abbreviations"
+  }
+ ]
+}

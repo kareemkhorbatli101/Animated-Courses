@@ -1,0 +1,464 @@
+{
+ "company": "Orontes Foods, Inc.",
+ "note": "Taken verbatim from CMA Part 1 Book 1: balance sheet ch2, income statement ch3, statement of cash flows ch5. Part 2 analyses these same statements, so every ratio it quotes must reconcile to them.",
+ "balance_sheet": {
+  "periods": [
+   "2025-12-31",
+   "2024-12-31"
+  ],
+  "rows": [
+   [
+    "ASSETS",
+    null,
+    null
+   ],
+   [
+    "Current assets",
+    null,
+    null
+   ],
+   [
+    "Cash",
+    7302100.0,
+    2100000.0
+   ],
+   [
+    "Trading securities",
+    42000.0,
+    40000.0
+   ],
+   [
+    "Accounts receivable, net of allowance (2025: 156,000; 2024: 140,000)",
+    4144000.0,
+    3760000.0
+   ],
+   [
+    "Inventory",
+    2450000.0,
+    2300000.0
+   ],
+   [
+    "Prepaid expenses",
+    204000.0,
+    180000.0
+   ],
+   [
+    "Assets held for sale",
+    46000.0,
+    null
+   ],
+   [
+    "Total current assets",
+    14188100.0,
+    8380000.0
+   ],
+   [
+    "Noncurrent assets",
+    null,
+    null
+   ],
+   [
+    "Debt securities (held-to-maturity and available-for-sale)",
+    88500.0,
+    90000.0
+   ],
+   [
+    "Equity securities",
+    27000.0,
+    25000.0
+   ],
+   [
+    "Equity-method investments",
+    1807000.0,
+    500000.0
+   ],
+   [
+    "Property, plant and equipment, net of accumulated depreciation (2025: 11,988,000; 2024: 8,000,000)",
+    14802000.0,
+    16000000.0
+   ],
+   [
+    "Brand (indefinite-lived)",
+    260000.0,
+    300000.0
+   ],
+   [
+    "Goodwill",
+    300000.0,
+    950000.0
+   ],
+   [
+    "Other noncurrent assets",
+    200000.0,
+    200000.0
+   ],
+   [
+    "TOTAL ASSETS",
+    31672600.0,
+    26445000.0
+   ],
+   [
+    "LIABILITIES AND STOCKHOLDERS' EQUITY",
+    null,
+    null
+   ],
+   [
+    "Current liabilities",
+    null,
+    null
+   ],
+   [
+    "Accounts payable",
+    2050000.0,
+    1900000.0
+   ],
+   [
+    "Accrued liabilities",
+    900000.0,
+    850000.0
+   ],
+   [
+    "Income taxes payable",
+    350000.0,
+    300000.0
+   ],
+   [
+    "Contract liabilities",
+    180000.0,
+    120000.0
+   ],
+   [
+    "Dividends payable",
+    400000.0,
+    null
+   ],
+   [
+    "Current portion of long-term debt",
+    400000.0,
+    400000.0
+   ],
+   [
+    "Total current liabilities",
+    4280000.0,
+    3570000.0
+   ],
+   [
+    "Long-term debt, less current portion",
+    6000000.0,
+    5600000.0
+   ],
+   [
+    "Deferred tax liability",
+    999625.0,
+    900000.0
+   ],
+   [
+    "Total liabilities",
+    11279625.0,
+    10070000.0
+   ],
+   [
+    "Commitments and contingencies (Note 12)",
+    null,
+    null
+   ],
+   [
+    "Stockholders' equity",
+    null,
+    null
+   ],
+   [
+    "Common stock, $1 par; shares issued and outstanding: 2025 8,100,000, 2024 8,000,000",
+    8100000.0,
+    8000000.0
+   ],
+   [
+    "Additional paid-in capital",
+    5400000.0,
+    4000000.0
+   ],
+   [
+    "Retained earnings",
+    6894100.0,
+    4375000.0
+   ],
+   [
+    "Accumulated other comprehensive income (loss)",
+    -1125.0,
+    null
+   ],
+   [
+    "Total stockholders' equity",
+    20392975.0,
+    16375000.0
+   ],
+   [
+    "TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY",
+    31672600.0,
+    26445000.0
+   ]
+  ]
+ },
+ "income_statement": {
+  "periods": [
+   "2025"
+  ],
+  "rows": [
+   [
+    "Net sales",
+    42000000.0
+   ],
+   [
+    "Cost of goods sold",
+    -27300000.0
+   ],
+   [
+    "Gross profit",
+    14700000.0
+   ],
+   [
+    "Operating expenses",
+    null
+   ],
+   [
+    "Selling, general and administrative",
+    -7237000.0
+   ],
+   [
+    "Credit loss expense",
+    -63000.0
+   ],
+   [
+    "Research and development",
+    -500000.0
+   ],
+   [
+    "Impairment losses",
+    -2724000.0
+   ],
+   [
+    "Total operating expenses",
+    -10524000.0
+   ],
+   [
+    "Operating income",
+    4176000.0
+   ],
+   [
+    "Other income and (expense)",
+    null
+   ],
+   [
+    "Interest expense",
+    -390000.0
+   ],
+   [
+    "Interest and dividend income",
+    3800.0
+   ],
+   [
+    "Unrealized gains on securities",
+    4000.0
+   ],
+   [
+    "Equity-method income",
+    177000.0
+   ],
+   [
+    "Gain on sale of equipment",
+    3000.0
+   ],
+   [
+    "Loss on sale of receivables",
+    -15000.0
+   ],
+   [
+    "Total other income and (expense)",
+    -217200.0
+   ],
+   [
+    "Income before income taxes",
+    3958800.0
+   ],
+   [
+    "Income tax expense",
+    -989700.0
+   ],
+   [
+    "Net income",
+    2969100.0
+   ],
+   [
+    "Earnings per share, basic and diluted",
+    0.37
+   ],
+   [
+    "Weighted-average shares outstanding",
+    8099726.0
+   ],
+   [
+    "Other comprehensive income",
+    null
+   ],
+   [
+    "Unrealized loss on available-for-sale debt securities, net of tax of 375",
+    -1125.0
+   ],
+   [
+    "Comprehensive income",
+    2967975.0
+   ]
+  ]
+ },
+ "cash_flows": {
+  "periods": [
+   "2025"
+  ],
+  "rows": [
+   [
+    "Cash flows from operating activities",
+    null
+   ],
+   [
+    "Net income",
+    2969100.0
+   ],
+   [
+    "Adjustments to reconcile net income to net cash from operating activities:",
+    null
+   ],
+   [
+    "Depreciation",
+    2100000.0
+   ],
+   [
+    "Impairment losses",
+    2724000.0
+   ],
+   [
+    "Equity-method income",
+    -177000.0
+   ],
+   [
+    "Dividends from equity-method investees",
+    70000.0
+   ],
+   [
+    "Gain on sale of equipment",
+    -3000.0
+   ],
+   [
+    "Unrealized gains on securities",
+    -4000.0
+   ],
+   [
+    "Deferred income taxes",
+    100000.0
+   ],
+   [
+    "Increase in accounts receivable, net",
+    -384000.0
+   ],
+   [
+    "Increase in inventory",
+    -150000.0
+   ],
+   [
+    "Increase in prepaid expenses",
+    -24000.0
+   ],
+   [
+    "Increase in accounts payable",
+    150000.0
+   ],
+   [
+    "Increase in accrued liabilities",
+    50000.0
+   ],
+   [
+    "Increase in income taxes payable",
+    50000.0
+   ],
+   [
+    "Increase in contract liabilities",
+    60000.0
+   ],
+   [
+    "Net cash provided by operating activities",
+    7531100.0
+   ],
+   [
+    "Cash flows from investing activities",
+    null
+   ],
+   [
+    "Purchases of property, plant and equipment",
+    -3000000.0
+   ],
+   [
+    "Proceeds from sale of equipment",
+    21000.0
+   ],
+   [
+    "Investment in Jordan Glass Co.",
+    -1200000.0
+   ],
+   [
+    "Net cash used in investing activities",
+    -4179000.0
+   ],
+   [
+    "Cash flows from financing activities",
+    null
+   ],
+   [
+    "Issuance of common stock",
+    1500000.0
+   ],
+   [
+    "Proceeds from bank note",
+    800000.0
+   ],
+   [
+    "Repayment of long-term debt",
+    -400000.0
+   ],
+   [
+    "Dividends paid",
+    -50000.0
+   ],
+   [
+    "Net cash provided by financing activities",
+    1850000.0
+   ],
+   [
+    "Net increase in cash",
+    5202100.0
+   ],
+   [
+    "Cash, January 1, 2025",
+    2100000.0
+   ],
+   [
+    "Cash, December 31, 2025",
+    7302100.0
+   ],
+   [
+    "Supplemental disclosures",
+    null
+   ],
+   [
+    "Interest paid",
+    390000.0
+   ],
+   [
+    "Income taxes paid",
+    839700.0
+   ],
+   [
+    "Noncash investing and financing activities",
+    null
+   ]
+  ]
+ }
+}
