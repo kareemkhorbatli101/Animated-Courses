@@ -1,0 +1,433 @@
+Chapter 7
+Swaps, leases, convertibles and warrants; tax and capital structure
+المقايضات والتأجير والسندات القابلة للتحويل وحقوق الاكتتاب والضريبة وهيكل رأس المال
+Chapter 6 dealt with contracts that move a price risk. This chapter deals with contracts that change the shape of a company's funding: an agreement that turns floating-rate debt into fixed without repaying anything, a lease that obtains an asset without buying it, a bond that may become a share, a right to subscribe that is attached to one security and traded as another.
+They look like four unrelated instruments and they have one thing in common. Each lets a company obtain a financing outcome it could reach in a more obvious way, more cheaply or more flexibly than the obvious way allows. The chapter closes on the tax system, which is the reason several of them exist at all.
+Figure F607-01 is your map.
+Figure F607-01. Chapter 7 roadmap: four ways to reshape a financing, and the tax behind them.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.2.n | Define interest rate swaps and foreign currency swaps. | C | Full treatment
+B.2.o | Identify the characteristics of leases, convertible securities and warrants as long-term financing. | C | Full treatment
+B.2.v | Explain how income taxes affect capital structure and capital investment decisions. | C | Full treatment
+B.2.g | Carry the tax treatment of interest into the capital structure decision. | B | Reinforced (introduced in Chapter 4)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+interest rate swap | مقايضة أسعار الفائدة | swap de taux d'intérêt
+notional principal | المبلغ الإسمي | notionnel
+currency swap | مقايضة العملات | swap de devises
+comparative advantage | الميزة النسبية | avantage comparatif
+operating lease | عقد التأجير التشغيلي | contrat de location simple
+finance lease | عقد التأجير التمويلي | contrat de location-financement
+convertible bond | السند القابل للتحويل | obligation convertible
+warrant | حق الاكتتاب | bon de souscription
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 4 established that interest is deductible and dividends are not, so 6 per cent debt costs 4.5 per cent after tax at a 25 per cent rate. Chapter 3 described the features that raise or lower a coupon. Part 1 taught the accounting for leases. This chapter uses all three.
+7.1  Interest rate swaps
+An interest rate swap is an agreement between two parties to exchange interest payments on a notional principal for a stated period. One pays fixed and receives floating; the other does the opposite. The principal itself is never exchanged, which is why it is called notional: it exists only to compute the payments.
+The mechanics are simple. A company with $10,000,000 of floating-rate debt agrees to pay 6 per cent fixed and receive the floating rate. If the floating rate for a period is 4.5 per cent, the company pays 10,000,000 × 0.06 = 600,000 and receives 10,000,000 × 0.045 = 450,000, so it settles 600,000 − 450,000 = 150,000 net. Meanwhile it is paying 4.5 per cent to its own lender, which the swap receipt covers exactly. Its total cost is 6 per cent fixed, whatever the floating rate does.
+Why not simply borrow at a fixed rate in the first place? Three reasons the exam accepts.
+The company's circumstances changed. The debt was issued years ago on a view of rates that no longer holds, and repaying a bond early costs a call premium and issue costs, as Chapter 4 computed. A swap changes the exposure without touching the debt.
+The company can borrow more cheaply in one market than the other. This is the comparative advantage argument and it is the classic exam question. Suppose a strong company can borrow fixed at 5.0 per cent or floating at the reference rate plus 0.3 points, while a weaker one pays fixed 7.0 per cent or floating plus 1.0 point. The strong company is better in both markets, but it is better by 7.0 − 5.0 = 2.0 points in the fixed market and only by 1.0 − 0.3 = 0.7 points in the floating one. The difference, 2.0 − 0.7 = 1.3 points, is a gain available to be shared: each borrows where its advantage is largest and they swap, and both end up paying less than they could have on their own.
+Flexibility and cost. A swap can be arranged in days, costs no issue fees and can be reversed with an offsetting swap.
+The risks are real and examinable. A swap carries counterparty risk, since the other side may fail — which is why most swaps now clear through a central counterparty, as futures do. And a swap entered without a matching exposure is a speculation on rates, exactly as a surplus hedge was in Chapter 6.
+Figure F607-02 works the comparative advantage example through.
+Figure F607-02. A swap that leaves both parties better off
+@table
+Step | The strong company | The weaker company
+Can borrow fixed at | 5.0% | 7.0%
+Can borrow floating at | Reference + 0.3 | Reference + 1.0
+Where its advantage is larger | Fixed, by 2.0 points | Floating, by the smaller gap
+What it actually borrows | Fixed at 5.0% | Floating at reference + 1.0
+What it wants | Floating | Fixed
+The swap | Receives fixed, pays floating | Pays fixed, receives floating
+Total gain to be shared | 1.3 points | 1.3 points
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+plain vanilla swap | المقايضة البسيطة | swap standard
+counterparty risk | مخاطر الطرف المقابل | risque de contrepartie
+reference rate | السعر المرجعي | taux de référence
+swap spread | فارق المقايضة | écart de swap
+@end
+SECTION CHECK   Test yourself
+SC7-1  In an interest rate swap, the principal is:
+A.	notional, and never exchanged.
+B.	exchanged at the start and repaid at the end.
+C.	paid by the fixed-rate payer only.
+D.	not specified.
+SC7-2  A company paying 6 per cent fixed and receiving a 4.5 per cent floating rate on 10,000,000 settles:
+A.	150,000 net paid.
+B.	600,000 net paid.
+C.	450,000 net received.
+D.	nothing.
+SC7-3  The comparative advantage argument for a swap says that:
+A.	each party borrows where its advantage is larger, and both share the difference.
+B.	the stronger party should lend to the weaker.
+C.	swaps are free.
+D.	both parties must have the same credit standing.
+Answers and explanations are at the end of the chapter.
+7.2  Currency swaps
+A currency swap exchanges principal and interest in one currency for principal and interest in another. Unlike an interest rate swap, the principal is exchanged — at the start, at the end, or both — because the two amounts are in different currencies and there is no way to net them.
+The use is straightforward. A company that earns in one currency and has borrowed in another has a mismatch: its debt service rises when the borrowing currency strengthens, and the business does nothing to offset it. A currency swap converts the obligation into the currency the company earns, which is the natural hedge of Chapter 6 constructed artificially.
+Two motives recur in questions.
+Access. A company may be able to borrow cheaply in its home market and not at all in a market where it has just started operating. It borrows at home, swaps into the foreign currency, and services the foreign debt from the foreign revenue.
+Matching. A company with a long-term foreign investment uses the swap so that both the asset and the liability move with the same rate, so that a currency move changes the value of both together and the net position is stable. That is the translation exposure of Book 1, Chapter 18, managed.
+The risks are the interest rate swap's risks plus one. Counterparty risk is larger, because the principal is exchanged and the amounts at stake are bigger than a stream of interest differences. And the swap fixes the rate for its term, so a company whose foreign operations shrink is left with a hedge larger than its exposure, which is a speculation it did not intend.
+Figure F607-03 compares the two kinds of swap.
+Figure F607-03. Two swaps
+@table
+Feature | Interest rate swap | Currency swap
+What is exchanged | Interest payments only | Interest and principal
+Principal | Notional, never exchanged | Exchanged, in two currencies
+Main use | Change fixed to floating, or back | Match debt to the currency earned
+Main risk | Counterparty, and rate moves | Counterparty, and currency moves
+@end
+EXAM TRAP   Notional against exchanged
+An interest rate swap's principal is never exchanged. A currency swap's principal is. A question that says "the principal is exchanged at the start" has told you which swap it is.
+A swap does not change the underlying borrowing. The original loan stays on the balance sheet and the swap sits beside it.
+Both parties to a swap can be better off, because they start from different costs in two markets. Nobody creates money; a gap in relative pricing is shared.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+principal exchange | تبادل أصل المبلغ | échange de nominal
+currency mismatch | عدم تطابق العملات | déséquilibre de devises
+debt service | خدمة الدين | service de la dette
+@end
+SECTION CHECK   Test yourself
+SC7-4  A currency swap differs from an interest rate swap in that:
+A.	the principal is actually exchanged.
+B.	no interest is paid.
+C.	it cannot be used to hedge.
+D.	it has no counterparty risk.
+SC7-5  A company earning dinars and owing dollars uses a currency swap to:
+A.	convert the obligation into the currency it earns.
+B.	speculate on the dinar.
+C.	reduce its interest rate.
+D.	avoid consolidation.
+Answers and explanations are at the end of the chapter.
+7.3  Leases as a source of finance
+A lease is a contract giving the use of an asset for a period in exchange for payments. As a financing device it has one defining feature: the company obtains the asset without paying for it at once, and the lessor keeps legal title.
+The accounting distinction Part 1 taught matters commercially as well. A finance lease transfers substantially all the risks and rewards of ownership — a long term relative to the asset's life, a bargain purchase option, present value of payments close to fair value — and it is capitalised, so an asset and a liability both appear. An operating lease does not transfer those risks and, under current US GAAP, still produces a right-of-use asset and a lease liability on the balance sheet, with the expense presented as a single operating cost rather than as interest and depreciation.
+The advantages the exam expects are these.
+Conservation of cash. No large payment at the start, so the company's own capital stays available.
+Access for a company that cannot borrow. The lessor retains title, so its exposure is better secured than a lender's, and it will often provide for a weaker company at a rate no bank would offer.
+The tax position of the lessor. A lessor with taxable profits can use the depreciation allowances; a loss-making lessee cannot. The lessor prices the lease to keep part of that benefit and pass part to the lessee, so a lease can genuinely be cheaper than borrowing for a company with no taxable income. This is the single most examinable reason to lease.
+Protection against obsolescence, where the lease is short and the asset is technology.
+Fewer covenants than a comparable loan, and faster arrangement.
+The disadvantages are the mirror image. The implicit interest rate in a lease is usually higher than a secured loan's; the company has no residual asset at the end unless it buys one; a long lease is a fixed obligation exactly as debt is, and the rating agencies and Book 1's fixed-charge coverage ratio both treat it as such; and breaking a lease early is normally expensive.
+Chapter 11 computes the net advantage to leasing properly, as a discounted cash flow against the alternative of borrowing and buying. The point here is the list of reasons a company would want one.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+lessor | المؤجر | bailleur
+lessee | المستأجر | preneur
+residual value | القيمة المتبقية | valeur résiduelle
+obsolescence | التقادم التقني | obsolescence
+@end
+SECTION CHECK   Test yourself
+SC7-6  The most examinable economic reason for a loss-making company to lease is that:
+A.	the lessor can use the tax allowances and prices the lease to share the benefit.
+B.	leases never appear on the balance sheet.
+C.	leasing is always cheaper.
+D.	leases carry no fixed obligations.
+SC7-7  A finance lease is one that:
+A.	transfers substantially all the risks and rewards of ownership.
+B.	runs for a month.
+C.	carries no liability.
+D.	is always cancellable.
+SC7-8  Lease obligations are treated by the fixed-charge coverage ratio as:
+A.	a fixed charge, like interest.
+B.	an operating cost with no financing character.
+C.	equity.
+D.	irrelevant.
+Answers and explanations are at the end of the chapter.
+7.4  Convertibles and warrants
+A convertible bond is a bond that its holder may exchange for a fixed number of common shares. A warrant is a right to subscribe for new shares at a stated price, usually issued attached to a bond and then detachable and traded separately.
+Both are debt with an equity option attached, and the arithmetic of both is the same.
+The conversion ratio is the number of shares a bond converts into. The conversion price is the par value divided by that ratio: a $1,000 bond converting into 25 shares has a conversion price of 1,000 ÷ 25 = 40.00 a share. The conversion value is the ratio times the current share price: at $36 a share it is 25 × 36 = 900, and at $48 a share it is 25 × 48 = 1,200. A convertible's market price is never below the higher of its conversion value and its value as a straight bond, because either floor can be realised.
+WORKED EXAMPLE   Worked example: what the convertible costs the issuer
+Step 1. The saving. A company issues $10,000,000 of convertible bonds at a 5 per cent coupon when its straight debt would cost 7 per cent. The saving is two points: 10,000,000 × 0.02 = 200,000 a year of interest not paid.
+Step 2. What was given away. The conversion right. At a conversion price of $40 against a current share price of $34, the holders may buy shares at $40 that the company could otherwise have sold at the market price of whatever day they convert.
+Step 3. The outcome if the shares do well. If the shares reach $60, holders convert: the company issues 250,000 shares for $10,000,000 of debt extinguished, which is $40 a share for stock worth $60. It has sold equity at a third below the market, and the cheap coupon over the life was the price it received for doing so.
+Step 4. The outcome if the shares do badly. If the shares stay at $30, nobody converts, the bonds are repaid at par, and the company has borrowed at 5 per cent instead of 7. The saving was real and the option expired worthless.
+Check. A convertible is not cheap debt. It is debt sold together with a call option on the company's own shares, and the discount on the coupon is the premium received for the option. Whether it was a good bargain is known only afterwards, which is why the exam asks for the mechanism rather than for a verdict.
+Figure F607-04 collects the terms.
+Figure F607-04. A convertible, measured
+@table
+Measure | Computation | On a 1,000 bond converting into 25 shares
+Conversion ratio | Stated in the indenture | 25 shares
+Conversion price | Par over the ratio | 40.00
+Conversion value at a 36 share price | Ratio times price | 900
+Conversion value at a 48 share price | Ratio times price | 1,200
+Straight bond value | Discounted at the straight rate | Below par if the coupon is below market
+Market price | Never below the higher of the two floors | The higher of the above
+@end
+Warrants differ from convertibles in three ways the exam tests. Exercising a warrant brings new money into the company, because the holder pays the exercise price in cash; converting a bond brings none, since debt is simply extinguished. A warrant is detachable and trades separately, so the bond and the option can end in different hands. And warrants are usually longer-dated than the conversion rights attached to bonds.
+A warrant's intrinsic value works exactly as a call's: at an exercise price of $30 with the shares at $38, it is 38 − 30 = 8.
+Both instruments dilute. Book 1, Chapter 16 computed diluted earnings per share for exactly these securities, by the if-converted method for a convertible and the treasury stock method for a warrant.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+conversion ratio | نسبة التحويل | ratio de conversion
+conversion price | سعر التحويل | prix de conversion
+detachable warrant | حق اكتتاب قابل للفصل | bon détachable
+sweetener | محفز الإصدار | édulcorant financier
+@end
+SECTION CHECK   Test yourself
+SC7-9  A 1,000 par bond converting into 25 shares has a conversion price of:
+A.	40.00
+B.	25.00
+C.	1,000.00
+D.	4.00
+SC7-10  Exercising a warrant, unlike converting a bond:
+A.	brings new cash into the company.
+B.	extinguishes debt.
+C.	issues no shares.
+D.	is compulsory.
+SC7-11  A convertible carries a lower coupon than straight debt because:
+A.	the holder has been given a valuable conversion option.
+B.	it ranks ahead of other debt.
+C.	it matures sooner.
+D.	it is secured.
+Answers and explanations are at the end of the chapter.
+7.5  Taxes, capital structure and investment
+The outcome asks how income taxes affect capital structure and capital investment decisions, and the answer has four parts.
+The shield favours debt. Interest is deductible and dividends are not, so each dollar of interest saves the company its tax rate in cash. On $10,000,000 of debt at a 25 per cent rate, the whole shield is worth 10,000,000 × 0.25 = 2,500,000 in present value terms if the debt is permanent — the standard textbook result, and the reason a tax system that favours one kind of money changes how companies are funded.
+Distress sets the limit. The shield is worth nothing to a company that cannot pay. Past some level of borrowing the expected costs of financial distress — a higher rate demanded by lenders, suppliers tightening terms, customers doubting warranties, management's time consumed, and in the extreme the direct costs of a bankruptcy — rise faster than the shield grows. The optimum is where the two margins meet, and it differs by industry: a company with stable cash flows and tangible assets can carry far more debt than one whose value is a brand and a pipeline of research.
+Personal taxes work the other way. Interest received is usually taxed at a higher personal rate than dividends and capital gains, so investors demand more for holding debt than the corporate shield alone would suggest, and part of the company-level advantage is given back. The exam mentions this as a qualification rather than asking for a calculation.
+Tax reaches investment decisions too, and in three places. Depreciation is deductible, so an asset generates a tax shield of its own: Orontes's $2,100,000 depreciation charge saves 2,100,000 × 0.25 = 525,000 of tax a year, and that saving is a cash flow of the project that bought the asset. Only after-tax cash flows are discounted, so a project's revenues and costs are taken net of tax. And the discount rate is the after-tax cost of capital, which Chapter 8 builds — using the after-tax cost of debt, because the shield has already been counted there.
+One warning, repeated from Chapter 4 because candidates lose marks on it. The tax shield is not a reason to prefer a bad project. A project that earns less than its cost of capital destroys value whether or not it was financed with debt, and the financing decision is separate from the investment decision. Mixing them is the most common error in Section B and Book 3 is built on keeping them apart.
+Figure F607-05 collects the effects.
+Figure F607-05. Where tax touches the financing and investment decisions
+@table
+Decision | The tax effect | Direction | Limit
+Debt against equity | Interest deductible, dividends not | Favours debt | Distress costs
+How much debt | The shield grows with the debt | Favours more | The optimum, where margins meet
+Which project | Cash flows are taken after tax | Lowers every return | None; it applies to all
+Buying an asset | Depreciation is deductible | A separate shield | The asset's tax life
+Leasing | The lessor uses the allowances | Favours leasing for a loss-maker | The lessor's pricing
+@end
+YOUR TURN   Reshape a financing
+Figure F607-06 gives five small problems. Complete the blanks. Answers are at the end of the chapter.
+Figure F607-06. Your turn: swaps, convertibles and tax (complete the blanks)
+@table
+Item | Data | Answer
+Net swap settlement | Pays 5.5% fixed, receives 4.0% floating, notional 8,000,000 | ________
+Conversion price | 1,000 par bond converting into 20 shares | ________
+Conversion value | At a share price of 56 | ________
+Warrant intrinsic value | Exercise price 30, share price 38 | ________
+Annual coupon saving on a convertible | 20,000,000 issued at 4.5% against straight debt at 6.5% | ________
+Permanent tax shield | 20,000,000 of debt at a 25 per cent tax rate | ________
+@end
+LANGUAGE FOCUS   "Notional"
+English notional in finance means a reference amount used to compute payments and never itself paid — the notional principal of a swap. In ordinary English it means imaginary or theoretical, which is close enough to mislead: the notional amount is not imaginary, and the payments computed on it are entirely real. Arabic المبلغ الإسمي, literally the nominal amount, keeps the sense of a stated reference. French notionnel is the technical term and montant notionnel the full phrase, and French usefully reserves nominal for the par value of a security. The practical consequence is in the exam: a question that gives you a notional principal of $10,000,000 is not telling you that anybody will pay ten million, only that the interest difference is computed on it.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+optimal capital structure | هيكل رأس المال الأمثل | structure financière optimale
+bankruptcy cost | تكلفة الإفلاس | coût de faillite
+depreciation tax shield | الوفر الضريبي للإهلاك | économie d'impôt liée à l'amortissement
+after-tax cash flow | التدفق النقدي بعد الضريبة | flux de trésorerie après impôt
+@end
+SECTION CHECK   Test yourself
+SC7-12  The permanent tax shield on 10,000,000 of debt at a 25 per cent tax rate is:
+A.	2,500,000
+B.	250,000
+C.	10,000,000
+D.	750,000
+SC7-13  The limit on borrowing for the tax shield is set by:
+A.	the expected costs of financial distress.
+B.	the company's share price.
+C.	the statutory tax rate.
+D.	nothing; more debt is always better.
+SC7-14  A project that earns less than its cost of capital:
+A.	destroys value, however it is financed.
+B.	becomes acceptable if financed with debt.
+C.	should be financed with equity.
+D.	is acceptable if it generates a tax shield.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F607-07 brings the chapter together.
+Figure F607-07. Chapter 7 summary map: the key rule for each section.
+An interest rate swap exchanges fixed payments for floating on a notional principal that is never exchanged: pay 6 per cent and receive 4.5 on ten million and 600,000 − 450,000 = 150,000 changes hands, and two companies with different relative costs in two markets can share a 1.3-point gain by each borrowing where its advantage is larger. A currency swap exchanges the principal too, and converts a debt into the currency a company earns. A lease obtains an asset without buying it, and the examinable reason a loss-maker leases is that the lessor can use the tax allowances it cannot. A convertible is debt plus a call option on the issuer's own shares: a 1,000 bond into 25 shares has a conversion price of 1,000 ÷ 25 = 40.00 and a conversion value of 25 × 48 = 1,200 at a 48 share price, and the two points of coupon saved — 10,000,000 × 0.02 = 200,000 a year — are the premium received for the option, while a warrant differs in bringing new cash in and trading separately. And tax runs through all of it: a permanent shield of 10,000,000 × 0.25 = 2,500,000 favours debt until distress costs overtake it, depreciation of $2,100,000 shields $525,000 a year of Orontes's tax, and no shield ever makes a project worth doing that does not earn its cost of capital.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P7-01  In an interest rate swap the principal is:
+A.	notional and not exchanged.
+B.	exchanged at the start.
+C.	exchanged at the end.
+D.	paid in two currencies.
+P7-02  A company pays 5.5 per cent fixed and receives 4.0 per cent floating on a notional of 8,000,000. It settles:
+A.	120,000 paid.
+B.	440,000 paid.
+C.	320,000 received.
+D.	nothing.
+P7-03  Two companies swap because:
+A.	each has a comparative advantage in a different market.
+B.	one is more creditworthy in both markets.
+C.	swaps are costless.
+D.	both want floating-rate debt.
+P7-04  A currency swap exchanges:
+A.	both interest and principal, in two currencies.
+B.	interest only.
+C.	principal only, with no interest.
+D.	shares for bonds.
+P7-05  The strongest economic reason for a loss-making company to lease rather than buy is that:
+A.	the lessor can use the depreciation allowances.
+B.	leases are off balance sheet.
+C.	leases have no fixed obligations.
+D.	leasing is always cheaper than borrowing.
+P7-06  A 1,000 par bond converts into 20 shares. The conversion price is:
+A.	50.00
+B.	20.00
+C.	1,000.00
+D.	5.00
+P7-07  That bond's conversion value when the shares trade at 56 is:
+A.	1,120
+B.	1,000
+C.	56
+D.	560
+P7-08  A warrant with an exercise price of 30 when the shares trade at 38 has an intrinsic value of:
+A.	8
+B.	30
+C.	38
+D.	nil
+P7-09  A convertible's coupon is lower than straight debt because:
+A.	the issuer has sold an option on its own shares.
+B.	it is secured.
+C.	it ranks senior.
+D.	it is shorter-dated.
+P7-10  Which statement about tax and investment decisions is correct?
+A.	Only after-tax cash flows should be discounted, at an after-tax cost of capital.
+B.	Tax shields make any project worthwhile.
+C.	Depreciation is not a tax-relevant item.
+D.	The financing decision determines whether a project is acceptable.
+Case-style practice: Barada's financing, reconsidered
+Barada Wholesale needs $1,500,000. Book 1 found that a 7 per cent bank loan would breach its debt-to-equity covenant of 1.50 and that a share subscription would cost the owner a quarter of the company. Barada's effective tax rate is 25 per cent and it is marginally profitable, with net income of $283,500. A leasing company offers to finance $1,500,000 of warehouse equipment over five years. A merchant bank proposes convertible loan notes at 4 per cent, converting at $7.50 a share against a current value of about $6.00.
+Required. Evaluate the lease and the convertible against the two options Book 1 considered, naming for each what it costs the owner and whether the covenant is affected. Recommend one. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC7-1  Answer A. The principal is a reference amount only.
+B is wrong. That is a currency swap.
+C is wrong. Neither party pays the principal.
+D is wrong. The notional is always stated, since the payments depend on it.
+SC7-2  Answer A. 600,000 − 450,000 = 150,000 paid.
+B is wrong. That is the gross fixed payment.
+C is wrong. The company pays the larger leg, so it is a net payer.
+D is wrong. The two legs differ, so something settles.
+SC7-3  Answer A. Each borrows where its advantage is larger and the gap is shared.
+B is wrong. A swap is not a loan between the parties.
+C is wrong. Swaps carry fees and counterparty risk.
+D is wrong. Different credit standing is what creates the opportunity.
+SC7-4  Answer A. Principal in two currencies cannot be netted, so it is exchanged.
+B is wrong. Interest is exchanged in both kinds of swap.
+C is wrong. Hedging is its principal use.
+D is wrong. Counterparty risk is larger, not absent.
+SC7-5  Answer A. The debt service then moves with the revenue.
+B is wrong. Speculation would be taking an unmatched position.
+C is wrong. The rate may change incidentally; the purpose is the currency.
+D is wrong. Consolidation is an accounting matter, not avoided by a swap.
+SC7-6  Answer A. The lessor has taxable profit and can use the allowances.
+B is wrong. Current standards put a right-of-use asset and a liability on the balance sheet.
+C is wrong. A lease is not always cheaper.
+D is wrong. A lease is a fixed obligation.
+SC7-7  Answer A. Substantially all the risks and rewards pass to the lessee.
+B is wrong. A one-month lease transfers nothing of the kind.
+C is wrong. A finance lease creates a liability.
+D is wrong. Cancellability points away from a finance lease.
+SC7-8  Answer A. Lease payments are fixed charges in the coverage ratio.
+B is wrong. The ratio exists precisely to capture them.
+C is wrong. A lease obligation is not equity.
+D is wrong. Book 1 computed a fixed-charge coverage of 9.42 including them.
+SC7-9  Answer A. 1,000 ÷ 25 = 40.00.
+B is wrong. That is the conversion ratio.
+C is wrong. That is par.
+D is wrong. This divides the ratio by par.
+SC7-10  Answer A. The holder pays the exercise price in cash.
+B is wrong. Conversion extinguishes debt; a warrant does not.
+C is wrong. Both issue shares.
+D is wrong. Both are rights, not obligations.
+SC7-11  Answer A. The option has value and the holder pays for it in a lower coupon.
+B is wrong. Convertibles are usually subordinated, not senior.
+C is wrong. Maturity is not the reason.
+D is wrong. Convertibles are typically unsecured.
+SC7-12  Answer A. 10,000,000 × 0.25 = 2,500,000.
+B is wrong. This misplaces the decimal.
+C is wrong. That is the debt itself.
+D is wrong. This has no basis in the figures.
+SC7-13  Answer A. Distress costs eventually exceed the shield.
+B is wrong. The share price reflects the structure rather than limiting it.
+C is wrong. The rate determines the size of the shield, not the limit.
+D is wrong. Unlimited borrowing is the error the limit corrects.
+SC7-14  Answer A. The investment decision is separate from the financing decision.
+B is wrong. Cheap money does not make a bad project good.
+C is wrong. The source of money does not rescue the return.
+D is wrong. A shield on a value-destroying project still destroys value.
+Your turn
+@table
+Item | Answer
+Net swap settlement | 120,000 paid: 8,000,000 × 0.055 = 440,000 paid and 8,000,000 × 0.040 = 320,000 received, so 440,000 − 320,000 = 120,000.
+Conversion price | 50.00: 1,000 ÷ 20 = 50.00.
+Conversion value | 1,120: 20 × 56 = 1,120.
+Warrant intrinsic value | 8: 38 − 30 = 8.
+Annual coupon saving | 400,000: 20,000,000 × 0.02 = 400,000.
+Permanent tax shield | 5,000,000: 20,000,000 × 0.25 = 5,000,000.
+What it tells you | Every line is a price for something given up. The swap payer has bought certainty at 1.5 points a year on these rates; the convertible issuer has sold a call on its own shares for 400,000 a year; and the shield of 5,000,000 is what the tax system pays a company for carrying twenty million of debt — until the distress costs arrive.
+@end
+Multiple-choice questions
+P7-01  Answer A. The principal is notional.
+B is wrong. That is a currency swap.
+C is wrong. The same point applies.
+D is wrong. Two currencies means a currency swap.
+P7-02  Answer A. 440,000 − 320,000 = 120,000.
+B is wrong. That is the gross fixed leg.
+C is wrong. The company is a net payer.
+D is wrong. The legs differ, so a settlement occurs.
+P7-03  Answer A. Comparative advantage in different markets creates the gain.
+B is wrong. Absolute advantage in both markets does not prevent a swap; the relative gap does the work.
+C is wrong. Swaps have costs.
+D is wrong. If both wanted floating there would be nothing to swap.
+P7-04  Answer A. Interest and principal, in two currencies.
+B is wrong. That is an interest rate swap.
+C is wrong. Interest is exchanged as well.
+D is wrong. No securities change hands.
+P7-05  Answer A. The lessor uses the allowances the lessee cannot.
+B is wrong. Current standards capitalise most leases.
+C is wrong. Lease payments are fixed obligations.
+D is wrong. Leasing is often more expensive for a profitable borrower.
+P7-06  Answer A. 1,000 ÷ 20 = 50.00.
+B is wrong. That is the conversion ratio.
+C is wrong. That is par.
+D is wrong. This inverts the calculation.
+P7-07  Answer A. 20 × 56 = 1,120.
+B is wrong. Par is the floor from the bond side, not the conversion value.
+C is wrong. That is one share.
+D is wrong. This uses ten shares.
+P7-08  Answer A. 38 − 30 = 8.
+B is wrong. That is the exercise price.
+C is wrong. That is the share price.
+D is wrong. The warrant is in the money.
+P7-09  Answer A. The conversion right is an option the holder pays for in a lower coupon.
+B is wrong. Convertibles are typically unsecured.
+C is wrong. They are usually subordinated.
+D is wrong. Maturity is not the reason.
+P7-10  Answer A. After-tax flows at an after-tax rate.
+B is wrong. No shield rescues a sub-standard return.
+C is wrong. Depreciation generates a tax shield.
+D is wrong. The two decisions are kept separate.
+Case-style set: Barada's financing, reconsidered
+The four options, by what each costs the owner.
+The 7 per cent loan costs 7.0 × 0.75 = 5.25 per cent after tax, and it breaches the covenant: total liabilities would be $5,400,000 against equity of $3,100,000, which is 5,400,000 ÷ 3,100,000 = 1.74 against a limit of 1.50. It is unusable as drawn.
+The share subscription costs the owner a quarter of the company permanently and removes the covenant problem entirely, because equity rises by the amount raised. Book 1 valued what is being given away at more than the cash received on every multiple except the investor's own.
+The lease is the most promising of the two new options. It funds the equipment specifically, the lessor holds title and so prices for a better-secured exposure than a bank's, and Barada's thin profitability means the allowances are worth more to the lessor than to Barada — part of which comes back in the rate. It is, however, a fixed charge: it will be capitalised as a right-of-use asset and a lease liability, so whether it breaches the covenant depends entirely on how that covenant defines debt, and that definition is the first thing to read.
+The convertible at 4 per cent is cheap in cash terms, saving about 3 points against the bank loan, and it dilutes only if the shares reach $7.50 — a quarter above their current value. But it is still debt until conversion, so it fails the covenant exactly as the loan does.
+Recommendation: the lease, subject to the covenant definition. It funds the asset that needs funding, costs less in dilution than the subscription, and is the only one of the four whose pricing reflects something Barada genuinely has — an asset worth holding title to.

@@ -1,0 +1,572 @@
+Chapter 5
+Shares: common, preferred, and what they are worth
+الأسهم العادية والممتازة وكيف تُقيَّم
+A bond is a promise. A share is not: it is a claim on whatever is left after every promise has been kept. That difference runs through everything in this chapter — what a shareholder is entitled to, what a preferred shareholder gets instead, and why valuing a share is so much harder than valuing a bond.
+The method does not change. A share is worth the present value of what it pays, which is its dividends, discounted at the return its risk requires. What changes is that the payments are neither fixed nor promised nor finite, so a growth rate has to be assumed, and the answer is only as good as the assumption. The second half of the chapter is about the alternative that practitioners reach for when the assumption will not hold: valuing a company against what the market pays for others like it.
+Figure F605-01 is your map.
+Figure F605-01. Chapter 5 roadmap: two kinds of share, two ways to value them.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.2.b
+Identify the characteristics of common stock and preferred stock.
+C
+Full treatment
+B.2.w
+Use the constant growth dividend discount model, and explain the two-stage model.
+C
+Full treatment
+B.2.x
+Apply relative valuation methods: price/earnings, market/book and price/sales.
+C
+Full treatment
+B.2.e
+Value equity by discounted cash flow, as bonds were valued.
+B
+Reinforced (introduced in Chapter 4)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+common stock
+الأسهم العادية
+actions ordinaires
+residual claim
+المطالبة المتبقية
+droit résiduel
+pre-emptive right
+حق الأولوية في الاكتتاب
+droit préférentiel de souscription
+dividend discount model
+نموذج خصم التوزيعات
+modèle d'actualisation des dividendes
+constant growth
+النمو الثابت
+croissance constante
+terminal value
+القيمة النهائية
+valeur terminale
+relative valuation
+التقييم النسبي
+valorisation par comparaison
+price/sales ratio
+مضاعف المبيعات
+ratio cours sur chiffre d'affaires
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's earnings per share of $0.3666, its dividend per share of $0.0556, its book value per share of $2.5177 and its market price of $9.25, and from those a price/earnings ratio of 25.23 and a market-to-book ratio of 3.67. Chapter 2 of this book put the required return on its equity at 9.4 per cent. Everything in this chapter is built from those six numbers.
+5.1  Common stock
+A common share is an ownership interest, and five characteristics define it.
+It is a residual claim. The common shareholder is paid after employees, suppliers, lenders and preferred shareholders, in good years and in a liquidation alike. That is why equity carries the highest required return in the ladder of Chapter 1, and why it has no ceiling: the residue can be very large.
+It carries limited liability. A shareholder can lose what was paid for the share and no more, which is the invention that makes public companies possible.
+It carries votes. One share, one vote is the normal arrangement, used to elect directors and approve major transactions. Dual-class structures give some shares more votes than others, which lets founders keep control with a minority of the economics, and which the exam treats as a governance risk rather than a defect.
+It may carry a pre-emptive right, which entitles existing holders to subscribe for new shares before outsiders, in proportion to what they hold, so that their percentage is not diluted without their consent.
+It is described by a share count with four different meanings, and questions exploit the difference. Shares authorised are the maximum the charter permits. Shares issued are those ever sold. Treasury shares are issued shares the company has bought back. Shares outstanding are issued less treasury, and they are the ones that vote and receive dividends. Orontes has 8,100,000 issued and outstanding and no treasury stock, which is why Book 1 could use one figure throughout.
+Par value, finally, is a legal formality in modern practice. Orontes's shares carry a $1 par value, so $8,100,000 sits in common stock and $5,400,000 in additional paid-in capital, and the split between the two columns tells a reader nothing about the company.
+Figure F605-02 lists the characteristics against preferred stock, which section 5.2 develops.
+Figure F605-02. Common against preferred
+Feature
+Common stock
+Preferred stock
+Claim on income
+Residual, after everybody
+Fixed dividend, ahead of common
+Claim in liquidation
+Last
+Ahead of common, behind all debt
+Dividend
+Discretionary
+Fixed, and often cumulative
+Votes
+Normally one a share
+Normally none
+Upside
+Unlimited
+Capped at the fixed dividend
+Maturity
+None
+None, unless callable or redeemable
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+limited liability
+المسؤولية المحدودة
+responsabilité limitée
+dual-class share
+سهم بفئتين
+action à droit de vote multiple
+shares authorised
+الأسهم المصرح بها
+actions autorisées
+dilution
+التخفيف
+dilution
+SECTION CHECK   Test yourself
+SC5-1  A common shareholder's claim is:
+A.	residual, after every other claimant.
+B.	ahead of the lenders.
+C.	fixed in amount.
+D.	guaranteed by the company.
+SC5-2  Shares outstanding equal:
+A.	shares issued less treasury shares.
+B.	shares authorised.
+C.	shares issued plus treasury shares.
+D.	shares authorised less shares issued.
+SC5-3  A pre-emptive right allows an existing shareholder to:
+A.	subscribe for new shares before outsiders, in proportion to the holding.
+B.	demand a dividend.
+C.	vote twice.
+D.	sell the shares back to the company.
+Answers and explanations are at the end of the chapter.
+5.2  Preferred stock
+Preferred stock sits between debt and equity and takes characteristics from both, which is why the exam calls it a hybrid.
+From debt it takes a fixed payment and priority. The dividend is stated as a percentage of par or as an amount, it does not rise when profits rise, and it must be paid in full before any common dividend. In a liquidation the preferred holder ranks ahead of the common and behind every creditor.
+From equity it takes discretion and permanence. The dividend is declared, not owed: missing it is not a default and cannot force the company into bankruptcy. There is usually no maturity. And the payment is not deductible for tax, which Chapter 4 showed is the decisive economic difference from debt: a 9 per cent preferred costs 9 per cent after tax, while a 9 per cent bond costs 6.75.
+The variants are examinable by name. Cumulative preferred carries unpaid dividends forward as arrears that block the common dividend; non-cumulative does not, and is correspondingly cheaper for the issuer and worse for the holder. Participating preferred takes its fixed dividend and then shares in further profits. Convertible preferred can be exchanged for common shares. Callable or redeemable preferred can be bought back by the issuer at a stated price, which caps the holder's gain.
+Valuation is the perpetuity of Chapter 4: the dividend over the required return. A $100 par 9 per cent preferred pays $9.00 a year, and if the market requires 10 per cent for that risk it is worth 9.00 ÷ 0.10 = 90.00. If the market requires 8 per cent it is worth 9.00 ÷ 0.08 = 112.50.
+Why issue it at all, given that it costs more after tax than debt? Three reasons the exam accepts. It carries no covenants and no default risk, so it does not restrict the company or threaten it. Rating agencies and lenders treat part of it as equity, so it preserves borrowing capacity. And it raises money without giving away votes, which matters to a controlling family — a consideration that will decide Barada's financing question later in this book.
+Figure F605-03 prices the variants.
+Figure F605-03. What each preferred feature does
+Feature
+Who it favours
+Effect on the rate the issuer must offer
+Cumulative
+The holder
+Lower
+Participating
+The holder
+Lower
+Convertible
+The holder
+Much lower
+Callable
+The issuer
+Higher
+Non-cumulative
+The issuer
+Higher
+EXAM TRAP   Preferred is not debt
+A missed preferred dividend is not a default and creates no liability on the balance sheet. It creates arrears, disclosed in the notes, which block the common dividend.
+Preferred dividends are deducted from net income before earnings per share, and preferred stock is deducted from equity before book value per common share.
+The preferred dividend is not deductible for tax. Comparing a 9 per cent preferred with a 9 per cent bond without adjusting for tax is the standard error.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+hybrid security
+أداة هجينة
+titre hybride
+redeemable
+قابل للاسترداد
+remboursable
+borrowing capacity
+الطاقة الاقتراضية
+capacité d'endettement
+control
+السيطرة
+contrôle
+SECTION CHECK   Test yourself
+SC5-4  A 100 par 9 per cent preferred share, where the market requires 10 per cent, is worth:
+A.	90.00
+B.	100.00
+C.	112.50
+D.	9.00
+SC5-5  Missing a preferred dividend:
+A.	is not a default, but creates arrears if the stock is cumulative.
+B.	is an event of default.
+C.	creates a liability on the balance sheet.
+D.	is impossible.
+SC5-6  Preferred stock costs more after tax than debt of the same rate because:
+A.	its dividend is not deductible.
+B.	its dividend is higher.
+C.	it ranks ahead of debt.
+D.	it carries votes.
+Answers and explanations are at the end of the chapter.
+5.3  The constant growth dividend discount model
+A share is worth the present value of its dividends. Since the dividends go on for ever and are expected to grow, the sum has a short closed form: next year's dividend divided by the required return less the growth rate.
+Three inputs, each a question.
+Next year's dividend is this year's grown by one period. Orontes paid $0.0556 a share for 2025, so at a 4 per cent growth rate next year's is 0.0556 × 1.04 = 0.0578.
+The required return comes from Chapter 2: 9.4 per cent for Orontes.
+The growth rate is the hard one. The standard estimate is the sustainable growth rate of Book 1: the return on equity times the retention ratio. For Orontes that is 13.70 per cent, which is larger than the required return — and the formula collapses, because the denominator goes negative. That is not an arithmetic accident. No company can grow faster than the return investors require of it for ever; if it could, it would eventually be larger than the economy. The constant growth model demands a long-run growth rate, and a long-run rate cannot exceed the growth of the economy the company sells into, which is why the exam's figures are usually between 2 and 6 per cent.
+WORKED EXAMPLE   Worked example: what the market is assuming about Orontes
+Step 1. Value Orontes on a 4 per cent long-run growth rate. Next year's dividend is $0.0578 and the denominator is 9.4 − 4.0 = 5.4 points, so the value is 0.0578 ÷ 0.054 = 1.07 a share.
+Step 2. Compare with the market. The shares trade at $9.25, nearly nine times the model's answer. Nothing is wrong with the arithmetic; what is wrong is treating a dividend of 15 per cent of earnings as the whole of what the shareholder will receive.
+Step 3. Run the model backwards instead. If the price is right and the required return is 9.4 per cent, the growth rate the market must be assuming is the required return less the dividend yield: the yield is 0.0578 ÷ 9.25 = 0.62 per cent, so the implied growth is 9.4 − 0.62 = 8.78 per cent a year, for ever.
+Check. That is the useful form of the model and the one the exam rewards. Asking what growth a price implies turns an unanswerable valuation into a testable claim: is 8.78 per cent a year for ever plausible for a food manufacturer whose gross margin has fallen three years running? Book 1's verdict says it is not, and the model has just converted that verdict into a number.
+Figure F605-04 shows the model's sensitivity, which is its other lesson.
+Figure F605-04. The same dividend at four growth rates, required return 9.4 per cent
+Growth rate
+Denominator
+Next year's dividend
+Value a share
+2.0%
+7.4 points
+0.0567
+0.77
+4.0%
+5.4 points
+0.0578
+1.07
+6.0%
+3.4 points
+0.0589
+1.73
+8.0%
+1.4 points
+0.0600
+4.29
+The model's weaknesses are examinable in their own right. It cannot value a company that pays no dividend. It is extremely sensitive to the growth rate, as the figure shows: two points of growth nearly doubles the answer. It requires the growth rate to be below the required return. And it assumes growth is constant for ever, which no business is.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Gordon growth model
+نموذج جوردون للنمو
+modèle de Gordon
+implied growth rate
+معدل النمو الضمني
+taux de croissance implicite
+dividend yield
+عائد التوزيعات
+rendement du dividende
+sensitivity
+الحساسية
+sensibilité
+SECTION CHECK   Test yourself
+SC5-7  The constant growth model values a share as:
+A.	next year's dividend over the required return less the growth rate.
+B.	this year's dividend over the required return.
+C.	earnings over the growth rate.
+D.	book value times the growth rate.
+SC5-8  The model collapses when the growth rate:
+A.	equals or exceeds the required return.
+B.	is below 2 per cent.
+C.	is zero.
+D.	is negative.
+SC5-9  A share priced at 9.25 with a next-year dividend of 0.0578 and a required return of 9.4 per cent implies a growth rate of about:
+A.	8.78 per cent
+B.	0.62 per cent
+C.	4.00 per cent
+D.	13.70 per cent
+Answers and explanations are at the end of the chapter.
+5.4  The two-stage model
+Real companies grow fast for a while and then slow down, as competition arrives and the market fills. The two-stage model says so explicitly: a period of high growth with each dividend discounted individually, then a constant-growth phase valued by the formula of section 5.3 and discounted back as a single terminal value.
+WORKED EXAMPLE   Worked example: two stages
+Step 1. The assumptions. A company has just paid a dividend of $2.00. It will grow at 15 per cent for two years and at 5 per cent for ever after. The required return is 10 per cent.
+Step 2. The explicit dividends. Year one: 2.00 × 1.15 = 2.30. Year two: 2.30 × 1.15 = 2.6450. Year three, the first of the slow phase: 2.6450 × 1.05 = 2.7773.
+Step 3. The terminal value. At the end of year two the remaining stream is a constant-growth perpetuity worth 2.7773 ÷ 0.05 = 55.546.
+Step 4. Discount everything to today. Year one: 2.30 ÷ 1.10 = 2.0909. Year two carries both the dividend and the terminal value: 2.6450 + 55.546 = 58.191, and 58.191 ÷ 1.21 = 48.09. The share is worth 2.0909 + 48.09 = 50.18.
+Check. Note where the value sits: more than ninety-five per cent of it is in the terminal value, which rests entirely on an assumed 5 per cent for ever. That is true of almost every two-stage valuation and it is the first thing to say when presenting one. The high-growth phase that the analysis spent all its effort forecasting contributed four per cent of the answer.
+Figure F605-05 sets the computation out.
+Figure F605-05. The two-stage model, step by step
+Year
+Dividend
+Discount factor at 10%
+Present value
+1
+2.3000
+0.9091
+2.0909
+2
+2.6450
+0.8264
+2.1860
+Terminal value at end of year 2
+55.546
+0.8264
+45.904
+Value a share
+50.18
+The same logic extends. A three-stage model adds a transition phase in which growth declines gradually, which is more realistic and adds no new idea. Where a company pays no dividend at all, the same machinery is applied to free cash flow instead, which Book 3 develops for capital projects and acquisitions.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+explicit forecast period
+فترة التنبؤ الصريح
+période de prévision explicite
+transition phase
+مرحلة الانتقال
+phase de transition
+free cash flow
+التدفق النقدي الحر
+flux de trésorerie disponible
+SECTION CHECK   Test yourself
+SC5-10  In a two-stage model the terminal value is:
+A.	the value at the end of the high-growth phase of all later dividends.
+B.	the final dividend.
+C.	the book value at the end.
+D.	the sum of the explicit dividends.
+SC5-11  In most two-stage valuations, the terminal value accounts for:
+A.	the large majority of the total value.
+B.	a small part of the total value.
+C.	exactly half.
+D.	none of the value.
+Answers and explanations are at the end of the chapter.
+5.5  Relative valuation
+The alternative to discounting is comparison: value a company at what the market pays for similar companies, using a multiple of something the companies share.
+The price/earnings ratio is the common one. Take the multiple at which comparable companies trade, multiply by the subject company's earnings per share, and that is the implied value. If food manufacturers of Orontes's size trade at 18 times earnings, Orontes's implied value is 18 × 0.3666 = 6.60 a share, against a market price of $9.25. Either the market thinks Orontes is better than its peers, or it is dear.
+The market-to-book ratio compares price with net assets. It is most useful where assets are carried near their current values, which is why it is the standard multiple for banks and insurers and a weak one for a company whose value is in brands and recipes. Orontes's is 3.67.
+The price/sales ratio divides market capitalisation by revenue: 74,925,000 ÷ 42,000,000 = 1.78 for Orontes. Its use is the case the other two cannot handle — a company with no earnings, or with earnings distorted by a one-off such as the $2,724,000 impairment Book 1 spent a section on. Sales are harder to manipulate than earnings, which is its second attraction, and it ignores profitability entirely, which is its fatal weakness: two companies with the same sales and different margins are not worth the same.
+Figure F605-06 compares the three.
+Figure F605-06. Three multiples, and when each is the right one
+Multiple
+Orontes
+Best used for
+Main weakness
+Price/earnings
+25.23
+Profitable companies with comparable accounting
+Earnings can be distorted or negative
+Market/book
+3.67
+Banks, insurers, asset-heavy businesses
+Ignores unrecognised intangibles
+Price/sales
+1.78
+Loss-making or early-stage companies
+Ignores profitability entirely
+Three rules govern the method and all three are examined. The comparables must be genuinely comparable in business, size, growth and risk — Book 1's warning about Barada's 14 per cent gross margin against Orontes's 35 is the same point. The accounting must be on the same basis, or the multiples are not measuring the same thing. And relative valuation tells you what the market pays today, not what a company is worth: a sector valued at thirty times earnings gives a high answer for every company in it, and the method has no way of saying the sector is wrong.
+YOUR TURN   Value Barada's shares
+Figure F605-07 gives Barada Wholesale's figures. Complete the blanks. Answers are at the end of the chapter.
+Figure F605-07. Your turn: valuing Barada (complete the blanks)
+Item
+Data
+Answer
+Earnings per share
+Net income 283,500 on 1,000,000 shares
+________
+Book value per share
+Equity 3,100,000
+________
+Value on a constant growth model
+Dividend just paid 0.10, growth 3%, required return 10.8%
+________
+Value at a peer multiple
+Distributors trade at 14 times earnings
+________
+Value at a peer market-to-book
+Distributors trade at 1.2 times book
+________
+Price/sales at the investor's 6.00 a share
+Sales 21,978,000
+________
+LANGUAGE FOCUS   "Equity"
+English equity means three different things in these books. It is the owners' claim on a company, as in stockholders' equity. It is the shares themselves, as in an equity investment. And in ordinary English it means fairness, which is where the word came from and why courts of equity have nothing to do with shares. Arabic uses حقوق الملكية for the ownership claim and أسهم for the instruments, which keeps the first two apart. French uses capitaux propres for the balance sheet claim and actions for the instruments, and équité only for fairness — the cleanest separation of the three languages. The exam uses the first two senses interchangeably and expects you to tell them apart from the context; the phrase cost of equity, for instance, means the return required on the ownership claim, not the price of a share.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+comparable company
+الشركة المماثلة
+société comparable
+multiple
+المضاعف
+multiple
+peer group
+مجموعة النظراء
+groupe de pairs
+implied value
+القيمة الضمنية
+valeur implicite
+SECTION CHECK   Test yourself
+SC5-12  Comparable companies trade at 18 times earnings. A company earning 0.3666 a share is implied to be worth:
+A.	6.60
+B.	9.25
+C.	18.00
+D.	2.04
+SC5-13  The price/sales ratio is most useful for:
+A.	a company with no earnings or distorted earnings.
+B.	a bank.
+C.	a company with no sales.
+D.	any company, in preference to the others.
+SC5-14  The main limitation of relative valuation is that it:
+A.	tells you what the market pays today, not what the company is worth.
+B.	cannot be computed.
+C.	requires a dividend.
+D.	ignores the share price.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F605-08 brings the chapter together.
+Figure F605-08. Chapter 5 summary map: the key rule for each section.
+A common share is a residual claim with limited liability, votes and sometimes a pre-emptive right, described by four different share counts of which only the outstanding figure receives a dividend. Preferred stock is a hybrid: a fixed dividend ahead of the common and behind every creditor, not a default if missed, not deductible for tax — so a 9 per cent preferred costs 9 per cent after tax where a 9 per cent bond costs 6.75 — and it is issued for the covenants it avoids, the capacity it preserves and the votes it does not give away. The constant growth model values a share as next year's dividend over the required return less growth, which puts Orontes at 0.0578 ÷ 0.054 = 1.07 against a market price of $9.25, and the useful move is to run it backwards: at 9.4 per cent required and a 0.62 per cent yield, the market is assuming 8.78 per cent growth for ever, which Book 1's margin finding says it should not. The two-stage model handles a fast phase and then a slow one, and in the worked case put 45.90 of a 50.18 valuation into the terminal value alone. And relative valuation sets a peer multiple against the company's own figure — 18 times earnings implies 6.60 a share for Orontes against a market 9.25 — which tells you what the market pays today and never whether the market is right.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P5-01  Shares outstanding are:
+A.	issued less treasury shares.
+B.	authorised less issued.
+C.	issued plus authorised.
+D.	always equal to authorised.
+P5-02  Which is a characteristic of preferred and NOT of common stock?
+A.	A fixed dividend ranking ahead of the common
+B.	A residual claim on profits
+C.	One vote a share
+D.	Unlimited upside
+P5-03  A 100 par 8 per cent preferred where the market requires 10 per cent is worth:
+A.	80.00
+B.	100.00
+C.	125.00
+D.	8.00
+P5-04  The constant growth model requires that:
+A.	the growth rate is below the required return.
+B.	the growth rate is above the required return.
+C.	no dividend is paid.
+D.	the company has no debt.
+P5-05  Next year's dividend is 0.0578, the required return 9.4 per cent and growth 4 per cent. The value is:
+A.	1.07
+B.	0.62
+C.	9.25
+D.	0.0578
+P5-06  Running the model backwards from a price of 9.25 with a dividend yield of 0.62 per cent and a required return of 9.4 per cent gives an implied growth rate of:
+A.	8.78 per cent
+B.	10.02 per cent
+C.	4.00 per cent
+D.	0.62 per cent
+P5-07  In a two-stage model, dividends of 2.30 and 2.6450 and a terminal value of 55.546, discounted at 10 per cent, give a value of about:
+A.	50.18
+B.	60.49
+C.	4.95
+D.	55.55
+P5-08  Most of the value in a typical two-stage valuation lies in:
+A.	the terminal value.
+B.	the first year's dividend.
+C.	the explicit forecast period.
+D.	the book value.
+P5-09  The market-to-book multiple is most appropriate for:
+A.	a bank, whose assets are carried near current values.
+B.	a software company.
+C.	a company with large internally generated brands.
+D.	a loss-making start-up.
+P5-10  Orontes's price/sales ratio, at a market capitalisation of 74,925,000 and sales of 42,000,000, is:
+A.	1.78
+B.	0.56
+C.	25.23
+D.	3.67
+Case-style practice: an offer for Barada
+The private investor of Book 1, Chapter 9 values Barada Wholesale's equity at $6,000,000 for a 25 per cent stake. Barada has 1,000,000 shares, book equity of $3,100,000, net income of $283,500, sales of $21,978,000 and pays no dividend. Distributors of its size trade at about 14 times earnings and 1.2 times book. Barada's required return on equity, from its beta of 1.30, is 10.8 per cent.
+Required. Value Barada's shares three ways and say what the investor's offer implies. Name the single figure you would want before advising the owner to accept. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC5-1  Answer A. Common equity is paid last.
+B is wrong. Lenders rank ahead of shareholders.
+C is wrong. The residual is by definition not fixed.
+D is wrong. Nothing about a share is guaranteed.
+SC5-2  Answer A. Treasury shares are issued but not outstanding.
+B is wrong. Authorised shares may never have been issued.
+C is wrong. Treasury shares are deducted, not added.
+D is wrong. That is the unissued balance.
+SC5-3  Answer A. The right preserves an existing holder's proportion.
+B is wrong. No shareholder can demand a dividend.
+C is wrong. Votes come from the shares themselves.
+D is wrong. That would be a put right, which common shares do not carry.
+SC5-4  Answer A. The dividend is 9.00 and 9.00 ÷ 0.10 = 90.00.
+B is wrong. Par is the base for the dividend, not the value.
+C is wrong. 112.50 is the value at a required 8 per cent.
+D is wrong. That is one year's dividend.
+SC5-5  Answer A. It is not a default; cumulative stock accrues arrears.
+B is wrong. Only a debt payment creates a default.
+C is wrong. An undeclared dividend is not a liability.
+D is wrong. Companies miss preferred dividends in bad years.
+SC5-6  Answer A. The dividend is paid from taxed profit.
+B is wrong. The rate in the comparison is the same.
+C is wrong. Preferred ranks behind debt.
+D is wrong. Preferred normally carries no votes.
+SC5-7  Answer A. Next year's dividend over the required return less growth.
+B is wrong. That is the perpetuity with no growth.
+C is wrong. Earnings are not dividends and growth is not a discount rate.
+D is wrong. Book value plays no part in the model.
+SC5-8  Answer A. The denominator becomes zero or negative.
+B is wrong. Low growth gives a low value, not an impossible one.
+C is wrong. Zero growth gives the simple perpetuity.
+D is wrong. Negative growth is handled normally.
+SC5-9  Answer A. 9.4 − 0.62 = 8.78 per cent.
+B is wrong. That is the dividend yield.
+C is wrong. Four per cent is the assumption the model started from and the price rejects.
+D is wrong. 13.70 per cent is the sustainable growth rate, which exceeds the required return.
+SC5-10  Answer A. It is the constant-growth value of everything after the explicit period.
+B is wrong. The final explicit dividend is one input to it.
+C is wrong. Book value plays no part.
+D is wrong. The explicit dividends are discounted separately.
+SC5-11  Answer A. Typically well over three-quarters.
+B is wrong. The terminal value dominates.
+C is wrong. There is no such rule.
+D is wrong. It is the largest component.
+SC5-12  Answer A. 18 × 0.3666 = 6.60.
+B is wrong. 9.25 is the market price, not the implied value.
+C is wrong. 18 is the multiple.
+D is wrong. This divides rather than multiplies.
+SC5-13  Answer A. Sales exist where earnings do not.
+B is wrong. A bank is valued on book.
+C is wrong. The multiple needs sales to work.
+D is wrong. It ignores profitability, so it is a last resort.
+SC5-14  Answer A. It prices against the market, not against value.
+B is wrong. It is the easiest of all to compute.
+C is wrong. No dividend is needed.
+D is wrong. The share price is the numerator.
+Your turn
+Item
+Answer
+Earnings per share
+0.2835: 283,500 ÷ 1,000,000.
+Book value per share
+3.10: 3,100,000 ÷ 1,000,000.
+Constant growth value
+1.32: next year's dividend is 0.10 × 1.03 = 0.103, and 0.103 ÷ 0.078 = 1.32.
+Value at a peer multiple
+3.97: 14 × 0.2835 = 3.97.
+Value at a peer market-to-book
+3.72: 1.2 × 3.10 = 3.72.
+Price/sales at 6.00 a share
+0.27: the market capitalisation is 1,000,000 × 6.00 = 6,000,000, and 6,000,000 ÷ 21,978,000 = 0.27.
+What it tells you
+Three of the four methods put Barada between about 3.70 and 4.00 a share, and the investor is offering 6.00. On these figures the offer is generous, not mean — which is the opposite of what the book value of 3.10 alone suggests, and the reason the owner should take advice before negotiating on book value.
+Multiple-choice questions
+P5-01  Answer A. Issued less treasury.
+B is wrong. That is the unissued balance.
+C is wrong. The two counts are not added.
+D is wrong. Authorised is a ceiling.
+P5-02  Answer A. A fixed dividend with priority is the preferred feature.
+B is wrong. The residual claim belongs to the common.
+C is wrong. Preferred normally carries no votes.
+D is wrong. Preferred upside is capped.
+P5-03  Answer A. 8.00 ÷ 0.10 = 80.00.
+B is wrong. Par is the dividend base.
+C is wrong. 125.00 would follow from a required 6.4 per cent.
+D is wrong. That is one year's dividend.
+P5-04  Answer A. Otherwise the denominator is zero or negative.
+B is wrong. That is the case the model cannot handle.
+C is wrong. The model needs a dividend.
+D is wrong. Debt is irrelevant to the formula.
+P5-05  Answer A. 0.0578 ÷ 0.054 = 1.07.
+B is wrong. 0.62 per cent is the dividend yield at the market price.
+C is wrong. 9.25 is the market price.
+D is wrong. That is next year's dividend.
+P5-06  Answer A. 9.4 − 0.62 = 8.78 per cent.
+B is wrong. This adds the yield instead of subtracting it.
+C is wrong. Four per cent was the assumption, not the implication.
+D is wrong. That is the yield.
+P5-07  Answer A. 2.30 ÷ 1.10 = 2.0909, and 2.6450 + 55.546 = 58.191 discounted at 1.21 gives 48.09.
+B is wrong. This fails to discount the second year.
+C is wrong. This omits the terminal value.
+D is wrong. That is the undiscounted terminal value.
+P5-08  Answer A. The terminal value normally dominates.
+B is wrong. The first dividend is a small fraction.
+C is wrong. The explicit period is usually a few per cent of the total.
+D is wrong. Book value is not part of the model.
+P5-09  Answer A. A bank's assets are financial and carried near fair value.
+B is wrong. A software company's value is unrecognised intangibles.
+C is wrong. Internally generated brands are exactly what book value omits.
+D is wrong. A start-up with no earnings is a price/sales case.
+P5-10  Answer A. 74,925,000 ÷ 42,000,000 = 1.78.
+B is wrong. This inverts the ratio.
+C is wrong. 25.23 is the price/earnings ratio.
+D is wrong. 3.67 is the market-to-book ratio.
+Case-style set: an offer for Barada
+Three valuations. On earnings: 14 × 0.2835 = 3.97 a share, or about $3,970,000 for the company. On book: 1.2 × 3.10 = 3.72 a share, about $3,720,000. On a constant growth model with a 0.10 dividend growing at 3 per cent against a required 10.8 per cent: 0.103 ÷ 0.078 = 1.32 a share, which is the weakest of the three because Barada's dividend bears almost no relation to its earnings.
+What the offer implies. The investor is paying $6,000,000 for the equity, which is 6.00 a share: about 21 times earnings against a peer group at 14, and 1.94 times book against a peer group at 1.2. On both comparable measures the offer is well above what Barada's sector is worth, and it is roughly half as much again as the best of the three valuations.
+The figure I would want. The inventory. Book 1 found stock up 41 per cent on sales up 11, a quick ratio of 0.94 and a 40.6-day inventory period, with a net margin of 1.29 per cent that leaves nothing to absorb a write-down. Every valuation above runs off a profit figure that assumes the stock is worth its carrying amount. If an independent count and ageing of the inventory supports the book figure, the owner should take the offer, which is generous. If it does not, the earnings are overstated, every multiple above is computed on a number that will be restated, and the owner is being offered a fair price for a company that is worth less than the one being valued.

@@ -1,0 +1,433 @@
+Chapter 4
+What a bond is worth; duration; issuing and refinancing
+قيمة السند ومدة ماكولاي وقرارات الإصدار وإعادة التمويل
+Chapter 3 said that when the market's required return changes, a bond's price moves. This chapter computes the price, measures how far it moves, and then turns the whole subject over to the company that issued the bond: when to issue, when to refinance, and what the tax system does to both decisions.
+One method does the valuation work for every instrument in this book. The value of anything that pays money over time is the present value of what it pays, discounted at the return the market requires for that risk. A bond pays coupons and a principal. Preferred stock pays a fixed dividend for ever. Common stock pays a growing dividend for ever, which is Chapter 5. The arithmetic is the same each time and only the pattern of the payments changes.
+Figure F604-01 is your map.
+Figure F604-01. Chapter 4 roadmap: price a bond, measure its sensitivity, then decide as the issuer.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.2.e | Value bonds and preferred stock using discounted cash flow methods. | C | Full treatment
+B.2.f | Explain duration as a measure of a bond's interest rate sensitivity. | C | Full treatment
+B.2.d | Identify and evaluate debt issuance and refinancing strategies. | C | Full treatment
+B.2.g | Explain how income taxes affect financing decisions. | C | Full treatment
+B.2.c | Use the features of a bond as the inputs to its valuation. | B | Reinforced (introduced in Chapter 3)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+present value | القيمة الحالية | valeur actuelle
+discount rate | معدل الخصم | taux d'actualisation
+annuity factor | معامل الدفعات المتساوية | facteur d'annuité
+perpetuity | الدفعة الدائمة | rente perpétuelle
+Macaulay duration | مدة ماكولاي | duration de Macaulay
+modified duration | المدة المعدلة | duration modifiée
+call premium | علاوة الاستدعاء | prime de remboursement
+interest tax shield | الوفر الضريبي للفوائد | économie d'impôt liée aux intérêts
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 established that a bond's price moves inversely with the market's required return, and quoted a five-year 6 per cent bond at a little under $960 when the market requires 7 per cent. This chapter computes that figure, and every figure like it.
+4.1  Valuing a bond by discounting
+A five-year bond with a par value of $1,000 and a 6 per cent annual coupon promises $60 at the end of each of five years and $1,000 at the end of the fifth. Its value is what those promises are worth today at the rate the market requires.
+Two present-value tools do all the work. The annuity factor converts a stream of equal amounts into a single present value; at 7 per cent for five years it is 4.1002. The present-value factor converts a single future amount; at 7 per cent for five years it is 0.7130.
+So at a required return of 7 per cent: the coupons are worth 60 × 4.1002 = 246.01, the principal is worth 1,000 × 0.7130 = 713.00, and the bond is worth 246.01 + 713.00 = 959.01. That is the "a little under $960" of Chapter 3, and the $41 shortfall against par is the market's charge for a coupon one point below what it now requires.
+At a required return of 5 per cent the same two steps give a different answer: the annuity factor is 4.3295 and the present-value factor 0.7835, so the coupons are worth 60 × 4.3295 = 259.77, the principal 1,000 × 0.7835 = 783.50, and the bond 259.77 + 783.50 = 1,043.27. The bond trades at a premium because its coupon is better than the market now offers.
+Figure F604-02 sets out the computation at both rates.
+Figure F604-02. One bond, two required returns
+@table
+Component | At 7 per cent | At 5 per cent
+Annuity factor, five years | 4.1002 | 4.3295
+Present value of the coupons | 246.01 | 259.77
+Present-value factor, five years | 0.7130 | 0.7835
+Present value of the principal | 713.00 | 783.50
+Value of the bond | 959.01 | 1,043.27
+@end
+Three mechanical points are examined often.
+Semi-annual coupons halve the payment and the rate and double the periods. A 6 per cent bond paying twice a year, valued at a required 7 per cent, is thirty dollars for ten periods discounted at 3.5 per cent.
+The discount rate is the market's required return on this risk, not the coupon rate and not the company's own view of itself. For a corporate bond it is the government yield for that maturity plus a credit spread.
+Price and yield move inversely, always, and the relationship is curved rather than straight. A fall in yields raises the price slightly more than an equal rise in yields lowers it, which is the property called convexity and is why duration, which assumes a straight line, is an approximation.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+present-value factor | معامل القيمة الحالية | facteur d'actualisation
+semi-annual coupon | كوبون نصف سنوي | coupon semestriel
+convexity | التحدب | convexité
+@end
+SECTION CHECK   Test yourself
+SC4-1  The value of a bond is:
+A.	the present value of its coupons plus the present value of its principal.
+B.	its par value.
+C.	its coupon rate times its par value.
+D.	its coupon divided by its price.
+SC4-2  A bond's coupons of 60 for five years, at an annuity factor of 4.1002, are worth:
+A.	246.01
+B.	300.00
+C.	60.00
+D.	713.00
+SC4-3  A 6 per cent bond paying semi-annually, valued at a required 7 per cent, is discounted as:
+A.	ten periods of 30 at 3.5 per cent.
+B.	five periods of 60 at 7 per cent.
+C.	ten periods of 60 at 7 per cent.
+D.	five periods of 30 at 3.5 per cent.
+Answers and explanations are at the end of the chapter.
+4.2  Preferred stock, and the same arithmetic
+Preferred stock pays a fixed dividend and normally has no maturity, so it is a perpetuity: a stream of equal payments that never stops. The present value of a perpetuity is the payment divided by the required return.
+A preferred share paying $5.00 a year, where the market requires 8 per cent for that risk, is worth 5.00 ÷ 0.08 = 62.50. If the required return rises to 10 per cent the same share is worth 5.00 ÷ 0.10 = 50.00. There is no principal to come back, so the price carries the entire adjustment — which makes preferred stock more sensitive to rates than most bonds, a point section 4.3 will make precisely.
+The features of preferred stock follow from its position between debt and equity, and Chapter 5 sets them out in full. Two matter here. A cumulative preferred share carries forward any dividend not paid, and nothing may go to the common shareholders until the arrears are cleared. A participating preferred share shares in profits beyond its fixed rate. Both features raise what a buyer will pay and lower the rate the issuer has to offer.
+Note what the perpetuity formula assumes and what the exam does with it. It assumes the payment is fixed and continues for ever, so it suits preferred stock exactly, a long-dated bond approximately, and a common share not at all until a growth rate is built in. That is the subject of the next chapter.
+Figure F604-03 compares the three instruments.
+Figure F604-03. Three instruments, one method
+@table
+Instrument | Payment pattern | Valuation | Sensitivity to rates
+Bond | Coupons, then principal | Annuity plus a lump sum | Moderate: the principal anchors it
+Preferred stock | A fixed dividend for ever | Payment over required return | High: nothing anchors it
+Common stock | A growing dividend for ever | Payment over the return less growth | Highest
+@end
+EXAM TRAP   Perpetuities and the rate
+In a perpetuity the rate must be expressed as a decimal and must match the payment period. An annual dividend over a monthly rate is a figure twelve times too large.
+Preferred stock has no maturity and therefore no yield to maturity. Its yield is simply dividend over price.
+A cumulative preferred dividend in arrears is not a liability on the balance sheet; it is disclosed, and it blocks the common dividend.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+preferred stock | الأسهم الممتازة | actions de préférence
+cumulative | تراكمي | cumulatif
+arrears | المتأخرات | arriérés
+participating | مشارك في الأرباح | participatif
+@end
+SECTION CHECK   Test yourself
+SC4-4  A preferred share paying 5.00 a year where the market requires 8 per cent is worth:
+A.	62.50
+B.	40.00
+C.	50.00
+D.	5.40
+SC4-5  Preferred stock is more sensitive to a change in rates than a short bond because:
+A.	it has no principal repayment to anchor the price.
+B.	its dividend is variable.
+C.	it ranks ahead of debt.
+D.	it is always cumulative.
+SC4-6  A cumulative preferred dividend that is not paid:
+A.	accumulates and blocks the common dividend until it is cleared.
+B.	is lost.
+C.	becomes a liability of the company immediately.
+D.	converts into common stock.
+Answers and explanations are at the end of the chapter.
+4.3  Duration
+Everybody knows a long bond moves more than a short one when rates change. Duration says how much more, in a single number.
+Macaulay duration is the weighted average time to receive the bond's cash flows, where each time is weighted by the present value of the payment received then. A zero-coupon bond pays once, so its duration equals its maturity. A coupon bond returns some money earlier, so its duration is always shorter than its maturity.
+Modified duration converts that into a price sensitivity: it is the Macaulay duration divided by one plus the required return per period, and it estimates the percentage change in price for a one-point change in yield.
+WORKED EXAMPLE   Worked example: the five-year bond, measured
+Step 1. The weights. Discounting the five payments at 7 per cent gives present values of 56.07, 52.41, 48.98, 45.77 and 755.79, which add to the price of 959.01. Almost four-fifths of the bond's value sits in the final payment.
+Step 2. Macaulay duration. Weighting each year by its share of the price gives a weighted average of about 4.45 years, against a maturity of five. The coupons pull it in.
+Step 3. Modified duration. 4.45 ÷ 1.07 = 4.16, so a one-point rise in yields should take about 4.16 per cent off the price.
+Step 4. In money. 4.16 per cent of 959.01 is about $39.90, so the bond would fall to roughly $919 if required returns went from 7 to 8 per cent.
+Check. The estimate is slightly pessimistic, and knowing why is the mark. Duration assumes the price-yield line is straight; it is curved, so the true fall is a little smaller than duration predicts and the true rise on a fall in yields a little larger. The curvature is convexity, and it always works in the holder's favour. For a one-point move the difference is small; for a five-point move on a long bond it is large.
+Figure F604-04 shows what moves duration.
+Figure F604-04. What makes a bond more sensitive to rates
+@table
+Change | Effect on duration | Why
+Longer maturity | Higher | Money comes back later
+Lower coupon | Higher | Less value returns early
+Zero coupon | Highest for its maturity | All value arrives at the end
+Lower yield | Higher | Later payments are discounted less
+A call provision | Lower | The bond may end early
+@end
+Duration is used for three things, and the exam names all three. It compares the rate sensitivity of two bonds in one number. It estimates the price effect of a stated rate move. And it allows a portfolio to be matched to a liability — an insurer with claims expected in seven years holds assets of duration seven, so that a rate move changes the value of both sides together. That last use is called immunisation and it is the reason duration exists.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+weighted average time | الزمن المتوسط المرجح | durée moyenne pondérée
+immunisation | التحصين | immunisation
+price sensitivity | حساسية السعر | sensibilité du prix
+basis point | نقطة أساس | point de base
+@end
+SECTION CHECK   Test yourself
+SC4-7  The Macaulay duration of a coupon bond is:
+A.	shorter than its maturity.
+B.	longer than its maturity.
+C.	equal to its maturity.
+D.	equal to its coupon rate.
+SC4-8  A bond with a modified duration of 4.16 will fall by approximately what percentage if yields rise one point?
+A.	4.16 per cent
+B.	1.00 per cent
+C.	0.42 per cent
+D.	41.6 per cent
+SC4-9  Which bond has the highest duration?
+A.	A ten-year zero-coupon bond
+B.	A ten-year 8 per cent coupon bond
+C.	A five-year zero-coupon bond
+D.	A five-year 8 per cent coupon bond
+Answers and explanations are at the end of the chapter.
+4.4  Issuing and refinancing
+Now the issuer's side. A company deciding to issue debt faces four questions, and the exam asks them in combination: how much, for how long, on what terms, and through what route.
+The route is a choice between a public issue, which is registered, underwritten by an investment bank, rated by an agency and sold to many holders, and a private placement with a small number of institutions, which is quicker and cheaper to arrange and carries tighter covenants and a slightly higher rate. Below a certain size the fixed costs of a public issue cannot be justified, which is why most mid-sized companies borrow from banks and institutions rather than from the bond market. Chapter 9 describes the machinery of both.
+The refinancing decision is a calculation the exam sets often, and the structure never changes. A company with an existing bond at a high coupon can call it, pay the call premium, pay the costs of issuing a new bond, and save the interest difference for the remaining life.
+WORKED EXAMPLE   Worked example: a refinancing that works
+Step 1. The position. A company has $10,000,000 of bonds outstanding at 8 per cent with five years to run. It can issue new five-year bonds at 6 per cent. The existing bonds are callable at 103, so the call premium is 3 per cent of par, and issuing the new bonds costs $200,000.
+Step 2. The saving. Two points on ten million: 10,000,000 × 0.02 = 200,000 a year before tax. At a 25 per cent tax rate the interest saved is worth 200,000 × 0.75 = 150,000 a year after tax, because the interest was deductible.
+Step 3. The cost. The call premium is 10,000,000 × 0.03 = 300,000 and the issue costs are 200,000, so 300,000 + 200,000 = 500,000 before tax. Both are deductible, so the after-tax cost is 500,000 × 0.75 = 375,000.
+Step 4. The decision. 375,000 ÷ 150,000 = 2.50, so the refinancing pays for itself in two and a half years against five years of remaining life. Discounted properly at the company's after-tax cost of debt the net present value is positive, and the refinancing should go ahead.
+Check. Three things would reverse the conclusion and all three are examinable. If only two years remained, the saving would not cover the cost. If the new issue were at a floating rate, the 6 per cent would be today's rate and not a five-year commitment. And if the existing bond were not callable, there would be no decision to take at all — which is why Chapter 3 insisted that a call provision is paid for in the coupon from the first day.
+Figure F604-05 sets the calculation out as a template.
+Figure F604-05. The refinancing template
+@table
+Line | This case | Note
+Annual interest saved, before tax | 200,000 | The rate difference on the principal
+Annual interest saved, after tax | 150,000 | Interest is deductible, so the saving is taxed
+Call premium | 300,000 | A percentage of par, stated in the indenture
+Issue costs of the new bonds | 200,000 | Underwriting, legal, rating
+Total cost after tax | 375,000 | Both costs are deductible
+Payback | 2.50 years | Against five years of remaining life
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+private placement | الطرح الخاص | placement privé
+underwriting | التغطية | prise ferme
+issue costs | تكاليف الإصدار | frais d'émission
+payback | فترة الاسترداد | délai de récupération
+@end
+SECTION CHECK   Test yourself
+SC4-10  A refinancing saves 150,000 a year after tax and costs 375,000 after tax. The payback is:
+A.	2.50 years
+B.	0.40 years
+C.	5.00 years
+D.	3.75 years
+SC4-11  A company cannot refinance an outstanding bond early unless:
+A.	the bond is callable or the holders agree.
+B.	rates have risen.
+C.	the bond is secured.
+D.	the bond is convertible.
+Answers and explanations are at the end of the chapter.
+4.5  Taxes and the financing decision
+Interest is deductible and dividends are not. That single asymmetry shapes capital structure everywhere, and the exam tests it in three forms.
+The after-tax cost of debt. A company borrowing at 6 per cent with a 25 per cent tax rate bears 6.0 × 0.75 = 4.5 per cent, because each dollar of interest reduces taxable income by a dollar. Orontes's $390,000 of interest is worth 390,000 × 0.25 = 97,500 a year in tax saved, and that saving is called the interest tax shield.
+Debt against equity. Equity has no equivalent shield: a dividend is paid out of profit that has already been taxed. So on a pure tax argument, debt is the cheaper funding and a company should use as much of it as it can — which is plainly wrong, and the reason it is wrong is the whole of capital structure theory. Beyond some level of borrowing, the costs of financial distress grow faster than the shield: lenders demand more, suppliers shorten terms, customers worry about warranties, management spends its time on the bank. The optimum is where the marginal value of the shield equals the marginal cost of distress, and no formula locates it.
+The shield is worth nothing to a company with no taxable profit. A company making losses, or sheltered by large depreciation or tax credits, cannot use the deduction, so debt costs it the full 6 per cent. This is the standard reason a loss-making company leases rather than buys, and Chapter 11 develops it: the lessor has the taxable profit and can use the allowances, so it prices the lease to share some of the benefit.
+Two further tax points belong here because questions pair them with the above. A premium or discount on issue is amortised for tax over the life of the bond rather than deducted at once. And in a refinancing, the unamortised issue costs of the old bond are normally deductible when it is retired, which improves the arithmetic of section 4.4 slightly.
+Figure F604-06 collects the effects.
+Figure F604-06. What the tax system does to each source of money
+@table
+Source | Deductible? | Before-tax cost | After-tax cost at 25%
+Bank debt | Yes, the interest | 6.0% | 4.5%
+Bond | Yes, the interest | 7.0% | 5.25%
+Preferred stock | No, the dividend | 9.0% | 9.0%
+Common equity | No, the dividend | 10.0% | 10.0%
+@end
+YOUR TURN   Value, measure and refinance
+Figure F604-07 gives three small problems. Complete the blanks. Answers are at the end of the chapter.
+Figure F604-07. Your turn: valuation, duration and refinancing (complete the blanks)
+@table
+Item | Data | Answer
+Value of a bond | 4 years, 1,000 par, 5% coupon, required 6%; annuity factor 3.4651, PV factor 0.7921 | ________
+Value of a preferred share | Dividend 4.00, required 10% | ________
+Modified duration | Macaulay 3.72 years, required return 6% | ________
+Price fall on a one-point rise | On a price of 965.40 | ________
+After-tax cost of a 7% bond | Tax rate 25% | ________
+Refinancing payback | Saves 90,000 a year after tax, costs 270,000 after tax | ________
+@end
+LANGUAGE FOCUS   "Discount"
+English discount does three jobs in this chapter alone. To discount a cash flow is to compute its present value. A bond at a discount trades below par. A settlement discount is a price reduction for early payment, which Chapter 18 prices. The three are related only by the idea of something being reduced, and a candidate who reads the wrong one has misread the question rather than the calculation. Arabic uses خصم for all three as well, with the same ambiguity. French separates them usefully: actualiser for discounting a cash flow, décote for a price below par, and escompte for a settlement discount — three words where English has one, and worth borrowing as a mental distinction.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+tax shield | الوفر الضريبي | économie d'impôt
+financial distress | العسر المالي | difficultés financières
+amortisation of issue costs | إطفاء تكاليف الإصدار | amortissement des frais d'émission
+after-tax cost | التكلفة بعد الضريبة | coût après impôt
+@end
+SECTION CHECK   Test yourself
+SC4-12  The after-tax cost of a 6 per cent loan at a 25 per cent tax rate is:
+A.	4.5 per cent
+B.	6.0 per cent
+C.	1.5 per cent
+D.	8.0 per cent
+SC4-13  The interest tax shield is worth nothing to:
+A.	a company with no taxable profit.
+B.	a company with high profits.
+C.	a company with a low tax rate but taxable profit.
+D.	any company, because interest is never deductible.
+SC4-14  On a pure tax argument a company should borrow as much as possible. The argument fails because:
+A.	the costs of financial distress eventually grow faster than the shield.
+B.	interest is not deductible.
+C.	lenders will lend any amount.
+D.	equity is always cheaper.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F604-08 brings the chapter together.
+Figure F604-08. Chapter 4 summary map: the key rule for each section.
+A bond is worth the present value of what it promises: at a required 7 per cent, coupons of 60 × 4.1002 = 246.01 and a principal of 1,000 × 0.7130 = 713.00 give 246.01 + 713.00 = 959.01, and the same bond at 5 per cent is worth 1,043.27. A preferred share is a perpetuity, so 5.00 ÷ 0.08 = 62.50, and because no principal ever returns, its price carries the whole of any change in rates. Duration measures that sensitivity in one number: the five-year bond's cash flows average 4.45 years, modified duration is 4.45 ÷ 1.07 = 4.16, and a one-point rise in yields costs about 4.16 per cent of the price — a little less in truth, because convexity always favours the holder. From the issuer's side, a refinancing is a template: two points saved on ten million is 150,000 a year after tax against a call premium and issue costs of 375,000 after tax, so 375,000 ÷ 150,000 = 2.50 years of payback against five years of life, and the decision turns on the call provision the company paid for at issue. And through all of it runs the tax asymmetry: interest is deductible and dividends are not, so 6 per cent debt costs 4.5 after tax and Orontes's $390,000 of interest saves it $97,500 a year — until the costs of distress overtake the shield.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P4-01  A four-year bond with a 5 per cent coupon on 1,000 par, required return 6 per cent, annuity factor 3.4651 and present-value factor 0.7921, is worth:
+A.	965.35
+B.	1,000.00
+C.	1,034.65
+D.	792.10
+P4-02  A preferred share paying 4.00 where the market requires 10 per cent is worth:
+A.	40.00
+B.	4.00
+C.	0.40
+D.	400.00
+P4-03  The Macaulay duration of a zero-coupon bond equals:
+A.	its maturity.
+B.	half its maturity.
+C.	zero.
+D.	its coupon rate.
+P4-04  Modified duration is Macaulay duration divided by:
+A.	one plus the required return per period.
+B.	the coupon rate.
+C.	the maturity.
+D.	the price.
+P4-05  Which change raises a bond's duration?
+A.	A lower coupon
+B.	A higher coupon
+C.	A shorter maturity
+D.	A call provision
+P4-06  A refinancing saves 200,000 a year before tax at a 25 per cent tax rate. The after-tax saving is:
+A.	150,000
+B.	200,000
+C.	50,000
+D.	250,000
+P4-07  A call premium of 3 per cent on 10,000,000 of bonds is:
+A.	300,000
+B.	30,000
+C.	3,000,000
+D.	103,000
+P4-08  The after-tax cost of a 7 per cent bond at a 25 per cent tax rate is:
+A.	5.25 per cent
+B.	7.00 per cent
+C.	1.75 per cent
+D.	9.33 per cent
+P4-09  Which source of finance carries no tax shield?
+A.	Preferred stock
+B.	A bank loan
+C.	A corporate bond
+D.	A finance lease's interest element
+P4-10  Convexity means that for a given change in yields:
+A.	prices rise slightly more than duration predicts and fall slightly less.
+B.	prices move exactly as duration predicts.
+C.	duration is unnecessary.
+D.	long bonds move less than short ones.
+Case-style practice: Orontes considers a bond issue
+Orontes needs $5,000,000 for a new roasting line. Its bank will lend at 6.5 per cent for five years with a covenant limiting debt to equity to 1.00. An investment bank proposes a public bond issue of the same amount at 7.0 per cent for ten years, with issue costs of $150,000 and no financial covenants. Orontes's effective tax rate is 25 per cent and its existing long-term debt is $6,000,000 against equity of $20,392,975.
+Required. Compute the after-tax cost of each and say which you would recommend, naming one risk of each. Say also whether the covenant would bind. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC4-1  Answer A. The two streams are discounted and added.
+B is wrong. Par is what is repaid, not what the bond is worth today.
+C is wrong. That is the annual coupon payment.
+D is wrong. That is the current yield.
+SC4-2  Answer A. 60 × 4.1002 = 246.01.
+B is wrong. That is five coupons undiscounted.
+C is wrong. That is one coupon.
+D is wrong. 713.00 is the present value of the principal.
+SC4-3  Answer A. Halve the payment and the rate, double the periods.
+B is wrong. That is the annual treatment.
+C is wrong. This doubles the periods without halving the payment.
+D is wrong. This halves the payment without doubling the periods.
+SC4-4  Answer A. 5.00 ÷ 0.08 = 62.50.
+B is wrong. This divides by 0.125.
+C is wrong. 50.00 is the value at a required 10 per cent.
+D is wrong. This multiplies rather than divides.
+SC4-5  Answer A. With no principal repayment, the price alone adjusts.
+B is wrong. A preferred dividend is fixed.
+C is wrong. Preferred stock ranks behind debt.
+D is wrong. Being cumulative does not change rate sensitivity.
+SC4-6  Answer A. Arrears must be cleared before any common dividend.
+B is wrong. That describes non-cumulative preferred.
+C is wrong. An undeclared dividend is not a liability.
+D is wrong. Conversion requires a conversion right.
+SC4-7  Answer A. Coupons return value early, pulling the average in.
+B is wrong. Duration cannot exceed maturity for a straight bond.
+C is wrong. They are equal only for a zero-coupon bond.
+D is wrong. Duration is a time, not a rate.
+SC4-8  Answer A. Modified duration is the percentage price change per point of yield.
+B is wrong. That is the change in yield, not in price.
+C is wrong. This divides rather than multiplies.
+D is wrong. This misplaces the decimal.
+SC4-9  Answer A. The longest maturity with no coupons has the highest duration.
+B is wrong. Coupons pull the duration below ten years.
+C is wrong. Five years is shorter than ten.
+D is wrong. It is the shortest duration of the four.
+SC4-10  Answer A. 375,000 ÷ 150,000 = 2.50 years.
+B is wrong. This inverts the ratio.
+C is wrong. Five years is the remaining life, not the payback.
+D is wrong. This has no basis in the figures.
+SC4-11  Answer A. Without a call provision the holders must agree.
+B is wrong. Refinancing is attractive when rates have fallen, and still needs a call.
+C is wrong. Security does not confer a right of early repayment.
+D is wrong. Conversion is the holder's right, not the issuer's.
+SC4-12  Answer A. 6.0 × 0.75 = 4.5 per cent.
+B is wrong. That is the before-tax rate.
+C is wrong. That is the shield alone.
+D is wrong. Tax lowers the cost rather than raising it.
+SC4-13  Answer A. A deduction is worth nothing without taxable profit to deduct it from.
+B is wrong. A profitable company uses the shield fully.
+C is wrong. A low rate makes the shield smaller, not worthless.
+D is wrong. Interest is deductible.
+SC4-14  Answer A. Distress costs eventually exceed the value of the shield.
+B is wrong. Interest is deductible, which is why the argument starts.
+C is wrong. Lenders stop lending, which is part of the distress.
+D is wrong. Equity is normally the more expensive source.
+Your turn
+@table
+Item | Answer
+Value of a bond | 965.35: the coupons are 50 × 3.4651 = 173.26 and the principal 1,000 × 0.7921 = 792.10, so 173.26 + 792.10 = 965.36, which rounds to 965.35 on unrounded factors.
+Value of a preferred share | 40.00: 4.00 ÷ 0.10 = 40.00.
+Modified duration | 3.51: 3.72 ÷ 1.06 = 3.51.
+Price fall on a one-point rise | About 33.88: 965.40 × 0.0351 = 33.89, so the price falls to about 931.50.
+After-tax cost of a 7% bond | 5.25 per cent: 7.0 × 0.75 = 5.25.
+Refinancing payback | 3.00 years: 270,000 ÷ 90,000 = 3.00.
+What it tells you | Each line is the same idea in a different dress: money arriving later is worth less, and how much less depends on the rate. The refinancing is worth doing only if more than three years remain, and the bond loses about three and a half per cent of its value for every point rates rise.
+@end
+Multiple-choice questions
+P4-01  Answer A. 50 × 3.4651 = 173.26 and 1,000 × 0.7921 = 792.10, which add to about 965.35.
+B is wrong. The bond trades below par because its coupon is below the required return.
+C is wrong. This is a premium, which would require rates below the coupon.
+D is wrong. This values the principal and omits the coupons.
+P4-02  Answer A. 4.00 ÷ 0.10 = 40.00.
+B is wrong. That is one year's dividend.
+C is wrong. This misplaces the decimal.
+D is wrong. This divides by 0.01.
+P4-03  Answer A. All the value arrives at maturity.
+B is wrong. Halving applies to nothing here.
+C is wrong. A zero-coupon bond is the most rate-sensitive of its maturity, not the least.
+D is wrong. A zero-coupon bond has no coupon rate.
+P4-04  Answer A. Divide by one plus the periodic required return.
+B is wrong. The coupon rate is not the discount rate.
+C is wrong. Maturity is an input to duration, not a divisor of it.
+D is wrong. The price is already inside the weights.
+P4-05  Answer A. A lower coupon returns less value early.
+B is wrong. A higher coupon shortens duration.
+C is wrong. A shorter maturity shortens duration.
+D is wrong. A call provision shortens the expected life.
+P4-06  Answer A. 200,000 × 0.75 = 150,000.
+B is wrong. This ignores that the interest was deductible.
+C is wrong. That is the tax effect alone.
+D is wrong. Tax reduces the saving rather than increasing it.
+P4-07  Answer A. 10,000,000 × 0.03 = 300,000.
+B is wrong. This misplaces the decimal.
+C is wrong. This is 30 per cent.
+D is wrong. 103 is the call price per 100 of par.
+P4-08  Answer A. 7.0 × 0.75 = 5.25 per cent.
+B is wrong. That is the before-tax rate.
+C is wrong. That is the shield alone.
+D is wrong. This divides by 0.75 instead of multiplying.
+P4-09  Answer A. A preferred dividend is paid out of taxed profit.
+B is wrong. Loan interest is deductible.
+C is wrong. Bond interest is deductible.
+D is wrong. The interest element of a lease is deductible.
+P4-10  Answer A. The price-yield relationship is curved in the holder's favour.
+B is wrong. Duration is a straight-line approximation.
+C is wrong. Duration remains the standard first-order measure.
+D is wrong. Long bonds move more, not less.
+Case-style set: Orontes considers a bond issue
+The two costs. The bank loan at 6.5 per cent costs 6.5 × 0.75 = 4.875 per cent after tax. The bond at 7.0 per cent costs 7.0 × 0.75 = 5.25 per cent after tax, plus $150,000 of issue costs — which on $5,000,000 over ten years adds roughly a fifth of a point a year, taking the effective cost to about 5.45 per cent.
+Whether the covenant binds. Debt to equity today is 6,000,000 ÷ 20,392,975 = 0.29 on long-term debt, or 11,279,625 ÷ 20,392,975 = 0.55 on total liabilities. Adding $5,000,000 of debt takes the second to 16,279,625 ÷ 20,392,975 = 0.80. On either measure the limit of 1.00 is not breached, so the covenant does not bind on these figures — though it would leave less room than Orontes has had, and Book 1 found a gross margin falling a point a year, which is how equity growth slows.
+The recommendation. The bank loan, on cost and on simplicity. It is about half a point a year cheaper after tax, it carries no issue costs, and $5,000,000 is below the size at which a public issue's fixed costs are easily absorbed.
+The risks. The loan's risk is the covenant: at 0.80 against a limit of 1.00 there is room, and a bad year that reduces equity narrows it, and Barada's experience in Book 1 shows what a breach costs. The bond's risk is the ten-year commitment at a fixed 7 per cent with no early repayment unless a call provision is bought — and if rates fall, Orontes would be paying above the market for several years with no way out.

@@ -1,0 +1,588 @@
+Chapter 6
+Futures, forwards and options
+العقود الآجلة والمستقبلية والخيارات
+Orontes buys sesame. The price of sesame moves, and a move of a tenth takes more off its gross margin than three years of the decline Book 1 reported. The company cannot stop the price moving. What it can do is fix it in advance, or buy the right to a maximum, and those two sentences are the whole subject of this chapter.
+A derivative is a contract whose value comes from something else — a commodity, a currency, an interest rate, a share, an index. It is not an investment in the ordinary sense: nobody owns anything when the contract is struck, and the contract exists only to move a risk from one party to another. This chapter sets out the four instruments the exam names, the two positions anybody can take in them, and the variables that decide what an option is worth.
+Figure F606-01 is your map.
+Figure F606-01. Chapter 6 roadmap: four contracts, two positions, six variables.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.2.h
+Explain what derivatives are and what they are used for.
+C
+Full treatment
+B.2.i
+Identify the basic features of futures and forwards.
+C
+Full treatment
+B.2.j
+Distinguish a long position from a short position.
+C
+Full treatment
+B.2.k
+Define options and distinguish a call from a put.
+C
+Full treatment
+B.2.l
+Define strike price, option premium and intrinsic value.
+C
+Full treatment
+B.2.m
+Explain how the variables that make up an option's value interact.
+C
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+derivative
+المشتقة المالية
+produit dérivé
+forward contract
+العقد الآجل
+contrat à terme de gré à gré
+futures contract
+العقد المستقبلي
+contrat à terme standardisé
+long position
+مركز الشراء
+position longue
+short position
+مركز البيع
+position courte
+call option
+خيار الشراء
+option d'achat
+put option
+خيار البيع
+option de vente
+intrinsic value
+القيمة الجوهرية
+valeur intrinsèque
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 named foreign exchange risk, interest rate risk and market risk as three of the four risks a treasurer carries, and said that a manager hedges what a diversified shareholder would not pay to remove. These are the instruments that do the hedging.
+6.1  What a derivative is, and what it is for
+A derivative's value is derived from an underlying — the asset, rate or index the contract refers to. The contract itself creates no new asset. If one party gains a dollar the other loses a dollar, which is why a derivatives market is called a zero-sum game, and why its total size says nothing about the wealth in it.
+Three uses, and the exam separates them sharply.
+Hedging takes an existing exposure and offsets it. Orontes is already exposed to the sesame price by the simple fact of being a food manufacturer; a contract to buy sesame forward at a fixed price cancels part of that exposure. A hedger's gain on the contract is matched by a loss on the underlying business, and the point is not to make money on the contract but to make the outcome certain.
+Speculation takes an exposure that did not exist. A trader with no sesame business who buys the same contract has created a position in the sesame price. The instrument is identical; the purpose, and the risk, are the opposite.
+Arbitrage takes two prices for the same thing and locks in the difference. In theory it is riskless and in practice it is nearly so, and it is the force that keeps a derivative's price tied to its underlying.
+A fourth motive deserves naming because questions use it: a derivative can change the form of a position cheaply. Converting floating-rate debt to fixed by swapping the interest, rather than repaying one bond and issuing another, saves the whole cost of an issue — and Chapter 7 takes that up.
+Figure F606-02 contrasts the three purposes.
+Figure F606-02. Three reasons to hold a derivative
+Purpose
+The underlying exposure
+What the contract does
+Risk after the trade
+Hedging
+Already exists
+Offsets it
+Lower
+Speculation
+Does not exist
+Creates it
+Higher
+Arbitrage
+Two prices for one thing
+Locks the difference
+Close to nil
+EXAM TRAP   The same contract does opposite work
+Whether a position is a hedge or a speculation depends on what else the holder owns, never on the contract. A question that describes a company buying a commodity forward for a commodity it does not use is describing a speculation.
+A hedge removes the upside with the downside. A company that hedges and then watches prices fall has paid for certainty, not made a mistake.
+Derivatives are off balance sheet in the sense that no asset is bought, and they are recognised at fair value under the standards. Part 1 covered the accounting; Section B covers the economics.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+underlying
+الأصل محل العقد
+sous-jacent
+zero-sum
+محصلة صفرية
+jeu à somme nulle
+speculation
+المضاربة
+spéculation
+arbitrage
+المراجحة
+arbitrage
+SECTION CHECK   Test yourself
+SC6-1  A derivative's value comes from:
+A.	the price of an underlying asset, rate or index.
+B.	the assets of the party that issued it.
+C.	the exchange that lists it.
+D.	its own cash flows alone.
+SC6-2  A company that uses sesame and buys sesame forward is:
+A.	hedging.
+B.	speculating.
+C.	arbitraging.
+D.	issuing a derivative.
+SC6-3  A hedge that is in place when prices move favourably:
+A.	gives up the gain, which is the price of certainty.
+B.	proves the hedge was a mistake.
+C.	still captures the gain.
+D.	is cancelled automatically.
+Answers and explanations are at the end of the chapter.
+6.2  Forwards, futures, and the two positions
+A forward contract is an agreement between two parties to buy or sell a stated quantity of something at a stated price on a stated future date. It is negotiated privately, so every term can be tailored, and it is settled once, at delivery.
+A futures contract is the same promise, standardised and traded on an exchange. Quantity, quality, delivery date and delivery point are fixed by the exchange; the only thing negotiated is the price. The exchange's clearing house stands between the two parties, so neither takes the other's credit risk, and both post margin: an initial deposit, and then a daily settlement of gains and losses called marking to market.
+Those two differences — customisation against standardisation, one settlement against daily settlement — generate every other difference the exam asks for.
+Figure F606-03 compares them.
+Figure F606-03. Forwards against futures
+Feature
+Forward
+Futures
+Where traded
+Privately, over the counter
+On an exchange
+Terms
+Negotiated and tailored
+Standardised
+Counterparty risk
+On the other party
+On the clearing house
+Margin
+None usually
+Initial and maintenance, settled daily
+Settlement
+Once, at maturity
+Daily, by marking to market
+Closing early
+By agreement, or a new offsetting contract
+By an offsetting trade, easily
+Typical user
+A company hedging a specific exposure
+A company or a trader wanting liquidity
+The two positions are simple and are tested constantly. The long position is the buyer's: long means committed to buy, and a long gains when the price rises. The short position is the seller's: short means committed to sell, and a short gains when the price falls. A hedger chooses the position that offsets the business. Orontes buys sesame, so a price rise hurts it, so it goes long. A farmer sells sesame, so a price rise helps, so the farmer goes short — and the farmer and Orontes are the two sides of the same contract, each made safer by it.
+WORKED EXAMPLE   Worked example: Orontes fixes its sesame price
+Step 1. The exposure. Orontes expects to buy 1,000 tonnes of sesame in six months. The current price is $1,200 a tonne, so the expected cost is 1,000 × 1,200 = 1,200,000. A rise of a tenth would add $120,000 to cost of sales, which is more than a point of gross margin.
+Step 2. The hedge. The company buys 1,000 tonnes six months forward at $1,200. It is now long sesame futures and long the physical requirement, and the two offset.
+Step 3. The price rises. Suppose sesame reaches $1,350. The physical purchase costs 1,350 − 1,200 = 150 a tonne more than planned, which is 150 × 1,000 = 150,000. The contract gains the identical $150,000. Net cost: $1,200 a tonne, as planned.
+Step 4. The price falls. Suppose sesame falls to $1,100. The physical purchase is $100 a tonne cheaper, saving $100,000, and the contract loses $100,000. Net cost: $1,200 a tonne, as planned.
+Check. In both directions Orontes paid $1,200 a tonne, which is what hedging means. The company gave up a $100,000 windfall to avoid a $150,000 shock, and whether that is a good trade depends on whether certainty is worth more to it than the average outcome — which for a company with a gross margin of 35 per cent and a bank covenant to respect, it generally is. Had Orontes bought futures rather than a forward, it would also have had to fund margin: at an initial margin of 5 per cent, 1,200,000 × 0.05 = 60,000 of cash tied up, plus whatever the daily settlements demanded.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+clearing house
+غرفة المقاصة
+chambre de compensation
+margin
+الهامش
+dépôt de garantie
+marking to market
+التسوية اليومية
+évaluation au prix du marché
+offsetting trade
+الصفقة المعاكسة
+opération de clôture
+SECTION CHECK   Test yourself
+SC6-4  A long position gains when the price of the underlying:
+A.	rises.
+B.	falls.
+C.	is unchanged.
+D.	becomes volatile.
+SC6-5  Which is true of futures and not of forwards?
+A.	Daily settlement through a clearing house
+B.	A fixed price agreed today
+C.	A future delivery date
+D.	An obligation on both parties
+SC6-6  A company that will buy a commodity in six months hedges by taking:
+A.	a long position.
+B.	a short position.
+C.	no position.
+D.	a put option it writes.
+Answers and explanations are at the end of the chapter.
+6.3  Options: calls, puts, and what they cost
+A forward obliges. An option entitles. That single word is the difference, and it is why an option costs money up front and a forward does not.
+A call option gives its holder the right, but not the obligation, to buy the underlying at a stated price on or before a stated date. A put option gives the right to sell. The stated price is the strike price or exercise price. The date is the expiration. The money paid for the right is the premium, and it is paid whether or not the option is ever used.
+Every option has two sides. The holder, who paid the premium, has a right and no obligation; the writer, who received it, has an obligation and no right. The holder's loss is limited to the premium and the gain is open-ended on a call; the writer's gain is limited to the premium and the loss is open-ended. The exam checks that direction more often than any other point in the chapter.
+Two styles appear: an American option may be exercised at any time up to expiration, a European option only at expiration. The American style is worth at least as much, because it allows everything the European allows and more.
+Intrinsic value is what the option would be worth if exercised immediately, and it is never negative. For a call it is the underlying price less the strike, or zero if that is negative. For a put it is the strike less the underlying price, or zero. An option with intrinsic value is in the money; with none and the underlying at the strike, at the money; with none and the underlying the wrong side, out of the money.
+Time value is the rest of the premium: what a buyer pays for the chance that the option moves further into the money before expiration. Premium equals intrinsic value plus time value, always, and at expiration time value is zero so the premium equals the intrinsic value.
+WORKED EXAMPLE   Worked example: a call on sesame
+Step 1. The contract. Instead of a forward, Orontes buys a six-month call on 1,000 tonnes of sesame with a strike of $1,250 a tonne, paying a premium of $40 a tonne.
+Step 2. Prices rise sharply. At $1,350, the call is in the money: its intrinsic value is 1,350 − 1,250 = 100 a tonne, and after the premium the gain is 100 − 40 = 60 a tonne. Orontes exercises and its effective cost is $1,290 a tonne.
+Step 3. Prices fall. At $1,100, the call is worthless and Orontes lets it expire, losing the $40 premium and buying in the market at $1,100. Its effective cost is $1,140 a tonne — $60 better than the forward of section 6.2.
+Step 4. The breakeven. The call buyer is better off than doing nothing above 1,250 + 40 = 1,290, and worse off below it by the premium.
+Check. Compare the three strategies at the two prices. Unhedged, Orontes pays $1,350 or $1,100. Forward, it pays $1,200 either way. Call, it pays $1,290 or $1,140. The option is the only one that caps the bad outcome and keeps the good one, and the premium of $40 a tonne — $40,000 in total — is exactly what that asymmetry costs. There is no free version.
+Figure F606-04 sets the three side by side.
+Figure F606-04. One exposure, three strategies
+Sesame at delivery
+Unhedged cost a tonne
+With the forward at 1,200
+With the 1,250 call at a 40 premium
+1,100
+1,100
+1,200
+1,140
+1,200
+1,200
+1,200
+1,240
+1,350
+1,350
+1,200
+1,290
+Worst case
+Unlimited
+1,200, fixed
+1,290, capped
+EXAM TRAP   Who has the right, and who has the obligation
+The holder of a call or a put has the right. The writer has the obligation and keeps the premium whatever happens.
+Intrinsic value is never negative. An out-of-the-money option has an intrinsic value of zero, not a negative one.
+A call is not the opposite of a put. The opposite of buying a call is writing a call. Buying a put is a different position entirely.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+strike price
+سعر التنفيذ
+prix d'exercice
+premium
+علاوة الخيار
+prime
+in the money
+في نطاق الربح
+dans la monnaie
+option writer
+محرر الخيار
+vendeur de l'option
+SECTION CHECK   Test yourself
+SC6-7  A call option gives its holder the right to:
+A.	buy the underlying at the strike price.
+B.	sell the underlying at the strike price.
+C.	receive a dividend.
+D.	vote the shares.
+SC6-8  A call with a strike of 1,250 when the underlying is 1,350 has an intrinsic value of:
+A.	100
+B.	nil
+C.	1,350
+D.	40
+SC6-9  The maximum loss of a call buyer is:
+A.	the premium paid.
+B.	unlimited.
+C.	the strike price.
+D.	the intrinsic value.
+Answers and explanations are at the end of the chapter.
+6.4  What an option is worth
+Six variables determine an option's premium, and the outcome asks for the direction of each. Taking a call first.
+The price of the underlying. Higher is better for a call: more intrinsic value. Worse for a put.
+The strike price. Lower is better for a call, because the right to buy cheaply is worth more. Higher is better for a put.
+Time to expiration. More is better for both. Time is the chance of a favourable move, and since the downside is capped at the premium, more chances can only help.
+Volatility of the underlying. More is better for both, and this is the one candidates find counter-intuitive. A more volatile underlying produces more extreme outcomes in both directions, and the option holder keeps the good extremes and is protected from the bad ones. Volatility is therefore the variable option traders actually trade.
+The risk-free rate. A higher rate is slightly better for a call, because the strike will be paid later and money paid later is worth less; slightly worse for a put, by the same reasoning.
+Dividends on the underlying. A dividend lowers the share price on the ex-dividend date, so expected dividends reduce a call's value and raise a put's.
+Figure F606-05 lays the six out.
+Figure F606-05. What moves an option premium
+Variable
+An increase in it
+Effect on a call
+Effect on a put
+Price of the underlying
+Up
+Up
+Down
+Strike price
+Up
+Down
+Up
+Time to expiration
+Up
+Up
+Up
+Volatility
+Up
+Up
+Up
+Risk-free rate
+Up
+Up slightly
+Down slightly
+Expected dividends
+Up
+Down
+Up
+Two further relationships appear in questions. The premium can never be less than the intrinsic value, because anybody could otherwise buy the option and exercise it at once for a profit — the arbitrage of section 6.1 at work. And a call and a put with the same strike and expiration are linked to the underlying and a risk-free bond by put-call parity, which is the formal statement that the same payoff can be built two ways and must therefore cost the same.
+Note finally what is not on the list. The expected return on the underlying is not there, and neither is anybody's opinion about where the price is going. That is the surprising result at the heart of option pricing, and it holds because the option can be replicated by holding the underlying and borrowing, so its price is fixed by arbitrage rather than by forecasts.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+volatility
+التقلب
+volatilité
+time value
+القيمة الزمنية
+valeur temps
+put-call parity
+تعادل خيار البيع والشراء
+parité call-put
+replication
+المحاكاة
+réplication
+SECTION CHECK   Test yourself
+SC6-10  An increase in the volatility of the underlying:
+A.	raises the value of both calls and puts.
+B.	raises calls and lowers puts.
+C.	lowers both.
+D.	has no effect.
+SC6-11  An option's premium can never be less than its:
+A.	intrinsic value.
+B.	time value.
+C.	strike price.
+D.	underlying price.
+Answers and explanations are at the end of the chapter.
+6.5  Choosing an instrument
+A treasurer with an exposure has four honest answers and the exam expects the choice to be argued rather than asserted.
+Do nothing. Appropriate when the exposure is small against the business, when the company is naturally hedged because its costs and revenues move together, or when the cost of hedging exceeds the risk removed. Doing nothing is a decision and should be recorded as one.
+Hedge with a forward or a future. Appropriate when the exposure is known in amount and timing and the company wants certainty. It costs nothing up front and it removes the upside. Choose a forward when the amount or date is specific, a future when liquidity and credit safety matter more than an exact fit.
+Hedge with an option. Appropriate when the exposure is uncertain — a tender that may not be won, a harvest that may not arrive — or when the company wants protection and is willing to pay for keeping the upside. It costs a premium, and that premium is the whole of what distinguishes it from a forward.
+Hedge naturally. Match the exposure inside the business: borrow in the currency you earn, buy from a supplier whose price moves with your selling price, hold inventory as a hedge against a rising input cost. This is the cheapest hedge available and the exam rewards the candidate who mentions it first.
+Two warnings close the chapter.
+Basis risk. A hedge is rarely exact. If the contract's underlying is not precisely what the company buys — a sesame future against a specific grade, or a crude oil future against jet fuel — the two prices move together but not identically, and the difference between them is basis risk, which no hedge of that kind removes.
+A hedge that becomes a speculation. A company that hedges more than its exposure, or keeps a contract after the exposure has gone, is speculating with the shareholders' money. Every famous derivatives loss in corporate history began as an authorised hedging programme, and the control that prevents it is a policy limiting positions to documented exposures.
+YOUR TURN   Price the positions
+Figure F606-06 gives one underlying and several positions. Complete the blanks. Answers are at the end of the chapter.
+Figure F606-06. Your turn: positions and values (complete the blanks)
+Position
+Data
+Answer
+Intrinsic value of a call
+Strike 50, underlying 58
+________
+Intrinsic value of a put
+Strike 50, underlying 58
+________
+Time value of that call
+Premium 11
+________
+Breakeven for the call buyer
+________
+Maximum loss of the call buyer
+________
+Maximum loss of the call writer
+________
+Position for a company that will SELL wheat in three months
+________
+LANGUAGE FOCUS   "Short"
+English short in finance means committed to deliver something you do not hold: a short position gains when prices fall. It has nothing to do with time, although short-term debt is a phrase in the same book, and nothing to do with a shortage, although a short seller may create one. Arabic uses مركز البيع, literally a selling position, which states the meaning plainly and avoids the metaphor entirely. French position courte is a direct borrowing of the English and carries the same opacity, while vendeur à découvert spells it out. Note the companion pair: to cover a short is to close it by buying, and a short squeeze is what happens when many shorts are forced to cover at once — both phrases appear in exam questions on market mechanics without explanation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+natural hedge
+التحوط الطبيعي
+couverture naturelle
+basis risk
+مخاطر الأساس
+risque de base
+hedging policy
+سياسة التحوط
+politique de couverture
+exposure
+التعرض
+exposition
+SECTION CHECK   Test yourself
+SC6-12  A company borrowing in the currency in which it earns its revenue has created:
+A.	a natural hedge.
+B.	a speculation.
+C.	basis risk only.
+D.	an option position.
+SC6-13  Basis risk arises because:
+A.	the hedging contract's underlying is not exactly what the company buys or sells.
+B.	the hedge is too large.
+C.	margin must be posted.
+D.	options have time value.
+SC6-14  A company whose exposure is uncertain — a tender it may not win — is best served by:
+A.	an option, which can be left unexercised.
+B.	a forward, which obliges it to deliver.
+C.	a short future.
+D.	no instrument at all.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F606-07 brings the chapter together.
+Figure F606-07. Chapter 6 summary map: the key rule for each section.
+A derivative takes its value from an underlying and creates no asset, so one side's gain is the other's loss; the same contract hedges an existing exposure, speculates on one that did not exist, or arbitrages two prices, and only what else the holder owns says which. Forwards are private and tailored and settle once; futures are standardised, cleared, margined and marked to market daily — and in both, long means committed to buy and gains when prices rise, short means committed to sell and gains when they fall. A forward obliges and an option entitles: a call is the right to buy at the strike, a put the right to sell, the premium is paid either way, intrinsic value is never negative, and premium equals intrinsic plus time value. Orontes's 1,000 tonnes show the whole trade-off: unhedged it pays 1,100 or 1,350 a tonne, forward it pays 1,200 either way, and with a 1,250 call at a premium of 40 it pays 1,140 or 1,290 — the only strategy that caps the bad outcome and keeps the good one, at a cost of exactly $40,000. Six variables move an option's premium, of which volatility is the one traders trade and the expected return on the underlying is conspicuously not among them. And the best hedge of all is usually the natural one inside the business, while the worst risk in a hedging programme is the hedge that outlives its exposure.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P6-01  A derivative is a contract whose value:
+A.	derives from an underlying asset, rate or index.
+B.	is set by the issuing company's assets.
+C.	is fixed at issue.
+D.	cannot change.
+P6-02  Which is a feature of a futures contract but not a forward?
+A.	Daily marking to market
+B.	A price agreed in advance
+C.	A future settlement date
+D.	An obligation to perform
+P6-03  A long position in a commodity future gains when the price:
+A.	rises.
+B.	falls.
+C.	is stable.
+D.	becomes volatile.
+P6-04  A put option gives the holder the right to:
+A.	sell at the strike price.
+B.	buy at the strike price.
+C.	receive the premium.
+D.	demand delivery of a dividend.
+P6-05  A call with a strike of 50 when the underlying trades at 58 has an intrinsic value of:
+A.	8
+B.	nil
+C.	50
+D.	58
+P6-06  A call premium of 11 with an intrinsic value of 8 has a time value of:
+A.	3
+B.	19
+C.	11
+D.	8
+P6-07  An increase in time to expiration:
+A.	raises the value of both calls and puts.
+B.	raises calls only.
+C.	lowers both.
+D.	has no effect on either.
+P6-08  The maximum loss of an option writer who has sold a call is:
+A.	potentially unlimited.
+B.	the premium received.
+C.	the strike price.
+D.	nil.
+P6-09  A company that will receive euros in three months hedges by:
+A.	selling euros forward.
+B.	buying euros forward.
+C.	buying a euro call.
+D.	doing nothing, since receipts are safe.
+P6-10  A hedge kept in place after the underlying exposure has gone is:
+A.	a speculation.
+B.	still a hedge.
+C.	arbitrage.
+D.	a natural hedge.
+Case-style practice: hedging the sesame price
+Orontes's board is asked to approve a hedging policy for its sesame purchases, which run at about 12,000 tonnes a year at around $1,200 a tonne. The treasurer proposes buying forward the whole of the next twelve months' requirement. The chief executive prefers call options at a strike 4 per cent above the current price, costing about $40 a tonne. A director asks why the company should hedge at all when its shareholders are diversified.
+Required. Set out the cost and the effect of each proposal, answer the director, and recommend a policy. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC6-1  Answer A. The value is derived from the underlying.
+B is wrong. Derivatives are contracts, not claims on a company's assets.
+C is wrong. The exchange provides the market, not the value.
+D is wrong. The contract's cash flows are themselves functions of the underlying.
+SC6-2  Answer A. The exposure already exists in the business.
+B is wrong. Speculation creates an exposure that did not exist.
+C is wrong. Arbitrage exploits two prices for one thing.
+D is wrong. Buying a forward is taking a position, not issuing one.
+SC6-3  Answer A. Certainty is bought by giving up the favourable tail.
+B is wrong. A hedge is judged before the outcome, not after.
+C is wrong. The gain on the underlying is offset by the loss on the hedge.
+D is wrong. Nothing cancels automatically.
+SC6-4  Answer A. Long means committed to buy.
+B is wrong. That is the short position.
+C is wrong. A flat price produces no gain on either side.
+D is wrong. Volatility alone does not determine the direction of a forward's payoff.
+SC6-5  Answer A. Daily settlement through a clearing house is the futures feature.
+B is wrong. Both fix a price in advance.
+C is wrong. Both settle in the future.
+D is wrong. Both oblige both parties.
+SC6-6  Answer A. A future buyer hedges a price rise by going long.
+B is wrong. A short gains when prices fall, which is the seller's hedge.
+C is wrong. No position leaves the exposure open.
+D is wrong. Writing a put obliges the company to buy at the strike and does not cap its cost.
+SC6-7  Answer A. A call is the right to buy.
+B is wrong. That is a put.
+C is wrong. Options carry no dividend rights.
+D is wrong. Options carry no votes.
+SC6-8  Answer A. 1,350 − 1,250 = 100.
+B is wrong. The option is in the money.
+C is wrong. That is the underlying price.
+D is wrong. 40 is the premium in the example.
+SC6-9  Answer A. The buyer can lose the premium and no more.
+B is wrong. Unlimited loss belongs to the writer of a call.
+C is wrong. The strike is paid only on exercise, in exchange for the asset.
+D is wrong. Intrinsic value is a component of value, not a loss.
+SC6-10  Answer A. More extreme outcomes help a holder whose downside is capped.
+B is wrong. Volatility helps both.
+C is wrong. The direction is the opposite.
+D is wrong. Volatility is the principal driver of time value.
+SC6-11  Answer A. Otherwise an immediate exercise would be a riskless profit.
+B is wrong. Time value is the part above intrinsic value.
+C is wrong. The strike is not a floor on the premium.
+D is wrong. The underlying price is not a floor on the premium.
+SC6-12  Answer A. Costs and revenues move together inside the business.
+B is wrong. Nothing new has been exposed.
+C is wrong. Basis risk arises from an imperfect contract, not from matching.
+D is wrong. No option has been bought or sold.
+SC6-13  Answer A. An imperfect match between the contract and the exposure.
+B is wrong. An oversized hedge is a speculation, not basis risk.
+C is wrong. Margin is a funding matter.
+D is wrong. Time value concerns options, not basis.
+SC6-14  Answer A. An option can be abandoned if the exposure never arises.
+B is wrong. A forward would oblige performance on an exposure that may not exist.
+C is wrong. A short future is the wrong direction and still an obligation.
+D is wrong. Doing nothing leaves the exposure open if the tender is won.
+Your turn
+Position
+Answer
+Intrinsic value of a call
+8: 58 − 50 = 8.
+Intrinsic value of a put
+Nil: the strike is below the underlying, so exercising would sell at 50 something worth 58.
+Time value of that call
+3: 11 − 8 = 3.
+Breakeven for the call buyer
+61: 50 + 11 = 61.
+Maximum loss of the call buyer
+11, the premium paid.
+Maximum loss of the call writer
+Unlimited, because the underlying can rise without limit.
+Position for a seller of wheat
+Short: sell wheat futures, so that a fall in the wheat price is offset by a gain on the contract.
+Multiple-choice questions
+P6-01  Answer A. The value derives from the underlying.
+B is wrong. A derivative is not a claim on an issuer's assets.
+C is wrong. Only the contract terms are fixed; the value moves.
+D is wrong. The value changes with the underlying.
+P6-02  Answer A. Futures are marked to market daily.
+B is wrong. Both fix the price in advance.
+C is wrong. Both settle in the future.
+D is wrong. Both are obligations.
+P6-03  Answer A. Long gains on a rise.
+B is wrong. That is the short position.
+C is wrong. A stable price produces no gain.
+D is wrong. Volatility matters to options, not to the direction of a future's payoff.
+P6-04  Answer A. A put is the right to sell.
+B is wrong. That is a call.
+C is wrong. The writer receives the premium.
+D is wrong. Options carry no dividend rights.
+P6-05  Answer A. 58 − 50 = 8.
+B is wrong. The call is in the money.
+C is wrong. 50 is the strike.
+D is wrong. 58 is the underlying price.
+P6-06  Answer A. 11 − 8 = 3.
+B is wrong. This adds instead of subtracting.
+C is wrong. That is the whole premium.
+D is wrong. That is the intrinsic value.
+P6-07  Answer A. More time is more chance, and the downside is capped.
+B is wrong. Puts gain from time as well.
+C is wrong. The direction is the opposite.
+D is wrong. Time value is a large part of most premiums.
+P6-08  Answer A. A written call has an open-ended loss.
+B is wrong. That is the maximum gain.
+C is wrong. The strike is received on exercise.
+D is wrong. The writer's risk is the largest in the chapter.
+P6-09  Answer A. A future receipt of foreign currency is hedged by selling it forward.
+B is wrong. Buying would double the exposure.
+C is wrong. A call protects a buyer of euros, not a receiver.
+D is wrong. The amount in dollars is uncertain, which is the exposure.
+P6-10  Answer A. With no exposure, the position is a bet.
+B is wrong. A hedge requires something to hedge.
+C is wrong. Arbitrage locks a price difference.
+D is wrong. A natural hedge is an offset inside the business.
+Case-style set: hedging the sesame price
+The forward proposal. Twelve thousand tonnes at $1,200 fixes an annual cost of about $14,400,000. It costs nothing up front, removes the whole of the price risk in both directions, and requires the company to take delivery or settle whatever happens. Its real cost is the upside forgone: if sesame fell a tenth, Orontes would pay about $1,440,000 more than the market.
+The option proposal. Calls struck 4 per cent above the current price, at $40 a tonne, cost 12,000 × 40 = 480,000 for the year. They cap the cost at the strike plus the premium, which is about $1,288 a tonne, and leave the whole of any fall to the company. The premium is about 1.1 per cent of the purchase cost and about 3.3 per cent of a year's gross profit.
+The director's question. The director is right in theory and wrong in this company. A diversified shareholder does not need Orontes to hedge a sesame price, because the shareholder can hold the farm as well. But Orontes is not only its shareholders: it has a bank covenant measured on reported ratios, a gross margin that Book 1 found falling a point a year, and managers whose attention is a finite resource. A price shock that breached a covenant or forced an emergency repricing would cost the company more than the hedge does, and none of that cost is diversifiable by anybody.
+The recommendation. Hedge the firm commitments with forwards — the volumes already contracted to customers at agreed prices, where the exposure is certain and certainty is what is wanted. Use options for the uncertain remainder, where the volume depends on orders not yet won. And write the policy to limit positions to documented exposures, so that the hedging programme can never become a trading one.
