@@ -1,0 +1,436 @@
+Chapter 16
+The market's ratios: EPS, P/E, yield and payout
+مؤشرات السوق: ربحية السهم ومكرر الربحية والعائد والتوزيعات
+Every ratio so far has been built from the statements alone. The ratios in this chapter need one more number, and it comes from outside the accounts entirely: the price at which the shares change hands. Orontes's shares closed 2025 at $9.25, against $7.80 a year earlier.
+That one price turns the accounts into market measures. Earnings per share scales the profit to the unit a shareholder owns; the price/earnings ratio says how many years of that profit the market is paying for; the earnings and dividend yields say what the shareholder earns on the price paid; and the payout ratio says how much of the profit is handed over rather than kept. Together they are how an owner, rather than a lender or a manager, reads a company.
+Figure F516-01 is your map.
+Figure F516-01. Chapter 16 roadmap: one price, five market ratios.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.2.u | Calculate and interpret basic and diluted earnings per share. | C | Full treatment
+A.2.r | Calculate and interpret the market/book ratio and the price/earnings ratio. | C | Full treatment
+A.2.v | Calculate and interpret earnings yield, dividend yield, the dividend payout ratio and shareholder return. | C | Full treatment
+A.2.s | Use book value per share as the denominator of a market multiple. | B | Reinforced (introduced in Chapter 15)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+earnings per share | ربحية السهم | résultat par action
+basic earnings per share | ربحية السهم الأساسية | résultat de base par action
+diluted earnings per share | ربحية السهم المخففة | résultat dilué par action
+price/earnings ratio | مكرر الربحية | ratio cours sur bénéfice
+earnings yield | عائد الأرباح | rendement bénéficiaire
+dividend yield | عائد التوزيعات | rendement du dividende
+dividend payout ratio | نسبة توزيع الأرباح | taux de distribution
+shareholder return | عائد حامل السهم | rentabilité pour l'actionnaire
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Part 1 printed Orontes's earnings per share as $0.37, basic and diluted, on a weighted average of 8,099,726 shares. Chapter 15 computed book value per share of $2.5177 and a market-to-book ratio of 3.67 at a price of $9.25. This chapter derives the earnings figure, says what makes a diluted figure differ from it, and uses the price four more times.
+16.1  Earnings per share
+Basic earnings per share is the profit attributable to common shareholders divided by the weighted-average number of common shares outstanding during the period.
+Two words in that sentence do the work. Attributable means after any preferred dividends, because a preferred dividend is not the common shareholders' profit; Orontes has no preferred stock, so its whole net income of $2,969,100 is attributable. Weighted-average means each share counts for the fraction of the year it was outstanding, because a share issued in December did not help earn the year's profit.
+Orontes began 2025 with 8,000,000 shares and ended with 8,100,000, the 100,000 new shares having been issued on January 2. Each was outstanding for 364 of the 365 days: 100,000 × 364 ÷ 365 = 99,726, and the weighted average is 8,000,000 + 99,726 = 8,099,726 — the figure on the face of the income statement.
+So basic earnings per share is 2,969,100 ÷ 8,099,726 = 0.3666, which the statements present as $0.37.
+Figure F516-02 sets it out.
+Figure F516-02. Orontes Foods, Inc. — basic earnings per share, 2025
+@table
+Element | Figure | Note
+Net income | 2,969,100 | No preferred stock, so all of it is attributable
+Shares at January 1 | 8,000,000 | Outstanding all year
+Shares issued January 2 | 100,000 | Outstanding 364 days
+Weighted-average shares | 8,099,726 | 8,000,000 plus 99,726
+Basic earnings per share | 0.3666 | Presented as 0.37
+@end
+EXAM TRAP   The share count is where the marks are
+A share split or a stock dividend is applied retrospectively to every period presented, because no cash came in and nothing was earned differently. A share issue for cash is weighted from its date.
+Treasury shares are excluded from the moment they are repurchased, weighted in the same way.
+Earnings per share is the one ratio the standards define and require on the face of the income statement. Every other ratio in Book 1 is an analyst's construction.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+attributable profit | الربح المنسوب | résultat attribuable
+share split | تجزئة الأسهم | division d'actions
+stock dividend | توزيعات أسهم مجانية | dividende en actions
+@end
+SECTION CHECK   Test yourself
+SC16-1  Basic earnings per share divides attributable profit by:
+A.	the weighted-average shares outstanding.
+B.	shares outstanding at the year end.
+C.	shares authorised.
+D.	diluted shares.
+SC16-2  A share split is applied:
+A.	from the date of the split only.
+B.	retrospectively to every period presented.
+C.	not at all.
+D.	only to the diluted figure.
+SC16-3  Orontes's basic earnings per share for 2025 is:
+A.	0.3666
+B.	0.3666 before preferred dividends only
+C.	2.5177
+D.	0.0556
+Answers and explanations are at the end of the chapter.
+16.2  Diluted earnings per share
+Diluted earnings per share asks what the figure would have been if everything that could become a common share had become one. Convertible bonds, convertible preferred stock, options and warrants are all potential common shares, and a company that has issued them has promised away part of each future dollar of profit.
+Orontes reports the same figure for basic and diluted, which tells you it has no potential common shares outstanding. Most listed companies do, so the exam tests the mechanics on figures the question supplies.
+Two methods cover almost everything.
+The treasury stock method, for options and warrants. Assume they are exercised at their exercise price and that the company uses the proceeds to buy its own shares back at the average market price. The net new shares are the difference.
+The if-converted method, for convertible debt and convertible preferred. Assume conversion at the start of the period. Add the shares that would be issued, and add back to the numerator the interest after tax, or the preferred dividend, that would no longer be paid.
+WORKED EXAMPLE   Worked example: two kinds of dilution
+Step 1. Options, by the treasury stock method. Suppose Orontes had 500,000 options outstanding at an exercise price of $5.00, with an average market price of $9.25. The proceeds would be 500,000 × 5.00 = 2,500,000, which buys back 2,500,000 ÷ 9.25 = 270,270 shares, so the net new shares are 500,000 − 270,270 = 229,730. Diluted shares are 8,099,726 + 229,730 = 8,329,456, and diluted earnings per share is 2,969,100 ÷ 8,329,456 = 0.3565.
+Step 2. A convertible bond, by the if-converted method. Suppose instead Orontes had $2,000,000 of 5 per cent convertible bonds exchangeable for 400,000 shares. The interest saved is 2,000,000 × 0.05 = 100,000, and after tax at the company's 25 per cent effective rate that is 100,000 × 0.75 = 75,000. The numerator becomes 2,969,100 + 75,000 = 3,044,100 and the share count 8,099,726 + 400,000 = 8,499,726, so diluted earnings per share is 3,044,100 ÷ 8,499,726 = 0.3581.
+Step 3. Test each for dilution. A security is only included if it reduces earnings per share. The bond adds 75,000 of income for 400,000 shares, which is 75,000 ÷ 400,000 = 0.1875 a share, below the basic figure of 0.3666, so it dilutes and must be included. Had the bond carried a high enough coupon that its per-share effect exceeded 0.3666, including it would raise earnings per share, and an antidilutive security is excluded.
+Check. Both figures are below the basic 0.3666, which is the whole point: diluted earnings per share can never be higher than basic. Where a question gives several instruments, rank them by their per-share effect, include them cheapest first, and stop at the one that stops reducing the figure.
+Figure F516-03 compares the two methods.
+Figure F516-03. The two dilution methods
+@table
+Instrument | Method | Numerator | Denominator
+Options and warrants | Treasury stock | Unchanged | Plus the net new shares
+Convertible debt | If-converted | Plus interest after tax | Plus the conversion shares
+Convertible preferred | If-converted | Plus the preferred dividend | Plus the conversion shares
+Antidilutive security | Excluded | Unchanged | Unchanged
+@end
+EXAM TRAP   Dilution has a direction
+Diluted earnings per share is always less than or equal to basic. A computed diluted figure above the basic one means an antidilutive security has been included by mistake.
+A loss changes the direction of the test: when the company reports a loss, potential shares reduce the loss per share and are therefore antidilutive, so diluted equals basic.
+The treasury stock method uses the average market price for the period, not the closing price.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+potential common share | سهم عادي محتمل | action ordinaire potentielle
+convertible bond | سند قابل للتحويل | obligation convertible
+warrant | حق اكتتاب | bon de souscription
+antidilutive | غير مخفف للربحية | non dilutif
+@end
+SECTION CHECK   Test yourself
+SC16-4  The treasury stock method assumes the proceeds of exercise are used to:
+A.	repay debt.
+B.	repurchase shares at the average market price.
+C.	pay a dividend.
+D.	buy inventory.
+SC16-5  Diluted earnings per share is:
+A.	always higher than basic.
+B.	never higher than basic.
+C.	equal to basic by definition.
+D.	computed only for loss-making companies.
+SC16-6  A convertible bond adds 75,000 of after-tax income and 400,000 shares. Basic earnings per share is 0.3666. The bond is:
+A.	dilutive, because 0.1875 a share is below 0.3666.
+B.	antidilutive, because it adds income.
+C.	ignored because it is debt.
+D.	included in basic earnings per share.
+Answers and explanations are at the end of the chapter.
+16.3  The price/earnings ratio and the earnings yield
+The price/earnings ratio is the market price of a share divided by its earnings per share. For Orontes: 9.25 ÷ 0.3666 = 25.23.
+Read it two ways, and the exam uses both. Arithmetically, the market is paying 25.23 dollars for each dollar of last year's earnings, or about twenty-five years of earnings at this level. Economically, a high multiple is the market saying it expects earnings to grow, or that it regards them as low-risk, or both; a low multiple is the market expecting decline, or demanding a discount for risk.
+The earnings yield is the same relationship inverted: earnings per share over price, 0.3666 ÷ 9.25 = 3.96 per cent. It is the more useful form when comparing a share with a bond, because a bond is quoted as a yield and a 3.96 per cent earnings yield can be set directly against the 6 per cent Orontes pays its own bank.
+Figure F516-04 collects the market ratios for both years.
+Figure F516-04. Orontes: the market ratios, 2025 and 2024
+@table
+Measure | 2025 | 2024 | Basis
+Share price | 9.25 | 7.80 | Closing market price
+Earnings per share | 0.3666 | 0.3248 | Net income over weighted-average shares
+Price/earnings ratio | 25.23 | 24.01 | Price over earnings per share
+Earnings yield | 3.96% | 4.16% | Earnings per share over price
+Market-to-book ratio | 3.67 | 3.81 | Price over book value per share
+@end
+A multiple of twenty-five on a food manufacturer growing sales at 15 per cent a year is a price that assumes the growth continues. Nothing in Chapter 13 supports that assumption comfortably: the growth has been bought with two points of gross margin, and the market multiple has risen while the margin fell. That is not a prediction; it is the single most useful sentence an analyst can write about Orontes, and it comes from putting a market ratio next to an accounting one.
+EXAM TRAP   Which earnings in the price/earnings ratio
+A trailing multiple uses the last reported year. A forward multiple uses a forecast. They are not comparable, and a question that gives you a forecast expects the forward figure.
+Diluted earnings per share is the conventional denominator for a company with potential common shares, because it is the more prudent figure.
+A loss-making company has no meaningful price/earnings ratio. The ratio is left blank rather than reported as a negative number.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+multiple | المضاعف | multiple
+trailing earnings | أرباح الاثني عشر شهراً الماضية | bénéfices des douze derniers mois
+forward earnings | الأرباح المتوقعة | bénéfices prévisionnels
+@end
+SECTION CHECK   Test yourself
+SC16-7  The price/earnings ratio of a share priced at 9.25 with earnings per share of 0.3666 is:
+A.	25.23
+B.	3.96
+C.	3.67
+D.	0.0396
+SC16-8  The earnings yield is:
+A.	the reciprocal of the price/earnings ratio.
+B.	the dividend over the price.
+C.	net income over equity.
+D.	the same as the dividend yield.
+SC16-9  A high price/earnings ratio most often means the market expects:
+A.	earnings to grow, or regards them as low-risk.
+B.	the company to fail.
+C.	the dividend to be cut.
+D.	the book value to fall.
+Answers and explanations are at the end of the chapter.
+16.4  Dividend yield and payout
+The dividend per share is dividends declared over the shares that will receive them: 450,000 ÷ 8,100,000 = 0.0556.
+The dividend yield is that over the price: 0.0556 ÷ 9.25 = 0.60 per cent. An Orontes shareholder receives six-tenths of one per cent a year in cash, which is next to nothing, and expects the rest of the return in the share price.
+The dividend payout ratio is dividends over earnings, which Chapter 15 computed as 15.16 per cent from the totals and which comes to the same thing per share: 0.0556 ÷ 0.3666 = 15.17 per cent, the small difference being the share count — the dividend is declared on the 8,100,000 shares in issue and the earnings are divided by the 8,099,726 weighted average.
+The three are one statement looked at from three sides. Figure F516-05 shows how they fit.
+Figure F516-05. Orontes: how the dividend ratios fit together
+@table
+Measure | Computation | 2025 | What it tells the owner
+Dividend per share | 450,000 over 8,100,000 | 0.0556 | What arrives in cash
+Dividend yield | 0.0556 over 9.25 | 0.60% | The cash return on the price
+Dividend payout ratio | 0.0556 over 0.3666 | 15.17% | The share of profit handed over
+Retention ratio | One less the payout | 84.84% | What the company keeps to grow
+@end
+A low yield with a high retention is a growth company's profile, and it is consistent with everything else in Book 1: Orontes retains 84.84 per cent because it needs the money to fund 13.70 per cent growth. A mature utility shows the opposite — a 5 per cent yield, a 70 per cent payout, and growth of 2 per cent. Neither pattern is better. What matters is whether the pattern matches the business, and whether the company can keep it.
+EXAM TRAP   Yield is on price, payout is on earnings
+The dividend yield divides by the share price; the payout ratio divides by earnings. Dividing the dividend by book value or by the par value is a common slip and gives a meaningless figure.
+A company can pay a dividend it has not earned: a payout ratio above 100 per cent means the dividend came out of reserves or out of borrowings, which is a finding worth stating.
+The declared dividend, not the paid dividend, drives both ratios. Orontes paid $50,000 of cash and declared $450,000.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+dividend per share | التوزيعات لكل سهم | dividende par action
+record date | تاريخ الاستحقاق | date d'enregistrement
+mature company | شركة في مرحلة النضج | société mature
+@end
+SECTION CHECK   Test yourself
+SC16-10  The dividend yield divides the dividend per share by:
+A.	the market price per share.
+B.	earnings per share.
+C.	book value per share.
+D.	par value.
+SC16-11  A payout ratio above 100 per cent means:
+A.	the dividend exceeded the year's earnings.
+B.	the company is highly profitable.
+C.	the yield must also exceed 100 per cent.
+D.	the shares are undervalued.
+Answers and explanations are at the end of the chapter.
+16.5  Shareholder return, and what a multiple cannot say
+A shareholder's return for a year is the dividend received plus the change in the price, over the price at the start. For an Orontes shareholder in 2025 the price gain is 9.25 − 7.80 = 1.45 and the dividend is 0.0556, so the total is 1.45 + 0.0556 = 1.5056, and the return is 1.5056 ÷ 7.80 = 19.30 per cent.
+That is the figure an owner actually earned, and it is worth setting against the three returns Book 1 has computed from the accounts: a return on assets of 10.22 per cent, a return on equity of 16.15 per cent, and now a shareholder return of 19.30 per cent. They answer different questions. The first two ask what the company earned on the money invested in it; the third asks what the market paid the shareholder, which depends on the company's results and on a change in sentiment the company does not control.
+Figure F516-06 puts them together.
+Figure F516-06. Orontes: four returns for one year
+@table
+Return | 2025 | Measures | Controlled by
+Return on assets | 10.22% | The business | Management
+Return on equity | 16.15% | The owners' share of the business | Management and funding policy
+Earnings yield | 3.96% | Earnings bought at today's price | The market
+Shareholder return | 19.30% | Dividend plus price change | Results and sentiment
+@end
+Three limits of the market ratios close the chapter, and all three are examinable.
+The denominator is an accounting number. Every multiple in this chapter divides a market price by a figure the standards produced, so everything Chapter 13 said about the impairment and everything Chapter 17 will say about earnings quality lands inside the ratio. A price/earnings ratio of 25.23 computed on earnings that include a one-off gain is not a multiple of anything repeatable.
+The numerator is a price on one day. Orontes's multiple of 25.23 uses the December 31 close. A week earlier or later it would differ, and nothing about the company would have changed.
+A multiple is a comparison and not a value. Twenty-five times earnings is high against a food manufacturer and low against a software company. The ratio is the beginning of a valuation question, which Book 2 answers properly with the dividend discount model and the relative-valuation multiples.
+YOUR TURN   Barada's market ratios
+Figure F516-07 gives Barada Wholesale's figures, with the price implied by the investor's offer in Chapter 9. Compute the market ratios. Answers are at the end of the chapter.
+Figure F516-07. Your turn: Barada's market ratios (complete the blanks)
+@table
+Item | Amount or ratio
+Net income | 283,500
+Shares outstanding | 1,000,000
+Implied price per share | 6.00
+Book value per share | 3.10
+Dividends declared | nil
+Earnings per share | ________
+Price/earnings ratio | ________
+Earnings yield | ________
+Dividend yield | ________
+Market-to-book ratio | ________
+@end
+LANGUAGE FOCUS   "Yield"
+English yield in finance always means an income expressed as a percentage of a price or a principal — a dividend yield, an earnings yield, a bond's yield to maturity. It never means the amount itself. Arabic العائد covers the same ground and is also used for a return, so the qualifier carries the distinction: عائد التوزيعات for the dividend yield, العائد على الأصول for the return on assets. French is the most careful of the three: rendement for a yield on a price, rentabilité for a return on capital employed, and taux for a rate. Note the trap in both English and French: a yield rises when the price falls, so a share whose yield has improved may simply have had a bad year.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+total shareholder return | إجمالي عائد حامل السهم | rentabilité totale pour l'actionnaire
+capital gain | الربح الرأسمالي | plus-value
+sentiment | معنويات السوق | sentiment de marché
+relative valuation | التقييم النسبي | valorisation par comparaison
+@end
+SECTION CHECK   Test yourself
+SC16-12  Shareholder return for a year is:
+A.	the dividend plus the price change, over the opening price.
+B.	the dividend over the closing price.
+C.	net income over equity.
+D.	the price change alone.
+SC16-13  An Orontes shareholder's 2025 return of 19.30 per cent exceeds the return on equity of 16.15 per cent because:
+A.	the accounts are wrong.
+B.	the share price rose by more than book value did.
+C.	the dividend was large.
+D.	the company issued shares.
+SC16-14  The main weakness of every multiple in this chapter is that:
+A.	its denominator is an accounting figure and its numerator is one day's price.
+B.	it cannot be computed.
+C.	it is prohibited for listed companies.
+D.	it ignores the dividend.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F516-08 brings the chapter together.
+Figure F516-08. Chapter 16 summary map: the key rule for each section.
+Basic earnings per share is attributable profit over the weighted-average shares, 2,969,100 over 8,099,726, or $0.3666, and the weighting is where the marks are: 100,000 shares issued on January 2 count for 364 days. Diluted earnings per share asks what would remain if every potential share existed, by the treasury stock method for options — 500,000 options at $5.00 give 229,730 net new shares and an EPS of 0.3565 — and by the if-converted method for convertibles, which adds back the after-tax interest; it can never exceed the basic figure, and an antidilutive security is left out. The price of $9.25 then gives a price/earnings ratio of 25.23 and its reciprocal, an earnings yield of 3.96 per cent, which is comparable with a bond's yield and sits below the 6 per cent Orontes pays its bank. The declared dividend of $450,000 is $0.0556 a share, a yield of 0.60 per cent and a payout of 15.17 per cent, the profile of a company retaining its profit to grow. And the owner's own return for the year, 1.45 of price gain plus 0.0556 of dividend over an opening 7.80, is 19.30 per cent — a fourth return, measuring results and sentiment together, on a multiple that rose while the gross margin fell.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P16-01  Net income is 2,969,100 and weighted-average shares are 8,099,726. Basic earnings per share is:
+A.	0.3666
+B.	0.3665 before dilution only
+C.	2.5177
+D.	0.0556
+P16-02  A company issues 100,000 shares on January 2 of a 365-day year. The weighted-average addition is approximately:
+A.	100,000
+B.	99,726
+C.	50,000
+D.	274
+P16-03  The treasury stock method is used for:
+A.	options and warrants.
+B.	convertible debt.
+C.	convertible preferred stock.
+D.	treasury shares already repurchased.
+P16-04  500,000 options at an exercise price of 5.00 with an average market price of 9.25 add how many net shares?
+A.	500,000
+B.	229,730
+C.	270,270
+D.	nil
+P16-05  A security whose inclusion would raise earnings per share is:
+A.	antidilutive and excluded.
+B.	dilutive and included.
+C.	included in basic earnings per share.
+D.	disclosed only in the notes.
+P16-06  A share priced at 9.25 with earnings per share of 0.3666 has an earnings yield of:
+A.	3.96 per cent
+B.	25.23 per cent
+C.	0.60 per cent
+D.	19.30 per cent
+P16-07  Dividends declared are 450,000 on 8,100,000 shares. The dividend per share is:
+A.	0.0556
+B.	0.3666
+C.	0.5556
+D.	2.5177
+P16-08  A dividend per share of 0.0556 on a price of 9.25 gives a dividend yield of:
+A.	0.60 per cent
+B.	15.17 per cent
+C.	3.96 per cent
+D.	6.00 per cent
+P16-09  A shareholder buys at 7.80, receives 0.0556 of dividend and sells at 9.25. The return is:
+A.	18.59 per cent
+B.	19.30 per cent
+C.	15.68 per cent
+D.	0.71 per cent
+P16-10  Which pairing is the strongest single observation about Orontes in 2025?
+A.	A price/earnings ratio of 25.23 and a gross margin that has fallen two points
+B.	A dividend yield of 0.60 per cent and a current ratio of 3.31
+C.	Earnings per share of 0.3666 and 8,100,000 shares
+D.	A market-to-book ratio of 3.67 and no preferred stock
+Case-style practice: an offer at twenty times earnings
+A private buyer offers to acquire all of Orontes's shares at twenty times its 2025 earnings. The board asks what the offer is worth per share, how it compares with the market and with book value, and what a shareholder should be told.
+Required. Compute the offer price per share and the total consideration. Compare it with the market price of $9.25 and the book value of $2.5177. Say what you would tell the shareholders, naming one accounting figure in the 2025 statements that a careful shareholder would raise. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC16-1  Answer A. Each share counts for the part of the year it was outstanding.
+B is wrong. The closing count ignores when the shares were issued.
+C is wrong. Authorised shares may never have been issued.
+D is wrong. Diluted shares belong to the diluted figure.
+SC16-2  Answer B. No cash came in, so every period presented is restated.
+A is wrong. That treatment belongs to an issue for cash.
+C is wrong. Ignoring a split would make the series meaningless.
+D is wrong. It affects both figures.
+SC16-3  Answer A. 2,969,100 ÷ 8,099,726 = 0.3666.
+B is wrong. Orontes has no preferred stock, so there is nothing to deduct.
+C is wrong. 2.5177 is book value per share.
+D is wrong. 0.0556 is the dividend per share.
+SC16-4  Answer B. The proceeds are assumed to buy shares back at the average market price.
+A is wrong. Debt repayment is not part of the method.
+C is wrong. The method assumes a repurchase, not a distribution.
+D is wrong. Inventory has nothing to do with it.
+SC16-5  Answer B. Dilution can only reduce the figure, because antidilutive securities are excluded.
+A is wrong. That is the definition of an error.
+C is wrong. They are equal only when there are no potential shares.
+D is wrong. For a loss, potential shares are antidilutive and the two are equal.
+SC16-6  Answer A. 75,000 ÷ 400,000 = 0.1875, which is below the basic figure, so including it lowers earnings per share.
+B is wrong. Adding income does not by itself make a security antidilutive; the per-share effect decides.
+C is wrong. Convertible debt is a potential common share.
+D is wrong. Basic earnings per share ignores potential shares entirely.
+SC16-7  Answer A. 9.25 ÷ 0.3666 = 25.23.
+B is wrong. 3.96 is the earnings yield as a percentage.
+C is wrong. 3.67 is the market-to-book ratio.
+D is wrong. This is the earnings yield as a decimal.
+SC16-8  Answer A. Earnings over price is the inverse of price over earnings.
+B is wrong. The dividend over price is the dividend yield.
+C is wrong. Net income over equity is the return on equity.
+D is wrong. The dividend yield uses the dividend, which is only part of earnings.
+SC16-9  Answer A. A high multiple prices in growth or low risk, or both.
+B is wrong. Expected failure produces a low multiple.
+C is wrong. The multiple is about earnings, not the dividend.
+D is wrong. Book value is not in the ratio.
+SC16-10  Answer A. A yield is always on the price.
+B is wrong. The dividend over earnings is the payout ratio.
+C is wrong. Dividing by book value gives a figure with no meaning.
+D is wrong. Par value is an accounting formality.
+SC16-11  Answer A. More was distributed than was earned.
+B is wrong. High profitability does not require a high payout.
+C is wrong. The yield is on price and is unaffected by that arithmetic.
+D is wrong. Nothing about the payout settles whether a share is cheap.
+SC16-12  Answer A. The dividend plus the capital gain, over what was paid at the start.
+B is wrong. That is a form of dividend yield.
+C is wrong. That is the return on equity.
+D is wrong. Ignoring the dividend understates the return.
+SC16-13  Answer B. The price rose 18.6 per cent while book value per share rose about 23 per cent on more shares, and sentiment did the rest.
+A is wrong. Both figures are correctly computed from different data.
+C is wrong. The dividend contributed well under a point.
+D is wrong. The issue affects per-share figures, not the gap between a market return and an accounting one.
+SC16-14  Answer A. Both halves of every multiple are fragile in a different way.
+B is wrong. All of them were computed in this chapter.
+C is wrong. They are reported routinely.
+D is wrong. Shareholder return includes the dividend.
+Your turn
+@table
+Item | Answer
+Earnings per share | 0.2835: 283,500 ÷ 1,000,000.
+Price/earnings ratio | 21.16: 6.00 ÷ 0.2835.
+Earnings yield | 4.73 per cent: 0.2835 ÷ 6.00.
+Dividend yield | Nil, because no dividend was declared.
+Market-to-book ratio | 1.9355: 6.00 ÷ 3.10.
+What it tells you | The investor is paying 21 times earnings and nearly twice book for a quarter of a distributor with a 1.29 per cent net margin and an overdraft. The multiple is close to Orontes's 25.23 on a business of far lower quality, which is the first thing Barada's owner should question — and the absence of any dividend yield means the entire return must come from growth in the value of the shares.
+@end
+Multiple-choice questions
+P16-01  Answer A. 2,969,100 ÷ 8,099,726 = 0.3666.
+B is wrong. Basic earnings per share is not stated before dilution; dilution is a separate figure.
+C is wrong. 2.5177 is book value per share.
+D is wrong. 0.0556 is the dividend per share.
+P16-02  Answer B. 100,000 × 364 ÷ 365 = 99,726.
+A is wrong. The full amount assumes the shares were outstanding all year.
+C is wrong. Half-weighting assumes a mid-year issue.
+D is wrong. This is the one day's worth that is excluded.
+P16-03  Answer A. Options and warrants are tested by the treasury stock method.
+B is wrong. Convertible debt uses the if-converted method.
+C is wrong. Convertible preferred uses the if-converted method.
+D is wrong. Shares already repurchased are simply excluded from the count.
+P16-04  Answer B. 500,000 − 270,270 = 229,730.
+A is wrong. This ignores the assumed repurchase.
+C is wrong. This is the number repurchased, not the net addition.
+D is wrong. The options are in the money and do dilute.
+P16-05  Answer A. An antidilutive security is excluded.
+B is wrong. A dilutive security lowers earnings per share.
+C is wrong. Basic earnings per share never includes potential shares.
+D is wrong. The treatment is an exclusion from the calculation, not a disclosure question.
+P16-06  Answer A. 0.3666 ÷ 9.25 = 3.96 per cent.
+B is wrong. 25.23 is the price/earnings ratio, not a percentage.
+C is wrong. 0.60 per cent is the dividend yield.
+D is wrong. 19.30 per cent is the shareholder return.
+P16-07  Answer A. 450,000 ÷ 8,100,000 = 0.0556.
+B is wrong. 0.3666 is earnings per share.
+C is wrong. This misplaces the decimal.
+D is wrong. 2.5177 is book value per share.
+P16-08  Answer A. 0.0556 ÷ 9.25 = 0.60 per cent.
+B is wrong. 15.17 per cent is the payout ratio.
+C is wrong. 3.96 per cent is the earnings yield.
+D is wrong. 6 per cent is the rate Orontes pays its bank.
+P16-09  Answer B. 1.45 + 0.0556 = 1.5056, and 1.5056 ÷ 7.80 = 19.30 per cent.
+A is wrong. This omits the dividend.
+C is wrong. This divides by the closing price.
+D is wrong. This is the dividend alone over the opening price.
+P16-10  Answer A. A rising multiple against a falling gross margin is the finding that matters.
+B is wrong. These two are unrelated to each other.
+C is wrong. These are inputs, not an observation.
+D is wrong. The absence of preferred stock is a mechanical detail.
+Case-style set: an offer at twenty times earnings
+The offer price. Twenty times basic earnings per share of $0.3666 is $7.33 a share. On 8,100,000 shares the total consideration is about $59,400,000.
+How it compares. The offer is below the market price of $9.25 — a discount of about 21 per cent — and well above the book value of $2.5177, at nearly three times book. Both comparisons matter and they point in opposite directions. Against the market, the offer is poor: a shareholder could sell at $9.25 today. Against the balance sheet, it looks generous, and that tells you only that the balance sheet omits the brand, the recipes and the future, as Chapter 15 explained.
+What I would tell the shareholders. Reject an offer struck at a multiple below the prevailing market multiple of 25.23 unless the buyer can show why the market price is unsustainable. A control premium normally pushes an offer above the market price, not 21 per cent below it.
+The figure a careful shareholder would raise is the $2,724,000 impairment loss. It depresses 2025 earnings, so a multiple of twenty applied to those earnings prices the company on a year containing a charge that will not recur. On the operating margin excluding that charge, Orontes's underlying earnings were materially higher, and the offer should be tested against those as well — which is an argument for a higher price, not a lower one.

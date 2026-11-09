@@ -1,0 +1,456 @@
+Chapter 18
+When a ratio lies: currency, inflation, a change of method — and the verdict
+حين يكذب المؤشر: العملة والتضخم وتغير السياسة — ثم الحكم النهائي
+Seventeen chapters have built ratios and believed them. This one asks when they cannot be believed, and then does the thing the whole of Book 1 has been preparing for: it reaches a verdict on a company using all of them at once.
+Three forces can move a ratio with nothing happening in the business. An exchange rate can change, and a company with foreign operations will report different numbers for an unchanged subsidiary. Inflation can erode the comparability of a balance sheet carried at historical cost. And the company can change an accounting treatment, which moves the figures and must be adjusted for before any comparison. All three are examinable in their own right, and all three are reasons the last section of this chapter is written with care rather than confidence.
+Figure F518-01 is your map.
+Figure F518-01. Chapter 18 roadmap: three ways a ratio misleads, the general limitations, and the verdict.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.4.a | Explain the impact of exchange rate changes on the statements, define functional currency, and calculate the ratio impact of a rate change. | C | Full treatment
+A.4.b | Explain the impact of inflation on financial ratios and on their reliability. | C | Full treatment
+A.4.c | Describe how to adjust statements for changes in principles, estimates and errors, and how those adjustments affect ratios. | C | Full treatment
+A.2.w | Identify the limitations of ratio analysis. | C | Full treatment
+A.2.y | Evaluate the financial strength and performance of an entity on the basis of multiple ratios. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+functional currency | العملة الوظيفية | monnaie fonctionnelle
+presentation currency | عملة العرض | monnaie de présentation
+current rate method | طريقة السعر الجاري | méthode du cours de clôture
+translation adjustment | تسوية الترجمة | écart de conversion
+remeasurement | إعادة القياس | remesure
+historical cost | التكلفة التاريخية | coût historique
+change in accounting principle | التغير في السياسة المحاسبية | changement de méthode comptable
+restatement | إعادة إصدار القوائم | retraitement
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Part 1 taught the translation of a foreign subsidiary and the difference between a translation adjustment in other comprehensive income and a remeasurement gain in net income. Chapter 17 taught the difference between a change in estimate and a change in principle. This chapter computes what each of them does to a ratio, and then uses every ratio in Book 1 at once.
+18.1  Foreign operations and the exchange rate
+A company with a subsidiary abroad must express that subsidiary's results in the currency the group reports in. Nothing about the subsidiary changes in the process, and almost every ratio can.
+Start with the term the exam defines. The functional currency is the currency of the primary economic environment in which an entity operates — the one in which it prices its goods, pays its staff and holds its cash. It is a question of fact, not of choice. The presentation currency is the one the group reports in, which for Orontes is the US dollar.
+Where the subsidiary's functional currency is its own local currency, the current rate method applies. Assets and liabilities are translated at the closing rate, income and expenses at the average rate for the period, and equity at historical rates. The imbalance this creates does not go through profit: it accumulates in other comprehensive income as a cumulative translation adjustment, and it is the reason the equity section of a group balance sheet carries a reserve that nobody earned.
+Where the functional currency is the parent's — a subsidiary that is merely a shell operating in dollars — the temporal method applies instead. Monetary items are remeasured at the closing rate, non-monetary items stay at historical rates, and the gain or loss goes through net income. That is the distinction that matters for earnings volatility: translation is quiet and remeasurement is noisy.
+WORKED EXAMPLE   Worked example: the same subsidiary, two exchange rates
+Step 1. The subsidiary. A subsidiary reports sales of 10,000,000 dinars, net income of 1,000,000 dinars and total assets of 5,000,000 dinars. In a year when the dinar is stable at $0.70, sales translate at 10,000,000 × 0.70 = 7,000,000 and assets at 5,000,000 × 0.70 = 3,500,000, so asset turnover is 7,000,000 ÷ 3,500,000 = 2.00 times.
+Step 2. The dinar falls. In the next year the dinar averages $0.65 and closes at $0.60, the subsidiary's local figures unchanged. Sales translate at 10,000,000 × 0.65 = 6,500,000 and assets at 5,000,000 × 0.60 = 3,000,000.
+Step 3. The ratio. Asset turnover becomes 6,500,000 ÷ 3,000,000 = 2.17 times, against 2.00 the year before.
+Check. The subsidiary sold the same goods to the same customers with the same assets, and its reported asset turnover rose 8 per cent. The cause is purely that the income statement is translated at an average rate and the balance sheet at a closing rate, so a currency that moved during the year puts the two halves of every mixed ratio on different bases. Ratios built entirely within the income statement — every margin in Chapter 13 — are unaffected, because the numerator and the denominator move together. Ratios built entirely within the balance sheet are unaffected for the same reason. It is the mixed ratios, which is to say every turnover and every return, that move.
+Figure F518-02 states the rule.
+Figure F518-02. Which ratios a rate change moves
+@table
+Ratio type | Example | Affected by a rate change? | Why
+Income statement only | Gross margin, net margin | No | Both parts at the average rate
+Balance sheet only | Current ratio, debt-to-equity | No | Both parts at the closing rate
+Mixed | Asset turnover, ROA, ROE, DSO | Yes | Average rate against closing rate
+Equity, under the current rate method | Book value per share | Yes | The translation adjustment sits in equity
+@end
+The last examinable point of this outcome is behavioural. Reported earnings that swing with a currency are earnings that management did not cause and cannot control, and the response is predictable: companies hedge, and they hedge the reported number as well as the economic exposure. Investors in turn discount volatile earnings, so a group whose profit moves with the dinar trades at a lower multiple than one whose profit does not — which is a cost of the volatility, not of the business. Book 2 prices the instruments used to manage it.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+closing rate | سعر الإقفال | cours de clôture
+average rate | السعر المتوسط | cours moyen
+monetary item | البند النقدي | élément monétaire
+hedging | التحوط | couverture
+@end
+SECTION CHECK   Test yourself
+SC18-1  The functional currency of an entity is:
+A.	the currency of the primary economic environment in which it operates.
+B.	the currency the group chooses to report in.
+C.	always the US dollar.
+D.	the currency of the country of incorporation.
+SC18-2  Under the current rate method, the translation adjustment is reported in:
+A.	net income.
+B.	other comprehensive income.
+C.	cost of sales.
+D.	retained earnings directly.
+SC18-3  Which ratio is unaffected by a change in exchange rates for a foreign subsidiary?
+A.	Total asset turnover
+B.	Return on assets
+C.	Gross profit margin
+D.	Days sales outstanding
+Answers and explanations are at the end of the chapter.
+18.2  Inflation
+Inflation does to time what a currency does to distance: it makes two numbers that look comparable incomparable. A balance sheet carried at historical cost mixes dollars of many vintages, and the older the asset the more the mixing matters.
+Four distortions follow, and the exam asks for their direction.
+Assets are understated, so every ratio with assets in the denominator is overstated. Return on assets looks better than it is; asset turnover looks faster than it is. Orontes's own plant stands at $14,802,000 against a cost of $26,790,000, and the cost itself is in the dollars of the years in which it was spent.
+Depreciation is understated, so profit is overstated. A charge computed on what an asset cost does not provide for what the replacement will cost. The company reports a profit and distributes some of it, and then finds the replacement unaffordable.
+Inventory profits are not profits. Under first-in, first-out, the cost of sales carries the oldest costs and the gross margin includes the holding gain on stock that merely sat there. Last-in, first-out matches current costs against current prices and reports a lower and more honest margin — which is why the choice of inventory method matters most in exactly the periods when inflation is high.
+Debt is repaid in cheaper money, so the borrower gains and the lender loses. Debt ratios computed on historical amounts understate how light an old fixed-rate borrowing has become, and a company with long-dated fixed-rate debt and short-lived assets is the one inflation treats most kindly.
+WORKED EXAMPLE   Worked example: one company, two price levels
+Step 1. Historical cost. A company bought its plant for 10,000,000 ten years ago, depreciates it over ten years at 1,000,000 a year, and reports a profit of 2,000,000 on net assets now standing at 5,000,000. Return on assets is 2,000,000 ÷ 5,000,000 = 40.0 per cent.
+Step 2. Current cost. Replacing the plant today would cost 18,000,000, so the economically honest depreciation charge is 1,800,000 and the asset base restated to current prices is 9,000,000. Profit becomes 2,000,000 − 800,000 = 1,200,000.
+Step 3. The restated return. 1,200,000 ÷ 9,000,000 = 13.33 per cent, against the 40.0 per cent reported.
+Check. A return of 40 per cent and a return of 13 per cent for the same company in the same year, and the difference is entirely the price level. Nothing in US GAAP requires the second figure, and the first one is what every database will carry. This is why a long series of returns on assets for a capital-intensive company is one of the least reliable comparisons in analysis, and why an analyst comparing a company that renewed its plant last year with one that renewed it in 2005 is not comparing like with like.
+Figure F518-03 collects the directions.
+Figure F518-03. What inflation does to the ratios
+@table
+Effect | On the statements | On the ratios
+Assets at old prices | Understated | Returns and turnovers overstated
+Depreciation on old cost | Understated | Margins and profit overstated
+First-in, first-out cost of sales | Oldest costs expensed | Gross margin overstated
+Fixed-rate debt | Repaid in cheaper money | Leverage ratios overstate the real burden
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+price level | مستوى الأسعار | niveau des prix
+current cost | التكلفة الجارية | coût actuel
+holding gain | ربح الاحتفاظ | gain de détention
+replacement cost | تكلفة الإحلال | coût de remplacement
+@end
+SECTION CHECK   Test yourself
+SC18-4  In a period of inflation, a return on assets computed from historical-cost statements is:
+A.	overstated, because the asset base is understated.
+B.	understated, because profit is understated.
+C.	unaffected.
+D.	negative.
+SC18-5  Under first-in, first-out in a period of rising prices, the gross margin is:
+A.	overstated, because the oldest costs are charged to sales.
+B.	understated.
+C.	unaffected by the price level.
+D.	equal to the margin under last-in, first-out.
+SC18-6  Inflation benefits:
+A.	a borrower with long-dated fixed-rate debt.
+B.	a lender at a fixed rate.
+C.	neither party.
+D.	only companies with no debt.
+Answers and explanations are at the end of the chapter.
+18.3  Adjusting for a change in accounting treatment
+The third way a ratio moves without the business moving is that the company changes how it measures something. Chapter 17 named the three kinds; this section says what to do about each before computing a ratio.
+A change in accounting principle — first-in, first-out to weighted average, one revenue policy to another — is applied retrospectively. Every prior period presented is restated as though the new principle had always been used, and the cumulative effect on periods before those presented goes to opening retained earnings. For the analyst the work is already done: the comparatives in the current statements are on the new basis, and the trap is comparing them with figures taken from an older annual report, which are on the old one.
+A change in accounting estimate — a useful life, an allowance, a warranty provision — is applied prospectively. Nothing is restated. So the comparatives are on the old estimate and the current year is on the new one, and the analyst must adjust if the change is large enough to matter. The note discloses the effect; the statements do not separate it.
+The correction of an error is applied by restating the prior periods affected and disclosing the fact. A restatement is a signal in its own right, independent of its size: it says the control environment failed once.
+WORKED EXAMPLE   Worked example: a change of inventory method, and the ratios
+Step 1. The change. Suppose Orontes changed from first-in, first-out to weighted average for 2025, and the effect is to raise cost of goods sold by $300,000 and to lower closing inventory by the same amount.
+Step 2. The restated figures. Gross profit becomes 14,700,000 − 300,000 = 14,400,000, so the gross margin is 14,400,000 ÷ 42,000,000 = 34.29 per cent against the 35.0 reported. Inventory becomes 2,450,000 − 300,000 = 2,150,000.
+Step 3. The ratios that move, and their direction. The gross margin falls. Inventory turnover rises on both counts, because cost of sales is larger and the average inventory smaller. Days sales in inventory therefore falls. The current ratio falls, because current assets are $300,000 lower against unchanged current liabilities. Net income falls by 300,000 × 0.75 = 225,000 after tax, so every margin and every return falls with it.
+Check. Six ratios moved and the company bought, made and sold exactly the same goods. Because this is a change in principle, the comparatives would also be restated, so a reader working only from the 2025 statements sees a consistent series — and a reader who takes 2024 from last year's annual report and 2025 from this one sees a margin collapse that never happened. That is the practical reason the outcome is examinable.
+Figure F518-04 sets out the three treatments.
+Figure F518-04. Three kinds of change, three treatments
+@table
+Kind of change | Treatment | What the analyst must do | Example
+Accounting principle | Retrospective restatement | Use the restated comparatives, not the old report | Inventory method
+Accounting estimate | Prospective | Adjust for the change where it is material | Useful life, allowance
+Error | Restate and disclose | Treat the restatement itself as a finding | A misstatement corrected
+@end
+EXAM TRAP   The direction of an adjustment
+Write down the two halves of the ratio before and after the change and compare them separately. A ratio with both parts falling can move either way, and only the proportions decide.
+Where a change is retrospective, the comparatives in the current statements are already on the new basis. Where it is prospective, they are not.
+A restatement for an error is never a neutral event, however small the amount.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+cumulative effect | الأثر التراكمي | effet cumulé
+comparative figures | أرقام المقارنة | chiffres comparatifs
+control environment | بيئة الرقابة | environnement de contrôle
+@end
+SECTION CHECK   Test yourself
+SC18-7  A change in accounting principle is applied:
+A.	retrospectively, restating the comparatives.
+B.	prospectively.
+C.	only to the current year, with no disclosure.
+D.	by restating equity alone.
+SC18-8  A change that raises cost of goods sold by 300,000 and lowers inventory by 300,000 will:
+A.	lower the gross margin and raise inventory turnover.
+B.	raise the gross margin and lower inventory turnover.
+C.	leave both unchanged.
+D.	lower both.
+SC18-9  The correction of an error is:
+A.	applied by restating the prior periods affected, and is a finding in itself.
+B.	applied prospectively.
+C.	not disclosed.
+D.	treated as a change in estimate.
+Answers and explanations are at the end of the chapter.
+18.4  The limitations of ratio analysis
+The limitations are examinable as a list, and the list is short enough to learn. Each entry below has appeared in Book 1 as a worked problem rather than as an assertion.
+No single ratio means anything. A current ratio of 3.31 is a fact and not a verdict; Chapter 6 showed the same ratio describing a strong company and a company with unsellable stock.
+A ratio needs a benchmark. Against last year, against a competitor, against a covenant, against the industry. Barada's 16 per cent gross margin against Orontes's 35 is a difference of business, not of competence, as Chapter 2 showed.
+Accounting policies differ between companies. Inventory method, depreciation basis, capitalisation policy, and the whole of the GAAP-against-IFRS difference. Section 18.3 moved six of Orontes's own ratios with one policy change.
+A balance sheet is one day. Seasonal businesses are measured at their quietest point, and Chapter 12 measured one company at 60, 105 and 150 days of inventory depending on the date chosen.
+Ratios are historical. Every figure in Book 1 describes a year that has ended. Chapter 16's price of $9.25 is the only forward-looking number in the whole book, and it is not an accounting figure at all.
+Definitions are not standardised. Chapter 14 produced four defensible returns on assets for one company in one year.
+Averages hide their spread. Chapter 12's days sales outstanding of 34.3 is consistent with every customer paying on time and with one large account paying on day 120.
+Window dressing is possible. A company can repay a loan on the last day of the year and redraw it on the first day of the next, which lifts the current ratio and changes nothing.
+Non-financial factors are absent. The quality of management, the strength of the brand, the state of the plant, a key customer's intentions, a lawsuit. None of them is in a ratio, and any of them can matter more than all the ratios.
+Figure F518-05 collects them.
+Figure F518-05. Nine limitations, and where Book 1 met each
+@table
+Limitation | Where it appeared
+No single ratio is a verdict | Chapter 6, the current ratio
+A ratio needs a benchmark | Chapter 2, Barada against Orontes
+Policies differ | Section 18.3, the inventory method
+A balance sheet is one day | Chapter 12, the seasonal miller
+Ratios are historical | Chapter 16, the only forward number is the price
+Definitions are not standard | Chapter 14, four returns on assets
+Averages hide spread | Chapter 12, the ageing schedule
+Window dressing | Chapter 6, the year-end repayment
+Non-financial factors are absent | Chapter 18, this list
+@end
+EXAM TRAP   Say the limitation that bites
+A question asking for the limitations of ratio analysis wants the ones relevant to the data given, not a recital. Where the question hands you one balance sheet date for a seasonal business, the limitation that bites is the date. Where it hands you two companies with different inventory methods, it is the policy difference.
+A limitation is not a reason to decline to answer. State the finding, then state what would change it.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+benchmark | المعيار المرجعي | référence
+window dressing | تجميل القوائم المالية | habillage des comptes
+non-financial factor | عامل غير مالي | facteur non financier
+@end
+SECTION CHECK   Test yourself
+SC18-10  Which is NOT a limitation of ratio analysis?
+A.	Ratios are historical
+B.	Definitions are not standardised
+C.	Ratios can be computed from published statements
+D.	Non-financial factors are absent
+SC18-11  Repaying a loan on the last day of the year and redrawing it on the first day of the next is:
+A.	window dressing, which lifts the current ratio and changes nothing.
+B.	an error requiring restatement.
+C.	a change in accounting principle.
+D.	prohibited by GAAP.
+Answers and explanations are at the end of the chapter.
+18.5  The verdict on Orontes
+This is the outcome the whole book has been for: a judgment on a company's financial strength and performance, built from many ratios and expressed in a form somebody can act on. Three rules make the difference between an answer and a list.
+Rank the findings by what they are worth. A two-point gross margin move on $42,000,000 of sales is $840,000 a year; the trade working capital funding Chapter 12 priced is about $272,640 a year. The first belongs in the first sentence and the second does not.
+Separate the position from the performance. The balance sheet says how strong the company is now. The income statement says how well it is trading. They can disagree, and Orontes is a company where they do.
+Say what would change the verdict. A verdict with no stated test is an opinion.
+Figure F518-06 is the scorecard.
+Figure F518-06. Orontes Foods, Inc. — the evidence, 2025
+@table
+Area | Key ratios | Reading
+Liquidity | Current 3.31, quick 2.68, cash 1.72 | Strong, and stronger than 2024
+Cash generation | Cash flow ratio 1.76, cash backing 2.54 times | Strong
+Solvency | Debt-to-equity 0.55, debt-to-assets 0.36 | Conservative
+Coverage | Interest cover 11.15, fixed charge 9.42 | Wide
+Working capital | Cash cycle 39.8 days, DSO 34.3 | Well run, improving
+Margins | Gross 35.0%, operating 9.9%, net 7.1% | Gross margin falling three years running
+Returns | ROA 10.22%, ROE 16.15% | Good, and flattered by the growth
+Growth | Sales 15.38% against a sustainable 13.70% | Part-funded from outside
+Market | P/E 25.23, market-to-book 3.67 | Priced for growth that costs margin
+@end
+The verdict. Orontes is financially strong and its trading is deteriorating in one specific, measurable way.
+The strength is not in doubt. It holds $7,302,100 of cash, covers its current liabilities 3.31 times and its interest 11.15 times, carries total liabilities of only $11,279,625 against equity of $20,392,975, and converts its profit into cash 2.54 times over. Its working capital is better run than a year ago on every measure in Chapters 11 and 12. On the evidence of the balance sheet alone, this company could borrow several million dollars tomorrow.
+The deterioration is in the gross margin, and it is the only finding in the book worth $840,000 a year. Sales have risen 31 per cent in two years and the gross margin has fallen from 37.0 per cent to 35.0, which means the growth was bought with price. Price concessions are permanent in a way volume gains are not. Meanwhile the market has raised its multiple from 24.01 to 25.23, so the share price now embodies an expectation of continued growth that the margin trend does not support.
+Two secondary findings belong in the same answer. The company grew faster than it can fund and closed the gap with a $1,500,000 share issue and an $800,000 note, which is sound once and not a policy. And 2025 contains a discretionary impairment of $2,724,000, which depresses the reported operating margin to 9.9 per cent against an underlying 16.4 — so the reported deterioration overstates the trading decline, while the margin finding understates nothing.
+What would change the verdict. A gross margin of 36 per cent or better in 2026 on continued volume growth would settle the matter in the company's favour: it would show the concessions were an entry price into new customers rather than a permanent repricing. A margin of 34 per cent would confirm the opposite and would, at an unchanged multiple of 25, make the share price indefensible.
+YOUR TURN   Reach a verdict on Barada
+Figure F518-07 gives Barada Wholesale's ratio set as Book 1 has computed it. Write the verdict in three sentences: the position, the performance, and the test. Answers are at the end of the chapter.
+Figure F518-07. Your turn: Barada's evidence (complete the verdict)
+@table
+Area | Barada | Your reading
+Liquidity | Current 2.00, quick 0.94 | ________
+Working capital | Cash cycle 44.4 days, DSI 40.6 | ________
+Solvency | Debt-to-equity 1.26, covenant limit 1.50 | ________
+Margins | Gross 14.0%, net 1.29% | ________
+Growth | Sales 11.0% against a sustainable 9.15% | ________
+Earnings quality | Receivables up 38%, inventory up 41%, overdraft 240,000 | ________
+Verdict | | ________
+@end
+LANGUAGE FOCUS   "Material"
+English material in accounting does not mean physical or important in a general sense: it means large enough that its omission or misstatement could change a user's decision. It is a threshold, and it is deliberately relative to the entity. Arabic uses جوهري, which carries the same sense of going to the essence rather than to the size. French uses significatif — note that it does not mean significant in the statistical sense, and that matériel in French means equipment, so a literal translation of material misstatement is a sentence about machinery. The exam uses the word in its accounting sense every time, and a candidate who reads it as important loses the threshold idea that makes it useful.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+financial strength | المتانة المالية | solidité financière
+scorecard | لوحة المؤشرات | tableau de bord
+verdict | الحكم | conclusion
+materiality | الأهمية النسبية | importance relative
+@end
+SECTION CHECK   Test yourself
+SC18-12  The first sentence of a multi-ratio verdict should contain:
+A.	the finding worth the most money.
+B.	the largest ratio.
+C.	every ratio computed.
+D.	the limitations of ratio analysis.
+SC18-13  Orontes's balance sheet is strong and its gross margin is falling. The correct verdict:
+A.	states both, and ranks the margin finding by what it is worth.
+B.	concludes the company is weak.
+C.	concludes the company is strong and stops.
+D.	declines to reach a verdict.
+SC18-14  A verdict is incomplete unless it also says:
+A.	what would change it.
+B.	what the share price will be.
+C.	the auditor's name.
+D.	the statutory tax rate.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F518-08 brings the chapter together.
+Figure F518-08. Chapter 18 summary map: the key rule for each section.
+A ratio can move with nothing happening in the business. An exchange rate does it to every mixed ratio, because the income statement translates at an average rate and the balance sheet at a closing one: an unchanged subsidiary's asset turnover went from 2.00 to 2.17 times on a falling dinar, while its margins did not move at all. Inflation does it through historical cost, understating assets and depreciation so that returns and margins are overstated — one company's return on assets was 40.0 per cent on historical figures and 13.33 per cent restated to current prices. A change of accounting treatment does it directly: a $300,000 change of inventory method moves the gross margin to 34.29 per cent and five other ratios with it, retrospectively if it is a principle and prospectively if it is an estimate. On top of those three sit the nine standing limitations, of which the ones to quote are the ones that bite on the data given. And the verdict on Orontes, built from twenty ratios: financially strong beyond argument, well run in its working capital, cash-backed, conservatively funded — and giving away two points of gross margin a year to buy growth, which is worth $840,000 a year, is the first sentence of any honest answer, and will be settled one way or the other by the 2026 margin.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P18-01  The functional currency is:
+A.	the currency of the primary economic environment in which the entity operates.
+B.	the group's presentation currency.
+C.	the currency of the parent.
+D.	chosen freely by management.
+P18-02  Under the current rate method, assets and liabilities are translated at:
+A.	the closing rate.
+B.	the average rate.
+C.	historical rates.
+D.	the rate at the date of acquisition.
+P18-03  A subsidiary's local figures are unchanged and its currency has fallen during the year. Its translated asset turnover will:
+A.	rise, because sales are translated at the average rate and assets at the closing rate.
+B.	fall.
+C.	be unchanged.
+D.	become negative.
+P18-04  Which ratio is NOT affected by translating a foreign subsidiary?
+A.	Return on assets
+B.	Total asset turnover
+C.	Net profit margin
+D.	Days sales outstanding
+P18-05  In a period of inflation, historical-cost depreciation is:
+A.	understated, so profit is overstated.
+B.	overstated, so profit is understated.
+C.	unaffected.
+D.	restated each year under US GAAP.
+P18-06  A company reports a return on assets of 40.0 per cent on historical cost. Restated to current prices, profit is 1,200,000 and assets 9,000,000. The restated return is:
+A.	13.33 per cent
+B.	40.0 per cent
+C.	24.0 per cent
+D.	7.50 per cent
+P18-07  A change from first-in, first-out to weighted average is:
+A.	a change in accounting principle, applied retrospectively.
+B.	a change in estimate, applied prospectively.
+C.	an error, requiring restatement.
+D.	not permitted.
+P18-08  A change raising cost of goods sold by 300,000 and lowering inventory by the same amount will lower:
+A.	the gross margin and the current ratio.
+B.	inventory turnover.
+C.	days sales in inventory only.
+D.	nothing.
+P18-09  A question gives one balance sheet date for a seasonal business. The limitation that bites is:
+A.	that a balance sheet is a single day.
+B.	that definitions are not standardised.
+C.	that non-financial factors are absent.
+D.	that ratios are historical.
+P18-10  Orontes's single largest finding for 2025, measured in money, is:
+A.	the two points of gross margin given away, worth about 840,000 a year.
+B.	the cost of funding its trade working capital, about 272,640 a year.
+C.	the loss on sale of receivables of 15,000.
+D.	the disposal gain of 3,000.
+Case-style practice: the credit committee's question
+Levant Commerce Bank's credit committee is asked to approve a $5,000,000 five-year facility for Orontes. The committee has Book 1's whole ratio set in front of it: liquidity, coverage, solvency, working capital, margins, returns, growth and the market ratios. One member observes that the company's gross margin has fallen three years running and asks whether the facility should be declined.
+Required. Give the committee your recommendation. Use at least five ratios, rank the risks, and state one covenant you would attach and why. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC18-1  Answer A. The functional currency is a matter of fact about where the entity operates.
+B is wrong. That is the presentation currency.
+C is wrong. The dollar is one possibility among many.
+D is wrong. A company may be incorporated in one country and operate in another.
+SC18-2  Answer B. The translation adjustment accumulates in other comprehensive income.
+A is wrong. Net income carries remeasurement gains, not translation adjustments.
+C is wrong. Cost of sales is unaffected.
+D is wrong. It is reported through other comprehensive income, not directly in retained earnings.
+SC18-3  Answer C. Both parts of the margin are translated at the average rate.
+A is wrong. Turnover mixes an average-rate numerator with a closing-rate denominator.
+B is wrong. The return mixes the two bases in the same way.
+D is wrong. Days sales outstanding mixes a balance with a flow.
+SC18-4  Answer A. Old assets at old prices give a smaller denominator.
+B is wrong. Profit is overstated, not understated, because depreciation is too low.
+C is wrong. The price level affects both parts of the ratio.
+D is wrong. Nothing here makes a return negative.
+SC18-5  Answer A. The oldest and cheapest costs flow through cost of sales.
+B is wrong. That is the effect of last-in, first-out.
+C is wrong. The method determines which costs are expensed.
+D is wrong. The two differ precisely when prices are moving.
+SC18-6  Answer A. Fixed payments are made in money worth less each year.
+B is wrong. The lender receives the cheaper money.
+C is wrong. The gain and loss are symmetrical, not absent.
+D is wrong. A company with no debt gains nothing from this effect.
+SC18-7  Answer A. A change in principle is retrospective.
+B is wrong. Prospective application belongs to a change in estimate.
+C is wrong. Both application and disclosure are required.
+D is wrong. The comparatives themselves are restated.
+SC18-8  Answer A. A larger cost of sales lowers the margin; a larger cost against a smaller average inventory raises the turnover.
+B is wrong. Both directions are the wrong way round.
+C is wrong. Both parts of both ratios move.
+D is wrong. Inventory turnover rises.
+SC18-9  Answer A. The prior periods are restated and the restatement is itself a signal.
+B is wrong. Prospective treatment belongs to estimates.
+C is wrong. Disclosure is required.
+D is wrong. An error is not an estimate.
+SC18-10  Answer C. Being computable from published statements is the strength of ratio analysis, not a limitation.
+A is wrong. Ratios are indeed historical.
+B is wrong. Definitions genuinely vary.
+D is wrong. Non-financial factors are genuinely absent.
+SC18-11  Answer A. The ratio improves at the balance sheet date and the position does not.
+B is wrong. Nothing has been misstated.
+C is wrong. No accounting principle has changed.
+D is wrong. The transactions are real and permitted; the presentation is the problem.
+SC18-12  Answer A. Ranking by money is what turns a list into a verdict.
+B is wrong. Size of a ratio is not size of a finding.
+C is wrong. A recital is not a verdict.
+D is wrong. Limitations qualify a verdict; they are not its opening.
+SC18-13  Answer A. Both are true and the margin finding is the one worth money.
+B is wrong. The balance sheet evidence is strong and cannot be ignored.
+C is wrong. Stopping at the strength omits the finding.
+D is wrong. The outcome requires a verdict.
+SC18-14  Answer A. A verdict with no stated test is an opinion.
+B is wrong. Forecasting the price is not asked for.
+C is wrong. The auditor is not part of the verdict.
+D is wrong. The statutory rate is a detail, not a test.
+Your turn
+@table
+Area | Answer
+Liquidity | Adequate on the current ratio of 2.00 and weak behind it: a quick ratio of 0.94 means Barada cannot meet its current liabilities without selling stock.
+Working capital | Poorly run and getting worse. A 44.4-day cash cycle on a 40.6-day inventory period is the profile of a distributor whose stockroom is growing faster than its sales.
+Solvency | Tight. At 1.26 against a covenant limit of 1.50 there is room, but the $1,500,000 the company wants would take it to 1.74 and breach the covenant.
+Margins | Thin by nature and thinning: 14.0 per cent gross against 16.0 two years ago, and 1.29 per cent net leaves no margin for error.
+Growth | Above the sustainable rate by about two points a year, with no dividend to cut and no equity raised, so the gap goes on the overdraft.
+Earnings quality | Low. Receivables up 38 per cent and inventory up 41 per cent on sales up 11 means the reported profit is sitting in working capital rather than in the bank.
+Verdict | The position is weak behind an adequate-looking current ratio, the performance is a thin and thinning margin on growth the company cannot fund, and the test is whether the inventory can be converted to cash at book value in the next two quarters: if it can, the overdraft is a timing problem; if it cannot, a write-down at a 1.29 per cent net margin removes the whole of the year's profit.
+@end
+Multiple-choice questions
+P18-01  Answer A. It is the currency of the primary economic environment of the entity.
+B is wrong. The presentation currency is what the group reports in.
+C is wrong. The parent's currency may differ from the subsidiary's functional currency.
+D is wrong. It is determined by facts, not chosen.
+P18-02  Answer A. Assets and liabilities translate at the closing rate.
+B is wrong. The average rate applies to income and expenses.
+C is wrong. Historical rates apply to equity.
+D is wrong. The acquisition rate is used for specific equity components only.
+P18-03  Answer A. The denominator is translated at a lower closing rate than the average applied to sales.
+B is wrong. The ratio rises on a falling currency.
+C is wrong. The two bases differ, so the ratio moves.
+D is wrong. Neither part of the ratio becomes negative.
+P18-04  Answer C. Both parts of the net margin translate at the average rate.
+A is wrong. The return mixes the two bases.
+B is wrong. The turnover mixes the two bases.
+D is wrong. Days sales outstanding mixes a balance with a flow.
+P18-05  Answer A. A charge based on old costs is too small, so profit is too large.
+B is wrong. The direction is the opposite.
+C is wrong. The price level is exactly what makes the charge too small.
+D is wrong. US GAAP does not require price-level restatement.
+P18-06  Answer A. 1,200,000 ÷ 9,000,000 = 13.33 per cent.
+B is wrong. That is the historical-cost figure.
+C is wrong. This has no basis in the figures.
+D is wrong. This divides the restated profit by a figure that appears nowhere.
+P18-07  Answer A. An inventory method is an accounting principle.
+B is wrong. It is not an estimate.
+C is wrong. No error has occurred.
+D is wrong. Both methods are permitted.
+P18-08  Answer A. A larger cost of sales lowers the margin and smaller inventory lowers current assets.
+B is wrong. Inventory turnover rises.
+C is wrong. Days sales in inventory falls, but it is not the only ratio affected.
+D is wrong. Six ratios move.
+P18-09  Answer A. One date for a seasonal business is the limitation that bites.
+B is wrong. Nothing in the question turns on a definition.
+C is wrong. True in general, but not the limitation the data raises.
+D is wrong. True of every ratio, so it distinguishes nothing here.
+P18-10  Answer A. Two points of margin on 42,000,000 of sales is about 840,000 a year.
+B is wrong. That is the second-ranked finding, at about a third of the size.
+C is wrong. The factoring fee is a small cost of a chosen policy.
+D is wrong. A disposal gain of 3,000 is immaterial.
+Case-style set: the credit committee's question
+Recommendation: approve, with one covenant.
+The lending case rests on five ratios and they are all comfortable. Interest coverage is 11.15 times and would remain above 6 after a $5,000,000 facility at any plausible rate. The cash flow to fixed charges ratio is 18.81 times. Debt-to-equity is 0.55 and debt-to-assets 0.36, so the company is conservatively funded and has capacity. The current ratio is 3.31 and the quick ratio 2.68, so there is no near-term liquidity risk. And cash from operations covers net income 2.54 times, so the earnings are real.
+The risks, ranked. First, the gross margin: 35.0 per cent against 37.0 two years ago, worth about $840,000 a year, and the reason the company is growing. If the margin keeps falling a point a year, coverage will erode from the top of the income statement and nothing on the balance sheet will warn of it in advance. Second, growth above the sustainable rate of 13.70 per cent, which has already required a share issue and a note and will require more funding if growth continues. Third, concentration and estimate risk in the 2025 impairment of $2,724,000, which tells us the company's forecasts of its own assets have already been wrong once.
+The member who asks whether to decline has identified the right risk and drawn the wrong conclusion. A falling margin on a conservatively funded, cash-generative balance sheet is a reason to attach a condition, not to refuse.
+The covenant I would attach is a minimum interest coverage of 5.00 times, tested semi-annually. It is the one ratio that captures the margin risk and the funding risk in a single number, and at 11.15 times today it gives the company room to trade without giving it room to drift.

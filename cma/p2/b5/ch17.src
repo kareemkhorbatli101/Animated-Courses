@@ -1,0 +1,437 @@
+Chapter 17
+Revenue, receivables and the quality of earnings
+الإيرادات والذمم المدينة وجودة الأرباح
+Net income is an opinion. Cash is a fact. Everything between the two is measurement, and measurement requires estimates: how much of this year's sales will be returned, how many of these receivables will never be collected, how long this machine will last, whether this goodwill is still worth what was paid for it. Every one of those estimates was made by the management whose results they determine.
+That is not a scandal. It is the price of accrual accounting, which is the only system that can tell you anything useful about a period shorter than the life of the business. But it means the analyst's last question is never what the ratios say. It is how much weight the ratios will bear — whether this year's $2,969,100 is a number that will repeat, and whether the revenue it came from is the kind of revenue that comes back next year.
+Figure F517-01 is your map.
+Figure F517-01. Chapter 17 roadmap: how income is measured, where revenue comes from, and what makes earnings high or low quality.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.3.c | Identify the factors in measuring income: estimates, accounting methods, disclosure incentives and the different needs of users. | C | Full treatment
+A.3.d | Explain the importance of the source, stability and trend of sales and revenue. | C | Full treatment
+A.3.e | Explain the relationship between revenue and receivables, and between revenue and inventory. | C | Full treatment
+A.3.f | Determine and analyse the effect on revenue of a change in recognition or measurement method. | C | Full treatment
+A.4.e | Identify the determinants and indicators of earnings quality and explain why they matter. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+earnings quality | جودة الأرباح | qualité des résultats
+accrual accounting | أساس الاستحقاق | comptabilité d'engagement
+estimate | التقدير المحاسبي | estimation comptable
+performance obligation | التزام الأداء | obligation de prestation
+variable consideration | المقابل المتغير | contrepartie variable
+principal and agent | الأصيل والوكيل | mandant et mandataire
+channel stuffing | حشو قنوات التوزيع | bourrage des canaux de distribution
+persistence of earnings | استمرارية الأرباح | persistance des résultats
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Part 1 taught the five-step revenue model and the allowance for credit losses. Chapter 13 found an impairment loss of $2,724,000 sitting inside Orontes's operating expenses, and Chapter 4 found sales growing about 15 per cent a year. This chapter asks what those three facts, taken together, say about how much the 2025 profit can be relied on.
+17.1  Measuring income: four things that shape the number
+Four forces sit between the economics of a year and the profit reported for it, and the exam names all four.
+Estimates. Orontes's statements contain an allowance for credit losses of $156,000, a depreciation charge of $2,100,000 that depends on assumed useful lives, a deferred tax liability of $999,625 built on expected future rates, and an impairment of $2,724,000 that rests on a forecast of what a brand and a plant will earn. None of these is a fact and all of them are in net income.
+Accounting methods. Within the standards there are choices: first-in, first-out or weighted average for inventory; straight line or an accelerated basis for depreciation; whether a cost is capitalised or expensed. Two identical companies choosing differently report different profits, and the exam tests the direction of the difference rather than the bookkeeping.
+Incentives to disclose, or not to. Management is rewarded on reported results, borrows against covenants written on reported ratios, and is judged by analysts' forecasts of reported earnings. Where an estimate has a range, the incentives are not neutral. A company that must keep a debt-to-equity covenant at 1.50 — Barada's situation in Chapter 9 — has a reason to prefer every estimate that lifts equity.
+The needs of different users. A lender wants to know whether the interest will be paid and prefers conservatism. A shareholder wants to know what the business will earn and prefers neutrality. A tax authority wants a figure computed under its own rules. The same transaction serves all three badly if it is measured for only one, which is why the standards aim at neutrality rather than at any user's preference.
+Figure F517-02 collects them.
+Figure F517-02. Four forces on a reported profit
+@table
+Force | How it enters | Orontes's evidence
+Estimates | Allowances, lives, impairment, tax | Impairment of 2,724,000 on a forecast
+Method choices | Inventory, depreciation, capitalisation | Straight-line depreciation of 2,100,000
+Disclosure incentives | Covenants, bonuses, forecasts | A bank note with covenants, per Chapter 9
+Different users | Lenders, owners, tax authorities | One statement serving all three
+@end
+EXAM TRAP   An estimate is not an error
+A change in estimate is accounted for prospectively and never restated. A change in accounting principle is applied retrospectively. An error is corrected by restating the prior periods. Chapter 18 computes the ratio effect of each.
+Conservatism is not neutrality. A persistently conservative estimate understates income now and overstates it later, and the exam treats a reversal of an over-provision as a quality problem too.
+A disclosed estimate is better than an undisclosed one whatever its value. The note matters more than the number.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+useful life | العمر الإنتاجي | durée d'utilité
+neutrality | الحياد | neutralité
+conservatism | التحفظ | prudence
+@end
+SECTION CHECK   Test yourself
+SC17-1  Which is NOT one of the four factors in measuring income named by the outcome?
+A.	Accounting estimates
+B.	Accounting method choices
+C.	The share price on the reporting date
+D.	The different needs of users
+SC17-2  A change in the estimated useful life of a machine is:
+A.	applied prospectively, with no restatement.
+B.	applied retrospectively to every period presented.
+C.	treated as an error.
+D.	not permitted.
+SC17-3  A company close to breaching a debt-to-equity covenant has an incentive to:
+A.	prefer estimates that raise equity.
+B.	prefer estimates that lower equity.
+C.	ignore the covenant.
+D.	restate prior periods.
+Answers and explanations are at the end of the chapter.
+17.2  The source, the stability and the trend of revenue
+Revenue is the top line and the most examined number in the statements, because every other line depends on it and because it is the easiest to flatter. Three questions settle its quality.
+Where does it come from? Revenue from many customers in several markets is worth more than the same amount from one customer, because the loss of one customer is survivable. Revenue from a long-term contract is worth more than revenue from a spot sale. Revenue earned as principal is a different thing from a commission earned as agent, even where the amount is identical.
+How stable is it? Recurring revenue — subscriptions, maintenance, consumables — repeats without being won again. One-off revenue does not. A company reporting a record year on a single large order has a problem next year that its income statement does not show.
+Which way is it moving, and how? A rising trend built on volume is worth more than the same trend built on price, and both are worth more than one built on terms — longer credit, generous return rights, discounts to pull next quarter's orders into this one.
+For Orontes the trend is clear and the quality of it is not flattering. Sales rose from $32,000,000 to $36,400,000 to $42,000,000, and the gross margin fell from 37.0 to 36.0 to 35.0 per cent. Chapter 13 valued the margin given away at $840,000 a year on current sales. Growth bought with price is real growth and it is the least durable kind, because the price concession stays when the volume goes.
+Figure F517-03 sets out what to look for.
+Figure F517-03. Three questions about a revenue figure
+@table
+Question | High quality | Low quality | Where to look
+Source | Many customers, several markets | One customer, one market | The segment and concentration notes
+Stability | Recurring, contracted | One-off orders, spot sales | The revenue note and the contract liabilities
+Trend | Volume growth at a held margin | Growth bought with price or terms | The gross margin against the growth rate
+@end
+EXAM TRAP   Gross or net, principal or agent
+A company acting as agent reports only its commission. Consider a business that bills customers $10,000,000 and keeps $1,000,000, passing the rest to a supplier. As principal it reports revenue of $10,000,000 at a 10 per cent margin; as agent it reports revenue of $1,000,000 at a 100 per cent margin. Net income is identical and every revenue-based ratio differs by a factor of ten.
+Revenue growth from an acquisition is not organic growth. The exam expects the distinction to be stated.
+A record revenue figure says nothing about quality on its own. The segment note, the margin and the receivables say the rest.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+recurring revenue | الإيرادات المتكررة | revenus récurrents
+customer concentration | تركز العملاء | concentration de la clientèle
+organic growth | النمو العضوي | croissance organique
+@end
+SECTION CHECK   Test yourself
+SC17-4  Which revenue is of the highest quality?
+A.	Recurring revenue from many customers in several markets
+B.	A single large one-off order
+C.	Revenue from one customer under a contract terminable at will
+D.	Revenue recognised on a bill-and-hold arrangement
+SC17-5  A company grows sales 15 per cent while its gross margin falls two points. The growth was most likely bought with:
+A.	price concessions.
+B.	better purchasing.
+C.	a new factory.
+D.	a tax change.
+SC17-6  A company acting as agent should report as revenue:
+A.	the gross amount billed to the customer.
+B.	its commission only.
+C.	the amount passed to the supplier.
+D.	nothing until cash is received.
+Answers and explanations are at the end of the chapter.
+17.3  Revenue against receivables, revenue against inventory
+This is the most practical idea in the chapter and the one most often tested with numbers. Revenue, receivables and inventory are mechanically linked: a genuine sale creates a receivable that turns into cash, and it removes inventory. So the three should grow at broadly the same rate, and when they do not, the divergence is the finding.
+Receivables growing faster than revenue means one of three things: the company has extended its credit terms, its customers have slowed down, or some of the revenue was never going to be collected. All three reduce the quality of the reported revenue, and all three show up in days sales outstanding, which Chapter 12 computed.
+Inventory growing faster than revenue means the company has built stock that it has not yet sold — because it expects demand that has not arrived, or because demand has already fallen. Either way, next year carries a risk of a write-down, which passes through cost of sales and hits the gross margin.
+Orontes passes this test. Sales rose 15.38 per cent; accounts receivable rose $384,000 on an opening $3,760,000, which is 384,000 ÷ 3,760,000 = 10.21 per cent; and inventory rose $150,000 on an opening $2,300,000, or 150,000 ÷ 2,300,000 = 6.52 per cent. Both balances grew more slowly than sales, which is the healthy direction and means the company collected and sold faster in 2025 than in 2024.
+Figure F517-04 compares the two companies on exactly this test.
+Figure F517-04. Revenue against the balances it should move with
+@table
+Company | Sales growth | Receivables growth | Inventory growth | Reading
+Orontes, 2025 | 15.38% | 10.21% | 6.52% | Balances grew slower than sales
+Barada, 2025 | 11.0% | 38% | 41% | Balances grew three to four times faster
+@end
+Barada fails it, and this is the same finding that Chapter 3 saw as a horizontal analysis, Chapter 5 saw as a pattern, Chapter 6 saw as a quick ratio of 0.94 and Chapter 12 saw as a 44-day cash cycle. One company, one problem, five ways of seeing it. That is what a ratio system is for.
+WORKED EXAMPLE   Worked example: reading the allowance against the receivable
+Step 1. The gross receivable. Orontes's receivables are stated net of an allowance of $156,000 in 2025 and $140,000 in 2024, so the gross figures are 4,144,000 + 156,000 = 4,300,000 and 3,760,000 + 140,000 = 3,900,000.
+Step 2. The allowance as a proportion. 156,000 ÷ 4,300,000 = 3.63 per cent in 2025, against 140,000 ÷ 3,900,000 = 3.59 per cent in 2024.
+Step 3. Read it. The allowance has been held at about the same proportion of the book while the book grew, which is consistent and is what a reader hopes to see.
+Check. The alternative would have been the finding. An allowance falling as a proportion of a rapidly growing receivable book is one of the classic ways to lift reported profit: the credit loss expense is lower, net income is higher, and nothing has to be invented. Orontes's credit loss expense of $63,000 against a growing book is modest but the allowance ratio held, so the two facts are consistent and there is no finding here.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+allowance for credit losses | مخصص الخسائر الائتمانية | provision pour pertes de crédit
+gross receivable | إجمالي الذمم المدينة | créances brutes
+divergence | التباعد | divergence
+stock build | تكوين المخزون | constitution de stocks
+@end
+SECTION CHECK   Test yourself
+SC17-7  Receivables growing much faster than revenue suggests:
+A.	looser credit terms, slower customers, or revenue that will not be collected.
+B.	better collection.
+C.	a lower days sales outstanding.
+D.	nothing worth investigating.
+SC17-8  Orontes's receivables grew 10.21 per cent on sales growth of 15.38 per cent. This is:
+A.	a warning sign.
+B.	the healthy direction, and consistent with a lower days sales outstanding.
+C.	impossible.
+D.	evidence of channel stuffing.
+SC17-9  An allowance for credit losses falling as a proportion of a fast-growing receivable book:
+A.	lifts reported profit and lowers earnings quality.
+B.	lowers reported profit.
+C.	has no effect on profit.
+D.	is required by the standards.
+Answers and explanations are at the end of the chapter.
+17.4  When the recognition or the measurement changes
+A change in how revenue is recognised or measured changes the top line without anything happening in the business, and the exam asks for the effect on revenue, on profit and on the ratios.
+Three kinds of change come up.
+A change of timing. Recognising at delivery rather than at shipment, or over the life of a contract rather than at its start, moves revenue between periods. The year of the change gains or loses; the total over the life of the contract is the same.
+A change in the measurement of variable consideration. Revenue is recognised net of expected returns, rebates, discounts and penalties. Raising the estimate of returns reduces revenue now.
+A change in the principal-or-agent conclusion. This changes the gross amount with no effect on profit at all, as section 17.2 showed, and it is the change with the largest effect on every ratio.
+WORKED EXAMPLE   Worked example: a bigger returns provision
+Step 1. The change. Suppose Orontes concludes that expected returns on its 2025 sales are $200,000 higher than it first estimated. Revenue is recognised net of expected returns, so revenue falls to 42,000,000 − 200,000 = 41,800,000.
+Step 2. The profit effect. The gross profit falls by the same $200,000 less the cost of the goods coming back, and at the company's 25 per cent effective tax rate the after-tax effect is, approximately, 200,000 × 0.75 = 150,000, so net income falls to 2,969,100 − 150,000 = 2,819,100.
+Step 3. The ratios. The net margin becomes 2,819,100 ÷ 41,800,000 = 6.74 per cent against 7.07 per cent; the asset turnover falls because sales fell; the return on assets falls because profit fell more in proportion. Earnings per share falls to about 0.3480 and the price/earnings ratio rises at an unchanged price.
+Check. One estimate, revised by less than half of one per cent of sales, moves the net margin by a third of a point and every return with it. That is the sensitivity the phrase earnings quality is about, and it is why a reader goes to the note on estimates before computing a single ratio.
+Figure F517-05 summarises the three changes.
+Figure F517-05. Three changes to revenue, and what each moves
+@table
+Change | Revenue | Net income | Margin | Where it shows
+Timing of recognition | Moves between periods | Moves with it | Both move | Contract liabilities
+Variable consideration estimate | Falls or rises now | Falls or rises now | Both move | The estimates note
+Principal to agent | Falls sharply | Unchanged | Rises sharply | The revenue policy note
+@end
+EXAM TRAP   The direction of a contract liability
+Cash received before performance is a contract liability, not revenue. Orontes's contract liabilities rose from $120,000 to $180,000, which means it holds more customer money against goods not yet delivered — revenue deferred into 2026, and a small sign of quality rather than a problem.
+A change in revenue recognition policy is a change in accounting principle and is applied retrospectively. A change in an estimate of returns is prospective.
+Where the question gives a tax rate, state the profit effect after tax. Where it does not, state it before tax and say so.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+contract liability | التزام العقد | passif sur contrat
+expected returns | المردودات المتوقعة | retours attendus
+retrospective application | التطبيق بأثر رجعي | application rétrospective
+bill-and-hold | البيع مع الاحتفاظ بالبضاعة | vente avec rétention de marchandise
+@end
+SECTION CHECK   Test yourself
+SC17-10  Cash received before the goods are delivered is:
+A.	revenue.
+B.	a contract liability.
+C.	an accounts receivable.
+D.	equity.
+SC17-11  Reclassifying a company from principal to agent:
+A.	reduces revenue sharply and leaves net income unchanged.
+B.	reduces net income sharply.
+C.	raises revenue.
+D.	has no effect on any ratio.
+Answers and explanations are at the end of the chapter.
+17.5  Earnings quality: the determinants and the indicators
+Earnings quality is how well this year's reported profit predicts next year's cash. High-quality earnings are persistent, backed by cash, and produced by the business the company says it is in. Low-quality earnings are none of those things, and the accounts are not wrong in either case.
+The determinants — what makes earnings high or low quality — are three.
+Persistence. Does the item repeat? A sale repeats; a gain on the sale of equipment does not. Orontes's net income contains $3,000 of gain on disposal and $177,000 of equity-method income, neither of which comes from selling food.
+Cash backing. Does the profit turn into cash? Orontes's cash from operations is $7,531,100 against net income of $2,969,100, which is 7,531,100 ÷ 2,969,100 = 2.54 times. A ratio above one is the healthy direction, and 2.54 is strong — although Chapter 13 noted that $4,824,000 of the gap is simply depreciation and the impairment, so the figure flatters the company a little.
+Freedom from manipulation. How much of the profit rests on estimates that management chose? The impairment of $2,724,000 is the largest discretionary item in Orontes's 2025 statements, and it works in the unusual direction: it reduced this year's profit, which lowers the base for every future comparison.
+The indicators — what a reader looks at — are the practical half of the outcome.
+Figure F517-06 lists them.
+Figure F517-06. Indicators of earnings quality
+@table
+Indicator | Healthy | A warning | Orontes, 2025
+Cash from operations against net income | Above 1.0 | Below 1.0, or falling | 2.54 times
+Receivables growth against revenue growth | Slower | Faster | 10.21% against 15.38%
+Inventory growth against revenue growth | Slower | Faster | 6.52% against 15.38%
+Share of profit from one-off items | Small | Large | 180,000 of 2,969,100
+Gross margin trend | Held or rising | Falling while sales rise | Falling three years running
+Allowance ratios | Steady | Falling as the book grows | 3.63% against 3.59%
+@end
+Five of the six are healthy and one is not, and the one that is not is the finding that Chapter 18 will rank first. That is a fair verdict on Orontes: a company whose earnings are cash-backed and whose working capital is well run, growing by giving away margin, and carrying a large discretionary charge in the year under review.
+YOUR TURN   Judge Barada's earnings quality
+Figure F517-07 gives what the statements say about Barada. Mark each indicator healthy or a warning, and say what the pattern as a whole means. Answers are at the end of the chapter.
+Figure F517-07. Your turn: Barada's earnings quality (complete the blanks)
+@table
+Indicator | Barada | Healthy or warning
+Sales growth | 11.0% | ________
+Receivables growth | 38% | ________
+Inventory growth | 41% | ________
+Payables growth | 9% | ________
+Bank overdraft | 240,000, from nil | ________
+Net margin | 1.29% | ________
+Overall reading | | ________
+@end
+LANGUAGE FOCUS   "Quality"
+English quality in earnings quality does not mean how large the earnings are or how good the company is. It means how far the reported figure can be relied on to repeat and to turn into cash. A company with low earnings of high quality is a better investment than one with high earnings of low quality, and candidates who read the word as a synonym for size answer the question backwards. Arabic جودة carries the same sense of fitness for purpose, and French qualité des résultats is the settled term. Note the near-neighbour: in English, earnings management means the deliberate shaping of reported profit within the rules, and is not a compliment; gestion des résultats in French is exactly as neutral in form and as pointed in use.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+persistence | الاستمرارية | persistance
+cash backing | التغطية النقدية | adossement en trésorerie
+earnings management | إدارة الأرباح | gestion des résultats
+discretionary charge | عبء تقديري | charge discrétionnaire
+@end
+SECTION CHECK   Test yourself
+SC17-12  High-quality earnings are:
+A.	large.
+B.	persistent, cash-backed and free of manipulation.
+C.	always rising.
+D.	computed under IFRS.
+SC17-13  Cash from operations of 7,531,100 against net income of 2,969,100 is:
+A.	2.54 times, which is the healthy direction.
+B.	0.39 times, which is a warning.
+C.	irrelevant to earnings quality.
+D.	evidence of an error.
+SC17-14  Which of Orontes's 2025 indicators is the warning?
+A.	The cash backing of earnings
+B.	Receivables growth against sales growth
+C.	The gross margin falling three years running
+D.	The allowance ratio
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F517-08 brings the chapter together.
+Figure F517-08. Chapter 17 summary map: the key rule for each section.
+Four forces shape a reported profit — estimates, method choices, the incentives of the people who disclose, and the different needs of lenders, owners and tax authorities — and in Orontes's case the estimates include a $2,724,000 impairment built on a forecast. Revenue is judged by its source, its stability and its trend, and Orontes's trend is growth bought with two points of gross margin, which is the least durable kind. Revenue, receivables and inventory should move together: Orontes's receivables grew 10.21 per cent and its inventory 6.52 per cent against sales growth of 15.38, which is the healthy direction, while Barada's grew 38 and 41 per cent against 11 and produced the overdraft. A change in recognition timing moves revenue between periods, a change in the returns estimate moves it now — $200,000 of extra returns takes the net margin from 7.07 to 6.74 per cent — and a reclassification from principal to agent cuts revenue without touching profit. And earnings quality is persistence, cash backing and freedom from manipulation: Orontes scores 2.54 times on cash backing and holds its allowance ratio at about 3.6 per cent, carries only $180,000 of one-off income in $2,969,100 of profit, and fails on the one indicator that matters most.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P17-01  Which is an accounting estimate rather than a method choice?
+A.	The allowance for credit losses
+B.	First-in, first-out
+C.	Straight-line depreciation
+D.	Capitalising rather than expensing
+P17-02  A change in accounting principle is applied:
+A.	retrospectively.
+B.	prospectively.
+C.	only in the notes.
+D.	not at all.
+P17-03  Revenue of the highest quality is:
+A.	recurring, contracted and spread over many customers.
+B.	a single large order.
+C.	recognised on a bill-and-hold basis.
+D.	earned from one customer.
+P17-04  Orontes's receivables grew 10.21 per cent while sales grew 15.38 per cent. Days sales outstanding will have:
+A.	fallen.
+B.	risen.
+C.	been unchanged.
+D.	become negative.
+P17-05  Inventory growing much faster than sales most often signals:
+A.	a risk of a later write-down.
+B.	better purchasing.
+C.	a shorter cash cycle.
+D.	higher earnings quality.
+P17-06  A company reclassified from principal to agent reports revenue of 1,000,000 instead of 10,000,000. Its net income:
+A.	is unchanged.
+B.	falls by 9,000,000.
+C.	rises.
+D.	becomes a loss.
+P17-07  Raising the estimate of expected sales returns by 200,000:
+A.	reduces revenue and net income in the current period.
+B.	reduces revenue only.
+C.	is applied retrospectively.
+D.	has no effect on any ratio.
+P17-08  Cash received before delivery is reported as:
+A.	a contract liability.
+B.	revenue.
+C.	deferred tax.
+D.	a receivable.
+P17-09  The best single indicator that reported profit is turning into cash is:
+A.	cash from operations against net income.
+B.	the current ratio.
+C.	the price/earnings ratio.
+D.	the equity multiplier.
+P17-10  An allowance for credit losses held at about 3.6 per cent of a growing receivable book is:
+A.	consistent, and what a reader hopes to see.
+B.	evidence of manipulation.
+C.	a breach of the standards.
+D.	irrelevant to earnings quality.
+Case-style practice: the analyst's note on quality
+You are asked to write the earnings-quality paragraph of a research note on Orontes for 2025. The facts available are: net income $2,969,100; cash from operations $7,531,100; an impairment loss of $2,724,000; equity-method income of $177,000 and a disposal gain of $3,000; sales growth of 15.38 per cent with receivables up 10.21 per cent and inventory up 6.52 per cent; a gross margin of 35.0 per cent against 37.0 per cent two years earlier; and an allowance for credit losses of 3.63 per cent of gross receivables against 3.59 per cent.
+Required. State a verdict on the quality of Orontes's 2025 earnings, supporting it with three indicators, and name the single adjustment you would make before using the earnings figure in a valuation. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC17-1  Answer C. The share price is not part of measuring income; it is a market fact.
+A is wrong. Estimates are the first factor.
+B is wrong. Method choices are the second.
+D is wrong. The needs of users are the fourth.
+SC17-2  Answer A. A change in estimate is prospective.
+B is wrong. Retrospective application belongs to a change in principle.
+C is wrong. An error is a misstatement, not a revised estimate.
+D is wrong. Estimates must be revised when the facts change.
+SC17-3  Answer A. Higher equity relieves the covenant.
+B is wrong. Lower equity would tighten the ratio against the limit.
+C is wrong. A covenant breach has consequences that cannot be ignored.
+D is wrong. Restatement is for errors.
+SC17-4  Answer A. Recurring revenue spread across customers and markets is the most durable.
+B is wrong. A one-off order does not repeat.
+C is wrong. Concentration plus a terminable contract is the weakest position.
+D is wrong. Bill-and-hold is a recognition red flag.
+SC17-5  Answer A. Growth with a falling margin points to price.
+B is wrong. Better purchasing would raise the margin.
+C is wrong. A factory affects capacity and depreciation, not the gross margin directly.
+D is wrong. Tax is below the gross margin entirely.
+SC17-6  Answer B. An agent reports its commission.
+A is wrong. The gross amount is the principal's revenue.
+C is wrong. The supplier's share is never the agent's revenue.
+D is wrong. Recognition does not wait for cash.
+SC17-7  Answer A. All three are possible and all three reduce quality.
+B is wrong. Better collection would slow receivables growth.
+C is wrong. Faster receivables growth raises days sales outstanding.
+D is wrong. It is one of the first things to investigate.
+SC17-8  Answer B. Balances growing slower than sales means faster collection.
+A is wrong. The warning is the opposite direction.
+C is wrong. It is both possible and common.
+D is wrong. Channel stuffing inflates receivables, not the reverse.
+SC17-9  Answer A. A smaller allowance means a smaller expense and a larger profit.
+B is wrong. A smaller provision raises profit.
+C is wrong. The credit loss expense is in the income statement.
+D is wrong. The standards require the allowance to reflect expected losses, not to fall.
+SC17-10  Answer B. The obligation is to deliver, so the credit is a liability.
+A is wrong. Revenue waits for performance.
+C is wrong. A receivable is money owed to the company.
+D is wrong. Customer money is not equity.
+SC17-11  Answer A. Only the gross amount changes; the commission retained is the same.
+B is wrong. Net income is unaffected.
+C is wrong. Agent accounting lowers revenue.
+D is wrong. Every revenue-based ratio changes sharply.
+SC17-12  Answer B. Those three are the determinants of quality.
+A is wrong. Size is not quality.
+C is wrong. Rising earnings can be of poor quality.
+D is wrong. Quality is not a function of the framework used.
+SC17-13  Answer A. 7,531,100 ÷ 2,969,100 = 2.54 times.
+B is wrong. This inverts the ratio.
+C is wrong. Cash backing is the central indicator.
+D is wrong. The gap is explained by depreciation and the impairment.
+SC17-14  Answer C. The falling gross margin is the one indicator pointing the wrong way.
+A is wrong. Cash backing of 2.54 times is healthy.
+B is wrong. Receivables grew slower than sales, which is healthy.
+D is wrong. The allowance ratio was held steady.
+Your turn
+@table
+Indicator | Answer
+Sales growth | 11.0 per cent: modest growth, and healthy in itself.
+Receivables growth | 38 per cent: a warning, more than three times the sales growth.
+Inventory growth | 41 per cent: a warning, and the source of a possible write-down.
+Payables growth | 9 per cent: a warning in context — Barada is paying suppliers as before while funding a much larger stock and receivable book.
+Bank overdraft | A warning: the funding gap has arrived on the balance sheet.
+Net margin | 1.29 per cent: thin, and leaves no room to absorb a write-down.
+Overall reading | Low quality. Reported profit is not matched by cash: the growth in receivables and inventory, funded by an overdraft rather than by suppliers, is exactly the pattern of profit that exists on paper and not in the bank. At a 1.29 per cent net margin, a write-down of even a tenth of the inventory would wipe out the year's earnings.
+@end
+Multiple-choice questions
+P17-01  Answer A. An allowance is an estimate of future losses.
+B is wrong. First-in, first-out is a method choice.
+C is wrong. Straight-line is a method choice, though the life within it is an estimate.
+D is wrong. Capitalising or expensing is a method choice.
+P17-02  Answer A. A change in principle is applied retrospectively.
+B is wrong. Prospective application belongs to a change in estimate.
+C is wrong. The notes disclose it; the statements apply it.
+D is wrong. The standards require application.
+P17-03  Answer A. Recurring, contracted and diversified revenue repeats.
+B is wrong. A single order does not repeat.
+C is wrong. Bill-and-hold is a recognition warning.
+D is wrong. Concentration lowers quality.
+P17-04  Answer A. A slower-growing book against faster-growing sales shortens the collection period.
+B is wrong. That would require receivables to outgrow sales.
+C is wrong. The two grew at different rates, so the ratio moved.
+D is wrong. Days sales outstanding cannot be negative.
+P17-05  Answer A. Unsold stock carries the risk of a write-down.
+B is wrong. Buying well does not require holding more.
+C is wrong. More stock lengthens the cycle.
+D is wrong. It lowers quality rather than raising it.
+P17-06  Answer A. Only the gross-up changes; the retained commission is the same.
+B is wrong. Revenue falls by that amount; profit does not.
+C is wrong. Profit is unchanged, not higher.
+D is wrong. Nothing about the reclassification creates a loss.
+P17-07  Answer A. Revenue is stated net of expected returns, so both fall now.
+B is wrong. Net income falls with it.
+C is wrong. A change in estimate is prospective.
+D is wrong. Every margin and return moves.
+P17-08  Answer A. It is an obligation to perform.
+B is wrong. Revenue waits for performance.
+C is wrong. Deferred tax is unrelated.
+D is wrong. The cash has already been received.
+P17-09  Answer A. Comparing the cash from operations with the profit reported is the standard test.
+B is wrong. The current ratio is a balance measure.
+C is wrong. The price/earnings ratio is a market multiple.
+D is wrong. The equity multiplier measures funding.
+P17-10  Answer A. A steady ratio on a growing book is consistent.
+B is wrong. Manipulation would show as a falling ratio.
+C is wrong. Nothing in the standards is breached.
+D is wrong. Allowance ratios are a standard quality indicator.
+Case-style set: the analyst's note on quality
+Verdict. Orontes's 2025 earnings are of good quality in everything except their source, and the exception is the one that matters for a forecast.
+Three indicators support the first half. Cash from operations of $7,531,100 covers net income of $2,969,100 2.54 times, so the profit is arriving in cash. Receivables grew 10.21 per cent and inventory 6.52 per cent against sales growth of 15.38 per cent, so the growth is not sitting in working capital. And the allowance for credit losses was held at 3.63 per cent of the gross book against 3.59 per cent, so the receivable has not been flattered by a thinner provision.
+The exception is the trend. A gross margin of 35.0 per cent against 37.0 two years ago means the growth was bought with price, and a price concession is permanent in a way a volume gain is not. Earnings that grow while the margin falls are earnings with a limit on them.
+The adjustment I would make is to remove the impairment loss of $2,724,000 from the earnings used in a valuation, because it is a non-recurring charge and a multiple applied to a year containing it understates the business. I would also strip the $177,000 of equity-method income and the $3,000 disposal gain, which together are small but do not come from making food. The adjusted figure is the one to capitalise; the reported one is the one that happened.

@@ -1,0 +1,433 @@
+Chapter 15
+Sustainable growth; book value against market value
+النمو المستدام والقيمة الدفترية مقابل القيمة السوقية
+Orontes grew its sales by 15.4 per cent in 2025. Whether that was a triumph or a warning depends on a figure the income statement does not carry: the rate at which the company can grow on the profit it keeps, without issuing a share or borrowing a dollar more in proportion. That rate is the sustainable growth rate, and a company that exceeds it for long must finance the difference from somewhere.
+The second half of the chapter asks what a share of Orontes is worth. The balance sheet answers with book value, which is the equity the accountants recognise, divided by the shares. The market answers with a price. The two answers for Orontes differ by a factor of nearly four, and understanding why is the beginning of valuation — and the end of any belief that a balance sheet measures what a company is worth.
+Figure F515-01 is your map.
+Figure F515-01. Chapter 15 roadmap: one growth rate, one book value, and the gap to the market.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.3.j | Calculate and interpret the sustainable equity growth rate. | C | Full treatment
+A.2.s | Calculate and interpret book value per share. | C | Full treatment
+A.2.t | Identify and explain the limitations of book value per share. | C | Full treatment
+A.4.d | Distinguish book value from market value, and accounting profit from economic profit. | C | Full treatment
+A.2.q | Use the return on equity as the engine of the growth rate. | B | Reinforced (introduced in Chapter 14)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+sustainable growth rate | معدل النمو المستدام | taux de croissance soutenable
+retention ratio | نسبة الاحتجاز | taux de rétention
+dividend payout ratio | نسبة توزيع الأرباح | taux de distribution
+book value per share | القيمة الدفترية للسهم | valeur comptable par action
+market value | القيمة السوقية | valeur de marché
+market-to-book ratio | مضاعف القيمة الدفترية | ratio cours sur valeur comptable
+economic profit | الربح الاقتصادي | profit économique
+cost of equity capital | تكلفة حقوق الملكية | coût des capitaux propres
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 14 computed Orontes's return on equity as 16.15 per cent on average equity and 14.56 per cent on closing equity. Chapter 4 computed its sales growth as about 15 per cent a year. This chapter puts the two numbers in one sentence, and the sentence is the whole of the sustainable growth idea.
+15.1  Sustainable growth: what the business can fund itself
+Growth consumes money. A company selling a fifth more next year needs a fifth more inventory and a fifth more receivables, and sooner or later a fifth more plant. Chapter 12 priced that: Orontes carries about $4,544,000 of trade working capital, so a fifth more sales needs roughly a fifth more of it.
+There are only four places the money can come from: profit the company keeps, new debt, new equity, or a change in the way the business works. The sustainable growth rate asks how fast the company can grow on the first of those alone, holding its financial policies constant — the same debt-to-equity ratio, the same payout, the same margins, the same asset turnover.
+The answer is short. Sustainable growth equals the return on equity multiplied by the proportion of profit retained.
+The retention ratio is one minus the payout. Orontes declared dividends of 50,000 + 400,000 = 450,000 in 2025 — the $50,000 paid in cash during the year and the $400,000 still payable at December 31 — so the payout ratio is 450,000 ÷ 2,969,100 = 15.16 per cent and the retention ratio is 100.0 − 15.16 = 84.84 per cent.
+At the average-equity return on equity of 16.15 per cent, sustainable growth is 16.15 × 0.8484 = 13.70 per cent.
+You can see the same thing happening in the statement of retained earnings, which is where the retained profit physically lands: 4,375,000 + 2,969,100 − 450,000 = 6,894,100, the retained earnings figure on the 2025 balance sheet. Equity grew by that retention, and if nothing about the business or its funding mix changed, the business could support about 13.7 per cent more of everything.
+Figure F515-02 sets out the computation.
+Figure F515-02. Orontes Foods, Inc. — sustainable growth, 2025
+@table
+Element | Figure | Source
+Net income | 2,969,100 | Income statement
+Dividends declared | 450,000 | Paid 50,000, payable 400,000
+Payout ratio | 15.16% | Dividends over net income
+Retention ratio | 84.84% | One less the payout
+Return on equity | 16.15% | Chapter 14, average basis
+Sustainable growth rate | 13.70% | Return on equity times retention
+@end
+EXAM TRAP   Which return on equity goes into the growth rate
+The formula is sensitive to the equity basis, and the exam is explicit when it matters. On closing equity Orontes's return is 14.56 per cent, giving 14.56 × 0.8484 = 12.35 per cent. On beginning equity it is 2,969,100 ÷ 16,375,000 = 18.13 per cent, giving 18.13 × 0.8484 = 15.38 per cent.
+The beginning-equity version has the cleanest logic — this year's profit on the equity the company started with — and the widest spread of answers. State your basis.
+Dividends declared, not dividends paid, belong in the payout ratio. Orontes paid only $50,000 in cash and declared nine times that.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+dividends declared | الأرباح المعلنة | dividendes déclarés
+financial policy | السياسة المالية | politique financière
+retained profit | الأرباح المحتجزة | bénéfices mis en réserve
+@end
+SECTION CHECK   Test yourself
+SC15-1  The sustainable growth rate equals:
+A.	return on equity times the retention ratio.
+B.	return on assets times the payout ratio.
+C.	the growth in sales less the growth in assets.
+D.	the dividend yield plus the payout.
+SC15-2  Orontes's retention ratio for 2025 is:
+A.	15.16 per cent
+B.	84.84 per cent
+C.	100.0 per cent
+D.	13.70 per cent
+SC15-3  The payout ratio uses:
+A.	dividends paid in cash during the year.
+B.	dividends declared for the year.
+C.	dividends payable at the year end only.
+D.	the dividend per share.
+Answers and explanations are at the end of the chapter.
+15.2  Growing faster than that, and growing slower
+Orontes's sales grew 42,000,000 − 36,400,000 = 5,600,000 in 2025, which is 5,600,000 ÷ 36,400,000 = 15.38 per cent, against a sustainable rate of 13.70 per cent. The company grew faster than its own profit could fund, and the statements show exactly where the difference came from: a $1,500,000 share issue, $1,400,000 of additional paid-in capital, and an $800,000 bank note. Nothing improper happened. But the growth was part-funded from outside, and that cannot be repeated indefinitely without either more issues or more debt.
+A company growing faster than its sustainable rate has four choices, and the exam expects you to name them rather than simply observe the gap.
+Raise the sustainable rate through the business. A better margin or a faster asset turnover raises the return on equity and therefore the growth the company can fund. This is the only route that costs nothing.
+Raise it through policy. Cut the payout, which raises retention directly. Orontes retains 84.84 per cent already, so there is little room; a company paying out half its profit has a great deal.
+Fund the gap. Issue equity, as Orontes did, or borrow, which raises the equity multiplier and with it the return on equity — and the risk Chapter 8 priced.
+Grow more slowly. Unfashionable, and it is what happens anyway to a company that will not do the other three: the overdraft arrives first and the decision is taken for it.
+That last case is Barada's, and you have seen it twice already. Barada's sales grew 11 per cent while it retained everything it earned on a return on equity of 9.15 per cent. Eleven against nine, year after year, is the whole explanation of the inventory up 41 per cent, the receivables up 38 per cent, and the overdraft of $240,000 where there was none.
+Figure F515-03 compares the two companies.
+Figure F515-03. Growth against sustainable growth
+@table
+Company | Actual sales growth | Sustainable rate | Gap | How it was funded
+Orontes, 2025 | 15.38% | 13.70% | 1.7 points | Share issue and a bank note
+Barada, 2025 | 11.0% | 9.15% | 1.9 points | A bank overdraft
+A mature utility | 2.0% | 6.0% | (4.0) points | Surplus returned as dividends
+@end
+The third row is the opposite problem and it is examinable too. A company growing more slowly than it can fund accumulates cash it has no use for, which lowers its return on assets — the point section 14.1 made about issuing shares and holding the proceeds. The remedy is a larger dividend, a buyback, or an acquisition, and Book 3 takes that decision properly.
+WORKED EXAMPLE   Worked example: how fast can Orontes grow without issuing shares?
+Step 1. The engine. Return on equity on the beginning equity of $16,375,000 is 2,969,100 ÷ 16,375,000 = 18.13 per cent, and the retention ratio is 84.84 per cent.
+Step 2. The rate. 18.13 × 0.8484 = 15.38 per cent, which happens to be almost exactly the sales growth achieved.
+Step 3. What that means. On the beginning-equity basis Orontes grew at its sustainable rate, and on the average-equity basis it grew faster than it. The two bases disagree precisely because the share issue landed in the middle of the year — the average basis counts half of the new money as if it had been there all along, and the beginning basis counts none of it.
+Check. This is not a trick of arithmetic; it is the reason the exam names the basis. For a company that has not issued or repurchased shares, the three answers are close together and the choice does not matter. For Orontes in 2025 the spread is 12.35 to 15.38 per cent, and an answer that quotes one figure without naming its basis cannot be checked by the marker or by anybody else.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+share issue | إصدار أسهم | émission d'actions
+buyback | إعادة شراء الأسهم | rachat d'actions
+surplus cash | النقد الفائض | trésorerie excédentaire
+@end
+SECTION CHECK   Test yourself
+SC15-4  A company growing faster than its sustainable rate must:
+A.	be failing.
+B.	fund the difference with new debt or new equity, or change the business.
+C.	cut its sales.
+D.	have a negative return on equity.
+SC15-5  Barada's sustainable growth rate on a return on equity of 9.15 per cent with no dividends is:
+A.	0 per cent
+B.	9.15 per cent
+C.	11.0 per cent
+D.	1.85 per cent
+SC15-6  A company growing more slowly than its sustainable rate will tend to:
+A.	accumulate cash and report a lower return on assets.
+B.	run out of cash.
+C.	breach its covenants.
+D.	have a rising equity multiplier.
+Answers and explanations are at the end of the chapter.
+15.3  Book value per share
+Book value per share is total stockholders' equity divided by the shares outstanding at the same date. It is what the accountants say the shareholders own, per share, after every liability.
+Orontes's equity at December 31, 2025 is $20,392,975 and 8,100,000 shares are issued and outstanding, so book value per share is 20,392,975 ÷ 8,100,000 = 2.5177. A year earlier it was 16,375,000 ÷ 8,000,000 = 2.0469.
+Three points of mechanics before the interpretation.
+Use shares outstanding at the balance sheet date, not the weighted average. The weighted average belongs to earnings per share, which is a flow over a period; book value is a balance at a date, and so is the share count that goes with it.
+Treasury shares are not outstanding. They reduce equity and they reduce the share count, and because they are normally repurchased above book value they usually raise book value per share — a point that trips candidates who expect a buyback to lower it.
+Where preferred stock exists, deduct it. Book value per common share is equity less the preferred claim, over the common shares.
+Figure F515-04 sets the two years out.
+Figure F515-04. Orontes: book value per share
+@table
+Element | 2025 | 2024
+Total stockholders' equity | 20,392,975 | 16,375,000
+Shares issued and outstanding | 8,100,000 | 8,000,000
+Book value per share | 2.5177 | 2.0469
+@end
+Book value per share rose by about 23 per cent in a year, from retained profit and from the share issue, which was priced well above book. For a bank or an insurer, which hold mostly financial assets carried at or near fair value, that figure would be close to a real measure of worth. For a food manufacturer it is not, and the next section says why.
+EXAM TRAP   Which share count, which equity
+Shares issued is not always shares outstanding: the difference is treasury stock. Orontes has none, so for Orontes the two are the same and the exam may still ask.
+Book value per share uses the closing equity. Averaging it is an error — there is no period for a balance to be averaged over.
+Earnings per share and book value per share use different share counts on purpose. Chapter 16 computes the first.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+shares outstanding | الأسهم القائمة | actions en circulation
+weighted-average shares | المتوسط المرجح للأسهم | nombre moyen pondéré d'actions
+par value | القيمة الإسمية | valeur nominale
+@end
+SECTION CHECK   Test yourself
+SC15-7  Book value per share divides equity by:
+A.	shares outstanding at the balance sheet date.
+B.	weighted-average shares.
+C.	shares authorised.
+D.	diluted shares.
+SC15-8  Orontes's book value per share at December 31, 2025 is:
+A.	2.5177
+B.	2.0469
+C.	0.3666
+D.	9.25
+SC15-9  A company repurchases shares at a price above book value. Book value per share:
+A.	rises.
+B.	falls.
+C.	is unchanged.
+D.	becomes negative.
+Answers and explanations are at the end of the chapter.
+15.4  What book value per share leaves out
+Orontes's shares change hands at $9.25. Its book value per share is $2.5177. The market says a share is worth nearly four times what the balance sheet says, and the reason is not that one of them is wrong. It is that they measure different things, and the gap is the sum of everything the balance sheet is not designed to carry.
+Historical cost. Property is carried at what it cost less accumulated depreciation. Orontes's plant cost $26,790,000 and stands at $14,802,000; land bought thirty years ago stands at its 1990s price. Under IFRS a company may revalue; under US GAAP it may not.
+Intangibles the company built. Orontes's brand is on the balance sheet at $260,000 because it was acquired. The recipes, the customer relationships, the trained workforce and the reputation that make the brand worth anything were built internally, and internally generated intangibles are not recognised at all. A software company's whole value sits in this gap, which is why its market-to-book ratio runs in double figures.
+Goodwill, which is only ever downhill. Acquired goodwill is recognised and then tested for impairment. It can fall and can never rise. Orontes's goodwill went from $950,000 to $300,000 in 2025 through exactly that mechanism.
+What the future holds. The market price discounts expected future cash flows. The balance sheet records past transactions. A company whose profits are expected to double trades far above book; a company expected to shrink trades below it, and a market-to-book ratio under 1.0 is the market saying the assets are worth less in this company's hands than their carrying amount.
+Figure F515-05 collects the four.
+Figure F515-05. Why book value per share understates a going concern
+@table
+What is missing | Why | Orontes's evidence
+Current values | Assets at cost less depreciation | Plant at 14,802,000 against a cost of 26,790,000
+Internally built intangibles | Not recognised under GAAP | Brand at 260,000; recipes and reputation at nil
+Rising goodwill | Only tested downwards | Goodwill fell from 950,000 to 300,000
+Expected future profit | The balance sheet is a record, not a forecast | A share price of 9.25 against a book value of 2.5177
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+historical cost | التكلفة التاريخية | coût historique
+internally generated intangible | أصل غير ملموس مولد داخلياً | immobilisation incorporelle générée en interne
+going concern | الاستمرارية | continuité d'exploitation
+carrying amount | القيمة الدفترية للأصل | valeur comptable
+@end
+SECTION CHECK   Test yourself
+SC15-10  Internally generated brands are not on the balance sheet because:
+A.	they have no value.
+B.	GAAP does not permit their recognition.
+C.	they are expensed as goodwill.
+D.	they are disclosed as contingencies.
+SC15-11  A market-to-book ratio below 1.0 suggests the market believes:
+A.	the assets are worth less in this company's hands than their carrying amount.
+B.	the company is highly profitable.
+C.	book value is overstated by intangibles.
+D.	the shares are about to be repurchased.
+Answers and explanations are at the end of the chapter.
+15.5  Market value, and the profit the accountants do not charge for
+Market value per share is the price. Market capitalisation is the price times the shares: 8,100,000 × 9.25 = 74,925,000. Against a book equity of $20,392,975, the market adds 74,925,000 − 20,392,975 = 54,532,025 of value that no statement records.
+The ratio of the two is the market-to-book ratio, which Chapter 16 treats as a market multiple: 9.25 ÷ 2.5177 = 3.67 for 2025, and 7.80 ÷ 2.0469 = 3.81 for 2024. The multiple fell slightly while the price rose, because book value rose faster.
+Now the second distinction this outcome requires, and the one candidates find least familiar. Accounting profit is revenue less the costs the standards require to be recognised. Economic profit is revenue less all costs, including the cost of the equity capital employed — which the standards never charge, because equity has no contractual cost and so no expense is recorded.
+That omission is large. Orontes's lenders are charged for in the income statement, at $390,000 of interest. Its shareholders, who put up $18,383,988 on average, are charged nothing at all, although they could have invested the money elsewhere.
+WORKED EXAMPLE   Worked example: Orontes's economic profit
+Step 1. Accounting profit. Net income for 2025 is $2,969,100, struck after interest and after tax, and it is the profit every ratio in Book 1 has used.
+Step 2. The charge the statements omit. Suppose a shareholder in a food manufacturer of this risk requires 10 per cent. On average equity the charge is 18,383,988 × 0.10 = 1,838,399.
+Step 3. Economic profit. 2,969,100 − 1,838,399 = 1,130,701. Orontes earned about 1.1 million dollars more than the minimum its owners require.
+Check. The sign is what matters. A positive economic profit means the company is creating value and the market-to-book ratio above 1.0 is justified; a negative one means the company earns an accounting profit while destroying value, which is precisely the case a market-to-book ratio below 1.0 describes. Note also the consistency test: a return on equity of 16.15 per cent against a required 10 per cent is the same statement as a positive economic profit, expressed as a rate instead of an amount.
+YOUR TURN   Barada's growth and its book value
+Figure F515-06 gives Barada Wholesale's figures. Compute the missing items. Answers are at the end of the chapter.
+Figure F515-06. Your turn: Barada's growth and book value (complete the blanks)
+@table
+Item | Amount or ratio
+Net income | 283,500
+Total equity | 3,100,000
+Shares outstanding | 1,000,000
+Dividends declared | nil
+Sales, 2025 | 21,978,000
+Sales, 2024 | 19,800,000
+Return on equity, closing basis | ________
+Retention ratio | ________
+Sustainable growth rate | ________
+Actual sales growth | ________
+Book value per share | ________
+Market-to-book, at the investor's implied price of 6.00 | ________
+@end
+LANGUAGE FOCUS   "Value"
+English value carries no built-in basis: book value, market value, fair value, net realisable value and present value are five different numbers for one asset, and the word alone tells the reader nothing. Arabic uses قيمة with the same breadth, and French valeur likewise. The professional habit is never to write value without the qualifier — valeur comptable for book, juste valeur for fair, valeur de marché for market — and candidates who carry that habit into English write answers a marker cannot misread. Note the one trap: in French, valorisation is the act of valuing, not the value, and évaluation is closer to assessment than to measurement.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+market capitalisation | القيمة السوقية للشركة | capitalisation boursière
+accounting profit | الربح المحاسبي | bénéfice comptable
+required return | العائد المطلوب | rentabilité exigée
+value creation | خلق القيمة | création de valeur
+@end
+SECTION CHECK   Test yourself
+SC15-12  Economic profit differs from accounting profit because it:
+A.	charges for the cost of equity capital.
+B.	excludes interest.
+C.	is computed before tax.
+D.	uses market values for sales.
+SC15-13  Orontes's market capitalisation at $9.25 on 8,100,000 shares is:
+A.	74,925,000
+B.	20,392,975
+C.	54,532,025
+D.	31,672,600
+SC15-14  A company with a positive accounting profit and a negative economic profit is:
+A.	creating value.
+B.	earning less than its owners require.
+C.	insolvent.
+D.	misstating its accounts.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F515-07 brings the chapter together.
+Figure F515-07. Chapter 15 summary map: the key rule for each section.
+Sustainable growth is the return on equity times the retention ratio: Orontes retains 84.84 per cent of its profit and earns 16.15 per cent on average equity, so it can fund 13.70 per cent growth a year, and it grew 15.38 per cent — the difference arriving as a $1,500,000 share issue and an $800,000 note. A company above its sustainable rate must improve the business, cut the payout, fund the gap or slow down, and Barada, growing 11 per cent on a sustainable 9.15, took the fourth option by default when the overdraft appeared. Book value per share is closing equity over shares outstanding, $2.5177 for Orontes against $2.0469 a year earlier, and it uses the closing share count because it is a balance and not a flow. It leaves out current values, internally built intangibles, any rise in goodwill and the whole of the future, which is why the market pays $9.25 — a market-to-book ratio of 3.67 and 54,532,025 of value that appears in no statement. And the accountants charge for debt but never for equity, so accounting profit of $2,969,100 becomes an economic profit of 1,130,701 once the owners' 10 per cent is charged: positive, which is the same statement as a return on equity above the required return.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P15-01  A company earns a return on equity of 20 per cent and pays out a quarter of its profit. Its sustainable growth rate is:
+A.	5 per cent
+B.	15 per cent
+C.	20 per cent
+D.	25 per cent
+P15-02  Orontes's payout ratio for 2025 is:
+A.	15.16 per cent
+B.	84.84 per cent
+C.	1.68 per cent
+D.	13.70 per cent
+P15-03  Which action raises the sustainable growth rate without changing the business?
+A.	Cutting the dividend payout
+B.	Issuing shares
+C.	Selling a division
+D.	Lengthening the cash cycle
+P15-04  Book value per share is:
+A.	equity over shares outstanding at the date.
+B.	equity over weighted-average shares.
+C.	net income over shares outstanding.
+D.	market capitalisation over shares.
+P15-05  Orontes's equity is 20,392,975 on 8,100,000 shares. Book value per share is:
+A.	2.5177
+B.	2.0469
+C.	3.67
+D.	0.3666
+P15-06  Which is NOT a reason market value exceeds book value?
+A.	Internally generated intangibles are unrecognised
+B.	Assets are carried at historical cost
+C.	The market discounts expected future profits
+D.	Goodwill is written up each year
+P15-07  A market-to-book ratio of 0.80 suggests:
+A.	the market values the assets below their carrying amount.
+B.	the company is growing quickly.
+C.	book value per share is negative.
+D.	the shares are overpriced.
+P15-08  Economic profit charges for:
+A.	the cost of equity capital.
+B.	interest only.
+C.	tax only.
+D.	depreciation only.
+P15-09  A company with a return on equity of 8 per cent and a required return of 12 per cent has:
+A.	a positive economic profit.
+B.	a negative economic profit.
+C.	no accounting profit.
+D.	a market-to-book ratio above 1.0.
+P15-10  Orontes grew sales 15.38 per cent against a sustainable 13.70 per cent. The statements show the gap was funded by:
+A.	retained profit alone.
+B.	a share issue and a bank note.
+C.	a dividend cut.
+D.	sale of the brand.
+Case-style practice: the dividend question
+Orontes's board is asked to raise the dividend. One director proposes paying out half of net income rather than the 15.16 per cent paid for 2025. The company plans sales growth of about 14 per cent a year for the next three years.
+Required. Compute the sustainable growth rate under the proposed payout, using the average-equity return on equity of 16.15 per cent. Say whether the plan and the proposal are consistent, and what the company would have to do if the board adopted both. Under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC15-1  Answer A. Retained profit is the only internal source of equity, so the growth it funds is the return times the share retained.
+B is wrong. It is the return on equity, and the retention, not the payout.
+C is wrong. That is a comparison, not the formula.
+D is wrong. The dividend yield is a market measure and belongs to Chapter 16.
+SC15-2  Answer B. 100.0 − 15.16 = 84.84 per cent.
+A is wrong. That is the payout ratio.
+C is wrong. Orontes declared dividends, so retention is below 100.
+D is wrong. 13.70 per cent is the sustainable growth rate.
+SC15-3  Answer B. Dividends declared for the year is the charge against the year's profit.
+A is wrong. Orontes paid only $50,000 in cash and declared $450,000.
+C is wrong. The payable is one part of the declaration.
+D is wrong. The dividend per share has to be multiplied by the shares first.
+SC15-4  Answer B. Growth above the sustainable rate must be financed from outside or the business must change.
+A is wrong. Fast growth is not failure; it is a funding problem.
+C is wrong. Cutting sales is one option among four, not a necessity.
+D is wrong. A positive return on equity is what produces the rate at all.
+SC15-5  Answer B. With no dividends the retention ratio is 1.00, so the rate equals the return on equity.
+A is wrong. Zero would require a zero return or a full payout.
+C is wrong. 11.0 per cent is the actual growth, which is the problem.
+D is wrong. 1.85 points is the gap between the two.
+SC15-6  Answer A. Cash accumulates and the denominator of the return on assets grows.
+B is wrong. Running out of cash is the fast-growth case.
+C is wrong. Slow growth relieves covenant pressure.
+D is wrong. The multiplier falls as equity builds.
+SC15-7  Answer A. Book value is a balance at a date, so the share count is at that date.
+B is wrong. The weighted average belongs to earnings per share.
+C is wrong. Authorised shares may never have been issued.
+D is wrong. Diluted shares belong to diluted earnings per share.
+SC15-8  Answer A. 20,392,975 ÷ 8,100,000 = 2.5177.
+B is wrong. That is the 2024 figure.
+C is wrong. 0.3666 is earnings per share.
+D is wrong. 9.25 is the market price.
+SC15-9  Answer A. Paying more than book for each share removes more cash than book value per share, so what is left per remaining share rises.
+B is wrong. It would fall only on a repurchase below book value.
+C is wrong. Both equity and the share count change, and not in proportion.
+D is wrong. A buyback of this size does not make equity negative.
+SC15-10  Answer B. Internally generated intangibles are not recognised.
+A is wrong. They are often the most valuable thing the company has.
+C is wrong. Goodwill arises only on acquisition.
+D is wrong. They are not contingencies.
+SC15-11  Answer A. The market is valuing the net assets below their carrying amount.
+B is wrong. High profitability produces a ratio above 1.0.
+C is wrong. Unrecognised intangibles understate book value, not overstate it.
+D is wrong. A buyback is a possible response, not the meaning of the ratio.
+SC15-12  Answer A. Economic profit charges for equity, which the standards never do.
+B is wrong. Economic profit charges for debt as well.
+C is wrong. It is normally computed after tax.
+D is wrong. Sales are measured the same way.
+SC15-13  Answer A. 8,100,000 × 9.25 = 74,925,000.
+B is wrong. That is book equity.
+C is wrong. That is the difference between the two.
+D is wrong. That is total assets.
+SC15-14  Answer B. A positive accounting profit below the required return is a negative economic profit.
+A is wrong. Value is being destroyed, not created.
+C is wrong. Insolvency is about liabilities, not returns.
+D is wrong. Nothing is misstated; the standards simply do not charge for equity.
+Your turn
+@table
+Item | Answer
+Return on equity, closing basis | 9.15 per cent: 283,500 ÷ 3,100,000.
+Retention ratio | 100 per cent, because no dividend was declared.
+Sustainable growth rate | 9.15 per cent: 9.15 × 1.00 = 9.15.
+Actual sales growth | 11.0 per cent: 21,978,000 − 19,800,000 = 2,178,000, and 2,178,000 ÷ 19,800,000 = 11.0 per cent.
+Book value per share | 3.10: 3,100,000 ÷ 1,000,000.
+Market-to-book | 1.9355: 6.00 ÷ 3.10, where the price comes from 6,000,000 ÷ 1,000,000 = 6.00.
+What it tells you | Barada grows about two points a year faster than it can fund, retains everything, and pays no dividend, so the gap can only go on the overdraft. The investor's offer values it at nearly twice book, which is a judgment about the distribution business and not about the balance sheet.
+@end
+Multiple-choice questions
+P15-01  Answer B. 20 × 0.75 = 15 per cent.
+A is wrong. This multiplies by the payout instead of the retention.
+C is wrong. This ignores the dividend altogether.
+D is wrong. This is the payout ratio.
+P15-02  Answer A. 450,000 ÷ 2,969,100 = 15.16 per cent.
+B is wrong. That is the retention ratio.
+C is wrong. This is dividends over sales.
+D is wrong. That is the sustainable growth rate.
+P15-03  Answer A. A lower payout raises retention and so raises the rate.
+B is wrong. Issuing shares funds growth from outside; it does not raise the sustainable rate.
+C is wrong. Selling a division changes the business.
+D is wrong. A longer cash cycle consumes cash and makes matters worse.
+P15-04  Answer A. Equity at a date over shares at that date.
+B is wrong. The weighted average belongs to earnings per share.
+C is wrong. Net income over shares is earnings per share.
+D is wrong. That is the market price.
+P15-05  Answer A. 20,392,975 ÷ 8,100,000 = 2.5177.
+B is wrong. That is the 2024 figure.
+C is wrong. 3.67 is the market-to-book ratio.
+D is wrong. 0.3666 is earnings per share.
+P15-06  Answer D. Goodwill is never written up.
+A is wrong. Unrecognised intangibles are a genuine reason.
+B is wrong. Historical cost is a genuine reason.
+C is wrong. Expected future profit is the largest reason of all.
+P15-07  Answer A. The market puts the net assets below their carrying amount.
+B is wrong. Quick growth lifts the ratio above 1.0.
+C is wrong. A ratio of 0.80 requires a positive book value.
+D is wrong. It suggests the opposite.
+P15-08  Answer A. The cost of equity is the charge the standards omit.
+B is wrong. Interest is already in accounting profit.
+C is wrong. Tax is already in accounting profit.
+D is wrong. Depreciation is already in accounting profit.
+P15-09  Answer B. Earning 8 against a required 12 destroys value.
+A is wrong. The return is below the requirement.
+C is wrong. An 8 per cent return on equity is an accounting profit.
+D is wrong. Such a company tends to trade below book.
+P15-10  Answer B. The statements show a $1,500,000 issue and an $800,000 note.
+A is wrong. Retained profit funded the 13.70 per cent, not the excess.
+C is wrong. The dividend rose; it was not cut.
+D is wrong. The brand was not sold.
+Case-style set: the dividend question
+At a payout of 50 per cent the retention ratio becomes 50 per cent, and the sustainable growth rate becomes 16.15 × 0.50 = 8.08 per cent.
+The plan and the proposal are not consistent. Sales growth of 14 per cent a year against a sustainable 8.08 per cent leaves about six points of growth a year to be funded from outside — on 2025 sales, roughly $2,500,000 a year of additional working capital and plant that the retained profit will no longer cover.
+If the board adopted both, it would have to do one of three things. It could borrow, which raises the equity multiplier and the return on equity but takes interest coverage down from 11.15 times and brings the covenant limits of Chapter 9 closer. It could issue shares again, as it did in 2025, which dilutes the existing holders and is not available cheaply in every year. Or it could improve the business: two points of recovered gross margin would raise the return on equity by roughly three points and carry about half of the gap by itself.
+My recommendation would be to raise the dividend by less. A payout of 30 per cent gives a sustainable rate of 16.15 × 0.70 = 11.31 per cent, which with a modest amount of new debt supports the plan without either a share issue or a covenant problem. A board that wants both a 50 per cent payout and 14 per cent growth is asking the shareholders to fund the dividend with their own new money.
