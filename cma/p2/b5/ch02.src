@@ -1,0 +1,457 @@
+Chapter 2
+Common-Size Statements
+القوائم المالية بالنسب المئوية
+A balance sheet of $31,672,600 and a balance sheet of $310,000,000 cannot be compared line by line. One is a hundred times the other, and every difference you see is mostly a difference of size. Turn both into percentages of their own totals and the size disappears, leaving only the shape: what proportion of the company is inventory, how much of it the owners paid for, how much of each sales dollar survives to the bottom.
+That is a common-size statement, and it is the first thing an analyst makes. It is also called vertical analysis, because the percentages run down the column.
+Figure F502-01 is your map.
+Figure F502-01. Chapter 2 roadmap: two statements, two bases, one shape.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+A.1.a | Prepare a common-size balance sheet, expressing every line as a percentage of total assets. | C | Full treatment
+A.1.a | Prepare a common-size income statement, expressing every line as a percentage of net sales. | C | Full treatment
+A.1.a | Read a common-size statement and say what it shows about the company. | C | Full treatment
+A.1.b | Say how a common-size statement differs from horizontal analysis. | B | Introduced (full in Chapter 3)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+common-size statement | قائمة مالية بنسب مئوية | état en pourcentage
+vertical analysis | التحليل الرأسي | analyse verticale
+base amount | المبلغ الأساس | montant de base
+total assets | إجمالي الأصول | total de l'actif
+net sales | صافي المبيعات | ventes nettes
+capital structure | هيكل رأس المال | structure du capital
+asset mix | تركيبة الأصول | composition de l'actif
+cost structure | هيكل التكاليف | structure des coûts
+@end
+WHAT YOU ALREADY KNOW   What you already know
+You already know that the balance sheet totals to total assets on one side and to liabilities plus equity on the other, and that the income statement runs from net sales down to net income. A common-size statement changes nothing in either. It adds a column.
+2.1  One total as a hundred
+A common-size statement sets one line of the statement to 100 per cent and expresses every other line as a percentage of it. The choice of base is fixed by convention, and the exam expects it.
+For the balance sheet the base is total assets. Every asset, every liability and every equity line is divided by total assets. Because assets equal liabilities plus equity, the liability and equity side also adds to 100 per cent, so the two sides remain equal in percentage terms as they were in dollars.
+For the income statement the base is net sales. Every cost, every subtotal and net income itself is divided by net sales. The result is read as what happens to each sales dollar: so many cents go to the cost of the goods, so many to selling and administration, so many survive as profit.
+EXAM TRAP   The base is not negotiable
+Balance sheet: total assets. Not total equity, not current assets, not the largest line.
+Income statement: net sales. Not gross profit, not total revenue including other income, not net income.
+When a question gives you other income or interest income, those are expressed against net sales too, even though they are not sales.
+A common-size statement for one year, standing alone, tells you the shape of the company. Two years side by side tell you whether the shape is changing, and that is usually the more useful reading. Both appear in the figures below.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+base amount | المبلغ الأساس | montant de base
+total assets | إجمالي الأصول | total de l'actif
+net sales | صافي المبيعات | ventes nettes
+percentage | النسبة المئوية | pourcentage
+@end
+SECTION CHECK   Test yourself
+SC2-1  On a common-size balance sheet, the base amount is:
+A.	total equity.
+B.	total assets.
+C.	total current assets.
+D.	net sales.
+SC2-2  On a common-size income statement, interest expense is expressed as a percentage of:
+A.	operating income.
+B.	income before income taxes.
+C.	net sales.
+D.	total assets.
+SC2-3  Why do the two sides of a common-size balance sheet both total 100 per cent?
+A.	Because the percentages are rounded
+B.	Because assets equal liabilities plus equity, and both sides use the same base
+C.	Because equity is excluded from the calculation
+D.	Because current and noncurrent items are weighted equally
+Answers and explanations are at the end of the chapter.
+2.2  The common-size balance sheet
+Figure F502-02 is Orontes's balance sheet from Part 1, with a percentage column beside each year. Every percentage is the dollar amount divided by total assets for that year.
+Figure F502-02. Orontes Foods, Inc. — common-size balance sheets at December 31 (percentage of total assets)
+@table
+Orontes Foods Inc. (whole USD) | 2025 | % | 2024 | %
+Cash | 7,302,100 | 23.1 | 2,100,000 | 7.9
+Trading securities | 42,000 | 0.1 | 40,000 | 0.2
+Accounts receivable, net | 4,144,000 | 13.1 | 3,760,000 | 14.2
+Inventory | 2,450,000 | 7.7 | 2,300,000 | 8.7
+Prepaid expenses | 204,000 | 0.6 | 180,000 | 0.7
+Assets held for sale | 46,000 | 0.1 | — | —
+Total current assets | 14,188,100 | 44.8 | 8,380,000 | 31.7
+Debt securities | 88,500 | 0.3 | 90,000 | 0.3
+Equity securities | 27,000 | 0.1 | 25,000 | 0.1
+Equity-method investments | 1,807,000 | 5.7 | 500,000 | 1.9
+Property, plant and equipment, net | 14,802,000 | 46.7 | 16,000,000 | 60.5
+Brand (indefinite-lived) | 260,000 | 0.8 | 300,000 | 1.1
+Goodwill | 300,000 | 0.9 | 950,000 | 3.6
+Other noncurrent assets | 200,000 | 0.6 | 200,000 | 0.8
+TOTAL ASSETS | 31,672,600 | 100.0 | 26,445,000 | 100.0
+Accounts payable | 2,050,000 | 6.5 | 1,900,000 | 7.2
+Accrued liabilities | 900,000 | 2.8 | 850,000 | 3.2
+Income taxes payable | 350,000 | 1.1 | 300,000 | 1.1
+Contract liabilities | 180,000 | 0.6 | 120,000 | 0.5
+Dividends payable | 400,000 | 1.3 | — | —
+Current portion of long-term debt | 400,000 | 1.3 | 400,000 | 1.5
+Total current liabilities | 4,280,000 | 13.5 | 3,570,000 | 13.5
+Long-term debt, less current portion | 6,000,000 | 18.9 | 5,600,000 | 21.2
+Deferred tax liability | 999,625 | 3.2 | 900,000 | 3.4
+Total liabilities | 11,279,625 | 35.6 | 10,070,000 | 38.1
+Common stock, $1 par | 8,100,000 | 25.6 | 8,000,000 | 30.3
+Additional paid-in capital | 5,400,000 | 17.0 | 4,000,000 | 15.1
+Retained earnings | 6,894,100 | 21.8 | 4,375,000 | 16.5
+Total stockholders' equity | 20,392,975 | 64.4 | 16,375,000 | 61.9
+TOTAL LIABILITIES AND EQUITY | 31,672,600 | 100.0 | 26,445,000 | 100.0
+@end
+Four things in that column are worth naming, and each one becomes a chapter later.
+The asset mix moved. Current assets were 31.7 per cent of the company and are now 44.8 per cent. Property, plant and equipment fell from 60.5 per cent to 46.7 per cent. Orontes did not sell a factory: the dollar amount of PP&E fell by only $1,198,000, while total assets grew. Most of the shift is cash.
+Cash tripled as a proportion. It was 7.9 per cent of total assets and is now 23.1 per cent. Nearly a quarter of this company is now cash. That is either a company storing up for something, or a company that cannot find anything to do with its money. Chapter 5 asks which.
+The capital structure barely moved. Total liabilities fell from 38.1 per cent to 35.6 per cent and equity rose from 61.9 to 64.4. Orontes is financed about two-thirds by its owners, and that did not change much in a year when the balance sheet grew by a fifth.
+Goodwill shrank. It was 3.6 per cent of assets and is now 0.9 per cent, because of the impairment you recorded in Part 1. A reader who did not know that would see only the percentage and would have to go to the notes.
+WORKED EXAMPLE   Worked example: three lines of the common-size column
+Step 1. Cash, 2025. 7,302,100 ÷ 31,672,600 = 23.1 per cent. Round to one decimal, as the whole column does.
+Step 2. Cash, 2024. 2,100,000 ÷ 26,445,000 = 7.9 per cent. Note that the base changed: each year is divided by its own total, never by the earlier total.
+Step 3. Total current liabilities, both years. 4,280,000 ÷ 31,672,600 = 13.5 per cent, and 3,570,000 ÷ 26,445,000 = 13.5 per cent. The dollar amount rose by $710,000 and the percentage did not move at all.
+Check. Step 3 is the point of the technique. In dollars, current liabilities grew. As a share of the company they stood still, because the company grew by the same proportion. The two readings are both true and they answer different questions.
+YOUR TURN   Complete the common-size column
+Figure F502-03 gives four lines of the 2025 balance sheet. The first is done. Total assets for 2025 are $31,672,600. Fill in the rest, to one decimal place. Answers are at the end of the chapter.
+Figure F502-03. Your turn: the 2025 common-size column (complete the blanks)
+@table
+Line | Amount | Per cent of total assets
+Accounts receivable, net | 4,144,000 | 13.1
+Inventory | 2,450,000 | ________
+Equity-method investments | 1,807,000 | ________
+Long-term debt, less current portion | 6,000,000 | ________
+Retained earnings | 6,894,100 | ________
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+asset mix | تركيبة الأصول | composition de l'actif
+capital structure | هيكل رأس المال | structure du capital
+goodwill | الشهرة | écart d'acquisition
+impairment | انخفاض القيمة | dépréciation
+@end
+SECTION CHECK   Test yourself
+SC2-4  Use Figure F502-02. Which change in the asset mix is largest between 2024 and 2025?
+A.	Inventory
+B.	Cash
+C.	Accounts receivable
+D.	Goodwill
+SC2-5  Orontes's current liabilities were 13.5 per cent of total assets in both years, although the dollar amount rose. This means:
+A.	the dollar amount did not really change.
+B.	current liabilities grew at about the same rate as total assets.
+C.	the base amount was held constant.
+D.	the percentages were rounded to hide a change.
+SC2-6  Property, plant and equipment fell from 60.5 per cent of assets to 46.7 per cent. On its own, this shows that:
+A.	Orontes sold a large part of its plant.
+B.	Orontes depreciated more than it spent.
+C.	PP&E is a smaller share of a larger balance sheet.
+D.	PP&E was impaired.
+Answers and explanations are at the end of the chapter.
+2.3  The common-size income statement
+On the income statement the base is net sales, and the column reads as the fate of each sales dollar. Figure F502-04 is Orontes's.
+Figure F502-04. Orontes Foods, Inc. — common-size income statement, year ended December 31, 2025 (percentage of net sales)
+@table
+Orontes Foods Inc. (whole USD) | 2025 | %
+Net sales | 42,000,000 | 100.0
+Cost of goods sold | (27,300,000) | (65.0)
+Gross profit | 14,700,000 | 35.0
+Selling, general and administrative | (7,237,000) | (17.2)
+Credit loss expense | (63,000) | (0.1)
+Research and development | (500,000) | (1.2)
+Impairment losses | (2,724,000) | (6.5)
+Total operating expenses | (10,524,000) | (25.1)
+Operating income | 4,176,000 | 9.9
+Interest expense | (390,000) | (0.9)
+Equity-method income | 177,000 | 0.4
+Total other income and (expense) | (217,200) | (0.5)
+Income before income taxes | 3,958,800 | 9.4
+Income tax expense | (989,700) | (2.4)
+Net income | 2,969,100 | 7.1
+@end
+Read it as a sentence. Of every dollar Orontes sold, 65 cents went to the cost of the goods themselves and 35 cents remained as gross profit. Of that 35 cents, 17 went to selling and administration and 6.5 cents went to the impairment. Nine point nine cents survived as operating income, and after interest and tax, seven cents became net income.
+The impairment line is why this statement has to be read carefully. A reader comparing Orontes with another food manufacturer would see operating income of 9.9 per cent and might conclude that Orontes is the weaker business. But 6.5 of the 25.1 points of operating expense is a write-down of goodwill and a brand, which will not happen again next year. Without it, operating income would have been 6,900,000 ÷ 42,000,000 = 16.4 per cent. Which of the two figures to use is a real question, not a trick, and Chapter 17 is about how to decide it.
+EXAM TRAP   Percentages of a negative number
+Costs are shown in parentheses on the statement and their percentages are shown in parentheses too. Do not change the sign halfway down a column.
+Gross profit percentage is gross profit over net sales, not cost of goods sold over net sales. Those two add to 100.
+If a question gives you a common-size income statement and asks for a dollar amount, you need net sales. Without the base you cannot go back.
+WORKED EXAMPLE   Worked example: going back from percentages to dollars
+Step 1. A competitor's common-size income statement shows gross profit of 28.0 per cent and net sales of $55,000,000. Gross profit in dollars is 55,000,000 × 0.28 = 15,400,000.
+Step 2. Its cost of goods sold is therefore 100.0 − 28.0 = 72.0 per cent of sales, or 55,000,000 × 0.72 = 39,600,000.
+Step 3. Compare with Orontes, whose gross profit is 35.0 per cent. On $42,000,000 of sales that is 42,000,000 × 0.35 = 14,700,000.
+Check. The competitor sells more and earns less gross profit in dollars: $15,400,000 against $14,700,000 on sales a third larger. The common-size column made the comparison possible; the dollars make it concrete.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+cost of goods sold | تكلفة البضاعة المباعة | coût des marchandises vendues
+gross profit | مجمل الربح | marge brute
+operating income | الدخل التشغيلي | résultat d'exploitation
+impairment losses | خسائر انخفاض القيمة | pertes de valeur
+cost structure | هيكل التكاليف | structure des coûts
+@end
+SECTION CHECK   Test yourself
+SC2-7  Use Figure F502-04. Of every sales dollar, how much remains as gross profit?
+A.	9.9 cents
+B.	35.0 cents
+C.	65.0 cents
+D.	7.1 cents
+SC2-8  A company reports cost of goods sold at 72 per cent of net sales. Its gross profit margin is:
+A.	72 per cent.
+B.	28 per cent.
+C.	cannot be determined without operating expenses.
+D.	100 per cent.
+SC2-9  Orontes's operating income is 9.9 per cent of sales, of which 6.5 points of expense is an impairment. An analyst comparing Orontes with its industry should:
+A.	use 9.9 per cent, because it is what the statement says.
+B.	use 16.4 per cent, because the impairment will not recur.
+C.	consider both, and say which is being used and why.
+D.	exclude Orontes from the comparison.
+Answers and explanations are at the end of the chapter.
+2.4  Reading the two statements together
+Each statement answers a different question, and the two together answer a third.
+The balance sheet column says what the company is made of. The income statement column says what happens to a sale. Put them side by side and you can see whether the shape of the assets matches the shape of the costs.
+Orontes keeps 46.7 per cent of its assets in plant. A company with that much plant has substantial fixed costs, and you would expect the cost of goods sold to contain depreciation and factory overhead that do not fall when sales fall. Part 1 recorded depreciation of $2,100,000 for the year, which is 5.0 per cent of net sales. That is the link: half a dollar of every ten in sales is a charge the company owes to assets it bought years ago, whatever this year's sales turn out to be.
+Figure F502-05 states the pairing that an analyst looks for.
+Figure F502-05. What a pair of common-size columns suggests
+@table
+On the balance sheet | On the income statement | What the pair suggests
+A large share in plant | A large share in cost of goods sold that does not move with sales | Fixed costs: profit swings hard with volume
+A large share in receivables | A credit loss expense that is rising | Selling to customers who pay slowly or not at all
+A large share in inventory | A falling gross profit margin | Goods that are not selling, discounted to move
+A large share in cash | Interest and dividend income that is small | Cash earning almost nothing
+A large share in equity | A small interest expense | Financed by owners, so little fixed charge
+@end
+The fifth row describes Orontes. Equity is 64.4 per cent of the balance sheet and interest expense is 0.9 per cent of sales: $390,000 against operating income of $4,176,000. The company is carrying very little fixed financial cost. Chapter 10 measures exactly how much room that leaves.
+LANGUAGE FOCUS   "Margin" in English
+English uses margin for several different things: gross profit margin, contribution margin, margin of safety, and the margin a broker lends against. Arabic هامش and French marge are just as broad. In Section A, margin always means a percentage of sales unless the words say otherwise.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+fixed cost | التكلفة الثابتة | coût fixe
+depreciation | الإهلاك | amortissement
+interest expense | مصروف الفوائد | charges d'intérêts
+margin | الهامش | marge
+@end
+SECTION CHECK   Test yourself
+SC2-10  A company holds 60 per cent of its assets in plant. Which pattern on the income statement would you expect?
+A.	Cost of goods sold that falls proportionately when sales fall
+B.	A large share of cost that does not fall when sales fall
+C.	A large credit loss expense
+D.	A large interest expense
+SC2-11  Orontes's equity is 64.4 per cent of total assets and its interest expense is 0.9 per cent of sales. Together these show that Orontes:
+A.	is carrying little fixed financial cost.
+B.	is highly leveraged.
+C.	has no long-term debt.
+D.	cannot borrow further.
+Answers and explanations are at the end of the chapter.
+2.5  Comparing with a company you do not own
+The reason to make a common-size statement is to compare. Orontes against itself last year is the easy comparison. Orontes against Barada Wholesale is the instructive one, because Barada is a distributor and Orontes is a manufacturer, and the shapes of the two businesses are different in ways the percentages expose at once.
+Figure F502-06 sets selected lines side by side.
+Figure F502-06. Orontes and Barada, selected common-size lines, 2025
+@table
+Line | Orontes (manufacturer) | Barada (distributor)
+Inventory, per cent of total assets | 7.7 | 34.0
+Property, plant and equipment, per cent of total assets | 46.7 | 9.0
+Accounts receivable, per cent of total assets | 13.1 | 28.0
+Cost of goods sold, per cent of net sales | 65.0 | 84.0
+Gross profit, per cent of net sales | 35.0 | 16.0
+@end
+Nothing in that table says one company is better run than the other. It says they are different businesses. A distributor buys finished goods and resells them, so its cost of goods sold is most of its sales and its gross margin is thin; it carries little plant and a great deal of stock and receivables. A manufacturer converts raw material, so it earns a wider margin and ties its money up in machinery.
+This is the discipline the common-size statement teaches. The percentages are a description, and the judgment comes afterwards, from knowing what the business does. Comparing Barada's 16 per cent gross margin with Orontes's 35 per cent and concluding that Barada is failing would be a serious error, and it is one the exam tests.
+EXAM TRAP   Comparable means comparable
+Compare a company with companies in the same business, or with itself.
+Where the businesses differ, say what the difference is before drawing a conclusion from the percentages.
+A difference in accounting policy — LIFO against FIFO, leased plant against owned plant — changes the percentages without changing the business.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+manufacturer | الشركة الصناعية | entreprise industrielle
+distributor | الموزع | distributeur
+peer group | مجموعة النظراء | groupe de comparables
+comparability | قابلية المقارنة | comparabilité
+@end
+SECTION CHECK   Test yourself
+SC2-12  Barada's gross profit margin is 16 per cent and Orontes's is 35 per cent. The BEST conclusion is that:
+A.	Barada is managed less well.
+B.	the two are in different businesses and the margins are not directly comparable.
+C.	Barada should raise its prices.
+D.	Orontes has understated its cost of goods sold.
+SC2-13  Barada carries 34 per cent of its assets in inventory and Orontes carries 7.7 per cent. The main reason is that:
+A.	Barada is larger.
+B.	Barada buys finished goods for resale and a distributor's money sits in stock.
+C.	Orontes has written its inventory down.
+D.	Orontes uses LIFO.
+SC2-14  Which difference between two companies changes their common-size statements without changing their businesses?
+A.	One leases its plant and the other owns it
+B.	One sells more units
+C.	One operates in a larger market
+D.	One has more employees
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F502-07 brings the chapter together.
+Figure F502-07. Chapter 2 summary map: the key rule for each section.
+A common-size statement expresses every line as a percentage of one base: total assets for the balance sheet, net sales for the income statement. The base is fixed by convention and each year is divided by its own total. Orontes's column shows a company whose current assets rose from 31.7 to 44.8 per cent of the balance sheet, almost entirely because cash went from 7.9 to 23.1 per cent, while its capital structure barely moved and remains about two-thirds equity. Its income statement shows 65 cents of every sales dollar going to cost of goods sold and 7.1 cents surviving as net income, with 6.5 points of the operating expense being an impairment that will not recur. Reading the two columns together links the shape of the assets to the shape of the costs. The percentages are a description, not a verdict: a distributor and a manufacturer differ for reasons that have nothing to do with how well either is run.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P2-01  A common-size balance sheet expresses each line as a percentage of:
+A.	net sales.
+B.	total assets.
+C.	total equity.
+D.	the prior-year amount.
+P2-02  Use Figure F502-02. Cash as a percentage of total assets at December 31, 2025 is closest to:
+A.	7.9 per cent
+B.	13.5 per cent
+C.	23.1 per cent
+D.	44.8 per cent
+P2-03  Use Figure F502-04. Orontes's gross profit margin for 2025 is:
+A.	65.0 per cent
+B.	35.0 per cent
+C.	25.1 per cent
+D.	9.9 per cent
+P2-04  A company's current liabilities rise in dollars but stay at the same percentage of total assets. This means:
+A.	total assets rose by about the same proportion.
+B.	the company repaid debt.
+C.	the percentages are wrong.
+D.	current assets fell.
+P2-05  A competitor reports net sales of $55,000,000 and a gross profit margin of 28 per cent. Its cost of goods sold is:
+A.	15,400,000
+B.	39,600,000
+C.	27,500,000
+D.	cannot be determined
+P2-06  Which of the following would NOT change a company's common-size income statement?
+A.	A change from FIFO to LIFO
+B.	An impairment of goodwill
+C.	Selling the same mix of goods at the same margins to twice as many customers
+D.	A rise in the selling and administrative expense ratio
+P2-07  Orontes's property, plant and equipment fell from 60.5 to 46.7 per cent of total assets while the dollar amount fell by $1,198,000. The main cause of the percentage change is:
+A.	the sale of a factory.
+B.	growth in total assets, chiefly cash.
+C.	an impairment of plant.
+D.	a change in depreciation method.
+P2-08  On a common-size income statement, an analyst sees cost of goods sold rise from 62 to 65 per cent of sales. Which other movement would be consistent with goods that are not selling?
+A.	Inventory falling as a percentage of total assets
+B.	Inventory rising as a percentage of total assets
+C.	Receivables falling as a percentage of total assets
+D.	Cash rising as a percentage of total assets
+P2-09  Use Figure F502-06. Which statement about Barada and Orontes is supported by the figures?
+A.	Barada is less profitable because its managers are weaker.
+B.	Barada ties up more of its assets in inventory and receivables than Orontes does.
+C.	Orontes has more customers.
+D.	Barada has more plant.
+P2-10  Excluding the impairment, Orontes's operating income would be $6,900,000. As a percentage of net sales that is:
+A.	9.9 per cent
+B.	16.4 per cent
+C.	25.1 per cent
+D.	35.0 per cent
+Case-style practice: a buyer looks at Orontes
+A Gulf food group is considering an offer for Orontes. Its analyst has Figure F502-02 and Figure F502-04 and nothing else. She writes three sentences in her file: "Nearly a quarter of the company is cash. The business is two-thirds financed by its owners. Operating margin is under ten per cent, which is low for this industry."
+Required. For each of the three sentences, say whether the common-size statements support it as written, and if not, what the analyst would have to add or check. Then name the one line in Figure F502-04 that most affects her third sentence, and say by how much it affects it. Write in continuous prose, under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC2-1  Answer B. The balance sheet is common-sized on total assets.
+A is wrong. Total equity is one of the lines expressed, not the base.
+C is wrong. Total current assets is a subtotal, not the base.
+D is wrong. Net sales is the base for the income statement.
+SC2-2  Answer C. Every line of a common-size income statement, including interest expense, is a percentage of net sales.
+A is wrong. Operating income is itself expressed against net sales.
+B is wrong. Income before income taxes is also expressed against net sales.
+D is wrong. Total assets is the balance sheet base.
+SC2-3  Answer B. Assets equal liabilities plus equity, and both sides are divided by the same total assets, so both sides come to 100 per cent.
+A is wrong. Rounding affects the last decimal, not the equality.
+C is wrong. Equity is included; it is part of the second side.
+D is wrong. There is no weighting; each line is divided by one base.
+SC2-4  Answer B. Cash moved from 7.9 to 23.1 per cent, a change of 15.2 points, larger than any other line.
+A is wrong. Inventory moved from 8.7 to 7.7, one point.
+C is wrong. Receivables moved from 14.2 to 13.1, about one point.
+D is wrong. Goodwill moved from 3.6 to 0.9, under three points.
+SC2-5  Answer B. The percentage holds only when the numerator and the base grow at about the same rate.
+A is wrong. The dollar amount rose by $710,000.
+C is wrong. The base rose; each year uses its own total.
+D is wrong. The percentages are correct to one decimal in both years.
+SC2-6  Answer C. On its own a falling percentage shows only that the line is a smaller share of a larger total.
+A is wrong. Nothing in the percentage says an asset was sold.
+B is wrong. Depreciation exceeding capital spending is one possible cause, but the percentage alone does not show it.
+D is wrong. Impairment is one possible cause and the percentage alone does not show it.
+SC2-7  Answer B. Gross profit is 35.0 per cent of net sales, so 35 cents of each dollar.
+A is wrong. 9.9 cents is operating income.
+C is wrong. 65.0 cents is the cost of the goods, not what remains.
+D is wrong. 7.1 cents is net income.
+SC2-8  Answer B. Gross profit margin is 100 − 72 = 28 per cent.
+A is wrong. 72 per cent is the cost, not the margin.
+C is wrong. Operating expenses come after gross profit and do not affect it.
+D is wrong. 100 per cent is net sales itself.
+SC2-9  Answer C. Both figures are defensible; what is not defensible is using one without saying so.
+A is wrong. Using the reported figure without noting the impairment misleads the comparison.
+B is wrong. Excluding a charge without disclosing the exclusion is the same error in the other direction.
+D is wrong. The company is comparable once the charge is identified.
+SC2-10  Answer B. Plant generates depreciation and factory overhead, which stay when volume falls.
+A is wrong. That describes a business whose costs are variable.
+C is wrong. Credit loss expense relates to receivables, not plant.
+D is wrong. Interest expense relates to borrowing, not plant.
+SC2-11  Answer A. Equity carries no contractual charge, and interest is under one per cent of sales.
+B is wrong. Leverage is low, not high, at 35.6 per cent liabilities.
+C is wrong. Orontes has $6,000,000 of long-term debt.
+D is wrong. Low leverage suggests the opposite.
+SC2-12  Answer B. A distributor's margin is thin by the nature of the business.
+A is wrong. The margins do not measure management quality across different businesses.
+C is wrong. A distributor cannot raise prices above what the market allows for resold goods.
+D is wrong. Nothing suggests misstatement.
+SC2-13  Answer B. A distributor's assets are mostly the goods it holds for resale and the amounts its customers owe.
+A is wrong. Size does not change proportions.
+C is wrong. A write-down would be disclosed and is not implied.
+D is wrong. Cost flow assumptions change the amount somewhat, not the structure of the business.
+SC2-14  Answer A. Leasing keeps plant off the asset base and changes the percentages while the operations are identical.
+B is wrong. Selling more units changes the business.
+C is wrong. Market size is not a reporting difference.
+D is wrong. Headcount is not a reporting difference.
+Your turn
+@table
+Item | Answer
+Inventory | 7.7 per cent: 2,450,000 ÷ 31,672,600.
+Equity-method investments | 5.7 per cent: 1,807,000 ÷ 31,672,600.
+Long-term debt, less current portion | 18.9 per cent: 6,000,000 ÷ 31,672,600.
+Retained earnings | 21.8 per cent: 6,894,100 ÷ 31,672,600.
+@end
+Multiple-choice questions
+P2-01  Answer B. Total assets is the base for the balance sheet.
+A is wrong. Net sales is the income statement base.
+C is wrong. Total equity is one of the lines expressed.
+D is wrong. Comparison with the prior year is horizontal analysis.
+P2-02  Answer C. 7,302,100 ÷ 31,672,600 = 23.1 per cent.
+A is wrong. 7.9 per cent is the 2024 figure.
+B is wrong. 13.5 per cent is total current liabilities.
+D is wrong. 44.8 per cent is total current assets.
+P2-03  Answer B. Gross profit of 14,700,000 ÷ 42,000,000 = 35.0 per cent.
+A is wrong. 65.0 per cent is cost of goods sold.
+C is wrong. 25.1 per cent is total operating expenses.
+D is wrong. 9.9 per cent is operating income.
+P2-04  Answer A. A constant percentage with a rising numerator means the base rose proportionately.
+B is wrong. Repayment would reduce the dollar amount.
+C is wrong. The arithmetic is consistent.
+D is wrong. Current assets are not the base.
+P2-05  Answer B. Cost of goods sold is 72 per cent of sales: 55,000,000 × 0.72 = 39,600,000.
+A is wrong. This is gross profit, 28 per cent.
+C is wrong. This is half of sales, which no figure supports.
+D is wrong. Net sales and the margin are enough.
+P2-06  Answer C. Doubling volume at the same mix and margins leaves every percentage unchanged.
+A is wrong. A change of cost flow assumption changes cost of goods sold and therefore the percentages.
+B is wrong. An impairment adds an expense line and changes the percentages.
+D is wrong. A change in the expense ratio is a change in the percentages.
+P2-07  Answer B. Total assets grew by more than $5,000,000, chiefly cash, so an almost unchanged PP&E is a smaller share.
+A is wrong. A factory sale would reduce PP&E by far more than $1,198,000.
+C is wrong. The impairments in Part 1 were of goodwill and a brand.
+D is wrong. A method change would be disclosed and would not produce a shift of this size in one year.
+P2-08  Answer B. Goods that are not selling accumulate, so inventory rises as a share of assets while the margin falls.
+A is wrong. Falling inventory suggests goods are moving.
+C is wrong. Receivables relate to collection, not to unsold stock.
+D is wrong. Rising cash is unrelated to unsold stock.
+P2-09  Answer B. Barada holds 34 per cent in inventory and 28 per cent in receivables, against 7.7 and 13.1 for Orontes.
+A is wrong. The figures describe different businesses, not different managers.
+C is wrong. Nothing in the table concerns customer numbers.
+D is wrong. Barada holds 9 per cent in plant against Orontes's 46.7.
+P2-10  Answer B. 6,900,000 ÷ 42,000,000 = 16.4 per cent.
+A is wrong. 9.9 per cent is the reported figure, after the impairment.
+C is wrong. 25.1 per cent is total operating expenses.
+D is wrong. 35.0 per cent is gross profit.
+Case-style set: a buyer looks at Orontes
+A good answer takes the three sentences in turn.
+The first sentence is supported exactly. Cash is 23.1 per cent of total assets, which is nearly a quarter, and the figure needs no qualification. What the analyst should add is the question it raises: a manufacturer holding that much cash is either saving for something or failing to invest, and the statement of cash flows and the notes would say which.
+The second sentence is supported. Total stockholders' equity is 64.4 per cent of total assets, so the company is financed roughly two-thirds by its owners and one-third by its creditors.
+The third sentence is supported as arithmetic and misleading as analysis. Operating income is 9.9 per cent of net sales. But the impairment losses of $2,724,000, or 6.5 points of sales, are a write-down of goodwill and a brand rather than a cost of this year's trading. Excluding them, operating income would be $6,900,000, or 16.4 per cent of sales. The analyst's conclusion about the industry turns almost entirely on that one line, and the difference it makes is 6.5 percentage points.

@@ -60,7 +60,6 @@ def arithmetic(text, say):
         # "2,450,000 ÷ 31,672,600 = 7.74 per cent" states the quotient as a
         # percentage, which is how every common-size figure in this book is
         # written.
-        pct = text[m.end():m.end() + 12].lstrip().startswith(('per cent', '%'))
         try:
             x, y, z = val(a), val(b), val(c)
         except ValueError:
@@ -75,9 +74,20 @@ def arithmetic(text, say):
             if y == 0:
                 continue
             r = x / y
-        if pct:
+        # A quotient may be stated as a percentage -- every common-size
+        # figure in this book is. A difference may not: "100.0 − 28.0 =
+        # 72.0 per cent" is already in percentage points, and scaling it
+        # multiplied the right answer by a hundred.
+        if op in u'\u00f7/' and text[m.end():m.end() + 12].lstrip().startswith(
+                ('per cent', '%')):
             r = r * 100
-        if abs(r - z) > max(0.02, abs(z) * 0.005):
+        # Half a unit of the last place the result is written to, so a
+        # figure rounded to one decimal is not reported as wrong for
+        # being rounded. 7,941 against a stated 7.9 is the book's own
+        # rounding; 7.4 against a stated 7.9 is an error.
+        dp = len(c.split('.')[1]) if '.' in c else 0
+        tol = max(0.5 * 10 ** -dp, abs(z) * 0.002)
+        if abs(r - z) > tol:
             say('arithmetic: %s %s %s = %s, but it is %s'
                 % (a, op, b, c, ('%.4f' % r).rstrip('0').rstrip('.')))
 
@@ -197,8 +207,15 @@ def check(bk, n, say):
             for r in (a + b, a - b, (a + b) / 2.0):
                 if r > 0:
                     derived.add('%d' % round(r))
+    # Only an amount written to the dollar. A round million is a
+    # hypothetical -- a competitor's sales, a company a hundred times the
+    # size -- and those are invented on purpose. What must not be
+    # invented is a figure that claims to be one of Orontes' own, and
+    # those are never round: 7,302,100, 31,672,600, 2,969,100.
     for m in re.finditer(r'\$([\d,]{9,})\b', txt):
         v = m.group(1).replace(',', '')
+        if v.endswith('000'):
+            continue
         if v not in derived:
             say('$%s is quoted as an Orontes amount and is not one, nor the '
                 'sum, difference or average of two' % m.group(1))
