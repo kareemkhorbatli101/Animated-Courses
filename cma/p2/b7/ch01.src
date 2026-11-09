@@ -1,0 +1,422 @@
+Chapter 1
+Cost behaviour, contribution margin and the breakeven point
+سلوك التكاليف وهامش المساهمة ونقطة التعادل
+Orontes sold $42,000,000 of food in 2025 and earned $4,176,000 of operating income. Those two figures, and the relationship between them, are what this book is about. Book 1 read them as history. This book asks what happens if the company sells a tenth more, or charges fifty cents less, or stops making one of its products — and none of those questions can be answered from an income statement, because an income statement sorts costs by what they were spent on rather than by how they behave.
+Sorting costs by behaviour is the first act of decision analysis, and everything in Section C follows from it. A cost that rises with volume and a cost that does not are different kinds of thing, and treating them alike is the single most expensive error in management accounting.
+Figure F701-01 is your map.
+Figure F701-01. Chapter 1 roadmap: two kinds of cost, one margin, and the point where profit begins.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+C.1.a | Explain how cost-volume-profit analysis examines the behaviour of total revenues, total costs and operating income. | C | Full treatment
+C.1.c | Distinguish fixed costs from variable costs with respect to output. | C | Full treatment
+C.1.d | Explain why the fixed-variable classification depends on the time frame. | C | Full treatment
+C.1.e | Calculate contribution margin per unit and in total. | C | Full treatment
+C.1.f | Calculate the breakeven point in units and in dollars, and the volume needed for a target income. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+variable cost | التكلفة المتغيرة | coût variable
+fixed cost | التكلفة الثابتة | coût fixe
+mixed cost | التكلفة المختلطة | coût semi-variable
+relevant range | المدى الملائم | plage de pertinence
+contribution margin | هامش المساهمة | marge sur coûts variables
+contribution margin ratio | نسبة هامش المساهمة | taux de marge sur coûts variables
+breakeven point | نقطة التعادل | seuil de rentabilité
+target operating income | الربح التشغيلي المستهدف | résultat d'exploitation cible
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 computed Orontes's degree of operating leverage as 4.02, which it built from a contribution margin of $16,800,000 and an operating income of $4,176,000. Those two figures imply the whole of this chapter: variable costs of $25,200,000 on sales of $42,000,000, and fixed costs of $12,624,000. This chapter uses them in every section.
+1.1  Two kinds of cost
+A variable cost changes in total in proportion to the level of activity and stays constant per unit. Sesame, packaging, the electricity that runs the roaster, the piece rate paid to a packer: make twice as many jars and the total doubles, while each jar still carries the same amount.
+A fixed cost stays constant in total over a range of activity and therefore falls per unit as volume rises. The factory lease, the depreciation on the roasting line, the plant manager's salary, the audit fee. Making twice as many jars does not make the lease larger, and it halves the lease carried by each jar.
+Those two sentences contain the trap that costs most marks in Section C. In total, a variable cost moves and a fixed cost does not. Per unit, a variable cost does not move and a fixed cost does. Everything else in the chapter follows from keeping the two columns straight.
+A mixed or semi-variable cost has both elements: a telephone contract with a standing charge and a per-call rate, a maintenance agreement with a retainer and an hourly rate, a factory's power bill with a capacity charge and a consumption charge. For decision purposes a mixed cost is split into its two parts, and Part 1 taught the methods — the high-low method and regression.
+A step cost is fixed over a range and then jumps: one supervisor for every twenty packers, one delivery van for every so many routes. Over a wide enough range every fixed cost is a step cost, which is why the next section matters.
+Figure F701-02 sets the behaviour out.
+Figure F701-02. How each kind of cost behaves
+@table
+Cost | In total, as volume rises | Per unit, as volume rises | Orontes examples
+Variable | Rises proportionately | Constant | Sesame, jars, labels, piece rates
+Fixed | Constant | Falls | Factory lease, depreciation, salaries
+Mixed | Rises, from a base | Falls towards the variable rate | Power, maintenance, telephone
+Step | Constant, then jumps | Falls, then jumps | Supervisors, vans, shift premiums
+@end
+EXAM TRAP   In total or per unit
+"Fixed costs per unit fall as volume rises" is true and is not a contradiction of "fixed costs do not change". Read which column a question is asking about.
+A cost is not fixed because it is unavoidable, and not variable because it is large. The test is whether it moves with output.
+Direct and indirect is a different classification entirely. A factory supervisor's salary is indirect and fixed; sesame is direct and variable; a royalty of fifty cents a jar is direct and variable; factory rent is indirect and fixed. The two classifications cut across each other.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+cost behaviour | سلوك التكلفة | comportement des coûts
+step cost | التكلفة المتدرجة | coût par paliers
+high-low method | طريقة الحد الأعلى والأدنى | méthode des points extrêmes
+cost driver | مسبب التكلفة | inducteur de coût
+@end
+SECTION CHECK   Test yourself
+SC1-1  A variable cost, as volume rises:
+A.	rises in total and stays constant per unit.
+B.	stays constant in total and falls per unit.
+C.	falls in total.
+D.	rises per unit.
+SC1-2  A fixed cost, as volume rises:
+A.	stays constant in total and falls per unit.
+B.	rises in total.
+C.	stays constant per unit.
+D.	falls in total.
+SC1-3  A supervisor hired for every twenty packers is:
+A.	a step cost.
+B.	a purely variable cost.
+C.	a mixed cost with a usage rate.
+D.	not a cost of production.
+Answers and explanations are at the end of the chapter.
+1.2  Why the classification depends on the time frame
+No cost is fixed for ever and almost none is fixed instantly. The classification describes a period and a range, and the exam tests whether a candidate knows it.
+Over a very short period almost everything is fixed. Tomorrow's output cannot change the lease, the salaries, the insurance, or the sesame already bought and in the silo. The only genuinely variable costs of tomorrow are the ones not yet committed.
+Over a long enough period almost everything is variable. Given three years, Orontes can leave the factory, sell the roasting line, change the size of its workforce and renegotiate every contract. There are no fixed costs in a long enough run, which is why the distinction is never absolute.
+In between lies the period the decision concerns, and that is the period the classification must describe. A question about accepting an order next month treats the plant as fixed; a question about opening a second plant does not.
+The relevant range carries the same idea for volume rather than time. Fixed costs are fixed and variable costs are proportionate only within the range of activity the company is actually operating in. Below it, a company closes departments; above it, it hires supervisors, adds a shift, leases a second warehouse, and pays overtime rates that are not the normal variable rate. A cost-volume-profit analysis is valid inside the relevant range and nowhere else, and saying so is worth a mark.
+Figure F701-03 shows the same cost at three horizons.
+Figure F701-03. One cost, three time frames
+@table
+Cost | Next week | Next year | Over three years
+Factory lease | Fixed | Fixed | Variable; the lease can be ended
+Supervisors' salaries | Fixed | Step; a shift can be added or cut | Variable
+Sesame | Variable | Variable | Variable
+Depreciation on the roaster | Fixed | Fixed | Variable; the asset can be sold
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+time frame | الإطار الزمني | horizon temporel
+committed cost | التكلفة الملتزم بها | coût engagé
+discretionary cost | التكلفة الاختيارية | coût discrétionnaire
+capacity | الطاقة الإنتاجية | capacité
+@end
+SECTION CHECK   Test yourself
+SC1-4  Over a long enough period:
+A.	almost every cost becomes variable.
+B.	almost every cost becomes fixed.
+C.	costs stop behaving.
+D.	the relevant range widens to infinity.
+SC1-5  The relevant range is:
+A.	the range of activity over which the cost behaviour assumptions hold.
+B.	the range of prices a company may charge.
+C.	the period of the decision.
+D.	the margin of safety.
+SC1-6  A decision about next month's output treats the factory lease as:
+A.	fixed, because it cannot be changed in the time frame.
+B.	variable, because output changes.
+C.	irrelevant, because it is indirect.
+D.	a step cost.
+Answers and explanations are at the end of the chapter.
+1.3  Contribution margin
+Contribution margin is what is left of a selling price after the variable costs of making and selling that unit. It is called contribution because it is what each unit contributes, first to covering the fixed costs and then, once those are covered, to operating income.
+Orontes's main line is a one-kilogram jar of tahini selling at $12.00, with variable costs of $7.20 a jar. The contribution margin is 12.00 − 7.20 = 4.80 a jar, and the contribution margin ratio is 4.80 ÷ 12.00 = 40.0 per cent.
+Those figures reconcile to the company as a whole. Orontes sold 42,000,000 ÷ 12.00 = 3,500,000 jars, which at $4.80 each gives 3,500,000 × 4.80 = 16,800,000 of total contribution margin — the figure Book 1 used to compute a degree of operating leverage of 4.02. Deducting fixed costs of $12,624,000 leaves 16,800,000 − 12,624,000 = 4,176,000, which is the operating income on the face of the income statement.
+That reconciliation is worth pausing on. The contribution income statement and the ordinary one report the same operating income and sort the costs differently, and only one of them can answer a question about volume.
+Figure F701-04 sets the two side by side.
+Figure F701-04. Two income statements, one result
+@table
+By function, as reported | | By behaviour, for decisions |
+Net sales | 42,000,000 | Net sales | 42,000,000
+Cost of goods sold | (27,300,000) | Variable costs | (25,200,000)
+Gross profit | 14,700,000 | Contribution margin | 16,800,000
+Operating expenses | (10,524,000) | Fixed costs | (12,624,000)
+Operating income | 4,176,000 | Operating income | 4,176,000
+@end
+Note what moved. Cost of goods sold of $27,300,000 is not the variable cost: it contains the fixed factory costs absorbed into the product, and it excludes the variable part of selling and distribution. Gross profit and contribution margin are different measures and a candidate who uses one for the other will get every breakeven question wrong.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+unit contribution margin | هامش المساهمة للوحدة | marge unitaire sur coûts variables
+contribution income statement | قائمة الدخل بهامش المساهمة | compte de résultat différentiel
+variable costing | التكلفة المتغيرة | coûts variables
+absorption | التحميل | imputation
+@end
+SECTION CHECK   Test yourself
+SC1-7  Contribution margin per unit is:
+A.	selling price less variable cost per unit.
+B.	selling price less total cost per unit.
+C.	gross profit per unit.
+D.	operating income per unit.
+SC1-8  A jar selling at 12.00 with variable costs of 7.20 has a contribution margin ratio of:
+A.	40.0 per cent
+B.	60.0 per cent
+C.	4.80 per cent
+D.	35.0 per cent
+SC1-9  Gross profit differs from contribution margin because:
+A.	cost of goods sold contains fixed factory costs and excludes variable selling costs.
+B.	gross profit is after tax.
+C.	contribution margin is after fixed costs.
+D.	they are the same figure.
+Answers and explanations are at the end of the chapter.
+1.4  The breakeven point
+The breakeven point is the level of activity at which total revenue equals total cost, so operating income is nil. It is where the fixed costs have been exactly covered by contribution and not a cent more.
+In units it is fixed costs divided by the contribution margin per unit. For Orontes: 12,624,000 ÷ 4.80 = 2,630,000 jars.
+In dollars it is fixed costs divided by the contribution margin ratio: 12,624,000 ÷ 0.40 = 31,560,000 of sales. The same answer appears as 2,630,000 × 12.00 = 31,560,000, and the exam accepts either route.
+WORKED EXAMPLE   Worked example: reading Orontes's breakeven
+Step 1. The breakeven. Orontes covers its fixed costs at 2,630,000 jars, or $31,560,000 of sales.
+Step 2. Where it is. Actual sales were 3,500,000 jars, which is 3,500,000 − 2,630,000 = 870,000 jars above the breakeven.
+Step 3. What those jars earn. Every jar above the breakeven contributes its whole margin to operating income: 870,000 × 4.80 = 4,176,000, which is the operating income exactly.
+Step 4. What a change does. A ten per cent fall in volume removes 350,000 jars, which removes 350,000 × 4.80 = 1,680,000 of operating income — forty per cent of it, on a ten per cent fall in sales. That is the degree of operating leverage of 4.02 that Book 1 measured, arrived at from the cost structure rather than from the ratio.
+Check. The last step is the reason this chapter exists. Nothing in Book 1's income statement showed that a ten per cent sales fall costs forty per cent of the profit; the contribution format shows it immediately, and it is the first thing a board should be told about a company whose gross margin is falling a point a year.
+A target income changes one line of the formula. To earn a target operating income, add it to the fixed costs: the volume needed is fixed costs plus target income, divided by the contribution margin per unit. For a target of $6,000,000: 12,624,000 + 6,000,000 = 18,624,000, and 18,624,000 ÷ 4.80 = 3,880,000 jars.
+Figure F701-05 collects the formulas.
+Figure F701-05. The four questions and their answers
+@table
+Question | Formula | Orontes
+Breakeven in units | Fixed costs over unit contribution | 2,630,000 jars
+Breakeven in dollars | Fixed costs over the contribution ratio | 31,560,000
+Units for a target operating income | Fixed plus target, over unit contribution | 3,880,000 jars at a 6,000,000 target
+Operating income at a volume | Units times unit contribution, less fixed | 4,176,000 at 3,500,000 jars
+@end
+EXAM TRAP   Three ways to get a breakeven wrong
+Dividing by the selling price instead of the contribution margin. The price covers the variable cost of its own unit first.
+Using gross profit instead of contribution margin, which includes fixed factory cost in the denominator.
+Forgetting that the target in a target-income question may be stated after tax. Section 2.2 handles that.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+breakeven in units | التعادل بالوحدات | seuil en volume
+breakeven in dollars | التعادل بالقيمة | seuil en valeur
+target income | الربح المستهدف | résultat cible
+operating leverage | الرفع التشغيلي | levier d'exploitation
+@end
+SECTION CHECK   Test yourself
+SC1-10  Breakeven in units is:
+A.	fixed costs divided by the contribution margin per unit.
+B.	fixed costs divided by the selling price.
+C.	total costs divided by the contribution margin.
+D.	sales divided by fixed costs.
+SC1-11  Orontes's fixed costs are 12,624,000 and its unit contribution is 4.80. Its breakeven is:
+A.	2,630,000 jars
+B.	3,500,000 jars
+C.	1,052,000 jars
+D.	31,560,000 jars
+SC1-12  To earn a target operating income, the volume required is:
+A.	fixed costs plus the target, divided by the unit contribution.
+B.	fixed costs divided by the target.
+C.	the target divided by the contribution ratio.
+D.	the breakeven volume.
+Answers and explanations are at the end of the chapter.
+1.5  What the model assumes
+Cost-volume-profit analysis is a model, and a candidate who can state its assumptions can also state when it should not be relied on. Six assumptions, each of which fails somewhere.
+Costs can be split cleanly into fixed and variable. Mixed costs must be separated, and the separation is an estimate.
+Behaviour is linear within the relevant range. Revenue rises in a straight line, which assumes the selling price does not change with volume — and Chapter 11 shows that it usually does.
+The sales mix is constant. With several products, a change in which ones sell changes the average contribution, which is the whole of Chapter 3.
+Volume is the only cost driver. Batch sizes, order sizes, product complexity and customer behaviour all drive costs too, which is the argument for activity-based costing.
+Inventory does not change. Production equals sales, so no fixed cost is carried forward in stock. Where inventory moves, absorption costing and variable costing report different incomes, as Part 1 showed.
+Everything else is held constant: prices, costs, efficiency, technology.
+None of this makes the model useless. It makes it a first approximation that is right about direction and approximate about magnitude, and the professional habit is to state the assumption that matters most to the decision in hand. For Orontes, that assumption is the constant selling price, because the company's gross margin has fallen three years running — which means its revenue line is not as straight as the model draws it.
+YOUR TURN   Build the picture for Barada
+Figure F701-06 gives Barada Wholesale's figures. Complete the blanks. Answers are at the end of the chapter.
+Figure F701-06. Your turn: Barada's cost structure (complete the blanks)
+@table
+Item | Data | Answer
+Contribution margin | Sales 21,978,000, variable costs 19,340,640 | ________
+Contribution margin ratio | | ________
+Fixed costs | Operating income 558,000 | ________
+Breakeven in dollars | | ________
+Sales needed for a 1,000,000 operating income | | ________
+What it tells you | | ________
+@end
+LANGUAGE FOCUS   "Margin"
+English margin appeared in Book 1 as a percentage of sales. Here it appears as an amount per unit, and the two senses sit a paragraph apart: a contribution margin of $4.80 is money, a contribution margin ratio of 40 per cent is a rate. The exam uses both and distinguishes them only by the word ratio. Arabic هامش المساهمة carries the same ambiguity and relies on نسبة for the rate. French is the clearest of the three: marge sur coûts variables for the amount, taux de marge for the rate, and the word taux makes the distinction impossible to miss. The practical rule for an answer is to write the unit and let no figure stand without one.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+assumption | الافتراض | hypothèse
+linearity | الخطية | linéarité
+sales mix | مزيج المبيعات | mix des ventes
+activity-based costing | التكلفة على أساس الأنشطة | comptabilité par activités
+@end
+SECTION CHECK   Test yourself
+SC1-13  Which is NOT an assumption of cost-volume-profit analysis?
+A.	The selling price changes with volume
+B.	Costs are linear within the relevant range
+C.	The sales mix is constant
+D.	Volume is the only cost driver
+SC1-14  The assumption that matters most for a company whose gross margin has fallen three years running is:
+A.	the constant selling price.
+B.	constant inventory.
+C.	linearity of fixed costs.
+D.	the tax rate.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F701-07 brings the chapter together.
+Figure F701-07. Chapter 1 summary map: the key rule for each section.
+Costs are sorted by behaviour rather than by function: a variable cost is constant per unit and rises in total, a fixed cost is constant in total and falls per unit, and mixed and step costs are combinations of the two. The classification holds only for a stated time frame and a stated relevant range — almost everything is fixed next week and almost everything is variable over three years. Contribution margin is price less variable cost, 12.00 − 7.20 = 4.80 a jar for Orontes, a ratio of 4.80 ÷ 12.00 = 40.0 per cent, and 3,500,000 × 4.80 = 16,800,000 in total, which is the figure Book 1 used for an operating leverage of 4.02. Breakeven is fixed costs over that margin: 12,624,000 ÷ 4.80 = 2,630,000 jars, or 12,624,000 ÷ 0.40 = 31,560,000 of sales, and the 870,000 jars above it contribute 870,000 × 4.80 = 4,176,000, which is the whole of the operating income. A target of $6,000,000 needs 18,624,000 ÷ 4.80 = 3,880,000 jars. And the model assumes clean cost splits, linearity, a constant mix, volume as the only driver, no inventory movement and everything else held still — of which the one that matters most for Orontes is the constant selling price.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P1-01  As volume rises, a fixed cost:
+A.	stays constant in total and falls per unit.
+B.	rises in total and stays constant per unit.
+C.	falls in total.
+D.	rises per unit.
+P1-02  Which cost is variable with respect to jars produced?
+A.	Sesame
+B.	The factory lease
+C.	The plant manager's salary
+D.	Depreciation on the roaster
+P1-03  Over a three-year horizon, the factory lease is best treated as:
+A.	variable, because the lease can be ended.
+B.	fixed for ever.
+C.	a step cost only.
+D.	irrelevant.
+P1-04  A jar sells at 12.00 with variable costs of 7.20. The contribution margin is:
+A.	4.80
+B.	7.20
+C.	12.00
+D.	0.40
+P1-05  The contribution margin ratio on those figures is:
+A.	40.0 per cent
+B.	60.0 per cent
+C.	35.0 per cent
+D.	66.7 per cent
+P1-06  Fixed costs of 12,624,000 and a unit contribution of 4.80 give a breakeven of:
+A.	2,630,000 units
+B.	2,630,000 dollars
+C.	60,595,200 units
+D.	1,052,000 units
+P1-07  Breakeven in dollars equals fixed costs divided by:
+A.	the contribution margin ratio.
+B.	the selling price.
+C.	the variable cost ratio.
+D.	the gross margin.
+P1-08  To earn a target operating income of 6,000,000 with fixed costs of 12,624,000 and a unit contribution of 4.80, the company must sell:
+A.	3,880,000 units
+B.	2,630,000 units
+C.	1,250,000 units
+D.	3,500,000 units
+P1-09  Gross profit is not the same as contribution margin because cost of goods sold:
+A.	includes fixed factory costs and excludes variable selling costs.
+B.	is stated after tax.
+C.	excludes materials.
+D.	is an estimate.
+P1-10  Which is an assumption of cost-volume-profit analysis?
+A.	The sales mix is constant
+B.	The selling price falls as volume rises
+C.	Inventory rises each year
+D.	Fixed costs vary with volume
+Case-style practice: the board asks what a bad year looks like
+Orontes's board asks the finance director what a 10 per cent fall in volume would do, and what the company would have to sell to hold its operating income at $4,176,000 if the selling price had to be cut by 50 cents a jar. The jar sells at $12.00 with variable costs of $7.20, fixed costs are $12,624,000, and the company sold 3,500,000 jars.
+Required. Answer both questions with figures, and say which of the two scenarios is the more dangerous and why. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC1-1  Answer A. Total rises proportionately; the unit amount does not move.
+B is wrong. That describes a fixed cost.
+C is wrong. Variable costs rise with volume.
+D is wrong. The per-unit figure is constant.
+SC1-2  Answer A. The total is unchanged and is spread over more units.
+B is wrong. The total does not rise within the relevant range.
+C is wrong. The per-unit figure falls.
+D is wrong. The total is constant, not falling.
+SC1-3  Answer A. The cost is fixed over a range and then jumps.
+B is wrong. It does not rise with each unit.
+C is wrong. There is no per-unit usage rate.
+D is wrong. Supervision is a production cost.
+SC1-4  Answer A. Given enough time, every contract can be changed.
+B is wrong. The direction is the opposite.
+C is wrong. Costs behave; the classification changes.
+D is wrong. The relevant range is about volume, not time.
+SC1-5  Answer A. It is the range over which the assumptions hold.
+B is wrong. Prices are a separate matter.
+C is wrong. The time frame is the separate idea of section 1.2.
+D is wrong. The margin of safety is Chapter 4.
+SC1-6  Answer A. Within a month the lease cannot be changed.
+B is wrong. Lease payments do not move with output.
+C is wrong. Indirect does not mean irrelevant.
+D is wrong. A single lease does not step within the month.
+SC1-7  Answer A. Price less variable cost per unit.
+B is wrong. Total cost includes fixed costs.
+C is wrong. Gross profit deducts absorbed fixed factory costs.
+D is wrong. Operating income is after all fixed costs.
+SC1-8  Answer A. 4.80 ÷ 12.00 = 40.0 per cent.
+B is wrong. That is the variable cost ratio.
+C is wrong. That is the margin in dollars, not a ratio.
+D is wrong. 35.0 per cent is the gross margin.
+SC1-9  Answer A. The two measures contain different costs.
+B is wrong. Neither is after tax.
+C is wrong. Contribution margin is before fixed costs.
+D is wrong. They differ for Orontes by over two million dollars.
+SC1-10  Answer A. Fixed costs over unit contribution.
+B is wrong. The price has not covered its own variable cost.
+C is wrong. Total costs include the variable costs already deducted.
+D is wrong. This inverts the relationship.
+SC1-11  Answer A. 12,624,000 ÷ 4.80 = 2,630,000 jars.
+B is wrong. That is actual volume.
+C is wrong. This divides by 12.00.
+D is wrong. That is the breakeven in dollars.
+SC1-12  Answer A. The target is added to the fixed costs.
+B is wrong. This divides one by the other.
+C is wrong. This omits the fixed costs.
+D is wrong. The breakeven earns nothing.
+SC1-13  Answer A. Constant prices, not changing ones, are assumed.
+B is wrong. Linearity is assumed.
+C is wrong. A constant mix is assumed.
+D is wrong. Volume as the only driver is assumed.
+SC1-14  Answer A. A falling margin means the price line is not straight.
+B is wrong. Inventory is not the issue here.
+C is wrong. Fixed costs are not what has moved.
+D is wrong. Tax affects net income, not the contribution structure.
+Your turn
+@table
+Item | Answer
+Contribution margin | 2,637,360: 21,978,000 − 19,340,640 = 2,637,360.
+Contribution margin ratio | 12.0 per cent: 2,637,360 ÷ 21,978,000 = 12.0 per cent.
+Fixed costs | 2,079,360: 2,637,360 − 558,000 = 2,079,360.
+Breakeven in dollars | 17,328,000: 2,079,360 ÷ 0.12 = 17,328,000.
+Sales for a 1,000,000 operating income | 25,661,333: 2,079,360 + 1,000,000 = 3,079,360, and 3,079,360 ÷ 0.12 = 25,661,333.
+What it tells you | Barada breaks even at about 79 per cent of its current sales, against Orontes's 75 per cent, and its 12 per cent contribution ratio means every extra dollar of sales brings only twelve cents towards fixed costs. To earn a million it would have to grow sales by about 17 per cent in a year — which, as Book 2 showed, it cannot fund.
+@end
+Multiple-choice questions
+P1-01  Answer A. Constant in total, falling per unit.
+B is wrong. That is a variable cost.
+C is wrong. The total does not fall.
+D is wrong. The per-unit figure falls.
+P1-02  Answer A. Sesame rises with every jar.
+B is wrong. The lease does not move with output.
+C is wrong. A salary is fixed within the period.
+D is wrong. Depreciation is fixed.
+P1-03  Answer A. Over three years the lease can be ended.
+B is wrong. Nothing is fixed for ever.
+C is wrong. A single lease is not a step cost over that horizon.
+D is wrong. It is highly relevant to a three-year decision.
+P1-04  Answer A. 12.00 − 7.20 = 4.80.
+B is wrong. That is the variable cost.
+C is wrong. That is the price.
+D is wrong. That is the ratio expressed as a decimal.
+P1-05  Answer A. 4.80 ÷ 12.00 = 40.0 per cent.
+B is wrong. That is the variable cost ratio.
+C is wrong. 35.0 per cent is the gross margin.
+D is wrong. This divides 4.80 by 7.20.
+P1-06  Answer A. 12,624,000 ÷ 4.80 = 2,630,000 units.
+B is wrong. The answer is a quantity, not an amount.
+C is wrong. This multiplies instead of dividing.
+D is wrong. This divides by 12.00.
+P1-07  Answer A. The contribution margin ratio.
+B is wrong. The price has not covered its variable cost.
+C is wrong. The variable cost ratio is the complement.
+D is wrong. The gross margin contains fixed factory costs.
+P1-08  Answer A. 18,624,000 ÷ 4.80 = 3,880,000 units.
+B is wrong. That is the breakeven.
+C is wrong. This omits the fixed costs.
+D is wrong. That is the actual volume, which earns 4,176,000.
+P1-09  Answer A. The two totals contain different costs.
+B is wrong. Gross profit is before tax.
+C is wrong. Materials are in cost of goods sold.
+D is wrong. Both are computed from records.
+P1-10  Answer A. A constant sales mix is assumed.
+B is wrong. A constant price is assumed.
+C is wrong. Constant inventory is assumed.
+D is wrong. Fixed costs are assumed not to vary with volume.
+Case-style set: the board asks what a bad year looks like
+A 10 per cent fall in volume. Ten per cent of 3,500,000 jars is 350,000 jars, each carrying a contribution of $4.80, so operating income falls by 350,000 × 4.80 = 1,680,000 — from $4,176,000 to $2,496,000, a fall of about 40 per cent. The arithmetic is the operating leverage of 4.02 that Book 1 measured: a ten per cent fall in sales takes four times that proportion off the profit, because the fixed costs of $12,624,000 do not move.
+A 50-cent price cut. The contribution margin becomes 12.00 − 0.50 = 11.50 less variable costs of 7.20, which is 11.50 − 7.20 = 4.30 a jar. To hold operating income at $4,176,000 the company needs 12,624,000 + 4,176,000 = 16,800,000 of contribution, which at $4.30 a jar is 16,800,000 ÷ 4.30 = 3,906,977 jars — about 407,000 more jars, or 11.6 per cent more volume, to stand still.
+Which is more dangerous. The price cut, and by a wide margin. The volume fall is a bad year and recovers when volume recovers; the price cut is permanent in the way Book 1 described, and it demands an 11.6 per cent volume gain every year thereafter merely to hold the same profit. Worse, the two scenarios are not independent: a price cut made to defend volume in a weak market is exactly the combination that produces both at once, and on these figures a 50-cent cut that failed to add volume would take operating income to 3,500,000 × 4.30 = 15,050,000 of contribution, which is 15,050,000 − 12,624,000 = 2,426,000 — slightly worse than losing a tenth of the volume outright.

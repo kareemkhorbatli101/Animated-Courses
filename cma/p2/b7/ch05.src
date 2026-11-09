@@ -1,0 +1,428 @@
+Chapter 5
+What is relevant: sunk, avoidable, explicit, implicit
+ما هو ملائم للقرار: التكاليف الغارقة والتكاليف القابلة للتجنب والصريحة والضمنية
+A decision is a choice between futures. Any cost that is the same under both futures cannot affect the choice, and any cost already incurred cannot be changed by it. Those two sentences eliminate most of the numbers in a management accountant's records from most of the decisions a manager takes, and learning which ones survive is the subject of this chapter.
+The discipline is harder than it sounds, because the costs that must be ignored are often the largest and the most carefully recorded. A machine that cost $1,200,000 and still stands at $700,000 in the books has a claim on the attention that a $40,000 scrap value does not — and in a replacement decision the $700,000 is irrelevant and the $40,000 is not.
+Figure F705-01 is your map.
+Figure F705-01. Chapter 5 roadmap: two tests of relevance, and four pairs of terms.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+C.2.a | Identify and define relevant costs, sunk costs, avoidable costs, and explicit and implicit costs. | C | Full treatment
+C.2.b | Explain why sunk costs are not relevant to a decision. | C | Full treatment
+C.1.e | Use contribution rather than full cost as the measure of what a decision changes. | B | Reinforced (introduced in Chapter 1)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+relevant cost | التكلفة الملائمة | coût pertinent
+incremental cost | التكلفة التفاضلية | coût différentiel
+sunk cost | التكلفة الغارقة | coût irrécupérable
+avoidable cost | التكلفة القابلة للتجنب | coût évitable
+unavoidable cost | التكلفة غير القابلة للتجنب | coût inévitable
+explicit cost | التكلفة الصريحة | coût explicite
+implicit cost | التكلفة الضمنية | coût implicite
+differential revenue | الإيراد التفاضلي | produit différentiel
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 2 made the point in its simplest form: because fixed costs do not move with volume, the effect of selling 500,000 more jars is 500,000 × 4.80 = 2,400,000 and nothing else needs to be computed. That is relevant costing applied to one decision. This chapter states the rule that made it work.
+5.1  The two tests
+A cost or a revenue is relevant to a decision if it passes both of these tests.
+It lies in the future. A decision taken today can change what happens from today onwards and nothing that happened before. Money already spent is spent whatever is chosen.
+It differs between the alternatives. If a cost is the same under every option, including it changes every total by the same amount and changes no ranking. Including it is not wrong, exactly — it wastes effort and invites error.
+Both tests must be passed. A future cost that does not differ is irrelevant; a differing cost that is already incurred is irrelevant. The exam's favourite trap is a cost that passes one test loudly and fails the other quietly.
+Two further names describe the same idea from different angles, and the outcome asks for them.
+An incremental cost, also called a differential cost, is the difference in total cost between two alternatives. It is the relevant amount stated as a number rather than as a test.
+A marginal cost is the cost of one more unit, which Chapter 7 develops. In most exam settings it equals the variable cost per unit, and the two words are used interchangeably at this level.
+Figure F705-02 applies the tests to eight items from Orontes's own records.
+Figure F705-02. Relevant or not, for a decision to discontinue the halva bar
+@table
+Item | In the future? | Differs? | Relevant?
+Sesame used in bars | Yes | Yes, it stops | Yes
+The bar's share of factory rent | Yes | No, the rent continues | No
+Depreciation on the bar wrapping machine | Yes | No; the machine is already owned | No
+Proceeds from selling the wrapping machine | Yes | Yes | Yes
+The cost of the machine when bought | No, it is past | | No
+Salaries of staff who would be redeployed | Yes | No, they stay employed | No
+Salaries of staff who would be released | Yes | Yes | Yes
+Contribution from bar sales | Yes | Yes, it is lost | Yes
+@end
+EXAM TRAP   Both tests, every time
+Depreciation is never relevant in itself. It is the spreading of a past payment, so it fails the first test. What is relevant about an owned asset is what else could be done with it — sold, or used elsewhere — which is section 5.4's subject.
+An allocated share of a common cost is almost never relevant. The question is not how the cost is shared but whether the total changes.
+A cost can be relevant for one decision and irrelevant for another, with no change in the cost itself. Relevance is a property of the decision, not of the cost.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+two tests | الاختباران | les deux critères
+allocated cost | التكلفة الموزعة | coût réparti
+common cost | التكلفة المشتركة | charge commune
+redeployment | إعادة التوزيع | redéploiement
+@end
+SECTION CHECK   Test yourself
+SC5-1  A cost is relevant to a decision if it:
+A.	lies in the future and differs between the alternatives.
+B.	is large.
+C.	is recorded in the accounts.
+D.	has been allocated to the product.
+SC5-2  Depreciation on a machine already owned is:
+A.	irrelevant, because it spreads a past payment.
+B.	relevant, because it appears in the income statement.
+C.	relevant, because it is a future charge.
+D.	an opportunity cost.
+SC5-3  Relevance is a property of:
+A.	the decision, not of the cost.
+B.	the cost, not of the decision.
+C.	the accounting system.
+D.	the size of the amount.
+Answers and explanations are at the end of the chapter.
+5.2  Sunk costs
+A sunk cost is a cost already incurred that cannot be recovered by any choice now available. It fails the first test absolutely, and the outcome asks specifically why.
+The reason is that a decision changes the future and the past is identical under every option. Suppose Orontes spent $300,000 on a specialised packaging film for a product line it is now reconsidering. Whether the line continues or stops, the $300,000 has gone. It appears in neither column of the comparison, so it cannot favour either.
+What is relevant about the film is what can still be done with it. If it can be sold for $40,000, that $40,000 is relevant because it is receivable under one option and not the other. If it can be used on another line, saving $180,000 of purchases that would otherwise be made, that saving is relevant. And the choice between those two uses is itself a decision: using the film saves $180,000 and forgoes the $40,000 scrap, so the net benefit of using it is 180,000 − 40,000 = 140,000. The original $300,000 appears nowhere in any of that arithmetic.
+Why candidates and managers include it anyway is worth naming, because the exam sometimes asks for the behavioural point. It is called the sunk cost fallacy, or throwing good money after bad: having spent $300,000, a manager feels that abandoning the line wastes it, and continues in order to justify the original decision. The spending is wasted either way; continuing merely adds to it. The discipline is to ask what the choice is from here, which is also the only question a reader of the accounts can answer next year.
+WORKED EXAMPLE   Worked example: replacing a machine
+Step 1. The facts. Orontes owns a filling machine bought four years ago for $1,200,000, now standing in the books at $700,000. A new machine costs $900,000 and would save $350,000 a year of operating costs for four years. The old machine could be sold today for $250,000 and has no value at the end of the four years.
+Step 2. What is irrelevant. The $1,200,000 original cost, the $700,000 book value, and the $450,000 loss that selling at $250,000 would produce in the accounts. All three are the past, recorded in different ways.
+Step 3. What is relevant. The $900,000 to be paid, the $250,000 to be received, and the $350,000 a year to be saved.
+Step 4. The decision. The net outlay is 900,000 − 250,000 = 650,000, and the savings are 350,000 × 4 = 1,400,000, so replacing is better by 1,400,000 − 650,000 = 750,000 before any discounting. Chapter 16 discounts it properly; the ranking does not change.
+Check. The accounting loss of $450,000 is the figure that stops this decision being taken in practice, because it appears in next year's income statement and nobody wants to explain it. It is not a cash flow and it does not change the merits, and an answer that says so — and then says the loss should be explained to the board in advance — is the one worth full marks.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+sunk cost fallacy | مغالطة التكلفة الغارقة | sophisme des coûts irrécupérables
+book value | القيمة الدفترية | valeur comptable
+disposal proceeds | متحصلات البيع | produit de cession
+loss on disposal | خسارة الاستبعاد | moins-value de cession
+@end
+SECTION CHECK   Test yourself
+SC5-4  A sunk cost is:
+A.	incurred already and unrecoverable by any present choice.
+B.	any large cost.
+C.	a future cost that does not differ.
+D.	an opportunity cost.
+SC5-5  In a replacement decision, the book value of the old machine is:
+A.	irrelevant; its disposal proceeds are relevant.
+B.	relevant, because it is an asset.
+C.	relevant, because it affects the loss on disposal.
+D.	added to the cost of the new machine.
+SC5-6  Continuing a project because a great deal has already been spent on it is:
+A.	the sunk cost fallacy.
+B.	sound relevant costing.
+C.	required by the standards.
+D.	an opportunity cost argument.
+Answers and explanations are at the end of the chapter.
+5.3  Avoidable and unavoidable
+An avoidable cost is one that will not be incurred if an activity is discontinued. An unavoidable cost will be incurred anyway. The pair applies whenever a question asks whether to drop a product, close a department, shut a branch or stop serving a customer.
+The distinction is not the same as variable and fixed, and confusing the two is the commonest error in this topic. Most variable costs are avoidable, because they stop when the activity stops. But some fixed costs are avoidable too: a supervisor whose post would be eliminated, an insurance policy that would be cancelled, a lease that would be surrendered. And some variable costs are unavoidable, as where a supply contract commits the company to a minimum quantity whatever it produces.
+The test is the same two tests of section 5.1, applied to the stopping decision: does the cost lie in the future, and does it differ between continuing and stopping?
+A separable fixed cost belongs entirely to one activity and usually goes with it. A common fixed cost is shared, and usually does not: closing the halva line does not reduce the factory rent, the chief executive's salary or the audit fee, and allocating a share of those to the line never made them avoidable.
+Figure F705-03 sorts a discontinuation decision.
+Figure F705-03. Dropping the halva bar: what stops and what does not
+@table
+Cost | Behaviour | Avoidable? | Why
+Sesame and sugar for bars | Variable | Yes | No bars, no materials
+Bar packaging | Variable | Yes | Same
+Line supervisor's salary | Fixed | Yes | The post would be eliminated
+Lease of the bar wrapping machine | Fixed | Yes, if it can be surrendered | Check the contract
+Factory rent apportioned to the line | Fixed and common | No | The factory is still leased
+Head office costs apportioned | Fixed and common | No | They are allocated, not caused
+Minimum purchase under a sesame contract | Variable in form | No, up to the minimum | The contract binds
+@end
+The rule a question is testing is this: a product should be dropped only if the contribution it earns is less than the fixed costs that would actually be avoided by dropping it. Chapter 9 computes that properly. Here the point is that the avoidable column of Figure F705-03, not the full cost of the line, is the figure to compare.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+separable cost | التكلفة المنفصلة | coût spécifique
+apportionment | التوزيع النسبي | répartition
+discontinuation | وقف النشاط | abandon d'activité
+contractual minimum | الحد الأدنى التعاقدي | minimum contractuel
+@end
+SECTION CHECK   Test yourself
+SC5-7  An avoidable cost is one that:
+A.	would not be incurred if the activity stopped.
+B.	is variable.
+C.	is allocated.
+D.	has already been incurred.
+SC5-8  Which is most likely to be an avoidable fixed cost on closing one product line?
+A.	The salary of a supervisor whose post would be eliminated
+B.	The factory rent
+C.	The audit fee
+D.	Head office costs apportioned to the line
+SC5-9  A product should be dropped only if its contribution is less than:
+A.	the fixed costs that would actually be avoided.
+B.	its share of all fixed costs.
+C.	its full cost.
+D.	the company's total fixed costs.
+Answers and explanations are at the end of the chapter.
+5.4  Explicit and implicit
+An explicit cost involves a payment: wages, materials, rent, interest. It appears in the accounting records because somebody was paid.
+An implicit cost involves no payment and is a genuine cost all the same: the value of something the company already owns that is used up or given up by a choice. It appears in no ledger, which is why it has to be reasoned about rather than looked up.
+The most important implicit cost has its own name and its own chapter. An opportunity cost is the benefit forgone by using a resource for one purpose instead of its best alternative use, and Chapter 6 computes it. But the category is wider.
+The owner of a small business who works in it without a salary bears an implicit cost: the wage that could have been earned elsewhere. The company that uses a building it owns bears the rent it could have received. And the shareholders of any company bear the implicit cost of their capital, which is precisely the point Book 1 made about economic profit — accounting profit charges for the explicit cost of debt and not for the implicit cost of equity.
+That gives the pair of definitions the exam wants.
+Accounting profit is revenue less explicit costs.
+Economic profit is revenue less explicit and implicit costs together.
+A business can show an accounting profit and an economic loss, which means it is earning less than the resources it consumes could earn elsewhere — and a business in that position is being kept alive by a cost nobody is charging it for.
+Figure F705-04 sets the two pairs against each other.
+Figure F705-04. Four kinds of cost, two dimensions
+@table
+| Explicit, a payment is made | Implicit, no payment is made
+Relevant to a decision | Materials for the extra order; wages of staff hired | The contribution forgone on displaced work; rent forgone on an owned building
+Not relevant | Last year's advertising already paid; allocated head office charge | Depreciation of an asset with no alternative use
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+explicit payment | الدفع الصريح | décaissement explicite
+imputed cost | التكلفة المحتسبة | coût imputé
+economic profit | الربح الاقتصادي | profit économique
+forgone benefit | المنفعة المفقودة | bénéfice sacrifié
+@end
+SECTION CHECK   Test yourself
+SC5-10  An implicit cost:
+A.	involves no payment and appears in no ledger.
+B.	is always irrelevant.
+C.	is the same as a sunk cost.
+D.	is recorded as an expense.
+SC5-11  Economic profit differs from accounting profit because it deducts:
+A.	implicit costs as well as explicit ones.
+B.	tax.
+C.	interest.
+D.	depreciation.
+Answers and explanations are at the end of the chapter.
+5.5  Putting it to work
+A relevant-cost analysis has a shape, and following it is most of the skill.
+Identify the alternatives, including the option of doing nothing, which is always available and often omitted.
+List the future cash flows under each. Cash flows, not accounting charges: the exam's items are receipts and payments, and depreciation, allocations and book values are excluded by construction.
+Remove anything that is the same under both. What remains is the difference, and the difference is the decision.
+Add the implicit costs that the ledger does not contain, which in practice means the opportunity costs of Chapter 6.
+State the answer as a difference, not as two totals. "Replacing is better by $750,000" is an answer; "option one costs $4,250,000 and option two costs $5,000,000" invites the reader to do the subtraction and to wonder what was in each.
+Two habits are worth building now, because every chapter from here to Chapter 9 uses them.
+Build the analysis as a single column of differences wherever possible. It is faster, it cannot contain an irrelevant item without the error being obvious, and it produces the answer directly.
+Say what was excluded and why. One line — "the $700,000 book value is sunk and is not included" — tells a marker that the exclusion was a decision rather than an oversight, and it is worth more than the arithmetic that follows it.
+YOUR TURN   Sort the items
+Figure F705-05 lists eight items for a decision about whether to close a depot. Mark each relevant or not, and say why. Answers are at the end of the chapter.
+Figure F705-05. Your turn: relevant or not (complete the blanks)
+@table
+Item | Relevant? | Why
+Wages of depot staff who would be made redundant | ________ | ________
+The depot building, owned, which could be let for 90,000 a year | ________ | ________
+Depreciation on the depot's racking | ________ | ________
+Head office costs apportioned to the depot | ________ | ________
+Redundancy payments of 140,000 | ________ | ________
+The 2,000,000 the depot cost to build in 2016 | ________ | ________
+Delivery costs that would rise by 60,000 if customers were served from elsewhere | ________ | ________
+Contribution of 400,000 from customers who would be lost | ________ | ________
+@end
+LANGUAGE FOCUS   "Relevant"
+English relevant in management accounting is a technical term with a two-part definition, and it is not a synonym for important, useful or interesting. A cost can be enormous, carefully recorded and central to the business, and still be irrelevant to the decision in hand — which sounds like a contradiction until the definition is remembered. Arabic ملائم carries the everyday sense of suitable and has to be read as the defined term. French uses coût pertinent, and pertinent in French has the same everyday pull towards apt or appropriate. The one safeguard in all three languages is to say the definition aloud when using the word: future, and different between the alternatives.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+column of differences | عمود الفروق | colonne des écarts
+do nothing option | خيار عدم التغيير | option de statu quo
+exclusion | الاستبعاد | exclusion
+cash flow | التدفق النقدي | flux de trésorerie
+@end
+SECTION CHECK   Test yourself
+SC5-12  The best form for a relevant-cost answer is:
+A.	a single column of differences, with the answer stated as a difference.
+B.	two full income statements.
+C.	a list of all costs.
+D.	the full cost of each option.
+SC5-13  The "do nothing" alternative:
+A.	is always available and often omitted.
+B.	is never relevant.
+C.	is the same as the status quo cost allocation.
+D.	has no cash flows.
+SC5-14  Saying why an item was excluded:
+A.	shows the exclusion was a decision rather than an oversight.
+B.	wastes words.
+C.	is required by the standards.
+D.	changes the answer.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F705-06 brings the chapter together.
+Figure F705-06. Chapter 5 summary map: the key rule for each section.
+A cost is relevant if it lies in the future and differs between the alternatives, and both tests must be passed, which excludes depreciation, book values and allocated shares of common costs from almost every decision. A sunk cost fails the first test absolutely: $300,000 already spent on packaging film appears in no column, while the $40,000 it would fetch as scrap and the $180,000 it would save in use both do, so using it is better by 180,000 − 40,000 = 140,000. In a replacement, the $1,200,000 original cost, the $700,000 book value and the $450,000 accounting loss are all irrelevant, while 900,000 − 250,000 = 650,000 of net outlay against 350,000 × 4 = 1,400,000 of savings decides it by $750,000. Avoidable costs are those that stop when the activity stops, which is not the same as variable: a supervisor's post can be avoidable and a contractual minimum purchase unavoidable. Explicit costs are paid and implicit ones are not, and the difference between them is the difference between accounting profit and economic profit. And a relevant-cost answer is a single column of differences, stated as a difference, with the exclusions named.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P5-01  A relevant cost must:
+A.	lie in the future and differ between alternatives.
+B.	be variable.
+C.	be large.
+D.	appear in the general ledger.
+P5-02  A sunk cost is:
+A.	already incurred and unrecoverable.
+B.	a future fixed cost.
+C.	an opportunity cost.
+D.	an avoidable cost.
+P5-03  In a machine replacement decision, which is relevant?
+A.	The disposal proceeds of the old machine
+B.	The original cost of the old machine
+C.	Its book value
+D.	The accounting loss on disposal
+P5-04  Depreciation is irrelevant to a decision because it:
+A.	spreads a payment already made.
+B.	is too small to matter.
+C.	is not in the accounts.
+D.	is a variable cost.
+P5-05  An avoidable cost is best described as one that:
+A.	would cease if the activity ceased.
+B.	varies with volume.
+C.	is apportioned.
+D.	was incurred last year.
+P5-06  Which fixed cost is most likely avoidable on closing a product line?
+A.	The salary of a supervisor whose post disappears
+B.	Factory rent
+C.	The audit fee
+D.	The chief executive's salary
+P5-07  An implicit cost:
+A.	involves no payment but is a genuine cost.
+B.	is always irrelevant.
+C.	appears as an expense in the accounts.
+D.	is the same as a fixed cost.
+P5-08  Accounting profit less implicit costs gives:
+A.	economic profit.
+B.	gross profit.
+C.	taxable income.
+D.	contribution margin.
+P5-09  A product should be dropped only if its contribution is below:
+A.	the fixed costs that would actually be avoided.
+B.	its allocated share of fixed costs.
+C.	its full absorbed cost.
+D.	the company's total fixed costs.
+P5-10  The clearest form of a relevant-cost answer is:
+A.	a difference, with the exclusions named.
+B.	two complete income statements.
+C.	a list of every cost in the company.
+D.	the full cost per unit of each option.
+Case-style practice: the film and the line
+Orontes spent $300,000 last year on a specialised film for its halva wrapping. The halva line is under review. The film cannot be returned; it would fetch $40,000 as scrap, or it could be adapted for the tahini line, saving $180,000 of film purchases over the next year. The halva line earns a contribution of $900,000 a year. Closing it would avoid $420,000 of separable fixed costs, would free a supervisor whose $80,000 post would be eliminated, and would leave $300,000 of apportioned factory and head office costs to be carried by the other lines. The wrapping machine, in the books at $260,000, would fetch $95,000.
+Required. Say whether the line should be closed, with a column of differences. Deal explicitly with the film and with the apportioned costs. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC5-1  Answer A. Both tests must be passed.
+B is wrong. Size is not relevance.
+C is wrong. Many recorded costs are irrelevant to a given decision.
+D is wrong. Allocation does not create relevance.
+SC5-2  Answer A. Depreciation spreads a past payment.
+B is wrong. Appearing in the income statement does not make a charge relevant.
+C is wrong. The charge is future; the payment is past.
+D is wrong. An opportunity cost is a forgone benefit, not a depreciation charge.
+SC5-3  Answer A. The same cost can be relevant to one decision and not another.
+B is wrong. Costs are not relevant in themselves.
+C is wrong. The system records; it does not decide relevance.
+D is wrong. Size is not the test.
+SC5-4  Answer A. Already incurred and unrecoverable.
+B is wrong. Size is irrelevant.
+C is wrong. That is a future cost failing the second test.
+D is wrong. An opportunity cost is a forgone future benefit.
+SC5-5  Answer A. Proceeds are future and differ; book value is past.
+B is wrong. Being an asset does not make the carrying amount relevant.
+C is wrong. The accounting loss is a consequence, not a cash flow.
+D is wrong. Nothing is added to the new machine's price.
+SC5-6  Answer A. That is the sunk cost fallacy.
+B is wrong. Sound analysis ignores what is spent.
+C is wrong. No standard requires it.
+D is wrong. Opportunity cost concerns forgone alternatives.
+SC5-7  Answer A. It ceases with the activity.
+B is wrong. Some fixed costs are avoidable and some variable costs are not.
+C is wrong. Apportionment has no bearing.
+D is wrong. That is a sunk cost.
+SC5-8  Answer A. The post disappears with the line.
+B is wrong. The factory is still leased.
+C is wrong. The audit continues.
+D is wrong. Apportioned costs are not caused by the line.
+SC5-9  Answer A. Only genuinely avoidable fixed costs count.
+B is wrong. An allocated share is not avoided.
+C is wrong. Full cost includes unavoidable allocations.
+D is wrong. Total fixed costs are far more than the line causes.
+SC5-10  Answer A. No payment, and no ledger entry.
+B is wrong. Implicit costs are often the most relevant of all.
+C is wrong. A sunk cost is past; an implicit cost may be future.
+D is wrong. It is recorded nowhere.
+SC5-11  Answer A. Implicit costs are the difference.
+B is wrong. Tax is deducted in both measures.
+C is wrong. Interest is an explicit cost.
+D is wrong. Depreciation is an explicit allocation of a past payment.
+SC5-12  Answer A. The difference is the decision.
+B is wrong. Full statements bury the difference.
+C is wrong. A list is not an analysis.
+D is wrong. Full cost includes irrelevant items.
+SC5-13  Answer A. It is the baseline against which others are measured.
+B is wrong. It is the most commonly relevant alternative of all.
+C is wrong. Allocation is unrelated.
+D is wrong. Doing nothing has cash flows, which are the baseline.
+SC5-14  Answer A. It shows the exclusion was deliberate.
+B is wrong. One line is cheap and worth the marks.
+C is wrong. No standard governs an internal analysis.
+D is wrong. The answer is the same; its credibility is not.
+Your turn
+@table
+Item | Answer
+Wages of staff made redundant | Relevant: the payments stop, so they differ between the alternatives.
+The building, lettable at 90,000 | Relevant: it is an opportunity cost, receivable only if the depot closes.
+Depreciation on the racking | Not relevant: it spreads a past payment. What the racking would fetch is relevant.
+Apportioned head office costs | Not relevant: they continue and are merely re-apportioned.
+Redundancy payments of 140,000 | Relevant: a future payment arising only on closure.
+The 2,000,000 spent in 2016 | Not relevant: sunk.
+Delivery costs rising by 60,000 | Relevant: a future cost that arises only on closure.
+Contribution of 400,000 lost | Relevant: a benefit forgone under one alternative.
+What it tells you | Closing saves the wages, the apportionment nothing, and gains 90,000 of rent, against 140,000 of redundancy, 60,000 of delivery and 400,000 of lost contribution. The two figures that most people put first — the 2,000,000 and the depreciation — belong in neither column.
+@end
+Multiple-choice questions
+P5-01  Answer A. Future, and different.
+B is wrong. Some fixed costs are relevant.
+C is wrong. Size is not the test.
+D is wrong. Opportunity costs are relevant and appear in no ledger.
+P5-02  Answer A. Already incurred and unrecoverable.
+B is wrong. Future fixed costs may be relevant or not.
+C is wrong. An opportunity cost is forgone, not spent.
+D is wrong. Avoidable costs lie in the future.
+P5-03  Answer A. The proceeds are future and differ.
+B is wrong. The original cost is sunk.
+C is wrong. Book value is an accounting remnant of that cost.
+D is wrong. The loss is a consequence of the book value.
+P5-04  Answer A. The payment is in the past.
+B is wrong. Depreciation is often large.
+C is wrong. It is in the accounts, which is the trap.
+D is wrong. It is a fixed charge, and that is not why it is irrelevant.
+P5-05  Answer A. It ceases with the activity.
+B is wrong. That is a variable cost.
+C is wrong. Apportionment is unrelated.
+D is wrong. That is a sunk cost.
+P5-06  Answer A. The post disappears.
+B is wrong. The rent continues.
+C is wrong. The audit continues.
+D is wrong. The chief executive stays.
+P5-07  Answer A. No payment, and a real cost.
+B is wrong. Implicit costs are frequently the relevant ones.
+C is wrong. They appear in no ledger.
+D is wrong. Fixed and implicit are different classifications.
+P5-08  Answer A. Economic profit charges for both kinds of cost.
+B is wrong. Gross profit is a trading measure.
+C is wrong. Tax law recognises explicit costs.
+D is wrong. Contribution margin deducts variable costs only.
+P5-09  Answer A. Only avoided fixed costs count.
+B is wrong. An allocation is not avoided.
+C is wrong. Full cost includes unavoidable items.
+D is wrong. Total fixed costs are not caused by one line.
+P5-10  Answer A. A difference, with exclusions named.
+B is wrong. Full statements hide the difference.
+C is wrong. A complete list is not an analysis.
+D is wrong. Full unit cost includes irrelevant allocations.
+Case-style set: the film and the line
+The film first. The $300,000 already spent is sunk and belongs in neither column. What is relevant is what the film can still do: used on the tahini line it saves $180,000 of purchases, and scrapped it brings $40,000. Using it is therefore better by 180,000 − 40,000 = 140,000, and that is true whether the halva line continues or closes — which means the film does not bear on the closure decision at all. Two separate questions have been presented as one.
+The apportioned costs. The $300,000 of factory and head office charges do not disappear on closure; they are carried by the other lines instead. They are unavoidable and belong in neither column, and the fact that the halva line's reported profit is worse because of them is an artefact of apportionment.
+The column of differences, on closing:
+Lost contribution: (900,000).
+Avoided separable fixed costs: 420,000.
+Avoided supervisor's post: 80,000.
+Proceeds from the wrapping machine: 95,000, received once.
+Net effect in the first year: 420,000 + 80,000 + 95,000 = 595,000 against 900,000 lost, a loss of $305,000; and in every year after that, a loss of 900,000 − 500,000 = 400,000.
+Recommendation: do not close the halva line. It covers its own avoidable costs by $400,000 a year, and closing it would transfer $300,000 of unavoidable overhead onto the remaining products without reducing it by a cent. Use the film on the tahini line, which is worth $140,000 and is a separate decision. If the line's reported loss is the reason the question was asked, the answer is that the apportionment is misleading, not that the line is.

@@ -1,0 +1,427 @@
+Chapter 2
+Operating income at different levels; targets and income taxes
+الربح التشغيلي عند مستويات مختلفة والأهداف وأثر الضريبة
+Chapter 1 found the point at which Orontes earns nothing. This chapter asks what it earns everywhere else. Once the contribution margin and the fixed costs are known, the operating income at any volume is a single multiplication and a single subtraction, and a whole schedule of outcomes can be produced in a few minutes.
+The chapter then adds the complication the exam uses to separate careful candidates from quick ones: income taxes. A target stated as operating income and the same target stated as net income are different questions, and the second has to be converted before the first formula will work.
+Figure F702-01 is your map.
+Figure F702-01. Chapter 2 roadmap: income at any level, drawn, targeted, and taxed.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+C.1.b | Calculate operating income at different operating levels. | C | Full treatment
+C.1.l | Explain the impact of income taxes on cost-volume-profit analysis. | C | Full treatment
+C.1.f | Convert a target income into the volume that achieves it. | B | Reinforced (introduced in Chapter 1)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+operating income | الربح التشغيلي | résultat d'exploitation
+net income | صافي الربح | résultat net
+effective tax rate | معدل الضريبة الفعلي | taux d'imposition effectif
+target net income | صافي الربح المستهدف | résultat net cible
+profit-volume chart | رسم الربح والحجم | graphique profit-volume
+cost-volume-profit chart | رسم التكلفة والحجم والربح | graphique coût-volume-profit
+incremental analysis | التحليل التفاضلي | analyse différentielle
+what-if analysis | تحليل الاحتمالات | analyse de scénarios
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 established Orontes's structure: a jar at $12.00, variable costs of $7.20, a contribution margin of $4.80, fixed costs of $12,624,000, a breakeven of 2,630,000 jars and actual sales of 3,500,000. Book 1 recorded an effective tax rate of 25.0 per cent. Every figure in this chapter is built from those six.
+2.1  Income at any volume
+Three routes reach the same answer, and the exam uses all three.
+The contribution route is the quickest. Multiply the volume by the contribution margin per unit and deduct the fixed costs. At 3,000,000 jars: 3,000,000 × 4.80 = 14,400,000 of contribution, and 14,400,000 − 12,624,000 = 1,776,000 of operating income. At 4,000,000 jars: 4,000,000 × 4.80 = 19,200,000, and 19,200,000 − 12,624,000 = 6,576,000.
+The equation route writes the income statement as a sentence: operating income is price times units, less variable cost times units, less fixed costs. It is slower and it is the one to use when a question changes two things at once, because every element is visible.
+The incremental route is the fastest of all and the one a manager wants. Since fixed costs do not move, the change in operating income is simply the change in units times the contribution margin. Moving from 3,500,000 to 4,000,000 jars adds 500,000 jars, which adds 500,000 × 4.80 = 2,400,000 — and indeed 6,576,000 − 4,176,000 = 2,400,000.
+That third route is the whole of decision analysis in one sentence, and Chapter 5 generalises it: what matters is what changes.
+Figure F702-02 is the schedule.
+Figure F702-02. Orontes at six volumes
+@table
+Jars sold | Contribution at 4.80 | Fixed costs | Operating income
+2,000,000 | 9,600,000 | 12,624,000 | (3,024,000)
+2,630,000 | 12,624,000 | 12,624,000 | Nil
+3,000,000 | 14,400,000 | 12,624,000 | 1,776,000
+3,500,000 | 16,800,000 | 12,624,000 | 4,176,000
+4,000,000 | 19,200,000 | 12,624,000 | 6,576,000
+4,500,000 | 21,600,000 | 12,624,000 | 8,976,000
+@end
+Read down the last column and the leverage is visible without any ratio: a 14 per cent rise in volume from 3,500,000 to 4,000,000 jars raises operating income by 57 per cent, and a 14 per cent fall to 3,000,000 takes it down by the same proportion. Below 2,630,000 the company loses money, and at 2,000,000 jars it loses $3,024,000 — because the fixed costs are still $12,624,000 whatever the factory does.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+schedule | الجدول | tableau
+incremental change | التغير التفاضلي | variation différentielle
+loss | الخسارة | perte
+@end
+SECTION CHECK   Test yourself
+SC2-1  Operating income at a given volume equals:
+A.	units times the contribution margin, less fixed costs.
+B.	units times the selling price, less fixed costs.
+C.	fixed costs divided by the contribution margin.
+D.	sales less cost of goods sold.
+SC2-2  At 3,000,000 jars, a contribution of 4.80 and fixed costs of 12,624,000 give:
+A.	1,776,000 of operating income
+B.	14,400,000 of operating income
+C.	4,176,000 of operating income
+D.	a loss of 1,776,000
+SC2-3  Moving from 3,500,000 to 4,000,000 jars changes operating income by:
+A.	2,400,000, which is the extra units times the contribution margin.
+B.	6,000,000, which is the extra units times the price.
+C.	nothing, because fixed costs are unchanged.
+D.	3,600,000.
+Answers and explanations are at the end of the chapter.
+2.2  The two charts
+The relationships can be drawn, and the exam asks what each line means rather than for a drawing.
+The cost-volume-profit chart puts volume on the horizontal axis and dollars on the vertical. The total revenue line starts at the origin and rises at the selling price. The total cost line starts at the level of the fixed costs and rises at the variable cost per unit. The two cross at the breakeven point. The vertical distance between them to the right of that crossing is operating income; to the left it is loss.
+The profit-volume chart is simpler and more useful. It plots only operating income against volume: a single line starting at minus the fixed costs when volume is nil, crossing zero at the breakeven, and rising at the contribution margin per unit thereafter. For Orontes that line starts at minus $12,624,000, crosses zero at 2,630,000 jars and rises $4.80 for every jar after that.
+Three readings come straight off the profit-volume line, and all three are examinable.
+The slope is the contribution margin per unit. A steeper line means each unit does more work, which comes from a higher price or lower variable costs.
+The intercept is the fixed costs, with the sign reversed. A line starting lower means a heavier fixed base and a company that needs more volume before it earns anything.
+The horizontal intercept is the breakeven. Anything that raises the slope or lifts the intercept moves it to the left, which is the direction a company wants.
+Figure F702-03 sets out what moves the line.
+Figure F702-03. What each change does to the profit-volume line
+@table
+Change | Slope | Starting point | Breakeven
+Selling price rises | Steeper | Unchanged | Moves left
+Variable cost per unit rises | Flatter | Unchanged | Moves right
+Fixed costs rise | Unchanged | Lower | Moves right
+Fixed costs replace variable costs | Steeper | Lower | Moves right, and profits rise faster beyond it
+@end
+That last row is the one worth dwelling on, because it is the structural choice every manufacturer faces. Automating a process converts variable labour into fixed depreciation: the contribution margin per unit rises, so the line is steeper, and the fixed base is heavier, so the line starts lower. The company earns more at high volumes and loses more at low ones — which is exactly the degree of operating leverage that Book 1 measured for Orontes at 4.02, and the reason a food manufacturer with a falling margin should think twice before automating further.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+total revenue line | خط الإيرادات الكلية | droite du chiffre d'affaires
+total cost line | خط التكاليف الكلية | droite des coûts totaux
+slope | الميل | pente
+intercept | التقاطع مع المحور | ordonnée à l'origine
+@end
+SECTION CHECK   Test yourself
+SC2-4  On a profit-volume chart, the slope of the line is:
+A.	the contribution margin per unit.
+B.	the selling price.
+C.	the fixed costs.
+D.	the breakeven volume.
+SC2-5  The profit-volume line begins, at zero volume, at:
+A.	minus the fixed costs.
+B.	zero.
+C.	minus the variable costs.
+D.	the breakeven point.
+SC2-6  Replacing variable labour with fixed automation:
+A.	steepens the line and lowers its starting point.
+B.	flattens the line.
+C.	lowers the breakeven.
+D.	has no effect on the chart.
+Answers and explanations are at the end of the chapter.
+2.3  Income taxes
+Everything so far has been computed before tax, and for most decisions that is correct: tax follows the profit rather than driving it. But a target stated by a board is usually stated after tax, and the exam exploits the difference.
+The rule is one line. Tax is charged on operating income less interest, so a target net income must be converted to a target pre-tax income before it can be added to the fixed costs. Divide the after-tax target by one less the tax rate.
+WORKED EXAMPLE   Worked example: a target stated after tax
+Step 1. The target. Orontes's board wants net income of $4,500,000. Its effective tax rate is 25 per cent.
+Step 2. Convert it. The pre-tax income needed is 4,500,000 ÷ 0.75 = 6,000,000.
+Step 3. Add the fixed costs. 12,624,000 + 6,000,000 = 18,624,000 of contribution is required.
+Step 4. Find the volume. 18,624,000 ÷ 4.80 = 3,880,000 jars, which is 3,880,000 − 3,500,000 = 380,000 jars more than the company sold.
+Check. The conversion is the whole question. A candidate who adds $4,500,000 to the fixed costs computes 17,124,000 ÷ 4.80 = 3,567,500 jars and understates the requirement by more than three hundred thousand jars — because at that volume the company earns $4,500,000 before tax and only $3,375,000 after it. Divide by one less the tax rate, every time.
+Two further points complete the outcome.
+Tax does not move the breakeven point. At breakeven, operating income is nil, so the tax on it is nil, and a company that loses money pays no tax on the loss. The whole of the tax adjustment lives above the breakeven, which is why Chapter 1's formula needed no tax term.
+Tax scales every answer above the breakeven by the same factor. Operating income of $4,176,000 at a 25 per cent rate is 4,176,000 × 0.75 = 3,132,000 of net income, and every figure in the Figure F702-02 schedule can be converted the same way. That also means a change in the tax rate changes none of the operating decisions in this book: a project that is better before tax is better after it, unless the two alternatives are taxed differently, which is the case Chapter 9 examines.
+Figure F702-04 sets the conversions out.
+Figure F702-04. Before tax and after, at a 25 per cent rate
+@table
+Jars sold | Operating income | Tax at 25% | Net income
+2,630,000 | Nil | Nil | Nil
+3,000,000 | 1,776,000 | 444,000 | 1,332,000
+3,500,000 | 4,176,000 | 1,044,000 | 3,132,000
+3,880,000 | 6,000,000 | 1,500,000 | 4,500,000
+4,000,000 | 6,576,000 | 1,644,000 | 4,932,000
+@end
+EXAM TRAP   The tax conversion runs one way
+To go from an after-tax target to a pre-tax requirement, divide by one less the rate. To go from a pre-tax figure to an after-tax one, multiply by one less the rate. Reversing the two is the commonest error on this outcome.
+Interest is deducted before tax and after operating income, so a question that gives interest expense wants it added to the fixed costs — or, more precisely, treated as a further fixed deduction — before the tax conversion.
+A loss generates no tax at the simple rate assumed here. Where a question allows a loss to be carried back or forward, say so and compute it.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+after-tax target | الهدف بعد الضريبة | objectif après impôt
+pre-tax equivalent | المعادل قبل الضريبة | équivalent avant impôt
+tax rate | معدل الضريبة | taux d'imposition
+loss carryforward | ترحيل الخسائر | report déficitaire
+@end
+SECTION CHECK   Test yourself
+SC2-7  To convert an after-tax target into a pre-tax requirement:
+A.	divide by one less the tax rate.
+B.	multiply by one less the tax rate.
+C.	add the tax rate.
+D.	subtract the tax.
+SC2-8  A net income target of 4,500,000 at a 25 per cent tax rate requires pre-tax income of:
+A.	6,000,000
+B.	3,375,000
+C.	5,625,000
+D.	4,500,000
+SC2-9  Income taxes move the breakeven point:
+A.	not at all, because no tax is paid when income is nil.
+B.	to the right.
+C.	to the left.
+D.	in proportion to the rate.
+Answers and explanations are at the end of the chapter.
+2.4  The four levers
+Four things can be changed, and a question that asks a company to improve its position is asking which of them to pull.
+Raise the price. A five per cent rise takes the jar to $12.60 and the contribution margin to 12.60 − 7.20 = 5.40. At the same volume, operating income becomes 3,500,000 × 5.40 = 18,900,000 of contribution less fixed costs, which is 18,900,000 − 12,624,000 = 6,276,000 — a rise of half as much again, from a five per cent price move. The breakeven falls to 12,624,000 ÷ 5.40 = 2,337,778 jars. The risk is the volume response, which Chapter 11 measures as elasticity.
+Cut the variable cost. A five per cent saving takes the variable cost to $6.84 and the margin to 12.00 − 6.84 = 5.16, which at the same volume gives 3,500,000 × 5.16 = 18,060,000 of contribution and 18,060,000 − 12,624,000 = 5,436,000 of operating income. Less powerful than the price rise, because the variable cost is a smaller base than the price.
+Cut the fixed costs. A saving of $1,000,000 adds exactly $1,000,000 to operating income at any volume and moves the breakeven to 11,624,000 ÷ 4.80 = 2,421,667 jars. It is the only lever whose effect does not depend on volume.
+Sell more. Each extra jar adds $4.80, so an extra 500,000 jars adds 500,000 × 4.80 = 2,400,000 — as section 2.1 showed.
+Figure F702-05 ranks them on Orontes's own figures.
+Figure F702-05. Four five per cent moves, compared
+@table
+Lever | The change | Operating income | Breakeven in jars
+As reported | | 4,176,000 | 2,630,000
+Price up 5 per cent | Jar at 12.60 | 6,276,000 | 2,337,778
+Variable cost down 5 per cent | Variable cost at 6.84 | 5,436,000 | 2,446,512
+Fixed costs down 5 per cent | Fixed at 11,992,800 | 4,807,200 | 2,498,500
+Volume up 5 per cent | 3,675,000 jars | 5,016,000 | 2,630,000
+@end
+The ranking is the lesson, and it is the same in almost every business: the price is the most powerful lever, the variable cost the second, volume the third and the fixed cost the fourth. That is the arithmetic behind Book 1's finding that two points of gross margin were worth $840,000 a year, and behind the warning that a company buying volume with price is pulling the strongest lever in the wrong direction.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+lever | الرافعة | levier
+sensitivity | الحساسية | sensibilité
+price response | استجابة الطلب للسعر | réaction à la variation de prix
+cost reduction | خفض التكلفة | réduction des coûts
+@end
+SECTION CHECK   Test yourself
+SC2-10  On typical cost structures, the most powerful of the four levers is:
+A.	the selling price.
+B.	the variable cost.
+C.	the fixed cost.
+D.	volume.
+SC2-11  Cutting fixed costs by 1,000,000:
+A.	adds 1,000,000 to operating income at any volume.
+B.	adds more at high volumes.
+C.	adds nothing below the breakeven.
+D.	changes the contribution margin.
+Answers and explanations are at the end of the chapter.
+2.5  Putting it to work
+The chapter's apparatus answers a board's questions directly, and three forms of question recur.
+What if volume falls? Multiply the fall in units by the contribution margin. Nothing else is needed, and the answer is always larger than a board expects because the fixed costs do not move.
+What do we need to sell? Add the target to the fixed costs and divide by the contribution margin, converting the target from after tax if necessary.
+What can we afford to spend? This is the question a marketing proposal raises, and it is the mirror of the second. A campaign costing $500,000 is a rise in fixed costs, so it pays for itself at 500,000 ÷ 4.80 = 104,167 extra jars — about 3 per cent of current volume. Whether the campaign will do that is a marketing judgment, and the accountant's contribution is the number it has to beat.
+The same arithmetic prices a sales commission, a quality improvement, a delivery promise and a discount. In each case the question is: what does this change, and how many units does the change have to produce?
+Two cautions close the chapter.
+The analysis is only as good as the cost split. If a cost treated as fixed is in fact a step cost that jumps at 4,000,000 jars, the schedule in Figure F702-02 is wrong at its top end, and the error is in the direction that flatters the decision.
+And the relevant range limits every row of that schedule. At 4,500,000 jars Orontes would need a second shift, more supervision and probably more warehousing; at 2,000,000 it would close a line and shed some of the fixed costs it is shown here as carrying. The middle of the table is reliable and the ends are illustrative, which is a sentence worth writing in an answer.
+YOUR TURN   Work the levers
+Figure F702-06 gives a company's structure. Complete the blanks. Answers are at the end of the chapter.
+Figure F702-06. Your turn: income at different levels (complete the blanks)
+@table
+Item | Data | Answer
+Contribution margin per unit | Price 40.00, variable cost 26.00 | ________
+Operating income at 300,000 units | Fixed costs 3,000,000 | ________
+Operating income at 350,000 units | | ________
+Breakeven in units | | ________
+Units for a net income target of 1,500,000 | Tax rate 25 per cent | ________
+Operating income if the price rises 5 per cent at 300,000 units | | ________
+@end
+LANGUAGE FOCUS   "Income"
+English income means several different things in one paragraph of this chapter. Operating income is profit before interest and tax; net income is profit after both; target net income is a goal; and income taxes are the charge on it. Outside accounting, income means what a person receives, which is closer to revenue than to profit — and that everyday sense is the one candidates import when they read target income as a sales target. Arabic distinguishes الربح, profit, from الدخل, income, and uses الربح for all the measures in this chapter. French uses résultat for every profit measure — résultat d'exploitation, résultat net — and reserves revenu for what a person receives, which makes the French reading of this chapter the least ambiguous of the three.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+what-if question | سؤال الاحتمالات | question de simulation
+campaign cost | تكلفة الحملة | coût de campagne
+cost split | فصل التكاليف | ventilation des coûts
+illustrative | توضيحي | indicatif
+@end
+SECTION CHECK   Test yourself
+SC2-12  A campaign costing 500,000 pays for itself, at a contribution margin of 4.80, at:
+A.	104,167 extra units.
+B.	500,000 extra units.
+C.	2,400,000 extra units.
+D.	41,667 extra units.
+SC2-13  A cost treated as fixed that is in fact a step cost jumping at a higher volume makes the schedule:
+A.	wrong at its top end, in the direction that flatters the decision.
+B.	wrong at its bottom end.
+C.	correct throughout.
+D.	more conservative.
+SC2-14  The ends of a volume schedule are illustrative rather than reliable because:
+A.	they lie outside the relevant range.
+B.	the contribution margin changes with tax.
+C.	fixed costs are unknown.
+D.	the price is unknown.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F702-07 brings the chapter together.
+Figure F702-07. Chapter 2 summary map: the key rule for each section.
+Operating income at any volume is units times the contribution margin less the fixed costs, so Orontes earns 3,000,000 × 4.80 = 14,400,000 less 12,624,000, which is 1,776,000 at three million jars and 6,576,000 at four million — and the incremental route is quicker still, since the change is simply the change in units times $4.80. Drawn, the profit-volume line starts at minus the fixed costs, crosses zero at the breakeven and rises at the contribution margin, so a steeper line comes from a better margin and a lower start from a heavier fixed base; automation does both at once, which is operating leverage. Tax does not move the breakeven, because no tax is paid on nil income, and it scales everything above it: a net target of $4,500,000 at 25 per cent needs 4,500,000 ÷ 0.75 = 6,000,000 before tax, so 12,624,000 + 6,000,000 = 18,624,000 of contribution and 18,624,000 ÷ 4.80 = 3,880,000 jars. Four levers move the answer, and on Orontes's figures a five per cent price rise is worth more than a five per cent cost cut, which is worth more than a five per cent volume gain. And every row of the schedule holds only inside the relevant range, so the middle of the table can be relied on and its ends cannot.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P2-01  Operating income equals:
+A.	units times the contribution margin, less fixed costs.
+B.	units times the price, less fixed costs.
+C.	contribution margin less variable costs.
+D.	sales less cost of goods sold.
+P2-02  At 4,000,000 jars, a contribution of 4.80 and fixed costs of 12,624,000 give:
+A.	6,576,000
+B.	19,200,000
+C.	4,176,000
+D.	2,400,000
+P2-03  The change in operating income from selling 500,000 more jars at a 4.80 contribution is:
+A.	2,400,000
+B.	6,000,000
+C.	nil
+D.	1,200,000
+P2-04  The slope of the profit-volume line is:
+A.	the contribution margin per unit.
+B.	the selling price.
+C.	the variable cost.
+D.	the fixed cost.
+P2-05  At zero volume, the profit-volume line is at:
+A.	minus the fixed costs.
+B.	zero.
+C.	minus the total costs.
+D.	the breakeven.
+P2-06  A target net income of 1,500,000 at a 25 per cent tax rate requires pre-tax income of:
+A.	2,000,000
+B.	1,125,000
+C.	1,875,000
+D.	1,500,000
+P2-07  Income taxes affect the breakeven point:
+A.	not at all.
+B.	by raising it.
+C.	by lowering it.
+D.	in proportion to the rate.
+P2-08  Which lever usually has the largest effect on operating income, for a given percentage change?
+A.	The selling price
+B.	The variable cost
+C.	The fixed cost
+D.	Volume
+P2-09  Cutting fixed costs by 1,000,000 raises operating income by:
+A.	1,000,000 at every volume.
+B.	more at higher volumes.
+C.	nothing until breakeven.
+D.	the contribution margin.
+P2-10  A schedule of operating income at volumes far from current output is:
+A.	illustrative, because those volumes lie outside the relevant range.
+B.	the most reliable part of the analysis.
+C.	unaffected by step costs.
+D.	independent of fixed costs.
+Case-style practice: three proposals for next year
+Orontes's management committee has three proposals for 2026. The sales director wants to cut the price by 40 cents to win volume, and expects 8 per cent more jars. The operations director wants to spend $1,500,000 on automation that would cut the variable cost by 50 cents a jar and raise fixed costs by that amount each year. The marketing manager wants a $600,000 campaign and expects 5 per cent more volume. The jar sells at $12.00 with variable costs of $7.20, fixed costs are $12,624,000, volume is 3,500,000 jars, and the tax rate is 25 per cent.
+Required. Compute the operating income under each proposal and rank them. Say which you would recommend and what would change your answer. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC2-1  Answer A. Contribution first, then the fixed costs.
+B is wrong. The price has not covered the variable cost of its own unit.
+C is wrong. That is the breakeven formula.
+D is wrong. That is gross profit, which contains fixed factory costs.
+SC2-2  Answer A. 14,400,000 − 12,624,000 = 1,776,000.
+B is wrong. That is the contribution, before fixed costs.
+C is wrong. That is the income at 3,500,000 jars.
+D is wrong. The figure is a profit, not a loss.
+SC2-3  Answer A. 500,000 × 4.80 = 2,400,000.
+B is wrong. That multiplies by the price, ignoring variable costs.
+C is wrong. Unchanged fixed costs are why the whole contribution falls through.
+D is wrong. This has no basis in the figures.
+SC2-4  Answer A. Each unit adds its contribution margin.
+B is wrong. The price is the slope of the revenue line on the other chart.
+C is wrong. Fixed costs set the starting point.
+D is wrong. The breakeven is where the line crosses zero.
+SC2-5  Answer A. With no units sold, the loss is the fixed costs.
+B is wrong. Zero is the breakeven, not the start.
+C is wrong. At zero volume there are no variable costs.
+D is wrong. The breakeven is to the right of the start.
+SC2-6  Answer A. Higher margin, heavier fixed base.
+B is wrong. Removing variable cost raises the margin.
+C is wrong. A heavier fixed base raises the breakeven.
+D is wrong. Both slope and intercept move.
+SC2-7  Answer A. Divide by one less the rate.
+B is wrong. That converts a pre-tax figure into an after-tax one.
+C is wrong. Rates are not added to amounts.
+D is wrong. The tax is not yet known.
+SC2-8  Answer A. 4,500,000 ÷ 0.75 = 6,000,000.
+B is wrong. That applies the rate the wrong way.
+C is wrong. This deducts the tax from the target.
+D is wrong. That is the after-tax figure.
+SC2-9  Answer A. No income means no tax.
+B is wrong. The breakeven is unaffected.
+C is wrong. The same objection applies.
+D is wrong. The rate scales results above the breakeven only.
+SC2-10  Answer A. A price change moves the largest base.
+B is wrong. The variable cost is a smaller base than the price.
+C is wrong. The fixed cost move is a flat amount.
+D is wrong. Volume adds only the contribution margin.
+SC2-11  Answer A. A fixed-cost saving is the same at every volume.
+B is wrong. The saving does not scale with volume.
+C is wrong. It reduces the loss below the breakeven too.
+D is wrong. The margin is unaffected by fixed costs.
+SC2-12  Answer A. 500,000 ÷ 4.80 = 104,167 units.
+B is wrong. That is the cost in dollars, not in units.
+C is wrong. This multiplies instead of dividing.
+D is wrong. This divides by 12.00.
+SC2-13  Answer A. The schedule understates costs at the high end.
+B is wrong. The jump is at the top.
+C is wrong. The error is real.
+D is wrong. It is optimistic, not conservative.
+SC2-14  Answer A. Outside the range the assumptions fail.
+B is wrong. Tax does not change the contribution margin.
+C is wrong. Fixed costs are known within the range.
+D is wrong. The price is given.
+Your turn
+@table
+Item | Answer
+Contribution margin per unit | 14.00: 40.00 − 26.00 = 14.00.
+Operating income at 300,000 units | 1,200,000: 300,000 × 14.00 = 4,200,000, and 4,200,000 − 3,000,000 = 1,200,000.
+Operating income at 350,000 units | 1,900,000: 350,000 × 14.00 = 4,900,000, and 4,900,000 − 3,000,000 = 1,900,000.
+Breakeven in units | 214,286: 3,000,000 ÷ 14.00 = 214,286.
+Units for a 1,500,000 net income target | 357,143: the pre-tax target is 1,500,000 ÷ 0.75 = 2,000,000, so 3,000,000 + 2,000,000 = 5,000,000 of contribution is needed, and 5,000,000 ÷ 14.00 = 357,143.
+Operating income with a 5 per cent price rise | 1,800,000: the price becomes 42.00 and the margin 42.00 − 26.00 = 16.00, so 300,000 × 16.00 = 4,800,000 less 3,000,000.
+What it tells you | A five per cent price rise adds 600,000 of operating income at unchanged volume, which is half as much again as the company earns, and the same gain would need about 43,000 extra units — a 14 per cent volume rise — to achieve any other way.
+@end
+Multiple-choice questions
+P2-01  Answer A. Contribution less fixed costs.
+B is wrong. Variable costs have not been deducted.
+C is wrong. Contribution is already net of variable costs.
+D is wrong. That is gross profit.
+P2-02  Answer A. 19,200,000 − 12,624,000 = 6,576,000.
+B is wrong. That is contribution before fixed costs.
+C is wrong. That is the income at 3,500,000 jars.
+D is wrong. That is the increment from 3,500,000 to 4,000,000.
+P2-03  Answer A. 500,000 × 4.80 = 2,400,000.
+B is wrong. That uses the selling price.
+C is wrong. Contribution falls straight through to income.
+D is wrong. This halves the correct answer.
+P2-04  Answer A. The contribution margin per unit.
+B is wrong. The price is the revenue line's slope on the other chart.
+C is wrong. The variable cost is inside the margin.
+D is wrong. Fixed costs set the intercept.
+P2-05  Answer A. The loss at zero volume is the fixed costs.
+B is wrong. Zero profit occurs at the breakeven.
+C is wrong. At zero volume there are no variable costs.
+D is wrong. The breakeven is a volume, not a starting value.
+P2-06  Answer A. 1,500,000 ÷ 0.75 = 2,000,000.
+B is wrong. That applies the rate the wrong way.
+C is wrong. This deducts tax from the target.
+D is wrong. That is the after-tax figure.
+P2-07  Answer A. No tax is paid at nil income.
+B is wrong. The breakeven does not move.
+C is wrong. The same objection applies.
+D is wrong. The rate scales results above the breakeven.
+P2-08  Answer A. The price moves the largest base.
+B is wrong. The variable cost is smaller than the price.
+C is wrong. A fixed-cost change is a flat amount.
+D is wrong. Volume contributes only the margin.
+P2-09  Answer A. The saving is the same at every volume.
+B is wrong. It does not scale with units.
+C is wrong. It reduces losses below the breakeven as well.
+D is wrong. The margin is unchanged.
+P2-10  Answer A. Those volumes lie outside the relevant range.
+B is wrong. The middle is the reliable part.
+C is wrong. Step costs are exactly what breaks the ends.
+D is wrong. Fixed costs are in every row.
+Case-style set: three proposals for next year
+The price cut. The jar falls to $11.60, so the margin becomes 11.60 − 7.20 = 4.40, and volume rises 8 per cent to 3,780,000 jars. Contribution is 3,780,000 × 4.40 = 16,632,000, and operating income is 16,632,000 − 12,624,000 = 4,008,000 — below the $4,176,000 the company earns today. The proposal loses money even though it works.
+The automation. The variable cost falls to $6.70, so the margin becomes 12.00 − 6.70 = 5.30, and fixed costs rise to 12,624,000 + 1,500,000 = 14,124,000. At the same volume, contribution is 3,500,000 × 5.30 = 18,550,000 and operating income is 18,550,000 − 14,124,000 = 4,426,000 — a gain of $250,000 a year. The breakeven rises to 14,124,000 ÷ 5.30 = 2,664,906 jars.
+The campaign. Fixed costs rise to 12,624,000 + 600,000 = 13,224,000 and volume rises 5 per cent to 3,675,000 jars. Contribution is 3,675,000 × 4.80 = 17,640,000 and operating income is 17,640,000 − 13,224,000 = 4,416,000 — a gain of $240,000, almost the same as the automation and without the capital.
+The ranking is automation first by a hair, the campaign second, and the price cut last and negative. I would recommend the campaign, because it earns almost the same as the automation, commits no capital, raises the breakeven by far less, and can be stopped after a year if it does not work. Automation raises the fixed base permanently in a company whose margin is already falling, which is the wrong direction for its operating leverage of 4.02.
+What would change the answer. If the campaign produced 6 per cent rather than 5, it would beat automation outright; if it produced 3 per cent it would lose money. The whole recommendation rests on a marketing estimate, and the number it must beat is 600,000 ÷ 4.80 = 125,000 jars, or 3.6 per cent of current volume.

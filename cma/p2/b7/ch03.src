@@ -1,0 +1,388 @@
+Chapter 3
+Sales mix, and why several products have no single breakeven
+مزيج المبيعات ولماذا لا توجد نقطة تعادل واحدة لعدة منتجات
+Orontes does not sell one thing. It sells tahini in jars, halva in bars and sesame paste in bulk drums, and each of the three carries a different contribution margin. The breakeven of Chapter 1 assumed a single product, and the moment a second one appears the question changes: breakeven in what?
+The answer is that a multi-product company has a breakeven for every mix it might sell, and only an assumed mix produces a single number. That is not a defect of the model; it is a fact about the business, and the exam tests whether a candidate can both compute the number under an assumed mix and explain why the number moves when the mix does.
+Figure F703-01 is your map.
+Figure F703-01. Chapter 3 roadmap: three products, one weighted margin, and a breakeven that moves.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+C.1.g | Explain how a change in sales mix affects operating income with several products. | C | Full treatment
+C.1.h | Calculate a multiple-product breakeven from the percentage share of sales, and explain why there is no unique breakeven. | C | Full treatment
+C.1.e | Weight contribution margins across a product range. | B | Reinforced (introduced in Chapter 1)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+sales mix | مزيج المبيعات | mix des ventes
+weighted-average contribution margin | المتوسط المرجح لهامش المساهمة | marge moyenne pondérée
+bundle | الحزمة | panier type
+mix shift | تحول المزيج | déformation du mix
+product line | خط المنتجات | ligne de produits
+composite unit | الوحدة المركبة | unité composite
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 computed Orontes's breakeven on the tahini jar alone: fixed costs of $12,624,000 over a contribution margin of $4.80 gives 2,630,000 jars. Book 1 found that a change in product mix is one of the four reasons a gross margin moves, and the one candidates forget. This chapter is that reason, measured.
+3.1  Three products, three margins
+Figure F703-02 sets out Orontes's range.
+Figure F703-02. Orontes Foods, Inc. — the three lines
+@table
+Product | Selling price | Variable cost | Contribution margin | Contribution ratio
+Tahini, 1 kg jar | 12.00 | 7.20 | 4.80 | 40.0%
+Halva bar | 3.00 | 1.80 | 1.20 | 40.0%
+Sesame paste, 10 kg drum | 60.00 | 39.00 | 21.00 | 35.0%
+@end
+Two of the three earn the same ratio and very different amounts. A jar contributes four times what a bar does, and a drum contributes four times a jar. So a company that sells more drums earns more contribution for each unit sold, and a company that sells more bars earns less — before any question of ratio arises.
+The drum, meanwhile, has the lowest ratio of the three: 21.00 ÷ 60.00 = 35.0 per cent against 40.0 for the other two. So a company that sells more drums earns less contribution for each dollar of sales.
+Those two sentences point in opposite directions, and keeping them apart is the whole of this chapter. Which one matters depends on what is scarce.
+If capacity is measured in units — jars filled an hour, drums handled a day — then contribution per unit is the ranking that counts, and the drum is the best product.
+If the constraint is the market rather than the factory, so that the question is how much revenue the company can win, then contribution per sales dollar is the ranking that counts, and the jar and the bar are better.
+If some other resource is scarce — kilograms of sesame, hours on the roaster, square metres of warehouse — then neither ranking is right, and the correct one is contribution per unit of that resource. Chapter 6 develops that properly.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+contribution per unit | المساهمة لكل وحدة | marge par unité
+contribution per sales dollar | المساهمة لكل دولار مبيعات | marge par euro de vente
+constraint | القيد | contrainte
+ranking | الترتيب | classement
+@end
+SECTION CHECK   Test yourself
+SC3-1  A drum contributing 21.00 on a price of 60.00 has a contribution ratio of:
+A.	35.0 per cent
+B.	40.0 per cent
+C.	21.0 per cent
+D.	65.0 per cent
+SC3-2  Where the factory's capacity is the constraint, products should be ranked by:
+A.	contribution per unit of the constrained capacity.
+B.	selling price.
+C.	contribution ratio.
+D.	gross margin.
+SC3-3  A product with the highest contribution per unit may still have:
+A.	the lowest contribution ratio.
+B.	the highest price only.
+C.	no variable costs.
+D.	no fixed costs.
+Answers and explanations are at the end of the chapter.
+3.2  The weighted-average contribution margin
+With a mix assumed, the three products can be treated as one composite product — a bundle containing the products in their usual proportions — and the single-product arithmetic of Chapter 1 applies to the bundle.
+Orontes sells, in units, five jars and ten bars for every drum. So one bundle is 5 jars, 10 bars and 1 drum.
+Its contribution is 5 × 4.80 = 24.00 from the jars, 10 × 1.20 = 12.00 from the bars and 1 × 21.00 = 21.00 from the drum, which is 24.00 + 12.00 + 21.00 = 57.00 a bundle.
+Its revenue is 5 × 12.00 = 60.00, 10 × 3.00 = 30.00 and 1 × 60.00 = 60.00, which is 60.00 + 30.00 + 60.00 = 150.00 a bundle.
+The weighted-average contribution ratio is therefore 57.00 ÷ 150.00 = 38.0 per cent — between the 40 per cent of two products and the 35 per cent of the third, and nearer the 40 because the drum is only part of the bundle.
+WORKED EXAMPLE   Worked example: the breakeven of the bundle
+Step 1. The breakeven in bundles. Fixed costs over the bundle's contribution: 12,624,000 ÷ 57.00 = 221,474 bundles.
+Step 2. The breakeven in units. Each bundle contains five jars, ten bars and a drum, so the company breaks even at 5 × 221,474 = 1,107,370 jars, 10 × 221,474 = 2,214,740 bars and 221,474 drums.
+Step 3. The breakeven in dollars. Either multiply the bundles by the bundle's revenue, 221,474 × 150.00 = 33,221,100, or divide the fixed costs by the weighted ratio: 12,624,000 ÷ 0.38 = 33,221,053. The small difference is rounding in the number of bundles.
+Check. Compare that with Chapter 1's single-product answer of $31,560,000. The company needs about $1,660,000 more sales to break even once the lower-margin drum is in the mix — which is the whole effect of a mix in one number, and the reason a breakeven computed on the flagship product alone flatters the business.
+A second route reaches the same place from sales percentages rather than unit ratios, and the exam uses it at least as often. In the bundle, the jars are 60.00 ÷ 150.00 = 40.0 per cent of revenue, the bars 30.00 ÷ 150.00 = 20.0 per cent and the drums 40.0 per cent. Weighting each product's own contribution ratio by its share of sales: 0.40 × 40 = 16.0, 0.20 × 40 = 8.0 and 0.40 × 35 = 14.0, which is 16.0 + 8.0 + 14.0 = 38.0 per cent — the same weighted ratio, reached without ever constructing a bundle.
+Figure F703-03 sets the two routes side by side.
+Figure F703-03. Two routes to the same weighted margin
+@table
+Route | What is weighted | By what | Orontes
+Composite unit | Contribution per unit | The unit mix, 5 : 10 : 1 | 57.00 a bundle, 38.0% of 150.00
+Sales percentage | Contribution ratio | The share of sales dollars | 38.0 per cent
+@end
+EXAM TRAP   Which mix is given
+A mix in units is not a mix in dollars. Five jars to one drum is a unit mix of 5 : 1 and a sales mix of 60 : 60, which is 50 : 50. Read which the question gives before weighting anything.
+The weighted contribution margin per bundle answers a question in bundles. Convert back into units at the end, or the answer is in a unit nobody buys.
+The weighted ratio always lies between the highest and lowest product ratios. An answer outside that range is an arithmetic error.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+unit mix | مزيج الوحدات | mix en volume
+revenue share | حصة الإيراد | part du chiffre d'affaires
+weighting | الترجيح | pondération
+@end
+SECTION CHECK   Test yourself
+SC3-4  A bundle of 5 jars at 4.80, 10 bars at 1.20 and 1 drum at 21.00 contributes:
+A.	57.00
+B.	27.00
+C.	150.00
+D.	26.40
+SC3-5  Fixed costs of 12,624,000 and a bundle contribution of 57.00 give a breakeven of:
+A.	221,474 bundles
+B.	221,474 jars
+C.	2,630,000 bundles
+D.	33,221,100 bundles
+SC3-6  The weighted-average contribution ratio of products earning 40, 40 and 35 per cent:
+A.	must lie between 35 and 40 per cent.
+B.	may exceed 40 per cent.
+C.	may fall below 35 per cent.
+D.	is always the simple average.
+Answers and explanations are at the end of the chapter.
+3.3  When the mix shifts
+The reason the exam insists there is no unique breakeven is that the whole calculation above rests on an assumption nobody controls: that customers will go on buying in the same proportions.
+Suppose they do not. Suppose the bars sell better and the jars worse, so the mix becomes four jars and twelve bars to each drum.
+The bundle's contribution becomes 4 × 4.80 = 19.20 from the jars, 12 × 1.20 = 14.40 from the bars and 21.00 from the drum, which is 19.20 + 14.40 + 21.00 = 54.60.
+Its revenue becomes 4 × 12.00 = 48.00, 12 × 3.00 = 36.00 and 60.00, which is 48.00 + 36.00 + 60.00 = 144.00.
+The weighted ratio becomes 54.60 ÷ 144.00 = 37.92 per cent, barely moved, and the breakeven in bundles becomes 12,624,000 ÷ 54.60 = 231,209 — nearly ten thousand bundles more than before.
+Nothing about prices, costs or fixed costs changed. Customers bought one more bar and one less jar per bundle, and the company must now sell more to stand still.
+Figure F703-04 shows the effect across four mixes.
+Figure F703-04. The same products, four mixes
+@table
+Mix of jars : bars : drums | Bundle contribution | Bundle revenue | Weighted ratio | Breakeven in bundles
+5 : 10 : 1 | 57.00 | 150.00 | 38.0% | 221,474
+4 : 12 : 1 | 54.60 | 144.00 | 37.92% | 231,209
+6 : 8 : 1 | 59.40 | 156.00 | 38.08% | 212,525
+3 : 10 : 2 | 68.40 | 186.00 | 36.77% | 184,561
+@end
+Read the last two columns together and the lesson arrives. The weighted ratio barely moves across all four mixes — from 36.77 to 38.08 per cent — while the breakeven in bundles moves by more than twenty per cent. That is because a bundle is a different thing in each row: the fourth mix contains two drums, so each bundle is larger and fewer are needed.
+Which is why the answer to "what is the breakeven" is always "in what mix", and why a question that gives a sales mix is giving an assumption rather than a fact.
+Three practical consequences, all examinable.
+A company can miss its profit target while beating its sales target, if the mix moves towards the thinner products. The sales force is told to sell dollars and is paid on dollars, and the dollars arrive while the contribution does not.
+A company can beat its profit target while missing its sales target, by the same mechanism in reverse. Book 1's warning about judging a year by its top line applies here with a number attached.
+And a commission scheme paid on revenue produces exactly the first outcome. A scheme paid on contribution margin aligns the sales force with the company, and is the standard recommendation in an exam answer on this topic.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+mix variance | انحراف المزيج | écart de mix
+commission scheme | نظام العمولات | système de commissions
+alignment | المواءمة | alignement
+target | الهدف | objectif
+@end
+SECTION CHECK   Test yourself
+SC3-7  A shift in mix towards lower-margin products, with no change in prices or costs:
+A.	raises the breakeven.
+B.	lowers the breakeven.
+C.	leaves the breakeven unchanged.
+D.	lowers the fixed costs.
+SC3-8  A company can beat its sales target and miss its profit target because:
+A.	the mix moved towards thinner products.
+B.	fixed costs fell.
+C.	the contribution ratio rose.
+D.	the tax rate changed.
+SC3-9  A sales commission paid on revenue rather than on contribution margin:
+A.	encourages selling whatever is easiest, regardless of margin.
+B.	aligns the sales force with profit.
+C.	is required by the standards.
+D.	has no behavioural effect.
+Answers and explanations are at the end of the chapter.
+3.4  Why there is no unique breakeven
+The outcome asks for the explanation and not only the calculation, so here it is in its strongest form.
+Breaking even means covering $12,624,000 of fixed costs with contribution. Any combination of jars, bars and drums whose contributions add to that figure will do it, and there are infinitely many such combinations.
+Selling nothing but jars, the company needs 12,624,000 ÷ 4.80 = 2,630,000 jars, which is $31,560,000 of sales.
+Selling nothing but bars, it needs 12,624,000 ÷ 1.20 = 10,520,000 bars, which is also $31,560,000 of sales — the same, because the two products share a 40 per cent ratio.
+Selling nothing but drums, it needs 12,624,000 ÷ 21.00 = 601,143 drums, which is 601,143 × 60.00 = 36,068,580 of sales.
+So the breakeven in dollars is anywhere between about $31,560,000 and 36,068,580, depending entirely on what the company sells. There is no single number, and the one computed in section 3.2 is the number for one assumed mix.
+That is the answer the exam wants, and the way to write it is in three sentences: the breakeven depends on the weighted contribution margin; the weighted margin depends on the mix; therefore each mix has its own breakeven, and a unique figure exists only when the mix is assumed constant.
+Figure F703-05 sets out the range.
+Figure F703-05. Orontes's breakeven, under four pure and mixed cases
+@table
+What the company sells | Units needed | Sales needed | Weighted ratio
+Jars only | 2,630,000 jars | 31,560,000 | 40.0%
+Bars only | 10,520,000 bars | 31,560,000 | 40.0%
+Drums only | 601,143 drums | 36,068,580 | 35.0%
+The 5 : 10 : 1 mix | 221,474 bundles | 33,221,100 | 38.0%
+@end
+One more point completes the outcome, and it is the one that connects this chapter to Book 1. A company with several products has a gross margin that moves when the mix moves, with no change in any product's own margin — which is the third of the four causes Book 1 listed for a margin change, and the one it said candidates forget. Orontes's gross margin fell from 37.0 to 35.0 per cent over three years. Part of that could be price and part could be input costs, and part could be nothing more than drums growing faster than jars. The company's own management accounts would show which; the published statements never will.
+YOUR TURN   Weight a mix
+Figure F703-06 gives a company with two products. Complete the blanks. Answers are at the end of the chapter.
+Figure F703-06. Your turn: a two-product breakeven (complete the blanks)
+@table
+Item | Data | Answer
+Contribution per unit, product A | Price 25.00, variable cost 15.00 | ________
+Contribution per unit, product B | Price 10.00, variable cost 7.00 | ________
+Bundle contribution | Mix of 2 A to 3 B | ________
+Bundle revenue | | ________
+Weighted contribution ratio | | ________
+Breakeven in bundles | Fixed costs 1,160,000 | ________
+Units of each at breakeven | | ________
+@end
+LANGUAGE FOCUS   "Mix"
+English mix in management accounting means the proportions in which things are sold or used, and it appears in three compounds the exam uses without explanation: sales mix, the proportions of products sold; product mix, often the same thing and sometimes the range offered; and mix variance, the part of a profit difference caused by proportions rather than by volume or price. Arabic مزيج covers all three. French uses mix as a borrowing in mix des ventes and mix produits, and composition for the general sense — and note that French mixte means mixed in the sense of combined, as in coût mixte, a semi-variable cost, which is an entirely different idea from mix. Read the compound, not the word.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+pure case | الحالة الصافية | cas pur
+infinitely many | عدد لا نهائي | une infinité
+assumed constant | مفترض الثبات | supposé constant
+management accounts | الحسابات الإدارية | comptabilité de gestion
+@end
+SECTION CHECK   Test yourself
+SC3-10  Selling only jars, Orontes breaks even at:
+A.	2,630,000 jars, or 31,560,000 of sales.
+B.	221,474 jars.
+C.	601,143 jars.
+D.	10,520,000 jars.
+SC3-11  There is no unique breakeven for a multi-product company because:
+A.	the weighted contribution margin depends on the mix.
+B.	fixed costs are unknown.
+C.	prices change constantly.
+D.	the tax rate varies.
+SC3-12  A gross margin can fall with no change in any product's own margin when:
+A.	the mix shifts towards lower-margin products.
+B.	fixed costs rise.
+C.	volume falls.
+D.	the tax rate rises.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F703-07 brings the chapter together.
+Figure F703-07. Chapter 3 summary map: the key rule for each section.
+Orontes sells a jar contributing $4.80 at a 40 per cent ratio, a bar contributing $1.20 at the same ratio and a drum contributing $21.00 at 35 per cent, so the drum is the best product per unit and the worst per sales dollar — and which ranking matters depends on what is scarce. With a mix assumed, the products become one composite bundle: five jars, ten bars and a drum contribute 24.00 + 12.00 + 21.00 = 57.00 on revenue of 150.00, a weighted ratio of 57.00 ÷ 150.00 = 38.0 per cent, so the breakeven is 12,624,000 ÷ 57.00 = 221,474 bundles, or 33,221,100 of sales against the $31,560,000 the flagship product alone suggested. Move the mix to four jars and twelve bars and the bundle contributes 54.60, taking the breakeven to 12,624,000 ÷ 54.60 = 231,209 bundles with no change in any price or cost — which is how a company beats its sales target and misses its profit target, and why a commission paid on revenue is the wrong scheme. And there is no unique breakeven at all: jars only needs $31,560,000, drums only needs 36,068,580, and every mix in between has its own answer, which is also the third of Book 1's four reasons a gross margin moves.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P3-01  A drum sells at 60.00 with variable costs of 39.00. Its contribution ratio is:
+A.	35.0 per cent
+B.	65.0 per cent
+C.	40.0 per cent
+D.	21.0 per cent
+P3-02  A bundle of 5 jars at 4.80, 10 bars at 1.20 and 1 drum at 21.00 contributes:
+A.	57.00
+B.	150.00
+C.	27.00
+D.	26.40
+P3-03  That bundle's revenue is:
+A.	150.00
+B.	57.00
+C.	93.00
+D.	72.00
+P3-04  The weighted contribution ratio of that bundle is:
+A.	38.0 per cent
+B.	40.0 per cent
+C.	35.0 per cent
+D.	26.0 per cent
+P3-05  With fixed costs of 12,624,000, the breakeven in bundles is:
+A.	221,474
+B.	2,630,000
+C.	33,221,100
+D.	84,160
+P3-06  At that breakeven, the number of bars sold is:
+A.	2,214,740
+B.	221,474
+C.	1,107,370
+D.	10,520,000
+P3-07  A shift towards lower-margin products:
+A.	raises the breakeven with no change in prices or costs.
+B.	lowers the breakeven.
+C.	lowers fixed costs.
+D.	raises the contribution ratio.
+P3-08  A commission paid on revenue rather than contribution margin tends to:
+A.	encourage sales of whatever is easiest to sell.
+B.	align the sales force with profit.
+C.	lower the breakeven.
+D.	have no effect.
+P3-09  Selling only drums, a company with fixed costs of 12,624,000 and a 21.00 contribution needs:
+A.	601,143 drums
+B.	2,630,000 drums
+C.	221,474 drums
+D.	210,400 drums
+P3-10  The best statement of why a multi-product breakeven is not unique is:
+A.	the weighted margin depends on the mix, so each mix has its own breakeven.
+B.	fixed costs are estimates.
+C.	prices change.
+D.	volume is unknown.
+Case-style practice: the sales director's bonus
+Orontes's sales director is paid a bonus on revenue growth. Last year revenue grew 6 per cent and operating income fell 4 per cent. The three products are the jar at a $4.80 contribution, the bar at $1.20 and the drum at $21.00, and the mix in units moved from 5 : 10 : 1 to 4 : 14 : 1. Fixed costs were unchanged at $12,624,000.
+Required. Explain, with figures, how both results can be true at once. Say what you would change about the bonus and what you would ask the sales director before changing anything. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC3-1  Answer A. 21.00 ÷ 60.00 = 35.0 per cent.
+B is wrong. That is the ratio on the jar and the bar.
+C is wrong. That is the contribution in dollars.
+D is wrong. That is the variable cost ratio.
+SC3-2  Answer A. The scarce resource decides the ranking.
+B is wrong. Price says nothing about cost.
+C is wrong. The ratio ranks by sales dollars, not by capacity.
+D is wrong. Gross margin contains fixed factory costs.
+SC3-3  Answer A. A large contribution on a large price can be a small ratio.
+B is wrong. The price alone is not the point.
+C is wrong. Every product here has variable costs.
+D is wrong. Fixed costs are not attributed per unit in this analysis.
+SC3-4  Answer A. 24.00 + 12.00 + 21.00 = 57.00.
+B is wrong. This omits a component.
+C is wrong. That is the bundle's revenue.
+D is wrong. This has no basis in the figures.
+SC3-5  Answer A. 12,624,000 ÷ 57.00 = 221,474 bundles.
+B is wrong. The answer is in bundles, not jars.
+C is wrong. That is the single-product answer.
+D is wrong. That is the breakeven in dollars.
+SC3-6  Answer A. A weighted average lies between its extremes.
+B is wrong. No weighting can exceed the highest component.
+C is wrong. Nor fall below the lowest.
+D is wrong. The simple average ignores the weights.
+SC3-7  Answer A. A lower weighted margin needs more volume.
+B is wrong. The direction is the opposite.
+C is wrong. The breakeven moves with the weighted margin.
+D is wrong. Fixed costs are unaffected by mix.
+SC3-8  Answer A. Dollars arrive and contribution does not.
+B is wrong. Lower fixed costs would raise profit.
+C is wrong. A higher ratio would raise profit.
+D is wrong. Tax affects net income, not operating income.
+SC3-9  Answer A. Revenue-based pay ignores margin.
+B is wrong. Alignment requires paying on contribution.
+C is wrong. No standard governs commissions.
+D is wrong. Incentives change behaviour, which is the point.
+SC3-10  Answer A. 12,624,000 ÷ 4.80 = 2,630,000 jars at 12.00 each.
+B is wrong. That is the bundle figure.
+C is wrong. That is the drums-only figure.
+D is wrong. That is the bars-only figure.
+SC3-11  Answer A. Each mix has its own weighted margin.
+B is wrong. Fixed costs are given.
+C is wrong. Prices are held constant in the analysis.
+D is wrong. Tax does not affect the breakeven.
+SC3-12  Answer A. Mix is the cause that leaves every individual margin intact.
+B is wrong. Fixed costs are below the gross margin in a contribution analysis and do not move it.
+C is wrong. Volume changes the amount, not the rate.
+D is wrong. Tax is below the line entirely.
+Your turn
+@table
+Item | Answer
+Contribution per unit, product A | 10.00: 25.00 − 15.00 = 10.00.
+Contribution per unit, product B | 3.00: 10.00 − 7.00 = 3.00.
+Bundle contribution | 29.00: 2 × 10.00 = 20.00 from A and 3 × 3.00 = 9.00 from B.
+Bundle revenue | 80.00: 2 × 25.00 = 50.00 and 3 × 10.00 = 30.00.
+Weighted contribution ratio | 36.25 per cent: 29.00 ÷ 80.00 = 36.25 per cent.
+Breakeven in bundles | 40,000: 1,160,000 ÷ 29.00 = 40,000.
+Units of each at breakeven | 80,000 of A and 120,000 of B: 2 × 40,000 = 80,000 and 3 × 40,000 = 120,000.
+What it tells you | The breakeven in sales is 40,000 × 80.00 = 3,200,000, and it would be 1,160,000 ÷ 0.40 = 2,900,000 if the company sold nothing but product A. The 300,000 of difference is the cost of carrying the thinner product, and it is the number to weigh against whatever the thinner product brings in volume or in customers.
+@end
+Multiple-choice questions
+P3-01  Answer A. 21.00 ÷ 60.00 = 35.0 per cent.
+B is wrong. That is the variable cost ratio.
+C is wrong. That is the jar's and the bar's ratio.
+D is wrong. That is the contribution in dollars.
+P3-02  Answer A. 24.00 + 12.00 + 21.00 = 57.00.
+B is wrong. That is the revenue.
+C is wrong. This omits a component.
+D is wrong. This has no basis in the figures.
+P3-03  Answer A. 60.00 + 30.00 + 60.00 = 150.00.
+B is wrong. That is the contribution.
+C is wrong. This omits a component.
+D is wrong. This has no basis in the figures.
+P3-04  Answer A. 57.00 ÷ 150.00 = 38.0 per cent.
+B is wrong. That is two of the three products' own ratio.
+C is wrong. That is the drum's ratio.
+D is wrong. This has no basis in the figures.
+P3-05  Answer A. 12,624,000 ÷ 57.00 = 221,474 bundles.
+B is wrong. That is the jars-only answer in jars.
+C is wrong. That is the breakeven in dollars.
+D is wrong. This divides by 150.00.
+P3-06  Answer A. 10 × 221,474 = 2,214,740 bars.
+B is wrong. That is the number of bundles.
+C is wrong. That is the number of jars.
+D is wrong. That is the bars-only breakeven.
+P3-07  Answer A. The weighted margin falls, so more volume is needed.
+B is wrong. The direction is the opposite.
+C is wrong. Fixed costs do not move with mix.
+D is wrong. The ratio falls, not rises.
+P3-08  Answer A. Easy sales are not always profitable ones.
+B is wrong. Alignment needs contribution-based pay.
+C is wrong. Commission schemes do not change the breakeven directly.
+D is wrong. Incentives change behaviour.
+P3-09  Answer A. 12,624,000 ÷ 21.00 = 601,143 drums.
+B is wrong. That is the jars-only figure.
+C is wrong. That is the number of bundles.
+D is wrong. This has no basis in the figures.
+P3-10  Answer A. The mix determines the weighted margin.
+B is wrong. Estimation is a separate issue.
+C is wrong. The analysis holds prices constant.
+D is wrong. Volume is what is being solved for.
+Case-style set: the sales director's bonus
+How both can be true. Under the old mix of 5 : 10 : 1, a bundle contributed 24.00 + 12.00 + 21.00 = 57.00 on revenue of 150.00, a ratio of 38.0 per cent. Under the new mix of 4 : 14 : 1 it contributes 4 × 4.80 = 19.20 from jars, 14 × 1.20 = 16.80 from bars and 21.00 from the drum, which is 19.20 + 16.80 + 21.00 = 57.00 — the same contribution — on revenue of 48.00 + 42.00 + 60.00 = 150.00, also the same. On those figures contribution per bundle is unchanged, so the fall in operating income must come from the bundles themselves: revenue grew 6 per cent while the bundle got no richer, and contribution grew by less than the fixed costs' share of the extra activity absorbed.
+The general mechanism is the one to state. Revenue is a count of dollars and contribution is a count of margin, and a mix that moves towards bars buys dollars with the thinnest product in the range. A bar brings $3.00 of revenue and $1.20 of contribution; a jar brings $12.00 and $4.80. Four bars equal one jar in revenue and in contribution — but only if the four bars cost no more to sell, pick, pack and deliver than the one jar, which they certainly do.
+What I would change. Pay the bonus on contribution margin rather than on revenue, and state the margin per product in the sales system so that the sales force sees what it is earning for the company.
+What I would ask first. Whether the mix shift was the sales director's doing or the market's. If customers are moving to bars, the bonus is not the problem and the product range is. If the sales force chose the easy sale, the bonus is the problem and changing it will change the behaviour — and the second question is what the per-unit cost of handling a bar really is, because the figures above assume it is proportionate and nobody has checked.

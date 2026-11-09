@@ -1,0 +1,520 @@
+Chapter 4
+Margin of safety, sensitivity, and the recommendation
+هامش الأمان وتحليل الحساسية والتوصية
+The breakeven point says where profit begins. The margin of safety says how far the company is standing from it, which is the question a board actually asks: how much could go wrong before we lose money?
+This chapter measures that distance, then tests how much the whole analysis depends on the assumptions behind it, and finally does the thing the outcome asks for — turns the arithmetic into a recommendation. That last step is where marks are won and lost in Section C, because a calculation with no conclusion answers no question that was asked.
+Figure F704-01 is your map.
+Figure F704-01. Chapter 4 roadmap: the distance from breakeven, how fragile it is, and what to do about it.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+C.1.i
+Define, calculate and interpret the margin of safety and the margin of safety ratio.
+C
+Full treatment
+C.1.j
+Explain how sensitivity analysis is used when sales are uncertain.
+C
+Full treatment
+C.1.k
+Analyse and recommend a course of action using cost-volume-profit analysis.
+C
+Full treatment
+C.1.b
+Carry an income schedule into a recommendation.
+B
+Reinforced (introduced in Chapter 2)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section C outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+margin of safety
+هامش الأمان
+marge de sécurité
+margin of safety ratio
+نسبة هامش الأمان
+taux de marge de sécurité
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+scenario
+السيناريو
+scénario
+expected value
+القيمة المتوقعة
+espérance mathématique
+indifference point
+نقطة اللامبالاة
+point d'indifférence
+degree of operating leverage
+درجة الرفع التشغيلي
+levier d'exploitation
+recommendation
+التوصية
+recommandation
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 put Orontes's breakeven at 2,630,000 jars, or $31,560,000 of sales, against actual sales of 3,500,000 jars and $42,000,000. Chapter 3 showed that the breakeven moves with the mix, and under the company's real three-product mix it is 33,221,100. Book 1 measured a degree of operating leverage of 4.02. This chapter is what those figures are for.
+4.1  The margin of safety
+The margin of safety is the amount by which sales exceed the breakeven. Below that amount the company still makes money; past it, it does not.
+For Orontes on the single-product figures: 42,000,000 − 31,560,000 = 10,440,000 of sales, which as a proportion is 10,440,000 ÷ 42,000,000 = 24.86 per cent. In units it is 3,500,000 − 2,630,000 = 870,000 jars.
+So Orontes can lose a quarter of its sales before it loses money. That is a usable sentence for a board, and it is the single most useful figure in Section C, because it converts a cost structure into a statement about risk.
+On the three-product mix of Chapter 3 the picture is tighter: the breakeven is 33,221,100 of sales, so the margin of safety is 42,000,000 − 33,221,100 = 8,778,900, which is 8,778,900 ÷ 42,000,000 = 20.90 per cent. Four points of safety disappear once the lower-margin drum is in the mix, which is the mix effect of Chapter 3 expressed as risk rather than as a breakeven.
+Three readings of the ratio, all examinable.
+A high margin of safety means a company can absorb a bad year. A low one means a small fall in demand turns a profit into a loss.
+The margin of safety and the degree of operating leverage are the same fact from two directions. Orontes's leverage of 4.02 says a 10 per cent sales fall costs 40 per cent of the profit; its margin of safety of 24.86 per cent says the profit disappears entirely at a fall of about a quarter. Both come from the same two numbers, the contribution margin and the fixed costs, and the exam may ask for either.
+A margin of safety is meaningful only against the mix and the relevant range assumed. A company that would shed fixed costs if volume fell by a quarter has a larger true margin than the arithmetic shows.
+Figure F704-02 compares the two companies of these books.
+Figure F704-02. Margin of safety, two companies
+Measure
+Orontes, single product
+Orontes, three-product mix
+Barada
+Sales
+42,000,000
+42,000,000
+21,978,000
+Breakeven sales
+31,560,000
+33,221,100
+17,328,000
+Margin of safety
+10,440,000
+8,778,900
+4,650,000
+Margin of safety ratio
+24.86%
+20.90%
+21.16%
+Degree of operating leverage
+4.02
+4.02
+4.73
+Barada's position repays a second look. Its margin of safety ratio of 21.16 per cent looks much like Orontes's, and its operating leverage of 4.73 is worse — and the figure that matters most is in neither column: its contribution margin ratio is 12 per cent against Orontes's 40. Barada has to replace eight dollars of lost sales to recover one dollar of lost contribution, where Orontes replaces two and a half. A margin of safety says how far away the cliff is; it does not say how hard the climb back up would be.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+distance from breakeven
+المسافة عن نقطة التعادل
+distance au seuil
+absorb a shock
+امتصاص الصدمة
+absorber un choc
+cliff edge
+حافة الخطر
+point de bascule
+SECTION CHECK   Test yourself
+SC4-1  The margin of safety is:
+A.	sales less breakeven sales.
+B.	sales less variable costs.
+C.	breakeven sales less fixed costs.
+D.	contribution margin less fixed costs.
+SC4-2  Sales of 42,000,000 and a breakeven of 31,560,000 give a margin of safety ratio of:
+A.	24.86 per cent
+B.	75.14 per cent
+C.	33.1 per cent
+D.	10,440,000 per cent
+SC4-3  A low margin of safety means:
+A.	a small fall in demand turns the profit into a loss.
+B.	fixed costs are low.
+C.	the contribution margin is high.
+D.	the company is profitable.
+Answers and explanations are at the end of the chapter.
+4.2  Sensitivity analysis
+Every figure in Chapters 1 to 3 was treated as known. None of them is. The price is a forecast, the variable cost depends on the sesame market, the fixed costs depend on decisions not yet taken, and the volume is the least certain of the four. Sensitivity analysis asks how much the conclusion depends on each.
+Three techniques, in rising order of effort, and the exam names all three.
+One-at-a-time sensitivity. Change a single input by a stated amount and see what happens. Chapter 2's Figure F702-05 was exactly this: five per cent on each of four inputs, which showed the price to be the most powerful and the fixed cost the least. The output is a ranking of what matters.
+Scenario analysis. Change several inputs together in a way that makes a coherent story — a bad year has lower volume and lower prices and probably higher input costs, because they tend to arrive together. One-at-a-time analysis cannot capture that, and a scenario can.
+Simulation. Assign a distribution to each input and let a computer draw thousands of combinations, producing a distribution of outcomes rather than three. Chapter 15 returns to it under the name Monte Carlo simulation; it is not examined computationally here.
+WORKED EXAMPLE   Worked example: three scenarios for Orontes
+Step 1. The base case. 3,500,000 jars at a $4.80 contribution gives 3,500,000 × 4.80 = 16,800,000 of contribution, and 16,800,000 − 12,624,000 = 4,176,000 of operating income.
+Step 2. The pessimistic case. Volume falls 10 per cent to 3,150,000 jars and the price is cut 2 per cent to $11.76, so the margin becomes 11.76 − 7.20 = 4.56. Contribution is 3,150,000 × 4.56 = 14,364,000 and operating income is 14,364,000 − 12,624,000 = 1,740,000.
+Step 3. The optimistic case. Volume rises 8 per cent to 3,780,000 jars at a price 2 per cent higher, $12.24, so the margin is 12.24 − 7.20 = 5.04. Contribution is 3,780,000 × 5.04 = 19,051,200 and operating income is 19,051,200 − 12,624,000 = 6,427,200.
+Step 4. The expected value. At probabilities of 0.25, 0.50 and 0.25: 0.25 × 1,740,000 = 435,000, 0.50 × 4,176,000 = 2,088,000 and 0.25 × 6,427,200 = 1,606,800, which add to 435,000 + 2,088,000 + 1,606,800 = 4,129,800.
+Check. The expected value is close to the base case and the spread around it is enormous: from $1,740,000 to $6,427,200, a range nearly as large as the expected value itself. That spread is the finding, not the expectation, and an answer that quotes only the $4,129,800 has hidden the thing the board needed to know — which is Chapter 1 of Book 2 restated in a Section C setting.
+Figure F704-03 sets the scenarios out.
+Figure F704-03. Three scenarios, one cost structure
+Scenario
+Volume
+Price
+Contribution margin
+Operating income
+Probability
+Pessimistic
+3,150,000
+11.76
+4.56
+1,740,000
+0.25
+Base
+3,500,000
+12.00
+4.80
+4,176,000
+0.50
+Optimistic
+3,780,000
+12.24
+5.04
+6,427,200
+0.25
+Expected value
+4,129,800
+1.00
+EXAM TRAP   Scenarios and single variables
+A scenario changes several inputs together. Changing one at a time and adding the results double-counts and usually overstates the range.
+An expected value is not an outcome. It is a weighted average of outcomes, and it may itself be impossible.
+Where a question gives probabilities, use them; where it does not, present the range and say which end you regard as more likely and why.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+one-at-a-time
+متغير واحد في كل مرة
+variable par variable
+pessimistic case
+الحالة المتشائمة
+scénario pessimiste
+simulation
+المحاكاة
+simulation
+range of outcomes
+مدى النتائج
+fourchette de résultats
+SECTION CHECK   Test yourself
+SC4-4  Scenario analysis differs from one-at-a-time sensitivity in that it:
+A.	changes several inputs together in a coherent story.
+B.	changes one input at a time.
+C.	uses no assumptions.
+D.	produces a single answer.
+SC4-5  An expected value of 4,129,800 computed from outcomes of 1,740,000, 4,176,000 and 6,427,200:
+A.	is a weighted average and may itself never occur.
+B.	is the most likely outcome.
+C.	is the best case.
+D.	is the breakeven.
+SC4-6  The most useful output of a sensitivity analysis is usually:
+A.	which input the answer depends on most.
+B.	the expected value.
+C.	the number of scenarios.
+D.	the tax rate.
+Answers and explanations are at the end of the chapter.
+4.3  Choosing between cost structures
+A particular kind of recommendation recurs in this topic: two ways of doing the same thing, with different mixes of fixed and variable cost. Automating or not; employing a salaried sales force or paying commission; owning a fleet or using a carrier; renting a warehouse or paying per pallet.
+In every case one option has higher fixed costs and a higher contribution margin, and the other the reverse. The question is which is better, and the answer always depends on volume. The volume at which the two are equally good is the indifference point.
+WORKED EXAMPLE   Worked example: the indifference volume
+Step 1. The options. Orontes can continue as it is, with a contribution margin of $4.80 and fixed costs of $12,624,000, or automate, which Chapter 2 priced at a margin of $5.30 and fixed costs of $14,124,000.
+Step 2. What differs. Automation adds 14,124,000 − 12,624,000 = 1,500,000 of fixed cost and 5.30 − 4.80 = 0.50 of contribution a jar.
+Step 3. The indifference volume. The extra margin must cover the extra fixed cost: 1,500,000 ÷ 0.50 = 3,000,000 jars.
+Step 4. The reading. Above 3,000,000 jars automation earns more; below it, the present structure does. Orontes sells 3,500,000, so automation is the better choice at current volume — by 500,000 × 0.50 = 250,000 a year, which is the figure Chapter 2 computed from the other end.
+Check. The decision is not the $250,000; it is the 3,000,000. The company is 500,000 jars above the indifference point, which is 14 per cent of its volume, and its margin of safety under the automated structure would fall from 24.86 per cent to 14,124,000 ÷ 5.30 = 2,664,906 jars of breakeven, which on 3,500,000 jars is a margin of safety of about 24 per cent. The gain is real and modest and it is bought with a permanently higher breakeven in a company whose gross margin is falling. Stating that trade-off is the recommendation; computing the $250,000 is only the arithmetic.
+Figure F704-04 generalises the pattern.
+Figure F704-04. High fixed against high variable
+Higher fixed, higher margin
+Higher variable, lower margin
+Breakeven
+Higher
+Lower
+Profit at high volume
+Higher
+Lower
+Loss at low volume
+Larger
+Smaller
+Margin of safety
+Lower, for the same sales
+Higher
+Suits
+Stable, predictable demand
+Volatile or uncertain demand
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost structure
+هيكل التكاليف
+structure de coûts
+automation
+الأتمتة
+automatisation
+indifference volume
+حجم اللامبالاة
+volume d'indifférence
+trade-off
+المفاضلة
+arbitrage
+SECTION CHECK   Test yourself
+SC4-7  The indifference point between two cost structures is the volume at which:
+A.	the two produce the same operating income.
+B.	both break even.
+C.	fixed costs are equal.
+D.	the contribution margins are equal.
+SC4-8  Extra fixed costs of 1,500,000 and an extra contribution of 0.50 a unit give an indifference volume of:
+A.	3,000,000 units
+B.	750,000 units
+C.	1,500,000 units
+D.	300,000 units
+SC4-9  A structure with higher fixed costs and a higher contribution margin suits:
+A.	stable, predictable demand.
+B.	volatile demand.
+C.	low volumes.
+D.	a falling market.
+Answers and explanations are at the end of the chapter.
+4.4  Making the recommendation
+The outcome asks for a course of action, and an answer that stops at a number does not give one. Five elements turn an analysis into a recommendation, and they are worth learning as a checklist because the exam rewards each of them.
+State the decision. "Automate" or "do not automate", in the first sentence, not the last. A marker should not have to search for the answer.
+Support it with the number that drives it. Not every number computed — the one that decides. For the automation question that is the indifference volume of 3,000,000 jars against actual volume of 3,500,000, not the $250,000 of annual gain.
+Name what the decision depends on. Every recommendation in this chapter rests on an assumption: the volume holds, the mix holds, the price holds, the fixed cost estimate is right. Say which one would reverse the answer if it failed, and at what value. "Automation is right above 3,000,000 jars and wrong below it" is worth more than three paragraphs of hedging.
+Give the qualitative factors their place. The numbers do not capture the effect of automation on a workforce, on flexibility, on the ability to make small batches, or on a supplier relationship. Chapter 8 makes this point formally for make-or-buy decisions; it applies everywhere.
+Say what you would do next. Test the volume assumption with the sales force, obtain a second quotation for the equipment, run the decision again at the pessimistic scenario. A recommendation with a next step is a recommendation somebody can act on.
+Figure F704-05 applies the checklist to Orontes.
+Figure F704-05. A recommendation, in five parts
+Element
+For the automation decision
+The decision
+Automate, subject to the volume test below
+The deciding number
+Indifference volume of 3,000,000 jars against 3,500,000 actual
+What it depends on
+Volume staying above 3,000,000; the equipment costing what was quoted
+What would reverse it
+A fall of more than 14 per cent in volume, or fixed costs above 15,300,000
+The qualitative factors
+Loss of flexibility in small batches; effect on the packing workforce
+The next step
+Re-run at the pessimistic scenario of 3,150,000 jars before committing
+One last habit closes the chapter, and it is the one that most distinguishes a professional answer. Say what the analysis does not show. Cost-volume-profit analysis is silent about the competitor's response, about what the customers will think of a price change, about whether the sales force can deliver the volume, and about everything beyond the relevant range. A candidate who names the silence is telling a marker that the model is understood, not merely applied.
+YOUR TURN   Measure the safety and choose
+Figure F704-06 gives a company's position and two cost structures. Complete the blanks. Answers are at the end of the chapter.
+Figure F704-06. Your turn: safety and structure (complete the blanks)
+Item
+Data
+Answer
+Breakeven in sales
+Fixed costs 2,400,000, contribution ratio 30 per cent
+________
+Margin of safety
+Sales 12,000,000
+________
+Margin of safety ratio
+________
+Operating income
+________
+Indifference volume against a structure with 900,000 more fixed cost and 1.50 more contribution a unit
+________
+Which structure at 700,000 units
+________
+LANGUAGE FOCUS   "Sensitivity"
+English sensitivity analysis means testing how much an answer changes when an input changes, and the word carries no suggestion of delicacy or of feeling. The related phrase sensitive to is used of the answer, not of the analyst: an answer is sensitive to volume if volume moves it a great deal. Arabic حساسية carries the same two senses as English and the technical one has to be learned from context. French analyse de sensibilité is the settled term, and French usefully adds élasticité for the particular sensitivity of demand to price, which Chapter 11 computes — so in French the general idea and the specific measure have different names, where English uses sensitivity for both and elasticity only for the second.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+checklist
+قائمة التحقق
+liste de contrôle
+qualitative factor
+العامل النوعي
+facteur qualitatif
+next step
+الخطوة التالية
+étape suivante
+silence of the model
+حدود النموذج
+limites du modèle
+SECTION CHECK   Test yourself
+SC4-10  A recommendation should open with:
+A.	the decision.
+B.	the calculations.
+C.	the assumptions.
+D.	the qualitative factors.
+SC4-11  The most useful way to state what a recommendation depends on is:
+A.	to name the value at which the answer would reverse.
+B.	to list every assumption made.
+C.	to say that the future is uncertain.
+D.	to decline to recommend.
+SC4-12  Cost-volume-profit analysis is silent about:
+A.	competitors' responses and customers' reactions.
+B.	the contribution margin.
+C.	fixed costs.
+D.	the breakeven point.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F704-07 brings the chapter together.
+Figure F704-07. Chapter 4 summary map: the key rule for each section.
+The margin of safety is how far sales stand above the breakeven: 42,000,000 − 31,560,000 = 10,440,000 for Orontes, which is 10,440,000 ÷ 42,000,000 = 24.86 per cent, or 870,000 jars — and under the real three-product mix it falls to 20.90 per cent, which is the mix effect expressed as risk. It is the same fact as the operating leverage of 4.02, seen from the other side. Sensitivity analysis asks how much the answer depends on each input: one at a time, which ranks them; by scenario, which lets several move together, giving Orontes a range from $1,740,000 to $6,427,200 around an expected value of 4,129,800; and by simulation, which produces a distribution. Two cost structures are compared at their indifference volume, which for the automation choice is 1,500,000 ÷ 0.50 = 3,000,000 jars against an actual 3,500,000 — so automation wins today, by 500,000 × 0.50 = 250,000 a year, and raises the breakeven permanently. And a recommendation states the decision first, supports it with the one number that decides, names the value at which it would reverse, gives the qualitative factors their place, proposes a next step, and says what the model cannot see.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P4-01  The margin of safety equals:
+A.	sales less breakeven sales.
+B.	sales less variable costs.
+C.	contribution margin less fixed costs.
+D.	breakeven sales.
+P4-02  Sales of 12,000,000 with a breakeven of 8,000,000 give a margin of safety ratio of:
+A.	33.3 per cent
+B.	66.7 per cent
+C.	4,000,000 per cent
+D.	50.0 per cent
+P4-03  A company with a low margin of safety:
+A.	loses money after a small fall in demand.
+B.	has low fixed costs.
+C.	has a high contribution margin.
+D.	cannot break even.
+P4-04  Scenario analysis:
+A.	changes several inputs together coherently.
+B.	changes one input at a time.
+C.	removes uncertainty.
+D.	requires probabilities.
+P4-05  An expected value is:
+A.	a probability-weighted average that may itself be impossible.
+B.	the most likely single outcome.
+C.	the best case.
+D.	the worst case.
+P4-06  The indifference volume between two structures is where:
+A.	both give the same operating income.
+B.	both break even.
+C.	fixed costs match.
+D.	contribution margins match.
+P4-07  Extra fixed costs of 900,000 and extra contribution of 1.50 a unit give an indifference volume of:
+A.	600,000 units
+B.	1,350,000 units
+C.	900,000 units
+D.	60,000 units
+P4-08  Above the indifference volume, the structure with higher fixed costs and a higher margin:
+A.	earns more.
+B.	earns less.
+C.	breaks even sooner.
+D.	is identical.
+P4-09  A recommendation is strongest when it names:
+A.	the value of the key assumption at which the answer would reverse.
+B.	every number computed.
+C.	the auditors' view.
+D.	the tax rate.
+P4-10  Cost-volume-profit analysis cannot tell you:
+A.	how competitors will react to a price change.
+B.	the breakeven point.
+C.	the contribution margin.
+D.	operating income at a volume.
+Case-style practice: a price cut, tested
+Orontes's sales director returns with the price-cut proposal of Chapter 2 in a new form: cut the price by 40 cents and expect 8 per cent more volume, with a one-in-three chance that volume rises only 3 per cent and a one-in-six chance that it rises 14 per cent. The jar sells at $12.00 with variable costs of $7.20, fixed costs are $12,624,000, and current volume is 3,500,000 jars.
+Required. Compute the operating income under each outcome and the expected value. Say what volume the price cut needs to break even against the present position, and make a recommendation. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC4-1  Answer A. Sales above the breakeven.
+B is wrong. That is contribution margin.
+C is wrong. That subtracts two unrelated figures.
+D is wrong. That is operating income.
+SC4-2  Answer A. 10,440,000 ÷ 42,000,000 = 24.86 per cent.
+B is wrong. That is the breakeven as a share of sales.
+C is wrong. This has no basis in the figures.
+D is wrong. The margin of safety in dollars is not a percentage.
+SC4-3  Answer A. The profit disappears quickly.
+B is wrong. Low fixed costs usually produce a high margin of safety.
+C is wrong. A high margin would widen the safety, not narrow it.
+D is wrong. A company above breakeven is profitable at any margin of safety.
+SC4-4  Answer A. Coherent combinations of several inputs.
+B is wrong. That is one-at-a-time sensitivity.
+C is wrong. Every scenario is built on assumptions.
+D is wrong. Scenarios produce several answers.
+SC4-5  Answer A. A weighted average need not be a possible outcome.
+B is wrong. The most likely outcome here is the base case.
+C is wrong. The best case is 6,427,200.
+D is wrong. The breakeven is a volume, not an income.
+SC4-6  Answer A. Knowing which input matters is the point.
+B is wrong. The expected value hides the spread.
+C is wrong. The count of scenarios is not a finding.
+D is wrong. Tax is not part of this analysis.
+SC4-7  Answer A. The same operating income under both.
+B is wrong. The two structures break even at different volumes.
+C is wrong. The fixed costs differ by construction.
+D is wrong. The margins differ by construction.
+SC4-8  Answer A. 1,500,000 ÷ 0.50 = 3,000,000 units.
+B is wrong. This divides by 2.00.
+C is wrong. That is the extra fixed cost in dollars.
+D is wrong. This misplaces the decimal.
+SC4-9  Answer A. High fixed costs reward volume and punish volatility.
+B is wrong. Volatile demand suits a lower breakeven.
+C is wrong. Low volumes favour the variable structure.
+D is wrong. A falling market is the worst case for high fixed costs.
+SC4-10  Answer A. State the decision first.
+B is wrong. Calculations support the decision; they are not it.
+C is wrong. Assumptions qualify the decision.
+D is wrong. Qualitative factors come after the decision is stated.
+SC4-11  Answer A. A reversal value is specific and testable.
+B is wrong. A list is not a conclusion.
+C is wrong. That sentence tells a reader nothing.
+D is wrong. The outcome asks for a recommendation.
+SC4-12  Answer A. The model has no competitor or customer in it.
+B is wrong. The margin is an input to the model.
+C is wrong. Fixed costs are an input.
+D is wrong. The breakeven is its principal output.
+Your turn
+Item
+Answer
+Breakeven in sales
+8,000,000: 2,400,000 ÷ 0.30 = 8,000,000.
+Margin of safety
+4,000,000: 12,000,000 − 8,000,000 = 4,000,000.
+Margin of safety ratio
+33.3 per cent: 4,000,000 ÷ 12,000,000 = 33.3 per cent.
+Operating income
+1,200,000: contribution is 12,000,000 × 0.30 = 3,600,000, less fixed costs of 2,400,000.
+Indifference volume
+600,000 units: 900,000 ÷ 1.50 = 600,000.
+Which structure at 700,000 units
+The higher-fixed structure, because 700,000 is above the indifference volume of 600,000 — it earns 100,000 × 1.50 = 150,000 more a year.
+What it tells you
+The company has a third of its sales as safety and sits 100,000 units above the point at which the heavier structure pays. Both margins are comfortable, and the recommendation would change if volume fell below 600,000 units, which is a 14 per cent fall.
+Multiple-choice questions
+P4-01  Answer A. Sales above the breakeven.
+B is wrong. That is contribution margin.
+C is wrong. That is operating income.
+D is wrong. The breakeven is the reference point, not the margin.
+P4-02  Answer A. 4,000,000 ÷ 12,000,000 = 33.3 per cent.
+B is wrong. That is the breakeven's share of sales.
+C is wrong. The dollar margin is not a percentage.
+D is wrong. This has no basis in the figures.
+P4-03  Answer A. A small fall removes the profit.
+B is wrong. Low fixed costs widen the margin of safety.
+C is wrong. A high margin widens it too.
+D is wrong. The company is above breakeven, by definition of having a margin.
+P4-04  Answer A. Several inputs move together.
+B is wrong. That is one-at-a-time analysis.
+C is wrong. Uncertainty is described, not removed.
+D is wrong. Probabilities are useful and not essential.
+P4-05  Answer A. A weighted average may be impossible.
+B is wrong. The most likely outcome is the one with the highest probability.
+C is wrong. The best case is one of the inputs.
+D is wrong. So is the worst.
+P4-06  Answer A. Equal operating income.
+B is wrong. Their breakevens differ.
+C is wrong. The fixed costs differ by construction.
+D is wrong. The margins differ by construction.
+P4-07  Answer A. 900,000 ÷ 1.50 = 600,000 units.
+B is wrong. This multiplies instead of dividing.
+C is wrong. That is the extra fixed cost.
+D is wrong. This misplaces the decimal.
+P4-08  Answer A. Above the indifference volume the heavier structure wins.
+B is wrong. That is the position below it.
+C is wrong. Its breakeven is higher.
+D is wrong. They are identical only at the indifference volume.
+P4-09  Answer A. A reversal value is actionable.
+B is wrong. Listing every number buries the decision.
+C is wrong. Auditors do not decide operating questions.
+D is wrong. Tax does not change the ranking here.
+P4-10  Answer A. The model contains no competitor.
+B is wrong. The breakeven is its main output.
+C is wrong. The margin is an input.
+D is wrong. Income at a volume is a direct output.
+Case-style set: a price cut, tested
+The three outcomes. The price falls to $11.60, so the contribution margin becomes 11.60 − 7.20 = 4.40.
+At 3 per cent more volume, 3,605,000 jars: contribution is 3,605,000 × 4.40 = 15,862,000, and operating income is 15,862,000 − 12,624,000 = 3,238,000.
+At 8 per cent, 3,780,000 jars: 3,780,000 × 4.40 = 16,632,000, giving 16,632,000 − 12,624,000 = 4,008,000.
+At 14 per cent, 3,990,000 jars: 3,990,000 × 4.40 = 17,556,000, giving 17,556,000 − 12,624,000 = 4,932,000.
+The expected value. At probabilities of one third, one half and one sixth: 0.3333 × 3,238,000 = 1,079,254, 0.5 × 4,008,000 = 2,004,000 and 0.1667 × 4,932,000 = 822,164, which add to about $3,905,000 — below the $4,176,000 the company earns today.
+What the cut needs. To hold operating income at $4,176,000 the company needs 12,624,000 + 4,176,000 = 16,800,000 of contribution, which at $4.40 a jar is 16,800,000 ÷ 4.40 = 3,818,182 jars — a volume rise of 9.1 per cent, more than the 8 per cent the sales director expects at his own central case.
+Recommendation: reject the price cut. It loses money at the expected volume, loses heavily at the pessimistic one, and gains materially only in the one-in-six case. The deciding number is the 9.1 per cent volume rise it needs to stand still, against an expectation of 8. I would ask the sales director what evidence supports the 8 per cent, since the whole proposal turns on a figure that is below its own breakeven; and I would point out that the cut, once made, is permanent in a way the volume is not.
