@@ -1,0 +1,425 @@
+Chapter 8
+The cost of capital, the WACC and the marginal cost
+تكلفة رأس المال والمتوسط المرجح والتكلفة الحدية
+Every chapter so far has priced one source of money. A bond costs its yield, a preferred share its dividend over its price, a common share the return its risk requires. A company uses several at once, and the number it needs for every decision it takes is the blend: what the whole of its money costs, weighted by how much of each it uses.
+That number is the weighted average cost of capital. It is the hurdle a project must clear, the rate at which future cash is discounted, the standard against which Book 1's return on assets of 10.22 per cent is judged, and the reason a company with cheap debt and dear equity cannot simply quote the cheap one. This chapter builds it, then corrects it for the fact that the next dollar raised rarely costs what the last one did.
+Figure F608-01 is your map.
+Figure F608-01. Chapter 8 roadmap: price each source, weight them, and find what the next dollar costs.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.2.q | Define the cost of capital and explain its use in capital structure decisions. | C | Full treatment
+B.2.r | Determine the weighted average cost of capital and the cost of each component. | C | Full treatment
+B.2.s | Calculate the marginal cost of capital. | C | Full treatment
+B.2.t | Explain why marginal cost is used rather than historical cost. | C | Full treatment
+B.2.u | Use the cost of capital in capital investment decisions. | C | Full treatment
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+cost of capital | تكلفة رأس المال | coût du capital
+weighted average cost of capital | المتوسط المرجح لتكلفة رأس المال | coût moyen pondéré du capital
+component cost | تكلفة المكون | coût d'une source
+market value weights | الأوزان بالقيمة السوقية | pondérations en valeur de marché
+flotation cost | تكلفة الإصدار | frais d'émission
+marginal cost of capital | التكلفة الحدية لرأس المال | coût marginal du capital
+break point | نقطة الانكسار | point de rupture
+hurdle rate | معدل العائد المطلوب | taux de rejet
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 2 put the required return on Orontes's equity at 9.4 per cent. Chapter 4 showed that a 6 per cent loan costs 4.5 per cent after tax. Book 1 computed Orontes's market capitalisation at $74,925,000 and its total debt at $6,400,000. Those four figures are the whole of the calculation in section 8.3.
+8.1  What the cost of capital is
+The cost of capital is the return a company must earn on its investments to leave its providers of money no worse off. It has three equivalent descriptions, and the exam uses all three.
+It is a cost. Every dollar raised carries a price: interest to a lender, a fixed dividend to a preferred holder, a required return to a shareholder. The blend is what the company pays for the use of money.
+It is a required return. The same figures, seen from the investor's side, are what each provider demands for the risk carried. Chapter 1's ladder is this list read upwards.
+It is an opportunity cost. The providers could have put the same money into something else of the same risk. A company that earns less than that something else has destroyed value, which is exactly the economic profit of Book 1, Chapter 15.
+Three uses follow, and the outcome names the first and last of them.
+As a hurdle rate for investment. A project is worth taking if it earns more than the money it consumes costs. Book 3 builds the whole of capital budgeting on that sentence.
+As a discount rate. The present value of a future cash flow is computed at the cost of capital, which is why every valuation in Chapters 4 and 5 needed one.
+As the test of a capital structure. Different mixes of debt and equity produce different weighted averages, and the structure that minimises the average is the one that maximises the value of the company — because value is future cash discounted at that rate, and a lower rate gives a higher value. That is the whole of what the exam means by the use of the cost of capital in capital structure decisions.
+EXAM TRAP   Whose cost, and for what
+The cost of capital belongs to the risk of the investment, not to the company's own average risk. A food manufacturer evaluating a software venture should not discount it at a food manufacturer's rate.
+A project financed with debt does not have debt's cost of capital. Financing and investment decisions are kept apart, and the project is discounted at the rate its own risk requires.
+Historical rates are irrelevant. What matters is what money costs now, which section 8.4 develops.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+opportunity cost | تكلفة الفرصة البديلة | coût d'opportunité
+provider of capital | مقدم التمويل | apporteur de capitaux
+value creation | خلق القيمة | création de valeur
+@end
+SECTION CHECK   Test yourself
+SC8-1  The cost of capital is best described as:
+A.	the return a company must earn to leave its providers of money no worse off.
+B.	the interest rate on its bank debt.
+C.	its return on assets.
+D.	the dividend it pays.
+SC8-2  The capital structure that maximises the value of a company is the one that:
+A.	minimises its weighted average cost of capital.
+B.	maximises its debt.
+C.	minimises its debt.
+D.	maximises its earnings per share.
+SC8-3  A food manufacturer evaluating a software venture should discount it at:
+A.	a rate reflecting the risk of software.
+B.	its own weighted average cost of capital.
+C.	its cost of debt.
+D.	the risk-free rate.
+Answers and explanations are at the end of the chapter.
+8.2  The cost of each component
+Four components appear in exam questions, and each has its own calculation.
+The cost of debt is the yield a lender requires on the company's debt today, not the coupon on debt issued years ago and not the average rate in the notes. Because interest is deductible it is taken after tax: a company borrowing at 6.5 per cent with a 25 per cent tax rate bears 6.5 × 0.75 = 4.875 per cent. Where a bond trades at a discount or a premium, the yield to maturity of Chapter 3 is the before-tax cost.
+The cost of preferred stock is the dividend over the price the company would receive today, with no tax adjustment because preferred dividends are not deductible. A $100 par 9 per cent preferred that the market would buy at $95 costs 9.00 ÷ 95.00 = 9.47 per cent.
+The cost of retained earnings is the cost of equity: the shareholders' required return. Retained profit is not free merely because no cheque is written. It belongs to the shareholders, who could have had it as a dividend and invested it themselves, so its opportunity cost is exactly what they require — 9.4 per cent for Orontes by the CAPM of Chapter 2, or the dividend yield plus the growth rate by the model of Chapter 5.
+The cost of new common equity is higher than the cost of retained earnings, by the flotation costs of issuing. If a share can be sold at $40 and the issue costs $2 a share, the company receives $38 and must earn the shareholders' required return on $40 of expectations while holding $38. Using the dividend growth form: a $2.00 expected dividend over the net proceeds is 2.00 ÷ 38.00 = 5.26 per cent, plus a growth rate of 5 per cent, giving 10.26 per cent against 10.00 per cent for retained earnings on the same figures.
+Figure F608-02 sets the four out.
+Figure F608-02. The four component costs
+@table
+Component | Computation | Tax treatment | On Orontes's figures
+Debt | Yield required today | After tax | 6.5 × 0.75 = 4.875%
+Preferred stock | Dividend over net price | No adjustment | 9.00 over 95.00 = 9.47%
+Retained earnings | Shareholders' required return | No adjustment | 9.4%
+New common equity | Required return, adjusted for flotation cost | No adjustment | Above 9.4%
+@end
+EXAM TRAP   Three traps in the component costs
+Only debt gets the tax adjustment. Preferred and common dividends are paid out of taxed profit.
+Retained earnings are not free. Treating them as costless is the commonest error in this topic and it makes every project look acceptable.
+Use the current required return, not the historical coupon. A company paying 8 per cent on an old bond whose market yield is now 5 per cent has a cost of debt of 5, because that is what new money costs.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+after-tax cost of debt | تكلفة الدين بعد الضريبة | coût de la dette après impôt
+net proceeds | صافي المتحصلات | produit net
+retained earnings | الأرباح المحتجزة | bénéfices non distribués
+@end
+SECTION CHECK   Test yourself
+SC8-4  The after-tax cost of debt at 6.5 per cent with a 25 per cent tax rate is:
+A.	4.875 per cent
+B.	6.5 per cent
+C.	1.625 per cent
+D.	8.125 per cent
+SC8-5  A 100 par 9 per cent preferred that would sell at 95 costs the company:
+A.	9.47 per cent
+B.	9.00 per cent
+C.	7.11 per cent
+D.	10.56 per cent
+SC8-6  The cost of retained earnings is:
+A.	the shareholders' required return, because the money is theirs.
+B.	zero, because no payment is made.
+C.	the after-tax cost of debt.
+D.	the dividend actually paid.
+Answers and explanations are at the end of the chapter.
+8.3  The weighted average
+Weight each component cost by the proportion of capital it represents, and add. Two rules govern the weights and both are examined.
+Use market values, not book values. The cost of capital is about what investors require on what they hold now, and what they hold is worth its market value. Book values record what was paid years ago.
+Use the target structure where the question gives one. A company intending to move to 30 per cent debt should evaluate projects at the cost of capital of that structure, because that is how the money will in fact be raised over time.
+WORKED EXAMPLE   Worked example: Orontes's weighted average cost of capital
+Step 1. The market-value weights. Equity is 8,100,000 shares at $9.25, which Book 1 computed as $74,925,000. Debt is $6,000,000 of long-term debt plus the $400,000 current portion, which is $6,400,000. Total capital is 74,925,000 + 6,400,000 = 81,325,000.
+Step 2. The proportions. Equity is 74,925,000 ÷ 81,325,000 = 92.13 per cent of the total and debt is 6,400,000 ÷ 81,325,000 = 7.87 per cent.
+Step 3. The component costs. Equity at 9.4 per cent from Chapter 2; debt at 6.5 per cent before tax, which is 6.5 × 0.75 = 4.875 per cent after.
+Step 4. The average. 0.9213 × 9.4 = 8.66 points from the equity and 0.0787 × 4.875 = 0.38 from the debt, so the weighted average is 8.66 + 0.38 = 9.04 per cent.
+Check. Compare that with Book 1's return on assets of 10.22 per cent: Orontes earns more on its assets than its capital costs, which is the same statement as the positive economic profit computed there, and the same statement again as a market-to-book ratio of 3.67. Three different measures, one fact. Note also how little the cheap debt helps: at 7.87 per cent of the capital it pulls the average down by barely a third of a point, which is what Chapter 1's warning about quoting the cheapest source looks like arithmetically.
+Figure F608-03 shows what the weights do.
+Figure F608-03. The same two costs at four capital structures
+@table
+Debt proportion | Equity proportion | Weighted average, at 4.875% debt and 9.4% equity | Note
+0% | 100% | 9.40% | All equity
+7.87% | 92.13% | 9.04% | Orontes today, on market values
+30% | 70% | 8.04% | Before any rise in the cost of either
+50% | 50% | 7.14% | Arithmetically, and not in practice
+@end
+That figure also contains the chapter's largest trap. It appears to show that more debt always lowers the average, which would make a 100 per cent debt structure optimal. It does not, because the component costs are not constant: as debt rises, lenders demand more and shareholders demand much more, since their residual claim has become riskier. The true curve falls, flattens and then rises, and the optimum is at the bottom. The arithmetic in the figure holds the costs fixed, which is why the figure is wrong beyond a point and why the exam asks for the explanation rather than the number.
+On book values the answer would differ. Orontes's book equity is $20,392,975 against the same $6,400,000 of debt, so debt is 6,400,000 ÷ 26,792,975 = 23.89 per cent of book capital and the average would be 0.7611 × 9.4 = 7.15 plus 0.2389 × 4.875 = 1.16, which is 7.15 + 1.16 = 8.31 per cent. Seventy basis points lower than the market-value figure, and wrong, because the shares are not worth book value and nobody requires a return on what was paid in 1998.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+capital structure | هيكل رأس المال | structure du capital
+target structure | الهيكل المستهدف | structure cible
+basis point | نقطة أساس | point de base
+@end
+SECTION CHECK   Test yourself
+SC8-7  Weights in the weighted average cost of capital should be based on:
+A.	market values, or the target structure.
+B.	book values always.
+C.	the original issue prices.
+D.	the number of securities.
+SC8-8  Orontes's market-value weights are 92.13 per cent equity at 9.4 per cent and 7.87 per cent debt at 4.875 per cent. Its WACC is:
+A.	9.04 per cent
+B.	8.31 per cent
+C.	7.14 per cent
+D.	9.40 per cent
+SC8-9  Adding debt appears to lower the weighted average without limit. It does not because:
+A.	both lenders and shareholders demand more as debt rises.
+B.	the tax shield disappears.
+C.	the weights cannot change.
+D.	debt is more expensive than equity.
+Answers and explanations are at the end of the chapter.
+8.4  The marginal cost of capital
+The weighted average computed in section 8.3 describes the money a company already has. The decision it faces is about money it does not have yet, and the next dollar may cost more than the last.
+The reason is retained earnings. A company's cheapest source of equity is the profit it has kept, because issuing new shares costs flotation fees. Once the retained earnings are exhausted, further equity must be raised externally and costs more. The same happens in debt: a company can borrow a certain amount at its current rate and more only at a higher one, as lenders see the leverage rise.
+The point at which a component's cost steps up is a break point, and it is computed as the amount of the cheaper source available, divided by that component's weight in the capital structure.
+WORKED EXAMPLE   Worked example: a marginal cost schedule
+Step 1. The structure and the costs. A company targets 60 per cent equity and 40 per cent debt. Its after-tax cost of debt is 4.875 per cent. Retained earnings cost 9.4 per cent and new shares would cost 11.0 per cent.
+Step 2. The cost below the break. 0.6 × 9.4 = 5.64 points from equity and 0.4 × 4.875 = 1.95 from debt, so the weighted average is 5.64 + 1.95 = 7.59 per cent.
+Step 3. The break point. The company has $4,800,000 of retained earnings available. Equity is 60 per cent of the structure, so the retained earnings support 4,800,000 ÷ 0.60 = 8,000,000 of total new capital before new shares are needed.
+Step 4. The cost above the break. 0.6 × 11.0 = 6.60 points from equity and the same 1.95 from debt, so the weighted average becomes 6.60 + 1.95 = 8.55 per cent.
+Check. The company's cost of capital is 7.59 per cent for the first eight million it raises and 8.55 per cent after that — one number, two answers, depending on how much it intends to invest. A question that gives you retained earnings and a target structure is asking for exactly this schedule, and the second break, where the cost of debt steps up, is computed the same way from the debt side.
+Figure F608-04 sets out the schedule.
+Figure F608-04. A marginal cost of capital schedule
+@table
+New capital raised | Source of the equity | Cost of equity | Weighted average
+Up to 8,000,000 | Retained earnings | 9.4% | 7.59%
+Above 8,000,000 | New common shares | 11.0% | 8.55%
+@end
+Why marginal rather than historical, which is the point of the fourth outcome in this chapter. A company that borrowed at 4 per cent five years ago and would pay 7 per cent today has a historical average cost that is lower than anything available to it. Discounting a new project at the historical figure would approve projects that cannot in fact be funded profitably, because the money for them has to be raised at today's prices. The historical cost is a record of past decisions and the marginal cost is the price of the next one — and only decisions about the future can be influenced. The same logic appears throughout management accounting as the rule that sunk costs are irrelevant.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+marginal cost | التكلفة الحدية | coût marginal
+historical cost | التكلفة التاريخية | coût historique
+schedule | الجدول التدرجي | échéancier
+sunk cost | التكلفة الغارقة | coût irrécupérable
+@end
+SECTION CHECK   Test yourself
+SC8-10  A break point in the marginal cost of capital occurs where:
+A.	a cheaper source of a component is exhausted.
+B.	the tax rate changes.
+C.	the company pays a dividend.
+D.	the share price changes.
+SC8-11  Retained earnings of 4,800,000 in a structure that is 60 per cent equity support new capital of:
+A.	8,000,000
+B.	2,880,000
+C.	4,800,000
+D.	12,000,000
+SC8-12  Marginal cost is used rather than historical cost because:
+A.	new projects must be funded with money raised at today's prices.
+B.	historical cost is unknown.
+C.	the standards require it.
+D.	marginal cost is always lower.
+Answers and explanations are at the end of the chapter.
+8.5  Using it to decide
+Put the marginal cost schedule beside the company's investment opportunities and the capital budget decides itself.
+Rank the available projects by their internal rate of return, highest first. Draw the marginal cost schedule across them. Every project whose return exceeds the marginal cost of the money that would fund it is worth taking; the first project whose return falls below that cost is where the budget stops. The intersection is the company's optimal capital budget, and it moves when either curve moves: a better opportunity set pushes it out, a rise in the cost of money pulls it in.
+Figure F608-05 works a budget.
+Figure F608-05. Where the capital budget stops
+@table
+Project | Capital needed | Internal rate of return | Marginal cost of the money | Decision
+A, a new roasting line | 3,000,000 | 14.0% | 7.59% | Accept
+B, a warehouse | 3,000,000 | 11.0% | 7.59% | Accept
+C, a second mill | 2,000,000 | 9.0% | 7.59% | Accept, just
+D, an export depot | 4,000,000 | 8.0% | 8.55% | Reject
+@end
+Three refinements turn that simple picture into the answer the exam wants.
+Risk differs by project. The weighted average describes the company's existing risk. A project that is riskier should be discounted at more and a safer one at less, which is done either by estimating a beta for the project's industry and running the CAPM of Chapter 2, or by adding a risk adjustment to the company rate and saying so. A single company-wide rate systematically accepts risky projects and rejects safe ones.
+The financing mix does not belong to the project. Project D is not acceptable because it could be funded with debt at 4.875 per cent. The company's structure applies to all of its projects together, and the alternative is a firm that accepts bad projects whenever it happens to have borrowing capacity.
+Capital may be rationed. Where the amount available is fixed by something other than cost — a covenant, an unwillingness to dilute, a parent's limit — projects are ranked by value created for each dollar invested rather than by return alone, and Book 3 develops that properly.
+One last point closes the loop with Book 1. Orontes's weighted average cost of capital is 9.04 per cent, its return on assets is 10.22 per cent, and its board set a target return on equity of 20 per cent in the case there. That target is not a cost of capital; it is an aspiration, and the gap between the two numbers is where the discipline of this chapter earns its place.
+YOUR TURN   Build a cost of capital
+Figure F608-06 gives a company's financing. Complete the blanks. Answers are at the end of the chapter.
+Figure F608-06. Your turn: a weighted average (complete the blanks)
+@table
+Component | Data | Answer
+Debt | 8.0% before tax, tax rate 25% | ________ after tax
+Preferred stock | 7.00 dividend, price 80.00 | ________
+Common equity | Risk-free 3%, beta 1.2, market premium 6 points | ________
+Weights | Debt 30%, preferred 10%, equity 60% | n/a
+Weighted average cost of capital | | ________
+Break point | Retained earnings 6,000,000, equity weight 60% | ________
+@end
+LANGUAGE FOCUS   "Capital"
+English capital means at least four things in these two books. It is the money a company raises, as in cost of capital. It is the owners' stake, as in paid-in capital. It is long-lived assets, as in capital expenditure. And capital markets are where the first of these is raised. Arabic رأس المال covers the first two and uses نفقات رأسمالية for the third, which keeps the asset sense apart. French capital and capitaux propres separate the funding from the owners' stake, and immobilisations names the assets outright — the clearest of the three. The practical warning for an exam: capital structure is about the money, capital budgeting is about the assets, and the two phrases differ by one word and belong to different decisions, as section 8.5 insisted.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+optimal capital budget | الموازنة الرأسمالية المثلى | budget d'investissement optimal
+internal rate of return | معدل العائد الداخلي | taux de rendement interne
+capital rationing | ترشيد الإنفاق الرأسمالي | rationnement du capital
+risk adjustment | تعديل المخاطر | ajustement pour risque
+@end
+SECTION CHECK   Test yourself
+SC8-13  A company should accept a project whose return:
+A.	exceeds the marginal cost of the capital that would fund it.
+B.	exceeds its historical cost of debt.
+C.	is positive.
+D.	exceeds the risk-free rate.
+SC8-14  Using one company-wide discount rate for every project tends to:
+A.	accept risky projects and reject safe ones.
+B.	accept safe projects and reject risky ones.
+C.	have no systematic effect.
+D.	maximise value.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F608-07 brings the chapter together.
+Figure F608-07. Chapter 8 summary map: the key rule for each section.
+The cost of capital is what a company must earn to leave its providers no worse off, and it is a hurdle, a discount rate and the test of a capital structure at once — the structure that minimises it maximises the value of the company. Each component is priced separately: debt after tax at 6.5 × 0.75 = 4.875 per cent, preferred at 9.00 ÷ 95.00 = 9.47 per cent, retained earnings at the shareholders' required 9.4, and new equity higher still because of flotation costs. Weighted at market values, Orontes's capital is 74,925,000 ÷ 81,325,000 = 92.13 per cent equity and 7.87 per cent debt, giving 8.66 + 0.38 = 9.04 per cent — against a return on assets of 10.22, which is the economic profit of Book 1 stated as a rate, and against 8.31 per cent on book weights, which is seventy basis points of error. The next dollar costs more than the last: $4,800,000 of retained earnings in a 60 per cent equity structure supports 4,800,000 ÷ 0.60 = 8,000,000 of new capital at 7.59 per cent, and everything beyond it costs 8.55. And the budget stops where the projects ranked by return cross the marginal cost of the money, adjusted for the risk of each project and never for how it happens to be financed.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P8-01  The weighted average cost of capital uses weights based on:
+A.	market values or the target structure.
+B.	book values.
+C.	par values.
+D.	historical issue prices.
+P8-02  Debt at 8 per cent before tax, with a tax rate of 25 per cent, costs:
+A.	6.0 per cent
+B.	8.0 per cent
+C.	2.0 per cent
+D.	10.7 per cent
+P8-03  A preferred share paying 7.00 that would sell at 80.00 costs:
+A.	8.75 per cent
+B.	7.00 per cent
+C.	11.43 per cent
+D.	5.60 per cent
+P8-04  The cost of retained earnings is:
+A.	the shareholders' required return.
+B.	zero.
+C.	the after-tax cost of debt.
+D.	the dividend yield alone.
+P8-05  New common equity costs more than retained earnings because of:
+A.	flotation costs.
+B.	tax.
+C.	higher dividends.
+D.	covenants.
+P8-06  Weights of 92.13 per cent equity at 9.4 per cent and 7.87 per cent debt at 4.875 per cent give a WACC of:
+A.	9.04 per cent
+B.	7.14 per cent
+C.	9.40 per cent
+D.	4.875 per cent
+P8-07  A break point occurs when:
+A.	a cheaper source of a component runs out.
+B.	a project is rejected.
+C.	the dividend is paid.
+D.	the tax rate changes.
+P8-08  Retained earnings of 6,000,000 with an equity weight of 60 per cent support new capital of:
+A.	10,000,000
+B.	3,600,000
+C.	6,000,000
+D.	15,000,000
+P8-09  Marginal cost is preferred to historical cost because:
+A.	new investment must be funded at today's prices.
+B.	historical cost is always higher.
+C.	the standards require it.
+D.	marginal cost is easier to compute.
+P8-10  A project riskier than the company's existing business should be discounted at:
+A.	more than the company's weighted average cost of capital.
+B.	the company's weighted average cost of capital.
+C.	the after-tax cost of debt.
+D.	the risk-free rate.
+Case-style practice: the hurdle rate memorandum
+Orontes's chief executive circulates a memorandum proposing that the company evaluate all new investment at 6 per cent, "the rate our bank charges us". The finance director objects. Orontes's equity is 8,100,000 shares at $9.25, its debt is $6,400,000 at 6.5 per cent before tax, its tax rate is 25 per cent, and Chapter 2 put the required return on its equity at 9.4 per cent. Four projects are waiting: returns of 14, 11, 9 and 7 per cent.
+Required. Compute the correct hurdle rate, say which projects would be wrongly accepted under the memorandum, and state the principle the chief executive has missed. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC8-1  Answer A. It is the return that leaves the providers whole.
+B is wrong. Bank debt is one component of several.
+C is wrong. The return on assets is what was earned, not what is required.
+D is wrong. The dividend paid is a policy, not a cost of capital.
+SC8-2  Answer A. Value is future cash discounted at that rate, so a lower rate means a higher value.
+B is wrong. Maximum debt raises the cost of both components.
+C is wrong. No debt forgoes the tax shield.
+D is wrong. Earnings per share can be raised by debt that destroys value.
+SC8-3  Answer A. The rate belongs to the risk of the investment.
+B is wrong. The company rate describes food manufacturing.
+C is wrong. The financing mix is not the project's risk.
+D is wrong. Software is not riskless.
+SC8-4  Answer A. 6.5 × 0.75 = 4.875 per cent.
+B is wrong. That is the before-tax rate.
+C is wrong. That is the shield alone.
+D is wrong. Tax lowers the cost.
+SC8-5  Answer A. 9.00 ÷ 95.00 = 9.47 per cent.
+B is wrong. That is the rate on par, not on the price received.
+C is wrong. This divides by a figure above par.
+D is wrong. This inverts the calculation.
+SC8-6  Answer A. The money belongs to the shareholders and has their opportunity cost.
+B is wrong. No cheque is written and the cost is real.
+C is wrong. Equity is not debt.
+D is wrong. The dividend paid is a distribution, not the required return.
+SC8-7  Answer A. Market values, or the structure the company is moving to.
+B is wrong. Book values record old prices.
+C is wrong. Issue prices are historical.
+D is wrong. A count of securities says nothing about value.
+SC8-8  Answer A. 0.9213 × 9.4 = 8.66 and 0.0787 × 4.875 = 0.38, so 8.66 + 0.38 = 9.04.
+B is wrong. 8.31 per cent uses book weights.
+C is wrong. 7.14 per cent is a 50-50 structure.
+D is wrong. 9.40 per cent is the all-equity figure.
+SC8-9  Answer A. Both components reprice as leverage rises.
+B is wrong. The shield grows with the debt; it does not disappear.
+C is wrong. The weights are exactly what changes.
+D is wrong. Debt is the cheaper component, which is why the illusion arises.
+SC8-10  Answer A. The cheaper tranche of a component runs out.
+B is wrong. A tax change moves the whole schedule, not a break in it.
+C is wrong. Paying a dividend reduces retained earnings, which moves the break point rather than creating one.
+D is wrong. The share price affects the cost of equity, not the definition of a break.
+SC8-11  Answer A. 4,800,000 ÷ 0.60 = 8,000,000.
+B is wrong. This multiplies instead of dividing.
+C is wrong. That is the equity alone, not the total capital it supports.
+D is wrong. This divides by 0.40.
+SC8-12  Answer A. The money for new projects is raised today.
+B is wrong. Historical cost is recorded and knowable.
+C is wrong. No standard governs an internal hurdle rate.
+D is wrong. Marginal cost is often higher.
+SC8-13  Answer A. The test is the cost of the next money raised.
+B is wrong. Historical debt cost understates the hurdle.
+C is wrong. A positive return below the cost of capital destroys value.
+D is wrong. The risk-free rate ignores the project's risk.
+SC8-14  Answer A. Risky projects clear a rate too low for them and safe ones are held to a rate too high.
+B is wrong. The bias runs the other way.
+C is wrong. The bias is systematic, not random.
+D is wrong. It destroys value in both directions.
+Your turn
+@table
+Component | Answer
+Debt | 6.0 per cent after tax: 8.0 × 0.75 = 6.0.
+Preferred stock | 8.75 per cent: 7.00 ÷ 80.00 = 8.75 per cent.
+Common equity | 10.2 per cent: the premium earned is 1.2 × 6.0 = 7.2 points on top of 3 per cent.
+Weighted average cost of capital | 8.80 per cent: 0.30 × 6.0 = 1.80 from the debt, 0.10 × 8.75 = 0.875 from the preferred and 0.60 × 10.2 = 6.12 from the equity, so 1.80 + 0.875 + 6.12 = 8.80 per cent.
+Break point | 10,000,000: 6,000,000 ÷ 0.60 = 10,000,000.
+What it tells you | The company can raise ten million at 8.80 per cent and must pay more after that, so a project returning 9 per cent is worth taking out of the first ten million and may not be worth taking out of the next.
+@end
+Multiple-choice questions
+P8-01  Answer A. Market values, or the target structure.
+B is wrong. Book values are historical.
+C is wrong. Par value is a formality.
+D is wrong. Issue prices are historical too.
+P8-02  Answer A. 8.0 × 0.75 = 6.0 per cent.
+B is wrong. That is the before-tax rate.
+C is wrong. That is the shield alone.
+D is wrong. This divides by 0.75.
+P8-03  Answer A. 7.00 ÷ 80.00 = 8.75 per cent.
+B is wrong. That is the dividend as a percentage of a 100 par.
+C is wrong. This inverts the ratio.
+D is wrong. This multiplies the price by the rate.
+P8-04  Answer A. The shareholders' required return is the opportunity cost.
+B is wrong. Retained earnings are not free.
+C is wrong. Equity costs more than debt.
+D is wrong. The yield is part of the required return, not all of it.
+P8-05  Answer A. Flotation costs reduce the net proceeds.
+B is wrong. Neither is deductible, so tax does not differ.
+C is wrong. The dividend is the same for all common shares.
+D is wrong. Equity carries no covenants.
+P8-06  Answer A. 8.66 + 0.38 = 9.04 per cent.
+B is wrong. That is a 50-50 structure.
+C is wrong. That is the all-equity figure.
+D is wrong. That is the after-tax cost of debt alone.
+P8-07  Answer A. The cheaper source of a component is exhausted.
+B is wrong. Rejecting a project does not change the cost of money.
+C is wrong. A dividend reduces retained earnings and moves the break.
+D is wrong. A tax change shifts the whole schedule.
+P8-08  Answer A. 6,000,000 ÷ 0.60 = 10,000,000.
+B is wrong. This multiplies instead of dividing.
+C is wrong. That is the equity alone.
+D is wrong. This divides by 0.40.
+P8-09  Answer A. New money is raised at today's prices.
+B is wrong. Historical cost is often lower, which is the trap.
+C is wrong. No standard applies.
+D is wrong. Ease of computation is not the reason.
+P8-10  Answer A. A riskier project requires a higher return.
+B is wrong. The company rate describes the existing business.
+C is wrong. The financing mix is not the project's risk.
+D is wrong. The risk-free rate ignores risk entirely.
+Case-style set: the hurdle rate memorandum
+The correct hurdle rate. Equity is 8,100,000 × 9.25 = 74,925,000 and debt is $6,400,000, so total capital is 74,925,000 + 6,400,000 = 81,325,000. Equity is 74,925,000 ÷ 81,325,000 = 92.13 per cent of that and debt 7.87 per cent. Debt costs 6.5 × 0.75 = 4.875 per cent after tax and equity 9.4 per cent. The weighted average is 0.9213 × 9.4 = 8.66 plus 0.0787 × 4.875 = 0.38, which is 8.66 + 0.38 = 9.04 per cent.
+Which projects would be wrongly accepted. At a 6 per cent hurdle, all four projects pass. At the correct 9.04 per cent, only the 14 per cent and the 11 per cent projects clear it. The 9 per cent project falls just short and the 7 per cent project falls well short, so the memorandum would approve two investments that do not earn what the money costs — and the second of them would destroy value at a rate of about two points a year on whatever it consumed.
+The principle missed. Debt is the cheapest source of money precisely because it is the safest claim, and it is safe because the shareholders stand behind it. Using the lenders' rate as the company's hurdle charges new projects for the lenders' risk and nothing for the shareholders', who bear the rest. Orontes's shareholders have $74,925,000 at stake against the bank's $6,400,000, and they require 9.4 per cent. A hurdle that ignores 92 per cent of the capital is not a conservative estimate; it is the wrong number, and it is wrong in the direction that approves bad projects.
+One refinement I would add. Even 9.04 per cent is the rate for Orontes's existing business. A project materially riskier than making and selling food should carry a higher rate, estimated from the beta of the industry it belongs to, and the memorandum should say so.

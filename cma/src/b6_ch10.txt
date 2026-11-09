@@ -1,0 +1,547 @@
+Chapter 10
+Going public, buying back, and insider trading
+الطرح العام الأولي وإعادة شراء الأسهم والتداول بناء على معلومات داخلية
+A company's relationship with the equity market has three moments. It sells shares to the public for the first time. It sells more later. And at some point, if it has more cash than it can use, it buys some of them back. This chapter takes the three in order, and then deals with the offence that shadows all of them: trading on what you know and others do not.
+The thread running through the chapter is information. An initial public offering is priced by people who know less about the company than its directors do, and the whole machinery of prospectuses, roadshows and underwriters exists to narrow that gap. A buyback announcement is read as a statement about what the directors think the shares are worth. And insider trading is what happens when somebody exploits the gap instead of narrowing it.
+Figure F610-01 is your map.
+Figure F610-01. Chapter 10 roadmap: shares out, shares back, and the information behind both.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+B.3.e
+Define initial public offerings and describe the process.
+C
+Full treatment
+B.3.f
+Define subsequent and secondary offerings.
+C
+Full treatment
+B.3.k
+Define share repurchases and explain why a company repurchases its stock.
+C
+Full treatment
+B.3.l
+Define insider trading and explain why it is illegal.
+C
+Full treatment
+B.3.b
+Read each event against the efficiency of the market that prices it.
+B
+Reinforced (introduced in Chapter 9)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+initial public offering
+الطرح العام الأولي
+introduction en bourse
+prospectus
+نشرة الاكتتاب
+prospectus
+book-building
+بناء سجل الأوامر
+construction du livre d'ordres
+underpricing
+التسعير المنخفض
+sous-évaluation à l'émission
+seasoned offering
+الطرح اللاحق
+émission secondaire
+rights issue
+إصدار حقوق الأولوية
+augmentation de capital avec DPS
+share repurchase
+إعادة شراء الأسهم
+rachat d'actions
+insider trading
+التداول بمعلومات داخلية
+délit d'initié
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 9 described underwriting and the gross spread, and said that a first-day price rise is a cost to the issuer rather than a success. Book 1 recorded that Orontes issued 100,000 shares on January 2, 2025 for $1,500,000, which is $15.00 a share against a market price that ended the year at $9.25 — a reminder that the two are not the same transaction and that the first was a placing at a negotiated price.
+10.1  The initial public offering
+An initial public offering is the first sale of a company's shares to the public. Two things can happen at once in it, and the exam distinguishes them: the company may issue new shares, in which case it receives the money, and existing shareholders may sell some of theirs, in which case they do.
+Why do it. To raise capital for growth that retained profit cannot fund. To give the founders and early investors a way out, which is often the real reason. To create a traded currency for acquisitions and for employee incentives. To raise the company's standing with customers and lenders. And to establish a market price, which every subsequent financing then references.
+Why not. The costs are large and permanent. A public company carries continuous disclosure obligations, quarterly scrutiny, governance requirements and the attention of people whose horizon is shorter than the business's. Control is diluted and in extremis can be lost. The direct costs of the issue are heavy, and the indirect cost of underpricing is heavier still.
+The process has six stages.
+Selecting the underwriters and agreeing the structure, which fixes the firm commitment or best efforts basis of Chapter 9.
+Due diligence and the registration statement, filed with the securities regulator, from which the prospectus is drawn. The prospectus is the document on which the investors decide, and the liability for what it says is the reason due diligence is thorough.
+The roadshow, in which management presents to institutional investors over two or three weeks.
+Book-building, in which the underwriters collect indications of how much each investor would buy at what price, and from which the demand curve is assembled.
+Pricing, the night before the offer, at a figure that the book says will clear with demand left over.
+Trading, followed by a lock-up period of typically ninety to a hundred and eighty days during which insiders may not sell, and often a stabilisation period in which the underwriter may support the price.
+WORKED EXAMPLE   Worked example: what an offering costs
+Step 1. The offer. A company sells 5,000,000 new shares at $12.00. The gross amount is 5,000,000 × 12.00 = 60,000,000.
+Step 2. The direct costs. At a 7 per cent gross spread, the underwriters take 60,000,000 × 0.07 = 4,200,000, so the company receives 60,000,000 − 4,200,000 = 55,800,000, before legal, accounting and listing fees of perhaps a further two million.
+Step 3. The indirect cost. The shares close their first day at $15.00. The company sold for $12.00 something the market valued at $15.00, so the underpricing is 15.00 − 12.00 = 3.00 a share, which is 5,000,000 × 3.00 = 15,000,000 of value transferred from the company's existing owners to the investors who were allocated stock.
+Check. The indirect cost is three and a half times the direct one, and it is the part nobody puts in the fee table. Some underpricing is rational — a discount is needed to persuade investors to take an unknown, and the underwriter needs the issue to sell — but the average first-day rise across decades of offerings is far larger than that explanation supports, and it is why the exam treats a large first-day pop as a question about the pricing rather than as good news.
+Figure F610-02 sets out the costs.
+Figure F610-02. What an initial public offering costs
+Cost
+How it arises
+On this offering
+Gross spread
+The underwriting syndicate's fee
+4,200,000
+Legal, accounting, listing
+Advisers and the exchange
+About 2,000,000
+Underpricing
+The first-day rise on shares already sold
+15,000,000
+Continuing costs
+Disclosure, governance, investor relations
+Every year thereafter
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+registration statement
+بيان التسجيل
+document d'enregistrement
+roadshow
+الجولة الترويجية
+tournée de présentation
+lock-up period
+فترة الحظر
+période de blocage
+stabilisation
+تثبيت السعر
+stabilisation
+SECTION CHECK   Test yourself
+SC10-1  In an initial public offering, the company receives the proceeds of:
+A.	the new shares it issues, but not of shares sold by existing holders.
+B.	all shares sold, whoever owned them.
+C.	no shares.
+D.	only the shares sold after the lock-up.
+SC10-2  Book-building is the process of:
+A.	collecting investors' indications of demand at different prices.
+B.	preparing the financial statements.
+C.	registering with the exchange.
+D.	stabilising the price after listing.
+SC10-3  A first-day price rise from 12.00 to 15.00 on 5,000,000 shares represents:
+A.	15,000,000 the company could have raised and did not.
+B.	a 15,000,000 gain to the company.
+C.	no cost to anybody.
+D.	the underwriting spread.
+Answers and explanations are at the end of the chapter.
+10.2  Offerings after the first
+A company that is already listed can sell more shares, and the exam uses three terms for what happens.
+A subsequent or follow-on offering is any sale of shares by an already-listed company. A seasoned equity offering is the same thing, named for the fact that the shares are seasoned — already trading, with a known price.
+A secondary offering, strictly, is a sale of existing shares by large holders rather than new shares by the company. The distinction matters because no money reaches the company, and because a sale by founders or a private equity owner carries a signal that a sale of new shares does not.
+A rights issue offers new shares to existing shareholders in proportion to their holdings, usually at a discount to the market price, in order to honour the pre-emptive right of Chapter 5. A shareholder who takes up the rights keeps their proportion and suffers no dilution; one who sells the rights receives compensation for the dilution; one who does nothing loses.
+A shelf registration allows a company to register an amount of securities once and sell them in pieces over the following years whenever conditions suit, which lowers cost and speeds execution.
+The pricing of a follow-on is easier than an initial offering, because the market has already set a price, but the signal is harder. Under the semi-strong efficiency of Chapter 9 the announcement is new information, and the evidence is that share prices fall on the announcement of a new equity issue, typically by two or three per cent. The standard explanation is the information asymmetry of this chapter's theme: directors issue shares when they believe the shares are fully valued, and investors know it, so an issue is read as a signal that management thinks the price is high. The practical consequence for a treasurer is that equity is expensive in a way that no cost-of-capital calculation captures.
+Figure F610-03 compares the routes.
+Figure F610-03. Four ways to sell shares after listing
+Route
+Who sells
+Who receives the money
+Main feature
+Follow-on (seasoned) offering
+The company
+The company
+Priced off the market
+Secondary offering
+Existing large holders
+Those holders
+Carries a seller's signal
+Rights issue
+The company, to its own holders
+The company
+Protects proportions, priced at a discount
+Shelf registration
+The company, in tranches
+The company
+Registered once, sold when conditions suit
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+follow-on offering
+الطرح اللاحق
+émission ultérieure
+information asymmetry
+عدم تماثل المعلومات
+asymétrie d'information
+signalling
+الإشارة السوقية
+signalement
+shelf registration
+التسجيل الرفي
+enregistrement différé
+SECTION CHECK   Test yourself
+SC10-4  In a secondary offering, strictly defined:
+A.	existing holders sell and the company receives nothing.
+B.	the company issues new shares.
+C.	bonds are sold.
+D.	the shares are sold to the company itself.
+SC10-5  Share prices typically fall on the announcement of a new equity issue because:
+A.	investors read it as a signal that management thinks the shares are fully valued.
+B.	the company must be insolvent.
+C.	dividends must fall.
+D.	the exchange requires it.
+SC10-6  A rights issue protects an existing shareholder from dilution by:
+A.	offering new shares in proportion to the existing holding.
+B.	paying a dividend.
+C.	issuing bonds instead.
+D.	buying back shares.
+Answers and explanations are at the end of the chapter.
+10.3  Share repurchases
+A repurchase is the company buying its own shares. The shares bought either become treasury stock, available to be reissued, or are cancelled. Either way the share count falls and so does equity.
+Six reasons a company repurchases, and the exam expects them named and distinguished.
+To return cash it cannot use. A company generating more than its investment opportunities need has three choices: hold the cash, which lowers the return on assets as Book 1 showed; raise the dividend, which the market expects to be maintained; or buy back shares, which carries no such expectation. Flexibility is the central argument for a buyback over a dividend.
+To signal that the directors believe the shares are undervalued. Buying is the opposite of issuing, and the signal is read in the opposite direction: prices typically rise on a repurchase announcement.
+To change the capital structure. A buyback funded with debt raises leverage deliberately, moving the company towards the optimum of Chapter 7.
+To offset the dilution of employee share schemes, which is in practice the largest single use of repurchase programmes.
+To use the tax treatment. Where capital gains are taxed more lightly than dividends, or are deferred until the shareholder chooses to sell, a repurchase delivers value more tax-efficiently than a dividend.
+To defend against a takeover, by reducing the free float and raising the price.
+The methods differ and are examinable. An open-market repurchase buys gradually through the exchange over months, cheapest and least committing. A fixed-price tender offer invites all holders to sell a stated number at a stated price, usually at a premium. A Dutch auction tender invites holders to state the lowest price at which they will sell, and the company pays the lowest price that fills the order. And a targeted repurchase buys from one holder privately, which is the transaction that acquired the name greenmail when the holder was a hostile bidder being paid to go away.
+WORKED EXAMPLE   Worked example: Orontes buys back 500,000 shares
+Step 1. The transaction. Orontes buys 500,000 of its 8,100,000 shares at the market price of $9.25, spending 500,000 × 9.25 = 4,625,000 of the $7,302,100 of cash on its balance sheet. Cash falls to 7,302,100 − 4,625,000 = 2,677,100.
+Step 2. Earnings per share. Net income is unchanged at $2,969,100 and the share count falls to 8,100,000 − 500,000 = 7,600,000, so earnings per share rises to 2,969,100 ÷ 7,600,000 = 0.3907 from 0.3666.
+Step 3. Book value per share. Equity falls by the cash spent: 20,392,975 − 4,625,000 = 15,767,975, and book value per share becomes 15,767,975 ÷ 7,600,000 = 2.07, down from 2.5177 — because the shares were bought at nearly four times book.
+Step 4. The ratios. Return on equity rises to 2,969,100 ÷ 15,767,975 = 18.83 per cent from 16.15. Debt to equity rises to 11,279,625 ÷ 15,767,975 = 0.715 from 0.55. The current ratio falls, because $4,625,000 of current assets has gone.
+Check. Earnings per share rose, return on equity rose, and nothing whatever happened to the business. That is the warning this example exists to give: a buyback improves every per-share measure arithmetically, and an incentive scheme based on earnings per share can therefore be satisfied by spending cash rather than by trading better. The question to ask is the one Chapter 8 asked: did the $4,625,000 earn more inside the company or returned to its owners? If Orontes has projects returning more than 9.04 per cent, the buyback destroyed value however good the ratios look.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+treasury stock
+أسهم الخزينة
+actions auto-détenues
+tender offer
+عرض الشراء
+offre publique de rachat
+Dutch auction
+المزاد الهولندي
+enchère hollandaise
+free float
+الأسهم الحرة
+flottant
+SECTION CHECK   Test yourself
+SC10-7  The main advantage of a repurchase over a dividend increase is:
+A.	flexibility, because no continuing expectation is created.
+B.	that it costs less cash.
+C.	that it raises net income.
+D.	that it avoids tax entirely.
+SC10-8  A repurchase of 500,000 of 8,100,000 shares, with net income unchanged at 2,969,100, raises earnings per share to:
+A.	0.3907
+B.	0.3666
+C.	0.3433
+D.	2.07
+SC10-9  A buyback improves earnings per share and return on equity while the business is unchanged. The right question is:
+A.	whether the cash would have earned more inside the company.
+B.	whether the share price will rise.
+C.	whether the auditors agree.
+D.	whether the dividend can be maintained.
+Answers and explanations are at the end of the chapter.
+10.4  Insider trading
+Insider trading is dealing in a company's securities on the basis of material non-public information, by somebody who owes a duty with respect to that information.
+Three elements define it and each is tested.
+Material means the information would matter to a reasonable investor's decision — an earnings figure not yet announced, a merger in negotiation, the loss of a major customer, a drug trial's result. Immaterial information is not caught however secret.
+Non-public means not yet disseminated to the market. Once an announcement has been made and the market has had time to absorb it, the information is public and trading on it is lawful.
+A duty means the trader is an insider or has become one. Directors, officers and employees are classic insiders. So are temporary insiders — the lawyers, auditors, bankers and printers who receive the information to do their work. And so is a tippee, somebody given the information by an insider who breached a duty in telling them, where the tippee knew or should have known of the breach.
+Why it is illegal, which is the part of the outcome candidates answer weakly. Four reasons, and the first is the strongest.
+It is theft of information that belongs to the company and its shareholders, used for private gain.
+It destroys confidence in the market. Investors who believe the game is rigged demand a higher return for participating, which raises the cost of capital for every company — a harm to the whole economy, not only to the person on the other side of the trade.
+It harms the counterparty directly. Somebody sold the shares the insider bought, at a price that did not reflect what the insider knew.
+It creates perverse incentives inside the company. A manager who can trade on bad news has an interest in bad news, and in delaying its announcement.
+The defences and safe harbours are examinable. A pre-arranged trading plan, adopted when the insider had no material non-public information and executed automatically, protects routine sales by executives. Trading after full public disclosure is lawful. And the regulations that require fair disclosure exist precisely to stop selective briefing of analysts, which would otherwise create insiders by the dozen.
+Note finally how this section closes the circle with Chapter 9. Strong-form efficiency says prices already reflect private information, in which case insider trading could not be profitable. The law assumes it is profitable. The law is right, which is the plainest available evidence that the strong form does not hold.
+Figure F610-04 collects the elements.
+Figure F610-04. What makes trading unlawful
+Element
+Test
+Example that meets it
+Example that does not
+Material
+Would a reasonable investor care?
+Unannounced earnings, a merger
+An internal reorganisation of departments
+Non-public
+Has the market been told?
+Before the announcement
+After it has been absorbed
+Duty
+Is the trader an insider or a tippee?
+A director, an auditor, a tipped friend
+A stranger who worked it out from public data
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+material information
+المعلومة الجوهرية
+information privilégiée
+tippee
+متلقي المعلومة
+destinataire de l'information
+fair disclosure
+الإفصاح العادل
+information équitable
+trading plan
+خطة تداول مسبقة
+plan de cession programmé
+SECTION CHECK   Test yourself
+SC10-10  Insider trading requires information that is:
+A.	material, non-public, and held under a duty.
+B.	merely confidential.
+C.	published but unnoticed.
+D.	about any company.
+SC10-11  The strongest reason insider trading is illegal is that:
+A.	it misappropriates information belonging to the company and its shareholders.
+B.	it is unfair to analysts.
+C.	it reduces trading volumes.
+D.	it is difficult to detect.
+SC10-12  An analyst who assembles public information into a correct forecast and trades on it:
+A.	is acting lawfully.
+B.	is an insider.
+C.	is a tippee.
+D.	breaches fair disclosure rules.
+Answers and explanations are at the end of the chapter.
+10.5  Deciding, as Orontes
+Put the chapter to work on the company. Orontes holds $7,302,100 of cash against total current liabilities of $4,280,000 and a cash ratio of 1.72, which Book 1 called strong and faintly excessive. Three uses compete.
+Invest it. Chapter 8 found projects returning 14 and 11 per cent against a cost of capital of 9.04, so the first call on the cash is the investment the company can actually make. Nothing in this chapter outranks a project that earns more than the money costs.
+Raise the dividend. The payout is 15.16 per cent and the dividend yield 0.60 per cent, which is a growth company's profile. Raising it creates an expectation the company will be judged against for years, and Chapter 11 takes the dividend decision properly.
+Buy back shares. The worked example showed what it would do to the ratios and what it would not do to the business. Two further considerations decide it. The shares trade at 3.67 times book and 25.23 times earnings, which is the price at which the company would be buying — a high price to pay for its own equity unless the directors believe the market is undervaluing it, and Book 1's margin finding suggests the opposite. And the cash is partly a defence: a company whose gross margin is falling a point a year may need the $7,302,100 more than its shareholders do.
+The recommendation that follows from the whole of Books 1 and 2 so far is: fund the projects, leave the dividend where it is, and do not buy back shares at 3.67 times book while the margin is still falling. That is a judgment, and the marks in an exam are for the reasoning, not for the verdict.
+YOUR TURN   Classify and compute
+Figure F610-05 gives six items. Complete the blanks. Answers are at the end of the chapter.
+Figure F610-05. Your turn: offerings, buybacks and insiders (complete the blanks)
+Item
+Question
+Answer
+4,000,000 shares at 15.00, 6 per cent spread
+Proceeds to the company
+________
+Those shares close at 18.00 on day one
+Underpricing in total
+________
+A founder sells 2,000,000 existing shares
+Who receives the money?
+________
+A company buys back 1,000,000 of 10,000,000 shares; net income 5,000,000
+New earnings per share
+________
+An auditor trades before an unannounced merger
+Lawful or not, and why?
+________
+A trading plan adopted a year earlier executes a sale
+Lawful or not, and why?
+________
+LANGUAGE FOCUS   "Offering"
+English offering in finance means a sale of securities, and the related words divide along lines that catch candidates out. An offer is what a bidder makes for a company; an offering is what a company makes to investors; and the offer price in a market quotation is the price at which a dealer will sell to you, which is the opposite of the bid. Arabic uses طرح for the issuance and عرض for a takeover offer, which separates them neatly. French uses émission for the issuance, offre publique for a takeover bid, and prix d'offre for the dealer's selling price — so the phrase offre publique d'achat is a takeover and offre publique de vente is an offering, and the two differ by one word. Read the preposition and the context before deciding which is meant.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+excess cash
+النقد الفائض
+trésorerie excédentaire
+payout policy
+سياسة التوزيع
+politique de distribution
+buyback programme
+برنامج إعادة الشراء
+programme de rachat
+capital allocation
+تخصيص رأس المال
+allocation du capital
+SECTION CHECK   Test yourself
+SC10-13  The first call on surplus cash should be:
+A.	projects that earn more than the cost of capital.
+B.	a share buyback.
+C.	a special dividend.
+D.	repaying debt early.
+SC10-14  Buying back shares at 3.67 times book value is justified only if:
+A.	the directors believe the market is undervaluing the company.
+B.	the ratios improve.
+C.	the share count falls.
+D.	cash is available.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F610-06 brings the chapter together.
+Figure F610-06. Chapter 10 summary map: the key rule for each section.
+An initial public offering sells shares to the public for the first time, through underwriting, due diligence, a prospectus, a roadshow, book-building and a price set the night before; on 5,000,000 shares at $12.00 the direct cost is 60,000,000 × 0.07 = 4,200,000 and the indirect cost of a close at $15.00 is 5,000,000 × 3.00 = 15,000,000, three and a half times larger and absent from every fee table. After listing, a follow-on offering sells new shares, a secondary offering sells existing ones and reaches the company not at all, a rights issue protects proportions, and a shelf registration waits for conditions — and every equity announcement is read as a signal, which is why prices fall two or three per cent on an issue. A repurchase returns cash with no continuing expectation, signals undervaluation, re-levers the balance sheet, offsets employee dilution and uses the tax treatment of gains: 500,000 Orontes shares at $9.25 would cost 500,000 × 9.25 = 4,625,000, raise earnings per share to 2,969,100 ÷ 7,600,000 = 0.3907 and return on equity to 18.83 per cent, and change nothing about the business. Insider trading is dealing on material non-public information held under a duty, and it is illegal first because the information belongs to the company and second because a market believed to be rigged charges every company more for capital. And for Orontes the order is: fund the projects, hold the dividend, and do not buy equity at 3.67 times book while the margin is still falling.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P10-01  An initial public offering is:
+A.	the first sale of a company's shares to the public.
+B.	any sale of shares by a listed company.
+C.	a sale of bonds.
+D.	a repurchase.
+P10-02  4,000,000 shares sold at 15.00 with a 6 per cent gross spread give the company:
+A.	56,400,000
+B.	60,000,000
+C.	3,600,000
+D.	63,600,000
+P10-03  Shares sold at 15.00 close their first day at 18.00. On 4,000,000 shares the underpricing is:
+A.	12,000,000
+B.	3,000,000
+C.	72,000,000
+D.	nil
+P10-04  In a secondary offering the money goes to:
+A.	the selling shareholders.
+B.	the company.
+C.	the underwriter alone.
+D.	the exchange.
+P10-05  A shelf registration allows a company to:
+A.	register securities once and sell them in tranches later.
+B.	avoid disclosure.
+C.	issue without an underwriter.
+D.	buy back shares.
+P10-06  Which is NOT a reason to repurchase shares?
+A.	To increase the number of shares outstanding
+B.	To return surplus cash flexibly
+C.	To signal that the shares are undervalued
+D.	To offset dilution from employee schemes
+P10-07  A company with 10,000,000 shares and net income of 5,000,000 buys back 1,000,000 shares. Earnings per share becomes:
+A.	0.5556
+B.	0.5000
+C.	0.4545
+D.	5.0000
+P10-08  A Dutch auction repurchase:
+A.	asks holders to state the lowest price at which they will sell.
+B.	buys gradually in the open market.
+C.	buys from one holder privately.
+D.	offers a fixed price to all holders.
+P10-09  Insider trading requires information that is:
+A.	material and non-public, held under a duty.
+B.	merely useful.
+C.	public but complicated.
+D.	about a competitor.
+P10-10  A company's shares trade at four times book value. A buyback at that price:
+A.	lowers book value per share.
+B.	raises book value per share.
+C.	leaves book value per share unchanged.
+D.	is prohibited.
+Case-style practice: the buyback proposal
+Orontes's board receives a proposal to buy back 500,000 shares at the market price of $9.25, funded from cash. The finance director supports it: earnings per share would rise from $0.3666 to $0.3907 and return on equity from 16.15 to 18.83 per cent. The chief executive's bonus is based on earnings per share. The company has identified projects returning 14 and 11 per cent requiring $6,000,000 in total, and its weighted average cost of capital is 9.04 per cent. Its gross margin has fallen from 37.0 to 35.0 per cent over three years.
+Required. Evaluate the proposal. State what the buyback would and would not change, identify the governance issue, and recommend. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC10-1  Answer A. Only new shares bring money to the company.
+B is wrong. Proceeds of existing shares go to their owners.
+C is wrong. New shares do raise money.
+D is wrong. The lock-up restricts insiders, not the company's proceeds.
+SC10-2  Answer A. Book-building assembles the demand curve.
+B is wrong. The statements are prepared for the prospectus, not by book-building.
+C is wrong. Registration is a separate stage.
+D is wrong. Stabilisation happens after listing.
+SC10-3  Answer A. 5,000,000 × 3.00 = 15,000,000 that the company did not raise.
+B is wrong. The company sold at 12.00 and gains nothing from the rise.
+C is wrong. The cost falls on the existing owners.
+D is wrong. The spread is a separate, smaller cost.
+SC10-4  Answer A. Existing holders sell their own shares.
+B is wrong. That is a follow-on offering.
+C is wrong. Secondary offerings concern shares.
+D is wrong. A sale to the company is a repurchase.
+SC10-5  Answer A. The issue is read as a signal about the price.
+B is wrong. Most issuers are solvent.
+C is wrong. Dividends need not change.
+D is wrong. No exchange requires a price fall.
+SC10-6  Answer A. Proportional offers preserve proportions.
+B is wrong. A dividend does not address dilution.
+C is wrong. Bonds raise money without affecting the share count.
+D is wrong. A buyback is a different transaction.
+SC10-7  Answer A. A buyback creates no expectation of repetition.
+B is wrong. A buyback usually costs more cash than a dividend increase.
+C is wrong. Net income is unchanged.
+D is wrong. Tax is deferred or taxed as a gain, not avoided.
+SC10-8  Answer A. 2,969,100 ÷ 7,600,000 = 0.3907.
+B is wrong. That is the figure before the buyback.
+C is wrong. This divides by too large a number.
+D is wrong. 2.07 is the new book value per share.
+SC10-9  Answer A. The cash has an opportunity cost.
+B is wrong. The price may rise for reasons that have nothing to do with value.
+C is wrong. The accounting is not in question.
+D is wrong. The dividend is a separate decision.
+SC10-10  Answer A. All three elements are required.
+B is wrong. Confidential but immaterial information is not caught.
+C is wrong. Published information is public.
+D is wrong. The duty attaches to specific information.
+SC10-11  Answer A. The information belongs to the company.
+B is wrong. Analysts' convenience is not the principle.
+C is wrong. Volumes are not the concern.
+D is wrong. Difficulty of detection is not a reason for illegality.
+SC10-12  Answer A. Assembling public information is the analyst's job.
+B is wrong. No duty has been breached.
+C is wrong. Nobody tipped them.
+D is wrong. Fair disclosure rules bind the company, not the analyst.
+SC10-13  Answer A. A project earning more than the cost of capital creates value.
+B is wrong. A buyback returns cash that could have earned more.
+C is wrong. The same objection applies.
+D is wrong. Repaying cheap debt early is rarely the best use.
+SC10-14  Answer A. Paying four times book is only sensible if the shares are cheap at it.
+B is wrong. The ratios improve arithmetically whatever the price.
+C is wrong. A falling share count is the mechanism, not the justification.
+D is wrong. Available cash is not a reason to spend it.
+Your turn
+Item
+Answer
+Proceeds to the company
+56,400,000: the gross is 4,000,000 × 15.00 = 60,000,000 and the spread 60,000,000 × 0.06 = 3,600,000, leaving 60,000,000 − 3,600,000 = 56,400,000.
+Underpricing in total
+12,000,000: the rise is 18.00 − 15.00 = 3.00 a share on 4,000,000 shares.
+Who receives the money
+The founder, not the company: this is a secondary sale of existing shares.
+New earnings per share
+0.5556: 5,000,000 ÷ 9,000,000 = 0.5556.
+The auditor's trade
+Unlawful: the auditor is a temporary insider with material non-public information.
+The trading plan
+Lawful: it was adopted when the insider held no material non-public information and executes automatically.
+What it tells you
+The two costs of an offering are the one in the fee table and the one that is not, and on these figures the second is more than three times the first.
+Multiple-choice questions
+P10-01  Answer A. The first public sale.
+B is wrong. That is a follow-on offering.
+C is wrong. Bonds are a different instrument.
+D is wrong. A repurchase runs the other way.
+P10-02  Answer A. 60,000,000 − 3,600,000 = 56,400,000.
+B is wrong. That is the gross amount.
+C is wrong. That is the spread.
+D is wrong. The spread is deducted.
+P10-03  Answer A. 4,000,000 × 3.00 = 12,000,000.
+B is wrong. That is the rise on one share, times a million.
+C is wrong. That is the whole first-day value.
+D is wrong. The rise is real and costly.
+P10-04  Answer A. Existing holders sell their own shares.
+B is wrong. The company sells nothing.
+C is wrong. The underwriter takes a spread only.
+D is wrong. The exchange takes fees only.
+P10-05  Answer A. Register once, sell in tranches.
+B is wrong. Disclosure still applies.
+C is wrong. Underwriters are still normally used.
+D is wrong. Buybacks are unrelated.
+P10-06  Answer A. A buyback reduces the share count.
+B is wrong. Flexible return of cash is a standard reason.
+C is wrong. Signalling is a standard reason.
+D is wrong. Offsetting dilution is the largest use in practice.
+P10-07  Answer A. 5,000,000 ÷ 9,000,000 = 0.5556.
+B is wrong. That is the figure before the buyback.
+C is wrong. This adds the shares instead of subtracting them.
+D is wrong. This misplaces the decimal.
+P10-08  Answer A. Holders state their lowest acceptable price.
+B is wrong. That is an open-market programme.
+C is wrong. That is a targeted repurchase.
+D is wrong. That is a fixed-price tender.
+P10-09  Answer A. Material, non-public and held under a duty.
+B is wrong. Usefulness is not the test.
+C is wrong. Public information cannot found the offence.
+D is wrong. The duty attaches to the information's source.
+P10-10  Answer A. Paying above book for each share leaves less book value behind per remaining share.
+B is wrong. That happens on a repurchase below book.
+C is wrong. Both equity and the count change, and not in proportion.
+D is wrong. Nothing prohibits it.
+Case-style set: the buyback proposal
+What it would change. Spending 500,000 × 9.25 = 4,625,000 of cash would take earnings per share from $0.3666 to 2,969,100 ÷ 7,600,000 = 0.3907 and return on equity from 16.15 to 2,969,100 ÷ 15,767,975 = 18.83 per cent. Book value per share would fall from $2.5177 to 15,767,975 ÷ 7,600,000 = 2.07, because the shares are being bought at 3.67 times book. Debt to equity would rise from 0.55 to 11,279,625 ÷ 15,767,975 = 0.715, and the cash ratio would fall sharply.
+What it would not change. Sales, margins, costs, the quality of the earnings, or anything else about the business. Every improvement above is arithmetic.
+The competing use. The company has projects returning 14 and 11 per cent needing $6,000,000, against a cost of capital of 9.04 per cent. Those projects create value; the buyback transfers it. With $7,302,100 of cash, funding the projects and the buyback together would leave the company with less than $700,000 and no margin for the trading deterioration Book 1 identified.
+The governance issue. The chief executive's bonus is measured on earnings per share, and the proposal raises earnings per share by 6.6 per cent without any improvement in trading. That is a direct conflict between the measure and the objective, and the board's remuneration committee should be told of it before the capital committee votes.
+Recommendation. Reject the buyback for now. Fund the two projects, which consume most of the surplus and earn well above the cost of capital. Revisit a repurchase when the gross margin has stabilised and the shares are no longer at 3.67 times book — and in the meantime, ask the remuneration committee to add a return-on-capital condition to the bonus, so that the next proposal of this kind arrives without the conflict attached.

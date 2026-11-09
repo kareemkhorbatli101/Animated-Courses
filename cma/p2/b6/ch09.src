@@ -1,0 +1,427 @@
+Chapter 9
+Markets, efficiency, ratings and the investment bank
+الأسواق وكفاءتها ووكالات التصنيف وبنوك الاستثمار
+Everything in the last eight chapters assumed a market. A bond has a yield because somebody quotes one; a share has a price because somebody will buy it; a required return is a market's verdict and not a company's opinion. This chapter is about the machinery behind those assumptions: where instruments trade, how good the prices are, who grades the credit, and who stands between a company and the investors it wants.
+It matters to a candidate for a practical reason. A finance function does not meet the capital market as an abstraction. It meets a rating agency's analyst, an underwriter's fee, a covenant demanded by an institution, and a share price that moved on an announcement nobody expected to matter. Each of those is explained by something in this chapter.
+Figure F609-01 is your map.
+Figure F609-01. Chapter 9 roadmap: where money is raised, how fairly it is priced, and who stands in between.
+Learning objectives
+@table
+LOS | After this chapter you can … | Level | Depth here
+B.3.a | Identify the characteristics of the different types of financial markets and exchanges. | C | Full treatment
+B.3.b | Explain market efficiency in its weak, semi-strong and strong forms. | C | Full treatment
+B.3.c | Describe the role of the credit rating agencies. | C | Full treatment
+B.3.d | Explain the roles of investment banks: underwriting, advice and trading. | C | Full treatment
+B.2.q | Connect the market's verdict to the company's cost of capital. | B | Reinforced (introduced in Chapter 8)
+@end
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section B outcome up to Level C.
+Key terms in this chapter
+@table
+English (exam term) | العربية | Français
+money market | سوق النقد | marché monétaire
+capital market | سوق رأس المال | marché des capitaux
+primary market | السوق الأولية | marché primaire
+secondary market | السوق الثانوية | marché secondaire
+over-the-counter | خارج المقصورة | de gré à gré
+market efficiency | كفاءة السوق | efficience des marchés
+credit rating | التصنيف الائتماني | notation financière
+underwriting | التغطية | prise ferme
+@end
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 2 said that a security above the security market line is a buy and that buying moves the price back to the line. That sentence assumed a market efficient enough for the correction to happen. Section 9.2 asks how far that assumption holds.
+9.1  The markets
+Financial markets are classified four ways, and the exam uses every one of them.
+By maturity. The money market trades instruments maturing within a year: treasury bills, commercial paper, certificates of deposit, repurchase agreements. The capital market trades longer claims: bonds and shares. Chapter 15 of this book is about the money market from a corporate treasurer's side.
+By whether the money reaches the issuer. In the primary market a company sells new securities and receives the proceeds: an initial public offering, a bond issue, a rights issue. In the secondary market existing securities change hands between investors and the company receives nothing. The secondary market matters to the issuer all the same, because nobody would buy in the primary market without it, and because the secondary price sets the terms of the next primary issue.
+By how trading is organised. An exchange brings orders together in one place under one rule book, with listing requirements and a published price. An over-the-counter market is a network of dealers quoting bids and offers, which is where most bonds, most currencies and all swaps trade. An auction market matches buyers and sellers directly; a dealer market has an intermediary who takes the other side of every trade and earns the spread between bid and offer.
+By who may participate. Public markets are open to any investor and carry disclosure obligations. Private markets are restricted to institutions and wealthy individuals, with far less disclosure, which is why a private placement is quicker and cheaper to arrange than a public issue, as Chapter 4 noted.
+Figure F609-02 collects them.
+Figure F609-02. Four ways to classify a market
+@table
+Classification | One side | The other side | Example of each
+Maturity | Money market, under a year | Capital market, over a year | Treasury bills; corporate bonds
+Issuance | Primary, new securities | Secondary, existing securities | An IPO; a trade on an exchange
+Organisation | Exchange, centralised | Over the counter, dealer network | A listed share; a swap
+Access | Public, with disclosure | Private, restricted | A listed bond; a private placement
+@end
+Three functions explain why any of it exists, and the exam asks for them. Markets move money from those who have it to those who can use it. They provide liquidity, so that a long-term claim can be held by a short-term investor. And they produce prices, which tell every company in the economy what its capital costs — the signal Chapter 8 turned into a hurdle rate.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+liquidity | السيولة | liquidité
+bid-offer spread | فارق العرض والطلب | fourchette de prix
+listing requirement | متطلبات الإدراج | conditions d'admission
+market maker | صانع السوق | teneur de marché
+@end
+SECTION CHECK   Test yourself
+SC9-1  A company receives the proceeds of a sale of securities in:
+A.	the primary market.
+B.	the secondary market.
+C.	the money market only.
+D.	an over-the-counter market only.
+SC9-2  Commercial paper trades in:
+A.	the money market.
+B.	the capital market.
+C.	the primary market only.
+D.	no market.
+SC9-3  Most corporate bonds and all swaps trade:
+A.	over the counter, through dealers.
+B.	on a central exchange.
+C.	in an auction market.
+D.	in the primary market only.
+Answers and explanations are at the end of the chapter.
+9.2  Market efficiency
+A market is efficient when prices reflect the information available. The useful version of the idea names which information, and there are three.
+The weak form says prices reflect all past prices and trading volumes. If it holds, studying charts of past prices cannot produce abnormal returns, because whatever a pattern would predict is already in the price. Technical analysis is worthless under the weak form.
+The semi-strong form says prices reflect all publicly available information: past prices, published financial statements, announcements, analysts' reports, news. If it holds, no amount of analysis of public information produces abnormal returns, because everyone has already read it. Fundamental analysis of published statements is worthless under the semi-strong form — which is an uncomfortable conclusion for a book whose first volume was eighteen chapters of exactly that, and the resolution is in the last paragraph of this section.
+The strong form says prices reflect all information, public and private, including what the directors know and have not announced. If it holds, even insiders cannot earn abnormal returns. Almost nobody believes the strong form, and the existence of insider trading laws is the clearest evidence that legislators do not either — Chapter 10 takes that up.
+Each form contains the weaker ones: semi-strong efficiency implies weak efficiency, and strong implies both.
+Figure F609-03 sets them out with their consequences.
+Figure F609-03. Three forms of efficiency
+@table
+Form | Prices reflect | What cannot work | Evidence
+Weak | Past prices and volumes | Technical analysis, chart patterns | Strong: prices are close to a random walk
+Semi-strong | All public information | Fundamental analysis of published data | Mostly supported; some anomalies
+Strong | All information, public and private | Even insider dealing | Rejected; insiders do earn abnormal returns
+@end
+The evidence is mixed in a specific way the exam expects. Prices adjust to public announcements very fast, usually within minutes, which supports the semi-strong form. But documented anomalies persist: small companies have earned more than their risk appeared to justify, shares with low price-to-book ratios have outperformed, prices drift in the direction of an earnings surprise for weeks after it. And behavioural finance has catalogued the ways investors depart from the rational benchmark — overconfidence, anchoring on irrelevant numbers, herding into a rising market, selling winners and holding losers.
+Four practical consequences, and the exam asks for them.
+A company cannot improve its share price by cosmetic accounting. If the market is semi-strong efficient, a change of depreciation method that raises reported earnings and changes no cash flow will move nothing, because the note disclosing it is public too. This is the strongest argument for the earnings-quality work of Book 1, Chapter 17: the market is looking through to the cash.
+The timing of an issue is not a source of value. Waiting for the share price to be high assumes the manager knows better than the market what the shares are worth.
+A company's own share price is the best available estimate of its value, and the right response to a price that seems wrong is to ask what the market knows that you do not.
+And analysis is still worth doing, because the market is efficient as a consequence of analysts competing to find mispricings. If everybody stopped analysing, prices would stop reflecting anything. The paradox is genuine and the resolution is that analysis earns roughly what it costs — which is also why a candidate learns to do it.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+abnormal return | العائد غير الطبيعي | rendement anormal
+random walk | المسار العشوائي | marche aléatoire
+anomaly | الشذوذ السعري | anomalie
+behavioural finance | التمويل السلوكي | finance comportementale
+@end
+SECTION CHECK   Test yourself
+SC9-4  Under the weak form of market efficiency:
+A.	studying past prices cannot produce abnormal returns.
+B.	insiders cannot profit.
+C.	published statements are useless.
+D.	prices never change.
+SC9-5  The form of efficiency that almost nobody believes holds is:
+A.	the strong form.
+B.	the weak form.
+C.	the semi-strong form.
+D.	all three equally.
+SC9-6  Under semi-strong efficiency, a change of accounting method that raises reported earnings without changing cash flows should:
+A.	not move the share price.
+B.	raise the share price.
+C.	lower the share price.
+D.	be prohibited.
+Answers and explanations are at the end of the chapter.
+9.3  The credit rating agencies
+A rating is an opinion on the likelihood that a borrower pays. The agencies publish it on a scale, and the scale has one division that matters more than all the gradations within it: investment grade, from the top down to BBB− or Baa3, and below that speculative grade, colloquially high yield or junk.
+The division matters because of what sits on it. Many institutional investors — pension funds, insurers, money market funds — are restricted by their own rules or by regulation to investment-grade paper. A downgrade across that line does not merely raise a company's interest cost; it removes a large part of the universe of buyers for its bonds, all at once. That is why companies manage towards a rating target, and why Book 1's covenants and coverage ratios matter to a treasurer.
+What the agencies look at is, with few additions, what Book 1 measured: leverage, coverage, margin stability, cash generation, the industry's cyclicality, the quality of the accounts, and the company's willingness as well as its ability to pay. Orontes would read well on most of them — interest coverage of 11.15 times, debt to assets of 0.36, and total debt of $6,400,000 against an EBITDA of $6,448,800, which is 6,400,000 ÷ 6,448,800 = 0.99 times, a ratio most agencies would call conservative for a food manufacturer.
+WORKED EXAMPLE   Worked example: what a notch is worth
+Step 1. The spreads. Suppose the market requires 1.2 points over the government curve for an A rating, 2.0 points for BBB and 4.0 points for BB.
+Step 2. One notch down, within investment grade. Moving from A to BBB costs 2.0 − 1.2 = 0.8 points. On the $5,000,000 facility Orontes was considering in Chapter 4, that is 5,000,000 × 0.008 = 40,000 a year.
+Step 3. Across the line. Moving from BBB to BB costs 4.0 − 2.0 = 2.0 points, which is 5,000,000 × 0.02 = 100,000 a year — and that understates it, because some lenders will not be there at all.
+Check. The steps are not equal, and the one that crosses from investment to speculative grade is the one to plan around. A company one notch above the line manages its balance sheet differently from one three notches above it, and that is a real cost of leverage that no weighted average cost of capital formula shows directly.
+The criticisms are examinable and should be stated fairly.
+The issuer pays. The company being rated pays the agency, which is a conflict of interest, however it is managed. The alternative, an investor-pays model, failed because ratings leak and investors would not pay for what they could obtain free.
+Ratings lag. An agency acts on information after the market has moved, so a downgrade often confirms what the bond price said weeks earlier.
+The record on structured products. In the financial crisis of 2007 and 2008, highly rated structured securities defaulted in numbers that the ratings had said were close to impossible, and the models behind those ratings proved to rest on assumptions about correlation that did not hold.
+A rating is not a recommendation. It is an opinion on default risk alone, and says nothing about whether a security is correctly priced for that risk.
+Figure F609-04 sets out the scale and its consequences.
+Figure F609-04. The rating scale, and what it changes
+@table
+Band | Typical range | Who may hold it | Typical spread over government
+High grade | AAA to AA− | Everybody | 0.5 to 1.0 points
+Upper medium | A+ to A− | Everybody | 1.0 to 1.5 points
+Lower medium | BBB+ to BBB− | Everybody, at the edge of many mandates | 1.5 to 2.5 points
+Speculative | BB+ and below | Restricted; many funds may not | 4.0 points and far more
+@end
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+investment grade | الدرجة الاستثمارية | catégorie investissement
+speculative grade | الدرجة المضاربية | catégorie spéculative
+downgrade | خفض التصنيف | dégradation
+notch | درجة فرعية | cran
+@end
+SECTION CHECK   Test yourself
+SC9-7  The most consequential division on a rating scale is between:
+A.	investment grade and speculative grade.
+B.	AAA and AA.
+C.	A and A−.
+D.	long and short maturities.
+SC9-8  A credit rating is an opinion on:
+A.	the likelihood of default.
+B.	whether the security is correctly priced.
+C.	the share price.
+D.	the quality of management alone.
+SC9-9  The principal structural criticism of the agencies is that:
+A.	the issuer pays for the rating.
+B.	they publish too often.
+C.	they use financial ratios.
+D.	they rate governments.
+Answers and explanations are at the end of the chapter.
+9.4  Investment banks
+An investment bank stands between companies that want money and investors that have it, and it does so in four businesses that the exam names.
+Underwriting is the first. In a firm commitment underwriting the bank buys the whole issue from the company at an agreed price and resells it, taking the risk that it cannot be sold at more. In a best efforts underwriting the bank agrees only to try, and the risk of an undersubscribed issue stays with the company. A large issue is normally syndicated, with a lead manager and a group of banks sharing the risk and the distribution.
+The underwriter is paid by the spread between what investors pay and what the company receives. On a $20,000,000 equity issue at a 6 per cent gross spread, the company receives 20,000,000 × 0.94 = 18,800,000 and the syndicate keeps 20,000,000 × 0.06 = 1,200,000. Spreads are far lower on bonds than on equity, and lower on a large issue than a small one, which is the arithmetic behind Chapter 4's remark that a small company does not use the public markets.
+Advisory is the second: mergers and acquisitions, defence against a hostile bid, valuations, fairness opinions for boards, restructurings. The bank is paid a fee, usually with a large part contingent on completion — which is itself a conflict, since the adviser is paid more if the deal happens.
+Trading and market making is the third. The bank quotes prices in securities, holds inventory, and earns the bid-offer spread, which is what provides the liquidity section 9.1 listed as a function of markets.
+Research is the fourth. Analysts publish on companies, which supports trading and distribution. The conflict here is old and well documented: an analyst's employer may be seeking underwriting business from the company being written about, and the separations now required between research and underwriting exist because that conflict was once resolved the wrong way too often.
+Figure F609-05 sets out the four.
+Figure F609-05. What an investment bank does, and how it is paid
+@table
+Business | What it provides | How it is paid | The conflict to watch
+Underwriting | Capital raised and risk taken | The gross spread | Pricing the issue to sell easily
+Advisory | Valuation, negotiation, opinions | Fees, largely on completion | Paid more if the deal happens
+Trading and market making | Liquidity and quoted prices | The bid-offer spread | Trading against clients
+Research | Analysis and distribution | Indirectly, through the above | Covering companies that pay fees
+@end
+EXAM TRAP   Firm commitment against best efforts
+In a firm commitment the bank carries the risk of an unsold issue. In a best efforts arrangement the issuer does. A question describing an issue that failed to sell is asking which arrangement was in place.
+The underwriting spread is a cost of the issue, deducted from the proceeds. It is not an expense of the period in the ordinary sense; it reduces the capital raised.
+Underpricing — a first-day rise in the share price — is a cost to the company, not a success, because the difference is money the company could have raised and did not. Chapter 10 returns to this.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+firm commitment | التغطية بالالتزام الكامل | prise ferme
+best efforts | التغطية ببذل أفضل الجهود | placement pour compte
+syndicate | التجمع المصرفي | syndicat de placement
+gross spread | إجمالي عمولة التغطية | commission globale
+@end
+SECTION CHECK   Test yourself
+SC9-10  In a firm commitment underwriting, the risk that the issue cannot be sold is borne by:
+A.	the underwriting bank.
+B.	the issuing company.
+C.	the investors.
+D.	the exchange.
+SC9-11  On a 20,000,000 issue with a 6 per cent gross spread, the company receives:
+A.	18,800,000
+B.	20,000,000
+C.	1,200,000
+D.	21,200,000
+Answers and explanations are at the end of the chapter.
+9.5  What a company does with all this
+Pull the four sections together from the issuer's chair, which is where a management accountant sits.
+Choose the market that fits the size and the purpose. Short-term needs belong in the money market, where Chapter 18 will price commercial paper and bank lines. Long-term needs belong in the capital market, publicly if the company is large and well known, privately if it is not. Orontes, wanting $5,000,000, is squarely in the private and bank market and should not be paying for a public issue's machinery.
+Accept the market's verdict on price, and work on the thing behind it. If the shares trade at twenty-five times earnings while the gross margin falls, the lesson is about the margin, not about the market's judgment. Under semi-strong efficiency a company cannot talk its price up and can only change what the price is about.
+Manage the rating rather than the ratio. A treasurer who understands that one notch is worth 0.8 points and that crossing the investment-grade line is worth far more will set internal limits inside the covenant limits, which is why Book 1's chapter on coverage ended where it did.
+Use the intermediary and price the conflict. An underwriter is paid to sell the issue, which means it prefers a price that sells easily; an adviser is paid on completion, which means it prefers a deal. Neither observation is a reason to do without them, and both are reasons for a board to ask the question that the fee structure will not ask itself.
+YOUR TURN   Place each item
+Figure F609-06 lists seven items. Classify or compute each. Answers are at the end of the chapter.
+Figure F609-06. Your turn: markets, ratings and fees (complete the blanks)
+@table
+Item | Question | Answer
+A 90-day treasury bill | Which market? | ________
+A trade in listed shares between two investors | Primary or secondary? | ________
+An interest rate swap | Exchange or over the counter? | ________
+A fund restricted to investment grade | What is the lowest rating it may hold? | ________
+A 2-point spread widening on 8,000,000 of debt | Annual cost | ________
+A 30,000,000 issue at a 5 per cent gross spread | Proceeds to the company | ________
+Chart patterns predicting prices | Which form of efficiency would this contradict? | ________
+@end
+LANGUAGE FOCUS   "Efficient"
+English efficient in market efficiency does not mean well run, fast or cheap. It means that prices reflect information, and a market can be efficient in this sense while being slow, expensive and badly organised. The everyday sense is a false friend, and candidates who import it answer that a market with high trading costs cannot be efficient — which does not follow. Arabic كفاءة carries the everyday sense of competence and must be read technically here. French efficience is reserved for this technical meaning and efficacité used for the everyday one, which is the distinction English lacks and the reason the French term is the clearer. Note also the phrase efficient frontier from Chapter 2: a third sense again, meaning the best risk-return combinations available.
+TERM BRIDGE   Key words in this section
+@table
+English (exam term) | العربية | Français
+issuer | الجهة المصدرة | émetteur
+mandate | التفويض الاستثماري | mandat
+internal limit | الحد الداخلي | limite interne
+conflict of interest | تضارب المصالح | conflit d'intérêts
+@end
+SECTION CHECK   Test yourself
+SC9-12  A company whose shares are fully valued by an efficient market can raise its share price by:
+A.	improving the business the price is about.
+B.	changing its depreciation method.
+C.	announcing a share split.
+D.	issuing shares when the price is high.
+SC9-13  A treasurer who sets internal leverage limits inside the covenant limits is:
+A.	protecting the rating as well as the covenant.
+B.	breaching the covenant.
+C.	wasting borrowing capacity for no reason.
+D.	ignoring the agencies.
+SC9-14  An underwriter's fee structure gives it an interest in:
+A.	an issue price low enough to sell easily.
+B.	the highest possible issue price.
+C.	the company's long-run share price.
+D.	the rating agency's opinion.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F609-07 brings the chapter together.
+Figure F609-07. Chapter 9 summary map: the key rule for each section.
+Markets are classified by maturity, by whether the issuer receives the money, by how trading is organised and by who may take part, and between them they move money, provide liquidity and produce the prices that tell every company what its capital costs. Efficiency comes in three forms: weak, which kills chart reading; semi-strong, which says published analysis cannot earn abnormal returns and is mostly supported; and strong, which nobody believes and which insider trading laws implicitly deny. A rating is an opinion on default alone, and the step that matters is the one from investment to speculative grade, because a BBB-to-BB move costs 5,000,000 × 0.02 = 100,000 a year on a five-million facility and removes buyers besides — while Orontes's debt of $6,400,000 against an EBITDA of $6,448,800 is 0.99 times, which reads conservatively. An investment bank underwrites, advises, trades and researches, is paid by a spread of 20,000,000 × 0.06 = 1,200,000 on a twenty-million issue, and carries a conflict in every one of the four. And a company that understands all this chooses the market that fits its size, accepts the price and works on what the price is about, manages to an internal limit inside its covenants, and prices the conflicts of the people it hires.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P9-01  Treasury bills, commercial paper and certificates of deposit trade in:
+A.	the money market.
+B.	the capital market.
+C.	the equity market.
+D.	the primary market only.
+P9-02  A company receives no proceeds from:
+A.	a secondary-market trade in its shares.
+B.	an initial public offering.
+C.	a rights issue.
+D.	a bond issue.
+P9-03  Weak-form efficiency implies that:
+A.	technical analysis of past prices cannot produce abnormal returns.
+B.	insiders cannot profit.
+C.	fundamental analysis is useless.
+D.	prices are constant.
+P9-04  Which form of efficiency is most strongly rejected by the evidence?
+A.	The strong form
+B.	The weak form
+C.	The semi-strong form
+D.	None is rejected
+P9-05  The division on a rating scale that changes who may hold a bond is between:
+A.	BBB− and BB+.
+B.	AAA and AA+.
+C.	A and BBB+.
+D.	B and CCC.
+P9-06  A rating is an opinion on:
+A.	default risk.
+B.	value for money.
+C.	the share price.
+D.	the audit.
+P9-07  A 2-point widening of the spread on 8,000,000 of debt costs:
+A.	160,000 a year
+B.	16,000 a year
+C.	1,600,000 a year
+D.	80,000 a year
+P9-08  In a best efforts underwriting, the risk of an unsold issue is borne by:
+A.	the issuing company.
+B.	the bank.
+C.	the exchange.
+D.	the rating agency.
+P9-09  A 30,000,000 issue at a 5 per cent gross spread yields the company:
+A.	28,500,000
+B.	30,000,000
+C.	1,500,000
+D.	31,500,000
+P9-10  A large first-day rise in the price of newly issued shares is:
+A.	a cost to the issuing company, which could have raised more.
+B.	a success for the issuing company.
+C.	evidence of strong-form efficiency.
+D.	irrelevant to the issuer.
+Case-style practice: Orontes is approached
+An investment bank proposes that Orontes raise $5,000,000 through a public bond issue rather than a bank facility. Its pitch makes three points: that a public issue will obtain a credit rating and so lower Orontes's cost of debt in future; that the market is efficient and will price the bonds fairly; and that the bank will underwrite the issue on a firm commitment basis for a 1.5 per cent spread, with rating agency and legal costs of about $120,000.
+Required. Compute the total cost of issuing and say what the bank's three points are worth. Recommend a course, naming the conflict in the proposal. Under 300 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC9-1  Answer A. New securities are sold in the primary market.
+B is wrong. A secondary trade moves money between investors.
+C is wrong. Primary issuance happens in both money and capital markets.
+D is wrong. The venue does not determine who receives the proceeds.
+SC9-2  Answer A. Commercial paper matures within a year.
+B is wrong. The capital market is for longer claims.
+C is wrong. Commercial paper trades in a secondary market as well.
+D is wrong. It is a widely traded instrument.
+SC9-3  Answer A. Bonds and swaps are dealer markets.
+B is wrong. Exchanges dominate in listed equity, not bonds.
+C is wrong. Auction markets match orders directly.
+D is wrong. Secondary trading is continuous.
+SC9-4  Answer A. Past prices are already in the price.
+B is wrong. That is the strong form.
+C is wrong. That is the semi-strong form.
+D is wrong. Efficiency is about information, not about constancy.
+SC9-5  Answer A. Insiders do earn abnormal returns, which is why the law forbids it.
+B is wrong. The weak form is well supported.
+C is wrong. The semi-strong form is mostly supported.
+D is wrong. The three forms have very different standing.
+SC9-6  Answer A. No cash flow has changed and the note is public.
+B is wrong. That would require the market to be fooled.
+C is wrong. Nothing of substance has worsened either.
+D is wrong. Changes of method are permitted and disclosed.
+SC9-7  Answer A. Many mandates stop at investment grade.
+B is wrong. Both are high grade and held by everybody.
+C is wrong. One notch within A is a spread difference, not a universe change.
+D is wrong. Maturity is a different dimension.
+SC9-8  Answer A. A rating addresses the likelihood of default.
+B is wrong. Pricing is the investor's judgment.
+C is wrong. Ratings concern debt, not equity value.
+D is wrong. Management is one input among many.
+SC9-9  Answer A. The issuer-pays model is the structural conflict.
+B is wrong. Frequency is not the criticism.
+C is wrong. Ratios are a legitimate input.
+D is wrong. Sovereign ratings are routine.
+SC9-10  Answer A. The bank has bought the issue.
+B is wrong. The company has sold it already.
+C is wrong. Investors buy only what they want.
+D is wrong. The exchange takes no issuance risk.
+SC9-11  Answer A. 20,000,000 × 0.94 = 18,800,000.
+B is wrong. That is the gross amount.
+C is wrong. That is the spread.
+D is wrong. The spread is deducted, not added.
+SC9-12  Answer A. Only the substance behind the price can change it.
+B is wrong. A method change with no cash effect is already public.
+C is wrong. A split changes the number of shares, not the value.
+D is wrong. Timing assumes the manager knows better than the market.
+SC9-13  Answer A. An internal limit protects both the rating and the covenant.
+B is wrong. An internal limit is tighter than the covenant.
+C is wrong. The capacity is held in reserve, which has a purpose.
+D is wrong. It is precisely attention to the agencies.
+SC9-14  Answer A. An underwriter wants an issue that sells.
+B is wrong. The highest price risks an unsold issue.
+C is wrong. The fee is earned at issue.
+D is wrong. The agency's opinion affects the price, not the bank's incentive.
+Your turn
+@table
+Item | Answer
+A 90-day treasury bill | The money market: it matures within a year.
+A trade between two investors | Secondary: the company receives nothing.
+An interest rate swap | Over the counter, through dealers, though most now clear centrally.
+Lowest rating an investment-grade fund may hold | BBB− or Baa3, the bottom of investment grade.
+A 2-point widening on 8,000,000 | 160,000 a year: 8,000,000 × 0.02 = 160,000.
+A 30,000,000 issue at a 5 per cent spread | 28,500,000: 30,000,000 × 0.95 = 28,500,000.
+Chart patterns predicting prices | The weak form, which says past prices carry no further information.
+@end
+Multiple-choice questions
+P9-01  Answer A. All three mature within a year.
+B is wrong. The capital market is for longer instruments.
+C is wrong. None of the three is equity.
+D is wrong. All three trade in secondary markets too.
+P9-02  Answer A. A secondary trade moves money between investors.
+B is wrong. An offering raises money for the company.
+C is wrong. A rights issue raises money.
+D is wrong. A bond issue raises money.
+P9-03  Answer A. Past prices carry no further information.
+B is wrong. That is the strong form.
+C is wrong. That is the semi-strong form.
+D is wrong. Prices change constantly in an efficient market.
+P9-04  Answer A. Insiders demonstrably earn abnormal returns.
+B is wrong. The weak form is well supported.
+C is wrong. The semi-strong form has anomalies but is broadly supported.
+D is wrong. The strong form is rejected.
+P9-05  Answer A. That is the investment-grade boundary.
+B is wrong. Both are high grade.
+C is wrong. Both are investment grade.
+D is wrong. Both are speculative.
+P9-06  Answer A. A rating addresses default risk only.
+B is wrong. Value depends on price as well as risk.
+C is wrong. Ratings are about debt.
+D is wrong. The audit is a separate opinion.
+P9-07  Answer A. 8,000,000 × 0.02 = 160,000.
+B is wrong. This misplaces the decimal.
+C is wrong. This is 20 per cent.
+D is wrong. This uses one point.
+P9-08  Answer A. Best efforts leaves the risk with the issuer.
+B is wrong. The bank agrees only to try.
+C is wrong. The exchange takes no issuance risk.
+D is wrong. The agency rates and does not distribute.
+P9-09  Answer A. 30,000,000 × 0.95 = 28,500,000.
+B is wrong. That is the gross amount.
+C is wrong. That is the spread.
+D is wrong. The spread is deducted.
+P9-10  Answer A. The rise is money the company did not raise.
+B is wrong. It is usually described as a success and is not one for the issuer.
+C is wrong. Underpricing is evidence against efficient pricing of the issue.
+D is wrong. It is the issuer's money that went elsewhere.
+Case-style set: Orontes is approached
+The cost of issuing. The gross spread is 5,000,000 × 0.015 = 75,000, and the rating and legal costs are about $120,000, so the issue costs 75,000 + 120,000 = 195,000 — about 3.9 per cent of the money raised, before a single dollar of interest. Spread over a five-year bond that is roughly 0.78 points a year, which must be added to the coupon before any comparison with a bank facility that costs nothing to arrange.
+The bank's three points. The first is partly true and overstated: a rating does open the public market in future, and it also starts a relationship in which every subsequent weak year is published as a downgrade. The second point is true and irrelevant: an efficient market prices the bonds fairly, which protects the buyers, not the issuer, and says nothing about whether issuing is the right choice. The third point describes a real service — in a firm commitment the bank carries the risk of an unsold issue — and prices it at $75,000.
+The recommendation. Take the bank facility, as Chapter 4 concluded on cost alone and as this chapter confirms on scale. Five million dollars is below the size at which public issuance costs are absorbed comfortably: 3.9 per cent of the proceeds is a heavy entry fee for access to a market Orontes may not use again for years.
+The conflict. The proposing bank earns $75,000 if Orontes issues and nothing if it borrows from its bank. Its advice is not dishonest and it is not disinterested, and a board should hear the same question from somebody paid the same either way.
