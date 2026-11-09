@@ -1,0 +1,523 @@
+Chapter 5
+Reading the Pattern
+قراءة النمط
+The three lenses of the last three chapters produce numbers. This chapter turns numbers into findings, and findings into decisions, which is what an analyst is paid for and what the exam means by analysing data to identify patterns that can be used to make business decisions.
+A finding is not a calculation. "Cost of goods sold grew 17.2 per cent" is a calculation. "Cost of goods sold grew faster than sales in both years, which cost $850,080 of gross profit at this year's volume, and the cause is upstream of the factory" is a finding. The difference is that the second one can be acted on.
+Figure F505-01 is your map.
+Figure F505-01. Chapter 5 roadmap: from three lenses to one decision.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.d
+Analyze financial statement data to identify patterns and trends.
+C
+Full treatment
+A.1.d
+Turn a pattern into a business decision, and say what the decision rests on.
+C
+Full treatment
+A.1.d
+Recognise when a pattern in one statement is explained by another statement.
+C
+Full treatment
+A.2.y
+Support a judgment with more than one piece of evidence.
+B
+Introduced (full in Chapter 18)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+pattern
+النمط
+tendance générale
+finding
+النتيجة
+constat
+corroboration
+التأكيد المتبادل
+corroboration
+root cause
+السبب الجذري
+cause racine
+actionable
+قابل للتنفيذ
+exploitable
+free cash flow
+التدفق النقدي الحر
+flux de trésorerie disponible
+capital expenditure
+الإنفاق الرأسمالي
+dépense d'investissement
+WHAT YOU ALREADY KNOW   What you already know
+You already know how to calculate a common-size percentage, a year-over-year change and a growth rate, and you know that Orontes's cost of goods sold has been growing faster than its sales. What you have not done yet is decide what anyone should do about it.
+5.1  From a number to a finding
+A finding has four parts, and an answer that leaves one out is incomplete.
+It names the movement. Not "costs rose" but "cost of goods sold rose from 63.0 to 65.0 per cent of sales over two years".
+It sizes the movement in money. Two percentage points of a $42,000,000 sales base is $840,000 a year. A manager cannot act on a percentage; he can act on a sum.
+It is corroborated by a second figure. One number can be an error, a reclassification or an accident of timing. A finding stands when two independent figures point the same way.
+It names where the cause must be. Not the cause itself — the statements rarely give that — but the part of the business in which the cause must lie. A falling gross margin is upstream of the factory gate: purchase prices, product mix, or discounting. It is not in selling and administration, because those sit below gross profit.
+Figure F505-02 applies the four parts to Orontes.
+Figure F505-02. One finding, in four parts
+Part
+For Orontes
+The movement
+Cost of goods sold rose from 63.0 to 65.0 per cent of net sales, 2023 to 2025
+Its size
+About $840,000 a year at 2025 sales; $850,080 measured against sales growth
+The corroboration
+Gross profit grew at 11.43 per cent against sales at 14.56 per cent over the same period
+Where the cause must be
+Above gross profit: purchase prices, product mix, or selling price
+EXAM TRAP   A finding, not a calculation
+An exam question that asks you to "analyse" wants the movement, its size, and what it implies — not the percentage alone.
+Corroboration means a second figure that is not arithmetically derived from the first. Gross margin and cost of goods sold percentage are the same fact twice.
+Never name a cause the statements do not support. Name the place the cause must be.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+finding
+النتيجة
+constat
+corroboration
+التأكيد المتبادل
+corroboration
+product mix
+مزيج المنتجات
+composition des ventes
+discounting
+منح الخصومات
+remises
+SECTION CHECK   Test yourself
+SC5-1  Which of these is a finding rather than a calculation?
+A.	Inventory turnover is 11.5 times
+B.	Receivables grew 10.2 per cent
+C.	Receivables grew more slowly than sales, so collection has not deteriorated
+D.	Total assets are $31,672,600
+SC5-2  A falling gross profit margin places the cause:
+A.	in selling and administrative expense.
+B.	above gross profit: price, mix or purchase cost.
+C.	in interest expense.
+D.	in the tax charge.
+SC5-3  Which pair of figures corroborates a finding, rather than restating it?
+A.	Gross margin and cost of goods sold as a percentage of sales
+B.	Net income and earnings per share
+C.	A falling gross margin and a rise in the purchase price of sesame
+D.	Total assets and total liabilities plus equity
+Answers and explanations are at the end of the chapter.
+5.2  The pattern in the cash
+The largest single movement in Orontes's 2025 statements is cash, which rose by $5,202,100 to become 23.1 per cent of the company. Chapter 1 said this had to be explained before any liquidity ratio was believed. The statement of cash flows explains it.
+Figure F505-03 is the summary.
+Figure F505-03. Orontes Foods, Inc. — where the cash came from and went, 2025
+Source or use
+Amount
+Comment
+Net cash provided by operating activities
+7,531,100
+Well above net income of 2,969,100
+Purchases of property, plant and equipment
+(3,000,000)
+Replacing and extending the plant
+Investment in Jordan Glass Co.
+(1,200,000)
+A stake in the bottle supplier
+Net cash used in investing activities
+(4,179,000)
+Issuance of common stock
+1,500,000
+New shares to existing owners
+Proceeds from bank note
+800,000
+Repayment of long-term debt
+(400,000)
+Dividends paid
+(50,000)
+Against 450,000 declared
+Net cash provided by financing activities
+1,850,000
+Net increase in cash
+5,202,100
+Now the pattern can be stated. Operating cash flow of $7,531,100 against net income of $2,969,100 is two and a half times earnings, and the gap is the non-cash charges: depreciation of $2,100,000 and the impairment of $2,724,000. Those two alone are 2,100,000 + 2,724,000 = 4,824,000, which is most of the difference. The company earned far more cash than its income statement suggests, because a large part of its reported cost this year was a write-down of assets bought years ago.
+Operating cash flow of $7,531,100 against capital expenditure of $3,000,000 leaves 7,531,100 − 3,000,000 = 4,531,100 of free cash flow. Orontes spent $1,200,000 of it on the Jordan Glass stake and $450,000 on dividends declared, and put most of the rest in the bank.
+That is the finding. Orontes is not short of money and it is not hoarding for want of an alternative: it invested in plant and in a supplier during the year, and it still finished with a quarter of its balance sheet in cash. The question for a manager is why it also raised $1,500,000 of new equity and $800,000 of new debt in a year when it generated $7,531,100 from trading. A company does not normally raise money it does not need, and the reason will be in the board minutes rather than in the statements.
+WORKED EXAMPLE   Worked example: free cash flow and what it says
+Step 1. Free cash flow. Operating cash flow less capital expenditure: 7,531,100 − 3,000,000 = 4,531,100.
+Step 2. Against dividends. Dividends declared were $450,000, so dividend cover on a cash basis is 4,531,100 ÷ 450,000 = 10.07 times. The dividend is not under threat on any view.
+Step 3. Against debt. Total debt is the long-term portion plus the current portion: 6,000,000 + 400,000 = 6,400,000. One year of free cash flow would repay 4,531,100 ÷ 6,400,000 = 70.8 per cent of it.
+Check. Three uses of one number, each answering a different stakeholder. The shareholder asks whether the dividend is safe; the lender asks how long repayment would take; the board asks what is left to invest. Chapter 10 formalises the second of these.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+free cash flow
+التدفق النقدي الحر
+flux de trésorerie disponible
+capital expenditure
+الإنفاق الرأسمالي
+dépense d'investissement
+non-cash charge
+عبء غير نقدي
+charge non décaissée
+dividend cover
+معامل تغطية التوزيعات
+couverture du dividende
+SECTION CHECK   Test yourself
+SC5-4  Operating cash flow is $7,531,100 and net income is $2,969,100. The main reason for the gap is:
+A.	collections from customers exceeded sales.
+B.	large non-cash charges: depreciation and impairment.
+C.	the company borrowed during the year.
+D.	dividends were not paid in full.
+SC5-5  Free cash flow is operating cash flow less:
+A.	dividends.
+B.	capital expenditure.
+C.	interest.
+D.	the increase in working capital.
+SC5-6  Orontes generated $7,531,100 from operations and still raised $2,300,000 from shares and a bank note. The right response is to:
+A.	conclude that the company is short of cash.
+B.	conclude that the statements are inconsistent.
+C.	ask why, because the statements do not say.
+D.	treat the share issue as operating cash flow.
+Answers and explanations are at the end of the chapter.
+5.3  Patterns that cross the statements
+The most reliable findings come from a movement in one statement that explains a movement in another. Figure F505-04 lists the pairs an analyst watches for.
+Figure F505-04. Patterns that cross from one statement to another
+On the income statement
+On the balance sheet
+On the cash flow statement
+What it means
+Sales rising
+Receivables rising faster
+Operating cash flow flat or falling
+Sales are being made on terms that are not being collected
+Sales flat
+Inventory rising
+Operating cash flow falling
+Goods are not selling and cash is going into stock
+Profit rising
+Payables rising sharply
+Operating cash flow rising
+Profit is being funded by suppliers, which cannot continue
+Profit falling
+Plant unchanged
+Depreciation unchanged
+Fixed costs are holding while revenue weakens
+A large one-off charge
+The written-down asset smaller
+Operating cash flow unaffected
+The charge is non-cash: earnings fell and cash did not
+The last row is Orontes exactly. The impairment of $2,724,000 cut operating income to $4,176,000 and left operating cash flow untouched at $7,531,100, because no money moved. An analyst who read only the income statement would record a bad year; an analyst who read only the cash flow statement would record an excellent one. Both are reading the same company.
+The first row is Barada, from the case in Chapter 3. Sales up 11 per cent, receivables up 38 per cent and an overdraft where there was none: a classic pattern, and the one a credit officer is trained to see.
+EXAM TRAP   Two statements beat one
+A question that gives you both an income statement and a cash flow statement is usually testing whether you noticed they disagree.
+Profit without cash is the pattern to be suspicious of. Cash without profit, as here, is usually a non-cash charge and is less alarming.
+The balance sheet is where the difference between the two accumulates.
+LANGUAGE FOCUS   "Quality" of earnings
+English says earnings quality, and quality here does not mean good: it means how closely reported profit tracks cash and how likely it is to repeat. Arabic جودة الأرباح and French qualité des résultats carry the same technical sense. High-quality earnings may be small. Chapter 17 is about this.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+earnings quality
+جودة الأرباح
+qualité des résultats
+impairment
+انخفاض القيمة
+dépréciation
+overdraft
+السحب على المكشوف
+découvert bancaire
+credit terms
+شروط الائتمان
+conditions de crédit
+SECTION CHECK   Test yourself
+SC5-7  Sales rise, receivables rise faster, and operating cash flow is flat. This pattern suggests:
+A.	the company is collecting faster.
+B.	sales are being made on terms that are not being collected.
+C.	inventory is building up.
+D.	suppliers are funding the growth.
+SC5-8  A large impairment cuts operating income and leaves operating cash flow unchanged because:
+A.	the impairment is added back as a non-cash charge.
+B.	impairments are recorded below operating income.
+C.	the asset was sold for cash.
+D.	impairments are not recognised under U.S. GAAP.
+SC5-9  Profit is rising and payables are rising sharply. The analyst should note that:
+A.	this is a sustainable source of funding.
+B.	profit is being funded by suppliers, which cannot continue indefinitely.
+C.	the company is paying its suppliers faster.
+D.	the payables balance is irrelevant to profit.
+Answers and explanations are at the end of the chapter.
+5.4  Four decisions a pattern can support
+A finding is useful when someone can act on it. Figure F505-05 takes Orontes's four main patterns and names the decision each supports and the figure the decision turns on.
+Figure F505-05. From pattern to decision
+Pattern
+The decision it supports
+The figure it turns on
+Cost of goods sold growing faster than sales
+Reprice, change mix, or renegotiate supply
+$850,080 of gross profit forgone
+Cash at 23.1 per cent of assets
+Invest it, repay debt, or return it to owners
+Free cash flow of $4,531,100
+Equity at 64.4 per cent of assets
+Borrow to fund the next expansion
+Interest cover of 11.15 times
+Impairment of goodwill and a brand
+Review what else was bought at a premium
+Goodwill down from 950,000 to 300,000
+Each row is a decision a board can take at its next meeting, and each one rests on a figure a reader of this book can compute. That is the standard an exam answer is held to at Level C: not a description of the statements, but a recommendation with a number behind it.
+Two cautions belong here, and the exam tests both.
+A pattern is evidence, not proof. The margin decline may be deliberate: a company buying market share prices below its old margin on purpose. The statements cannot distinguish a squeeze from a strategy, and an analyst says so.
+A decision has a cost the statements do not show. Repricing loses customers. Returning cash to owners forgoes the next acquisition. The figures bound the decision; they do not make it.
+WORKED EXAMPLE   Worked example: sizing a repricing decision
+Step 1. The gap. Orontes's gross margin fell from 37.0 per cent in 2023 to 35.0 per cent in 2025, a loss of two percentage points.
+Step 2. What recovering it is worth. Two points of the 2025 sales base: 42,000,000 × 0.02 = 840,000 of additional gross profit a year.
+Step 3. What it would cost. To recover two points by price alone, Orontes must raise prices about 3.1 per cent, because a price rise adds to both sales and gross profit while cost of goods sold stays where it is. Whether the market accepts that is not in the statements.
+Check. The analysis gives the board the size of the prize, $840,000, and the size of the price move needed, about 3 per cent. The decision about whether customers will pay it belongs to the people who sell to them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+recommendation
+التوصية
+recommandation
+market share
+الحصة السوقية
+part de marché
+trade-off
+المفاضلة
+arbitrage
+evidence
+الدليل
+élément probant
+SECTION CHECK   Test yourself
+SC5-10  At Level C, an exam answer that "analyses" a pattern should end with:
+A.	the percentages, correctly calculated.
+B.	a recommendation with a figure behind it.
+C.	a description of the three lenses.
+D.	a list of the limitations of ratio analysis.
+SC5-11  A falling gross margin may be deliberate. This means the analyst should:
+A.	ignore the margin decline.
+B.	state that the statements cannot distinguish a squeeze from a pricing strategy.
+C.	assume it is a strategy.
+D.	assume it is a squeeze.
+SC5-12  Recovering two percentage points of gross margin on sales of $42,000,000 is worth about:
+A.	840,000 a year
+B.	84,000 a year
+C.	8,400,000 a year
+D.	2,000,000 a year
+Answers and explanations are at the end of the chapter.
+5.5  Writing it down
+An analyst's output is a short piece of writing, and the exam's essay questions are marked on exactly the structure this chapter has described.
+YOUR TURN   Build the finding
+Figure F505-06 gives the four parts of a finding with two of them filled in. Complete the other two, for the pattern in Orontes's cash. Answers are at the end of the chapter.
+Figure F505-06. Your turn: complete the finding (complete the blanks)
+Part
+Entry
+The movement
+Cash rose from 7.9 to 23.1 per cent of total assets during 2025
+Its size
+________
+The corroboration
+________
+Where the cause must be
+Operating cash flow, which at 7,531,100 exceeded net income by two and a half times
+A good paragraph names the movement in its first sentence, sizes it in the second, corroborates it in the third and places the cause in the fourth. That is four sentences, and four sentences is usually enough. Candidates lose marks by describing the calculation instead of its consequence, and by naming a cause the statements do not support.
+EXAM TRAP   What a written answer must contain
+The movement, with the figures.
+The size, in money.
+A second figure that supports it.
+Where the cause must lie, and what would settle it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+written answer
+الإجابة الكتابية
+réponse rédigée
+consequence
+النتيجة المترتبة
+conséquence
+support
+الدعم بالأدلة
+justification
+SECTION CHECK   Test yourself
+SC5-13  Which sentence belongs in the second position of a four-sentence finding?
+A.	The movement, with the figures
+B.	The size of the movement in money
+C.	The cause, named precisely
+D.	The limitations of ratio analysis
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F505-07 brings the chapter together.
+Figure F505-07. Chapter 5 summary map: the key rule for each section.
+A finding names a movement, sizes it in money, corroborates it with an independent figure, and places the cause without inventing one. Orontes's cash rose $5,202,100 because operating cash flow of $7,531,100 ran two and a half times net income, the gap being depreciation and the impairment, and because the company also raised $2,300,000 it did not obviously need. Free cash flow of $4,531,100 covers the dividend ten times and would repay seventy per cent of the debt. The strongest findings cross statements: a large one-off charge that cuts earnings and leaves cash untouched, sales rising faster than collections, profit funded by payables. Four of Orontes's patterns support board decisions — repricing, deploying the cash, borrowing against a conservative balance sheet, reviewing what else was bought at a premium — and each rests on a computable figure, of which the largest is the $840,000 a year that two points of gross margin is worth. A pattern is evidence and not proof, and the cost of acting on it is not in the statements.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P5-01  A finding differs from a calculation because a finding:
+A.	uses more decimal places.
+B.	can be acted on.
+C.	is always expressed as a ratio.
+D.	comes from audited figures.
+P5-02  Orontes's operating cash flow exceeded net income by about $4,562,000. The main components of the gap are:
+A.	interest and tax.
+B.	depreciation and impairment.
+C.	dividends and share issues.
+D.	receivables and payables.
+P5-03  Free cash flow for Orontes in 2025 is:
+A.	7,531,100
+B.	4,531,100
+C.	3,000,000
+D.	2,969,100
+P5-04  Which pattern should most worry a lender?
+A.	Profit rising and operating cash flow rising
+B.	Profit rising, payables rising sharply, operating cash flow rising
+C.	Profit falling because of a non-cash charge
+D.	Cash rising as a share of total assets
+P5-05  An impairment reduces operating income and leaves operating cash flow unchanged. The impairment is therefore:
+A.	an operating cash outflow.
+B.	a non-cash charge added back in the cash flow statement.
+C.	a financing activity.
+D.	excluded from the income statement.
+P5-06  Recovering a two-point gross margin on sales of $42,000,000 would require a price rise of approximately:
+A.	2.0 per cent
+B.	3.1 per cent
+C.	5.0 per cent
+D.	35.0 per cent
+P5-07  Which statement about corroboration is correct?
+A.	Any second figure corroborates the first.
+B.	A corroborating figure must not be arithmetically derived from the first.
+C.	Corroboration requires an audit.
+D.	Corroboration means recalculating the ratio.
+P5-08  Orontes's dividend cover on a free cash flow basis is closest to:
+A.	6.6 times
+B.	10.1 times
+C.	16.7 times
+D.	1.6 times
+P5-09  An analyst writes: "The margin fell because the purchasing manager negotiated badly." The fault in this sentence is that it:
+A.	gives no figures.
+B.	names a cause the statements do not support.
+C.	uses the wrong base year.
+D.	confuses gross and operating margin.
+P5-10  Which decision does a cash balance of 23.1 per cent of total assets most directly support?
+A.	Raising new equity
+B.	Deploying the cash: invest, repay or distribute
+C.	Extending customer credit terms
+D.	Changing the inventory cost flow assumption
+Case-style practice: the board asks one question
+Orontes's board has read the 2025 statements and asks the finance director a single question: "Should we be worried?"
+Required. Write the answer in four short paragraphs, one for each of: the margin, the cash, the capital structure, and the impairment. Each paragraph must name the movement, size it in money, give one corroborating figure, and say what would settle the question. End with a one-sentence overall answer to the board's question. Under 350 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC5-1  Answer C. It states a movement, compares it with another, and draws the consequence.
+A is wrong. A turnover figure on its own is a calculation.
+B is wrong. A percentage change on its own is a calculation.
+D is wrong. A balance is a fact from the statement.
+SC5-2  Answer B. Gross profit is sales less cost of goods sold, so only those two can move the margin.
+A is wrong. Selling and administrative expense falls below gross profit.
+C is wrong. Interest falls below operating income.
+D is wrong. Tax falls below income before income taxes.
+SC5-3  Answer C. A purchase price is independent evidence of why the margin fell.
+A is wrong. The two are the same fact: they add to 100.
+B is wrong. Earnings per share is net income divided by shares.
+D is wrong. These are equal by construction.
+SC5-4  Answer B. Depreciation of $2,100,000 and the impairment of $2,724,000 are added back because no cash moved.
+A is wrong. Receivables rose, so collections were below sales.
+C is wrong. Borrowing is a financing activity and does not enter operating cash flow.
+D is wrong. Unpaid dividends are a financing matter.
+SC5-5  Answer B. Free cash flow is what is left after maintaining and extending the asset base.
+A is wrong. Dividends are a use of free cash flow, not part of its definition.
+C is wrong. Interest is already inside operating cash flow under U.S. GAAP.
+D is wrong. Working capital movements are already inside operating cash flow.
+SC5-6  Answer C. The statements record the transactions; they do not give the board's reasons.
+A is wrong. A company generating $7,531,100 from trading is not short of cash.
+B is wrong. Nothing in the statements is inconsistent.
+D is wrong. A share issue is a financing activity.
+SC5-7  Answer B. Revenue is being recognised and the cash is not arriving.
+A is wrong. Faster collection would slow the growth in receivables.
+C is wrong. Inventory is not mentioned and would show in a different line.
+D is wrong. Supplier funding would show in payables.
+SC5-8  Answer A. The charge reduces income and is added back in reconciling to cash.
+B is wrong. Impairments of operating assets are within operating expenses.
+C is wrong. No sale took place; the asset was written down.
+D is wrong. U.S. GAAP requires impairment recognition.
+SC5-9  Answer B. Stretching suppliers releases cash once and cannot be repeated indefinitely.
+A is wrong. Payables cannot grow forever without consequences.
+C is wrong. Rising payables mean slower payment, not faster.
+D is wrong. Payables affect cash, and the pattern is about how the profit is funded.
+SC5-10  Answer B. Level C requires a recommendation, and a recommendation needs a figure.
+A is wrong. Correct percentages are the input, not the output.
+C is wrong. Describing the technique is not analysis.
+D is wrong. Limitations qualify an answer; they are not the answer.
+SC5-11  Answer B. The statements show the result and not the intention.
+A is wrong. The decline is real and material.
+C is wrong. Assuming a strategy without evidence is as wrong as assuming a squeeze.
+D is wrong. The same objection applies in the other direction.
+SC5-12  Answer A. 42,000,000 × 0.02 = 840,000.
+B is wrong. This is 0.2 points, not two.
+C is wrong. This is twenty points.
+D is wrong. This has no basis in the figures.
+SC5-13  Answer B. The second sentence sizes the movement in money.
+A is wrong. That is the first sentence.
+C is wrong. The statements rarely give a precise cause; the fourth sentence places it.
+D is wrong. Limitations belong in a qualification, not in the structure of a finding.
+Your turn
+Item
+Answer
+Its size
+Cash rose by $5,202,100, from $2,100,000 to $7,302,100, in a company whose total assets are $31,672,600.
+The corroboration
+Free cash flow of $4,531,100: operating cash flow of $7,531,100 less capital expenditure of $3,000,000. The rise is funded by trading, not by borrowing.
+Multiple-choice questions
+P5-01  Answer B. A finding carries a consequence someone can act on.
+A is wrong. Precision is not the difference.
+C is wrong. A finding may rest on an absolute amount.
+D is wrong. Findings can be drawn from unaudited figures, as in the Barada case.
+P5-02  Answer B. Depreciation of $2,100,000 and the impairment of $2,724,000 are the two large non-cash charges.
+A is wrong. Interest and tax are cash costs and are inside both figures.
+C is wrong. Dividends and share issues are financing activities.
+D is wrong. The working capital movements are small by comparison.
+P5-03  Answer B. 7,531,100 − 3,000,000 = 4,531,100.
+A is wrong. This is operating cash flow before capital expenditure.
+C is wrong. This is the capital expenditure.
+D is wrong. This is net income.
+P5-04  Answer B. Profit funded by stretching suppliers is profit that will stop when the suppliers stop.
+A is wrong. Profit and cash moving together is the healthy case.
+C is wrong. A non-cash charge does not threaten repayment.
+D is wrong. Rising cash improves a lender's position.
+P5-05  Answer B. It is added back in reconciling net income to operating cash flow.
+A is wrong. No cash moved.
+C is wrong. It is an operating item.
+D is wrong. It is recognised in operating expenses.
+P5-06  Answer B. Raising price adds to sales and gross profit while cost of goods sold is unchanged, so about three per cent on price restores two points of margin.
+A is wrong. A two per cent price rise does not recover two points of margin, because the base grows too.
+C is wrong. Five per cent would more than recover it.
+D is wrong. This is the margin itself.
+P5-07  Answer B. A derived figure restates the first rather than supporting it.
+A is wrong. A derived figure adds nothing.
+C is wrong. Audit concerns reliability, not corroboration.
+D is wrong. Recalculation checks arithmetic.
+P5-08  Answer B. 4,531,100 ÷ 450,000 = 10.07 times.
+A is wrong. This uses a figure not in the statements.
+C is wrong. This divides operating cash flow by the dividend paid rather than declared.
+D is wrong. This is far below the correct cover.
+P5-09  Answer B. The statements show a margin decline and say nothing about who negotiated what.
+A is wrong. Figures could be added and the sentence would still be unsupported.
+C is wrong. No base year is in dispute.
+D is wrong. The sentence is about the gross margin, correctly.
+P5-10  Answer B. A large cash balance is a decision about deployment.
+A is wrong. A company with that much cash has no immediate need of new equity.
+C is wrong. Credit terms concern receivables.
+D is wrong. The cost flow assumption concerns inventory measurement.
+Case-style set: the board asks one question
+A good answer runs four paragraphs and one sentence.
+The margin. Cost of goods sold rose from 63.0 to 65.0 per cent of sales over two years, so gross margin fell from 37.0 to 35.0 per cent. At 2025 volumes those two points are worth $840,000 a year. The corroboration is the growth rates: cost of goods sold compounded at 16.38 per cent against sales at 14.56. What would settle it is the split between purchase prices and selling prices, which the statements do not give.
+The cash. Cash rose $5,202,100 to 23.1 per cent of total assets. The corroboration is operating cash flow of $7,531,100 against net income of $2,969,100, the gap being depreciation and the impairment. What would settle the question is the board's own intention: a company holding this much cash is either committed to something or has not decided.
+The capital structure. Equity is 64.4 per cent of assets and interest cover is 11.15 times. The corroboration is that liabilities grew 12.0 per cent while assets grew 19.8. There is nothing to worry about and considerable unused borrowing capacity.
+The impairment. Goodwill fell from $950,000 to $300,000 and a brand was written down, together $2,724,000, which is 6.5 points of the operating margin. The corroboration is that operating cash flow was unaffected. What would settle it is whether the assumptions that failed for this acquisition apply to others.
+Overall: no, on this evidence, except for the margin, which is a real and continuing loss of $840,000 a year and is the one thing the board should act on.

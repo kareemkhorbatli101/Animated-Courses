@@ -1,0 +1,590 @@
+Chapter 6
+Liquidity: the Five Ratios
+السيولة: النسب الخمس
+Liquidity is the ability to meet obligations as they fall due. It is the first thing a short-term lender asks about, the first thing a supplier asks about, and the first group of ratios in the Learning Outcome Statements. A company can be profitable for years and fail in a month for want of cash, and every one of those failures was visible in the liquidity ratios before it happened.
+Five ratios are named in the syllabus, and the exam expects all five by name: the current ratio, the quick or acid-test ratio, the cash ratio, the cash flow ratio and the net working capital ratio. They differ in one thing only — how much of the current assets they are willing to count.
+Figure F506-01 is your map.
+Figure F506-01. Chapter 6 roadmap: five ratios, one question, five answers.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.a
+Calculate and interpret the current ratio, the quick (acid-test) ratio, the cash ratio, the cash flow ratio and the net working capital ratio.
+C
+Full treatment
+A.2.c
+Demonstrate an understanding of the liquidity of current liabilities.
+B
+Full treatment
+A.2.b
+State which elements of current assets and liabilities move the liquidity ratios.
+B
+Introduced (full in Chapter 7)
+A.2.d
+Distinguish liquidity from solvency.
+A
+Introduced (full in Chapter 8)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+liquidity
+السيولة
+liquidité
+current ratio
+نسبة التداول
+ratio de liquidité générale
+quick ratio (acid-test ratio)
+نسبة السيولة السريعة
+ratio de liquidité réduite
+cash ratio
+نسبة النقدية
+ratio de liquidité immédiate
+cash flow ratio
+نسبة التدفق النقدي
+ratio de flux de trésorerie
+net working capital ratio
+نسبة صافي رأس المال العامل
+ratio de fonds de roulement net
+marketable securities
+الأوراق المالية القابلة للتداول
+titres négociables
+window dressing
+تجميل القوائم المالية
+habillage de bilan
+WHAT YOU ALREADY KNOW   What you already know
+You already know what makes an asset current: the company expects to turn it into cash, sell it or use it up within one year or within the operating cycle, whichever is longer. Every ratio in this chapter is built out of that classification, which is why Part 1 spent a chapter on it.
+6.1  The five ratios
+All five divide something the company can pay with by something it has to pay. They differ in the numerator, and the differences are a ladder of increasing severity.
+The current ratio divides total current assets by total current liabilities. It counts everything the classification allows, including inventory that has not been sold and prepayments that will never be cash at all.
+The quick ratio, also called the acid-test ratio, removes inventory and prepaid expenses. What is left is cash, marketable securities and receivables: the assets that become cash without first having to be sold to a customer.
+The cash ratio removes receivables too. Only cash and marketable securities count. This is the ratio for a company whose customers may not pay on time.
+The cash flow ratio divides operating cash flow for the year by current liabilities at the end of it. It asks a different question from the other four: not what the company holds, but what it generates.
+The net working capital ratio divides net working capital — current assets less current liabilities — by total assets. It expresses the cushion as a share of the whole company rather than as a multiple of the obligations.
+Figure F506-02 sets out the definitions.
+Figure F506-02. The five liquidity ratios
+Ratio
+Numerator
+Denominator
+What it excludes
+Current ratio
+Total current assets
+Total current liabilities
+Nothing current
+Quick (acid-test) ratio
+Cash + marketable securities + receivables
+Total current liabilities
+Inventory and prepayments
+Cash ratio
+Cash + marketable securities
+Total current liabilities
+Receivables as well
+Cash flow ratio
+Operating cash flow for the year
+Total current liabilities
+Everything held; it measures what is generated
+Net working capital ratio
+Current assets − current liabilities
+Total assets
+Expresses the cushion against the whole company
+EXAM TRAP   Which assets are quick?
+Quick assets are cash, marketable securities and net receivables. Inventory is never quick, however fast it sells.
+Prepaid expenses are never quick, because they turn into expense and not into cash.
+The cash flow ratio uses the cash flow for the YEAR against liabilities at a POINT. That mismatch is deliberate and is how the ratio is defined.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+quick assets
+الأصول السريعة
+actifs rapidement réalisables
+prepaid expenses
+المصروفات المدفوعة مقدماً
+charges payées d'avance
+operating cash flow
+التدفق النقدي التشغيلي
+flux de trésorerie d'exploitation
+net working capital
+صافي رأس المال العامل
+fonds de roulement net
+SECTION CHECK   Test yourself
+SC6-1  Which asset is excluded from the quick ratio but included in the current ratio?
+A.	Cash
+B.	Marketable securities
+C.	Inventory
+D.	Accounts receivable
+SC6-2  The cash flow ratio differs from the other four because its numerator is:
+A.	a balance at a point in time.
+B.	a flow over a period.
+C.	net income.
+D.	total assets.
+SC6-3  Prepaid expenses are excluded from quick assets because they:
+A.	are immaterial.
+B.	turn into expense rather than into cash.
+C.	are noncurrent.
+D.	are not owned by the company.
+Answers and explanations are at the end of the chapter.
+6.2  The five ratios for Orontes
+Figure F506-03 computes all five for both years. The 2024 cash flow ratio cannot be calculated, because Part 1 published one statement of cash flows.
+Figure F506-03. Orontes Foods, Inc. — the five liquidity ratios
+Ratio
+2025
+2024
+Movement
+Current ratio
+3.31
+2.35
+Up strongly
+Quick (acid-test) ratio
+2.68
+1.65
+Up strongly
+Cash ratio
+1.72
+0.60
+Nearly tripled
+Cash flow ratio
+1.76
+—
+Net working capital ratio
+0.313
+0.182
+Up strongly
+The arithmetic behind each is worth seeing once.
+The current ratio is 14,188,100 ÷ 4,280,000 = 3.31 for 2025, and 8,380,000 ÷ 3,570,000 = 2.35 for 2024.
+Quick assets for 2025 are cash of $7,302,100, trading securities of $42,000 and net receivables of $4,144,000: 7,302,100 + 42,000 = 7,344,100, and 7,344,100 + 4,144,000 = 11,488,100. The quick ratio is 11,488,100 ÷ 4,280,000 = 2.68.
+The cash ratio uses only the first two: 7,344,100 ÷ 4,280,000 = 1.72.
+The cash flow ratio is operating cash flow over current liabilities: 7,531,100 ÷ 4,280,000 = 1.76.
+Net working capital is 14,188,100 − 4,280,000 = 9,908,100, and the net working capital ratio is 9,908,100 ÷ 31,672,600 = 0.313.
+Every one of the five rose sharply, and every one of them rose for the same reason: the $5,202,100 of cash that Chapter 5 traced to operating cash flow of $7,531,100. This is what corroboration looks like. Five ratios computed from four different numerators all move together, because one underlying fact moved.
+The cash ratio is the striking one. At 1.72, Orontes holds more cash and marketable securities than its entire current liabilities. It could settle everything it owes within a year, today, out of the bank account, and have $3,064,100 left over: 7,344,100 − 4,280,000 = 3,064,100. Very few manufacturers are in that position, and Chapter 5 asked the question that follows from it.
+WORKED EXAMPLE   Worked example: the five ratios from one balance sheet
+Step 1. Assemble the numerators. Current assets $14,188,100. Quick assets: cash $7,302,100 plus trading securities $42,000 plus receivables $4,144,000, giving $11,488,100. Cash and securities alone: $7,344,100. Operating cash flow: $7,531,100.
+Step 2. One denominator for four of them. Total current liabilities $4,280,000.
+Step 3. Divide. 14,188,100 ÷ 4,280,000 = 3.31; 11,488,100 ÷ 4,280,000 = 2.68; 7,344,100 ÷ 4,280,000 = 1.72; 7,531,100 ÷ 4,280,000 = 1.76. And the fifth uses total assets: 9,908,100 ÷ 31,672,600 = 0.313.
+Check. The ratios must fall in order: current ≥ quick ≥ cash, because each numerator is a subset of the one before. 3.31, 2.68, 1.72 is in order. If your quick ratio ever exceeds your current ratio, you have included something you should not have.
+YOUR TURN   The five ratios for Barada
+Figure F506-04 gives Barada Wholesale's current section. Compute the first three ratios. Answers are at the end of the chapter.
+Figure F506-04. Your turn: Barada's liquidity ratios (complete the blanks)
+Item
+Amount
+Cash
+180,000
+Marketable securities
+20,000
+Accounts receivable, net
+1,960,000
+Inventory
+2,380,000
+Prepaid expenses
+60,000
+Total current assets
+4,600,000
+Total current liabilities
+2,300,000
+Current ratio
+________
+Quick ratio
+________
+Cash ratio
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+trading securities
+الأوراق المالية للمتاجرة
+titres de transaction
+numerator
+البسط
+numérateur
+denominator
+المقام
+dénominateur
+cushion
+الهامش الوقائي
+marge de sécurité
+SECTION CHECK   Test yourself
+SC6-4  Use Figure F506-03. Orontes's current ratio rose from 2.35 to 3.31 chiefly because:
+A.	current liabilities fell.
+B.	cash rose by $5,202,100.
+C.	inventory rose.
+D.	receivables were collected faster.
+SC6-5  Which ordering must always hold?
+A.	Cash ratio ≥ quick ratio ≥ current ratio
+B.	Current ratio ≥ quick ratio ≥ cash ratio
+C.	Quick ratio ≥ current ratio ≥ cash ratio
+D.	No ordering is required
+SC6-6  Orontes's cash ratio is 1.72. This means the company:
+A.	holds more cash and securities than its total current liabilities.
+B.	holds 1.72 per cent of its assets in cash.
+C.	can pay 1.72 times its total liabilities.
+D.	has a liquidity problem.
+Answers and explanations are at the end of the chapter.
+6.3  Reading the five together
+No single liquidity ratio is sufficient, and the exam sets questions in which two of the five point in different directions. When that happens, the difference between them is itself the finding.
+A high current ratio with a low quick ratio means the current assets are mostly inventory. That is the distributor's position: Barada's inventory is 34 per cent of its total assets, so its current ratio flatters and its quick ratio tells the truth. A lender financing a seasonal stock build will look at the quick ratio and at how fast the stock moves, which is Chapter 12.
+A high quick ratio with a low cash ratio means the quick assets are mostly receivables. That is a company whose liquidity depends on its customers paying, and the ageing schedule matters more than the ratio.
+A healthy current ratio with a weak cash flow ratio means the company holds enough but is not generating. That is the most dangerous combination in this chapter, because the stock of liquid assets is finite and the flow is what replaces it.
+Figure F506-05 sets out the four readings.
+Figure F506-05. What the gaps between the ratios mean
+Pattern
+What it says
+What to look at next
+Current high, quick low
+Current assets are mostly inventory
+Inventory turnover and days in inventory
+Quick high, cash low
+Quick assets are mostly receivables
+Days sales outstanding and the ageing
+Stock ratios healthy, cash flow ratio weak
+The company holds but does not generate
+The statement of cash flows
+All five high and rising
+Liquidity is ample; the question is deployment
+Free cash flow and the investment plan
+The fourth row is Orontes. All five ratios rose together, the cash flow ratio at 1.76 confirms that the stock is being replenished by trading rather than by borrowing, and the analytical question is no longer whether the company can pay but what it should do with the surplus.
+EXAM TRAP   Higher is not always better
+A current ratio that keeps rising can mean uncollected receivables or unsold stock. Look at what the numerator is made of.
+A very high cash ratio is idle money. The exam treats cash earning nothing as a cost, and Chapter 15 measures it as a drag on return on assets.
+A ratio below 1.0 is not automatically a failure. A company with fast inventory turnover and slow payables can operate below 1.0 for years.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+ageing schedule
+جدول أعمار الذمم
+balance âgée
+idle cash
+النقد العاطل
+trésorerie oisive
+seasonal
+موسمي
+saisonnier
+deployment
+توظيف الأموال
+affectation des fonds
+SECTION CHECK   Test yourself
+SC6-7  A company has a current ratio of 3.0 and a quick ratio of 0.8. Its current assets are mostly:
+A.	cash.
+B.	receivables.
+C.	inventory.
+D.	marketable securities.
+SC6-8  Which combination is the most dangerous?
+A.	High current ratio, high cash flow ratio
+B.	Healthy stock ratios, weak cash flow ratio
+C.	Low current ratio, high cash flow ratio
+D.	High cash ratio, high quick ratio
+SC6-9  A rising current ratio may be a bad sign when the rise comes from:
+A.	cash generated by operations.
+B.	inventory that is not selling.
+C.	repayment of short-term debt.
+D.	a new share issue.
+Answers and explanations are at the end of the chapter.
+6.4  The liquidity of current liabilities
+The syllabus asks specifically for an understanding of the liquidity of current liabilities, and the phrase repays attention. Current liabilities are not a single block falling due at the same moment. They differ in when they must be paid, in whether they must be paid in cash at all, and in whether the creditor can demand payment early.
+Figure F506-06 takes Orontes's current liabilities apart.
+Figure F506-06. Orontes Foods, Inc. — current liabilities by how they will be settled
+Liability
+Amount
+How it is settled
+Pressure
+Accounts payable
+2,050,000
+Cash, on supplier terms
+Real, and dated
+Accrued liabilities
+900,000
+Cash, mostly payroll and utilities
+Real, and soon
+Income taxes payable
+350,000
+Cash, on a statutory date
+Real and immovable
+Contract liabilities
+180,000
+By delivering goods, not by paying cash
+None on the bank account
+Dividends payable
+400,000
+Cash, but the board set the date
+Real, and within the board's control
+Current portion of long-term debt
+400,000
+Cash, on the loan schedule
+Real and immovable
+Total current liabilities
+4,280,000
+Two of those lines behave quite differently from the rest.
+Contract liabilities of $180,000 are what Part 1 called unearned revenue. They are discharged by shipping tahini, not by paying money. A ratio that counts them as a claim on cash overstates the pressure on the bank account.
+Dividends payable of $400,000 are a real obligation, but the board declared them and chose the payment date. A company under pressure can, and does, defer the next declaration. Note what Orontes did: it declared $450,000 and paid only $50,000, leaving $400,000 on the balance sheet at year end. That single decision raised current liabilities by $400,000 and pushed the current ratio down from what it would otherwise have been.
+Take both out and the picture changes: 4,280,000 − 180,000 = 4,100,000 of liabilities requiring cash, and 4,100,000 − 400,000 = 3,700,000 of liabilities requiring cash on a date Orontes does not control. Against cash and securities of $7,344,100 that is a cash ratio on the stricter base of 7,344,100 ÷ 3,700,000 = 1.98.
+Nobody publishes that ratio and the exam will not ask for it by name. The point is the reasoning: the denominator is a classification, and a classification can be interrogated.
+EXAM TRAP   Not every current liability wants cash
+Contract liabilities and unearned revenue are settled by performance.
+Deferred tax is not a current liability at all; all deferred taxes are noncurrent.
+Debt callable on demand is current whatever the lender's intentions, which is a rule you met in Part 1 and which cuts the other way: it adds pressure the ratio should show.
+LANGUAGE FOCUS   "Current" is a classification, not a fact
+English current liability is a defined classification: a label the standards attach. Arabic الالتزامات المتداولة and French passifs courants are the same. The label does not say the money leaves tomorrow; it says the obligation is expected to be settled within a year or the operating cycle. Candidates lose marks by reading the label as a statement about timing within the year.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+contract liability
+التزام العقد
+passif sur contrat
+accrued liabilities
+المصروفات المستحقة
+charges à payer
+callable debt
+دين قابل للاستدعاء
+dette exigible
+declaration date
+تاريخ الإعلان
+date de déclaration
+SECTION CHECK   Test yourself
+SC6-10  Which current liability is settled by performance rather than by cash?
+A.	Accounts payable
+B.	Contract liabilities
+C.	Income taxes payable
+D.	Current portion of long-term debt
+SC6-11  Orontes declared dividends of $450,000 and paid $50,000. The effect on the December 31, 2025 current ratio was to:
+A.	raise it.
+B.	lower it.
+C.	leave it unchanged.
+D.	make it incalculable.
+SC6-12  Why is it useful to take current liabilities apart before relying on a liquidity ratio?
+A.	Because the standards require the analysis
+B.	Because the lines differ in whether, when and how they demand cash
+C.	Because deferred tax is current
+D.	Because the current ratio excludes some of them
+Answers and explanations are at the end of the chapter.
+6.5  What a liquidity ratio will not tell you
+Four limits, all examinable.
+A ratio is a photograph of one day. A company can arrange its affairs so that the photograph flatters: paying down a payable just before the year end with cash it immediately re-borrows, or delaying a purchase. This is window dressing, and the clue is a ratio that moves sharply at the year end and reverts.
+A ratio says nothing about the quality of the assets counted. Receivables that will not be collected and inventory that will not sell are both inside the current ratio at full value until someone writes them down. Part 1 taught you the write-down rules; Chapter 17 asks whether they have been applied.
+A ratio says nothing about undrawn credit. A company with a current ratio of 1.0 and a committed and unused facility of $5,000,000 is in a stronger position than one with a ratio of 2.0 and no facility. The facility is disclosed in the notes, not in the ratio.
+A ratio says nothing about the operating cycle behind it. A supermarket collects in cash and pays its suppliers in sixty days; it runs a current ratio below 1.0 permanently and is never short. A shipbuilder cannot. Chapter 12 builds the cycle that explains the difference.
+Figure F506-07 lists them.
+Figure F506-07. Four limits of a liquidity ratio
+Limit
+The clue
+Where it is resolved
+One day only; window dressing is possible
+A sharp year-end movement that reverts
+Interim statements; the cash flow statement
+Asset quality is assumed
+A rising ratio with a rising ageing
+Chapter 17, earnings quality
+Undrawn credit is invisible
+The notes on borrowings
+The commitments note
+The operating cycle is ignored
+An industry that always runs below 1.0
+Chapter 12, the cash cycle
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+window dressing
+تجميل القوائم المالية
+habillage de bilan
+committed facility
+تسهيل ائتماني ملتزم به
+ligne de crédit confirmée
+asset quality
+جودة الأصول
+qualité des actifs
+interim statements
+القوائم المرحلية
+états intermédiaires
+SECTION CHECK   Test yourself
+SC6-13  A company's current ratio jumps at each year end and falls back a month later. The most likely explanation is:
+A.	seasonal trading.
+B.	window dressing.
+C.	an accounting change.
+D.	an error in classification.
+SC6-14  Company A has a current ratio of 1.0 and an unused committed facility of $5,000,000. Company B has a ratio of 2.0 and no facility. On this evidence:
+A.	B is clearly more liquid.
+B.	A may well be more liquid, and the ratio does not show it.
+C.	the two are equally liquid.
+D.	the facility should be added to current assets.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F506-08 brings the chapter together.
+Figure F506-08. Chapter 6 summary map: the key rule for each section.
+Five ratios answer one question with increasing severity. The current ratio counts all current assets; the quick ratio removes inventory and prepayments; the cash ratio removes receivables too; the cash flow ratio replaces the stock of liquid assets with the flow of operating cash; and the net working capital ratio expresses the cushion against total assets. For Orontes in 2025 they are 3.31, 2.68, 1.72, 1.76 and 0.313, every one of them far above 2024, and all five move together because one fact moved: cash rose $5,202,100. The ordering current ≥ quick ≥ cash always holds and is a check on the arithmetic. The gaps between the ratios are the finding: current high and quick low means inventory, quick high and cash low means receivables, healthy stock ratios with a weak cash flow ratio means a company holding but not generating. Current liabilities are not one block — contract liabilities are settled by delivery, dividends payable on a date the board chose — so the denominator can be interrogated. And no liquidity ratio sees past one day, past the quality of what it counts, past undrawn credit, or past the operating cycle.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P6-01  The quick ratio excludes, from current assets:
+A.	cash and marketable securities.
+B.	inventory and prepaid expenses.
+C.	receivables and inventory.
+D.	nothing; it equals the current ratio.
+P6-02  Use Figure F506-03. Orontes's quick ratio at December 31, 2025 is:
+A.	3.31
+B.	2.68
+C.	1.72
+D.	1.76
+P6-03  Current assets are 14,188,100 and current liabilities are 4,280,000. The current ratio is:
+A.	2.35
+B.	3.31
+C.	0.30
+D.	9,908,100
+P6-04  The cash flow ratio divides:
+A.	cash by current liabilities.
+B.	operating cash flow by current liabilities.
+C.	net income by current liabilities.
+D.	free cash flow by total liabilities.
+P6-05  A company's quick ratio exceeds its current ratio. This shows that:
+A.	the company is highly liquid.
+B.	inventory is negative.
+C.	an error has been made in the calculation.
+D.	receivables exceed inventory.
+P6-06  Which current liability is settled without paying cash?
+A.	Accrued payroll
+B.	Income taxes payable
+C.	Contract liabilities
+D.	Accounts payable
+P6-07  Net working capital of 9,908,100 against total assets of 31,672,600 gives a net working capital ratio of:
+A.	0.313
+B.	3.31
+C.	2.31
+D.	0.135
+P6-08  A current ratio rises because inventory is not selling. The quick ratio will:
+A.	rise by the same amount.
+B.	not rise, because inventory is excluded.
+C.	fall below 1.0 automatically.
+D.	become incalculable.
+P6-09  A supermarket runs a current ratio of 0.8 for years without difficulty. The explanation is:
+A.	the standards permit it.
+B.	it collects in cash and pays suppliers later, so its cash cycle is negative.
+C.	its inventory is overstated.
+D.	it has no current liabilities.
+P6-10  Orontes's cash and marketable securities of 7,344,100 against current liabilities requiring cash on dates it does not control of 3,700,000 give a ratio of:
+A.	1.72
+B.	1.98
+C.	2.68
+D.	3.31
+Case-style practice: the bank reviews Barada's line
+Levant Commerce Bank is reviewing Barada Wholesale's $600,000 credit line. Barada's current ratio is 2.00 and its quick ratio is 0.94. Its inventory has grown 41 per cent in a year on sales growth of 11 per cent, and its accounts payable grew 9 per cent. The bank's credit officer notes that the current ratio is "comfortably above 1.5, which is our usual threshold".
+Required. Say whether the credit officer's reading is sound, giving the two figures that bear on it most. Then state what the gap between the current ratio and the quick ratio shows, and name the one further ratio from this chapter that you would want and why. Continuous prose, under 250 words.
+Answers and explanations are at the end of the chapter.
+Answers and explanations
+Section checks
+SC6-1  Answer C. Inventory is in current assets and out of quick assets.
+A is wrong. Cash is in both.
+B is wrong. Marketable securities are in both.
+D is wrong. Receivables are in both.
+SC6-2  Answer B. Operating cash flow is a flow over the year; the other numerators are balances.
+A is wrong. That describes the other four.
+C is wrong. Net income is not used in any of the five.
+D is wrong. Total assets is the denominator of the net working capital ratio.
+SC6-3  Answer B. A prepayment is consumed as expense; it never becomes cash.
+A is wrong. Materiality is not the reason; the rule applies whatever the amount.
+C is wrong. Prepaid expenses are current.
+D is wrong. They are assets of the company.
+SC6-4  Answer B. The numerator grew far faster than the denominator because of the cash.
+A is wrong. Current liabilities rose, from $3,570,000 to $4,280,000.
+C is wrong. Inventory rose only $150,000.
+D is wrong. Receivables rose, so collection did not accelerate.
+SC6-5  Answer B. Each numerator is a subset of the one before it.
+A is wrong. This reverses the order.
+C is wrong. The quick numerator is a subset of the current numerator.
+D is wrong. The ordering is a property of the definitions.
+SC6-6  Answer A. A cash ratio above 1.0 means cash and securities exceed current liabilities.
+B is wrong. That would be a common-size figure; cash is 23.1 per cent of assets.
+C is wrong. The denominator is current liabilities, not total liabilities.
+D is wrong. This is the opposite of a liquidity problem.
+SC6-7  Answer C. The gap between 3.0 and 0.8 is the inventory and the prepayments.
+A is wrong. Cash is in both ratios, so it cannot create the gap.
+B is wrong. Receivables are in both ratios.
+D is wrong. Marketable securities are in both ratios.
+SC6-8  Answer B. The stock of liquid assets is finite and nothing is replacing it.
+A is wrong. Holding and generating together is the healthy case.
+C is wrong. Strong generation can support a low stock.
+D is wrong. Both are high, which is not dangerous.
+SC6-9  Answer B. Unsold stock raises the ratio and worsens the position.
+A is wrong. Cash from operations is the best source of a rise.
+C is wrong. Repaying short-term debt raises the ratio by shrinking both sides, which is not a bad sign.
+D is wrong. A share issue adds cash.
+SC6-10  Answer B. A contract liability is discharged by delivering the goods.
+A is wrong. Payables are settled in cash.
+C is wrong. Tax is settled in cash on a statutory date.
+D is wrong. Debt is repaid in cash on a schedule.
+SC6-11  Answer B. Leaving $400,000 in dividends payable raised current liabilities and so lowered the ratio.
+A is wrong. A larger denominator lowers the ratio.
+C is wrong. The liability is in the denominator and changed it.
+D is wrong. The ratio is calculable either way.
+SC6-12  Answer B. Lines differ in whether they want cash, when, and whether the date is under the company's control.
+A is wrong. The standards govern classification, not analysis.
+C is wrong. Deferred tax is noncurrent.
+D is wrong. The current ratio includes all of them.
+SC6-13  Answer B. A movement that reverts shortly after the reporting date is the signature of window dressing.
+A is wrong. Seasonal trading moves the ratio and does not revert within a month.
+C is wrong. An accounting change persists.
+D is wrong. A misclassification would not reverse on its own.
+SC6-14  Answer B. A committed facility is liquidity the ratio cannot see.
+A is wrong. The ratio alone does not settle it.
+C is wrong. They are not equally placed; A has a committed source.
+D is wrong. An undrawn facility is not an asset.
+Your turn
+Item
+Answer
+Current ratio
+2.00: 4,600,000 ÷ 2,300,000.
+Quick ratio
+0.94: cash 180,000 plus securities 20,000 plus receivables 1,960,000 is 2,160,000, divided by 2,300,000.
+Cash ratio
+0.09: 200,000 ÷ 2,300,000.
+Multiple-choice questions
+P6-01  Answer B. Quick assets are cash, marketable securities and receivables.
+A is wrong. Those are included.
+C is wrong. Receivables are included.
+D is wrong. The two ratios differ whenever there is inventory.
+P6-02  Answer B. 11,488,100 ÷ 4,280,000 = 2.68.
+A is wrong. 3.31 is the current ratio.
+C is wrong. 1.72 is the cash ratio.
+D is wrong. 1.76 is the cash flow ratio.
+P6-03  Answer B. 14,188,100 ÷ 4,280,000 = 3.31.
+A is wrong. 2.35 is the 2024 figure.
+C is wrong. This is the reciprocal.
+D is wrong. This is net working capital, not the ratio.
+P6-04  Answer B. The cash flow ratio is operating cash flow over current liabilities.
+A is wrong. That is the cash ratio, without marketable securities.
+C is wrong. Net income is not used.
+D is wrong. Free cash flow and total liabilities are a different measure.
+P6-05  Answer C. The quick numerator is a subset of the current numerator, so it cannot be larger.
+A is wrong. High liquidity does not reverse the ordering.
+B is wrong. Inventory cannot be negative.
+D is wrong. The comparison between receivables and inventory does not affect the ordering.
+P6-06  Answer C. A contract liability is settled by delivering goods or services.
+A is wrong. Payroll is paid in cash.
+B is wrong. Tax is paid in cash.
+D is wrong. Payables are paid in cash.
+P6-07  Answer A. 9,908,100 ÷ 31,672,600 = 0.313.
+B is wrong. 3.31 is the current ratio.
+C is wrong. This figure has no basis.
+D is wrong. 0.135 is current liabilities over total assets.
+P6-08  Answer B. Inventory is not in the quick numerator, so a rise in it cannot raise the quick ratio.
+A is wrong. The quick ratio excludes inventory entirely.
+C is wrong. Nothing forces the quick ratio below 1.0.
+D is wrong. The quick ratio remains calculable.
+P6-09  Answer B. Cash comes in before the suppliers are paid, so the business funds itself.
+A is wrong. The standards do not set ratio thresholds.
+C is wrong. Nothing suggests overstatement.
+D is wrong. A supermarket has large payables.
+P6-10  Answer B. 7,344,100 ÷ 3,700,000 = 1.98.
+A is wrong. 1.72 uses all current liabilities.
+C is wrong. 2.68 is the quick ratio.
+D is wrong. 3.31 is the current ratio.
+Case-style set: the bank reviews Barada's line
+The credit officer's reading is not sound, and two figures show why.
+The first is the quick ratio of 0.94. Barada's current ratio of 2.00 is carried almost entirely by inventory: the gap between 2.00 and 0.94 is stock and prepayments. Excluding them, Barada has 94 cents of quick assets for each dollar of current liabilities, which is under, not comfortably over, any threshold.
+The second is the inventory growth of 41 per cent against sales growth of 11 per cent. Stock is accumulating about four times faster than the sales it supports, so the asset carrying the current ratio is the asset least likely to convert. A threshold applied to the current ratio of a distributor is a threshold applied to its stockroom.
+The gap between the two ratios therefore shows that Barada's apparent liquidity is almost entirely inventory, and that the inventory is growing faster than it is selling. That is the pattern Chapter 5 called a working-capital leak, and the overdraft is its symptom.
+The further ratio to ask for is the cash flow ratio: operating cash flow for the year over current liabilities. The current and quick ratios describe what Barada holds on one day; the cash flow ratio says whether trading is replacing it. For a company drawing an overdraft to hold stock, that is the figure that decides the line.

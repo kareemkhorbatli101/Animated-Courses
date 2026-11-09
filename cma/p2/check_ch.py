@@ -230,6 +230,24 @@ def check(bk, n, say):
             for r in (a + b, a - b, (a + b) / 2.0):
                 if r > 0:
                     derived.add('%d' % round(r))
+
+    def reachable(target):
+        """Is this amount built from the published ones?
+
+        Two terms are enumerated above; a third is tested by taking one
+        published amount off the target and asking whether what is left
+        is reachable in two. Quick assets are cash plus securities plus
+        receivables, and the surplus over current liabilities is that
+        less a fourth, so three terms is the depth this book needs.
+        """
+        if target in derived:
+            return True
+        t = float(target)
+        for v in vals:
+            for r in (t - v, t + v):
+                if r > 0 and '%d' % round(r) in derived:
+                    return True
+        return False
     # Only an amount written to the dollar. A round million is a
     # hypothetical -- a competitor's sales, a company a hundred times the
     # size -- and those are invented on purpose. What must not be
@@ -239,9 +257,9 @@ def check(bk, n, say):
         v = m.group(1).replace(',', '')
         if v.endswith('000'):
             continue
-        if v not in derived:
-            say('$%s is quoted as an Orontes amount and is not one, nor the '
-                'sum, difference or average of two' % m.group(1))
+        if not reachable(v):
+            say('$%s is quoted as an Orontes amount and is not one, nor '
+                'built from the published ones' % m.group(1))
 
 
 def main(argv):
