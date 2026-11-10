@@ -1,0 +1,32 @@
+{
+ "schema": "catalogue/1",
+ "title": "AnimatedEverything",
+ "credit": "engineered by Mohamad Khorbatli",
+ "chrome": "en",
+ "catalogueVariants": [
+  "en",
+  "ar"
+ ],
+ "courses": [
+  {
+   "id": "eam-b1",
+   "order": 0,
+   "dir": "courses/eam-b1"
+  },
+  {
+   "id": "eam",
+   "order": 1,
+   "dir": "courses/eam"
+  },
+  {
+   "id": "efd",
+   "order": 2,
+   "dir": "courses/efd"
+  },
+  {
+   "id": "tours",
+   "order": 3,
+   "dir": "courses/tours"
+  }
+ ]
+}

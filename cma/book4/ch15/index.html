@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chapter 15 · CMA Part 1 Book 4</title>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the contents</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="../index.html"><span class="bar-mark">C415</span><span>CMA Part 1 · Book 4</span></a>
+  <div class="bar-where">Chapter 15</div>
+  <a class="bar-menu" href="../glossary.html">Glossary</a>
+</div></header>
+
+<main id="main"><div class="wrap">
+  <p class="scene-kicker" style="margin-top:26px">Part IV · Data analytics · Chapter 15</p>
+  <h1 class="page-h1">Types of Analytics and Regression</h1>
+  <p class="ar" lang="ar" dir="rtl" style="font-size:22px;color:var(--accent-ink);margin:0 0 14px">أنواع التحليلات وتحليل الانحدار</p>
+  <p class="lede">Chapter 14 left a hypothesis untested: that Beverages demand follows temperature more closely than the promotion calendar. This chapter tests it, and in doing so covers the one calculation in this part of the syllabus. <span id="prog"></span></p>
+
+  <!-- The author's own roadmap for the chapter, extracted from the .docx by tools/cma_book. The
+       caption is the author's wording; nothing is described here that the author did not write. -->
+  <figure class="bookfig">
+    <!-- THE ONE FIGURE THAT IS NOT DRAWN BY figure.js, so the base has to be baked in here.
+         Plain markup is fetched before any script runs, so a page cannot wait for media.js
+         to tell it where this picture is. https://kareemkhorbatli101.github.io/Animated-Courses-Media-cma/ is the media host or "../" - see
+         tools/cma_media - and gates/cma_media checks that every baked URL and every
+         volume's media.js name the same host. -->
+    <img src="https://kareemkhorbatli101.github.io/Animated-Courses-Media-cma/assets/figures/F415-01.png" loading="lazy" decoding="async" alt="Chapter 15 roadmap: which question, which technique, how good.">
+    <figcaption><b>Figure F415-01.</b> Chapter 15 roadmap: which question, which technique, how good.</figcaption>
+  </figure>
+
+  <h2 class="sec-h">Start here</h2>
+  <div class="cards" id="secs"></div>
+
+  <h2 class="sec-h">Then</h2>
+  <div class="cards" id="back"></div>
+
+  <h2 class="sec-h">What this chapter is tested on</h2>
+  <div class="table-scroll"><table class="tbl">
+    <thead><tr><th>LOS</th><th>Official statement (ICMA, 2024)</th><th>In plain words</th><th>Depth here</th></tr></thead>
+    <tbody>
+      <tr><td><b>F.4.l</b></td><td>explain the challenge of fitting an analytics model to the data</td><td>Explain the challenge of fitting an analytics model to the data.</td><td>Full treatment</td></tr>
+      <tr><td><b>F.4.m</b></td><td>define the different types of data analytics, including descriptive, diagnostic, predictive, and prescriptive</td><td>Define descriptive, diagnostic, predictive and prescriptive analytics.</td><td>Full treatment</td></tr>
+      <tr><td><b>F.4.n</b></td><td>define clustering and classification, and determine when each of these analytic techniques would be the appropriate tool to use</td><td>Define clustering and classification and determine when each is the appropriate tool.</td><td>Full treatment</td></tr>
+      <tr><td><b>F.4.o</b></td><td>demonstrate an understanding of multiple regression and logistic regression and recognize when these techniques are appropriate</td><td>Demonstrate an understanding of multiple and logistic regression and when each is appropriate.</td><td>Full treatment</td></tr>
+      <tr><td><b>F.4.p</b></td><td>calculate the result of multiple regression equations as applied to a specific situation</td><td>Calculate the result of a multiple regression equation applied to a situation.</td><td>Full treatment + Extended Example</td></tr>
+      <tr><td><b>F.4.q</b></td><td>demonstrate an understanding of the coefficient of determination (R squared) and the correlation coefficient (R)</td><td>Demonstrate an understanding of the coefficient of determination and the correlation coefficient.</td><td>Full treatment</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note" style="margin-top:10px">The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.</p>
+
+  <h2 class="sec-h">What you already know</h2>
+  <div class="bite"><p>Book 2 used the high-low method to split a mixed cost into fixed and variable parts. Regression does the same job properly, using every observation rather than two, and this chapter is where that promise is kept.</p></div>
+
+  <h2 class="sec-h">The 14 key terms</h2>
+  <div id="keyterms" class="cards"></div>
+
+  <p class="note" style="margin:26px 0 40px">Every scene has <b>Check Answers</b> and <b>Try Again</b>.
+    Try Again reshuffles rather than revealing. When you are wrong, the first thing you read is the reason for
+    the option <em>you</em> chose, taken from the book's own explanations. Progress is saved in this browser.
+    <button class="btn btn-ghost" id="reset" type="button" style="margin-left:8px">Reset my progress</button></p>
+</div></main>
+
+<script src="data/toc.js"></script>
+<script src="../assets/ledger-ch15.js"></script>
+<script src="../assets/terms-ch15.js"></script>
+<script src="../assets/terms-fr-ch15.js"></script>
+<script src="../assets/speech.js"></script>
+<script src="../assets/progress.js"></script>
+<script src="../assets/hub.js"></script>
+</body>
+</html>

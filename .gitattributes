@@ -1,0 +1,9 @@
+# Every file here is CONTENT-ADDRESSED: its name is the hash of its bytes, and the player
+# refuses any file whose bytes do not hash to the name it asked for. Anything that rewrites
+# bytes in transit therefore breaks the store. Git's end-of-line conversion is such a
+# rewrite: it turned a 2329-byte timeline.json with CRLF into 2240 bytes with LF, and the
+# player correctly refused it. The file was intact on disk and intact on the server; it was
+# intact DIFFERENTLY.
+#
+# Written by tools/publish_site.py. Do not delete.
+* -text

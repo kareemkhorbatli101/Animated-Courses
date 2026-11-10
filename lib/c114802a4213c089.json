@@ -1,0 +1,1286 @@
+{
+ "schema": "timeline/1",
+ "duration": 206.69,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 5.4,
+    "en": "This is Part 8, a case study. It is for practitioners.",
+    "ar": "هذا الجزء الثامن، دراسة حالة. إنّه للممارسين."
+   },
+   {
+    "start": 13.74,
+    "dur": 3.144,
+    "en": "Listen to the story of a small garage.",
+    "ar": "استمع إلى قصّة كراج صغير."
+   },
+   {
+    "start": 17.234,
+    "dur": 5.616,
+    "en": "Before you read. How can a small garage become a big service business?",
+    "ar": "قبل أن تقرأ. كيف يصبح كراج صغير عملاً كبيراً للصيانة؟"
+   },
+   {
+    "start": 29.968,
+    "dur": 4.632,
+    "en": "Good work and happy customers. Listen for more.",
+    "ar": "عمل جيّد وزبائن راضون. استمع للمزيد."
+   },
+   {
+    "start": 34.95,
+    "dur": 5.688,
+    "en": "In a small town, a mechanic named Sami started a garage with only two workers.",
+    "ar": "في بلدة صغيرة، بدأ ميكانيكي اسمه سامي كراجاً بعاملين فقط."
+   },
+   {
+    "start": 40.988,
+    "dur": 4.152,
+    "en": "At first, they did simple repairs for local drivers.",
+    "ar": "في البداية، قاموا بإصلاحات بسيطة للسائقين المحلّيين."
+   },
+   {
+    "start": 45.49,
+    "dur": 2.688,
+    "en": "Sami listened to his customers.",
+    "ar": "استمع سامي إلى زبائنه."
+   },
+   {
+    "start": 48.528,
+    "dur": 3.672,
+    "en": "They wanted good, honest work at a fair price.",
+    "ar": "أرادوا عملاً جيّداً وأميناً بسعر عادل."
+   },
+   {
+    "start": 52.55,
+    "dur": 3.504,
+    "en": "So he learned about new cars and new tools.",
+    "ar": "لذلك تعلّم عن السيارات والأدوات الجديدة."
+   },
+   {
+    "start": 56.404,
+    "dur": 3.336,
+    "en": "Every year, the garage did a little more.",
+    "ar": "كلّ سنة، كان الكراج يعمل أكثر قليلاً."
+   },
+   {
+    "start": 60.09,
+    "dur": 4.488,
+    "en": "Sami trained young mechanics and taught them to check every car carefully.",
+    "ar": "درّب سامي ميكانيكيين شباباً وعلّمهم فحص كلّ سيارة بعناية."
+   },
+   {
+    "start": 64.928,
+    "dur": 3.432,
+    "en": "Soon, drivers from other towns came to him.",
+    "ar": "وسرعان ما جاءه سائقون من بلدات أخرى."
+   },
+   {
+    "start": 68.71,
+    "dur": 4.416,
+    "en": "He opened a bigger workshop and added a reception and a parts store.",
+    "ar": "افتتح ورشة أكبر وأضاف استقبالاً ومخزناً للقطع."
+   },
+   {
+    "start": 73.476,
+    "dur": 5.496,
+    "en": "Today, the company services hundreds of cars, and it has a good reputation.",
+    "ar": "اليوم، تصون الشركة مئات السيارات، ولها سمعة جيّدة."
+   },
+   {
+    "start": 79.322,
+    "dur": 2.808,
+    "en": "But Sami still says the same thing:",
+    "ar": "لكنّ سامي ما زال يقول الشيء نفسه:"
+   },
+   {
+    "start": 82.48,
+    "dur": 3.24,
+    "en": "Listen to the customer, do honest work,",
+    "ar": "استمع إلى الزبون، واعمل بأمانة،"
+   },
+   {
+    "start": 86.07,
+    "dur": 3.336,
+    "en": "and never send out a car that is not safe.",
+    "ar": "ولا تُخرج أبداً سيارة غير آمنة."
+   },
+   {
+    "start": 89.756,
+    "dur": 6.792,
+    "en": "Here is an example. Who started the garage? A mechanic named Sami.",
+    "ar": "هذا مثال. من بدأ الكراج؟ ميكانيكي اسمه سامي."
+   },
+   {
+    "start": 96.898,
+    "dur": 2.616,
+    "en": "What did the customers want?",
+    "ar": "ماذا أراد الزبائن؟"
+   },
+   {
+    "start": 104.161,
+    "dur": 3.024,
+    "en": "Good, honest work at a fair price.",
+    "ar": "عملاً جيّداً وأميناً بسعر عادل."
+   },
+   {
+    "start": 107.535,
+    "dur": 3.144,
+    "en": "What did Sami teach the young mechanics?",
+    "ar": "ماذا علّم سامي الميكانيكيين الشباب؟"
+   },
+   {
+    "start": 116.032,
+    "dur": 2.712,
+    "en": "To check every car carefully.",
+    "ar": "أن يفحصوا كلّ سيارة بعناية."
+   },
+   {
+    "start": 119.094,
+    "dur": 3.144,
+    "en": "What does Sami still say is important?",
+    "ar": "ماذا يقول سامي إنّه مهمّ حتّى الآن؟"
+   },
+   {
+    "start": 127.473,
+    "dur": 6.336,
+    "en": "Listen to the customer, do honest work. And never send out a car that is not safe.",
+    "ar": "استمع إلى الزبون، واعمل بأمانة. ولا تُخرج أبداً سيارة غير آمنة."
+   },
+   {
+    "start": 134.159,
+    "dur": 2.952,
+    "en": "Now match four words with their meanings.",
+    "ar": "الآن طابِق أربع كلمات مع معانيها."
+   },
+   {
+    "start": 137.461,
+    "dur": 3.528,
+    "en": "Garage. Which meaning is it?",
+    "ar": "Garage. أيّ معنى هو؟"
+   },
+   {
+    "start": 145.636,
+    "dur": 3.552,
+    "en": "C. A place where cars are serviced and repaired.",
+    "ar": "ج. مكان تُصان فيه السيارات وتُصلح."
+   },
+   {
+    "start": 149.538,
+    "dur": 3.6,
+    "en": "Repair. Which meaning is it?",
+    "ar": "Repair. أيّ معنى هو؟"
+   },
+   {
+    "start": 157.785,
+    "dur": 2.784,
+    "en": "B. To fix something that is broken.",
+    "ar": "ب. أن تصلح شيئاً مكسوراً."
+   },
+   {
+    "start": 160.919,
+    "dur": 3.48,
+    "en": "Honest. Which meaning is it?",
+    "ar": "Honest. أيّ معنى هو؟"
+   },
+   {
+    "start": 169.046,
+    "dur": 3.216,
+    "en": "A. Telling the truth and doing fair work.",
+    "ar": "أ. قول الحقيقة والعمل بعدل."
+   },
+   {
+    "start": 172.612,
+    "dur": 3.456,
+    "en": "Safe. Which meaning is it?",
+    "ar": "Safe. أيّ معنى هو؟"
+   },
+   {
+    "start": 180.598,
+    "dur": 2.376,
+    "en": "D. Not dangerous.",
+    "ar": "د. غير خطر."
+   },
+   {
+    "start": 183.324,
+    "dur": 4.488,
+    "en": "Now talk with a partner. Use these frames.",
+    "ar": "الآن تحدّث مع زميل. استخدم هذه العبارات."
+   },
+   {
+    "start": 188.162,
+    "dur": 3.24,
+    "en": "What is the most important thing in the story?",
+    "ar": "ما أهمّ شيء في القصّة؟"
+   },
+   {
+    "start": 197.108,
+    "dur": 5.016,
+    "en": "One opinion: honest work is most important, because customers trust it.",
+    "ar": "رأي واحد: العمل الأمين هو الأهمّ، لأنّ الزبائن يثقون به."
+   },
+   {
+    "start": 202.474,
+    "dur": 2.616,
+    "en": "Your opinion can be different.",
+    "ar": "رأيك يمكن أن يكون مختلفاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 34.35,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 67.747,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "grows",
+   "at": 34.75,
+   "end": 90.406,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.53057
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 34.75,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A small garage grows",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 34.75,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "كراج صغير يكبر",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 34.95,
+     "lang": "en",
+     "align": "left",
+     "x": 0.56877,
+     "y": 0.39854,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "1.",
+     "runs": [
+      [
+       "Two workers, simple repairs",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 34.95,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.43243,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "عاملان، إصلاحات بسيطة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 48.528,
+     "lang": "en",
+     "align": "left",
+     "x": 0.56877,
+     "y": 0.46807,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "2.",
+     "runs": [
+      [
+       "Good, honest work at a fair price",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 48.528,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.50196,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "عمل جيّد وأمين بسعر عادل",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.55,
+     "lang": "en",
+     "align": "left",
+     "x": 0.56877,
+     "y": 0.53761,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "3.",
+     "runs": [
+      [
+       "New cars and new tools",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.55,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.5715,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "سيارات وأدوات جديدة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 60.09,
+     "lang": "en",
+     "align": "left",
+     "x": 0.56877,
+     "y": 0.60715,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "4.",
+     "runs": [
+      [
+       "Young mechanics, trained",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 60.09,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.64104,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ميكانيكيون شباب مدرَّبون",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 68.71,
+     "lang": "en",
+     "align": "left",
+     "x": 0.56877,
+     "y": 0.67669,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "5.",
+     "runs": [
+      [
+       "A bigger workshop, a reception, a parts store",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 68.71,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.71057,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ورشة أكبر، استقبال، مخزن قطع",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 73.476,
+     "lang": "en",
+     "align": "left",
+     "x": 0.56877,
+     "y": 0.74622,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "6.",
+     "runs": [
+      [
+       "Hundreds of cars, a good reputation",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 73.476,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.78011,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "مئات السيارات، سمعة جيّدة",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "meanings",
+   "at": 137.261,
+   "end": 183.074,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.47956
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 137.261,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Meanings",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.261,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "المعاني",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40224,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "a) telling the truth and doing fair work",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.43613,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "قول الحقيقة والعمل بعدل",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.47548,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "b) to fix something that is broken",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.50937,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أن تصلح شيئاً مكسوراً",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.54872,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "c) a place where cars are serviced and repaired",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.58261,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "مكان تُصان فيه السيارات",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.62196,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "d) not dangerous",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.65585,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "غير خطر",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.6952,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "e) a machine that finds faults",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 137.461,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.72909,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "آلة تجد الأعطال",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "frames",
+   "at": 183.124,
+   "end": 206.09,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.33307
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 183.124,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Talk about it",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.124,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "تحدّث عنه",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.324,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40224,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "This is similar to Syria because...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.324,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.43613,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "هذا يشبه سوريا لأنّ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.324,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.47548,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "This is different from Syria because...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.324,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.50937,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "هذا يختلف عن سوريا لأنّ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.324,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.54872,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "I think the most important thing is... because...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 183.324,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.58261,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أعتقد أنّ أهمّ شيء هو... لأنّ...",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

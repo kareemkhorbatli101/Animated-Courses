@@ -1,0 +1,1716 @@
+{
+ "schema": "timeline/1",
+ "duration": 139.114,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.024,
+    "en": "This is Part 2, Grammar Review.",
+    "ar": "هذا الجزء الثاني، مراجعة القواعد."
+   },
+   {
+    "start": 11.364,
+    "dur": 3.6,
+    "en": "Find the mistake, then choose the correct sentence.",
+    "ar": "جد الخطأ، ثمّ اختر الجملة الصحيحة."
+   },
+   {
+    "start": 15.314,
+    "dur": 2.808,
+    "en": "Each sentence has one mistake.",
+    "ar": "في كلّ جملة خطأ واحد."
+   },
+   {
+    "start": 18.472,
+    "dur": 2.928,
+    "en": "Find it in the quiet, then listen.",
+    "ar": "جده في الصمت، ثمّ استمع."
+   },
+   {
+    "start": 21.75,
+    "dur": 4.944,
+    "en": "The garage service many cars every day. What is wrong?",
+    "ar": "في هذه الجملة خطأ. ما هو؟"
+   },
+   {
+    "start": 32.871,
+    "dur": 3.408,
+    "en": "The garage services many cars every day.",
+    "ar": "الكراج يصون سيارات كثيرة كلّ يوم."
+   },
+   {
+    "start": 36.629,
+    "dur": 5.664,
+    "en": "Look! Nabil change the oil now. What is wrong?",
+    "ar": "في هذه الجملة خطأ. ما هو؟"
+   },
+   {
+    "start": 47.998,
+    "dur": 4.176,
+    "en": "Look! Nabil is changing the oil now.",
+    "ar": "انظر! نبيل يغيّر الزيت الآن."
+   },
+   {
+    "start": 52.524,
+    "dur": 4.512,
+    "en": "She check the brakes every service. What is wrong?",
+    "ar": "في هذه الجملة خطأ. ما هو؟"
+   },
+   {
+    "start": 62.978,
+    "dur": 2.88,
+    "en": "She checks the brakes every service.",
+    "ar": "هي تفحص الفرامل في كلّ صيانة."
+   },
+   {
+    "start": 66.208,
+    "dur": 4.392,
+    "en": "We are repair the engine now. What is wrong?",
+    "ar": "في هذه الجملة خطأ. ما هو؟"
+   },
+   {
+    "start": 76.188,
+    "dur": 2.736,
+    "en": "We are repairing the engine now.",
+    "ar": "نحن نصلح المحرّك الآن."
+   },
+   {
+    "start": 79.274,
+    "dur": 3.912,
+    "en": "Now, write two sentences about your work or study.",
+    "ar": "الآن، اكتب جملتين عن عملك أو دراستك."
+   },
+   {
+    "start": 83.536,
+    "dur": 3.36,
+    "en": "One about every day, and one about now.",
+    "ar": "واحدة عن كلّ يوم، وواحدة عن الآن."
+   },
+   {
+    "start": 87.246,
+    "dur": 3.024,
+    "en": "Pause the video, and write them now.",
+    "ar": "أوقف الفيديو، واكتبهما الآن."
+   },
+   {
+    "start": 90.62,
+    "dur": 7.344,
+    "en": "Here is an example. I check cars every day. Right now, I am learning English.",
+    "ar": "هذا مثال. أفحص السيارات كلّ يوم. الآن، أتعلّم الإنجليزية."
+   },
+   {
+    "start": 98.314,
+    "dur": 2.688,
+    "en": "Now choose the correct sentence.",
+    "ar": "الآن اختر الجملة الصحيحة."
+   },
+   {
+    "start": 101.352,
+    "dur": 5.688,
+    "en": "Which sentence is correct for now? A, B, C or D?",
+    "ar": "أيّ جملة صحيحة للآن؟ أ، ب، ج أم د؟"
+   },
+   {
+    "start": 112.863,
+    "dur": 2.856,
+    "en": "B. Nabil is changing the oil.",
+    "ar": "ب. Nabil is changing the oil."
+   },
+   {
+    "start": 116.069,
+    "dur": 5.976,
+    "en": "Which sentence is correct for a routine? A, B, C or D?",
+    "ar": "أيّ جملة صحيحة لعمل يومي؟ أ، ب، ج أم د؟"
+   },
+   {
+    "start": 128.222,
+    "dur": 2.976,
+    "en": "A. The garage services cars.",
+    "ar": "أ. The garage services cars."
+   },
+   {
+    "start": 131.548,
+    "dur": 3.72,
+    "en": "You will see these verbs again in the Part 5 reading.",
+    "ar": "سترى هذه الأفعال مرّة أخرى في قراءة الجزء الخامس."
+   },
+   {
+    "start": 135.618,
+    "dur": 1.896,
+    "en": "Watch for them.",
+    "ar": "انتبه لها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 20.5,
+    "hold": 12.32,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 52.037,
+    "hold": 13.27,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 65.358,
+    "hold": 13.83,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "c1",
+   "at": 21.55,
+   "end": 36.378,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.31744
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 21.55,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Correct the sentence",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 21.55,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحّح الجملة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 21.75,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The garage service many cars every day.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 21.75,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "في هذه الجملة خطأ واحد.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 32.871,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The garage ",
+       null
+      ],
+      [
+       "service",
+       "strike"
+      ],
+      [
+       " ",
+       null
+      ],
+      [
+       "services",
+       "fix"
+      ],
+      [
+       " many cars every",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 32.871,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.52519,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "day.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 32.871,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.56359,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أضف s مع it: services.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "c2",
+   "at": 36.429,
+   "end": 52.275,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.27904
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 36.429,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Correct the sentence",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 36.429,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحّح الجملة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 36.629,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Look! Nabil change the oil now.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 36.629,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "في هذه الجملة خطأ واحد.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 47.998,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Look! Nabil ",
+       null
+      ],
+      [
+       "change",
+       "strike"
+      ],
+      [
+       " ",
+       null
+      ],
+      [
+       "is changing",
+       "fix"
+      ],
+      [
+       " the oil now.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 47.998,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الآن: is changing.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "c3",
+   "at": 52.324,
+   "end": 65.957,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.27904
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 52.324,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Correct the sentence",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.324,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحّح الجملة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.524,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "She check the brakes every service.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.524,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "في هذه الجملة خطأ واحد.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.978,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "She ",
+       null
+      ],
+      [
+       "check",
+       "strike"
+      ],
+      [
+       " ",
+       null
+      ],
+      [
+       "checks",
+       "fix"
+      ],
+      [
+       " the brakes every service.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.978,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أضف s مع she: checks.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "c4",
+   "at": 66.008,
+   "end": 79.924,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.27904
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 66.008,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Correct the sentence",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 66.008,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحّح الجملة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 66.208,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "We are repair the engine now.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 66.208,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "في هذه الجملة خطأ واحد.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 76.188,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "We are ",
+       null
+      ],
+      [
+       "repair",
+       "strike"
+      ],
+      [
+       " ",
+       null
+      ],
+      [
+       "repairing",
+       "fix"
+      ],
+      [
+       " the engine now.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 76.188,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "بعد are نستخدم ‎-ing: repairing.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "gr1",
+   "at": 101.152,
+   "end": 115.82,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.39596
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 101.152,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Which sentence is correct (now)?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 101.152,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أيّ جملة صحيحة (الآن)؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 101.352,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A) Nabil change the oil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 101.352,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.45515,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "B) Nabil is changing the oil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 101.352,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.50467,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "C) Nabil changing the oil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 101.352,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.55419,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "D) Nabil are changing the oil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 112.863,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.6037,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "B) Nabil is changing the oil.",
+       "fix"
+      ]
+     ]
+    },
+    {
+     "at": 112.863,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.64211,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الجواب: ب",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "gr2",
+   "at": 115.869,
+   "end": 132.197,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.39596
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 115.869,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Which sentence is correct (routine)?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 115.869,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أيّ جملة صحيحة (عمل يومي)؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 116.069,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A) The garage services cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 116.069,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.45515,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "B) The garage servicing cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 116.069,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.50467,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "C) The garage service cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 116.069,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.55419,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "D) The garage to service cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 128.222,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.6037,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A) The garage services cars.",
+       "fix"
+      ]
+     ]
+    },
+    {
+     "at": 128.222,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.64211,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الجواب: أ",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

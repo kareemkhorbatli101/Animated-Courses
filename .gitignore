@@ -1,0 +1,48 @@
+# THIS REPOSITORY IS PUBLIC, AND IT IS ALSO THE LIVE WEBSITE.
+#
+# Anything committed here is downloadable by anyone, twice over: from
+# learnactively.com and straight from github.com with no account. Measured
+# 2026-11-10: an anonymous request for a chapter of the author's book returned
+# HTTP 200 and 31,985 bytes.
+#
+# So what belongs here is what a learner's browser needs, and nothing else.
+
+# ---------------------------------------------------------------------------
+# THE AUTHORS' BOOKS. Not negotiable.
+#
+# cma/book*/assets/source-text*.js is each CMA volume EXTRACTED VERBATIM from
+# the author's .docx - 405,754 words across the four volumes, every file headed
+# with the name and sha256 of the source document. No learner page loads them.
+# They exist because the provenance lock checks the site's every word against
+# the book, and five readers need them ON DISK: gates/cma_provenance,
+# gates/cma_coverage, gates/cma_shared, tools/cma_book and tools/cma_extract_all.
+#
+# Ignoring rather than deleting is the whole point: the files stay exactly where
+# those five expect them, and leave the public repository and the website. They
+# are regenerable with `python -m tools.cma_book --book N --chapter C --baseline`
+# from the .docx in D:\____All_Books, so a fresh clone that lacks them is a few
+# minutes of work, not a loss.
+cma/book*/assets/source-text*.js
+
+# The internal quality-gate pages. They are a harness, driven by
+# gates/cma_render through a local server; they load the baselines above, so
+# publishing them without those would serve a broken page to nobody's benefit.
+cma/book*/_qa*.html
+
+# ---------------------------------------------------------------------------
+# Working documents. These were committed here once and were public until
+# 2026-11-10; they now live in Apps\_internal_packages\. A path has to be
+# NAMED to travel - see each course's tools/publish.py whitelist.
+*.docx
+*.doc
+*.zip
+*.log
+cma/book*/plan_*/
+cma/book*/build_*/
+cma/book*/delivered_*/
+cma/book*/source/
+
+# Editor and tool droppings
+.playwright-mcp/
+__pycache__/
+*.pyc

@@ -1,0 +1,118 @@
+{
+ "schema": "timeline/1",
+ "duration": 42.31,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.288,
+    "en": "Nabil, let’s check the stock before the customers arrive. How much oil do we have?",
+    "ar": "نبيل، لنتفقّد المخزون قبل وصول الزبائن. كم لدينا من الزيت؟"
+   },
+   {
+    "start": 8.068,
+    "dur": 3.336,
+    "en": "There is plenty of oil, about ten litres.",
+    "ar": "يوجد الكثير من الزيت — نحو عشرة لترات."
+   },
+   {
+    "start": 12.734,
+    "dur": 4.032,
+    "en": "Good. How many oil filters are there?",
+    "ar": "جيد. كم فلتر زيت يوجد؟"
+   },
+   {
+    "start": 18.096,
+    "dur": 2.376,
+    "en": "There are only two left.",
+    "ar": "لم يبقَ سوى اثنين."
+   },
+   {
+    "start": 21.802,
+    "dur": 6.6,
+    "en": "That isn’t many. We have five services today. Please order ten.",
+    "ar": "هذا قليل. لدينا خمس صيانات اليوم. من فضلك اطلب عشرة."
+   },
+   {
+    "start": 29.732,
+    "dur": 3.48,
+    "en": "And there isn’t much coolant, only one bottle.",
+    "ar": "وسائل التبريد قليل — زجاجة واحدة فقط."
+   },
+   {
+    "start": 34.542,
+    "dur": 5.736,
+    "en": "Order some coolant too. We can’t service a car without the right parts.",
+    "ar": "اطلب بعض سائل التبريد أيضاً. لا يمكننا صيانة سيارة دون القطع المناسبة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "customer",
+    "at": 4.166,
+    "hold": 2.0,
+    "label": "customer",
+    "ar": "زبون",
+    "emoji": "👤"
+   },
+   {
+    "lemma": "oil",
+    "at": 6.674,
+    "hold": 2.0,
+    "label": "oil",
+    "ar": "زيت",
+    "emoji": "🛢️"
+   },
+   {
+    "lemma": "litre",
+    "at": 11.956,
+    "hold": 2.0,
+    "label": "litre",
+    "ar": "لتر",
+    "emoji": "🛢️"
+   },
+   {
+    "lemma": "filter",
+    "at": 14.908,
+    "hold": 2.0,
+    "label": "filter",
+    "ar": "فلتر"
+   },
+   {
+    "lemma": "service",
+    "at": 25.578,
+    "hold": 2.0,
+    "label": "service",
+    "ar": "صيانة",
+    "emoji": "🔧"
+   },
+   {
+    "lemma": "coolant",
+    "at": 31.881,
+    "hold": 2.0,
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "emoji": "🧴"
+   },
+   {
+    "lemma": "car",
+    "at": 36.359,
+    "hold": 2.0,
+    "label": "car",
+    "ar": "سيارة",
+    "emoji": "🚗"
+   }
+  ]
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

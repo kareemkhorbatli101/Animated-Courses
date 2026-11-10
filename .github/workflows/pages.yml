@@ -1,0 +1,108 @@
+# Publish learnactively.com with the GitHub Actions Pages deployer.
+#
+# WHY THIS EXISTS. From 2026-11-10 00:20 every deploy of this site failed. The
+# Pages API reported status "errored", duration 0 and the generic "Page build
+# failed." on every commit, which reads exactly like a build refused before it
+# started. An hour went into the repository on that reading - it is 1,871 MB
+# against GitHub's 1 GB guidance - and the branch was squashed to bring what it
+# reaches down to 298 MB. That changed nothing. The repository was never it.
+#
+# The legacy builder's own Actions run held the answer. Its BUILD job succeeded -
+# the 242 MB artifact uploaded in ten seconds - and its DEPLOY job then sat at
+# "Current status: syncing_files" for twenty-one polls and ended:
+#
+#     ##[error]Timeout reached, aborting!
+#     Canceling Pages deployment...
+#
+# actions/deploy-pages gives up after ten minutes by default and CANCELS the
+# deployment it is waiting on, and that cancellation is what gets filed against
+# the commit as "errored, duration 0".
+#
+# TEN MINUTES IS A HARD CEILING. actions/deploy-pages clamps its own `timeout`
+# input and says so in a warning that is easy to miss:
+#
+#     Warning: timeout value is greater than the allowed maximum
+#              - timeout set to the maximum of 600000 milliseconds.
+#
+# So the hour requested below is never granted, and there is no setting that
+# grants it. A deploy that needs more than ten minutes CANNOT succeed here.
+#
+# THE STALL IS NOT CAUSED BY THE CHANGE. The decisive measurement, because both
+# rows are the SAME COMMIT and the same 1,672 deletions:
+#
+#     ed43c43e  run 5                            639s   cancelled at the ceiling
+#     ed43c43e  run 6, re-run, nothing changed    63s   success
+#
+#     3614ad78  changed 231 files                 63s   success
+#     1b48a522  legacy builder                 10m 28s  cancelled at the ceiling
+#
+# So it is not size, not file count, and not deletions. Pages' "syncing_files"
+# stage stalls for this site now and then, and when it does, the ten-minute
+# clamp turns the stall into a cancelled deployment.
+#
+# WHAT TO DO WHEN A DEPLOY FAILS WITH "Timeout reached, aborting!":
+# RE-RUN IT. That is the whole remedy, it costs a minute, and it is what the
+# earliest note about this site already said - "the only workaround that has
+# ever worked is pushing again." Do not go looking for something in the content
+# to blame; three different theories about the content have now been wrong.
+#
+# The site is static and pre-built - every course is generated in its own project
+# repository and copied here - so there is no build step on purpose. Adding one
+# would put a second, unversioned generator in front of pages that are already
+# gated where they are made.
+
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race: a half-uploaded 298 MB site is a broken site.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out one commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Report what is about to be published
+        run: |
+          echo "files: $(find . -path ./.git -prune -o -type f -print | wc -l)"
+          echo "bytes: $(du -sb --exclude=.git . | cut -f1)"
+          test -f .nojekyll && echo ".nojekyll present" || echo "WARNING: no .nojekyll"
+          test -f CNAME && echo "CNAME: $(cat CNAME)" || echo "WARNING: no CNAME"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          # 600000 ms is the action's own hard maximum - anything larger is
+          # clamped to it with a warning. Asking for the maximum explicitly is
+          # the only control there is; if a deploy hits it, the answer is to
+          # make the change smaller, not to raise the number.
+          timeout: 600000
+          error_count: 20
+          reporting_interval: 15000

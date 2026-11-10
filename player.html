@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AnimatedEverything</title>
+<!--
+  AnimatedEverything - the course catalogue. Engineered by Mohamad Khorbatli.
+
+  The rules this page obeys are specified and checked in tools/frontend_checks.py (240 checks). Where a
+  behaviour here looks arbitrary, it is not: it has a check, and changing it should change a check.
+
+  v28.3: THIS PAGE IS A HOST. The catalogue, the stage and every pane are the lesson player component
+  (player/animated_player.js), the same one any other page mounts. What stays here is what belongs to this
+  site and to no embedding: the header, the size modes (theatre, full page), the address bar and the
+  browser storage it has always used.
+
+  Three language axes, independent (v4 s3):   catalogue text / spoken audio / one-or-two subtitle tracks.
+  The page chrome is ENGLISH, always. Only the layout mirrors when the catalogue is Arabic.
+-->
+<style>
+:root{
+  /* Contrast-checked, not chosen by eye. --border was wrong twice at 1.4:1 and 1.75:1 before being
+     solved numerically to 3.02:1 on --surface, which WCAG 1.4.11 requires of a control boundary.
+     The player component carries the same palette inside its own root. */
+  --bg:#0E1116; --surface:#161B22; --surface2:#1F262E; --border:#5B677A;
+  --text:#E6EDF3; --muted:#A9B4C0; --accent:#E8B418; --onAccent:#1A1200;
+  --focus:#58A6FF; --danger:#E5534B; --ok:#3FB950;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Noto Sans Arabic",sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:var(--font);font-size:14px;line-height:1.45}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* ---- header ------------------------------------------------------------------------------- */
+header{display:flex;align-items:baseline;gap:14px;padding:14px 18px;border-bottom:1px solid var(--border);background:var(--surface)}
+header h1{margin:0;font-size:19px;letter-spacing:.2px;font-weight:650}
+header h1 b{color:var(--accent);font-weight:650}
+header .credit{color:var(--muted);font-size:12.5px}
+header .spacer{flex:1}
+
+/* ---- the player fills the page under the header; full page hides the header ---------------- */
+#player{height:calc(100% - 53px)}
+body.full header{display:none}
+body.full #player{height:100%}
+@media (max-width:820px){#player{height:auto;min-height:calc(100% - 53px)}}
+</style>
+</head><body>
+
+<header>
+  <h1><b>Animated</b>Everything</h1>
+  <span class="credit">engineered by Mohamad Khorbatli</span>
+  <!-- This page is no longer the site's front door: it publishes as player.html beside the
+       catalogue home (index.html). Without this link a visitor who opens the player has no way
+       back to the courses, because the player's own catalogue lists videos only. -->
+  <a class="credit" id="backhome" href="index.html"
+     style="color:#E8B418;text-decoration:none">&larr; All courses</a>
+  <!-- cma-landing-link --><a class="credit" href="cma/index.html" style="color:#7fd9d0;text-decoration:none">CMA Part 1 &rarr;</a><!-- /cma-landing-link -->
+  <span class="spacer"></span>
+  <span class="credit" id="tally"></span>
+</header>
+
+<div id="player"></div>
+
+<!-- The site's own size modes, placed in the player's play strip (its host slot). -->
+<template id="sitebar">
+  <button class="ghost" id="btheatre" aria-pressed="false" title="Theatre mode (t)">Theatre</button>
+  <button class="ghost" id="bfull" aria-pressed="false" title="Full page (f)">Full page</button>
+</template>
+
+<!-- This site keeps the window.__* hooks its gates read; a page that does not say so gets none. -->
+<script>window.__AP_DEBUG_PAGE = true;</script>
+<script src="player/animated_player.js"></script>
+<script src="app.js"></script>
+</body></html>

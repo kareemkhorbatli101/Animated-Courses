@@ -1,0 +1,867 @@
+{
+ "schema": "timeline/1",
+ "duration": 125.158,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.168,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 3.968,
+    "dur": 3.48,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.798,
+    "dur": 2.448,
+    "en": "This is Part 4, Speaking.",
+    "ar": "هذا الجزء الرابع، المحادثة."
+   },
+   {
+    "start": 10.596,
+    "dur": 3.432,
+    "en": "Listen first, then say each line yourself.",
+    "ar": "استمع أوّلاً، ثمّ قل كلّ سطر بنفسك."
+   },
+   {
+    "start": 14.378,
+    "dur": 3.096,
+    "en": "First, listen to the whole conversation.",
+    "ar": "أوّلاً، استمع إلى المحادثة كاملة."
+   },
+   {
+    "start": 17.824,
+    "dur": 2.832,
+    "en": "Good morning. How can I help you?",
+    "ar": "صباح الخير. كيف يمكنني مساعدتك؟"
+   },
+   {
+    "start": 21.006,
+    "dur": 2.52,
+    "en": "My car needs a service.",
+    "ar": "سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 23.876,
+    "dur": 2.832,
+    "en": "Of course. What is the problem?",
+    "ar": "بالتأكيد. ما المشكلة؟"
+   },
+   {
+    "start": 27.058,
+    "dur": 2.256,
+    "en": "It's making a noise.",
+    "ar": "إنّها تُصدر صوتاً."
+   },
+   {
+    "start": 29.664,
+    "dur": 3.744,
+    "en": "I'll write a job card. Can you leave the car today?",
+    "ar": "سأكتب بطاقة عمل. هل يمكنك ترك السيارة اليوم؟"
+   },
+   {
+    "start": 33.758,
+    "dur": 4.968,
+    "en": "Now you are the service advisor. Say each line, then listen to me.",
+    "ar": "الآن أنت مستشار الخدمة. قل كلّ سطر، ثمّ استمع إليّ."
+   },
+   {
+    "start": 39.076,
+    "dur": 3.912,
+    "en": "Your turn. Greet the customer, and offer help.",
+    "ar": "دورك. حيِّ الزبون، واعرض المساعدة."
+   },
+   {
+    "start": 48.694,
+    "dur": 2.832,
+    "en": "Good morning. How can I help you?",
+    "ar": "صباح الخير. كيف يمكنني مساعدتك؟"
+   },
+   {
+    "start": 51.876,
+    "dur": 2.52,
+    "en": "My car needs a service.",
+    "ar": "سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 54.746,
+    "dur": 2.976,
+    "en": "Your turn. Ask about the problem.",
+    "ar": "دورك. اسأل عن المشكلة."
+   },
+   {
+    "start": 62.663,
+    "dur": 2.832,
+    "en": "Of course. What is the problem?",
+    "ar": "بالتأكيد. ما المشكلة؟"
+   },
+   {
+    "start": 65.845,
+    "dur": 2.256,
+    "en": "It's making a noise.",
+    "ar": "إنّها تُصدر صوتاً."
+   },
+   {
+    "start": 68.451,
+    "dur": 3.312,
+    "en": "Your turn. Say you will write a job card.",
+    "ar": "دورك. قل إنّك ستكتب بطاقة عمل."
+   },
+   {
+    "start": 77.175,
+    "dur": 3.744,
+    "en": "I'll write a job card. Can you leave the car today?",
+    "ar": "سأكتب بطاقة عمل. هل يمكنك ترك السيارة اليوم؟"
+   },
+   {
+    "start": 81.269,
+    "dur": 3.432,
+    "en": "Now practise with a partner, then swap roles.",
+    "ar": "الآن تدرّب مع زميل، ثمّ تبادلا الأدوار."
+   },
+   {
+    "start": 85.051,
+    "dur": 3.12,
+    "en": "Last, three questions to talk about.",
+    "ar": "أخيراً، ثلاثة أسئلة للنقاش."
+   },
+   {
+    "start": 88.521,
+    "dur": 2.352,
+    "en": "What car does your family have?",
+    "ar": "ما السيارة التي تملكها عائلتك؟"
+   },
+   {
+    "start": 95.697,
+    "dur": 3.096,
+    "en": "You can say: We have a small family car.",
+    "ar": "يمكنك أن تقول: لدينا سيارة عائلية صغيرة."
+   },
+   {
+    "start": 99.143,
+    "dur": 3.072,
+    "en": "Do you like working on cars? Why?",
+    "ar": "هل تحبّ العمل على السيارات؟ لماذا؟"
+   },
+   {
+    "start": 107.156,
+    "dur": 3.84,
+    "en": "You can say: I like it because every car is different.",
+    "ar": "يمكنك أن تقول: أحبّه لأنّ كلّ سيارة مختلفة."
+   },
+   {
+    "start": 111.346,
+    "dur": 2.952,
+    "en": "What jobs are there in a service department?",
+    "ar": "ما الوظائف في قسم الصيانة؟"
+   },
+   {
+    "start": 119.886,
+    "dur": 3.672,
+    "en": "A mechanic, a service advisor, and a manager.",
+    "ar": "ميكانيكي، ومستشار خدمة، ومدير."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 20.144,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 28.452,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 68.751,
+    "hold": 8.37,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 77.175,
+    "hold": 3.64,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 87.021,
+    "hold": 11.37,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 98.443,
+    "hold": 12.19,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 110.796,
+    "hold": 9.04,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "useful",
+   "at": 33.558,
+   "end": 84.801,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.44133
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 33.558,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Useful language",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.558,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "لغة مفيدة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "How can I help you?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "كيف يمكنني مساعدتك؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "What is the problem?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ما المشكلة؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.56793,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "I'll write a job card.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.60633,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "سأكتب بطاقة عمل.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.64907,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "When will it be ready?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.758,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.68748,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "متى ستكون جاهزة؟",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "frames",
+   "at": 84.851,
+   "end": 124.558,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.44133
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 84.851,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Talk about it",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 84.851,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "تحدّث عنه",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "We have a...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "لدينا...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "I like... because...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أحبّ... لأنّ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.56793,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A mechanic...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.60633,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الميكانيكي...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.64907,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A service advisor...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.051,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.68748,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "مستشار الخدمة...",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

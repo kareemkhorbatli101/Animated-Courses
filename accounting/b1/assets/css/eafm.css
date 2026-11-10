@@ -1,0 +1,105 @@
+/* ============================================================
+   English for Accounting and Financial Management B1 — eafm.css
+
+   This course's own rules, loaded AFTER app.css. app.css stays a
+   byte-identical copy of the Cybersecurity B1 engine stylesheet, so that
+   tools/check-shared.cjs can prove the engine was copied and not forked;
+   anything this course needs that the engine does not have belongs here.
+
+   Two things live here:
+     1. the colour tokens, retinted from teal to slate-and-ochre;
+     2. the unit hub's section list, which the engine has no markup for.
+   ============================================================ */
+
+/* ---- 1. tokens ------------------------------------------------------- */
+:root {
+  --primary:      #1f4e5f;
+  --primary-2:    #17404f;
+  --primary-soft: #e8f1f5;
+  --accent:       #9a5b13;
+  --accent-soft:  #faf5ec;
+}
+:root[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --primary-soft: #16313b;
+  --accent-soft:  #2b2318;
+}
+
+/* ---- 2. the unit hub's section list ---------------------------------- */
+/* The engine has no list-of-links component: the cybersecurity hub writes
+   its own markup inline. Without these rules the rows render as inline
+   anchors and run into one another, so a section title and the next
+   section's title read as one sentence. */
+.sec-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  margin-top: 10px;
+}
+.sec-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 13px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid transparent;
+  transition: background .12s ease, border-color .12s ease;
+}
+.sec-row + .sec-row { border-top: 1px solid var(--rule, #d7dce2); border-radius: 9px; }
+.sec-row:hover,
+.sec-row:focus-visible {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  outline: none;
+}
+.sec-label {
+  font-weight: 600;
+  line-height: 1.45;
+}
+.sec-tag {
+  flex: 0 0 auto;
+  font: 600 12px/1 system-ui, sans-serif;
+  color: var(--text-2, #5b6470);
+  background: var(--band, #eef3f5);
+  border-radius: 999px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+/* a finished section is marked, not just counted */
+.sec-row .sec-tag:first-letter { font-size: 13px; }
+
+/* ---- 3. the speaker on a sortable chip -------------------------------
+   Added with `sayChips` in components.js, for the two sorts whose columns
+   are SOUNDS. Without it a learner is asked to sort by ear with nothing to
+   listen to. */
+.chip-say {
+  border: 0;
+  background: transparent;
+  color: var(--primary, #1f4e5f);
+  cursor: pointer;
+  padding: 0 0 0 6px;
+  margin-left: 2px;
+  line-height: 1;
+  vertical-align: -1px;
+  opacity: .66;
+  transition: opacity .12s ease;
+}
+.chip-say:hover,
+.chip-say:focus-visible { opacity: 1; outline: none; }
+.chip-say svg { display: inline-block; }
+
+/* ---- 4. the glossary grid on the hub --------------------------------- */
+.card-body .cols > div { margin-bottom: 14px; }
+[dir="rtl"] { text-align: right; }
+
+/* Arabic ink runs about 1.2x the type size against English's 0.92, so a
+   single shared line-height collides wrapped Arabic. */
+[lang="ar"] { line-height: 1.95; }
+
+@media (max-width: 620px) {
+  .sec-row { flex-direction: column; align-items: flex-start; gap: 6px; }
+}

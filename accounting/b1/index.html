@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accounting &amp; Finance B1 — English for NGO finance teams</title>
+<meta name="description" content="A B1 English course taught entirely through NGO accounting and financial management. Interactive sections, animated scenes, English and Arabic subtitles. Works with no internet.">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/eafm.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='7' y='5' width='34' height='38' rx='4' fill='%231f4e5f'/%3E%3Crect x='13' y='11' width='22' height='3' rx='1.5' fill='%23fdfbf6'/%3E%3Crect x='13' y='19' width='22' height='3' rx='1.5' fill='%239a5b13'/%3E%3Crect x='13' y='27' width='14' height='3' rx='1.5' fill='%23fdfbf6'/%3E%3Crect x='13' y='35' width='18' height='3' rx='1.5' fill='%23fdfbf6'/%3E%3C/svg%3E">
+<script>window.EAFM_BASE='';</script>
+<script src="assets/js/art.js"></script>
+<script src="assets/js/art-eafm.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/scene.js"></script>
+</head>
+<body>
+<noscript><p style="padding:40px;font:600 16px system-ui">This course needs JavaScript. Please enable it and reload.</p></noscript>
+<script>
+(function () {
+  var U = EAFM.util, el = U.el, art = EAFM.art, P = EAFM.progress;
+  EAFM.chrome = { refresh: function () {} };
+
+  /* The ten units of the book. `live` is set on the ones that are built;
+     everything else is stated as planned, with the grammar it will carry,
+     because a card that promises an experience the site cannot give is the
+     quickest way to lose a learner. */
+  var UNITS = [
+    { n: 1, t: 'Working in the Finance Team', live: true,
+      g: 'Present simple and present continuous',
+      b: 'Who the finance team is, what a finance officer does every day, and the five stages of the finance cycle.' },
+    { n: 2, t: 'Recording What Happened', live: true,
+      g: 'Past simple and past continuous',
+      b: 'The month-end close, and one transaction travelling from a receipt through the journal to the ledger.' },
+    { n: 3, t: 'Comparing Budget and Actuals', g: 'Comparatives and superlatives',
+      b: 'What was planned against what was spent, and the language of difference.' },
+    { n: 4, t: 'Funds, Amounts and Resources', g: 'Quantifiers and countability',
+      b: 'How much, how many, and the words for money that cannot be counted.' },
+    { n: 5, t: 'Budgets, Forecasts and Plans', g: 'Future forms',
+      b: 'Planning money that has not arrived yet.' },
+    { n: 6, t: 'Financial Rules and Controls', g: 'Modals of obligation',
+      b: 'Must, should and have to — the language of a control.' },
+    { n: 7, t: 'How Financial Processes Work', g: 'The passive',
+      b: 'Procure to pay, described the way a procedure is described.' },
+    { n: 8, t: 'The Story So Far — Reports and Results', g: 'Present perfect',
+      b: 'What has happened so far this year, and how to say it.' },
+    { n: 9, t: 'If Things Change — Risk and Contingency', g: 'Conditionals',
+      b: 'If the exchange rate moves, what happens to the budget?' },
+    { n: 10, t: 'Making it Better — Advice and Improvement', g: 'Advice and recommendation',
+      b: 'Saying what an organisation could do differently, without saying anybody was wrong.' }
+  ];
+
+  /* topbar */
+  var bar = el('header', 'topbar'), w1 = el('div', 'wrap');
+  var brand = el('a', 'brand'); brand.href = 'index.html';
+  brand.innerHTML = art.logo() + '<span>' + EAFM.COURSE.name + '</span>';
+  w1.appendChild(brand);
+  w1.appendChild(el('div', 'spacer'));
+  var tools = el('div', 'tb-tools');
+  var th = el('button', 'btn btn-sm btn-ghost', art.icon('moon', 16));
+  th.title = 'Light / dark theme'; th.onclick = EAFM.toggleTheme; tools.appendChild(th);
+  var tc = el('a', 'btn btn-sm btn-ghost', art.icon('book', 16) + '<span class="hide-sm">Answer key</span>');
+  tc.href = 'teacher/answers-unit1.html'; tools.appendChild(tc);
+  w1.appendChild(tools); bar.appendChild(w1); document.body.appendChild(bar);
+
+  var main = el('main', 'page-main'), wrap = el('div', 'wrap');
+
+  /* hero */
+  var hero = el('div', 'page-head');
+  hero.innerHTML =
+    '<div class="eyebrow">English for NGO finance teams · CEFR B1</div>' +
+    '<h1 style="font-size:clamp(30px,5vw,50px)">Accounting &amp; Finance B1</h1>' +
+    '<p style="font-size:18px;max-width:72ch;color:var(--text-2)">' +
+    'A B1 English course in which every reading, conversation, grammar point and exercise lives inside ' +
+    'one world — the finance office of an aid organisation in Damascus. Built from the ten-unit ' +
+    '<i>English for Accounting and Financial Management</i> student book: the same texts, the same ' +
+    'exercises, the same answers, made interactive.</p>';
+  wrap.appendChild(hero);
+
+  /* features */
+  var feats = el('div', 'grid-cards');
+  feats.style.marginBottom = '26px';
+  [
+    ['face', 'Animated scenes',
+     'Every reading and conversation plays as a scene: the book’s own people on a stage, with moving lips and cue cards that appear on the word they illustrate.'],
+    ['sound', 'English + Arabic subtitles',
+     'Two subtitle tracks you switch on and off independently, with loop-a-line and 0.6× speed. The Arabic is written for this course — the book has none.'],
+    ['check', 'Nothing left out',
+     'Every exercise in the book unit is implemented, and a coverage manifest on each unit page proves it, line by line.'],
+    ['shield', 'Works with no internet',
+     'Static HTML, CSS and JavaScript. No server, no build, no accounts, no telemetry. Your answers stay in your own browser.']
+  ].forEach(function (f) {
+    var c = el('div', 'ucard');
+    c.innerHTML = '<div class="bd"><div style="color:var(--primary);margin-bottom:8px">' +
+      art.icon(f[0], 26) + '</div><h3>' + U.esc(f[1]) + '</h3><p>' + U.esc(f[2]) + '</p></div>';
+    feats.appendChild(c);
+  });
+  wrap.appendChild(feats);
+
+  /* units */
+  wrap.appendChild(el('h2', '', 'The ten units'));
+  var liveN = UNITS.filter(function (u2) { return u2.live; }).length;
+  wrap.appendChild(el('p', 'wc',
+    liveN + ' of the ten units are built and live. The rest are planned on the same template — ' +
+    'every unit of this book has the same eleven parts and the same number of exercises, so a unit is ' +
+    'content rather than engineering.'));
+
+  var grid = el('div', 'grid-cards');
+  UNITS.forEach(function (u2) {
+    var card = u2.live ? el('a', 'ucard') : el('div', 'ucard');
+    if (u2.live) card.href = 'unit' + u2.n + '/index.html';
+    var done = '';
+    if (u2.live) {
+      var rows = (EAFM.unitMaps || {})['unit' + u2.n] || [];
+      var d = 0, tot = 0;
+      rows.forEach(function (r) {
+        tot += r.n || 0;
+        var p = P.all[r.id];
+        if (p) for (var k in p.cards) if (p.cards.hasOwnProperty(k) && p.cards[k].done) d++;
+      });
+      done = tot ? (' · ' + d + '/' + tot + ' done') : '';
+    }
+    card.innerHTML =
+      '<div class="top' + (u2.live ? '' : ' soon') + '"><span class="n">' + u2.n + '</span></div>' +
+      '<div class="bd"><h3>' + U.esc(u2.t) + '</h3><p>' + U.esc(u2.b) + '</p>' +
+      '<span class="tag' + (u2.live ? '' : ' soon') + '">' +
+      (u2.live ? ('Live' + done) : 'Planned') + '</span> ' +
+      '<span class="bookchip">' + U.esc(u2.g) + '</span></div>';
+    if (!u2.live) card.style.opacity = '.62';
+    grid.appendChild(card);
+  });
+  wrap.appendChild(grid);
+
+  /* how to use */
+  var how = el('div', 'card');
+  var hb = el('div', 'card-body');
+  hb.style.paddingTop = '22px';
+  hb.innerHTML = '<div class="eyebrow">How to use it</div>' +
+    '<div class="cols" style="margin-top:10px">' +
+    '<div><b>Learners</b><p class="wc">Open a unit and work down the list. Each section is five to ten minutes. ' +
+    'Every activity has <b>Check answers</b>, <b>Try again</b>, a <b>Hint</b> and <b>Show me</b> once you have tried. ' +
+    'Your work saves itself in this browser.</p></div>' +
+    '<div><b>Teachers</b><p class="wc">The book instruction is printed on every card, so the pair and group ' +
+    'versions can still be run in class. The teacher page holds the full answer key.</p></div>' +
+    '<div><b>Everybody</b><p class="wc">Every drag also works by clicking: click the word, then click where it goes. ' +
+    'Everything works by keyboard. Press <b>?</b> on a page for the shortcuts, and use the print button for a ' +
+    'paper worksheet.</p></div>' +
+    '</div>';
+  var row = el('div', 'btn-row');
+  var go = el('a', 'btn btn-primary btn-lg', art.icon('play', 16) + 'Open Unit 1');
+  go.href = 'unit1/index.html'; row.appendChild(go);
+  var g2 = el('a', 'btn btn-lg', art.icon('play', 16) + 'Open Unit 2');
+  g2.href = 'unit2/index.html'; row.appendChild(g2);
+  hb.appendChild(row); how.appendChild(hb); wrap.appendChild(how);
+
+  var cr = el('p', 'wc');
+  cr.style.marginTop = '24px';
+  cr.innerHTML = 'Built from <i>English for Accounting and Financial Management B1</i>. ' +
+    'All text and all exercises are the author’s own and are used unchanged; every sentence this site ' +
+    'shows as his is checked against the student book by <code>tools/check-book.cjs</code>. ' +
+    'The drawings, the Arabic and the interaction are new.';
+  wrap.appendChild(cr);
+
+  main.appendChild(wrap); document.body.appendChild(main);
+}());
+</script>
+</body>
+</html>

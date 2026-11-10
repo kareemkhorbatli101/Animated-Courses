@@ -1,0 +1,400 @@
+/* ============================================================
+   Unit 2 — the animated scenes.
+
+   Seven scenes: the opening Read, the two recorded conversations, the two
+   extended readings, the stakeholder track and the consolidation text.
+
+   Every English line is the book's own sentence, unaltered; the site
+   chooses only where a sentence appears and how its neighbours are
+   grouped. tools/check-book.cjs fails the build on anything else.
+
+   Every line carries `ar`, newly written: standard Arabic, not dialect,
+   case tanween stripped, only the disambiguating vowel marked.
+   ============================================================ */
+
+var U2CAST = {
+  fadi:    { rig: 'm-30s-a', name: 'Fadi',       at: [0.32, 0.54], voice: 'm', pitch: 0.96 },
+  samah:   { rig: 'f-20s-a', name: 'Samah',      at: [0.68, 0.54], voice: 'f', pitch: 1.10 },
+  haytham: { rig: 'm-50s-b', name: 'Mr Haytham', at: [0.70, 0.54], voice: 'm', pitch: 0.84 },
+  layth:   { rig: 'm-50s-a', name: 'Layth',      at: [0.70, 0.54], voice: 'm', pitch: 0.88 },
+  narr:    { rig: 'f-30s-a', name: 'Reader',     at: [0.50, 0.54], voice: 'f', pitch: 1.02 }
+};
+
+/* ---------------------------------------------------------------
+   The opening Read.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-read-past', {
+  set: 'office',
+  cast: { narr: U2CAST.narr },
+  lines: [
+    { who: 'narr', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Accounting is the story of the past. Every day, an organisation spends money and receives money.',
+      ar: 'المحاسبة هي قصة الماضي. كل يوم تنفق المنظمة مالا وتستقبل مالا.' },
+    { who: 'narr', face: 'neutral',
+      en: 'The finance team writes down each of these events. We call each event a transaction, and we record it as soon as it happens.',
+      ar: 'يدون الفريق المالي كلا من هذه الأحداث. ونسمي كل حدث عملية، ونسجله فور حدوثه.',
+      card: { img: 'transaction', en: 'a transaction', ar: 'عملية مالية' } },
+    { who: 'narr', face: 'neutral',
+      en: 'Last month, Fadi recorded many transactions. He wrote each one in the journal, in date order.',
+      ar: 'في الشهر الماضي سجل فادي عمليات كثيرة. كتب كلا منها في اليومية بترتيب التاريخ.',
+      card: { img: 'journal', en: 'the journal', ar: 'دفتر اليومية' } },
+    { who: 'narr', face: 'thinking',
+      en: 'At the end of the month, he did something important. He closed the books. This work is the month-end.',
+      ar: 'وفي نهاية الشهر فعل شيئا مهما: أغلق الدفاتر. وهذا العمل هو إقفال نهاية الشهر.',
+      card: { img: 'month-end', en: 'the month-end', ar: 'نهاية الشهر' } },
+    { who: 'narr', face: 'neutral',
+      en: 'During the month-end, Fadi checked every entry. He posted the entries to the ledger.',
+      ar: 'خلال نهاية الشهر تفقد فادي كل قيد، ورحل القيود إلى دفتر الأستاذ.',
+      card: { img: 'posting', en: 'posting', ar: 'الترحيل' } },
+    { who: 'narr', face: 'neutral',
+      en: 'Then he prepared a statement of the income and the expense. Yesterday, he finished the whole process.',
+      ar: 'ثم أعد بيانا بالإيرادات والمصروفات. وبالأمس أنهى العملية كلها.',
+      card: { img: 'statement', en: 'a statement', ar: 'بيان مالي' } },
+    { who: 'narr', face: 'warm',
+      en: 'While he was working late, his manager brought him a coffee. Fadi smiled and continued.',
+      ar: 'وبينما كان يعمل حتى وقت متأخر، أحضر له مديره قهوة. فابتسم فادي وتابع.' },
+    { who: 'narr', face: 'thinking',
+      en: 'He knew that a clean record protects the organisation. This unit uses the past simple, because accounting looks back.',
+      ar: 'كان يعرف أن السجل النظيف يحمي المنظمة. وتستخدم هذه الوحدة الماضي البسيط، لأن المحاسبة تنظر إلى الوراء.' },
+    { who: 'narr', face: 'neutral',
+      en: 'It records what happened, so that everybody trusts the numbers. Last month gave Fadi many examples.',
+      ar: 'إنها تسجل ما حدث، كي يثق الجميع بالأرقام. وقد أعطى الشهر الماضي فادي أمثلة كثيرة.' },
+    { who: 'narr', face: 'neutral',
+      en: 'He recorded, he checked, and he reported. Every task belonged to the past.',
+      ar: 'سجل، وتحقق، وقدم تقريرا. وكل مهمة كانت تنتمي إلى الماضي.' },
+    { who: 'narr', face: 'warm',
+      en: 'So the past simple was the natural tense for his work.',
+      ar: 'لذلك كان الماضي البسيط هو الزمن الطبيعي لعمله.' }
+  ]
+});
+
+/* ---------------------------------------------------------------
+   Audio 2.2 — Mr Haytham asks Fadi about the month-end close.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-haytham', {
+  set: 'office',
+  cast: { fadi: U2CAST.fadi, haytham: U2CAST.haytham },
+  lines: [
+    { who: 'haytham', face: 'neutral', cam: { shot: 'two' },
+      en: 'Fadi, how did the month-end go? Did you finish everything?',
+      ar: 'فادي، كيف سارت نهاية الشهر؟ هل أنهيت كل شيء؟' },
+    { who: 'fadi', face: 'warm', cam: { shot: 'mid' },
+      en: 'Yes, I finished it yesterday. It was a long day.',
+      ar: 'نعم، أنهيتها بالأمس. كان يوما طويلا.' },
+    { who: 'haytham', face: 'thinking', cam: { shot: 'cu' },
+      en: 'Did you find any problems?',
+      ar: 'هل وجدت أي مشكلات؟' },
+    { who: 'fadi', face: 'worried', cam: { shot: 'mid' },
+      en: 'I found two small mistakes. A colleague posted an expense to the wrong account.',
+      ar: 'وجدت خطأين صغيرين. رحل أحد الزملاء مصروفا إلى الحساب الخطأ.',
+      card: { img: 'account', en: 'the wrong account', ar: 'الحساب الخطأ' } },
+    { who: 'haytham', face: 'neutral', cam: { shot: 'cu' },
+      en: 'Did you correct it?',
+      ar: 'هل صححته؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Yes, I corrected it at once. Then every debit matched a credit.',
+      ar: 'نعم، صححته فورا. وعندها طابق كل مدين دائنا.',
+      card: { img: 't-accounts', en: 'debit matched credit', ar: 'تطابق المدين والدائن' } },
+    { who: 'haytham', face: 'warm', cam: { shot: 'two' },
+      en: 'Good. And the cash?',
+      ar: 'جيد. وماذا عن النقد؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'I reconciled it. While I was counting, Samah brought the last receipt.',
+      ar: 'طابقته. وبينما كنت أعد، أحضرت سماح آخر إيصال.',
+      card: { img: 'receipt', en: 'the last receipt', ar: 'آخر إيصال' } },
+    { who: 'haytham', face: 'thinking', cam: { shot: 'cu' },
+      en: 'So you added it to the journal?',
+      ar: 'إذا أضفته إلى اليومية؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Exactly. I added it and I posted it. Then I prepared the statement.',
+      ar: 'بالضبط. أضفته ورحلته. ثم أعددت البيان.' },
+    { who: 'haytham', face: 'warm', cam: { shot: 'two' },
+      en: 'Excellent work. The record looks clean.',
+      ar: 'عمل ممتاز. السجل يبدو نظيفا.' },
+    { who: 'fadi', face: 'warm', cam: { shot: 'two' },
+      en: 'Thank you. Every expense had a receipt, and the numbers agreed.',
+      ar: 'شكرا لك. كان لكل مصروف إيصال، وتطابقت الأرقام.' }
+  ]
+});
+
+/* ---------------------------------------------------------------
+   Audio 2.3 — Samah asks Fadi how he recorded one transaction.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-samah', {
+  set: 'office',
+  cast: { fadi: U2CAST.fadi, samah: U2CAST.samah },
+  lines: [
+    { who: 'samah', face: 'thinking', cam: { shot: 'two' },
+      en: "Fadi, what did you do with Karim's fuel receipt yesterday?",
+      ar: 'فادي، ماذا فعلت بإيصال وقود كريم بالأمس؟',
+      card: { img: 'receipt', en: 'the fuel receipt', ar: 'إيصال الوقود' } },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'First, I checked it. I looked at the date, the amount, and the reason.',
+      ar: 'أولا تحققت منه. نظرت إلى التاريخ والمبلغ والسبب.' },
+    { who: 'samah', face: 'neutral', cam: { shot: 'cu' },
+      en: 'And then?',
+      ar: 'وبعد ذلك؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Then I asked for the voucher. It showed that a manager approved the expense.',
+      ar: 'ثم طلبت السند. وقد أظهر أن مديرا اعتمد المصروف.',
+      card: { img: 'voucher', en: 'the voucher', ar: 'السند' } },
+    { who: 'samah', face: 'thinking', cam: { shot: 'cu' },
+      en: 'Did you record it straight away?',
+      ar: 'هل سجلته على الفور؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Yes. I opened the journal and I wrote the entry. I debited fuel and credited cash.',
+      ar: 'نعم. فتحت اليومية وكتبت القيد. جعلت الوقود مدينا والنقد دائنا.',
+      card: { img: 'entry', en: 'the entry', ar: 'القيد' } },
+    { who: 'samah', face: 'surprised', cam: { shot: 'cu' },
+      en: 'Were the two sides equal?',
+      ar: 'هل كان الجانبان متساويين؟' },
+    { who: 'fadi', face: 'warm', cam: { shot: 'mid' },
+      en: 'Of course. Eighty dollars on each side. They are always equal.',
+      ar: 'بالطبع. ثمانون دولارا على كل جانب. إنهما متساويان دائما.',
+      card: { img: 't-accounts', en: 'always equal', ar: 'متساويان دائما' } },
+    { who: 'samah', face: 'thinking', cam: { shot: 'two' },
+      en: 'What happened after the journal?',
+      ar: 'ماذا حدث بعد اليومية؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'I did the posting. I moved the entry to the ledger and I updated both accounts.',
+      ar: 'قمت بالترحيل. نقلت القيد إلى دفتر الأستاذ وحدثت الحسابين.',
+      card: { img: 'posting', en: 'the posting', ar: 'الترحيل' } },
+    { who: 'samah', face: 'warm', cam: { shot: 'two' },
+      en: 'So one small receipt became one clear entry.',
+      ar: 'إذا صار إيصال صغير واحد قيدا واضحا واحدا.' },
+    { who: 'fadi', face: 'warm', cam: { shot: 'two' },
+      en: 'Exactly. That is how we protect the truth.',
+      ar: 'بالضبط. هكذا نحمي الحقيقة.' }
+  ]
+});
+
+/* ---------------------------------------------------------------
+   Reading A — The Month-End Close.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-reading-a', {
+  set: 'office',
+  cast: { narr: U2CAST.narr },
+  lines: [
+    { who: 'narr', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Last month was a very busy month for Fadi. His office managed three separate projects at the same time.',
+      ar: 'كان الشهر الماضي شهرا مزدحما جدا بالنسبة لفادي. فقد أدار مكتبه ثلاثة مشاريع منفصلة في الوقت نفسه.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Every day, money came in and money went out. Fadi carefully documented every single transaction.',
+      ar: 'كل يوم كان المال يدخل ويخرج. ووثق فادي بعناية كل عملية على حدة.' },
+    { who: 'narr', face: 'neutral',
+      en: 'He recorded each payment and each receipt in the journal. By the end of the month, the journal contained two hundred separate entries.',
+      ar: 'سجل كل دفعة وكل إيصال في اليومية. وبنهاية الشهر كانت اليومية تضم مئتي قيد منفصل.',
+      card: { img: 'journal', en: 'two hundred entries', ar: 'مئتا قيد' } },
+    { who: 'narr', face: 'thinking',
+      en: 'Then came the most demanding task of all: the month-end close. On the last day, Fadi arrived early.',
+      ar: 'ثم جاءت أشق المهام جميعا: إقفال نهاية الشهر. وفي اليوم الأخير وصل فادي باكرا.',
+      card: { img: 'month-end', en: 'the month-end close', ar: 'إقفال نهاية الشهر' } },
+    { who: 'narr', face: 'neutral',
+      en: 'He prepared a cup of coffee, and he opened his detailed files. First, he checked every entry in the journal.',
+      ar: 'أعد فنجان قهوة، وفتح ملفاته المفصلة. أولا، تفقد كل قيد في اليومية.' },
+    { who: 'narr', face: 'worried',
+      en: 'He searched for mistakes, and he found two small ones. A tired colleague posted one expense to the wrong account.',
+      ar: 'بحث عن الأخطاء فوجد خطأين صغيرين. فقد رحل زميل متعب مصروفا إلى الحساب الخطأ.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Fadi corrected it calmly. Next, he transferred all the entries to the ledger.',
+      ar: 'صححه فادي بهدوء. بعد ذلك نقل كل القيود إلى دفتر الأستاذ.',
+      card: { img: 'ledger', en: 'the ledger', ar: 'دفتر الأستاذ' } },
+    { who: 'narr', face: 'neutral',
+      en: 'Every debit matched a credit, so the numbers agreed. After that, Fadi reconciled the cash and the bank.',
+      ar: 'طابق كل مدين دائنا، فتطابقت الأرقام. بعد ذلك طابق فادي النقد والمصرف.',
+      card: { img: 'reconcile', en: 'reconciled', ar: 'طابق' } },
+    { who: 'narr', face: 'warm',
+      en: 'While he was counting the cash, Samah brought him the last receipt. He added it to the journal, and he posted it too.',
+      ar: 'وبينما كان يعد النقد، أحضرت له سماح آخر إيصال. فأضافه إلى اليومية ورحله أيضا.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Finally, Fadi prepared a clear financial statement. The statement displayed the total income and the total expense for the whole month.',
+      ar: 'وأخيرا أعد فادي بيانا ماليا واضحا. أظهر البيان إجمالي الإيرادات وإجمالي المصروفات للشهر كله.',
+      card: { img: 'statement', en: 'a financial statement', ar: 'بيان مالي' } },
+    { who: 'narr', face: 'neutral',
+      en: 'Fadi checked it twice. The income was clear, and every expense had a receipt.',
+      ar: 'تفقده فادي مرتين. كانت الإيرادات واضحة، وكان لكل مصروف إيصال.' },
+    { who: 'narr', face: 'warm',
+      en: 'Mr Haytham reviewed the statement in the afternoon. He smiled, because the work was clean and complete.',
+      ar: 'راجع السيد هيثم البيان بعد الظهر. وابتسم، لأن العمل كان نظيفا وكاملا.' },
+    { who: 'narr', face: 'warm',
+      en: 'Fadi felt tired but happy. He closed the books for another difficult month.',
+      ar: 'شعر فادي بالتعب لكنه كان سعيدا. أغلق الدفاتر لشهر صعب آخر.' },
+    { who: 'narr', face: 'thinking',
+      en: 'The record was completely honest, and the numbers told the true story. Later, Fadi reflected on the whole process.',
+      ar: 'كان السجل صادقا تماما، ورَوَت الأرقام القصة الحقيقية. وفي وقت لاحق تأمل فادي في العملية كلها.' },
+    { who: 'narr', face: 'thinking',
+      en: 'Every entry represented a real event in the organisation. Every receipt supported a real payment.',
+      ar: 'كان كل قيد يمثل حدثا حقيقيا في المنظمة. وكل إيصال يسند دفعة حقيقية.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Because of this discipline, the accounts described reality exactly. This accuracy, he understood, was the real purpose of his profession.',
+      ar: 'وبسبب هذا الانضباط، وصفت الحسابات الواقع تماما. وأدرك أن هذه الدقة هي الغاية الحقيقية من مهنته.' },
+    { who: 'narr', face: 'warm',
+      en: 'He closed his laptop slowly. Outside, the evening was quiet.',
+      ar: 'أغلق حاسوبه ببطء. وفي الخارج كان المساء هادئا.' },
+    { who: 'narr', face: 'warm',
+      en: 'Fadi felt the deep calm of a finished job. Another honest month now lived safely in the records.',
+      ar: 'شعر فادي بالسكينة العميقة لعمل مكتمل. وصار شهر صادق آخر يعيش بأمان في السجلات.' }
+  ]
+});
+
+/* ---------------------------------------------------------------
+   Reading B — The Journey of One Transaction.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-reading-b', {
+  set: 'office',
+  cast: { narr: U2CAST.narr },
+  lines: [
+    { who: 'narr', face: 'neutral', cam: { shot: 'mid' },
+      en: 'A single transaction tells a small but complete story. Last Tuesday, a driver named Karim needed fuel for the office car.',
+      ar: 'العملية الواحدة تروي قصة صغيرة لكنها كاملة. في الثلاثاء الماضي احتاج سائق اسمه كريم إلى وقود لسيارة المكتب.' },
+    { who: 'narr', face: 'neutral',
+      en: 'He drove to the station, and he filled the tank. He paid eighty dollars in cash.',
+      ar: 'قاد إلى المحطة وملأ الخزان. ودفع ثمانين دولارا نقدا.',
+      card: { img: 'cash', en: 'paid in cash', ar: 'دفع نقدا' } },
+    { who: 'narr', face: 'neutral',
+      en: 'The seller gave him a receipt, and Karim kept it safely. This receipt was very important.',
+      ar: 'أعطاه البائع إيصالا، واحتفظ به كريم بأمان. كان هذا الإيصال مهما جدا.',
+      card: { img: 'receipt', en: 'the receipt', ar: 'الإيصال' } },
+    { who: 'narr', face: 'thinking',
+      en: 'It proved that the payment really happened. The next morning, Karim brought the receipt to the finance office.',
+      ar: 'فقد أثبت أن الدفعة حدثت فعلا. وفي صباح اليوم التالي أحضر كريم الإيصال إلى المكتب المالي.' },
+    { who: 'narr', face: 'neutral',
+      en: 'He handed it to Fadi. First, Fadi looked at the receipt with care.',
+      ar: 'سلمه إلى فادي. أولا، نظر فادي إلى الإيصال بعناية.' },
+    { who: 'narr', face: 'neutral',
+      en: 'He checked the date, the amount, and the reason for the payment. Everything looked correct, so he accepted it.',
+      ar: 'تفقد التاريخ والمبلغ وسبب الدفعة. بدا كل شيء صحيحا، فقبله.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Then he asked Karim for the voucher. The voucher showed that a manager approved the expense.',
+      ar: 'ثم طلب من كريم السند. وأظهر السند أن مديرا اعتمد المصروف.',
+      card: { img: 'voucher', en: 'the voucher', ar: 'السند' } },
+    { who: 'narr', face: 'neutral',
+      en: 'With both papers in hand, Fadi started the record. He opened the journal, and he wrote a new entry.',
+      ar: 'وبالورقتين في يده بدأ فادي التسجيل. فتح اليومية وكتب قيدا جديدا.',
+      card: { img: 'journal', en: 'the journal', ar: 'اليومية' } },
+    { who: 'narr', face: 'neutral',
+      en: 'He debited the fuel account eighty dollars. Then he credited the cash account eighty dollars.',
+      ar: 'جعل حساب الوقود مدينا بثمانين دولارا. ثم جعل حساب النقد دائنا بثمانين دولارا.',
+      card: { img: 'debit', en: 'debited fuel', ar: 'الوقود مدين' } },
+    { who: 'narr', face: 'thinking',
+      en: 'The two sides were equal, as they always are. After the journal, Fadi did the posting.',
+      ar: 'كان الجانبان متساويين كعادتهما دائما. وبعد اليومية قام فادي بالترحيل.',
+      card: { img: 't-accounts', en: 'the two sides were equal', ar: 'تساوى الجانبان' } },
+    { who: 'narr', face: 'neutral',
+      en: 'He moved the entry to the ledger. He updated the fuel account, and he updated the cash account.',
+      ar: 'نقل القيد إلى دفتر الأستاذ. وحدث حساب الوقود وحدث حساب النقد.',
+      card: { img: 'posting', en: 'the posting', ar: 'الترحيل' } },
+    { who: 'narr', face: 'warm',
+      en: "Now the whole system knew about Karim's small payment. Later, at the month-end, this entry joined two hundred others.",
+      ar: 'والآن صار النظام كله يعرف بدفعة كريم الصغيرة. ولاحقا، في نهاية الشهر، انضم هذا القيد إلى مئتين غيره.' },
+    { who: 'narr', face: 'thinking',
+      en: 'Together, they formed the honest story of the month. Fadi enjoyed this quiet, careful work.',
+      ar: 'وشكلت معا القصة الصادقة للشهر. واستمتع فادي بهذا العمل الهادئ الدقيق.' },
+    { who: 'narr', face: 'warm',
+      en: 'One small receipt became one clear entry, and one clear entry protected the truth.',
+      ar: 'صار إيصال صغير واحد قيدا واضحا واحدا، وحمى القيد الواضح الحقيقة.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Because of this discipline, the organisation always knew exactly where its money went.',
+      ar: 'وبسبب هذا الانضباط عرفت المنظمة دائما أين ذهب مالها بالضبط.' },
+    { who: 'narr', face: 'thinking',
+      en: 'Fadi remembered his first month in the job. Back then, he worked slowly and he made small mistakes.',
+      ar: 'تذكر فادي شهره الأول في العمل. في ذلك الحين كان يعمل ببطء ويرتكب أخطاء صغيرة.' },
+    { who: 'narr', face: 'warm',
+      en: 'His manager showed him patience, and he taught him the correct method. Over time, Fadi grew faster and more accurate.',
+      ar: 'أبدى له مديره صبرا وعلمه الطريقة الصحيحة. ومع الوقت صار فادي أسرع وأدق.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Now he recorded a simple entry in a few minutes. But he never rushed the important checks.',
+      ar: 'صار يسجل قيدا بسيطا في دقائق قليلة. لكنه لم يتعجل أبدا في الفحوص المهمة.' },
+    { who: 'narr', face: 'thinking',
+      en: 'He knew that one careless entry could hide a real problem.',
+      ar: 'كان يعرف أن قيدا واحدا غير دقيق قد يخفي مشكلة حقيقية.' }
+  ]
+});
+
+/* ---------------------------------------------------------------
+   Audio 2.5 — Fadi reports last month's numbers to Layth.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-track', {
+  set: 'office',
+  cast: { fadi: U2CAST.fadi, layth: U2CAST.layth },
+  lines: [
+    { who: 'layth', face: 'thinking', cam: { shot: 'two' },
+      en: 'Fadi, how much did my project spend last month?',
+      ar: 'فادي، كم أنفق مشروعي الشهر الماضي؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'It spent twelve thousand dollars. I recorded every payment.',
+      ar: 'أنفق اثني عشر ألف دولار. وقد سجلت كل دفعة.',
+      card: { img: 'statement', en: 'twelve thousand dollars', ar: 'اثنا عشر ألف دولار' } },
+    { who: 'layth', face: 'neutral', cam: { shot: 'cu' },
+      en: 'What was the biggest cost?',
+      ar: 'ما أكبر تكلفة؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Fuel. The cars travelled a lot last month.',
+      ar: 'الوقود. فقد سافرت السيارات كثيرا الشهر الماضي.',
+      card: { img: 'expense', en: 'the biggest cost', ar: 'أكبر تكلفة' } },
+    { who: 'layth', face: 'thinking', cam: { shot: 'two' },
+      en: 'Did every cost have a receipt?',
+      ar: 'هل كان لكل تكلفة إيصال؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Yes. I checked each one. While I was checking, I found only one small mistake.',
+      ar: 'نعم. تفقدت كلا منها. وبينما كنت أتفقد، وجدت خطأ صغيرا واحدا فقط.' },
+    { who: 'layth', face: 'surprised', cam: { shot: 'cu' },
+      en: 'And you corrected it?',
+      ar: 'وهل صححته؟' },
+    { who: 'fadi', face: 'warm', cam: { shot: 'mid' },
+      en: 'Of course. Your record is now clean and complete.',
+      ar: 'بالطبع. سجلك الآن نظيف وكامل.' },
+    { who: 'layth', face: 'warm', cam: { shot: 'two' },
+      en: 'Thank you. So how much money is left?',
+      ar: 'شكرا لك. إذا كم بقي من المال؟' },
+    { who: 'fadi', face: 'neutral', cam: { shot: 'mid' },
+      en: 'Enough for the next two months. I updated the numbers this morning.',
+      ar: 'ما يكفي للشهرين القادمين. وقد حدثت الأرقام هذا الصباح.' }
+  ]
+});
+
+/* ---------------------------------------------------------------
+   Part 8 — the consolidation text.
+   --------------------------------------------------------------- */
+EAFM.scene('u2-consolidation', {
+  set: 'office',
+  cast: { narr: U2CAST.narr },
+  lines: [
+    { who: 'narr', face: 'neutral', cam: { shot: 'mid' },
+      en: 'We use the past simple to describe a completed action in the past. Most verbs are regular, so we simply add ed to the base form.',
+      ar: 'نستخدم الماضي البسيط لوصف فعل مكتمل في الماضي. ومعظم الأفعال منتظمة، فنضيف ببساطة ed إلى الصيغة الأساسية.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Fadi recorded the transaction. He checked the receipt. The team closed the books.',
+      ar: 'سجل فادي العملية. وتفقد الإيصال. وأغلق الفريق الدفاتر.' },
+    { who: 'narr', face: 'thinking',
+      en: 'Some important verbs are irregular, so we memorise them individually. Fadi wrote the entry. He gave the report to his manager.',
+      ar: 'وبعض الأفعال المهمة شاذة، فنحفظها واحدا واحدا. كتب فادي القيد. وأعطى التقرير لمديره.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Money came in, and money went out. To make a negative, we use did not, or the short form didn’t, with the base verb.',
+      ar: 'دخل المال وخرج المال. ولصياغة النفي نستخدم did not أو الصيغة المختصرة didn’t مع الفعل الأساسي.' },
+    { who: 'narr', face: 'neutral',
+      en: 'Fadi did not forget the receipt. He didn’t make a mistake. To make a question, we use did with the base verb.',
+      ar: 'لم ينس فادي الإيصال. ولم يرتكب خطأ. ولصياغة السؤال نستخدم did مع الفعل الأساسي.' },
+    { who: 'narr', face: 'surprised',
+      en: 'Did you post the entry? Did the numbers agree? Notice that we do not add ed after did.',
+      ar: 'هل رحلت القيد؟ هل تطابقت الأرقام؟ ولاحظ أننا لا نضيف ed بعد did.' },
+    { who: 'narr', face: 'neutral',
+      en: 'We say, did you check, not did you checked. We also use the past continuous for a longer action in progress in the past.',
+      ar: 'نقول did you check لا did you checked. ونستخدم أيضا الماضي المستمر لفعل أطول كان جاريا في الماضي.' },
+    { who: 'narr', face: 'neutral',
+      en: 'We form it with was or were, plus the verb and ing. Fadi was counting the cash when Samah arrived.',
+      ar: 'ونكونه بـ was أو were مع الفعل و ing. كان فادي يعد النقد عندما وصلت سماح.' },
+    { who: 'narr', face: 'thinking',
+      en: 'The team was working late last night. Often, the two tenses appear together.',
+      ar: 'كان الفريق يعمل حتى وقت متأخر الليلة الماضية. وكثيرا ما يظهر الزمنان معا.' },
+    { who: 'narr', face: 'neutral',
+      en: 'A short past-simple action interrupts a longer past-continuous one. While Fadi was posting the entries, the manager called.',
+      ar: 'فعل قصير في الماضي البسيط يقاطع فعلا أطول في الماضي المستمر. وبينما كان فادي يرحل القيود، اتصل المدير.' },
+    { who: 'narr', face: 'neutral',
+      en: 'With these two useful tenses, Fadi describes the entire story of the past.',
+      ar: 'وبهذين الزمنين المفيدين يصف فادي قصة الماضي كاملة.' },
+    { who: 'narr', face: 'warm',
+      en: 'Every finance officer needs these two tenses. They are the natural language of a careful record.',
+      ar: 'كل مسؤول مالي يحتاج إلى هذين الزمنين. فهما اللغة الطبيعية لسجل دقيق.' }
+  ]
+});

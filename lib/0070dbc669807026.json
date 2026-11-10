@@ -1,0 +1,306 @@
+{
+ "schema": "timeline/1",
+ "duration": 180.057,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 2.904,
+    "en": "This is Part 4, Role Play.",
+    "ar": "هذا الجزء الرابع، لعب الأدوار."
+   },
+   {
+    "start": 11.244,
+    "dur": 3.84,
+    "en": "You are the customer, and I am the service advisor.",
+    "ar": "أنت الزبون، وأنا مستشار الخدمة."
+   },
+   {
+    "start": 15.434,
+    "dur": 4.176,
+    "en": "Say your line in the quiet, then listen to one way to say it.",
+    "ar": "قل جملتك في الصمت، ثمّ استمع إلى طريقة لقولها."
+   },
+   {
+    "start": 19.96,
+    "dur": 3.576,
+    "en": "Good morning. How can I help you?",
+    "ar": "صباح الخير. كيف يمكنني مساعدتك؟"
+   },
+   {
+    "start": 23.886,
+    "dur": 4.896,
+    "en": "Your turn. Greet me, and say your car needs a service.",
+    "ar": "دورك. حيِّني، وقل إنّ سيارتك تحتاج إلى صيانة."
+   },
+   {
+    "start": 34.959,
+    "dur": 4.848,
+    "en": "You can say: Good morning. My car needs a service.",
+    "ar": "يمكنك أن تقول: صباح الخير. سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 40.157,
+    "dur": 3.648,
+    "en": "Of course. What is the problem?",
+    "ar": "بالتأكيد. ما المشكلة؟"
+   },
+   {
+    "start": 44.155,
+    "dur": 3.6,
+    "en": "Your turn. Say the problem.",
+    "ar": "دورك. قل ما المشكلة."
+   },
+   {
+    "start": 52.343,
+    "dur": 2.904,
+    "en": "You can say: It's making a noise.",
+    "ar": "يمكنك أن تقول: إنّها تُصدر صوتاً."
+   },
+   {
+    "start": 55.597,
+    "dur": 4.56,
+    "en": "I'll write a job card. Can you leave the car today?",
+    "ar": "سأكتب بطاقة عمل. هل يمكنك ترك السيارة اليوم؟"
+   },
+   {
+    "start": 60.507,
+    "dur": 4.944,
+    "en": "Your turn. Say yes, and ask when it will be ready.",
+    "ar": "دورك. قل نعم، واسأل متى ستكون جاهزة."
+   },
+   {
+    "start": 71.392,
+    "dur": 4.536,
+    "en": "You can say: Yes. When will it be ready?",
+    "ar": "يمكنك أن تقول: نعم. متى ستكون جاهزة؟"
+   },
+   {
+    "start": 76.278,
+    "dur": 2.76,
+    "en": "It will be ready this afternoon.",
+    "ar": "ستكون جاهزة بعد الظهر."
+   },
+   {
+    "start": 79.388,
+    "dur": 3.336,
+    "en": "Now again, but this time you are in a hurry.",
+    "ar": "الآن مرّة أخرى، لكنّك هذه المرّة مستعجل."
+   },
+   {
+    "start": 83.074,
+    "dur": 3.0,
+    "en": "And the workshop is very busy today.",
+    "ar": "والورشة مشغولة جدّاً اليوم."
+   },
+   {
+    "start": 86.424,
+    "dur": 3.576,
+    "en": "Good morning. How can I help you?",
+    "ar": "صباح الخير. كيف يمكنني مساعدتك؟"
+   },
+   {
+    "start": 90.35,
+    "dur": 5.4,
+    "en": "Your turn. Say your car needs a service, and you need it back quickly.",
+    "ar": "دورك. قل إنّ سيارتك تحتاج إلى صيانة، وإنّك تحتاجها بسرعة."
+   },
+   {
+    "start": 102.868,
+    "dur": 5.64,
+    "en": "You can say: My car needs a service. I need it back today, please.",
+    "ar": "يمكنك أن تقول: سيارتي تحتاج إلى صيانة. أحتاجها اليوم، من فضلك."
+   },
+   {
+    "start": 108.858,
+    "dur": 3.096,
+    "en": "I'm sorry, we are very busy today.",
+    "ar": "أنا آسف، نحن مشغولون جدّاً اليوم."
+   },
+   {
+    "start": 112.304,
+    "dur": 4.584,
+    "en": "It will be ready at five o'clock. Is that OK?",
+    "ar": "ستكون جاهزة في الساعة الخامسة. هل هذا مناسب؟"
+   },
+   {
+    "start": 117.238,
+    "dur": 4.776,
+    "en": "Your turn. Say yes, politely, and thank me.",
+    "ar": "دورك. قل نعم بلطف، واشكرني."
+   },
+   {
+    "start": 127.543,
+    "dur": 5.112,
+    "en": "You can say: Yes, that's fine. Thank you very much.",
+    "ar": "يمكنك أن تقول: نعم، هذا مناسب. شكراً جزيلاً."
+   },
+   {
+    "start": 133.005,
+    "dur": 3.144,
+    "en": "Now, a short talk about a car you know.",
+    "ar": "الآن، حديث قصير عن سيارة تعرفها."
+   },
+   {
+    "start": 136.499,
+    "dur": 3.768,
+    "en": "Say what it is, its main parts, and what you check.",
+    "ar": "قل ما هي، وما أجزاؤها الرئيسية، وما الذي تفحصه."
+   },
+   {
+    "start": 140.617,
+    "dur": 3.816,
+    "en": "Pause the video now, and talk for about one minute.",
+    "ar": "أوقف الفيديو الآن، وتحدّث لمدّة دقيقة تقريباً."
+   },
+   {
+    "start": 144.783,
+    "dur": 4.704,
+    "en": "Here is one possible talk. Yours can be different.",
+    "ar": "هذا حديث ممكن. حديثك يمكن أن يكون مختلفاً."
+   },
+   {
+    "start": 149.837,
+    "dur": 4.488,
+    "en": "I know this car well. It is a family car.",
+    "ar": "أعرف هذه السيارة جيّداً. إنّها سيارة عائلية."
+   },
+   {
+    "start": 154.675,
+    "dur": 2.712,
+    "en": "The engine makes the car move.",
+    "ar": "المحرّك يحرّك السيارة."
+   },
+   {
+    "start": 157.737,
+    "dur": 3.744,
+    "en": "The battery stores electricity to start the car.",
+    "ar": "البطارية تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 161.831,
+    "dur": 3.024,
+    "en": "The radiator keeps the engine cool.",
+    "ar": "الراديتير يُبقي المحرّك بارداً."
+   },
+   {
+    "start": 165.205,
+    "dur": 3.384,
+    "en": "Every week, I check the oil and the tyres.",
+    "ar": "كلّ أسبوع، أفحص الزيت والإطارات."
+   },
+   {
+    "start": 168.939,
+    "dur": 3.984,
+    "en": "Once a year, the car goes to the workshop for a service.",
+    "ar": "مرّة في السنة، تذهب السيارة إلى الورشة للصيانة."
+   },
+   {
+    "start": 173.273,
+    "dur": 5.184,
+    "en": "Well done. Now practise with a partner, and swap roles.",
+    "ar": "أحسنت. الآن تدرّب مع زميل، وتبادلا الأدوار."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 25.449,
+    "hold": 14.01,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 54.347,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 81.599,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 91.138,
+    "hold": 14.73,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 153.05,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 156.112,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 160.194,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 169.589,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

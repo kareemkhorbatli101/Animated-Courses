@@ -1,0 +1,243 @@
+{
+ "schema": "timeline/1",
+ "duration": 138.383,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.648,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 1, Introduction to the Vehicle.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.448,
+    "dur": 9.0,
+    "en": "This is Part 3, A Mechanic Talks About His Work. You will listen to a mechanic describe his day, then answer true or false.",
+    "ar": "هذا الجزء الثالث، ميكانيكي يتحدّث عن عمله. ستستمع إلى ميكانيكي يصف يومه، ثمّ تجيب بصح أو خطأ."
+   },
+   {
+    "start": 16.798,
+    "dur": 7.008,
+    "en": "Before you listen. What does a mechanic do first: read the job card, or start the engine?",
+    "ar": "قبل الاستماع. ماذا يفعل الميكانيكي أوّلاً؟"
+   },
+   {
+    "start": 31.806,
+    "dur": 5.064,
+    "en": "He reads the job card first. Listen, and you will hear it.",
+    "ar": "يقرأ بطاقة العمل أوّلاً. استمع، وستسمع ذلك."
+   },
+   {
+    "start": 37.22,
+    "dur": 5.256,
+    "en": "Hello, my name is Nabil. I am a mechanic at Cham Motors.",
+    "ar": "مرحباً، اسمي نبيل. أنا ميكانيكي في شام موتورز."
+   },
+   {
+    "start": 42.826,
+    "dur": 5.544,
+    "en": "I service and repair cars. First, I read the job card.",
+    "ar": "أقوم بصيانة السيارات وإصلاحها. أوّلاً، أقرأ بطاقة العمل."
+   },
+   {
+    "start": 48.72,
+    "dur": 6.048,
+    "en": "Right now, I am changing the oil. Tarek is working with me today.",
+    "ar": "الآن، أنا أغيّر الزيت. طارق يعمل معي اليوم."
+   },
+   {
+    "start": 55.118,
+    "dur": 4.584,
+    "en": "True or False. Nabil works in a bakery.",
+    "ar": "صح أم خطأ؟ نبيل يعمل في مخبز."
+   },
+   {
+    "start": 64.996,
+    "dur": 5.376,
+    "en": "False. Nabil works in a workshop, at Cham Motors.",
+    "ar": "خطأ. نبيل يعمل في ورشة، في شام موتورز."
+   },
+   {
+    "start": 70.722,
+    "dur": 5.112,
+    "en": "True or False. Nabil is changing the oil right now.",
+    "ar": "صح أم خطأ؟ نبيل يغيّر الزيت الآن."
+   },
+   {
+    "start": 81.834,
+    "dur": 5.424,
+    "en": "True. He said, right now, I am changing the oil.",
+    "ar": "صح. قال: الآن، أنا أغيّر الزيت."
+   },
+   {
+    "start": 87.608,
+    "dur": 4.272,
+    "en": "True or False. Nabil works alone.",
+    "ar": "صح أم خطأ؟ نبيل يعمل وحده."
+   },
+   {
+    "start": 96.821,
+    "dur": 4.104,
+    "en": "False. He works with Tarek today.",
+    "ar": "خطأ. هو يعمل مع طارق اليوم."
+   },
+   {
+    "start": 101.275,
+    "dur": 6.432,
+    "en": "Now, six more words from my work. Look at each thing before I say its name.",
+    "ar": "الآن، ستّ كلمات أخرى من عملي. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 108.057,
+    "dur": 4.68,
+    "en": "This is engine oil. I change it every few months.",
+    "ar": "هذا زيت المحرّك. أغيّره كلّ بضعة أشهر."
+   },
+   {
+    "start": 113.087,
+    "dur": 4.32,
+    "en": "This is the dipstick. It shows the oil level.",
+    "ar": "هذا مقياس الزيت. يُظهر مستوى الزيت."
+   },
+   {
+    "start": 117.757,
+    "dur": 4.68,
+    "en": "This is a spanner. I use it to turn nuts and bolts.",
+    "ar": "هذا مفتاح الربط. أستخدمه لفكّ الصواميل والبراغي وشدّها."
+   },
+   {
+    "start": 122.787,
+    "dur": 4.176,
+    "en": "This is a trolley jack. It lifts the car.",
+    "ar": "هذه رافعة متحرّكة. ترفع السيارة."
+   },
+   {
+    "start": 127.313,
+    "dur": 4.368,
+    "en": "These are gloves. They keep my hands safe.",
+    "ar": "هذه القفّازات. تحمي يديّ."
+   },
+   {
+    "start": 132.031,
+    "dur": 4.752,
+    "en": "These are safety glasses. They protect my eyes.",
+    "ar": "هذه نظّارات الأمان. تحمي عينيّ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 17.411,
+    "hold": 14.35,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 38.245,
+    "hold": 2.93,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 41.226,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 44.789,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 64.996,
+    "hold": 3.67,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 106.657,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 111.837,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 116.445,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 121.462,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 125.938,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 130.669,
+    "hold": 3.0,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "schema": "timeline/1",
+ "duration": 51.55,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 11.184,
+    "en": "Tarek, today is your bay induction. First, this is your PPE: safety glasses, gloves, and overalls. Always wear them.",
+    "ar": "طارق، اليوم تدريبك التعريفي في المرأب. أولاً، هذه معدات وقايتك: نظارات السلامة والقفازات وبذلة العمل. ارتدها دائماً."
+   },
+   {
+    "start": 12.964,
+    "dur": 2.376,
+    "en": "Yes, Ustaz.",
+    "ar": "نعم يا أستاذ."
+   },
+   {
+    "start": 16.67,
+    "dur": 8.16,
+    "en": "Second, this is the tool board. Every tool has a place. After you use a tool, put it back.",
+    "ar": "ثانياً، هذه لوحة العدّة. لكل أداة مكان. بعد استخدام الأداة، أعِدها إلى مكانها."
+   },
+   {
+    "start": 26.16,
+    "dur": 1.776,
+    "en": "OK.",
+    "ar": "حسناً."
+   },
+   {
+    "start": 29.266,
+    "dur": 8.64,
+    "en": "Third, when we lift a car, we chock the wheels, then use axle stands. Never work under a car on a jack alone.",
+    "ar": "ثالثاً، عند رفع السيارة، نُثبّت العجلات ثم نستخدم حوامل المحور. لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 39.236,
+    "dur": 2.016,
+    "en": "I understand.",
+    "ar": "فهمت."
+   },
+   {
+    "start": 42.582,
+    "dur": 6.936,
+    "en": "Good. If you are not sure about anything, stop and ask me. Safety first.",
+    "ar": "جيد. إن لم تكن متأكداً من أي شيء، توقّف واسألني. السلامة أولاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "at": 2.715,
+    "hold": 2.0,
+    "label": "workshop / bay",
+    "ar": "ورشة",
+    "emoji": "🛠️"
+   },
+   {
+    "lemma": "goggles",
+    "at": 7.031,
+    "hold": 2.0,
+    "label": "safety glasses",
+    "ar": "نظارات السلامة",
+    "emoji": "🥽"
+   },
+   {
+    "lemma": "overalls",
+    "at": 10.051,
+    "hold": 2.0,
+    "label": "overalls",
+    "ar": "بذلة العمل",
+    "emoji": "🦺"
+   },
+   {
+    "lemma": "toolboard",
+    "at": 18.779,
+    "hold": 2.0,
+    "label": "tools",
+    "ar": "لوحة العدّة",
+    "emoji": "🧰"
+   },
+   {
+    "lemma": "car",
+    "at": 31.278,
+    "hold": 2.0,
+    "label": "car",
+    "ar": "سيارة",
+    "emoji": "🚗"
+   },
+   {
+    "lemma": "axlestand",
+    "at": 34.48,
+    "hold": 2.0,
+    "label": "axle stand",
+    "ar": "حامل المحور"
+   },
+   {
+    "lemma": "jack",
+    "at": 38.23,
+    "hold": 2.0,
+    "label": "jack",
+    "ar": "رافعة"
+   }
+  ]
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

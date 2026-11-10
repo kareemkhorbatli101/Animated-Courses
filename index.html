@@ -1,0 +1,314 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LearnActively</title>
+<meta name="description" content="Interactive English courses that run in the browser, generated from the author's own book and checked against it. A trial platform by Mohamad Khorbatli.">
+<!-- The tab icon, inline so the page still needs no second file. Without it every visit logged a
+     404 for /favicon.ico, which is noise in the one place a real fault would have shown up. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23E8B418'/%3E%3Cpath d='M11 7h4.3v13.3h6.4V25H11z' fill='%231A1200'/%3E%3C/svg%3E">
+<!--
+  LearnActively - the catalogue HOME. Engineered by Mohamad Khorbatli.
+
+  THIS IS THE PAGE A VISITOR LANDS ON. It publishes as index.html; the video player that used to
+  hold that name publishes beside it as player.html (tools/publish_site.py owns that mapping, and
+  gates/site_source.py:PUB_PAGE is the one place that records it).
+
+  WHY IT IS HAND-WRITTEN AND NOT GENERATED. Every other page here is generated from a book. This
+  one is not: it is the only page whose subject is the site itself, and there is no source document
+  to generate it from. That makes its numbers the most likely thing on the whole site to drift, so
+  EVERY NUMBER BELOW IS DECLARED IN A data- ATTRIBUTE AND RECOMPUTED BY gates/site_check.py:
+
+    data-tree     the published folder this card opens into
+    data-html     .html files under it          ) counted from the published tree,
+    data-mp3      .mp3 files under it           ) not typed
+    data-screens  .html excluding index.html and teacher/ - the pages a learner works through
+    data-quote    a claim QUOTED from that course's own landing page, which is generated and
+                  gated; the gate strips the tags and asserts the sentence is really there
+
+  So a count in the prose that stops being true fails a gate rather than quietly misleading a
+  visitor. If you change a number here, the gate will tell you whether you were right.
+
+  NO fetch(), NO external stylesheet, NO web font, NO script. The site's rule is that a page must
+  work from a folder on a USB stick with no server and no internet; this page keeps that rule, and
+  it is also why the owner's photo is a 7 KB file next to it rather than a remote avatar.
+-->
+<style>
+:root{
+  /* The AnimatedEverything palette, so the home and the player are plainly one site.
+     --border is 3.02:1 on --surface, which WCAG 1.4.11 requires of a control boundary. */
+  --bg:#0E1116; --surface:#161B22; --surface2:#1F262E; --border:#5B677A;
+  --text:#E6EDF3; --muted:#A9B4C0; --accent:#E8B418; --onAccent:#1A1200;
+  --focus:#58A6FF; --ok:#3FB950;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Noto Sans Arabic",sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);
+     font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---- skip link: the first thing a keyboard reaches ------------------------------------------ */
+.skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:var(--onAccent);
+      padding:10px 16px;border-radius:0 0 8px 0;font-weight:700;z-index:50}
+.skip:focus{left:0}
+
+/* ---- header --------------------------------------------------------------------------------- */
+.top{border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:20}
+.top .wrap{display:flex;align-items:center;gap:14px;padding-top:13px;padding-bottom:13px}
+.brand{font-size:19px;font-weight:650;letter-spacing:.2px;text-decoration:none}
+.brand b{color:var(--accent);font-weight:650}
+.tag-trial{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:3px 9px}
+.top .spacer{flex:1}
+.top nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:16px}
+.top nav a:hover{color:var(--text);text-decoration:underline}
+
+/* ---- hero ----------------------------------------------------------------------------------- */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;align-items:start;
+      padding:52px 0 40px}
+.eyebrow{margin:0 0 10px;color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.1em;
+         text-transform:uppercase}
+h1{margin:0 0 16px;font-size:38px;line-height:1.18;font-weight:700;letter-spacing:-.4px}
+.lede{margin:0 0 14px;font-size:17.5px;color:var(--muted);max-width:60ch}
+.ar{margin:0 0 20px;font-size:17px;color:var(--muted)}
+.notice{margin:0;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);
+        border-radius:10px;padding:14px 16px;font-size:15px;max-width:62ch}
+.notice strong{color:var(--text)}
+
+/* ---- the owner's card: the same card burned into every video ------------------------------- */
+.owner{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px;
+       text-align:center}
+.owner img{width:112px;height:112px;border-radius:50%;border:3px solid var(--accent);display:block;
+           margin:0 auto 14px;object-fit:cover}
+.owner .by{margin:0;color:var(--muted);font-size:13px}
+.owner .who{margin:2px 0 8px;font-size:19px;font-weight:700}
+.owner .role{margin:0 0 14px;color:var(--muted);font-size:13.5px;line-height:1.45}
+.owner a.tel{display:inline-block;color:var(--onAccent);background:var(--accent);font-weight:700;
+             text-decoration:none;padding:9px 16px;border-radius:999px;font-size:15px;
+             direction:ltr;unicode-bidi:isolate}
+.owner a.tel:hover{filter:brightness(1.08)}
+
+/* ---- sections ------------------------------------------------------------------------------- */
+section.block{padding:30px 0 10px;border-top:1px solid var(--surface2)}
+h2{margin:0 0 6px;font-size:23px;font-weight:700;letter-spacing:-.2px}
+.sub{margin:0 0 22px;color:var(--muted);font-size:15px;max-width:68ch}
+
+/* ---- course cards --------------------------------------------------------------------------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px;margin-bottom:12px}
+.course{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);
+        border-radius:14px;padding:20px;text-decoration:none;
+        transition:border-color .13s ease, transform .13s ease, background .13s ease}
+.course:hover{border-color:var(--accent);background:var(--surface2);transform:translateY(-2px)}
+.course .kicker{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.08em;
+                text-transform:uppercase;margin:0 0 7px}
+.course h3{margin:0 0 8px;font-size:18.5px;font-weight:650;line-height:1.3}
+.course p{margin:0 0 14px;color:var(--muted);font-size:14.5px;flex:1}
+.facts{list-style:none;margin:0 0 14px;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.facts li{background:var(--surface2);border:1px solid var(--border);border-radius:999px;
+          padding:4px 11px;font-size:12.5px;color:var(--text);white-space:nowrap}
+.go{color:var(--accent);font-weight:650;font-size:14.5px}
+
+/* ---- the player card is wider and lists what it previews ------------------------------------ */
+.player-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,340px);gap:26px;
+             background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px}
+.player-card h3{margin:0 0 8px;font-size:20px}
+.previews{list-style:none;margin:0;padding:0}
+.previews li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+             padding:8px 0;border-bottom:1px solid var(--surface2);font-size:14.5px}
+.previews li:last-child{border-bottom:0}
+.previews .n{color:var(--muted);font-size:13px;white-space:nowrap}
+.previews h4{margin:0;font-size:14.5px;font-weight:550}
+.btn{display:inline-block;background:var(--accent);color:var(--onAccent);font-weight:700;
+     text-decoration:none;padding:11px 20px;border-radius:9px;font-size:15px}
+.btn:hover{filter:brightness(1.08)}
+.previews-title{margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:.08em;
+                text-transform:uppercase;color:var(--muted)}
+
+/* ---- footer --------------------------------------------------------------------------------- */
+footer{margin-top:44px;border-top:1px solid var(--border);background:var(--surface);
+       padding:26px 0 36px;color:var(--muted);font-size:14px}
+footer p{margin:0 0 8px}
+footer a{color:var(--muted)}
+
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr;gap:28px;padding-top:34px}
+  h1{font-size:29px}
+  .player-card{grid-template-columns:1fr;gap:20px}
+  .owner{max-width:340px}
+}
+</style>
+</head><body>
+
+<a class="skip" href="#main">Skip to the content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><b>Learn</b>Actively</a>
+    <span class="tag-trial">Trial</span>
+    <span class="spacer"></span>
+    <nav>
+      <a href="player.html">Video player</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+  <div class="hero">
+    <div>
+      <p class="eyebrow">learnactively.com</p>
+      <h1>English courses you work through, not watch</h1>
+      <p class="lede">Every exercise on this site is generated from the author&rsquo;s own book and
+        checked against it word by word. The pages mark your work, read themselves aloud, remember
+        where you stopped &mdash; and keep working with no internet connection at all.</p>
+      <p class="ar" lang="ar" dir="rtl">دروس إنجليزية تفاعلية، مع ترجمة عربية &mdash; نسخة تجريبية</p>
+      <p class="notice"><strong>This platform is launching as a trial.</strong> The courses below
+        are finished and working, and they are free to use while the trial runs. If you find
+        something wrong, or you want a course built for your own book, call me &mdash; the number
+        is on the right.</p>
+    </div>
+
+    <!-- The same card that is burned into the corner of every video this site publishes. -->
+    <aside class="owner">
+      <img src="assets/mk.jpg" width="112" height="112"
+           alt="Mohamad Khorbatli, who made this site">
+      <p class="by">Created By:</p>
+      <p class="who">Mohamad Khorbatli</p>
+      <p class="role">I write, animate and build every course here myself.</p>
+      <a class="tel" href="tel:+963955785033">+963-955785033</a>
+    </aside>
+  </div>
+
+  <section class="block">
+    <h2>Courses you can work through</h2>
+    <p class="sub">Each one opens in the browser and needs nothing installed. Your answers are kept
+      in your own browser, not on a server.</p>
+
+    <div class="grid">
+
+      <a class="course" href="alhasan/book1/index.html"
+         data-tree="alhasan/book1" data-html="131" data-mp3="2321" data-screens="120"
+         data-quote="652 exercises and 2714 questions">
+        <p class="kicker">Business English &middot; Book 1</p>
+        <h3>Al-Hasan International &mdash; English for Trade &amp; Industry</h3>
+        <p>Ten complete units: enquiries and quotations, orders and documents, shipping and customs,
+          invoices, meetings, and a final partner project.</p>
+        <ul class="facts">
+          <li>10 units</li><li>652 exercises</li><li>2,714 questions</li><li>2,321 recordings</li>
+        </ul>
+        <span class="go">Open the course &rarr;</span>
+      </a>
+
+      <a class="course" href="cma/index.html"
+         data-tree="cma" data-html="1044" data-mp3="0"
+         data-quote="3,843 exercises over 947 pages">
+        <p class="kicker">Professional &middot; CMA Part 1</p>
+        <h3>Certified Management Accountant, in graded English</h3>
+        <p>The CMA syllabus rewritten at a readable level, with Arabic bridges for every technical
+          term. All four books are built; the figures recompute from the chapter on each load.</p>
+        <ul class="facts">
+          <li>4 of 4 books</li><li>72 chapters</li><li>3,843 exercises</li><li>372 figures</li>
+        </ul>
+        <span class="go">Open the books &rarr;</span>
+      </a>
+
+      <a class="course" href="accounting/b1/index.html"
+         data-tree="accounting/b1" data-html="47" data-mp3="302" data-screens="42">
+        <p class="kicker">B1 &middot; NGO finance</p>
+        <h3>Accounting &amp; Finance B1</h3>
+        <p>English for people who keep the books at an NGO &mdash; receipts and journals, reporting to
+          donors, and the grammar that carries it. Arabic on every spoken line.</p>
+        <ul class="facts">
+          <li>2 of 10 units</li><li>42 screens</li><li>302 recordings</li><li>Teacher key</li>
+        </ul>
+        <span class="go">Open the course &rarr;</span>
+      </a>
+
+      <a class="course" href="accountants-intl/b1/index.html"
+         data-tree="accountants-intl/b1" data-html="231" data-mp3="1672" data-screens="220">
+        <p class="kicker">B1 &middot; International</p>
+        <h3>English for Accountants</h3>
+        <p>The whole book, all ten units and the three appendices. The daily work of an
+          accounting office &mdash; invoices, petty cash, stocktaking, the close and the
+          monthly report &mdash; set at Northwind Group in Krak&oacute;w, Singapore and
+          Nairobi, and spoken by a cast from all three.</p>
+        <ul class="facts">
+          <li>10 of 10 units</li><li>220 screens</li><li>653 activities</li>
+          <li>1,672 recordings</li><li>705 answers</li>
+        </ul>
+        <span class="go">Open the course &rarr;</span>
+      </a>
+
+      <a class="course" href="cybersecurity/b1/index.html"
+         data-tree="cybersecurity/b1" data-html="25" data-mp3="208" data-screens="21">
+        <p class="kicker">B1 &middot; Cyber defence</p>
+        <h3>Cybersecurity B1</h3>
+        <p>Study skills, career pathways, writing a report and the conversation skills a defender
+          needs on a team. Unit 1 is complete and gated.</p>
+        <ul class="facts">
+          <li>Unit 1</li><li>21 screens</li><li>208 recordings</li><li>Teacher key</li>
+        </ul>
+        <span class="go">Open the course &rarr;</span>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Trial educational video player</h2>
+    <p class="sub">A separate experiment: lessons acted out by animated characters on a 3D set,
+      rendered by this project&rsquo;s own engine. The player streams them, shows English and Arabic
+      subtitles together, and replays them offline once they are loaded. It is a working trial, not
+      a finished product &mdash; the courses in it are short samples.</p>
+
+    <div class="player-card"
+         data-player="player.html" data-courses="4" data-videos="26" data-minutes="52.8">
+      <div>
+        <h3>AnimatedEverything</h3>
+        <p class="sub" style="margin-bottom:18px">Twenty-six animated lessons across four sample
+          courses, about fifty-three minutes in all. English speech, with English and Arabic
+          subtitles on every line.</p>
+        <a class="btn" href="player.html">Open the video player &rarr;</a>
+      </div>
+      <div>
+        <p class="previews-title">What it previews</p>
+        <ul class="previews">
+          <li><h4>Auto Maintenance Book 1</h4><span class="n">21 videos &middot; 48.9 min</span></li>
+          <li><h4>Auto Maintenance</h4><span class="n">3 videos &middot; 2.3 min</span></li>
+          <li><h4>Furniture Design</h4><span class="n">1 video &middot; 0.8 min</span></li>
+          <li><h4>Workshop Tours</h4><span class="n">1 video &middot; 0.8 min</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Also here</h2>
+    <p class="sub">Experiments that are published but not finished.</p>
+    <div class="grid">
+      <a class="course" href="os/index.html" data-tree="os" data-html="1" data-mp3="0">
+        <p class="kicker">Experiment</p>
+        <h3>Web OS Live</h3>
+        <p>A small desktop shell that runs in a browser tab. Published so it can be looked at; it is
+          not part of any course.</p>
+        <ul class="facts"><li>Demo</li></ul>
+        <span class="go">Open it &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>LearnActively</strong> &mdash; a trial. Everything on it was written, drawn, voiced and
+      built by Mohamad Khorbatli.</p>
+    <p>Questions, corrections, or a book you would like turned into a course:
+      <a href="tel:+963955785033">+963-955785033</a></p>
+  </div>
+</footer>
+
+</body></html>

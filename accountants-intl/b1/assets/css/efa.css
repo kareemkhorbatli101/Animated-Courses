@@ -1,0 +1,157 @@
+/* ============================================================
+   English for Accountants B1, International Edition — efa.css
+
+   This course's own rules, loaded AFTER app.css. app.css stays a
+   byte-identical copy of the Cybersecurity B1 engine stylesheet, so that
+   tools/check-shared.py can prove the engine was copied and not forked;
+   anything this course needs that the engine does not have belongs here.
+
+   Two things live here:
+     1. the colour tokens, retinted from teal to slate-and-ochre;
+     2. the unit hub's section list, which the engine has no markup for.
+   ============================================================ */
+
+/* ---- 1. tokens ------------------------------------------------------- */
+:root {
+  --primary:      #24505c;
+  --primary-2:    #17404f;
+  --primary-soft: #e8f1f5;
+  --accent:       #b06c1a;
+  --accent-soft:  #faf5ec;
+}
+:root[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --primary-soft: #16313b;
+  --accent-soft:  #2b2318;
+}
+
+/* ---- 2. the unit hub's section list ---------------------------------- */
+/* The engine has no list-of-links component: the cybersecurity hub writes
+   its own markup inline. Without these rules the rows render as inline
+   anchors and run into one another, so a section title and the next
+   section's title read as one sentence. */
+.sec-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  margin-top: 10px;
+}
+.sec-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 13px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid transparent;
+  transition: background .12s ease, border-color .12s ease;
+}
+.sec-row + .sec-row { border-top: 1px solid var(--rule, #d7dce2); border-radius: 9px; }
+.sec-row:hover,
+.sec-row:focus-visible {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  outline: none;
+}
+.sec-label {
+  font-weight: 600;
+  line-height: 1.45;
+}
+.sec-tag {
+  flex: 0 0 auto;
+  font: 600 12px/1 system-ui, sans-serif;
+  color: var(--text-2, #5b6470);
+  background: var(--band, #eef3f5);
+  border-radius: 999px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+/* a finished section is marked, not just counted */
+.sec-row .sec-tag:first-letter { font-size: 13px; }
+
+/* ---- 3. the speaker on a sortable chip -------------------------------
+   Added with `sayChips` in components.js, for the two sorts whose columns
+   are SOUNDS. Without it a learner is asked to sort by ear with nothing to
+   listen to. */
+.chip-say {
+  border: 0;
+  background: transparent;
+  color: var(--primary, #1f4e5f);
+  cursor: pointer;
+  padding: 0 0 0 6px;
+  margin-left: 2px;
+  line-height: 1;
+  vertical-align: -1px;
+  opacity: .66;
+  transition: opacity .12s ease;
+}
+.chip-say:hover,
+.chip-say:focus-visible { opacity: 1; outline: none; }
+.chip-say svg { display: inline-block; }
+
+/* ---- 4. the glossary grid on the hub --------------------------------- */
+.card-body .cols > div { margin-bottom: 14px; }
+[dir="rtl"] { text-align: right; }
+
+/* Arabic ink runs about 1.2x the type size against English's 0.92, so a
+   single shared line-height collides wrapped Arabic. */
+[lang="ar"] { line-height: 1.95; }
+
+@media (max-width: 620px) {
+  .sec-row { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+
+
+/* ---- 5. this course's own markup ------------------------------------
+   The unit hub lists its twenty-one screens, and the course home lists the
+   ten units. The engine has no component for either, so the rules live
+   here rather than being forked into app.css. */
+.hub .screens { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 3px; }
+.hub .screens a { display: flex; align-items: baseline; gap: 12px; padding: 10px 13px;
+  border-radius: 9px; text-decoration: none; color: inherit;
+  border: 1px solid transparent; }
+.hub .screens a:hover, .hub .screens a:focus-visible {
+  background: var(--primary-soft); border-color: var(--primary); outline: none; }
+.hub .screens .k { font: 600 12px/1 ui-monospace, Menlo, Consolas, monospace;
+  color: var(--accent); min-width: 32px; }
+.hub .screens .t { font-weight: 600; flex: 1; }
+.hub .screens .n { font-size: 13px; opacity: .66; white-space: nowrap; }
+.hub .kicker a { color: inherit; }
+.hub .grammar { font-size: 15px; opacity: .8; }
+.hub .back { margin-top: 26px; }
+
+.units { list-style: none; margin: 20px 0 0; padding: 0;
+  display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+.units a { display: block; padding: 15px 17px; border-radius: 12px;
+  border: 1px solid var(--rule, #d7dce2); text-decoration: none; color: inherit;
+  background: var(--card, transparent); transition: border-color .12s, transform .12s; }
+.units a:hover, .units a:focus-visible {
+  border-color: var(--primary); transform: translateY(-1px); outline: none; }
+.units .un { font: 600 12px/1 ui-monospace, Menlo, Consolas, monospace;
+  color: var(--accent); letter-spacing: .06em; }
+.units h3 { margin: 6px 0 4px; font-size: 17px; line-height: 1.3; }
+.units p { margin: 0; font-size: 14px; line-height: 1.5; opacity: .82; }
+.units .g { display: block; margin-top: 9px; font-size: 13px; opacity: .7; }
+.facts { list-style: none; display: flex; flex-wrap: wrap; gap: 8px;
+  margin: 16px 0 0; padding: 0; font-size: 13px; }
+.facts li { background: var(--band, #eef3f5); border-radius: 999px; padding: 5px 11px; }
+.script p { margin: 0 0 7px; }
+.script { border-left: 3px solid var(--accent); padding: 2px 0 2px 13px; margin: 10px 0; }
+table.bt { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 15px; }
+table.bt th, table.bt td { border: 1px solid var(--rule, #d7dce2);
+  padding: 7px 9px; text-align: left; vertical-align: top; }
+table.bt th { background: var(--band, #eef3f5); font-weight: 600; }
+
+/* ---- 6. the picture an exercise carries -------------------------------
+   Every card has a drawing. The one on the screen's first card introduces
+   the screen and is full size; the ones on the exercises below it are
+   smaller, because a half-page picture above a gap-fill pushes the work
+   itself off the screen. The owner saw a listening screen where the
+   drawing filled the viewport and the dialogue sat under the fold. */
+.vis.vis-sm .vis-art { max-width: 190px; margin: 0 auto; }
+.vis.vis-sm figcaption { text-align: center; font-size: 12px; }
+.vis .vis-art svg { display: block; width: 100%; height: auto; }
+.vis:not(.vis-wide) .vis-art { max-width: 340px; margin: 0 auto; }

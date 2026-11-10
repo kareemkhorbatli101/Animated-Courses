@@ -1,0 +1,37 @@
+{
+ "schema": "custom_values/1",
+ "version": "1.0",
+ "note": "The value vocabulary of the customisation contract (package web_os_live_player v5, 07 §3). A placeholder or a value key not listed here is an authoring error (engine/customize.py) and is ignored at run time. Adding a customisation = one row here + a slot in a spec.",
+ "values": {
+  "user.userId": {
+   "type": "string",
+   "max": 40,
+   "pattern": "^[A-Za-z0-9._-]{1,40}$",
+   "privacy": "personal",
+   "source": "Web OS Live dock"
+  },
+  "user.firstName": {
+   "type": "string",
+   "max": 60,
+   "privacy": "personal",
+   "source": "Web OS Live dock"
+  },
+  "user.lastName": {
+   "type": "string",
+   "max": 60,
+   "privacy": "personal",
+   "source": "Web OS Live dock"
+  },
+  "org.name": {
+   "type": "string",
+   "max": 80,
+   "privacy": "public",
+   "source": "a hosting organisation (test fixture custom_probe uses it)"
+  }
+ },
+ "reserved": [
+  "class.name",
+  "teacher.message",
+  "learner.level"
+ ]
+}

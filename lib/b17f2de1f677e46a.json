@@ -1,0 +1,1272 @@
+{
+ "schema": "timeline/1",
+ "duration": 101.984,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.384,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.184,
+    "dur": 3.408,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.942,
+    "dur": 2.856,
+    "en": "This is Part 2, Grammar.",
+    "ar": "هذا الجزء الثاني، القواعد."
+   },
+   {
+    "start": 11.148,
+    "dur": 2.904,
+    "en": "Listen, and notice the verbs.",
+    "ar": "استمع، ولاحظ الأفعال."
+   },
+   {
+    "start": 14.402,
+    "dur": 3.096,
+    "en": "Listen to five lines from the workshop.",
+    "ar": "استمع إلى خمسة أسطر من الورشة."
+   },
+   {
+    "start": 17.848,
+    "dur": 2.544,
+    "en": "Nabil services cars.",
+    "ar": "نبيل يصون السيارات."
+   },
+   {
+    "start": 20.742,
+    "dur": 2.544,
+    "en": "He usually starts at eight.",
+    "ar": "هو يبدأ عادةً في الثامنة."
+   },
+   {
+    "start": 23.636,
+    "dur": 3.24,
+    "en": "Right now, he is changing the oil.",
+    "ar": "الآن، إنّه يغيّر الزيت."
+   },
+   {
+    "start": 27.226,
+    "dur": 2.688,
+    "en": "The workshop opens every day.",
+    "ar": "الورشة تفتح كلّ يوم."
+   },
+   {
+    "start": 30.264,
+    "dur": 3.288,
+    "en": "Today, Tarek is learning from Nabil.",
+    "ar": "اليوم، طارق يتعلّم من نبيل."
+   },
+   {
+    "start": 33.902,
+    "dur": 2.592,
+    "en": "Here are the five lines again.",
+    "ar": "هذه هي الأسطر الخمسة مرّة أخرى."
+   },
+   {
+    "start": 36.844,
+    "dur": 2.88,
+    "en": "Which three lines are about every day?",
+    "ar": "أيّ ثلاثة أسطر عن كلّ يوم؟"
+   },
+   {
+    "start": 44.959,
+    "dur": 5.184,
+    "en": "Services, starts and opens. They happen every day.",
+    "ar": "يصون، يبدأ، تفتح. تحدث كلّ يوم."
+   },
+   {
+    "start": 50.493,
+    "dur": 2.616,
+    "en": "Which two lines are about now?",
+    "ar": "أيّ سطرين عن الآن؟"
+   },
+   {
+    "start": 57.874,
+    "dur": 4.488,
+    "en": "Is changing and is learning. They are happening now.",
+    "ar": "يغيّر ويتعلّم. تحدث الآن."
+   },
+   {
+    "start": 62.712,
+    "dur": 3.048,
+    "en": "A line under the verb means every day.",
+    "ar": "الخطّ تحت الفعل يعني كلّ يوم."
+   },
+   {
+    "start": 66.11,
+    "dur": 2.928,
+    "en": "A box around the verb means now.",
+    "ar": "المربّع حول الفعل يعني الآن."
+   },
+   {
+    "start": 69.388,
+    "dur": 5.64,
+    "en": "Every day, we say services. Now, we say is changing.",
+    "ar": "كلّ يوم نقول services. الآن نقول is changing."
+   },
+   {
+    "start": 75.378,
+    "dur": 1.992,
+    "en": "Here is the rule.",
+    "ar": "هذه هي القاعدة."
+   },
+   {
+    "start": 77.72,
+    "dur": 3.288,
+    "en": "Every day and usually: the present simple.",
+    "ar": "كلّ يوم وعادةً: المضارع البسيط."
+   },
+   {
+    "start": 81.358,
+    "dur": 4.104,
+    "en": "Now, this week and at the moment: the present continuous.",
+    "ar": "الآن، هذا الأسبوع، في هذه اللحظة: المضارع المستمر."
+   },
+   {
+    "start": 85.812,
+    "dur": 6.672,
+    "en": "Watch out! He changes the oil. Add s for he, she and it.",
+    "ar": "انتبه! He changes the oil. أضف s مع he، she، it."
+   },
+   {
+    "start": 92.834,
+    "dur": 2.88,
+    "en": "And say: I am checking now.",
+    "ar": "وقل: I am checking now."
+   },
+   {
+    "start": 96.064,
+    "dur": 4.32,
+    "en": "Well done. You practise this in the next video.",
+    "ar": "أحسنت. ستتدرّب على هذا في الفيديو التالي."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 14.402,
+    "hold": 2.67,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "lines",
+   "at": 33.702,
+   "end": 62.462,
+   "layer": 7,
+   "rect": [
+    0.03021,
+    0.15926,
+    0.44,
+    0.52248
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.04271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 33.702,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.18148,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Notice",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.702,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.22215,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "لاحظ",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.26489,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Nabil services cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.3033,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "نبيل يصون السيارات.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.34604,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "He usually starts at eight.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.38444,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "هو يبدأ عادةً في الثامنة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.42719,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Right now, he is changing the oil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.46559,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الآن، إنّه يغيّر الزيت.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.50833,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The workshop opens every day.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.54674,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الورشة تفتح كلّ يوم.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.58948,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Today, Tarek is learning from Nabil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 33.902,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.62789,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "اليوم، طارق يتعلّم من نبيل.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "marked",
+   "at": 62.512,
+   "end": 75.128,
+   "layer": 7,
+   "rect": [
+    0.03021,
+    0.15926,
+    0.44,
+    0.52248
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.04271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 62.512,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.18148,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Every day, or now?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.512,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.22215,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "كلّ يوم، أم الآن؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.26489,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Nabil ",
+       null
+      ],
+      [
+       "services",
+       "routine"
+      ],
+      [
+       " cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.3033,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "نبيل يصون السيارات.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.34604,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "He usually ",
+       null
+      ],
+      [
+       "starts",
+       "routine"
+      ],
+      [
+       " at eight.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.38444,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "هو يبدأ عادةً في الثامنة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.42719,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Right now, he ",
+       null
+      ],
+      [
+       "is changing",
+       "now"
+      ],
+      [
+       " the oil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.46559,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الآن، إنّه يغيّر الزيت.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.50833,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The workshop ",
+       null
+      ],
+      [
+       "opens",
+       "routine"
+      ],
+      [
+       " every day.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.54674,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الورشة تفتح كلّ يوم.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.58948,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Today, Tarek ",
+       null
+      ],
+      [
+       "is learning",
+       "now"
+      ],
+      [
+       " from Nabil.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 62.712,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.62789,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "اليوم، طارق يتعلّم من نبيل.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "rule",
+   "at": 75.178,
+   "end": 96.714,
+   "layer": 7,
+   "rect": [
+    0.03021,
+    0.15926,
+    0.44,
+    0.47974
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.04271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 75.178,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.18148,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The rule",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 75.178,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.22215,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "القاعدة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 77.72,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.26489,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "every day, usually: ",
+       null
+      ],
+      [
+       "present simple",
+       "routine"
+      ]
+     ]
+    },
+    {
+     "at": 77.72,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.3033,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "كلّ يوم، عادةً: المضارع البسيط",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 81.358,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.34604,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "now, this week, at the moment: ",
+       null
+      ],
+      [
+       "present",
+       "now"
+      ]
+     ]
+    },
+    {
+     "at": 81.358,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.38444,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "continuous",
+       "now"
+      ]
+     ]
+    },
+    {
+     "at": 81.358,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.42285,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الآن، هذا الأسبوع، في هذه اللحظة: المضارع المستمر",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 85.812,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.46559,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "He change the oil.",
+       "strike"
+      ],
+      [
+       " ",
+       null
+      ],
+      [
+       "He changes the oil.",
+       "fix"
+      ]
+     ]
+    },
+    {
+     "at": 85.812,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.504,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أضف s مع he، she، it.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 92.834,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.54674,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "I checking now.",
+       "strike"
+      ],
+      [
+       " ",
+       null
+      ],
+      [
+       "I am checking now.",
+       "fix"
+      ]
+     ]
+    },
+    {
+     "at": 92.834,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.58515,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "استخدم am مع I.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+ "schema": "objects/1",
+ "set": "workshop",
+ "source": {
+  "glb": "workshop_set_merged.glb",
+  "bytes": 568348
+ },
+ "counts": {
+  "objects": 15,
+  "namedNodes": 208,
+  "unnamedNodes": 113,
+  "totalNodes": 321
+ },
+ "extent": {
+  "x": [
+   -7.5,
+   9.82
+  ],
+  "z": [
+   -4.36,
+   8.02
+  ]
+ },
+ "objects": [
+  {
+   "name": "battery_meter",
+   "parts": 8,
+   "min": [
+    2.9,
+    0.03,
+    2.35
+   ],
+   "max": [
+    3.7,
+    1.02,
+    2.85
+   ],
+   "centre": [
+    3.3,
+    0.525,
+    2.6
+   ],
+   "size": [
+    0.8,
+    0.99,
+    0.5
+   ],
+   "colour": [
+    0.5142,
+    0.5263,
+    0.5457
+   ],
+   "colourAuthored": [
+    0.2274,
+    0.2392,
+    0.2588
+   ],
+   "colourName": "dark grey",
+   "solid": true,
+   "class": "equipment"
+  },
+  {
+   "name": "car",
+   "parts": 36,
+   "min": [
+    -6.873,
+    0.005,
+    1.34
+   ],
+   "max": [
+    -4.727,
+    1.49,
+    5.86
+   ],
+   "centre": [
+    -5.8,
+    0.748,
+    3.6
+   ],
+   "size": [
+    2.147,
+    1.485,
+    4.52
+   ],
+   "colour": [
+    0.4932,
+    0.5959,
+    0.6882
+   ],
+   "colourAuthored": [
+    0.2078,
+    0.3138,
+    0.4314
+   ],
+   "colourName": "dark grey",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_2",
+   "parts": 36,
+   "min": [
+    -4.074,
+    0.005,
+    -4.36
+   ],
+   "max": [
+    -1.926,
+    1.49,
+    0.16
+   ],
+   "centre": [
+    -3.0,
+    0.748,
+    -2.1
+   ],
+   "size": [
+    2.147,
+    1.485,
+    4.52
+   ],
+   "colour": [
+    0.9122,
+    0.918,
+    0.9257
+   ],
+   "colourAuthored": [
+    0.8118,
+    0.8235,
+    0.8392
+   ],
+   "colourName": "light grey",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_3",
+   "parts": 36,
+   "min": [
+    7.527,
+    0.005,
+    2.14
+   ],
+   "max": [
+    9.674,
+    1.49,
+    6.66
+   ],
+   "centre": [
+    8.6,
+    0.748,
+    4.4
+   ],
+   "size": [
+    2.147,
+    1.485,
+    4.52
+   ],
+   "colour": [
+    0.7619,
+    0.6286,
+    0.5142
+   ],
+   "colourAuthored": [
+    0.5413,
+    0.353,
+    0.2274
+   ],
+   "colourName": "brown",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_4",
+   "parts": 37,
+   "min": [
+    4.627,
+    1.505,
+    2.54
+   ],
+   "max": [
+    6.773,
+    2.99,
+    7.06
+   ],
+   "centre": [
+    5.7,
+    2.248,
+    4.8
+   ],
+   "size": [
+    2.147,
+    1.485,
+    4.52
+   ],
+   "colour": [
+    0.8532,
+    0.5183,
+    0.4889
+   ],
+   "colourAuthored": [
+    0.698,
+    0.2314,
+    0.2039
+   ],
+   "colourName": "red",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_hood",
+   "parts": 1,
+   "min": [
+    -6.577,
+    0.908,
+    2.277
+   ],
+   "max": [
+    -5.023,
+    2.206,
+    2.895
+   ],
+   "centre": [
+    -5.8,
+    1.557,
+    2.586
+   ],
+   "size": [
+    1.554,
+    1.298,
+    0.618
+   ],
+   "colour": [
+    0.4932,
+    0.5959,
+    0.6882
+   ],
+   "colourAuthored": [
+    0.2078,
+    0.3138,
+    0.4314
+   ],
+   "colourName": "dark grey",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_hood_2",
+   "parts": 1,
+   "min": [
+    -3.777,
+    0.875,
+    -4.24
+   ],
+   "max": [
+    -2.223,
+    0.925,
+    -2.84
+   ],
+   "centre": [
+    -3.0,
+    0.9,
+    -3.54
+   ],
+   "size": [
+    1.554,
+    0.05,
+    1.4
+   ],
+   "colour": [
+    0.9122,
+    0.918,
+    0.9257
+   ],
+   "colourAuthored": [
+    0.8118,
+    0.8235,
+    0.8392
+   ],
+   "colourName": "light grey",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_hood_3",
+   "parts": 1,
+   "min": [
+    7.823,
+    0.875,
+    5.14
+   ],
+   "max": [
+    9.377,
+    0.925,
+    6.54
+   ],
+   "centre": [
+    8.6,
+    0.9,
+    5.84
+   ],
+   "size": [
+    1.554,
+    0.05,
+    1.4
+   ],
+   "colour": [
+    0.7619,
+    0.6286,
+    0.5142
+   ],
+   "colourAuthored": [
+    0.5413,
+    0.353,
+    0.2274
+   ],
+   "colourName": "brown",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "car_hood_4",
+   "parts": 1,
+   "min": [
+    4.923,
+    2.375,
+    2.66
+   ],
+   "max": [
+    6.477,
+    2.425,
+    4.06
+   ],
+   "centre": [
+    5.7,
+    2.4,
+    3.36
+   ],
+   "size": [
+    1.554,
+    0.05,
+    1.4
+   ],
+   "colour": [
+    0.8532,
+    0.5183,
+    0.4889
+   ],
+   "colourAuthored": [
+    0.698,
+    0.2314,
+    0.2039
+   ],
+   "colourName": "red",
+   "solid": true,
+   "class": "vehicle"
+  },
+  {
+   "name": "engine",
+   "parts": 21,
+   "min": [
+    -6.6,
+    0.2,
+    1.41
+   ],
+   "max": [
+    -5.145,
+    0.96,
+    2.9
+   ],
+   "centre": [
+    -5.873,
+    0.58,
+    2.155
+   ],
+   "size": [
+    1.455,
+    0.76,
+    1.49
+   ],
+   "colour": [
+    0.4665,
+    0.4845,
+    0.506
+   ],
+   "colourAuthored": [
+    0.1843,
+    0.2,
+    0.2196
+   ],
+   "colourName": "dark grey",
+   "solid": true,
+   "class": "equipment"
+  },
+  {
+   "name": "scanner_cart",
+   "parts": 8,
+   "min": [
+    -4.42,
+    -0.0,
+    1.28
+   ],
+   "max": [
+    -3.834,
+    1.43,
+    1.72
+   ],
+   "centre": [
+    -4.127,
+    0.715,
+    1.5
+   ],
+   "size": [
+    0.586,
+    1.43,
+    0.44
+   ],
+   "colour": [
+    0.3178,
+    0.3391,
+    0.3653
+   ],
+   "colourAuthored": [
+    0.0824,
+    0.0941,
+    0.1098
+   ],
+   "colourName": "near black",
+   "solid": true,
+   "class": "equipment"
+  },
+  {
+   "name": "service_desk",
+   "parts": 9,
+   "min": [
+    -7.5,
+    -0.005,
+    -1.9
+   ],
+   "max": [
+    -5.5,
+    1.267,
+    -1.1
+   ],
+   "centre": [
+    -6.5,
+    0.631,
+    -1.5
+   ],
+   "size": [
+    2.0,
+    1.272,
+    0.8
+   ],
+   "colour": [
+    0.5142,
+    0.5263,
+    0.5457
+   ],
+   "colourAuthored": [
+    0.2274,
+    0.2392,
+    0.2588
+   ],
+   "colourName": "dark grey",
+   "solid": true,
+   "class": "furniture"
+  },
+  {
+   "name": "tool_cabinet",
+   "parts": 5,
+   "min": [
+    -4.15,
+    -0.0,
+    6.87
+   ],
+   "max": [
+    -3.05,
+    1.2,
+    7.55
+   ],
+   "centre": [
+    -3.6,
+    0.6,
+    7.21
+   ],
+   "size": [
+    1.1,
+    1.2,
+    0.68
+   ],
+   "colour": [
+    0.8532,
+    0.5183,
+    0.4889
+   ],
+   "colourAuthored": [
+    0.698,
+    0.2314,
+    0.2039
+   ],
+   "colourName": "red",
+   "solid": true,
+   "class": "furniture"
+  },
+  {
+   "name": "tool_cabinet_2",
+   "parts": 5,
+   "min": [
+    3.05,
+    -0.0,
+    6.87
+   ],
+   "max": [
+    4.15,
+    1.2,
+    7.55
+   ],
+   "centre": [
+    3.6,
+    0.6,
+    7.21
+   ],
+   "size": [
+    1.1,
+    1.2,
+    0.68
+   ],
+   "colour": [
+    0.8532,
+    0.5183,
+    0.4889
+   ],
+   "colourAuthored": [
+    0.698,
+    0.2314,
+    0.2039
+   ],
+   "colourName": "red",
+   "solid": true,
+   "class": "furniture"
+  },
+  {
+   "name": "tyre_stack",
+   "parts": 3,
+   "min": [
+    8.78,
+    0.038,
+    6.98
+   ],
+   "max": [
+    9.82,
+    0.982,
+    8.02
+   ],
+   "centre": [
+    9.3,
+    0.51,
+    7.5
+   ],
+   "size": [
+    1.04,
+    0.944,
+    1.04
+   ],
+   "colour": [
+    0.3589,
+    0.3653,
+    0.3775
+   ],
+   "colourAuthored": [
+    0.1059,
+    0.1098,
+    0.1176
+   ],
+   "colourName": "near black",
+   "solid": true,
+   "class": "prop"
+  }
+ ]
+}

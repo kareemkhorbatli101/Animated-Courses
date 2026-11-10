@@ -1,0 +1,46 @@
+/* Unit 10 — voice casting. GENERATED from tools/voices.py, which is the
+   single source of truth: the audio build reads it to decide what to
+   synthesise and the browser reads this to find the finished recording, so
+   the two cannot disagree. The `scene` block maps each stage's cast to the
+   voice its lines were actually recorded with. No prosody is ever requested. */
+EFA.voices({
+  course: 'en-GB-SoniaNeural',
+  narrator: 'en-GB-RyanNeural',
+  'spk:Marta': 'en-GB-LibbyNeural',
+  'spk:Ryan': 'en-GB-ThomasNeural',
+  'spk:Mr Farouk': 'en-US-RogerNeural',
+  'spk:Group Finance Manager': 'en-US-RogerNeural',
+  'spk:Daniel': 'en-KE-ChilembaNeural',
+  'spk:Priya': 'en-IN-NeerjaNeural',
+  'spk:Aoife': 'en-IE-EmilyNeural',
+  'spk:Ms Vogel': 'en-US-EmmaNeural',
+  'spk:Accountant': 'en-US-AvaNeural',
+  'spk:Senior Accountant': 'en-US-MichelleNeural',
+  'spk:Junior': 'en-PH-JamesNeural',
+  'spk:Supplier': 'en-US-ChristopherNeural',
+  'spk:Custodian': 'en-SG-WayneNeural',
+  'spk:Clerk': 'en-SG-LunaNeural',
+  'spk:Employee': 'en-US-EricNeural',
+  'spk:Manager': 'en-US-BrianNeural',
+  'spk:Supervisor': 'en-NG-EzinneNeural',
+  'spk:Collector': 'en-US-GuyNeural',
+  'spk:Client': 'en-ZA-LeahNeural',
+  'spk:Controller': 'en-US-AriaNeural',
+  'spk:Director': 'en-ZA-LukeNeural',
+  'spk:IT Specialist': 'en-US-AndrewNeural',
+  'spk:Interviewer': 'en-GB-MaisieNeural',
+  'spk:Applicant': 'en-NZ-MitchellNeural',
+  'spk:Speaker': 'en-US-SteffanNeural',
+  'spk:Student B': 'en-CA-ClaraNeural',
+  scene: {
+    'u10-listening-1-c1': { narr: 'en-GB-RyanNeural' },
+    'u10-listening-2-c1': { narr: 'en-GB-RyanNeural' },
+    'u10-listening-3-c1': { narr: 'en-GB-RyanNeural' },
+    'u10-reading-1-c2': { narr: 'en-GB-RyanNeural' },
+    'u10-reading-2-c1': { narr: 'en-GB-RyanNeural', groupfinancemanager: 'en-US-RogerNeural' },
+    'u10-reading-3-c1': { narr: 'en-GB-RyanNeural' },
+    'u10-extension-c1': { narr: 'en-GB-RyanNeural' },
+    'u10-extension-c3': { narr: 'en-GB-RyanNeural' },
+    'u10-extension-c5': { narr: 'en-GB-RyanNeural' }
+  }
+});

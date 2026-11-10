@@ -1,0 +1,379 @@
+:host{display:block;position:relative;height:100%;min-height:0;contain:layout paint}
+
+:host{
+  /* Contrast-checked, not chosen by eye. --border was wrong twice at 1.4:1 and 1.75:1 before being
+     solved numerically to 3.02:1 on --surface, which WCAG 1.4.11 requires of a control boundary. */
+  --bg:#0E1116; --surface:#161B22; --surface2:#1F262E; --border:#5B677A;
+  --text:#E6EDF3; --muted:#A9B4C0; --accent:#E8B418; --onAccent:#1A1200;
+  --focus:#58A6FF; --danger:#E5534B; --ok:#3FB950;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Noto Sans Arabic",sans-serif;
+  --rail:340px;
+}
+*{box-sizing:border-box}
+.ap-root{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:var(--font);font-size:14px;line-height:1.45}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* ---- layout ------------------------------------------------------------------------------- */
+/* TWO DRAGGABLE COLUMNS. The widths are stored state, clamped on drag, on LOAD and on window
+   RESIZE - a rail dragged to 600 px on a wide monitor must not be restored at 600 px on a laptop. */
+#app{display:grid;grid-template-columns:var(--rail) var(--hx,6px) 1fr;height:100%}
+.hsplit{background:var(--surface2);cursor:col-resize;position:relative}
+.hsplit:hover,.hsplit:focus-visible{background:var(--accent)}
+.hsplit:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+.hsplit::after{content:'';position:absolute;top:50%;left:50%;width:2px;height:28px;
+               transform:translate(-50%,-50%);border-radius:2px;background:var(--border)}
+.hsplit:hover::after{background:var(--onAccent)}
+/* THE ASK PANE IS A THIRD COLUMN, not an overlay: it must be able to sit open beside the video
+   while the lesson plays, the same way the rail does. Absent until asked for. */
+#app.hasask{grid-template-columns:var(--rail) var(--hx,6px) 1fr var(--hx,6px) var(--askw,380px)}
+#app.theatre.hasask{grid-template-columns:0 0 1fr var(--hx,6px) var(--askw,380px)}
+#app.theatre{grid-template-columns:0 0 1fr}
+/* NEVER display:none A GRID CHILD WHOSE COLUMNS ARE POSITIONAL. Removing it from the grid shifts
+   every later child one column left: below 1100px the rail was display:none, so the STAGE landed in
+   the 0-width column and the Ask pane took the 1fr. Measured - stage 0 px in a 1000 px window - and it
+   predates this work; nothing checked the stage's width, only the pane's. Collapsed, not removed. */
+.collapsed{width:0;padding:0!important;border:0!important;overflow:hidden;pointer-events:none}
+#app.theatre #railsplitx,#app.theatre #browse{width:0;padding:0;border:0;
+                                             overflow:hidden;pointer-events:none}
+#app.full #browse,#app.full #railsplitx{width:0;padding:0;border:0;
+                                        overflow:hidden;pointer-events:none}
+
+/* THE RAIL IS A COLUMN, not one scrolling block: filters, the tree, a splitter, the camera area.
+   The tree takes what is left (1fr) and scrolls on its own, so the camera area can be given
+   height without the tree collapsing to nothing. */
+/* The unit labels, the + buttons and the pad all finished 12px from the border, and the circle is
+   the largest object in the rail so it is what the eye lands on. One constant, used once. */
+#browse{background:var(--surface);border-right:1px solid var(--border);padding:var(--railinset,18px);
+        display:grid;grid-template-rows:auto minmax(120px,1fr);gap:0;min-height:0;overflow:hidden}
+#browse.hascam{grid-template-rows:auto minmax(120px,1fr) auto var(--camh,300px)}
+#tree{overflow-y:auto;min-height:0}
+#railsplit{height:10px;margin:6px -12px 2px;cursor:row-resize;display:none;
+           align-items:center;justify-content:center;border-top:1px solid var(--border)}
+#browse.hascam #railsplit{display:flex}
+#railsplit i{display:block;width:44px;height:4px;border-radius:3px;background:var(--surface2);
+             border:1px solid var(--border)}
+#railsplit:hover i,#railsplit:focus-visible i{background:var(--accent);border-color:var(--accent)}
+#railsplit:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+#railcam{overflow-y:auto;min-height:0;display:none}
+#browse.hascam #railcam{display:block}
+#browse[dir=rtl]{border-right:0;border-left:1px solid var(--border)}
+#main{display:flex;flex-direction:column;min-width:0;overflow-y:auto}
+
+/* ---- the script -----------------------------------------------------------------------------
+   TRACK A STANDS ALONE. The dialogue with speaker names, timings and both languages is a render of
+   data the scene already holds - no model, no Ollama, nothing to install. It is also mode-independent:
+   it reads the lesson's own scene file, so it works while watching the MP4 as well. */
+#script{display:none;border-top:1px solid var(--border);background:var(--surface);padding:10px 15px}
+#script.on{display:block}
+#script h3{margin:0 0 8px;font-size:13px;color:var(--muted);font-weight:600;
+           display:flex;align-items:center;gap:10px}
+#script h3 button{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+                  border-radius:6px;padding:3px 9px;font-size:11.5px;cursor:pointer}
+#scriptbody{max-height:280px;overflow-y:auto}
+.sline{display:grid;grid-template-columns:52px 84px 1fr;gap:10px;padding:5px 6px;border-radius:6px;
+       cursor:pointer;align-items:start}
+.sline:hover{background:var(--surface2)}
+.sline.now{background:#1D2530;box-shadow:inset 2px 0 0 var(--accent)}
+.sline .t{color:var(--muted);font-size:11.5px;font-variant-numeric:tabular-nums;padding-top:2px}
+.sline .who{color:var(--accent);font-size:12.5px;font-weight:600}
+.sline .who i{display:block;color:var(--muted);font-weight:400;font-size:10.5px;font-style:normal}
+.sline .say{font-size:13px;line-height:1.45}
+.sline .say span{display:block}
+.sline .say .alt{color:var(--muted);font-size:12.5px}
+
+/* ---- the camera surfaces ------------------------------------------------------------------
+   ONE state, several views of it. Neither the rail panel, the floating panel, nor either tab
+   owns the camera: all of them render it and all of them send edits to the same place. That is
+   the rule that makes drive() the single interpreter and tools/wire.py the single wire model.
+   Everything here is ENGLISH, like every other control on the page, whatever the catalogue. */
+.campanel{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:10px}
+#campanel{position:absolute;right:14px;top:84px;width:284px;z-index:6;display:none;
+          box-shadow:0 10px 30px rgba(0,0,0,.45)}
+#campanel.on{display:block}
+.camhead{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.camhead b{font-size:13.5px;flex:1}
+.camhead button{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:2px 4px}
+.camhead .x{color:var(--muted)}
+.seg{display:flex;gap:5px;margin-bottom:8px;flex-wrap:wrap}
+.seg button{flex:0 0 auto;background:var(--surface2);color:var(--text);border:1px solid var(--border);
+            border-radius:6px;padding:4px 9px;font-size:12px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--onAccent);border-color:var(--accent);
+                               font-weight:600}
+.camtabs{display:flex;gap:5px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.camtabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);
+                padding:5px 10px;cursor:pointer;font-size:12.5px}
+.camtabs button[aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent)}
+.camsect{color:var(--muted);font-size:10.5px;letter-spacing:.06em;margin:8px 0 4px}
+.camrow{display:grid;grid-template-columns:1fr auto auto auto auto;align-items:center;gap:4px;
+        margin-bottom:4px}
+.camrow label{font-size:12px;color:var(--muted)}
+.camrow button{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+               border-radius:5px;width:24px;height:24px;cursor:pointer;line-height:1}
+.camrow input{width:58px;padding:3px 5px;border-radius:5px;border:1px solid var(--border);
+              background:#10151B;color:var(--text);font-size:12px;text-align:right}
+.camrow input[readonly]{color:var(--muted);border-color:#2A323C}
+.camrow .u{font-size:10.5px;color:var(--muted);width:26px}
+/* the pad */
+.padwrap{position:relative;margin:6px 0 4px}
+/* 90% of what it was. The pad hands drag() FRACTIONS OF A DIAMETER, and the panel's own words are
+   'one sweep across the circle = 4.0 m', so a smaller circle keeps that promise exactly: what changes
+   is metres per PIXEL, which is the correct behaviour of a smaller control. */
+#campad,#railpad{width:90%;margin:0 auto;display:block;aspect-ratio:1/1;border-radius:50%;
+                 background:#10151B;
+                 border:1px solid var(--border);touch-action:none;cursor:grab;display:block}
+#campad:active,#railpad:active{cursor:grabbing}
+.padnote{font-size:11px;color:var(--muted);margin:2px 0 6px}
+.padcap{font-size:12px;color:var(--accent);margin-bottom:4px}
+.stops{display:flex;gap:3px;margin-bottom:4px}
+.stops button{flex:1;background:#10151B;border:1px solid var(--border);color:var(--muted);
+              border-radius:6px;padding:4px 2px;font-size:11.5px;cursor:pointer}
+.stops button[aria-pressed=true]{background:var(--accent);color:var(--onAccent);font-weight:650}
+.behav{display:flex;gap:4px;align-items:center;justify-content:flex-end;margin-bottom:4px}
+.behav button{background:#10151B;border:1px solid var(--border);color:var(--muted);border-radius:11px;
+              padding:3px 10px;font-size:11px;cursor:pointer}
+.behav button[aria-pressed=true]{background:var(--accent);color:var(--onAccent)}
+.camfoot{display:flex;gap:6px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.camfoot select{background:#10151B;border:1px solid var(--border);color:var(--text);border-radius:6px;
+                padding:3px 6px;font-size:11.5px}
+.camfoot button{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+                border-radius:6px;padding:4px 9px;font-size:11.5px;cursor:pointer}
+#camsay{font-size:11.5px;color:var(--accent);margin-top:6px}
+/* the checkbox, in the axes row */
+.axis.chk{display:flex;align-items:flex-end}
+.axis.chk label{display:flex;align-items:center;gap:6px;cursor:pointer;font-size:12.5px;
+                padding:7px 10px;border:1px solid var(--border);border-radius:7px;
+                background:var(--surface2)}
+.axis.chk input{accent-color:var(--accent);width:15px;height:15px}
+.axis.chk label[aria-disabled=true]{opacity:.45;cursor:not-allowed}
+/* Download is HIDDEN in the interactive modes, so its slot is RESERVED - otherwise the checkbox
+   to its right would slide sideways every time the mode changed. */
+.axis.dlslot{min-width:132px}
+/* Download and the checkbox are ONE wrapping unit, so the row may fold but never between them. */
+.dlgroup{display:flex;align-items:flex-end;gap:16px}
+
+/* ---- filters ------------------------------------------------------------------------------ */
+.filters{display:grid;gap:8px;margin-bottom:12px}
+.filters input{width:100%;padding:8px 10px;border-radius:7px;border:1px solid var(--border);background:var(--surface2)}
+.filters input::placeholder{color:var(--muted)}
+.clear{background:none;border:0;color:var(--muted);cursor:pointer;font-size:12.5px;padding:2px;text-align:start}
+.clear:hover{color:var(--text)}
+
+/* ---- the tree ----------------------------------------------------------------------------- */
+.course{margin-bottom:4px}
+.crow{display:flex;align-items:center;gap:8px;width:100%;padding:8px 9px;border-radius:7px;background:none;border:0;cursor:pointer;text-align:start}
+.crow:hover{background:var(--surface2)}
+.tw{color:var(--muted);font-size:11px;width:11px;flex:none;transition:transform .12s}
+.course.open>.crow .tw{transform:rotate(90deg)}
+[dir=rtl] .course.open>.crow .tw{transform:rotate(-90deg)}
+.ctitle{font-weight:600;flex:1;min-width:0}
+.count{color:var(--muted);font-size:12px;flex:none}
+.videos{display:none;margin:2px 0 8px 0;padding-inline-start:19px;border-inline-start:1px solid var(--border)}
+.course.open .videos{display:block}
+.urow,.prow{display:flex;align-items:center;gap:8px;width:100%;padding:6px 9px;border-radius:7px;background:none;border:0;cursor:pointer;text-align:start}
+.urow{font-weight:600}
+.urow:hover,.prow:hover{background:var(--surface2)}
+.unit.open>.urow .tw,.part.open>.prow .tw{transform:rotate(90deg)}
+[dir=rtl] .unit.open>.urow .tw,[dir=rtl] .part.open>.prow .tw{transform:rotate(-90deg)}
+.kids{margin:2px 0 4px 0;padding-inline-start:16px;border-inline-start:1px solid var(--border)}
+.vrow{display:flex;align-items:center;gap:9px;width:100%;padding:7px 9px;border-radius:7px;background:none;border:0;cursor:pointer;text-align:start}
+.vrow:hover{background:var(--surface2)}
+.vrow.active{background:var(--surface2);box-shadow:inset 3px 0 0 var(--accent)}
+[dir=rtl] .vrow.active{box-shadow:inset -3px 0 0 var(--accent)}
+.vtitle{flex:1;min-width:0}
+.vmeta{color:var(--muted);font-size:12px;flex:none;font-variant-numeric:tabular-nums}
+.idonly{color:var(--danger);font-style:italic}
+.empty{color:var(--muted);padding:14px 4px;font-size:13px}
+.empty b{color:var(--text);font-weight:600}
+.widen{margin-top:9px;background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:7px 11px;cursor:pointer;color:var(--text)}
+
+/* ---- stage -------------------------------------------------------------------------------- */
+#stagewrap{position:relative;background:#000;width:100%;aspect-ratio:16/9;max-height:calc(var(--ap-host-h,var(--ap-host-h,100vh)) - var(--ap-chrome-h,210px))}
+#app.full #stagewrap{max-height:var(--ap-host-h,100vh);height:var(--ap-host-h,100vh)}
+#stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+#stage canvas{max-width:100%;max-height:100%;display:block}
+#vid{position:absolute;inset:0;width:100%;height:100%;background:#000;display:none}
+#vid.on{display:block}
+.dl{display:inline-block;padding:6px 12px;border-radius:7px;border:1px solid var(--border);background:var(--surface2);color:var(--text);text-decoration:none;font-size:12.5px}
+.dl:hover{border-color:var(--accent);color:var(--accent)}
+#axmode{min-width:230px}
+#axmode option:disabled{color:var(--muted)}
+#overlay{position:absolute;inset:0;pointer-events:none}
+#poster{position:absolute;inset:0;background:#000 center/contain no-repeat;opacity:.45}
+
+/* ---- the loading panel: a NUMBER past 10 s, never a spinner ------------------------------- */
+#load{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:11px;background:rgba(14,17,22,.82);padding:22px;text-align:center}
+#load.on{display:flex}
+#load .what{font-weight:600}
+#load .bar{width:min(460px,80%);height:7px;border-radius:4px;background:var(--surface2);overflow:hidden}
+#load .bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s}
+#load .bar.indet i{width:35%;animation:slide 1.1s ease-in-out infinite}
+@keyframes slide{0%{margin-inline-start:-35%}100%{margin-inline-start:100%}}
+#load .nums{color:var(--muted);font-size:12.5px;font-variant-numeric:tabular-nums}
+#load .stall{color:var(--accent);font-size:12.5px;min-height:1.2em}
+#load .err{color:var(--danger)}
+#load .btns{display:flex;gap:9px}
+#load button{background:var(--accent);color:var(--onAccent);border:0;border-radius:7px;padding:7px 15px;font-weight:600;cursor:pointer}
+#load button.ghost{background:var(--surface2);color:var(--text);border:1px solid var(--border);font-weight:500}
+
+/* ---- controls ----------------------------------------------------------------------------- */
+#bar{display:flex;align-items:center;gap:11px;padding:11px 15px;border-bottom:1px solid var(--border)}
+#bar button{background:var(--accent);color:var(--onAccent);border:0;border-radius:7px;padding:7px 17px;font-weight:650;cursor:pointer}
+#bar button[disabled]{opacity:.4;cursor:default}
+#bar button.ghost{background:var(--surface2);color:var(--text);border:1px solid var(--border);font-weight:500}
+#bar button.ghost[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
+#scrub{flex:1;min-width:70px;accent-color:var(--accent)}
+#time{color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+#axes{display:flex;flex-wrap:wrap;gap:16px;padding:11px 15px;border-bottom:1px solid var(--border);background:var(--surface)}
+.axis{display:flex;align-items:center;gap:7px}
+.axis label{color:var(--muted);font-size:12.5px}
+.axis select{padding:6px 9px;border-radius:7px;border:1px solid var(--border);background:var(--surface2)}
+.axis select option:disabled{color:var(--muted)}
+#about{padding:15px;color:var(--muted);font-size:13px}
+#about h2{color:var(--text);font-size:16px;margin:0 0 5px}
+#about .desc{margin:0 0 9px}
+#note{padding:0 15px 15px;color:var(--muted);font-size:12.5px}
+
+/* ---- the Ask pane -----------------------------------------------------------------------------
+   Deliberately the same furniture as the left rail: one surface, one border, the same tokens. It is
+   part of the page, not a widget bolted to it. */
+/* THREE ZONES, NOT SEVEN ROWS. The pane had seven children and six row definitions, so the
+   composer fell into an implicit seventh row and the 1fr never reached the log: measured at a 900 px
+   window the log sat at its 220 px MINIMUM while the composer took 418 px - 46% of the pane - and
+   overflow:hidden then removed the Send button with no scrollbar to hint anything was missing.
+   Three children, three rows, and the LOG is the only 1fr. */
+#ask{background:var(--surface);border-left:1px solid var(--border);padding:var(--paneinset,16px);
+     display:none;grid-template-rows:auto minmax(var(--logmin,200px),1fr) auto;
+     gap:10px;min-height:0;overflow:hidden}
+.asktop{display:grid;gap:8px;min-width:0}
+#app.hasask #ask{display:grid}
+.askhead{display:flex;align-items:center;gap:8px}
+/* A FIXED CAP DOES NOT STRETCH. Every control here was capped, so widening the pane would have
+   grown empty space around controls that sat still. Each is now a MINIMUM plus a share. */
+.askhead .prov{flex:1 1 0;min-width:76px}
+.dlmodel{width:100%;justify-content:center;background:var(--accent);color:var(--onAccent);
+         border-color:var(--accent);font-weight:600}
+.askhead .modelsel{flex:2 1 0;min-width:0;text-overflow:ellipsis;background:var(--surface2);color:var(--text);
+                   border:1px solid var(--border);border-radius:6px;padding:5px 6px;font-size:12.5px}
+/* The dot is a function of the SELECTED model, never of the server. Selecting a model that has not
+   answered turns it off - that was a real defect, not a hypothetical one. */
+.dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
+.dot.ok{background:var(--ok)} .dot.bad{background:var(--danger)}
+.dot.wait{background:var(--accent)} .dot.off{background:var(--muted);opacity:.5}
+.askstate{color:var(--muted);font-size:12px;min-height:16px}
+.setup{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px;
+       font-size:12.5px;color:var(--muted)}
+.setup p{margin:0 0 6px} .setup ol{margin:0 0 8px 18px;padding:0} .setup li{margin:3px 0}
+.setup a{color:var(--focus)}
+.askacts{display:grid;gap:4px}
+.ibtn{background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:6px;
+      padding:5px 8px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-size:13px}
+.ibtn span{font-size:12.5px}
+.ibtn:hover{border-color:var(--accent)}
+.ibtn.on{border-color:var(--accent);color:var(--accent)}
+.ibtn.primary{background:var(--accent);color:var(--onAccent);border-color:var(--accent);font-weight:600}
+.ibtn:disabled{opacity:.45;cursor:default}
+.ibtn:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+/* THE LOG DOES NOT SQUEEZE. Its row was minmax(80px,1fr), so as the rows around it grew a reader
+   ended up peering at two lines through a slot. It now keeps a real minimum and SCROLLS, and the
+   pane itself never outgrows the viewport. */
+.asklog{overflow-y:auto;min-height:0;display:flex;flex-direction:column;gap:8px;padding-right:2px}
+.logempty{margin:auto;color:var(--muted);font-size:12.5px;text-align:center;opacity:.8}
+.turn .ibtn.expand{margin-top:6px;padding:2px 7px;font-size:12px;line-height:1.3}
+/* ---- the expand modal ------------------------------------------------------------------- */
+.modalback{position:fixed;inset:0;background:rgba(6,8,12,.72);display:flex;align-items:center;
+           justify-content:center;z-index:80;padding:24px}
+.modal{background:var(--surface);border:1px solid var(--border);border-radius:10px;
+       width:min(820px,94vw);max-height:86vh;display:grid;grid-template-rows:auto 1fr auto;
+       box-shadow:0 18px 60px rgba(0,0,0,.55)}
+.modal h4{margin:0;padding:12px 14px;font-size:14px;border-bottom:1px solid var(--border)}
+.modal .mbody{overflow:auto;padding:14px;white-space:pre-wrap;font-size:13.5px;line-height:1.5}
+.modal .mfoot{display:flex;gap:8px;justify-content:flex-end;padding:10px 14px;
+              border-top:1px solid var(--border)}
+@media (max-width:760px){.modalback{padding:10px}.modal{width:100%;max-height:92vh}}
+.turn{border-radius:8px;padding:7px 9px;font-size:13px;line-height:1.45}
+.turn.you{background:var(--surface2);border:1px solid var(--border)}
+.turn.ai{background:transparent;border:1px solid var(--border)}
+.turn .body{white-space:pre-wrap}
+.turn .ghost{margin-top:6px;background:none;border:0;color:var(--muted);font-size:11.5px;
+             text-decoration:underline;cursor:pointer;padding:0}
+/* The measured facts, verbatim. An assistant that cites facts nobody can inspect is the thing this
+   design exists to avoid, so the block is always one click away. */
+.ground{white-space:pre-wrap;font-size:11px;color:var(--muted);background:var(--bg);
+        border:1px solid var(--border);border-radius:6px;padding:7px;margin:6px 0 0;
+        max-height:220px;overflow:auto}
+.askform{display:grid;gap:6px}
+/* The box wraps what is typed into it and resizes vertically, but only within a stated band, so
+   dragging it taller takes room from the LOG and can never push Send out of the pane. */
+.askinput{width:100%;background:var(--surface2);color:var(--text);border:1px solid var(--border);
+          border-radius:6px;padding:7px;font-size:13px;resize:vertical;
+          min-height:56px;max-height:240px;overflow-wrap:anywhere;word-break:break-word}
+/* ONE ROW, NEVER WRAPPING. Seven controls in a 372 px row wrapped onto four lines and made the
+   composer 418 px tall, which is what pushed Send below the pane's clipping edge. */
+.askrow{display:flex;align-items:center;gap:5px;flex-wrap:nowrap;min-width:0}
+.askrow .ibtn{flex:none}
+.langleg{display:flex;gap:14px;font-size:10.5px;color:var(--muted);align-items:center}
+.langleg i{font-style:normal;opacity:.85}
+.askrow .grow{flex:1}
+/* Send full detail. A checkbox, not another icon button: it is a STATE that stays on between
+   questions, and the two icon buttons beside it are momentary actions. */
+.askdetail{display:flex;align-items:center;gap:4px;flex:none;font-size:11px;color:var(--muted);
+ white-space:nowrap;cursor:pointer;user-select:none}
+.askdetail input{margin:0;cursor:pointer}
+/* WHERE THE ANSWER CAME FROM. An answer with no model behind it is a stronger claim, not a weaker
+   one, so it is labelled rather than left to look like every other bubble. */
+.measured{margin-top:5px;font-size:11px;color:var(--ok,#3fb950);opacity:.95}
+.langsel{background:var(--surface2);color:var(--text);border:1px solid var(--border);
+         border-radius:6px;padding:4px 5px;font-size:11.5px;flex:1 1 0;min-width:0;
+         text-overflow:ellipsis}
+/* A NARROW WINDOW MUST NOT SILENTLY SWALLOW THE PANE. The first version hid it outright below
+   1100px, so ticking the box did nothing visible at all and the feature looked absent rather than
+   unavailable - which is the exact complaint it produced. Something a person just switched on has to
+   appear. So the LEFT rail yields instead: the lesson list is a few clicks away, the pane the viewer
+   just asked for is not. */
+#app:where(.ap-w1100).hasask{grid-template-columns:0 0 1fr var(--hx,6px) var(--askw,340px)}#app:where(.ap-w1100).hasask #browse,#app:where(.ap-w1100).hasask #railsplitx{
+                              width:0;padding:0;border:0;overflow:hidden;
+                              pointer-events:none}
+#app:where(.ap-w760).hasask{grid-template-columns:0 0 1fr 0 0}#app:where(.ap-w760).hasask #ask{position:fixed;inset:0 0 0 auto;width:min(92vw,360px);
+                                          z-index:40;box-shadow:-8px 0 24px rgba(0,0,0,.45)}
+#app:where(.ap-w820){grid-template-columns:1fr;height:auto}:where(#app.ap-w820) .hsplit{width:0;padding:0;border:0;overflow:hidden;pointer-events:none}:where(#app.ap-w820) #browse{border-right:0;border-bottom:1px solid var(--border)}
+
+
+/* ======================================================================== the component (v28.3)
+   Everything below is chrome the COMPONENT owns: strips, panes, toggles, the slot layer and the selection cursor.
+   Nothing here sizes or places LESSON content (badge, cards, subtitles, slots): that is the spec's
+   (gates/overlay_check no_layout_in_player). Host theming crosses the shadow boundary only through the documented
+   custom properties --ap-accent, --ap-font, --ap-surface and --ap-text. */
+:host{--accent:var(--ap-accent,#E8B418);--font:var(--ap-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Noto Sans Arabic",sans-serif);
+      --surface:var(--ap-surface,#161B22);--text:var(--ap-text,#E6EDF3)}
+.ap-root{background:var(--bg);color:var(--text);font-family:var(--font);font-size:14px;line-height:1.45}
+/* strips, hidden by the HOST only */
+#app.ap-noplay #bar{display:none}
+#app.ap-nocontrols #axes{display:none}
+/* panes: collapsed, never removed from the grid (the positional-column rule above) */
+#app.ap-nonav{grid-template-columns:0 0 1fr}
+#app.ap-nonav.hasask{grid-template-columns:0 0 1fr var(--hx,6px) var(--askw,380px)}
+#app.ap-nonav #browse,#app.ap-nonav #railsplitx{width:0;padding:0;border:0;overflow:hidden;pointer-events:none}
+#app.ap-noinfo #about,#app.ap-noinfo #note{display:none}
+#app.ap-noscript #script{display:none!important}
+#app:not(.hasask) #asksplitx{width:0;pointer-events:none}
+/* the legacy controls stay in the DOM for existing tools; people use the icon toggles */
+.ap-legacy{display:none!important}
+/* toggles: small icon buttons with tooltips */
+.ap-tgls{display:flex;gap:6px;align-items:center}
+#bar .ap-tgls{margin-inline-start:auto}
+#axes .ap-tgls{align-self:flex-end;margin-inline-start:auto}
+#bar button.ap-tgl,#axes button.ap-tgl,button.ap-tgl{width:32px;height:32px;min-width:32px;padding:0;border-radius:7px;
+  border:1px solid var(--border);background:var(--surface2);color:var(--text);font-weight:500;font-size:15px;
+  line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;flex:none}
+#bar button.ap-tgl[aria-pressed=true],#axes button.ap-tgl[aria-pressed=true],button.ap-tgl[aria-pressed=true]{
+  border-color:var(--accent);color:var(--accent);box-shadow:inset 0 -2px 0 var(--accent)}
+button.ap-tgl:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.ap-hostslot{display:contents}
+/* the overlay-tier slots (package 07): the layer is positioned over the frame; each slot from its declaration */
+.ap-slots{position:absolute;inset:0;pointer-events:none;z-index:7}
+.ap-slot{position:absolute;display:block;visibility:hidden;text-align:center;opacity:0;transition:opacity .3s,visibility 0s .3s}
+.ap-slot.on{visibility:visible;opacity:1;transition:opacity .3s,visibility 0s}
+/* selection mode */
+#app.ap-selecting #stagewrap{cursor:crosshair}
+.ap-root:focus{outline:none}

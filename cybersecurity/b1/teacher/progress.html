@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Progress importer · Cybersecurity B1</title>
+<link rel="stylesheet" href="../assets/css/app.css">
+<script>window.CSB1_BASE='../';window.CSB1_MEDIA='https://kareemkhorbatli101.github.io/Animated-Courses-Media-cybersecurity/';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/js/scene.js"></script>
+<script src="../assets/data/unit1/voices.js"></script>
+<script src="../assets/data/unit1/audio.js"></script>
+<script src="../assets/data/unit1/glossary.js"></script>
+<script src="../assets/data/unit1/ar.js"></script>
+<script src="../assets/data/unit1/scenes.js"></script>
+<script src="../assets/data/unit1/l1-s1-study-skills.js"></script>
+<script src="../assets/data/unit1/l1-s2-career-pathways.js"></script>
+<script src="../assets/data/unit1/l2-s1-prepare-to-write.js"></script>
+<script src="../assets/data/unit1/l2-s2-plan-and-write.js"></script>
+<script src="../assets/data/unit1/l2-s3-feedback-revise.js"></script>
+<script src="../assets/data/unit1/l3-s1-present-past-forms.js"></script>
+<script src="../assets/data/unit1/l3-s2-yesno-questions.js"></script>
+<script src="../assets/data/unit1/l3-s3-listen-for-tenses.js"></script>
+<script src="../assets/data/unit1/l3-s4-use-verb-forms.js"></script>
+<script src="../assets/data/unit1/l4-s1-career-talk.js"></script>
+<script src="../assets/data/unit1/l4-s2-pronunciation.js"></script>
+<script src="../assets/data/unit1/l4-s3-adjectives-adverbs.js"></script>
+<script src="../assets/data/unit1/l4-s4-conversation-skills.js"></script>
+<script src="../assets/data/unit1/l4-s5-listening-details.js"></script>
+<script src="../assets/data/unit1/l4-s6-discuss.js"></script>
+<script src="../assets/data/unit1/l5-s1-read-ask-allison.js"></script>
+<script src="../assets/data/unit1/l5-s2-word-study-dis.js"></script>
+<script src="../assets/data/unit1/l5-s3-talk-it-over.js"></script>
+<script src="../assets/data/unit1/atwork-s1-active-listening.js"></script>
+<script src="../assets/data/unit1/review-s1-teamwork.js"></script>
+<script src="../assets/data/unit1/review-s2-problem-solving.js"></script>
+</head>
+<body>
+<script>
+(function(){
+  var U = CSB1.util, el = U.el, art = CSB1.art, esc = U.esc;
+  CSB1.chrome = { refresh:function(){} };
+
+  var bar = el('header','topbar'), w1 = el('div','wrap');
+  var brand = el('a','brand'); brand.href='../index.html';
+  brand.innerHTML = art.logo()+'<span>Cybersecurity B1</span>';
+  w1.appendChild(brand);
+  w1.appendChild(el('div','crumbs','<span class="sep">▸</span><span>Teacher · progress importer</span>'));
+  w1.appendChild(el('div','spacer'));
+  var ak = el('a','btn btn-sm btn-ghost', art.icon('book',16)+'Answer key');
+  ak.href='answers-unit1.html';
+  w1.appendChild(ak);
+  bar.appendChild(w1);
+  document.body.appendChild(bar);
+
+  var main = el('main','page-main'), wrap = el('div','wrap');
+  wrap.appendChild(el('div','page-head',
+    '<div class="eyebrow">Teacher pack</div><h1>Progress importer</h1>'+
+    '<p class="wc">A learner exports a single JSON file from the Unit 1 page. Drop it here to read their scores and everything they wrote. Nothing is uploaded anywhere — the file is read in this browser.</p>'));
+
+  var drop = el('div','card');
+  var db = el('div','card-body');
+  db.style.paddingTop='24px';
+  db.style.textAlign='center';
+  db.innerHTML = '<div style="color:var(--primary);margin-bottom:10px">'+art.icon('map',34)+'</div>'+
+    '<p>Drop the <code>cybersecurity-b1-progress.json</code> file here, or choose it below.</p>';
+  var fi = el('input'); fi.type='file'; fi.accept='.json,application/json';
+  fi.className='inp'; fi.style.maxWidth='340px'; fi.style.margin='0 auto';
+  db.appendChild(fi);
+  drop.appendChild(db);
+  wrap.appendChild(drop);
+
+  var out = el('div');
+  wrap.appendChild(out);
+
+  function fmt(v){
+    if (v === null || v === undefined) return '—';
+    if (typeof v === 'string') return v || '—';
+    if (Array.isArray(v)) return v.map(fmt).filter(function(x){return x && x!=='—';}).join('  ·  ') || '—';
+    if (typeof v === 'object') {
+      return Object.keys(v).map(function(k){ return k+': '+fmt(v[k]); }).join('  ·  ');
+    }
+    return String(v);
+  }
+
+  function render(data){
+    out.innerHTML = '';
+    var prog = data.progress || data;
+    var ORDER = Object.keys(CSB1.pages);
+    var totalDone = 0, totalCards = 0, mastered = 0, helped = 0;
+    ORDER.forEach(function(pid){
+      var def = CSB1.pages[pid], rec = prog[pid];
+      totalCards += def.cards.length;
+      if (!rec) return;
+      def.cards.forEach(function(c){
+        var cr = rec.cards && rec.cards[c.id];
+        if (!cr) return;
+        if (cr.done) totalDone++;
+        if (cr.mastered) mastered++;
+        if (cr.helped) helped++;
+      });
+    });
+
+    var sum = el('div','card');
+    var sb = el('div','card-body');
+    sb.style.paddingTop='22px';
+    sb.innerHTML = '<div class="eyebrow">Summary</div>'+
+      '<div style="display:flex;gap:30px;flex-wrap:wrap;margin-top:8px">'+
+      '<div><div style="font:800 30px/1 var(--ui);color:var(--primary)">'+totalDone+' / '+totalCards+'</div><div class="wc">activities completed</div></div>'+
+      '<div><div style="font:800 30px/1 var(--ui);color:var(--ok)">'+mastered+'</div><div class="wc">mastered first time, unaided</div></div>'+
+      '<div><div style="font:800 30px/1 var(--ui);color:var(--hint)">'+helped+'</div><div class="wc">completed with a hint or Show me</div></div>'+
+      '<div><div style="font:800 30px/1 var(--ui)">'+esc(data.saved ? new Date(data.saved).toLocaleString() : '—')+'</div><div class="wc">exported</div></div>'+
+      '</div>';
+    sb.appendChild((function(){
+      var b = el('button','btn btn-sm', art.icon('print',15)+'Print this report');
+      b.style.marginTop='14px';
+      b.onclick=function(){window.print();};
+      return b;
+    })());
+    sum.appendChild(sb);
+    out.appendChild(sum);
+
+    ORDER.forEach(function(pid){
+      var def = CSB1.pages[pid], rec = prog[pid];
+      if (!rec || !rec.cards) return;
+      var any = Object.keys(rec.cards).length;
+      if (!any) return;
+      var block = el('div','lesson-block');
+      block.innerHTML = '<h2>'+esc(def.book.lesson)+' · §'+esc(def.book.section)+' — '+esc(def.book.title)+'</h2>';
+      var tbl = el('div','matrix-wrap');
+      tbl.innerHTML = '<table class="tbl"><thead><tr><th>Ex.</th><th>Activity</th><th>Score</th><th>Tries</th><th>Status</th><th>What they wrote / did</th></tr></thead><tbody>'+
+        def.cards.map(function(c){
+          var cr = rec.cards[c.id];
+          if (!cr) return '<tr style="opacity:.5"><td>'+esc(c.ref||'')+'</td><td>'+esc(c.title||'')+'</td><td colspan="4">not started</td></tr>';
+          var status = cr.mastered ? '<b style="color:var(--ok)">★ mastered</b>'
+            : cr.done ? (cr.helped ? '<b style="color:var(--hint)">done with help</b>' : '<b style="color:var(--ok)">done</b>')
+            : '<b style="color:var(--no)">in progress</b>';
+          return '<tr><td><b>'+esc(c.ref||'')+'</b></td><td>'+esc(c.title||'')+'</td>'+
+            '<td>'+(cr.max?cr.score+' / '+cr.max:'—')+'</td><td>'+(cr.attempts||0)+'</td><td>'+status+'</td>'+
+            '<td style="max-width:420px;font-size:13px">'+esc(fmt(cr.state)).slice(0,900)+'</td></tr>';
+        }).join('')+'</tbody></table>';
+      block.appendChild(tbl);
+      out.appendChild(block);
+    });
+  }
+
+  function read(file){
+    var r = new FileReader();
+    r.onload = function(){
+      try { render(JSON.parse(r.result)); CSB1.toast('Report ready.'); }
+      catch(e){ CSB1.toast('That file could not be read: '+e.message, 4000); }
+    };
+    r.readAsText(file);
+  }
+  fi.addEventListener('change', function(){ if (fi.files[0]) read(fi.files[0]); });
+  ['dragenter','dragover'].forEach(function(ev){
+    drop.addEventListener(ev, function(e){ e.preventDefault(); drop.style.borderColor='var(--primary)'; });
+  });
+  drop.addEventListener('dragleave', function(){ drop.style.borderColor=''; });
+  drop.addEventListener('drop', function(e){
+    e.preventDefault(); drop.style.borderColor='';
+    if (e.dataTransfer.files[0]) read(e.dataTransfer.files[0]);
+  });
+
+  var load = el('div','btn-row');
+  var mine = el('button','btn', art.icon('eye',16)+'Show the progress saved in this browser');
+  mine.onclick = function(){ render({ saved:new Date().toISOString(), progress: CSB1.progress.all }); };
+  load.appendChild(mine);
+  db.appendChild(load);
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+})();
+</script>
+</body>
+</html>

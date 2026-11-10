@@ -1,0 +1,174 @@
+{
+ "schema": "timeline/1",
+ "duration": 116.221,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.096,
+    "en": "This is Part 1, Pronunciation.",
+    "ar": "هذا الجزء الأوّل، النطق."
+   },
+   {
+    "start": 11.436,
+    "dur": 3.528,
+    "en": "Watch my mouth, and say each word in the quiet.",
+    "ar": "راقب فمي، وقل كلّ كلمة في الصمت."
+   },
+   {
+    "start": 15.314,
+    "dur": 3.096,
+    "en": "Listen to six words from this unit.",
+    "ar": "استمع إلى ستّ كلمات من هذه الوحدة."
+   },
+   {
+    "start": 18.76,
+    "dur": 3.6,
+    "en": "The loud part of each word is in capital letters.",
+    "ar": "الجزء القويّ من كلّ كلمة مكتوب بأحرف كبيرة."
+   },
+   {
+    "start": 22.71,
+    "dur": 3.864,
+    "en": "VE-hi-cle. Say it after me.",
+    "ar": "كلمة «مركبة». قلها بعدي."
+   },
+   {
+    "start": 31.045,
+    "dur": 5.832,
+    "en": "VE-hi-cle. Three syllables. The first is loud.",
+    "ar": "ثلاثة مقاطع، والمقطع الأوّل هو الأقوى."
+   },
+   {
+    "start": 37.227,
+    "dur": 3.744,
+    "en": "EN-gine. Say it after me.",
+    "ar": "كلمة «محرّك». قلها بعدي."
+   },
+   {
+    "start": 45.382,
+    "dur": 5.64,
+    "en": "EN-gine. Two syllables. The first is loud.",
+    "ar": "مقطعان، والمقطع الأوّل هو الأقوى."
+   },
+   {
+    "start": 51.372,
+    "dur": 3.816,
+    "en": "me-CHAN-ic. Say it after me.",
+    "ar": "كلمة «ميكانيكي». قلها بعدي."
+   },
+   {
+    "start": 59.718,
+    "dur": 5.784,
+    "en": "me-CHAN-ic. Three syllables. The second is loud.",
+    "ar": "ثلاثة مقاطع، والمقطع الثاني هو الأقوى."
+   },
+   {
+    "start": 65.852,
+    "dur": 3.84,
+    "en": "BAT-ter-y. Say it after me.",
+    "ar": "كلمة «بطارية». قلها بعدي."
+   },
+   {
+    "start": 74.162,
+    "dur": 5.808,
+    "en": "BAT-ter-y. Three syllables. The first is loud.",
+    "ar": "ثلاثة مقاطع، والمقطع الأوّل هو الأقوى."
+   },
+   {
+    "start": 80.32,
+    "dur": 3.84,
+    "en": "SER-vice. Say it after me.",
+    "ar": "كلمة «صيانة». قلها بعدي."
+   },
+   {
+    "start": 88.631,
+    "dur": 5.736,
+    "en": "SER-vice. Two syllables. The first is loud.",
+    "ar": "مقطعان، والمقطع الأوّل هو الأقوى."
+   },
+   {
+    "start": 94.717,
+    "dur": 3.936,
+    "en": "CUS-to-mer. Say it after me.",
+    "ar": "كلمة «زبون». قلها بعدي."
+   },
+   {
+    "start": 103.182,
+    "dur": 5.904,
+    "en": "CUS-to-mer. Three syllables. The first is loud.",
+    "ar": "ثلاثة مقاطع، والمقطع الأوّل هو الأقوى."
+   },
+   {
+    "start": 109.437,
+    "dur": 5.184,
+    "en": "Well done. Say the loud part a little longer and stronger.",
+    "ar": "أحسنت. قل الجزء القويّ أطول قليلاً وأقوى."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 35.427,
+    "hold": 12.96,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 49.572,
+    "hold": 13.15,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 64.052,
+    "hold": 13.11,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 78.52,
+    "hold": 13.11,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

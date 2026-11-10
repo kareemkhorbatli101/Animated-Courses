@@ -1,0 +1,237 @@
+{
+ "schema": "timeline/1",
+ "duration": 138.105,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.312,
+    "en": "This is Part 3, A Day at Cham Motors.",
+    "ar": "هذا الجزء الثالث، يوم في شام موتورز."
+   },
+   {
+    "start": 11.652,
+    "dur": 2.88,
+    "en": "Maher talks to the team in the morning.",
+    "ar": "ماهر يتحدّث إلى الفريق في الصباح."
+   },
+   {
+    "start": 14.882,
+    "dur": 3.264,
+    "en": "Listen for what each person is doing now.",
+    "ar": "استمع لما يفعله كلّ شخص الآن."
+   },
+   {
+    "start": 18.496,
+    "dur": 7.008,
+    "en": "Before you listen. Who works in a car service department? Name two jobs.",
+    "ar": "قبل أن تستمع. من يعمل في قسم صيانة السيارات؟ اذكر وظيفتين."
+   },
+   {
+    "start": 32.739,
+    "dur": 5.064,
+    "en": "A mechanic and a service advisor. Listen for more jobs.",
+    "ar": "الميكانيكي ومستشار الخدمة. استمع إلى وظائف أخرى."
+   },
+   {
+    "start": 38.153,
+    "dur": 4.416,
+    "en": "Good morning, everyone. Today we are busy.",
+    "ar": "صباح الخير جميعاً. اليوم نحن مشغولون."
+   },
+   {
+    "start": 42.919,
+    "dur": 3.384,
+    "en": "Nabil is servicing Mr Aboud's car.",
+    "ar": "نبيل يقوم بصيانة سيارة السيد عبّود."
+   },
+   {
+    "start": 46.653,
+    "dur": 3.936,
+    "en": "Tarek, you are new here, so today you watch and learn.",
+    "ar": "طارق، أنت جديد هنا، لذلك اليوم تشاهد وتتعلّم."
+   },
+   {
+    "start": 50.939,
+    "dur": 4.032,
+    "en": "Lina is finding a fault on another car with the computer.",
+    "ar": "لينا تبحث عن عطل في سيارة أخرى بالحاسوب."
+   },
+   {
+    "start": 55.321,
+    "dur": 3.552,
+    "en": "Rana is talking to customers at reception.",
+    "ar": "رنا تتحدّث مع الزبائن في الاستقبال."
+   },
+   {
+    "start": 59.223,
+    "dur": 3.264,
+    "en": "I am checking the job cards in the office.",
+    "ar": "أنا أراجع بطاقات العمل في المكتب."
+   },
+   {
+    "start": 62.837,
+    "dur": 4.752,
+    "en": "We work as a team, and every day we look after our customers' cars.",
+    "ar": "نعمل كفريق، وكلّ يوم نعتني بسيارات زبائننا."
+   },
+   {
+    "start": 67.939,
+    "dur": 3.888,
+    "en": "Remember: we always keep the workshop clean and safe,",
+    "ar": "تذكّروا: نحافظ دائماً على الورشة نظيفة وآمنة،"
+   },
+   {
+    "start": 72.177,
+    "dur": 2.52,
+    "en": "and we always check our work.",
+    "ar": "ونتحقّق دائماً من عملنا."
+   },
+   {
+    "start": 75.047,
+    "dur": 3.672,
+    "en": "Now, match each person with what they are doing now.",
+    "ar": "الآن، طابِق كلّ شخص مع ما يفعله الآن."
+   },
+   {
+    "start": 79.069,
+    "dur": 4.896,
+    "en": "Here is an example. Maher is checking the job cards.",
+    "ar": "هذا مثال. ماهر يراجع بطاقات العمل."
+   },
+   {
+    "start": 84.315,
+    "dur": 2.472,
+    "en": "What is Nabil doing now?",
+    "ar": "ماذا يفعل نبيل الآن؟"
+   },
+   {
+    "start": 91.199,
+    "dur": 2.424,
+    "en": "He is servicing a car.",
+    "ar": "إنّه يقوم بصيانة سيارة."
+   },
+   {
+    "start": 93.973,
+    "dur": 2.208,
+    "en": "What is Tarek doing?",
+    "ar": "ماذا يفعل طارق؟"
+   },
+   {
+    "start": 100.358,
+    "dur": 2.376,
+    "en": "He is watching and learning.",
+    "ar": "إنّه يشاهد ويتعلّم."
+   },
+   {
+    "start": 103.084,
+    "dur": 2.136,
+    "en": "What is Lina doing?",
+    "ar": "ماذا تفعل لينا؟"
+   },
+   {
+    "start": 109.337,
+    "dur": 3.024,
+    "en": "She is finding a fault with the computer.",
+    "ar": "إنّها تبحث عن عطل بالحاسوب."
+   },
+   {
+    "start": 112.711,
+    "dur": 2.112,
+    "en": "What is Rana doing?",
+    "ar": "ماذا تفعل رنا؟"
+   },
+   {
+    "start": 118.941,
+    "dur": 3.288,
+    "en": "She is talking to customers at reception.",
+    "ar": "إنّها تتحدّث مع الزبائن في الاستقبال."
+   },
+   {
+    "start": 122.579,
+    "dur": 4.056,
+    "en": "One action is not needed. Which one?",
+    "ar": "هناك فعل واحد غير مطلوب. أيّ واحد؟"
+   },
+   {
+    "start": 131.753,
+    "dur": 4.752,
+    "en": "Cleaning the tools. Nobody is cleaning the tools.",
+    "ar": "تنظيف الأدوات. لا أحد ينظّف الأدوات."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 19.371,
+    "hold": 13.32,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 58.261,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 67.689,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 91.199,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 118.941,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
