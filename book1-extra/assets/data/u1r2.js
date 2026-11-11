@@ -1,0 +1,71 @@
+AHL.lesson({
+id:"u1r2", unit:1, kind:"reading", n:2,
+title:"Six sectors, one group",
+strap:"What is inside a holding group, and why each company does one thing.",
+tags:["the Group","sectors","there is / are"],
+pre:[
+ {t:"multi", q:"Which of these are sectors of Al-Hasan? (Choose three.)",
+  opts:["industry","trade","tourism","farming"], a:[0,1,2],
+  why:"The six are industry, trade, energy, construction, tourism and services."},
+ {t:"mcq", q:"Which sentence is correct?",
+  opts:["There are six sectors.","There is six sectors.","There have six sectors.","It are six sectors."],
+  a:0},
+ {t:"match", q:"Match the company to its work.",
+  pairs:[["Komosh","it moves the goods"],["Bashak","it buys and sells abroad"],
+         ["the cement company","it makes cement"],["the depot","it keeps the goods"]]}
+],
+paras:[
+ "Al-Hasan Holding Group is in Damascus. It is one big company, and inside it there are many small companies.",
+ "The Group works in six sectors: industry, trade, energy, construction, tourism and services. There is a company for each kind of work. One company makes cement. One company makes iron and steel. Komosh moves the goods from place to place. Bashak buys and sells abroad.",
+ "Why is this a good idea? Because each company does one thing, and it does that one thing well. The cement company thinks only about cement. The transport company thinks only about transport.",
+ "The companies also help each other. When Bashak sells cement to a partner abroad, the cement company makes it, and Komosh moves it to the port. There is no problem, because they are in the same group.",
+ "Mr. Adnan, the Founder, says, “A holding group is like a football team. Every player has got a job. They play together, and together they are strong.”",
+ "Today the Group has got partners in many countries. It sells cement, iron and steel. Its motto is simple: Solid Values, Unlimited Ambitions."
+],
+gloss:[["abroad","in another country"],["motto","a short sentence that says what a company believes"],
+       ["goods","the things a company buys and sells"],["port","the place where ships come and go"]],
+comp:[
+ {t:"mcq", q:"How many sectors has the Group got?",
+  opts:["Six","Three","Ten","Twelve"], a:0},
+ {t:"match", q:"Match the company to its job in the text.",
+  pairs:[["Komosh","moves the goods"],["Bashak","buys and sells abroad"],
+         ["the cement company","makes the cement"],["the Group","owns all of them"]]},
+ {t:"tf", q:"In a holding group, one company does everything.", a:false,
+  why:"Each company does one thing, and does it well."},
+ {t:"mcq", q:"Why do the companies help each other easily?",
+  opts:["Because they are in the same group",
+        "Because they are in the same street",
+        "Because they have the same manager",
+        "Because they make the same product"],
+  a:0},
+ {t:"gap", q:"Complete the sentence from the text.",
+  gaps:[{before:"A holding group is like a ", after:" team.", a:["football"]}]},
+ {t:"short", q:"Say in your own words why one company making only cement is a good idea.",
+  model:"Because it thinks about nothing else, so it learns to make cement very well — and the other companies in the group can buy it from a company they trust."}
+],
+words:[
+ {t:"gap", q:"Complete with there is or there are.",
+  bank:["there is","there are"],
+  gaps:[{before:"", after:" six sectors in the Group.", a:["there are"]},
+        {before:"", after:" a company for each kind of work.", a:["there is"]},
+        {before:"", after:" many partners in other countries.", a:["there are"]},
+        {before:"", after:" no problem, because they are one group.", a:["there is"]}]},
+ {t:"mcq", q:"“Abroad” means …",
+  opts:["in another country","in the office","in the factory","in the port"], a:0},
+ {t:"match", q:"Match the two halves.",
+  pairs:[["The Group has got","six sectors"],["Komosh moves","the goods"],
+         ["Bashak sells","abroad"],["The motto is","Solid Values, Unlimited Ambitions"]]}
+],
+post:[
+ {t:"order", q:"Put the journey of one bag of cement in order.",
+  items:["Bashak sells the cement to a partner abroad",
+         "The cement company makes the cement",
+         "Komosh takes it to the port",
+         "The ship carries it to the partner’s country",
+         "The partner receives the cement"]},
+ {t:"write", q:"Write six sentences about your own company or school. Use there is, there are, and has got.",
+  model:"My company is in Homs. It has got three departments: sales, production and finance. There are forty people in the company. There is one factory and one office. We make windows and doors. Our customers are in Syria and in Lebanon."},
+ {t:"short", q:"Mr. Adnan compares the Group to a football team. Give one other good comparison and say why.",
+  model:"A kitchen in a restaurant: one person cooks the meat, one makes the bread, one washes. Each does one job well, and the meal only works when all of them do it together."}
+]
+});

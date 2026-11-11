@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u2r6", unit:2, kind:"reading", n:6,
+title:"Strong, heavy, or high-quality?",
+strap:"Three words that customers use to mean one thing — and they do not mean the same thing.",
+tags:["adjectives","quality","selling"],
+pre:[
+ {t:"match", q:"Match the adjective to the question it answers.",
+  pairs:[["strong","does it break?"],["heavy","how much does it weigh?"],
+         ["thick","how deep is it?"],["high-quality","is it well made?"]]},
+ {t:"mcq", q:"Which two words mean almost the same?",
+  opts:["high-quality and well made","heavy and strong","thick and strong","heavy and good"], a:0},
+ {t:"mcq", q:"Before you read: a customer says “I want the heavy one.” What might they really want?",
+  opts:["The strong one — people often say heavy when they mean strong",
+        "The cheap one","The big one","The new one"], a:0}
+],
+paras:[
+ "A builder comes to the counter. “I want heavy steel,” he says.",
+ "Ms. Maya does not bring heavy steel. She asks, “What is it for?” “For the roof,” says the builder.",
+ "A roof does not want heavy steel. A roof wants light steel that is strong. Heavy steel on a roof is a problem: the building carries it all year, and it costs more to lift.",
+ "People often say heavy when they mean strong. They are not the same. A piece of iron is heavy. A piece of good steel is strong. One kilo of good steel can be stronger than three kilos of iron.",
+ "And high-quality? That means well made: the right size every time, the right grade, no bad pieces in the pallet. A high-quality sheet is not thicker than a cheap sheet. It is more exactly what it says it is.",
+ "So Ms. Maya keeps three questions behind the counter. What is it for? How strong must it be? And how much weight can the building carry? Nobody ever answers all three at first — but by the end, the customer knows what they want, and so does she."
+],
+gloss:[["counter","the table in a shop where you serve customers"],
+       ["to lift","to pick something up"],["exactly","with no difference at all"],
+       ["to carry","to hold the weight of something"]],
+comp:[
+ {t:"mcq", q:"What does the builder ask for, and what does he need?",
+  opts:["He asks for heavy steel; he needs light, strong steel",
+        "He asks for light steel; he needs heavy steel",
+        "He asks for cheap steel; he needs expensive steel",
+        "He asks for sheet; he needs bar"],
+  a:0},
+ {t:"multi", q:"Why is heavy steel a problem on a roof? (Two answers.)",
+  opts:["The building carries the weight all year","It costs more to lift",
+        "It is always weaker","It is never available"], a:[0,1]},
+ {t:"tf", q:"High-quality steel is always thicker than cheap steel.", a:false,
+  why:"High-quality means it is exactly what it says it is — the right size and grade every time — not thicker."},
+ {t:"gap", q:"Complete the comparison.",
+  gaps:[{before:"One kilo of good steel can be stronger than ", after:" kilos of iron.", a:["three","3"]}]},
+ {t:"multi", q:"What are Ms. Maya’s three questions? (Three answers.)",
+  opts:["What is it for?","How strong must it be?","How much weight can the building carry?","How much can you pay?"],
+  a:[0,1,2]},
+ {t:"short", q:"Why does the text say nobody answers all three questions at first?",
+  model:"Because customers come with a product in mind, not with a problem described. The questions make them explain the job, and the right product appears while they do it."}
+],
+words:[
+ {t:"gap", q:"Complete with the right adjective.",
+  bank:["strong","heavy","light","high-quality"],
+  gaps:[{before:"A roof needs steel that is ", after:" but not heavy.", a:["strong"]},
+        {before:"Iron is ", after:" for its size.", a:["heavy"]},
+        {before:"Sheet is thin and ", after:".", a:["light"]},
+        {before:"A ", after:" pallet has no bad pieces in it.", a:["high-quality"]}]},
+ {t:"mcq", q:"Which sentence compares correctly?",
+  opts:["This steel is stronger than that one.","This steel is more strong than that one.",
+        "This steel is stronger that that one.","This steel is the stronger than."], a:0},
+ {t:"match", q:"Match the word to a better, clearer word.",
+  pairs:[["good","the right grade for the job"],["big","2 m × 6 m"],
+         ["a lot","240 tonnes"],["soon","on Tuesday morning"]]}
+],
+post:[
+ {t:"order", q:"Put Ms. Maya’s counter method in order.",
+  items:["Listen to the word the customer uses",
+         "Ask what the product is for",
+         "Ask how strong it must be",
+         "Ask what weight the building can carry",
+         "Offer the product that fits all three answers"]},
+ {t:"write", q:"A customer asks for “good, strong, heavy” material. Write the four questions you ask, and say what each one finds out.",
+  model:"1. What is it for? — finds the real job. 2. What size do you need? — turns “big” into millimetres. 3. How much weight can it carry, or sit on? — tests whether heavy is wanted or feared. 4. Who used it before, and was it right? — finds out what “good” means to this customer."},
+ {t:"short", q:"Replacing a customer’s word with a number is useful. When might it be rude, and how do you avoid that?",
+  model:"If it sounds like a correction. Avoid it by asking rather than telling — “when you say heavy, do you mean strong enough to carry the roof?” — so the customer arrives at the number themselves."}
+]
+});
