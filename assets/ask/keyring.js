@@ -85,12 +85,26 @@
       return k ? (k.slice(0, 4) + '…' + k.slice(-4)) : '';
     },
 
-    /* A shape check only, offered before a request is spent. Google's keys are long and
-     * alphanumeric with - and _; this rejects an empty box or a pasted sentence, and it
-     * deliberately does NOT claim the key is valid - only the API can say that. */
+    /* A shape check only, offered before a request is spent. It rejects an empty box and a
+     * pasted sentence; it does NOT claim the key is valid, because only the API can say that.
+     *
+     * IT IS DELIBERATELY PERMISSIVE, and it was not at first. The original read
+     *
+     *     v.length >= 30 && /^[A-Za-z0-9_\-]+$/.test(v)
+     *
+     * which was written against the `AIza...` format and would have REJECTED THE OWNER'S OWN
+     * KEY, because AI Studio now also issues keys of the form `AQ.Ab8RN6K-...` and that regex
+     * forbids the dot. The box would have told a person with a perfectly good key that it did
+     * not look like one - the worst kind of validator, the kind that is confidently wrong
+     * about something it never measured.
+     *
+     * So the rule is now the one thing actually known about every key: it is one long run of
+     * characters with no whitespace in it. A sentence pasted by mistake has spaces; an empty
+     * box has nothing. Anything else is for Google to judge, and its answer is already turned
+     * into a readable sentence by gemini.js. A future key format cannot break this. */
     looksLikeAKey: function (v) {
       v = String(v == null ? '' : v).trim();
-      return v.length >= 30 && /^[A-Za-z0-9_\-]+$/.test(v);
+      return v.length >= 30 && !/\s/.test(v);
     }
   };
 

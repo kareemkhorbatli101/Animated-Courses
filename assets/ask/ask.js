@@ -133,7 +133,9 @@
     inp.type = 'password';
     inp.autocomplete = 'off';
     inp.spellcheck = false;
-    inp.placeholder = 'AIza…';
+    // AI Studio issues more than one shape - older keys begin AIza..., newer ones AQ....
+    // Naming only the one I had seen is what made the first validator reject a real key.
+    inp.placeholder = 'AQ.… or AIza…';
     box.appendChild(lab);
     box.appendChild(inp);
 
@@ -170,8 +172,8 @@
     save.addEventListener('click', function () {
       var v = inp.value;
       if (!K.looksLikeAKey(v)) {
-        err.textContent = 'That does not look like a key. It is one long line of letters ' +
-                          'and numbers, copied whole from AI Studio.';
+        err.textContent = 'That does not look like a key. It is one long line with no ' +
+                          'spaces, copied whole from AI Studio - use its "Copy key" button.';
         err.style.display = '';
         return;
       }
