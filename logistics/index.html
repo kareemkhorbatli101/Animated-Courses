@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Al-Hasan Logistics · Shipping and Receiving</title>
+<meta name="description" content="Six readings and six listenings on what goes wrong in shipping and receiving, with audio read by your own computer's voices.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#/" aria-label="Home">
+    <span class="mark" aria-hidden="true">AH</span>
+    <span class="bname">Al-Hasan International</span>
+  </a>
+  <span class="course">Logistics · Shipping &amp; Receiving</span>
+  <button id="btn-reset-all" class="ghost" type="button">Reset all</button>
+</header>
+
+<main id="view" class="wrap" tabindex="-1"></main>
+
+<div id="player" class="player" hidden>
+  <div class="pl-inner">
+    <button id="pl-play" class="pl-btn primary" type="button" aria-label="Play">▶</button>
+    <button id="pl-stop" class="pl-btn" type="button" aria-label="Stop">■</button>
+    <div class="pl-meta">
+      <strong id="pl-title">Audio</strong>
+      <span id="pl-pos" class="muted"></span>
+    </div>
+    <label class="pl-field">Speed
+      <select id="pl-rate">
+        <option value="0.7">0.7×</option>
+        <option value="0.8">0.8×</option>
+        <option value="0.9" selected>0.9×</option>
+        <option value="1">1.0×</option>
+        <option value="1.15">1.15×</option>
+      </select>
+    </label>
+    <label class="pl-field">Voice A
+      <select id="pl-voice-a"></select>
+    </label>
+    <label class="pl-field" id="pl-field-b">Voice B
+      <select id="pl-voice-b"></select>
+    </label>
+  </div>
+  <div id="pl-warn" class="pl-warn" hidden></div>
+</div>
+
+<footer class="foot">
+  <p>Al-Hasan International — English for Trade, Industry &amp; Global Partnerships ·
+     CEFR B1 · runs offline, in this browser. Audio uses the voices installed on this computer.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/data/r1.js"></script>
+<script src="assets/data/r2.js"></script>
+<script src="assets/data/r3.js"></script>
+<script src="assets/data/r4.js"></script>
+<script src="assets/data/r5.js"></script>
+<script src="assets/data/r6.js"></script>
+<script src="assets/data/c1.js"></script>
+<script src="assets/data/c2.js"></script>
+<script src="assets/data/c3.js"></script>
+<script src="assets/data/c4.js"></script>
+<script src="assets/data/c5.js"></script>
+<script src="assets/data/c6.js"></script>
+<script>AHL.start();</script>
+</body>
+</html>

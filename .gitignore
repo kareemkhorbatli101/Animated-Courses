@@ -31,3 +31,6 @@ cma/CMA_Summaries_*.docx
 # The Part 2 delivery bundle: 43 files that are all tracked elsewhere.
 CMA_Part_2_Books_1_and_2.zip
 CMA_Part_2_Complete.zip
+
+# The logistics site bundle: unpacks to logistics/
+AlHasan_Logistics_Site.zip
