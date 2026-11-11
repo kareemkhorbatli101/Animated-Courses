@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u4r4", unit:4, kind:"reading", n:4,
+title:"Why a big order costs less",
+strap:"The same steel, two prices, and four reasons that are not kindness.",
+tags:["discount","quantity","numbers"],
+pre:[
+ {t:"mcq", q:"A discount is …",
+  opts:["money taken off the normal price","a free gift","a tax","a payment term"], a:0},
+ {t:"multi", q:"Why might a seller charge less for a bigger order? (Choose three.)",
+  opts:["the paperwork is the same for one order as for five",
+        "the freight per tonne is lower","one delivery instead of five",
+        "the seller likes the customer"], a:[0,1,2]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["We give a discount of five per cent.","We give a discount from five per cent.",
+        "We give five per cent of discount.","We give a five percent’s discount."], a:0}
+],
+paras:[
+ "Twenty tonnes costs six hundred and forty dollars a tonne. Four hundred tonnes costs six hundred and ten. Why?",
+ "Not kindness. Four reasons.",
+ "First, the paperwork. One order, one invoice, one customs file — the same work for four hundred tonnes as for twenty. That work costs about the same either way, so per tonne it is much less.",
+ "Second, the freight. A full container or a full ship costs less per tonne than a part load. The lorry is going anyway.",
+ "Third, the money. A big order is paid in one or two payments. Chasing twenty small customers costs time, and some of them pay late.",
+ "Fourth, the risk. A customer who takes four hundred tonnes is a customer who plans. The seller knows what is coming, and can buy from the mill with confidence.",
+ "So the discount is thirty dollars a tonne — twelve thousand dollars on the whole order. The seller gives it because the big order really is cheaper to serve. A discount with no reason behind it is just a lower price, and the next customer will want one too."
+],
+gloss:[["kindness","being nice"],["part load","less than a full lorry or container"],
+       ["to chase","to ask again and again for payment"],["confidence","being sure"]],
+comp:[
+ {t:"gap", q:"Complete the two prices.",
+  gaps:[{before:"20 tonnes: $", after:" a tonne.", a:["640"]},
+        {before:" 400 tonnes: $", after:" a tonne.", a:["610"]}]},
+ {t:"multi", q:"What are the four reasons? (Choose four.)",
+  opts:["the paperwork is the same","the freight per tonne is lower",
+        "fewer payments to chase","the customer plans ahead"], a:[0,1,2,3]},
+ {t:"gap", q:"Complete the total discount.",
+  gaps:[{before:"$30 a tonne on 400 tonnes is $", after:".", a:["12,000","12000"]}]},
+ {t:"tf", q:"The seller gives the discount because he likes the customer.", a:false,
+  why:"The text says “not kindness” and gives four cost reasons."},
+ {t:"mcq", q:"What is the danger of a discount with no reason?",
+  opts:["Every other customer will want one too",
+        "The customer will not believe it","It is illegal","Nothing"], a:0},
+ {t:"short", q:"A customer asks for the 400-tonne price on a 20-tonne order. What do you say?",
+  model:"That the lower price exists because a big order is genuinely cheaper to handle, and on twenty tonnes those savings do not happen. Then offer the real routes to it: a bigger order, a yearly commitment, or collecting from the depot."}
+],
+words:[
+ {t:"gap", q:"Complete with quantity words.",
+  bank:["a lot of","a few","a little","not many"],
+  gaps:[{before:"We have ", after:" cement in the depot.", a:["a lot of"]},
+        {before:"There are ", after:" plates left — three.", a:["a few"]},
+        {before:"We need ", after:" more time.", a:["a little"]},
+        {before:"", after:" customers order 400 tonnes.", a:["not many"]}]},
+ {t:"mcq", q:"Five per cent of $51,200 is …",
+  opts:["$2,560","$256","$5,120","$1,024"], a:0},
+ {t:"match", q:"Match the phrase to its meaning.",
+  pairs:[["per tonne","for each tonne"],["in total","all together"],
+         ["off the price","taken away from it"],["a part load","less than a full vehicle"]]}
+],
+post:[
+ {t:"order", q:"Put the reasoning for a discount in order.",
+  items:["Work out what the bigger order really saves you",
+         "Decide how much of that saving to pass on",
+         "Give the discount with the reason beside it",
+         "Write the quantity the discount belongs to",
+         "Keep the same rule for the next customer"]},
+ {t:"write", q:"Write your own discount rule in four lines: who gets one, how much, and why.",
+  model:"Orders of 40 doors or more: 5 per cent, because they fill one lorry and one invoice. Orders of 100 or more: 8 per cent, because we can make them in one run with one setting of the machines. Annual agreements: 8 per cent on every order, because we can plan the wood. No discount for asking — only for one of these three reasons."},
+ {t:"short", q:"The fourth reason is about planning, not money. How can a seller turn that into a price?",
+  model:"By offering the discount against a commitment rather than a single order — a yearly volume agreed in advance. The customer gets the lower price, and the seller gets the certainty that made it possible."}
+]
+});

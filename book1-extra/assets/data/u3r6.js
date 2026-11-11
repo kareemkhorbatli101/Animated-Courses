@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u3r6", unit:3, kind:"reading", n:6,
+title:"Different days, different hours",
+strap:"Friday in Damascus, Sunday in Milan, and the Tuesday that is really a Wednesday.",
+tags:["international","time","admin"],
+pre:[
+ {t:"match", q:"Match the country to its usual weekend.",
+  pairs:[["Syria","Friday and Saturday"],["Italy","Saturday and Sunday"],
+         ["Turkey","Saturday and Sunday"],["Jordan","Friday and Saturday"]]},
+ {t:"mcq", q:"Why does a time difference matter for business?",
+  opts:["Your morning can be the other side’s night","Because of customs",
+        "Because of the price","It does not matter"], a:0},
+ {t:"mcq", q:"Which is correct?",
+  opts:["Could we meet at ten o’clock your time?",
+        "Could we meet in ten o’clock your time?",
+        "Could we meet at ten o’clock in your time?",
+        "Could we meeting at ten your time?"], a:0}
+],
+paras:[
+ "Al-Hasan works with partners in Turkey, Italy and China. The clocks are different, and the weekends are different too.",
+ "In Damascus the working week is Sunday to Thursday. In Milan it is Monday to Friday. So Friday is a working day for Italy and not for Syria, and Sunday is a working day for Syria and not for Italy.",
+ "That gives four shared days a week: Monday, Tuesday, Wednesday, Thursday. Everything urgent must happen in those four days.",
+ "The clock matters too. Guangzhou is five hours ahead of Damascus. When Fadi writes at four in the afternoon, it is nine at night there. The answer comes the next morning, and the next morning in Guangzhou is the middle of Fadi’s night.",
+ "So the office has two rules. Write to China before eleven in the morning. And never say “tomorrow” in an email — say the date.",
+ "“Tomorrow” is a different day in two countries. The fourteenth of April is the fourteenth of April everywhere."
+],
+gloss:[["ahead","in front, in time"],["shared","that both sides have"],
+       ["urgent","it must happen quickly"],["the middle of the night","about 2 or 3 a.m."]],
+comp:[
+ {t:"mcq", q:"What is the working week in Damascus?",
+  opts:["Sunday to Thursday","Monday to Friday","Saturday to Wednesday","Sunday to Friday"], a:0},
+ {t:"multi", q:"Which days are shared with Milan? (Choose four.)",
+  opts:["Monday","Tuesday","Wednesday","Thursday"], a:[0,1,2,3]},
+ {t:"gap", q:"Complete the time difference.",
+  gaps:[{before:"Guangzhou is ", after:" hours ahead of Damascus.", a:["five","5"]}]},
+ {t:"mcq", q:"Why write to China before eleven in the morning?",
+  opts:["Because the office there is still open","Because the post goes at eleven",
+        "Because the price changes","Because of the weekend"], a:0},
+ {t:"tf", q:"The office rule says to use the word “tomorrow” in emails.", a:false,
+  why:"The rule is the opposite: never say “tomorrow”, say the date."},
+ {t:"short", q:"Why is “the fourteenth of April” safer than “tomorrow”?",
+  model:"Because it means the same thing in every country and at every hour. “Tomorrow” depends on when the reader opens the email, and across five hours and two different weekends that can easily be a different day."}
+],
+words:[
+ {t:"gap", q:"Complete with the right preposition.",
+  bank:["at","on","in","from"],
+  gaps:[{before:"We work ", after:" Sunday to Thursday.", a:["from"]},
+        {before:"The meeting is ", after:" Tuesday.", a:["on"]},
+        {before:"It starts ", after:" ten o’clock.", a:["at"]},
+        {before:"The ship arrives ", after:" April.", a:["in"]}]},
+ {t:"mcq", q:"Which sentence cannot be misunderstood?",
+  opts:["Please reply by Tuesday 15 April, 12.00 Damascus time.",
+        "Please reply tomorrow.","Please reply soon.","Please reply by the end of the week."], a:0},
+ {t:"match", q:"Match the time word to its meaning.",
+  pairs:[["ahead","later in the day than here"],["behind","earlier in the day than here"],
+         ["working day","a day the office is open"],["deadline","the last possible time"]]}
+],
+post:[
+ {t:"order", q:"Put the working day of an email to China in order.",
+  items:["Write before eleven in the morning, Damascus time",
+         "It arrives in the afternoon in Guangzhou",
+         "They answer before they close",
+         "The answer is waiting when Damascus opens",
+         "One question, one day — not three days"]},
+ {t:"write", q:"Write the four rules your own office should follow when working with another country.",
+  model:"1. Always write the date in full — 14 April — never “tomorrow” or “next week”. 2. Put the time zone beside any time. 3. Send anything urgent to Europe before two o’clock, and to Asia before eleven. 4. Ask once, in one email, with numbered questions, because every exchange costs a day."},
+ {t:"short", q:"Only four days a week are shared with Milan. How should that change the way you plan a deadline?",
+  model:"By counting shared working days, not calendar days. A “five-day” task that crosses a Friday and a Sunday really has only four usable days, so a deadline set on the calendar will be missed by the clock."}
+]
+});

@@ -1,0 +1,71 @@
+AHL.lesson({
+id:"u4r2", unit:4, kind:"reading", n:2,
+title:"The quotation",
+strap:"Eight lines that a customer can say yes to, and a date at the bottom.",
+tags:["quotation","documents","writing"],
+pre:[
+ {t:"mcq", q:"A quotation is …",
+  opts:["a written offer of a price and the conditions",
+        "an order","an invoice","a receipt"], a:0},
+ {t:"match", q:"Match the line to what it says.",
+  pairs:[["unit price","the price for one unit"],["total","the price for everything"],
+         ["validity","how long the offer lasts"],["delivery","when and where the goods arrive"]]},
+ {t:"mcq", q:"Why does a quotation have a reference number?",
+  opts:["So that both sides can find the same document later",
+        "To look official","Because of the law","To count the quotations"], a:0}
+],
+paras:[
+ "Rami writes a quotation. It is eight lines long, and every line answers a question the customer would otherwise ask.",
+ "Reference: Q-4471. Date: the fourth of April. Product: steel plate, ten millimetres, two by six metres, grade S275. Quantity: eighty tonnes.",
+ "Unit price: six hundred and forty dollars a tonne. Total: fifty-one thousand two hundred dollars.",
+ "Delivery: to Homs, four weeks after the order. Payment: thirty per cent with the order, seventy per cent before the goods leave the port.",
+ "And at the bottom, one short line: this offer is valid for thirty days.",
+ "“Eighty times six hundred and forty,” says Rami, “is fifty-one thousand two hundred. I always write the total. If I make a mistake in the multiplication, I would rather find it than the customer.”",
+ "There is one more thing on the page, and it is not a number. It is a name: Rami Haddad, with a telephone number. A quotation with no name is a price from nobody."
+],
+gloss:[["quotation","a written offer of a price"],["validity","how long an offer lasts"],
+       ["unit price","the price of one unit"],["reference","a number used to find a document"]],
+comp:[
+ {t:"gap", q:"Complete the arithmetic.",
+  gaps:[{before:"80 tonnes × $640 = $", after:" in total.", a:["51,200","51200"]}]},
+ {t:"multi", q:"Which of these are on the quotation? (Choose four.)",
+  opts:["the quantity","the unit price","the delivery time","the payment terms"], a:[0,1,2,3]},
+ {t:"mcq", q:"How long is the offer valid?",
+  opts:["Thirty days","Four weeks","One week","It does not say"], a:0},
+ {t:"mcq", q:"What are the payment terms?",
+  opts:["30% with the order, 70% before the goods leave the port",
+        "All with the order","All after delivery","50% and 50%"], a:0},
+ {t:"tf", q:"Rami leaves his name off the quotation.", a:false,
+  why:"His name and telephone number are on it: “A quotation with no name is a price from nobody.”"},
+ {t:"short", q:"Why does Rami write the total as well as the unit price?",
+  model:"So that an arithmetic mistake is found by him and not by the customer, and so the customer can compare the whole offer with a budget without doing the multiplication themselves."}
+],
+words:[
+ {t:"gap", q:"Complete the quotation lines.",
+  bank:["Reference","Quantity","Unit price","Validity"],
+  gaps:[{before:"", after:": Q-4471", a:["Reference"]},
+        {before:"", after:": 80 tonnes", a:["Quantity"]},
+        {before:"", after:": $640 per tonne", a:["Unit price"]},
+        {before:"", after:": 30 days", a:["Validity"]}]},
+ {t:"mcq", q:"Which sentence states a total correctly?",
+  opts:["The total is fifty-one thousand two hundred dollars.",
+        "The total is fifty-one thousands two hundreds dollars.",
+        "The total is 51 thousand 200 dollar.",
+        "The total is fifty-one two hundred."], a:0},
+ {t:"match", q:"Match the term to the question it answers.",
+  pairs:[["unit price","how much for one?"],["total","how much for all?"],
+         ["delivery","when and where?"],["payment","when do I pay?"]]}
+],
+post:[
+ {t:"order", q:"Put a quotation in order.",
+  items:["Reference and date",
+         "The product and the specification",
+         "The quantity, the unit price and the total",
+         "Delivery and payment terms",
+         "Validity, and the name of a person"]},
+ {t:"write", q:"Write an eight-line quotation for something you sell.",
+  model:"Ref: Q-2026-118. Date: 14 April. Product: interior door, beech, white, 2,000 × 800 × 40 mm. Quantity: 40. Unit price: $85. Total: $3,400. Delivery: Hama, 15 working days from written order. Payment: 40% with the order, 60% on delivery. Valid 30 days. — Sana Khalil, +963 33 000 0000."},
+ {t:"short", q:"The customer accepts on day thirty-five. What do you do?",
+  model:"Check the price before confirming. The offer has expired, so you are free to re-quote if the mill price or the freight has moved — but if nothing has changed, honour it and say you are doing so."}
+]
+});

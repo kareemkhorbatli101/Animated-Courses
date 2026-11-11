@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u4r6", unit:4, kind:"reading", n:6,
+title:"Two offers side by side",
+strap:"The customer asks for the cheapest. The buyer builds a table instead.",
+tags:["comparing","decisions","numbers"],
+pre:[
+ {t:"mcq", q:"To compare two offers fairly, you must first make sure that …",
+  opts:["they are for the same thing, in the same place, at the same time",
+        "they are from the same country","they are the same price","they are both cheap"], a:0},
+ {t:"match", q:"Match the term to what it changes.",
+  pairs:[["ex works","you pay the transport"],["delivered","they pay the transport"],
+         ["30 days to pay","you keep the money longer"],["cash with order","you pay first"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["Offer A is the cheapest of the three.","Offer A is the most cheap of the three.",
+        "Offer A is cheapest than the three.","Offer A is more cheapest."], a:0}
+],
+paras:[
+ "Two offers for eighty tonnes of plate land on Lina’s desk on the same morning.",
+ "Offer A: six hundred and forty dollars a tonne, delivered to Homs, payment thirty and seventy, four weeks.",
+ "Offer B: six hundred and five dollars a tonne, ex works at the port, payment in full with the order, six weeks.",
+ "B looks cheaper by thirty-five dollars a tonne. Lina does not believe a number until it is the same number.",
+ "She adds the transport from the port to Homs: twenty-two dollars a tonne. Now B is six hundred and twenty-seven against six hundred and forty — thirteen dollars cheaper, not thirty-five.",
+ "Then the money. Offer B wants everything in advance, four weeks earlier. Eighty tonnes at six hundred and five is forty-eight thousand four hundred dollars, sitting with a supplier for a month. The bank charges for that money.",
+ "And then the two weeks. The site starts in May.",
+ "Lina writes four lines under the table: “Same product. Not the same offer. A is dearer on paper and cheaper in fact. Recommend A.”"
+],
+gloss:[["ex works","you collect the goods yourself"],["in advance","before you get the goods"],
+       ["in fact","really, when everything is counted"],["to recommend","to say what should be done"]],
+comp:[
+ {t:"gap", q:"Complete the comparison after transport.",
+  gaps:[{before:"$605 + $22 = $", after:" a tonne for Offer B.", a:["627"]}]},
+ {t:"mcq", q:"How much cheaper is B really, per tonne?",
+  opts:["Thirteen dollars","Thirty-five dollars","Twenty-two dollars","Not cheaper at all"], a:0},
+ {t:"multi", q:"Which hidden costs does Lina find? (Three answers.)",
+  opts:["the transport from the port","paying in full in advance","two extra weeks","the exchange rate"],
+  a:[0,1,2]},
+ {t:"gap", q:"Complete the money paid in advance.",
+  gaps:[{before:"80 × $605 = $", after:".", a:["48,400","48400"]}]},
+ {t:"mcq", q:"What does Lina recommend?",
+  opts:["Offer A","Offer B","Neither","Both"], a:0},
+ {t:"short", q:"Explain Lina’s line: “A is dearer on paper and cheaper in fact.”",
+  model:"A has the higher unit price, but once transport, the cost of paying early and two weeks of a waiting site are counted, A ends up costing the company less."}
+],
+words:[
+ {t:"gap", q:"Complete with comparatives.",
+  bank:["cheaper","dearer","earlier","later"],
+  gaps:[{before:"B is ", after:" on paper.", a:["cheaper"]},
+        {before:"A is ", after:" per tonne.", a:["dearer"]},
+        {before:"B wants the money four weeks ", after:".", a:["earlier"]},
+        {before:"B delivers two weeks ", after:".", a:["later"]}]},
+ {t:"mcq", q:"Before comparing two prices you must make them …",
+  opts:["like for like — same place, same terms, same date",
+        "round numbers","in the same currency only","as low as possible"], a:0},
+ {t:"match", q:"Match the difference to the question it raises.",
+  pairs:[["ex works","who pays to move it?"],["payment in advance","what does that money cost us?"],
+         ["six weeks","what waits while we wait?"],["no certificate","will it be accepted?"]]}
+],
+post:[
+ {t:"order", q:"Put Lina’s comparison in order.",
+  items:["Put both offers in the same table",
+         "Add the costs that are missing from one of them",
+         "Count the cost of the payment terms",
+         "Count the cost of the extra time",
+         "Write a recommendation with a reason"]},
+ {t:"write", q:"Compare two offers for something you buy. Build the table in six lines and recommend one.",
+  model:"Offer A: $85 a door, delivered, 40% / 60%, 15 days. Offer B: $79 a door, collected, paid in full first, 25 days. Transport: $4 a door, so B is really $83. Paying first costs us about $1 a door in bank charges, so $84. Ten extra days delays the hotel opening. Recommend A: six dollars apart on paper, nothing apart in fact, and ten days faster."},
+ {t:"short", q:"Lina writes her reasoning down in four lines. Why write it, rather than just decide?",
+  model:"Because in three months somebody will ask why the dearer offer was chosen. Four lines written today answer that question, and they also show the next buyer how the comparison should be made."}
+]
+});

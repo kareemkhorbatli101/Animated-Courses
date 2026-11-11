@@ -1,0 +1,71 @@
+AHL.lesson({
+id:"u4r1", unit:4, kind:"reading", n:1,
+title:"How a price is built",
+strap:"Four numbers go in, one number comes out, and the customer sees only the last one.",
+tags:["price","cost","numbers"],
+pre:[
+ {t:"match", q:"Match the word to its meaning.",
+  pairs:[["cost","what the company pays"],["price","what the customer pays"],
+         ["margin","the difference between the two"],["freight","the cost of moving the goods"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["The price is six hundred and forty dollars per tonne.",
+        "The price is six hundred forty dollar per tonne.",
+        "The price is 640 dollars the tonne.",
+        "The price is per tonne 640 dollars."], a:0},
+ {t:"mcq", q:"If the freight goes up and nothing else changes, the price …",
+  opts:["goes up too","goes down","stays the same","is not affected"], a:0}
+],
+paras:[
+ "A customer sees one number: six hundred and forty dollars a tonne. Inside that number there are four.",
+ "The first is the cost of the steel at the mill: five hundred and ten dollars a tonne. That is what Bashak pays.",
+ "The second is the freight: forty-five dollars a tonne, from the mill to the port and over the sea.",
+ "The third is the cost of bringing it in: customs, the port, the lorry from Lattakia, and the people who do the papers. About thirty dollars a tonne.",
+ "Five hundred and ten, plus forty-five, plus thirty, is five hundred and eighty-five. That is the cost. It is not the price.",
+ "The fourth number is the margin: fifty-five dollars a tonne. The margin pays the office, the computers, the salaries, the bad debts and the mistakes. What is left after all of those is the profit.",
+ "“A price is not a decision about one order,” says Karim. “It is a decision about the whole year.”"
+],
+gloss:[["mill","the factory that makes steel"],["bad debt","money a customer never pays"],
+       ["salary","the money a worker is paid each month"],["profit","what is left at the end"]],
+comp:[
+ {t:"gap", q:"Complete the cost.",
+  gaps:[{before:"$510 + $45 + $30 = $", after:" a tonne.", a:["585"]}]},
+ {t:"match", q:"Match the number to what it pays for.",
+  pairs:[["$510","the steel at the mill"],["$45","the sea freight"],
+         ["$30","customs, port and the lorry"],["$55","the margin"]]},
+ {t:"mcq", q:"What does the margin pay for?",
+  opts:["The office, salaries, bad debts and mistakes",
+        "Only the profit","The steel","The customs duty"], a:0},
+ {t:"gap", q:"Complete the final price.",
+  gaps:[{before:"$585 + $55 = $", after:" a tonne.", a:["640"]}]},
+ {t:"tf", q:"The margin and the profit are the same thing.", a:false,
+  why:"The margin pays the costs of running the company first. What is left after those is the profit."},
+ {t:"short", q:"Explain Karim’s last sentence in your own words.",
+  model:"If you price one order just to win it, you may cover that order’s costs and nothing else. The margin has to carry the whole company’s costs across all the orders of the year, including the ones that go wrong."}
+],
+words:[
+ {t:"gap", q:"Complete with the right money word.",
+  bank:["cost","price","margin","discount"],
+  gaps:[{before:"What we pay is the ", after:".", a:["cost"]},
+        {before:"What the customer pays is the ", after:".", a:["price"]},
+        {before:"The difference is the ", after:".", a:["margin"]},
+        {before:"For a big order we give a ", after:".", a:["discount"]}]},
+ {t:"mcq", q:"How do you say $640 aloud?",
+  opts:["six hundred and forty dollars","six hundred forty dollar",
+        "six-four-zero dollars","sixty-four tens of dollars"], a:0},
+ {t:"match", q:"Match the phrase to the number.",
+  pairs:[["per tonne","for one tonne"],["per bag","for one bag"],
+         ["in total","for everything together"],["each","for one piece"]]}
+],
+post:[
+ {t:"order", q:"Put the building of a price in order.",
+  items:["The cost of the goods at the factory",
+         "The freight to the port and over the sea",
+         "Customs, handling and inland transport",
+         "The margin that pays for running the company",
+         "The price the customer sees"]},
+ {t:"write", q:"Build the price of one product you sell. Five lines, with a number on each.",
+  model:"Wood for one door: $38. Paint, glue and fittings: $9. Labour, two hours: $14. Transport and packing: $4. That is a cost of $65. Margin $20, to pay the workshop, the office and the doors that come back. Price: $85."},
+ {t:"short", q:"A competitor sells at $600. What does that tell you, and what does it not tell you?",
+  model:"It tells you their price, not their cost. They may buy cheaper, carry less overhead, accept a smaller margin, or be losing money to win the customer. You cannot match a price safely until you know which."}
+]
+});

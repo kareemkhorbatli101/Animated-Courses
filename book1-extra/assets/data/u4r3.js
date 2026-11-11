@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u4r3", unit:4, kind:"reading", n:3,
+title:"Cheaper is not always better",
+strap:"Two prices, forty dollars apart, and a difference that costs more than forty dollars.",
+tags:["value","comparing","decisions"],
+pre:[
+ {t:"mcq", q:"“Value” is …",
+  opts:["what you get for the money you pay",
+        "the lowest price","the highest price","the same as cost"], a:0},
+ {t:"match", q:"Match the hidden cost to the cheap offer.",
+  pairs:[["a longer lead time","the site waits"],["no certificate","the engineer refuses the steel"],
+         ["no replacement if it is wrong","you pay twice"],["poor packing","damage on the road"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["This offer is cheaper than that one.","This offer is more cheap than that one.",
+        "This offer is cheaper that that one.","This offer is the cheaper than."], a:0}
+],
+paras:[
+ "Two suppliers answer the same enquiry for eighty tonnes of plate.",
+ "Supplier A: six hundred and forty dollars a tonne. Four weeks. Certificate with every plate. Ten plates on a pallet. If a plate is wrong, they replace it in two weeks.",
+ "Supplier B: six hundred dollars a tonne. Six weeks. No certificate. Packing “as available”. If a plate is wrong, they will “discuss it”.",
+ "Supplier B is forty dollars a tonne cheaper. On eighty tonnes that is three thousand two hundred dollars. It looks like an easy decision.",
+ "Now look again. The site starts in May, and six weeks is too late: the men wait two weeks. Without a certificate the engineer may refuse the steel. And “we will discuss it” is not a promise.",
+ "Rami takes Supplier A. “Three thousand two hundred dollars is a lot of money,” he says. “Two weeks of a stopped site is more. And a load I cannot use is not cheap at any price.”",
+ "Cheaper is a number. Better is a question: what happens if something goes wrong?"
+],
+gloss:[["to replace","to give a new one instead"],["as available","whatever they have at the time"],
+       ["to refuse","to say no to something"],["stopped","not working"]],
+comp:[
+ {t:"gap", q:"Complete the difference.",
+  gaps:[{before:"$40 a tonne on 80 tonnes is $", after:".", a:["3,200","3200"]}]},
+ {t:"match", q:"Match the supplier to the condition.",
+  pairs:[["Supplier A: lead time","four weeks"],["Supplier B: lead time","six weeks"],
+         ["Supplier A: certificate","with every plate"],["Supplier B: if it is wrong","they will discuss it"]]},
+ {t:"multi", q:"Why is Supplier B risky? (Three answers.)",
+  opts:["six weeks is too late for a May start","no certificate may mean refused steel",
+        "“we will discuss it” is not a promise","the price is too low to be real"],
+  a:[0,1,2]},
+ {t:"mcq", q:"Which supplier does Rami choose?",
+  opts:["Supplier A","Supplier B","Neither","He asks for a third offer"], a:0},
+ {t:"tf", q:"Rami says $3,200 is not much money.", a:false,
+  why:"He says it is a lot of money — and that two weeks of a stopped site is more."},
+ {t:"short", q:"Explain the last line: “Better is a question: what happens if something goes wrong?”",
+  model:"Because every offer looks the same while everything works. The differences between them only appear in the bad case — late, wrong, damaged — so that is the case you should compare."}
+],
+words:[
+ {t:"gap", q:"Complete the comparatives.",
+  bank:["cheaper","more expensive","faster","safer"],
+  gaps:[{before:"Supplier B is ", after:" than Supplier A.", a:["cheaper"]},
+        {before:"Supplier A is ", after:" by four weeks against six.", a:["faster"]},
+        {before:"Supplier A is ", after:", because of the certificate.", a:["safer"]},
+        {before:"A stopped site is ", after:" than $3,200.", a:["more expensive"]}]},
+ {t:"mcq", q:"Which question reveals value, not price?",
+  opts:["What happens if a load is wrong?","How much is it?",
+        "Can you do better?","Is that your best price?"], a:0},
+ {t:"match", q:"Match the opposites.",
+  pairs:[["cheaper","dearer"],["faster","slower"],["safer","riskier"],["better","worse"]]}
+],
+post:[
+ {t:"order", q:"Put the comparison in order.",
+  items:["Put the two offers side by side",
+         "Find the difference in money",
+         "Find the differences that are not money",
+         "Ask what happens in the bad case",
+         "Choose, and write down why"]},
+ {t:"write", q:"Compare two real offers you know. Six sentences, using comparatives.",
+  model:"The first supplier is cheaper by about ten per cent. The second is faster: ten days against three weeks. The first gives no guarantee; the second replaces anything faulty within a week. The first is nearer, so transport is cheaper and a problem can be solved in person. For a normal order I would take the first. For anything with a deadline I would take the second, and I would say so when I ask for the price."},
+ {t:"short", q:"When IS the cheapest offer the right one?",
+  model:"When the thing is simple, replaceable and not urgent — when being wrong costs almost nothing. The cheapest nail is usually the right nail; the cheapest steel for a roof beam is not."}
+]
+});

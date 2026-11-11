@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u3r4", unit:3, kind:"reading", n:4,
+title:"Fast, clear, polite",
+strap:"Three words on the wall of the sales office, and what each one costs.",
+tags:["email","service","writing"],
+pre:[
+ {t:"mcq", q:"A customer sends an enquiry. How fast should you answer?",
+  opts:["The same day, even if the answer is “I am working on it”",
+        "Within a week","When you have the full answer","Only if you can sell something"], a:0},
+ {t:"match", q:"Match the word to its meaning here.",
+  pairs:[["fast","the answer comes quickly"],["clear","the customer understands it the first time"],
+         ["polite","the customer feels respected"],["complete","nothing is missing"]]},
+ {t:"mcq", q:"Which opening is polite and clear?",
+  opts:["Thank you for your enquiry. Here are the answers to your three questions.",
+        "Hi.","Your email.","As per your request below please find attached herewith."], a:0}
+],
+paras:[
+ "On the wall of the sales office there are three words: fast, clear, polite. Mr. Tarek put them there.",
+ "Fast does not mean complete. If a customer asks a question on Sunday, somebody answers on Sunday — even if the answer is, “Thank you. I need two days for the price. You will have it on Tuesday.”",
+ "Clear means the customer understands it the first time. Numbers, not words: eighty tonnes, not “a large quantity”. Dates, not “soon”. One subject in one email.",
+ "Polite is not long. “Dear Sir or Madam, with reference to your esteemed enquiry of even date” is not polite; it is old. Polite is: thank them, answer them, and sign your own name so they know who to come back to.",
+ "There is a fourth word, and it is not on the wall. It is honest. Do not promise April if April is difficult.",
+ "“A customer forgives a slow lorry,” says Mr. Tarek. “A customer does not forgive a surprise.”"
+],
+gloss:[["complete","with nothing missing"],["to forgive","to stop being angry about something"],
+       ["surprise","something you did not expect"],["esteemed","old, very formal word for respected"]],
+comp:[
+ {t:"multi", q:"What are the three words on the wall? (Three answers.)",
+  opts:["fast","clear","polite","cheap"], a:[0,1,2]},
+ {t:"mcq", q:"What does “fast” mean here?",
+  opts:["Answer the same day, even if the answer is not complete",
+        "Answer with the full price immediately",
+        "Answer in one line","Answer before the customer asks"], a:0},
+ {t:"multi", q:"Which are examples of “clear”? (Three answers.)",
+  opts:["eighty tonnes, not “a large quantity”","a date, not “soon”",
+        "one subject in one email","a long polite opening"], a:[0,1,2]},
+ {t:"gap", q:"Complete the fourth word.",
+  gaps:[{before:"There is a fourth word, and it is ", after:".", a:["honest"]}]},
+ {t:"tf", q:"Mr. Tarek thinks very formal language is polite.", a:false,
+  why:"He says it is not polite, it is old. Polite is thanking, answering and signing your own name."},
+ {t:"short", q:"Explain the last line: “A customer forgives a slow lorry. A customer does not forgive a surprise.”",
+  model:"People can plan around bad news they are told early. What damages trust is finding out late — the delay they could have worked around becomes a day wasted because nobody warned them."}
+],
+words:[
+ {t:"gap", q:"Make these sentences clear.",
+  bank:["80 tonnes","on Tuesday","10 mm","$640"],
+  gaps:[{before:"Not “a large quantity” but ", after:".", a:["80 tonnes"]},
+        {before:"Not “soon” but ", after:".", a:["on Tuesday"]},
+        {before:"Not “thick plate” but ", after:".", a:["10 mm"]},
+        {before:"Not “a good price” but ", after:" a tonne.", a:["$640"]}]},
+ {t:"mcq", q:"Which sentence is fast, clear and polite together?",
+  opts:["Thank you for your enquiry. I need two days for the price; you will have it on Tuesday. — Rami",
+        "Received.","We will revert in due course.","I cannot answer this today."], a:0},
+ {t:"match", q:"Match the vague phrase to a clear one.",
+  pairs:[["as soon as possible","by Thursday 14.00"],["a large order","80 tonnes"],
+         ["competitive price","$640 per tonne"],["shortly","in two working days"]]}
+],
+post:[
+ {t:"order", q:"Put a good reply to an enquiry in order.",
+  items:["Thank the customer for the enquiry",
+         "Answer the questions you can answer now",
+         "Say plainly what you still need, and why",
+         "Give a date for the rest of the answer",
+         "Sign with your own name and number"]},
+ {t:"write", q:"A customer asks for a price you cannot give today. Write the same-day reply, four lines.",
+  model:"Dear Mr. Nabil, Thank you for your enquiry of this morning. I can confirm we have the 10 mm plate in the size you need. For the price I must check the April freight to Beirut, which takes two working days — you will have it by Tuesday at midday. If you need the goods before 20 April, please tell me now and I will reserve them. Best regards, Rami"},
+ {t:"short", q:"Mr. Tarek keeps “honest” off the wall. Why might that be deliberate?",
+  model:"Because the other three are skills you can teach and measure, and honesty is not a technique. Putting it beside them might suggest it is one more thing to perform, rather than the condition for the other three meaning anything."}
+]
+});

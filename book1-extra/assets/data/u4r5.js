@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u4r5", unit:4, kind:"reading", n:5,
+title:"Valid for thirty days",
+strap:"Why an offer has an end, and what happens on day thirty-one.",
+tags:["validity","offers","risk"],
+pre:[
+ {t:"mcq", q:"“This offer is valid for 30 days” means …",
+  opts:["after 30 days the price may change",
+        "the goods last 30 days","you must pay in 30 days","delivery takes 30 days"], a:0},
+ {t:"match", q:"Match the thing to what can change it.",
+  pairs:[["the steel price","the world market"],["the freight","the price of fuel"],
+         ["the exchange rate","the currency market"],["the lead time","how busy the mill is"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["The offer expires on 4 May.","The offer expire on 4 May.",
+        "The offer is expire on 4 May.","The offer expiring 4 May."], a:0}
+],
+paras:[
+ "Every quotation from Bashak ends with the same line: this offer is valid for thirty days.",
+ "Why? Because Bashak does not make the steel. It buys it, and the mill’s price changes. The freight changes too, with the price of fuel and the time of year.",
+ "If Rami quotes six hundred and forty dollars today and the customer accepts in three months, Rami has sold at an old price and must buy at a new one. On eighty tonnes, a twenty-dollar move is sixteen hundred dollars — out of a margin of fifty-five dollars a tonne.",
+ "Thirty days is a promise Bashak can keep. The mill holds its price for thirty days too, so the two promises match.",
+ "What happens on day thirty-one? Usually nothing dramatic. The customer calls, and Rami says, “Let me check today’s price.” Often it is the same. Sometimes it is lower.",
+ "But the line must be there. Without it, a quotation is a promise with no end, and a promise with no end is a promise you cannot keep."
+],
+gloss:[["valid","still good, still true"],["to expire","to come to an end"],
+       ["fuel","petrol or diesel"],["dramatic","big and sudden"]],
+comp:[
+ {t:"multi", q:"Why does an offer expire? (Choose three.)",
+  opts:["the mill’s price changes","the freight changes",
+        "the exchange rate changes","the customer changes"], a:[0,1,2]},
+ {t:"gap", q:"Complete the risk.",
+  gaps:[{before:"A $20 move on 80 tonnes is $", after:",", a:["1,600","1600"]},
+        {before:" against a margin of $", after:" a tonne.", a:["55"]}]},
+ {t:"mcq", q:"Why exactly thirty days?",
+  opts:["Because the mill holds its price for thirty days too",
+        "Because a month is easy to remember","Because the law says so","Because customers are slow"], a:0},
+ {t:"mcq", q:"What usually happens on day thirty-one?",
+  opts:["Rami checks today’s price and often it is the same",
+        "The order is refused","The price always goes up","The customer pays more"], a:0},
+ {t:"tf", q:"Without a validity line, a quotation is a promise with no end.", a:true},
+ {t:"short", q:"Why does Rami bother with the line if the price usually has not changed?",
+  model:"Because the line is not about the usual case. It is there for the month when the market moves, and it has to be in every quotation beforehand — you cannot add it after the price has gone against you."}
+],
+words:[
+ {t:"gap", q:"Complete with the right word.",
+  bank:["valid","expires","holds","changes"],
+  gaps:[{before:"This offer is ", after:" for 30 days.", a:["valid"]},
+        {before:"It ", after:" on 4 May.", a:["expires"]},
+        {before:"The mill ", after:" its price for a month.", a:["holds"]},
+        {before:"The freight ", after:" with the fuel price.", a:["changes"]}]},
+ {t:"mcq", q:"A customer accepts on day forty. Which answer is best?",
+  opts:["The offer has expired — let me check today’s price and come back within the hour.",
+        "Too late.","No problem, same price.","You must send a new enquiry."], a:0},
+ {t:"match", q:"Match the time word.",
+  pairs:[["valid until","the last day it is good"],["from","the first day"],
+         ["within","before the end of"],["after","later than"]]}
+],
+post:[
+ {t:"order", q:"Put the handling of an expired quotation in order.",
+  items:["The customer accepts after the validity date",
+         "Say politely that the offer has expired",
+         "Check today’s cost and freight",
+         "Re-quote, and say whether it has moved",
+         "Give a new validity date"]},
+ {t:"write", q:"Write the three lines you add to the bottom of your own quotations.",
+  model:"This offer is valid for 30 days from the date above. Prices are based on today’s material cost and may be re-quoted after that date. Delivery times are counted from the date of your written confirmation, not from this offer."},
+ {t:"short", q:"A customer says a validity date shows you do not trust them. How do you answer?",
+  model:"That it has nothing to do with them: it is the mill and the shipping line that hold their prices for thirty days, and Bashak can only promise what it has been promised. The date protects the price you were quoted as much as it protects the seller."}
+]
+});
