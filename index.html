@@ -76,6 +76,19 @@ h1{margin:0 0 16px;font-size:38px;line-height:1.18;font-weight:700;letter-spacin
         border-radius:10px;padding:14px 16px;font-size:15px;max-width:62ch}
 .notice strong{color:var(--text)}
 
+/* ---- the assistant's two controls -------------------------------------------------
+   Styled here, with the page's own tokens, so the button belongs to the site rather
+   than arriving as a widget. The pop-up itself brings its own stylesheet, but only
+   once somebody has pressed this. */
+.askline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 0 0}
+.askcta{background:var(--accent);color:var(--onAccent);border:0;border-radius:10px;
+        padding:11px 18px;font:600 15px/1 system-ui,sans-serif;cursor:pointer}
+.askcta:hover{filter:brightness(1.07)}
+.askcta:focus-visible,.asklink:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.asklink{background:transparent;color:var(--text);border:1px solid var(--border);
+         border-radius:10px;padding:10px 14px;font:400 14px/1 system-ui,sans-serif;cursor:pointer}
+.askhint{color:var(--muted);font-size:13px}
+
 /* ---- the owner's card: the same card burned into every video ------------------------------- */
 .owner{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px;
        text-align:center}
@@ -168,6 +181,31 @@ footer a{color:var(--muted)}
         are finished and working, and they are free to use while the trial runs. If you find
         something wrong, or you want a course built for your own book, call me &mdash; the number
         is on the right.</p>
+
+      <!-- THE ASSISTANT, AND WHY THERE IS A SCRIPT ON THIS PAGE AT ALL.
+
+           This page had no script on purpose: its rule is that it must work from a folder on
+           a USB stick with no server and no internet, and gates/site_check asserted "no
+           script, so nothing to fetch at load" to keep it that way.
+
+           That rule is now narrower rather than gone: NOTHING IS FETCHED AT LOAD, and the
+           page still works with no connection. The few lines below attach one click handler
+           and nothing else - no fetch, no network, no work. The assistant's three files are
+           fetched the first time somebody presses the button, which is the same arrangement
+           player/ask_pane.js uses for the lesson assistant ("the agent module is read when
+           it is USED, not when this file loads"). gates/site_ask holds this to it: one
+           inline script, under 2 KB, containing no fetch, and a browser check that opening
+           this page makes no script-driven request.
+
+           The assistant answers from ask/site-brief.md, which tools/site_brief.py generates
+           from THIS page - so its facts are the facts gates/site_check already recomputes
+           from the published tree. It runs on the visitor's own Gemini key, which is sent to
+           Google and to nobody else; this site has no server to send it to. -->
+      <p class="askline">
+        <button type="button" id="askBtn" class="askcta">Ask about this website</button>
+        <button type="button" id="askKeyBtn" class="asklink">API key</button>
+        <span class="askhint">Runs on your own Gemini key. Needs internet; the courses do not.</span>
+      </p>
     </div>
 
     <!-- The same card that is burned into the corner of every video this site publishes. -->
@@ -189,14 +227,14 @@ footer a{color:var(--muted)}
     <div class="grid">
 
       <a class="course" href="alhasan/book1/index.html"
-         data-tree="alhasan/book1" data-html="131" data-mp3="2321" data-screens="120"
+         data-tree="alhasan/book1" data-html="131" data-mp3="2257" data-screens="120"
          data-quote="652 exercises and 2714 questions">
         <p class="kicker">Business English &middot; Book 1</p>
         <h3>Al-Hasan International &mdash; English for Trade &amp; Industry</h3>
         <p>Ten complete units: enquiries and quotations, orders and documents, shipping and customs,
           invoices, meetings, and a final partner project.</p>
         <ul class="facts">
-          <li>10 units</li><li>652 exercises</li><li>2,714 questions</li><li>2,321 recordings</li>
+          <li>10 units</li><li>652 exercises</li><li>2,714 questions</li><li>2,257 recordings</li>
         </ul>
         <span class="go">Open the course &rarr;</span>
       </a>
@@ -311,4 +349,40 @@ footer a{color:var(--muted)}
   </div>
 </footer>
 
+<!-- ask-bootstrap: the only script on this page. It attaches a handler and does nothing
+     else - no fetch, no network at load. The assistant is three files and they are read on
+     the first click. gates/site_ask checks all of that. -->
+<script>
+(function(){
+  var FILES=['assets/ask/keyring.js','assets/ask/gemini.js','assets/ask/ask.js'];
+  var loading=null;
+  function load(){
+    if(loading)return loading;
+    loading=FILES.reduce(function(chain,src){
+      return chain.then(function(){
+        return new Promise(function(ok,bad){
+          var s=document.createElement('script');
+          s.src=src;s.async=false;
+          s.onload=ok;
+          s.onerror=function(){bad(new Error('could not load '+src));};
+          document.head.appendChild(s);
+        });
+      });
+    },Promise.resolve());
+    return loading;
+  }
+  function open(which){
+    load().then(function(){
+      if(which==='keys')window.SiteAsk.keys();else window.SiteAsk.open();
+    })['catch'](function(e){
+      alert('The assistant could not start: '+e.message+
+            '\nEverything else on this site works without it.');
+      loading=null;
+    });
+  }
+  var a=document.getElementById('askBtn'),k=document.getElementById('askKeyBtn');
+  if(a)a.addEventListener('click',function(){open('ask');});
+  if(k)k.addEventListener('click',function(){open('keys');});
+})();
+</script>
 </body></html>
