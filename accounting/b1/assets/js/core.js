@@ -682,6 +682,13 @@
     var sec = U.el('section', 'card');
     sec.id = card.id;
     sec.setAttribute('data-card', card.id);
+    /* The activity type and the book reference, on the element itself.
+       A gate that reads the rendered page has otherwise to guess what kind of
+       activity it is looking at from the markup inside it, and guessing is how
+       check-render R7 came to count a discussion prompt and a speaking-card notes
+       box as unmarked writing tasks. The DOM should say what it is. */
+    sec.setAttribute('data-type', card.type || '');
+    if (card.ref) sec.setAttribute('data-ref', card.ref);
 
     var head = U.el('div', 'card-head');
     head.innerHTML = '<div class="card-letter">' + U.esc(card.ref || String.fromCharCode(65 + idx)) + '</div>' +
@@ -917,6 +924,14 @@
         inst.check = function () { var rr = oc.apply(inst, arguments); unlockShow(); return rr; };
       }
       card._inst = inst;
+      /* The writing tutor belongs INSIDE buildActivity, not beside it: Try again
+         empties actHost and rebuilds the component, so a panel appended once from
+         outside would vanish on the first retry and never come back. */
+      if (card.aiCheck && EAFM.tutor) {
+        try { EAFM.tutor.mount(actHost, card, api); } catch (err) {
+          if (w.console) w.console.error('tutor', card.id, err);
+        }
+      }
     }
     buildActivity();
 

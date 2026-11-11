@@ -179,6 +179,16 @@ EAFM.page('u1-s20', {
       instruction: 'Write a short self-introduction (40–60 words). Use the present simple and the present continuous.',
       visual: { spot: 'report', caption: 'The same task as W1, at a third of the length. Cutting is the skill.' },
       minWords: 40,
+      aiCheck: {
+        task: 'A short description of your job and your day, 40-60 words.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'your teacher',
+        must: [
+          'your role',
+          'two or three tasks',
+          'both the present simple and the present continuous, each used for its own job'
+        ]
+      },
       stems: ['My name is…', 'I work…', 'Every day, I…', 'Right now, I am…'],
       coach: {
         title: 'Check your self-introduction',

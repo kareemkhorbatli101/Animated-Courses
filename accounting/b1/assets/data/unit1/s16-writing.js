@@ -26,6 +26,18 @@ EAFM.page('u1-s16', {
       instruction: 'Write a short self-introduction for a new team member (100–140 words). Describe your job and your daily routine. Use the present simple and the present continuous.',
       visual: { spot: 'finance-officer', caption: 'Who you are, what you do every day, and what you are doing this week.' },
       minWords: 100,
+      aiCheck: {
+        task: 'A self-introduction, 100-140 words, describing your job and your daily tasks in a finance team.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'a new colleague who has just joined the team',
+        must: [
+          'your job title or role',
+          'at least three daily tasks',
+          'the present simple for the routine tasks',
+          'at least one present continuous for something happening now',
+          'the -s ending wherever the subject is he, she or it'
+        ]
+      },
       stems: ['Hello, my name is…', 'I work for…', 'Every morning, I…',
               'Every month, I…', 'This week, I am…', 'Right now, I am…'],
       model: 'Hello, my name is Fadi Haddad, and I am a finance officer. I work for Horizon Relief International in Damascus. Every morning, I check the accounts and record the new transactions. Then I reconcile the cash with the ledger. Every month, I prepare a report for the managers and the donors. This week, I am training a new assistant. Right now, I am also updating the numbers for a big project. I enjoy this job a lot. Clear numbers help my colleagues, and honest reports keep the donors happy. I am very glad to join this team, and I am ready to help. Please ask me any question about the money.',
@@ -63,6 +75,17 @@ EAFM.page('u1-s16', {
       instruction: 'Write an email that explains your daily routine to a manager (100–140 words). Use the present simple and the present continuous.',
       visual: { spot: 'report', caption: 'An email to a manager: polite, ordered, and specific about today.' },
       minWords: 100,
+      aiCheck: {
+        task: 'An email describing your daily routine, 100-140 words.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'a colleague in another office',
+        must: [
+          'a greeting and a sign-off',
+          'the order of your day',
+          'time expressions such as every morning, then, after that',
+          'the present simple throughout, with correct -s endings'
+        ]
+      },
       stems: ['Dear…', 'Every morning, I…', 'In the afternoon, I…',
               'Today is a little different.', 'Right now, I am…', 'Best regards,'],
       model: 'Dear Mr Haytham, you asked about my daily routine, so here it is. Every morning, I open the accounts and I record the new transactions. I always reconcile the cash before lunch. In the afternoon, I prepare the small reports and I answer questions from the programme team. Today is a little different. Right now, I am updating Layth’s project numbers, and this afternoon I am meeting Ms Sophie about her report. I keep every entry clear and honest. If you need any number, I always know the balance. Please tell me if you want a change to this routine. Best regards, Fadi.',
@@ -99,6 +122,16 @@ EAFM.page('u1-s16', {
       instruction: 'Write a short note that explains what the finance team does (90–130 words). Use the present simple.',
       visual: { spot: 'manager', caption: 'This one is about the team, not about you — so it is nearly all present simple.' },
       minWords: 90,
+      aiCheck: {
+        task: 'A note explaining what the finance team does, 90-130 words.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'somebody outside the finance team',
+        must: [
+          'what the team looks after',
+          'at least three of the finance cycle\'s stages',
+          'the present simple for what the team does as a rule'
+        ]
+      },
       stems: ['The finance team…', 'First, we…', 'Second, we…', 'Third, we…',
               'Good records…'],
       model: 'What Does the Finance Team Do? The finance team looks after the money. First, we record every transaction in the ledger. Second, we reconcile the cash and the bank every week. Third, we prepare clear reports for the managers and the donors. We also help the programme team to plan the budget. The team sits at the centre of the organisation. It connects the donors, the managers, and the projects. Good records keep the money safe, and safe money keeps the projects alive. This is why the finance team matters so much. We are always happy to answer your questions about the money.',
@@ -133,6 +166,17 @@ EAFM.page('u1-s16', {
       instruction: 'Write a SHORT status note about what you are doing now (30–50 words). Use the present continuous.',
       visual: { spot: 'cash-box', caption: 'Short is the skill here. Four sentences, and nothing that is not needed.' },
       minWords: 30,
+      aiCheck: {
+        task: 'A SHORT status note, 30-50 words, saying what you usually do and what you are doing now.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'your manager',
+        must: [
+          'under 50 words',
+          'one present simple sentence for the routine',
+          'one present continuous sentence for right now',
+          'the contrast between the two made visible'
+        ]
+      },
       stems: ['Hi…, quick update.', 'Right now, I am…', 'After that, I am…',
               'This afternoon, I am…'],
       model: 'Hi Mr Haytham, quick update. Right now, I am reconciling the cash box. After that, I am preparing Layth’s monthly report. This afternoon, I am meeting Ms Sophie. Everything is on track. Fadi',
@@ -164,6 +208,16 @@ EAFM.page('u1-s16', {
       instruction: 'Write two SHORT sentences about your daily work (20–40 words). Use one present simple and one present continuous.',
       visual: { spot: 'entry', caption: 'Two sentences, two tenses. The shortest task in the unit, and the hardest to pad.' },
       minWords: 20,
+      aiCheck: {
+        task: 'One or two lines about a routine, 20-40 words.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'a colleague',
+        must: [
+          'under 40 words',
+          'the present simple',
+          'a time expression that marks it as a routine'
+        ]
+      },
       stems: ['Every morning, I…', 'Right now, I am…'],
       model: 'Every morning, I record the money and I check the cash. Right now, I am writing a short report for the donors.',
       coach: {

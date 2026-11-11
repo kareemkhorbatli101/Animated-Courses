@@ -114,6 +114,16 @@ EAFM.page('u1-s21', {
         { spot: 'budget', caption: 'the afternoon: planning forward' }
       ],
       minWords: 40,
+      aiCheck: {
+        task: 'A short piece explaining the difference between financial accounting and management accounting, 40-60 words.',
+        grammar: 'clear definitions in the present simple',
+        reader: 'a colleague new to accounting',
+        must: [
+          'who financial accounting is for',
+          'who management accounting is for',
+          'one difference stated plainly'
+        ]
+      },
       stems: ['In the morning, Fadi… , so this is…',
               'In the afternoon, he… , so this is…',
               'In my own work, … is financial accounting, because…',

@@ -475,5 +475,394 @@
     return D.svgFit('0 0 640 380', s);
   });
 
+  /* ============================================================
+     Figure 3.1 — Budget versus actual, by cost line.
+
+     TWO PANELS, BECAUSE THE CHART ANSWERS TWO DIFFERENT QUESTIONS.
+     The book asks both on the same screen: "Which cost line was the
+     largest?" and "Which line was the furthest over budget?" A single
+     pair of bars answers the first well and the second badly — at this
+     scale salaries are 260px tall and transport's whole overspend is
+     19px, so the most important fact in the unit would be the least
+     visible thing on the page. So the left panel is the money, which
+     shows that salaries dwarf everything, and the right panel is the
+     variance in per cent against a zero line, which shows that
+     transport is the furthest from its plan. Height on the left, gap on
+     the right: the caption's own point, drawn.
+
+     THE NUMBERS LIVE HERE AND NOWHERE ELSE. The book gives this figure
+     a caption but no table, and scatters its numbers through three
+     other sections. These five pairs are the one dataset that satisfies
+     every statement the unit makes:
+
+       Salaries  8200 -> 8000  -2.4%  "the largest cost ... slightly
+                                       under budget"          (para 173)
+       Transport 3000 -> 3600 +20.0%  "the transport budget was three
+                                       thousand, but the actual was
+                                       three thousand six hundred ...
+                                       twenty per cent"       (para 198)
+       Fuel      1200 -> 1290  +7.5%  "Fuel was also over budget, but
+                                       its variance was noticeably
+                                       smaller"               (para 173)
+       Training  1000 ->  880 -12.0%  "Supplies and training were under
+                                       budget"                (para 225)
+       Supplies   900 ->  765 -15.0%  "Supplies were the lowest of all"
+                                                              (para 306)
+       total    14300 -> 14535 +1.6%  "the total stayed close to the
+                                       plan"                  (para 173)
+
+     Transport's +20.0% is the largest magnitude of the five, which is
+     what "The biggest variance, in per cent, was transport" requires.
+     ============================================================ */
+  A.addFigure('bva-chart', function () {
+    var ROWS = [
+      { name: 'Salaries',  budget: 8200, actual: 8000 },
+      { name: 'Transport', budget: 3000, actual: 3600 },
+      { name: 'Fuel',      budget: 1200, actual: 1290 },
+      { name: 'Training',  budget: 1000, actual:  880 },
+      { name: 'Supplies',  budget:  900, actual:  765 }
+    ];
+    var W = 780, H = 430, s = '';
+    s += r(0, 0, W, H, '#f4f8fa', 14);
+    s += t(W / 2, 30, 19, 'Figure 3.1 · Budget versus actual, by cost line',
+      SLATE, 'middle', 800);
+
+    /* ---------- left panel: the money ----------
+       The panel headings sit at y=58 and the legends at y=70, ABOVE the plot area,
+       which starts at 96. An earlier version put the heading at 56 and the legend
+       swatches at top-18 with top=76, so the two sat on the same line and collided;
+       and the right-hand panel drew its background rectangle AFTER its heading, so
+       the rectangle painted over it. Both were invisible in the source and obvious
+       in a screenshot. */
+    var ax = 62, aw = 372, base = 338, top = 96, span = base - top;
+    var max = 8200, k = span / max;
+    s += t(ax + aw / 2, 58, 13, 'How big is each cost?', OCHRE, 'middle', 700);
+    s += p('M ' + ax + ' ' + base + ' H ' + (ax + aw), 'none',
+      ' stroke="' + INK + '" stroke-width="2.5"');
+    /* gridlines every 2000 */
+    for (var g = 2000; g <= 8000; g += 2000) {
+      var gy = base - g * k;
+      s += p('M ' + ax + ' ' + gy.toFixed(1) + ' H ' + (ax + aw), 'none',
+        ' stroke="' + LINE + '" stroke-width="1" stroke-dasharray="3 4"');
+      s += t(ax - 6, gy + 4, 10, (g / 1000) + 'k', LINE, 'end', 600);
+    }
+    var gw = aw / ROWS.length, bw = 23;
+    ROWS.forEach(function (d0, i) {
+      var cx = ax + i * gw + gw / 2;
+      var bh = d0.budget * k, ah = d0.actual * k;
+      var over = d0.actual > d0.budget;
+      /* budget: an outline, because it is a plan */
+      s += r(cx - bw - 3, base - bh, bw, bh, '#ffffff', 2);
+      s += p('M ' + (cx - bw - 3) + ' ' + (base - bh) + ' h ' + bw + ' v ' + bh,
+        'none', ' stroke="' + SLATE + '" stroke-width="2"');
+      /* actual: solid, and coloured by which side of the plan it landed */
+      s += r(cx + 3, base - ah, bw, ah, over ? RED : GREEN, 2);
+      s += t(cx, base + 15, 10.5, d0.name, INK, 'middle', 700);
+    });
+    s += r(ax + 4, 70, 11, 11, '#ffffff', 2);
+    s += p('M ' + (ax + 4) + ' 70 h 11 v 11 h -11 z', 'none',
+      ' stroke="' + SLATE + '" stroke-width="2"');
+    s += t(ax + 20, 79, 10.5, 'budget (the plan)', INK, 'start', 600);
+    s += r(ax + 150, 70, 11, 11, SLATE, 2);
+    s += t(ax + 166, 79, 10.5, 'actual (what happened)', INK, 'start', 600);
+
+    /* ---------- right panel: the variance ---------- */
+    var bx = 486, bwid = 258, zero = 212, pk = 4.0;   /* 4px per per-cent */
+    /* the background FIRST, then everything that has to be readable on top of it */
+    s += r(bx - 10, 70, bwid + 24, 282, '#eef3f5', 10);
+    s += t(bx + bwid / 2, 58, 13, 'How far from the plan?', OCHRE, 'middle', 700);
+    s += p('M ' + bx + ' ' + zero + ' H ' + (bx + bwid), 'none',
+      ' stroke="' + INK + '" stroke-width="2.5"');
+    s += t(bx + bwid + 6, zero + 4, 10, '0%', INK, 'start', 700);
+    var vw = bwid / ROWS.length;
+    ROWS.forEach(function (d0, i) {
+      var pct = (d0.actual - d0.budget) / d0.budget * 100;
+      var cx = bx + i * vw + vw / 2, h = Math.abs(pct) * pk;
+      var up = pct > 0;
+      s += r(cx - 14, up ? zero - h : zero, 28, h, up ? RED : GREEN, 3);
+      s += t(cx, up ? zero - h - 7 : zero + h + 14, 11,
+        (up ? '+' : '−') + Math.abs(pct).toFixed(1) + '%',
+        up ? RED : GREEN, 'middle', 800);
+      s += t(cx, up ? zero + 15 : zero - 7, 9.5, d0.name.slice(0, 5), INK,
+        'middle', 600);
+    });
+    /* the one line the whole unit is about */
+    s += p('M ' + (bx + vw * 1.5 + 2) + ' ' + (zero - 20 * pk - 26) +
+      ' v -14', 'none', ' stroke="' + OCHRE + '" stroke-width="2.5"');
+    s += t(bx + vw * 1.5 + 2, zero - 20 * pk - 44, 11,
+      'the biggest variance', OCHRE, 'middle', 800);
+
+    s += r(28, 370, W - 56, 44, '#f0e6d2', 8);
+    s += t(W / 2, 390, 12.5,
+      'Salaries are the tallest pair — but transport is the widest gap.',
+      INK, 'middle', 700);
+    s += t(W / 2, 406, 11.5,
+      'The largest cost and the biggest problem are different lines.',
+      OCHRE, 'middle', 600);
+    return D.svgFit('0 0 ' + W + ' ' + H, s);
+  });
+
+  /* ============================================================
+     Figure 4.1 — HRI funding by source.
+
+     The book names the shape itself: "This checks that you can read a
+     donut chart." So it is a donut, not a pie — the hole carries the
+     total, which is the one number the first question asks for and the
+     one a pie has nowhere to put.
+
+     THE NUMBERS. The caption fixes the total at $400,000, the three
+     restricted funds at 85% together, and the core funding at 15%. It
+     does NOT split the 85% between the three, so that split is chosen
+     here, once, and it is the only invented quantity in the figure:
+
+       Sophie Foundation   160,000   40.0%  restricted (health)
+       Global Relief Fund  110,000   27.5%  restricted
+       bilateral grant      70,000   17.5%  restricted
+       ------------------- -------  ------
+       restricted total    340,000   85.0%  "make up 85% of the money"
+       core (unrestricted)  60,000   15.0%  "Only 15% is core"
+       ------------------- -------  ------
+       total               400,000  100.0%  "The total is $400,000"
+
+     Reading A calls the Sophie Foundation's share "a substantial
+     amount", so it is the largest of the three. Nothing else in the
+     unit constrains the other two.
+
+     The three restricted slices are drawn in one family of colour and
+     the core slice in a contrasting pale one, because the question the
+     chart has to answer at a glance is not "which fund is biggest" but
+     "how much of this may we actually choose what to do with".
+     ============================================================ */
+  A.addFigure('funding-donut', function () {
+    var ROWS = [
+      { name: 'Sophie Foundation',  v: 160000, fill: SLATE,     restricted: true },
+      { name: 'Global Relief Fund', v: 110000, fill: '#36788c', restricted: true },
+      { name: 'bilateral grant',    v:  70000, fill: '#6aa3b0', restricted: true },
+      { name: 'core funding',       v:  60000, fill: GOLD,      restricted: false }
+    ];
+    var W = 780, H = 430, s = '';
+    var total = ROWS.reduce(function (a, b) { return a + b.v; }, 0);
+    var cx = 232, cy = 232, R = 132, r0 = 74;
+
+    s += r(0, 0, W, H, '#f4f8fa', 14);
+    s += t(W / 2, 30, 19, 'Figure 4.1 · HRI funding by source', SLATE,
+      'middle', 800);
+
+    /* one donut segment, as an annular path */
+    function seg(a0, a1, fill) {
+      var x0 = cx + R * Math.cos(a0), y0 = cy + R * Math.sin(a0);
+      var x1 = cx + R * Math.cos(a1), y1 = cy + R * Math.sin(a1);
+      var i1 = cx + r0 * Math.cos(a1), j1 = cy + r0 * Math.sin(a1);
+      var i0 = cx + r0 * Math.cos(a0), j0 = cy + r0 * Math.sin(a0);
+      var big = (a1 - a0) > Math.PI ? 1 : 0;
+      return p('M ' + x0.toFixed(1) + ' ' + y0.toFixed(1) +
+        ' A ' + R + ' ' + R + ' 0 ' + big + ' 1 ' + x1.toFixed(1) + ' ' + y1.toFixed(1) +
+        ' L ' + i1.toFixed(1) + ' ' + j1.toFixed(1) +
+        ' A ' + r0 + ' ' + r0 + ' 0 ' + big + ' 0 ' + i0.toFixed(1) + ' ' + j0.toFixed(1) +
+        ' Z', fill, ' stroke="#f4f8fa" stroke-width="3"');
+    }
+
+    var a = -Math.PI / 2, i;
+    for (i = 0; i < ROWS.length; i++) {
+      var sweep = ROWS[i].v / total * Math.PI * 2;
+      s += seg(a, a + sweep, ROWS[i].fill);
+      /* the percentage, on the ring itself */
+      var mid = a + sweep / 2, rr = (R + r0) / 2;
+      var pct = Math.round(ROWS[i].v / total * 1000) / 10;
+      if (sweep > 0.42) {
+        s += t(cx + rr * Math.cos(mid), cy + rr * Math.sin(mid) + 5, 15,
+          pct + '%', '#ffffff', 'middle', 800);
+      }
+      a += sweep;
+    }
+
+    /* the total lives in the hole: the donut's one advantage over a pie */
+    s += t(cx, cy - 6, 15, 'total', SLATE, 'middle', 700);
+    s += t(cx, cy + 18, 22, '$400,000', INK, 'middle', 800);
+
+    /* the restricted / unrestricted split, stated as the chart's real subject */
+    var bx = 420;
+    s += t(bx, 74, 13, 'Which of it may we choose how to spend?', OCHRE, 'start', 700);
+    s += r(bx, 90, 320, 44, '#eef3f5', 8);
+    var fw = 320 * 0.85;
+    s += r(bx, 90, fw, 44, SLATE, 8);
+    s += t(bx + fw / 2, 118, 14, '85% restricted', '#ffffff', 'middle', 800);
+    s += t(bx + fw + (320 - fw) / 2, 118, 12, '15%', INK, 'middle', 800);
+
+    /* the legend, with money as well as per cent */
+    for (i = 0; i < ROWS.length; i++) {
+      var y = 160 + i * 30;
+      s += r(bx, y, 14, 14, ROWS[i].fill, 3);
+      s += t(bx + 22, y + 12, 12.5, ROWS[i].name, INK, 'start', 650);
+      s += t(bx + 238, y + 12, 12.5,
+        '$' + (ROWS[i].v / 1000) + 'k', INK, 'start', 700);
+      s += t(bx + 292, y + 12, 11.5,
+        ROWS[i].restricted ? 'tied' : 'free',
+        ROWS[i].restricted ? SLATE : OCHRE, 'start', 700);
+    }
+
+    s += r(28, 370, W - 56, 44, '#f0e6d2', 8);
+    s += t(W / 2, 390, 12.5,
+      'Four funds, and only ONE of them may be spent on anything at all.',
+      INK, 'middle', 700);
+    s += t(W / 2, 406, 11.5,
+      'Plenty of money in total — and few free choices.', OCHRE, 'middle', 600);
+    return D.svgFit('0 0 ' + W + ' ' + H, s);
+  });
+
+  /* ============================================================
+     Figure 5.1 — Cash-flow forecast, next six months.
+
+     The caption specifies this one almost completely: "The teal bars
+     show money in; the navy bars show money out; the blue line shows
+     the projected closing balance. The balance will fall from $40k in
+     January to a low of $6k in April, below the minimum reserve of
+     $15k. This warns of a possible cash gap in the spring, before
+     income rises again in May and June."
+
+     WHAT HAD TO BE DERIVED. The caption fixes the BALANCE line and the
+     reserve, but gives no monthly figures for the bars — and the bars
+     are what cause the line, so they cannot be drawn freehand. Each
+     month's closing balance is the month before it plus money in minus
+     money out, so the six pairs were solved backwards from the four
+     balances the caption names:
+
+       month  in   out   closing            the caption's constraint
+       ----- ---- ----- --------- ---------------------------------------
+       (open)            46
+       Jan     30    36    40      "from $40k in January"
+       Feb     20    31    29      falls steadily
+       Mar     16    27    18      falls steadily, still above 15
+       Apr     13    25     6      "a low of $6k in April", below 15
+       May     38    25    19      "income rises again in May"
+       Jun     35    24    30      "...and June"
+       ----- ---- ----- ---------
+       total  152   168            46 - 16 = 30, which is June's close
+
+     Only ONE month's balance is under the reserve, which is what makes
+     the book call it "a possible cash gap" and not a crisis, and which
+     is the answer to the figure's third question.
+
+     Reading A supplies the story behind the bars: "Two important grants
+     will arrive early in the year" (January's 30), "A third grant is
+     going to start in May" (May's 38), "The salaries will stay the same
+     every month" (the flat part of the outflow), and "The transport
+     costs are going to rise a little in the spring".
+
+     ONE TENSION WITH THE PROSE, followed deliberately. Reading A says
+     April "is going to drop close to the minimum reserve"; the caption
+     puts it at $6k against a $15k reserve, which is through the floor
+     rather than close to it. The caption carries the numbers, so the
+     chart follows the caption. Noted in ERRATA_for_the_author.md.
+     ============================================================ */
+  A.addFigure('cashflow-forecast', function () {
+    var M = [
+      { m: 'Jan', inn: 30, out: 36, bal: 40 },
+      { m: 'Feb', inn: 20, out: 31, bal: 29 },
+      { m: 'Mar', inn: 16, out: 27, bal: 18 },
+      { m: 'Apr', inn: 13, out: 25, bal:  6 },
+      { m: 'May', inn: 38, out: 25, bal: 19 },
+      { m: 'Jun', inn: 35, out: 24, bal: 30 }
+    ];
+    var RESERVE = 15, TEAL = '#2f8f8c', NAVY = '#1f3a5f', LINE2 = '#2f6fd0';
+    var W = 800, H = 440, s = '';
+    var ax = 70, aw = 660, base = 330, top = 100, span = base - top;
+    /* The axis runs to 45, not to the 40 of January's balance: with the top of the
+       scale equal to the highest point, that point's label is pushed into the legend
+       row above it. Five thousand of headroom costs nothing and keeps every label
+       inside the plot. */
+    var max = 45, k = span / max;
+
+    /* A label that has to stay readable WHEREVER it lands — over a bar, over a
+       gridline, over the dashed reserve. Measured from a screenshot: without the
+       pale backing, four of the six balance labels sat on top of a bar and the
+       reserve caption ran straight through May and June. Geometry has to be checked
+       against pixels, and this is what that check produced. */
+    function pill(x, y, txt, col, size, anchor) {
+      var wpx = String(txt).length * size * 0.56 + 10;
+      var ax0 = anchor === 'start' ? x - 5
+        : (anchor === 'end' ? x - wpx + 5 : x - wpx / 2);
+      return r(ax0, y - size + 1, wpx, size + 6, '#f4f8fa', 4) +
+        t(x, y, size, txt, col, anchor || 'middle', 800);
+    }
+
+    s += r(0, 0, W, H, '#f4f8fa', 14);
+    s += t(W / 2, 30, 19, 'Figure 5.1 · Cash-flow forecast, next six months',
+      SLATE, 'middle', 800);
+    s += t(W / 2, 52, 12.5,
+      'Thousands of dollars. The bars cause the line.', OCHRE, 'middle', 650);
+
+    /* gridlines and the axis */
+    var g;
+    for (g = 10; g <= 40; g += 10) {
+      var gy = base - g * k;
+      s += p('M ' + ax + ' ' + gy.toFixed(1) + ' H ' + (ax + aw), 'none',
+        ' stroke="' + LINE + '" stroke-width="1" stroke-dasharray="3 4"');
+      s += t(ax - 8, gy + 4, 10, '$' + g + 'k', LINE, 'end', 600);
+    }
+    s += p('M ' + ax + ' ' + base + ' H ' + (ax + aw), 'none',
+      ' stroke="' + INK + '" stroke-width="2.5"');
+
+    /* the minimum reserve: the floor the balance must not go through */
+    var ry = base - RESERVE * k;
+    s += p('M ' + ax + ' ' + ry.toFixed(1) + ' H ' + (ax + aw), 'none',
+      ' stroke="' + RED + '" stroke-width="2.5" stroke-dasharray="8 5"');
+    /* its caption lives in the legend, not on the line: at the right-hand end it ran
+       through the May and June bars, and there is no month where the line is clear */
+
+    /* the bars */
+    var gw = aw / M.length, bw = 26, i;
+    for (i = 0; i < M.length; i++) {
+      var cx = ax + i * gw + gw / 2;
+      s += r(cx - bw - 3, base - M[i].inn * k, bw, M[i].inn * k, TEAL, 2);
+      s += r(cx + 3, base - M[i].out * k, bw, M[i].out * k, NAVY, 2);
+      s += t(cx, base + 16, 11.5, M[i].m, INK, 'middle', 700);
+    }
+
+    /* the closing-balance line, drawn last so it sits on top */
+    var pts = [], d2 = '';
+    for (i = 0; i < M.length; i++) {
+      var px = ax + i * gw + gw / 2, py = base - M[i].bal * k;
+      pts.push([px, py]);
+      d2 += (i ? ' L ' : 'M ') + px.toFixed(1) + ' ' + py.toFixed(1);
+    }
+    s += p(d2, 'none', ' stroke="' + LINE2 + '" stroke-width="4" ' +
+      'stroke-linecap="round" stroke-linejoin="round"');
+    for (i = 0; i < pts.length; i++) {
+      var low = M[i].bal < RESERVE;
+      s += c(pts[i][0], pts[i][1], low ? 8 : 6, low ? RED : LINE2);
+      s += c(pts[i][0], pts[i][1], low ? 4 : 3, '#ffffff');
+      /* April's label goes BELOW its point: above it is where the cash-gap caption
+         has to be, and that caption is the one a reader must not miss */
+      s += pill(pts[i][0], pts[i][1] + (low ? 26 : -14), '$' + M[i].bal + 'k',
+        low ? RED : LINE2, 11.5);
+    }
+
+    /* the one month that goes through the floor */
+    var apr = pts[3];
+    s += pill(apr[0], apr[1] - 16, 'the cash gap', RED, 12);
+
+    /* legend, including the reserve, on its own row above the plot */
+    var ly = 80;
+    s += r(ax, ly - 11, 13, 13, TEAL, 3);
+    s += t(ax + 20, ly, 11, 'money in', INK, 'start', 650);
+    s += r(ax + 104, ly - 11, 13, 13, NAVY, 3);
+    s += t(ax + 124, ly, 11, 'money out', INK, 'start', 650);
+    s += p('M ' + (ax + 216) + ' ' + (ly - 5) + ' h 22', 'none',
+      ' stroke="' + LINE2 + '" stroke-width="4" stroke-linecap="round"');
+    s += t(ax + 244, ly, 11, 'closing balance', INK, 'start', 650);
+    s += p('M ' + (ax + 364) + ' ' + (ly - 5) + ' h 22', 'none',
+      ' stroke="' + RED + '" stroke-width="3" stroke-dasharray="7 4"');
+    s += t(ax + 392, ly, 11, 'minimum reserve $15k', RED, 'start', 750);
+
+    s += r(28, 380, W - 56, 44, '#f0e6d2', 8);
+    s += t(W / 2, 400, 12.5,
+      'Only April goes below the reserve — one month, seen three months early.',
+      INK, 'middle', 700);
+    s += t(W / 2, 416, 11.5,
+      'A gap is not a crisis when you see it early.', OCHRE, 'middle', 600);
+    return D.svgFit('0 0 ' + W + ' ' + H, s);
+  });
+
   w.EAFM.artReady = true;
 }(window));

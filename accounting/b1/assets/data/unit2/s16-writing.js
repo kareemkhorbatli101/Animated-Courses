@@ -18,6 +18,18 @@ EAFM.page('u2-s16', {
       instruction: 'Write a short month-end report for your manager (100–140 words). Say what you did, step by step. Use the past simple and the past continuous.',
       visual: { spot: 'month-end', caption: 'A whole month, reported after it finished.' },
       minWords: 100,
+      aiCheck: {
+        task: 'A month-end report, 100-140 words, saying what you did and what you found.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'your finance manager',
+        must: [
+          'a heading',
+          'what you finished, in the past simple',
+          'at least one past continuous for something already in progress',
+          'a stated time such as last month or yesterday',
+          'correct irregular past forms'
+        ]
+      },
       pastCheck: true,
       stems: ['I closed the books…', 'During the month, I recorded…',
               'At the month-end, I checked…', 'While I was checking, I found…',
@@ -56,6 +68,17 @@ EAFM.page('u2-s16', {
       visual: { art: 'transaction-flow', wide: true,
         caption: 'One payment, all the way through — the shape your note should follow.' },
       minWords: 100,
+      aiCheck: {
+        task: 'A note about one transaction, 100-140 words, following it from the receipt to the ledger.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'a colleague who has to check your work',
+        must: [
+          'the order of the steps',
+          'the past simple for each completed step',
+          'the document at each stage',
+          'a stated time'
+        ]
+      },
       pastCheck: true,
       stems: ['Yesterday, … bought…', 'First, I checked…', 'Then I asked for the voucher…',
               'I opened the journal and I wrote…', 'I debited… and I credited…',
@@ -94,6 +117,17 @@ EAFM.page('u2-s16', {
       visual: { art: 'two-actions',
         caption: 'A diary of a busy day needs at least one interruption — that is where the continuous goes.' },
       minWords: 90,
+      aiCheck: {
+        task: 'A diary of yesterday, 90-130 words.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'your teacher',
+        must: [
+          'events in the order they happened',
+          'the past simple for the finished actions',
+          'at least one past continuous for a background action',
+          'time markers such as first, then, while, after that'
+        ]
+      },
       pastCheck: true,
       stems: ['Yesterday was…', 'In the morning, I…', 'Around noon, I started…',
               'While I was…, the phone rang.', 'In the afternoon, I…', 'By five o’clock…'],
@@ -129,6 +163,17 @@ EAFM.page('u2-s16', {
       instruction: 'Write a SHORT note about two things you did yesterday (30–50 words). Use the past simple.',
       visual: { spot: 'report', caption: 'Four sentences. Nothing that is not needed.' },
       minWords: 30,
+      aiCheck: {
+        task: 'A SHORT report of what you did, 30-50 words.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'your manager',
+        must: [
+          'under 50 words',
+          'two past simple verbs',
+          'a stated time',
+          'no present tense for the finished work'
+        ]
+      },
       pastCheck: true,
       stems: ['Hi …, quick update.', 'Yesterday, I…', 'I also…', 'The journal is now…'],
       paras: [
@@ -160,6 +205,16 @@ EAFM.page('u2-s16', {
       instruction: 'Write two SHORT sentences about a task you finished (20–40 words). Use the past simple.',
       visual: { spot: 'entry', caption: 'Two sentences. The second one should say that the two sides matched.' },
       minWords: 20,
+      aiCheck: {
+        task: 'One line recording something that happened, 20-40 words.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'a colleague',
+        must: [
+          'under 40 words',
+          'one past simple verb',
+          'when it happened'
+        ]
+      },
       pastCheck: true,
       stems: ['Yesterday, I recorded…', 'I put … on the debit side and … on the credit side.',
               'The two sides were…'],

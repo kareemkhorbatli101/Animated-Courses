@@ -58,6 +58,32 @@ EAFM.page('u1-s05', {
       id: 'c2', covers: ['Part 2'], ref: '2B', bookRef: 'Unit 1 · Part 2 · Watch out', type: 'quizset',
       title: 'The two mistakes the book warns about',
       instruction: 'The book’s <b>Watch out</b> box names two errors. Each question below is one of them, taken from a sentence in this unit.',
+      /* THE BOX THE QUESTIONS POINT AT, printed where they point at it.
+
+         The instruction said "the book's Watch out box names two errors" and both items
+         gave that box as their evidence - and the box itself was nowhere on the screen.
+         A learner was told to consult something they could not see, which is the same
+         defect as an exercise quoting a passage the page never shows.
+
+         Found by check-render R4, which asks whether what an evidence string QUOTES is
+         on the screen that quotes it. The words below are the author's own, from Unit 1
+         Part 2, so check-book still holds them to the book. */
+      passage: {
+        title: 'Watch out',
+        speak: false,
+        /* PLAIN STRINGS, AND NO INLINE MARKUP.
+           Two separate reasons, both learned the hard way in the last ten minutes.
+           First, this engine's passageNode concatenates each entry straight into the
+           HTML, so an object renders as the literal "[object Object]" - the sister
+           course's engine was taught the richer {h, say, role} shape this morning and
+           this one has not been. Second, check-book normalises tags to spaces, so
+           "<i>he</i>, <i>she</i>" becomes "he , she" and stops matching the book. The
+           author's sentence, to the character, is the thing that passes both. */
+        paras: [
+          "do not forget the 's' with he, she, and it. Say 'Fadi records', not 'Fadi record'.",
+          "And use the continuous, not the simple, for right now: 'He is checking the cash' (now), not 'He checks the cash' (routine)."
+        ]
+      },
       visual: { art: 'two-actions',
         caption: 'A routine runs across the whole line; what is happening now is a point on it.' },
       items: [

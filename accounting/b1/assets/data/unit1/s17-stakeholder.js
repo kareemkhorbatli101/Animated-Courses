@@ -191,6 +191,16 @@ EAFM.page('u1-s17', {
         { spot: 'donor', caption: 'to the donor: careful and complete' }
       ],
       minWords: 60,
+      aiCheck: {
+        task: 'Two short messages about the same work: one to a manager and one to a donor, each saying what that reader needs to know.',
+        grammar: 'the present simple for routines, habits and facts (adding -s with he/she/it) and the present continuous (am/is/are + verb-ing) for what is happening now',
+        reader: 'a manager in the first, a donor in the second',
+        must: [
+          'a different emphasis in each message, not the same text twice',
+          'a register suited to each reader: \'Hi\' to the manager, \'Dear\' to the donor',
+          'the present simple for what happens as a rule'
+        ]
+      },
       stems: ['Hi …, right now I am…', 'Every week, I…',
               'Dear …, I prepare… with great care.', 'Every month, I…'],
       coach: {

@@ -186,6 +186,16 @@ EAFM.page('u2-s20', {
       instruction: 'Write a short month-end report (40–60 words). Use the past simple.',
       visual: { spot: 'statement', caption: 'The same task as W1, at a third of the length. Cutting is the skill.' },
       minWords: 40,
+      aiCheck: {
+        task: 'A short report of what happened last month, 40-60 words.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'your teacher',
+        must: [
+          'what you did, in the past simple',
+          'one past continuous for a background action',
+          'a stated time'
+        ]
+      },
       pastCheck: true,
       stems: ['Last month, I recorded…', 'At the month-end, I checked…',
               'I found…, so I…', 'Finally, I prepared…'],

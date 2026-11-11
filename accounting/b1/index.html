@@ -33,12 +33,17 @@
     { n: 2, t: 'Recording What Happened', live: true,
       g: 'Past simple and past continuous',
       b: 'The month-end close, and one transaction travelling from a receipt through the journal to the ledger.' },
-    { n: 3, t: 'Comparing Budget and Actuals', g: 'Comparatives and superlatives',
-      b: 'What was planned against what was spent, and the language of difference.' },
-    { n: 4, t: 'Funds, Amounts and Resources', g: 'Quantifiers and countability',
-      b: 'How much, how many, and the words for money that cannot be counted.' },
-    { n: 5, t: 'Budgets, Forecasts and Plans', g: 'Future forms',
-      b: 'Planning money that has not arrived yet.' },
+    { n: 3, t: 'Comparing Budget and Actuals', live: true,
+      g: 'Comparatives and superlatives',
+      b: 'What was planned against what was spent, and the language of difference — '
+         + 'including why the biggest cost is usually not the biggest problem.' },
+    { n: 4, t: 'Funds, Amounts and Resources', live: true,
+      g: 'Quantifiers and countability',
+      b: 'How much, how many, and the words for money that cannot be counted — '
+         + 'and why a full fund is not the same as money you are free to spend.' },
+    { n: 5, t: 'Budgets, Forecasts and Plans', live: true, g: 'Future forms',
+      b: 'Planning money that has not arrived yet — the cash-flow forecast, the '
+         + 'month it runs short, and what you are going to do about it.' },
     { n: 6, t: 'Financial Rules and Controls', g: 'Modals of obligation',
       b: 'Must, should and have to — the language of a control.' },
     { n: 7, t: 'How Financial Processes Work', g: 'The passive',
@@ -147,11 +152,17 @@
     'Everything works by keyboard. Press <b>?</b> on a page for the shortcuts, and use the print button for a ' +
     'paper worksheet.</p></div>' +
     '</div>';
+  /* One button per LIVE unit, generated from the same UNITS list that drives the
+     cards above. It was four hardcoded `el('a', …)` blocks, which meant the home
+     page had to be hand-edited every time a unit shipped — and a button pointing at
+     a unit that is not built yet is the quickest way to lose a learner. */
   var row = el('div', 'btn-row');
-  var go = el('a', 'btn btn-primary btn-lg', art.icon('play', 16) + 'Open Unit 1');
-  go.href = 'unit1/index.html'; row.appendChild(go);
-  var g2 = el('a', 'btn btn-lg', art.icon('play', 16) + 'Open Unit 2');
-  g2.href = 'unit2/index.html'; row.appendChild(g2);
+  UNITS.filter(function (u2) { return u2.live; }).forEach(function (u2, i) {
+    var b = el('a', 'btn btn-lg' + (i === 0 ? ' btn-primary' : ''),
+      art.icon('play', 16) + 'Open Unit ' + u2.n);
+    b.href = 'unit' + u2.n + '/index.html';
+    row.appendChild(b);
+  });
   hb.appendChild(row); how.appendChild(hb); wrap.appendChild(how);
 
   var cr = el('p', 'wc');

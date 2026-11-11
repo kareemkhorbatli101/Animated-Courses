@@ -112,6 +112,16 @@ EAFM.page('u2-s21', {
         { spot: 'credit', caption: 'what you paid with — the credit' }
       ],
       minWords: 40,
+      aiCheck: {
+        task: 'A short piece explaining double-entry bookkeeping in your own words, 40-60 words.',
+        grammar: 'clear definitions in the present simple; the past simple if you give an example of a recorded transaction',
+        reader: 'a colleague new to accounting',
+        must: [
+          'the idea that every entry has two sides',
+          'that the debits and the credits are equal',
+          'one simple example'
+        ]
+      },
       pastCheck: true,
       stems: ['When I bought…, two things changed.', '… went up, and … went down.',
               'The entry needed two sides because…',

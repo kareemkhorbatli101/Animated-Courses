@@ -187,6 +187,16 @@ EAFM.page('u2-s17', {
         { spot: 'donor', caption: 'to the donor: the record, completely' }
       ],
       minWords: 80,
+      aiCheck: {
+        task: 'Two short messages reporting the same finished month: one to a manager and one to a donor.',
+        grammar: 'the past simple for finished actions at a stated time (regular -ed and the common irregulars) and the past continuous (was/were + verb-ing) for an action already in progress when something else happened',
+        reader: 'a manager in the first, a donor in the second',
+        must: [
+          'a different emphasis in each message',
+          'the past simple for what was done',
+          'a register suited to each reader'
+        ]
+      },
       pastCheck: true,
       stems: ['Hi …, last month your project spent…', 'I recorded… and I checked…',
               'Dear …, I closed the accounts for last month…',
