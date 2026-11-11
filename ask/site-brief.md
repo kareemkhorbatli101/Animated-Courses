@@ -9,6 +9,8 @@ Interactive English courses that run in the browser, generated from the author's
 
 ## The courses
 
+There are 5 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
+
 ### Al-Hasan International — English for Trade & Industry
 
 Level and subject: Business English · Book 1
@@ -74,6 +76,16 @@ Study skills, career pathways, writing a report and the conversation skills a de
 - Teacher key
 
 Opens at: cybersecurity/b1/index.html
+
+## The video player, which is not a course either
+
+A separate experiment: lessons acted out by animated characters on a 3D set, rendered by this project's own engine. The player streams them, shows English and Arabic subtitles together, and replays them offline once they are loaded. It is a working trial, not a finished product — the courses in it are short samples. AnimatedEverything Twenty-six animated lessons across four sample courses, about fifty-three minutes in all. English speech, with English and Arabic subtitles on every line. Open the video player → What it previews Auto Maintenance Book 1 21 videos · 48.9 min Auto Maintenance 3 videos · 2.3 min Furniture Design 1 video · 0.8 min Workshop Tours 1 video · 0.8 min
+
+Opens at: player.html
+
+## Also on the site, and NOT courses
+
+These are published experiments. Do not count them as courses, and do not describe them as part of a course.
 
 ### Web OS Live
 
