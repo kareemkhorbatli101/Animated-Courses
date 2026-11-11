@@ -193,18 +193,22 @@
     }).then(function (t) { state.brief = t; return t; });
   }
 
-  // ---- choosing a model ----------------------------------------------------------------
-  function pickModel(provider) {
-    var remembered = '';
-    try { remembered = root.localStorage.getItem(LS_MODEL) || ''; } catch (e) { remembered = ''; }
-    if (remembered) { provider.select(remembered); return Promise.resolve(remembered); }
-    return provider.models().then(function (list) {
-      if (!list.length) throw new Error('This key cannot use any model that answers questions.');
-      var name = list[0].name;
-      try { root.localStorage.setItem(LS_MODEL, name); } catch (e) { /* fine */ }
-      provider.select(name);
-      return name;
-    });
+  // ---- which model ----------------------------------------------------------------------
+  //
+  // THIS NO LONGER CHOOSES ONE MODEL AND HOPES. Gemini's free allowances are per model and
+  // several models have none at all, so the first choice can answer 429 on a key that has
+  // never been used - which is exactly what happened. The provider now walks its ranked
+  // list until one answers, and only a model that actually WORKED is remembered.
+  function remembered() {
+    try { return root.localStorage.getItem(LS_MODEL) || ''; } catch (e) { return ''; }
+  }
+
+  function rememberWorking(name) {
+    try { root.localStorage.setItem(LS_MODEL, name); } catch (e) { /* fine */ }
+  }
+
+  function forgetModel() {
+    try { root.localStorage.removeItem(LS_MODEL); } catch (e) { /* fine */ }
   }
 
   // ---- the question --------------------------------------------------------------------
@@ -266,21 +270,25 @@
       var provider = new root.GeminiProvider({ keyring: K });
       loadBrief()
         .then(function (brief) {
-          return pickModel(provider).then(function () {
-            return provider.ask({
-              system: SYSTEM + '\n\n--- BRIEFING ABOUT THE SITE ---\n' + brief,
-              prompt: q,
-              maxTokens: 700,
-              temperature: 0.2
-            });
+          return provider.askWithFailover({
+            preferred: remembered(),
+            system: SYSTEM + '\n\n--- BRIEFING ABOUT THE SITE ---\n' + brief,
+            prompt: q,
+            maxTokens: 700,
+            temperature: 0.2
           });
         })
         .then(function (res) {
           out.textContent = res.text;
+          rememberWorking(res.model);
+          var also = (res.tried && res.tried.length > 1)
+            ? ' (after ' + (res.tried.length - 1) + ' model(s) with no free quota)' : '';
           note.textContent = 'Answered by ' + (res.model || 'Gemini') + ' in ' +
-            Math.round(res.ms) + ' ms, from this site\'s briefing only.';
+            Math.round(res.ms) + ' ms' + also + ', from this site\'s briefing only.';
         })
         .catch(function (e) {
+          // a remembered model that stopped working must not be tried for ever
+          forgetModel();
           err.textContent = String(e.message || e);
           err.style.display = '';
           // a refused key is the one failure worth offering to fix on the spot

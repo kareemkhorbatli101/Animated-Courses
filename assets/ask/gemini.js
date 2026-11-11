@@ -53,6 +53,43 @@
     return msg || ('The request failed with HTTP ' + status + '.');
   }
 
+  /* WHICH MODEL TO ASK, AND THE MISTAKE THIS REPLACES.
+   *
+   * The first version preferred any name containing "flash" and then sorted the rest
+   * REVERSE-ALPHABETICALLY, on the theory that a later name is a newer model. Against a
+   * real model list that puts `gemini-omni-flash` ahead of `gemini-flash-latest`, because
+   * 'o' sorts after 'f' - and Omni Flash, like Argon, the Pro previews and the image
+   * models, HAS NO FREE-TIER QUOTA AT ALL. A model with a free allowance of zero answers
+   * 429 on the very first request, so the owner was told he was over a rate limit on a key
+   * he had never used. The heuristic reliably chose the one model most likely to be
+   * paid-only: "newest-looking" and "free" point in opposite directions.
+   *
+   * So the ranking is now explicit and conservative. Lower score wins:
+   *   - flash-lite and flash are the cheap, widely-free workhorses, and this is a short
+   *     question against a 3 KB brief - the smallest model that can read is the right one
+   *     to spend a stranger's quota on
+   *   - "pro", "omni", "argon", "ultra" are penalised: premium, and the first to be
+   *     withdrawn from the free tier
+   *   - "preview", "exp" and dated builds are penalised: Google limits them harder and
+   *     retires them without notice
+   *   - anything that is not a text answerer at all - image, tts, audio, embedding,
+   *     veo, imagen - is pushed to the bottom
+   * Ties break towards the SHORTER name, because `gemini-flash-latest` is an alias Google
+   * keeps pointed at a current model, while a long dated name is a snapshot that expires.
+   */
+  function score(name) {
+    var n = String(name).toLowerCase();
+    var s = 100;
+    if (/image|imagen|veo|tts|audio|embedding|aqa|learnlm/.test(n)) s += 900;
+    if (/flash-lite/.test(n)) s -= 40;
+    else if (/flash/.test(n)) s -= 30;
+    if (/\bpro\b|omni|argon|ultra/.test(n)) s += 60;
+    if (/preview|exp\b|experimental/.test(n)) s += 25;
+    if (/\d{3,}/.test(n)) s += 10;                 // a dated snapshot, e.g. -09-2025
+    if (/latest$/.test(n)) s -= 15;                // an alias Google keeps current
+    return s + Math.min(n.length, 40) / 100;       // tie-break: shorter name first
+  }
+
   function GeminiProvider(opts) {
     this.base = (opts && opts.base) || API;
     this.keyring = (opts && opts.keyring) || root.Keyring;
@@ -88,14 +125,7 @@
               family: m.displayName || ''
             };
           });
-          // prefer a "flash"-class model: this is a short question against a 3 KB brief,
-          // and the cheapest model that can read is the right one to spend a stranger's
-          // quota on.
-          list.sort(function (a, b) {
-            var af = /flash/i.test(a.name) ? 0 : 1, bf = /flash/i.test(b.name) ? 0 : 1;
-            if (af !== bf) return af - bf;
-            return a.name < b.name ? 1 : (a.name > b.name ? -1 : 0);   // later names first
-          });
+          list.sort(function (a, b) { return score(a.name) - score(b.name); });
           self._available = list;
           return list;
         });
@@ -148,6 +178,58 @@
     });
     p.cancel = function () { if (ctl) ctl.abort(); };
     return p;
+  };
+
+  /* A 429 or a 404 is a statement about ONE MODEL, not about the key.
+   *
+   * Gemini's free allowances are per model and some models have none, so "over its rate
+   * limit" on a fresh key usually means "this model is not free", and the next model down
+   * the list answers immediately. Giving up on the first refusal told the owner his key was
+   * exhausted when it had never been used.
+   *
+   * So: walk the ranked list, trying each in turn, and remember only one that WORKED. Three
+   * attempts, not the whole list - a key that is genuinely out of quota should fail quickly
+   * and say so, not grind through twenty models on someone's behalf. Every model tried is
+   * named in the final error, because "it did not work" is not a diagnosis.
+   */
+  GeminiProvider.prototype.askWithFailover = function (req) {
+    var self = this;
+    var tried = [];
+
+    return this.models().then(function (list) {
+      if (!list.length) throw new Error('This key cannot use any model that answers questions.');
+      var names = list.map(function (m) { return m.name; });
+      // a model that worked before is tried first, but is no longer trusted blindly
+      if (req.preferred && names.indexOf(req.preferred) > 0) {
+        names.splice(names.indexOf(req.preferred), 1);
+        names.unshift(req.preferred);
+      }
+      var attempts = names.slice(0, 3);
+
+      function attempt(i) {
+        if (i >= attempts.length) {
+          throw new Error('Tried ' + tried.join(', ') + '. ' +
+            (tried.length > 1
+              ? 'Each refused this key, so the quota is spent rather than the model being wrong. The free allowance resets at midnight Pacific time.'
+              : 'No model on this key would answer.'));
+        }
+        var name = attempts[i];
+        tried.push(name);
+        return self.ask({
+          model: name, system: req.system, prompt: req.prompt,
+          maxTokens: req.maxTokens, temperature: req.temperature, onToken: req.onToken
+        }).then(function (res) {
+          res.tried = tried;
+          return res;
+        }, function (e) {
+          var m = String(e && e.message || e);
+          // only a per-model refusal is worth retrying elsewhere; a bad key is not
+          if (/rate limit|not available to this key|quota/i.test(m)) return attempt(i + 1);
+          throw e;
+        });
+      }
+      return attempt(0);
+    });
   };
 
   GeminiProvider.prototype.stop = function () { /* per-request; see ask().cancel */ };
