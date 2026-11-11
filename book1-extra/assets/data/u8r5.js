@@ -1,0 +1,72 @@
+AHL.lesson({
+id:"u8r5", unit:8, kind:"reading", n:5,
+title:"The visitor from Shanghai",
+strap:"Two days at Al-Hasan, planned backwards from what Ms. Chen needed to see.",
+tags:["visits","hosting","trade"],
+pre:[
+ {t:"mcq", q:"When planning a customer’s visit, you should start from:",
+  opts:["what they need to see to decide","what is easiest to show",
+        "the office","lunch"], a:0},
+ {t:"match", q:"Match the visit element to what it proves.",
+  pairs:[["the factory floor","that we make it ourselves"],
+         ["the laboratory","that quality is measured"],
+         ["the loading yard","that we can dispatch on time"],
+         ["meeting the accountant","that the paperwork is real"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["Would you like to see the laboratory first?","Would you like see the laboratory first?",
+        "Would you to like see the laboratory?","Will you like seeing the laboratory?"], a:0}
+],
+paras:[
+ "Ms. Chen came for two days in April, and Mr. Tarek planned the visit backwards. He began with the question she would have to answer when she got home: can I promise my customers that this supplier will deliver, every month, for two years? Everything in the two days was chosen because it helped her answer that, and anything that did not was left out, including a tour of the head office.",
+ "Day one was the factory in Aleppo, and the order inside it mattered. The quarry and the kiln first, because a buyer who has seen the raw material stops worrying about where it comes from. Then the laboratory, where Ms. Chen watched a technician test a sample from the batch that was running that morning, and kept the printed result. Then the bagging line, then the loading yard, where she saw eleven lorries dispatched in an afternoon.",
+ "Day two was deliberately dull. Two hours in Fadi’s office with a file open on the desk: one complete order from enquiry to payment, every document in sequence, including a credit note from a month when something had gone wrong. Mr. Tarek had chosen that file on purpose. A buyer who is shown only perfect orders learns nothing about what happens when an order is not perfect.",
+ "Then an hour with Huda about invoicing and currency, because Ms. Chen’s own accounts office would be the one living with the paperwork. Then the meeting that produced the agreement, which took forty minutes because almost everything had already been answered by the two days.",
+ "Mr. Tarek’s one rule for visits is that nobody is coached. Technicians, drivers and storemen speak to the visitor without a manager translating. He says the opposite is instantly visible, and that a visitor who notices they are being managed stops believing anything, including the true things.",
+ "The last hour was not business. Ms. Chen was driven through the old city and given dinner, and nothing was asked of her. Mr. Tarek’s view is that the commercial part of a visit answers whether a company can deliver, and the last hour answers whether anybody wants to work with it for ten years — and that the second question is the one customers actually decide on."
+],
+gloss:[["backwards","from the end to the beginning"],
+       ["quarry","the place where stone is dug out"],
+       ["kiln","the oven where cement material is heated"],
+       ["to coach","to tell somebody what to say"],
+       ["instantly","immediately"]],
+comp:[
+ {t:"mcq", q:"What question did Mr. Tarek plan the visit around?",
+  opts:["Can Ms. Chen promise her customers two years of reliable delivery?",
+        "Is the price right?","Is the factory modern?","Is the city safe?"], a:0},
+ {t:"order", q:"Put day one in order.",
+  items:["the quarry and the kiln","the laboratory","the bagging line","the loading yard"]},
+ {t:"mcq", q:"Why was a file containing a credit note chosen?",
+  opts:["Because a buyer shown only perfect orders learns nothing about imperfect ones",
+        "By accident","Because it was nearest","To show honesty about money"], a:0},
+ {t:"mcq", q:"What is Mr. Tarek’s one rule for visits?",
+  opts:["Nobody is coached on what to say","No photographs",
+        "Managers do the talking","Keep to the schedule"], a:0},
+ {t:"tf", q:"The last hour of the visit had no business content.", a:true},
+ {t:"short", q:"Explain the two questions Mr. Tarek thinks a visit answers.",
+  model:"The working parts answer whether the company can deliver — material, testing, bagging, dispatch, paperwork. The unbusiness-like hour answers whether the buyer wants a decade of dealing with these people, and he believes that is what the decision actually turns on."}
+],
+words:[
+ {t:"gap", q:"Complete the visit vocabulary.",
+  bank:["quarry","laboratory","bagging line","loading yard"],
+  gaps:[{before:"The stone comes from the ", after:".", a:["quarry"]},
+        {before:" Samples are tested in the ", after:".", a:["laboratory"]},
+        {before:" Bags are filled on the ", after:".", a:["bagging line"]},
+        {before:" Lorries are loaded in the ", after:".", a:["loading yard"]}]},
+ {t:"mcq", q:"“Day two was deliberately dull” means:",
+  opts:["the boring paperwork was shown on purpose",
+        "nothing was planned","the visitor was tired","the office was quiet"], a:0},
+ {t:"match", q:"Match what Ms. Chen saw to the worry it answered.",
+  pairs:[["the quarry","where does the material come from?"],
+         ["a test on that morning’s batch","is quality measured?"],
+         ["eleven lorries in an afternoon","can they dispatch?"],
+         ["a credit note in the file","what happens when it goes wrong?"]]}
+],
+post:[
+ {t:"write", q:"Plan a two-day visit for a customer of your own, backwards from their decision.",
+  model:"Their question at home: can I rely on these people every month for two years? Day one, the work: raw material store, then the test bench with a sample from today's run, then the line, then dispatch — in that order, because each answers the worry the last one raises. Day two, the dull proof: one complete order file including a month that went wrong, an hour with whoever invoices them, then a short meeting to agree, because everything will already have been answered. Last hour: nothing asked of them."},
+ {t:"short", q:"Why does coaching staff make a visitor doubt even the true things?",
+  model:"Because once they spot one managed answer they cannot tell which others were managed. Doubt spreads backwards over everything they have already been shown, and the visit becomes worth less than no visit at all."},
+ {t:"mcq", q:"What was left out of the two days?",
+  opts:["a tour of the head office","the laboratory","the loading yard","dinner"], a:0}
+]
+});
