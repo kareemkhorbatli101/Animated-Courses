@@ -81,6 +81,7 @@ EFA.page('u5-s21-review', {
         a: 'Due Date. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.',
       visual: { spot: 'invoice', caption: 'Review · Vocabulary Quiz' }
     },
     {
@@ -177,7 +178,7 @@ EFA.page('u5-s21-review', {
       title: 'Extension Writing: A New Credit Policy',
       instruction: 'Write a formal proposal (80 words) for a new, stricter credit policy to reduce bad debt.',
       html: '<p>Style: Use formal requests and Future Forms.</p>',
-      playable: [{ t: 'Use formal requests and Future Forms.', role: 'narrator' }],
+      playable: [{ t: 'Style: Use formal requests and Future Forms.', role: 'narrator' }],
       doneLabel: 'I have read this',
       visual: { spot: 'credit', caption: 'Review · Extension Writing: A New Credit Policy', cls: 'vis-sm' }
     },
@@ -213,13 +214,30 @@ EFA.page('u5-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can define and explain Accounts Payable and Accounts Receivable. [ ]' },
-        { t: 'I can discuss when invoices are due and schedule payment runs. [ ]' },
-        { t: 'I can use Will to make predictions and offers. [ ]' },
-        { t: 'I can use Going To for plans and intentions. [ ]' },
-        { t: 'I can use the Present Continuous to discuss fixed professional arrangements. [ ]' }
+        { t: 'I can define and explain Accounts Payable and Accounts Receivable.' },
+        { t: 'I can discuss when invoices are due and schedule payment runs.' },
+        { t: 'I can use Will to make predictions and offers.' },
+        { t: 'I can use Going To for plans and intentions.' },
+        { t: 'I can use the Present Continuous to discuss fixed professional arrangements.' }
       ],
       visual: { spot: 'debtor', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c8',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 5 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        {
+          q: 'The collection process can damage a customer relationship. How will you chase a debt politely and professionally? What is the ethical exposure of extending credit to a client you know is struggling? How will the role of accounts payable change with more automation?'
+        }
+      ],
+      model: 'I am going to chase the debt in writing first, and I will telephone only if the reminder is ignored — a polite letter keeps the relationship and still creates the record. Extending credit to a client we know is struggling is the real exposure: we are lending the company\'s money without calling it a loan. Automation will take over the reminders, so the job will become the difficult conversations.',
+      visual: { spot: 'reorder-point', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

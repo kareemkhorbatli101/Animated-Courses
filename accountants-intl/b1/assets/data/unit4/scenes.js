@@ -13,12 +13,14 @@ EFA.scene('u4-listening-1-c1', {
       who: 'clerk',
       face: 'thinking',
       en: 'Good morning. I\'m calling about our stock levels. We have a few reams of paper left, but very little ink. Also, we are out of stock of the large black binder clips. We need to place an order immediately. Do we have any budget left this month for equipment?',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'صباح الخير. أتصل بشأن مستويات مخزوننا. لدينا بضع رزم من الورق، لكن الحبر قليل جدًا. كما نفدت مشابك الملفات السوداء الكبيرة. علينا تقديم طلب شراء فورًا. هل بقي لدينا أي مخصص في موازنة هذا الشهر للمعدات؟'
     },
     {
       who: 'manager',
       face: 'thinking',
-      en: 'Yes, we have a lot of budget. How much ink do you need? And how many boxes of clips should I order?'
+      en: 'Yes, we have a lot of budget. How much ink do you need? And how many boxes of clips should I order?',
+      ar: 'نعم، لدينا مخصص كبير. كم حبرًا تحتاج؟ وكم صندوقًا من المشابك أطلب؟'
     }
   ]
 });
@@ -30,22 +32,50 @@ EFA.scene('u4-listening-2-c1', {
       who: 'narr',
       face: 'warm',
       en: '"Team, the annual stocktaking begins at 9 AM tomorrow, local time in each office.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"يا فريق، يبدأ الجرد السنوي في الساعة 9 صباحًا غدًا بالتوقيت المحلي لكل مكتب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You must count all items, including consumables and equipment.'
+      en: 'You must count all items, including consumables and equipment.',
+      ar: 'عليكم عدّ جميع الأصناف، بما فيها المستهلكات والمعدات.'
     },
-    { who: 'narr', face: 'neutral', en: 'We will check the physical count against the ledger.' },
-    { who: 'narr', face: 'neutral', en: 'We cannot afford many variances.' },
-    { who: 'narr', face: 'neutral', en: 'We have little time to reconcile the figures.' },
-    { who: 'narr', face: 'neutral', en: 'Focus on the high-value assets first.' },
-    { who: 'narr', face: 'neutral', en: 'Do not forget to record the serial numbers.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'A few items are obsolete, so do not include them in the final count.'
+      en: 'We will check the physical count against the ledger.',
+      ar: 'وسنطابق الجرد الفعلي مع دفتر الأستاذ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We cannot afford many variances.',
+      ar: 'ولا نستطيع تحمّل فروق كثيرة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have little time to reconcile the figures.',
+      ar: 'فوقتنا قليل لتسوية الأرقام.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Focus on the high-value assets first.',
+      ar: 'ركّزوا على الأصول عالية القيمة أولًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Do not forget to record the serial numbers.',
+      ar: 'ولا تنسوا تسجيل الأرقام التسلسلية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'A few items are obsolete, so do not include them in the final count.',
+      ar: 'وبعض الأصناف متقادمة، فلا تدخلوها في الجرد النهائي.'
     }
   ]
 });
@@ -57,29 +87,44 @@ EFA.scene('u4-reading-1-c2', {
       who: 'narr',
       face: 'warm',
       en: 'Consumables are defined as supplies that are used up quickly in the course of business operations.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'تُعرَّف المستهلكات بأنها لوازم تُستهلك سريعًا في سياق عمليات المنشأة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'These are treated as an expense when purchased, not an asset.'
+      en: 'These are treated as an expense when purchased, not an asset.',
+      ar: 'وتُعالج كمصروف عند الشراء لا كأصل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This category includes a lot of items: printer toner, a few boxes of paper clips, cleaning supplies, and general stationery.'
+      en: 'This category includes a lot of items: printer toner, a few boxes of paper clips, cleaning supplies, and general stationery.',
+      ar: 'وتشمل هذه الفئة أصنافًا كثيرة: حبر الطابعات، وبضعة صناديق من مشابك الورق، ولوازم التنظيف، والقرطاسية العامة.'
     },
-    { who: 'narr', face: 'neutral', en: 'We must note that equipment is not a consumable.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Since we use too much paper, we have set a low reorder point for it.'
+      en: 'We must note that equipment is not a consumable.',
+      ar: 'وعلينا أن نلاحظ أن المعدات ليست مستهلكات.'
     },
-    { who: 'narr', face: 'neutral', en: 'Employees may request new supplies using the online form.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We cannot have too little paper or ink, or productivity will fall.'
+      en: 'Since we use too much paper, we have set a low reorder point for it.',
+      ar: 'ولأننا نستهلك ورقًا أكثر من اللازم، فقد حددنا له حد إعادة طلب منخفضًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Employees may request new supplies using the online form.',
+      ar: 'ويجوز للموظفين طلب لوازم جديدة عبر النموذج الإلكتروني.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We cannot have too little paper or ink, or productivity will fall.',
+      ar: 'ولا يصح أن يكون الورق أو الحبر قليلًا جدًا، وإلا انخفضت الإنتاجية.'
     }
   ]
 });
@@ -91,33 +136,44 @@ EFA.scene('u4-reading-2-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Inventory variance is the difference between the recorded amount in the ledger and the physical count.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'فرق المخزون هو الفرق بين الكمية المسجلة في دفتر الأستاذ والجرد الفعلي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'There should not be much variance if stocktaking is performed correctly.'
+      en: 'There should not be much variance if stocktaking is performed correctly.',
+      ar: 'ولا ينبغي أن يكون الفرق كبيرًا إذا أُجري الجرد على الوجه الصحيح.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If the variance is higher than 5% of the total value, the custodian must perform a re-count.'
+      en: 'If the variance is higher than 5% of the total value, the custodian must perform a re-count.',
+      ar: 'وإذا تجاوز الفرق 5% من القيمة الإجمالية، فعلى أمين المخزن أن يعيد العدّ.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If the variance persists, an investigation will be launched.'
-    },
-    { who: 'narr', face: 'neutral', en: 'We are looking for any evidence of misplacement or theft.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We have too many unexplained variances in the last two quarters, in three different offices.'
+      en: 'If the variance persists, an investigation will be launched.',
+      ar: 'وإذا بقي الفرق، فسيُفتح تحقيق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We need a lot of improvements in our inventory control procedures.'
+      en: 'We are looking for any evidence of misplacement or theft.',
+      ar: 'ونحن نبحث عن أي دليل على سوء التخزين أو السرقة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have too many unexplained variances in the last two quarters, in three different offices.',
+      ar: 'فلدينا فروق غير مبرَّرة أكثر من اللازم في الربعين الأخيرين، وفي ثلاثة مكاتب مختلفة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need a lot of improvements in our inventory control procedures.',
+      ar: 'ونحتاج إلى تحسينات كثيرة في إجراءات رقابة المخزون.'
     }
   ]
 });
@@ -129,26 +185,45 @@ EFA.scene('u4-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Assets become obsolete when they are no longer useful to the business, often due to technological changes.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'تتقادم الأصول عندما لا تعود مفيدة للمنشأة، وغالبًا بسبب التغيرات التقنية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'A few old computers and a large printer are currently considered obsolete assets.'
+      en: 'A few old computers and a large printer are currently considered obsolete assets.',
+      ar: 'وتُعد بضعة حواسيب قديمة وطابعة كبيرة أصولًا متقادمة حاليًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'These must be disposed of according to strict environmental guidelines, which differ from country to country.'
+      en: 'These must be disposed of according to strict environmental guidelines, which differ from country to country.',
+      ar: 'ويجب التخلص منها وفق إرشادات بيئية صارمة تختلف من دولة إلى أخرى.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We do not have much storage space, so they must be removed quickly.'
+      en: 'We do not have much storage space, so they must be removed quickly.',
+      ar: 'ومساحة التخزين لدينا قليلة، فلا بد من إخراجها سريعًا.'
     },
-    { who: 'narr', face: 'neutral', en: 'We do not want too many old items taking up space.' },
-    { who: 'narr', face: 'thinking', en: 'How much money can we get from recycling them?' },
-    { who: 'narr', face: 'neutral', en: 'That is the final question we must answer.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We do not want too many old items taking up space.',
+      ar: 'ولا نريد أصنافًا قديمة كثيرة تشغل المساحة.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'How much money can we get from recycling them?',
+      ar: 'كم مالًا يمكن أن نحصّل من إعادة تدويرها؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'That is the final question we must answer.',
+      ar: 'هذا هو السؤال الأخير الذي علينا الإجابة عنه.'
+    }
   ]
 });
 EFA.scene('u4-extension-c1', {
@@ -159,247 +234,419 @@ EFA.scene('u4-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'For the logistics team at Prime Warehousing International, the first week of January is synonymous with "The Great Count.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'بالنسبة إلى فريق اللوجستيات في شركة برايم وير هاوسنغ إنترناشونال، فإن الأسبوع الأول من يناير مرادف لـ "العدّ الكبير".'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" This is the time for the annual stocktaking, where the physical reality of the warehouse is compared against the digital records in the ledger.'
+      en: '" This is the time for the annual stocktaking, where the physical reality of the warehouse is compared against the digital records in the ledger.',
+      ar: '" فهو موعد الجرد السنوي، حيث يُقارَن الواقع الفعلي للمستودع مع السجلات الرقمية في دفتر الأستاذ.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The goal is to verify the inventory levels of both assets, like forklifts and computers, and consumables, like packing tape and cardboard boxes.'
-    },
-    { who: 'narr', face: 'neutral', en: 'The warehouse manager, Mr Tao, is obsessed with accuracy.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'He knows that having too much stock ties up cash, while having too little stock leads to operational delays in three countries at once.'
+      en: 'The goal is to verify the inventory levels of both assets, like forklifts and computers, and consumables, like packing tape and cardboard boxes.',
+      ar: 'والهدف التحقق من مستويات المخزون للأصول، مثل الرافعات الشوكية والحواسيب، وللمستهلكات، مثل شريط التغليف وصناديق الكرتون.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This year, the team faced a specific challenge with their stationery and packing supplies.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'During the briefing, Mr Tao noted, "We have a lot of packing tape recorded in the system, but I see very little on the shelves.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Conversely, we seem to have too many medium-sized boxes.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We need to count exactly how many rolls of tape and how many boxes we actually have.'
-    },
-    { who: 'narr', face: 'neutral', en: '" The team split up into groups.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'One group was assigned to count the countable items: boxes, pens, scanners, and pallets.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Another group had to estimate the uncountable items: bubble wrap footage, loose fill packing peanuts, and fuel for the vehicles.'
-    },
-    { who: 'narr', face: 'neutral', en: 'As the day progressed, reports started coming in.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: '"We have a few problems in Aisle 4," reported Sarah, a junior clerk.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"There are not many labels left for the shipping printers.'
-    },
-    { who: 'narr', face: 'neutral', en: 'We are below the reorder point.' },
-    { who: 'narr', face: 'thinking', en: '"How much ink do we have?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"We have plenty of ink," Sarah replied, "but without the labels, the ink is useless.'
+      en: 'The warehouse manager, Mr Tao, is obsessed with accuracy.',
+      ar: 'ومدير المستودع، السيد تاو، مهووس بالدقة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: '" This was a failure of inventory management; the consumption rate of labels had increased during the December peak, but the automatic reorder system hadn\'t triggered.'
+      en: 'He knows that having too much stock ties up cash, while having too little stock leads to operational delays in three countries at once.',
+      ar: 'فهو يعلم أن المخزون الزائد يجمّد النقد، وأن المخزون الناقص يؤدي إلى تعطّل العمل في ثلاث دول في الوقت نفسه.'
     },
-    { who: 'narr', face: 'neutral', en: 'Meanwhile, in the equipment section, another issue arose.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The team found a corner filled with old computer monitors and broken scanners.'
+      en: 'This year, the team faced a specific challenge with their stationery and packing supplies.',
+      ar: 'وقد واجه الفريق هذا العام تحديًا محددًا في القرطاسية ولوازم التغليف.'
     },
-    { who: 'narr', face: 'neutral', en: '"These are obsolete," Mr Tao declared.' },
-    { who: 'narr', face: 'neutral', en: '"They are taking up too much space.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We need to dispose of them, and the disposal rules are different in every country we operate in.'
+      en: 'During the briefing, Mr Tao noted, "We have a lot of packing tape recorded in the system, but I see very little on the shelves.',
+      ar: 'وفي أثناء الإحاطة قال السيد تاو: "لدينا كمية كبيرة من شريط التغليف مسجلة في النظام، لكني أرى القليل جدًا على الرفوف.'
     },
-    { who: 'narr', face: 'neutral', en: '" The final reconciliation showed a significant variance.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The warehouse had consumed a lot of packing material that wasn\'t billed to clients.'
+      en: 'Conversely, we seem to have too many medium-sized boxes.',
+      ar: 'وبالعكس، يبدو أن لدينا صناديق متوسطة الحجم أكثر من اللازم.'
     },
-    { who: 'narr', face: 'neutral', en: 'Mr Tao realized they needed stricter controls.' },
-    { who: 'narr', face: 'neutral', en: '"We cannot afford this much waste," he told the team.' },
-    { who: 'narr', face: 'neutral', en: '"From now on, we need to track every roll of tape.' },
-    { who: 'narr', face: 'neutral', en: 'A little variance is expected, but this is too much.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to count exactly how many rolls of tape and how many boxes we actually have.',
+      ar: 'علينا أن نعدّ بدقة كم لفة شريط وكم صندوقًا لدينا فعلًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" The team split up into groups.',
+      ar: '" فانقسم الفريق إلى مجموعات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'One group was assigned to count the countable items: boxes, pens, scanners, and pallets.',
+      ar: 'كُلّفت مجموعة بعدّ الأصناف القابلة للعدّ: الصناديق والأقلام والماسحات والمنصات النقالة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Another group had to estimate the uncountable items: bubble wrap footage, loose fill packing peanuts, and fuel for the vehicles.',
+      ar: 'وكان على مجموعة أخرى أن تقدّر الأصناف غير القابلة للعدّ: أطوال الغلاف الفقاعي، وحشو التغليف السائب، ووقود المركبات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'As the day progressed, reports started coming in.',
+      ar: 'وبتقدّم اليوم بدأت التقارير تتوالى.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '"We have a few problems in Aisle 4," reported Sarah, a junior clerk.',
+      ar: 'قالت سارة، وهي كاتبة مبتدئة: "لدينا بعض المشكلات في الممر 4".'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"There are not many labels left for the shipping printers.',
+      ar: '"لم يبق كثير من الملصقات لطابعات الشحن.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We are below the reorder point.',
+      ar: 'فنحن تحت حد إعادة الطلب.'
+    },
+    { who: 'narr', face: 'thinking', en: '"How much ink do we have?', ar: '"كم حبرًا لدينا؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"We have plenty of ink," Sarah replied, "but without the labels, the ink is useless.',
+      ar: 'فأجابت سارة: "لدينا حبر وفير، لكن بلا ملصقات لا قيمة للحبر.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '" This was a failure of inventory management; the consumption rate of labels had increased during the December peak, but the automatic reorder system hadn\'t triggered.',
+      ar: '" كان هذا خللًا في إدارة المخزون؛ فقد ارتفع معدل استهلاك الملصقات في ذروة ديسمبر، لكن نظام إعادة الطلب التلقائي لم يُفعَّل.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Meanwhile, in the equipment section, another issue arose.',
+      ar: 'وفي الوقت نفسه ظهرت مشكلة أخرى في قسم المعدات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The team found a corner filled with old computer monitors and broken scanners.',
+      ar: 'فقد وجد الفريق زاوية مملوءة بشاشات حاسوب قديمة وماسحات معطلة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"These are obsolete," Mr Tao declared.',
+      ar: 'فقرّر السيد تاو: "هذه متقادمة".'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"They are taking up too much space.',
+      ar: '"وهي تشغل مساحة أكبر من اللازم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to dispose of them, and the disposal rules are different in every country we operate in.',
+      ar: 'علينا التخلص منها، وقواعد التخلص تختلف في كل دولة نعمل فيها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" The final reconciliation showed a significant variance.',
+      ar: '" وأظهرت التسوية النهائية فرقًا كبيرًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The warehouse had consumed a lot of packing material that wasn\'t billed to clients.',
+      ar: 'فقد استهلك المستودع كمية كبيرة من مواد التغليف لم تُحمَّل على العملاء.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Mr Tao realized they needed stricter controls.',
+      ar: 'وأدرك السيد تاو أنهم يحتاجون إلى رقابة أشد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"We cannot afford this much waste," he told the team.',
+      ar: 'وقال للفريق: "لا نستطيع تحمّل هذا القدر من الهدر".'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"From now on, we need to track every roll of tape.',
+      ar: '"ومن الآن فصاعدًا علينا أن نتابع كل لفة شريط.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'A little variance is expected, but this is too much.',
+      ar: 'فرق قليل أمر متوقع، أما هذا فكثير جدًا.'
+    }
   ]
 });
 EFA.scene('u4-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Supply Room Crisis', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Context:The Office Manager, David, is talking to the Inventory Clerk, Sarah, about a shortage of supplies.'
+      face: 'warm',
+      en: 'The Supply Room Crisis',
+      cam: { shot: 'mid' },
+      ar: 'أزمة غرفة اللوازم'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"Sarah, I’ve just come from the supply room, and I’m concerned.'
-    },
-    { who: 'narr', face: 'worried', en: 'We seem to have a problem with our stock levels.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'There is very little paper for the main printer, and the sales team is printing a large proposal this afternoon.'
-    },
-    { who: 'narr', face: 'neutral', en: '"I checked the shelves this morning, David.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We have a few boxes of paper in the reserve cupboard, but you are right, the main stack is depleted.'
-    },
-    { who: 'narr', face: 'neutral', en: 'The consumption rate this month has been unusually high.' },
-    { who: 'narr', face: 'thinking', en: '"How much ink do we have?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'If they are printing a lot of documents, we can’t afford to run out of toner.'
-    },
-    { who: 'narr', face: 'neutral', en: '"That is the bigger issue.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We have too many black cartridges—about twenty of them—but we don’t have any color cartridges left.'
-    },
-    { who: 'narr', face: 'worried', en: 'Someone ordered the wrong type last month.' },
-    { who: 'narr', face: 'neutral', en: 'The cyan and magenta are completely out of stock.' },
-    { who: 'narr', face: 'warm', en: '"That is not good.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We have a lot of money tied up in obsolete stock if those black cartridges don’t fit our new printers.'
-    },
-    { who: 'narr', face: 'neutral', en: 'We need to place an order immediately.' },
-    {
-      who: 'narr',
-      face: 'thinking',
-      en: 'Could you check the reorder point for the stationery as well?'
-    },
-    { who: 'narr', face: 'neutral', en: 'I did a physical count yesterday.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We have plenty of pens, but there are only a few notepads remaining.'
+      en: 'Context:The Office Manager, David, is talking to the Inventory Clerk, Sarah, about a shortage of supplies.',
+      ar: 'السياق: مدير المكتب، ديفيد، يتحدث مع كاتبة المخزون، سارة، عن نقص في اللوازم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Also, there is too much coffee in the breakroom; we don’t need to buy any more of that for months.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'However, regarding the equipment, we have a few broken chairs that need disposal.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Let’s focus on the consumables first.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Please place an urgent order for the color toner and the paper.'
+      en: '"Sarah, I’ve just come from the supply room, and I’m concerned.',
+      ar: '"سارة، جئت الآن من غرفة اللوازم وأنا قلق.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'Order from the regional supplier, not the overseas one — we do not have time for a customs delay.'
+      en: 'We seem to have a problem with our stock levels.',
+      ar: 'يبدو أن لدينا مشكلة في مستويات المخزون.'
     },
-    { who: 'narr', face: 'neutral', en: 'Do not order any more pens or coffee.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We need to reduce the variance between our budget and our actual usage.'
+      en: 'There is very little paper for the main printer, and the sales team is printing a large proposal this afternoon.',
+      ar: 'فالورق قليل جدًا للطابعة الرئيسية، وفريق المبيعات يطبع عرضًا كبيرًا بعد الظهر.'
     },
-    { who: 'narr', face: 'thinking', en: 'Also, how many new laptops arrived today?' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Countable items like that need to be logged in the asset register immediately.'
+      en: '"I checked the shelves this morning, David.',
+      ar: '"راجعت الرفوف هذا الصباح يا ديفيد.'
     },
-    { who: 'narr', face: 'neutral', en: '"Five laptops arrived.' },
-    { who: 'narr', face: 'neutral', en: 'I will tag them now.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have a few boxes of paper in the reserve cupboard, but you are right, the main stack is depleted.',
+      ar: 'لدينا بضعة صناديق ورق في خزانة الاحتياط، لكنك محق، فالكمية الرئيسية استُنفدت.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The consumption rate this month has been unusually high.',
+      ar: 'ومعدل الاستهلاك هذا الشهر مرتفع بصورة غير معتادة.'
+    },
+    { who: 'narr', face: 'thinking', en: '"How much ink do we have?', ar: '"كم حبرًا لدينا؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If they are printing a lot of documents, we can’t afford to run out of toner.',
+      ar: 'وإن كانوا يطبعون مستندات كثيرة فلا نستطيع أن ينفد منا الحبر.'
+    },
+    { who: 'narr', face: 'neutral', en: '"That is the bigger issue.', ar: '"وهذه هي المشكلة الأكبر.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have too many black cartridges—about twenty of them—but we don’t have any color cartridges left.',
+      ar: 'لدينا خراطيش سوداء أكثر من اللازم — نحو عشرين — ولم يبق لدينا أي خرطوشة ملونة.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'Someone ordered the wrong type last month.',
+      ar: 'فقد طلب أحدهم النوع الخطأ الشهر الماضي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The cyan and magenta are completely out of stock.',
+      ar: 'واللون السماوي والأرجواني نفدا تمامًا.'
+    },
+    { who: 'narr', face: 'warm', en: '"That is not good.', ar: '"هذا ليس جيدًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have a lot of money tied up in obsolete stock if those black cartridges don’t fit our new printers.',
+      ar: 'فلدينا مال كثير مجمَّد في مخزون متقادم إن لم تكن تلك الخراطيش السوداء تناسب طابعاتنا الجديدة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to place an order immediately.',
+      ar: 'علينا تقديم طلب شراء فورًا.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Could you check the reorder point for the stationery as well?',
+      ar: 'هل تراجعين حد إعادة الطلب للقرطاسية أيضًا؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I did a physical count yesterday.',
+      ar: 'أجريت جردًا فعليًا أمس.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have plenty of pens, but there are only a few notepads remaining.',
+      ar: 'لدينا أقلام وفيرة، لكن لم تبق سوى بضع دفاتر ملاحظات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Also, there is too much coffee in the breakroom; we don’t need to buy any more of that for months.',
+      ar: 'كما أن القهوة في غرفة الاستراحة أكثر من اللازم؛ فلا نحتاج إلى شراء المزيد منها لأشهر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'However, regarding the equipment, we have a few broken chairs that need disposal.',
+      ar: 'أما المعدات، فلدينا بضعة كراسي معطلة تحتاج إلى التخلص منها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Let’s focus on the consumables first.',
+      ar: 'لنركّز على المستهلكات أولًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Please place an urgent order for the color toner and the paper.',
+      ar: 'من فضلك قدّمي طلبًا عاجلًا للحبر الملون والورق.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'Order from the regional supplier, not the overseas one — we do not have time for a customs delay.',
+      ar: 'واطلبي من المورّد الإقليمي لا من المورّد الخارجي؛ فلا وقت لدينا لتأخير جمركي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Do not order any more pens or coffee.',
+      ar: 'ولا تطلبي مزيدًا من الأقلام أو القهوة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to reduce the variance between our budget and our actual usage.',
+      ar: 'فعلينا تقليص الفرق بين موازنتنا واستهلاكنا الفعلي.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Also, how many new laptops arrived today?',
+      ar: 'ثم، كم حاسوبًا محمولًا جديدًا وصل اليوم؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Countable items like that need to be logged in the asset register immediately.',
+      ar: 'فالأصناف القابلة للعدّ مثل هذه يجب تسجيلها في سجل الأصول فورًا.'
+    },
+    { who: 'narr', face: 'neutral', en: '"Five laptops arrived.', ar: '"وصلت خمسة حواسيب محمولة.' },
+    { who: 'narr', face: 'neutral', en: 'I will tag them now.', ar: 'سأرقّمها الآن.' }
   ]
 });
 EFA.scene('u4-extension-c5', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Spare-Parts Depot in Singapore', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Northwind Group has taken over a large spare-parts depot in Singapore from a former distributor.'
+      face: 'warm',
+      en: 'The Spare-Parts Depot in Singapore',
+      cam: { shot: 'mid' },
+      ar: 'مستودع قطع الغيار في سنغافورة'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Your task is to perform the first accurate stocktaking in years.'
+      en: 'Northwind Group has taken over a large spare-parts depot in Singapore from a former distributor.',
+      ar: 'استحوذت مجموعة نورثويند على مستودع كبير لقطع الغيار في سنغافورة من موزّع سابق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The inventory includes countable items (bearings, filters, drive belts) and uncountable items (litres of hydraulic oil, compressed gas, packing foam by the roll).'
+      en: 'Your task is to perform the first accurate stocktaking in years.',
+      ar: 'ومهمتك إجراء أول جرد دقيق منذ سنوات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'the records show "too much" of certain obsolete parts for machines the group no longer sells, and "very little" of the critical filters that three plants depend on.'
+      en: 'The inventory includes countable items (bearings, filters, drive belts) and uncountable items (litres of hydraulic oil, compressed gas, packing foam by the roll).',
+      ar: 'ويشمل المخزون أصنافًا قابلة للعدّ (محامل ومرشّحات وسيور نقل الحركة) وأصنافًا غير قابلة للعدّ (لترات من الزيت الهيدروليكي، وغاز مضغوط، ورغوة تغليف باللفّة).'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You need to report these levels to the procurement team in Kraków.'
+      en: 'the records show "too much" of certain obsolete parts for machines the group no longer sells, and "very little" of the critical filters that three plants depend on.',
+      ar: 'وتُظهر السجلات "كمية أكبر من اللازم" من قطع متقادمة لآلات لم تعد المجموعة تبيعها، و"كمية قليلة جدًا" من المرشّحات الحرجة التي تعتمد عليها ثلاثة مصانع.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You also need to dispose of the obsolete stock safely, under Singapore\'s own rules rather than the group\'s.'
+      en: 'You need to report these levels to the procurement team in Kraków.',
+      ar: 'وعليك إبلاغ فريق المشتريات في كراكوف بهذه المستويات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You also need to dispose of the obsolete stock safely, under Singapore\'s own rules rather than the group\'s.',
+      ar: 'وعليك كذلك التخلص من المخزون المتقادم بأمان، وفق قواعد سنغافورة نفسها لا قواعد المجموعة.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'The depot manager is asking, "How many filters do we have?'
+      en: 'The depot manager is asking, "How many filters do we have?',
+      ar: 'ومدير المستودع يسأل: "كم مرشّحًا لدينا؟'
     },
-    { who: 'narr', face: 'thinking', en: '" and "How much hydraulic oil is left?' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '" and "How much hydraulic oil is left?',
+      ar: '" و"كم بقي من الزيت الهيدروليكي؟'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" You must use the correct quantifiers to report the status.'
+      en: '" You must use the correct quantifiers to report the status.',
+      ar: '" وعليك استخدام أدوات الكمية الصحيحة لبيان الحالة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If you make a mistake in counting, a production line on the other side of the world might stop.'
+      en: 'If you make a mistake in counting, a production line on the other side of the world might stop.',
+      ar: 'فإن أخطأت في العدّ، فقد يتوقف خط إنتاج في الجهة الأخرى من العالم.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

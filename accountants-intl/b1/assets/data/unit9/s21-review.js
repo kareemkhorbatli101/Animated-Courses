@@ -81,7 +81,8 @@ EFA.page('u9-s21-review', {
         a: 'The most highly regarded accounting qualification. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
-      visual: { spot: 'certification', caption: 'CPA — one of the words on this list.' }
+      visual: { spot: 'certification', caption: 'CPA — one of the words on this list.' },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.'
     },
     {
       id: 'c2',
@@ -179,7 +180,10 @@ EFA.page('u9-s21-review', {
       instruction: 'Write a short paragraph (80 words) describing your most recent professional achievement.',
       html: '<p>Style: Use the Present Perfect to describe the achievement and the results.</p>',
       playable: [
-        { t: 'Use the Present Perfect to describe the achievement and the results.', role: 'narrator' }
+        {
+          t: 'Style: Use the Present Perfect to describe the achievement and the results.',
+          role: 'narrator'
+        }
       ],
       doneLabel: 'I have read this',
       visual: { spot: 'journal', caption: 'Review · Extension Writing: A Recent Achievement', cls: 'vis-sm' }
@@ -216,12 +220,31 @@ EFA.page('u9-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can use vocabulary related to career development (CPA, up-skill, migration). [ ]' },
-        { t: 'I can identify and use the Present Perfect Simple (have/has + P.P.). [ ]' },
-        { t: 'I can discuss my work experience using since and for. [ ]' },
-        { t: 'I can describe recent achievements in an interview context. [ ]' }
+        { t: 'I can use vocabulary related to career development (CPA, up-skill, migration).' },
+        { t: 'I can identify and use the Present Perfect Simple (have/has + P.P.).' },
+        { t: 'I can discuss my work experience using since and for.' },
+        { t: 'I can describe recent achievements in an interview context.' }
       ],
       visual: { spot: 'closing', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c9',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 9 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        { q: 'How does this idea relate to CPE and the need for continuous up-skilling?' },
+        {
+          q: 'What is the biggest change you have seen in the industry since you started, and how have you adapted to it?'
+        }
+      ],
+      frame: { title: 'The claim', text: 'The only constant in accounting is change.' },
+      model: 'The idea is exactly why CPE exists. I have worked with three different systems since I started, and each one has changed what the job is rather than how fast it is done. The biggest change I have seen is that the closing has become continuous: we have stopped waiting for month end, so I have had to learn to review as the entries arrive.',
+      visual: { spot: 'variance', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

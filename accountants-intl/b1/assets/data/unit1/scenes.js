@@ -13,34 +13,40 @@ EFA.scene('u1-listening-1-c1', {
       who: 'marta',
       face: 'warm',
       en: 'Ryan, listen carefully. This is how we organize the archives.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'رايان، أنصت جيدًا. هكذا ننظّم الأرشيف.'
     },
     {
       who: 'marta',
       face: 'neutral',
-      en: 'We keep the invoices in these blue folders. We arrange them alphabetically by supplier name, not by date.'
+      en: 'We keep the invoices in these blue folders. We arrange them alphabetically by supplier name, not by date.',
+      ar: 'نحفظ الفواتير في هذه الملفات الزرقاء، ونرتّبها أبجديًا باسم المورّد لا بالتاريخ.'
     },
     {
       who: 'ryan',
       face: 'thinking',
-      en: 'Okay. Alphabetically. And what about the bank statements?'
+      en: 'Okay. Alphabetically. And what about the bank statements?',
+      ar: 'حسنًا، أبجديًا. وماذا عن كشوف الحساب البنكية؟'
     },
     {
       who: 'marta',
       face: 'neutral',
-      en: 'Those go in the red binders, one binder per company. Currently, we are digitizing everything, so please scan them first.'
+      en: 'Those go in the red binders, one binder per company. Currently, we are digitizing everything, so please scan them first.',
+      ar: 'تلك توضع في الملفات الحمراء، ملف لكل شركة. ونحن الآن نحوّل كل شيء إلى صيغة رقمية، فامسحها ضوئيًا أولًا.'
     },
     {
       who: 'ryan',
       face: 'thinking',
-      en: 'I understand. I am scanning them now. Do I staple the receipts to the invoice?'
+      en: 'I understand. I am scanning them now. Do I staple the receipts to the invoice?',
+      ar: 'فهمت. أنا أمسحها ضوئيًا الآن. هل أدبّس الإيصالات بالفاتورة؟'
     },
     {
       who: 'marta',
       face: 'neutral',
-      en: 'No, never staple them. Use a paperclip. Staples damage the scanner.'
+      en: 'No, never staple them. Use a paperclip. Staples damage the scanner.',
+      ar: 'لا، لا تدبّسها أبدًا. استخدم مشبك ورق؛ فالدبابيس تُتلف الماسح الضوئي.'
     },
-    { who: 'ryan', face: 'neutral', en: 'Got it. Paperclips only.' }
+    { who: 'ryan', face: 'neutral', en: 'Got it. Paperclips only.', ar: 'فهمت. مشابك الورق فقط.' }
   ]
 });
 EFA.scene('u1-listening-2-c1', {
@@ -54,29 +60,39 @@ EFA.scene('u1-listening-2-c1', {
       who: 'accountant',
       face: 'warm',
       en: 'Hello, Accounts Department, Northwind Group. This is Tomás speaking.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'مرحبًا، قسم الحسابات، مجموعة نورثويند. أنا توماس.'
     },
     {
       who: 'supplier',
       face: 'neutral',
-      en: 'Hi Tomás. This is Andina Office Supplies in Santiago. We are checking on Invoice #402. It is overdue.'
+      en: 'Hi Tomás. This is Andina Office Supplies in Santiago. We are checking on Invoice #402. It is overdue.',
+      ar: 'مرحبًا توماس. أنا من شركة أندينا للوازم المكتبية في سانتياغو. نتابع الفاتورة رقم 402؛ فقد تجاوزت تاريخ استحقاقها.'
     },
     {
       who: 'accountant',
       face: 'neutral',
-      en: 'Let me check the system. One moment... I am looking at your account now.'
+      en: 'Let me check the system. One moment... I am looking at your account now.',
+      ar: 'دعني أراجع النظام. لحظة واحدة... أنا أنظر في حسابكم الآن.'
     },
-    { who: 'supplier', face: 'thinking', en: 'Does it show as paid?' },
+    { who: 'supplier', face: 'thinking', en: 'Does it show as paid?', ar: 'هل تظهر على أنها مسددة؟' },
     {
       who: 'accountant',
       face: 'worried',
-      en: 'No, it shows as "Pending." Usually, we pay invoices within 30 days. But this month, we are moving the payment run to Kraków, so there is a small delay.'
+      en: 'No, it shows as "Pending." Usually, we pay invoices within 30 days. But this month, we are moving the payment run to Kraków, so there is a small delay.',
+      ar: 'لا، تظهر على أنها "قيد المعالجة". نحن عادةً نسدد الفواتير خلال 30 يومًا، لكننا هذا الشهر ننقل دورة الدفع إلى كراكوف، فهناك تأخير بسيط.'
     },
-    { who: 'supplier', face: 'thinking', en: 'I see. When can we expect payment?' },
+    {
+      who: 'supplier',
+      face: 'thinking',
+      en: 'I see. When can we expect payment?',
+      ar: 'فهمت. متى نتوقع السداد؟'
+    },
     {
       who: 'accountant',
       face: 'neutral',
-      en: 'The payment run happens tomorrow. I am adding your invoice to the list right now.'
+      en: 'The payment run happens tomorrow. I am adding your invoice to the list right now.',
+      ar: 'دورة الدفع غدًا، وأنا أضيف فاتورتكم إلى القائمة الآن.'
     }
   ]
 });
@@ -92,22 +108,26 @@ EFA.scene('u1-listening-3-c1', {
       who: 'mrfarouk',
       face: 'thinking',
       en: 'Good morning everyone. Quick updates, please. Priya, what are you working on?',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'صباح الخير جميعًا. تحديثات سريعة من فضلكم. بريا، على ماذا تعملين؟'
     },
     {
       who: 'priya',
       face: 'neutral',
-      en: 'I am finishing the monthly GST return for Singapore. I usually submit it on the 20th, but I am trying to finish it today.'
+      en: 'I am finishing the monthly GST return for Singapore. I usually submit it on the 20th, but I am trying to finish it today.',
+      ar: 'أنا أُنهي إقرار ضريبة السلع والخدمات الشهري لسنغافورة. أقدّمه عادةً في اليوم العشرين، لكني أحاول إنهاءه اليوم.'
     },
     {
       who: 'ryan',
       face: 'worried',
-      en: 'I am dealing with the petty cash in Toronto. There is a CAD 20 discrepancy. I am recounting the money now.'
+      en: 'I am dealing with the petty cash in Toronto. There is a CAD 20 discrepancy. I am recounting the money now.',
+      ar: 'أنا أتابع المصروفات النثرية في تورونتو. هناك فرق قيمته 20 دولارًا كنديًا، وأعيد عدّ المبلغ الآن.'
     },
     {
       who: 'mrfarouk',
       face: 'worried',
-      en: 'Okay. Remember, we always investigate errors over ten, in any currency. Keep me updated.'
+      en: 'Okay. Remember, we always investigate errors over ten, in any currency. Keep me updated.',
+      ar: 'حسنًا. تذكّروا أننا نحقق دائمًا في أي فرق يتجاوز العشرة، بأي عملة. أبقوني على علم.'
     }
   ]
 });
@@ -115,41 +135,93 @@ EFA.scene('u1-reading-1-c2', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Kraków Shared Service Centre', cam: { shot: 'mid' } },
-    { who: 'narr', face: 'neutral', en: 'Senior Finance Manager' }
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'JOB VACANCY: JUNIOR ACCOUNTANT',
+      cam: { shot: 'mid' },
+      ar: 'وظيفة خالية: محاسب مبتدئ'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Location: Kraków Shared Service Centre',
+      ar: 'المكان: مركز الخدمات المشتركة في كراكوف'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Reports to: Senior Finance Manager',
+      ar: 'يتبع: مدير الشؤون المالية الأول'
+    }
   ]
 });
 EFA.scene('u1-reading-2-c1', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'URGENT: Server Maintenance Today', cam: { shot: 'mid' } },
-    { who: 'narr', face: 'neutral', en: 'Finance Team, All Offices' },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Please note that we are performing maintenance on the accounting server today between 12:00 PM and 2:00 PM Central European Time.'
+      face: 'warm',
+      en: 'Subject: URGENT: Server Maintenance Today',
+      cam: { shot: 'mid' },
+      ar: 'الموضوع: عاجل — صيانة الخادم اليوم'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'During this time, the ledger module is running very slowly.'
+      en: 'To: Finance Team, All Offices',
+      ar: 'إلى: الفريق المالي في جميع المكاتب'
     },
-    { who: 'narr', face: 'neutral', en: 'We are installing a security patch to protect our data.' },
-    { who: 'narr', face: 'neutral', en: 'Please save your work locally.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If you are working on the shared drive, you might lose data.'
+      en: 'Please note that we are performing maintenance on the accounting server today between 12:00 PM and 2:00 PM Central European Time.',
+      ar: 'نرجو العلم بأننا نجري صيانة لخادم المحاسبة اليوم بين الساعة 12:00 ظهرًا و 2:00 بعد الظهر بتوقيت وسط أوروبا.'
     },
-    { who: 'narr', face: 'neutral', en: 'Currently, our technicians are testing the backup system.' },
-    { who: 'narr', face: 'neutral', en: 'We expect everything to return to normal by 2:30 PM.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Colleagues in Singapore, please note that this is the end of your working day.'
+      en: 'During this time, the ledger module is running very slowly.',
+      ar: 'وخلال هذه الفترة تعمل وحدة دفتر الأستاذ ببطء شديد.'
     },
-    { who: 'narr', face: 'warm', en: 'Thanks for your patience.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We are installing a security patch to protect our data.',
+      ar: 'نحن نثبّت تحديثًا أمنيًا لحماية بياناتنا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Please save your work locally.',
+      ar: 'نرجو حفظ عملكم على أجهزتكم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If you are working on the shared drive, you might lose data.',
+      ar: 'وإذا كنتم تعملون على القرص المشترك فقد تفقدون بيانات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Currently, our technicians are testing the backup system.',
+      ar: 'ويختبر فنيّونا حاليًا نظام النسخ الاحتياطي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We expect everything to return to normal by 2:30 PM.',
+      ar: 'ونتوقع أن يعود كل شيء إلى طبيعته بحلول الساعة 2:30 بعد الظهر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Colleagues in Singapore, please note that this is the end of your working day.',
+      ar: 'وإلى الزملاء في سنغافورة: نرجو العلم بأن هذا يوافق نهاية يوم عملكم.'
+    },
+    { who: 'narr', face: 'warm', en: 'Thanks for your patience.', ar: 'شكرًا لتفهمكم.' }
   ]
 });
 EFA.scene('u1-extension-c1', {
@@ -160,116 +232,158 @@ EFA.scene('u1-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'In the bustling shared service centre of Northwind Group in Kraków, the day usually begins long before the first client call is answered.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'في مركز الخدمات المشتركة المزدحم لمجموعة نورثويند في كراكوف، يبدأ اليوم عادةً قبل الرد على أول اتصال من عميل بوقت طويل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'For Elena, a Junior Accountant who recently joined the firm, the morning routine is a critical part of maintaining order in a chaotic environment.'
+      en: 'For Elena, a Junior Accountant who recently joined the firm, the morning routine is a critical part of maintaining order in a chaotic environment.',
+      ar: 'وبالنسبة إلى إيلينا، وهي محاسبة مبتدئة انضمت إلى الشركة حديثًا، يُعد روتين الصباح جزءًا أساسيًا من الحفاظ على النظام في بيئة مزدحمة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She arrives at the office at 8:30 AM sharp every day, one hour ahead of Dublin and six hours behind Singapore.'
+      en: 'She arrives at the office at 8:30 AM sharp every day, one hour ahead of Dublin and six hours behind Singapore.',
+      ar: 'تصل إلى المكتب في الساعة 8:30 صباحًا تمامًا كل يوم، وهو ما يسبق دبلن بساعة ويتأخر عن سنغافورة بست ساعات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Her first task is always the same: she turns on her computer, logs into the secure network, and checks her email inbox for any urgent requests from vendors or the senior management team.'
+      en: 'Her first task is always the same: she turns on her computer, logs into the secure network, and checks her email inbox for any urgent requests from vendors or the senior management team.',
+      ar: 'ومهمتها الأولى هي نفسها دائمًا: تشغّل حاسوبها، وتسجّل الدخول إلى الشبكة المؤمَّنة، وتتفقد بريدها بحثًا عن أي طلبات عاجلة من الموردين أو من الإدارة العليا.'
     },
     {
       who: 'narr',
       face: 'warm',
-      en: 'This is a habit she never breaks because she knows that organization is the foundation of good bookkeeping.'
+      en: 'This is a habit she never breaks because she knows that organization is the foundation of good bookkeeping.',
+      ar: 'وهذه عادة لا تخلّ بها أبدًا، لأنها تعلم أن التنظيم هو أساس إمساك الدفاتر الجيد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'While she drinks her coffee, Elena opens the general ledger software.'
+      en: 'While she drinks her coffee, Elena opens the general ledger software.',
+      ar: 'وبينما تشرب قهوتها، تفتح إيلينا برنامج دفتر الأستاذ العام.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She usually spends the first hour of the day recording the previous day\'s transactions.'
+      en: 'She usually spends the first hour of the day recording the previous day\'s transactions.',
+      ar: 'وهي تقضي عادةً الساعة الأولى من اليوم في تسجيل عمليات اليوم السابق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She enters invoice numbers, dates, and amounts with precision, ensuring that every debit has a corresponding credit.'
+      en: 'She enters invoice numbers, dates, and amounts with precision, ensuring that every debit has a corresponding credit.',
+      ar: 'تُدخل أرقام الفواتير والتواريخ والمبالغ بدقة، وتتأكد من أن لكل طرف مدين طرفًا دائنًا يقابله.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'She understands that a single error in data entry can cause hours of reconciliation work later in the month, in two ledgers rather than one.'
+      en: 'She understands that a single error in data entry can cause hours of reconciliation work later in the month, in two ledgers rather than one.',
+      ar: 'وهي تدرك أن خطأً واحدًا في إدخال البيانات قد يكلّف ساعات من أعمال التسوية في وقت لاحق من الشهر، في دفترين لا في دفتر واحد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She handles the accounts payable ledger for the Dublin and Toronto companies, meaning she is responsible for tracking what the group owes to its suppliers.'
+      en: 'She handles the accounts payable ledger for the Dublin and Toronto companies, meaning she is responsible for tracking what the group owes to its suppliers.',
+      ar: 'وهي مسؤولة عن دفتر الحسابات الدائنة لشركتي دبلن وتورونتو، أي عن متابعة ما تدين به المجموعة لمورديها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She files digital receipts into specific folders on the server, organizing them by vendor name to make them easy to locate during an audit.'
-    },
-    { who: 'narr', face: 'neutral', en: 'However, today is not a typical day.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Currently, the office is undergoing a major software migration.'
+      en: 'She files digital receipts into specific folders on the server, organizing them by vendor name to make them easy to locate during an audit.',
+      ar: 'وتحفظ الإيصالات الرقمية في مجلدات محددة على الخادم، مرتبة باسم المورّد ليسهل الوصول إليها عند التدقيق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Instead of entering data into the old legacy system, Elena is learning how to use the new cloud-based ERP platform.'
+      en: 'However, today is not a typical day.',
+      ar: 'لكن اليوم ليس يومًا عاديًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Right now, she is sitting with the IT specialist, who is explaining how to code an invoice in the new interface.'
+      en: 'Currently, the office is undergoing a major software migration.',
+      ar: 'فالمكتب يمر حاليًا بعملية انتقال كبرى إلى برنامج جديد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She is taking notes furiously because the interface is quite different, and because it handles six currencies rather than one.'
+      en: 'Instead of entering data into the old legacy system, Elena is learning how to use the new cloud-based ERP platform.',
+      ar: 'فبدلًا من إدخال البيانات في النظام القديم، تتعلم إيلينا كيف تستخدم منصة تخطيط الموارد الجديدة العاملة على السحابة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Usually, she works alone in her cubicle, but at the moment, she is collaborating with the entire finance team in the conference room to test the new system.'
+      en: 'Right now, she is sitting with the IT specialist, who is explaining how to code an invoice in the new interface.',
+      ar: 'وهي الآن تجلس مع أخصائي تقنية المعلومات الذي يشرح لها كيف تُرمَّز الفاتورة في الواجهة الجديدة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Her manager, Mr Farouk, is walking around the room observing the training.'
+      en: 'She is taking notes furiously because the interface is quite different, and because it handles six currencies rather than one.',
+      ar: 'وتدوّن الملاحظات بسرعة لأن الواجهة مختلفة تمامًا، ولأنها تتعامل مع ست عملات لا عملة واحدة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He often asks the team about their daily workflows to ensure the new software captures all necessary steps.'
-    },
-    { who: 'narr', face: 'thinking', en: '"Elena, do you print physical copies of the invoices?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Elena responds, "I usually print them for the physical archive, but right now I am scanning everything directly to the cloud.'
-    },
-    { who: 'narr', face: 'neutral', en: '" Mr Farouk nods approval.' },
-    { who: 'narr', face: 'neutral', en: 'He knows that the team is working hard to adapt.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'While the rest of the office is handling their routine tasks, the finance team is currently bridging the gap between old habits and modern efficiency.'
+      en: 'Usually, she works alone in her cubicle, but at the moment, she is collaborating with the entire finance team in the conference room to test the new system.',
+      ar: 'وهي تعمل عادةً وحدها في حجرتها، لكنها في هذه اللحظة تعمل مع الفريق المالي بأكمله في قاعة الاجتماعات لاختبار النظام الجديد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Even though Elena is stressed by the learning curve, she knows that understanding this system is vital for her role.'
+      en: 'Her manager, Mr Farouk, is walking around the room observing the training.',
+      ar: 'ومديرها، السيد فاروق، يتنقل في القاعة مراقبًا التدريب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She is not just recording numbers; she is managing the financial pulse of six companies.'
+      en: 'He often asks the team about their daily workflows to ensure the new software captures all necessary steps.',
+      ar: 'وهو يسأل الفريق كثيرًا عن سير عملهم اليومي ليتأكد من أن البرنامج الجديد يغطي كل الخطوات اللازمة.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"Elena, do you print physical copies of the invoices?',
+      ar: '"إيلينا، هل تطبعين نسخًا ورقية من الفواتير؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Elena responds, "I usually print them for the physical archive, but right now I am scanning everything directly to the cloud.',
+      ar: 'تجيب إيلينا: "أطبعها عادةً للأرشيف الورقي، لكني الآن أمسح كل شيء ضوئيًا إلى السحابة مباشرة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" Mr Farouk nods approval.',
+      ar: '" فيهزّ السيد فاروق رأسه موافقًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He knows that the team is working hard to adapt.',
+      ar: 'فهو يعلم أن الفريق يعمل بجد على التكيّف.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'While the rest of the office is handling their routine tasks, the finance team is currently bridging the gap between old habits and modern efficiency.',
+      ar: 'وبينما يؤدي بقية المكتب مهامهم المعتادة، يعمل الفريق المالي حاليًا على ردم الفجوة بين العادات القديمة والكفاءة الحديثة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Even though Elena is stressed by the learning curve, she knows that understanding this system is vital for her role.',
+      ar: 'ومع أن إيلينا متوترة من صعوبة التعلم، فهي تعلم أن فهم هذا النظام ضروري لعملها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She is not just recording numbers; she is managing the financial pulse of six companies.',
+      ar: 'فهي لا تسجّل أرقامًا فحسب، بل تدير النبض المالي لست شركات.'
     }
   ]
 });
@@ -277,124 +391,204 @@ EFA.scene('u1-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Morning Briefing', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Context:The audio takes place in an open-plan accounting office at 8:45 AM.'
+      face: 'warm',
+      en: 'The Morning Briefing',
+      cam: { shot: 'mid' },
+      ar: 'الإحاطة الصباحية'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Mr Harrison, the Senior Accountant, is walking Alice, a new Junior Accountant, through the daily procedures while dealing with a current issue.'
-    },
-    { who: 'narr', face: 'warm', en: '"Good morning, Alice.' },
-    { who: 'narr', face: 'neutral', en: 'Welcome to your first full week.' },
-    { who: 'narr', face: 'neutral', en: 'As you can see, the office is already quite busy.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Usually, the finance team starts at 8:30 AM sharp, local time.'
+      en: 'Context:The audio takes place in an open-plan accounting office at 8:45 AM.',
+      ar: 'السياق: يجري التسجيل في مكتب محاسبة مفتوح في الساعة 8:45 صباحًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I want to walk you through the standard routine versus what is happening right now.'
+      en: 'Mr Harrison, the Senior Accountant, is walking Alice, a new Junior Accountant, through the daily procedures while dealing with a current issue.',
+      ar: 'السيد هاريسون، المحاسب الأول، يشرح لأليس، المحاسبة المبتدئة الجديدة، الإجراءات اليومية وهو يعالج مشكلة قائمة.'
     },
-    { who: 'narr', face: 'warm', en: '"Good morning, Mr Harrison.' },
-    { who: 'narr', face: 'neutral', en: 'I have my notebook.' },
-    { who: 'narr', face: 'neutral', en: 'So, let’s talk about the daily rhythm.' },
+    { who: 'narr', face: 'warm', en: '"Good morning, Alice.', ar: '"صباح الخير يا أليس.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Generally, every morning, the first thing we do is check the bank feed.'
+      en: 'Welcome to your first full week.',
+      ar: 'أهلًا بك في أسبوعك الكامل الأول.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I log in, download the statement, and print the transaction list.'
+      en: 'As you can see, the office is already quite busy.',
+      ar: 'كما ترين، المكتب مزدحم بالفعل.'
     },
-    { who: 'narr', face: 'neutral', en: 'That is a permanent habit.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We also check the \'In-Tray\' for physical invoices that arrive by post.'
+      en: 'Usually, the finance team starts at 8:30 AM sharp, local time.',
+      ar: 'يبدأ الفريق المالي عادةً في الساعة 8:30 صباحًا تمامًا بالتوقيت المحلي.'
     },
-    { who: 'narr', face: 'neutral', en: 'Organization is key here.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We always file receipts alphabetically by vendor name, never by date, to make them easier to find later.'
+      en: 'I want to walk you through the standard routine versus what is happening right now.',
+      ar: 'أريد أن أعرض لك الروتين المعتاد مقابل ما يجري الآن.'
     },
-    { who: 'narr', face: 'neutral', en: 'Alphabetical filing.' },
-    { who: 'narr', face: 'thinking', en: 'And what is everyone doing at the moment?' },
-    { who: 'narr', face: 'neutral', en: 'It looks very chaotic.' },
-    { who: 'narr', face: 'neutral', en: '"Yes, well, today is an exception.' },
-    { who: 'narr', face: 'neutral', en: 'Currently, we are upgrading our accounting software.' },
-    { who: 'narr', face: 'surprised', en: 'Look over there at Tom.' },
+    { who: 'narr', face: 'warm', en: '"Good morning, Mr Harrison.', ar: '"صباح الخير يا سيد هاريسون.' },
+    { who: 'narr', face: 'neutral', en: 'I have my notebook.', ar: 'دفتري معي.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Usually, he sits at his desk and enters data into the ledger.'
+      en: 'So, let’s talk about the daily rhythm.',
+      ar: 'لنتحدث إذًا عن الإيقاع اليومي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Generally, every morning, the first thing we do is check the bank feed.',
+      ar: 'عمومًا، أول ما نفعله كل صباح هو مراجعة حركة الحساب البنكي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I log in, download the statement, and print the transaction list.',
+      ar: 'أسجّل الدخول، وأنزّل كشف الحساب، وأطبع قائمة العمليات.'
+    },
+    { who: 'narr', face: 'neutral', en: 'That is a permanent habit.', ar: 'وهذه عادة ثابتة.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We also check the \'In-Tray\' for physical invoices that arrive by post.',
+      ar: 'ونتفقد أيضًا صندوق الواردات بحثًا عن الفواتير الورقية التي تصل بالبريد.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Organization is key here.', ar: 'والتنظيم هو الأساس هنا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We always file receipts alphabetically by vendor name, never by date, to make them easier to find later.',
+      ar: 'نحفظ الإيصالات دائمًا أبجديًا باسم المورّد، لا بالتاريخ أبدًا، ليسهل العثور عليها لاحقًا.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Alphabetical filing.', ar: 'حفظ أبجدي.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'And what is everyone doing at the moment?',
+      ar: 'وماذا يفعل الجميع في هذه اللحظة؟'
+    },
+    { who: 'narr', face: 'neutral', en: 'It looks very chaotic.', ar: 'يبدو الأمر مضطربًا جدًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Yes, well, today is an exception.',
+      ar: '"نعم، اليوم استثناء.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Currently, we are upgrading our accounting software.',
+      ar: 'فنحن نحدّث حاليًا برنامج المحاسبة.'
+    },
+    { who: 'narr', face: 'surprised', en: 'Look over there at Tom.', ar: 'انظري إلى توم هناك.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Usually, he sits at his desk and enters data into the ledger.',
+      ar: 'هو عادةً يجلس إلى مكتبه ويُدخل البيانات في دفتر الأستاذ.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'But right now, he is standing by the printer because he is troubleshooting a connection error.'
+      en: 'But right now, he is standing by the printer because he is troubleshooting a connection error.',
+      ar: 'لكنه الآن واقف عند الطابعة لأنه يعالج خطأً في الاتصال.'
     },
-    { who: 'narr', face: 'neutral', en: 'And Priya—she normally processes the payroll on Tuesdays.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'However, at the moment, she is meeting with the IT consultants in the conference room.'
+      en: 'And Priya—she normally processes the payroll on Tuesdays.',
+      ar: 'وبريا — هي تعالج الرواتب عادةً أيام الثلاثاء.'
     },
-    { who: 'narr', face: 'neutral', en: 'They are discussing the data migration.' },
-    { who: 'narr', face: 'thinking', en: 'And what about me?' },
-    { who: 'narr', face: 'thinking', en: 'What am I doing today?' },
-    { who: 'narr', face: 'neutral', en: 'For your first week, you are shadowing me.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Usually, I review the general ledger entries before lunch.'
+      en: 'However, at the moment, she is meeting with the IT consultants in the conference room.',
+      ar: 'لكنها في هذه اللحظة تجتمع مع مستشاري تقنية المعلومات في قاعة الاجتماعات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They are discussing the data migration.',
+      ar: 'وهم يناقشون نقل البيانات.'
+    },
+    { who: 'narr', face: 'thinking', en: 'And what about me?', ar: 'وماذا عني؟' },
+    { who: 'narr', face: 'thinking', en: 'What am I doing today?', ar: 'ماذا أفعل اليوم؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'For your first week, you are shadowing me.',
+      ar: 'في أسبوعك الأول ستلازمينني وتتابعين عملي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Usually, I review the general ledger entries before lunch.',
+      ar: 'أنا عادةً أراجع قيود دفتر الأستاذ العام قبل الغداء.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'But right now, I am looking for a discrepancy in the petty cash.'
+      en: 'But right now, I am looking for a discrepancy in the petty cash.',
+      ar: 'لكني الآن أبحث عن فرق في المصروفات النثرية.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'There is a small error, and I am trying to find the missing voucher.'
+      en: 'There is a small error, and I am trying to find the missing voucher.',
+      ar: 'هناك خطأ صغير، وأحاول العثور على السند المفقود.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'So, while I am searching for that, I want you to observe the filing system.'
+      en: 'So, while I am searching for that, I want you to observe the filing system.',
+      ar: 'وبينما أبحث عنه، أريدك أن تراقبي نظام الحفظ.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Are you understanding the difference between the routine tasks and the temporary projects?'
+      en: 'Are you understanding the difference between the routine tasks and the temporary projects?',
+      ar: 'هل تدركين الفرق بين المهام الروتينية والمشاريع المؤقتة؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The routine tasks happen every day, like checking emails and filing, but the software upgrade is just happening this week.'
+      en: 'The routine tasks happen every day, like checking emails and filing, but the software upgrade is just happening this week.',
+      ar: 'المهام الروتينية تحدث كل يوم، مثل مراجعة البريد والحفظ، أما تحديث البرنامج فيحدث هذا الأسبوع فقط.'
     },
-    { who: 'narr', face: 'neutral', en: 'Accuracy is vital.' },
+    { who: 'narr', face: 'neutral', en: 'Accuracy is vital.', ar: 'الدقة أمر جوهري.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Even though we are busy with the upgrade, we verify every figure, in every currency.'
+      en: 'Even though we are busy with the upgrade, we verify every figure, in every currency.',
+      ar: 'ومع أننا مشغولون بالتحديث، فإننا نتحقق من كل رقم، وبكل عملة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Currently, I am double-checking these invoices before I post them.'
+      en: 'Currently, I am double-checking these invoices before I post them.',
+      ar: 'وأنا أراجع هذه الفواتير مرتين الآن قبل أن أرحّلها.'
     },
-    { who: 'narr', face: 'neutral', en: 'We never let the chaos interrupt our accuracy.' },
-    { who: 'narr', face: 'neutral', en: 'Now, let’s go to the archive room.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We never let the chaos interrupt our accuracy.',
+      ar: 'ولا ندع الاضطراب يخلّ بدقتنا أبدًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Now, let’s go to the archive room.',
+      ar: 'هيا بنا الآن إلى غرفة الأرشيف.'
+    }
   ]
 });
 EFA.scene('u1-extension-c5', {
@@ -405,60 +599,81 @@ EFA.scene('u1-extension-c5', {
       who: 'narr',
       face: 'warm',
       en: 'Opening the Shared Service Centre in Kraków',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'افتتاح مركز الخدمات المشتركة في كراكوف'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Following the board\'s decision to consolidate its bookkeeping, Northwind Group has opened a shared service centre in Kraków to handle the accounting for all six operating companies.'
+      en: 'Following the board\'s decision to consolidate its bookkeeping, Northwind Group has opened a shared service centre in Kraków to handle the accounting for all six operating companies.',
+      ar: 'بعد قرار مجلس الإدارة بتوحيد إمساك الدفاتر، افتتحت مجموعة نورثويند مركز خدمات مشتركة في كراكوف ليتولى محاسبة الشركات التشغيلية الست كلها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You are part of the new team of Junior Accountants and Bookkeepers tasked with organizing the office.'
-    },
-    { who: 'narr', face: 'neutral', en: 'The office is currently in a transition phase.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'While the long-term goal is to have a fully digital cloud-based system, the current reality involves sorting through boxes of physical records shipped in from the six local offices and setting up immediate daily routines.'
+      en: 'You are part of the new team of Junior Accountants and Bookkeepers tasked with organizing the office.',
+      ar: 'أنت من الفريق الجديد من المحاسبين المبتدئين وممسكي الدفاتر المكلفين بتنظيم المكتب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It is 8:30 AM in Kraków, which is 7:30 AM in Dublin and 2:30 PM in Singapore.'
+      en: 'The office is currently in a transition phase.',
+      ar: 'والمكتب يمر حاليًا بمرحلة انتقالية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Usually, an accounting office is quiet at this time, but today it is chaotic.'
+      en: 'While the long-term goal is to have a fully digital cloud-based system, the current reality involves sorting through boxes of physical records shipped in from the six local offices and setting up immediate daily routines.',
+      ar: 'وفي حين أن الهدف على المدى الطويل هو نظام رقمي كامل على السحابة، فإن الواقع الحالي هو فرز صناديق من السجلات الورقية الواردة من المكاتب المحلية الستة، وإرساء روتين يومي عاجل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The IT technicians are currently installing the new servers, and the Group Finance Manager is interviewing candidates for the Senior Accountant role.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Your team is responsible for defining the daily workflow.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'You must distinguish between what you do every day (routines) and what you are doing right now (temporary setup tasks).'
+      en: 'It is 8:30 AM in Kraków, which is 7:30 AM in Dublin and 2:30 PM in Singapore.',
+      ar: 'الساعة 8:30 صباحًا في كراكوف، أي 7:30 صباحًا في دبلن و 2:30 بعد الظهر في سنغافورة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'For example, you usually reconcile the bank accounts on Fridays, but this week you are reconciling them daily to catch up on the backlog.'
+      en: 'Usually, an accounting office is quiet at this time, but today it is chaotic.',
+      ar: 'مكتب المحاسبة هادئ عادةً في هذا الوقت، لكنه اليوم مضطرب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You are also handling the "In-Tray," which is overflowing with supplier invoices in four currencies.'
+      en: 'The IT technicians are currently installing the new servers, and the Group Finance Manager is interviewing candidates for the Senior Accountant role.',
+      ar: 'ففنيّو تقنية المعلومات يثبّتون الخوادم الجديدة حاليًا، ومدير الشؤون المالية للمجموعة يقابل المرشحين لوظيفة المحاسب الأول.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The team needs to establish a clear distinction between the roles of a bookkeeper (recording data) and the controller (strategy) to ensure transparency.'
+      en: 'Your team is responsible for defining the daily workflow.',
+      ar: 'وفريقك مسؤول عن تحديد سير العمل اليومي.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You must distinguish between what you do every day (routines) and what you are doing right now (temporary setup tasks).',
+      ar: 'وعليك أن تميّز بين ما تفعله كل يوم (الروتين) وما تفعله في هذه اللحظة (مهام التأسيس المؤقتة).'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'For example, you usually reconcile the bank accounts on Fridays, but this week you are reconciling them daily to catch up on the backlog.',
+      ar: 'فمثلًا أنت تسوّي الحسابات البنكية عادةً أيام الجمعة، لكنك هذا الأسبوع تسوّيها يوميًا للحاق بالمتأخرات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You are also handling the "In-Tray," which is overflowing with supplier invoices in four currencies.',
+      ar: 'وأنت تتولى كذلك صندوق الواردات الذي يفيض بفواتير الموردين بأربع عملات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The team needs to establish a clear distinction between the roles of a bookkeeper (recording data) and the controller (strategy) to ensure transparency.',
+      ar: 'ويحتاج الفريق إلى تمييز واضح بين دور ممسك الدفاتر (تسجيل البيانات) ودور المراقب المالي (الاستراتيجية) لضمان الشفافية.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

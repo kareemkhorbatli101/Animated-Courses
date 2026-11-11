@@ -33,6 +33,7 @@ EFA.page('u5-s08-grammar-produce', {
         '6': '<b>We are reconciling the bank statement next Friday.</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 4.</b> Future Form: The client <u>The client is going to pay late.</u> late.',
+      brief: 'Rewrite each sentence. The meaning must survive the change — if it does not, you have changed more than the grammar.',
       visual: { spot: 'entry', caption: 'Grammar · Sentence Transformation' }
     },
     {

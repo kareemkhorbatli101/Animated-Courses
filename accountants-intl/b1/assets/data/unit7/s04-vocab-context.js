@@ -18,30 +18,6 @@ EFA.page('u7-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 7 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Monthly Report Summary',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>The monthly (1) ________ showed that sales revenue was (2) ________ the (3) ________ by 15%. This resulted in a (4) ________ variance. However, the expense report indicated that R&amp;D costs (5) ________ their budget by 20%. We need to examine this (6) ________ to determine if it is a one-off issue.</p>',
-      playable: [
-        { t: 'This resulted in a (4) ________ variance.', role: 'narrator' },
-        {
-          t: 'However, the expense report indicated that R&D costs (5) ________ their budget by 20%.',
-          role: 'narrator'
-        },
-        {
-          t: 'We need to examine this (6) ________ to determine if it is a one-off issue.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'variance', caption: 'Vocabulary · Vocabulary in Context: Monthly Report Summary' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 7 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Monthly Report Summary',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -57,11 +33,8 @@ EFA.page('u7-s04-vocab-context', {
       bank: ['analysis', 'exceeding', 'favourable', 'target', 'trend', 'underperformed'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'debit',
-        caption: 'Vocabulary · Vocabulary in Context: Monthly Report Summary',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'variance', caption: 'Vocabulary · Vocabulary in Context: Monthly Report Summary' }
     }
   ],
   prev: 's03-vocab-gaps',

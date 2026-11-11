@@ -41,6 +41,7 @@ EFA.page('u10-s03-vocab-gaps', {
         '6': '<b>forecast</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> The Group CFO asked for a brief summary of the meeting’s <u>key takeaways</u> before leaving.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'forecast', caption: 'Vocabulary · Management Accounts Terminology' }
     }
   ],

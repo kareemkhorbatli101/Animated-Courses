@@ -22,7 +22,7 @@ EFA.page('u3-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: Requesting Authorization',
       instruction: 'Student A (Accountant): Ask for authorization politely (Could). Explain why you need it quickly.',
-      html: '<p><b>Context.</b> Ask the Financial Controller for authorization for a EUR 450 payment to a vendor (above petty cash limit).</p><p>Student B (Financial Controller): Ask a clarifying question (Can/Would you mind). Grant the approval (Can).</p>',
+      html: '<p><b>Context.</b> Ask the Financial Controller for authorization for a EUR 450 payment to a vendor (above petty cash limit).</p><p>Student B (Financial Controller): Ask a clarifying question (Can/Would you mind). Grant the approval (Can).</p><ol><li>A: "Could you approve this EUR 450 payment to the stationery vendor? We need the supplies urgently.</li><li>B: "Would you mind double-checking that the account code is correct? If it is, I can authorize it right away."</li></ol>',
       playable: [
         {
           t: 'Student B (Financial Controller): Ask a clarifying question (Can/Would you mind).',
@@ -31,6 +31,7 @@ EFA.page('u3-s13-speaking-roles', {
         { t: 'Grant the approval (Can).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'debtor', caption: 'Speaking · Role-Play 1: Requesting Authorization' }
     },
     {
@@ -76,7 +77,7 @@ EFA.page('u3-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: The Missing Receipt',
       instruction: 'Student B (Employee): Offer an alternative (Would). Explain what happened to the original.',
-      html: '<p><b>Context.</b> A colleague is demanding reimbursement but only has a photocopy of the receipt.</p><p>Student A (Custodian): Explain that you require the original receipt. Request the original politely (Could). Offer to process the reimbursement quickly once received (Can offer).</p>',
+      html: '<p><b>Context.</b> A colleague is demanding reimbursement but only has a photocopy of the receipt.</p><p>Student A (Custodian): Explain that you require the original receipt. Request the original politely (Could). Offer to process the reimbursement quickly once received (Can offer).</p><ol><li>A: "Could you please provide the original receipt? We must document the expense. I can offer to process the reimbursement as soon as you bring it in.</li></ol>',
       playable: [
         {
           t: 'Student A (Custodian): Explain that you require the original receipt.',

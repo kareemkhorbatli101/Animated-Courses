@@ -73,6 +73,7 @@ EFA.page('u1-s21-review', {
         a: 'Receipt. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.',
       visual: { spot: 'transaction', caption: 'Review · Vocabulary Quiz' }
     },
     {
@@ -159,7 +160,7 @@ EFA.page('u1-s21-review', {
       source: 'book',
       title: 'Extension Writing: The "To-Do" List',
       instruction: 'Write a To-Do list for Monday morning.',
-      html: '<p>List 5 items:</p>',
+      html: '<p>List 5 items:</p><ol><li>Example: Reconcile the cash box.</li><li>Example: Call Dublin regarding the error.</li></ol>',
       playable: [],
       doneLabel: 'I have read this',
       visual: { spot: 'payment-run', caption: 'Review · Extension Writing: The "To-Do" List', cls: 'vis-sm' }
@@ -197,13 +198,32 @@ EFA.page('u1-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can name the common objects in an accounting office. [ ]' },
-        { t: 'I can distinguish between routines (Simple) and current actions (Continuous). [ ]' },
-        { t: 'I can introduce myself and my job title professionally. [ ]' },
-        { t: 'I can pronounce 15 and 50 clearly. [ ]' },
-        { t: 'I understand the difference between an invoice and a receipt. [ ]' }
+        { t: 'I can name the common objects in an accounting office.' },
+        { t: 'I can distinguish between routines (Simple) and current actions (Continuous).' },
+        { t: 'I can introduce myself and my job title professionally.' },
+        { t: 'I can pronounce 15 and 50 clearly.' },
+        { t: 'I understand the difference between an invoice and a receipt.' }
       ],
       visual: { spot: 'receipt', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c8',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 1 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        { q: 'Do you agree?' },
+        {
+          q: 'Why is a small mistake (like typing 50 instead of 15) dangerous, especially when the figure crosses a border?'
+        }
+      ],
+      frame: { title: 'The claim', text: 'Accuracy is the most important skill for an accountant.' },
+      model: 'I partly agree. Accuracy matters more than speed, because a wrong figure travels: 50 instead of 15 crosses a border, and the Singapore office is already reporting it while we are still looking for it. But accuracy on its own is not enough — an accountant who records everything correctly and explains nothing is only half doing the job.',
+      visual: { spot: 'debit', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

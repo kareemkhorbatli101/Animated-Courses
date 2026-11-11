@@ -1,4 +1,4 @@
-/* Unit 10 — the unit's own headline facts. The Can-Do list is the book's, word for word. */
+/* Unit 10 — the unit's own headline facts. The Can-Do list is the book's, word for word, less his Word checkbox. */
 window.EFA = window.EFA || {};
 EFA.unitMeta = EFA.unitMeta || {};
 EFA.unitMeta.unit10 = {
@@ -9,10 +9,10 @@ EFA.unitMeta.unit10 = {
   grammar: 'Reported Speech (Relaying messages from the CFO, CEO, or external auditors).',
   blurb: 'Passing on information, management accounts, summarizing meetings, and conveying decisions.',
   canDo: [
-    'I can use reporting verbs (assert, mandate, elaborate) correctly. [ ]',
-    'I can change the tense of Present Simple to Past Simple in Reported Speech. [ ]',
-    'I can accurately report questions using if/whether. [ ]',
-    'I can convey urgent messages and directives to a team. [ ]'
+    'I can use reporting verbs (assert, mandate, elaborate) correctly.',
+    'I can change the tense of Present Simple to Past Simple in Reported Speech.',
+    'I can accurately report questions using if/whether.',
+    'I can convey urgent messages and directives to a team.'
   ],
-  cast: ['Marta', 'Ryan', 'Mr Farouk', 'Priya']
+  cast: ['Accountant', 'Group Finance Manager']
 };

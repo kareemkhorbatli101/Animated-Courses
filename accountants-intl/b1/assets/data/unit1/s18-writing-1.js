@@ -22,27 +22,16 @@ EFA.page('u1-s18-writing-1', {
       source: 'book',
       title: 'Guided Writing: Completing the Email',
       instruction: 'You are a Junior Accountant. You are sending an invoice to a customer.',
-      html: '<p>[ is attached / Please find / due date / contact me / reference number ]</p><p>Subject: Invoice #1045 - Services Rendered</p><p>Dear Ms Byrne,</p><p>(1) __________ attached Invoice #1045 for the services provided in January.</p><p>The total amount is EUR 450.00. The (2) __________ for payment is February 28th.</p><p>A detailed breakdown of the costs (3) __________ to this email.</p><p>Please quote the (4) __________ (#1045) when you make the bank transfer.</p><p>If you have any questions, please (5) __________ directly.</p><p>Sincerely,</p><p>Daniel Okoye</p><p>Junior Accountant</p>',
+      html: '<p>[ is attached / Please find / due date / contact me / reference number ]</p><p>Subject: Invoice #1045 - Services Rendered</p><p>Dear Ms Byrne,</p><p>Sincerely,</p><p>Daniel Okoye</p><p>Junior Accountant</p>',
       playable: [
         {
           t: '[ is attached / Please find / due date / contact me / reference number ]',
           role: 'narrator'
         },
-        { t: 'Invoice #1045 - Services Rendered', role: 'narrator' },
-        {
-          t: '(1) __________ attached Invoice #1045 for the services provided in January.',
-          role: 'narrator'
-        },
-        { t: 'The total amount is EUR 450.', role: 'narrator' },
-        { t: 'The (2) __________ for payment is February 28th.', role: 'narrator' },
-        { t: 'A detailed breakdown of the costs (3) __________ to this email.', role: 'narrator' },
-        {
-          t: 'Please quote the (4) __________ (#1045) when you make the bank transfer.',
-          role: 'narrator'
-        },
-        { t: 'If you have any questions, please (5) __________ directly.', role: 'narrator' }
+        { t: 'Subject: Invoice #1045 - Services Rendered', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Completing the Email' }
     },
     {
@@ -73,11 +62,11 @@ EFA.page('u1-s18-writing-1', {
       source: 'book',
       title: 'Writing Task 1: My Daily Routine (Functional)',
       instruction: 'Write a paragraph (50–60 words) describing your job.',
-      html: '<p><b>Context.</b> You are writing a short bio for the company newsletter.</p>',
+      html: '<p><b>Context.</b> You are writing a short bio for the company newsletter.</p><ol><li>Your job title and your office.</li><li>Three things you do every day (Present Simple).</li><li>One thing you are learning currently (Present Continuous).</li><li>Example: "I am a Bookkeeper in the Nairobi office. I enter data, check receipts, and answer the phone. Currently, I am learning the new group reporting system..."</li></ol>',
       playable: [],
       doneLabel: 'I have read this',
       visual: {
-        spot: 'reporting',
+        spot: 'receipt',
         caption: 'Writing · Writing Task 1: My Daily Routine (Functional)',
         cls: 'vis-sm'
       }

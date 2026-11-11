@@ -163,6 +163,21 @@
      ============================================================ */
   EX.discuss = function (card, host, api) {
     var fields = [];
+    /* A FRAME IS THE THING BEING ARGUED WITH, not a question.
+     *
+     * The author opens every "Final Thought" with a claim in quotation marks -
+     * "Accuracy is the most important skill for an accountant." - and then asks whether
+     * the learner agrees. Printing that claim as question 1 asks them to answer a
+     * statement; printing it above the questions gives them something to take a
+     * position on, which is the task he actually set. */
+    if (card.frame && card.frame.text) {
+      var fr = mk('div', 'note warm');
+      fr.innerHTML = '<h4>' + esc(card.frame.title || 'The claim') + '</h4>' +
+        '<blockquote style="margin:0;font-size:1.05em;line-height:1.5">“' +
+        esc(card.frame.text) + '”</blockquote>';
+      fr.style.marginBottom = '14px';
+      host.appendChild(fr);
+    }
     if (card.picture) {
       var pic = mk('div', 'diorama');
       pic.innerHTML = art.diorama(card.picture);
@@ -266,6 +281,15 @@
       if (!target && j && j.sel) target = d.querySelector(j.sel);
       if (!target) target = d.querySelector('.reading');
       if (target) {
+        /* OPEN WHATEVER IS IN THE WAY FIRST. On a listening screen the script is
+           collapsed on purpose, and on a reading screen the stage is - so "Look again"
+           used to scroll to a passage the learner still could not see, and the toast
+           told them to look for a sentence that was behind a button. Looking again IS
+           the moment the script is allowed to open. */
+        var fold = target.querySelector('[aria-expanded="false"]');
+        if (fold) fold.click();
+        var det = target.closest('details');
+        if (det && !det.open) det.open = true;
         try { target.scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (e) { }
         target.classList.add('flash');
         setTimeout(function () { target.classList.remove('flash'); }, 1400);
@@ -758,26 +782,72 @@
 
   function plain(s) { return String(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(); }
 
+  /* A paragraph may be a plain HTML string or an object.
+   *
+   *   'JOB VACANCY: JUNIOR ACCOUNTANT'
+   *   { h: 'Marta: We keep the invoices in these blue folders.',
+   *     say: 'We keep the invoices in these blue folders.',   // what the VOICE says
+   *     role: 'spk:Marta', who: 'Marta', speak: false }
+   *
+   * `h` and `say` are two strings on purpose: the page shows "Marta: …" and the
+   * recording is of her line without her name, and the audio registry is keyed by the
+   * exact text that was recorded. The same rule as the scene subtitles.
+   */
+  function paraHTML(x) { return (x && typeof x === 'object') ? (x.h || '') : String(x || ''); }
+  function paraSay(x) { return (x && typeof x === 'object') ? (x.say || plain(x.h || '')) : plain(x); }
+  function paraRole(x) { return (x && typeof x === 'object') ? (x.role || 'narrator') : null; }
+  function paraSpeaks(x) { return !(x && typeof x === 'object' && x.speak === false); }
+
   function passageNode(p) {
+    /* A STRING HERE WAS A LIVE DEFECT, so it is handled rather than assumed away.
+     *
+     * The builder used to pass `c.pop('html')` - one HTML string - into a function that
+     * reads {title, paras, html}. `(p.paras || []).forEach` then iterated nothing and
+     * `p.html` was undefined, so the box came out EMPTY; and `p.speak !== false` is true
+     * for `undefined`, so the Listen button was still appended. Every reading passage,
+     * listening script and appendix text in the course rendered as a play button over
+     * nothing, in all ten units, and the gates stayed green because the DATA was right.
+     *
+     * The builder now emits the object (build-unit.py `passage_of`). This coercion is
+     * the second line of defence, not the fix: the fix is check-render.py R1, which
+     * renders the page and counts the passage's words in the DOM. A silent wrong shape
+     * is what cost a day; a loud right-shaped fallback costs nothing.
+     */
+    if (typeof p === 'string') p = { html: p };
+
     var box = mk('div', 'reading ' + (p.style || ''));
     var h = '';
     if (p.title) h += '<h4>' + esc(p.title) + '</h4>';
-    (p.paras || []).forEach(function (t, i) { h += '<p data-pi="' + i + '">' + t + '</p>'; });
+    (p.paras || []).forEach(function (t, i) {
+      h += '<p data-pi="' + i + '">' + paraHTML(t) + '</p>';
+    });
     if (p.html) h += p.html;
     box.innerHTML = h;
 
     var voice = castVoice(p.say);
 
-    /* one small play button per paragraph, inside the text */
-    if (voice && (p.paras || []).length > 1) {
+    /* one small play button per paragraph, inside the text. THIS HAS NEVER RUN before
+     * today: it needs `paras`, and until the builder was fixed there were none. */
+    if ((p.paras || []).length > 1) {
       var ps = box.querySelectorAll('p[data-pi]');
       for (var i = 0; i < ps.length; i++) {
         (function (el, ix) {
+          var src = p.paras[ix];
+          if (!paraSpeaks(src)) return;             /* a stage direction is not a line */
           var b = mk('button', 'para-say no-print', art.icon('sound', 14));
           b.type = 'button';
-          b.title = 'Hear paragraph ' + (ix + 1);
-          b.setAttribute('aria-label', 'Hear paragraph ' + (ix + 1));
-          b.onclick = function () { EFA.say(plain(p.paras[ix]), null, { voice: voice, fallback: p.voice || 'f' }); };
+          var who = (src && typeof src === 'object' && src.who) ? src.who : '';
+          var lbl = who ? ('Hear ' + who + '’s line') : ('Hear paragraph ' + (ix + 1));
+          b.title = lbl;
+          b.setAttribute('aria-label', lbl);
+          b.onclick = function () {
+            /* each line in ITS OWN voice where the author named a speaker: a dialogue
+               read end to end in one voice is the other half of the same complaint */
+            var role = paraRole(src);
+            if (role && role !== 'narrator') EFA.say(paraSay(src), role);
+            else if (voice) EFA.say(paraSay(src), null, { voice: voice, fallback: p.voice || 'f' });
+            else EFA.say(paraSay(src), 'narrator');
+          };
           el.appendChild(b);
         })(ps[i], i);
       }
@@ -791,11 +861,16 @@
       /* paragraph by paragraph, so the recordings line up with the
          text rather than one long clip that cannot be re-found */
       b2.onclick = function () {
-        var k = 0, list = (p.paras || []).map(plain);
+        /* Each paragraph in its own voice, in order. The old version flattened every
+           paragraph with `plain()` and played them all in ONE voice - which is how a
+           two-person conversation came out sounding like one person reading. */
+        var list = (p.paras || []).filter(paraSpeaks);
+        var k = 0;
         (function next() {
           if (k >= list.length) return;
-          var txt = list[k++];
-          if (voice) EFA.say(txt, null, { voice: voice, fallback: p.voice || 'f', onend: next });
+          var src = list[k++], txt = paraSay(src), role = paraRole(src);
+          if (role && role !== 'narrator') EFA.say(txt, role, { onend: next });
+          else if (voice) EFA.say(txt, null, { voice: voice, fallback: p.voice || 'f', onend: next });
           else EFA.speak(txt, { voice: p.voice || 'f', onend: next });
         })();
       };
@@ -813,6 +888,29 @@
         row.appendChild(wb);
       }
       box.appendChild(row);
+    }
+
+    /* A LISTENING SCRIPT STARTS HIDDEN AND CAN BE REVEALED.
+     *
+     * Hiding it is the method: a learner who reads along is doing a reading exercise.
+     * Hiding it FOREVER is not a method, and that is what the course did - the script
+     * was absent with no way to reach it, so there was no way to check what you heard.
+     * The control is the whole difference between a pedagogy and a defect. */
+    if (p.hidden) {
+      var inner = mk('div', 'passage-body');
+      while (box.firstChild && box.firstChild !== inner) inner.appendChild(box.firstChild);
+      inner.style.display = 'none';
+      var rv = mk('button', 'btn btn-sm no-print', art.icon('eye', 15) + (p.revealLabel || 'Show the script'));
+      rv.type = 'button';
+      rv.setAttribute('aria-expanded', 'false');
+      rv.onclick = function () {
+        var open = inner.style.display !== 'none';
+        inner.style.display = open ? 'none' : 'block';
+        rv.setAttribute('aria-expanded', open ? 'false' : 'true');
+        rv.innerHTML = art.icon('eye', 15) + (open ? (p.revealLabel || 'Show the script') : 'Hide the script');
+      };
+      box.appendChild(rv);
+      box.appendChild(inner);
     }
     return box;
   }
@@ -859,7 +957,16 @@
     if (src.passage) {
       var pg = EFA.pages[src.page || ''] || null;
       var target = pg && (pg.cards || []).filter(function (c) { return c.id === src.passage; })[0];
-      if (target && target.passage) inner.appendChild(passageNode(withDefaults(target.passage, { speak: false })));
+      /* `hidden: false` as well as `speak: false`: this panel IS the act of looking at
+         the text, so a listening script that starts collapsed on its own card must not
+         arrive here still collapsed - the learner would open the panel and find a
+         second button. withDefaults only fills in what is absent, so the two keys are
+         overridden explicitly. */
+      if (target && target.passage) {
+        var tp = withDefaults(target.passage, { speak: false });
+        if (tp && typeof tp === 'object') { tp.speak = false; tp.hidden = false; }
+        inner.appendChild(passageNode(tp));
+      }
       else inner.appendChild(mk('div', 'wc', 'This text could not be loaded on this page.'));
     } else if (src.scene) {
       var sc = EFA.scenes[src.scene];
@@ -2553,7 +2660,35 @@
   /* ============================================================
      writer — scaffolded composition
      ============================================================ */
+  /* THE WORDS THE TASK NEEDS, BEFORE THE EMPTY BOX.
+   *
+   * A writing card gave a learner a prompt and a textarea. The unit's vocabulary was two
+   * screens back, and the gap between "I know this word" and "I can reach for it while
+   * writing" is exactly where a B1 learner stalls. These are the unit's own glossary
+   * terms, each one spoken, so the word arrives with its pronunciation attached - which
+   * is the half a glossary on a page cannot give.
+   *
+   * Shared by `writer` and `roleplay` because the need is the same: both ask for
+   * production, and production is where vocabulary either surfaces or does not. */
+  function wordBank(card, host) {
+    if (!card.bank || !card.bank.length) return;
+    var box = mk('div', 'note');
+    box.innerHTML = '<h4>Words you will need</h4>';
+    var chips = mk('div', 'chips');
+    card.bank.forEach(function (wrd) {
+      var c = mk('button', 'chip', esc(wrd));
+      c.type = 'button';
+      c.title = 'Hear it';
+      c.onclick = function () { EFA.say(wrd, 'course'); };
+      chips.appendChild(c);
+    });
+    box.appendChild(chips);
+    box.style.marginBottom = '14px';
+    host.appendChild(box);
+  }
+
   EX.writer = function (card, host, api) {
+    wordBank(card, host);
     if (card.model) host.appendChild(EFA.ui.modelBox(card.model, 'Look at the model again'));
     var tas = [];
     card.paras.forEach(function (pp, i) {
@@ -3591,28 +3726,64 @@
   EFA.sceneInline = sceneInline;
 
   EX.scene = function (card, host, api) {
+    /* WHICH COMES FIRST IS THE WHOLE EXERCISE.
+     *
+     * One screen used to serve both tasks: stage on top, text underneath. On a reading
+     * screen that put a 661 px animation above the passage, so the text a learner is
+     * supposed to read began at 2,575 px - below the fold on any laptop, which is why
+     * the owner could not find it even once it was rendering. On a listening screen the
+     * opposite is true: the stage IS the exercise and the text is the answer key.
+     *
+     * `layout` says which screen this is, and it comes from the builder rather than
+     * from guessing at the card, so the two are never inconsistent.
+     */
+    var layout = card.layout || 'stage-first';
+
+    if (layout === 'text-first' && card.passage) {
+      host.appendChild(passageNode(card.passage));
+      /* the stage is still there, as a thing you choose to open */
+      var det = mk('details', 'stage-fold');
+      var sum = mk('summary', '', art.icon('play', 15) + 'Watch it acted');
+      det.appendChild(sum);
+      det.appendChild(sceneInline(card.scene, host));
+      det.style.marginTop = '12px';
+      host.appendChild(det);
+      if (card.after) host.appendChild(mk('div', 'note', card.after));
+      return sceneTail(card, host, api);
+    }
+
     host.appendChild(sceneInline(card.scene, host));
     if (card.passage) host.appendChild(passageNode(card.passage));
     if (card.after) host.appendChild(mk('div', 'note', card.after));
+    return sceneTail(card, host, api);
+  };
+
+  /* The part of a scene card that is the same whichever way round it is laid out: the
+     questions under it, or failing that the button that marks it read. Pulled out so
+     the two layouts cannot drift - a second copy of this is how one of them ends up
+     without a way to complete the card. */
+  function sceneTail(card, host, api) {
     var sub = null;
     if (card.quiz) {
       var qcard = Object.assign({}, card.quiz);
       sub = EX[qcard.type](qcard, host, api);
     }
     if (!sub) {
-      var done = mk('button', 'btn btn-accent', art.icon('check', 16) + 'I have watched this');
+      var label = card.layout === 'text-first' ? 'I have read this' : 'I have watched this';
+      var done = mk('button', 'btn btn-accent', art.icon('check', 16) + label);
       done.style.marginTop = '12px';
-      done.onclick = function () { attempt(host); api.complete('Marked as watched.'); };
+      done.onclick = function () { attempt(host); api.complete('Noted.'); };
       host.appendChild(done);
       return { reset: function () { api.clearVerdict(); } };
     }
     return sub;
-  };
+  }
 
   /* ============================================================
      roleplay — pick a role, the scene plays the other part
      ============================================================ */
   EX.roleplay = function (card, host, api) {
+    wordBank(card, host);
     var holder = mk('div', 'scene-shell');
     host.appendChild(holder);
     var ctl;

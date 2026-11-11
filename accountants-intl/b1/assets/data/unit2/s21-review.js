@@ -81,6 +81,7 @@ EFA.page('u2-s21-review', {
         a: 'Journal. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.',
       visual: { spot: 'ledger', caption: 'Review · Vocabulary Quiz' }
     },
     {
@@ -187,13 +188,30 @@ EFA.page('u2-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can name and define key source documents (invoice, receipt, claim). [ ]' },
-        { t: 'I can correctly form and use the Past Simple tense. [ ]' },
-        { t: 'I can correctly form and use the Past Continuous tense. [ ]' },
-        { t: 'I can use both tenses together to explain interruptions and workflows. [ ]' },
-        { t: 'I understand the terms posting, ledger, and reconciliation. [ ]' }
+        { t: 'I can name and define key source documents (invoice, receipt, claim).' },
+        { t: 'I can correctly form and use the Past Simple tense.' },
+        { t: 'I can correctly form and use the Past Continuous tense.' },
+        { t: 'I can use both tenses together to explain interruptions and workflows.' },
+        { t: 'I understand the terms posting, ledger, and reconciliation.' }
       ],
       visual: { spot: 'source-document', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c7',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 2 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        {
+          q: 'Think about the concept of \'real-time\' accounting versus processing \'past\' transactions. How did the job of an accountant change over the last twenty years? What were accountants doing manually twenty years ago that computers do for us now?'
+        }
+      ],
+      model: 'The job changed completely. Twenty years ago accountants were posting every invoice by hand and were reconciling the bank with a ruler and a pencil; they spent the month recording what had already happened. Today the system posts the entry and we check it, so we spend the month explaining the numbers instead of collecting them.',
+      visual: { spot: 'invoice', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

@@ -18,20 +18,6 @@ EFA.page('u3-s19-writing-2', {
       covers: ['6C'],
       ref: '6C',
       bookRef: 'Unit 3 · 6C',
-      type: 'study',
-      source: 'book',
-      title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
-      instruction: 'Correct the grammar mistakes (Modals of Request and Offer) in the following memo draft. (Only the first one is corrected).',
-      html: '<p>Subject: Petty Cash Replenishment</p><p>Dear Aoife,</p>',
-      playable: [{ t: 'Petty Cash Replenishment', role: 'narrator' }],
-      doneLabel: 'I have read this',
-      visual: { spot: 'invoice', caption: 'Writing · Writing Task 2: Correct the Mistakes (Grammar Focus)' }
-    },
-    {
-      id: 'c2',
-      covers: ['6C'],
-      ref: '6C',
-      bookRef: 'Unit 3 · 6C',
       type: 'writer',
       title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
       instruction: 'Correct the grammar mistakes (Modals of Request and Offer) in the following memo draft. (Only the first one is corrected).',
@@ -64,10 +50,12 @@ EFA.page('u3-s19-writing-2', {
           'May you check the cash balance for me?'
         ]
       },
-      visual: { spot: 'petty-voucher', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'petty-voucher', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.',
+      bank: ['Replenishment', 'Voucher', 'Vendor']
     },
     {
-      id: 'c3',
+      id: 'c2',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 3 · 6D',
@@ -85,7 +73,7 @@ EFA.page('u3-s19-writing-2', {
       }
     },
     {
-      id: 'c4',
+      id: 'c3',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 3 · 6D',

@@ -42,7 +42,8 @@ EFA.page('u7-s15-reading-1', {
           'What does it mean to drill down into a variance?'
         ]
       },
-      model: 'An executive summary, the variance analysis against budget, the commentary on the largest differences, and the forecast for the next period.'
+      model: 'An executive summary, the variance analysis against budget, the commentary on the largest differences, and the forecast for the next period.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -81,8 +82,16 @@ EFA.page('u7-s15-reading-1', {
         }
       ],
       scene: 'u7-reading-1-c2',
-      passage: '<p>Sales revenue in Q4 was EUR 520,000, which is higher than the budget of EUR 500,000. This favorable variance is primarily due to the success of our new product line. Product A was the most popular item, generating more revenue than all other products combined. The Northern Region was better than the Southern Region in terms of growth, recording the strongest increase of 12%. The Marketing expense was less than the allocated budget, making the overall results the most positive of the year.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Sales revenue in Q4 was EUR 520,000, which is higher than the budget of EUR 500,000. This favorable variance is primarily due to the success of our new product line. Product A was the most popular item, generating more revenue than all other products combined. The Northern Region was better than the Southern Region in terms of growth, recording the strongest increase of 12%. The Marketing expense was less than the allocated budget, making the overall results the most positive of the year.'
+          }
+        ],
+        say: { scene: 'u7-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'budget',
         caption: 'Reading · Reading Passage 1: The Sales Performance Analysis',

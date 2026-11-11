@@ -25,11 +25,12 @@ EFA.page('u8-s05-vocab-build', {
       html: '<p>Example: "First, the transactions are journalized, and then we prepare the statements."</p>',
       playable: [
         {
-          t: '"First, the transactions are journalized, and then we prepare the statements.',
+          t: 'Example: "First, the transactions are journalized, and then we prepare the statements.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'transaction', caption: 'Vocabulary · Collocations for Documentation' }
     },
     {
@@ -119,14 +120,24 @@ EFA.page('u8-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 8 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Noun and Adjective',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Noun</th><th>Verb</th><th>Adjective</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Adjustment</td><td>Adjust</td><td>Adjustable</td><td>"The adjustable rate is tied to the market."</td></tr><tr><td>Preparation</td><td>_________</td><td>Preparatory</td><td>"The preparatory work must be done first."</td></tr><tr><td>Finalization</td><td>_________</td><td>Final</td><td>"The final figures are now ready."</td></tr><tr><td>Derivation</td><td>Derive</td><td>_________</td><td>"The derived value is calculated daily."</td></tr><tr><td>Reconciliation</td><td>Reconcile</td><td>_________</td><td>"The reconcilable difference was found."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'reconcile', caption: 'Vocabulary · Word Building: Noun and Adjective', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Preparation &rarr; <b>Verb</b>: [[1]]</li><li>Finalization &rarr; <b>Verb</b>: [[2]]</li><li>Derivation &rarr; <b>Adjective</b>: [[3]]</li><li>Reconciliation &rarr; <b>Adjective</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['Prepare', 'prepare', 'Prepare'],
+        '2': ['Finalize', 'finalize', 'Finalize'],
+        '3': ['derived', 'derived', 'Derived'],
+        '4': ['reconcilable', 'reconcilable', 'Reconcilable']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"The preparatory work must be done first."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The final figures are now ready."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The derived value is calculated daily."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The reconcilable difference was found."&rdquo;'
+      ],
+      visual: { spot: 't-accounts', caption: 'Vocabulary · Word Building: Noun and Adjective', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

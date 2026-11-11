@@ -47,9 +47,18 @@ EFA.page('u4-s17-reading-3', {
         { t: 'How much money can we get from recycling them?', role: 'narrator', _key: 'narr' },
         { t: 'That is the final question we must answer.', role: 'narrator', _key: 'narr' }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u4-reading-3-c1',
-      passage: '<p>Assets become obsolete when they are no longer useful to the business, often due to technological changes. A few old computers and a large printer are currently considered obsolete assets. These must be disposed of according to strict environmental guidelines, which differ from country to country. We do not have much storage space, so they must be removed quickly. We do not want too many old items taking up space. How much money can we get from recycling them? That is the final question we must answer.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Assets become obsolete when they are no longer useful to the business, often due to technological changes. A few old computers and a large printer are currently considered obsolete assets. These must be disposed of according to strict environmental guidelines, which differ from country to country. We do not have much storage space, so they must be removed quickly. We do not want too many old items taking up space. How much money can we get from recycling them? That is the final question we must answer.'
+          }
+        ],
+        say: { scene: 'u4-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'balance', caption: 'Reading · Reading Passage 3: Obsolete Assets' }
     },
     {

@@ -25,11 +25,12 @@ EFA.page('u3-s05-vocab-build', {
       html: '<p>Example: "The supplier offered a small discount if we extended the payment deadline."</p>',
       playable: [
         {
-          t: '"The supplier offered a small discount if we extended the payment deadline.',
+          t: 'Example: "The supplier offered a small discount if we extended the payment deadline.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'credit-note', caption: 'Vocabulary · Collocations for Requests and Offers' }
     },
     {
@@ -123,14 +124,24 @@ EFA.page('u3-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 3 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Related Term</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Authorize</td><td>Authorization</td><td>Authority</td><td>"We need official authorization before payment."</td></tr><tr><td>Reimburse</td><td>_________</td><td>Reimbursable</td><td>"The reimbursement will be processed next Friday."</td></tr><tr><td>Approve</td><td>_________</td><td>Approved</td><td>"The Financial Controller\'s approval is required for the claim."</td></tr><tr><td>Supply</td><td>Supplier</td><td>_________</td><td>"The supply of stationery is running low."</td></tr><tr><td>Replenish</td><td>_________</td><td>Replenished</td><td>"The fund replenishment happens every Monday."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'payment-run', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Reimburse &rarr; <b>Noun</b>: [[1]]</li><li>Approve &rarr; <b>Noun</b>: [[2]]</li><li>Supply &rarr; <b>Related Term</b>: [[3]]</li><li>Replenish &rarr; <b>Noun</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['reimbursement', 'reimbursement', 'Reimbursement'],
+        '2': ['approval', 'approval', 'Approval'],
+        '3': ['Supplies', 'supplies', 'Supplies'],
+        '4': ['replenishment', 'replenishment', 'Replenishment']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"The reimbursement will be processed next Friday."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The Financial Controller\'s approval is required for the claim."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The supply of stationery is running low."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The fund replenishment happens every Monday."&rdquo;'
+      ],
+      visual: { spot: 'trial-balance', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

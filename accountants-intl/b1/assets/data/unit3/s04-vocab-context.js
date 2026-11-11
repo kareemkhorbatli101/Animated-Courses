@@ -18,34 +18,6 @@ EFA.page('u3-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 3 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Petty Cash Memo',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>Memo: Petty Cash Procedure Reminder</p><p>To the (1) __________: Please remember that the daily (2) __________ for a single petty cash expenditure is EUR 50, or the local equivalent. You must prepare a (3) __________ for every payment and ensure that the (4) __________ receipt is securely attached. If there is a (5) __________ during (6) __________ reconciliation, it must be reported to the Group Finance Manager immediately.</p>',
-      playable: [
-        { t: 'Petty Cash Procedure Reminder', role: 'narrator' },
-        {
-          t: 'To the (1) __________: Please remember that the daily (2) __________ for a single petty cash expenditure is EUR 50, or the local equivalent.',
-          role: 'narrator'
-        },
-        {
-          t: 'You must prepare a (3) __________ for every payment and ensure that the (4) __________ receipt is securely attached.',
-          role: 'narrator'
-        },
-        {
-          t: 'If there is a (5) __________ during (6) __________ reconciliation, it must be reported to the Group Finance Manager immediately.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'reconcile', caption: 'Vocabulary · Vocabulary in Context: Petty Cash Memo' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 3 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Petty Cash Memo',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -61,11 +33,8 @@ EFA.page('u3-s04-vocab-context', {
       bank: ['account', 'custodian', 'discrepancy', 'limit', 'original', 'voucher'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'discrepancy',
-        caption: 'Vocabulary · Vocabulary in Context: Petty Cash Memo',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'discrepancy', caption: 'Vocabulary · Vocabulary in Context: Petty Cash Memo' }
     }
   ],
   prev: 's03-vocab-gaps',

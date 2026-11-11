@@ -39,9 +39,26 @@ EFA.page('u10-s11-listening-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       scene: 'u10-listening-3-c1',
-      passage: '<p><b>Context.</b> A senior manager is summarizing the Board’s annual decisions.</p><div class="script"><p>"The Board has made a clear decision: they will authorize the acquisition of the competitor. They emphasized that this was a strategic move to gain market share in two new regions. They said they had been planning this merger for two years."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A senior manager is summarizing the Board’s annual decisions.',
+            speak: false
+          },
+          {
+            h: '"The Board has made a clear decision: they will authorize the acquisition of the competitor. They emphasized that this was a strategic move to gain market share in two new regions. They said they had been planning this merger for two years."',
+            say: 'The Board has made a clear decision: they will authorize the acquisition of the competitor. They emphasized that this was a strategic move to gain market share in two new regions. They said they had been planning this merger for two years.'
+          }
+        ],
+        say: { scene: 'u10-listening-3-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'reporting', caption: 'Listening · Passage 3: The Board Decision (Financial Context)' }
     },
     {

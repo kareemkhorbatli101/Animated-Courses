@@ -42,7 +42,8 @@ EFA.page('u5-s15-reading-1', {
           'Why is it important to monitor the total credit exposure to a single client?'
         ]
       },
-      model: 'Credit terms decide when the money arrives. Long terms keep the customer happy but delay the cash, so the company pays its own suppliers before it has been paid itself.'
+      model: 'Credit terms decide when the money arrives. Long terms keep the customer happy but delay the cash, so the company pays its own suppliers before it has been paid itself.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -88,8 +89,16 @@ EFA.page('u5-s15-reading-1', {
         }
       ],
       scene: 'u5-reading-1-c2',
-      passage: '<p>The Accounts Payable team is responsible for ensuring timely payment to all suppliers. The standard credit terms are Net 30 days. All invoices must be approved before they are included in the weekly payment run. We are going to run the payment run every Tuesday afternoon, Central European Time. We will prioritize payments to major vendors. If a vendor requests a delay, the AP Manager will review the request. We are not going to delay payments without authorization. This strict schedule will ensure we maintain excellent vendor relationships.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'The Accounts Payable team is responsible for ensuring timely payment to all suppliers. The standard credit terms are Net 30 days. All invoices must be approved before they are included in the weekly payment run. We are going to run the payment run every Tuesday afternoon, Central European Time. We will prioritize payments to major vendors. If a vendor requests a delay, the AP Manager will review the request. We are not going to delay payments without authorization. This strict schedule will ensure we maintain excellent vendor relationships.'
+          }
+        ],
+        say: { scene: 'u5-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'debtor',
         caption: 'Reading · Reading Passage 1: AP Standard Operating Procedure',
@@ -159,7 +168,7 @@ EFA.page('u5-s15-reading-1', {
           ]
         },
         {
-          q: '4. What will the AP Manager do if a vendor requests a delay?',
+          q: '3. What will the AP Manager do if a vendor requests a delay?',
           evidence: 'If a vendor requests a delay, the AP Manager will review the request.',
           options: [
             {
@@ -185,7 +194,7 @@ EFA.page('u5-s15-reading-1', {
           ]
         },
         {
-          q: '5. What will the strict schedule ensure?',
+          q: '4. What will the strict schedule ensure?',
           evidence: 'This strict schedule will ensure we maintain excellent vendor relationships.',
           options: [
             {

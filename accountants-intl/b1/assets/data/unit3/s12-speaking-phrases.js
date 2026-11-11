@@ -25,6 +25,7 @@ EFA.page('u3-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>High Formality (May / Would)</th><th>Medium Formality (Could)</th><th>Low Formality (Can)</th></tr></thead><tbody><tr><td>"May I ask for your authorization?"</td><td>"Could you send the receipt by email?"</td><td>"Can I get the forms from you later?"</td></tr><tr><td>"Would you mind waiting five minutes?"</td><td>"Could we verify the original receipt?"</td><td>"I can offer to reimburse you now."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'receipt', caption: 'Speaking · Functional Language: Degree of Formality' }
     }
   ],

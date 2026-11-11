@@ -34,6 +34,7 @@ EFA.page('u2-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'invoice', caption: 'Speaking · Role-Play 1: The Missing Invoice' }
     },
     {
@@ -45,7 +46,7 @@ EFA.page('u2-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Explaining a Review Error',
       instruction: 'Student A (Manager): Ask about the activity using the Past Continuous. (e.g., "What were you doing when you should have been reviewing the ledger?")',
-      html: '<p><b>Context.</b> A manager is asking why a major recording error went unnoticed last week.</p><p>Student B (Accountant): Explain the distraction using an interruption scenario (Past Continuous + When + Past Simple).</p>',
+      html: '<p><b>Context.</b> A manager is asking why a major recording error went unnoticed last week.</p><p>Student B (Accountant): Explain the distraction using an interruption scenario (Past Continuous + When + Past Simple).</p><ol><li>"I was performing the journal entry when Mr Farouk came in and asked for the immediate approval of his claim. I had to stop what I was doing."</li></ol>',
       playable: [
         {
           t: 'Student B (Accountant): Explain the distraction using an interruption scenario (Past Continuous + When + Past Simple).',
@@ -53,11 +54,7 @@ EFA.page('u2-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
-      visual: {
-        spot: 'reporting',
-        caption: 'Speaking · Role-Play 2: Explaining a Review Error',
-        cls: 'vis-sm'
-      }
+      visual: { spot: 'entry', caption: 'Speaking · Role-Play 2: Explaining a Review Error', cls: 'vis-sm' }
     },
     {
       id: 'c3',

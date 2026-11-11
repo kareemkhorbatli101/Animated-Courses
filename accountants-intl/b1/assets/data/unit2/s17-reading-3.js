@@ -45,9 +45,18 @@ EFA.page('u2-s17-reading-3', {
         },
         { t: 'She corrected the error and prepared the final report.', role: 'narrator', _key: 'narr' }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u2-reading-3-c1',
-      passage: '<p>Bank reconciliation is vital to ensure the cash balance in the Ledger matches the bank statement. A discrepancy often occurs due to cheques that are outstanding or deposits in transit. Yesterday afternoon, Aoife was trying to reconcile the month-end statement for Dublin when she noticed a EUR 5,000 difference. She immediately traced the amount back through the journal entries and found that a deposit had been recorded twice. She corrected the error and prepared the final report.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Bank reconciliation is vital to ensure the cash balance in the Ledger matches the bank statement. A discrepancy often occurs due to cheques that are outstanding or deposits in transit. Yesterday afternoon, Aoife was trying to reconcile the month-end statement for Dublin when she noticed a EUR 5,000 difference. She immediately traced the amount back through the journal entries and found that a deposit had been recorded twice. She corrected the error and prepared the final report.'
+          }
+        ],
+        say: { scene: 'u2-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'reconcile', caption: 'Reading · Reading Passage 3: Reconciliation and Discrepancy' }
     },
     {

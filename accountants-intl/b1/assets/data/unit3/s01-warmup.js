@@ -22,10 +22,11 @@ EFA.page('u3-s01-warmup', {
       source: 'book',
       title: 'The Petty Cash Fund',
       instruction: 'Discuss in small groups:',
-      html: '<p><b>Context.</b> Petty cash is a small amount of cash kept on hand for minor expenses and emergencies. Each Northwind office keeps its own float, in its own currency.</p><ol><li>Name three examples of office expenses that would typically be paid for using petty cash.</li><li>What is the maximum limit for a petty cash expenditure in your company/country?</li><li>Who is responsible for managing and safeguarding the petty cash fund?</li><li>If the cash on hand does not match the total of receipts, what is that difference called?</li></ol>',
+      html: '<p><b>Context.</b> Petty cash is a small amount of cash kept on hand for minor expenses and emergencies. Each Northwind office keeps its own float, in its own currency.</p>',
       playable: [],
       doneLabel: 'I have read this',
-      visual: { spot: 'receipt', caption: 'Warm-Up · The Petty Cash Fund' }
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
+      visual: { spot: 'cash-box', caption: 'Warm-Up · The Petty Cash Fund' }
     },
     {
       id: 'c2',

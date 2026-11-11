@@ -42,7 +42,8 @@ EFA.page('u1-s15-reading-1', {
           'What is a "Job Description"?'
         ]
       },
-      model: 'Because the subject line tells you what the message is about and how urgent it is, so you can decide whether to read it now or after the posting run.'
+      model: 'Because the subject line tells you what the message is about and how urgent it is, so you can decide whether to read it now or after the posting run.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -54,12 +55,50 @@ EFA.page('u1-s15-reading-1', {
       title: 'Reading Passage 1: Job Description (Routine Duties)',
       instruction: 'Read the posting for a Junior Accountant.',
       playable: [
-        { t: 'Kraków Shared Service Centre', role: 'narrator', _key: 'narr' },
-        { t: 'Senior Finance Manager', role: 'narrator', _key: 'narr' }
+        { t: 'JOB VACANCY: JUNIOR ACCOUNTANT', role: 'narrator', _key: 'narr' },
+        { t: 'Location: Kraków Shared Service Centre', role: 'narrator', _key: 'narr' },
+        { t: 'Reports to: Senior Finance Manager', role: 'narrator', _key: 'narr' }
       ],
       scene: 'u1-reading-1-c2',
-      passage: '<p>JOB VACANCY: JUNIOR ACCOUNTANT</p><p>Location: Kraków Shared Service Centre</p><p>Reports to: Senior Finance Manager</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'JOB VACANCY: JUNIOR ACCOUNTANT' },
+          { h: 'Location: Kraków Shared Service Centre' },
+          { h: 'Reports to: Senior Finance Manager' },
+          {
+            h: 'Maintains financial records by analyzing balance sheets and general ledger accounts.',
+            say: 'Maintains financial records by analyzing balance sheets and general ledger accounts.'
+          },
+          {
+            h: 'Reconciles general and payroll bank accounts daily, in three currencies.',
+            say: 'Reconciles general and payroll bank accounts daily, in three currencies.'
+          },
+          {
+            h: 'Provides accounting support for the group\'s six operating companies.',
+            say: 'Provides accounting support for the group\'s six operating companies.'
+          },
+          {
+            h: 'Files tax forms with the relevant national and local authorities.',
+            say: 'Files tax forms with the relevant national and local authorities.'
+          },
+          {
+            h: 'Protects organization\'s value by keeping information confidential.',
+            say: 'Protects organization\'s value by keeping information confidential.'
+          },
+          { h: 'Bachelor\'s degree in Accounting.', say: 'Bachelor\'s degree in Accounting.' },
+          {
+            h: 'Strong understanding of accounting principles.',
+            say: 'Strong understanding of accounting principles.'
+          },
+          {
+            h: 'Ability to work across time zones and under pressure.',
+            say: 'Ability to work across time zones and under pressure.'
+          }
+        ],
+        say: { scene: 'u1-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'source-document',
         caption: 'Reading · Reading Passage 1: Job Description (Routine Duties)',
@@ -77,7 +116,7 @@ EFA.page('u1-s15-reading-1', {
       say: true,
       items: [
         {
-          q: '9. Who does this position report to?',
+          q: '1. Who does this position report to?',
           evidence: 'Reports to: Senior Finance Manager',
           options: [
             {
@@ -103,7 +142,7 @@ EFA.page('u1-s15-reading-1', {
           ]
         },
         {
-          q: '10. How often does the accountant reconcile bank accounts, and in how many currencies?',
+          q: '2. How often does the accountant reconcile bank accounts, and in how many currencies?',
           evidence: 'the passage above',
           options: [
             {
@@ -129,7 +168,7 @@ EFA.page('u1-s15-reading-1', {
           ]
         },
         {
-          q: '11. What kind of support does the accountant provide?',
+          q: '3. What kind of support does the accountant provide?',
           evidence: 'the passage above',
           options: [
             {
@@ -155,7 +194,7 @@ EFA.page('u1-s15-reading-1', {
           ]
         },
         {
-          q: '12. Why must the accountant keep information confidential?',
+          q: '4. Why must the accountant keep information confidential?',
           evidence: 'the passage above',
           options: [
             {
@@ -181,7 +220,7 @@ EFA.page('u1-s15-reading-1', {
           ]
         },
         {
-          q: '13. What degree is required?',
+          q: '5. What degree is required?',
           evidence: 'the passage above',
           options: [
             {

@@ -50,7 +50,8 @@ EFA.page('u7-s19-writing-2', {
           'The variance is less significant that we first thought.'
         ]
       },
-      visual: { spot: 'variance', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'variance', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.'
     },
     {
       id: 'c2',
@@ -61,7 +62,7 @@ EFA.page('u7-s19-writing-2', {
       source: 'book',
       title: 'Writing Task 3: Trend Analysis (Internal Memo)',
       instruction: 'Focus: Use Comparatives and Superlatives to describe the trends.',
-      html: '<p><b>Context.</b> Write an internal memo (80 words) analyzing two sales quarters.</p><p>Q3 sales were 20% higher than Q2, making it the strongest quarter of the year so far. The key difference is that marketing investment was more aggressive in Q3 than Q2, leading to a better return. Product B is the most popular item, while Product C is the least profitable. We should increase investment in Product B."</p>',
+      html: '<p><b>Context.</b> Write an internal memo (80 words) analyzing two sales quarters.</p><p>Q3 sales were 20% higher than Q2, making it the strongest quarter of the year so far. The key difference is that marketing investment was more aggressive in Q3 than Q2, leading to a better return. Product B is the most popular item, while Product C is the least profitable. We should increase investment in Product B."</p><ol><li>Example: "MEMORANDUM: Q2 vs. Q3 Sales Analysis</li></ol>',
       playable: [
         {
           t: 'Q3 sales were 20% higher than Q2, making it the strongest quarter of the year so far.',

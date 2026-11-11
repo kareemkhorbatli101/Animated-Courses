@@ -36,9 +36,23 @@ EFA.page('u9-s11-listening-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       scene: 'u9-listening-3-c1',
-      passage: '<p><b>Context.</b> A team leader is giving a project update.</p><div class="script"><p>"We have just finalized the quarterly VAT submission. It was a complex project, but we have met the deadline. Specifically, Priya has streamlined the data extraction process, which has saved us about ten hours of work this month. We haven\'t fully documented the new process yet, but that will be done next week."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: '<b>Context.</b> A team leader is giving a project update.', speak: false },
+          {
+            h: '"We have just finalized the quarterly VAT submission. It was a complex project, but we have met the deadline. Specifically, Priya has streamlined the data extraction process, which has saved us about ten hours of work this month. We haven\'t fully documented the new process yet, but that will be done next week."',
+            say: 'We have just finalized the quarterly VAT submission. It was a complex project, but we have met the deadline. Specifically, Priya has streamlined the data extraction process, which has saved us about ten hours of work this month. We haven\'t fully documented the new process yet, but that will be done next week.'
+          }
+        ],
+        say: { scene: 'u9-listening-3-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'reporting',
         caption: 'Listening · Passage 3: Recent Achievements (Financial Context)'

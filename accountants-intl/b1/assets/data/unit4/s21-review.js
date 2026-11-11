@@ -81,6 +81,7 @@ EFA.page('u4-s21-review', {
         a: 'Out of Stock. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.',
       visual: { spot: 'ledger', caption: 'Review · Vocabulary Quiz' }
     },
     {
@@ -176,24 +177,6 @@ EFA.page('u4-s21-review', {
       covers: ['8D'],
       ref: '8D',
       bookRef: 'Unit 4 · 8D',
-      type: 'study',
-      source: 'book',
-      title: 'Extension Writing: A New Ordering System',
-      instruction: 'Write a short proposal (80 words) for a new ordering system that limits the use of consumables.',
-      html: '<p>Style: Use formal requests and quantifiers.</p>',
-      playable: [{ t: 'Use formal requests and quantifiers.', role: 'narrator' }],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'reporting',
-        caption: 'Review · Extension Writing: A New Ordering System',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c6',
-      covers: ['8D'],
-      ref: '8D',
-      bookRef: 'Unit 4 · 8D',
       type: 'writer',
       title: 'Extension Writing: A New Ordering System',
       instruction: 'Write a short proposal (80 words) for a new ordering system that limits the use of consumables.',
@@ -212,7 +195,7 @@ EFA.page('u4-s21-review', {
       visual: { spot: 'stock', caption: 'Write it the way this unit has been teaching you to.' }
     },
     {
-      id: 'c7',
+      id: 'c6',
       covers: ['8E'],
       ref: '8E',
       bookRef: 'Unit 4 · 8E',
@@ -221,17 +204,34 @@ EFA.page('u4-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can define inventory and consumables. [ ]' },
-        { t: 'I can explain the process of stocktaking and variance reporting. [ ]' },
+        { t: 'I can define inventory and consumables.' },
+        { t: 'I can explain the process of stocktaking and variance reporting.' },
         {
-          t: 'I can distinguish between Countable and Uncountable Nouns (e.g., invoice vs. information). [ ]'
+          t: 'I can distinguish between Countable and Uncountable Nouns (e.g., invoice vs. information).'
         },
         {
-          t: 'I can correctly use quantifiers like much, many, a few, a little to report stock levels. [ ]'
+          t: 'I can correctly use quantifiers like much, many, a few, a little to report stock levels.'
         },
-        { t: 'I can politely request an order be placed using quantifiers. [ ]' }
+        { t: 'I can politely request an order be placed using quantifiers.' }
       ],
       visual: { spot: 'variance', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c7',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 4 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        {
+          q: 'In a paperless office, which consumables would we still need? How much time could be saved if we did not have to count paper inventory? What are the key differences in tracking countable equipment versus uncountable paper in terms of accounting treatment?'
+        }
+      ],
+      model: 'We would still need a few consumables — paper for anything a client must sign, and ink for it. We could save several hours a month if we did not have to count paper. The difference in treatment is the important part: we track equipment item by item because each monitor is an asset, and we track paper by value because nobody capitalises a ream.',
+      visual: { spot: 'voucher', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

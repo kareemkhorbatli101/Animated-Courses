@@ -50,9 +50,18 @@ EFA.page('u3-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u3-reading-2-c1',
-      passage: '<p>All employees must submit a completed expense claim form for reimbursement of out-of-pocket expenditures. Would employees please attach the original receipt to the claim? We cannot process photocopies. If the expense exceeds the small purchase limit of EUR 100, management must provide formal authorization. The finance team can offer to process reimbursement every Friday. Could you ensure that the correct expense account code and the correct currency are used on the form?</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'All employees must submit a completed expense claim form for reimbursement of out-of-pocket expenditures. Would employees please attach the original receipt to the claim? We cannot process photocopies. If the expense exceeds the small purchase limit of EUR 100, management must provide formal authorization. The finance team can offer to process reimbursement every Friday. Could you ensure that the correct expense account code and the correct currency are used on the form?'
+          }
+        ],
+        say: { scene: 'u3-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'payment-run',
         caption: 'Reading · Reading Passage 2: Reimbursement and Documentation'

@@ -49,6 +49,7 @@ EFA.page('u10-s20-pronunciation', {
           why: 'Syn-op-sis — say it with the beat on <b>OP</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Verbs for Reporting' }
     },
     {
@@ -88,27 +89,13 @@ EFA.page('u10-s20-pronunciation', {
       source: 'book',
       title: 'Intonation: Conveying Urgency',
       instruction: 'Practice: Read these sentences with strong, authoritative intonation:',
-      html: '<p><b>Context.</b> Use a firm, falling intonation to convey the seriousness of a reported mandate or warning.</p><ol><li>"The Group CFO mandated that we cut costs immediately (↘)."</li><li>"He warned that the deadline was non-negotiable (↘)."</li><li>"The Board insisted that the figures had to be verified twice (↘)."</li></ol>',
+      html: '<p><b>Context.</b> Use a firm, falling intonation to convey the seriousness of a reported mandate or warning.</p>',
       playable: [],
       doneLabel: 'I have read this',
       visual: { spot: 'credit-note', caption: 'Pronunciation · Intonation: Conveying Urgency', cls: 'vis-sm' }
     },
     {
       id: 'c5',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 10 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Conveying Urgency',
-      instruction: 'Practice: Read these sentences with strong, authoritative intonation:',
-      html: '<p><b>Context.</b> Use a firm, falling intonation to convey the seriousness of a reported mandate or warning.</p><ol><li>"The Group CFO mandated that we cut costs immediately (↘)."</li><li>"He warned that the deadline was non-negotiable (↘)."</li><li>"The Board insisted that the figures had to be verified twice (↘)."</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'voucher', caption: 'Pronunciation · Intonation: Conveying Urgency', cls: 'vis-sm' }
-    },
-    {
-      id: 'c6',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 10 · 7C',
@@ -121,10 +108,10 @@ EFA.page('u10-s20-pronunciation', {
         '"He warned that the deadline was non-negotiable (↘)."',
         '"The Board insisted that the figures had to be verified twice (↘)."'
       ],
-      visual: { spot: 'balance', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'voucher', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c7',
+      id: 'c6',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 10 · 7D',
@@ -145,32 +132,6 @@ EFA.page('u10-s20-pronunciation', {
       doneLabel: 'I have read this',
       visual: {
         spot: 'forecast',
-        caption: 'Pronunciation · Fluency Drill: Summarizing a Meeting',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c8',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 10 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Summarizing a Meeting',
-      instruction: 'Read the following summary, maintaining a professional pace and linking words naturally.',
-      html: '<p>"The meeting started with a report on Q2 performance. The Controller stated that profitability was strong. He then emphasized that all staff had to submit their expense reports by Friday. Finally, he asked if we had prepared the cash flow forecast for Q4."</p>',
-      playable: [
-        { t: '"The meeting started with a report on Q2 performance.', role: 'narrator' },
-        { t: 'The Controller stated that profitability was strong.', role: 'narrator' },
-        {
-          t: 'He then emphasized that all staff had to submit their expense reports by Friday.',
-          role: 'narrator'
-        },
-        { t: 'Finally, he asked if we had prepared the cash flow forecast for Q4.', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'obsolete',
         caption: 'Pronunciation · Fluency Drill: Summarizing a Meeting',
         cls: 'vis-sm'
       }

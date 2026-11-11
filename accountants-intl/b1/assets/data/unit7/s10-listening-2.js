@@ -31,6 +31,7 @@ EFA.page('u7-s10-listening-2', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       visual: {
         spot: 'reporting',
         caption: 'Listening · Passage 2: Comparing Sales Periods (Operating Context)'

@@ -50,7 +50,9 @@ EFA.page('u6-s19-writing-2', {
           'We will reverse the entry if it is an omission.'
         ]
       },
-      visual: { spot: 'discrepancy', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'discrepancy', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.',
+      bank: ['Reversal', 'Omission']
     },
     {
       id: 'c2',
@@ -61,7 +63,7 @@ EFA.page('u6-s19-writing-2', {
       source: 'book',
       title: 'Writing Task 3: Policy Proposal (Internal Memo)',
       instruction: 'Focus: Use First and Second Conditionals to justify the proposal.',
-      html: '<p><b>Context.</b> Write an internal memo (80 words) proposing a new internal control to prevent fraud.</p><p>We propose adding mandatory manager sign-off for any payment over EUR 5,000. If we implement this control, we will prevent 90% of potential fraudulent invoices. Furthermore, if we had this control in place sooner, we would not have made the duplicate payment last month. This new control will significantly mitigate our financial risk."</p>',
+      html: '<p><b>Context.</b> Write an internal memo (80 words) proposing a new internal control to prevent fraud.</p><p>We propose adding mandatory manager sign-off for any payment over EUR 5,000. If we implement this control, we will prevent 90% of potential fraudulent invoices. Furthermore, if we had this control in place sooner, we would not have made the duplicate payment last month. This new control will significantly mitigate our financial risk."</p><ol><li>Example: "MEMORANDUM: Proposed Control Change</li></ol>',
       playable: [
         {
           t: 'We propose adding mandatory manager sign-off for any payment over EUR 5,000.',

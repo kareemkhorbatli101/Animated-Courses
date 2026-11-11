@@ -25,6 +25,7 @@ EFA.page('u9-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Experience (Present Perfect + for/since)</th><th>Recent Action (Present Perfect + just/recently/yet)</th></tr></thead><tbody><tr><td>"I have been in the role since 2021."</td><td>"I have just finished a CPE course."</td></tr><tr><td>"She has managed this budget for six months."</td><td>"We haven\'t installed the new update yet."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'budget', caption: 'Speaking · Functional Language: Expressing Duration and Newness' }
     }
   ],

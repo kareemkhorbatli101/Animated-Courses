@@ -18,20 +18,6 @@ EFA.page('u4-s19-writing-2', {
       covers: ['6C'],
       ref: '6C',
       bookRef: 'Unit 4 · 6C',
-      type: 'study',
-      source: 'book',
-      title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
-      instruction: 'Correct the grammar mistakes (Countable/Uncountable Nouns and Quantifiers) in the following report draft. (Only the first one is corrected).',
-      html: '<p>Subject: Inventory Variance Report</p><p>Dear Ms Vogel,</p>',
-      playable: [{ t: 'Inventory Variance Report', role: 'narrator' }],
-      doneLabel: 'I have read this',
-      visual: { spot: 'variance', caption: 'Writing · Writing Task 2: Correct the Mistakes (Grammar Focus)' }
-    },
-    {
-      id: 'c2',
-      covers: ['6C'],
-      ref: '6C',
-      bookRef: 'Unit 4 · 6C',
       type: 'writer',
       title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
       instruction: 'Correct the grammar mistakes (Countable/Uncountable Nouns and Quantifiers) in the following report draft. (Only the first one is corrected).',
@@ -64,10 +50,11 @@ EFA.page('u4-s19-writing-2', {
           'How many money did we spend on toner?'
         ]
       },
-      visual: { spot: 'stock', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'stock', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.'
     },
     {
-      id: 'c3',
+      id: 'c2',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 4 · 6D',
@@ -85,7 +72,7 @@ EFA.page('u4-s19-writing-2', {
       }
     },
     {
-      id: 'c4',
+      id: 'c3',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 4 · 6D',

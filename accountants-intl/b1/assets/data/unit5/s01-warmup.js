@@ -22,9 +22,10 @@ EFA.page('u5-s01-warmup', {
       source: 'book',
       title: 'The Difference Between AP and AR',
       instruction: 'Discuss in small groups:',
-      html: '<p><b>Context.</b> Accounts Payable (AP) and Accounts Receivable (AR) are the lifeblood of a company\'s cash flow. AP is money the company owes (liabilities), and AR is money owed to the company (assets).</p><ol><li>Name two internal departments that Accounts Payable typically serves (e.g., Procurement, HR).</li><li>Name two functions of the Accounts Receivable team (e.g., invoicing, collections).</li><li>What is the biggest risk to a company\'s financial health if its Accounts Receivable are poorly managed?</li><li>What is a common financial goal for both AP and AR (e.g., maximizing working capital)?</li></ol>',
+      html: '<p><b>Context.</b> Accounts Payable (AP) and Accounts Receivable (AR) are the lifeblood of a company\'s cash flow. AP is money the company owes (liabilities), and AR is money owed to the company (assets).</p>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'balance', caption: 'Warm-Up · The Difference Between AP and AR' }
     },
     {

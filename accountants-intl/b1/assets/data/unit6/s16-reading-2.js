@@ -49,9 +49,18 @@ EFA.page('u6-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u6-reading-2-c1',
-      passage: '<p>A debt is classified as uncollectible if a client fails to make payment after 120 days of intensive collections. Once classified, the AR Manager will authorize a write-off. If the amount were very large, we would send the debt to a third-party collections agency in the client\'s own country. If we don\'t process this write-off correctly, our profit will be overstated. The policy states that we must reverse the original sales entry and zero out the debtor\'s account to reflect the loss accurately.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'A debt is classified as uncollectible if a client fails to make payment after 120 days of intensive collections. Once classified, the AR Manager will authorize a write-off. If the amount were very large, we would send the debt to a third-party collections agency in the client\'s own country. If we don\'t process this write-off correctly, our profit will be overstated. The policy states that we must reverse the original sales entry and zero out the debtor\'s account to reflect the loss accurately.'
+          }
+        ],
+        say: { scene: 'u6-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'entry', caption: 'Reading · Reading Passage 2: Policy on Uncollectible Debt' }
     },
     {

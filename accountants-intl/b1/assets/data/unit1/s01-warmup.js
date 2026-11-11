@@ -28,6 +28,7 @@ EFA.page('u1-s01-warmup', {
         { t: 'Dublin is one hour behind you and Singapore is six hours ahead.', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'obsolete', caption: 'Warm-Up · The Daily Checklist' }
     },
     {

@@ -81,6 +81,7 @@ EFA.page('u3-s21-review', {
         a: 'Petty Cash. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.',
       visual: { spot: 'trial-balance', caption: 'Review · Vocabulary Quiz' }
     },
     {
@@ -186,13 +187,30 @@ EFA.page('u3-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can explain the role of petty cash and the imprest system. [ ]' },
-        { t: 'I can define and use vocabulary related to reimbursement and authorization. [ ]' },
-        { t: 'I can use Can/May to ask for permission or make an offer. [ ]' },
-        { t: 'I can use Could/Would to make a polite professional request. [ ]' },
-        { t: 'I can politely request a missing original receipt from a colleague. [ ]' }
+        { t: 'I can explain the role of petty cash and the imprest system.' },
+        { t: 'I can define and use vocabulary related to reimbursement and authorization.' },
+        { t: 'I can use Can/May to ask for permission or make an offer.' },
+        { t: 'I can use Could/Would to make a polite professional request.' },
+        { t: 'I can politely request a missing original receipt from a colleague.' }
       ],
       visual: { spot: 'payment-run', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c7',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 3 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        {
+          q: 'In a modern digital accounting system, is a physical petty cash float still necessary? Why or why not? What could a company do to replace the float system? Would this change make the process more or less secure?'
+        }
+      ],
+      model: 'I think a small float is still necessary, because some payments cannot wait for a bank transfer — a taxi, a courier, a replacement part. A company could replace it with a prepaid company card, which is more secure because every transaction leaves a record automatically, but it is also slower when the card is declined and nobody has cash.',
+      visual: { spot: 'forecast', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

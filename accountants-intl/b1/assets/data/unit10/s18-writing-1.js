@@ -30,6 +30,7 @@ EFA.page('u10-s18-writing-1', {
         '3': '<b>had submitted</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> "The profitability will increase in Q3." -> She forecasted that the profitability <u>would increase</u> in Q3.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Reported Speech)' }
     },
     {
@@ -82,9 +83,9 @@ EFA.page('u10-s18-writing-1', {
       source: 'book',
       title: 'Writing Task 1: Memo to Staff',
       instruction: 'Include:',
-      html: '<p><b>Context.</b> Write a short internal memo (70–80 words) to your team reporting a decision from the Group CFO regarding cost-cutting.</p><p>MEMORANDUM</p><p>To: Finance Team</p><p>From: [Your Name]</p><p>Subject: The Group CFO’s Cost Directive</p><p>"I am conveying the Group CFO’s decision. She stated that we had to reduce all non-essential travel immediately. She mandated that all department heads review their budgets by the end of the week. She emphasized that this action would ensure the group’s Q4 profitability."</p>',
+      html: '<p><b>Context.</b> Write a short internal memo (70–80 words) to your team reporting a decision from the Group CFO regarding cost-cutting.</p><p>MEMORANDUM</p><p>To: Finance Team</p><p>From: [Your Name]</p><p>Subject: The Group CFO’s Cost Directive</p><p>"I am conveying the Group CFO’s decision. She stated that we had to reduce all non-essential travel immediately. She mandated that all department heads review their budgets by the end of the week. She emphasized that this action would ensure the group’s Q4 profitability."</p><ol><li>Use at least three reporting verbs (e.g., stated, mandated, emphasized).</li><li>Change the tenses correctly for Reported Speech.</li></ol>',
       playable: [
-        { t: 'The Group CFO’s Cost Directive', role: 'narrator' },
+        { t: 'Subject: The Group CFO’s Cost Directive', role: 'narrator' },
         { t: '"I am conveying the Group CFO’s decision.', role: 'narrator' },
         {
           t: 'She stated that we had to reduce all non-essential travel immediately.',
@@ -135,7 +136,8 @@ EFA.page('u10-s18-writing-1', {
           'Example:'
         ]
       },
-      visual: { spot: 'reporting', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'reporting', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Mandate', 'State']
     }
   ],
   prev: 's17-reading-3',

@@ -41,6 +41,7 @@ EFA.page('u6-s07-grammar-practice', {
         '6': '<b>will be</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> If you flag the discrepancy now, we <u>will fix</u> it before the audit. (will fix / would fix)',
+      brief: 'Guided practice: every item is decided by the rule above, so when you are unsure, go back up rather than guess.',
       visual: { spot: 'entry', caption: 'Grammar · Guided Practice' }
     }
   ],

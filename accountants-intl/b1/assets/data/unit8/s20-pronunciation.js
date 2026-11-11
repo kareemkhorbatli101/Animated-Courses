@@ -49,6 +49,7 @@ EFA.page('u8-s20-pronunciation', {
           why: 'Pre-pa-ra-tion — say it with the beat on <b>RA</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Procedural Nouns' }
     },
     {
@@ -88,31 +89,13 @@ EFA.page('u8-s20-pronunciation', {
       source: 'book',
       title: 'Intonation: Sequential Steps',
       instruction: 'Practice: Read these steps:',
-      html: '<p><b>Context.</b> Use a rising intonation for each step in a sequence to show that the process is incomplete, and a falling intonation on the final step.</p><ol><li>"First, the data is collected (↗), and then it is posted (↗), and finally, the statements are prepared (↘)."</li></ol>',
+      html: '<p><b>Context.</b> Use a rising intonation for each step in a sequence to show that the process is incomplete, and a falling intonation on the final step.</p>',
       playable: [],
       doneLabel: 'I have read this',
       visual: { spot: 'closing', caption: 'Pronunciation · Intonation: Sequential Steps', cls: 'vis-sm' }
     },
     {
       id: 'c5',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 8 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Sequential Steps',
-      instruction: 'Practice: Read these steps:',
-      html: '<p><b>Context.</b> Use a rising intonation for each step in a sequence to show that the process is incomplete, and a falling intonation on the final step.</p><ol><li>"First, the data is collected (↗), and then it is posted (↗), and finally, the statements are prepared (↘)."</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'chart-of-accounts',
-        caption: 'Pronunciation · Intonation: Sequential Steps',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c6',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 8 · 7C',
@@ -123,10 +106,10 @@ EFA.page('u8-s20-pronunciation', {
       phrases: [
         '"First, the data is collected (↗), and then it is posted (↗), and finally, the statements are prepared (↘)."'
       ],
-      visual: { spot: 'month-end', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'chart-of-accounts', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c7',
+      id: 'c6',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 8 · 7D',
@@ -146,34 +129,7 @@ EFA.page('u8-s20-pronunciation', {
         { t: 'We expect that the audit will be completed by March 1st.', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'debit', caption: 'Pronunciation · Fluency Drill: The Year-End Report', cls: 'vis-sm' }
-    },
-    {
-      id: 'c8',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 8 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: The Year-End Report',
-      instruction: 'Read the following summary, maintaining a professional pace and using a clear voice. Emphasize the verbs in the Passive Voice.',
-      html: '<p>"The year-end closing is now in progress. All temporary accounts have been closed. The post-closing trial balance is being checked for accuracy. Once the final figures are approved, the full audit package will be delivered to the external firm. We expect that the audit will be completed by March 1st."</p>',
-      playable: [
-        { t: '"The year-end closing is now in progress.', role: 'narrator' },
-        { t: 'All temporary accounts have been closed.', role: 'narrator' },
-        { t: 'The post-closing trial balance is being checked for accuracy.', role: 'narrator' },
-        {
-          t: 'Once the final figures are approved, the full audit package will be delivered to the external firm.',
-          role: 'narrator'
-        },
-        { t: 'We expect that the audit will be completed by March 1st.', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'certification',
-        caption: 'Pronunciation · Fluency Drill: The Year-End Report',
-        cls: 'vis-sm'
-      }
+      visual: { spot: 'report', caption: 'Pronunciation · Fluency Drill: The Year-End Report', cls: 'vis-sm' }
     }
   ],
   prev: 's19-writing-2',

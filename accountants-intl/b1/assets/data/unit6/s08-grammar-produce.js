@@ -32,6 +32,7 @@ EFA.page('u6-s08-grammar-produce', {
         '6b': '<b>would reverse</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 4.</b> Conditional: If the auditor <u>found</u> the error, he ____________________ accept it.',
+      brief: 'Rewrite each sentence. The meaning must survive the change — if it does not, you have changed more than the grammar.',
       visual: { spot: 'entry', caption: 'Grammar · Sentence Transformation' }
     },
     {

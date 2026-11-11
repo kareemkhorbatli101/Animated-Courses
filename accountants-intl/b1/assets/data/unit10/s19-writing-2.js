@@ -50,7 +50,8 @@ EFA.page('u10-s19-writing-2', {
           'The manager asked when the report was submitted?'
         ]
       },
-      visual: { spot: 'reporting', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'reporting', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.'
     },
     {
       id: 'c2',

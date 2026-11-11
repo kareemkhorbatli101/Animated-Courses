@@ -25,6 +25,7 @@ EFA.page('u1-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Formal (To a Manager/Auditor)</th><th>Neutral (To a Colleague)</th></tr></thead><tbody><tr><td>"My name is... I handle the accounts payable for Dublin and Toronto."</td><td>"Hi, I\'m [Name]. I do the payments."</td></tr><tr><td>"I report to the Financial Controller."</td><td>"My boss is the Controller."</td></tr><tr><td>"Currently, I am assisting with the group audit."</td><td>"Right now, I\'m helping with the audit."</td></tr><tr><td>"I am responsible for the general ledger."</td><td>"I look after the ledger."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'ledger', caption: 'Speaking · Functional Language: Introductions and Roles' }
     }
   ],

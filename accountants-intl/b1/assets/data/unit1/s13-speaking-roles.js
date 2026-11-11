@@ -30,6 +30,7 @@ EFA.page('u1-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'reporting', caption: 'Speaking · Role-Play 1: The Daily Routine (Routine Focus)' }
     },
     {
@@ -68,7 +69,7 @@ EFA.page('u1-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: The Interruption (Continuous Focus)',
       instruction: 'Student A (Colleague): Try to chat about lunch or the weekend.',
-      html: '<p><b>Context.</b> You are very busy. A colleague tries to talk to you.</p><p>Student B (Busy Accountant): Politely refuse because you are doing something right now. Use Present Continuous.</p>',
+      html: '<p><b>Context.</b> You are very busy. A colleague tries to talk to you.</p><p>Student B (Busy Accountant): Politely refuse because you are doing something right now. Use Present Continuous.</p><ol><li>Sample: "I\'m sorry, I can\'t talk. I am calculating the tax and I need to focus."</li><li>Sample: "Not now, I am searching for an error before Singapore goes home."</li></ol>',
       playable: [
         {
           t: 'Student B (Busy Accountant): Politely refuse because you are doing something right now.',

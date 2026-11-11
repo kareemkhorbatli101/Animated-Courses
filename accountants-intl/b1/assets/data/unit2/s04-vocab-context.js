@@ -18,38 +18,6 @@ EFA.page('u2-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 2 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: A Review Email',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>Email: Yesterday\'s Entries</p><p>Hi Daniel,</p><p>Please ensure you (1) __________ the petty cash by the end of the day, Nairobi time. We have three (2) __________ receipts from the travel department, which is causing an (3) __________ discrepancy in the records. I need you to check the (4) __________ on all invoices (5) __________ yesterday. Remember that all claims over EUR 500 require management (6) __________ before (7) __________ processing.</p>',
-      playable: [
-        { t: 'Yesterday\'s Entries', role: 'narrator' },
-        {
-          t: 'Please ensure you (1) __________ the petty cash by the end of the day, Nairobi time.',
-          role: 'narrator'
-        },
-        {
-          t: 'We have three (2) __________ receipts from the travel department, which is causing an (3) __________ discrepancy in the records.',
-          role: 'narrator'
-        },
-        {
-          t: 'I need you to check the (4) __________ on all invoices (5) __________ yesterday.',
-          role: 'narrator'
-        },
-        {
-          t: 'Remember that all claims over EUR 500 require management (6) __________ before (7) __________ processing.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'receipt', caption: 'Vocabulary · Vocabulary in Context: A Review Email' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 2 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: A Review Email',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -71,7 +39,8 @@ EFA.page('u2-s04-vocab-context', {
           body: 'The box in the book offers six words for seven gaps, and gap 7 wants the singular <i>batch</i> rather than <i>batches</i>. The bank below has been completed so the exercise can be finished. This is recorded in the errata sent to the author.'
         }
       ],
-      visual: { spot: 'debtor', caption: 'Vocabulary · Vocabulary in Context: A Review Email', cls: 'vis-sm' }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'debtor', caption: 'Vocabulary · Vocabulary in Context: A Review Email' }
     }
   ],
   prev: 's03-vocab-gaps',

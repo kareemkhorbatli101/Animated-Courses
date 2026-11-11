@@ -33,6 +33,7 @@ EFA.page('u3-s08-grammar-produce', {
         '6': '<b>I can pay the vendor today.</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 4.</b> Modal: <u>Could you check if the receipt is the original document?</u> (check) if the receipt is the original document?',
+      brief: 'Rewrite each sentence. The meaning must survive the change — if it does not, you have changed more than the grammar.',
       visual: { spot: 'debtor', caption: 'Grammar · Sentence Transformation' }
     },
     {
@@ -46,7 +47,7 @@ EFA.page('u3-s08-grammar-produce', {
       say: true,
       items: [
         {
-          q: '2. Modal: May I request the authorization now?',
+          q: '1. Modal: May I request the authorization now?',
           evidence: 'the passage above',
           options: [
             {

@@ -30,6 +30,7 @@ EFA.page('u9-s18-writing-1', {
         '3': '<b>not used</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> She finished the audit yesterday. -> She has <u>finished</u> the audit.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Present Perfect)' }
     },
     {

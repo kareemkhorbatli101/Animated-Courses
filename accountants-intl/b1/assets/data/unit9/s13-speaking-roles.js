@@ -22,7 +22,7 @@ EFA.page('u9-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: The Formal Interview',
       instruction: 'Manager (Student A): Ask about their relevant experience and current tasks (How long have you...?).',
-      html: '<p><b>Context.</b> A hiring manager (A) is interviewing an accountant (B) for a Financial Analyst position.</p><p>Accountant (Student B): Answer using Present Perfect Simple (I have been/I have worked...).</p>',
+      html: '<p><b>Context.</b> A hiring manager (A) is interviewing an accountant (B) for a Financial Analyst position.</p><p>Accountant (Student B): Answer using Present Perfect Simple (I have been/I have worked...).</p><ol><li>A: "How long have you been responsible for forecasting revenue?"</li><li>B: "I have developed and managed the forecasting models since the beginning of last quarter."</li></ol>',
       playable: [
         {
           t: 'Accountant (Student B): Answer using Present Perfect Simple (I have been/I have worked...',
@@ -30,6 +30,7 @@ EFA.page('u9-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'reporting', caption: 'Speaking · Role-Play 1: The Formal Interview' }
     },
     {
@@ -72,7 +73,7 @@ EFA.page('u9-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Discussing Software Skills',
       instruction: 'Colleague 1 (Student A): Ask if your partner has used Xero or QuickBooks before (Have you ever...?).',
-      html: '<p><b>Context.</b> Two colleagues are discussing a new project that requires specific software knowledge.</p><p>Colleague 2 (Student B): Confirm or deny, and describe their current software proficiency (I haven\'t used... yet, but I have mastered...).</p>',
+      html: '<p><b>Context.</b> Two colleagues are discussing a new project that requires specific software knowledge.</p><p>Colleague 2 (Student B): Confirm or deny, and describe their current software proficiency (I haven\'t used... yet, but I have mastered...).</p><ol><li>A: "Have you ever used Xero for client reporting?"</li><li>B: "No, I haven\'t used Xero yet, but I have worked with QuickBooks for my last three clients."</li></ol>',
       playable: [
         {
           t: 'Colleague 2 (Student B): Confirm or deny, and describe their current software proficiency (I haven\'t used...',

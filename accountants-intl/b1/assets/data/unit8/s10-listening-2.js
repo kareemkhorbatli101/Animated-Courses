@@ -44,9 +44,26 @@ EFA.page('u8-s10-listening-2', {
           _key: 'narr'
         }
       ],
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       scene: 'u8-listening-2-c1',
-      passage: '<p><b>Context.</b> A manager explains why the financial statements are late.</p><div class="script"><p>"The statements were delayed because of an issue with the bank reconciliation. A significant difference was found between the bank statement and our cash account. The error was identified and corrected by the junior accountant this morning. The adjusted trial balance is now being prepared, and the final report will be approved by the Group CFO this afternoon."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A manager explains why the financial statements are late.',
+            speak: false
+          },
+          {
+            h: '"The statements were delayed because of an issue with the bank reconciliation. A significant difference was found between the bank statement and our cash account. The error was identified and corrected by the junior accountant this morning. The adjusted trial balance is now being prepared, and the final report will be approved by the Group CFO this afternoon."',
+            say: 'The statements were delayed because of an issue with the bank reconciliation. A significant difference was found between the bank statement and our cash account. The error was identified and corrected by the junior accountant this morning. The adjusted trial balance is now being prepared, and the final report will be approved by the Group CFO this afternoon.'
+          }
+        ],
+        say: { scene: 'u8-listening-2-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'trial-balance',
         caption: 'Listening · Passage 2: Explaining a Delay (Operating Context)'

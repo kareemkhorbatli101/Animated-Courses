@@ -23,8 +23,11 @@ EFA.page('u1-s05-vocab-build', {
       title: 'Collocations for Daily Tasks',
       instruction: 'Match the verb on the left with the noun on the right to create common phrases.',
       html: '<p>Example: "Every Monday, I process invoices and file tax returns."</p>',
-      playable: [{ t: '"Every Monday, I process invoices and file tax returns.', role: 'narrator' }],
+      playable: [
+        { t: 'Example: "Every Monday, I process invoices and file tax returns.', role: 'narrator' }
+      ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'invoice', caption: 'Vocabulary · Collocations for Daily Tasks' }
     },
     {
@@ -114,13 +117,23 @@ EFA.page('u1-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 1 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Action vs. Thing',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb (The Action)</th><th>Noun (The Thing/Person)</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Calculate</td><td>Calculator / Calculation</td><td>"I used a calculator for this math."</td></tr><tr><td>Record</td><td>_________</td><td>"Keep a _________ of every expense."</td></tr><tr><td>Pay</td><td>_________</td><td>"The _________ is due tomorrow."</td></tr><tr><td>Audit</td><td>_________</td><td>"The _________ is checking our books."</td></tr><tr><td>Analyze</td><td>_________</td><td>"The _________ showed a profit."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Record &rarr; <b>Noun (The Thing/Person)</b>: [[1]]</li><li>Pay &rarr; <b>Noun (The Thing/Person)</b>: [[2]]</li><li>Audit &rarr; <b>Noun (The Thing/Person)</b>: [[3]]</li><li>Analyze &rarr; <b>Noun (The Thing/Person)</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['Record', 'record', 'Record'],
+        '2': ['Payment', 'payment', 'Payment'],
+        '3': ['Auditor', 'auditor', 'Auditor'],
+        '4': ['Analysis', 'analysis', 'Analysis']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'The noun (the thing/person) of <i>Record</i>.',
+        'The noun (the thing/person) of <i>Pay</i>.',
+        'The noun (the thing/person) of <i>Audit</i>.',
+        'The noun (the thing/person) of <i>Analyze</i>.'
+      ],
       visual: { spot: 'manager', caption: 'Vocabulary · Word Building: Action vs. Thing', cls: 'vis-sm' }
     }
   ],

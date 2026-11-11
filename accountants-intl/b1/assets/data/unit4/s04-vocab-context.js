@@ -18,34 +18,6 @@ EFA.page('u4-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 4 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Stock Check Memo',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>Memo: Quarterly Stock Check</p><p>The physical (1) ________ of office supplies showed a significant (2) ________ when compared to the (3) ________ record. We have found that the (4) ________ of printer toner is below the (5) ________, meaning we need to order more immediately. Furthermore, the old fax machines are considered (6) ________ and should be removed from the assets list.</p>',
-      playable: [
-        { t: 'Quarterly Stock Check', role: 'narrator' },
-        {
-          t: 'The physical (1) ________ of office supplies showed a significant (2) ________ when compared to the (3) ________ record.',
-          role: 'narrator'
-        },
-        {
-          t: 'We have found that the (4) ________ of printer toner is below the (5) ________, meaning we need to order more immediately.',
-          role: 'narrator'
-        },
-        {
-          t: 'Furthermore, the old fax machines are considered (6) ________ and should be removed from the assets list.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'stock', caption: 'Vocabulary · Vocabulary in Context: Stock Check Memo' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 4 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Stock Check Memo',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -61,11 +33,8 @@ EFA.page('u4-s04-vocab-context', {
       bank: ['ledger', 'obsolete', 'quantity', 'reorder point', 'supplies', 'variance'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'ledger',
-        caption: 'Vocabulary · Vocabulary in Context: Stock Check Memo',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'ledger', caption: 'Vocabulary · Vocabulary in Context: Stock Check Memo' }
     }
   ],
   prev: 's03-vocab-gaps',

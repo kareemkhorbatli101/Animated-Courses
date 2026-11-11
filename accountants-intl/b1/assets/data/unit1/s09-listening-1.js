@@ -61,9 +61,66 @@ EFA.page('u1-s09-listening-1', {
         },
         { t: 'Got it. Paperclips only.', role: 'spk:Ryan', who: 'Ryan', _key: 'ryan' }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u1-listening-1-c1',
-      passage: '<p><b>Context.</b> A Senior Accountant (Marta) is giving instructions to a new trainee (Ryan) about filing.</p><div class="script"><p>Marta: Ryan, listen carefully. This is how we organize the archives.</p><p>Ryan: I\'m listening.</p><p>Marta: We keep the invoices in these blue folders. We arrange them alphabetically by supplier name, not by date.</p><p>Ryan: Okay. Alphabetically. And what about the bank statements?</p><p>Marta: Those go in the red binders, one binder per company. Currently, we are digitizing everything, so please scan them first.</p><p>Ryan: I understand. I am scanning them now. Do I staple the receipts to the invoice?</p><p>Marta: No, never staple them. Use a paperclip. Staples damage the scanner.</p><p>Ryan: Got it. Paperclips only.</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A Senior Accountant (Marta) is giving instructions to a new trainee (Ryan) about filing.',
+            speak: false
+          },
+          {
+            h: 'Marta: Ryan, listen carefully. This is how we organize the archives.',
+            say: 'Ryan, listen carefully. This is how we organize the archives.',
+            role: 'spk:Marta',
+            who: 'Marta'
+          },
+          { h: 'Ryan: I\'m listening.', say: 'I\'m listening.', role: 'spk:Ryan', who: 'Ryan' },
+          {
+            h: 'Marta: We keep the invoices in these blue folders. We arrange them alphabetically by supplier name, not by date.',
+            say: 'We keep the invoices in these blue folders. We arrange them alphabetically by supplier name, not by date.',
+            role: 'spk:Marta',
+            who: 'Marta'
+          },
+          {
+            h: 'Ryan: Okay. Alphabetically. And what about the bank statements?',
+            say: 'Okay. Alphabetically. And what about the bank statements?',
+            role: 'spk:Ryan',
+            who: 'Ryan'
+          },
+          {
+            h: 'Marta: Those go in the red binders, one binder per company. Currently, we are digitizing everything, so please scan them first.',
+            say: 'Those go in the red binders, one binder per company. Currently, we are digitizing everything, so please scan them first.',
+            role: 'spk:Marta',
+            who: 'Marta'
+          },
+          {
+            h: 'Ryan: I understand. I am scanning them now. Do I staple the receipts to the invoice?',
+            say: 'I understand. I am scanning them now. Do I staple the receipts to the invoice?',
+            role: 'spk:Ryan',
+            who: 'Ryan'
+          },
+          {
+            h: 'Marta: No, never staple them. Use a paperclip. Staples damage the scanner.',
+            say: 'No, never staple them. Use a paperclip. Staples damage the scanner.',
+            role: 'spk:Marta',
+            who: 'Marta'
+          },
+          {
+            h: 'Ryan: Got it. Paperclips only.',
+            say: 'Got it. Paperclips only.',
+            role: 'spk:Ryan',
+            who: 'Ryan'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u1-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'invoice',
         caption: 'Listening · Passage 1: Instructions from the Senior (Functional)'

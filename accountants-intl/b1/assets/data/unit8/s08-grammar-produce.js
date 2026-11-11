@@ -30,6 +30,7 @@ EFA.page('u8-s08-grammar-produce', {
         '6': '<b>are published every quarter</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 4.</b> Passive: The inventory count <u>was verified by the auditors</u> by the auditors.',
+      brief: 'Rewrite each sentence. The meaning must survive the change — if it does not, you have changed more than the grammar.',
       visual: { spot: 'entry', caption: 'Grammar · Sentence Transformation (Active to Passive)' }
     },
     {

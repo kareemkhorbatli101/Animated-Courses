@@ -22,9 +22,10 @@ EFA.page('u10-s01-warmup', {
       source: 'book',
       title: 'Relaying Messages',
       instruction: 'Read this before you go on.',
-      html: '<p><b>Context.</b> Think about the last important meeting you attended with a senior executive.</p><ol><li>A. What was the most important message you had to report back to your team? (e.g., "The CFO said that we needed to cut costs by 10%").</li><li>B. What is the difference between Direct Speech ("We will hire more staff") and Reported Speech (She said they would hire more staff)?</li><li>C. Who in your organization is responsible for reporting financial performance to the Board?</li></ol>',
+      html: '<p><b>Context.</b> Think about the last important meeting you attended with a senior executive.</p><ol><li>A. What was the most important message you had to report back to your team? (e.g., "The CFO said that we needed to cut costs by 10%").</li></ol>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'reporting', caption: 'Warm-Up · Relaying Messages' }
     }
   ],

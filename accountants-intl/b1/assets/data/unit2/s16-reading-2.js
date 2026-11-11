@@ -50,9 +50,18 @@ EFA.page('u2-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u2-reading-2-c1',
-      passage: '<p>The accounting cycle begins with the analysis of source documents. Transactions are initially recorded in the journal chronologically. This is the book of original entry. Last Tuesday, the team was recording a large batch of invoices when the supervisor announced a mandatory training session. Because of the training, only half of the transactions were posted to the General Ledger that day. The supervisor later reviewed the work to ensure accuracy before the closing balance was verified.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'The accounting cycle begins with the analysis of source documents. Transactions are initially recorded in the journal chronologically. This is the book of original entry. Last Tuesday, the team was recording a large batch of invoices when the supervisor announced a mandatory training session. Because of the training, only half of the transactions were posted to the General Ledger that day. The supervisor later reviewed the work to ensure accuracy before the closing balance was verified.'
+          }
+        ],
+        say: { scene: 'u2-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'transaction', caption: 'Reading · Reading Passage 2: Data Entry and Posting' }
     },
     {

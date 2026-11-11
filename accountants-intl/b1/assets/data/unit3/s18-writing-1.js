@@ -30,6 +30,7 @@ EFA.page('u3-s18-writing-1', {
         '3': '<b>can</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> Is it alright if I process your payment now? (MAY) -> <u>May</u> I process your payment now?',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Modals)' }
     },
     {
@@ -71,7 +72,8 @@ EFA.page('u3-s18-writing-1', {
           'We are happy to give you the cash back today. (CAN) -> We ____________________ offer to reimburse you today.'
         ]
       },
-      visual: { spot: 'petty-voucher', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'petty-voucher', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Reimbursement', 'Voucher']
     },
     {
       id: 'c3',

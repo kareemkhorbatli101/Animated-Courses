@@ -23,7 +23,7 @@ EFA.page('u10-s17-reading-3', {
       title: 'Reading Passage 3: Email from Tax Consultant',
       instruction: 'Read the email from the company’s tax consultant.',
       playable: [
-        { t: 'Urgent Update: New VAT Legislation', role: 'narrator', _key: 'narr' },
+        { t: 'Subject: Urgent Update: New VAT Legislation', role: 'narrator', _key: 'narr' },
         {
           t: 'Please note that the government has published new VAT legislation.',
           role: 'narrator',
@@ -50,9 +50,20 @@ EFA.page('u10-s17-reading-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u10-reading-3-c1',
-      passage: '<p>Subject: Urgent Update: New VAT Legislation</p><p>Hi Team,</p><p>Please note that the government has published new VAT legislation. The consultant advised that we must implement the changes by the end of the current month. He warned that failure to comply would result in heavy penalties. He added that he would send a detailed implementation guide next week. The team lead inquired whether the new rules applied to services as well as goods.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Subject: Urgent Update: New VAT Legislation' },
+          { h: 'Hi Team,' },
+          {
+            h: 'Please note that the government has published new VAT legislation. The consultant advised that we must implement the changes by the end of the current month. He warned that failure to comply would result in heavy penalties. He added that he would send a detailed implementation guide next week. The team lead inquired whether the new rules applied to services as well as goods.'
+          }
+        ],
+        say: { scene: 'u10-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'source-document', caption: 'Reading · Reading Passage 3: Email from Tax Consultant' }
     },
     {

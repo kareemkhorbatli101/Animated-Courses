@@ -45,9 +45,18 @@ EFA.page('u9-s17-reading-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u9-reading-3-c1',
-      passage: '<p>Ines Duarte started her career as a junior bookkeeper ten years ago. She has always been dedicated to learning. Since 2018, she has specialized in forensic accounting, and she has worked on several high-profile cases in three jurisdictions. She has just opened her own consultancy firm after leaving her previous employer. She is now training three new employees, all of whom have recently graduated from university.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Ines Duarte started her career as a junior bookkeeper ten years ago. She has always been dedicated to learning. Since 2018, she has specialized in forensic accounting, and she has worked on several high-profile cases in three jurisdictions. She has just opened her own consultancy firm after leaving her previous employer. She is now training three new employees, all of whom have recently graduated from university.'
+          }
+        ],
+        say: { scene: 'u9-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'source-document',
         caption: 'Reading · Reading Passage 3: From Bookkeeper to Consultant'

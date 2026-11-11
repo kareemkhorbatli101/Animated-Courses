@@ -42,9 +42,41 @@ EFA.page('u5-s10-listening-2', {
           _key: 'collector'
         }
       ],
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       scene: 'u5-listening-2-c1',
-      passage: '<p><b>Context.</b> A collections call to a client whose account is past due.</p><div class="script"><p>Collector: "Good morning, I am calling about your outstanding invoice 456. It is 60 days past due. When are you going to clear the account?"</p><p>Client: "I am sorry, we had a delay in our cash flow. I will send the full settlement next week, I promise."</p><p>Collector: "Next week is acceptable. I will note that on your account. I am scheduling a follow-up call for Tuesday morning to confirm the receipt of the funds."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A collections call to a client whose account is past due.',
+            speak: false
+          },
+          {
+            h: 'Collector: "Good morning, I am calling about your outstanding invoice 456. It is 60 days past due. When are you going to clear the account?"',
+            say: 'Good morning, I am calling about your outstanding invoice 456. It is 60 days past due. When are you going to clear the account?',
+            role: 'spk:Collector',
+            who: 'Collector'
+          },
+          {
+            h: 'Client: "I am sorry, we had a delay in our cash flow. I will send the full settlement next week, I promise."',
+            say: 'I am sorry, we had a delay in our cash flow. I will send the full settlement next week, I promise.',
+            role: 'spk:Client',
+            who: 'Client'
+          },
+          {
+            h: 'Collector: "Next week is acceptable. I will note that on your account. I am scheduling a follow-up call for Tuesday morning to confirm the receipt of the funds."',
+            say: 'Next week is acceptable. I will note that on your account. I am scheduling a follow-up call for Tuesday morning to confirm the receipt of the funds.',
+            role: 'spk:Collector',
+            who: 'Collector'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u5-listening-2-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'receipt', caption: 'Listening · Passage 2: Chasing a Debtor (Operating Context)' }
     }
   ],

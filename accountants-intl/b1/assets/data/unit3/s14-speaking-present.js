@@ -18,36 +18,15 @@ EFA.page('u3-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 3 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "Managing the Office Float"',
-      instruction: 'You have 60 seconds to explain the three main procedures for managing the petty cash float. Use Modals of Request and Offer where appropriate. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        { q: 'Opening: The petty cash float is EUR 200.' },
-        { q: 'Procedure 1 (Request): "Could employees limit single expenses to EUR 50?"' },
-        {
-          q: 'Procedure 2 (Offer): "We can offer immediate reimbursement once the voucher is signed."'
-        },
-        {
-          q: 'Procedure 3 (Duty): "The custodian must reconcile the fund weekly, and may request replenishment from the general cashier."'
-        }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'petty-voucher',
-        caption: 'Handling small payments, requesting approvals, dealing with suppliers for low-value goods, and processing reimbursement.'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'Modals of Request and Offer',
-        taught: [
-          'You have 60 seconds to explain the three main procedures for managing the petty cash float. Use Modals of Request and Offer where appropriate.',
-          'Opening: The petty cash float is EUR 200.',
-          'Procedure 1 (Request): "Could employees limit single expenses to EUR 50?"',
-          'Procedure 2 (Offer): "We can offer immediate reimbursement once the voucher is signed."'
-        ]
-      },
-      model: 'The petty cash float is EUR 200. Could employees limit single payments to EUR 50 and bring the original receipt? I can offer to process reimbursements every Friday afternoon, and I may request a replenishment when the box falls to EUR 40.'
+      instruction: 'You have 60 seconds to explain the three main procedures for managing the petty cash float. Use Modals of Request and Offer where appropriate.',
+      html: '<ol><li>Opening: The petty cash float is EUR 200.</li><li>Procedure 1 (Request): "Could employees limit single expenses to EUR 50?"</li><li>Procedure 2 (Offer): "We can offer immediate reimbursement once the voucher is signed."</li><li>Procedure 3 (Duty): "The custodian must reconcile the fund weekly, and may request replenishment from the general cashier."</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'cash-box', caption: 'Speaking · Presentation: "Managing the Office Float"' }
     }
   ],
   prev: 's13-speaking-roles',

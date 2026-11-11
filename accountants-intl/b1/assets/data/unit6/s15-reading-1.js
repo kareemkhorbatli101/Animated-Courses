@@ -42,7 +42,8 @@ EFA.page('u6-s15-reading-1', {
           'What are some examples of transactions that require a reversal?'
         ]
       },
-      model: 'A control deficiency is a weakness that could let an error through. A material weakness is one big enough that a real misstatement could reach the financial statements without anybody noticing.'
+      model: 'A control deficiency is a weakness that could let an error through. A material weakness is one big enough that a real misstatement could reach the financial statements without anybody noticing.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -82,8 +83,16 @@ EFA.page('u6-s15-reading-1', {
         }
       ],
       scene: 'u6-reading-1-c2',
-      passage: '<p>The bank reconciliation must be completed weekly to ensure the accuracy of cash. The core goal is to identify any discrepancy between the bank statement and the general ledger. If the totals do not match, the accountant will investigate the unidentified transactions first. We will check for any omission or duplicate entry. If the difference were over EUR 1,000, it would require the manager\'s authorization to rectify. If we find an error in our records, we will adjust the journal entry immediately.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'The bank reconciliation must be completed weekly to ensure the accuracy of cash. The core goal is to identify any discrepancy between the bank statement and the general ledger. If the totals do not match, the accountant will investigate the unidentified transactions first. We will check for any omission or duplicate entry. If the difference were over EUR 1,000, it would require the manager\'s authorization to rectify. If we find an error in our records, we will adjust the journal entry immediately.'
+          }
+        ],
+        say: { scene: 'u6-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'reconcile',
         caption: 'Reading · Reading Passage 1: The Bank Reconciliation Procedure',

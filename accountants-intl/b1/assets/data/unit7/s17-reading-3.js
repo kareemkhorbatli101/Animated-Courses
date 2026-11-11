@@ -45,9 +45,18 @@ EFA.page('u7-s17-reading-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u7-reading-3-c1',
-      passage: '<p>Company X is the most profitable in the sector, reporting an 18% net margin. Their operational costs are lower than Company Y\'s. Company Y has a stronger brand than Company X, but their product quality is worse than their main rival. Company Z is the newest competitor and has the least market share among the three. Overall, while Company X is more financially sound than the others, Company Y has the most potential for future growth if they can reduce their operating expenses.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Company X is the most profitable in the sector, reporting an 18% net margin. Their operational costs are lower than Company Y\'s. Company Y has a stronger brand than Company X, but their product quality is worse than their main rival. Company Z is the newest competitor and has the least market share among the three. Overall, while Company X is more financially sound than the others, Company Y has the most potential for future growth if they can reduce their operating expenses.'
+          }
+        ],
+        say: { scene: 'u7-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'source-document', caption: 'Reading · Reading Passage 3: Competitor Analysis' }
     },
     {

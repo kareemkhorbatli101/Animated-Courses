@@ -25,11 +25,12 @@ EFA.page('u5-s05-vocab-build', {
       html: '<p>Example: "We must monitor the cash flow closely before we prepare the payment schedule."</p>',
       playable: [
         {
-          t: '"We must monitor the cash flow closely before we prepare the payment schedule.',
+          t: 'Example: "We must monitor the cash flow closely before we prepare the payment schedule.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'payment-run', caption: 'Vocabulary · Collocations for Financial Planning' }
     },
     {
@@ -119,14 +120,24 @@ EFA.page('u5-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 5 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Related Term</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Pay</td><td>Payment</td><td>Payable</td><td>"The payment is due next week."</td></tr><tr><td>Receive</td><td>_________</td><td>Receivable</td><td>"We expect receipt of the funds tomorrow."</td></tr><tr><td>Settle</td><td>_________</td><td>Unsettled</td><td>"The settlement is scheduled for the 15th."</td></tr><tr><td>Delay</td><td>Delay</td><td>_________</td><td>"The client requested a delay in payment."</td></tr><tr><td>Arrange</td><td>Arrangement</td><td>_________</td><td>"We need to arrange a meeting with the debtor."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'receipt', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Receive &rarr; <b>Noun</b>: [[1]]</li><li>Settle &rarr; <b>Noun</b>: [[2]]</li><li>Delay &rarr; <b>Related Term</b>: [[3]]</li><li>Arrange &rarr; <b>Related Term</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['receipt', 'receipt', 'Receipt'],
+        '2': ['settlement', 'settlement', 'Settlement'],
+        '3': ['Delayed', 'delayed', 'Delayed'],
+        '4': ['Arranged', 'arranged', 'Arranged']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"We expect receipt of the funds tomorrow."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The settlement is scheduled for the 15th."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The client requested a delay in payment."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"We need to arrange a meeting with the debtor."&rdquo;'
+      ],
+      visual: { spot: 'credit', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

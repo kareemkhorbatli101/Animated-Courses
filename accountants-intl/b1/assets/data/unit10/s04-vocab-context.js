@@ -18,30 +18,6 @@ EFA.page('u10-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 10 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Meeting Summary',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>"The (1) ________ from the Group CFO was short but clear. She provided a quick (2) ________ of the Board’s new (3) ________: reducing debt. The meeting concluded with five (4) ________ for the Finance Team, including the main (5) ________, which were due by Friday."</p>',
-      playable: [
-        { t: '"The (1) ________ from the Group CFO was short but clear.', role: 'narrator' },
-        {
-          t: 'She provided a quick (2) ________ of the Board’s new (3) ________: reducing debt.',
-          role: 'narrator'
-        },
-        {
-          t: 'The meeting concluded with five (4) ________ for the Finance Team, including the main (5) ________, which were due by Friday.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'reporting', caption: 'Vocabulary · Vocabulary in Context: Meeting Summary' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 10 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Meeting Summary',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -56,11 +32,8 @@ EFA.page('u10-s04-vocab-context', {
       bank: ['Synopsis', 'action points', 'briefing', 'deliverables', 'objectives', 'outline'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'auditor',
-        caption: 'Vocabulary · Vocabulary in Context: Meeting Summary',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'reporting', caption: 'Vocabulary · Vocabulary in Context: Meeting Summary' }
     }
   ],
   prev: 's03-vocab-gaps',

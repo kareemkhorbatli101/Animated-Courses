@@ -33,6 +33,7 @@ EFA.page('u4-s03-vocab-gaps', {
         '5': '<b>dispose</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> We <u>count</u> every item on the shelf during the annual stocktaking.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'stock', caption: 'Vocabulary · Reporting Verbs' }
     }
   ],

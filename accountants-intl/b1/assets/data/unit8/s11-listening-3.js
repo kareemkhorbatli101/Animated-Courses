@@ -45,9 +45,23 @@ EFA.page('u8-s11-listening-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       scene: 'u8-listening-3-c1',
-      passage: '<p><b>Context.</b> A briefing on the annual closing process.</p><div class="script"><p>"Every year, before the audit, all temporary accounts are closed to retained earnings. Then, a post-closing trial balance is prepared to ensure that only permanent accounts remain open. After this, the final audit package is compiled. This package must be delivered to the auditors before January 15th. Any issues that are discovered will be reported to the audit committee."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: '<b>Context.</b> A briefing on the annual closing process.', speak: false },
+          {
+            h: '"Every year, before the audit, all temporary accounts are closed to retained earnings. Then, a post-closing trial balance is prepared to ensure that only permanent accounts remain open. After this, the final audit package is compiled. This package must be delivered to the auditors before January 15th. Any issues that are discovered will be reported to the audit committee."',
+            say: 'Every year, before the audit, all temporary accounts are closed to retained earnings. Then, a post-closing trial balance is prepared to ensure that only permanent accounts remain open. After this, the final audit package is compiled. This package must be delivered to the auditors before January 15th. Any issues that are discovered will be reported to the audit committee.'
+          }
+        ],
+        say: { scene: 'u8-listening-3-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'trial-balance',
         caption: 'Listening · Passage 3: Year-End Procedures (Financial Context)'

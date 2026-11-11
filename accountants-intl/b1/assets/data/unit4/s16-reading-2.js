@@ -59,9 +59,18 @@ EFA.page('u4-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u4-reading-2-c1',
-      passage: '<p>Inventory variance is the difference between the recorded amount in the ledger and the physical count. There should not be much variance if stocktaking is performed correctly. If the variance is higher than 5% of the total value, the custodian must perform a re-count. If the variance persists, an investigation will be launched. We are looking for any evidence of misplacement or theft. We have too many unexplained variances in the last two quarters, in three different offices. We need a lot of improvements in our inventory control procedures.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Inventory variance is the difference between the recorded amount in the ledger and the physical count. There should not be much variance if stocktaking is performed correctly. If the variance is higher than 5% of the total value, the custodian must perform a re-count. If the variance persists, an investigation will be launched. We are looking for any evidence of misplacement or theft. We have too many unexplained variances in the last two quarters, in three different offices. We need a lot of improvements in our inventory control procedures.'
+          }
+        ],
+        say: { scene: 'u4-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'variance', caption: 'Reading · Reading Passage 2: Variance Reporting' }
     },
     {

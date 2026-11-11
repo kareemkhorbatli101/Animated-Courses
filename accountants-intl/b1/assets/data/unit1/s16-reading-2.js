@@ -23,8 +23,8 @@ EFA.page('u1-s16-reading-2', {
       title: 'Reading Passage 2: Internal Email (Current Projects)',
       instruction: 'Read the email from the IT Manager.',
       playable: [
-        { t: 'URGENT: Server Maintenance Today', role: 'narrator', _key: 'narr' },
-        { t: 'Finance Team, All Offices', role: 'narrator', _key: 'narr' },
+        { t: 'Subject: URGENT: Server Maintenance Today', role: 'narrator', _key: 'narr' },
+        { t: 'To: Finance Team, All Offices', role: 'narrator', _key: 'narr' },
         {
           t: 'Please note that we are performing maintenance on the accounting server today between 12:00 PM and 2:00 PM Central European Time.',
           role: 'narrator',
@@ -55,9 +55,32 @@ EFA.page('u1-s16-reading-2', {
         },
         { t: 'Thanks for your patience.', role: 'narrator', _key: 'narr' }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u1-reading-2-c1',
-      passage: '<p>Subject: URGENT: Server Maintenance Today</p><p>From: IT Support</p><p>To: Finance Team, All Offices</p><p>Hi Team,</p><p>Please note that we are performing maintenance on the accounting server today between 12:00 PM and 2:00 PM Central European Time.</p><p>During this time, the ledger module is running very slowly. We are installing a security patch to protect our data.</p><p>Please save your work locally. If you are working on the shared drive, you might lose data.</p><p>Currently, our technicians are testing the backup system. We expect everything to return to normal by 2:30 PM. Colleagues in Singapore, please note that this is the end of your working day.</p><p>Thanks for your patience.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Subject: URGENT: Server Maintenance Today' },
+          { h: 'From: IT Support' },
+          { h: 'To: Finance Team, All Offices' },
+          { h: 'Hi Team,' },
+          {
+            h: 'Please note that we are performing maintenance on the accounting server today between 12:00 PM and 2:00 PM Central European Time.'
+          },
+          {
+            h: 'During this time, the ledger module is running very slowly. We are installing a security patch to protect our data.'
+          },
+          {
+            h: 'Please save your work locally. If you are working on the shared drive, you might lose data.'
+          },
+          {
+            h: 'Currently, our technicians are testing the backup system. We expect everything to return to normal by 2:30 PM. Colleagues in Singapore, please note that this is the end of your working day.'
+          },
+          { h: 'Thanks for your patience.' }
+        ],
+        say: { scene: 'u1-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'ledger', caption: 'Reading · Reading Passage 2: Internal Email (Current Projects)' }
     },
     {

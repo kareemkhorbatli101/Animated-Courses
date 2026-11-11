@@ -4,60 +4,57 @@
    viseme tracks in audio.js. Nothing here is newly written. */
 EFA.scene('u6-listening-1-c1', {
   set: 'accounts',
-  cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
+  cast: {
+    colleague1: { rig: 'f-20s-b', name: 'Colleague 1', at: [0.32, 0.54], voice: 'f' },
+    colleague2: { rig: 'm-20s-b', name: 'Colleague 2', at: [0.68, 0.54], voice: 'm' }
+  },
   lines: [
     {
-      who: 'narr',
-      face: 'warm',
-      en: 'Colleague 1: "The bank balance is EUR 500 higher than our ledger balance.',
-      cam: { shot: 'mid' }
-    },
-    { who: 'narr', face: 'worried', en: 'I can\'t find the source of the discrepancy.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Colleague 2: "If the bank balance is higher, it will be a deposit we haven\'t recorded yet.'
-    },
-    { who: 'narr', face: 'thinking', en: 'Have you cross-checked the unidentified receipts?' },
-    {
-      who: 'narr',
+      who: 'colleague1',
       face: 'worried',
-      en: 'If it were an omission, we would see a missing journal entry.'
+      en: 'The bank balance is EUR 500 higher than our ledger balance. I can\'t find the source of the discrepancy.',
+      cam: { shot: 'mid' },
+      ar: 'رصيد البنك أعلى من رصيد دفترنا بمقدار EUR 500، ولا أجد مصدر الفرق.'
     },
-    { who: 'narr', face: 'neutral', en: 'Colleague 1: "Ah, yes.' },
-    { who: 'narr', face: 'neutral', en: 'I will check the suspense account now.' },
     {
-      who: 'narr',
+      who: 'colleague2',
       face: 'worried',
-      en: 'If I find the missing deposit, I will rectify the entry before lunch.'
+      en: 'If the bank balance is higher, it will be a deposit we haven\'t recorded yet. Have you cross-checked the unidentified receipts? If it were an omission, we would see a missing journal entry.',
+      ar: 'إن كان رصيد البنك أعلى، فسيكون إيداعًا لم نسجّله بعد. هل طابقت الإيداعات غير المحددة؟ ولو كان الأمر إسقاطًا، لرأينا قيدًا ناقصًا في اليومية.'
+    },
+    {
+      who: 'colleague1',
+      face: 'worried',
+      en: 'Ah, yes. I will check the suspense account now. If I find the missing deposit, I will rectify the entry before lunch.',
+      ar: 'صحيح. سأراجع الحساب المعلّق الآن. فإن وجدت الإيداع المفقود، صحّحت القيد قبل الغداء.'
     }
   ]
 });
 EFA.scene('u6-listening-3-c1', {
   set: 'accounts',
-  cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
+  cast: {
+    committeemember1: { rig: 'm-30s-a', name: 'Committee Member 1', at: [0.32, 0.54], voice: 'm' },
+    committeemember2: { rig: 'f-50s-a', name: 'Committee Member 2', at: [0.68, 0.54], voice: 'f' }
+  },
   lines: [
     {
-      who: 'narr',
+      who: 'committeemember1',
       face: 'thinking',
-      en: 'Committee Member 1: "If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?',
-      cam: { shot: 'mid' }
+      en: 'If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?',
+      cam: { shot: 'mid' },
+      ar: 'لو ارتكب موظف غشًا بإنشاء فواتير موردين وهمية، فكيف كنا نكتشفه؟'
     },
     {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Committee Member 2: "If we had automated exception reporting, we would flag the unusual payment size.'
-    },
-    {
-      who: 'narr',
+      who: 'committeemember2',
       face: 'worried',
-      en: 'If we were to investigate every small discrepancy, it would take too much time.'
+      en: 'If we had automated exception reporting, we would flag the unusual payment size. But we don\'t. If we were to investigate every small discrepancy, it would take too much time.',
+      ar: 'لو كان لدينا نظام آلي للتقارير الاستثنائية، لرصدنا حجم الدفعة غير المعتاد. لكن ليس لدينا. ولو حققنا في كل فرق صغير، لاستغرق ذلك وقتًا أطول من اللازم.'
     },
-    { who: 'narr', face: 'neutral', en: 'Committee Member 1: "I agree.' },
     {
-      who: 'narr',
+      who: 'committeemember1',
       face: 'neutral',
-      en: 'If we don\'t invest in better controls soon, we will face significant exposure next year.'
+      en: 'I agree. If we don\'t invest in better controls soon, we will face significant exposure next year.',
+      ar: 'أوافقك. وإن لم نستثمر في رقابة أفضل قريبًا، واجهنا تعرضًا كبيرًا في العام القادم.'
     }
   ]
 });
@@ -69,28 +66,38 @@ EFA.scene('u6-reading-1-c2', {
       who: 'narr',
       face: 'warm',
       en: 'The bank reconciliation must be completed weekly to ensure the accuracy of cash.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'يجب إنجاز التسوية البنكية أسبوعيًا لضمان دقة النقدية.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'The core goal is to identify any discrepancy between the bank statement and the general ledger.'
+      en: 'The core goal is to identify any discrepancy between the bank statement and the general ledger.',
+      ar: 'والهدف الأساسي تحديد أي فرق بين كشف الحساب البنكي ودفتر الأستاذ العام.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If the totals do not match, the accountant will investigate the unidentified transactions first.'
+      en: 'If the totals do not match, the accountant will investigate the unidentified transactions first.',
+      ar: 'وإن لم تتطابق المجاميع، حقق المحاسب في العمليات غير المحددة أولًا.'
     },
-    { who: 'narr', face: 'neutral', en: 'We will check for any omission or duplicate entry.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If the difference were over EUR 1,000, it would require the manager\'s authorization to rectify.'
+      en: 'We will check for any omission or duplicate entry.',
+      ar: 'وسنبحث عن أي إسقاط أو قيد مزدوج.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If the difference were over EUR 1,000, it would require the manager\'s authorization to rectify.',
+      ar: 'ولو كان الفرق يتجاوز EUR 1,000، لاستلزم تصحيحه تفويضًا من المدير.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If we find an error in our records, we will adjust the journal entry immediately.'
+      en: 'If we find an error in our records, we will adjust the journal entry immediately.',
+      ar: 'وإن وجدنا خطأً في سجلاتنا، عدّلنا قيد اليومية فورًا.'
     }
   ]
 });
@@ -102,27 +109,32 @@ EFA.scene('u6-reading-2-c1', {
       who: 'narr',
       face: 'worried',
       en: 'A debt is classified as uncollectible if a client fails to make payment after 120 days of intensive collections.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'يُصنَّف الدين على أنه غير قابل للتحصيل إذا تعذّر السداد على العميل بعد 120 يومًا من التحصيل المكثّف.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Once classified, the AR Manager will authorize a write-off.'
+      en: 'Once classified, the AR Manager will authorize a write-off.',
+      ar: 'وبعد التصنيف يأذن مدير الحسابات المدينة بإعدام الدين.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If the amount were very large, we would send the debt to a third-party collections agency in the client\'s own country.'
+      en: 'If the amount were very large, we would send the debt to a third-party collections agency in the client\'s own country.',
+      ar: 'ولو كان المبلغ كبيرًا جدًا، لأحلنا الدين إلى جهة تحصيل خارجية في بلد العميل نفسه.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If we don\'t process this write-off correctly, our profit will be overstated.'
+      en: 'If we don\'t process this write-off correctly, our profit will be overstated.',
+      ar: 'وإن لم نعالج هذا الإعدام على الوجه الصحيح، كانت أرباحنا مبالغًا فيها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The policy states that we must reverse the original sales entry and zero out the debtor\'s account to reflect the loss accurately.'
+      en: 'The policy states that we must reverse the original sales entry and zero out the debtor\'s account to reflect the loss accurately.',
+      ar: 'وتنص السياسة على أن نعكس قيد البيع الأصلي ونصفّر حساب المدين لتظهر الخسارة بدقة.'
     }
   ]
 });
@@ -134,29 +146,39 @@ EFA.scene('u6-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Our highest internal control is the segregation of duties.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'أقوى ضابط رقابي داخلي لدينا هو الفصل بين المهام.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If one person were responsible for both cash receipt and bank reconciliation, they could easily commit fraud.'
+      en: 'If one person were responsible for both cash receipt and bank reconciliation, they could easily commit fraud.',
+      ar: 'فلو كان شخص واحد مسؤولًا عن استلام النقد والتسوية البنكية معًا، لأمكنه ارتكاب الغش بسهولة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'That is why we will always separate the recording and custody of assets.'
+      en: 'That is why we will always separate the recording and custody of assets.',
+      ar: 'ولهذا سنفصل دائمًا بين تسجيل الأصول وحفظها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If an employee violates this rule, they will face immediate termination.'
+      en: 'If an employee violates this rule, they will face immediate termination.',
+      ar: 'وإن خالف موظف هذه القاعدة، تعرّض لإنهاء خدمته فورًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If we had an automated system to cross-check all large payments, we would detect most fraudulent invoices before payment.'
+      en: 'If we had an automated system to cross-check all large payments, we would detect most fraudulent invoices before payment.',
+      ar: 'ولو كان لدينا نظام آلي يطابق كل المدفوعات الكبيرة، لكشفنا معظم الفواتير المغشوشة قبل سدادها.'
     },
-    { who: 'narr', face: 'neutral', en: 'But we don\'t, so we must rely on manual cross-checking.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'But we don\'t, so we must rely on manual cross-checking.',
+      ar: 'لكن ليس لدينا، فعلينا الاعتماد على المطابقة اليدوية.'
+    }
   ]
 });
 EFA.scene('u6-extension-c1', {
@@ -167,109 +189,144 @@ EFA.scene('u6-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'In the world of accounting, internal controls are the shield that protects a company from chaos.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'في عالم المحاسبة، الرقابة الداخلية هي الدرع الذي يحمي الشركة من الاضطراب.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'At SilverStream Logistics, these controls were tested when a routine internal audit uncovered a significant discrepancy.'
+      en: 'At SilverStream Logistics, these controls were tested when a routine internal audit uncovered a significant discrepancy.',
+      ar: 'وفي شركة سيلفرستريم لوجستيكس اختُبرت هذه الضوابط حين كشف تدقيق داخلي روتيني عن فرق كبير.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'While reviewing the bank reconciliation for October, the auditor, Mark, noticed that the suspense account had a balance of EUR 12,000.'
+      en: 'While reviewing the bank reconciliation for October, the auditor, Mark, noticed that the suspense account had a balance of EUR 12,000.',
+      ar: 'فبينما كان المدقق مارك يراجع التسوية البنكية لشهر أكتوبر، لاحظ أن الحساب المعلّق فيه رصيد قدره EUR 12,000.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'A suspense account is a temporary holding place for transactions that have an error or missing information.'
+      en: 'A suspense account is a temporary holding place for transactions that have an error or missing information.',
+      ar: 'والحساب المعلّق موضع مؤقت للعمليات التي فيها خطأ أو معلومات ناقصة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Mark knew that if he didn\'t investigate this immediately, the financial statements would be inaccurate.'
+      en: 'Mark knew that if he didn\'t investigate this immediately, the financial statements would be inaccurate.',
+      ar: 'وكان مارك يعلم أنه إن لم يحقق في الأمر فورًا، كانت القوائم المالية غير دقيقة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Mark began to cross-check the ledger against the bank statement.'
+      en: 'Mark began to cross-check the ledger against the bank statement.',
+      ar: 'فبدأ مارك يطابق دفتر الأستاذ مع كشف الحساب البنكي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He discovered that a payment to a vendor, "FastFleet Repairs," had been recorded twice — once by the local office and once by the service centre.'
+      en: 'He discovered that a payment to a vendor, "FastFleet Repairs," had been recorded twice — once by the local office and once by the service centre.',
+      ar: 'واكتشف أن دفعة لمورّد يُسمى "فاست فليت ريبيرز" سُجّلت مرتين — مرة من المكتب المحلي ومرة من مركز الخدمات.'
     },
-    { who: 'narr', face: 'neutral', en: 'It was a duplicate payment.' },
+    { who: 'narr', face: 'neutral', en: 'It was a duplicate payment.', ar: 'كانت دفعة مزدوجة.' },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If the accounts payable clerk had checked the invoice number, this error would not have happened.'
-    },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'This was a classic case of human error exacerbated by poor system controls.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'He realized that if the company had an automated system to flag duplicate invoice numbers, the software would reject the second entry automatically.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Mark called the clerk responsible.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"If we don\'t contact the vendor today," Mark explained, "we will lose leverage to get the money back.'
-    },
-    { who: 'narr', face: 'neutral', en: '" He advised the clerk on the next steps.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"If I were you, I would call their finance department immediately and ask for a refund.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Then, we must reverse the journal entry in our books to zero out the duplicate expense.'
-    },
-    { who: 'narr', face: 'neutral', en: '" The clerk was worried about the consequences.' },
-    { who: 'narr', face: 'thinking', en: '"Will I be dismissed?' },
-    { who: 'narr', face: 'neutral', en: 'Mark shook his head.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: '"No, but if you hide the error, the consequences would be severe.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Transparency is key.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Mark then sat down to write a recommendation for the Group CFO.'
+      en: 'If the accounts payable clerk had checked the invoice number, this error would not have happened.',
+      ar: 'ولو كان كاتب الحسابات الدائنة قد راجع رقم الفاتورة، لما وقع هذا الخطأ.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'He wrote, "If we separate the duties of invoice approval and payment processing, we will reduce the risk of this happening again.'
-    },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: '" He used the Second Conditional to describe a better future: "If we invested in optical character recognition (OCR) software, we would eliminate manual data entry errors almost entirely.'
+      en: 'This was a classic case of human error exacerbated by poor system controls.',
+      ar: 'كانت حالة نمطية من خطأ بشري ضاعفه ضعف ضوابط النظام.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" He added one line about the group\'s own structure: "If every office posted its own invoices to a single queue, we would see duplicates before they were paid.'
+      en: 'He realized that if the company had an automated system to flag duplicate invoice numbers, the software would reject the second entry automatically.',
+      ar: 'وأدرك أنه لو كان للشركة نظام آلي يرصد أرقام الفواتير المكررة، لرفض البرنامج القيد الثاني تلقائيًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Mark called the clerk responsible.',
+      ar: 'فاتصل مارك بالكاتب المسؤول.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If we don\'t contact the vendor today," Mark explained, "we will lose leverage to get the money back.',
+      ar: 'وأوضح مارك: "إن لم نتصل بالمورّد اليوم، فقدنا القدرة على استعادة المبلغ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" He advised the clerk on the next steps.',
+      ar: '" ثم أرشد الكاتب إلى الخطوات التالية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If I were you, I would call their finance department immediately and ask for a refund.',
+      ar: '"لو كنت مكانك، لاتصلت بقسمهم المالي فورًا وطلبت استرداد المبلغ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Then, we must reverse the journal entry in our books to zero out the duplicate expense.',
+      ar: 'ثم علينا عكس قيد اليومية في دفاترنا لتصفير المصروف المزدوج.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" The clerk was worried about the consequences.',
+      ar: '" وكان الكاتب قلقًا من النتائج.'
+    },
+    { who: 'narr', face: 'thinking', en: '"Will I be dismissed?', ar: '"هل سأُفصل؟' },
+    { who: 'narr', face: 'neutral', en: 'Mark shook his head.', ar: 'فهزّ مارك رأسه نافيًا.' },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '"No, but if you hide the error, the consequences would be severe.',
+      ar: '"لا، لكن لو أخفيت الخطأ، لكانت النتائج وخيمة.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Transparency is key.', ar: 'فالشفافية هي الأساس.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Mark then sat down to write a recommendation for the Group CFO.',
+      ar: 'ثم جلس مارك ليكتب توصية للمدير المالي للمجموعة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: '" The error was eventually rectified, the money was refunded, and the company learned a valuable lesson.'
+      en: 'He wrote, "If we separate the duties of invoice approval and payment processing, we will reduce the risk of this happening again.',
+      ar: 'فكتب: "إن فصلنا بين مهمة اعتماد الفواتير ومهمة تنفيذ المدفوعات، قلّلنا خطر تكرار هذا.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'An error is a mistake, but failing to correct it is a failure of integrity.'
+      en: '" He used the Second Conditional to describe a better future: "If we invested in optical character recognition (OCR) software, we would eliminate manual data entry errors almost entirely.',
+      ar: '" واستخدم الشرط غير الواقع ليصف مستقبلًا أفضل: "لو استثمرنا في برنامج للتعرف الضوئي على الحروف، لقضينا على أخطاء الإدخال اليدوي قضاءً شبه تام.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" He added one line about the group\'s own structure: "If every office posted its own invoices to a single queue, we would see duplicates before they were paid.',
+      ar: '" وأضاف سطرًا عن هيكل المجموعة نفسها: "لو رحّل كل مكتب فواتيره إلى قائمة واحدة، لرأينا المكرر قبل سداده.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '" The error was eventually rectified, the money was refunded, and the company learned a valuable lesson.',
+      ar: '" وصُحّح الخطأ في النهاية، واسترد المبلغ، وتعلمت الشركة درسًا ثمينًا.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'An error is a mistake, but failing to correct it is a failure of integrity.',
+      ar: 'فالخطأ زلة، أما التخلّف عن تصحيحه فهو خلل في النزاهة.'
     }
   ]
 });
@@ -277,81 +334,163 @@ EFA.scene('u6-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Reconciliation Anomaly', cam: { shot: 'mid' } },
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'The Reconciliation Anomaly',
+      cam: { shot: 'mid' },
+      ar: 'الفرق الشاذ في التسوية'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'Context:Two Senior Accountants, Mark and Linda, are analyzing a serious error discovered in the monthly accounts.'
+      en: 'Context:Two Senior Accountants, Mark and Linda, are analyzing a serious error discovered in the monthly accounts.',
+      ar: 'السياق: محاسبان أولان، مارك وليندا، يحللان خطأً خطيرًا اكتُشف في حسابات الشهر.'
     },
-    { who: 'narr', face: 'thinking', en: '"Linda, have you seen the bank reconciliation report?' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"Linda, have you seen the bank reconciliation report?',
+      ar: '"ليندا، هل رأيت تقرير التسوية البنكية؟'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'I found a discrepancy of EUR 5,000 between the ledger and the bank statement.'
+      en: 'I found a discrepancy of EUR 5,000 between the ledger and the bank statement.',
+      ar: 'وجدت فرقًا قدره EUR 5,000 بين دفتر الأستاذ وكشف الحساب البنكي.'
     },
-    { who: 'narr', face: 'neutral', en: '"That is significant.' },
-    { who: 'narr', face: 'thinking', en: 'Do you know what caused it?' },
-    { who: 'narr', face: 'neutral', en: '"I suspect it’s a duplicate payment.' },
-    { who: 'narr', face: 'neutral', en: 'I was tracing the transactions this morning.' },
-    { who: 'narr', face: 'neutral', en: 'It looks like we paid the cleaning company twice.' },
-    { who: 'narr', face: 'neutral', en: 'Once by cheque, and once by wire transfer.' },
+    { who: 'narr', face: 'neutral', en: '"That is significant.', ar: '"هذا فرق كبير.' },
+    { who: 'narr', face: 'thinking', en: 'Do you know what caused it?', ar: 'هل تعرف سببه؟' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If we had segregation of duties, this wouldn’t have happened.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'One person authorized the payment and the same person processed it.'
+      en: '"I suspect it’s a duplicate payment.',
+      ar: '"أرجّح أنه دفعة مزدوجة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If I were the CFO, I would implement a mandatory second signature for all payments over EUR 1,000 immediately.'
-    },
-    { who: 'narr', face: 'thinking', en: 'So, what are the consequences now?' },
-    { who: 'narr', face: 'neutral', en: '"Well, looking at the First Conditional...' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'if we don’t contact the bank today, we will lose the money.'
+      en: 'I was tracing the transactions this morning.',
+      ar: 'كنت أتتبع العمليات هذا الصباح.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The wire transfer is already gone, and it crossed a border.'
+      en: 'It looks like we paid the cleaning company twice.',
+      ar: 'ويبدو أننا سددنا لشركة التنظيف مرتين.'
     },
-    { who: 'narr', face: 'neutral', en: 'But if the vendor is honest, they will return the funds.' },
-    { who: 'narr', face: 'thinking', en: '"And if they refuse to return it?' },
-    { who: 'narr', face: 'thinking', en: 'What would we do then?' },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"If they refused, we would have to take legal action, in their jurisdiction rather than ours.'
+      en: 'Once by cheque, and once by wire transfer.',
+      ar: 'مرة بشيك ومرة بحوالة بنكية.'
     },
-    { who: 'narr', face: 'neutral', en: 'But that would be expensive.' },
-    { who: 'narr', face: 'neutral', en: 'I also found an omission.' },
-    { who: 'narr', face: 'neutral', en: 'The bank fees for the wire transfer were not recorded.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If we don’t record those fees, our expenses will be understated.'
+      en: 'If we had segregation of duties, this wouldn’t have happened.',
+      ar: 'ولو كان لدينا فصل بين المهام، لما وقع هذا.'
     },
-    { who: 'narr', face: 'neutral', en: 'You need to rectify the entries.' },
-    { who: 'narr', face: 'neutral', en: 'Reverse the duplicate journal entry first.' },
-    { who: 'narr', face: 'worried', en: 'Then, investigate why the internal controls failed.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'One person authorized the payment and the same person processed it.',
+      ar: 'فقد أذن بالدفعة شخص واحد ونفّذها الشخص نفسه.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If I were the CFO, I would implement a mandatory second signature for all payments over EUR 1,000 immediately.',
+      ar: 'ولو كنت المدير المالي، لألزمت بتوقيع ثانٍ لكل دفعة تتجاوز EUR 1,000 على الفور.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'So, what are the consequences now?',
+      ar: 'إذًا، ما النتائج الآن؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Well, looking at the First Conditional...',
+      ar: '"بالنظر إلى الشرط الواقع...'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'if we don’t contact the bank today, we will lose the money.',
+      ar: 'إن لم نتصل بالبنك اليوم، فقدنا المبلغ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The wire transfer is already gone, and it crossed a border.',
+      ar: 'فالحوالة قد خرجت بالفعل، وعبرت حدودًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'But if the vendor is honest, they will return the funds.',
+      ar: 'لكن إن كان المورّد أمينًا، أعاد المبلغ.'
+    },
+    { who: 'narr', face: 'thinking', en: '"And if they refuse to return it?', ar: '"وإن رفض إعادته؟' },
+    { who: 'narr', face: 'thinking', en: 'What would we do then?', ar: 'فماذا كنا نفعل؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If they refused, we would have to take legal action, in their jurisdiction rather than ours.',
+      ar: '"لو رفضوا، لاضطررنا إلى اتخاذ إجراء قانوني في نطاق قضائهم لا قضائنا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'But that would be expensive.',
+      ar: 'لكن ذلك كان سيكون مكلفًا.'
+    },
+    { who: 'narr', face: 'neutral', en: 'I also found an omission.', ar: 'ووجدت أيضًا إسقاطًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The bank fees for the wire transfer were not recorded.',
+      ar: 'فرسوم البنك على الحوالة لم تُسجَّل.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If we don’t record those fees, our expenses will be understated.',
+      ar: 'وإن لم نسجّل تلك الرسوم، كانت مصروفاتنا أقل من حقيقتها.'
+    },
+    { who: 'narr', face: 'neutral', en: 'You need to rectify the entries.', ar: 'عليك تصحيح القيود.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Reverse the duplicate journal entry first.',
+      ar: 'اعكس قيد اليومية المزدوج أولًا.'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If we find that this was intentional fraud rather than just an error, we will have to report it to the authorities.'
+      en: 'Then, investigate why the internal controls failed.',
+      ar: 'ثم حقق في سبب فشل الرقابة الداخلية.'
     },
-    { who: 'narr', face: 'worried', en: 'But let’s hope it’s just a mistake.' },
-    { who: 'narr', face: 'neutral', en: '"I’m investigating it now.' },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'If we find that this was intentional fraud rather than just an error, we will have to report it to the authorities.',
+      ar: 'فإن تبيّن أن هذا غش مقصود لا مجرد خطأ، لزِمنا إبلاغ الجهات المختصة.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'But let’s hope it’s just a mistake.',
+      ar: 'لكن لنرجُ أن يكون مجرد خطأ.'
+    },
+    { who: 'narr', face: 'neutral', en: '"I’m investigating it now.', ar: '"أنا أحقق فيه الآن.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If I find evidence of fraud, I will report it to you immediately.'
+      en: 'If I find evidence of fraud, I will report it to you immediately.',
+      ar: 'فإن وجدت دليلًا على الغش، أبلغتك فورًا.'
     }
   ]
 });
@@ -359,45 +498,68 @@ EFA.scene('u6-extension-c5', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Payroll Audit at the Toronto Plant', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Northwind Group is integrating the payroll of its Toronto plant into the group system.'
-    },
-    { who: 'narr', face: 'neutral', en: 'You are auditing the payroll records.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'You have discovered a "ghost employee" scheme—salaries are being paid to workers who do not exist.'
-    },
-    { who: 'narr', face: 'neutral', en: 'This is a serious fraud.' },
-    { who: 'narr', face: 'neutral', en: 'You need to discuss the consequences.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"If we catch the person responsible, they will be dismissed" (First Conditional - Real).'
+      face: 'warm',
+      en: 'The Payroll Audit at the Toronto Plant',
+      cam: { shot: 'mid' },
+      ar: 'تدقيق الرواتب في مصنع تورونتو'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You also need to propose hypothetical solutions to improve internal controls.'
+      en: 'Northwind Group is integrating the payroll of its Toronto plant into the group system.',
+      ar: 'تدمج مجموعة نورثويند رواتب مصنعها في تورونتو في نظام المجموعة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"If we had a single group identity register, this would not happen" (Second Conditional - Hypothetical/Advice).'
+      en: 'You are auditing the payroll records.',
+      ar: 'وأنت تدقق سجلات الرواتب.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You have discovered a "ghost employee" scheme—salaries are being paid to workers who do not exist.',
+      ar: 'وقد اكتشفت مخطط "الموظفين الوهميين" — إذ تُدفع رواتب لعاملين غير موجودين.'
+    },
+    { who: 'narr', face: 'neutral', en: 'This is a serious fraud.', ar: 'وهذا غش خطير.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to discuss the consequences.',
+      ar: 'وعليك أن تناقش النتائج.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If we catch the person responsible, they will be dismissed" (First Conditional - Real).',
+      ar: '"إن أمسكنا بالمسؤول، فُصل" (شرط واقع).'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You also need to propose hypothetical solutions to improve internal controls.',
+      ar: 'وعليك كذلك أن تقترح حلولًا مفترضة لتحسين الرقابة الداخلية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If we had a single group identity register, this would not happen" (Second Conditional - Hypothetical/Advice).',
+      ar: '"لو كان لدينا سجل هوية واحد للمجموعة، لما وقع هذا" (شرط غير واقع: افتراض أو نصيحة).'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'You must explain the discrepancy to the Group CFO without accusing anyone until you have proof.'
+      en: 'You must explain the discrepancy to the Group CFO without accusing anyone until you have proof.',
+      ar: 'وعليك أن توضح الفرق للمدير المالي للمجموعة دون أن تتهم أحدًا قبل أن يكون الدليل بيدك.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You need to recommend segregation of duties to ensure the person recording the names is not the same person authorizing the payments, and to decide whether the control should sit in Toronto or in Kraków.'
+      en: 'You need to recommend segregation of duties to ensure the person recording the names is not the same person authorizing the payments, and to decide whether the control should sit in Toronto or in Kraków.',
+      ar: 'وعليك أن توصي بالفصل بين المهام حتى لا يكون من يسجّل الأسماء هو من يأذن بالمدفوعات، وأن تقرر هل يكون موضع هذا الضابط في تورونتو أم في كراكوف.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

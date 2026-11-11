@@ -24,25 +24,59 @@ EFA.page('u5-s09-listening-1', {
       instruction: 'Comprehension Questions:',
       playable: [
         {
-          t: 'Colleague 1: "We need to schedule the payment run early this week.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'We need to schedule the payment run early this week. Is 3 PM on Wednesday too late?',
+          role: 'spk:Colleague 1',
+          who: 'Colleague 1',
+          _key: 'colleague1'
         },
-        { t: 'Is 3 PM on Wednesday too late?', role: 'narrator', _key: 'narr' },
-        { t: 'Colleague 2: "Wednesday at 3 PM is fine.', role: 'narrator', _key: 'narr' },
-        { t: 'I am going to reconcile the bank statements first.', role: 'narrator', _key: 'narr' },
-        { t: 'Then, I will prioritize the urgent supplier payments.', role: 'narrator', _key: 'narr' },
-        { t: 'Are we going to delay the utilities until Friday?', role: 'narrator', _key: 'narr' },
         {
-          t: 'Colleague 1: "No, we are paying the utilities on Thursday morning.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'Wednesday at 3 PM is fine. I am going to reconcile the bank statements first. Then, I will prioritize the urgent supplier payments. Are we going to delay the utilities until Friday?',
+          role: 'spk:Colleague 2',
+          who: 'Colleague 2',
+          _key: 'colleague2'
         },
-        { t: 'That is a fixed arrangement.', role: 'narrator', _key: 'narr' }
+        {
+          t: 'No, we are paying the utilities on Thursday morning. That is a fixed arrangement.',
+          role: 'spk:Colleague 1',
+          who: 'Colleague 1',
+          _key: 'colleague1'
+        }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u5-listening-1-c1',
-      passage: '<p><b>Context.</b> Two colleagues are discussing the schedule for the weekly payment run.</p><div class="script"><p>Colleague 1: "We need to schedule the payment run early this week. Is 3 PM on Wednesday too late?"</p><p>Colleague 2: "Wednesday at 3 PM is fine. I am going to reconcile the bank statements first. Then, I will prioritize the urgent supplier payments. Are we going to delay the utilities until Friday?"</p><p>Colleague 1: "No, we are paying the utilities on Thursday morning. That is a fixed arrangement."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> Two colleagues are discussing the schedule for the weekly payment run.',
+            speak: false
+          },
+          {
+            h: 'Colleague 1: "We need to schedule the payment run early this week. Is 3 PM on Wednesday too late?"',
+            say: 'We need to schedule the payment run early this week. Is 3 PM on Wednesday too late?',
+            role: 'spk:Colleague 1',
+            who: 'Colleague 1'
+          },
+          {
+            h: 'Colleague 2: "Wednesday at 3 PM is fine. I am going to reconcile the bank statements first. Then, I will prioritize the urgent supplier payments. Are we going to delay the utilities until Friday?"',
+            say: 'Wednesday at 3 PM is fine. I am going to reconcile the bank statements first. Then, I will prioritize the urgent supplier payments. Are we going to delay the utilities until Friday?',
+            role: 'spk:Colleague 2',
+            who: 'Colleague 2'
+          },
+          {
+            h: 'Colleague 1: "No, we are paying the utilities on Thursday morning. That is a fixed arrangement."',
+            say: 'No, we are paying the utilities on Thursday morning. That is a fixed arrangement.',
+            role: 'spk:Colleague 1',
+            who: 'Colleague 1'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u5-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'payment-run',
         caption: 'Listening · Passage 1: Scheduling the Payment Run (Functional)'
@@ -137,7 +171,7 @@ EFA.page('u5-s09-listening-1', {
           ]
         },
         {
-          q: '5. What did Colleague 2 suggest delaying?',
+          q: '4. What did Colleague 2 suggest delaying?',
           evidence: 'Are we going to delay the utilities until Friday?',
           options: [
             {

@@ -89,7 +89,8 @@ EFA.page('u10-s02-vocab-match', {
         a: 'To state something clearly and forcefully. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
-      visual: { spot: 'reporting', caption: 'Asserted — one of the words on this list.' }
+      visual: { spot: 'reporting', caption: 'Asserted — one of the words on this list.' },
+      brief: 'The unit\'s core terms, matched to their definitions. Get these wrong now rather than in the reading — every later screen assumes them.'
     },
     {
       id: 'c2',

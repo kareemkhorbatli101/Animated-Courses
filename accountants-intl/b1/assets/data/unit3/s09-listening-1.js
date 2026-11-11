@@ -36,9 +36,35 @@ EFA.page('u3-s09-listening-1', {
           _key: 'custodian'
         }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u3-listening-1-c1',
-      passage: '<p><b>Context.</b> An employee asks the petty cash custodian for money back.</p><div class="script"><p>Employee: "Could you please process my reimbursement for the printer toner? It was an out-of-pocket expense of EUR 65. I have the original receipt here. I also need to request authorization for a EUR 100 payment for new courier services. Would you mind calling the Financial Controller for approval?"</p><p>Custodian: "Can I see the receipt first? Thank you. I can offer to process the toner payment immediately. However, for the EUR 100 courier service, you must complete a purchase voucher first."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> An employee asks the petty cash custodian for money back.',
+            speak: false
+          },
+          {
+            h: 'Employee: "Could you please process my reimbursement for the printer toner? It was an out-of-pocket expense of EUR 65. I have the original receipt here. I also need to request authorization for a EUR 100 payment for new courier services. Would you mind calling the Financial Controller for approval?"',
+            say: 'Could you please process my reimbursement for the printer toner? It was an out-of-pocket expense of EUR 65. I have the original receipt here. I also need to request authorization for a EUR 100 payment for new courier services. Would you mind calling the Financial Controller for approval?',
+            role: 'spk:Employee',
+            who: 'Employee'
+          },
+          {
+            h: 'Custodian: "Can I see the receipt first? Thank you. I can offer to process the toner payment immediately. However, for the EUR 100 courier service, you must complete a purchase voucher first."',
+            say: 'Can I see the receipt first? Thank you. I can offer to process the toner payment immediately. However, for the EUR 100 courier service, you must complete a purchase voucher first.',
+            role: 'spk:Custodian',
+            who: 'Custodian'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u3-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'receipt', caption: 'Listening · Passage 1: Requesting Reimbursement (Functional)' }
     },
     {

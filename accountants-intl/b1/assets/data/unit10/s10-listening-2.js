@@ -39,9 +39,26 @@ EFA.page('u10-s10-listening-2', {
           _key: 'narr'
         }
       ],
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       scene: 'u10-listening-2-c1',
-      passage: '<p><b>Context.</b> A Partner from an external audit firm is giving feedback.</p><div class="script"><p>"Our preliminary review shows that the internal controls are generally strong. However, we must mandate that you change the inventory valuation method to comply with IFRS. We will not issue a clean opinion unless this change is made immediately."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A Partner from an external audit firm is giving feedback.',
+            speak: false
+          },
+          {
+            h: '"Our preliminary review shows that the internal controls are generally strong. However, we must mandate that you change the inventory valuation method to comply with IFRS. We will not issue a clean opinion unless this change is made immediately."',
+            say: 'Our preliminary review shows that the internal controls are generally strong. However, we must mandate that you change the inventory valuation method to comply with IFRS. We will not issue a clean opinion unless this change is made immediately.'
+          }
+        ],
+        say: { scene: 'u10-listening-2-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'stock', caption: 'Listening · Passage 2: Auditor’s Findings (Operating Context)' }
     }
   ],

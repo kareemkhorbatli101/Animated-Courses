@@ -1,4 +1,4 @@
-/* Unit 5 — the unit's own headline facts. The Can-Do list is the book's, word for word. */
+/* Unit 5 — the unit's own headline facts. The Can-Do list is the book's, word for word, less his Word checkbox. */
 window.EFA = window.EFA || {};
 EFA.unitMeta = EFA.unitMeta || {};
 EFA.unitMeta.unit5 = {
@@ -9,11 +9,11 @@ EFA.unitMeta.unit5 = {
   grammar: 'Future Forms (will, going to, present continuous for arrangements).',
   blurb: 'Scheduling payments, chasing debts, managing collections, and cash flow planning across currencies.',
   canDo: [
-    'I can define and explain Accounts Payable and Accounts Receivable. [ ]',
-    'I can discuss when invoices are due and schedule payment runs. [ ]',
-    'I can use Will to make predictions and offers. [ ]',
-    'I can use Going To for plans and intentions. [ ]',
-    'I can use the Present Continuous to discuss fixed professional arrangements. [ ]'
+    'I can define and explain Accounts Payable and Accounts Receivable.',
+    'I can discuss when invoices are due and schedule payment runs.',
+    'I can use Will to make predictions and offers.',
+    'I can use Going To for plans and intentions.',
+    'I can use the Present Continuous to discuss fixed professional arrangements.'
   ],
-  cast: ['Marta', 'Ryan', 'Mr Farouk', 'Priya']
+  cast: ['Client', 'Colleague 1', 'Colleague 2', 'Collector', 'Controller', 'Manager']
 };

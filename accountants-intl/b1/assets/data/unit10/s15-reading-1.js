@@ -42,7 +42,8 @@ EFA.page('u10-s15-reading-1', {
           'What are the risks of misreporting a financial figure or a management decision?'
         ]
       },
-      model: 'For anything that has to be on the record — a decision, an instruction, or a figure somebody will rely on later. A conversation is fine for a question; a memo is what you write when the answer matters.'
+      model: 'For anything that has to be on the record — a decision, an instruction, or a figure somebody will rely on later. A conversation is fine for a question; a memo is what you write when the answer matters.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -73,8 +74,17 @@ EFA.page('u10-s15-reading-1', {
         }
       ],
       scene: 'u10-reading-1-c2',
-      passage: '<p>Q4 Financial Report: Executive Summary</p><p>Overall performance for Q4 met expectations. The Financial Controller asserted that cost control measures had been highly effective and had improved the net profit ratio to 12%. She clarified that while operating expenses were slightly higher than the forecasted figure, the increase was due to one-time IT investments. The Board concluded that the current strategy was sound and mandated no immediate changes to the capital expenditure plan.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Q4 Financial Report: Executive Summary' },
+          {
+            h: 'Overall performance for Q4 met expectations. The Financial Controller asserted that cost control measures had been highly effective and had improved the net profit ratio to 12%. She clarified that while operating expenses were slightly higher than the forecasted figure, the increase was due to one-time IT investments. The Board concluded that the current strategy was sound and mandated no immediate changes to the capital expenditure plan.'
+          }
+        ],
+        say: { scene: 'u10-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'source-document',
         caption: 'Reading · Reading Passage 1: Executive Summary',

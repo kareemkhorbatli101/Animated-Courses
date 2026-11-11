@@ -23,7 +23,7 @@ EFA.page('u7-s16-reading-2', {
       title: 'Reading Passage 2: Adverse Variance Explanation',
       instruction: 'Read the memo explaining an adverse variance.',
       playable: [
-        { t: 'Adverse Variance - Utilities', role: 'narrator', _key: 'narr' },
+        { t: 'MEMORANDUM: Adverse Variance - Utilities', role: 'narrator', _key: 'narr' },
         {
           t: 'The utilities expense is EUR 2,500 more than the budgeted amount.',
           role: 'narrator',
@@ -50,9 +50,20 @@ EFA.page('u7-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u7-reading-2-c1',
-      passage: '<p>MEMORANDUM: Adverse Variance - Utilities</p><p>The utilities expense is EUR 2,500 more than the budgeted amount. This is the second largest adverse variance on the P&amp;L this month. The cost of electricity was higher than anticipated due to an extremely cold winter in Kraków, which was colder than the weather last year. We believe that this variance is not as significant as the payroll variance, which is the largest adverse item. However, we must find ways to be more efficient and less wasteful with our energy usage.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'MEMORANDUM: Adverse Variance - Utilities' },
+          {
+            h: 'The utilities expense is EUR 2,500 more than the budgeted amount. This is the second largest adverse variance on the P&amp;L this month. The cost of electricity was higher than anticipated due to an extremely cold winter in Kraków, which was colder than the weather last year. We believe that this variance is not as significant as the payroll variance, which is the largest adverse item. However, we must find ways to be more efficient and less wasteful with our energy usage.',
+            say: 'The utilities expense is EUR 2,500 more than the budgeted amount. This is the second largest adverse variance on the P&L this month. The cost of electricity was higher than anticipated due to an extremely cold winter in Kraków, which was colder than the weather last year. We believe that this variance is not as significant as the payroll variance, which is the largest adverse item. However, we must find ways to be more efficient and less wasteful with our energy usage.'
+          }
+        ],
+        say: { scene: 'u7-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'variance', caption: 'Reading · Reading Passage 2: Adverse Variance Explanation' }
     },
     {

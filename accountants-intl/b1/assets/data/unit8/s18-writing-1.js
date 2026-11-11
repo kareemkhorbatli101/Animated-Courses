@@ -30,6 +30,7 @@ EFA.page('u8-s18-writing-1', {
         '3': '<b>must be approved</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> The software generates the trial balance automatically. (Present Passive) -> The trial balance <u>is generated</u> automatically.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Passive Voice)' }
     },
     {

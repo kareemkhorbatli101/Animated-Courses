@@ -24,9 +24,13 @@ EFA.page('u6-s05-vocab-build', {
       instruction: 'Match the verb on the left with the noun on the right to create common phrases.',
       html: '<p>Example: "If we detect a fraud, we must immediately reverse a journal entry."</p>',
       playable: [
-        { t: '"If we detect a fraud, we must immediately reverse a journal entry.', role: 'narrator' }
+        {
+          t: 'Example: "If we detect a fraud, we must immediately reverse a journal entry.',
+          role: 'narrator'
+        }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'journal', caption: 'Vocabulary · Collocations for Financial Reporting' }
     },
     {
@@ -120,14 +124,24 @@ EFA.page('u6-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 6 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Related Term</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Investigate</td><td>Investigation</td><td>Investigative</td><td>"The investigation is ongoing."</td></tr><tr><td>Reconcile</td><td>_________</td><td>Reconcilable</td><td>"The reconciliation is due by Friday."</td></tr><tr><td>Adjust</td><td>_________</td><td>Adjustable</td><td>"We need to make an adjustment to the figures."</td></tr><tr><td>Authorize</td><td>Authorization</td><td>_________</td><td>"Do you have the necessary authorization?"</td></tr><tr><td>Correct</td><td>Correction</td><td>_________</td><td>"The correction was made this morning."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'petty-voucher', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Reconcile &rarr; <b>Noun</b>: [[1]]</li><li>Adjust &rarr; <b>Noun</b>: [[2]]</li><li>Authorize &rarr; <b>Related Term</b>: [[3]]</li><li>Correct &rarr; <b>Related Term</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['reconciliation', 'reconciliation', 'Reconciliation'],
+        '2': ['adjustment', 'adjustment', 'Adjustment'],
+        '3': ['Authorized', 'authorized', 'Authorized'],
+        '4': ['Corrected', 'corrected', 'Corrected']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"The reconciliation is due by Friday."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"We need to make an adjustment to the figures."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"Do you have the necessary authorization?"&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The correction was made this morning."&rdquo;'
+      ],
+      visual: { spot: 'invoice', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

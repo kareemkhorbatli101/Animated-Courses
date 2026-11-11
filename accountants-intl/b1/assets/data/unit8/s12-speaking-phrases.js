@@ -25,6 +25,7 @@ EFA.page('u8-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Step-by-Step (Present Passive)</th><th>Emphasizing Necessity (Modal Passive)</th></tr></thead><tbody><tr><td>"The data is collected, then it is posted."</td><td>"The figures must be checked twice."</td></tr><tr><td>"The entries are made on the 15th of the month."</td><td>"The variance should be investigated immediately."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: {
         spot: 'variance',
         caption: 'Speaking · Functional Language: Sequential Procedures (Passive)'

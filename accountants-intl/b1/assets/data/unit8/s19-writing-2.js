@@ -37,6 +37,7 @@ EFA.page('u8-s19-writing-2', {
         '5': '<b>All adjusting entries are made at month-end.</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> The revenue was calculate incorrectly. -> <u>The revenue was calculated incorrectly.</u>',
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.',
       visual: { spot: 'invoice', caption: 'Writing · Writing Task 2: Correct the Mistakes (Grammar Focus)' }
     },
     {
@@ -96,7 +97,7 @@ EFA.page('u8-s19-writing-2', {
       source: 'book',
       title: 'Writing Task 3: Explaining a Delay (Internal Memo)',
       instruction: 'Focus: Use the Past Passive to explain the delay and the Present Continuous Passive (is being + P.P.) to describe the current action.',
-      html: '<p><b>Context.</b> Write an internal memo (80 words) to a colleague explaining why the closing was delayed and what is being done now.</p><p>The closing was delayed because an error was found in the receivables account. That issue has been resolved, and the adjusted trial balance is now being prepared. The final statements will be delivered to the Group CFO by 5 PM. Thank you for your patience."</p>',
+      html: '<p><b>Context.</b> Write an internal memo (80 words) to a colleague explaining why the closing was delayed and what is being done now.</p><p>The closing was delayed because an error was found in the receivables account. That issue has been resolved, and the adjusted trial balance is now being prepared. The final statements will be delivered to the Group CFO by 5 PM. Thank you for your patience."</p><ol><li>Example: "MEMORANDUM: Closing Delay</li></ol>',
       playable: [
         {
           t: 'The closing was delayed because an error was found in the receivables account.',

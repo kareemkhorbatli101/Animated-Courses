@@ -81,6 +81,7 @@ EFA.page('u6-s21-review', {
         a: 'Investigate. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.',
       visual: { spot: 'trial-balance', caption: 'Review · Vocabulary Quiz' }
     },
     {
@@ -165,7 +166,7 @@ EFA.page('u6-s21-review', {
       html: '<p>Style: Use the Second Conditional throughout for the hypothetical situation.</p>',
       playable: [
         {
-          t: 'Use the Second Conditional throughout for the hypothetical situation.',
+          t: 'Style: Use the Second Conditional throughout for the hypothetical situation.',
           role: 'narrator'
         }
       ],
@@ -204,15 +205,30 @@ EFA.page('u6-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can identify and explain common accounting errors and controls. [ ]' },
-        { t: 'I can use the First Conditional to discuss real future consequences. [ ]' },
-        {
-          t: 'I can use the Second Conditional to discuss hypothetical situations and give advice. [ ]'
-        },
-        { t: 'I can explain the importance of bank reconciliation. [ ]' },
-        { t: 'I can write a clear warning email using conditional structures. [ ]' }
+        { t: 'I can identify and explain common accounting errors and controls.' },
+        { t: 'I can use the First Conditional to discuss real future consequences.' },
+        { t: 'I can use the Second Conditional to discuss hypothetical situations and give advice.' },
+        { t: 'I can explain the importance of bank reconciliation.' },
+        { t: 'I can write a clear warning email using conditional structures.' }
       ],
       visual: { spot: 'reconcile', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c8',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 6 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        {
+          q: 'If accounting were fully automated, would human errors disappear? What is the most important internal control in your organization, and why? If you could implement one new software system to eliminate errors, what would it be and why?'
+        }
+      ],
+      model: 'If accounting were fully automated, human errors would not disappear — they would move. If somebody set up the rule wrongly, the system would repeat that error perfectly, every day, in every company. The most important control is still segregation of duties: if one person could both raise and approve a payment, no software would stop them.',
+      visual: { spot: 'balance', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

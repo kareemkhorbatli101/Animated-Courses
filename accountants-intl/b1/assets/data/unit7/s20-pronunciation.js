@@ -49,6 +49,7 @@ EFA.page('u7-s20-pronunciation', {
           why: 'Sig-ni-fi-cant — say it with the beat on <b>NI</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Comparison Terminology' }
     },
     {
@@ -88,31 +89,13 @@ EFA.page('u7-s20-pronunciation', {
       source: 'book',
       title: 'Intonation: Superlative Statements',
       instruction: 'Practice: Read these sentences:',
-      html: '<p><b>Context.</b> Use a strong, falling intonation at the end of a superlative statement to emphasize certainty and finality (since it is the absolute best or worst).</p><ol><li>"This is the most expensive cost we have." (↘)</li><li>"Q4 was the strongest quarter." (↘)</li><li>"The lowest margin was in the Singapore region." (↘)</li></ol>',
+      html: '<p><b>Context.</b> Use a strong, falling intonation at the end of a superlative statement to emphasize certainty and finality (since it is the absolute best or worst).</p>',
       playable: [],
       doneLabel: 'I have read this',
       visual: { spot: 'invoice', caption: 'Pronunciation · Intonation: Superlative Statements', cls: 'vis-sm' }
     },
     {
       id: 'c5',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 7 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Superlative Statements',
-      instruction: 'Practice: Read these sentences:',
-      html: '<p><b>Context.</b> Use a strong, falling intonation at the end of a superlative statement to emphasize certainty and finality (since it is the absolute best or worst).</p><ol><li>"This is the most expensive cost we have." (↘)</li><li>"Q4 was the strongest quarter." (↘)</li><li>"The lowest margin was in the Singapore region." (↘)</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'petty-voucher',
-        caption: 'Pronunciation · Intonation: Superlative Statements',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c6',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 7 · 7C',
@@ -125,10 +108,10 @@ EFA.page('u7-s20-pronunciation', {
         '"Q4 was the strongest quarter." (↘)',
         '"The lowest margin was in the Singapore region." (↘)'
       ],
-      visual: { spot: 'chart-of-accounts', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'petty-voucher', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c7',
+      id: 'c6',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 7 · 7D',
@@ -154,37 +137,6 @@ EFA.page('u7-s20-pronunciation', {
       doneLabel: 'I have read this',
       visual: {
         spot: 'budget',
-        caption: 'Pronunciation · Fluency Drill: Reporting to the Board',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c8',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 7 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Reporting to the Board',
-      instruction: 'Read the following report summary, maintaining a professional pace and emphasizing the comparative words.',
-      html: '<p>"Overall, the third quarter was stronger than the second, but Q1 still remains the best quarter to date. The most significant adverse variance is the admin expense, which is 18% higher than the budget. Our gross profit is better than the industry average, and this is the most encouraging figure we can share with you today."</p>',
-      playable: [
-        {
-          t: '"Overall, the third quarter was stronger than the second, but Q1 still remains the best quarter to date.',
-          role: 'narrator'
-        },
-        {
-          t: 'The most significant adverse variance is the admin expense, which is 18% higher than the budget.',
-          role: 'narrator'
-        },
-        {
-          t: 'Our gross profit is better than the industry average, and this is the most encouraging figure we can share with you today.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'credit',
         caption: 'Pronunciation · Fluency Drill: Reporting to the Board',
         cls: 'vis-sm'
       }

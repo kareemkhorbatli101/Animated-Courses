@@ -50,9 +50,18 @@ EFA.page('u5-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u5-reading-2-c1',
-      passage: '<p>Our Collections Strategy is designed to reduce the volume of past due invoices. When an invoice is 30 days past due, the AR team is going to send a formal email reminder. At 60 days, we will call the debtor to arrange a settlement. For 90-day outstanding invoices, we are scheduling a final notice that will suspend their credit. We are going to review the top debtors list weekly. This will help us to clear the account before it is transferred to an external agency.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Our Collections Strategy is designed to reduce the volume of past due invoices. When an invoice is 30 days past due, the AR team is going to send a formal email reminder. At 60 days, we will call the debtor to arrange a settlement. For 90-day outstanding invoices, we are scheduling a final notice that will suspend their credit. We are going to review the top debtors list weekly. This will help us to clear the account before it is transferred to an external agency.'
+          }
+        ],
+        say: { scene: 'u5-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'invoice', caption: 'Reading · Reading Passage 2: Collections Strategy' }
     },
     {
@@ -87,7 +96,7 @@ EFA.page('u5-s16-reading-2', {
           ]
         },
         {
-          q: '3. What will happen to the client\'s credit at 90 days?',
+          q: '2. What will happen to the client\'s credit at 90 days?',
           evidence: 'For 90-day outstanding invoices, we are scheduling a final notice that will suspend their credit.',
           options: [
             {
@@ -108,7 +117,7 @@ EFA.page('u5-s16-reading-2', {
           ]
         },
         {
-          q: '5. What is the goal before the account is transferred to an external agency?',
+          q: '3. What is the goal before the account is transferred to an external agency?',
           evidence: 'This will help us to clear the account before it is transferred to an external agency.',
           options: [
             {

@@ -37,6 +37,7 @@ EFA.page('u6-s18-writing-1', {
         '3b': '<b>would detect the error</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> I recommend that you reverse the journal entry. (SECOND CONDITIONAL - Advice) -> If I <u>were</u> you, I ____________________ the journal entry.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'journal', caption: 'Writing · Guided Writing: Paraphrasing (Conditionals)' }
     },
     {
@@ -78,7 +79,8 @@ EFA.page('u6-s18-writing-1', {
           'We can\'t detect the error because we don\'t have automated controls. (SECOND CONDITIONAL) -> If we ____________________ automated controls, we ____________________ the error.'
         ]
       },
-      visual: { spot: 'discrepancy', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'discrepancy', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Discrepancy', 'Reversal']
     },
     {
       id: 'c3',

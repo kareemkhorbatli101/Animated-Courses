@@ -54,6 +54,7 @@ EFA.page('u1-s07-grammar-practice', {
           why: '<b>is talking</b> — the time words in the sentence decide it, not the verb. Find them first, then choose.'
         }
       ],
+      brief: 'Guided practice: every item is decided by the rule above, so when you are unsure, go back up rather than guess.',
       visual: { spot: 'journal', caption: 'Grammar · Guided Practice' }
     }
   ],

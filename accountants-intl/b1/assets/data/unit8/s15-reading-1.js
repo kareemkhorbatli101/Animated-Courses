@@ -42,7 +42,8 @@ EFA.page('u8-s15-reading-1', {
           'How does a post-closing trial balance differ from the final trial balance?'
         ]
       },
-      model: 'The unadjusted trial balance is taken straight from the ledger. The adjusted one is produced after the accruals, deferrals and depreciation have been entered, so it is the one the statements are prepared from.'
+      model: 'The unadjusted trial balance is taken straight from the ledger. The adjusted one is produced after the accruals, deferrals and depreciation have been entered, so it is the one the statements are prepared from.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -78,8 +79,17 @@ EFA.page('u8-s15-reading-1', {
         }
       ],
       scene: 'u8-reading-1-c2',
-      passage: '<p>Section 4: Monthly Closing Procedures</p><p>The General Ledger must be reconciled by the 10th day of the following month. First, the bank and subsidiary ledgers are reconciled. Then, all accrual and deferral adjustments are entered into the system. Before the statements are generated, the account balances are verified by the senior analyst. Only after these steps are completed can the books be officially closed.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Section 4: Monthly Closing Procedures' },
+          {
+            h: 'The General Ledger must be reconciled by the 10th day of the following month. First, the bank and subsidiary ledgers are reconciled. Then, all accrual and deferral adjustments are entered into the system. Before the statements are generated, the account balances are verified by the senior analyst. Only after these steps are completed can the books be officially closed.'
+          }
+        ],
+        say: { scene: 'u8-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'ledger',
         caption: 'Reading · Reading Passage 1: Monthly Closing Checklist',

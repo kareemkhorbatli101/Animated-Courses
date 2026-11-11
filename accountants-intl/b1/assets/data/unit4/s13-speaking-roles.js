@@ -22,7 +22,7 @@ EFA.page('u4-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: The Ordering Request',
       instruction: 'Student A (Clerk): Report the stock status (use little and few). Request the order be placed (Could).',
-      html: '<p><b>Context.</b> Ask the Inventory Manager to place an order for low-stock consumables.</p><p>Student B (Manager): Ask about the quantities needed (How much/How many). Confirm the order (Can).</p>',
+      html: '<p><b>Context.</b> Ask the Inventory Manager to place an order for low-stock consumables.</p><p>Student B (Manager): Ask about the quantities needed (How much/How many). Confirm the order (Can).</p><ol><li>A: "We have very little ink and only a few pens left. Could we place an order today?"</li><li>B: "How much ink do you need? I can place the order for a lot of paper now."</li></ol>',
       playable: [
         {
           t: 'Student B (Manager): Ask about the quantities needed (How much/How many).',
@@ -31,6 +31,7 @@ EFA.page('u4-s13-speaking-roles', {
         { t: 'Confirm the order (Can).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'reporting', caption: 'Speaking · Role-Play 1: The Ordering Request' }
     },
     {
@@ -76,7 +77,7 @@ EFA.page('u4-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Stocktaking Discrepancy',
       instruction: 'Student A (Accountant): Report the variance politely (Could). State the difference (use a lot of or too much/many).',
-      html: '<p><b>Context.</b> You have found a variance between the physical count and the ledger record.</p><p>Student B (Clerk): Explain the likely cause (e.g., forgotten paperwork). Offer to perform a re-count (Can offer).</p>',
+      html: '<p><b>Context.</b> You have found a variance between the physical count and the ledger record.</p><p>Student B (Clerk): Explain the likely cause (e.g., forgotten paperwork). Offer to perform a re-count (Can offer).</p><ol><li>A: "Could you explain this variance? The physical count shows too many monitors compared to the ledger.</li><li>B: "I can offer to re-count the monitors. Maybe a few were not recorded when they were received."</li></ol>',
       playable: [
         { t: 'Student B (Clerk): Explain the likely cause (e.', role: 'narrator' },
         { t: ', forgotten paperwork).', role: 'narrator' },
@@ -117,7 +118,8 @@ EFA.page('u4-s13-speaking-roles', {
       visual: { spot: 'stock', caption: 'Take each card in turn.' },
       remember: [
         'Student B (Clerk): Explain the likely cause (e.g., forgotten paperwork). Offer to perform a re-count (Can offer).'
-      ]
+      ],
+      bank: ['Stocktaking', 'Variance']
     }
   ],
   prev: 's12-speaking-phrases',

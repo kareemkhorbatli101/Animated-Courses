@@ -49,6 +49,7 @@ EFA.page('u3-s20-pronunciation', {
           why: 'Cus-to-dian — say it with the beat on <b>TO</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: {
         spot: 'petty-voucher',
         caption: 'Pronunciation · Syllable Stress: Authorization and Approval'
@@ -78,7 +79,7 @@ EFA.page('u3-s20-pronunciation', {
       html: '<p>Explanation: When modals are used for emphasis (especially for a formal request), they are usually stressed. When they are used in a general, quick speech, they are often reduced.</p>',
       playable: [
         {
-          t: 'When modals are used for emphasis (especially for a formal request), they are usually stressed.',
+          t: 'Explanation: When modals are used for emphasis (especially for a formal request), they are usually stressed.',
           role: 'narrator'
         },
         {
@@ -94,29 +95,6 @@ EFA.page('u3-s20-pronunciation', {
       covers: ['7B'],
       ref: '7B',
       bookRef: 'Unit 3 · 7B',
-      type: 'study',
-      source: 'book',
-      title: 'Pronunciation of Modals',
-      instruction: 'Practice: Read the sentences, stressing the modal verbs (e.g., if you sound insistent).',
-      html: '<p>Explanation: When modals are used for emphasis (especially for a formal request), they are usually stressed. When they are used in a general, quick speech, they are often reduced.</p>',
-      playable: [
-        {
-          t: 'When modals are used for emphasis (especially for a formal request), they are usually stressed.',
-          role: 'narrator'
-        },
-        {
-          t: 'When they are used in a general, quick speech, they are often reduced.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'bookkeeping', caption: 'Pronunciation · Pronunciation of Modals', cls: 'vis-sm' }
-    },
-    {
-      id: 'c5',
-      covers: ['7B'],
-      ref: '7B',
-      bookRef: 'Unit 3 · 7B',
       type: 'phrasebank',
       title: 'Listen and repeat',
       instruction: 'Click a line to hear it, then read it aloud after the recording.',
@@ -125,43 +103,25 @@ EFA.page('u3-s20-pronunciation', {
       visual: { spot: 'credit-note', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
+      id: 'c5',
+      covers: ['7C'],
+      ref: '7C',
+      bookRef: 'Unit 3 · 7C',
+      type: 'study',
+      source: 'book',
+      title: 'Intonation: Polite Request vs. Command',
+      instruction: 'Practice: Read these lines:',
+      html: '<p><b>Context.</b> Use rising intonation for polite requests (Could/Would) and falling intonation for statements of ability or offers (Can/May).</p>',
+      playable: [],
+      doneLabel: 'I have read this',
+      visual: {
+        spot: 'reorder-point',
+        caption: 'Pronunciation · Intonation: Polite Request vs. Command',
+        cls: 'vis-sm'
+      }
+    },
+    {
       id: 'c6',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 3 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Polite Request vs. Command',
-      instruction: 'Practice: Read these lines:',
-      html: '<p><b>Context.</b> Use rising intonation for polite requests (Could/Would) and falling intonation for statements of ability or offers (Can/May).</p><ol><li>Polite Request (Rising): "Could you please verify the original receipt? (↗)"</li><li>Offer (Falling): "I can process your reimbursement today." (↘)</li><li>Formal Permission (Rising/Level): "May I request the cash float now? (↗)"</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'stock',
-        caption: 'Pronunciation · Intonation: Polite Request vs. Command',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c7',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 3 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Polite Request vs. Command',
-      instruction: 'Practice: Read these lines:',
-      html: '<p><b>Context.</b> Use rising intonation for polite requests (Could/Would) and falling intonation for statements of ability or offers (Can/May).</p><ol><li>Polite Request (Rising): "Could you please verify the original receipt? (↗)"</li><li>Offer (Falling): "I can process your reimbursement today." (↘)</li><li>Formal Permission (Rising/Level): "May I request the cash float now? (↗)"</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'receipt',
-        caption: 'Pronunciation · Intonation: Polite Request vs. Command',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c8',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 3 · 7C',
@@ -174,10 +134,10 @@ EFA.page('u3-s20-pronunciation', {
         'Offer (Falling): "I can process your reimbursement today." (↘)',
         'Formal Permission (Rising/Level): "May I request the cash float now? (↗)"'
       ],
-      visual: { spot: 'cash-box', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'stock', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c9',
+      id: 'c7',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 3 · 7D',
@@ -197,31 +157,6 @@ EFA.page('u3-s20-pronunciation', {
       doneLabel: 'I have read this',
       visual: {
         spot: 'debtor',
-        caption: 'Pronunciation · Fluency Drill: Office Supplies Order',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c10',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 3 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Office Supplies Order',
-      instruction: 'Read the following passage, maintaining a polite and professional tone, ensuring correct stress on the modals.',
-      html: '<p>"We need to order more office supplies. Could you check the inventory levels? I can offer to call the vendor immediately. Would you mind if I requested a 10% discount? I will also ask them if they could extend the payment terms. We must ensure we get the best deal."</p>',
-      playable: [
-        { t: '"We need to order more office supplies.', role: 'narrator' },
-        { t: 'Could you check the inventory levels?', role: 'narrator' },
-        { t: 'I can offer to call the vendor immediately.', role: 'narrator' },
-        { t: 'Would you mind if I requested a 10% discount?', role: 'narrator' },
-        { t: 'I will also ask them if they could extend the payment terms.', role: 'narrator' },
-        { t: 'We must ensure we get the best deal.', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'expense',
         caption: 'Pronunciation · Fluency Drill: Office Supplies Order',
         cls: 'vis-sm'
       }

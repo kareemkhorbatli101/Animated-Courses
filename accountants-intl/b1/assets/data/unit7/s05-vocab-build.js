@@ -24,9 +24,13 @@ EFA.page('u7-s05-vocab-build', {
       instruction: 'Match the verb on the left with the noun on the right to create common phrases.',
       html: '<p>Example: "Our primary goal is to generate revenue and exceed the budget."</p>',
       playable: [
-        { t: '"Our primary goal is to generate revenue and exceed the budget.', role: 'narrator' }
+        {
+          t: 'Example: "Our primary goal is to generate revenue and exceed the budget.',
+          role: 'narrator'
+        }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'budget', caption: 'Vocabulary · Collocations for Financial Reporting' }
     },
     {
@@ -116,13 +120,21 @@ EFA.page('u7-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 7 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Adjective and Verb',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Adjective</th><th>Verb</th><th>Noun</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Significant</td><td>Signify</td><td>Significance</td><td>"The significance of this variance is huge."</td></tr><tr><td>Comparative</td><td>_________</td><td>Comparison</td><td>"We are making a comparison with Q1."</td></tr><tr><td>Superior</td><td>_________</td><td>Superiority</td><td>"Our profit demonstrates market superiority."</td></tr><tr><td>High</td><td>Heighten</td><td>_________</td><td>"We need to address the height of the costs."</td></tr><tr><td>Favorable</td><td>Favor</td><td>_________</td><td>"The auditor expressed his favor for our controls."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Comparative &rarr; <b>Verb</b>: [[1]]</li><li>High &rarr; <b>Noun</b>: [[2]]</li><li>Favorable &rarr; <b>Noun</b>: [[3]]</li></ol></div>',
+      answers: {
+        '1': ['Compare', 'compare', 'Compare'],
+        '2': ['Height', 'height', 'Height'],
+        '3': ['Favor', 'favor', 'Favor']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"We are making a comparison with Q1."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"We need to address the height of the costs."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The auditor expressed his favor for our controls."&rdquo;'
+      ],
       visual: { spot: 'month-end', caption: 'Vocabulary · Word Building: Adjective and Verb', cls: 'vis-sm' }
     }
   ],

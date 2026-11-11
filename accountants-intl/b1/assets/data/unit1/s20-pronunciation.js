@@ -54,6 +54,7 @@ EFA.page('u1-s20-pronunciation', {
           why: 'Rec-on-cile — say it with the beat on <b>REC</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Accounting Terms' }
     },
     {
@@ -70,6 +71,32 @@ EFA.page('u1-s20-pronunciation', {
     },
     {
       id: 'c3',
+      covers: ['7B'],
+      ref: '7B',
+      bookRef: 'Unit 1 · 7B',
+      type: 'study',
+      source: 'book',
+      title: 'Numbers: Teens vs. Tens',
+      instruction: 'Explanation: This is a common error. 15 (fif-TEEN) sounds different from 50 (FIF-ty).',
+      html: '<ol><li>13 / 30</li><li>14 / 40</li><li>15 / 50</li><li>16 / 60</li><li>17 / 70</li><li>18 / 80</li><li>19 / 90</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      visual: { spot: 'accountant', caption: 'Pronunciation · Numbers: Teens vs. Tens', cls: 'vis-sm' }
+    },
+    {
+      id: 'c4',
+      covers: ['7B'],
+      ref: '7B',
+      bookRef: 'Unit 1 · 7B',
+      type: 'phrasebank',
+      title: 'Hear the pair',
+      instruction: 'The teen takes the stress on the ending and the ten takes it on the beginning. Play them one after the other until you can hear which is which, then say both aloud.',
+      role: 'narrator',
+      phrases: ['13', '30', '14', '40', '15', '50', '16', '60', '17', '70', '18', '80', '19', '90'],
+      visual: { spot: 'reorder-point', caption: 'Pronunciation · Hear the pair', cls: 'vis-sm' }
+    },
+    {
+      id: 'c5',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 1 · 7C',
@@ -89,44 +116,6 @@ EFA.page('u1-s20-pronunciation', {
       visual: { spot: 'receipt', caption: 'Pronunciation · Intonation: Lists', cls: 'vis-sm' }
     },
     {
-      id: 'c4',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 1 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Lists',
-      instruction: 'Practice:',
-      html: '<p><b>Context.</b> When reading a list of tasks, go UP on each item, and DOWN on the last one.</p><p>"I need to check the invoice (↗), call the bank (↗), and file the receipts (↘)."</p><p>"We manage assets (↗), liabilities (↗), and equity (↘)."</p>',
-      playable: [
-        {
-          t: '"I need to check the invoice (↗), call the bank (↗), and file the receipts (↘).',
-          role: 'narrator'
-        },
-        { t: '"We manage assets (↗), liabilities (↗), and equity (↘).', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'invoice', caption: 'Pronunciation · Intonation: Lists', cls: 'vis-sm' }
-    },
-    {
-      id: 'c5',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 1 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: The Rapid Check',
-      instruction: 'Read the following sequence as clearly as possible.',
-      html: '<p>"Invoice number one-five-six. Date: January 30th. Total amount: fifty euros and fifteen cents. Status: Paid."</p>',
-      playable: [
-        { t: '"Invoice number one-five-six.', role: 'narrator' },
-        { t: 'Date: January 30th.', role: 'narrator' },
-        { t: 'Total amount: fifty euros and fifteen cents.', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'accountant', caption: 'Pronunciation · Fluency Drill: The Rapid Check', cls: 'vis-sm' }
-    },
-    {
       id: 'c6',
       covers: ['7D'],
       ref: '7D',
@@ -142,7 +131,7 @@ EFA.page('u1-s20-pronunciation', {
         { t: 'Total amount: fifty euros and fifteen cents.', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'statement', caption: 'Pronunciation · Fluency Drill: The Rapid Check', cls: 'vis-sm' }
+      visual: { spot: 'invoice', caption: 'Pronunciation · Fluency Drill: The Rapid Check', cls: 'vis-sm' }
     }
   ],
   prev: 's19-writing-2',

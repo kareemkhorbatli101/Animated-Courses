@@ -31,6 +31,7 @@ EFA.page('u2-s09-listening-1', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       visual: { spot: 'receipt', caption: 'Listening · Passage 1: The Missing Receipt (Functional)' }
     },
     {

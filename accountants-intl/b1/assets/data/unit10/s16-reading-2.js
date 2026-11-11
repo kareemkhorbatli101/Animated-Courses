@@ -23,7 +23,7 @@ EFA.page('u10-s16-reading-2', {
       title: 'Reading Passage 2: Minutes of a Budget Meeting',
       instruction: 'Read the key section from the minutes of a strategic budget review meeting.',
       playable: [
-        { t: '2025 Capital Expenditure Review', role: 'narrator', _key: 'narr' },
+        { t: 'Topic: 2025 Capital Expenditure Review', role: 'narrator', _key: 'narr' },
         {
           t: 'Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.',
           role: 'spk:Group Finance Manager',
@@ -31,9 +31,23 @@ EFA.page('u10-s16-reading-2', {
           _key: 'groupfinancemanager'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u10-reading-2-c1',
-      passage: '<p>Date: October 25, 2024</p><p>Topic: 2025 Capital Expenditure Review</p><p>Group Finance Manager: Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Date: October 25, 2024' },
+          { h: 'Topic: 2025 Capital Expenditure Review' },
+          {
+            h: 'Group Finance Manager: Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.',
+            say: 'Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.',
+            role: 'spk:Group Finance Manager',
+            who: 'Group Finance Manager'
+          }
+        ],
+        say: { scene: 'u10-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'budget', caption: 'Reading · Reading Passage 2: Minutes of a Budget Meeting' }
     },
     {

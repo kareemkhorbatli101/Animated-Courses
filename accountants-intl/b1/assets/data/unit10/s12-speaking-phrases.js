@@ -25,6 +25,7 @@ EFA.page('u10-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Introducing Statements</th><th>Introducing Questions/Requests</th></tr></thead><tbody><tr><td>"The Group CFO stated that..."</td><td>"The Auditor asked if we could..."</td></tr><tr><td>"He emphasized that..."</td><td>"The Manager wanted to know when..."</td></tr><tr><td>"She confirmed that..."</td><td>"They inquired whether..."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'reporting', caption: 'Speaking · Functional Language: Introducing Reported Speech' }
     }
   ],

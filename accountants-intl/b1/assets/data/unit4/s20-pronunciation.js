@@ -44,6 +44,7 @@ EFA.page('u4-s20-pronunciation', {
           why: 'Ob-so-lete — say it with the beat on <b>OB</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'stock', caption: 'Pronunciation · Syllable Stress: Inventory Management' }
     },
     {
@@ -63,26 +64,26 @@ EFA.page('u4-s20-pronunciation', {
       covers: ['7B'],
       ref: '7B',
       bookRef: 'Unit 4 · 7B',
+      type: 'study',
+      source: 'book',
+      title: 'Linking Sounds: Quantifiers',
+      instruction: 'Explanation: When a quantifier ends in a consonant sound and the next word starts with a vowel, the words often link together (e.g., a lot of sounds like a loto-v).',
+      html: '<ol><li>a lot of /əˈlɒt əv/ inventory</li><li>a few old assets</li><li>not much ink</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      visual: { spot: 'balance', caption: 'Pronunciation · Linking Sounds: Quantifiers', cls: 'vis-sm' }
+    },
+    {
+      id: 'c4',
+      covers: ['7B'],
+      ref: '7B',
+      bookRef: 'Unit 4 · 7B',
       type: 'phrasebank',
       title: 'Listen and repeat',
       instruction: 'Click a line to hear it, then read it aloud after the recording.',
       role: 'narrator',
       phrases: ['a lot of /əˈlɒt əv/ inventory', 'a few old assets', 'not much ink', 'some equipment'],
-      visual: { spot: 'balance', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
-    },
-    {
-      id: 'c4',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 4 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Confirming Quantity',
-      instruction: 'Practice: Read these questions:',
-      html: '<p><b>Context.</b> Use rising intonation when asking a specific question about quantity (How much/many).</p><ol><li>"How much money is left in the budget? (↗)"</li><li>"How many boxes do you need to order? (↗)"</li><li>"Are there any new software licenses? (↗)"</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'budget', caption: 'Pronunciation · Intonation: Confirming Quantity', cls: 'vis-sm' }
+      visual: { spot: 'credit', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
       id: 'c5',
@@ -93,10 +94,10 @@ EFA.page('u4-s20-pronunciation', {
       source: 'book',
       title: 'Intonation: Confirming Quantity',
       instruction: 'Practice: Read these questions:',
-      html: '<p><b>Context.</b> Use rising intonation when asking a specific question about quantity (How much/many).</p><ol><li>"How much money is left in the budget? (↗)"</li><li>"How many boxes do you need to order? (↗)"</li><li>"Are there any new software licenses? (↗)"</li></ol>',
+      html: '<p><b>Context.</b> Use rising intonation when asking a specific question about quantity (How much/many).</p>',
       playable: [],
       doneLabel: 'I have read this',
-      visual: { spot: 'cash', caption: 'Pronunciation · Intonation: Confirming Quantity', cls: 'vis-sm' }
+      visual: { spot: 'budget', caption: 'Pronunciation · Intonation: Confirming Quantity', cls: 'vis-sm' }
     },
     {
       id: 'c6',
@@ -135,28 +136,6 @@ EFA.page('u4-s20-pronunciation', {
       ],
       doneLabel: 'I have read this',
       visual: { spot: 'variance', caption: 'Pronunciation · Fluency Drill: Stocktaking Report', cls: 'vis-sm' }
-    },
-    {
-      id: 'c8',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 4 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Stocktaking Report',
-      instruction: 'Read the following passage, maintaining a clear and analytical tone, ensuring correct use of linking and stress.',
-      html: '<p>"The stocktaking is finished. We found a few large variances. We have too many pens, but very little paper for the printers. This shows we have not much control over our consumables. We must do a lot of work to improve our records. How much toner did we use this quarter? I need to check that figure."</p>',
-      playable: [
-        { t: '"The stocktaking is finished.', role: 'narrator' },
-        { t: 'We found a few large variances.', role: 'narrator' },
-        { t: 'We have too many pens, but very little paper for the printers.', role: 'narrator' },
-        { t: 'This shows we have not much control over our consumables.', role: 'narrator' },
-        { t: 'We must do a lot of work to improve our records.', role: 'narrator' },
-        { t: 'How much toner did we use this quarter?', role: 'narrator' },
-        { t: 'I need to check that figure.', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'expense', caption: 'Pronunciation · Fluency Drill: Stocktaking Report', cls: 'vis-sm' }
     }
   ],
   prev: 's19-writing-2',

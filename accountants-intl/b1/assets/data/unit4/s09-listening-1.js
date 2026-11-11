@@ -36,9 +36,35 @@ EFA.page('u4-s09-listening-1', {
           _key: 'manager'
         }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u4-listening-1-c1',
-      passage: '<p><b>Context.</b> The inventory clerk calls the Purchasing Manager to report low levels.</p><div class="script"><p>Clerk: "Good morning. I\'m calling about our stock levels. We have a few reams of paper left, but very little ink. Also, we are out of stock of the large black binder clips. We need to place an order immediately. Do we have any budget left this month for equipment?"</p><p>Manager: "Yes, we have a lot of budget. How much ink do you need? And how many boxes of clips should I order?"</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> The inventory clerk calls the Purchasing Manager to report low levels.',
+            speak: false
+          },
+          {
+            h: 'Clerk: "Good morning. I\'m calling about our stock levels. We have a few reams of paper left, but very little ink. Also, we are out of stock of the large black binder clips. We need to place an order immediately. Do we have any budget left this month for equipment?"',
+            say: 'Good morning. I\'m calling about our stock levels. We have a few reams of paper left, but very little ink. Also, we are out of stock of the large black binder clips. We need to place an order immediately. Do we have any budget left this month for equipment?',
+            role: 'spk:Clerk',
+            who: 'Clerk'
+          },
+          {
+            h: 'Manager: "Yes, we have a lot of budget. How much ink do you need? And how many boxes of clips should I order?"',
+            say: 'Yes, we have a lot of budget. How much ink do you need? And how many boxes of clips should I order?',
+            role: 'spk:Manager',
+            who: 'Manager'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u4-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'budget', caption: 'Listening · Passage 1: Reporting Low Stock (Functional)' }
     },
     {

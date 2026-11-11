@@ -37,9 +37,23 @@ EFA.page('u9-s09-listening-1', {
           _key: 'narr'
         }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u9-listening-1-c1',
-      passage: '<p><b>Context.</b> A manager is discussing an employee\'s software skills.</p><div class="script"><p>"Ryan, your review is excellent. I see that you have used QuickBooks for over four years. That\'s great. However, you haven\'t had any experience with our new SAP ERP system yet. We have scheduled you for a training session next month. You have shown great aptitude in other areas, so we expect you will master it quickly."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: '<b>Context.</b> A manager is discussing an employee\'s software skills.', speak: false },
+          {
+            h: '"Ryan, your review is excellent. I see that you have used QuickBooks for over four years. That\'s great. However, you haven\'t had any experience with our new SAP ERP system yet. We have scheduled you for a training session next month. You have shown great aptitude in other areas, so we expect you will master it quickly."',
+            say: 'Ryan, your review is excellent. I see that you have used QuickBooks for over four years. That\'s great. However, you haven\'t had any experience with our new SAP ERP system yet. We have scheduled you for a training session next month. You have shown great aptitude in other areas, so we expect you will master it quickly.'
+          }
+        ],
+        say: { scene: 'u9-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'reporting', caption: 'Listening · Passage 1: Software Proficiency (Functional)' }
     },
     {

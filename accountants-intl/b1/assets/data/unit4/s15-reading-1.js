@@ -42,7 +42,8 @@ EFA.page('u4-s15-reading-1', {
           'What are the risks of holding too much stock?'
         ]
       },
-      model: 'So that somebody orders before the item runs out. The reorder point is the level at which we still have a few days\' supply left, which gives the supplier time to deliver.'
+      model: 'So that somebody orders before the item runs out. The reorder point is the level at which we still have a few days\' supply left, which gives the supplier time to deliver.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -87,8 +88,16 @@ EFA.page('u4-s15-reading-1', {
         }
       ],
       scene: 'u4-reading-1-c2',
-      passage: '<p>Consumables are defined as supplies that are used up quickly in the course of business operations. These are treated as an expense when purchased, not an asset. This category includes a lot of items: printer toner, a few boxes of paper clips, cleaning supplies, and general stationery. We must note that equipment is not a consumable. Since we use too much paper, we have set a low reorder point for it. Employees may request new supplies using the online form. We cannot have too little paper or ink, or productivity will fall.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Consumables are defined as supplies that are used up quickly in the course of business operations. These are treated as an expense when purchased, not an asset. This category includes a lot of items: printer toner, a few boxes of paper clips, cleaning supplies, and general stationery. We must note that equipment is not a consumable. Since we use too much paper, we have set a low reorder point for it. Employees may request new supplies using the online form. We cannot have too little paper or ink, or productivity will fall.'
+          }
+        ],
+        say: { scene: 'u4-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'reorder-point',
         caption: 'Reading · Reading Passage 1: The Definition of Consumables',

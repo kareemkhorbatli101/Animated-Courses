@@ -13,12 +13,14 @@ EFA.scene('u3-listening-1-c1', {
       who: 'employee',
       face: 'thinking',
       en: 'Could you please process my reimbursement for the printer toner? It was an out-of-pocket expense of EUR 65. I have the original receipt here. I also need to request authorization for a EUR 100 payment for new courier services. Would you mind calling the Financial Controller for approval?',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'هل يمكنك من فضلك معالجة استرداد قيمة حبر الطابعة؟ كان مصروفًا دفعته من مالي بقيمة EUR 65، والإيصال الأصلي معي هنا. وأحتاج كذلك إلى طلب تفويض لدفع EUR 100 لخدمات توصيل جديدة. هل تتفضل بالاتصال بالمراقب المالي للحصول على الموافقة؟'
     },
     {
       who: 'custodian',
       face: 'warm',
-      en: 'Can I see the receipt first? Thank you. I can offer to process the toner payment immediately. However, for the EUR 100 courier service, you must complete a purchase voucher first.'
+      en: 'Can I see the receipt first? Thank you. I can offer to process the toner payment immediately. However, for the EUR 100 courier service, you must complete a purchase voucher first.',
+      ar: 'هل أرى الإيصال أولًا؟ شكرًا لك. أستطيع أن أعالج دفعة الحبر فورًا. أما خدمة التوصيل بقيمة EUR 100 فعليك أن تكمل سند شراء أولًا.'
     }
   ]
 });
@@ -30,27 +32,32 @@ EFA.scene('u3-reading-1-c2', {
       who: 'narr',
       face: 'warm',
       en: 'The Finance Department set the petty cash float at a maximum limit of EUR 500, or the local equivalent in each office.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'حددت الإدارة المالية رصيد المصروفات النثرية بحد أقصى قدره EUR 500، أو ما يعادله بالعملة المحلية في كل مكتب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This imprest system ensures that cash is available for minor expenses, such as courier services and small office supplies.'
+      en: 'This imprest system ensures that cash is available for minor expenses, such as courier services and small office supplies.',
+      ar: 'ويضمن نظام السلفة المستديمة هذا توافر النقد للمصروفات الصغيرة، مثل خدمات التوصيل واللوازم المكتبية البسيطة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The custodian may request replenishment when the cash on hand falls to EUR 100.'
+      en: 'The custodian may request replenishment when the cash on hand falls to EUR 100.',
+      ar: 'ويجوز لأمين الصندوق أن يطلب تغذية الصندوق عندما يهبط النقد الموجود إلى EUR 100.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Could the custodian ensure that all payments are documented with a signed voucher?'
+      en: 'Could the custodian ensure that all payments are documented with a signed voucher?',
+      ar: 'هل يتأكد أمين الصندوق من أن كل المدفوعات موثّقة بسند موقّع؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The general cashier can only issue cash for replenishment if the total vouchers plus the cash on hand equals the float limit.'
+      en: 'The general cashier can only issue cash for replenishment if the total vouchers plus the cash on hand equals the float limit.',
+      ar: 'ولا يستطيع أمين الخزينة العام أن يصرف نقدًا للتغذية إلا إذا كان مجموع السندات مع النقد الموجود مساويًا لحد الرصيد.'
     }
   ]
 });
@@ -62,28 +69,38 @@ EFA.scene('u3-reading-2-c1', {
       who: 'narr',
       face: 'warm',
       en: 'All employees must submit a completed expense claim form for reimbursement of out-of-pocket expenditures.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'على جميع الموظفين تقديم نموذج مطالبة بالمصروفات مكتملًا لاسترداد ما دفعوه من مالهم.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Would employees please attach the original receipt to the claim?'
-    },
-    { who: 'narr', face: 'neutral', en: 'We cannot process photocopies.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'If the expense exceeds the small purchase limit of EUR 100, management must provide formal authorization.'
+      en: 'Would employees please attach the original receipt to the claim?',
+      ar: 'ونرجو من الموظفين إرفاق الإيصال الأصلي بالمطالبة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The finance team can offer to process reimbursement every Friday.'
+      en: 'We cannot process photocopies.',
+      ar: 'فنحن لا نستطيع معالجة الصور المنسوخة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If the expense exceeds the small purchase limit of EUR 100, management must provide formal authorization.',
+      ar: 'وإذا تجاوز المصروف حد الشراء الصغير وهو EUR 100، فعلى الإدارة أن تمنح تفويضًا رسميًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The finance team can offer to process reimbursement every Friday.',
+      ar: 'ويستطيع الفريق المالي أن يعالج الاسترداد كل يوم جمعة.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Could you ensure that the correct expense account code and the correct currency are used on the form?'
+      en: 'Could you ensure that the correct expense account code and the correct currency are used on the form?',
+      ar: 'هل تتأكد من استخدام رمز حساب المصروف الصحيح والعملة الصحيحة في النموذج؟'
     }
   ]
 });
@@ -95,29 +112,39 @@ EFA.scene('u3-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'When dealing with a vendor for office supplies, polite negotiation is possible.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'عند التعامل مع مورّد للوازم المكتبية، يمكن التفاوض بلباقة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You could request a small cash discount for immediate payment, but you must ensure the vendor issues a formal, itemized invoice.'
+      en: 'You could request a small cash discount for immediate payment, but you must ensure the vendor issues a formal, itemized invoice.',
+      ar: 'يمكنك أن تطلب خصمًا نقديًا صغيرًا مقابل السداد الفوري، لكن عليك أن تتأكد من إصدار المورّد فاتورة رسمية مفصّلة بالبنود.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Would they be willing to extend the payment terms to 30 days?'
+      en: 'Would they be willing to extend the payment terms to 30 days?',
+      ar: 'هل يقبلون تمديد مدة السداد إلى 30 يومًا؟'
     },
-    { who: 'narr', face: 'neutral', en: 'That is another option.' },
+    { who: 'narr', face: 'neutral', en: 'That is another option.', ar: 'هذا خيار آخر.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We must not accept informal receipts or verbal agreements.'
+      en: 'We must not accept informal receipts or verbal agreements.',
+      ar: 'وعلينا ألا نقبل إيصالات غير رسمية ولا اتفاقات شفهية.'
     },
-    { who: 'narr', face: 'neutral', en: 'The entire transaction must be documented.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The entire transaction must be documented.',
+      ar: 'فالعملية كلها يجب أن تكون موثّقة.'
+    },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Could we offer to sign a long-term supply contract to gain a better discount?'
+      en: 'Could we offer to sign a long-term supply contract to gain a better discount?',
+      ar: 'هل نعرض توقيع عقد توريد طويل الأمد للحصول على خصم أفضل؟'
     }
   ]
 });
@@ -129,117 +156,197 @@ EFA.scene('u3-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'In every small business, the management of small, daily expenses is a task that requires trust, accuracy, and a great deal of polite communication.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'في كل منشأة صغيرة، تُعد إدارة المصروفات اليومية الصغيرة مهمة تتطلب الثقة والدقة وقدرًا كبيرًا من التواصل اللبق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'At Meridian Design Studio in Toronto, the role of the Petty Cash Custodian belongs to James.'
+      en: 'At Meridian Design Studio in Toronto, the role of the Petty Cash Custodian belongs to James.',
+      ar: 'وفي استوديو ميريديان للتصميم في تورونتو، يتولى جيمس دور أمين صندوق المصروفات النثرية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He is responsible for a float of CAD 500, which is kept in a locked box in his drawer.'
+      en: 'He is responsible for a float of CAD 500, which is kept in a locked box in his drawer.',
+      ar: 'وهو مسؤول عن رصيد قدره CAD 500 يُحفظ في صندوق مقفل في درجه.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This money is strictly for low-value purchases like office stationery, taxi fares for client meetings, and emergency cleaning supplies.'
+      en: 'This money is strictly for low-value purchases like office stationery, taxi fares for client meetings, and emergency cleaning supplies.',
+      ar: 'وهذا المال مخصص حصرًا للمشتريات منخفضة القيمة مثل القرطاسية وأجور سيارات الأجرة للقاءات العملاء ولوازم التنظيف الطارئة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Although the amounts are small, the rules are strict, and James often finds himself having to diplomatically enforce company policy.'
+      en: 'Although the amounts are small, the rules are strict, and James often finds himself having to diplomatically enforce company policy.',
+      ar: 'ومع أن المبالغ صغيرة فالقواعد صارمة، وكثيرًا ما يجد جيمس نفسه مضطرًا إلى تطبيق سياسة الشركة بلباقة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'One Tuesday morning, a graphic designer named Lisa approached James\'s desk.'
+      en: 'One Tuesday morning, a graphic designer named Lisa approached James\'s desk.',
+      ar: 'صباح أحد أيام الثلاثاء، جاءت مصممة جرافيك تُسمى ليزا إلى مكتب جيمس.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She was in a rush and needed to buy special markers for a presentation.'
-    },
-    { who: 'narr', face: 'thinking', en: '"Can I take CAD 40 from the box?' },
-    { who: 'narr', face: 'neutral', en: '" she asked informally.' },
-    {
-      who: 'narr',
-      face: 'thinking',
-      en: 'James, adhering to the rules, replied, "Would you mind filling out a petty cash voucher first?'
-    },
-    { who: 'narr', face: 'neutral', en: 'I cannot issue cash without a signature.' },
-    { who: 'narr', face: 'warm', en: '" Lisa sighed but agreed.' },
-    { who: 'narr', face: 'thinking', en: '"Could you lend me a pen?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'James handed her a pen and watched as she filled in the date and the purpose of the expense.'
-    },
-    { who: 'narr', face: 'thinking', en: '"May I remind you to bring back the original receipt?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"If we don\'t have the receipt, I cannot process the reimbursement, and it will come out of your salary.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Later that afternoon, the Office Manager, Mrs Okonkwo, came to see James.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The float was running low because of a staff party the previous day.'
-    },
-    { who: 'narr', face: 'neutral', en: '"James, the cash level looks very low.' },
-    {
-      who: 'narr',
-      face: 'thinking',
-      en: 'Could you request a replenishment from the Financial Controller in Dublin?'
-    },
-    { who: 'narr', face: 'neutral', en: 'James checked his spreadsheet.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"I can offer to go to the bank this afternoon," he said, "but first I must reconcile the remaining cash with the vouchers I have collected.'
-    },
-    { who: 'narr', face: 'neutral', en: '" Mrs Okonkwo nodded.' },
-    { who: 'narr', face: 'thinking', en: 'Would you be able to get the cash before 4 PM?' },
-    { who: 'narr', face: 'neutral', en: 'We need to pay the window cleaner.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'James spent the next hour organizing the small scraps of paper.'
-    },
-    { who: 'narr', face: 'neutral', en: 'He matched every voucher to a receipt.' },
-    { who: 'narr', face: 'worried', en: 'He found a discrepancy of CAD 5.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'He realized he had forgotten to record a taxi fare he had authorized for himself earlier in the week.'
-    },
-    { who: 'narr', face: 'neutral', en: 'He quickly wrote up the voucher and attached his receipt.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Once the reconciliation was complete, he emailed the Controller\'s office.'
+      en: 'She was in a rush and needed to buy special markers for a presentation.',
+      ar: 'كانت على عجلة وتحتاج إلى شراء أقلام تخطيط خاصة لعرض تقديمي.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: '"May I have your authorization for a replenishment transfer?'
+      en: '"Can I take CAD 40 from the box?',
+      ar: '"هل آخذ CAD 40 من الصندوق؟'
     },
-    { who: 'narr', face: 'neutral', en: '" he asked politely.' },
+    { who: 'narr', face: 'neutral', en: '" she asked informally.', ar: '" سألت بصيغة غير رسمية.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'James, adhering to the rules, replied, "Would you mind filling out a petty cash voucher first?',
+      ar: 'فأجاب جيمس متقيدًا بالقواعد: "هل تتفضلين بتعبئة سند مصروفات نثرية أولًا؟'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Controller signed the form, ensuring that the office would continue to run smoothly for another week.'
+      en: 'I cannot issue cash without a signature.',
+      ar: 'لا أستطيع صرف نقد دون توقيع.'
     },
     {
       who: 'narr',
       face: 'warm',
-      en: 'The imprest system worked perfectly, as long as everyone followed the rules of request and authorization.'
+      en: '" Lisa sighed but agreed.',
+      ar: '" فتنفّست ليزا بضيق لكنها وافقت.'
+    },
+    { who: 'narr', face: 'thinking', en: '"Could you lend me a pen?', ar: '"هل تعيرني قلمًا؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'James handed her a pen and watched as she filled in the date and the purpose of the expense.',
+      ar: 'فأعطاها جيمس قلمًا وراقبها وهي تكتب التاريخ والغرض من المصروف.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"May I remind you to bring back the original receipt?',
+      ar: '"أذكّرك بإعادة الإيصال الأصلي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If we don\'t have the receipt, I cannot process the reimbursement, and it will come out of your salary.',
+      ar: '"فإن لم يكن الإيصال معنا، لا أستطيع معالجة الاسترداد وسيُخصم المبلغ من راتبك.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Later that afternoon, the Office Manager, Mrs Okonkwo, came to see James.',
+      ar: 'وبعد ظهر ذلك اليوم جاءت مديرة المكتب، السيدة أوكونكو، لمقابلة جيمس.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The float was running low because of a staff party the previous day.',
+      ar: 'فقد كاد رصيد الصندوق ينفد بسبب حفل للموظفين في اليوم السابق.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"James, the cash level looks very low.',
+      ar: '"جيمس، يبدو مستوى النقد منخفضًا جدًا.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Could you request a replenishment from the Financial Controller in Dublin?',
+      ar: 'هل تطلب تغذية للصندوق من المراقب المالي في دبلن؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'James checked his spreadsheet.',
+      ar: 'فراجع جيمس جدوله الحسابي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I can offer to go to the bank this afternoon," he said, "but first I must reconcile the remaining cash with the vouchers I have collected.',
+      ar: 'وقال: "أستطيع أن أذهب إلى البنك بعد الظهر، لكن عليّ أولًا أن أطابق النقد المتبقي مع السندات التي جمعتها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" Mrs Okonkwo nodded.',
+      ar: '" فأومأت السيدة أوكونكو موافقة.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Would you be able to get the cash before 4 PM?',
+      ar: 'هل تستطيع الحصول على النقد قبل الساعة 4 عصرًا؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to pay the window cleaner.',
+      ar: 'فعلينا أن ندفع لعامل تنظيف النوافذ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'James spent the next hour organizing the small scraps of paper.',
+      ar: 'أمضى جيمس الساعة التالية في ترتيب قصاصات الورق الصغيرة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He matched every voucher to a receipt.',
+      ar: 'وطابق كل سند بإيصاله.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'He found a discrepancy of CAD 5.',
+      ar: 'فوجد فرقًا قدره CAD 5.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He realized he had forgotten to record a taxi fare he had authorized for himself earlier in the week.',
+      ar: 'وأدرك أنه نسي تسجيل أجرة سيارة أجرة كان قد أذن بها لنفسه في وقت سابق من الأسبوع.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He quickly wrote up the voucher and attached his receipt.',
+      ar: 'فكتب السند سريعًا وأرفق إيصاله.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Once the reconciliation was complete, he emailed the Controller\'s office.',
+      ar: 'وبعد أن تمّت التسوية أرسل بريدًا إلى مكتب المراقب المالي.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"May I have your authorization for a replenishment transfer?',
+      ar: '"هل لي أن أحصل على تفويضكم بتحويل تغذية للصندوق؟'
+    },
+    { who: 'narr', face: 'neutral', en: '" he asked politely.', ar: '" سأل بلباقة.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The Controller signed the form, ensuring that the office would continue to run smoothly for another week.',
+      ar: 'فوقّع المراقب المالي النموذج، فضَمِن استمرار عمل المكتب بسلاسة أسبوعًا آخر.'
+    },
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'The imprest system worked perfectly, as long as everyone followed the rules of request and authorization.',
+      ar: 'وعمل نظام السلفة المستديمة على أتم وجه، ما دام الجميع يتبعون قواعد الطلب والتفويض.'
     }
   ]
 });
@@ -247,136 +354,253 @@ EFA.scene('u3-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Petty Cash Dispute', cam: { shot: 'mid' } },
-    { who: 'narr', face: 'neutral', en: 'Context:A conversation at the cashier\'s desk.' },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'An employee, Robert, is trying to claim expenses from the Petty Cash Custodian, Elena.'
-    },
-    { who: 'narr', face: 'neutral', en: 'I’m in a bit of a rush.' },
-    { who: 'narr', face: 'thinking', en: 'Can I get EUR 50 from the petty cash box?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I need to buy some coffee and snacks for the client meeting happening in ten minutes.'
-    },
-    { who: 'narr', face: 'neutral', en: 'You know the procedure.' },
-    { who: 'narr', face: 'thinking', en: 'Would you mind completing a petty cash voucher first?' },
-    { who: 'narr', face: 'neutral', en: 'I cannot issue any cash without a signed document.' },
-    { who: 'narr', face: 'neutral', en: 'That is the rule of the imprest system.' },
-    { who: 'narr', face: 'neutral', en: '"I understand, but I don’t have time right now.' },
-    { who: 'narr', face: 'thinking', en: 'Could you just give me the cash, and I’ll sign it later?' },
-    { who: 'narr', face: 'worried', en: '"I’m sorry, Robert, but I can’t do that.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'However, I can offer to fill out the voucher for you if you give me the details right now.'
-    },
-    { who: 'narr', face: 'neutral', en: 'But you must sign it before I open the box.' },
-    { who: 'narr', face: 'thinking', en: 'Also, do you have authorization from your line manager?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The limit for undocumented requests is EUR 20, and you are asking for EUR 50.'
-    },
-    { who: 'narr', face: 'neutral', en: '"I didn’t know about the limit.' },
-    { who: 'narr', face: 'neutral', en: 'My manager is in a meeting.' },
-    { who: 'narr', face: 'thinking', en: 'May I ask you to make an exception just this once?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I promise to bring the receipt back immediately after the purchase.'
-    },
-    { who: 'narr', face: 'neutral', en: '"I’m afraid I cannot grant that request.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'If the external auditors check the box and find a shortage without a signature, I will be responsible for the discrepancy.'
+      face: 'warm',
+      en: 'The Petty Cash Dispute',
+      cam: { shot: 'mid' },
+      ar: 'خلاف على المصروفات النثرية'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Here is what we can do: I can give you EUR 20 now for the coffee.'
+      en: 'Context:A conversation at the cashier\'s desk.',
+      ar: 'السياق: محادثة عند مكتب أمين الصندوق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'For the rest, you would need to pay out-of-pocket and request reimbursement later.'
+      en: 'An employee, Robert, is trying to claim expenses from the Petty Cash Custodian, Elena.',
+      ar: 'موظف يُسمى روبرت يحاول صرف مصروفات من أمينة صندوق المصروفات النثرية، إيلينا.'
     },
-    { who: 'narr', face: 'neutral', en: '"Okay, that sounds fair.' },
-    { who: 'narr', face: 'neutral', en: 'I will pay for the snacks myself.' },
+    { who: 'narr', face: 'neutral', en: 'I’m in a bit of a rush.', ar: 'أنا على عجلة قليلًا.' },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Could you process my reimbursement tomorrow if I bring the original receipt?'
+      en: 'Can I get EUR 50 from the petty cash box?',
+      ar: 'هل آخذ EUR 50 من صندوق المصروفات النثرية؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Once you have the original receipt—not a photocopy—I can process it immediately.'
+      en: 'I need to buy some coffee and snacks for the client meeting happening in ten minutes.',
+      ar: 'أحتاج إلى شراء قهوة وبعض المرطبات لاجتماع مع عميل يبدأ بعد عشر دقائق.'
+    },
+    { who: 'narr', face: 'neutral', en: 'You know the procedure.', ar: 'أنت تعرف الإجراء.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Would you mind completing a petty cash voucher first?',
+      ar: 'هل تتفضل بإكمال سند مصروفات نثرية أولًا؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Just make sure the receipt lists the items clearly, and that it shows the currency.'
+      en: 'I cannot issue any cash without a signed document.',
+      ar: 'لا أستطيع صرف أي نقد دون مستند موقّع.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Last week someone tried to claim a personal lunch, and we had to refuse it.'
+      en: 'That is the rule of the imprest system.',
+      ar: 'فهذه قاعدة نظام السلفة المستديمة.'
     },
-    { who: 'narr', face: 'neutral', en: 'I’ll sign for the EUR 20 now.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I understand, but I don’t have time right now.',
+      ar: '"أتفهم ذلك، لكن لا وقت لديّ الآن.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Could you just give me the cash, and I’ll sign it later?',
+      ar: 'هل تعطيني المبلغ وأوقّع لاحقًا؟'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '"I’m sorry, Robert, but I can’t do that.',
+      ar: '"آسفة يا روبرت، لا أستطيع ذلك.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'However, I can offer to fill out the voucher for you if you give me the details right now.',
+      ar: 'لكني أستطيع أن أعبّئ السند عنك إن أعطيتني التفاصيل الآن.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'But you must sign it before I open the box.',
+      ar: 'لكن عليك أن توقّعه قبل أن أفتح الصندوق.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Also, do you have authorization from your line manager?',
+      ar: 'ثم، هل لديك تفويض من مديرك المباشر؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The limit for undocumented requests is EUR 20, and you are asking for EUR 50.',
+      ar: 'فحد الطلبات غير الموثّقة EUR 20، وأنت تطلب EUR 50.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I didn’t know about the limit.',
+      ar: '"لم أكن أعلم بهذا الحد.'
+    },
+    { who: 'narr', face: 'neutral', en: 'My manager is in a meeting.', ar: 'ومديري في اجتماع.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'May I ask you to make an exception just this once?',
+      ar: 'هل أطلب منك استثناءً هذه المرة فقط؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I promise to bring the receipt back immediately after the purchase.',
+      ar: 'أعدك بإعادة الإيصال فور الشراء.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I’m afraid I cannot grant that request.',
+      ar: '"أخشى أني لا أستطيع الموافقة على هذا الطلب.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'If the external auditors check the box and find a shortage without a signature, I will be responsible for the discrepancy.',
+      ar: 'فإن فحص المدققون الخارجيون الصندوق ووجدوا نقصًا دون توقيع، أكون أنا المسؤولة عن الفرق.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Here is what we can do: I can give you EUR 20 now for the coffee.',
+      ar: 'وهذا ما يمكننا فعله: أعطيك EUR 20 الآن للقهوة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'For the rest, you would need to pay out-of-pocket and request reimbursement later.',
+      ar: 'وأما الباقي فعليك أن تدفعه من مالك وتطلب استرداده لاحقًا.'
+    },
+    { who: 'narr', face: 'neutral', en: '"Okay, that sounds fair.', ar: '"حسنًا، هذا يبدو منصفًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I will pay for the snacks myself.',
+      ar: 'سأدفع ثمن المرطبات بنفسي.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Could you process my reimbursement tomorrow if I bring the original receipt?',
+      ar: 'هل تعالجين استردادي غدًا إن أتيت بالإيصال الأصلي؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Once you have the original receipt—not a photocopy—I can process it immediately.',
+      ar: 'بمجرد أن يكون الإيصال الأصلي معك — لا صورة منسوخة — أستطيع معالجته فورًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Just make sure the receipt lists the items clearly, and that it shows the currency.',
+      ar: 'فقط تأكد من أن الإيصال يبيّن الأصناف بوضوح ويُظهر العملة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Last week someone tried to claim a personal lunch, and we had to refuse it.',
+      ar: 'في الأسبوع الماضي حاول أحدهم صرف قيمة غداء شخصي، فاضطررنا إلى الرفض.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I’ll sign for the EUR 20 now.',
+      ar: 'سأوقّع على EUR 20 الآن.'
+    }
   ]
 });
 EFA.scene('u3-extension-c5', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Cash Field Office in Santiago', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'You are the newly appointed Petty Cash Custodian for Northwind\'s field office in Santiago.'
+      face: 'warm',
+      en: 'The Cash Field Office in Santiago',
+      cam: { shot: 'mid' },
+      ar: 'المكتب الميداني النقدي في سانتياغو'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Because many of the group\'s local suppliers are small businesses, a number of vendors (bakers, mechanics, cleaners) only accept cash.'
+      en: 'You are the newly appointed Petty Cash Custodian for Northwind\'s field office in Santiago.',
+      ar: 'أنت أمين صندوق المصروفات النثرية المعيّن حديثًا في مكتب نورثويند الميداني في سانتياغو.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The service centre in Kraków has established a strict "Imprest System" with a float of USD 1,000, held in Chilean pesos.'
-    },
-    { who: 'narr', face: 'neutral', en: 'However, the demands are high.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Yesterday, a driver asked for cash to repair a truck urgently.'
-    },
-    { who: 'narr', face: 'neutral', en: 'He did not have a receipt yet.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Today, a supplier of office stationery is offering a discount if you pay cash immediately, but the amount is slightly over your limit.'
-    },
-    { who: 'narr', face: 'neutral', en: 'You need to handle these requests politely but firmly.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'You must ensure every peso is documented because the group\'s external auditors review the fund twice a year.'
+      en: 'Because many of the group\'s local suppliers are small businesses, a number of vendors (bakers, mechanics, cleaners) only accept cash.',
+      ar: 'ولأن كثيرًا من موردي المجموعة المحليين منشآت صغيرة، فإن عددًا من البائعين (الخبازين والميكانيكيين وعمال النظافة) لا يقبلون إلا النقد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You need to write emails requesting authorization from Kraków and polite notes to staff asking for original receipts.'
+      en: 'The service centre in Kraków has established a strict "Imprest System" with a float of USD 1,000, held in Chilean pesos.',
+      ar: 'وقد أرسى مركز الخدمات في كراكوف "نظام سلفة مستديمة" صارمًا برصيد قدره USD 1,000 محفوظ بالبيزو التشيلي.'
+    },
+    { who: 'narr', face: 'neutral', en: 'However, the demands are high.', ar: 'لكن الطلبات كثيرة.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Yesterday, a driver asked for cash to repair a truck urgently.',
+      ar: 'فبالأمس طلب أحد السائقين نقدًا لإصلاح شاحنة على وجه السرعة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He did not have a receipt yet.',
+      ar: 'ولم يكن معه إيصال بعد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Today, a supplier of office stationery is offering a discount if you pay cash immediately, but the amount is slightly over your limit.',
+      ar: 'واليوم يعرض مورّد قرطاسية خصمًا إن سددت نقدًا على الفور، لكن المبلغ يتجاوز حدّك قليلًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to handle these requests politely but firmly.',
+      ar: 'وعليك أن تتعامل مع هذه الطلبات بلباقة وحزم في الوقت نفسه.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You must ensure every peso is documented because the group\'s external auditors review the fund twice a year.',
+      ar: 'وعليك أن تتأكد من توثيق كل بيزو، لأن مدققي المجموعة الخارجيين يراجعون الصندوق مرتين في السنة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to write emails requesting authorization from Kraków and polite notes to staff asking for original receipts.',
+      ar: 'وتحتاج إلى كتابة رسائل تطلب التفويض من كراكوف ومذكرات لبقة للموظفين تطلب الإيصالات الأصلية.'
     },
     {
       who: 'narr',
       face: 'warm',
-      en: 'Using polite modals is essential to maintain good relationships in a high-pressure environment, especially when your approver is six hours away.'
+      en: 'Using polite modals is essential to maintain good relationships in a high-pressure environment, especially when your approver is six hours away.',
+      ar: 'واستخدام صيغ الطلب اللبقة ضروري للحفاظ على علاقات جيدة في بيئة عمل ضاغطة، خاصة عندما يكون من يمنحك الموافقة على بُعد ست ساعات.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

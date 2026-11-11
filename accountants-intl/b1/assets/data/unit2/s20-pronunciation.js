@@ -49,6 +49,7 @@ EFA.page('u2-s20-pronunciation', {
           why: 'Re-con-ci-li-a-tion — say it with the beat on <b>A</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Accounting Vocabulary' }
     },
     {
@@ -88,35 +89,17 @@ EFA.page('u2-s20-pronunciation', {
       source: 'book',
       title: 'Intonation: Asking for Clarification',
       instruction: 'Practice: Read these questions:',
-      html: '<p><b>Context.</b> Use rising intonation when asking for clarification about a past event or procedure.</p><ol><li>"So, you were posting the entries when the manager called?" (Rising intonation on called)</li><li>"Did you file the receipt under the date or the vendor name?" (Rising intonation on or)</li><li>"What was the team doing at 3:00 PM yesterday?" (Falling intonation on yesterday as it\'s a WH-question)</li></ol>',
+      html: '<p><b>Context.</b> Use rising intonation when asking for clarification about a past event or procedure.</p>',
       playable: [],
       doneLabel: 'I have read this',
       visual: {
-        spot: 'receipt',
+        spot: 'cash-box',
         caption: 'Pronunciation · Intonation: Asking for Clarification',
         cls: 'vis-sm'
       }
     },
     {
       id: 'c5',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 2 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Asking for Clarification',
-      instruction: 'Practice: Read these questions:',
-      html: '<p><b>Context.</b> Use rising intonation when asking for clarification about a past event or procedure.</p><ol><li>"So, you were posting the entries when the manager called?" (Rising intonation on called)</li><li>"Did you file the receipt under the date or the vendor name?" (Rising intonation on or)</li><li>"What was the team doing at 3:00 PM yesterday?" (Falling intonation on yesterday as it\'s a WH-question)</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'posting',
-        caption: 'Pronunciation · Intonation: Asking for Clarification',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c6',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 2 · 7C',
@@ -129,10 +112,10 @@ EFA.page('u2-s20-pronunciation', {
         '"Did you file the receipt under the date or the vendor name?" (Rising intonation on or)',
         '"What was the team doing at 3:00 PM yesterday?" (Falling intonation on yesterday as it\'s a WH-question)'
       ],
-      visual: { spot: 'debtor', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'receipt', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c7',
+      id: 'c6',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 2 · 7D',
@@ -159,38 +142,6 @@ EFA.page('u2-s20-pronunciation', {
       doneLabel: 'I have read this',
       visual: {
         spot: 'reconcile',
-        caption: 'Pronunciation · Fluency Drill: Explaining the Process',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c8',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 2 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Explaining the Process',
-      instruction: 'Read the following passage, focusing on clear articulation of the Past Simple and Past Continuous.',
-      html: '<p>"Yesterday, I was reviewing the bank statement while the new clerk was processing the invoices. Suddenly, the system sent an error message. I immediately checked the ledger and found that the entry was incorrect. We corrected the mistake and finished the reconciliation before the end of the day."</p>',
-      playable: [
-        {
-          t: '"Yesterday, I was reviewing the bank statement while the new clerk was processing the invoices.',
-          role: 'narrator'
-        },
-        { t: 'Suddenly, the system sent an error message.', role: 'narrator' },
-        {
-          t: 'I immediately checked the ledger and found that the entry was incorrect.',
-          role: 'narrator'
-        },
-        {
-          t: 'We corrected the mistake and finished the reconciliation before the end of the day.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'ledger',
         caption: 'Pronunciation · Fluency Drill: Explaining the Process',
         cls: 'vis-sm'
       }

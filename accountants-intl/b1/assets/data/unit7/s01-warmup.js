@@ -25,6 +25,7 @@ EFA.page('u7-s01-warmup', {
       html: '<p><b>Context.</b> Discuss the meaning of these terms in financial reporting.</p><ol><li>Favourable Variance (F): When the actual result is better than the budget (e.g., actual revenue is higher).</li><li>Adverse Variance (A): When the actual result is worse than the budget (e.g., actual cost is higher).</li><li>Budgeting: The process of setting financial plans for future periods.</li></ol>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'budget', caption: 'Warm-Up · Interpreting Financial Results' }
     },
     {

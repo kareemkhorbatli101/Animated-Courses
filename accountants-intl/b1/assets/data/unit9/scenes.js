@@ -6,18 +6,36 @@ EFA.scene('u9-listening-1-c1', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: '"Ryan, your review is excellent.', cam: { shot: 'mid' } },
-    { who: 'narr', face: 'neutral', en: 'I see that you have used QuickBooks for over four years.' },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'However, you haven\'t had any experience with our new SAP ERP system yet.'
+      face: 'warm',
+      en: '"Ryan, your review is excellent.',
+      cam: { shot: 'mid' },
+      ar: '"رايان، تقييمك ممتاز.'
     },
-    { who: 'narr', face: 'neutral', en: 'We have scheduled you for a training session next month.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You have shown great aptitude in other areas, so we expect you will master it quickly.'
+      en: 'I see that you have used QuickBooks for over four years.',
+      ar: 'أرى أنك استخدمت QuickBooks منذ أكثر من أربع سنوات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'However, you haven\'t had any experience with our new SAP ERP system yet.',
+      ar: 'لكن لم تحصل بعد على أي خبرة في نظام SAP الجديد لدينا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have scheduled you for a training session next month.',
+      ar: 'وقد حددنا لك جلسة تدريب الشهر القادم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You have shown great aptitude in other areas, so we expect you will master it quickly.',
+      ar: 'ولقد أظهرت قدرة كبيرة في مجالات أخرى، فنتوقع أن تتقنه سريعًا.'
     }
   ]
 });
@@ -29,19 +47,32 @@ EFA.scene('u9-listening-2-c1', {
       who: 'narr',
       face: 'warm',
       en: '"Tell me about your professional journey.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"حدّثني عن مسارك المهني.'
     },
-    { who: 'narr', face: 'thinking', en: 'Where have you worked since graduating?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I see you have worked at three different companies in five years, in two countries.'
-    },
-    { who: 'narr', face: 'thinking', en: 'Have you focused on any specific industry?' },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'Also, have you completed your CPA certification or is that something you are still planning to do?'
+      en: 'Where have you worked since graduating?',
+      ar: 'أين عملت منذ تخرجك؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I see you have worked at three different companies in five years, in two countries.',
+      ar: 'أرى أنك عملت في ثلاث شركات مختلفة في خمس سنوات، وفي دولتين.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Have you focused on any specific industry?',
+      ar: 'هل تخصصت في صناعة معينة؟'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Also, have you completed your CPA certification or is that something you are still planning to do?',
+      ar: 'ثم، هل أتممت شهادة المحاسب القانوني المعتمد، أم أنها ما زالت في خططك؟'
     }
   ]
 });
@@ -53,18 +84,26 @@ EFA.scene('u9-listening-3-c1', {
       who: 'narr',
       face: 'warm',
       en: '"We have just finalized the quarterly VAT submission.',
-      cam: { shot: 'mid' }
-    },
-    { who: 'narr', face: 'neutral', en: 'It was a complex project, but we have met the deadline.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Specifically, Priya has streamlined the data extraction process, which has saved us about ten hours of work this month.'
+      cam: { shot: 'mid' },
+      ar: '"لقد أنهينا للتو إقرار ضريبة القيمة المضافة الربع سنوي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We haven\'t fully documented the new process yet, but that will be done next week.'
+      en: 'It was a complex project, but we have met the deadline.',
+      ar: 'كان مشروعًا معقدًا، لكننا التزمنا بالموعد النهائي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Specifically, Priya has streamlined the data extraction process, which has saved us about ten hours of work this month.',
+      ar: 'وعلى وجه التحديد، بسّطت بريا عملية استخراج البيانات، وهو ما وفّر علينا نحو عشر ساعات عمل هذا الشهر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We haven\'t fully documented the new process yet, but that will be done next week.',
+      ar: 'ولم نوثّق العملية الجديدة توثيقًا كاملًا بعد، لكن ذلك سيُنجَز الأسبوع القادم.'
     }
   ]
 });
@@ -75,28 +114,39 @@ EFA.scene('u9-reading-1-c2', {
     {
       who: 'narr',
       face: 'warm',
+      en: 'Requirements for License Renewal',
+      cam: { shot: 'mid' },
+      ar: 'شروط تجديد الترخيص'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
       en: 'The annual license renewal is dependent on the completion of Continuous Professional Education (CPE).',
-      cam: { shot: 'mid' }
+      ar: 'يتوقف تجديد الترخيص السنوي على إتمام ساعات التعليم المهني المستمر.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'All certified members must have completed a minimum of 40 hours of CPE per calendar year.'
+      en: 'All certified members must have completed a minimum of 40 hours of CPE per calendar year.',
+      ar: 'وعلى جميع الأعضاء المعتمدين أن يكونوا قد أتمّوا 40 ساعة على الأقل من التعليم المهني المستمر في السنة الميلادية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The hours must be documented and reported by December 31st.'
+      en: 'The hours must be documented and reported by December 31st.',
+      ar: 'ويجب توثيق الساعات والإبلاغ عنها بحلول 31 ديسمبر.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Since the new regulations were introduced, many accountants have chosen online courses to fulfill their requirements.'
+      en: 'Since the new regulations were introduced, many accountants have chosen online courses to fulfill their requirements.',
+      ar: 'ومنذ إقرار اللوائح الجديدة، اختار كثير من المحاسبين دورات إلكترونية للوفاء بمتطلباتهم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We have not approved any extensions for members who have not met the deadline yet this year.'
+      en: 'We have not approved any extensions for members who have not met the deadline yet this year.',
+      ar: 'ولم نوافق على أي تمديد للأعضاء الذين لم يلتزموا بالموعد النهائي بعد هذا العام.'
     }
   ]
 });
@@ -108,27 +158,32 @@ EFA.scene('u9-reading-2-c1', {
       who: 'narr',
       face: 'warm',
       en: 'The accounting profession has changed dramatically in the last decade.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'تغيرت مهنة المحاسبة تغيرًا جذريًا في العقد الأخير.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Many firms have invested heavily in AI tools and automation software.'
+      en: 'Many firms have invested heavily in AI tools and automation software.',
+      ar: 'فقد استثمرت شركات كثيرة استثمارًا ضخمًا في أدوات الذكاء الاصطناعي وبرامج الأتمتة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This shift has created a need for professionals with advanced data analytics skills.'
+      en: 'This shift has created a need for professionals with advanced data analytics skills.',
+      ar: 'وقد خلق هذا التحول حاجة إلى مهنيين يمتلكون مهارات متقدمة في تحليل البيانات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Job descriptions now reflect this: experience with data visualization tools has become a core competency for senior analysts.'
+      en: 'Job descriptions now reflect this: experience with data visualization tools has become a core competency for senior analysts.',
+      ar: 'وتوصيفات الوظائف تعكس ذلك الآن: فقد أصبحت الخبرة في أدوات تمثيل البيانات بصريًا كفاءة أساسية للمحللين الأوائل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Employees who haven\'t developed these skills yet may find themselves left behind by these technological advancements.'
+      en: 'Employees who haven\'t developed these skills yet may find themselves left behind by these technological advancements.',
+      ar: 'والموظفون الذين لم ينمّوا هذه المهارات بعد قد يجدون أنفسهم متخلفين عن هذا التقدم التقني.'
     }
   ]
 });
@@ -140,23 +195,32 @@ EFA.scene('u9-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Ines Duarte started her career as a junior bookkeeper ten years ago.',
-      cam: { shot: 'mid' }
-    },
-    { who: 'narr', face: 'neutral', en: 'She has always been dedicated to learning.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Since 2018, she has specialized in forensic accounting, and she has worked on several high-profile cases in three jurisdictions.'
+      cam: { shot: 'mid' },
+      ar: 'بدأت إينيس دوارتي مسارها المهني ممسكة دفاتر مبتدئة منذ عشر سنوات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She has just opened her own consultancy firm after leaving her previous employer.'
+      en: 'She has always been dedicated to learning.',
+      ar: 'ولقد كانت دائمًا شديدة الحرص على التعلم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She is now training three new employees, all of whom have recently graduated from university.'
+      en: 'Since 2018, she has specialized in forensic accounting, and she has worked on several high-profile cases in three jurisdictions.',
+      ar: 'ومنذ عام 2018 تخصصت في المحاسبة الجنائية، وعملت على عدة قضايا بارزة في ثلاث ولايات قضائية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She has just opened her own consultancy firm after leaving her previous employer.',
+      ar: 'ولقد افتتحت للتو شركتها الاستشارية بعد ترك جهة عملها السابقة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She is now training three new employees, all of whom have recently graduated from university.',
+      ar: 'وهي تدرّب الآن ثلاثة موظفين جدد، تخرجوا جميعًا من الجامعة حديثًا.'
     }
   ]
 });
@@ -168,98 +232,174 @@ EFA.scene('u9-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Robert sits in his office looking at his framed certificates on the wall.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'يجلس روبرت في مكتبه ناظرًا إلى شهاداته المؤطَّرة على الحائط.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He has been an accountant for over fifteen years, and the industry has changed dramatically since he started.'
+      en: 'He has been an accountant for over fifteen years, and the industry has changed dramatically since he started.',
+      ar: 'فقد عمل محاسبًا منذ أكثر من خمس عشرة سنة، وتغيرت المهنة تغيرًا جذريًا منذ أن بدأ.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'When he first began his career in 2008, he spent most of his time manually entering data into spreadsheets.'
+      en: 'When he first began his career in 2008, he spent most of his time manually entering data into spreadsheets.',
+      ar: 'وحين بدأ مساره عام 2008، كان يقضي معظم وقته في إدخال البيانات يدويًا في الجداول الحسابية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He has worked for his current firm, OmniFinancial, for ten years, and in that time he has reported into managers on three continents.'
+      en: 'He has worked for his current firm, OmniFinancial, for ten years, and in that time he has reported into managers on three continents.',
+      ar: 'ولقد عمل في شركته الحالية، أومني فاينانشال، عشر سنوات، وتبع في تلك المدة مديرين في ثلاث قارات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He has witnessed the shift from paper-based ledgers to sophisticated cloud computing.'
+      en: 'He has witnessed the shift from paper-based ledgers to sophisticated cloud computing.',
+      ar: 'وقد شهد الانتقال من الدفاتر الورقية إلى الحوسبة السحابية المتقدمة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"I have seen a lot of changes," Robert tells his intern, Maya.'
-    },
-    { who: 'narr', face: 'neutral', en: '"When I started, we didn\'t have automation.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Now, I have utilized AI tools to handle all the data entry.'
-    },
-    { who: 'narr', face: 'neutral', en: 'This has given me time to focus on analysis.' },
-    { who: 'narr', face: 'neutral', en: '" Maya asks him about his qualifications.' },
-    { who: 'narr', face: 'neutral', en: '"I have held my CPA license since 2012," Robert explains.' },
-    { who: 'narr', face: 'neutral', en: '"But the learning never stops.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I have just completed a certification in Data Analytics, and I have also taken the IFRS update course twice.'
+      en: '"I have seen a lot of changes," Robert tells his intern, Maya.',
+      ar: 'يقول روبرت لمتدربته مايا: "لقد رأيت تغيرات كثيرة".'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'In this profession, if you don\'t up-skill, you become obsolete.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Robert looks at his resume.' },
-    { who: 'narr', face: 'neutral', en: 'He has achieved a lot.' },
-    { who: 'narr', face: 'neutral', en: 'He has led three major system migrations.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'He has audited some of the largest companies in the region.'
+      en: '"When I started, we didn\'t have automation.',
+      ar: '"حين بدأت لم تكن لدينا أتمتة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Most recently, he has developed a training program for junior staff to help them master the new tax software.'
+      en: 'Now, I have utilized AI tools to handle all the data entry.',
+      ar: 'والآن استخدمت أدوات الذكاء الاصطناعي لتتولى إدخال البيانات كله.'
     },
-    { who: 'narr', face: 'thinking', en: '"Have you ever thought about leaving accounting?' },
-    { who: 'narr', face: 'neutral', en: 'The tools have changed, but the core logic is the same.' },
-    { who: 'narr', face: 'neutral', en: 'I have always enjoyed the puzzle of balancing the books.' },
-    { who: 'narr', face: 'neutral', en: 'Plus, I haven\'t reached the position of CFO yet.' },
-    { who: 'narr', face: 'neutral', en: 'That is my next goal.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Continuous Professional Education (CPE) is a requirement for Robert.'
+      en: 'This has given me time to focus on analysis.',
+      ar: 'وهذا أتاح لي وقتًا للتركيز على التحليل.'
     },
-    { who: 'narr', face: 'neutral', en: 'He has attended four seminars this year alone.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" Maya asks him about his qualifications.',
+      ar: '" فتسأله مايا عن مؤهلاته.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I have held my CPA license since 2012," Robert explains.',
+      ar: 'فيوضح روبرت: "أحمل ترخيص المحاسب القانوني المعتمد منذ عام 2012".'
+    },
+    { who: 'narr', face: 'neutral', en: '"But the learning never stops.', ar: '"لكن التعلم لا يتوقف.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I have just completed a certification in Data Analytics, and I have also taken the IFRS update course twice.',
+      ar: 'لقد أتممت للتو شهادة في تحليل البيانات، كما حضرت دورة تحديثات المعايير الدولية مرتين.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'In this profession, if you don\'t up-skill, you become obsolete.',
+      ar: 'وفي هذه المهنة، إن لم تطوّر مهاراتك صرت متقادمًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Robert looks at his resume.',
+      ar: 'ينظر روبرت في سيرته الذاتية.'
+    },
+    { who: 'narr', face: 'neutral', en: 'He has achieved a lot.', ar: 'لقد حقق كثيرًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He has led three major system migrations.',
+      ar: 'فقد قاد ثلاث عمليات انتقال كبرى بين الأنظمة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He has audited some of the largest companies in the region.',
+      ar: 'ودقّق حسابات بعض أكبر شركات المنطقة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Most recently, he has developed a training program for junior staff to help them master the new tax software.',
+      ar: 'وفي أحدث أعماله، طوّر برنامجًا تدريبيًا للموظفين المبتدئين ليعينهم على إتقان برنامج الضرائب الجديد.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"Have you ever thought about leaving accounting?',
+      ar: '"هل فكرت يومًا في ترك المحاسبة؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The tools have changed, but the core logic is the same.',
+      ar: 'تغيرت الأدوات، لكن المنطق الأساسي واحد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I have always enjoyed the puzzle of balancing the books.',
+      ar: 'ولقد استمتعت دائمًا بلغز موازنة الدفاتر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Plus, I haven\'t reached the position of CFO yet.',
+      ar: 'ثم إني لم أبلغ منصب المدير المالي بعد.'
+    },
+    { who: 'narr', face: 'neutral', en: 'That is my next goal.', ar: 'وهذا هدفي التالي.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Continuous Professional Education (CPE) is a requirement for Robert.',
+      ar: 'التعليم المهني المستمر شرط على روبرت.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He has attended four seminars this year alone.',
+      ar: 'فقد حضر أربع حلقات دراسية هذا العام وحده.'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'He has learned about the new lease accounting standards and cybersecurity risks.'
+      en: 'He has learned about the new lease accounting standards and cybersecurity risks.',
+      ar: 'وتعلّم معايير محاسبة الإيجارات الجديدة ومخاطر الأمن السيبراني.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"I haven\'t finished my required hours for this year yet," he admits, "but I have booked a course for next week.'
+      en: '"I haven\'t finished my required hours for this year yet," he admits, "but I have booked a course for next week.',
+      ar: 'ويعترف قائلًا: "لم أُكمل ساعاتي المطلوبة لهذا العام بعد، لكني حجزت دورة للأسبوع القادم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" For Robert, professional development isn\'t just a box to tick; it is the only way to survive in a fast-paced financial world where the rules differ from one border to the next.'
+      en: '" For Robert, professional development isn\'t just a box to tick; it is the only way to survive in a fast-paced financial world where the rules differ from one border to the next.',
+      ar: '" والتطوير المهني عند روبرت ليس خانة تُؤشَّر، بل هو السبيل الوحيد للبقاء في عالم مالي سريع تختلف قواعده من حدود إلى أخرى.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He advises Maya, "You have just graduated, which is great.'
+      en: 'He advises Maya, "You have just graduated, which is great.',
+      ar: 'وينصح مايا قائلًا: "لقد تخرجت للتو، وهذا رائع.'
     },
-    { who: 'narr', face: 'neutral', en: 'But remember, your education has only just begun.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'But remember, your education has only just begun.',
+      ar: 'لكن تذكّري أن تعليمك لم يبدأ إلا الآن.'
+    }
   ]
 });
 EFA.scene('u9-extension-c3', {
@@ -270,73 +410,154 @@ EFA.scene('u9-extension-c3', {
       who: 'narr',
       face: 'warm',
       en: 'Context:An interview for a Senior Accountant position.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'السياق: مقابلة لوظيفة محاسب أول.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Interviewer, Ms Gomez, is speaking with the candidate, Mr Chen.'
+      en: 'The Interviewer, Ms Gomez, is speaking with the candidate, Mr Chen.',
+      ar: 'المحاوِرة، السيدة غوميز، تتحدث مع المرشح السيد تشن.'
     },
-    { who: 'narr', face: 'warm', en: '"Thank you for coming, Mr Chen.' },
-    { who: 'narr', face: 'neutral', en: 'I’ve reviewed your CV, and it looks impressive.' },
-    { who: 'narr', face: 'neutral', en: 'I’d like to discuss your experience in more detail.' },
-    { who: 'narr', face: 'thinking', en: 'How long have you worked in the accounting field?' },
-    { who: 'narr', face: 'neutral', en: '"I have worked in accounting for seven years.' },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'I started as a Junior Bookkeeper, but I have been a Management Accountant since 2020.'
-    },
-    { who: 'narr', face: 'thinking', en: 'And what about your software skills?' },
-    { who: 'narr', face: 'thinking', en: 'Have you ever used SAP or Oracle?' },
-    { who: 'narr', face: 'neutral', en: '"I have used Oracle for the last three years.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I haven’t used SAP yet, but I have utilized similar ERP systems, so I am confident I can learn it quickly.'
+      face: 'warm',
+      en: '"Thank you for coming, Mr Chen.',
+      ar: '"شكرًا لحضورك يا سيد تشن.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I have also mastered advanced Excel functions like macros and pivot tables.'
-    },
-    { who: 'narr', face: 'neutral', en: '"That is very useful.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We are currently migrating our data, so those skills are needed.'
+      en: 'I’ve reviewed your CV, and it looks impressive.',
+      ar: 'لقد راجعت سيرتك الذاتية، وهي تبدو مثيرة للإعجاب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Tell me about a significant achievement in your last role.'
+      en: 'I’d like to discuss your experience in more detail.',
+      ar: 'وأود أن أناقش خبرتك بتفصيل أكبر.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'How long have you worked in the accounting field?',
+      ar: 'منذ متى تعمل في مجال المحاسبة؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"Well, recently, I have successfully streamlined the month-end reporting process.'
+      en: '"I have worked in accounting for seven years.',
+      ar: '"عملت في المحاسبة سبع سنوات.'
     },
-    { who: 'narr', face: 'neutral', en: 'When I joined, it took five days to close the books.' },
-    { who: 'narr', face: 'neutral', en: 'I have reduced that time to two days.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Also, I have just obtained my CPA certification last month.'
+      en: 'I started as a Junior Bookkeeper, but I have been a Management Accountant since 2020.',
+      ar: 'بدأت ممسك دفاتر مبتدئًا، لكني محاسب إداري منذ عام 2020.'
     },
-    { who: 'narr', face: 'neutral', en: 'It was a lot of work, but I am proud of it.' },
-    { who: 'narr', face: 'neutral', en: 'That shows dedication.' },
-    { who: 'narr', face: 'thinking', en: 'What about Continuous Professional Education?' },
-    { who: 'narr', face: 'thinking', en: 'How do you keep your skills up to date?' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'And what about your software skills?',
+      ar: 'وماذا عن مهاراتك في البرامج؟'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Have you ever used SAP or Oracle?',
+      ar: 'هل استخدمت SAP أو Oracle من قبل؟'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"I have attended several seminars on the new tax regulations this year, in two countries.'
+      en: '"I have used Oracle for the last three years.',
+      ar: '"استخدمت Oracle في السنوات الثلاث الأخيرة.'
     },
-    { who: 'narr', face: 'neutral', en: 'I believe in up-skilling constantly.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I haven’t completed my ethics module for this year yet, but I have registered for the course next week.'
+      en: 'I haven’t used SAP yet, but I have utilized similar ERP systems, so I am confident I can learn it quickly.',
+      ar: 'ولم أستخدم SAP بعد، لكني استخدمت أنظمة تخطيط موارد مشابهة، فأنا واثق من قدرتي على تعلمه سريعًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I have also mastered advanced Excel functions like macros and pivot tables.',
+      ar: 'كما أتقنت دوال Excel المتقدمة مثل وحدات الماكرو والجداول المحورية.'
+    },
+    { who: 'narr', face: 'neutral', en: '"That is very useful.', ar: '"هذا مفيد جدًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We are currently migrating our data, so those skills are needed.',
+      ar: 'فنحن ننقل بياناتنا حاليًا، وهذه المهارات مطلوبة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Tell me about a significant achievement in your last role.',
+      ar: 'حدّثني عن إنجاز مهم في وظيفتك السابقة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Well, recently, I have successfully streamlined the month-end reporting process.',
+      ar: '"في الآونة الأخيرة بسّطت بنجاح عملية إعداد تقارير نهاية الشهر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'When I joined, it took five days to close the books.',
+      ar: 'فعند انضمامي كان إقفال الدفاتر يستغرق خمسة أيام.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I have reduced that time to two days.',
+      ar: 'ولقد قلّصت تلك المدة إلى يومين.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Also, I have just obtained my CPA certification last month.',
+      ar: 'كما حصلت للتو على شهادة المحاسب القانوني المعتمد الشهر الماضي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It was a lot of work, but I am proud of it.',
+      ar: 'كان عملًا كثيرًا، لكني فخور به.'
+    },
+    { who: 'narr', face: 'neutral', en: 'That shows dedication.', ar: 'هذا يدل على التزام.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'What about Continuous Professional Education?',
+      ar: 'وماذا عن التعليم المهني المستمر؟'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'How do you keep your skills up to date?',
+      ar: 'كيف تحافظ على حداثة مهاراتك؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I have attended several seminars on the new tax regulations this year, in two countries.',
+      ar: '"حضرت عدة حلقات دراسية عن اللوائح الضريبية الجديدة هذا العام، في دولتين.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I believe in up-skilling constantly.',
+      ar: 'وأنا أؤمن بتطوير المهارات باستمرار.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I haven’t completed my ethics module for this year yet, but I have registered for the course next week.',
+      ar: 'ولم أُكمل وحدة أخلاقيات المهنة لهذا العام بعد، لكني سجّلت في الدورة للأسبوع القادم.'
     }
   ]
 });
@@ -344,53 +565,68 @@ EFA.scene('u9-extension-c5', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Building the Group Reporting Team', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Northwind Group is hiring a new team of analysts for its group reporting function in Kraków.'
+      face: 'warm',
+      en: 'Building the Group Reporting Team',
+      cam: { shot: 'mid' },
+      ar: 'بناء فريق تقارير المجموعة'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Many candidates have worked abroad or have been working in different sectors, and several hold qualifications from other countries.'
+      en: 'Northwind Group is hiring a new team of analysts for its group reporting function in Kraków.',
+      ar: 'تستقدم مجموعة نورثويند فريقًا جديدًا من المحللين لوظيفة تقارير المجموعة في كراكوف.'
     },
-    { who: 'narr', face: 'neutral', en: 'You are conducting interviews.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Many candidates have worked abroad or have been working in different sectors, and several hold qualifications from other countries.',
+      ar: 'وكثير من المرشحين عملوا في الخارج أو يعملون في قطاعات مختلفة، وعدد منهم يحمل مؤهلات من دول أخرى.'
+    },
+    { who: 'narr', face: 'neutral', en: 'You are conducting interviews.', ar: 'وأنت تُجري المقابلات.' },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'You need to ask about their experience ("How long have you worked in group reporting?'
+      en: 'You need to ask about their experience ("How long have you worked in group reporting?',
+      ar: 'وعليك أن تسأل عن خبرتهم ("منذ متى تعمل في تقارير المجموعة؟'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: '") and their recent achievements ("Have you completed your ACCA?'
+      en: '") and their recent achievements ("Have you completed your ACCA?',
+      ar: '") وعن إنجازاتهم الحديثة ("هل أتممت شهادة ACCA؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'One candidate, Layla, has worked in London for five years.'
+      en: 'One candidate, Layla, has worked in London for five years.',
+      ar: 'إحدى المرشحات، ليلى، عملت في لندن خمس سنوات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Another, Omar, has just finished a course on IFRS consolidation.'
+      en: 'Another, Omar, has just finished a course on IFRS consolidation.',
+      ar: 'وآخر، عمر، أنهى للتو دورة في توحيد القوائم وفق المعايير الدولية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You need to discuss their skills (Excel, SAP, Power BI) and their career history.'
+      en: 'You need to discuss their skills (Excel, SAP, Power BI) and their career history.',
+      ar: 'وعليك أن تناقش مهاراتهم (Excel وSAP وPower BI) وتاريخهم المهني.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You also need to establish which of their certifications the group recognizes.'
+      en: 'You also need to establish which of their certifications the group recognizes.',
+      ar: 'وعليك كذلك أن تحدد أي شهاداتهم تعترف بها المجموعة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The focus is on what they have done that is relevant to closing six sets of books into one now.'
+      en: 'The focus is on what they have done that is relevant to closing six sets of books into one now.',
+      ar: 'والتركيز على ما أنجزوه مما يفيد في إقفال ستة دفاتر في دفتر واحد الآن.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

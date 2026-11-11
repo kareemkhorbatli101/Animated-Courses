@@ -81,7 +81,8 @@ EFA.page('u8-s21-review', {
         a: 'To summarize debits and credits. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
-      visual: { spot: 'trial-balance', caption: 'Trial Balance — one of the words on this list.' }
+      visual: { spot: 'trial-balance', caption: 'Trial Balance — one of the words on this list.' },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.'
     },
     {
       id: 'c2',
@@ -181,7 +182,7 @@ EFA.page('u8-s21-review', {
       title: 'Extension Writing: Explaining Net Income Derivation',
       instruction: 'Write a short paragraph (80 words) explaining how Net Income is calculated.',
       html: '<p>Style: Use the Passive Voice to describe the calculation.</p>',
-      playable: [{ t: 'Use the Passive Voice to describe the calculation.', role: 'narrator' }],
+      playable: [{ t: 'Style: Use the Passive Voice to describe the calculation.', role: 'narrator' }],
       doneLabel: 'I have read this',
       visual: {
         spot: 'obsolete',
@@ -221,12 +222,32 @@ EFA.page('u8-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can use vocabulary related to the accounting cycle (ledger, trial balance). [ ]' },
-        { t: 'I can identify and use the Passive Voice (is/are made, was/were prepared). [ ]' },
-        { t: 'I can describe a sequence of accounting steps using the Passive Voice. [ ]' },
-        { t: 'I can explain how a financial figure is derived (calculated) impersonally. [ ]' }
+        { t: 'I can use vocabulary related to the accounting cycle (ledger, trial balance).' },
+        { t: 'I can identify and use the Passive Voice (is/are made, was/were prepared).' },
+        { t: 'I can describe a sequence of accounting steps using the Passive Voice.' },
+        { t: 'I can explain how a financial figure is derived (calculated) impersonally.' }
       ],
       visual: { spot: 'ledger', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c9',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 8 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        { q: 'Why is this phrase used in accounting?' },
+        { q: 'What does it symbolize about the finality of the numbers for that period?' },
+        {
+          q: 'How does the reliance on the Passive Voice reflect the professionalism and objectivity required in accounting?'
+        }
+      ],
+      frame: { title: 'The claim', text: 'The books are closed.' },
+      model: 'The phrase is used because the period has been finalised: the entries have been posted, the trial balance has been agreed and nothing further may be added. It is said in the passive on purpose. The process is what matters, not who performed it, and a report that says what was done rather than who did it is harder to argue with.',
+      visual: { spot: 'posting', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

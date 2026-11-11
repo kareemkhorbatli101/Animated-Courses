@@ -49,6 +49,7 @@ EFA.page('u6-s20-pronunciation', {
           why: 'Rec-ti-fy — say it with the beat on <b>REC</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Control Terminology' }
     },
     {
@@ -75,7 +76,7 @@ EFA.page('u6-s20-pronunciation', {
       html: '<p>Explanation: When the "if" clause comes first, there is often a slight pause or break (indicated by a comma) before the main clause. Practice the smooth linking, with the pause.</p>',
       playable: [
         {
-          t: 'When the "if" clause comes first, there is often a slight pause or break (indicated by a comma) before the main clause.',
+          t: 'Explanation: When the "if" clause comes first, there is often a slight pause or break (indicated by a comma) before the main clause.',
           role: 'narrator'
         },
         { t: 'Practice the smooth linking, with the pause.', role: 'narrator' }
@@ -88,26 +89,6 @@ EFA.page('u6-s20-pronunciation', {
       covers: ['7B'],
       ref: '7B',
       bookRef: 'Unit 6 · 7B',
-      type: 'study',
-      source: 'book',
-      title: 'Linking: The "If" Clause',
-      instruction: 'Practice: Read the sentences, focusing on the linking and pause.',
-      html: '<p>Explanation: When the "if" clause comes first, there is often a slight pause or break (indicated by a comma) before the main clause. Practice the smooth linking, with the pause.</p>',
-      playable: [
-        {
-          t: 'When the "if" clause comes first, there is often a slight pause or break (indicated by a comma) before the main clause.',
-          role: 'narrator'
-        },
-        { t: 'Practice the smooth linking, with the pause.', role: 'narrator' }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'manager', caption: 'Pronunciation · Linking: The "If" Clause', cls: 'vis-sm' }
-    },
-    {
-      id: 'c5',
-      covers: ['7B'],
-      ref: '7B',
-      bookRef: 'Unit 6 · 7B',
       type: 'phrasebank',
       title: 'Listen and repeat',
       instruction: 'Click a line to hear it, then read it aloud after the recording.',
@@ -117,38 +98,28 @@ EFA.page('u6-s20-pronunciation', {
         'If I were you /,/ I would reverse the entry.',
         'If the totals do not match /,/ we will investigate the source.'
       ],
-      visual: { spot: 'migration', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'manager', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+    },
+    {
+      id: 'c5',
+      covers: ['7C'],
+      ref: '7C',
+      bookRef: 'Unit 6 · 7C',
+      type: 'study',
+      source: 'book',
+      title: 'Intonation: Hypothetical Scenarios',
+      instruction: 'Practice: Read these sentences:',
+      html: '<p><b>Context.</b> Use a rising intonation in the "if" clause and a falling intonation in the main clause to emphasize the hypothetical nature of the Second Conditional.</p>',
+      playable: [],
+      doneLabel: 'I have read this',
+      visual: {
+        spot: 'migration',
+        caption: 'Pronunciation · Intonation: Hypothetical Scenarios',
+        cls: 'vis-sm'
+      }
     },
     {
       id: 'c6',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 6 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Hypothetical Scenarios',
-      instruction: 'Practice: Read these sentences:',
-      html: '<p><b>Context.</b> Use a rising intonation in the "if" clause and a falling intonation in the main clause to emphasize the hypothetical nature of the Second Conditional.</p><ol><li>"If we had the budget, (↗) we would buy new software. (↘)"</li><li>"If I were the director, (↗) I would zero out that debt. (↘)"</li><li>"If they authorized the payment, (↗) the entry would be correct. (↘)"</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'budget', caption: 'Pronunciation · Intonation: Hypothetical Scenarios', cls: 'vis-sm' }
-    },
-    {
-      id: 'c7',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 6 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Hypothetical Scenarios',
-      instruction: 'Practice: Read these sentences:',
-      html: '<p><b>Context.</b> Use a rising intonation in the "if" clause and a falling intonation in the main clause to emphasize the hypothetical nature of the Second Conditional.</p><ol><li>"If we had the budget, (↗) we would buy new software. (↘)"</li><li>"If I were the director, (↗) I would zero out that debt. (↘)"</li><li>"If they authorized the payment, (↗) the entry would be correct. (↘)"</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'ledger', caption: 'Pronunciation · Intonation: Hypothetical Scenarios', cls: 'vis-sm' }
-    },
-    {
-      id: 'c8',
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 6 · 7C',
@@ -161,10 +132,10 @@ EFA.page('u6-s20-pronunciation', {
         '"If I were the director, (↗) I would zero out that debt. (↘)"',
         '"If they authorized the payment, (↗) the entry would be correct. (↘)"'
       ],
-      visual: { spot: 'statement', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'budget', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c9',
+      id: 'c7',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 6 · 7D',
@@ -192,40 +163,10 @@ EFA.page('u6-s20-pronunciation', {
       ],
       doneLabel: 'I have read this',
       visual: {
-        spot: 'account',
+        spot: 'auditor',
         caption: 'Pronunciation · Fluency Drill: Advising a Colleague',
         cls: 'vis-sm'
       }
-    },
-    {
-      id: 'c10',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 6 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Advising a Colleague',
-      instruction: 'Read the following passage, focusing on clear pronunciation and using a slightly slower, more deliberate tone for advice.',
-      html: '<p>"Listen carefully. If you don\'t cross-check the figures, you will create a discrepancy. That will lead to an official audit. If I were you, I would implement a daily review checklist. Also, if the discrepancy were over EUR 500, you would need to flag it immediately to the manager. Follow these controls, and you will never have to worry about an omission."</p>',
-      playable: [
-        { t: '"Listen carefully.', role: 'narrator' },
-        {
-          t: 'If you don\'t cross-check the figures, you will create a discrepancy.',
-          role: 'narrator'
-        },
-        { t: 'That will lead to an official audit.', role: 'narrator' },
-        { t: 'If I were you, I would implement a daily review checklist.', role: 'narrator' },
-        {
-          t: 'Also, if the discrepancy were over EUR 500, you would need to flag it immediately to the manager.',
-          role: 'narrator'
-        },
-        {
-          t: 'Follow these controls, and you will never have to worry about an omission.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'credit', caption: 'Pronunciation · Fluency Drill: Advising a Colleague', cls: 'vis-sm' }
     }
   ],
   prev: 's19-writing-2',

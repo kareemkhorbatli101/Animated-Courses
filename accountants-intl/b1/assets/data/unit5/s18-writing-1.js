@@ -30,6 +30,7 @@ EFA.page('u5-s18-writing-1', {
         '3': '<b>am meeting</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> I think they will agree to extend the credit terms. (WILL) -> I believe they <u>will extend</u> the credit terms.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Future Forms)' }
     },
     {

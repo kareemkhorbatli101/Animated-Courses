@@ -39,6 +39,7 @@ EFA.page('u7-s07-grammar-practice', {
         '6': '<b>more complicated</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> The R&D cost is the <u>smallest</u> (small) variance in the report.',
+      brief: 'Guided practice: every item is decided by the rule above, so when you are unsure, go back up rather than guess.',
       visual: { spot: 'entry', caption: 'Grammar · Guided Practice' }
     }
   ],

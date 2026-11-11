@@ -6,7 +6,7 @@ EFA.unitMaps.unit10 = [
   { id: 'u10-s01-warmup', file: 's01-warmup', label: 'Warm-up', n: 1 },
   { id: 'u10-s02-vocab-match', file: 's02-vocab-match', label: 'Vocabulary · match', n: 2 },
   { id: 'u10-s03-vocab-gaps', file: 's03-vocab-gaps', label: 'Vocabulary · in use', n: 1 },
-  { id: 'u10-s04-vocab-context', file: 's04-vocab-context', label: 'Vocabulary · in context', n: 2 },
+  { id: 'u10-s04-vocab-context', file: 's04-vocab-context', label: 'Vocabulary · in context', n: 1 },
   { id: 'u10-s05-vocab-build', file: 's05-vocab-build', label: 'Word building', n: 4 },
   { id: 'u10-s06-grammar-rule', file: 's06-grammar-rule', label: 'Grammar · the rule', n: 3 },
   { id: 'u10-s07-grammar-practice', file: 's07-grammar-practice', label: 'Grammar · practice', n: 1 },
@@ -27,7 +27,7 @@ EFA.unitMaps.unit10 = [
   { id: 'u10-s17-reading-3', file: 's17-reading-3', label: 'Reading 3', n: 2 },
   { id: 'u10-s18-writing-1', file: 's18-writing-1', label: 'Writing 1', n: 4 },
   { id: 'u10-s19-writing-2', file: 's19-writing-2', label: 'Writing 2', n: 3 },
-  { id: 'u10-s20-pronunciation', file: 's20-pronunciation', label: 'Pronunciation', n: 8 },
+  { id: 'u10-s20-pronunciation', file: 's20-pronunciation', label: 'Pronunciation', n: 6 },
   { id: 'u10-s21-review', file: 's21-review', label: 'Review', n: 8 },
   { id: 'u10-s22-extension', file: 's22-extension', label: 'Extension', n: 6 }
 ];

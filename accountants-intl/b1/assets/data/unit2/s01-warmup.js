@@ -22,9 +22,10 @@ EFA.page('u2-s01-warmup', {
       source: 'book',
       title: 'Yesterday\'s Work',
       instruction: 'Discuss in small groups:',
-      html: '<p><b>Context.</b> Accountants often spend the first part of the day recording and reconciling transactions from the previous day, week, or month. In a group with six offices, "yesterday" is not the same hour everywhere.</p><ol><li>Name three types of source documents that must be recorded from the previous period.</li><li>Why is it important to use the correct date when entering historical transactions, especially when the invoice arrives from another time zone?</li><li>What is the difference between an invoice and a receipt?</li><li>What common errors might you find when reviewing expense reports from last month?</li></ol>',
+      html: '<p><b>Context.</b> Accountants often spend the first part of the day recording and reconciling transactions from the previous day, week, or month. In a group with six offices, "yesterday" is not the same hour everywhere.</p>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'transaction', caption: 'Warm-Up · Yesterday\'s Work' }
     },
     {

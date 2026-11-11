@@ -22,7 +22,7 @@ EFA.page('u7-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: Justifying the Overspend',
       instruction: 'Student A (Manager): Explain why the actuals are higher than the budget (Use Comparative).',
-      html: '<p><b>Context.</b> A department manager (A) is explaining an adverse variance to the Financial Controller (B).</p><p>Student B (Controller): Ask what the most expensive item was (Use Superlative). Suggest a less expensive alternative (Use Comparative).</p>',
+      html: '<p><b>Context.</b> A department manager (A) is explaining an adverse variance to the Financial Controller (B).</p><p>Student B (Controller): Ask what the most expensive item was (Use Superlative). Suggest a less expensive alternative (Use Comparative).</p><ol><li>A: "The consulting fees were more expensive than the budget, because we needed extra support."</li><li>B: "I see. But what was the single most expensive item? I think next month, we should use internal staff, which is cheaper than hiring external consultants."</li></ol>',
       playable: [
         {
           t: 'Student B (Controller): Ask what the most expensive item was (Use Superlative).',
@@ -31,7 +31,8 @@ EFA.page('u7-s13-speaking-roles', {
         { t: 'Suggest a less expensive alternative (Use Comparative).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'reporting', caption: 'Speaking · Role-Play 1: Justifying the Overspend' }
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
+      visual: { spot: 'budget', caption: 'Speaking · Role-Play 1: Justifying the Overspend' }
     },
     {
       id: 'c2',
@@ -65,7 +66,8 @@ EFA.page('u7-s13-speaking-roles', {
       visual: { spot: 'variance', caption: 'Take each card in turn.' },
       remember: [
         'Student B (Controller): Ask what the most expensive item was (Use Superlative). Suggest a less expensive alternative (Use Comparative).'
-      ]
+      ],
+      bank: ['Overspent', 'Actuals', 'Budget']
     },
     {
       id: 'c3',
@@ -76,7 +78,7 @@ EFA.page('u7-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Analyzing the Trend',
       instruction: 'Student A: State a positive trend (Use Superlative). Ask about the weakest area.',
-      html: '<p><b>Context.</b> Two analysts are comparing this year\'s sales figures to last year\'s.</p><p>Student B: State the weakest area (Use Superlative). Explain why it is worse than expected (Use Comparative).</p>',
+      html: '<p><b>Context.</b> Two analysts are comparing this year\'s sales figures to last year\'s.</p><p>Student B: State the weakest area (Use Superlative). Explain why it is worse than expected (Use Comparative).</p><ol><li>A: "Our Q3 sales were the best in company history! But what was the weakest department?"</li><li>B: "The new product launch had the least favorable results. It was more sluggish than our initial forecast."</li></ol>',
       playable: [
         {
           t: 'State the weakest area (Use Superlative). Explain why it is worse than expected (Use Comparative).',
@@ -85,7 +87,7 @@ EFA.page('u7-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'ledger', caption: 'Speaking · Role-Play 2: Analyzing the Trend', cls: 'vis-sm' }
+      visual: { spot: 'forecast', caption: 'Speaking · Role-Play 2: Analyzing the Trend', cls: 'vis-sm' }
     },
     {
       id: 'c4',

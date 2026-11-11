@@ -41,6 +41,7 @@ EFA.page('u2-s03-vocab-gaps', {
         '6': '<b>recorded</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> We <u>reviewed</u> all the pending invoices before the Kraków cut-off.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'journal', caption: 'Vocabulary · Action Verbs and Nouns' }
     }
   ],

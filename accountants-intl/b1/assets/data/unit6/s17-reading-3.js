@@ -50,9 +50,18 @@ EFA.page('u6-s17-reading-3', {
         },
         { t: 'But we don\'t, so we must rely on manual cross-checking.', role: 'narrator', _key: 'narr' }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u6-reading-3-c1',
-      passage: '<p>Our highest internal control is the segregation of duties. If one person were responsible for both cash receipt and bank reconciliation, they could easily commit fraud. That is why we will always separate the recording and custody of assets. If an employee violates this rule, they will face immediate termination. If we had an automated system to cross-check all large payments, we would detect most fraudulent invoices before payment. But we don\'t, so we must rely on manual cross-checking.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Our highest internal control is the segregation of duties. If one person were responsible for both cash receipt and bank reconciliation, they could easily commit fraud. That is why we will always separate the recording and custody of assets. If an employee violates this rule, they will face immediate termination. If we had an automated system to cross-check all large payments, we would detect most fraudulent invoices before payment. But we don\'t, so we must rely on manual cross-checking.'
+          }
+        ],
+        say: { scene: 'u6-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'discrepancy', caption: 'Reading · Reading Passage 3: Fraud Prevention Controls' }
     },
     {
@@ -92,7 +101,7 @@ EFA.page('u6-s17-reading-3', {
           ]
         },
         {
-          q: '5. What must they rely on instead?',
+          q: '2. What must they rely on instead?',
           evidence: 'But we don\'t, so we must rely on manual cross-checking.',
           options: [
             {

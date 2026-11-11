@@ -10,19 +10,32 @@ EFA.scene('u8-listening-1-c1', {
       who: 'narr',
       face: 'warm',
       en: '"First, all original source documents are scanned and uploaded.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"أولًا، تُمسح جميع المستندات الأصلية ضوئيًا وتُحمَّل على النظام.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Then, the transactions are analyzed to determine their effect on the accounting equation.'
+      en: 'Then, the transactions are analyzed to determine their effect on the accounting equation.',
+      ar: 'ثم تُحلَّل العمليات لتحديد أثرها في المعادلة المحاسبية.'
     },
-    { who: 'narr', face: 'neutral', en: 'Following this, the journal entries are recorded.' },
-    { who: 'narr', face: 'neutral', en: 'Finally, the data is posted to the General Ledger.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'All of these steps must be completed before the trial balance can be generated.'
+      en: 'Following this, the journal entries are recorded.',
+      ar: 'وبعد ذلك تُسجَّل قيود اليومية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Finally, the data is posted to the General Ledger.',
+      ar: 'وأخيرًا تُرحَّل البيانات إلى دفتر الأستاذ العام.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'All of these steps must be completed before the trial balance can be generated.',
+      ar: 'ويجب إنجاز هذه الخطوات كلها قبل أن يُستخرج ميزان المراجعة.'
     }
   ]
 });
@@ -34,22 +47,26 @@ EFA.scene('u8-listening-2-c1', {
       who: 'narr',
       face: 'worried',
       en: '"The statements were delayed because of an issue with the bank reconciliation.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"تأخرت القوائم بسبب مشكلة في التسوية البنكية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'A significant difference was found between the bank statement and our cash account.'
+      en: 'A significant difference was found between the bank statement and our cash account.',
+      ar: 'فقد وُجد فرق كبير بين كشف الحساب البنكي وحساب النقدية لدينا.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'The error was identified and corrected by the junior accountant this morning.'
+      en: 'The error was identified and corrected by the junior accountant this morning.',
+      ar: 'وقد حُدّد الخطأ وصُحّح على يد المحاسب المبتدئ هذا الصباح.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The adjusted trial balance is now being prepared, and the final report will be approved by the Group CFO this afternoon.'
+      en: 'The adjusted trial balance is now being prepared, and the final report will be approved by the Group CFO this afternoon.',
+      ar: 'ويُعَد الآن ميزان المراجعة المعدّل، وسيُعتمد التقرير النهائي من المدير المالي للمجموعة بعد الظهر.'
     }
   ]
 });
@@ -61,23 +78,32 @@ EFA.scene('u8-listening-3-c1', {
       who: 'narr',
       face: 'warm',
       en: '"Every year, before the audit, all temporary accounts are closed to retained earnings.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"كل عام، وقبل التدقيق، تُقفل جميع الحسابات المؤقتة في حساب الأرباح المحتجزة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Then, a post-closing trial balance is prepared to ensure that only permanent accounts remain open.'
-    },
-    { who: 'narr', face: 'neutral', en: 'After this, the final audit package is compiled.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'This package must be delivered to the auditors before January 15th.'
+      en: 'Then, a post-closing trial balance is prepared to ensure that only permanent accounts remain open.',
+      ar: 'ثم يُعَد ميزان مراجعة بعد الإقفال للتأكد من أن الحسابات الدائمة وحدها هي التي بقيت مفتوحة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Any issues that are discovered will be reported to the audit committee.'
+      en: 'After this, the final audit package is compiled.',
+      ar: 'وبعد ذلك تُجمَّع حزمة التدقيق النهائية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This package must be delivered to the auditors before January 15th.',
+      ar: 'ويجب تسليم هذه الحزمة إلى المدققين قبل 15 يناير.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Any issues that are discovered will be reported to the audit committee.',
+      ar: 'وأي مسائل تُكتشف ستُبلَّغ إلى لجنة التدقيق.'
     }
   ]
 });
@@ -85,27 +111,42 @@ EFA.scene('u8-reading-1-c2', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Section 4: Monthly Closing Procedures', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'The General Ledger must be reconciled by the 10th day of the following month.'
-    },
-    { who: 'narr', face: 'neutral', en: 'First, the bank and subsidiary ledgers are reconciled.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Then, all accrual and deferral adjustments are entered into the system.'
+      face: 'warm',
+      en: 'Section 4: Monthly Closing Procedures',
+      cam: { shot: 'mid' },
+      ar: 'القسم 4: إجراءات الإقفال الشهري'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Before the statements are generated, the account balances are verified by the senior analyst.'
+      en: 'The General Ledger must be reconciled by the 10th day of the following month.',
+      ar: 'يجب تسوية دفتر الأستاذ العام بحلول اليوم العاشر من الشهر التالي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Only after these steps are completed can the books be officially closed.'
+      en: 'First, the bank and subsidiary ledgers are reconciled.',
+      ar: 'أولًا تُسوَّى دفاتر البنك والدفاتر المساعدة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Then, all accrual and deferral adjustments are entered into the system.',
+      ar: 'ثم تُدخل جميع تسويات الاستحقاق والتأجيل في النظام.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Before the statements are generated, the account balances are verified by the senior analyst.',
+      ar: 'وقبل استخراج القوائم، تُراجَع أرصدة الحسابات من المحلل الأول.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Only after these steps are completed can the books be officially closed.',
+      ar: 'ولا يمكن إقفال الدفاتر رسميًا إلا بعد إنجاز هذه الخطوات.'
     }
   ]
 });
@@ -113,29 +154,49 @@ EFA.scene('u8-reading-2-c1', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'worried', en: 'Trial Balance Error Found', cam: { shot: 'mid' } },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'Subject: Trial Balance Error Found',
+      cam: { shot: 'mid' },
+      ar: 'الموضوع: اكتشاف خطأ في ميزان المراجعة'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Team, a mismatch was discovered when the trial balance was generated this morning.'
-    },
-    { who: 'narr', face: 'neutral', en: 'The debits and credits were not equal.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'This problem must be resolved immediately so that the closing can continue.'
+      en: 'Team, a mismatch was discovered when the trial balance was generated this morning.',
+      ar: 'يا فريق، اكتُشف عدم تطابق عند استخراج ميزان المراجعة هذا الصباح.'
     },
     {
       who: 'narr',
-      face: 'worried',
-      en: 'The journal entries are being investigated now to find the source of the discrepancy.'
+      face: 'neutral',
+      en: 'The debits and credits were not equal.',
+      ar: 'فلم تتساوَ الأطراف المدينة والدائنة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'Once the error is located, it will be corrected, and a new trial balance will be run.'
+      en: 'This problem must be resolved immediately so that the closing can continue.',
+      ar: 'ويجب حل هذه المشكلة فورًا ليتمكن الإقفال من المتابعة.'
     },
-    { who: 'narr', face: 'neutral', en: 'We will let you know once the issue has been resolved.' }
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'The journal entries are being investigated now to find the source of the discrepancy.',
+      ar: 'وتُفحص قيود اليومية الآن للعثور على مصدر الفرق.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'Once the error is located, it will be corrected, and a new trial balance will be run.',
+      ar: 'وبمجرد تحديد موضع الخطأ، سيُصحَّح ويُستخرج ميزان مراجعة جديد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We will let you know once the issue has been resolved.',
+      ar: 'وسنبلغكم بمجرد حل المسألة.'
+    }
   ]
 });
 EFA.scene('u8-reading-3-c1', {
@@ -146,22 +207,26 @@ EFA.scene('u8-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Adjusting entries are necessary at the end of an accounting period to ensure that the revenue recognition principle and the expense recognition principle are followed.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'قيود التسوية ضرورية في نهاية الفترة المحاسبية لضمان التقيد بمبدأ الاعتراف بالإيراد ومبدأ الاعتراف بالمصروف.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'These entries are usually made for items like depreciation, accrued expenses, and unearned revenue.'
+      en: 'These entries are usually made for items like depreciation, accrued expenses, and unearned revenue.',
+      ar: 'وتُجرى هذه القيود عادةً لبنود مثل الإهلاك والمصروفات المستحقة والإيراد غير المكتسب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The entries are not supported by separate source documents; they are derived from internal calculations.'
+      en: 'The entries are not supported by separate source documents; they are derived from internal calculations.',
+      ar: 'ولا تستند هذه القيود إلى مستندات أصلية مستقلة، بل تُستخرج من حسابات داخلية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Without them, the financial statements would be materially misstated.'
+      en: 'Without them, the financial statements would be materially misstated.',
+      ar: 'ولولاها لكانت القوائم المالية مُحرَّفة تحريفًا جوهريًا.'
     }
   ]
 });
@@ -173,117 +238,164 @@ EFA.scene('u8-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'The accounting cycle is the heartbeat of the finance department.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'الدورة المحاسبية هي نبض قسم الشؤون المالية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It is a systematic process that repeats every month, ensuring that the financial health of the business is accurately captured.'
+      en: 'It is a systematic process that repeats every month, ensuring that the financial health of the business is accurately captured.',
+      ar: 'وهي عملية منظمة تتكرر كل شهر، تضمن رصد الحالة المالية للمنشأة بدقة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'At NovaCorp, the cycle is strictly adhered to in every country where the group operates.'
+      en: 'At NovaCorp, the cycle is strictly adhered to in every country where the group operates.',
+      ar: 'وفي شركة نوفاكورب يُلتزم بالدورة التزامًا صارمًا في كل دولة تعمل فيها المجموعة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The process begins with the identification of transactions.'
+      en: 'The process begins with the identification of transactions.',
+      ar: 'تبدأ العملية بتحديد العمليات المالية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Throughout the month, source documents like invoices and receipts are collected and analyzed.'
-    },
-    { who: 'narr', face: 'neutral', en: 'These transactions are then journalized.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The data is entered into the system, creating a chronological record of every financial event.'
+      en: 'Throughout the month, source documents like invoices and receipts are collected and analyzed.',
+      ar: 'فعلى مدار الشهر تُجمع المستندات الأصلية كالفواتير والإيصالات وتُحلَّل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Once the transactions are recorded, they are posted to the General Ledger.'
-    },
-    { who: 'narr', face: 'neutral', en: 'This is where the accounts are classified.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'At the end of the month, the unadjusted trial balance is generated.'
+      en: 'These transactions are then journalized.',
+      ar: 'ثم تُقيَّد هذه العمليات في دفتر اليومية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This document lists all the account balances to ensure that total debits equal total credits.'
-    },
-    { who: 'narr', face: 'neutral', en: 'However, the work is not finished yet.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The accounts must be adjusted to reflect accrual accounting principles.'
+      en: 'The data is entered into the system, creating a chronological record of every financial event.',
+      ar: 'وتُدخل البيانات في النظام، فيُنشأ سجل زمني لكل حدث مالي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Adjusting entries are made for items like depreciation, prepaid expenses, and accrued revenue.'
+      en: 'Once the transactions are recorded, they are posted to the General Ledger.',
+      ar: 'وبعد تسجيل العمليات تُرحَّل إلى دفتر الأستاذ العام.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'These entries are prepared by the senior accountant to ensure that expenses are matched to the revenue they helped generate.'
+      en: 'This is where the accounts are classified.',
+      ar: 'وهنا تُصنَّف الحسابات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'After the adjustments are posted, the adjusted trial balance is produced.'
-    },
-    { who: 'narr', face: 'neutral', en: 'From this document, the financial statements are derived.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The Income Statement is prepared first, followed by the Statement of Retained Earnings and the Balance Sheet.'
+      en: 'At the end of the month, the unadjusted trial balance is generated.',
+      ar: 'وفي نهاية الشهر يُستخرج ميزان المراجعة قبل التسوية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'These reports are reviewed by the Controller for accuracy, and the local figures are translated into the reporting currency before they are consolidated.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Finally, the closing entries are made.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The temporary accounts—revenue, expenses, and dividends—are closed to Retained Earnings.'
+      en: 'This document lists all the account balances to ensure that total debits equal total credits.',
+      ar: 'ويُدرج هذا المستند جميع أرصدة الحسابات للتأكد من تساوي مجموع المدين مع مجموع الدائن.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This resets their balances to zero, ready for the next accounting period to begin.'
+      en: 'However, the work is not finished yet.',
+      ar: 'لكن العمل لم ينتهِ بعد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The post-closing trial balance is then generated to verify that the ledger is ready for the new month.'
+      en: 'The accounts must be adjusted to reflect accrual accounting principles.',
+      ar: 'فلا بد من تسوية الحسابات لتعكس مبادئ أساس الاستحقاق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The entire process is conducted with strict adherence to deadlines.'
+      en: 'Adjusting entries are made for items like depreciation, prepaid expenses, and accrued revenue.',
+      ar: 'وتُجرى قيود التسوية لبنود مثل الإهلاك والمصروفات المقدمة والإيراد المستحق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The books are usually closed by the fifth business day of the following month, in every ledger.'
+      en: 'These entries are prepared by the senior accountant to ensure that expenses are matched to the revenue they helped generate.',
+      ar: 'ويُعدّها المحاسب الأول لضمان مقابلة المصروفات بالإيراد الذي أسهمت في تحقيقه.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'After the adjustments are posted, the adjusted trial balance is produced.',
+      ar: 'وبعد ترحيل التسويات يُستخرج ميزان المراجعة المعدّل.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'From this document, the financial statements are derived.',
+      ar: 'ومن هذا المستند تُستخرج القوائم المالية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The Income Statement is prepared first, followed by the Statement of Retained Earnings and the Balance Sheet.',
+      ar: 'فتُعَد قائمة الدخل أولًا، ثم قائمة الأرباح المحتجزة، ثم قائمة المركز المالي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'These reports are reviewed by the Controller for accuracy, and the local figures are translated into the reporting currency before they are consolidated.',
+      ar: 'وتُراجَع هذه التقارير من المراقب المالي للتأكد من دقتها، وتُحوَّل الأرقام المحلية إلى عملة التقارير قبل توحيدها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Finally, the closing entries are made.',
+      ar: 'وأخيرًا تُجرى قيود الإقفال.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The temporary accounts—revenue, expenses, and dividends—are closed to Retained Earnings.',
+      ar: 'فتُقفل الحسابات المؤقتة — الإيرادات والمصروفات وتوزيعات الأرباح — في حساب الأرباح المحتجزة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This resets their balances to zero, ready for the next accounting period to begin.',
+      ar: 'وهذا يعيد أرصدتها إلى الصفر استعدادًا لبدء الفترة المحاسبية التالية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The post-closing trial balance is then generated to verify that the ledger is ready for the new month.',
+      ar: 'ثم يُستخرج ميزان المراجعة بعد الإقفال للتحقق من جهوزية الدفتر للشهر الجديد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The entire process is conducted with strict adherence to deadlines.',
+      ar: 'وتُدار العملية كلها بالتزام صارم بالمواعيد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The books are usually closed by the fifth business day of the following month, in every ledger.',
+      ar: 'وتُقفل الدفاتر عادةً بحلول اليوم الخامس من أيام العمل في الشهر التالي، في كل دفتر.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If a material error is found after closing, the books must be reopened, or a prior period adjustment must be made.'
+      en: 'If a material error is found after closing, the books must be reopened, or a prior period adjustment must be made.',
+      ar: 'وإذا وُجد خطأ جوهري بعد الإقفال، فلا بد من إعادة فتح الدفاتر أو إجراء تسوية فترة سابقة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'At NovaCorp, accuracy is prioritized over speed, but the cycle must always be completed efficiently.'
+      en: 'At NovaCorp, accuracy is prioritized over speed, but the cycle must always be completed efficiently.',
+      ar: 'وفي نوفاكورب تُقدَّم الدقة على السرعة، لكن يجب إنجاز الدورة بكفاءة دائمًا.'
     }
   ]
 });
@@ -291,83 +403,166 @@ EFA.scene('u8-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Training the New Hire', cam: { shot: 'mid' } },
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'Training the New Hire',
+      cam: { shot: 'mid' },
+      ar: 'تدريب الموظف الجديد'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Context:A Senior Accountant, Lisa, is explaining the closing process to a trainee, Alex.'
+      en: 'Context:A Senior Accountant, Lisa, is explaining the closing process to a trainee, Alex.',
+      ar: 'السياق: محاسبة أولى، ليزا، تشرح عملية الإقفال لمتدرب يُسمى أليكس.'
     },
-    { who: 'narr', face: 'neutral', en: 'She is describing the steps in the passive voice.' },
-    { who: 'narr', face: 'neutral', en: 'Today we are going to review the month-end closing cycle.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It is important that you understand the sequence because strict procedures must be followed in every one of our offices.'
+      en: 'She is describing the steps in the passive voice.',
+      ar: 'وهي تصف الخطوات بصيغة المبني للمجهول.'
     },
-    { who: 'narr', face: 'thinking', en: 'Where does the process start?' },
-    { who: 'narr', face: 'neutral', en: '"It starts with the source documents.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Throughout the month, all invoices and receipts are collected and scanned.'
+      en: 'Today we are going to review the month-end closing cycle.',
+      ar: 'سنراجع اليوم دورة الإقفال في نهاية الشهر.'
     },
-    { who: 'narr', face: 'neutral', en: 'Then, the transactions are analyzed and journalized.' },
-    { who: 'narr', face: 'neutral', en: 'That means the data is entered into the system daily.' },
-    { who: 'narr', face: 'neutral', en: 'Nothing is left until the last minute.' },
-    { who: 'narr', face: 'thinking', en: 'And after they are entered?' },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"Once the data is entered, it is posted to the General Ledger.'
+      en: 'It is important that you understand the sequence because strict procedures must be followed in every one of our offices.',
+      ar: 'ومن المهم أن تفهم التسلسل، لأن إجراءات صارمة يجب أن تُتبع في كل مكتب من مكاتبنا.'
     },
-    { who: 'narr', face: 'neutral', en: 'This updates the account balances.' },
+    { who: 'narr', face: 'thinking', en: 'Where does the process start?', ar: 'من أين تبدأ العملية؟' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'At the end of the month, the unadjusted trial balance is generated.'
+      en: '"It starts with the source documents.',
+      ar: '"تبدأ بالمستندات الأصلية.'
     },
-    { who: 'narr', face: 'worried', en: 'This document is checked for errors.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Throughout the month, all invoices and receipts are collected and scanned.',
+      ar: 'فعلى مدار الشهر تُجمع جميع الفواتير والإيصالات وتُمسح ضوئيًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Then, the transactions are analyzed and journalized.',
+      ar: 'ثم تُحلَّل العمليات وتُقيَّد في دفتر اليومية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'That means the data is entered into the system daily.',
+      ar: 'أي أن البيانات تُدخل في النظام يوميًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Nothing is left until the last minute.',
+      ar: 'ولا يُترك شيء إلى اللحظة الأخيرة.'
+    },
+    { who: 'narr', face: 'thinking', en: 'And after they are entered?', ar: 'وماذا بعد إدخالها؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Once the data is entered, it is posted to the General Ledger.',
+      ar: '"بمجرد إدخال البيانات تُرحَّل إلى دفتر الأستاذ العام.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This updates the account balances.',
+      ar: 'وهذا يحدّث أرصدة الحسابات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'At the end of the month, the unadjusted trial balance is generated.',
+      ar: 'وفي نهاية الشهر يُستخرج ميزان المراجعة قبل التسوية.'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If the debits and credits do not match, the discrepancy is investigated immediately.'
-    },
-    { who: 'narr', face: 'thinking', en: '"And what about things like depreciation?' },
-    { who: 'narr', face: 'neutral', en: 'They aren’t on the invoices.' },
-    { who: 'narr', face: 'neutral', en: 'That is the next step.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Adjusting entries are made for depreciation, prepaid expenses, and accruals.'
-    },
-    { who: 'narr', face: 'neutral', en: 'These figures are derived from our internal schedules.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'After the adjustments are posted, the adjusted trial balance is prepared.'
-    },
-    { who: 'narr', face: 'thinking', en: '"And then we create the financial statements?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The Income Statement and Balance Sheet are prepared from the adjusted figures.'
+      en: 'This document is checked for errors.',
+      ar: 'ويُفحص هذا المستند بحثًا عن الأخطاء.'
     },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Local balances are translated into the reporting currency before they are consolidated.'
+      face: 'worried',
+      en: 'If the debits and credits do not match, the discrepancy is investigated immediately.',
+      ar: 'وإذا لم يتطابق المدين والدائن، فيُحقَّق في الفرق فورًا.'
     },
-    { who: 'narr', face: 'neutral', en: 'Finally, the books are closed.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"And what about things like depreciation?',
+      ar: '"وماذا عن أمور مثل الإهلاك؟'
+    },
+    { who: 'narr', face: 'neutral', en: 'They aren’t on the invoices.', ar: 'فهي ليست في الفواتير.' },
+    { who: 'narr', face: 'neutral', en: 'That is the next step.', ar: 'هذه هي الخطوة التالية.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The temporary accounts—revenue and expenses—are closed to Retained Earnings.'
+      en: 'Adjusting entries are made for depreciation, prepaid expenses, and accruals.',
+      ar: 'فتُجرى قيود تسوية للإهلاك والمصروفات المقدمة والمستحقات.'
     },
-    { who: 'narr', face: 'neutral', en: 'The final report is then reviewed by the Group CFO.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The entire package must be approved before we send it to the investors.'
+      en: 'These figures are derived from our internal schedules.',
+      ar: 'وتُستخرج هذه الأرقام من جداولنا الداخلية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'After the adjustments are posted, the adjusted trial balance is prepared.',
+      ar: 'وبعد ترحيل التسويات يُعَد ميزان المراجعة المعدّل.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"And then we create the financial statements?',
+      ar: '"ثم نُعِد القوائم المالية؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The Income Statement and Balance Sheet are prepared from the adjusted figures.',
+      ar: 'تُعَد قائمة الدخل وقائمة المركز المالي من الأرقام المعدّلة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Local balances are translated into the reporting currency before they are consolidated.',
+      ar: 'وتُحوَّل الأرصدة المحلية إلى عملة التقارير قبل توحيدها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Finally, the books are closed.',
+      ar: 'وأخيرًا تُقفل الدفاتر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The temporary accounts—revenue and expenses—are closed to Retained Earnings.',
+      ar: 'فتُقفل الحسابات المؤقتة — الإيرادات والمصروفات — في حساب الأرباح المحتجزة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The final report is then reviewed by the Group CFO.',
+      ar: 'ثم يُراجَع التقرير النهائي من المدير المالي للمجموعة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The entire package must be approved before we send it to the investors.',
+      ar: 'ويجب اعتماد الحزمة كاملة قبل إرسالها إلى المستثمرين.'
     }
   ]
 });
@@ -375,36 +570,57 @@ EFA.scene('u8-extension-c5', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The First Consolidated Annual Close', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'It is the end of the first full fiscal year for the newly formed holding company, "Northwind Logistics BV.'
+      face: 'warm',
+      en: 'The First Consolidated Annual Close',
+      cam: { shot: 'mid' },
+      ar: 'أول إقفال سنوي موحَّد'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" The books must be closed to prepare the group\'s first consolidated financial statements for its lenders and shareholders.'
-    },
-    { who: 'narr', face: 'neutral', en: 'This is a significant moment for the group.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'You need to describe the process impersonally to emphasize that the system is objective and follows rules, not personal preference.'
-    },
-    { who: 'narr', face: 'neutral', en: '"The transactions are recorded.' },
-    { who: 'narr', face: 'neutral', en: '" "The trial balance is generated.' },
-    { who: 'narr', face: 'neutral', en: '" "The adjustments are made.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '" You are writing the procedure manual for accountants in all six offices, so the wording must work wherever it is read.'
+      en: 'It is the end of the first full fiscal year for the newly formed holding company, "Northwind Logistics BV.',
+      ar: 'إنها نهاية أول سنة مالية كاملة للشركة القابضة المنشأة حديثًا "نورثويند لوجستيكس بي في".'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You need to explain how the Net Income is derived, how local balances are translated into the reporting currency, and how the final report is reviewed by the external auditors.'
+      en: '" The books must be closed to prepare the group\'s first consolidated financial statements for its lenders and shareholders.',
+      ar: '" ويجب إقفال الدفاتر لإعداد أول قوائم مالية موحَّدة للمجموعة لمقرضيها ومساهميها.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This is a significant moment for the group.',
+      ar: 'وهذه لحظة مهمة للمجموعة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to describe the process impersonally to emphasize that the system is objective and follows rules, not personal preference.',
+      ar: 'وعليك أن تصف العملية وصفًا غير شخصي لتأكيد أن النظام موضوعي يتبع قواعد لا أهواء.'
+    },
+    { who: 'narr', face: 'neutral', en: '"The transactions are recorded.', ar: '"تُسجَّل العمليات.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" "The trial balance is generated.',
+      ar: '" "يُستخرج ميزان المراجعة.'
+    },
+    { who: 'narr', face: 'neutral', en: '" "The adjustments are made.', ar: '" "تُجرى التسويات.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" You are writing the procedure manual for accountants in all six offices, so the wording must work wherever it is read.',
+      ar: '" وأنت تكتب دليل الإجراءات لمحاسبي المكاتب الستة كلها، فيجب أن تصلح الصياغة حيث تُقرأ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to explain how the Net Income is derived, how local balances are translated into the reporting currency, and how the final report is reviewed by the external auditors.',
+      ar: 'وعليك أن تشرح كيف يُستخرج الربح الصافي، وكيف تُحوَّل الأرصدة المحلية إلى عملة التقارير، وكيف يُراجَع التقرير النهائي من المدققين الخارجيين.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

@@ -37,9 +37,23 @@ EFA.page('u9-s10-listening-2', {
           _key: 'narr'
         }
       ],
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       scene: 'u9-listening-2-c1',
-      passage: '<p><b>Context.</b> A recruiter is interviewing a candidate.</p><div class="script"><p>"Tell me about your professional journey. Where have you worked since graduating? I see you have worked at three different companies in five years, in two countries. Have you focused on any specific industry? Also, have you completed your CPA certification or is that something you are still planning to do?"</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: '<b>Context.</b> A recruiter is interviewing a candidate.', speak: false },
+          {
+            h: '"Tell me about your professional journey. Where have you worked since graduating? I see you have worked at three different companies in five years, in two countries. Have you focused on any specific industry? Also, have you completed your CPA certification or is that something you are still planning to do?"',
+            say: 'Tell me about your professional journey. Where have you worked since graduating? I see you have worked at three different companies in five years, in two countries. Have you focused on any specific industry? Also, have you completed your CPA certification or is that something you are still planning to do?'
+          }
+        ],
+        say: { scene: 'u9-listening-2-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'certification', caption: 'Listening · Passage 2: Career Path (Operating Context)' }
     }
   ],

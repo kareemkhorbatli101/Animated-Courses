@@ -39,6 +39,7 @@ EFA.page('u9-s07-grammar-practice', {
         '6': '<b>have changed</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> She <u>has not taken</u> (not / take) her CPA exam yet.',
+      brief: 'Guided practice: every item is decided by the rule above, so when you are unsure, go back up rather than guess.',
       visual: { spot: 'entry', caption: 'Grammar · Guided Practice' }
     }
   ],

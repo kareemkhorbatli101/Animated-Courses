@@ -32,6 +32,7 @@ EFA.page('u2-s18-writing-1', {
         '3b': '<b>was reconciling</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> The meeting started, so I couldn\'t finish the posting. -> I <u>was posting</u> (post) the entries when the meeting ____________________ (start).',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'posting', caption: 'Writing · Guided Writing: Paraphrasing (Past Tenses)' }
     },
     {
@@ -73,7 +74,8 @@ EFA.page('u2-s18-writing-1', {
           'The system crashed during the reconciliation process. -> The system ____________________ (crash) while I ____________________ (reconcile) the bank statement.'
         ]
       },
-      visual: { spot: 'journal', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'journal', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Reconciliation', 'Posting']
     },
     {
       id: 'c3',

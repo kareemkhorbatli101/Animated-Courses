@@ -61,9 +61,71 @@ EFA.page('u1-s10-listening-2', {
           _key: 'accountant'
         }
       ],
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       scene: 'u1-listening-2-c1',
-      passage: '<p><b>Context.</b> A Junior Accountant answers a call from a supplier regarding a payment.</p><div class="script"><p>Accountant: Hello, Accounts Department, Northwind Group. This is Tomás speaking.</p><p>Supplier: Hi Tomás. This is Andina Office Supplies in Santiago. We are checking on Invoice #402. It is overdue.</p><p>Accountant: Let me check the system. One moment... I am looking at your account now.</p><p>Supplier: Does it show as paid?</p><p>Accountant: No, it shows as "Pending." Usually, we pay invoices within 30 days. But this month, we are moving the payment run to Kraków, so there is a small delay.</p><p>Supplier: I see. When can we expect payment?</p><p>Accountant: The payment run happens tomorrow. I am adding your invoice to the list right now.</p><p>Supplier: Thank you, Tomás.</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A Junior Accountant answers a call from a supplier regarding a payment.',
+            speak: false
+          },
+          {
+            h: 'Accountant: Hello, Accounts Department, Northwind Group. This is Tomás speaking.',
+            say: 'Hello, Accounts Department, Northwind Group. This is Tomás speaking.',
+            role: 'spk:Accountant',
+            who: 'Accountant'
+          },
+          {
+            h: 'Supplier: Hi Tomás. This is Andina Office Supplies in Santiago. We are checking on Invoice #402. It is overdue.',
+            say: 'Hi Tomás. This is Andina Office Supplies in Santiago. We are checking on Invoice #402. It is overdue.',
+            role: 'spk:Supplier',
+            who: 'Supplier'
+          },
+          {
+            h: 'Accountant: Let me check the system. One moment... I am looking at your account now.',
+            say: 'Let me check the system. One moment... I am looking at your account now.',
+            role: 'spk:Accountant',
+            who: 'Accountant'
+          },
+          {
+            h: 'Supplier: Does it show as paid?',
+            say: 'Does it show as paid?',
+            role: 'spk:Supplier',
+            who: 'Supplier'
+          },
+          {
+            h: 'Accountant: No, it shows as "Pending." Usually, we pay invoices within 30 days. But this month, we are moving the payment run to Kraków, so there is a small delay.',
+            say: 'No, it shows as "Pending." Usually, we pay invoices within 30 days. But this month, we are moving the payment run to Kraków, so there is a small delay.',
+            role: 'spk:Accountant',
+            who: 'Accountant'
+          },
+          {
+            h: 'Supplier: I see. When can we expect payment?',
+            say: 'I see. When can we expect payment?',
+            role: 'spk:Supplier',
+            who: 'Supplier'
+          },
+          {
+            h: 'Accountant: The payment run happens tomorrow. I am adding your invoice to the list right now.',
+            say: 'The payment run happens tomorrow. I am adding your invoice to the list right now.',
+            role: 'spk:Accountant',
+            who: 'Accountant'
+          },
+          {
+            h: 'Supplier: Thank you, Tomás.',
+            say: 'Thank you, Tomás.',
+            role: 'spk:Supplier',
+            who: 'Supplier'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u1-listening-2-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'invoice', caption: 'Listening · Passage 2: The Vendor Call (Phone Routine)' }
     }
   ],

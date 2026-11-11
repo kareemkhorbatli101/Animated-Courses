@@ -31,6 +31,7 @@ EFA.page('u3-s06-grammar-rule', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'The grammar of this unit, in a document rather than a rule. Notice the form before anyone explains it to you.',
       visual: { spot: 'receipt', caption: 'Grammar · Grammar Context: Professional Politeness' }
     },
     {
@@ -44,7 +45,7 @@ EFA.page('u3-s06-grammar-rule', {
       say: true,
       items: [
         {
-          q: '2. Which modals are used for making a request? Which are used for making an offer?',
+          q: '1. Which modals are used for making a request? Which are used for making an offer?',
           evidence: 'the passage above',
           options: [
             {
@@ -65,7 +66,7 @@ EFA.page('u3-s06-grammar-rule', {
           ]
         },
         {
-          q: '3. Which modal is the most formal way to ask for permission?',
+          q: '2. Which modal is the most formal way to ask for permission?',
           evidence: 'the passage above',
           options: [
             {
@@ -86,7 +87,7 @@ EFA.page('u3-s06-grammar-rule', {
           ]
         },
         {
-          q: '4. What is the difference in formality between Can you...? and Could you...?',
+          q: '3. What is the difference in formality between Can you...? and Could you...?',
           evidence: 'the passage above',
           options: [
             {

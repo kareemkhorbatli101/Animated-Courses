@@ -41,6 +41,7 @@ EFA.page('u5-s03-vocab-gaps', {
         '6': '<b>settle</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> We must <u>chase</u> the customer whose account is 90 days past due.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'forecast', caption: 'Vocabulary · Reporting Verbs' }
     }
   ],

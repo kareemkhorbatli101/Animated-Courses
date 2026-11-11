@@ -24,30 +24,56 @@ EFA.page('u6-s11-listening-3', {
       instruction: 'Read this before you go on.',
       playable: [
         {
-          t: 'Committee Member 1: "If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?',
+          role: 'spk:Committee Member 1',
+          who: 'Committee Member 1',
+          _key: 'committeemember1'
         },
         {
-          t: 'Committee Member 2: "If we had automated exception reporting, we would flag the unusual payment size.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'If we had automated exception reporting, we would flag the unusual payment size. But we don\'t. If we were to investigate every small discrepancy, it would take too much time.',
+          role: 'spk:Committee Member 2',
+          who: 'Committee Member 2',
+          _key: 'committeemember2'
         },
         {
-          t: 'If we were to investigate every small discrepancy, it would take too much time.',
-          role: 'narrator',
-          _key: 'narr'
-        },
-        { t: 'Committee Member 1: "I agree.', role: 'narrator', _key: 'narr' },
-        {
-          t: 'If we don\'t invest in better controls soon, we will face significant exposure next year.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'I agree. If we don\'t invest in better controls soon, we will face significant exposure next year.',
+          role: 'spk:Committee Member 1',
+          who: 'Committee Member 1',
+          _key: 'committeemember1'
         }
       ],
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       scene: 'u6-listening-3-c1',
-      passage: '<p><b>Context.</b> The risk committee is discussing a worst-case scenario.</p><div class="script"><p>Committee Member 1: "If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?"</p><p>Committee Member 2: "If we had automated exception reporting, we would flag the unusual payment size. But we don\'t. If we were to investigate every small discrepancy, it would take too much time."</p><p>Committee Member 1: "I agree. If we don\'t invest in better controls soon, we will face significant exposure next year."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: '<b>Context.</b> The risk committee is discussing a worst-case scenario.', speak: false },
+          {
+            h: 'Committee Member 1: "If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?"',
+            say: 'If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?',
+            role: 'spk:Committee Member 1',
+            who: 'Committee Member 1'
+          },
+          {
+            h: 'Committee Member 2: "If we had automated exception reporting, we would flag the unusual payment size. But we don\'t. If we were to investigate every small discrepancy, it would take too much time."',
+            say: 'If we had automated exception reporting, we would flag the unusual payment size. But we don\'t. If we were to investigate every small discrepancy, it would take too much time.',
+            role: 'spk:Committee Member 2',
+            who: 'Committee Member 2'
+          },
+          {
+            h: 'Committee Member 1: "I agree. If we don\'t invest in better controls soon, we will face significant exposure next year."',
+            say: 'I agree. If we don\'t invest in better controls soon, we will face significant exposure next year.',
+            role: 'spk:Committee Member 1',
+            who: 'Committee Member 1'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u6-listening-3-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'discrepancy',
         caption: 'Listening · Passage 3: Hypothetical Fraud Discussion (Financial Context)'

@@ -48,9 +48,53 @@ EFA.page('u1-s11-listening-3', {
           _key: 'mrfarouk'
         }
       ],
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       scene: 'u1-listening-3-c1',
-      passage: '<p><b>Context.</b> The Group Finance Manager (Mr Farouk) asks his team for updates on a video call.</p><div class="script"><p>Mr Farouk: Good morning everyone. Quick updates, please. Priya, what are you working on?</p><p>Priya: I am finishing the monthly GST return for Singapore. I usually submit it on the 20th, but I am trying to finish it today.</p><p>Mr Farouk: Good. And Ryan?</p><p>Ryan: I am dealing with the petty cash in Toronto. There is a CAD 20 discrepancy. I am recounting the money now.</p><p>Mr Farouk: Okay. Remember, we always investigate errors over ten, in any currency. Keep me updated.</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> The Group Finance Manager (Mr Farouk) asks his team for updates on a video call.',
+            speak: false
+          },
+          {
+            h: 'Mr Farouk: Good morning everyone. Quick updates, please. Priya, what are you working on?',
+            say: 'Good morning everyone. Quick updates, please. Priya, what are you working on?',
+            role: 'spk:Mr Farouk',
+            who: 'Mr Farouk'
+          },
+          {
+            h: 'Priya: I am finishing the monthly GST return for Singapore. I usually submit it on the 20th, but I am trying to finish it today.',
+            say: 'I am finishing the monthly GST return for Singapore. I usually submit it on the 20th, but I am trying to finish it today.',
+            role: 'spk:Priya',
+            who: 'Priya'
+          },
+          {
+            h: 'Mr Farouk: Good. And Ryan?',
+            say: 'Good. And Ryan?',
+            role: 'spk:Mr Farouk',
+            who: 'Mr Farouk'
+          },
+          {
+            h: 'Ryan: I am dealing with the petty cash in Toronto. There is a CAD 20 discrepancy. I am recounting the money now.',
+            say: 'I am dealing with the petty cash in Toronto. There is a CAD 20 discrepancy. I am recounting the money now.',
+            role: 'spk:Ryan',
+            who: 'Ryan'
+          },
+          {
+            h: 'Mr Farouk: Okay. Remember, we always investigate errors over ten, in any currency. Keep me updated.',
+            say: 'Okay. Remember, we always investigate errors over ten, in any currency. Keep me updated.',
+            role: 'spk:Mr Farouk',
+            who: 'Mr Farouk'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u1-listening-3-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'discrepancy', caption: 'Listening · Passage 3: The Morning Meeting (Team Update)' }
     },
     {

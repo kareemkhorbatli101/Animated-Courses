@@ -55,9 +55,18 @@ EFA.page('u5-s17-reading-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u5-reading-3-c1',
-      passage: '<p>Credit exposure is the maximum potential loss the company could incur if a customer or group of customers fails to pay. We need to manage this exposure closely, in every market where we sell. We are going to limit the credit terms for new clients to Net 15 days. We will not extend credit to any client whose financial status is questionable. The Financial Controller is meeting with the Credit Committee every month to review the exposure report. This is a fixed arrangement. This will protect our cash flow from unexpected losses and ensure long-term stability.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Credit exposure is the maximum potential loss the company could incur if a customer or group of customers fails to pay. We need to manage this exposure closely, in every market where we sell. We are going to limit the credit terms for new clients to Net 15 days. We will not extend credit to any client whose financial status is questionable. The Financial Controller is meeting with the Credit Committee every month to review the exposure report. This is a fixed arrangement. This will protect our cash flow from unexpected losses and ensure long-term stability.'
+          }
+        ],
+        say: { scene: 'u5-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'credit', caption: 'Reading · Reading Passage 3: Managing Credit Exposure' }
     },
     {
@@ -149,7 +158,7 @@ EFA.page('u5-s17-reading-3', {
           ]
         },
         {
-          q: '5. What will this monthly review protect?',
+          q: '4. What will this monthly review protect?',
           evidence: 'This will protect our cash flow from unexpected losses and ensure long-term stability.',
           options: [
             {

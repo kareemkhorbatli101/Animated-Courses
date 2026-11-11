@@ -57,6 +57,7 @@ EFA.page('u2-s07-grammar-practice', {
         '6': '<b>was examining</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> The intern <u>was processing</u> the receipts all morning, but he only ____________________ 20 of them. (process / finish)',
+      brief: 'Guided practice: every item is decided by the rule above, so when you are unsure, go back up rather than guess.',
       visual: { spot: 'entry', caption: 'Grammar · Guided Practice' }
     }
   ],

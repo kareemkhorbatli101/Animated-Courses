@@ -18,20 +18,6 @@ EFA.page('u5-s19-writing-2', {
       covers: ['6C'],
       ref: '6C',
       bookRef: 'Unit 5 · 6C',
-      type: 'study',
-      source: 'book',
-      title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
-      instruction: 'Correct the grammar mistakes (Future Forms) in the following email draft. (Only the first one is corrected).',
-      html: '<p>Subject: Payment Run Schedule</p><p>Dear Team,</p>',
-      playable: [{ t: 'Payment Run Schedule', role: 'narrator' }],
-      doneLabel: 'I have read this',
-      visual: { spot: 'invoice', caption: 'Writing · Writing Task 2: Correct the Mistakes (Grammar Focus)' }
-    },
-    {
-      id: 'c2',
-      covers: ['6C'],
-      ref: '6C',
-      bookRef: 'Unit 5 · 6C',
       type: 'writer',
       title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
       instruction: 'Correct the grammar mistakes (Future Forms) in the following email draft. (Only the first one is corrected).',
@@ -64,10 +50,12 @@ EFA.page('u5-s19-writing-2', {
           'The AP Manager is going discuss the new credit terms.'
         ]
       },
-      visual: { spot: 'payment-run', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'payment-run', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.',
+      bank: ['Payment Run', 'Outstanding', 'Settlement', 'Past Due', 'Debtor']
     },
     {
-      id: 'c3',
+      id: 'c2',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 5 · 6D',
@@ -75,7 +63,7 @@ EFA.page('u5-s19-writing-2', {
       source: 'book',
       title: 'Writing Task 3: Planning the Cash Flow (Internal Memo)',
       instruction: 'Focus: Use Will for predictions and Present Continuous for fixed payments/receipts.',
-      html: '<p><b>Context.</b> Write an internal memo (80 words) to the Group CFO forecasting the cash flow for the next two months.</p><p>The forecast shows cash inflow will increase significantly in June. We are receiving the large client settlement on June 5th. I think Accounts Payable will remain stable. We are clearing the three major supplier payments on July 1st. This will ensure we have adequate working capital for the quarter."</p>',
+      html: '<p><b>Context.</b> Write an internal memo (80 words) to the Group CFO forecasting the cash flow for the next two months.</p><p>The forecast shows cash inflow will increase significantly in June. We are receiving the large client settlement on June 5th. I think Accounts Payable will remain stable. We are clearing the three major supplier payments on July 1st. This will ensure we have adequate working capital for the quarter."</p><ol><li>Example: "MEMORANDUM: Cash Flow Forecast (Next 60 Days)</li></ol>',
       playable: [
         { t: 'The forecast shows cash inflow will increase significantly in June.', role: 'narrator' },
         { t: 'We are receiving the large client settlement on June 5th.', role: 'narrator' },
@@ -91,7 +79,7 @@ EFA.page('u5-s19-writing-2', {
       }
     },
     {
-      id: 'c4',
+      id: 'c3',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 5 · 6D',

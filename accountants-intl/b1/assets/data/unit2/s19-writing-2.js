@@ -18,20 +18,6 @@ EFA.page('u2-s19-writing-2', {
       covers: ['6C'],
       ref: '6C',
       bookRef: 'Unit 2 · 6C',
-      type: 'study',
-      source: 'book',
-      title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
-      instruction: 'Correct the grammar mistakes (Past Simple / Past Continuous) in the following email draft. (Only the first one is corrected).',
-      html: '<p>Subject: Missing Receipt Follow-up</p><p>Dear Priya,</p>',
-      playable: [{ t: 'Missing Receipt Follow-up', role: 'narrator' }],
-      doneLabel: 'I have read this',
-      visual: { spot: 'receipt', caption: 'Writing · Writing Task 2: Correct the Mistakes (Grammar Focus)' }
-    },
-    {
-      id: 'c2',
-      covers: ['6C'],
-      ref: '6C',
-      bookRef: 'Unit 2 · 6C',
       type: 'writer',
       title: 'Writing Task 2: Correct the Mistakes (Grammar Focus)',
       instruction: 'Correct the grammar mistakes (Past Simple / Past Continuous) in the following email draft. (Only the first one is corrected).',
@@ -70,10 +56,12 @@ EFA.page('u2-s19-writing-2', {
           'The posting was incomplete because the power was cutting out.'
         ]
       },
-      visual: { spot: 'journal', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'journal', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.',
+      bank: ['Reconciliation', 'Posting', 'Receipt', 'Journal', 'Entry']
     },
     {
-      id: 'c3',
+      id: 'c2',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 2 · 6D',
@@ -81,7 +69,7 @@ EFA.page('u2-s19-writing-2', {
       source: 'book',
       title: 'Writing Task 3: Formal Memo (Discrepancy Report)',
       instruction: 'Focus: Use both Past Simple (completed actions) and Past Continuous (ongoing review).',
-      html: '<p><b>Context.</b> Write a formal memo (80 words) reporting a discrepancy found during a review of last month\'s records. Explain how you found it and what you did to correct it.</p><ol><li>Include: While I was reviewing... I found... The team was posting... We corrected...</li><li>Example: "To: Head of Accounting, From: Review Team. Subject: Reporting a Discrepancy. While I was reviewing the expense batches from last month, I found a EUR 700 discrepancy. We traced the error back to a time when the intern was posting the invoices; he accidentally entered a negative amount. We corrected the journal entry immediately, and the accounts are now fully reconciled."</li></ol>',
+      html: '<p><b>Context.</b> Write a formal memo (80 words) reporting a discrepancy found during a review of last month\'s records. Explain how you found it and what you did to correct it.</p>',
       playable: [],
       doneLabel: 'I have read this',
       visual: {
@@ -91,7 +79,7 @@ EFA.page('u2-s19-writing-2', {
       }
     },
     {
-      id: 'c4',
+      id: 'c3',
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 2 · 6D',
@@ -116,7 +104,8 @@ EFA.page('u2-s19-writing-2', {
           'Example: "To: Head of Accounting, From: Review Team. Subject: Reporting a Discrepancy. While I was reviewing the expense batches from last month, I found a EUR 700 discrepancy. We traced the error back to a time when the intern was posting the invoices; he accidentally entered a negative amount. We corrected the journal entry immediately, and the accounts are now fully reconciled."'
         ]
       },
-      visual: { spot: 'journal', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'journal', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Discrepancy', 'Posting']
     }
   ],
   prev: 's18-writing-1',

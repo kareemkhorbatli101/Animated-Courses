@@ -383,6 +383,50 @@ table.tbl thead th { background:var(--primary); color:#fff; border-color:var(--p
 table.tbl tbody tr:nth-child(even) { background:var(--surface-2); }
 table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-space:nowrap; }
 
+/* ---------- the screen brief ----------
+   Two sentences before the task: what to look for, then what to do with it. Visually a
+   note rather than a heading, because it is read once and then ignored - which is the
+   right outcome for a brief. */
+.brief-card {
+  display:flex; gap:10px; align-items:flex-start;
+  margin:0 0 var(--s-4); padding:10px 12px;
+  background:var(--accent-soft, rgba(0,0,0,.035));
+  border-left:3px solid var(--accent); border-radius:0 var(--r-2) var(--r-2) 0;
+  font-size:14.5px; line-height:1.6;
+}
+.brief-k {
+  flex:0 0 auto; font:700 10.5px/1.9 var(--sans); letter-spacing:.07em;
+  text-transform:uppercase; color:var(--accent); white-space:nowrap;
+}
+:root[data-theme="dark"] .brief-card { background:rgba(255,255,255,.045); }
+@media (max-width:560px) { .brief-card { flex-direction:column; gap:2px; } }
+
+/* ---------- the unit brief ----------
+   What this unit is, before the first exercise. The unit page used to be a numbered
+   list of 22 links under a one-line theme: a learner arriving at "Unit 7 - Budgets and
+   Variance" was told the grammar point and then asked to pick a screen. None of these
+   facts are new - they were in meta.js all along and had never been said to anyone. */
+.brief {
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--r-3);
+  padding:var(--s-5); margin:0 0 var(--s-6);
+}
+.brief h2 { margin:0 0 var(--s-3); font-size:1.05rem; }
+.brief h3 { margin:var(--s-5) 0 var(--s-2); font-size:.95rem; }
+.brief-lede { margin:0 0 var(--s-4); font-size:1.02rem; line-height:1.6; }
+.brief-facts { display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:0; }
+.brief-facts dt {
+  font:600 12px/1.6 var(--sans); color:var(--ink-4);
+  text-transform:uppercase; letter-spacing:.04em; white-space:nowrap;
+}
+.brief-facts dd { margin:0; line-height:1.6; }
+.brief-cando { margin:0; padding-left:1.2em; line-height:1.7; }
+@media (max-width:560px) {
+  /* a two-column definition list at phone width turns every value into one word per
+     line, so it stacks instead */
+  .brief-facts { grid-template-columns:1fr; gap:2px 0; }
+  .brief-facts dt { margin-top:10px; }
+}
+
 /* ---------- reading text ---------- */
 .reading {
   background:var(--surface); border:1px solid var(--border); border-radius:var(--r-3);
@@ -394,6 +438,31 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 :root[data-theme="dark"] .reading.memo { background:#2b2312; border-color:#4d3f1e; }
 .reading h4 { text-align:center; margin-bottom:12px; }
 .reading p { margin:0 0 1em; }
+
+/* A SCRIPT LAID OUT AS A CONVERSATION.
+   `style: 'script'` is set by the builder when the author's paragraphs are
+   speaker-labelled. The speaker's name stays at the start of the paragraph because it
+   is his text, and the hanging indent is what makes the whole thing scannable as a
+   dialogue instead of as prose with colons in it. */
+.reading.script p { margin:0 0 .75em; padding-left:1.2em; text-indent:-1.2em; }
+.reading.script p:last-child { margin-bottom:0; }
+
+/* The stage, folded away on a reading screen. It was a 661 px animation sitting above
+   the passage, which pushed the text a learner is meant to read down to 2,575 px -
+   past the fold, which is why it read as missing even once it was rendering. */
+.stage-fold > summary {
+  cursor:pointer; display:flex; align-items:center; gap:6px;
+  font:600 13px/1.4 var(--sans); color:var(--accent);
+  padding:8px 12px; border:1px solid var(--border); border-radius:var(--r-2);
+  background:var(--surface); width:max-content;
+}
+.stage-fold > summary::-webkit-details-marker { display:none; }
+.stage-fold > summary:hover { border-color:var(--accent); }
+.stage-fold[open] > summary { margin-bottom:10px; }
+
+/* the revealed half of a listening script */
+.reading .passage-body { margin-top:12px; }
+
 .reading .ln { display:block; position:relative; padding-left:38px; }
 .reading .ln::before {
   content:attr(data-n); position:absolute; left:0; top:0; width:26px; text-align:right;

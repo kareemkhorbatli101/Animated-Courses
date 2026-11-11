@@ -81,7 +81,8 @@ EFA.page('u10-s21-review', {
         a: 'An official order or instruction. The first words of the meaning are what settle it: they say what KIND of thing this is, and most of the other options are a different kind.',
         why: 'Done for you. Read the meaning for its FIRST few words: they tell you what kind of thing it is — a document, a person, an action, an amount — and that alone rules out most of the list before you read any further.'
       },
-      visual: { spot: 'variance', caption: 'Variance — one of the words on this list.' }
+      visual: { spot: 'variance', caption: 'Variance — one of the words on this list.' },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.'
     },
     {
       id: 'c2',
@@ -167,20 +168,6 @@ EFA.page('u10-s21-review', {
       covers: ['8D'],
       ref: '8D',
       bookRef: 'Unit 10 · 8D',
-      type: 'study',
-      source: 'book',
-      title: 'Extension Writing: The Meeting Minutes',
-      instruction: 'Write the "Decisions and Actions" section of a meeting minutes (80 words), reporting the results of a discussion on budget approval.',
-      html: '<p>Style: Use formal reporting verbs and Reported Speech.</p>',
-      playable: [{ t: 'Use formal reporting verbs and Reported Speech.', role: 'narrator' }],
-      doneLabel: 'I have read this',
-      visual: { spot: 'manager', caption: 'Review · Extension Writing: The Meeting Minutes', cls: 'vis-sm' }
-    },
-    {
-      id: 'c7',
-      covers: ['8D'],
-      ref: '8D',
-      bookRef: 'Unit 10 · 8D',
       type: 'writer',
       title: 'Extension Writing: The Meeting Minutes',
       instruction: 'Write the "Decisions and Actions" section of a meeting minutes (80 words), reporting the results of a discussion on budget approval.',
@@ -199,7 +186,7 @@ EFA.page('u10-s21-review', {
       visual: { spot: 'reporting', caption: 'Write it the way this unit has been teaching you to.' }
     },
     {
-      id: 'c8',
+      id: 'c7',
       covers: ['8E'],
       ref: '8E',
       bookRef: 'Unit 10 · 8E',
@@ -208,12 +195,31 @@ EFA.page('u10-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can use reporting verbs (assert, mandate, elaborate) correctly. [ ]' },
-        { t: 'I can change the tense of Present Simple to Past Simple in Reported Speech. [ ]' },
-        { t: 'I can accurately report questions using if/whether. [ ]' },
-        { t: 'I can convey urgent messages and directives to a team. [ ]' }
+        { t: 'I can use reporting verbs (assert, mandate, elaborate) correctly.' },
+        { t: 'I can change the tense of Present Simple to Past Simple in Reported Speech.' },
+        { t: 'I can accurately report questions using if/whether.' },
+        { t: 'I can convey urgent messages and directives to a team.' }
       ],
-      visual: { spot: 'reconcile', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+      visual: { spot: 'receipt', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c8',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 10 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        { q: ', quoting an auditor’s exact words)?' },
+        { q: 'If so, when and why?' },
+        {
+          q: 'How can you use Reported Speech to make a negative message sound more professional and less confrontational?'
+        }
+      ],
+      model: 'Direct speech is acceptable when the exact words are the point — if an auditor said the control had failed, management needs to know she said that, not that somebody had concerns. Otherwise reported speech is better, because it lets you keep the message and lose the temperature: “she reported that the balance had not been reconciled” lands where “this is a mess” starts an argument.',
+      visual: { spot: 'stock', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',

@@ -35,9 +35,26 @@ EFA.page('u10-s09-listening-1', {
           _key: 'narr'
         }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u10-listening-1-c1',
-      passage: '<p><b>Context.</b> A Financial Controller is giving a briefing on Q3 performance.</p><div class="script"><p>"Q3 results are mixed. I can confirm that our revenue targets were met, but we have a significant cost variance in the operations department. I expect a detailed explanation of the EUR 50,000 overspend by the end of the week."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A Financial Controller is giving a briefing on Q3 performance.',
+            speak: false
+          },
+          {
+            h: '"Q3 results are mixed. I can confirm that our revenue targets were met, but we have a significant cost variance in the operations department. I expect a detailed explanation of the EUR 50,000 overspend by the end of the week."',
+            say: 'Q3 results are mixed. I can confirm that our revenue targets were met, but we have a significant cost variance in the operations department. I expect a detailed explanation of the EUR 50,000 overspend by the end of the week.'
+          }
+        ],
+        say: { scene: 'u10-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'variance', caption: 'Listening · Passage 1: Quarterly Results (Functional)' }
     },
     {

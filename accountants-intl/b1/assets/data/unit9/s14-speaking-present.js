@@ -18,32 +18,15 @@ EFA.page('u9-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 9 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "My Career Highlight Reel"',
-      instruction: 'Prepare a short presentation (60 seconds) summarizing your top three professional achievements so far. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        { q: 'Opening: "I have worked in accounting for X years."' },
-        { q: 'Highlight 1: "I have successfully streamlined..."' },
-        { q: 'Highlight 2: "I have also obtained the CPA..."' },
-        { q: 'Highlight 3: "Most recently, I have completed the implementation of..."' }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'certification',
-        caption: 'Career history, software skills (Excel, QuickBooks, Xero), recent achievements, and continuous professional education (C'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'Present Perfect Simple',
-        taught: [
-          'Prepare a short presentation (60 seconds) summarizing your top three professional achievements so far.',
-          'Opening: "I have worked in accounting for X years."',
-          'Highlight 1: "I have successfully streamlined..."',
-          'Highlight 2: "I have also obtained the CPA..."'
-        ]
-      },
-      model: 'I have worked in accounting for six years. I have used QuickBooks since 2019 and I have just finished the SAP migration training. I have not taken the CPA exam yet, but I have completed forty hours of CPE this year.'
+      instruction: 'Prepare a short presentation (60 seconds) summarizing your top three professional achievements so far.',
+      html: '<ol><li>Opening: "I have worked in accounting for X years."</li><li>Highlight 1: "I have successfully streamlined..."</li><li>Highlight 2: "I have also obtained the CPA..."</li><li>Highlight 3: "Most recently, I have completed the implementation of..."</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'reporting', caption: 'Speaking · Presentation: "My Career Highlight Reel"' }
     }
   ],
   prev: 's13-speaking-roles',

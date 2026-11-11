@@ -6,16 +6,24 @@ EFA.scene('u10-listening-1-c1', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: '"Q3 results are mixed.', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'I can confirm that our revenue targets were met, but we have a significant cost variance in the operations department.'
+      face: 'warm',
+      en: '"Q3 results are mixed.',
+      cam: { shot: 'mid' },
+      ar: '"نتائج الربع الثالث متباينة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I expect a detailed explanation of the EUR 50,000 overspend by the end of the week.'
+      en: 'I can confirm that our revenue targets were met, but we have a significant cost variance in the operations department.',
+      ar: 'أستطيع أن أؤكد أننا بلغنا مستهدفات الإيراد، لكن لدينا فرقًا كبيرًا في التكاليف في قسم العمليات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I expect a detailed explanation of the EUR 50,000 overspend by the end of the week.',
+      ar: 'وأتوقع شرحًا مفصلًا للإنفاق الزائد بمقدار EUR 50,000 قبل نهاية الأسبوع.'
     }
   ]
 });
@@ -27,17 +35,20 @@ EFA.scene('u10-listening-2-c1', {
       who: 'narr',
       face: 'warm',
       en: '"Our preliminary review shows that the internal controls are generally strong.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"تُظهر مراجعتنا الأولية أن الرقابة الداخلية قوية في عمومها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'However, we must mandate that you change the inventory valuation method to comply with IFRS.'
+      en: 'However, we must mandate that you change the inventory valuation method to comply with IFRS.',
+      ar: 'لكن علينا أن نوعز إليكم بتغيير طريقة تقييم المخزون التزامًا بالمعايير الدولية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We will not issue a clean opinion unless this change is made immediately.'
+      en: 'We will not issue a clean opinion unless this change is made immediately.',
+      ar: 'ولن نصدر رأيًا نظيفًا ما لم يُجرَ هذا التغيير فورًا.'
     }
   ]
 });
@@ -49,17 +60,20 @@ EFA.scene('u10-listening-3-c1', {
       who: 'narr',
       face: 'warm',
       en: '"The Board has made a clear decision: they will authorize the acquisition of the competitor.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: '"اتخذ المجلس قرارًا واضحًا: سيأذن بالاستحواذ على المنافس.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'They emphasized that this was a strategic move to gain market share in two new regions.'
+      en: 'They emphasized that this was a strategic move to gain market share in two new regions.',
+      ar: 'وشدّدوا على أن هذه خطوة استراتيجية لاكتساب حصة سوقية في منطقتين جديدتين.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'They said they had been planning this merger for two years.'
+      en: 'They said they had been planning this merger for two years.',
+      ar: 'وقالوا إنهم كانوا يخططون لهذا الدمج منذ سنتين.'
     }
   ]
 });
@@ -67,22 +81,36 @@ EFA.scene('u10-reading-1-c2', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Q4 Financial Report: Executive Summary', cam: { shot: 'mid' } },
-    { who: 'narr', face: 'neutral', en: 'Overall performance for Q4 met expectations.' },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'The Financial Controller asserted that cost control measures had been highly effective and had improved the net profit ratio to 12%.'
+      face: 'warm',
+      en: 'Q4 Financial Report: Executive Summary',
+      cam: { shot: 'mid' },
+      ar: 'التقرير المالي للربع الرابع: الملخص التنفيذي'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She clarified that while operating expenses were slightly higher than the forecasted figure, the increase was due to one-time IT investments.'
+      en: 'Overall performance for Q4 met expectations.',
+      ar: 'جاء الأداء العام للربع الرابع مطابقًا للتوقعات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Board concluded that the current strategy was sound and mandated no immediate changes to the capital expenditure plan.'
+      en: 'The Financial Controller asserted that cost control measures had been highly effective and had improved the net profit ratio to 12%.',
+      ar: 'وأكّدت المراقبة المالية أن تدابير ضبط التكاليف كانت بالغة الفاعلية وأنها رفعت نسبة الربح الصافي إلى 12%.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She clarified that while operating expenses were slightly higher than the forecasted figure, the increase was due to one-time IT investments.',
+      ar: 'وأوضحت أن المصروفات التشغيلية، وإن كانت أعلى قليلًا من الرقم المتوقع، فإن الزيادة ترجع إلى استثمارات تقنية غير متكررة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The Board concluded that the current strategy was sound and mandated no immediate changes to the capital expenditure plan.',
+      ar: 'وخلص المجلس إلى أن الاستراتيجية الحالية سليمة، ولم يوعز بأي تغييرات فورية في خطة الإنفاق الرأسمالي.'
     }
   ]
 });
@@ -93,11 +121,18 @@ EFA.scene('u10-reading-2-c1', {
     groupfinancemanager: { rig: 'm-50s-a', name: 'Group Finance Manager', at: [0.68, 0.54], voice: 'm' }
   },
   lines: [
-    { who: 'narr', face: 'warm', en: '2025 Capital Expenditure Review', cam: { shot: 'mid' } },
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'Topic: 2025 Capital Expenditure Review',
+      cam: { shot: 'mid' },
+      ar: 'الموضوع: مراجعة الإنفاق الرأسمالي لعام 2025'
+    },
     {
       who: 'groupfinancemanager',
       face: 'neutral',
-      en: 'Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.'
+      en: 'Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.',
+      ar: 'صرّح السيد فاروق بأن موازنة الآلات الجديدة البالغة EUR 2.5 مليون قد اعتُمدت. وشدّد على أن الإنفاق المستقبلي سيُراقَب عن كثب. وسأل رئيس العمليات عمّا إذا كانت الإدارة المالية ستراجع جميع عقود الإيجار الحالية. فقال السيد فاروق إن الإدارة المالية قد بدأت تلك المراجعة في الأسبوع السابق.'
     }
   ]
 });
@@ -105,31 +140,42 @@ EFA.scene('u10-reading-3-c1', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Urgent Update: New VAT Legislation', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Please note that the government has published new VAT legislation.'
+      face: 'warm',
+      en: 'Subject: Urgent Update: New VAT Legislation',
+      cam: { shot: 'mid' },
+      ar: 'الموضوع: تحديث عاجل — تشريع جديد لضريبة القيمة المضافة'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The consultant advised that we must implement the changes by the end of the current month.'
+      en: 'Please note that the government has published new VAT legislation.',
+      ar: 'نرجو العلم بأن الحكومة نشرت تشريعًا جديدًا لضريبة القيمة المضافة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The consultant advised that we must implement the changes by the end of the current month.',
+      ar: 'وقد أفاد المستشار بأن علينا تنفيذ التغييرات قبل نهاية الشهر الحالي.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'He warned that failure to comply would result in heavy penalties.'
+      en: 'He warned that failure to comply would result in heavy penalties.',
+      ar: 'وحذّر من أن عدم الالتزام سيؤدي إلى غرامات باهظة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He added that he would send a detailed implementation guide next week.'
+      en: 'He added that he would send a detailed implementation guide next week.',
+      ar: 'وأضاف أنه سيرسل دليل تنفيذ مفصلًا الأسبوع القادم.'
     },
     {
       who: 'narr',
       face: 'warm',
-      en: 'The team lead inquired whether the new rules applied to services as well as goods.'
+      en: 'The team lead inquired whether the new rules applied to services as well as goods.',
+      ar: 'واستفسر رئيس الفريق عمّا إذا كانت القواعد الجديدة تنطبق على الخدمات كما تنطبق على السلع.'
     }
   ]
 });
@@ -141,98 +187,155 @@ EFA.scene('u10-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'The atmosphere in the boardroom was serious.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'كان الجو في قاعة المجلس جديًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The company, Apex Tech, was navigating a difficult financial quarter, and the executive team was waiting for the report from the Chief Financial Officer (CFO), Mr Sterling.'
+      en: 'The company, Apex Tech, was navigating a difficult financial quarter, and the executive team was waiting for the report from the Chief Financial Officer (CFO), Mr Sterling.',
+      ar: 'فالشركة، أبيكس تك، تمر بربع مالي صعب، والفريق التنفيذي ينتظر تقرير المدير المالي، السيد ستيرلينغ.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'After the meeting concluded, Maria, the Finance Manager, had the task of relaying the key decisions to her team, which is spread across four offices and three time zones.'
+      en: 'After the meeting concluded, Maria, the Finance Manager, had the task of relaying the key decisions to her team, which is spread across four offices and three time zones.',
+      ar: 'وبعد انتهاء الاجتماع كان على ماريا، مديرة الشؤون المالية، أن تنقل القرارات الرئيسية إلى فريقها الموزّع على أربعة مكاتب وثلاث مناطق زمنية.'
     },
-    { who: 'narr', face: 'neutral', en: 'She called a staff meeting to summarize the directives.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She called a staff meeting to summarize the directives.',
+      ar: 'فدعت إلى اجتماع للموظفين لتلخيص التوجيهات.'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'Communication in these moments is critical; misinterpreting a mandate from the board could lead to disastrous errors.'
+      en: 'Communication in these moments is critical; misinterpreting a mandate from the board could lead to disastrous errors.',
+      ar: 'والتواصل في مثل هذه اللحظات بالغ الأهمية؛ فسوء فهم توجيه من المجلس قد يؤدي إلى أخطاء وبيلة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"I have the minutes from the meeting," Maria announced to her team.'
-    },
-    { who: 'narr', face: 'neutral', en: '"I need everyone to listen carefully.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Mr Sterling stated that the revenue targets for Q4 were missed by 5%.'
-    },
-    { who: 'narr', face: 'neutral', en: 'He emphasized that cost control was now our top priority.' },
-    { who: 'narr', face: 'neutral', en: '" The team looked worried.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Maria continued, "He mandated that all departmental budgets be reviewed immediately.'
+      en: '"I have the minutes from the meeting," Maria announced to her team.',
+      ar: 'فأعلنت ماريا لفريقها: "محضر الاجتماع معي".'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He said that we had to find a 10% reduction in operating expenses by the end of the month.'
+      en: '"I need everyone to listen carefully.',
+      ar: '"وأحتاج من الجميع أن يُنصتوا جيدًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Mr Sterling stated that the revenue targets for Q4 were missed by 5%.',
+      ar: 'صرّح السيد ستيرلينغ بأن مستهدفات إيراد الربع الرابع لم تُبلَغ بفارق 5%.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He emphasized that cost control was now our top priority.',
+      ar: 'وشدّد على أن ضبط التكاليف هو أولويتنا الأولى الآن.'
+    },
+    { who: 'narr', face: 'neutral', en: '" The team looked worried.', ar: '" وبدا الفريق قلقًا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Maria continued, "He mandated that all departmental budgets be reviewed immediately.',
+      ar: 'وتابعت ماريا: "وأوعز بأن تُراجَع موازنات الأقسام كلها فورًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He said that we had to find a 10% reduction in operating expenses by the end of the month.',
+      ar: 'وقال إن علينا أن نجد تخفيضًا بنسبة 10% في المصروفات التشغيلية قبل نهاية الشهر.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'One of the analysts asked, "Did he say anything about the hiring freeze?'
+      en: 'One of the analysts asked, "Did he say anything about the hiring freeze?',
+      ar: 'فسأل أحد المحللين: "هل قال شيئًا عن تجميد التعيين؟'
     },
-    { who: 'narr', face: 'neutral', en: '" Maria checked her notes.' },
+    { who: 'narr', face: 'neutral', en: '" Maria checked her notes.', ar: '" فراجعت ماريا ملاحظاتها.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The CEO confirmed that the hiring freeze would remain in place until the new year, in every market.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'She explained that they could not justify bringing on new staff while revenue was down.'
+      en: 'The CEO confirmed that the hiring freeze would remain in place until the new year, in every market.',
+      ar: 'أكّدت الرئيسة التنفيذية أن تجميد التعيين سيبقى ساريًا إلى العام الجديد، في كل سوق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'However, she clarified that this would not affect current interns.'
-    },
-    { who: 'narr', face: 'neutral', en: '" Maria also reported on the new project.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"Regarding the software upgrade, the IT Director reported that the migration had been successful.'
-    },
-    { who: 'narr', face: 'neutral', en: 'He requested that we submit our feedback by Friday.' },
-    { who: 'narr', face: 'neutral', en: 'Maria finished with the most important point.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"Finally, the Board asserted that they still had confidence in the long-term strategy.'
-    },
-    { who: 'narr', face: 'neutral', en: 'They conveyed that this was just a temporary hurdle.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'They asked if we could prepare a revised cash flow forecast, by country, for the next meeting.'
-    },
-    { who: 'narr', face: 'neutral', en: '" The team nodded.' },
-    { who: 'narr', face: 'neutral', en: 'They understood their orders.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The use of clear reporting verbs—stated, mandated, confirmed, requested—left no room for ambiguity.'
+      en: 'She explained that they could not justify bringing on new staff while revenue was down.',
+      ar: 'وأوضحت أنهم لا يستطيعون تبرير استقدام موظفين جدد والإيراد منخفض.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'They knew exactly what had been said and what they needed to do next.'
+      en: 'However, she clarified that this would not affect current interns.',
+      ar: 'لكنها بيّنت أن هذا لن يؤثر في المتدربين الحاليين.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" Maria also reported on the new project.',
+      ar: '" وأفادت ماريا كذلك عن المشروع الجديد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Regarding the software upgrade, the IT Director reported that the migration had been successful.',
+      ar: '"وبشأن تحديث البرنامج، أفاد مدير تقنية المعلومات بأن عملية النقل كانت ناجحة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He requested that we submit our feedback by Friday.',
+      ar: 'وطلب أن نقدّم ملاحظاتنا قبل الجمعة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Maria finished with the most important point.',
+      ar: 'وأنهت ماريا بالنقطة الأهم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Finally, the Board asserted that they still had confidence in the long-term strategy.',
+      ar: '"وأخيرًا، أكّد المجلس أن ثقته بالاستراتيجية طويلة الأمد ما زالت قائمة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They conveyed that this was just a temporary hurdle.',
+      ar: 'ونقلوا أن هذه عقبة مؤقتة فحسب.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They asked if we could prepare a revised cash flow forecast, by country, for the next meeting.',
+      ar: 'وسألوا عمّا إذا كان بوسعنا إعداد توقعات معدّلة للتدفق النقدي، بحسب كل دولة، للاجتماع القادم.'
+    },
+    { who: 'narr', face: 'neutral', en: '" The team nodded.', ar: '" فأومأ الفريق.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They understood their orders.',
+      ar: 'لقد فهموا ما أُوعز إليهم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The use of clear reporting verbs—stated, mandated, confirmed, requested—left no room for ambiguity.',
+      ar: 'فاستخدام أفعال نقل واضحة — صرّح، أوعز، أكّد، طلب — لم يترك مجالًا للغموض.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They knew exactly what had been said and what they needed to do next.',
+      ar: 'وعرفوا بالضبط ما قيل وما عليهم فعله بعد ذلك.'
     }
   ]
 });
@@ -240,136 +343,200 @@ EFA.scene('u10-extension-c3', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Emergency Debrief', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Context:The Finance Manager, Sarah, has just returned from a closed-door meeting with the Board.'
-    },
-    { who: 'narr', face: 'neutral', en: 'She is briefing her team on the directives she received.' },
-    { who: 'narr', face: 'neutral', en: '"Okay everyone, please gather round.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I’ve just come from the meeting with the Group CFO and the Board.'
+      face: 'warm',
+      en: 'The Emergency Debrief',
+      cam: { shot: 'mid' },
+      ar: 'الإحاطة الطارئة'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I need to relay exactly what was discussed because there are some urgent changes.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Please take notes.' },
-    { who: 'narr', face: 'thinking', en: '"Is it bad news, Sarah?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The Group CFO stated that our Q3 revenue was below target.'
+      en: 'Context:The Finance Manager, Sarah, has just returned from a closed-door meeting with the Board.',
+      ar: 'السياق: مديرة الشؤون المالية، سارة، عادت للتو من اجتماع مغلق مع المجلس.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He emphasized that we had to take immediate action to protect our profit margin.'
+      en: 'She is briefing her team on the directives she received.',
+      ar: 'وهي تُحيط فريقها بالتوجيهات التي تلقّتها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He didn’t just ask for ideas; he mandated that we cut operating costs by 10% immediately, in every market.'
-    },
-    { who: 'narr', face: 'thinking', en: '"Does that mean a hiring freeze?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The CEO confirmed that a hiring freeze was in effect as of this morning.'
+      en: '"Okay everyone, please gather round.',
+      ar: '"حسنًا جميعًا، اجتمعوا من فضلكم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She explained that they were not going to approve any new contracts until the new year.'
+      en: 'I’ve just come from the meeting with the Group CFO and the Board.',
+      ar: 'جئت للتو من الاجتماع مع المدير المالي للمجموعة والمجلس.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She also clarified that this applied to the new intern program as well.'
+      en: 'I need to relay exactly what was discussed because there are some urgent changes.',
+      ar: 'وعليّ أن أنقل بالضبط ما نوقش، لأن هناك تغييرات عاجلة.'
     },
-    { who: 'narr', face: 'neutral', en: 'We have to cancel the offers.' },
-    { who: 'narr', face: 'thinking', en: '"What about the software migration project?' },
-    { who: 'narr', face: 'neutral', en: 'We’ve already started it.' },
-    { who: 'narr', face: 'neutral', en: '"I asked about that.' },
+    { who: 'narr', face: 'neutral', en: 'Please take notes.', ar: 'من فضلكم دوّنوا الملاحظات.' },
+    { who: 'narr', face: 'thinking', en: '"Is it bad news, Sarah?', ar: '"هل الخبر سيئ يا سارة؟' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Board inquired whether the project was critical for compliance.'
+      en: 'The Group CFO stated that our Q3 revenue was below target.',
+      ar: 'صرّح المدير المالي للمجموعة بأن إيراد الربع الثالث لدينا جاء تحت المستهدف.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He emphasized that we had to take immediate action to protect our profit margin.',
+      ar: 'وشدّد على أن علينا اتخاذ إجراء فوري لحماية هامش ربحنا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He didn’t just ask for ideas; he mandated that we cut operating costs by 10% immediately, in every market.',
+      ar: 'ولم يطلب أفكارًا فحسب، بل أوعز بأن نخفض التكاليف التشغيلية بنسبة 10% فورًا، في كل سوق.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"Does that mean a hiring freeze?',
+      ar: '"هل يعني ذلك تجميد التعيين؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The CEO confirmed that a hiring freeze was in effect as of this morning.',
+      ar: 'أكّدت الرئيسة التنفيذية أن تجميد التعيين سارٍ منذ هذا الصباح.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She explained that they were not going to approve any new contracts until the new year.',
+      ar: 'وأوضحت أنهم لن يعتمدوا أي عقود جديدة حتى العام الجديد.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She also clarified that this applied to the new intern program as well.',
+      ar: 'وبيّنت أيضًا أن هذا ينطبق على برنامج التدريب الجديد كذلك.'
+    },
+    { who: 'narr', face: 'neutral', en: 'We have to cancel the offers.', ar: 'فعلينا إلغاء العروض.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"What about the software migration project?',
+      ar: '"وماذا عن مشروع نقل البرنامج؟'
+    },
+    { who: 'narr', face: 'neutral', en: 'We’ve already started it.', ar: 'فقد بدأناه بالفعل.' },
+    { who: 'narr', face: 'neutral', en: '"I asked about that.', ar: '"سألت عن ذلك.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The Board inquired whether the project was critical for compliance.',
+      ar: 'استفسر المجلس عمّا إذا كان المشروع حرجًا للالتزام التنظيمي.'
     },
     {
       who: 'narr',
       face: 'warm',
-      en: 'When I told them it was, in three jurisdictions, they agreed that we could continue.'
+      en: 'When I told them it was, in three jurisdictions, they agreed that we could continue.',
+      ar: 'ولما أخبرتهم أنه كذلك في ثلاث ولايات قضائية، وافقوا على أن نتابع.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'However, they requested that we submit a revised budget for the project by Friday.'
+      en: 'However, they requested that we submit a revised budget for the project by Friday.',
+      ar: 'لكنهم طلبوا أن نقدّم موازنة معدّلة للمشروع قبل الجمعة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'They warned that if the budget goes over, they would cancel it.'
+      en: 'They warned that if the budget goes over, they would cancel it.',
+      ar: 'وحذّروا من أنهم سيلغونه إن تجاوزت الموازنة حدها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Auditor asserted that our documentation for travel expenses was poor.'
+      en: 'The Auditor asserted that our documentation for travel expenses was poor.',
+      ar: 'أكّد المدقق أن توثيقنا لمصروفات السفر ضعيف.'
     },
-    { who: 'narr', face: 'neutral', en: 'He said that we had to improve our filing immediately.' },
-    { who: 'narr', face: 'neutral', en: 'So, my instruction to you is: check every receipt.' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He said that we had to improve our filing immediately.',
+      ar: 'وقال إن علينا تحسين نظام حفظنا فورًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'So, my instruction to you is: check every receipt.',
+      ar: 'فتوجيهي إليكم: راجعوا كل إيصال.'
+    }
   ]
 });
 EFA.scene('u10-extension-c5', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Lenders\' Covenant Briefing', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'The Group CFO has just finished a high-level meeting with the syndicate of banks that finances Northwind Group.'
-    },
-    { who: 'narr', face: 'neutral', en: 'You are the Senior Analyst.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'You need to relay the lenders\' strict conditions to the finance leads in all six offices.'
+      face: 'warm',
+      en: 'The Lenders\' Covenant Briefing',
+      cam: { shot: 'mid' },
+      ar: 'إحاطة تعهدات المقرضين'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The lead bank\'s representative stated, "We need to see a 10% reduction in working capital.'
+      en: 'The Group CFO has just finished a high-level meeting with the syndicate of banks that finances Northwind Group.',
+      ar: 'أنهى المدير المالي للمجموعة للتو اجتماعًا رفيع المستوى مع تحالف البنوك الذي يمول مجموعة نورثويند.'
+    },
+    { who: 'narr', face: 'neutral', en: 'You are the Senior Analyst.', ar: 'وأنت المحلل الأول.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to relay the lenders\' strict conditions to the finance leads in all six offices.',
+      ar: 'وعليك أن تنقل شروط المقرضين الصارمة إلى مسؤولي المالية في المكاتب الستة كلها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" You must report this: "He stated that they needed to see a reduction.'
+      en: 'The lead bank\'s representative stated, "We need to see a 10% reduction in working capital.',
+      ar: 'صرّح مندوب البنك الرئيسي: "نحتاج إلى رؤية تخفيض بنسبة 10% في رأس المال العامل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" The Group CFO emphasized, "Transparency is non-negotiable.'
+      en: '" You must report this: "He stated that they needed to see a reduction.',
+      ar: '" وعليك أن تنقل ذلك: "صرّح بأنهم يحتاجون إلى رؤية تخفيض.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" You report: "She emphasized that transparency was non-negotiable.'
+      en: '" The Group CFO emphasized, "Transparency is non-negotiable.',
+      ar: '" وشدّد المدير المالي للمجموعة: "الشفافية غير قابلة للتفاوض.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" You need to write the minutes of the meeting and a memo to the staff conveying these mandates.'
+      en: '" You report: "She emphasized that transparency was non-negotiable.',
+      ar: '" فتنقل أنت: "شدّدت على أن الشفافية غير قابلة للتفاوض.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The tone must be formal and accurate, as misreporting these instructions could breach a covenant — and your readers are working in four languages and five time zones.'
+      en: '" You need to write the minutes of the meeting and a memo to the staff conveying these mandates.',
+      ar: '" وعليك أن تكتب محضر الاجتماع ومذكرة للموظفين تنقل هذه التوجيهات.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The tone must be formal and accurate, as misreporting these instructions could breach a covenant — and your readers are working in four languages and five time zones.',
+      ar: 'ويجب أن تكون النبرة رسمية ودقيقة، فنقل هذه التعليمات نقلًا خاطئًا قد يخل بأحد التعهدات — وقرّاؤك يعملون بأربع لغات وفي خمس مناطق زمنية.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

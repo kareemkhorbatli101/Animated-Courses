@@ -25,6 +25,7 @@ EFA.page('u4-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Low Quantity (Negative)</th><th>Sufficient Quantity (Positive)</th><th>Excessive Quantity (Negative)</th></tr></thead><tbody><tr><td>"There is very little toner."</td><td>"We have a few reams left."</td><td>"We have too many files."</td></tr><tr><td>"We have not much tape."</td><td>"We still have some money in the budget."</td><td>"There is too much old equipment."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'stock', caption: 'Speaking · Functional Language: Reporting Levels' }
     }
   ],

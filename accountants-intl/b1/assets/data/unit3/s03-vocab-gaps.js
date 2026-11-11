@@ -41,6 +41,7 @@ EFA.page('u3-s03-vocab-gaps', {
         '6': '<b>reconcile</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> We need the Financial Controller to <u>approve</u> the purchase order immediately.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'transaction', caption: 'Vocabulary · Transaction Verbs' }
     }
   ],

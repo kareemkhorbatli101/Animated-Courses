@@ -22,10 +22,11 @@ EFA.page('u4-s01-warmup', {
       source: 'book',
       title: 'The Importance of Inventory',
       instruction: 'Discuss in small groups:',
-      html: '<p><b>Context.</b> Inventory management ensures the business has enough supplies without holding excessive stock.</p><ol><li>Name three types of inventory an accounting firm might manage (e.g., stationery, computer paper).</li><li>Why is it important for the Finance Department to track the consumption of supplies?</li><li>What does it mean when an item is considered "obsolete" inventory?</li><li>If you find a major discrepancy between the physical count and the ledger record, what action should you take?</li></ol>',
+      html: '<p><b>Context.</b> Inventory management ensures the business has enough supplies without holding excessive stock.</p>',
       playable: [],
       doneLabel: 'I have read this',
-      visual: { spot: 'ledger', caption: 'Warm-Up · The Importance of Inventory' }
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
+      visual: { spot: 'entry', caption: 'Warm-Up · The Importance of Inventory' }
     },
     {
       id: 'c2',

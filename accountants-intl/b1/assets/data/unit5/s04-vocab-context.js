@@ -18,38 +18,6 @@ EFA.page('u5-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 5 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Cash Flow Meeting',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>The Accounts Payable team in Kraków is preparing for the weekly (1) ________. We must prioritize payments to suppliers to reduce our financial (2) ________. On the Accounts Receivable side, we have a major (3) ________ whose settlement is critical to our cash (4) ________. We need to contact them to discuss the final (5) ________. We must also review the standard credit (6) ________ given to new customers.</p>',
-      playable: [
-        {
-          t: 'The Accounts Payable team in Kraków is preparing for the weekly (1) ________.',
-          role: 'narrator'
-        },
-        {
-          t: 'We must prioritize payments to suppliers to reduce our financial (2) ________.',
-          role: 'narrator'
-        },
-        {
-          t: 'On the Accounts Receivable side, we have a major (3) ________ whose settlement is critical to our cash (4) ________.',
-          role: 'narrator'
-        },
-        { t: 'We need to contact them to discuss the final (5) ________.', role: 'narrator' },
-        {
-          t: 'We must also review the standard credit (6) ________ given to new customers.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'credit', caption: 'Vocabulary · Vocabulary in Context: Cash Flow Meeting' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 5 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Cash Flow Meeting',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -65,11 +33,8 @@ EFA.page('u5-s04-vocab-context', {
       bank: ['debtor', 'exposure', 'inflow', 'payment run', 'settlement', 'terms'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'debtor',
-        caption: 'Vocabulary · Vocabulary in Context: Cash Flow Meeting',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'debtor', caption: 'Vocabulary · Vocabulary in Context: Cash Flow Meeting' }
     }
   ],
   prev: 's03-vocab-gaps',

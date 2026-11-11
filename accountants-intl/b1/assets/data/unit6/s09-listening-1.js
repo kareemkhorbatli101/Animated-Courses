@@ -24,33 +24,59 @@ EFA.page('u6-s09-listening-1', {
       instruction: 'Comprehension Questions:',
       playable: [
         {
-          t: 'Colleague 1: "The bank balance is EUR 500 higher than our ledger balance.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'The bank balance is EUR 500 higher than our ledger balance. I can\'t find the source of the discrepancy.',
+          role: 'spk:Colleague 1',
+          who: 'Colleague 1',
+          _key: 'colleague1'
         },
-        { t: 'I can\'t find the source of the discrepancy.', role: 'narrator', _key: 'narr' },
         {
-          t: 'Colleague 2: "If the bank balance is higher, it will be a deposit we haven\'t recorded yet.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'If the bank balance is higher, it will be a deposit we haven\'t recorded yet. Have you cross-checked the unidentified receipts? If it were an omission, we would see a missing journal entry.',
+          role: 'spk:Colleague 2',
+          who: 'Colleague 2',
+          _key: 'colleague2'
         },
-        { t: 'Have you cross-checked the unidentified receipts?', role: 'narrator', _key: 'narr' },
         {
-          t: 'If it were an omission, we would see a missing journal entry.',
-          role: 'narrator',
-          _key: 'narr'
-        },
-        { t: 'Colleague 1: "Ah, yes.', role: 'narrator', _key: 'narr' },
-        { t: 'I will check the suspense account now.', role: 'narrator', _key: 'narr' },
-        {
-          t: 'If I find the missing deposit, I will rectify the entry before lunch.',
-          role: 'narrator',
-          _key: 'narr'
+          t: 'Ah, yes. I will check the suspense account now. If I find the missing deposit, I will rectify the entry before lunch.',
+          role: 'spk:Colleague 1',
+          who: 'Colleague 1',
+          _key: 'colleague1'
         }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u6-listening-1-c1',
-      passage: '<p><b>Context.</b> Two colleagues are discussing a discrepancy found during reconciliation.</p><div class="script"><p>Colleague 1: "The bank balance is EUR 500 higher than our ledger balance. I can\'t find the source of the discrepancy."</p><p>Colleague 2: "If the bank balance is higher, it will be a deposit we haven\'t recorded yet. Have you cross-checked the unidentified receipts? If it were an omission, we would see a missing journal entry."</p><p>Colleague 1: "Ah, yes. I will check the suspense account now. If I find the missing deposit, I will rectify the entry before lunch."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> Two colleagues are discussing a discrepancy found during reconciliation.',
+            speak: false
+          },
+          {
+            h: 'Colleague 1: "The bank balance is EUR 500 higher than our ledger balance. I can\'t find the source of the discrepancy."',
+            say: 'The bank balance is EUR 500 higher than our ledger balance. I can\'t find the source of the discrepancy.',
+            role: 'spk:Colleague 1',
+            who: 'Colleague 1'
+          },
+          {
+            h: 'Colleague 2: "If the bank balance is higher, it will be a deposit we haven\'t recorded yet. Have you cross-checked the unidentified receipts? If it were an omission, we would see a missing journal entry."',
+            say: 'If the bank balance is higher, it will be a deposit we haven\'t recorded yet. Have you cross-checked the unidentified receipts? If it were an omission, we would see a missing journal entry.',
+            role: 'spk:Colleague 2',
+            who: 'Colleague 2'
+          },
+          {
+            h: 'Colleague 1: "Ah, yes. I will check the suspense account now. If I find the missing deposit, I will rectify the entry before lunch."',
+            say: 'Ah, yes. I will check the suspense account now. If I find the missing deposit, I will rectify the entry before lunch.',
+            role: 'spk:Colleague 1',
+            who: 'Colleague 1'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u6-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'entry', caption: 'Listening · Passage 1: The Discrepancy (Functional)' }
     },
     {

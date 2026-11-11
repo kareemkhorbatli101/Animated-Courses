@@ -25,6 +25,7 @@ EFA.page('u6-s01-warmup', {
       html: '<p><b>Context.</b> In finance, a small mistake can have large consequences. Discuss the potential impact of these common accounting errors.</p><ol><li>Misclassifying a large capital expense as a revenue expense.</li><li>Failing to reconcile the bank statement for two months.</li><li>Making a duplicate payment to a major supplier.</li><li>Understating tax liabilities in one of the group\'s six jurisdictions.</li></ol>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'cash', caption: 'Warm-Up · The Consequences of Errors' }
     },
     {
@@ -36,10 +37,10 @@ EFA.page('u6-s01-warmup', {
       source: 'book',
       title: 'Internal Controls',
       instruction: 'Internal controls are rules and procedures designed to protect assets and ensure the reliability of financial data.',
-      html: '<p>Read the controls below and discuss why each is important.</p>',
+      html: '<p>Read the controls below and discuss why each is important.</p><ol><li>Segregation of Duties: Two different people must handle the receipt of cash and the recording of the transaction.</li><li>Physical Controls: Keeping valuable assets (like inventory or cash) in a secure, locked location.</li><li>Reconciliation: Comparing two independent records (like the bank balance and the ledger balance) to check for discrepancies.</li></ol>',
       playable: [{ t: 'Read the controls below and discuss why each is important.', role: 'narrator' }],
       doneLabel: 'I have read this',
-      visual: { spot: 'budget', caption: 'Warm-Up · Internal Controls', cls: 'vis-sm' }
+      visual: { spot: 'transaction', caption: 'Warm-Up · Internal Controls', cls: 'vis-sm' }
     },
     {
       id: 'c3',

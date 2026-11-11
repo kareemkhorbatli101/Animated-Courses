@@ -22,13 +22,14 @@ EFA.page('u5-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: Discussing an Overdue Account',
       instruction: 'Student A (Colleague): Ask about the settlement (Will). Ask what the AR team is doing (Going to).',
-      html: '<p><b>Context.</b> A colleague (A) is checking on the status of an overdue account.</p><p>Student B (AR Clerk): Confirm they will chase the debtor. Explain what you are going to do next (e.g., send a final notice).</p>',
+      html: '<p><b>Context.</b> A colleague (A) is checking on the status of an overdue account.</p><p>Student B (AR Clerk): Confirm they will chase the debtor. Explain what you are going to do next (e.g., send a final notice).</p><ol><li>A: "Will the client settle the account this week? What are you going to do next?"</li><li>B: "I will chase them again today. We are going to send a final notice this afternoon."</li></ol>',
       playable: [
         { t: 'Student B (AR Clerk): Confirm they will chase the debtor.', role: 'narrator' },
         { t: 'Explain what you are going to do next (e.', role: 'narrator' },
         { t: ', send a final notice).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'debtor', caption: 'Speaking · Role-Play 1: Discussing an Overdue Account' }
     },
     {
@@ -63,7 +64,8 @@ EFA.page('u5-s13-speaking-roles', {
       visual: { spot: 'payment-run', caption: 'Take each card in turn.' },
       remember: [
         'Student B (AR Clerk): Confirm they will chase the debtor. Explain what you are going to do next (e.g., send a final notice).'
-      ]
+      ],
+      bank: ['Settlement', 'Debtor']
     },
     {
       id: 'c3',
@@ -74,7 +76,7 @@ EFA.page('u5-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Scheduling the Payment Run',
       instruction: 'Student A (AP Manager): Suggest a day and time for the payment run (Present Continuous). Ask if the bank transfer will be fast.',
-      html: '<p><b>Context.</b> Two colleagues are scheduling the AP payment run and a meeting.</p><p>Student B (AP Clerk): Confirm the payment run time (Present Continuous). Make a prediction about the speed (Will). Set a fixed arrangement for a follow-up meeting (Present Continuous).</p>',
+      html: '<p><b>Context.</b> Two colleagues are scheduling the AP payment run and a meeting.</p><p>Student B (AP Clerk): Confirm the payment run time (Present Continuous). Make a prediction about the speed (Will). Set a fixed arrangement for a follow-up meeting (Present Continuous).</p><ol><li>A: "We are running the payment on Thursday at 4 PM. Will the bank transfer be fast enough?"</li><li>B: "Thursday at 4 PM is fine. I think the transfer will clear overnight. I am setting up a follow-up meeting for Friday morning."</li></ol>',
       playable: [
         {
           t: 'Student B (AP Clerk): Confirm the payment run time (Present Continuous).',

@@ -42,7 +42,8 @@ EFA.page('u2-s15-reading-1', {
           'What is the first thing you do when you find a discrepancy during reconciliation?'
         ]
       },
-      model: 'When they describe what was happening at the moment something interrupted them — “I was reconciling the bank statement when I found the difference.”'
+      model: 'When they describe what was happening at the moment something interrupted them — “I was reconciling the bank statement when I found the difference.”',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -86,8 +87,16 @@ EFA.page('u2-s15-reading-1', {
         }
       ],
       scene: 'u2-reading-1-c2',
-      passage: '<p>Every employee must submit an expense claim form with attached original receipts. If a receipt is missing, the claim requires a special approval from the department head. Yesterday, the claims department in Kraków processed 50 claims from four countries. An auditor was checking the largest claims while the clerk was scanning the attachments. The auditor spotted that one claim was submitted without the necessary approval form. The clerk stopped the scanning process immediately and sent the claim back.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Every employee must submit an expense claim form with attached original receipts. If a receipt is missing, the claim requires a special approval from the department head. Yesterday, the claims department in Kraków processed 50 claims from four countries. An auditor was checking the largest claims while the clerk was scanning the attachments. The auditor spotted that one claim was submitted without the necessary approval form. The clerk stopped the scanning process immediately and sent the claim back.'
+          }
+        ],
+        say: { scene: 'u2-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'receipt',
         caption: 'Reading · Reading Passage 1: The Expense Claim Procedure',

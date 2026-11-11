@@ -18,35 +18,15 @@ EFA.page('u4-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 4 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "My Inventory Checklist"',
-      instruction: 'You have 60 seconds to explain how you check stock levels for both countable and uncountable items. Use appropriate quantifiers. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        {
-          q: 'Countable Items: I count how many files and laptops we have. If there are only a few left, I place an order.'
-        },
-        {
-          q: 'Uncountable Items: I check how much paper and toner we have. If there is very little ink, I report it immediately.'
-        },
-        { q: 'The Rule: We should not have too much of any item to avoid obsolete stock.' }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'stock',
-        caption: 'Stocktaking, counting assets, ordering office stationery, and managing consumables across the group\'s offices.'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'Countable/Uncountable Nouns & Quantifiers',
-        taught: [
-          'You have 60 seconds to explain how you check stock levels for both countable and uncountable items. Use appropriate quantifiers.',
-          'Countable Items: I count how many files and laptops we have. If there are only a few left, I place an order.',
-          'Uncountable Items: I check how much paper and toner we have. If there is very little ink, I report it immediately.',
-          'The Rule: We should not have too much of any item to avoid obsolete stock.'
-        ]
-      },
-      model: 'I count how many files and laptops we have. If there are only a few left, I place an order. For ink and paper I check how much is on the shelf, because we use too much ink and there is never much paper left by Friday.'
+      instruction: 'You have 60 seconds to explain how you check stock levels for both countable and uncountable items. Use appropriate quantifiers.',
+      html: '<ol><li>Countable Items: I count how many files and laptops we have. If there are only a few left, I place an order.</li><li>Uncountable Items: I check how much paper and toner we have. If there is very little ink, I report it immediately.</li><li>The Rule: We should not have too much of any item to avoid obsolete stock.</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'stock', caption: 'Speaking · Presentation: "My Inventory Checklist"' }
     }
   ],
   prev: 's13-speaking-roles',

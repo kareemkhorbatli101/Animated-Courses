@@ -18,32 +18,21 @@ EFA.page('u1-s03-vocab-gaps', {
       covers: ['1B'],
       ref: '1B',
       bookRef: 'Unit 1 · 1B',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Professional Roles in the Office',
-      instruction: 'Read the descriptions and identify the job title.',
-      html: '<p>"I calculate wages and ensure everyone gets their salary on time, in five different payroll systems." ____________________</p><p>"I enter daily data, record receipts, and reconcile the bank accounts." ____________________</p><p>"I process invoices coming in from suppliers and schedule payments." ____________________</p><p>"I check the company\'s financial records to ensure they are accurate and follow the rules." ____________________</p><p>"I prepare the government returns and calculate how much tax each company owes." ____________________</p>',
-      playable: [
-        {
-          t: '"I calculate wages and ensure everyone gets their salary on time, in five different payroll systems.',
-          role: 'narrator'
-        },
-        {
-          t: '"I enter daily data, record receipts, and reconcile the bank accounts.',
-          role: 'narrator'
-        },
-        { t: '"I process invoices coming in from suppliers and schedule payments.', role: 'narrator' },
-        {
-          t: '"I check the company\'s financial records to ensure they are accurate and follow the rules.',
-          role: 'narrator'
-        },
-        {
-          t: '"I prepare the government returns and calculate how much tax each company owes.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'receipt', caption: 'Vocabulary · Professional Roles in the Office' }
+      instruction: 'Read the descriptions and identify the job title. Every answer is in the word bank below, and each is used once.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>"I calculate wages and ensure everyone gets their salary on time, in five different payroll systems." [[1]]</li><li>"I enter daily data, record receipts, and reconcile the bank accounts." [[2]]</li><li>"I process invoices coming in from suppliers and schedule payments." [[3]]</li><li>"I check the company\'s financial records to ensure they are accurate and follow the rules." [[4]]</li><li>"I prepare the government returns and calculate how much tax each company owes." [[5]]</li></ol></div>',
+      answers: {
+        '1': ['Payroll Clerk', 'payroll clerk'],
+        '2': ['Bookkeeper', 'bookkeeper'],
+        '3': ['Accounts Payable Clerk', 'accounts payable clerk'],
+        '4': ['Auditor', 'auditor'],
+        '5': ['Tax Accountant', 'tax accountant']
+      },
+      bank: ['Accounts Payable Clerk', 'Auditor', 'Bookkeeper', 'Payroll Clerk', 'Tax Accountant'],
+      whyTitle: 'The completed list',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
+      visual: { spot: 'accountant', caption: 'Vocabulary · Professional Roles in the Office' }
     }
   ],
   prev: 's02-vocab-match',

@@ -25,11 +25,12 @@ EFA.page('u2-s05-vocab-build', {
       html: '<p>Example: "I tried to trace the source document, but I could only spot a recording error in the amount."</p>',
       playable: [
         {
-          t: '"I tried to trace the source document, but I could only spot a recording error in the amount.',
+          t: 'Example: "I tried to trace the source document, but I could only spot a recording error in the amount.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'source-document', caption: 'Vocabulary · Collocations for Accounting Errors' }
     },
     {
@@ -119,14 +120,22 @@ EFA.page('u2-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 2 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Related Term</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Reconcile</td><td>Reconciliation</td><td>Reconciling</td><td>"Bank reconciliation is performed monthly in every office."</td></tr><tr><td>Submit</td><td>_________</td><td>Submitter</td><td>"The submission deadline passed yesterday."</td></tr><tr><td>Approve</td><td>_________</td><td>Approved</td><td>"The Financial Controller granted her approval for the payment."</td></tr><tr><td>Process</td><td>Processing</td><td>Processed</td><td>"The volume of data processing in the service centre is very high."</td></tr><tr><td>Verify</td><td>_________</td><td>Verifiable</td><td>"We must ensure the verification of all balances."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'reconcile', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Submit &rarr; <b>Noun</b>: [[1]]</li><li>Approve &rarr; <b>Noun</b>: [[2]]</li><li>Verify &rarr; <b>Noun</b>: [[3]]</li></ol></div>',
+      answers: {
+        '1': ['submission', 'submission', 'Submission'],
+        '2': ['approval', 'approval', 'Approval'],
+        '3': ['verification', 'verification', 'Verification']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"The submission deadline passed yesterday."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The Financial Controller granted her approval for the payment."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"We must ensure the verification of all balances."&rdquo;'
+      ],
+      visual: { spot: 'manager', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

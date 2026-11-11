@@ -18,35 +18,6 @@ EFA.page('u6-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 6 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Internal Audit Report',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>The internal (1) ________ found a significant (2) ________ between the general ledger and the bank statement. This was partially due to an (3) ________ of a large vendor payment. The (4) ________ procedure failed to catch it last month. We must implement stronger internal (5) ________ to prevent this from happening again. The amount has been placed in the (6) ________ account while the cause is being investigated.</p>',
-      playable: [
-        {
-          t: 'The internal (1) ________ found a significant (2) ________ between the general ledger and the bank statement.',
-          role: 'narrator'
-        },
-        { t: 'This was partially due to an (3) ________ of a large vendor payment.', role: 'narrator' },
-        { t: 'The (4) ________ procedure failed to catch it last month.', role: 'narrator' },
-        {
-          t: 'We must implement stronger internal (5) ________ to prevent this from happening again.',
-          role: 'narrator'
-        },
-        {
-          t: 'The amount has been placed in the (6) ________ account while the cause is being investigated.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'ledger', caption: 'Vocabulary · Vocabulary in Context: Internal Audit Report' }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 6 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Internal Audit Report',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -62,11 +33,8 @@ EFA.page('u6-s04-vocab-context', {
       bank: ['audit', 'controls', 'discrepancy', 'omission', 'reconciliation', 'suspense'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'discrepancy',
-        caption: 'Vocabulary · Vocabulary in Context: Internal Audit Report',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'discrepancy', caption: 'Vocabulary · Vocabulary in Context: Internal Audit Report' }
     }
   ],
   prev: 's03-vocab-gaps',

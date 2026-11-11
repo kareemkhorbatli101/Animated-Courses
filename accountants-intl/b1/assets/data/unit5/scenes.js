@@ -4,25 +4,30 @@
    viseme tracks in audio.js. Nothing here is newly written. */
 EFA.scene('u5-listening-1-c1', {
   set: 'accounts',
-  cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
+  cast: {
+    colleague1: { rig: 'f-20s-b', name: 'Colleague 1', at: [0.32, 0.54], voice: 'f' },
+    colleague2: { rig: 'm-20s-b', name: 'Colleague 2', at: [0.68, 0.54], voice: 'm' }
+  },
   lines: [
     {
-      who: 'narr',
-      face: 'warm',
-      en: 'Colleague 1: "We need to schedule the payment run early this week.',
-      cam: { shot: 'mid' }
+      who: 'colleague1',
+      face: 'thinking',
+      en: 'We need to schedule the payment run early this week. Is 3 PM on Wednesday too late?',
+      cam: { shot: 'mid' },
+      ar: 'علينا أن نحدد موعد دورة الدفع في وقت مبكر من هذا الأسبوع. هل الساعة 3 بعد ظهر الأربعاء متأخرة جدًا؟'
     },
-    { who: 'narr', face: 'thinking', en: 'Is 3 PM on Wednesday too late?' },
-    { who: 'narr', face: 'neutral', en: 'Colleague 2: "Wednesday at 3 PM is fine.' },
-    { who: 'narr', face: 'neutral', en: 'I am going to reconcile the bank statements first.' },
-    { who: 'narr', face: 'neutral', en: 'Then, I will prioritize the urgent supplier payments.' },
-    { who: 'narr', face: 'thinking', en: 'Are we going to delay the utilities until Friday?' },
     {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Colleague 1: "No, we are paying the utilities on Thursday morning.'
+      who: 'colleague2',
+      face: 'thinking',
+      en: 'Wednesday at 3 PM is fine. I am going to reconcile the bank statements first. Then, I will prioritize the urgent supplier payments. Are we going to delay the utilities until Friday?',
+      ar: 'الأربعاء في الساعة 3 بعد الظهر مناسب. أنوي تسوية كشوف الحساب البنكية أولًا، ثم سأعطي الأولوية لمدفوعات الموردين العاجلة. هل سنؤجل فواتير الخدمات إلى الجمعة؟'
     },
-    { who: 'narr', face: 'neutral', en: 'That is a fixed arrangement.' }
+    {
+      who: 'colleague1',
+      face: 'neutral',
+      en: 'No, we are paying the utilities on Thursday morning. That is a fixed arrangement.',
+      ar: 'لا، نحن ندفع فواتير الخدمات صباح الخميس. هذا ترتيب ثابت.'
+    }
   ]
 });
 EFA.scene('u5-listening-2-c1', {
@@ -36,17 +41,20 @@ EFA.scene('u5-listening-2-c1', {
       who: 'collector',
       face: 'thinking',
       en: 'Good morning, I am calling about your outstanding invoice 456. It is 60 days past due. When are you going to clear the account?',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'صباح الخير، أتصل بشأن فاتورتكم غير المسددة رقم 456. لقد تجاوزت تاريخ استحقاقها بستين يومًا. متى تنوون تسوية الحساب؟'
     },
     {
       who: 'client',
       face: 'worried',
-      en: 'I am sorry, we had a delay in our cash flow. I will send the full settlement next week, I promise.'
+      en: 'I am sorry, we had a delay in our cash flow. I will send the full settlement next week, I promise.',
+      ar: 'أعتذر، فقد حدث تأخير في تدفقنا النقدي. سأرسل السداد الكامل الأسبوع القادم، أؤكد لك ذلك.'
     },
     {
       who: 'collector',
       face: 'neutral',
-      en: 'Next week is acceptable. I will note that on your account. I am scheduling a follow-up call for Tuesday morning to confirm the receipt of the funds.'
+      en: 'Next week is acceptable. I will note that on your account. I am scheduling a follow-up call for Tuesday morning to confirm the receipt of the funds.',
+      ar: 'الأسبوع القادم مقبول. سأدوّن ذلك في حسابكم. وأنا أحدد موعد اتصال متابعة صباح الثلاثاء لتأكيد وصول المبلغ.'
     }
   ]
 });
@@ -58,30 +66,50 @@ EFA.scene('u5-reading-1-c2', {
       who: 'narr',
       face: 'warm',
       en: 'The Accounts Payable team is responsible for ensuring timely payment to all suppliers.',
-      cam: { shot: 'mid' }
-    },
-    { who: 'narr', face: 'neutral', en: 'The standard credit terms are Net 30 days.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'All invoices must be approved before they are included in the weekly payment run.'
+      cam: { shot: 'mid' },
+      ar: 'فريق الحسابات الدائنة مسؤول عن ضمان سداد مستحقات جميع الموردين في مواعيدها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We are going to run the payment run every Tuesday afternoon, Central European Time.'
+      en: 'The standard credit terms are Net 30 days.',
+      ar: 'ومدة السداد المعتادة هي 30 يومًا صافية.'
     },
-    { who: 'narr', face: 'neutral', en: 'We will prioritize payments to major vendors.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'All invoices must be approved before they are included in the weekly payment run.',
+      ar: 'ويجب اعتماد جميع الفواتير قبل إدراجها في دورة الدفع الأسبوعية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We are going to run the payment run every Tuesday afternoon, Central European Time.',
+      ar: 'ونعتزم تشغيل دورة الدفع بعد ظهر كل ثلاثاء بتوقيت وسط أوروبا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We will prioritize payments to major vendors.',
+      ar: 'وسنعطي الأولوية لمدفوعات الموردين الرئيسيين.'
+    },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If a vendor requests a delay, the AP Manager will review the request.'
+      en: 'If a vendor requests a delay, the AP Manager will review the request.',
+      ar: 'وإذا طلب مورّد تأجيلًا، فسيراجع مدير الحسابات الدائنة الطلب.'
     },
-    { who: 'narr', face: 'worried', en: 'We are not going to delay payments without authorization.' },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'We are not going to delay payments without authorization.',
+      ar: 'ولا ننوي تأجيل أي مدفوعات دون تفويض.'
+    },
     {
       who: 'narr',
       face: 'warm',
-      en: 'This strict schedule will ensure we maintain excellent vendor relationships.'
+      en: 'This strict schedule will ensure we maintain excellent vendor relationships.',
+      ar: 'وهذا الجدول الصارم سيضمن محافظتنا على علاقات ممتازة مع الموردين.'
     }
   ]
 });
@@ -93,28 +121,38 @@ EFA.scene('u5-reading-2-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Our Collections Strategy is designed to reduce the volume of past due invoices.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'صُممت استراتيجية التحصيل لدينا لتقليص حجم الفواتير المتأخرة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'When an invoice is 30 days past due, the AR team is going to send a formal email reminder.'
+      en: 'When an invoice is 30 days past due, the AR team is going to send a formal email reminder.',
+      ar: 'فعندما تتأخر الفاتورة 30 يومًا، ينوي فريق الحسابات المدينة إرسال رسالة تذكير رسمية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'At 60 days, we will call the debtor to arrange a settlement.'
+      en: 'At 60 days, we will call the debtor to arrange a settlement.',
+      ar: 'وعند 60 يومًا سنتصل بالمدين للاتفاق على تسوية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'For 90-day outstanding invoices, we are scheduling a final notice that will suspend their credit.'
+      en: 'For 90-day outstanding invoices, we are scheduling a final notice that will suspend their credit.',
+      ar: 'وأما الفواتير غير المسددة منذ 90 يومًا فنحن نحدد موعد إشعار نهائي يوقف تسهيلاتهم الائتمانية.'
     },
-    { who: 'narr', face: 'neutral', en: 'We are going to review the top debtors list weekly.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This will help us to clear the account before it is transferred to an external agency.'
+      en: 'We are going to review the top debtors list weekly.',
+      ar: 'ونعتزم مراجعة قائمة كبار المدينين أسبوعيًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This will help us to clear the account before it is transferred to an external agency.',
+      ar: 'وهذا سيساعدنا على تسوية الحساب قبل إحالته إلى جهة تحصيل خارجية.'
     }
   ]
 });
@@ -126,33 +164,39 @@ EFA.scene('u5-reading-3-c1', {
       who: 'narr',
       face: 'worried',
       en: 'Credit exposure is the maximum potential loss the company could incur if a customer or group of customers fails to pay.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'التعرض الائتماني هو أقصى خسارة محتملة قد تتكبدها الشركة إذا تعذّر السداد على عميل أو مجموعة عملاء.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We need to manage this exposure closely, in every market where we sell.'
+      en: 'We need to manage this exposure closely, in every market where we sell.',
+      ar: 'وعلينا إدارة هذا التعرض بدقة في كل سوق نبيع فيه.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We are going to limit the credit terms for new clients to Net 15 days.'
+      en: 'We are going to limit the credit terms for new clients to Net 15 days.',
+      ar: 'ونعتزم تقييد مدة السداد للعملاء الجدد بخمسة عشر يومًا صافية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We will not extend credit to any client whose financial status is questionable.'
+      en: 'We will not extend credit to any client whose financial status is questionable.',
+      ar: 'ولن نمنح تسهيلات ائتمانية لأي عميل وضعه المالي محل شك.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Financial Controller is meeting with the Credit Committee every month to review the exposure report.'
+      en: 'The Financial Controller is meeting with the Credit Committee every month to review the exposure report.',
+      ar: 'والمراقب المالي يجتمع بلجنة الائتمان كل شهر لمراجعة تقرير التعرض.'
     },
-    { who: 'narr', face: 'neutral', en: 'This is a fixed arrangement.' },
+    { who: 'narr', face: 'neutral', en: 'This is a fixed arrangement.', ar: 'وهذا ترتيب ثابت.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This will protect our cash flow from unexpected losses and ensure long-term stability.'
+      en: 'This will protect our cash flow from unexpected losses and ensure long-term stability.',
+      ar: 'وهذا سيحمي تدفقنا النقدي من خسائر غير متوقعة ويضمن استقرارًا طويل الأمد.'
     }
   ]
 });
@@ -164,98 +208,198 @@ EFA.scene('u5-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'The finance department at SolarTech Innovations is facing a critical week.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'يواجه قسم الشؤون المالية في شركة سولارتك إنوفيشنز أسبوعًا حرجًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The company has grown rapidly, but this expansion has put a strain on their cash flow.'
+      en: 'The company has grown rapidly, but this expansion has put a strain on their cash flow.',
+      ar: 'فقد نمت الشركة سريعًا، لكن هذا التوسع أثقل تدفقها النقدي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Accounts Receivable (AR) team and the Accounts Payable (AP) team are meeting on Monday morning to plan their strategy.'
+      en: 'The Accounts Receivable (AR) team and the Accounts Payable (AP) team are meeting on Monday morning to plan their strategy.',
+      ar: 'ويجتمع فريق الحسابات المدينة وفريق الحسابات الدائنة صباح الاثنين لوضع استراتيجيتهما.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Finance Director, Ms Lin, opens the meeting with a serious tone.'
+      en: 'The Finance Director, Ms Lin, opens the meeting with a serious tone.',
+      ar: 'وتفتتح مديرة الشؤون المالية، السيدة لين، الاجتماع بنبرة جدية.'
     },
-    { who: 'narr', face: 'neutral', en: '"We are going to have a tight month," she says.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"We have several large invoices coming due in three currencies, and our bank balance is lower than usual.'
+      en: '"We are going to have a tight month," she says.',
+      ar: 'فتقول: "سيكون شهرًا ضيقًا".'
     },
-    { who: 'narr', face: 'warm', en: 'We need to synchronize our inflows and outflows perfectly.' },
-    { who: 'narr', face: 'neutral', en: 'First, Ms Lin turns to the AR manager.' },
-    { who: 'narr', face: 'thinking', en: '"What is the status of the Omega Corp account?' },
-    { who: 'narr', face: 'neutral', en: '"They are our biggest debtor.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" The AR manager replies, "I am calling them this afternoon at 2 PM their time.'
+      en: '"We have several large invoices coming due in three currencies, and our bank balance is lower than usual.',
+      ar: '"فلدينا عدة فواتير كبيرة تستحق بثلاث عملات، ورصيدنا البنكي أدنى من المعتاد.'
     },
-    { who: 'narr', face: 'neutral', en: 'That is a fixed arrangement.' },
-    { who: 'narr', face: 'neutral', en: 'I think they will pay the full settlement by Wednesday.' },
-    { who: 'narr', face: 'neutral', en: 'However, their invoice is already 45 days past due.' },
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'We need to synchronize our inflows and outflows perfectly.',
+      ar: 'وعلينا أن نزامن مقبوضاتنا ومدفوعاتنا بدقة تامة.'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"If they don\'t pay by Wednesday, we are going to suspend their credit terms.'
+      en: 'First, Ms Lin turns to the AR manager.',
+      ar: 'أولًا، تتوجه السيدة لين إلى مديرة الحسابات المدينة.'
     },
-    { who: 'narr', face: 'neutral', en: 'We cannot afford to extend more credit to them right now.' },
-    { who: 'narr', face: 'neutral', en: 'Next, the discussion shifts to Accounts Payable.' },
-    { who: 'narr', face: 'neutral', en: 'The AP clerk looks nervous.' },
-    { who: 'narr', face: 'neutral', en: '"We are scheduling the payment run for Friday," he says.' },
-    { who: 'narr', face: 'neutral', en: '"But we have three major suppliers demanding payment now.' },
-    { who: 'narr', face: 'neutral', en: 'If we pay them all, we will overdraw the account.' },
-    { who: 'narr', face: 'neutral', en: '" Ms Lin looks at the cash forecast.' },
-    { who: 'narr', face: 'neutral', en: '"Okay, here is the plan.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: '"What is the status of the Omega Corp account?',
+      ar: '"ما حال حساب شركة أوميغا؟'
+    },
+    { who: 'narr', face: 'neutral', en: '"They are our biggest debtor.', ar: '"فهم أكبر مديني لدينا.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" The AR manager replies, "I am calling them this afternoon at 2 PM their time.',
+      ar: '" فتجيب مديرة الحسابات المدينة: "أنا أتصل بهم بعد الظهر في الساعة 2 بتوقيتهم.'
+    },
+    { who: 'narr', face: 'neutral', en: 'That is a fixed arrangement.', ar: 'وهذا ترتيب ثابت.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I think they will pay the full settlement by Wednesday.',
+      ar: 'وأظن أنهم سيسددون المبلغ كاملًا بحلول الأربعاء.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'However, their invoice is already 45 days past due.',
+      ar: 'لكن فاتورتهم متأخرة 45 يومًا بالفعل.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"If they don\'t pay by Wednesday, we are going to suspend their credit terms.',
+      ar: '"فإن لم يسددوا بحلول الأربعاء، فنحن ننوي إيقاف تسهيلاتهم الائتمانية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We cannot afford to extend more credit to them right now.',
+      ar: 'فلا نستطيع منحهم ائتمانًا إضافيًا في الوقت الحالي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Next, the discussion shifts to Accounts Payable.',
+      ar: 'ثم ينتقل الحديث إلى الحسابات الدائنة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The AP clerk looks nervous.',
+      ar: 'ويبدو كاتب الحسابات الدائنة متوترًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"We are scheduling the payment run for Friday," he says.',
+      ar: 'فيقول: "نحن نحدد موعد دورة الدفع يوم الجمعة".'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"But we have three major suppliers demanding payment now.',
+      ar: '"لكن لدينا ثلاثة موردين رئيسيين يطالبون بالسداد الآن.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If we pay them all, we will overdraw the account.',
+      ar: 'وإن سددنا لهم جميعًا، فسيصبح الحساب مكشوفًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" Ms Lin looks at the cash forecast.',
+      ar: '" فتنظر السيدة لين في توقعات النقد.'
+    },
+    { who: 'narr', face: 'neutral', en: '"Okay, here is the plan.', ar: '"حسنًا، هذه هي الخطة.' },
     {
       who: 'narr',
       face: 'worried',
-      en: 'We are going to delay the payment to the stationery supplier until next week.'
-    },
-    { who: 'narr', face: 'neutral', en: 'I will call them personally to explain.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'However, we must pay the electricity and the server hosting fees today.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Those are non-negotiable.' },
-    { who: 'narr', face: 'neutral', en: 'The team agrees on the plan.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'They know that cash flow management is about timing, and that a payment released on a Friday afternoon in one country may not clear until Tuesday in another.'
+      en: 'We are going to delay the payment to the stationery supplier until next week.',
+      ar: 'ننوي تأجيل السداد لمورّد القرطاسية إلى الأسبوع القادم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"I am going to prepare a new credit exposure report for the board," Ms Lin adds.'
+      en: 'I will call them personally to explain.',
+      ar: 'وسأتصل بهم شخصيًا لأوضح الأمر.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"In the future, we will not offer Net 60 terms to new clients.'
+      en: 'However, we must pay the electricity and the server hosting fees today.',
+      ar: 'لكن علينا سداد فاتورة الكهرباء ورسوم استضافة الخادم اليوم.'
     },
-    { who: 'narr', face: 'neutral', en: '" The meeting concludes with a sense of urgency.' },
+    { who: 'narr', face: 'neutral', en: 'Those are non-negotiable.', ar: 'فهذه غير قابلة للتأجيل.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Everyone knows what they are doing for the rest of the week.'
+      en: 'The team agrees on the plan.',
+      ar: 'ويوافق الفريق على الخطة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The AR team is chasing money, and the AP team is carefully managing the outflow.'
+      en: 'They know that cash flow management is about timing, and that a payment released on a Friday afternoon in one country may not clear until Tuesday in another.',
+      ar: 'فهم يعلمون أن إدارة التدفق النقدي مسألة توقيت، وأن دفعة تُفرج بعد ظهر الجمعة في دولة قد لا تُقيَّد قبل الثلاثاء في دولة أخرى.'
     },
-    { who: 'narr', face: 'neutral', en: 'If the Omega Corp money arrives, the pressure will lift.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If not, Ms Lin will have to make some difficult phone calls.'
+      en: '"I am going to prepare a new credit exposure report for the board," Ms Lin adds.',
+      ar: 'وتضيف السيدة لين: "أنوي إعداد تقرير جديد عن التعرض الائتماني لمجلس الإدارة".'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"In the future, we will not offer Net 60 terms to new clients.',
+      ar: '"ولن نمنح العملاء الجدد مستقبلًا مدة سداد ستين يومًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" The meeting concludes with a sense of urgency.',
+      ar: '" وينتهي الاجتماع بإحساس بالعجلة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Everyone knows what they are doing for the rest of the week.',
+      ar: 'والجميع يعرف ما سيفعله في بقية الأسبوع.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The AR team is chasing money, and the AP team is carefully managing the outflow.',
+      ar: 'فريق الحسابات المدينة يتابع التحصيل، وفريق الحسابات الدائنة يدير المدفوعات بحذر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If the Omega Corp money arrives, the pressure will lift.',
+      ar: 'فإن وصل مبلغ شركة أوميغا، انزاح الضغط.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If not, Ms Lin will have to make some difficult phone calls.',
+      ar: 'وإلا فسيكون على السيدة لين أن تُجري اتصالات صعبة.'
     }
   ]
 });
@@ -263,80 +407,167 @@ EFA.scene('u5-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Weekly Cash Flow Meeting', cam: { shot: 'mid' } },
+    {
+      who: 'narr',
+      face: 'warm',
+      en: 'The Weekly Cash Flow Meeting',
+      cam: { shot: 'mid' },
+      ar: 'اجتماع التدفق النقدي الأسبوعي'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Context:The Finance Director, Ms Lee, is holding a meeting with the Accounts Payable (AP) and Accounts Receivable (AR) leads to plan the week\'s finances.'
+      en: 'Context:The Finance Director, Ms Lee, is holding a meeting with the Accounts Payable (AP) and Accounts Receivable (AR) leads to plan the week\'s finances.',
+      ar: 'السياق: مديرة الشؤون المالية، السيدة لي، تعقد اجتماعًا مع مسؤولي الحسابات الدائنة والحسابات المدينة لتخطيط مالية الأسبوع.'
     },
-    { who: 'narr', face: 'warm', en: '"Good morning, everyone.' },
-    { who: 'narr', face: 'neutral', en: 'Let’s look at the schedule for the week.' },
-    { who: 'narr', face: 'neutral', en: 'We need to manage our cash flow carefully.' },
-    { who: 'narr', face: 'neutral', en: 'John, start with Accounts Payable.' },
-    { who: 'narr', face: 'thinking', en: 'What is happening with the payment run?' },
+    { who: 'narr', face: 'warm', en: '"Good morning, everyone.', ar: '"صباح الخير جميعًا.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"Well, Ms Lee, we are scheduling the main payment run for Thursday afternoon.'
+      en: 'Let’s look at the schedule for the week.',
+      ar: 'لننظر في جدول الأسبوع.'
     },
-    { who: 'narr', face: 'neutral', en: 'We have a lot of outstanding invoices.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I am going to prioritize the utility bills and the rent, because those are fixed arrangements.'
+      en: 'We need to manage our cash flow carefully.',
+      ar: 'علينا إدارة تدفقنا النقدي بحذر.'
     },
-    { who: 'narr', face: 'worried', en: 'We cannot delay them.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'John, start with Accounts Payable.',
+      ar: 'جون، ابدأ بالحسابات الدائنة.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'What is happening with the payment run?',
+      ar: 'ما حال دورة الدفع؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"Well, Ms Lee, we are scheduling the main payment run for Thursday afternoon.',
+      ar: '"سيدة لي، نحن نحدد موعد دورة الدفع الرئيسية بعد ظهر الخميس.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We have a lot of outstanding invoices.',
+      ar: 'فلدينا فواتير كثيرة غير مسددة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I am going to prioritize the utility bills and the rent, because those are fixed arrangements.',
+      ar: 'وأنوي إعطاء الأولوية لفواتير الخدمات والإيجار، لأنها ترتيبات ثابتة.'
+    },
+    { who: 'narr', face: 'worried', en: 'We cannot delay them.', ar: 'فلا نستطيع تأجيلها.' },
     {
       who: 'narr',
       face: 'worried',
-      en: 'However, I think we will delay the payment to the stationery vendor until next week.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Their invoice is not past due yet.' },
-    { who: 'narr', face: 'worried', en: '"Okay, delaying the vendor is a good idea.' },
-    { who: 'narr', face: 'neutral', en: 'We need to keep cash in the bank.' },
-    { who: 'narr', face: 'thinking', en: 'Now, Susan, what about Accounts Receivable?' },
-    { who: 'narr', face: 'thinking', en: 'Who are you chasing?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"I am meeting with our largest debtor, Apex Construction, tomorrow morning at 10 AM their time.'
-    },
-    { who: 'narr', face: 'neutral', en: 'That is confirmed.' },
-    { who: 'narr', face: 'neutral', en: 'They owe us EUR 50,000.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I think they will settle the account this week, but they are asking for an extension on the credit terms.'
-    },
-    { who: 'narr', face: 'neutral', en: '"Do not extend the terms.' },
-    { who: 'narr', face: 'neutral', en: 'Their debt is already 60 days outstanding.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Tell them that if they don’t pay, we are going to suspend their credit.'
-    },
-    { who: 'narr', face: 'thinking', en: 'What about the smaller accounts?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: '"My team is going to send out reminder emails to all clients with invoices over 30 days old.'
-    },
-    { who: 'narr', face: 'neutral', en: 'We are doing that this afternoon, in two languages.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I predict that this action will bring in about EUR 10,000 by Friday.'
+      en: 'However, I think we will delay the payment to the stationery vendor until next week.',
+      ar: 'لكني أظن أننا سنؤجل السداد لمورّد القرطاسية إلى الأسبوع القادم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'So, to summarize: John is paying the utilities on Thursday, and Susan is pushing for the Apex settlement tomorrow.'
+      en: 'Their invoice is not past due yet.',
+      ar: 'ففاتورته لم تتجاوز تاريخ استحقاقها بعد.'
     },
-    { who: 'narr', face: 'neutral', en: 'If Apex pays, our cash flow forecast will look positive.' },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '"Okay, delaying the vendor is a good idea.',
+      ar: '"حسنًا، تأجيل المورّد فكرة جيدة.'
+    },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'If they don’t, we are going to have a difficult meeting with the Group CFO next Monday.'
+      en: 'We need to keep cash in the bank.',
+      ar: 'فعلينا الإبقاء على نقد في البنك.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Now, Susan, what about Accounts Receivable?',
+      ar: 'الآن يا سوزان، ماذا عن الحسابات المدينة؟'
+    },
+    { who: 'narr', face: 'thinking', en: 'Who are you chasing?', ar: 'من تتابعين؟' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"I am meeting with our largest debtor, Apex Construction, tomorrow morning at 10 AM their time.',
+      ar: '"أنا أجتمع بأكبر مديني لدينا، شركة أبيكس للإنشاءات، صباح الغد في الساعة 10 بتوقيتهم.'
+    },
+    { who: 'narr', face: 'neutral', en: 'That is confirmed.', ar: 'وهذا مؤكد.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They owe us EUR 50,000.',
+      ar: 'وهم مدينون لنا بمبلغ EUR 50,000.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I think they will settle the account this week, but they are asking for an extension on the credit terms.',
+      ar: 'وأظن أنهم سيسوّون الحساب هذا الأسبوع، لكنهم يطلبون تمديد مدة السداد.'
+    },
+    { who: 'narr', face: 'neutral', en: '"Do not extend the terms.', ar: '"لا تمدّدي المدة.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Their debt is already 60 days outstanding.',
+      ar: 'فدينهم غير مسدد منذ 60 يومًا بالفعل.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Tell them that if they don’t pay, we are going to suspend their credit.',
+      ar: 'أخبريهم أننا ننوي إيقاف تسهيلاتهم الائتمانية إن لم يسددوا.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'What about the smaller accounts?',
+      ar: 'وماذا عن الحسابات الأصغر؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"My team is going to send out reminder emails to all clients with invoices over 30 days old.',
+      ar: '"ينوي فريقي إرسال رسائل تذكير إلى كل عميل لديه فواتير تجاوزت ثلاثين يومًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We are doing that this afternoon, in two languages.',
+      ar: 'ونحن نفعل ذلك بعد الظهر، بلغتين.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I predict that this action will bring in about EUR 10,000 by Friday.',
+      ar: 'وأتوقع أن يجلب هذا نحو EUR 10,000 بحلول الجمعة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'So, to summarize: John is paying the utilities on Thursday, and Susan is pushing for the Apex settlement tomorrow.',
+      ar: 'خلاصة الأمر: جون يسدد فواتير الخدمات يوم الخميس، وسوزان تسعى إلى تسوية أبيكس غدًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If Apex pays, our cash flow forecast will look positive.',
+      ar: 'فإن سددت أبيكس، بدت توقعات تدفقنا النقدي إيجابية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'If they don’t, we are going to have a difficult meeting with the Group CFO next Monday.',
+      ar: 'وإن لم تسدد، فسيكون لنا اجتماع صعب مع المدير المالي للمجموعة الاثنين القادم.'
     }
   ]
 });
@@ -344,37 +575,68 @@ EFA.scene('u5-extension-c5', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Baltic Warehouse Project', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'You are working for Northwind Logistics, the group\'s distribution arm.'
+      face: 'warm',
+      en: 'The Baltic Warehouse Project',
+      cam: { shot: 'mid' },
+      ar: 'مشروع مستودع البلطيق'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You are managing the cash flow for a major project to build a new warehouse and rail siding outside Gdańsk.'
-    },
-    { who: 'narr', face: 'neutral', en: 'You have two main pressures:' },
-    { who: 'narr', face: 'neutral', en: 'You are scheduling a payment run for next Tuesday.' },
-    { who: 'narr', face: 'neutral', en: 'You are in a meeting to plan the next month.' },
-    { who: 'narr', face: 'neutral', en: 'You need to discuss fixed arrangements (e.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: ', "We are paying the contractor tomorrow"), predictions (e.'
+      en: 'You are working for Northwind Logistics, the group\'s distribution arm.',
+      ar: 'أنت تعمل في نورثويند لوجستيكس، ذراع التوزيع في المجموعة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: ', "I think the drawdown will arrive on Friday"), and intentions (e.'
+      en: 'You are managing the cash flow for a major project to build a new warehouse and rail siding outside Gdańsk.',
+      ar: 'وأنت تدير التدفق النقدي لمشروع كبير لبناء مستودع جديد وخط سكة فرعي خارج غدانسك.'
     },
-    { who: 'narr', face: 'neutral', en: ', "We are going to chase the debtor").' },
+    { who: 'narr', face: 'neutral', en: 'You have two main pressures:', ar: 'ولديك ضغطان رئيسيان:' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You must balance the inflow and outflow to avoid a liquidity crisis, remembering that a transfer sent on Friday in one country may not clear until Tuesday in another.'
+      en: 'You are scheduling a payment run for next Tuesday.',
+      ar: 'أنت تحدد موعد دورة دفع للثلاثاء القادم.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You are in a meeting to plan the next month.',
+      ar: 'وأنت في اجتماع لتخطيط الشهر القادم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to discuss fixed arrangements (e.',
+      ar: 'وعليك أن تناقش الترتيبات الثابتة (مثل'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: ', "We are paying the contractor tomorrow"), predictions (e.',
+      ar: '"ندفع للمتعاقد غدًا")، والتوقعات (مثل'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: ', "I think the drawdown will arrive on Friday"), and intentions (e.',
+      ar: '"أظن أن السحب سيصل يوم الجمعة")، والنوايا (مثل'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: ', "We are going to chase the debtor").',
+      ar: '"ننوي متابعة المدين").'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You must balance the inflow and outflow to avoid a liquidity crisis, remembering that a transfer sent on Friday in one country may not clear until Tuesday in another.',
+      ar: 'وعليك أن توازن بين المقبوضات والمدفوعات لتجنّب أزمة سيولة، مع تذكّر أن تحويلًا يُرسل يوم الجمعة في دولة قد لا يُقيَّد قبل الثلاثاء في دولة أخرى.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

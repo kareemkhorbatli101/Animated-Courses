@@ -22,7 +22,7 @@ EFA.page('u8-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: The Onboarding Training',
       instruction: 'Student A (Senior): Describe the first three steps of closing the books using the Passive Voice (The books are closed...).',
-      html: '<p><b>Context.</b> A senior accountant (A) is explaining the month-end closing steps to a new hire (B).</p><p>Student B (New Hire): Ask about the last step and who is involved (The report is prepared by...?).</p>',
+      html: '<p><b>Context.</b> A senior accountant (A) is explaining the month-end closing steps to a new hire (B).</p><p>Student B (New Hire): Ask about the last step and who is involved (The report is prepared by...?).</p><ol><li>A: "First, the unadjusted trial balance is printed. Then, all adjusting entries are made. Finally, the final balance is generated."</li><li>B: "I see. After that, is the report prepared, and is it reviewed by the Controller?"</li></ol>',
       playable: [
         {
           t: 'Student B (New Hire): Ask about the last step and who is involved (The report is prepared by...?',
@@ -30,7 +30,8 @@ EFA.page('u8-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'reporting', caption: 'Speaking · Role-Play 1: The Onboarding Training' }
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
+      visual: { spot: 'trial-balance', caption: 'Speaking · Role-Play 1: The Onboarding Training' }
     },
     {
       id: 'c2',
@@ -75,7 +76,7 @@ EFA.page('u8-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Explaining a Derivation',
       instruction: 'Student A (Analyst): Explain that the figure is calculated from revenue and expense (Passive Voice).',
-      html: '<p><b>Context.</b> A financial analyst (A) is explaining how the Net Profit figure is derived to an investor (B).</p><p>Student B (Investor): Ask if the tax is deducted before or after this calculation (Passive Voice).</p>',
+      html: '<p><b>Context.</b> A financial analyst (A) is explaining how the Net Profit figure is derived to an investor (B).</p><p>Student B (Investor): Ask if the tax is deducted before or after this calculation (Passive Voice).</p><ol><li>A: "The Net Profit figure is derived from Gross Profit, after all operating expenses are subtracted."</li><li>B: "And is the tax expense calculated before or after the other deductions?"</li></ol>',
       playable: [
         {
           t: 'Student B (Investor): Ask if the tax is deducted before or after this calculation (Passive Voice).',
@@ -83,11 +84,7 @@ EFA.page('u8-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
-      visual: {
-        spot: 'payment-run',
-        caption: 'Speaking · Role-Play 2: Explaining a Derivation',
-        cls: 'vis-sm'
-      }
+      visual: { spot: 'reporting', caption: 'Speaking · Role-Play 2: Explaining a Derivation', cls: 'vis-sm' }
     },
     {
       id: 'c4',

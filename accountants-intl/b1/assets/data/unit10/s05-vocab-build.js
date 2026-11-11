@@ -25,11 +25,12 @@ EFA.page('u10-s05-vocab-build', {
       html: '<p>Example: "I have to present the quarterly figures to the department head, and then I conduct an analysis of the variance."</p>',
       playable: [
         {
-          t: '"I have to present the quarterly figures to the department head, and then I conduct an analysis of the variance.',
+          t: 'Example: "I have to present the quarterly figures to the department head, and then I conduct an analysis of the variance.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'variance', caption: 'Vocabulary · Collocations for Reporting' }
     },
     {
@@ -119,14 +120,24 @@ EFA.page('u10-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 10 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Report</td><td>Report</td><td>"The annual report was published on time."</td></tr><tr><td>Summarize</td><td>_________</td><td>"A brief summary of the findings is attached."</td></tr><tr><td>Present</td><td>_________</td><td>"The presentation of the budget was well-received."</td></tr><tr><td>Advise</td><td>_________</td><td>"The advice from the external auditor was helpful."</td></tr><tr><td>Convey</td><td>_________</td><td>"The conveyance of this information was critical."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'budget', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Summarize &rarr; <b>Noun</b>: [[1]]</li><li>Present &rarr; <b>Noun</b>: [[2]]</li><li>Advise &rarr; <b>Noun</b>: [[3]]</li><li>Convey &rarr; <b>Noun</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['summary', 'summary', 'Summary'],
+        '2': ['presentation', 'presentation', 'Presentation'],
+        '3': ['advice', 'advice', 'Advice'],
+        '4': ['conveyance', 'conveyance', 'Conveyance']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"A brief summary of the findings is attached."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The presentation of the budget was well-received."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The advice from the external auditor was helpful."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The conveyance of this information was critical."&rdquo;'
+      ],
+      visual: { spot: 'voucher', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

@@ -25,11 +25,12 @@ EFA.page('u4-s05-vocab-build', {
       html: '<p>Example: "We must perform a physical count before we record inventory value in the ledger."</p>',
       playable: [
         {
-          t: '"We must perform a physical count before we record inventory value in the ledger.',
+          t: 'Example: "We must perform a physical count before we record inventory value in the ledger.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'stock', caption: 'Vocabulary · Collocations for Inventory Management' }
     },
     {
@@ -123,13 +124,23 @@ EFA.page('u4-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 4 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Related Term</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Count</td><td>Count</td><td>Countable</td><td>"We need an exact count of the folders."</td></tr><tr><td>Estimate</td><td>_________</td><td>Estimated</td><td>"The estimate was slightly too low."</td></tr><tr><td>Consume</td><td>_________</td><td>Consumables</td><td>"The consumption rate is too high."</td></tr><tr><td>Supply</td><td>Supplier</td><td>_________</td><td>"We need a new supply of paper clips."</td></tr><tr><td>Manage</td><td>Manager</td><td>_________</td><td>"Inventory management requires daily checks."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Estimate &rarr; <b>Noun</b>: [[1]]</li><li>Consume &rarr; <b>Noun</b>: [[2]]</li><li>Supply &rarr; <b>Related Term</b>: [[3]]</li><li>Manage &rarr; <b>Related Term</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['Estimate', 'estimate', 'Estimate'],
+        '2': ['consumption', 'consumption', 'Consumption'],
+        '3': ['Supplies', 'supplies', 'Supplies'],
+        '4': ['management', 'management', 'Management']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"The estimate was slightly too low."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The consumption rate is too high."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"We need a new supply of paper clips."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"Inventory management requires daily checks."&rdquo;'
+      ],
       visual: { spot: 'source-document', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],

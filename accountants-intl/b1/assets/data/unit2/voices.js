@@ -32,6 +32,13 @@ EFA.voices({
   'spk:Applicant': 'en-NZ-MitchellNeural',
   'spk:Speaker': 'en-US-SteffanNeural',
   'spk:Student B': 'en-CA-ClaraNeural',
+  'spk:A': 'en-AU-NatashaNeural',
+  'spk:B': 'en-CA-LiamNeural',
+  'spk:Colleague 1': 'en-US-JennyNeural',
+  'spk:Colleague 2': 'en-IE-ConnorNeural',
+  'spk:Student A': 'en-NG-AbeoNeural',
+  'spk:Committee Member 1': 'en-IN-PrabhatNeural',
+  'spk:Committee Member 2': 'en-NZ-MollyNeural',
   scene: {
     'u2-reading-1-c2': { narr: 'en-GB-RyanNeural' },
     'u2-reading-2-c1': { narr: 'en-GB-RyanNeural' },

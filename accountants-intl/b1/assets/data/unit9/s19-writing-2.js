@@ -50,7 +50,8 @@ EFA.page('u9-s19-writing-2', {
           'We already finish the tax return.'
         ]
       },
-      visual: { spot: 'certification', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'certification', caption: 'Write it the way this unit has been teaching you to.' },
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.'
     },
     {
       id: 'c2',

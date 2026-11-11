@@ -31,6 +31,7 @@ EFA.page('u3-s11-listening-3', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       visual: {
         spot: 'receipt',
         caption: 'Listening · Passage 3: Replenishing the Fund (Financial Context)'

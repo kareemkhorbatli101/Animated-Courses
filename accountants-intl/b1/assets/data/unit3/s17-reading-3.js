@@ -51,9 +51,18 @@ EFA.page('u3-s17-reading-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u3-reading-3-c1',
-      passage: '<p>When dealing with a vendor for office supplies, polite negotiation is possible. You could request a small cash discount for immediate payment, but you must ensure the vendor issues a formal, itemized invoice. Would they be willing to extend the payment terms to 30 days? That is another option. We must not accept informal receipts or verbal agreements. The entire transaction must be documented. Could we offer to sign a long-term supply contract to gain a better discount?</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'When dealing with a vendor for office supplies, polite negotiation is possible. You could request a small cash discount for immediate payment, but you must ensure the vendor issues a formal, itemized invoice. Would they be willing to extend the payment terms to 30 days? That is another option. We must not accept informal receipts or verbal agreements. The entire transaction must be documented. Could we offer to sign a long-term supply contract to gain a better discount?'
+          }
+        ],
+        say: { scene: 'u3-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'debtor', caption: 'Reading · Reading Passage 3: Dealing with Vendor Discounts' }
     },
     {

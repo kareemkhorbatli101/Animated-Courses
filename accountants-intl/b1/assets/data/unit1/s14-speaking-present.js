@@ -18,33 +18,15 @@ EFA.page('u1-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 1 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "My Work Morning"',
-      instruction: 'You have 60 seconds to describe your typical morning to the class. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        { q: 'Arrival time, and which offices are already working.' },
-        { q: 'First task (e.g., I check emails).' },
-        { q: 'Main task (e.g., I process invoices).' },
-        { q: 'What you are doing "these days" (e.g., These days, I am also learning the new ERP).' }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'accountant',
-        caption: 'Daily routines, bookkeeping tasks, and the role of a junior accountant in a shared service centre.'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'Present Simple vs. Present Continuous.',
-        taught: [
-          'You have 60 seconds to describe your typical morning to the class.',
-          'Arrival time, and which offices are already working.',
-          'First task (e.g., I check emails).',
-          'Main task (e.g., I process invoices).'
-        ]
-      },
-      ideas: ['I check emails', 'I process invoices', 'These days', 'I am also learning the new ERP'],
-      model: 'I arrive at half past eight, and Singapore has already been working for six hours. First I check the emails, then I post yesterday\'s invoices. This week I am also training the new intern, so I finish the filing a little later than usual.'
+      instruction: 'You have 60 seconds to describe your typical morning to the class.',
+      html: '<ol><li>Arrival time, and which offices are already working.</li><li>First task (e.g., I check emails).</li><li>Main task (e.g., I process invoices).</li><li>What you are doing "these days" (e.g., These days, I am also learning the new ERP).</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'invoice', caption: 'Speaking · Presentation: "My Work Morning"' }
     }
   ],
   prev: 's13-speaking-roles',

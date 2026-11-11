@@ -18,38 +18,6 @@ EFA.page('u9-s04-vocab-context', {
       covers: ['1C'],
       ref: '1C',
       bookRef: 'Unit 9 · 1C',
-      type: 'study',
-      source: 'book',
-      title: 'Vocabulary in Context: Software and Experience',
-      instruction: 'Fill in the blanks with the correct word from the box:',
-      html: '<p>"I have worked in this field since 2018. My (1) ________ includes financial reporting and tax planning. I have high (2) ________ in Excel, especially with (3) ________ functions. We recently completed the (4) ________ of our sales software with the General (5) ________. I have also completed several training (6) ________ on new IFRS standards."</p>',
-      playable: [
-        { t: '"I have worked in this field since 2018.', role: 'narrator' },
-        { t: 'My (1) ________ includes financial reporting and tax planning.', role: 'narrator' },
-        {
-          t: 'I have high (2) ________ in Excel, especially with (3) ________ functions.',
-          role: 'narrator'
-        },
-        {
-          t: 'We recently completed the (4) ________ of our sales software with the General (5) ________.',
-          role: 'narrator'
-        },
-        {
-          t: 'I have also completed several training (6) ________ on new IFRS standards.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'certification',
-        caption: 'Vocabulary · Vocabulary in Context: Software and Experience'
-      }
-    },
-    {
-      id: 'c2',
-      covers: ['1C'],
-      ref: '1C',
-      bookRef: 'Unit 9 · 1C',
       type: 'cloze',
       title: 'Vocabulary in Context: Software and Experience',
       instruction: 'Fill in the blanks with the correct word from the box: Every word you need is in the bank below.',
@@ -65,11 +33,8 @@ EFA.page('u9-s04-vocab-context', {
       bank: ['advanced', 'integration', 'ledger', 'modules', 'portfolio', 'proficiency'],
       whyTitle: 'The completed memo',
       notes: null,
-      visual: {
-        spot: 'ledger',
-        caption: 'Vocabulary · Vocabulary in Context: Software and Experience',
-        cls: 'vis-sm'
-      }
+      brief: 'The same words inside a real document. The gaps are not a memory test: read the whole message first and let the sentence tell you which word fits.',
+      visual: { spot: 'ledger', caption: 'Vocabulary · Vocabulary in Context: Software and Experience' }
     }
   ],
   prev: 's03-vocab-gaps',

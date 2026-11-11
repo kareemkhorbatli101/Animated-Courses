@@ -18,42 +18,15 @@ EFA.page('u5-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 5 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "My Collections Plan"',
-      instruction: 'You have 60 seconds to explain your plan for managing accounts receivable for the next month. Use all three Future Forms. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        {
-          q: 'Fixed Arrangement (PC): Schedule calls with major debtors (e.g., I am calling the top three debtors...).'
-        },
-        {
-          q: 'Intention (Going To): Explain what the team is going to do to reduce past due invoices (e.g., We are going to implement a new reminder system...).'
-        },
-        {
-          q: 'Prediction (Will): State your expected result (e.g., I think the cash inflow will increase...).'
-        }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'payment-run',
-        caption: 'Scheduling payments, chasing debts, managing collections, and cash flow planning across currencies.'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'Future Forms',
-        taught: [
-          'You have 60 seconds to explain your plan for managing accounts receivable for the next month. Use all three Future Forms.',
-          'Fixed Arrangement (PC): Schedule calls with major debtors (e.g., I am calling the top three debtors...).',
-          'Intention (Going To): Explain what the team is going to do to reduce past due invoices (e.g., We are going to implement a new reminder system...).',
-          'Prediction (Will): State your expected result (e.g., I think the cash inflow will increase...).'
-        ]
-      },
-      ideas: [
-        'I am calling the top three debtors',
-        'We are going to implement a new reminder system',
-        'I think the cash inflow will increase'
-      ],
-      model: 'I am calling the top three debtors on Monday. I am going to review every invoice over sixty days first, and I think two of them will settle before the quarter ends. If they do not, we will suspend their credit.'
+      instruction: 'You have 60 seconds to explain your plan for managing accounts receivable for the next month. Use all three Future Forms.',
+      html: '<ol><li>Fixed Arrangement (PC): Schedule calls with major debtors (e.g., I am calling the top three debtors...).</li><li>Intention (Going To): Explain what the team is going to do to reduce past due invoices (e.g., We are going to implement a new reminder system...).</li><li>Prediction (Will): State your expected result (e.g., I think the cash inflow will increase...).</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'debtor', caption: 'Speaking · Presentation: "My Collections Plan"' }
     }
   ],
   prev: 's13-speaking-roles',

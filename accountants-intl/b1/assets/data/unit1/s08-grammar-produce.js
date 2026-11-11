@@ -33,6 +33,7 @@ EFA.page('u1-s08-grammar-produce', {
         '8': '<b>I learn how to use new modules every year.</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 6.</b> Current: <u>We are paying the suppliers at the moment.</u>',
+      brief: 'Rewrite each sentence. The meaning must survive the change — if it does not, you have changed more than the grammar.',
       visual: { spot: 'entry', caption: 'Grammar · Sentence Transformation' }
     },
     {

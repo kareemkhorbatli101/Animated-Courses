@@ -30,6 +30,7 @@ EFA.page('u4-s18-writing-1', {
         '3': '<b>too much ink</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> We only have three boxes of folders remaining. (A FEW) -> We only have <u>a few boxes</u> of folders remaining.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Quantifiers)' }
     },
     {
@@ -121,7 +122,8 @@ EFA.page('u4-s18-writing-1', {
           'Use only a few for countable items (e.g., keyboards).'
         ]
       },
-      visual: { spot: 'stock', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'stock', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Reorder Point', 'Stocktaking']
     }
   ],
   prev: 's17-reading-3',

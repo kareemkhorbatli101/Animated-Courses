@@ -10,32 +10,38 @@ EFA.scene('u2-reading-1-c2', {
       who: 'narr',
       face: 'warm',
       en: 'Every employee must submit an expense claim form with attached original receipts.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'على كل موظف أن يقدّم نموذج مطالبة بالمصروفات مع الإيصالات الأصلية مرفقة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'If a receipt is missing, the claim requires a special approval from the department head.'
+      en: 'If a receipt is missing, the claim requires a special approval from the department head.',
+      ar: 'وإذا كان أحد الإيصالات مفقودًا، فإن المطالبة تحتاج إلى موافقة خاصة من رئيس القسم.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Yesterday, the claims department in Kraków processed 50 claims from four countries.'
+      en: 'Yesterday, the claims department in Kraków processed 50 claims from four countries.',
+      ar: 'عالج قسم المطالبات في كراكوف أمس 50 مطالبة واردة من أربع دول.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'An auditor was checking the largest claims while the clerk was scanning the attachments.'
+      en: 'An auditor was checking the largest claims while the clerk was scanning the attachments.',
+      ar: 'كان أحد المدققين يفحص أكبر المطالبات بينما كان الكاتب يمسح المرفقات ضوئيًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The auditor spotted that one claim was submitted without the necessary approval form.'
+      en: 'The auditor spotted that one claim was submitted without the necessary approval form.',
+      ar: 'ولاحظ المدقق أن إحدى المطالبات قُدّمت دون نموذج الموافقة المطلوب.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The clerk stopped the scanning process immediately and sent the claim back.'
+      en: 'The clerk stopped the scanning process immediately and sent the claim back.',
+      ar: 'فأوقف الكاتب عملية المسح الضوئي فورًا وأعاد المطالبة.'
     }
   ]
 });
@@ -47,28 +53,38 @@ EFA.scene('u2-reading-2-c1', {
       who: 'narr',
       face: 'warm',
       en: 'The accounting cycle begins with the analysis of source documents.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'تبدأ الدورة المحاسبية بتحليل المستندات الأصلية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Transactions are initially recorded in the journal chronologically.'
-    },
-    { who: 'narr', face: 'neutral', en: 'This is the book of original entry.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Last Tuesday, the team was recording a large batch of invoices when the supervisor announced a mandatory training session.'
+      en: 'Transactions are initially recorded in the journal chronologically.',
+      ar: 'وتُسجَّل العمليات ابتداءً في دفتر اليومية بحسب تواريخها.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Because of the training, only half of the transactions were posted to the General Ledger that day.'
+      en: 'This is the book of original entry.',
+      ar: 'وهذا هو دفتر القيد الأول.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The supervisor later reviewed the work to ensure accuracy before the closing balance was verified.'
+      en: 'Last Tuesday, the team was recording a large batch of invoices when the supervisor announced a mandatory training session.',
+      ar: 'يوم الثلاثاء الماضي كان الفريق يسجّل دفعة كبيرة من الفواتير حين أعلن المشرف عن جلسة تدريب إلزامية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Because of the training, only half of the transactions were posted to the General Ledger that day.',
+      ar: 'وبسبب التدريب لم يُرحَّل سوى نصف العمليات إلى دفتر الأستاذ العام في ذلك اليوم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The supervisor later reviewed the work to ensure accuracy before the closing balance was verified.',
+      ar: 'وراجع المشرف العمل بعد ذلك للتأكد من دقته قبل التحقق من رصيد الإقفال.'
     }
   ]
 });
@@ -80,24 +96,33 @@ EFA.scene('u2-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Bank reconciliation is vital to ensure the cash balance in the Ledger matches the bank statement.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'التسوية البنكية ضرورية للتأكد من تطابق رصيد النقدية في دفتر الأستاذ مع كشف الحساب البنكي.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'A discrepancy often occurs due to cheques that are outstanding or deposits in transit.'
+      en: 'A discrepancy often occurs due to cheques that are outstanding or deposits in transit.',
+      ar: 'وكثيرًا ما ينشأ الفرق عن شيكات لم تُصرف بعد أو إيداعات في الطريق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Yesterday afternoon, Aoife was trying to reconcile the month-end statement for Dublin when she noticed a EUR 5,000 difference.'
+      en: 'Yesterday afternoon, Aoife was trying to reconcile the month-end statement for Dublin when she noticed a EUR 5,000 difference.',
+      ar: 'بعد ظهر أمس كانت إيفا تحاول تسوية كشف نهاية الشهر لدبلن حين لاحظت فرقًا قيمته EUR 5,000.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She immediately traced the amount back through the journal entries and found that a deposit had been recorded twice.'
+      en: 'She immediately traced the amount back through the journal entries and found that a deposit had been recorded twice.',
+      ar: 'فتتبّعت المبلغ فورًا في قيود اليومية ووجدت أن أحد الإيداعات سُجّل مرتين.'
     },
-    { who: 'narr', face: 'worried', en: 'She corrected the error and prepared the final report.' }
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'She corrected the error and prepared the final report.',
+      ar: 'فصحّحت الخطأ وأعدّت التقرير النهائي.'
+    }
   ]
 });
 EFA.scene('u2-extension-c1', {
@@ -108,119 +133,152 @@ EFA.scene('u2-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Last week was one of the most challenging periods in the history of the accounting department at GreenLeaf Retail Europe.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'كان الأسبوع الماضي من أصعب الفترات في تاريخ قسم المحاسبة في شركة غرين ليف ريتيل أوروبا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The team was tasked with closing the books for the previous fiscal year, a process that usually takes three days.'
+      en: 'The team was tasked with closing the books for the previous fiscal year, a process that usually takes three days.',
+      ar: 'فقد أُوكل إلى الفريق إقفال دفاتر السنة المالية السابقة، وهي عملية تستغرق عادةً ثلاثة أيام.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'However, this time, the process took over a week due to a series of unexpected events and errors that occurred months ago.'
+      en: 'However, this time, the process took over a week due to a series of unexpected events and errors that occurred months ago.',
+      ar: 'لكنها استغرقت هذه المرة أكثر من أسبوع بسبب سلسلة من الأحداث غير المتوقعة وأخطاء وقعت منذ أشهر.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The trouble began on Monday morning when the Senior Accountant, David, was reviewing the historical data from the second quarter.'
+      en: 'The trouble began on Monday morning when the Senior Accountant, David, was reviewing the historical data from the second quarter.',
+      ar: 'بدأت المشكلة صباح الاثنين حين كان المحاسب الأول، ديفيد، يراجع البيانات التاريخية للربع الثاني.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'He noticed a significant discrepancy in the bank reconciliation that no one had spotted before.'
+      en: 'He noticed a significant discrepancy in the bank reconciliation that no one had spotted before.',
+      ar: 'فلاحظ فرقًا كبيرًا في التسوية البنكية لم يلاحظه أحد من قبل.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'David was examining the journal entries from March when he found a strange pattern.'
+      en: 'David was examining the journal entries from March when he found a strange pattern.',
+      ar: 'كان ديفيد يفحص قيود اليومية لشهر مارس حين وجد نمطًا غريبًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It appeared that an intern, who was working with the company at the time, was posting invoices while the system was undergoing maintenance.'
+      en: 'It appeared that an intern, who was working with the company at the time, was posting invoices while the system was undergoing maintenance.',
+      ar: 'فقد تبيّن أن متدربًا كان يعمل في الشركة في ذلك الوقت يرحّل الفواتير بينما كان النظام تحت الصيانة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'David realized that while the intern was entering the data, the server was failing to save the corresponding credit entries.'
+      en: 'David realized that while the intern was entering the data, the server was failing to save the corresponding credit entries.',
+      ar: 'وأدرك ديفيد أن الخادم كان يفشل في حفظ القيود الدائنة المقابلة بينما كان المتدرب يُدخل البيانات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This resulted in a one-sided entry for over fifty transactions.'
+      en: 'This resulted in a one-sided entry for over fifty transactions.',
+      ar: 'وأدى ذلك إلى قيد من طرف واحد في أكثر من خمسين عملية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The intern posted the debits to the expense accounts, but the accounts payable ledger was never updated.'
-    },
-    { who: 'narr', face: 'neutral', en: 'This explained why the trial balance did not match.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'To make matters worse, while David was investigating this digital error, a physical problem emerged.'
-    },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'He was looking for the source documents to verify the amounts when he discovered that a box of receipts was missing.'
+      en: 'The intern posted the debits to the expense accounts, but the accounts payable ledger was never updated.',
+      ar: 'فقد رحّل المتدرب الطرف المدين إلى حسابات المصروفات، لكن دفتر الحسابات الدائنة لم يُحدَّث قطعًا.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He asked his colleague, Sarah, what she was doing on the day the files were archived.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Sarah remembered that she was organizing the archive room when the fire alarm rang.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'She admitted that she left a stack of documents on a desk near the window and forgot to file them before evacuating.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'When they returned, the cleaners had moved the papers to a different location.'
+      en: 'This explained why the trial balance did not match.',
+      ar: 'وهذا ما يفسّر عدم توازن ميزان المراجعة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'David and Sarah spent the next two days tracing the missing transactions.'
+      en: 'To make matters worse, while David was investigating this digital error, a physical problem emerged.',
+      ar: 'وزاد الأمر سوءًا أنه بينما كان ديفيد يحقق في هذا الخطأ الرقمي ظهرت مشكلة ورقية.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'They were checking the bank statements against the ledger line by line when they finally found the missing box in the storage closet.'
+      en: 'He was looking for the source documents to verify the amounts when he discovered that a box of receipts was missing.',
+      ar: 'كان يبحث عن المستندات الأصلية للتحقق من المبالغ حين اكتشف أن صندوقًا من الإيصالات مفقود.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It was a tedious process, made slower because the invoices were in three currencies.'
+      en: 'He asked his colleague, Sarah, what she was doing on the day the files were archived.',
+      ar: 'فسأل زميلته سارة عمّا كانت تفعله في اليوم الذي أُرشفت فيه الملفات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'They corrected the journal entries, reversed the incorrect postings, and re-entered the data properly.'
+      en: 'Sarah remembered that she was organizing the archive room when the fire alarm rang.',
+      ar: 'تذكّرت سارة أنها كانت ترتّب غرفة الأرشيف حين انطلق جرس الحريق.'
     },
-    { who: 'narr', face: 'neutral', en: 'They finished the work late on Friday evening.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Just as they were submitting the final report, the Group CFO walked in and asked why they were still there.'
+      en: 'She admitted that she left a stack of documents on a desk near the window and forgot to file them before evacuating.',
+      ar: 'واعترفت بأنها تركت رزمة من المستندات على مكتب قريب من النافذة ونسيت حفظها قبل الإخلاء.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'When they returned, the cleaners had moved the papers to a different location.',
+      ar: 'ولما عادوا كان عمال النظافة قد نقلوا الأوراق إلى مكان آخر.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'David explained that they were fixing past mistakes to ensure the financial statements were accurate.'
+      en: 'David and Sarah spent the next two days tracing the missing transactions.',
+      ar: 'أمضى ديفيد وسارة اليومين التاليين في تتبع العمليات المفقودة.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'They were checking the bank statements against the ledger line by line when they finally found the missing box in the storage closet.',
+      ar: 'كانا يطابقان كشوف الحساب البنكية مع دفتر الأستاذ سطرًا سطرًا حين وجدا الصندوق المفقود أخيرًا في خزانة التخزين.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It was a hard lesson in the importance of immediate verification; if they had checked the work while the intern was doing it, they would not have spent an entire week fixing it months later.'
+      en: 'It was a tedious process, made slower because the invoices were in three currencies.',
+      ar: 'كانت عملية مضنية، وزاد من بطئها أن الفواتير كانت بثلاث عملات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They corrected the journal entries, reversed the incorrect postings, and re-entered the data properly.',
+      ar: 'صحّحا قيود اليومية، وعكسا الترحيلات الخاطئة، وأعادا إدخال البيانات على الوجه الصحيح.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'They finished the work late on Friday evening.',
+      ar: 'وأنهيا العمل في وقت متأخر من مساء الجمعة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Just as they were submitting the final report, the Group CFO walked in and asked why they were still there.',
+      ar: 'وفي اللحظة التي كانا يقدّمان فيها التقرير النهائي دخل المدير المالي للمجموعة وسألهما لماذا لا يزالان هناك.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'David explained that they were fixing past mistakes to ensure the financial statements were accurate.',
+      ar: 'فأوضح ديفيد أنهما يصححان أخطاء سابقة لضمان دقة القوائم المالية.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It was a hard lesson in the importance of immediate verification; if they had checked the work while the intern was doing it, they would not have spent an entire week fixing it months later.',
+      ar: 'كان درسًا قاسيًا في أهمية التحقق الفوري؛ فلو راجعا العمل بينما كان المتدرب يؤديه لما أمضيا أسبوعًا كاملًا في إصلاحه بعد أشهر.'
     }
   ]
 });
@@ -228,108 +286,176 @@ EFA.scene('u2-extension-c3', {
   set: 'accounts',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'The Audit Investigation', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Context:Two accountants, Sarah and Mike, are reviewing a chaotic set of records from the previous month.'
+      face: 'warm',
+      en: 'The Audit Investigation',
+      cam: { shot: 'mid' },
+      ar: 'تحقيق التدقيق'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'They are trying to understand why the books didn\'t balance.'
-    },
-    { who: 'narr', face: 'thinking', en: '"Mike, do you have a moment?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'We need to talk about what happened yesterday during the reconciliation process.'
+      en: 'Context:Two accountants, Sarah and Mike, are reviewing a chaotic set of records from the previous month.',
+      ar: 'السياق: محاسبان، سارة ومايك، يراجعان مجموعة سجلات مضطربة من الشهر الماضي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I was reviewing the transaction logs from last month when I found a serious issue with the travel expenses.'
+      en: 'They are trying to understand why the books didn\'t balance.',
+      ar: 'وهما يحاولان فهم سبب عدم توازن الدفاتر.'
     },
-    { who: 'narr', face: 'neutral', en: 'I remember you were working late.' },
-    { who: 'narr', face: 'thinking', en: 'What did you find?' },
-    { who: 'narr', face: 'worried', en: '"Well, it seems the problem started last Tuesday.' },
+    { who: 'narr', face: 'thinking', en: '"Mike, do you have a moment?', ar: '"مايك، ألديك لحظة؟' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'I was checking the ledger entries when I noticed a gap in the invoice numbers.'
+      en: 'We need to talk about what happened yesterday during the reconciliation process.',
+      ar: 'علينا أن نتحدث عما حدث أمس في أثناء عملية التسوية.'
     },
-    { who: 'narr', face: 'neutral', en: 'It looked like someone deleted a batch of data.' },
-    { who: 'narr', face: 'neutral', en: 'I investigated further.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It turns out, the intern, Jason, was entering the invoices while the system was updating.'
+      en: 'I was reviewing the transaction logs from last month when I found a serious issue with the travel expenses.',
+      ar: 'كنت أراجع سجلات العمليات للشهر الماضي حين وجدت مشكلة خطيرة في مصروفات السفر.'
     },
-    { who: 'narr', face: 'neutral', en: 'He didn’t realize the server was unstable.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I remember you were working late.',
+      ar: 'أتذكّر أنك كنت تعمل إلى وقت متأخر.'
+    },
+    { who: 'narr', face: 'thinking', en: 'What did you find?', ar: 'ماذا وجدت؟' },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: '"Well, it seems the problem started last Tuesday.',
+      ar: '"يبدو أن المشكلة بدأت يوم الثلاثاء الماضي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I was checking the ledger entries when I noticed a gap in the invoice numbers.',
+      ar: 'كنت أفحص قيود دفتر الأستاذ حين لاحظت انقطاعًا في تسلسل أرقام الفواتير.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It looked like someone deleted a batch of data.',
+      ar: 'وبدا أن أحدهم حذف دفعة من البيانات.'
+    },
+    { who: 'narr', face: 'neutral', en: 'I investigated further.', ar: 'فتابعت التحقيق.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It turns out, the intern, Jason, was entering the invoices while the system was updating.',
+      ar: 'وتبيّن أن المتدرب جيسون كان يُدخل الفواتير بينما كان النظام يُحدَّث.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He didn’t realize the server was unstable.',
+      ar: 'ولم يدرك أن الخادم كان غير مستقر.'
+    },
     {
       who: 'narr',
       face: 'thinking',
-      en: 'So, while he was posting the entries, the system was crashing?'
-    },
-    { who: 'narr', face: 'neutral', en: 'He posted about fifty invoices.' },
-    {
-      who: 'narr',
-      face: 'worried',
-      en: 'The system recorded the debit side of the entry, but it failed to record the credit side.'
+      en: 'So, while he was posting the entries, the system was crashing?',
+      ar: 'أي أن النظام كان يتعطل بينما كان هو يرحّل القيود؟'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'That’s why our trial balance was off by such a large amount.'
-    },
-    { who: 'narr', face: 'neutral', en: 'I asked him what he was doing at 3 PM.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'He said he was listening to music on his headphones while he was typing, so he didn’t hear the IT announcement about the server maintenance.'
-    },
-    { who: 'narr', face: 'neutral', en: '"That explains a lot.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I was trying to trace the source documents yesterday morning, but I couldn’t find the physical copies.'
-    },
-    { who: 'narr', face: 'thinking', en: 'Did you locate them?' },
-    { who: 'narr', face: 'worried', en: 'After I found the digital error, I went to his desk.' },
-    { who: 'narr', face: 'worried', en: 'He had filed the receipts in the wrong binder.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'He was filing them by date, but he put them in the 2023 folder instead of 2024.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I took the box, and I re-entered all fifty transactions correctly.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I finished the work at 8 PM, and then I finally went home.'
-    },
-    { who: 'narr', face: 'warm', en: '"Good work, Sarah.' },
-    { who: 'narr', face: 'neutral', en: 'It sounds exhausting.' },
-    { who: 'narr', face: 'thinking', en: 'So, the discrepancy is resolved?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The closing balance matched the bank statement this morning, in all three currencies.'
-    },
-    { who: 'narr', face: 'neutral', en: 'But we need to be careful.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'While we were fixing this, the auditors were asking for the reports.'
+      en: 'He posted about fifty invoices.',
+      ar: 'رحّل نحو خمسين فاتورة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'I told them we were correcting a recording error and that we would submit it today.'
+      en: 'The system recorded the debit side of the entry, but it failed to record the credit side.',
+      ar: 'سجّل النظام الطرف المدين من القيد لكنه لم يسجّل الطرف الدائن.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'That’s why our trial balance was off by such a large amount.',
+      ar: 'ولهذا كان الفرق في ميزان المراجعة بهذا الحجم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I asked him what he was doing at 3 PM.',
+      ar: 'سألته عمّا كان يفعله في الساعة 3 بعد الظهر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He said he was listening to music on his headphones while he was typing, so he didn’t hear the IT announcement about the server maintenance.',
+      ar: 'قال إنه كان يسمع الموسيقى بسماعاته بينما كان يكتب، فلم يسمع إعلان تقنية المعلومات عن صيانة الخادم.'
+    },
+    { who: 'narr', face: 'neutral', en: '"That explains a lot.', ar: '"هذا يفسّر الكثير.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I was trying to trace the source documents yesterday morning, but I couldn’t find the physical copies.',
+      ar: 'كنت أحاول تتبع المستندات الأصلية صباح أمس لكني لم أجد النسخ الورقية.'
+    },
+    { who: 'narr', face: 'thinking', en: 'Did you locate them?', ar: 'هل وجدتها؟' },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'After I found the digital error, I went to his desk.',
+      ar: 'بعد أن وجدت الخطأ الرقمي ذهبت إلى مكتبه.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'He had filed the receipts in the wrong binder.',
+      ar: 'كان قد حفظ الإيصالات في الملف الخطأ.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He was filing them by date, but he put them in the 2023 folder instead of 2024.',
+      ar: 'كان يحفظها بالتاريخ، لكنه وضعها في ملف 2023 بدلًا من 2024.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I took the box, and I re-entered all fifty transactions correctly.',
+      ar: 'أخذت الصندوق وأعدت إدخال العمليات الخمسين كلها على الوجه الصحيح.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'I finished the work at 8 PM, and then I finally went home.',
+      ar: 'أنهيت العمل في الساعة 8 مساءً ثم عدت إلى البيت أخيرًا.'
+    },
+    { who: 'narr', face: 'warm', en: '"Good work, Sarah.', ar: '"عمل جيد يا سارة.' },
+    { who: 'narr', face: 'neutral', en: 'It sounds exhausting.', ar: 'يبدو أنه كان مُنهكًا.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'So, the discrepancy is resolved?',
+      ar: 'إذًا هل حُلّ الفرق؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The closing balance matched the bank statement this morning, in all three currencies.',
+      ar: 'طابق رصيد الإقفال كشف الحساب البنكي هذا الصباح، بالعملات الثلاث كلها.'
+    },
+    { who: 'narr', face: 'neutral', en: 'But we need to be careful.', ar: 'لكن علينا أن نكون حذرين.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'While we were fixing this, the auditors were asking for the reports.',
+      ar: 'فبينما كنا نصلح هذا كان المدققون يطلبون التقارير.'
+    },
+    {
+      who: 'narr',
+      face: 'worried',
+      en: 'I told them we were correcting a recording error and that we would submit it today.',
+      ar: 'أخبرتهم أننا نصحح خطأً في التسجيل وأننا سنقدّمها اليوم.'
     }
   ]
 });
@@ -341,64 +467,81 @@ EFA.scene('u2-extension-c5', {
       who: 'narr',
       face: 'warm',
       en: 'The Unmatched Invoices of the Nairobi Branch',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'فواتير فرع نيروبي غير المطابقة'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You are part of an internal audit team sent to Northwind\'s Nairobi branch.'
+      en: 'You are part of an internal audit team sent to Northwind\'s Nairobi branch.',
+      ar: 'أنت من فريق تدقيق داخلي أُرسل إلى فرع نورثويند في نيروبي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The group has discovered discrepancies in the financial records from the three months immediately after the branch was acquired.'
+      en: 'The group has discovered discrepancies in the financial records from the three months immediately after the branch was acquired.',
+      ar: 'فقد اكتشفت المجموعة فروقًا في السجلات المالية للأشهر الثلاثة التي تلت الاستحواذ على الفرع مباشرة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Your job is to reconstruct the financial history of that period.'
+      en: 'Your job is to reconstruct the financial history of that period.',
+      ar: 'ومهمتك إعادة بناء التاريخ المالي لتلك الفترة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'You are looking at a stack of source documents: invoices, receipts, and expense claims, some in Kenyan shillings and some in US dollars.'
+      en: 'You are looking at a stack of source documents: invoices, receipts, and expense claims, some in Kenyan shillings and some in US dollars.',
+      ar: 'أنت تنظر في رزمة من المستندات الأصلية: فواتير وإيصالات ومطالبات بالمصروفات، بعضها بالشلن الكيني وبعضها بالدولار الأمريكي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'While you were reviewing the General Ledger yesterday, you noticed a series of strange journal entries.'
+      en: 'While you were reviewing the General Ledger yesterday, you noticed a series of strange journal entries.',
+      ar: 'وبينما كنت تراجع دفتر الأستاذ العام أمس لاحظت سلسلة من قيود اليومية الغريبة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It appears that a former employee was posting transactions manually while the power was cutting out.'
+      en: 'It appears that a former employee was posting transactions manually while the power was cutting out.',
+      ar: 'ويبدو أن موظفًا سابقًا كان يرحّل العمليات يدويًا بينما كان التيار الكهربائي ينقطع.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This caused some entries to be recorded without their corresponding credits.'
+      en: 'This caused some entries to be recorded without their corresponding credits.',
+      ar: 'وقد أدى ذلك إلى تسجيل بعض القيود دون أطرافها الدائنة المقابلة.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'Furthermore, while the team was processing the "Depot Refurbishment" invoices, they realized that several receipts were missing.'
+      en: 'Furthermore, while the team was processing the "Depot Refurbishment" invoices, they realized that several receipts were missing.',
+      ar: 'وزيادة على ذلك، بينما كان الفريق يعالج فواتير "تجديد المستودع" أدركوا أن عدة إيصالات مفقودة.'
     },
-    { who: 'narr', face: 'neutral', en: 'You interviewed the site manager.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'He told you, "I was collecting the receipts when the contractors packed up early, so I left the box in the store room.'
+      en: 'You interviewed the site manager.',
+      ar: 'وقد قابلت مدير الموقع.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'He told you, "I was collecting the receipts when the contractors packed up early, so I left the box in the store room.',
+      ar: 'فقال لك: "كنت أجمع الإيصالات حين أنهى المتعاقدون عملهم مبكرًا، فتركت الصندوق في غرفة المخزن.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: '" You need to explain what the team was doing when the errors occurred and what they did after they found the documents.'
+      en: '" You need to explain what the team was doing when the errors occurred and what they did after they found the documents.',
+      ar: '" وعليك أن توضح ما كان الفريق يفعله حين وقعت الأخطاء وما فعلوه بعد أن وجدوا المستندات.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The goal is to correct the historical data so the branch can be consolidated into the group accounts.'
+      en: 'The goal is to correct the historical data so the branch can be consolidated into the group accounts.',
+      ar: 'والهدف تصحيح البيانات التاريخية حتى يمكن دمج الفرع في حسابات المجموعة.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

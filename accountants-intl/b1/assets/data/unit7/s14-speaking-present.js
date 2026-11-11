@@ -18,33 +18,15 @@ EFA.page('u7-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 7 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "Year-to-Date Highlights"',
-      instruction: 'Prepare a short report (60 seconds) summarizing the year\'s performance. Use at least two Comparatives and two Superlatives. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        { q: 'Opening: State the highest achievement (Superlative).' },
-        { q: 'Comparison: Compare a cost category to the previous year (Comparative).' },
-        { q: 'Risk: Identify the most significant adverse variance (Superlative).' },
-        { q: 'Conclusion: State the outlook (e.g., We are better off than last year).' }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'variance',
-        caption: 'Variance analysis, comparing actuals vs. budget, sales figures, and trend reporting.'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'Adjectives',
-        taught: [
-          'Prepare a short report (60 seconds) summarizing the year\'s performance. Use at least two Comparatives and two Superlatives.',
-          'Opening: State the highest achievement (Superlative).',
-          'Comparison: Compare a cost category to the previous year (Comparative).',
-          'Risk: Identify the most significant adverse variance (Superlative).'
-        ]
-      },
-      ideas: ['We are better off than last year'],
-      model: 'The highest achievement this year was the gross margin, which was better than the industry average. The most alarming item is the raw materials cost, thirty per cent higher than budget. Marketing was less than the allocated budget, which makes the overall result the most positive of the year.'
+      instruction: 'Prepare a short report (60 seconds) summarizing the year\'s performance. Use at least two Comparatives and two Superlatives.',
+      html: '<ol><li>Opening: State the highest achievement (Superlative).</li><li>Comparison: Compare a cost category to the previous year (Comparative).</li><li>Risk: Identify the most significant adverse variance (Superlative).</li><li>Conclusion: State the outlook (e.g., We are better off than last year).</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'variance', caption: 'Speaking · Presentation: "Year-to-Date Highlights"' }
     }
   ],
   prev: 's13-speaking-roles',

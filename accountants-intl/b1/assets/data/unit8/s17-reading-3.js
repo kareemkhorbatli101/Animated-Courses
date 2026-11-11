@@ -44,9 +44,18 @@ EFA.page('u8-s17-reading-3', {
           _key: 'narr'
         }
       ],
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
       scene: 'u8-reading-3-c1',
-      passage: '<p>Adjusting entries are necessary at the end of an accounting period to ensure that the revenue recognition principle and the expense recognition principle are followed. These entries are usually made for items like depreciation, accrued expenses, and unearned revenue. The entries are not supported by separate source documents; they are derived from internal calculations. Without them, the financial statements would be materially misstated.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'Adjusting entries are necessary at the end of an accounting period to ensure that the revenue recognition principle and the expense recognition principle are followed. These entries are usually made for items like depreciation, accrued expenses, and unearned revenue. The entries are not supported by separate source documents; they are derived from internal calculations. Without them, the financial statements would be materially misstated.'
+          }
+        ],
+        say: { scene: 'u8-reading-3-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'entry', caption: 'Reading · Reading Passage 3: Defining Adjusting Entries' }
     },
     {

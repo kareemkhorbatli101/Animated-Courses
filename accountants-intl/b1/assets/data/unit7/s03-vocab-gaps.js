@@ -41,6 +41,7 @@ EFA.page('u7-s03-vocab-gaps', {
         '6': '<b>marginal</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> The sales growth was <u>sluggish</u> this quarter, only increasing by 1%.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'variance', caption: 'Vocabulary · Adjectives for Reporting Results' }
     }
   ],

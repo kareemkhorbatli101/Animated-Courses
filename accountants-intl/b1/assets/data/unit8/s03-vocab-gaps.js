@@ -23,8 +23,11 @@ EFA.page('u8-s03-vocab-gaps', {
       title: 'Verbs for Accounting Actions',
       instruction: 'Complete the sentences using the correct verb from the box.',
       html: '<p>Verbs: Derived, reconciled, audited, posted, compiled, reviewed</p>',
-      playable: [{ t: 'Derived, reconciled, audited, posted, compiled, reviewed', role: 'narrator' }],
+      playable: [
+        { t: 'Verbs: Derived, reconciled, audited, posted, compiled, reviewed', role: 'narrator' }
+      ],
       doneLabel: 'I have read this',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'closing', caption: 'Vocabulary · Verbs for Accounting Actions' }
     },
     {

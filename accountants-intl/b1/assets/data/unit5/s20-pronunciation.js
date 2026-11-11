@@ -39,6 +39,7 @@ EFA.page('u5-s20-pronunciation', {
           why: 'Out-stand-ing — say it with the beat on <b>STAND</b>.'
         }
       ],
+      brief: 'Stress is where English hides its meaning. Hear the word, say it back twice, then mark where the beat falls.',
       visual: { spot: 'reporting', caption: 'Pronunciation · Syllable Stress: Accounts Terminology' }
     },
     {
@@ -79,7 +80,7 @@ EFA.page('u5-s20-pronunciation', {
       source: 'book',
       title: 'Intonation: Confirming Arrangements',
       instruction: 'Practice: Read these questions:',
-      html: '<p><b>Context.</b> Use rising intonation when asking a question to confirm a fixed arrangement (Present Continuous).</p><ol><li>"Are you running the payment run today? (↗)"</li><li>"Is the manager meeting the client on Monday? (↗)"</li><li>"Are we clearing the account this morning? (↗)"</li></ol>',
+      html: '<p><b>Context.</b> Use rising intonation when asking a question to confirm a fixed arrangement (Present Continuous).</p>',
       playable: [],
       doneLabel: 'I have read this',
       visual: {
@@ -93,24 +94,6 @@ EFA.page('u5-s20-pronunciation', {
       covers: ['7C'],
       ref: '7C',
       bookRef: 'Unit 5 · 7C',
-      type: 'study',
-      source: 'book',
-      title: 'Intonation: Confirming Arrangements',
-      instruction: 'Practice: Read these questions:',
-      html: '<p><b>Context.</b> Use rising intonation when asking a question to confirm a fixed arrangement (Present Continuous).</p><ol><li>"Are you running the payment run today? (↗)"</li><li>"Is the manager meeting the client on Monday? (↗)"</li><li>"Are we clearing the account this morning? (↗)"</li></ol>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: {
-        spot: 'statement',
-        caption: 'Pronunciation · Intonation: Confirming Arrangements',
-        cls: 'vis-sm'
-      }
-    },
-    {
-      id: 'c6',
-      covers: ['7C'],
-      ref: '7C',
-      bookRef: 'Unit 5 · 7C',
       type: 'phrasebank',
       title: 'Listen and repeat',
       instruction: 'Click a line to hear it, then read it aloud after the recording.',
@@ -120,10 +103,10 @@ EFA.page('u5-s20-pronunciation', {
         '"Is the manager meeting the client on Monday? (↗)"',
         '"Are we clearing the account this morning? (↗)"'
       ],
-      visual: { spot: 'expense', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
+      visual: { spot: 'statement', caption: 'Pronunciation · Listen and repeat', cls: 'vis-sm' }
     },
     {
-      id: 'c7',
+      id: 'c6',
       covers: ['7D'],
       ref: '7D',
       bookRef: 'Unit 5 · 7D',
@@ -147,32 +130,6 @@ EFA.page('u5-s20-pronunciation', {
       ],
       doneLabel: 'I have read this',
       visual: { spot: 'credit', caption: 'Pronunciation · Fluency Drill: Cash Flow Summary', cls: 'vis-sm' }
-    },
-    {
-      id: 'c8',
-      covers: ['7D'],
-      ref: '7D',
-      bookRef: 'Unit 5 · 7D',
-      type: 'study',
-      source: 'book',
-      title: 'Fluency Drill: Cash Flow Summary',
-      instruction: 'Read the following passage, maintaining a clear and decisive tone, ensuring correct use of reduction and stress.',
-      html: '<p>"The Accounts Receivable team is calling all outstanding debtors today. I think this action will significantly improve our cash inflow. We are going to review the new credit exposure policy next week. I promise the delay in payment will not happen again. The Financial Controller is meeting with us to discuss how we can better manage our suppliers."</p>',
-      playable: [
-        {
-          t: '"The Accounts Receivable team is calling all outstanding debtors today.',
-          role: 'narrator'
-        },
-        { t: 'I think this action will significantly improve our cash inflow.', role: 'narrator' },
-        { t: 'We are going to review the new credit exposure policy next week.', role: 'narrator' },
-        { t: 'I promise the delay in payment will not happen again.', role: 'narrator' },
-        {
-          t: 'The Financial Controller is meeting with us to discuss how we can better manage our suppliers.',
-          role: 'narrator'
-        }
-      ],
-      doneLabel: 'I have read this',
-      visual: { spot: 'ledger', caption: 'Pronunciation · Fluency Drill: Cash Flow Summary', cls: 'vis-sm' }
     }
   ],
   prev: 's19-writing-2',

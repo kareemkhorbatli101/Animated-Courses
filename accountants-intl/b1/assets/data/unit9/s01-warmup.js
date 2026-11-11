@@ -22,10 +22,11 @@ EFA.page('u9-s01-warmup', {
       source: 'book',
       title: 'Milestones and Achievements',
       instruction: 'Read this before you go on.',
-      html: '<p><b>Context.</b> Discuss the last five years of your professional life.</p><ol><li>A. What is the most important software package you have learned to use in your career?</li><li>B. Which major project have you completed recently (e.g., a system migration, a budget approval)?</li><li>C. How long have you worked in accounting?</li></ol>',
+      html: '<p><b>Context.</b> Discuss the last five years of your professional life.</p>',
       playable: [],
       doneLabel: 'I have read this',
-      visual: { spot: 'budget', caption: 'Warm-Up · Milestones and Achievements' }
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
+      visual: { spot: 'certification', caption: 'Warm-Up · Milestones and Achievements' }
     },
     {
       id: 'c2',
@@ -45,7 +46,7 @@ EFA.page('u9-s01-warmup', {
         { t: '(Hint: The action started in the past and is relevant now).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'certification', caption: 'Warm-Up · Continuous Learning', cls: 'vis-sm' }
+      visual: { spot: 'migration', caption: 'Warm-Up · Continuous Learning', cls: 'vis-sm' }
     }
   ],
   next: 's02-vocab-match',

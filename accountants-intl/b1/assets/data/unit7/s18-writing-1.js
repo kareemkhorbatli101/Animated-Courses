@@ -30,6 +30,7 @@ EFA.page('u7-s18-writing-1', {
         '3': '<b>more expensive than the marketing department</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 2.</b> Last month\'s variance was EUR 20k, this month\'s is EUR 5k. (small) -> This month\'s variance is <u>smaller than</u> last month\'s.',
+      brief: 'A writing task with a frame: the shape is given and the words are yours. Use the unit\'s grammar on purpose — that is what a reader of your email will notice first.',
       visual: { spot: 'invoice', caption: 'Writing · Guided Writing: Paraphrasing (Comparatives)' }
     },
     {
@@ -71,7 +72,8 @@ EFA.page('u7-s18-writing-1', {
           'The marketing department spent EUR 12k, and the HR department spent EUR 15k. (expensive) -> The HR department was ____________________ the marketing department.'
         ]
       },
-      visual: { spot: 'variance', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'variance', caption: 'Write it the way this unit has been teaching you to.' },
+      bank: ['Variance', 'Actuals', 'Budget']
     },
     {
       id: 'c3',

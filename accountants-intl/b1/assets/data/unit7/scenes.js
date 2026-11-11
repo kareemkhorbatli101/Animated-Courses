@@ -13,17 +13,20 @@ EFA.scene('u7-listening-1-c1', {
       who: 'supervisor',
       face: 'thinking',
       en: 'So, what is the most alarming variance this month?',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'إذًا، ما أكثر الفروق إثارةً للقلق هذا الشهر؟'
     },
     {
       who: 'junior',
       face: 'neutral',
-      en: 'That would be the raw materials cost, which is 30% higher than the budget. The Admin expense is EUR 500 more than last month, but that is not the most significant issue. The most important thing is that our gross profit is better than the forecast due to the higher sales.'
+      en: 'That would be the raw materials cost, which is 30% higher than the budget. The Admin expense is EUR 500 more than last month, but that is not the most significant issue. The most important thing is that our gross profit is better than the forecast due to the higher sales.',
+      ar: 'هو تكلفة المواد الخام، فهي أعلى من الموازنة بنسبة 30%. والمصروف الإداري أعلى من الشهر الماضي بمقدار EUR 500، لكنه ليس أهم المسائل. والأهم أن ربحنا الإجمالي أفضل من التوقعات بسبب ارتفاع المبيعات.'
     },
     {
       who: 'supervisor',
       face: 'warm',
-      en: 'Excellent. Let\'s drill down into the raw materials variance.'
+      en: 'Excellent. Let\'s drill down into the raw materials variance.',
+      ar: 'ممتاز. لنتعمّق في فرق المواد الخام.'
     }
   ]
 });
@@ -35,27 +38,32 @@ EFA.scene('u7-reading-1-c2', {
       who: 'narr',
       face: 'warm',
       en: 'Sales revenue in Q4 was EUR 520,000, which is higher than the budget of EUR 500,000.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'بلغت إيرادات المبيعات في الربع الرابع EUR 520,000، وهي أعلى من الموازنة المقدرة بـ EUR 500,000.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This favorable variance is primarily due to the success of our new product line.'
+      en: 'This favorable variance is primarily due to the success of our new product line.',
+      ar: 'ويعود هذا الفرق الإيجابي في المقام الأول إلى نجاح خط منتجاتنا الجديد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Product A was the most popular item, generating more revenue than all other products combined.'
+      en: 'Product A was the most popular item, generating more revenue than all other products combined.',
+      ar: 'وكان المنتج A أكثر الأصناف رواجًا، فحقق إيرادًا أعلى من جميع المنتجات الأخرى مجتمعة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Northern Region was better than the Southern Region in terms of growth, recording the strongest increase of 12%.'
+      en: 'The Northern Region was better than the Southern Region in terms of growth, recording the strongest increase of 12%.',
+      ar: 'وكان أداء المنطقة الشمالية أفضل من المنطقة الجنوبية في النمو، فسجّلت أقوى زيادة بنسبة 12%.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Marketing expense was less than the allocated budget, making the overall results the most positive of the year.'
+      en: 'The Marketing expense was less than the allocated budget, making the overall results the most positive of the year.',
+      ar: 'وكان مصروف التسويق أقل من الموازنة المخصصة، فصارت النتائج الإجمالية أفضل نتائج العام.'
     }
   ]
 });
@@ -63,31 +71,42 @@ EFA.scene('u7-reading-2-c1', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Adverse Variance - Utilities', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'The utilities expense is EUR 2,500 more than the budgeted amount.'
+      face: 'warm',
+      en: 'MEMORANDUM: Adverse Variance - Utilities',
+      cam: { shot: 'mid' },
+      ar: 'مذكرة: فرق سلبي — الخدمات'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'This is the second largest adverse variance on the P&L this month.'
+      en: 'The utilities expense is EUR 2,500 more than the budgeted amount.',
+      ar: 'مصروف الخدمات أعلى من المبلغ المقدر في الموازنة بمقدار EUR 2,500.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The cost of electricity was higher than anticipated due to an extremely cold winter in Kraków, which was colder than the weather last year.'
+      en: 'This is the second largest adverse variance on the P&L this month.',
+      ar: 'وهو ثاني أكبر فرق سلبي في قائمة الأرباح والخسائر هذا الشهر.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We believe that this variance is not as significant as the payroll variance, which is the largest adverse item.'
+      en: 'The cost of electricity was higher than anticipated due to an extremely cold winter in Kraków, which was colder than the weather last year.',
+      ar: 'وكانت تكلفة الكهرباء أعلى من المتوقع بسبب شتاء شديد البرودة في كراكوف، وهو أبرد من طقس العام الماضي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'However, we must find ways to be more efficient and less wasteful with our energy usage.'
+      en: 'We believe that this variance is not as significant as the payroll variance, which is the largest adverse item.',
+      ar: 'ونرى أن هذا الفرق ليس بأهمية فرق الرواتب، وهو أكبر بند سلبي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'However, we must find ways to be more efficient and less wasteful with our energy usage.',
+      ar: 'لكن علينا أن نجد سبلًا لنكون أكثر كفاءة وأقل هدرًا في استهلاك الطاقة.'
     }
   ]
 });
@@ -99,23 +118,32 @@ EFA.scene('u7-reading-3-c1', {
       who: 'narr',
       face: 'warm',
       en: 'Company X is the most profitable in the sector, reporting an 18% net margin.',
-      cam: { shot: 'mid' }
-    },
-    { who: 'narr', face: 'neutral', en: 'Their operational costs are lower than Company Y\'s.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Company Y has a stronger brand than Company X, but their product quality is worse than their main rival.'
+      cam: { shot: 'mid' },
+      ar: 'الشركة X هي الأكثر ربحية في القطاع، إذ سجّلت هامش ربح صافٍ بنسبة 18%.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Company Z is the newest competitor and has the least market share among the three.'
+      en: 'Their operational costs are lower than Company Y\'s.',
+      ar: 'وتكاليفها التشغيلية أقل من تكاليف الشركة Y.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Overall, while Company X is more financially sound than the others, Company Y has the most potential for future growth if they can reduce their operating expenses.'
+      en: 'Company Y has a stronger brand than Company X, but their product quality is worse than their main rival.',
+      ar: 'وللشركة Y علامة تجارية أقوى من الشركة X، لكن جودة منتجها أسوأ من جودة منافسها الرئيسي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Company Z is the newest competitor and has the least market share among the three.',
+      ar: 'والشركة Z هي أحدث المنافسين ولها أقل حصة سوقية بين الثلاث.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Overall, while Company X is more financially sound than the others, Company Y has the most potential for future growth if they can reduce their operating expenses.',
+      ar: 'وعلى العموم، فالشركة X أمتن ماليًا من غيرها، لكن الشركة Y هي الأكثر قدرة على النمو مستقبلًا إن استطاعت تقليص مصروفاتها التشغيلية.'
     }
   ]
 });
@@ -127,108 +155,177 @@ EFA.scene('u7-extension-c1', {
       who: 'narr',
       face: 'warm',
       en: 'The conference room was tense as the Board of Directors gathered to review the Q3 performance of Horizon Electronics.',
-      cam: { shot: 'mid' }
+      cam: { shot: 'mid' },
+      ar: 'كان الجو متوترًا في قاعة الاجتماعات حين اجتمع مجلس الإدارة لمراجعة أداء الربع الثالث لشركة هورايزون إلكترونيكس.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Financial Controller, Sarah, stood at the front of the room, ready to present the variance analysis.'
-    },
-    { who: 'narr', face: 'neutral', en: 'She knew the numbers were a mixed bag.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Revenue was strong, but expenses had spiralled out of control.'
+      en: 'The Financial Controller, Sarah, stood at the front of the room, ready to present the variance analysis.',
+      ar: 'ووقفت المراقبة المالية، سارة، في مقدمة القاعة مستعدة لعرض تحليل الفروق.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'She needed to use precise language to explain the trends without causing panic.'
-    },
-    { who: 'narr', face: 'neutral', en: 'She displayed the first slide, comparing Actuals vs.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Budget, with every figure translated into the group\'s reporting currency.'
+      en: 'She knew the numbers were a mixed bag.',
+      ar: 'وكانت تعلم أن الأرقام متباينة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"As you can see," Sarah began, "our Sales Revenue for Q3 was significantly higher than the budget.'
+      en: 'Revenue was strong, but expenses had spiralled out of control.',
+      ar: 'فالإيراد قوي، لكن المصروفات خرجت عن السيطرة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'In fact, this was the strongest sales quarter in the company\'s history.'
+      en: 'She needed to use precise language to explain the trends without causing panic.',
+      ar: 'واحتاجت إلى لغة دقيقة لتشرح الاتجاهات دون أن تُثير الهلع.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The launch of the Model-X phone generated more revenue than we predicted.'
+      en: 'She displayed the first slide, comparing Actuals vs.',
+      ar: 'وعرضت الشريحة الأولى، مقارنة الفعلي بـ'
     },
-    { who: 'narr', face: 'neutral', en: '" The board members nodded, looking pleased.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"However," Sarah continued, moving to the next slide, "this growth came at a cost.'
+      en: 'Budget, with every figure translated into the group\'s reporting currency.',
+      ar: 'الموازنة، مع تحويل كل رقم إلى عملة التقارير في المجموعة.'
     },
-    { who: 'narr', face: 'neutral', en: 'Our Marketing Expense was much higher than anticipated.' },
-    { who: 'narr', face: 'neutral', en: 'It was the most expensive campaign we have ever run.' },
-    { who: 'narr', face: 'neutral', en: 'She pointed to the red numbers on the screen.' },
-    { who: 'narr', face: 'neutral', en: '"The variance in shipping costs is also adverse.' },
-    { who: 'narr', face: 'neutral', en: 'Because we sold more units, we spent more on logistics.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'However, the shipping cost per unit was actually lower than last year, which indicates we are becoming more efficient.'
+      en: '"As you can see," Sarah began, "our Sales Revenue for Q3 was significantly higher than the budget.',
+      ar: 'فبدأت سارة: "كما ترون، كان إيراد مبيعاتنا في الربع الثالث أعلى من الموازنة بفارق كبير.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'In fact, this was the strongest sales quarter in the company\'s history.',
+      ar: 'بل كان أقوى ربع في تاريخ الشركة من حيث المبيعات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The launch of the Model-X phone generated more revenue than we predicted.',
+      ar: 'فقد حقق إطلاق هاتف Model-X إيرادًا أعلى مما توقعنا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" The board members nodded, looking pleased.',
+      ar: '" فأومأ أعضاء المجلس راضين.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"However," Sarah continued, moving to the next slide, "this growth came at a cost.',
+      ar: 'وتابعت سارة وهي تنتقل إلى الشريحة التالية: "لكن هذا النمو جاء بثمن.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Our Marketing Expense was much higher than anticipated.',
+      ar: 'فمصروف التسويق كان أعلى من المتوقع بكثير.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It was the most expensive campaign we have ever run.',
+      ar: 'وكانت أغلى حملة أطلقناها على الإطلاق.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'She pointed to the red numbers on the screen.',
+      ar: 'وأشارت إلى الأرقام الحمراء على الشاشة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"The variance in shipping costs is also adverse.',
+      ar: '"وفرق تكاليف الشحن سلبي أيضًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Because we sold more units, we spent more on logistics.',
+      ar: 'فلأننا بعنا وحدات أكثر، أنفقنا أكثر على اللوجستيات.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'However, the shipping cost per unit was actually lower than last year, which indicates we are becoming more efficient.',
+      ar: 'لكن تكلفة الشحن للوحدة كانت في الحقيقة أقل من العام الماضي، وهذا يدل على أننا نصبح أكثر كفاءة.'
     },
     {
       who: 'narr',
       face: 'thinking',
-      en: '" A board member asked, "What is the most alarming variance on this report?'
+      en: '" A board member asked, "What is the most alarming variance on this report?',
+      ar: '" فسأل أحد أعضاء المجلس: "ما أكثر الفروق إثارةً للقلق في هذا التقرير؟'
     },
-    { who: 'narr', face: 'neutral', en: '" Sarah didn\'t hesitate.' },
-    { who: 'narr', face: 'neutral', en: '"The R&D spend is the most critical issue.' },
-    { who: 'narr', face: 'neutral', en: 'It is significantly lower than the budget.' },
+    { who: 'narr', face: 'neutral', en: '" Sarah didn\'t hesitate.', ar: '" فلم تتردد سارة.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'While this looks like a favorable variance because we saved money, it actually means we are falling behind on innovation.'
-    },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Falling behind is worse than overspending in this industry.'
+      en: '"The R&D spend is the most critical issue.',
+      ar: '"الإنفاق على البحث والتطوير هو المسألة الأخطر.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Sarah concluded with a comparison of the regional offices.'
+      en: 'It is significantly lower than the budget.',
+      ar: 'فهو أقل من الموازنة بفارق كبير.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '"The Americas division performed better than the European division.'
+      en: 'While this looks like a favorable variance because we saved money, it actually means we are falling behind on innovation.',
+      ar: 'ومع أن هذا يبدو فرقًا إيجابيًا لأننا وفّرنا مالًا، فهو في الحقيقة يعني أننا نتأخر في الابتكار.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'Europe had the sluggish sales growth, making it the least profitable region this quarter.'
+      en: 'Falling behind is worse than overspending in this industry.',
+      ar: 'والتأخر في هذه الصناعة أسوأ من الإنفاق الزائد.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We need to analyze why their operational costs are more expensive than in the Americas, and how much of the gap is simply the exchange rate.'
+      en: 'Sarah concluded with a comparison of the regional offices.',
+      ar: 'وأنهت سارة بمقارنة بين المكاتب الإقليمية.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: '" By using comparatives and superlatives, Sarah was able to give context to the raw numbers.'
+      en: '"The Americas division performed better than the European division.',
+      ar: '"كان أداء قطاع الأمريكتين أفضل من أداء القطاع الأوروبي.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'It wasn\'t just about profit; it was about understanding which areas were stronger, which were weaker, and which were the most critical for future success.'
+      en: 'Europe had the sluggish sales growth, making it the least profitable region this quarter.',
+      ar: 'فأوروبا سجّلت نموًا بطيئًا في المبيعات، فصارت أقل المناطق ربحية هذا الربع.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to analyze why their operational costs are more expensive than in the Americas, and how much of the gap is simply the exchange rate.',
+      ar: 'وعلينا أن نحلل لماذا تكاليفها التشغيلية أغلى منها في الأمريكتين، وأي قدر من الفجوة هو مجرد سعر صرف.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '" By using comparatives and superlatives, Sarah was able to give context to the raw numbers.',
+      ar: '" وباستخدام صيغ المقارنة والتفضيل استطاعت سارة أن تضع الأرقام المجردة في سياقها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It wasn\'t just about profit; it was about understanding which areas were stronger, which were weaker, and which were the most critical for future success.',
+      ar: 'فلم تكن المسألة الربح وحده، بل فهم أي المجالات أقوى وأيها أضعف وأيها الأشد حرجًا للنجاح مستقبلًا.'
     }
   ]
 });
@@ -236,70 +333,165 @@ EFA.scene('u7-extension-c3', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Presenting the Variance Report', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'Context:The Financial Controller, James, is presenting the monthly financial results to the Operations Manager, Sarah.'
-    },
-    { who: 'narr', face: 'warm', en: '"Thanks for meeting with me, Sarah.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'I’ve completed the monthly variance analysis, and I wanted to walk you through the key figures.'
-    },
-    { who: 'narr', face: 'neutral', en: 'Overall, it’s a mixed picture.' },
-    { who: 'narr', face: 'neutral', en: 'Give me the headlines.' },
-    { who: 'narr', face: 'thinking', en: 'How did we perform compared to the budget?' },
-    { who: 'narr', face: 'warm', en: '"Let’s start with the good news.' },
-    { who: 'narr', face: 'neutral', en: 'Our sales revenue is higher than the budget by 10%.' },
-    { who: 'narr', face: 'neutral', en: 'This is the strongest revenue month we have had all year.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'The new marketing campaign was more effective than we predicted.'
-    },
-    { who: 'narr', face: 'warm', en: '"That’s excellent.' },
-    { who: 'narr', face: 'thinking', en: 'But I assume there is a \'but\'?' },
-    { who: 'narr', face: 'neutral', en: 'While revenue is up, our costs are also up.' },
-    { who: 'narr', face: 'neutral', en: 'The most alarming variance is in the shipping department.' },
-    { who: 'narr', face: 'neutral', en: 'Shipping costs were 15% higher than last month.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'It seems we used a more expensive courier service than usual, and a few shipments went by air rather than sea.'
+      face: 'warm',
+      en: 'Presenting the Variance Report',
+      cam: { shot: 'mid' },
+      ar: 'عرض تقرير الفروق'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'We had to use the express courier because of the rush orders.'
+      en: 'Context:The Financial Controller, James, is presenting the monthly financial results to the Operations Manager, Sarah.',
+      ar: 'السياق: المراقب المالي، جيمس، يعرض النتائج المالية الشهرية على مديرة العمليات، سارة.'
     },
-    { who: 'narr', face: 'thinking', en: 'Is that the largest adverse variance?' },
-    { who: 'narr', face: 'neutral', en: 'The payroll expense is the largest adverse variance.' },
-    { who: 'narr', face: 'neutral', en: 'We spent EUR 20,000 more on overtime than we planned.' },
-    { who: 'narr', face: 'neutral', en: 'It seems your team worked a lot of extra hours.' },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'This makes the Operations department the most costly area of the business this month.'
-    },
-    { who: 'narr', face: 'neutral', en: '"We had to pay overtime to meet the sales demand.' },
-    { who: 'narr', face: 'thinking', en: 'But surely the gross profit is still good?' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'Even with the high costs, our gross profit margin is better than our main competitor’s.'
+      face: 'warm',
+      en: '"Thanks for meeting with me, Sarah.',
+      ar: '"شكرًا لاجتماعك معي يا سارة.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'But our net profit is lower than forecasted because of the overtime.'
+      en: 'I’ve completed the monthly variance analysis, and I wanted to walk you through the key figures.',
+      ar: 'لقد أنجزت تحليل الفروق الشهري، وأردت أن أعرض عليك الأرقام الرئيسية.'
     },
-    { who: 'narr', face: 'neutral', en: 'We need to be more efficient next month.' },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The electricity bill was also higher than expected, but that is less significant than the payroll issue.'
+      en: 'Overall, it’s a mixed picture.',
+      ar: 'وعلى العموم الصورة متباينة.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Give me the headlines.', ar: 'أعطني العناوين الرئيسية.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'How did we perform compared to the budget?',
+      ar: 'كيف كان أداؤنا مقارنة بالموازنة؟'
+    },
+    { who: 'narr', face: 'warm', en: '"Let’s start with the good news.', ar: '"لنبدأ بالخبر الجيد.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Our sales revenue is higher than the budget by 10%.',
+      ar: 'إيراد مبيعاتنا أعلى من الموازنة بنسبة 10%.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This is the strongest revenue month we have had all year.',
+      ar: 'وهذا أقوى شهر في الإيراد خلال العام كله.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The new marketing campaign was more effective than we predicted.',
+      ar: 'وكانت حملة التسويق الجديدة أكثر فاعلية مما توقعنا.'
+    },
+    { who: 'narr', face: 'warm', en: '"That’s excellent.', ar: '"هذا ممتاز.' },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'But I assume there is a \'but\'?',
+      ar: 'لكن أظن أن هناك "لكن"؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'While revenue is up, our costs are also up.',
+      ar: 'فمع ارتفاع الإيراد ارتفعت تكاليفنا أيضًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The most alarming variance is in the shipping department.',
+      ar: 'وأكثر الفروق إثارةً للقلق في قسم الشحن.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Shipping costs were 15% higher than last month.',
+      ar: 'فتكاليف الشحن أعلى من الشهر الماضي بنسبة 15%.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It seems we used a more expensive courier service than usual, and a few shipments went by air rather than sea.',
+      ar: 'ويبدو أننا استخدمنا خدمة توصيل أغلى من المعتاد، وأن بضع شحنات أُرسلت جوًا لا بحرًا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We had to use the express courier because of the rush orders.',
+      ar: 'اضطررنا إلى استخدام التوصيل السريع بسبب الطلبات العاجلة.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'Is that the largest adverse variance?',
+      ar: 'هل هذا أكبر فرق سلبي؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The payroll expense is the largest adverse variance.',
+      ar: 'مصروف الرواتب هو أكبر فرق سلبي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We spent EUR 20,000 more on overtime than we planned.',
+      ar: 'فقد أنفقنا على العمل الإضافي EUR 20,000 أكثر مما خططنا.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'It seems your team worked a lot of extra hours.',
+      ar: 'ويبدو أن فريقك عمل ساعات إضافية كثيرة.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'This makes the Operations department the most costly area of the business this month.',
+      ar: 'وهذا يجعل قسم العمليات أكثر مجالات العمل تكلفة هذا الشهر.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: '"We had to pay overtime to meet the sales demand.',
+      ar: '"اضطررنا إلى دفع أجر إضافي لتلبية طلب المبيعات.'
+    },
+    {
+      who: 'narr',
+      face: 'thinking',
+      en: 'But surely the gross profit is still good?',
+      ar: 'لكن الربح الإجمالي لا يزال جيدًا، أليس كذلك؟'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'Even with the high costs, our gross profit margin is better than our main competitor’s.',
+      ar: 'حتى مع ارتفاع التكاليف، فهامش ربحنا الإجمالي أفضل من هامش منافسنا الرئيسي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'But our net profit is lower than forecasted because of the overtime.',
+      ar: 'لكن ربحنا الصافي أقل من المتوقع بسبب العمل الإضافي.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'We need to be more efficient next month.',
+      ar: 'وعلينا أن نكون أكثر كفاءة الشهر القادم.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The electricity bill was also higher than expected, but that is less significant than the payroll issue.',
+      ar: 'وكانت فاتورة الكهرباء أعلى من المتوقع أيضًا، لكنها أقل أهمية من مسألة الرواتب.'
     }
   ]
 });
@@ -307,40 +499,62 @@ EFA.scene('u7-extension-c5', {
   set: 'boardroom',
   cast: { narr: { rig: 'f-30s-a', name: 'Reader', at: [0.5, 0.54], voice: 'f' } },
   lines: [
-    { who: 'narr', face: 'warm', en: 'Comparing the Group\'s Three Regions', cam: { shot: 'mid' } },
     {
       who: 'narr',
-      face: 'neutral',
-      en: 'The Northwind board is reviewing the monthly performance of its three regions: EMEA (Dublin and Kraków), the Americas (Toronto and Santiago), and APAC (Singapore).'
-    },
-    { who: 'narr', face: 'neutral', en: 'You are the Financial Analyst.' },
-    { who: 'narr', face: 'neutral', en: 'You need to compare their performance reports.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'EMEA has the highest actual spend but the lowest variance (closest to budget).'
+      face: 'warm',
+      en: 'Comparing the Group\'s Three Regions',
+      cam: { shot: 'mid' },
+      ar: 'مقارنة مناطق المجموعة الثلاث'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The Americas is more expensive than budgeted because of freight and an unfavourable exchange rate.'
+      en: 'The Northwind board is reviewing the monthly performance of its three regions: EMEA (Dublin and Kraków), the Americas (Toronto and Santiago), and APAC (Singapore).',
+      ar: 'يراجع مجلس نورثويند الأداء الشهري لمناطقه الثلاث: أوروبا والشرق الأوسط وإفريقيا (دبلن وكراكوف)، والأمريكتان (تورونتو وسانتياغو)، وآسيا والمحيط الهادئ (سنغافورة).'
+    },
+    { who: 'narr', face: 'neutral', en: 'You are the Financial Analyst.', ar: 'وأنت المحلل المالي.' },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You need to compare their performance reports.',
+      ar: 'وعليك أن تقارن تقارير أدائها.'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'EMEA has the highest actual spend but the lowest variance (closest to budget).',
+      ar: 'منطقة أوروبا والشرق الأوسط وإفريقيا لها أعلى إنفاق فعلي لكن أقل فرق (أقرب إلى الموازنة).'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The Americas is more expensive than budgeted because of freight and an unfavourable exchange rate.',
+      ar: 'والأمريكتان أغلى من الموازنة بسبب أجور الشحن وسعر صرف غير مؤاتٍ.'
     },
     {
       who: 'narr',
       face: 'worried',
-      en: 'APAC has the most significant adverse variance because of a delayed plant upgrade.'
-    },
-    { who: 'narr', face: 'neutral', en: 'You need to present these findings to the board.' },
-    {
-      who: 'narr',
-      face: 'neutral',
-      en: 'You must use comparatives and superlatives to highlight which region is performing "better" or "worse" and identify the "most critical" issues.'
+      en: 'APAC has the most significant adverse variance because of a delayed plant upgrade.',
+      ar: 'ولآسيا والمحيط الهادئ أكبر فرق سلبي بسبب تأخر تحديث أحد المصانع.'
     },
     {
       who: 'narr',
       face: 'neutral',
-      en: 'The goal is to allocate next month\'s investment to the most efficient region, and to separate real performance from the effect of currency.'
+      en: 'You need to present these findings to the board.',
+      ar: 'وعليك أن تعرض هذه النتائج على المجلس.'
     },
-    { who: 'narr', face: 'neutral', en: 'Phase 1: Discussion Strategy' }
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'You must use comparatives and superlatives to highlight which region is performing "better" or "worse" and identify the "most critical" issues.',
+      ar: 'وعليك استخدام صيغ المقارنة والتفضيل لبيان أي منطقة أداؤها "أفضل" أو "أسوأ"، وتحديد المسائل "الأشد حرجًا".'
+    },
+    {
+      who: 'narr',
+      face: 'neutral',
+      en: 'The goal is to allocate next month\'s investment to the most efficient region, and to separate real performance from the effect of currency.',
+      ar: 'والهدف توجيه استثمار الشهر القادم إلى أكفأ منطقة، وفصل الأداء الحقيقي عن أثر العملة.'
+    },
+    { who: 'narr', face: 'neutral', en: 'Discussion Strategy', ar: 'منهج المناقشة' }
   ]
 });

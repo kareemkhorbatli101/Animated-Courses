@@ -22,7 +22,7 @@ EFA.page('u10-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: The Urgent Report',
       instruction: 'Read this before you go on.',
-      html: '<p><b>Context.</b> The Audit Partner (A) gives an urgent instruction to the Team Lead (B).</p><p>Partner (Student A): Give three urgent instructions in Direct Speech (e.g., "I need the general ledger immediately," "The deadline is tomorrow," "You must use the new template.").</p><p>Team Lead (Student B): Immediately turn around and report these three instructions to a colleague using Reported Speech and different reporting verbs (said, mandated, insisted).</p>',
+      html: '<p><b>Context.</b> The Audit Partner (A) gives an urgent instruction to the Team Lead (B).</p><p>Partner (Student A): Give three urgent instructions in Direct Speech (e.g., "I need the general ledger immediately," "The deadline is tomorrow," "You must use the new template.").</p><p>Team Lead (Student B): Immediately turn around and report these three instructions to a colleague using Reported Speech and different reporting verbs (said, mandated, insisted).</p><ol><li>B: "The Partner mandated that we get the general ledger immediately. He also insisted that the deadline was the next day."</li></ol>',
       playable: [
         {
           t: 'Partner (Student A): Give three urgent instructions in Direct Speech (e.',
@@ -38,6 +38,7 @@ EFA.page('u10-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'ledger', caption: 'Speaking · Role-Play 1: The Urgent Report' }
     },
     {
@@ -78,7 +79,7 @@ EFA.page('u10-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: Summarizing Management Accounts',
       instruction: 'Junior Accountant (Student A): Summarize two key figures and explain the variance (e.g., Sales are up 5%, but expenses increased by 15% because of X).',
-      html: '<p><b>Context.</b> A Junior Accountant (A) presents the management accounts to a Department Manager (B).</p><p>Department Manager (Student B): Report the summary to a colleague who just entered the room using Reported Speech and financial vocabulary (e.g., She reported that sales were up, but she clarified that the expense variance had increased).</p>',
+      html: '<p><b>Context.</b> A Junior Accountant (A) presents the management accounts to a Department Manager (B).</p><p>Department Manager (Student B): Report the summary to a colleague who just entered the room using Reported Speech and financial vocabulary (e.g., She reported that sales were up, but she clarified that the expense variance had increased).</p><ol><li>B: "She just reported that sales were up, but she emphasized that the expense ratio had increased significantly due to shipping costs."</li></ol>',
       playable: [
         {
           t: 'Department Manager (Student B): Report the summary to a colleague who just entered the room using Reported Speech and financial vocabulary (e.',

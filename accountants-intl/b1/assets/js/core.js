@@ -43,7 +43,16 @@
     full: 'English for Accountants B1 — International Edition',
     book: 'EFA Intl',
     world: 'Northwind Group',
-    arabic: false,
+    /* THE ARABIC TOGGLE IS A CLAIM, and it is now true because the coverage is.
+     *
+     * This was `false` from the day the course was cloned, which hid the "AR ترجمة"
+     * button and made the whole Arabic facility - `EFA.arabic`, `EFA.ar`, the RTL
+     * `.sub-ar` track in scene.js, the cue-card `cc.ar` - unreachable. It was correct
+     * while there were no translations: a toggle that reveals nothing is worse than no
+     * toggle. There are now 984 of 984 scene lines translated plus the briefs, the
+     * directions and the glossary, and tools/check-arabic.py AR5 FAILS if this flag and
+     * that coverage ever disagree again, in either direction. */
+    arabic: true,
     liveUnits: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     totalUnits: 10
   };
@@ -256,12 +265,47 @@
   /* ============================================================
      progress
      ============================================================ */
-  var KEY = 'csb1.progress.v1', PREF = 'csb1.prefs.v1';
+  /* THIS COURSE'S OWN KEYS, which they were not.
+   *
+   * Both of these read `csb1.*` - the CYBERSECURITY B1 namespace - in this course, in
+   * the NGO accounting course and in the cybersecurity course, byte for byte, because
+   * each was cloned from the last and the name travelled with the code. All three are
+   * served from learnactively.com, which is ONE ORIGIN, so all three shared one
+   * localStorage entry.
+   *
+   * The page records happened not to collide, because the screen ids differ
+   * (`u1-s15-reading-1` here against `u1-l1-s1` there). Two things did collide: the
+   * PREFS - subtitles, playback speed, theme - and `exportAll()`, which handed a learner
+   * a file containing all three courses' progress labelled as this one's. And it was one
+   * id-scheme change away from losing somebody's work.
+   *
+   * The migration below runs once. It takes only the records whose page ids belong to
+   * this course's own unit maps and leaves everything else in the old entry untouched,
+   * because the other two courses are still reading it.
+   */
+  var KEY = 'efa.progress.v1', PREF = 'efa.prefs.v1';
+  var OLD_KEY = 'csb1.progress.v1', OLD_PREF = 'csb1.prefs.v1';
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 
+  function migrated() {
+    var mine = readJSON(KEY, null);
+    if (mine) return mine;
+    var old = readJSON(OLD_KEY, null);
+    if (!old) return {};
+    /* This course's page ids, and only those. `u<n>-s<nn>-<slug>` is the shape the
+       builder emits here; the other courses' ids do not match it. Copied rather than
+       moved: the shared entry is still another course's data. */
+    var out = {};
+    for (var k in old) {
+      if (old.hasOwnProperty(k) && /^u\d+-s\d\d-/.test(k)) out[k] = old[k];
+    }
+    writeJSON(KEY, out);
+    return out;
+  }
+
   var P = EFA.progress = {
-    all: readJSON(KEY, {}),
+    all: migrated(),
     page: function (pid) { return (this.all[pid] = this.all[pid] || { cards: {} }); },
     card: function (pid, cid) { var p = this.page(pid); return (p.cards[cid] = p.cards[cid] || { attempts: 0, helped: false, score: 0, max: 0, done: false, state: null }); },
     save: function () { writeJSON(KEY, this.all); EFA.chrome && EFA.chrome.refresh && EFA.chrome.refresh(); },
@@ -295,7 +339,12 @@
     exportAll: function () { return JSON.stringify({ v: 1, saved: new Date().toISOString(), progress: this.all }, null, 2); }
   };
 
-  var PREFS = EFA.prefs = readJSON(PREF, { theme: 'auto', subEn: true, subAr: false, speed: 1 });
+  /* Prefs fall back to the shared entry once, so a learner who had set the theme or the
+     speed before today keeps them; after that this course writes its own. Unlike the
+     progress records, prefs genuinely DID collide across the three courses - they are
+     the same four keys - so this is a real recovery rather than a formality. */
+  var PREFS = EFA.prefs = readJSON(PREF, null) ||
+    readJSON(OLD_PREF, { theme: 'auto', subEn: true, subAr: false, speed: 1 });
   EFA.savePrefs = function () { writeJSON(PREF, PREFS); };
 
   /* ============================================================
@@ -728,6 +777,21 @@
 
     var body = U.el('div', 'card-body');
     if (arPanel) body.appendChild(arPanel);
+
+    /* THE BRIEF COMES BEFORE THE INSTRUCTION, AND SAYS A DIFFERENT THING.
+     *
+     * The instruction is the author's and it names the task: "Read the posting for a
+     * Junior Accountant." The brief says what to LOOK FOR and what to do with it, which
+     * no card in this course carried - 0 of 627 - so a learner arrived at a reading
+     * passage with the title, the text, and no idea what the exercise wanted from it.
+     * Drawn by the card chrome rather than by each component, so every activity type
+     * gets it on the same terms. */
+    if (card.brief) {
+      var br = U.el('div', 'brief-card');
+      br.innerHTML = '<span class="brief-k">What to do</span><span>' +
+        U.esc(card.brief) + '</span>';
+      body.appendChild(br);
+    }
     if (card.instruction) body.appendChild(U.el('p', 'instr', card.instruction));
 
     /* ----------------------------------------------------------
@@ -764,7 +828,18 @@
       try { body.appendChild(EFA.sourcePanel(card.source)); }
       catch (e0) { if (w.console) w.console.error('source ' + card.id, e0); }
     }
-    if (card.visual) body.appendChild(EFA.renderVisual(card.visual));
+    /* ON A READING SCREEN THE DRAWING COMES AFTER THE TEXT.
+     *
+     * A picture on every card was a deliberate fix - the owner asked for it, and the
+     * exercises had none. But on a passage card it sits between the instruction and the
+     * text and is 273 px tall, so the first thing a learner is asked to READ starts 479
+     * px down its own card. The drawing is decoration there, and decoration does not go
+     * in front of the thing it decorates.
+     *
+     * Only `text-first`, which is the reading screens: on a listening screen the picture
+     * is what you look at while you listen, so it stays where it is. */
+    var visLate = card.layout === 'text-first' && card.visual;
+    if (card.visual && !visLate) body.appendChild(EFA.renderVisual(card.visual));
     if (card.seeAlso) {
       /* authored flat — {card|sel|scene|line, label, evidence} — and
          handed to the same control the selections use */
@@ -896,6 +971,9 @@
        ---------------------------------------------------------- */
     var actHost = U.el('div', 'card-activity');
     stage.appendChild(actHost);
+    /* the reading screen's drawing, placed after the text it illustrates rather than in
+       front of it - see `visLate` above */
+    if (visLate) stage.appendChild(EFA.renderVisual(card.visual));
 
     var unlockShow = function () { };     /* replaced once Show me exists */
 
@@ -1022,10 +1100,17 @@
 
     var nodes = [card].concat(card.quiz ? [card.quiz] : []);
 
-    /* 1. the directions */
+    /* 1. the directions.
+     *
+     * `brief` is included because it IS a direction - the two sentences that say what to
+     * look for and what to do with it - and it is the one piece of scaffolding on the
+     * card that was written for a learner who needs scaffolding. Leaving it out of the
+     * Arabic guide would mean the Arabic reader gets the author's task name and not the
+     * explanation of it, which is the wrong half. The brief comes first because it does
+     * on the English side too. */
     var dir = [];
     nodes.forEach(function (n) {
-      [n.instruction, n.poolLabel].forEach(function (s) {
+      [n.brief, n.instruction, n.poolLabel].forEach(function (s) {
         var t = s && EFA.ar(s);
         if (t && dir.indexOf(t) < 0) dir.push(t);
       });

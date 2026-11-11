@@ -42,9 +42,41 @@ EFA.page('u7-s09-listening-1', {
           _key: 'supervisor'
         }
       ],
+      brief: 'You will hear two or three people at work, once through at normal speed. Listen for WHO wants what — the questions below are about the facts, not the words, so you do not need every word to answer them.',
       scene: 'u7-listening-1-c1',
-      passage: '<p><b>Context.</b> A supervisor is reviewing the variance report with a junior staff member.</p><div class="script"><p>Supervisor: "So, what is the most alarming variance this month?"</p><p>Junior: "That would be the raw materials cost, which is 30% higher than the budget. The Admin expense is EUR 500 more than last month, but that is not the most significant issue. The most important thing is that our gross profit is better than the forecast due to the higher sales."</p><p>Supervisor: "Excellent. Let\'s drill down into the raw materials variance."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: '<b>Context.</b> A supervisor is reviewing the variance report with a junior staff member.',
+            speak: false
+          },
+          {
+            h: 'Supervisor: "So, what is the most alarming variance this month?"',
+            say: 'So, what is the most alarming variance this month?',
+            role: 'spk:Supervisor',
+            who: 'Supervisor'
+          },
+          {
+            h: 'Junior: "That would be the raw materials cost, which is 30% higher than the budget. The Admin expense is EUR 500 more than last month, but that is not the most significant issue. The most important thing is that our gross profit is better than the forecast due to the higher sales."',
+            say: 'That would be the raw materials cost, which is 30% higher than the budget. The Admin expense is EUR 500 more than last month, but that is not the most significant issue. The most important thing is that our gross profit is better than the forecast due to the higher sales.',
+            role: 'spk:Junior',
+            who: 'Junior'
+          },
+          {
+            h: 'Supervisor: "Excellent. Let\'s drill down into the raw materials variance."',
+            say: 'Excellent. Let\'s drill down into the raw materials variance.',
+            role: 'spk:Supervisor',
+            who: 'Supervisor'
+          }
+        ],
+        style: 'script',
+        say: { scene: 'u7-listening-1-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: { spot: 'variance', caption: 'Listening · Passage 1: The Variance Report (Functional)' }
     },
     {

@@ -25,6 +25,7 @@ EFA.page('u5-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Prediction/Offer (WILL)</th><th>Firm Intention (GOING TO)</th><th>Fixed Arrangement (PRESENT CONT.)</th></tr></thead><tbody><tr><td>"I will clear the account now."</td><td>"We are going to suspend the client\'s credit."</td><td>"I am meeting the bank manager on Friday."</td></tr><tr><td>"I think they will settle next week."</td><td>"The team is going to prepare the schedule."</td><td>"The payment run is happening tomorrow."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'payment-run', caption: 'Speaking · Functional Language: Future Plans' }
     }
   ],

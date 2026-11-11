@@ -25,6 +25,7 @@ EFA.page('u7-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Comparing Two (Comparative)</th><th>Comparing Many (Superlative)</th></tr></thead><tbody><tr><td>"The actual cost was 5% higher than the budget."</td><td>"Marketing is the most expensive category."</td></tr><tr><td>"Our Q4 performance was better than our Q3."</td><td>"This is the least profitable product we sell."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'budget', caption: 'Speaking · Functional Language: Comparative Reporting' }
     }
   ],

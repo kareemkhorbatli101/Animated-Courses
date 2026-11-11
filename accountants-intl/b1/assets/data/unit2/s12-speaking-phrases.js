@@ -25,6 +25,7 @@ EFA.page('u2-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Past Simple (Completed)</th><th>Past Continuous (Ongoing/Interrupted)</th><th>Past Simple (Sequencing)</th></tr></thead><tbody><tr><td>"I posted the full amount."</td><td>"I was checking the journal when the client called."</td><td>"I finished the report, and then I logged off."</td></tr><tr><td>"She submitted her claim late."</td><td>"While I was doing the reconciliation, he was filing the receipts."</td><td>"First, I reviewed the invoice; second, I entered the data."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: {
         spot: 'reconcile',
         caption: 'Speaking · Functional Language: Explaining Actions (Past Tenses)'

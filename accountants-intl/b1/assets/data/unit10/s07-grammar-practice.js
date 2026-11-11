@@ -22,32 +22,16 @@ EFA.page('u10-s07-grammar-practice', {
       source: 'book',
       title: 'Guided Practice',
       instruction: 'Report the following statements and questions. (Only the first one is done for you).',
-      html: '<p>Reported: The Manager stated that he needed the management accounts by the next day.</p><p>Reported: The Group CFO announced that they ____________________ to a new system.</p><p>Reported: She asked if they ____________________ the tax submission.</p><p>Reported: He confirmed that he ____________________ the figures the following week.</p><p>Reported: The Auditor asserted that the variance ____________________ huge the previous quarter.</p><p>Reported: The Supervisor mandated that we ____________________ all transactions.</p>',
+      html: '<p>Reported: The Manager stated that he needed the management accounts by the next day.</p>',
       playable: [
         {
-          t: 'The Manager stated that he needed the management accounts by the next day.',
-          role: 'narrator'
-        },
-        {
-          t: 'The Group CFO announced that they ____________________ to a new system.',
-          role: 'narrator'
-        },
-        { t: 'She asked if they ____________________ the tax submission.', role: 'narrator' },
-        {
-          t: 'He confirmed that he ____________________ the figures the following week.',
-          role: 'narrator'
-        },
-        {
-          t: 'The Auditor asserted that the variance ____________________ huge the previous quarter.',
-          role: 'narrator'
-        },
-        {
-          t: 'The Supervisor mandated that we ____________________ all transactions.',
+          t: 'Reported: The Manager stated that he needed the management accounts by the next day.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'variance', caption: 'Grammar · Guided Practice' }
+      brief: 'Guided practice: every item is decided by the rule above, so when you are unsure, go back up rather than guess.',
+      visual: { spot: 'reporting', caption: 'Grammar · Guided Practice' }
     }
   ],
   prev: 's06-grammar-rule',

@@ -22,13 +22,12 @@ EFA.page('u1-s17-reading-3', {
       source: 'book',
       title: 'Reading Passage 3: Procedure Manual (Instructions)',
       instruction: 'Read the steps for "Petty Cash Reimbursement".',
-      html: '<p>Standard Operating Procedure: Petty Cash</p>',
-      playable: [],
+      html: '<p>Standard Operating Procedure: Petty Cash</p><ol><li>The employee completes a voucher form.</li><li>The employee attaches the original receipt to the back of the voucher.</li><li>The manager signs the voucher to authorize the expense.</li><li>The accountant checks the addition, the date, and the currency.</li><li>The accountant gives cash to the employee from the box.</li><li>Finally, the accountant records the expense in the group system.</li></ol>',
+      playable: [{ t: 'Standard Operating Procedure: Petty Cash', role: 'narrator' }],
       doneLabel: 'I have read this',
-      visual: {
-        spot: 'source-document',
-        caption: 'Reading · Reading Passage 3: Procedure Manual (Instructions)'
-      }
+      brief: 'The last text, and the densest. Read the headings first to see how it is organised, then read for the detail the questions ask about.',
+      layout: 'text-first',
+      visual: { spot: 'receipt', caption: 'Reading · Reading Passage 3: Procedure Manual (Instructions)' }
     },
     {
       id: 'c2',
@@ -41,7 +40,7 @@ EFA.page('u1-s17-reading-3', {
       say: true,
       items: [
         {
-          q: '7. What must the employee attach to the voucher?',
+          q: '1. What must the employee attach to the voucher?',
           evidence: 'the passage above',
           options: [
             {
@@ -67,7 +66,7 @@ EFA.page('u1-s17-reading-3', {
           ]
         },
         {
-          q: '8. Who authorizes the expense?',
+          q: '2. Who authorizes the expense?',
           evidence: 'the passage above',
           options: [
             {
@@ -93,7 +92,7 @@ EFA.page('u1-s17-reading-3', {
           ]
         },
         {
-          q: '9. What three things does the accountant check?',
+          q: '3. What three things does the accountant check?',
           evidence: 'the passage above',
           options: [
             {
@@ -119,7 +118,7 @@ EFA.page('u1-s17-reading-3', {
           ]
         },
         {
-          q: '10. Where does the cash come from?',
+          q: '4. Where does the cash come from?',
           evidence: 'Standard Operating Procedure: Petty Cash',
           options: [
             {
@@ -145,7 +144,7 @@ EFA.page('u1-s17-reading-3', {
           ]
         },
         {
-          q: '11. Where does the accountant record the expense?',
+          q: '5. Where does the accountant record the expense?',
           evidence: 'the passage above',
           options: [
             {
@@ -171,7 +170,7 @@ EFA.page('u1-s17-reading-3', {
           ]
         }
       ],
-      visual: { spot: 'accountant', caption: 'Reading · Answer the questions', cls: 'vis-sm' }
+      visual: { spot: 'source-document', caption: 'Reading · Answer the questions', cls: 'vis-sm' }
     }
   ],
   prev: 's16-reading-2',

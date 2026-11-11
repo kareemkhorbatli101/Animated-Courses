@@ -25,6 +25,7 @@ EFA.page('u8-s01-warmup', {
       html: '<p><b>Context.</b> Discuss the chronological order of these activities in the accounting department.</p><ol><li>A. Preparing the Financial Statements (P&amp;L, Balance Sheet).</li><li>B. Posting journal entries (recording transactions).</li><li>C. Generating the Trial Balance.</li><li>D. Performing bank reconciliation.</li><li>E. Closing temporary accounts (e.g., revenue and expenses).</li></ol>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'A warm-up, so nothing here is marked. Answer from your own desk and your own week — the point is to put you in the situation before the unit starts teaching it.',
       visual: { spot: 'trial-balance', caption: 'Warm-Up · The Timeline of a Month-End' }
     }
   ],

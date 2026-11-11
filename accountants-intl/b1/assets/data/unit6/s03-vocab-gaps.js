@@ -41,6 +41,7 @@ EFA.page('u6-s03-vocab-gaps', {
         '6': '<b>mitigate</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 1.</b> We must <u>rectify</u> the journal entry before the trial balance is prepared.',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'discrepancy', caption: 'Vocabulary · Actions to Resolve Errors' }
     }
   ],

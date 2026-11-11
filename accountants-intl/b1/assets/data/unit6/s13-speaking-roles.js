@@ -22,7 +22,7 @@ EFA.page('u6-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 1: The Missing Receipt',
       instruction: 'Student A (Colleague): Explain the situation. Ask what will happen (First Conditional).',
-      html: '<p><b>Context.</b> A colleague (A) has lost a cash receipt.</p><p>Student B (Accountant): Explain the real consequence (First Conditional - e.g., We won\'t be able to claim the expense). Give advice on how to rectify it (Second Conditional).</p>',
+      html: '<p><b>Context.</b> A colleague (A) has lost a cash receipt.</p><p>Student B (Accountant): Explain the real consequence (First Conditional - e.g., We won\'t be able to claim the expense). Give advice on how to rectify it (Second Conditional).</p><ol><li>A: "I can\'t find the receipt. What will happen if I can\'t provide it?"</li><li>B: "If you can\'t provide it, we will have an unsubstantiated expense. If I were you, I would ask for a copy from the vendor."</li></ol>',
       playable: [
         {
           t: 'Student B (Accountant): Explain the real consequence (First Conditional - e.',
@@ -32,6 +32,7 @@ EFA.page('u6-s13-speaking-roles', {
         { t: 'Give advice on how to rectify it (Second Conditional).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A role-play. Take one part, let the stage take the other, and say your lines aloud even if nobody is listening.',
       visual: { spot: 'receipt', caption: 'Speaking · Role-Play 1: The Missing Receipt' }
     },
     {
@@ -74,7 +75,7 @@ EFA.page('u6-s13-speaking-roles', {
       source: 'book',
       title: 'Role-Play 2: The Audit Scenario',
       instruction: 'Student A: Set the hypothetical situation (Second Conditional). Ask what the auditor would do.',
-      html: '<p><b>Context.</b> Two colleagues are discussing how an auditor would react to a scenario.</p><p>Student B: Explain the hypothetical outcome (Second Conditional). Give advice (Second Conditional).</p>',
+      html: '<p><b>Context.</b> Two colleagues are discussing how an auditor would react to a scenario.</p><p>Student B: Explain the hypothetical outcome (Second Conditional). Give advice (Second Conditional).</p><ol><li>A: "If we didn\'t reconcile the bank for three months, what would the auditor say?"</li><li>B: "If they discovered that, they would issue a serious warning. If I were the company, I would hire another person just for reconciliation."</li></ol>',
       playable: [
         {
           t: 'Explain the hypothetical outcome (Second Conditional). Give advice (Second Conditional).',
@@ -83,7 +84,7 @@ EFA.page('u6-s13-speaking-roles', {
         }
       ],
       doneLabel: 'I have read this',
-      visual: { spot: 'reporting', caption: 'Speaking · Role-Play 2: The Audit Scenario', cls: 'vis-sm' }
+      visual: { spot: 'reconcile', caption: 'Speaking · Role-Play 2: The Audit Scenario', cls: 'vis-sm' }
     },
     {
       id: 'c4',

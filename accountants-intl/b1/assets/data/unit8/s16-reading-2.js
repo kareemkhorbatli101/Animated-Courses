@@ -23,7 +23,7 @@ EFA.page('u8-s16-reading-2', {
       title: 'Reading Passage 2: The Trial Balance Mismatch',
       instruction: 'Read the internal email regarding an issue.',
       playable: [
-        { t: 'Trial Balance Error Found', role: 'narrator', _key: 'narr' },
+        { t: 'Subject: Trial Balance Error Found', role: 'narrator', _key: 'narr' },
         {
           t: 'Team, a mismatch was discovered when the trial balance was generated this morning.',
           role: 'narrator',
@@ -47,9 +47,19 @@ EFA.page('u8-s16-reading-2', {
         },
         { t: 'We will let you know once the issue has been resolved.', role: 'narrator', _key: 'narr' }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u8-reading-2-c1',
-      passage: '<p>Subject: Trial Balance Error Found</p><p>Team, a mismatch was discovered when the trial balance was generated this morning. The debits and credits were not equal. This problem must be resolved immediately so that the closing can continue. The journal entries are being investigated now to find the source of the discrepancy. Once the error is located, it will be corrected, and a new trial balance will be run. We will let you know once the issue has been resolved.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Subject: Trial Balance Error Found' },
+          {
+            h: 'Team, a mismatch was discovered when the trial balance was generated this morning. The debits and credits were not equal. This problem must be resolved immediately so that the closing can continue. The journal entries are being investigated now to find the source of the discrepancy. Once the error is located, it will be corrected, and a new trial balance will be run. We will let you know once the issue has been resolved.'
+          }
+        ],
+        say: { scene: 'u8-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: { spot: 'trial-balance', caption: 'Reading · Reading Passage 2: The Trial Balance Mismatch' }
     },
     {

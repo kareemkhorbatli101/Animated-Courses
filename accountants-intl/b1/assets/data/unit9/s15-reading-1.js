@@ -42,7 +42,8 @@ EFA.page('u9-s15-reading-1', {
           'What are the benefits of up-skilling in software technology?'
         ]
       },
-      model: 'To keep a qualified accountant current. The rules change every year, and CPE is how the profession checks that its members have kept up with them.'
+      model: 'To keep a qualified accountant current. The rules change every year, and CPE is how the profession checks that its members have kept up with them.',
+      brief: 'Before you read: these are opinion questions, so there is no answer to find. Answering them first makes the passage easier, because you will already be looking for something.'
     },
     {
       id: 'c2',
@@ -54,6 +55,7 @@ EFA.page('u9-s15-reading-1', {
       title: 'Reading Passage 1: Mandatory CPE Requirements',
       instruction: 'Read the excerpt from a professional body\'s guidelines.',
       playable: [
+        { t: 'Requirements for License Renewal', role: 'narrator', _key: 'narr' },
         {
           t: 'The annual license renewal is dependent on the completion of Continuous Professional Education (CPE).',
           role: 'narrator',
@@ -81,8 +83,17 @@ EFA.page('u9-s15-reading-1', {
         }
       ],
       scene: 'u9-reading-1-c2',
-      passage: '<p>The annual license renewal is dependent on the completion of Continuous Professional Education (CPE). All certified members must have completed a minimum of 40 hours of CPE per calendar year. The hours must be documented and reported by December 31st. Since the new regulations were introduced, many accountants have chosen online courses to fulfill their requirements. We have not approved any extensions for members who have not met the deadline yet this year.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: 'Requirements for License Renewal' },
+          {
+            h: 'The annual license renewal is dependent on the completion of Continuous Professional Education (CPE). All certified members must have completed a minimum of 40 hours of CPE per calendar year. The hours must be documented and reported by December 31st. Since the new regulations were introduced, many accountants have chosen online courses to fulfill their requirements. We have not approved any extensions for members who have not met the deadline yet this year.'
+          }
+        ],
+        say: { scene: 'u9-reading-1-c2', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'source-document',
         caption: 'Reading · Reading Passage 1: Mandatory CPE Requirements',

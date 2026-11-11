@@ -24,9 +24,13 @@ EFA.page('u9-s03-vocab-gaps', {
       instruction: 'Complete the sentences using the correct verb from the box.',
       html: '<p>Verbs: Obtained, utilized, implemented, mastered, streamlined, audited</p>',
       playable: [
-        { t: 'Obtained, utilized, implemented, mastered, streamlined, audited', role: 'narrator' }
+        {
+          t: 'Verbs: Obtained, utilized, implemented, mastered, streamlined, audited',
+          role: 'narrator'
+        }
       ],
       doneLabel: 'I have read this',
+      brief: 'The people and the roles. Match them by what each one DOES, not by which word looks similar.',
       visual: { spot: 'certification', caption: 'Vocabulary · Verbs for Professional Activity' }
     },
     {

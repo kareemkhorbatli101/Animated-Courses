@@ -31,6 +31,7 @@ EFA.page('u5-s11-listening-3', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'The last listening, and the gaps below are the grammar of this unit. Play it once for the sense, then again for the form you are filling in.',
       visual: { spot: 'forecast', caption: 'Listening · Passage 3: Cash Flow Forecast (Financial Context)' }
     },
     {

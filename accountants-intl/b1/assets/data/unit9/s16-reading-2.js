@@ -49,9 +49,18 @@ EFA.page('u9-s16-reading-2', {
           _key: 'narr'
         }
       ],
+      brief: 'The second text. Every question below is settled by this passage and nothing else, so when two options both look true, choose the one this text actually says.',
       scene: 'u9-reading-2-c1',
-      passage: '<p>The accounting profession has changed dramatically in the last decade. Many firms have invested heavily in AI tools and automation software. This shift has created a need for professionals with advanced data analytics skills. Job descriptions now reflect this: experience with data visualization tools has become a core competency for senior analysts. Employees who haven\'t developed these skills yet may find themselves left behind by these technological advancements.</p>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          {
+            h: 'The accounting profession has changed dramatically in the last decade. Many firms have invested heavily in AI tools and automation software. This shift has created a need for professionals with advanced data analytics skills. Job descriptions now reflect this: experience with data visualization tools has become a core competency for senior analysts. Employees who haven\'t developed these skills yet may find themselves left behind by these technological advancements.'
+          }
+        ],
+        say: { scene: 'u9-reading-2-c1', who: 'narr' }
+      },
+      after: 'Read it, then play it. Each paragraph has its own play button, and <b>0.6×</b> slows any line down.',
+      layout: 'text-first',
       visual: {
         spot: 'certification',
         caption: 'Reading · Reading Passage 2: The Skill Gap in Accounting Technology'

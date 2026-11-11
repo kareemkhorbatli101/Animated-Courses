@@ -25,11 +25,12 @@ EFA.page('u9-s05-vocab-build', {
       html: '<p>Example: "I have gained experience in public accounting, and now I want to lead a team."</p>',
       playable: [
         {
-          t: '"I have gained experience in public accounting, and now I want to lead a team.',
+          t: 'Example: "I have gained experience in public accounting, and now I want to lead a team.',
           role: 'narrator'
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'Which verb goes with which noun. English is fussy about this — you <i>post</i> a transaction and <i>file</i> a return, and swapping them is the mistake that marks you out as a learner.',
       visual: { spot: 'certification', caption: 'Vocabulary · Collocations for Professional Skills' }
     },
     {
@@ -123,14 +124,24 @@ EFA.page('u9-s05-vocab-build', {
       covers: ['1E'],
       ref: '1E',
       bookRef: 'Unit 9 · 1E',
-      type: 'study',
-      source: 'book',
+      type: 'cloze',
       title: 'Word Building: Verb and Noun',
-      instruction: 'Complete the table.',
-      html: '<table class="bt"><thead><tr><th>Verb</th><th>Noun</th><th>Sentence Example</th></tr></thead><tbody><tr><td>Achieve</td><td>Achievement</td><td>"The achievement of the budget was recognized."</td></tr><tr><td>Migrate</td><td>_________</td><td>"The data migration was completed over the weekend."</td></tr><tr><td>Certify</td><td>_________</td><td>"The certification is valid for three years."</td></tr><tr><td>Develop</td><td>_________</td><td>"Professional development is mandatory for all staff."</td></tr><tr><td>Qualify</td><td>_________</td><td>"My qualification is in forensic accounting."</td></tr></tbody></table>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'budget', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
+      instruction: 'Complete the table. One word per box, from the same family as the word on the left.',
+      text: '<div style="font-size:16px;line-height:2.4"><ol><li>Migrate &rarr; <b>Noun</b>: [[1]]</li><li>Certify &rarr; <b>Noun</b>: [[2]]</li><li>Develop &rarr; <b>Noun</b>: [[3]]</li><li>Qualify &rarr; <b>Noun</b>: [[4]]</li></ol></div>',
+      answers: {
+        '1': ['migration', 'migration', 'Migration'],
+        '2': ['certification', 'certification', 'Certification'],
+        '3': ['development', 'development', 'Development'],
+        '4': ['qualification', 'qualification', 'Qualification']
+      },
+      whyTitle: 'Where each answer comes from',
+      why: [
+        'From the author\'s own example in that row: &ldquo;"The data migration was completed over the weekend."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"The certification is valid for three years."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"Professional development is mandatory for all staff."&rdquo;',
+        'From the author\'s own example in that row: &ldquo;"My qualification is in forensic accounting."&rdquo;'
+      ],
+      visual: { spot: 'account', caption: 'Vocabulary · Word Building: Verb and Noun', cls: 'vis-sm' }
     }
   ],
   prev: 's04-vocab-context',

@@ -31,6 +31,7 @@ EFA.page('u7-s06-grammar-rule', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'The grammar of this unit, in a document rather than a rule. Notice the form before anyone explains it to you.',
       visual: { spot: 'variance', caption: 'Grammar · Grammar Context: Explaining Performance' }
     },
     {

@@ -44,9 +44,23 @@ EFA.page('u4-s10-listening-2', {
           _key: 'narr'
         }
       ],
+      brief: 'A second conversation, and this time the statements below are true or false. Decide from what is said, not from what would usually be true in an accounts office.',
       scene: 'u4-listening-2-c1',
-      passage: '<p><b>Context.</b> Instructions are given for the annual physical count.</p><div class="script"><p>"Team, the annual stocktaking begins at 9 AM tomorrow, local time in each office. You must count all items, including consumables and equipment. We will check the physical count against the ledger. We cannot afford many variances. We have little time to reconcile the figures. Focus on the high-value assets first. Do not forget to record the serial numbers. A few items are obsolete, so do not include them in the final count."</p></div>',
-      after: 'Play the whole scene, or one line at a time. Use <b>loop</b> on a line and <b>0.6×</b> if you need it.',
+      passage: {
+        paras: [
+          { h: '<b>Context.</b> Instructions are given for the annual physical count.', speak: false },
+          {
+            h: '"Team, the annual stocktaking begins at 9 AM tomorrow, local time in each office. You must count all items, including consumables and equipment. We will check the physical count against the ledger. We cannot afford many variances. We have little time to reconcile the figures. Focus on the high-value assets first. Do not forget to record the serial numbers. A few items are obsolete, so do not include them in the final count."',
+            say: 'Team, the annual stocktaking begins at 9 AM tomorrow, local time in each office. You must count all items, including consumables and equipment. We will check the physical count against the ledger. We cannot afford many variances. We have little time to reconcile the figures. Focus on the high-value assets first. Do not forget to record the serial numbers. A few items are obsolete, so do not include them in the final count.'
+          }
+        ],
+        say: { scene: 'u4-listening-2-c1', who: 'narr' },
+        hidden: true,
+        revealLabel: 'Show the script',
+        speak: false
+      },
+      after: 'Listen first and answer from what you hear. The script is there when you want to check it.',
+      layout: 'listen-first',
       visual: {
         spot: 'stock',
         caption: 'Listening · Passage 2: Annual Stocktaking Instructions (Operating Context)'

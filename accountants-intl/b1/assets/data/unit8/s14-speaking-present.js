@@ -18,32 +18,15 @@ EFA.page('u8-s14-speaking-present', {
       covers: ['4D'],
       ref: '4D',
       bookRef: 'Unit 8 · 4D',
-      type: 'discuss',
+      type: 'study',
+      source: 'book',
       title: 'Presentation: "The Audit Trail"',
-      instruction: 'Prepare a short presentation (60 seconds) explaining the audit trail—the path a transaction takes from source document to financial statement. Use at least four Passive Voice sentences. There is no single right answer — write what you think.',
-      minWords: 8,
-      questions: [
-        { q: 'Start: Source documents are received...' },
-        { q: 'Process: Entries are made...' },
-        { q: 'Result: The trial balance is produced...' },
-        { q: 'Verification: The data is checked...' }
-      ],
-      okMsg: 'Good. Keep these in mind as you work through the unit.',
-      visual: {
-        spot: 'closing',
-        caption: 'Closing the books, trial balance, preparing financial statements, and year-end procedures.'
-      },
-      coach: {
-        title: 'What this is practising',
-        target: 'The Passive Voice',
-        taught: [
-          'Prepare a short presentation (60 seconds) explaining the audit trail—the path a transaction takes from source document to financial statement. Use at least four Passive Voice sentences.',
-          'Start: Source documents are received...',
-          'Process: Entries are made...',
-          'Result: The trial balance is produced...'
-        ]
-      },
-      model: 'Source documents are received and scanned. The transactions are analysed and the journal entries are recorded. The data is then posted to the General Ledger. Finally the trial balance is generated and the books are closed.'
+      instruction: 'Prepare a short presentation (60 seconds) explaining the audit trail—the path a transaction takes from source document to financial statement. Use at least four Passive Voice sentences.',
+      html: '<ol><li>Start: Source documents are received...</li><li>Process: Entries are made...</li><li>Result: The trial balance is produced...</li><li>Verification: The data is checked...</li></ol>',
+      playable: [],
+      doneLabel: 'I have read this',
+      brief: 'Present it. Thirty seconds, no notes if you can manage it, and the sample answer below is there for afterwards rather than before.',
+      visual: { spot: 'trial-balance', caption: 'Speaking · Presentation: "The Audit Trail"' }
     }
   ],
   prev: 's13-speaking-roles',

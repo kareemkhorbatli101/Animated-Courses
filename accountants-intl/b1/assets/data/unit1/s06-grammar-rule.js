@@ -43,6 +43,7 @@ EFA.page('u1-s06-grammar-rule', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'The grammar of this unit, in a document rather than a rule. Notice the form before anyone explains it to you.',
       visual: { spot: 'entry', caption: 'Grammar · Grammar Context: Routine vs. Right Now' }
     },
     {
@@ -56,8 +57,8 @@ EFA.page('u1-s06-grammar-rule', {
       instruction: 'Note on Stative Verbs: Verbs of thinking/owning (know, owe, own, cost, understand) are almost always Simple, even if happening now.',
       html: '<p>Correct: "We owe the supplier EUR 500."</p><p>Incorrect: "We are owing the supplier EUR 500."</p><table class="bt"><thead><tr><th>Tense</th><th>Function</th><th>Time Words</th><th>Example</th></tr></thead><tbody><tr><td>Present Simple</td><td>Routines, facts, permanent situations, schedules.</td><td>usually, always, daily, every month, often</td><td>"I post invoices every Friday.""The office opens at 8 AM."</td></tr><tr><td>Present Continuous</td><td>Actions happening now, temporary situations, current projects.</td><td>currently, at the moment, right now, today, this week</td><td>"I am reconciling the bank.""We are using new software this month."</td></tr></tbody></table>',
       playable: [
-        { t: '"We owe the supplier EUR 500.', role: 'narrator' },
-        { t: '"We are owing the supplier EUR 500.', role: 'narrator' }
+        { t: 'Correct: "We owe the supplier EUR 500.', role: 'narrator' },
+        { t: 'Incorrect: "We are owing the supplier EUR 500.', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
       visual: { spot: 'invoice', caption: 'Grammar · Grammar Focus Box', cls: 'vis-sm' }

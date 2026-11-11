@@ -24,10 +24,11 @@ EFA.page('u1-s19-writing-2', {
       instruction: 'Write an automatic email reply (40 words).',
       html: '<p><b>Context.</b> You are going on leave (or attending a training) for two days.</p><p>Focus: Use Present Continuous to explain what you are doing (e.g., I am attending a seminar).</p>',
       playable: [
-        { t: 'Use Present Continuous to explain what you are doing (e.', role: 'narrator' },
+        { t: 'Focus: Use Present Continuous to explain what you are doing (e.', role: 'narrator' },
         { t: ', I am attending a seminar).', role: 'narrator' }
       ],
       doneLabel: 'I have read this',
+      brief: 'A short piece with a fixed purpose. Match the register to the reader — a manager and a supplier are not the same audience.',
       visual: {
         spot: 'invoice',
         caption: 'Writing · Writing Task 2: The "Out of Office" Reply (Current Status)'
@@ -70,20 +71,6 @@ EFA.page('u1-s19-writing-2', {
       covers: ['6D'],
       ref: '6D',
       bookRef: 'Unit 1 · 6D',
-      type: 'study',
-      source: 'book',
-      title: 'Writing Task 3: The Weekly Update Email',
-      instruction: 'Write a short email (80 words).',
-      html: '<p><b>Context.</b> It is Friday afternoon. Your manager asks for a quick update.</p>',
-      playable: [],
-      doneLabel: 'I have read this',
-      visual: { spot: 'debtor', caption: 'Writing · Writing Task 3: The Weekly Update Email', cls: 'vis-sm' }
-    },
-    {
-      id: 'c4',
-      covers: ['6D'],
-      ref: '6D',
-      bookRef: 'Unit 1 · 6D',
       type: 'writer',
       title: 'Writing Task 3: The Weekly Update Email',
       instruction: 'Write a short email (80 words).',
@@ -112,38 +99,21 @@ EFA.page('u1-s19-writing-2', {
       visual: { spot: 'accountant', caption: 'Write it the way this unit has been teaching you to.' }
     },
     {
-      id: 'c5',
+      id: 'c4',
       covers: ['6E'],
       ref: '6E',
       bookRef: 'Unit 1 · 6E',
-      type: 'writer',
+      type: 'checklist',
       title: 'Peer Review Checklist',
       instruction: 'Exchange your Weekly Update (Task 3) with a partner. Check for:',
-      paras: [
-        { label: '[ ] Correct use of Present Simple for routines.', purpose: '' },
-        { label: '[ ] Correct use of Present Continuous for current actions.', purpose: '' },
-        { label: '[ ] Professional tone (Dear..., Regards...).', purpose: '' },
-        { label: '[ ] Correct spelling of accounting terms (reconciling, invoice).', purpose: '' }
+      selfAssess: true,
+      items: [
+        { t: 'Correct use of Present Simple for routines.' },
+        { t: 'Correct use of Present Continuous for current actions.' },
+        { t: 'Professional tone (Dear..., Regards...).' },
+        { t: 'Correct spelling of accounting terms (reconciling, invoice).' }
       ],
-      minWords: 60,
-      stems: [
-        '[ ] Correct use of Present Simple for routines.',
-        '[ ] Correct use of Present Continuous for current actions.',
-        '[ ] Professional tone (Dear..., Regards...).',
-        '[ ] Correct spelling of accounting terms (reconciling, invoice).'
-      ],
-      model: 'Your partner wrote: “I reconcile the accounts every week, and this week I am checking the Singapore ledger.” Both tenses are right — the simple for the routine, the continuous for what is happening now. Say so, and point at the time words that prove it.',
-      coach: {
-        title: 'What this is practising',
-        target: 'Present Simple vs. Present Continuous.',
-        taught: [
-          'Exchange your Weekly Update (Task 3) with a partner. Check for:',
-          '[ ] Correct use of Present Simple for routines.',
-          '[ ] Correct use of Present Continuous for current actions.',
-          '[ ] Professional tone (Dear..., Regards...).'
-        ]
-      },
-      visual: { spot: 'accountant', caption: 'Write it the way this unit has been teaching you to.' }
+      visual: { spot: 'expense-claim', caption: 'Writing · Peer Review Checklist', cls: 'vis-sm' }
     }
   ],
   prev: 's18-writing-1',

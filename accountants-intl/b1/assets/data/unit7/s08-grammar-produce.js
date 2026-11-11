@@ -30,6 +30,7 @@ EFA.page('u7-s08-grammar-produce', {
         '6': '<b>smaller than</b> — the sentence decides it: read what comes immediately before and after the gap, not the whole line.'
       },
       before: '<b>Done for you — 4.</b> Conditional: Q2 had the <u>highest</u> revenue of the year.',
+      brief: 'Rewrite each sentence. The meaning must survive the change — if it does not, you have changed more than the grammar.',
       visual: { spot: 'entry', caption: 'Grammar · Sentence Transformation' }
     },
     {
@@ -41,7 +42,7 @@ EFA.page('u7-s08-grammar-produce', {
       source: 'book',
       title: 'Speaking: Comparing Financial Segments',
       instruction: 'In pairs, practice using Comparatives and Superlatives to analyze the following mock data.',
-      html: '<table class="bt"><thead><tr><th>Category</th><th>Budget (EUR)</th><th>Actuals (EUR)</th></tr></thead><tbody><tr><td>Sales Revenue</td><td>100,000</td><td>105,000</td></tr><tr><td>Admin Expense</td><td>15,000</td><td>18,000</td></tr><tr><td>Marketing Expense</td><td>20,000</td><td>25,000</td></tr></tbody></table><ol><li>Compare Sales Revenue (Actuals vs. Budget). (Use: higher)</li><li>Compare Admin Expense and Marketing Expense (Actuals vs. Actuals). (Use: expensive)</li><li>Identify the most favorable variance. (Use: most favorable)</li><li>Identify the largest adverse variance. (Use: largest)</li><li>Example A: "Actual Sales Revenue was higher than the budget."</li><li>Example B: "The Marketing Expense was the most expensive category."</li></ol>',
+      html: '<table class="bt"><thead><tr><th>Category</th><th>Budget (EUR)</th><th>Actuals (EUR)</th></tr></thead><tbody><tr><td>Sales Revenue</td><td>100,000</td><td>105,000</td></tr><tr><td>Admin Expense</td><td>15,000</td><td>18,000</td></tr><tr><td>Marketing Expense</td><td>20,000</td><td>25,000</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
       visual: { spot: 'variance', caption: 'Grammar · Speaking: Comparing Financial Segments', cls: 'vis-sm' }

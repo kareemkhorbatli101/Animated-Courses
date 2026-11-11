@@ -25,6 +25,7 @@ EFA.page('u6-s12-speaking-phrases', {
       html: '<table class="bt"><thead><tr><th>Real Consequence (First Conditional)</th><th>Hypothetical Outcome/Advice (Second Conditional)</th></tr></thead><tbody><tr><td>"If you don\'t correct this, we will misstate our profit."</td><td>"If I were you, I would reverse the entry."</td></tr><tr><td>"If the bank charges a fee, we will incur a loss."</td><td>"If we had the budget, we would implement a new ERP system."</td></tr></tbody></table>',
       playable: [],
       doneLabel: 'I have read this',
+      brief: 'The phrases a colleague would actually use. Hear each one, then say it back — a phrase you can only read is a phrase you will not use in the meeting.',
       visual: { spot: 'entry', caption: 'Speaking · Functional Language: Conditional Structures' }
     }
   ],

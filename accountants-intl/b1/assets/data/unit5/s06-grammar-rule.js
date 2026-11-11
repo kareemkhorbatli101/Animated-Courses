@@ -31,6 +31,7 @@ EFA.page('u5-s06-grammar-rule', {
         }
       ],
       doneLabel: 'I have read this',
+      brief: 'The grammar of this unit, in a document rather than a rule. Notice the form before anyone explains it to you.',
       visual: { spot: 'payment-run', caption: 'Grammar · Grammar Context: Planning the Week' }
     },
     {
@@ -44,7 +45,7 @@ EFA.page('u5-s06-grammar-rule', {
       say: true,
       items: [
         {
-          q: '2. Which form is used for predictions or instant decisions?',
+          q: '1. Which form is used for predictions or instant decisions?',
           evidence: 'Then, I will schedule the payment run.',
           options: [
             {
@@ -65,7 +66,7 @@ EFA.page('u5-s06-grammar-rule', {
           ]
         },
         {
-          q: '3. Which form is used for pre-planned intentions?',
+          q: '2. Which form is used for pre-planned intentions?',
           evidence: 'Manager: "I am going to start by reviewing all outstanding invoices this morning.',
           options: [
             {
@@ -86,7 +87,7 @@ EFA.page('u5-s06-grammar-rule', {
           ]
         },
         {
-          q: '4. Which form is used for fixed, personal arrangements?',
+          q: '3. Which form is used for fixed, personal arrangements?',
           evidence: 'I am meeting the collections agent on Wednesday to discuss the major debtor list.',
           options: [
             {

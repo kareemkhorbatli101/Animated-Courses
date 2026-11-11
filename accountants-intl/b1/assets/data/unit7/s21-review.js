@@ -87,7 +87,8 @@ EFA.page('u7-s21-review', {
           body: '<i>Underperformed</i> means <i>achieved less than the target</i> — as Unit 7 itself defines it in 1A. The only option left for it here is <i>Money spent</i>, which defines <i>expenditure</i>. Match it by elimination; the mismatch is the book\'s, and it is in the errata.'
         }
       ],
-      visual: { spot: 'forecast', caption: 'Forecast — one of the words on this list.' }
+      visual: { spot: 'forecast', caption: 'Forecast — one of the words on this list.' },
+      brief: 'A quick check of the unit\'s vocabulary. If a term has gone, the glossary at the top of the screen has it.'
     },
     {
       id: 'c2',
@@ -178,7 +179,9 @@ EFA.page('u7-s21-review', {
       title: 'Extension Writing: The "Efficiency Improvement" Plan',
       instruction: 'Write a short plan (80 words) on how to make two expense categories more efficient.',
       html: '<p>Style: Use Comparatives and Superlatives to justify the changes.</p>',
-      playable: [{ t: 'Use Comparatives and Superlatives to justify the changes.', role: 'narrator' }],
+      playable: [
+        { t: 'Style: Use Comparatives and Superlatives to justify the changes.', role: 'narrator' }
+      ],
       doneLabel: 'I have read this',
       visual: {
         spot: 'entry',
@@ -218,17 +221,34 @@ EFA.page('u7-s21-review', {
       instruction: 'Rate yourself (1-5):',
       selfAssess: true,
       items: [
-        { t: 'I can identify favorable and adverse variances. [ ]' },
+        { t: 'I can identify favorable and adverse variances.' },
         {
-          t: 'I can use Comparative adjectives (better/worse/more/less) to compare two financial figures. [ ]'
+          t: 'I can use Comparative adjectives (better/worse/more/less) to compare two financial figures.'
         },
         {
-          t: 'I can use Superlative adjectives (best/worst/most/least) to identify the highest or lowest item. [ ]'
+          t: 'I can use Superlative adjectives (best/worst/most/least) to identify the highest or lowest item.'
         },
-        { t: 'I can explain why actual costs are higher than budget figures. [ ]' },
-        { t: 'I can write a clear summary report using comparison language. [ ]' }
+        { t: 'I can explain why actual costs are higher than budget figures.' },
+        { t: 'I can write a clear summary report using comparison language.' }
       ],
       visual: { spot: 'bookkeeping', caption: 'Review · Self-Assessment Checklist', cls: 'vis-sm' }
+    },
+    {
+      id: 'c9',
+      covers: ['8F'],
+      ref: '8F',
+      bookRef: 'Unit 7 · 8F',
+      type: 'discuss',
+      title: 'Final Thought',
+      instruction: 'Last thing. There is no single right answer — say what you think, in English, using the grammar of this unit.',
+      minWords: 25,
+      questions: [
+        {
+          q: 'When is an adverse variance more dangerous than a favorable variance? If your actual sales were the highest in history, but your expenses were also the highest, would that be a good month? Why is the budget always better than the actuals in a perfect world?'
+        }
+      ],
+      model: 'An adverse variance is more dangerous than a favourable one when nobody can explain it, because an unexplained gap is usually bigger than it looks. The best sales month in history with the highest expenses is not automatically a good month — the most expensive item might be the one that produced the sales, or the one that produced nothing.',
+      visual: { spot: 'discrepancy', caption: 'Review · Final Thought', cls: 'vis-sm' }
     }
   ],
   prev: 's20-pronunciation',
