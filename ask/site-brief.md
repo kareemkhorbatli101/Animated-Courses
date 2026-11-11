@@ -52,15 +52,16 @@ Opens at: accounting/b1/index.html
 
 ### English for Accountants
 
-Level and subject: B1 · International
+Level and subject: B1 · International · with Arabic
 
-The whole book, all ten units and the three appendices. The daily work of an accounting office — invoices, petty cash, stocktaking, the close and the monthly report — set at Northwind Group in Krak&oacute;w, Singapore and Nairobi, and spoken by a cast from all three.
+The whole book, all ten units and the three appendices. The daily work of an accounting office — invoices, petty cash, stocktaking, the close and the monthly report — set at Northwind Group in Krak&oacute;w, Singapore and Nairobi, and spoken by a cast from all three. Every passage can be read and heard line by line, and an Arabic guide sits behind every screen.
 
 - 10 of 10 units
 - 220 screens
-- 653 activities
-- 1,672 recordings
-- 705 answers
+- 627 activities
+- 1,765 recordings
+- 815 marked answers
+- Arabic on every spoken line
 
 Opens at: accountants-intl/b1/index.html
 
