@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u5r5", unit:5, kind:"reading", n:5,
+title:"One order, one file",
+strap:"Seven documents, one number, and a drawer that answers questions in forty seconds.",
+tags:["filing","admin","references"],
+pre:[
+ {t:"mcq", q:"What is the best way to keep the papers for one order?",
+  opts:["All together under one reference number",
+        "By date","By document type","By customer name only"], a:0},
+ {t:"match", q:"Match the reference to the document.",
+  pairs:[["Q-4471","quotation"],["PO-2291","customer’s order"],
+         ["OC-5518","our confirmation"],["INV-7702","invoice"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["Every document quotes the order number.","Every documents quote the order number.",
+        "Every document quote the order number.","Every document is quote the order number."], a:0}
+],
+paras:[
+ "Fadi’s filing rule has one sentence: everything about one order lives under one number, and every document carries that number. The number is the customer’s PO where there is one, because that is the number the customer will use when they telephone. Our own references — the quotation, the confirmation, the invoice — are written on the same folder, cross-referenced, so any of them leads to the rest.",
+ "A complete file for one order holds seven things. The enquiry, usually an email. The quotation we sent. The customer’s purchase order. Our order confirmation. The packing list and delivery note, signed. The transport document. The invoice, and anything after it: a payment advice, a credit note, a dispute.",
+ "The test Fadi applies is a question asked on the telephone. A customer rings: “You delivered 78 tonnes, not 80.” A complete file answers that in forty seconds — packing list says 1,600 bags, delivery note signed at 14:20 by a named person, photograph of twelve pallets. An incomplete file answers it in three days, by which time the customer has decided the group is careless, whatever the answer turns out to be.",
+ "Three small habits keep files complete. Write the number on a document the moment it arrives, before it is read. File the signed delivery note on the day it comes back, not when the order is finished. And never keep a document in two places, because a file with a copy somewhere else is a file nobody trusts.",
+ "Nour was surprised to learn that Fadi does not file alphabetically or chronologically, but by order number only, running in sequence. He has three drawers of them and a one-page index. “Alphabetical sounds tidy,” he says, “but customers change names, merge, and spell themselves differently in English. Order numbers never change. The number is the only thing in the whole file that cannot be argued about.”",
+ "The point of the file is not tidiness. It is speed on the day somebody is annoyed. Every minute between a complaint and an answer is a minute in which the customer builds a worse story about the company than the facts support."
+],
+gloss:[["cross-referenced","connected so each points to the other"],
+       ["payment advice","a note saying a payment has been made"],
+       ["chronologically","in order of time"],
+       ["to merge","when two companies join into one"],
+       ["index","a list showing where things are"]],
+comp:[
+ {t:"mcq", q:"Which number does Fadi file under?",
+  opts:["The customer’s PO number","The invoice number",
+        "The quotation number","The date"], a:0},
+ {t:"mcq", q:"Why that number?",
+  opts:["Because it is the number the customer will quote when they phone",
+        "Because it is shortest","Because the bank uses it","Because it is ours"], a:0},
+ {t:"multi", q:"Which of these belong in a complete order file? (Three answers.)",
+  opts:["the signed delivery note","the order confirmation",
+        "the transport document","the supplier’s staff list"], a:[0,1,2]},
+ {t:"gap", q:"Complete the test.",
+  gaps:[{before:"A complete file answers the complaint in ", after:" seconds;", a:["forty","40"]},
+        {before:" an incomplete one takes ", after:" days.", a:["three","3"]}]},
+ {t:"tf", q:"Fadi files alphabetically by customer name.", a:false,
+  why:"He files by order number in sequence, because names change and numbers do not."},
+ {t:"short", q:"Explain the last paragraph in your own words.",
+  model:"A slow answer is itself damaging. While the customer waits, they fill the silence with the worst explanation available, and by the time the true answer arrives they have already decided what kind of company they are dealing with."}
+],
+words:[
+ {t:"gap", q:"Complete the three habits.",
+  bank:["the moment","the day","two places","one number"],
+  gaps:[{before:"Write the number on a document ", after:" it arrives.", a:["the moment"]},
+        {before:"File the signed delivery note ", after:" it comes back.", a:["the day"]},
+        {before:"Never keep a document in ", after:".", a:["two places"]},
+        {before:"Everything about one order lives under ", after:".", a:["one number"]}]},
+ {t:"match", q:"Match the complaint to the document that answers it.",
+  pairs:[["You sent 78 tonnes, not 80.","packing list"],
+         ["Nobody signed for it.","delivery note"],
+         ["We never agreed that price.","order confirmation"],
+         ["The pallet was broken when it left you.","photograph at loading"]]},
+ {t:"mcq", q:"“A file nobody trusts” is one that:",
+  opts:["has copies kept somewhere else as well","is thick",
+        "is old","has no index"], a:0}
+],
+post:[
+ {t:"order", q:"Put the seven documents in the order they enter the file.",
+  items:["the enquiry","the quotation","the purchase order","the order confirmation",
+         "the packing list and signed delivery note","the transport document","the invoice"]},
+ {t:"write", q:"Write Fadi’s filing rule as four lines for a new assistant.",
+  model:"One order, one number — the customer’s PO. Write that number on every paper the minute it reaches your desk. File the signed delivery note the day it returns, not when the job is done. One copy only: if it exists twice, nobody will trust either."},
+ {t:"short", q:"Fadi says the order number is “the only thing in the whole file that cannot be argued about”. Why does that make it the right thing to file by?",
+  model:"A filing system only works if two people looking for the same order go to the same place. Names, dates and spellings all shift between people and countries; the number is fixed at the start and means exactly one thing to everybody who touches the order."}
+]
+});

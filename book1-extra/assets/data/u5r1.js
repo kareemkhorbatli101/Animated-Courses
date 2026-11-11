@@ -1,0 +1,70 @@
+AHL.lesson({
+id:"u5r1", unit:5, kind:"reading", n:1,
+title:"From enquiry to order",
+strap:"Six steps, always in the same order, in every country.",
+tags:["process","sequence","orders"],
+pre:[
+ {t:"order", q:"What do you think the order is? Put the six steps in order.",
+  items:["The customer asks for a price",
+         "We send a quotation",
+         "The customer sends a purchase order",
+         "We send an order confirmation",
+         "We ship the goods",
+         "We send the invoice"]},
+ {t:"match", q:"Match the sequence word to its place.",
+  pairs:[["first","step 1"],["then","the next step"],["after that","a later step"],["finally","the last step"]]},
+ {t:"mcq", q:"Why does the same order of steps matter?",
+  opts:["Because each step is the proof that the next one was agreed",
+        "Because it is the law","Because customers like it","Because of the computer"], a:0}
+],
+paras:[
+ "Trade looks complicated from outside. Inside, it is six steps, and they almost never change. First the customer asks. Then we answer with a price. Then the customer orders. Then we confirm. Then we ship. Finally we invoice. Every company Nour deals with — in Damascus, in Istanbul, in Shanghai — uses these six steps, with different paper and different words.",
+ "Step one is the enquiry. The customer asks what we have, how much it costs, and when it can arrive. Step two is the quotation: our written answer, with a price, a quantity and a date, valid for a stated number of days. Nothing is promised yet. Either side can walk away, and neither owes the other anything.",
+ "Step three is the purchase order — the PO. This is the customer saying yes, in writing, with their own reference number. The PO is the first document that creates an obligation. Step four is our order confirmation: we repeat back what we have understood, and we say that we accept. Until step four, the customer does not know whether their order arrived or whether we can do it.",
+ "Step five is shipment, with the documents that travel with the goods: the packing list, the delivery note, the transport paper. Step six is the invoice, which asks for the money, and which quotes the PO number so the customer’s accounts office can match it.",
+ "Fadi, who files all of this, explains the point of the sequence like this. Each step exists so that the next one cannot be argued about. A price without a quotation is a rumour. An order without a PO is a conversation. A shipment without a confirmation is a guess. And an invoice without an order number is a letter that will sit on somebody’s desk for a month.",
+ "Steps can go fast. A small repeat order can run through all six in an afternoon. But they cannot be skipped. When somebody says “just send it, we’ll do the paperwork later”, Fadi has learned to send it and do the paperwork immediately, in the same hour — because “later” is the word that comes before every dispute he has ever had to open a file on."
+],
+gloss:[["enquiry","a question asking for prices or information"],
+       ["obligation","something you must do"],
+       ["to confirm","to say officially that it is agreed"],
+       ["rumour","something people say that is not proved"],
+       ["dispute","a disagreement, usually about money"]],
+comp:[
+ {t:"order", q:"Put the six steps in the right order.",
+  items:["enquiry","quotation","purchase order","order confirmation","shipment","invoice"]},
+ {t:"mcq", q:"Which step first creates an obligation?",
+  opts:["the purchase order","the enquiry","the quotation","the invoice"], a:0},
+ {t:"mcq", q:"What does the order confirmation do?",
+  opts:["Repeats back what we understood and says we accept",
+        "Asks for money","Lists the boxes","Gives a price"], a:0},
+ {t:"gap", q:"Complete what the invoice must quote.",
+  bank:["PO number","packing list","price list","delivery note"],
+  gaps:[{before:"The invoice quotes the ", after:" so the accounts office can match it.", a:["PO number"]}]},
+ {t:"tf", q:"According to the text, the six steps can be done quickly but not skipped.", a:true},
+ {t:"short", q:"Explain Fadi’s line: “an order without a PO is a conversation”.",
+  model:"Without a purchase order there is nothing to point at: both sides remember what suits them, and neither can prove what quantity, price or date was agreed. A conversation cannot be put in a file."}
+],
+words:[
+ {t:"gap", q:"Complete with the right document.",
+  bank:["quotation","purchase order","order confirmation","invoice"],
+  gaps:[{before:"Our written price is the ", after:".", a:["quotation"]},
+        {before:"The customer’s written yes is the ", after:".", a:["purchase order"]},
+        {before:"Our written yes is the ", after:".", a:["order confirmation"]},
+        {before:"The request for money is the ", after:".", a:["invoice"]}]},
+ {t:"match", q:"Match the document to the question it answers.",
+  pairs:[["quotation","How much will it cost?"],["purchase order","What exactly do you want?"],
+         ["order confirmation","Did you get it, and can you do it?"],["invoice","What do I owe?"]]},
+ {t:"mcq", q:"“Valid for thirty days” belongs on which document?",
+  opts:["the quotation","the purchase order","the packing list","the invoice"], a:0}
+],
+post:[
+ {t:"short", q:"Which of the six steps is most often skipped in a hurry, and what goes wrong?",
+  model:"The order confirmation. It feels unnecessary because both sides think they know — and then the goods arrive in the wrong quantity, or two weeks later than the customer told their own client, and nobody can show what was accepted."},
+ {t:"write", q:"Write the six steps as six short lines you could pin above your desk.",
+  model:"1. They ask. 2. We quote, with a date and a validity. 3. They order, with their PO number. 4. We confirm, repeating every figure. 5. We ship, with the papers in the box. 6. We invoice, quoting their PO. Nothing moves to the next line until the line above exists in writing."},
+ {t:"mcq", q:"A customer says “just send it, we’ll do the paperwork later”. What does Fadi do?",
+  opts:["Sends it and does the paperwork in the same hour",
+        "Refuses to send it","Waits for the paperwork","Sends it and forgets the paperwork"], a:0}
+]
+});
