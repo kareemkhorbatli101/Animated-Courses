@@ -354,6 +354,11 @@ footer a{color:var(--muted)}
      the first click. gates/site_ask checks all of that. -->
 <script>
 (function(){
+  /* ask-stamp: the hash of the three files below, written by tools/ask_stamp.py and
+     checked by gates/site_ask. Pages caches a file for ten minutes, which once made a
+     deployed fix look as though it had not worked; asking for ?v=<hash> means a changed
+     file is a changed URL, so nobody is served yesterday's copy. */
+  var ASKV='ea2771b90c';
   var FILES=['assets/ask/keyring.js','assets/ask/gemini.js','assets/ask/ask.js'];
   var loading=null;
   function load(){
@@ -362,7 +367,7 @@ footer a{color:var(--muted)}
       return chain.then(function(){
         return new Promise(function(ok,bad){
           var s=document.createElement('script');
-          s.src=src;s.async=false;
+          s.src=src+'?v='+ASKV;s.async=false;
           s.onload=ok;
           s.onerror=function(){bad(new Error('could not load '+src));};
           document.head.appendChild(s);
