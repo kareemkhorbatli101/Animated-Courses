@@ -1,0 +1,72 @@
+AHL.lesson({
+id:"u1r3", unit:1, kind:"reading", n:3,
+title:"Since March",
+strap:"Two words that decide whether a sentence means anything: for and since.",
+tags:["for / since","present perfect","admin"],
+pre:[
+ {t:"match", q:"For or since? Match them.",
+  pairs:[["three years","for"],["March","since"],["a long time","for"],["I joined","since"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["We have used this supplier since 2023.","We have used this supplier for 2023.",
+        "We use this supplier since 2023.","We have use this supplier since 2023."], a:0},
+ {t:"mcq", q:"“For” is used with:",
+  opts:["a length of time","a point in time","a date","an event"], a:0}
+],
+paras:[
+ "Fadi keeps a one-page sheet called the supplier history, and there are exactly two kinds of line on it. Some lines say how long: we have bought steel from this mill for eleven years. Others say since when: we have bought machines from Westgate since March. Fadi says the sheet would be useless if those two were mixed, and that people mix them constantly.",
+ "For answers how long. Eleven years. Six months. A fortnight. It measures a stretch of time without saying where the stretch begins or ends, and it is the right word when the length is the point — when somebody is asking how established a relationship is.",
+ "Since answers from when. March. 2023. The day the old supplier went bankrupt. It names a starting point and leaves the length to be worked out, and it is the right word when the beginning is the point — when somebody is asking what changed, and when.",
+ "The difference matters commercially, not only grammatically. When Rami writes to a new supplier that Bashak has imported steel for eleven years, he is making a claim about experience, and the reader hears a stable company. When he writes that Bashak has imported machines since March, he is being honest about something new, and the reader hears a company that has not done this long. Both sentences are true about the same company in the same week.",
+ "Yara made the obvious mistake in her second month. She wrote to Mr. Delgado that Al-Hasan had worked with Westgate for March. Mr. Delgado replied kindly and answered the question she had meant to ask, and Fadi explained afterwards that the error was small and the lesson was not: a sentence that is grammatically wrong in a letter abroad makes the reader slow down, and a reader who slows down starts checking other things too.",
+ "The sheet has a third column that Fadi added himself, and it is the one he actually uses. Next to each supplier, in pencil, he writes what has not happened yet. We have not had a late shipment from this mill yet. We have not tested their claims department yet. He says a supplier history that records only successes is not a history; it is an advertisement, and nobody makes decisions from an advertisement."
+],
+gloss:[["a stretch of time","a period: a stretch of time without a beginning named"],
+       ["established","old and settled: an established relationship"],
+       ["to work something out","to calculate it: the length is worked out"],
+       ["claims department","the people who deal with complaints: to test a claims department"],
+       ["advertisement","something written to persuade: not a history but an advertisement"]],
+comp:[
+ {t:"mcq", q:"What does “for” answer?",
+  opts:["How long","From when","How often","How much"], a:0},
+ {t:"mcq", q:"When is “since” the right word?",
+  opts:["When the beginning is the point — what changed, and when",
+        "When the length is the point","With a number","In formal writing"], a:0},
+ {t:"mcq", q:"Why are both of Rami’s sentences true in the same week?",
+  opts:["Bashak has long experience of steel and no experience of machines",
+        "They are about different companies","One is an error","They are in different years"], a:0},
+ {t:"mcq", q:"What was the real lesson of Yara’s mistake?",
+  opts:["A reader who slows down over an error starts checking other things",
+        "Grammar matters more than content","Mr. Delgado is kind","Letters should be short"], a:0},
+ {t:"mcq", q:"What is in Fadi’s third column?",
+  opts:["What has not happened yet with that supplier","Prices",
+        "Contact names","Delivery times"], a:0},
+ {t:"short", q:"Explain why a record of only successes is “an advertisement”.",
+  model:"Because it has been filtered to persuade rather than to inform. A decision needs the things that have not been tested as much as the things that have gone well — otherwise the first serious problem arrives with no warning that it was always possible."}
+],
+words:[
+ {t:"gap", q:"Complete with for or since.",
+  bank:["for","since"],
+  gaps:[{before:"We have bought steel from this mill ", after:" eleven years.", a:["for"]},
+        {before:" We have bought machines from Westgate ", after:" March.", a:["since"]},
+        {before:" I have worked here ", after:" six months.", a:["for"]},
+        {before:" Prices have risen twice ", after:" the spring.", a:["since"]}]},
+ {t:"gap", q:"Complete the present perfect sentences.",
+  bank:["have not had","have not tested","has risen","has worked"],
+  gaps:[{before:"We ", after:" a late shipment from them yet.", a:["have not had"]},
+        {before:" We ", after:" their claims department yet.", a:["have not tested"]},
+        {before:" The price ", after:" twice since March.", a:["has risen"]},
+        {before:" Yara ", after:" here since the spring.", a:["has worked"]}]},
+ {t:"mcq", q:"Which sentence claims experience rather than novelty?",
+  opts:["We have imported steel for eleven years.","We have imported machines since March.",
+        "We imported steel in March.","We are importing machines."], a:0}
+],
+post:[
+ {t:"write", q:"Write six lines of a supplier history of your own: three with for, three with since, and one thing that has not happened yet.",
+  model:"We have bought timber from Hamdan for nine years. We have used their Aleppo yard since they opened it. We have had their prices in writing for every order since January. We have worked with the new haulier for four months. We have not had a damaged load from them for three years. We have not tested what they do with a claim yet, and until we have, I would not give them our largest order."},
+ {t:"short", q:"Write one sentence with “for” and one with “since” about your own job, and say what each tells a stranger.",
+  model:"I have worked in this office for two years — that tells a stranger I am settled and have seen a full cycle of the business. I have run the order desk since April — that tells them the responsibility is new, and that anything older than April was somebody else's work."},
+ {t:"mcq", q:"“We have not had a late shipment yet” suggests:",
+  opts:["it has not happened, and it still could","it will never happen",
+        "it happened once","the supplier is perfect"], a:0}
+]
+});
