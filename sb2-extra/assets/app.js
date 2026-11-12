@@ -630,7 +630,7 @@ var AHL = (function () {
       var ready = s.count > 0;
       var c = el('<a class="card' + (ready ? '' : ' soon') + '" href="' + (ready ? '#/u/' + U.n : '#/') + '">' +
         (s.count && s.done === s.count ? '<span class="done-flag">done</span>' : '') +
-        '<span class="n">Unit ' + U.n + (U.lv === 'B1' ? ' · B1 stretch' : '') + '</span>' +
+        '<span class="n">Unit ' + U.n + '' + '</span>' +
         '<h3>' + esc(U.t) + '</h3>' +
         '<p class="sub">' + esc(U.g) + '</p>' +
         '<div class="chips"><span class="chip">' + esc(U.f) + '</span>' +
