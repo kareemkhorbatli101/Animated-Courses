@@ -31,8 +31,21 @@
 
   var BRIEF_URL = 'ask/site-brief.md';
   var LS_MODEL = 'la.gemini.model';
+  var LS_SPEAK = 'la.ask.speak';
 
-  var SYSTEM = [
+  /* THE LENGTH OF A SPOKEN ANSWER. ONE NUMBER, TWO CONSUMERS.
+   *
+   * It is asked of the model (SYSTEM_SPOKEN) and promised to the visitor (the line beside the
+   * speaker toggle). Those must never disagree: a label that says one number while the prompt
+   * asks for another is a promise nobody is keeping, and it is the ordinary way this kind of
+   * thing goes stale - somebody tunes the prompt and the sentence on screen is left behind.
+   * Both read CAP, and gates/site_ask.py fails if either hard-codes a number instead. */
+  var CAP = 50;
+
+  /* WHAT THE MODEL IS ALWAYS TOLD. The sentences that matter most are the ones about refusing
+   * to invent, so they come FIRST and the style rules are appended after them - a prompt is not
+   * a priority list, and more words about commas can dilute fewer words about honesty. */
+  var SYSTEM_BASE = [
     'You answer questions about one website, learnactively.com, for a visitor who is',
     'looking at it now.',
     '',
@@ -51,7 +64,53 @@
     'language: answer in Arabic if they wrote in Arabic.'
   ].join('\n');
 
-  var state = { brief: null, model: '', busy: false, el: null };
+  /* ...AND WHAT IT IS TOLD ONLY WHEN THE ANSWER WILL BE SPOKEN ALOUD.
+   *
+   * This block is appended ONLY when the speaker toggle is on, and that is a decision with a
+   * cost the owner accepted: the toggle is therefore part of the REQUEST, not of playback, and
+   * has to be set before asking. The reason to keep it conditional is that the written
+   * assistant has been live for a while at full length, and a cap that leaked into it would
+   * silently shorten something nobody asked to change.
+   *
+   * THE CAP IS ASKED FOR, NEVER CUT. Nothing in this file truncates an answer: a truncation
+   * severs a sentence, the voice reads the fragment, the text pane shows the same fragment, and
+   * the tokens were spent generating the whole thing anyway. If the model overruns, the only
+   * cost is time - the picture follows the speech rather than predicting it.
+   *
+   * Every rule here earns its place by helping the TEXT as well as the voice. That is the test:
+   * banning markdown fixes a real defect in this pane, which prints the answer verbatim and so
+   * shows asterisks to the visitor; a slash is read aloud as the word "slash"; a bare URL is
+   * read out character by character. A rule that only helped the voice would be a speech
+   * setting and would not belong in the prompt at all. */
+  function systemSpoken() {
+    return [
+      '',
+      'THIS ANSWER WILL BE READ ALOUD BY A SPEECH VOICE, and shown on screen as text at the',
+      'same time. Write one answer that works for both.',
+      '',
+      'Use at most ' + CAP + ' words, and finish on a complete sentence rather than stopping',
+      'part-way. Put the thing that answers the question first.',
+      '',
+      'Write ordinary sentences with commas at the natural breaks, because a speech voice',
+      'pauses at punctuation and runs clauses together without it.',
+      '',
+      'Do not use markdown: no asterisks, no bullet points, no headings, no backticks.',
+      'Do not use slashes between words, bare web addresses, or bracketed asides.',
+      'Write numbers, symbols and names the way they are said out loud.'
+    ].join('\n');
+  }
+
+  // what the GUI promises, built from the same number the prompt is given
+  function capPromise() {
+    return 'Spoken answers are kept to about ' + CAP + ' words. Turn this off for a full ' +
+           'written answer.';
+  }
+
+  var state = {
+    brief: null, model: '', busy: false, el: null,
+    speak: false,          // the speaker toggle; CHANGES THE PROMPT, so it is read before asking
+    answerWasSpokenStyle: false   // was the answer now on screen produced under the cap?
+  };
 
   // ---- the smallest possible DOM helpers ------------------------------------------------
   function E(tag, cls, text) {
@@ -86,6 +145,18 @@
       '.askghost{background:transparent;color:var(--text,#E6EDF3);',
       'border:1px solid var(--border,#5B677A);border-radius:8px;padding:9px 13px;cursor:pointer;',
       'font:400 14px system-ui}',
+      // the two icon controls, told apart at a glance and showing their pressed state
+      '.askicon{font-size:16px;line-height:1;padding:9px 11px}',
+      '.askghost.on{background:var(--accent,#E8B418);color:var(--onAccent,#1A1200);',
+      'border-color:var(--accent,#E8B418)}',
+      // THE CAP PROMISE. Always present so it can be read BEFORE asking; it brightens rather
+      // than appears when the toggle is on, because a line that appears is a line that was not
+      // there when the visitor was deciding.
+      '.askcap{color:var(--muted,#A9B4C0);font-size:12px;margin:8px 0 0;',
+      'border-left:2px solid var(--border,#5B677A);padding-left:8px}',
+      '.askcap.live{color:var(--text,#E6EDF3);border-left-color:var(--accent,#E8B418)}',
+      '.askreask{margin-top:10px;font-size:13px;color:var(--muted,#A9B4C0)}',
+      '.askreask button{margin-left:6px}',
       '.askout{margin-top:16px;white-space:pre-wrap}',
       '.asknote{color:var(--muted,#A9B4C0);font-size:12px;margin-top:14px}',
       '.askerr{color:#FF7B72;margin-top:12px}',
@@ -193,6 +264,44 @@
     }).then(function (t) { state.brief = t; return t; });
   }
 
+  /* ---- voice, both directions ------------------------------------------------------------
+   *
+   * Both are the BROWSER's: no audio leaves this page and no voice model is downloaded by it.
+   * The same shape the lesson pane (player/ask_pane.js) has had for a while, carried across
+   * rather than reinvented - a second implementation of listening and speaking would be the
+   * one part of this feature most likely to drift from the one that already works.
+   *
+   * AVAILABILITY IS REPORTED, NOT ASSUMED. Recognition is Chrome and Edge; Firefox has none.
+   * A button that silently does nothing is worse than one that says why it cannot. */
+  function recogniser() {
+    return root.SpeechRecognition || root.webkitSpeechRecognition || null;
+  }
+
+  function speakAloud(text) {
+    if (!root.speechSynthesis || !text) return;
+    var u = new root.SpeechSynthesisUtterance(String(text));
+    // the brief answers in the visitor's language, so the voice has to follow the text
+    u.lang = /[؀-ۿ]/.test(text) ? 'ar' : 'en-GB';
+    var vs = root.speechSynthesis.getVoices() || [];
+    var exact = vs.filter(function (v) { return v.lang === u.lang; });
+    var loose = vs.filter(function (v) {
+      return (v.lang || '').slice(0, 2) === u.lang.slice(0, 2);
+    });
+    if (exact.length) u.voice = exact[0];
+    else if (loose.length) u.voice = loose[0];
+    root.speechSynthesis.cancel();
+    root.speechSynthesis.speak(u);
+    return u;
+  }
+
+  function rememberSpeak(on) {
+    try { root.localStorage.setItem(LS_SPEAK, on ? '1' : '0'); } catch (e) { /* fine */ }
+  }
+
+  function recallSpeak() {
+    try { return root.localStorage.getItem(LS_SPEAK) === '1'; } catch (e) { return false; }
+  }
+
   // ---- which model ----------------------------------------------------------------------
   //
   // THIS NO LONGER CHOOSES ONE MODEL AND HOPES. Gemini's free allowances are per model and
@@ -225,13 +334,57 @@
     box.appendChild(lab);
     box.appendChild(ta);
 
+    /* TWO WAYS IN AND TWO WAYS OUT, IN ONE ROW.
+     *
+     * The microphone fills the field above rather than sending: recognition is wrong often
+     * enough that sending it straight would spend a stranger's quota on a question they did not
+     * ask, and leave them no way to see what went wrong. One glance is the price of staying in
+     * charge of your own question.
+     *
+     * The speaker is a TOGGLE, and - unlike the lesson pane's - it changes the prompt rather
+     * than only playback, because a spoken answer is capped and a written one is not. So it is
+     * read when the question is sent, and the line underneath says so in words. */
     var row = E('div', 'askrow');
     var go = E('button', 'askbtn', 'Ask');
+
+    var mic = E('button', 'askghost askicon', '🎤');
+    mic.type = 'button';
+    mic.title = 'Speak your question instead of typing';
+    mic.setAttribute('aria-label', 'Speak your question instead of typing');
+    mic.setAttribute('aria-pressed', 'false');
+
+    var spk = E('button', 'askghost askicon', '🔊');
+    spk.type = 'button';
+    spk.id = 'ask-speak-toggle';
+    spk.title = 'Read the answer aloud';
+    spk.setAttribute('aria-label', 'Read the answer aloud');
+    spk.setAttribute('aria-describedby', 'ask-cap-note');
+    spk.setAttribute('aria-pressed', 'false');
+
     var shown = E('button', 'askghost', 'What was I told?');
     var keybtn = E('button', 'askghost', 'Key (' + K.hint() + ')');
     var closeb = E('button', 'askghost', 'Close');
-    row.appendChild(go); row.appendChild(shown); row.appendChild(keybtn); row.appendChild(closeb);
+    row.appendChild(go); row.appendChild(mic); row.appendChild(spk);
+    row.appendChild(shown); row.appendChild(keybtn); row.appendChild(closeb);
     box.appendChild(row);
+
+    /* THE FLAG THE OWNER ASKED FOR: the visitor is told, before asking, that turning the
+     * speaker on shortens the answer. It is PLAIN TEXT in the row and not a tooltip, because a
+     * tooltip is invisible on a touch screen, invisible to anyone who does not hover, and
+     * invisible at the one moment it matters - before the question is sent. It is tied to the
+     * toggle with aria-describedby so a screen reader announces it with the control. Its number
+     * comes from CAP, the same constant the prompt is built from. */
+    var capNote = E('p', 'askcap', capPromise());
+    capNote.id = 'ask-cap-note';
+    box.appendChild(capNote);
+
+    function syncSpeak() {
+      spk.classList.toggle('on', state.speak);
+      spk.setAttribute('aria-pressed', state.speak ? 'true' : 'false');
+      capNote.classList.toggle('live', state.speak);
+    }
+    state.speak = recallSpeak();
+    syncSpeak();
 
     var out = E('div', 'askout');
     var err = E('div', 'askerr');
@@ -263,28 +416,45 @@
       if (!q || state.busy) return;
       err.style.display = 'none';
       out.textContent = '';
+      // a new question supersedes whatever is being said and whatever was offered about the last
+      if (root.speechSynthesis) root.speechSynthesis.cancel();
+      var old = box.querySelector('.askreask');
+      if (old) old.remove();
       state.busy = true;
       go.disabled = true;
       go.textContent = 'Asking…';
 
+      // READ ONCE, HERE. The toggle is part of the request, so the answer is produced under
+      // whichever rule was in force when Ask was pressed - not whichever is in force when it
+      // comes back. answerWasSpokenStyle records which, so the toggle cannot later imply that
+      // a full-length answer was written to be heard.
+      var spokenStyle = state.speak;
       var provider = new root.GeminiProvider({ keyring: K });
       loadBrief()
         .then(function (brief) {
+          var system = SYSTEM_BASE + (spokenStyle ? '\n' + systemSpoken() : '');
           return provider.askWithFailover({
             preferred: remembered(),
-            system: SYSTEM + '\n\n--- BRIEFING ABOUT THE SITE ---\n' + brief,
+            system: system + '\n\n--- BRIEFING ABOUT THE SITE ---\n' + brief,
             prompt: q,
             maxTokens: 700,
             temperature: 0.2
           });
         })
         .then(function (res) {
+          // ONE ANSWER, TWO RENDERERS. The text is shown unconditionally and verbatim - nothing
+          // here slices, trims or truncates it - and the SAME string is then spoken if the
+          // visitor asked to be read to. Speech is a second renderer over one answer, never an
+          // alternative path that could return something different.
           out.textContent = res.text;
+          state.answerWasSpokenStyle = spokenStyle;
+          if (spokenStyle) speakAloud(res.text);
           rememberWorking(res.model);
           var also = (res.tried && res.tried.length > 1)
             ? ' (after ' + (res.tried.length - 1) + ' model(s) with no free quota)' : '';
           note.textContent = 'Answered by ' + (res.model || 'Gemini') + ' in ' +
-            Math.round(res.ms) + ' ms' + also + ', from this site\'s briefing only.';
+            Math.round(res.ms) + ' ms' + also + ', from this site\'s briefing only.' +
+            (spokenStyle ? ' Written to be read aloud, so it is short.' : '');
         })
         .catch(function (e) {
           // a remembered model that stopped working must not be tried for ever
@@ -305,6 +475,73 @@
           go.textContent = 'Ask';
         });
     }
+
+    /* THE SPEAKER TOGGLE, AND THE ONE CASE THAT HAD TO BE DECIDED RATHER THAN LEFT TO HAPPEN.
+     *
+     * If a visitor reads a full-length written answer and only then presses the speaker, the
+     * words on screen were produced WITHOUT the cap. Reading them out would break the promise
+     * the line above has just made, and three hundred words spoken at someone is the version of
+     * this feature that gets turned off and never turned on again. So the page offers an honest
+     * second request instead of pretending the answer it has was written to be heard. */
+    spk.addEventListener('click', function () {
+      state.speak = !state.speak;
+      rememberSpeak(state.speak);
+      syncSpeak();
+      var stale = box.querySelector('.askreask');
+      if (stale) stale.remove();
+      if (!state.speak) {
+        if (root.speechSynthesis) root.speechSynthesis.cancel();
+        return;
+      }
+      if (!out.textContent) return;            // nothing answered yet: it simply applies next
+      if (state.answerWasSpokenStyle) { speakAloud(out.textContent); return; }
+      var again = E('div', 'askreask');
+      again.appendChild(E('span', null,
+        'The answer above was written to be read, not heard, so it is longer than ' + CAP +
+        ' words. '));
+      var b = E('button', 'askghost', 'Ask again, shortened');
+      b.type = 'button';
+      b.addEventListener('click', function () { again.remove(); run(); });
+      again.appendChild(b);
+      out.parentNode.insertBefore(again, out.nextSibling);
+    });
+
+    /* THE MICROPHONE fills the field; it does not send. */
+    var rec = null;
+    mic.addEventListener('click', function () {
+      var SR = recogniser();
+      if (!SR) {
+        err.textContent = 'This browser cannot listen. Chrome and Edge can; Firefox cannot. ' +
+                          'You can still type your question.';
+        err.style.display = '';
+        return;
+      }
+      if (rec) { rec.stop(); return; }
+      var r = new SR();
+      r.lang = 'en-GB';
+      r.interimResults = true;
+      r.continuous = false;
+      r.onresult = function (e) {
+        var s = '';
+        for (var i = e.resultIndex; i < e.results.length; i++) s += e.results[i][0].transcript;
+        ta.value = s;                       // into the field, so it can be read and corrected
+      };
+      r.onend = function () {
+        rec = null;
+        mic.classList.remove('on');
+        mic.setAttribute('aria-pressed', 'false');
+      };
+      r.onerror = function (e) {
+        err.textContent = 'Could not listen: ' + ((e && e.error) || 'unknown') +
+                          '. You can still type your question.';
+        err.style.display = '';
+      };
+      rec = r;
+      mic.classList.add('on');
+      mic.setAttribute('aria-pressed', 'true');
+      err.style.display = 'none';
+      r.start();
+    });
 
     go.addEventListener('click', run);
     ta.addEventListener('keydown', function (e) {

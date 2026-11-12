@@ -9,7 +9,7 @@ Interactive English courses that run in the browser, generated from the author's
 
 ## The courses
 
-There are 5 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
+There are 6 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
 
 ### Al-Hasan International — English for Trade & Industry
 
@@ -64,6 +64,21 @@ The whole book, all ten units and the three appendices. The daily work of an acc
 - Arabic on every spoken line
 
 Opens at: accountants-intl/b1/index.html
+
+### IELTS Speaking Syria
+
+Level and subject: IELTS · Speaking · with Arabic
+
+Ten complete speaking tests, acted out by an examiner and six Syrian candidates. Watch the test, read every line in English and Arabic, then answer the same questions yourself — typed or spoken — and have your answer marked against the IELTS criteria by Gemini, on your own key. Every test is marked in full: a band for each of the four criteria, the candidate's own words as evidence, and the one change that would raise it, read aloud if you would rather listen than read.
+
+- 10 of 10 tests
+- 40 pages
+- 206 practice questions
+- 660 recordings
+- Arabic on every spoken line
+- Marked answers on your own key
+
+Opens at: ielts/speaking/index.html
 
 ### Cybersecurity B1
 
