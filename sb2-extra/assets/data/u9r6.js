@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u9r6", unit:9, kind:"reading", n:6,
+title:"What you can put a number on",
+strap:"The storm cost eleven days. The yard cost something Mr. Tarek cannot measure.",
+tags:["review","although","problems"],
+pre:[
+ {t:"mcq", q:"“Something I cannot put a number on” usually means:",
+  opts:["a loss of trust","a small loss","an unknown cost","an insurance claim"], a:0},
+ {t:"match", q:"Match the loss to whether it can be measured.",
+  pairs:[["eleven days of delay","measurable"],["twelve tonnes of steel","measurable"],
+         ["a customer's week","partly"],["a customer's confidence","not measurable"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["Although the steel was replaced, the customer's week was not.",
+        "Although the steel was replaced, but the customer's week was not.",
+        "Although was the steel replaced, the customer's week was not.",
+        "Although the steel replaced, the customer's week was not."], a:0}
+],
+paras:[
+ "At the review, Mr. Tarek puts the two problems side by side. “The storm cost us eleven days and nothing else,” he says. “The yard cost us twelve tonnes, a customer’s week, and something I cannot put a number on. One of these was weather. The other was a painted line on a floor that nobody painted.”",
+ "The twelve tonnes were replaced and the cost is known: the steel, the two journeys, the credit for forty cut bars. The customer’s week is partly measurable — his men stood for two days — and partly not, because nobody knows what else he could not do while he was dealing with this. And the third item has no number at all, which is exactly why Mr. Tarek names it rather than leaving it out.",
+ "Things without numbers are the ones that get dropped from reviews. A list of measurable costs is easy to produce, easy to agree and easy to feel finished by, and the item that matters most is the one that cannot be put in the column. Naming it out loud, without a figure, is the only way it stays in the discussion.",
+ "There is a second reason, which Karim adds and which is about honesty with themselves. A company that only records what it can measure will reliably conclude that the measurable problems are the important ones. Eleven days of shipping delay appears in a report; a builder in Homs who will now take two quotations instead of one appears nowhere, until the year he stops asking for either.",
+ "Although the steel was replaced and the apology was accepted, something changed in that relationship. The builder did not say so — he was polite about the replacement and he has ordered since — and Mr. Tarek’s view is that the absence of a complaint proves nothing at all. Customers do not announce the moment they begin checking somebody else’s price.",
+ "So the last line of the review is a question rather than an action. What else are we carrying that has no number on it? Nobody answers it that morning, and Fadi puts it at the top of the next annual review agenda, where it has stayed ever since."
+],
+gloss:[["to be dropped","to be left out"],
+       ["to feel finished","to believe the work is complete"],
+       ["to carry something","to bear a cost or risk"],
+       ["to announce","to say publicly"],
+       ["agenda","the list of items for a meeting"]],
+comp:[
+ {t:"mcq", q:"What did the storm cost?",
+  opts:["Eleven days and nothing else","Twelve tonnes",
+        "A customer","Nothing"], a:0},
+ {t:"multi", q:"What did the yard cost? (Three answers.)",
+  opts:["twelve tonnes","a customer's week",
+        "something with no number","eleven days"], a:[0,1,2]},
+ {t:"mcq", q:"Why does Mr. Tarek name the unmeasurable item?",
+  opts:["Items without numbers get dropped from reviews",
+        "To be thorough","Because it is largest","For the record"], a:0},
+ {t:"mcq", q:"What is Karim’s additional reason?",
+  opts:["A company that records only what it can measure concludes those are the important problems",
+        "Auditors require it","It is good practice","Customers expect it"], a:0},
+ {t:"mcq", q:"What does the absence of a complaint prove?",
+  opts:["Nothing at all","That the customer is satisfied",
+        "That the apology worked","That the steel was right"], a:0},
+ {t:"short", q:"Explain the last line of the review.",
+  model:"“What else are we carrying that has no number on it?” asks the company to look for the losses its reporting cannot see. It has no answer that morning, which is the point — it is a standing question rather than an action, and its value is that it keeps getting asked."}
+],
+words:[
+ {t:"gap", q:"Complete with although, because of or so.",
+  bank:["Although","because of","so","Although"],
+  gaps:[{before:"", after:" the steel was replaced, the week was not.", a:["Although"]},
+        {before:" The delay happened ", after:" the storm.", a:["because of"]},
+        {before:" The bay was unmarked, ", after:" the loader moved it.", a:["so"]},
+        {before:" ", after:" he has ordered since, something changed.", a:["Although"]}]},
+ {t:"match", q:"Match the item to where it appears.",
+  pairs:[["eleven days of delay","a report"],["twelve tonnes","a credit note"],
+         ["a builder taking two quotations","nowhere"],["the standing question","the annual agenda"]]},
+ {t:"mcq", q:"“Customers do not announce the moment they begin checking somebody else’s price” warns that:",
+  opts:["loss of confidence is invisible until it is complete",
+        "customers are dishonest","prices matter most","complaints are rare"], a:0}
+],
+post:[
+ {t:"write", q:"List three costs in your own work that have no number on them.",
+  model:"The customers who stopped asking us to quote and never said why. The two hours a week our fitters spend working around a stock system nobody trusts, which never appears as a cost because it is spread across everybody's day. And the supplier who now sends us his second-best prices because of an argument three years ago — we cannot prove it, we cannot measure it, and it is probably larger than both the others."},
+ {t:"short", q:"Why is a standing question better than an action here?",
+  model:"There is no action that discovers unmeasured losses; only repeated attention does. A question that is asked every year forces somebody to look, and the year somebody has an answer is the year it earns its place."},
+ {t:"mcq", q:"Where did Fadi put the question?",
+  opts:["At the top of the next annual review agenda","In the file",
+        "On the wall","In the procedure"], a:0}
+]
+});

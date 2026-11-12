@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u9r2", unit:9, kind:"reading", n:2,
+title:"While the port was closed",
+strap:"Three days of weather, eleven days of consequence, and nothing anybody could do.",
+tags:["past continuous","because of","logistics"],
+pre:[
+ {t:"mcq", q:"A storm closes a port for three days and the shipment is delayed eleven. Why?",
+  opts:["The vessel sailed without it and the next one was eleven days later",
+        "The storm lasted eleven days","Customs were closed","The cargo was damaged"], a:0},
+ {t:"match", q:"Match the phrase to its meaning.",
+  pairs:[["because of the storm","the reason"],["so the vessel sailed","the result"],
+         ["although nobody was at fault","the contrast"],["while it was closed","at the same time"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["Because of the storm, the port was closed for three days.",
+        "Because the storm, the port was closed for three days.",
+        "Because of the storm closed the port for three days.",
+        "Because of the storm was closed the port."], a:0}
+],
+paras:[
+ "The second shipment was waiting at the supplier’s port when a storm closed it for three days. That sentence contains everything, and the eleven days that follow are arithmetic rather than misfortune.",
+ "Ports do not reopen into an empty schedule. When the storm cleared, every vessel that had been waiting moved at once, and the berths and the cranes that had been idle for three days were now serving three days of accumulated traffic. The vessel booked for Al-Hasan’s containers sailed — on time, as it happens — but it sailed without them, because the terminal was working through a queue and the containers were in it.",
+ "The next ship on that route was eleven days later. Not three. That gap is the thing people outside logistics find hardest to believe, and it is why Mr. Samir refuses to describe a weather delay in terms of the weather. A three-day storm on a weekly route costs between three and ten days; on an eleven-day route it costs eleven; on a monthly route it can cost a month.",
+ "Nothing anybody at Al-Hasan did caused it, and nothing anybody did could have changed it once the containers were at that port. That is worth stating plainly, because the instinct in a review is to find something. Rami spent an afternoon looking for a decision he should have made differently and found none, and Mr. Tarek told him that the afternoon was not wasted — a problem that has been searched and found blameless is a different object from one that nobody examined.",
+ "What can be changed is the next one, and the change is not about storms. It is about knowing the route’s frequency before booking. A route with a sailing every eleven days carries eleven days of risk in every delay, and that risk belongs in the quotation and the promise, not in an apology afterwards. The same freight at the same price on a weekly route is a different product.",
+ "So the only line that goes into the procedure is about information rather than weather: every shipping booking now records the frequency of the service and the date of the next sailing after the one booked. It costs one question to Mr. Samir and it converts a surprise into a number that was known in advance."
+],
+gloss:[["berth","the place where a ship ties up"],
+       ["accumulated","built up over time"],
+       ["frequency","how often a service runs"],
+       ["blameless","with nobody at fault"],
+       ["to convert","to turn into something else"]],
+comp:[
+ {t:"mcq", q:"Why did a three-day storm cost eleven days?",
+  opts:["The vessel sailed without the containers and the next sailing was eleven days later",
+        "The storm lasted longer","The cargo was damaged","Customs closed"], a:0},
+ {t:"mcq", q:"Why did the terminal not catch up quickly?",
+  opts:["Every waiting vessel moved at once into three days of accumulated traffic",
+        "Equipment was broken","Staff were absent","The storm returned"], a:0},
+ {t:"mcq", q:"Why does Mr. Samir refuse to describe it in terms of weather?",
+  opts:["The cost depends on the route's frequency, not the storm's length",
+        "Weather is unpredictable","It sounds like an excuse","Customers dislike it"], a:0},
+ {t:"mcq", q:"What did Rami's blameless afternoon achieve?",
+  opts:["A problem searched and found blameless differs from one nobody examined",
+        "Nothing","A new supplier","An apology"], a:0},
+ {t:"mcq", q:"What goes into the procedure?",
+  opts:["Recording the service frequency and the next sailing date at booking",
+        "Avoiding that port","Insuring the cargo","Booking earlier"], a:0},
+ {t:"short", q:"Explain why the same freight on a weekly route “is a different product”.",
+  model:"The price and the goods are identical, but the risk carried is not: a delay on a weekly service costs days and on an eleven-day service costs a fortnight. Buying freight without knowing the frequency is buying an unknown amount of exposure at a known price."}
+],
+words:[
+ {t:"gap", q:"Complete with because of, so or although.",
+  bank:["Because of","so","Although","because of"],
+  gaps:[{before:"", after:" the storm, the port closed.", a:["Because of"]},
+        {before:" The terminal had a queue, ", after:" the vessel sailed without us.", a:["so"]},
+        {before:" ", after:" nobody was at fault, it cost eleven days.", a:["Although"]},
+        {before:" The delay was long ", after:" the route's frequency.", a:["because of"]}]},
+ {t:"match", q:"Match the route to the cost of a three-day storm.",
+  pairs:[["weekly","three to ten days"],["eleven-day","eleven days"],
+         ["monthly","up to a month"],["daily","three days"]]},
+ {t:"mcq", q:"“The eleven days are arithmetic rather than misfortune” means:",
+  opts:["the gap was predictable from the schedule","it was bad luck",
+        "somebody miscalculated","the storm was severe"], a:0}
+],
+post:[
+ {t:"write", q:"Write the booking note that would have made this a known number.",
+  model:"Booking PO-4417-2, 48 containers, vessel MV Taurus Star voy 118E, ETD 14th. Service frequency: fortnightly on this routing — next sailing after this one is the 25th, eleven days later. Therefore any delay at load port that misses this vessel costs eleven days, not three. If the cargo is not confirmed on board by the 13th, tell Rami the same day so the customer can be warned before, not after."},
+ {t:"short", q:"Mr. Tarek says Rami’s fruitless afternoon was not wasted. Do you agree?",
+  model:"Yes — the search is what makes “nothing could be done” a finding rather than an assumption. Without it the company could not distinguish a genuine act of weather from a failure it had simply not looked for."},
+ {t:"mcq", q:"How often does that route sail?",
+  opts:["Every eleven days","Weekly","Monthly","Daily"], a:0}
+]
+});

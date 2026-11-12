@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u9r1", unit:9, kind:"reading", n:1,
+title:"Two problems, two different kinds",
+strap:"One came from the weather. The other came from us.",
+tags:["past continuous","because of","problems"],
+pre:[
+ {t:"mcq", q:"Which kind of problem deserves more attention?",
+  opts:["The one caused inside the company","The larger one",
+        "The more expensive one","The more recent one"], a:0},
+ {t:"match", q:"Match the connector to its use.",
+  pairs:[["because of","a reason, before a noun"],["so","a result"],
+         ["although","a contrast"],["while","two things at the same time"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["While the port was closed, the vessel sailed without the containers.",
+        "While the port closed, the vessel was sailing without the containers.",
+        "While the port was closing, the vessel sailed without containers.",
+        "While the port was closed, the vessel was sail without the containers."], a:0}
+],
+paras:[
+ "It was a bad week, and it was bad in two completely different ways. Mr. Tarek puts both problems on the same sheet at the review, side by side, because he says that is the only way anybody sees what the difference between them actually is.",
+ "The first problem arrived from the sea. The second shipment was waiting at the supplier’s port when a storm closed it for three days. While the port was closed, the vessel sailed without the containers. The next ship on that route was eleven days later. Nobody at Al-Hasan did anything wrong, and nothing anybody did could have changed it.",
+ "The second problem arrived from inside. Ms. Dana was on leave for a week. While she was away, a loader was clearing space in the yard, and he moved the forty rejected tonnes because they were in his way. Nobody had told him what they were. Two days later twelve of those tonnes were sold and delivered to a builder in Homs.",
+ "The grammar of the two paragraphs is not an accident. Both are about something that was going on when something else happened: the shipment was waiting when the storm came; Ms. Dana was away while the loader was clearing. The past continuous sets the situation and the past simple delivers the event, and that is the shape of almost every operational failure anybody will ever have to describe.",
+ "What separates them is not cost. The storm cost eleven days of delay and nothing else. The yard cost twelve tonnes, a customer’s week, and something Mr. Tarek says he cannot put a number on. The storm is weather. The yard is a painted line on a floor that nobody painted — which is to say, a decision that was never taken, by people who all behaved sensibly within what they knew.",
+ "So the review spends four minutes on the storm and forty on the yard. Mr. Tarek’s rule for his own attention is simple and he states it once: a problem that could not have been prevented is a cost, and a problem that could have been is a lesson. Spending the meeting on the cost is how a company has the same bad week twice."
+],
+gloss:[["to close a port","to stop ships entering or leaving"],
+       ["loader","the person who loads vehicles"],
+       ["to clear space","to make room"],
+       ["operational","to do with daily work"],
+       ["to put a number on","to measure in money"]],
+comp:[
+ {t:"mcq", q:"What closed the supplier’s port?",
+  opts:["A storm, for three days","An inspection","A strike","A holiday"], a:0},
+ {t:"gap", q:"Complete the consequence of the storm.",
+  gaps:[{before:"The next ship on that route was ", after:" days later.", a:["eleven","11"]}]},
+ {t:"mcq", q:"Why did the loader move the rejected steel?",
+  opts:["It was in his way and nobody had told him what it was",
+        "He was ordered to","It was sold","He was careless"], a:0},
+ {t:"mcq", q:"What is the grammatical shape of both problems?",
+  opts:["The past continuous sets the situation; the past simple delivers the event",
+        "Both are in the past simple","Both are passive","Both use because of"], a:0},
+ {t:"gap", q:"Complete the yard’s cost.",
+  gaps:[{before:"", after:" tonnes were sold and delivered.", a:["Twelve","12"]}]},
+ {t:"short", q:"Explain “a painted line on a floor that nobody painted”.",
+  model:"The rejected bay existed as an idea and not as a physical boundary the loader could see. Nobody failed; a decision to mark it was simply never taken, which is why everyone behaved reasonably and the outcome was still wrong."}
+],
+words:[
+ {t:"gap", q:"Complete with the past continuous or past simple.",
+  bank:["was waiting","closed","was clearing","moved"],
+  gaps:[{before:"The shipment ", after:" at the port", a:["was waiting"]},
+        {before:" when a storm ", after:" it.", a:["closed"]},
+        {before:" A loader ", after:" space", a:["was clearing"]},
+        {before:" and ", after:" the rejected steel.", a:["moved"]}]},
+ {t:"match", q:"Match the problem to its cost.",
+  pairs:[["the storm","eleven days and nothing else"],
+         ["the yard","twelve tonnes and a customer's week"],
+         ["the storm","weather"],
+         ["the yard","a decision nobody took"]]},
+ {t:"mcq", q:"How long does the review spend on each?",
+  opts:["Four minutes on the storm, forty on the yard","Equal time",
+        "All on the storm","None on the yard"], a:0}
+],
+post:[
+ {t:"write", q:"Describe two problems from your own experience, one preventable and one not, using the past continuous and past simple.",
+  model:"We were waiting for the hinges when the supplier's warehouse flooded; nothing we could have done would have changed it, and it cost us nine days. In the same month, a fitter was working from an old drawing because the revised one had been emailed to somebody who had left, and he cut forty door blanks to the wrong width. The flood was weather. The drawing was a mailing list nobody had updated — and only one of those two will happen again."},
+ {t:"short", q:"Why does spending the meeting on the unpreventable problem guarantee a repeat?",
+  model:"Because the preventable one never gets diagnosed. The storm absorbs the discussion, everybody leaves having talked about a bad week, and the unpainted line is still unpainted on the morning the next loader needs the space."},
+ {t:"mcq", q:"Mr. Tarek’s rule is that a preventable problem is:",
+  opts:["a lesson, while an unpreventable one is a cost",
+        "worse","cheaper","somebody's fault"], a:0}
+]
+});
