@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u7r1", unit:7, kind:"reading", n:1,
+title:"The same steel, two rooms",
+strap:"One sale takes a week. The other takes two minutes.",
+tags:["reported speech","selling","trade"],
+pre:[
+ {t:"mcq", q:"Why does the same product need two different selling methods?",
+  opts:["Because the two customers are buying different things",
+        "Because of the price","Because of the quantity","Because of location"], a:0},
+ {t:"match", q:"Match the customer to what they care about.",
+  pairs:[["a project buyer","delivery, credit, next quarter's price"],
+         ["a shop customer","is it in stock, how much, can I carry it"],
+         ["a trader","price alone"],["a builder","that it is the right specification"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["He said he needed two hundred tonnes.","He said he needs two hundred tonnes yesterday.",
+        "He said me he needed two hundred tonnes.","He told he needed two hundred tonnes."], a:0}
+],
+paras:[
+ "Six thousand four hundred tonnes of steel are in the depot, and steel on a shelf is not money. Somebody has to sell it, and at Al-Hasan that happens in two completely different rooms.",
+ "The first room is a site office in Homs. Eng. Bilal of Maham is building a warehouse and he needs two hundred tonnes. He telephones on Sunday and says he wants a quotation. Then he asks the three questions every project customer asks: is the price delivered to site or collected from the depot, can he pay in sixty days instead of thirty, and what happens if he needs another fifty tonnes in March.",
+ "None of those three is really about price. The first is about who organises lorries. The second is about his own customer, who will pay him late. The third is about a risk he cannot carry alone, which is that steel costs more in March than it does today. A salesman who hears three questions about money has heard the words and not the sentences.",
+ "The second room is a shop in Rural Damascus. A man comes in and asks whether Alten IL has cement. Ms. Maya says they have, and he buys twenty bags. The whole sale takes two minutes, he pays cash, and he carries the bags to his van himself. He will never negotiate, never ask for credit and never read a quotation.",
+ "The temptation is to think the second customer is simpler. He is not simpler; he is faster, and the difference is that everything he needed to know was decided before he walked in. The price card, the stock, the opening hours and the fact that there is cement at all are the whole conversation, held weeks earlier by somebody he will never meet.",
+ "So the two rooms are not a hard sale and an easy one. They are a sale where the work happens in front of the customer and a sale where the work happened before the customer arrived — which is why Ms. Maya’s most valuable sentence of the week is never said to a customer at all. It is said to Lina, on the telephone, in the evening, and it is about eleven people who asked for something the shop did not have."
+],
+gloss:[["site office","the office on a construction site"],
+       ["to carry a risk","to take responsibility for it"],
+       ["to negotiate","to discuss terms in order to agree"],
+       ["price card","the printed list of shop prices"],
+       ["temptation","the wish to believe something easy"]],
+comp:[
+ {t:"mcq", q:"How many tonnes does Eng. Bilal need?",
+  opts:["Two hundred","Fifty","Twenty","Twelve hundred"], a:0},
+ {t:"multi", q:"What are his three questions really about? (Three answers.)",
+  opts:["who organises the lorries","his own customer paying him late",
+        "the risk that March steel costs more","the quality of the steel"], a:[0,1,2]},
+ {t:"mcq", q:"How long does the shop sale take?",
+  opts:["Two minutes","A week","An hour","A day"], a:0},
+ {t:"mcq", q:"Why is the shop customer not “simpler”?",
+  opts:["Everything he needed was decided weeks earlier by somebody else",
+        "He buys less","He pays cash","He asks nothing"], a:0},
+ {t:"mcq", q:"What is Ms. Maya’s most valuable sentence of the week?",
+  opts:["One said to Lina, about eleven people who asked for something not stocked",
+        "A price quote","A greeting","An order"], a:0},
+ {t:"short", q:"Explain “has heard the words and not the sentences”.",
+  model:"All three of Bilal's questions mention money, so they sound like haggling. Each is actually about a different risk — transport, cash flow and future prices — and answering them as price questions gives away margin while solving none of them."}
+],
+words:[
+ {t:"gap", q:"Complete with reported speech.",
+  bank:["said he wanted","asked whether","said they had","told her"],
+  gaps:[{before:"He ", after:" a quotation.", a:["said he wanted"]},
+        {before:" He ", after:" the price was delivered or collected.", a:["asked whether"]},
+        {before:" Ms. Maya ", after:" some cement.", a:["said they had"]},
+        {before:" She ", after:" about the eleven people.", a:["told her"]}]},
+ {t:"match", q:"Match the room to what the work consists of.",
+  pairs:[["the site office","a quotation, terms and a future price"],
+         ["the shop","stock, a card and opening hours"],
+         ["before the shop sale","weeks of decisions"],
+         ["during the project sale","the whole negotiation"]]},
+ {t:"mcq", q:"“Steel on a shelf is not money” means:",
+  opts:["stock only becomes value when it is sold",
+        "steel is cheap","shelves are expensive","money is better"], a:0}
+],
+post:[
+ {t:"write", q:"Describe two customers of your own in the same way: what each is really buying.",
+  model:"The contractor who orders forty doors is buying a date he can give his own client, and his questions about price are mostly questions about whether we will be there in June. The man who walks into the shop for two hinges is buying the fact that we have them in a drawer today — he has already decided everything else, and if the drawer is empty he does not come back next week, he goes to the next street. The first sale is made in a meeting; the second was made a month ago, when somebody chose what to stock."},
+ {t:"short", q:"Which of the two rooms do you think teaches a company more, and why?",
+  model:"The shop, because it produces a count of refusals. A project customer tells you what they want and negotiates; a shop customer who walks out tells you nothing unless somebody writes it down — which is why Ms. Maya's evening phone call turns out to matter more than any quotation."},
+ {t:"mcq", q:"Eng. Bilal’s second question is really about:",
+  opts:["his own customer paying him late","the price",
+        "the delivery","the quantity"], a:0}
+]
+});

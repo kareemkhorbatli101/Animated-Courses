@@ -1,0 +1,71 @@
+AHL.lesson({
+id:"u7r4", unit:7, kind:"reading", n:4,
+title:"Two minutes and twenty bags",
+strap:"The sale where the work was done a month before the customer arrived.",
+tags:["retail","reported speech","trade"],
+pre:[
+ {t:"mcq", q:"In a cash retail sale, most of the work happened:",
+  opts:["weeks earlier, in stocking and pricing","at the counter",
+        "in negotiation","after the sale"], a:0},
+ {t:"match", q:"Match the decision to when it was made.",
+  pairs:[["what to stock","weeks earlier"],["the price on the card","on Monday"],
+         ["the opening hours","long ago"],["whether to buy","in two minutes"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["He asked whether they had any cement.","He asked did they have any cement.",
+        "He asked whether did they have any cement.","He asked they had any cement."], a:0}
+],
+paras:[
+ "A man comes into the Alten IL shop in Rural Damascus and asks whether they have cement. Ms. Maya says they have. He buys twenty bags, pays cash, and carries them to his van himself. The whole thing takes two minutes and nothing is negotiated, written or promised.",
+ "Everything that decided the sale happened before he arrived. Somebody chose to stock cement rather than something else. Somebody wrote a price on a card and did not change it on a Thursday. Somebody opened at seven rather than at nine, which is why a man with a van and a morning’s work ahead of him came here instead of driving into the city. And somebody made sure there were twenty bags, which is the part that nearly failed.",
+ "The shop has eleven tonnes of cement, which is nine days of sales. Twenty bags is one tonne. If he had come on a Thursday instead of a Monday, or if two more vans had come before him, Ms. Maya would have had to say the sentence that costs more than any discount: we do not have it today.",
+ "What she does in the two minutes is small and deliberate. She says the price before he asks. She asks whether he wants a hand to the van, which he refuses, as most men with vans do, and which costs nothing to offer. And she asks him one question: is this for the job on the Homs road? He says it is. She writes nothing down in front of him.",
+ "In the evening she writes it down. Twenty bags, Monday, the Homs road job, and the fact that he mentioned he would need more in a fortnight. That last fragment is the whole reason for the question. A shop that knows nothing about its customers has to guess what to stock; a shop that knows there is a job on the Homs road can hold the cement for it.",
+ "Lina’s rule for the shops, which Ms. Maya helped write, is one sentence: what a customer tells you about next month is worth more than what he pays you today. The twenty bags are a transaction. The fortnight is information, and it is free, and almost nobody collects it."
+],
+gloss:[["to negotiate","to discuss terms to reach agreement"],
+       ["a hand","help carrying something"],
+       ["fragment","a small piece of information"],
+       ["to hold stock for","to keep it in reserve for"],
+       ["transaction","a single sale"]],
+comp:[
+ {t:"mcq", q:"What decided the sale?",
+  opts:["Stock, price, opening hours — all chosen before he arrived",
+        "Ms. Maya's service","The price","The location"], a:0},
+ {t:"gap", q:"Complete the stock position.",
+  gaps:[{before:"The shop holds ", after:" tonnes of cement, about ", a:["eleven","11"]},
+        {before:"", after:" days.", a:["nine","9"]}]},
+ {t:"mcq", q:"What is the sentence that costs more than any discount?",
+  opts:["We do not have it today","The price has gone up",
+        "Come back tomorrow","We can order it"], a:0},
+ {t:"mcq", q:"Why does Ms. Maya ask about the Homs road job?",
+  opts:["To learn what is coming, so the shop can stock for it",
+        "To be friendly","To check his credit","To fill the silence"], a:0},
+ {t:"mcq", q:"Why does she write nothing down in front of him?",
+  opts:["It would turn a conversation into an interrogation",
+        "She has no pen","It is against the rules","He would object"], a:0},
+ {t:"short", q:"Explain Lina’s rule in your own words.",
+  model:"Today's payment is already earned and tells you nothing new. A customer's offhand remark about next month is a forecast you could not buy, and it costs one friendly question — which is why the shops are instructed to collect it and almost no shops do."}
+],
+words:[
+ {t:"gap", q:"Report the shop conversation.",
+  bank:["asked whether","said they had","told her","said he would need"],
+  gaps:[{before:"He ", after:" they had any cement.", a:["asked whether"]},
+        {before:" She ", after:" some.", a:["said they had"]},
+        {before:" He ", after:" about the Homs road job.", a:["told her"]},
+        {before:" He ", after:" more in a fortnight.", a:["said he would need"]}]},
+ {t:"match", q:"Match the element to when it was decided.",
+  pairs:[["what to stock","weeks earlier"],["the price","the Monday card"],
+         ["opening at seven","long ago"],["buying twenty bags","in two minutes"]]},
+ {t:"mcq", q:"Twenty bags is:",
+  opts:["one tonne","half a tonne","two tonnes","nine days"], a:0}
+],
+post:[
+ {t:"write", q:"Write the evening note a shop should make after a cash sale.",
+  model:"Monday, 20 bags of cement, cash. Customer is on the Homs road job — the warehouse behind the fuel station — and said he would need about the same again in a fortnight. He came at 07:20, which is before the city yards open; that is the third early sale this week. He did not ask the price before buying, so the card is not the reason he came. Worth holding a tonne for the fortnight rather than selling it down to nothing on Thursday."},
+ {t:"short", q:"Why is “we do not have it today” more expensive than a discount?",
+  model:"A discount costs margin on one sale. A refusal costs the sale, the customer's next three visits, and the information he would have given — because he now has a supplier who did have it, and he will tell the men on his site about them rather than about you."},
+ {t:"mcq", q:"What is the twenty bags, compared with the fortnight?",
+  opts:["A transaction, while the fortnight is information",
+        "More valuable","The same thing","A forecast"], a:0}
+]
+});
