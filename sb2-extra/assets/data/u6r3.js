@@ -1,0 +1,71 @@
+AHL.lesson({
+id:"u6r3", unit:6, kind:"reading", n:3,
+title:"Two tenths of a millimetre",
+strap:"“It is only two tenths,” says the driver. “It is a different product,” says Ms. Dana.",
+tags:["specification","relative clauses","quality"],
+pre:[
+ {t:"mcq", q:"Steel ordered as 5 mm measures 4.8 mm. That is:",
+  opts:["a different product","a small variation",
+        "acceptable","the same product"], a:0},
+ {t:"match", q:"Match the person to their view.",
+  pairs:[["the driver","it is only two tenths"],["Ms. Dana","it is a different product"],
+         ["the builder","I ordered five"],["the supplier","we will replace it"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["The coils which came out of containers 31 to 34 measure 4.8.",
+        "The coils who came out of containers 31 to 34 measure 4.8.",
+        "The coils which they came out of containers 31 to 34 measure 4.8.",
+        "The coils where came out of containers 31 to 34 measure 4.8."], a:0}
+],
+paras:[
+ "Ms. Dana measures one coil from every fourth container, because that is the rule. Most measure five millimetres. The coils which came out of containers thirty-one to thirty-four measure four point eight, and four point eight is where this lesson starts.",
+ "The driver, who wants to go home, says what almost everybody says: it is only two tenths. The sentence is not stupid. Two tenths of a millimetre is four per cent, it is invisible, and in many products it would be inside tolerance and nobody would ever know. The reason it is wrong here has nothing to do with the number.",
+ "It is wrong because the customer who is waiting for this steel is a builder who needs five. He will cut it, bend it and set it in concrete, and a designer somewhere has calculated a structure on the assumption of five. Four point eight is not a worse five. It is an eight, or a four, or a different grade: a thing which has its own uses and is not this one.",
+ "Ms. Dana does three things in the order she always does them. She photographs the gauge, the coil and the container number in one picture, because three photographs of three things prove less than one photograph of all three together. She writes the batch numbers on the goods-received note, because a batch number is how forty tonnes can be identified after it has been moved. And she puts those forty tonnes in the corner of the yard where rejected stock goes.",
+ "The corner matters more than any of it. Rejected stock which is left among good stock is not rejected; it is simply stock that somebody intends to reject. The corner is physically separate, it is painted, and everything in it is there because somebody decided it should not be sold. That decision has to be visible from a distance, to a loader who was not in the conversation.",
+ "Rami raises the claim the same day: one coil short, and forty tonnes below specification. He asks for a credit note for the missing coil and a replacement for the under-size steel, which is the right pairing — the missing coil is money, and the wrong steel is steel. What he does not ask for, and what Ms. Dana specifically tells him not to ask for, is a discount on the four point eight. A discount would make it sellable, and that is precisely the problem."
+],
+gloss:[["tolerance","the allowed variation in a measurement"],
+       ["gauge","the tool used to measure thickness"],
+       ["batch number","the number identifying a production run"],
+       ["to reject","to refuse to accept"],
+       ["sellable","able to be sold"]],
+comp:[
+ {t:"mcq", q:"Which containers held the 4.8 mm coils?",
+  opts:["31 to 34","1 to 4","11 to 14","41 to 44"], a:0},
+ {t:"mcq", q:"Why is the driver’s view not stupid?",
+  opts:["Two tenths is four per cent and in many products would be inside tolerance",
+        "He is experienced","He is tired","Steel varies"], a:0},
+ {t:"mcq", q:"Why is 4.8 wrong here specifically?",
+  opts:["The builder's structure is designed on the assumption of five",
+        "It is thinner","It is cheaper","It is the wrong colour"], a:0},
+ {t:"mcq", q:"Why one photograph of three things rather than three photographs?",
+  opts:["Together they prove which coil, which container and what it measured",
+        "It is quicker","It is clearer","It is the rule"], a:0},
+ {t:"mcq", q:"Why does Ms. Dana refuse a discount on the 4.8?",
+  opts:["A discount would make it sellable, which is the problem",
+        "It is not enough money","Westgate would refuse","It is against policy"], a:0},
+ {t:"short", q:"Explain why rejected stock among good stock “is not rejected”.",
+  model:"Rejection is a decision that has to survive the people who were not there. Left in the same rows, the material is one busy afternoon away from being loaded by somebody who sees steel and a gap in a schedule — which is exactly what happens later in the year."}
+],
+words:[
+ {t:"gap", q:"Complete with relative clauses.",
+  bank:["which came out of","who wants to go home","who needs five","where rejected stock goes"],
+  gaps:[{before:"The coils ", after:" containers 31 to 34 measure 4.8.", a:["which came out of"]},
+        {before:" The driver, ", after:", says it is only two tenths.", a:["who wants to go home"]},
+        {before:" The customer ", after:" is a builder.", a:["who needs five"]},
+        {before:" They go in the corner ", after:".", a:["where rejected stock goes"]}]},
+ {t:"match", q:"Match the remedy to the problem.",
+  pairs:[["a credit note","the missing coil"],["a replacement","the 4.8 mm steel"],
+         ["a discount","what must not be asked for"],["a batch number","how to identify it later"]]},
+ {t:"mcq", q:"“A thing which has its own uses and is not this one” describes:",
+  opts:["4.8 mm steel","a damaged coil","a short container","rejected stock"], a:0}
+],
+post:[
+ {t:"write", q:"Write the goods-received entry for the off-specification steel.",
+  model:"GRN 2243, 27 March. Order PO-4417. Sampling: one coil measured from every fourth container, twelve measurements. Containers 31, 32, 33 and 34 measured 4.80 mm against a specified 5.00 mm; all other samples 5.00. Approximately 40 tonnes affected, batch numbers 44117–44120. One photograph per container showing gauge, coil and container number in a single frame. Material moved to the rejected bay, marked and recorded as not for sale. Remedy requested: replacement of the 40 tonnes to specification. No discount is to be requested or accepted on this material."},
+ {t:"short", q:"When would “only two tenths” be the right answer, and what makes the difference?",
+  model:"When the specification carries a stated tolerance that 4.8 falls inside, or when the end use is not dimensional — fencing wire rather than reinforcement. The difference is never the size of the variation; it is whether somebody downstream has calculated anything on the number."},
+ {t:"mcq", q:"What goes on the goods-received note so the steel can be found later?",
+  opts:["The batch numbers","The driver's name","The time","The price"], a:0}
+]
+});
