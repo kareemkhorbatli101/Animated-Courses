@@ -1,0 +1,199 @@
+/* IELTS Speaking Syria — the course's own stylesheet.
+ *
+ * It is NOT a copy of another course's: those are built for a lesson made of exercises, and this
+ * page is made of a stage, a transcript and a practice box. What it does keep from them is the
+ * palette and the type, so a learner moving between courses on this site is in the same building.
+ *
+ * BILINGUAL BY DEFAULT. The Arabic line under every English one is visible unless the learner turns
+ * it off, and it is typeset as Arabic rather than as English in an Arabic font: its own line height,
+ * its own direction, its own size. An Arabic line set at a Latin line height runs into the line
+ * above it, which this project measured once and does not need to measure again.
+ */
+:root {
+  --ink: #23201c;
+  --muted: #6b645c;
+  --paper: #fbf8f3;
+  --card: #ffffff;
+  --rule: #e2dbd0;
+  --accent: #8a5a00;
+  --accent-ink: #ffffff;
+  --good: #3a5e3a;
+  --bad: #963a2c;
+  --shadow: 0 1px 2px rgba(35, 32, 28, .06), 0 8px 24px rgba(35, 32, 28, .06);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #ece7df; --muted: #a79f94; --paper: #17150f; --card: #211e18; --rule: #35312a;
+    --accent: #e0a94a; --accent-ink: #1a1710; --good: #8fbd8f; --bad: #e08a78;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #ece7df; --muted: #a79f94; --paper: #17150f; --card: #211e18; --rule: #35312a;
+  --accent: #e0a94a; --accent-ink: #1a1710; --good: #8fbd8f; --bad: #e08a78;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.6 Georgia, "Times New Roman", serif;
+}
+main {
+  max-width: 54rem;
+  margin: 0 auto;
+  padding-block: 1.5rem 4rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+h1, h2, h4 { font-family: "Helvetica Neue", Arial, sans-serif; text-wrap: balance; }
+h1 { font-size: 1.7rem; margin: .2rem 0 1rem; }
+h2 { font-size: 1.15rem; margin: 2.2rem 0 .6rem; letter-spacing: .01em; }
+.eyebrow {
+  font: 600 .72rem/1.4 "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: .13em; text-transform: uppercase; color: var(--muted); margin: 0;
+}
+.lead { color: var(--muted); margin: .2rem 0 1rem; }
+.small { font-size: .85rem; color: var(--muted); }
+
+/* ---------------------------------------------------------------------------- the stage */
+.stagewrap { position: relative; }
+svg.stage {
+  display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 10px;
+  background: #cfc7b8; box-shadow: var(--shadow);
+}
+.subs { min-height: 4.2rem; padding: .55rem .2rem 0; text-align: center; }
+.subs .en { margin: 0; font-size: 1.02rem; }
+.subs .ar {
+  margin: .15rem 0 0; font-size: 1.08rem; line-height: 1.95;
+  font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", serif; color: var(--muted);
+}
+.no-ar .ar { display: none; }
+/* THE CUE CARD IS BESIDE THE STAGE, NOT OVER IT.
+ *
+ * The first version floated it over the picture, which is what a television graphic does, and in
+ * the candidate's single it covered her face completely - so the one shot whose entire job is to
+ * show the person speaking showed a card instead. A real cue card is in the candidate's hand and
+ * the examiner can still see her. This one sits under the stage, where it cannot occlude anybody
+ * at any width, and _tools/check_pages.py asserts that it never overlaps the stage's box. */
+.card {
+  margin: .6rem 0 0; background: var(--card); border: 1px solid var(--rule); border-left: 3px solid
+  var(--accent); border-radius: 0 9px 9px 0; padding: .8rem 1rem; box-shadow: var(--shadow);
+  font-size: .95rem;
+}
+.controls { display: flex; flex-wrap: wrap; gap: .5rem; margin: .4rem 0 0; }
+
+button {
+  font: 600 .88rem/1 "Helvetica Neue", Arial, sans-serif; border-radius: 7px; padding: .62rem .9rem;
+  border: 1px solid var(--rule); background: var(--card); color: var(--ink); cursor: pointer;
+}
+button:hover { border-color: var(--accent); }
+button:disabled { opacity: .5; cursor: default; border-color: var(--rule); }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button.tiny { padding: .35rem .55rem; font-size: .78rem; }
+button.live { border-color: var(--bad); color: var(--bad); }
+
+/* ------------------------------------------------------------------------- the transcript */
+ol.lines { list-style: none; margin: 0; padding: 0; }
+ol.lines li {
+  display: grid; grid-template-columns: 2.2rem 6.2rem 1fr; gap: .1rem .6rem;
+  padding: .45rem .4rem; border-bottom: 1px solid var(--rule); align-items: baseline;
+}
+ol.lines li.active { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.linebtn { grid-row: span 2; padding: .3rem .4rem; font-size: .8rem; }
+.who {
+  font: 600 .74rem/1.5 "Helvetica Neue", Arial, sans-serif; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--muted);
+}
+.who.examiner { color: var(--accent); }
+ol.lines .ar {
+  grid-column: 3; direction: rtl; text-align: right; line-height: 1.95; color: var(--muted);
+  font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", serif;
+}
+
+/* ---------------------------------------------------------------------- the practice boxes */
+.box {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+  padding: 1rem 1.1rem; margin: 0 0 1rem; box-shadow: var(--shadow);
+}
+.qnum {
+  font: 600 .7rem/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .25rem;
+}
+.box .q { margin: 0 0 .5rem; font-size: 1.05rem; }
+.box .cue { margin: 0 0 .7rem 1.1rem; color: var(--muted); }
+.box textarea {
+  width: 100%; min-width: 0; font: 1rem/1.6 Georgia, serif; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 7px; padding: .6rem .7rem;
+  resize: vertical;
+}
+.btn-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .6rem; }
+.model {
+  margin-top: .8rem; padding: .7rem .85rem; border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, transparent); border-radius: 0 7px 7px 0;
+}
+.model .label {
+  font: 600 .7rem/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .3rem;
+}
+.model p { margin: 0 0 .4rem; }
+.model .why { font-size: .9rem; color: var(--muted); }
+
+/* ------------------------------------------------------------------------- the tutor pop-up */
+dialog.tutorbox {
+  width: min(44rem, 94vw); border: 1px solid var(--rule); border-radius: 12px;
+  background: var(--card); color: var(--ink); padding: 1.1rem 1.2rem 1.4rem; box-shadow: var(--shadow);
+}
+dialog.tutorbox::backdrop { background: rgba(20, 18, 14, .55); }
+.xrow { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+dialog blockquote {
+  margin: .7rem 0 1rem; padding-left: .8rem; border-left: 3px solid var(--rule); color: var(--muted);
+}
+.tutor-head { display: flex; justify-content: space-between; align-items: center; gap: .8rem; }
+.tutor-note { font-size: .88rem; color: var(--muted); }
+.tutor-out { margin-top: .9rem; }
+.tutor-out h4 { margin: 1rem 0 .3rem; font-size: .95rem; }
+.tutor-out .band h4:first-child { margin-top: 0; }
+.tutor-out ol { padding-left: 1.2rem; }
+.tutor-honest {
+  margin-top: 1rem; padding: .7rem .85rem; font-size: .88rem; color: var(--muted);
+  border: 1px dashed var(--rule); border-radius: 7px;
+}
+.tutor-meta { margin-top: .5rem; }
+.bad { color: var(--bad); }
+
+@media (max-width: 34rem) {
+  ol.lines li { grid-template-columns: 2.2rem 1fr; }
+  .who { grid-column: 2; }
+  ol.lines .tx, ol.lines .ar { grid-column: 2; }
+}
+
+/* ---------------------------------------------------------------- moving between the parts */
+nav.partnav {
+  display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center;
+  max-width: 54rem; margin: 0 auto 3rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+nav.partnav a {
+  font: 600 .85rem/1 "Helvetica Neue", Arial, sans-serif; text-decoration: none; color: inherit;
+  border: 1px solid var(--rule); border-radius: 7px; padding: .6rem .9rem; background: var(--card);
+}
+nav.partnav a:hover { border-color: var(--accent); }
+nav.partnav a[aria-current="page"] {
+  background: var(--accent); color: var(--accent-ink); border-color: var(--accent);
+}
+
+/* ------------------------------------------------- the Part 2 cue card, on the stage */
+.card .label {
+  font: 600 .64rem/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .2rem;
+}
+.card .prompt { margin: 0 0 .6rem; font-size: 1rem; }
+.card ul { margin: .1rem 0 0 1rem; padding: 0; }
+.card li { margin: .1rem 0; }
