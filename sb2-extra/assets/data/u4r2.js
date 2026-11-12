@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u4r2", unit:4, kind:"reading", n:2,
+title:"Who is allowed to sign",
+strap:"Fifty thousand dollars, and the four days that nearly cost a firm price.",
+tags:["authority","arrangements","admin"],
+pre:[
+ {t:"mcq", q:"A signing threshold exists to:",
+  opts:["make large commitments a decision of more than one person",
+        "slow things down","protect the signer","satisfy the bank"], a:0},
+ {t:"match", q:"Match the amount to who signs.",
+  pairs:[["up to $50,000","Mr. Tarek alone"],["above $50,000","the board"],
+         ["$218,880 deposit","the board"],["a $400 courier","the department"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["She is signing it on Thursday morning.","She will signing it on Thursday morning.",
+        "She signs it on Thursday morning already.","She is going sign it on Thursday morning."], a:0}
+],
+paras:[
+ "Ms. Rania reads the file on Monday and does not sign it. “I am going to sign it,” she says, “but not today. I am seeing the auditors this afternoon, and I want to ask them one question about the currency.” Rami’s stomach turns over, because the price is firm only until the thirtieth of November and November has eleven days left in it.",
+ "His first instinct is to explain the deadline again, more urgently. He does not, and the reason he gives himself afterwards is that she has already read it: the validity is on the second page of the offer, which is in the file, which she has in front of her. Repeating a fact to somebody who has read it is not persuasion. It is pressure, and pressure applied to a board member is the most expensive mistake a junior manager can make twice.",
+ "What he does instead takes four minutes. He asks what the question for the auditors is. It is whether a dollar commitment of this size needs disclosing in the half-year accounts in a particular way. He then writes two lines and leaves them on her desk: the price holds until 30 November; if we sign on Thursday we are inside it by eight days. No argument, no urgency, just the two facts placed where she will see them beside the auditors’ answer.",
+ "She signs on Thursday morning. The four days cost nothing at all, and Rami learns the thing that the four days were actually teaching: a delay that has a reason is not the same object as a delay. The first can be planned around; the second has to be fought. Almost all of his anxiety on Monday was about a delay of the second kind which did not exist.",
+ "What the signing threshold is for becomes visible in the same week. Fifty thousand dollars is not a magic number; it is roughly the largest sum the Group can lose without the loss changing anything it does. Below it, speed is worth more than scrutiny. Above it, the arithmetic reverses, and one more pair of eyes is cheaper than the mistake they might catch.",
+ "Karim adds the line that goes into the procedure afterwards. The threshold is not about trust. If it were about trust, it would name people rather than amounts. It is about consequence — and the only thing the number measures is how much the company can afford to be wrong about on one person’s afternoon."
+],
+gloss:[["threshold","the amount above which a different rule applies"],
+       ["to disclose","to state publicly in accounts"],
+       ["scrutiny","careful examination"],
+       ["anxiety","worry"],
+       ["consequence","what follows from something"]],
+comp:[
+ {t:"mcq", q:"Why does Ms. Rania not sign on Monday?",
+  opts:["She wants to ask the auditors a question about the currency",
+        "She disagrees with the price","She has not read it","She is away"], a:0},
+ {t:"mcq", q:"Why does Rami not repeat the deadline?",
+  opts:["She has already read it, so repeating it is pressure, not persuasion",
+        "He forgot","It is not important","It would be rude"], a:0},
+ {t:"mcq", q:"What does he do instead?",
+  opts:["Leaves two factual lines on her desk",
+        "Telephones Mr. Tarek","Asks Westgate for an extension","Waits"], a:0},
+ {t:"mcq", q:"What is the difference he learns?",
+  opts:["A delay with a reason can be planned around; one without must be fought",
+        "Boards are slow","Deadlines are flexible","Auditors matter"], a:0},
+ {t:"mcq", q:"What does the $50,000 threshold measure?",
+  opts:["How much the company can afford to be wrong about on one person’s afternoon",
+        "Trust in individuals","The size of orders","The bank's limit"], a:0},
+ {t:"short", q:"Explain why a threshold naming amounts is different from one naming people.",
+  model:"Naming people makes it a judgement about character, which is insulting to the competent and useless against the unlucky. Naming amounts makes it a judgement about consequence: the same person signs alone for small sums and brings a second pair of eyes for large ones, because that is what the risk deserves."}
+],
+words:[
+ {t:"gap", q:"Complete with going to, will or the present continuous.",
+  bank:["am going to sign","am seeing","will hold","is signing"],
+  gaps:[{before:"I ", after:" it, but not today.", a:["am going to sign"]},
+        {before:" I ", after:" the auditors this afternoon.", a:["am seeing"]},
+        {before:" The price ", after:" until 30 November.", a:["will hold"]},
+        {before:" She ", after:" on Thursday morning.", a:["is signing"]}]},
+ {t:"match", q:"Match the action to its effect on a board member.",
+  pairs:[["repeating a known deadline","pressure"],
+         ["two written facts on the desk","information"],
+         ["asking what their question is","respect"],
+         ["escalating to the manager","damage"]]},
+ {t:"mcq", q:"“Below it, speed is worth more than scrutiny” means:",
+  opts:["small decisions cost more in delay than in error",
+        "small decisions are unimportant","speed is always better","scrutiny is expensive"], a:0}
+],
+post:[
+ {t:"write", q:"Write the two lines you would leave on a decision-maker’s desk instead of chasing them.",
+  model:"The supplier's price is firm until 30 November; a signature on Thursday leaves us eight days inside it. If Thursday is not possible, tell me and I will ask Westgate for an extension to the 7th — they have given one before, and it costs us nothing to ask."},
+ {t:"short", q:"Rami calls pressure on a board member “the most expensive mistake a junior manager can make twice”. Why twice?",
+  model:"Once is forgivable and is read as keenness. Repeated, it tells the board member that this person's deadlines are always emergencies, and from then on their urgency is discounted — including on the day it is real."},
+ {t:"mcq", q:"How many days inside the validity was the Thursday signature?",
+  opts:["Eight","Four","Eleven","Two"], a:0}
+]
+});
