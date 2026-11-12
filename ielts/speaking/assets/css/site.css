@@ -197,3 +197,32 @@ nav.partnav a[aria-current="page"] {
 .card .prompt { margin: 0 0 .6rem; font-size: 1rem; }
 .card ul { margin: .1rem 0 0 1rem; padding: 0; }
 .card li { margin: .1rem 0; }
+
+/* ------------------------------------------------------------------- the marking write-up */
+.overall { margin: .2rem 0 0; color: var(--muted); }
+.overall b { color: var(--accent); font-size: 1.25rem; }
+.crits { display: grid; gap: 1rem; }
+@media (min-width: 48rem) { .crits { grid-template-columns: 1fr 1fr; } }
+.crit {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+  padding: 1rem 1.1rem; box-shadow: var(--shadow); position: relative; min-width: 0;
+}
+.crit.active, .liftbox.active, .lesson-head.active {
+  box-shadow: var(--shadow), 0 0 0 2px var(--accent);
+  border-radius: 10px;
+}
+.bandnum {
+  position: absolute; top: .8rem; right: 1.1rem; margin: 0;
+  font: 700 1.5rem/1 "Helvetica Neue", Arial, sans-serif; color: var(--accent);
+}
+.crit .cue { margin: .2rem 0 .7rem 1.1rem; color: var(--muted); font-size: .92rem; }
+.critcomment { margin: 0; }
+.liftbox {
+  margin-top: 2rem; padding: 1rem 1.1rem; background: var(--card);
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0; box-shadow: var(--shadow);
+}
+.liftbox h2 { margin-top: 0; }
+.disclaimer {
+  margin-top: 1.4rem; padding: .7rem .85rem; border: 1px dashed var(--rule); border-radius: 7px;
+}

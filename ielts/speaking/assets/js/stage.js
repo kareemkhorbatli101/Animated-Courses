@@ -178,7 +178,13 @@
          answer a cue card that was not on the screen. Every path that speaks a line goes through
          here, so this is where the card is decided. */
       if (l.card) { api.showCard(l.card); } else { api.hideCard(); }
-      cut(l.who === 'examiner' ? 'examiner' : 'candidate', 260);
+      /* A LINE MAY NAME ITS OWN FRAMING, and almost none do. In a lesson the camera is a pure
+         function of who is speaking - that is the owner's instruction, "always cut to the
+         speaker", and the fault it fixes. The marking page is the exception that proves it:
+         there, one voice reports on a performance that has finished, so every block asks to hold
+         the two-shot. Cutting to a single on somebody who is not speaking is the same fault
+         pointing the other way. */
+      cut(l.cam || (l.who === 'examiner' ? 'examiner' : 'candidate'), 260);
       subtitle(l);
       talk(l.who);
       var fin = function () { stopLip(); done(); };
@@ -230,7 +236,11 @@
       /** play one line on its own, which is what the ▶ beside a transcript line does */
       playLine: function (l, done) {
         api.stop(); api.playing = true;
-        one(l, function () { api.playing = false; cut('two', 320); if (done) done(); });
+        one(l, function () {
+          api.playing = false;
+          if (!l.cam) cut('two', 320);          /* a line that chose its framing keeps it */
+          if (done) done();
+        });
       }
     };
     return api;
