@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u8r1", unit:8, kind:"reading", n:1,
+title:"The aged debt list",
+strap:"One page every Monday, and the line Huda has been expecting.",
+tags:["should / could","credit","finance"],
+pre:[
+ {t:"mcq", q:"An aged debt list shows:",
+  opts:["who owes money and for how long","total sales",
+        "the bank balance","stock value"], a:0},
+ {t:"match", q:"Match the age to what it usually means.",
+  pairs:[["0-30 days","normal"],["30-60 days","worth a note"],
+         ["60-90 days","somebody must telephone"],["over 90 days","a decision, not a reminder"]]},
+ {t:"mcq", q:"Which is correct?",
+  opts:["You should telephone him today.","You should to telephone him today.",
+        "You should telephoning him today.","You shall telephone him today."], a:0}
+],
+paras:[
+ "Huda prints the aged debt list every Monday. It is one page, it is sorted by how long money has been owed rather than by how much, and it tells her who owes what and for how long. She has printed it for three years and the sorting is the whole design: a hundred thousand dollars that is twenty days old is normal, and eight thousand that is ninety days old is a problem.",
+ "This Monday there is a line she has been expecting. Maham Co., two hundred tonnes, sixty days — and the sixty days ended last Thursday. Expecting it does not make it easier, because Maham is a company inside the Group, which makes the conversation easier and harder at the same time.",
+ "Easier, because nobody is going to disappear. The money is not at risk in the way an unknown customer’s money is at risk; Maham is owned by the same family and audited by the same auditors. Harder, because it is uncomfortable to telephone a colleague about money, and because the usual tools — a firmer letter, a credit hold, a mention of the contract — all feel absurd when the debtor is somebody you will see at the annual review.",
+ "What makes it manageable is that Huda treats the list the same way regardless of the name. Every line over sixty days gets a telephone call in the same week, and the call has the same shape: here is the invoice, here is the date it was due, is there anything stopping it, and when should I expect it. She has never once started a call by apologising for making it, and she says that the day she does, the list will stop working.",
+ "The second Monday rule is that a promise goes on the list beside the amount. Not “chasing” and not “he says soon” — the date he gave and the name of the person who gave it. A line that says four thousand, ninety days, Eng. Bilal, promised the fourteenth is a line somebody can act on. A line that says four thousand, ninety days, chasing is a line that has been chased for a month and will be chased for another.",
+ "Karim reads the list on Tuesdays and looks at exactly one thing, which is not the total. He counts the lines that are older this week than they were last week and have no new date against them. That number, he says, is the only honest measure of whether anybody is actually collecting."
+],
+gloss:[["aged debt","money owed, sorted by how long it has been owed"],
+       ["credit hold","refusing to supply until payment is made"],
+       ["debtor","somebody who owes money"],
+       ["to chase","to keep asking for payment"],
+       ["manageable","possible to handle"]],
+comp:[
+ {t:"mcq", q:"Why is the list sorted by age rather than amount?",
+  opts:["A large new debt is normal and a small old one is a problem",
+        "It is easier","It is traditional","The computer does it"], a:0},
+ {t:"mcq", q:"Why is a debt inside the Group both easier and harder?",
+  opts:["Nobody will disappear, but the usual tools feel absurd with a colleague",
+        "It is larger","It is older","It is not audited"], a:0},
+ {t:"multi", q:"What are the four parts of Huda’s call? (Four answers.)",
+  opts:["the invoice","the date it was due","is anything stopping it",
+        "when to expect it","an apology"], a:[0,1,2,3]},
+ {t:"mcq", q:"What must go on the list beside the amount?",
+  opts:["The date promised and who promised it","The word chasing",
+        "The customer's excuse","The salesman's name"], a:0},
+ {t:"mcq", q:"What does Karim count on Tuesdays?",
+  opts:["Lines that are older than last week with no new date against them",
+        "The total","The oldest line","New debts"], a:0},
+ {t:"short", q:"Explain why apologising for the call would stop the list working.",
+  model:"An apology concedes that asking for money owed is an imposition, which invites the debtor to treat payment as a favour. Once that is established with one customer it spreads, and the weekly call becomes something both sides are embarrassed by rather than a routine."}
+],
+words:[
+ {t:"gap", q:"Complete with should, could, may or might.",
+  bank:["should","could","may","might"],
+  gaps:[{before:"You ", after:" telephone him this week.", a:["should"]},
+        {before:" He ", after:" pay half now and half in June.", a:["could"]},
+        {before:" They ", after:" see it as a late payment.", a:["may"]},
+        {before:" If we hold the money, we ", after:" be the ones in the wrong.", a:["might"]}]},
+ {t:"match", q:"Match the list entry to its quality.",
+  pairs:[["$4,000, 90 days, chasing","useless"],
+         ["$4,000, 90 days, Bilal, promised the 14th","actionable"],
+         ["$100,000, 20 days","normal"],
+         ["$8,000, 90 days","a problem"]]},
+ {t:"mcq", q:"“The only honest measure of whether anybody is collecting” is:",
+  opts:["lines getting older with no new date","the total owed",
+        "the oldest debt","the number of calls"], a:0}
+],
+post:[
+ {t:"write", q:"Write the four lines of the call Huda makes on every debt over sixty days.",
+  model:"Invoice 7702, four thousand two hundred dollars, which fell due on the fourteenth of April. We have not matched a payment against it. Is there anything on our side holding it up — a missing document, a disputed figure, an approval we have not supplied? If not, which date should I expect it on, so that I can write that date against the line rather than the word chasing? And if that date changes, I would rather hear it from you on the day than find out the following Monday."},
+ {t:"short", q:"Why is “chasing” the most dangerous word on a debt list?",
+  model:"It looks like activity and contains no information. A line marked chasing can stay unchanged for months while everybody believes it is being handled, because nothing in the word reveals whether anybody has spoken to anyone or what was said."},
+ {t:"mcq", q:"How long has Huda printed the list?",
+  opts:["Three years","One year","Six months","Ten years"], a:0}
+]
+});
