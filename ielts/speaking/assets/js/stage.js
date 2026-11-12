@@ -245,6 +245,17 @@
       var pairs = visualsFor(idx == null ? lineNo : idx);
       if (pairs && pairs.length && pairs[0][1]) showDrawing(pairs[0][1]);
       var info = IELTS.clipInfo ? IELTS.clipInfo(l.text, l.voice) : null;
+      /* WITHOUT MEASUREMENTS THERE IS NO "WHEN", SO SHOW THE PICTURE AT ALL. A line whose first
+         sentence names nothing and whose second names a chair gets its chair from the tick below,
+         which runs only while a recording is playing. Where there is no recording - the device
+         voice, or a browser that refuses to autoplay - that tick never runs and the line passes
+         with no picture at all. Early is better than never; the measured path keeps its timing. */
+      var showAnyway = function () {
+        for (var z = 0; pairs && z < pairs.length; z++) {
+          if (pairs[z][1]) { showDrawing(pairs[z][1]); return; }
+        }
+      };
+      if (!info) showAnyway();
       var fin = function (ms) { stopLip(); markWord(-1); done(ms); };
 
       if (l.clip) {
@@ -273,6 +284,7 @@
         audioEl.onended = finish;
         audioEl.onerror = function () {
           fellBack.push(l.text);
+          showAnyway();
           cancel = deviceSay(l.text, l.sex, function () { fin(0); });
         };
         /* THE MOUTH AND THE SUBTITLE FOLLOW THE SOUND, not a timer. The envelope and the word
@@ -310,7 +322,11 @@
           talk(l.who);
         }
         audioEl.play().catch(function () {
+          /* A BROWSER THAT REFUSES TO AUTOPLAY ends up here too, not only a missing file - and
+             in that case the clock never advances, so the pictures that were waiting for their
+             sentence would wait for ever. */
           fellBack.push(l.text);
+          showAnyway();
           cancel = deviceSay(l.text, l.sex, function () { fin(0); });
         });
         cancel = function () {
