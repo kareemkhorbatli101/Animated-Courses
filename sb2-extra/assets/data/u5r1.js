@@ -1,0 +1,73 @@
+AHL.lesson({
+id:"u5r1", unit:5, kind:"reading", n:1,
+title:"Five stages, four handovers",
+strap:"The goods are handed over four times, and every handover is where things are lost.",
+tags:["the passive","logistics","process"],
+pre:[
+ {t:"order", q:"Put the five stages in order.",
+  items:["loaded at the mill","carried by sea","discharged at the port",
+         "cleared through customs","delivered to the depot"]},
+ {t:"mcq", q:"The passive is used to describe a process because:",
+  opts:["the action matters more than who does it",
+        "it is more formal","it is shorter","it hides responsibility"], a:0},
+ {t:"mcq", q:"Which is correct?",
+  opts:["The steel is loaded at the mill.","The steel is load at the mill.",
+        "The steel loads at the mill by workers.","The steel is loading at the mill by workers."], a:0}
+],
+paras:[
+ "Mr. Samir draws the journey as five stages and four handovers, and he says the stages are where the time goes and the handovers are where the trouble is. The steel is loaded at the mill. It is carried by sea. It is discharged at Lattakia. It is cleared through customs. It is delivered to the depot outside Damascus.",
+ "The passive is not an accident of style. At each stage the thing that matters is what happens to the goods, not who does it, because who does it changes four times and the cargo does not. The goods are loaded by the mill, carried by the line, discharged by the terminal, cleared by Komosh and carried again by Komosh’s trucks. Five different sets of hands, one consignment.",
+ "A handover is a moment when responsibility moves, and responsibility moves on a document rather than on a quay. The bill of lading moves it from the mill to the shipping line. The delivery order and the discharge list move it from the line to the terminal. The customs release moves it out of the state’s control. The signed delivery note at the depot moves it to Ms. Dana.",
+ "What is lost at a handover is almost never the steel. What is lost is information: a note about a damaged coil that was made at the mill and not carried onto the bill of lading; a container number recorded at the terminal and not matched to the packing list; a quantity counted on discharge that nobody compared with the quantity loaded. The cargo arrives and the knowledge about it does not.",
+ "This is why Mr. Samir’s own rule is about reading rather than moving. He reads the four documents six days before the ship arrives, in the order a customs officer will read them, and he reads them against each other rather than one at a time. A document is only true in relation to the others, and three correct documents and one that disagrees is not three out of four — it is a consignment that will be held.",
+ "Yara asked him once why he does not simply trust the supplier, who has never been wrong. His answer is the sentence she now repeats to new people. Nothing in this chain is checked by the person who will suffer if it is wrong, except here. Every other check is made by somebody whose week ends whether or not our steel gets in."
+],
+gloss:[["handover","the moment responsibility passes to somebody else"],
+       ["to discharge","to unload a ship"],
+       ["terminal","the part of a port where containers are handled"],
+       ["release","the permission that lets goods leave customs"],
+       ["consignment","the goods sent together as one load"]],
+comp:[
+ {t:"order", q:"Put the four handovers in order.",
+  items:["mill to shipping line","line to terminal",
+         "customs release","terminal to the depot"]},
+ {t:"mcq", q:"Why is the passive the natural form here?",
+  opts:["Who does it changes four times; what happens to the goods does not",
+        "It is formal","It hides blame","It is shorter"], a:0},
+ {t:"mcq", q:"What actually moves responsibility?",
+  opts:["A document, not a physical moment on a quay","The ship",
+        "The truck","The payment"], a:0},
+ {t:"mcq", q:"What is usually lost at a handover?",
+  opts:["Information about the goods, not the goods","Containers",
+        "Time only","Money"], a:0},
+ {t:"mcq", q:"How does Mr. Samir read the four documents?",
+  opts:["Against each other, in the order a customs officer will read them",
+        "One at a time","On arrival","After clearance"], a:0},
+ {t:"short", q:"Explain his answer about trusting the supplier.",
+  model:"Trust is not the issue; incentive is. Everybody else in the chain is paid for moving the cargo and loses nothing if it is held, so only Komosh and Al-Hasan have a reason to catch a mismatch — which means the check has to happen here or nowhere."}
+],
+words:[
+ {t:"gap", q:"Complete with the passive.",
+  bank:["is loaded","is carried","is discharged","is cleared"],
+  gaps:[{before:"The steel ", after:" at the mill.", a:["is loaded"]},
+        {before:" It ", after:" by sea.", a:["is carried"]},
+        {before:" It ", after:" at Lattakia.", a:["is discharged"]},
+        {before:" It ", after:" through customs.", a:["is cleared"]}]},
+ {t:"match", q:"Match the document to the handover it carries.",
+  pairs:[["bill of lading","mill to shipping line"],
+         ["discharge list","line to terminal"],
+         ["customs release","out of state control"],
+         ["signed delivery note","terminal to the depot"]]},
+ {t:"mcq", q:"“Three correct documents and one that disagrees” is:",
+  opts:["a consignment that will be held","three out of four",
+        "a minor problem","normal"], a:0}
+],
+post:[
+ {t:"write", q:"Describe a process you know in five passive stages.",
+  model:"The timber is cut and graded at the mill. It is loaded onto a flat-bed and carried to the port. It is stuffed into containers and shipped. On arrival it is discharged, inspected and cleared. It is then delivered to our yard, where it is counted, measured and booked into stock. Four handovers, and at each one the only thing that travels less reliably than the timber is what anybody has written about it."},
+ {t:"short", q:"Which of the four handovers would you worry about most, and why?",
+  model:"The first, because everything afterwards is copied from it. A damaged coil noted at the mill but left off the bill of lading cannot be proved at any later stage, so an error there is invisible until it is also unprovable."},
+ {t:"mcq", q:"How many days before arrival does Mr. Samir read the documents?",
+  opts:["Six","One","Two","On the day"], a:0}
+]
+});
