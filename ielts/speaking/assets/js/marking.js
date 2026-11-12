@@ -32,9 +32,10 @@
   /* A band is a number with a half in it, and it should look like one. 7 is not a band; 7.0 is. */
   function band(n) { return Number(n).toFixed(1); }
 
-  IELTS.markingPage = function (host) {
+  IELTS.markingPage = function (host, o) {
     if (!DATA) throw new Error('marking: no data loaded');
     var M = DATA;
+    o = o || {};
     var crit = M.criteria.map(function (c) {
       return '<article class="crit" data-crit="' + esc(c.key) + '">' +
         '<p class="qnum">' + esc(c.label) + '</p>' +
@@ -52,11 +53,7 @@
       '<p class="overall">Overall <b>' + band(M.overall) + '</b></p>' +
       '</header>' +
       '<section class="theatre"><div class="stagehost"></div>' +
-      '<div class="controls">' +
-      '<button type="button" class="primary" data-all>▶ Read it to me</button>' +
-      '<button type="button" class="ghost" data-stop>■ Stop</button>' +
-      '<button type="button" class="ghost" data-ar aria-pressed="true">عربي</button>' +
-      '</div></section>' +
+      '<div class="tphost"></div></section>' +
       '<section class="marks"><h2>The four criteria</h2><div class="crits">' + crit + '</div>' +
       '</section>' +
       '<section class="liftbox"><h2>The one change</h2><p>' + esc(M.lift) + '</p></section>' +
@@ -65,8 +62,8 @@
       'from a machine. Where you disagree, look at the evidence under the band and decide which of ' +
       'you is reading the transcript more carefully.</p>';
 
-    var stage = IELTS.stage(host.querySelector('.stagehost'), { candidate: M.candidate });
-    var showAr = true;
+    var stage = IELTS.stage(host.querySelector('.stagehost'),
+                            { candidate: M.candidate, page: o.page || null });
 
     /* The narration follows the page: as a block is spoken, its section is marked, so a reader
        listening with the text in front of them knows which paragraph the voice is in. */
@@ -81,23 +78,21 @@
       if (n) { n.classList.add('active'); n.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
     }
 
-    host.querySelector('[data-all]').onclick = function () {
-      var i = 0;
-      var script = M.script.map(function (b) { return b; });
-      stage.cut('two', 0);
-      (function step() {
-        if (i >= script.length) { mark(null); return; }
-        var b = script[i++];
-        mark(b.id);
-        stage.playLine(b, function () { setTimeout(step, 260); });
-      })();
+    /* THE SAME TRANSPORT AS THE LESSON PAGES, and the marking page is the one that most needs the
+       speed control: it is a single voice reading a judgement, and 0.75× is how a learner at band 6
+       gets through a paragraph about their own grammatical range. The step-through is the
+       transport's, so the section highlight hangs off stage.onLine rather than a private loop. */
+    var baseOnLine = stage.onLine;
+    stage.onLine = function (i) {
+      baseOnLine(i);
+      mark(M.script[i] && M.script[i].id);
     };
-    host.querySelector('[data-stop]').onclick = function () { stage.stop(); mark(null); };
-    host.querySelector('[data-ar]').onclick = function (e) {
-      showAr = !showAr;
-      e.target.setAttribute('aria-pressed', showAr ? 'true' : 'false');
-      host.classList.toggle('no-ar', !showAr);
+    var baseSubs = stage.applySubPrefs;
+    stage.applySubPrefs = function () {
+      baseSubs();
+      host.classList.toggle('no-ar', !(IELTS.prefs && IELTS.prefs.subAr));
     };
-    return { stage: stage, data: M };
+    var tp = IELTS.transport(host.querySelector('.tphost'), stage, M.script, { root: host });
+    return { stage: stage, data: M, transport: tp };
   };
 }(window));

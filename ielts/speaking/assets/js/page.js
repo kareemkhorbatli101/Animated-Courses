@@ -39,35 +39,32 @@
     return e;
   }
 
-  IELTS.page = function (host) {
+  IELTS.page = function (host, o) {
     if (!DATA) throw new Error('page: no lesson data loaded');
     var L = DATA;
+    o = o || {};
     host.innerHTML =
       '<header class="lesson-head">' +
       '<p class="eyebrow">IELTS Speaking · Test ' + L.test + '</p>' +
       '<h1>' + esc(L.title) + '</h1>' +
       '</header>' +
       '<section class="theatre"><div class="stagehost"></div>' +
-      '<div class="controls">' +
-      '<button type="button" class="primary" data-all>▶ Play the whole part</button>' +
-      '<button type="button" class="ghost" data-stop>■ Stop</button>' +
-      '<button type="button" class="ghost" data-ar aria-pressed="true">عربي</button>' +
-      '</div></section>' +
+      '<div class="tphost"></div></section>' +
       '<section class="script"><h2>What was said</h2><ol class="lines"></ol></section>' +
       '<section class="practice"><h2>Your turn</h2>' +
       '<p class="lead">Answer each question yourself — type it, or press the microphone and say ' +
       'it. Then have it marked against the IELTS criteria.</p>' +
       '<div class="boxes"></div></section>';
 
-    var stage = IELTS.stage(host.querySelector('.stagehost'), { candidate: L.candidate });
+    var stage = IELTS.stage(host.querySelector('.stagehost'),
+                            { candidate: L.candidate, page: o.page || null });
     var lines = host.querySelector('.lines');
-    var showAr = true;
 
     L.script.forEach(function (l, i) {
       var li = el('li', 'line');
       li.innerHTML =
         '<button type="button" class="linebtn" data-play="' + i + '" ' +
-        'aria-label="Play line ' + (i + 1) + '">▶</button>' +
+        'aria-label="Play from line ' + (i + 1) + '">▶</button>' +
         '<span class="who ' + l.who + '">' + (l.who === 'examiner' ? 'Examiner' : 'Candidate') +
         '</span><span class="tx">' + esc(l.text) + '</span>' +
         '<span class="ar" dir="rtl" lang="ar">' + esc(l.ar || '') + '</span>';
@@ -80,27 +77,32 @@
       });
     }
 
-    host.querySelector('[data-all]').onclick = function () {
-      var i = 0;
-      stage.play(L.script.map(function (l) { return l; }), { onend: function () { mark(-1); } });
-      /* the transcript follows the stage: one timer, not a second clock that can drift */
-      var tick = setInterval(function () {
-        if (!stage.playing) { clearInterval(tick); mark(-1); return; }
-      }, 200);
-      mark(i);
+    /* ---------------------------------------------------------------- the transport
+     *
+     * THE THREE BUTTONS THAT USED TO BE HERE are gone, and every one of them is still on the page:
+     * "Play the whole part" is ▶, "Stop" is the same button pressed again, and عربي is one of the
+     * two subtitle switches. What replaced them is the cybersecurity course's transport - play,
+     * replay, the line before, the line after, loop one line, close up, your turn, three speeds,
+     * two subtitle switches, a scrub with a tick per line and a transcript toggle - because the
+     * owner asked for that player, and because a speaking course needs the repeat controls more
+     * than the course it was built for does.
+     *
+     * TWO WRAPPERS, NOT TWO COPIES OF THE STATE. The transport calls stage.onLine and
+     * stage.applySubPrefs; the transcript highlight and the transcript's own Arabic column hang off
+     * those same two calls rather than off a second listener that can disagree with them. */
+    var baseOnLine = stage.onLine;
+    stage.onLine = function (i) { baseOnLine(i); mark(i); };
+    var baseSubs = stage.applySubPrefs;
+    stage.applySubPrefs = function () {
+      baseSubs();
+      host.classList.toggle('no-ar', !(IELTS.prefs && IELTS.prefs.subAr));
     };
-    host.querySelector('[data-stop]').onclick = function () { stage.stop(); mark(-1); };
-    host.querySelector('[data-ar]').onclick = function (e) {
-      showAr = !showAr;
-      e.target.setAttribute('aria-pressed', showAr ? 'true' : 'false');
-      host.classList.toggle('no-ar', !showAr);
-    };
+    var tp = IELTS.transport(host.querySelector('.tphost'), stage, L.script, { root: host });
+
     lines.addEventListener('click', function (ev) {
       var b = ev.target.closest('[data-play]');
       if (!b) return;
-      var i = Number(b.dataset.play);
-      mark(i);
-      stage.playLine(L.script[i], function () { mark(-1); });
+      tp.go(Number(b.dataset.play));       /* the transcript and the transport are the same cursor */
     });
 
     /* ------------------------------------------------------------------ the practice boxes */
@@ -167,19 +169,23 @@
         };
       }
 
-      /* ONE DIALOG PER QUESTION. Built on demand and kept, so re-opening it keeps the last
-         marking - a learner comparing a second attempt with the first is the normal case. */
-      var dlg = null;
+      /* ONE DIALOG PER QUESTION, AND IT IS BUILT FRESH EVERY TIME IT OPENS.
+       *
+       * The owner was specific: a new pop-up, or the same pop-up opened again, starts a new
+       * conversation. The first version built the dialog once and kept it, reasoning that a
+       * learner comparing a second attempt with the first would want the old marking. That
+       * reasoning was mine, not his, and it also quietly kept the whole chat thread alive - so
+       * question nine of an eight-question limit arrived in a conversation the learner thought
+       * they had closed. Rebuilding is one line and it is what was asked for. */
       art.querySelector('[data-mark]').onclick = function () {
-        if (!dlg) {
-          dlg = el('dialog', 'tutorbox');
-          dlg.innerHTML =
-            '<form method="dialog" class="xrow"><strong>Question ' + (i + 1) + '</strong>' +
-            '<button class="ghost tiny" value="close">Close</button></form>' +
-            '<blockquote>' + esc(b.q) + '</blockquote><div class="mount"></div>';
-          document.body.appendChild(dlg);
-          IELTS.tutor.mount(dlg.querySelector('.mount'), b);
-        }
+        var dlg = el('dialog', 'tutorbox');
+        dlg.innerHTML =
+          '<form method="dialog" class="xrow"><strong>Question ' + (i + 1) + '</strong>' +
+          '<button class="ghost tiny" value="close">Close</button></form>' +
+          '<blockquote>' + esc(b.q) + '</blockquote><div class="mount"></div>';
+        document.body.appendChild(dlg);
+        IELTS.tutor.mount(dlg.querySelector('.mount'), b);
+        dlg.addEventListener('close', function () { dlg.remove(); });
         dlg.showModal();
       };
     });

@@ -144,8 +144,25 @@
     var started = now();
     var model = req.model || this._model;
 
+    /* A CONVERSATION, OR A SINGLE QUESTION.
+     *
+     * THE ONE INTENTIONAL DIFFERENCE between this file and the accounting course's copy it came
+     * from, recorded as such in the drift list gate G1 checks. With `turns` absent this builds
+     * exactly what the ancestor builds - one user turn - so every existing caller behaves
+     * identically and the difference is additive in the strict sense.
+     *
+     * WHY IT IS NEEDED. The IELTS tutor lets a learner ask follow-up questions about the marking
+     * they were just given. Flattening the whole exchange into one long prompt would work, would
+     * waste the tokens the learner is paying for, and would throw away the role structure the
+     * model uses to tell its own previous words from theirs. */
+    var contents = (req.turns && req.turns.length)
+      ? req.turns.map(function (t) {
+          return { role: (t.role === 'model' ? 'model' : 'user'), parts: [{ text: t.text }] };
+        })
+      : [{ role: 'user', parts: [{ text: req.prompt }] }];
+
     var body = {
-      contents: [{ role: 'user', parts: [{ text: req.prompt }] }],
+      contents: contents,
       generationConfig: {
         temperature: req.temperature == null ? 0.2 : req.temperature,
         maxOutputTokens: req.maxTokens || 700
@@ -216,7 +233,7 @@
         var name = attempts[i];
         tried.push(name);
         return self.ask({
-          model: name, system: req.system, prompt: req.prompt,
+          model: name, system: req.system, prompt: req.prompt, turns: req.turns,
           maxTokens: req.maxTokens, temperature: req.temperature, onToken: req.onToken
         }).then(function (res) {
           res.tried = tried;

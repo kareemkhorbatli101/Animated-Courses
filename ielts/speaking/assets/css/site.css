@@ -88,6 +88,115 @@ svg.stage {
 }
 .controls { display: flex; flex-wrap: wrap; gap: .5rem; margin: .4rem 0 0; }
 
+/* ------------------------------------------------------- the visual rail, BESIDE the stage
+ *
+ * THE SAME RULE AS THE CUE CARD, for the same reason. A picture of the thing being talked about is
+ * worth having and is worth NOTHING if it sits on top of the face of the person talking - and the
+ * one shot whose whole job is the face is the one a picture would cover. So the rail is a column
+ * next to the stage on a wide screen and a strip under it on a phone, and _tools/check_pages.py
+ * asserts the two boxes never intersect.
+ *
+ * IT FADES, IT DOES NOT CUT. A picture that appears instantly on a word reads as a flash; 220 ms
+ * reads as somebody turning a page. */
+.stagewrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 11rem;
+  grid-template-areas: "stage rail" "turn turn" "subs subs" "card card";
+  gap: .7rem;
+  align-items: start;
+}
+.stagewrap > svg.stage { grid-area: stage; }
+.rail { grid-area: rail; }
+.yourturn { grid-area: turn; }
+.subs { grid-area: subs; }
+.card { grid-area: card; }
+.rail {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+  padding: .5rem .5rem .35rem; box-shadow: var(--shadow); min-width: 0;
+}
+.railbox {
+  aspect-ratio: 4 / 3; border-radius: 7px; overflow: hidden; background: var(--paper);
+  opacity: 0;
+}
+.railbox.in { animation: railin .22s ease-out forwards; }
+@keyframes railin { from { opacity: 0; transform: scale(.97); } to { opacity: 1; transform: none; } }
+.railbox svg { display: block; width: 100%; height: 100%; }
+.railcap {
+  margin: .35rem 0 0; text-align: center;
+  font: 600 .72rem/1.3 "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: .07em; text-transform: uppercase; color: var(--muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .railbox.in { animation: none; opacity: 1; }
+}
+@media (max-width: 40rem) {
+  .stagewrap {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "stage" "rail" "turn" "subs" "card";
+  }
+  .rail { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); align-items: center; gap: .6rem; }
+  .railcap { text-align: left; margin: 0; }
+}
+/* `hidden` must still win. A class that sets `display` outranks the UA's [hidden] rule, which is
+   how an element the script has hidden stays on the screen - silently, and only at one width. */
+.rail[hidden], .yourturn[hidden] { display: none; }
+
+/* SHADOW MODE'S PROMPT. It is a line of text and not a countdown ring: a learner repeating a
+   sentence should be looking at the two people, not at a timer. */
+.yourturn {
+  margin: 0; text-align: center;
+  font: 600 .8rem/1 "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: .09em; text-transform: uppercase;
+  color: var(--accent-ink); background: var(--accent);
+  border-radius: 999px; padding: .5rem .9rem; justify-self: center;
+}
+
+/* THE WORD BEING SPOKEN. The whole line stays readable - this lifts one word rather than dimming
+   the rest, because a learner reading ahead of the voice is doing the right thing. */
+.subs .en .w { transition: color .08s linear; }
+.subs .en .w.on { color: var(--accent); font-weight: 700; }
+.mouth.lipsync { transform-box: fill-box; transform-origin: 50% 50%; }
+
+/* ---------------------------------------------------------------------- the transport
+ *
+ * THE CYBERSECURITY COURSE'S BAR, drawn in this course's palette. The buttons are the same eight,
+ * the speeds are the same three, and the two subtitle switches are what the owner asked for in
+ * place of the one عربي button this page used to have. */
+.transport {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .4rem;
+  margin: .6rem 0 0; padding: .5rem .55rem;
+  background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.tp-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: .45rem .5rem; min-width: 2.1rem;
+}
+.tp-btn svg { display: block; }
+.tp-btn[aria-pressed="true"] {
+  background: var(--accent); color: var(--accent-ink); border-color: var(--accent);
+}
+.tp-seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 7px; overflow: hidden; }
+.tp-seg button {
+  border: 0; border-radius: 0; padding: .45rem .6rem; font-size: .8rem;
+  border-left: 1px solid var(--rule);
+}
+.tp-seg button:first-child { border-left: 0; }
+.tp-seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.scrub {
+  position: relative; flex: 1 1 7rem; min-width: 6rem; height: 1.6rem; cursor: pointer;
+}
+.scrub .track, .scrub .fill {
+  position: absolute; top: 50%; transform: translateY(-50%); height: 4px; border-radius: 2px;
+}
+.scrub .track { left: 0; right: 0; background: var(--rule); }
+.scrub .fill { left: 0; width: 0; background: var(--accent); }
+.scrub .tick {
+  position: absolute; top: 50%; transform: translate(-50%, -50%);
+  width: 2px; height: 10px; background: var(--rule);
+}
+.no-transcript .script { display: none; }
+
 button {
   font: 600 .88rem/1 "Helvetica Neue", Arial, sans-serif; border-radius: 7px; padding: .62rem .9rem;
   border: 1px solid var(--rule); background: var(--card); color: var(--ink); cursor: pointer;
@@ -226,3 +335,41 @@ nav.partnav a[aria-current="page"] {
 .disclaimer {
   margin-top: 1.4rem; padding: .7rem .85rem; border: 1px dashed var(--rule); border-radius: 7px;
 }
+
+/* --------------------------------------------------- the tutor: options, Arabic, the chat */
+.tutor-opts { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
+.tutor-opts label { font: 600 .74rem/1 "Helvetica Neue", Arial, sans-serif; color: var(--muted); }
+.tutor-opts select {
+  font: 600 .8rem/1 "Helvetica Neue", Arial, sans-serif; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: .3rem .35rem;
+}
+button[aria-pressed="true"].ghost.tiny { border-color: var(--accent); color: var(--accent); }
+
+/* The Arabic inside the feedback. It is typeset as Arabic, not as English in an Arabic font:
+   its own direction, its own line height. An Arabic line set at a Latin line height runs into
+   the line above it, which this project measured once and need not measure again. */
+.tutor-out .ar, .chat .ar {
+  direction: rtl; text-align: right; line-height: 1.95; color: var(--muted);
+  font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", serif;
+  margin: .15rem 0 .6rem;
+}
+.tutor.no-ar .ar { display: none; }
+
+.chat { margin-top: 1.1rem; border-top: 1px solid var(--rule); padding-top: .8rem; }
+.chat-h { margin: 0 0 .5rem; font-size: .95rem; }
+.chat-log { display: flex; flex-direction: column; gap: .5rem; }
+.chat-log .me, .chat-log .them {
+  padding: .55rem .75rem; border-radius: 9px; max-width: 88%; font-size: .95rem;
+}
+.chat-log .me { align-self: flex-end; background: var(--accent); color: var(--accent-ink); }
+.chat-log .them { align-self: flex-start; background: var(--paper); border: 1px solid var(--rule); }
+.chat-log .them p:first-child { margin-top: 0; }
+.chat-log .them p:last-child { margin-bottom: 0; }
+.chat-log .them.wait { color: var(--muted); font-style: italic; }
+.chat-row { display: flex; gap: .5rem; margin-top: .7rem; align-items: flex-start; }
+.chat-row textarea {
+  flex: 1; min-width: 0; font: .95rem/1.5 Georgia, serif; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 7px; padding: .5rem .6rem;
+  resize: vertical;
+}
+.chat-note { margin: .5rem 0 0; }

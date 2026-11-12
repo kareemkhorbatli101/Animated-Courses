@@ -14,10 +14,14 @@ raise it.">
 <main id="marking"></main>
 <nav class="partnav"><a href="../index.html">All tests</a><a href="part1.html">Part 1</a><a href="part2.html">Part 2</a><a href="part3.html">Part 3</a><a href="marking.html" aria-current="page">The marking</a></nav>
 <script src="../assets/js/stage.js"></script>
+<script src="../assets/js/player.js"></script>
 <script src="../assets/js/marking.js"></script>
 <script src="../assets/js/cast.js"></script>
 <script src="../assets/js/art.js"></script>
+<script src="../data/objects.js"></script>
+<script src="../data/visuals.js"></script>
+<script src="../data/timings.js"></script>
 <script src="../data/t10m.js"></script>
-<script>IELTS.markingPage(document.getElementById('marking'));</script>
+<script>IELTS.markingPage(document.getElementById('marking'), { page: 't10m.js' });</script>
 </body>
 </html>

@@ -42,6 +42,14 @@
    * AN UNSET MEDIA BASE FALLS BACK TO THE PAGE'S OWN PATH, so a checkout that still has its
    * clips/ folder beside it plays from the folder - which is what lets the whole course run from
    * a stick with no host at all. */
+  /* THE DRAWINGS AND THE SENTENCE THEY BELONG TO. Both arrive as generated data; the stage
+   * shows one beside the picture while a sentence that names something is being spoken, and
+   * holds the last one over a sentence that names nothing. See _tools/build_visuals.py for why
+   * holding is the honest version of "a picture every time somebody speaks". */
+  var OBJECTS = null, VISUALS = null;
+  IELTS.objects = function (d) { OBJECTS = d; };
+  IELTS.visuals = function (d) { VISUALS = d; };
+
   var MEDIA = window.IELTS_MEDIA || "";
   function clipUrl(rel) {
     if (!MEDIA) return rel;                       /* '../clips/x.mp3', beside the pages */
@@ -110,6 +118,9 @@
       '<g data-layer="people">' + S.actors[exId] + S.actors[caId] + '</g>' +
       '<g data-layer="front">' + S.front + '</g>' +
       '</svg>' +
+      '<div class="rail" hidden><div class="railbox"></div>' +
+      '<p class="railcap"></p></div>' +
+      '<p class="yourturn" hidden></p>' +
       '<div class="subs" aria-live="polite"><p class="en"></p><p class="ar" dir="rtl" lang="ar"></p>' +
       '</div>' +
       '<div class="card" hidden></div>' +
@@ -122,7 +133,14 @@
     var actors = {};
     host.querySelectorAll('[data-actor]').forEach(function (g) { actors[g.dataset.actor] = g; });
 
-    var cancel = null, lip = null, fellBack = [];
+    var cancel = null, lip = null, fellBack = [], rafId = 0, audioEl = null;
+    var rate = 1, closeUp = false, lastDrawing = null;
+    var rail = host.querySelector('.rail');
+    var railBox = host.querySelector('.railbox');
+    var railCap = host.querySelector('.railcap');
+    var turnTag = host.querySelector('.yourturn');
+    var page = opts.page || null;        /* which data file, so the visuals can be looked up */
+    var lineNo = -1;
 
     /* THE CUT. A viewBox is animatable, so a "cut" and a "move" are the same call with a different
        duration — and both are honest about what the camera did, because there is only one scene. */
@@ -164,15 +182,52 @@
       lip = null;
       host.querySelectorAll('.mouth').forEach(function (m) {
         if (m.dataset.base) m.setAttribute('stroke-width', m.dataset.base);
+        m.style.transform = '';
+        m.classList.remove('lipsync');
       });
     }
 
+    /* THE SUBTITLE IS BUILT WORD BY WORD, so the voice can light it up as it reaches each one.
+       The word times were measured off the recordings that already exist - see
+       _tools/build_timings.py - so this costs nothing but the markup. */
     function subtitle(l) {
-      subEn.textContent = l ? l.text : '';
-      subAr.textContent = l ? (l.ar || '') : '';
+      if (!l) { subEn.innerHTML = ''; subAr.textContent = ''; return; }
+      subEn.innerHTML = l.text.split(/\s+/).map(function (wd, i) {
+        return '<span class="w" data-wi="' + i + '">' + esc(wd) + '</span>';
+      }).join(' ');
+      subAr.textContent = l.ar || '';
+    }
+    function markWord(i) {
+      var ws = subEn.querySelectorAll('.w');
+      for (var z = 0; z < ws.length; z++) ws[z].classList.toggle('on', z === i);
     }
 
-    function one(l, done) {
+    /* ---------------------------------------------------------------- the visual rail
+     *
+     * A picture beside the stage, for the sentence being spoken. It changes when the sentence
+     * names something new and HOLDS when it does not, which is the rule the whole feature rests
+     * on: 874 of this course's 1,632 sentences name nothing drawable, and inventing a picture
+     * for those is the stock-art problem the owner ruled out, arriving by a different door.
+     */
+    function showDrawing(name) {
+      if (!name || !OBJECTS || !OBJECTS[name]) return;
+      if (name === lastDrawing) return;
+      lastDrawing = name;
+      railBox.innerHTML = '<svg viewBox="0 0 160 120" role="img" aria-label="' + esc(name)
+        + '">' + OBJECTS[name].svg + '</svg>';
+      railBox.classList.remove('in');
+      void railBox.offsetWidth;                 /* restart the fade */
+      railBox.classList.add('in');
+      railCap.textContent = name.replace(/_/g, ' ');
+      rail.hidden = false;
+    }
+    /* The assignment for one line, as [sentence, drawing|null] pairs. */
+    function visualsFor(i) {
+      if (!VISUALS || !page || !VISUALS[page]) return null;
+      return VISUALS[page][i] || null;
+    }
+
+    function one(l, done, idx) {
       /* THE CARD BELONGS TO THE LINE, not to the playthrough. It used to be raised in play() only,
          so a learner who pressed ▶ beside a single line of the long turn watched the candidate
          answer a cue card that was not on the screen. Every path that speaks a line goes through
@@ -184,22 +239,115 @@
          there, one voice reports on a performance that has finished, so every block asks to hold
          the two-shot. Cutting to a single on somebody who is not speaking is the same fault
          pointing the other way. */
-      cut(l.cam || (l.who === 'examiner' ? 'examiner' : 'candidate'), 260);
+      var want = l.cam || (l.who === 'examiner' ? 'examiner' : 'candidate');
+      cut(closeUp && !l.cam ? (want + '_close') : want, 260);
       subtitle(l);
-      talk(l.who);
-      var fin = function () { stopLip(); done(); };
+      var pairs = visualsFor(idx == null ? lineNo : idx);
+      if (pairs && pairs.length && pairs[0][1]) showDrawing(pairs[0][1]);
+      var info = IELTS.clipInfo ? IELTS.clipInfo(l.text, l.voice) : null;
+      var fin = function (ms) { stopLip(); markWord(-1); done(ms); };
+
       if (l.clip) {
-        var a = new Audio(clipUrl(l.clip));
-        a.onended = fin;
-        a.onerror = function () { fellBack.push(l.text); cancel = deviceSay(l.text, l.sex, fin); };
-        a.play().catch(function () {
-          fellBack.push(l.text); cancel = deviceSay(l.text, l.sex, fin);
+        /* ONE AUDIO ELEMENT, AND IT LIVES IN THE PAGE. A fresh `new Audio()` per line leaks a
+           decoder on a long part and, being outside the document, is invisible to anything that
+           looks at the page - including the gate that has to prove the lips and the subtitle are
+           following this recording and not a timer. */
+        if (!audioEl) {
+          audioEl = new window.Audio();
+          audioEl.preload = 'auto';
+          audioEl.hidden = true;
+          host.appendChild(audioEl);
+        }
+        cancelAnimationFrame(rafId);
+        audioEl.onended = null; audioEl.onerror = null;
+        audioEl.src = clipUrl(l.clip);
+        audioEl.playbackRate = rate;
+        try { audioEl.preservesPitch = true; audioEl.mozPreservesPitch = true; } catch (e) {}
+        var ended = false;
+        var finish = function () {
+          if (ended) return;
+          ended = true;
+          cancelAnimationFrame(rafId);
+          fin(info ? (info.d * 1000 / rate) : 0);
+        };
+        audioEl.onended = finish;
+        audioEl.onerror = function () {
+          fellBack.push(l.text);
+          cancel = deviceSay(l.text, l.sex, function () { fin(0); });
+        };
+        /* THE MOUTH AND THE SUBTITLE FOLLOW THE SOUND, not a timer. The envelope and the word
+           onsets were measured off this very file, so the lips open on the loud parts and the
+           highlight lands on the word being said. */
+        if (info) {
+          talkFromEnvelope(l.who, info);
+          /* WHEN DOES EACH SENTENCE START? At the word it starts at. Each sentence's first word is
+             counted off the front of the line, and that word's measured onset is the moment its
+             picture goes up. Dividing the clip into equal slices instead would put the second
+             picture up halfway through a line whose first sentence is three times as long - which
+             is the kind of thing that looks fine until somebody watches it. */
+          var multi = (pairs && pairs.length > 1) ? pairs : null;
+          var starts = [0], acc = 0, si;
+          for (si = 0; multi && si < multi.length - 1; si++) {
+            acc += (multi[si][0] || '').split(/\s+/).filter(Boolean).length;
+            starts.push(info.wd.length ? (info.wd[Math.min(acc, info.wd.length - 1)] || 0) : 0);
+          }
+          var sentIdx = 0;
+          rafId = requestAnimationFrame(function tick() {
+            if (ended) return;
+            var t = audioEl.currentTime;
+            var k = 0;
+            while (k + 1 < info.wd.length && info.wd[k + 1] <= t) k++;
+            markWord(k);
+            var wantS = sentIdx;
+            while (wantS + 1 < starts.length && starts[wantS + 1] <= t) wantS++;
+            if (wantS !== sentIdx) {
+              sentIdx = wantS;
+              if (multi[wantS][1]) showDrawing(multi[wantS][1]);   /* else the last one HOLDS */
+            }
+            rafId = requestAnimationFrame(tick);
+          });
+        } else {
+          talk(l.who);
+        }
+        audioEl.play().catch(function () {
+          fellBack.push(l.text);
+          cancel = deviceSay(l.text, l.sex, function () { fin(0); });
         });
-        cancel = function () { try { a.pause(); } catch (e) {} };
+        cancel = function () {
+          ended = true;
+          cancelAnimationFrame(rafId);
+          try { audioEl.pause(); } catch (e) {}
+        };
       } else {
         fellBack.push(l.text);
-        cancel = deviceSay(l.text, l.sex, fin);
+        talk(l.who);
+        cancel = deviceSay(l.text, l.sex, function () { fin(0); });
       }
+    }
+
+    /* The lips driven by the measured loudness. The old path shook the mouth on a sine wave,
+       which looks like talking and is not: it opens on silence and closes on a vowel. */
+    function talkFromEnvelope(who, info) {
+      stopLip();
+      var m = actors[who] && actors[who].querySelector('.mouth');
+      if (!m) return;
+      var base = parseFloat(m.getAttribute('stroke-width') || '2.8');
+      m.dataset.base = String(base);
+      m.classList.add('lipsync');            /* transform-box: fill-box, so scaleX is about itself */
+      lip = requestAnimationFrame(function step() {
+        var t = audioEl ? audioEl.currentTime : 0;
+        var i = Math.max(0, Math.min(info.env.length - 1, Math.round(t / info.hop)));
+        var open = info.env[i] || 0;
+        /* THREE MEASURED TRACKS, THREE THINGS THE MOUTH DOES. Loudness opens the jaw;
+           "wide" (ee, ay) stretches it; "round" (oo, oh) purses it. All three came out of the
+           same mp3 - engine/speech.visemes - so this is the recording's own mouth, not a
+           chatter loop that opens on a silence. */
+        var wd = info.wide.length ? (info.wide[Math.min(i, info.wide.length - 1)] || 0) : 0;
+        var rn = info.round.length ? (info.round[Math.min(i, info.round.length - 1)] || 0) : 0;
+        m.setAttribute('stroke-width', (base * (1 + open * 1.5)).toFixed(2));
+        m.style.transform = 'scaleX(' + (1 + 0.3 * wd - 0.28 * rn).toFixed(3) + ')';
+        lip = requestAnimationFrame(step);
+      });
     }
 
     var api = {
@@ -210,9 +358,58 @@
       hideCard: function () { card.hidden = true; card.innerHTML = ''; },
       stop: function () {
         if (cancel) cancel();
-        cancel = null; stopLip(); subtitle(null); api.playing = false;
+        cancel = null;
+        cancelAnimationFrame(rafId);
+        stopLip(); subtitle(null); api.sayTurn(''); api.playing = false;
       },
       playing: false,
+
+      /* ------------------------------------------------- what the transport drives
+       *
+       * Five calls, and the reason they live here rather than in player.js is that each one is a
+       * fact about the DRAWING: which crop is on screen, how fast the recording runs, which
+       * subtitle track is shown, whether the learner has been handed the floor, and which line we
+       * are on. player.js knows about buttons; this knows about the room. */
+
+      /** the close-up switch: the singles push in on the head */
+      setClose: function (on) {
+        closeUp = !!on;
+        var cam = svg.dataset.cam || 'two';
+        var base = cam.replace(/_close$/, '');
+        if (base === 'two') return;                     /* a two-shot has no close-up */
+        cut(closeUp ? base + '_close' : base, 300);
+      },
+
+      /** 0.6 / 0.75 / 1. The pitch is held where the browser allows it, so a slowed examiner is
+       *  still an examiner and not a cartoon. Set mid-line, it takes effect at once. */
+      setRate: function (r) {
+        rate = Number(r) || 1;
+        if (audioEl) {
+          audioEl.playbackRate = rate;
+          try { audioEl.preservesPitch = true; audioEl.mozPreservesPitch = true; } catch (e) {}
+        }
+      },
+
+      /** the two independent subtitle switches. NEITHER DEFAULTS OFF and neither hides the other:
+       *  Arabic on every line is a decision this project has taken twice, and a learner turning
+       *  English off to force themselves to listen is the other half of the same feature. */
+      applySubPrefs: function () {
+        var p = (IELTS.prefs || { subEn: true, subAr: true });
+        subEn.hidden = !p.subEn;
+        subAr.hidden = !p.subAr;
+        host.classList.toggle('no-subs', !p.subEn && !p.subAr);
+      },
+
+      /** shadow mode's prompt. '' takes it down. */
+      sayTurn: function (msg) {
+        if (!turnTag) return;
+        turnTag.textContent = msg || '';
+        turnTag.hidden = !msg;
+      },
+
+      /** which line the transport is on, so a line played on its own still finds its pictures */
+      onLine: function (i) { lineNo = i; },
+
       /** every line that had to fall back to the device's voice. The publish gate reads this. */
       unrecorded: function () { return fellBack.slice(); },
       /** play(script, opts) — script is [{who, text, ar, clip, sex}] */
@@ -230,17 +427,21 @@
             return;
           }
           var l = script[i++];
-          one(l, function () { setTimeout(step, 180); });
+          lineNo = i - 1;
+          one(l, function () { setTimeout(step, 180); }, i - 1);
         })();
       },
-      /** play one line on its own, which is what the ▶ beside a transcript line does */
-      playLine: function (l, done) {
+      /** play one line on its own, which is what the ▶ beside a transcript line does, and what the
+       *  transport steps through. `done(spokenMs)` carries the MEASURED length of the line, which
+       *  is what lets shadow mode leave a gap the size of the thing being repeated. */
+      playLine: function (l, done, idx) {
         api.stop(); api.playing = true;
-        one(l, function () {
+        if (idx != null) lineNo = idx;
+        one(l, function (ms) {
           api.playing = false;
           if (!l.cam) cut('two', 320);          /* a line that chose its framing keeps it */
-          if (done) done();
-        });
+          if (done) done(ms);
+        }, idx);
       }
     };
     return api;
