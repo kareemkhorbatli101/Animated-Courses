@@ -1376,6 +1376,10 @@
           if (scene.set && scene.set.glb) rels.push(scene.set.glb);
           if (scene.set && scene.set.noceil_glb) rels.push(scene.set.noceil_glb);
           (scene.actors || []).forEach(function (a2) { rels.push(a2.model_glb); });
+          // v29.0: the dressing's pictures (scene.dress, engine/dress.py) - the very PNGs the MP4 drew
+          (scene.dress || []).forEach(function (d2) { if (d2.png) rels.push(d2.png); });
+          // v29.1: the props that change hands - their models ride with the scene's files too
+          (scene.props || []).forEach(function (p2) { if (p2.glb) rels.push(p2.glb); });
           rels = rels.filter(function (x, i, arr) { return x && arr.indexOf(x) === i; });
           // THE DENOMINATOR COUNTS EVERYTHING THE PAGE WAITS FOR, and the voice is one of those things.
           //
@@ -3536,6 +3540,71 @@
         return loadAll(BASE, files);
       }
 
+      /* speech.say - THE ONE WAY A HOST CAN MAKE A CHARACTER SPEAK, and it does not write the spec.
+       *
+       * The component's rule is that nothing reaches into the animation except through the commands
+       * (A8), and a host cannot lengthen a scene from outside - which is exactly what an answer of
+       * unknown length would have to do. So this verb does not add a line, a clip or a second to the
+       * timeline. It starts the BROWSER's speech voice and hands the player the only three facts that
+       * voice ever reports - it started, it reached a word, it ended - and the player's live mouth
+       * follows them (player/scene_player.js). The spec is untouched; when the voice stops, the mouth
+       * is back to whatever the scene said it should be doing.
+       *
+       * It is here rather than in the site's own page because the site's front door and a lesson must
+       * not grow two mouths. A second implementation of this is the one thing most certain to drift
+       * from the first, and the mouth is the whole feature.
+       *
+       * The TEXT is the caller's. This verb neither invents it nor shortens it: a cap on a spoken
+       * answer is a thing to ask of whatever wrote the answer, never a truncation applied to it here. */
+      function speechSay(a) {
+        a = a || {};
+        var text = (a.text === undefined || a.text === null) ? '' : String(a.text);
+        if (!text.trim()) return {ok: false, code: 'bad-args', message: 'text: a non-empty string'};
+        if (!part || !part.player || typeof part.player.sayStart !== 'function') {
+          return {ok: false, code: 'not-supported', message: 'no lesson is ready'};
+        }
+        var synth = global.speechSynthesis;
+        if (!synth || typeof global.SpeechSynthesisUtterance !== 'function') {
+          // SAID, NOT SWALLOWED. A browser with no speech voice is a fact the host has to be able to
+          // act on - it may want to show the text instead - and a silent success would hide it.
+          return {ok: false, code: 'not-supported', message: 'this browser has no speech voice'};
+        }
+        var idx = 0;
+        if (a.actor !== undefined && a.actor !== null) {
+          idx = a.actor | 0;
+          if (!(idx >= 0 && idx < ((curScene && curScene.actors) || []).length)) {
+            return {ok: false, code: 'no-subject', message: 'actor ' + a.actor + ' is not in this scene'};
+          }
+        }
+        if (!AUDIO.audible) return {ok: false, code: 'denied', message: 'audio is muted on this page'};
+
+        var u = new global.SpeechSynthesisUtterance(text);
+        if (a.lang) u.lang = String(a.lang);
+        var vs = (synth.getVoices && synth.getVoices()) || [];
+        var want = (u.lang || '').slice(0, 2);
+        for (var v = 0; v < vs.length && want; v++) {
+          if ((vs[v].lang || '').slice(0, 2) === want) { u.voice = vs[v]; break; }
+        }
+        u.volume = (typeof AUDIO.volume === 'number') ? AUDIO.volume : 1;
+        function stop() {
+          try { part.player.sayStop(); } catch (e) {}
+          try { if (viewVisible()) part.player.seek(lastT); } catch (e) {}
+          emit('speech.ended', {kind: 'actor', id: String(idx)}, {}, 'host');
+        }
+        u.onstart = function () {
+          try { part.player.sayStart(idx); } catch (e) {}
+          emit('speech.started', {kind: 'actor', id: String(idx)}, {words: text.split(/\s+/).length}, 'host');
+        };
+        // every boundary the voice reports, and not one tick of a clock we chose ourselves
+        u.onboundary = function () { try { part.player.sayWord(); } catch (e) {} };
+        u.onend = stop;
+        u.onerror = stop;
+        try { synth.cancel(); synth.speak(u); } catch (e) {
+          return {ok: false, code: 'not-supported', message: String(e.message || e)};
+        }
+        return {ok: true, result: {speaking: true, actor: idx}};
+      }
+
       return {
         paneEffective: paneEffective, paneAllowed: paneAllowed, setPaneOpen: setPaneOpen, applyPanes: applyPanes,
         uiState: uiState, emitUiIfChanged: emitUiIfChanged,
@@ -3560,7 +3629,7 @@
         setParams: setParams, load: loadSource, setAudio: setAudio, audio: function () { return copy(AUDIO); },
         setSelecting: setSelecting, selecting: function () { return selecting; },
         selectPoint: selectPoint, selectById: selectById,
-        cameraSet: cameraSet, cameraReset: cameraReset,
+        cameraSet: cameraSet, cameraReset: cameraReset, speechSay: speechSay,
         suspend: suspendNow, resume: resumeNow, snapshot: snapshotNow,
         restore: function (s) { return restoreNow(s); },
         customSet: customSet, customClear: customClear, customRecord: customRecord, customApply: customApply,
@@ -3644,6 +3713,7 @@
       'permissions.set': function (a) { handle.permissions.set(a || {}); return {ok: true, result: effPerms()}; },
       'camera.set': function (a) { return impl.cameraSet(a); },
       'camera.reset': function () { return impl.cameraReset(); },
+      'speech.say': function (a) { return impl.speechSay(a); },
       'lifecycle.suspend': function () { return impl.suspend(); },
       'lifecycle.resume': function () { return impl.resume(); },
       'interaction.set': function (a) {

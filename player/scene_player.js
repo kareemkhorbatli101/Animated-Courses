@@ -126,6 +126,49 @@
     return {gcx:gx/n, gcz:gz/n, front_z:(actors.length?fz:0)};
   }
 
+  /* ---- THE LIVE MOUTH: speech with no recording behind it ----------------------------------
+   *
+   * A lesson's mouth is MEASURED. engine/speech bakes an mp3, the compositor takes a 25 Hz RMS
+   * envelope off it, and jawAt above reads that envelope back - so the sound and the jaw are one
+   * object seen twice and cannot drift apart.
+   *
+   * The site's front door has no mp3. It is spoken by the BROWSER's own voice through the Web
+   * Speech API, which hands out no duration, no envelope and no audio stream at all - only
+   * onstart, onboundary and onend. Every way of fitting a picture to that is a PREDICTION, and a
+   * prediction two seconds long leaves the mouth moving after the voice has stopped, which is
+   * precisely the thing that makes a talking head look broken.
+   *
+   * So the rule is inverted: START THE SPEECH AND LET IT DRIVE THE PICTURE. The envelope here is
+   * synthetic and ENDLESS, so it cannot run out however long the answer turns out to be - which
+   * is also why the word cap can be asked of the model rather than enforced on it, and why an
+   * overrun costs only time. Every word boundary the browser reports resets the phase, so the
+   * mouth opens ON the word instead of wherever a free-running loop had got to. onend stops it.
+   * Nothing anywhere predicts how long anything will take.
+   *
+   * THE CONSEQUENCE IS ACCEPTED AND WRITTEN DOWN: this mouth is permanently cruder than a
+   * lesson's. It has syllables but no phonemes, because there is no recording to take phonemes
+   * from. That is a property of the Web Speech API and no amount of work in this file changes it.
+   *
+   * IT IS DELIBERATELY NOT IN drive(). drive() is the one function this file and engine/interp.py
+   * must agree on to the last bit, and here there is nothing to agree WITH - no mp4 is ever
+   * rendered of a browser voice, so there is no second renderer to match. It is applied inside
+   * seek() AFTER drive(), in the same place and for the same reason as the viewer's camera. */
+  var LIVE_SYLL = 4.6;      // syllables per second - ordinary speech
+  var LIVE_JAW  = 0.72;     // the opening a syllable reaches; the measured path peaks near 0.9
+  function liveMouthAt(u){
+    if(!(u > 0)) u = 0;
+    var a = 0.5 - 0.5*Math.cos(2*Math.PI*LIVE_SYLL*u);        // one opening per syllable
+    return [LIVE_JAW * a * (0.78 + 0.22*Math.sin(2*Math.PI*0.31*u)),
+            // the two viseme channels ride the opening, exactly as visemeAt gates them on it, so
+            // a shut mouth is never left holding a shape
+            VIS_GAIN * a * (0.5 + 0.5*Math.sin(2*Math.PI*0.53*u)),
+            VIS_GAIN * a * (0.5 + 0.5*Math.sin(2*Math.PI*0.37*u + 1.9))];
+  }
+  function liveNow(){
+    return ((global.performance && global.performance.now) ? global.performance.now()
+                                                           : Date.now()) / 1000;
+  }
+
   // ---- lighting: tuned to THREE (legacy sRGB/ACES) so the APPEARANCE matches the Prime
   // pygfx rigs (same warm key + soft fills + shadows). Cross-renderer, so values differ from
   // Prime's radiometric numbers — the goal is a structurally equivalent picture. ----
@@ -147,6 +190,9 @@
     // `view` starts NULL, so a freshly constructed player renders the director's camera and nothing else.
     // A page opts in; the scene never can.
     this.view=null;
+    // `live` starts NULL too, and for the same reason: a freshly constructed player moves the
+    // mouth the scene says to move and not one it was told about from outside.
+    this.live=null;
     this.THREE=THREE; this.renderer=renderer; this.mixers=[]; this.roots=[]; this.scene=null; this.camera=null;
     this.sc=null; this.clock=null; this.curClip=[];
   }
@@ -252,6 +298,21 @@
       if(d.mouthRound!==undefined) w[d.mouthRound]=rnd;    // exactly as those heads always drove
     }
   };
+  /* THE THREE THINGS A SPEAKING VOICE CAN TELL US, and nothing else is asked of it.
+   * A caller starts the mouth when the voice starts, nudges it on every word boundary the voice
+   * reports, and stops it when the voice ends. `live` is null at every other moment, and while it
+   * is null seek() behaves exactly as it always has - the authored mouth and nothing over it. */
+  ScenePlayer.prototype.sayStart = function(actorIndex){
+    this.live = { actor: (actorIndex || 0) | 0, word: liveNow() };
+    return this;
+  };
+  ScenePlayer.prototype.sayWord = function(){
+    if(this.live) this.live.word = liveNow();
+    return this;
+  };
+  ScenePlayer.prototype.sayStop = function(){ this.live = null; return this; };
+  ScenePlayer.prototype.saying = function(){ return !!this.live; };
+
   ScenePlayer.prototype._setClip = function(i, want){
     var m=this.mixers[i]; if(want===m.cur) return;
     var cl=null; for(var k=0;k<m.clips.length;k++){ if(m.clips[k].name===want){ cl=m.clips[k]; break; } }
@@ -274,6 +335,14 @@
       // blink) and would otherwise overwrite the jaw on the next frame. Only the mouth targets are
       // written, so the clip still owns the blink.
       this._setMouth(i, st.jaw || 0, st.wide || 0, st.round || 0);
+      // THE LIVE MOUTH, laid over the authored one and only while a voice is actually speaking.
+      // Same placement rule as the viewer's camera below: what the two renderers must AGREE on is
+      // drive()'s output, so the one thing they cannot share belongs strictly outside it. With no
+      // live speech this branch does not run and the picture is the authored picture exactly.
+      if(this.live && this.live.actor === i){
+        var lm = liveMouthAt(liveNow() - this.live.word);
+        this._setMouth(i, lm[0], lm[1], lm[2]);
+      }
     }
     // THE VIEWER'S CAMERA, APPLIED AFTER drive() AND NOWHERE ELSE.
     //

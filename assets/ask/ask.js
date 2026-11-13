@@ -106,10 +106,14 @@
            'written answer.';
   }
 
+  // what the face says about itself, on the picture, before anyone has asked anything
+  var FACE_CAPTION = 'Ask about this site. Turn the speaker on and he will read the answer out.';
+
   var state = {
     brief: null, model: '', busy: false, el: null,
     speak: false,          // the speaker toggle; CHANGES THE PROMPT, so it is read before asking
-    answerWasSpokenStyle: false   // was the answer now on screen produced under the cap?
+    answerWasSpokenStyle: false,  // was the answer now on screen produced under the cap?
+    face: null             // the avatar panel while a dialog is open; destroyed with it
   };
 
   // ---- the smallest possible DOM helpers ------------------------------------------------
@@ -169,6 +173,11 @@
 
   function close() {
     if (state.el) { state.el.remove(); state.el = null; }
+    // THE FACE IS TORN DOWN WITH THE BOX. It holds a WebGL context and an animation frame loop,
+    // and a browser allows only a handful of contexts at once - leaking one per open would make
+    // the fourth or fifth time somebody opened this box the time it silently stopped working.
+    if (state.face) { state.face.destroy(); state.face = null; }
+    if (root.speechSynthesis) root.speechSynthesis.cancel();
     doc.removeEventListener('keydown', onEsc);
   }
 
@@ -277,7 +286,16 @@
     return root.SpeechRecognition || root.webkitSpeechRecognition || null;
   }
 
-  function speakAloud(text) {
+  /* ONE UTTERANCE, AND THE PICTURE HANGS OFF IT.
+   *
+   * `face` is the avatar panel, or null when there is not one. The three handlers below are the
+   * only three facts the Web Speech API ever reports - it started, it reached a word, it ended -
+   * and they are passed straight to the character's mouth. There is no timer here and no estimate
+   * of how long the answer will take to say, because every such estimate is wrong by a second or
+   * two and a mouth still moving after the voice has stopped is what makes a talking head look
+   * broken. onerror stops the mouth as firmly as onend: a voice that fails silently must not
+   * leave a character mouthing at the visitor for ever. */
+  function speakAloud(text, face) {
     if (!root.speechSynthesis || !text) return;
     var u = new root.SpeechSynthesisUtterance(String(text));
     // the brief answers in the visitor's language, so the voice has to follow the text
@@ -289,6 +307,12 @@
     });
     if (exact.length) u.voice = exact[0];
     else if (loose.length) u.voice = loose[0];
+    if (face) {
+      u.onstart = function () { face.start(); };
+      u.onboundary = function () { face.word(); };
+      u.onend = function () { face.stop(); };
+      u.onerror = function () { face.stop(); };
+    }
     root.speechSynthesis.cancel();
     root.speechSynthesis.speak(u);
     return u;
@@ -327,6 +351,19 @@
 
     var box = shell('Ask about this website',
                     'Answered from this site\'s own briefing, using your Gemini key.');
+
+    /* THE FACE, AT THE TOP OF THE SAME BOX THE QUESTION IS TYPED INTO.
+     *
+     * The owner asked how the two ways of getting an answer - reading it and being told it -
+     * could be ONE gui element rather than two modes. This is the answer in its visual form: not
+     * a separate "video assistant" page with its own question box, which would mean two code
+     * paths that can disagree about what the site says, but one box with a picture at the top of
+     * it. The picture is a still until somebody wants a voice, and the text answer appears below
+     * either way. Nothing about the written assistant changes for a visitor who never turns the
+     * speaker on - they see a photograph, and the box behaves exactly as it did yesterday. */
+    var face = root.SiteAvatar ? root.SiteAvatar.panel(FACE_CAPTION) : null;
+    state.face = face;
+    if (face) box.appendChild(face.el);
 
     var lab = E('label', null, 'Your question');
     var ta = E('textarea');
@@ -378,6 +415,17 @@
     capNote.id = 'ask-cap-note';
     box.appendChild(capNote);
 
+    /* WAKING THE CHARACTER IS THE ONE HEAVY THING THIS PAGE EVER DOES, so it happens only when a
+     * voice has actually been asked for - 4.5 MB of glTF and a 3D library against a 113 KB still.
+     * It is called at the two moments that mean "I want to be spoken to": pressing the speaker
+     * on, and sending a question with it already on (a returning visitor's toggle is remembered,
+     * and downloading megabytes merely because they opened the box would be a rude surprise).
+     * wake() is idempotent, so calling it at both is free. */
+    function wakeFace() {
+      if (!face) return;
+      face.wake()['catch'](function () { /* the caption says so; the voice still works */ });
+    }
+
     function syncSpeak() {
       spk.classList.toggle('on', state.speak);
       spk.setAttribute('aria-pressed', state.speak ? 'true' : 'false');
@@ -418,6 +466,7 @@
       out.textContent = '';
       // a new question supersedes whatever is being said and whatever was offered about the last
       if (root.speechSynthesis) root.speechSynthesis.cancel();
+      if (face) face.stop();
       var old = box.querySelector('.askreask');
       if (old) old.remove();
       state.busy = true;
@@ -429,6 +478,7 @@
       // comes back. answerWasSpokenStyle records which, so the toggle cannot later imply that
       // a full-length answer was written to be heard.
       var spokenStyle = state.speak;
+      if (spokenStyle) wakeFace();     // it has the length of one Gemini call to be ready in
       var provider = new root.GeminiProvider({ keyring: K });
       loadBrief()
         .then(function (brief) {
@@ -448,7 +498,7 @@
           // alternative path that could return something different.
           out.textContent = res.text;
           state.answerWasSpokenStyle = spokenStyle;
-          if (spokenStyle) speakAloud(res.text);
+          if (spokenStyle) speakAloud(res.text, face);
           rememberWorking(res.model);
           var also = (res.tried && res.tried.length > 1)
             ? ' (after ' + (res.tried.length - 1) + ' model(s) with no free quota)' : '';
@@ -491,10 +541,12 @@
       if (stale) stale.remove();
       if (!state.speak) {
         if (root.speechSynthesis) root.speechSynthesis.cancel();
+        if (face) face.stop();                 // and the mouth closes with the voice
         return;
       }
+      wakeFace();
       if (!out.textContent) return;            // nothing answered yet: it simply applies next
-      if (state.answerWasSpokenStyle) { speakAloud(out.textContent); return; }
+      if (state.answerWasSpokenStyle) { speakAloud(out.textContent, face); return; }
       var again = E('div', 'askreask');
       again.appendChild(E('span', null,
         'The answer above was written to be read, not heard, so it is longer than ' + CAP +
@@ -547,7 +599,11 @@
     ta.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) run();
     });
-    ta.focus();
+    /* preventScroll, AND IT IS NOT A NICETY. The box is scrollable (max-height 86vh) and the face
+     * is the first thing in it, so an ordinary focus() scrolls the textarea into view and takes
+     * the character's head off the top of the dialog - on a laptop it opened showing a collar.
+     * The box must open at the top; the cursor can be below the fold. */
+    try { ta.focus({preventScroll: true}); } catch (e) { ta.focus(); }
   }
 
   root.SiteAsk = {

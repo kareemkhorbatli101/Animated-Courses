@@ -1,0 +1,126 @@
+{
+ "schema": "scene/2",
+ "engine": "29.31.4",
+ "fingerprint": "23ffcf0091cefbc2",
+ "title": "front door",
+ "duration": 6.0,
+ "size": [
+  1920,
+  1080
+ ],
+ "set": {
+  "name": "speaking_room",
+  "glb": "speaking_room_set_merged_5250136341.glb",
+  "noceil_glb": "speaking_room_set_noceil_222dadd532.glb"
+ },
+ "lighting": {
+  "shadows": true,
+  "rig": "warm",
+  "ambient": null,
+  "key": null
+ },
+ "camera": {
+  "mode": "explicit",
+  "fov": 20.9
+ },
+ "shots": [
+  {
+   "px": -1.45,
+   "py": 1.3,
+   "pz": -1.795,
+   "tx": -0.6,
+   "ty": 1.24,
+   "tz": 0.8200000000000001,
+   "at": 0.0,
+   "cut": 1,
+   "fov": 20.9
+  }
+ ],
+ "actors": [
+  {
+   "id": "fd",
+   "model_glb": "fd_ecb61183c1_498cdabc31.glb",
+   "pos": [
+    -0.6,
+    0.0,
+    0.428
+   ],
+   "base_face": 3.1416,
+   "moves": [],
+   "looks": [
+    {
+     "angle": 3.1416,
+     "at": 0.0
+    }
+   ],
+   "clips": [
+    {
+     "clip": "Sit",
+     "at": 0.0
+    },
+    {
+     "clip": "Sit",
+     "at": 0.0
+    }
+   ],
+   "mouth": [],
+   "walkSpeed": 0.8,
+   "once": {
+    "CallDown": 1.599,
+    "CallUp": 1.599,
+    "GiveItem": 2.399,
+    "HandOnHeart": 2.399,
+    "Handshake": 2.599,
+    "HoldCup": 2.999,
+    "Nod": 1.199,
+    "PhoneDown": 1.599,
+    "PhoneUp": 1.599,
+    "PickUp": 1.399,
+    "Point": 2.599,
+    "Pour": 2.999,
+    "PutDown": 1.399,
+    "Sip": 2.399,
+    "SitDown": 2.199,
+    "StandUp": 2.199,
+    "TakeItem": 2.399,
+    "Wave": 2.399
+   }
+  }
+ ],
+ "dancers": [],
+ "speakers": [],
+ "speech": [],
+ "subtitles": {
+  "enabled": false,
+  "langs": "en",
+  "show": null,
+  "lang": {}
+ },
+ "badgePlacement": {},
+ "audio": {
+  "master": null,
+  "lines": [],
+  "music": {
+   "enabled": false
+  },
+  "duck": []
+ },
+ "timeline": {
+  "audio": null,
+  "subtitles": {
+   "enabled": false,
+   "langs": "en",
+   "show": null,
+   "lang": {}
+  },
+  "vocab": null,
+  "cutaways": [],
+  "music": {
+   "enabled": false,
+   "generate": null,
+   "src": null,
+   "seed": 7,
+   "gain": 0.12
+  }
+ }
+}
