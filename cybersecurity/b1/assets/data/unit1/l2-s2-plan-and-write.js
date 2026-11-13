@@ -14,7 +14,14 @@ CSB1.page('u1-l2-s2', {
       },
       coach: {
         title: 'Are these notes enough to write from?',
-        ai: false,
+        /* Marking is ON, with a different job from the writing cards. These are NOTES, and a
+           model that marks them as prose will take grammar off a learner for a word list. The
+           question this card asks is the question the model is asked: is there enough here to
+           build three paragraphs on? */
+        task: 'Judge whether these NOTES are enough to write a three-paragraph narrative from: '
+          + 'one real challenge, something that was actually done about it, and a lesson. They '
+          + 'are notes, not writing - do not mark spelling, grammar or sentence form, and do '
+          + 'not ask for full sentences. Say what is MISSING that paragraph 2 or 3 would need.',
         taught: 'A narrative has three paragraphs: the challenge, how you overcame it, the lesson.',
         criteria: [
           { t: 'I named one real challenge, not a general topic.', auto: 'words', min: 8 },

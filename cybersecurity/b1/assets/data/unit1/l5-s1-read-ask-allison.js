@@ -93,8 +93,17 @@
           'free online practice labs', 'the help desk at work'],
         coach: {
           title: 'Check your own answer to question 1',
-          ai: false,
-          taught: 'Free learning resources: libraries, librarians, community colleges, meet-ups, government guides, practice labs, workplace training.',
+          /* ON, but for SPECIFICITY, not for truth. The card asks the learner to name real
+             places near them, and a model cannot know whether a library on a particular street
+             exists - the rule against asserting anything about a named place is in the shared
+             system prompt. What it can judge, and what the card is actually teaching, is the
+             difference between naming a thing and gesturing at a category. */
+          task: 'An answer to the reading question "where could someone get free help?". Judge '
+            + 'one thing: does it NAME specific places or people, or does it gesture at '
+            + 'categories ("some places", "the internet")? You have no way of knowing whether '
+            + 'a place the learner names is real, open or free - never say or imply anything '
+            + 'about that. Comment on the naming and the language only.',
+          taught:'Free learning resources: libraries, librarians, community colleges, meet-ups, government guides, practice labs, workplace training.',
           criteria: [
             { t: 'I named at least two real places or people, not categories.', auto: 'mentions', keys: ['library', 'librarian', 'college', 'school', 'centre', 'center', 'meet-up', 'meetup', 'club', 'work', 'employer', 'online', 'website', 'lab'], need: 2, fail: 'Name them — "the library on Grant Street", "my employer\'s training" — rather than "there are some things".' },
             { t: 'At least one of them is free and open to anyone.', self: true },

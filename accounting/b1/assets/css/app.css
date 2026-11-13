@@ -950,6 +950,30 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
   background:var(--surface-2);
 }
 
+/* marked by a model — the third provenance a checklist row can have.
+   It reads as a HINT, not as a pass: the page's own checks are teal because they are
+   measured, the learner's own judgement is rust because it is theirs, and this one is
+   amber because it is neither, and a teacher reading the row has to see that at a glance. */
+.coach-kind.is-ai { background:var(--hint-bg); color:var(--hint); }
+.coach-ai {
+  margin-top:12px; padding:11px 12px;
+  border:1px solid var(--hint-line); border-radius:var(--r-2); background:var(--hint-bg);
+}
+.coach-ai-head { display:flex; align-items:center; gap:8px; color:var(--hint); font-size:14px; margin-bottom:8px; }
+.coach-ai-head b { color:var(--text); }
+.coach-ai-wait { font:500 14px/1.5 var(--ui); color:var(--text-2); }
+.coach-ai-good { margin:0 0 10px; font:600 14px/1.6 var(--ui); color:var(--ok); }
+.coach-ai-next { margin:10px 0 0; font:500 14px/1.6 var(--ui); color:var(--text); }
+.coach-ai-fixes { display:grid; gap:9px; }
+.coach-fix {
+  padding:8px 10px; border-radius:var(--r-2);
+  background:var(--surface); border:1px solid var(--line);
+}
+.coach-fix-was { font:500 14px/1.5 var(--ui); color:var(--no); text-decoration:line-through; }
+.coach-fix-new { font:600 14px/1.5 var(--ui); color:var(--ok); margin-top:2px; }
+.coach-fix .wc { margin-top:4px; }
+.coach-fix [dir="rtl"] { font-size:14px; }
+
 /* ============================================================
    modal
    ============================================================ */

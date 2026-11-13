@@ -26,8 +26,15 @@ CSB1.page('u1-review-s2', {
       },
       coach: {
         title: 'Check your solutions before you rank them',
-        ai: false,
-        taught: 'Problem solving: state the problem in one sentence, then propose solutions and judge each one for how easy and how fast it is.',
+        /* ON, to CHALLENGE the reasoning rather than mark the English. The page can count that
+           there are two lines; it cannot tell that "the team should be friendlier" is not
+           something Teresa can do, which is exactly the trap this card is built around. */
+        task: 'Teresa is three weeks into a night shift on a team that was already formed. The '
+          + 'learner has stated her problem and proposed solutions. For EACH solution ask one '
+          + 'question: is it an action TERESA HERSELF can take, on her own, without anybody '
+          + 'else agreeing to change first? Name any that are really wishes about other people. '
+          + 'Judge the reasoning, not the grammar, and propose no solutions of your own.',
+        taught:'Problem solving: state the problem in one sentence, then propose solutions and judge each one for how easy and how fast it is.',
         criteria: [
           { t: 'The problem is stated as Teresa\'s problem, not as a complaint about the team.', auto: 'words', min: 6 },
           { t: 'At least two solutions, and each one is an action Teresa herself can take.', auto: 'lines', min: 2 },

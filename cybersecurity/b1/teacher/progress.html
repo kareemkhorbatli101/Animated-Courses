@@ -89,7 +89,7 @@
     out.innerHTML = '';
     var prog = data.progress || data;
     var ORDER = Object.keys(CSB1.pages);
-    var totalDone = 0, totalCards = 0, mastered = 0, helped = 0;
+    var totalDone = 0, totalCards = 0, mastered = 0, helped = 0, aiMarked = 0;
     ORDER.forEach(function(pid){
       var def = CSB1.pages[pid], rec = prog[pid];
       totalCards += def.cards.length;
@@ -100,6 +100,7 @@
         if (cr.done) totalDone++;
         if (cr.mastered) mastered++;
         if (cr.helped) helped++;
+        if (cr.coach && cr.coach.ai && cr.coach.ai.at) aiMarked++;
       });
     });
 
@@ -111,6 +112,7 @@
       '<div><div style="font:800 30px/1 var(--ui);color:var(--primary)">'+totalDone+' / '+totalCards+'</div><div class="wc">activities completed</div></div>'+
       '<div><div style="font:800 30px/1 var(--ui);color:var(--ok)">'+mastered+'</div><div class="wc">mastered first time, unaided</div></div>'+
       '<div><div style="font:800 30px/1 var(--ui);color:var(--hint)">'+helped+'</div><div class="wc">completed with a hint or Show me</div></div>'+
+      '<div><div style="font:800 30px/1 var(--ui);color:var(--hint)">'+aiMarked+'</div><div class="wc">marked by AI, not by them</div></div>'+
       '<div><div style="font:800 30px/1 var(--ui)">'+esc(data.saved ? new Date(data.saved).toLocaleString() : '—')+'</div><div class="wc">exported</div></div>'+
       '</div>';
     sb.appendChild((function(){
@@ -122,6 +124,29 @@
     sum.appendChild(sb);
     out.appendChild(sum);
 
+    /* WHO TICKED THE CHECKLIST. A self-review that a model filled in is a different piece of
+       evidence from one the learner filled in, and a report that shows only the result cannot
+       tell a teacher which they are looking at. Three provenances, counted per card:
+       the page measured it, the learner decided it, or Gemini marked it. */
+    function tickedBy(cr){
+      var co = cr.coach;
+      if (!co || !Array.isArray(co.by) || !co.by.length) return '<span class="wc">—</span>';
+      var n = {auto:0, self:0, ai:0};
+      co.by.forEach(function(b){ if (b && n[b] !== undefined) n[b]++; });
+      var bits = [];
+      if (n.auto) bits.push('<span style="color:var(--primary)">'+n.auto+' by the page</span>');
+      if (n.self) bits.push('<span style="color:var(--rust-600)">'+n.self+' by them</span>');
+      if (n.ai)   bits.push('<b style="color:var(--hint)">'+n.ai+' by AI</b>');
+      var out = bits.join(' · ');
+      if (co.ai && co.ai.at) {
+        out += '<div class="wc" style="white-space:normal">AI marked '+
+          esc(new Date(co.ai.at).toLocaleString())+(co.ai.model? ' · '+esc(co.ai.model):'')+
+          (co.ai.dropped? ' · '+co.ai.dropped+' quote(s) dropped':'')+
+          (co.ai.conflicts? ' · '+co.ai.conflicts+' verdict(s) overruled':'')+'</div>';
+      }
+      return out;
+    }
+
     ORDER.forEach(function(pid){
       var def = CSB1.pages[pid], rec = prog[pid];
       if (!rec || !rec.cards) return;
@@ -130,15 +155,16 @@
       var block = el('div','lesson-block');
       block.innerHTML = '<h2>'+esc(def.book.lesson)+' · §'+esc(def.book.section)+' — '+esc(def.book.title)+'</h2>';
       var tbl = el('div','matrix-wrap');
-      tbl.innerHTML = '<table class="tbl"><thead><tr><th>Ex.</th><th>Activity</th><th>Score</th><th>Tries</th><th>Status</th><th>What they wrote / did</th></tr></thead><tbody>'+
+      tbl.innerHTML = '<table class="tbl"><thead><tr><th>Ex.</th><th>Activity</th><th>Score</th><th>Tries</th><th>Status</th><th>Checklist ticked by</th><th>What they wrote / did</th></tr></thead><tbody>'+
         def.cards.map(function(c){
           var cr = rec.cards[c.id];
-          if (!cr) return '<tr style="opacity:.5"><td>'+esc(c.ref||'')+'</td><td>'+esc(c.title||'')+'</td><td colspan="4">not started</td></tr>';
+          if (!cr) return '<tr style="opacity:.5"><td>'+esc(c.ref||'')+'</td><td>'+esc(c.title||'')+'</td><td colspan="5">not started</td></tr>';
           var status = cr.mastered ? '<b style="color:var(--ok)">★ mastered</b>'
             : cr.done ? (cr.helped ? '<b style="color:var(--hint)">done with help</b>' : '<b style="color:var(--ok)">done</b>')
             : '<b style="color:var(--no)">in progress</b>';
           return '<tr><td><b>'+esc(c.ref||'')+'</b></td><td>'+esc(c.title||'')+'</td>'+
             '<td>'+(cr.max?cr.score+' / '+cr.max:'—')+'</td><td>'+(cr.attempts||0)+'</td><td>'+status+'</td>'+
+            '<td style="font-size:13px;white-space:nowrap">'+tickedBy(cr)+'</td>'+
             '<td style="max-width:420px;font-size:13px">'+esc(fmt(cr.state)).slice(0,900)+'</td></tr>';
         }).join('')+'</tbody></table>';
       block.appendChild(tbl);

@@ -1387,11 +1387,14 @@
     }
     return null;
   }
-  function sourceBlock(src, api) {
+  /* The source material a card refers to, as {label, text} pairs. Two callers want it now -
+     the prompt the learner copies, and the one the page sends - and a second copy of this
+     resolution is a second answer to "what was the learner looking at". */
+  function sourceParts(src, api) {
     if (!src) return [];
     if (Array.isArray(src)) {
       var out = [];
-      src.forEach(function (s) { out = out.concat(sourceBlock(s, api)); });
+      src.forEach(function (s) { out = out.concat(sourceParts(s, api)); });
       return out;
     }
     var label, text;
@@ -1401,8 +1404,18 @@
     else if (src.picture) { label = src.label || 'PICTURE the learner is looking at (described)'; text = src.picture; }
     else if (src.chart) { label = src.label || 'CHART the learner is working from'; text = src.chart; }
     if (!text) return [];
-    return [label + ':\n"""\n' + text + '\n"""'];
+    return [{ label: label, text: text }];
   }
+  function sourceBlock(src, api) {
+    return sourceParts(src, api).map(function (s) {
+      return s.label + ':\n"""\n' + s.text + '\n"""';
+    });
+  }
+
+  /* Said once, read by both prompts - the one the learner copies and the one the page sends.
+     Functions rather than constants because a multi-unit course names its unit from the page. */
+  function courseName() { return 'Cybersecurity B1 (CEFR B1 English taught through cybersecurity, IT and AI)'; }
+  function unitName(api) { return 'Unit 1 — Learning Together'; }
 
   CSB1.promptFor = function (api, cfg, text) {
     var def = CSB1.pages[api.pageId] || { book: {}, objective: '' };
@@ -1414,8 +1427,8 @@
     L.push('The learner is studying English through cybersecurity. Their first language may be Arabic, so expect L1 interference in articles, prepositions and word order, and explain corrections simply.');
     L.push('');
     L.push('WHERE THIS SITS');
-    L.push('  Course  : Cybersecurity B1 (CEFR B1 English taught through cybersecurity, IT and AI)');
-    L.push('  Unit    : Unit 1 — Learning Together');
+    L.push('  Course  : ' + courseName());
+    L.push('  Unit    : ' + unitName(api));
     L.push('  Lesson  : ' + (b.lesson || '—') + ', section ' + (b.section === undefined ? '—' : b.section) + ', exercise ' + (card.ref || '—'));
     L.push('  Lesson objective: ' + (def.objective || '—'));
     L.push('');
@@ -1461,6 +1474,88 @@
     L.push(String(text === undefined || text === null ? '' : text).trim() || '(the learner has not written anything yet)');
     L.push('"""');
     return L.join('\n');
+  };
+
+  /* ============================================================
+     marking: the same prompt, sent instead of copied
+
+     NOTHING IS FETCHED UNTIL THE BUTTON IS PRESSED. A course has to
+     work from a USB stick with no internet, so the three files this
+     needs live at the site root and are pulled in on the first press.
+     A load that fails - a stick, a copied folder, no network - is not
+     an error state: it falls back to the copy-the-prompt panel, which
+     is everything the card had before.
+     ============================================================ */
+  var MARK_FILES = ['keyring.js', 'gemini.js', 'marker.js'];
+  var markLoad = null;
+
+  function loadScript(src) {
+    return new Promise(function (ok, no) {
+      var s = d.createElement('script');
+      s.src = src;
+      s.async = false;                       /* keyring before gemini before marker */
+      s.onload = function () { ok(src); };
+      s.onerror = function () { no(new Error('could not load ' + src)); };
+      d.head.appendChild(s);
+    });
+  }
+
+  /** Where the shared ask/ files live, worked out from THIS FILE's own URL.
+   *
+   *  The first version built it from CSB1_BASE, which points at the COURSE root, and
+   *  `CSB1_BASE + '../'` from a unit page resolved to /cybersecurity/ - one level short of the
+   *  site, and a 404 that looks exactly like being offline. core.js is always at
+   *  <course>/assets/js/core.js, so four levels up from its own directory is the site root,
+   *  whatever the course is called and however deep it sits. */
+  var SELF_URL = (d.currentScript && d.currentScript.src) || '';
+  function askBase() {
+    if (SELF_URL) {
+      try { return new w.URL('../../../../assets/ask/', SELF_URL).href; } catch (e) { }
+    }
+    return (w.CSB1_BASE || './') + '../../assets/ask/';
+  }
+
+  CSB1.loadMarker = function () {
+    if (w.CourseMarker && w.GeminiProvider && w.Keyring) return Promise.resolve(w.CourseMarker);
+    if (markLoad) return markLoad;
+    var base = askBase();
+    markLoad = MARK_FILES.reduce(function (chain, f) {
+      return chain.then(function () {
+        if ((f === 'keyring.js' && w.Keyring) || (f === 'gemini.js' && w.GeminiProvider) ||
+          (f === 'marker.js' && w.CourseMarker)) return null;
+        return loadScript(base + f);
+      });
+    }, Promise.resolve()).then(function () {
+      if (!w.CourseMarker) throw new Error('The marking helper did not load.');
+      return w.CourseMarker;
+    });
+    markLoad.catch(function () { markLoad = null; });   /* a failed load may be retried */
+    return markLoad;
+  };
+
+  /** Everything the model is given, gathered from the card the learner is on.
+   *  `autos` is what the PAGE already measured and already showed them. */
+  CSB1.markContext = function (api, cfg, text, autos) {
+    var def = CSB1.pages[api.pageId] || { book: {}, objective: '' };
+    var b = def.book || {};
+    return {
+      course: courseName(),
+      unit: unitName(api),
+      lesson: b.lesson || '',
+      section: b.section,
+      ref: (api.card && api.card.ref) || '',
+      objective: def.objective || '',
+      taught: cfg.taught ? (Array.isArray(cfg.taught) ? cfg.taught : [cfg.taught]) : [],
+      target: cfg.target || '',
+      sources: sourceParts(cfg.source, api),
+      task: cfg.task || (api.card && api.card.instruction) || '',
+      parts: cfg.parts ? (Array.isArray(cfg.parts) ? cfg.parts : [cfg.parts]) : [],
+      minWords: cfg.minWords || 0,
+      example: cfg.example || null,
+      criteria: (cfg.criteria || []).map(function (c) { return { t: c.t, note: c.note || '' }; }),
+      autos: autos || [],
+      work: text || ''
+    };
   };
 
   /* ============================================================
@@ -1881,11 +1976,25 @@
         tick.setAttribute('aria-checked', 'false');
         tick.innerHTML = '<span></span>';
         var txt = U.el('div', 'coach-txt');
-        txt.innerHTML = '<span class="coach-kind ' + (auto ? 'is-auto' : 'is-self') + '">' +
-          (auto ? 'checked for you' : 'you decide') + '</span>' + U.esc(c.t);
+        /* WHO TICKED THIS. The chip was a fixed label; it is now the row's provenance, because
+           a teacher reading a finished checklist has to be able to tell a learner's judgement
+           from a model's. Three values only: the page checked it, the learner decided, or a
+           model did - and a learner who clicks a row takes it back, which is the point. */
+        var kind = U.el('span', 'coach-kind ' + (auto ? 'is-auto' : 'is-self'),
+          auto ? 'checked for you' : 'you decide');
+        txt.appendChild(kind);
+        txt.appendChild(d.createTextNode(c.t));
         var msg = U.el('div', 'coach-msg');
         msg.hidden = true;
         r.appendChild(tick); r.appendChild(txt); r.appendChild(msg);
+        var self = { c: c, auto: auto, tick: tick, row: r, msg: msg, kind: kind,
+                     by: auto ? 'auto' : null };
+        self.setBy = function (by) {
+          self.by = by;
+          kind.className = 'coach-kind ' + (by === 'auto' ? 'is-auto' : by === 'ai' ? 'is-ai' : 'is-self');
+          kind.textContent = by === 'auto' ? 'checked for you'
+            : by === 'ai' ? 'marked by AI' : 'you decide';
+        };
         if (auto) {
           tick.disabled = true;
           tick.title = 'The page checks this one for you.';
@@ -1894,6 +2003,7 @@
             var on = tick.getAttribute('aria-checked') === 'true';
             tick.setAttribute('aria-checked', on ? 'false' : 'true');
             r.classList.toggle('is-on', !on);
+            self.setBy('self');            /* clicking it makes it yours again */
             save();
           };
           tick.addEventListener('keydown', function (ev) {
@@ -1901,46 +2011,233 @@
           });
         }
         list.appendChild(r);
-        rows.push({ c: c, auto: auto, tick: tick, row: r, msg: msg });
+        rows.push(self);
       });
       boxC.appendChild(list);
 
       function save() {
         var st = api.rec.coach = api.rec.coach || {};
         st.self = rows.map(function (r) { return r.auto ? null : r.tick.getAttribute('aria-checked') === 'true'; });
+        /* the teacher export reads this: one entry per row, saying who set it */
+        st.by = rows.map(function (r) { return r.by; });
         CSB1.progress.save();
       }
 
-      var btnRow = U.el('div', 'btn-row');
-      var bRun = U.el('button', 'btn btn-sm btn-accent', CSB1.art.icon('check', 15) + 'Check against the checklist');
-      bRun.type = 'button';
-      bRun.onclick = function () {
-        var text = getText() || '';
-        var good = 0, autoN = 0;
-        rows.forEach(function (r) {
+      /** Run the page's own checks, paint the rows, and hand back what they found.
+       *  Two callers: the button, and the context the model is sent - which is the whole
+       *  reason this is a function. A model that re-judges the word count can disagree with
+       *  the number printed two lines above it, and then the learner has two teachers. */
+      function runAutos(text) {
+        var found = [];
+        rows.forEach(function (r, i) {
           if (!r.auto) return;
-          autoN++;
           var res = CSB1.autoCheck(r.c, text) || { ok: false, msg: '' };
           r.tick.setAttribute('aria-checked', res.ok ? 'true' : 'false');
           r.row.classList.toggle('is-on', !!res.ok);
           r.row.classList.toggle('is-off', !res.ok);
           r.msg.hidden = !res.msg;
           r.msg.textContent = res.msg || '';
-          if (res.ok) good++;
+          found.push({ n: i + 1, ok: !!res.ok, msg: res.msg || '' });
         });
-        if (!autoN) { CSB1.toast('Tick the boxes yourself on this one.'); return; }
-        CSB1.toast(good + ' of ' + autoN + ' automatic checks passed.');
+        return found;
+      }
+
+      var btnRow = U.el('div', 'btn-row');
+      var bRun = U.el('button', 'btn btn-sm btn-accent', CSB1.art.icon('check', 15) + 'Check against the checklist');
+      bRun.type = 'button';
+      bRun.onclick = function () {
+        var found = runAutos(getText() || '');
+        if (!found.length) { CSB1.toast('Tick the boxes yourself on this one.'); return; }
+        var good = found.filter(function (x) { return x.ok; }).length;
+        CSB1.toast(good + ' of ' + found.length + ' automatic checks passed.');
       };
       btnRow.appendChild(bRun);
 
+      var aiBox = U.el('div', 'coach-ai');
+      aiBox.hidden = true;
+
       if (cfg.ai !== false) {
-        var bAI = U.el('button', 'btn btn-sm', CSB1.art.icon('bulb', 15) + 'Get feedback from a chatbot');
+        var bMark = U.el('button', 'btn btn-sm btn-primary', CSB1.art.icon('bulb', 15) + 'Mark my work');
+        bMark.type = 'button';
+        bMark.title = 'Sends this exercise and your answer to Google Gemini with the key saved on this computer.';
+        bMark.onclick = function () { markNow(bMark); };
+        btnRow.appendChild(bMark);
+
+        var bAI = U.el('button', 'btn btn-sm', CSB1.art.icon('copy', 15) + 'Copy the prompt instead');
         bAI.type = 'button';
-        bAI.title = 'Builds a ready-made prompt. Nothing is sent from this page — you copy it and paste it yourself.';
+        bAI.title = 'Builds the same prompt for you to paste into any chatbot. Nothing is sent from this page.';
         bAI.onclick = function () { openPrompt(); };
         btnRow.appendChild(bAI);
       }
       boxC.appendChild(btnRow);
+      boxC.appendChild(aiBox);
+
+      /* ---- send it, check what comes back, and show who decided what ---------------- */
+      function markNow(btn) {
+        var text = getText() || '';
+        if (U.words(text) < 3) {
+          CSB1.toast('Write your answer first — there is nothing to mark yet.', 3600);
+          return;
+        }
+        var autos = runAutos(text);
+        btn.disabled = true;
+        var was = btn.innerHTML;
+        btn.innerHTML = CSB1.art.icon('bulb', 15) + 'Marking…';
+        aiBox.hidden = false;
+        aiBox.innerHTML = '<div class="coach-ai-wait">Sending your answer and this exercise to Gemini…</div>';
+
+        CSB1.loadMarker()
+          .then(function (Marker) {
+            if (!w.Keyring.get()) {
+              return askForKey().then(function (ok) {
+                if (!ok) throw new Error('No key, so nothing was sent.');
+                return Marker;
+              });
+            }
+            return Marker;
+          })
+          .then(function (Marker) {
+            return Marker.mark(CSB1.markContext(api, cfg, text, autos));
+          })
+          .then(function (v) { showVerdict(v, autos); })
+          .catch(function (e) { showFailure(e); })
+          .then(function () { btn.disabled = false; btn.innerHTML = was; });
+      }
+
+      function showFailure(e) {
+        var why = U.esc(String((e && e.message) || e));
+        aiBox.innerHTML = '<div class="coach-ai-head">' + CSB1.art.icon('shield', 15) +
+          '<b>That did not work</b></div><p class="coach-msg" style="display:block">' + why + '</p>';
+        var b = U.el('button', 'btn btn-sm', CSB1.art.icon('copy', 15) + 'Copy the prompt and use any chatbot');
+        b.type = 'button';
+        b.onclick = function () { openPrompt(); };
+        aiBox.appendChild(b);
+      }
+
+      /* APPLYING a verdict and SHOWING one are two different acts, and conflating them cost a
+         learner their own work: on a reload the stored verdict was re-applied over the ticks
+         they had changed by hand since, so the page quietly undid them. A mark applies once,
+         when it arrives. A reload only draws what was already decided. */
+      function showVerdict(v, autos) {
+        applyVerdict(v, autos);
+        var st = api.rec.coach = api.rec.coach || {};
+        st.ai = {
+          at: v.at, model: v.model, blocked: v.blocked, dropped: v.dropped,
+          conflicts: v.conflicts || 0,
+          criteria: v.criteria, fixes: v.fixes, strength: v.strength, next: v.next
+        };
+        renderVerdict(v);
+        save();
+      }
+
+      function applyVerdict(v, autos) {
+        if (v.blocked) return;
+        var measured = {};
+        (autos || []).forEach(function (a) { measured[a.n] = a.ok; });
+
+        /* THE PAGE WINS ON A ROW THE PAGE MEASURED, and that is not politeness about whose
+           turn it is. The checker counted four past-tense verbs and printed them by name; a
+           model that then says "not met" on the same row puts two teachers in front of a B1
+           learner, one of whom has shown its working. The model is told these are facts, and
+           where it says otherwise anyway the verdict is dropped and counted, not hidden:
+           a silent disagreement is the one failure the reader cannot see. */
+        var conflicts = 0;
+        v.criteria.forEach(function (cv, i) {
+          var r = rows[i];
+          if (!r) return;
+          var met = cv.verdict === 'met';
+          if (!r.auto) {
+            var line = met ? 'The model agrees this is met.'
+              : cv.verdict === 'partly' ? 'The model says this is only partly met.'
+                : 'The model says this is not met yet.';
+            if (cv.evidence) line += ' “' + cv.evidence + '”';
+            r.tick.setAttribute('aria-checked', met ? 'true' : 'false');
+            r.row.classList.toggle('is-on', met);
+            r.row.classList.toggle('is-off', !met);
+            r.setBy('ai');
+            r.msg.hidden = false;
+            r.msg.textContent = line;
+            return;
+          }
+          if (measured[cv.n] === undefined) return;          /* nothing measured to compare */
+          if (measured[cv.n] !== met) { conflicts++; return; }
+          if (cv.evidence && r.msg.textContent) r.msg.textContent += '  “' + cv.evidence + '”';
+        });
+        v.conflicts = conflicts;
+      }
+
+      function renderVerdict(v) {
+        if (v.blocked) {
+          aiBox.innerHTML = '<div class="coach-ai-head">' + CSB1.art.icon('shield', 15) +
+            '<b>Not marked</b></div><p class="coach-msg" style="display:block">' +
+            U.esc(v.blocked) + '</p>';
+          return;
+        }
+        var h = '<div class="coach-ai-head">' + CSB1.art.icon('bulb', 15) +
+          '<b>Marked by Gemini</b><span class="coach-kind is-ai">you can change any tick</span></div>';
+        if (v.strength) h += '<p class="coach-ai-good">' + U.esc(v.strength) + '</p>';
+        if (v.fixes.length) {
+          h += '<div class="coach-ai-fixes">';
+          v.fixes.forEach(function (f) {
+            h += '<div class="coach-fix"><div class="coach-fix-was">' + U.esc(f.was) + '</div>' +
+              '<div class="coach-fix-new">' + U.esc(f.better) + '</div>' +
+              (f.why ? '<div class="wc">' + U.esc(f.why) + '</div>' : '') +
+              (f.why_ar ? '<div class="wc" dir="rtl" lang="ar">' + U.esc(f.why_ar) + '</div>' : '') +
+              '</div>';
+          });
+          h += '</div>';
+        }
+        if (v.next) h += '<p class="coach-ai-next"><b>Next time:</b> ' + U.esc(v.next) + '</p>';
+        /* a quotation the model could not have taken from the learner is dropped, and saying
+           so is better than a silent gap - it is the one failure a reader cannot see */
+        if (v.dropped) {
+          h += '<p class="wc">' + v.dropped + ' quotation' + (v.dropped > 1 ? 's were' : ' was') +
+            ' left out: the words were not found in what you wrote.</p>';
+        }
+        if (v.conflicts) {
+          h += '<p class="wc">' + v.conflicts + ' verdict' + (v.conflicts > 1 ? 's' : '') +
+            ' disagreed with what this page measured, so ' + (v.conflicts > 1 ? 'they were' : 'it was') +
+            ' left out. The rows marked “checked for you” are counted by the page.</p>';
+        }
+        h += '<p class="wc">Marked ' + new Date(v.at).toLocaleString() +
+          (v.model ? ' · ' + U.esc(v.model) : '') + '. Your teacher can see that this was marked by AI.</p>';
+        aiBox.innerHTML = h;
+      }
+
+      /* One key per computer, as the owner asked: whatever the home page already saved is what
+         a course page uses, and a course page that needs one asks for it the same way. */
+      function askForKey() {
+        return new Promise(function (done) {
+          var node = U.el('div');
+          node.innerHTML = '<p class="coach-lead">Marking uses Google Gemini and your own free key. ' +
+            'It is saved in this browser on this computer, and the whole site then uses it.</p>';
+          var inp = U.el('input', 'inp');
+          inp.type = 'password';
+          inp.placeholder = 'Paste your Gemini API key';
+          inp.setAttribute('aria-label', 'Gemini API key');
+          node.appendChild(inp);
+          var a = U.el('a', 'wc', 'Get a free key at aistudio.google.com ↗');
+          a.href = 'https://aistudio.google.com/app/apikey';
+          a.target = '_blank'; a.rel = 'noopener noreferrer';
+          a.style.display = 'block';
+          a.style.marginTop = '8px';
+          node.appendChild(a);
+          var m = CSB1.modal({
+            title: 'A key is needed once',
+            node: node,
+            onClose: function () { done(!!w.Keyring.get()); },
+            actions: [{
+              label: CSB1.art.icon('check', 15) + 'Save the key', cls: 'btn-primary', keep: true,
+              onclick: function () {
+                var v = inp.value.trim();
+                if (!w.Keyring.looksLikeAKey(v)) { CSB1.toast('That does not look like a key.', 3200); return; }
+                w.Keyring.set(v, true);
+                m.close();
+              }
+            }, { label: 'Not now' }]
+          });
+        });
+      }
 
       function openPrompt() {
         var text = getText() || '';
@@ -1982,7 +2279,7 @@
         });
       }
 
-      /* restore self-ticks */
+      /* restore the ticks, WHO SET THEM, and the last marking */
       var st = api.rec.coach;
       if (st && Array.isArray(st.self)) {
         st.self.forEach(function (v, i) {
@@ -1991,6 +2288,24 @@
             rows[i].row.classList.add('is-on');
           }
         });
+      }
+      if (st && Array.isArray(st.by)) {
+        st.by.forEach(function (by, i) {
+          if (by && rows[i] && !rows[i].auto) rows[i].setBy(by);
+        });
+      }
+      if (st && st.ai && st.ai.at) {
+        /* DRAWN, not re-applied: a reload must not cost the learner a call, and must not
+           undo a tick they changed by hand after the marking */
+        aiBox.hidden = false;
+        try {
+          renderVerdict({
+            at: st.ai.at, model: st.ai.model, blocked: st.ai.blocked || null,
+            dropped: st.ai.dropped || 0, conflicts: st.ai.conflicts || 0,
+            criteria: st.ai.criteria || [],
+            fixes: st.ai.fixes || [], strength: st.ai.strength || '', next: st.ai.next || ''
+          });
+        } catch (e4) { aiBox.hidden = true; }
       }
 
       host.appendChild(boxC);

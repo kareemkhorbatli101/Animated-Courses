@@ -120,7 +120,14 @@ CSB1.page('u1-review-s1', {
       ],
       coach: {
         title: 'Check your three questions',
-        ai: false,
+        /* ON, as a check on QUESTION FORMATION - the thing the page's regular expression cannot
+           see. It can count question marks; it cannot tell "What she was doing?" from "What was
+           she doing?", and that inversion is the whole of what Lesson 3 taught. */
+        task: 'Three questions the learner wrote, each one meant to follow from the answer '
+          + 'printed above it. For EACH question check: it is formed as a question in English '
+          + '(auxiliary and subject the right way round, "What was she doing?" not "What she '
+          + 'was doing?"); its tense matches what the answer above it calls for; and it follows '
+          + 'from that answer rather than starting a new topic. Do not suggest better topics.',
         taught: 'The four tenses from Lesson 3. Each question here must use a different one, and the page tells you which tense it heard.',
         criteria: [
           { t: 'All three are questions, with question marks.', auto: 'has', rx: '\\?[\\s\\S]*\\?[\\s\\S]*\\?', pass: 'Three questions found.', fail: 'All three have to be questions — check that each one ends with a question mark.' },
@@ -246,7 +253,14 @@ CSB1.page('u1-review-s1', {
       },
       coach: {
         title: 'Check your fourth column',
-        ai: false,
+        /* ON, as a tense-agreement check between each question and the answer written under it.
+           These are a classmate's words, written down by the learner, so the CONTENT is not
+           theirs to be marked on - only whether what they wrote down answers what was asked. */
+        task: 'Four answers the learner collected from a classmate, one under each question. '
+          + 'For EACH, check only that the answer is in the tense its question calls for, and '
+          + 'that it answers that question rather than a different one. The words are another '
+          + 'person\'s, taken down by the learner: never judge the content, the opinions or '
+          + 'how interesting the answers are, and do not ask for longer answers.',
         taught: 'The four tenses from Lesson 3, one per question: simple present, present continuous, simple past, past continuous.',
         criteria: [
           { t: 'I wrote down what a real classmate said, in their words.', auto: 'words', min: 12 },

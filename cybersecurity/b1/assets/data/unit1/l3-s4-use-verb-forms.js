@@ -104,8 +104,16 @@ CSB1.page('u1-l3-s4', {
       ],
       coach: {
         title: 'Check your four answers',
-        ai: false,
-        taught: 'The four tenses from §1: simple present for habits, present continuous for now, simple past for finished actions, past continuous for what was in progress.',
+        /* ON, as a GRAMMAR check. Four replies to four spoken lines, each line written to pull
+           a particular tense out of the learner. A page can count past-tense verbs; only a
+           reader can tell whether the reply answers the question it was given, and that is
+           the half this card was always missing. */
+        task: 'Four short replies, one to each spoken line above them. For EACH reply, check '
+          + 'two things only: that it answers the line it sits under, and that its verb is in '
+          + 'the tense that line calls for (a question in the past wants a past answer; "what '
+          + 'are you working on at the moment" wants the present continuous). The content is '
+          + 'the learner\'s own schedule - never judge whether it is true or interesting.',
+        taught:'The four tenses from §1: simple present for habits, present continuous for now, simple past for finished actions, past continuous for what was in progress.',
         criteria: [
           { t: 'Each answer actually answers the question above it.', auto: 'words', min: 16 },
           { t: 'At least four past-tense verbs across the four answers.', auto: 'past', need: 2 },

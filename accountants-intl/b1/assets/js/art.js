@@ -756,6 +756,9 @@
     face: 'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM8 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-5 5h8a4 4 0 0 1-8 0z',
     mask: 'M4 8h16v2a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6z',
     check: 'M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z',
+    /* A.icon falls back to `check` for a name it does not know, so a button labelled
+       "copy" would have silently shown a tick. Two sheets, the back one offset. */
+    copy: 'M15 1H4a2 2 0 0 0-2 2v12h2V3h11zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h10z',
     x: 'M19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z',
     bulb: 'M9 21h6v-1H9zm3-19A7 7 0 0 0 8 15h8a7 7 0 0 0-4-13zM9 17h6v2H9z',
     eye: 'M12 5C6 5 2 12 2 12s4 7 10 7 10-7 10-7-4-7-10-7zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8z',
