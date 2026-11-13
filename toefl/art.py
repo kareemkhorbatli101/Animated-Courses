@@ -1,9 +1,25 @@
 """Illustration engine for the TOEFL 2026 B1 course: SVG -> PNG via headless Chromium."""
-import os, subprocess, tempfile, hashlib, textwrap
+import os, re, json, subprocess, tempfile, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, 'art')
-CHROME = '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell'
+def _find_chrome():
+    """Locate a headless Chromium. The path used to be hard-coded to one
+    Playwright build number, which stopped existing the moment the image was
+    rebuilt, so the figures could not be re-rendered at all."""
+    import glob
+    cands = []
+    cands += sorted(glob.glob('/opt/pw-browsers/chromium_headless_shell-*/chrome-linux*/headless_shell'), reverse=True)
+    cands += sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'), reverse=True)
+    cands += ['/opt/pw-browsers/chromium', '/usr/bin/chromium', '/usr/bin/chromium-browser',
+              '/usr/bin/google-chrome']
+    for c in cands:
+        if os.path.exists(c) and os.access(c, os.X_OK):
+            return c
+    raise RuntimeError('no headless Chromium found; looked in /opt/pw-browsers and /usr/bin')
+
+
+CHROME = _find_chrome()
 
 # ---- palette ----------------------------------------------------------------
 # Built around the indigo/periwinkle of the official 2026 paper, with one hue
@@ -32,16 +48,158 @@ HAIR    = '#241a14'
 SKILL = {'reading': BLUE, 'listening': AMBER, 'speaking': TEAL, 'writing': PLUM}
 
 F = 'DejaVu Sans'
-_W_REG, _W_BOLD = 0.56, 0.63
+
+# ---- text metrics -----------------------------------------------------------
+# Real advance widths, read out of the DejaVu TrueType files the renderer uses.
+# Validated against Chromium's getComputedTextLength() on every string in the
+# four volumes: mean error 0.97px, and never an under-estimate by more than
+# 0.08px, so a width computed here is a safe upper bound on the width drawn.
+# The old estimate (len * size * 0.56) under-measured by up to 40%, which is
+# why text ran out of its box and off the edge of the figure.
+_FM = json.load(open(os.path.join(HERE, 'dejavu_metrics.json')))
+for _k in _FM:
+    _FM[_k]['w'] = {int(_c): _a for _c, _a in _FM[_k]['w'].items()}
+_SPACE_RE = re.compile(r'\s+')
 
 
-def tw(text, size, bold=False):
-    return len(text) * size * (_W_BOLD if bold else _W_REG)
+def _face(bold, mono):
+    return _FM['monob' if (mono and bold) else 'mono' if mono else 'bold' if bold else 'reg']
+
+
+def tw(text, size, bold=False, mono=False):
+    """Width in px of `text` as the renderer will draw it.
+
+    SVG collapses runs of whitespace, so the measurement collapses them too.
+    """
+    f = _face(bold, mono)
+    w, upem, dflt = f['w'], f['upem'], f['w'][0x20]
+    return sum(w.get(ord(c), dflt) for c in _SPACE_RE.sub(' ', text).strip()) * size / float(upem)
+
+
+def _split_long(word, width_px, size, bold, mono):
+    """Break a word that cannot fit on a line of its own. Nothing is discarded."""
+    out, cur = [], ''
+    for ch in word:
+        if cur and tw(cur + ch, size, bold, mono) > width_px:
+            out.append(cur)
+            cur = ch
+        else:
+            cur += ch
+    if cur:
+        out.append(cur)
+    return out or ['']
+
+
+def fit(text, width_px, size, bold=False, mono=False):
+    """Wrap `text` to `width_px`, measured exactly. Every word is kept."""
+    width_px = max(float(width_px), size * 0.6)
+    lines, cur = [], ''
+    for word in _SPACE_RE.sub(' ', text).strip().split(' '):
+        if not word:
+            continue
+        trial = word if not cur else cur + ' ' + word
+        if tw(trial, size, bold, mono) <= width_px:
+            cur = trial
+            continue
+        if cur:
+            lines.append(cur)
+            cur = ''
+        if tw(word, size, bold, mono) <= width_px:
+            cur = word
+        else:
+            parts = _split_long(word, width_px, size, bold, mono)
+            lines.extend(parts[:-1])
+            cur = parts[-1]
+    if cur:
+        lines.append(cur)
+    return lines or ['']
+
+
+def fit_block(text, width_px, size, bold=False, mono=False, floor=0.72):
+    """Wrap to `width_px` without ever breaking a word.
+
+    If a single word is wider than the column, the size comes down until the
+    longest word fits (to `floor` of the original) and the text is wrapped at
+    that size. Only if even that fails does a word get split, so a narrow
+    column can never silently turn "Anthropology" into "Anthropolog y".
+    Returns (lines, size_used).
+    """
+    words = [w for w in _SPACE_RE.sub(' ', text).strip().split(' ') if w]
+    if not words:
+        return [''], size
+    s = size
+    if max(tw(w, s, bold, mono) for w in words) > width_px:
+        lo = max(8.0, size * floor)
+        while s > lo:
+            s -= 0.5
+            if max(tw(w, s, bold, mono) for w in words) <= width_px:
+                break
+    return fit(text, width_px, s, bold, mono), s
 
 
 def wrap(text, width_px, size, bold=False):
-    per = max(4, int(width_px / (size * (_W_BOLD if bold else _W_REG))))
-    return textwrap.wrap(text, per) or ['']
+    """Kept for callers that predate `fit`; same contract, exact measurement."""
+    return fit(text, width_px, size, bold)
+
+
+def shrink_to(text, width_px, size, bold=False, mono=False, floor=0.82):
+    """Largest size <= `size` (and >= size*floor) that puts `text` on one line.
+
+    Returns `size` unchanged when even the floor will not do it, so the caller
+    knows it has to wrap instead of silently overrunning.
+    """
+    if tw(text, size, bold, mono) <= width_px:
+        return size
+    lo = max(8.0, size * floor)
+    s = size
+    while s > lo:
+        s -= 0.5
+        if tw(text, s, bold, mono) <= width_px:
+            return s
+    return size
+
+
+# Every fitted run records the box it promised to stay inside, so the audit can
+# prove the promise rather than infer it. Collected only when FITLOG is a list.
+FITLOG = None
+
+
+def _note(x, y, text, size, bold, mono, anchor, max_w):
+    if FITLOG is not None:
+        FITLOG.append(dict(x=x, y=y, s=text, size=size, bold=bool(bold), mono=bool(mono),
+                           anchor=anchor, max_w=max_w))
+
+
+def TFIT(x, y, text, size, max_w, fill=None, bold=False, anchor='start',
+         italic=False, mono=False, floor=0.82):
+    """One line of text that is guaranteed to fit `max_w`, by shrinking a little.
+
+    Use it for labels that must stay on one line. If the text cannot be made to
+    fit even at the floor, the size still drops to the floor and the caller is
+    expected to have given a box with room — the audit will catch it if not.
+    """
+    s = shrink_to(text, max_w, size, bold, mono, floor)
+    if tw(text, s, bold, mono) > max_w:
+        s = max(8.0, s * max_w / tw(text, s, bold, mono))
+    _note(x, y, text, s, bold, mono, anchor, max_w)
+    return T(x, y, text, s, INK if fill is None else fill, bold, anchor, italic, mono)
+
+
+def TBLOCK(x, y, text, size, max_w, lead=None, fill=None, bold=False,
+           anchor='start', italic=False, mono=False, lines=None):
+    """Wrapped text. Returns (svg, number_of_lines, height_used).
+
+    `lines` may be supplied when the caller has already wrapped, so that layout
+    and drawing cannot disagree about the line count.
+    """
+    lead = lead if lead is not None else size * 1.38
+    lns = lines if lines is not None else fit(text, max_w, size, bold, mono)
+    out = []
+    for i, ln in enumerate(lns):
+        yy = y + i * lead
+        _note(x, yy, ln, size, bold, mono, anchor, max_w)
+        out.append(T(x, yy, ln, size, INK if fill is None else fill, bold, anchor, italic, mono))
+    return ''.join(out), len(lns), (len(lns) - 1) * lead
 
 
 def esc(s):

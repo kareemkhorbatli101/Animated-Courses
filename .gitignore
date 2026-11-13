@@ -40,3 +40,8 @@ AlHasan_Book1_Extra_Site.zip
 
 # The Student Book 2 (B1) extra-material bundle: unpacks to sb2-extra/
 AlHasan_Book2_B1_Extra_Site.zip
+
+# Delivery bundle for the TOEFL course. The four volumes inside it are tracked
+# individually, so committing the zip would store them twice. Rebuild with:
+#   zip -9 -j TOEFL_2026_Complete_FIXED.zip TOEFL_2026_B*_Volume_*.docx TOEFL_Figure_Fix_Report.md
+TOEFL_2026_Complete_FIXED.zip
