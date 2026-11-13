@@ -177,12 +177,20 @@
              * six exposures rendered and measured against the poster over the whole frame, giving
              * 0.24 -> 101.8 and 0.28 -> 111.7, and 0.257 by interpolation between them.
              *
+             * IT IS A FACT ABOUT ONE PICTURE, AND THE PICTURE CHANGED. Moving the shot onto the
+             * greeter's own axis (v29.37) put the whiteboard wall behind him instead of the
+             * darker one, and 0.257 then measured 131.9 against the poster's 129.8 - inside the
+             * 3% the gate allows, but drifting, and a constant left alone because it still
+             * passes is how the next one gets written. Re-solved the same way, against the new
+             * poster: 0.2528 -> 130.9 (+0.82%), 0.2483 -> 129.3 (-0.37%). The response is not
+             * linear in the exposure - ACES is a curve - so it is iterated, not divided.
+             *
              * It is specific to this panel and nothing else reads it. If the poster is ever
-             * re-rendered, this number has to be re-measured, and gates/site_ask fails if the two
-             * frames' mean luminance drifts apart by more than a few per cent. */
+             * re-rendered, this number has to be re-measured, and gates/front_door_face F2 fails
+             * if the two frames' mean luminance drifts apart by more than a few per cent. */
             if (THREE.sRGBEncoding) renderer.outputEncoding = THREE.sRGBEncoding;
             if (THREE.ACESFilmicToneMapping) renderer.toneMapping = THREE.ACESFilmicToneMapping;
-            renderer.toneMappingExposure = 0.257;
+            renderer.toneMappingExposure = 0.2483;
             renderer.setClearColor(0x000000, 1);
             st.player = new root.ScenePlayer(THREE, renderer);
             return new Promise(function (ok) {
