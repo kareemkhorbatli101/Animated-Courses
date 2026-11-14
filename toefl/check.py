@@ -272,12 +272,18 @@ taken taught told thought understood worn won written
 # -ed words that behave as adjectives at this level, and -ing words that are
 # nouns or adjectives. Neither signals the structure the gate is looking for.
 ED_OK = set("""tired interested married closed crowded excited bored worried pleased
-surprised finished united advanced limited""".split())
+surprised finished united advanced limited shared included allowed needed
+used fixed mixed printed written spoken known""".split())
 ING_OK = set("""interesting boring exciting amazing surprising confusing relaxing
 tiring willing missing building meeting morning evening spring shopping parking
 swimming cooking sitting ceiling something nothing everything anything king ring
+drinking washing shopping living dining sleeping working starting ending
 thing during string wedding feeling painting beginning warning""".split())
 BE = set("am is are be been being 'm 're 's".split())
+# 'going to the library' is a journey, not the future tense.
+_PLACE = set("""the a an my your his her their our this that these those
+room bed work school college class town hospital university library canteen
+office laboratory it him me us them you sleep""".split())
 HAVE = set("have has 've".split())
 
 
@@ -317,6 +323,17 @@ def _in_question(toks, i):
     return False
 
 
+def _after_have(toks, i):
+    """'got' belongs to 'have got' even with a subject in between:
+    have you got, has your brother got."""
+    for j in range(i - 1, max(-1, i - 5), -1):
+        if toks[j] in ('.', '?', '!', ';', ':'):
+            return False
+        if toks[j] in HAVE:
+            return True
+    return False
+
+
 def _containment(toks, n, bad):
     """No structure may appear in a text before the unit that teaches it."""
     def show(i):
@@ -324,6 +341,11 @@ def _containment(toks, n, bad):
 
     for i, w in enumerate(toks):
         nxt = toks[i + 1] if i + 1 < len(toks) else ''
+        prv = toks[i - 1] if i else ''
+        # 'have got' is the possessive this book teaches in unit 4, not a
+        # present perfect and not a past tense.
+        if n >= 4 and (w in HAVE and nxt == 'got' or w == 'got' and _after_have(toks, i)):
+            continue
         if w in HAVE and _pp(nxt):
             bad('present perfect before it is taught: ...%s...' % show(i))
             return
@@ -355,7 +377,9 @@ def _containment(toks, n, bad):
                        or (w == 'more' and toks[i + 2:i + 3] == ['than'])):
             bad('comparison appears before unit 10 teaches it: ...%s...' % show(i))
             return
-        if n < 10 and (w in ("will", "'ll", 'wont') or (w == 'going' and nxt == 'to')):
+        if n < 10 and (w in ("will", "'ll", 'wont')
+                       or (w == 'going' and nxt == 'to'
+                           and toks[i + 2:i + 3] and toks[i + 2] not in _PLACE)):
             bad('the future appears before unit 10 teaches it: ...%s...' % show(i))
             return
 
@@ -393,7 +417,10 @@ def _texts(U):
     out += [a for _, _, a in U['w1']['guided'] + U['w1']['exam']]
     out += list(U['w2']['scenario']) + list(U['w2']['bullets']) + list(U['w2']['model'])
     out += [U['w3']['question']] + [p[-1] for p in U['w3']['posts']] + list(U['w3']['model'])
-    out += [c for c, _ in U['rev']['vocab']] + [c for c, _ in U['rev']['gram']]
+    # fill the blank with its answer: a gapped sentence is not a sentence, and
+    # the gate must read what the student will have written.
+    out += [c for c, _ in U['rev']['vocab']]
+    out += [re.sub(r'_{2,}', a, c, count=1) for c, a in U['rev']['gram']]
     for stem, opts, _, _ in U['rev']['mini']:
         out.append(stem); out += list(opts)
     return [t for t in out if isinstance(t, str) and t.strip()]
