@@ -617,6 +617,14 @@ def _check_found(U, bad, taught, TAB, XTAB, contain, strip=_STRIP, extra=None):
 
     # --- vocabulary control ---------------------------------------------
     mine = [w for w, _ in heads(U)]
+    # The grammar page's answer key is explicit instruction: a unit whose
+    # grammar point is word building prints 'attend -> attention' in a table
+    # and then asks for it in an exercise, so those answers are taught words
+    # even though they are not head words. Without this a unit cannot teach a
+    # rule that produces vocabulary.
+    for _t, _qs, _as in U.get('gram', {}).get('ex', ()):
+        for _a in _as:
+            mine += [x.strip('.,;:()\u2014 ') for x in str(_a).split()]
     out = unknown(blob, list(taught) + mine, U.get('names', ()), extra)
     if out:
         seen, uniq = set(), []
