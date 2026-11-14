@@ -45,3 +45,6 @@ AlHasan_Book2_B1_Extra_Site.zip
 # individually, so committing the zip would store them twice. Rebuild with:
 #   zip -9 -j TOEFL_2026_Complete_FIXED.zip TOEFL_2026_B*_Volume_*.docx TOEFL_Figure_Fix_Report.md
 TOEFL_2026_Complete_FIXED.zip
+
+# The five-volume delivery bundle. Every .docx inside it is tracked on its own.
+TOEFL_2026_Complete_5_Volumes.zip

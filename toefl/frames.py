@@ -679,15 +679,23 @@ def hedge_scale(rows):
 # TFIT()/TBLOCK(), so no text in them can ever reach the edge of the image.
 
 def sound_strip(title, rows, accent=AMBER):
-    """Sound and spelling: a symbol, the words that carry it, and a note.
+    """Sound and spelling: a label, the words that carry it, and a note.
 
-    rows: [(symbol, [example words], note)]
+    The label cell is a rounded box rather than a circle, because some labels
+    are a phoneme (/i:/) and some are a pair of words (wasn't / weren't), and a
+    circle cannot hold the second kind without clipping it.
+
+    rows: [(label, [example words], note)]
     """
-    SX, CX = 92, 150                      # symbol centre, content left edge
-    CW = W - CX - 40                      # content width
-    LEAD, NLEAD = 34, 24
+    LX, LW = 36, 118                      # label cell
+    CX = LX + LW + 22                     # content left edge
+    CW = W - CX - 40
+    LEAD, NLEAD, LLEAD = 34, 24, 24
     laid = []
-    for sym, ex, note in rows:
+    for label, ex, note in rows:
+        # the label wraps to at most two lines and shrinks until it fits
+        llines, lsize = fit_block(label, LW - 16, 20, bold=True, floor=0.55)
+        llines = llines[:2]
         chips, cur, curw = [], [], 0.0
         for e in ex:
             w_ = tw(e, 19) + 26
@@ -697,20 +705,24 @@ def sound_strip(title, rows, accent=AMBER):
         if cur:
             chips.append(cur)
         nl = fit(note, CW, 17) if note else []
-        h_ = max(76, 14 + len(chips) * LEAD + (len(nl) * NLEAD if nl else 0) + 14)
-        laid.append((sym, chips, nl, h_))
+        h_ = max(76, 14 + len(chips) * LEAD + (len(nl) * NLEAD if nl else 0) + 14,
+                 20 + len(llines) * LLEAD + 20)
+        laid.append((llines, lsize, chips, nl, h_))
     head = 64
-    h = head + sum(r[3] for r in laid) + 20
+    h = head + sum(r[4] for r in laid) + 20
     g = [R(0, 0, W, h, PAPER)]
     g.append(R(16, 10, W - 32, h - 20, PAPER, RULE, 2, 10))
     g.append(R(16, 10, W - 32, head - 8, accent, rx=10))
     g.append(R(16, head - 24, W - 32, 18, accent))
     g.append(TFIT(40, head - 18, title, 23, W - 96, PAPER, bold=True))
     y = head + 6
-    for sym, chips, nl, h_ in laid:
-        g.append(C(SX, y + h_ / 2 - 6, 30, SOFT))
-        g.append(C(SX, y + h_ / 2 - 6, 30, 'none', accent, 2))
-        g.append(TFIT(SX, y + h_ / 2 + 2, sym, 21, 52, INK, bold=True, anchor='middle'))
+    for llines, lsize, chips, nl, h_ in laid:
+        lh = len(llines) * LLEAD + 18
+        g.append(R(LX, y + (h_ - lh) / 2.0 - 6, LW, lh, SOFT, accent, 2, 10))
+        ly = y + (h_ - lh) / 2.0 - 6 + (lh - len(llines) * LLEAD) / 2.0 + lsize
+        blk, _, _ = TBLOCK(LX + LW / 2.0, ly, None, lsize, LW - 16, LLEAD, INK,
+                           bold=True, anchor='middle', lines=llines)
+        g.append(blk)
         cy = y + 14
         for row in chips:
             x = CX
@@ -723,7 +735,7 @@ def sound_strip(title, rows, accent=AMBER):
             blk, _, _ = TBLOCK(CX, cy + 16, None, 17, CW, NLEAD, GREY, lines=nl)
             g.append(blk)
         y += h_
-        if (sym, chips, nl, h_) is not laid[-1]:
+        if (llines, lsize, chips, nl, h_) is not laid[-1]:
             g.append(_rule(y - 4, 40, W - 40))
     return render(''.join(g), W, int(h), PAPER)
 

@@ -633,6 +633,45 @@ def render_test(d, T):
     return key
 
 
+def first_sight(d):
+    """One real Volume 1 passage, unchanged, and nobody is scored on it.
+
+    Seeing the destination is motivating. Being graded against it is not.
+    """
+    import importlib as _il
+    U = _il.import_module('content.u01').UNIT
+    r3 = U['r3']
+    d.unit_title('First sight of the real thing')
+    d.strapline('One page from Volume 1 \u00b7 do not mark this, and do not worry about it')
+    d.cefr('This is the Academic Passage from Volume 1, Unit 1. Nothing has been changed.')
+    d.body_p('Everything else in this book was written for you. This page was not. It is '
+             'the real passage from the next book, at the real length and the real level, '
+             'and it is here for one reason: so that you know exactly what you are walking '
+             'towards.')
+    d.h3('Before you read')
+    d.bullets([
+        'It is about two hundred and sixty-five words. The longest passage in this book '
+        'is a hundred and seventy-five.',
+        'There will be words you do not know. Fifteen is normal at this point. Twenty-five '
+        'means do the glossary of this book once more first.',
+        'Do not look anything up. Read it once, at speed, and see how much comes through.',
+        'Then read it again slowly. The second reading is where the difference is.'])
+    d.passage(r3['title'], r3['paras'], r3['words'])
+    d.h3('Now count')
+    d.body_p('Count the words you did not know on the first reading and write the number '
+             'here. Then come back to this page when you have finished Volume 1 Unit 1 and '
+             'count again.')
+    d.keyline('Words I did not know today', '_______')
+    d.keyline('Date', '_______')
+    d.h3('What you already have')
+    d.body_p('You can read the first sentence of every paragraph and say what the '
+             'paragraph is about. You know how the questions after it will be laid out, '
+             'because they are laid out that way in this book, on the same page of every '
+             'unit. That is not nothing. That is most of what a reader needs, and the rest '
+             'is vocabulary, which is a matter of time rather than of talent.')
+    d.page_break_section()
+
+
 # -------------------------------------------------------------- back matter --
 def _testname(vol, units):
     return ('Progress Test F' if units[0].get('level') == 'A2'
@@ -671,8 +710,11 @@ def answer_key(d, vol, units, tkey, ukeys):
         d.keyline('C  Mini-section', ' · '.join('%d %s' % (i, a) for i, a, _ in mini))
         d.page_break_section()
     d.keybar(_testname(vol, units))
-    for sec in ('reading 1', 'reading 2', 'listening 1', 'listening 2'):
-        d.h3(sec.title().replace(' ', ', Module '), BLUE if 'read' in sec else AMBER)
+    for sec in [k for k in ('reading 1', 'reading 2', 'listening 1', 'listening 2')
+                if k in tkey]:
+        one = len([k for k in tkey if k.startswith(sec.split()[0])]) == 1
+        d.h3(sec.split()[0].title() if one else sec.title().replace(' ', ', Module '),
+             BLUE if 'read' in sec else AMBER)
         d.keygrid([a for _, a, _ in tkey[sec]], 5)
         for num, ans, why in tkey[sec]:
             if why:
@@ -857,6 +899,8 @@ def build(vol, out):
     for u in units:
         ukeys[u['n']] = render_unit(d, u)
     tkey = render_test(d, T)
+    if lvl == 'A2':
+        first_sight(d)
     answer_key(d, vol, units, tkey, ukeys)
     audio_scripts(d, vol, units, T)
     glossary(d, vol, units)
@@ -904,9 +948,11 @@ BULLETS = {'A2': [
 ]}
 
 if __name__ == '__main__':
-    v = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    _lv = 'B2' if v >= 3 else 'B1'
+    _a = sys.argv[1] if len(sys.argv) > 1 else '1'
+    v = 'F' if _a.upper() == 'F' else int(_a)
+    _lv = 'A2' if v == 'F' else ('B2' if v >= 3 else 'B1')
     o = sys.argv[2] if len(sys.argv) > 2 else (
-        '/home/user/Animated-Courses/TOEFL_2026_%s_Volume_%d.docx' % (_lv, v))
+        '/home/user/Animated-Courses/TOEFL_2026_Foundation.docx' if v == 'F'
+        else '/home/user/Animated-Courses/TOEFL_2026_%s_Volume_%d.docx' % (_lv, v))
     path, nimg = build(v, o)
     print('wrote', path, os.path.getsize(path), 'bytes,', nimg, 'images')
