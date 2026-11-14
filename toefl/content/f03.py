@@ -12,7 +12,8 @@ UNIT = dict(
     subs=('A week of classes', 'The clock and the calendar', 'Changing a time'),
     grammar='present simple · third-person -s · adverbs of frequency',
     field='time, days, routine',
-    names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Dale', 'Block', 'Patel'),
+    names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Dale', 'Block', 'Patel',
+           'Earth', 'Greek'),
     opener_line='Three sub-topics, three cycles in every skill. Almost every Listening '
                 'question in the real test turns on a time or a day. This unit is that.',
     candos=[
@@ -741,3 +742,8 @@ UNIT = dict(
         'words: 9.45, not quarter to ten. Figures take one second and words take four, and '
         'the audio does not wait for you.',
 )
+
+# ---- the two academic cycles (field: Space and the Sky) -------------------
+from .fx03 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)

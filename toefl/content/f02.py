@@ -12,7 +12,7 @@ UNIT = dict(
     subs=('A campus map', 'The library', 'Asking the way'),
     grammar='there is and there are · prepositions of place · this, that, these, those',
     field='places, directions, buildings',
-    names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Block', 'Dale'),
+    names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Block', 'Dale', 'Roman'),
     opener_line='Three sub-topics, three cycles in every skill. Unit 1 gave you the people. '
                 'This unit gives you the place they are in.',
     candos=[
@@ -725,3 +725,8 @@ UNIT = dict(
         'hear a number, write the figure down at once — 13, not thirteen. Figures are '
         'faster, and you can still hear the next sentence while you write them.',
 )
+
+# ---- the two academic cycles (field: Making and Building) -----------------
+from .fx02 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)

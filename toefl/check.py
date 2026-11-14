@@ -548,9 +548,11 @@ def _check_a2(U, bad, taught):
 
     # --- grammar containment ---------------------------------------------
     low = blob.lower()
+    # 'made of' is a fixed lexical phrase at this level, not a productive
+    # passive, and it is unavoidable in a unit about materials.
     for phrase in ('used to', 'how are you', 'nice to meet you', 'excuse me',
                    'would like', 'thank you', 'see you', 'good morning',
-                   'where are you from', 'i am from'):
+                   'where are you from', 'i am from', 'made of', 'made from'):
         low = low.replace(phrase, ' ')
     _containment(_tok(low), n, bad)
 
