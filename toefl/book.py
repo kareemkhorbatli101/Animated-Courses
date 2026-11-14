@@ -249,6 +249,10 @@ def render_unit(d, U):
     # silently dropped every academic cycle out of Foundation 2.
     a2 = U.get('level') in FOUND
     ax = a2 and 'r4' in U
+    # Volumes 3 to 6 carry the same five cycles a skill, on their own
+    # subject rather than on a bridge into Volume 1. Rendering them was
+    # the whole of what gate 8 found missing.
+    bx = (not a2) and 'r4' in U
     sp = Spread()
     key = {}            # section -> list of (number, answer, why)
 
@@ -335,6 +339,32 @@ def render_unit(d, U):
             key[tag] = k
             d.page_break_section()
 
+    if bx:
+        d.partbar('Deeper into the field: %s' % U['title'],
+                  'Two more cycles in every skill, on the same subject',
+                  'reading')
+        d.body_p('Reading 3 took one question in this field. The two cycles that '
+                 'follow go further in. Cycle 4 sets out the claim the field is '
+                 'built on, and cycle 5 is the objection to that claim, because '
+                 'an academic subject is an argument and not a list of findings. '
+                 'Both passages are longer and denser than anything earlier in '
+                 'the unit, which is the point of them.')
+        d.wordlist(U['fieldwords'], 2, BLUE)
+        d.page_break_section()
+        for tag in ('r4', 'r5'):
+            blk = U[tag]
+            skill, cyc, task = SKILL_TASK[tag]
+            d.figure(*F.skill_bar(skill, cyc, blk['sub'], task))
+            d.skillbox(blk['skill'][0], blk['skill'][1], skill)
+            d.passage(blk['title'], blk['paras'], blk['words'])
+            d.ex('Exercise A   Guided practice.', skill)
+            k = []
+            nn = _items(d, blk['guided'], 1, k, skill, sp)
+            d.ex('Exercise B   Exam practice.', skill)
+            _items(d, blk['exam'], nn, k, skill, sp)
+            key[tag] = k
+            d.page_break_section()
+
     if a2:
         _strands(d, U, 'builder')
 
@@ -362,6 +392,22 @@ def render_unit(d, U):
         d.page_break_section()
 
     if ax:
+        for tag in ('l4', 'l5'):
+            blk = U[tag]
+            skill, cyc, task = SKILL_TASK[tag]
+            d.figure(*F.skill_bar(skill, cyc, blk['sub'], task))
+            d.ex('Exercise A   Listen and choose a response.', skill)
+            k = []
+            nn = _items(d, blk['warm'], 1, k, skill, sp)
+            d.figure(*F.talk_scene(blk['caption'], blk['board']))
+            d.skillbox(blk['skill'][0], blk['skill'][1], skill)
+            d.ex('Exercise B   Listen and answer. The audio plays once.', skill)
+            _items(d, blk['items'], nn, k, skill, sp)
+            key[tag] = k
+            d.body_p('Audio script: see the back of the book.', i=True)
+            d.page_break_section()
+
+    if bx:
         for tag in ('l4', 'l5'):
             blk = U[tag]
             skill, cyc, task = SKILL_TASK[tag]
@@ -518,6 +564,51 @@ def render_unit(d, U):
         d.lines(10)
         d.page_break_section()
 
+    if bx:
+        w4 = U['w4']
+        d.figure(*F.skill_bar('writing', 4, w4['sub'], 'Build a Sentence'))
+        d.body_p('Build a Sentence returns, and the sentences are the ones this '
+                 'unit\u2019s grammar is for. The word order has not changed; '
+                 'what has changed is that you are now saying something a '
+                 'reader could disagree with.')
+        d.skillbox(w4['skill'][0], w4['skill'][1], 'writing')
+        d.ex('Exercise A   Guided practice.', 'writing')
+        kw4 = []
+        for i, (prompt, tiles, ans) in enumerate(w4['guided'], 1):
+            d.figure(*F.build_demo(prompt,
+                                   len(ans.replace('?', '').replace('.', '').split()),
+                                   tiles))
+            d.body_p('%d.  %s' % (i, ans), i=True)
+            kw4.append((i, ans, ''))
+        d.ex('Exercise B   Exam practice. Write the sentence.', 'writing')
+        for i, (prompt, tiles, ans) in enumerate(w4['exam'], len(w4['guided']) + 1):
+            d.item('%d.  ' % i, prompt)
+            d.body_p('      ' + '  /  '.join(tiles), sz=20, i=True)
+            d.lines(1, 560)
+            kw4.append((i, ans, ''))
+        key['w4'] = kw4
+        d.page_break_section()
+
+        w5 = U['w5']
+        d.figure(*F.skill_bar('writing', 5, w5['sub'],
+                              'Write for an Academic Discussion'))
+        d.body_p('A second discussion, on the subject rather than on your own '
+                 'week, and with two posts that disagree about something real. '
+                 'The model answer concedes the stronger objection before it '
+                 'answers it, which is the move the band descriptors reward and '
+                 'the one candidates leave out.')
+        d.figure(*F.discussion_panel(w5['prof'], w5['question'], w5['posts']))
+        d.skillbox(w5['skill'][0], w5['skill'][1], 'writing')
+        d.h3('Sentence starters', PLUM)
+        d.bullets(w5['starters'])
+        d.h3('Model post', PLUM)
+        for ln in w5['model']:
+            d.body_p(ln)
+        d.body_p('[%d words]' % w5['model_words'], i=True)
+        d.ex('Now write your own. 10 minutes, at least 100 words.', 'writing')
+        d.lines(10)
+        d.page_break_section()
+
     # ---- page 15: grammar ---------------------------------------------------
     gr = U['gram']
     d.partbar('Grammar focus', gr['title'])
@@ -663,16 +754,37 @@ def front_matter(d, vol, units):
     d.figure(*F.map_strip(vol, rows))
     d.page_break_section()
 
-    d.partbar('How to use this book', 'Three cycles, four skills')
-    d.body_p('Every unit is %s pages and every unit is built the same way, so once you '
-             'have worked through Unit %d you know where everything is.'
-             % ('twenty' if lvl in FOUND else 'sixteen', units[0]['n']))
+    # the Foundation volumes and Volumes 3 upward carry five cycles a skill,
+    # Volumes 1 and 2 three. The page that explains the book has to say which.
+    five = 'r4' in units[0]
+    d.partbar('How to use this book',
+              'Five cycles, four skills' if five else 'Three cycles, four skills')
+    if lvl in FOUND:
+        d.body_p('Every unit is twenty pages and every unit is built the same way, so '
+                 'once you have worked through Unit %d you know where everything is.'
+                 % units[0]['n'])
+    elif five:
+        d.body_p('Every unit is built the same way, and from this volume on every skill '
+                 'runs to five cycles rather than three, so a unit is appreciably longer '
+                 'than its Volume 2 counterpart. Once you have worked through Unit %d you '
+                 'know where everything is.' % units[0]['n'])
+    else:
+        d.body_p('Every unit is sixteen pages and every unit is built the same way, so '
+                 'once you have worked through Unit %d you know where everything is.'
+                 % units[0]['n'])
     d.figure(*F.unit_tour())
     d.h3('What a cycle is')
     d.body_p('A cycle is one sub-topic taken through one skill. Cycle 1 of Reading, Listening, '
              'Speaking and Writing all deal with sub-topic A; cycle 2 with sub-topic B; cycle 3 '
              'with sub-topic C. That is why the email you write in Writing cycle 2 answers the '
              'announcement you heard in Listening cycle 2.')
+    if five and lvl not in FOUND:
+        d.body_p('Cycles 4 and 5 leave your own life behind. They take one academic '
+                 'subject and stay with it through all four skills, and cycle 5 is '
+                 'always the objection to what cycle 4 claims, because a subject at '
+                 'this level is an argument and not a list of findings. Those two '
+                 'cycles carry the longest passages in the book and the twelve field '
+                 'words at the head of them.')
     d.h3('Teach, guide, test')
     d.body_p('Inside every cycle the order is the same. A skill box tells you what to do. A '
              'guided exercise does it with help. An exam exercise does it the way the test will.')
