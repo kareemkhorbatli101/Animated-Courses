@@ -1,0 +1,228 @@
+{
+ "schema": "timeline/1",
+ "duration": 135.371,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.248,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.048,
+    "dur": 6.744,
+    "en": "This is Part 3, A Day at Cham Furniture. Five people, each doing something now.",
+    "ar": "هذا الجزء الثالث، يوم في شام للأثاث. خمسة أشخاص، كلّ منهم يفعل شيئاً الآن."
+   },
+   {
+    "start": 15.142,
+    "dur": 5.136,
+    "en": "Before you listen, think. Who works in a furniture workshop?",
+    "ar": "قبل أن تستمع، فكّر. من يعمل في ورشة أثاث؟"
+   },
+   {
+    "start": 20.628,
+    "dur": 4.104,
+    "en": "Good morning, everyone. Today we are busy.",
+    "ar": "صباح الخير جميعاً. اليوم نحن مشغولون."
+   },
+   {
+    "start": 25.082,
+    "dur": 3.912,
+    "en": "Layla is finishing the design for Mr Haddad's sofa.",
+    "ar": "ليلى تُنهي تصميم كنبة السيّد حدّاد."
+   },
+   {
+    "start": 29.344,
+    "dur": 4.296,
+    "en": "Khaled, you are new here, so today you watch and learn.",
+    "ar": "خالد، أنت جديد هنا، فاليوم تشاهد وتتعلّم."
+   },
+   {
+    "start": 33.99,
+    "dur": 3.216,
+    "en": "Rana is helping customers in the showroom.",
+    "ar": "رنا تساعد العملاء في صالة العرض."
+   },
+   {
+    "start": 37.556,
+    "dur": 3.312,
+    "en": "Nour is talking to a customer about a big order.",
+    "ar": "نور تتحدّث إلى عميل عن طلب كبير."
+   },
+   {
+    "start": 41.218,
+    "dur": 2.88,
+    "en": "I am checking the wood for the frames.",
+    "ar": "وأنا أفحص الخشب للهياكل."
+   },
+   {
+    "start": 44.448,
+    "dur": 4.176,
+    "en": "We work as a team, and every day we make something beautiful.",
+    "ar": "نعمل كفريق، وكلّ يوم نصنع شيئاً جميلاً."
+   },
+   {
+    "start": 48.974,
+    "dur": 4.128,
+    "en": "Remember: we always keep the workshop clean and safe.",
+    "ar": "تذكّروا: نُبقي الورشة دائماً نظيفة وآمنة."
+   },
+   {
+    "start": 53.452,
+    "dur": 3.456,
+    "en": "Now match each person with what they are doing now.",
+    "ar": "الآن طابق كلّ شخص مع ما يفعله الآن."
+   },
+   {
+    "start": 57.258,
+    "dur": 1.872,
+    "en": "Layla.",
+    "ar": "ليلى."
+   },
+   {
+    "start": 63.13,
+    "dur": 2.52,
+    "en": "She is finishing a design.",
+    "ar": "تُنهي تصميماً."
+   },
+   {
+    "start": 66.0,
+    "dur": 1.872,
+    "en": "Khaled.",
+    "ar": "خالد."
+   },
+   {
+    "start": 71.872,
+    "dur": 2.328,
+    "en": "He is watching and learning.",
+    "ar": "يشاهد ويتعلّم."
+   },
+   {
+    "start": 74.55,
+    "dur": 1.872,
+    "en": "Rana.",
+    "ar": "رنا."
+   },
+   {
+    "start": 80.422,
+    "dur": 2.976,
+    "en": "She is helping customers in the showroom.",
+    "ar": "تساعد العملاء في صالة العرض."
+   },
+   {
+    "start": 83.748,
+    "dur": 1.872,
+    "en": "And Nour.",
+    "ar": "ونور."
+   },
+   {
+    "start": 89.62,
+    "dur": 3.384,
+    "en": "She is talking to a customer about a big order.",
+    "ar": "تتحدّث إلى عميل عن طلب كبير."
+   },
+   {
+    "start": 93.354,
+    "dur": 6.024,
+    "en": "One action was not needed: cleaning the machines. Nobody is doing that now.",
+    "ar": "فعل واحد لم يكن مطلوباً: تنظيف الآلات. لا أحد يفعل ذلك الآن."
+   },
+   {
+    "start": 99.728,
+    "dur": 5.064,
+    "en": "Five people, and every line used is or am. Why?",
+    "ar": "خمسة أشخاص، وكلّ جملة استخدمت is أو am. لماذا؟"
+   },
+   {
+    "start": 110.557,
+    "dur": 4.008,
+    "en": "Because the briefing says what each one is doing at this moment.",
+    "ar": "لأنّ الإحاطة تقول ما يفعله كلّ واحد في هذه اللحظة."
+   },
+   {
+    "start": 114.915,
+    "dur": 5.472,
+    "en": "But two of my lines were not about now. Which, and how can you tell?",
+    "ar": "لكنّ جملتين منّي لم تكونا عن الآن. أيّهما، وكيف تعرف؟"
+   },
+   {
+    "start": 127.387,
+    "dur": 6.384,
+    "en": "Every day we make something, and we always keep the workshop clean. Both are routines.",
+    "ar": "every day we make something، و we always keep the workshop clean. وكلتاهما روتين."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 16.892,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 24.382,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 33.84,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 63.13,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 80.422,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 127.387,
+    "hold": 3.71,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

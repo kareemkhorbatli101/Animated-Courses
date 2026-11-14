@@ -1,0 +1,165 @@
+{
+ "schema": "timeline/1",
+ "duration": 173.147,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.984,
+    "en": "This is Part 2, Grammar Review. You will fix four sentences, then make two.",
+    "ar": "هذا الجزء الثاني، مراجعة القواعد. ستصحّح أربع جمل، ثمّ تصنع جملتين."
+   },
+   {
+    "start": 16.15,
+    "dur": 6.648,
+    "en": "Four sentences, each with one mistake. Find it, then say it correctly.",
+    "ar": "أربع جمل، في كلّ واحدة خطأ واحد. اعثر عليه، ثمّ قلها صحيحة."
+   },
+   {
+    "start": 23.148,
+    "dur": 3.336,
+    "en": "The factory make furniture every day.",
+    "ar": "ما الخطأ في: The factory make furniture every day؟"
+   },
+   {
+    "start": 31.661,
+    "dur": 7.152,
+    "en": "The factory makes furniture every day. Factory is it, so the verb takes an S.",
+    "ar": "The factory makes furniture every day. فـ factory بمعنى it، فالفعل يأخذ S."
+   },
+   {
+    "start": 39.163,
+    "dur": 3.744,
+    "en": "Look! Sami cut the wood now.",
+    "ar": "ما الخطأ في: Look! Sami cut the wood now؟"
+   },
+   {
+    "start": 47.554,
+    "dur": 7.68,
+    "en": "Look! Sami is cutting the wood now. Now needs is plus the I N G ending.",
+    "ar": "Look! Sami is cutting the wood now. فـ now تحتاج is مع النهاية I N G."
+   },
+   {
+    "start": 55.584,
+    "dur": 2.808,
+    "en": "She design modern sofas.",
+    "ar": "ما الخطأ في: She design modern sofas؟"
+   },
+   {
+    "start": 62.803,
+    "dur": 5.376,
+    "en": "She designs modern sofas. She takes an S on the verb.",
+    "ar": "She designs modern sofas. فـ she تأخذ حرف S على الفعل."
+   },
+   {
+    "start": 68.529,
+    "dur": 3.12,
+    "en": "We are sell sofas in our showroom.",
+    "ar": "ما الخطأ في: We are sell sofas in our showroom؟"
+   },
+   {
+    "start": 76.649,
+    "dur": 6.6,
+    "en": "We sell sofas in our showroom. It is a routine, so are does not belong.",
+    "ar": "We sell sofas in our showroom. إنّه روتين، فلا مكان لـ are."
+   },
+   {
+    "start": 83.599,
+    "dur": 5.352,
+    "en": "Now choose the whole sentence. Only one in each group is right.",
+    "ar": "الآن اختر الجملة بكاملها. واحدة فقط في كلّ مجموعة صحيحة."
+   },
+   {
+    "start": 89.301,
+    "dur": 6.504,
+    "en": "Which is correct for NOW: Sami cut the wood, Sami is cutting the wood, or Sami cutting the wood?",
+    "ar": "أيّها صحيحة للآن: Sami cut the wood، أم Sami is cutting the wood، أم Sami cutting the wood؟"
+   },
+   {
+    "start": 103.805,
+    "dur": 4.92,
+    "en": "Sami is cutting the wood. The third has no is at all.",
+    "ar": "Sami is cutting the wood. فالثالثة لا is فيها أصلاً."
+   },
+   {
+    "start": 109.075,
+    "dur": 7.968,
+    "en": "Which is correct for a ROUTINE: the company designs furniture, the company designing furniture, or the company design furniture?",
+    "ar": "أيّها صحيحة للروتين: the company designs furniture، أم the company designing furniture، أم the company design furniture؟"
+   },
+   {
+    "start": 125.043,
+    "dur": 5.952,
+    "en": "The company designs furniture. Company is it, so the verb takes an S.",
+    "ar": "The company designs furniture. فـ company بمعنى it، فالفعل يأخذ S."
+   },
+   {
+    "start": 131.345,
+    "dur": 5.328,
+    "en": "Now your own turn. Think about your work or your study.",
+    "ar": "الآن دورك. فكّر في عملك أو دراستك."
+   },
+   {
+    "start": 137.023,
+    "dur": 4.656,
+    "en": "Say one routine sentence of your own, with a time phrase.",
+    "ar": "قل جملة روتين واحدة من عندك، مع عبارة زمن."
+   },
+   {
+    "start": 148.032,
+    "dur": 4.176,
+    "en": "For example: I usually start work at eight.",
+    "ar": "مثلاً: أبدأ العمل عادةً في الثامنة."
+   },
+   {
+    "start": 152.558,
+    "dur": 3.456,
+    "en": "Now one about right now, with is or am.",
+    "ar": "والآن جملة عن هذه اللحظة، مع is أو am."
+   },
+   {
+    "start": 161.309,
+    "dur": 4.32,
+    "en": "For example: right now, I am watching this lesson.",
+    "ar": "مثلاً: الآن، أنا أشاهد هذا الدرس."
+   },
+   {
+    "start": 165.979,
+    "dur": 5.568,
+    "en": "You will meet both tenses again in the Part 5 reading. Watch for them.",
+    "ar": "ستلتقي بالزمنين مرّة أخرى في قراءة الجزء الخامس. ترقّبهما."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 68.267,
+    "hold": 11.38,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "schema": "timeline/1",
+ "duration": 95.402,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.768,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 15.934,
+    "dur": 6.0,
+    "en": "Six words from this unit. Stress the loud syllable in each one.",
+    "ar": "ستّ كلمات من هذه الوحدة. شدّد على المقطع القويّ في كلّ واحدة."
+   },
+   {
+    "start": 22.284,
+    "dur": 7.152,
+    "en": "Furniture. FUR-ni-ture. Three syllables, and the first is loud.",
+    "ar": "Furniture. الأثاث. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 29.786,
+    "dur": 6.936,
+    "en": "Armchair. ARM-chair. Two syllables, and the first is loud.",
+    "ar": "Armchair. الكرسي الوثير. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 37.072,
+    "dur": 6.6,
+    "en": "Design. de-SIGN. Two syllables, and the SECOND is loud.",
+    "ar": "Design. التصميم. مقطعان، والثاني هو القويّ."
+   },
+   {
+    "start": 44.022,
+    "dur": 7.632,
+    "en": "Material. ma-TE-ri-al. Four syllables, and the second is loud.",
+    "ar": "Material. المادّة. أربعة مقاطع، والثاني هو القويّ."
+   },
+   {
+    "start": 52.004,
+    "dur": 7.728,
+    "en": "Upholstery. up-HOL-ster-y. Four syllables, and the second is loud.",
+    "ar": "Upholstery. التنجيد. أربعة مقاطع، والثاني هو القويّ."
+   },
+   {
+    "start": 60.082,
+    "dur": 7.248,
+    "en": "Prototype. PRO-to-type. Three syllables, and the first is loud.",
+    "ar": "Prototype. النموذج الأوّلي. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 67.68,
+    "dur": 5.064,
+    "en": "Three of the six stress the first syllable. Three do not.",
+    "ar": "ثلاث من الستّ تُشدّد على المقطع الأوّل. وثلاث لا تفعل."
+   },
+   {
+    "start": 73.094,
+    "dur": 4.2,
+    "en": "Which syllable is loud in design, and which in material?",
+    "ar": "أيّ مقطع هو القويّ في design، وأيّه في material؟"
+   },
+   {
+    "start": 83.588,
+    "dur": 4.44,
+    "en": "The second in both. de-SIGN, and ma-TE-ri-al.",
+    "ar": "الثاني في كلتيهما. de-SIGN، و ma-TE-ri-al."
+   },
+   {
+    "start": 88.378,
+    "dur": 5.424,
+    "en": "Say all six again. Tap the loud syllable with your hand.",
+    "ar": "قل الستّ مرّة أخرى. واطرق على المقطع القويّ بيدك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 35.272,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 50.204,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 58.282,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 72.582,
+    "hold": 14.01,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

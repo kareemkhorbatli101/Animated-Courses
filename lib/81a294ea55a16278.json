@@ -1,0 +1,372 @@
+{
+ "schema": "timeline/1",
+ "duration": 210.072,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.464,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.264,
+    "dur": 7.848,
+    "en": "This is Part 10, Can-Do and Glossary. Five things you can do, and the ten words asked rather than read.",
+    "ar": "هذا الجزء العاشر، ما أستطيع فعله والمعجم. خمسة أمور تستطيعها، والكلمات العشر تُسأل لا تُقرأ."
+   },
+   {
+    "start": 16.462,
+    "dur": 3.768,
+    "en": "Five things you can do now, each with an example.",
+    "ar": "خمسة أمور تستطيعها الآن، مع مثال لكلّ واحد."
+   },
+   {
+    "start": 20.58,
+    "dur": 5.544,
+    "en": "One. I can name the main parts of a sofa and common materials.",
+    "ar": "أوّلاً. أستطيع تسمية أجزاء الكنبة الرئيسية والموادّ الشائعة."
+   },
+   {
+    "start": 26.474,
+    "dur": 4.68,
+    "en": "For example: a backrest, an armrest and a seat cushion.",
+    "ar": "مثلاً: مسند خلفي، ومسند ذراع، ووسادة مقعد."
+   },
+   {
+    "start": 31.504,
+    "dur": 3.84,
+    "en": "Also a leg, and the frame that holds it all together.",
+    "ar": "وأيضاً رِجل، والهيكل الذي يمسك كلّ ذلك معاً."
+   },
+   {
+    "start": 35.694,
+    "dur": 6.072,
+    "en": "Two. I can use the present simple for routines and the continuous for now.",
+    "ar": "ثانياً. أستطيع استخدام المضارع البسيط للروتين والمستمرّ للآن."
+   },
+   {
+    "start": 42.116,
+    "dur": 5.808,
+    "en": "For example: the workshop makes sofas every day, and Sami is cutting wood now.",
+    "ar": "مثلاً: الورشة تصنع الكنبات كلّ يوم، وسامي يقطع الخشب الآن."
+   },
+   {
+    "start": 48.274,
+    "dur": 6.192,
+    "en": "Three. I can understand a designer, a manager and a customer talking.",
+    "ar": "ثالثاً. أستطيع فهم مصمّمة ومديرة وعميل يتحدّثون."
+   },
+   {
+    "start": 54.816,
+    "dur": 4.68,
+    "en": "For example: I am looking for a sofa, and what colour do you like?",
+    "ar": "مثلاً: أبحث عن كنبة، وأيّ لون تحبّ؟"
+   },
+   {
+    "start": 59.846,
+    "dur": 5.832,
+    "en": "Four. I can describe a piece of furniture in fifty to seventy words.",
+    "ar": "رابعاً. أستطيع وصف قطعة أثاث في خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 66.028,
+    "dur": 3.312,
+    "en": "For example: it has a strong oak frame.",
+    "ar": "مثلاً: لها هيكل بلّوط قويّ."
+   },
+   {
+    "start": 69.69,
+    "dur": 3.24,
+    "en": "And it has foam cushions with a grey cover.",
+    "ar": "ولها وسائد إسفنج بغطاء رمادي."
+   },
+   {
+    "start": 73.28,
+    "dur": 4.488,
+    "en": "Five. I can welcome and brief a new worker.",
+    "ar": "خامساً. أستطيع الترحيب بعامل جديد وإحاطته."
+   },
+   {
+    "start": 78.118,
+    "dur": 4.536,
+    "en": "For example: welcome to the team, and always wear your goggles.",
+    "ar": "مثلاً: أهلاً بك في الفريق، وارتدِ نظّاراتك الواقية دائماً."
+   },
+   {
+    "start": 83.004,
+    "dur": 6.864,
+    "en": "And now the glossary. I will not read the ten words. I will ask you.",
+    "ar": "والآن المعجم. لن أقرأ الكلمات العشر. بل سأسألك."
+   },
+   {
+    "start": 90.218,
+    "dur": 3.264,
+    "en": "The wooden skeleton inside a sofa.",
+    "ar": "الجسم الخشبي داخل الكنبة."
+   },
+   {
+    "start": 98.482,
+    "dur": 1.872,
+    "en": "The frame.",
+    "ar": "الهيكل."
+   },
+   {
+    "start": 100.704,
+    "dur": 3.384,
+    "en": "The soft, filled part that you sit on.",
+    "ar": "الجزء الليّن المحشوّ الذي تجلس عليه."
+   },
+   {
+    "start": 109.323,
+    "dur": 1.872,
+    "en": "A cushion.",
+    "ar": "وسادة."
+   },
+   {
+    "start": 111.545,
+    "dur": 3.456,
+    "en": "The fabric or leather cover and its padding.",
+    "ar": "غطاء القماش أو الجلد وحشوته."
+   },
+   {
+    "start": 120.59,
+    "dur": 1.872,
+    "en": "Upholstery.",
+    "ar": "التنجيد."
+   },
+   {
+    "start": 122.812,
+    "dur": 2.976,
+    "en": "The soft padding inside a cushion.",
+    "ar": "الحشوة الليّنة داخل الوسادة."
+   },
+   {
+    "start": 130.788,
+    "dur": 1.872,
+    "en": "Foam.",
+    "ar": "الإسفنج."
+   },
+   {
+    "start": 133.01,
+    "dur": 4.008,
+    "en": "The first sample of a new design, made to test it.",
+    "ar": "العيّنة الأولى لتصميم جديد، تُصنع لاختباره."
+   },
+   {
+    "start": 142.959,
+    "dur": 1.968,
+    "en": "A prototype.",
+    "ar": "نموذج أوّلي."
+   },
+   {
+    "start": 145.277,
+    "dur": 3.168,
+    "en": "The width, depth and height of a piece.",
+    "ar": "عرض القطعة وعمقها وارتفاعها."
+   },
+   {
+    "start": 153.739,
+    "dur": 1.992,
+    "en": "The dimensions.",
+    "ar": "الأبعاد."
+   },
+   {
+    "start": 156.081,
+    "dur": 3.624,
+    "en": "The room where customers see and buy furniture.",
+    "ar": "الغرفة التي يرى فيها العملاء الأثاث ويشترونه."
+   },
+   {
+    "start": 165.47,
+    "dur": 1.872,
+    "en": "The showroom.",
+    "ar": "صالة العرض."
+   },
+   {
+    "start": 167.692,
+    "dur": 2.952,
+    "en": "A person who makes things from wood.",
+    "ar": "شخص يصنع الأشياء من الخشب."
+   },
+   {
+    "start": 175.762,
+    "dur": 1.872,
+    "en": "A carpenter.",
+    "ar": "نجّار."
+   },
+   {
+    "start": 177.984,
+    "dur": 4.056,
+    "en": "The plan a designer draws before the workshop builds.",
+    "ar": "الخطّة التي ترسمها المصمّمة قبل أن تبني الورشة."
+   },
+   {
+    "start": 188.157,
+    "dur": 1.872,
+    "en": "A design.",
+    "ar": "تصميم."
+   },
+   {
+    "start": 190.379,
+    "dur": 3.504,
+    "en": "And how a good sofa feels when you sit on it.",
+    "ar": "وكيف تشعر الكنبة الجيّدة عندما تجلس عليها."
+   },
+   {
+    "start": 199.53,
+    "dur": 1.872,
+    "en": "Comfortable.",
+    "ar": "مريحة."
+   },
+   {
+    "start": 201.752,
+    "dur": 6.72,
+    "en": "That is Unit 1. In Unit 2 you will learn the woods and the fabrics themselves.",
+    "ar": "تلك هي الوحدة الأولى. في الوحدة الثانية ستتعلّم الأخشاب والأقمشة نفسها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 27.874,
+    "hold": 3.0,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 31.017,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 68.44,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 98.482,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 109.323,
+    "hold": 3.0,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 120.59,
+    "hold": 1.85,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 122.487,
+    "hold": 8.25,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 130.788,
+    "hold": 1.65,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 132.485,
+    "hold": 10.42,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 142.959,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 153.739,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 165.47,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "carpenter",
+    "label": "carpenter",
+    "ar": "النجّار",
+    "at": 175.762,
+    "hold": 3.0,
+    "img": "assets/vocab/carpenter.png",
+    "sha": "e20c1702c3d42690"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 188.157,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

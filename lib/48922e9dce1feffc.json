@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 99.716,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.912,
+    "en": "This is Part 3, A Designer Talks About Her Work. You will hear her four steps.",
+    "ar": "هذا الجزء الثالث، مصمّمة تتحدّث عن عملها. ستسمع خطواتها الأربع."
+   },
+   {
+    "start": 16.078,
+    "dur": 6.384,
+    "en": "Before you listen, think. Does a designer draw first, or choose the wood?",
+    "ar": "قبل أن تستمع، فكّر. هل ترسم المصمّمة أوّلاً، أم تختار الخشب؟"
+   },
+   {
+    "start": 22.812,
+    "dur": 6.24,
+    "en": "Hello, my name is Layla. I am a furniture designer in Damascus.",
+    "ar": "مرحباً، اسمي ليلى. أنا مصمّمة أثاث في دمشق."
+   },
+   {
+    "start": 29.402,
+    "dur": 4.632,
+    "en": "I design living-room sets: sofas and armchairs.",
+    "ar": "أصمّم أطقم غرف الجلوس: كنبات وكراسي وثيرة."
+   },
+   {
+    "start": 34.384,
+    "dur": 3.744,
+    "en": "First, I draw my ideas on paper.",
+    "ar": "أوّلاً، أرسم أفكاري على الورق."
+   },
+   {
+    "start": 38.478,
+    "dur": 3.744,
+    "en": "Then I choose the wood, the foam and the fabric.",
+    "ar": "ثمّ أختار الخشب والإسفنج والقماش."
+   },
+   {
+    "start": 42.572,
+    "dur": 4.368,
+    "en": "Right now, I am drawing a new armchair for a customer.",
+    "ar": "والآن، أرسم كرسيّاً وثيراً جديداً لعميل."
+   },
+   {
+    "start": 47.29,
+    "dur": 3.432,
+    "en": "After that, the team makes a prototype.",
+    "ar": "بعد ذلك، يصنع الفريق نموذجاً أوّليّاً."
+   },
+   {
+    "start": 51.072,
+    "dur": 4.704,
+    "en": "Now say whether each sentence is true, false, or not given.",
+    "ar": "الآن قل إن كانت كلّ جملة صحيحة أو خاطئة أو غير مذكورة."
+   },
+   {
+    "start": 56.126,
+    "dur": 2.232,
+    "en": "Layla works in Aleppo.",
+    "ar": "ليلى تعمل في حلب."
+   },
+   {
+    "start": 62.652,
+    "dur": 3.408,
+    "en": "False. She said Damascus.",
+    "ar": "خاطئة. قالت دمشق."
+   },
+   {
+    "start": 66.41,
+    "dur": 2.976,
+    "en": "Layla is drawing an armchair right now.",
+    "ar": "ليلى ترسم كرسيّاً وثيراً الآن."
+   },
+   {
+    "start": 74.68,
+    "dur": 4.824,
+    "en": "True. Right now, she said, and she is still drawing it.",
+    "ar": "صحيحة. قالت الآن، وما زالت ترسمه."
+   },
+   {
+    "start": 79.854,
+    "dur": 2.832,
+    "en": "Layla makes the prototype herself.",
+    "ar": "ليلى تصنع النموذج الأوّلي بنفسها."
+   },
+   {
+    "start": 87.686,
+    "dur": 4.368,
+    "en": "False. The team makes it, after she draws.",
+    "ar": "خاطئة. الفريق يصنعه، بعد أن ترسم هي."
+   },
+   {
+    "start": 92.404,
+    "dur": 5.712,
+    "en": "Three phrases to keep: I design, first I, and right now I am.",
+    "ar": "ثلاث عبارات احفظها: I design، و first I، و right now I am."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 27.752,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 38.228,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 47.153,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 78.817,
+    "hold": 8.82,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 92.617,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

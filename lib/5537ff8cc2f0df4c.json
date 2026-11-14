@@ -1,0 +1,141 @@
+{
+ "schema": "timeline/1",
+ "duration": 114.253,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.672,
+    "en": "This is Part 2, Notice the Two Tenses. Layla is drawing while you listen.",
+    "ar": "هذا الجزء الثاني، لاحظ الزمنين. ليلى ترسم بينما تستمع."
+   },
+   {
+    "start": 15.838,
+    "dur": 5.928,
+    "en": "Listen to five lines from this studio. Two tenses are mixed together.",
+    "ar": "استمع إلى خمس جمل من هذا الاستوديو. زمنان مختلطان معاً."
+   },
+   {
+    "start": 22.116,
+    "dur": 3.144,
+    "en": "Layla designs living-room sets.",
+    "ar": "ليلى تصمّم أطقم غرف الجلوس."
+   },
+   {
+    "start": 25.61,
+    "dur": 3.48,
+    "en": "She usually draws her ideas on paper.",
+    "ar": "وهي عادةً ترسم أفكارها على الورق."
+   },
+   {
+    "start": 29.44,
+    "dur": 3.696,
+    "en": "Right now, she is drawing a new armchair.",
+    "ar": "والآن، هي ترسم كرسيّاً وثيراً جديداً."
+   },
+   {
+    "start": 33.486,
+    "dur": 3.312,
+    "en": "The workshop makes sofas every day.",
+    "ar": "الورشة تصنع الكنبات كلّ يوم."
+   },
+   {
+    "start": 37.148,
+    "dur": 4.224,
+    "en": "Today, the team is making a sofa for Mr Haddad.",
+    "ar": "اليوم، الفريق يصنع كنبة للسيّد حدّاد."
+   },
+   {
+    "start": 41.722,
+    "dur": 4.992,
+    "en": "Two of those five are happening NOW. Which words tell you?",
+    "ar": "جملتان من الخمس تحدثان الآن. أيّ الكلمات تدلّك؟"
+   },
+   {
+    "start": 53.126,
+    "dur": 5.688,
+    "en": "Right now, and today. Both lines use is plus a doing word.",
+    "ar": "right now، و today. وكلتا الجملتين تستخدمان is مع فعل مستمرّ."
+   },
+   {
+    "start": 59.164,
+    "dur": 4.488,
+    "en": "Two of them are routines. Which words tell you?",
+    "ar": "جملتان منها روتين. أيّ الكلمات تدلّك؟"
+   },
+   {
+    "start": 69.417,
+    "dur": 5.688,
+    "en": "Usually, and every day. The verb is plain, with an S for she.",
+    "ar": "usually، و every day. والفعل مجرّد، مع حرف S مع she."
+   },
+   {
+    "start": 75.455,
+    "dur": 5.808,
+    "en": "So here are the two forms. Use the present simple for a routine.",
+    "ar": "إذاً هاتان هما الصيغتان. استخدم المضارع البسيط للروتين."
+   },
+   {
+    "start": 81.613,
+    "dur": 6.24,
+    "en": "The workshop makes sofas every day. Add an S for he, she or it.",
+    "ar": "The workshop makes sofas every day. أضف حرف S مع he أو she أو it."
+   },
+   {
+    "start": 88.203,
+    "dur": 6.216,
+    "en": "Use the present continuous for now. Take am, is or are, then the verb.",
+    "ar": "واستخدم المضارع المستمرّ للآن. خذ am أو is أو are، ثمّ الفعل."
+   },
+   {
+    "start": 94.769,
+    "dur": 6.384,
+    "en": "Then add the letters I, N and G to the verb. Sami is cutting the wood.",
+    "ar": "ثمّ أضف الحروف I و N و G إلى الفعل. Sami is cutting the wood."
+   },
+   {
+    "start": 101.503,
+    "dur": 5.688,
+    "en": "And two traps. Never drop the S: he make chairs is wrong.",
+    "ar": "وفخّان. لا تحذف حرف S أبداً: فـ he make chairs خطأ."
+   },
+   {
+    "start": 107.541,
+    "dur": 5.112,
+    "en": "And never drop the am, is or are: I cutting now is not a sentence.",
+    "ar": "ولا تحذف am أو is أو are أبداً: فـ I cutting now ليست جملة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "armchair",
+    "label": "armchair",
+    "ar": "الكرسي الوثير",
+    "at": 29.69,
+    "hold": 3.0,
+    "img": "assets/vocab/armchair.png",
+    "sha": "c539ba4c14c4b4be"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

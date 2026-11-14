@@ -1,0 +1,213 @@
+{
+ "schema": "timeline/1",
+ "duration": 167.451,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.248,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.048,
+    "dur": 7.56,
+    "en": "This is Part 7, The First Day in Order. You will number five steps, then refuse a request politely.",
+    "ar": "هذا الجزء السابع، اليوم الأوّل بالترتيب. سترقّم خمس خطوات، ثمّ ترفض طلباً بلباقة."
+   },
+   {
+    "start": 15.958,
+    "dur": 6.528,
+    "en": "Five first-day steps, out of order. The book gives you step one: say welcome.",
+    "ar": "خمس خطوات ليوم أوّل، غير مرتّبة. الكتاب يعطيك الخطوة الأولى: قل أهلاً."
+   },
+   {
+    "start": 22.836,
+    "dur": 2.016,
+    "en": "What is step two?",
+    "ar": "ما الخطوة الثانية؟"
+   },
+   {
+    "start": 28.852,
+    "dur": 2.088,
+    "en": "Introduce the team.",
+    "ar": "عرّفه بالفريق."
+   },
+   {
+    "start": 31.29,
+    "dur": 1.872,
+    "en": "Step three?",
+    "ar": "الخطوة الثالثة؟"
+   },
+   {
+    "start": 37.162,
+    "dur": 2.688,
+    "en": "Show the new worker the workshop.",
+    "ar": "أرِ العامل الجديد الورشة."
+   },
+   {
+    "start": 40.2,
+    "dur": 1.872,
+    "en": "Step four?",
+    "ar": "الخطوة الرابعة؟"
+   },
+   {
+    "start": 46.072,
+    "dur": 2.328,
+    "en": "Give the safety rules.",
+    "ar": "أعطِ قواعد السلامة."
+   },
+   {
+    "start": 48.75,
+    "dur": 2.016,
+    "en": "And step five?",
+    "ar": "والخطوة الخامسة؟"
+   },
+   {
+    "start": 54.766,
+    "dur": 2.52,
+    "en": "Give the first small task.",
+    "ar": "أعطِ المهمّة الصغيرة الأولى."
+   },
+   {
+    "start": 57.636,
+    "dur": 5.304,
+    "en": "Now the harder question. Why must the rules come before the first task?",
+    "ar": "الآن السؤال الأصعب. لماذا يجب أن تأتي القواعد قبل المهمّة الأولى؟"
+   },
+   {
+    "start": 70.117,
+    "dur": 4.8,
+    "en": "Because a worker who starts before the rules has already taken the risk.",
+    "ar": "لأنّ العامل الذي يبدأ قبل القواعد يكون قد خاض الخطر فعلاً."
+   },
+   {
+    "start": 75.267,
+    "dur": 5.184,
+    "en": "Now the role play. One is the foreman, one is the apprentice.",
+    "ar": "الآن لعب الأدوار. أحدكما رئيس الورشة، والآخر المتدرّب."
+   },
+   {
+    "start": 80.801,
+    "dur": 5.184,
+    "en": "Welcome, Khaled. First, always wear your goggles.",
+    "ar": "أهلاً يا خالد. أوّلاً، ارتدِ نظّاراتك الواقية دائماً."
+   },
+   {
+    "start": 86.335,
+    "dur": 2.16,
+    "en": "OK, Ustaz.",
+    "ar": "حسناً يا أستاذ."
+   },
+   {
+    "start": 88.845,
+    "dur": 4.224,
+    "en": "Keep your area clean, and ask me before you use a machine.",
+    "ar": "أبقِ منطقتك نظيفة، واسألني قبل أن تستخدم آلة."
+   },
+   {
+    "start": 93.419,
+    "dur": 3.408,
+    "en": "Yes. What do I do first?",
+    "ar": "نعم. ماذا أفعل أوّلاً؟"
+   },
+   {
+    "start": 97.177,
+    "dur": 2.616,
+    "en": "Today, watch and learn.",
+    "ar": "اليوم، شاهد وتعلّم."
+   },
+   {
+    "start": 100.143,
+    "dur": 5.736,
+    "en": "Now the harder version. The apprentice asks to use a machine on day one.",
+    "ar": "الآن الصيغة الأصعب. المتدرّب يطلب استخدام آلة في اليوم الأوّل."
+   },
+   {
+    "start": 106.229,
+    "dur": 5.328,
+    "en": "Ustaz, may I try the saw today? I watched my uncle use one.",
+    "ar": "أستاذ، أيمكنني تجربة المنشار اليوم؟ شاهدت عمّي يستخدمه."
+   },
+   {
+    "start": 111.907,
+    "dur": 5.856,
+    "en": "Not today, and I will tell you why. Watching is not the same as cutting.",
+    "ar": "ليس اليوم، وسأخبرك لماذا. المشاهدة ليست كالقطع."
+   },
+   {
+    "start": 118.113,
+    "dur": 4.896,
+    "en": "This week you watch. Next week you hold the wood while I cut.",
+    "ar": "هذا الأسبوع تشاهد. والأسبوع القادم تمسك الخشب بينما أقطع."
+   },
+   {
+    "start": 123.359,
+    "dur": 5.544,
+    "en": "Then you cut, with me beside you. That is how everyone here learned.",
+    "ar": "ثمّ تقطع، وأنا بجانبك. هكذا تعلّم كلّ من هنا."
+   },
+   {
+    "start": 129.253,
+    "dur": 4.848,
+    "en": "Notice the refusal. It gave a reason, and it gave a date.",
+    "ar": "لاحظ الرفض. أعطى سبباً، وأعطى موعداً."
+   },
+   {
+    "start": 134.451,
+    "dur": 6.264,
+    "en": "Last, the writing. You are Nour. Write a welcome note to Khaled.",
+    "ar": "أخيراً، الكتابة. أنت نور. اكتب مذكّرة ترحيب لخالد."
+   },
+   {
+    "start": 141.065,
+    "dur": 6.288,
+    "en": "Dear Khaled. Welcome to Cham Furniture. We are glad you are here.",
+    "ar": "عزيزي خالد. أهلاً بك في شام للأثاث. يسعدنا وجودك معنا."
+   },
+   {
+    "start": 147.703,
+    "dur": 3.984,
+    "en": "This week you watch and learn in the workshop with Ustaz Sami.",
+    "ar": "هذا الأسبوع تشاهد وتتعلّم في الورشة مع الأستاذ سامي."
+   },
+   {
+    "start": 152.037,
+    "dur": 6.024,
+    "en": "Next week you work on the frames. Always wear your goggles near the machines.",
+    "ar": "والأسبوع القادم تعمل على الهياكل. ارتدِ نظّاراتك الواقية دائماً قرب الآلات."
+   },
+   {
+    "start": 158.411,
+    "dur": 7.44,
+    "en": "Four things to check. A warm welcome, a first-week plan, one safety rule, and the length.",
+    "ar": "أربعة أمور تحقّق منها. ترحيب دافئ، وخطّة أسبوع أوّل، وقاعدة سلامة، والطول."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 37.162,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

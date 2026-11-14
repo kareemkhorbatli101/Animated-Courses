@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 85.605,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.464,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.264,
+    "dur": 6.0,
+    "en": "This is Part 3, In the Showroom. You will hear a customer and a manager.",
+    "ar": "هذا الجزء الثالث، في صالة العرض. ستسمع عميلاً ومديرة."
+   },
+   {
+    "start": 14.614,
+    "dur": 5.592,
+    "en": "Before you listen, think. What does a showroom manager ask first?",
+    "ar": "قبل أن تستمع، فكّر. ماذا تسأل مديرة صالة العرض أوّلاً؟"
+   },
+   {
+    "start": 20.556,
+    "dur": 5.28,
+    "en": "Good morning, and welcome to Cham Furniture. How can I help you?",
+    "ar": "صباح الخير، وأهلاً بك في شام للأثاث. كيف أساعدك؟"
+   },
+   {
+    "start": 26.186,
+    "dur": 2.52,
+    "en": "I am looking for a new sofa.",
+    "ar": "أبحث عن كنبة جديدة."
+   },
+   {
+    "start": 29.056,
+    "dur": 3.84,
+    "en": "Of course. What colour do you like?",
+    "ar": "بالتأكيد. أيّ لون تحبّ؟"
+   },
+   {
+    "start": 33.246,
+    "dur": 1.872,
+    "en": "I like grey.",
+    "ar": "أحبّ الرمادي."
+   },
+   {
+    "start": 35.468,
+    "dur": 2.76,
+    "en": "We have a grey sofa over here.",
+    "ar": "لدينا كنبة رمادية هنا."
+   },
+   {
+    "start": 38.578,
+    "dur": 3.456,
+    "en": "It has a strong oak frame and soft cushions.",
+    "ar": "لها هيكل بلّوط قويّ ووسائد ليّنة."
+   },
+   {
+    "start": 42.384,
+    "dur": 1.872,
+    "en": "How much is it?",
+    "ar": "كم سعرها؟"
+   },
+   {
+    "start": 44.606,
+    "dur": 4.824,
+    "en": "It is two million Syrian pounds, and we can deliver it to your home.",
+    "ar": "سعرها مليونا ليرة سورية، ويمكننا توصيلها إلى بيتك."
+   },
+   {
+    "start": 49.78,
+    "dur": 2.592,
+    "en": "What does Mr Haddad want?",
+    "ar": "ماذا يريد السيّد حدّاد؟"
+   },
+   {
+    "start": 56.843,
+    "dur": 1.92,
+    "en": "A new sofa.",
+    "ar": "كنبة جديدة."
+   },
+   {
+    "start": 59.113,
+    "dur": 2.352,
+    "en": "What colour does he like?",
+    "ar": "أيّ لون يحبّ؟"
+   },
+   {
+    "start": 65.935,
+    "dur": 1.872,
+    "en": "Grey.",
+    "ar": "الرمادي."
+   },
+   {
+    "start": 68.157,
+    "dur": 2.424,
+    "en": "Can Nour deliver the sofa?",
+    "ar": "هل تستطيع نور توصيل الكنبة؟"
+   },
+   {
+    "start": 75.111,
+    "dur": 2.28,
+    "en": "Yes, to his home.",
+    "ar": "نعم، إلى بيته."
+   },
+   {
+    "start": 77.741,
+    "dur": 6.264,
+    "en": "Notice the order. Greet, ask what and which colour, describe, then price.",
+    "ar": "لاحظ الترتيب. رحّب، واسأل ماذا وأيّ لون، وصِف، ثمّ السعر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 25.411,
+    "hold": 3.0,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 37.791,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 56.843,
+    "hold": 3.0,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 67.307,
+    "hold": 7.75,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "schema": "timeline/1",
+ "duration": 168.333,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.248,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.048,
+    "dur": 4.896,
+    "en": "This is the Warm Up. You will meet the ten words of the unit.",
+    "ar": "هذا هو التمهيد. ستتعرّف على كلمات الوحدة العشر."
+   },
+   {
+    "start": 13.294,
+    "dur": 5.28,
+    "en": "Welcome to the workshop, Khaled. This is where we make furniture.",
+    "ar": "أهلاً بك في الورشة يا خالد. هنا نصنع الأثاث."
+   },
+   {
+    "start": 18.924,
+    "dur": 5.256,
+    "en": "You will learn ten words. Look at each thing before I name it.",
+    "ar": "ستتعلّم عشر كلمات. انظر إلى كلّ شيء قبل أن أسمّيه."
+   },
+   {
+    "start": 24.53,
+    "dur": 4.992,
+    "en": "This is the frame. It is the wooden skeleton inside a sofa.",
+    "ar": "هذا هو الهيكل. وهو الجسم الخشبي داخل الكنبة."
+   },
+   {
+    "start": 29.872,
+    "dur": 4.44,
+    "en": "This is a cushion. It is the soft part you sit on.",
+    "ar": "هذه وسادة. وهي الجزء الليّن الذي تجلس عليه."
+   },
+   {
+    "start": 34.662,
+    "dur": 4.824,
+    "en": "This is the upholstery. It is the cover and the padding together.",
+    "ar": "هذا هو التنجيد. وهو الغطاء والحشوة معاً."
+   },
+   {
+    "start": 39.836,
+    "dur": 4.68,
+    "en": "This is foam. It is the soft padding inside a cushion.",
+    "ar": "هذا إسفنج. وهو الحشوة الليّنة داخل الوسادة."
+   },
+   {
+    "start": 44.866,
+    "dur": 5.184,
+    "en": "This is a prototype. It is the first sample of a new design.",
+    "ar": "هذا نموذج أوّلي. وهو العيّنة الأولى لتصميم جديد."
+   },
+   {
+    "start": 50.4,
+    "dur": 4.296,
+    "en": "These are the dimensions: the width, the depth and the height.",
+    "ar": "هذه هي الأبعاد: العرض والعمق والارتفاع."
+   },
+   {
+    "start": 55.046,
+    "dur": 4.992,
+    "en": "That is the showroom. Customers see and buy the furniture there.",
+    "ar": "تلك صالة العرض. هناك يرى العملاء الأثاث ويشترونه."
+   },
+   {
+    "start": 60.388,
+    "dur": 4.656,
+    "en": "I am a carpenter. A carpenter makes things from wood.",
+    "ar": "أنا نجّار. والنجّار يصنع الأشياء من الخشب."
+   },
+   {
+    "start": 65.394,
+    "dur": 4.968,
+    "en": "This is a design. The designer draws it before we build.",
+    "ar": "هذا تصميم. المصمّمة ترسمه قبل أن نبني."
+   },
+   {
+    "start": 70.712,
+    "dur": 5.256,
+    "en": "And a good sofa is comfortable. It is soft and easy to sit on.",
+    "ar": "والكنبة الجيّدة مريحة. ليّنة وسهلة الجلوس."
+   },
+   {
+    "start": 76.318,
+    "dur": 4.824,
+    "en": "Now some questions from the book. Think before you answer.",
+    "ar": "الآن بعض الأسئلة من الكتاب. فكّر قبل أن تجيب."
+   },
+   {
+    "start": 81.492,
+    "dur": 5.376,
+    "en": "A good sofa is soft and blank to sit on. Which word is missing?",
+    "ar": "الكنبة الجيّدة ليّنة و فراغ للجلوس. ما الكلمة الناقصة؟"
+   },
+   {
+    "start": 93.574,
+    "dur": 4.464,
+    "en": "Comfortable. A good sofa is soft and comfortable.",
+    "ar": "مريحة. الكنبة الجيّدة ليّنة ومريحة."
+   },
+   {
+    "start": 98.388,
+    "dur": 3.408,
+    "en": "The frame of the sofa is made of strong blank.",
+    "ar": "هيكل الكنبة مصنوع من فراغ قويّ."
+   },
+   {
+    "start": 107.502,
+    "dur": 3.936,
+    "en": "Wood. The frame is made of strong wood.",
+    "ar": "خشب. الهيكل مصنوع من خشب قويّ."
+   },
+   {
+    "start": 111.788,
+    "dur": 4.272,
+    "en": "A designer draws a blank before the factory builds the furniture.",
+    "ar": "المصمّمة ترسم فراغاً قبل أن يبني المصنع الأثاث."
+   },
+   {
+    "start": 122.883,
+    "dur": 4.464,
+    "en": "Design. A designer draws a design first.",
+    "ar": "تصميماً. المصمّمة ترسم تصميماً أوّلاً."
+   },
+   {
+    "start": 127.697,
+    "dur": 3.144,
+    "en": "We sit on the soft blank of the armchair.",
+    "ar": "نجلس على فراغ الكرسي الوثير الليّن."
+   },
+   {
+    "start": 136.253,
+    "dur": 4.08,
+    "en": "Cushions. We sit on the soft cushions.",
+    "ar": "الوسائد. نجلس على الوسائد الليّنة."
+   },
+   {
+    "start": 140.683,
+    "dur": 2.424,
+    "en": "What is in a living-room set?",
+    "ar": "ماذا يوجد في طقم غرفة الجلوس؟"
+   },
+   {
+    "start": 147.813,
+    "dur": 2.544,
+    "en": "A sofa and some armchairs.",
+    "ar": "كنبة وبعض الكراسي الوثيرة."
+   },
+   {
+    "start": 150.707,
+    "dur": 2.4,
+    "en": "What does a good sofa have?",
+    "ar": "ماذا يوجد في الكنبة الجيّدة؟"
+   },
+   {
+    "start": 157.695,
+    "dur": 3.84,
+    "en": "A strong frame, soft cushions, and a cover.",
+    "ar": "هيكل قويّ، ووسائد ليّنة، وغطاء."
+   },
+   {
+    "start": 161.885,
+    "dur": 4.848,
+    "en": "Good. Every piece here starts as wood and ends as furniture.",
+    "ar": "جيّد. كلّ قطعة هنا تبدأ خشباً وتنتهي أثاثاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 23.168,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 28.46,
+    "hold": 3.0,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 33.312,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 38.361,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 43.441,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 46.654,
+    "hold": 2.5,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 49.204,
+    "hold": 2.92,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 53.709,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "carpenter",
+    "label": "carpenter",
+    "ar": "النجّار",
+    "at": 58.976,
+    "hold": 3.0,
+    "img": "assets/vocab/carpenter.png",
+    "sha": "e20c1702c3d42690"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 96.738,
+    "hold": 13.76,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 122.883,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 157.695,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "schema": "timeline/1",
+ "duration": 184.91,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.248,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.048,
+    "dur": 6.336,
+    "en": "This is Part 1, Check What You Know. You will label a sofa, part by part.",
+    "ar": "هذا الجزء الأوّل، تحقّق ممّا تعرفه. ستسمّي أجزاء الكنبة، جزءاً جزءاً."
+   },
+   {
+    "start": 14.734,
+    "dur": 5.112,
+    "en": "Five parts of a sofa. I describe one, you name it.",
+    "ar": "خمسة أجزاء من الكنبة. أصف واحداً، وأنت تسمّيه."
+   },
+   {
+    "start": 20.196,
+    "dur": 2.664,
+    "en": "The part you lean your back against.",
+    "ar": "الجزء الذي تسند ظهرك إليه."
+   },
+   {
+    "start": 27.978,
+    "dur": 1.872,
+    "en": "The backrest.",
+    "ar": "المسند الخلفي."
+   },
+   {
+    "start": 30.2,
+    "dur": 2.736,
+    "en": "The part where you rest your arm.",
+    "ar": "الجزء الذي تريح ذراعك عليه."
+   },
+   {
+    "start": 37.877,
+    "dur": 1.872,
+    "en": "The armrest.",
+    "ar": "مسند الذراع."
+   },
+   {
+    "start": 40.099,
+    "dur": 2.4,
+    "en": "The soft part you sit on.",
+    "ar": "الجزء الليّن الذي تجلس عليه."
+   },
+   {
+    "start": 46.97,
+    "dur": 1.872,
+    "en": "The seat cushion.",
+    "ar": "وسادة المقعد."
+   },
+   {
+    "start": 49.192,
+    "dur": 3.24,
+    "en": "The part that holds the sofa up off the floor.",
+    "ar": "الجزء الذي يرفع الكنبة عن الأرض."
+   },
+   {
+    "start": 58.137,
+    "dur": 1.872,
+    "en": "The leg.",
+    "ar": "الرِّجل."
+   },
+   {
+    "start": 60.359,
+    "dur": 3.624,
+    "en": "And the strong structure inside that holds it together.",
+    "ar": "والبنية القويّة في الداخل التي تمسكها معاً."
+   },
+   {
+    "start": 70.219,
+    "dur": 1.872,
+    "en": "The frame.",
+    "ar": "الهيكل."
+   },
+   {
+    "start": 72.441,
+    "dur": 6.24,
+    "en": "One description was not needed: a soft cover you put on the floor. That is a rug.",
+    "ar": "وصف واحد لم يكن مطلوباً: غطاء ليّن تضعه على الأرض. ذلك سجّادة."
+   },
+   {
+    "start": 79.031,
+    "dur": 3.792,
+    "en": "Which material is used for a strong sofa frame?",
+    "ar": "أيّ مادّة تُستخدم لهيكل كنبة قويّ؟"
+   },
+   {
+    "start": 88.587,
+    "dur": 5.688,
+    "en": "Hardwood, like oak or beech. Not paper, glass or water.",
+    "ar": "الخشب الصلب، كالبلّوط أو الزان. ليس الورق ولا الزجاج ولا الماء."
+   },
+   {
+    "start": 94.625,
+    "dur": 2.928,
+    "en": "What do we put inside a soft cushion?",
+    "ar": "ماذا نضع داخل الوسادة الليّنة؟"
+   },
+   {
+    "start": 102.73,
+    "dur": 5.112,
+    "en": "Foam. Not stones, not sand, and not springs only.",
+    "ar": "الإسفنج. ليس الحجارة ولا الرمل ولا الزنبركات وحدها."
+   },
+   {
+    "start": 108.192,
+    "dur": 2.064,
+    "en": "What is upholstery?",
+    "ar": "ما هو التنجيد؟"
+   },
+   {
+    "start": 114.374,
+    "dur": 3.096,
+    "en": "The cover and padding on a sofa or chair.",
+    "ar": "الغطاء والحشوة على الكنبة أو الكرسي."
+   },
+   {
+    "start": 117.82,
+    "dur": 6.048,
+    "en": "Four sentences, and four words in your book. They follow one piece to the customer.",
+    "ar": "أربع جمل، وأربع كلمات في كتابك. تتابع قطعة واحدة حتّى العميل."
+   },
+   {
+    "start": 124.218,
+    "dur": 4.344,
+    "en": "The designer chooses the blank: wood, foam and fabric.",
+    "ar": "المصمّمة تختار الفراغ: الخشب والإسفنج والقماش."
+   },
+   {
+    "start": 134.738,
+    "dur": 4.584,
+    "en": "Materials. The designer chooses the materials.",
+    "ar": "الموادّ. المصمّمة تختار الموادّ."
+   },
+   {
+    "start": 139.672,
+    "dur": 4.032,
+    "en": "The factory makes a blank to test the new design first.",
+    "ar": "المصنع يصنع فراغاً لاختبار التصميم الجديد أوّلاً."
+   },
+   {
+    "start": 149.939,
+    "dur": 4.392,
+    "en": "Prototype. The factory makes a prototype.",
+    "ar": "نموذجاً أوّليّاً. المصنع يصنع نموذجاً أوّليّاً."
+   },
+   {
+    "start": 154.681,
+    "dur": 4.32,
+    "en": "We measure the blank of the sofa: width, depth and height.",
+    "ar": "نقيس فراغ الكنبة: العرض والعمق والارتفاع."
+   },
+   {
+    "start": 165.413,
+    "dur": 4.08,
+    "en": "Dimensions. We measure the dimensions.",
+    "ar": "الأبعاد. نقيس الأبعاد."
+   },
+   {
+    "start": 169.843,
+    "dur": 3.456,
+    "en": "Customers see and buy the furniture in the blank.",
+    "ar": "يرى العملاء الأثاث ويشترونه في الفراغ."
+   },
+   {
+    "start": 179.182,
+    "dur": 4.128,
+    "en": "Showroom. Customers buy it in the showroom.",
+    "ar": "صالة العرض. يشترونه في صالة العرض."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 46.97,
+    "hold": 3.0,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 70.219,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 79.531,
+    "hold": 9.01,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 88.587,
+    "hold": 3.0,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 94.338,
+    "hold": 8.34,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 102.73,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 124.568,
+    "hold": 10.12,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 149.939,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 165.413,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 179.182,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

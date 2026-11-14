@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 188.22,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.912,
+    "en": "This is Part 2, Grammar Practice. You will build four forms, then CHOOSE four.",
+    "ar": "هذا الجزء الثاني، تدريب القواعد. ستبني أربع صيغ، ثمّ تختار أربعاً."
+   },
+   {
+    "start": 16.078,
+    "dur": 5.688,
+    "en": "Eight sentences. The time phrase chooses the tense every time.",
+    "ar": "ثماني جمل. عبارة الزمن هي التي تختار الزمن في كلّ مرّة."
+   },
+   {
+    "start": 22.116,
+    "dur": 5.496,
+    "en": "The book does the first. Sami usually works in the morning.",
+    "ar": "الكتاب يحلّ الأولى. Sami usually works in the morning."
+   },
+   {
+    "start": 27.962,
+    "dur": 5.832,
+    "en": "Why the plain verb there? Because usually means every day, not now.",
+    "ar": "لماذا الفعل المجرّد هناك؟ لأنّ usually تعني كلّ يوم، لا الآن."
+   },
+   {
+    "start": 34.144,
+    "dur": 5.592,
+    "en": "Layla blank new sofas and chairs. The verb is design.",
+    "ar": "Layla فراغ new sofas and chairs. الفعل هو design."
+   },
+   {
+    "start": 45.854,
+    "dur": 5.232,
+    "en": "Designs. Layla designs new sofas and chairs.",
+    "ar": "designs. ليلى تصمّم كنبات وكراسي جديدة."
+   },
+   {
+    "start": 51.436,
+    "dur": 6.408,
+    "en": "Look! She blank an armchair right now. The verb is draw.",
+    "ar": "Look! She فراغ an armchair right now. الفعل هو draw."
+   },
+   {
+    "start": 64.138,
+    "dur": 4.68,
+    "en": "Is drawing. Look tells you it is happening now.",
+    "ar": "is drawing. كلمة Look تخبرك أنّه يحدث الآن."
+   },
+   {
+    "start": 69.168,
+    "dur": 5.448,
+    "en": "The factory blank furniture every day. The verb is make.",
+    "ar": "The factory فراغ furniture every day. الفعل هو make."
+   },
+   {
+    "start": 80.91,
+    "dur": 4.104,
+    "en": "Makes. Every day is a routine.",
+    "ar": "makes. فـ every day روتين."
+   },
+   {
+    "start": 85.364,
+    "dur": 5.928,
+    "en": "This week, the team blank a sofa for a customer. The verb is make.",
+    "ar": "This week, the team فراغ a sofa for a customer. الفعل هو make."
+   },
+   {
+    "start": 98.174,
+    "dur": 5.16,
+    "en": "Is making. This week means now, not always.",
+    "ar": "is making. فـ this week تعني الآن، لا دائماً."
+   },
+   {
+    "start": 103.684,
+    "dur": 5.592,
+    "en": "Now choose. Each of these could take either form, and one is right.",
+    "ar": "الآن اختر. كلّ واحدة قد تأخذ أيّ صيغة، وواحدة صحيحة."
+   },
+   {
+    "start": 109.626,
+    "dur": 5.832,
+    "en": "Right now, Khaled blank the team. Is it watches, or is watching?",
+    "ar": "Right now, Khaled فراغ the team. أهي watches، أم is watching؟"
+   },
+   {
+    "start": 122.223,
+    "dur": 4.632,
+    "en": "Is watching. Right now cannot take the plain verb.",
+    "ar": "is watching. فـ right now لا تقبل الفعل المجرّد."
+   },
+   {
+    "start": 127.205,
+    "dur": 5.448,
+    "en": "Layla usually blank in the morning. Is it draws, or is drawing?",
+    "ar": "Layla usually فراغ in the morning. أهي draws، أم is drawing؟"
+   },
+   {
+    "start": 139.359,
+    "dur": 5.784,
+    "en": "Draws. Usually is a routine, so the verb is plain with an S.",
+    "ar": "draws. فـ usually روتين، فالفعل مجرّد مع حرف S."
+   },
+   {
+    "start": 145.493,
+    "dur": 6.504,
+    "en": "Listen! Nour blank to a customer. Is it talks, or is talking?",
+    "ar": "Listen! Nour فراغ to a customer. أهي talks، أم is talking؟"
+   },
+   {
+    "start": 158.585,
+    "dur": 4.584,
+    "en": "Is talking. Listen tells you it is happening now.",
+    "ar": "is talking. كلمة Listen تخبرك أنّه يحدث الآن."
+   },
+   {
+    "start": 163.519,
+    "dur": 5.736,
+    "en": "The factory blank sofas every week. Is it makes, or is making?",
+    "ar": "The factory فراغ sofas every week. أهي makes، أم is making؟"
+   },
+   {
+    "start": 175.902,
+    "dur": 4.968,
+    "en": "Makes. Every week is a routine, like every day.",
+    "ar": "makes. فـ every week روتين، مثل every day."
+   },
+   {
+    "start": 181.22,
+    "dur": 5.4,
+    "en": "Two of those four were the simple. Look at the time phrase first.",
+    "ar": "اثنتان من تلك الأربع كانتا بسيطتين. انظر إلى عبارة الزمن أوّلاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "armchair",
+    "label": "armchair",
+    "ar": "الكرسي الوثير",
+    "at": 51.611,
+    "hold": 12.48,
+    "img": "assets/vocab/armchair.png",
+    "sha": "c539ba4c14c4b4be"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

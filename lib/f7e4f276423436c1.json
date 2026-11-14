@@ -1,0 +1,210 @@
+{
+ "schema": "timeline/1",
+ "duration": 155.894,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.464,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.264,
+    "dur": 6.408,
+    "en": "This is Part 7, the Management File. You will hear a first day at the workshop.",
+    "ar": "هذا الجزء السابع، ملفّ الإدارة. ستسمع يوماً أوّل في الورشة."
+   },
+   {
+    "start": 15.022,
+    "dur": 5.736,
+    "en": "This part is for the manager. Four things a manager says, and why.",
+    "ar": "هذا الجزء للمدير. أربعة أمور يقولها المدير، ولماذا."
+   },
+   {
+    "start": 21.108,
+    "dur": 4.056,
+    "en": "Welcome to the team. What is that for?",
+    "ar": "أهلاً بك في الفريق. ما الغرض من هذا؟"
+   },
+   {
+    "start": 30.399,
+    "dur": 2.136,
+    "en": "Greeting a new worker.",
+    "ar": "الترحيب بعامل جديد."
+   },
+   {
+    "start": 32.885,
+    "dur": 4.512,
+    "en": "Let me show you the workshop. What is that for?",
+    "ar": "دعني أريك الورشة. ما الغرض من هذا؟"
+   },
+   {
+    "start": 43.162,
+    "dur": 2.304,
+    "en": "Showing someone around.",
+    "ar": "التعريف بالمكان."
+   },
+   {
+    "start": 45.816,
+    "dur": 4.368,
+    "en": "Always wear your goggles. What is that for?",
+    "ar": "ارتدِ نظّاراتك الواقية دائماً. ما الغرض من هذا؟"
+   },
+   {
+    "start": 55.713,
+    "dur": 2.256,
+    "en": "Giving a safety rule.",
+    "ar": "إعطاء قاعدة سلامة."
+   },
+   {
+    "start": 58.32,
+    "dur": 4.512,
+    "en": "Ask me if you are not sure. What is that for?",
+    "ar": "اسألني إن لم تكن متأكّداً. ما الغرض من هذا؟"
+   },
+   {
+    "start": 68.479,
+    "dur": 2.52,
+    "en": "Offering help and support.",
+    "ar": "عرض المساعدة والدعم."
+   },
+   {
+    "start": 71.349,
+    "dur": 6.12,
+    "en": "One purpose was not needed: talking about the price. That belongs in the showroom.",
+    "ar": "غرض واحد لم يكن مطلوباً: الحديث عن السعر. وذلك مكانه صالة العرض."
+   },
+   {
+    "start": 77.819,
+    "dur": 3.456,
+    "en": "Now listen to a first day at Cham Furniture.",
+    "ar": "الآن استمع إلى يوم أوّل في شام للأثاث."
+   },
+   {
+    "start": 81.625,
+    "dur": 4.752,
+    "en": "Good morning, Khaled. Welcome to Cham Furniture.",
+    "ar": "صباح الخير يا خالد. أهلاً بك في شام للأثاث."
+   },
+   {
+    "start": 86.727,
+    "dur": 2.688,
+    "en": "Are you familiar with a workshop?",
+    "ar": "هل أنت معتاد على الورشة؟"
+   },
+   {
+    "start": 89.765,
+    "dur": 3.528,
+    "en": "A little. I helped my uncle before.",
+    "ar": "قليلاً. ساعدت عمّي من قبل."
+   },
+   {
+    "start": 93.643,
+    "dur": 4.416,
+    "en": "Good. This week, you are watching and learning.",
+    "ar": "جيّد. هذا الأسبوع، أنت تشاهد وتتعلّم."
+   },
+   {
+    "start": 98.409,
+    "dur": 4.992,
+    "en": "Ustaz Sami's rule is this: always wear your goggles near the machines.",
+    "ar": "قاعدة الأستاذ سامي هي: ارتدِ نظّاراتك الواقية دائماً قرب الآلات."
+   },
+   {
+    "start": 103.751,
+    "dur": 2.424,
+    "en": "And keep your area clean.",
+    "ar": "وأبقِ منطقتك نظيفة."
+   },
+   {
+    "start": 106.525,
+    "dur": 3.144,
+    "en": "Yes, Ustaz. Thank you.",
+    "ar": "نعم يا أستاذ. شكراً لك."
+   },
+   {
+    "start": 110.019,
+    "dur": 5.04,
+    "en": "If you are not sure, ask us. We work as a team here.",
+    "ar": "وإن لم تكن متأكّداً، اسألنا. نحن نعمل كفريق هنا."
+   },
+   {
+    "start": 115.409,
+    "dur": 2.592,
+    "en": "What is Khaled doing this week?",
+    "ar": "ماذا يفعل خالد هذا الأسبوع؟"
+   },
+   {
+    "start": 122.824,
+    "dur": 2.04,
+    "en": "Watching and learning.",
+    "ar": "يشاهد ويتعلّم."
+   },
+   {
+    "start": 125.214,
+    "dur": 2.904,
+    "en": "What safety rule does Sami give?",
+    "ar": "ما قاعدة السلامة التي يعطيها سامي؟"
+   },
+   {
+    "start": 133.001,
+    "dur": 4.464,
+    "en": "Always wear goggles near the machines, and keep the area clean.",
+    "ar": "ارتدِ النظّارات الواقية دائماً قرب الآلات، وأبقِ المنطقة نظيفة."
+   },
+   {
+    "start": 137.815,
+    "dur": 3.12,
+    "en": "What should Khaled do if he is not sure?",
+    "ar": "ماذا يفعل خالد إن لم يكن متأكّداً؟"
+   },
+   {
+    "start": 146.288,
+    "dur": 1.896,
+    "en": "Ask the team.",
+    "ar": "يسأل الفريق."
+   },
+   {
+    "start": 148.534,
+    "dur": 5.76,
+    "en": "Notice the order of a first day. Welcome, then the rule, then the offer of help.",
+    "ar": "لاحظ ترتيب اليوم الأوّل. ترحيب، ثمّ القاعدة، ثمّ عرض المساعدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 31.985,
+    "hold": 11.13,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 85.939,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

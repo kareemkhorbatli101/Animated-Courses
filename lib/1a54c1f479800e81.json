@@ -1,0 +1,237 @@
+{
+ "schema": "timeline/1",
+ "duration": 179.23,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 7.104,
+    "en": "This is Part 6, How to Describe a Piece. You will take a model apart, then write.",
+    "ar": "هذا الجزء السادس، كيف تصف قطعة. ستفكّك نموذجاً، ثمّ تكتب."
+   },
+   {
+    "start": 16.27,
+    "dur": 7.392,
+    "en": "Four pieces of writing here. The first describes one piece, in fifty to seventy words.",
+    "ar": "أربع كتابات هنا. الأولى تصف قطعة واحدة، في خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 24.012,
+    "dur": 5.352,
+    "en": "It needs one present-simple sentence and one present-continuous sentence.",
+    "ar": "تحتاج جملة بالمضارع البسيط وجملة بالمضارع المستمرّ."
+   },
+   {
+    "start": 29.714,
+    "dur": 5.016,
+    "en": "Here is the model, and then we take it apart one sentence at a time.",
+    "ar": "هذا هو النموذج، ثمّ نفكّكه جملة جملة."
+   },
+   {
+    "start": 35.08,
+    "dur": 3.36,
+    "en": "This is a grey sofa in our showroom.",
+    "ar": "هذه كنبة رمادية في صالة عرضنا."
+   },
+   {
+    "start": 38.79,
+    "dur": 4.248,
+    "en": "It has an oak frame, and the cushions are filled with foam.",
+    "ar": "لها هيكل بلّوط، ووسائدها محشوّة بالإسفنج."
+   },
+   {
+    "start": 43.388,
+    "dur": 6.216,
+    "en": "The cover is grey fabric. Right now, two customers are looking at it.",
+    "ar": "الغطاء قماش رمادي. والآن، عميلان ينظران إليها."
+   },
+   {
+    "start": 49.954,
+    "dur": 3.456,
+    "en": "It is comfortable, strong and beautiful.",
+    "ar": "وهي مريحة وقويّة وجميلة."
+   },
+   {
+    "start": 53.76,
+    "dur": 5.448,
+    "en": "Sentence one names the piece and where it is. That is the opening.",
+    "ar": "الجملة الأولى تسمّي القطعة ومكانها. وهذه هي البداية."
+   },
+   {
+    "start": 59.558,
+    "dur": 5.928,
+    "en": "Sentence two gives the materials, with has. That is the present simple.",
+    "ar": "الجملة الثانية تعطي الموادّ، مع has. وهذا المضارع البسيط."
+   },
+   {
+    "start": 65.836,
+    "dur": 4.512,
+    "en": "Sentence three turns to the cover, so the reader can picture it.",
+    "ar": "الجملة الثالثة تنتقل إلى الغطاء، ليتخيّله القارئ."
+   },
+   {
+    "start": 70.698,
+    "dur": 6.168,
+    "en": "Sentence four says right now, and uses are looking. That is the continuous.",
+    "ar": "الجملة الرابعة تقول right now، وتستخدم are looking. وهذا المستمرّ."
+   },
+   {
+    "start": 77.216,
+    "dur": 6.288,
+    "en": "Sentence five closes with three adjectives. Short, and it ends the piece.",
+    "ar": "والجملة الخامسة تُغلق بثلاث صفات. قصيرة، وتُنهي القطعة."
+   },
+   {
+    "start": 83.854,
+    "dur": 4.92,
+    "en": "Which sentence carries the present continuous, and which word proves it?",
+    "ar": "أيّ جملة تحمل المضارع المستمرّ، وأيّ كلمة تثبت ذلك؟"
+   },
+   {
+    "start": 96.009,
+    "dur": 4.056,
+    "en": "The fourth. Right now, with are looking.",
+    "ar": "الرابعة. right now، مع are looking."
+   },
+   {
+    "start": 100.415,
+    "dur": 7.224,
+    "en": "Four things to check. One simple, one continuous, the materials named, and the length.",
+    "ar": "أربعة أمور تحقّق منها. جملة بسيطة، وجملة مستمرّة، وتسمية الموادّ، والطول."
+   },
+   {
+    "start": 107.989,
+    "dur": 5.544,
+    "en": "The second task is an opinion. Why does good furniture design matter?",
+    "ar": "المهمّة الثانية رأي. لماذا يهمّ تصميم الأثاث الجيّد؟"
+   },
+   {
+    "start": 113.883,
+    "dur": 4.056,
+    "en": "Give one reason, in a sentence that begins with because.",
+    "ar": "اذكر سبباً واحداً، في جملة تبدأ بـ because."
+   },
+   {
+    "start": 124.234,
+    "dur": 4.176,
+    "en": "For example: because good design lasts many years.",
+    "ar": "مثلاً: لأنّ التصميم الجيّد يدوم سنوات كثيرة."
+   },
+   {
+    "start": 128.76,
+    "dur": 5.184,
+    "en": "The third is an email from me to Ustaz Sami, about a new sofa.",
+    "ar": "والثالثة بريد منّي إلى الأستاذ سامي، عن كنبة جديدة."
+   },
+   {
+    "start": 134.294,
+    "dur": 5.664,
+    "en": "Dear Sami. Here is the design for Mr Haddad's sofa.",
+    "ar": "عزيزي سامي. هذا تصميم كنبة السيّد حدّاد."
+   },
+   {
+    "start": 140.308,
+    "dur": 4.68,
+    "en": "Please make the frame from oak, and use thick foam in the cushions.",
+    "ar": "من فضلك اصنع الهيكل من البلّوط، واستخدم إسفنجاً سميكاً في الوسائد."
+   },
+   {
+    "start": 145.338,
+    "dur": 6.144,
+    "en": "Check the dimensions before you cut. Thank you. Layla.",
+    "ar": "تحقّق من الأبعاد قبل أن تقطع. شكراً لك. ليلى."
+   },
+   {
+    "start": 151.832,
+    "dur": 4.656,
+    "en": "That email has four parts. Name them in order.",
+    "ar": "ذلك البريد له أربعة أجزاء. سمّها بالترتيب."
+   },
+   {
+    "start": 162.194,
+    "dur": 4.944,
+    "en": "A greeting, what it is about, the request, and a check before closing.",
+    "ar": "تحيّة، وموضوعه، والطلب، وتحقّق قبل الختام."
+   },
+   {
+    "start": 167.488,
+    "dur": 4.44,
+    "en": "And the fourth is a reflection: the living-room set you would like.",
+    "ar": "والرابعة تأمّل: طقم غرفة الجلوس الذي تريده."
+   },
+   {
+    "start": 172.278,
+    "dur": 5.352,
+    "en": "Now write. Pick the task you find hardest, and write it now.",
+    "ar": "الآن اكتب. اختر المهمّة التي تجدها أصعب، واكتبها الآن."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 35.08,
+    "hold": 2.57,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 37.703,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 109.939,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 124.234,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 143.913,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

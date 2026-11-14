@@ -1,0 +1,198 @@
+{
+ "schema": "timeline/1",
+ "duration": 146.34,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.696,
+    "en": "This is Part 9, the Local Case Study. You will decide what Layla does next.",
+    "ar": "هذا الجزء التاسع، دراسة الحالة المحلّية. ستقرّر ما تفعله ليلى تالياً."
+   },
+   {
+    "start": 15.862,
+    "dur": 6.384,
+    "en": "Before you read, think. What problems does a young designer have in Damascus?",
+    "ar": "قبل أن تقرأ، فكّر. ما المشاكل التي تواجه مصمّمة شابّة في دمشق؟"
+   },
+   {
+    "start": 22.596,
+    "dur": 4.728,
+    "en": "I studied furniture design, and I wanted my own studio.",
+    "ar": "درستُ تصميم الأثاث، وأردتُ استوديو خاصّاً بي."
+   },
+   {
+    "start": 27.674,
+    "dur": 3.624,
+    "en": "I had good ideas, but only a little money.",
+    "ar": "كانت لديّ أفكار جيّدة، لكن مال قليل فقط."
+   },
+   {
+    "start": 31.648,
+    "dur": 3.384,
+    "en": "Rent for a big shop was very expensive.",
+    "ar": "كان إيجار محلّ كبير غالياً جدّاً."
+   },
+   {
+    "start": 35.382,
+    "dur": 3.552,
+    "en": "And the electricity was not always on.",
+    "ar": "والكهرباء لم تكن متوفّرة دائماً."
+   },
+   {
+    "start": 39.284,
+    "dur": 4.68,
+    "en": "So I started small. I rented one room.",
+    "ar": "فبدأتُ صغيراً. استأجرتُ غرفة واحدة."
+   },
+   {
+    "start": 44.314,
+    "dur": 2.616,
+    "en": "It was a design studio.",
+    "ar": "كانت استوديو تصميم."
+   },
+   {
+    "start": 47.28,
+    "dur": 3.072,
+    "en": "And it was a small showroom as well.",
+    "ar": "وكانت صالة عرض صغيرة أيضاً."
+   },
+   {
+    "start": 50.702,
+    "dur": 4.128,
+    "en": "I drew my designs by hand and on a cheap computer.",
+    "ar": "رسمتُ تصاميمي باليد وعلى حاسوب رخيص."
+   },
+   {
+    "start": 55.18,
+    "dur": 6.336,
+    "en": "For the frames, I chose local wood. It was cheaper than imported wood.",
+    "ar": "وللهياكل، اخترتُ خشباً محلّيّاً. كان أرخص من الخشب المستورد."
+   },
+   {
+    "start": 61.866,
+    "dur": 4.776,
+    "en": "I worked with one small workshop nearby to make my sofas.",
+    "ar": "وعملتُ مع ورشة صغيرة قريبة لصنع كنباتي."
+   },
+   {
+    "start": 66.992,
+    "dur": 6.408,
+    "en": "Slowly, customers came. My designs were modern but not expensive.",
+    "ar": "وشيئاً فشيئاً، جاء العملاء. كانت تصاميمي حديثة لكن غير غالية."
+   },
+   {
+    "start": 73.75,
+    "dur": 4.44,
+    "en": "After one year, I was ready to rent a bigger space.",
+    "ar": "وبعد سنة، صرتُ مستعدّة لاستئجار مكان أكبر."
+   },
+   {
+    "start": 78.54,
+    "dur": 2.904,
+    "en": "What two problems did Layla have?",
+    "ar": "ما المشكلتان اللتان واجهتهما ليلى؟"
+   },
+   {
+    "start": 86.385,
+    "dur": 4.968,
+    "en": "Little money, and expensive rent with electricity that was not always on.",
+    "ar": "مال قليل، وإيجار غالٍ مع كهرباء غير متوفّرة دائماً."
+   },
+   {
+    "start": 91.703,
+    "dur": 2.592,
+    "en": "Why did she choose local wood?",
+    "ar": "لماذا اختارت الخشب المحلّي؟"
+   },
+   {
+    "start": 99.06,
+    "dur": 2.76,
+    "en": "It was cheaper than imported wood.",
+    "ar": "كان أرخص من الخشب المستورد."
+   },
+   {
+    "start": 102.17,
+    "dur": 2.376,
+    "en": "Why did customers come?",
+    "ar": "لماذا جاء العملاء؟"
+   },
+   {
+    "start": 108.899,
+    "dur": 3.36,
+    "en": "Her designs were modern but not expensive.",
+    "ar": "كانت تصاميمها حديثة لكن غير غالية."
+   },
+   {
+    "start": 112.609,
+    "dur": 5.04,
+    "en": "Now your decision. Layla has a little more money this year.",
+    "ar": "الآن قرارك. لدى ليلى مال أكثر قليلاً هذه السنة."
+   },
+   {
+    "start": 117.999,
+    "dur": 4.848,
+    "en": "Should she buy a machine, rent a bigger showroom, or hire one worker?",
+    "ar": "هل تشتري آلة، أم تستأجر صالة عرض أكبر، أم توظّف عاملاً واحداً؟"
+   },
+   {
+    "start": 123.197,
+    "dur": 8.832,
+    "en": "Use the frame. I think Layla should, because. Also. This is better than, because.",
+    "ar": "استخدم القالب. I think Layla should، because. و Also. و This is better than، because."
+   },
+   {
+    "start": 132.379,
+    "dur": 2.592,
+    "en": "Decide, and say why.",
+    "ar": "قرّر، وقل لماذا."
+   },
+   {
+    "start": 139.148,
+    "dur": 5.592,
+    "en": "For example: hire one worker, because she can then make more sofas each month.",
+    "ar": "مثلاً: توظّف عاملاً واحداً، لأنّها عندئذٍ تصنع كنبات أكثر كلّ شهر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 21.809,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 46.33,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

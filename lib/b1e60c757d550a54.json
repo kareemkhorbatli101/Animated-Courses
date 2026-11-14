@@ -1,0 +1,189 @@
+{
+ "schema": "timeline/1",
+ "duration": 150.784,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.464,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.264,
+    "dur": 7.032,
+    "en": "This is Part 4, Discussing Furniture and Design. Two sofas, and three differences.",
+    "ar": "هذا الجزء الرابع، مناقشة الأثاث والتصميم. كنبتان، وثلاثة فروق."
+   },
+   {
+    "start": 15.646,
+    "dur": 5.568,
+    "en": "Three questions for a partner. Answer each one aloud before I do.",
+    "ar": "ثلاثة أسئلة لزميل. أجب عن كلّ واحد بصوت عالٍ قبلي."
+   },
+   {
+    "start": 21.564,
+    "dur": 3.024,
+    "en": "What furniture do you have in your living room?",
+    "ar": "أيّ أثاث لديك في غرفة الجلوس؟"
+   },
+   {
+    "start": 30.353,
+    "dur": 5.016,
+    "en": "For example: I have a sofa, two armchairs and a coffee table.",
+    "ar": "مثلاً: لديّ كنبة وكرسيّان وثيران وطاولة قهوة."
+   },
+   {
+    "start": 35.719,
+    "dur": 3.912,
+    "en": "Do you like modern or classic furniture, and why?",
+    "ar": "هل تحبّ الأثاث الحديث أم الكلاسيكي، ولماذا؟"
+   },
+   {
+    "start": 45.513,
+    "dur": 4.416,
+    "en": "For example: I like modern furniture because it is simple.",
+    "ar": "مثلاً: أحبّ الأثاث الحديث لأنّه بسيط."
+   },
+   {
+    "start": 50.279,
+    "dur": 3.384,
+    "en": "Can you describe your favourite chair or sofa?",
+    "ar": "هل تستطيع وصف كرسيّك أو كنبتك المفضّلة؟"
+   },
+   {
+    "start": 59.369,
+    "dur": 5.856,
+    "en": "For example: my favourite chair is brown. It is made of wood and leather.",
+    "ar": "مثلاً: كرسيّي المفضّل بنّي. مصنوع من الخشب والجلد."
+   },
+   {
+    "start": 65.575,
+    "dur": 6.768,
+    "en": "Four phrases for this. I have, I like because, my favourite is, it is made of.",
+    "ar": "أربع عبارات لهذا. I have، و I like because، و my favourite is، و it is made of."
+   },
+   {
+    "start": 72.693,
+    "dur": 5.352,
+    "en": "Now the pair task. Two sofas, and neither of you shows your card.",
+    "ar": "الآن مهمّة الزوج. كنبتان، ولا يُظهر أيّ منكما بطاقته."
+   },
+   {
+    "start": 78.395,
+    "dur": 6.696,
+    "en": "Sofa A is grey. It has an oak frame. It is small, and costs two million.",
+    "ar": "الكنبة A رمادية. هيكلها بلّوط. صغيرة، وسعرها مليونان."
+   },
+   {
+    "start": 85.441,
+    "dur": 7.344,
+    "en": "Sofa B is blue. It has a pine frame. It is big, and costs two and a half million.",
+    "ar": "الكنبة B زرقاء. هيكلها صنوبر. كبيرة، وسعرها مليونان ونصف."
+   },
+   {
+    "start": 93.135,
+    "dur": 3.96,
+    "en": "Ask about the frames. What is the difference?",
+    "ar": "اسأل عن الهياكل. ما الفرق؟"
+   },
+   {
+    "start": 102.742,
+    "dur": 4.656,
+    "en": "Sofa A has an oak frame, and sofa B has a pine frame.",
+    "ar": "الكنبة A هيكلها بلّوط، والكنبة B هيكلها صنوبر."
+   },
+   {
+    "start": 107.748,
+    "dur": 5.184,
+    "en": "Now ask about size and price. What are the other two differences?",
+    "ar": "الآن اسأل عن الحجم والسعر. ما الفرقان الآخران؟"
+   },
+   {
+    "start": 119.756,
+    "dur": 5.16,
+    "en": "A is small and cheaper. B is big and costs half a million more.",
+    "ar": "A صغيرة وأرخص. و B كبيرة وتكلّف نصف مليون أكثر."
+   },
+   {
+    "start": 125.266,
+    "dur": 5.16,
+    "en": "Now your own opinion. There is no single right answer here.",
+    "ar": "الآن رأيك الخاصّ. لا جواب واحد صحيح هنا."
+   },
+   {
+    "start": 130.776,
+    "dur": 5.832,
+    "en": "A small room and a big family. Which sofa would you sell them, and why?",
+    "ar": "غرفة صغيرة وعائلة كبيرة. أيّ كنبة تبيعهم، ولماذا؟"
+   },
+   {
+    "start": 143.784,
+    "dur": 5.4,
+    "en": "For example: the small one, because a big sofa makes the room feel smaller.",
+    "ar": "مثلاً: الصغيرة، لأنّ الكنبة الكبيرة تجعل الغرفة تبدو أصغر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 30.353,
+    "hold": 3.0,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 50.367,
+    "hold": 8.95,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 79.073,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 102.742,
+    "hold": 3.0,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 131.938,
+    "hold": 15.53,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

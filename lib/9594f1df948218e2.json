@@ -1,0 +1,276 @@
+{
+ "schema": "timeline/1",
+ "duration": 151.42,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.816,
+    "en": "This is Part 5, What Is Furniture Design? You will read the unit's main text.",
+    "ar": "هذا الجزء الخامس، ما هو تصميم الأثاث؟ ستقرأ نصّ الوحدة الرئيسي."
+   },
+   {
+    "start": 15.982,
+    "dur": 5.76,
+    "en": "Before you read, think. What three things must a designer consider?",
+    "ar": "قبل أن تقرأ، فكّر. أيّ ثلاثة أمور على المصمّمة أن تراعيها؟"
+   },
+   {
+    "start": 22.092,
+    "dur": 5.424,
+    "en": "Three words first. A sketch is a quick first drawing.",
+    "ar": "ثلاث كلمات أوّلاً. الرسم الأوّلي هو رسم أوّل سريع."
+   },
+   {
+    "start": 27.866,
+    "dur": 4.632,
+    "en": "A technical drawing is a careful drawing with exact sizes.",
+    "ar": "والرسم الفنّي رسم دقيق بمقاسات مضبوطة."
+   },
+   {
+    "start": 32.848,
+    "dur": 4.776,
+    "en": "And a prototype is the first sample, made to test a design.",
+    "ar": "والنموذج الأوّلي هو العيّنة الأولى، تُصنع لاختبار تصميم."
+   },
+   {
+    "start": 37.974,
+    "dur": 4.2,
+    "en": "Furniture design is the work of planning new furniture.",
+    "ar": "تصميم الأثاث هو عمل التخطيط لأثاث جديد."
+   },
+   {
+    "start": 42.524,
+    "dur": 5.232,
+    "en": "A designer thinks about three things: comfort, beauty and use.",
+    "ar": "المصمّمة تفكّر في ثلاثة أمور: الراحة والجمال والاستعمال."
+   },
+   {
+    "start": 48.106,
+    "dur": 3.96,
+    "en": "First, the designer draws a sketch of the idea.",
+    "ar": "أوّلاً، ترسم المصمّمة رسماً أوّليّاً للفكرة."
+   },
+   {
+    "start": 52.416,
+    "dur": 4.512,
+    "en": "Then she makes a technical drawing with the exact dimensions.",
+    "ar": "ثمّ تعمل رسماً فنّيّاً بالأبعاد المضبوطة."
+   },
+   {
+    "start": 57.278,
+    "dur": 4.464,
+    "en": "Next, she chooses the materials: the wood for the frame.",
+    "ar": "بعد ذلك، تختار الموادّ: الخشب للهيكل."
+   },
+   {
+    "start": 62.092,
+    "dur": 4.032,
+    "en": "Then the foam for the cushions, and the fabric for the cover.",
+    "ar": "ثمّ الإسفنج للوسائد، والقماش للغطاء."
+   },
+   {
+    "start": 66.474,
+    "dur": 4.92,
+    "en": "After that, the factory makes a prototype to test the design.",
+    "ar": "بعد ذلك، يصنع المصنع نموذجاً أوّليّاً لاختبار التصميم."
+   },
+   {
+    "start": 71.744,
+    "dur": 5.736,
+    "en": "Right now, many Syrian designers are joining old skills with new ideas.",
+    "ar": "والآن، كثير من المصمّمين السوريّين يجمعون المهارات القديمة بأفكار جديدة."
+   },
+   {
+    "start": 77.83,
+    "dur": 4.032,
+    "en": "If the prototype is good, the factory makes more.",
+    "ar": "وإن كان النموذج الأوّلي جيّداً، صنع المصنع المزيد."
+   },
+   {
+    "start": 82.212,
+    "dur": 5.28,
+    "en": "Finally, the new sofa goes to the showroom, and the customer can buy it.",
+    "ar": "وأخيراً، تذهب الكنبة الجديدة إلى صالة العرض، ويستطيع العميل شراءها."
+   },
+   {
+    "start": 87.842,
+    "dur": 4.656,
+    "en": "Good design makes furniture comfortable, strong and beautiful.",
+    "ar": "التصميم الجيّد يجعل الأثاث مريحاً وقويّاً وجميلاً."
+   },
+   {
+    "start": 92.848,
+    "dur": 5.592,
+    "en": "A good designer also thinks about the price, so many families can buy it.",
+    "ar": "والمصمّمة الجيّدة تفكّر في السعر أيضاً، لتستطيع عائلات كثيرة شراءه."
+   },
+   {
+    "start": 98.79,
+    "dur": 5.064,
+    "en": "And a good sketch saves time, because the workshop knows what to build.",
+    "ar": "والرسم الأوّلي الجيّد يوفّر الوقت، لأنّ الورشة تعرف ماذا تبني."
+   },
+   {
+    "start": 104.204,
+    "dur": 3.216,
+    "en": "What three things does a designer think about?",
+    "ar": "في أيّ ثلاثة أمور تفكّر المصمّمة؟"
+   },
+   {
+    "start": 113.126,
+    "dur": 2.496,
+    "en": "Comfort, beauty and use.",
+    "ar": "الراحة والجمال والاستعمال."
+   },
+   {
+    "start": 115.972,
+    "dur": 2.688,
+    "en": "What does the designer do first?",
+    "ar": "ماذا تفعل المصمّمة أوّلاً؟"
+   },
+   {
+    "start": 123.542,
+    "dur": 2.688,
+    "en": "She draws a sketch of the idea.",
+    "ar": "ترسم رسماً أوّليّاً للفكرة."
+   },
+   {
+    "start": 126.58,
+    "dur": 3.048,
+    "en": "Why does the factory make a prototype?",
+    "ar": "لماذا يصنع المصنع نموذجاً أوّليّاً؟"
+   },
+   {
+    "start": 134.864,
+    "dur": 2.088,
+    "en": "To test the design.",
+    "ar": "لاختبار التصميم."
+   },
+   {
+    "start": 137.302,
+    "dur": 6.48,
+    "en": "Count the tenses in that text. Designers ARE joining, right now.",
+    "ar": "عُدّ الأزمنة في ذلك النصّ. المصمّمون يجمعون، الآن."
+   },
+   {
+    "start": 144.132,
+    "dur": 5.688,
+    "en": "Everything else is a routine. The grammar was not an exercise.",
+    "ar": "وكلّ ما عداه روتين. القواعد لم تكن تدريباً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "sketch",
+    "label": "sketch",
+    "ar": "الرسم الأوّلي",
+    "at": 22.68,
+    "hold": 3.0,
+    "img": "assets/vocab/sketch.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 31.273,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 34.323,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 53.229,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 58.503,
+    "hold": 2.5,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 61.053,
+    "hold": 2.56,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 82.437,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "sketch",
+    "label": "sketch",
+    "ar": "الرسم الأوّلي",
+    "at": 123.542,
+    "hold": 2.5,
+    "img": "assets/vocab/sketch.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 126.093,
+    "hold": 8.72,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 134.864,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

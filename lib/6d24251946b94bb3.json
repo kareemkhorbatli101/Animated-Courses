@@ -1,0 +1,288 @@
+{
+ "schema": "timeline/1",
+ "duration": 196.035,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.248,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.048,
+    "dur": 6.432,
+    "en": "This is Part 8, the Global Case Study. You will read how a small workshop grew.",
+    "ar": "هذا الجزء الثامن، دراسة الحالة العالمية. ستقرأ كيف نمت ورشة صغيرة."
+   },
+   {
+    "start": 14.83,
+    "dur": 5.664,
+    "en": "Before you read, think. How does a small workshop become a big company?",
+    "ar": "قبل أن تقرأ، فكّر. كيف تصبح ورشة صغيرة شركة كبيرة؟"
+   },
+   {
+    "start": 20.844,
+    "dur": 5.448,
+    "en": "Three words first. An order is a request to make or buy something.",
+    "ar": "ثلاث كلمات أوّلاً. الطلب هو طلب صنع شيء أو شرائه."
+   },
+   {
+    "start": 26.642,
+    "dur": 3.24,
+    "en": "To deliver is to take furniture to the customer.",
+    "ar": "والتوصيل هو إيصال الأثاث إلى العميل."
+   },
+   {
+    "start": 30.232,
+    "dur": 3.696,
+    "en": "And a brand is the name and good reputation of a company.",
+    "ar": "والعلامة هي اسم الشركة وسمعتها الطيّبة."
+   },
+   {
+    "start": 34.278,
+    "dur": 4.368,
+    "en": "In a small town, a carpenter named Adam started a workshop.",
+    "ar": "في بلدة صغيرة، بدأ نجّار اسمه آدم ورشة."
+   },
+   {
+    "start": 38.996,
+    "dur": 4.464,
+    "en": "He had only two workers, and they made simple chairs and tables.",
+    "ar": "كان لديه عاملان فقط، وكانوا يصنعون كراسي وطاولات بسيطة."
+   },
+   {
+    "start": 43.81,
+    "dur": 2.544,
+    "en": "Adam listened to his customers.",
+    "ar": "واستمع آدم إلى عملائه."
+   },
+   {
+    "start": 46.704,
+    "dur": 3.624,
+    "en": "They wanted comfortable furniture at a fair price.",
+    "ar": "أرادوا أثاثاً مريحاً بسعر عادل."
+   },
+   {
+    "start": 50.678,
+    "dur": 2.928,
+    "en": "So he learned about foam and fabric.",
+    "ar": "فتعلّم عن الإسفنج والقماش."
+   },
+   {
+    "start": 53.956,
+    "dur": 2.712,
+    "en": "And he learned about good design.",
+    "ar": "وتعلّم عن التصميم الجيّد."
+   },
+   {
+    "start": 57.018,
+    "dur": 3.48,
+    "en": "Every year, the workshop made a little more.",
+    "ar": "وكلّ سنة، كانت الورشة تصنع أكثر قليلاً."
+   },
+   {
+    "start": 60.848,
+    "dur": 4.2,
+    "en": "Adam trained young workers and taught them to keep the quality high.",
+    "ar": "ودرّب آدم عمّالاً شبّاناً وعلّمهم أن يحافظوا على الجودة عالية."
+   },
+   {
+    "start": 65.398,
+    "dur": 3.696,
+    "en": "Soon, shops in other towns wanted his furniture.",
+    "ar": "وسرعان ما أرادت متاجر في بلدات أخرى أثاثه."
+   },
+   {
+    "start": 69.444,
+    "dur": 3.72,
+    "en": "He opened a showroom and began to deliver far away.",
+    "ar": "فافتتح صالة عرض وبدأ التوصيل إلى أماكن بعيدة."
+   },
+   {
+    "start": 73.514,
+    "dur": 3.984,
+    "en": "Today the company has fifty workers and a strong brand.",
+    "ar": "واليوم في الشركة خمسون عاملاً وعلامة قويّة."
+   },
+   {
+    "start": 77.848,
+    "dur": 3.312,
+    "en": "But Adam still says the same thing to everyone.",
+    "ar": "لكنّ آدم ما زال يقول الشيء نفسه للجميع."
+   },
+   {
+    "start": 81.51,
+    "dur": 3.48,
+    "en": "Listen to the customer, and never lose the quality.",
+    "ar": "استمع إلى العميل، ولا تفقد الجودة أبداً."
+   },
+   {
+    "start": 85.34,
+    "dur": 2.328,
+    "en": "What did the customers want?",
+    "ar": "ماذا أراد العملاء؟"
+   },
+   {
+    "start": 92.315,
+    "dur": 3.144,
+    "en": "Comfortable furniture at a fair price.",
+    "ar": "أثاثاً مريحاً بسعر عادل."
+   },
+   {
+    "start": 95.809,
+    "dur": 2.856,
+    "en": "What did Adam teach the young workers?",
+    "ar": "ماذا علّم آدم العمّال الشبّان؟"
+   },
+   {
+    "start": 103.901,
+    "dur": 2.256,
+    "en": "To keep the quality high.",
+    "ar": "أن يحافظوا على الجودة عالية."
+   },
+   {
+    "start": 106.507,
+    "dur": 3.0,
+    "en": "What does Adam still say is important?",
+    "ar": "ما الذي ما زال آدم يقول إنّه مهمّ؟"
+   },
+   {
+    "start": 114.742,
+    "dur": 3.816,
+    "en": "Listen to the customer, and never lose the quality.",
+    "ar": "الاستماع إلى العميل، وعدم فقدان الجودة أبداً."
+   },
+   {
+    "start": 118.908,
+    "dur": 4.824,
+    "en": "Now four words from the case study. Give the meaning of each.",
+    "ar": "الآن أربع كلمات من دراسة الحالة. اذكر معنى كلّ واحدة."
+   },
+   {
+    "start": 124.082,
+    "dur": 1.872,
+    "en": "Workshop.",
+    "ar": "ما معنى workshop؟"
+   },
+   {
+    "start": 129.954,
+    "dur": 2.832,
+    "en": "The place where furniture is made.",
+    "ar": "المكان الذي يُصنع فيه الأثاث."
+   },
+   {
+    "start": 133.136,
+    "dur": 1.872,
+    "en": "Order.",
+    "ar": "ما معنى order؟"
+   },
+   {
+    "start": 139.008,
+    "dur": 2.76,
+    "en": "A request to make or buy something.",
+    "ar": "طلب صنع شيء أو شرائه."
+   },
+   {
+    "start": 142.118,
+    "dur": 1.488,
+    "en": "Deliver.",
+    "ar": "ما معنى deliver؟"
+   },
+   {
+    "start": 147.606,
+    "dur": 2.976,
+    "en": "To take furniture to the customer's home.",
+    "ar": "إيصال الأثاث إلى بيت العميل."
+   },
+   {
+    "start": 150.932,
+    "dur": 1.872,
+    "en": "And customer.",
+    "ar": "وما معنى customer؟"
+   },
+   {
+    "start": 156.804,
+    "dur": 2.592,
+    "en": "A person who buys furniture.",
+    "ar": "شخص يشتري الأثاث."
+   },
+   {
+    "start": 159.746,
+    "dur": 5.76,
+    "en": "One meaning was not needed: a machine that sands wood. That is a sander.",
+    "ar": "معنى واحد لم يكن مطلوباً: آلة تصنفر الخشب. تلك جلّاخة."
+   },
+   {
+    "start": 165.856,
+    "dur": 9.936,
+    "en": "Three frames for the discussion. Similar to Syria because. Different because. And the most important thing is, because.",
+    "ar": "ثلاثة قوالب للمناقشة. similar to Syria because. و different because. و the most important thing is, because."
+   },
+   {
+    "start": 176.142,
+    "dur": 5.616,
+    "en": "Use the last frame. What matters most in a small workshop, and why?",
+    "ar": "استخدم القالب الأخير. ما الأهمّ في ورشة صغيرة، ولماذا؟"
+   },
+   {
+    "start": 188.699,
+    "dur": 5.736,
+    "en": "For example: the quality, because one bad sofa loses ten customers.",
+    "ar": "مثلاً: الجودة، لأنّ كنبة واحدة سيّئة تُفقدك عشرة عملاء."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "carpenter",
+    "label": "carpenter",
+    "ar": "النجّار",
+    "at": 33.678,
+    "hold": 3.0,
+    "img": "assets/vocab/carpenter.png",
+    "sha": "e20c1702c3d42690"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 49.803,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 53.281,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 68.182,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

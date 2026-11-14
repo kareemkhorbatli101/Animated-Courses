@@ -1,0 +1,279 @@
+{
+ "schema": "timeline/1",
+ "duration": 167.417,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.248,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.048,
+    "dur": 6.432,
+    "en": "This is Part 1, Furniture and Design Terms. You will define seven words.",
+    "ar": "هذا الجزء الأوّل، مصطلحات الأثاث والتصميم. ستعرّف سبع كلمات."
+   },
+   {
+    "start": 14.83,
+    "dur": 5.664,
+    "en": "Seven words, and what each one means. The book gives you the first.",
+    "ar": "سبع كلمات، ومعنى كلّ واحدة. الكتاب يعطيك الأولى."
+   },
+   {
+    "start": 20.844,
+    "dur": 3.768,
+    "en": "A designer is the person who plans new furniture.",
+    "ar": "المصمّم هو الشخص الذي يخطّط للأثاث الجديد."
+   },
+   {
+    "start": 24.962,
+    "dur": 7.248,
+    "en": "Notice why that one is easy: the meaning names a PERSON. The other seven name parts and sizes.",
+    "ar": "لاحظ لماذا كانت سهلة: المعنى يسمّي شخصاً. والسبع الأخرى تسمّي أجزاءً وقياسات."
+   },
+   {
+    "start": 32.56,
+    "dur": 1.944,
+    "en": "What is a frame?",
+    "ar": "ما هو الهيكل؟"
+   },
+   {
+    "start": 38.504,
+    "dur": 3.36,
+    "en": "The strong wooden skeleton inside a sofa.",
+    "ar": "الجسم الخشبي القويّ داخل الكنبة."
+   },
+   {
+    "start": 42.214,
+    "dur": 1.872,
+    "en": "What is a cushion?",
+    "ar": "ما هي الوسادة؟"
+   },
+   {
+    "start": 48.145,
+    "dur": 3.096,
+    "en": "A soft, filled part that you sit on.",
+    "ar": "جزء ليّن محشوّ تجلس عليه."
+   },
+   {
+    "start": 51.591,
+    "dur": 2.064,
+    "en": "What is upholstery?",
+    "ar": "ما هو التنجيد؟"
+   },
+   {
+    "start": 57.773,
+    "dur": 3.432,
+    "en": "The fabric or leather cover on a sofa or chair.",
+    "ar": "غطاء القماش أو الجلد على الكنبة أو الكرسي."
+   },
+   {
+    "start": 61.555,
+    "dur": 1.872,
+    "en": "What is foam?",
+    "ar": "ما هو الإسفنج؟"
+   },
+   {
+    "start": 67.427,
+    "dur": 2.76,
+    "en": "The soft padding inside a cushion.",
+    "ar": "الحشوة الليّنة داخل الوسادة."
+   },
+   {
+    "start": 70.537,
+    "dur": 1.944,
+    "en": "What are springs?",
+    "ar": "ما هي الزنبركات؟"
+   },
+   {
+    "start": 76.481,
+    "dur": 4.08,
+    "en": "The metal parts inside a seat that stop you sinking down.",
+    "ar": "القطع المعدنية داخل المقعد تمنعك من الغوص."
+   },
+   {
+    "start": 80.911,
+    "dur": 2.184,
+    "en": "What is a prototype?",
+    "ar": "ما هو النموذج الأوّلي؟"
+   },
+   {
+    "start": 87.271,
+    "dur": 3.864,
+    "en": "The first sample of a new design, made to test it.",
+    "ar": "العيّنة الأولى لتصميم جديد، تُصنع لاختباره."
+   },
+   {
+    "start": 91.485,
+    "dur": 2.352,
+    "en": "And what are dimensions?",
+    "ar": "وما هي الأبعاد؟"
+   },
+   {
+    "start": 98.249,
+    "dur": 4.056,
+    "en": "The size of a piece: its width, depth and height.",
+    "ar": "قياس القطعة: عرضها وعمقها وارتفاعها."
+   },
+   {
+    "start": 102.655,
+    "dur": 6.096,
+    "en": "One meaning was not needed: a machine that cuts and shapes metal. We work in wood.",
+    "ar": "معنى واحد لم يكن مطلوباً: آلة تقطع المعدن وتشكّله. نحن نعمل بالخشب."
+   },
+   {
+    "start": 109.101,
+    "dur": 5.376,
+    "en": "Now the table. For each piece, say the room and the main material.",
+    "ar": "الآن الجدول. لكلّ قطعة، اذكر الغرفة والمادّة الأساسية."
+   },
+   {
+    "start": 114.827,
+    "dur": 5.976,
+    "en": "The book does the first row. A sofa: the living room, and wood for the frame.",
+    "ar": "الكتاب يحلّ الصفّ الأوّل. الكنبة: غرفة الجلوس، والخشب للهيكل."
+   },
+   {
+    "start": 121.153,
+    "dur": 4.368,
+    "en": "A wardrobe. Which room, and which material?",
+    "ar": "الخزانة. أيّ غرفة، وأيّ مادّة؟"
+   },
+   {
+    "start": 131.05,
+    "dur": 2.4,
+    "en": "The bedroom, and wood.",
+    "ar": "غرفة النوم، والخشب."
+   },
+   {
+    "start": 133.8,
+    "dur": 4.608,
+    "en": "A dining table. Which room, and which material?",
+    "ar": "طاولة الطعام. أيّ غرفة، وأيّ مادّة؟"
+   },
+   {
+    "start": 144.173,
+    "dur": 2.616,
+    "en": "The dining room, and wood.",
+    "ar": "غرفة الطعام، والخشب."
+   },
+   {
+    "start": 147.139,
+    "dur": 4.488,
+    "en": "An office chair. Which room, and which material?",
+    "ar": "كرسي المكتب. أيّ غرفة، وأيّ مادّة؟"
+   },
+   {
+    "start": 157.451,
+    "dur": 2.856,
+    "en": "The office, and metal with fabric.",
+    "ar": "المكتب، والمعدن مع القماش."
+   },
+   {
+    "start": 160.657,
+    "dur": 5.16,
+    "en": "Three of the four are wood. That is why a carpenter builds most of them.",
+    "ar": "ثلاث من الأربع خشب. ولهذا يبني النجّار معظمها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 31.173,
+    "hold": 7.28,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 40.814,
+    "hold": 7.28,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 50.153,
+    "hold": 7.57,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 60.117,
+    "hold": 7.26,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 67.427,
+    "hold": 2.03,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "springs",
+    "label": "springs",
+    "ar": "الزنبركات",
+    "at": 69.502,
+    "hold": 6.93,
+    "img": "assets/vocab/springs.png",
+    "sha": "a0bd721347792d4d"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 79.523,
+    "hold": 7.7,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 90.21,
+    "hold": 7.99,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 117.514,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

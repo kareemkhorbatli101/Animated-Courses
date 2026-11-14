@@ -1,5 +1,5 @@
 {
- "schema": "course/1",
+ "schema": "course/2",
  "id": "efd",
  "order": 1,
  "title": {
@@ -16,17 +16,17 @@
  ],
  "videos": [
   {
-   "id": "unit01",
+   "id": "u01v01",
    "order": 1,
    "title": {
-    "en": "Unit 1 — Introduction to Furniture Design",
-    "ar": "الوحدة ١ — مقدمة في تصميم الأثاث"
+    "en": "Warm Up",
+    "ar": "التمهيد"
    },
    "description": {
-    "en": "Sami and Khaled open the workshop and name what is in it.",
-    "ar": "سامي وخالد يفتتحان الورشة ويسميان ما فيها."
+    "en": "You will meet the ten words of the unit.",
+    "ar": "ستتعرّف على كلمات الوحدة العشر."
    },
-   "dir": "courses/efd/unit01",
+   "dir": "courses/efd/u01v01",
    "speech": [
     "en"
    ],
@@ -35,14 +35,14 @@
     "ar"
    ],
    "duration": {
-    "en": 49.38
+    "en": 168.33
    },
-   "bytes": 14607885,
+   "bytes": 8582869,
    "meshopt": true,
-   "meshoptBytes": 1688085,
-   "wireBytes": 6614792,
-   "meshoptWireBytes": 1001055,
-   "files": 18,
+   "meshoptBytes": 2092117,
+   "wireBytes": 4904817,
+   "meshoptWireBytes": 1585684,
+   "files": 45,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -52,6 +52,909 @@
     ]
    },
    "mp4": []
+  },
+  {
+   "id": "u01v02",
+   "order": 2,
+   "title": {
+    "en": "Furniture and Design Terms",
+    "ar": "مصطلحات الأثاث والتصميم"
+   },
+   "description": {
+    "en": "You will define seven words.",
+    "ar": "ستعرّف سبع كلمات."
+   },
+   "dir": "courses/efd/u01v02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 167.42
+   },
+   "bytes": 8484411,
+   "meshopt": true,
+   "meshoptBytes": 1993659,
+   "wireBytes": 4818702,
+   "meshoptWireBytes": 1499569,
+   "files": 44,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v03",
+   "order": 3,
+   "title": {
+    "en": "Pronunciation",
+    "ar": "النطق"
+   },
+   "description": {
+    "en": "You will practise the stress in six words.",
+    "ar": "ستتدرّب على النبر في ستّ كلمات."
+   },
+   "dir": "courses/efd/u01v03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 95.4
+   },
+   "bytes": 7973854,
+   "meshopt": true,
+   "meshoptBytes": 1642738,
+   "wireBytes": 4541350,
+   "meshoptWireBytes": 1208421,
+   "files": 24,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v04",
+   "order": 4,
+   "title": {
+    "en": "Check What You Know",
+    "ar": "تحقّق ممّا تعرفه"
+   },
+   "description": {
+    "en": "You will label a sofa, part by part.",
+    "ar": "ستسمّي أجزاء الكنبة، جزءاً جزءاً."
+   },
+   "dir": "courses/efd/u01v04",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 184.91
+   },
+   "bytes": 8481229,
+   "meshopt": true,
+   "meshoptBytes": 1990477,
+   "wireBytes": 4817072,
+   "meshoptWireBytes": 1497939,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v05",
+   "order": 5,
+   "title": {
+    "en": "Notice the Two Tenses",
+    "ar": "لاحظ الزمنين"
+   },
+   "description": {
+    "en": "Layla is drawing while you listen.",
+    "ar": "ليلى ترسم بينما تستمع."
+   },
+   "dir": "courses/efd/u01v05",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 114.25
+   },
+   "bytes": 8023876,
+   "meshopt": true,
+   "meshoptBytes": 1684304,
+   "wireBytes": 4566701,
+   "meshoptWireBytes": 1231731,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v06",
+   "order": 6,
+   "title": {
+    "en": "Grammar Practice",
+    "ar": "تدريب القواعد"
+   },
+   "description": {
+    "en": "You will build four forms, then CHOOSE four.",
+    "ar": "ستبني أربع صيغ، ثمّ تختار أربعاً."
+   },
+   "dir": "courses/efd/u01v06",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 188.22
+   },
+   "bytes": 8277128,
+   "meshopt": true,
+   "meshoptBytes": 1937556,
+   "wireBytes": 4775723,
+   "meshoptWireBytes": 1440753,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v07",
+   "order": 7,
+   "title": {
+    "en": "Grammar Review",
+    "ar": "مراجعة القواعد"
+   },
+   "description": {
+    "en": "You will fix four sentences, then make two.",
+    "ar": "ستصحّح أربع جمل، ثمّ تصنع جملتين."
+   },
+   "dir": "courses/efd/u01v07",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 173.15
+   },
+   "bytes": 8209189,
+   "meshopt": true,
+   "meshoptBytes": 1869617,
+   "wireBytes": 4719112,
+   "meshoptWireBytes": 1384142,
+   "files": 31,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v08",
+   "order": 8,
+   "title": {
+    "en": "A Designer Talks About Her Work",
+    "ar": "مصمّمة تتحدّث عن عملها"
+   },
+   "description": {
+    "en": "You will hear her four steps.",
+    "ar": "ستسمع خطواتها الأربع."
+   },
+   "dir": "courses/efd/u01v08",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 99.72
+   },
+   "bytes": 7938211,
+   "meshopt": true,
+   "meshoptBytes": 1607095,
+   "wireBytes": 4507923,
+   "meshoptWireBytes": 1174994,
+   "files": 28,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v09",
+   "order": 9,
+   "title": {
+    "en": "In the Showroom",
+    "ar": "في صالة العرض"
+   },
+   "description": {
+    "en": "You will hear a customer and a manager.",
+    "ar": "ستسمع عميلاً ومديرة."
+   },
+   "dir": "courses/efd/u01v09",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 85.61
+   },
+   "bytes": 8186634,
+   "meshopt": true,
+   "meshoptBytes": 1544278,
+   "wireBytes": 4447888,
+   "meshoptWireBytes": 1102769,
+   "files": 28,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v10",
+   "order": 10,
+   "title": {
+    "en": "A Day at Cham Furniture",
+    "ar": "يوم في شام للأثاث"
+   },
+   "description": {
+    "en": "Five people, each doing something now.",
+    "ar": "خمسة أشخاص، كلّ منهم يفعل شيئاً الآن."
+   },
+   "dir": "courses/efd/u01v10",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 135.37
+   },
+   "bytes": 8252221,
+   "meshopt": true,
+   "meshoptBytes": 1761469,
+   "wireBytes": 4608573,
+   "meshoptWireBytes": 1289440,
+   "files": 36,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v11",
+   "order": 11,
+   "title": {
+    "en": "Discussing Furniture and Design",
+    "ar": "مناقشة الأثاث والتصميم"
+   },
+   "description": {
+    "en": "Two sofas, and three differences.",
+    "ar": "كنبتان، وثلاثة فروق."
+   },
+   "dir": "courses/efd/u01v11",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 150.78
+   },
+   "bytes": 8491372,
+   "meshopt": true,
+   "meshoptBytes": 1850796,
+   "wireBytes": 4707193,
+   "meshoptWireBytes": 1360578,
+   "files": 30,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v12",
+   "order": 12,
+   "title": {
+    "en": "Showroom Role Play",
+    "ar": "لعب أدوار صالة العرض"
+   },
+   "description": {
+    "en": "You take each turn, then handle a problem.",
+    "ar": "تأخذ كلّ دور، ثمّ تعالج مشكلة."
+   },
+   "dir": "courses/efd/u01v12",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 206.63
+   },
+   "bytes": 8830155,
+   "meshopt": true,
+   "meshoptBytes": 2187799,
+   "wireBytes": 4966817,
+   "meshoptWireBytes": 1621698,
+   "files": 41,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v13",
+   "order": 13,
+   "title": {
+    "en": "What Is Furniture Design?",
+    "ar": "ما هو تصميم الأثاث"
+   },
+   "description": {
+    "en": "You will read the unit's main text.",
+    "ar": "ستقرأ نصّ الوحدة الرئيسي."
+   },
+   "dir": "courses/efd/u01v13",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 151.42
+   },
+   "bytes": 8378604,
+   "meshopt": true,
+   "meshoptBytes": 2047488,
+   "wireBytes": 4886664,
+   "meshoptWireBytes": 1553735,
+   "files": 42,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v14",
+   "order": 14,
+   "title": {
+    "en": "Words in Context, and Furniture-Making in Syria",
+    "ar": "الكلمات في سياقها"
+   },
+   "description": {
+    "en": "You will give four meanings, then read about Syria's own workshops.",
+    "ar": "ستذكر أربعة معانٍ، ثمّ تقرأ عن ورش سوريا."
+   },
+   "dir": "courses/efd/u01v14",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 170.71
+   },
+   "bytes": 8410640,
+   "meshopt": true,
+   "meshoptBytes": 2079524,
+   "wireBytes": 4912066,
+   "meshoptWireBytes": 1579137,
+   "files": 47,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v15",
+   "order": 15,
+   "title": {
+    "en": "How to Describe a Piece",
+    "ar": "كيف تصف قطعة"
+   },
+   "description": {
+    "en": "You will take a model apart, then write.",
+    "ar": "ستفكّك نموذجاً، ثمّ تكتب."
+   },
+   "dir": "courses/efd/u01v15",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 179.23
+   },
+   "bytes": 8502312,
+   "meshopt": true,
+   "meshoptBytes": 2162740,
+   "wireBytes": 4974714,
+   "meshoptWireBytes": 1639744,
+   "files": 40,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v16",
+   "order": 16,
+   "title": {
+    "en": "Welcoming a New Apprentice",
+    "ar": "الترحيب بمتدرّب جديد"
+   },
+   "description": {
+    "en": "You will hear a first day at the workshop.",
+    "ar": "ستسمع يوماً أوّل في الورشة."
+   },
+   "dir": "courses/efd/u01v16",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 155.89
+   },
+   "bytes": 8323775,
+   "meshopt": true,
+   "meshoptBytes": 1818283,
+   "wireBytes": 4655096,
+   "meshoptWireBytes": 1327337,
+   "files": 37,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v17",
+   "order": 17,
+   "title": {
+    "en": "The First Day, in Order",
+    "ar": "اليوم الأوّل بالترتيب"
+   },
+   "description": {
+    "en": "You will number five steps, then refuse a request politely.",
+    "ar": "سترقّم خمس خطوات، ثمّ ترفض طلباً بلباقة."
+   },
+   "dir": "courses/efd/u01v17",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 167.45
+   },
+   "bytes": 8479669,
+   "meshopt": true,
+   "meshoptBytes": 1988917,
+   "wireBytes": 4792318,
+   "meshoptWireBytes": 1473185,
+   "files": 39,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v18",
+   "order": 18,
+   "title": {
+    "en": "A Small Workshop Grows",
+    "ar": "ورشة صغيرة تكبر"
+   },
+   "description": {
+    "en": "You will read how a small workshop grew.",
+    "ar": "ستقرأ كيف نمت ورشة صغيرة."
+   },
+   "dir": "courses/efd/u01v18",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 196.03
+   },
+   "bytes": 8615025,
+   "meshopt": true,
+   "meshoptBytes": 2124273,
+   "wireBytes": 4908594,
+   "meshoptWireBytes": 1589461,
+   "files": 50,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v19",
+   "order": 19,
+   "title": {
+    "en": "A Young Designer Opens a Studio",
+    "ar": "مصمّمة شابّة تفتتح استوديو"
+   },
+   "description": {
+    "en": "You will decide what Layla does next.",
+    "ar": "ستقرّر ما تفعله ليلى تالياً."
+   },
+   "dir": "courses/efd/u01v19",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 146.34
+   },
+   "bytes": 8220382,
+   "meshopt": true,
+   "meshoptBytes": 1880810,
+   "wireBytes": 4730483,
+   "meshoptWireBytes": 1395513,
+   "files": 36,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v20",
+   "order": 20,
+   "title": {
+    "en": "Spiral Review",
+    "ar": "المراجعة التراكمية"
+   },
+   "description": {
+    "en": "Eight answers, then the ten words once more.",
+    "ar": "ثمانية أجوبة، ثمّ الكلمات العشر مرّة أخرى."
+   },
+   "dir": "courses/efd/u01v20",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 197.72
+   },
+   "bytes": 8660986,
+   "meshopt": true,
+   "meshoptBytes": 2026694,
+   "wireBytes": 4856801,
+   "meshoptWireBytes": 1516771,
+   "files": 46,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v21",
+   "order": 21,
+   "title": {
+    "en": "Can-Do and Glossary",
+    "ar": "ما أستطيع فعله والمعجم"
+   },
+   "description": {
+    "en": "Five things you can do, and the ten words asked rather than read.",
+    "ar": "خمسة أمور تستطيعها، والكلمات العشر تُسأل لا تُقرأ."
+   },
+   "dir": "courses/efd/u01v21",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 210.07
+   },
+   "bytes": 8933319,
+   "meshopt": true,
+   "meshoptBytes": 2262563,
+   "wireBytes": 5075028,
+   "meshoptWireBytes": 1712874,
+   "files": 54,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  }
+ ],
+ "units": [
+  {
+   "id": "u01",
+   "order": 1,
+   "title": {
+    "en": "Unit 1 — Introduction to Furniture and Design",
+    "ar": "الوحدة ١ — مقدّمة في الأثاث والتصميم"
+   },
+   "parts": [
+    {
+     "id": "warmup",
+     "order": 0,
+     "title": {
+      "en": "Warm Up",
+      "ar": "التمهيد"
+     },
+     "videos": [
+      "u01v01"
+     ]
+    },
+    {
+     "id": "p1",
+     "order": 1,
+     "title": {
+      "en": "Part 1 — Vocabulary",
+      "ar": "الجزء ١ — المفردات"
+     },
+     "videos": [
+      "u01v02",
+      "u01v03",
+      "u01v04"
+     ]
+    },
+    {
+     "id": "p2",
+     "order": 2,
+     "title": {
+      "en": "Part 2 — Grammar",
+      "ar": "الجزء ٢ — القواعد"
+     },
+     "videos": [
+      "u01v05",
+      "u01v06",
+      "u01v07"
+     ]
+    },
+    {
+     "id": "p3",
+     "order": 3,
+     "title": {
+      "en": "Part 3 — Listening",
+      "ar": "الجزء ٣ — الاستماع"
+     },
+     "videos": [
+      "u01v08",
+      "u01v09",
+      "u01v10"
+     ]
+    },
+    {
+     "id": "p4",
+     "order": 4,
+     "title": {
+      "en": "Part 4 — Speaking",
+      "ar": "الجزء ٤ — المحادثة"
+     },
+     "videos": [
+      "u01v11",
+      "u01v12"
+     ]
+    },
+    {
+     "id": "p5",
+     "order": 5,
+     "title": {
+      "en": "Part 5 — Reading",
+      "ar": "الجزء ٥ — القراءة"
+     },
+     "videos": [
+      "u01v13",
+      "u01v14"
+     ]
+    },
+    {
+     "id": "p6",
+     "order": 6,
+     "title": {
+      "en": "Part 6 — Writing",
+      "ar": "الجزء ٦ — الكتابة"
+     },
+     "videos": [
+      "u01v15"
+     ]
+    },
+    {
+     "id": "p7",
+     "order": 7,
+     "title": {
+      "en": "Part 7 — Management File",
+      "ar": "الجزء ٧ — ملفّ الإدارة"
+     },
+     "videos": [
+      "u01v16",
+      "u01v17"
+     ]
+    },
+    {
+     "id": "p8",
+     "order": 8,
+     "title": {
+      "en": "Part 8 — Case Study",
+      "ar": "الجزء ٨ — دراسة حالة"
+     },
+     "videos": [
+      "u01v18"
+     ]
+    },
+    {
+     "id": "p9",
+     "order": 9,
+     "title": {
+      "en": "Part 9 — Syria in Focus",
+      "ar": "الجزء ٩ — سوريا في التركيز"
+     },
+     "videos": [
+      "u01v19"
+     ]
+    },
+    {
+     "id": "p10",
+     "order": 10,
+     "title": {
+      "en": "Part 10 — Review",
+      "ar": "الجزء ١٠ — المراجعة"
+     },
+     "videos": [
+      "u01v20",
+      "u01v21"
+     ]
+    }
+   ]
   }
  ]
 }

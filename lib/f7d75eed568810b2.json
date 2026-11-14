@@ -1,0 +1,339 @@
+{
+ "schema": "timeline/1",
+ "duration": 197.719,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.464,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.264,
+    "dur": 6.84,
+    "en": "This is Part 10, the Spiral Review. Eight answers, then the ten words once more.",
+    "ar": "هذا الجزء العاشر، المراجعة التراكمية. ثمانية أجوبة، ثمّ الكلمات العشر مرّة أخرى."
+   },
+   {
+    "start": 15.454,
+    "dur": 4.824,
+    "en": "Eight sentences to complete. The book does the first one.",
+    "ar": "ثماني جمل لإكمالها. الكتاب يحلّ الأولى."
+   },
+   {
+    "start": 20.628,
+    "dur": 4.08,
+    "en": "The strong wooden structure inside a sofa is the frame.",
+    "ar": "البنية الخشبية القويّة داخل الكنبة هي الهيكل."
+   },
+   {
+    "start": 25.058,
+    "dur": 3.456,
+    "en": "The cover and padding on a sofa is the blank.",
+    "ar": "الغطاء والحشوة على الكنبة هو الفراغ."
+   },
+   {
+    "start": 34.161,
+    "dur": 1.872,
+    "en": "Upholstery.",
+    "ar": "التنجيد."
+   },
+   {
+    "start": 36.383,
+    "dur": 3.792,
+    "en": "The first sample made to test a design is a blank.",
+    "ar": "العيّنة الأولى التي تُصنع لاختبار تصميم هي فراغ."
+   },
+   {
+    "start": 46.116,
+    "dur": 1.872,
+    "en": "Prototype.",
+    "ar": "نموذج أوّلي."
+   },
+   {
+    "start": 48.338,
+    "dur": 2.952,
+    "en": "Customers buy furniture in the blank.",
+    "ar": "يشتري العملاء الأثاث في الفراغ."
+   },
+   {
+    "start": 56.467,
+    "dur": 1.872,
+    "en": "Showroom.",
+    "ar": "صالة العرض."
+   },
+   {
+    "start": 58.689,
+    "dur": 4.704,
+    "en": "Sami is cutting the wood now. Which tense is that?",
+    "ar": "Sami is cutting the wood now. أيّ زمن هذا؟"
+   },
+   {
+    "start": 69.334,
+    "dur": 2.4,
+    "en": "The present continuous.",
+    "ar": "المضارع المستمرّ."
+   },
+   {
+    "start": 72.084,
+    "dur": 5.184,
+    "en": "The factory makes sofas every day. Which tense is that?",
+    "ar": "The factory makes sofas every day. أيّ زمن هذا؟"
+   },
+   {
+    "start": 83.503,
+    "dur": 2.04,
+    "en": "The present simple.",
+    "ar": "المضارع البسيط."
+   },
+   {
+    "start": 85.893,
+    "dur": 3.312,
+    "en": "A blank is a person who makes things from wood.",
+    "ar": "الفراغ شخص يصنع الأشياء من الخشب."
+   },
+   {
+    "start": 94.97,
+    "dur": 1.872,
+    "en": "Carpenter.",
+    "ar": "النجّار."
+   },
+   {
+    "start": 97.192,
+    "dur": 3.648,
+    "en": "The soft material inside a cushion is blank.",
+    "ar": "المادّة الليّنة داخل الوسادة هي فراغ."
+   },
+   {
+    "start": 106.428,
+    "dur": 1.872,
+    "en": "Foam.",
+    "ar": "الإسفنج."
+   },
+   {
+    "start": 108.65,
+    "dur": 5.352,
+    "en": "Layla is drawing now. The verb is draw plus which three letters?",
+    "ar": "Layla is drawing now. الفعل هو draw زائد أيّ ثلاثة أحرف؟"
+   },
+   {
+    "start": 120.767,
+    "dur": 4.968,
+    "en": "I, N and G. We call it the ing ending.",
+    "ar": "I و N و G. ونسمّيها نهاية ing."
+   },
+   {
+    "start": 126.085,
+    "dur": 6.12,
+    "en": "Now the ten words of the unit, quickly. I say the meaning, you say the word.",
+    "ar": "الآن كلمات الوحدة العشر، بسرعة. أقول المعنى، وتقول الكلمة."
+   },
+   {
+    "start": 132.555,
+    "dur": 4.632,
+    "en": "The wooden skeleton inside a sofa, and the soft part you sit on.",
+    "ar": "الجسم الخشبي داخل الكنبة، والجزء الليّن الذي تجلس عليه."
+   },
+   {
+    "start": 143.952,
+    "dur": 2.448,
+    "en": "The frame, and the cushion.",
+    "ar": "الهيكل، والوسادة."
+   },
+   {
+    "start": 146.75,
+    "dur": 4.104,
+    "en": "The padding inside that cushion, and the cover and padding together.",
+    "ar": "الحشوة داخل تلك الوسادة، والغطاء والحشوة معاً."
+   },
+   {
+    "start": 157.854,
+    "dur": 2.592,
+    "en": "The foam, and the upholstery.",
+    "ar": "الإسفنج، والتنجيد."
+   },
+   {
+    "start": 160.796,
+    "dur": 4.776,
+    "en": "The first sample of a new design, and the width, depth and height.",
+    "ar": "العيّنة الأولى لتصميم جديد، والعرض والعمق والارتفاع."
+   },
+   {
+    "start": 172.454,
+    "dur": 3.0,
+    "en": "A prototype, and the dimensions.",
+    "ar": "نموذج أوّلي، والأبعاد."
+   },
+   {
+    "start": 175.804,
+    "dur": 4.176,
+    "en": "The room where customers buy, and the person who works the wood.",
+    "ar": "الغرفة التي يشتري فيها العملاء، والشخص الذي يعمل بالخشب."
+   },
+   {
+    "start": 186.745,
+    "dur": 2.664,
+    "en": "The showroom, and the carpenter.",
+    "ar": "صالة العرض، والنجّار."
+   },
+   {
+    "start": 189.759,
+    "dur": 6.36,
+    "en": "Two of the ten you cannot hold. A design is a plan, and comfortable is a feeling.",
+    "ar": "اثنتان من العشر لا تمسكهما. التصميم خطّة، و comfortable شعور."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 21.453,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 34.161,
+    "hold": 1.98,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 36.196,
+    "hold": 9.87,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 46.116,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 56.467,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "carpenter",
+    "label": "carpenter",
+    "ar": "النجّار",
+    "at": 94.97,
+    "hold": 2.0,
+    "img": "assets/vocab/carpenter.png",
+    "sha": "e20c1702c3d42690"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 97.017,
+    "hold": 9.36,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 106.428,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 143.952,
+    "hold": 2.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "cushion",
+    "label": "cushion",
+    "ar": "الوسادة",
+    "at": 146.0,
+    "hold": 11.8,
+    "img": "assets/vocab/cushion.png",
+    "sha": "10e56365730126ee"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 157.854,
+    "hold": 2.39,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 160.296,
+    "hold": 12.11,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 172.454,
+    "hold": 3.0,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 186.745,
+    "hold": 3.0,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 190.671,
+    "hold": 3.0,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

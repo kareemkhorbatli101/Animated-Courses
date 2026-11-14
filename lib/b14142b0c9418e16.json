@@ -1,0 +1,264 @@
+{
+ "schema": "timeline/1",
+ "duration": 206.628,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.464,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.264,
+    "dur": 6.792,
+    "en": "This is Part 4, the Showroom Role Play. You take each turn, then handle a problem.",
+    "ar": "هذا الجزء الرابع، لعب أدوار صالة العرض. تأخذ كلّ دور، ثمّ تعالج مشكلة."
+   },
+   {
+    "start": 15.406,
+    "dur": 5.856,
+    "en": "A manager sells, and a customer chooses. Listen to the model first.",
+    "ar": "مديرة تبيع، وعميل يختار. استمع إلى النموذج أوّلاً."
+   },
+   {
+    "start": 21.612,
+    "dur": 3.576,
+    "en": "Good morning. How can I help you?",
+    "ar": "صباح الخير. كيف أساعدك؟"
+   },
+   {
+    "start": 25.538,
+    "dur": 3.192,
+    "en": "I am looking for a sofa for a small room.",
+    "ar": "أبحث عن كنبة لغرفة صغيرة."
+   },
+   {
+    "start": 29.08,
+    "dur": 4.056,
+    "en": "Of course. Do you like grey or blue?",
+    "ar": "بالتأكيد. أتحبّ الرمادي أم الأزرق؟"
+   },
+   {
+    "start": 33.486,
+    "dur": 2.088,
+    "en": "Grey, please.",
+    "ar": "الرمادي، من فضلك."
+   },
+   {
+    "start": 35.924,
+    "dur": 5.352,
+    "en": "This grey sofa has a strong oak frame. Would you like to try it?",
+    "ar": "هذه الكنبة الرمادية هيكلها بلّوط قويّ. أتحبّ أن تجرّبها؟"
+   },
+   {
+    "start": 41.626,
+    "dur": 5.568,
+    "en": "Now again, turn by turn. Say each line before I do.",
+    "ar": "الآن مرّة أخرى، دوراً بدور. قل كلّ جملة قبلي."
+   },
+   {
+    "start": 47.544,
+    "dur": 5.928,
+    "en": "You are the manager. Greet the customer and offer help, in six words.",
+    "ar": "أنت المديرة. رحّب بالعميل واعرض المساعدة، بستّ كلمات."
+   },
+   {
+    "start": 60.531,
+    "dur": 3.576,
+    "en": "Good morning. How can I help you?",
+    "ar": "صباح الخير. كيف أساعدك؟"
+   },
+   {
+    "start": 64.457,
+    "dur": 4.728,
+    "en": "You are the customer. Say what you want, and name the room.",
+    "ar": "أنت العميل. قل ماذا تريد، وسمِّ الغرفة."
+   },
+   {
+    "start": 75.656,
+    "dur": 3.192,
+    "en": "I am looking for a sofa for a small room.",
+    "ar": "أبحث عن كنبة لغرفة صغيرة."
+   },
+   {
+    "start": 79.198,
+    "dur": 4.344,
+    "en": "Manager. Offer a choice of two colours.",
+    "ar": "المديرة. اعرضي خياراً بين لونين."
+   },
+   {
+    "start": 88.836,
+    "dur": 4.056,
+    "en": "Of course. Do you like grey or blue?",
+    "ar": "بالتأكيد. أتحبّ الرمادي أم الأزرق؟"
+   },
+   {
+    "start": 93.242,
+    "dur": 5.52,
+    "en": "Manager again. Describe the frame, then invite him to try it.",
+    "ar": "المديرة مرّة أخرى. صِفي الهيكل، ثمّ ادعيه لتجربتها."
+   },
+   {
+    "start": 105.35,
+    "dur": 5.352,
+    "en": "This grey sofa has a strong oak frame. Would you like to try it?",
+    "ar": "هذه الكنبة الرمادية هيكلها بلّوط قويّ. أتحبّ أن تجرّبها؟"
+   },
+   {
+    "start": 111.052,
+    "dur": 5.088,
+    "en": "Good. Now the same two people, and something has changed.",
+    "ar": "جيّد. الآن الشخصان نفسهما، وقد تغيّر شيء."
+   },
+   {
+    "start": 116.49,
+    "dur": 5.736,
+    "en": "I like this sofa very much. But my room is only three metres wide.",
+    "ar": "تعجبني هذه الكنبة كثيراً. لكنّ غرفتي عرضها ثلاثة أمتار فقط."
+   },
+   {
+    "start": 122.576,
+    "dur": 5.016,
+    "en": "Then this one is too big for you. It is two metres long.",
+    "ar": "إذاً هذه كبيرة عليك. طولها متران."
+   },
+   {
+    "start": 127.942,
+    "dur": 5.52,
+    "en": "May I show you a smaller piece? This armchair has the same frame.",
+    "ar": "أتسمح أن أريك قطعة أصغر؟ هذا الكرسي الوثير له الهيكل نفسه."
+   },
+   {
+    "start": 133.812,
+    "dur": 3.432,
+    "en": "That is better. And the same grey?",
+    "ar": "هذا أفضل. وبالرمادي نفسه؟"
+   },
+   {
+    "start": 137.594,
+    "dur": 5.088,
+    "en": "The same grey, and the same oak. Two of them fit your room.",
+    "ar": "الرمادي نفسه، والبلّوط نفسه. اثنان منها يناسبان غرفتك."
+   },
+   {
+    "start": 143.032,
+    "dur": 6.96,
+    "en": "Notice what that refusal did. It did not say no. It offered something else.",
+    "ar": "لاحظ ما فعله ذلك الرفض. لم يقل لا. بل عرض شيئاً آخر."
+   },
+   {
+    "start": 150.342,
+    "dur": 5.52,
+    "en": "Now the third task, and you do this one alone. A talk of one minute.",
+    "ar": "الآن المهمّة الثالثة، وتؤدّيها وحدك. حديث من دقيقة."
+   },
+   {
+    "start": 156.212,
+    "dur": 5.472,
+    "en": "Describe one piece of furniture. Here is the whole talk, modelled.",
+    "ar": "صِف قطعة أثاث واحدة. وهذا هو الحديث كلّه، منمذجاً."
+   },
+   {
+    "start": 162.034,
+    "dur": 3.864,
+    "en": "My favourite piece is a grey sofa in our showroom.",
+    "ar": "قطعتي المفضّلة كنبة رمادية في صالة عرضنا."
+   },
+   {
+    "start": 166.248,
+    "dur": 3.744,
+    "en": "It has a strong oak frame and soft foam cushions.",
+    "ar": "لها هيكل بلّوط قويّ ووسائد إسفنج ليّنة."
+   },
+   {
+    "start": 170.342,
+    "dur": 4.68,
+    "en": "The upholstery is grey fabric, and the style is modern and simple.",
+    "ar": "التنجيد قماش رمادي، والطراز حديث وبسيط."
+   },
+   {
+    "start": 175.372,
+    "dur": 4.152,
+    "en": "It is comfortable because the foam is thick and the back is high.",
+    "ar": "وهي مريحة لأنّ الإسفنج سميك والظهر مرتفع."
+   },
+   {
+    "start": 179.874,
+    "dur": 3.768,
+    "en": "And it is beautiful because the wood and the fabric match.",
+    "ar": "وجميلة لأنّ الخشب والقماش متناسقان."
+   },
+   {
+    "start": 183.992,
+    "dur": 5.688,
+    "en": "Count what that talk named: the frame, the foam, the upholstery, the style.",
+    "ar": "عُدّ ما سمّاه ذلك الحديث: الهيكل، والإسفنج، والتنجيد، والطراز."
+   },
+   {
+    "start": 190.03,
+    "dur": 4.656,
+    "en": "Now give your own talk. Start with what the piece is.",
+    "ar": "الآن قدّم حديثك. ابدأ بما هي القطعة."
+   },
+   {
+    "start": 200.804,
+    "dur": 4.224,
+    "en": "For example: my favourite piece is a wooden dining table.",
+    "ar": "مثلاً: قطعتي المفضّلة طاولة طعام خشبية."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 35.999,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 94.017,
+    "hold": 14.41,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 166.311,
+    "hold": 2.5,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 168.861,
+    "hold": 2.87,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

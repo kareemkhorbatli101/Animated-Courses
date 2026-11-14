@@ -1,0 +1,309 @@
+{
+ "schema": "timeline/1",
+ "duration": 170.713,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.016,
+    "en": "Welcome to English for Furniture Designers. This is Unit 1, Introduction to Furniture and Design.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الأولى، مقدّمة في الأثاث والتصميم."
+   },
+   {
+    "start": 8.816,
+    "dur": 6.408,
+    "en": "This is Part 5, Words in Context, and a second text about Syria's workshops.",
+    "ar": "هذا الجزء الخامس، الكلمات في سياقها، ونصّ ثانٍ عن ورش سوريا."
+   },
+   {
+    "start": 15.574,
+    "dur": 5.52,
+    "en": "Four words from the text you just read. Give the meaning of each.",
+    "ar": "أربع كلمات من النصّ الذي قرأته. اذكر معنى كلّ واحدة."
+   },
+   {
+    "start": 21.444,
+    "dur": 1.872,
+    "en": "Sketch.",
+    "ar": "ما معنى sketch؟"
+   },
+   {
+    "start": 27.316,
+    "dur": 3.12,
+    "en": "A quick first drawing of an idea.",
+    "ar": "رسم أوّل سريع لفكرة."
+   },
+   {
+    "start": 30.786,
+    "dur": 1.872,
+    "en": "Prototype.",
+    "ar": "ما معنى prototype؟"
+   },
+   {
+    "start": 36.658,
+    "dur": 3.408,
+    "en": "The first sample made to test a design.",
+    "ar": "العيّنة الأولى التي تُصنع لاختبار تصميم."
+   },
+   {
+    "start": 40.416,
+    "dur": 1.92,
+    "en": "Dimensions.",
+    "ar": "ما معنى dimensions؟"
+   },
+   {
+    "start": 46.336,
+    "dur": 3.168,
+    "en": "The width, depth and height of a piece.",
+    "ar": "عرض القطعة وعمقها وارتفاعها."
+   },
+   {
+    "start": 49.854,
+    "dur": 1.872,
+    "en": "And showroom.",
+    "ar": "وما معنى showroom؟"
+   },
+   {
+    "start": 55.726,
+    "dur": 3.624,
+    "en": "The room where customers see and buy furniture.",
+    "ar": "الغرفة التي يرى فيها العملاء الأثاث ويشترونه."
+   },
+   {
+    "start": 59.7,
+    "dur": 5.544,
+    "en": "One meaning was not needed: a machine for cutting metal. We work in wood.",
+    "ar": "معنى واحد لم يكن مطلوباً: آلة لقطع المعدن. نحن نعمل بالخشب."
+   },
+   {
+    "start": 65.594,
+    "dur": 6.0,
+    "en": "Now a second, shorter text. Where in Syria are the workshops?",
+    "ar": "الآن نصّ ثانٍ أقصر. أين توجد الورش في سوريا؟"
+   },
+   {
+    "start": 71.944,
+    "dur": 6.048,
+    "en": "Two words first. A carpenter is a person who makes things from wood.",
+    "ar": "كلمتان أوّلاً. النجّار شخص يصنع الأشياء من الخشب."
+   },
+   {
+    "start": 78.342,
+    "dur": 4.104,
+    "en": "And a workshop is the place where furniture is made.",
+    "ar": "والورشة هي المكان الذي يُصنع فيه الأثاث."
+   },
+   {
+    "start": 82.796,
+    "dur": 3.816,
+    "en": "Syria has many small furniture workshops.",
+    "ar": "في سوريا ورش أثاث صغيرة كثيرة."
+   },
+   {
+    "start": 86.962,
+    "dur": 3.408,
+    "en": "Most of them are in Damascus and Aleppo.",
+    "ar": "ومعظمها في دمشق وحلب."
+   },
+   {
+    "start": 90.72,
+    "dur": 4.056,
+    "en": "In a workshop, carpenters cut and join the wood.",
+    "ar": "في الورشة، يقطع النجّارون الخشب ويجمعونه."
+   },
+   {
+    "start": 95.126,
+    "dur": 3.84,
+    "en": "First they make the frame of a sofa or a chair.",
+    "ar": "أوّلاً يصنعون هيكل الكنبة أو الكرسي."
+   },
+   {
+    "start": 99.316,
+    "dur": 2.928,
+    "en": "Then they add foam and fabric.",
+    "ar": "ثمّ يضيفون الإسفنج والقماش."
+   },
+   {
+    "start": 102.594,
+    "dur": 4.464,
+    "en": "Many Syrian families buy a new living-room set for a wedding.",
+    "ar": "عائلات سورية كثيرة تشتري طقم غرفة جلوس جديداً للعرس."
+   },
+   {
+    "start": 107.408,
+    "dur": 4.32,
+    "en": "Some workshops are small, with two or three workers.",
+    "ar": "بعض الورش صغيرة، فيها عاملان أو ثلاثة."
+   },
+   {
+    "start": 112.078,
+    "dur": 3.168,
+    "en": "Others are bigger and use machines.",
+    "ar": "وأخرى أكبر وتستخدم الآلات."
+   },
+   {
+    "start": 115.596,
+    "dur": 4.536,
+    "en": "When a family buys a good sofa, they keep it for many years.",
+    "ar": "وعندما تشتري عائلة كنبة جيّدة، تحتفظ بها سنوات كثيرة."
+   },
+   {
+    "start": 120.482,
+    "dur": 4.344,
+    "en": "Most workshops are in Homs. True or false?",
+    "ar": "معظم الورش في حمص. صحيح أم خطأ؟"
+   },
+   {
+    "start": 130.297,
+    "dur": 3.552,
+    "en": "False. Damascus and Aleppo.",
+    "ar": "خطأ. دمشق وحلب."
+   },
+   {
+    "start": 134.199,
+    "dur": 4.488,
+    "en": "Carpenters make the frame first. True or false?",
+    "ar": "النجّارون يصنعون الهيكل أوّلاً. صحيح أم خطأ؟"
+   },
+   {
+    "start": 144.452,
+    "dur": 3.888,
+    "en": "True. The foam and the fabric come after.",
+    "ar": "صحيح. الإسفنج والقماش يأتيان بعده."
+   },
+   {
+    "start": 148.69,
+    "dur": 4.416,
+    "en": "Some workshops use machines. True or false?",
+    "ar": "بعض الورش تستخدم الآلات. صحيح أم خطأ؟"
+   },
+   {
+    "start": 158.635,
+    "dur": 4.2,
+    "en": "True. Some are small, and some are bigger.",
+    "ar": "صحيح. بعضها صغير، وبعضها أكبر."
+   },
+   {
+    "start": 163.185,
+    "dur": 5.928,
+    "en": "Notice the order in both texts. The frame always comes first.",
+    "ar": "لاحظ الترتيب في النصّين. الهيكل يأتي أوّلاً دائماً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "sketch",
+    "label": "sketch",
+    "ar": "الرسم الأوّلي",
+    "at": 19.644,
+    "hold": 7.62,
+    "img": "assets/vocab/sketch.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 28.986,
+    "hold": 7.62,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 38.616,
+    "hold": 7.67,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "showroom",
+    "label": "showroom",
+    "ar": "صالة العرض",
+    "at": 48.267,
+    "hold": 7.41,
+    "img": "assets/vocab/showroom.png",
+    "sha": "860c095449a02ce4"
+   },
+   {
+    "lemma": "carpenter",
+    "label": "carpenter",
+    "ar": "النجّار",
+    "at": 72.419,
+    "hold": 3.0,
+    "img": "assets/vocab/carpenter.png",
+    "sha": "e20c1702c3d42690"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 76.767,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 94.289,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 98.229,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 133.261,
+    "hold": 11.14,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 144.452,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 164.485,
+    "hold": 3.0,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
