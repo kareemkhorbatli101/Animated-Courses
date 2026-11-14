@@ -1039,3 +1039,634 @@ UNIT = dict(
         'idea the subject of your next sentence — but check every one you write by asking who '
         'did it. If the answer matters and the noun has hidden it, go back to the verb.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 28 gains its two academic cycles. Cycle 4 is about the shape of an
+# error rather than its size: three mechanisms that each miss a different
+# group, an undercount concentrated among the young, mobile, poor and
+# recently arrived, and a funding formula that turns a measurement error
+# into a policy outcome with nobody having done anything wrong. Cycle 5
+# reclassifies the problem: a perfect count would leave the hardest
+# question untouched, because deciding where somebody counts as living is
+# a policy with winners rather than a fact anybody can find.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('undercount', 'the amount by which a count falls short'),
+ ('enumeration', 'the counting itself, household by household'),
+ ('householder', 'the person who answers for a household'),
+ ('residency', 'where somebody counts as living'),
+ ('tenancies', 'the arrangements under which people rent homes'),
+ ('ambition', 'what a project sets out to achieve'),
+ ('disproportionately', 'far more than the share would suggest'),
+ ('conflate', 'to treat two different things as one'),
+ ('shortage', 'a supply smaller than what is needed'),
+ ('recognisable', 'able to be identified as what it is'),
+ ('administrative', 'coming from records kept for running things'),
+ ('frequently', 'often, and as a regular thing')]
+UNIT['r4'] = {'sub': 'Counting a population',
+ 'title': 'The People a Census Cannot Find',
+ 'words': 306,
+ 'skill': ('Reading an argument about who is missing from a measurement',
+           ['The claim is about the pattern of the error rather than its size, so follow who '
+            'is missed rather than how many.',
+            'Three mechanisms are given. Each one picks out a different group.',
+            'A question about why the error matters wants what the figures are then used '
+            'for.']),
+ 'paras': ['A census aims at a complete count and has never yet achieved one, and the '
+           'interesting question about the shortfall is not its size, which is estimated and '
+           'published every time, but its shape. An error distributed at random across a '
+           'population would be a nuisance and nothing worse, because correcting for it is '
+           'arithmetic and every district would be affected in the same proportion. This one '
+           'is not distributed at random, and the groups it misses can be named in advance '
+           'of the count being taken, which is a very different kind of object.',
+           'Three mechanisms do most of the work between them. The first is the form itself. '
+           'It is addressed to a householder and assumes a household that has one, so shared '
+           'tenancies, lodgers and adult children returning home are recorded inconsistently '
+           'or not at all. The second is mobility. Enumeration happens on a single night, '
+           'and anybody who moved house that month is counted twice or missed entirely. The '
+           'third is a reluctance to appear in a government record, which is strongest among '
+           'people whose immigration or tenancy status is uncertain, and which is a rational '
+           'response to a real risk rather than a piece of carelessness.',
+           'The result is an undercount concentrated among the young, the mobile, the poor '
+           'and the recently arrived, and that would matter a good deal less if the figures '
+           'were used only for description. They are not. Funding formulas for schools, '
+           'clinics and transport take population counts as their input, so a district whose '
+           'population is disproportionately hard to count receives a disproportionately '
+           'small allocation of public expenditure. The error then compounds over successive '
+           'counts, because the services that would reach those residents are precisely the '
+           'services the undercount has defunded, and nobody involved in any part of the '
+           'process has done anything wrong at all.'],
+ 'guided': [('What does the passage say is the interesting question?',
+             ('The size of the undercount',
+              'The shape of the undercount',
+              'The cost of a census',
+              'The date it is taken'),
+             1,
+             'Not the size, which is estimated and published, but its shape, because the '
+             'shape is not random.'),
+            ('What is the first mechanism?',
+             ('People refuse to answer',
+              'The form assumes a household with a householder',
+              'People move house',
+              'Addresses are out of date'),
+             1,
+             'The form is addressed to a householder and assumes a household with one, which '
+             'shared tenancies do not fit.'),
+            ('Why does mobility cause an error?',
+             ('People dislike forms',
+              'Enumeration happens on one night',
+              'Addresses change names',
+              'Households are too large'),
+             1,
+             'Counting on a single night means somebody who moved that month is counted '
+             'twice or missed.')],
+ 'exam': [('How does the passage describe the reluctance to appear in a record?',
+           ('Careless', 'Rational rather than careless', 'Illegal', 'Rare'),
+           1,
+           'Strongest among people whose status is uncertain, and rational rather than '
+           'careless.'),
+          ('Who is the undercount concentrated among?',
+           ('The old and settled',
+            'The young, the mobile, the poor and the recently arrived',
+            'Householders',
+            'Nobody in particular'),
+           1,
+           'Those four groups are named, and together they make the error structured rather '
+           'than random.'),
+          ('Why would the error matter less if figures were only descriptive?',
+           ('Descriptions are never published',
+            'Nothing would be allocated on the basis of them',
+            'Censuses would be cheaper',
+            'Mobility would fall'),
+           1,
+           'The problem is that funding formulas take the counts as input, so the error has '
+           'consequences beyond description.'),
+          ('What does the passage mean by saying the error compounds?',
+           ('The undercount grows each decade',
+            'The services that would help are the ones it defunds',
+            'Mobility increases over time',
+            'Forms become longer'),
+           1,
+           'The error reduces funding for precisely the services that would reach the '
+           'undercounted, which worsens the next count.'),
+          ('What is the force of the last clause, that nobody has done anything wrong?',
+           ('It excuses the census office',
+            'It locates the problem in the design rather than in conduct',
+            'It argues the error is small',
+            'It blames householders'),
+           1,
+           'The passage has built the outcome from honest procedures, which puts the fault '
+           'in the mechanism.')]}
+UNIT['r5'] = {'sub': 'Counting a population',
+ 'title': 'What a Perfect Count Would Not Settle',
+ 'words': 311,
+ 'skill': ('Reading an objection about a definition rather than a method',
+           ['The writer accepts the undercount and argues that the remedy proposed would '
+            'leave the main difficulty untouched.',
+            'Note the question the writer says has no technical answer.',
+            'A question about administrative data wants its own weakness, not its '
+            'advantage.']),
+ 'paras': ['Suppose the undercount were eliminated tomorrow by some improvement nobody has '
+           'yet thought of. A great deal would be better and the hardest question in this '
+           'field would be left exactly where it is, because that question is not about '
+           'finding people at all. It is about deciding where a person counts as living, and '
+           'no amount of enumeration, however complete and however well funded, will answer '
+           'it.',
+           'Consider three cases of divided residency. A student has a family address three '
+           'hundred miles from the university where she sleeps for thirty weeks of the year, '
+           'and a worker spends five nights a week in one city and two in another, for years '
+           'at a time. A third family lives with relatives, in a district it has no '
+           'connection with, while waiting for a tenancy of its own. Each of them has a '
+           'residency that is genuinely divided, and the census must nevertheless assign '
+           'each one to exactly a single place, because the funding formulas that consume '
+           'its output require one number for every district and will accept nothing else. '
+           'The rule that is chosen determines the answer. That rule is a policy decision '
+           'rather than a measurement, and its selection is usually made by somebody who has '
+           'never been asked to defend it in public.',
+           'The administrative alternative is attractive and carries the same difficulty in '
+           'a less visible form. Records of tax, tenancy and health registration between '
+           'them cover almost everybody, they update continuously rather than once a decade, '
+           'and they would end the single-night problem completely. They also define '
+           'residency implicitly, through whatever rule each separate system happens to use, '
+           'and those rules were written for other purposes and do not agree with one '
+           'another. The replacement of one explicit convention by four undocumented ones is '
+           'not obviously an improvement, and that improvement is routinely assumed rather '
+           'than demonstrated.'],
+ 'guided': [('What does the passage say would be untouched by a perfect count?',
+             ('The cost of the census',
+              'The question of where a person counts as living',
+              'The problem of mobility',
+              'The design of the form'),
+             1,
+             'That question is not about finding people but about deciding where somebody '
+             'counts as living.'),
+            ('Why must the census assign each person to one place?',
+             ('Tradition requires it',
+              'The funding formulas need a single number for each district',
+              'People live in one place',
+              'The form has one box'),
+             1,
+             'The formulas that consume the output require a single number for each '
+             'district.'),
+            ('How does the passage describe the rule that is chosen?',
+             ('A measurement',
+              'A policy decision rather than a measurement',
+              'A statistical estimate',
+              'An administrative error'),
+             1,
+             'The rule determines the answer and is a policy decision rather than a '
+             'measurement.')],
+ 'exam': [('What advantage of administrative records does the passage grant?',
+           ('They are cheaper to collect',
+            'They cover almost everybody and update continuously',
+            'They define residency clearly',
+            'They are more popular'),
+           1,
+           'Between them they cover almost everybody and they update continuously, which '
+           'ends the single-night problem.'),
+          ('What is their weakness, by this passage?',
+           ('They are incomplete',
+            'They define residency implicitly, by rules written for other purposes',
+            'They are published late',
+            'They cannot be audited'),
+           1,
+           'Each system has whatever rule it happens to use, written for another purpose, '
+           'and the rules disagree.'),
+          ('What does the passage mean by one explicit convention?',
+           ('The administrative records',
+            'The census rule, which at least is written down',
+            'The funding formula',
+            'The single-night count'),
+           1,
+           'The census convention is explicit, against four undocumented ones in the '
+           'administrative systems.'),
+          ('What does the passage say about the improvement?',
+           ('It has been demonstrated',
+            'It is routinely assumed',
+            'It is impossible',
+            'It depends on cost'),
+           1,
+           'Not obviously an improvement, and the improvement is routinely assumed, which is '
+           'the passage’s complaint.'),
+          ('Which best describes the passage’s position?',
+           ('The undercount does not matter',
+            'A measurement problem is hiding a question of definition',
+            'Administrative data should replace the census',
+            'The census should be abolished'),
+           1,
+           'The whole passage separates finding people from deciding where they count, and '
+           'says the second is the harder question.')]}
+UNIT['l4'] = {'sub': 'Counting a population',
+ 'caption': 'A lecture on an error that is not random',
+ 'board': ['Random error: a nuisance',
+           'Structured error: a policy problem',
+           'Missed: young, mobile, poor, new',
+           'Funding follows the count'],
+ 'skill': ('A lecture that distinguishes two kinds of error',
+           ['The lecturer separates random error from structured error and treats the '
+            'distinction as the whole lesson.',
+            'Note what he says a random error would do, because the contrast carries the '
+            'argument.',
+            'A question about the funding formula wants the consequence, not the '
+            'mechanism.']),
+ 'warm': [('Woman: What would a random error do?',
+           ('Add noise without changing the pattern.',
+            'Miss the same groups every time.',
+            'Yes, it would do something.',
+            'Four groups.'),
+           0,
+           'A random error is noise; the point of the hour is that this one is not random.'),
+          ('Woman: Which groups are missed?',
+           ('The young, the mobile, the poor and the recently arrived.',
+            'Householders and home owners.',
+            'Yes, some are missed.',
+            'On one night.'),
+           0,
+           'Those four are named together, and together they make the error structured.'),
+          ('Woman: What follows the count?',
+           ('The funding.',
+            'The next census.',
+            'Yes, something follows.',
+            'Three mechanisms.'),
+           0,
+           'Funding formulas take the count as input, which is what turns a measurement '
+           'error into a policy outcome.')],
+ 'script': [('Man',
+             'I want to separate two kinds of error, because the difference decides whether '
+             'a measurement problem is a nuisance or a scandal. Imagine a census that misses '
+             'two per cent of people chosen at random. That is annoying. You correct for it, '
+             'your confidence intervals widen a little, and every district is affected '
+             'equally, so anything you do with the figures is as fair as it was before. Now '
+             'imagine a census that misses two per cent of people, and the two per cent are '
+             'young, mobile, poor or recently arrived. Same headline error. Completely '
+             'different object. Those people are not scattered evenly across the country. '
+             'They are concentrated in particular districts, and those districts now appear '
+             'smaller than they are. Here is the part that makes it matter. The count is not '
+             'just a description. Funding formulas for schools, clinics and buses take '
+             'population as an input, so the districts that were hardest to count receive '
+             'the smallest allocations, and the services that might have reached the '
+             'undercounted people are the services the undercount has defunded. Nobody in '
+             'this story has done anything wrong. The form was reasonable, the enumerators '
+             'were diligent, the formula is arithmetic. The error is in the design, and the '
+             'design is the only place it could be fixed. I will give you the uncomfortable '
+             'consequence, because it is the one the policy literature tends to leave out. '
+             'An undercount of this shape cannot be corrected after the fact by adjusting '
+             'the figures, even though the adjustment is statistically straightforward, '
+             'because the formula has already run and the money has already gone.')],
+ 'items': [('What does the lecturer say the difference between the two errors decides?',
+            ('How large the error is',
+             'Whether it is a nuisance or a scandal',
+             'How much a census costs',
+             'Which districts are counted first'),
+            1,
+            'The difference decides whether a measurement problem is a nuisance or a '
+            'scandal.'),
+           ('What happens with a random two per cent error?',
+            ('Districts are affected unequally',
+             'Every district is affected equally',
+             'Funding collapses',
+             'The count must be repeated'),
+            1,
+            'Every district is affected equally, so anything done with the figures is as '
+            'fair as before.'),
+           ('Why does the structured error have a different effect?',
+            ('It is larger',
+             'The missed people are concentrated in particular districts',
+             'It is harder to estimate',
+             'It affects only cities'),
+            1,
+            'They are not scattered evenly; they are concentrated, so those districts appear '
+            'smaller than they are.'),
+           ('What does he say the undercount defunds?',
+            ('The census itself',
+             'The services that might have reached the undercounted people',
+             'The funding formula',
+             'Enumeration'),
+            1,
+            'The services that might have reached those people are the ones the undercount '
+            'has defunded.'),
+           ('Where does he locate the fault?',
+            ('In the enumerators', 'In the design', 'In the householders', 'In the formula'),
+            1,
+            'Nobody has done anything wrong; the error is in the design, and that is the '
+            'only place it could be fixed.')]}
+UNIT['l5'] = {'sub': 'Counting a population',
+ 'caption': 'A short talk on a question with no technical answer',
+ 'board': ['Where does this person live?',
+           'Student, commuter, family between homes',
+           'Formula needs one number',
+           'The rule is a choice, not a finding'],
+ 'skill': ('A talk that reclassifies a problem',
+           ['The speaker argues that a question treated as technical is actually a decision, '
+            'which changes who ought to answer it.',
+            'Note the three cases she uses, because each one divides differently.',
+            'A question about her recommendation wants a change in process, not in method.']),
+ 'warm': [('Man: What kind of question does she say it is?',
+           ('A decision rather than a measurement.',
+            'A measurement rather than a decision.',
+            'Yes, it is a question.',
+            'Three cases.'),
+           0,
+           'Her whole point is the reclassification: it is a choice, and choices belong to a '
+           'different process.'),
+          ('Man: How many cases does she describe?',
+           ('Three.', 'One.', 'Yes, she describes them.', 'Five nights.'),
+           0,
+           'A student, a weekday commuter and a family between homes are the three.'),
+          ('Man: What does she want changed?',
+           ('Who decides the rule, and in public.',
+            'The method of enumeration.',
+            'Yes, she wants a change.',
+            'The funding formula.'),
+           0,
+           'Her recommendation is procedural: the rule should be decided and defended '
+           'openly.')],
+ 'script': [('Woman',
+             'I am going to argue that the hardest problem in this field is not a '
+             'measurement problem at all, and that treating it as one is how it stays '
+             'unexamined. Here are three people. A student with a family home three hundred '
+             'miles from the university where she sleeps thirty weeks a year. A worker who '
+             'spends five nights a week in one city and two in another, for years. A family '
+             'living with relatives while they wait for a tenancy of their own. Now ask '
+             'where each of them lives. Not where they ought to live, or where they feel '
+             'they live: where they count as living, for the purposes of a count that a '
+             'school funding formula is going to consume. There is no fact that settles it. '
+             'Each of them genuinely has a divided residency, the formula requires one '
+             'number, and so a rule has to be chosen. And a rule that is chosen is a policy, '
+             'with winners and losers that can be identified in advance, which is exactly '
+             'what we call a political decision in any other context. My recommendation is '
+             'not a better method. It is that the rule should be set where policies are set, '
+             'argued about openly and written down with reasons, rather than settled inside '
+             'a technical annexe by somebody who was never asked to defend it. One thing '
+             'about why this matters beyond the census. Every large measurement in public '
+             'life has a definition like this buried in it, chosen quietly and cited for '
+             'decades as though discovered, and the habit of asking where it came from is '
+             'worth more than any particular count.')],
+ 'items': [('What does the speaker say about treating the problem as a measurement?',
+            ('It makes it easier to solve',
+             'It is how the problem stays unexamined',
+             'It is the standard approach and correct',
+             'It raises the cost'),
+            1,
+            'Treating it as a measurement problem is how it stays unexamined.'),
+           ('What is the second of her three cases?',
+            ('A student thirty weeks a year',
+             'A worker with five nights in one city and two in another',
+             'A family waiting for a tenancy',
+             'An enumerator'),
+            1,
+            'The weekday commuter is the second, and the pattern persists for years.'),
+           ('What does she say settles where each of them lives?',
+            ('A fact about their situation',
+             'Nothing; a rule has to be chosen',
+             'The funding formula',
+             'Their own preference'),
+            1,
+            'There is no fact that settles it, so a rule has to be chosen.'),
+           ('What does she compare the rule to?',
+            ('A measurement',
+             'A political decision with identifiable winners and losers',
+             'An administrative record',
+             'A statistical estimate'),
+            1,
+            'A rule that is chosen is a policy, with winners and losers that can be '
+            'identified in advance.'),
+           ('What is her recommendation?',
+            ('A better method of enumeration',
+             'That the rule be set and defended where policies are set',
+             'That the census be abolished',
+             'That funding formulas be simplified'),
+            1,
+            'Not a better method: the rule should be argued about openly and written down '
+            'with reasons.')]}
+UNIT['w4'] = {'sub': 'Counting a population',
+ 'skill': ('Nominalisation, and when it hides the actor',
+           ['Turning a verb into a noun lets you make it the subject: the enumeration takes '
+            'place on one night.',
+            'It is useful for packing an idea and dangerous for responsibility, because the '
+            'noun has no actor attached.',
+            'If a sentence reports a decision, keep the decider in it.']),
+ 'guided': [('You want to make the counting itself the subject.',
+             ['the enumeration',
+              'takes',
+              'place',
+              'on',
+              'a single',
+              'night',
+              'which',
+              'is',
+              'where',
+              'the problem',
+              'begins'],
+             'The enumeration takes place on a single night, which is where the problem '
+             'begins.'),
+            ('You want to name an allocation without naming an actor.',
+             ['the allocation',
+              'of',
+              'funding',
+              'follows',
+              'the count',
+              'and',
+              'the count',
+              'misses',
+              'the same',
+              'districts',
+              'repeatedly'],
+             'The allocation of funding follows the count, and the count misses the same '
+             'districts repeatedly.'),
+            ('You want to keep the decider in a sentence about a rule.',
+             ['somebody',
+              'chooses',
+              'the residency',
+              'rule',
+              'and',
+              'that',
+              'choice',
+              'determines',
+              'every',
+              'allocation'],
+             'Somebody chooses the residency rule, and that choice determines every '
+             'allocation.')],
+ 'exam': [('You want to say the error is concentrated rather than spread.',
+           ['the concentration',
+            'of',
+            'the undercount',
+            'in',
+            'particular',
+            'districts',
+            'turns',
+            'it',
+            'into',
+            'a policy problem'],
+           'The concentration of the undercount in particular districts turns it into a '
+           'policy problem.'),
+          ('You want to report a reluctance without judging it.',
+           ['the reluctance',
+            'to',
+            'appear',
+            'in',
+            'a government',
+            'record',
+            'is',
+            'rational',
+            'rather than',
+            'careless',
+            'here'],
+           'The reluctance to appear in a government record is rational rather than careless '
+           'here.'),
+          ('You want to say two things are being conflated.',
+           ['the conflation',
+            'of',
+            'finding',
+            'people',
+            'with',
+            'deciding',
+            'where',
+            'they live',
+            'hides',
+            'the harder question'],
+           'The conflation of finding people with deciding where they live hides the harder '
+           'question.'),
+          ('You want to say the improvement has not been shown.',
+           ['the assumption',
+            'that',
+            'administrative data',
+            'is',
+            'an',
+            'improvement',
+            'has',
+            'not',
+            'been',
+            'examined'],
+           'The assumption that administrative data is an improvement has not been '
+           'examined.'),
+          ('You want to restore the actor to a passive report.',
+           ['the rule',
+            'was',
+            'chosen',
+            'by',
+            'officials',
+            'who',
+            'were',
+            'never',
+            'asked',
+            'to defend it'],
+           'The rule was chosen by officials who were never asked to defend it.')]}
+UNIT['w5'] = {'sub': 'Counting a population',
+ 'prof': 'Dr Sandoval',
+ 'question': 'A statistics office can spend its budget on reducing the undercount, which is '
+             'measurable and improves every figure it publishes, or on an open review of the '
+             'residency rule, which changes no figure directly and would be argued about in '
+             'public. Which should it do?',
+ 'posts': [('Priya',
+            'w',
+            'Reduce the undercount. It is the office’s own job, it is measurable, and a more '
+            'accurate count improves every allocation made from it. A review of a definition '
+            'is somebody else’s work and will produce a document, not a better figure.'),
+           ('Rafael',
+            'm',
+            'A more accurate count fed through an unexamined rule gives you a precise answer '
+            'to a question nobody has agreed. The talk was right that the rule is a policy '
+            'with winners, and precision applied to an arbitrary definition makes the '
+            'arbitrariness harder to see, not easier.')],
+ 'skill': ('A question about accuracy and definition',
+           ['Priya argues from the office’s remit and what is measurable; Rafael from what '
+            'precision does to an unexamined rule.',
+            'Use the second passage, which is explicit that a perfect count leaves the '
+            'definition untouched.',
+            'An answer that splits the budget must say what the split costs, or it is a way '
+            'of not choosing.']),
+ 'starters': ['Rafael is right that…, although that holds only if…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passage suggests…',
+              'What follows is not… but…'],
+ 'model': ['Rafael is right about the effect of precision on an arbitrary rule, and his '
+           'conclusion does not follow from it. Precision makes an arbitrary definition '
+           'harder to see only if nobody is told the definition, which is a documentation '
+           'problem rather than a reason to leave the count inaccurate.',
+           'Priya has the stronger claim about remit and uses it to avoid the question. An '
+           'office that publishes a number knows better than anybody what rule produced it, '
+           'and declining to say so because the rule is somebody else’s business is how the '
+           'second passage says the question stays unexamined.',
+           'So the office should spend on the undercount and publish the residency rule '
+           'beside the figures, with the alternatives it considered and the districts each '
+           'one favours. That costs a few pages of print and no fieldwork at all. What is '
+           'given up is the office’s quiet life, because the publication invites exactly the '
+           'argument Priya wants to avoid. The argument is going to happen in any case, when '
+           'somebody else finds the rule and presents it as a scandal, and it is far better '
+           'conducted early and with the office’s own numbers on the table. An office that '
+           'publishes its own definitions keeps the authority to explain them, and an office '
+           'that waits ends up explaining somebody else’s account of them instead.'],
+ 'model_words': 222}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Counting a population',
+  'focus': 'making a nominalisation the subject without losing the actor',
+  'skill': ('The enumeration takes place on one night',
+            ['A long noun phrase as subject needs a clear fall on its head noun, so the '
+             'listener knows the subject has ended.',
+             'Do not pause inside the phrase. One unit of sound to the verb.',
+             'When you report a decision, name the decider, even if the written version '
+             'would not.']),
+  'repeat': ['The enumeration takes place on one night.',
+             'The allocation of funding follows the count.',
+             'The concentration of the error is the problem.',
+             'The reluctance to appear in a record is rational.',
+             'The conflation of two questions hides the harder one.',
+             'Somebody chooses the rule, and the choice decides the answer.',
+             'The assumption that administrative data is an improvement has not been '
+             'examined anywhere.'],
+  'theme': 'being counted, or missed, by an official record',
+  'qs': ['Tell me about a time an official record had you wrong, or did not have you at all. '
+         'What happened?',
+         'Some people say nobody should be required to appear in a government record. How '
+         'far would you agree?',
+         'If you were designing a census form, what would you change about the question of '
+         'where somebody lives?',
+         'Finally, describe a decision made about you on the basis of a figure you could not '
+         'check.'],
+  'model': [(2,
+             'That is too strong for me, and I would separate two things. Being required to '
+             'appear is one question, and what the record may then be used for is another, '
+             'and most of what worries me is in the second.'),
+            (3,
+             'I would let somebody give two addresses with a share. It would ruin the '
+             'arithmetic of the formula, which is probably why nobody does it, and it would '
+             'be true.')],
+  'selfcheck': ['I kept the long subject in one unit of sound',
+                'I named the decider when I reported a decision',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Counting a population',
+  'focus': 'reclassifying a problem out loud',
+  'skill': ('That is not a measurement problem, it is a decision',
+            ['Say what the thing is not, then what it is, with a clear pause between. The '
+             'pause is the reclassification.',
+             'Stress the two nouns, not the negative.',
+             'Then say who should decide it, because the point of the move is to change the '
+             'forum.']),
+  'repeat': ['That is not a measurement problem.',
+             'There is no fact that settles it.',
+             'It is a decision with winners and losers.',
+             'A rule that is chosen is a policy.',
+             'The formula requires one number, so a rule has to be chosen.',
+             'The rule should be argued about openly and written down with reasons.',
+             'Treating a decision as a measurement is how a decision stays unexamined for '
+             'thirty years.'],
+  'theme': 'decisions that are presented as facts',
+  'qs': ['Tell me about a decision somebody presented to you as a fact. How did you notice?',
+         'Some people think technical staff should decide technical questions without public '
+         'argument. What do you think?',
+         'How should an organisation publish a rule that affects people unequally?',
+         'Finally, describe a definition you think ought to be argued about more than it '
+         'is.'],
+  'model': [(2,
+             'For genuinely technical questions, yes, and the difficulty is that the label '
+             'is applied by the people who want to keep the question. A good test is whether '
+             'the answer has identifiable winners. If it does, it is not technical, whatever '
+             'the annexe is called.'),
+            (4,
+             'What counts as full-time work. Everything from sick pay to pension rights '
+             'hangs off it, and I have never once seen it defended rather than cited.')],
+  'selfcheck': ['I paused between what it is not and what it is',
+                'I stressed the two nouns rather than the negative',
+                'I said who should decide']}]
