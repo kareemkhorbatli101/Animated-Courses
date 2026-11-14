@@ -61,6 +61,24 @@ def gap_report(n, U):
     return want, {w for w in want if w.lower() in covered}
 
 
+def normalise(U):
+    """Fix the three things that are arithmetic, not authoring.
+
+    A declared word count must match the passage, and the speaking repeats must
+    build to the longest last. Both are checks worth having and neither is a
+    judgement, so the generator does them rather than making the author count.
+    """
+    for tag in ('r3', 'r4', 'r5'):
+        if tag in U:
+            U[tag]['words'] = sum(len(x.split()) for x in U[tag]['paras'])
+    for tag in ('w3', 'w5'):
+        if tag in U:
+            U[tag]['model_words'] = sum(len(l.split()) for l in U[tag]['model'])
+    for s in U.get('sp', ()):
+        s['repeat'] = sorted(s['repeat'], key=lambda x: len(x.split()))
+    return U
+
+
 def validate(U, strict_gap=True):
     n = U['n']
     bad = []
@@ -84,6 +102,7 @@ def validate(U, strict_gap=True):
 
 def emit(U, doc, strict_gap=True):
     n = U['n']
+    normalise(U)
     bad, want, hit = validate(U, strict_gap)
     if bad:
         print('UNIT G%d NOT WRITTEN:' % n)
