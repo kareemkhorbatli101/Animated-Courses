@@ -164,7 +164,8 @@ def email_card(to, frm, date, subject, lines, accent=AMBER):
 def notice_card(heading, lines, accent=TEAL, kind='notice'):
     """A notice whose body wraps and whose card grows to hold it."""
     tag = {'notice': 'NOTICE', 'web': 'WEB PAGE', 'ad': 'ADVERTISEMENT',
-           'listing': 'LISTING', 'page': 'PAGE'}.get(kind, 'NOTICE')
+           'listing': 'LISTING', 'page': 'PAGE', 'email': 'EMAIL',
+           'memo': 'MEMO'}.get(kind, 'NOTICE')
     RIGHT = W - 44
     # heading shares the bar with the tag, so it gets what is left of it
     head_w = RIGHT - 40 - (tw(tag, 16, True) + 28)

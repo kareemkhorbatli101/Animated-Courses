@@ -87,7 +87,11 @@ def _items(d, block, start, key, skill=None, spread=None):
 
 def _dock(d, spec):
     kind = spec[0]
-    if kind == 'email':
+    # Volumes 1-4 and Foundation 1 give an email as the five fields of a real
+    # mail client. The Foundation 2 units give it as a headed card with a short
+    # From block inside it, which is four fields, so the shape decides the
+    # renderer rather than the tag.
+    if kind == 'email' and len(spec) == 6:
         _, to, frm, date, subj, lines = spec
         d.figure(*F.email_card(to, frm, date, subj, lines))
     elif kind == 'social':
@@ -134,6 +138,38 @@ def _vocab_f(d, U):
                  'These are the first of them, and they are here so that the list is not new '
                  'when you meet it.')
         d.wordlist(U['awl'], 2, PLUM)
+    d.wordbank('Words you will meet again:', U['again'], PERI)
+    d.page_break_section()
+
+
+def _vocab_f2(d, U):
+    """Foundation 2's three word lists.
+
+    Foundation 1 taught the two thousand commonest words of English. This
+    volume teaches what Volume 1's own academic passages then assume on top of
+    them, measured rather than guessed, so the lists are split by where the
+    words came from: the unit's subject, the general academic vocabulary the
+    measurement found, and the campus words the daily-life tasks need.
+    """
+    d.partbar('Vocabulary 1 \u00b7 The field',
+              '12 words for this unit\u2019s subject', 'reading')
+    d.body_p('These twelve words belong to the subject of this unit, and every one of '
+             'them is a word Volume 1 uses in the same field without stopping to '
+             'teach it. Cover the right-hand column and test yourself.')
+    d.wordlist(U['fieldwords'], 2, PLUM)
+    d.ex('Exercise A   Work in pairs. Ask and answer.')
+    d.items(U['vocab_talk'])
+    d.partbar('Vocabulary 2 \u00b7 What Volume 1 assumes',
+              '21 words from the measured gap', 'reading')
+    d.body_p('These are not words of this subject. They are words Volume 1 uses in any '
+             'subject, in a passage or a question stem, and an A2 reader does not have '
+             'them. That is the gap this volume was built to close.')
+    d.wordlist(U['acad'], 2, INDIGO)
+    d.partbar('Vocabulary 3 \u00b7 Campus and everyday',
+              '6 words for the daily-life tasks', 'listening')
+    d.body_p('Every Listening conversation in the real test happens on a campus, and '
+             'every Reading 2 is a notice or an email from one.')
+    d.wordlist(U['campus'], 2, AMBER)
     d.wordbank('Words you will meet again:', U['again'], PERI)
     d.page_break_section()
 
@@ -208,7 +244,10 @@ def _vocab_b2(d, U):
 
 def render_unit(d, U):
     n, title = U['n'], U['title']
-    a2 = U.get('level') == 'A2'
+    # Both Foundation volumes use the twenty-page unit: the frames, the five
+    # cycles a skill and the four non-test strands. Testing for 'A2' alone
+    # silently dropped every academic cycle out of Foundation 2.
+    a2 = U.get('level') in FOUND
     ax = a2 and 'r4' in U
     sp = Spread()
     key = {}            # section -> list of (number, answer, why)
@@ -217,7 +256,7 @@ def render_unit(d, U):
     d.unit_title('Unit %d · %s' % (n, title))
     d.strapline('TOEFL iBT® Preparation Course 2026 · Volume %s' % U['vol'])
     d.cefr('CEFR %s  ·  Grammar: %s  ·  Word field: %s'
-           % (U.get('level', 'B1'), U['grammar'], U['field']))
+           % (lvl_label(U.get('level', 'B1')), U['grammar'], U['field']))
     d.figure(*F.unit_opener(n, title, U['subs'], U['icons']))
     d.cando_box(U['candos'])
     d.body_p(U['opener_line'])
@@ -226,6 +265,9 @@ def render_unit(d, U):
     # ---- page 2: vocabulary -------------------------------------------------
     if U.get('level') == 'B2':
         _vocab_b2(d, U)
+    elif U.get('level') == 'A2B1':
+        _vocab_f2(d, U)
+        _strands(d, U, 'sound')
     elif a2:
         _vocab_f(d, U)
         _strands(d, U, 'sound')
@@ -686,16 +728,26 @@ def render_test(d, T):
     vol = T['n']
     sp = Spread()
     a2 = bool(T.get('a2'))
-    d.unit_title('Progress Test F' if a2 else 'Practice Test %d' % vol)
+    f2 = bool(T.get('f2'))
+    d.unit_title('Progress Test F2' if f2 else
+                 'Progress Test F' if a2 else 'Practice Test %d' % vol)
     if a2:
-        d.strapline('The real order and the real task names · one module in each section')
-        d.cefr('Reading 20  ·  Listening 16  ·  Writing 12  ·  Speaking 11  —  59 items')
+        d.strapline('The real order and the real task names · %s module%s in each section'
+                    % ('two' if f2 else 'one', 's' if f2 else ''))
+        d.cefr('Reading 30  ·  Listening 24  ·  Writing 12  ·  Speaking 11  —  77 items'
+               if f2 else
+               'Reading 20  ·  Listening 16  ·  Writing 12  ·  Speaking 11  —  59 items')
         d.body_p('Sit this in one sitting. Do not look anything up. Mark it with the key at '
                  'the back, then read the explanations — they matter more than the score.')
         d.body_p('Two numbers here are not reduced, and that is deliberate. Build a Sentence '
                  'is ten items because the real task is ten. Speaking is seven repeats and '
                  'four interview questions because that is the task; shortening it would '
                  'leave you practising something else.', i=True)
+        if f2:
+            d.body_p('This test has two modules in the Reading and Listening sections, as the '
+                     'real test does. Once Module 2 has begun you cannot go back to Module 1, '
+                     'and that is the single biggest difference between this test and the one '
+                     'at the end of Foundation 1.', i=True)
     else:
         d.strapline('The full 2026 shape: 97 items, in the order the real test asks them')
         d.cefr('Reading 40  ·  Listening 34  ·  Writing 12  ·  Speaking 11')
@@ -707,18 +759,19 @@ def render_test(d, T):
     key = {}
     # ---- reading ----
     for mi, M in enumerate(T['reading'], 1):
-        d.partbar('Reading Section' if a2 else 'Reading Section, Module %d' % mi,
+        d.partbar('Reading Section' if (a2 and not f2) else 'Reading Section, Module %d' % mi,
                   'In an actual test the clock shows you how long you have', 'reading')
         if mi == 2:
             d.body_p('You cannot return to Module 1 once Module 2 has begun.', i=True)
         d.body_p('You can use Next and Back to move between questions inside this module.', i=True)
-        d.ex('Fill in the missing letters in the paragraph.  (Questions 1–10)', 'reading')
+        d.ex('Fill in the missing letters in the paragraph.  (Questions 1–%d)'
+             % len(M['gap_ans']), 'reading')
         d.gapped(M['gap_text'])
         k = list(enumerate(M['gap_ans'], 1))
         k = [(i, a, '') for i, a in k]
         for spec in M['docs']:
             _dock(d, spec)
-        nn = _items(d, M['daily'], 11, k, 'reading', sp)
+        nn = _items(d, M['daily'], len(M['gap_ans']) + 1, k, 'reading', sp)
         d.passage(M['passage'][0], M['passage'][1], M['passage'][2])
         _items(d, M['academic'], nn, k, 'reading', sp)
         key['reading %d' % mi] = k
@@ -726,7 +779,8 @@ def render_test(d, T):
 
     # ---- listening ----
     for mi, M in enumerate(T['listening'], 1):
-        d.partbar('Listening Section' if a2 else 'Listening Section, Module %d' % mi,
+        d.partbar('Listening Section' if (a2 and not f2)
+                  else 'Listening Section, Module %d' % mi,
                   'You will not be able to return to previous questions', 'listening')
         d.ex('Choose the best response.', 'listening')
         k = []
@@ -823,7 +877,10 @@ def first_sight(d):
 
 # -------------------------------------------------------------- back matter --
 def _testname(vol, units):
-    return ('Progress Test F' if units[0].get('level') == 'A2'
+    lvl = units[0].get('level')
+    if lvl == 'A2B1':
+        return 'Progress Test F2'
+    return ('Progress Test F' if lvl == 'A2'
             else 'Practice Test %s' % vol)
 
 
@@ -870,7 +927,12 @@ def answer_key(d, vol, units, tkey, ukeys):
         voc, gram, mini = k['rev']
         d.keyline('A  Vocabulary', ' · '.join('%d %s' % (i, a) for i, a, _ in voc))
         d.keyline('B  Grammar', ' · '.join('%d %s' % (i, a) for i, a, _ in gram))
-        d.keyline('C  Mini-section', ' · '.join('%d %s' % (i, a) for i, a, _ in mini))
+        # the mini-section is a timed test, so it gets the explained key every
+        # other block gets. A letter on its own teaches nothing, and that is
+        # this book's own stated rule two pages earlier.
+        d.h3('C  Mini-section', INDIGO)
+        for num, ans, why in mini:
+            d.why(num, ans, why)
         d.page_break_section()
     d.keybar(_testname(vol, units))
     for sec in [k for k in ('reading 1', 'reading 2', 'listening 1', 'listening 2')
@@ -947,7 +1009,7 @@ def glossary(d, vol, units):
         # B1 volumes gloss campus words; B2 volumes have none and gloss the
         # collocations instead, which is where the new meaning sits at that level
         for w, g in (list(u.get('campus', [])) + list(u.get('collocs', []))
-                     + list(u.get('awl', []))):
+                     + list(u.get('awl', [])) + list(u.get('fieldwords', []))):
             allw.append((w, g, u['n'], 'C'))
     d.unit_title('Glossary')
     d.strapline('Volume %s · %d entries with %s definitions' % (vol, len(allw), lvl))
@@ -995,11 +1057,20 @@ def foundation_back(d, units):
     """The two references this level needs and the bridge into Volume 1."""
     d.unit_title('The irregular verbs you actually need')
     d.strapline('Fifty-five verbs · learn them in the middle column first')
-    d.body_p('English has about two hundred irregular verbs. These are the ones that come up '
-             'again and again, and Unit 8 of this book teaches them. The third column is the '
-             'past participle. You do not need it yet — it is what Volume 1 Unit 1 uses to '
-             'build the present perfect, and it is printed here so that it is already '
-             'familiar when you get there.')
+    lvl = units[0].get('level', 'A2')
+    f2 = lvl == 'A2B1'
+    if f2:
+        d.body_p('English has about two hundred irregular verbs. These are the ones that come '
+                 'up again and again, and Foundation 1 taught them in its Unit 8. The third '
+                 'column is the past participle. You still do not need it — it is what '
+                 'Volume 1 Unit 1 uses to build the present perfect, and it is printed here '
+                 'so that it is already familiar when you get there.')
+    else:
+        d.body_p('English has about two hundred irregular verbs. These are the ones that come up '
+                 'again and again, and Unit 8 of this book teaches them. The third column is the '
+                 'past participle. You do not need it yet — it is what Volume 1 Unit 1 uses to '
+                 'build the present perfect, and it is printed here so that it is already '
+                 'familiar when you get there.')
     half = (len(IRREG) + 1) // 2
     d.table(['Verb', 'Past', 'Participle'], [list(r) for r in IRREG[:half]], INDIGO)
     d.page_break_section()
@@ -1010,27 +1081,49 @@ def foundation_back(d, units):
     d.strapline('Where this book stops and the next one starts')
     d.body_p('You have finished ten units. Here is exactly what changes when you open '
              'Volume 1, so that none of it is a surprise.')
-    d.table(['', 'This book', 'Volume 1'], [
-        ['Academic passage', '110 words in Unit 1, 175 by Unit 10', '265 words'],
-        ['Academic talk', '85 words in Unit 1, 150 by Unit 10', 'about 190 words'],
-        ['Discussion post', '40 words, rising to 80', 'at least 100 words'],
-        ['Vocabulary', '384 general-service words', '480 Academic Word List words'],
-        ['Subject matter', 'student life', 'history, astronomy, genetics, geology …'],
-        ['Grammar', 'ends at past simple and will', 'starts at present perfect'],
-        ['The test', 'one module in each section', 'two modules, adaptive'],
-    ], INDIGO, [22, 39, 39])
+    if f2:
+        d.table(['', 'This book', 'Volume 1'], [
+            ['Academic passage', '186 words in Unit 1, 234 by Unit 10', '265 words'],
+            ['Academic talk', '158 words in Unit 1, 201 by Unit 10', 'about 190 words'],
+            ['Discussion post', '108 words, rising to 151', 'at least 100 words'],
+            ['Vocabulary', '390 words from the measured gap', '480 Academic Word List words'],
+            ['Subject matter', 'the same ten subjects, one per unit', 'the same ten subjects'],
+            ['Grammar', 'ends at reporting what a text says', 'starts at present perfect'],
+            ['The test', 'two modules, 77 items', 'two modules, 97 items'],
+        ], INDIGO, [22, 39, 39])
+    else:
+        d.table(['', 'This book', 'Volume 1'], [
+            ['Academic passage', '110 words in Unit 1, 175 by Unit 10', '265 words'],
+            ['Academic talk', '85 words in Unit 1, 150 by Unit 10', 'about 190 words'],
+            ['Discussion post', '40 words, rising to 80', 'at least 100 words'],
+            ['Vocabulary', '384 general-service words', '480 Academic Word List words'],
+            ['Subject matter', 'student life', 'history, astronomy, genetics, geology …'],
+            ['Grammar', 'ends at past simple and will', 'starts at present perfect'],
+            ['The test', 'one module in each section', 'two modules, adaptive'],
+        ], INDIGO, [22, 39, 39])
     d.h3('The one thing that does not change')
     d.body_p('The architecture. Three sub-topics, three cycles, the same twelve task names in '
              'the same order, the same number of exercises on the same pages. You already '
              'know how to use Volume 1. You have been using it for ten units.')
     d.h3('What to do in the week between the two books')
-    d.bullets([
-        'Read the glossary of this book once, all of it, out loud.',
-        'Do the Progress Test again and give yourself no help at all.',
-        'Type one of your own email answers from memory and time it.',
-        'Read the first academic passage of Volume 1 Unit 1 and count what you do not '
-        'know. Expect about twenty, and expect most of them to be words from the '
-        'subject — ports, valleys, historians — rather than words of grammar.'])
+    if f2:
+        d.bullets([
+            'Read the glossary of this book once, all of it, out loud.',
+            'Do Progress Test F2 again and give yourself no help at all.',
+            'Type one of your own email answers from memory and time it.',
+            'Read the first academic passage of Volume 1 Unit 1 and count what you do '
+            'not know. This volume was built from a count of exactly that, unit by '
+            'unit, so expect very few — one or two in most passages, and eight in '
+            'the hardest one in the book. If you are counting fifteen, do the '
+            'glossary of this book once more before you start.'])
+    else:
+        d.bullets([
+            'Read the glossary of this book once, all of it, out loud.',
+            'Do the Progress Test again and give yourself no help at all.',
+            'Type one of your own email answers from memory and time it.',
+            'Read the first academic passage of Volume 1 Unit 1 and count what you do not '
+            'know. Expect about twenty, and expect most of them to be words from the '
+            'subject — ports, valleys, historians — rather than words of grammar.'])
     d.page_break_section()
 
 
