@@ -1047,3 +1047,620 @@ UNIT = dict(
         'needs thought, go back to Units 21, 26 and 29 before Unit 32. Everything from now '
         'on uses all three at once.',
 )
+
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 31 opens Volume 4 with its two academic cycles. Cycle 4 derives
+# the herd immunity threshold from a single condition - whether the
+# average number of further infections per case stands above or below
+# one - and shows why an epidemic ends with a large susceptible
+# population remaining. Cycle 5 attacks the homogeneity assumption
+# inside that calculation: a city average above the threshold can
+# conceal a clustered subgroup far below it, which is the shape of
+# almost every measles outbreak of the last twenty years, so the
+# quantity worth publishing is the lowest coverage in any group that
+# mixes mainly with itself.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('epidemic', 'a disease spreading quickly through a population'),
+ ('transmission', 'the passing of an infection from one person to another'),
+ ('vaccination', 'the giving of a vaccine to produce immunity'),
+ ('inoculation', 'the older word for the same procedure'),
+ ('contagious', 'passed on by contact between people'),
+ ('prevalence', 'the share of a population that has something'),
+ ('homogeneous', 'the same throughout, with no internal differences'),
+ ('clustered', 'grouped together rather than spread evenly'),
+ ('subgroup', 'a smaller group inside a larger one'),
+ ('saturation', 'the point at which no more can be taken up'),
+ ('decline', 'a steady fall in a number'),
+ ('assumption', 'something a model takes to be true without testing it')]
+UNIT['r4'] = {'sub': 'Why outbreaks end',
+ 'title': 'The Epidemic That Stops Without Reaching Everybody',
+ 'words': 313,
+ 'skill': ('Reading a quantitative claim stated in words',
+           ['The central number is a ratio, and the whole argument turns on whether it is '
+            'above or below one.',
+            'Follow what happens to that ratio as the share of immune people rises. The '
+            'mechanism is in that sentence.',
+            'A question about the threshold wants the condition, not the percentage.']),
+ 'paras': ['An epidemic does not continue until every person has been infected, and the '
+           'reason is arithmetical rather than biological. What governs the course of an '
+           'outbreak is the average number of further infections each infected person '
+           'produces, and an epidemic grows only while that number stands above one. Every '
+           'person who becomes immune, whether by infection or by vaccination, removes one '
+           'of the opportunities for transmission that the next infected person would '
+           'otherwise have had. The number therefore falls as the epidemic proceeds. When it '
+           'crosses one the outbreak begins to shrink of its own accord, and the proportion '
+           'of the population still susceptible at that moment can be very large.',
+           'The threshold at which this happens follows from a single quantity, the number '
+           'of infections a case would produce in a population with no immunity at all. '
+           'Where that quantity is three, each case must lose two thirds of its '
+           'opportunities before the epidemic turns, so immunity in two thirds of the '
+           'population is therefore sufficient, and a third of the population need never be '
+           'infected. Where it is twelve, as in measles, the requirement rises to about '
+           'ninety-two per cent, which is why a disease this contagious is the one that '
+           'returns first when vaccination rates slip. The arithmetic also explains a '
+           'pattern that puzzles people: a decline in cases is not evidence that the last '
+           'infections have been prevented, only that the ratio has crossed its threshold.',
+           'Two practical consequences follow. The first is that an immunisation programme '
+           'does not have to reach everybody to protect everybody, which is the whole '
+           'justification for a public campaign rather than a private decision. The second '
+           'is less comfortable, and it is the subject of the next passage: the threshold is '
+           'calculated for a population treated as a single homogeneous pool, and the figure '
+           'quoted in public is the figure for that pool.'],
+ 'guided': [('What governs the course of an outbreak, by this account?',
+             ('The total number infected',
+              'The average number of further infections each case produces',
+              'The prevalence of immunity at the start',
+              'The length of the illness'),
+             1,
+             'An epidemic grows only while that average stands above one.'),
+            ('What does each immune person remove?',
+             ('A case of the disease',
+              'An opportunity for transmission',
+              'A percentage point of prevalence',
+              'A vaccination'),
+             1,
+             'Each one removes an opportunity the next infected person would otherwise have '
+             'had.'),
+            ('What happens when the ratio crosses one?',
+             ('Everybody has been infected',
+              'The outbreak begins to shrink of its own accord',
+              'Vaccination becomes unnecessary',
+              'The disease becomes contagious'),
+             1,
+             'The outbreak shrinks from that point, with many people still susceptible.')],
+ 'exam': [('If a case would produce three infections in a population with no immunity, what '
+           'share must be immune?',
+           ('A third', 'Two thirds', 'Ninety-two per cent', 'All of it'),
+           1,
+           'Each case must lose two thirds of its opportunities, so immunity in two thirds '
+           'is sufficient.'),
+          ('Why is measles the disease that returns first?',
+           ('It is the most dangerous',
+            'Its threshold is about ninety-two per cent, so a small slip matters',
+            'Vaccination against it is newest',
+            'It has no vaccine'),
+           1,
+           'A requirement that high leaves almost no margin when vaccination rates slip.'),
+          ('What does a decline in cases NOT show, according to the passage?',
+           ('That the ratio has crossed its threshold',
+            'That the last infections have been prevented',
+            'That the epidemic is shrinking',
+            'That immunity has risen'),
+           1,
+           'The decline shows the threshold has been crossed, not that the remaining '
+           'infections were prevented.'),
+          ('What is the justification for a public campaign rather than a private decision?',
+           ('Vaccination is cheaper in bulk',
+            'A programme need not reach everybody to protect everybody',
+            'Private decisions are unlawful',
+            'Prevalence cannot be measured privately'),
+           1,
+           'The protection produced by the threshold is not something an individual can buy '
+           'for themselves.'),
+          ('The word accord in paragraph 1 is closest in meaning to',
+           ('agreement', 'its own motion', 'arrangement', 'measurement'),
+           1,
+           'Of its own accord means without anything further being done to it.')]}
+UNIT['r5'] = {'sub': 'Why outbreaks end',
+ 'title': 'One Number for a Population That Is Not One Population',
+ 'words': 315,
+ 'skill': ('Reading an objection to an assumption inside a model',
+           ['The writer accepts the arithmetic and attacks one assumption it rests on. Find '
+            'the assumption in the first two sentences.',
+            'A worked example follows. Note what the two subgroups have in common and what '
+            'they do not.',
+            'A question about the recommendation wants what should be published, not what '
+            'should be believed.']),
+ 'paras': ['The threshold calculation is sound and one of its assumptions is false '
+           'everywhere. It treats the population as homogeneous, meaning that any infected '
+           'person is as likely to meet any other person, and human populations are nothing '
+           'of the kind. The assumption of homogeneous mixing is not a small simplification, '
+           'since the derivation of the threshold depends on it entirely. Contact is '
+           'clustered by household, by school, by occupation and by conviction, and '
+           'clustering does not merely add noise to the result: it changes what the result '
+           'means.',
+           'Take a city of a million people in which vaccination has reached seventy per '
+           'cent, comfortably above a threshold of two thirds. Suppose that coverage is not '
+           'spread evenly but divides into two subgroups: a large one at eighty per cent and '
+           'a small one of fifty thousand at twenty per cent, which is roughly what happens '
+           'wherever a community has convictions of its own about vaccination. The city '
+           'average is above the threshold and the small subgroup is far below it, and since '
+           'its members meet each other far more often than they meet anybody else, the '
+           'arithmetic inside that subgroup is the arithmetic of an unprotected population. '
+           'Transmission there can run its full course while the published figure for the '
+           'city stays reassuring, and this is not a hypothetical pattern. It is the pattern '
+           'of almost every measles outbreak of the last twenty years.',
+           'The recommendation is about publication rather than about belief. A single '
+           'coverage figure for a large area is close to useless for the purpose it is '
+           'normally put to, because the quantity that matters is the lowest figure in any '
+           'group that mixes mainly with itself. Agencies that publish the average and not '
+           'the distribution are not misreporting anything, and they are reporting the '
+           'number least likely to predict the next outbreak, because concentration and not '
+           'prevalence is what starts one.'],
+ 'guided': [('Which assumption does the writer attack?',
+             ('That immunity lasts',
+              'That the population is homogeneous',
+              'That vaccination works',
+              'That the threshold can be calculated'),
+             1,
+             'It treats the population as homogeneous, and human populations are nothing of '
+             'the kind.'),
+            ('What does clustering do to the result?',
+             ('Adds noise to it',
+              'Changes what it means',
+              'Makes it slightly too high',
+              'Has no effect'),
+             1,
+             'The writer is explicit that it does not merely add noise.'),
+            ('In the example, what is the city average?',
+             ('Fifty per cent', 'Seventy per cent', 'Eighty per cent', 'Twenty per cent'),
+             1,
+             'Vaccination has reached seventy per cent across the city.')],
+ 'exam': [('Why does the small subgroup behave like an unprotected population?',
+           ('Its coverage is zero',
+            'Its members meet each other far more often than they meet anybody else',
+            'It is too small to measure',
+            'It has no access to vaccination'),
+           1,
+           'Because contact is concentrated inside it, the arithmetic that applies is its '
+           'own.'),
+          ('What does the passage say about this pattern?',
+           ('It is hypothetical',
+            'It is the pattern of almost every measles outbreak of the last twenty years',
+            'It has never been observed',
+            'It applies only to cities'),
+           1,
+           'The writer explicitly denies that the case is hypothetical.'),
+          ('Which quantity does the passage say actually matters?',
+           ('The city average',
+            'The lowest figure in any group that mixes mainly with itself',
+            'The national average',
+            'The total number vaccinated'),
+           1,
+           'That is the figure the threshold argument needs, and not the mean.'),
+          ('What does the passage say about agencies that publish the average?',
+           ('They are misreporting',
+            'They are not misreporting, and are reporting the least predictive number',
+            'They should publish nothing',
+            'They are acting unlawfully'),
+           1,
+           'The criticism is careful: the number is accurate and close to useless.'),
+          ('What is the recommendation about?',
+           ('Belief', 'Publication', 'Compulsory vaccination', 'Measuring prevalence'),
+           1,
+           'It is about publication rather than about belief, as the paragraph opens by '
+           'saying.')]}
+UNIT['l4'] = {'sub': 'Why outbreaks end',
+ 'caption': 'A lecture on the threshold and why it is not a percentage to memorise',
+ 'board': ['Ratio above one: epidemic grows',
+           'Ratio below one: epidemic shrinks',
+           'Each immune person removes a chance',
+           'Threshold follows from the starting number'],
+ 'skill': ('A lecture that replaces a remembered figure with a condition',
+           ['The lecturer is impatient with the memorised percentage and wants the condition '
+            'behind it, so note the condition.',
+            'He works two numbers through the same arithmetic. Keep the pair straight.',
+            'A question about the examination wants what he says he will not accept.']),
+ 'warm': [('Woman: When does an epidemic shrink?',
+           ('When the ratio falls below one.',
+            'When everybody is immune.',
+            'Yes, it shrinks.',
+            'Two thirds.'),
+           0,
+           'That is the condition the whole lecture is built on.'),
+          ('Woman: Where does the threshold come from?',
+           ('From the number of infections a case makes with no immunity.',
+            'From the size of the population.',
+            'Yes, it comes from somewhere.',
+            'From the vaccination rate.'),
+           0,
+           'The threshold is derived from that starting quantity, not learnt separately.'),
+          ('Woman: What will he not accept in the examination?',
+           ('A percentage with no reasoning.',
+            'A diagram.',
+            'Yes, he accepts it.',
+            'About ninety-two per cent.'),
+           0,
+           'He wants the condition and the derivation, not a remembered figure.')],
+ 'script': [('Man',
+             'Many of you arrived knowing that herd immunity is about ninety-five per cent, '
+             'and I would like you to forget that, because it is a number without an '
+             'argument attached and it is wrong for most diseases. Here is what to hold '
+             'instead. Take the average number of further infections one infected person '
+             'produces. While that average is above one the epidemic grows, and the moment '
+             'it falls below one the epidemic shrinks. That is the whole mechanism, and '
+             'everything else is arithmetic. Write that down, because it is the only thing '
+             'in this lecture you cannot derive. Now, why does the average fall? Because '
+             'every immune person in the population is one fewer opportunity for '
+             'transmission, so the average drops as immunity accumulates, whether that '
+             'immunity came from infection or from vaccination. Which gives you the '
+             'threshold immediately. If a case would produce three infections in a '
+             'population with no immunity, it has to lose two thirds of them, so two thirds '
+             'immunity is enough and a third of the population is never infected at all. If '
+             'it would produce twelve, as measles does, you need about ninety-two per cent, '
+             'and that is where your remembered figure comes from: it is the measles figure, '
+             'wearing a disguise. In the examination I will not accept a percentage on its '
+             'own. I want the starting number and the arithmetic that takes you from it to '
+             'the threshold, because a student who has the reasoning can do any disease and '
+             'a student who has the number can do one.')],
+ 'items': [('What does the lecturer ask the class to forget?',
+            ('The mechanism of transmission',
+             'That herd immunity is about ninety-five per cent',
+             'The measles figure',
+             'The definition of an epidemic'),
+            1,
+            'He calls it a number without an argument attached, and wrong for most '
+            'diseases.'),
+           ('What does he say is the whole mechanism?',
+            ('Vaccination coverage',
+             'Whether the average number of further infections is above or below one',
+             'The size of the population',
+             'The length of the illness'),
+            1,
+            'Above one it grows, below one it shrinks, and everything else is arithmetic.'),
+           ('Why does the average fall as an epidemic proceeds?',
+            ('People become more careful',
+             'Each immune person is one fewer opportunity for transmission',
+             'The disease weakens',
+             'Vaccination becomes compulsory'),
+            1,
+            'Immunity removes opportunities, whether it came from infection or vaccination.'),
+           ('Where does he say the remembered figure comes from?',
+            ('An old textbook',
+             'It is the measles figure in disguise',
+             'A public campaign',
+             'An average of all diseases'),
+            1,
+            'Measles needs about ninety-two per cent, and that is the source of the '
+            'ninety-five.'),
+           ('Why does he want the reasoning rather than the number?',
+            ('Numbers are easy to forget',
+             'A student with the reasoning can do any disease',
+             'The number is secret',
+             'Percentages are not examinable'),
+            1,
+            'That is the contrast he ends on: any disease against one.')]}
+UNIT['l5'] = {'sub': 'Why outbreaks end',
+ 'caption': 'A short talk on an average that hides the number that matters',
+ 'board': ['City: 70% — above threshold',
+           'Large group: 80%',
+           'Small group: 20%',
+           'Publish the lowest, not the mean'],
+ 'skill': ('A talk that criticises a statistic without disputing it',
+           ['The speaker agrees the published figure is accurate. Note what she says is '
+            'wrong with it anyway.',
+            'The two subgroups carry the argument. Hold their sizes and their coverage.',
+            'A question about her conclusion wants what she would publish.']),
+ 'warm': [('Man: Is the city figure wrong?',
+           ('No, it is accurate and useless.',
+            'Yes, it is miscounted.',
+            'Yes, it is wrong.',
+            'Seventy per cent.'),
+           0,
+           'Her whole point is that accuracy is not the problem.'),
+          ('Man: Which number would she publish?',
+           ('The lowest in any group that mixes with itself.',
+            'The national average.',
+            'Yes, she would publish one.',
+            'Eighty per cent.'),
+           0,
+           'That is the quantity the threshold argument actually needs.'),
+          ('Man: Why does the small group matter so much?',
+           ('Because its members mostly meet each other.',
+            'Because it is growing.',
+            'Yes, it matters.',
+            'Fifty thousand.'),
+           0,
+           'Concentrated contact means the subgroup has its own arithmetic.')],
+ 'script': [('Woman',
+             'I want to show you how a true number can be the least useful number available. '
+             'A city of a million, vaccination coverage seventy per cent, threshold two '
+             'thirds. On paper the city is safe. And I mean that literally: on paper, in a '
+             'table, in a press release, and nowhere else. Now break the seventy apart, '
+             'because nobody is vaccinated on average. Suppose nine hundred and fifty '
+             'thousand people sit at eighty per cent and fifty thousand sit at twenty, which '
+             'is what you find wherever a community has its own reasons for refusing, and '
+             'those reasons are shared, which is exactly why the low coverage is '
+             'concentrated rather than scattered. The city average is unchanged and the '
+             'fifty thousand are an unprotected population, because they go to the same '
+             'schools and the same meetings and they mostly meet each other. An epidemic can '
+             'run its entire course inside that subgroup while the city figure stays '
+             'reassuring, and if you look at the measles outbreaks of the last twenty years, '
+             'almost every one of them has this shape. So here is my complaint, and notice '
+             'that it is not that anybody is lying. The average is correctly calculated and '
+             'correctly published, and the quantity that predicts an outbreak is the lowest '
+             'coverage in any group that mixes mainly with itself. Publish that instead, or '
+             'publish both, and accept that the map will look worse than the headline did. '
+             'That is a trade I would make every time.')],
+ 'items': [('What does the speaker want to show?',
+            ('That the figure is miscalculated',
+             'That a true number can be the least useful number available',
+             'That vaccination does not work',
+             'That cities are unsafe'),
+            1,
+            'She opens with exactly that claim and spends the talk on it.'),
+           ('Why is the low coverage concentrated rather than scattered?',
+            ('Because of where clinics are',
+             'Because the reasons for refusing are shared',
+             'Because of income',
+             'She does not say'),
+            1,
+            'Shared reasons produce a cluster, which is the step her argument needs.'),
+           ('What does she say about the measles outbreaks of the last twenty years?',
+            ('They had no pattern',
+             'Almost every one has this shape',
+             'They occurred in unvaccinated countries',
+             'They were too small to study'),
+            1,
+            'She uses them as evidence that the pattern is not hypothetical.'),
+           ('What is her complaint NOT?',
+            ('That the average predicts badly',
+             'That anybody is lying',
+             'That the distribution is unpublished',
+             'That the headline is reassuring'),
+            1,
+            'She says explicitly that the average is correctly calculated and correctly '
+            'published.'),
+           ('What does she accept about her own recommendation?',
+            ('It is expensive',
+             'The map will look worse than the headline did',
+             'It cannot be calculated',
+             'It will be unpopular with clinicians'),
+            1,
+            'That is the cost she names at the end.')]}
+UNIT['w4'] = {'sub': 'Why outbreaks end',
+ 'skill': ('Cause and mechanism: because, so that, which is why',
+           ['A mechanism sentence says what the cause does, not only that it causes: each '
+            'immune person removes an opportunity, so the average falls.',
+            'Which is why attaches a consequence to a whole clause, and takes a comma before '
+            'it.',
+            'Keep the chain in order. Cause, what it does, result.']),
+ 'guided': [('You want to give the mechanism behind the fall.',
+             ['each immune',
+              'person',
+              'removes',
+              'an opportunity',
+              'so',
+              'the',
+              'average',
+              'number',
+              'of',
+              'infections',
+              'falls'],
+             'Each immune person removes an opportunity, so the average number of infections '
+             'falls.'),
+            ('You want to attach a consequence to the whole claim.',
+             ['measles',
+              'needs',
+              'ninety-two',
+              'per cent',
+              'which is why',
+              'it',
+              'returns',
+              'first',
+              'when',
+              'coverage',
+              'slips'],
+             'Measles needs ninety-two per cent, which is why it returns first when coverage '
+             'slips.'),
+            ('You want to state a cause with because.',
+             ['the subgroup',
+              'behaves',
+              'as',
+              'an unprotected',
+              'population',
+              'because',
+              'its members',
+              'mostly',
+              'meet',
+              'each other'],
+             'The subgroup behaves as an unprotected population because its members mostly '
+             'meet each other.')],
+ 'exam': [('You want to give a mechanism and a result.',
+           ['immunity',
+            'removes',
+            'opportunities',
+            'for',
+            'transmission',
+            'so',
+            'the epidemic',
+            'shrinks',
+            'before',
+            'everybody',
+            'is infected'],
+           'Immunity removes opportunities for transmission, so the epidemic shrinks before '
+           'everybody is infected.'),
+          ('You want to attach a consequence to a whole clause.',
+           ['contact',
+            'is',
+            'clustered',
+            'which is why',
+            'an average',
+            'predicts',
+            'an outbreak',
+            'so',
+            'badly',
+            'in',
+            'practice'],
+           'Contact is clustered, which is why an average predicts an outbreak so badly in '
+           'practice.'),
+          ('You want a purpose rather than a cause.',
+           ['coverage',
+            'is',
+            'published',
+            'so that',
+            'agencies',
+            'can',
+            'compare',
+            'one',
+            'city',
+            'with',
+            'another'],
+           'Coverage is published so that agencies can compare one city with another.'),
+          ('You want to state the cause of the decline.',
+           ['cases',
+            'declined',
+            'because',
+            'the ratio',
+            'had',
+            'crossed',
+            'its threshold',
+            'and not',
+            'because',
+            'infections',
+            'stopped'],
+           'Cases declined because the ratio had crossed its threshold, and not because '
+           'infections stopped.'),
+          ('You want to give a mechanism for the saturation.',
+           ['the ratio',
+            'keeps',
+            'falling',
+            'so',
+            'the outbreak',
+            'ends',
+            'while',
+            'many',
+            'people',
+            'remain',
+            'susceptible'],
+           'The ratio keeps falling, so the outbreak ends while many people remain '
+           'susceptible.')]}
+UNIT['w5'] = {'sub': 'Why outbreaks end',
+ 'prof': 'Dr Iwasaki',
+ 'question': 'A health agency publishes one vaccination coverage figure for each city. A '
+             'researcher argues it should publish coverage by small district instead, which '
+             'would show some districts far below the threshold. The agency replies that '
+             'district figures are noisy and would alarm people. Who is right?',
+ 'posts': [('Priya',
+            'w',
+            'The researcher. A number that cannot predict the thing it is collected to '
+            'predict is not worth publishing, and alarming people about a real risk is '
+            'called informing them.'),
+           ('Tomas',
+            'm',
+            'The agency has a point that nobody here is taking seriously. District figures '
+            'with small populations move by ten points on a handful of births, and a map '
+            'that lights up at random will be used to attack the programme by people who '
+            'want it stopped.')],
+ 'skill': ('A question where both sides are partly right',
+           ['Priya argues from what the statistic is for; Tomas from what a noisy statistic '
+            'does once it is public.',
+            'The second passage gives you the reason the average fails, and it does not say '
+            'the remedy is costless.',
+            'A strong answer separates the unit of publication from the question of noise, '
+            'because those are two different problems.']),
+ 'starters': ['Tomas is right that…, although that is an argument for… and not for…',
+              'The distinction worth drawing is between… and…',
+              'What the second passage actually requires is…',
+              'So the agency should…, which meets…'],
+ 'model': ['Tomas is right about the noise and wrong that it settles anything, because '
+           'small-area variation is an argument for a better estimate and not for a worse '
+           'question. A district figure based on four hundred children is unstable, which is '
+           'a reason to pool three years of births or to publish a range, and none of that '
+           'returns us to the city average, which is the only option his objection actually '
+           'defends.',
+           'Priya has the stronger case and states it too simply. The second passage does '
+           'not say that the average is wrong; it says the quantity that predicts an '
+           'outbreak is the lowest coverage in any group that mixes mainly with itself, and '
+           'a district is only a rough proxy for such a group, since a school or a '
+           'congregation can draw from four districts at once.',
+           'So the agency should publish by district with the uncertainty attached, keep the '
+           'city figure beside it, and say in one line what each is for. What it gives up is '
+           'the simplicity of one headline number, and that cost is real, because a map with '
+           'error bars will be misread by somebody. A map with error bars is still a map, '
+           'and the alternative is a headline with no map at all. It is smaller than the '
+           'cost of publishing, year after year, the one number least likely to tell anybody '
+           'where the next epidemic will start.'],
+ 'model_words': 236}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Why outbreaks end',
+  'focus': 'giving a mechanism rather than a correlation',
+  'skill': ('Each immune person removes an opportunity, so the average falls',
+            ['Say what the cause does before you say what follows. The middle step is the '
+             'mechanism.',
+             'Keep the stress on the verb in the middle clause, because that is the step a '
+             'listener needs.',
+             'A short pause before so marks the result as separate.']),
+  'repeat': ['The average number of infections falls.',
+             'Each immune person removes an opportunity.',
+             'Immunity removes opportunities, so the epidemic shrinks.',
+             'The ratio crossed one, so cases began to fall.',
+             'A third of the population is never infected at all.',
+             'Measles needs ninety-two per cent, which is why it returns first.',
+             'Contact is clustered by household and by school, which is why an average '
+             'predicts an outbreak so badly.'],
+  'theme': 'explaining why something stopped',
+  'qs': ['Tell me about something that stopped before you expected it to. Why did it stop?',
+         'Some people say that if a problem is getting smaller it has been solved. How far '
+         'would you agree?',
+         'How would you explain to a friend why not everybody has to be vaccinated?',
+         'Finally, describe a number you have seen quoted that you think is misleading.'],
+  'model': [(2,
+             'I would want to separate two things there. Getting smaller can mean the cause '
+             'has gone, or it can mean one condition has tipped and the cause is untouched, '
+             'and only the first of those is a solution.'),
+            (3,
+             'I would say that every immune person is one fewer route the infection can '
+             'take, so once enough routes are closed the thing cannot keep going, even '
+             'though plenty of people could still catch it.')],
+  'selfcheck': ['I gave the middle step and not only the result',
+                'I paused before so',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Why outbreaks end',
+  'focus': 'criticising a number without saying it is wrong',
+  'skill': ('The figure is accurate, and it is the wrong figure',
+            ['Concede the accuracy in full and at normal speed. Hurrying it sounds like '
+             'sarcasm.',
+             'Then name the quantity you would want instead. The criticism is a replacement, '
+             'not a denial.',
+             'Avoid rising intonation on the concession: it turns the agreement into a '
+             'question.']),
+  'repeat': ['The average is correctly calculated.',
+             'Nobody is lying about it.',
+             'Publish the distribution, or publish both.',
+             'It is accurate and it is close to useless.',
+             'A true number can be the least useful number available.',
+             'The quantity that matters is the lowest figure in any group.',
+             'The map will look worse than the headline did, and that is the price of '
+             'knowing where the next outbreak starts.'],
+  'theme': 'a statistic that is true and unhelpful',
+  'qs': ['Tell me about a statistic you were given that was true and did not help. What was '
+         'missing?',
+         'Some people think an average always tells you what you need to know. What do you '
+         'think?',
+         'Should an organisation publish a figure that might alarm people?',
+         'Finally, describe a time when knowing more made a decision harder.'],
+  'model': [(2,
+             'Almost never, in my experience, and the reason is that an average answers a '
+             'question about the whole and most decisions are about a part. If the parts '
+             'differ a lot, the mean describes nobody in the group.'),
+            (3,
+             'I think it should, with the uncertainty attached and a line saying what the '
+             'figure is for. Withholding it to prevent alarm assumes people cannot be told '
+             'things, and that assumption does more damage over time.')],
+  'selfcheck': ['I conceded the accuracy at full length',
+                'I named the number I would want instead',
+                'I kept the concession on a falling tone']}]

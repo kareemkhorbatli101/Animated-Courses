@@ -1043,3 +1043,602 @@ UNIT = dict(
         'one place. If you can produce all three without hesitating, your writing has '
         'crossed a visible line.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 32 gains its two academic cycles. Cycle 4 sets out the distance
+# ladder as a chain in which geometry calibrates the cepheid scale and
+# the cepheid scale calibrates the supernova scale, so that no
+# cosmological distance is ever measured directly and the age of the
+# universe is the output of a chain rather than a reading. Cycle 5 asks
+# what a chain does to a number: random error shrinks with data and
+# systematic error propagates upward unchanged, the rungs are not
+# independent, and the test worth carrying away is to ask which
+# assumptions two disagreeing methods have in common.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('depend', 'to rest on something else for its value or truth'),
+ ('independent', 'not resting on the same assumptions as another method'),
+ ('differing', 'not in agreement with each other'),
+ ('tempting', 'attractive although probably mistaken'),
+ ('composition', 'what something is made of'),
+ ('critics', 'those who argue against a position'),
+ ('cepheid', 'a star whose brightness rises and falls on a fixed cycle'),
+ ('supernova', 'the explosion of a dying star, briefly very bright'),
+ ('luminous', 'giving out a great deal of light'),
+ ('discrepancy', 'a difference between two results that should agree'),
+ ('propagate', 'to pass onward through a chain'),
+ ('correlated', 'moving together, so not fully separate')]
+UNIT['r4'] = {'sub': 'Measuring what cannot be reached',
+ 'title': 'The Ladder Nobody Can Climb Twice',
+ 'words': 334,
+ 'skill': ('Reading a method built in stages',
+           ['The passage describes a chain in which each stage is set by the one below it. '
+            'Keep the order of the stages.',
+            'Note what each stage can and cannot reach, because that is why the next one is '
+            'needed.',
+            'A question about calibration wants what sets the scale, not what is measured.']),
+ 'paras': ['No cosmological distance has ever been measured directly, and the figures quoted '
+           'for the dimensions and age of the universe come instead from a chain of methods '
+           'in which each one is set by the method below it. The first stage is geometry, '
+           'and its calibration depends on nothing but trigonometry. A nearby star shifts '
+           'against the background as the earth moves from one side of its orbit to the '
+           'other, and that shift gives the distance outright. The method is exact and it '
+           'runs out quickly, because the shift becomes unmeasurable at distances that are '
+           'tiny on a cosmological scale, so geometry alone reaches a few thousand stars and '
+           'no galaxy at all.',
+           'The second stage borrows its calibration from the first. Among the stars whose '
+           'distances geometry has already given are cepheid variables, whose brightness '
+           'rises and falls on a cycle, and the length of that cycle predicts the star’s '
+           'true luminosity. A comparison of the true brightness with the brightness '
+           'arriving here gives the distance, so cepheids carry the scale out to nearby '
+           'galaxies. In those galaxies a third stage begins. Some of them have been seen to '
+           'produce a particular kind of supernova, visible across most of the observable '
+           'universe and of sufficient uniformity in brightness to be used the same way. '
+           'Each rung takes its calibration from the rung beneath it, and the whole ladder '
+           'is anchored on the calibration of the geometry at the bottom.',
+           'The age of the universe follows from the top of this ladder together with the '
+           'rate of recession observed in distant galaxies, and that is why the figure has a '
+           'history of revision rather than a date of discovery, and every revision has been '
+           'a revision of the calibration rather than of the observations. It is tempting to '
+           'treat the result as a measurement of the kind a ruler gives. It is the output of '
+           'a chain, and a chain has properties of its own, which is the subject of the next '
+           'passage.'],
+ 'guided': [('What is the only stage that depends on nothing but trigonometry?',
+             ('The cepheid stage', 'Geometry', 'The supernova stage', 'The recession rate'),
+             1,
+             'Geometry is named as the stage that rests on nothing but trigonometry.'),
+            ('Why does geometry run out?',
+             ('The stars are too faint',
+              'The apparent shift becomes too small to measure',
+              'The earth moves too slowly',
+              'Cepheids interfere with it'),
+             1,
+             'At cosmological distances the shift cannot be measured, so the method stops.'),
+            ('What does the length of a cepheid’s cycle predict?',
+             ('Its composition',
+              'How luminous the star really is',
+              'Its distance directly',
+              'Its age'),
+             1,
+             'The cycle length gives the true brightness, and that gives the distance.')],
+ 'exam': [('How do cepheids give a distance?',
+           ('By their colour',
+            'By comparing the true brightness with the brightness that reaches us',
+            'By trigonometry',
+            'By their recession rate'),
+           1,
+           'True brightness against observed brightness is the step the passage describes.'),
+          ('Why is that particular kind of supernova useful?',
+           ('It is common',
+            'It is bright enough to be seen far away and uniform enough in true brightness',
+            'It occurs only in nearby galaxies',
+            'Its cycle can be timed'),
+           1,
+           'Both properties are needed, and the passage gives both.'),
+          ('What is the whole ladder anchored on?',
+           ('The recession rate',
+            'The geometry at the bottom',
+            'Supernovae',
+            'The age of the universe'),
+           1,
+           'Each rung is calibrated by the one beneath it, and geometry is at the bottom.'),
+          ('Why does the age of the universe have a history of revision?',
+           ('The universe is changing',
+            'It follows from the top of the ladder and the recession rate',
+            'Astronomers disagree about geometry',
+            'Supernovae were discovered late'),
+           1,
+           'A figure that depends on a whole chain moves whenever any part of the chain '
+           'moves.'),
+          ('The word anchored in paragraph 2 is closest in meaning to',
+           ('hidden', 'held in place', 'measured', 'calculated'),
+           1,
+           'The ladder is held in place by the geometry at its base.')]}
+UNIT['r5'] = {'sub': 'Measuring what cannot be reached',
+ 'title': 'What a Chain Does to a Number',
+ 'words': 338,
+ 'skill': ('Reading about error rather than about findings',
+           ['The passage is about the behaviour of a chain, so note what it says happens to '
+            'an error at one rung.',
+            'Two kinds of error are distinguished and they behave differently. Keep them '
+            'apart.',
+            'A question about the disagreement wants why it is interesting, not who is '
+            'right.']),
+ 'paras': ['A quantity obtained from a chain carries the uncertainty of every connection, '
+           'and the two kinds of error do not behave alike. Random error shrinks as '
+           'observations accumulate, which is why the measurement of a thousand cepheids is '
+           'better than the measurement of ten. Systematic error does nothing of the kind: '
+           'if the geometry at the bottom of the ladder is out by two per cent, every '
+           'distance above it is out by two per cent, and no accumulation of further '
+           'observations at the upper rungs will reveal it. Such an error does not average '
+           'away: it propagates upward unchanged, and the published uncertainty on a '
+           'cosmological figure is largely an estimation of how large the systematic errors '
+           'might be, which is a judgement rather than a measurement.',
+           'The rungs are also less independent than the ladder image suggests. The '
+           'supernova rung is calibrated on galaxies whose distances come from cepheids, and '
+           'the cepheid rung is calibrated on stars whose distances come from geometry, so a '
+           'correction anywhere low in the chain moves everything above it together. Two '
+           'results built on overlapping calibrations cannot be treated as two independent '
+           'confirmations of the same answer, and the history of the subject is partly a '
+           'history of that confusion. Critics of the standard figure have pressed this '
+           'objection for thirty years, and in one respect the subject agrees with them: the '
+           'current disagreement about the expansion rate is taken seriously precisely '
+           'because the two differing results come from methods that share almost nothing.',
+           'That last point is the one worth carrying away, and it is not a sceptical one. A '
+           'discrepancy between methods that share a calibration is a sign that something in '
+           'the shared part is wrong, and is ordinary news. A discrepancy between methods '
+           'that share nothing is interesting in a way the first cannot be, because there is '
+           'no common assumption left to blame. The temptation is to read every disagreement '
+           'as a scandal. The useful question is always which assumptions the two sides have '
+           'in common.'],
+ 'guided': [('What happens to random error as observations accumulate?',
+             ('It propagates upward',
+              'It shrinks',
+              'It stays the same',
+              'It becomes systematic'),
+             1,
+             'That is why a thousand cepheids are better than ten.'),
+            ('What happens to a two per cent error in the geometry?',
+             ('It averages away',
+              'Every distance above it is out by two per cent',
+              'It is revealed by further observation',
+              'It affects only nearby stars'),
+             1,
+             'A systematic error propagates upward unchanged.'),
+            ('What is the published uncertainty largely an estimate of?',
+             ('The number of observations',
+              'How large the systematic errors might be',
+              'The recession rate',
+              'The age of the universe'),
+             1,
+             'The passage calls it a judgement rather than a measurement.')],
+ 'exam': [('Why are the rungs less independent than the image suggests?',
+           ('They were discovered together',
+            'Each is calibrated on distances from the rung below',
+            'They use the same telescopes',
+            'They measure the same galaxies'),
+           1,
+           'A correction low in the chain moves everything above it together.'),
+          ('What cannot be treated as two independent confirmations?',
+           ('Two measurements of the same star',
+            'Two results built on overlapping calibrations',
+            'Geometry and trigonometry',
+            'Two supernovae in one galaxy'),
+           1,
+           'Shared calibration means the two are not separate tests.'),
+          ('Why is the current disagreement about the expansion rate taken seriously?',
+           ('It is very large',
+            'The two differing results come from methods that share almost nothing',
+            'Critics have pressed it for thirty years',
+            'It affects the age of the universe'),
+           1,
+           'Independence is what makes the disagreement hard to explain away.'),
+          ('What does a discrepancy between methods that share a calibration suggest?',
+           ('That one side is dishonest',
+            'That something in the shared part is wrong',
+            'That the universe is older than thought',
+            'That both results are correct'),
+           1,
+           'The passage calls that ordinary news for exactly this reason.'),
+          ('What does the writer say is the useful question?',
+           ('Which result is larger',
+            'Which assumptions the two sides have in common',
+            'Who published first',
+            'How many observations were made'),
+           1,
+           'That is the question the final sentence settles on.')]}
+UNIT['l4'] = {'sub': 'Measuring what cannot be reached',
+ 'caption': 'A lecture on the distance ladder, one rung at a time',
+ 'board': ['Geometry: exact, very short reach',
+           'Cepheids: cycle gives true brightness',
+           'Supernovae: reach most of the universe',
+           'Each rung set by the one below'],
+ 'skill': ('A lecture built as a sequence',
+           ['Three stages in order. The reason for each is that the previous one has run '
+            'out.',
+            'Note what the lecturer says is the price of the arrangement.',
+            'A question about the diagram wants what he says it gets wrong.']),
+ 'warm': [('Woman: What sets the cepheid scale?',
+           ('The geometry below it.',
+            'The supernova rung.',
+            'Yes, something sets it.',
+            'The cycle length.'),
+           0,
+           'Each rung is calibrated by the rung beneath, and geometry is at the bottom.'),
+          ('Woman: Why is geometry not enough?',
+           ('It reaches almost nothing.',
+            'It is inexact.',
+            'Yes, it is enough.',
+            'A few thousand stars.'),
+           0,
+           'Its reach is tiny on a cosmological scale, which is why the other rungs exist.'),
+          ('Woman: What does he say the diagram gets wrong?',
+           ('It makes the rungs look separate.',
+            'It leaves out supernovae.',
+            'Yes, it is wrong.',
+            'The order of the stages.'),
+           0,
+           'The picture suggests independence the chain does not have.')],
+ 'script': [('Man',
+             'Three rungs, and I want you to be able to draw them and say why each one '
+             'exists. Rung one, geometry. A nearby star shifts against the background as the '
+             'earth goes round the sun, you measure the shift, you get the distance, and '
+             'there is nothing to assume beyond trigonometry. Exact, and almost useless on '
+             'its own, because the shift is unmeasurable past a few thousand stars and no '
+             'galaxy is in reach. So, rung two. Some of the stars geometry has already '
+             'measured are cepheids, and a cepheid brightens and dims on a fixed cycle, and '
+             'the length of the cycle tells you how luminous it truly is. Compare the true '
+             'brightness with what arrives here and you have a distance. That takes you to '
+             'nearby galaxies. Rung three. In some of those galaxies we have watched a '
+             'particular kind of supernova, and those are bright enough to be seen almost '
+             'anywhere and uniform enough to be used the same way. And notice that nothing '
+             'above the first rung is ever checked against the sky directly. It is checked '
+             'against the rung below it. Now the price. Every rung is calibrated on the one '
+             'below, so the diagram in your textbook, with three tidy arrows side by side, '
+             'is the one thing I want you to distrust. Those arrows are not independent. '
+             'Move the bottom of the ladder and every number above it moves with it, which '
+             'is why the age of the universe has a history of revision and not a date of '
+             'discovery.')],
+ 'items': [('What does the lecturer want the class to be able to do?',
+            ('Memorise the three distances',
+             'Draw the three rungs and say why each exists',
+             'Calculate a recession rate',
+             'Name the discoverer of each'),
+            1,
+            'He opens with exactly that requirement.'),
+           ('What does he say about geometry?',
+            ('It is inexact but far-reaching',
+             'It is exact and almost useless on its own',
+             'It depends on cepheids',
+             'It reaches nearby galaxies'),
+            1,
+            'Exact, and almost useless on its own, because its reach is so short.'),
+           ('What tells you how luminous a cepheid truly is?',
+            ('Its colour', 'The length of its cycle', 'Its distance', 'Its composition'),
+            1,
+            'The cycle length predicts the true brightness, which is the whole use of the '
+            'star.'),
+           ('What does he want the class to distrust?',
+            ('The cepheid method',
+             'The textbook diagram with three tidy arrows',
+             'The supernova rung',
+             'The published uncertainty'),
+            1,
+            'He says the arrows are not independent, so the picture misleads.'),
+           ('Why does the age of the universe have a history of revision?',
+            ('New stars are found',
+             'Moving the bottom of the ladder moves every number above it',
+             'Telescopes improve',
+             'Critics disagree'),
+            1,
+            'That is the consequence he draws from the chain.')]}
+UNIT['l5'] = {'sub': 'Measuring what cannot be reached',
+ 'caption': 'A short talk on two kinds of error and one interesting disagreement',
+ 'board': ['Random error: shrinks with data',
+           'Systematic error: propagates unchanged',
+           'Shared calibration: ordinary news',
+           'Nothing shared: interesting'],
+ 'skill': ('A talk that teaches a test rather than a conclusion',
+           ['The speaker gives a question to ask of any disagreement. Note the question.',
+            'She distinguishes two kinds of error by what more data does to them.',
+            'A question about the present disagreement wants what makes it different.']),
+ 'warm': [('Man: What does more data do to systematic error?',
+           ('Nothing at all.', 'It shrinks it.', 'Yes, it helps.', 'Two per cent.'),
+           0,
+           'Systematic error propagates unchanged however much you collect.'),
+          ('Man: What is her test?',
+           ('Ask what the two sides share.',
+            'Ask who published first.',
+            'Yes, she has a test.',
+            'Ask for more data.'),
+           0,
+           'The useful question is always which assumptions are common to both.'),
+          ('Man: Why is the present disagreement interesting?',
+           ('The two methods share almost nothing.',
+            'It is very large.',
+            'Yes, it is interesting.',
+            'Critics raised it.'),
+           0,
+           'With no common assumption left to blame, the disagreement is hard to dismiss.')],
+ 'script': [('Woman',
+             'Two kinds of error, and you tell them apart by asking what more data does. '
+             'Random error shrinks when you collect more, which is why a thousand cepheids '
+             'beat ten. Systematic error does nothing when you collect more. If the geometry '
+             'at the bottom is out by two per cent, every distance above it is out by two '
+             'per cent, and you can observe for another fifty years at the top of the ladder '
+             'without finding out. So when you read a published uncertainty on the age of '
+             'the universe, understand what it mostly is: somebody’s estimate of how wrong '
+             'the shared foundations might be. That is a judgement, honestly made and openly '
+             'argued, and it is not the same kind of thing as a measurement. Let me put that '
+             'another way. The number at the top of the ladder is not wrong. It is exactly '
+             'as right as the bottom of the ladder is. Now here is the part I actually want '
+             'you to keep. When two methods disagree, ask what they have in common. If they '
+             'share a calibration, the disagreement tells you something in the shared part '
+             'is wrong, and that is ordinary science and nobody should be excited. If they '
+             'share almost nothing, you have a problem with no convenient place to put it, '
+             'and that is the situation the field is in now over the expansion rate. Critics '
+             'pressed this distinction for thirty years before anybody wanted it. It is the '
+             'reason the present argument matters and the older ones did not.')],
+ 'items': [('How do you tell the two kinds of error apart?',
+            ('By their size',
+             'By asking what more data does to them',
+             'By who reports them',
+             'By where they occur in the chain'),
+            1,
+            'That is the test she opens with.'),
+           ('What does she say a published uncertainty mostly is?',
+            ('A count of observations',
+             'An estimate of how wrong the shared foundations might be',
+             'A measurement of random error',
+             'A guess with no basis'),
+            1,
+            'She calls it a judgement, honestly made and openly argued.'),
+           ('What should you ask when two methods disagree?',
+            ('Which is newer',
+             'What they have in common',
+             'Which has more data',
+             'Who funded them'),
+            1,
+            'That is the part she says she wants the class to keep.'),
+           ('What does a disagreement between methods sharing a calibration tell you?',
+            ('That both are wrong',
+             'That something in the shared part is wrong',
+             'That the data are insufficient',
+             'That the methods are independent'),
+            1,
+            'She calls that ordinary science and says nobody should be excited.'),
+           ('What does she say about the critics?',
+            ('They were mistaken',
+             'They pressed the distinction for thirty years before anybody wanted it',
+             'They have now withdrawn it',
+             'They were astronomers'),
+            1,
+            'She credits them with the distinction that makes the present argument matter.')]}
+UNIT['w4'] = {'sub': 'Measuring what cannot be reached',
+ 'skill': ('Degree and comparison: far more, no number of, than',
+           ['Far, considerably and nowhere near go before a comparative: far more luminous, '
+            'nowhere near large enough.',
+            'No number of X will Y is a strong negative. The verb stays positive.',
+            'Keep both halves of a comparison present. A than with nothing after it is the '
+            'commonest error at this level.']),
+ 'guided': [('You want to say a measurement is much better with more data.',
+             ['a thousand',
+              'cepheids',
+              'are',
+              'far',
+              'more',
+              'useful',
+              'than',
+              'ten',
+              'for',
+              'random',
+              'error'],
+             'A thousand cepheids are far more useful than ten for random error.'),
+            ('You want to say more data cannot help.',
+             ['no number',
+              'of',
+              'further',
+              'observations',
+              'will',
+              'reveal',
+              'a systematic',
+              'error',
+              'at',
+              'the',
+              'bottom'],
+             'No number of further observations will reveal a systematic error at the '
+             'bottom.'),
+            ('You want a comparison with both halves present.',
+             ['geometry',
+              'is',
+              'more',
+              'exact',
+              'than',
+              'the',
+              'cepheid',
+              'method',
+              'and',
+              'much',
+              'shorter'],
+             'Geometry is more exact than the cepheid method, and much shorter.')],
+ 'exam': [('You want to say the reach falls far short.',
+           ['geometry',
+            'reaches',
+            'nowhere near',
+            'far',
+            'enough',
+            'to',
+            'measure',
+            'even',
+            'the',
+            'nearest',
+            'galaxy'],
+           'Geometry reaches nowhere near far enough to measure even the nearest galaxy.'),
+          ('You want to compare two kinds of error.',
+           ['systematic',
+            'error',
+            'is',
+            'far',
+            'harder',
+            'to',
+            'detect',
+            'than',
+            'random',
+            'error',
+            'is'],
+           'Systematic error is far harder to detect than random error is.'),
+          ('You want a strong negative about averaging.',
+           ['no amount',
+            'of',
+            'additional',
+            'data',
+            'averages',
+            'away',
+            'an',
+            'error',
+            'in',
+            'the',
+            'calibration'],
+           'No amount of additional data averages away an error in the calibration.'),
+          ('You want to compare two disagreements.',
+           ['a disagreement',
+            'between',
+            'independent',
+            'methods',
+            'is',
+            'considerably',
+            'more',
+            'interesting',
+            'than',
+            'this',
+            'one'],
+           'A disagreement between independent methods is considerably more interesting than '
+           'this one.'),
+          ('You want to say one supernova is far brighter.',
+           ['that',
+            'supernova',
+            'is',
+            'far',
+            'more',
+            'luminous',
+            'than',
+            'any',
+            'cepheid',
+            'ever',
+            'observed'],
+           'That supernova is far more luminous than any cepheid ever observed.')]}
+UNIT['w5'] = {'sub': 'Measuring what cannot be reached',
+ 'prof': 'Dr Beaumont',
+ 'question': 'Two teams measure the expansion rate of the universe and get results that do '
+             'not overlap. One team says the difference means new physics is needed. The '
+             'other says an unidentified systematic error in one of the two methods is the '
+             'likelier explanation. Which position is better supported?',
+ 'posts': [('Nadia',
+            'w',
+            'The systematic error, every time. The history of this subject is a history of '
+            'confident results that turned out to rest on a calibration nobody had checked, '
+            'and nothing about this case is different.'),
+           ('Felix',
+            'm',
+            'That argument proves too much, because it would have been available against '
+            'every real discovery ever made. The passage gives the reason this case is '
+            'different and Nadia has skipped straight past it.')],
+ 'skill': ('A question about how to weigh an unexplained difference',
+           ['Nadia argues from the record of the field; Felix from what the two methods '
+            'share.',
+            'The second passage distinguishes a disagreement between methods with a shared '
+            'calibration from one between methods with none.',
+            'A strong answer says what would settle it, rather than only which side is '
+            'likelier.']),
+ 'starters': ['Nadia is right that…, and that is an argument about… rather than about…',
+              'The distinction the passage draws is between… and…',
+              'What would actually settle this is…',
+              'Until then the defensible position is…'],
+ 'model': ['Nadia is right about the record and wrong to treat it as decisive here, because '
+           'the passage draws a distinction her argument cannot see. A discrepancy between '
+           'methods that share a calibration points to the shared part, and a discrepancy '
+           'between methods that share almost nothing has no common assumption left to '
+           'blame, which is exactly the position the two expansion measurements are in. That '
+           'is the whole distinction, and it is not a subtle one.',
+           'Felix is right about that and overstates what follows. The absence of a shared '
+           'assumption does not establish new physics; it removes the cheapest explanation '
+           'and leaves two expensive ones, an undetected systematic error inside one method '
+           'alone, or something missing from the model. Those two are not equally cheap, and '
+           'neither of them is the kind of claim a press release should carry.',
+           'What would settle it is a third route to the same quantity that shares a '
+           'calibration with neither, and several are being built for that reason. Until one '
+           'of them reports, the defensible position is that the discrepancy is real, '
+           'unexplained, and not yet evidence for any particular replacement. That is an '
+           'uncomfortable place to stand, because it offers nothing to announce, and it is '
+           'the only position that does not require assuming the answer. Anybody who finds '
+           'it unsatisfying should notice that both of the alternatives on offer are '
+           'confident about something nobody has measured.'],
+ 'model_words': 236}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Measuring what cannot be reached',
+  'focus': 'describing a sequence in which each step rests on the last',
+  'skill': ('Each rung is calibrated by the rung below it',
+            ['Say the steps in order and mark each one. First, then, and from that.',
+             'Stress the link word, not the noun: it is the dependence you are describing.',
+             'Keep the pace even. Sequences spoken quickly lose their order.']),
+  'repeat': ['Geometry comes first.',
+             'The cepheid scale rests on the geometry.',
+             'Each rung is calibrated by the rung below it.',
+             'Compare the true brightness with the brightness that arrives.',
+             'The whole ladder is anchored on the bottom rung.',
+             'Move the bottom and every number above it moves.',
+             'No cosmological distance has ever been measured directly, which is why the '
+             'figure has a history of revision.'],
+  'theme': 'a method with steps that depend on each other',
+  'qs': ['Tell me about something you learnt in stages, where each stage needed the one '
+         'before. How did it go?',
+         'Some people say an answer is only as good as its weakest step. How far would you '
+         'agree?',
+         'How would you explain to a friend why we cannot measure the distance to a galaxy '
+         'directly?',
+         'Finally, describe a number you have heard quoted that turned out to depend on '
+         'something else.'],
+  'model': [(2,
+             'I would mostly agree, with one qualification. It is true when the steps are in '
+             'a chain, and it is not true when there are two separate routes to the same '
+             'place, because then the weak step can be checked.'),
+            (3,
+             'I would say nobody can put a ruler out there, so we compare how bright a thing '
+             'really is with how bright it looks, and that only works because something '
+             'nearer told us how bright that kind of thing really is.')],
+  'selfcheck': ['I marked each step in the sequence',
+                'I stressed the link words',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Measuring what cannot be reached',
+  'focus': 'saying what would settle a question',
+  'skill': ('What would settle it is a third route that shares nothing',
+            ['Name the test before you give your view. It makes the view sound held rather '
+             'than announced.',
+             'Keep conditionals short. Long ones lose the condition.',
+             'Fall on the final word of the test. Rising there turns it into a suggestion.']),
+  'repeat': ['The two results share almost nothing.',
+             'A systematic error does not average away.',
+             'What would settle it is a third method.',
+             'There is no common assumption left to blame.',
+             'Until one of them reports, I would not choose.',
+             'The useful question is which assumptions the two sides share.',
+             'It is tempting to read every disagreement as a scandal, and the tempting '
+             'reading is usually the lazy one.'],
+  'theme': 'holding a question open',
+  'qs': ['Tell me about a question you could not settle. What would have settled it?',
+         'Some people think you should always take a side. What do you think?',
+         'How do you decide whether a disagreement is worth paying attention to?',
+         'Finally, describe a time you changed your mind because of one new piece of '
+         'information.'],
+  'model': [(2,
+             'I think you should always be able to say what would change your mind, which is '
+             'not quite the same thing. If I cannot name that, taking a side is just picking '
+             'one.'),
+            (3,
+             'I ask what the two sides have in common. If they are working from the same '
+             'assumption, the argument is usually about that assumption and not about what '
+             'they think it is about.')],
+  'selfcheck': ['I named the test before my view',
+                'I kept the conditionals short',
+                'I fell on the last word of the test']}]

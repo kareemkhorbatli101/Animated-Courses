@@ -1066,3 +1066,612 @@ UNIT = dict(
         'places, you can write about a plan that failed — which is most of history, most of '
         'policy and a large share of TOEFL discussion prompts.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 33 gains its two academic cycles. Cycle 4 names the lump of
+#  labour fallacy and gives the three mechanisms by which two centuries
+#  of mechanisation displaced an enormous variety of occupations without
+#  reducing the share of adults in paid employment, ending on the limit
+#  of its own claim. Cycle 5 presses that limit: the finding is true of
+#  an aggregate and silent about a livelihood, the measured earnings of a
+#  displaced cohort never recover, the regional figure recovers through
+#  new entrants instead, and what follows is an argument about
+#  compensation rather than about obstruction.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('disrupted', 'broken up, so that the old pattern no longer holds'),
+ ('industrial', 'belonging to manufacturing and the factory system'),
+ ('employment', 'paid work, taken as a whole across an economy'),
+ ('seasonally', 'in a pattern that repeats each year'),
+ ('necessity', 'something there is no choice about'),
+ ('variety', 'a range of different kinds'),
+ ('mechanisation', 'the replacing of hand work by machinery'),
+ ('clerical', 'to do with office records and paperwork'),
+ ('reallocation', 'the moving of workers or money to other uses'),
+ ('adjustment', 'the process by which a system settles after a change'),
+ ('complementary', 'making another thing more valuable rather than replacing it'),
+ ('livelihood', 'the work by which a person supports themselves')]
+UNIT['r4'] = {'sub': 'The shape of a working life',
+ 'title': 'Why Two Centuries of Machinery Did Not Produce Mass Idleness',
+ 'words': 325,
+ 'skill': ('Reading an argument against an intuition',
+           ['The intuition is stated first and named. Find the name, because the passage '
+            'uses it again.',
+            'Three mechanisms are given for the same conclusion. Keep them separate.',
+            'A question about the historical record wants what the record shows, not what it '
+            'proves.']),
+ 'paras': ['The intuition that machinery destroys employment rests on an assumption so '
+           'natural that it is rarely stated: that the quantity of work in an economy is '
+           'fixed, so that every job performed by a machine is a job removed from the total. '
+           'Economists call this the lump of labour fallacy, and the historical record '
+           'against it is about as strong as evidence in the subject ever gets. Two '
+           'centuries of mechanisation, from the power loom through the tractor to clerical '
+           'computing, displaced an enormous variety of occupations without producing any '
+           'permanent reduction in the proportion of adults in paid employment. The '
+           'explanation is not that the displacement was imaginary. It is that the quantity '
+           'of work was never fixed, and no economy has yet been observed to run out of '
+           'things worth doing.',
+           'Three mechanisms account for the expansion. The first is that automation of a '
+           'task raises productivity, which lowers the price of the output, which raises the '
+           'quantity demanded, and a larger industry can require more workers in the tasks '
+           'that remain. The second is that the income freed by cheaper goods is spent on '
+           'something else, and the production of that something else is itself a source of '
+           'employment, in occupations that often did not exist before. The third, and the '
+           'least intuitive, is that machinery is frequently complementary to labour rather '
+           'than a substitute for it: the introduction of the cash machine was followed by a '
+           'rise in the number of bank clerks, whose work moved from the counting of notes '
+           'to the selling of services.',
+           'The conclusion is narrower than it is usually reported to be. It says that the '
+           'aggregate level of employment survives technological disruption, and the '
+           'reallocation that produces that survival is a real event with a real '
+           'distribution of costs. The next passage is about who pays them, and about why '
+           'the answer has stayed the same through every change of machinery since the power '
+           'loom.'],
+ 'guided': [('What assumption does the intuition rest on?',
+             ('That machines are expensive',
+              'That the quantity of work in an economy is fixed',
+              'That workers cannot be retrained',
+              'That productivity is falling'),
+             1,
+             'Every job done by a machine is then a job removed from a fixed total.'),
+            ('What do economists call this assumption?',
+             ('The lump of labour fallacy',
+              'The displacement effect',
+              'The productivity paradox',
+              'The reallocation problem'),
+             0,
+             'The passage names it and then uses the name again.'),
+            ('What does the historical record show?',
+             ('That displacement was imaginary',
+              'That occupations were displaced without a permanent fall in paid employment',
+              'That employment rose in every decade',
+              'That mechanisation was slower than expected'),
+             1,
+             'The passage is explicit that the displacement was real and the total did not '
+             'fall.')],
+ 'exam': [('In the first mechanism, what follows a rise in productivity?',
+           ('A fall in demand',
+            'A lower price, then a larger quantity demanded',
+            'A rise in wages only',
+            'A fall in the price of labour'),
+           1,
+           'Lower price, higher quantity demanded, and possibly more workers in the '
+           'remaining tasks.'),
+          ('What is the second mechanism?',
+           ('Workers are retrained by employers',
+            'Income freed by cheaper goods is spent on something else',
+            'Machinery becomes cheaper over time',
+            'Industries merge'),
+           1,
+           'The production of that something else is itself a source of employment.'),
+          ('Why is the cash machine given as an example?',
+           ('It reduced the number of clerks',
+            'The number of bank clerks rose and their work changed',
+            'It was introduced seasonally',
+            'It replaced clerical computing'),
+           1,
+           'It illustrates machinery that is complementary to labour rather than a '
+           'substitute.'),
+          ('What does the passage say the conclusion is?',
+           ('That automation has no costs',
+            'That the aggregate level of employment survives disruption',
+            'That reallocation is painless',
+            'That occupations never disappear'),
+           1,
+           'The aggregate survives, and the reallocation that produces that survival has a '
+           'real distribution of costs.'),
+          ('The word displaced in paragraph 1 is closest in meaning to',
+           ('reduced in pay',
+            'pushed out of existence',
+            'made more productive',
+            'moved abroad'),
+           1,
+           'The occupations themselves were pushed out, which is why the variety is '
+           'mentioned.')]}
+UNIT['r5'] = {'sub': 'The shape of a working life',
+ 'title': 'True of the Market, False of the Worker',
+ 'words': 346,
+ 'skill': ('Reading an objection about the level a claim is true at',
+           ['The writer does not dispute the previous passage. Note the level at which each '
+            'claim is said to hold.',
+            'A single statistic carries the middle of the argument. Hold what it measures.',
+            'A question about the recommendation wants what the money is for.']),
+ 'paras': ['Every mechanism in the previous passage is sound, and the conclusion they '
+           'produce is a claim about an aggregate and not about a person. A labour market '
+           'that regains its employment level within fifteen years has adjusted successfully '
+           'by any definition, and a worker of fifty in a town with one factory has gained '
+           'nothing from that adjustment at all. The standard account is correct at the '
+           'level of the economy and silent at the level of the livelihood, and most public '
+           'discussion of automation consists of one side stating the aggregate and the '
+           'other side describing the condition of one person.',
+           'The measurements of the last thirty years have made the gap specific rather than '
+           'a matter of words. Where a region loses an industry, the reallocation does not '
+           'usually take the form of a displaced worker moving into a new occupation. '
+           'Earnings for the displaced cohort fall and stay lower for the rest of their '
+           'working lives, the recovery in the regional employment figure comes largely from '
+           'young people starting work rather than from those who lost their jobs finding '
+           'similar work, and the adjustment is therefore complete only after a generation. '
+           'The aggregate has recovered. The particular people whose situation produced the '
+           'political argument have not, and the two statements are not in conflict.',
+           'What follows from this is an argument about what the displaced are owed rather '
+           'than about blocking the change. Resistance to a technology that raises '
+           'productivity imposes a permanent cost on everybody in order to protect a few, '
+           'which makes a whole country poorer in order to help one part of it. The '
+           'alternative is to treat the displaced cohort as having a claim on part of the '
+           'gain, through income support that does not end on a fixed date and retraining '
+           'that is honest about its limits. The necessity for this is not kindness. A '
+           'society that distributes the gains from such a change to everybody and its costs '
+           'to one town will find that the next change is resisted by people who have learnt '
+           'from the last.'],
+ 'guided': [('What does the writer say about the previous passage?',
+             ('It is mistaken',
+              'Every mechanism in it is sound',
+              'It leaves out the region',
+              'It confuses two levels'),
+             1,
+             'The objection is about the level of the claim, not its truth.'),
+            ('What does the writer say most public argument consists of?',
+             ('Two sides disputing the data',
+              'One side stating the aggregate and the other describing the individual',
+              'Experts against workers',
+              'Arguments about retraining'),
+             1,
+             'That is the shape the writer gives the public argument.'),
+            ('Where does the recovery in the regional employment figure come from?',
+             ('The re-employment of those who lost their jobs',
+              'Young people starting work rather than those who lost their jobs',
+              'Workers moving in from other regions',
+              'Workers moving in from other industries'),
+             1,
+             'That is why the writer says the adjustment is complete only after a '
+             'generation.')],
+ 'exam': [('What happens to earnings for the displaced cohort?',
+           ('They recover within fifteen years',
+            'They fall and stay lower for the rest of their working lives',
+            'They rise after retraining',
+            'They are unchanged'),
+           1,
+           'That is the first of the three measured findings.'),
+          ('Why are the two statements said not to be in conflict?',
+           ('Both are estimates',
+            'One is about the aggregate and the other about particular people',
+            'Neither has been measured',
+            'The recovery was only partial'),
+           1,
+           'The aggregate recovered and those particular people did not, at different '
+           'levels.'),
+          ('Why does the writer reject resistance to the technology?',
+           ('It never succeeds',
+            'It imposes a permanent cost on everybody to protect a few',
+            'It is unlawful',
+            'It slows retraining'),
+           1,
+           'The writer says it makes a whole country poorer in order to help one part of '
+           'it.'),
+          ('What two things does the writer propose?',
+           ('Tariffs and subsidies',
+            'Income support with no fixed end date and honest retraining',
+            'Compulsory retraining and early pensions',
+            'Regional investment and tax relief'),
+           1,
+           'Both are named as the content of the claim on part of the gain.'),
+          ('Why does the writer say the necessity is not kindness?',
+           ('Charity is unpopular',
+            'A society that concentrates the costs will find the next change resisted',
+            'The sums involved are small',
+            'Retraining pays for itself'),
+           1,
+           'The argument rests on self-interest: people learn from the last change.')]}
+UNIT['l4'] = {'sub': 'The shape of a working life',
+ 'caption': 'A lecture on the fallacy and the three mechanisms',
+ 'board': ['Lump of labour: the fixed total',
+           'Price falls, quantity rises',
+           'Freed income is spent elsewhere',
+           'Machines can be complementary'],
+ 'skill': ('A lecture that names a fallacy and then explains it away',
+           ['The lecturer names the error early. Everything after that is why it is an '
+            'error.',
+            'Three mechanisms, in order, with an example on the third.',
+            'A question about the ending wants the limit he puts on his own argument.']),
+ 'warm': [('Woman: What is the lump of labour fallacy?',
+           ('The idea that the amount of work is fixed.',
+            'The idea that machines are cheap.',
+            'Yes, it is a fallacy.',
+            'Three mechanisms.'),
+           0,
+           'A fixed total is the assumption the whole lecture is aimed at.'),
+          ('Woman: Which mechanism involves the cash machine?',
+           ('The third.', 'The first.', 'Yes, that one.', 'Bank clerks.'),
+           0,
+           'The cash machine illustrates machinery that is complementary to labour.'),
+          ('Woman: What limit does he put on his argument?',
+           ('It is about the total, not about a person.',
+            'It applies only to industry.',
+            'Yes, there is a limit.',
+            'Two centuries.'),
+           0,
+           'He is careful at the end that the claim is an aggregate one.')],
+ 'script': [('Man',
+             'The error has a name, and I want you using the name by the end of the hour: '
+             'the lump of labour fallacy. It is the assumption that there is a fixed '
+             'quantity of work in an economy, so that anything a machine does is something a '
+             'person no longer does. It feels obvious and it is false, and the historical '
+             'evidence against it is about as good as we get, and I mean that as a warning '
+             'about the rest of the subject as much as a boast about this part of it. Two '
+             'hundred years of mechanisation and the share of adults in paid employment has '
+             'no downward trend at all. So where does the work come from? Three places. One: '
+             'automating a task raises productivity, which lowers the price, which raises '
+             'the quantity people buy, and a bigger industry may well need more people doing '
+             'whatever has not been automated. Two: the money you no longer spend on the '
+             'cheaper thing gets spent on something else, and somebody makes that, often in '
+             'a job that did not exist in your grandparents’ lifetime. Three, and this is '
+             'the one students find hardest: a machine is often complementary to labour, not '
+             'a substitute for it. The cash machine arrived and the number of bank clerks '
+             'went up, because the job stopped being counting notes and started being '
+             'selling services. Now the limit, and please write this down. Everything I have '
+             'said is about the total, measured across a whole economy over decades. It says '
+             'nothing whatever about any particular worker, and the next lecture is entirely '
+             'about that.')],
+ 'items': [('What does the lecturer want the class using by the end of the hour?',
+            ('The three mechanisms',
+             'The name of the fallacy',
+             'The employment figures',
+             'The cash machine example'),
+            1,
+            'He opens by saying the error has a name and he wants it used.'),
+           ('What does he say about the share of adults in paid employment?',
+            ('It has fallen steadily',
+             'It has no downward trend at all',
+             'It fell and then recovered',
+             'It varies seasonally'),
+            1,
+            'Two hundred years of mechanisation with no downward trend is his evidence.'),
+           ('In the first mechanism, what may a bigger industry need?',
+            ('Fewer workers',
+             'More people doing whatever has not been automated',
+             'More machinery only',
+             'Higher prices'),
+            1,
+            'That is how the first mechanism returns workers to the industry.'),
+           ('Which mechanism does he say students find hardest?',
+            ('The first', 'The second', 'The third', 'None of them'),
+            2,
+            'He introduces complementarity as the one students find hardest.'),
+           ('What limit does he ask the class to write down?',
+            ('The argument applies only to manufacturing',
+             'Everything he has said is about the total, not a particular worker',
+             'The evidence covers only fifty years',
+             'The mechanisms work only together'),
+            1,
+            'He states the limit and says the next lecture is entirely about it.')]}
+UNIT['l5'] = {'sub': 'The shape of a working life',
+ 'caption': 'A short talk on an average that recovers and people who do not',
+ 'board': ['Region recovers in fifteen years',
+           'Earnings of the displaced do not',
+           'Recovery comes from new entrants',
+           'What is owed, not a blocked machine'],
+ 'skill': ('A talk that agrees with a finding and refuses its conclusion',
+           ['The speaker accepts the aggregate figure. Note what she says it does not '
+            'describe.',
+            'Three findings about the displaced cohort. Keep them in order.',
+            'A question about her position wants what she is not arguing for.']),
+ 'warm': [('Man: Does she dispute the recovery figure?',
+           ('No, she disputes what it describes.',
+            'Yes, she says it is wrong.',
+            'Yes, she does.',
+            'Fifteen years.'),
+           0,
+           'She accepts the figure and denies that it is about the people in question.'),
+          ('Man: Where does the regional recovery come from?',
+           ('New entrants.',
+            'The displaced workers.',
+            'Yes, it recovers.',
+            'From retraining.'),
+           0,
+           'That is why she calls the adjustment generational.'),
+          ('Man: What is she not arguing for?',
+           ('Blocking the technology.',
+            'Income support.',
+            'Yes, she argues for something.',
+            'Retraining.'),
+           0,
+           'She is explicit that obstruction is the wrong response.')],
+ 'script': [('Woman',
+             'I agree with every word of the last lecture, and nothing in this one '
+             'contradicts a single figure in it. I want to show you what it does not say. '
+             'Take a region that loses its main industry. Fifteen years later the employment '
+             'rate is back where it was, and any economist would call that a successful '
+             'adjustment, and it is one. Now look inside it. First, the earnings of the '
+             'people who were displaced fall and stay lower for the rest of their working '
+             'lives, and that holds after you allow for everything we know how to allow for. '
+             'Second, the recovery in the employment figure comes mostly from young people '
+             'entering, not from those workers finding comparable jobs. Third, put those '
+             'together and the adjustment is complete in a generation, which is a perfectly '
+             'good answer if you are a labour market and no answer at all if you are '
+             'forty-eight. Both statements are true. The aggregate recovered and those '
+             'people did not. Now, what I am not arguing for is blocking the technology, '
+             'because that charges everybody permanently to protect a few and it is a bad '
+             'bargain on any arithmetic. What I am arguing for is that the displaced have a '
+             'claim on part of the gain: support that does not end on a date chosen by '
+             'somebody who has never lost a job, and retraining that tells the truth about '
+             'what it can do. Those two together cost less than one election fought by '
+             'people who have been told that the figures recovered and can see that they did '
+             'not.')],
+ 'items': [('What does the speaker say about the last lecture?',
+            ('She disputes its evidence',
+             'She agrees with every word and wants to show what it does not say',
+             'She thinks it was too technical',
+             'She corrects its figures'),
+            1,
+            'That is how she opens, and it holds for the whole talk.'),
+           ('What is her first finding about the displaced?',
+            ('They retrain successfully',
+             'Their earnings fall and stay lower for the rest of their working lives',
+             'They move to other regions',
+             'They retire early'),
+            1,
+            'She adds that it holds after every allowance anybody knows how to make.'),
+           ('Why does she say the adjustment takes a generation?',
+            ('It takes fifteen years',
+             'The The recovery comes from young people entering rather than from those '
+             'workers',
+             'Retraining is slow',
+             'Industries return slowly'),
+            1,
+            'A recovery through young people entering makes the change complete only after a '
+            'generation.'),
+           ('What does she say about blocking the technology?',
+            ('It is sometimes justified',
+             'It charges everybody permanently to protect a few',
+             'It is the only remedy',
+             'It is unlawful'),
+            1,
+            'She calls it a bad bargain on any arithmetic.'),
+           ('What two things does she argue for?',
+            ('Tariffs and pensions',
+             'Support without a chosen expiry date and honest retraining',
+             'Compulsory relocation and subsidies',
+             'Higher wages and shorter hours'),
+            1,
+            'Those are the two parts of the claim on part of the gain.')]}
+UNIT['w4'] = {'sub': 'The shape of a working life',
+ 'skill': ('The future in the past: was going to, would, was to',
+           ['Was going to and would describe something expected at a past moment, whether or '
+            'not it happened: the career was going to last forty years.',
+            'Was to is more formal and often carries the sense of a plan or a fate: the '
+            'factory was to close within a decade.',
+            'Keep the viewpoint in the past throughout. A present tense in the middle breaks '
+            'it.']),
+ 'guided': [('You want to say what was expected and did not happen.',
+             ['the career',
+              'was going to',
+              'last',
+              'forty',
+              'years',
+              'and',
+              'it',
+              'lasted',
+              'eleven'],
+             'The career was going to last forty years, and it lasted eleven.'),
+            ('You want to report a past expectation formally.',
+             ['the factory',
+              'was to',
+              'close',
+              'within',
+              'a decade',
+              'of',
+              'the',
+              'first',
+              'machines',
+              'arriving'],
+             'The factory was to close within a decade of the first machines arriving.'),
+            ('You want to say what people believed would follow.',
+             ['nobody',
+              'then',
+              'believed',
+              'that',
+              'the clerks',
+              'would',
+              'become',
+              'more',
+              'numerous',
+              'rather than',
+              'fewer'],
+             'Nobody then believed that the clerks would become more numerous rather than '
+             'fewer.')],
+ 'exam': [('You want a past expectation that was mistaken.',
+           ['mechanisation',
+            'was going to',
+            'empty',
+            'the',
+            'factories',
+            'and',
+            'employment',
+            'did not',
+            'fall',
+            'at all'],
+           'Mechanisation was going to empty the factories, and employment did not fall at '
+           'all.'),
+          ('You want to describe a planned future from a past point.',
+           ['the programme',
+            'was to',
+            'retrain',
+            'every',
+            'displaced',
+            'worker',
+            'within',
+            'two',
+            'years'],
+           'The programme was to retrain every displaced worker within two years.'),
+          ('You want to report what a report predicted.',
+           ['the report',
+            'said',
+            'that',
+            'the adjustment',
+            'would',
+            'be',
+            'complete',
+            'in',
+            'fifteen',
+            'years'],
+           'The report said that the adjustment would be complete in fifteen years.'),
+          ('You want to contrast expectation with outcome.',
+           ['the town',
+            'was going to',
+            'recover',
+            'and',
+            'it',
+            'recovered',
+            'with',
+            'different',
+            'people',
+            'in it'],
+           'The town was going to recover, and it recovered with different people in it.'),
+          ('You want a formal past future with a negative.',
+           ['those earnings',
+            'were',
+            'never',
+            'going to',
+            'return',
+            'to',
+            'their',
+            'earlier',
+            'level'],
+           'Those earnings were never going to return to their earlier level.')]}
+UNIT['w5'] = {'sub': 'The shape of a working life',
+ 'prof': 'Dr Achebe',
+ 'question': 'A government can spend a fixed sum either on retraining programmes for workers '
+             'displaced by automation, or on unconditional income support for the same '
+             'workers with no training attached. The evidence on retraining outcomes for '
+             'workers over fifty is poor. Which should it choose?',
+ 'posts': [('Lena',
+            'w',
+            'Retraining, because support without training accepts that these people are '
+            'finished at fifty, and no programme should be built on that assumption even if '
+            'the figures look discouraging.'),
+           ('Hugo',
+            'm',
+            'The figures are not discouraging, they are clear, and spending money on a '
+            'programme that does not work in order to avoid an uncomfortable message is the '
+            'most expensive kind of respect there is.')],
+ 'skill': ('A question where the evidence and the message conflict',
+           ['Lena argues from what a policy says about people; Hugo from what it achieves.',
+            'The second passage calls for retraining that is honest about its limits, which '
+            'is neither of these positions exactly.',
+            'A strong answer splits the sum rather than choosing, and says what each part is '
+            'for.']),
+ 'starters': ['Hugo is right that…, although the conclusion he draws…',
+              'The distinction the passage draws is between… and…',
+              'What the evidence actually supports is…',
+              'So the sum should be divided, with… for… and… for…'],
+ 'model': ['Hugo is right about the evidence and his framing hides a choice he has not '
+           'defended. The question is not whether to respect people but what the money is '
+           'for, and the passage answers it: the displaced have a claim on part of the gain '
+           'from a disruption that benefited everybody else, and that claim is a matter of '
+           'distribution rather than of training.',
+           'Lena is right that a programme should not be built on the assumption that a '
+           'worker is finished, and she has made retraining carry the whole weight of that '
+           'principle. It cannot. Retraining with a poor record does not stop being poor '
+           'because its purpose is generous, and a fifty-two-year-old machinist in a course '
+           'that leads nowhere has been given a message about himself as surely as if nobody '
+           'had offered anything.',
+           'So the sum should be divided, and the division should follow the evidence rather '
+           'than the symbolism. Most of it should go to income support with no expiry chosen '
+           'in advance, because that is the part of the claim nobody disputes the value of. '
+           'The rest should go to retraining offered as an option, with the completion rates '
+           'and the earnings outcomes published beside it, so that the choice belongs to the '
+           'worker. What that gives up is the appearance of a government with a plan for '
+           'everybody, and the appearance was never worth what it costs the people it is '
+           'performed for.'],
+ 'model_words': 239}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'The shape of a working life',
+  'focus': 'explaining why an intuition is wrong',
+  'skill': ('It feels obvious, and the assumption behind it is false',
+            ['Name the assumption before you reject it. A rejection with no assumption named '
+             'sounds like contradiction.',
+             'Give the assumption its due: it feels obvious. Then turn.',
+             'Stress the assumption, not the word false.']),
+  'repeat': ['It feels obvious and it is false.',
+             'A machine can be complementary to labour.',
+             'Two centuries of mechanisation did not reduce employment.',
+             'The price falls, so the quantity people buy rises.',
+             'The number of bank clerks went up, not down.',
+             'The assumption is that the quantity of work is fixed.',
+             'Everything in that argument is about the total, and it says nothing whatever '
+             'about a particular worker.'],
+  'theme': 'an idea that feels obvious and is not true',
+  'qs': ['Tell me about something you were sure of that turned out to be wrong. What was the '
+         'assumption?',
+         'Some people say machines will leave most people with no work. How far would you '
+         'agree?',
+         'How would you explain to a friend why cheaper goods can create jobs?',
+         'Finally, describe a change at work or school that worried people and turned out '
+         'well.'],
+  'model': [(2,
+             'I would separate the total from the person. I do not think there will be less '
+             'work in general, for the reasons in this unit, and I am fairly sure particular '
+             'people will lose livelihoods they cannot replace, and those two are not the '
+             'same claim.'),
+            (3,
+             'I would say that the money you no longer spend on the thing that got cheaper '
+             'does not disappear. You spend it on something else, and somebody has to make '
+             'that.')],
+  'selfcheck': ['I named the assumption before rejecting it',
+                'I gave the intuition its due first',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'The shape of a working life',
+  'focus': 'saying that two statements are both true at different levels',
+  'skill': ('The aggregate recovered and those people did not',
+            ['Give both halves at the same volume. Dropping the second makes it sound like a '
+             'concession.',
+             'Mark the level each time: in the figures, for the people in the town.',
+             'Then say explicitly that they do not conflict, or a listener will assume you '
+             'have contradicted yourself.']),
+  'repeat': ['The aggregate recovered.',
+             'Those people did not.',
+             'Both statements are true.',
+             'They are not in conflict.',
+             'It is no answer at all if you are forty-eight.',
+             'That is a good answer if you are a labour market.',
+             'The figure is correct about the region and silent about the livelihood, and '
+             'most of the argument comes from mixing them.'],
+  'theme': 'a claim that is true of a group and not of a member',
+  'qs': ['Tell me about a statistic about a group that did not describe you. What did it '
+         'miss?',
+         'Some people think that if a problem has got better overall, nobody should '
+         'complain. What do you think?',
+         'How should a government decide who to compensate after a change?',
+         'Finally, describe a situation where two people were both right.'],
+  'model': [(2,
+             'I think that confuses two questions. Whether a change was worth making overall '
+             'and whether the people who paid for it should be compensated are separate, and '
+             'you can answer yes to both without any inconsistency.'),
+            (4,
+             'A disagreement at my old job about a new rota. One of them was describing the '
+             'department and the other was describing her own week, and both descriptions '
+             'were accurate.')],
+  'selfcheck': ['I gave both halves equal weight',
+                'I marked the level each time',
+                'I said explicitly that they do not conflict']}]
