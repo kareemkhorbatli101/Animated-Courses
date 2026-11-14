@@ -1039,3 +1039,651 @@ UNIT = dict(
         'ask who or what is doing the participle. If the answer is not the subject of the main '
         'clause, the sentence is wrong, however good it sounds.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 22 gains its two academic cycles. Cycle 4 is the argument from
+# convergence, which is the strongest form of evidence this field has,
+# built on the distinction between analogy and homology that students
+# most often get wrong. Cycle 5 accepts every case on the list and reads
+# the pattern a second way, as a fact about physical constraint rather
+# than about selection pressure, and then turns on the list itself: a
+# collection assembled from striking cases cannot tell you a rate.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('palaeontologist', 'a scientist who studies fossils'),
+ ('preserve', 'to keep something from decaying or being lost'),
+ ('rapid', 'happening quickly'),
+ ('hillside', 'the sloping side of a hill'),
+ ('outcrop', 'rock that reaches the surface and can be examined'),
+ ('deposition', 'the laying down of material in layers over time'),
+ ('appendage', 'a limb or other part that projects from a body'),
+ ('homology', 'shared form inherited from a common ancestor'),
+ ('analogous', 'alike in form without being related by descent'),
+ ('independently', 'separately, without influence from the other case'),
+ ('unrelated', 'not connected by descent'),
+ ('optics', 'the physics of how light behaves')]
+UNIT['r4'] = {'sub': 'Convergent forms',
+ 'title': 'The Same Answer, Arrived at Twice',
+ 'words': 300,
+ 'skill': ('Reading a passage whose evidence is a coincidence',
+           ['The argument here rests on two unrelated cases turning out alike, so hold both '
+            'cases in mind rather than only the second.',
+            'The writer distinguishes two technical terms that both mean similar, and the '
+            'whole passage depends on the difference.',
+            'A question about the strength of the evidence wants the reason repetition '
+            'counts for more than a single case.']),
+ 'paras': ['The eye of an octopus and the eye of a horse are built on the same principle, '
+           'with a lens that focuses light onto a surface of cells that respond to it. '
+           'Neither animal inherited that arrangement from a common ancestor with eyes, '
+           'because the lineages separated long before any eye of that kind existed. Two '
+           'separate histories, running for hundreds of millions of years without contact, '
+           'produced the same solution to the same problem. Biologists call shared form of '
+           'that kind analogy, and inherited form homology, and confusing the two has '
+           'wrecked more arguments here than any other single error.',
+           'The reason analogy matters is that it turns a single observation into a '
+           'repetition, and a repetition is evidence where a single case is only a '
+           'description. If an adaptation appears once, almost any account of its origin '
+           'remains available, including accident. If the same adaptation appears '
+           'independently in four lineages facing comparable conditions, accident becomes an '
+           'expensive explanation, and the conditions themselves move to the centre of the '
+           'account. The statistical shape of the argument is the one used in any other '
+           'science, and the only unusual feature is that the repetitions were run by the '
+           'world rather than by an investigator.',
+           'This is why convergent cases are collected so carefully, and why a claim about '
+           'adaptation is strongest where the same pressure can be shown to have produced '
+           'the same outcome in populations that could not have communicated it. The method '
+           'also sets its own limits, because it needs cases that are genuinely independent, '
+           'and establishing independence is a question about descent rather than about '
+           'resemblance. A palaeontologist unable to date the separation of two lineages '
+           'cannot tell analogy from homology, and an argument built on the wrong one of the '
+           'two is not weak but empty.'],
+ 'guided': [('What does the passage say about the octopus eye and the horse eye?',
+             ('Both were inherited from a common ancestor with eyes',
+              'They were built on the same principle without common inheritance',
+              'They work on different principles',
+              'One is more advanced than the other'),
+             1,
+             'The lineages separated before any eye of that kind existed, so the shared '
+             'design cannot have been inherited.'),
+            ('What is the difference between analogy and homology?',
+             ('Analogy is inherited, homology is arrived at separately',
+              'Analogy is arrived at separately, homology is inherited',
+              'They mean the same thing',
+              'Only homology concerns the eye'),
+             1,
+             'The passage defines analogy as shared form arrived at independently and '
+             'homology as shared form inherited from an ancestor.'),
+            ('Why does a repetition count for more than a single case?',
+             ('It is easier to publish',
+              'A single case leaves almost any account available, including accident',
+              'Repetitions are cheaper to study',
+              'Single cases are usually invented'),
+             1,
+             'If an adaptation appears once, almost any account of its origin remains '
+             'available, which is the reason given.')],
+ 'exam': [('The word wrecked in paragraph 1 is closest in meaning to',
+           ('improved', 'ruined', 'shortened', 'repeated'),
+           1,
+           'Confusing the two has wrecked arguments means it has destroyed them; nothing '
+           'suggests improvement or repetition.'),
+          ('Why does the passage call accident an expensive explanation?',
+           ('Accidents cost money to investigate',
+            'It becomes implausible once the same outcome recurs independently',
+            'It is the explanation specialists prefer',
+            'It requires more fossils'),
+           1,
+           'Expensive here means costly in plausibility: four independent repetitions make '
+           'coincidence a hard thing to maintain.'),
+          ('What does the passage say is unusual about the argument?',
+           ('It uses no statistics',
+            'The repetitions were run by the world rather than by an investigator',
+            'It cannot be tested',
+            'It concerns only eyes'),
+           1,
+           'The statistical shape is ordinary and the only unusual feature is who ran the '
+           'repetitions.'),
+          ('What limit does the method set on itself?',
+           ('It needs cases that are genuinely independent',
+            'It needs more than four lineages',
+            'It applies only to vision',
+            'It cannot use fossils'),
+           0,
+           'It needs cases that are genuinely independent, and establishing that is a '
+           'question about descent.'),
+          ('Why does the passage say such an argument is empty rather than weak?',
+           ('Because the evidence is thin',
+            'Because a case built on the wrong category supports nothing at all',
+            'Because palaeontologists disagree',
+            'Because dates are always uncertain'),
+           1,
+           'If the two cases are not independent there is no repetition, so the argument has '
+           'nothing to rest on rather than a little.')]}
+UNIT['r5'] = {'sub': 'Convergent forms',
+ 'title': 'What Convergence Cannot Tell You',
+ 'words': 281,
+ 'skill': ('Reading an objection that reinterprets the same evidence',
+           ['This writer accepts every case the previous passage described and draws a '
+            'different conclusion from them.',
+            'The move is to offer a second explanation for the same pattern, so find that '
+            'second explanation early.',
+            'A question about the ending wants what the evidence underdetermines, not what '
+            'it refutes.']),
+ 'paras': ['Repetition is evidence, and the question is evidence of what. The standard '
+           'reading of a convergent case is that the environment selected the same solution '
+           'twice, which treats the organism as indefinitely flexible and the environment as '
+           'the only source of constraint. There is a second reading available for the same '
+           'data. The solution may have recurred because very few solutions were physically '
+           'available, in which case the repetition is telling us about optics rather than '
+           'about selection pressure.',
+           'Consider the lens again. The number of arrangements of transparent material that '
+           'will focus light onto a sheet of cells is not large, and most of the '
+           'alternatives fail for reasons that have nothing to do with any particular '
+           'environment. On that reading an eye recurring in two lineages is no more '
+           'surprising than two independent engineers arriving at a wheel, and the '
+           'interesting information is in the physics of the problem rather than in the '
+           'history of either lineage. Neither reading can be dismissed from the comparison '
+           'alone, and the two make different predictions about cases nobody has yet '
+           'collected.',
+           'The honest position is that convergence establishes a constraint and leaves its '
+           'source open, and the distinction between a constraint imposed by the world and a '
+           'pressure applied by an environment is not one the fossil record was built to '
+           'settle. There is also a selection problem in the literature itself, since '
+           'convergent cases are collected because they are striking, and nobody maintains a '
+           'register of the adaptations that failed to recur. A method that gathers its own '
+           'examples by how remarkable they are will overstate how regular the world is, '
+           'which is a difficulty this field shares with several others.'],
+ 'guided': [('What is the standard reading of a convergent case?',
+             ('That the environment selected the same solution twice',
+              'That the two lineages were related after all',
+              'That the physics allowed only one answer',
+              'That the cases were badly dated'),
+             0,
+             'The standard reading treats the environment as the source of the constraint, '
+             'which is exactly what the passage goes on to question.'),
+            ('What is the second reading the passage offers?',
+             ('The dating is wrong',
+              'Very few solutions were physically available',
+              'Convergence does not occur',
+              'The lineages communicated'),
+             1,
+             'The solution may have recurred because very few solutions were physically '
+             'available, which points at optics rather than selection.'),
+            ('What does the comparison with two engineers illustrate?',
+             ('That engineers copy nature',
+              'That recurrence is unsurprising when the options are few',
+              'That wheels evolved twice',
+              'That physics is irrelevant'),
+             1,
+             'Two engineers arriving at a wheel is unsurprising because the problem permits '
+             'few answers, which is the point being transferred.')],
+ 'exam': [('What does the passage mean by saying the two readings make different '
+           'predictions?',
+           ('They disagree about the past only',
+            'They can be told apart by cases not yet collected',
+            'Neither can ever be tested',
+            'They predict the same cases'),
+           1,
+           'Different predictions about cases nobody has yet collected is what keeps the '
+           'disagreement empirical rather than verbal.'),
+          ('What does convergence establish, on the passage’s own account?',
+           ('A selection pressure',
+            'A constraint, with its source left open',
+            'A common ancestor',
+            'Nothing at all'),
+           1,
+           'Convergence establishes a constraint and leaves its source open, which is weaker '
+           'than the standard reading and stronger than nothing.'),
+          ('What is the selection problem in the literature?',
+           ('Journals reject convergent studies',
+            'Striking cases are collected and failures to recur are not',
+            'Too many lineages are compared',
+            'Dating methods disagree'),
+           1,
+           'Convergent cases are collected because they are striking, and nobody keeps a '
+           'register of adaptations that failed to recur.'),
+          ('What consequence does the passage draw from that problem?',
+           ('The field should stop collecting cases',
+            'The method will overstate how regular the world is',
+            'Physics explains everything',
+            'Independence can never be established'),
+           1,
+           'A method that gathers examples by how remarkable they are will overstate the '
+           'regularity it finds.'),
+          ('The phrase underdetermines, used of evidence, would best describe',
+           ('evidence that refutes a reading',
+            'evidence consistent with more than one reading',
+            'evidence that is badly measured',
+            'evidence nobody has collected'),
+           1,
+           'The passage keeps two readings alive on the same data, which is what it means '
+           'for evidence to leave a question open.')]}
+UNIT['l4'] = {'sub': 'Convergent forms',
+ 'caption': 'A lecture on telling analogy from homology',
+ 'board': ['Same form: inherited or arrived at?',
+           'Date the split, then decide',
+           'Wing: bat, bird, insect — three times',
+           'Get the category wrong and the paper is empty'],
+ 'skill': ('A lecture that insists on one distinction',
+           ['The lecturer returns to the same pair of terms throughout, so note the test he '
+            'gives for deciding between them.',
+            'Count the examples. He gives three cases of one kind and one of the other, and '
+            'the asymmetry is deliberate.',
+            'A question about the paper he describes wants what went wrong, which is a '
+            'category error rather than a measurement error.']),
+ 'warm': [('Woman: What does he say decides between the two?',
+           ('The date at which the lineages separated.',
+            'The resemblance between the forms.',
+            'Yes, something does decide it.',
+            'Three cases of each.'),
+           0,
+           'What decides it wants the test itself, and the test is about dates rather than '
+           'about how alike the forms look.'),
+          ('Woman: How many times does he say the wing appeared?',
+           ('Three times, independently.',
+            'Once, in a common ancestor.',
+            'Yes, several times.',
+            'In bats only.'),
+           0,
+           'How many times wants a count, and he gives bats, birds and insects as three '
+           'separate arrivals.'),
+          ('Woman: What was wrong with the paper?',
+           ('It compared cases that were not independent.',
+            'Its measurements were inaccurate.',
+            'Yes, something was wrong with it.',
+            'It was too short.'),
+           0,
+           'The failure he describes is a category error about independence, not a problem '
+           'with the measurements themselves.')],
+ 'script': [('Man',
+             'I am going to spend the whole hour on one distinction, because every argument '
+             'in this part of the course depends on it and it is the thing students get '
+             'wrong in the exam. Two animals share a form. Either they inherited it from a '
+             'common ancestor that already had it, which we call homology, or they arrived '
+             'at it separately, which we call analogy. Resemblance will not tell you which. '
+             'The wing is the standard illustration: bats, birds and insects all have one, '
+             'and all three arrived at it independently, because the common ancestor of any '
+             'two of those groups had nothing of the kind. The forelimb bones inside a bat '
+             'wing and a horse leg, on the other hand, are homologous, because that '
+             'arrangement was already present in the animal both descend from. So the test '
+             'is not what the structures look like. The test is the date at which the '
+             'lineages separated, which means the decision is made from the fossil record '
+             'and the molecular evidence rather than from the specimen in front of you. I '
+             'reviewed a paper last year that counted eleven independent origins of a '
+             'feeding structure, and four of its eleven were a single origin reported in '
+             'four descendant groups. The measurements were all correct. The paper was still '
+             'empty, because the number it was built on was not a number of origins at '
+             'all.')],
+ 'items': [('What distinction is the lecture about?',
+            ('Fossils and molecules',
+             'Homology and analogy',
+             'Bats and birds',
+             'Measurement and theory'),
+            1,
+            'Inherited from a common ancestor is homology; arrived at separately is analogy, '
+            'and the whole hour is given to the pair.'),
+           ('What does he say resemblance cannot do?',
+            ('Tell you which of the two you are looking at',
+             'Help with dating',
+             'Be measured accurately',
+             'Occur in insects'),
+            0,
+            'Resemblance will not tell you which, stated flatly, is the premise for '
+            'everything that follows.'),
+           ('Why are the bat wing and the horse leg homologous?',
+            ('They look alike',
+             'The arrangement was present in the animal both descend from',
+             'Both are used for movement',
+             'They appeared at the same time'),
+            1,
+            'That arrangement was already present in the common ancestor, which is the '
+            'definition he gave.'),
+           ('Where is the decision actually made?',
+            ('From the specimen in front of you',
+             'From the fossil record and the molecular evidence',
+             'From the shape of the wing',
+             'From the published literature'),
+            1,
+            'The test is the date of separation, so the decision comes from dating evidence '
+            'rather than from inspection.'),
+           ('What was wrong with the paper he reviewed?',
+            ('Its measurements were inaccurate',
+             'Four of its eleven origins were one origin counted four times',
+             'It ignored insects',
+             'It was never published'),
+            1,
+            'The measurements were all correct, and the count of origins was not a count of '
+            'origins.')]}
+UNIT['l5'] = {'sub': 'Convergent forms',
+ 'caption': 'A short talk on the cases nobody collects',
+ 'board': ['Why is the list so striking?',
+           'Because striking cases get on it',
+           'No register of what failed to recur',
+           'Ask what a complete list would look like'],
+ 'skill': ('A talk about how a body of evidence was assembled',
+           ['The speaker is examining the collection rather than the cases, which is a '
+            'different activity from disputing any of them.',
+            'Note the thought experiment she proposes, and what it would require.',
+            'A question about her advice wants the habit, which is about how to read a list '
+            'rather than what to believe.']),
+ 'warm': [('Man: What is she examining?',
+           ('How the list of cases was assembled.',
+            'Whether any single case is correct.',
+            'Yes, she examines it.',
+            'Four lineages.'),
+           0,
+           'Her subject is the collection and not the individual cases, and she says so '
+           'twice.'),
+          ('Man: What does she say nobody keeps?',
+           ('A record of adaptations that failed to recur.',
+            'A record of convergent cases.',
+            'Yes, nobody keeps one.',
+            'The fossil record.'),
+           0,
+           'The missing register is of the non-recurrences, which is exactly what would be '
+           'needed to judge the rate.'),
+          ('Man: What is her advice?',
+           ('Ask how a list was assembled before reading it.',
+            'Collect more convergent cases.',
+            'Yes, she gives advice.',
+            'Avoid comparisons.'),
+           0,
+           'The habit she wants is about reading a list critically rather than about any '
+           'particular conclusion.')],
+ 'script': [('Woman',
+             'The textbook list of convergent cases is remarkable, and I want to ask a '
+             'question about the list rather than about any case on it. Why is it so '
+             'remarkable? One answer is that the world is remarkably regular. Another is '
+             'that a case gets onto the list by being striking, and a case that is not '
+             'striking never gets written up at all. Those two answers are not easy to '
+             'separate, and nobody has tried very hard. Here is the thought experiment I '
+             'would like you to do. Imagine the complete register: every adaptation that '
+             'arose in one lineage, with a column recording whether anything comparable '
+             'arose anywhere else under comparable conditions. That register would let you '
+             'state a rate, and a rate is what the convergence argument actually needs. We '
+             'do not have it and we are not going to, because the adaptations that arose '
+             'once and stayed once are not interesting enough to publish and in most cases '
+             'not preserved well enough to find. So the practical advice is narrow. So when '
+             'you meet a list of striking cases in any field at all, ask how a case got onto '
+             'that list before you ask what the cases on it have in common. That question '
+             'costs you nothing at all, and it has saved me from two bad paragraphs this '
+             'term alone.')],
+ 'items': [('What are the two answers she gives to why the list is remarkable?',
+            ('The world is regular, or striking cases get collected',
+             'The dating is wrong, or the cases are rare',
+             'Physics, or selection',
+             'Publication is slow, or evidence is thin'),
+            0,
+            'She sets the regularity of the world against the way the list assembles itself, '
+            'and says the two are hard to separate.'),
+           ('What would the complete register record?',
+            ('Only the convergent cases',
+             'Whether anything comparable arose elsewhere under comparable conditions',
+             'The age of each lineage',
+             'The physics of each adaptation'),
+            1,
+            'The extra column is the non-recurrences, which is what turns a list into a '
+            'rate.'),
+           ('Why does she say the register will never exist?',
+            ('Nobody is interested in convergence',
+             'Single occurrences are not publishable and are often not preserved',
+             'The fossil record is complete',
+             'Rates cannot be calculated'),
+            1,
+            'Not interesting enough to publish and in most cases not preserved well enough '
+            'to find.'),
+           ('What does the convergence argument actually need, by her account?',
+            ('More striking cases', 'A rate', 'Better dating', 'A physical model'),
+            1,
+            'A rate is what the argument needs, and a rate requires the denominator the '
+            'register would supply.'),
+           ('What does she say the question costs?',
+            ('A great deal of extra reading',
+             'Nothing',
+             'Two paragraphs a term',
+             'More fossils'),
+            1,
+            'That question costs you nothing, and she adds that it has saved her from two '
+            'bad paragraphs this term.')]}
+UNIT['w4'] = {'sub': 'Convergent forms',
+ 'skill': ('Participle clauses that carry a second claim',
+           ['A participle clause attaches extra information to a subject without a second '
+            'main verb: arising independently, the two forms converge.',
+            'The participle must belong to the subject of the main clause, or the sentence '
+            'says something you did not intend.',
+            'Having been plus a past participle puts one event clearly before another, which '
+            'is what a comparison across lineages needs.']),
+ 'guided': [('You want to say the lineages had already separated when the eye appeared.',
+             ['having',
+              'separated',
+              'long before',
+              'any eye',
+              'existed',
+              'the two',
+              'lineages',
+              'cannot',
+              'have',
+              'inherited',
+              'it'],
+             'Having separated long before any eye existed, the two lineages cannot have '
+             'inherited it.'),
+            ('You want to say that collecting striking cases distorts the result.',
+             ['assembled',
+              'from',
+              'the cases',
+              'that',
+              'struck',
+              'somebody',
+              'as',
+              'remarkable',
+              'the list',
+              'overstates',
+              'the regularity'],
+             'Assembled from the cases that struck somebody as remarkable, the list '
+             'overstates the regularity.'),
+            ('You want to say the method limits itself.',
+             ['requiring',
+              'cases',
+              'that',
+              'are',
+              'genuinely',
+              'independent',
+              'the method',
+              'sets',
+              'its own',
+              'limits'],
+             'Requiring cases that are genuinely independent, the method sets its own '
+             'limits.')],
+ 'exam': [('You want to say the two readings cannot be separated by comparison alone.',
+           ['making',
+            'different',
+            'predictions',
+            'about',
+            'uncollected',
+            'cases',
+            'the two',
+            'readings',
+            'remain',
+            'empirically',
+            'distinct'],
+           'Making different predictions about uncollected cases, the two readings remain '
+           'empirically distinct.'),
+          ('You want to report a paper that counted wrongly.',
+           ['counting',
+            'one origin',
+            'four times',
+            'the paper',
+            'reported',
+            'eleven',
+            'independent',
+            'origins',
+            'where',
+            'eight',
+            'had'],
+           'Counting one origin four times, the paper reported eleven independent origins '
+           'where eight had.'),
+          ('You want to concede a case while rejecting the inference.',
+           ['accepting',
+            'every case',
+            'on the list',
+            'one',
+            'can still',
+            'reject',
+            'the account',
+            'of',
+            'what',
+            'they',
+            'show'],
+           'Accepting every case on the list, one can still reject the account of what they '
+           'show.'),
+          ('You want to say a constraint was established and its source was not.',
+           ['establishing',
+            'a constraint',
+            'without',
+            'identifying',
+            'its',
+            'source',
+            'convergence',
+            'leaves',
+            'the question',
+            'open',
+            'here'],
+           'Establishing a constraint without identifying its source, convergence leaves the '
+           'question open here.'),
+          ('You want to say the repetitions were not arranged by anybody.',
+           ['run',
+            'by',
+            'the world',
+            'rather than',
+            'by',
+            'an',
+            'investigator',
+            'the repetitions',
+            'are',
+            'nonetheless',
+            'evidence'],
+           'Run by the world rather than by an investigator, the repetitions are nonetheless '
+           'evidence.')]}
+UNIT['w5'] = {'sub': 'Convergent forms',
+ 'prof': 'Dr Nkemelu',
+ 'question': 'A second-year module has three weeks for the convergence literature. It can '
+             'spend them on the case studies, which is where the field’s evidence is, or on '
+             'how that case list was assembled, which is where its weakness is. Which should '
+             'it do, and what is lost?',
+ 'posts': [('Rafael',
+            'm',
+            'The cases, and I would not spend a day on the other thing. A student who cannot '
+            'describe four convergent systems in detail has no standing to criticise how '
+            'they were collected, and criticism without that standing is just fashionable '
+            'doubt.'),
+           ('Ingrid',
+            'w',
+            'Three weeks of case studies produces students who can recite the list and have '
+            'never asked where it came from, which is the failure the talk described. The '
+            'sampling problem generalises to every literature they will ever read. The '
+            'octopus eye does not.')],
+ 'skill': ('A question about what three weeks should buy',
+           ['Rafael is arguing about what entitles somebody to criticise; Ingrid about what '
+            'transfers beyond the module.',
+            'Use both passages: the second one accepts every case and still reinterprets the '
+            'pattern, which suggests the two are not separable.',
+            'Name what you give up. A module with three weeks is a question about cost, and '
+            'an answer that gives up nothing is not an answer.']),
+ 'starters': ['Ingrid is right that…, although that holds only once…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passages suggest…',
+              'What follows is not… but…'],
+ 'model': ['Ingrid is right about what transfers, although her case is weaker than she makes '
+           'it: the sampling problem does not generalise usefully to a student who has no '
+           'example of it in mind. Rafael’s standing argument has the better of the exchange '
+           'on that narrow point, and it does not get him to three weeks of case studies.',
+           'The second passage is the evidence against treating them as separate. It accepts '
+           'every case on the list and reinterprets the whole pattern, which is a '
+           'demonstration that the cases and the criticism of the collection are the same '
+           'intellectual operation performed twice.',
+           'So the module should take two convergent systems rather than four, in the detail '
+           'Rafael wants, and then spend the whole of the third week asking what a complete '
+           'register of the field would have to contain before it could tell anybody a rate. '
+           'What is given up is breadth, and the students will not be able to list the '
+           'standard examples. That is a real cost and it is the right one, because a '
+           'student who has watched one list fail to be a sample will treat every later list '
+           'as one, in this field and in the three others they will study after it.'],
+ 'model_words': 207}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Convergent forms',
+  'focus': 'putting a participle clause first and landing on the main subject',
+  'skill': ('Having separated long before, the two lineages cannot have inherited it',
+            ['The participle clause comes first and takes a rising tone, so the listener '
+             'knows a main clause is still coming.',
+             'Drop your pitch on the subject of the main clause. That is the signal that the '
+             'sentence has arrived.',
+             'Do not pause inside the participle clause. One breath to the comma, then the '
+             'main clause.']),
+  'repeat': ['Requiring independent cases, the method limits itself.',
+             'Having separated long before, they cannot have inherited it.',
+             'Assembled from striking cases, the list overstates the pattern.',
+             'Accepting every case, one can still reject the account.',
+             'Run by the world rather than by an investigator, the repetitions are evidence.',
+             'Counting one origin four times, the paper reported eleven where eight had '
+             'occurred.',
+             'Establishing a constraint without identifying its source, convergence leaves '
+             'the interesting question open.'],
+  'theme': 'two people arriving at the same answer separately',
+  'qs': ['Tell me about a time you and somebody else arrived at the same idea independently. '
+         'How did you find out?',
+         'Some people say that if two experts agree, the conclusion is probably right. How '
+         'far would you agree with that?',
+         'If you wanted to show that two solutions were arrived at independently rather than '
+         'copied, what would you look for?',
+         'Finally, think of a list of striking examples you have been taught. What might '
+         'have been left off it?'],
+  'model': [(2,
+             'Only if they reached it separately, and most of the time they have not. Two '
+             'specialists trained in the same place reading the same literature are close to '
+             'one observation, and I would want to know how far apart they really were '
+             'before I counted the agreement for anything.'),
+            (4,
+             'The failures, almost always. Every list of successful adaptations I have been '
+             'given was a list of the ones somebody thought worth the page, and the '
+             'denominator was never printed anywhere.')],
+  'selfcheck': ['I kept the participle clause in one breath and dropped on the main subject',
+                'I used at least two of the unit’s field words',
+                'I said what would count as independence, not just that it matters']},
+ {'sub': 'Convergent forms',
+  'focus': 'offering a second explanation without rejecting the evidence',
+  'skill': ('I accept the cases and I read them differently',
+            ['Say what you accept first and at full length. A concession delivered quickly '
+             'sounds like a formality and the examiner hears that.',
+             'Mark the turn with a clear stress on the contrast word, then slow down for '
+             'your own reading.',
+             'End on your own account rather than on theirs, because the last thing you say '
+             'is the thing that is remembered.']),
+  'repeat': ['Very few solutions were physically available.',
+             'The interesting information may be in the physics.',
+             'I accept the cases and I read them differently.',
+             'Convergence establishes a constraint and leaves its source open.',
+             'Repetition is evidence, and the question is evidence of what.',
+             'Nobody maintains a register of the adaptations that failed to recur.',
+             'A method that gathers its examples by how remarkable they are will overstate '
+             'the regularity of the world.'],
+  'theme': 'reading the same evidence a different way',
+  'qs': ['Describe a time you agreed with somebody about the facts and disagreed about what '
+         'they meant.',
+         'Some people think that a disagreement about interpretation is really just a '
+         'disagreement about words. What do you think?',
+         'How should a textbook present a pattern that specialists explain in two different '
+         'ways?',
+         'Finally, tell me about an explanation you once accepted and later found too '
+         'simple. What made you change it?'],
+  'model': [(2,
+             'Sometimes it is, and the test is whether the two sides expect anything '
+             'different to happen. If they do, the disagreement is real and you can go and '
+             'look. If nothing would distinguish them, then I think the complaint about '
+             'words is fair.'),
+            (3,
+             'With both readings and the case that would separate them. A textbook that '
+             'gives one explanation and calls it the finding leaves a student unable to read '
+             'the next paper, which is the one thing the textbook is for.')],
+  'selfcheck': ['I gave the concession at full length before turning',
+                'I stressed the contrast and slowed for my own reading',
+                'I finished on my own account']}]
