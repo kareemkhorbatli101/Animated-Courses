@@ -30,6 +30,30 @@ import check                                            # noqa: E402
 LEVEL = {5: 'B2', 6: 'C1'}
 
 
+def gaps(text):
+    """Turn 'attac[hed]' into 'attac---' plus the answer 'hed'.
+
+    Complete the Words is gated on the dash run matching the answer letter
+    for letter, which is the one thing in a unit that cannot be authored by
+    eye: a forty-word paragraph with ten gaps was the commonest single
+    failure in the Foundation work. Writing the ending in brackets makes the
+    two impossible to disagree.
+    """
+    out, ans, i = [], [], 0
+    while i < len(text):
+        ch = text[i]
+        if ch == '[':
+            j = text.index(']', i)
+            end = text[i + 1:j]
+            out.append('-' * len(end))
+            ans.append(end)
+            i = j + 1
+        else:
+            out.append(ch)
+            i += 1
+    return ''.join(out), ans
+
+
 def taught_before(n):
     """Every head word and name a student on the series path has met."""
     out, names = [], []
