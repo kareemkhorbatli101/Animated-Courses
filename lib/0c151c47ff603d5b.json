@@ -1,0 +1,315 @@
+{
+ "schema": "timeline/1",
+ "duration": 193.311,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.488,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.288,
+    "dur": 7.368,
+    "en": "This is Part 1, Check What You Know. You will say what each reading means, then answer the book's questions.",
+    "ar": "هذا الجزء الأوّل، تحقّق ممّا تعرفه. ستقول معنى كلّ قراءة، ثمّ تجيب عن أسئلة الكتاب."
+   },
+   {
+    "start": 16.006,
+    "dur": 5.88,
+    "en": "Now a reading, and what it tells you. Five readings, five meanings.",
+    "ar": "الآن قراءة، وما تقوله لك. خمس قراءات، وخمسة معانٍ."
+   },
+   {
+    "start": 22.236,
+    "dur": 4.152,
+    "en": "Low tyre pressure. What does that tell you?",
+    "ar": "ضغط إطار منخفض. ماذا يقول لك ذلك؟"
+   },
+   {
+    "start": 31.917,
+    "dur": 2.424,
+    "en": "The tyre needs more air.",
+    "ar": "الإطار يحتاج مزيداً من الهواء."
+   },
+   {
+    "start": 34.691,
+    "dur": 3.768,
+    "en": "Worn tread. What does that tell you?",
+    "ar": "مداس مهترئ. ماذا يقول لك ذلك؟"
+   },
+   {
+    "start": 43.577,
+    "dur": 3.024,
+    "en": "The tyre is old and must be changed.",
+    "ar": "الإطار قديم ويجب تغييره."
+   },
+   {
+    "start": 46.951,
+    "dur": 4.272,
+    "en": "Low battery voltage. What does that tell you?",
+    "ar": "جهد بطارية منخفض. ماذا يقول لك ذلك؟"
+   },
+   {
+    "start": 56.87,
+    "dur": 2.184,
+    "en": "The battery is weak.",
+    "ar": "البطارية ضعيفة."
+   },
+   {
+    "start": 59.404,
+    "dur": 4.2,
+    "en": "High engine temperature. What does that tell you?",
+    "ar": "درجة حرارة محرّك مرتفعة. ماذا يقول لك ذلك؟"
+   },
+   {
+    "start": 69.487,
+    "dur": 2.328,
+    "en": "The engine is too hot.",
+    "ar": "المحرّك ساخن جدّاً."
+   },
+   {
+    "start": 72.165,
+    "dur": 4.08,
+    "en": "And a correct reading. What does that tell you?",
+    "ar": "وقراءة صحيحة. ماذا تقول لك؟"
+   },
+   {
+    "start": 82.009,
+    "dur": 2.736,
+    "en": "Everything is within the tolerance.",
+    "ar": "كلّ شيء داخل الحدّ المسموح."
+   },
+   {
+    "start": 85.095,
+    "dur": 7.752,
+    "en": "One meaning was not needed: the tyre is brand new. A reading tells you what IS, not what you hope.",
+    "ar": "معنى واحد لم يكن مطلوباً: الإطار جديد تماماً. القراءة تقول لك ما هو كائن، لا ما ترجوه."
+   },
+   {
+    "start": 93.197,
+    "dur": 2.976,
+    "en": "What unit is tyre pressure measured in?",
+    "ar": "بأيّ وحدة يُقاس ضغط الإطار؟"
+   },
+   {
+    "start": 101.467,
+    "dur": 5.16,
+    "en": "Bar or psi. Not millimetres, volts or degrees.",
+    "ar": "البار أو الرطل. ليس الميلّيمتر ولا الفولت ولا الدرجات."
+   },
+   {
+    "start": 106.977,
+    "dur": 2.112,
+    "en": "What does a gauge do?",
+    "ar": "ماذا يفعل المقياس؟"
+   },
+   {
+    "start": 113.325,
+    "dur": 5.136,
+    "en": "It shows a measurement. It does not lift the car or turn bolts.",
+    "ar": "يُظهر قياساً. لا يرفع السيارة ولا يدوّر البراغي."
+   },
+   {
+    "start": 118.811,
+    "dur": 2.064,
+    "en": "What is tolerance?",
+    "ar": "ما هو الحدّ المسموح؟"
+   },
+   {
+    "start": 124.934,
+    "dur": 5.952,
+    "en": "The correct level, or the allowed range. It is not a tool and not a part.",
+    "ar": "المستوى الصحيح، أو المجال المسموح. ليس أداة ولا قطعة."
+   },
+   {
+    "start": 131.236,
+    "dur": 9.0,
+    "en": "Four sentences to complete, and every one of them names a tool or a number. The word bank is pressure, tread, voltage and gauge.",
+    "ar": "أربع جمل لإكمالها، وكلّ واحدة منها تسمّي أداة أو رقماً. بنك الكلمات هو: الضغط، المداس، الجهد، والمقياس."
+   },
+   {
+    "start": 140.586,
+    "dur": 3.192,
+    "en": "Check the tyre blank before a long trip.",
+    "ar": "تحقّق من فراغ الإطار قبل رحلة طويلة."
+   },
+   {
+    "start": 149.131,
+    "dur": 4.68,
+    "en": "Pressure. Check the tyre pressure before a long trip.",
+    "ar": "الضغط. تحقّق من ضغط الإطار قبل رحلة طويلة."
+   },
+   {
+    "start": 154.161,
+    "dur": 3.216,
+    "en": "If the blank is worn, change the tyre.",
+    "ar": "إذا كان الفراغ مهترئاً، غيّر الإطار."
+   },
+   {
+    "start": 162.612,
+    "dur": 4.488,
+    "en": "Tread. If the tread is worn, change the tyre.",
+    "ar": "المداس. إذا كان المداس مهترئاً، غيّر الإطار."
+   },
+   {
+    "start": 167.45,
+    "dur": 2.808,
+    "en": "A weak battery has a low blank.",
+    "ar": "البطارية الضعيفة لها فراغ منخفض."
+   },
+   {
+    "start": 175.081,
+    "dur": 4.584,
+    "en": "Voltage. A weak battery has a low voltage.",
+    "ar": "جهد. البطارية الضعيفة لها جهد منخفض."
+   },
+   {
+    "start": 180.015,
+    "dur": 2.544,
+    "en": "Measure the pressure with a blank.",
+    "ar": "قِس الضغط بفراغ."
+   },
+   {
+    "start": 187.559,
+    "dur": 4.152,
+    "en": "A gauge. Measure the pressure with a gauge.",
+    "ar": "مقياس. قِس الضغط بمقياس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 16.006,
+    "hold": 1.52,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 20.661,
+    "hold": 11.21,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 32.891,
+    "hold": 10.64,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 58.179,
+    "hold": 11.26,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 71.015,
+    "hold": 10.94,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 82.009,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 92.06,
+    "hold": 9.36,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 105.627,
+    "hold": 7.65,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 117.348,
+    "hold": 7.54,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 136.898,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 149.131,
+    "hold": 3.03,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 153.098,
+    "hold": 12.74,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 187.559,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

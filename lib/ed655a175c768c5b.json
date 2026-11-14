@@ -1,0 +1,249 @@
+{
+ "schema": "timeline/1",
+ "duration": 180.429,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 7.824,
+    "en": "This is Part 7, the Management File. You will hear a manager and a technician go through a diagnostic report.",
+    "ar": "هذا الجزء السابع، ملفّ الإدارة. ستسمع مديراً وفنّيّة يستعرضان تقرير تشخيص."
+   },
+   {
+    "start": 16.366,
+    "dur": 6.312,
+    "en": "This part is for the manager. Four things a manager says, and what each one is for.",
+    "ar": "هذا الجزء للمدير. أربعة أمور يقولها المدير، وما الغرض من كلّ منها."
+   },
+   {
+    "start": 23.028,
+    "dur": 4.944,
+    "en": "Which tyre is the most worn? What is that question for?",
+    "ar": "أيّ إطار هو الأكثر اهتراءً؟ ما الغرض من هذا السؤال؟"
+   },
+   {
+    "start": 34.207,
+    "dur": 5.904,
+    "en": "Asking for the top or the extreme. That is what a superlative asks for.",
+    "ar": "طلب الأعلى أو الأقصى. وهذا ما تطلبه صيغة التفضيل."
+   },
+   {
+    "start": 40.461,
+    "dur": 4.92,
+    "en": "Is this reading within the tolerance? What is that for?",
+    "ar": "هل هذه القراءة داخل الحدّ المسموح؟ ما الغرض من هذا؟"
+   },
+   {
+    "start": 51.617,
+    "dur": 2.88,
+    "en": "Checking whether a reading is correct.",
+    "ar": "التحقّق من صحّة القراءة."
+   },
+   {
+    "start": 54.847,
+    "dur": 4.944,
+    "en": "This battery is lower than last time. What is that for?",
+    "ar": "هذه البطارية أدنى من المرّة الماضية. ما الغرض من هذا؟"
+   },
+   {
+    "start": 66.026,
+    "dur": 2.4,
+    "en": "Comparing two readings.",
+    "ar": "مقارنة قراءتين."
+   },
+   {
+    "start": 68.776,
+    "dur": 4.488,
+    "en": "Change the rear left tyre. What is that for?",
+    "ar": "غيّر الإطار الخلفي الأيسر. ما الغرض من هذا؟"
+   },
+   {
+    "start": 78.852,
+    "dur": 2.256,
+    "en": "Giving an instruction.",
+    "ar": "إعطاء تعليم."
+   },
+   {
+    "start": 81.458,
+    "dur": 7.656,
+    "en": "One purpose was not needed: welcoming a customer. A manager does that at reception, not over a report.",
+    "ar": "غرض واحد لم يكن مطلوباً: الترحيب بالعميل. يفعل المدير ذلك في الاستقبال، لا على تقرير."
+   },
+   {
+    "start": 89.464,
+    "dur": 4.464,
+    "en": "Now listen to a manager and a technician go through a report together.",
+    "ar": "الآن استمع إلى مدير وفنّيّة يستعرضان تقريراً معاً."
+   },
+   {
+    "start": 94.278,
+    "dur": 5.976,
+    "en": "Lina, let us look at this diagnostic report together. How is the battery?",
+    "ar": "لينا، دعينا ننظر في تقرير التشخيص هذا معاً. كيف البطارية؟"
+   },
+   {
+    "start": 100.604,
+    "dur": 9.456,
+    "en": "It is low. Twelve point one volts. The tolerance is twelve point four to twelve point seven, so it is below the tolerance.",
+    "ar": "منخفضة. اثنا عشر فاصلة واحد فولت. والحدّ المسموح من اثني عشر فاصلة أربعة إلى اثني عشر فاصلة سبعة، فهي تحت الحدّ المسموح."
+   },
+   {
+    "start": 110.41,
+    "dur": 1.872,
+    "en": "And the tyres?",
+    "ar": "والإطارات؟"
+   },
+   {
+    "start": 112.632,
+    "dur": 6.144,
+    "en": "The rear left is the most worn, only two millimetres. The others are fine.",
+    "ar": "الخلفي الأيسر هو الأكثر اهتراءً، ميلّيمتران فقط. والبقيّة جيّدة."
+   },
+   {
+    "start": 119.126,
+    "dur": 3.096,
+    "en": "Is anything else outside the tolerance?",
+    "ar": "هل هناك شيء آخر خارج الحدّ المسموح؟"
+   },
+   {
+    "start": 122.572,
+    "dur": 4.704,
+    "en": "No. The pressure and the temperature are within the limits.",
+    "ar": "لا. الضغط ودرجة الحرارة داخل الحدود."
+   },
+   {
+    "start": 127.626,
+    "dur": 7.368,
+    "en": "Good work. Charge the battery and change the rear left tyre. The report is clear.",
+    "ar": "عمل جيّد. اشحني البطارية وغيّري الإطار الخلفي الأيسر. التقرير واضح."
+   },
+   {
+    "start": 135.344,
+    "dur": 4.104,
+    "en": "What is the battery voltage, and is it within the tolerance?",
+    "ar": "كم جهد البطارية، وهل هو داخل الحدّ المسموح؟"
+   },
+   {
+    "start": 145.978,
+    "dur": 4.224,
+    "en": "Twelve point one volts, and no, it is below the tolerance.",
+    "ar": "اثنا عشر فاصلة واحد فولت، ولا، هو تحت الحدّ المسموح."
+   },
+   {
+    "start": 150.552,
+    "dur": 2.64,
+    "en": "Which tyre is the most worn?",
+    "ar": "أيّ إطار هو الأكثر اهتراءً؟"
+   },
+   {
+    "start": 157.839,
+    "dur": 1.872,
+    "en": "The rear left.",
+    "ar": "الخلفي الأيسر."
+   },
+   {
+    "start": 160.061,
+    "dur": 2.688,
+    "en": "What does Maher tell Lina to do?",
+    "ar": "بماذا يأمر ماهر لينا؟"
+   },
+   {
+    "start": 167.631,
+    "dur": 3.576,
+    "en": "Charge the battery and change the rear left tyre.",
+    "ar": "أن تشحن البطارية وتغيّر الإطار الخلفي الأيسر."
+   },
+   {
+    "start": 171.557,
+    "dur": 7.272,
+    "en": "Notice the order of that conversation. Every question was about a number, and the instruction came last.",
+    "ar": "لاحظ ترتيب تلك المحادثة. كلّ سؤال كان عن رقم، والتعليم جاء أخيراً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 22.503,
+    "hold": 11.65,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 39.936,
+    "hold": 11.63,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 102.817,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 112.157,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 122.86,
+    "hold": 3.0,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 134.457,
+    "hold": 11.47,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 150.027,
+    "hold": 7.76,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

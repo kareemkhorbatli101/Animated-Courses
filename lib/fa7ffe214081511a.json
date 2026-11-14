@@ -1,0 +1,186 @@
+{
+ "schema": "timeline/1",
+ "duration": 152.743,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 7.56,
+    "en": "This is Part 3, Planning the Day. You will hear six cars shared out, and the one rule that does not change.",
+    "ar": "هذا الجزء الثالث، التخطيط لليوم. ستسمع توزيع ستّ سيارات، والقاعدة الواحدة التي لا تتغيّر."
+   },
+   {
+    "start": 16.558,
+    "dur": 6.096,
+    "en": "Before you listen, think about this. How does a manager share out the day's cars?",
+    "ar": "قبل أن تستمع، فكّر في هذا. كيف يوزّع المدير سيارات اليوم؟"
+   },
+   {
+    "start": 23.004,
+    "dur": 6.0,
+    "en": "Good morning. Let us plan the day. We have six cars.",
+    "ar": "صباح الخير. دعونا نخطّط لليوم. لدينا ستّ سيارات."
+   },
+   {
+    "start": 29.354,
+    "dur": 4.584,
+    "en": "Mr Aboud's car is booked in first; it is serviced by Nabil.",
+    "ar": "سيارة السيّد عبّود تُسجَّل أوّلاً؛ وتُصان من قبل نبيل."
+   },
+   {
+    "start": 34.288,
+    "dur": 6.096,
+    "en": "The second car is a big job. The brakes are inspected and repaired by Lina.",
+    "ar": "السيارة الثانية عمل كبير. المكابح تُفحَص وتُصلَح من قبل لينا."
+   },
+   {
+    "start": 40.734,
+    "dur": 4.224,
+    "en": "Two more cars are serviced this morning, and two this afternoon.",
+    "ar": "سيارتان أخريان تُصانان هذا الصباح، واثنتان بعد الظهر."
+   },
+   {
+    "start": 45.308,
+    "dur": 5.04,
+    "en": "Every car is road-tested and checked by the quality team before it is handed over.",
+    "ar": "كلّ سيارة تُختبَر على الطريق وتُفحَص من قبل فريق الجودة قبل أن تُسلَّم."
+   },
+   {
+    "start": 50.698,
+    "dur": 4.416,
+    "en": "Tarek, the parts are collected from the store and put in each bay.",
+    "ar": "طارق، القطع تُجمَع من المخزن وتُوضَع في كلّ موقع."
+   },
+   {
+    "start": 55.464,
+    "dur": 8.544,
+    "en": "Remember: each step is written on the job card, and no car is handed over until it is checked. A clear plan keeps the day calm.",
+    "ar": "تذكّروا: كلّ خطوة تُكتب على بطاقة العمل، ولا تُسلَّم سيارة حتّى تُفحَص. والخطّة الواضحة تُبقي اليوم هادئاً."
+   },
+   {
+    "start": 64.358,
+    "dur": 3.288,
+    "en": "Now match each one with what happens to it.",
+    "ar": "الآن طابق كلّ واحد مع ما يحدث له."
+   },
+   {
+    "start": 67.996,
+    "dur": 2.016,
+    "en": "The second car.",
+    "ar": "السيارة الثانية."
+   },
+   {
+    "start": 74.012,
+    "dur": 3.048,
+    "en": "It is inspected and repaired by Lina.",
+    "ar": "تُفحَص وتُصلَح من قبل لينا."
+   },
+   {
+    "start": 77.41,
+    "dur": 1.872,
+    "en": "Every car.",
+    "ar": "كلّ سيارة."
+   },
+   {
+    "start": 83.282,
+    "dur": 3.456,
+    "en": "It is road-tested and checked before handover.",
+    "ar": "تُختبَر على الطريق وتُفحَص قبل التسليم."
+   },
+   {
+    "start": 87.088,
+    "dur": 1.872,
+    "en": "The parts.",
+    "ar": "القطع."
+   },
+   {
+    "start": 92.96,
+    "dur": 3.624,
+    "en": "They are collected and put in each bay by Tarek.",
+    "ar": "تُجمَع وتُوضَع في كلّ موقع من قبل طارق."
+   },
+   {
+    "start": 96.934,
+    "dur": 1.92,
+    "en": "And each step.",
+    "ar": "وكلّ خطوة."
+   },
+   {
+    "start": 102.854,
+    "dur": 2.616,
+    "en": "It is written on the job card.",
+    "ar": "تُكتب على بطاقة العمل."
+   },
+   {
+    "start": 105.82,
+    "dur": 6.768,
+    "en": "One was not needed: sold to another customer. Nothing in a service centre is sold.",
+    "ar": "واحدة لم تكن مطلوبة: تُبَاع لعميل آخر. ولا شيء في مركز الصيانة يُبَاع."
+   },
+   {
+    "start": 112.938,
+    "dur": 7.464,
+    "en": "Four times in that plan I said by, and named a person. Why did I need the doer there, when the process does not?",
+    "ar": "أربع مرّات في تلك الخطّة قلت by، وسمّيت شخصاً. لماذا احتجت الفاعل هناك، والعمليّة لا تحتاجه؟"
+   },
+   {
+    "start": 128.402,
+    "dur": 6.984,
+    "en": "Because sharing out work is about who. The process is the same every day; the names change every day.",
+    "ar": "لأنّ توزيع العمل يتعلّق بمن يفعل. العمليّة واحدة كلّ يوم؛ والأسماء تتغيّر كلّ يوم."
+   },
+   {
+    "start": 135.736,
+    "dur": 5.4,
+    "en": "And one sentence in the plan was a rule, not a job. Which one?",
+    "ar": "وجملة واحدة في الخطّة كانت قاعدة، لا مهمّة. أيّها؟"
+   },
+   {
+    "start": 147.783,
+    "dur": 3.36,
+    "en": "No car is handed over until it is checked.",
+    "ar": "لا تُسلَّم سيارة حتّى تُفحَص."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 55.502,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 102.854,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

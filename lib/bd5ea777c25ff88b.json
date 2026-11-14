@@ -1,0 +1,333 @@
+{
+ "schema": "timeline/1",
+ "duration": 200.941,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 7.584,
+    "en": "This is Part 10, the Spiral Review. Every Unit 4 answer, asked once - and one from Unit 3.",
+    "ar": "هذا الجزء العاشر، المراجعة التراكمية. كلّ جواب في الوحدة الرابعة، يُسأل مرّة - وواحد من الوحدة الثالثة."
+   },
+   {
+    "start": 16.126,
+    "dur": 7.176,
+    "en": "Five sentences to complete. The book does the first one: a tool that shows a measurement is a gauge.",
+    "ar": "خمس جمل لإكمالها. الكتاب يحلّ الأولى: الأداة التي تُظهر قياساً هي المقياس."
+   },
+   {
+    "start": 23.652,
+    "dur": 4.08,
+    "en": "How hard the air pushes inside a tyre is the tyre blank.",
+    "ar": "مقدار دفع الهواء داخل الإطار هو فراغ الإطار."
+   },
+   {
+    "start": 34.026,
+    "dur": 3.576,
+    "en": "Pressure. The tyre pressure.",
+    "ar": "الضغط. ضغط الإطار."
+   },
+   {
+    "start": 37.952,
+    "dur": 4.392,
+    "en": "The correct level, or allowed range, for a reading is the blank.",
+    "ar": "المستوى الصحيح، أو المجال المسموح، للقراءة هو الفراغ."
+   },
+   {
+    "start": 49.109,
+    "dur": 1.872,
+    "en": "Tolerance.",
+    "ar": "الحدّ المسموح."
+   },
+   {
+    "start": 51.331,
+    "dur": 5.4,
+    "en": "This tyre is blank worn than that one. This one is a comparative.",
+    "ar": "هذا الإطار فراغ اهتراءً من ذاك. وهذه صيغة مقارنة."
+   },
+   {
+    "start": 63.554,
+    "dur": 4.368,
+    "en": "More. This tyre is more worn than that one.",
+    "ar": "more. هذا الإطار أكثر اهتراءً من ذاك."
+   },
+   {
+    "start": 68.272,
+    "dur": 5.664,
+    "en": "This is the blank worn tyre of all four. This one is a superlative.",
+    "ar": "هذا هو الإطار الفراغ اهتراءً من الأربعة. وهذه صيغة تفضيل."
+   },
+   {
+    "start": 80.878,
+    "dur": 4.8,
+    "en": "Most. This is the most worn tyre of all four.",
+    "ar": "most. هذا هو الإطار الأكثر اهتراءً من الأربعة."
+   },
+   {
+    "start": 86.028,
+    "dur": 6.12,
+    "en": "Safety gear like gloves and glasses is called blank. This one is from Unit 3.",
+    "ar": "معدّات السلامة كالقفّازات والنظّارات تُسمّى الفراغ. وهذه من الوحدة الثالثة."
+   },
+   {
+    "start": 99.677,
+    "dur": 4.584,
+    "en": "PPE. Personal protective equipment.",
+    "ar": "معدّات الوقاية. معدّات الوقاية الشخصية."
+   },
+   {
+    "start": 104.611,
+    "dur": 7.728,
+    "en": "Now the ten words of the unit, one more time, and quickly. I say the meaning; you say the word.",
+    "ar": "الآن كلمات الوحدة العشر، مرّة أخرى، وبسرعة. أقول المعنى؛ وتقول الكلمة."
+   },
+   {
+    "start": 112.689,
+    "dur": 2.64,
+    "en": "A tool that shows a measurement.",
+    "ar": "أداة تُظهر قياساً."
+   },
+   {
+    "start": 120.211,
+    "dur": 1.872,
+    "en": "A gauge.",
+    "ar": "المقياس."
+   },
+   {
+    "start": 122.433,
+    "dur": 3.024,
+    "en": "How deep the grooves on a tyre are.",
+    "ar": "مدى عمق الأخاديد في الإطار."
+   },
+   {
+    "start": 130.516,
+    "dur": 1.968,
+    "en": "The tread depth.",
+    "ar": "عمق المداس."
+   },
+   {
+    "start": 132.834,
+    "dur": 3.528,
+    "en": "The amount of electric power, in volts.",
+    "ar": "مقدار الطاقة الكهربائية، بالفولت."
+   },
+   {
+    "start": 141.656,
+    "dur": 1.872,
+    "en": "The voltage.",
+    "ar": "الجهد الكهربائي."
+   },
+   {
+    "start": 143.878,
+    "dur": 2.88,
+    "en": "How hot or cold something is.",
+    "ar": "مدى سخونة الشيء أو برودته."
+   },
+   {
+    "start": 151.464,
+    "dur": 1.872,
+    "en": "The temperature.",
+    "ar": "درجة الحرارة."
+   },
+   {
+    "start": 153.686,
+    "dur": 3.144,
+    "en": "The number a tool or a meter shows.",
+    "ar": "الرقم الذي يُظهره جهاز أو مقياس."
+   },
+   {
+    "start": 161.889,
+    "dur": 1.872,
+    "en": "A reading.",
+    "ar": "القراءة."
+   },
+   {
+    "start": 164.111,
+    "dur": 5.256,
+    "en": "A tool that measures electricity, and the small unit the tread is measured in.",
+    "ar": "أداة تقيس الكهرباء، والوحدة الصغيرة التي يُقاس بها المداس."
+   },
+   {
+    "start": 176.955,
+    "dur": 2.568,
+    "en": "A meter, and a millimetre.",
+    "ar": "جهاز القياس، والميلّيمتر."
+   },
+   {
+    "start": 179.873,
+    "dur": 7.416,
+    "en": "Two of the ten are not things at all. Tolerance is a range. And worn is a condition.",
+    "ar": "اثنتان من العشر ليستا أشياء مطلقاً. الحدّ المسموح مجال. و worn حالة."
+   },
+   {
+    "start": 187.639,
+    "dur": 5.904,
+    "en": "You cannot photograph either one. That is why they are the two that get forgotten.",
+    "ar": "لا تستطيع تصوير أيّ منهما. ولهذا هما الكلمتان المنسيّتان."
+   },
+   {
+    "start": 193.893,
+    "dur": 5.448,
+    "en": "Every answer in this unit came from a number. That is the whole lesson.",
+    "ar": "كلّ جواب في هذه الوحدة جاء من رقم. وهذا هو الدرس كلّه."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 20.026,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 34.026,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 38.465,
+    "hold": 10.59,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 49.109,
+    "hold": 1.45,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 50.606,
+    "hold": 16.59,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 67.297,
+    "hold": 17.08,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 99.677,
+    "hold": 3.0,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 120.211,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 130.516,
+    "hold": 3.0,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 141.656,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 151.464,
+    "hold": 1.62,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 153.136,
+    "hold": 8.7,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 161.889,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 176.955,
+    "hold": 3.0,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 183.373,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

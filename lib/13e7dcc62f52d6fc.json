@@ -1,0 +1,165 @@
+{
+ "schema": "timeline/1",
+ "duration": 125.44,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.872,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.672,
+    "dur": 6.12,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 15.142,
+    "dur": 5.904,
+    "en": "Six words from this unit. Say each one aloud and stress the loud syllable.",
+    "ar": "ستّ كلمات من هذه الوحدة. انطق كلّ واحدة بصوت عالٍ وشدّد على المقطع القويّ."
+   },
+   {
+    "start": 21.396,
+    "dur": 6.6,
+    "en": "Inspect. in-SPECT. Two syllables, and the SECOND one is loud.",
+    "ar": "Inspect. يفحص. مقطعان، والثاني هو القويّ."
+   },
+   {
+    "start": 28.346,
+    "dur": 7.128,
+    "en": "Diagnose. DI-ag-nose. Three syllables, and the first one is loud.",
+    "ar": "Diagnose. يشخّص. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 35.824,
+    "dur": 6.744,
+    "en": "Service. SER-vice. Two syllables, and the first one is loud.",
+    "ar": "Service. الصيانة. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 42.918,
+    "dur": 7.08,
+    "en": "Quality. QUAL-i-ty. Three syllables, and the first one is loud.",
+    "ar": "Quality. الجودة. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 50.348,
+    "dur": 6.696,
+    "en": "Invoice. IN-voice. Two syllables, and the first one is loud.",
+    "ar": "Invoice. الفاتورة. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 57.394,
+    "dur": 6.648,
+    "en": "Handover. HAND-o-ver. Three syllables, and the first one is loud.",
+    "ar": "Handover. التسليم. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 64.392,
+    "dur": 6.216,
+    "en": "Five of the six words stress the first syllable. Inspect is the one that does not.",
+    "ar": "خمس من الكلمات الستّ تُشدّد على المقطع الأوّل. وكلمة inspect هي التي تخالف ذلك."
+   },
+   {
+    "start": 70.958,
+    "dur": 2.976,
+    "en": "Which syllable is loud in inspect?",
+    "ar": "أيّ مقطع هو القويّ في كلمة inspect؟"
+   },
+   {
+    "start": 78.934,
+    "dur": 3.528,
+    "en": "The second one. in-SPECT.",
+    "ar": "الثاني. in-SPECT."
+   },
+   {
+    "start": 82.812,
+    "dur": 9.696,
+    "en": "Now one pair that catches everybody. Hand over, as two words, is the action. Handover, as one word, is the thing.",
+    "ar": "الآن زوج يُخطئ فيه الجميع. hand over، بكلمتين، هي الفعل. و handover، بكلمة واحدة، هي الشيء."
+   },
+   {
+    "start": 92.858,
+    "dur": 9.624,
+    "en": "We hand over the car at three o'clock. The handover is at three o'clock. Which one is the verb, and where is the stress in the other?",
+    "ar": "we hand over the car at three o'clock. و the handover is at three o'clock. أيّهما الفعل، وأين النبر في الأخرى؟"
+   },
+   {
+    "start": 110.482,
+    "dur": 7.968,
+    "en": "Hand over, as two words, is the verb. In handover, one word, the stress is on HAND.",
+    "ar": "hand over، بكلمتين، هي الفعل. وفي handover، بكلمة واحدة، النبر على HAND."
+   },
+   {
+    "start": 118.8,
+    "dur": 5.04,
+    "en": "Say all six again, and tap the loud syllable with your hand as you say it.",
+    "ar": "قل الستّ كلّها مرّة أخرى، واطرق على المقطع القويّ بيدك وأنت تنطقه."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 19.596,
+    "hold": 3.0,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "diagnose",
+    "label": "diagnose",
+    "ar": "يشخّص",
+    "at": 26.546,
+    "hold": 3.0,
+    "img": "assets/vocab/diagnose.png",
+    "sha": "173a20e5f57cfee8"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 34.024,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 48.548,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 70.508,
+    "hold": 11.43,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "schema": "timeline/1",
+ "duration": 145.697,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.44,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.24,
+    "dur": 6.744,
+    "en": "This is Part 5, Why Numbers Matter in Diagnosis. You will read the unit's main text.",
+    "ar": "هذا الجزء الخامس، لماذا تهمّ الأرقام في التشخيص. ستقرأ نصّ الوحدة الرئيسي."
+   },
+   {
+    "start": 15.334,
+    "dur": 5.784,
+    "en": "Before you read, think about this. Is measuring better than guessing, and why?",
+    "ar": "قبل أن تقرأ، فكّر في هذا. هل القياس أفضل من التخمين، ولماذا؟"
+   },
+   {
+    "start": 21.468,
+    "dur": 4.92,
+    "en": "Three words first. Diagnosis means finding out what is wrong.",
+    "ar": "ثلاث كلمات أوّلاً. التشخيص يعني معرفة ما هو الخطأ."
+   },
+   {
+    "start": 26.738,
+    "dur": 3.168,
+    "en": "Tolerance means the correct level for a reading.",
+    "ar": "الحدّ المسموح يعني المستوى الصحيح للقراءة."
+   },
+   {
+    "start": 30.256,
+    "dur": 3.456,
+    "en": "And within limits means inside the correct range.",
+    "ar": "و within limits تعني داخل المجال الصحيح."
+   },
+   {
+    "start": 34.062,
+    "dur": 6.768,
+    "en": "Modern car maintenance is about numbers. A good mechanic does not just look at a car; he measures it.",
+    "ar": "صيانة السيارات الحديثة قوامها الأرقام. الميكانيكي الجيّد لا ينظر إلى السيارة فقط؛ بل يقيسها."
+   },
+   {
+    "start": 41.18,
+    "dur": 5.064,
+    "en": "He checks the tyre pressure with a gauge, and he measures the tread depth in millimetres.",
+    "ar": "يتحقّق من ضغط الإطارات بمقياس، ويقيس عمق المداس بالميلّيمترات."
+   },
+   {
+    "start": 46.594,
+    "dur": 5.352,
+    "en": "He checks the battery voltage with a meter, and the engine temperature with another gauge.",
+    "ar": "ويتحقّق من جهد البطارية بجهاز قياس، ومن درجة حرارة المحرّك بمقياس آخر."
+   },
+   {
+    "start": 52.296,
+    "dur": 9.576,
+    "en": "Every reading has a correct level, called the tolerance. For example, a healthy battery reads between twelve point four and twelve point seven volts.",
+    "ar": "لكلّ قراءة مستوى صحيح، يُسمّى الحدّ المسموح. مثلاً، البطارية السليمة تقرأ بين اثني عشر فاصلة أربعة واثني عشر فاصلة سبعة فولت."
+   },
+   {
+    "start": 62.222,
+    "dur": 3.624,
+    "en": "If the reading is lower than this, the battery is weak.",
+    "ar": "إذا كانت القراءة أدنى من ذلك، فالبطارية ضعيفة."
+   },
+   {
+    "start": 66.196,
+    "dur": 6.504,
+    "en": "Comparing is very important. The mechanic compares the four tyres to find the most worn one.",
+    "ar": "المقارنة مهمّة جدّاً. يقارن الميكانيكي الإطارات الأربعة ليجد الأكثر اهتراءً."
+   },
+   {
+    "start": 73.05,
+    "dur": 4.656,
+    "en": "He compares today's readings with the last service to see what has changed.",
+    "ar": "ويقارن قراءات اليوم بالصيانة الماضية ليرى ما الذي تغيّر."
+   },
+   {
+    "start": 78.056,
+    "dur": 5.904,
+    "en": "A tyre that is more worn than the others, or a battery that is lower than before, tells a story.",
+    "ar": "الإطار الأكثر اهتراءً من البقيّة، أو البطارية الأدنى من قبل، يحكي قصّة."
+   },
+   {
+    "start": 84.31,
+    "dur": 8.952,
+    "en": "The numbers help the mechanic find the fault quickly, before it becomes dangerous. In diagnosis, careful measuring is better than guessing.",
+    "ar": "الأرقام تساعد الميكانيكي على إيجاد الخلل بسرعة، قبل أن يصبح خطراً. في التشخيص، القياس الدقيق أفضل من التخمين."
+   },
+   {
+    "start": 93.612,
+    "dur": 3.168,
+    "en": "What does the mechanic measure tread depth in?",
+    "ar": "بأيّ وحدة يقيس الميكانيكي عمق المداس؟"
+   },
+   {
+    "start": 102.486,
+    "dur": 5.112,
+    "en": "Millimetres. Not volts, bar or degrees.",
+    "ar": "بالميلّيمترات. ليس بالفولت ولا البار ولا الدرجات."
+   },
+   {
+    "start": 107.948,
+    "dur": 3.552,
+    "en": "A healthy battery reads between which numbers?",
+    "ar": "البطارية السليمة تقرأ بين أيّ رقمين؟"
+   },
+   {
+    "start": 117.206,
+    "dur": 3.888,
+    "en": "Twelve point four and twelve point seven volts.",
+    "ar": "اثني عشر فاصلة أربعة واثني عشر فاصلة سبعة فولت."
+   },
+   {
+    "start": 121.444,
+    "dur": 3.408,
+    "en": "Why does the mechanic compare the four tyres?",
+    "ar": "لماذا يقارن الميكانيكي الإطارات الأربعة؟"
+   },
+   {
+    "start": 130.499,
+    "dur": 2.592,
+    "en": "To find the most worn one.",
+    "ar": "ليجد الأكثر اهتراءً."
+   },
+   {
+    "start": 133.441,
+    "dur": 10.656,
+    "en": "Count the comparatives in that text. More worn than, lower than, better than. The unit's grammar was not an exercise; it is how diagnosis is written.",
+    "ar": "عُدّ صيغ المقارنة في ذلك النصّ. more worn than، و lower than، و better than. قواعد الوحدة لم تكن تدريباً؛ بل هي الطريقة التي يُكتب بها التشخيص."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 24.938,
+    "hold": 2.5,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 27.488,
+    "hold": 2.61,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 40.005,
+    "hold": 2.5,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 42.555,
+    "hold": 2.91,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 45.932,
+    "hold": 2.5,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 48.482,
+    "hold": 2.59,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 69.846,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 93.1,
+    "hold": 9.34,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 130.499,
+    "hold": 7.13,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "schema": "bundle/2",
+ "engine": "29.31.4",
+ "fingerprint": "66ac3c08ae2d8b7b",
+ "title": "EAM Book 1 · Unit 4 · Part 3 · Checking the Tyres",
+ "duration": 112.153,
+ "set": "workshop",
+ "files": {
+  "assets/workshop_set_merged.glb": {
+   "sha": "fd1feebbdc97e092",
+   "bytes": 641556,
+   "address": "lib/fd1feebbdc97e092.glb",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 69071,
+   "meshopt": {
+    "address": "lib/31e0957574189b01.glb",
+    "sha": "31e0957574189b01",
+    "bytes": 86856,
+    "wire": 21854
+   }
+  },
+  "assets/workshop_set_noceil_merged.glb": {
+   "sha": "1199632333751ac5",
+   "bytes": 636512,
+   "address": "lib/1199632333751ac5.glb",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 68664,
+   "meshopt": {
+    "address": "lib/387728b5cd9ba702.glb",
+    "sha": "387728b5cd9ba702",
+    "bytes": 85624,
+    "wire": 21564
+   }
+  },
+  "assets/lina_401aa05496.glb": {
+   "sha": "8c8ab78bc5035fb5",
+   "bytes": 3422864,
+   "address": "lib/8c8ab78bc5035fb5.glb",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 1936642,
+   "meshopt": {
+    "address": "lib/7d10b959f13aecd0.glb",
+    "sha": "7d10b959f13aecd0",
+    "bytes": 418604,
+    "wire": 285932
+   }
+  },
+  "assets/tarek_1e615ce34f.glb": {
+   "sha": "938819d0c90d528d",
+   "bytes": 3390560,
+   "address": "lib/938819d0c90d528d.glb",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 1927616,
+   "meshopt": {
+    "address": "lib/b41bbe6f481dd4c6.glb",
+    "sha": "b41bbe6f481dd4c6",
+    "bytes": 416352,
+    "wire": 286136
+   }
+  },
+  "lines/0eeec821eada4136.mp3": {
+   "sha": "3c5e0e9a5c65d5e0",
+   "bytes": 31968,
+   "address": "lib/3c5e0e9a5c65d5e0.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 31968
+  },
+  "lines/22653d2c1a27aec6.mp3": {
+   "sha": "ff5d8acb0646a6db",
+   "bytes": 33840,
+   "address": "lib/ff5d8acb0646a6db.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 33840
+  },
+  "lines/2d5141f5711bd410.mp3": {
+   "sha": "c5ee6b6f64ab47ab",
+   "bytes": 44928,
+   "address": "lib/c5ee6b6f64ab47ab.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 44928
+  },
+  "lines/5043b85a5af4ad41.mp3": {
+   "sha": "1c302135f5f9e20f",
+   "bytes": 38304,
+   "address": "lib/1c302135f5f9e20f.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 38304
+  },
+  "lines/50c1eff653f1f5bd.mp3": {
+   "sha": "79ddf8dd825038cb",
+   "bytes": 37872,
+   "address": "lib/79ddf8dd825038cb.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 37872
+  },
+  "lines/5f2108d407a56d6d.mp3": {
+   "sha": "d989aadd8093ec01",
+   "bytes": 16416,
+   "address": "lib/d989aadd8093ec01.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 16416
+  },
+  "lines/5fb363301945b8d9.mp3": {
+   "sha": "67e438dadbbddea0",
+   "bytes": 41040,
+   "address": "lib/67e438dadbbddea0.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 41040
+  },
+  "lines/620861f36f0a82f7.mp3": {
+   "sha": "4e67b4508b7f0c9b",
+   "bytes": 39168,
+   "address": "lib/4e67b4508b7f0c9b.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 39168
+  },
+  "lines/7dd620062e8c9cf0.mp3": {
+   "sha": "5f4f2cdb8a51f875",
+   "bytes": 37440,
+   "address": "lib/5f4f2cdb8a51f875.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 37440
+  },
+  "lines/82ff282e6dbfc9ea.mp3": {
+   "sha": "f491a7beb9fd5c7e",
+   "bytes": 33840,
+   "address": "lib/f491a7beb9fd5c7e.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 33840
+  },
+  "lines/a6f72174e2e06bb0.mp3": {
+   "sha": "93e649ecaa6df10e",
+   "bytes": 19008,
+   "address": "lib/93e649ecaa6df10e.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 19008
+  },
+  "lines/b353f8563e0fe441.mp3": {
+   "sha": "a7cfaea3ca205503",
+   "bytes": 48528,
+   "address": "lib/a7cfaea3ca205503.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 48528
+  },
+  "lines/c059c9aa2a154ef4.mp3": {
+   "sha": "7b901c156a263d2f",
+   "bytes": 48240,
+   "address": "lib/7b901c156a263d2f.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 48240
+  },
+  "lines/dbdff02c6c42ebe6.mp3": {
+   "sha": "905a3aad135ee683",
+   "bytes": 22608,
+   "address": "lib/905a3aad135ee683.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 22608
+  },
+  "lines/e907f8340dfef817.mp3": {
+   "sha": "27c8944fac8d6df6",
+   "bytes": 29664,
+   "address": "lib/27c8944fac8d6df6.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 29664
+  },
+  "lines/f9e00006d3090fe0.mp3": {
+   "sha": "deacb5d957ec3367",
+   "bytes": 19728,
+   "address": "lib/deacb5d957ec3367.mp3",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 19728
+  },
+  "assets/workshop.objects.json": {
+   "sha": "bd6e626955f61742",
+   "bytes": 10194,
+   "address": "lib/bd6e626955f61742.json",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 1639
+  },
+  "scene.json": {
+   "sha": "1447b305ad3c52f4",
+   "bytes": 126831,
+   "address": "lib/1447b305ad3c52f4.json",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 13206
+  },
+  "timeline.json": {
+   "sha": "0356e47507e50472",
+   "bytes": 6010,
+   "address": "lib/0356e47507e50472.json",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 1976
+  },
+  "assets/badge.png": {
+   "sha": "cf7cfc5cbc8bff8c",
+   "bytes": 32387,
+   "address": "lib/cf7cfc5cbc8bff8c.png",
+   "licence": "LIKENESS-NOT-FOR-DISTRIBUTION (derived from a photograph of a real person)",
+   "wire": 32387
+  },
+  "assets/vocab/worn.png": {
+   "sha": "b5a8636aee86fd54",
+   "bytes": 16328,
+   "address": "lib/b5a8636aee86fd54.png",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 16328
+  },
+  "assets/vocab/tread_depth.png": {
+   "sha": "b16b19b1fc701c7f",
+   "bytes": 11896,
+   "address": "lib/b16b19b1fc701c7f.png",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 11896
+  },
+  "assets/vocab/millimetre.png": {
+   "sha": "de733b771d930589",
+   "bytes": 11875,
+   "address": "lib/de733b771d930589.png",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 11875
+  }
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "sha": "cf7cfc5cbc8bff8c",
+  "contains_photo": true
+ },
+ "served_from": "lib/",
+ "assets": [
+  {
+   "id": "lina",
+   "encodings": {
+    "exact": "8c8ab78bc5035fb5",
+    "meshopt": "7d10b959f13aecd0"
+   }
+  },
+  {
+   "id": "tarek",
+   "encodings": {
+    "exact": "938819d0c90d528d",
+    "meshopt": "b41bbe6f481dd4c6"
+   }
+  },
+  {
+   "id": "workshop_set_merged",
+   "encodings": {
+    "exact": "fd1feebbdc97e092",
+    "meshopt": "31e0957574189b01"
+   }
+  },
+  {
+   "id": "workshop_set_noceil_merged",
+   "encodings": {
+    "exact": "1199632333751ac5",
+    "meshopt": "387728b5cd9ba702"
+   }
+  }
+ ]
+}

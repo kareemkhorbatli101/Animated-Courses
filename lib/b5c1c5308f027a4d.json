@@ -1,0 +1,315 @@
+{
+ "schema": "timeline/1",
+ "duration": 174.898,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.488,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.288,
+    "dur": 7.824,
+    "en": "This is Part 1, Measuring and Diagnosis Terms. You will define seven words and fill in the measurements table.",
+    "ar": "هذا الجزء الأوّل، مصطلحات القياس والتشخيص. ستعرّف سبع كلمات وتُكمل جدول القياسات."
+   },
+   {
+    "start": 16.462,
+    "dur": 6.216,
+    "en": "Seven measuring words, and what each one means. The book gives you the first one.",
+    "ar": "سبع كلمات قياس، ومعنى كلّ واحدة. الكتاب يعطيك الأولى."
+   },
+   {
+    "start": 23.028,
+    "dur": 3.312,
+    "en": "A meter is a tool that measures electricity.",
+    "ar": "جهاز القياس أداة تقيس الكهرباء."
+   },
+   {
+    "start": 26.69,
+    "dur": 7.248,
+    "en": "Notice why that one is easy: the meaning says what the tool DOES. Look for the doing word in every meaning.",
+    "ar": "لاحظ لماذا كانت سهلة: المعنى يقول ما تفعله الأداة. ابحث عن فعل الأداء في كلّ معنى."
+   },
+   {
+    "start": 34.288,
+    "dur": 1.968,
+    "en": "What is a gauge?",
+    "ar": "ما هو المقياس؟"
+   },
+   {
+    "start": 40.256,
+    "dur": 2.568,
+    "en": "A tool that shows a measurement.",
+    "ar": "أداة تُظهر قياساً."
+   },
+   {
+    "start": 43.174,
+    "dur": 2.208,
+    "en": "What is tyre pressure?",
+    "ar": "ما هو ضغط الإطار؟"
+   },
+   {
+    "start": 49.676,
+    "dur": 3.096,
+    "en": "How hard the air pushes inside a tyre.",
+    "ar": "مقدار دفع الهواء داخل الإطار."
+   },
+   {
+    "start": 53.122,
+    "dur": 2.04,
+    "en": "What is tread depth?",
+    "ar": "ما هو عمق المداس؟"
+   },
+   {
+    "start": 59.339,
+    "dur": 2.736,
+    "en": "How deep the grooves on a tyre are.",
+    "ar": "مدى عمق الأخاديد في الإطار."
+   },
+   {
+    "start": 62.425,
+    "dur": 1.992,
+    "en": "What is voltage?",
+    "ar": "ما هو الجهد الكهربائي؟"
+   },
+   {
+    "start": 68.417,
+    "dur": 3.336,
+    "en": "The amount of electric power, in volts.",
+    "ar": "مقدار الطاقة الكهربائية، بالفولت."
+   },
+   {
+    "start": 72.103,
+    "dur": 1.968,
+    "en": "What is temperature?",
+    "ar": "ما هي درجة الحرارة؟"
+   },
+   {
+    "start": 78.247,
+    "dur": 2.712,
+    "en": "How hot or cold something is.",
+    "ar": "مدى سخونة الشيء أو برودته."
+   },
+   {
+    "start": 81.309,
+    "dur": 2.064,
+    "en": "What is tolerance?",
+    "ar": "ما هو الحدّ المسموح؟"
+   },
+   {
+    "start": 87.432,
+    "dur": 3.864,
+    "en": "The correct level, or the small range that is allowed.",
+    "ar": "المستوى الصحيح، أو المجال الصغير المسموح به."
+   },
+   {
+    "start": 91.646,
+    "dur": 2.04,
+    "en": "And what is a reading?",
+    "ar": "وما هي القراءة؟"
+   },
+   {
+    "start": 97.98,
+    "dur": 2.904,
+    "en": "The number a meter or a gauge shows.",
+    "ar": "الرقم الذي يُظهره جهاز القياس أو المقياس."
+   },
+   {
+    "start": 101.234,
+    "dur": 7.872,
+    "en": "One meaning was not needed: a block that stops a wheel rolling. That is a wheel chock, from Unit 3.",
+    "ar": "معنى واحد لم يكن مطلوباً: قطعة تمنع العجلة من التدحرج. ذلك صادّ العجلة، من الوحدة الثالثة."
+   },
+   {
+    "start": 109.456,
+    "dur": 5.76,
+    "en": "Now the measurements table. For each measurement, give the unit and the tool.",
+    "ar": "الآن جدول القياسات. لكلّ قياس، اذكر الوحدة والأداة."
+   },
+   {
+    "start": 115.566,
+    "dur": 6.96,
+    "en": "The book does the first row. Tyre pressure, in bar or psi, with a pressure gauge.",
+    "ar": "الكتاب يحلّ الصفّ الأوّل. ضغط الإطار، بالبار أو الرطل، بمقياس ضغط."
+   },
+   {
+    "start": 122.876,
+    "dur": 4.656,
+    "en": "Tread depth. What is the unit, and what is the tool?",
+    "ar": "عمق المداس. ما الوحدة، وما الأداة؟"
+   },
+   {
+    "start": 133.591,
+    "dur": 3.192,
+    "en": "Millimetres, measured with a tread gauge.",
+    "ar": "الميلّيمتر، ويُقاس بمقياس المداس."
+   },
+   {
+    "start": 137.133,
+    "dur": 5.016,
+    "en": "Battery voltage. What is the unit, and what is the tool?",
+    "ar": "جهد البطارية. ما الوحدة، وما الأداة؟"
+   },
+   {
+    "start": 148.443,
+    "dur": 2.616,
+    "en": "Volts, measured with a meter.",
+    "ar": "الفولت، ويُقاس بجهاز قياس."
+   },
+   {
+    "start": 151.409,
+    "dur": 4.608,
+    "en": "Temperature. What is the unit, and what is the tool?",
+    "ar": "درجة الحرارة. ما الوحدة، وما الأداة؟"
+   },
+   {
+    "start": 162.076,
+    "dur": 3.72,
+    "en": "Degrees, measured with a thermometer or a gauge.",
+    "ar": "الدرجات، وتُقاس بمقياس حرارة أو بمقياس."
+   },
+   {
+    "start": 166.146,
+    "dur": 7.152,
+    "en": "Every measurement has a unit and a tool. If you cannot name both, you cannot write the reading down.",
+    "ar": "لكلّ قياس وحدة وأداة. إن لم تستطع تسمية الاثنتين، لا يمكنك تدوين القراءة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 32.901,
+    "hold": 7.31,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 41.712,
+    "hold": 7.91,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 51.66,
+    "hold": 7.63,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 60.962,
+    "hold": 7.4,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 70.628,
+    "hold": 7.57,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 79.847,
+    "hold": 7.54,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 97.98,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 116.116,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 121.076,
+    "hold": 12.46,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 133.591,
+    "hold": 2.43,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 136.066,
+    "hold": 12.33,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 149.609,
+    "hold": 12.42,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 162.076,
+    "hold": 3.4,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "schema": "timeline/1",
+ "duration": 212.617,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 6.84,
+    "en": "This is Part 8, the Global Case Study. You will read why a carmaker wrote a book of numbers.",
+    "ar": "هذا الجزء الثامن، دراسة الحالة العالمية. ستقرأ لماذا كتبت شركة سيارات كتاب أرقام."
+   },
+   {
+    "start": 15.382,
+    "dur": 6.816,
+    "en": "Before you read, think about this. Why should mechanics in every country use the same numbers?",
+    "ar": "قبل أن تقرأ، فكّر في هذا. لماذا ينبغي أن يستخدم الميكانيكيون في كلّ بلد الأرقام نفسها؟"
+   },
+   {
+    "start": 22.548,
+    "dur": 5.784,
+    "en": "Three words first. A standard is an agreed correct level for everyone.",
+    "ar": "ثلاث كلمات أوّلاً. المعيار هو مستوى صحيح متّفق عليه للجميع."
+   },
+   {
+    "start": 28.682,
+    "dur": 6.504,
+    "en": "A tolerance is the small range that is allowed. And a reading is the number a meter shows.",
+    "ar": "والحدّ المسموح هو المجال الصغير المسموح به. والقراءة هي الرقم الذي يُظهره جهاز القياس."
+   },
+   {
+    "start": 35.536,
+    "dur": 7.344,
+    "en": "A carmaker once had a problem. In different countries, mechanics serviced the same car in different ways.",
+    "ar": "واجهت شركة سيارات مشكلة مرّة. في بلدان مختلفة، كان الميكانيكيون يصونون السيارة نفسها بطرق مختلفة."
+   },
+   {
+    "start": 43.23,
+    "dur": 8.808,
+    "en": "Some checked the battery at one level; others used a different level. Some changed a part when it was a little worn; others waited longer.",
+    "ar": "بعضهم كان يفحص البطارية على مستوى، وآخرون يستخدمون مستوى مختلفاً. بعضهم كان يغيّر القطعة وهي مهترئة قليلاً، وآخرون ينتظرون أطول."
+   },
+   {
+    "start": 52.388,
+    "dur": 4.344,
+    "en": "The cars were not always safe, and customers were confused.",
+    "ar": "لم تكن السيارات آمنة دائماً، وكان العملاء في حيرة."
+   },
+   {
+    "start": 57.082,
+    "dur": 10.872,
+    "en": "So the carmaker wrote a clear book of numbers. For every car, it gave the correct reading and the tolerance: the right tyre pressure, the right battery voltage, the right tread depth.",
+    "ar": "فكتبت الشركة كتاب أرقام واضحاً. لكلّ سيارة، أعطى القراءة الصحيحة والحدّ المسموح: ضغط الإطار الصحيح، وجهد البطارية الصحيح، وعمق المداس الصحيح."
+   },
+   {
+    "start": 68.304,
+    "dur": 9.912,
+    "en": "Now every service centre, in every country, used the same numbers. A mechanic in one city and a mechanic in another checked the car in exactly the same way.",
+    "ar": "صار كلّ مركز صيانة، في كلّ بلد، يستخدم الأرقام نفسها. فالميكانيكي في مدينة والميكانيكي في أخرى يفحصان السيارة بالطريقة نفسها تماماً."
+   },
+   {
+    "start": 78.566,
+    "dur": 4.32,
+    "en": "The cars became safer, and customers trusted the brand more.",
+    "ar": "صارت السيارات أكثر أماناً، وزاد ثقة العملاء بالعلامة."
+   },
+   {
+    "start": 83.236,
+    "dur": 6.984,
+    "en": "A number is the same in every language, the chief engineer said. Good standards make good cars.",
+    "ar": "الرقم واحد في كلّ لغة، قال المهندس الأوّل. والمعايير الجيّدة تصنع سيارات جيّدة."
+   },
+   {
+    "start": 90.57,
+    "dur": 2.424,
+    "en": "What was the problem before?",
+    "ar": "ما كانت المشكلة قبل ذلك؟"
+   },
+   {
+    "start": 97.641,
+    "dur": 3.84,
+    "en": "Mechanics serviced the same car in different ways.",
+    "ar": "كان الميكانيكيون يصونون السيارة نفسها بطرق مختلفة."
+   },
+   {
+    "start": 101.831,
+    "dur": 2.832,
+    "en": "What did the book give for every car?",
+    "ar": "ماذا أعطى الكتاب لكلّ سيارة؟"
+   },
+   {
+    "start": 109.84,
+    "dur": 5.616,
+    "en": "The correct reading and the tolerance: the pressure, the voltage and the tread depth.",
+    "ar": "القراءة الصحيحة والحدّ المسموح: الضغط، والجهد، وعمق المداس."
+   },
+   {
+    "start": 115.806,
+    "dur": 2.64,
+    "en": "What did the chief engineer say?",
+    "ar": "ماذا قال المهندس الأوّل؟"
+   },
+   {
+    "start": 123.328,
+    "dur": 5.208,
+    "en": "A number is the same in every language, and good standards make good cars.",
+    "ar": "الرقم واحد في كلّ لغة، والمعايير الجيّدة تصنع سيارات جيّدة."
+   },
+   {
+    "start": 128.886,
+    "dur": 5.064,
+    "en": "Now four words from the case study. Give the meaning of each.",
+    "ar": "الآن أربع كلمات من دراسة الحالة. اذكر معنى كلّ واحدة."
+   },
+   {
+    "start": 134.3,
+    "dur": 1.872,
+    "en": "Standard.",
+    "ar": "ما معنى standard؟"
+   },
+   {
+    "start": 140.172,
+    "dur": 2.976,
+    "en": "An agreed correct level for everyone.",
+    "ar": "مستوى صحيح متّفق عليه للجميع."
+   },
+   {
+    "start": 143.498,
+    "dur": 1.872,
+    "en": "Tolerance.",
+    "ar": "ما معنى tolerance؟"
+   },
+   {
+    "start": 149.37,
+    "dur": 2.616,
+    "en": "The small range that is allowed.",
+    "ar": "المجال الصغير المسموح به."
+   },
+   {
+    "start": 152.336,
+    "dur": 1.872,
+    "en": "Reading.",
+    "ar": "ما معنى reading؟"
+   },
+   {
+    "start": 158.208,
+    "dur": 2.4,
+    "en": "The number a meter shows.",
+    "ar": "الرقم الذي يُظهره جهاز القياس."
+   },
+   {
+    "start": 160.958,
+    "dur": 1.872,
+    "en": "And number.",
+    "ar": "و number."
+   },
+   {
+    "start": 166.83,
+    "dur": 3.024,
+    "en": "A figure that gives an exact amount.",
+    "ar": "رقم يعطي مقداراً دقيقاً."
+   },
+   {
+    "start": 170.204,
+    "dur": 7.296,
+    "en": "One meaning was not needed: a tool for lifting the car. That is a jack, from Unit 3.",
+    "ar": "معنى واحد لم يكن مطلوباً: أداة لرفع السيارة. ذلك الرافعة، من الوحدة الثالثة."
+   },
+   {
+    "start": 177.85,
+    "dur": 11.904,
+    "en": "Three frames for the discussion. Standards are useful because. In Syria, this is, because. And the most important reading to check is, because.",
+    "ar": "ثلاثة قوالب للمناقشة. Standards are useful because. و In Syria, this is, because. و the most important reading to check is, because."
+   },
+   {
+    "start": 190.104,
+    "dur": 6.048,
+    "en": "Use the third frame. Which reading matters most in your workshop, and why?",
+    "ar": "استخدم القالب الثالث. أيّ قراءة هي الأهمّ في ورشتك، ولماذا؟"
+   },
+   {
+    "start": 203.505,
+    "dur": 7.512,
+    "en": "For example: the most important reading to check is the tread depth, because the roads here wear the tyres fastest.",
+    "ar": "مثلاً: أهمّ قراءة للفحص هي عمق المداس، لأنّ الطرق هنا تُهترئ الإطارات أسرع."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 27.032,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 30.507,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 47.568,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 62.032,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 109.84,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 141.698,
+    "hold": 7.62,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 150.536,
+    "hold": 7.62,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 190.767,
+    "hold": 15.88,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

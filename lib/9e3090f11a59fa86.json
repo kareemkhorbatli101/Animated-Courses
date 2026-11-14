@@ -1,0 +1,393 @@
+{
+ "schema": "timeline/1",
+ "duration": 221.389,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 8.52,
+    "en": "This is Part 10, Can-Do and Glossary. Five things you can do, each with an example, and the ten words asked rather than read.",
+    "ar": "هذا الجزء العاشر، ما أستطيع فعله والمعجم. خمسة أمور تستطيعها، لكلٍّ مثال، والكلمات العشر تُسأل لا تُقرأ."
+   },
+   {
+    "start": 17.518,
+    "dur": 7.176,
+    "en": "Five things you can now do. After each one, I give an example, so you can test yourself against it.",
+    "ar": "خمسة أمور تستطيع فعلها الآن. بعد كلّ واحد، أعطي مثالاً، لتختبر نفسك عليه."
+   },
+   {
+    "start": 25.044,
+    "dur": 5.616,
+    "en": "One. I can name the steps and the departments of the service process.",
+    "ar": "أوّلاً. أستطيع تسمية خطوات عمليّة الصيانة وأقسامها."
+   },
+   {
+    "start": 31.01,
+    "dur": 3.792,
+    "en": "For example: the car is booked in at reception.",
+    "ar": "مثلاً: تُسجَّل السيارة في الاستقبال."
+   },
+   {
+    "start": 35.152,
+    "dur": 2.664,
+    "en": "It is serviced in the workshop.",
+    "ar": "وتُصان في الورشة."
+   },
+   {
+    "start": 38.166,
+    "dur": 4.08,
+    "en": "It is checked by quality control, and cleaned at the valet.",
+    "ar": "ويُفحَصها ضبط الجودة، وتُنظَّف في قسم التنظيف."
+   },
+   {
+    "start": 42.596,
+    "dur": 4.824,
+    "en": "Two. I can use the passive to describe a process.",
+    "ar": "ثانياً. أستطيع استخدام صيغة المجهول لوصف عمليّة."
+   },
+   {
+    "start": 47.77,
+    "dur": 5.664,
+    "en": "For example: the oil is changed, the filters are replaced, and the car is road-tested.",
+    "ar": "مثلاً: يُغيَّر الزيت، وتُستبدَل الفلاتر، وتُختبَر السيارة على الطريق."
+   },
+   {
+    "start": 53.784,
+    "dur": 5.736,
+    "en": "Three. I can understand a customer explanation and a day plan.",
+    "ar": "ثالثاً. أستطيع فهم شرح لعميل وخطّة يوم."
+   },
+   {
+    "start": 59.87,
+    "dur": 6.384,
+    "en": "For example: it was booked in this morning, it is in the workshop now, and it will be ready at three o'clock.",
+    "ar": "مثلاً: سُجِّلت هذا الصباح، وهي في الورشة الآن، وستكون جاهزة في الساعة الثالثة."
+   },
+   {
+    "start": 66.604,
+    "dur": 5.544,
+    "en": "Four. I can explain the service process to a customer in writing.",
+    "ar": "رابعاً. أستطيع شرح عمليّة الصيانة لعميل كتابةً."
+   },
+   {
+    "start": 72.498,
+    "dur": 4.848,
+    "en": "For example: first, your car is booked in and a job card is made.",
+    "ar": "مثلاً: أوّلاً، تُسجَّل سيارتك وتُعدّ لها بطاقة عمل."
+   },
+   {
+    "start": 77.696,
+    "dur": 3.696,
+    "en": "Finally, it is handed over to you with the invoice.",
+    "ar": "وأخيراً، تُسلَّم إليك مع الفاتورة."
+   },
+   {
+    "start": 81.742,
+    "dur": 4.368,
+    "en": "Five. I can plan a day's service schedule.",
+    "ar": "خامساً. أستطيع التخطيط لجدول صيانة يوم."
+   },
+   {
+    "start": 86.46,
+    "dur": 7.296,
+    "en": "For example: Mr Aboud's car is booked in first and serviced by Nabil, and no car is handed over until it is checked.",
+    "ar": "مثلاً: سيارة السيّد عبّود تُسجَّل أوّلاً وتُصان من قبل نبيل، ولا تُسلَّم سيارة حتّى تُفحَص."
+   },
+   {
+    "start": 94.106,
+    "dur": 7.68,
+    "en": "And now the glossary, the ten words of Unit 5. I will not read them to you. I will ask you for each one.",
+    "ar": "والآن المعجم، كلمات الوحدة الخامسة العشر. لن أقرأها عليك. بل سأسألك عن كلّ واحدة."
+   },
+   {
+    "start": 102.136,
+    "dur": 3.288,
+    "en": "To write a car into the system when it arrives.",
+    "ar": "إدخال السيارة في النظام عند وصولها."
+   },
+   {
+    "start": 111.189,
+    "dur": 1.872,
+    "en": "To book in.",
+    "ar": "التسجيل."
+   },
+   {
+    "start": 113.411,
+    "dur": 2.736,
+    "en": "To look at a car carefully to check it.",
+    "ar": "النظر في السيارة بعناية للتحقّق منها."
+   },
+   {
+    "start": 121.441,
+    "dur": 1.872,
+    "en": "To inspect.",
+    "ar": "الفحص."
+   },
+   {
+    "start": 123.663,
+    "dur": 2.016,
+    "en": "To find out what is wrong.",
+    "ar": "معرفة ما هو الخطأ."
+   },
+   {
+    "start": 130.208,
+    "dur": 1.872,
+    "en": "To diagnose.",
+    "ar": "التشخيص."
+   },
+   {
+    "start": 132.43,
+    "dur": 2.856,
+    "en": "The regular checks and work a car needs.",
+    "ar": "الفحوص والأعمال الدورية التي تحتاجها السيارة."
+   },
+   {
+    "start": 140.639,
+    "dur": 1.872,
+    "en": "A service.",
+    "ar": "الصيانة."
+   },
+   {
+    "start": 142.861,
+    "dur": 2.712,
+    "en": "Driving a car to check it works well.",
+    "ar": "قيادة السيارة للتحقّق من أنّها تعمل جيّداً."
+   },
+   {
+    "start": 150.75,
+    "dur": 1.872,
+    "en": "A road test.",
+    "ar": "اختبار الطريق."
+   },
+   {
+    "start": 152.972,
+    "dur": 2.904,
+    "en": "The final check before the car goes back.",
+    "ar": "الفحص الأخير قبل أن تعود السيارة."
+   },
+   {
+    "start": 161.288,
+    "dur": 1.872,
+    "en": "A quality check.",
+    "ar": "فحص الجودة."
+   },
+   {
+    "start": 163.51,
+    "dur": 2.472,
+    "en": "To give the car back to the customer.",
+    "ar": "إعادة السيارة إلى العميل."
+   },
+   {
+    "start": 171.158,
+    "dur": 1.872,
+    "en": "To hand over.",
+    "ar": "التسليم."
+   },
+   {
+    "start": 173.38,
+    "dur": 3.72,
+    "en": "The place where the customer brings the car and it is booked in.",
+    "ar": "المكان الذي يجلب فيه العميل السيارة وتُسجَّل."
+   },
+   {
+    "start": 183.865,
+    "dur": 1.872,
+    "en": "Reception.",
+    "ar": "الاستقبال."
+   },
+   {
+    "start": 186.087,
+    "dur": 3.0,
+    "en": "The place where the car is serviced and repaired.",
+    "ar": "المكان الذي تُصان فيه السيارة وتُصلَح."
+   },
+   {
+    "start": 194.969,
+    "dur": 1.872,
+    "en": "The workshop.",
+    "ar": "الورشة."
+   },
+   {
+    "start": 197.191,
+    "dur": 2.904,
+    "en": "And the paper that says what the work cost.",
+    "ar": "والورقة التي تبيّن كم كلّف العمل."
+   },
+   {
+    "start": 205.625,
+    "dur": 1.872,
+    "en": "The invoice.",
+    "ar": "الفاتورة."
+   },
+   {
+    "start": 207.847,
+    "dur": 3.672,
+    "en": "That is Unit 5, and the halfway point of Book 1.",
+    "ar": "تلك هي الوحدة الخامسة، ومنتصف الكتاب الأوّل."
+   },
+   {
+    "start": 211.869,
+    "dur": 7.92,
+    "en": "In Unit 6 you will learn what is actually done during a service: the oil change, the filters, the brake pads and the intervals.",
+    "ar": "في الوحدة السادسة ستتعلّم ما الذي يُنجَز فعلاً خلال الصيانة: تغيير الزيت، والفلاتر، وأقمشة المكابح، والفترات."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 31.36,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 34.415,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 73.486,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 78.034,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   },
+   {
+    "lemma": "book_in",
+    "label": "book in",
+    "ar": "تسجيل السيارة",
+    "at": 111.189,
+    "hold": 3.0,
+    "img": "assets/vocab/book_in.png",
+    "sha": "e90e401e15e64918"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 121.441,
+    "hold": 3.0,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "diagnose",
+    "label": "diagnose",
+    "ar": "يشخّص",
+    "at": 130.208,
+    "hold": 3.0,
+    "img": "assets/vocab/diagnose.png",
+    "sha": "173a20e5f57cfee8"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 140.639,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "road_test",
+    "label": "road test",
+    "ar": "اختبار الطريق",
+    "at": 150.75,
+    "hold": 3.0,
+    "img": "assets/vocab/road_test.png",
+    "sha": "7e470bccf39573f2"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 161.288,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "hand_over",
+    "label": "hand over",
+    "ar": "يسلّم",
+    "at": 171.158,
+    "hold": 3.0,
+    "img": "assets/vocab/hand_over.png",
+    "sha": "452ca425c9f9da7d"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 183.865,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 194.969,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 205.625,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 212.844,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

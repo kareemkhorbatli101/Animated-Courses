@@ -1,0 +1,291 @@
+{
+ "schema": "timeline/1",
+ "duration": 182.584,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 6.24,
+    "en": "This is the Warm Up. You will meet the seven steps and the three places of the service process.",
+    "ar": "هذا هو التمهيد. ستتعرّف على الخطوات السبع والأماكن الثلاثة في عمليّة الصيانة."
+   },
+   {
+    "start": 15.19,
+    "dur": 5.568,
+    "en": "Welcome to reception. Today we follow one car through the whole service process.",
+    "ar": "أهلاً بك في الاستقبال. اليوم نتابع سيارة واحدة عبر عمليّة الصيانة كلّها."
+   },
+   {
+    "start": 21.108,
+    "dur": 4.896,
+    "en": "You will learn ten words. Look at each step before I say its name.",
+    "ar": "ستتعلّم عشر كلمات. انظر إلى كلّ خطوة قبل أن أقول اسمها."
+   },
+   {
+    "start": 26.354,
+    "dur": 6.432,
+    "en": "The first step is to book in a car. To book in means to write a car into the system when it arrives.",
+    "ar": "الخطوة الأولى هي تسجيل السيارة. والتسجيل يعني إدخال السيارة في النظام عند وصولها."
+   },
+   {
+    "start": 33.136,
+    "dur": 5.544,
+    "en": "Then we inspect the car. To inspect means to look at a car carefully to check it.",
+    "ar": "ثمّ نفحص السيارة. والفحص يعني النظر في السيارة بعناية للتحقّق منها."
+   },
+   {
+    "start": 39.03,
+    "dur": 5.904,
+    "en": "If there is a fault, we diagnose it. To diagnose means to find out what is wrong.",
+    "ar": "وإن كان هناك خلل، نشخّصه. والتشخيص يعني معرفة ما هو الخطأ."
+   },
+   {
+    "start": 45.284,
+    "dur": 5.496,
+    "en": "Then we service the car. A service is the regular checks and work a car needs.",
+    "ar": "ثمّ نصون السيارة. والصيانة هي الفحوص والأعمال الدورية التي تحتاجها السيارة."
+   },
+   {
+    "start": 51.13,
+    "dur": 6.456,
+    "en": "After the work we give the car a road test. A road test means driving it to check it works well.",
+    "ar": "بعد العمل نجري للسيارة اختبار طريق. واختبار الطريق يعني قيادتها للتحقّق من أنّها تعمل جيّداً."
+   },
+   {
+    "start": 57.936,
+    "dur": 6.168,
+    "en": "Then comes the quality check. A quality check is the final check before the car goes back.",
+    "ar": "ثمّ يأتي فحص الجودة. وفحص الجودة هو الفحص الأخير قبل أن تعود السيارة."
+   },
+   {
+    "start": 64.454,
+    "dur": 5.592,
+    "en": "And last we hand over the car. To hand over means to give the car back to the customer.",
+    "ar": "وأخيراً نسلّم السيارة. والتسليم يعني إعادة السيارة إلى العميل."
+   },
+   {
+    "start": 70.396,
+    "dur": 6.0,
+    "en": "All of that starts here, at reception. Reception is where the customer brings the car.",
+    "ar": "كلّ ذلك يبدأ هنا، في الاستقبال. والاستقبال هو المكان الذي يجلب فيه العميل السيارة."
+   },
+   {
+    "start": 76.746,
+    "dur": 6.216,
+    "en": "And the work is done there, in the workshop. The workshop is where the car is serviced and repaired.",
+    "ar": "والعمل يُنجز هناك، في الورشة. والورشة هي المكان الذي تُصان فيه السيارة وتُصلَح."
+   },
+   {
+    "start": 83.312,
+    "dur": 6.288,
+    "en": "At the end the customer gets an invoice. An invoice is the paper that says what the work cost.",
+    "ar": "في النهاية يأخذ العميل فاتورة. والفاتورة هي الورقة التي تبيّن كم كلّف العمل."
+   },
+   {
+    "start": 89.95,
+    "dur": 4.224,
+    "en": "Now some questions from the book. Think before you answer.",
+    "ar": "الآن بعض الأسئلة من الكتاب. فكّر قبل أن تجيب."
+   },
+   {
+    "start": 94.524,
+    "dur": 5.376,
+    "en": "First, the car is blank to find any problems. Which word is missing?",
+    "ar": "أوّلاً، السيارة فراغ لإيجاد أيّ مشاكل. ما الكلمة الناقصة؟"
+   },
+   {
+    "start": 106.9,
+    "dur": 5.232,
+    "en": "Inspected. First, the car is inspected to find any problems.",
+    "ar": "تُفحَص. أوّلاً، تُفحَص السيارة لإيجاد أيّ مشاكل."
+   },
+   {
+    "start": 112.482,
+    "dur": 3.624,
+    "en": "Then it is blank: the oil and filters are changed.",
+    "ar": "ثمّ هي فراغ: يُغيَّر الزيت والفلاتر."
+   },
+   {
+    "start": 122.047,
+    "dur": 5.016,
+    "en": "Serviced. Then it is serviced: the oil and filters are changed.",
+    "ar": "تُصان. ثمّ تُصان: يُغيَّر الزيت والفلاتر."
+   },
+   {
+    "start": 127.413,
+    "dur": 3.288,
+    "en": "Next, it is blank to check it drives well.",
+    "ar": "بعد ذلك، هي فراغ للتحقّق من أنّها تسير جيّداً."
+   },
+   {
+    "start": 136.172,
+    "dur": 4.968,
+    "en": "Road-tested. Next, it is road-tested to check it drives well.",
+    "ar": "تُختبَر على الطريق. بعد ذلك، تُختبَر على الطريق للتحقّق من أنّها تسير جيّداً."
+   },
+   {
+    "start": 141.49,
+    "dur": 3.456,
+    "en": "Finally, the car is blank over to the customer.",
+    "ar": "أخيراً، السيارة فراغ إلى العميل."
+   },
+   {
+    "start": 150.711,
+    "dur": 4.512,
+    "en": "Handed. Finally, the car is handed over to the customer.",
+    "ar": "تُسلَّم. أخيراً، تُسلَّم السيارة إلى العميل."
+   },
+   {
+    "start": 155.573,
+    "dur": 2.352,
+    "en": "Where is the car booked in?",
+    "ar": "أين تُسجَّل السيارة؟"
+   },
+   {
+    "start": 162.513,
+    "dur": 5.04,
+    "en": "At reception. Not in the workshop, and not on the road.",
+    "ar": "في الاستقبال. ليس في الورشة، ولا على الطريق."
+   },
+   {
+    "start": 167.903,
+    "dur": 2.232,
+    "en": "What happens finally?",
+    "ar": "ماذا يحدث أخيراً؟"
+   },
+   {
+    "start": 174.37,
+    "dur": 2.712,
+    "en": "It is handed over to the customer.",
+    "ar": "تُسلَّم إلى العميل."
+   },
+   {
+    "start": 177.432,
+    "dur": 3.552,
+    "en": "Each step is done in order, so nothing is forgotten.",
+    "ar": "كلّ خطوة تُنجَز بالترتيب، فلا يُنسى شيء."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 15.19,
+    "hold": 1.9,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "book_in",
+    "label": "book in",
+    "ar": "تسجيل السيارة",
+    "at": 25.692,
+    "hold": 3.0,
+    "img": "assets/vocab/book_in.png",
+    "sha": "e90e401e15e64918"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 31.761,
+    "hold": 3.0,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "diagnose",
+    "label": "diagnose",
+    "ar": "يشخّص",
+    "at": 38.668,
+    "hold": 3.0,
+    "img": "assets/vocab/diagnose.png",
+    "sha": "173a20e5f57cfee8"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 43.897,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "road_test",
+    "label": "road test",
+    "ar": "اختبار الطريق",
+    "at": 51.08,
+    "hold": 3.0,
+    "img": "assets/vocab/road_test.png",
+    "sha": "7e470bccf39573f2"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 56.911,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "hand_over",
+    "label": "hand over",
+    "ar": "يسلّم",
+    "at": 63.317,
+    "hold": 3.0,
+    "img": "assets/vocab/hand_over.png",
+    "sha": "452ca425c9f9da7d"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 76.596,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 83.15,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 162.513,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

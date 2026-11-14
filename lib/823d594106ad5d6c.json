@@ -1,0 +1,285 @@
+{
+ "schema": "timeline/1",
+ "duration": 237.225,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.488,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.288,
+    "dur": 9.456,
+    "en": "This is Part 4, the Reporting Readings Role Play. You will take each turn yourself, run it again with a complication, then give a talk.",
+    "ar": "هذا الجزء الرابع، لعب أدوار تبليغ القراءات. ستأخذ كلّ دور بنفسك، ثمّ تعيده مع تعقيد، ثمّ تقدّم حديثاً."
+   },
+   {
+    "start": 18.094,
+    "dur": 7.536,
+    "en": "A technician reports the readings, and a foreman decides. Listen to the model first, all the way through.",
+    "ar": "فنّيّة تُبلّغ القراءات، ورئيس ورشة يقرّر. استمع إلى النموذج أوّلاً، كاملاً."
+   },
+   {
+    "start": 25.98,
+    "dur": 3.264,
+    "en": "The rear left is more worn than the others.",
+    "ar": "الخلفي الأيسر أكثر اهتراءً من البقيّة."
+   },
+   {
+    "start": 29.594,
+    "dur": 1.872,
+    "en": "How low?",
+    "ar": "كم هو منخفض؟"
+   },
+   {
+    "start": 31.816,
+    "dur": 4.584,
+    "en": "Only two millimetres. The most worn of the four.",
+    "ar": "ميلّيمتران فقط. الأكثر اهتراءً من الأربعة."
+   },
+   {
+    "start": 36.75,
+    "dur": 1.872,
+    "en": "And the battery?",
+    "ar": "والبطارية؟"
+   },
+   {
+    "start": 38.972,
+    "dur": 3.456,
+    "en": "Lower than last time, below the tolerance.",
+    "ar": "أدنى من المرّة الماضية، تحت الحدّ المسموح."
+   },
+   {
+    "start": 42.778,
+    "dur": 5.952,
+    "en": "Now again, turn by turn. Each time, you say the line before I do.",
+    "ar": "الآن مرّة أخرى، دوراً بدور. في كلّ مرّة، قل الجملة قبلي."
+   },
+   {
+    "start": 49.08,
+    "dur": 9.0,
+    "en": "You are the technician. The rear left is two millimetres and the others are five or six. Report it with a comparative.",
+    "ar": "أنت الفنّي. الخلفي الأيسر ميلّيمتران والبقيّة خمسة أو ستّة. أبلغ عنه بصيغة مقارنة."
+   },
+   {
+    "start": 66.08,
+    "dur": 3.264,
+    "en": "The rear left is more worn than the others.",
+    "ar": "الخلفي الأيسر أكثر اهتراءً من البقيّة."
+   },
+   {
+    "start": 69.694,
+    "dur": 5.112,
+    "en": "You are the foreman. Ask how bad it is, in two words.",
+    "ar": "أنت رئيس الورشة. اسأل كم هو سيّئ، بكلمتين."
+   },
+   {
+    "start": 80.924,
+    "dur": 1.872,
+    "en": "How low?",
+    "ar": "كم هو منخفض؟"
+   },
+   {
+    "start": 83.146,
+    "dur": 5.976,
+    "en": "Technician again. Give the number, then say where it stands among all four.",
+    "ar": "الفنّي مرّة أخرى. اذكر الرقم، ثمّ قل موقعه بين الأربعة."
+   },
+   {
+    "start": 96.534,
+    "dur": 4.584,
+    "en": "Only two millimetres. The most worn of the four.",
+    "ar": "ميلّيمتران فقط. الأكثر اهتراءً من الأربعة."
+   },
+   {
+    "start": 101.468,
+    "dur": 4.944,
+    "en": "Foreman. Move to the second reading, in three words.",
+    "ar": "رئيس الورشة. انتقل إلى القراءة الثانية، بثلاث كلمات."
+   },
+   {
+    "start": 112.47,
+    "dur": 1.872,
+    "en": "And the battery?",
+    "ar": "والبطارية؟"
+   },
+   {
+    "start": 114.692,
+    "dur": 5.736,
+    "en": "Technician. Compare it with the last service, and say where it sits.",
+    "ar": "الفنّي. قارنها بالصيانة الماضية، وقل موقعها."
+   },
+   {
+    "start": 127.428,
+    "dur": 3.456,
+    "en": "Lower than last time, below the tolerance.",
+    "ar": "أدنى من المرّة الماضية، تحت الحدّ المسموح."
+   },
+   {
+    "start": 131.234,
+    "dur": 9.12,
+    "en": "Good. Now the same two people, and something has changed: two cars need work this afternoon, and there is only time for one of them.",
+    "ar": "جيّد. الآن الشخصان نفسهما، وقد تغيّر شيء: سيارتان تحتاجان عملاً بعد الظهر، والوقت يكفي لواحدة فقط."
+   },
+   {
+    "start": 140.704,
+    "dur": 7.752,
+    "en": "The first car has a battery at twelve point three volts, just below the tolerance. Everything else is fine.",
+    "ar": "السيارة الأولى بطاريتها اثنا عشر فاصلة ثلاثة فولت، أي تحت الحدّ المسموح بقليل. وكلّ ما عداها جيّد."
+   },
+   {
+    "start": 148.806,
+    "dur": 6.024,
+    "en": "The second car has a rear tyre at two millimetres, and the owner drives to Homs tomorrow.",
+    "ar": "السيارة الثانية إطارها الخلفي ميلّيمتران، وصاحبها يسافر إلى حمص غداً."
+   },
+   {
+    "start": 155.181,
+    "dur": 6.0,
+    "en": "So which is more urgent? Notice that the answer is no longer the lowest number.",
+    "ar": "فأيّهما أكثر إلحاحاً؟ لاحظ أنّ الجواب لم يبقَ الرقم الأدنى."
+   },
+   {
+    "start": 161.531,
+    "dur": 5.928,
+    "en": "The tyre is more urgent than the battery, because a worn tyre on a long drive is dangerous.",
+    "ar": "الإطار أكثر إلحاحاً من البطارية، لأنّ إطاراً مهترئاً في سفر طويل خطر."
+   },
+   {
+    "start": 167.809,
+    "dur": 9.816,
+    "en": "A weak battery stops the car in the yard. A worn tyre stops it on the road. That is the difference between a low reading and an urgent one.",
+    "ar": "البطارية الضعيفة توقف السيارة في الساحة. والإطار المهترئ يوقفها على الطريق. ذلك هو الفرق بين قراءة منخفضة وقراءة ملحّة."
+   },
+   {
+    "start": 177.975,
+    "dur": 5.928,
+    "en": "Now the third task, and this one you do alone. A talk of about one minute.",
+    "ar": "الآن المهمّة الثالثة، وهذه تؤدّيها وحدك. حديث نحو دقيقة واحدة."
+   },
+   {
+    "start": 184.253,
+    "dur": 8.232,
+    "en": "Compare two cars, or two tyres, and say which is in better condition and why. Here is the whole thing, modelled.",
+    "ar": "قارن بين سيارتين، أو إطارين، وقل أيّهما بحالة أفضل ولماذا. وهذا هو الحديث كلّه، منمذجاً."
+   },
+   {
+    "start": 192.835,
+    "dur": 6.264,
+    "en": "I measured two cars this morning. The first car is in better condition than the second.",
+    "ar": "قِستُ سيارتين هذا الصباح. السيارة الأولى بحالة أفضل من الثانية."
+   },
+   {
+    "start": 199.449,
+    "dur": 7.968,
+    "en": "Its tyres are newer, about six millimetres, and its battery reads twelve point six volts, which is within the tolerance.",
+    "ar": "إطاراتها أحدث، نحو ستّة ميلّيمترات، وبطاريتها تقرأ اثني عشر فاصلة ستّة فولت، وهي داخل الحدّ المسموح."
+   },
+   {
+    "start": 207.767,
+    "dur": 9.84,
+    "en": "The second car is older. Its rear left tyre is the most worn of all four, at two millimetres, and its battery is lower than the tolerance.",
+    "ar": "السيارة الثانية أقدم. إطارها الخلفي الأيسر هو الأكثر اهتراءً من الأربعة، بميلّيمترين، وبطاريتها أدنى من الحدّ المسموح."
+   },
+   {
+    "start": 217.957,
+    "dur": 5.16,
+    "en": "So the second car needs more work, and the first car is the safer of the two.",
+    "ar": "إذاً السيارة الثانية تحتاج عملاً أكثر، والسيارة الأولى هي الأكثر أماناً بينهما."
+   },
+   {
+    "start": 223.467,
+    "dur": 6.192,
+    "en": "Count what that talk used: four comparatives, two superlatives, and five real numbers.",
+    "ar": "عُدّ ما استخدمه ذلك الحديث: أربع صيغ مقارنة، وصيغتا تفضيل، وخمسة أرقام حقيقية."
+   },
+   {
+    "start": 230.009,
+    "dur": 5.616,
+    "en": "Now give your own talk. Measure two things you know, and compare them.",
+    "ar": "الآن قدّم حديثك. قِس شيئين تعرفهما، وقارن بينهما."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 25.38,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 30.516,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 38.897,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 50.468,
+    "hold": 15.56,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 66.08,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 96.534,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 127.428,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

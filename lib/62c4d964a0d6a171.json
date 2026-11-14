@@ -1,0 +1,225 @@
+{
+ "schema": "timeline/1",
+ "duration": 163.062,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.872,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.672,
+    "dur": 6.312,
+    "en": "This is Part 5, From Check-in to Handover. You will read the unit's main text.",
+    "ar": "هذا الجزء الخامس، من الاستقبال إلى التسليم. ستقرأ نصّ الوحدة الرئيسي."
+   },
+   {
+    "start": 15.334,
+    "dur": 6.408,
+    "en": "Before you read, think about this. Why does a car not just go straight to a mechanic?",
+    "ar": "قبل أن تقرأ، فكّر في هذا. لماذا لا تذهب السيارة مباشرة إلى الميكانيكي؟"
+   },
+   {
+    "start": 22.092,
+    "dur": 6.264,
+    "en": "Three words first. A job card is the paper that follows the car through every step.",
+    "ar": "ثلاث كلمات أوّلاً. بطاقة العمل هي الورقة التي تتبع السيارة في كلّ خطوة."
+   },
+   {
+    "start": 28.706,
+    "dur": 3.96,
+    "en": "To replace means to put a new part in place of an old one.",
+    "ar": "والاستبدال يعني وضع قطعة جديدة مكان قطعة قديمة."
+   },
+   {
+    "start": 33.016,
+    "dur": 4.248,
+    "en": "And to pass a check means to be good enough, to succeed in it.",
+    "ar": "والنجاح في الفحص يعني أن تكون جيّداً بما يكفي، أن تجتازه."
+   },
+   {
+    "start": 37.614,
+    "dur": 9.24,
+    "en": "When a car comes to a service centre, it does not just go straight to a mechanic. It follows a clear process, and each step is done in order.",
+    "ar": "عندما تأتي سيارة إلى مركز صيانة، لا تذهب مباشرة إلى الميكانيكي. بل تتبع عمليّة واضحة، وكلّ خطوة تُنجَز بالترتيب."
+   },
+   {
+    "start": 47.204,
+    "dur": 7.296,
+    "en": "First, the car is booked in at reception. The customer explains the problem, and a job card is made.",
+    "ar": "أوّلاً، تُسجَّل السيارة في الاستقبال. يشرح العميل المشكلة، وتُعدّ بطاقة عمل."
+   },
+   {
+    "start": 54.85,
+    "dur": 3.48,
+    "en": "The job card follows the car through every step.",
+    "ar": "وبطاقة العمل تتبع السيارة في كلّ خطوة."
+   },
+   {
+    "start": 58.68,
+    "dur": 11.688,
+    "en": "Next, the car is taken to the workshop. There, it is inspected, and the service is done: the oil is changed, the filters are replaced, and the brakes and tyres are checked.",
+    "ar": "بعد ذلك، تُنقَل السيارة إلى الورشة. وهناك تُفحَص، وتُنجَز الصيانة: يُغيَّر الزيت، وتُستبدَل الفلاتر، وتُفحَص المكابح والإطارات."
+   },
+   {
+    "start": 70.718,
+    "dur": 5.352,
+    "en": "If there is a fault, it is diagnosed by a technician, often with a computer.",
+    "ar": "وإن كان هناك عطل، يُشخَّص من قبل فنّيّ، بحاسوب في الغالب."
+   },
+   {
+    "start": 76.42,
+    "dur": 4.776,
+    "en": "When the work is finished, the car is road-tested to make sure it is safe.",
+    "ar": "وعندما ينتهي العمل، تُختبَر السيارة على الطريق للتأكّد من أنّها آمنة."
+   },
+   {
+    "start": 81.546,
+    "dur": 8.736,
+    "en": "Then it is checked one more time by the quality team. This is called the quality check, and no car is handed over until it passes.",
+    "ar": "ثمّ تُفحَص مرّة أخرى من قبل فريق الجودة. ويُسمّى هذا فحص الجودة، ولا تُسلَّم سيارة حتّى تنجح فيه."
+   },
+   {
+    "start": 90.632,
+    "dur": 9.744,
+    "en": "Finally, the car is cleaned, and the customer is called. The car is handed over with the job card, so the customer can see exactly what was done.",
+    "ar": "وأخيراً، تُنظَّف السيارة، ويُتَّصل بالعميل. وتُسلَّم السيارة مع بطاقة العمل، ليرى العميل بالضبط ما الذي أُنجِز."
+   },
+   {
+    "start": 100.726,
+    "dur": 5.112,
+    "en": "A clear process means that nothing is forgotten, and every car leaves safe.",
+    "ar": "والعمليّة الواضحة تعني ألّا يُنسى شيء، وأن تخرج كلّ سيارة آمنة."
+   },
+   {
+    "start": 106.188,
+    "dur": 2.304,
+    "en": "What is made at reception?",
+    "ar": "ما الذي يُعدّ في الاستقبال؟"
+   },
+   {
+    "start": 113.022,
+    "dur": 4.944,
+    "en": "A job card. Not a new tyre, and not a key.",
+    "ar": "بطاقة عمل. ليس إطاراً جديداً، ولا مفتاحاً."
+   },
+   {
+    "start": 118.316,
+    "dur": 3.336,
+    "en": "What is done one more time before handover?",
+    "ar": "ما الذي يُنجَز مرّة أخرى قبل التسليم؟"
+   },
+   {
+    "start": 127.181,
+    "dur": 3.336,
+    "en": "The quality is checked by the quality team.",
+    "ar": "تُفحَص الجودة من قبل فريق الجودة."
+   },
+   {
+    "start": 130.867,
+    "dur": 2.688,
+    "en": "Why is a clear process good?",
+    "ar": "لماذا العمليّة الواضحة جيّدة؟"
+   },
+   {
+    "start": 138.202,
+    "dur": 3.984,
+    "en": "Nothing is forgotten, and every car leaves safe.",
+    "ar": "لا يُنسى شيء، وتخرج كلّ سيارة آمنة."
+   },
+   {
+    "start": 142.536,
+    "dur": 5.88,
+    "en": "The unit's grammar was not an exercise. It is how a process is written down.",
+    "ar": "قواعد الوحدة لم تكن تدريباً. بل هي الطريقة التي تُكتب بها العمليّة."
+   },
+   {
+    "start": 148.766,
+    "dur": 12.696,
+    "en": "Count the passives in that text. Booked in, made, taken, inspected, changed, replaced, checked, diagnosed, road-tested, cleaned, called, handed over, forgotten.",
+    "ar": "عُدّ صيغ المجهول في ذلك النصّ. booked in، و made، و taken، و inspected، و changed، و replaced، و checked، و diagnosed، و road-tested، و cleaned، و called، و handed over، و forgotten."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 22.467,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 47.054,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 58.543,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 61.955,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 83.984,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 105.063,
+    "hold": 7.91,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 113.022,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

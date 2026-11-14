@@ -1,0 +1,207 @@
+{
+ "schema": "timeline/1",
+ "duration": 151.147,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 6.768,
+    "en": "This is Part 3, Comparing Three Cars. You will hear why the superlative needs all three.",
+    "ar": "هذا الجزء الثالث، مقارنة ثلاث سيارات. ستسمع لماذا تحتاج صيغة التفضيل الثلاث جميعاً."
+   },
+   {
+    "start": 15.31,
+    "dur": 6.72,
+    "en": "Before you listen, think about this. How does a manager decide which car needs the most work?",
+    "ar": "قبل أن تستمع، فكّر في هذا. كيف يقرّر المدير أيّ سيارة تحتاج أكثر العمل؟"
+   },
+   {
+    "start": 22.38,
+    "dur": 4.992,
+    "en": "We have three cars to check this morning. Let us compare them.",
+    "ar": "لدينا ثلاث سيارات لفحصها هذا الصباح. دعونا نقارن بينها."
+   },
+   {
+    "start": 27.722,
+    "dur": 7.608,
+    "en": "The first car, Mr Aboud's, is in good condition. The tyres are new, and the battery is strong.",
+    "ar": "السيارة الأولى، سيارة السيّد عبّود، بحالة جيّدة. الإطارات جديدة، والبطارية قويّة."
+   },
+   {
+    "start": 35.68,
+    "dur": 6.672,
+    "en": "The second car is older. Its battery is weaker than the first, and two tyres are worn.",
+    "ar": "السيارة الثانية أقدم. بطاريتها أضعف من الأولى، وإطاران مهترئان."
+   },
+   {
+    "start": 42.702,
+    "dur": 8.448,
+    "en": "The third car is the oldest of the three. It has the most worn tyres and the lowest battery voltage, so it needs the most work.",
+    "ar": "السيارة الثالثة هي الأقدم من الثلاث. لديها أكثر الإطارات اهتراءً وأدنى جهد بطارية، فهي تحتاج أكثر العمل."
+   },
+   {
+    "start": 51.5,
+    "dur": 4.512,
+    "en": "Remember: measure everything, write down the readings, and compare.",
+    "ar": "تذكّر: قِس كلّ شيء، ودوّن القراءات، وقارن."
+   },
+   {
+    "start": 56.362,
+    "dur": 5.352,
+    "en": "The numbers show us which car needs the most attention, and which is the safest to drive.",
+    "ar": "الأرقام تُظهر لنا أيّ سيارة تحتاج أكثر الانتباه، وأيّها الأكثر أماناً للسير."
+   },
+   {
+    "start": 62.064,
+    "dur": 3.024,
+    "en": "Now match each one with its condition.",
+    "ar": "الآن طابق كلّ واحدة مع حالتها."
+   },
+   {
+    "start": 65.438,
+    "dur": 4.008,
+    "en": "The first car. What was its condition?",
+    "ar": "السيارة الأولى. ما كانت حالتها؟"
+   },
+   {
+    "start": 74.681,
+    "dur": 3.24,
+    "en": "In good condition, with new tyres.",
+    "ar": "بحالة جيّدة، بإطارات جديدة."
+   },
+   {
+    "start": 78.271,
+    "dur": 2.016,
+    "en": "The second car.",
+    "ar": "السيارة الثانية."
+   },
+   {
+    "start": 84.287,
+    "dur": 4.056,
+    "en": "Older, with a weaker battery and two worn tyres.",
+    "ar": "أقدم، ببطارية أضعف وإطارين مهترئين."
+   },
+   {
+    "start": 88.693,
+    "dur": 1.968,
+    "en": "The third car.",
+    "ar": "السيارة الثالثة."
+   },
+   {
+    "start": 94.661,
+    "dur": 3.384,
+    "en": "The oldest, with the most worn tyres.",
+    "ar": "الأقدم، بأكثر الإطارات اهتراءً."
+   },
+   {
+    "start": 98.395,
+    "dur": 1.944,
+    "en": "And all three.",
+    "ar": "والثلاث جميعاً."
+   },
+   {
+    "start": 104.339,
+    "dur": 2.784,
+    "en": "They must be measured and compared.",
+    "ar": "يجب أن تُقاس وتُقارن."
+   },
+   {
+    "start": 107.473,
+    "dur": 6.48,
+    "en": "One condition was not needed: brand new from the factory. None of the three was that.",
+    "ar": "حالة واحدة لم تكن مطلوبة: جديدة تماماً من المصنع. ولم تكن أيّ من الثلاث كذلك."
+   },
+   {
+    "start": 114.303,
+    "dur": 4.632,
+    "en": "Which car needs the most work, and which two words in my briefing told you?",
+    "ar": "أيّ سيارة تحتاج أكثر العمل، وأيّ كلمتين في إحاطتي دلّتاك؟"
+   },
+   {
+    "start": 126.347,
+    "dur": 5.736,
+    "en": "The third car. The most worn tyres, and the lowest battery voltage.",
+    "ar": "السيارة الثالثة. أكثر الإطارات اهتراءً، وأدنى جهد بطارية."
+   },
+   {
+    "start": 132.433,
+    "dur": 3.984,
+    "en": "Why could I not have decided that from the second car alone?",
+    "ar": "لماذا لم أستطع تقرير ذلك من السيارة الثانية وحدها؟"
+   },
+   {
+    "start": 142.947,
+    "dur": 6.6,
+    "en": "Because a superlative needs all three. You cannot know the worst until you have measured every one.",
+    "ar": "لأنّ صيغة التفضيل تحتاج الثلاث جميعاً. لا تعرف الأسوأ قبل أن تقيس كلّ واحدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 39.205,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 46.515,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 84.287,
+    "hold": 3.34,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 94.661,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 126.347,
+    "hold": 3.51,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

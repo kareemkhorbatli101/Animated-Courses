@@ -1,0 +1,249 @@
+{
+ "schema": "timeline/1",
+ "duration": 189.571,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.44,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.24,
+    "dur": 8.976,
+    "en": "This is Part 5, Words in Context. You will give the meaning of four words, then read a second text about servicing cars in Syria.",
+    "ar": "هذا الجزء الخامس، الكلمات في سياقها. ستذكر معنى أربع كلمات، ثمّ تقرأ نصّاً ثانياً عن صيانة السيارات في سوريا."
+   },
+   {
+    "start": 17.566,
+    "dur": 4.632,
+    "en": "Four words from the text you just read. Give the meaning of each.",
+    "ar": "أربع كلمات من النصّ الذي قرأته. اذكر معنى كلّ واحدة."
+   },
+   {
+    "start": 22.548,
+    "dur": 1.872,
+    "en": "Gauge.",
+    "ar": "ما معنى gauge؟"
+   },
+   {
+    "start": 28.42,
+    "dur": 2.304,
+    "en": "A tool that shows a measurement.",
+    "ar": "أداة تُظهر قياساً."
+   },
+   {
+    "start": 31.074,
+    "dur": 1.872,
+    "en": "Tolerance.",
+    "ar": "ما معنى tolerance؟"
+   },
+   {
+    "start": 36.946,
+    "dur": 2.304,
+    "en": "The correct level for a reading.",
+    "ar": "المستوى الصحيح للقراءة."
+   },
+   {
+    "start": 39.6,
+    "dur": 1.872,
+    "en": "Voltage.",
+    "ar": "ما معنى voltage؟"
+   },
+   {
+    "start": 45.472,
+    "dur": 2.664,
+    "en": "The electric power, in volts.",
+    "ar": "الطاقة الكهربائية، بالفولت."
+   },
+   {
+    "start": 48.486,
+    "dur": 1.872,
+    "en": "And worn.",
+    "ar": "و worn."
+   },
+   {
+    "start": 54.358,
+    "dur": 2.592,
+    "en": "Old and used, with less tread.",
+    "ar": "قديم ومستعمل، بمداس أقلّ."
+   },
+   {
+    "start": 57.3,
+    "dur": 7.296,
+    "en": "One meaning was not needed: a tool for turning bolts. That is a spanner, from Unit 3.",
+    "ar": "معنى واحد لم يكن مطلوباً: أداة لتدوير البراغي. ذلك مفتاح الربط، من الوحدة الثالثة."
+   },
+   {
+    "start": 64.946,
+    "dur": 7.152,
+    "en": "Now a second, shorter text. Before you read: why might a car in Syria need servicing more often?",
+    "ar": "الآن نصّ ثانٍ أقصر. قبل أن تقرأ: لماذا قد تحتاج سيارة في سوريا صيانة أكثر تكراراً؟"
+   },
+   {
+    "start": 72.448,
+    "dur": 8.376,
+    "en": "Two words first. Rough means not smooth, bumpy. And a service interval is the time or distance between services.",
+    "ar": "كلمتان أوّلاً. rough تعني غير ناعم، مطبّباً. وفترة الصيانة هي الزمن أو المسافة بين صيانة وأخرى."
+   },
+   {
+    "start": 81.174,
+    "dur": 7.584,
+    "en": "Cars in Syria often work in hard conditions. The roads can be rough and full of holes, and there is a lot of dust.",
+    "ar": "السيارات في سوريا تعمل غالباً في ظروف قاسية. الطرق قد تكون غير ناعمة ومليئة بالحفر، وهناك غبار كثير."
+   },
+   {
+    "start": 89.108,
+    "dur": 6.72,
+    "en": "In summer, the weather is very hot. All of this is harder on a car than a smooth, cool road.",
+    "ar": "في الصيف، الجوّ حارّ جدّاً. وكلّ هذا أقسى على السيارة من طريق ناعم بارد."
+   },
+   {
+    "start": 96.178,
+    "dur": 8.544,
+    "en": "So a careful mechanic in Syria checks some things more often. Dust blocks the air filter faster, so the filter needs changing sooner.",
+    "ar": "لذلك يفحص الميكانيكي الحريص في سوريا بعض الأشياء أكثر تكراراً. الغبار يسدّ فلتر الهواء أسرع، فيحتاج الفلتر إلى تغيير أبكر."
+   },
+   {
+    "start": 105.072,
+    "dur": 8.544,
+    "en": "Rough roads wear the tyres more quickly, so the mechanic measures the tread more often. Hot weather is harder on the battery and the coolant.",
+    "ar": "الطرق غير الناعمة تُهترئ الإطارات أسرع، فيقيس الميكانيكي المداس أكثر تكراراً. والجوّ الحارّ أقسى على البطارية وسائل التبريد."
+   },
+   {
+    "start": 113.966,
+    "dur": 9.984,
+    "en": "A good mechanic knows the local roads, so he shortens the service interval a little. He does not follow the book exactly; he adjusts it for Syrian conditions.",
+    "ar": "الميكانيكي الجيّد يعرف طرق بلده، فيقصّر فترة الصيانة قليلاً. وهو لا يتّبع الكتاب حرفيّاً؛ بل يعدّله لظروف سوريا."
+   },
+   {
+    "start": 124.3,
+    "dur": 3.384,
+    "en": "This keeps the car safer and makes it last longer.",
+    "ar": "وهذا يجعل السيارة أكثر أماناً ويطيل عمرها."
+   },
+   {
+    "start": 128.034,
+    "dur": 4.992,
+    "en": "Dust blocks the air filter faster. True or false?",
+    "ar": "الغبار يسدّ فلتر الهواء أسرع. صحيح أم خطأ؟"
+   },
+   {
+    "start": 138.909,
+    "dur": 4.8,
+    "en": "True. That is why the filter needs changing sooner.",
+    "ar": "صحيح. ولهذا يحتاج الفلتر إلى تغيير أبكر."
+   },
+   {
+    "start": 144.059,
+    "dur": 6.24,
+    "en": "The mechanic follows the book exactly, with no changes. True or false?",
+    "ar": "الميكانيكي يتّبع الكتاب حرفيّاً، دون تغيير. صحيح أم خطأ؟"
+   },
+   {
+    "start": 157.416,
+    "dur": 4.728,
+    "en": "False. He adjusts it for Syrian conditions.",
+    "ar": "خطأ. فهو يعدّله لظروف سوريا."
+   },
+   {
+    "start": 162.494,
+    "dur": 5.616,
+    "en": "A shorter service interval keeps the car safer. True or false?",
+    "ar": "فترة صيانة أقصر تجعل السيارة أكثر أماناً. صحيح أم خطأ؟"
+   },
+   {
+    "start": 174.757,
+    "dur": 4.248,
+    "en": "True. And it makes the car last longer.",
+    "ar": "صحيح. وتطيل عمر السيارة أيضاً."
+   },
+   {
+    "start": 179.355,
+    "dur": 8.616,
+    "en": "Notice the comparatives in this text too. Harder on a car than, more often, faster, sooner, safer, longer.",
+    "ar": "لاحظ صيغ المقارنة في هذا النصّ أيضاً. harder than، و more often، و faster، و sooner، و safer، و longer."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 20.748,
+    "hold": 7.62,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 29.287,
+    "hold": 7.61,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 37.8,
+    "hold": 7.62,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 46.899,
+    "hold": 7.41,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 99.178,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 110.685,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 127.097,
+    "hold": 11.76,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

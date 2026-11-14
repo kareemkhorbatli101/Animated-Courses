@@ -1,0 +1,189 @@
+{
+ "schema": "timeline/1",
+ "duration": 99.887,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.408,
+    "dur": 6.864,
+    "en": "This is Part 3, The Diagnostic Report. You will hear one reading against its tolerance.",
+    "ar": "هذا الجزء الثالث، تقرير التشخيص. ستسمع قراءة واحدة مقابل حدّها المسموح."
+   },
+   {
+    "start": 15.622,
+    "dur": 6.192,
+    "en": "Before you listen, think about this. What numbers does a diagnostic report show?",
+    "ar": "قبل أن تستمع، فكّر في هذا. أيّ أرقام يُظهرها تقرير التشخيص؟"
+   },
+   {
+    "start": 22.164,
+    "dur": 2.88,
+    "en": "Lina, what does the report say?",
+    "ar": "لينا، ماذا يقول التقرير؟"
+   },
+   {
+    "start": 25.394,
+    "dur": 5.232,
+    "en": "The battery voltage is a little low. It is lower than last time.",
+    "ar": "جهد البطارية منخفض قليلاً. وهو أدنى من المرّة الماضية."
+   },
+   {
+    "start": 30.976,
+    "dur": 1.872,
+    "en": "How low?",
+    "ar": "كم هو منخفض؟"
+   },
+   {
+    "start": 33.198,
+    "dur": 6.096,
+    "en": "Twelve point one volts. The tolerance is twelve point four to twelve point seven.",
+    "ar": "اثنا عشر فاصلة واحد فولت. والحدّ المسموح هو من اثني عشر فاصلة أربعة إلى اثني عشر فاصلة سبعة."
+   },
+   {
+    "start": 39.644,
+    "dur": 2.568,
+    "en": "So it is below the tolerance.",
+    "ar": "إذاً هو تحت الحدّ المسموح."
+   },
+   {
+    "start": 42.562,
+    "dur": 6.552,
+    "en": "Yes. And the tyre pressure is fine, but the tread on the rear left is the most worn.",
+    "ar": "نعم. وضغط الإطارات جيّد، لكن مداس الخلفي الأيسر هو الأكثر اهتراءً."
+   },
+   {
+    "start": 49.464,
+    "dur": 7.128,
+    "en": "Good work. We will charge the battery and change that tyre. The numbers tell the story.",
+    "ar": "عمل جيّد. سنشحن البطارية ونغيّر ذلك الإطار. الأرقام تحكي القصّة."
+   },
+   {
+    "start": 56.942,
+    "dur": 2.856,
+    "en": "Is the battery voltage high or low?",
+    "ar": "هل جهد البطارية مرتفع أم منخفض؟"
+   },
+   {
+    "start": 64.857,
+    "dur": 5.208,
+    "en": "Low. Twelve point one volts, and lower than last time.",
+    "ar": "منخفض. اثنا عشر فاصلة واحد فولت، وأدنى من المرّة الماضية."
+   },
+   {
+    "start": 70.415,
+    "dur": 2.472,
+    "en": "What is the correct tolerance?",
+    "ar": "ما هو الحدّ المسموح الصحيح؟"
+   },
+   {
+    "start": 77.652,
+    "dur": 3.456,
+    "en": "Twelve point four to twelve point seven volts.",
+    "ar": "من اثني عشر فاصلة أربعة إلى اثني عشر فاصلة سبعة فولت."
+   },
+   {
+    "start": 81.458,
+    "dur": 2.568,
+    "en": "Which tyre is the most worn?",
+    "ar": "أيّ إطار هو الأكثر اهتراءً؟"
+   },
+   {
+    "start": 88.673,
+    "dur": 1.872,
+    "en": "The rear left.",
+    "ar": "الخلفي الأيسر."
+   },
+   {
+    "start": 90.895,
+    "dur": 7.392,
+    "en": "Notice what made that answerable. Not a feeling about the battery, but one reading and the range it should sit in.",
+    "ar": "لاحظ ما جعل ذلك قابلاً للإجابة. ليس إحساساً بالبطارية، بل قراءة واحدة والمجال الذي ينبغي أن تقع فيه."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 24.094,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 33.773,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 42.5,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 45.925,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 55.817,
+    "hold": 8.99,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 69.452,
+    "hold": 8.15,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 80.82,
+    "hold": 7.8,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

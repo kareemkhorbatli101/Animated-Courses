@@ -1,0 +1,119 @@
+{
+ "schema": "timeline/1",
+ "duration": 132.907,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.136,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.936,
+    "dur": 6.912,
+    "en": "This is Part 2, Notice the Passive. You will see why a process is written without a doer.",
+    "ar": "هذا الجزء الثاني، لاحظ صيغة المجهول. سترى لماذا تُكتب العمليّة دون فاعل."
+   },
+   {
+    "start": 16.198,
+    "dur": 6.048,
+    "en": "Listen to two sentences about the same piece of work. Ask yourself what is different.",
+    "ar": "استمع إلى جملتين عن العمل نفسه. واسأل نفسك ما الفرق."
+   },
+   {
+    "start": 22.596,
+    "dur": 2.64,
+    "en": "The mechanic services the car.",
+    "ar": "الميكانيكي يصون السيارة."
+   },
+   {
+    "start": 25.586,
+    "dur": 2.304,
+    "en": "The car is serviced.",
+    "ar": "السيارة تُصان."
+   },
+   {
+    "start": 28.24,
+    "dur": 5.064,
+    "en": "In the first sentence, who is important? And in the second?",
+    "ar": "في الجملة الأولى، من هو المهمّ؟ وفي الثانية؟"
+   },
+   {
+    "start": 39.775,
+    "dur": 7.272,
+    "en": "In the first, the mechanic, because he does the action. In the second, the action itself.",
+    "ar": "في الأولى، الميكانيكي، لأنّه من يقوم بالعمل. وفي الثانية، العمل نفسه."
+   },
+   {
+    "start": 47.397,
+    "dur": 11.376,
+    "en": "That is why a process is written in the passive. The car is booked in. It is inspected. The oil is changed. It is handed over.",
+    "ar": "ولهذا تُكتب العمليّة بصيغة المجهول. تُسجَّل السيارة. تُفحَص. يُغيَّر الزيت. تُسلَّم."
+   },
+   {
+    "start": 59.123,
+    "dur": 6.0,
+    "en": "Four steps, and not one of them names a person. Why does that not matter here?",
+    "ar": "أربع خطوات، ولا واحدة منها تسمّي شخصاً. لماذا لا يهمّ ذلك هنا؟"
+   },
+   {
+    "start": 72.711,
+    "dur": 5.376,
+    "en": "Because the steps always happen in the same order, whoever is on shift that day.",
+    "ar": "لأنّ الخطوات تحدث بالترتيب نفسه دائماً، أيّاً كان من في الدوام ذلك اليوم."
+   },
+   {
+    "start": 78.437,
+    "dur": 8.064,
+    "en": "So here are the two forms. The active is subject, then verb, then object, and it says who does the action.",
+    "ar": "إذاً هاتان هما الصيغتان. المعلوم هو فاعل، ثمّ فعل، ثمّ مفعول، وهو يقول من يقوم بالعمل."
+   },
+   {
+    "start": 86.851,
+    "dur": 7.752,
+    "en": "The mechanic services the car. The mechanic is the subject, services is the verb, the car is the object.",
+    "ar": "الميكانيكي يصون السيارة. فالميكانيكي هو الفاعل، و services هو الفعل، والسيارة هي المفعول."
+   },
+   {
+    "start": 94.953,
+    "dur": 8.136,
+    "en": "The present passive is the object, then is or are, then the past participle. And it says the action, not the doer.",
+    "ar": "والمجهول في المضارع هو المفعول، ثمّ is أو are، ثمّ التصريف الثالث للفعل. وهو يقول العمل، لا الفاعل."
+   },
+   {
+    "start": 103.439,
+    "dur": 7.824,
+    "en": "The car is serviced. The tyres are checked. One car takes is; two tyres take are.",
+    "ar": "السيارة تُصان. والإطارات تُفحَص. السيارة الواحدة تأخذ is؛ والإطاران يأخذان are."
+   },
+   {
+    "start": 111.613,
+    "dur": 6.744,
+    "en": "You add by and the doer only when you really need it. The second car is diagnosed by Lina.",
+    "ar": "وتضيف by والفاعل فقط عندما تحتاج ذلك فعلاً. السيارة الثانية تُشخَّص من قبل لينا."
+   },
+   {
+    "start": 118.707,
+    "dur": 12.6,
+    "en": "And two traps. Never drop the is or are: the car serviced is not a sentence. And match it to the number: the tyres is checked is wrong, because tyres is plural.",
+    "ar": "وفخّان. لا تحذف is أو are أبداً: فـ the car serviced ليست جملة. وطابقها مع العدد: فـ the tyres is checked خطأ، لأنّ tyres جمع."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

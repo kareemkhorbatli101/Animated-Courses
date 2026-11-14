@@ -1920,11 +1920,11 @@
    "order": 9,
    "title": {
     "en": "Where Are the Tools?",
-    "ar": "أين العُدّة؟ ستستمع إلى متدرّب يجد العُدّة، ثمّ تجيب عن أسئلة"
+    "ar": "أين العُدّة؟"
    },
    "description": {
-    "en": "This is Part 3, Where Are the Tools? You will listen to a trainee find the tools, then answer questions.",
-    "ar": "هذا الجزء الثالث، أين العُدّة؟ ستستمع إلى متدرّب يجد العُدّة، ثمّ تجيب عن أسئلة."
+    "en": "You will listen to a trainee find the tools, then answer questions.",
+    "ar": "ستستمع إلى متدرّب يجد العُدّة، ثمّ تجيب عن أسئلة."
    },
    "dir": "courses/eam-b1/u03v09",
    "speech": [
@@ -2408,6 +2408,1602 @@
     ]
    },
    "mp4": []
+  },
+  {
+   "id": "u04v01",
+   "order": 1,
+   "title": {
+    "en": "Warm Up",
+    "ar": "التمهيد"
+   },
+   "description": {
+    "en": "You will meet the ten measuring words of the unit.",
+    "ar": "ستتعرّف على كلمات القياس العشر في هذه الوحدة."
+   },
+   "dir": "courses/eam-b1/u04v01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 176.86
+   },
+   "bytes": 9295067,
+   "meshopt": true,
+   "meshoptBytes": 2211011,
+   "wireBytes": 5016276,
+   "meshoptWireBytes": 1629769,
+   "files": 46,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v02",
+   "order": 2,
+   "title": {
+    "en": "Measuring and Diagnosis Terms",
+    "ar": "مصطلحات القياس والتشخيص"
+   },
+   "description": {
+    "en": "You will define seven words and fill in the measurements table.",
+    "ar": "ستعرّف سبع كلمات وتُكمل جدول القياسات."
+   },
+   "dir": "courses/eam-b1/u04v02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 174.9
+   },
+   "bytes": 9121634,
+   "meshopt": true,
+   "meshoptBytes": 2037578,
+   "wireBytes": 4860779,
+   "meshoptWireBytes": 1474272,
+   "files": 43,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v03",
+   "order": 3,
+   "title": {
+    "en": "Pronunciation",
+    "ar": "النطق"
+   },
+   "description": {
+    "en": "You will practise the stress in six words.",
+    "ar": "ستتدرّب على النبر في ستّ كلمات."
+   },
+   "dir": "courses/eam-b1/u04v03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 112.46
+   },
+   "bytes": 8865658,
+   "meshopt": true,
+   "meshoptBytes": 1789426,
+   "wireBytes": 4645422,
+   "meshoptWireBytes": 1270638,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v04",
+   "order": 4,
+   "title": {
+    "en": "Check What You Know",
+    "ar": "تحقّق ممّا تعرفه"
+   },
+   "description": {
+    "en": "You will say what each reading means, then answer the book's questions.",
+    "ar": "ستقول معنى كلّ قراءة، ثمّ تجيب عن أسئلة الكتاب."
+   },
+   "dir": "courses/eam-b1/u04v04",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 193.31
+   },
+   "bytes": 9158337,
+   "meshopt": true,
+   "meshoptBytes": 2074281,
+   "wireBytes": 4891833,
+   "meshoptWireBytes": 1505326,
+   "files": 43,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v05",
+   "order": 5,
+   "title": {
+    "en": "Notice the Comparison",
+    "ar": "لاحظ المقارنة"
+   },
+   "description": {
+    "en": "You will notice the comparative and the superlative in a real tyre check.",
+    "ar": "ستلاحظ صيغتي المقارنة والتفضيل في فحص إطارات حقيقي."
+   },
+   "dir": "courses/eam-b1/u04v05",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 126.71
+   },
+   "bytes": 8919052,
+   "meshopt": true,
+   "meshoptBytes": 1862600,
+   "wireBytes": 4698960,
+   "meshoptWireBytes": 1330246,
+   "files": 28,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v06",
+   "order": 6,
+   "title": {
+    "en": "Grammar Practice",
+    "ar": "تدريب القواعد"
+   },
+   "description": {
+    "en": "You will build four comparatives and four superlatives.",
+    "ar": "ستبني أربع صيغ مقارنة وأربع صيغ تفضيل."
+   },
+   "dir": "courses/eam-b1/u04v06",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 204.21
+   },
+   "bytes": 9207283,
+   "meshopt": true,
+   "meshoptBytes": 2150831,
+   "wireBytes": 4936401,
+   "meshoptWireBytes": 1567687,
+   "files": 34,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v07",
+   "order": 7,
+   "title": {
+    "en": "Grammar Review",
+    "ar": "مراجعة القواعد"
+   },
+   "description": {
+    "en": "You will find the mistake, choose the correct sentence, then make two of your own.",
+    "ar": "ستجد الخطأ، وتختار الجملة الصحيحة، ثمّ تصنع جملتين من عندك."
+   },
+   "dir": "courses/eam-b1/u04v07",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 174.3
+   },
+   "bytes": 9035276,
+   "meshopt": true,
+   "meshoptBytes": 1959044,
+   "wireBytes": 4781295,
+   "meshoptWireBytes": 1406511,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v08",
+   "order": 8,
+   "title": {
+    "en": "Checking the Tyres",
+    "ar": "فحص الإطارات"
+   },
+   "description": {
+    "en": "You will hear four tread readings and decide which tyre is the most worn.",
+    "ar": "ستسمع أربع قراءات مداس وتقرّر أيّ إطار هو الأكثر اهتراءً."
+   },
+   "dir": "courses/eam-b1/u04v08",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 112.15
+   },
+   "bytes": 8849605,
+   "meshopt": true,
+   "meshoptBytes": 1765549,
+   "wireBytes": 4633892,
+   "meshoptWireBytes": 1247385,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v09",
+   "order": 9,
+   "title": {
+    "en": "The Diagnostic Report",
+    "ar": "تقرير التشخيص"
+   },
+   "description": {
+    "en": "You will hear one reading against its tolerance.",
+    "ar": "ستسمع قراءة واحدة مقابل حدّها المسموح."
+   },
+   "dir": "courses/eam-b1/u04v09",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 99.89
+   },
+   "bytes": 8789034,
+   "meshopt": true,
+   "meshoptBytes": 1702530,
+   "wireBytes": 4574904,
+   "meshoptWireBytes": 1196960,
+   "files": 29,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v10",
+   "order": 10,
+   "title": {
+    "en": "Comparing Three Cars",
+    "ar": "مقارنة ثلاث سيارات"
+   },
+   "description": {
+    "en": "You will hear why the superlative needs all three.",
+    "ar": "ستسمع لماذا تحتاج صيغة التفضيل الثلاث جميعاً."
+   },
+   "dir": "courses/eam-b1/u04v10",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 151.15
+   },
+   "bytes": 8976934,
+   "meshopt": true,
+   "meshoptBytes": 1916974,
+   "wireBytes": 4747029,
+   "meshoptWireBytes": 1372319,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v11",
+   "order": 11,
+   "title": {
+    "en": "Discussing Measurements",
+    "ar": "مناقشة القياسات"
+   },
+   "description": {
+    "en": "You will answer three questions, do a pair task, and give your own opinion.",
+    "ar": "ستجيب عن ثلاثة أسئلة، وتؤدّي مهمّة زوجية، وتعطي رأيك."
+   },
+   "dir": "courses/eam-b1/u04v11",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 163.91
+   },
+   "bytes": 9070418,
+   "meshopt": true,
+   "meshoptBytes": 1994186,
+   "wireBytes": 4816063,
+   "meshoptWireBytes": 1441279,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v12",
+   "order": 12,
+   "title": {
+    "en": "Reporting Readings Role Play",
+    "ar": "لعب أدوار تبليغ القراءات"
+   },
+   "description": {
+    "en": "You will take each turn yourself, run it again with a complication, then give a talk.",
+    "ar": "ستأخذ كلّ دور بنفسك، ثمّ تعيده مع تعقيد، ثمّ تقدّم حديثاً."
+   },
+   "dir": "courses/eam-b1/u04v12",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 237.22
+   },
+   "bytes": 9509460,
+   "meshopt": true,
+   "meshoptBytes": 2422956,
+   "wireBytes": 5153821,
+   "meshoptWireBytes": 1775877,
+   "files": 39,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v13",
+   "order": 13,
+   "title": {
+    "en": "Why Numbers Matter in Diagnosis",
+    "ar": "لماذا تهمّ الأرقام في التشخيص"
+   },
+   "description": {
+    "en": "You will read the unit's main text.",
+    "ar": "ستقرأ نصّ الوحدة الرئيسي."
+   },
+   "dir": "courses/eam-b1/u04v13",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 145.7
+   },
+   "bytes": 9129608,
+   "meshopt": true,
+   "meshoptBytes": 2053376,
+   "wireBytes": 4873299,
+   "meshoptWireBytes": 1498515,
+   "files": 37,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v14",
+   "order": 14,
+   "title": {
+    "en": "Words in Context, and Servicing Cars in Syria",
+    "ar": "الكلمات في سياقها، وصيانة السيارات في سوريا"
+   },
+   "description": {
+    "en": "You will give the meaning of four words, then read a second text about servicing cars in Syria.",
+    "ar": "ستذكر معنى أربع كلمات، ثمّ تقرأ نصّاً ثانياً عن صيانة السيارات في سوريا."
+   },
+   "dir": "courses/eam-b1/u04v14",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 189.57
+   },
+   "bytes": 9293870,
+   "meshopt": true,
+   "meshoptBytes": 2217638,
+   "wireBytes": 5005317,
+   "meshoptWireBytes": 1630533,
+   "files": 41,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v15",
+   "order": 15,
+   "title": {
+    "en": "How to Write a Comparison",
+    "ar": "كيف تكتب مقارنة"
+   },
+   "description": {
+    "en": "You will take a model apart one sentence at a time, then write.",
+    "ar": "ستفكّك نموذجاً جملة جملة، ثمّ تكتب."
+   },
+   "dir": "courses/eam-b1/u04v15",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 213.76
+   },
+   "bytes": 9532269,
+   "meshopt": true,
+   "meshoptBytes": 2456037,
+   "wireBytes": 5201879,
+   "meshoptWireBytes": 1827095,
+   "files": 35,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v16",
+   "order": 16,
+   "title": {
+    "en": "Checking the Diagnostic Report",
+    "ar": "فحص تقرير التشخيص"
+   },
+   "description": {
+    "en": "You will hear a manager and a technician go through a diagnostic report.",
+    "ar": "ستسمع مديراً وفنّيّة يستعرضان تقرير تشخيص."
+   },
+   "dir": "courses/eam-b1/u04v16",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 180.43
+   },
+   "bytes": 9184014,
+   "meshopt": true,
+   "meshoptBytes": 2094002,
+   "wireBytes": 4904493,
+   "meshoptWireBytes": 1520553,
+   "files": 39,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v17",
+   "order": 17,
+   "title": {
+    "en": "Reading the Table, and Writing It Up",
+    "ar": "قراءة الجدول وكتابته"
+   },
+   "description": {
+    "en": "You will read four numbers four ways, then write the summary.",
+    "ar": "ستقرأ أربعة أرقام بأربع طرق، ثمّ تكتب الملخّص."
+   },
+   "dir": "courses/eam-b1/u04v17",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 209.14
+   },
+   "bytes": 9475828,
+   "meshopt": true,
+   "meshoptBytes": 2413420,
+   "wireBytes": 5156237,
+   "meshoptWireBytes": 1790090,
+   "files": 39,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v18",
+   "order": 18,
+   "title": {
+    "en": "Why Standard Numbers Matter",
+    "ar": "لماذا تهمّ الأرقام المعيارية"
+   },
+   "description": {
+    "en": "You will read why a carmaker wrote a book of numbers.",
+    "ar": "ستقرأ لماذا كتبت شركة سيارات كتاب أرقام."
+   },
+   "dir": "courses/eam-b1/u04v18",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 212.62
+   },
+   "bytes": 9395044,
+   "meshopt": true,
+   "meshoptBytes": 2335084,
+   "wireBytes": 5097884,
+   "meshoptWireBytes": 1723174,
+   "files": 43,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v19",
+   "order": 19,
+   "title": {
+    "en": "Adjusting the Service Interval",
+    "ar": "تعديل فترة الصيانة"
+   },
+   "description": {
+    "en": "You will decide whether to shorten a service interval for Syrian roads.",
+    "ar": "ستقرّر إن كنت تقصّر فترة الصيانة لطرق سوريا."
+   },
+   "dir": "courses/eam-b1/u04v19",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 162.16
+   },
+   "bytes": 9143479,
+   "meshopt": true,
+   "meshoptBytes": 2083519,
+   "wireBytes": 4891557,
+   "meshoptWireBytes": 1516847,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v20",
+   "order": 20,
+   "title": {
+    "en": "Spiral Review",
+    "ar": "المراجعة التراكمية"
+   },
+   "description": {
+    "en": "Every Unit 4 answer, asked once - and one from Unit 3.",
+    "ar": "كلّ جواب في الوحدة الرابعة، يُسأل مرّة - وواحد من الوحدة الثالثة."
+   },
+   "dir": "courses/eam-b1/u04v20",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 200.94
+   },
+   "bytes": 9206243,
+   "meshopt": true,
+   "meshoptBytes": 2146283,
+   "wireBytes": 4952819,
+   "meshoptWireBytes": 1578109,
+   "files": 47,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u04v21",
+   "order": 21,
+   "title": {
+    "en": "Can-Do and Glossary",
+    "ar": "ما أستطيع فعله والمعجم"
+   },
+   "description": {
+    "en": "Five things you can do, each with an example, and the ten words asked rather than read.",
+    "ar": "خمسة أمور تستطيعها، لكلٍّ مثال، والكلمات العشر تُسأل لا تُقرأ."
+   },
+   "dir": "courses/eam-b1/u04v21",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 216.43
+   },
+   "bytes": 9412470,
+   "meshopt": true,
+   "meshoptBytes": 2350062,
+   "wireBytes": 5109368,
+   "meshoptWireBytes": 1743221,
+   "files": 55,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v01",
+   "order": 1,
+   "title": {
+    "en": "Warm Up",
+    "ar": "التمهيد"
+   },
+   "description": {
+    "en": "You will meet the seven steps and the three places of the service process.",
+    "ar": "ستتعرّف على الخطوات السبع والأماكن الثلاثة في عمليّة الصيانة."
+   },
+   "dir": "courses/eam-b1/u05v01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 182.58
+   },
+   "bytes": 9335741,
+   "meshopt": true,
+   "meshoptBytes": 2259509,
+   "wireBytes": 5051430,
+   "meshoptWireBytes": 1676646,
+   "files": 46,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v02",
+   "order": 2,
+   "title": {
+    "en": "The Service Process Terms",
+    "ar": "مصطلحات عمليّة الصيانة"
+   },
+   "description": {
+    "en": "You will define seven steps and name what happens in each department.",
+    "ar": "ستعرّف سبع خطوات وتسمّي ما يحدث في كلّ قسم."
+   },
+   "dir": "courses/eam-b1/u05v02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 176.28
+   },
+   "bytes": 9182690,
+   "meshopt": true,
+   "meshoptBytes": 2106458,
+   "wireBytes": 4918030,
+   "meshoptWireBytes": 1543246,
+   "files": 47,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v03",
+   "order": 3,
+   "title": {
+    "en": "Pronunciation",
+    "ar": "النطق"
+   },
+   "description": {
+    "en": "You will practise the stress in six words.",
+    "ar": "ستتدرّب على النبر في ستّ كلمات."
+   },
+   "dir": "courses/eam-b1/u05v03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 125.44
+   },
+   "bytes": 8985636,
+   "meshopt": true,
+   "meshoptBytes": 1901580,
+   "wireBytes": 4753545,
+   "meshoptWireBytes": 1367038,
+   "files": 28,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v04",
+   "order": 4,
+   "title": {
+    "en": "Check What You Know",
+    "ar": "تحقّق ممّا تعرفه"
+   },
+   "description": {
+    "en": "You will name the job of five departments, then answer the book's questions.",
+    "ar": "ستسمّي وظيفة خمسة أقسام، ثمّ تجيب عن أسئلة الكتاب."
+   },
+   "dir": "courses/eam-b1/u05v04",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 168.95
+   },
+   "bytes": 8998691,
+   "meshopt": true,
+   "meshoptBytes": 1922459,
+   "wireBytes": 4750204,
+   "meshoptWireBytes": 1375420,
+   "files": 41,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v05",
+   "order": 5,
+   "title": {
+    "en": "Notice the Passive",
+    "ar": "لاحظ صيغة المجهول"
+   },
+   "description": {
+    "en": "You will see why a process is written without a doer.",
+    "ar": "سترى لماذا تُكتب العمليّة دون فاعل."
+   },
+   "dir": "courses/eam-b1/u05v05",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 132.91
+   },
+   "bytes": 8932556,
+   "meshopt": true,
+   "meshoptBytes": 1876104,
+   "wireBytes": 4707325,
+   "meshoptWireBytes": 1338611,
+   "files": 24,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v06",
+   "order": 6,
+   "title": {
+    "en": "Grammar Practice",
+    "ar": "تدريب القواعد"
+   },
+   "description": {
+    "en": "You will make four passives, then CHOOSE between the two forms four times.",
+    "ar": "ستصنع أربع صيغ مجهولة، ثمّ تختار بين الصيغتين أربع مرّات."
+   },
+   "dir": "courses/eam-b1/u05v06",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 187.35
+   },
+   "bytes": 9114001,
+   "meshopt": true,
+   "meshoptBytes": 2057549,
+   "wireBytes": 4859656,
+   "meshoptWireBytes": 1490942,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v07",
+   "order": 7,
+   "title": {
+    "en": "Grammar Review",
+    "ar": "مراجعة القواعد"
+   },
+   "description": {
+    "en": "You will find the mistake, choose the correct sentence, then describe three steps of your own.",
+    "ar": "ستجد الخطأ، وتختار الجملة الصحيحة، ثمّ تصف ثلاث خطوات من عندك."
+   },
+   "dir": "courses/eam-b1/u05v07",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 181.23
+   },
+   "bytes": 9105401,
+   "meshopt": true,
+   "meshoptBytes": 2021345,
+   "wireBytes": 4847493,
+   "meshoptWireBytes": 1460986,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v08",
+   "order": 8,
+   "title": {
+    "en": "Explaining the Process",
+    "ar": "شرح العمليّة"
+   },
+   "description": {
+    "en": "You will hear all seven steps in order, told to a customer.",
+    "ar": "ستسمع الخطوات السبع كلّها بالترتيب، تُشرَح لعميل."
+   },
+   "dir": "courses/eam-b1/u05v08",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 107.11
+   },
+   "bytes": 8798939,
+   "meshopt": true,
+   "meshoptBytes": 1722707,
+   "wireBytes": 4587015,
+   "meshoptWireBytes": 1212231,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v09",
+   "order": 9,
+   "title": {
+    "en": "Where Is the Car Now?",
+    "ar": "أين السيارة الآن؟"
+   },
+   "description": {
+    "en": "You will hear a customer ask, and meet the passive in the past.",
+    "ar": "ستسمع عميلاً يسأل، وتلتقي بالمجهول في الماضي."
+   },
+   "dir": "courses/eam-b1/u05v09",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 92.91
+   },
+   "bytes": 8680992,
+   "meshopt": true,
+   "meshoptBytes": 1609812,
+   "wireBytes": 4479480,
+   "meshoptWireBytes": 1114193,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v10",
+   "order": 10,
+   "title": {
+    "en": "Planning the Day",
+    "ar": "التخطيط لليوم"
+   },
+   "description": {
+    "en": "You will hear six cars shared out, and the one rule that does not change.",
+    "ar": "ستسمع توزيع ستّ سيارات، والقاعدة الواحدة التي لا تتغيّر."
+   },
+   "dir": "courses/eam-b1/u05v10",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 152.74
+   },
+   "bytes": 8974501,
+   "meshopt": true,
+   "meshoptBytes": 1914541,
+   "wireBytes": 4742976,
+   "meshoptWireBytes": 1368266,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v11",
+   "order": 11,
+   "title": {
+    "en": "Discussing the Process",
+    "ar": "مناقشة العمليّة"
+   },
+   "description": {
+    "en": "You will answer three questions, compare two job cards, and give your own opinion.",
+    "ar": "ستجيب عن ثلاثة أسئلة، وتقارن بطاقتي عمل، وتعطي رأيك."
+   },
+   "dir": "courses/eam-b1/u05v11",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 170.27
+   },
+   "bytes": 9096977,
+   "meshopt": true,
+   "meshoptBytes": 2020745,
+   "wireBytes": 4836118,
+   "meshoptWireBytes": 1461334,
+   "files": 30,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v12",
+   "order": 12,
+   "title": {
+    "en": "Explaining the Process Role Play",
+    "ar": "لعب أدوار شرح العمليّة"
+   },
+   "description": {
+    "en": "You will take each turn yourself, refuse a customer politely, then give a talk.",
+    "ar": "ستأخذ كلّ دور بنفسك، وترفض طلب عميل بلباقة، ثمّ تقدّم حديثاً."
+   },
+   "dir": "courses/eam-b1/u05v12",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 236.5
+   },
+   "bytes": 9553860,
+   "meshopt": true,
+   "meshoptBytes": 2482680,
+   "wireBytes": 5201246,
+   "meshoptWireBytes": 1835959,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v13",
+   "order": 13,
+   "title": {
+    "en": "From Check-in to Handover",
+    "ar": "من الاستقبال إلى التسليم"
+   },
+   "description": {
+    "en": "You will read the unit's main text.",
+    "ar": "ستقرأ نصّ الوحدة الرئيسي."
+   },
+   "dir": "courses/eam-b1/u05v13",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 163.06
+   },
+   "bytes": 9254317,
+   "meshopt": true,
+   "meshoptBytes": 2170261,
+   "wireBytes": 4978326,
+   "meshoptWireBytes": 1591819,
+   "files": 36,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v14",
+   "order": 14,
+   "title": {
+    "en": "Words in Context, and a Big Fleet Order",
+    "ar": "الكلمات في سياقها، وطلب أسطول كبير"
+   },
+   "description": {
+    "en": "You will give the meaning of four words, then read about a twenty-car fleet order.",
+    "ar": "ستذكر معنى أربع كلمات، ثمّ تقرأ عن طلب أسطول من عشرين سيارة."
+   },
+   "dir": "courses/eam-b1/u05v14",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 202.69
+   },
+   "bytes": 9406907,
+   "meshopt": true,
+   "meshoptBytes": 2322851,
+   "wireBytes": 5104976,
+   "meshoptWireBytes": 1718469,
+   "files": 44,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v15",
+   "order": 15,
+   "title": {
+    "en": "How to Write a Process",
+    "ar": "كيف تكتب عمليّة"
+   },
+   "description": {
+    "en": "You will take a model apart one sentence at a time, then write.",
+    "ar": "ستفكّك نموذجاً جملة جملة، ثمّ تكتب."
+   },
+   "dir": "courses/eam-b1/u05v15",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 220.73
+   },
+   "bytes": 9589199,
+   "meshopt": true,
+   "meshoptBytes": 2512967,
+   "wireBytes": 5251952,
+   "meshoptWireBytes": 1877168,
+   "files": 35,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v16",
+   "order": 16,
+   "title": {
+    "en": "Planning the Day's Schedule",
+    "ar": "التخطيط لجدول اليوم"
+   },
+   "description": {
+    "en": "You will hear a manager and a foreman plan a day of six cars.",
+    "ar": "ستسمع مديراً ورئيس ورشة يخطّطان ليوم فيه ستّ سيارات."
+   },
+   "dir": "courses/eam-b1/u05v16",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 176.34
+   },
+   "bytes": 9073300,
+   "meshopt": true,
+   "meshoptBytes": 2010892,
+   "wireBytes": 4812774,
+   "meshoptWireBytes": 1446627,
+   "files": 36,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v17",
+   "order": 17,
+   "title": {
+    "en": "The Order of the Process, and Writing the Plan",
+    "ar": "ترتيب العمليّة"
+   },
+   "description": {
+    "en": "You will number the five steps, then write the day's plan.",
+    "ar": "سترقّم الخطوات الخمس، ثمّ تكتب خطّة اليوم."
+   },
+   "dir": "courses/eam-b1/u05v17",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 197.62
+   },
+   "bytes": 9376899,
+   "meshopt": true,
+   "meshoptBytes": 2314491,
+   "wireBytes": 5073285,
+   "meshoptWireBytes": 1707138,
+   "files": 39,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v18",
+   "order": 18,
+   "title": {
+    "en": "The Workshop That Cut Waiting Times",
+    "ar": "الورشة التي قلّصت أوقات الانتظار"
+   },
+   "description": {
+    "en": "You will read how a clear order cut waiting times by half.",
+    "ar": "ستقرأ كيف قلّص الترتيب الواضح أوقات الانتظار إلى النصف."
+   },
+   "dir": "courses/eam-b1/u05v18",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 221.05
+   },
+   "bytes": 9395872,
+   "meshopt": true,
+   "meshoptBytes": 2335912,
+   "wireBytes": 5092567,
+   "meshoptWireBytes": 1717857,
+   "files": 41,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v19",
+   "order": 19,
+   "title": {
+    "en": "The Three-Day Fleet Job",
+    "ar": "عمل الأسطول في ثلاثة أيّام"
+   },
+   "description": {
+    "en": "You will decide how to fit a fifteen-car fleet job around the normal work.",
+    "ar": "ستقرّر كيف تُدخل عمل أسطول من خمس عشرة سيارة بين العمل العادي."
+   },
+   "dir": "courses/eam-b1/u05v19",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 159.79
+   },
+   "bytes": 9120328,
+   "meshopt": true,
+   "meshoptBytes": 2060368,
+   "wireBytes": 4868860,
+   "meshoptWireBytes": 1494150,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v20",
+   "order": 20,
+   "title": {
+    "en": "Spiral Review",
+    "ar": "المراجعة التراكمية"
+   },
+   "description": {
+    "en": "Every Unit 5 answer, asked once - and one from Unit 4.",
+    "ar": "كلّ جواب في الوحدة الخامسة، يُسأل مرّة - وواحد من الوحدة الرابعة."
+   },
+   "dir": "courses/eam-b1/u05v20",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 218.45
+   },
+   "bytes": 9257624,
+   "meshopt": true,
+   "meshoptBytes": 2197664,
+   "wireBytes": 4995475,
+   "meshoptWireBytes": 1620765,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u05v21",
+   "order": 21,
+   "title": {
+    "en": "Can-Do and Glossary",
+    "ar": "ما أستطيع فعله والمعجم"
+   },
+   "description": {
+    "en": "Five things you can do, each with an example, and the ten words asked rather than read.",
+    "ar": "خمسة أمور تستطيعها، لكلٍّ مثال، والكلمات العشر تُسأل لا تُقرأ."
+   },
+   "dir": "courses/eam-b1/u05v21",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 221.39
+   },
+   "bytes": 9470745,
+   "meshopt": true,
+   "meshoptBytes": 2388557,
+   "wireBytes": 5152553,
+   "meshoptWireBytes": 1780336,
+   "files": 58,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
   }
  ],
  "units": [
@@ -2830,6 +4426,288 @@
      "videos": [
       "u03v20",
       "u03v21"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u04",
+   "order": 4,
+   "title": {
+    "en": "Unit 4 — Measuring, Readings and Diagnosis",
+    "ar": "الوحدة ٤ — القياس والقراءات والتشخيص"
+   },
+   "parts": [
+    {
+     "id": "warmup",
+     "order": 0,
+     "title": {
+      "en": "Warm Up",
+      "ar": "التمهيد"
+     },
+     "videos": [
+      "u04v01"
+     ]
+    },
+    {
+     "id": "p1",
+     "order": 1,
+     "title": {
+      "en": "Part 1 — Vocabulary",
+      "ar": "الجزء ١ — المفردات"
+     },
+     "videos": [
+      "u04v02",
+      "u04v03",
+      "u04v04"
+     ]
+    },
+    {
+     "id": "p2",
+     "order": 2,
+     "title": {
+      "en": "Part 2 — Grammar",
+      "ar": "الجزء ٢ — القواعد"
+     },
+     "videos": [
+      "u04v05",
+      "u04v06",
+      "u04v07"
+     ]
+    },
+    {
+     "id": "p3",
+     "order": 3,
+     "title": {
+      "en": "Part 3 — Listening",
+      "ar": "الجزء ٣ — الاستماع"
+     },
+     "videos": [
+      "u04v08",
+      "u04v09",
+      "u04v10"
+     ]
+    },
+    {
+     "id": "p4",
+     "order": 4,
+     "title": {
+      "en": "Part 4 — Speaking",
+      "ar": "الجزء ٤ — المحادثة"
+     },
+     "videos": [
+      "u04v11",
+      "u04v12"
+     ]
+    },
+    {
+     "id": "p5",
+     "order": 5,
+     "title": {
+      "en": "Part 5 — Reading",
+      "ar": "الجزء ٥ — القراءة"
+     },
+     "videos": [
+      "u04v13",
+      "u04v14"
+     ]
+    },
+    {
+     "id": "p6",
+     "order": 6,
+     "title": {
+      "en": "Part 6 — Writing",
+      "ar": "الجزء ٦ — الكتابة"
+     },
+     "videos": [
+      "u04v15"
+     ]
+    },
+    {
+     "id": "p7",
+     "order": 7,
+     "title": {
+      "en": "Part 7 — Management File",
+      "ar": "الجزء ٧ — ملفّ الإدارة"
+     },
+     "videos": [
+      "u04v16",
+      "u04v17"
+     ]
+    },
+    {
+     "id": "p8",
+     "order": 8,
+     "title": {
+      "en": "Part 8 — Case Study",
+      "ar": "الجزء ٨ — دراسة حالة"
+     },
+     "videos": [
+      "u04v18"
+     ]
+    },
+    {
+     "id": "p9",
+     "order": 9,
+     "title": {
+      "en": "Part 9 — Syria in Focus",
+      "ar": "الجزء ٩ — سوريا في التركيز"
+     },
+     "videos": [
+      "u04v19"
+     ]
+    },
+    {
+     "id": "p10",
+     "order": 10,
+     "title": {
+      "en": "Part 10 — Review",
+      "ar": "الجزء ١٠ — المراجعة"
+     },
+     "videos": [
+      "u04v20",
+      "u04v21"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u05",
+   "order": 5,
+   "title": {
+    "en": "Unit 5 — The Service Process",
+    "ar": "الوحدة ٥ — عمليّة الصيانة"
+   },
+   "parts": [
+    {
+     "id": "warmup",
+     "order": 0,
+     "title": {
+      "en": "Warm Up",
+      "ar": "التمهيد"
+     },
+     "videos": [
+      "u05v01"
+     ]
+    },
+    {
+     "id": "p1",
+     "order": 1,
+     "title": {
+      "en": "Part 1 — Vocabulary",
+      "ar": "الجزء ١ — المفردات"
+     },
+     "videos": [
+      "u05v02",
+      "u05v03",
+      "u05v04"
+     ]
+    },
+    {
+     "id": "p2",
+     "order": 2,
+     "title": {
+      "en": "Part 2 — Grammar",
+      "ar": "الجزء ٢ — القواعد"
+     },
+     "videos": [
+      "u05v05",
+      "u05v06",
+      "u05v07"
+     ]
+    },
+    {
+     "id": "p3",
+     "order": 3,
+     "title": {
+      "en": "Part 3 — Listening",
+      "ar": "الجزء ٣ — الاستماع"
+     },
+     "videos": [
+      "u05v08",
+      "u05v09",
+      "u05v10"
+     ]
+    },
+    {
+     "id": "p4",
+     "order": 4,
+     "title": {
+      "en": "Part 4 — Speaking",
+      "ar": "الجزء ٤ — المحادثة"
+     },
+     "videos": [
+      "u05v11",
+      "u05v12"
+     ]
+    },
+    {
+     "id": "p5",
+     "order": 5,
+     "title": {
+      "en": "Part 5 — Reading",
+      "ar": "الجزء ٥ — القراءة"
+     },
+     "videos": [
+      "u05v13",
+      "u05v14"
+     ]
+    },
+    {
+     "id": "p6",
+     "order": 6,
+     "title": {
+      "en": "Part 6 — Writing",
+      "ar": "الجزء ٦ — الكتابة"
+     },
+     "videos": [
+      "u05v15"
+     ]
+    },
+    {
+     "id": "p7",
+     "order": 7,
+     "title": {
+      "en": "Part 7 — Management File",
+      "ar": "الجزء ٧ — ملفّ الإدارة"
+     },
+     "videos": [
+      "u05v16",
+      "u05v17"
+     ]
+    },
+    {
+     "id": "p8",
+     "order": 8,
+     "title": {
+      "en": "Part 8 — Case Study",
+      "ar": "الجزء ٨ — دراسة حالة"
+     },
+     "videos": [
+      "u05v18"
+     ]
+    },
+    {
+     "id": "p9",
+     "order": 9,
+     "title": {
+      "en": "Part 9 — Syria in Focus",
+      "ar": "الجزء ٩ — سوريا في التركيز"
+     },
+     "videos": [
+      "u05v19"
+     ]
+    },
+    {
+     "id": "p10",
+     "order": 10,
+     "title": {
+      "en": "Part 10 — Review",
+      "ar": "الجزء ١٠ — المراجعة"
+     },
+     "videos": [
+      "u05v20",
+      "u05v21"
      ]
     }
    ]

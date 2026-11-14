@@ -1,0 +1,156 @@
+{
+ "schema": "timeline/1",
+ "duration": 112.457,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.44,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.24,
+    "dur": 5.88,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 14.47,
+    "dur": 5.64,
+    "en": "Six words from this unit. Say each one aloud and stress the loud syllable.",
+    "ar": "ستّ كلمات من هذه الوحدة. انطق كلّ واحدة بصوت عالٍ وشدّد على المقطع القويّ."
+   },
+   {
+    "start": 20.46,
+    "dur": 5.328,
+    "en": "Gauge. GAYJ. One syllable only, and it rhymes with page.",
+    "ar": "Gauge. المقياس. مقطع واحد فقط، وتُشبه كلمة page."
+   },
+   {
+    "start": 26.138,
+    "dur": 5.28,
+    "en": "Pressure. PRES-sure. Two syllables, and the first one is loud.",
+    "ar": "Pressure. الضغط. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 31.768,
+    "dur": 5.952,
+    "en": "Voltage. VOL-tage. Two syllables, and the first one is loud.",
+    "ar": "Voltage. الجهد. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 38.07,
+    "dur": 5.928,
+    "en": "Tolerance. TOL-er-ance. Three syllables, and the first one is loud.",
+    "ar": "Tolerance. الحدّ المسموح. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 44.348,
+    "dur": 5.448,
+    "en": "Measure. MEA-sure. Two syllables, and the first one is loud.",
+    "ar": "Measure. القياس. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 50.146,
+    "dur": 6.864,
+    "en": "Diagnosis. di-ag-NO-sis. Four syllables, and the THIRD one is loud.",
+    "ar": "Diagnosis. التشخيص. أربعة مقاطع، والثالث هو القويّ."
+   },
+   {
+    "start": 57.36,
+    "dur": 6.096,
+    "en": "Five of the six words stress the first syllable. Diagnosis is the one that does not.",
+    "ar": "خمس من الكلمات الستّ تُشدّد على المقطع الأوّل. التشخيص هي الكلمة التي تخالف ذلك."
+   },
+   {
+    "start": 63.806,
+    "dur": 3.264,
+    "en": "Which syllable is loud in diagnosis?",
+    "ar": "أيّ مقطع هو القويّ في كلمة diagnosis؟"
+   },
+   {
+    "start": 72.188,
+    "dur": 3.912,
+    "en": "The third one. di-ag-NO-sis.",
+    "ar": "الثالث. di-ag-NO-sis."
+   },
+   {
+    "start": 76.45,
+    "dur": 8.664,
+    "en": "One more thing about gauge. It is spelled with five letters but said as one syllable, and the G at the end is soft, like the J in job.",
+    "ar": "أمر آخر عن كلمة gauge. تُكتب بخمسة أحرف لكنّها تُنطق مقطعاً واحداً، وحرف G في آخرها لَيِّن، كحرف J في job."
+   },
+   {
+    "start": 85.464,
+    "dur": 5.064,
+    "en": "So how many syllables does gauge have, and how many does tolerance have?",
+    "ar": "فكم مقطعاً في كلمة gauge، وكم مقطعاً في كلمة tolerance؟"
+   },
+   {
+    "start": 97.763,
+    "dur": 7.944,
+    "en": "Gauge has one. Tolerance has three. The longest word here is the one with the most syllables.",
+    "ar": "في gauge مقطع واحد. وفي tolerance ثلاثة. وأطول كلمة هنا هي التي فيها أكثر المقاطع."
+   },
+   {
+    "start": 106.057,
+    "dur": 4.8,
+    "en": "Say all six again, and tap the loud syllable with your hand as you say it.",
+    "ar": "قل الستّ كلّها مرّة أخرى، واطرق على المقطع القويّ بيدك وأنت تنطقه."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 18.66,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 29.968,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 36.283,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 85.151,
+    "hold": 15.61,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

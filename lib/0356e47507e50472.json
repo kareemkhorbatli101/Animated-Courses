@@ -1,0 +1,183 @@
+{
+ "schema": "timeline/1",
+ "duration": 112.153,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.488,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.288,
+    "dur": 8.088,
+    "en": "This is Part 3, Checking the Tyres. You will hear four tread readings and decide which tyre is the most worn.",
+    "ar": "هذا الجزء الثالث، فحص الإطارات. ستسمع أربع قراءات مداس وتقرّر أيّ إطار هو الأكثر اهتراءً."
+   },
+   {
+    "start": 16.726,
+    "dur": 6.312,
+    "en": "Before you listen, think about this. How does a mechanic know a tyre is too worn?",
+    "ar": "قبل أن تستمع، فكّر في هذا. كيف يعرف الميكانيكي أنّ الإطار مهترئ جدّاً؟"
+   },
+   {
+    "start": 23.388,
+    "dur": 6.24,
+    "en": "Let me check these tyres. I will measure the tread depth on all four and compare them.",
+    "ar": "دعني أفحص هذه الإطارات. سأقيس عمق المداس في الأربعة جميعاً وأقارن بينها."
+   },
+   {
+    "start": 29.978,
+    "dur": 6.384,
+    "en": "The front left has good tread, about six millimetres. The front right is the same.",
+    "ar": "الأمامي الأيسر مداسه جيّد، نحو ستّة ميلّيمترات. والأمامي الأيمن مثله."
+   },
+   {
+    "start": 36.712,
+    "dur": 8.04,
+    "en": "But look. The rear left is more worn than the others, only two millimetres. That is too low.",
+    "ar": "لكن انظر. الخلفي الأيسر أكثر اهتراءً من البقيّة، ميلّيمتران فقط. وهذا منخفض جدّاً."
+   },
+   {
+    "start": 45.102,
+    "dur": 3.768,
+    "en": "The rear right is a little better, three millimetres.",
+    "ar": "الخلفي الأيمن أحسن قليلاً، ثلاثة ميلّيمترات."
+   },
+   {
+    "start": 49.22,
+    "dur": 6.528,
+    "en": "So the rear left is the most worn, and we should change it. Always compare all four.",
+    "ar": "إذاً الخلفي الأيسر هو الأكثر اهتراءً، وينبغي أن نغيّره. قارن الأربعة دائماً."
+   },
+   {
+    "start": 56.098,
+    "dur": 4.944,
+    "en": "Now say whether each sentence is true, false, or not given.",
+    "ar": "الآن قل إن كانت كلّ جملة صحيحة أو خاطئة أو غير مذكورة."
+   },
+   {
+    "start": 61.392,
+    "dur": 2.736,
+    "en": "The front tyres have good tread.",
+    "ar": "الإطارات الأمامية مداسها جيّد."
+   },
+   {
+    "start": 69.01,
+    "dur": 5.64,
+    "en": "True. Six millimetres on both, and Lina called that good.",
+    "ar": "صحيحة. ستّة ميلّيمترات في كلٍّ منهما، وقد وصفت لينا ذلك بالجيّد."
+   },
+   {
+    "start": 75.0,
+    "dur": 3.288,
+    "en": "The rear left tyre has the deepest tread.",
+    "ar": "الإطار الخلفي الأيسر مداسه الأعمق."
+   },
+   {
+    "start": 83.7,
+    "dur": 6.84,
+    "en": "False. It is the most worn, at two millimetres, which is the shallowest of the four.",
+    "ar": "خاطئة. هو الأكثر اهتراءً، بميلّيمترين، وهو الأقلّ عمقاً من الأربعة."
+   },
+   {
+    "start": 90.89,
+    "dur": 3.168,
+    "en": "The rear left tyre should be changed.",
+    "ar": "ينبغي تغيير الإطار الخلفي الأيسر."
+   },
+   {
+    "start": 99.235,
+    "dur": 5.64,
+    "en": "True. Lina said so, because two millimetres is too low.",
+    "ar": "صحيحة. قالت لينا ذلك، لأنّ ميلّيمترين منخفضان جدّاً."
+   },
+   {
+    "start": 105.225,
+    "dur": 5.328,
+    "en": "Three phrases to keep: is more worn than, the most worn, and a little better.",
+    "ar": "ثلاث عبارات احفظها: is more worn than، و the most worn، و a little better."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 19.826,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 24.663,
+    "hold": 3.0,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 30.503,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 69.01,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 83.7,
+    "hold": 3.44,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 99.235,
+    "hold": 4.44,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 105.175,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

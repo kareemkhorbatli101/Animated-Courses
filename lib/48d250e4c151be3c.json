@@ -1,0 +1,195 @@
+{
+ "schema": "timeline/1",
+ "duration": 176.337,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 7.368,
+    "en": "This is Part 7, the Management File. You will hear a manager and a foreman plan a day of six cars.",
+    "ar": "هذا الجزء السابع، ملفّ الإدارة. ستسمع مديراً ورئيس ورشة يخطّطان ليوم فيه ستّ سيارات."
+   },
+   {
+    "start": 16.366,
+    "dur": 6.312,
+    "en": "This part is for the manager. Four things a manager says, and what each one is for.",
+    "ar": "هذا الجزء للمدير. أربعة أمور يقولها المدير، وما الغرض من كلّ منها."
+   },
+   {
+    "start": 23.028,
+    "dur": 4.944,
+    "en": "Which car is booked in first? What is that question for?",
+    "ar": "أيّ سيارة تُسجَّل أوّلاً؟ ما الغرض من هذا السؤال؟"
+   },
+   {
+    "start": 34.266,
+    "dur": 2.424,
+    "en": "Asking about the order.",
+    "ar": "السؤال عن الترتيب."
+   },
+   {
+    "start": 37.04,
+    "dur": 4.776,
+    "en": "This car is serviced by Nabil. What is that for?",
+    "ar": "هذه السيارة تُصان من قبل نبيل. ما الغرض من هذا؟"
+   },
+   {
+    "start": 47.64,
+    "dur": 4.752,
+    "en": "Saying who does a job. That is why it uses by.",
+    "ar": "قول من يقوم بالمهمّة. ولهذا تستخدم by."
+   },
+   {
+    "start": 52.742,
+    "dur": 4.992,
+    "en": "Every car is checked before handover. What is that for?",
+    "ar": "كلّ سيارة تُفحَص قبل التسليم. ما الغرض من هذا؟"
+   },
+   {
+    "start": 63.969,
+    "dur": 2.856,
+    "en": "Stating a rule for the process.",
+    "ar": "تقرير قاعدة للعمليّة."
+   },
+   {
+    "start": 67.175,
+    "dur": 4.392,
+    "en": "Put the parts in each bay. What is that for?",
+    "ar": "ضع القطع في كلّ موقع. ما الغرض من هذا؟"
+   },
+   {
+    "start": 77.155,
+    "dur": 2.256,
+    "en": "Giving an instruction.",
+    "ar": "إعطاء تعليم."
+   },
+   {
+    "start": 79.761,
+    "dur": 6.624,
+    "en": "One purpose was not needed: asking about the weather. A day plan has no room for it.",
+    "ar": "غرض واحد لم يكن مطلوباً: السؤال عن الطقس. ولا مكان له في خطّة يوم."
+   },
+   {
+    "start": 86.735,
+    "dur": 4.032,
+    "en": "Now listen to a manager and a foreman plan a day together.",
+    "ar": "الآن استمع إلى مدير ورئيس ورشة يخطّطان ليوم معاً."
+   },
+   {
+    "start": 91.117,
+    "dur": 7.248,
+    "en": "Nabil, let us plan today. We have six cars. Which is booked in first?",
+    "ar": "نبيل، دعنا نخطّط لليوم. لدينا ستّ سيارات. أيّها تُسجَّل أوّلاً؟"
+   },
+   {
+    "start": 98.715,
+    "dur": 4.344,
+    "en": "Mr Aboud's. It is a normal service.",
+    "ar": "سيارة السيّد عبّود. وهي صيانة عادية."
+   },
+   {
+    "start": 103.409,
+    "dur": 7.536,
+    "en": "Good, you service that one. The second car has a brake problem, so it is diagnosed by Lina first.",
+    "ar": "جيّد، صِنها أنت. السيارة الثانية فيها مشكلة مكابح، فتُشخَّص من قبل لينا أوّلاً."
+   },
+   {
+    "start": 111.295,
+    "dur": 1.944,
+    "en": "And the other four?",
+    "ar": "والأربع الأخرى؟"
+   },
+   {
+    "start": 113.589,
+    "dur": 7.632,
+    "en": "Two are serviced this morning, two this afternoon. Every car is road-tested and checked before it is handed over.",
+    "ar": "اثنتان تُصانان هذا الصباح، واثنتان بعد الظهر. وكلّ سيارة تُختبَر على الطريق وتُفحَص قبل أن تُسلَّم."
+   },
+   {
+    "start": 121.571,
+    "dur": 4.632,
+    "en": "Understood. I will tell Tarek to collect the parts.",
+    "ar": "مفهوم. سأطلب من طارق أن يجمع القطع."
+   },
+   {
+    "start": 126.553,
+    "dur": 4.128,
+    "en": "Good. A clear plan keeps the day calm.",
+    "ar": "جيّد. الخطّة الواضحة تُبقي اليوم هادئاً."
+   },
+   {
+    "start": 131.031,
+    "dur": 2.64,
+    "en": "Which car is booked in first?",
+    "ar": "أيّ سيارة تُسجَّل أوّلاً؟"
+   },
+   {
+    "start": 138.377,
+    "dur": 2.04,
+    "en": "Mr Aboud's.",
+    "ar": "سيارة السيّد عبّود."
+   },
+   {
+    "start": 140.767,
+    "dur": 3.312,
+    "en": "Who diagnoses the car with the brake problem?",
+    "ar": "من يشخّص السيارة التي فيها مشكلة المكابح؟"
+   },
+   {
+    "start": 149.726,
+    "dur": 1.872,
+    "en": "Lina.",
+    "ar": "لينا."
+   },
+   {
+    "start": 151.948,
+    "dur": 3.336,
+    "en": "What is done to every car before handover?",
+    "ar": "ما الذي يُنجَز لكلّ سيارة قبل التسليم؟"
+   },
+   {
+    "start": 160.755,
+    "dur": 2.616,
+    "en": "It is road-tested and checked.",
+    "ar": "تُختبَر على الطريق وتُفحَص."
+   },
+   {
+    "start": 163.721,
+    "dur": 11.016,
+    "en": "Notice the two kinds of sentence in that plan. Some name a person with by, and one states a rule with every. The rule is the one that does not change tomorrow.",
+    "ar": "لاحظ نوعي الجمل في تلك الخطّة. بعضها يسمّي شخصاً بـ by، وواحدة تقرّر قاعدة بـ every. والقاعدة هي التي لا تتغيّر غداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 99.64,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

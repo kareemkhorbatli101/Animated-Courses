@@ -1,0 +1,183 @@
+{
+ "schema": "timeline/1",
+ "duration": 181.227,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.872,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.672,
+    "dur": 8.616,
+    "en": "This is Part 2, Grammar Review. You will find the mistake, choose the correct sentence, then describe three steps of your own.",
+    "ar": "هذا الجزء الثاني، مراجعة القواعد. ستجد الخطأ، وتختار الجملة الصحيحة، ثمّ تصف ثلاث خطوات من عندك."
+   },
+   {
+    "start": 17.638,
+    "dur": 7.68,
+    "en": "Four sentences, and each one has exactly one mistake. Find it, then say the sentence correctly.",
+    "ar": "أربع جمل، وفي كلّ واحدة خطأ واحد بالضبط. اعثر عليه، ثمّ قل الجملة صحيحة."
+   },
+   {
+    "start": 25.668,
+    "dur": 2.712,
+    "en": "The car serviced by the mechanic.",
+    "ar": "ما الخطأ في: The car serviced by the mechanic؟"
+   },
+   {
+    "start": 33.321,
+    "dur": 6.432,
+    "en": "The car is serviced by the mechanic. The is was missing, so it was not a sentence at all.",
+    "ar": "The car is serviced by the mechanic. كانت is ناقصة، فلم تكن جملة أصلاً."
+   },
+   {
+    "start": 40.103,
+    "dur": 2.832,
+    "en": "The tyres is checked in the workshop.",
+    "ar": "ما الخطأ في: The tyres is checked in the workshop؟"
+   },
+   {
+    "start": 48.112,
+    "dur": 5.904,
+    "en": "The tyres are checked in the workshop. Tyres is plural, so it takes are.",
+    "ar": "The tyres are checked in the workshop. وكلمة tyres جمع، فتأخذ are."
+   },
+   {
+    "start": 54.366,
+    "dur": 2.808,
+    "en": "The oil changed every service.",
+    "ar": "ما الخطأ في: The oil changed every service؟"
+   },
+   {
+    "start": 61.938,
+    "dur": 5.184,
+    "en": "The oil is changed every service. Again the is was missing.",
+    "ar": "The oil is changed every service. وكانت is ناقصة مرّة أخرى."
+   },
+   {
+    "start": 67.472,
+    "dur": 2.808,
+    "en": "The car is hand over to the customer.",
+    "ar": "ما الخطأ في: The car is hand over to the customer؟"
+   },
+   {
+    "start": 75.457,
+    "dur": 6.456,
+    "en": "The car is handed over to the customer. Hand is the plain verb; the passive needs handed.",
+    "ar": "The car is handed over to the customer. فـ hand هو الفعل المجرّد؛ والمجهول يحتاج handed."
+   },
+   {
+    "start": 82.263,
+    "dur": 5.448,
+    "en": "Now choose the whole sentence. Only one in each group is what you want.",
+    "ar": "الآن اختر الجملة بكاملها. واحدة فقط في كلّ مجموعة هي ما تريد."
+   },
+   {
+    "start": 88.061,
+    "dur": 7.608,
+    "en": "Which of these is passive: the mechanic services the car, the car is serviced by the mechanic, or the mechanic is servicing?",
+    "ar": "أيّ من هذه بصيغة المجهول: the mechanic services the car، أم the car is serviced by the mechanic، أم the mechanic is servicing؟"
+   },
+   {
+    "start": 103.669,
+    "dur": 6.72,
+    "en": "The car is serviced by the mechanic. The car comes first, and it is plus serviced follows.",
+    "ar": "The car is serviced by the mechanic. فالسيارة تأتي أوّلاً، ويتبعها is مع serviced."
+   },
+   {
+    "start": 110.739,
+    "dur": 5.736,
+    "en": "Which is correct: the tyres are checked, the tyres is checked, or the tyres checked?",
+    "ar": "أيّها صحيحة: the tyres are checked، أم the tyres is checked، أم the tyres checked؟"
+   },
+   {
+    "start": 124.416,
+    "dur": 6.456,
+    "en": "The tyres are checked. The second has the wrong number, and the third has no verb to be.",
+    "ar": "The tyres are checked. فالثانية عددها خطأ، والثالثة لا فعل كينونة فيها."
+   },
+   {
+    "start": 131.222,
+    "dur": 5.352,
+    "en": "Now your own turn. Think of the car you worked on most recently.",
+    "ar": "الآن دورك. فكّر في السيارة التي عملت عليها آخر مرّة."
+   },
+   {
+    "start": 136.924,
+    "dur": 5.736,
+    "en": "Describe three steps of what happened to it, using is or are with a past participle.",
+    "ar": "صِف ثلاث خطوات من الذي حدث لها، مستخدماً is أو are مع التصريف الثالث."
+   },
+   {
+    "start": 150.601,
+    "dur": 6.0,
+    "en": "For example: the car is booked in, the oil is changed, and the brakes are checked.",
+    "ar": "مثلاً: تُسجَّل السيارة، ويُغيَّر الزيت، وتُفحَص المكابح."
+   },
+   {
+    "start": 156.951,
+    "dur": 4.704,
+    "en": "Now say one of those three again in the active, naming who does it.",
+    "ar": "الآن قل واحدة من تلك الثلاث بصيغة المعلوم، مسمّياً من يقوم بها."
+   },
+   {
+    "start": 168.597,
+    "dur": 3.6,
+    "en": "For example: Nabil changes the oil.",
+    "ar": "مثلاً: نبيل يغيّر الزيت."
+   },
+   {
+    "start": 172.547,
+    "dur": 7.08,
+    "en": "You will see the passive again in the Part 5 reading, which describes the whole process. Watch for it.",
+    "ar": "ستلتقي بصيغة المجهول مرّة أخرى في قراءة الجزء الخامس، التي تصف العمليّة كلّها. ترقّبها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 39.516,
+    "hold": 11.6,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 53.728,
+    "hold": 11.21,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "hand_over",
+    "label": "hand over",
+    "ar": "يسلّم",
+    "at": 66.235,
+    "hold": 9.17,
+    "img": "assets/vocab/hand_over.png",
+    "sha": "452ca425c9f9da7d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

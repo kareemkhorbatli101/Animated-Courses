@@ -1,0 +1,285 @@
+{
+ "schema": "timeline/1",
+ "duration": 176.28,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 7.752,
+    "en": "This is Part 1, The Service Process Terms. You will define seven steps and name what happens in each department.",
+    "ar": "هذا الجزء الأوّل، مصطلحات عمليّة الصيانة. ستعرّف سبع خطوات وتسمّي ما يحدث في كلّ قسم."
+   },
+   {
+    "start": 16.702,
+    "dur": 5.712,
+    "en": "Seven steps, and what each one means. The book gives you the place they all start.",
+    "ar": "سبع خطوات، ومعنى كلّ واحدة. الكتاب يعطيك المكان الذي تبدأ منه كلّها."
+   },
+   {
+    "start": 22.764,
+    "dur": 4.44,
+    "en": "Reception is the place where a customer brings the car and it is booked in.",
+    "ar": "الاستقبال هو المكان الذي يجلب فيه العميل السيارة وتُسجَّل."
+   },
+   {
+    "start": 27.554,
+    "dur": 8.592,
+    "en": "Notice why that one is easy: the meaning names a PLACE. The other seven name ACTIONS, and each of those is a step in one order.",
+    "ar": "لاحظ لماذا كانت سهلة: المعنى يسمّي مكاناً. والسبع الأخرى تسمّي أفعالاً، وكلّ منها خطوة في ترتيب واحد."
+   },
+   {
+    "start": 36.496,
+    "dur": 1.872,
+    "en": "What does book in mean?",
+    "ar": "ماذا يعني تسجيل السيارة؟"
+   },
+   {
+    "start": 42.721,
+    "dur": 3.288,
+    "en": "To write a car into the system when it arrives.",
+    "ar": "إدخال السيارة في النظام عند وصولها."
+   },
+   {
+    "start": 46.359,
+    "dur": 1.968,
+    "en": "What does inspect mean?",
+    "ar": "ماذا يعني الفحص؟"
+   },
+   {
+    "start": 52.68,
+    "dur": 2.736,
+    "en": "To look at a car carefully to check it.",
+    "ar": "النظر في السيارة بعناية للتحقّق منها."
+   },
+   {
+    "start": 55.766,
+    "dur": 1.992,
+    "en": "What does diagnose mean?",
+    "ar": "ماذا يعني التشخيص؟"
+   },
+   {
+    "start": 62.17,
+    "dur": 2.52,
+    "en": "To find out what is wrong with a car.",
+    "ar": "معرفة ما هو الخطأ في السيارة."
+   },
+   {
+    "start": 65.04,
+    "dur": 1.872,
+    "en": "What does service mean?",
+    "ar": "ماذا تعني الصيانة؟"
+   },
+   {
+    "start": 71.265,
+    "dur": 2.544,
+    "en": "To do the regular checks and work.",
+    "ar": "إنجاز الفحوص والأعمال الدورية."
+   },
+   {
+    "start": 74.159,
+    "dur": 2.04,
+    "en": "What does road test mean?",
+    "ar": "ماذا يعني اختبار الطريق؟"
+   },
+   {
+    "start": 80.669,
+    "dur": 2.664,
+    "en": "To drive a car to check it works well.",
+    "ar": "قيادة السيارة للتحقّق من أنّها تعمل جيّداً."
+   },
+   {
+    "start": 83.683,
+    "dur": 2.016,
+    "en": "What is a quality check?",
+    "ar": "ما هو فحص الجودة؟"
+   },
+   {
+    "start": 90.111,
+    "dur": 2.928,
+    "en": "A final check before the car goes back.",
+    "ar": "فحص أخير قبل أن تعود السيارة."
+   },
+   {
+    "start": 93.389,
+    "dur": 2.184,
+    "en": "And what does hand over mean?",
+    "ar": "وماذا يعني التسليم؟"
+   },
+   {
+    "start": 100.279,
+    "dur": 2.472,
+    "en": "To give the car back to the customer.",
+    "ar": "إعادة السيارة إلى العميل."
+   },
+   {
+    "start": 103.101,
+    "dur": 9.528,
+    "en": "One meaning was not needed: to measure the tyre pressure. That is from Unit 4, and it is part of the inspection, not a step of its own.",
+    "ar": "معنى واحد لم يكن مطلوباً: قياس ضغط الإطار. ذلك من الوحدة الرابعة، وهو جزء من الفحص، لا خطوة مستقلّة."
+   },
+   {
+    "start": 112.979,
+    "dur": 5.256,
+    "en": "Now the departments table. For each department, say what happens there.",
+    "ar": "الآن جدول الأقسام. لكلّ قسم، قل ما يحدث فيه."
+   },
+   {
+    "start": 118.585,
+    "dur": 5.688,
+    "en": "The book does the first row. Reception: the car is booked in and handed over.",
+    "ar": "الكتاب يحلّ الصفّ الأوّل. الاستقبال: تُسجَّل السيارة وتُسلَّم."
+   },
+   {
+    "start": 124.623,
+    "dur": 2.904,
+    "en": "The workshop. What happens there?",
+    "ar": "الورشة. ما الذي يحدث فيها؟"
+   },
+   {
+    "start": 132.468,
+    "dur": 2.736,
+    "en": "The car is inspected and serviced.",
+    "ar": "تُفحَص السيارة وتُصان."
+   },
+   {
+    "start": 135.554,
+    "dur": 3.096,
+    "en": "Diagnostics. What happens there?",
+    "ar": "قسم التشخيص. ما الذي يحدث فيه؟"
+   },
+   {
+    "start": 143.533,
+    "dur": 1.872,
+    "en": "Faults are found.",
+    "ar": "تُكتشَف الأعطال."
+   },
+   {
+    "start": 145.755,
+    "dur": 3.432,
+    "en": "And quality control. What happens there?",
+    "ar": "وضبط الجودة. ما الذي يحدث فيه؟"
+   },
+   {
+    "start": 154.54,
+    "dur": 2.64,
+    "en": "The car is checked before handover.",
+    "ar": "تُفحَص السيارة قبل التسليم."
+   },
+   {
+    "start": 157.53,
+    "dur": 11.76,
+    "en": "Listen to the shape of all four answers. The car is booked in. The car is inspected. Faults are found. The car is checked.",
+    "ar": "استمع إلى شكل الأجوبة الأربعة. تُسجَّل السيارة. تُفحَص السيارة. تُكتشَف الأعطال. تُفحَص السيارة."
+   },
+   {
+    "start": 169.64,
+    "dur": 5.04,
+    "en": "The doer is never named, because the step matters and the doer does not.",
+    "ar": "الفاعل لا يُذكَر أبداً، لأنّ الخطوة هي المهمّة لا الفاعل."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 21.002,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "book_in",
+    "label": "book in",
+    "ar": "تسجيل السيارة",
+    "at": 35.184,
+    "hold": 7.49,
+    "img": "assets/vocab/book_in.png",
+    "sha": "e90e401e15e64918"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 45.047,
+    "hold": 7.58,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "diagnose",
+    "label": "diagnose",
+    "ar": "يشخّص",
+    "at": 54.416,
+    "hold": 7.7,
+    "img": "assets/vocab/diagnose.png",
+    "sha": "173a20e5f57cfee8"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 63.727,
+    "hold": 7.49,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "road_test",
+    "label": "road test",
+    "ar": "اختبار الطريق",
+    "at": 72.859,
+    "hold": 7.76,
+    "img": "assets/vocab/road_test.png",
+    "sha": "7e470bccf39573f2"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 82.371,
+    "hold": 7.69,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "hand_over",
+    "label": "hand over",
+    "ar": "يسلّم",
+    "at": 92.239,
+    "hold": 7.99,
+    "img": "assets/vocab/hand_over.png",
+    "sha": "452ca425c9f9da7d"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 122.986,
+    "hold": 9.43,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

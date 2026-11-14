@@ -1,0 +1,225 @@
+{
+ "schema": "timeline/1",
+ "duration": 221.049,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 7.2,
+    "en": "This is Part 8, the Global Case Study. You will read how a clear order cut waiting times by half.",
+    "ar": "هذا الجزء الثامن، دراسة الحالة العالمية. ستقرأ كيف قلّص الترتيب الواضح أوقات الانتظار إلى النصف."
+   },
+   {
+    "start": 16.198,
+    "dur": 6.648,
+    "en": "Before you read, think about this. Why do customers sometimes wait too long at a garage?",
+    "ar": "قبل أن تقرأ، فكّر في هذا. لماذا ينتظر العملاء أحياناً وقتاً طويلاً في الورشة؟"
+   },
+   {
+    "start": 23.196,
+    "dur": 5.472,
+    "en": "Three words first. A process is a set of steps done in order.",
+    "ar": "ثلاث كلمات أوّلاً. العمليّة هي مجموعة خطوات تُنجَز بالترتيب."
+   },
+   {
+    "start": 29.018,
+    "dur": 6.36,
+    "en": "A step is one part of a process. And the order is the correct sequence of steps.",
+    "ar": "والخطوة هي جزء واحد من العمليّة. والترتيب هو التسلسل الصحيح للخطوات."
+   },
+   {
+    "start": 35.728,
+    "dur": 8.76,
+    "en": "A service centre once had a problem: customers waited too long. Cars sat in the car park, and no one knew what step they were at.",
+    "ar": "واجه مركز صيانة مشكلة مرّة: العملاء ينتظرون وقتاً طويلاً. السيارات تقف في الموقف، ولا أحد يعرف في أيّ خطوة هي."
+   },
+   {
+    "start": 44.838,
+    "dur": 6.768,
+    "en": "So the manager studied the process. He found that the cars were not moving in a clear order.",
+    "ar": "فدرس المدير العمليّة. ووجد أنّ السيارات لم تكن تسير بترتيب واضح."
+   },
+   {
+    "start": 51.956,
+    "dur": 6.144,
+    "en": "Sometimes a car was serviced before it was inspected; sometimes it waited for a part that was not ordered.",
+    "ar": "أحياناً كانت السيارة تُصان قبل أن تُفحَص؛ وأحياناً تنتظر قطعة لم تُطلَب."
+   },
+   {
+    "start": 58.45,
+    "dur": 11.4,
+    "en": "So he made the process clear. Every car followed the same steps, in the same order: booked in, inspected, parts checked, serviced, road-tested, quality-checked, and handed over.",
+    "ar": "فجعل العمليّة واضحة. كلّ سيارة تتبع الخطوات نفسها، بالترتيب نفسه: تُسجَّل، وتُفحَص، وتُتحقَّق قطعها، وتُصان، وتُختبَر على الطريق، ويُفحَص جودتها، وتُسلَّم."
+   },
+   {
+    "start": 70.2,
+    "dur": 6.144,
+    "en": "A board on the wall showed where each car was. Now everyone could see the process.",
+    "ar": "ولوحة على الحائط تُظهر أين كلّ سيارة. فصار الجميع يرى العمليّة."
+   },
+   {
+    "start": 76.694,
+    "dur": 7.224,
+    "en": "Cars did not wait for missing parts, because parts were checked early. Waiting times were cut by half.",
+    "ar": "ولم تعد السيارات تنتظر قطعاً ناقصة، لأنّ القطع كانت تُتحقَّق مبكّراً. وقُلِّصت أوقات الانتظار إلى النصف."
+   },
+   {
+    "start": 84.268,
+    "dur": 5.904,
+    "en": "We did not work faster, the manager said. We worked in a clearer order.",
+    "ar": "لم نعمل أسرع، قال المدير. بل عملنا بترتيب أوضح."
+   },
+   {
+    "start": 90.522,
+    "dur": 5.088,
+    "en": "A good process is not about speed; it is about doing each step at the right time.",
+    "ar": "العمليّة الجيّدة ليست عن السرعة؛ بل عن إنجاز كلّ خطوة في وقتها الصحيح."
+   },
+   {
+    "start": 95.96,
+    "dur": 3.288,
+    "en": "Why were the cars not moving well before?",
+    "ar": "لماذا لم تكن السيارات تسير جيّداً قبل ذلك؟"
+   },
+   {
+    "start": 104.66,
+    "dur": 8.4,
+    "en": "They were not moving in a clear order. A car was serviced before it was inspected, or it waited for a part that was not ordered.",
+    "ar": "لم تكن تسير بترتيب واضح. كانت السيارة تُصان قبل أن تُفحَص، أو تنتظر قطعة لم تُطلَب."
+   },
+   {
+    "start": 113.41,
+    "dur": 2.616,
+    "en": "What did the board on the wall show?",
+    "ar": "ماذا كانت اللوحة على الحائط تُظهر؟"
+   },
+   {
+    "start": 121.144,
+    "dur": 2.952,
+    "en": "Where each car was in the process.",
+    "ar": "أين كانت كلّ سيارة في العمليّة."
+   },
+   {
+    "start": 124.446,
+    "dur": 3.576,
+    "en": "What did the manager say a good process is about?",
+    "ar": "عن أيّ شيء قال المدير إنّ العمليّة الجيّدة تكون؟"
+   },
+   {
+    "start": 133.904,
+    "dur": 3.648,
+    "en": "Doing each step at the right time, not speed.",
+    "ar": "إنجاز كلّ خطوة في وقتها الصحيح، لا السرعة."
+   },
+   {
+    "start": 137.902,
+    "dur": 5.064,
+    "en": "Now four words from the case study. Give the meaning of each.",
+    "ar": "الآن أربع كلمات من دراسة الحالة. اذكر معنى كلّ واحدة."
+   },
+   {
+    "start": 143.316,
+    "dur": 1.872,
+    "en": "Process.",
+    "ar": "ما معنى process؟"
+   },
+   {
+    "start": 149.188,
+    "dur": 2.688,
+    "en": "A set of steps done in order.",
+    "ar": "مجموعة خطوات تُنجَز بالترتيب."
+   },
+   {
+    "start": 152.226,
+    "dur": 1.872,
+    "en": "Step.",
+    "ar": "ما معنى step؟"
+   },
+   {
+    "start": 158.098,
+    "dur": 2.448,
+    "en": "One part of a process.",
+    "ar": "جزء واحد من العمليّة."
+   },
+   {
+    "start": 160.896,
+    "dur": 1.872,
+    "en": "Order.",
+    "ar": "ما معنى order؟"
+   },
+   {
+    "start": 166.768,
+    "dur": 2.688,
+    "en": "The correct sequence of steps.",
+    "ar": "التسلسل الصحيح للخطوات."
+   },
+   {
+    "start": 169.806,
+    "dur": 1.872,
+    "en": "And inspect.",
+    "ar": "وما معنى inspect؟"
+   },
+   {
+    "start": 175.678,
+    "dur": 3.0,
+    "en": "To look at a car carefully to check it.",
+    "ar": "النظر في السيارة بعناية للتحقّق منها."
+   },
+   {
+    "start": 179.028,
+    "dur": 7.224,
+    "en": "One meaning was not needed: a fluid that cools the engine. That is coolant, from Unit 2.",
+    "ar": "معنى واحد لم يكن مطلوباً: سائل يبرّد المحرّك. ذلك سائل التبريد، من الوحدة الثانية."
+   },
+   {
+    "start": 186.602,
+    "dur": 11.52,
+    "en": "Three frames for the discussion. A clear process helps because. In my workshop, the process is. And the most important step is, because.",
+    "ar": "ثلاثة قوالب للمناقشة. A clear process helps because. و In my workshop, the process is. و the most important step is, because."
+   },
+   {
+    "start": 198.472,
+    "dur": 5.976,
+    "en": "Use the third frame. Which step matters most in your workshop, and why?",
+    "ar": "استخدم القالب الثالث. أيّ خطوة هي الأهمّ في ورشتك، ولماذا؟"
+   },
+   {
+    "start": 211.624,
+    "dur": 7.824,
+    "en": "For example: the most important step is checking the parts early, because a car waiting for a part blocks a bay all day.",
+    "ar": "مثلاً: أهمّ خطوة هي التحقّق من القطع مبكّراً، لأنّ السيارة التي تنتظر قطعة تحجز موقعاً طول اليوم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 168.256,
+    "hold": 7.37,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

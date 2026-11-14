@@ -1,0 +1,180 @@
+{
+ "schema": "timeline/1",
+ "duration": 159.788,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 7.848,
+    "en": "This is Part 9, the Local Case Study. You will decide how to fit a fifteen-car fleet job around the normal work.",
+    "ar": "هذا الجزء التاسع، دراسة الحالة المحلّية. ستقرّر كيف تُدخل عمل أسطول من خمس عشرة سيارة بين العمل العادي."
+   },
+   {
+    "start": 16.846,
+    "dur": 7.992,
+    "en": "Before you read, think about this. How can a garage service many cars in a few days without stopping its normal work?",
+    "ar": "قبل أن تقرأ، فكّر في هذا. كيف يمكن لورشة أن تصون سيارات كثيرة في أيّام قليلة دون أن توقف عملها العادي؟"
+   },
+   {
+    "start": 25.188,
+    "dur": 6.432,
+    "en": "A government office in Damascus needed its fleet of fifteen cars serviced quickly, before an important week.",
+    "ar": "احتاج مكتب حكومي في دمشق صيانة أسطوله المكوّن من خمس عشرة سيارة بسرعة، قبل أسبوع مهمّ."
+   },
+   {
+    "start": 31.97,
+    "dur": 6.936,
+    "en": "All the cars had to be ready in three days. This was a big job, and I had to plan it carefully.",
+    "ar": "كان يجب أن تكون السيارات كلّها جاهزة في ثلاثة أيّام. كان عملاً كبيراً، وكان عليّ أن أخطّط له بعناية."
+   },
+   {
+    "start": 39.256,
+    "dur": 7.176,
+    "en": "I could not stop the normal work, so I made a clear plan. The fleet cars were booked in five at a time.",
+    "ar": "لم أستطع إيقاف العمل العادي، فوضعتُ خطّة واضحة. سُجِّلت سيارات الأسطول خمساً في المرّة."
+   },
+   {
+    "start": 46.782,
+    "dur": 5.64,
+    "en": "In the workshop, each car was inspected, serviced, and road-tested in the same order.",
+    "ar": "في الورشة، كلّ سيارة فُحِصت وصِينت واختُبِرت على الطريق بالترتيب نفسه."
+   },
+   {
+    "start": 52.772,
+    "dur": 7.152,
+    "en": "The parts store checked early that there were enough filters and enough oil. A board showed where each car was.",
+    "ar": "ومخزن القطع تحقّق مبكّراً من وجود فلاتر كافية وزيت كافٍ. ولوحة تُظهر أين كلّ سيارة."
+   },
+   {
+    "start": 60.274,
+    "dur": 4.488,
+    "en": "The team did not rush; they followed the process, car by car.",
+    "ar": "الفريق لم يتعجّل؛ بل تبع العمليّة، سيارة بسيارة."
+   },
+   {
+    "start": 65.112,
+    "dur": 9.216,
+    "en": "After three days, all fifteen cars were handed over, safe and ready. The office was very happy, and we got a good name for large jobs.",
+    "ar": "بعد ثلاثة أيّام، سُلِّمت السيارات الخمس عشرة كلّها، آمنة وجاهزة. وكان المكتب سعيداً جدّاً، ونلنا سمعة جيّدة في الأعمال الكبيرة."
+   },
+   {
+    "start": 74.678,
+    "dur": 3.24,
+    "en": "A clear plan is stronger than a fast one.",
+    "ar": "الخطّة الواضحة أقوى من الخطّة السريعة."
+   },
+   {
+    "start": 78.268,
+    "dur": 3.192,
+    "en": "How many cars, and how many days?",
+    "ar": "كم سيارة، وكم يوماً؟"
+   },
+   {
+    "start": 86.401,
+    "dur": 3.096,
+    "en": "Fifteen cars in three days.",
+    "ar": "خمس عشرة سيارة في ثلاثة أيّام."
+   },
+   {
+    "start": 89.847,
+    "dur": 2.64,
+    "en": "How were the fleet cars booked in?",
+    "ar": "كيف سُجِّلت سيارات الأسطول؟"
+   },
+   {
+    "start": 97.487,
+    "dur": 2.064,
+    "en": "Five at a time.",
+    "ar": "خمساً في المرّة."
+   },
+   {
+    "start": 99.901,
+    "dur": 2.784,
+    "en": "What did the parts store check early?",
+    "ar": "ما الذي تحقّق منه مخزن القطع مبكّراً؟"
+   },
+   {
+    "start": 107.862,
+    "dur": 3.192,
+    "en": "That there were enough filters and enough oil.",
+    "ar": "أنّ هناك فلاتر كافية وزيتاً كافياً."
+   },
+   {
+    "start": 111.404,
+    "dur": 6.84,
+    "en": "Now your decision. A big fleet job comes in, but the normal customers still need service.",
+    "ar": "الآن قرارك. يأتي عمل أسطول كبير، لكنّ العملاء العاديّين ما زالوا يحتاجون الصيانة."
+   },
+   {
+    "start": 118.594,
+    "dur": 6.888,
+    "en": "Do you stop all normal work, plan the fleet in small groups and keep some normal work going, or refuse the fleet job?",
+    "ar": "هل توقف العمل العادي كلّه، أم تخطّط للأسطول في مجموعات صغيرة وتُبقي بعض العمل العادي، أم ترفض عمل الأسطول؟"
+   },
+   {
+    "start": 125.832,
+    "dur": 9.528,
+    "en": "Use the frame. I think Maher should, because. A clear plan lets the team. This is better than, because.",
+    "ar": "استخدم القالب. I think Maher should, because. و A clear plan lets the team. و This is better than, because."
+   },
+   {
+    "start": 135.71,
+    "dur": 2.688,
+    "en": "Decide, and say why.",
+    "ar": "قرّر، وقل لماذا."
+   },
+   {
+    "start": 142.574,
+    "dur": 9.432,
+    "en": "I think Maher should plan the fleet in small groups and keep some normal work going, because a clear plan lets the team follow the same steps for every car.",
+    "ar": "أعتقد أنّ على ماهر أن يخطّط للأسطول في مجموعات صغيرة ويُبقي بعض العمل العادي، لأنّ الخطّة الواضحة تتيح للفريق أن يتبع الخطوات نفسها لكلّ سيارة."
+   },
+   {
+    "start": 152.356,
+    "dur": 5.832,
+    "en": "And that is better than stopping all normal work, because a clear plan is stronger than a fast one.",
+    "ar": "وهذا أفضل من إيقاف العمل العادي كلّه، لأنّ الخطّة الواضحة أقوى من الخطّة السريعة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 18.709,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 45.27,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

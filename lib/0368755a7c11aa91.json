@@ -1,0 +1,219 @@
+{
+ "schema": "timeline/1",
+ "duration": 197.617,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 7.344,
+    "en": "This is Part 7, The Order of the Process. You will number the five steps, then write the day's plan.",
+    "ar": "هذا الجزء السابع، ترتيب العمليّة. سترقّم الخطوات الخمس، ثمّ تكتب خطّة اليوم."
+   },
+   {
+    "start": 16.342,
+    "dur": 9.12,
+    "en": "Five steps, out of order. Put them back. The book gives you the first: the car is booked in, and that is step one.",
+    "ar": "خمس خطوات، غير مرتّبة. أعدها إلى ترتيبها. الكتاب يعطيك الأولى: تُسجَّل السيارة، وتلك هي الخطوة الأولى."
+   },
+   {
+    "start": 25.812,
+    "dur": 2.04,
+    "en": "What is step two?",
+    "ar": "ما الخطوة الثانية؟"
+   },
+   {
+    "start": 31.852,
+    "dur": 2.928,
+    "en": "The car is serviced in the workshop.",
+    "ar": "تُصان السيارة في الورشة."
+   },
+   {
+    "start": 35.13,
+    "dur": 1.872,
+    "en": "Step three?",
+    "ar": "الخطوة الثالثة؟"
+   },
+   {
+    "start": 41.002,
+    "dur": 2.352,
+    "en": "The car is road-tested.",
+    "ar": "تُختبَر السيارة على الطريق."
+   },
+   {
+    "start": 43.704,
+    "dur": 1.872,
+    "en": "Step four?",
+    "ar": "الخطوة الرابعة؟"
+   },
+   {
+    "start": 49.576,
+    "dur": 3.048,
+    "en": "The car is checked by the quality team.",
+    "ar": "تُفحَص السيارة من قبل فريق الجودة."
+   },
+   {
+    "start": 52.974,
+    "dur": 1.968,
+    "en": "And step five?",
+    "ar": "والخطوة الخامسة؟"
+   },
+   {
+    "start": 58.942,
+    "dur": 3.24,
+    "en": "The car is handed over to the customer.",
+    "ar": "تُسلَّم السيارة إلى العميل."
+   },
+   {
+    "start": 62.532,
+    "dur": 5.424,
+    "en": "Now the harder question. Why can steps three and four not be swapped?",
+    "ar": "الآن السؤال الأصعب. لماذا لا يمكن تبديل الخطوتين الثالثة والرابعة؟"
+   },
+   {
+    "start": 75.015,
+    "dur": 8.04,
+    "en": "Because the quality check must be the last thing done. If you road-test after it, the car has been driven since it was checked.",
+    "ar": "لأنّ فحص الجودة يجب أن يكون آخر ما يُنجَز. فإن اختبرت على الطريق بعده، تكون السيارة قد سارت بعد فحصها."
+   },
+   {
+    "start": 83.405,
+    "dur": 7.728,
+    "en": "Now the role play. One of you is the manager, the other is the foreman. Here is the model.",
+    "ar": "الآن لعب الأدوار. أحدكما المدير، والآخر رئيس الورشة. وهذا هو النموذج."
+   },
+   {
+    "start": 91.483,
+    "dur": 2.232,
+    "en": "Which car is first?",
+    "ar": "أيّ سيارة أوّلاً؟"
+   },
+   {
+    "start": 94.065,
+    "dur": 3.288,
+    "en": "Mr Aboud's, a normal service.",
+    "ar": "سيارة السيّد عبّود، صيانة عادية."
+   },
+   {
+    "start": 97.703,
+    "dur": 7.56,
+    "en": "Good. The second car is diagnosed by Lina. Every car is checked before handover.",
+    "ar": "جيّد. السيارة الثانية تُشخَّص من قبل لينا. وكلّ سيارة تُفحَص قبل التسليم."
+   },
+   {
+    "start": 105.613,
+    "dur": 1.872,
+    "en": "Understood.",
+    "ar": "مفهوم."
+   },
+   {
+    "start": 107.835,
+    "dur": 10.176,
+    "en": "The manager shares out the cars, says who does each job, and states the rule for handover. The foreman asks about the order and the other cars, and agrees the plan.",
+    "ar": "المدير يوزّع السيارات، ويقول من يقوم بكلّ مهمّة، ويقرّر قاعدة التسليم. ورئيس الورشة يسأل عن الترتيب والسيارات الأخرى، ويوافق على الخطّة."
+   },
+   {
+    "start": 118.361,
+    "dur": 8.904,
+    "en": "And the harder version. One car needs a part that has not arrived. Where do you put it in the day's order, and why?",
+    "ar": "والصيغة الأصعب. سيارة تحتاج قطعة لم تصل. أين تضعها في ترتيب اليوم، ولماذا؟"
+   },
+   {
+    "start": 127.615,
+    "dur": 6.36,
+    "en": "Last in the day, or tomorrow. A car that waits in a bay for a part blocks the bay.",
+    "ar": "في آخر اليوم، أو غداً. فالسيارة التي تنتظر قطعة في الموقع تحجز الموقع."
+   },
+   {
+    "start": 134.325,
+    "dur": 4.56,
+    "en": "And the parts store should be checked before a car is booked in, not after.",
+    "ar": "وينبغي التحقّق من مخزن القطع قبل تسجيل السيارة، لا بعده."
+   },
+   {
+    "start": 139.235,
+    "dur": 8.4,
+    "en": "Last, the writing. You are the manager. Write the plan for the day for your team, fifty to eighty words.",
+    "ar": "أخيراً، الكتابة. أنت المدير. اكتب خطّة اليوم لفريقك، من خمسين إلى ثمانين كلمة."
+   },
+   {
+    "start": 147.985,
+    "dur": 5.76,
+    "en": "Say the order of the cars and the rule for handover. Here is the model.",
+    "ar": "اذكر ترتيب السيارات وقاعدة التسليم. وهذا هو النموذج."
+   },
+   {
+    "start": 154.095,
+    "dur": 9.216,
+    "en": "Team, here is today's plan. We have six cars. Mr Aboud's car is booked in first and is serviced by Nabil.",
+    "ar": "يا فريق، هذه خطّة اليوم. لدينا ستّ سيارات. سيارة السيّد عبّود تُسجَّل أوّلاً وتُصان من قبل نبيل."
+   },
+   {
+    "start": 163.661,
+    "dur": 8.592,
+    "en": "The second car has a brake fault and is diagnosed by Lina first. Two more cars are serviced this morning, and two this afternoon.",
+    "ar": "السيارة الثانية فيها عطل مكابح وتُشخَّص من قبل لينا أوّلاً. وسيارتان أخريان تُصانان هذا الصباح، واثنتان بعد الظهر."
+   },
+   {
+    "start": 172.603,
+    "dur": 10.152,
+    "en": "The parts are collected from the store before each job begins. Every car is road-tested and checked by the quality team, and no car is handed over until it passes.",
+    "ar": "القطع تُجمَع من المخزن قبل أن يبدأ كلّ عمل. وكلّ سيارة تُختبَر على الطريق وتُفحَص من قبل فريق الجودة، ولا تُسلَّم سيارة حتّى تنجح."
+   },
+   {
+    "start": 183.105,
+    "dur": 12.912,
+    "en": "Four things to check. The order clear. The passive used. The handover rule stated. And fifty to eighty words. Now write your own.",
+    "ar": "أربعة أمور تحقّق منها. وضوح الترتيب. واستخدام المجهول. وذكر قاعدة التسليم. ومن خمسين إلى ثمانين كلمة. الآن اكتب ما عندك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 31.852,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 75.015,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 93.927,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

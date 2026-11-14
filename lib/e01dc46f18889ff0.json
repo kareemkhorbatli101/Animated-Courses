@@ -1,0 +1,186 @@
+{
+ "schema": "timeline/1",
+ "duration": 162.158,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 7.944,
+    "en": "This is Part 9, the Local Case Study. You will decide whether to shorten a service interval for Syrian roads.",
+    "ar": "هذا الجزء التاسع، دراسة الحالة المحلّية. ستقرّر إن كنت تقصّر فترة الصيانة لطرق سوريا."
+   },
+   {
+    "start": 16.486,
+    "dur": 9.216,
+    "en": "Before you read, think about this. Should a mechanic in Syria follow the carmaker's book exactly? Why, or why not?",
+    "ar": "قبل أن تقرأ، فكّر في هذا. هل ينبغي أن يتّبع الميكانيكي في سوريا كتاب الشركة حرفيّاً؟ لماذا، أو لماذا لا؟"
+   },
+   {
+    "start": 26.052,
+    "dur": 5.16,
+    "en": "I looked after a customer's car that drove every day on rough roads outside Damascus.",
+    "ar": "اعتنيتُ بسيارة عميل كانت تسير كلّ يوم على طرق غير ناعمة خارج دمشق."
+   },
+   {
+    "start": 31.562,
+    "dur": 5.232,
+    "en": "The carmaker's book said to change the air filter every fifteen thousand kilometres.",
+    "ar": "قال كتاب الشركة إنّ فلتر الهواء يُغيّر كلّ خمسة عشر ألف كيلومتر."
+   },
+   {
+    "start": 37.144,
+    "dur": 5.976,
+    "en": "But I saw that the filter was black and blocked at only nine thousand kilometres, because of the dust.",
+    "ar": "لكنّني رأيت أنّ الفلتر كان أسود ومسدوداً عند تسعة آلاف كيلومتر فقط، بسبب الغبار."
+   },
+   {
+    "start": 43.47,
+    "dur": 5.544,
+    "en": "The tyres were also more worn than usual, and the coolant worked harder in the summer heat.",
+    "ar": "وكانت الإطارات أكثر اهتراءً من المعتاد أيضاً، وسائل التبريد يعمل أشقّ في حرّ الصيف."
+   },
+   {
+    "start": 49.364,
+    "dur": 7.08,
+    "en": "So I made a decision. For cars that drive on dusty, rough roads, I shortened the service interval.",
+    "ar": "فاتّخذتُ قراراً. للسيارات التي تسير على طرق مغبّرة غير ناعمة، قصّرتُ فترة الصيانة."
+   },
+   {
+    "start": 56.794,
+    "dur": 7.824,
+    "en": "I changed the air filter sooner and checked the tyres and coolant more often. And I explained this clearly to the customer.",
+    "ar": "غيّرتُ فلتر الهواء أبكر، وفحصتُ الإطارات وسائل التبريد أكثر تكراراً. وشرحتُ هذا للعميل بوضوح."
+   },
+   {
+    "start": 64.968,
+    "dur": 10.992,
+    "en": "The book is written for smooth roads, I said. Here, we adjust it for our roads. It costs a little more now, but it saves the engine and keeps you safe.",
+    "ar": "قلتُ: الكتاب مكتوب لطرق ناعمة. وهنا، نعدّله لطرقنا. يكلّف أكثر قليلاً الآن، لكنّه يحفظ المحرّك ويحفظ سلامتك."
+   },
+   {
+    "start": 76.31,
+    "dur": 3.504,
+    "en": "How often did the book say to change the filter?",
+    "ar": "كلّ كم قال الكتاب إنّ الفلتر يُغيّر؟"
+   },
+   {
+    "start": 85.638,
+    "dur": 3.24,
+    "en": "Every fifteen thousand kilometres.",
+    "ar": "كلّ خمسة عشر ألف كيلومتر."
+   },
+   {
+    "start": 89.228,
+    "dur": 4.296,
+    "en": "Why was the filter blocked at only nine thousand kilometres?",
+    "ar": "لماذا كان الفلتر مسدوداً عند تسعة آلاف كيلومتر فقط؟"
+   },
+   {
+    "start": 100.053,
+    "dur": 3.024,
+    "en": "Because of the dust on the rough roads.",
+    "ar": "بسبب الغبار على الطرق غير الناعمة."
+   },
+   {
+    "start": 103.427,
+    "dur": 2.544,
+    "en": "What decision did Maher make?",
+    "ar": "ما القرار الذي اتّخذه ماهر؟"
+   },
+   {
+    "start": 110.677,
+    "dur": 4.8,
+    "en": "He shortened the service interval for cars on dusty, rough roads.",
+    "ar": "قصّر فترة الصيانة للسيارات التي تسير على طرق مغبّرة غير ناعمة."
+   },
+   {
+    "start": 115.827,
+    "dur": 12.192,
+    "en": "Now your decision. A customer drives every day on rough, dusty roads. Do you follow the book's interval exactly, shorten it and check more often, or never service the car?",
+    "ar": "الآن قرارك. عميل يسير كلّ يوم على طرق غير ناعمة مغبّرة. هل تتّبع فترة الكتاب حرفيّاً، أم تقصّرها وتفحص أكثر تكراراً، أم لا تصون السيارة أبداً؟"
+   },
+   {
+    "start": 128.369,
+    "dur": 10.248,
+    "en": "Use the frame. I think the centre should, because. Dusty, rough roads are harder on. This is better than, because.",
+    "ar": "استخدم القالب. I think the centre should, because. و Dusty, rough roads are harder on. و This is better than, because."
+   },
+   {
+    "start": 138.967,
+    "dur": 2.688,
+    "en": "Decide, and say why.",
+    "ar": "قرّر، وقل لماذا."
+   },
+   {
+    "start": 145.831,
+    "dur": 8.184,
+    "en": "I think the centre should shorten the interval and check more often, because dusty, rough roads are harder on the filter and the tyres.",
+    "ar": "أعتقد أنّ على المركز أن يقصّر الفترة ويفحص أكثر تكراراً، لأنّ الطرق المغبّرة غير الناعمة أقسى على الفلتر والإطارات."
+   },
+   {
+    "start": 154.365,
+    "dur": 6.192,
+    "en": "And that is better than following the book exactly, because it saves the engine and keeps the driver safe.",
+    "ar": "وهذا أفضل من اتّباع الكتاب حرفيّاً، لأنّه يحفظ المحرّك ويحفظ سلامة السائق."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 31.575,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 42.933,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "interval",
+    "label": "service interval",
+    "ar": "فترة الصيانة",
+    "at": 52.802,
+    "hold": 3.0,
+    "img": "assets/vocab/interval.png",
+    "sha": "64ab85b2ca489a26"
+   },
+   {
+    "lemma": "interval",
+    "label": "service interval",
+    "ar": "فترة الصيانة",
+    "at": 110.677,
+    "hold": 3.0,
+    "img": "assets/vocab/interval.png",
+    "sha": "64ab85b2ca489a26"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "schema": "timeline/1",
+ "duration": 218.447,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.848,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.648,
+    "dur": 7.632,
+    "en": "This is Part 10, the Spiral Review. Every Unit 5 answer, asked once - and one from Unit 4.",
+    "ar": "هذا الجزء العاشر، المراجعة التراكمية. كلّ جواب في الوحدة الخامسة، يُسأل مرّة - وواحد من الوحدة الرابعة."
+   },
+   {
+    "start": 16.63,
+    "dur": 7.968,
+    "en": "Five sentences to complete. The book does the first one: a final check before the car goes back is a quality check.",
+    "ar": "خمس جمل لإكمالها. الكتاب يحلّ الأولى: الفحص الأخير قبل أن تعود السيارة هو فحص الجودة."
+   },
+   {
+    "start": 24.948,
+    "dur": 3.624,
+    "en": "When a car arrives, it is blank in at reception.",
+    "ar": "عندما تصل سيارة، هي فراغ في الاستقبال."
+   },
+   {
+    "start": 34.396,
+    "dur": 4.032,
+    "en": "Booked. It is booked in at reception.",
+    "ar": "تُسجَّل. تُسجَّل في الاستقبال."
+   },
+   {
+    "start": 38.778,
+    "dur": 3.672,
+    "en": "In the workshop, the car is inspected and blank.",
+    "ar": "في الورشة، تُفحَص السيارة و فراغ."
+   },
+   {
+    "start": 48.273,
+    "dur": 4.632,
+    "en": "Serviced. The car is inspected and serviced.",
+    "ar": "تُصان. تُفحَص السيارة وتُصان."
+   },
+   {
+    "start": 53.255,
+    "dur": 6.24,
+    "en": "The car blank serviced by the mechanic. This one is the passive, with one car.",
+    "ar": "The car فراغ serviced by the mechanic. وهذه بصيغة المجهول، بسيارة واحدة."
+   },
+   {
+    "start": 67.083,
+    "dur": 4.32,
+    "en": "Is. The car is serviced by the mechanic.",
+    "ar": "is، لأنّ السيارة مفردة. The car is serviced by the mechanic."
+   },
+   {
+    "start": 71.753,
+    "dur": 5.832,
+    "en": "The tyres blank checked in the workshop. This one is the passive, and plural.",
+    "ar": "The tyres فراغ checked in the workshop. وهذه بصيغة المجهول، وجمع."
+   },
+   {
+    "start": 85.115,
+    "dur": 4.176,
+    "en": "Are. The tyres are checked in the workshop.",
+    "ar": "are، لأنّ الإطارات جمع. The tyres are checked in the workshop."
+   },
+   {
+    "start": 89.641,
+    "dur": 6.936,
+    "en": "The correct level, or allowed range, for a reading is the blank. This one is from Unit 4.",
+    "ar": "المستوى الصحيح، أو المجال المسموح، للقراءة هو الفراغ. وهذه من الوحدة الرابعة."
+   },
+   {
+    "start": 104.577,
+    "dur": 1.872,
+    "en": "Tolerance.",
+    "ar": "الحدّ المسموح."
+   },
+   {
+    "start": 106.799,
+    "dur": 7.728,
+    "en": "Now the ten words of the unit, one more time, and quickly. I say the meaning; you say the word.",
+    "ar": "الآن كلمات الوحدة العشر، مرّة أخرى، وبسرعة. أقول المعنى؛ وتقول الكلمة."
+   },
+   {
+    "start": 114.877,
+    "dur": 3.528,
+    "en": "To write a car into the system when it arrives.",
+    "ar": "إدخال السيارة في النظام عند وصولها."
+   },
+   {
+    "start": 124.17,
+    "dur": 2.112,
+    "en": "To book in a car.",
+    "ar": "تسجيل السيارة."
+   },
+   {
+    "start": 126.632,
+    "dur": 4.896,
+    "en": "To look at a car carefully to check it, and to find out what is wrong with it.",
+    "ar": "النظر في السيارة بعناية للتحقّق منها، ومعرفة ما هو الخطأ فيها."
+   },
+   {
+    "start": 139.116,
+    "dur": 3.12,
+    "en": "To inspect, and to diagnose.",
+    "ar": "الفحص، والتشخيص."
+   },
+   {
+    "start": 142.586,
+    "dur": 3.264,
+    "en": "The regular checks and work a car needs.",
+    "ar": "الفحوص والأعمال الدورية التي تحتاجها السيارة."
+   },
+   {
+    "start": 151.203,
+    "dur": 1.872,
+    "en": "A service.",
+    "ar": "الصيانة."
+   },
+   {
+    "start": 153.425,
+    "dur": 5.256,
+    "en": "Driving a car to check it works well, and the final check before it goes back.",
+    "ar": "قيادة السيارة للتحقّق من أنّها تعمل جيّداً، والفحص الأخير قبل أن تعود."
+   },
+   {
+    "start": 166.269,
+    "dur": 3.264,
+    "en": "A road test, and a quality check.",
+    "ar": "اختبار الطريق، وفحص الجودة."
+   },
+   {
+    "start": 169.883,
+    "dur": 4.56,
+    "en": "To give the car back to the customer, and the place where that happens.",
+    "ar": "إعادة السيارة إلى العميل، والمكان الذي يحدث فيه ذلك."
+   },
+   {
+    "start": 181.62,
+    "dur": 3.216,
+    "en": "To hand over the car, at reception.",
+    "ar": "تسليم السيارة، في الاستقبال."
+   },
+   {
+    "start": 185.186,
+    "dur": 5.112,
+    "en": "The place where the car is serviced, and the paper that says what the work cost.",
+    "ar": "المكان الذي تُصان فيه السيارة، والورقة التي تبيّن كم كلّف العمل."
+   },
+   {
+    "start": 198.003,
+    "dur": 2.904,
+    "en": "The workshop, and the invoice.",
+    "ar": "الورشة، والفاتورة."
+   },
+   {
+    "start": 201.257,
+    "dur": 9.048,
+    "en": "Seven of those ten are actions, and they are the seven steps of one sequence. Say them in the wrong order and you have described a different workshop.",
+    "ar": "سبع من تلك العشر أفعال، وهي الخطوات السبع لتسلسل واحد. قلها بترتيب خطأ وتكون قد وصفت ورشة أخرى."
+   },
+   {
+    "start": 210.655,
+    "dur": 6.192,
+    "en": "Every answer in this unit came from the order of the steps. That is the whole lesson.",
+    "ar": "كلّ جواب في هذه الوحدة جاء من ترتيب الخطوات. وهذا هو الدرس كلّه."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 20.955,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 25.173,
+    "hold": 12.05,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 37.278,
+    "hold": 10.95,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 71.328,
+    "hold": 17.62,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 104.577,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "book_in",
+    "label": "book in",
+    "ar": "تسجيل السيارة",
+    "at": 124.17,
+    "hold": 3.0,
+    "img": "assets/vocab/book_in.png",
+    "sha": "e90e401e15e64918"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "يفحص",
+    "at": 139.116,
+    "hold": 3.0,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 151.203,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "road_test",
+    "label": "road test",
+    "ar": "اختبار الطريق",
+    "at": 166.269,
+    "hold": 3.0,
+    "img": "assets/vocab/road_test.png",
+    "sha": "7e470bccf39573f2"
+   },
+   {
+    "lemma": "hand_over",
+    "label": "hand over",
+    "ar": "يسلّم",
+    "at": 181.62,
+    "hold": 3.0,
+    "img": "assets/vocab/hand_over.png",
+    "sha": "452ca425c9f9da7d"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 198.003,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "schema": "timeline/1",
+ "duration": 202.691,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.872,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.672,
+    "dur": 8.328,
+    "en": "This is Part 5, Words in Context. You will give the meaning of four words, then read about a twenty-car fleet order.",
+    "ar": "هذا الجزء الخامس، الكلمات في سياقها. ستذكر معنى أربع كلمات، ثمّ تقرأ عن طلب أسطول من عشرين سيارة."
+   },
+   {
+    "start": 17.35,
+    "dur": 5.064,
+    "en": "Four words from the text you just read. Give the meaning of each.",
+    "ar": "أربع كلمات من النصّ الذي قرأته. اذكر معنى كلّ واحدة."
+   },
+   {
+    "start": 22.764,
+    "dur": 1.872,
+    "en": "Book in.",
+    "ar": "ما معنى book in؟"
+   },
+   {
+    "start": 28.636,
+    "dur": 3.288,
+    "en": "To write a car into the system when it arrives.",
+    "ar": "إدخال السيارة في النظام عند وصولها."
+   },
+   {
+    "start": 32.274,
+    "dur": 1.872,
+    "en": "Job card.",
+    "ar": "ما معنى job card؟"
+   },
+   {
+    "start": 38.146,
+    "dur": 3.432,
+    "en": "The paper that follows the car through every step.",
+    "ar": "الورقة التي تتبع السيارة في كلّ خطوة."
+   },
+   {
+    "start": 41.928,
+    "dur": 1.8,
+    "en": "Diagnose.",
+    "ar": "ما معنى diagnose؟"
+   },
+   {
+    "start": 47.728,
+    "dur": 2.304,
+    "en": "To find out what is wrong.",
+    "ar": "معرفة ما هو الخطأ."
+   },
+   {
+    "start": 50.382,
+    "dur": 2.112,
+    "en": "And quality check.",
+    "ar": "وما معنى quality check؟"
+   },
+   {
+    "start": 56.553,
+    "dur": 2.736,
+    "en": "The final check before handover.",
+    "ar": "الفحص الأخير قبل التسليم."
+   },
+   {
+    "start": 59.639,
+    "dur": 7.296,
+    "en": "One meaning was not needed: a tool that measures pressure. That is a gauge, from Unit 4.",
+    "ar": "معنى واحد لم يكن مطلوباً: أداة تقيس الضغط. ذلك المقياس، من الوحدة الرابعة."
+   },
+   {
+    "start": 67.285,
+    "dur": 7.536,
+    "en": "Now a second, shorter text. Before you read: how can a service centre do a very big order quickly?",
+    "ar": "الآن نصّ ثانٍ أقصر. قبل أن تقرأ: كيف يمكن لمركز صيانة أن يُنجز طلباً كبيراً جدّاً بسرعة؟"
+   },
+   {
+    "start": 75.171,
+    "dur": 8.4,
+    "en": "Two words first. A fleet is a group of cars owned by one company. And a season is a busy time of the year.",
+    "ar": "كلمتان أوّلاً. الأسطول هو مجموعة سيارات تملكها شركة واحدة. والموسم وقت مزدحم من السنة."
+   },
+   {
+    "start": 83.921,
+    "dur": 7.992,
+    "en": "One week, a taxi company brought twenty cars to Cham Motors. All of them needed a service before a busy season.",
+    "ar": "في أحد الأسابيع، جلبت شركة تاكسي عشرين سيارة إلى شام موتورز. وكلّها كانت تحتاج صيانة قبل موسم مزدحم."
+   },
+   {
+    "start": 92.263,
+    "dur": 6.216,
+    "en": "This was a big order, and it had to be done in three days. Maher made a clear plan.",
+    "ar": "كان هذا طلباً كبيراً، وكان يجب إنجازه في ثلاثة أيّام. فوضع ماهر خطّة واضحة."
+   },
+   {
+    "start": 98.829,
+    "dur": 8.856,
+    "en": "The cars were booked in ten at a time. In the workshop, the oil and filters were changed, and the brakes and tyres were checked.",
+    "ar": "سُجِّلت السيارات عشراً في المرّة. وفي الورشة، غُيِّر الزيت والفلاتر، وفُحِصت المكابح والإطارات."
+   },
+   {
+    "start": 108.035,
+    "dur": 4.8,
+    "en": "Each car was road-tested and given a quality check before it was returned.",
+    "ar": "وكلّ سيارة اختُبِرت على الطريق وأُجرِي لها فحص جودة قبل أن تُعاد."
+   },
+   {
+    "start": 113.185,
+    "dur": 5.16,
+    "en": "The parts store was busy, because many filters and litres of oil were used.",
+    "ar": "وكان مخزن القطع مزدحماً، لأنّ فلاتر كثيرة ولترات من الزيت استُخدِمت."
+   },
+   {
+    "start": 118.695,
+    "dur": 5.064,
+    "en": "The team worked in order, car by car, and every job was written down.",
+    "ar": "عمل الفريق بالترتيب، سيارة بسيارة، وكلّ عمل دُوِّن."
+   },
+   {
+    "start": 124.109,
+    "dur": 9.432,
+    "en": "After three days, all twenty taxis were handed over, safe and ready. The taxi company was happy, and it became a regular customer.",
+    "ar": "بعد ثلاثة أيّام، سُلِّمت سيّارات التاكسي العشرون كلّها، آمنة وجاهزة. وكانت شركة التاكسي سعيدة، وصارت عميلاً دائماً."
+   },
+   {
+    "start": 133.891,
+    "dur": 3.552,
+    "en": "A big job is not hard if the process is clear.",
+    "ar": "العمل الكبير ليس صعباً إذا كانت العمليّة واضحة."
+   },
+   {
+    "start": 137.793,
+    "dur": 4.8,
+    "en": "The order had to be done in one day. True or false?",
+    "ar": "كان يجب إنجاز الطلب في يوم واحد. صحيح أم خطأ؟"
+   },
+   {
+    "start": 148.593,
+    "dur": 4.392,
+    "en": "False. It had to be done in three days.",
+    "ar": "خطأ. كان يجب إنجازه في ثلاثة أيّام."
+   },
+   {
+    "start": 153.335,
+    "dur": 6.096,
+    "en": "Each car was given a quality check before it was returned. True or false?",
+    "ar": "كلّ سيارة أُجرِي لها فحص جودة قبل أن تُعاد. صحيح أم خطأ؟"
+   },
+   {
+    "start": 166.725,
+    "dur": 4.608,
+    "en": "True. Not one of the twenty went back unchecked.",
+    "ar": "صحيح. ولم تعد أيّ من العشرين دون فحص."
+   },
+   {
+    "start": 171.683,
+    "dur": 5.304,
+    "en": "The taxi company became a regular customer. True or false?",
+    "ar": "صارت شركة التاكسي عميلاً دائماً. صحيح أم خطأ؟"
+   },
+   {
+    "start": 183.399,
+    "dur": 4.008,
+    "en": "True. A clear process is why.",
+    "ar": "صحيح. والعمليّة الواضحة هي السبب."
+   },
+   {
+    "start": 187.757,
+    "dur": 9.264,
+    "en": "Notice the tense. Every passive in this text is in the past: were booked in, were changed, was road-tested, were handed over.",
+    "ar": "لاحظ الزمن. كلّ مجهول في هذا النصّ في الماضي: were booked in، و were changed، و was road-tested، و were handed over."
+   },
+   {
+    "start": 197.371,
+    "dur": 3.72,
+    "en": "The job is finished, so it is told in the past.",
+    "ar": "فالعمل انتهى، فيُحكى في الماضي."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "book_in",
+    "label": "book in",
+    "ar": "تسجيل السيارة",
+    "at": 20.964,
+    "hold": 7.62,
+    "img": "assets/vocab/book_in.png",
+    "sha": "e90e401e15e64918"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 30.474,
+    "hold": 7.62,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "diagnose",
+    "label": "diagnose",
+    "ar": "يشخّص",
+    "at": 40.128,
+    "hold": 7.55,
+    "img": "assets/vocab/diagnose.png",
+    "sha": "173a20e5f57cfee8"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 48.77,
+    "hold": 7.73,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 87.446,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 100.217,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 108.085,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 152.685,
+    "hold": 13.99,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

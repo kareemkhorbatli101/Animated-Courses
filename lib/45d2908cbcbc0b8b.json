@@ -1,0 +1,207 @@
+{
+ "schema": "timeline/1",
+ "duration": 163.915,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.44,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.24,
+    "dur": 7.872,
+    "en": "This is Part 4, Discussing Measurements. You will answer three questions, do a pair task, and give your own opinion.",
+    "ar": "هذا الجزء الرابع، مناقشة القياسات. ستجيب عن ثلاثة أسئلة، وتؤدّي مهمّة زوجية، وتعطي رأيك."
+   },
+   {
+    "start": 16.462,
+    "dur": 5.664,
+    "en": "Three questions to discuss with a partner. Answer each one out loud before I do.",
+    "ar": "ثلاثة أسئلة لمناقشتها مع زميل. أجب عن كلّ واحد بصوت عالٍ قبلي."
+   },
+   {
+    "start": 22.476,
+    "dur": 3.048,
+    "en": "What things does a mechanic measure on a car?",
+    "ar": "ما الأشياء التي يقيسها الميكانيكي في السيارة؟"
+   },
+   {
+    "start": 31.171,
+    "dur": 5.208,
+    "en": "The tyre pressure, the tread depth, the battery voltage and the engine temperature.",
+    "ar": "ضغط الإطارات، وعمق المداس، وجهد البطارية، ودرجة حرارة المحرّك."
+   },
+   {
+    "start": 36.729,
+    "dur": 3.408,
+    "en": "Why is it important to compare all four tyres?",
+    "ar": "لماذا من المهمّ مقارنة الإطارات الأربعة جميعاً؟"
+   },
+   {
+    "start": 45.843,
+    "dur": 6.024,
+    "en": "Because one tyre can be much more worn than the others, and only comparing finds the most worn one.",
+    "ar": "لأنّ إطاراً واحداً قد يكون أكثر اهتراءً بكثير من البقيّة، والمقارنة وحدها تجد الأكثر اهتراءً."
+   },
+   {
+    "start": 52.217,
+    "dur": 3.048,
+    "en": "Why must a reading be within the tolerance?",
+    "ar": "لماذا يجب أن تكون القراءة داخل الحدّ المسموح؟"
+   },
+   {
+    "start": 60.794,
+    "dur": 5.28,
+    "en": "Because a reading outside it means there is a problem, even if the car still drives.",
+    "ar": "لأنّ قراءة خارجه تعني وجود مشكلة، حتّى لو كانت السيارة ما زالت تسير."
+   },
+   {
+    "start": 66.424,
+    "dur": 8.088,
+    "en": "Four phrases for this. We measure. Is more than. The most. And within or below the tolerance.",
+    "ar": "أربع عبارات لهذا. We measure. و is more than. و the most. و within or below the tolerance."
+   },
+   {
+    "start": 74.862,
+    "dur": 7.584,
+    "en": "Now the pair task. One of you has Car A, the other has Car B, and neither shows their card.",
+    "ar": "الآن مهمّة الزوج. أحدكما لديه السيارة A، والآخر لديه السيارة B، ولا يُظهر أيّ منكما بطاقته."
+   },
+   {
+    "start": 82.796,
+    "dur": 9.456,
+    "en": "Car A. Front tyres six millimetres, rear tyres four. Battery twelve point six volts. Pressure fine.",
+    "ar": "السيارة A. الإطارات الأمامية ستّة ميلّيمترات، والخلفية أربعة. البطارية اثنا عشر فاصلة ستّة فولت. والضغط جيّد."
+   },
+   {
+    "start": 92.602,
+    "dur": 9.384,
+    "en": "Car B. Front tyres five millimetres, rear tyres two. Battery twelve point one volts. Pressure low.",
+    "ar": "السيارة B. الإطارات الأمامية خمسة ميلّيمترات، والخلفية اثنان. البطارية اثنا عشر فاصلة واحد فولت. والضغط منخفض."
+   },
+   {
+    "start": 102.336,
+    "dur": 4.488,
+    "en": "Which car has the more worn rear tyres, and by how much?",
+    "ar": "أيّ سيارة إطاراتها الخلفية أكثر اهتراءً، وبكم؟"
+   },
+   {
+    "start": 113.119,
+    "dur": 6.288,
+    "en": "Car B. Two millimetres against four, so it is two millimetres more worn.",
+    "ar": "السيارة B. ميلّيمتران مقابل أربعة، فهي أكثر اهتراءً بميلّيمترين."
+   },
+   {
+    "start": 119.757,
+    "dur": 5.256,
+    "en": "Which battery is below the tolerance of twelve point four to twelve point seven?",
+    "ar": "أيّ بطارية تحت الحدّ المسموح من اثني عشر فاصلة أربعة إلى اثني عشر فاصلة سبعة؟"
+   },
+   {
+    "start": 132.718,
+    "dur": 7.056,
+    "en": "Car B, at twelve point one. Car A is twelve point six, which is inside it.",
+    "ar": "السيارة B، باثني عشر فاصلة واحد. والسيارة A باثني عشر فاصلة ستّة، وهي داخله."
+   },
+   {
+    "start": 140.124,
+    "dur": 4.32,
+    "en": "Now your own opinion, and there is no single right answer to this one.",
+    "ar": "الآن رأيك الخاصّ، ولا جواب واحد صحيح لهذا."
+   },
+   {
+    "start": 144.794,
+    "dur": 4.512,
+    "en": "Of all the readings on a car, which one would you check first, and why?",
+    "ar": "من كلّ قراءات السيارة، أيّها تفحص أوّلاً، ولماذا؟"
+   },
+   {
+    "start": 156.483,
+    "dur": 5.832,
+    "en": "For example: the tread depth first, because a worn tyre is the most dangerous at speed.",
+    "ar": "مثلاً: عمق المداس أوّلاً، لأنّ الإطار المهترئ هو الأخطر عند السرعة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 31.171,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 45.843,
+    "hold": 3.05,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 52.205,
+    "hold": 8.54,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 71.462,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 101.736,
+    "hold": 17.44,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 119.369,
+    "hold": 13.3,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 156.483,
+    "hold": 3.0,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

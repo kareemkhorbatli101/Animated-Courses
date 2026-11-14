@@ -1,0 +1,150 @@
+{
+ "schema": "timeline/1",
+ "duration": 92.91,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 7.008,
+    "en": "This is Part 3, Where Is the Car Now? You will hear a customer ask, and meet the passive in the past.",
+    "ar": "هذا الجزء الثالث، أين السيارة الآن؟ ستسمع عميلاً يسأل، وتلتقي بالمجهول في الماضي."
+   },
+   {
+    "start": 15.958,
+    "dur": 6.024,
+    "en": "Before you listen, think about this. What does a customer ask when the car is not ready?",
+    "ar": "قبل أن تستمع، فكّر في هذا. ماذا يسأل العميل عندما لا تكون السيارة جاهزة؟"
+   },
+   {
+    "start": 22.332,
+    "dur": 3.312,
+    "en": "Hello. Is my car ready?",
+    "ar": "مرحباً. هل سيارتي جاهزة؟"
+   },
+   {
+    "start": 25.994,
+    "dur": 6.192,
+    "en": "Not yet, but let me check. It was booked in this morning, and now it is in the workshop.",
+    "ar": "ليس بعد، لكن دعني أتحقّق. سُجِّلت هذا الصباح، وهي الآن في الورشة."
+   },
+   {
+    "start": 32.536,
+    "dur": 2.352,
+    "en": "How long will it take?",
+    "ar": "كم سيستغرق الأمر؟"
+   },
+   {
+    "start": 35.238,
+    "dur": 5.904,
+    "en": "The oil is changed, and the brakes are checked now. After that, it is road-tested.",
+    "ar": "الزيت قد غُيِّر، والمكابح تُفحَص الآن. وبعد ذلك، تُختبَر على الطريق."
+   },
+   {
+    "start": 41.492,
+    "dur": 2.472,
+    "en": "It will be ready at three o'clock.",
+    "ar": "ستكون جاهزة في الساعة الثالثة."
+   },
+   {
+    "start": 44.314,
+    "dur": 1.872,
+    "en": "Good.",
+    "ar": "جيّد."
+   },
+   {
+    "start": 46.536,
+    "dur": 2.712,
+    "en": "We will call you when it is handed over.",
+    "ar": "سنتّصل بك عند تسليمها."
+   },
+   {
+    "start": 49.598,
+    "dur": 1.872,
+    "en": "Where is the car now?",
+    "ar": "أين السيارة الآن؟"
+   },
+   {
+    "start": 55.705,
+    "dur": 1.872,
+    "en": "In the workshop.",
+    "ar": "في الورشة."
+   },
+   {
+    "start": 57.927,
+    "dur": 1.872,
+    "en": "What is checked now?",
+    "ar": "ما الذي يُفحَص الآن؟"
+   },
+   {
+    "start": 63.976,
+    "dur": 1.872,
+    "en": "The brakes.",
+    "ar": "المكابح."
+   },
+   {
+    "start": 66.198,
+    "dur": 1.944,
+    "en": "When will the car be ready?",
+    "ar": "متى ستكون السيارة جاهزة؟"
+   },
+   {
+    "start": 72.73,
+    "dur": 1.872,
+    "en": "At three o'clock.",
+    "ar": "في الساعة الثالثة."
+   },
+   {
+    "start": 74.952,
+    "dur": 8.544,
+    "en": "Notice one sentence in there. It was booked in this morning. That is the same passive, but in the past: was instead of is.",
+    "ar": "لاحظ جملة واحدة هناك. It was booked in this morning. هي المجهول نفسه، لكن في الماضي: was بدلاً من is."
+   },
+   {
+    "start": 83.846,
+    "dur": 7.464,
+    "en": "So a whole day of a car can be told in one form. It was booked in, it is being serviced, it will be handed over.",
+    "ar": "فيمكن حكاية يوم سيارة كامل بصيغة واحدة. سُجِّلت، وهي تُصان، وستُسلَّم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 29.182,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 55.705,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "schema": "timeline/1",
+ "duration": 174.296,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.44,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.24,
+    "dur": 7.728,
+    "en": "This is Part 2, Grammar Review. You will find the mistake, choose the correct sentence, then make two of your own.",
+    "ar": "هذا الجزء الثاني، مراجعة القواعد. ستجد الخطأ، وتختار الجملة الصحيحة، ثمّ تصنع جملتين من عندك."
+   },
+   {
+    "start": 16.318,
+    "dur": 7.272,
+    "en": "Four sentences, and each one has exactly one mistake. Find it, then say the sentence correctly.",
+    "ar": "أربع جمل، وفي كلّ واحدة خطأ واحد بالضبط. اعثر عليه، ثمّ قل الجملة صحيحة."
+   },
+   {
+    "start": 23.94,
+    "dur": 2.784,
+    "en": "This tyre is more worse than that one.",
+    "ar": "ما الخطأ في: This tyre is more worse than that one؟"
+   },
+   {
+    "start": 31.959,
+    "dur": 6.36,
+    "en": "This tyre is worse than that one. Worse is already a comparative, so it does not take more.",
+    "ar": "This tyre is worse than that one. كلمة worse هي أصلاً صيغة مقارنة، فلا تأخذ more."
+   },
+   {
+    "start": 38.669,
+    "dur": 2.736,
+    "en": "The battery is lower as yesterday.",
+    "ar": "ما الخطأ في: The battery is lower as yesterday؟"
+   },
+   {
+    "start": 46.405,
+    "dur": 5.688,
+    "en": "The battery is lower than yesterday. A comparative takes than, never as.",
+    "ar": "The battery is lower than yesterday. صيغة المقارنة تأخذ than، وليس as أبداً."
+   },
+   {
+    "start": 52.443,
+    "dur": 2.112,
+    "en": "This is the most low reading.",
+    "ar": "ما الخطأ في: This is the most low reading؟"
+   },
+   {
+    "start": 59.261,
+    "dur": 7.128,
+    "en": "This is the lowest reading. Low is short, so it takes the letters E, S and T, not the most.",
+    "ar": "This is the lowest reading. كلمة low قصيرة، فتأخذ الحروف E و S و T، لا the most."
+   },
+   {
+    "start": 66.739,
+    "dur": 2.76,
+    "en": "A new tyre is gooder than an old one.",
+    "ar": "ما الخطأ في: A new tyre is gooder than an old one؟"
+   },
+   {
+    "start": 74.676,
+    "dur": 5.4,
+    "en": "A new tyre is better than an old one. Good becomes better, never gooder.",
+    "ar": "A new tyre is better than an old one. كلمة good تصبح better، وليست gooder أبداً."
+   },
+   {
+    "start": 80.426,
+    "dur": 5.064,
+    "en": "Now choose the whole sentence that is correct. Only one of each group is.",
+    "ar": "الآن اختر الجملة الصحيحة بكاملها. واحدة فقط في كلّ مجموعة صحيحة."
+   },
+   {
+    "start": 85.84,
+    "dur": 7.392,
+    "en": "Is it: this tyre is more worn that that one, or this tyre is more worn than that one, or this tyre is worner than that one?",
+    "ar": "أهي: this tyre is more worn that that one، أم this tyre is more worn than that one، أم this tyre is worner than that one؟"
+   },
+   {
+    "start": 101.232,
+    "dur": 4.92,
+    "en": "This tyre is more worn than that one. The trap is that instead of than.",
+    "ar": "This tyre is more worn than that one. الفخّ هو that بدلاً من than."
+   },
+   {
+    "start": 106.502,
+    "dur": 6.096,
+    "en": "Is it: this is the lowest reading, or this is the most low reading, or this is the lower reading of all?",
+    "ar": "أهي: this is the lowest reading، أم this is the most low reading، أم this is the lower reading of all؟"
+   },
+   {
+    "start": 120.598,
+    "dur": 5.832,
+    "en": "This is the lowest reading. Of all needs a superlative, so the lower is wrong too.",
+    "ar": "This is the lowest reading. عبارة of all تحتاج صيغة تفضيل، فتكون the lower خطأً أيضاً."
+   },
+   {
+    "start": 126.78,
+    "dur": 6.768,
+    "en": "Now your own turn. Think of two tyres, or two batteries, that you really know.",
+    "ar": "الآن دورك. فكّر في إطارين، أو بطاريتين، تعرفهما فعلاً."
+   },
+   {
+    "start": 133.898,
+    "dur": 5.856,
+    "en": "Compare them with one comparative sentence of your own. Say it out loud.",
+    "ar": "قارن بينهما بجملة مقارنة واحدة من عندك. قلها بصوت عالٍ."
+   },
+   {
+    "start": 146.989,
+    "dur": 4.416,
+    "en": "For example: the front tyre is newer than the rear tyre.",
+    "ar": "مثلاً: الإطار الأمامي أحدث من الإطار الخلفي."
+   },
+   {
+    "start": 151.755,
+    "dur": 4.584,
+    "en": "Now one superlative sentence of your own, about three or more.",
+    "ar": "الآن جملة تفضيل واحدة من عندك، عن ثلاثة أو أكثر."
+   },
+   {
+    "start": 162.986,
+    "dur": 4.296,
+    "en": "For example: the rear left is the most worn of the four.",
+    "ar": "مثلاً: الخلفي الأيسر هو الأكثر اهتراءً من الأربعة."
+   },
+   {
+    "start": 167.632,
+    "dur": 5.064,
+    "en": "You will see these two forms again in the Part 5 reading. Watch for them.",
+    "ar": "ستلتقي بهاتين الصيغتين مرّة أخرى في قراءة الجزء الخامس. ترقّبهما."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 51.768,
+    "hold": 10.49,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 85.665,
+    "hold": 18.57,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 106.339,
+    "hold": 17.26,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 162.986,
+    "hold": 3.61,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 168.645,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

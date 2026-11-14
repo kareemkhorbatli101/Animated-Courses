@@ -1,0 +1,435 @@
+{
+ "schema": "timeline/1",
+ "duration": 216.431,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 8.52,
+    "en": "This is Part 10, Can-Do and Glossary. Five things you can do, each with an example, and the ten words asked rather than read.",
+    "ar": "هذا الجزء العاشر، ما أستطيع فعله والمعجم. خمسة أمور تستطيعها، لكلٍّ مثال، والكلمات العشر تُسأل لا تُقرأ."
+   },
+   {
+    "start": 17.062,
+    "dur": 7.176,
+    "en": "Five things you can now do. After each one, I give an example, so you can test yourself against it.",
+    "ar": "خمسة أمور تستطيع فعلها الآن. بعد كلّ واحد، أعطي مثالاً، لتختبر نفسك عليه."
+   },
+   {
+    "start": 24.588,
+    "dur": 5.616,
+    "en": "One. I can name the main measurements on a car and the tools that read them.",
+    "ar": "أوّلاً. أستطيع تسمية القياسات الرئيسية في السيارة والأدوات التي تقرؤها."
+   },
+   {
+    "start": 30.554,
+    "dur": 5.472,
+    "en": "For example: tyre pressure. A mechanic reads it with a gauge.",
+    "ar": "مثلاً: ضغط الإطار. يقرؤه الميكانيكي بمقياس."
+   },
+   {
+    "start": 36.376,
+    "dur": 3.84,
+    "en": "Tread depth, which a mechanic measures in millimetres.",
+    "ar": "وعمق المداس، الذي يقيسه الميكانيكي بالميلّيمترات."
+   },
+   {
+    "start": 40.566,
+    "dur": 4.056,
+    "en": "And battery voltage, which a mechanic reads with a meter.",
+    "ar": "وجهد البطارية، الذي يقرؤه الميكانيكي بجهاز قياس."
+   },
+   {
+    "start": 44.972,
+    "dur": 5.688,
+    "en": "Two. I can use comparatives and superlatives to compare readings.",
+    "ar": "ثانياً. أستطيع استخدام صيغتي المقارنة والتفضيل لمقارنة القراءات."
+   },
+   {
+    "start": 51.01,
+    "dur": 5.976,
+    "en": "For example: this tyre is more worn than that one, and the rear left is the most worn of the four.",
+    "ar": "مثلاً: هذا الإطار أكثر اهتراءً من ذاك، والخلفي الأيسر هو الأكثر اهتراءً من الأربعة."
+   },
+   {
+    "start": 57.336,
+    "dur": 6.84,
+    "en": "Three. I can understand a diagnostic report and say which reading is outside the tolerance.",
+    "ar": "ثالثاً. أستطيع فهم تقرير التشخيص وقول أيّ قراءة خارج الحدّ المسموح."
+   },
+   {
+    "start": 64.526,
+    "dur": 6.096,
+    "en": "For example: twelve point one volts is below a tolerance of twelve point four to twelve point seven.",
+    "ar": "مثلاً: اثنا عشر فاصلة واحد فولت تحت حدّ مسموح من اثني عشر فاصلة أربعة إلى اثني عشر فاصلة سبعة."
+   },
+   {
+    "start": 70.972,
+    "dur": 4.392,
+    "en": "Four. I can write a clear readings summary.",
+    "ar": "رابعاً. أستطيع كتابة ملخّص قراءات واضح."
+   },
+   {
+    "start": 75.714,
+    "dur": 6.912,
+    "en": "For example: the pressure and temperature are within the tolerance; the battery is below it; we will charge the battery.",
+    "ar": "مثلاً: الضغط ودرجة الحرارة داخل الحدّ المسموح؛ والبطارية تحته؛ وسنشحن البطارية."
+   },
+   {
+    "start": 82.976,
+    "dur": 5.352,
+    "en": "Five. I can compare cars and decide which needs the most work.",
+    "ar": "خامساً. أستطيع مقارنة السيارات وتقرير أيّها يحتاج أكثر العمل."
+   },
+   {
+    "start": 88.678,
+    "dur": 6.312,
+    "en": "For example: the third car has the most worn tyres and the lowest voltage, so it needs the most work.",
+    "ar": "مثلاً: السيارة الثالثة لديها أكثر الإطارات اهتراءً وأدنى جهد، فهي تحتاج أكثر العمل."
+   },
+   {
+    "start": 95.34,
+    "dur": 8.304,
+    "en": "And now the glossary, the ten words of Unit 4. I will not read them to you. I will ask you for each one.",
+    "ar": "والآن المعجم، كلمات الوحدة الرابعة العشر. لن أقرأها عليك. بل سأسألك عن كلّ واحدة."
+   },
+   {
+    "start": 103.994,
+    "dur": 2.472,
+    "en": "The tool that shows a measurement.",
+    "ar": "الأداة التي تُظهر قياساً."
+   },
+   {
+    "start": 111.466,
+    "dur": 1.872,
+    "en": "A gauge.",
+    "ar": "المقياس."
+   },
+   {
+    "start": 113.688,
+    "dur": 3.312,
+    "en": "How hard the air pushes inside a tyre.",
+    "ar": "مقدار دفع الهواء داخل الإطار."
+   },
+   {
+    "start": 122.236,
+    "dur": 1.872,
+    "en": "Tyre pressure.",
+    "ar": "ضغط الإطار."
+   },
+   {
+    "start": 124.458,
+    "dur": 2.664,
+    "en": "How deep a tyre's grooves are.",
+    "ar": "مدى عمق أخاديد الإطار."
+   },
+   {
+    "start": 131.886,
+    "dur": 1.872,
+    "en": "Tread depth.",
+    "ar": "عمق المداس."
+   },
+   {
+    "start": 134.108,
+    "dur": 3.24,
+    "en": "The amount of electric power, in volts.",
+    "ar": "مقدار الطاقة الكهربائية، بالفولت."
+   },
+   {
+    "start": 142.642,
+    "dur": 1.872,
+    "en": "Voltage.",
+    "ar": "الجهد الكهربائي."
+   },
+   {
+    "start": 144.864,
+    "dur": 2.784,
+    "en": "How hot or cold something is.",
+    "ar": "مدى سخونة الشيء أو برودته."
+   },
+   {
+    "start": 152.354,
+    "dur": 1.872,
+    "en": "Temperature.",
+    "ar": "درجة الحرارة."
+   },
+   {
+    "start": 154.576,
+    "dur": 3.336,
+    "en": "The correct level, or the allowed range.",
+    "ar": "المستوى الصحيح، أو المجال المسموح."
+   },
+   {
+    "start": 163.265,
+    "dur": 1.872,
+    "en": "Tolerance.",
+    "ar": "الحدّ المسموح."
+   },
+   {
+    "start": 165.487,
+    "dur": 2.424,
+    "en": "The number a meter shows.",
+    "ar": "الرقم الذي يُظهره جهاز القياس."
+   },
+   {
+    "start": 172.382,
+    "dur": 1.872,
+    "en": "A reading.",
+    "ar": "القراءة."
+   },
+   {
+    "start": 174.604,
+    "dur": 2.928,
+    "en": "Old and used, with less tread.",
+    "ar": "قديم ومستعمل، بمداس أقلّ."
+   },
+   {
+    "start": 182.297,
+    "dur": 1.872,
+    "en": "Worn.",
+    "ar": "مهترئ."
+   },
+   {
+    "start": 184.519,
+    "dur": 2.616,
+    "en": "The tool that measures electricity.",
+    "ar": "الأداة التي تقيس الكهرباء."
+   },
+   {
+    "start": 192.193,
+    "dur": 1.872,
+    "en": "A meter.",
+    "ar": "جهاز القياس."
+   },
+   {
+    "start": 194.415,
+    "dur": 3.84,
+    "en": "And the very small unit of length that tread is measured in.",
+    "ar": "والوحدة الصغيرة جدّاً للطول التي يُقاس بها المداس."
+   },
+   {
+    "start": 204.785,
+    "dur": 1.872,
+    "en": "A millimetre.",
+    "ar": "الميلّيمتر."
+   },
+   {
+    "start": 207.007,
+    "dur": 7.824,
+    "en": "That is Unit 4. In Unit 5 you will follow a car through the whole service process, from check-in to handover.",
+    "ar": "تلك هي الوحدة الرابعة. في الوحدة الخامسة ستتابع سيارة عبر عمليّة الصيانة كلّها، من الاستقبال إلى التسليم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 29.692,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 32.742,
+    "hold": 2.5,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 35.292,
+    "hold": 1.78,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 37.126,
+    "hold": 2.24,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 39.416,
+    "hold": 2.5,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 41.966,
+    "hold": 2.43,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 47.335,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 50.96,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 60.749,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 75.364,
+    "hold": 3.0,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 111.466,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 122.236,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 131.886,
+    "hold": 3.0,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 142.642,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 152.354,
+    "hold": 3.0,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 163.265,
+    "hold": 0.9,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 164.212,
+    "hold": 8.12,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 172.382,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 182.297,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 192.193,
+    "hold": 3.0,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 204.785,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

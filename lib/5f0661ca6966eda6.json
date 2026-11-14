@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 170.267,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 8.376,
+    "en": "This is Part 4, Discussing the Process. You will answer three questions, compare two job cards, and give your own opinion.",
+    "ar": "هذا الجزء الرابع، مناقشة العمليّة. ستجيب عن ثلاثة أسئلة، وتقارن بطاقتي عمل، وتعطي رأيك."
+   },
+   {
+    "start": 17.326,
+    "dur": 5.664,
+    "en": "Three questions to discuss with a partner. Answer each one out loud before I do.",
+    "ar": "ثلاثة أسئلة لمناقشتها مع زميل. أجب عن كلّ واحد بصوت عالٍ قبلي."
+   },
+   {
+    "start": 23.34,
+    "dur": 3.12,
+    "en": "What are the main steps of the service process?",
+    "ar": "ما الخطوات الرئيسية في عمليّة الصيانة؟"
+   },
+   {
+    "start": 32.225,
+    "dur": 6.768,
+    "en": "The car is booked in, inspected, serviced, road-tested, quality-checked, and handed over.",
+    "ar": "تُسجَّل السيارة، وتُفحَص، وتُصان، وتُختبَر على الطريق، ويُفحَص جودتها، وتُسلَّم."
+   },
+   {
+    "start": 39.343,
+    "dur": 2.952,
+    "en": "Why is the order of the steps important?",
+    "ar": "لماذا ترتيب الخطوات مهمّ؟"
+   },
+   {
+    "start": 47.648,
+    "dur": 7.584,
+    "en": "Because a step done early is wasted. A car serviced before it is inspected may be serviced for the wrong fault.",
+    "ar": "لأنّ الخطوة التي تُنجَز مبكّراً تذهب هدراً. والسيارة التي تُصان قبل أن تُفحَص قد تُصان لعطل غير صحيح."
+   },
+   {
+    "start": 55.582,
+    "dur": 3.408,
+    "en": "Why is no car handed over until it is checked?",
+    "ar": "لماذا لا تُسلَّم سيارة حتّى تُفحَص؟"
+   },
+   {
+    "start": 64.696,
+    "dur": 5.232,
+    "en": "Because the quality check is the last chance to find a mistake before the customer does.",
+    "ar": "لأنّ فحص الجودة هو الفرصة الأخيرة لإيجاد خطأ قبل أن يجده العميل."
+   },
+   {
+    "start": 70.278,
+    "dur": 8.712,
+    "en": "Four phrases for this. First, it is. Then it is. Finally. And no car is handed over until.",
+    "ar": "أربع عبارات لهذا. First, it is. و Then it is. و Finally. و no car is handed over until."
+   },
+   {
+    "start": 79.34,
+    "dur": 8.352,
+    "en": "Now the pair task. One of you has job card A, the other has job card B, and neither shows their card.",
+    "ar": "الآن مهمّة الزوج. أحدكما لديه بطاقة العمل A، والآخر لديه بطاقة العمل B، ولا يُظهر أيّ منكما بطاقته."
+   },
+   {
+    "start": 88.042,
+    "dur": 9.384,
+    "en": "Job card A. Booked in at nine o'clock. Inspected. Being serviced now. Not yet road-tested.",
+    "ar": "بطاقة العمل A. سُجِّلت في التاسعة. فُحِصت. تُصان الآن. ولم تُختبَر على الطريق بعد."
+   },
+   {
+    "start": 97.776,
+    "dur": 9.288,
+    "en": "Job card B. Booked in at ten o'clock. Serviced. Road-tested. Waiting for the quality check.",
+    "ar": "بطاقة العمل B. سُجِّلت في العاشرة. صِينت. واختُبِرت على الطريق. وتنتظر فحص الجودة."
+   },
+   {
+    "start": 107.414,
+    "dur": 8.424,
+    "en": "Car B was booked in an hour later, but it is further along. Which two steps has it already passed that car A has not?",
+    "ar": "السيارة B سُجِّلت بعد ساعة، لكنّها أبعد في العمليّة. أيّ خطوتين اجتازتهما ولم تجتزهما السيارة A؟"
+   },
+   {
+    "start": 123.838,
+    "dur": 5.808,
+    "en": "It is serviced and it is road-tested. Car A is still being serviced.",
+    "ar": "صِينت واختُبِرت على الطريق. والسيارة A ما زالت تُصان."
+   },
+   {
+    "start": 129.996,
+    "dur": 3.096,
+    "en": "So what is the next step for each car?",
+    "ar": "فما الخطوة التالية لكلّ سيارة؟"
+   },
+   {
+    "start": 138.327,
+    "dur": 6.648,
+    "en": "Car A is road-tested next. Car B is quality-checked, then handed over.",
+    "ar": "السيارة A تُختبَر على الطريق تالياً. والسيارة B يُفحَص جودتها، ثمّ تُسلَّم."
+   },
+   {
+    "start": 145.325,
+    "dur": 4.32,
+    "en": "Now your own opinion, and there is no single right answer to this one.",
+    "ar": "الآن رأيك الخاصّ، ولا جواب واحد صحيح لهذا."
+   },
+   {
+    "start": 149.995,
+    "dur": 4.992,
+    "en": "Of all seven steps, which one would you never let anyone skip, and why?",
+    "ar": "من الخطوات السبع كلّها، أيّها لا تسمح لأحد أن يتخطّاها، ولماذا؟"
+   },
+   {
+    "start": 162.163,
+    "dur": 6.504,
+    "en": "For example: the quality check, because it is the only step whose whole job is to catch the other six.",
+    "ar": "مثلاً: فحص الجودة، لأنّه الخطوة الوحيدة التي كلّ عملها أن تضبط الستّ الأخرى."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 64.696,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 80.502,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 162.163,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

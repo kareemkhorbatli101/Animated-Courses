@@ -1,0 +1,372 @@
+{
+ "schema": "timeline/1",
+ "duration": 176.858,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.488,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.288,
+    "dur": 5.208,
+    "en": "This is the Warm Up. You will meet the ten measuring words of the unit.",
+    "ar": "هذا هو التمهيد. ستتعرّف على كلمات القياس العشر في هذه الوحدة."
+   },
+   {
+    "start": 13.846,
+    "dur": 6.048,
+    "en": "Welcome to the measuring bench. Today we learn to measure, and to read the numbers.",
+    "ar": "أهلاً بك إلى طاولة القياس. اليوم نتعلّم أن نقيس، وأن نقرأ الأرقام."
+   },
+   {
+    "start": 20.244,
+    "dur": 5.352,
+    "en": "You will learn ten words. Look at each thing before I say its name.",
+    "ar": "ستتعلّم عشر كلمات. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 25.946,
+    "dur": 4.896,
+    "en": "This is a gauge. A gauge is a tool that shows a measurement.",
+    "ar": "هذا مقياس. المقياس أداة تُظهر قياساً."
+   },
+   {
+    "start": 31.192,
+    "dur": 5.664,
+    "en": "This is the tyre pressure. It is how hard the air pushes inside a tyre.",
+    "ar": "هذا ضغط الإطار. وهو مقدار دفع الهواء داخل الإطار."
+   },
+   {
+    "start": 37.206,
+    "dur": 5.112,
+    "en": "This is the tread depth. It is how deep the grooves on a tyre are.",
+    "ar": "هذا عمق المداس. وهو مدى عمق الأخاديد في الإطار."
+   },
+   {
+    "start": 42.668,
+    "dur": 5.664,
+    "en": "This is the voltage. It is the amount of electric power, in volts.",
+    "ar": "هذا الجهد الكهربائي. وهو مقدار الطاقة الكهربائية، بالفولت."
+   },
+   {
+    "start": 48.682,
+    "dur": 5.04,
+    "en": "This is the temperature. It is how hot or cold something is.",
+    "ar": "هذه درجة الحرارة. وهي مدى سخونة الشيء أو برودته."
+   },
+   {
+    "start": 54.072,
+    "dur": 6.216,
+    "en": "This is the tolerance. It is the correct level, or the small range that is allowed.",
+    "ar": "هذا الحدّ المسموح. وهو المستوى الصحيح، أو المجال الصغير المسموح به."
+   },
+   {
+    "start": 60.638,
+    "dur": 5.064,
+    "en": "This is a reading. It is the number a tool or a meter shows.",
+    "ar": "هذه قراءة. وهي الرقم الذي يُظهره جهاز أو مقياس."
+   },
+   {
+    "start": 66.052,
+    "dur": 5.544,
+    "en": "This tyre is worn. Worn means old and used, with less tread.",
+    "ar": "هذا الإطار مهترئ. مهترئ تعني قديماً ومستعملاً، بمداس أقلّ."
+   },
+   {
+    "start": 71.946,
+    "dur": 5.112,
+    "en": "This is a meter. A meter is a tool that measures electricity.",
+    "ar": "هذا جهاز قياس. جهاز القياس أداة تقيس الكهرباء."
+   },
+   {
+    "start": 77.408,
+    "dur": 5.616,
+    "en": "And this is a millimetre. A millimetre is a very small unit of length.",
+    "ar": "وهذا ميلّيمتر. الميلّيمتر وحدة طول صغيرة جدّاً."
+   },
+   {
+    "start": 83.374,
+    "dur": 4.896,
+    "en": "Now some questions from the book. Think before you answer.",
+    "ar": "الآن بعض الأسئلة من الكتاب. فكّر قبل أن تجيب."
+   },
+   {
+    "start": 88.62,
+    "dur": 4.8,
+    "en": "Check the tyre blank with a gauge. Which word is missing?",
+    "ar": "تحقّق من فراغ الإطار بمقياس. ما الكلمة الناقصة؟"
+   },
+   {
+    "start": 99.773,
+    "dur": 4.296,
+    "en": "Pressure. Check the tyre pressure with a gauge.",
+    "ar": "الضغط. تحقّق من ضغط الإطار بمقياس."
+   },
+   {
+    "start": 104.419,
+    "dur": 3.408,
+    "en": "If the blank is low, the tyre is worn.",
+    "ar": "إذا كان الفراغ منخفضاً، فالإطار مهترئ."
+   },
+   {
+    "start": 113.062,
+    "dur": 4.68,
+    "en": "Tread. If the tread is low, the tyre is worn.",
+    "ar": "المداس. إذا كان المداس منخفضاً، فالإطار مهترئ."
+   },
+   {
+    "start": 118.092,
+    "dur": 2.76,
+    "en": "Use a blank to measure the pressure.",
+    "ar": "استخدم فراغاً لقياس الضغط."
+   },
+   {
+    "start": 125.97,
+    "dur": 4.344,
+    "en": "A gauge. Use a gauge to measure the pressure.",
+    "ar": "مقياساً. استخدم مقياساً لقياس الضغط."
+   },
+   {
+    "start": 130.664,
+    "dur": 2.76,
+    "en": "Check the battery blank with a meter.",
+    "ar": "تحقّق من فراغ البطارية بجهاز قياس."
+   },
+   {
+    "start": 138.601,
+    "dur": 4.488,
+    "en": "Voltage. Check the battery voltage with a meter.",
+    "ar": "الجهد. تحقّق من جهد البطارية بجهاز قياس."
+   },
+   {
+    "start": 143.439,
+    "dur": 3.624,
+    "en": "What does the mechanic use to check the tyre pressure?",
+    "ar": "ماذا يستخدم الميكانيكي للتحقّق من ضغط الإطار؟"
+   },
+   {
+    "start": 153.239,
+    "dur": 4.608,
+    "en": "A gauge. Not a spanner, and not a jack.",
+    "ar": "مقياساً. ليس مفتاح ربط، وليست رافعة."
+   },
+   {
+    "start": 158.197,
+    "dur": 2.28,
+    "en": "What does tolerance mean?",
+    "ar": "ماذا تعني كلمة الحدّ المسموح؟"
+   },
+   {
+    "start": 164.948,
+    "dur": 5.976,
+    "en": "The correct level for a reading. Not the colour, the price or the weight.",
+    "ar": "المستوى الصحيح للقراءة. ليس اللون ولا السعر ولا الوزن."
+   },
+   {
+    "start": 171.274,
+    "dur": 3.984,
+    "en": "A mechanic who measures carefully finds the fault quickly.",
+    "ar": "الميكانيكي الذي يقيس بعناية يجد الخلل بسرعة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 24.609,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 29.88,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "tread_depth",
+    "label": "tread depth",
+    "ar": "عمق المداس",
+    "at": 35.919,
+    "hold": 3.0,
+    "img": "assets/vocab/tread_depth.png",
+    "sha": "b16b19b1fc701c7f"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 41.368,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "temperature",
+    "label": "temperature",
+    "ar": "درجة الحرارة",
+    "at": 47.382,
+    "hold": 3.0,
+    "img": "assets/vocab/temperature.png",
+    "sha": "3048dc214c924194"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 52.772,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 59.313,
+    "hold": 2.73,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 62.088,
+    "hold": 2.91,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 65.052,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 76.196,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 88.108,
+    "hold": 11.62,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 99.773,
+    "hold": 3.04,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 104.607,
+    "hold": 12.92,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 125.97,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 130.164,
+    "hold": 8.39,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 138.601,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 143.426,
+    "hold": 9.76,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "gauge",
+    "label": "gauge",
+    "ar": "المقياس",
+    "at": 153.239,
+    "hold": 3.0,
+    "img": "assets/vocab/gauge.png",
+    "sha": "359ea8d85e242892"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 156.797,
+    "hold": 8.1,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 164.948,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

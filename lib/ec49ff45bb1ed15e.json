@@ -1,0 +1,303 @@
+{
+ "schema": "timeline/1",
+ "duration": 236.497,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 9.144,
+    "en": "This is Part 4, the Explaining the Process Role Play. You will take each turn yourself, refuse a customer politely, then give a talk.",
+    "ar": "هذا الجزء الرابع، لعب أدوار شرح العمليّة. ستأخذ كلّ دور بنفسك، وترفض طلب عميل بلباقة، ثمّ تقدّم حديثاً."
+   },
+   {
+    "start": 18.094,
+    "dur": 7.656,
+    "en": "A service advisor explains the process, and a customer asks. Listen to the model first, all the way through.",
+    "ar": "موظّفة خدمة تشرح العمليّة، وعميل يسأل. استمع إلى النموذج أوّلاً، كاملاً."
+   },
+   {
+    "start": 26.1,
+    "dur": 3.864,
+    "en": "First, your car is booked in and a job card is made.",
+    "ar": "أوّلاً، تُسجَّل سيارتك وتُعدّ لها بطاقة عمل."
+   },
+   {
+    "start": 30.314,
+    "dur": 1.872,
+    "en": "Then what?",
+    "ar": "ثمّ ماذا؟"
+   },
+   {
+    "start": 32.536,
+    "dur": 2.664,
+    "en": "Then it is inspected and serviced.",
+    "ar": "ثمّ تُفحَص وتُصان."
+   },
+   {
+    "start": 35.55,
+    "dur": 2.352,
+    "en": "And before I get it back?",
+    "ar": "وقبل أن أستعيدها؟"
+   },
+   {
+    "start": 38.252,
+    "dur": 3.456,
+    "en": "It is road-tested and checked, then handed over.",
+    "ar": "تُختبَر على الطريق وتُفحَص، ثمّ تُسلَّم."
+   },
+   {
+    "start": 42.058,
+    "dur": 5.52,
+    "en": "Now again, turn by turn. Each time, you say the line before I do.",
+    "ar": "الآن مرّة أخرى، دوراً بدور. في كلّ مرّة، قل الجملة قبلي."
+   },
+   {
+    "start": 47.928,
+    "dur": 5.544,
+    "en": "You are the advisor. Give the first step, and say what is made at the same time.",
+    "ar": "أنت موظّف الخدمة. اذكر الخطوة الأولى، وقل ما يُعدّ في الوقت نفسه."
+   },
+   {
+    "start": 61.178,
+    "dur": 3.864,
+    "en": "First, your car is booked in and a job card is made.",
+    "ar": "أوّلاً، تُسجَّل سيارتك وتُعدّ لها بطاقة عمل."
+   },
+   {
+    "start": 65.392,
+    "dur": 5.088,
+    "en": "You are the customer. Ask for the next step, in two words.",
+    "ar": "أنت العميل. اسأل عن الخطوة التالية، بكلمتين."
+   },
+   {
+    "start": 76.892,
+    "dur": 1.872,
+    "en": "Then what?",
+    "ar": "ثمّ ماذا؟"
+   },
+   {
+    "start": 79.114,
+    "dur": 4.728,
+    "en": "Advisor again. Give the two middle steps, both in the passive.",
+    "ar": "موظّف الخدمة مرّة أخرى. اذكر الخطوتين الوسطيّتين، كلتاهما بصيغة المجهول."
+   },
+   {
+    "start": 90.489,
+    "dur": 2.664,
+    "en": "Then it is inspected and serviced.",
+    "ar": "ثمّ تُفحَص وتُصان."
+   },
+   {
+    "start": 93.503,
+    "dur": 5.232,
+    "en": "Customer. Ask about the end, without naming any step.",
+    "ar": "العميل. اسأل عن النهاية، دون تسمية أيّ خطوة."
+   },
+   {
+    "start": 104.853,
+    "dur": 2.352,
+    "en": "And before I get it back?",
+    "ar": "وقبل أن أستعيدها؟"
+   },
+   {
+    "start": 107.555,
+    "dur": 4.368,
+    "en": "Advisor. Give the last three steps in one sentence.",
+    "ar": "موظّف الخدمة. اذكر الخطوات الثلاث الأخيرة في جملة واحدة."
+   },
+   {
+    "start": 117.923,
+    "dur": 3.456,
+    "en": "It is road-tested and checked, then handed over.",
+    "ar": "تُختبَر على الطريق وتُفحَص، ثمّ تُسلَّم."
+   },
+   {
+    "start": 121.729,
+    "dur": 5.328,
+    "en": "Good. Now the same two people, but something has changed.",
+    "ar": "جيّد. الآن الشخصان نفسهما، لكنّ شيئاً قد تغيّر."
+   },
+   {
+    "start": 127.407,
+    "dur": 7.584,
+    "en": "I need the car now. I have to drive to Aleppo this evening. Can I take it before the quality check?",
+    "ar": "أحتاج السيارة الآن. عليّ السفر إلى حلب هذا المساء. أيمكنني أخذها قبل فحص الجودة؟"
+   },
+   {
+    "start": 135.341,
+    "dur": 6.096,
+    "en": "I understand, and I am sorry. The work is finished, but the car is not checked yet.",
+    "ar": "أتفهّم ذلك، وأنا آسفة. العمل انتهى، لكنّ السيارة لم تُفحَص بعد."
+   },
+   {
+    "start": 141.787,
+    "dur": 7.2,
+    "en": "Every car is checked before it is handed over. That is not our rule for you; it is our rule for every car.",
+    "ar": "كلّ سيارة تُفحَص قبل أن تُسلَّم. وهذه ليست قاعدتنا لك؛ بل قاعدتنا لكلّ سيارة."
+   },
+   {
+    "start": 149.337,
+    "dur": 2.568,
+    "en": "How long does the check take?",
+    "ar": "كم يستغرق الفحص؟"
+   },
+   {
+    "start": 152.255,
+    "dur": 5.232,
+    "en": "Twenty minutes. And it is twenty minutes that protects your drive to Aleppo.",
+    "ar": "عشرون دقيقة. وهي عشرون دقيقة تحمي سفرك إلى حلب."
+   },
+   {
+    "start": 157.837,
+    "dur": 1.92,
+    "en": "Then I will wait.",
+    "ar": "إذاً سأنتظر."
+   },
+   {
+    "start": 160.107,
+    "dur": 8.256,
+    "en": "Notice what the refusal did. It did not say no. It named the rule, said it applies to everyone, and gave a number.",
+    "ar": "لاحظ ما فعله الرفض. لم يقل لا. بل سمّى القاعدة، وقال إنّها تنطبق على الجميع، وأعطى رقماً."
+   },
+   {
+    "start": 168.713,
+    "dur": 5.376,
+    "en": "Now the third task, and this one you do alone. A talk of about one minute.",
+    "ar": "الآن المهمّة الثالثة، وهذه تؤدّيها وحدك. حديث نحو دقيقة واحدة."
+   },
+   {
+    "start": 174.439,
+    "dur": 7.776,
+    "en": "Describe the whole service process, from check-in to handover, using the passive. Here is the whole thing, modelled.",
+    "ar": "صِف عمليّة الصيانة كلّها، من الاستقبال إلى التسليم، مستخدماً صيغة المجهول. وهذا هو الحديث كلّه، منمذجاً."
+   },
+   {
+    "start": 182.565,
+    "dur": 8.208,
+    "en": "At our centre, every car follows the same process. First, the car is booked in at reception, and a job card is made.",
+    "ar": "في مركزنا، كلّ سيارة تتبع العمليّة نفسها. أوّلاً، تُسجَّل السيارة في الاستقبال، وتُعدّ لها بطاقة عمل."
+   },
+   {
+    "start": 191.123,
+    "dur": 7.656,
+    "en": "Then it is taken to the workshop, where it is inspected. If a fault is found, it is diagnosed by a technician.",
+    "ar": "ثمّ تُنقَل إلى الورشة، حيث تُفحَص. وإن وُجِد عطل، يُشخَّص من قبل فنّيّ."
+   },
+   {
+    "start": 199.129,
+    "dur": 6.384,
+    "en": "The service is done: the oil is changed, the filters are replaced, and the brakes and tyres are checked.",
+    "ar": "وتُنجَز الصيانة: يُغيَّر الزيت، وتُستبدَل الفلاتر، وتُفحَص المكابح والإطارات."
+   },
+   {
+    "start": 205.863,
+    "dur": 8.208,
+    "en": "After that, the car is road-tested, and then it is checked by the quality team. No car is handed over until it passes.",
+    "ar": "بعد ذلك، تُختبَر السيارة على الطريق، ثمّ تُفحَص من قبل فريق الجودة. ولا تُسلَّم سيارة حتّى تنجح."
+   },
+   {
+    "start": 214.421,
+    "dur": 6.456,
+    "en": "Finally, the car is cleaned, the invoice is prepared, and the car is handed over with its job card.",
+    "ar": "وأخيراً، تُنظَّف السيارة، وتُعدّ الفاتورة، وتُسلَّم السيارة مع بطاقة عملها."
+   },
+   {
+    "start": 221.227,
+    "dur": 7.032,
+    "en": "Count what that talk used: twelve passive verbs, five sequencers, and not one name.",
+    "ar": "عُدّ ما استخدمه ذلك الحديث: اثني عشر فعلاً مجهولاً، وخمسة روابط ترتيب، ولا اسم واحد."
+   },
+   {
+    "start": 228.609,
+    "dur": 6.288,
+    "en": "Now give your own talk. Start at check-in and do not stop until the handover.",
+    "ar": "الآن قدّم حديثك. ابدأ من الاستقبال ولا تتوقّف حتّى التسليم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 26.575,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 61.178,
+    "hold": 3.47,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 131.349,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 186.265,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 190.498,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 197.491,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 214.846,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

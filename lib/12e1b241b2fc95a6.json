@@ -1,0 +1,213 @@
+{
+ "schema": "timeline/1",
+ "duration": 204.214,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.408,
+    "dur": 7.104,
+    "en": "This is Part 2, Grammar Practice. You will build four comparatives and four superlatives.",
+    "ar": "هذا الجزء الثاني، تدريب القواعد. ستبني أربع صيغ مقارنة وأربع صيغ تفضيل."
+   },
+   {
+    "start": 15.862,
+    "dur": 6.696,
+    "en": "Eight sentences. The first four compare two things, the last four pick one out of four.",
+    "ar": "ثماني جمل. الأربع الأولى تقارن شيئين، والأربع الأخيرة تختار واحداً من أربعة."
+   },
+   {
+    "start": 22.908,
+    "dur": 6.048,
+    "en": "The book does the first one. From worn: this tyre is more worn than that one.",
+    "ar": "الكتاب يحلّ الأولى. من worn: هذا الإطار أكثر اهتراءً من ذاك."
+   },
+   {
+    "start": 29.306,
+    "dur": 10.392,
+    "en": "Why more worn and not worner? Because worn is a long adjective, and because worner is not an English word. Say it aloud and your ear will refuse it.",
+    "ar": "لماذا more worn وليس worner؟ لأنّ worn صفة طويلة، ولأنّ worner ليست كلمة إنجليزية. انطقها بصوت عالٍ وستردّها أذنك."
+   },
+   {
+    "start": 40.048,
+    "dur": 5.424,
+    "en": "The rear tyre is blank than the front tyre. The adjective is worn.",
+    "ar": "الإطار الخلفي فراغ من الإطار الأمامي. الصفة هي worn."
+   },
+   {
+    "start": 52.354,
+    "dur": 5.208,
+    "en": "More worn than. The rear tyre is more worn than the front tyre.",
+    "ar": "more worn than. الإطار الخلفي أكثر اهتراءً من الإطار الأمامي."
+   },
+   {
+    "start": 57.912,
+    "dur": 5.28,
+    "en": "Today's reading is blank than yesterday's. The adjective is low.",
+    "ar": "قراءة اليوم فراغ من قراءة الأمس. الصفة هي low."
+   },
+   {
+    "start": 69.957,
+    "dur": 4.728,
+    "en": "Lower than. Today's reading is lower than yesterday's.",
+    "ar": "lower than. قراءة اليوم أدنى من قراءة الأمس."
+   },
+   {
+    "start": 75.035,
+    "dur": 5.088,
+    "en": "A new tyre is blank than an old one. The adjective is good.",
+    "ar": "الإطار الجديد فراغ من القديم. الصفة هي good."
+   },
+   {
+    "start": 86.594,
+    "dur": 5.976,
+    "en": "Better than. A new tyre is better than an old one. Not gooder.",
+    "ar": "better than. الإطار الجديد أفضل من القديم. وليست gooder."
+   },
+   {
+    "start": 92.92,
+    "dur": 4.944,
+    "en": "This tyre is blank than that one. The adjective is bad.",
+    "ar": "هذا الإطار فراغ من ذاك. الصفة هي bad."
+   },
+   {
+    "start": 104.099,
+    "dur": 6.096,
+    "en": "Worse than. This tyre is worse than that one. Not badder.",
+    "ar": "worse than. هذا الإطار أسوأ من ذاك. وليست badder."
+   },
+   {
+    "start": 110.545,
+    "dur": 8.28,
+    "en": "Now the superlative. The book does this one too. Of the four tyres, the rear left is the most worn.",
+    "ar": "الآن صيغة التفضيل. الكتاب يحلّ هذه أيضاً. من الإطارات الأربعة، الخلفي الأيسر هو الأكثر اهتراءً."
+   },
+   {
+    "start": 119.175,
+    "dur": 10.176,
+    "en": "And why the most worn, and not more worn? Because there are four tyres, not two. The number of things you compare chooses the form.",
+    "ar": "ولماذا the most worn وليست more worn؟ لأنّ هناك أربعة إطارات، لا اثنين. عدد الأشياء التي تقارنها هو ما يختار الصيغة."
+   },
+   {
+    "start": 129.701,
+    "dur": 4.704,
+    "en": "This is the blank reading of all. The adjective is low.",
+    "ar": "هذه هي القراءة الفراغ من الكلّ. الصفة هي low."
+   },
+   {
+    "start": 140.64,
+    "dur": 4.224,
+    "en": "The lowest. This is the lowest reading of all.",
+    "ar": "the lowest. هذه أدنى قراءة من الكلّ."
+   },
+   {
+    "start": 145.214,
+    "dur": 4.896,
+    "en": "This is the blank battery in the store. The adjective is good.",
+    "ar": "هذه هي البطارية الفراغ في المخزن. الصفة هي good."
+   },
+   {
+    "start": 156.757,
+    "dur": 4.344,
+    "en": "The best. This is the best battery in the store.",
+    "ar": "the best. هذه أفضل بطارية في المخزن."
+   },
+   {
+    "start": 161.451,
+    "dur": 4.944,
+    "en": "That is the blank tyre on the car. The adjective is bad.",
+    "ar": "ذاك هو الإطار الفراغ في السيارة. الصفة هي bad."
+   },
+   {
+    "start": 172.69,
+    "dur": 4.368,
+    "en": "The worst. That is the worst tyre on the car.",
+    "ar": "the worst. ذاك أسوأ إطار في السيارة."
+   },
+   {
+    "start": 177.408,
+    "dur": 5.448,
+    "en": "The rear left is the blank of the four tyres. The adjective is worn.",
+    "ar": "الخلفي الأيسر هو الفراغ من الإطارات الأربعة. الصفة هي worn."
+   },
+   {
+    "start": 189.856,
+    "dur": 5.232,
+    "en": "The most worn. The rear left is the most worn of the four tyres.",
+    "ar": "the most worn. الخلفي الأيسر هو الأكثر اهتراءً من الإطارات الأربعة."
+   },
+   {
+    "start": 195.438,
+    "dur": 7.176,
+    "en": "Good and bad changed their shape completely, in both forms. Those two you learn by heart.",
+    "ar": "good و bad غيّرتا شكلهما تماماً، في الصيغتين. هاتان تُحفظان."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 23.646,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 42.223,
+    "hold": 13.13,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 56.625,
+    "hold": 16.52,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 128.764,
+    "hold": 15.56,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 179.608,
+    "hold": 13.25,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

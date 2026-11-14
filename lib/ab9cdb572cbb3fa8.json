@@ -1,0 +1,276 @@
+{
+ "schema": "timeline/1",
+ "duration": 209.138,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.392,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.192,
+    "dur": 8.016,
+    "en": "This is Part 7, Reading the Table and Writing It Up. You will read four numbers four ways, then write the summary.",
+    "ar": "هذا الجزء السابع، قراءة الجدول وكتابته. ستقرأ أربعة أرقام بأربع طرق، ثمّ تكتب الملخّص."
+   },
+   {
+    "start": 16.558,
+    "dur": 11.64,
+    "en": "Here is a real set of tread readings. Front left six millimetres. Front right five. Rear left two. Rear right three.",
+    "ar": "هذه مجموعة حقيقية من قراءات المداس. الأمامي الأيسر ستّة ميلّيمترات. الأمامي الأيمن خمسة. الخلفي الأيسر اثنان. الخلفي الأيمن ثلاثة."
+   },
+   {
+    "start": 28.548,
+    "dur": 7.248,
+    "en": "Four sentences to complete from those four numbers. The word bank is more, most, deepest and worse.",
+    "ar": "أربع جمل لإكمالها من تلك الأرقام الأربعة. بنك الكلمات هو more و most و deepest و worse."
+   },
+   {
+    "start": 36.146,
+    "dur": 3.264,
+    "en": "The front left has blank tread than the rear left.",
+    "ar": "الأمامي الأيسر له مداس فراغ من الخلفي الأيسر."
+   },
+   {
+    "start": 45.351,
+    "dur": 6.072,
+    "en": "More. Six millimetres against two, and two things take a comparative.",
+    "ar": "more. ستّة ميلّيمترات مقابل اثنين، والشيئان يأخذان صيغة مقارنة."
+   },
+   {
+    "start": 51.773,
+    "dur": 3.048,
+    "en": "The rear left is the blank worn tyre.",
+    "ar": "الخلفي الأيسر هو الإطار الفراغ اهتراءً."
+   },
+   {
+    "start": 59.998,
+    "dur": 5.376,
+    "en": "Most. It is the most worn of all four, at two millimetres.",
+    "ar": "most. هو الأكثر اهتراءً من الأربعة، بميلّيمترين."
+   },
+   {
+    "start": 65.724,
+    "dur": 3.408,
+    "en": "The front left has the blank tread of all four.",
+    "ar": "الأمامي الأيسر له المداس الفراغ من الأربعة."
+   },
+   {
+    "start": 74.896,
+    "dur": 5.352,
+    "en": "Deepest. Six millimetres is the highest of the four numbers.",
+    "ar": "deepest. ستّة ميلّيمترات هي الأعلى من الأرقام الأربعة."
+   },
+   {
+    "start": 80.598,
+    "dur": 3.144,
+    "en": "The rear left is blank than the rear right.",
+    "ar": "الخلفي الأيسر فراغ من الخلفي الأيمن."
+   },
+   {
+    "start": 89.272,
+    "dur": 5.88,
+    "en": "Worse. Two millimetres against three, so it is worse than the rear right.",
+    "ar": "worse. ميلّيمتران مقابل ثلاثة، فهو أسوأ من الخلفي الأيمن."
+   },
+   {
+    "start": 95.502,
+    "dur": 9.6,
+    "en": "Notice that two of those four used a comparative and two used a superlative, from the same four numbers. The numbers did not change; the question did.",
+    "ar": "لاحظ أنّ اثنتين من تلك الأربع استخدمت صيغة مقارنة واثنتين صيغة تفضيل، من الأرقام الأربعة نفسها. الأرقام لم تتغيّر؛ بل السؤال."
+   },
+   {
+    "start": 105.452,
+    "dur": 8.016,
+    "en": "Now the role play. One of you is the manager, the other is the technician. Here is the model.",
+    "ar": "الآن لعب الأدوار. أحدكما المدير، والآخر الفنّي. وهذا هو النموذج."
+   },
+   {
+    "start": 113.818,
+    "dur": 2.064,
+    "en": "How is the battery?",
+    "ar": "كيف البطارية؟"
+   },
+   {
+    "start": 116.232,
+    "dur": 4.416,
+    "en": "Below the tolerance. Twelve point one volts.",
+    "ar": "تحت الحدّ المسموح. اثنا عشر فاصلة واحد فولت."
+   },
+   {
+    "start": 120.998,
+    "dur": 1.872,
+    "en": "And the tyres?",
+    "ar": "والإطارات؟"
+   },
+   {
+    "start": 123.22,
+    "dur": 2.616,
+    "en": "The rear left is the most worn.",
+    "ar": "الخلفي الأيسر هو الأكثر اهتراءً."
+   },
+   {
+    "start": 126.186,
+    "dur": 3.168,
+    "en": "Charge the battery and change that tyre.",
+    "ar": "اشحن البطارية وغيّر ذلك الإطار."
+   },
+   {
+    "start": 129.704,
+    "dur": 10.464,
+    "en": "The manager asks about the battery and the tyres, then decides. The technician reports the readings, compares them, and says what is below or within the tolerance.",
+    "ar": "المدير يسأل عن البطارية والإطارات، ثمّ يقرّر. والفنّي يُبلّغ القراءات، ويقارنها، ويقول ما هو تحت الحدّ المسموح أو داخله."
+   },
+   {
+    "start": 140.518,
+    "dur": 10.752,
+    "en": "And the harder version. A reading is only a little outside the tolerance. Do you act now, or watch it? Decide, and say why.",
+    "ar": "والصيغة الأصعب. قراءة خارج الحدّ المسموح بقليل فقط. هل تتصرّف الآن، أم تراقبها؟ قرّر، وقل لماذا."
+   },
+   {
+    "start": 151.62,
+    "dur": 9.168,
+    "en": "Last, the writing. You are Maher. Write a summary of a car's readings for the customer's file, fifty to eighty words.",
+    "ar": "أخيراً، الكتابة. أنت ماهر. اكتب ملخّص قراءات سيارة لملفّ العميل، من خمسين إلى ثمانين كلمة."
+   },
+   {
+    "start": 161.138,
+    "dur": 4.704,
+    "en": "Say what is within the tolerance, what is below it, and what you will do.",
+    "ar": "قل ما هو داخل الحدّ المسموح، وما هو تحته، وما الذي ستفعله."
+   },
+   {
+    "start": 166.192,
+    "dur": 9.576,
+    "en": "Here is the model. The readings for this car were taken today. The tyre pressure and the engine temperature are within the tolerance.",
+    "ar": "هذا هو النموذج. قراءات هذه السيارة أُخذت اليوم. ضغط الإطارات ودرجة حرارة المحرّك داخل الحدّ المسموح."
+   },
+   {
+    "start": 176.118,
+    "dur": 7.92,
+    "en": "The battery is twelve point one volts, which is below the tolerance of twelve point four to twelve point seven, and lower than at the last service.",
+    "ar": "البطارية اثنا عشر فاصلة واحد فولت، وهي تحت الحدّ المسموح من اثني عشر فاصلة أربعة إلى اثني عشر فاصلة سبعة، وأدنى من الصيانة الماضية."
+   },
+   {
+    "start": 184.388,
+    "dur": 8.616,
+    "en": "The rear left tyre is the most worn of the four, at two millimetres. We will charge the battery and change that tyre before handover.",
+    "ar": "والإطار الخلفي الأيسر هو الأكثر اهتراءً من الأربعة، بميلّيمترين. سنشحن البطارية ونغيّر ذلك الإطار قبل التسليم."
+   },
+   {
+    "start": 193.354,
+    "dur": 14.184,
+    "en": "Four things to check. Clear readings with comparisons. Within or below the tolerance used. The action stated. And fifty to eighty words. Now write your own.",
+    "ar": "أربعة أمور تحقّق منها. قراءات واضحة مع مقارنات. واستخدام within أو below the tolerance. وذكر الإجراء. ومن خمسين إلى ثمانين كلمة. الآن اكتب ما عندك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 18.683,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 45.351,
+    "hold": 3.01,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 51.323,
+    "hold": 8.62,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 59.998,
+    "hold": 4.85,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 74.896,
+    "hold": 3.19,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 89.272,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 114.919,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 122.682,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tyre_pressure",
+    "label": "tyre pressure",
+    "ar": "ضغط الإطار",
+    "at": 169.717,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre_pressure.png",
+    "sha": "4ca15f7983632636"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 197.142,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

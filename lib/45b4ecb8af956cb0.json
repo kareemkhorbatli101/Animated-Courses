@@ -1,0 +1,261 @@
+{
+ "schema": "timeline/1",
+ "duration": 168.954,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 7.32,
+    "en": "This is Part 1, Check What You Know. You will name the job of five departments, then answer the book's questions.",
+    "ar": "هذا الجزء الأوّل، تحقّق ممّا تعرفه. ستسمّي وظيفة خمسة أقسام، ثمّ تجيب عن أسئلة الكتاب."
+   },
+   {
+    "start": 16.27,
+    "dur": 5.088,
+    "en": "Five departments, and the job of each. A car passes through all of them.",
+    "ar": "خمسة أقسام، ووظيفة كلّ منها. والسيارة تمرّ بها كلّها."
+   },
+   {
+    "start": 21.708,
+    "dur": 2.808,
+    "en": "Reception. What is its job?",
+    "ar": "الاستقبال. ما وظيفته؟"
+   },
+   {
+    "start": 29.104,
+    "dur": 2.88,
+    "en": "Where the car is booked in and handed over.",
+    "ar": "المكان الذي تُسجَّل فيه السيارة وتُسلَّم."
+   },
+   {
+    "start": 32.334,
+    "dur": 1.872,
+    "en": "The workshop.",
+    "ar": "الورشة."
+   },
+   {
+    "start": 38.206,
+    "dur": 2.568,
+    "en": "Where the car is serviced and repaired.",
+    "ar": "المكان الذي تُصان فيه السيارة وتُصلَح."
+   },
+   {
+    "start": 41.124,
+    "dur": 1.872,
+    "en": "The parts store.",
+    "ar": "مخزن القطع."
+   },
+   {
+    "start": 46.996,
+    "dur": 1.92,
+    "en": "Where the parts are kept.",
+    "ar": "المكان الذي تُحفَظ فيه القطع."
+   },
+   {
+    "start": 49.266,
+    "dur": 1.872,
+    "en": "Quality control.",
+    "ar": "ضبط الجودة."
+   },
+   {
+    "start": 55.138,
+    "dur": 2.976,
+    "en": "Where the car is checked before it goes back.",
+    "ar": "المكان الذي تُفحَص فيه السيارة قبل أن تعود."
+   },
+   {
+    "start": 58.464,
+    "dur": 1.872,
+    "en": "And the valet.",
+    "ar": "وقسم التنظيف."
+   },
+   {
+    "start": 64.336,
+    "dur": 1.872,
+    "en": "Where the car is cleaned.",
+    "ar": "المكان الذي تُنظَّف فيه السيارة."
+   },
+   {
+    "start": 66.558,
+    "dur": 7.128,
+    "en": "One job was not needed: where fuel is sold. A service centre is not a petrol station.",
+    "ar": "وظيفة واحدة لم تكن مطلوبة: المكان الذي يُبَاع فيه الوقود. ومركز الصيانة ليس محطّة وقود."
+   },
+   {
+    "start": 74.036,
+    "dur": 1.992,
+    "en": "What does diagnose mean?",
+    "ar": "ماذا يعني التشخيص؟"
+   },
+   {
+    "start": 80.44,
+    "dur": 4.872,
+    "en": "To find out what is wrong. Not to clean the car, and not to sell it.",
+    "ar": "معرفة ما هو الخطأ. ليس تنظيف السيارة، ولا بيعها."
+   },
+   {
+    "start": 85.662,
+    "dur": 1.872,
+    "en": "Where is the car cleaned?",
+    "ar": "أين تُنظَّف السيارة؟"
+   },
+   {
+    "start": 92.005,
+    "dur": 4.464,
+    "en": "At the valet. Not at reception, and not in the parts store.",
+    "ar": "في قسم التنظيف. ليس في الاستقبال، ولا في مخزن القطع."
+   },
+   {
+    "start": 96.819,
+    "dur": 2.016,
+    "en": "What is a quality check?",
+    "ar": "ما هو فحص الجودة؟"
+   },
+   {
+    "start": 103.247,
+    "dur": 5.664,
+    "en": "A final check before the car goes back. It is not a tool and not the first step.",
+    "ar": "فحص أخير قبل أن تعود السيارة. ليس أداة ولا الخطوة الأولى."
+   },
+   {
+    "start": 109.261,
+    "dur": 9.696,
+    "en": "Four sentences to complete, and all four are in the passive - which is the next part. The word bank is booked, inspected, serviced and handed.",
+    "ar": "أربع جمل لإكمالها، وأربعتها بصيغة المجهول - وهذا هو الجزء التالي. بنك الكلمات هو booked و inspected و serviced و handed."
+   },
+   {
+    "start": 119.307,
+    "dur": 2.592,
+    "en": "The car is blank in at reception.",
+    "ar": "السيارة فراغ في الاستقبال."
+   },
+   {
+    "start": 126.84,
+    "dur": 3.528,
+    "en": "Booked. The car is booked in at reception.",
+    "ar": "تُسجَّل. تُسجَّل السيارة في الاستقبال."
+   },
+   {
+    "start": 130.718,
+    "dur": 2.64,
+    "en": "Then it is blank to find problems.",
+    "ar": "ثمّ هي فراغ لإيجاد المشاكل."
+   },
+   {
+    "start": 138.358,
+    "dur": 4.248,
+    "en": "Inspected. Then it is inspected to find problems.",
+    "ar": "تُفحَص. ثمّ تُفحَص لإيجاد المشاكل."
+   },
+   {
+    "start": 142.956,
+    "dur": 2.496,
+    "en": "In the workshop, it is blank.",
+    "ar": "في الورشة، هي فراغ."
+   },
+   {
+    "start": 150.158,
+    "dur": 3.864,
+    "en": "Serviced. In the workshop, it is serviced.",
+    "ar": "تُصان. في الورشة، تُصان."
+   },
+   {
+    "start": 154.372,
+    "dur": 3.216,
+    "en": "Finally, it is blank over to the customer.",
+    "ar": "أخيراً، هي فراغ إلى العميل."
+   },
+   {
+    "start": 163.058,
+    "dur": 4.296,
+    "en": "Handed. Finally, it is handed over to the customer.",
+    "ar": "تُسلَّم. أخيراً، تُسلَّم إلى العميل."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 19.921,
+    "hold": 9.13,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 30.697,
+    "hold": 7.46,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "diagnose",
+    "label": "diagnose",
+    "ar": "يشخّص",
+    "at": 72.686,
+    "hold": 7.7,
+    "img": "assets/vocab/diagnose.png",
+    "sha": "173a20e5f57cfee8"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 92.005,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "quality_check",
+    "label": "quality check",
+    "ar": "فحص الجودة",
+    "at": 95.506,
+    "hold": 7.69,
+    "img": "assets/vocab/quality_check.png",
+    "sha": "cc074aa70cc2d25a"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 118.894,
+    "hold": 11.5,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 141.431,
+    "hold": 11.73,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

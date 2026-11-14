@@ -1,0 +1,195 @@
+{
+ "schema": "timeline/1",
+ "duration": 213.763,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.44,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.24,
+    "dur": 7.656,
+    "en": "This is Part 6, How to Write a Comparison. You will take a model apart one sentence at a time, then write.",
+    "ar": "هذا الجزء السادس، كيف تكتب مقارنة. ستفكّك نموذجاً جملة جملة، ثمّ تكتب."
+   },
+   {
+    "start": 16.246,
+    "dur": 7.128,
+    "en": "Four pieces of writing in this part. The first is a comparison of two cars, fifty to seventy words.",
+    "ar": "أربع كتابات في هذا الجزء. الأولى مقارنة بين سيارتين، من خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 23.724,
+    "dur": 4.536,
+    "en": "Here is the model, and then we will take it apart one sentence at a time.",
+    "ar": "هذا هو النموذج، ثمّ سنفكّكه جملة جملة."
+   },
+   {
+    "start": 28.61,
+    "dur": 10.416,
+    "en": "I measured two cars today. The first car is in better condition than the second. Its tyres are newer, about six millimetres, and its battery is stronger.",
+    "ar": "قِستُ سيارتين اليوم. السيارة الأولى بحالة أفضل من الثانية. إطاراتها أحدث، نحو ستّة ميلّيمترات، وبطاريتها أقوى."
+   },
+   {
+    "start": 39.376,
+    "dur": 10.368,
+    "en": "The second car's rear left tyre is the most worn of all four, at only two millimetres, and its battery is lower than the tolerance. So the second car needs more work.",
+    "ar": "إطار السيارة الثانية الخلفي الأيسر هو الأكثر اهتراءً من الأربعة، بميلّيمترين فقط، وبطاريتها أدنى من الحدّ المسموح. إذاً السيارة الثانية تحتاج عملاً أكثر."
+   },
+   {
+    "start": 50.094,
+    "dur": 9.816,
+    "en": "Now sentence one. I measured two cars today. It names what you did and how many things you are comparing. Two things means comparatives.",
+    "ar": "الآن الجملة الأولى. قِستُ سيارتين اليوم. تسمّي ما فعلته وكم شيئاً تقارن. وشيئان يعنيان صيغة المقارنة."
+   },
+   {
+    "start": 60.26,
+    "dur": 8.448,
+    "en": "Sentence two. The first car is in better condition than the second. That is your main claim, and it uses better with than.",
+    "ar": "الجملة الثانية. السيارة الأولى بحالة أفضل من الثانية. هذا هو حكمك الأساسي، ويستخدم better مع than."
+   },
+   {
+    "start": 69.058,
+    "dur": 10.416,
+    "en": "Sentence three. Its tyres are newer, about six millimetres, and its battery is stronger. Two more comparatives, and one real number as evidence.",
+    "ar": "الجملة الثالثة. إطاراتها أحدث، نحو ستّة ميلّيمترات، وبطاريتها أقوى. صيغتا مقارنة أخريان، ورقم حقيقي واحد كدليل."
+   },
+   {
+    "start": 79.824,
+    "dur": 8.568,
+    "en": "Sentence four. The rear left tyre is the most worn of all four. Four things now, so the form changes to a superlative.",
+    "ar": "الجملة الرابعة. الإطار الخلفي الأيسر هو الأكثر اهتراءً من الأربعة. أربعة أشياء الآن، فتتغيّر الصيغة إلى التفضيل."
+   },
+   {
+    "start": 88.742,
+    "dur": 8.16,
+    "en": "Sentence five. So the second car needs more work. That is the conclusion, and it follows from the numbers above it.",
+    "ar": "الجملة الخامسة. إذاً السيارة الثانية تحتاج عملاً أكثر. هذه هي النتيجة، وهي تتبع الأرقام التي فوقها."
+   },
+   {
+    "start": 97.252,
+    "dur": 5.688,
+    "en": "In that model, which sentence changed from a comparative to a superlative, and why?",
+    "ar": "في ذلك النموذج، أيّ جملة تحوّلت من صيغة مقارنة إلى صيغة تفضيل، ولماذا؟"
+   },
+   {
+    "start": 110.822,
+    "dur": 7.536,
+    "en": "The fourth. It compares four tyres, not two cars, and three or more needs a superlative.",
+    "ar": "الرابعة. تقارن أربعة إطارات، لا سيارتين، والثلاثة أو أكثر تحتاج صيغة تفضيل."
+   },
+   {
+    "start": 118.708,
+    "dur": 11.232,
+    "en": "Four things to check before you finish. Comparatives used. At least one superlative. Than after every comparative. And fifty to seventy words.",
+    "ar": "أربعة أمور تحقّق منها قبل أن تنتهي. استخدام صيغ المقارنة. وصيغة تفضيل واحدة على الأقلّ. و than بعد كلّ صيغة مقارنة. ومن خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 130.29,
+    "dur": 7.848,
+    "en": "The second task is an opinion, fifty to seventy words. Why is careful measuring important in car maintenance?",
+    "ar": "المهمّة الثانية رأي، من خمسين إلى سبعين كلمة. لماذا القياس الدقيق مهمّ في صيانة السيارات؟"
+   },
+   {
+    "start": 138.488,
+    "dur": 4.44,
+    "en": "Give one reason, in a full sentence that begins with because.",
+    "ar": "اذكر سبباً واحداً، في جملة كاملة تبدأ بـ because."
+   },
+   {
+    "start": 149.517,
+    "dur": 5.352,
+    "en": "For example: because a number finds the real problem, and guessing does not.",
+    "ar": "مثلاً: لأنّ الرقم يجد المشكلة الحقيقية، والتخمين لا يجدها."
+   },
+   {
+    "start": 155.219,
+    "dur": 8.496,
+    "en": "The third task is a note from Lina to Maher with a car's readings. It needs the readings, a comparison, and a recommendation.",
+    "ar": "المهمّة الثالثة مذكّرة من لينا إلى ماهر بقراءات سيارة. تحتاج القراءات، ومقارنة، وتوصية."
+   },
+   {
+    "start": 164.065,
+    "dur": 8.616,
+    "en": "Dear Maher. Here are the readings for Mr Aboud's car. The battery is twelve point one volts, which is below the tolerance.",
+    "ar": "عزيزي ماهر. هذه قراءات سيارة السيّد عبّود. البطارية اثنا عشر فاصلة واحد فولت، وهي تحت الحدّ المسموح."
+   },
+   {
+    "start": 173.031,
+    "dur": 9.528,
+    "en": "The rear left tyre is the most worn, at two millimetres. I think we should charge the battery and change that tyre. Thank you. Lina.",
+    "ar": "والإطار الخلفي الأيسر هو الأكثر اهتراءً، بميلّيمترين. أعتقد أنّه ينبغي أن نشحن البطارية ونغيّر ذلك الإطار. شكراً. لينا."
+   },
+   {
+    "start": 182.909,
+    "dur": 4.608,
+    "en": "That note has three parts. Name them in order.",
+    "ar": "تلك المذكّرة لها ثلاثة أجزاء. سمّها بالترتيب."
+   },
+   {
+    "start": 193.223,
+    "dur": 4.296,
+    "en": "The readings, then the comparison, then the recommendation.",
+    "ar": "القراءات، ثمّ المقارنة، ثمّ التوصية."
+   },
+   {
+    "start": 197.869,
+    "dur": 6.456,
+    "en": "And the fourth is a reflection, forty to sixty words. Two things you know well, compared.",
+    "ar": "والرابعة تأمّل، من أربعين إلى ستّين كلمة. شيئان تعرفهما جيّداً، مقارنان."
+   },
+   {
+    "start": 204.675,
+    "dur": 7.488,
+    "en": "Now write. Pick the task you find hardest, not the easiest, and write it before you stop the video.",
+    "ar": "الآن اكتب. اختر المهمّة التي تجدها أصعب، لا أسهل، واكتبها قبل أن توقف الفيديو."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "millimetre",
+    "label": "millimetre",
+    "ar": "الميلّيمتر",
+    "at": 34.36,
+    "hold": 3.0,
+    "img": "assets/vocab/millimetre.png",
+    "sha": "de733b771d930589"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 40.014,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "tolerance",
+    "label": "tolerance",
+    "ar": "الحدّ المسموح",
+    "at": 44.276,
+    "hold": 3.0,
+    "img": "assets/vocab/tolerance.png",
+    "sha": "e84ec8b21589c98a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

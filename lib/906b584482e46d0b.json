@@ -1,0 +1,195 @@
+{
+ "schema": "timeline/1",
+ "duration": 220.733,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 7.512,
+    "en": "This is Part 6, How to Write a Process. You will take a model apart one sentence at a time, then write.",
+    "ar": "هذا الجزء السادس، كيف تكتب عمليّة. ستفكّك نموذجاً جملة جملة، ثمّ تكتب."
+   },
+   {
+    "start": 16.462,
+    "dur": 6.984,
+    "en": "Four pieces of writing in this part. The first is the whole service process, sixty to eighty words.",
+    "ar": "أربع كتابات في هذا الجزء. الأولى هي عمليّة الصيانة كلّها، من ستّين إلى ثمانين كلمة."
+   },
+   {
+    "start": 23.796,
+    "dur": 4.536,
+    "en": "Here is the model, and then we will take it apart one sentence at a time.",
+    "ar": "هذا هو النموذج، ثمّ سنفكّكه جملة جملة."
+   },
+   {
+    "start": 28.682,
+    "dur": 7.128,
+    "en": "First, the car is booked in at reception, and a job card is made. Then it is inspected in the workshop.",
+    "ar": "أوّلاً، تُسجَّل السيارة في الاستقبال، وتُعدّ لها بطاقة عمل. ثمّ تُفحَص في الورشة."
+   },
+   {
+    "start": 36.16,
+    "dur": 12.168,
+    "en": "Next, the oil is changed and the filters are replaced. After that, the car is road-tested and checked by the quality team. Finally, it is cleaned and handed over to the customer.",
+    "ar": "بعد ذلك، يُغيَّر الزيت وتُستبدَل الفلاتر. ثمّ تُختبَر السيارة على الطريق وتُفحَص من قبل فريق الجودة. وأخيراً، تُنظَّف وتُسلَّم إلى العميل."
+   },
+   {
+    "start": 48.678,
+    "dur": 10.224,
+    "en": "Now sentence one. First, the car is booked in at reception. It opens with a sequencer, and the car is the subject, not the person who books it.",
+    "ar": "الآن الجملة الأولى. أوّلاً، تُسجَّل السيارة في الاستقبال. تبدأ برابط ترتيب، والسيارة هي الفاعل، لا الشخص الذي يسجّلها."
+   },
+   {
+    "start": 59.252,
+    "dur": 10.296,
+    "en": "Sentence two. Then it is inspected in the workshop. It becomes it, because the car is already named. You do not repeat the car five times.",
+    "ar": "الجملة الثانية. ثمّ تُفحَص في الورشة. وتصبح ضميراً، لأنّ السيارة سُمّيت من قبل. ولا تكرّر كلمة السيارة خمس مرّات."
+   },
+   {
+    "start": 69.898,
+    "dur": 11.136,
+    "en": "Sentence three. The oil is changed and the filters are replaced. Here the subject changes from the car to its parts, so watch is and are: one oil, many filters.",
+    "ar": "الجملة الثالثة. يُغيَّر الزيت وتُستبدَل الفلاتر. وهنا يتغيّر الفاعل من السيارة إلى أجزائها، فراقب is و are: زيت واحد، وفلاتر كثيرة."
+   },
+   {
+    "start": 81.384,
+    "dur": 10.128,
+    "en": "Sentence four. The car is road-tested and checked by the quality team. This is the one place you may want by, because the quality team is a different team.",
+    "ar": "الجملة الرابعة. تُختبَر السيارة على الطريق وتُفحَص من قبل فريق الجودة. وهذا هو الموضع الوحيد الذي قد تريد فيه by، لأنّ فريق الجودة فريق مختلف."
+   },
+   {
+    "start": 91.862,
+    "dur": 9.216,
+    "en": "Sentence five. Finally, it is cleaned and handed over to the customer. The last sequencer tells the reader there is nothing after it.",
+    "ar": "الجملة الخامسة. وأخيراً، تُنظَّف وتُسلَّم إلى العميل. ورابط الترتيب الأخير يخبر القارئ أنّه لا شيء بعده."
+   },
+   {
+    "start": 101.428,
+    "dur": 5.736,
+    "en": "Five sentences, and five sequencers. Name them in order.",
+    "ar": "خمس جمل، وخمسة روابط ترتيب. سمّها بالترتيب."
+   },
+   {
+    "start": 113.458,
+    "dur": 4.608,
+    "en": "First, Then, Next, After that, and Finally.",
+    "ar": "First، و Then، و Next، و After that، و Finally."
+   },
+   {
+    "start": 118.416,
+    "dur": 10.104,
+    "en": "Four things to check before you finish. The passive used throughout. Sequencers used. The steps in order. And sixty to eighty words.",
+    "ar": "أربعة أمور تحقّق منها قبل أن تنتهي. استخدام المجهول في كلّ الجمل. واستخدام روابط الترتيب. والخطوات بالترتيب. ومن ستّين إلى ثمانين كلمة."
+   },
+   {
+    "start": 128.87,
+    "dur": 7.08,
+    "en": "The second task is an opinion, fifty to seventy words. Why is a clear service process important?",
+    "ar": "المهمّة الثانية رأي، من خمسين إلى سبعين كلمة. لماذا العمليّة الواضحة للصيانة مهمّة؟"
+   },
+   {
+    "start": 136.3,
+    "dur": 4.44,
+    "en": "Give one reason, in a full sentence that begins with because.",
+    "ar": "اذكر سبباً واحداً، في جملة كاملة تبدأ بـ because."
+   },
+   {
+    "start": 147.328,
+    "dur": 5.616,
+    "en": "For example: because nothing is forgotten when every step is done in the same order.",
+    "ar": "مثلاً: لأنّه لا يُنسى شيء عندما تُنجَز كلّ خطوة بالترتيب نفسه."
+   },
+   {
+    "start": 153.294,
+    "dur": 5.376,
+    "en": "The third task is a note from me to a customer, explaining what will happen to their car.",
+    "ar": "المهمّة الثالثة مذكّرة منّي إلى عميل، أشرح فيها ما سيحدث لسيارته."
+   },
+   {
+    "start": 159.02,
+    "dur": 8.952,
+    "en": "Dear Mr Aboud. First, your car is booked in and a job card is made. Then it is inspected and serviced in our workshop.",
+    "ar": "عزيزي السيّد عبّود. أوّلاً، تُسجَّل سيارتك وتُعدّ لها بطاقة عمل. ثمّ تُفحَص وتُصان في ورشتنا."
+   },
+   {
+    "start": 168.323,
+    "dur": 11.256,
+    "en": "After that, it is road-tested and checked by our quality team. Finally, it is cleaned and handed over to you with the job card and the invoice. Thank you. Rana.",
+    "ar": "بعد ذلك، تُختبَر على الطريق وتُفحَص من قبل فريق الجودة لدينا. وأخيراً، تُنظَّف وتُسلَّم إليك مع بطاقة العمل والفاتورة. شكراً لك. رنا."
+   },
+   {
+    "start": 179.929,
+    "dur": 7.2,
+    "en": "That note is the same five steps as the first task. What did it add that the first one did not have?",
+    "ar": "تلك المذكّرة هي الخطوات الخمس نفسها كالمهمّة الأولى. ما الذي أضافته ولم يكن في الأولى؟"
+   },
+   {
+    "start": 195.129,
+    "dur": 7.272,
+    "en": "A greeting, the word your instead of the, a thank you, and a name. It is written TO somebody.",
+    "ar": "تحيّة، وكلمة your بدلاً من the، وشكراً، واسماً. فهي مكتوبة إلى شخص."
+   },
+   {
+    "start": 202.751,
+    "dur": 8.544,
+    "en": "And the fourth is a reflection, forty to sixty words. Any process you know well, at work or at home, with its steps in order.",
+    "ar": "والرابعة تأمّل، من أربعين إلى ستّين كلمة. أيّ عمليّة تعرفها جيّداً، في العمل أو في البيت، بخطواتها مرتّبة."
+   },
+   {
+    "start": 211.645,
+    "dur": 7.488,
+    "en": "Now write. Pick the task you find hardest, not the easiest, and write it before you stop the video.",
+    "ar": "الآن اكتب. اختر المهمّة التي تجدها أصعب، لا أسهل، واكتبها قبل أن توقف الفيديو."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 29.87,
+    "hold": 2.88,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 32.795,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 174.598,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

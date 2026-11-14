@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 126.71,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 4, Measuring, Readings and Diagnosis.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الرابعة، القياس والقراءات والتشخيص."
+   },
+   {
+    "start": 8.408,
+    "dur": 8.088,
+    "en": "This is Part 2, Notice the Comparison. You will notice the comparative and the superlative in a real tyre check.",
+    "ar": "هذا الجزء الثاني، لاحظ المقارنة. ستلاحظ صيغتي المقارنة والتفضيل في فحص إطارات حقيقي."
+   },
+   {
+    "start": 16.846,
+    "dur": 5.52,
+    "en": "Listen to five lines from a tyre check. Every one of them compares.",
+    "ar": "استمع إلى خمس جمل من فحص إطارات. كلّ واحدة منها تقارن."
+   },
+   {
+    "start": 22.716,
+    "dur": 3.048,
+    "en": "This tyre is more worn than that one.",
+    "ar": "هذا الإطار أكثر اهتراءً من ذاك."
+   },
+   {
+    "start": 26.114,
+    "dur": 3.408,
+    "en": "The front tyres are newer than the rear tyres.",
+    "ar": "الإطارات الأمامية أحدث من الإطارات الخلفية."
+   },
+   {
+    "start": 29.872,
+    "dur": 2.976,
+    "en": "The rear left tyre is the most worn.",
+    "ar": "الإطار الخلفي الأيسر هو الأكثر اهتراءً."
+   },
+   {
+    "start": 33.198,
+    "dur": 3.168,
+    "en": "Today the battery is lower than yesterday.",
+    "ar": "اليوم البطارية أدنى من الأمس."
+   },
+   {
+    "start": 36.716,
+    "dur": 2.904,
+    "en": "And this is the best reading of the four.",
+    "ar": "وهذه أفضل قراءة من الأربع."
+   },
+   {
+    "start": 39.97,
+    "dur": 5.976,
+    "en": "Two of those five compare only TWO things. Which words tell you so?",
+    "ar": "جملتان من الخمس تقارنان شيئين فقط. أيّ الكلمات تدلّك على ذلك؟"
+   },
+   {
+    "start": 52.887,
+    "dur": 6.048,
+    "en": "More worn than, and newer than. A comparative always has than after it.",
+    "ar": "أكثر اهتراءً من، وأحدث من. المقارنة يأتي بعدها دائماً حرف من."
+   },
+   {
+    "start": 59.285,
+    "dur": 5.592,
+    "en": "Two of them pick one out of three or more. Which words tell you so?",
+    "ar": "جملتان منها تختار واحداً من ثلاثة أو أكثر. أيّ الكلمات تدلّك على ذلك؟"
+   },
+   {
+    "start": 71.818,
+    "dur": 5.928,
+    "en": "The most worn, and the best. A superlative always has the in front of it.",
+    "ar": "الأكثر اهتراءً، والأفضل. التفضيل تأتي قبله دائماً أداة التعريف."
+   },
+   {
+    "start": 78.096,
+    "dur": 5.928,
+    "en": "So here are the two forms. Use the comparative to compare two things.",
+    "ar": "إذاً هاتان هما الصيغتان. استخدم صيغة المقارنة لمقارنة شيئين."
+   },
+   {
+    "start": 84.374,
+    "dur": 6.216,
+    "en": "A short adjective adds the letters E and R, then than. Low becomes lower than.",
+    "ar": "الصفة القصيرة تضيف الحرفين E و R، ثمّ than. فتصبح low هي lower than."
+   },
+   {
+    "start": 90.94,
+    "dur": 5.928,
+    "en": "A long adjective takes the word more, then than. Worn becomes more worn than.",
+    "ar": "الصفة الطويلة تأخذ كلمة more، ثمّ than. فتصبح worn هي more worn than."
+   },
+   {
+    "start": 97.218,
+    "dur": 9.84,
+    "en": "Use the superlative to pick one out of three or more. A short adjective takes the, and adds the letters E, S and T. Low becomes the lowest.",
+    "ar": "استخدم صيغة التفضيل لاختيار واحد من ثلاثة أو أكثر. الصفة القصيرة تأخذ the، وتضيف الحروف E و S و T. فتصبح low هي the lowest."
+   },
+   {
+    "start": 107.408,
+    "dur": 5.16,
+    "en": "A long adjective takes the most. Worn becomes the most worn.",
+    "ar": "الصفة الطويلة تأخذ the most. فتصبح worn هي the most worn."
+   },
+   {
+    "start": 112.918,
+    "dur": 12.192,
+    "en": "And three traps. Good is better and the best, never gooder. Bad is worse and the worst, never badder. And never forget than after a comparative.",
+    "ar": "وثلاثة فخاخ. good تصبح better و the best، وليست gooder أبداً. bad تصبح worse و the worst، وليست badder أبداً. ولا تنسَ than بعد صيغة المقارنة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 21.966,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "reading",
+    "label": "reading",
+    "ar": "القراءة",
+    "at": 35.879,
+    "hold": 3.0,
+    "img": "assets/vocab/reading.png",
+    "sha": "c7f9a089bb7b37a7"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 52.887,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   },
+   {
+    "lemma": "worn",
+    "label": "worn",
+    "ar": "مهترئ",
+    "at": 71.818,
+    "hold": 3.0,
+    "img": "assets/vocab/worn.png",
+    "sha": "b5a8636aee86fd54"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

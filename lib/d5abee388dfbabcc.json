@@ -1,0 +1,162 @@
+{
+ "schema": "timeline/1",
+ "duration": 107.112,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.8,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.6,
+    "dur": 7.272,
+    "en": "This is Part 3, Explaining the Process. You will hear all seven steps in order, told to a customer.",
+    "ar": "هذا الجزء الثالث، شرح العمليّة. ستسمع الخطوات السبع كلّها بالترتيب، تُشرَح لعميل."
+   },
+   {
+    "start": 16.222,
+    "dur": 5.592,
+    "en": "Before you listen, think about this. What is the first step when a car arrives?",
+    "ar": "قبل أن تستمع، فكّر في هذا. ما الخطوة الأولى عندما تصل سيارة؟"
+   },
+   {
+    "start": 22.164,
+    "dur": 2.76,
+    "en": "Let me explain what happens to your car.",
+    "ar": "دعني أشرح لك ما يحدث لسيارتك."
+   },
+   {
+    "start": 25.274,
+    "dur": 4.728,
+    "en": "First, it is booked in here at reception, and a job card is made.",
+    "ar": "أوّلاً، تُسجَّل هنا في الاستقبال، وتُعدّ لها بطاقة عمل."
+   },
+   {
+    "start": 30.352,
+    "dur": 4.56,
+    "en": "Then it is taken to the workshop, where it is inspected and serviced.",
+    "ar": "ثمّ تُنقَل إلى الورشة، حيث تُفحَص وتُصان."
+   },
+   {
+    "start": 35.262,
+    "dur": 3.768,
+    "en": "If there is a fault, it is diagnosed by our technician.",
+    "ar": "وإن كان هناك عطل، يُشخَّص من قبل فنّيّتنا."
+   },
+   {
+    "start": 39.38,
+    "dur": 4.632,
+    "en": "After the work, the car is road-tested and checked by the quality team.",
+    "ar": "بعد العمل، تُختبَر السيارة على الطريق وتُفحَص من قبل فريق الجودة."
+   },
+   {
+    "start": 44.362,
+    "dur": 6.12,
+    "en": "Finally, it is cleaned and handed over to you. Every step is written on the job card.",
+    "ar": "وأخيراً، تُنظَّف وتُسلَّم إليك. وكلّ خطوة تُكتب على بطاقة العمل."
+   },
+   {
+    "start": 50.832,
+    "dur": 4.944,
+    "en": "Now say whether each sentence is true, false, or not given.",
+    "ar": "الآن قل إن كانت كلّ جملة صحيحة أو خاطئة أو غير مذكورة."
+   },
+   {
+    "start": 56.126,
+    "dur": 2.976,
+    "en": "The car is booked in at reception.",
+    "ar": "تُسجَّل السيارة في الاستقبال."
+   },
+   {
+    "start": 64.102,
+    "dur": 6.024,
+    "en": "True. That is the first step, and a job card is made at the same time.",
+    "ar": "صحيحة. تلك هي الخطوة الأولى، وتُعدّ بطاقة العمل في الوقت نفسه."
+   },
+   {
+    "start": 70.476,
+    "dur": 2.88,
+    "en": "The car is serviced at reception.",
+    "ar": "تُصان السيارة في الاستقبال."
+   },
+   {
+    "start": 78.297,
+    "dur": 7.2,
+    "en": "False. It is serviced in the workshop. Reception books it in and hands it over.",
+    "ar": "خاطئة. تُصان في الورشة. والاستقبال يسجّلها ويسلّمها."
+   },
+   {
+    "start": 85.847,
+    "dur": 3.12,
+    "en": "The car is cleaned before handover.",
+    "ar": "تُنظَّف السيارة قبل التسليم."
+   },
+   {
+    "start": 94.026,
+    "dur": 4.896,
+    "en": "True. Finally, it is cleaned and handed over.",
+    "ar": "صحيحة. وأخيراً، تُنظَّف وتُسلَّم."
+   },
+   {
+    "start": 99.272,
+    "dur": 6.24,
+    "en": "Three phrases to keep: first, it is; then it is; and finally, it is handed over.",
+    "ar": "ثلاث عبارات احفظها: first, it is؛ و then it is؛ و finally, it is handed over."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 26.599,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 29.69,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 64.102,
+    "hold": 4.25,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 78.297,
+    "hold": 3.62,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "schema": "timeline/1",
+ "duration": 187.346,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.136,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 5, The Service Process, from check-in to handover.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الخامسة، عمليّة الصيانة، من الاستقبال إلى التسليم."
+   },
+   {
+    "start": 8.936,
+    "dur": 8.232,
+    "en": "This is Part 2, Grammar Practice. You will make four passives, then CHOOSE between the two forms four times.",
+    "ar": "هذا الجزء الثاني، تدريب القواعد. ستصنع أربع صيغ مجهولة، ثمّ تختار بين الصيغتين أربع مرّات."
+   },
+   {
+    "start": 17.518,
+    "dur": 7.368,
+    "en": "Eight sentences. In the first four you make the passive; in the last four you CHOOSE between the two forms.",
+    "ar": "ثماني جمل. في الأربع الأولى تصنع المجهول؛ وفي الأربع الأخيرة تختار بين الصيغتين."
+   },
+   {
+    "start": 25.236,
+    "dur": 6.552,
+    "en": "The book does the first one. The mechanic inspects the car becomes: the car is inspected.",
+    "ar": "الكتاب يحلّ الأولى. The mechanic inspects the car تصبح: the car is inspected."
+   },
+   {
+    "start": 32.138,
+    "dur": 9.312,
+    "en": "Why did the car move to the front? Because the thing the action happens TO becomes the subject. That one move is the whole passive.",
+    "ar": "لماذا انتقلت السيارة إلى المقدّمة؟ لأنّ الشيء الذي يقع عليه العمل يصبح الفاعل. وتلك الحركة الواحدة هي المجهول كلّه."
+   },
+   {
+    "start": 41.8,
+    "dur": 4.44,
+    "en": "The team services the car. Make it passive.",
+    "ar": "The team services the car. اجعلها بصيغة المجهول."
+   },
+   {
+    "start": 51.769,
+    "dur": 2.304,
+    "en": "The car is serviced.",
+    "ar": "السيارة تُصان."
+   },
+   {
+    "start": 54.423,
+    "dur": 4.68,
+    "en": "The technician checks the tyres. Make it passive.",
+    "ar": "The technician checks the tyres. اجعلها بصيغة المجهول."
+   },
+   {
+    "start": 64.986,
+    "dur": 5.136,
+    "en": "The tyres are checked. Tyres is plural, so it takes are.",
+    "ar": "الإطارات تُفحَص. وكلمة tyres جمع، فتأخذ are."
+   },
+   {
+    "start": 70.472,
+    "dur": 4.608,
+    "en": "The mechanic changes the oil. Make it passive.",
+    "ar": "The mechanic changes the oil. اجعلها بصيغة المجهول."
+   },
+   {
+    "start": 80.786,
+    "dur": 2.184,
+    "en": "The oil is changed.",
+    "ar": "الزيت يُغيَّر."
+   },
+   {
+    "start": 83.32,
+    "dur": 4.584,
+    "en": "Reception hands over the car. Make it passive.",
+    "ar": "Reception hands over the car. اجعلها بصيغة المجهول."
+   },
+   {
+    "start": 93.61,
+    "dur": 5.28,
+    "en": "The car is handed over. The little word over stays with the verb.",
+    "ar": "السيارة تُسلَّم. والكلمة الصغيرة over تبقى مع الفعل."
+   },
+   {
+    "start": 99.24,
+    "dur": 6.12,
+    "en": "Now choose. Each of these four could take either form, and only one is right.",
+    "ar": "الآن اختر. كلّ واحدة من هذه الأربع قد تأخذ أيّ صيغة، وواحدة فقط صحيحة."
+   },
+   {
+    "start": 105.71,
+    "dur": 5.184,
+    "en": "The car blank in at reception. Is it books, or is booked?",
+    "ar": "The car فراغ in at reception. أهي books، أم is booked؟"
+   },
+   {
+    "start": 117.247,
+    "dur": 4.968,
+    "en": "Is booked. The car does not book anything; it is booked in.",
+    "ar": "is booked. فالسيارة لا تسجّل شيئاً؛ بل هي تُسجَّل."
+   },
+   {
+    "start": 122.565,
+    "dur": 5.424,
+    "en": "The mechanic blank the car. Is it services, or is serviced?",
+    "ar": "The mechanic فراغ the car. أهي services، أم is serviced؟"
+   },
+   {
+    "start": 134.459,
+    "dur": 5.76,
+    "en": "Services. This one is active, because the mechanic really is the doer.",
+    "ar": "services. وهذه بصيغة المعلوم، لأنّ الميكانيكي هو الفاعل فعلاً."
+   },
+   {
+    "start": 140.569,
+    "dur": 5.4,
+    "en": "The tyres blank in the workshop. Is it check, or are checked?",
+    "ar": "The tyres فراغ in the workshop. أهي check، أم are checked؟"
+   },
+   {
+    "start": 152.557,
+    "dur": 5.328,
+    "en": "Are checked. The tyres check nothing, and tyres is plural.",
+    "ar": "are checked. فالإطارات لا تفحص شيئاً، وكلمة tyres جمع."
+   },
+   {
+    "start": 158.235,
+    "dur": 5.232,
+    "en": "The team blank the engine. Is it repairs, or is repaired?",
+    "ar": "The team فراغ the engine. أهي repairs، أم is repaired؟"
+   },
+   {
+    "start": 169.82,
+    "dur": 6.288,
+    "en": "Repairs. Active again: the team is the doer and the engine is the thing done to.",
+    "ar": "repairs. معلوم مرّة أخرى: الفريق هو الفاعل والمحرّك هو المفعول."
+   },
+   {
+    "start": 176.458,
+    "dur": 9.288,
+    "en": "Two of those four were active. Look at what comes first in the sentence: if it is a person or a team, you probably want the active.",
+    "ar": "اثنتان من تلك الأربع كانتا معلومتين. انظر إلى ما يأتي أوّلاً في الجملة: إن كان شخصاً أو فريقاً، فالأرجح أنّك تريد المعلوم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 81.52,
+    "hold": 12.04,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 104.935,
+    "hold": 12.26,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 139.857,
+    "hold": 12.65,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
