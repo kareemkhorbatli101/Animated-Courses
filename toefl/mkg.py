@@ -57,7 +57,12 @@ def gap_report(n, U):
     from content._wordbank import expand
     want = set(PLAN[str(n)]['fieldwords']) | set(PLAN[str(n)]['acad'])
     heads = [w for w, _ in check.heads(U)]
-    covered = {w.lower() for w in expand(heads)} | {w.lower() for w in heads}
+    # a word an earlier Foundation 2 unit already teaches is covered: the plan
+    # allocated 'included' to one unit and 'includes' to another, and teaching
+    # 'include' once is the right answer to both.
+    earlier, _ = taught_before(n)
+    allw = heads + list(earlier)
+    covered = {w.lower() for w in expand(allw)} | {w.lower() for w in allw}
     return want, {w for w in want if w.lower() in covered}
 
 
