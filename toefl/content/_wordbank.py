@@ -61,6 +61,11 @@ passage passages
 correct incorrect example examples topic skill skills level cefr toefl
 internet wifi online ly ing ed es ies ally
 score scores band bands academic
+tense tenses continuous simple perfect comparative superlative singular plural
+noun nouns verb verbs adjective adjectives adverb adverbs pronoun pronouns
+vowel vowels consonant consonants syllable syllables stress stressed unstressed
+prefix prefixes suffix suffixes apostrophe clause clauses phrase phrases
+infinitive gerund participle
 """.split())
 
 _WORD = re.compile(r"[A-Za-z][A-Za-z'’-]*")
@@ -185,10 +190,16 @@ def _known(tok, allowed):
     return False
 
 
-def unknown(text, taught, names=()):
-    """The words in text that this book has not earned the right to use."""
+def unknown(text, taught, names=(), extra=None):
+    """The words in text that this book has not earned the right to use.
+
+    `extra` is a wider control band for a volume above Foundation 1's level;
+    content/_band2.py holds Foundation 2's.
+    """
     allowed = (BAND | CLOSED | COURSE | expand(taught)
                | {n.lower() for n in names} | expand(list(names)))
+    if extra:
+        allowed = allowed | set(extra)
     bad = []
     for m in _WORD.finditer(text):
         whole = m.group(0).lower().replace('\u2019', "'")

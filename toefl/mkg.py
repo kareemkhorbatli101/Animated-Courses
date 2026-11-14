@@ -24,7 +24,7 @@ sys.path.insert(0, HERE)
 
 import check                                            # noqa: E402
 
-GAP = json.load(open(os.path.join(HERE, 'v1_gap_by_unit.json')))
+PLAN = json.load(open(os.path.join(HERE, 'f2_wordplan.json')))
 
 
 def taught_before(n):
@@ -47,14 +47,18 @@ def taught_before(n):
 
 
 def gap_report(n, U):
-    """How much of Volume 1 unit n's measured gap this unit closes."""
-    want = set(GAP[str(n)])
-    mine = {w.lower() for w, _ in check.heads(U)}
-    # a taught word licenses its own inflections, so count those as covered
+    """Does this unit teach the words f2_wordplan.py allocated to it?
+
+    The plan names the surface form the measurement found - 'laid', 'ports',
+    'divides'. A unit may teach the lemma instead, because the vocabulary gate
+    licenses a taught word's inflections, so coverage is checked through
+    expand() rather than by string equality.
+    """
     from content._wordbank import expand
-    covered = {w.lower() for w in expand([w for w, _ in check.heads(U)])}
-    hit = {w for w in want if w in mine or w in covered}
-    return want, hit
+    want = set(PLAN[str(n)]['fieldwords']) | set(PLAN[str(n)]['acad'])
+    heads = [w for w, _ in check.heads(U)]
+    covered = {w.lower() for w in expand(heads)} | {w.lower() for w in heads}
+    return want, {w for w in want if w.lower() in covered}
 
 
 def validate(U, strict_gap=True):
@@ -73,9 +77,8 @@ def validate(U, strict_gap=True):
     want, hit = gap_report(n, U)
     missed = sorted(want - hit)
     if missed and strict_gap:
-        bad.append('%d of the %d measured gap words for Volume 1 unit %d are not '
-                   'taught here: %s' % (len(missed), len(want), n,
-                                        ', '.join(missed)))
+        bad.append('%d of the %d words the plan allocates to this unit are not '
+                   'taught here: %s' % (len(missed), len(want), ', '.join(missed)))
     return bad, want, hit
 
 
@@ -94,7 +97,7 @@ def emit(U, doc, strict_gap=True):
     out.write('\n')
     path = os.path.join(HERE, 'content', 'g%02d.py' % n)
     open(path, 'w').write(out.getvalue())
-    print('unit G%d written: %d of %d measured gap words taught, '
+    print('unit G%d written: %d of %d planned words taught, '
           'r3 %d words, r4 %d, r5 %d'
           % (n, len(hit), len(want), U['r3']['words'],
              U['r4']['words'], U['r5']['words']))

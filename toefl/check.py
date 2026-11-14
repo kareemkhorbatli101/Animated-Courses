@@ -13,12 +13,13 @@ SHAPE_A2 = [('core', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
 SHAPE_A2X = SHAPE_A2 + [('fieldwords', 12)]
 SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
             ('candos', 6), ('vocab_talk', 4)]
-# Foundation 2 teaches 33 head words a unit, and the number is not a choice:
+# Foundation 2 teaches 39 head words a unit, and 33 of them are not a choice:
 # gapscan.py measures 329 words that Volume 1's own texts use and a Foundation
-# 1 leaver does not know, and 33 a unit over ten units is 330. So this volume
-# teaches the measured gap and one word more. 21 of the 33 are general academic
-# words and 12 are the unit's field; campus words drop to 6, because Foundation
-# 1 has already done the campus work and this volume's job is the academic gap.
+# 1 leaver does not know, and 33 a unit over ten units is 330. So the acad and
+# fieldwords strands together carry the measured gap and one word more, 21 of
+# them general academic and 12 the unit's own field. The remaining 6 are campus
+# words: Foundation 1 has already done the campus work, so this volume spends
+# those slots on the academic gap instead of the twelve it used to carry.
 SHAPE_F2 = [('acad', 21), ('campus', 6), ('candos', 6), ('vocab_talk', 4),
             ('fieldwords', 12)]
 
@@ -531,8 +532,9 @@ def _check_f2(U, bad, taught):
     structure Volume 1 owns."""
     # 'used to' stays in the text this gate reads, because Volume 1 unit 9
     # owns it and _containment_f2 is here to refuse it.
+    from content._band2 import BAND2
     _check_found(U, bad, taught, F2, F2X, _containment_f2,
-                 strip=tuple(x for x in _STRIP if x != 'used to'))
+                 strip=tuple(x for x in _STRIP if x != 'used to'), extra=BAND2)
 
 
 # Fixed lexical chunks at this level, not productive grammar. 'made of' is the
@@ -543,7 +545,7 @@ _STRIP = ('used to', 'how are you', 'nice to meet you', 'excuse me',
           'where are you from', 'i am from', 'made of', 'made from')
 
 
-def _check_found(U, bad, taught, TAB, XTAB, contain, strip=_STRIP):
+def _check_found(U, bad, taught, TAB, XTAB, contain, strip=_STRIP, extra=None):
     from content._wordbank import unknown
     n = U['n']
     P = TAB[n]
@@ -615,7 +617,7 @@ def _check_found(U, bad, taught, TAB, XTAB, contain, strip=_STRIP):
 
     # --- vocabulary control ---------------------------------------------
     mine = [w for w, _ in heads(U)]
-    out = unknown(blob, list(taught) + mine, U.get('names', ()))
+    out = unknown(blob, list(taught) + mine, U.get('names', ()), extra)
     if out:
         seen, uniq = set(), []
         for w in out:

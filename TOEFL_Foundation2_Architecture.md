@@ -30,12 +30,21 @@ whose passages use them (`toefl/v1_gap_by_unit.json`):
 
 Average 27.6, range 13–38. That fits one Foundation 2 unit each, with room.
 
+**This table was superseded by a better measurement.** `gapscan.py` reads all
+five prose text types rather than only the two academic ones, excludes the
+dashed Complete-the-Words exercise, normalises accents and collapses
+inflections. The answer is **329 distinct words**, 239 of them used by an
+academic passage, and the per-unit counts are 20 to 50. See
+`TOEFL_Readiness_Measurement.md` and `toefl/v1_gap_all.json`.
+
 So **Foundation 2 unit *k* is the preparation for Volume 1 unit *k***, and its
-academic vocabulary is literally the set of words Volume 1 unit *k*'s own
-passages use and a Foundation 1 leaver does not know. 36 head-word slots a
-unit — 24 `acad` and 12 `fieldwords` — against a worst case of 38, so every
-measured word gets taught, in the unit that needs it, before the passage that
-uses it.
+vocabulary is literally the set of words Volume 1 unit *k*'s own texts use and
+a Foundation 1 leaver does not know. Each unit teaches 39 head words: 21
+`acad`, 12 `fieldwords` and 6 `campus`. The acad and field strands together
+are 33 a unit, so 330 over the ten units, which is the 329 measured words and
+one more — `narrative`, the term Volume 1 unit 10 uses for its own grammar
+point. `f2_wordplan.py` does the allocation and prints every word it has to
+move for want of room.
 
 | F2 | title | prepares |
 |---|---|---|
