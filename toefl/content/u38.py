@@ -1063,3 +1063,609 @@ UNIT = dict(
         'costs one word and it is the difference between a reader following you and a reader '
         'going back a sentence.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 38 gains its two academic cycles. Cycle 4 sets out title as a
+# documentary matter and the 1970 convention as a bright-line rule with
+# three real virtues, then shows that documentary capacity is destroyed
+# by the very events that generate the contested objects, so that a
+# documentary standard is an outcome rather than a neutral procedure.
+# Cycle 5 accepts that criticism and refuses the remedy usually drawn
+# from it: four claimants to one object, all supported by testimony and
+# none adjudicable by anybody, which leaves the museum deciding by
+# choosing a recipient. Its proposal is to separate custody from title
+# and to decline the second.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('disputes', 'contested claims on the same object'),
+ ('custody', 'physical possession, as distinct from ownership'),
+ ('documentation', 'the written record of where an object has been'),
+ ('adjudication', 'the settling of a claim by a body with authority'),
+ ('descendant', 'a person belonging to a later generation of a family'),
+ ('trustees', 'those legally responsible for a collection'),
+ ('intermediary', 'a dealer or agent standing between two parties'),
+ ('dispossession', 'the taking of property from its owner by force'),
+ ('confiscation', 'the official seizing of property'),
+ ('looting', 'the removal of objects during war or disorder'),
+ ('donor', 'a person who gives an object to a collection'),
+ ('authentication', 'the establishing of what an object actually is')]
+UNIT['r4'] = {'sub': 'Provenance and ownership',
+ 'title': 'A Documentary Standard and the Populations Without Documents',
+ 'words': 380,
+ 'skill': ('Reading about a standard of proof',
+           ['The passage describes a requirement and then who can satisfy it. The second '
+            'part is the argument.',
+            'One date governs museum practice. Note what it divides.',
+            'A question about neutrality wants the writer’s distinction, not an '
+            'accusation.']),
+ 'paras': ['Title to a museum object rests on documentation: a chain of custody running from '
+           'the ground or the sale room to the present accession number, supported by '
+           'invoices, export licences, letters from dealers and the papers of whichever '
+           'intermediary stood in the middle of the sale. The convention the profession '
+           'settled on turns all of this on a single date. An acquisition documented before '
+           'the international agreement of 1970 is treated as secure, whatever its earlier '
+           'history; an acquisition after that date requires provenance research of a '
+           'thoroughness nobody applied before it. The convention has the merits of any '
+           'bright-line rule. It is cheap to apply, hard to negotiate away, and indifferent '
+           'to the skill of whoever argues best, and a rule of that kind survives in an '
+           'institution for a century, as this one has.',
+           'The difficulty is in the distribution of documentary capacity. Records of title '
+           'accumulate where there are registers, insurers, tax offices and an '
+           'administration that has run without interruption for a century. They are '
+           'destroyed, or were never made at all, in precisely the circumstances that '
+           'generate the disputed objects: colonial confiscation, the looting of a city at '
+           'war, the dispossession of a population and the deliberate destruction of its '
+           'archives, and the two distributions are very nearly the reverse of each other. A '
+           'claimant community is asked for the documentation of a loss by the very event '
+           'that removed the documentation, while the holding institution answers with an '
+           'accession register kept unbroken since 1884 and a shelf of correspondence to '
+           'support every line of it. The asymmetry is not a consequence of anybody’s bad '
+           'faith. It is a property of any documentary standard applied to populations whose '
+           'capacity to produce documents is separated by two orders of magnitude, and it '
+           'would hold with the most scrupulous trustees alive.',
+           'The conclusion for the profession is narrow and unwelcome. A documentary '
+           'standard is not a neutral standard, because neutrality in a procedure requires '
+           'comparable access to the evidence the procedure demands, and the publication of '
+           'a provenance policy therefore describes an outcome as reliably as a declared '
+           'preference would. What such a policy settles is not the ownership of the objects '
+           'but the much earlier question of which claims are capable of being heard at '
+           'all.'],
+ 'guided': [('What does title to a museum object rest on?',
+             ('Physical custody',
+              'Documentation of a chain of custody',
+              'The authority of the trustees',
+              'Authentication of the object'),
+             1,
+             'Invoices, export licences, correspondence and the records of intermediaries '
+             'are the material.'),
+            ('What does the 1970 convention make decisive?',
+             ('The place of excavation',
+              'A single date',
+              'The intentions of the donor',
+              'The condition of the object'),
+             1,
+             'Documented before that date is treated as secure; after it, research is '
+             'required.'),
+            ('Which merits does the passage grant the rule?',
+             ('Accuracy and speed',
+              'Cheap to administer, resistant to negotiation, indifferent to eloquence',
+              'Precision and consistency',
+              'Popularity with claimants'),
+             1,
+             'Those are the three merits of a bright-line rule that it names.')],
+ 'exam': [('Where does documentation of ownership accumulate?',
+           ('Wherever objects are valuable',
+            'Where there are registries, insurers, probate courts and continuous '
+            'administration',
+            'In museums alone',
+            'In the countries of origin'),
+           1,
+           'And it is destroyed or never created in the opposite circumstances.'),
+          ('What is a claimant community asked for?',
+           ('An authentication of the object',
+            'Documentation of a loss by the event that removed the documentation',
+            'A statement from a descendant',
+            'An export licence'),
+           1,
+           'That is the asymmetry the paragraph is built on.'),
+          ('What does the writer say about bad faith?',
+           ('It explains the asymmetry',
+            'The asymmetry is not a consequence of anybody’s bad faith',
+            'It is confined to intermediaries',
+            'It is impossible to establish'),
+           1,
+           'The asymmetry is called an arithmetical property of the standard.'),
+          ('Why is a documentary standard not neutral?',
+           ('Because museums administer it',
+            'Because neutrality requires comparable access to the evidence demanded',
+            'Because the date was chosen arbitrarily',
+            'Because disputes are political'),
+           1,
+           'The access condition is the writer’s definition of neutrality here.'),
+          ('What does the writer say a provenance policy decides?',
+           ('Who owns the objects',
+            'Which claims are capable of being heard',
+            'The market value of the collection',
+            'How objects are displayed'),
+           1,
+           'The distinction between those two is the point of the final sentence.')]}
+UNIT['r5'] = {'sub': 'Who speaks for a community',
+ 'title': 'The Question the Documents Were Never Being Asked',
+ 'words': 363,
+ 'skill': ('Reading an objection to a proposed remedy',
+           ['The writer accepts the previous criticism and attacks the remedy usually drawn '
+            'from it. Note the remedy.',
+            'A difficulty inside claimant communities is described. Hold what makes it hard.',
+            'A question about the recommendation wants the separation it proposes.']),
+ 'paras': ['The criticism of the documentary standard is sound and the remedy usually drawn '
+           'from it does not survive examination. If documentation is unavailable to the '
+           'dispossessed, the proposal runs, the evidential requirement should give way to '
+           'the testimony and the continuous memory of the descendant community, which is a '
+           'serious proposal with serious people behind it. The proposal substitutes one '
+           'adjudication problem for another and a good deal harder one, and the '
+           'substitution is almost never stated as such by the people making it.',
+           'Consider what arrives at a museum in practice. A single object attracts claims '
+           'from a national government, from a regional authority in disagreement with that '
+           'government, from a lineage asserting hereditary custody, and from a religious '
+           'institution asserting a prior obligation. The four are in genuine conflict with '
+           'each other about where the object belongs, who may display it and who may refuse '
+           'its display altogether. Testimony supports all four of them, in good faith and '
+           'in detail. No procedure of any kind exists for the adjudication of disputes '
+           'among claimants, and the holding institution, having no authority of any kind '
+           'over the internal politics of another country, becomes the body that decides '
+           'them by choosing a recipient. Institutions that congratulate themselves on a '
+           'restitution have in several documented cases awarded a contested object to the '
+           'claimant with the best English and the nearest embassy.',
+           'The separation the subject needs is between custody and title, and it is '
+           'available without any resolution of the harder question. Custody is a practical '
+           'matter, settled by agreement, reversible at the end of a term, and perfectly '
+           'suited to the kind of renewable long loan that moves an object to the place '
+           'where it is wanted while the trustees retain their legal position and their '
+           'insurance. Title is a determination about history, requiring an authority over '
+           'the parties that no museum possesses, and is not the business of a museum to '
+           'make at all. An institution that transfers custody now, publishes the standard '
+           'of proof it applied, and declines to pronounce on ownership has done everything '
+           'within its competence. The appearance of indecision in that position is the most '
+           'accurate thing about it.'],
+ 'guided': [('What does the writer say about the criticism of the documentary standard?',
+             ('It is mistaken',
+              'It is sound',
+              'It applies only before 1970',
+              'It overstates the asymmetry'),
+             1,
+             'The objection falls on the remedy, not on the criticism.'),
+            ('What does the usual remedy propose?',
+             ('A new international convention',
+              'That the evidential requirement give way to testimony and continuous memory',
+              'That objects be sold',
+              'That custody be divided'),
+             1,
+             'That is the proposal the passage sets out and then tests.'),
+            ('What does the writer say the proposal substitutes?',
+             ('One date for another',
+              'One adjudication problem for another',
+              'Custody for title',
+              'Memory for documentation'),
+             1,
+             'And the writer adds that the substitution is rarely stated as such.')],
+ 'exam': [('How many kinds of claimant does the passage describe for a single object?',
+           ('Two', 'Three', 'Four', 'Six'),
+           2,
+           'A national government, a regional authority, a lineage and a religious '
+           'institution.'),
+          ('What does the passage say testimony does?',
+           ('Settles the question',
+            'Supports all four claimants',
+            'Is unavailable',
+            'Contradicts the documentation'),
+           1,
+           'Which is why it cannot replace the documentary standard as an adjudication '
+           'method.'),
+          ('What does the holding institution become?',
+           ('An impartial arbitrator',
+            'The body that decides the dispute by choosing a recipient',
+            'A party to the dispute',
+            'A custodian without authority'),
+           1,
+           'It has no authority over another country’s internal politics and decides '
+           'anyway.'),
+          ('What does the writer say some institutions have done?',
+           ('Refused all restitution',
+            'Awarded a contested object to the claimant with the best English and the '
+            'nearest embassy',
+            'Sold contested objects',
+            'Delayed decisions indefinitely'),
+           1,
+           'The passage says this is documented in several cases.'),
+          ('What is the separation the writer proposes?',
+           ('Between documentation and testimony',
+            'Between custody and title',
+            'Between loan and sale',
+            'Between claimants and governments'),
+           1,
+           'Custody is practical and reversible; title is a determination about history.')]}
+UNIT['l4'] = {'sub': 'Provenance and ownership',
+ 'caption': 'A lecture on the 1970 line and who can stand behind it',
+ 'board': ['Title rests on documentation',
+           '1970: the bright line',
+           'Records survive where administration survives',
+           'A standard of proof selects claimants'],
+ 'skill': ('A lecture on an administrative rule and its distribution',
+           ['The rule comes first, with its advantages granted. Note the advantages.',
+            'Then the distribution of the evidence the rule asks for. That is the argument.',
+            'A question about the ending wants what the lecturer says a policy announces.']),
+ 'warm': [('Woman: What does title rest on?',
+           ('Documentation.', 'Possession.', 'Yes, something.', 'Since 1884.'),
+           0,
+           'A documented chain of custody is the whole basis of title here.'),
+          ('Woman: What is special about 1970?',
+           ('It is the dividing line for acquisitions.',
+            'It is when museums opened.',
+            'Yes, it matters.',
+            'A convention.'),
+           0,
+           'Before it, secure; after it, research required.'),
+          ('Woman: What does a provenance policy announce?',
+           ('Which claims can be heard.',
+            'Who owns the objects.',
+            'Yes, it announces something.',
+            'A standard of proof.'),
+           0,
+           'He ends on the distinction between those two.')],
+ 'script': [('Man',
+             'Title to an object in a collection is a documentary matter. Not possession, '
+             'not display, not who loves it most: documents. A chain of custody from the '
+             'ground or the sale room to the accession number, with invoices, export '
+             'licences, letters from dealers, and the records of whichever intermediary '
+             'stood in the middle. And our profession has settled on a bright line, which is '
+             'the convention of 1970. Documented before it, you are secure. After it, you do '
+             'the provenance research properly, to a standard nobody applied in 1965. Let me '
+             'grant the rule its virtues, because it has three. It is cheap to run. It '
+             'cannot be negotiated away by whoever argues best. And it does not care how '
+             'moving the claimant is. Now the part I want you thinking about for the rest of '
+             'term. Ask where documents come from. They accumulate where there is a '
+             'registry, an insurer, a probate court, an administration that has not been '
+             'interrupted. And they are destroyed, or never made at all, in exactly the '
+             'events that generate the contested objects: confiscation, looting, the '
+             'dispossession of a population, the burning of its archives. So the claimant is '
+             'asked to document a loss by the event that destroyed the documents, and we '
+             'answer with a register kept unbroken since 1884. Nobody in this story is '
+             'behaving badly. That is arithmetic, not malice, and it would hold with the '
+             'most scrupulous trustees who ever sat on a board. And it means a provenance '
+             'policy is not a neutral instrument. It announces which claims can be heard, '
+             'and it does so as reliably as if we had published a list of the countries we '
+             'intend to say yes to.')],
+ 'items': [('What does the lecturer say title is NOT?',
+            ('A documentary matter',
+             'Possession, display, or who loves the object most',
+             'A question for trustees',
+             'Established by invoices'),
+            1,
+            'He names all three and rules them out in the first sentence.'),
+           ('What does the 1970 convention require for later acquisitions?',
+            ('A new export licence',
+             'Provenance research to a standard nobody applied in 1965',
+             'The consent of the country of origin',
+             'A statement from the donor'),
+            1,
+            'Before the line, secure; after it, the research is done properly.'),
+           ('What are the three virtues he grants the rule?',
+            ('Accuracy, fairness, speed',
+             'Cheap to run, cannot be negotiated away, indifferent to the claimant',
+             'Legal, popular, flexible',
+             'Clear, old, international'),
+            1,
+            'He grants exactly those three before he attacks the rule.'),
+           ('Where does he say documents are destroyed or never made?',
+            ('In private collections',
+             'In confiscation, looting, dispossession and the burning of archives',
+             'In countries without museums',
+             'Before 1884'),
+            1,
+            'And those are the events that generate the contested objects.'),
+           ('What does he say about the people in the story?',
+            ('Some are acting badly',
+             'Nobody is behaving badly, and the asymmetry is arithmetic',
+             'The intermediaries are to blame',
+             'The trustees are negligent'),
+            1,
+            'Arithmetic, not malice, is how he puts it.')]}
+UNIT['l5'] = {'sub': 'Who speaks for a community',
+ 'caption': 'A short talk on four claimants and one object',
+ 'board': ['Testimony supports all four',
+           'No procedure for claimant disputes',
+           'The museum decides by choosing',
+           'Separate custody from title'],
+ 'skill': ('A talk that refuses a remedy without defending the rule',
+           ['The speaker agrees with the criticism and objects to the remedy. Keep the two '
+            'apart.',
+            'Four claimants, each with a different ground. Note the grounds.',
+            'A question about her proposal wants the two things she separates.']),
+ 'warm': [('Man: Does she defend the documentary rule?',
+           ('No, she objects to the remedy.',
+            'Yes, she defends it.',
+            'Yes, she does.',
+            'Four claimants.'),
+           0,
+           'She grants the criticism entirely and attacks what is usually proposed instead.'),
+          ('Man: What does testimony do with four claimants?',
+           ('It supports all of them.',
+            'It settles the dispute.',
+            'Yes, it helps.',
+            'A lineage.'),
+           0,
+           'That is why it cannot serve as the adjudication method.'),
+          ('Man: What does she separate?',
+           ('Custody and title.',
+            'Loan and sale.',
+            'Yes, two things.',
+            'Memory and documents.'),
+           0,
+           'Custody is practical and reversible; title is a historical determination.')],
+ 'script': [('Woman',
+             'I accept every word of the criticism. A documentary standard selects for '
+             'claimants with surviving administrations, and that is indefensible. What I '
+             'will not accept is the remedy, which is usually that testimony and community '
+             'memory should replace the documents, because that swaps one adjudication '
+             'problem for a harder one and almost nobody says so. Here is what actually '
+             'lands on a registrar’s desk. One object, four claims. A national government. A '
+             'regional authority that is in open disagreement with that government. A '
+             'lineage claiming hereditary custody. And a religious institution claiming a '
+             'prior obligation older than either state. These are not frivolous claims, and '
+             'they are irreconcilable, and testimony supports all four of them, in good '
+             'faith and in detail, and every one of those four will say so at length to a '
+             'journalist. There is no procedure anywhere for adjudicating between claimants. '
+             'So the museum, which has no standing whatsoever in another country’s politics, '
+             'settles it by deciding who receives the crate. And I will tell you how that '
+             'has gone in several documented cases: the object went to the claimant with the '
+             'best English and the nearest embassy. My proposal separates two things that '
+             'are always run together. Custody, which is practical, reversible, and '
+             'perfectly suited to a very long loan. And title, which is a judgement about '
+             'history and no business of a museum at all. Transfer the custody. Publish the '
+             'standard you applied, in full, including the parts that look bad. Decline to '
+             'rule on ownership, and say in the loan document that you are declining and '
+             'why. That will read as indecision in the newspapers, and it is the most '
+             'accurate sentence the institution is in a position to write.')],
+ 'items': [('What does the speaker accept?',
+            ('The documentary standard',
+             'Every word of the criticism of that standard',
+             'The usual remedy',
+             'The authority of the museum'),
+            1,
+            'She calls the selection of claimants by surviving administrations '
+            'indefensible.'),
+           ('Why does she refuse the usual remedy?',
+            ('Testimony is unreliable',
+             'It swaps one adjudication problem for a harder one',
+             'Communities disagree about objects',
+             'Documents are better evidence'),
+            1,
+            'And she adds that almost nobody says so.'),
+           ('Which of these is NOT one of the four claimants she names?',
+            ('A national government',
+             'A regional authority at odds with that government',
+             'A lineage claiming hereditary custody',
+             'An auction house holding a prior sale'),
+            3,
+            'The fourth is a religious institution claiming a prior obligation.'),
+           ('What does she say the museum has in another country’s politics?',
+            ('A duty to intervene',
+             'No standing whatsoever',
+             'An advisory role',
+             'A legal obligation'),
+            1,
+            'And it settles the dispute anyway, by deciding who receives the crate.'),
+           ('What are the three things she asks an institution to do?',
+            ('Research, publish, retain',
+             'Transfer custody, publish the standard applied, decline to rule on ownership',
+             'Loan, sell, record',
+             'Adjudicate, document, display'),
+            1,
+            'Those are the three instructions she ends on.')]}
+UNIT['w4'] = {'sub': 'Provenance and ownership',
+ 'skill': ('Cohesion: substitution and ellipsis',
+           ['One, ones and that of avoid repeating a noun: the register of 1884 and that of '
+            '1970.',
+            'Do so and did so avoid repeating a verb phrase: the trustees declined, as the '
+            'registrar had done.',
+            'Ellipsis leaves out what the reader can supply: two claims were documented and '
+            'two were not.']),
+ 'guided': [('You want to avoid repeating a noun.',
+             ['the register',
+              'of',
+              '1884',
+              'is',
+              'complete',
+              'and',
+              'that of',
+              '1970',
+              'is',
+              'not'],
+             'The register of 1884 is complete and that of 1970 is not.'),
+            ('You want to avoid repeating a verb phrase.',
+             ['the trustees',
+              'declined',
+              'to',
+              'rule',
+              'on',
+              'ownership',
+              'as',
+              'the registrar',
+              'had',
+              'done'],
+             'The trustees declined to rule on ownership, as the registrar had done.'),
+            ('You want ellipsis after a number.',
+             ['two', 'of', 'the claims', 'were', 'documented', 'and', 'two', 'were', 'not'],
+             'Two of the claims were documented and two were not.')],
+ 'exam': [('You want substitution with ones.',
+           ['the older',
+            'acquisitions',
+            'are',
+            'secure',
+            'and',
+            'the newer',
+            'ones',
+            'require',
+            'research'],
+           'The older acquisitions are secure and the newer ones require research.'),
+          ('You want do so to avoid repetition.',
+           ['the museum',
+            'transferred',
+            'custody',
+            'and',
+            'did so',
+            'without',
+            'any',
+            'ruling',
+            'on',
+            'title'],
+           'The museum transferred custody, and did so without any ruling on title.'),
+          ('You want that of for a second genitive.',
+           ['the documentation',
+            'of',
+            'the institution',
+            'survives',
+            'and',
+            'that of',
+            'the claimant',
+            'does',
+            'not'],
+           'The documentation of the institution survives and that of the claimant does '
+           'not.'),
+          ('You want ellipsis in a comparison.',
+           ['one claimant',
+            'produced',
+            'an',
+            'export',
+            'licence',
+            'and',
+            'three',
+            'could',
+            'not'],
+           'One claimant produced an export licence and three could not.'),
+          ('You want substitution with the same.',
+           ['the lineage',
+            'claims',
+            'hereditary',
+            'custody',
+            'and',
+            'the',
+            'religious',
+            'institution',
+            'claims',
+            'the same'],
+           'The lineage claims hereditary custody and the religious institution claims the '
+           'same.')]}
+UNIT['w5'] = {'sub': 'Who speaks for a community',
+ 'prof': 'Dr Abramovich',
+ 'question': 'A museum holds an object claimed both by a national government and by a '
+             'lineage within that country which says the government has no authority over '
+             'it. The museum can transfer the object to the government, which is the only '
+             'body it can legally deal with, or keep it until the two claimants agree, which '
+             'may be never. What should it do?',
+ 'posts': [('Chidi',
+            'w',
+            'Transfer it to the government and say plainly that the museum has no competence '
+            'to decide between claimants inside another country. Keeping the object is a '
+            'decision too, and it is the one that keeps it here.'),
+           ('Sanne',
+            'm',
+            'Transferring it to the government is not neutral either, because it settles a '
+            'dispute the museum has just announced it cannot settle. The second passage '
+            'names exactly this pattern.')],
+ 'skill': ('A question in which both options decide something',
+           ['Chidi argues that delay is itself a choice; Sanne that transfer settles a '
+            'dispute the museum disclaims.',
+            'The second passage offers a separation that neither of them uses.',
+            'A strong answer applies that separation to this case specifically.']),
+ 'starters': ['Sanne is right that…, although the alternative…',
+              'The separation the passage proposes is between… and…',
+              'Applied to this case that means…',
+              'What is given up by that route is…'],
+ 'model': ['Sanne is right that a transfer settles the dispute and has not noticed that '
+           'retention settles it as well, in favour of the party with the fewest grounds of '
+           'all. Both options distribute the object, and an institution that frames the '
+           'choice as action against inaction has already concealed from itself the thing it '
+           'is doing. The honest statement is that it must choose, and the only question '
+           'left is what it chooses with its eyes open.',
+           'Chidi is right about the legal constraint and treats custody and title as a '
+           'single transaction. They are not, and the passage separates them for this case '
+           'in particular: the government is the body with which a long loan can be '
+           'concluded, and nothing about that loan requires a determination of who the '
+           'object belongs to.',
+           'Applied here, the museum should conclude a renewable loan with the government, '
+           'publish the standard of proof it applied and state in the loan document that the '
+           'question of title remains open and is not within its competence. The lineage '
+           'then has a claim against the government rather than against an institution in '
+           'another hemisphere that can give it nothing. What is given up is finality, which '
+           'donors like and registrars like and which nobody standing in this particular '
+           'dispute has any right to expect. A loan that may be revisited in twenty years is '
+           'an uncomfortable document to file, and it is the only document available that '
+           'does not pretend the museum has answered a question it has no way of answering.'],
+ 'model_words': 256}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Provenance and ownership',
+  'focus': 'granting a rule its advantages before attacking it',
+  'skill': ('Let me grant the rule its virtues, because it has three',
+            ['Number the virtues and give each one its own short clause. A list run together '
+             'sounds grudging.',
+             'Keep your tone level through the concession; the turn comes afterwards.',
+             'Mark the turn with now, and pause before it.']),
+  'repeat': ['Title is a documentary matter.',
+             'It is cheap to run.',
+             'It cannot be negotiated away.',
+             'Now ask where documents come from.',
+             'Let me grant the rule its virtues.',
+             'It does not care how moving the claimant is.',
+             'The claimant is asked to document a loss by the event that destroyed the '
+             'documents.'],
+  'theme': 'a rule with real advantages and one bad consequence',
+  'qs': ['Tell me about a rule at work or school that was fair in form and unfair in effect. '
+         'What happened?',
+         'Some people say a rule that treats everybody the same is automatically fair. How '
+         'far would you agree?',
+         'How would you explain to a friend why asking for documents can be unfair?',
+         'Finally, describe a time you could not prove something that was true.'],
+  'model': [(2,
+             'I would want to separate form from effect. A rule can be identical for '
+             'everybody and still select, if the thing it asks for is distributed unequally, '
+             'and that is not the same as anybody intending it.'),
+            (3,
+             'I would say the people least likely to have the papers are the people whose '
+             'papers were destroyed, and usually by the same event you are asking them to '
+             'document.')],
+  'selfcheck': ['I numbered the advantages',
+                'I kept my tone level through the concession',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Who speaks for a community',
+  'focus': 'saying that a remedy swaps one problem for another',
+  'skill': ('That swaps one adjudication problem for a harder one',
+            ['Name both problems. A listener who hears only the second thinks you are '
+             'defending the original.',
+             'Say harder, or worse, explicitly: the comparison is the whole claim.',
+             'Then add that the swap is rarely admitted, which is the sting.']),
+  'repeat': ['One object, four claims.',
+             'Testimony supports all four of them.',
+             'I accept every word of the criticism.',
+             'What I will not accept is the remedy.',
+             'It swaps one problem for a harder one.',
+             'There is no procedure for adjudicating between claimants.',
+             'The object went to the claimant with the best English and the nearest '
+             'embassy.'],
+  'theme': 'a solution that creates a different problem',
+  'qs': ['Tell me about a solution you saw that created a new problem. What was the new one?',
+         'Some people think any change is better than doing nothing. What do you think?',
+         'How should an organisation act when it cannot decide between two fair claims?',
+         'Finally, describe a decision you made where every option decided something.'],
+  'model': [(2,
+             'I think doing nothing is usually a decision in disguise, and that is the '
+             'honest reason to act. It is not that change is better in itself; it is that '
+             'the alternative is also a choice, and often a worse one.'),
+            (3,
+             'I would separate what can be settled from what cannot. Hand over the practical '
+             'thing, publish the standard you used, and refuse to pronounce on the part you '
+             'have no way of deciding.')],
+  'selfcheck': ['I named both problems',
+                'I said explicitly that the second is harder',
+                'I added that the swap is rarely admitted']}]

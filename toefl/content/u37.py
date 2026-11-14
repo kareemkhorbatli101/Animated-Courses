@@ -1061,3 +1061,617 @@ UNIT = dict(
         'condition half never takes would. Learn the inverted forms too — had it been, were '
         'it not for — because they are what an examiner reads as range.',
 )
+
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 37 gains its two academic cycles. Cycle 4 separates insolvency
+# from illiquidity, derives a bank exposure to the second from the
+# transformation of short borrowing into long lending, and places the
+# lender of last resort in the one case it exists for. Cycle 5 objects
+# that the distinction is undecidable at the hour a decision is taken,
+# shows that central banks replaced the judgement with a published list
+# rather than solving it, and then moves to sovereign debt, where the
+# absence of any statutory procedure leaves the outcome to a committee
+# of creditors and to whoever can afford the longest litigation.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('statutory', 'set out in law, rather than left to agreement'),
+ ('bankruptcy', 'the legal procedure for a debtor who cannot pay'),
+ ('absence', 'the fact of something not being there'),
+ ('insolvency', 'owing more than you own'),
+ ('sovereign', 'belonging to a state rather than to a company'),
+ ('restructuring', 'an agreed change to the terms of a debt'),
+ ('depositor', 'somebody whose money a bank holds'),
+ ('withdrawal', 'the taking of money out of an account'),
+ ('committee', 'a small group appointed to settle something'),
+ ('undecidable', 'impossible to settle with the information available'),
+ ('illiquid', 'holding value that cannot be turned into cash quickly'),
+ ('safeguard', 'something put in place in advance against a difficulty')]
+UNIT['r4'] = {'sub': 'What a bank actually does',
+ 'title': 'Why a Bank That Owns More Than It Owes Can Still Fail',
+ 'words': 374,
+ 'skill': ('Reading a distinction between two things called failure',
+           ['Two conditions are defined and they are not the same. A question will test '
+            'whether you merged them.',
+            'The mechanism in the middle explains why a bank is exposed to one of them. '
+            'Follow it.',
+            'A question about the lender of last resort wants what it is for.']),
+ 'paras': ['A bank can be unable to pay and still own more than it owes, and the separation '
+           'of those two conditions is the foundation of the subject. Insolvency means that '
+           'the value of what is owned falls short of the value of what is owed. Illiquidity '
+           'means that the money cannot be produced on the day it is demanded, whatever the '
+           'eventual value of the assets. The two conditions are independent: a bank can be '
+           'solvent and illiquid, which is the interesting case, or insolvent and liquid for '
+           'a while, which is the dangerous one.',
+           'The exposure of a bank to the first condition lies in what it does for a living. '
+           'Its liabilities are short, since a depositor may demand the whole balance '
+           'without notice, and its assets are long, since a mortgage runs for twenty-five '
+           'years and admits of no cancellation on an afternoon. The transformation of short '
+           'borrowing into long lending is not a defect of the arrangement but the service '
+           'the arrangement provides, and it is what allows a society to finance the '
+           'construction of houses and factories out of money its owners may want back next '
+           'week. The safeguard against the obvious danger is statistical. It holds as long '
+           'as withdrawals stay within their usual distribution, and its protection is an '
+           'average, not a guarantee. It fails the moment every depositor arrives at once, '
+           'and it fails for a bank whose assets would cover its liabilities three times '
+           'over, because the assets are not there in the form of cash and their conversion '
+           'into cash cannot be achieved that morning.',
+           'The lender of last resort exists for precisely this case and for no other, which '
+           'is worth memorising before the rest of the doctrine. A central bank that lends '
+           'against good assets to a solvent institution facing a run is not rescuing a '
+           'failure; it is supplying the only thing that was missing from the position, '
+           'which was the timing. The classical statement of the doctrine is equally clear '
+           'about the other case, in which the institution is insolvent and the lending '
+           'merely transfers the loss to the public. Everything in the next passage follows '
+           'from one difficulty with that clean division, and the difficulty is one of '
+           'information.'],
+ 'guided': [('What does insolvency mean?',
+             ('That cash cannot be produced on the day',
+              'That what is owned falls short of what is owed',
+              'That depositors have withdrawn their money',
+              'That assets are long'),
+             1,
+             'That is the definition the passage gives, and it is a statement about value.'),
+            ('What does illiquidity mean?',
+             ('That what is owed exceeds what is owned',
+              'That the money cannot be produced on the day it is demanded',
+              'That the bank has no assets',
+              'That depositors are nervous'),
+             1,
+             'Whatever the eventual value of the assets, as the passage adds.'),
+            ('Why are a bank’s liabilities called short?',
+             ('They are small',
+              'A depositor may demand the whole balance without notice',
+              'They are repaid quickly by the bank',
+              'They last twenty-five years'),
+             1,
+             'The absence of notice is what makes them short.')],
+ 'exam': [('What does the passage say about transforming short borrowing into long lending?',
+           ('It is a defect that regulation should remove',
+            'It is the service the arrangement provides',
+            'It is a recent development',
+            'It applies only to mortgages'),
+           1,
+           'It is what allows a society to finance houses out of money its owners may want '
+           'back next week.'),
+          ('When does the provision fail?',
+           ('When assets lose value',
+            'When every depositor arrives at once',
+            'When mortgages are called in',
+            'When the central bank refuses to lend'),
+           1,
+           'And it fails even for a bank whose assets would cover its liabilities three '
+           'times over.'),
+          ('What is the lender of last resort for?',
+           ('Rescuing failing banks',
+            'Supplying the timing a solvent institution is missing',
+            'Buying bad assets',
+            'Preventing withdrawals'),
+           1,
+           'A central bank lending against good assets supplies what was missing, which was '
+           'the timing.'),
+          ('What does the doctrine say about the insolvent case?',
+           ('The same lending applies',
+            'The lending merely transfers the loss to the public',
+            'The institution should be nationalised',
+            'Depositors should be repaid first'),
+           1,
+           'The classical statement is equally clear about that case.'),
+          ('The word run in paragraph 3 refers to',
+           ('a fall in asset values',
+            'depositors demanding their money at once',
+            'a long period of lending',
+            'a statutory procedure'),
+           1,
+           'A run is the simultaneous demand the second paragraph describes.')]}
+UNIT['r5'] = {'sub': 'Debt, default and who decides',
+ 'title': 'A Distinction Nobody Can Make at Three in the Morning',
+ 'words': 357,
+ 'skill': ('Reading an objection about when a distinction is available',
+           ['The writer accepts the distinction and attacks its availability. Note the '
+            'difference.',
+            'The second half moves from banks to countries. Hold what changes and what does '
+            'not.',
+            'A question about the recommendation wants what should be written down in '
+            'advance.']),
+ 'paras': ['The division between an illiquid institution and an insolvent one is correct, '
+           'and it is unavailable at the moment a decision has to be taken. Solvency is a '
+           'statement about the value of assets. The value of an asset in a crisis is '
+           'whatever somebody will pay for it that week, and in the week of a run nobody is '
+           'buying. The official who must decide at three in the morning whether an '
+           'institution is illiquid or insolvent is being asked a question that is '
+           'undecidable with the information in the room. The honest position is that the '
+           'distinction does its work afterwards, in the account of what happened, rather '
+           'than during.',
+           'The response of the central banks has not been a solution to the problem but a '
+           'replacement of the judgement by a rule. Lending is made against a published list '
+           'of acceptable assets at a published discount. The question at three in the '
+           'morning therefore becomes whether the paper on the table appears on the list, '
+           'which is a question with an answer. The substitution is an improvement and it is '
+           'not a solution, since the list was written in calm conditions by people '
+           'estimating what would hold its value in conditions they were not in and could '
+           'not easily imagine.',
+           'For a country the same difficulty arrives without any of the machinery. A '
+           'company that cannot pay enters a statutory procedure in which a court imposes an '
+           'outcome on creditors who would individually prefer something else, and the '
+           'absence of any equivalent for a sovereign borrower is the central fact about '
+           'this whole half of the subject. What takes its place is a committee of '
+           'creditors, a restructuring agreed under the threat of years of litigation, and '
+           'an outcome that depends on who holds the debt rather than on what the debtor can '
+           'pay. Proposals for a statutory procedure have been made repeatedly since the '
+           'nineteen seventies and have failed every time, for a reason worth stating '
+           'plainly and seldom stated at all: the governments that would have to legislate '
+           'are the governments whose own lenders would lose the power the absence gives '
+           'them.'],
+ 'guided': [('What does the writer say about the division between illiquid and insolvent?',
+             ('It is mistaken',
+              'It is correct and unavailable when a decision must be taken',
+              'It applies only to countries',
+              'It was abandoned in the seventies'),
+             1,
+             'The objection is about availability rather than truth.'),
+            ('Why is the value of an asset in a crisis hard to establish?',
+             ('It changes by the hour',
+              'It is whatever somebody will pay that week, and nobody is buying',
+              'It is set by the central bank',
+              'It is not published'),
+             1,
+             'That is why solvency cannot be assessed during a run.'),
+            ('When does the writer say the distinction does its work?',
+             ('During the decision',
+              'Afterwards, in the account of what happened',
+              'Only for companies',
+              'Never'),
+             1,
+             'The honest position is that it is a tool for the record rather than for the '
+             'night.')],
+ 'exam': [('How have central banks responded?',
+           ('By solving the problem',
+            'By replacing the judgement with a published rule',
+            'By refusing to lend in a crisis',
+            'By lending without security'),
+           1,
+           'Lending against a published list at a published discount.'),
+          ('Why is the substitution not a solution?',
+           ('The list is secret',
+            'The list was written in calm conditions by people estimating conditions they '
+            'were not in',
+            'The discount is too small',
+            'Banks do not accept it'),
+           1,
+           'The writer calls it an improvement and refuses to call it a solution.'),
+          ('What does a statutory procedure do for a company?',
+           ('Protects its depositors',
+            'Lets a court impose an outcome on creditors who would prefer something else',
+            'Values its assets',
+            'Provides emergency lending'),
+           1,
+           'The imposition on unwilling creditors is the point of the procedure.'),
+          ('What happens instead for a sovereign borrower?',
+           ('A court procedure in the lending country',
+            'A creditors’ committee and a restructuring agreed under the threat of '
+            'litigation',
+            'An automatic reduction of the debt',
+            'A loan from the central bank'),
+           1,
+           'And the outcome depends on who holds the debt.'),
+          ('Why does the writer say the proposals have failed?',
+           ('They were badly drafted',
+            'The governments that would legislate are those whose lenders would lose power',
+            'Countries do not want them',
+            'Courts refused to act'),
+           1,
+           'That is the reason the writer says is worth stating plainly.')]}
+UNIT['l4'] = {'sub': 'What a bank actually does',
+ 'caption': 'A lecture on two kinds of failure and one kind of rescue',
+ 'board': ['Insolvent: owes more than it owns',
+           'Illiquid: cannot pay today',
+           'Short liabilities, long assets',
+           'Last resort: supplies the timing'],
+ 'skill': ('A lecture built on one distinction',
+           ['Two definitions, then the mechanism that makes one of them possible.',
+            'The lecturer insists the arrangement is not a flaw. Note why.',
+            'A question about the examination wants the error he expects.']),
+ 'warm': [('Woman: What is illiquidity?',
+           ('Not being able to pay today.',
+            'Owing more than you own.',
+            'Yes, it happens.',
+            'A run.'),
+           0,
+           'Illiquidity is about timing and insolvency is about value.'),
+          ('Woman: Is maturity transformation a flaw?',
+           ('No, it is the service.',
+            'Yes, it should be removed.',
+            'Yes, it is a flaw.',
+            'Twenty-five years.'),
+           0,
+           'He is emphatic that it is what the arrangement is for.'),
+          ('Woman: What error does he expect?',
+           ('Treating the two failures as one.',
+            'Forgetting the definitions.',
+            'Yes, an error.',
+            'In the examination.'),
+           0,
+           'Merging illiquidity and insolvency is the mistake he warns about.')],
+ 'script': [('Man',
+             'Two words, and if you leave here able to keep them apart you have had your '
+             'money from this lecture. Insolvent: you owe more than you own. Illiquid: you '
+             'cannot produce the cash today, whatever you own. They are independent. A bank '
+             'can be perfectly solvent and completely illiquid, and that is the case worth '
+             'understanding. Why is a bank exposed to it? Because of what a bank is. Its '
+             'liabilities are short. A depositor can ask for the lot this afternoon with no '
+             'notice at all. Its assets are long. A mortgage has twenty-five years to run '
+             'and you cannot call it in over lunch. Now, everybody’s first instinct is that '
+             'this is a design fault and somebody should fix it. It is not a fault. It is '
+             'the entire service. It is how a country builds houses and factories with money '
+             'that its owners may want back next week, and if you removed it you would have '
+             'removed the bank. What you get in exchange is that the arrangement works '
+             'beautifully while withdrawals look normal and collapses the instant they all '
+             'arrive together, and it collapses for an institution whose assets would cover '
+             'its debts three times over, because the assets are not cash and cannot be made '
+             'into cash by Thursday. Hence the lender of last resort, which exists for that '
+             'case and no other: lend against good paper, to a solvent institution, and all '
+             'you have supplied is the timing. In the examination, the error I expect is the '
+             'one I have just spent an hour on. Do not merge them, and do not write '
+             'insolvent when what you mean is out of cash.')],
+ 'items': [('What does the lecturer say the two words are?',
+            ('Liquidity and leverage',
+             'Insolvent and illiquid',
+             'Deposit and mortgage',
+             'Solvency and timing'),
+            1,
+            'He defines both in the first minute and spends the hour keeping them apart.'),
+           ('Why can a depositor make a bank’s liabilities short?',
+            ('Deposits are small',
+             'A depositor can ask for the whole balance with no notice',
+             'Deposits pay no interest',
+             'Deposits are guaranteed'),
+            1,
+            'The absence of notice is what makes a liability short.'),
+           ('What does he say about everybody’s first instinct?',
+            ('It is correct',
+             'It treats the arrangement as a design fault, and it is not one',
+             'It underestimates the risk',
+             'It confuses the two words'),
+            1,
+            'He calls the arrangement the entire service rather than a fault.'),
+           ('What happens if you removed maturity transformation?',
+            ('Banks would be safer',
+             'You would have removed the bank',
+             'Mortgages would shorten',
+             'Deposits would rise'),
+            1,
+            'That is his answer to the instinct that it should be fixed.'),
+           ('What error does he expect in the examination?',
+            ('Confusing assets with liabilities',
+             'Merging illiquidity and insolvency',
+             'Forgetting the lender of last resort',
+             'Misdefining a run'),
+            1,
+            'He ends with the instruction not to merge them.')]}
+UNIT['l5'] = {'sub': 'Debt, default and who decides',
+ 'caption': 'A short talk on a judgement nobody can make in time',
+ 'board': ['Solvency: a view about value',
+           'In a run, nobody is buying',
+           'So: a published list instead',
+           'For a country: no list at all'],
+ 'skill': ('A talk about the limits of a rule in practice',
+           ['The speaker accepts the previous lecture and asks when its distinction can be '
+            'used.',
+            'A substitution is described, and she says why it is not a solution.',
+            'A question about countries wants what is missing rather than what exists.']),
+ 'warm': [('Man: Can the distinction be made in the night?',
+           ('No, not with what is in the room.',
+            'Yes, easily.',
+            'Yes, it can.',
+            'At three in the morning.'),
+           0,
+           'She calls the question undecidable with the information available.'),
+          ('Man: What did central banks do instead?',
+           ('They published a list of acceptable assets.',
+            'They stopped lending.',
+            'Yes, they did something.',
+            'A discount.'),
+           0,
+           'The rule replaces the judgement, which is her central point.'),
+          ('Man: What do countries lack?',
+           ('Any statutory procedure.',
+            'A central bank.',
+            'Yes, they lack something.',
+            'Creditors.'),
+           0,
+           'The absence of a procedure is the fact she builds the second half on.')],
+ 'script': [('Woman',
+             'Everything in the last lecture is right, and I want to ask when you are '
+             'allowed to use it. Solvency is a claim about what the assets are worth. What '
+             'an asset is worth in a crisis is whatever somebody will pay for it that week. '
+             'In the week of a run, nobody is buying. So the official sitting at three in '
+             'the morning, deciding whether this institution is illiquid or insolvent, has '
+             'been handed a question that cannot be answered with anything in the room, and '
+             'the honest thing to say is that the distinction is a tool for the inquiry '
+             'afterwards and not for the night itself. What have central banks done about '
+             'it? Not solved it. Replaced it. There is a published list of what they will '
+             'lend against and a published discount, so the three o’clock question becomes '
+             'whether the paper on the table is on the list, and that has an answer. Better, '
+             'certainly. A solution, no, because the list was drawn up by calm people '
+             'guessing what would hold its value in conditions they were not sitting in. Now '
+             'take a country. Same difficulty, none of the machinery. A company that cannot '
+             'pay goes into a statutory procedure and a court makes the creditors accept an '
+             'outcome they dislike. For a sovereign there is nothing of the kind, so what '
+             'you get is a committee, a restructuring signed under the threat of ten years '
+             'of lawyers, and a result that depends on who owns the debt, and on which of '
+             'them can afford the longest court case. I would like at least one person in '
+             'this room to spend a career on that.')],
+ 'items': [('What question does the speaker ask about the last lecture?',
+            ('Whether it is correct',
+             'When its distinction is allowed to be used',
+             'Whether banks accept it',
+             'Who first stated it'),
+            1,
+            'She grants that it is right and asks about its availability.'),
+           ('Why can the question not be answered in the night?',
+            ('The official is inexperienced',
+             'What an asset is worth is what somebody will pay, and nobody is buying',
+             'The records are incomplete',
+             'The central bank is closed'),
+            1,
+            'That chain is the whole of her argument on this point.'),
+           ('What have central banks done about it?',
+            ('Solved it', 'Replaced it with a rule', 'Ignored it', 'Handed it to the courts'),
+            1,
+            'She says plainly: not solved it, replaced it.'),
+           ('Why is the published list not a solution?',
+            ('It is too short',
+             'It was drawn up by calm people guessing about conditions they were not in',
+             'It changes too often',
+             'Banks dispute it'),
+            1,
+            'She calls it better, certainly, and not a solution.'),
+           ('What does a sovereign borrower get instead of a court?',
+            ('A central bank loan',
+             'A committee, a restructuring under threat of litigation, and a result '
+             'depending on who owns the debt',
+             'An automatic write-off',
+             'A statutory procedure in the lending country'),
+            1,
+            'Those three are what she says fills the absence.')]}
+UNIT['w4'] = {'sub': 'What a bank actually does',
+ 'skill': ('Unreal past and the subjunctive: were, had, should it',
+           ['Were rather than was marks an unreal condition: if the list were written during '
+            'a crisis, it would look different.',
+            'Had plus the participle gives an unreal past: had the lending been refused, the '
+            'bank would have closed.',
+            'Should it plus the base form is a formal conditional: Should a run begin, the '
+            'safeguard fails.']),
+ 'guided': [('You want an unreal present condition.',
+             ['if',
+              'the list',
+              'were',
+              'written',
+              'during',
+              'a crisis',
+              'it',
+              'would',
+              'look',
+              'very',
+              'different'],
+             'If the list were written during a crisis, it would look very different.'),
+            ('You want an unreal past condition.',
+             ['had',
+              'the lending',
+              'been',
+              'refused',
+              'the bank',
+              'would',
+              'have',
+              'closed',
+              'that',
+              'morning'],
+             'Had the lending been refused, the bank would have closed that morning.'),
+            ('You want a formal conditional about a run.',
+             ['should',
+              'a run',
+              'begin',
+              'the safeguard',
+              'fails',
+              'however',
+              'sound',
+              'the',
+              'assets',
+              'are'],
+             'Should a run begin, the safeguard fails, however sound the assets are.')],
+ 'exam': [('You want an unreal condition about a statutory procedure.',
+           ['if',
+            'a statutory',
+            'procedure',
+            'existed',
+            'a court',
+            'would',
+            'impose',
+            'the outcome',
+            'on',
+            'the creditors'],
+           'If a statutory procedure existed, a court would impose the outcome on the '
+           'creditors.'),
+          ('You want an unreal past about the decision.',
+           ['had',
+            'the official',
+            'known',
+            'the asset',
+            'values',
+            'the',
+            'decision',
+            'would',
+            'have',
+            'been',
+            'simple'],
+           'Had the official known the asset values, the decision would have been simple.'),
+          ('You want a formal conditional with should.',
+           ['should',
+            'the discount',
+            'prove',
+            'too',
+            'small',
+            'the loss',
+            'passes',
+            'to',
+            'the public'],
+           'Should the discount prove too small, the loss passes to the public.'),
+          ('You want a wish about the absence.',
+           ['many',
+            'economists',
+            'wish',
+            'that',
+            'a sovereign',
+            'procedure',
+            'were',
+            'available',
+            'in',
+            'law'],
+           'Many economists wish that a sovereign procedure were available in law.'),
+          ('You want an unreal condition with a negative.',
+           ['were',
+            'the assets',
+            'not',
+            'illiquid',
+            'the run',
+            'would',
+            'have',
+            'done',
+            'no',
+            'damage'],
+           'Were the assets not illiquid, the run would have done no damage.')]}
+UNIT['w5'] = {'sub': 'Debt, default and who decides',
+ 'prof': 'Dr Marchetti',
+ 'question': 'Should there be a statutory bankruptcy procedure for countries, in which a '
+             'court could impose a restructuring on unwilling creditors? Supporters say the '
+             'present system rewards whoever is most willing to litigate. Opponents say a '
+             'country that could be forced to restructure would find borrowing dearer for '
+             'ever.',
+ 'posts': [('Soraya',
+            'w',
+            'Yes. The present arrangement settles the question by who owns the debt and who '
+            'can afford the longest court case, which is not a principle anybody would '
+            'defend if they had to say it out loud.'),
+           ('Johan',
+            'm',
+            'The borrowing cost objection is not a detail. A poor country pays for that risk '
+            'every year in interest, and it pays whether or not it ever reaches the '
+            'procedure.')],
+ 'skill': ('A question where a remedy has a standing price',
+           ['Soraya argues from how the present outcome is determined; Johan from what a '
+            'remedy would cost borrowers in advance.',
+            'The second passage gives a reason the proposals have failed that is about '
+            'neither of their arguments.',
+            'A strong answer prices Johan’s objection rather than brushing it aside.']),
+ 'starters': ['Johan is right that…, although the comparison he needs is…',
+              'The distinction worth drawing is between… and…',
+              'What the passage adds to both arguments is…',
+              'So the procedure is worth having if…'],
+ 'model': ['Johan is right that the cost is permanent and he is comparing the procedure with '
+           'a world that does not exist. A lender today already prices the risk of a '
+           'restructuring, because restructurings happen; what the lender does not price is '
+           'a fast and predictable one, and the premium attached to ten years of uncertain '
+           'litigation is not obviously smaller than the premium attached to a court that '
+           'acts in eighteen months.',
+           'Soraya is right about how the present question is settled and she treats the '
+           'reform as blocked by bad arguments. The passage says otherwise, and more '
+           'usefully: the governments that would have to legislate are the governments whose '
+           'own lenders hold the power that the absence of a procedure creates. That is not '
+           'a view to be answered. It is an interest, and it explains fifty years of failure '
+           'better than either of their positions does.',
+           'So the procedure is worth having if it is fast, predictable and narrow, because '
+           'those three are what convert Johan’s permanent premium into a smaller one rather '
+           'than a larger one. What has to be given up is the hope that it will be enacted '
+           'by agreement among the lending states, which is where every attempt since the '
+           'nineteen seventies has died. The route that remains is unattractive and real: '
+           'the terms written into the bonds themselves, one issue at a time, until the '
+           'practice is standard and the statute is merely a record of it, which is how a '
+           'great deal of commercial law arrived in the first place.'],
+ 'model_words': 258}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'What a bank actually does',
+  'focus': 'keeping two words apart',
+  'skill': ('Insolvent is about value. Illiquid is about timing.',
+            ['Define each one in a short sentence of its own. A single sentence with both '
+             'tends to merge them.',
+             'Stress the contrasting noun: value, timing.',
+             'Then say explicitly that they are independent.']),
+  'repeat': ['The two are independent.',
+             'Illiquid means you cannot pay today.',
+             'Insolvent means you owe more than you own.',
+             'Maturity transformation is the service, not the fault.',
+             'Its liabilities are short and its assets are long.',
+             'The lender of last resort supplies the timing and nothing else.',
+             'A run destroys a bank whose assets are three times its debts.'],
+  'theme': 'two things that are easily confused',
+  'qs': ['Tell me about two ideas people around you tend to confuse. What is the difference?',
+         'Some people think a business that cannot pay its bills must be badly run. How far '
+         'would you agree?',
+         'How would you explain to a friend why a bank cannot simply keep everybody’s money '
+         'in a safe?',
+         'Finally, describe a time you could not pay for something you could easily afford.'],
+  'model': [(2,
+             'Not necessarily, and this unit gives the reason. A business can be worth far '
+             'more than it owes and still be unable to produce cash on a particular Tuesday, '
+             'and those are different failures.'),
+            (3,
+             'I would say that if the money sat in a safe, nobody could borrow it, so there '
+             'would be no houses and no factories built with it. The usefulness and the '
+             'fragility are the same arrangement.')],
+  'selfcheck': ['I defined each term in its own sentence',
+                'I stressed value against timing',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Debt, default and who decides',
+  'focus': 'saying that a correct distinction cannot be used in time',
+  'skill': ('The distinction is right, and it is not available tonight',
+            ['Grant the distinction in full. Any hedging makes it sound as though you '
+             'dispute it.',
+             'Then say when it becomes usable, which is the real claim.',
+             'Keep the time words stressed: tonight, afterwards, that week.']),
+  'repeat': ['The distinction is correct.',
+             'It is not available in the night.',
+             'They did not solve it. They replaced it.',
+             'The list was drawn up by calm people.',
+             'In the week of a run, nobody is buying.',
+             'An asset is worth what somebody will pay that week.',
+             'A tool for the inquiry afterwards is not a tool for three in the morning.'],
+  'theme': 'knowing something that does not help in time',
+  'qs': ['Tell me about a rule that was correct and useless when you needed it. What '
+         'happened?',
+         'Some people say a decision should always wait for better information. What do you '
+         'think?',
+         'How should somebody decide when the information they need does not exist?',
+         'Finally, describe a judgement that only looked obvious afterwards.'],
+  'model': [(2,
+             'I think that advice assumes the information will arrive, and often the point '
+             'of the situation is that it will not. Then waiting is itself the decision, and '
+             'usually the worst one.'),
+            (3,
+             'I would replace the judgement with a rule written in advance, the way the '
+             'central banks did, and accept that the rule will be wrong sometimes, because '
+             'at least it can be applied at three in the morning.')],
+  'selfcheck': ['I granted the distinction without hedging',
+                'I said when it becomes usable',
+                'I stressed the time words']}]

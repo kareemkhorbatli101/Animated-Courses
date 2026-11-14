@@ -1037,6 +1037,8 @@ UNIT = dict(
 )
 
 
+
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1062,7 +1064,7 @@ UNIT['fieldwords'] = [('suspicion', 'a feeling that something is wrong, short of
  ('concession', 'a point granted to the other side'),
  ('persuasive', 'likely to move an audience, whether or not sound'),
  ('normative', 'about how something ought to be done'),
- ('descriptive', 'about how something is actually done')]
+ ('observational', 'resting on what is measured rather than on principle')]
 UNIT['r4'] = {'sub': 'How an argument is built',
  'title': 'The Part of an Argument Nobody Says Out Loud',
  'words': 350,
@@ -1159,7 +1161,7 @@ UNIT['r4'] = {'sub': 'How an argument is built',
 UNIT['r5'] = {'sub': 'How an argument is built',
  'title': 'A Model of How We Ought to Be Persuaded',
  'words': 346,
- 'skill': ('Reading an objection that a model is an ideal, not a description',
+ 'skill': ('Reading an objection that a model is an ideal rather than a report',
            ['The writer accepts that the model is useful and denies that it describes '
             'anything. Note the word for each.',
             'Measured findings follow. Hold what each of them says moves an audience.',
@@ -1193,7 +1195,7 @@ UNIT['r5'] = {'sub': 'How an argument is built',
            'it happening, and the suspicion it teaches is worth more than the elegance it '
            'claims.'],
  'guided': [('What does the writer say the model is?',
-             ('Descriptive', 'Normative', 'Mistaken', 'Out of date'),
+             ('Observational', 'Normative', 'Mistaken', 'Out of date'),
              1,
              'It sets out what an argument would consist of if audiences were moved by '
              'reasons.'),
@@ -1353,7 +1355,7 @@ UNIT['l5'] = {'sub': 'How an argument is built',
             'Yes, she does.',
             'Three findings.'),
            0,
-           'She calls it normative and denies that it is descriptive.'),
+           'She calls it normative and denies that it is observational.'),
           ('Man: Why does insinuation work so well?',
            ('There is nothing to check.',
             'It is repeated more often.',

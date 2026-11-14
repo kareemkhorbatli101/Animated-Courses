@@ -1056,3 +1056,612 @@ UNIT = dict(
         'Beyond that, break the phrase with of — and check whether compressing the clause '
         'has quietly removed the person who did the thing.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 39 gains its two academic cycles. Cycle 4 corrects the common
+# belief about what a patent confers, locates the monopoly in the claims
+# rather than the description, and ends on independent invention as the
+# normal case, so that priority is a tidy rule resting on an untidy
+# fact. Cycle 5 takes that fact into one laboratory and argues that
+# contribution is not a quantity at all: four necessary contributors,
+# no evidence favouring any split summing to a hundred, and a remedy
+# that replaces an invented measurement with a dated record and a named
+# committee giving written reasons.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('invention', 'the thing a patent is granted for'),
+ ('inventors', 'those named on a patent as having devised it'),
+ ('apparatus', 'a piece of equipment built for a particular purpose'),
+ ('configuration', 'the particular arrangement the claims describe'),
+ ('embodiment', 'one concrete form in which an invention can be built'),
+ ('consistent', 'in agreement with what has already been stated'),
+ ('contributed', 'added something of substance to a piece of work'),
+ ('apportioning', 'the dividing of credit or money into shares'),
+ ('percentages', 'shares written as figures out of a hundred'),
+ ('dissertation', 'the long piece of written work for a research degree'),
+ ('unworkable', 'impossible to put into practice'),
+ ('dishonesty', 'a deliberate misstatement, as against an honest error')]
+UNIT['r4'] = {'sub': 'What a patent actually is',
+ 'title': 'A Right to Exclude, Bought With a Disclosure',
+ 'words': 385,
+ 'skill': ('Reading a definition that corrects a common belief',
+           ['The passage states what a patent is not before it states what it is. Hold both.',
+            'One part of the document defines the monopoly. Note which part, because a '
+            'question turns on it.',
+            'The last paragraph introduces a difficulty for the whole system. Note what the '
+            'difficulty is about.']),
+ 'paras': ['A patent confers no right to the construction of anything, and the distinction '
+           'is not a quibble. It confers a right to stop other people building, for twenty '
+           'years, in exchange for a publication sufficient to let a skilled reader build it '
+           'without further invention of their own. The bargain is explicit in the statute '
+           'and is the subject of a routine misunderstanding among the people it most '
+           'affects. A doctoral researcher holding a patent on an apparatus may find the '
+           'construction of that apparatus blocked by three earlier patents on its '
+           'components, and nothing in the grant affords them any protection, because a '
+           'grant is a weapon and not a shield.',
+           'The document itself has two parts and only one of them has legal force. The '
+           'description sets out the background, the drawings and one or more embodiments, '
+           'and it exists to satisfy the disclosure half of the bargain, which is the only '
+           'function the law assigns it. The claims, a numbered list at the end in a syntax '
+           'of its own, define the monopoly. The monopoly is exactly the configuration those '
+           'claims recite, no wider and no narrower. A rival who reads the description, '
+           'adopts the idea and builds something outside the claims has committed no '
+           'infringement whatever. An embodiment consistent with the description but outside '
+           'the claims lies outside the monopoly as well. The drafting of claims is '
+           'therefore the whole of the craft, and the usual error of inventors is a claim '
+           'drawn so closely around the apparatus they happen to have built that any '
+           'competent engineer can design around it in an afternoon, after which the '
+           'protection has expired in substance long before its twenty years are up.',
+           'A third feature of the system unsettles the picture it presents of itself. '
+           'Independent invention of the same thing within months by unconnected groups is '
+           'not a curiosity of the record but the normal case, documented across the whole '
+           'history of the patent office, and the grant goes to the earliest application '
+           'rather than to the only begetter of an idea. Priority is a tidy administrative '
+           'rule resting on an untidy observation, and the next passage takes that '
+           'observation inside a single laboratory, where the parties are not rivals but '
+           'colleagues and the question becomes one of attribution rather than of priority.'],
+ 'guided': [('What does a patent confer?',
+             ('A right to build the invention',
+              'A right to stop other people building it',
+              'A right to a share of profits',
+              'A right to publish the description'),
+             1,
+             'And the passage adds that a grant is a weapon and not a shield.'),
+            ('What is given in exchange?',
+             ('A fee to the patent office',
+              'A public disclosure sufficient for a skilled reader to build it',
+              'A licence to competitors',
+              'A twenty-year monopoly'),
+             1,
+             'That is the disclosure half of the bargain.'),
+            ('Why might a researcher be unable to build their own patented apparatus?',
+             ('The patent has expired',
+              'Earlier patents cover its components',
+              'The claims are too narrow',
+              'The description is incomplete'),
+             1,
+             'Nothing in the grant protects them against those earlier patents.')],
+ 'exam': [('Which part of the document has legal force?',
+           ('The description', 'The drawings', 'The claims', 'The background'),
+           2,
+           'The claims define the monopoly, and the description exists for disclosure.'),
+          ('What is the monopoly, exactly?',
+           ('The idea behind the invention',
+            'The configuration the claims recite, no wider and no narrower',
+            'Everything in the description',
+            'Any embodiment of the invention'),
+           1,
+           'The passage is emphatic about the limits in both directions.'),
+          ('What has a rival who builds outside the claims done?',
+           ('Committed an infringement of the description',
+            'Committed no infringement whatever',
+            'Infringed the claims only on reading the patent',
+            'Breached the disclosure half of the bargain'),
+           1,
+           'Adopting the idea is not infringement if the claims are not touched.'),
+          ('What is the usual error of inventors?',
+           ('Claiming too widely',
+            'Drawing the claim so closely around what they built that it can be designed '
+            'around',
+            'Omitting the drawings',
+            'Filing too late'),
+           1,
+           'Any competent engineer can then design around it in an afternoon.'),
+          ('What does the passage say about independent invention of the same thing?',
+           ('It is a curiosity of the record',
+            'It is the normal case',
+            'It is impossible to document',
+            'It happens only in universities'),
+           1,
+           'Documented across the whole history of the patent office, as the passage puts '
+           'it.')]}
+UNIT['r5'] = {'sub': 'Who owns what a student makes',
+ 'title': 'The Percentages Were Never Measurements',
+ 'words': 384,
+ 'skill': ('Reading an argument that a quantity does not exist',
+           ['The writer denies that something can be measured at all. Note what it is.',
+            'A worked case follows with four people in it. Hold what each one did.',
+            'A question about the recommendation wants what should be recorded instead of a '
+            'figure.']),
+ 'paras': ['University agreements on invention divide the proceeds between the institution, '
+           'the named inventors and the department in stated percentages, and the '
+           'percentages are a convention of long standing, widely mistaken for a finding '
+           'about the work. Nothing in a laboratory corresponds to the quantity they purport '
+           'to divide. Contribution is not a quantity with a size, no procedure exists '
+           'anywhere for its measurement, and any apportioning of it is a decision taken by '
+           'somebody rather than a fact discovered by anybody.',
+           'The standard case makes the difficulty concrete, and every laboratory in the '
+           'country contains one. A professor obtains the funding, selects the problem and '
+           'supplies the hypothesis that turns out to be wrong. A doctoral candidate, three '
+           'years into a dissertation on a different question, notices why it is wrong and '
+           'builds the configuration that works, in an apparatus assembled from the wreckage '
+           'of two earlier attempts. A departmental engineer solves the two fabrication '
+           'problems that had made every earlier attempt unworkable, and a visiting '
+           'researcher who has since returned to another country contributed the measurement '
+           'technique without which nobody would have known the thing worked. Remove any one '
+           'of the four from the history and there is no invention at all, which is the '
+           'whole of the difficulty in a single sentence. The agreement now requires a '
+           'division into percentages, and no evidence exists, in principle or in the '
+           'notebooks, that favours sixty and twenty and ten and ten over any other set of '
+           'figures consistent with a total of a hundred.',
+           'The practical recommendation follows from abandoning the pretence rather than '
+           'from improving it. A figure invented in an administrative office and presented '
+           'as an assessment of contribution generates the suspicion of dishonesty whichever '
+           'way it falls and whoever is favoured by it, and the suspicion is reasonable, '
+           'because a measurement has been claimed where a judgement was made. Institutions '
+           'that keep a dated record of who did what, decided by a committee whose members '
+           'are named and whose reasons are written down, reach numbers of much the same '
+           'size by a route that can be argued with afterwards. It is tempting to read this '
+           'as a counsel of despair about credit. It is the opposite of one. A judgement '
+           'openly made is reviewable, and a measurement nobody took is not.'],
+ 'guided': [('What does the writer say the percentages are?',
+             ('An accurate measurement',
+              'A convention widely mistaken for a finding',
+              'A legal requirement',
+              'A recent innovation'),
+             1,
+             'Nothing in a laboratory corresponds to the quantity they purport to divide.'),
+            ('What does the writer say about contribution?',
+             ('It can be measured with care',
+              'It is not a scalar and has no procedure for its measurement',
+              'It belongs to the institution',
+              'It is settled by the notebooks'),
+             1,
+             'Any apportioning of it is therefore a decision rather than a discovery.'),
+            ('What did the professor supply?',
+             ('The measurement technique',
+              'The funding, the problem and a hypothesis that turns out wrong',
+              'The working configuration',
+              'The fabrication solutions'),
+             1,
+             'All three, including the hypothesis that proved mistaken.')],
+ 'exam': [('What did the doctoral candidate do?',
+           ('Obtained the funding',
+            'Noticed why the hypothesis was wrong and built the configuration that works',
+            'Solved the fabrication problems',
+            'Supplied the measurement technique'),
+           1,
+           'And the candidate was three years into a dissertation on a different question.'),
+          ('What did the visiting researcher contribute?',
+           ('The hypothesis',
+            'The measurement technique',
+            'The fabrication solutions',
+            'The funding'),
+           1,
+           'Without it nobody would have known the thing worked.'),
+          ('What does the writer say about removing any one of the four?',
+           ('The invention would be delayed',
+            'There is no invention',
+            'The percentages would change',
+            'The patent would be narrower'),
+           1,
+           'That is why no set of figures is favoured over another.'),
+          ('Why does an invented figure generate suspicion of dishonesty?',
+           ('Because institutions take too large a share',
+            'Because a measurement has been claimed where a judgement was made',
+            'Because the figures never sum correctly',
+            'Because the inventors are not consulted'),
+           1,
+           'And the writer says the suspicion is reasonable for that reason.'),
+          ('What does the writer recommend instead?',
+           ('An independent audit of contribution',
+            'A dated record of who did what, decided by a named committee giving written '
+            'reasons',
+            'Equal shares for everybody involved',
+            'Abolishing the agreements'),
+           1,
+           'The same numbers are reached by a route that can be argued with.')]}
+UNIT['l4'] = {'sub': 'What a patent actually is',
+ 'caption': 'A lecture on what the grant does and where the monopoly lives',
+ 'board': ['A right to exclude, not to build',
+           'Disclosure is the price',
+           'The claims, not the description',
+           'Priority: first to file'],
+ 'skill': ('A lecture that corrects a definition and then narrows it',
+           ['What a patent is not comes first. Note the correction.',
+            'Then which part of the document matters. The rest of the hour depends on it.',
+            'A question about the drafting exercise wants the error he expects.']),
+ 'warm': [('Woman: What does a patent let you do?',
+           ('Stop other people building.',
+            'Build the invention.',
+            'Yes, it lets you.',
+            'Twenty years.'),
+           0,
+           'It is a right to exclude, which is the correction he opens with.'),
+          ('Woman: Which part defines the monopoly?',
+           ('The claims.', 'The description.', 'Yes, one part does.', 'The drawings.'),
+           0,
+           'The description buys the disclosure; the claims are the monopoly.'),
+          ('Woman: What error does he expect in the exercise?',
+           ('Claims drawn too narrowly.',
+            'Claims drawn too widely.',
+            'Yes, an error.',
+            'A single embodiment.'),
+           0,
+           'Narrow claims around the thing you actually built is the standard beginner '
+           'error.')],
+ 'script': [('Man',
+             'A patent does not give you permission to make your invention. Write that down, '
+             'because almost every newspaper gets it wrong and so did I until somebody '
+             'corrected me. What it gives you is twenty years of stopping everybody else, '
+             'and what you pay for that is a disclosure full enough that a skilled reader '
+             'could build the thing from your document without inventing anything '
+             'themselves. That is the bargain. It also means your own patented apparatus may '
+             'be unbuildable by you, because three earlier patents cover its parts, and your '
+             'grant does nothing about that. A grant is a weapon. It is not a shield. Now, '
+             'the document. Two parts, one of which has legal force. The description, with '
+             'the background and the drawings and your embodiments, is there to buy the '
+             'disclosure. The claims, that numbered list at the back in the strange syntax, '
+             'are the monopoly, and the monopoly is precisely the configuration those claims '
+             'recite. Not the idea. Not the spirit of it. The configuration. Somebody can '
+             'read your description, take your whole idea, build it outside your claims and '
+             'owe you nothing. Which is why claim drafting is the entire craft, and why, in '
+             'the exercise on Thursday, the error I expect from most of you is a claim '
+             'wrapped so tightly round the apparatus on your bench that any competent '
+             'engineer designs round it over lunch. And when that happens your protection '
+             'has gone, in substance, about nineteen years before the certificate on your '
+             'wall says it has. I would rather you learnt that from me than from a court. '
+             'Which brings me to the drafting exercise itself, and to the one piece of '
+             'advice that will save you most: claim the function first and the apparatus '
+             'second.')],
+ 'items': [('What does the lecturer say a patent does not give you?',
+            ('A monopoly',
+             'Permission to make your invention',
+             'Twenty years of protection',
+             'A right to disclosure'),
+            1,
+            'He says almost every newspaper gets this wrong.'),
+           ('What is the price of the grant?',
+            ('A fee',
+             'A disclosure full enough for a skilled reader to build the thing',
+             'A licence to rivals',
+             'Publication of the claims'),
+            1,
+            'That is what he calls the bargain.'),
+           ('Why might your own patented apparatus be unbuildable by you?',
+            ('The claims are too narrow',
+             'Earlier patents cover its parts',
+             'The disclosure was insufficient',
+             'The grant has lapsed'),
+            1,
+            'And he adds that the grant does nothing about that.'),
+           ('What does he say the monopoly is NOT?',
+            ('The configuration the claims recite',
+             'The idea, or the spirit of it',
+             'Twenty years long',
+             'Defined by the claims'),
+            1,
+            'Not the idea, not the spirit of it, but the configuration.'),
+           ('What error does he expect on Thursday?',
+            ('Claims that are too wide',
+             'A claim wrapped too tightly round the apparatus on the bench',
+             'A missing description',
+             'Too many embodiments'),
+            1,
+            'Any competent engineer then designs round it over lunch.')]}
+UNIT['l5'] = {'sub': 'Who owns what a student makes',
+ 'caption': 'A short talk on four people and one hundred per cent',
+ 'board': ['Four contributors, all necessary',
+           'No evidence favours any split',
+           'A judgement, not a measurement',
+           'Record who did what, and when'],
+ 'skill': ('A talk denying that something can be measured',
+           ['The speaker says a quantity does not exist. Note what she says exists instead.',
+            'Four people, four contributions. Keep them straight.',
+            'A question about her remedy wants what replaces the figure.']),
+ 'warm': [('Man: Can contribution be measured?',
+           ('No, it is not that kind of thing.',
+            'Yes, with care.',
+            'Yes, it can.',
+            'Four people.'),
+           0,
+           'She denies that there is any quantity there to be measured.'),
+          ('Man: What does the engineer do in her case?',
+           ('Solves the fabrication problems.',
+            'Builds the configuration.',
+            'Yes, something.',
+            'Ten per cent.'),
+           0,
+           'Two fabrication problems that had made every earlier attempt unworkable.'),
+          ('Man: What replaces the figure?',
+           ('A dated record and named reasons.',
+            'An independent audit.',
+            'Yes, something replaces it.',
+            'Equal shares.'),
+           0,
+           'The numbers still get written; what changes is that the route is reviewable.')],
+ 'script': [('Woman',
+             'Your invention agreement will divide the proceeds in percentages, and I want '
+             'to tell you what those percentages are. They are a convention. They are '
+             'presented as a finding, and there is nothing in any laboratory that they '
+             'measure, because contribution is not the kind of thing that has a size. Here '
+             'is the case I use. A professor gets the money, picks the problem and proposes '
+             'the mechanism, and the mechanism is wrong. A doctoral student, three years '
+             'into a dissertation about something else entirely, works out why it is wrong '
+             'and builds the arrangement that actually works. A departmental engineer cracks '
+             'the two fabrication problems that had sunk every previous attempt. And a '
+             'visiting researcher, who has long since gone home to another country, brought '
+             'the measurement method without which none of them would have known it worked. '
+             'Take any one of those four away and there is no invention at all. Now go and '
+             'find me the evidence that says sixty, twenty, ten and ten rather than any '
+             'other four numbers adding to a hundred. There is none. Not in the notebooks, '
+             'not in principle. So here is what I want instead of a better formula. Keep a '
+             'dated record of who did what. Let a committee decide, with its members named '
+             'and its reasons written down. You will reach numbers that look exactly the '
+             'same, and the difference is that somebody can argue with them, which a '
+             'measurement nobody took cannot be. And one more thing, because somebody always '
+             'asks. This is not a counsel of despair about credit. It is the only route to '
+             'credit that survives anybody looking at it closely, and the only one I would '
+             'defend in front of the four people in my example.')],
+ 'items': [('What does the speaker say the percentages are?',
+            ('A legal requirement',
+             'A convention presented as a finding',
+             'An accurate division',
+             'A recent change'),
+            1,
+            'And she says there is nothing in a laboratory that they measure.'),
+           ('Why can contribution not be measured, in her account?',
+            ('The records are incomplete',
+             'It is not the kind of thing that has a size',
+             'The parties disagree',
+             'Nobody has tried'),
+            1,
+            'That is the claim the rest of the talk rests on.'),
+           ('What was wrong with the professor’s part?',
+            ('The funding was insufficient',
+             'The mechanism proposed was wrong',
+             'The problem was badly chosen',
+             'The hypothesis was untested'),
+            1,
+            'He gets the money, picks the problem, proposes a mechanism, and the mechanism '
+            'is wrong.'),
+           ('What does she challenge the class to find?',
+            ('A better formula',
+             'Evidence favouring sixty, twenty, ten and ten over any other four numbers',
+             'The original notebooks',
+             'A fairer committee'),
+            1,
+            'And she answers it herself: there is none.'),
+           ('What is the difference her remedy makes?',
+            ('The numbers change',
+             'Somebody can argue with the numbers',
+             'The institution takes less',
+             'The decision is faster'),
+            1,
+            'A judgement is reviewable, and a measurement nobody took is not.')]}
+UNIT['w4'] = {'sub': 'What a patent actually is',
+ 'skill': ('Complex noun phrases',
+           ['A noun phrase can carry its own modifiers before and after: a disclosure full '
+            'enough for a skilled reader to build the thing.',
+            'Keep the head noun early and hang the long material behind it. English '
+            'tolerates weight at the end, not in the middle.',
+            'A phrase of this kind replaces a clause, which is what makes academic prose '
+            'short and dense at the same time.']),
+ 'guided': [('You want a noun phrase with material behind the head.',
+             ['a disclosure',
+              'full',
+              'enough',
+              'for',
+              'a skilled',
+              'reader',
+              'to',
+              'build',
+              'the thing'],
+             'A disclosure full enough for a skilled reader to build the thing.'),
+            ('You want modifiers on both sides of the head.',
+             ['the numbered',
+              'list',
+              'of claims',
+              'at',
+              'the',
+              'end',
+              'of',
+              'the',
+              'document'],
+             'The numbered list of claims at the end of the document.'),
+            ('You want a noun phrase replacing a clause.',
+             ['the',
+              'apportioning',
+              'of',
+              'credit',
+              'between',
+              'four',
+              'necessary',
+              'contributors',
+              'in',
+              'one',
+              'laboratory'],
+             'The apportioning of credit between four necessary contributors in one '
+             'laboratory.')],
+ 'exam': [('You want a heavy noun phrase as a subject.',
+           ['a claim',
+            'drawn',
+            'closely',
+            'round',
+            'the apparatus',
+            'on',
+            'the bench',
+            'is',
+            'easily',
+            'avoided'],
+           'A claim drawn closely round the apparatus on the bench is easily avoided.'),
+          ('You want a noun phrase with two postmodifiers.',
+           ['the measurement',
+            'method',
+            'brought',
+            'by',
+            'a',
+            'visiting',
+            'researcher',
+            'from',
+            'another',
+            'country'],
+           'The measurement method brought by a visiting researcher from another country.'),
+          ('You want a nominal subject in place of a clause.',
+           ['the independent',
+            'invention',
+            'of',
+            'the',
+            'same',
+            'thing',
+            'within',
+            'months',
+            'is',
+            'the normal',
+            'case'],
+           'The independent invention of the same thing within months is the normal case.'),
+          ('You want a noun phrase carrying a condition.',
+           ['a judgement',
+            'openly',
+            'made',
+            'by',
+            'a',
+            'named',
+            'committee',
+            'is',
+            'reviewable'],
+           'A judgement openly made by a named committee is reviewable.'),
+          ('You want a long noun phrase after a preposition.',
+           ['in',
+            'the syntax',
+            'peculiar',
+            'to',
+            'the claims',
+            'at',
+            'the',
+            'end',
+            'of',
+            'a patent'],
+           'In the syntax peculiar to the claims at the end of a patent.')]}
+UNIT['w5'] = {'sub': 'Who owns what a student makes',
+ 'prof': 'Dr Haddad',
+ 'question': 'A university proposes to replace its fixed invention shares with a committee '
+             'that decides each case and publishes its reasons. Staff object that this will '
+             'produce inconsistent outcomes between departments and endless argument. Should '
+             'the university make the change?',
+ 'posts': [('Mirela',
+            'w',
+            'Yes. A fixed formula is consistent in the way a broken clock is consistent, and '
+            'the argument it prevents is argument that ought to be happening.'),
+           ('Tobias',
+            'm',
+            'Consistency is not nothing. A researcher choosing between two universities can '
+            'read a formula and cannot read a committee, and the second passage does not '
+            'address that at all.')],
+ 'skill': ('A question about predictability against accuracy',
+           ['Mirela argues that a formula buys consistency at the cost of sense; Tobias that '
+            'predictability has a value of its own.',
+            'The second passage says the committee reaches the same numbers by a reviewable '
+            'route, which bears on both.',
+            'A strong answer answers Tobias rather than dismissing him.']),
+ 'starters': ['Tobias is right that…, and the reply to it is…',
+              'The distinction worth drawing is between… and…',
+              'What the passage actually claims is…',
+              'So the change is worth making provided that…'],
+ 'model': ['Tobias is right that predictability has a value and wrong that the passage '
+           'ignores it. Its claim is that a committee reaches numbers of roughly the same '
+           'size by a route that can be argued with, which means the loss he fears is a loss '
+           'of certainty about one case rather than of the general level, and a researcher '
+           'comparing two universities needs the second more than the first.',
+           'Mirela is right about the broken clock and she gives away an argument she could '
+           'have kept. A fixed formula is not merely arbitrary; it is arbitrary in a '
+           'direction, since every such formula in use allocates by position rather than by '
+           'what anybody did, which is why the professor’s share never falls when the '
+           'hypothesis turns out to be wrong.',
+           'So the change is worth making provided the published reasons accumulate into '
+           'something a candidate can read. A committee whose decisions are reported with '
+           'the facts of each case, and whose earlier decisions are cited in the later ones, '
+           'becomes predictable in the way case law is predictable, which is slower than a '
+           'formula to establish and in the end no less legible to a candidate. What is '
+           'given up is the single number a recruitment page can print, and that cost is '
+           'real, since the university will lose candidates to institutions that can print '
+           'one. It is a smaller cost than a standing invitation to the suspicion of '
+           'dishonesty, which is what a figure presented as a measurement will go on '
+           'attracting for as long as the university continues to publish one.'],
+ 'model_words': 263}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'What a patent actually is',
+  'focus': 'correcting a belief before replacing it',
+  'skill': ('A patent does not give you permission to build. It gives you twenty years of '
+            'stopping everybody else.',
+            ['Say the negative first, in a short sentence, and stop. The pause is what makes '
+             'the correction land.',
+             'Then give the positive at full length.',
+             'Do not stress the not. Stress the verb it attaches to.']),
+  'repeat': ['The description buys the disclosure.',
+             'The claims are the monopoly.',
+             'Not the idea. The configuration.',
+             'A grant is a weapon, not a shield.',
+             'A patent does not give you permission to build.',
+             'It gives you twenty years of stopping everybody else.',
+             'Somebody can take your whole idea, build it outside your claims, and owe you '
+             'nothing.'],
+  'theme': 'something that does not do what its name suggests',
+  'qs': ['Tell me about something that turned out to work differently from how you assumed. '
+         'What was the assumption?',
+         'Some people say that if you invent something it is yours. How far would you agree?',
+         'How would you explain to a friend what a patent actually gives them?',
+         'Finally, describe a time you read a document and found it meant something else.'],
+  'model': [(2,
+             'I would separate two things there. Devising something and having a right to '
+             'make it are different, and the second depends on what other people devised '
+             'before you, which most people never consider.'),
+            (3,
+             'I would say it does not let you build anything. It lets you stop other people, '
+             'and the price is that you have to explain the whole thing in public.')],
+  'selfcheck': ['I said the negative first and paused',
+                'I gave the positive at full length',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Who owns what a student makes',
+  'focus': 'denying that something can be measured',
+  'skill': ('Contribution is not the kind of thing that has a size',
+            ['State the denial as a claim about the thing, not about our instruments. Those '
+             'are different objections.',
+             'Then invite the challenge: find me the evidence. It makes the denial testable.',
+             'Keep the tone matter-of-fact. Indignation makes it sound like a complaint.']),
+  'repeat': ['The percentages are a convention.',
+             'They are presented as a finding.',
+             'There is none, in the notebooks or in principle.',
+             'Find me the evidence for sixty, twenty, ten and ten.',
+             'Contribution is not the kind of thing that has a size.',
+             'Take any one of the four away and there is no invention.',
+             'A judgement openly made can be argued with, and a measurement nobody took '
+             'cannot.'],
+  'theme': 'a number that was never measured',
+  'qs': ['Tell me about a figure you have been given that nobody could have measured. Where '
+         'did it come from?',
+         'Some people think a number is always better than an opinion. What do you think?',
+         'How should a group divide credit for work everybody was necessary for?',
+         'Finally, describe a decision that would have been better if it had been made '
+         'openly.'],
+  'model': [(2,
+             'I think an unmeasured number is worse than an opinion, because an opinion '
+             'announces what it is. A figure claims an authority it has not earned, and that '
+             'is why people suspect dishonesty when they see one.'),
+            (3,
+             'I would have the decision made by named people who write down their reasons, '
+             'and I would stop calling the result a measurement.')],
+  'selfcheck': ['I denied it about the thing, not about our instruments',
+                'I invited the challenge',
+                'I kept the tone matter-of-fact']}]

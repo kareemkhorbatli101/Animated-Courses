@@ -103,8 +103,14 @@ def seam_report(n, U):
     # comes off before the comparison.
     want = {re.sub(r"['\u2019]s$", '', w.lower()) for w in TEACH.get(str(n), [])}
     mine = {w.lower() for w, _ in check.heads(U)}
+    # A word an earlier unit already teaches by name is closed at this seam
+    # too, and teaching it twice would trip the no-repeat gate. So the set
+    # that counts is this unit's head words together with the whole path
+    # behind it, each with its regular derivations credited.
+    earlier = {w.lower() for w in taught_before(n)}
+    known = mine | earlier
     from content._wordbank import expand
-    covered = {w.lower() for w in expand(list(mine), deriv=True)} | mine
+    covered = {w.lower() for w in expand(list(known), deriv=True)} | known
     return want, {w for w in want if w in covered}
 
 

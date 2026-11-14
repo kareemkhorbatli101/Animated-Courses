@@ -1034,3 +1034,598 @@ UNIT = dict(
         'overuse. One per paragraph, placed where you most want the reader to slow down. '
         'Examiners notice the first one as range and the third one as a tic.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 36 gains its two academic cycles. Cycle 4 separates the two
+# reasons a divided habitat loses more species than its area predicts,
+# edge and delay, and sets out the extinction debt: a fragment carries
+# species it can no longer support, so a survey cannot distinguish a
+# stable fragment from one in the eighth year of a ninety-year decline.
+# Cycle 5 attacks the accounting rather than the planting, setting the
+# forty-year return of canopy cover against the centuries needed by soil
+# fungi, dead-wood invertebrates and the plants of the woodland floor,
+# and asks only that the age cleared and the planting date be recorded
+# and never added together.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('conservation', 'the work of keeping species and habitats in being'),
+ ('plantation', 'trees planted together, usually of one or two kinds'),
+ ('woodland', 'tree-covered land that has grown up over a long period'),
+ ('politicians', 'those who must choose between claims on public money'),
+ ('timescale', 'the length of time a process actually takes'),
+ ('fungi', 'the organisms that break down dead matter in soil'),
+ ('invertebrates', 'animals without a backbone, such as beetles and worms'),
+ ('colonisation', 'the arrival and settling of a species in a new place'),
+ ('remnant', 'a small piece of habitat left when the rest is cleared'),
+ ('replanted', 'planted again after clearance'),
+ ('accounting', 'the way gains and losses are added up on paper'),
+ ('debt', 'something owed that has not yet been paid')]
+UNIT['r4'] = {'sub': 'How habitats break up',
+ 'title': 'The Species a Fragment Has Not Lost Yet',
+ 'words': 346,
+ 'skill': ('Reading a finding about delay',
+           ['The passage says a count taken now is misleading. Note what it is misleading '
+            'about.',
+            'Two separate reasons are given for the same loss. Keep them apart.',
+            'A question about the survey wants what it cannot show.']),
+ 'paras': ['Conservation arithmetic begins with a relationship between the area of a habitat '
+           'and the number of species it holds, and the relationship is reliable enough to '
+           'be used in planning and in legislation. What it does not say is that a given '
+           'area, divided into pieces, holds as many species as the same area in one block. '
+           'Division loses species for two reasons that are quite separate, and the '
+           'confusion of them is the commonest error in the subject. The first is edge. A '
+           'fragment has a far greater proportion of its area within reach of the open '
+           'ground around it, where the light, the wind and the temperature are those of a '
+           'field rather than a woodland, so part of what looks like habitat on a map is not '
+           'habitat for the species that need the interior, and the proportion affected '
+           'rises sharply as the pieces get smaller.',
+           'The second reason is the one that changes how a survey must be read. A fragment '
+           'does not lose its species at the moment it is cut off. It loses them over '
+           'decades, as populations too small to persist decline one by one, and '
+           'recolonisation from elsewhere becomes impossible because there is no elsewhere '
+           'within reach. The species are present and the fragment cannot support them, and '
+           'the difference between the two is called an extinction debt. A survey taken ten '
+           'years after fragmentation finds a list of species that includes a substantial '
+           'number already committed to disappearing, and no observation made on the day of '
+           'the visit distinguishes them from the rest.',
+           'The practical consequence is uncomfortable for everybody who relies on '
+           'monitoring. A count cannot tell you whether a fragment is in a stable condition '
+           'or in the early part of a long decline, and the two look identical on the day of '
+           'the visit. What distinguishes them is area, isolation and the length of time '
+           'since the division, which are measured from a map and not from the ground, and '
+           'that is an uncomfortable conclusion for a profession whose whole training is in '
+           'identification.'],
+ 'guided': [('What does the area relationship NOT say?',
+             ('That area predicts species number',
+              'That a divided area holds as many species as the same area in one block',
+              'That it can be used in planning',
+              'That it is reliable'),
+             1,
+             'That is the step the passage says people take without warrant.'),
+            ('What is the first reason division loses species?',
+             ('Edge', 'Hunting', 'Climate', 'Soil change'),
+             0,
+             'A fragment has far more of its area within reach of the open ground.'),
+            ('Why is part of a fragment not habitat for interior species?',
+             ('It is too steep',
+              'The light, wind and temperature there are those of a field',
+              'It has been replanted',
+              'It is too small to map'),
+             1,
+             'The conditions near an edge are field conditions, not woodland ones.')],
+ 'exam': [('When does a fragment lose its species?',
+           ('At the moment it is cut off',
+            'Over decades, as small populations decline one by one',
+            'Only after replanting',
+            'When the edge reaches the interior'),
+           1,
+           'And recolonisation is impossible because there is no elsewhere within reach.'),
+          ('What is an extinction debt?',
+           ('The cost of conservation work',
+            'The difference between the species present and the species the fragment can '
+            'support',
+            'The number of species already lost',
+            'A delay in monitoring'),
+           1,
+           'That is the definition the passage gives it.'),
+          ('What does a survey taken ten years after fragmentation find?',
+           ('Fewer species than expected',
+            'A list including many species already committed to disappearing',
+            'Only interior species',
+            'No change at all'),
+           1,
+           'And nothing in the survey separates them from the rest.'),
+          ('What can a count NOT tell you?',
+           ('How many species are present',
+            'Whether a fragment is stable or in the early part of a decline',
+            'Where the edges are',
+            'Which species are rare'),
+           1,
+           'The two conditions look identical on the day of the visit.'),
+          ('What does distinguish them, according to the passage?',
+           ('Soil quality and rainfall',
+            'Area, isolation and time since division',
+            'The number of invertebrates',
+            'The height of the canopy'),
+           1,
+           'All three are measured from a map rather than from the ground.')]}
+UNIT['r5'] = {'sub': 'Restoration and what it cannot restore',
+ 'title': 'What Gets Counted When a Wood Is Replanted',
+ 'words': 356,
+ 'skill': ('Reading a criticism of a measurement, not of a policy',
+           ['The writer objects to what is counted rather than to what is done. Note the '
+            'variable.',
+            'Several timescales are given. Hold the gap between the shortest and the '
+            'longest.',
+            'A question about the recommendation wants what should appear on the record.']),
+ 'paras': ['A hectare of woodland cleared and a hectare of plantation established are '
+           'treated in the public accounting as a loss and a gain of the same size. The '
+           'practice survives because the variable it counts is the one available to '
+           'inspection from an aeroplane. Canopy cover is a real quantity, open to '
+           'measurement, hard to dispute, and it returns on a timescale of forty years or '
+           'less. Nothing else about an ancient woodland returns on that timescale, and the '
+           'distance between the quantity and the condition it stands for is the subject of '
+           'this passage and of most of the dispute in the field.',
+           'The list of absences at a replanted site is long and specific. The soil '
+           'community of fungi that older trees depend on requires something between a '
+           'century and several centuries for its assembly. The colonisation of a new site '
+           'by those fungi depends entirely on the distance to the nearest source. The '
+           'invertebrates associated with decaying timber require dead wood of a size whose '
+           'production in a plantation takes well over a hundred years. The plants of the '
+           'woodland floor spread at rates of a few metres a decade, so a remnant two '
+           'kilometres away is not a source of colonisation within any period a policy can '
+           'be written for. A site with a closed canopy at forty years is therefore a wood '
+           'in one respect and in no other, and the entry in the accounts records it as a '
+           'wood without qualification.',
+           'None of this is an argument against planting trees, which is a good thing to do '
+           'for a dozen reasons, and it is an argument against the entry in the ledger. What '
+           'politicians are offered is a pair of numbers in balance, and what the evidence '
+           'supports is a loss now against a gain in three hundred years, which is not a '
+           'transaction anybody would agree to if the dates were printed beside the figures. '
+           'The remedy is dull and effective, and its adoption would cost nothing: record '
+           'the age of what is cleared, record the planting date of what replaces it, and '
+           'refuse to add the two together.'],
+ 'guided': [('How are a cleared hectare and a planted hectare treated?',
+             ('As a loss and a smaller gain',
+              'As a loss and a gain of the same size',
+              'As two losses',
+              'They are not compared'),
+             1,
+             'That is the practice the passage objects to.'),
+            ('Why does the practice survive?',
+             ('It is required by law',
+              'The variable it counts can be checked from an aeroplane',
+              'Nobody has studied the question',
+              'Plantations are cheap'),
+             1,
+             'Canopy cover is easy to measure and hard to dispute.'),
+            ('On what timescale does canopy cover return?',
+             ('Forty years or less',
+              'A century',
+              'Three hundred years',
+              'It does not return'),
+             0,
+             'And the passage says nothing else returns on that timescale.')],
+ 'exam': [('How long does the soil community of fungi take to assemble?',
+           ('Forty years',
+            'Between a century and several centuries',
+            'A decade',
+            'It cannot assemble'),
+           1,
+           'And its colonisation depends on the distance to the nearest source.'),
+          ('What do the invertebrates of decaying timber require?',
+           ('A closed canopy',
+            'Dead wood of a size a plantation does not produce for over a hundred years',
+            'Older soil fungi',
+            'An open edge'),
+           1,
+           'The size of the dead wood is the limiting condition.'),
+          ('Why is a remnant two kilometres away not a source?',
+           ('It is too small',
+            'Woodland floor plants spread at metres a decade',
+            'It is also a plantation',
+            'It has no invertebrates'),
+           1,
+           'At that rate the distance is outside any period a policy covers.'),
+          ('What does the writer say the passage is NOT an argument against?',
+           ('The accounting entry',
+            'Planting trees',
+            'Clearing ancient woodland',
+            'Measuring canopy cover'),
+           1,
+           'The objection is to the entry in the ledger, not to the planting.'),
+          ('What is the remedy the writer proposes?',
+           ('Stop all clearance',
+            'Record the age cleared and the planting date, and refuse to add them together',
+            'Plant three hectares for each one cleared',
+            'Survey the fungi before clearance'),
+           1,
+           'The writer calls the remedy dull and effective.')]}
+UNIT['l4'] = {'sub': 'How habitats break up',
+ 'caption': 'A lecture on edge, delay and what a survey cannot see',
+ 'board': ['Area predicts species number',
+           'Division loses more than area',
+           'Edge: part of the map is not habitat',
+           'Debt: present but not supportable'],
+ 'skill': ('A lecture that separates two causes students merge',
+           ['Two reasons, and the lecturer says confusing them is the usual error. Keep them '
+            'apart.',
+            'The second reason changes how a number must be read. Note how.',
+            'A question about the fieldwork wants what he says cannot be settled on site.']),
+ 'warm': [('Woman: What is the first reason?',
+           ('Edge.', 'Delay.', 'Yes, there is one.', 'Two reasons.'),
+           0,
+           'Edge and delay are the two, and he insists they are separate.'),
+          ('Woman: What is an extinction debt?',
+           ('Species present that cannot be supported.',
+            'Species already lost.',
+            'Yes, there is a debt.',
+            'Over decades.'),
+           0,
+           'The gap between what is there and what the fragment can hold.'),
+          ('Woman: What cannot be settled on site?',
+           ('Whether the fragment is stable or declining.',
+            'Which species are present.',
+            'Yes, something cannot.',
+            'From a map.'),
+           0,
+           'A visit sees a list; the trend comes from area, isolation and time.')],
+ 'script': [('Man',
+             'Everybody arrives knowing that a bigger patch holds more species, and that is '
+             'true, and it is where the thinking usually stops. Take a hundred hectares and '
+             'cut it into ten pieces of ten. You have the same area and you will not keep '
+             'the same species, for two reasons, and the reason students lose marks is that '
+             'they run the two together. Reason one, edge. A small piece has a huge '
+             'proportion of itself within a few tens of metres of open ground, and in that '
+             'band the light and the wind and the temperature belong to a field, not to a '
+             'woodland. So part of what your map shades green is simply not habitat for '
+             'anything that needs the interior. Reason two, and this is the one that should '
+             'change how you read a number. The species do not go when the fence goes up. '
+             'They go over thirty, fifty, eighty years, as populations that are too small to '
+             'last decline one at a time, and nothing recolonises because there is nowhere '
+             'left to recolonise from. So you can walk into a fragment ten years after it '
+             'was cut off and write down a perfectly healthy list of species, a good '
+             'proportion of which are already finished. That is an extinction debt. Which '
+             'brings me to your fieldwork. You cannot tell from a visit whether a fragment '
+             'is stable or in year eight of a ninety-year decline. They look the same. What '
+             'tells you is the area, the isolation and the date of the division, and all '
+             'three come off a map, which is why the map is the first thing I ask to see.')],
+ 'items': [('What does the lecturer say everybody arrives knowing?',
+            ('That edges matter',
+             'That a bigger patch holds more species',
+             'That surveys are unreliable',
+             'That fragments decline'),
+            1,
+            'He grants it and says that is where the thinking usually stops.'),
+           ('Why do students lose marks, in his account?',
+            ('They forget the area relationship',
+             'They run the two reasons together',
+             'They mismeasure edges',
+             'They ignore recolonisation'),
+            1,
+            'He is explicit that the two reasons must be kept apart.'),
+           ('What does the band near an edge resemble?',
+            ('A woodland interior', 'A field', 'A plantation', 'A clearing'),
+            1,
+            'The light, the wind and the temperature belong to a field.'),
+           ('Over what period do the species go?',
+            ('Immediately',
+             'Thirty, fifty or eighty years',
+             'A century or more',
+             'Within ten years'),
+            1,
+            'As populations too small to last decline one at a time.'),
+           ('What does he say tells you whether a fragment is declining?',
+            ('A careful species list',
+             'The area, the isolation and the date of the division',
+             'The number of invertebrates',
+             'The condition of the soil'),
+            1,
+            'And he adds that all three come off a map.')]}
+UNIT['l5'] = {'sub': 'Restoration and what it cannot restore',
+ 'caption': 'A short talk on an entry in a ledger',
+ 'board': ['Canopy returns in forty years',
+           'Soil fungi: a century or more',
+           'Dead-wood insects: over a century',
+           'Floor plants: metres a decade'],
+ 'skill': ('A talk that attacks a measurement rather than a policy',
+           ['The speaker says twice what she is not arguing against. Note it.',
+            'Four timescales. The gap between them is the argument.',
+            'A question about her remedy wants what goes on the record.']),
+ 'warm': [('Man: Is she against planting trees?',
+           ('No, she is against the accounting.',
+            'Yes, she opposes planting.',
+            'Yes, she is against it.',
+            'Forty years.'),
+           0,
+           'She says so twice, because the objection is to the ledger.'),
+          ('Man: How fast do floor plants spread?',
+           ('Metres a decade.',
+            'Kilometres a decade.',
+            'Yes, they spread.',
+            'Two kilometres.'),
+           0,
+           'At that rate a nearby remnant is not a source in policy time.'),
+          ('Man: What does she want recorded?',
+           ('The age cleared and the planting date.',
+            'The canopy cover.',
+            'Yes, a record.',
+            'Three hundred years.'),
+           0,
+           'Two dates, kept apart rather than added together.')],
+ 'script': [('Woman',
+             'I am not against planting trees. I will say that again at the end, because '
+             'somebody always reports me as having said the opposite. What I am against is '
+             'one line in a ledger, where a hectare cleared and a hectare planted cancel '
+             'out. They cancel because the thing we count is canopy cover, and we count '
+             'canopy cover because you can photograph it from an aeroplane and nobody can '
+             'argue with you. It is a real quantity, and I have no complaint about measuring '
+             'it. It comes back in forty years, reliably, in almost any soil. Now here is '
+             'everything else that does not. The soil fungi that the big trees depend on '
+             'take a century at the fastest and often several, and they have to get there, '
+             'which depends entirely on how far the nearest old wood is. The beetles that '
+             'live in rotting timber need dead wood of a size a plantation will not make for '
+             'well over a hundred years. The flowers of the woodland floor advance at a few '
+             'metres a decade, so an ancient remnant two kilometres off is not a source '
+             'inside any period a government plans for. Forty years gets you a closed canopy '
+             'and nothing else in that list, and the ledger writes down a wood. My remedy is '
+             'dull. Write down the age of the wood you cleared. Write down the date you '
+             'planted. Refuse to add them. Put all three on the consent document, where '
+             'somebody in sixty years can read it, rather than in a report that nobody '
+             'keeps. And no, I am still not against planting trees.')],
+ 'items': [('What does the speaker say she will repeat at the end?',
+            ('That the ledger is wrong',
+             'That she is not against planting trees',
+             'That canopy cover is measurable',
+             'That fungi take a century'),
+            1,
+            'She says somebody always reports her as having said the opposite.'),
+           ('Why is canopy cover the thing that gets counted?',
+            ('It is the most important variable',
+             'It can be photographed from an aeroplane and not argued with',
+             'It is required by law',
+             'It returns fastest'),
+            1,
+            'Measurability, not importance, is her explanation.'),
+           ('What does the arrival of the soil fungi depend on?',
+            ('Rainfall',
+             'How far the nearest old wood is',
+             'The age of the plantation',
+             'The number of beetles'),
+            1,
+            'They take a century at the fastest and they have to get there.'),
+           ('What size of dead wood does a plantation not produce for over a century?',
+            ('Any at all',
+             'Wood of the size the rotting-timber beetles need',
+             'Wood suitable for fungi',
+             'Standing dead trees only'),
+            1,
+            'That is the requirement she names for those invertebrates.'),
+           ('What are the three parts of her remedy?',
+            ('Measure the fungi, the beetles and the flowers',
+             'Record the age cleared, record the planting date, refuse to add them',
+             'Plant more, plant nearer, plant sooner',
+             'Survey, monitor and report'),
+            1,
+            'She calls the remedy dull, and those are its three parts.')]}
+UNIT['w4'] = {'sub': 'How habitats break up',
+ 'skill': ('Inversion after negative adverbials',
+           ['After a negative adverbial at the front, the subject and the auxiliary change '
+            'places: not until the survey was repeated did the decline appear.',
+            'Common openers: never, rarely, seldom, at no point, nowhere, not only, no '
+            'sooner.',
+            'Only when and only after take the inversion too, although only is not itself '
+            'negative.']),
+ 'guided': [('You want to front a negative adverbial about timing.',
+             ['not until',
+              'the survey',
+              'was',
+              'repeated',
+              'did',
+              'the decline',
+              'appear',
+              'at',
+              'all'],
+             'Not until the survey was repeated did the decline appear at all.'),
+            ('You want to front never.',
+             ['never',
+              'does',
+              'a fragment',
+              'lose',
+              'its species',
+              'at',
+              'the',
+              'moment',
+              'of',
+              'division'],
+             'Never does a fragment lose its species at the moment of division.'),
+            ('You want to front only when.',
+             ['only when',
+              'the dates',
+              'are',
+              'printed',
+              'beside',
+              'the',
+              'figures',
+              'does',
+              'the trade',
+              'look',
+              'strange'],
+             'Only when the dates are printed beside the figures does the trade look '
+             'strange.')],
+ 'exam': [('You want to front at no point.',
+           ['at no point',
+            'does',
+            'the survey',
+            'separate',
+            'the',
+            'doomed',
+            'species',
+            'from',
+            'the rest'],
+           'At no point does the survey separate the doomed species from the rest.'),
+          ('You want to front rarely.',
+           ['rarely',
+            'is',
+            'a replanted',
+            'site',
+            'anything',
+            'more',
+            'than',
+            'a wood',
+            'in',
+            'one',
+            'respect'],
+           'Rarely is a replanted site anything more than a wood in one respect.'),
+          ('You want to front not only.',
+           ['not only',
+            'does',
+            'edge',
+            'reduce',
+            'the habitat',
+            'but',
+            'isolation',
+            'prevents',
+            'any',
+            'recolonisation'],
+           'Not only does edge reduce the habitat, but isolation prevents any '
+           'recolonisation.'),
+          ('You want to front nowhere.',
+           ['nowhere',
+            'in',
+            'the',
+            'ledger',
+            'does',
+            'the age',
+            'of',
+            'the',
+            'wood',
+            'appear'],
+           'Nowhere in the ledger does the age of the wood appear.'),
+          ('You want to front no sooner.',
+           ['no sooner',
+            'had',
+            'the fragment',
+            'been',
+            'cut',
+            'off',
+            'than',
+            'the slow',
+            'decline',
+            'began'],
+           'No sooner had the fragment been cut off than the slow decline began.')]}
+UNIT['w5'] = {'sub': 'Restoration and what it cannot restore',
+ 'prof': 'Dr Oyelaran',
+ 'question': 'A road scheme will clear four hectares of ancient woodland and the developer '
+             'offers to plant twelve hectares nearby. The conservation body can accept this, '
+             'or refuse and almost certainly lose both the woodland and the planting when '
+             'the scheme is approved anyway. What should it do?',
+ 'posts': [('Ingrid',
+            'w',
+            'Accept, and say publicly what you are accepting. Twelve hectares of young '
+            'planting is worth something in two hundred years and refusing gets you nothing '
+            'in any century at all.'),
+           ('Dev',
+            'm',
+            'Accepting is how the ratio becomes the standard. Every scheme after this one '
+            'will offer three to one and cite this agreement, and the second passage is '
+            'exactly about what that arithmetic conceals.')],
+ 'skill': ('A question about a bad deal and a worse alternative',
+           ['Ingrid argues from the outcome of this case; Dev from what the case establishes '
+            'for later ones.',
+            'The second passage attacks the accounting rather than the planting, which bears '
+            'on both positions.',
+            'A strong answer says what should be recorded, whichever way the decision '
+            'goes.']),
+ 'starters': ['Dev is right that…, although what follows from it is…',
+              'The distinction the passage draws is between… and…',
+              'What makes the ratio dangerous is not… but…',
+              'So the body should…, and insist that…'],
+ 'model': ['Dev is right that the agreement becomes a precedent and he has identified the '
+           'wrong danger. What makes a three-to-one ratio dangerous is not the number but '
+           'the convention that lets a hectare of forty-year planting be added to a hectare '
+           'of four-hundred-year woodland, and that convention is already the standard, in '
+           'this country and in most others. Refusing this scheme leaves it exactly where it '
+           'is.',
+           'Ingrid is right about the outcome and she concedes too much when she treats '
+           'public comment as the whole of what can be demanded. The passage asks for '
+           'something more specific and more durable than a statement of regret: the age of '
+           'what is cleared and the planting date of what replaces it, both recorded in the '
+           'document that grants the consent, and neither added to the other.',
+           'So the body should accept the planting and make the record the price of its '
+           'agreement, in the consent document rather than in a press release, with the two '
+           'dates and a line stating that the exchange is a loss now against a gain in three '
+           'centuries, in those words. That gives up the chance of a refusal that might have '
+           'stopped the road, and the chance was small and the loss is real. It buys the one '
+           'thing a precedent is ever useful for, which is that the next developer offering '
+           'three to one has to explain, in writing, why three hectares of 2026 planting '
+           'answer four hectares of 1590 woodland.'],
+ 'model_words': 247}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'How habitats break up',
+  'focus': 'keeping two causes apart',
+  'skill': ('Two reasons, and running them together is the usual error',
+            ['Number them aloud. One, two. A listener who loses the numbering loses the '
+             'distinction.',
+             'Finish the first reason completely before you begin the second.',
+             'Stress the word that names each reason, not the explanation after it.']),
+  'repeat': ['Reason one is edge.',
+             'Reason two is delay.',
+             'There are two reasons, and they are separate.',
+             'The species go over thirty or fifty years.',
+             'They are present and the fragment cannot support them.',
+             'Part of what the map shades green is not habitat.',
+             'You cannot tell from a visit whether a fragment is stable or in year eight of '
+             'a ninety-year decline.'],
+  'theme': 'two causes of the same thing',
+  'qs': ['Tell me about a problem with two separate causes. How were they different?',
+         'Some people say that if something looks healthy it is healthy. How far would you '
+         'agree?',
+         'How would you explain to a friend why a small wood loses species even when nothing '
+         'more is cut?',
+         'Finally, describe a measurement you have seen that was taken too early.'],
+  'model': [(2,
+             'I would be careful there, and this unit is the reason. A thing can look '
+             'exactly as it did and already be committed to a decline, and the appearance on '
+             'the day tells you almost nothing about the direction.'),
+            (3,
+             'I would say the small wood has too few of each kind for them to last, and '
+             'nothing new can walk in, because there is nowhere nearby left to walk in '
+             'from.')],
+  'selfcheck': ['I numbered the two reasons aloud',
+                'I finished the first before starting the second',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Restoration and what it cannot restore',
+  'focus': 'saying clearly what you are not arguing',
+  'skill': ('I am not against planting trees. I am against one line in a ledger.',
+            ['State the thing you are not arguing first, flatly, with no qualification.',
+             'Then name the target precisely. Vagueness here is what gets you misreported.',
+             'Repeat the disclaimer at the end if the subject is one people misquote.']),
+  'repeat': ['I am not against planting trees.',
+             'I am against one line in a ledger.',
+             'A hectare cleared and a hectare planted cancel out.',
+             'We count canopy cover because it can be photographed.',
+             'Forty years gets you a closed canopy and nothing else.',
+             'Write the age of what you cleared and the date you planted.',
+             'Refuse to add them together, and say again that none of this is an argument '
+             'against planting.'],
+  'theme': 'being clear about what you are not saying',
+  'qs': ['Tell me about a time you were misunderstood about what you were arguing for. What '
+         'happened?',
+         'Some people think you should never admit anything to the other side. What do you '
+         'think?',
+         'How would you make sure a complicated position is reported accurately?',
+         'Finally, describe a decision where the honest answer took three hundred years to '
+         'arrive.'],
+  'model': [(2,
+             'I think the opposite, for a practical reason. If you concede the parts you do '
+             'not need, the part you are actually arguing becomes impossible to misread, and '
+             'that is worth more than the ground you gave up.'),
+            (3,
+             'I would say the one sentence I do not want attributed to me, out loud, at the '
+             'start and again at the end, and I would put it in writing where the decision '
+             'gets recorded.')],
+  'selfcheck': ['I stated what I was not arguing, flatly',
+                'I named the target precisely',
+                'I repeated the disclaimer at the end']}]
