@@ -48,3 +48,9 @@ TOEFL_2026_Complete_FIXED.zip
 
 # The five-volume delivery bundle. Every .docx inside it is tracked on its own.
 TOEFL_2026_Complete_5_Volumes.zip
+
+# The six-volume delivery bundle. Every .docx inside it is tracked on its own,
+# so committing the zip would store all six twice. Rebuild with:
+#   mkdir TOEFL_iBT_2026_Course && cp TOEFL_2026_*.docx TOEFL_iBT_2026_Course/
+#   zip -r TOEFL_iBT_2026_Course_All_Six_Volumes.zip TOEFL_iBT_2026_Course
+TOEFL_iBT_2026_Course_All_Six_Volumes.zip

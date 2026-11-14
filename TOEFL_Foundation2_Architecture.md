@@ -111,6 +111,11 @@ same answer key that explains, audio scripts, glossary and grammar reference.
 
 The level on the cover is **CEFR A2–B1**.
 
+Progress Test F2 came out at **77 items** — Reading 30 in two modules,
+Listening 24 in two modules, Writing 12, Speaking 11 — which sits between
+Progress Test F (59) and the Practice Test in Volume 1 (97). Module 1 of each
+section is everyday and Module 2 is academic.
+
 ## 4. The gates it must pass
 
 1. `check.py g1-g10` — structure, item counts, length bands, no repeated head word
@@ -123,3 +128,24 @@ The level on the cover is **CEFR A2–B1**.
 5. `gate6.py F2` — no clipped text in any figure
 6. zero omissions between the unit data and the .docx
 7. `gate7.py` — the readiness number this whole volume exists to move
+8. `omit.py` — gate 8, added during this build: the .docx read back against the
+   unit data, so that a rendering bug cannot drop a passage, a script turn, a
+   model answer or an answer-key explanation
+
+### What they returned
+
+All eight pass. `check.py g1-g10`: 390 head words, no repeats. `handoff.py`:
+pass. `checktest.py f f2`: 59 and 77 items. `gate6.py F2`: 2,223 fitted runs
+in 521 figures, 0 overruns. `omit.py F2`: 2,122 strings, 0 missing.
+
+`gate7.py F2`, measured over all forty academic passages and scripts in
+Volume 1:
+
+| Measured for | Worst | Mean | Median |
+|---|---|---|---|
+| A Foundation 1 leaver | 33 | 11.4 | 10 |
+| A Foundation 2 leaver, strict | **8** | **1.6** | **1** |
+
+The strict row credits a leaver only with words that actually appear in the two
+Foundation volumes' own texts. On that measure Foundation 2 removes 9.8 unknown
+word types from the average Volume 1 passage, an 86% reduction.
