@@ -1031,3 +1031,608 @@ UNIT = dict(
         'errors in technical subjects come from answering two of them with one phrase. Keep '
         'them apart and your explanations stop being ambiguous.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 34 gains its two academic cycles. Cycle 4 demotes strength from
+# an objective to a requirement and puts the choice of failure mode in
+# its place: a ductile material announces its distress for weeks before
+# it separates, a brittle one of the same strength says nothing at all,
+# and the factor of safety exists largely to keep the structure in the
+# region where an inspection has something to find. Cycle 5 relocates
+# the problem: in most large structural failures investigated since the
+# nineteen seventies the warning was given exactly as designed and
+# reached a file rather than a decision, so the warning itself has to be
+# designed, with a named recipient, a duty to reply and an automatic
+# escalation.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('profession', 'an occupation with its own training and standards'),
+ ('deform', 'to change shape under load without breaking'),
+ ('deflection', 'the amount a loaded beam bends out of line'),
+ ('inspection', 'the regular looking over of a structure in service'),
+ ('maintenance', 'the work of keeping something in working order'),
+ ('negligence', 'a failure to take the care that was owed'),
+ ('girder', 'a large beam carrying the weight of a structure'),
+ ('rivet', 'a metal pin used to fasten two plates together'),
+ ('overload', 'a load greater than the one a thing was designed for'),
+ ('catastrophic', 'happening all at once and with no recovery'),
+ ('inspector', 'a person employed to examine work in service'),
+ ('sudden', 'happening without warning')]
+UNIT['r4'] = {'sub': 'Designing for being wrong',
+ 'title': 'Choosing the Way a Thing Will Fail',
+ 'words': 332,
+ 'skill': ('Reading a design principle stated against expectation',
+           ['The passage replaces one aim with another. Note both aims, because a question '
+            'will contrast them.',
+            'Two kinds of failure are described and the difference is about warning. Hold '
+            'that difference.',
+            'A question about the factor of safety wants what it is for, not what it '
+            'equals.']),
+ 'paras': ['The first instinct of a student in this profession is to make the structure '
+           'strong, and the instruction of the first year is largely devoted to the '
+           'replacement of that instinct with a better one. Strength is a requirement and '
+           'not an objective. Every structure meets a load it was not designed for '
+           'eventually, and the question that governs the consequences is not how strong it '
+           'was but what it does at the moment it gives way. A design decision about '
+           'material is therefore a decision about the behaviour of a failure, and the '
+           'selection of a material is made with that behaviour in view, alongside the cost, '
+           'the availability and everything else that constrains the choice.',
+           'The distinction that carries the argument is between a failure with warning and '
+           'a failure without one. A ductile material, mild steel being the standard '
+           'example, begins to deform under excessive load and goes on deforming visibly for '
+           'some time before any separation occurs. A deflection in a girder is therefore an '
+           'announcement that something is wrong and an invitation to intervene. A brittle '
+           'material of the same nominal strength gives no such announcement. It carries its '
+           'load without complaint until the load exceeds its capacity, and then it '
+           'separates in an instant. That is why the collapse of a cast iron structure is '
+           'catastrophic, while the collapse of a steel one is usually preceded by weeks of '
+           'visible distress.',
+           'The factor of safety belongs to the same reasoning and is widely misunderstood '
+           'as a margin for an overload. Its larger purpose is to keep the structure in the '
+           'region where its behaviour is predictable and its distress is visible, so that '
+           'an inspection has something to find. A design that would be adequate under '
+           'perfect maintenance and gives no warning at all under imperfect maintenance is, '
+           'by the standards of the profession, a bad design, whatever its calculated '
+           'strength, and the examination at the end of this course will ask you to say '
+           'why.'],
+ 'guided': [('What does the passage say the first year is largely devoted to?',
+             ('Teaching the strength of materials',
+              'Replacing the instinct to make things strong with a better one',
+              'Calculating factors of safety',
+              'Studying collapses'),
+             1,
+             'The instruction of the first year replaces that instinct.'),
+            ('What question governs the consequences of a load?',
+             ('How strong the structure was',
+              'What it does at the moment it gives way',
+              'How old the structure was',
+              'Who inspected it'),
+             1,
+             'Strength is called a requirement and not an objective for exactly this '
+             'reason.'),
+            ('What does a deflection in a girder amount to?',
+             ('A sign that the design was weak',
+              'An announcement that something is wrong',
+              'Evidence of poor material',
+              'A catastrophic failure'),
+             1,
+             'It is an announcement and an invitation to intervene.')],
+ 'exam': [('How does a brittle material of the same strength behave?',
+           ('It deforms more slowly',
+            'It carries the load without complaint and then separates in an instant',
+            'It deflects visibly first',
+            'It fails at a lower load'),
+           1,
+           'The absence of warning is the whole difference the passage draws.'),
+          ('Why is the collapse of a steel structure usually preceded by distress?',
+           ('Steel is weaker',
+            'Steel deforms visibly before separation',
+            'Steel structures are better inspected',
+            'Steel is more often overloaded'),
+           1,
+           'Ductile behaviour produces visible deformation first.'),
+          ('How is the factor of safety widely misunderstood?',
+           ('As a legal requirement',
+            'As a margin for an overload',
+            'As a property of the material',
+            'As a maintenance schedule'),
+           1,
+           'The passage says its larger purpose is different.'),
+          ('What is the larger purpose of the factor of safety?',
+           ('To reduce cost',
+            'To keep behaviour predictable and distress visible',
+            'To allow for poor workmanship',
+            'To satisfy an inspector'),
+           1,
+           'So that an inspection has something to find, as the passage puts it.'),
+          ('The word distress in paragraph 2 is closest in meaning to',
+           ('anxiety', 'visible signs of strain', 'sudden collapse', 'poor maintenance'),
+           1,
+           'In this subject distress is what a structure shows before it fails.')]}
+UNIT['r5'] = {'sub': 'Designing for being wrong',
+ 'title': 'A Warning Nobody Was Reading',
+ 'words': 335,
+ 'skill': ('Reading an objection that moves a problem to another place',
+           ['The writer accepts the principle and says it solves the easier half. Note which '
+            'half.',
+            'Two cases are summarised. What they have in common is the point of the passage.',
+            'A question about the recommendation wants what should be designed, not what '
+            'should be built.']),
+ 'paras': ['The argument for a visible failure is correct and it is only half of a system. A '
+           'deflection is an announcement to nobody unless an inspection takes place, unless '
+           'the inspector is competent to read it, and unless the organisation that receives '
+           'the report acts on it. Each of those three conditions has failed more often in '
+           'the last fifty years than the materials have. The profession trains its members '
+           'at length in the first half of the problem and leaves the second half to the '
+           'people least equipped and least rewarded for solving it.',
+           'The pattern is visible in the record. In a majority of the large structural '
+           'failures investigated since the nineteen seventies, the structure had given '
+           'exactly the warning the design intended: cracking had been photographed, a '
+           'deflection had been measured and recorded, or a rivet line had been reported as '
+           'working loose. The warning reached a file. It did not reach a decision, because '
+           'the person who received it had no authority to close a bridge, the person with '
+           'that authority received a summary that omitted it, and nobody in the chain was '
+           'accountable for the difference between the two. The failure was a failure of '
+           'transmission, and a material that deforms more visibly would not have altered '
+           'any part of it, because the deformation was already there and already measured.',
+           'What follows is that the warning itself has to be designed, and it has to be '
+           'designed by somebody who assumes that normal organisations behave normally, '
+           'which is to say imperfectly and under pressure. That means a reporting route '
+           'with a named recipient rather than a department, an obligation to respond in '
+           'writing within a stated period, and an escalation that happens automatically '
+           'when the response does not arrive. None of that is engineering in the sense the '
+           'first year teaches, and it protects more structures than any choice of material '
+           'has ever done. The instruction a profession gives is a statement of what it '
+           'believes its problem to be.'],
+ 'guided': [('What does the writer say the argument for a visible failure is?',
+             ('Mistaken',
+              'Correct and only half of a system',
+              'Out of date',
+              'Too expensive to apply'),
+             1,
+             'The objection concerns what is missing, not what is wrong.'),
+            ('What three conditions does a deflection depend on?',
+             ('Strength, maintenance and age',
+              'An inspection, a competent inspector, and an organisation that acts',
+              'Design, material and load',
+              'Reporting, recording and repair'),
+             1,
+             'Those are the three the passage names, and all three have failed often.'),
+            ('What does the writer say the profession leaves to others?',
+             ('The choice of material',
+              'The second half of the problem',
+              'The factor of safety',
+              'The inspection schedule'),
+             1,
+             'It is left to the people least able to solve it.')],
+ 'exam': [('In most of the failures investigated, what had the structure done?',
+           ('Failed without warning',
+            'Given exactly the warning the design intended',
+            'Been overloaded repeatedly',
+            'Been built from the wrong material'),
+           1,
+           'Cracking photographed, deflection recorded, rivets reported loose.'),
+          ('Where did the warning reach?',
+           ('A decision', 'A file', 'An inspector only', 'The designer'),
+           1,
+           'It reached a file and did not reach a decision.'),
+          ('Why did it not reach a decision?',
+           ('The reports were lost',
+            'The recipient had no authority and the person with authority got a summary that '
+            'omitted it',
+            'The warnings were unclear',
+            'Nobody read the file'),
+           1,
+           'Both halves of that answer are in the passage, and so is the absence of '
+           'accountability.'),
+          ('What does the writer say a more visibly deforming material would have changed?',
+           ('The outcome entirely',
+            'No part of it',
+            'The speed of the collapse',
+            'The quality of the reports'),
+           1,
+           'The failure was a failure of transmission, which material cannot touch.'),
+          ('Which is NOT one of the three things the writer recommends?',
+           ('A named recipient rather than a department',
+            'An obligation to respond in writing within a stated period',
+            'An automatic escalation when no response arrives',
+            'A stronger factor of safety'),
+           3,
+           'The three concern the route a warning takes, not the design margin.')]}
+UNIT['l4'] = {'sub': 'Designing for being wrong',
+ 'caption': 'A lecture on failure modes and what the factor of safety is really for',
+ 'board': ['Strength: a requirement, not an aim',
+           'Ductile: deforms, then separates',
+           'Brittle: no warning at all',
+           'Safety factor: keeps distress visible'],
+ 'skill': ('A lecture that corrects the aim of a whole subject',
+           ['The lecturer replaces one objective with another in the first minute. Hold '
+            'both.',
+            'Two materials of the same strength, two different behaviours. The comparison is '
+            'the lecture.',
+            'A question about the final example wants why he calls the design bad.']),
+ 'warm': [('Woman: Is strength the objective?',
+           ('No, it is a requirement.',
+            'Yes, it is the objective.',
+            'Yes, strength matters.',
+            'Mild steel.'),
+           0,
+           'He separates the two in the first minute and keeps them apart.'),
+          ('Woman: What does a ductile material do first?',
+           ('It deforms visibly.',
+            'It separates in an instant.',
+            'Yes, it fails.',
+            'Cast iron.'),
+           0,
+           'Visible deformation before separation is the whole advantage.'),
+          ('Woman: What is the factor of safety mostly for?',
+           ('Keeping the distress visible.',
+            'Allowing for an overload.',
+            'Yes, it is for safety.',
+            'A factor of three.'),
+           0,
+           'He is explicit that the margin for overload is the smaller part of it.')],
+ 'script': [('Man',
+             'Strength is a requirement. It is not the objective, and if you leave this '
+             'course believing that it is, I have failed. Here is why. Every structure '
+             'eventually meets a load that nobody designed it for, and the thing that '
+             'determines whether that is an inconvenience or a funeral is not how strong it '
+             'was. It is what the structure does in the moment it gives way. Write that '
+             'sentence down, because it is the one idea in this course that will still be '
+             'useful to you in thirty years. So take two materials of identical strength. '
+             'The first is ductile. Load it beyond what it can take and it deforms, and it '
+             'goes on deforming, visibly, for weeks, and a bent girder is a structure '
+             'telling you in plain language that it is in trouble. The second is brittle. '
+             'Same strength on paper. It carries the load without any complaint at all, '
+             'right up to the point where it cannot, and then it is on the floor and so is '
+             'everything above it. Now the factor of safety, which most of you think is a '
+             'margin for an overload. That is part of it. The larger part is that it keeps '
+             'the structure in the region where it behaves predictably and shows its '
+             'distress, so that an inspection has something to find. Which gives you my test '
+             'for a design. If it is adequate under perfect maintenance and silent under '
+             'imperfect maintenance, it is a bad design, and I do not care what the '
+             'arithmetic says, and neither will the inquiry.')],
+ 'items': [('What does the lecturer say he will have failed to do?',
+            ('Teach the arithmetic',
+             'Stop students believing strength is the objective',
+             'Cover brittle materials',
+             'Explain the factor of safety'),
+            1,
+            'He says so in the opening lines and returns to it at the end.'),
+           ('What determines whether an overload is an inconvenience or worse?',
+            ('How strong the structure was',
+             'What the structure does at the moment it gives way',
+             'Who inspected it',
+             'The size of the load'),
+            1,
+            'That is the substitution the whole lecture is built on.'),
+           ('What does he call a bent girder?',
+            ('A sign of poor material',
+             'A structure telling you in plain language that it is in trouble',
+             'A failure of maintenance',
+             'An acceptable deflection'),
+            1,
+            'The deformation is the message, which is why ductility is valuable.'),
+           ('What does he say is the larger part of the factor of safety?',
+            ('A margin for an overload',
+             'Keeping behaviour predictable and distress visible',
+             'Allowing for poor workmanship',
+             'Satisfying the regulations'),
+            1,
+            'So that an inspection has something to find.'),
+           ('What is his test for a design?',
+            ('Whether the arithmetic is correct',
+             'Whether it stays adequate and vocal under imperfect maintenance',
+             'Whether it uses ductile material',
+             'Whether an inspector approves it'),
+            1,
+            'Adequate under perfect maintenance and silent under imperfect maintenance is '
+            'his definition of a bad design.')]}
+UNIT['l5'] = {'sub': 'Designing for being wrong',
+ 'caption': 'A short talk on warnings that were given and never arrived',
+ 'board': ['The structure did warn',
+           'The warning reached a file',
+           'It did not reach a decision',
+           'Design the route, not only the beam'],
+ 'skill': ('A talk that relocates a problem',
+           ['The speaker agrees with the design principle and says the failure happened '
+            'elsewhere. Note where.',
+            'Three reasons the warning stopped. Keep them in order.',
+            'A question about her recommendation wants what has a name attached to it.']),
+ 'warm': [('Man: Did the structures give warning?',
+           ('Yes, in most of the cases.',
+            'No, they failed suddenly.',
+            'Yes, they did.',
+            'Since the seventies.'),
+           0,
+           'The warning was given as designed, which is what makes the cases interesting.'),
+          ('Man: What stopped the warning?',
+           ('It reached a file and not a decision.',
+            'It was never recorded.',
+            'Yes, something stopped it.',
+            'A deflection.'),
+           0,
+           'The route, not the measurement, is where her argument puts the failure.'),
+          ('Man: What does she want named?',
+           ('The person a report goes to.',
+            'The material.',
+            'Yes, a name.',
+            'The department.'),
+           0,
+           'A named recipient rather than a department is the first of her three measures.')],
+ 'script': [('Woman',
+             'I have no argument with the last lecture. Ductile materials, visible distress, '
+             'all of it correct, and I want to tell you where the failures actually happen. '
+             'Go through the large structural collapses investigated since the nineteen '
+             'seventies. In most of them, the structure did precisely what the designer '
+             'intended. The cracking was photographed. The deflection was measured and '
+             'written down. Somebody reported that a line of rivets was working loose. The '
+             'warning was given, in good time, exactly as designed, and it reached a file. '
+             'It did not reach a decision, and here is why, in the order it usually happens. '
+             'The person who received the report had no authority to close anything. The '
+             'person who had that authority received a summary with the item removed. And '
+             'nobody anywhere in that chain was answerable for the gap between the two. A '
+             'material that bent twice as far would have changed none of that. Let me say it '
+             'again, because this is the part engineers resist. The metal did its job. So my '
+             'position is that the warning has to be designed as carefully as the beam, and '
+             'designed by somebody who expects ordinary organisations to behave in ordinary '
+             'ways. A named person, not a department. A duty to answer in writing inside a '
+             'stated number of days. And an escalation that happens by itself when the '
+             'answer does not come. None of that is engineering as you were taught it, and '
+             'it has saved more buildings than any material ever chosen, which is a sentence '
+             'I would like somebody to put in a first-year textbook.')],
+ 'items': [('What does the speaker say about the last lecture?',
+            ('It was mistaken about ductility',
+             'She has no argument with it',
+             'It overstated the factor of safety',
+             'It was too theoretical'),
+            1,
+            'She agrees with it and moves the location of the problem.'),
+           ('What had happened in most of the collapses she describes?',
+            ('The material was wrong',
+             'The structure did precisely what the designer intended',
+             'No warning was possible',
+             'Inspections had been skipped'),
+            1,
+            'The warning was given in good time and as designed.'),
+           ('What is the first reason the warning stopped?',
+            ('The report was lost',
+             'The person who received it had no authority to close anything',
+             'The summary was late',
+             'The deflection was too small'),
+            1,
+            'She gives the three reasons in the order they usually happen.'),
+           ('What does she say about a material that bent twice as far?',
+            ('It would have saved the structure',
+             'It would have changed none of that',
+             'It would have failed sooner',
+             'It was unavailable'),
+            1,
+            'Her point is that the failure was in the route the warning took.'),
+           ('What does she claim about her three measures?',
+            ('They are required by law',
+             'They have saved more buildings than any material ever chosen',
+             'They are expensive',
+             'They replace inspection'),
+            1,
+            'That is the claim she closes on.')]}
+UNIT['w4'] = {'sub': 'Designing for being wrong',
+ 'skill': ('Purpose, means and instrument: so that, by, by means of',
+           ['So that gives a purpose and needs a clause: so that an inspection has something '
+            'to find.',
+            'By plus an -ing form gives the means: by keeping the structure in the '
+            'predictable region.',
+            'By means of takes a noun and is heavier. Use it when the instrument is the '
+            'point.']),
+ 'guided': [('You want to give the purpose of the safety factor.',
+             ['the margin',
+              'is',
+              'chosen',
+              'so that',
+              'an inspection',
+              'has',
+              'something',
+              'to',
+              'find'],
+             'The margin is chosen so that an inspection has something to find.'),
+            ('You want to give the means.',
+             ['the design',
+              'warns',
+              'the owner',
+              'by',
+              'deforming',
+              'visibly',
+              'for',
+              'several',
+              'weeks'],
+             'The design warns the owner by deforming visibly for several weeks.'),
+            ('You want to name the instrument.',
+             ['the deflection',
+              'was',
+              'recorded',
+              'by means of',
+              'a',
+              'gauge',
+              'fixed',
+              'to',
+              'the',
+              'girder'],
+             'The deflection was recorded by means of a gauge fixed to the girder.')],
+ 'exam': [('You want a purpose clause about the route a report takes.',
+           ['a name',
+            'is',
+            'attached',
+            'so that',
+            'somebody',
+            'is',
+            'answerable',
+            'for',
+            'the',
+            'response'],
+           'A name is attached so that somebody is answerable for the response.'),
+          ('You want the means by which a failure is made visible.',
+           ['the engineer',
+            'makes',
+            'the failure',
+            'visible',
+            'by',
+            'selecting',
+            'a',
+            'ductile',
+            'material'],
+           'The engineer makes the failure visible by selecting a ductile material.'),
+          ('You want to state an instrument formally.',
+           ['the load',
+            'was',
+            'applied',
+            'by means of',
+            'a',
+            'jack',
+            'bearing',
+            'on',
+            'the',
+            'lower',
+            'flange'],
+           'The load was applied by means of a jack bearing on the lower flange.'),
+          ('You want purpose and means in one sentence.',
+           ['the structure',
+            'is',
+            'kept',
+            'predictable',
+            'by',
+            'limiting',
+            'the load',
+            'so that',
+            'the',
+            'distress',
+            'shows'],
+           'The structure is kept predictable by limiting the load, so that the distress '
+           'shows.'),
+          ('You want a purpose clause with a negative.',
+           ['the escalation',
+            'is',
+            'automatic',
+            'so that',
+            'no',
+            'report',
+            'can',
+            'stop',
+            'at',
+            'a',
+            'desk'],
+           'The escalation is automatic, so that no report can stop at a desk.')]}
+UNIT['w5'] = {'sub': 'Designing for being wrong',
+ 'prof': 'Dr Lindqvist',
+ 'question': 'A city can spend a fixed budget either on replacing the brittle components in '
+             'its older bridges with ductile ones, or on a new reporting system that puts '
+             'every inspection finding in front of a named official within a week. Its '
+             'engineers favour the first. Which should it choose?',
+ 'posts': [('Yuki',
+            'w',
+            'The components. A reporting system is a promise about future behaviour and a '
+            'ductile girder is a physical fact, and in forty years the system will have been '
+            'reorganised four times while the girder is still bending before it breaks.'),
+           ('Mateo',
+            'm',
+            'That is an argument for doing both, dressed up as an argument for one. The '
+            'second passage shows that the physical fact has been in place for decades in '
+            'these cases and did not save anybody, because nobody read what it was saying.')],
+ 'skill': ('A question about durable hardware against fragile process',
+           ['Yuki argues from what lasts; Mateo from what the record shows actually failed.',
+            'The second passage says the warning has to be designed by somebody who expects '
+            'organisations to behave normally, which bears on Yuki’s strongest point.',
+            'A strong answer takes Yuki’s objection seriously and still reaches a '
+            'decision.']),
+ 'starters': ['Yuki is right that…, and that is the strongest argument on her side…',
+              'The distinction worth drawing is between… and…',
+              'What the passage actually requires is…',
+              'So the budget should go to…, on condition that…'],
+ 'model': ['Yuki has the best objection in the discussion and it does not reach her '
+           'conclusion. A reporting system does decay, and the passage says as much when it '
+           'insists that the route be designed by somebody who expects ordinary '
+           'organisations to behave in ordinary ways. The answer to decay is not to abandon '
+           'the route; it is to build the route so that neglect of it is visible, which is '
+           'the same principle the engineers are applying to the metal.',
+           'Mateo is right about the record and too quick with the budget, because doing '
+           'both is not among the options given. The question is which of the two the money '
+           'should buy, and the evidence in the second passage is directly about that: in '
+           'most of the investigated failures the ductile warning was present and was not '
+           'acted on, so buying more of the half that worked solves nothing.',
+           'So the budget should go to the reporting system, with the conditions that answer '
+           'Yuki. The route needs a named recipient, a duty to reply in writing inside a '
+           'stated period, and an escalation that fires without anybody deciding to fire it, '
+           'because those three are what make its own neglect visible. What the city gives '
+           'up is a permanent improvement to the bridges themselves, and that is a real '
+           'loss, since the next reorganisation will test the system and not the steel. It '
+           'is the smaller loss, because a bridge that warns nobody is in the condition '
+           'these bridges were already in.'],
+ 'model_words': 252}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Designing for being wrong',
+  'focus': 'replacing one aim with another',
+  'skill': ('Strength is a requirement, not the objective',
+            ['Say the thing you are demoting first, and grant it fully. A dismissal sounds '
+             'like carelessness.',
+             'Then name what takes its place, with the stress on the new aim.',
+             'Keep the pause between the two halves short, or the first half sounds like '
+             'your view.']),
+  'repeat': ['Strength is a requirement.',
+             'It is not the objective.',
+             'A ductile material deforms before it separates.',
+             'The factor of safety keeps the distress visible.',
+             'What matters is what it does when it gives way.',
+             'A bent girder is a structure in trouble, and saying so.',
+             'A design that is adequate under perfect maintenance and silent under imperfect '
+             'maintenance is a bad design.'],
+  'theme': 'an aim that turns out to be the wrong aim',
+  'qs': ['Tell me about a time you were working towards the wrong goal. When did you notice?',
+         'Some people say the safest thing is always the strongest thing. How far would you '
+         'agree?',
+         'How would you explain to a friend why a warning sign is worth more than extra '
+         'strength?',
+         'Finally, describe something you own that tells you when it is about to fail.'],
+  'model': [(2,
+             'I would put it differently. The safest thing is the thing that fails in a way '
+             'you can see coming, and strength on its own can hide how close something is to '
+             'the edge.'),
+            (4,
+             'The brakes on my bicycle, which start making a noise about a month before they '
+             'stop working. I would rather have those than silent brakes that last slightly '
+             'longer.')],
+  'selfcheck': ['I granted the first aim before demoting it',
+                'I stressed the new aim',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Designing for being wrong',
+  'focus': 'saying where a failure actually happened',
+  'skill': ('The warning was given. It reached a file and not a decision.',
+            ['Short sentences here. The sequence is the argument and long sentences bury it.',
+             'Land on the two nouns that contrast: a file, a decision.',
+             'Do not raise your voice at the end. The flat delivery is what makes it sound '
+             'established.']),
+  'repeat': ['The warning was given.',
+             'It reached a file.',
+             'It did not reach a decision.',
+             'Nobody in the chain was answerable for the gap.',
+             'A material that bent twice as far would have changed nothing.',
+             'The warning has to be designed as carefully as the beam.',
+             'A named person, not a department, and a duty to answer in writing inside a '
+             'stated number of days.'],
+  'theme': 'a problem that was not where people looked for it',
+  'qs': ['Tell me about something that went wrong where the obvious cause turned out to be '
+         'innocent. What was the real cause?',
+         'Some people think most failures are caused by people not trying hard enough. What '
+         'do you think?',
+         'How should an organisation make sure a warning reaches somebody who can act?',
+         'Finally, describe a time you reported a problem and nothing happened.'],
+  'model': [(2,
+             'I think that explanation is popular because it is cheap. Most of the failures '
+             'I have seen involved people doing their jobs inside a system that had no route '
+             'from the person who noticed to the person who could act.'),
+            (3,
+             'Put a name on it rather than a department, require an answer in writing by a '
+             'date, and make the thing escalate on its own when the answer does not '
+             'arrive.')],
+  'selfcheck': ['I kept the sentences short',
+                'I landed on the contrast between the two nouns',
+                'I kept the delivery flat rather than raised']}]

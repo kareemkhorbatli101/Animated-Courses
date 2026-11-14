@@ -1035,3 +1035,605 @@ UNIT = dict(
         'applied everywhere is emphasis nowhere, and an examiner can tell the difference '
         'between a writer who chose and a writer who sprinkled.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 35 gains its two academic cycles. Cycle 4 sets out the
+# three-part model of an argument and the practical result that follows
+# from it: the warrant is normally unstated for reasons of economy, and
+# a disagreement that presents itself as a dispute about evidence is
+# very often a dispute about the sentence nobody said. Cycle 5 objects
+# that the model is normative rather than descriptive, gives three
+# measured findings about repetition, group membership and insinuation
+# that no feature of the argument explains, and then keeps the model on
+# the ground that all three operate by making a sentence feel
+# unnecessary to state.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('suspicion', 'a feeling that something is wrong, short of proof'),
+ ('deception', 'the deliberate creating of a false belief'),
+ ('implicit', 'present in an argument without being stated'),
+ ('unstated', 'left unsaid, whether by accident or on purpose'),
+ ('grounds', 'the evidence an argument is built on'),
+ ('repetition', 'the saying of the same thing again and again'),
+ ('familiarity', 'the sense that something has been met before'),
+ ('insinuation', 'a suggestion made without being said outright'),
+ ('concession', 'a point granted to the other side'),
+ ('persuasive', 'likely to move an audience, whether or not sound'),
+ ('normative', 'about how something ought to be done'),
+ ('descriptive', 'about how something is actually done')]
+UNIT['r4'] = {'sub': 'How an argument is built',
+ 'title': 'The Part of an Argument Nobody Says Out Loud',
+ 'words': 350,
+ 'skill': ('Reading a three-part model of argument',
+           ['Three parts are named. Two of them are usually visible and one is usually not.',
+            'The worked example is the centre of the passage. Identify the part that is '
+            'missing from it.',
+            'A question about disagreement wants where the passage locates it.']),
+ 'paras': ['An argument in ordinary speech has three parts and only two of them are usually '
+           'said aloud. There are the grounds, which are the facts offered; there is the '
+           'claim, which is the proposition the speaker wants accepted; and there is the '
+           'warrant, which is the general principle that permits the one to support the '
+           'other. The distinction between the three is not a classification for its own '
+           'sake: a reader with no separate word for the warrant has no way of asking '
+           'whether the connection between the grounds and the claim holds. The grounds and '
+           'the claim are spoken because an argument without them is not an argument at all, '
+           'while the warrant is normally implicit, and the reason for its omission is not '
+           'concealment but economy, since an argument that stated every warrant would be '
+           'unbearable to listen to.',
+           'Consider a sentence of the ordinary kind: the applicant was late for the '
+           'interview, so she should not be appointed. The grounds and the claim are both '
+           'present and the warrant is not. The unstated principle is something like a '
+           'candidate who is late for an interview will be unreliable in the post, and the '
+           'moment it is written down two things happen that do not happen while it stays '
+           'implicit. It becomes a general claim about human behaviour; a general claim '
+           'admits of examination, and this one is fairly weak. It also becomes clear that '
+           'the disagreement was never about the facts at all, since nobody disputes that '
+           'the applicant was late.',
+           'This is the chief practical result of the model, and it holds across subjects. '
+           'Disagreements that present themselves as disagreements about evidence are very '
+           'often disagreements about warrants, with both sides accepting the same grounds '
+           'and drawing incompatible conclusions because each is applying a different '
+           'implicit principle. The instruction that follows is simple to state and hard to '
+           'carry out. When an argument resists you and you cannot say why, write down the '
+           'sentence the speaker did not say, and examine that instead of the evidence, '
+           'because the examination of grounds everybody accepts is wasted effort.'],
+ 'guided': [('Which two parts of an argument are usually said aloud?',
+             ('The grounds and the warrant',
+              'The grounds and the claim',
+              'The claim and the warrant',
+              'All three'),
+             1,
+             'An argument without the grounds and the claim is not an argument at all.'),
+            ('What is the warrant?',
+             ('The facts offered',
+              'The general principle that lets the grounds support the claim',
+              'The conclusion',
+              'The speaker’s motive'),
+             1,
+             'That is the definition the passage gives it.'),
+            ('Why is the warrant normally left implicit?',
+             ('To conceal a weakness',
+              'For economy, because stating every warrant would be unbearable',
+              'Because audiences cannot follow it',
+              'Because it is usually false'),
+             1,
+             'The passage says the reason is not concealment but economy.')],
+ 'exam': [('In the example, what is the unstated principle?',
+           ('That interviews should start on time',
+            'That a candidate late for an interview will be unreliable in the post',
+            'That the applicant was late',
+            'That appointments should be fair'),
+           1,
+           'That is the warrant the example leaves out.'),
+          ('What happens when the warrant is written down?',
+           ('The grounds become disputed',
+            'It becomes a general claim that can be tested',
+            'The claim becomes stronger',
+            'The argument becomes shorter'),
+           1,
+           'And in this case the passage says the general claim is fairly weak.'),
+          ('What does the example show about the disagreement?',
+           ('It was about the facts',
+            'It was never about the facts, since nobody disputes the lateness',
+            'It was about the interview procedure',
+            'It cannot be resolved'),
+           1,
+           'Both sides accept the grounds, so the dispute lies elsewhere.'),
+          ('What does the passage say about disagreements that look like disputes over '
+           'evidence?',
+           ('They usually are',
+            'They are very often disagreements about warrants',
+            'They are rare outside politics',
+            'They cannot be analysed'),
+           1,
+           'Both sides accept the same grounds and apply different implicit principles.'),
+          ('What instruction does the passage end with?',
+           ('Check the evidence again',
+            'Write down the sentence the speaker did not say',
+            'Ask the speaker to clarify',
+            'Set out your own warrant first'),
+           1,
+           'And examine that instead of the evidence, which is the practical result.')]}
+UNIT['r5'] = {'sub': 'How an argument is built',
+ 'title': 'A Model of How We Ought to Be Persuaded',
+ 'words': 346,
+ 'skill': ('Reading an objection that a model is an ideal, not a description',
+           ['The writer accepts that the model is useful and denies that it describes '
+            'anything. Note the word for each.',
+            'Measured findings follow. Hold what each of them says moves an audience.',
+            'A question about the conclusion wants why the writer still teaches the model.']),
+ 'paras': ['Everything in the previous passage is worth learning and almost none of it is a '
+           'description of how persuasion works. The model is normative: it sets out what an '
+           'argument would consist of if audiences were moved by reasons. The experimental '
+           'literature on what actually moves audiences is large, consistent and '
+           'unflattering, and the quantities that predict agreement best are not features of '
+           'the argument at all, which is an awkward result for a subject that teaches '
+           'argument.',
+           'Three findings give the shape of it. Repetition raises acceptance of a statement '
+           'whether or not any evidence accompanies it, and the effect survives in people '
+           'who can remember being told that the statement was false, which means that '
+           'familiarity is doing work that has nothing to do with grounds. Agreement rises '
+           'sharply when the audience takes the speaker to belong to its own group, and the '
+           'same argument in the mouth of an outsider moves the same audience much less, so '
+           'the warrant is not what is being examined. And insinuation performs better than '
+           'assertion for anything the audience is reluctant to hear, because a suggestion '
+           'the listener completes for themselves is not available to be checked. None of '
+           'these three is a kind of argument. Each is a kind of deception, or close enough '
+           'to one that the distinction needs an argument of its own, and that argument is '
+           'never supplied by the people who use them.',
+           'Why then teach the model at all? Because the three findings describe what cannot '
+           'be defended against from the inside, and the warrant is the only part of a '
+           'persuasion that a listener can examine without trusting the speaker. A reader '
+           'who writes down the unstated principle has the one tool that works on '
+           'familiarity, on group membership and on insinuation alike, since all three '
+           'operate by making a sentence feel unnecessary to state. The model is a poor '
+           'account of how we are persuaded and the best available account of how to notice '
+           'it happening, and the suspicion it teaches is worth more than the elegance it '
+           'claims.'],
+ 'guided': [('What does the writer say the model is?',
+             ('Descriptive', 'Normative', 'Mistaken', 'Out of date'),
+             1,
+             'It sets out what an argument would consist of if audiences were moved by '
+             'reasons.'),
+            ('What does the writer say about the experimental literature?',
+             ('It is thin and contested',
+              'It is large, consistent and unflattering',
+              'It supports the model',
+              'It is mostly recent'),
+             1,
+             'And the quantities that predict agreement best are not features of the '
+             'argument.'),
+            ('What does repetition do?',
+             ('Raises acceptance whether or not evidence accompanies it',
+              'Raises acceptance only with evidence',
+              'Lowers acceptance over time',
+              'Has no measurable effect'),
+             0,
+             'And it survives in people who remember being told the statement was false.')],
+ 'exam': [('What does the finding about repetition show?',
+           ('That evidence is unnecessary',
+            'That familiarity does work unrelated to grounds',
+            'That audiences forget corrections',
+            'That statements should be repeated'),
+           1,
+           'The survival of the effect after a correction is what makes the point.'),
+          ('What happens when the audience takes the speaker to be an outsider?',
+           ('The argument is rejected outright',
+            'The same argument moves the same audience much less',
+            'The grounds are examined more closely',
+            'Agreement is unaffected'),
+           1,
+           'Which is why the writer says the warrant is not what is being examined.'),
+          ('Why does insinuation work better than assertion?',
+           ('It is shorter',
+            'A suggestion the listener completes is not available to be checked',
+            'It is harder to remember',
+            'It flatters the audience'),
+           1,
+           'Nothing was said, so there is nothing to examine.'),
+          ('Why does the writer still teach the model?',
+           ('Because the findings may be wrong',
+            'Because the warrant is the only part a listener can examine without trusting '
+            'the speaker',
+            'Because it is traditional',
+            'Because it describes persuasion accurately'),
+           1,
+           'It is the one tool that works on all three of the measured effects.'),
+          ('What do all three effects have in common, according to the passage?',
+           ('They require a hostile audience',
+            'They operate by making a sentence feel unnecessary to state',
+            'They work only in writing',
+            'They can be measured only in groups'),
+           1,
+           'That is why writing the sentence down is the defence against all three.')]}
+UNIT['l4'] = {'sub': 'How an argument is built',
+ 'caption': 'A lecture on grounds, claim and the sentence nobody says',
+ 'board': ['Grounds: the facts offered',
+           'Claim: what you are asked to accept',
+           'Warrant: the principle joining them',
+           'Write down what was not said'],
+ 'skill': ('A lecture that gives a method and one example',
+           ['Three terms first, then one example worked slowly. The example carries the '
+            'method.',
+            'Note what the lecturer says happens as soon as the warrant is written down.',
+            'A question about the assignment wants what the students must produce.']),
+ 'warm': [('Woman: What is a warrant?',
+           ('The principle joining the facts to the claim.',
+            'The facts offered.',
+            'Yes, there is one.',
+            'Three parts.'),
+           0,
+           'That is the term the whole lecture turns on.'),
+          ('Woman: Why is the warrant usually unstated?',
+           ('Because stating all of them would be unbearable.',
+            'Because speakers are hiding something.',
+            'Yes, it is unstated.',
+            'In an interview.'),
+           0,
+           'He is careful that economy, not concealment, is the usual reason.'),
+          ('Woman: What must the students hand in?',
+           ('The warrant, written as a sentence.',
+            'A summary of the argument.',
+            'Yes, an assignment.',
+            'Next week.'),
+           0,
+           'He asks for the unstated sentence, and nothing else.')],
+ 'script': [('Man',
+             'Three words, and then one example, and the example is the lecture. Grounds: '
+             'the facts a speaker offers. Claim: what the speaker wants you to accept. '
+             'Warrant: the general principle that allows the first to support the second. '
+             'Now notice that in ordinary speech you hear the grounds and the claim and '
+             'almost never the warrant, and before anybody suggests that this is sinister, '
+             'it is not. It is economy. You do it yourself a hundred times a day, and so do '
+             'I, and so does every judge and every doctor. An argument that spelled out '
+             'every warrant would be intolerable to sit through. Here is the example. She '
+             'was late for the interview, so she should not be appointed. Grounds, claim, '
+             'and no warrant. Write the warrant down for me. Something like: a candidate who '
+             'arrives late for an interview will be unreliable in the job. Now look what has '
+             'just happened, twice. First, that is a general claim about people, and general '
+             'claims can be tested, and this one is weak. Second, and this is the useful '
+             'part, we have discovered that the argument was never about the facts. Nobody '
+             'disputes that she was late. Not the candidate, not the panel, nobody. The '
+             'whole disagreement was living in a sentence nobody said. So, the assignment. '
+             'Bring me four arguments from this week’s newspapers, and for each one bring me '
+             'the warrant, written out as a full sentence. Not a summary of the article. The '
+             'sentence the writer did not put in it. And if you cannot find one, bring me '
+             'the argument and say so, because an argument with no warrant at all is a '
+             'different and far more interesting problem.')],
+ 'items': [('What does the lecturer say the example is?',
+            ('An illustration of the grounds',
+             'The lecture itself',
+             'A test of the students',
+             'An unusual case'),
+            1,
+            'He says three words, then one example, and the example is the lecture.'),
+           ('What does he say about the warrant being unstated?',
+            ('It is usually sinister',
+             'It is economy, not concealment',
+             'It happens only in speech',
+             'It is a recent development'),
+            1,
+            'He heads off the suspicion before anybody raises it.'),
+           ('What is the warrant in his example?',
+            ('That she was late',
+             'That a candidate late for an interview will be unreliable in the job',
+             'That she should not be appointed',
+             'That interviews matter'),
+            1,
+            'That is the sentence he asks the class to write down.'),
+           ('What is the first thing that happens when it is written down?',
+            ('The claim collapses',
+             'It becomes a general claim about people, which can be tested',
+             'The grounds are disputed',
+             'The speaker objects'),
+            1,
+            'And he adds that this particular general claim is weak.'),
+           ('What must the students bring?',
+            ('Four summaries of articles',
+             'Four arguments and the warrant of each, written as a full sentence',
+             'Four examples of weak grounds',
+             'One argument with its claim removed'),
+            1,
+            'He is explicit that a summary is not what he wants.')]}
+UNIT['l5'] = {'sub': 'How an argument is built',
+ 'caption': 'A short talk on what actually moves an audience',
+ 'board': ['Repetition: works without evidence',
+           'Group membership: works on the same words',
+           'Insinuation: nothing to check',
+           'Still teach the warrant'],
+ 'skill': ('A talk that undercuts a model and keeps it',
+           ['The speaker separates what a model is for from what it describes. Note both.',
+            'Three findings, each with the reason it embarrasses the model.',
+            'A question about her ending wants why the model survives.']),
+ 'warm': [('Man: Does she think the model describes persuasion?',
+           ('No, she thinks it describes an ideal.',
+            'Yes, she thinks it is accurate.',
+            'Yes, she does.',
+            'Three findings.'),
+           0,
+           'She calls it normative and denies that it is descriptive.'),
+          ('Man: Why does insinuation work so well?',
+           ('There is nothing to check.',
+            'It is repeated more often.',
+            'Yes, it works.',
+            'On a reluctant audience.'),
+           0,
+           'The listener supplies the claim, so no claim was made.'),
+          ('Man: Why keep the model?',
+           ('The warrant is the only part a listener can check.',
+            'Because it is traditional.',
+            'Yes, she keeps it.',
+            'For examinations.'),
+           0,
+           'It is the one defence that works on all three findings.')],
+ 'script': [('Woman',
+             'I want to take the model apart and then hand it back to you, because both '
+             'halves of that matter. The model tells you what an argument would be made of '
+             'if people were moved by reasons. Whether people are moved by reasons is a '
+             'separate question, and the experiments on it are numerous, boringly '
+             'consistent, and not flattering to anybody. I am going to give you three, and '
+             'you should assume there are forty more. Three of them. One: repeat a statement '
+             'and agreement with it rises, with no evidence attached, and the effect is '
+             'still there in people who remember being told the statement was false. So '
+             'familiarity is doing something, and it is nothing to do with grounds. Two: the '
+             'same sentence, word for word, persuades an audience considerably more when the '
+             'audience takes the speaker to be one of them. So the warrant is not what is '
+             'under examination. Three: for anything an audience does not want to hear, hint '
+             'rather than assert, because a thought the listener finishes themselves cannot '
+             'be checked by them. That is why the method is used by people who would never '
+             'tell an outright lie. Now, why have I spent a term teaching you a model that '
+             'does not describe the thing it is about? Because all three of those tricks '
+             'work by making a sentence feel unnecessary to say, and writing that sentence '
+             'down is the only move available to a listener who does not want to trust the '
+             'speaker. The model is a bad description and the best defence we have, and I '
+             'would rather hand you a bad description with a use than an accurate one with '
+             'none.')],
+ 'items': [('What does the speaker say she will do?',
+            ('Replace the model',
+             'Take the model apart and hand it back',
+             'Defend the model against the experiments',
+             'Compare two models'),
+            1,
+            'She says both halves of that matter.'),
+           ('What does she say about the experiments?',
+            ('They are few and contested',
+             'They are numerous, consistent and unflattering',
+             'They support the model',
+             'They are hard to interpret'),
+            1,
+            'That is her summary of the literature before she gives three of it.'),
+           ('What is still present in people who remember the correction?',
+            ('The evidence', 'The effect of repetition', 'The warrant', 'The claim'),
+            1,
+            'Which is how she shows familiarity is doing the work.'),
+           ('What does the second finding show about the warrant?',
+            ('That it must be stated',
+             'That it is not what is under examination',
+             'That outsiders argue badly',
+             'That audiences prefer evidence'),
+            1,
+            'The same words move the same audience differently by speaker, so the argument '
+            'is not what is being weighed.'),
+           ('Why has she taught the model for a term?',
+            ('Because it is examinable',
+             'Because writing the unstated sentence down is the only move a listener has',
+             'Because the experiments may be wrong',
+             'Because it describes argument accurately'),
+            1,
+            'She calls it a bad description and the best defence we have.')]}
+UNIT['w4'] = {'sub': 'How an argument is built',
+ 'skill': ('Cleft sentences and fronting: what… is, it is… that',
+           ['A what-cleft moves the important part to the end: what nobody says is the '
+            'warrant.',
+            'An it-cleft puts the emphasis in the middle: it is the warrant that carries the '
+            'disagreement.',
+            'Front a phrase for contrast, and keep the rest of the clause in order: about '
+            'the facts there was never any dispute.']),
+ 'guided': [('You want to emphasise the missing part.',
+             ['what',
+              'nobody',
+              'states',
+              'is',
+              'the warrant',
+              'that',
+              'joins',
+              'the grounds',
+              'to',
+              'the claim'],
+             'What nobody states is the warrant that joins the grounds to the claim.'),
+            ('You want an it-cleft on the warrant.',
+             ['it',
+              'is',
+              'the warrant',
+              'that',
+              'carries',
+              'the',
+              'disagreement',
+              'and',
+              'not',
+              'the grounds'],
+             'It is the warrant that carries the disagreement, and not the grounds.'),
+            ('You want to front a phrase for contrast.',
+             ['about', 'the facts', 'there', 'was', 'never', 'any', 'dispute', 'at', 'all'],
+             'About the facts there was never any dispute at all.')],
+ 'exam': [('You want a what-cleft on the method.',
+           ['what',
+            'the method',
+            'asks',
+            'you',
+            'to',
+            'do',
+            'is',
+            'write',
+            'the unstated',
+            'sentence',
+            'down'],
+           'What the method asks you to do is write the unstated sentence down.'),
+          ('You want an it-cleft on familiarity.',
+           ['it',
+            'is',
+            'familiarity',
+            'rather than',
+            'evidence',
+            'that',
+            'raises',
+            'agreement',
+            'with',
+            'a repeated',
+            'statement'],
+           'It is familiarity rather than evidence that raises agreement with a repeated '
+           'statement.'),
+          ('You want to front a concession.',
+           ['useful',
+            'the model',
+            'certainly',
+            'is',
+            'but',
+            'it',
+            'describes',
+            'nothing',
+            'anybody',
+            'does'],
+           'Useful the model certainly is, but it describes nothing anybody does.'),
+          ('You want a what-cleft on the defence.',
+           ['what',
+            'protects',
+            'a listener',
+            'is',
+            'the',
+            'habit',
+            'of',
+            'stating',
+            'the',
+            'principle',
+            'aloud'],
+           'What protects a listener is the habit of stating the principle aloud.'),
+          ('You want an it-cleft with a negative.',
+           ['it',
+            'was',
+            'not',
+            'the grounds',
+            'that',
+            'the two sides',
+            'disagreed',
+            'about',
+            'in',
+            'the end'],
+           'It was not the grounds that the two sides disagreed about in the end.')]}
+UNIT['w5'] = {'sub': 'How an argument is built',
+ 'prof': 'Dr Nwosu',
+ 'question': 'A university course in rhetoric teaches students to identify unstated '
+             'warrants, and the same analysis tells a speaker how to leave a weak warrant '
+             'unstated. A colleague argues that the course should be taught only to students '
+             'who will not go into political work. Should the course change?',
+ 'posts': [('Esther',
+            'w',
+            'No, and the proposal is worse than useless, because the people who go into '
+            'political work will learn these techniques anyway and the only students you '
+            'have excluded are the ones who would have been able to see through them.'),
+           ('Rafi',
+            'm',
+            'Esther assumes detection and concealment are equally easy to teach, and the '
+            'second passage suggests they are not. Three of the most effective techniques '
+            'work by not being stated, which is a gift to anybody who wants to use them.')],
+ 'skill': ('A question about teaching something that can be misused',
+           ['Esther argues from who ends up untrained; Rafi from the asymmetry between using '
+            'and detecting.',
+            'The second passage says all three effects operate by making a sentence feel '
+            'unnecessary, which cuts against Rafi more than he notices.',
+            'A strong answer says what the course should contain, not only whether it should '
+            'run.']),
+ 'starters': ['Rafi is right that…, although the passage he cites…',
+              'The distinction worth drawing is between… and…',
+              'What the asymmetry actually favours is…',
+              'So the course should keep…, and add…'],
+ 'model': ['Rafi is right that detection and concealment are not symmetrical, and the '
+           'passage he cites puts the asymmetry the other way round. All three of the '
+           'measured effects work by making a sentence feel unnecessary to state, so each of '
+           'them is defeated by the single habit of writing that sentence down, while none '
+           'of them is made easier by learning the habit. The technique is cheap to use and '
+           'cheap to detect, and what the course teaches is the detection.',
+           'Esther is right about who would be left untrained and she states it as though '
+           'the misuse were imaginary. It is not. A student who can find a warrant can also '
+           'notice which of their own warrants will not survive being said aloud, and some '
+           'of them will act on that, without any further instruction from anybody, which is '
+           'a cost of the course and not a reason against it.',
+           'So the course should keep its method and add the part it is currently missing, '
+           'which is the measured literature on what moves audiences. A student who has been '
+           'taught the three-part model alone leaves believing that persuasion runs on '
+           'reasons, and that belief is itself a vulnerability. What the addition costs is '
+           'the clean shape of the course, because the findings do not fit the model and '
+           'cannot be made to. That is the smaller price. A graduate who knows the model and '
+           'not the findings has been equipped for an argument nobody is having, against '
+           'opponents who have read the findings.'],
+ 'model_words': 254}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'How an argument is built',
+  'focus': 'stating the principle somebody left unsaid',
+  'skill': ('The sentence nobody said was: a candidate who is late will be unreliable',
+            ['Introduce the sentence as a sentence, then say it at full length. Rushing it '
+             'loses the point.',
+             'Keep your tone neutral while you say it. Mockery makes it sound like a straw '
+             'man.',
+             'Then pause before you comment on it.']),
+  'repeat': ['The warrant joins the two.',
+             'The grounds are the facts offered.',
+             'Nobody disputes that she was late.',
+             'The claim is what you are asked to accept.',
+             'The disagreement was living in a sentence nobody said.',
+             'Write down the sentence the speaker did not say.',
+             'A general claim about people can be tested, and this one turns out to be '
+             'weak.'],
+  'theme': 'an argument with something missing from it',
+  'qs': ['Tell me about a disagreement where you and the other person agreed on the facts. '
+         'What were you really disagreeing about?',
+         'Some people say that if two people have the same information they should reach the '
+         'same conclusion. How far would you agree?',
+         'How would you explain to a friend what a warrant is?',
+         'Finally, describe an argument you heard recently that you could not answer.'],
+  'model': [(2,
+             'I would disagree, and this unit gives me the reason. The same information '
+             'supports different conclusions depending on the principle you bring to it, and '
+             'that principle is usually the thing that is never stated.'),
+            (3,
+             'I would say it is the sentence that has to be true for the facts to count as a '
+             'reason. If somebody says it is raining so take a coat, the warrant is that you '
+             'mind getting wet.')],
+  'selfcheck': ['I said the unstated sentence at full length',
+                'I kept my tone neutral while saying it',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'How an argument is built',
+  'focus': 'keeping something while admitting it is wrong',
+  'skill': ('It is a bad description and the best defence we have',
+            ['Give the concession first and completely. A short concession sounds like a '
+             'trick.',
+             'Then say what the thing is for, which is a different question from whether it '
+             'is true.',
+             'Stress for, because the whole move is about purpose.']),
+  'repeat': ['The model is normative.',
+             'It is not a description.',
+             'Repetition works with no evidence at all.',
+             'The same sentence persuades more from an insider.',
+             'All three work by making a sentence feel unnecessary.',
+             'A hint cannot be checked by the person who finishes it.',
+             'It is a bad description of how we are persuaded and the best account we have '
+             'of how to notice it.'],
+  'theme': 'a tool worth keeping for a reason other than accuracy',
+  'qs': ['Tell me about something you use that you know is not accurate. Why do you keep '
+         'using it?',
+         'Some people think a model that does not describe reality should be thrown out. '
+         'What do you think?',
+         'How do you protect yourself against an argument you find persuasive?',
+         'Finally, describe a time repetition changed your mind without any new evidence.'],
+  'model': [(2,
+             'I think that confuses two tests. A model can be judged by whether it describes '
+             'something or by what it lets you do, and the second test is the one that '
+             'matters for a tool.'),
+            (3,
+             'I try to write down the principle the argument needs, in a full sentence, '
+             'because once it is on the page I am looking at a claim rather than feeling a '
+             'pull.')],
+  'selfcheck': ['I gave the concession completely first',
+                'I separated what it is for from whether it is true',
+                'I stressed the purpose']}]
