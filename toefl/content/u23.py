@@ -1033,3 +1033,637 @@ UNIT = dict(
         'second past event, you want the simple past, and using the perfect anyway makes the '
         'sentence sound translated.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 23 gains its two academic cycles. Cycle 4 is the consolidation
+# mechanism, built around the control condition rather than the result,
+# because the control is what licenses the causal claim and the result is
+# what students revise. Cycle 5 is the distance between a rodent in a maze
+# and a student with a reading list: it concedes the experimental work
+# entirely and separates three claims of very different strengths, ending
+# on the one that is an inference wearing the clothes of a finding.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('consolidation', 'the process by which a new memory becomes stable'),
+ ('replay', 'the repeating of a pattern of activity after the event'),
+ ('deprivation', 'being kept without something needed'),
+ ('rodent', 'a small gnawing mammal such as a rat or mouse'),
+ ('hippocampus', 'the brain structure where new memories are first formed'),
+ ('electrode', 'a probe that records or delivers electrical activity'),
+ ('retention', 'how much is still held after an interval'),
+ ('overnight', 'across a single night'),
+ ('extrapolation', 'the extension of a finding beyond the case it came from'),
+ ('cortex', 'the outer layer of the brain, where memories are stored long term'),
+ ('optimisation', 'a plan presented as the best possible arrangement'),
+ ('spindle', 'a short burst of activity seen in sleep recordings')]
+UNIT['r4'] = {'sub': 'Consolidation and sleep',
+ 'title': 'What the Sleeping Brain Is Doing With the Day',
+ 'words': 293,
+ 'skill': ('Reading a mechanism described in two species at once',
+           ['The passage moves between recordings from rodents and tests on people, so keep '
+            'track of which evidence comes from which.',
+            'A mechanism has a sequence, and the sequence here runs from encoding through '
+            'replay to storage somewhere else.',
+            'A question about the strongest evidence wants the manipulation, not the '
+            'correlation.']),
+ 'paras': ['A memory is not stored where it is formed. The hippocampus takes the events of a '
+           'day quickly and holds them in a form that is easily disturbed, while the cortex '
+           'holds memories for decades in a form that is slow to establish, and the transfer '
+           'of information from the first to the second requires some mechanism of its own. '
+           'Recordings from rodents show the hippocampus reproducing, during sleep, the same '
+           'sequences of activity it produced while the animal was awake, compressed into a '
+           'fraction of the original time. This replay occurs in bursts that coincide with '
+           'the spindles visible in a sleep recording, and the cortex shows corresponding '
+           'activity at the same moments.',
+           'The correlation alone would not establish much, and the useful evidence comes '
+           'from interfering with the process. If the bursts are disrupted during sleep, by '
+           'a stimulus timed to arrive with them, retention the next day falls, while the '
+           'same stimulus delivered between bursts has no such effect. Deprivation of sleep '
+           'after learning produces a comparable loss, and a nap of ninety minutes recovers '
+           'much of it. These are manipulations rather than observations, and the inference '
+           'they support is stronger in kind than anything the recordings could have given '
+           'on their own.',
+           'The account that follows is an attractive one. Learning during the day deposits '
+           'a fragile record in one structure, sleep transfers it to another at a time when '
+           'no new information is arriving to interfere, and the compression during replay '
+           'allows a night to process a day. It explains the common observation that '
+           'material reviewed before sleep shows better retention than material reviewed at '
+           'the same interval while awake, and it explains why the loss from a missed night '
+           'cannot be made up by sleeping longer afterwards.'],
+ 'guided': [('Where is a memory first held, by this passage?',
+             ('In the cortex',
+              'In the hippocampus',
+              'In both equally',
+              'Nowhere in particular'),
+             1,
+             'The hippocampus takes the events of a day quickly, and the cortex holds '
+             'memories for decades.'),
+            ('What do the rodent recordings show during sleep?',
+             ('No activity at all',
+              'The same sequences as during waking, compressed in time',
+              'Entirely new sequences',
+              'Activity only in the cortex'),
+             1,
+             'Reproducing the same sequences of activity it produced while awake, compressed '
+             'into a fraction of the original time.'),
+            ('Why is the correlation alone insufficient?',
+             ('The recordings are inaccurate',
+              'It does not show that the replay is doing the work',
+              'Rodents are not people',
+              'Spindles are hard to see'),
+             1,
+             'The useful evidence comes from interfering with the process, which is what '
+             'turns a correlation into a mechanism.')],
+ 'exam': [('What happens when the bursts are disrupted during sleep?',
+           ('Retention the next day falls',
+            'Retention improves',
+            'Nothing measurable changes',
+            'The spindles disappear'),
+           0,
+           'A stimulus timed to arrive with the bursts lowers next-day retention, and the '
+           'same stimulus between bursts does not.'),
+          ('Why does the passage mention the stimulus delivered between bursts?',
+           ('To show the method is harmless',
+            'To show the effect depends on the timing rather than the stimulus',
+            'To measure sleep quality',
+            'To compare species'),
+           1,
+           'The between-bursts condition is the control: it isolates timing as the active '
+           'ingredient.'),
+          ('The word fragile in paragraph 3 is closest in meaning to',
+           ('recent', 'easily disturbed', 'compressed', 'incomplete'),
+           1,
+           'A fragile record picks up the earlier phrase a form that is easily disturbed, '
+           'which is what makes transfer necessary.'),
+          ('What familiar observation does the account explain?',
+           ('That naps are refreshing',
+            'That material reviewed before sleep is better retained',
+            'That rodents sleep more than people',
+            'That spindles increase with age'),
+           1,
+           'Material reviewed before sleep is better retained than material reviewed at the '
+           'same interval while awake.'),
+          ('Why can a missed night not be made up afterwards, on this account?',
+           ('The material has already decayed beyond recovery',
+            'The transfer had a window and the window has passed',
+            'Sleeping longer disrupts the cortex',
+            'The passage does not address it'),
+           1,
+           'The mechanism is a timed transfer, so extra sleep later does not recover what '
+           'was not moved when it could have been.')]}
+UNIT['r5'] = {'sub': 'Consolidation and sleep',
+ 'title': 'The Distance Between a Rodent and a Student',
+ 'words': 298,
+ 'skill': ('Reading an objection about how far evidence travels',
+           ['The target here is not the mechanism but the step from one species and one task '
+            'to a claim about people and learning.',
+            'Note what the writer concedes, which is almost all of the experimental work.',
+            'A question about the advice at the end wants what remains usable, not what has '
+            'been withdrawn.']),
+ 'paras': ['The experimental demonstration of consolidation during sleep is as good as '
+           'experimental work on memory gets, and the difficulty lies in the interpretation '
+           'built on it afterwards. The recordings and the studies that interfere with '
+           'replay concern a rodent finding its way through a maze, which is a task with a '
+           'clear order of steps and a measurable outcome. The material a student is trying '
+           'to retain has none of those features, and the claim that the same mechanism '
+           'carries it is an extrapolation across species, across task and across the length '
+           'of time involved, all at once.',
+           'Human investigations exist, and most of them share a limitation that constrains '
+           'what they can show. The task is usually a word list or a set of paired items, '
+           'chosen because retention can be scored unambiguously, and the effect of sleep on '
+           'such material is reliable and small. Studies using the material students '
+           'actually have to learn are fewer, harder to score, and produce smaller and less '
+           'consistent effects. That pattern, in which the effect shrinks as the task '
+           'approaches the thing of interest, is one worth noticing wherever it occurs, '
+           'because it has more than one explanation and only some of them are comfortable '
+           'reading.',
+           'None of this is an argument for ignoring sleep, and the practical recommendation '
+           'that comes out of the literature survives the objection almost intact. Sleep '
+           'after study rather than before a deadline, and do not expect to recover a lost '
+           'night. What does not survive is the stronger version, in which a particular '
+           'schedule is derived from a particular mechanism and sold to students as an '
+           'optimisation. The mechanism is well evidenced in a rodent, the recommendation is '
+           'well evidenced in people, and the connection between them is an extrapolation '
+           'rather than an observation.'],
+ 'guided': [('What does the passage say about the experimental case?',
+             ('It is weak',
+              'It is as good as experimental work on memory gets',
+              'It has been withdrawn',
+              'It concerns only people'),
+             1,
+             'The passage concedes the quality of the work and objects to what is done with '
+             'it afterwards.'),
+            ('What task do the rodent studies use?',
+             ('A word list',
+              'Finding a way through a maze',
+              'Paired items',
+              'A reading comprehension test'),
+             1,
+             'A spatial task with a clear sequence and a measurable outcome, which is what '
+             'makes it tractable and also unlike student material.'),
+            ('What three things does the extrapolation cross at once?',
+             ('Species, task and timescale',
+              'Species, laboratory and country',
+              'Task, age and language',
+              'Species, cost and method'),
+             0,
+             'Across species, across task and across timescale at once is stated directly.')],
+ 'exam': [('Why are word lists used in human studies?',
+           ('They are more realistic',
+            'Retention can be scored unambiguously',
+            'They take less time',
+            'They are like maze learning'),
+           1,
+           'Chosen because retention can be scored unambiguously, which is a virtue for '
+           'measurement and a cost in realism.'),
+          ('What pattern does the passage ask the reader to notice?',
+           ('Effects grow as tasks become realistic',
+            'Effects shrink as the task approaches the thing of interest',
+            'Studies get larger over time',
+            'Rodent work is always replicated'),
+           1,
+           'The shrinking effect as the task approaches the real case is the pattern, and '
+           'the passage says it has more than one explanation.'),
+          ('Why does the passage say only some explanations of that pattern are comfortable?',
+           ('Because realistic tasks are expensive',
+            'Because one explanation is that the effect was never as large as reported',
+            'Because rodents differ from people',
+            'Because scoring is subjective'),
+           1,
+           'An effect that shrinks as measurement improves may be an effect the easier '
+           'measurement partly created.'),
+          ('What practical advice survives the criticism?',
+           ('Sleep before a deadline rather than after study',
+            'Sleep after study, and do not expect to recover a lost night',
+            'Review material only while awake',
+            'Follow a derived schedule'),
+           1,
+           'Both of those are stated as surviving almost intact.'),
+          ('What does the passage say does not survive?',
+           ('The experimental work',
+            'A schedule derived from a mechanism and sold as an optimisation',
+            'The advice about lost nights',
+            'The human studies'),
+           1,
+           'The stronger version, in which a particular schedule is derived from a '
+           'particular mechanism, is the part withdrawn.')]}
+UNIT['l4'] = {'sub': 'Consolidation and sleep',
+ 'caption': 'A lecture on the experiment that made the case',
+ 'board': ['Correlation: replay happens in sleep',
+           'Manipulation: disrupt it, retention falls',
+           'Control: same stimulus, wrong moment',
+           'The control is the whole experiment'],
+ 'skill': ('A lecture built around one control condition',
+           ['The lecturer treats the control condition as the important part, so note what '
+            'it holds constant.',
+            'There are two results here, and he is explicit that only one of them licenses a '
+            'causal claim.',
+            'A question about what students usually misremember wants the thing he says the '
+            'exam asks about.']),
+ 'warm': [('Woman: What does the correlation on its own show?',
+           ('That replay happens during sleep.',
+            'That replay causes retention.',
+            'Yes, it shows something.',
+            'Ninety minutes.'),
+           0,
+           'He is careful that the correlation establishes the timing of replay and nothing '
+           'about its effect.'),
+          ('Woman: What does the control condition hold constant?',
+           ('The stimulus, changing only its timing.',
+            'The timing, changing only the stimulus.',
+            'Yes, it holds something constant.',
+            'The species.'),
+           0,
+           'Same stimulus, wrong moment is the design, which is what isolates timing as the '
+           'active ingredient.'),
+          ('Woman: What does he say the exam asks about?',
+           ('The control condition.',
+            'The size of the effect.',
+            'Yes, it asks about it.',
+            'The spindles.'),
+           0,
+           'He says the question is always about the control, and that students revise the '
+           'result instead.')],
+ 'script': [('Man',
+             'I want to take one experiment slowly, because it is the best thing in this '
+             'topic and because the part students remember is not the part that matters. '
+             'Here is the correlation first. Put electrodes in a rodent hippocampus, let it '
+             'learn a maze, then record while it sleeps, and you see the same firing '
+             'sequences running again, faster, in bursts that line up with the spindles in '
+             'the sleep trace. Beautiful result, and on its own it establishes when replay '
+             'happens and nothing whatever about what replay does. Now the manipulation. '
+             'Deliver a disrupting stimulus timed to arrive with those bursts, and next-day '
+             'retention drops. Already better, and still not enough, because a stimulus '
+             'during sleep might lower retention for a dozen reasons that have nothing to do '
+             'with replay. So here is the condition that makes the experiment: deliver '
+             'exactly the same stimulus, the same intensity, the same number of times, in '
+             'the gaps between bursts. Retention is unaffected. Same stimulus, same sleep, '
+             'same animal, different moment, different outcome. That is what licenses the '
+             'causal claim, and in four years of marking this paper the question has always '
+             'been about the control condition, while the thing students revise is the size '
+             'of the effect. I will put that another way, because it carries over to '
+             'everything else. A result tells you what happened. A control condition tells '
+             'you why you are entitled to say what caused it, and only one of those two is '
+             'an argument.')],
+ 'items': [('What does the correlation establish, by the lecturer?',
+            ('What replay does',
+             'When replay happens',
+             'How large the effect is',
+             'Nothing at all'),
+            1,
+            'It establishes when replay happens and nothing whatever about what replay '
+            'does.'),
+           ('Why is the disruption result still not enough on its own?',
+            ('The stimulus is too weak',
+             'A stimulus in sleep might lower retention for other reasons',
+             'Rodents differ from people',
+             'The spindles are not visible'),
+            1,
+            'For a dozen reasons that have nothing to do with replay, which is what the '
+            'control removes.'),
+           ('What is held constant in the control condition?',
+            ('The timing',
+             'The stimulus, its intensity and its number',
+             'The animal only',
+             'Nothing'),
+            1,
+            'Exactly the same stimulus, the same intensity, the same number of times, in the '
+            'gaps between bursts.'),
+           ('What is the outcome of the control condition?',
+            ('Retention falls further',
+             'Retention is unaffected',
+             'The animal does not sleep',
+             'Replay stops'),
+            1,
+            'Retention is unaffected, which is the contrast the causal claim rests on.'),
+           ('What does he say students revise instead?',
+            ('The control condition',
+             'The size of the effect',
+             'The species used',
+             'The sleep trace'),
+            1,
+            'The question has always been about the control, and the thing students revise '
+            'is the size of the effect.')]}
+UNIT['l5'] = {'sub': 'Consolidation and sleep',
+ 'caption': 'A short talk on advice that outruns its evidence',
+ 'board': ['Mechanism: rodent, maze, strong',
+           'Advice: people, modest, reliable',
+           'Schedule: derived, not measured',
+           'Say which of the three you are using'],
+ 'skill': ('A talk separating three claims of different strengths',
+           ['The speaker keeps three levels apart, and the whole talk is about not sliding '
+            'between them.',
+            'Note which of the three she says is not evidence at all.',
+            'A question about her own practice wants what she changed, which is smaller than '
+            'the argument might suggest.']),
+ 'warm': [('Man: How many levels of claim does she separate?',
+           ('Three.', 'Two.', 'Yes, she separates them.', 'Ninety minutes.'),
+           0,
+           'Mechanism, advice and schedule are the three, and the talk is about keeping them '
+           'apart.'),
+          ('Man: Which one is not evidence at all?',
+           ('The derived schedule.',
+            'The mechanism.',
+            'Yes, one of them is not.',
+            'The advice.'),
+           0,
+           'The schedule is an inference presented as a finding, which is her central '
+           'complaint.'),
+          ('Man: What did she change in her own teaching?',
+           ('One sentence on a slide.',
+            'The whole topic.',
+            'Yes, she changed something.',
+            'Nothing at all.'),
+           0,
+           'Her revision is deliberately modest, which is the point she makes about honest '
+           'correction.')],
+ 'script': [('Woman',
+             'There are three claims in this literature, they are not equally strong, and '
+             'almost all of the trouble in it comes from sliding between them inside a '
+             'single paragraph. Claim one is the mechanism: replay during sleep transfers a '
+             'record from hippocampus to cortex. In a rodent learning a maze that is as well '
+             'evidenced as anything in the field, with the control condition to support it. '
+             'Claim two is the advice: study, then sleep, and do not count on recovering a '
+             'lost night. That is evidenced in people, the effect is modest, and it '
+             'replicates, which is more than a great deal of what you will read. Claim three '
+             'is a schedule. Ninety-minute blocks, a particular interval before sleep, a '
+             'number of review cycles, all of it derived from the mechanism and presented to '
+             'students as though it had been measured in students. It has not been measured '
+             'there at all. That is not a weak finding. It is an inference wearing the '
+             'clothes of a finding, and you should be able to tell the difference by the end '
+             'of this course. I will tell you what I actually did about this. I did not drop '
+             'the topic and I did not stop giving the advice. I removed one sentence from '
+             'one slide, the one with the numbers in it, and the lecture is better for it.')],
+ 'items': [('Where does the trouble come from, by the speaker?',
+            ('Weak experiments',
+             'Sliding between the three claims in one paragraph',
+             'Rodent studies',
+             'Modest effects'),
+            1,
+            'Almost all the trouble comes from sliding between them in a single paragraph.'),
+           ('What does she say about claim two?',
+            ('It has never been tested',
+             'It is modest and it replicates',
+             'It is the strongest of the three',
+             'It applies only to rodents'),
+            1,
+            'Evidenced in people, modest, and it replicates, which she says is more than a '
+            'great deal of the literature.'),
+           ('What is wrong with claim three?',
+            ('The numbers are too large',
+             'It was derived from the mechanism rather than measured in students',
+             'It contradicts claim two',
+             'Nobody teaches it'),
+            1,
+            'Derived from the mechanism and presented as though it had been measured in '
+            'students, which it has not.'),
+           ('What phrase does she use for claim three?',
+            ('A weak finding',
+             'An inference wearing the clothes of a finding',
+             'A useful approximation',
+             'A replicated effect'),
+            1,
+            'It is not a weak finding but an inference wearing the clothes of one, which is '
+            'a stronger complaint.'),
+           ('What did she change in response?',
+            ('She dropped the topic',
+             'She removed one sentence with the numbers in it',
+             'She stopped giving the advice',
+             'She added a lecture'),
+            1,
+            'She removed one sentence from one slide, the one with the numbers, and says the '
+            'lecture is better.')]}
+UNIT['w4'] = {'sub': 'Consolidation and sleep',
+ 'skill': ('Perfect aspect when one event sets up another',
+           ['The past perfect puts one event clearly before another: retention had already '
+            'fallen before the stimulus was repeated.',
+            'The present perfect reports a result that still stands, which is how a findings '
+            'paragraph is normally written.',
+            'With by the time, the earlier event takes the past perfect and the later one '
+            'the simple past.']),
+ 'guided': [('You want to say the transfer was complete before the night ended.',
+             ['by the time',
+              'the animal',
+              'woke',
+              'the record',
+              'had',
+              'already',
+              'moved',
+              'to the',
+              'cortex',
+              'in',
+              'full'],
+             'By the time the animal woke, the record had already moved to the cortex in '
+             'full.'),
+            ('You want to report a result that still stands.',
+             ['the effect',
+              'has',
+              'replicated',
+              'in',
+              'every',
+              'study',
+              'that',
+              'has',
+              'used',
+              'the same',
+              'control'],
+             'The effect has replicated in every study that has used the same control.'),
+            ('You want to say the schedule was never tested on students.',
+             ['the schedule',
+              'had',
+              'been',
+              'derived',
+              'from',
+              'the mechanism',
+              'before',
+              'anybody',
+              'tested',
+              'it',
+              'on students'],
+             'The schedule had been derived from the mechanism before anybody tested it on '
+             'students.')],
+ 'exam': [('You want to say the loss could not be recovered later.',
+           ['the retention',
+            'that',
+            'had',
+            'been',
+            'lost',
+            'overnight',
+            'could',
+            'not',
+            'be',
+            'recovered',
+            'afterwards'],
+           'The retention that had been lost overnight could not be recovered afterwards.'),
+          ('You want to report what the correlation had not established.',
+           ['the recordings',
+            'had',
+            'established',
+            'when',
+            'replay',
+            'happened',
+            'and',
+            'nothing',
+            'about',
+            'what',
+            'it did'],
+           'The recordings had established when replay happened and nothing about what it '
+           'did.'),
+          ('You want to say the effect shrinks as tasks get realistic.',
+           ['the effect',
+            'has',
+            'shrunk',
+            'in',
+            'every',
+            'study',
+            'that',
+            'has',
+            'moved',
+            'towards',
+            'realistic material'],
+           'The effect has shrunk in every study that has moved towards realistic material.'),
+          ('You want to say she had changed the slide before the term began.',
+           ['she',
+            'had',
+            'removed',
+            'the sentence',
+            'with',
+            'the numbers',
+            'before',
+            'the term',
+            'had',
+            'properly',
+            'begun'],
+           'She had removed the sentence with the numbers before the term had properly '
+           'begun.'),
+          ('You want to say the inference has been treated as a finding.',
+           ['an inference',
+            'has',
+            'been',
+            'treated',
+            'as',
+            'a finding',
+            'by',
+            'everybody',
+            'who',
+            'has',
+            'repeated it'],
+           'An inference has been treated as a finding by everybody who has repeated it.')]}
+UNIT['w5'] = {'sub': 'Consolidation and sleep',
+ 'prof': 'Dr Varga',
+ 'question': 'A study-skills handbook has one page for the sleep literature. It can print '
+             'the practical advice, which is modestly evidenced in people, or the mechanism, '
+             'which is strongly evidenced in rodents and explains why the advice works. '
+             'Which belongs on the page?',
+ 'posts': [('Ingrid',
+            'w',
+            'The advice, and only the advice. A handbook is read by somebody deciding what '
+            'to do tonight, not by somebody evaluating a literature. Printing the mechanism '
+            'invites exactly the derived schedules the talk warned about.'),
+           ('Rafael',
+            'm',
+            'Advice with no reason behind it is the first thing a student drops when a '
+            'deadline arrives. The mechanism is what makes the advice survive contact with a '
+            'bad week, and it is also true, which I would have thought counted for '
+            'something.')],
+ 'skill': ('A question about what a reason is worth',
+           ['Ingrid is arguing from how a handbook is used; Rafael from what makes advice '
+            'stick. Neither disputes the evidence.',
+            'Use the second passage: it is precise about which claim is strong in which '
+            'population, and that precision is available to you.',
+            'A good answer says what it would print, in words, rather than describing a '
+            'policy about printing.']),
+ 'starters': ['Rafael is right that…, although that holds only when…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passage suggests…',
+              'What belongs on the page is not… but…'],
+ 'model': ['Rafael is right that unexplained advice does not survive a bad week, although '
+           'his case assumes the mechanism is the only available reason, and the passage '
+           'supplies a better one. The advice replicates in people. That is a reason, it is '
+           'about the population the handbook is addressing, and it does not invite a '
+           'schedule.',
+           'Ingrid’s worry is the real one and her remedy overshoots. A page that gives no '
+           'reason at all is not safer than a page that gives the right reason; it is merely '
+           'quieter about what it is doing, and quiet is not the same thing as careful.',
+           'So the page should print the advice, then one sentence saying that it has been '
+           'tested in students and the effect is reliable and small, and then one further '
+           'sentence saying that the overnight mechanism is established in animals and that '
+           'no particular timetable follows from its description. What is given up is the '
+           'satisfying explanation, and a handbook is the wrong place to look for '
+           'satisfaction of that particular kind. A student who has read those two sentences '
+           'can recognise the next derived schedule they are sold, in a handbook or anywhere '
+           'else, and the mechanism on its own would never have taught them to do that.'],
+ 'model_words': 210}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Consolidation and sleep',
+  'focus': 'saying a sequence of events in the right aspect',
+  'skill': ('By the time the animal woke, the record had already moved',
+            ['The earlier event takes had and the later one takes a simple past. Say had '
+             'quickly and unstressed; it is grammar, not news.',
+             'The stress belongs on the two verbs, not on had.',
+             'Keep by the time clauses at the front, where English prefers them.']),
+  'repeat': ['Retention had fallen before anybody noticed.',
+             'The effect has replicated in every study since.',
+             'By the time it woke, the record had moved.',
+             'The schedule had been derived before anybody tested it.',
+             'The recordings had established the timing and nothing else.',
+             'An inference has been treated as a finding by everybody who repeated it.',
+             'By the time the control condition was run, the correlation had already been '
+             'published twice.'],
+  'theme': 'learning something overnight',
+  'qs': ['Tell me about a time you learned something and found it clearer the next morning. '
+         'What had you done the night before?',
+         'Some people say that studying late is always a mistake. How far would you agree?',
+         'If a friend told you about a study schedule they had read about, what would you '
+         'want to know before trying it?',
+         'Finally, describe a piece of advice you follow without knowing why it works.'],
+  'model': [(2,
+             'Not always, and the exceptions matter. Reading something difficult late and '
+             'sleeping on it has worked for me more often than it has failed. Writing '
+             'anything late has been a mistake every single time, and I think those are two '
+             'different activities.'),
+            (3,
+             'Whether it had been tested on people doing the thing I am doing. Most of what '
+             'reaches me has been tested on something else and translated by somebody with a '
+             'book to sell.')],
+  'selfcheck': ['I said had quickly and stressed the verbs',
+                'I used at least two of the unit’s field words',
+                'I asked what the evidence was, not just whether it worked']},
+ {'sub': 'Consolidation and sleep',
+  'focus': 'separating claims of different strength out loud',
+  'skill': ('That is well evidenced in animals, and the schedule is not',
+            ['Name the population each time you name a claim. In animals and in students are '
+             'doing the work in the sentence.',
+             'Put a clear fall on the strong claim and a clear rise before the weak one, so '
+             'the contrast is audible.',
+             'Do not say probably where you mean in rodents. Hedging the wrong thing makes a '
+             'precise claim sound vague.']),
+  'repeat': ['That is well evidenced in animals.',
+             'The schedule was derived rather than measured.',
+             'The advice is evidenced in people and the effect is modest.',
+             'It replicates, which is more than much of the literature does.',
+             'An inference wearing the clothes of a finding is still an inference.',
+             'I removed the sentence with the numbers and the lecture is better.',
+             'The mechanism is strong in a rodent, the advice is reliable in a student, and '
+             'the line between them is an inference.'],
+  'theme': 'advice that sounds more certain than it is',
+  'qs': ['Tell me about advice you were given that sounded more certain than it turned out '
+         'to be.',
+         'Some people think an expert should simplify rather than explain how strong the '
+         'evidence is. What do you think?',
+         'How should a course present a finding that holds in animals and has not been shown '
+         'in people?',
+         'Finally, describe something you believe on modest evidence and act on anyway. Why '
+         'is that reasonable?'],
+  'model': [(2,
+             'I think simplifying is unavoidable and hiding the strength is a choice, and '
+             'the two get confused. You can say this is reliable and this is a guess in nine '
+             'words, and once somebody has heard that distinction they want it everywhere.'),
+            (4,
+             'Taking the stairs. The evidence is thin, nothing about it is costly if it is '
+             'wrong, and that asymmetry is the whole of the reasoning rather than a gap in '
+             'it.')],
+  'selfcheck': ['I named the population with each claim',
+                'I made the contrast audible between strong and weak',
+                'I hedged the claim rather than the wording']}]
