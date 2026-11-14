@@ -1027,3 +1027,644 @@ UNIT = dict(
         'will read every news story about research more accurately than the person who wrote '
         'it.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 25 gains its two academic cycles. Cycle 4 derives the replication
+# problem from three features of honest practice - low precision, the
+# publication filter, and the number of defensible decisions inside an
+# analysis - and makes the point that together they yield a testable
+# prediction, which is why it is an argument and not a complaint. Cycle 5
+# accepts the result and refuses the reading: a binary verdict cannot
+# distinguish an artefact from a real conditional effect, and both sides
+# of the public dispute were right about different things.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('replication', 'the repeating of a study to see whether it holds'),
+ ('heterogeneity', 'real variation between studies of the same question'),
+ ('precision', 'how narrowly a result is pinned down'),
+ ('null', 'the result in which there is no effect to report'),
+ ('significance', 'the statistical test a result has to pass to be published'),
+ ('exploratory', 'done to look for something rather than to test for it'),
+ ('justifiable', 'able to be defended if somebody asks'),
+ ('systematically', 'in one direction every time, not at random'),
+ ('discard', 'to throw away rather than keep'),
+ ('distinguish', 'to tell one thing apart from another'),
+ ('conditional', 'holding only under particular circumstances'),
+ ('binary', 'having two values and no more')]
+UNIT['r4'] = {'sub': 'Replication',
+ 'title': 'Why a Published Finding Can Be Expected to Fail',
+ 'words': 302,
+ 'skill': ('Reading an argument that predicts its own literature',
+           ['The claim here is about publication as a filter, so the subject is the set of '
+            'studies that got printed rather than any one of them.',
+            'Three mechanisms are described, and they are cumulative rather than '
+            'alternative.',
+            'A question about the prediction wants what the argument says should be '
+            'observed, not what it says is wrong.']),
+ 'paras': ['Consider a literature in which every study is conducted honestly and the '
+           'published findings are nevertheless wrong more often than their significance '
+           'tests suggest. Three features of ordinary practice produce that outcome '
+           'together. The first is low precision: a study small enough to be paid for can '
+           'detect only a large effect, so a small true effect reaches significance in such '
+           'a study only when chance has been generous, which means the published estimate '
+           'is systematically larger than the quantity it estimates.',
+           'The second is the filter. A result that fails its significance test is harder to '
+           'publish, and in several fields it was for decades close to impossible to print, '
+           'so the record retains the fortunate studies and discards the unfortunate ones. '
+           'The third is the number of decisions inside an analysis: which cases to exclude, '
+           'which measure to treat as primary, which comparison to report. Each decision is '
+           'justifiable on its own, and a researcher who makes them after seeing the data '
+           'has conducted an exploratory study and reported it as a test, in most cases '
+           'without any awareness of having done so. None of this requires anybody to behave '
+           'badly, and the distinction between an honest mistake of this kind and a '
+           'dishonest one is precisely that nobody involved can see it happening.',
+           'The three mechanisms combine to give one definite prediction, and that '
+           'prediction is what makes the argument a scientific claim rather than a complaint '
+           'about the profession. Take a sample of published findings, repeat them with '
+           'substantially larger samples and the analysis fixed in advance, and the '
+           'replication estimates should come out smaller than the originals and should '
+           'frequently fail to reach significance at all. That is what the large replication '
+           'projects were designed to test, and across several fields it is approximately '
+           'what they found.'],
+ 'guided': [('What kind of literature does the passage ask the reader to consider?',
+             ('One in which studies are dishonestly conducted',
+              'One in which every study is honest and the findings are still often wrong',
+              'One in which nothing is published',
+              'One with no significance tests'),
+             1,
+             'Every study honestly conducted and the published findings nevertheless wrong '
+             'more often than the tests suggest.'),
+            ('What does low precision do to a published estimate?',
+             ('Makes it smaller than the true effect',
+              'Makes it systematically larger than the quantity it estimates',
+              'Has no effect on it',
+              'Makes it impossible to publish'),
+             1,
+             'A small true effect only reaches significance when chance has been generous, '
+             'so the surviving estimate is inflated.'),
+            ('What is the filter?',
+             ('A statistical correction',
+              'The difficulty of publishing a result that fails its test',
+              'The exclusion of large samples',
+              'A rule about sample size'),
+             1,
+             'The record retains the fortunate studies and discards the unfortunate ones, '
+             'because failures are harder to publish.')],
+ 'exam': [('What does the passage say about the decisions inside an analysis?',
+           ('Each is impossible to justify',
+            'Each is justifiable alone, and making them after seeing the data turns a test '
+            'into an exploration',
+            'They are made by somebody else',
+            'They do not affect the result'),
+           1,
+           'Justifiable on its own, and a researcher who decides after seeing the data has '
+           'run an exploratory study and reported it as a test.'),
+          ('The phrase usually without any awareness of having done so suggests that the '
+           'problem is',
+           ('dishonesty on purpose',
+            'a feature of the system within which honest work is done',
+            'confined to small fields',
+            'a failure of teaching only'),
+           1,
+           'The whole passage is constructed to show the outcome arising without anybody '
+           'behaving badly.'),
+          ('What prediction do the three mechanisms produce together?',
+           ('Replications will produce larger estimates',
+            'Replications will produce smaller estimates and often miss significance',
+            'Replications will be impossible',
+            'Original studies will be withdrawn'),
+           1,
+           'Smaller than the originals and frequently failing to reach significance is the '
+           'stated prediction.'),
+          ('Why does the passage call the argument scientific rather than a complaint?',
+           ('It is published in journals',
+            'It makes a definite prediction that can be tested',
+            'It concerns statistics',
+            'It names no individuals'),
+           1,
+           'The three combine to give a definite prediction, which is what distinguishes it '
+           'from a complaint.'),
+          ('What did the large replication projects find?',
+           ('The opposite of the prediction',
+            'Approximately what the argument predicted',
+            'Nothing interpretable',
+            'That originals were fraudulent'),
+           1,
+           'Across several fields it is approximately what they found.')]}
+UNIT['r5'] = {'sub': 'Replication',
+ 'title': 'What a Failed Replication Does Not Prove',
+ 'words': 294,
+ 'skill': ('Reading an objection to an interpretation, not to a result',
+           ['The writer accepts the replication results and disputes the reading that a '
+            'failure shows the original was wrong.',
+            'An alternative explanation is offered for the same numbers, so identify it '
+            'before the final paragraph.',
+            'A question about the recommendation wants what should be reported, not what '
+            'should be believed.']),
+ 'paras': ['A replication that fails to reach significance is routinely described as a '
+           'finding that did not hold, and that description carries an assumption worth '
+           'examining. It assumes the effect is a single quantity that either exists or does '
+           'not, and that two studies of it are two attempts at the same measurement. For a '
+           'great many effects in the study of human behaviour that assumption is false, '
+           'because the quantity depends on the population, the equipment and the '
+           'circumstances, and genuine heterogeneity between two honest studies is then the '
+           'expected result rather than a sign that one of them went wrong.',
+           'The distinction matters for what should be done next. If the failure indicates '
+           'that the original effect was never there, the appropriate response is to discard '
+           'it. If it indicates that the effect is real and conditional, the appropriate '
+           'response is to establish what it is conditional on, which is harder, slower and '
+           'tells you a great deal more. Reporting a single number for whether a replication '
+           'succeeded will discard exactly the information needed to distinguish those two '
+           'cases, and the large projects were attacked on that ground more than once.',
+           'The honest position accepts both halves. The mechanisms described by the critics '
+           'of the field are real, their prediction was confirmed, and a published '
+           'literature filtered by significance will report its effects as larger than they '
+           'are. It is also true that a binary verdict on each replication answers a less '
+           'interesting question than the data can support, and that the useful product of a '
+           'replication is an estimate with its precision attached rather than a verdict of '
+           'either kind. The two can both be true at once, and most of the heat in the '
+           'dispute came from treating them as rivals.'],
+ 'guided': [('What assumption does the usual description carry?',
+             ('That effects are conditional',
+              'That the effect is a single quantity and two studies measure the same thing',
+              'That replications are badly conducted',
+              'That significance is arbitrary'),
+             1,
+             'It assumes the effect either exists or does not and that two studies are two '
+             'attempts at one measurement.'),
+            ('Why is that assumption false for many behavioural effects?',
+             ('The measurements are inaccurate',
+              'The quantity depends on population, apparatus and circumstances',
+              'The samples are too small',
+              'The analyses are exploratory'),
+             1,
+             'Those three conditions make genuine heterogeneity between honest studies the '
+             'expected result.'),
+            ('What is the appropriate response if an effect is real and conditional?',
+             ('Discard the original',
+              'Establish what it is conditional on',
+              'Repeat the replication unchanged',
+              'Report a single verdict'),
+             1,
+             'Establish what it is conditional on, which the passage calls harder, slower '
+             'and far more informative.')],
+ 'exam': [('What does a single success-or-failure number discard?',
+           ('The sample size',
+            'The information needed to tell an artefact from a conditional effect',
+            'The original authors’ names',
+            'The significance test'),
+           1,
+           'Reporting one number discards exactly what distinguishes the two cases.'),
+          ('Which of these does the passage accept from the sceptics?',
+           ('That most researchers behave badly',
+            'That a literature filtered by significance reports effects as larger than they '
+            'are',
+            'That replication is impossible',
+            'That heterogeneity does not exist'),
+           1,
+           'The mechanisms are real, the prediction was confirmed, and the filtered '
+           'literature reports too much, all of it conceded.'),
+          ('What does the passage say the useful output of a replication is?',
+           ('A verdict',
+            'An estimate with its precision attached',
+            'A new hypothesis',
+            'A larger sample'),
+           1,
+           'An estimate with its precision attached rather than a verdict.'),
+          ('What does the passage blame for the heat in the dispute?',
+           ('Poor teaching of the methods',
+            'Treating two claims that can both be true as rivals',
+            'The size of the projects',
+            'Journal editors'),
+           1,
+           'The two claims can both be true, and most of the heat came from treating them as '
+           'rivals.'),
+          ('The word binary as used here is closest in meaning to',
+           ('statistical', 'two-valued', 'preliminary', 'numerical'),
+           1,
+           'A binary verdict is one with two possible values, held against an estimate with '
+           'a range.')]}
+UNIT['l4'] = {'sub': 'Replication',
+ 'caption': 'A lecture on the decisions inside an analysis',
+ 'board': ['Exclude outliers? which measure? which test?',
+           'Each choice justifiable alone',
+           'Choose after seeing data → exploration',
+           'Fix it in advance and the problem goes'],
+ 'skill': ('A lecture that counts the paths through an analysis',
+           ['The lecturer multiplies a series of small choices together, so the arithmetic '
+            'is the argument.',
+            'Note that nobody in his example behaves dishonestly, which he says twice.',
+            'A question about the remedy wants the procedural fix, which is simpler than the '
+            'problem.']),
+ 'warm': [('Woman: How many analyses does he say were available?',
+           ('Several hundred.', 'Two or three.', 'Yes, there were several.', 'One.'),
+           0,
+           'How many wants the count, and the multiplication is the point of the example.'),
+          ('Woman: Does anybody in his example cheat?',
+           ('No, every choice is defensible.',
+            'Yes, one researcher cheats.',
+            'Yes, they all do.',
+            'In two of the cases.'),
+           0,
+           'He is explicit that the problem arises without dishonesty, and he repeats it.'),
+          ('Woman: What is the remedy he gives?',
+           ('Fix the analysis in advance and record it.',
+            'Use a larger sample.',
+            'Yes, there is a remedy.',
+            'Publish the failures.'),
+           0,
+           'The remedy is procedural: decide before the data arrive, and leave a record of '
+           'the decision.')],
+ 'script': [('Man',
+             'Here is a study with nobody cheating in it. You measure reaction times in two '
+             'groups, and before you can test anything you make some decisions. Do you '
+             'exclude the responses under two hundred milliseconds, which are probably '
+             'guesses? Reasonable either way. Do you exclude participants whose error rate '
+             'is above some figure, and which figure? Reasonable either way. Do you analyse '
+             'the mean or the median, given that reaction times are skewed? Reasonable '
+             'either way. Do you report both conditions or the one the hypothesis was about? '
+             'Reasonable either way. Four decisions, two or three justifiable answers each, '
+             'and I have been conservative: you have something like a hundred analyses '
+             'available, all of them justifiable, and the one you report is the one you ran. '
+             'Now suppose you make those decisions after looking at the data, which feels '
+             'like care rather than misconduct, because at each point you are choosing the '
+             'option that seems most sensible given what you can see. You have just run an '
+             'exploratory study and written it up as a test, and your significance level '
+             'means nothing whatever. Nobody lied. The remedy is almost insultingly simple '
+             'and it is the whole reason preregistration exists: write the decisions down '
+             'before the data arrive, and if you change them afterwards, say which ones and '
+             'why. Notice what that does and does not do. It converts an exploratory study '
+             'into something you can label honestly, and it leaves the publication filter '
+             'exactly where it was, which is why no single journal can fix this on its '
+             'own.')],
+ 'items': [('What is the first decision in his example?',
+            ('Which statistical test to use',
+             'Whether to exclude very fast responses',
+             'How many participants to recruit',
+             'Which journal to submit to'),
+            1,
+            'The responses under two hundred milliseconds, which are probably '
+            'anticipations.'),
+           ('How many analyses does he say were available?',
+            ('Four', 'About a hundred', 'Two', 'Thousands'),
+            1,
+            'Four decisions with two or three justifiable answers each gives something like '
+            'a hundred, and he says he has been conservative.'),
+           ('What happens if the decisions are made after seeing the data?',
+            ('The study becomes fraudulent',
+             'An exploratory study is written up as a test',
+             'The sample becomes too small',
+             'The effect disappears'),
+            1,
+            'You have run an exploratory study and written it up as a test, and the '
+            'significance level means nothing.'),
+           ('Why does he say it feels like care rather than misconduct?',
+            ('Because the decisions are hidden',
+             'Because each choice seems most sensible given what can be seen',
+             'Because the sample is honest',
+             'Because the test is standard'),
+            1,
+            'At each point you choose the option that seems most sensible given what you can '
+            'see.'),
+           ('What is the remedy?',
+            ('A larger sample',
+             'Write the decisions down before the data arrive',
+             'Report every analysis',
+             'Use the median'),
+            1,
+            'Write them down in advance, and if you change them afterwards say which and '
+            'why.')]}
+UNIT['l5'] = {'sub': 'Replication',
+ 'caption': 'A short talk on what a verdict throws away',
+ 'board': ['Replicated: yes or no?',
+           'Wrong question for a conditional effect',
+           'Estimate plus precision instead',
+           'Both sides were right about different things'],
+ 'skill': ('A talk that refuses the question it was asked',
+           ['The speaker argues that a question is badly formed, which is not the same as '
+            'answering it either way.',
+            'Note the two situations she says a single verdict cannot distinguish.',
+            'A question about her conclusion wants what both sides were right about.']),
+ 'warm': [('Man: What question does she refuse?',
+           ('Whether a finding replicated, yes or no.',
+            'Whether the original was fraudulent.',
+            'Yes, she refuses one.',
+            'Two situations.'),
+           0,
+           'She says the binary question is badly formed rather than hard to answer.'),
+          ('Man: What two cases cannot a verdict distinguish?',
+           ('An artefact and a conditional effect.',
+            'A large and a small sample.',
+            'Yes, there are two.',
+            'Mean and median.'),
+           0,
+           'Those two need different responses, and a single verdict hides which one you are '
+           'in.'),
+          ('Man: What does she want reported instead?',
+           ('An estimate with its precision.',
+            'A verdict with a reason.',
+            'Yes, she wants something else.',
+            'Nothing at all.'),
+           0,
+           'An estimate with its precision attached is her alternative to a verdict.')],
+ 'script': [('Woman',
+             'I was asked to say whether the replication projects showed that psychology is '
+             'broken, and I am going to refuse the question rather than answer it, because '
+             'the question is built wrong. Here are two situations. In the first, an '
+             'original study reported an effect that was never there, and a large '
+             'replication correctly finds nothing. In the second, an effect is perfectly '
+             'real and depends on something about the sample or the setting, the original '
+             'found it under conditions where it is strong, and the replication looked under '
+             'conditions where it is weak. Those two cases call for opposite responses: in '
+             'the first you delete the finding, in the second you have just learned the most '
+             'interesting thing about it. And a single verdict, replicated or not, is '
+             'exactly as informative in both. So report an estimate with its precision, in '
+             'both studies, and let the reader see whether the two intervals overlap. My '
+             'conclusion is not that one side of this argument won. The sceptics were right '
+             'that a filtered literature overstates its effects, which was a real discovery. '
+             'Their critics were right that a yes-or-no answer wastes the data. Both of '
+             'those can be true at the same time, and in this case they are. What I would '
+             'like you to take away is not a verdict on the field but a habit: whenever '
+             'somebody reports that something did or did not replicate, ask which of my two '
+             'situations they are describing, because the answer changes what you do next '
+             'and the single word does not contain it.')],
+ 'items': [('What does the speaker do with the question she was asked?',
+            ('Answers it in the affirmative',
+             'Refuses it as badly built',
+             'Answers it in the negative',
+             'Says it cannot be investigated'),
+            1,
+            'She refuses the question rather than answering it, because it is built wrong.'),
+           ('In the first situation she describes, what should be done?',
+            ('Learn what the effect depends on',
+             'Delete the finding',
+             'Run a third study',
+             'Report an interval'),
+            1,
+            'In the first you delete the finding, because the effect was never there.'),
+           ('In the second situation, what has been learned?',
+            ('Nothing',
+             'The most interesting thing about the effect',
+             'That the original was fraudulent',
+             'That the sample was too small'),
+            1,
+            'In the second you have just learned the most interesting thing about it, which '
+            'is what it depends on.'),
+           ('What does she want readers to be able to see?',
+            ('The list of exclusions',
+             'Whether the two intervals overlap',
+             'The journal’s decision',
+             'The original authors’ response'),
+            1,
+            'Report an estimate with its precision in both studies and let the reader see '
+            'whether the intervals overlap.'),
+           ('What is her conclusion about the two sides?',
+            ('The sceptics won',
+             'Both were right about different things',
+             'The critics won',
+             'Neither had evidence'),
+            1,
+            'The sceptics were right about the filtered literature and their critics right '
+            'that a verdict wastes the data.')]}
+UNIT['w4'] = {'sub': 'Replication',
+ 'skill': ('Quantifying a claim without overstating it',
+           ['Approximately, something like and of the order of all hedge a number without '
+            'abandoning it, which is what an estimate needs.',
+            'Put the hedge next to the quantity it limits, not at the front of the sentence, '
+            'or it hedges the wrong thing.',
+            'Frequently and systematically are not interchangeable: one is about how often, '
+            'the other about direction.']),
+ 'guided': [('You want to say the estimate is biased upward as a matter of structure.',
+             ['the published',
+              'estimate',
+              'is',
+              'systematically',
+              'larger',
+              'than',
+              'the quantity',
+              'it',
+              'is',
+              'meant',
+              'to estimate'],
+             'The published estimate is systematically larger than the quantity it is meant '
+             'to estimate.'),
+            ('You want to report the number of available analyses with a hedge.',
+             ['something like',
+              'a hundred',
+              'justifiable',
+              'analyses',
+              'were',
+              'available',
+              'and',
+              'the one',
+              'reported',
+              'was',
+              'the one run'],
+             'Something like a hundred justifiable analyses were available, and the one '
+             'reported was the one run.'),
+            ('You want to say replications frequently miss significance.',
+             ['replication',
+              'estimates',
+              'frequently',
+              'fail',
+              'to reach',
+              'significance',
+              'and',
+              'are',
+              'smaller',
+              'than',
+              'the originals'],
+             'Replication estimates frequently fail to reach significance and are smaller '
+             'than the originals.')],
+ 'exam': [('You want to hedge a conclusion about several fields.',
+           ['across',
+            'several',
+            'fields',
+            'the projects',
+            'found',
+            'approximately',
+            'what',
+            'the argument',
+            'had',
+            'predicted',
+            'beforehand'],
+           'Across several fields the projects found approximately what the argument had '
+           'predicted beforehand.'),
+          ('You want to say variation between studies is expected.',
+           ['genuine',
+            'heterogeneity',
+            'between',
+            'honest',
+            'studies',
+            'is',
+            'the expected',
+            'result',
+            'rather than',
+            'a',
+            'failure'],
+           'Genuine heterogeneity between honest studies is the expected result rather than '
+           'a failure.'),
+          ('You want to say a verdict is less informative than an interval.',
+           ['a binary',
+            'verdict',
+            'is',
+            'considerably',
+            'less',
+            'informative',
+            'than',
+            'an estimate',
+            'with',
+            'its',
+            'precision'],
+           'A binary verdict is considerably less informative than an estimate with its '
+           'precision.'),
+          ('You want to concede a mechanism while limiting its scope.',
+           ['the filtering',
+            'is',
+            'real',
+            'and',
+            'it',
+            'accounts',
+            'for',
+            'only',
+            'part',
+            'of',
+            'the pattern'],
+           'The filtering is real and it accounts for only part of the pattern.'),
+          ('You want to say two claims are compatible.',
+           ['the two',
+            'claims',
+            'are',
+            'entirely',
+            'compatible',
+            'and',
+            'were',
+            'treated',
+            'as',
+            'rivals',
+            'anyway'],
+           'The two claims are entirely compatible and were treated as rivals anyway.')]}
+UNIT['w5'] = {'sub': 'Replication',
+ 'prof': 'Dr Ferreira',
+ 'question': 'A journal is revising its policy. It can require every submission to '
+             'preregister its analysis, which prevents the exploration-reported-as-test '
+             'problem, or require every submission to report an estimate with its precision '
+             'and drop significance tests entirely. It has the editorial capacity for one. '
+             'Which?',
+ 'posts': [('Omar',
+            'm',
+            'Preregistration, because it addresses the cause rather than the symptom. '
+            'Reporting intervals is an improvement in presentation, and a researcher who has '
+            'chosen the analysis after seeing the data will produce a misleading interval '
+            'just as readily as a misleading test.'),
+           ('Priya',
+            'w',
+            'Preregistration polices the honest and inconveniences them. Dropping the '
+            'significance threshold removes the incentive that created the whole problem, '
+            'because nothing is gained by hunting for an analysis that crosses a line nobody '
+            'is printing any more.')],
+ 'skill': ('A question about treating a cause or an incentive',
+           ['Omar argues that the interval inherits the problem; Priya that the threshold '
+            'created it. Both are mechanistic claims, not preferences.',
+            'Use both passages: the first names the filter and the forking decisions, the '
+            'second names what a verdict throws away.',
+            'An answer that picks one and says what it does not fix is stronger than one '
+            'that claims a policy solves everything.']),
+ 'starters': ['Priya is right that…, although that holds only if…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the first passage suggests…',
+              'What follows is not… but…'],
+ 'model': ['Priya is right about the incentive and wrong that removing the threshold removes '
+           'the problem. The forking decisions in the first passage are not driven only by a '
+           'significance line; they are driven by wanting a clean result, and a researcher '
+           'hunting for a clean result will hunt for a narrow interval around a large '
+           'estimate instead. Omar’s objection survives her remedy intact.',
+           'His own case is weaker than it looks, because preregistration constrains the '
+           'analysis and does nothing about the filter. A literature that still prefers '
+           'positive findings will still be overstated, with every analysis honestly '
+           'declared in advance.',
+           'So the journal should preregister, and should say in the same announcement what '
+           'it has not fixed. The policy addresses one of the three mechanisms in the first '
+           'passage and leaves the publication filter standing, which is the one no single '
+           'journal can fix by itself. What is given up is the cleaner reform, and the '
+           'honest version of this decision is a policy with its own limits printed next to '
+           'it. A journal that announces preregistration as the answer to the replication '
+           'problem has made the same move the field is being criticised for: reporting the '
+           'part that worked and leaving out the part that did not. One paragraph of '
+           'self-description costs the editors nothing and it is the difference between a '
+           'reform and an advertisement.'],
+ 'model_words': 227}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Replication',
+  'focus': 'hedging a number without losing it',
+  'skill': ('Something like a hundred, and systematically larger',
+            ['Put the hedge immediately before the quantity. Something like a hundred, not '
+             'something like there were a hundred.',
+             'Say the hedge quickly and the number clearly. The number is the information.',
+             'Systematically takes a strong stress, because it is a claim about direction '
+             'rather than a softener.']),
+  'repeat': ['Replications frequently miss significance.',
+             'The estimate is systematically larger.',
+             'Approximately what the argument predicted.',
+             'Heterogeneity between honest studies is expected.',
+             'Something like a hundred analyses were available.',
+             'A verdict is considerably less informative than an interval.',
+             'Four decisions with three justifiable answers each give you of the order of a '
+             'hundred analyses.'],
+  'theme': 'a result that did not hold up',
+  'qs': ['Tell me about a time something you were told turned out not to hold up. How did '
+         'you find out?',
+         'Some people say that if a result cannot be repeated it should never have been '
+         'published. How far would you agree?',
+         'If you read a surprising finding tomorrow, what would you want to know about how '
+         'it was produced?',
+         'Finally, describe a decision you made that felt careful at the time and looks like '
+         'a choice now.'],
+  'model': [(2,
+             'That goes much too far, and the reason is in the arithmetic. If a journal only '
+             'printed results certain to repeat, it would print almost nothing and the field '
+             'would stop. What I would require is that the uncertainty is printed next to '
+             'the result, at the same size.'),
+            (4,
+             'I dropped two weeks of readings from a project because the equipment had been '
+             'moved. It was defensible and I decided it after seeing that the readings were '
+             'inconvenient, which is the part I would do differently.')],
+  'selfcheck': ['I put the hedge directly before the quantity',
+                'I stressed systematically rather than softening it',
+                'I gave a number rather than a vague quantity']},
+ {'sub': 'Replication',
+  'focus': 'refusing a badly formed question politely',
+  'skill': ('I would rather separate two cases than answer that',
+            ['Say what you are doing before you do it, so the refusal does not sound like '
+             'evasion.',
+             'Then give the two cases at equal length. Equal length is what proves you are '
+             'not hiding in one of them.',
+             'Finish with what you would report instead, in concrete terms.']),
+  'repeat': ['I would rather separate two cases.',
+             'Those two call for opposite responses.',
+             'In the first, the effect was never there.',
+             'In the second, it is real and conditional.',
+             'Report an estimate with its precision and let the reader compare.',
+             'A single verdict is equally informative in both, which is to say useless.',
+             'My conclusion is not that one side won, because both were right about '
+             'different things.'],
+  'theme': 'questions that cannot be answered yes or no',
+  'qs': ['Tell me about a question you have been asked that could not fairly be answered yes '
+         'or no. What did you say?',
+         'Some people think refusing a question is a way of avoiding it. What do you think?',
+         'How should a researcher answer a journalist who wants a simple verdict?',
+         'Finally, describe a disagreement where both sides turned out to be right about '
+         'different things.'],
+  'model': [(2,
+             'Sometimes it is, and there is a test. If I refuse the question and then give '
+             'you two sharper ones I am prepared to answer, that is analysis. If I refuse it '
+             'and offer nothing, you should assume I am avoiding it, and you would usually '
+             'be right.'),
+            (3,
+             'Give the verdict and the condition in one sentence, in that order. The '
+             'journalist needs the first half and will print the second if it is short '
+             'enough to fit.')],
+  'selfcheck': ['I said what I was doing before refusing the question',
+                'I gave the two cases at equal length',
+                'I finished with what I would report instead']}]
