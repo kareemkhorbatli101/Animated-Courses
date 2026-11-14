@@ -774,10 +774,11 @@ UNIT = dict(
                'When a unit is hard, do the Reading and the Listening and leave Speaking '
                'and Writing for the next day. Half a unit done well beats a whole unit '
                'done at midnight.'],
-        tip='Read the first academic passage of Volume 1 Unit 1 now, before you start it, '
-            'and count the words you do not know. If it is fewer than fifteen, you are '
-            'ready. If it is more, do the glossary of this book once and count again. It '
-            'will be fewer.'),
+        tip='Read the first academic passage of Volume 1 Unit 1 now and count the words '
+            'you do not know. Expect about twenty. Most of them will be words from the '
+            'subject itself — ports, valleys, railroads — and not grammar. That '
+            'is the gap this book does not close, and it is exactly what Foundation 2 '
+            'is for.'),
 
     rev=dict(
         vocab=[('one part of a course, with its own exam', 'module'),

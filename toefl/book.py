@@ -415,8 +415,8 @@ def front_matter(d, vol, units):
     lvl = units[0].get('level', 'B1')
     strap = ['Reading · Listening · Speaking · Writing',
              'Every task type in the 2026 test, three times a unit']
-    d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']), strap, lvl),
-             cover=True)
+    d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']), strap,
+                            'A1–A2' if lvl == 'A2' else lvl), cover=True)
     d.page_break_section(zero=True)
 
     d.unit_title('TOEFL iBT® Preparation Course 2026')
@@ -458,7 +458,8 @@ def front_matter(d, vol, units):
     d.blank()
     d.keyline('Series', 'TOEFL iBT® Preparation Course 2026')
     d.keyline('Level', 'CEFR %s (%s)'
-              % (lvl, 'A1–A2 in, A2+ out — ready for Volume 1' if lvl == 'A2'
+              % ('A1–A2' if lvl == 'A2' else lvl,
+                 'A1 in, a solid A2 out' if lvl == 'A2'
                  else 'targeting a steady %s band'
                  % ('4.5–5.5' if lvl == 'B2' else '3.0–4.0')))
     d.keyline('Components', 'Student’s Book · Audio · Interview video')
@@ -860,7 +861,8 @@ def foundation_back(d, units):
         ['Academic passage', '110 words in Unit 1, 175 by Unit 10', '265 words'],
         ['Academic talk', '85 words in Unit 1, 150 by Unit 10', 'about 190 words'],
         ['Discussion post', '40 words, rising to 80', 'at least 100 words'],
-        ['Vocabulary', '360 general-service words', '480 Academic Word List words'],
+        ['Vocabulary', '384 general-service words', '480 Academic Word List words'],
+        ['Subject matter', 'student life', 'history, astronomy, genetics, geology …'],
         ['Grammar', 'ends at past simple and will', 'starts at present perfect'],
         ['The test', 'one module in each section', 'two modules, adaptive'],
     ], INDIGO, [22, 39, 39])
@@ -874,7 +876,8 @@ def foundation_back(d, units):
         'Do the Progress Test again and give yourself no help at all.',
         'Type one of your own email answers from memory and time it.',
         'Read the first academic passage of Volume 1 Unit 1 and count what you do not '
-        'know. If it is fewer than fifteen words, you are ready.'])
+        'know. Expect about twenty, and expect most of them to be words from the '
+        'subject — ports, valleys, historians — rather than words of grammar.'])
     d.page_break_section()
 
 
