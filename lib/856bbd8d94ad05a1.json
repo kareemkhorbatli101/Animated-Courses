@@ -1,0 +1,222 @@
+{
+ "schema": "timeline/1",
+ "duration": 151.555,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.888,
+    "en": "This is Part 7, Ordering the Briefing. You will put a briefing in order and correct a worker kindly.",
+    "ar": "هذا الجزء السابع، ترتيب الإحاطة. سترتّب إحاطة وتصحّح لعامل بلطف."
+   },
+   {
+    "start": 14.542,
+    "dur": 4.512,
+    "en": "A briefing has its own order. Put the steps in order.",
+    "ar": "للإحاطة ترتيبها الخاصّ. رتّب الخطوات."
+   },
+   {
+    "start": 19.404,
+    "dur": 3.432,
+    "en": "Step one is done: welcome the new worker.",
+    "ar": "الخطوة الأولى محلولة: رحّب بالعامل الجديد."
+   },
+   {
+    "start": 23.186,
+    "dur": 2.184,
+    "en": "Which step is second?",
+    "ar": "ما الخطوة الثانية؟"
+   },
+   {
+    "start": 29.605,
+    "dur": 2.712,
+    "en": "Show the workshop and the tools.",
+    "ar": "أرِه الورشة والأدوات."
+   },
+   {
+    "start": 32.667,
+    "dur": 2.016,
+    "en": "Which step is third?",
+    "ar": "ما الخطوة الثالثة؟"
+   },
+   {
+    "start": 38.86,
+    "dur": 2.448,
+    "en": "Give the three safety rules.",
+    "ar": "أعطِ قواعد السلامة الثلاث."
+   },
+   {
+    "start": 41.658,
+    "dur": 2.136,
+    "en": "Which step is fourth?",
+    "ar": "ما الخطوة الرابعة؟"
+   },
+   {
+    "start": 48.029,
+    "dur": 2.472,
+    "en": "Give the first small task.",
+    "ar": "أعطِ المهمّة الصغيرة الأولى."
+   },
+   {
+    "start": 50.851,
+    "dur": 3.048,
+    "en": "The book says the order may vary a little.",
+    "ar": "يقول الكتاب إنّ الترتيب قد يختلف قليلاً."
+   },
+   {
+    "start": 54.249,
+    "dur": 4.296,
+    "en": "But welcome is always first, and the task is always last.",
+    "ar": "لكنّ الترحيب أوّلاً دائماً، والمهمّة أخيراً دائماً."
+   },
+   {
+    "start": 58.895,
+    "dur": 3.24,
+    "en": "Rules before tools is also fine.",
+    "ar": "القواعد قبل الأدوات مقبول أيضاً."
+   },
+   {
+    "start": 62.485,
+    "dur": 4.824,
+    "en": "Now the role play. Before you start, three rules.",
+    "ar": "الآن لعب الأدوار. قبل أن تبدأ، ثلاث قواعد."
+   },
+   {
+    "start": 67.659,
+    "dur": 2.712,
+    "en": "First, wear your goggles.",
+    "ar": "أوّلاً، ارتدِ نظّاراتك الواقية."
+   },
+   {
+    "start": 70.721,
+    "dur": 1.872,
+    "en": "OK.",
+    "ar": "حسناً."
+   },
+   {
+    "start": 72.943,
+    "dur": 2.736,
+    "en": "Second, keep the area clean.",
+    "ar": "ثانياً، أبقِ المنطقة نظيفة."
+   },
+   {
+    "start": 76.029,
+    "dur": 3.336,
+    "en": "Third, ask me before the big machines.",
+    "ar": "ثالثاً، اسألني قبل الآلات الكبيرة."
+   },
+   {
+    "start": 79.715,
+    "dur": 1.872,
+    "en": "I understand.",
+    "ar": "فهمت."
+   },
+   {
+    "start": 81.937,
+    "dur": 3.72,
+    "en": "Your turn. You are the foreman now.",
+    "ar": "دورك. أنت رئيس العمّال الآن."
+   },
+   {
+    "start": 86.007,
+    "dur": 4.296,
+    "en": "Give me your three rules, with first, second and third.",
+    "ar": "أعطني قواعدك الثلاث، بأوّلاً وثانياً وثالثاً."
+   },
+   {
+    "start": 96.539,
+    "dur": 7.368,
+    "en": "First, wear your goggles. Second, keep the area clean. Third, ask me.",
+    "ar": "أوّلاً، ارتدِ نظّاراتك. ثانياً، أبقِ المنطقة نظيفة. ثالثاً، اسألني."
+   },
+   {
+    "start": 104.257,
+    "dur": 2.616,
+    "en": "Now give me the first task.",
+    "ar": "الآن أعطني المهمّة الأولى."
+   },
+   {
+    "start": 111.461,
+    "dur": 5.376,
+    "en": "Today, watch and learn. Tomorrow, you can sand with me.",
+    "ar": "اليوم، راقب وتعلّم. وغداً، تستطيع الصنفرة معي."
+   },
+   {
+    "start": 117.187,
+    "dur": 4.224,
+    "en": "Now the stretch. Your worker forgets a rule.",
+    "ar": "الآن التحدّي. عاملك ينسى قاعدة."
+   },
+   {
+    "start": 121.761,
+    "dur": 4.848,
+    "en": "I remember two rules, Ustaz. Goggles, and ask you.",
+    "ar": "أتذكّر قاعدتين يا أستاذ. النظّارات، وأن أسألك."
+   },
+   {
+    "start": 126.959,
+    "dur": 3.768,
+    "en": "How do you correct him kindly, and repeat the rule?",
+    "ar": "كيف تصحّح له بلطف، وتكرّر القاعدة؟"
+   },
+   {
+    "start": 136.727,
+    "dur": 5.016,
+    "en": "That's two of three. The third is: keep your area clean.",
+    "ar": "هاتان اثنتان من ثلاث. والثالثة: أبقِ منطقتك نظيفة."
+   },
+   {
+    "start": 142.093,
+    "dur": 4.704,
+    "en": "Say what he got right first. Then give the missing one.",
+    "ar": "قل ما أصابه أوّلاً. ثمّ أعطِ الناقصة."
+   },
+   {
+    "start": 147.147,
+    "dur": 2.808,
+    "en": "Correct the rule, not the worker.",
+    "ar": "صحّح القاعدة، لا العامل."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 66.959,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 96.539,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

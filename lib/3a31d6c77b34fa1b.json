@@ -1,0 +1,345 @@
+{
+ "schema": "timeline/1",
+ "duration": 174.452,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.984,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.784,
+    "dur": 7.128,
+    "en": "This is Part 10, Can-Do and Glossary. You will check five things you can now do.",
+    "ar": "هذا الجزء العاشر، ماذا أستطيع والمسرد. ستتحقّق من خمسة أشياء تستطيع فعلها الآن."
+   },
+   {
+    "start": 15.262,
+    "dur": 4.824,
+    "en": "Five things you can do now. We check each one.",
+    "ar": "خمسة أشياء تستطيع فعلها الآن. نتحقّق من كلّ واحد."
+   },
+   {
+    "start": 20.436,
+    "dur": 5.472,
+    "en": "One. I can name common materials, woods and fabrics.",
+    "ar": "الأوّل. أستطيع تسمية المواد والأخشاب والأقمشة الشائعة."
+   },
+   {
+    "start": 26.258,
+    "dur": 2.856,
+    "en": "Name two woods and two fabrics.",
+    "ar": "سمِّ خشبين وقماشين."
+   },
+   {
+    "start": 33.938,
+    "dur": 3.648,
+    "en": "Oak and pine. Leather and velvet.",
+    "ar": "البلّوط والصنوبر. الجلد والمخمل."
+   },
+   {
+    "start": 37.936,
+    "dur": 5.808,
+    "en": "Two. I can use there is and there are, some, any, much and many.",
+    "ar": "الثاني. أستطيع استخدام there is وthere are، وsome وany، وmuch وmany."
+   },
+   {
+    "start": 44.094,
+    "dur": 3.816,
+    "en": "Say one sentence with there are, and one with much.",
+    "ar": "قل جملة بـ there are، وأخرى بـ much."
+   },
+   {
+    "start": 53.91,
+    "dur": 4.848,
+    "en": "There are ten boards of pine. How much foam do we need?",
+    "ar": "توجد عشرة ألواح من الصنوبر. كم إسفنجاً نحتاج؟"
+   },
+   {
+    "start": 59.108,
+    "dur": 5.376,
+    "en": "Three. I can understand a talk about ordering materials.",
+    "ar": "الثالث. أستطيع فهم حديث عن طلب المواد."
+   },
+   {
+    "start": 64.834,
+    "dur": 2.688,
+    "en": "What did Nour order from the supplier?",
+    "ar": "ماذا طلبت نور من المورِّد؟"
+   },
+   {
+    "start": 72.757,
+    "dur": 3.336,
+    "en": "Twenty oak boards and ten pieces of foam.",
+    "ar": "عشرين لوح بلّوط وعشر قطع إسفنج."
+   },
+   {
+    "start": 76.443,
+    "dur": 4.56,
+    "en": "Four. I can order materials from a supplier.",
+    "ar": "الرابع. أستطيع طلب موادّ من مورِّد."
+   },
+   {
+    "start": 81.353,
+    "dur": 4.128,
+    "en": "Ask for fifteen boards, then ask the delivery day.",
+    "ar": "اطلب خمسة عشر لوحاً، ثمّ اسأل عن يوم التوصيل."
+   },
+   {
+    "start": 91.422,
+    "dur": 6.336,
+    "en": "Do you have any oak boards? Fifteen, please. When can you deliver?",
+    "ar": "هل لديك أيّ ألواح بلّوط؟ خمسة عشر، من فضلك. متى تستطيع التوصيل؟"
+   },
+   {
+    "start": 98.108,
+    "dur": 5.256,
+    "en": "Five. I can describe the materials of a piece in writing.",
+    "ar": "الخامس. أستطيع وصف موادّ قطعة كتابةً."
+   },
+   {
+    "start": 103.714,
+    "dur": 3.168,
+    "en": "Describe an armchair in two sentences.",
+    "ar": "صِف كرسيّاً وثيراً في جملتين."
+   },
+   {
+    "start": 112.117,
+    "dur": 5.4,
+    "en": "There is an oak frame. There are two cushions with soft foam inside.",
+    "ar": "يوجد هيكل من البلّوط. وتوجد وسادتان فيهما إسفنج ناعم."
+   },
+   {
+    "start": 117.867,
+    "dur": 3.792,
+    "en": "If you ticked all five, the unit is yours.",
+    "ar": "إن وضعت علامة على الخمسة كلّها، فالوحدة لك."
+   },
+   {
+    "start": 122.009,
+    "dur": 3.288,
+    "en": "Now the ten words, one last time.",
+    "ar": "الآن الكلمات العشر، للمرّة الأخيرة."
+   },
+   {
+    "start": 125.647,
+    "dur": 4.248,
+    "en": "Hardwood: hard, strong wood from slow-growing trees.",
+    "ar": "الخشب الصلب: خشب قاسٍ قويّ من أشجار بطيئة النموّ."
+   },
+   {
+    "start": 130.245,
+    "dur": 4.368,
+    "en": "Softwood: lighter, cheaper wood from fast-growing trees.",
+    "ar": "الخشب اللين: خشب أخفّ وأرخص من أشجار سريعة النموّ."
+   },
+   {
+    "start": 134.963,
+    "dur": 3.432,
+    "en": "Veneer: a very thin layer of nice wood.",
+    "ar": "القشرة: طبقة رقيقة جداً من خشب جميل."
+   },
+   {
+    "start": 138.745,
+    "dur": 4.272,
+    "en": "Varnish: a clear liquid that protects wood and makes it shine.",
+    "ar": "الورنيش: سائل شفّاف يحمي الخشب ويجعله لامعاً."
+   },
+   {
+    "start": 143.367,
+    "dur": 4.176,
+    "en": "Plywood: thin layers of wood glued into a strong board.",
+    "ar": "الخشب الرقائقي: طبقات رقيقة ملصوقة في لوح قويّ."
+   },
+   {
+    "start": 147.894,
+    "dur": 3.288,
+    "en": "Foam: a soft material for cushions.",
+    "ar": "الإسفنج: مادّة ناعمة للوسائد."
+   },
+   {
+    "start": 151.532,
+    "dur": 3.216,
+    "en": "Leather: an animal skin used for covers.",
+    "ar": "الجلد: جلد حيوان يُستخدم للأغطية."
+   },
+   {
+    "start": 155.098,
+    "dur": 3.72,
+    "en": "Velvet: a soft fabric with a furry surface.",
+    "ar": "المخمل: قماش ناعم ذو سطح كالفرو."
+   },
+   {
+    "start": 159.168,
+    "dur": 3.888,
+    "en": "Walnut: a dark, beautiful Syrian hardwood.",
+    "ar": "الجوز: خشب صلب سوريّ داكن وجميل."
+   },
+   {
+    "start": 163.406,
+    "dur": 3.6,
+    "en": "Upholstery: the cover and padding on a sofa.",
+    "ar": "التنجيد: الغطاء والحشوة على الكنبة."
+   },
+   {
+    "start": 167.356,
+    "dur": 5.496,
+    "en": "Ten materials. In Unit 3 you meet the tools that shape them.",
+    "ar": "عشر موادّ. في الوحدة الثالثة تلتقي الأدوات التي تشكّلها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 33.938,
+    "hold": 3.0,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "pine",
+    "label": "pine",
+    "ar": "الصنوبر",
+    "at": 53.91,
+    "hold": 3.0,
+    "img": "assets/vocab/pine.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 72.757,
+    "hold": 3.0,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 91.422,
+    "hold": 3.0,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 112.117,
+    "hold": 3.0,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 123.847,
+    "hold": 3.0,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "softwood",
+    "label": "softwood",
+    "ar": "الخشب اللين",
+    "at": 128.445,
+    "hold": 3.0,
+    "img": "assets/vocab/softwood.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 133.163,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 136.945,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 141.567,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 146.094,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 149.732,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 153.298,
+    "hold": 3.0,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 157.368,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 161.606,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

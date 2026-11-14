@@ -1,0 +1,249 @@
+{
+ "schema": "timeline/1",
+ "duration": 151.764,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 7.032,
+    "en": "This is Part 7, Running a Safety Briefing. You will hear three rules given so they are remembered.",
+    "ar": "هذا الجزء السابع، إجراء إحاطة سلامة. ستسمع ثلاث قواعد تُقال لتُحفظ."
+   },
+   {
+    "start": 14.686,
+    "dur": 3.984,
+    "en": "This part is for foremen. It is optional.",
+    "ar": "هذا الجزء لرؤساء العمّال. وهو اختياريّ."
+   },
+   {
+    "start": 19.02,
+    "dur": 4.584,
+    "en": "Four things a foreman says. What is each one for?",
+    "ar": "أربعة أشياء يقولها رئيس العمّال. ما غرض كلّ واحد؟"
+   },
+   {
+    "start": 23.954,
+    "dur": 2.616,
+    "en": "First, put on your goggles.",
+    "ar": "أوّلاً، ضع نظّاراتك الواقية."
+   },
+   {
+    "start": 31.158,
+    "dur": 2.016,
+    "en": "Giving the first step.",
+    "ar": "إعطاء الخطوة الأولى."
+   },
+   {
+    "start": 33.524,
+    "dur": 2.352,
+    "en": "Never use a broken tool.",
+    "ar": "لا تستخدم أداة معطّلة أبداً."
+   },
+   {
+    "start": 40.288,
+    "dur": 2.208,
+    "en": "Saying what not to do.",
+    "ar": "قول ما يجب ألّا يُفعل."
+   },
+   {
+    "start": 42.846,
+    "dur": 2.52,
+    "en": "Ask me before the big saw.",
+    "ar": "اسألني قبل المنشار الكبير."
+   },
+   {
+    "start": 49.896,
+    "dur": 2.592,
+    "en": "Asking a worker to check with you.",
+    "ar": "طلب أن يراجعك العامل."
+   },
+   {
+    "start": 52.838,
+    "dur": 2.136,
+    "en": "Keep your area clean.",
+    "ar": "أبقِ منطقتك نظيفة."
+   },
+   {
+    "start": 59.209,
+    "dur": 2.544,
+    "en": "A rule about the workplace.",
+    "ar": "قاعدة عن مكان العمل."
+   },
+   {
+    "start": 62.103,
+    "dur": 3.792,
+    "en": "One purpose was not needed: asking about the price.",
+    "ar": "بقي غرض لم نحتجه: السؤال عن السعر."
+   },
+   {
+    "start": 66.245,
+    "dur": 2.568,
+    "en": "A briefing is never about money.",
+    "ar": "الإحاطة ليست عن المال أبداً."
+   },
+   {
+    "start": 69.163,
+    "dur": 4.296,
+    "en": "Khaled, before you start, listen to three safety rules.",
+    "ar": "خالد، قبل أن تبدأ، استمع إلى ثلاث قواعد سلامة."
+   },
+   {
+    "start": 73.809,
+    "dur": 4.008,
+    "en": "First, always wear your goggles near the machines.",
+    "ar": "أوّلاً، ارتدِ نظّاراتك دائماً قرب الآلات."
+   },
+   {
+    "start": 78.167,
+    "dur": 2.16,
+    "en": "OK, Ustaz.",
+    "ar": "حسناً يا أستاذ."
+   },
+   {
+    "start": 80.677,
+    "dur": 3.264,
+    "en": "Second, keep your area clean and tidy.",
+    "ar": "ثانياً، أبقِ منطقتك نظيفة ومرتّبة."
+   },
+   {
+    "start": 84.291,
+    "dur": 1.872,
+    "en": "Yes.",
+    "ar": "نعم."
+   },
+   {
+    "start": 86.513,
+    "dur": 2.904,
+    "en": "Third, never use the big saw.",
+    "ar": "ثالثاً، لا تستخدم المنشار الكبير أبداً."
+   },
+   {
+    "start": 89.767,
+    "dur": 3.096,
+    "en": "Ask me first, and I will help you.",
+    "ar": "اسألني أوّلاً، وسأساعدك."
+   },
+   {
+    "start": 93.213,
+    "dur": 3.696,
+    "en": "I understand. What do I do today?",
+    "ar": "فهمت. ماذا أفعل اليوم؟"
+   },
+   {
+    "start": 97.259,
+    "dur": 2.904,
+    "en": "Today, watch Rana and learn.",
+    "ar": "اليوم، راقب رنا وتعلّم."
+   },
+   {
+    "start": 100.513,
+    "dur": 2.88,
+    "en": "Tomorrow, you can sand with me.",
+    "ar": "وغداً، تستطيع الصنفرة معي."
+   },
+   {
+    "start": 103.743,
+    "dur": 4.632,
+    "en": "The first question is done. I gave three rules.",
+    "ar": "السؤال الأوّل محلول. أعطيت ثلاث قواعد."
+   },
+   {
+    "start": 108.725,
+    "dur": 2.184,
+    "en": "What is the first rule?",
+    "ar": "ما القاعدة الأولى؟"
+   },
+   {
+    "start": 115.262,
+    "dur": 2.976,
+    "en": "Always wear goggles near the machines.",
+    "ar": "ارتدِ النظّارات الواقية دائماً قرب الآلات."
+   },
+   {
+    "start": 118.588,
+    "dur": 3.576,
+    "en": "What must Khaled do before he uses the big saw?",
+    "ar": "ماذا على خالد أن يفعل قبل استخدام المنشار الكبير؟"
+   },
+   {
+    "start": 127.929,
+    "dur": 2.16,
+    "en": "Ask Sami first.",
+    "ar": "أن يسأل سامي أوّلاً."
+   },
+   {
+    "start": 130.439,
+    "dur": 2.4,
+    "en": "What does Khaled do today?",
+    "ar": "ماذا يفعل خالد اليوم؟"
+   },
+   {
+    "start": 137.368,
+    "dur": 2.088,
+    "en": "Watch Rana and learn.",
+    "ar": "يراقب رنا ويتعلّم."
+   },
+   {
+    "start": 139.806,
+    "dur": 5.328,
+    "en": "First, second, third. Three rules, numbered aloud.",
+    "ar": "أوّلاً، ثانياً، ثالثاً. ثلاث قواعد، مرقّمة بصوت عالٍ."
+   },
+   {
+    "start": 145.484,
+    "dur": 4.68,
+    "en": "A worker can repeat a numbered rule. That is the point.",
+    "ar": "العامل يستطيع تكرار قاعدة مرقّمة. هذا هو المقصد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 23.229,
+    "hold": 7.88,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 73.621,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 115.262,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

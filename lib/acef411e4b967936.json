@@ -1,0 +1,363 @@
+{
+ "schema": "timeline/1",
+ "duration": 190.555,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 7.008,
+    "en": "This is Part 10, Spiral Review. You will answer fifteen questions in one fast round.",
+    "ar": "هذا الجزء العاشر، المراجعة التراكميّة. ستجيب عن خمسة عشر سؤالاً في جولة سريعة."
+   },
+   {
+    "start": 14.566,
+    "dur": 5.376,
+    "en": "Fast round, Khaled. Five sentences from the word bank.",
+    "ar": "جولة سريعة يا خالد. خمس جمل من بنك الكلمات."
+   },
+   {
+    "start": 20.292,
+    "dur": 3.792,
+    "en": "The first is done: oak and walnut are hardwoods.",
+    "ar": "الأولى محلولة: البلّوط والجوز خشب صلب."
+   },
+   {
+    "start": 24.434,
+    "dur": 3.168,
+    "en": "A clear liquid that protects wood is what?",
+    "ar": "سائل شفّاف يحمي الخشب هو ماذا؟"
+   },
+   {
+    "start": 33.073,
+    "dur": 1.872,
+    "en": "Varnish.",
+    "ar": "الورنيش."
+   },
+   {
+    "start": 35.295,
+    "dur": 3.72,
+    "en": "A thin layer of nice wood on a cheaper board is what?",
+    "ar": "طبقة رقيقة من خشب جميل على لوح أرخص هي ماذا؟"
+   },
+   {
+    "start": 45.132,
+    "dur": 1.872,
+    "en": "Veneer.",
+    "ar": "القشرة الخشبية."
+   },
+   {
+    "start": 47.354,
+    "dur": 2.64,
+    "en": "There blank ten boards of pine.",
+    "ar": "ـــ عشرة ألواح من الصنوبر."
+   },
+   {
+    "start": 54.818,
+    "dur": 3.456,
+    "en": "Are. There are ten boards of pine.",
+    "ar": "Are. توجد عشرة ألواح من الصنوبر."
+   },
+   {
+    "start": 58.624,
+    "dur": 2.4,
+    "en": "How blank foam do we need?",
+    "ar": "كم ـــ إسفنجاً نحتاج؟"
+   },
+   {
+    "start": 65.553,
+    "dur": 3.504,
+    "en": "Much. How much foam do we need?",
+    "ar": "Much. كم إسفنجاً نحتاج؟"
+   },
+   {
+    "start": 69.407,
+    "dur": 5.016,
+    "en": "From Unit 1. The first sample made to test a design is a what?",
+    "ar": "من الوحدة الأولى. أوّل عيّنة تُصنع لاختبار تصميم هي ماذا؟"
+   },
+   {
+    "start": 81.07,
+    "dur": 1.968,
+    "en": "A prototype.",
+    "ar": "نموذج أوّليّ."
+   },
+   {
+    "start": 83.388,
+    "dur": 5.064,
+    "en": "Now the ten words. I give the meaning, you give the word.",
+    "ar": "الآن الكلمات العشر. أعطي المعنى، وتعطي أنت الكلمة."
+   },
+   {
+    "start": 88.802,
+    "dur": 3.576,
+    "en": "Hard, strong wood from slow-growing trees.",
+    "ar": "خشب قاسٍ قويّ من أشجار بطيئة النموّ."
+   },
+   {
+    "start": 97.849,
+    "dur": 1.872,
+    "en": "Hardwood.",
+    "ar": "خشب صلب."
+   },
+   {
+    "start": 100.071,
+    "dur": 3.456,
+    "en": "Lighter, cheaper wood from fast-growing trees.",
+    "ar": "خشب أخفّ وأرخص من أشجار سريعة النموّ."
+   },
+   {
+    "start": 109.233,
+    "dur": 1.872,
+    "en": "Softwood.",
+    "ar": "خشب لين."
+   },
+   {
+    "start": 111.455,
+    "dur": 2.952,
+    "en": "A very thin top layer of nice wood.",
+    "ar": "طبقة علويّة رقيقة جداً من خشب جميل."
+   },
+   {
+    "start": 119.466,
+    "dur": 1.872,
+    "en": "Veneer.",
+    "ar": "قشرة خشبية."
+   },
+   {
+    "start": 121.688,
+    "dur": 3.336,
+    "en": "Thin layers of wood glued into a strong board.",
+    "ar": "طبقات رقيقة من الخشب ملصوقة في لوح قويّ."
+   },
+   {
+    "start": 130.73,
+    "dur": 1.872,
+    "en": "Plywood.",
+    "ar": "خشب رقائقي."
+   },
+   {
+    "start": 132.952,
+    "dur": 3.024,
+    "en": "The soft material inside a cushion.",
+    "ar": "المادّة الناعمة داخل الوسادة."
+   },
+   {
+    "start": 141.034,
+    "dur": 1.872,
+    "en": "Foam.",
+    "ar": "إسفنج."
+   },
+   {
+    "start": 143.257,
+    "dur": 3.0,
+    "en": "An animal skin used to cover a sofa.",
+    "ar": "جلد حيوان يُستخدم لتغطية الكنبة."
+   },
+   {
+    "start": 151.374,
+    "dur": 1.872,
+    "en": "Leather.",
+    "ar": "جلد."
+   },
+   {
+    "start": 153.596,
+    "dur": 3.576,
+    "en": "A soft fabric with a short, furry surface.",
+    "ar": "قماش ناعم له سطح قصير كالفرو."
+   },
+   {
+    "start": 162.643,
+    "dur": 1.872,
+    "en": "Velvet.",
+    "ar": "مخمل."
+   },
+   {
+    "start": 164.865,
+    "dur": 2.832,
+    "en": "A dark brown Syrian hardwood.",
+    "ar": "خشب صلب سوريّ بنّيّ داكن."
+   },
+   {
+    "start": 172.403,
+    "dur": 1.536,
+    "en": "Walnut.",
+    "ar": "جوز."
+   },
+   {
+    "start": 174.289,
+    "dur": 3.24,
+    "en": "The cover and padding on a sofa or chair.",
+    "ar": "الغطاء والحشوة على الكنبة أو الكرسيّ."
+   },
+   {
+    "start": 182.94,
+    "dur": 1.872,
+    "en": "Upholstery.",
+    "ar": "تنجيد."
+   },
+   {
+    "start": 185.162,
+    "dur": 3.792,
+    "en": "Ten out of ten. That is the unit.",
+    "ar": "عشرة من عشرة. تلك هي الوحدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 20.017,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 33.073,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 45.132,
+    "hold": 1.61,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "pine",
+    "label": "pine",
+    "ar": "الصنوبر",
+    "at": 46.792,
+    "hold": 10.52,
+    "img": "assets/vocab/pine.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 57.361,
+    "hold": 11.19,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 97.849,
+    "hold": 3.0,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "softwood",
+    "label": "softwood",
+    "ar": "الخشب اللين",
+    "at": 109.233,
+    "hold": 3.0,
+    "img": "assets/vocab/softwood.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 119.466,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 130.73,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 141.034,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 151.374,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 162.643,
+    "hold": 1.72,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 164.415,
+    "hold": 7.94,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 172.403,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 182.94,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

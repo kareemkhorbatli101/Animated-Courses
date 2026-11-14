@@ -1,0 +1,546 @@
+{
+ "schema": "timeline/1",
+ "duration": 273.754,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 4.896,
+    "en": "This is the Warm Up. You will meet the ten tools of the unit.",
+    "ar": "هذا هو التمهيد. ستتعرّف على أدوات الوحدة العشر."
+   },
+   {
+    "start": 12.55,
+    "dur": 4.464,
+    "en": "Good morning, Khaled. Today, the tools.",
+    "ar": "صباح الخير يا خالد. اليوم، الأدوات."
+   },
+   {
+    "start": 17.364,
+    "dur": 3.336,
+    "en": "In Unit 2 you learned what we build from.",
+    "ar": "في الوحدة الثانية تعلّمت ممّ نبني."
+   },
+   {
+    "start": 21.05,
+    "dur": 2.64,
+    "en": "Now you learn what we build with.",
+    "ar": "الآن تتعلّم بمَ نبني."
+   },
+   {
+    "start": 24.04,
+    "dur": 4.632,
+    "en": "Ten words. Look at each tool before I name it.",
+    "ar": "عشر كلمات. انظر إلى كلّ أداة قبل أن أسمّيها."
+   },
+   {
+    "start": 29.022,
+    "dur": 5.376,
+    "en": "This is a workbench. It is a strong table where a carpenter works.",
+    "ar": "هذه طاولة عمل. إنّها طاولة قويّة يعمل عليها النجّار."
+   },
+   {
+    "start": 34.748,
+    "dur": 4.176,
+    "en": "This is a chisel. It is a sharp tool you hit.",
+    "ar": "هذا إزميل. إنّه أداة حادّة تضربها."
+   },
+   {
+    "start": 39.274,
+    "dur": 2.496,
+    "en": "You hit it to cut or shape wood.",
+    "ar": "تضربه لقطع الخشب أو تشكيله."
+   },
+   {
+    "start": 42.12,
+    "dur": 4.344,
+    "en": "This is a clamp. It holds two pieces together.",
+    "ar": "هذا مِشبك. يمسك قطعتين معاً."
+   },
+   {
+    "start": 46.814,
+    "dur": 2.88,
+    "en": "It holds them while the glue dries.",
+    "ar": "يمسكهما حتّى يجفّ الغراء."
+   },
+   {
+    "start": 50.044,
+    "dur": 1.872,
+    "en": "This is a plane.",
+    "ar": "هذه فارة."
+   },
+   {
+    "start": 52.266,
+    "dur": 2.856,
+    "en": "It shaves thin pieces off the wood.",
+    "ar": "تحلق قطعاً رقيقة من الخشب."
+   },
+   {
+    "start": 55.472,
+    "dur": 2.952,
+    "en": "It does that with a flat blade underneath.",
+    "ar": "تفعل ذلك بنصل مسطّح في أسفلها."
+   },
+   {
+    "start": 58.774,
+    "dur": 4.344,
+    "en": "This is a blade. It is the sharp cutting part.",
+    "ar": "هذا نصل. إنّه الجزء القاطع الحادّ."
+   },
+   {
+    "start": 63.468,
+    "dur": 5.52,
+    "en": "A saw has one. A knife has one. Never touch it.",
+    "ar": "للمنشار نصل. وللسكّين نصل. لا تلمسه أبداً."
+   },
+   {
+    "start": 69.338,
+    "dur": 4.104,
+    "en": "This is a drill. It makes a hole in wood.",
+    "ar": "هذا مثقاب. يصنع ثقباً في الخشب."
+   },
+   {
+    "start": 73.792,
+    "dur": 4.056,
+    "en": "This is a sander. It makes the wood smooth.",
+    "ar": "هذه آلة صنفرة. تجعل الخشب ناعماً."
+   },
+   {
+    "start": 78.198,
+    "dur": 4.296,
+    "en": "These are goggles. You wear them over your eyes.",
+    "ar": "هذه نظّارات واقية. ترتديها فوق عينيك."
+   },
+   {
+    "start": 82.844,
+    "dur": 3.504,
+    "en": "They protect your eyes from small pieces of wood.",
+    "ar": "تحمي عينيك من قطع الخشب الصغيرة."
+   },
+   {
+    "start": 86.698,
+    "dur": 3.912,
+    "en": "This is glue. It is a sticky liquid.",
+    "ar": "هذا غراء. إنّه سائل لزج."
+   },
+   {
+    "start": 90.96,
+    "dur": 2.76,
+    "en": "It joins two pieces of wood.",
+    "ar": "يصل قطعتين من الخشب."
+   },
+   {
+    "start": 94.07,
+    "dur": 4.824,
+    "en": "And this is a screwdriver. You use it to turn screws.",
+    "ar": "وهذا مفكّ. تستخدمه لإدارة البراغي."
+   },
+   {
+    "start": 99.244,
+    "dur": 3.216,
+    "en": "Now match five tools with their uses.",
+    "ar": "الآن طابِق خمس أدوات مع استخداماتها."
+   },
+   {
+    "start": 102.81,
+    "dur": 3.312,
+    "en": "A hammer. What do you use it for?",
+    "ar": "المطرقة. فيمَ تستخدمها؟"
+   },
+   {
+    "start": 111.063,
+    "dur": 2.712,
+    "en": "You use it to hit nails into wood.",
+    "ar": "تستخدمها لدقّ المسامير في الخشب."
+   },
+   {
+    "start": 114.125,
+    "dur": 3.216,
+    "en": "A saw. What do you use it for?",
+    "ar": "المنشار. فيمَ تستخدمه؟"
+   },
+   {
+    "start": 122.106,
+    "dur": 2.064,
+    "en": "You use it to cut wood.",
+    "ar": "تستخدمه لقطع الخشب."
+   },
+   {
+    "start": 124.52,
+    "dur": 3.648,
+    "en": "A screwdriver. What do you use it for?",
+    "ar": "المفكّ. فيمَ تستخدمه؟"
+   },
+   {
+    "start": 133.403,
+    "dur": 2.448,
+    "en": "You use it to turn screws.",
+    "ar": "تستخدمه لإدارة البراغي."
+   },
+   {
+    "start": 136.201,
+    "dur": 3.264,
+    "en": "A drill. What do you use it for?",
+    "ar": "المثقاب. فيمَ تستخدمه؟"
+   },
+   {
+    "start": 144.348,
+    "dur": 2.544,
+    "en": "You use it to make a hole in wood.",
+    "ar": "تستخدمه لصنع ثقب في الخشب."
+   },
+   {
+    "start": 147.242,
+    "dur": 3.528,
+    "en": "Sandpaper. What do you use it for?",
+    "ar": "ورق الصنفرة. فيمَ تستخدمه؟"
+   },
+   {
+    "start": 155.77,
+    "dur": 2.568,
+    "en": "You use it to make wood smooth.",
+    "ar": "تستخدمه لجعل الخشب ناعماً."
+   },
+   {
+    "start": 158.688,
+    "dur": 3.336,
+    "en": "One use was not needed: to measure the wood.",
+    "ar": "بقي استخدام لم نحتجه: لقياس الخشب."
+   },
+   {
+    "start": 162.374,
+    "dur": 3.408,
+    "en": "That is the measuring tape, and it comes next.",
+    "ar": "ذاك شريط القياس، وهو التالي."
+   },
+   {
+    "start": 166.132,
+    "dur": 2.352,
+    "en": "Use a blank to cut the wood.",
+    "ar": "استخدم ـــ لقطع الخشب."
+   },
+   {
+    "start": 173.131,
+    "dur": 3.6,
+    "en": "A saw. Use a saw to cut the wood.",
+    "ar": "منشاراً. استخدم منشاراً لقطع الخشب."
+   },
+   {
+    "start": 177.081,
+    "dur": 2.592,
+    "en": "Use a blank to hit the nails.",
+    "ar": "استخدم ـــ لدقّ المسامير."
+   },
+   {
+    "start": 184.379,
+    "dur": 3.936,
+    "en": "A hammer. Use a hammer to hit the nails.",
+    "ar": "مطرقة. استخدم مطرقة لدقّ المسامير."
+   },
+   {
+    "start": 188.665,
+    "dur": 2.352,
+    "en": "Use a blank to make a hole.",
+    "ar": "استخدم ـــ لصنع ثقب."
+   },
+   {
+    "start": 195.605,
+    "dur": 3.648,
+    "en": "A drill. Use a drill to make a hole.",
+    "ar": "مثقاباً. استخدم مثقاباً لصنع ثقب."
+   },
+   {
+    "start": 199.603,
+    "dur": 2.712,
+    "en": "Use a blank to check the size.",
+    "ar": "استخدم ـــ للتحقّق من المقاس."
+   },
+   {
+    "start": 207.08,
+    "dur": 4.8,
+    "en": "A measuring tape. Use a measuring tape to check the size.",
+    "ar": "شريط قياس. استخدم شريط قياس للتحقّق من المقاس."
+   },
+   {
+    "start": 212.23,
+    "dur": 3.36,
+    "en": "Last, a short text about the workshop.",
+    "ar": "أخيراً، نصّ قصير عن الورشة."
+   },
+   {
+    "start": 215.94,
+    "dur": 3.792,
+    "en": "A workshop is the place where carpenters make furniture.",
+    "ar": "الورشة هي المكان الذي يصنع فيه النجّارون الأثاث."
+   },
+   {
+    "start": 220.082,
+    "dur": 4.608,
+    "en": "It has many tools, like hammers, saws, and drills.",
+    "ar": "فيها أدوات كثيرة، كالمطارق والمناشير والمثاقب."
+   },
+   {
+    "start": 225.04,
+    "dur": 3.288,
+    "en": "It also has machines and a big workbench.",
+    "ar": "وفيها أيضاً آلات وطاولة عمل كبيرة."
+   },
+   {
+    "start": 228.678,
+    "dur": 2.544,
+    "en": "Safety is very important.",
+    "ar": "السلامة مهمّة جدّاً."
+   },
+   {
+    "start": 231.572,
+    "dur": 3.24,
+    "en": "Workers wear goggles to protect their eyes.",
+    "ar": "يرتدي العمّال نظّارات واقية لحماية عيونهم."
+   },
+   {
+    "start": 235.162,
+    "dur": 2.856,
+    "en": "And gloves to protect their hands.",
+    "ar": "وقفّازات لحماية أيديهم."
+   },
+   {
+    "start": 238.368,
+    "dur": 3.096,
+    "en": "A tidy workshop is a safe workshop.",
+    "ar": "الورشة المرتّبة ورشة آمنة."
+   },
+   {
+    "start": 241.814,
+    "dur": 3.096,
+    "en": "What do workers wear to protect their eyes?",
+    "ar": "ماذا يرتدي العمّال لحماية عيونهم؟"
+   },
+   {
+    "start": 250.439,
+    "dur": 3.744,
+    "en": "B. Goggles. They wear goggles.",
+    "ar": "ب. النظّارات الواقية. يرتدون نظّارات واقية."
+   },
+   {
+    "start": 254.533,
+    "dur": 2.784,
+    "en": "Why is a tidy workshop good?",
+    "ar": "لماذا الورشة المرتّبة جيّدة؟"
+   },
+   {
+    "start": 261.964,
+    "dur": 5.04,
+    "en": "A. It is safe. A tidy workshop is a safe workshop.",
+    "ar": "أ. لأنّها آمنة. الورشة المرتّبة ورشة آمنة."
+   },
+   {
+    "start": 267.354,
+    "dur": 4.8,
+    "en": "Ten tools, and one rule. Tidy means safe.",
+    "ar": "عشر أدوات، وقاعدة واحدة. المرتّب يعني الآمن."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 27.597,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 33.323,
+    "hold": 3.0,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 40.695,
+    "hold": 3.0,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 46.089,
+    "hold": 2.5,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "plane",
+    "label": "plane",
+    "ar": "الفارة",
+    "at": 48.639,
+    "hold": 2.98,
+    "img": "assets/vocab/plane.png",
+    "sha": "69fb02ca6613f47a"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 54.722,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 67.926,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 72.38,
+    "hold": 3.0,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 76.811,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "screwdriver",
+    "label": "screwdriver",
+    "ar": "المفكّ",
+    "at": 92.82,
+    "hold": 3.0,
+    "img": "assets/vocab/screwdriver.png",
+    "sha": "a3473d6dd78e321b"
+   },
+   {
+    "lemma": "hammer",
+    "label": "hammer",
+    "ar": "المطرقة",
+    "at": 101.135,
+    "hold": 9.88,
+    "img": "assets/vocab/hammer.png",
+    "sha": "908f838f252db90e"
+   },
+   {
+    "lemma": "saw",
+    "label": "saw",
+    "ar": "المنشار",
+    "at": 112.463,
+    "hold": 9.59,
+    "img": "assets/vocab/saw.png",
+    "sha": "420af78516e320d5"
+   },
+   {
+    "lemma": "screwdriver",
+    "label": "screwdriver",
+    "ar": "المفكّ",
+    "at": 122.858,
+    "hold": 10.5,
+    "img": "assets/vocab/screwdriver.png",
+    "sha": "a3473d6dd78e321b"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 134.539,
+    "hold": 9.76,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sandpaper",
+    "label": "sandpaper",
+    "ar": "ورق الصنفرة",
+    "at": 145.442,
+    "hold": 10.28,
+    "img": "assets/vocab/sandpaper.png",
+    "sha": "40270b55daf3c5c4"
+   },
+   {
+    "lemma": "saw",
+    "label": "saw",
+    "ar": "المنشار",
+    "at": 173.131,
+    "hold": 3.0,
+    "img": "assets/vocab/saw.png",
+    "sha": "420af78516e320d5"
+   },
+   {
+    "lemma": "hammer",
+    "label": "hammer",
+    "ar": "المطرقة",
+    "at": 184.379,
+    "hold": 3.0,
+    "img": "assets/vocab/hammer.png",
+    "sha": "908f838f252db90e"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 195.605,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "measuring_tape",
+    "label": "measuring tape",
+    "ar": "شريط القياس",
+    "at": 207.08,
+    "hold": 3.0,
+    "img": "assets/vocab/measuring_tape.png",
+    "sha": "426631ffb9b80558"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 250.439,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

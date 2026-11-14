@@ -1,0 +1,155 @@
+{
+ "schema": "timeline/1",
+ "duration": 127.066,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.736,
+    "dur": 6.12,
+    "en": "This is Part 6, Four Writing Tasks. You will see how each one is built.",
+    "ar": "هذا الجزء السادس، مهامّ الكتابة الأربع. سترى كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 14.206,
+    "dur": 4.992,
+    "en": "Four writing tasks. I will show how each one is built.",
+    "ar": "أربع مهامّ كتابيّة. سأبيّن كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 19.548,
+    "dur": 3.936,
+    "en": "First: write five safety rules for a workshop.",
+    "ar": "أوّلاً: اكتب خمس قواعد سلامة للورشة."
+   },
+   {
+    "start": 23.834,
+    "dur": 3.528,
+    "en": "Use the imperative, positive and negative.",
+    "ar": "استخدم صيغة الأمر، المثبتة والمنفيّة."
+   },
+   {
+    "start": 27.712,
+    "dur": 5.232,
+    "en": "Word bank: wear, keep, don't touch, don't use, always ask.",
+    "ar": "بنك الكلمات: ارتدِ، أبقِ، لا تلمس، لا تستخدم، اسأل دائماً."
+   },
+   {
+    "start": 33.294,
+    "dur": 3.048,
+    "en": "What must those five rules include?",
+    "ar": "ماذا يجب أن تتضمّن تلك القواعد الخمس؟"
+   },
+   {
+    "start": 41.401,
+    "dur": 4.512,
+    "en": "Both forms. Some positive, some negative.",
+    "ar": "كلتا الصيغتين. بعضها مثبت، وبعضها منفيّ."
+   },
+   {
+    "start": 46.263,
+    "dur": 3.36,
+    "en": "Second: how to join two pieces of wood.",
+    "ar": "ثانياً: كيف تصل قطعتين من الخشب."
+   },
+   {
+    "start": 49.973,
+    "dur": 6.024,
+    "en": "The plan is four lines. First blank. Then blank.",
+    "ar": "الخطّة أربعة أسطر. أوّلاً ـــ. ثمّ ـــ."
+   },
+   {
+    "start": 56.347,
+    "dur": 3.864,
+    "en": "Next blank. Finally blank.",
+    "ar": "بعد ذلك ـــ. أخيراً ـــ."
+   },
+   {
+    "start": 60.561,
+    "dur": 3.984,
+    "en": "What makes those four lines instructions and not a story?",
+    "ar": "ما الذي يجعل تلك الأسطر تعليمات لا قصّة؟"
+   },
+   {
+    "start": 70.898,
+    "dur": 3.648,
+    "en": "The sequencers, and a base verb with no subject.",
+    "ar": "كلمات الترتيب، وفعل مجرّد بلا فاعل."
+   },
+   {
+    "start": 74.896,
+    "dur": 6.792,
+    "en": "Check: sequencers used? Clear steps? Fifty to seventy words?",
+    "ar": "تحقّق: كلمات ترتيب؟ خطوات واضحة؟ خمسون إلى سبعون كلمة؟"
+   },
+   {
+    "start": 82.038,
+    "dur": 3.816,
+    "en": "Third: an email to a new worker about safety.",
+    "ar": "ثالثاً: رسالة إلى عامل جديد عن السلامة."
+   },
+   {
+    "start": 86.204,
+    "dur": 2.976,
+    "en": "What three things does that email need?",
+    "ar": "ما الأمور الثلاثة التي تحتاجها تلك الرسالة؟"
+   },
+   {
+    "start": 94.474,
+    "dur": 5.376,
+    "en": "A greeting and close, two or three safety rules, fifty to seventy words.",
+    "ar": "تحيّة وخاتمة، قاعدتان أو ثلاث للسلامة، خمسون إلى سبعون كلمة."
+   },
+   {
+    "start": 100.2,
+    "dur": 3.648,
+    "en": "Fourth: a reflection about one tool you like.",
+    "ar": "رابعاً: تأمّل عن أداة واحدة تحبّها."
+   },
+   {
+    "start": 104.198,
+    "dur": 4.8,
+    "en": "Say what you use it for. Forty to sixty words.",
+    "ar": "قل فيمَ تستخدمها. أربعون إلى ستّون كلمة."
+   },
+   {
+    "start": 109.348,
+    "dur": 2.472,
+    "en": "What does that reflection need?",
+    "ar": "ماذا يحتاج ذلك التأمّل؟"
+   },
+   {
+    "start": 116.644,
+    "dur": 3.216,
+    "en": "A tool named, and what you use it for.",
+    "ar": "أداة مسمّاة، وفيمَ تستخدمها."
+   },
+   {
+    "start": 120.21,
+    "dur": 5.256,
+    "en": "Now write. The video stops here, and your pen starts.",
+    "ar": "الآن اكتب. الفيديو يتوقّف هنا، وقلمك يبدأ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

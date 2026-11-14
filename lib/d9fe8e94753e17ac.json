@@ -1,0 +1,228 @@
+{
+ "schema": "timeline/1",
+ "duration": 101.247,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.648,
+    "en": "This is Part 3, Asking for a Tool. You will hear a new worker ask where the drill is.",
+    "ar": "هذا الجزء الثالث، السؤال عن أداة. ستسمع عاملاً جديداً يسأل أين المثقاب."
+   },
+   {
+    "start": 14.302,
+    "dur": 3.432,
+    "en": "What does a new worker ask on the first day?",
+    "ar": "ماذا يسأل عامل جديد في يومه الأوّل؟"
+   },
+   {
+    "start": 18.084,
+    "dur": 3.048,
+    "en": "Ustaz Sami, where is the drill?",
+    "ar": "أستاذ سامي، أين المثقاب؟"
+   },
+   {
+    "start": 21.482,
+    "dur": 3.288,
+    "en": "It is on the workbench, next to the clamps.",
+    "ar": "إنّه على طاولة العمل، بجانب المشابك."
+   },
+   {
+    "start": 25.12,
+    "dur": 3.864,
+    "en": "Thanks. And do we have any long screws?",
+    "ar": "شكراً. وهل لدينا براغٍ طويلة؟"
+   },
+   {
+    "start": 29.334,
+    "dur": 3.072,
+    "en": "Yes, there are some in the blue box.",
+    "ar": "نعم، يوجد بعضها في الصندوق الأزرق."
+   },
+   {
+    "start": 32.756,
+    "dur": 2.16,
+    "en": "What do I do first?",
+    "ar": "ماذا أفعل أوّلاً؟"
+   },
+   {
+    "start": 35.266,
+    "dur": 2.424,
+    "en": "First, measure the wood.",
+    "ar": "أوّلاً، قِس الخشب."
+   },
+   {
+    "start": 38.04,
+    "dur": 2.496,
+    "en": "Then make a hole with the drill.",
+    "ar": "ثمّ اصنع ثقباً بالمثقاب."
+   },
+   {
+    "start": 40.886,
+    "dur": 2.712,
+    "en": "Next, put in the screws.",
+    "ar": "بعد ذلك، ضع البراغي."
+   },
+   {
+    "start": 43.948,
+    "dur": 3.024,
+    "en": "Finally, check that it is straight.",
+    "ar": "أخيراً، تحقّق من أنّه مستقيم."
+   },
+   {
+    "start": 47.322,
+    "dur": 2.88,
+    "en": "And remember, wear your goggles.",
+    "ar": "وتذكّر، ارتدِ نظّاراتك الواقية."
+   },
+   {
+    "start": 50.552,
+    "dur": 2.16,
+    "en": "OK, Ustaz.",
+    "ar": "حسناً يا أستاذ."
+   },
+   {
+    "start": 53.062,
+    "dur": 4.896,
+    "en": "Now put the steps in order. Step one is measure the wood.",
+    "ar": "الآن رتّب الخطوات. الخطوة الأولى قياس الخشب."
+   },
+   {
+    "start": 58.308,
+    "dur": 2.184,
+    "en": "Which step is second?",
+    "ar": "ما الخطوة الثانية؟"
+   },
+   {
+    "start": 64.727,
+    "dur": 2.232,
+    "en": "Make a hole with the drill.",
+    "ar": "صنع ثقب بالمثقاب."
+   },
+   {
+    "start": 67.309,
+    "dur": 2.016,
+    "en": "Which step is third?",
+    "ar": "ما الخطوة الثالثة؟"
+   },
+   {
+    "start": 73.502,
+    "dur": 1.992,
+    "en": "Put in the screws.",
+    "ar": "وضع البراغي."
+   },
+   {
+    "start": 75.844,
+    "dur": 2.136,
+    "en": "Which step is fourth?",
+    "ar": "ما الخطوة الرابعة؟"
+   },
+   {
+    "start": 82.215,
+    "dur": 2.232,
+    "en": "Check that it is straight.",
+    "ar": "التحقّق من أنّه مستقيم."
+   },
+   {
+    "start": 84.797,
+    "dur": 3.216,
+    "en": "Measure, drill, screw, check.",
+    "ar": "قِس، اثقب، ابرغِ، تحقّق."
+   },
+   {
+    "start": 88.363,
+    "dur": 3.192,
+    "en": "The check is a step, not an afterthought.",
+    "ar": "التحقّق خطوة، لا فكرة لاحقة."
+   },
+   {
+    "start": 91.905,
+    "dur": 2.448,
+    "en": "And where do I find a tool?",
+    "ar": "وأين أجد أداة؟"
+   },
+   {
+    "start": 94.703,
+    "dur": 4.944,
+    "en": "Ask. On the workbench, next to, in the blue box.",
+    "ar": "اسأل. على طاولة العمل، بجانب، في الصندوق الأزرق."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 17.972,
+    "hold": 2.5,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 20.522,
+    "hold": 2.64,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 46.785,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 64.727,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "screws",
+    "label": "screws",
+    "ar": "البراغي",
+    "at": 73.502,
+    "hold": 3.0,
+    "img": "assets/vocab/screws.png",
+    "sha": "ace33679cc1f19ae"
+   },
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 94.478,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

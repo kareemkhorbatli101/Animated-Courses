@@ -1,0 +1,174 @@
+{
+ "schema": "timeline/1",
+ "duration": 95.393,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.336,
+    "en": "This is Part 5, Safety in the Workshop. You will read eight instructions and count them.",
+    "ar": "هذا الجزء الخامس، السلامة في الورشة. ستقرأ ثماني تعليمات وتعدّها."
+   },
+   {
+    "start": 13.99,
+    "dur": 4.008,
+    "en": "Before you read: which three safety rules matter most?",
+    "ar": "قبل القراءة: أيّ ثلاث قواعد سلامة أهمّ؟"
+   },
+   {
+    "start": 18.348,
+    "dur": 2.736,
+    "en": "Dangerous means it can hurt you.",
+    "ar": "«خطر» تعني أنّه قد يؤذيك."
+   },
+   {
+    "start": 21.434,
+    "dur": 3.912,
+    "en": "Experienced means you have done something for a long time.",
+    "ar": "«متمرّس» تعني أنّك فعلت شيئاً وقتاً طويلاً."
+   },
+   {
+    "start": 25.696,
+    "dur": 4.728,
+    "en": "A workshop can be dangerous, so safety rules are very important.",
+    "ar": "الورشة قد تكون خطرة، لذا قواعد السلامة مهمّة جدّاً."
+   },
+   {
+    "start": 30.774,
+    "dur": 3.384,
+    "en": "Always wear goggles to protect your eyes.",
+    "ar": "ارتدِ النظّارات الواقية دائماً لحماية عينيك."
+   },
+   {
+    "start": 34.508,
+    "dur": 3.096,
+    "en": "They protect you from small pieces of wood.",
+    "ar": "تحميك من قطع الخشب الصغيرة."
+   },
+   {
+    "start": 37.954,
+    "dur": 2.832,
+    "en": "Wear a dust mask when you sand.",
+    "ar": "ارتدِ كمّامة غبار حين تصنفر."
+   },
+   {
+    "start": 41.136,
+    "dur": 2.712,
+    "en": "The dust is bad for your lungs.",
+    "ar": "الغبار ضارّ برئتيك."
+   },
+   {
+    "start": 44.198,
+    "dur": 3.48,
+    "en": "Keep the floor clean, so no one falls.",
+    "ar": "أبقِ الأرض نظيفة، كيلا يقع أحد."
+   },
+   {
+    "start": 48.028,
+    "dur": 2.544,
+    "en": "Never touch a moving blade.",
+    "ar": "لا تلمس نصلاً متحرّكاً أبداً."
+   },
+   {
+    "start": 50.922,
+    "dur": 2.688,
+    "en": "And never use a broken tool.",
+    "ar": "ولا تستخدم أداة معطّلة أبداً."
+   },
+   {
+    "start": 53.96,
+    "dur": 4.296,
+    "en": "Before you use a machine, ask an experienced worker for help.",
+    "ar": "قبل أن تستخدم آلة، اطلب المساعدة من عامل متمرّس."
+   },
+   {
+    "start": 58.606,
+    "dur": 2.64,
+    "en": "First learn, then work.",
+    "ar": "تعلّم أوّلاً، ثمّ اعمل."
+   },
+   {
+    "start": 61.596,
+    "dur": 4.104,
+    "en": "When everyone follows the rules, the workshop is safe.",
+    "ar": "حين يتّبع الجميع القواعد، تكون الورشة آمنة."
+   },
+   {
+    "start": 66.05,
+    "dur": 2.904,
+    "en": "It is a safe place for the whole team.",
+    "ar": "تكون مكاناً آمناً للفريق كلّه."
+   },
+   {
+    "start": 69.304,
+    "dur": 2.616,
+    "en": "Can a workshop be dangerous?",
+    "ar": "هل يمكن أن تكون الورشة خطرة؟"
+   },
+   {
+    "start": 76.567,
+    "dur": 3.816,
+    "en": "Yes. That is why the rules exist.",
+    "ar": "نعم. لهذا وُجدت القواعد."
+   },
+   {
+    "start": 80.733,
+    "dur": 3.432,
+    "en": "Count the imperatives in that text, Khaled.",
+    "ar": "عُدّ صيغ الأمر في ذلك النصّ يا خالد."
+   },
+   {
+    "start": 84.515,
+    "dur": 5.208,
+    "en": "Wear, wear, keep, never touch, never use, ask, learn, work.",
+    "ar": "ارتدِ، ارتدِ، أبقِ، لا تلمس، لا تستخدم، اسأل، تعلّم، اعمل."
+   },
+   {
+    "start": 90.073,
+    "dur": 3.72,
+    "en": "Eight instructions, and not one subject among them.",
+    "ar": "ثماني تعليمات، وليس بينها فاعل واحد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 29.724,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 47.278,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "schema": "timeline/1",
+ "duration": 136.528,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.864,
+    "en": "This is Part 2, Notice. You will hear four workshop instructions and find the order words.",
+    "ar": "هذا الجزء الثاني، لاحظ. ستسمع أربع تعليمات وتجد كلمات الترتيب."
+   },
+   {
+    "start": 14.518,
+    "dur": 4.728,
+    "en": "Listen to these instructions. Which words show the order?",
+    "ar": "استمع إلى هذه التعليمات. أيّ الكلمات تبيّن الترتيب؟"
+   },
+   {
+    "start": 19.596,
+    "dur": 2.424,
+    "en": "First, measure the wood.",
+    "ar": "أوّلاً، قِس الخشب."
+   },
+   {
+    "start": 22.37,
+    "dur": 2.664,
+    "en": "Then cut it carefully with the saw.",
+    "ar": "ثمّ اقطعه بحذر بالمنشار."
+   },
+   {
+    "start": 25.384,
+    "dur": 2.568,
+    "en": "Next, sand the edges.",
+    "ar": "بعد ذلك، اصنفر الحواف."
+   },
+   {
+    "start": 28.302,
+    "dur": 3.264,
+    "en": "Finally, join the pieces with glue.",
+    "ar": "أخيراً، صِل القطع بالغراء."
+   },
+   {
+    "start": 31.916,
+    "dur": 2.016,
+    "en": "Don't touch the blade.",
+    "ar": "لا تلمس النصل."
+   },
+   {
+    "start": 34.282,
+    "dur": 2.688,
+    "en": "And always wear your goggles.",
+    "ar": "وارتدِ نظّاراتك الواقية دائماً."
+   },
+   {
+    "start": 37.32,
+    "dur": 3.288,
+    "en": "Which four words show the order of the steps?",
+    "ar": "أيّ أربع كلمات تبيّن ترتيب الخطوات؟"
+   },
+   {
+    "start": 46.255,
+    "dur": 3.384,
+    "en": "First, then, next, and finally.",
+    "ar": "First، then، next، وfinally."
+   },
+   {
+    "start": 49.989,
+    "dur": 4.2,
+    "en": "Those four are the sequencers. Now the rule.",
+    "ar": "تلك الأربع هي كلمات الترتيب. الآن القاعدة."
+   },
+   {
+    "start": 54.539,
+    "dur": 3.936,
+    "en": "An instruction uses the base verb, with no subject.",
+    "ar": "التعليمة تستخدم الفعل المجرّد، بلا فاعل."
+   },
+   {
+    "start": 58.825,
+    "dur": 3.72,
+    "en": "Wear your goggles. Measure the wood.",
+    "ar": "ارتدِ نظّاراتك. قِس الخشب."
+   },
+   {
+    "start": 62.895,
+    "dur": 3.456,
+    "en": "Is it wear your goggles, or you wear your goggles?",
+    "ar": "أنقول wear your goggles أم you wear your goggles؟"
+   },
+   {
+    "start": 72.292,
+    "dur": 4.416,
+    "en": "Wear your goggles. An instruction has no subject.",
+    "ar": "Wear your goggles. التعليمة بلا فاعل."
+   },
+   {
+    "start": 77.058,
+    "dur": 3.312,
+    "en": "To say what NOT to do, put don't in front.",
+    "ar": "لقول ما يجب ألّا تفعله، ضع don't في المقدّمة."
+   },
+   {
+    "start": 80.72,
+    "dur": 4.32,
+    "en": "Don't touch the blade. Don't use a broken tool.",
+    "ar": "لا تلمس النصل. لا تستخدم أداة معطّلة."
+   },
+   {
+    "start": 85.39,
+    "dur": 3.048,
+    "en": "Is it don't touch, or don't touches?",
+    "ar": "أنقول don't touch أم don't touches؟"
+   },
+   {
+    "start": 93.556,
+    "dur": 4.608,
+    "en": "Don't touch. After don't, the verb never changes.",
+    "ar": "Don't touch. بعد don't، لا يتغيّر الفعل أبداً."
+   },
+   {
+    "start": 98.514,
+    "dur": 2.904,
+    "en": "And the four sequencers show the order.",
+    "ar": "والكلمات الأربع تبيّن الترتيب."
+   },
+   {
+    "start": 101.768,
+    "dur": 5.328,
+    "en": "First cut. Then sand. Finally, glue.",
+    "ar": "أوّلاً اقطع. ثمّ اصنفر. أخيراً، الصق."
+   },
+   {
+    "start": 107.446,
+    "dur": 2.52,
+    "en": "Which sequencer comes last?",
+    "ar": "أيّ كلمة ترتيب تأتي أخيراً؟"
+   },
+   {
+    "start": 114.554,
+    "dur": 3.912,
+    "en": "Finally. It always marks the last step.",
+    "ar": "كلمة Finally. وهي تشير دائماً إلى الخطوة الأخيرة."
+   },
+   {
+    "start": 118.816,
+    "dur": 3.888,
+    "en": "Watch out. Wears your goggles is wrong.",
+    "ar": "انتبه. Wears your goggles خطأ."
+   },
+   {
+    "start": 123.054,
+    "dur": 2.424,
+    "en": "Wear your goggles is right.",
+    "ar": "Wear your goggles صحيحة."
+   },
+   {
+    "start": 125.828,
+    "dur": 2.592,
+    "en": "Don't touches the blade is wrong.",
+    "ar": "Don't touches the blade خطأ."
+   },
+   {
+    "start": 128.77,
+    "dur": 2.448,
+    "en": "Don't touch the blade is right.",
+    "ar": "Don't touch the blade صحيحة."
+   },
+   {
+    "start": 131.568,
+    "dur": 3.36,
+    "en": "You will see these again in the Part 5 reading.",
+    "ar": "سترى هذه مرّة أخرى في قراءة الجزء الخامس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 28.352,
+    "hold": 2.5,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 30.902,
+    "hold": 2.62,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 33.57,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 61.733,
+    "hold": 13.56,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

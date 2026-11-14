@@ -1,0 +1,360 @@
+{
+ "schema": "timeline/1",
+ "duration": 199.866,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.152,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.952,
+    "dur": 8.448,
+    "en": "This is Part 5, Comprehension and Machines. You will answer seven questions and read about machines.",
+    "ar": "هذا الجزء الخامس، الفهم والآلات. ستجيب عن سبعة أسئلة وتقرأ عن الآلات."
+   },
+   {
+    "start": 16.75,
+    "dur": 3.264,
+    "en": "Three questions about the safety text.",
+    "ar": "ثلاثة أسئلة عن نصّ السلامة."
+   },
+   {
+    "start": 20.364,
+    "dur": 2.424,
+    "en": "What protects your eyes?",
+    "ar": "ما الذي يحمي عينيك؟"
+   },
+   {
+    "start": 27.2,
+    "dur": 2.136,
+    "en": "B. Goggles.",
+    "ar": "ب. النظّارات الواقية."
+   },
+   {
+    "start": 29.686,
+    "dur": 2.784,
+    "en": "When should you wear a dust mask?",
+    "ar": "متى ينبغي أن ترتدي كمّامة غبار؟"
+   },
+   {
+    "start": 37.411,
+    "dur": 2.328,
+    "en": "A. When you sand.",
+    "ar": "أ. حين تصنفر."
+   },
+   {
+    "start": 40.089,
+    "dur": 3.24,
+    "en": "What should you do before using a machine?",
+    "ar": "ماذا ينبغي أن تفعل قبل استخدام آلة؟"
+   },
+   {
+    "start": 48.8,
+    "dur": 3.864,
+    "en": "C. Ask an experienced worker for help.",
+    "ar": "ج. اطلب المساعدة من عامل متمرّس."
+   },
+   {
+    "start": 53.014,
+    "dur": 4.224,
+    "en": "Now four words. What does each mean?",
+    "ar": "الآن أربع كلمات. ماذا تعني كلّ واحدة؟"
+   },
+   {
+    "start": 57.588,
+    "dur": 1.872,
+    "en": "Goggles.",
+    "ar": "النظّارات الواقية."
+   },
+   {
+    "start": 63.46,
+    "dur": 2.736,
+    "en": "You wear them to protect your eyes.",
+    "ar": "ترتديها لحماية عينيك."
+   },
+   {
+    "start": 66.546,
+    "dur": 1.872,
+    "en": "A dust mask.",
+    "ar": "كمّامة الغبار."
+   },
+   {
+    "start": 72.418,
+    "dur": 3.456,
+    "en": "You wear it over your nose and mouth when you sand.",
+    "ar": "ترتديها على أنفك وفمك حين تصنفر."
+   },
+   {
+    "start": 76.224,
+    "dur": 1.872,
+    "en": "A blade.",
+    "ar": "النصل."
+   },
+   {
+    "start": 82.096,
+    "dur": 4.704,
+    "en": "The sharp cutting part. Never touch it when it moves.",
+    "ar": "الجزء القاطع الحادّ. لا تلمسه أبداً حين يتحرّك."
+   },
+   {
+    "start": 87.15,
+    "dur": 1.968,
+    "en": "A broken tool.",
+    "ar": "أداة معطّلة."
+   },
+   {
+    "start": 93.118,
+    "dur": 3.504,
+    "en": "A tool that is damaged and not safe to use.",
+    "ar": "أداة تالفة وغير آمنة للاستخدام."
+   },
+   {
+    "start": 96.972,
+    "dur": 4.536,
+    "en": "One meaning was not needed: a strong table for working.",
+    "ar": "بقي معنى لم نحتجه: طاولة قويّة للعمل."
+   },
+   {
+    "start": 101.858,
+    "dur": 2.4,
+    "en": "That is the workbench.",
+    "ar": "تلك طاولة العمل."
+   },
+   {
+    "start": 104.608,
+    "dur": 4.368,
+    "en": "Now a second text. Machines in the Workshop.",
+    "ar": "الآن نصّ ثانٍ. الآلات في الورشة."
+   },
+   {
+    "start": 109.326,
+    "dur": 3.24,
+    "en": "Trained means you have learned how to do something.",
+    "ar": "«مدرَّب» تعني أنّك تعلّمت كيف تفعل شيئاً."
+   },
+   {
+    "start": 112.916,
+    "dur": 2.832,
+    "en": "By hand means without a machine.",
+    "ar": "«يدويّاً» تعني بلا آلة."
+   },
+   {
+    "start": 116.098,
+    "dur": 3.624,
+    "en": "Modern workshops use machines to work faster.",
+    "ar": "الورشات الحديثة تستخدم الآلات للعمل أسرع."
+   },
+   {
+    "start": 120.072,
+    "dur": 3.288,
+    "en": "A table saw cuts wood quickly and straight.",
+    "ar": "منشار الطاولة يقطع الخشب بسرعة واستقامة."
+   },
+   {
+    "start": 123.71,
+    "dur": 3.408,
+    "en": "An electric drill makes holes in seconds.",
+    "ar": "المثقاب الكهربائي يصنع ثقوباً في ثوانٍ."
+   },
+   {
+    "start": 127.468,
+    "dur": 3.552,
+    "en": "A sander makes the wood smooth without hard work.",
+    "ar": "آلة الصنفرة تجعل الخشب ناعماً بلا جهد شاقّ."
+   },
+   {
+    "start": 131.37,
+    "dur": 3.648,
+    "en": "Machines save time, but they can be dangerous.",
+    "ar": "الآلات توفّر الوقت، لكنّها قد تكون خطرة."
+   },
+   {
+    "start": 135.368,
+    "dur": 3.312,
+    "en": "Only trained workers use the big machines.",
+    "ar": "العمّال المدرَّبون وحدهم يستخدمون الآلات الكبيرة."
+   },
+   {
+    "start": 139.03,
+    "dur": 3.216,
+    "en": "And they always follow the safety rules.",
+    "ar": "وهم يتّبعون قواعد السلامة دائماً."
+   },
+   {
+    "start": 142.596,
+    "dur": 2.592,
+    "en": "The machines do the heavy work.",
+    "ar": "الآلات تؤدّي العمل الثقيل."
+   },
+   {
+    "start": 145.538,
+    "dur": 3.24,
+    "en": "The carpenter does the fine work by hand.",
+    "ar": "والنجّار يؤدّي العمل الدقيق يدويّاً."
+   },
+   {
+    "start": 149.128,
+    "dur": 4.056,
+    "en": "Three sentences. True or False?",
+    "ar": "ثلاث جمل. صحيح أم خطأ؟"
+   },
+   {
+    "start": 153.534,
+    "dur": 2.952,
+    "en": "A table saw cuts wood slowly.",
+    "ar": "منشار الطاولة يقطع الخشب ببطء."
+   },
+   {
+    "start": 161.192,
+    "dur": 4.2,
+    "en": "False. It cuts quickly and straight.",
+    "ar": "خطأ. يقطع بسرعة واستقامة."
+   },
+   {
+    "start": 165.742,
+    "dur": 3.816,
+    "en": "Only trained workers use the big machines.",
+    "ar": "العمّال المدرَّبون وحدهم يستخدمون الآلات الكبيرة."
+   },
+   {
+    "start": 175.028,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 177.25,
+    "dur": 3.456,
+    "en": "The carpenter does the fine work by hand.",
+    "ar": "النجّار يؤدّي العمل الدقيق يدويّاً."
+   },
+   {
+    "start": 186.118,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 188.34,
+    "dur": 4.584,
+    "en": "Two Trues together. Do not change an answer for that.",
+    "ar": "«صحيح» مرّتين متتاليتين. لا تغيّر إجابة لهذا السبب."
+   },
+   {
+    "start": 193.274,
+    "dur": 4.992,
+    "en": "The machine does the heavy work. The hand does the fine work.",
+    "ar": "الآلة تؤدّي العمل الثقيل. واليد تؤدّي العمل الدقيق."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 27.2,
+    "hold": 1.51,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "dust_mask",
+    "label": "dust mask",
+    "ar": "كمّامة الغبار",
+    "at": 28.761,
+    "hold": 8.6,
+    "img": "assets/vocab/dust_mask.png",
+    "sha": "3af1e1d2b7ab8f84"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 55.788,
+    "hold": 7.62,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "dust_mask",
+    "label": "dust mask",
+    "ar": "كمّامة الغبار",
+    "at": 64.846,
+    "hold": 7.52,
+    "img": "assets/vocab/dust_mask.png",
+    "sha": "3af1e1d2b7ab8f84"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 74.511,
+    "hold": 7.53,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 100.595,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 122.522,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 125.755,
+    "hold": 3.0,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "table_saw",
+    "label": "table saw",
+    "ar": "منشار الطاولة",
+    "at": 151.809,
+    "hold": 9.33,
+    "img": "assets/vocab/table_saw.png",
+    "sha": "8c7df7d64a72ad1c"
+   },
+   {
+    "lemma": "carpenter",
+    "label": "carpenter",
+    "ar": "النجّار",
+    "at": 175.525,
+    "hold": 10.54,
+    "img": "assets/vocab/carpenter.png",
+    "sha": "e20c1702c3d42690"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

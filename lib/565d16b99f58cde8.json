@@ -1,0 +1,348 @@
+{
+ "schema": "timeline/1",
+ "duration": 197.771,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.984,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.784,
+    "dur": 8.52,
+    "en": "This is Part 5, Comprehension and Syrian Wood. You will answer seven questions and read a second text.",
+    "ar": "هذا الجزء الخامس، الفهم والخشب السوريّ. ستجيب عن سبعة أسئلة وتقرأ نصّاً ثانياً."
+   },
+   {
+    "start": 16.654,
+    "dur": 3.216,
+    "en": "Three questions about the text, Layla.",
+    "ar": "ثلاثة أسئلة عن النصّ يا ليلى."
+   },
+   {
+    "start": 20.22,
+    "dur": 3.552,
+    "en": "Why do workshops use plywood and MDF?",
+    "ar": "لماذا تستخدم الورشات الخشب الرقائقي واللوح المضغوط؟"
+   },
+   {
+    "start": 28.949,
+    "dur": 2.88,
+    "en": "B. They are cheaper and easy to cut.",
+    "ar": "ب. لأنّهما أرخص وأسهل في القصّ."
+   },
+   {
+    "start": 32.179,
+    "dur": 2.712,
+    "en": "Why is foam good for cushions?",
+    "ar": "لماذا الإسفنج جيّد للوسائد؟"
+   },
+   {
+    "start": 39.655,
+    "dur": 2.424,
+    "en": "A. It is light and soft.",
+    "ar": "أ. لأنّه خفيف وناعم."
+   },
+   {
+    "start": 42.429,
+    "dur": 2.712,
+    "en": "What is one bad point of leather?",
+    "ar": "ما إحدى النقاط السيّئة في الجلد؟"
+   },
+   {
+    "start": 50.082,
+    "dur": 2.328,
+    "en": "C. It costs a lot.",
+    "ar": "ج. إنّه يكلّف كثيراً."
+   },
+   {
+    "start": 52.76,
+    "dur": 4.464,
+    "en": "Now four words from the text. What does each mean?",
+    "ar": "الآن أربع كلمات من النصّ. ماذا تعني كلّ واحدة؟"
+   },
+   {
+    "start": 57.574,
+    "dur": 1.896,
+    "en": "Solid wood.",
+    "ar": "الخشب المصمت."
+   },
+   {
+    "start": 63.47,
+    "dur": 2.328,
+    "en": "Real, whole wood.",
+    "ar": "خشب حقيقيّ كامل."
+   },
+   {
+    "start": 66.148,
+    "dur": 1.872,
+    "en": "Plywood.",
+    "ar": "الخشب الرقائقي."
+   },
+   {
+    "start": 72.02,
+    "dur": 2.832,
+    "en": "Thin layers of wood glued together.",
+    "ar": "طبقات رقيقة من الخشب ملصوقة معاً."
+   },
+   {
+    "start": 75.203,
+    "dur": 1.872,
+    "en": "Foam.",
+    "ar": "الإسفنج."
+   },
+   {
+    "start": 81.075,
+    "dur": 3.432,
+    "en": "A soft, light material for cushions.",
+    "ar": "مادّة ناعمة خفيفة للوسائد."
+   },
+   {
+    "start": 84.857,
+    "dur": 1.872,
+    "en": "Leather.",
+    "ar": "الجلد."
+   },
+   {
+    "start": 90.729,
+    "dur": 3.72,
+    "en": "Animal skin, strong and easy to clean.",
+    "ar": "جلد حيوان، قويّ وسهل التنظيف."
+   },
+   {
+    "start": 94.799,
+    "dur": 4.344,
+    "en": "One meaning was not needed: a clear material we see through.",
+    "ar": "بقي معنى لم نحتجه: مادّة شفّافة نرى من خلالها."
+   },
+   {
+    "start": 99.493,
+    "dur": 1.872,
+    "en": "That is glass.",
+    "ar": "ذاك هو الزجاج."
+   },
+   {
+    "start": 101.715,
+    "dur": 4.44,
+    "en": "Now a second text. Syrian Wood Today.",
+    "ar": "الآن نصّ ثانٍ. الخشب السوريّ اليوم."
+   },
+   {
+    "start": 106.505,
+    "dur": 3.504,
+    "en": "To import means to bring from another country.",
+    "ar": "الاستيراد يعني الجلب من بلد آخر."
+   },
+   {
+    "start": 110.359,
+    "dur": 4.44,
+    "en": "Syria has beautiful local wood, especially walnut.",
+    "ar": "في سوريا خشب محلّيّ جميل، وخاصّة الجوز."
+   },
+   {
+    "start": 115.149,
+    "dur": 4.488,
+    "en": "In the past, almost all furniture used local wood.",
+    "ar": "في الماضي، كان معظم الأثاث يستخدم خشباً محلّيّاً."
+   },
+   {
+    "start": 119.987,
+    "dur": 2.736,
+    "en": "Today the price of wood is high.",
+    "ar": "اليوم سعر الخشب مرتفع."
+   },
+   {
+    "start": 123.073,
+    "dur": 3.048,
+    "en": "Some wood comes from other countries.",
+    "ar": "بعض الخشب يأتي من بلدان أخرى."
+   },
+   {
+    "start": 126.471,
+    "dur": 4.2,
+    "en": "Many Syrian workshops mix solid wood with plywood.",
+    "ar": "ورشات سوريّة كثيرة تمزج الخشب المصمت بالرقائقي."
+   },
+   {
+    "start": 131.021,
+    "dur": 4.152,
+    "en": "They use solid oak or walnut for the parts you see.",
+    "ar": "يستخدمون البلّوط أو الجوز المصمت للأجزاء الظاهرة."
+   },
+   {
+    "start": 135.523,
+    "dur": 3.048,
+    "en": "And plywood for the parts inside.",
+    "ar": "والخشب الرقائقي للأجزاء الداخليّة."
+   },
+   {
+    "start": 138.921,
+    "dur": 4.8,
+    "en": "So the furniture looks beautiful but does not cost too much.",
+    "ar": "فيبدو الأثاث جميلاً دون أن يكلّف كثيراً."
+   },
+   {
+    "start": 144.071,
+    "dur": 3.816,
+    "en": "Three sentences. True or False?",
+    "ar": "ثلاث جمل. صحيح أم خطأ؟"
+   },
+   {
+    "start": 148.237,
+    "dur": 3.048,
+    "en": "Today, all wood comes from Syria.",
+    "ar": "اليوم، كلّ الخشب يأتي من سوريا."
+   },
+   {
+    "start": 156.226,
+    "dur": 4.152,
+    "en": "False. Some wood comes from other countries.",
+    "ar": "خطأ. بعض الخشب يأتي من بلدان أخرى."
+   },
+   {
+    "start": 160.728,
+    "dur": 3.6,
+    "en": "Workshops mix solid wood with plywood to save money.",
+    "ar": "الورشات تمزج الخشب المصمت بالرقائقي لتوفير المال."
+   },
+   {
+    "start": 170.387,
+    "dur": 3.672,
+    "en": "True. That is exactly why.",
+    "ar": "صحيح. لهذا السبب بالضبط."
+   },
+   {
+    "start": 174.409,
+    "dur": 3.024,
+    "en": "They use plywood for the parts you see.",
+    "ar": "يستخدمون الخشب الرقائقي للأجزاء الظاهرة."
+   },
+   {
+    "start": 182.727,
+    "dur": 4.176,
+    "en": "False. Plywood is for the parts inside.",
+    "ar": "خطأ. الخشب الرقائقي للأجزاء الداخليّة."
+   },
+   {
+    "start": 187.253,
+    "dur": 5.064,
+    "en": "Outside, the good wood. Inside, the cheap board.",
+    "ar": "من الخارج، الخشب الجيّد. من الداخل، اللوح الرخيص."
+   },
+   {
+    "start": 192.667,
+    "dur": 3.504,
+    "en": "That is how a workshop keeps a fair price.",
+    "ar": "هكذا تحافظ الورشة على سعر عادل."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 19.658,
+    "hold": 9.24,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 30.816,
+    "hold": 8.79,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 41.929,
+    "hold": 8.1,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 64.348,
+    "hold": 7.62,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 73.403,
+    "hold": 7.62,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 83.057,
+    "hold": 7.62,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 111.359,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 127.233,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 160.415,
+    "hold": 9.92,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 173.059,
+    "hold": 12.67,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

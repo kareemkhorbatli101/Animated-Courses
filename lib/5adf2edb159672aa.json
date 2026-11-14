@@ -1,0 +1,342 @@
+{
+ "schema": "timeline/1",
+ "duration": 198.691,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 6.216,
+    "en": "This is Part 1, Materials and Wood Terms. You will define seven terms.",
+    "ar": "هذا الجزء الأوّل، مصطلحات المواد والخشب. ستعرّف سبعة مصطلحات."
+   },
+   {
+    "start": 13.774,
+    "dur": 5.016,
+    "en": "Seven terms today, Khaled. We start with the boards.",
+    "ar": "سبعة مصطلحات اليوم يا خالد. نبدأ بالألواح."
+   },
+   {
+    "start": 19.14,
+    "dur": 3.768,
+    "en": "A designer is the person who plans new furniture.",
+    "ar": "المصمّم هو الشخص الذي يخطّط لأثاث جديد."
+   },
+   {
+    "start": 23.258,
+    "dur": 3.984,
+    "en": "That one is done for you. Now the seven.",
+    "ar": "هذا محلول لك. الآن السبعة."
+   },
+   {
+    "start": 27.592,
+    "dur": 1.896,
+    "en": "What is veneer?",
+    "ar": "ما هي القشرة الخشبية؟"
+   },
+   {
+    "start": 33.488,
+    "dur": 3.816,
+    "en": "A very thin layer of nice wood glued on a cheaper board.",
+    "ar": "طبقة رقيقة جداً من خشب جميل ملصوقة على لوح أرخص."
+   },
+   {
+    "start": 37.654,
+    "dur": 1.896,
+    "en": "What is varnish?",
+    "ar": "ما هو الورنيش؟"
+   },
+   {
+    "start": 43.55,
+    "dur": 4.152,
+    "en": "A clear liquid we paint on wood to protect it and make it shine.",
+    "ar": "سائل شفّاف ندهنه على الخشب لحمايته وجعله لامعاً."
+   },
+   {
+    "start": 48.052,
+    "dur": 1.944,
+    "en": "What is plywood?",
+    "ar": "ما هو الخشب الرقائقي؟"
+   },
+   {
+    "start": 53.996,
+    "dur": 3.768,
+    "en": "Thin layers of wood glued together to make a strong board.",
+    "ar": "طبقات رقيقة من الخشب ملصوقة معاً لصنع لوح قويّ."
+   },
+   {
+    "start": 58.114,
+    "dur": 1.992,
+    "en": "What is MDF?",
+    "ar": "ما هو اللوح المضغوط؟"
+   },
+   {
+    "start": 64.106,
+    "dur": 5.112,
+    "en": "A board made from wood dust and glue. It is cheap and smooth.",
+    "ar": "لوح مصنوع من نشارة الخشب والغراء. رخيص وناعم."
+   },
+   {
+    "start": 69.568,
+    "dur": 4.488,
+    "en": "Look at the edge. MDF has no grain at all.",
+    "ar": "انظر إلى الحافة. اللوح المضغوط ليس فيه عروق إطلاقاً."
+   },
+   {
+    "start": 74.406,
+    "dur": 1.92,
+    "en": "What is hardwood?",
+    "ar": "ما هو الخشب الصلب؟"
+   },
+   {
+    "start": 80.326,
+    "dur": 5.448,
+    "en": "Wood from slow-growing trees like oak and walnut. Hard and strong.",
+    "ar": "خشب من أشجار بطيئة النموّ كالبلّوط والجوز. قاسٍ وقويّ."
+   },
+   {
+    "start": 86.124,
+    "dur": 1.992,
+    "en": "What is softwood?",
+    "ar": "ما هو الخشب اللين؟"
+   },
+   {
+    "start": 92.116,
+    "dur": 5.064,
+    "en": "Wood from fast-growing trees like pine. Lighter and cheaper.",
+    "ar": "خشب من أشجار سريعة النموّ كالصنوبر. أخفّ وأرخص."
+   },
+   {
+    "start": 97.53,
+    "dur": 2.064,
+    "en": "What is upholstery?",
+    "ar": "ما هو التنجيد؟"
+   },
+   {
+    "start": 103.712,
+    "dur": 3.096,
+    "en": "The cover and padding on a sofa or chair.",
+    "ar": "الغطاء والحشوة على الكنبة أو الكرسي."
+   },
+   {
+    "start": 107.158,
+    "dur": 2.976,
+    "en": "One meaning was not needed, Ustaz.",
+    "ar": "بقي معنى واحد لم نحتجه يا أستاذ."
+   },
+   {
+    "start": 110.484,
+    "dur": 6.0,
+    "en": "Yes. The springs inside a seat. That is not upholstery.",
+    "ar": "نعم. الزنبركات داخل المقعد. تلك ليست تنجيداً."
+   },
+   {
+    "start": 116.834,
+    "dur": 4.608,
+    "en": "Now a table. Is each material hard or soft?",
+    "ar": "الآن جدول. هل كلّ مادّة قاسية أم ناعمة؟"
+   },
+   {
+    "start": 121.792,
+    "dur": 4.08,
+    "en": "And where do we use it? Oak is done for you.",
+    "ar": "وأين نستخدمها؟ البلّوط محلول لك."
+   },
+   {
+    "start": 126.222,
+    "dur": 3.672,
+    "en": "Oak is hard, and we use it for a sofa frame.",
+    "ar": "البلّوط قاسٍ، ونستخدمه لهيكل الكنبة."
+   },
+   {
+    "start": 130.244,
+    "dur": 4.56,
+    "en": "Pine. Hard or soft, and where do we use it?",
+    "ar": "الصنوبر. قاسٍ أم ناعم، وأين نستخدمه؟"
+   },
+   {
+    "start": 140.333,
+    "dur": 3.528,
+    "en": "Pine is soft, and we use it for a drawer.",
+    "ar": "الصنوبر لين، ونستخدمه للدرج."
+   },
+   {
+    "start": 144.211,
+    "dur": 4.536,
+    "en": "Foam. Hard or soft, and where do we use it?",
+    "ar": "الإسفنج. قاسٍ أم ناعم، وأين نستخدمه؟"
+   },
+   {
+    "start": 154.277,
+    "dur": 3.576,
+    "en": "Foam is soft, and we use it for a cushion.",
+    "ar": "الإسفنج ناعم، ونستخدمه للوسادة."
+   },
+   {
+    "start": 158.203,
+    "dur": 4.56,
+    "en": "Leather. Hard or soft, and where do we use it?",
+    "ar": "الجلد. قاسٍ أم ناعم، وأين نستخدمه؟"
+   },
+   {
+    "start": 168.469,
+    "dur": 3.504,
+    "en": "Leather is soft, and we use it for a cover.",
+    "ar": "الجلد ناعم، ونستخدمه للغطاء."
+   },
+   {
+    "start": 172.323,
+    "dur": 4.704,
+    "en": "Glass. Hard or soft, and where do we use it?",
+    "ar": "الزجاج. قاسٍ أم ناعم، وأين نستخدمه؟"
+   },
+   {
+    "start": 182.615,
+    "dur": 3.888,
+    "en": "Glass is hard, and we use it for a table top.",
+    "ar": "الزجاج قاسٍ، ونستخدمه لسطح الطاولة."
+   },
+   {
+    "start": 186.853,
+    "dur": 6.24,
+    "en": "Good. Hard for frames and tops. Soft for cushions and covers.",
+    "ar": "جيّد. القاسي للهياكل والأسطح. الناعم للوسائد والأغطية."
+   },
+   {
+    "start": 193.443,
+    "dur": 3.648,
+    "en": "That rule will help you choose materials all year.",
+    "ar": "هذه القاعدة ستساعدك في اختيار المواد طوال السنة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 26.167,
+    "hold": 7.27,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 36.217,
+    "hold": 7.28,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 46.602,
+    "hold": 7.34,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "mdf",
+    "label": "MDF",
+    "ar": "اللوح المضغوط",
+    "at": 56.689,
+    "hold": 7.37,
+    "img": "assets/vocab/mdf.png",
+    "sha": "a0c0434624242173"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 72.956,
+    "hold": 7.32,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "softwood",
+    "label": "softwood",
+    "ar": "الخشب اللين",
+    "at": 84.687,
+    "hold": 7.38,
+    "img": "assets/vocab/softwood.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "pine",
+    "label": "pine",
+    "ar": "الصنوبر",
+    "at": 92.116,
+    "hold": 3.0,
+    "img": "assets/vocab/pine.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 96.093,
+    "hold": 7.57,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 113.021,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "pine",
+    "label": "pine",
+    "ar": "الصنوبر",
+    "at": 128.444,
+    "hold": 13.92,
+    "img": "assets/vocab/pine.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 142.411,
+    "hold": 13.94,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 156.403,
+    "hold": 15.07,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

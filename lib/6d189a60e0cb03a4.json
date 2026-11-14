@@ -1,0 +1,309 @@
+{
+ "schema": "timeline/1",
+ "duration": 183.078,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.152,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.952,
+    "dur": 7.128,
+    "en": "This is Part 10, Can-Do and Glossary. You will check five things you can now do.",
+    "ar": "هذا الجزء العاشر، ماذا أستطيع والمسرد. ستتحقّق من خمسة أشياء تستطيع فعلها الآن."
+   },
+   {
+    "start": 15.43,
+    "dur": 4.824,
+    "en": "Five things you can do now. We check each one.",
+    "ar": "خمسة أشياء تستطيع فعلها الآن. نتحقّق من كلّ واحد."
+   },
+   {
+    "start": 20.604,
+    "dur": 5.52,
+    "en": "One. I can name common tools, machines and safety gear.",
+    "ar": "الأوّل. أستطيع تسمية الأدوات والآلات ومعدّات السلامة الشائعة."
+   },
+   {
+    "start": 26.474,
+    "dur": 4.704,
+    "en": "Name two tools, one machine, and two pieces of safety gear.",
+    "ar": "سمِّ أداتين، وآلة واحدة، وقطعتين من معدّات السلامة."
+   },
+   {
+    "start": 37.649,
+    "dur": 5.832,
+    "en": "A chisel and a clamp. A sander. Goggles and ear protection.",
+    "ar": "إزميل ومِشبك. آلة صنفرة. نظّارات واقية وواقي أذنين."
+   },
+   {
+    "start": 43.831,
+    "dur": 5.76,
+    "en": "Two. I can use imperatives and sequencers to give instructions.",
+    "ar": "الثاني. أستطيع استخدام صيغة الأمر وكلمات الترتيب لإعطاء تعليمات."
+   },
+   {
+    "start": 49.941,
+    "dur": 3.36,
+    "en": "Give me two steps and one thing not to do.",
+    "ar": "أعطني خطوتين وشيئاً واحداً لا يُفعل."
+   },
+   {
+    "start": 58.771,
+    "dur": 5.904,
+    "en": "First, measure the wood. Then cut it. Don't touch the blade.",
+    "ar": "أوّلاً، قِس الخشب. ثمّ اقطعه. لا تلمس النصل."
+   },
+   {
+    "start": 65.025,
+    "dur": 5.016,
+    "en": "Three. I can understand a workshop safety talk.",
+    "ar": "الثالث. أستطيع فهم حديث سلامة في الورشة."
+   },
+   {
+    "start": 70.391,
+    "dur": 4.176,
+    "en": "What must you never touch, and who do you ask about a big machine?",
+    "ar": "ما الذي يجب ألّا تلمسه أبداً، ومَن تسأل عن آلة كبيرة؟"
+   },
+   {
+    "start": 81.45,
+    "dur": 4.296,
+    "en": "A moving blade. And ask Ustaz Sami.",
+    "ar": "نصلاً متحرّكاً. واسأل الأستاذ سامي."
+   },
+   {
+    "start": 86.096,
+    "dur": 5.4,
+    "en": "Four. I can run a short safety briefing for a new worker.",
+    "ar": "الرابع. أستطيع إجراء إحاطة سلامة قصيرة لعامل جديد."
+   },
+   {
+    "start": 91.846,
+    "dur": 3.36,
+    "en": "Give three numbered rules and a first task.",
+    "ar": "أعطِ ثلاث قواعد مرقّمة ومهمّة أولى."
+   },
+   {
+    "start": 100.735,
+    "dur": 9.528,
+    "en": "First, goggles. Second, keep the area clean. Third, ask me. Today, watch and learn.",
+    "ar": "أوّلاً، النظّارات. ثانياً، أبقِ المنطقة نظيفة. ثالثاً، اسألني. اليوم، راقب وتعلّم."
+   },
+   {
+    "start": 110.613,
+    "dur": 5.088,
+    "en": "Five. I can write simple workshop safety rules.",
+    "ar": "الخامس. أستطيع كتابة قواعد سلامة بسيطة للورشة."
+   },
+   {
+    "start": 116.051,
+    "dur": 3.984,
+    "en": "Write me two rules, one positive and one negative.",
+    "ar": "اكتب لي قاعدتين، واحدة مثبتة وواحدة منفيّة."
+   },
+   {
+    "start": 125.976,
+    "dur": 4.416,
+    "en": "Keep the floor clean. Don't use a broken tool.",
+    "ar": "أبقِ الأرض نظيفة. لا تستخدم أداة معطّلة."
+   },
+   {
+    "start": 130.742,
+    "dur": 3.792,
+    "en": "If you ticked all five, the unit is yours.",
+    "ar": "إن وضعت علامة على الخمسة كلّها، فالوحدة لك."
+   },
+   {
+    "start": 134.884,
+    "dur": 3.288,
+    "en": "Now the ten words, one last time.",
+    "ar": "الآن الكلمات العشر، للمرّة الأخيرة."
+   },
+   {
+    "start": 138.522,
+    "dur": 4.008,
+    "en": "Workbench: a strong table where a carpenter works.",
+    "ar": "طاولة العمل: طاولة قويّة يعمل عليها النجّار."
+   },
+   {
+    "start": 142.88,
+    "dur": 3.264,
+    "en": "Chisel: a sharp tool you hit to shape wood.",
+    "ar": "الإزميل: أداة حادّة تضربها لتشكيل الخشب."
+   },
+   {
+    "start": 146.494,
+    "dur": 4.008,
+    "en": "Clamp: it holds two pieces together while they dry.",
+    "ar": "المِشبك: يمسك قطعتين معاً حتّى تجفّا."
+   },
+   {
+    "start": 150.852,
+    "dur": 3.384,
+    "en": "Plane: it shaves thin pieces off the wood.",
+    "ar": "الفارة: تحلق قطعاً رقيقة من الخشب."
+   },
+   {
+    "start": 154.586,
+    "dur": 4.824,
+    "en": "Blade: the sharp cutting part. Never touch it moving.",
+    "ar": "النصل: الجزء القاطع الحادّ. لا تلمسه متحرّكاً أبداً."
+   },
+   {
+    "start": 159.76,
+    "dur": 2.496,
+    "en": "Drill: it makes a hole.",
+    "ar": "المثقاب: يصنع ثقباً."
+   },
+   {
+    "start": 162.606,
+    "dur": 2.952,
+    "en": "Sander: it makes the wood smooth.",
+    "ar": "آلة الصنفرة: تجعل الخشب ناعماً."
+   },
+   {
+    "start": 165.908,
+    "dur": 2.928,
+    "en": "Goggles: they protect your eyes.",
+    "ar": "النظّارات الواقية: تحمي عينيك."
+   },
+   {
+    "start": 169.186,
+    "dur": 3.768,
+    "en": "Glue: a sticky liquid that joins two pieces.",
+    "ar": "الغراء: سائل لزج يصل قطعتين."
+   },
+   {
+    "start": 173.304,
+    "dur": 3.552,
+    "en": "Screwdriver: you use it to turn screws.",
+    "ar": "المفكّ: تستخدمه لإدارة البراغي."
+   },
+   {
+    "start": 177.206,
+    "dur": 4.272,
+    "en": "Ten tools, and a workshop that is safe to use them in.",
+    "ar": "عشر أدوات، وورشة آمنة لاستخدامها فيها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 37.649,
+    "hold": 3.0,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 58.771,
+    "hold": 5.64,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 81.45,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 100.735,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 136.722,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 144.694,
+    "hold": 3.0,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "plane",
+    "label": "plane",
+    "ar": "الفارة",
+    "at": 149.052,
+    "hold": 3.0,
+    "img": "assets/vocab/plane.png",
+    "sha": "69fb02ca6613f47a"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 157.96,
+    "hold": 2.8,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 160.806,
+    "hold": 3.0,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 167.386,
+    "hold": 3.0,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "screwdriver",
+    "label": "screwdriver",
+    "ar": "المفكّ",
+    "at": 171.504,
+    "hold": 3.0,
+    "img": "assets/vocab/screwdriver.png",
+    "sha": "a3473d6dd78e321b"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "schema": "timeline/1",
+ "duration": 176.116,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.152,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.952,
+    "dur": 8.184,
+    "en": "This is Part 8, Adopting New Machines Safely. You will read what a manager did before switching them on.",
+    "ar": "هذا الجزء الثامن، إدخال آلات جديدة بأمان. ستقرأ ما فعلته مديرة قبل تشغيلها."
+   },
+   {
+    "start": 16.486,
+    "dur": 4.08,
+    "en": "What should a manager do before workers use new machines?",
+    "ar": "ماذا ينبغي للمدير أن يفعل قبل أن يستخدم العمّال آلات جديدة؟"
+   },
+   {
+    "start": 20.916,
+    "dur": 3.384,
+    "en": "To train is to teach someone how to do something.",
+    "ar": "التدريب هو تعليم أحدهم كيف يفعل شيئاً."
+   },
+   {
+    "start": 24.65,
+    "dur": 3.696,
+    "en": "An accident is when someone gets hurt by mistake.",
+    "ar": "الحادث هو أن يتأذّى أحدهم عن طريق الخطأ."
+   },
+   {
+    "start": 28.696,
+    "dur": 2.688,
+    "en": "A rule is something you must do.",
+    "ar": "القاعدة شيء يجب أن تفعله."
+   },
+   {
+    "start": 31.734,
+    "dur": 3.648,
+    "en": "A furniture workshop wanted to work faster.",
+    "ar": "أرادت ورشة أثاث أن تعمل أسرع."
+   },
+   {
+    "start": 35.732,
+    "dur": 4.368,
+    "en": "So it bought new machines: a big saw and a drill.",
+    "ar": "فاشترت آلات جديدة: منشاراً كبيراً ومثقاباً."
+   },
+   {
+    "start": 40.45,
+    "dur": 2.4,
+    "en": "It bought a sander too.",
+    "ar": "واشترت آلة صنفرة أيضاً."
+   },
+   {
+    "start": 43.2,
+    "dur": 3.888,
+    "en": "But the manager knew that machines can be dangerous.",
+    "ar": "لكنّ المديرة عرفت أنّ الآلات قد تكون خطرة."
+   },
+   {
+    "start": 47.438,
+    "dur": 4.08,
+    "en": "Before the workers used them, she did three things.",
+    "ar": "قبل أن يستخدمها العمّال، فعلت ثلاثة أشياء."
+   },
+   {
+    "start": 51.868,
+    "dur": 3.384,
+    "en": "First, she trained every worker.",
+    "ar": "أوّلاً، درّبت كلّ عامل."
+   },
+   {
+    "start": 55.602,
+    "dur": 3.696,
+    "en": "Second, she made clear safety rules.",
+    "ar": "ثانياً، وضعت قواعد سلامة واضحة."
+   },
+   {
+    "start": 59.648,
+    "dur": 2.448,
+    "en": "And she put them on the wall.",
+    "ar": "وعلّقتها على الجدار."
+   },
+   {
+    "start": 62.446,
+    "dur": 5.112,
+    "en": "Third, she bought goggles, gloves and ear protection for everyone.",
+    "ar": "ثالثاً، اشترت نظّارات وقفّازات وواقي أذنين للجميع."
+   },
+   {
+    "start": 67.908,
+    "dur": 5.016,
+    "en": "She also said that only trained workers could use the big machines.",
+    "ar": "وقالت أيضاً إنّ المدرَّبين وحدهم يستطيعون استخدام الآلات الكبيرة."
+   },
+   {
+    "start": 73.274,
+    "dur": 4.296,
+    "en": "After that, the workshop made furniture much faster.",
+    "ar": "بعد ذلك، صنعت الورشة الأثاث أسرع بكثير."
+   },
+   {
+    "start": 77.92,
+    "dur": 2.64,
+    "en": "And there were no accidents.",
+    "ar": "ولم تقع أيّ حوادث."
+   },
+   {
+    "start": 80.91,
+    "dur": 5.064,
+    "en": "The manager said: a machine is only safe when the worker knows it.",
+    "ar": "قالت المديرة: الآلة آمنة فقط حين يعرفها العامل."
+   },
+   {
+    "start": 86.324,
+    "dur": 2.64,
+    "en": "What did the manager do first?",
+    "ar": "ماذا فعلت المديرة أوّلاً؟"
+   },
+   {
+    "start": 93.729,
+    "dur": 2.376,
+    "en": "She trained every worker.",
+    "ar": "درّبت كلّ عامل."
+   },
+   {
+    "start": 96.455,
+    "dur": 2.352,
+    "en": "What did she put on the wall?",
+    "ar": "ماذا علّقت على الجدار؟"
+   },
+   {
+    "start": 103.513,
+    "dur": 2.28,
+    "en": "Clear safety rules.",
+    "ar": "قواعد سلامة واضحة."
+   },
+   {
+    "start": 106.143,
+    "dur": 2.592,
+    "en": "Who could use the big machines?",
+    "ar": "مَن كان يستطيع استخدام الآلات الكبيرة؟"
+   },
+   {
+    "start": 113.558,
+    "dur": 2.328,
+    "en": "Only trained workers.",
+    "ar": "العمّال المدرَّبون وحدهم."
+   },
+   {
+    "start": 116.236,
+    "dur": 4.032,
+    "en": "Now four words. What does each mean?",
+    "ar": "الآن أربع كلمات. ماذا تعني كلّ واحدة؟"
+   },
+   {
+    "start": 120.618,
+    "dur": 1.872,
+    "en": "Train.",
+    "ar": "التدريب."
+   },
+   {
+    "start": 126.49,
+    "dur": 2.976,
+    "en": "To teach someone how to do something.",
+    "ar": "تعليم أحدهم كيف يفعل شيئاً."
+   },
+   {
+    "start": 129.816,
+    "dur": 1.872,
+    "en": "Accident.",
+    "ar": "الحادث."
+   },
+   {
+    "start": 135.688,
+    "dur": 3.264,
+    "en": "When someone gets hurt by mistake.",
+    "ar": "حين يتأذّى أحدهم عن طريق الخطأ."
+   },
+   {
+    "start": 139.302,
+    "dur": 1.872,
+    "en": "Rule.",
+    "ar": "القاعدة."
+   },
+   {
+    "start": 145.174,
+    "dur": 2.352,
+    "en": "Something you must do.",
+    "ar": "شيء يجب أن تفعله."
+   },
+   {
+    "start": 147.876,
+    "dur": 1.872,
+    "en": "Machine.",
+    "ar": "الآلة."
+   },
+   {
+    "start": 153.748,
+    "dur": 3.504,
+    "en": "A machine or tool that does heavy work.",
+    "ar": "آلة أو أداة تؤدّي العمل الثقيل."
+   },
+   {
+    "start": 157.602,
+    "dur": 4.128,
+    "en": "One meaning was not needed: a soft cover for a chair.",
+    "ar": "بقي معنى لم نحتجه: غطاء ناعم للكرسيّ."
+   },
+   {
+    "start": 162.08,
+    "dur": 3.144,
+    "en": "That is upholstery, from Unit 2.",
+    "ar": "ذاك التنجيد، من الوحدة الثانية."
+   },
+   {
+    "start": 165.574,
+    "dur": 3.696,
+    "en": "She bought the machines last, not first.",
+    "ar": "اشترت الآلات أخيراً، لا أوّلاً."
+   },
+   {
+    "start": 169.62,
+    "dur": 4.896,
+    "en": "Talk with a partner. Training is important because...",
+    "ar": "تحدّث مع شريك. التدريب مهمّ لأنّ..."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 36.807,
+    "hold": 2.5,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 39.357,
+    "hold": 2.84,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 61.871,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

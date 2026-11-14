@@ -1,0 +1,231 @@
+{
+ "schema": "timeline/1",
+ "duration": 148.346,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.984,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.784,
+    "dur": 7.848,
+    "en": "This is Part 4, Discussing Materials. You will ask three questions that describe any sofa.",
+    "ar": "هذا الجزء الرابع، الحديث عن المواد. ستسأل ثلاثة أسئلة تصف أيّ كنبة."
+   },
+   {
+    "start": 15.982,
+    "dur": 4.608,
+    "en": "Three questions, Layla. Answer with a reason.",
+    "ar": "ثلاثة أسئلة يا ليلى. أجيبي مع سبب."
+   },
+   {
+    "start": 20.94,
+    "dur": 4.008,
+    "en": "What is your favourite material for furniture, and why?",
+    "ar": "ما مادّتك المفضّلة للأثاث، ولماذا؟"
+   },
+   {
+    "start": 31.183,
+    "dur": 4.416,
+    "en": "My favourite is walnut, because it is strong and beautiful.",
+    "ar": "مادّتي المفضّلة الجوز، لأنّه قويّ وجميل."
+   },
+   {
+    "start": 35.949,
+    "dur": 3.36,
+    "en": "Is wooden furniture popular in your home?",
+    "ar": "هل الأثاث الخشبيّ شائع في بيتك؟"
+   },
+   {
+    "start": 44.721,
+    "dur": 5.256,
+    "en": "Yes. Almost every piece in my home is made of wood.",
+    "ar": "نعم. تقريباً كلّ قطعة في بيتي مصنوعة من الخشب."
+   },
+   {
+    "start": 50.327,
+    "dur": 4.08,
+    "en": "Do you prefer leather or fabric on a sofa, and why?",
+    "ar": "أتفضّلين الجلد أم القماش على الكنبة، ولماذا؟"
+   },
+   {
+    "start": 60.407,
+    "dur": 4.992,
+    "en": "I prefer fabric, because it is cheaper and comes in many colours.",
+    "ar": "أفضّل القماش، لأنّه أرخص ويأتي بألوان كثيرة."
+   },
+   {
+    "start": 65.749,
+    "dur": 4.488,
+    "en": "Those are my answers. Yours may be different.",
+    "ar": "تلك إجاباتي. إجاباتك قد تكون مختلفة."
+   },
+   {
+    "start": 70.587,
+    "dur": 4.752,
+    "en": "Use: my favourite is, because, I prefer, it is made of.",
+    "ar": "استخدم: مادّتي المفضّلة، لأنّ، أفضّل، إنّه مصنوع من."
+   },
+   {
+    "start": 75.689,
+    "dur": 4.368,
+    "en": "Now a pair task. We each have a sofa.",
+    "ar": "الآن مهمّة ثنائيّة. لكلٍّ منّا كنبة."
+   },
+   {
+    "start": 80.407,
+    "dur": 3.312,
+    "en": "Ask questions and find three differences.",
+    "ar": "اسأل أسئلة وجد ثلاثة فروق."
+   },
+   {
+    "start": 84.069,
+    "dur": 2.376,
+    "en": "What is the frame made of?",
+    "ar": "ممّ صُنع الهيكل؟"
+   },
+   {
+    "start": 86.795,
+    "dur": 3.528,
+    "en": "Mine is oak. And yours?",
+    "ar": "كنبتي من البلّوط. وكنبتك؟"
+   },
+   {
+    "start": 90.673,
+    "dur": 4.368,
+    "en": "Mine is pine. That is one difference.",
+    "ar": "كنبتي من الصنوبر. هذا فرق أوّل."
+   },
+   {
+    "start": 95.391,
+    "dur": 1.944,
+    "en": "What is the cover?",
+    "ar": "ما الغطاء؟"
+   },
+   {
+    "start": 97.685,
+    "dur": 3.216,
+    "en": "Leather. And yours?",
+    "ar": "جلد. وغطاؤك؟"
+   },
+   {
+    "start": 101.251,
+    "dur": 3.408,
+    "en": "Velvet. That is two.",
+    "ar": "مخمل. هذا فرق ثانٍ."
+   },
+   {
+    "start": 105.009,
+    "dur": 2.664,
+    "en": "What is inside the cushions?",
+    "ar": "ماذا يوجد داخل الوسائد؟"
+   },
+   {
+    "start": 108.023,
+    "dur": 3.24,
+    "en": "Foam. And yours?",
+    "ar": "إسفنج. وداخل وسائدك؟"
+   },
+   {
+    "start": 111.613,
+    "dur": 3.408,
+    "en": "Feathers. That is three.",
+    "ar": "ريش. هذا فرق ثالث."
+   },
+   {
+    "start": 115.371,
+    "dur": 3.456,
+    "en": "Which three questions found the three differences?",
+    "ar": "أيّ ثلاثة أسئلة وجدت الفروق الثلاثة؟"
+   },
+   {
+    "start": 124.768,
+    "dur": 6.552,
+    "en": "What is the frame made of? What is the cover? What is inside the cushions?",
+    "ar": "ممّ صُنع الهيكل؟ ما الغطاء؟ ماذا يوجد داخل الوسائد؟"
+   },
+   {
+    "start": 131.67,
+    "dur": 5.976,
+    "en": "Frame, cover, filling. Three questions describe any sofa.",
+    "ar": "الهيكل، الغطاء، الحشوة. ثلاثة أسئلة تصف أيّ كنبة."
+   },
+   {
+    "start": 137.996,
+    "dur": 3.432,
+    "en": "Now prepare a talk of about one minute.",
+    "ar": "الآن حضّر حديثاً من دقيقة تقريباً."
+   },
+   {
+    "start": 141.778,
+    "dur": 4.968,
+    "en": "Describe one piece in your home: frame, cover, cushions.",
+    "ar": "صِف قطعة في بيتك: الهيكل، الغطاء، الوسائد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 31.183,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 49.177,
+    "hold": 11.18,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 95.885,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 99.451,
+    "hold": 3.0,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 106.223,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

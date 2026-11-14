@@ -1,0 +1,201 @@
+{
+ "schema": "timeline/1",
+ "duration": 145.361,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.672,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.472,
+    "dur": 6.12,
+    "en": "This is Part 6, Four Writing Tasks. You will see how each one is built.",
+    "ar": "هذا الجزء السادس، مهامّ الكتابة الأربع. سترى كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 13.942,
+    "dur": 4.992,
+    "en": "Four writing tasks. I will show how each one is built.",
+    "ar": "أربع مهامّ كتابيّة. سأبيّن كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 19.284,
+    "dur": 3.768,
+    "en": "First: describe the materials of one piece.",
+    "ar": "أوّلاً: صِف موادّ قطعة واحدة."
+   },
+   {
+    "start": 23.402,
+    "dur": 4.176,
+    "en": "Fifty to seventy words, using there is and there are.",
+    "ar": "خمسون إلى سبعون كلمة، باستخدام there is وthere are."
+   },
+   {
+    "start": 27.928,
+    "dur": 4.392,
+    "en": "The plan is five lines. This is a blank.",
+    "ar": "الخطّة خمسة أسطر. هذه ـــ."
+   },
+   {
+    "start": 32.67,
+    "dur": 5.808,
+    "en": "There is blank. There are blank. The cover is blank.",
+    "ar": "يوجد ـــ. توجد ـــ. الغطاء ـــ."
+   },
+   {
+    "start": 38.828,
+    "dur": 2.808,
+    "en": "There isn't blank, but blank.",
+    "ar": "لا يوجد ـــ، لكن ـــ."
+   },
+   {
+    "start": 41.986,
+    "dur": 3.528,
+    "en": "Which two structures must that paragraph use?",
+    "ar": "أيّ تركيبين يجب أن تستخدمهما تلك الفقرة؟"
+   },
+   {
+    "start": 51.161,
+    "dur": 2.328,
+    "en": "There is, and there are.",
+    "ar": "There is، وthere are."
+   },
+   {
+    "start": 53.839,
+    "dur": 5.04,
+    "en": "Check: materials named? Fifty to seventy words?",
+    "ar": "تحقّق: هل سمّيت المواد؟ خمسون إلى سبعون كلمة؟"
+   },
+   {
+    "start": 59.229,
+    "dur": 2.544,
+    "en": "Capitals and full stops?",
+    "ar": "أحرف كبيرة ونقاط؟"
+   },
+   {
+    "start": 62.123,
+    "dur": 3.432,
+    "en": "Second: which is better for a sofa cover?",
+    "ar": "ثانياً: أيّهما أفضل لغطاء الكنبة؟"
+   },
+   {
+    "start": 65.905,
+    "dur": 3.96,
+    "en": "Leather or fabric. Say why.",
+    "ar": "الجلد أم القماش. قل لماذا."
+   },
+   {
+    "start": 70.215,
+    "dur": 2.352,
+    "en": "What must that one have?",
+    "ar": "ماذا يجب أن تحوي تلك؟"
+   },
+   {
+    "start": 76.979,
+    "dur": 3.048,
+    "en": "A clear opinion, and two reasons.",
+    "ar": "رأي واضح، وسببان."
+   },
+   {
+    "start": 80.377,
+    "dur": 3.072,
+    "en": "I think blank is better because blank.",
+    "ar": "أعتقد أنّ ـــ أفضل لأنّ ـــ."
+   },
+   {
+    "start": 83.799,
+    "dur": 4.848,
+    "en": "Use: cheaper, more expensive, easy to clean, many colours.",
+    "ar": "استخدم: أرخص، أغلى، سهل التنظيف، ألوان كثيرة."
+   },
+   {
+    "start": 88.997,
+    "dur": 3.0,
+    "en": "Third: an email to the supplier.",
+    "ar": "ثالثاً: رسالة إلى المورِّد."
+   },
+   {
+    "start": 92.347,
+    "dur": 6.144,
+    "en": "Dear blank. We need blank. Please send blank and blank.",
+    "ar": "عزيزي ـــ. نحتاج ـــ. أرسل ـــ و ـــ من فضلك."
+   },
+   {
+    "start": 98.841,
+    "dur": 5.832,
+    "en": "Do you have any blank? Please tell us blank. Thank you.",
+    "ar": "هل لديك أيّ ـــ؟ أخبرنا ـــ من فضلك. شكراً."
+   },
+   {
+    "start": 105.023,
+    "dur": 2.976,
+    "en": "What four things does that email need?",
+    "ar": "ما الأمور الأربعة التي تحتاجها تلك الرسالة؟"
+   },
+   {
+    "start": 113.234,
+    "dur": 5.64,
+    "en": "A greeting and close, a clear order, a question, and fifty to seventy words.",
+    "ar": "تحيّة وخاتمة، طلبيّة واضحة، سؤال، وخمسون إلى سبعون كلمة."
+   },
+   {
+    "start": 119.224,
+    "dur": 4.8,
+    "en": "Fourth: a reflection. Forty to sixty words.",
+    "ar": "رابعاً: تأمّل. أربعون إلى ستّون كلمة."
+   },
+   {
+    "start": 124.374,
+    "dur": 3.528,
+    "en": "The materials you like in your home, and why.",
+    "ar": "المواد التي تحبّها في بيتك، ولماذا."
+   },
+   {
+    "start": 128.252,
+    "dur": 2.352,
+    "en": "What does a reflection need?",
+    "ar": "ماذا يحتاج التأمّل؟"
+   },
+   {
+    "start": 135.251,
+    "dur": 2.904,
+    "en": "Materials named, and a reason.",
+    "ar": "موادّ مسمّاة، وسبب."
+   },
+   {
+    "start": 138.505,
+    "dur": 5.256,
+    "en": "Now write. The video stops here, and your pen starts.",
+    "ar": "الآن اكتب. الفيديو يتوقّف هنا، وقلمك يبدأ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 64.105,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

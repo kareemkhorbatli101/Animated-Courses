@@ -1,0 +1,360 @@
+{
+ "schema": "timeline/1",
+ "duration": 184.323,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 7.848,
+    "en": "This is Part 1, Workshop Tools and Terms. You will define seven tools and learn a safety note for each.",
+    "ar": "هذا الجزء الأوّل، أدوات الورشة ومصطلحاتها. ستعرّف سبع أدوات وتتعلّم ملاحظة سلامة لكلّ منها."
+   },
+   {
+    "start": 15.502,
+    "dur": 4.776,
+    "en": "Seven tools today. One meaning will be left over.",
+    "ar": "سبع أدوات اليوم. سيبقى معنى واحد زائداً."
+   },
+   {
+    "start": 20.628,
+    "dur": 4.68,
+    "en": "The first is done. A carpenter makes things from wood.",
+    "ar": "الأولى محلولة. النجّار يصنع أشياء من الخشب."
+   },
+   {
+    "start": 25.658,
+    "dur": 2.064,
+    "en": "What is a workbench?",
+    "ar": "ما هي طاولة العمل؟"
+   },
+   {
+    "start": 31.899,
+    "dur": 3.144,
+    "en": "A strong table where a carpenter works.",
+    "ar": "طاولة قويّة يعمل عليها النجّار."
+   },
+   {
+    "start": 35.393,
+    "dur": 1.872,
+    "en": "What is a chisel?",
+    "ar": "ما هو الإزميل؟"
+   },
+   {
+    "start": 41.265,
+    "dur": 3.144,
+    "en": "A sharp tool you hit to cut or shape wood.",
+    "ar": "أداة حادّة تضربها لقطع الخشب أو تشكيله."
+   },
+   {
+    "start": 44.759,
+    "dur": 1.872,
+    "en": "What is a clamp?",
+    "ar": "ما هو المِشبك؟"
+   },
+   {
+    "start": 50.631,
+    "dur": 4.128,
+    "en": "A tool that holds two pieces together while the glue dries.",
+    "ar": "أداة تمسك قطعتين معاً حتّى يجفّ الغراء."
+   },
+   {
+    "start": 55.109,
+    "dur": 1.872,
+    "en": "What is a plane?",
+    "ar": "ما هي الفارة؟"
+   },
+   {
+    "start": 60.981,
+    "dur": 3.96,
+    "en": "A tool with a flat blade to shave thin pieces off wood.",
+    "ar": "أداة ذات نصل مسطّح لحلق قطع رقيقة من الخشب."
+   },
+   {
+    "start": 65.291,
+    "dur": 1.872,
+    "en": "What is glue?",
+    "ar": "ما هو الغراء؟"
+   },
+   {
+    "start": 71.163,
+    "dur": 3.504,
+    "en": "A sticky liquid that joins two pieces of wood.",
+    "ar": "سائل لزج يصل قطعتين من الخشب."
+   },
+   {
+    "start": 75.017,
+    "dur": 1.968,
+    "en": "What is a vice?",
+    "ar": "ما هي المَلزمة؟"
+   },
+   {
+    "start": 80.985,
+    "dur": 3.144,
+    "en": "A tool that holds wood tightly on the bench.",
+    "ar": "أداة تمسك الخشب بإحكام على الطاولة."
+   },
+   {
+    "start": 84.479,
+    "dur": 1.872,
+    "en": "What is a blade?",
+    "ar": "ما هو النصل؟"
+   },
+   {
+    "start": 90.351,
+    "dur": 3.144,
+    "en": "The sharp cutting part of a saw or knife.",
+    "ar": "الجزء القاطع الحادّ في المنشار أو السكّين."
+   },
+   {
+    "start": 93.845,
+    "dur": 4.152,
+    "en": "The leftover meaning was a soft material inside a cushion.",
+    "ar": "المعنى الزائد كان مادّة ناعمة داخل الوسادة."
+   },
+   {
+    "start": 98.347,
+    "dur": 4.752,
+    "en": "That is foam, from Unit 2. It is not a tool.",
+    "ar": "ذاك الإسفنج، من الوحدة الثانية. ليس أداة."
+   },
+   {
+    "start": 103.449,
+    "dur": 4.488,
+    "en": "A clamp and a vice both hold. Hear the difference.",
+    "ar": "المِشبك والمَلزمة كلاهما يمسك. اسمع الفرق."
+   },
+   {
+    "start": 108.287,
+    "dur": 3.024,
+    "en": "A clamp holds two pieces to each other.",
+    "ar": "المِشبك يمسك قطعتين إحداهما بالأخرى."
+   },
+   {
+    "start": 111.661,
+    "dur": 2.904,
+    "en": "A vice holds one piece to the bench.",
+    "ar": "المَلزمة تمسك قطعة واحدة بالطاولة."
+   },
+   {
+    "start": 114.915,
+    "dur": 3.84,
+    "en": "Now a table. What does each tool do?",
+    "ar": "الآن جدول. ماذا تفعل كلّ أداة؟"
+   },
+   {
+    "start": 119.105,
+    "dur": 2.952,
+    "en": "And what is one safety note for it?",
+    "ar": "وما ملاحظة السلامة الخاصّة بها؟"
+   },
+   {
+    "start": 122.407,
+    "dur": 2.976,
+    "en": "The saw is done: it cuts wood.",
+    "ar": "المنشار محلول: يقطع الخشب."
+   },
+   {
+    "start": 125.733,
+    "dur": 2.856,
+    "en": "Keep your fingers away from the blade.",
+    "ar": "أبعد أصابعك عن النصل."
+   },
+   {
+    "start": 128.939,
+    "dur": 4.824,
+    "en": "The drill. What does it do, and what is the safety note?",
+    "ar": "المثقاب. ماذا يفعل، وما ملاحظة السلامة؟"
+   },
+   {
+    "start": 140.057,
+    "dur": 3.528,
+    "en": "It makes holes. Hold the wood still.",
+    "ar": "يصنع ثقوباً. أمسك الخشب ثابتاً."
+   },
+   {
+    "start": 143.935,
+    "dur": 4.872,
+    "en": "The hammer. What does it do, and what is the safety note?",
+    "ar": "المطرقة. ماذا تفعل، وما ملاحظة السلامة؟"
+   },
+   {
+    "start": 155.16,
+    "dur": 3.672,
+    "en": "It hits nails. Watch your fingers.",
+    "ar": "تدقّ المسامير. انتبه لأصابعك."
+   },
+   {
+    "start": 159.182,
+    "dur": 4.896,
+    "en": "The sander. What does it do, and what is the safety note?",
+    "ar": "آلة الصنفرة. ماذا تفعل، وما ملاحظة السلامة؟"
+   },
+   {
+    "start": 170.431,
+    "dur": 3.96,
+    "en": "It makes wood smooth. Wear a dust mask.",
+    "ar": "تجعل الخشب ناعماً. ارتدِ كمّامة غبار."
+   },
+   {
+    "start": 174.741,
+    "dur": 3.648,
+    "en": "Every tool does one job and carries one danger.",
+    "ar": "كلّ أداة تؤدّي عملاً واحداً وتحمل خطراً واحداً."
+   },
+   {
+    "start": 178.739,
+    "dur": 3.984,
+    "en": "Learn both together, and you never learn them the hard way.",
+    "ar": "تعلّمهما معاً، فلا تتعلّمهما بالطريقة الصعبة أبداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 24.258,
+    "hold": 7.59,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 33.993,
+    "hold": 7.22,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 43.346,
+    "hold": 7.23,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 50.631,
+    "hold": 3.04,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "plane",
+    "label": "plane",
+    "ar": "الفارة",
+    "at": 53.721,
+    "hold": 7.21,
+    "img": "assets/vocab/plane.png",
+    "sha": "69fb02ca6613f47a"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 60.981,
+    "hold": 2.84,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 63.866,
+    "hold": 7.25,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "vice",
+    "label": "vice",
+    "ar": "المَلزمة",
+    "at": 73.667,
+    "hold": 7.27,
+    "img": "assets/vocab/vice.png",
+    "sha": "45065cfa15887d1c"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 83.104,
+    "hold": 7.2,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 101.749,
+    "hold": 3.0,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 127.276,
+    "hold": 12.73,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "hammer",
+    "label": "hammer",
+    "ar": "المطرقة",
+    "at": 142.26,
+    "hold": 12.85,
+    "img": "assets/vocab/hammer.png",
+    "sha": "908f838f252db90e"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 157.519,
+    "hold": 12.86,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "dust_mask",
+    "label": "dust mask",
+    "ar": "كمّامة الغبار",
+    "at": 170.431,
+    "hold": 3.28,
+    "img": "assets/vocab/dust_mask.png",
+    "sha": "3af1e1d2b7ab8f84"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

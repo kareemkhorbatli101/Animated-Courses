@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 126.989,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.36,
+    "en": "This is Part 2, Practice. You will write four safety rules and order four steps.",
+    "ar": "هذا الجزء الثاني، التدريب. ستكتب أربع قواعد سلامة وترتّب أربع خطوات."
+   },
+   {
+    "start": 14.014,
+    "dur": 4.176,
+    "en": "Four safety rules. Positive or negative?",
+    "ar": "أربع قواعد سلامة. مثبتة أم منفيّة؟"
+   },
+   {
+    "start": 18.54,
+    "dur": 3.792,
+    "en": "The first is done: wear your goggles near the machine.",
+    "ar": "الأولى محلولة: ارتدِ نظّاراتك قرب الآلة."
+   },
+   {
+    "start": 22.682,
+    "dur": 2.688,
+    "en": "Not touch, the sharp blade.",
+    "ar": "عدم لمس، النصل الحادّ."
+   },
+   {
+    "start": 29.958,
+    "dur": 2.328,
+    "en": "Don't touch the sharp blade.",
+    "ar": "لا تلمس النصل الحادّ."
+   },
+   {
+    "start": 32.636,
+    "dur": 2.568,
+    "en": "Keep, the workshop tidy.",
+    "ar": "إبقاء، الورشة مرتّبة."
+   },
+   {
+    "start": 39.616,
+    "dur": 2.256,
+    "en": "Keep the workshop tidy.",
+    "ar": "أبقِ الورشة مرتّبة."
+   },
+   {
+    "start": 42.222,
+    "dur": 2.472,
+    "en": "Not use, a broken tool.",
+    "ar": "عدم استخدام، أداة معطّلة."
+   },
+   {
+    "start": 49.047,
+    "dur": 2.208,
+    "en": "Don't use a broken tool.",
+    "ar": "لا تستخدم أداة معطّلة."
+   },
+   {
+    "start": 51.605,
+    "dur": 2.88,
+    "en": "Ask, before you use a machine.",
+    "ar": "السؤال، قبل أن تستخدم آلة."
+   },
+   {
+    "start": 59.25,
+    "dur": 2.52,
+    "en": "Ask before you use a machine.",
+    "ar": "اسأل قبل أن تستخدم آلة."
+   },
+   {
+    "start": 62.12,
+    "dur": 4.224,
+    "en": "Two rules say do. Two rules say don't.",
+    "ar": "قاعدتان تقولان افعل. وقاعدتان تقولان لا تفعل."
+   },
+   {
+    "start": 66.694,
+    "dur": 3.168,
+    "en": "Neither one has a subject in front of it.",
+    "ar": "ولا واحدة منهما فيها فاعل في المقدّمة."
+   },
+   {
+    "start": 70.212,
+    "dur": 4.728,
+    "en": "Now the order. A carpenter joins two pieces of wood.",
+    "ar": "الآن الترتيب. نجّار يصل قطعتين من الخشب."
+   },
+   {
+    "start": 75.29,
+    "dur": 4.056,
+    "en": "Step one is done: first, measure and cut the wood.",
+    "ar": "الخطوة الأولى محلولة: أوّلاً، قِس الخشب واقطعه."
+   },
+   {
+    "start": 79.696,
+    "dur": 2.184,
+    "en": "Which step is second?",
+    "ar": "ما الخطوة الثانية؟"
+   },
+   {
+    "start": 86.115,
+    "dur": 3.048,
+    "en": "Then sand the edges to make them smooth.",
+    "ar": "ثمّ اصنفر الحواف لتصبح ناعمة."
+   },
+   {
+    "start": 89.513,
+    "dur": 2.016,
+    "en": "Which step is third?",
+    "ar": "ما الخطوة الثالثة؟"
+   },
+   {
+    "start": 95.706,
+    "dur": 2.928,
+    "en": "Next, put glue on the two pieces.",
+    "ar": "بعد ذلك، ضع الغراء على القطعتين."
+   },
+   {
+    "start": 98.984,
+    "dur": 2.136,
+    "en": "Which step is fourth?",
+    "ar": "ما الخطوة الرابعة؟"
+   },
+   {
+    "start": 105.355,
+    "dur": 4.608,
+    "en": "Finally, hold the pieces with a clamp until the glue dries.",
+    "ar": "أخيراً، أمسك القطعتين بمِشبك حتّى يجفّ الغراء."
+   },
+   {
+    "start": 110.313,
+    "dur": 5.784,
+    "en": "Measure and cut. Sand. Glue. Clamp.",
+    "ar": "قِس واقطع. اصنفر. الصق. اشبك."
+   },
+   {
+    "start": 116.447,
+    "dur": 3.624,
+    "en": "The sequencer tells you the step is not the first.",
+    "ar": "كلمة الترتيب تخبرك أنّ الخطوة ليست الأولى."
+   },
+   {
+    "start": 120.421,
+    "dur": 4.968,
+    "en": "Sand before you glue. Glue sticks badly to a rough edge.",
+    "ar": "اصنفر قبل أن تلصق. الغراء يلتصق بصعوبة على حافّة خشنة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 18.24,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 22.207,
+    "hold": 10.75,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

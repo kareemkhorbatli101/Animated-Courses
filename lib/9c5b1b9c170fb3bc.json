@@ -1,0 +1,225 @@
+{
+ "schema": "timeline/1",
+ "duration": 112.745,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.672,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.472,
+    "dur": 7.296,
+    "en": "This is Part 4, Showroom Role Play. You will take the customer's part, then refuse politely.",
+    "ar": "هذا الجزء الرابع، لعب أدوار في صالة العرض. ستأخذ دور الزبون، ثمّ ترفض بلباقة."
+   },
+   {
+    "start": 15.118,
+    "dur": 4.944,
+    "en": "A customer is looking at the oak sofa. Listen first.",
+    "ar": "زبون ينظر إلى كنبة البلّوط. استمع أوّلاً."
+   },
+   {
+    "start": 20.412,
+    "dur": 2.28,
+    "en": "What is this sofa made of?",
+    "ar": "ممّ صُنعت هذه الكنبة؟"
+   },
+   {
+    "start": 23.042,
+    "dur": 3.696,
+    "en": "The frame is oak, and the cover is soft velvet.",
+    "ar": "الهيكل من البلّوط، والغطاء من المخمل الناعم."
+   },
+   {
+    "start": 27.088,
+    "dur": 2.328,
+    "en": "Is there foam in the cushions?",
+    "ar": "هل يوجد إسفنج في الوسائد؟"
+   },
+   {
+    "start": 29.766,
+    "dur": 3.096,
+    "en": "Yes, there is a lot of soft foam.",
+    "ar": "نعم، يوجد الكثير من الإسفنج الناعم."
+   },
+   {
+    "start": 33.212,
+    "dur": 1.872,
+    "en": "Is it strong?",
+    "ar": "هل هي قويّة؟"
+   },
+   {
+    "start": 35.434,
+    "dur": 3.48,
+    "en": "Very strong, because oak is a hardwood.",
+    "ar": "قويّة جداً، لأنّ البلّوط خشب صلب."
+   },
+   {
+    "start": 39.264,
+    "dur": 2.784,
+    "en": "Now you take the customer's part.",
+    "ar": "الآن خذ أنت دور الزبون."
+   },
+   {
+    "start": 42.398,
+    "dur": 2.88,
+    "en": "Ask me what the sofa is made of.",
+    "ar": "اسألني ممّ صُنعت الكنبة."
+   },
+   {
+    "start": 50.16,
+    "dur": 2.472,
+    "en": "What is this sofa made of?",
+    "ar": "ممّ صُنعت هذه الكنبة؟"
+   },
+   {
+    "start": 52.982,
+    "dur": 2.496,
+    "en": "Ask me about the cushions.",
+    "ar": "اسألني عن الوسائد."
+   },
+   {
+    "start": 60.008,
+    "dur": 2.448,
+    "en": "Is there foam in the cushions?",
+    "ar": "هل يوجد إسفنج في الوسائد؟"
+   },
+   {
+    "start": 62.806,
+    "dur": 2.568,
+    "en": "Ask me whether it is strong.",
+    "ar": "اسألني إن كانت قويّة."
+   },
+   {
+    "start": 70.021,
+    "dur": 1.872,
+    "en": "Is it strong?",
+    "ar": "هل هي قويّة؟"
+   },
+   {
+    "start": 72.243,
+    "dur": 3.504,
+    "en": "Three questions, and you know the whole sofa.",
+    "ar": "ثلاثة أسئلة، وتعرف الكنبة كلّها."
+   },
+   {
+    "start": 76.097,
+    "dur": 3.72,
+    "en": "Now a harder one. I want leather.",
+    "ar": "الآن واحدة أصعب. أنا أريد الجلد."
+   },
+   {
+    "start": 80.167,
+    "dur": 2.76,
+    "en": "But there isn't much leather this month.",
+    "ar": "لكن لا يوجد الكثير من الجلد هذا الشهر."
+   },
+   {
+    "start": 83.277,
+    "dur": 4.08,
+    "en": "How do I say no politely, and offer velvet instead?",
+    "ar": "كيف أرفض بلباقة، وأعرض المخمل بدلاً منه؟"
+   },
+   {
+    "start": 93.357,
+    "dur": 5.64,
+    "en": "I'm sorry, there isn't much leather now. But we have beautiful velvet.",
+    "ar": "آسفة، لا يوجد الكثير من الجلد الآن. لكن لدينا مخمل جميل."
+   },
+   {
+    "start": 99.347,
+    "dur": 6.24,
+    "en": "Say sorry. Say what you do have. Then offer to show it.",
+    "ar": "اعتذر. قل ما لديك فعلاً. ثمّ اعرض أن تريه."
+   },
+   {
+    "start": 105.937,
+    "dur": 5.208,
+    "en": "Never say only no. A no with an offer keeps the customer.",
+    "ar": "لا تقل «لا» وحدها أبداً. «لا» مع عرض تُبقي الزبون."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 23.392,
+    "hold": 2.5,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 25.942,
+    "hold": 2.66,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 35.534,
+    "hold": 3.0,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 60.008,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 76.634,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 83.639,
+    "hold": 9.67,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 93.357,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,249 @@
+{
+ "schema": "timeline/1",
+ "duration": 147.917,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.672,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.472,
+    "dur": 6.72,
+    "en": "This is Part 7, Checking Stock. You will hear a manager and a foreman check the store.",
+    "ar": "هذا الجزء السابع، تفقّد المخزون. ستسمع مديرة ورئيس عمّال يتفقّدان المستودع."
+   },
+   {
+    "start": 14.542,
+    "dur": 4.464,
+    "en": "This part is for managers. It is optional.",
+    "ar": "هذا الجزء للمديرين. وهو اختياريّ."
+   },
+   {
+    "start": 19.356,
+    "dur": 4.752,
+    "en": "Four things a manager says. What is each one for?",
+    "ar": "أربعة أشياء يقولها المدير. ما غرض كلّ واحد؟"
+   },
+   {
+    "start": 24.458,
+    "dur": 2.592,
+    "en": "Let's check what is in the store.",
+    "ar": "لنتفقّد ما في المستودع."
+   },
+   {
+    "start": 31.991,
+    "dur": 1.92,
+    "en": "Checking the stock.",
+    "ar": "تفقّد المخزون."
+   },
+   {
+    "start": 34.261,
+    "dur": 2.256,
+    "en": "We are low on clamps.",
+    "ar": "المشابك عندنا قليلة."
+   },
+   {
+    "start": 40.753,
+    "dur": 2.592,
+    "en": "Saying you need more of something.",
+    "ar": "القول إنّك تحتاج المزيد من شيء."
+   },
+   {
+    "start": 43.695,
+    "dur": 2.736,
+    "en": "Please order twenty oak boards.",
+    "ar": "اطلب عشرين لوح بلّوط من فضلك."
+   },
+   {
+    "start": 51.254,
+    "dur": 2.232,
+    "en": "Giving an order to buy.",
+    "ar": "إعطاء أمر بالشراء."
+   },
+   {
+    "start": 53.836,
+    "dur": 2.016,
+    "en": "When can you deliver?",
+    "ar": "متى تستطيع التوصيل؟"
+   },
+   {
+    "start": 60.087,
+    "dur": 2.616,
+    "en": "Asking about the delivery day.",
+    "ar": "السؤال عن يوم التوصيل."
+   },
+   {
+    "start": 63.053,
+    "dur": 3.912,
+    "en": "One purpose was not needed: talking about the colour.",
+    "ar": "بقي غرض لم نحتجه: الحديث عن اللون."
+   },
+   {
+    "start": 67.315,
+    "dur": 2.928,
+    "en": "Now listen to a real stock check.",
+    "ar": "الآن استمع إلى جرد حقيقيّ."
+   },
+   {
+    "start": 70.593,
+    "dur": 3.576,
+    "en": "Sami, let's check the store before we order.",
+    "ar": "سامي، لنتفقّد المستودع قبل أن نطلب."
+   },
+   {
+    "start": 74.519,
+    "dur": 4.872,
+    "en": "OK. There is a lot of pine, but there isn't much oak.",
+    "ar": "حسناً. يوجد الكثير من الصنوبر، لكن لا يوجد الكثير من البلّوط."
+   },
+   {
+    "start": 79.741,
+    "dur": 2.592,
+    "en": "How many oak boards do we have?",
+    "ar": "كم لوح بلّوط لدينا؟"
+   },
+   {
+    "start": 82.684,
+    "dur": 4.344,
+    "en": "Only five. We need twenty for this month.",
+    "ar": "خمسة فقط. نحتاج عشرين لهذا الشهر."
+   },
+   {
+    "start": 87.378,
+    "dur": 3.192,
+    "en": "Right. And the foam?",
+    "ar": "حسناً. والإسفنج؟"
+   },
+   {
+    "start": 90.92,
+    "dur": 3.624,
+    "en": "There is enough foam, but we are low on clamps.",
+    "ar": "يوجد إسفنج كافٍ، لكنّ المشابك قليلة."
+   },
+   {
+    "start": 94.894,
+    "dur": 5.424,
+    "en": "OK. I will order fifteen oak boards and more clamps today.",
+    "ar": "حسناً. سأطلب خمسة عشر لوح بلّوط ومشابك أكثر اليوم."
+   },
+   {
+    "start": 100.668,
+    "dur": 3.432,
+    "en": "The first is done: we are checking the stock.",
+    "ar": "الأوّل محلول: نحن نتفقّد المخزون."
+   },
+   {
+    "start": 104.45,
+    "dur": 2.016,
+    "en": "Is there much oak?",
+    "ar": "هل يوجد الكثير من البلّوط؟"
+   },
+   {
+    "start": 110.524,
+    "dur": 3.648,
+    "en": "No. Only five boards.",
+    "ar": "لا. خمسة ألواح فقط."
+   },
+   {
+    "start": 114.522,
+    "dur": 3.072,
+    "en": "How many oak boards do they need this month?",
+    "ar": "كم لوح بلّوط يحتاجون هذا الشهر؟"
+   },
+   {
+    "start": 123.183,
+    "dur": 1.872,
+    "en": "Twenty.",
+    "ar": "عشرين."
+   },
+   {
+    "start": 125.405,
+    "dur": 2.496,
+    "en": "What will Nour order today?",
+    "ar": "ماذا ستطلب نور اليوم؟"
+   },
+   {
+    "start": 132.489,
+    "dur": 3.24,
+    "en": "Fifteen oak boards, and more clamps.",
+    "ar": "خمسة عشر لوح بلّوط، ومشابك أكثر."
+   },
+   {
+    "start": 136.079,
+    "dur": 5.352,
+    "en": "Where did fifteen come from? Twenty needed, five in the store.",
+    "ar": "من أين جاء الرقم خمسة عشر؟ عشرون مطلوبة، وخمسة في المستودع."
+   },
+   {
+    "start": 141.781,
+    "dur": 4.536,
+    "en": "A stock check is subtraction, said in four short sentences.",
+    "ar": "جرد المخزون عمليّة طرح، تُقال في أربع جمل قصيرة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 42.895,
+    "hold": 8.31,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 87.365,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 103.3,
+    "hold": 7.17,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 113.21,
+    "hold": 9.92,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 132.489,
+    "hold": 3.0,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

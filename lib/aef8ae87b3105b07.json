@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 109.173,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.6,
+    "en": "This is Part 3, A Day in the Workshop. You will hear a morning briefing and meet Not Given.",
+    "ar": "هذا الجزء الثالث، يوم في الورشة. ستسمع إحاطة صباحيّة وتتعرّف على «غير مذكور»."
+   },
+   {
+    "start": 14.254,
+    "dur": 3.624,
+    "en": "What does a foreman tell the team at the start of the day?",
+    "ar": "ماذا يقول رئيس العمّال للفريق في بداية اليوم؟"
+   },
+   {
+    "start": 18.228,
+    "dur": 4.896,
+    "en": "Good morning, everyone. Today we are making a new table.",
+    "ar": "صباح الخير جميعاً. اليوم نصنع طاولة جديدة."
+   },
+   {
+    "start": 23.474,
+    "dur": 2.472,
+    "en": "Khaled, what are you doing?",
+    "ar": "خالد، ماذا تفعل؟"
+   },
+   {
+    "start": 26.296,
+    "dur": 2.136,
+    "en": "I am cutting the legs.",
+    "ar": "أنا أقطع الأرجل."
+   },
+   {
+    "start": 28.782,
+    "dur": 3.888,
+    "en": "Good. And Rana is sanding the top.",
+    "ar": "جيّد. ورنا تصنفر السطح."
+   },
+   {
+    "start": 33.02,
+    "dur": 4.512,
+    "en": "Please, everyone: first, wear your goggles near the saw.",
+    "ar": "من فضلكم جميعاً: أوّلاً، ارتدوا نظّاراتكم قرب المنشار."
+   },
+   {
+    "start": 37.882,
+    "dur": 4.008,
+    "en": "The machine is loud, so wear your ear protection too.",
+    "ar": "الآلة صاخبة، فارتدوا واقي الأذنين أيضاً."
+   },
+   {
+    "start": 42.24,
+    "dur": 4.272,
+    "en": "And keep your area tidy. Safety first!",
+    "ar": "وأبقوا منطقتكم مرتّبة. السلامة أوّلاً!"
+   },
+   {
+    "start": 46.862,
+    "dur": 4.848,
+    "en": "Three sentences. True, False, or Not Given?",
+    "ar": "ثلاث جمل. صحيح، خطأ، أم غير مذكور؟"
+   },
+   {
+    "start": 52.06,
+    "dur": 2.496,
+    "en": "Khaled is sanding the top.",
+    "ar": "خالد يصنفر السطح."
+   },
+   {
+    "start": 59.086,
+    "dur": 6.048,
+    "en": "False. He is cutting the legs. Rana is sanding the top.",
+    "ar": "خطأ. هو يقطع الأرجل. رنا تصنفر السطح."
+   },
+   {
+    "start": 65.484,
+    "dur": 3.168,
+    "en": "Workers must wear goggles near the saw.",
+    "ar": "على العمّال ارتداء النظّارات قرب المنشار."
+   },
+   {
+    "start": 73.946,
+    "dur": 4.008,
+    "en": "True. That was the first rule I gave.",
+    "ar": "صحيح. تلك كانت القاعدة الأولى التي أعطيتها."
+   },
+   {
+    "start": 78.304,
+    "dur": 3.168,
+    "en": "Rana has worked here for five years.",
+    "ar": "رنا تعمل هنا منذ خمس سنوات."
+   },
+   {
+    "start": 86.589,
+    "dur": 5.616,
+    "en": "Not Given. I named Rana, but I said nothing about five years.",
+    "ar": "غير مذكور. ذكرتُ رنا، لكنّي لم أقل شيئاً عن خمس سنوات."
+   },
+   {
+    "start": 92.555,
+    "dur": 3.24,
+    "en": "So Not Given is not the same as False.",
+    "ar": "إذاً «غير مذكور» ليست مثل «خطأ»."
+   },
+   {
+    "start": 96.145,
+    "dur": 4.608,
+    "en": "Exactly. False means the track said something else.",
+    "ar": "بالضبط. «خطأ» تعني أنّ التسجيل قال شيئاً آخر."
+   },
+   {
+    "start": 101.103,
+    "dur": 3.096,
+    "en": "Not Given means the track did not say.",
+    "ar": "و«غير مذكور» تعني أنّ التسجيل لم يقل."
+   },
+   {
+    "start": 104.549,
+    "dur": 3.024,
+    "en": "Hearing a name is not hearing an answer.",
+    "ar": "سماع اسم ليس سماع إجابة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 33.508,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 64.659,
+    "hold": 9.24,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

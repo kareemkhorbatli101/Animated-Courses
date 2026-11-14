@@ -1,0 +1,225 @@
+{
+ "schema": "timeline/1",
+ "duration": 112.705,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.672,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.472,
+    "dur": 7.248,
+    "en": "This is Part 3, Ordering from the Supplier. You will hear a manager order this month's materials.",
+    "ar": "هذا الجزء الثالث، الطلب من المورِّد. ستسمع مديرة تطلب موادّ هذا الشهر."
+   },
+   {
+    "start": 15.07,
+    "dur": 2.952,
+    "en": "What does a manager ask a supplier?",
+    "ar": "ماذا يسأل المدير المورِّد؟"
+   },
+   {
+    "start": 18.372,
+    "dur": 4.848,
+    "en": "This is Abu Fares. He brings our wood and our foam.",
+    "ar": "هذا أبو فارس. يجلب لنا خشبنا وإسفنجنا."
+   },
+   {
+    "start": 23.57,
+    "dur": 3.312,
+    "en": "Hello, this is Nour from Cham Furniture.",
+    "ar": "مرحباً، أنا نور من أثاث الشام."
+   },
+   {
+    "start": 27.232,
+    "dur": 2.376,
+    "en": "Do you have any oak boards?",
+    "ar": "هل لديك أيّ ألواح بلّوط؟"
+   },
+   {
+    "start": 29.958,
+    "dur": 2.976,
+    "en": "Yes, we have some. How many do you need?",
+    "ar": "نعم، لدينا بعضها. كم تحتاجين؟"
+   },
+   {
+    "start": 33.284,
+    "dur": 4.68,
+    "en": "We need twenty boards. Do you have any walnut too?",
+    "ar": "نحتاج عشرين لوحاً. هل لديك أيّ جوز أيضاً؟"
+   },
+   {
+    "start": 38.314,
+    "dur": 3.384,
+    "en": "I'm sorry, there isn't any walnut this week.",
+    "ar": "آسف، لا يوجد أيّ جوز هذا الأسبوع."
+   },
+   {
+    "start": 42.048,
+    "dur": 4.392,
+    "en": "That's OK. Please send twenty oak boards.",
+    "ar": "لا بأس. أرسل عشرين لوح بلّوط من فضلك."
+   },
+   {
+    "start": 46.79,
+    "dur": 2.16,
+    "en": "Do you have soft foam?",
+    "ar": "هل لديك إسفنج ناعم؟"
+   },
+   {
+    "start": 49.3,
+    "dur": 1.872,
+    "en": "Yes, we have a lot.",
+    "ar": "نعم، لدينا الكثير."
+   },
+   {
+    "start": 51.522,
+    "dur": 2.472,
+    "en": "Please add ten pieces.",
+    "ar": "أضف عشر قطع من فضلك."
+   },
+   {
+    "start": 54.344,
+    "dur": 3.144,
+    "en": "No problem. We can deliver on Sunday.",
+    "ar": "لا مشكلة. نستطيع التوصيل يوم الأحد."
+   },
+   {
+    "start": 57.838,
+    "dur": 3.048,
+    "en": "Now match each item with its detail.",
+    "ar": "الآن طابِق كلّ صنف مع تفصيله."
+   },
+   {
+    "start": 61.236,
+    "dur": 3.576,
+    "en": "The first is done: he can deliver on Sunday.",
+    "ar": "الأوّل محلول: يستطيع التوصيل يوم الأحد."
+   },
+   {
+    "start": 65.162,
+    "dur": 3.336,
+    "en": "Oak boards. How many?",
+    "ar": "ألواح البلّوط. كم عددها؟"
+   },
+   {
+    "start": 72.733,
+    "dur": 1.944,
+    "en": "Twenty boards.",
+    "ar": "عشرون لوحاً."
+   },
+   {
+    "start": 75.027,
+    "dur": 3.264,
+    "en": "Walnut. How much?",
+    "ar": "الجوز. كم كمّيّته؟"
+   },
+   {
+    "start": 82.292,
+    "dur": 1.968,
+    "en": "None this week.",
+    "ar": "لا شيء هذا الأسبوع."
+   },
+   {
+    "start": 84.61,
+    "dur": 3.192,
+    "en": "Foam. How much?",
+    "ar": "الإسفنج. كم كمّيّته؟"
+   },
+   {
+    "start": 91.802,
+    "dur": 1.968,
+    "en": "Ten pieces.",
+    "ar": "عشر قطع."
+   },
+   {
+    "start": 94.12,
+    "dur": 3.288,
+    "en": "Delivery day. When?",
+    "ar": "يوم التوصيل. متى؟"
+   },
+   {
+    "start": 101.525,
+    "dur": 1.872,
+    "en": "On Sunday.",
+    "ar": "يوم الأحد."
+   },
+   {
+    "start": 103.747,
+    "dur": 3.432,
+    "en": "One detail was not needed: in the blue box.",
+    "ar": "بقي تفصيل لم نحتجه: في الصندوق الأزرق."
+   },
+   {
+    "start": 107.529,
+    "dur": 3.576,
+    "en": "That belongs in the workshop, not in an order.",
+    "ar": "ذاك مكانه الورشة، لا طلبيّة الشراء."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 19.96,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 34.372,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 63.362,
+    "hold": 9.32,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 73.227,
+    "hold": 9.01,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 82.81,
+    "hold": 8.94,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

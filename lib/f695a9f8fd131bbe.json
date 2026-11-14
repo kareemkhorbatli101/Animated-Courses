@@ -1,0 +1,402 @@
+{
+ "schema": "timeline/1",
+ "duration": 197.874,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 7.008,
+    "en": "This is Part 10, Spiral Review. You will answer fifteen questions in one fast round.",
+    "ar": "هذا الجزء العاشر، المراجعة التراكميّة. ستجيب عن خمسة عشر سؤالاً في جولة سريعة."
+   },
+   {
+    "start": 14.662,
+    "dur": 5.376,
+    "en": "Fast round, Khaled. Five sentences from the word bank.",
+    "ar": "جولة سريعة يا خالد. خمس جمل من بنك الكلمات."
+   },
+   {
+    "start": 20.388,
+    "dur": 4.008,
+    "en": "The first is done: a strong table is a workbench.",
+    "ar": "الأولى محلولة: الطاولة القويّة هي طاولة العمل."
+   },
+   {
+    "start": 24.746,
+    "dur": 2.592,
+    "en": "You wear what to protect your eyes?",
+    "ar": "ترتدي ماذا لحماية عينيك؟"
+   },
+   {
+    "start": 32.397,
+    "dur": 1.872,
+    "en": "Goggles.",
+    "ar": "نظّارات واقية."
+   },
+   {
+    "start": 34.619,
+    "dur": 3.936,
+    "en": "A tool that holds pieces while the glue dries is a what?",
+    "ar": "الأداة التي تمسك القطع حتّى يجفّ الغراء هي ماذا؟"
+   },
+   {
+    "start": 44.849,
+    "dur": 1.872,
+    "en": "A clamp.",
+    "ar": "مِشبك."
+   },
+   {
+    "start": 47.071,
+    "dur": 2.112,
+    "en": "Blank touch the blade.",
+    "ar": "ـــ تلمس النصل."
+   },
+   {
+    "start": 53.477,
+    "dur": 3.12,
+    "en": "Don't. Don't touch the blade.",
+    "ar": "Don't. لا تلمس النصل."
+   },
+   {
+    "start": 56.947,
+    "dur": 3.48,
+    "en": "First cut, blank sand, finally glue.",
+    "ar": "أوّلاً اقطع، ـــ اصنفر، أخيراً الصق."
+   },
+   {
+    "start": 65.545,
+    "dur": 4.224,
+    "en": "Then. First cut, then sand, finally glue.",
+    "ar": "Then. أوّلاً اقطع، ثمّ اصنفر، أخيراً الصق."
+   },
+   {
+    "start": 70.119,
+    "dur": 4.704,
+    "en": "From Unit 2. A clear liquid that protects wood is what?",
+    "ar": "من الوحدة الثانية. سائل شفّاف يحمي الخشب هو ماذا؟"
+   },
+   {
+    "start": 81.058,
+    "dur": 1.872,
+    "en": "Varnish.",
+    "ar": "الورنيش."
+   },
+   {
+    "start": 83.28,
+    "dur": 5.04,
+    "en": "Now the ten tools. I give the meaning, you give the word.",
+    "ar": "الآن الأدوات العشر. أعطي المعنى، وتعطي أنت الكلمة."
+   },
+   {
+    "start": 88.67,
+    "dur": 3.144,
+    "en": "A strong table where a carpenter works.",
+    "ar": "طاولة قويّة يعمل عليها النجّار."
+   },
+   {
+    "start": 97.108,
+    "dur": 1.872,
+    "en": "A workbench.",
+    "ar": "طاولة عمل."
+   },
+   {
+    "start": 99.33,
+    "dur": 2.664,
+    "en": "A sharp tool you hit to shape wood.",
+    "ar": "أداة حادّة تضربها لتشكيل الخشب."
+   },
+   {
+    "start": 107.053,
+    "dur": 1.872,
+    "en": "A chisel.",
+    "ar": "إزميل."
+   },
+   {
+    "start": 109.275,
+    "dur": 3.768,
+    "en": "A tool that holds two pieces while the glue dries.",
+    "ar": "أداة تمسك قطعتين حتّى يجفّ الغراء."
+   },
+   {
+    "start": 118.984,
+    "dur": 1.872,
+    "en": "A clamp.",
+    "ar": "مِشبك."
+   },
+   {
+    "start": 121.206,
+    "dur": 3.6,
+    "en": "A tool with a flat blade that shaves wood smooth.",
+    "ar": "أداة ذات نصل مسطّح تحلق الخشب ليصبح ناعماً."
+   },
+   {
+    "start": 130.689,
+    "dur": 1.872,
+    "en": "A plane.",
+    "ar": "فارة."
+   },
+   {
+    "start": 132.911,
+    "dur": 2.616,
+    "en": "The sharp cutting part of a saw.",
+    "ar": "الجزء القاطع الحادّ في المنشار."
+   },
+   {
+    "start": 140.409,
+    "dur": 1.872,
+    "en": "The blade.",
+    "ar": "النصل."
+   },
+   {
+    "start": 142.631,
+    "dur": 2.28,
+    "en": "The tool that makes a hole.",
+    "ar": "الأداة التي تصنع ثقباً."
+   },
+   {
+    "start": 149.499,
+    "dur": 1.872,
+    "en": "A drill.",
+    "ar": "مثقاب."
+   },
+   {
+    "start": 151.721,
+    "dur": 2.736,
+    "en": "The machine that makes wood smooth.",
+    "ar": "الآلة التي تجعل الخشب ناعماً."
+   },
+   {
+    "start": 159.516,
+    "dur": 1.872,
+    "en": "A sander.",
+    "ar": "آلة صنفرة."
+   },
+   {
+    "start": 161.738,
+    "dur": 2.4,
+    "en": "What you wear over your eyes.",
+    "ar": "ما ترتديه فوق عينيك."
+   },
+   {
+    "start": 168.844,
+    "dur": 1.872,
+    "en": "Goggles.",
+    "ar": "نظّارات واقية."
+   },
+   {
+    "start": 171.066,
+    "dur": 3.504,
+    "en": "A sticky liquid that joins two pieces of wood.",
+    "ar": "سائل لزج يصل قطعتين من الخشب."
+   },
+   {
+    "start": 180.276,
+    "dur": 1.872,
+    "en": "Glue.",
+    "ar": "غراء."
+   },
+   {
+    "start": 182.498,
+    "dur": 2.832,
+    "en": "The tool you use to turn screws.",
+    "ar": "الأداة التي تستخدمها لإدارة البراغي."
+   },
+   {
+    "start": 190.212,
+    "dur": 1.92,
+    "en": "A screwdriver.",
+    "ar": "مفكّ."
+   },
+   {
+    "start": 192.482,
+    "dur": 3.792,
+    "en": "Ten out of ten. That is the unit.",
+    "ar": "عشرة من عشرة. تلك هي الوحدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 20.851,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 32.397,
+    "hold": 2.08,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 34.531,
+    "hold": 10.27,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 44.849,
+    "hold": 1.11,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 46.009,
+    "hold": 10.47,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 57.272,
+    "hold": 12.3,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 97.108,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 107.053,
+    "hold": 2.31,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 109.413,
+    "hold": 9.52,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 118.984,
+    "hold": 1.43,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 120.469,
+    "hold": 10.17,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "plane",
+    "label": "plane",
+    "ar": "الفارة",
+    "at": 130.689,
+    "hold": 3.0,
+    "img": "assets/vocab/plane.png",
+    "sha": "69fb02ca6613f47a"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 140.409,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 149.499,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 159.516,
+    "hold": 3.0,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 168.844,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 180.276,
+    "hold": 3.0,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "screwdriver",
+    "label": "screwdriver",
+    "ar": "المفكّ",
+    "at": 190.212,
+    "hold": 3.0,
+    "img": "assets/vocab/screwdriver.png",
+    "sha": "a3473d6dd78e321b"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

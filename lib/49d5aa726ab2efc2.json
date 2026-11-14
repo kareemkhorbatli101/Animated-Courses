@@ -1,0 +1,321 @@
+{
+ "schema": "timeline/1",
+ "duration": 188.506,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 6.72,
+    "en": "This is Part 1, Materials Check. You will name four fabrics and complete four sentences.",
+    "ar": "هذا الجزء الأوّل، تحقّق من المواد. ستسمّي أربعة أقمشة وتكمل أربع جمل."
+   },
+   {
+    "start": 14.278,
+    "dur": 4.92,
+    "en": "Four fabrics first. Each one covers a different piece.",
+    "ar": "أربعة أقمشة أوّلاً. كلّ واحد يغطّي قطعة مختلفة."
+   },
+   {
+    "start": 19.548,
+    "dur": 3.0,
+    "en": "Leather. Which description?",
+    "ar": "الجلد. أيّ وصف؟"
+   },
+   {
+    "start": 27.136,
+    "dur": 3.504,
+    "en": "Animal skin, strong and easy to clean.",
+    "ar": "جلد حيوان، قويّ وسهل التنظيف."
+   },
+   {
+    "start": 30.99,
+    "dur": 3.168,
+    "en": "Velvet. Which description?",
+    "ar": "المخمل. أيّ وصف؟"
+   },
+   {
+    "start": 38.688,
+    "dur": 3.912,
+    "en": "A soft fabric with a short, thick, furry surface.",
+    "ar": "قماش ناعم له سطح قصير وكثيف كالفرو."
+   },
+   {
+    "start": 42.95,
+    "dur": 3.048,
+    "en": "Cotton. Which description?",
+    "ar": "القطن. أيّ وصف؟"
+   },
+   {
+    "start": 50.527,
+    "dur": 3.408,
+    "en": "A light natural fabric made from a plant.",
+    "ar": "قماش طبيعيّ خفيف مصنوع من نبات."
+   },
+   {
+    "start": 54.285,
+    "dur": 2.976,
+    "en": "Linen. Which description?",
+    "ar": "الكتّان. أيّ وصف؟"
+   },
+   {
+    "start": 61.732,
+    "dur": 3.552,
+    "en": "A strong natural fabric, cool in summer.",
+    "ar": "قماش طبيعيّ قويّ، بارد في الصيف."
+   },
+   {
+    "start": 65.634,
+    "dur": 4.584,
+    "en": "One description was not needed: a clear liquid that protects wood.",
+    "ar": "بقي وصف لم نحتجه: سائل شفّاف يحمي الخشب."
+   },
+   {
+    "start": 70.568,
+    "dur": 3.696,
+    "en": "That is varnish, and varnish is not a fabric.",
+    "ar": "ذاك هو الورنيش، والورنيش ليس قماشاً."
+   },
+   {
+    "start": 74.614,
+    "dur": 4.272,
+    "en": "Now three questions. Choose the right answer.",
+    "ar": "الآن ثلاثة أسئلة. اختر الإجابة الصحيحة."
+   },
+   {
+    "start": 79.236,
+    "dur": 5.64,
+    "en": "Which of these is a hardwood? Pine, foam, glass, or oak?",
+    "ar": "أيّ من هذه خشب صلب؟ الصنوبر، الإسفنج، الزجاج، أم البلّوط؟"
+   },
+   {
+    "start": 91.17,
+    "dur": 3.528,
+    "en": "D. Oak. Oak is a hardwood.",
+    "ar": "د. البلّوط. البلّوط خشب صلب."
+   },
+   {
+    "start": 95.048,
+    "dur": 2.784,
+    "en": "What do we paint on wood to protect it?",
+    "ar": "ماذا ندهن على الخشب لحمايته؟"
+   },
+   {
+    "start": 103.126,
+    "dur": 4.176,
+    "en": "B. Varnish. We paint varnish on the wood.",
+    "ar": "ب. الورنيش. ندهن الورنيش على الخشب."
+   },
+   {
+    "start": 107.652,
+    "dur": 6.288,
+    "en": "What is veneer? A thin layer of nice wood, a metal, a cushion, or a machine?",
+    "ar": "ما هي القشرة؟ طبقة رقيقة من خشب جميل، معدن، وسادة، أم آلة؟"
+   },
+   {
+    "start": 121.411,
+    "dur": 3.432,
+    "en": "A. A thin layer of nice wood on a cheaper board.",
+    "ar": "أ. طبقة رقيقة من خشب جميل على لوح أرخص."
+   },
+   {
+    "start": 125.193,
+    "dur": 3.024,
+    "en": "Last, four sentences to complete.",
+    "ar": "أخيراً، أربع جمل لإكمالها."
+   },
+   {
+    "start": 128.567,
+    "dur": 2.664,
+    "en": "Oak and walnut are types of what?",
+    "ar": "البلّوط والجوز نوعان من ماذا؟"
+   },
+   {
+    "start": 136.172,
+    "dur": 4.056,
+    "en": "Hardwood. Oak and walnut are types of hardwood.",
+    "ar": "خشب صلب. البلّوط والجوز نوعان من الخشب الصلب."
+   },
+   {
+    "start": 140.578,
+    "dur": 3.84,
+    "en": "Pine is a what? It is lighter and cheaper.",
+    "ar": "الصنوبر هو ماذا؟ إنّه أخفّ وأرخص."
+   },
+   {
+    "start": 149.888,
+    "dur": 3.504,
+    "en": "Softwood. Pine is a softwood.",
+    "ar": "خشب لين. الصنوبر خشب لين."
+   },
+   {
+    "start": 153.742,
+    "dur": 3.672,
+    "en": "We put a thin what of walnut on top of the cheap board?",
+    "ar": "نضع ماذا رقيقة من الجوز فوق اللوح الرخيص؟"
+   },
+   {
+    "start": 163.65,
+    "dur": 4.68,
+    "en": "Veneer. We put a thin veneer of walnut on the cheap board.",
+    "ar": "قشرة. نضع قشرة رقيقة من الجوز على اللوح الرخيص."
+   },
+   {
+    "start": 168.68,
+    "dur": 3.312,
+    "en": "After sanding, what do we paint on the wood?",
+    "ar": "بعد الصنفرة، ماذا ندهن على الخشب؟"
+   },
+   {
+    "start": 177.58,
+    "dur": 4.632,
+    "en": "Varnish. After sanding, we paint varnish on the wood.",
+    "ar": "الورنيش. بعد الصنفرة، ندهن الورنيش على الخشب."
+   },
+   {
+    "start": 182.562,
+    "dur": 4.344,
+    "en": "Good. You can name every material in this store.",
+    "ar": "جيّد. تستطيع تسمية كلّ مادّة في هذا المستودع."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 17.748,
+    "hold": 9.34,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 29.19,
+    "hold": 9.45,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "cotton",
+    "label": "cotton",
+    "ar": "القطن",
+    "at": 41.15,
+    "hold": 9.33,
+    "img": "assets/vocab/cotton.png",
+    "sha": "ad815a8259fcb49e"
+   },
+   {
+    "lemma": "linen",
+    "label": "linen",
+    "ar": "الكتّان",
+    "at": 52.485,
+    "hold": 9.2,
+    "img": "assets/vocab/linen.png",
+    "sha": "20bae0f5cc7880f8"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 69.13,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 78.323,
+    "hold": 15.98,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 103.126,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 106.227,
+    "hold": 15.13,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 126.767,
+    "hold": 9.36,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 136.172,
+    "hold": 3.0,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "softwood",
+    "label": "softwood",
+    "ar": "الخشب اللين",
+    "at": 149.888,
+    "hold": 3.0,
+    "img": "assets/vocab/softwood.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 163.65,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 177.58,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "schema": "timeline/1",
+ "duration": 137.989,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.672,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.472,
+    "dur": 6.84,
+    "en": "This is Part 7, Completing the Order. You will complete an order form and phone the supplier.",
+    "ar": "هذا الجزء السابع، إكمال الطلبيّة. ستكمل استمارة طلب وتتّصل بالمورِّد."
+   },
+   {
+    "start": 14.662,
+    "dur": 3.696,
+    "en": "Now complete the order form from that stock check.",
+    "ar": "الآن أكمل استمارة الطلب من ذلك الجرد."
+   },
+   {
+    "start": 18.708,
+    "dur": 3.6,
+    "en": "The first is done: oak boards, fifteen.",
+    "ar": "الأوّل محلول: ألواح بلّوط، خمسة عشر."
+   },
+   {
+    "start": 22.658,
+    "dur": 3.768,
+    "en": "Clamps. More, or none?",
+    "ar": "المشابك. المزيد، أم لا شيء؟"
+   },
+   {
+    "start": 30.72,
+    "dur": 3.768,
+    "en": "More. We are low on clamps.",
+    "ar": "المزيد. المشابك عندنا قليلة."
+   },
+   {
+    "start": 34.838,
+    "dur": 3.6,
+    "en": "Foam. Some, or none?",
+    "ar": "الإسفنج. بعضه، أم لا شيء؟"
+   },
+   {
+    "start": 42.615,
+    "dur": 2.976,
+    "en": "None, because there is enough foam.",
+    "ar": "لا شيء، لأنّ الإسفنج كافٍ."
+   },
+   {
+    "start": 45.941,
+    "dur": 4.512,
+    "en": "Order what is low. Do not order what is enough.",
+    "ar": "اطلب ما قلّ. لا تطلب ما يكفي."
+   },
+   {
+    "start": 50.803,
+    "dur": 5.112,
+    "en": "Now the role play. Abu Fares, let us take the order.",
+    "ar": "الآن لعب الأدوار. أبا فارس، لنأخذ الطلب."
+   },
+   {
+    "start": 56.265,
+    "dur": 2.376,
+    "en": "Do you have any oak boards?",
+    "ar": "هل لديك أيّ ألواح بلّوط؟"
+   },
+   {
+    "start": 58.991,
+    "dur": 1.872,
+    "en": "Yes, how many?",
+    "ar": "نعم، كم تحتاجين؟"
+   },
+   {
+    "start": 61.213,
+    "dur": 4.44,
+    "en": "Fifteen, please. And do you have clamps?",
+    "ar": "خمسة عشر، من فضلك. وهل لديك مشابك؟"
+   },
+   {
+    "start": 66.003,
+    "dur": 1.872,
+    "en": "Yes, a lot.",
+    "ar": "نعم، الكثير."
+   },
+   {
+    "start": 68.225,
+    "dur": 4.008,
+    "en": "Please add ten. When can you deliver?",
+    "ar": "أضف عشرة من فضلك. متى تستطيع التوصيل؟"
+   },
+   {
+    "start": 72.583,
+    "dur": 1.872,
+    "en": "On Sunday.",
+    "ar": "يوم الأحد."
+   },
+   {
+    "start": 74.805,
+    "dur": 4.728,
+    "en": "Your turn. You are me, and he is the supplier.",
+    "ar": "دورك. أنت مكاني، وهو المورِّد."
+   },
+   {
+    "start": 79.883,
+    "dur": 2.352,
+    "en": "Ask for the oak boards.",
+    "ar": "اطلب ألواح البلّوط."
+   },
+   {
+    "start": 86.588,
+    "dur": 2.376,
+    "en": "Do you have any oak boards?",
+    "ar": "هل لديك أيّ ألواح بلّوط؟"
+   },
+   {
+    "start": 89.314,
+    "dur": 2.016,
+    "en": "Say the amount.",
+    "ar": "قل الكمّيّة."
+   },
+   {
+    "start": 95.33,
+    "dur": 2.304,
+    "en": "Fifteen, please.",
+    "ar": "خمسة عشر، من فضلك."
+   },
+   {
+    "start": 97.984,
+    "dur": 2.352,
+    "en": "Ask the delivery day.",
+    "ar": "اسأل عن يوم التوصيل."
+   },
+   {
+    "start": 104.571,
+    "dur": 2.112,
+    "en": "When can you deliver?",
+    "ar": "متى تستطيع التوصيل؟"
+   },
+   {
+    "start": 107.033,
+    "dur": 3.48,
+    "en": "Now a harder one. I have no clamps this week.",
+    "ar": "الآن واحدة أصعب. ليس لديّ مشابك هذا الأسبوع."
+   },
+   {
+    "start": 110.863,
+    "dur": 3.336,
+    "en": "How do you agree a plan for later, politely?",
+    "ar": "كيف تتّفق على خطّة لاحقة، بلباقة؟"
+   },
+   {
+    "start": 119.787,
+    "dur": 4.152,
+    "en": "That's OK. Can you send them next week?",
+    "ar": "لا بأس. هل تستطيع إرسالها الأسبوع القادم؟"
+   },
+   {
+    "start": 124.289,
+    "dur": 2.64,
+    "en": "Yes. I will send them on Sunday.",
+    "ar": "نعم. سأرسلها يوم الأحد."
+   },
+   {
+    "start": 127.279,
+    "dur": 4.056,
+    "en": "Say that's OK, ask for a new day, then thank him.",
+    "ar": "قل لا بأس، اطلب يوماً جديداً، ثمّ اشكره."
+   },
+   {
+    "start": 131.685,
+    "dur": 4.704,
+    "en": "A no with a date is not a no. It is a later yes.",
+    "ar": "«لا» مع تاريخ ليست «لا». إنّها «نعم» مؤجّلة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 33.038,
+    "hold": 12.58,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 78.72,
+    "hold": 10.87,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

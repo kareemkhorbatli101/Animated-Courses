@@ -1,0 +1,195 @@
+{
+ "schema": "timeline/1",
+ "duration": 112.468,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.984,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.784,
+    "dur": 7.968,
+    "en": "This is Part 3, Choosing Materials. You will hear a designer and a foreman choose for an armchair.",
+    "ar": "هذا الجزء الثالث، اختيار المواد. ستسمع مصمّمة ورئيس عمّال يختاران لكرسيّ وثير."
+   },
+   {
+    "start": 16.102,
+    "dur": 4.32,
+    "en": "Which do you choose first for a sofa, the frame or the cover?",
+    "ar": "أيّهما تختار أوّلاً للكنبة، الهيكل أم الغطاء؟"
+   },
+   {
+    "start": 20.772,
+    "dur": 4.416,
+    "en": "Listen. Layla and I choose for a new armchair.",
+    "ar": "استمع. أنا وليلى نختار لكرسيّ وثير جديد."
+   },
+   {
+    "start": 25.538,
+    "dur": 4.008,
+    "en": "Sami, we need materials for the new armchair.",
+    "ar": "سامي، نحتاج موادّ للكرسيّ الوثير الجديد."
+   },
+   {
+    "start": 29.896,
+    "dur": 4.368,
+    "en": "OK. There is some oak in the store for the frame.",
+    "ar": "حسناً. يوجد بعض البلّوط في المستودع للهيكل."
+   },
+   {
+    "start": 34.614,
+    "dur": 4.464,
+    "en": "Good. Is there any soft foam for the cushions?",
+    "ar": "جيّد. هل يوجد أيّ إسفنج ناعم للوسائد؟"
+   },
+   {
+    "start": 39.428,
+    "dur": 4.776,
+    "en": "Yes, there is a lot of foam. But there isn't much leather.",
+    "ar": "نعم، يوجد الكثير من الإسفنج. لكن لا يوجد الكثير من الجلد."
+   },
+   {
+    "start": 44.554,
+    "dur": 3.024,
+    "en": "Then let's use velvet for the cover.",
+    "ar": "إذاً لنستخدم المخمل للغطاء."
+   },
+   {
+    "start": 47.928,
+    "dur": 3.432,
+    "en": "Right now, I am finishing the design.",
+    "ar": "في هذه اللحظة، أنا أُنهي التصميم."
+   },
+   {
+    "start": 51.71,
+    "dur": 3.864,
+    "en": "Good. How many armchairs do we make?",
+    "ar": "جيّد. كم كرسيّاً وثيراً نصنع؟"
+   },
+   {
+    "start": 55.924,
+    "dur": 2.928,
+    "en": "Just one prototype first.",
+    "ar": "نموذجاً أوّليّاً واحداً فقط في البداية."
+   },
+   {
+    "start": 59.202,
+    "dur": 5.088,
+    "en": "Three sentences now. True, False, or Not Given?",
+    "ar": "ثلاث جمل الآن. صحيح، خطأ، أم غير مذكور؟"
+   },
+   {
+    "start": 64.64,
+    "dur": 2.136,
+    "en": "There is a lot of leather.",
+    "ar": "يوجد الكثير من الجلد."
+   },
+   {
+    "start": 71.306,
+    "dur": 3.768,
+    "en": "False. I said there isn't much leather.",
+    "ar": "خطأ. قلتُ إنّه لا يوجد الكثير من الجلد."
+   },
+   {
+    "start": 75.424,
+    "dur": 2.976,
+    "en": "Layla is finishing the design now.",
+    "ar": "ليلى تُنهي التصميم الآن."
+   },
+   {
+    "start": 83.4,
+    "dur": 5.208,
+    "en": "True. She said: right now, I am finishing the design.",
+    "ar": "صحيح. قالت: في هذه اللحظة، أنا أُنهي التصميم."
+   },
+   {
+    "start": 88.958,
+    "dur": 2.808,
+    "en": "They will make ten armchairs first.",
+    "ar": "سيصنعون عشرة كراسٍ وثيرة أوّلاً."
+   },
+   {
+    "start": 96.824,
+    "dur": 4.824,
+    "en": "False. Layla said just one prototype first.",
+    "ar": "خطأ. قالت ليلى نموذجاً أوّليّاً واحداً فقط."
+   },
+   {
+    "start": 101.998,
+    "dur": 3.12,
+    "en": "Three phrases carry that whole talk.",
+    "ar": "ثلاث عبارات تحمل ذلك الحديث كلّه."
+   },
+   {
+    "start": 105.468,
+    "dur": 5.4,
+    "en": "There is some. Is there any? There isn't much.",
+    "ar": "يوجد بعض. هل يوجد أيّ؟ لا يوجد الكثير."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 35.027,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 41.053,
+    "hold": 2.5,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 43.603,
+    "hold": 2.99,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 63.59,
+    "hold": 11.34,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "prototype",
+    "label": "prototype",
+    "ar": "النموذج الأوّلي",
+    "at": 96.824,
+    "hold": 3.85,
+    "img": "assets/vocab/prototype.png",
+    "sha": "5541da66357e18ed"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

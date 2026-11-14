@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 89.539,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 6.888,
+    "en": "This is Part 3, In the Workshop Store. You will hear a stock check and answer three questions.",
+    "ar": "هذا الجزء الثالث، في مستودع الورشة. ستسمع جرداً وتجيب عن ثلاثة أسئلة."
+   },
+   {
+    "start": 14.446,
+    "dur": 3.192,
+    "en": "What things do you keep in a furniture store?",
+    "ar": "ما الأشياء التي تحتفظ بها في مستودع أثاث؟"
+   },
+   {
+    "start": 17.988,
+    "dur": 4.008,
+    "en": "Listen. I will check this store out loud.",
+    "ar": "استمع. سأجرد هذا المستودع بصوت عالٍ."
+   },
+   {
+    "start": 22.346,
+    "dur": 4.56,
+    "en": "Let me check the store. There are ten boards of plywood.",
+    "ar": "دعني أتفقّد المستودع. توجد عشرة ألواح من الخشب الرقائقي."
+   },
+   {
+    "start": 27.256,
+    "dur": 3.408,
+    "en": "There is some pine, but there isn't any walnut.",
+    "ar": "يوجد بعض الصنوبر، لكن لا يوجد أيّ جوز."
+   },
+   {
+    "start": 31.014,
+    "dur": 3.6,
+    "en": "There are many screws, but there aren't many clamps.",
+    "ar": "توجد براغٍ كثيرة، لكن لا توجد مشابك كثيرة."
+   },
+   {
+    "start": 34.964,
+    "dur": 4.104,
+    "en": "We need more clamps, and there is only a little glue left.",
+    "ar": "نحتاج مشابك أكثر، ولم يتبقَّ إلّا قليل من الغراء."
+   },
+   {
+    "start": 39.418,
+    "dur": 2.952,
+    "en": "May I ask three questions, Ustaz?",
+    "ar": "هل لي أن أسأل ثلاثة أسئلة يا أستاذ؟"
+   },
+   {
+    "start": 42.72,
+    "dur": 4.728,
+    "en": "Yes. The first is done: ten boards of plywood.",
+    "ar": "نعم. الأوّل محلول: عشرة ألواح من الخشب الرقائقي."
+   },
+   {
+    "start": 47.798,
+    "dur": 2.016,
+    "en": "Is there any walnut?",
+    "ar": "هل يوجد أيّ جوز؟"
+   },
+   {
+    "start": 53.991,
+    "dur": 3.288,
+    "en": "No. There isn't any walnut.",
+    "ar": "لا. لا يوجد أيّ جوز."
+   },
+   {
+    "start": 57.629,
+    "dur": 2.232,
+    "en": "What do we need more of?",
+    "ar": "ما الذي نحتاج المزيد منه؟"
+   },
+   {
+    "start": 64.272,
+    "dur": 3.36,
+    "en": "Clamps. We need more clamps.",
+    "ar": "المشابك. نحتاج مشابك أكثر."
+   },
+   {
+    "start": 67.982,
+    "dur": 2.136,
+    "en": "Is there a lot of glue?",
+    "ar": "هل يوجد الكثير من الغراء؟"
+   },
+   {
+    "start": 74.471,
+    "dur": 3.192,
+    "en": "No. There is only a little.",
+    "ar": "لا. يوجد قليل فقط."
+   },
+   {
+    "start": 78.013,
+    "dur": 3.024,
+    "en": "Four shelves, four different words.",
+    "ar": "أربعة رفوف، أربع كلمات مختلفة."
+   },
+   {
+    "start": 81.387,
+    "dur": 6.552,
+    "en": "There are ten. There is some. There aren't many. Only a little.",
+    "ar": "توجد عشرة. يوجد بعض. لا توجد كثيرة. قليل فقط."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 23.546,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 27.319,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 46.536,
+    "hold": 10.45,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 66.97,
+    "hold": 7.45,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

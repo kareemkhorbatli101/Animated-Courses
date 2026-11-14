@@ -1,0 +1,237 @@
+{
+ "schema": "timeline/1",
+ "duration": 158.725,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 6.168,
+    "en": "This is Part 2, Notice. You will hear a stock report and find the rule in it.",
+    "ar": "هذا الجزء الثاني، لاحظ. ستسمع تقرير مستودع وتجد القاعدة فيه."
+   },
+   {
+    "start": 13.726,
+    "dur": 4.296,
+    "en": "Listen to the store report. Then I will ask you.",
+    "ar": "استمع إلى تقرير المستودع. ثمّ سأسألك."
+   },
+   {
+    "start": 18.372,
+    "dur": 2.808,
+    "en": "In our store, there is some oak.",
+    "ar": "في مستودعنا، يوجد بعض البلّوط."
+   },
+   {
+    "start": 21.53,
+    "dur": 2.712,
+    "en": "And there are ten boards of pine.",
+    "ar": "وتوجد عشرة ألواح من الصنوبر."
+   },
+   {
+    "start": 24.592,
+    "dur": 2.208,
+    "en": "There isn't much walnut.",
+    "ar": "لا يوجد الكثير من الجوز."
+   },
+   {
+    "start": 27.15,
+    "dur": 2.856,
+    "en": "But there are a few pieces of veneer.",
+    "ar": "لكن توجد بضع قطع من القشرة."
+   },
+   {
+    "start": 30.356,
+    "dur": 3.96,
+    "en": "We don't have many clamps, and there is only a little glue.",
+    "ar": "ليس لدينا الكثير من المشابك، ويوجد قليل من الغراء فقط."
+   },
+   {
+    "start": 34.666,
+    "dur": 3.24,
+    "en": "Which words there say how much or how many?",
+    "ar": "أيّ الكلمات هناك تقول كم الكمّيّة أو كم العدد؟"
+   },
+   {
+    "start": 43.435,
+    "dur": 4.032,
+    "en": "Some, ten, much, a few, many, and a little.",
+    "ar": "بعض، عشرة، كثير، بضع، كثيرون، وقليل."
+   },
+   {
+    "start": 47.817,
+    "dur": 3.792,
+    "en": "Now the rule. It has three parts.",
+    "ar": "الآن القاعدة. لها ثلاثة أجزاء."
+   },
+   {
+    "start": 51.96,
+    "dur": 4.176,
+    "en": "First: there is for one thing, there are for more than one.",
+    "ar": "أوّلاً: there is لشيء واحد، there are لأكثر من واحد."
+   },
+   {
+    "start": 56.486,
+    "dur": 3.912,
+    "en": "There is a sofa. There are three chairs.",
+    "ar": "توجد كنبة. توجد ثلاثة كراسٍ."
+   },
+   {
+    "start": 60.748,
+    "dur": 3.192,
+    "en": "Is it there is or there are for ten boards?",
+    "ar": "هل نقول there is أم there are لعشرة ألواح؟"
+   },
+   {
+    "start": 69.469,
+    "dur": 3.36,
+    "en": "There are. There are ten boards.",
+    "ar": "There are. توجد عشرة ألواح."
+   },
+   {
+    "start": 73.179,
+    "dur": 4.68,
+    "en": "Second: some in a plus sentence, any in a minus or a question.",
+    "ar": "ثانياً: some في جملة مثبتة، any في منفيّة أو سؤال."
+   },
+   {
+    "start": 78.209,
+    "dur": 3.792,
+    "en": "There is some foam. Is there any leather?",
+    "ar": "يوجد بعض الإسفنج. هل يوجد أيّ جلد؟"
+   },
+   {
+    "start": 82.351,
+    "dur": 4.368,
+    "en": "Is it some or any? There isn't blank walnut this week.",
+    "ar": "هل هي some أم any؟ لا يوجد ـــ جوز هذا الأسبوع."
+   },
+   {
+    "start": 92.895,
+    "dur": 3.648,
+    "en": "Any. There isn't any walnut this week.",
+    "ar": "Any. لا يوجد أيّ جوز هذا الأسبوع."
+   },
+   {
+    "start": 96.893,
+    "dur": 3.24,
+    "en": "Third: much for things we do not count.",
+    "ar": "ثالثاً: much للأشياء التي لا نعدّها."
+   },
+   {
+    "start": 100.483,
+    "dur": 2.568,
+    "en": "Many for things we do count.",
+    "ar": "Many للأشياء التي نعدّها."
+   },
+   {
+    "start": 103.401,
+    "dur": 4.056,
+    "en": "How much wood? We do not count wood.",
+    "ar": "كم خشباً؟ نحن لا نعدّ الخشب."
+   },
+   {
+    "start": 107.807,
+    "dur": 5.04,
+    "en": "How many screws? We count screws, one by one.",
+    "ar": "كم برغياً؟ نعدّ البراغي، واحداً واحداً."
+   },
+   {
+    "start": 113.197,
+    "dur": 4.176,
+    "en": "Is it much or many? How blank foam do we need?",
+    "ar": "هل هي much أم many؟ كم ـــ إسفنجاً نحتاج؟"
+   },
+   {
+    "start": 123.079,
+    "dur": 3.504,
+    "en": "Much. How much foam do we need?",
+    "ar": "Much. كم إسفنجاً نحتاج؟"
+   },
+   {
+    "start": 126.933,
+    "dur": 4.296,
+    "en": "Is it much or many? How blank clamps do we need?",
+    "ar": "هل هي much أم many؟ كم ـــ مِشبكاً نحتاج؟"
+   },
+   {
+    "start": 137.053,
+    "dur": 3.552,
+    "en": "Many. How many clamps do we need?",
+    "ar": "Many. كم مِشبكاً نحتاج؟"
+   },
+   {
+    "start": 140.955,
+    "dur": 4.128,
+    "en": "Watch out. There is three chairs is wrong.",
+    "ar": "انتبه. There is three chairs خطأ."
+   },
+   {
+    "start": 145.433,
+    "dur": 2.568,
+    "en": "There are three chairs is right.",
+    "ar": "There are three chairs صحيحة."
+   },
+   {
+    "start": 148.351,
+    "dur": 4.776,
+    "en": "How much chairs is wrong. How many chairs is right.",
+    "ar": "How much chairs خطأ. How many chairs صحيحة."
+   },
+   {
+    "start": 153.477,
+    "dur": 3.648,
+    "en": "You will see all of this again in the Part 5 reading.",
+    "ar": "سترى هذا كلّه مرّة أخرى في قراءة الجزء الخامس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 23.467,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 26.688,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 82.966,
+    "hold": 12.93,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

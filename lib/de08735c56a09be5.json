@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 100.54,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.144,
+    "en": "This is Part 3, Workshop Safety. You will hear the rules of a real workshop.",
+    "ar": "هذا الجزء الثالث، سلامة الورشة. ستسمع قواعد ورشة حقيقيّة."
+   },
+   {
+    "start": 13.798,
+    "dur": 3.384,
+    "en": "What safety rules do you know for a workshop?",
+    "ar": "ما قواعد السلامة التي تعرفها للورشة؟"
+   },
+   {
+    "start": 17.532,
+    "dur": 3.48,
+    "en": "In our workshop, we follow safety rules.",
+    "ar": "في ورشتنا، نتّبع قواعد السلامة."
+   },
+   {
+    "start": 21.362,
+    "dur": 3.432,
+    "en": "First, we wear goggles near the machines.",
+    "ar": "أوّلاً، نرتدي نظّارات واقية قرب الآلات."
+   },
+   {
+    "start": 25.144,
+    "dur": 2.808,
+    "en": "We keep the floor clean and tidy.",
+    "ar": "نُبقي الأرض نظيفة ومرتّبة."
+   },
+   {
+    "start": 28.302,
+    "dur": 2.712,
+    "en": "We never touch a moving blade.",
+    "ar": "لا نلمس نصلاً متحرّكاً أبداً."
+   },
+   {
+    "start": 31.364,
+    "dur": 2.832,
+    "en": "And we never use a broken tool.",
+    "ar": "ولا نستخدم أداة معطّلة أبداً."
+   },
+   {
+    "start": 34.546,
+    "dur": 3.528,
+    "en": "If a machine is loud, we wear ear protection.",
+    "ar": "إن كانت الآلة صاخبة، نرتدي واقي الأذنين."
+   },
+   {
+    "start": 38.424,
+    "dur": 4.32,
+    "en": "Before you use a big machine, always ask Ustaz Sami.",
+    "ar": "قبل أن تستخدم آلة كبيرة، اسأل الأستاذ سامي دائماً."
+   },
+   {
+    "start": 43.094,
+    "dur": 2.592,
+    "en": "Safety keeps everyone well.",
+    "ar": "السلامة تُبقي الجميع بخير."
+   },
+   {
+    "start": 46.036,
+    "dur": 4.656,
+    "en": "The first question is done. Yes, we follow the rules.",
+    "ar": "السؤال الأوّل محلول. نعم، نحن نتّبع القواعد."
+   },
+   {
+    "start": 51.042,
+    "dur": 2.928,
+    "en": "What do workers wear near the machines?",
+    "ar": "ماذا يرتدي العمّال قرب الآلات؟"
+   },
+   {
+    "start": 59.264,
+    "dur": 1.872,
+    "en": "Goggles.",
+    "ar": "نظّارات واقية."
+   },
+   {
+    "start": 61.486,
+    "dur": 2.304,
+    "en": "What must you never touch?",
+    "ar": "ما الذي يجب ألّا تلمسه أبداً؟"
+   },
+   {
+    "start": 68.32,
+    "dur": 1.872,
+    "en": "A moving blade.",
+    "ar": "نصلاً متحرّكاً."
+   },
+   {
+    "start": 70.542,
+    "dur": 3.096,
+    "en": "Who do you ask before using a big machine?",
+    "ar": "مَن تسأل قبل استخدام آلة كبيرة؟"
+   },
+   {
+    "start": 79.108,
+    "dur": 1.944,
+    "en": "Ustaz Sami.",
+    "ar": "الأستاذ سامي."
+   },
+   {
+    "start": 81.402,
+    "dur": 3.072,
+    "en": "Notice the word moving in that answer.",
+    "ar": "لاحظ كلمة «متحرّك» في تلك الإجابة."
+   },
+   {
+    "start": 84.824,
+    "dur": 5.304,
+    "en": "A still blade is sharp. A moving blade will not stop for you.",
+    "ar": "النصل الساكن حادّ. والنصل المتحرّك لن يتوقّف من أجلك."
+   },
+   {
+    "start": 90.478,
+    "dur": 2.736,
+    "en": "Three phrases carry this talk.",
+    "ar": "ثلاث عبارات تحمل هذا الحديث."
+   },
+   {
+    "start": 93.564,
+    "dur": 5.376,
+    "en": "We never. Always ask. Before you use.",
+    "ar": "نحن لا نفعل أبداً. اسأل دائماً. قبل أن تستخدم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 20.525,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 27.69,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 59.264,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 68.32,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

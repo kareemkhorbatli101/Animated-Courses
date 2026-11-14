@@ -1,0 +1,243 @@
+{
+ "schema": "timeline/1",
+ "duration": 173.303,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.984,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.784,
+    "dur": 9.096,
+    "en": "This is Part 8, A Factory Chooses Better Materials. You will read how a factory wasted less and earned more.",
+    "ar": "هذا الجزء الثامن، مصنع يختار موادّ أفضل. ستقرأ كيف أهدر مصنع أقلّ وربح أكثر."
+   },
+   {
+    "start": 17.23,
+    "dur": 3.552,
+    "en": "What can a factory do with small pieces of wood?",
+    "ar": "ماذا يمكن لمصنع أن يفعل بقطع الخشب الصغيرة؟"
+   },
+   {
+    "start": 21.132,
+    "dur": 2.664,
+    "en": "Waste is things you throw away.",
+    "ar": "النفايات هي الأشياء التي ترميها."
+   },
+   {
+    "start": 24.146,
+    "dur": 3.576,
+    "en": "The environment is the natural world around us.",
+    "ar": "البيئة هي العالم الطبيعيّ من حولنا."
+   },
+   {
+    "start": 28.072,
+    "dur": 2.664,
+    "en": "To recycle is to use again.",
+    "ar": "إعادة التدوير هي الاستخدام من جديد."
+   },
+   {
+    "start": 31.086,
+    "dur": 4.44,
+    "en": "A large furniture factory wanted to help the environment.",
+    "ar": "أراد مصنع أثاث كبير أن يساعد البيئة."
+   },
+   {
+    "start": 35.876,
+    "dur": 3.192,
+    "en": "Before, it threw away a lot of wood.",
+    "ar": "سابقاً، كان يرمي الكثير من الخشب."
+   },
+   {
+    "start": 39.418,
+    "dur": 4.536,
+    "en": "Now it recycles the small pieces into smaller products.",
+    "ar": "الآن يعيد تدوير القطع الصغيرة إلى منتجات أصغر."
+   },
+   {
+    "start": 44.304,
+    "dur": 2.256,
+    "en": "Boxes and toys.",
+    "ar": "صناديق وألعاب."
+   },
+   {
+    "start": 46.91,
+    "dur": 4.944,
+    "en": "It also chooses wood from forests where people plant new trees.",
+    "ar": "ويختار أيضاً خشباً من غابات يزرع الناس فيها أشجاراً جديدة."
+   },
+   {
+    "start": 52.204,
+    "dur": 4.464,
+    "en": "For the covers, it uses more cotton and less plastic.",
+    "ar": "للأغطية، يستخدم قطناً أكثر وبلاستيكاً أقلّ."
+   },
+   {
+    "start": 57.018,
+    "dur": 3.384,
+    "en": "Many customers like green furniture.",
+    "ar": "زبائن كثيرون يحبّون الأثاث الصديق للبيئة."
+   },
+   {
+    "start": 60.752,
+    "dur": 3.192,
+    "en": "They are happy to pay a fair price for it.",
+    "ar": "ويسعدهم دفع سعر عادل مقابله."
+   },
+   {
+    "start": 64.294,
+    "dur": 4.176,
+    "en": "The factory saves money too, because it wastes less.",
+    "ar": "والمصنع يوفّر المال أيضاً، لأنّه يهدر أقلّ."
+   },
+   {
+    "start": 68.82,
+    "dur": 4.944,
+    "en": "The manager says: what is good for the earth can be good for business.",
+    "ar": "يقول المدير: ما ينفع الأرض قد ينفع العمل."
+   },
+   {
+    "start": 74.114,
+    "dur": 3.816,
+    "en": "What does the factory do now with small pieces of wood?",
+    "ar": "ماذا يفعل المصنع الآن بقطع الخشب الصغيرة؟"
+   },
+   {
+    "start": 84.165,
+    "dur": 4.68,
+    "en": "It uses them to make smaller products, like boxes and toys.",
+    "ar": "يستخدمها لصنع منتجات أصغر، كالصناديق والألعاب."
+   },
+   {
+    "start": 89.195,
+    "dur": 2.616,
+    "en": "What kind of wood does it choose?",
+    "ar": "أيّ نوع من الخشب يختار؟"
+   },
+   {
+    "start": 96.753,
+    "dur": 3.552,
+    "en": "Wood from forests where people plant new trees.",
+    "ar": "خشب من غابات يزرع الناس فيها أشجاراً جديدة."
+   },
+   {
+    "start": 100.655,
+    "dur": 2.664,
+    "en": "Why does the factory save money?",
+    "ar": "لماذا يوفّر المصنع المال؟"
+   },
+   {
+    "start": 108.201,
+    "dur": 2.4,
+    "en": "Because it wastes less.",
+    "ar": "لأنّه يهدر أقلّ."
+   },
+   {
+    "start": 110.951,
+    "dur": 4.032,
+    "en": "Now four words. What does each mean?",
+    "ar": "الآن أربع كلمات. ماذا تعني كلّ واحدة؟"
+   },
+   {
+    "start": 115.333,
+    "dur": 1.872,
+    "en": "Waste.",
+    "ar": "النفايات."
+   },
+   {
+    "start": 121.205,
+    "dur": 2.28,
+    "en": "Things you throw away.",
+    "ar": "الأشياء التي ترميها."
+   },
+   {
+    "start": 123.835,
+    "dur": 1.992,
+    "en": "Environment.",
+    "ar": "البيئة."
+   },
+   {
+    "start": 129.827,
+    "dur": 2.856,
+    "en": "The natural world around us.",
+    "ar": "العالم الطبيعيّ من حولنا."
+   },
+   {
+    "start": 133.033,
+    "dur": 1.872,
+    "en": "Forest.",
+    "ar": "الغابة."
+   },
+   {
+    "start": 138.905,
+    "dur": 2.688,
+    "en": "A large area of trees.",
+    "ar": "مساحة كبيرة من الأشجار."
+   },
+   {
+    "start": 141.943,
+    "dur": 1.872,
+    "en": "Recycle.",
+    "ar": "إعادة التدوير."
+   },
+   {
+    "start": 147.815,
+    "dur": 2.376,
+    "en": "To use something again.",
+    "ar": "استخدام شيء من جديد."
+   },
+   {
+    "start": 150.541,
+    "dur": 4.488,
+    "en": "One meaning was not needed: a clear liquid that protects wood.",
+    "ar": "بقي معنى لم نحتجه: سائل شفّاف يحمي الخشب."
+   },
+   {
+    "start": 155.379,
+    "dur": 4.296,
+    "en": "Varnish again. It is a useful distractor.",
+    "ar": "الورنيش مرّة أخرى. إنّه مُلهٍ مفيد."
+   },
+   {
+    "start": 160.025,
+    "dur": 5.448,
+    "en": "Now talk with a partner. This is similar to Syria because...",
+    "ar": "الآن تحدّث مع شريك. هذا يشبه سوريا لأنّ..."
+   },
+   {
+    "start": 165.823,
+    "dur": 5.88,
+    "en": "This is different because... Less waste is good or hard because...",
+    "ar": "هذا يختلف لأنّ... تقليل الهدر جيّد أو صعب لأنّ..."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 153.579,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

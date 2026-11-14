@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 103.421,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.984,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.784,
+    "dur": 8.064,
+    "en": "This is Part 5, Choosing the Right Material. You will read what each material is good and bad at.",
+    "ar": "هذا الجزء الخامس، اختيار المادّة المناسبة. ستقرأ فيمَ تجيد كلّ مادّة وفيمَ تخفق."
+   },
+   {
+    "start": 16.198,
+    "dur": 5.16,
+    "en": "Before you read: which is more expensive, solid wood or plywood?",
+    "ar": "قبل القراءة: أيّهما أغلى، الخشب المصمت أم الرقائقي؟"
+   },
+   {
+    "start": 21.708,
+    "dur": 5.544,
+    "en": "Solid wood means real, whole wood. Not glued layers.",
+    "ar": "الخشب المصمت يعني خشباً حقيقيّاً كاملاً. لا طبقات ملصوقة."
+   },
+   {
+    "start": 27.602,
+    "dur": 3.912,
+    "en": "A fair price is a price that is not too high.",
+    "ar": "السعر العادل هو سعر ليس مرتفعاً جدّاً."
+   },
+   {
+    "start": 31.864,
+    "dur": 4.008,
+    "en": "Every material has good points and bad points.",
+    "ar": "لكلّ مادّة نقاط جيّدة ونقاط سيّئة."
+   },
+   {
+    "start": 36.222,
+    "dur": 4.272,
+    "en": "Wood is strong and beautiful, but good wood can be expensive.",
+    "ar": "الخشب قويّ وجميل، لكنّ الخشب الجيّد قد يكون غالياً."
+   },
+   {
+    "start": 40.844,
+    "dur": 4.152,
+    "en": "Plywood and MDF are cheaper and easy to cut.",
+    "ar": "الخشب الرقائقي واللوح المضغوط أرخص وأسهل في القصّ."
+   },
+   {
+    "start": 45.346,
+    "dur": 3.168,
+    "en": "But they are not as strong as solid wood.",
+    "ar": "لكنّهما ليسا بقوّة الخشب المصمت."
+   },
+   {
+    "start": 48.864,
+    "dur": 4.344,
+    "en": "Foam is light and soft, so it is good for cushions.",
+    "ar": "الإسفنج خفيف وناعم، لذا فهو جيّد للوسائد."
+   },
+   {
+    "start": 53.558,
+    "dur": 4.32,
+    "en": "Leather is strong and easy to clean, but it costs a lot.",
+    "ar": "الجلد قويّ وسهل التنظيف، لكنّه يكلّف كثيراً."
+   },
+   {
+    "start": 58.228,
+    "dur": 4.704,
+    "en": "Fabric like cotton is cheaper, and it comes in many colours.",
+    "ar": "قماش كالقطن أرخص، ويأتي بألوان كثيرة."
+   },
+   {
+    "start": 63.282,
+    "dur": 5.544,
+    "en": "Weight is important too. Heavy furniture is hard to move.",
+    "ar": "الوزن مهمّ أيضاً. الأثاث الثقيل صعب التحريك."
+   },
+   {
+    "start": 69.176,
+    "dur": 3.528,
+    "en": "So some parts use lighter materials.",
+    "ar": "لذا تستخدم بعض الأجزاء موادّ أخفّ."
+   },
+   {
+    "start": 73.054,
+    "dur": 4.344,
+    "en": "A good designer chooses the best material for each part.",
+    "ar": "المصمّم الجيّد يختار أفضل مادّة لكلّ جزء."
+   },
+   {
+    "start": 77.748,
+    "dur": 2.544,
+    "en": "And for the customer's money.",
+    "ar": "ولميزانيّة الزبون."
+   },
+   {
+    "start": 80.642,
+    "dur": 3.288,
+    "en": "Does every material have good and bad points?",
+    "ar": "هل لكلّ مادّة نقاط جيّدة وسيّئة؟"
+   },
+   {
+    "start": 89.577,
+    "dur": 3.144,
+    "en": "Yes. Every one of them.",
+    "ar": "نعم. كلّ واحدة منها."
+   },
+   {
+    "start": 93.071,
+    "dur": 5.664,
+    "en": "That is the whole idea. No material is best everywhere.",
+    "ar": "تلك هي الفكرة كلّها. لا مادّة هي الأفضل في كلّ مكان."
+   },
+   {
+    "start": 99.085,
+    "dur": 2.736,
+    "en": "Each one is best somewhere.",
+    "ar": "كلّ واحدة هي الأفضل في مكان ما."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 17.948,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 47.064,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 51.758,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

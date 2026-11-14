@@ -1,0 +1,234 @@
+{
+ "schema": "timeline/1",
+ "duration": 135.027,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 6.336,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 13.894,
+    "dur": 4.368,
+    "en": "Six words. Say each one aloud after me.",
+    "ar": "ستّ كلمات. قل كلّ واحدة بصوت عالٍ بعدي."
+   },
+   {
+    "start": 18.612,
+    "dur": 4.272,
+    "en": "Stress the loud part. I will make it louder.",
+    "ar": "شدِّد على المقطع العالي. سأجعله أعلى."
+   },
+   {
+    "start": 23.234,
+    "dur": 4.368,
+    "en": "Material. Four parts: ma-TE-ri-al.",
+    "ar": "Material. أربعة مقاطع: ma-TE-ri-al."
+   },
+   {
+    "start": 27.952,
+    "dur": 2.784,
+    "en": "Which part of material is loud?",
+    "ar": "أيّ مقطع في material هو العالي؟"
+   },
+   {
+    "start": 35.56,
+    "dur": 3.12,
+    "en": "The second. ma-TE-ri-al.",
+    "ar": "الثاني. ma-TE-ri-al."
+   },
+   {
+    "start": 39.03,
+    "dur": 3.72,
+    "en": "Leather. Two parts: LEA-ther.",
+    "ar": "Leather. مقطعان: LEA-ther."
+   },
+   {
+    "start": 43.1,
+    "dur": 2.544,
+    "en": "Which part of leather is loud?",
+    "ar": "أيّ مقطع في leather هو العالي؟"
+   },
+   {
+    "start": 50.408,
+    "dur": 2.928,
+    "en": "The first. LEA-ther.",
+    "ar": "الأوّل. LEA-ther."
+   },
+   {
+    "start": 53.686,
+    "dur": 4.248,
+    "en": "Plywood. Two parts: PLY-wood.",
+    "ar": "Plywood. مقطعان: PLY-wood."
+   },
+   {
+    "start": 58.284,
+    "dur": 2.712,
+    "en": "Which part of plywood is loud?",
+    "ar": "أيّ مقطع في plywood هو العالي؟"
+   },
+   {
+    "start": 65.761,
+    "dur": 3.096,
+    "en": "The first. PLY-wood.",
+    "ar": "الأوّل. PLY-wood."
+   },
+   {
+    "start": 69.207,
+    "dur": 4.08,
+    "en": "Varnish. Two parts: VAR-nish.",
+    "ar": "Varnish. مقطعان: VAR-nish."
+   },
+   {
+    "start": 73.637,
+    "dur": 2.616,
+    "en": "Which part of varnish is loud?",
+    "ar": "أيّ مقطع في varnish هو العالي؟"
+   },
+   {
+    "start": 81.018,
+    "dur": 3.12,
+    "en": "The first. VAR-nish.",
+    "ar": "الأوّل. VAR-nish."
+   },
+   {
+    "start": 84.488,
+    "dur": 3.912,
+    "en": "Hardwood. Two parts: HARD-wood.",
+    "ar": "Hardwood. مقطعان: HARD-wood."
+   },
+   {
+    "start": 88.75,
+    "dur": 2.64,
+    "en": "Which part of hardwood is loud?",
+    "ar": "أيّ مقطع في hardwood هو العالي؟"
+   },
+   {
+    "start": 96.213,
+    "dur": 2.904,
+    "en": "The first. HARD-wood.",
+    "ar": "الأوّل. HARD-wood."
+   },
+   {
+    "start": 99.467,
+    "dur": 6.264,
+    "en": "Now the difficult one. Veneer. Two parts: ve-NEER.",
+    "ar": "الآن الصعبة. Veneer. مقطعان: ve-NEER."
+   },
+   {
+    "start": 106.081,
+    "dur": 2.568,
+    "en": "Which part of veneer is loud?",
+    "ar": "أيّ مقطع في veneer هو العالي؟"
+   },
+   {
+    "start": 113.355,
+    "dur": 3.024,
+    "en": "The second. ve-NEER.",
+    "ar": "الثاني. ve-NEER."
+   },
+   {
+    "start": 116.729,
+    "dur": 3.792,
+    "en": "Veneer is the only one of the six stressed at the end.",
+    "ar": "Veneer هي الوحيدة من الستّ المشدّدة في النهاية."
+   },
+   {
+    "start": 120.871,
+    "dur": 3.72,
+    "en": "The other five are loud at the start, or in the middle.",
+    "ar": "الخمس الأخرى عالية في البداية، أو في الوسط."
+   },
+   {
+    "start": 124.941,
+    "dur": 4.128,
+    "en": "Say them once more: material, leather, plywood.",
+    "ar": "قلها مرّة أخرى: material، leather، plywood."
+   },
+   {
+    "start": 129.419,
+    "dur": 4.008,
+    "en": "Varnish, hardwood, veneer. Good.",
+    "ar": "Varnish، hardwood، veneer. جيّد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 37.23,
+    "hold": 14.61,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 51.886,
+    "hold": 15.47,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 67.407,
+    "hold": 15.23,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 82.688,
+    "hold": 16.53,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 99.805,
+    "hold": 16.55,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 127.619,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "schema": "timeline/1",
+ "duration": 139.015,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.528,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.328,
+    "dur": 7.584,
+    "en": "This is Part 4, Discussing Tools and Safety. You will compare two toolboxes and find three differences.",
+    "ar": "هذا الجزء الرابع، الحديث عن الأدوات والسلامة. ستقارن صندوقَي أدوات وتجد ثلاثة فروق."
+   },
+   {
+    "start": 15.262,
+    "dur": 5.016,
+    "en": "Three questions, Khaled. Answer with a reason.",
+    "ar": "ثلاثة أسئلة يا خالد. أجب مع سبب."
+   },
+   {
+    "start": 20.628,
+    "dur": 2.4,
+    "en": "What tools do you have at home?",
+    "ar": "ما الأدوات التي لديك في البيت؟"
+   },
+   {
+    "start": 27.852,
+    "dur": 4.176,
+    "en": "I have a hammer, a screwdriver, and a small saw.",
+    "ar": "لديّ مطرقة ومفكّ ومنشار صغير."
+   },
+   {
+    "start": 32.378,
+    "dur": 3.168,
+    "en": "Which tool do you use most, and what for?",
+    "ar": "أيّ أداة تستخدمها أكثر، وفيمَ؟"
+   },
+   {
+    "start": 40.957,
+    "dur": 4.752,
+    "en": "I use the screwdriver most. I use it to fix chairs.",
+    "ar": "أستخدم المفكّ أكثر. أستخدمه لإصلاح الكراسي."
+   },
+   {
+    "start": 46.059,
+    "dur": 3.12,
+    "en": "Why is safety important in a workshop?",
+    "ar": "لماذا السلامة مهمّة في الورشة؟"
+   },
+   {
+    "start": 54.415,
+    "dur": 4.2,
+    "en": "Safety is important because the machines are fast and sharp.",
+    "ar": "السلامة مهمّة لأنّ الآلات سريعة وحادّة."
+   },
+   {
+    "start": 58.965,
+    "dur": 5.496,
+    "en": "Use: I have, I use it to, safety is important because.",
+    "ar": "استخدم: لديّ، أستخدمه لـ، السلامة مهمّة لأنّ."
+   },
+   {
+    "start": 64.811,
+    "dur": 4.776,
+    "en": "Now a pair task. We each have a toolbox.",
+    "ar": "الآن مهمّة ثنائيّة. لكلٍّ منّا صندوق أدوات."
+   },
+   {
+    "start": 69.937,
+    "dur": 3.864,
+    "en": "Ask questions and find three differences.",
+    "ar": "اسأل أسئلة وجد ثلاثة فروق."
+   },
+   {
+    "start": 74.151,
+    "dur": 1.968,
+    "en": "Do you have a hammer?",
+    "ar": "هل لديك مطرقة؟"
+   },
+   {
+    "start": 76.469,
+    "dur": 3.6,
+    "en": "Yes, I do. And you?",
+    "ar": "نعم، لديّ. وأنت؟"
+   },
+   {
+    "start": 80.419,
+    "dur": 3.336,
+    "en": "Yes. So that is the same.",
+    "ar": "نعم. إذاً هذا متماثل."
+   },
+   {
+    "start": 84.105,
+    "dur": 1.872,
+    "en": "Do you have a saw?",
+    "ar": "هل لديك منشار؟"
+   },
+   {
+    "start": 86.327,
+    "dur": 3.648,
+    "en": "No. I have a screwdriver.",
+    "ar": "لا. لديّ مفكّ."
+   },
+   {
+    "start": 90.325,
+    "dur": 3.672,
+    "en": "I have a saw. That is one difference.",
+    "ar": "لديّ منشار. هذا فرق أوّل."
+   },
+   {
+    "start": 94.347,
+    "dur": 2.496,
+    "en": "Is there a drill in your box?",
+    "ar": "هل يوجد مثقاب في صندوقك؟"
+   },
+   {
+    "start": 97.193,
+    "dur": 2.04,
+    "en": "Yes, there is.",
+    "ar": "نعم، يوجد."
+   },
+   {
+    "start": 99.583,
+    "dur": 4.056,
+    "en": "Mine too. What safety gear is in your box?",
+    "ar": "وفي صندوقي أيضاً. ما معدّات السلامة في صندوقك؟"
+   },
+   {
+    "start": 103.989,
+    "dur": 1.872,
+    "en": "Gloves.",
+    "ar": "قفّازات."
+   },
+   {
+    "start": 106.211,
+    "dur": 3.648,
+    "en": "Goggles. That is the third difference.",
+    "ar": "نظّارات واقية. هذا الفرق الثالث."
+   },
+   {
+    "start": 110.209,
+    "dur": 3.36,
+    "en": "Which three questions found the differences?",
+    "ar": "أيّ ثلاثة أسئلة وجدت الفروق؟"
+   },
+   {
+    "start": 119.157,
+    "dur": 6.504,
+    "en": "Do you have a? Is there a? What safety gear is in your box?",
+    "ar": "هل لديك؟ هل يوجد؟ ما معدّات السلامة في صندوقك؟"
+   },
+   {
+    "start": 126.011,
+    "dur": 3.432,
+    "en": "Now prepare a talk of about one minute.",
+    "ar": "الآن حضّر حديثاً من دقيقة تقريباً."
+   },
+   {
+    "start": 129.793,
+    "dur": 3.408,
+    "en": "Explain how to use one tool safely.",
+    "ar": "اشرح كيف تستخدم أداة واحدة بأمان."
+   },
+   {
+    "start": 133.551,
+    "dur": 3.864,
+    "en": "Use first, then, always, and never.",
+    "ar": "استخدم أوّلاً، ثمّ، دائماً، وأبداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "hammer",
+    "label": "hammer",
+    "ar": "المطرقة",
+    "at": 27.852,
+    "hold": 3.0,
+    "img": "assets/vocab/hammer.png",
+    "sha": "908f838f252db90e"
+   },
+   {
+    "lemma": "screwdriver",
+    "label": "screwdriver",
+    "ar": "المفكّ",
+    "at": 40.957,
+    "hold": 3.0,
+    "img": "assets/vocab/screwdriver.png",
+    "sha": "a3473d6dd78e321b"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 92.997,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 104.411,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

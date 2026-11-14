@@ -1,0 +1,177 @@
+{
+ "schema": "timeline/1",
+ "duration": 123.746,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.84,
+    "en": "This is Part 2, Correct the Sentence. You will find one mistake in each of four sentences.",
+    "ar": "هذا الجزء الثاني، تصحيح الجملة. ستجد خطأً واحداً في كلّ جملة من أربع."
+   },
+   {
+    "start": 14.494,
+    "dur": 4.536,
+    "en": "Four sentences. Each has exactly one mistake.",
+    "ar": "أربع جمل. في كلّ واحدة خطأ واحد بالضبط."
+   },
+   {
+    "start": 19.38,
+    "dur": 2.016,
+    "en": "Wears your goggles!",
+    "ar": "صحّح هذه الجملة: «Wears your goggles!»"
+   },
+   {
+    "start": 25.514,
+    "dur": 4.416,
+    "en": "Wear your goggles. An instruction uses the base verb.",
+    "ar": "Wear your goggles. التعليمة تستخدم الفعل المجرّد."
+   },
+   {
+    "start": 30.28,
+    "dur": 2.088,
+    "en": "Don't touches the blade.",
+    "ar": "صحّح هذه الجملة: «Don't touches the blade.»"
+   },
+   {
+    "start": 36.779,
+    "dur": 4.896,
+    "en": "Don't touch the blade. After don't, the verb never changes.",
+    "ar": "Don't touch the blade. بعد don't لا يتغيّر الفعل."
+   },
+   {
+    "start": 42.025,
+    "dur": 2.16,
+    "en": "You keep the floor clean.",
+    "ar": "صحّح هذه الجملة: «You keep the floor clean.»"
+   },
+   {
+    "start": 48.656,
+    "dur": 4.584,
+    "en": "Keep the floor clean. An instruction has no subject.",
+    "ar": "Keep the floor clean. التعليمة بلا فاعل."
+   },
+   {
+    "start": 53.59,
+    "dur": 2.928,
+    "en": "Please to ask before you use a machine.",
+    "ar": "صحّح هذه الجملة: «Please to ask before you use a machine.»"
+   },
+   {
+    "start": 61.812,
+    "dur": 4.704,
+    "en": "Please ask before you use a machine. No to after please.",
+    "ar": "Please ask before you use a machine. لا to بعد please."
+   },
+   {
+    "start": 66.866,
+    "dur": 2.856,
+    "en": "Three mistakes were the same mistake.",
+    "ar": "ثلاثة أخطاء كانت الخطأ نفسه."
+   },
+   {
+    "start": 70.072,
+    "dur": 3.312,
+    "en": "Somebody added something in front of the verb.",
+    "ar": "أحدهم أضاف شيئاً أمام الفعل."
+   },
+   {
+    "start": 73.734,
+    "dur": 5.304,
+    "en": "An s, a subject, or a to. The verb wants none of them.",
+    "ar": "حرف s، أو فاعل، أو to. الفعل لا يريد أيّاً منها."
+   },
+   {
+    "start": 79.388,
+    "dur": 4.464,
+    "en": "Now two questions. Choose the correct sentence.",
+    "ar": "الآن سؤالان. اختر الجملة الصحيحة."
+   },
+   {
+    "start": 84.202,
+    "dur": 3.984,
+    "en": "Which is a correct safety rule, of the four on screen?",
+    "ar": "أيّ قاعدة سلامة صحيحة من الأربع على الشاشة؟"
+   },
+   {
+    "start": 94.363,
+    "dur": 2.352,
+    "en": "B. Wear your goggles.",
+    "ar": "ب. Wear your goggles."
+   },
+   {
+    "start": 97.065,
+    "dur": 3.816,
+    "en": "Which shows the correct order, of the four on screen?",
+    "ar": "أيّها يبيّن الترتيب الصحيح من الأربعة على الشاشة؟"
+   },
+   {
+    "start": 106.998,
+    "dur": 5.496,
+    "en": "C. First measure. Then cut. Finally sand.",
+    "ar": "ج. First measure. Then cut. Finally sand."
+   },
+   {
+    "start": 112.844,
+    "dur": 5.256,
+    "en": "First always comes first. Finally always comes last.",
+    "ar": "First تأتي أوّلاً دائماً. Finally تأتي أخيراً دائماً."
+   },
+   {
+    "start": 118.45,
+    "dur": 3.696,
+    "en": "If they are not in that order, the sentence is wrong.",
+    "ar": "إن لم تكونا بذلك الترتيب، فالجملة خطأ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 18.043,
+    "hold": 10.47,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 29.205,
+    "hold": 10.57,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 94.363,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

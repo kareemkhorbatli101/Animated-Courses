@@ -1,0 +1,216 @@
+{
+ "schema": "timeline/1",
+ "duration": 132.444,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.336,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 13.99,
+    "dur": 4.368,
+    "en": "Six words. Say each one aloud after me.",
+    "ar": "ستّ كلمات. قل كلّ واحدة بصوت عالٍ بعدي."
+   },
+   {
+    "start": 18.708,
+    "dur": 3.936,
+    "en": "Workshop. Two parts: WORK-shop.",
+    "ar": "Workshop. مقطعان: WORK-shop."
+   },
+   {
+    "start": 22.994,
+    "dur": 2.688,
+    "en": "Which part of workshop is loud?",
+    "ar": "أيّ مقطع في workshop هو العالي؟"
+   },
+   {
+    "start": 30.506,
+    "dur": 2.976,
+    "en": "The first. WORK-shop.",
+    "ar": "الأوّل. WORK-shop."
+   },
+   {
+    "start": 33.832,
+    "dur": 3.576,
+    "en": "Hammer. Two parts: HAM-mer.",
+    "ar": "Hammer. مقطعان: HAM-mer."
+   },
+   {
+    "start": 37.758,
+    "dur": 2.544,
+    "en": "Which part of hammer is loud?",
+    "ar": "أيّ مقطع في hammer هو العالي؟"
+   },
+   {
+    "start": 45.007,
+    "dur": 2.904,
+    "en": "The first. HAM-mer.",
+    "ar": "الأوّل. HAM-mer."
+   },
+   {
+    "start": 48.261,
+    "dur": 4.392,
+    "en": "Screwdriver. Three parts: SCREW-driv-er.",
+    "ar": "Screwdriver. ثلاثة مقاطع: SCREW-driv-er."
+   },
+   {
+    "start": 53.004,
+    "dur": 2.832,
+    "en": "Which part of screwdriver is loud?",
+    "ar": "أيّ مقطع في screwdriver هو العالي؟"
+   },
+   {
+    "start": 60.836,
+    "dur": 3.12,
+    "en": "The first. SCREW-driv-er.",
+    "ar": "الأوّل. SCREW-driv-er."
+   },
+   {
+    "start": 64.306,
+    "dur": 4.296,
+    "en": "Chisel. Two parts: CHIS-el.",
+    "ar": "Chisel. مقطعان: CHIS-el."
+   },
+   {
+    "start": 68.952,
+    "dur": 4.416,
+    "en": "The CH sounds like the ch in chair, not like a k.",
+    "ar": "حرفا CH يُلفظان كما في chair، لا كحرف الكاف."
+   },
+   {
+    "start": 73.718,
+    "dur": 2.568,
+    "en": "Which part of chisel is loud?",
+    "ar": "أيّ مقطع في chisel هو العالي؟"
+   },
+   {
+    "start": 80.991,
+    "dur": 3.312,
+    "en": "The first. CHIS-el.",
+    "ar": "الأوّل. CHIS-el."
+   },
+   {
+    "start": 84.653,
+    "dur": 2.448,
+    "en": "Now the two that are different.",
+    "ar": "الآن الكلمتان المختلفتان."
+   },
+   {
+    "start": 87.451,
+    "dur": 4.2,
+    "en": "Assemble. Three parts: as-SEM-ble.",
+    "ar": "Assemble. ثلاثة مقاطع: as-SEM-ble."
+   },
+   {
+    "start": 92.001,
+    "dur": 2.616,
+    "en": "Which part of assemble is loud?",
+    "ar": "أيّ مقطع في assemble هو العالي؟"
+   },
+   {
+    "start": 99.441,
+    "dur": 3.216,
+    "en": "The second. as-SEM-ble.",
+    "ar": "الثاني. as-SEM-ble."
+   },
+   {
+    "start": 103.007,
+    "dur": 3.792,
+    "en": "Machine. Two parts: ma-CHINE.",
+    "ar": "Machine. مقطعان: ma-CHINE."
+   },
+   {
+    "start": 107.149,
+    "dur": 2.568,
+    "en": "Which part of machine is loud?",
+    "ar": "أيّ مقطع في machine هو العالي؟"
+   },
+   {
+    "start": 114.482,
+    "dur": 2.928,
+    "en": "The second. ma-CHINE.",
+    "ar": "الثاني. ma-CHINE."
+   },
+   {
+    "start": 117.76,
+    "dur": 3.528,
+    "en": "In machine, the CH sounds like SH.",
+    "ar": "في machine، حرفا CH يُلفظان كالشين."
+   },
+   {
+    "start": 121.638,
+    "dur": 3.936,
+    "en": "So chisel starts with ch, and machine has sh.",
+    "ar": "إذاً chisel تبدأ بـ ch، وmachine فيها sh."
+   },
+   {
+    "start": 125.924,
+    "dur": 4.92,
+    "en": "Four words are loud at the start. Two are loud after it.",
+    "ar": "أربع كلمات عالية في البداية. واثنتان عالية بعدها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "hammer",
+    "label": "hammer",
+    "ar": "المطرقة",
+    "at": 36.583,
+    "hold": 9.83,
+    "img": "assets/vocab/hammer.png",
+    "sha": "908f838f252db90e"
+   },
+   {
+    "lemma": "screwdriver",
+    "label": "screwdriver",
+    "ar": "المفكّ",
+    "at": 46.461,
+    "hold": 15.99,
+    "img": "assets/vocab/screwdriver.png",
+    "sha": "a3473d6dd78e321b"
+   },
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 62.506,
+    "hold": 3.0,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   },
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 72.505,
+    "hold": 11.49,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

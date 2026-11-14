@@ -1,0 +1,264 @@
+{
+ "schema": "timeline/1",
+ "duration": 141.503,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 7.296,
+    "en": "This is Part 9, Using Local Walnut Wisely. You will decide what a Syrian workshop should buy.",
+    "ar": "هذا الجزء التاسع، استخدام الجوز المحلّيّ بحكمة. ستقرّر ما ينبغي أن تشتريه ورشة سوريّة."
+   },
+   {
+    "start": 14.854,
+    "dur": 4.152,
+    "en": "Why is beautiful walnut hard to use for a whole sofa?",
+    "ar": "لماذا يصعب استخدام الجوز الجميل لكنبة كاملة؟"
+   },
+   {
+    "start": 19.356,
+    "dur": 3.432,
+    "en": "We wanted to use beautiful Syrian walnut.",
+    "ar": "أردنا استخدام الجوز السوريّ الجميل."
+   },
+   {
+    "start": 23.138,
+    "dur": 3.36,
+    "en": "But walnut is expensive and hard to find.",
+    "ar": "لكنّ الجوز غالٍ ويصعب إيجاده."
+   },
+   {
+    "start": 26.848,
+    "dur": 3.696,
+    "en": "Solid walnut for a whole sofa cost too much.",
+    "ar": "الجوز المصمت لكنبة كاملة كلّف أكثر من اللازم."
+   },
+   {
+    "start": 30.894,
+    "dur": 2.664,
+    "en": "So I found a clever solution.",
+    "ar": "فوجدت حلّاً ذكيّاً."
+   },
+   {
+    "start": 33.908,
+    "dur": 2.808,
+    "en": "I bought a small amount of walnut.",
+    "ar": "اشتريت كمّيّة صغيرة من الجوز."
+   },
+   {
+    "start": 37.066,
+    "dur": 4.056,
+    "en": "I used it only for the parts you see: the front and the top.",
+    "ar": "استخدمته فقط للأجزاء الظاهرة: الواجهة والسطح."
+   },
+   {
+    "start": 41.472,
+    "dur": 3.648,
+    "en": "For the parts inside, I used cheaper plywood.",
+    "ar": "للأجزاء الداخليّة، استخدمت خشباً رقائقيّاً أرخص."
+   },
+   {
+    "start": 45.47,
+    "dur": 2.928,
+    "en": "I also bought thin walnut veneer.",
+    "ar": "واشتريت أيضاً قشرة جوز رقيقة."
+   },
+   {
+    "start": 48.748,
+    "dur": 2.952,
+    "en": "I glued it onto the plywood doors.",
+    "ar": "ولصقتها على أبواب الخشب الرقائقي."
+   },
+   {
+    "start": 52.05,
+    "dur": 4.032,
+    "en": "The furniture looked like solid walnut but cost much less.",
+    "ar": "بدا الأثاث كأنّه جوز مصمت لكنّه كلّف أقلّ بكثير."
+   },
+   {
+    "start": 56.432,
+    "dur": 4.176,
+    "en": "Customers loved the warm colour, and our prices stayed fair.",
+    "ar": "أحبّ الزبائن اللون الدافئ، وبقيت أسعارنا عادلة."
+   },
+   {
+    "start": 60.958,
+    "dur": 3.624,
+    "en": "Why couldn't they use solid walnut everywhere?",
+    "ar": "لماذا لم يستطيعوا استخدام الجوز المصمت في كلّ مكان؟"
+   },
+   {
+    "start": 70.288,
+    "dur": 3.624,
+    "en": "It was too expensive, and hard to find.",
+    "ar": "كان غالياً جدّاً، ويصعب إيجاده."
+   },
+   {
+    "start": 74.262,
+    "dur": 3.408,
+    "en": "Where did Sami use the real walnut?",
+    "ar": "أين استخدم سامي الجوز الحقيقيّ؟"
+   },
+   {
+    "start": 82.729,
+    "dur": 4.392,
+    "en": "For the parts you see. The front and the top.",
+    "ar": "للأجزاء الظاهرة. الواجهة والسطح."
+   },
+   {
+    "start": 87.471,
+    "dur": 3.144,
+    "en": "What did he glue onto the plywood doors?",
+    "ar": "ماذا لصق على أبواب الخشب الرقائقي؟"
+   },
+   {
+    "start": 95.968,
+    "dur": 2.376,
+    "en": "Thin walnut veneer.",
+    "ar": "قشرة جوز رقيقة."
+   },
+   {
+    "start": 98.694,
+    "dur": 4.896,
+    "en": "Now a decision. We have a little money for one new thing.",
+    "ar": "الآن قرار. لدينا مال قليل لشيء جديد واحد."
+   },
+   {
+    "start": 103.94,
+    "dur": 4.68,
+    "en": "More solid walnut, a machine to cut veneer, or better fabric?",
+    "ar": "جوز مصمت أكثر، آلة لقصّ القشرة، أم قماش أفضل؟"
+   },
+   {
+    "start": 108.97,
+    "dur": 2.712,
+    "en": "What should they buy, and why?",
+    "ar": "ماذا ينبغي أن يشتروا، ولماذا؟"
+   },
+   {
+    "start": 116.447,
+    "dur": 5.136,
+    "en": "I think the veneer machine, because veneer makes a little walnut go far.",
+    "ar": "أعتقد آلة القشرة، لأنّ القشرة تجعل قليلاً من الجوز يكفي كثيراً."
+   },
+   {
+    "start": 121.933,
+    "dur": 3.168,
+    "en": "Also, they can cut it when they need it.",
+    "ar": "وأيضاً، يستطيعون قصّها حين يحتاجونها."
+   },
+   {
+    "start": 125.451,
+    "dur": 5.688,
+    "en": "This is better than more solid walnut, because solid walnut costs too much.",
+    "ar": "هذا أفضل من جوز مصمت أكثر، لأنّ الجوز المصمت يكلّف كثيراً."
+   },
+   {
+    "start": 131.489,
+    "dur": 4.416,
+    "en": "That is one good answer. Yours may be different.",
+    "ar": "تلك إجابة جيّدة واحدة. إجابتك قد تكون مختلفة."
+   },
+   {
+    "start": 136.255,
+    "dur": 3.648,
+    "en": "Give a reason, and your answer is a good one too.",
+    "ar": "أعطِ سبباً، وتكون إجابتك جيّدة أيضاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 14.854,
+    "hold": 2.14,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 41.797,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 45.145,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 60.583,
+    "hold": 9.65,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 74.162,
+    "hold": 8.52,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 86.821,
+    "hold": 9.1,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 95.968,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 116.447,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

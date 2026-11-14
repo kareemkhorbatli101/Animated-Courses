@@ -1,0 +1,240 @@
+{
+ "schema": "timeline/1",
+ "duration": 157.455,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 6.0,
+    "en": "This is Part 2, Practice. You will complete eight sentences about the store.",
+    "ar": "هذا الجزء الثاني، التدريب. ستكمل ثماني جمل عن المستودع."
+   },
+   {
+    "start": 13.558,
+    "dur": 4.2,
+    "en": "Eight sentences. Four with there is or there are.",
+    "ar": "ثماني جمل. أربع بـ there is أو there are."
+   },
+   {
+    "start": 18.108,
+    "dur": 3.792,
+    "en": "The first is done: there is a sofa in the showroom.",
+    "ar": "الأولى محلولة: توجد كنبة في صالة العرض."
+   },
+   {
+    "start": 22.25,
+    "dur": 2.928,
+    "en": "Blank three armchairs near the window.",
+    "ar": "ـــ ثلاثة كراسٍ وثيرة قرب النافذة."
+   },
+   {
+    "start": 30.413,
+    "dur": 4.08,
+    "en": "There are. There are three armchairs near the window.",
+    "ar": "There are. توجد ثلاثة كراسٍ وثيرة قرب النافذة."
+   },
+   {
+    "start": 34.843,
+    "dur": 2.736,
+    "en": "Blank some foam inside the cushion.",
+    "ar": "ـــ بعض الإسفنج داخل الوسادة."
+   },
+   {
+    "start": 42.638,
+    "dur": 4.08,
+    "en": "There is. There is some foam inside the cushion.",
+    "ar": "There is. يوجد بعض الإسفنج داخل الوسادة."
+   },
+   {
+    "start": 47.068,
+    "dur": 2.664,
+    "en": "Blank many screws in the box.",
+    "ar": "ـــ براغٍ كثيرة في الصندوق."
+   },
+   {
+    "start": 54.438,
+    "dur": 3.768,
+    "en": "There are. There are many screws in the box.",
+    "ar": "There are. توجد براغٍ كثيرة في الصندوق."
+   },
+   {
+    "start": 58.556,
+    "dur": 2.616,
+    "en": "Blank a little glue on the table.",
+    "ar": "ـــ قليل من الغراء على الطاولة."
+   },
+   {
+    "start": 66.113,
+    "dur": 3.984,
+    "en": "There is. There is a little glue on the table.",
+    "ar": "There is. يوجد قليل من الغراء على الطاولة."
+   },
+   {
+    "start": 70.447,
+    "dur": 4.728,
+    "en": "Good. Armchairs and screws are counted, so there are.",
+    "ar": "جيّد. الكراسي والبراغي معدودة، لذا there are."
+   },
+   {
+    "start": 75.525,
+    "dur": 3.456,
+    "en": "Foam and glue are not counted, so there is.",
+    "ar": "الإسفنج والغراء غير معدودين، لذا there is."
+   },
+   {
+    "start": 79.331,
+    "dur": 4.104,
+    "en": "Now four more. Choose the correct word.",
+    "ar": "الآن أربع أخرى. اختر الكلمة الصحيحة."
+   },
+   {
+    "start": 83.785,
+    "dur": 4.152,
+    "en": "There isn't blank walnut this week. Some or any?",
+    "ar": "لا يوجد ـــ جوز هذا الأسبوع. some أم any؟"
+   },
+   {
+    "start": 93.761,
+    "dur": 3.648,
+    "en": "Any. There isn't any walnut this week.",
+    "ar": "Any. لا يوجد أيّ جوز هذا الأسبوع."
+   },
+   {
+    "start": 97.759,
+    "dur": 3.84,
+    "en": "How blank wood do we need? Much or many?",
+    "ar": "كم ـــ خشباً نحتاج؟ much أم many؟"
+   },
+   {
+    "start": 106.952,
+    "dur": 3.36,
+    "en": "Much. How much wood do we need?",
+    "ar": "Much. كم خشباً نحتاج؟"
+   },
+   {
+    "start": 110.662,
+    "dur": 4.104,
+    "en": "We have blank beautiful velvet. Some or any?",
+    "ar": "لدينا ـــ مخمل جميل. some أم any؟"
+   },
+   {
+    "start": 120.354,
+    "dur": 3.696,
+    "en": "Some. We have some beautiful velvet.",
+    "ar": "Some. لدينا بعض المخمل الجميل."
+   },
+   {
+    "start": 124.4,
+    "dur": 4.104,
+    "en": "There aren't blank clamps left. Much or many?",
+    "ar": "لم يتبقَّ ـــ مشابك. much أم many؟"
+   },
+   {
+    "start": 134.151,
+    "dur": 3.648,
+    "en": "Many. There aren't many clamps left.",
+    "ar": "Many. لم يتبقَّ مشابك كثيرة."
+   },
+   {
+    "start": 138.149,
+    "dur": 2.592,
+    "en": "Notice the pattern, Khaled.",
+    "ar": "لاحظ النمط يا خالد."
+   },
+   {
+    "start": 141.091,
+    "dur": 4.872,
+    "en": "Any went in the minus sentence. Some went in the plus one.",
+    "ar": "Any جاءت في الجملة المنفيّة. Some جاءت في المثبتة."
+   },
+   {
+    "start": 146.313,
+    "dur": 4.176,
+    "en": "Much went with wood. Many went with clamps.",
+    "ar": "Much جاءت مع الخشب. Many جاءت مع المشابك."
+   },
+   {
+    "start": 150.839,
+    "dur": 5.016,
+    "en": "Count it, and you say many. Weigh it, and you say much.",
+    "ar": "إن عددته، تقول many. إن وزنته، تقول much."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 33.581,
+    "hold": 12.11,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "screws",
+    "label": "screws",
+    "ar": "البراغي",
+    "at": 45.843,
+    "hold": 11.53,
+    "img": "assets/vocab/screws.png",
+    "sha": "ace33679cc1f19ae"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 57.419,
+    "hold": 11.9,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 73.725,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 82.76,
+    "hold": 14.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 110.012,
+    "hold": 13.71,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

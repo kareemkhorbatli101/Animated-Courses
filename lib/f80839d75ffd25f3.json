@@ -1,0 +1,279 @@
+{
+ "schema": "timeline/1",
+ "duration": 151.33,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 8.04,
+    "en": "This is Part 9, A Family Workshop Upgrades Its Tools. You will decide what a Damascus workshop should buy.",
+    "ar": "هذا الجزء التاسع، ورشة عائليّة تطوّر أدواتها. ستقرّر ما ينبغي أن تشتريه ورشة دمشقيّة."
+   },
+   {
+    "start": 15.694,
+    "dur": 4.656,
+    "en": "What is good, and what is hard, about using only hand tools?",
+    "ar": "ما الجيّد وما الصعب في استخدام الأدوات اليدويّة وحدها؟"
+   },
+   {
+    "start": 20.7,
+    "dur": 3.864,
+    "en": "The Haddad family has a small workshop in Damascus.",
+    "ar": "لعائلة حدّاد ورشة صغيرة في دمشق."
+   },
+   {
+    "start": 24.914,
+    "dur": 3.624,
+    "en": "For many years, they used only hand tools.",
+    "ar": "لسنوات كثيرة، استخدموا أدوات يدويّة فقط."
+   },
+   {
+    "start": 28.888,
+    "dur": 2.952,
+    "en": "A saw, a chisel, and a hammer.",
+    "ar": "منشار، وإزميل، ومطرقة."
+   },
+   {
+    "start": 32.19,
+    "dur": 2.712,
+    "en": "The work was slow but beautiful.",
+    "ar": "كان العمل بطيئاً لكنّه جميل."
+   },
+   {
+    "start": 35.252,
+    "dur": 3.24,
+    "en": "Last year, the family saved some money.",
+    "ar": "في العام الماضي، ادّخرت العائلة بعض المال."
+   },
+   {
+    "start": 38.842,
+    "dur": 2.616,
+    "en": "They bought one electric drill.",
+    "ar": "اشتروا مثقاباً كهربائيّاً واحداً."
+   },
+   {
+    "start": 41.808,
+    "dur": 2.136,
+    "en": "And they bought a sander.",
+    "ar": "واشتروا آلة صنفرة."
+   },
+   {
+    "start": 44.294,
+    "dur": 3.744,
+    "en": "At first, the old father was worried about safety.",
+    "ar": "في البداية، كان الأب المسنّ قلقاً على السلامة."
+   },
+   {
+    "start": 48.388,
+    "dur": 2.832,
+    "en": "So his son made simple rules.",
+    "ar": "فوضع ابنه قواعد بسيطة."
+   },
+   {
+    "start": 51.57,
+    "dur": 4.416,
+    "en": "Always wear goggles. Keep the area clean.",
+    "ar": "ارتدِ النظّارات دائماً. أبقِ المنطقة نظيفة."
+   },
+   {
+    "start": 56.336,
+    "dur": 3.36,
+    "en": "And unplug the machine before you change a part.",
+    "ar": "وافصل الآلة عن الكهرباء قبل أن تغيّر قطعة."
+   },
+   {
+    "start": 60.046,
+    "dur": 2.544,
+    "en": "Now the workshop is faster.",
+    "ar": "الآن الورشة أسرع."
+   },
+   {
+    "start": 62.94,
+    "dur": 3.288,
+    "en": "But it keeps the same careful hand skills.",
+    "ar": "لكنّها تحتفظ بالمهارات اليدويّة الدقيقة نفسها."
+   },
+   {
+    "start": 66.578,
+    "dur": 3.624,
+    "en": "The father says: the machine helps my hands.",
+    "ar": "يقول الأب: الآلة تساعد يديّ."
+   },
+   {
+    "start": 70.552,
+    "dur": 2.256,
+    "en": "But it does not replace them.",
+    "ar": "لكنّها لا تحلّ محلّهما."
+   },
+   {
+    "start": 73.158,
+    "dur": 3.312,
+    "en": "What tools did the family use for many years?",
+    "ar": "ما الأدوات التي استخدمتها العائلة سنوات كثيرة؟"
+   },
+   {
+    "start": 82.117,
+    "dur": 4.704,
+    "en": "Only hand tools. A saw, a chisel, and a hammer.",
+    "ar": "أدوات يدويّة فقط. منشار وإزميل ومطرقة."
+   },
+   {
+    "start": 87.171,
+    "dur": 2.28,
+    "en": "What did they buy last year?",
+    "ar": "ماذا اشتروا العام الماضي؟"
+   },
+   {
+    "start": 94.098,
+    "dur": 2.808,
+    "en": "An electric drill and a sander.",
+    "ar": "مثقاباً كهربائيّاً وآلة صنفرة."
+   },
+   {
+    "start": 97.256,
+    "dur": 2.88,
+    "en": "What safety rules did the son make?",
+    "ar": "ما قواعد السلامة التي وضعها الابن؟"
+   },
+   {
+    "start": 105.195,
+    "dur": 5.736,
+    "en": "Wear goggles, keep the area clean, and unplug the machine before you change a part.",
+    "ar": "ارتدِ النظّارات، أبقِ المنطقة نظيفة، وافصل الآلة عن الكهرباء قبل أن تغيّر قطعة."
+   },
+   {
+    "start": 111.281,
+    "dur": 4.512,
+    "en": "Now a decision. They have a little money for one thing.",
+    "ar": "الآن قرار. لديهم مال قليل لشيء واحد."
+   },
+   {
+    "start": 116.143,
+    "dur": 4.464,
+    "en": "Another machine, better safety gear, or train a young worker?",
+    "ar": "آلة أخرى، معدّات سلامة أفضل، أم تدريب عامل شابّ؟"
+   },
+   {
+    "start": 120.957,
+    "dur": 2.496,
+    "en": "What should they buy, and why?",
+    "ar": "ماذا ينبغي أن يشتروا، ولماذا؟"
+   },
+   {
+    "start": 128.218,
+    "dur": 4.44,
+    "en": "I think better safety gear, because safety must come first.",
+    "ar": "أعتقد معدّات سلامة أفضل، لأنّ السلامة يجب أن تأتي أوّلاً."
+   },
+   {
+    "start": 133.008,
+    "dur": 3.288,
+    "en": "Also, gear costs less than a machine.",
+    "ar": "وأيضاً، المعدّات أقلّ كلفة من آلة."
+   },
+   {
+    "start": 136.646,
+    "dur": 4.32,
+    "en": "This is better than another machine, because they have two already.",
+    "ar": "هذا أفضل من آلة أخرى، لأنّ لديهم اثنتين أصلاً."
+   },
+   {
+    "start": 141.316,
+    "dur": 4.416,
+    "en": "That is one good answer. Yours may be different.",
+    "ar": "تلك إجابة جيّدة واحدة. إجابتك قد تكون مختلفة."
+   },
+   {
+    "start": 146.082,
+    "dur": 3.648,
+    "en": "Give a reason, and your answer is a good one too.",
+    "ar": "أعطِ سبباً، وتكون إجابتك جيّدة أيضاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "chisel",
+    "label": "chisel",
+    "ar": "الإزميل",
+    "at": 27.813,
+    "hold": 3.0,
+    "img": "assets/vocab/chisel.png",
+    "sha": "fefedff2e5a53048"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 38.23,
+    "hold": 2.5,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "sander",
+    "label": "sander",
+    "ar": "آلة الصنفرة",
+    "at": 40.78,
+    "hold": 2.87,
+    "img": "assets/vocab/sander.png",
+    "sha": "c1accc2aa3694f3e"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 50.495,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "saw",
+    "label": "saw",
+    "ar": "المنشار",
+    "at": 82.117,
+    "hold": 3.08,
+    "img": "assets/vocab/saw.png",
+    "sha": "420af78516e320d5"
+   },
+   {
+    "lemma": "drill",
+    "label": "drill",
+    "ar": "المثقاب",
+    "at": 94.098,
+    "hold": 3.0,
+    "img": "assets/vocab/drill.png",
+    "sha": "0db9e64d9deeb176"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 105.195,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

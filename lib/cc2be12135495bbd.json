@@ -1,0 +1,507 @@
+{
+ "schema": "timeline/1",
+ "duration": 278.86,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 5.088,
+    "en": "This is the Warm Up. You will meet the ten materials of the unit.",
+    "ar": "هذا هو التمهيد. ستتعرّف على موادّ الوحدة العشر."
+   },
+   {
+    "start": 12.646,
+    "dur": 2.928,
+    "en": "Welcome back to the store, Khaled.",
+    "ar": "أهلاً بعودتك إلى المستودع يا خالد."
+   },
+   {
+    "start": 15.924,
+    "dur": 3.432,
+    "en": "In Unit 1 we learned the parts of a sofa.",
+    "ar": "في الوحدة الأولى تعلّمنا أجزاء الكنبة."
+   },
+   {
+    "start": 19.706,
+    "dur": 3.456,
+    "en": "Today we learn the materials we build them from.",
+    "ar": "اليوم نتعلّم المواد التي نصنعها منها."
+   },
+   {
+    "start": 23.512,
+    "dur": 4.536,
+    "en": "Ten words. Look at each one before I name it.",
+    "ar": "عشر كلمات. انظر إلى كلٍّ منها قبل أن أسمّيها."
+   },
+   {
+    "start": 28.398,
+    "dur": 4.608,
+    "en": "This is hardwood. It comes from slow-growing trees.",
+    "ar": "هذا خشب صلب. يأتي من أشجار بطيئة النموّ."
+   },
+   {
+    "start": 33.356,
+    "dur": 4.848,
+    "en": "Oak and walnut are hardwoods. They are hard and strong.",
+    "ar": "البلّوط والجوز خشب صلب. إنّهما قاسيان وقويّان."
+   },
+   {
+    "start": 38.554,
+    "dur": 5.256,
+    "en": "This is softwood. It comes from fast-growing trees like pine.",
+    "ar": "هذا خشب لين. يأتي من أشجار سريعة النموّ مثل الصنوبر."
+   },
+   {
+    "start": 44.16,
+    "dur": 3.312,
+    "en": "Softwood is lighter and cheaper than hardwood.",
+    "ar": "الخشب اللين أخفّ وأرخص من الخشب الصلب."
+   },
+   {
+    "start": 47.822,
+    "dur": 4.68,
+    "en": "This is veneer. It is a very thin layer of nice wood.",
+    "ar": "هذه قشرة خشبية. إنّها طبقة رقيقة جداً من خشب جميل."
+   },
+   {
+    "start": 52.852,
+    "dur": 2.928,
+    "en": "We glue it on top of a cheaper board.",
+    "ar": "نلصقها فوق لوح أرخص."
+   },
+   {
+    "start": 56.13,
+    "dur": 4.776,
+    "en": "This is varnish. It is a clear liquid we paint on wood.",
+    "ar": "هذا ورنيش. إنّه سائل شفّاف ندهنه على الخشب."
+   },
+   {
+    "start": 61.256,
+    "dur": 3.24,
+    "en": "Varnish protects the wood and makes it shine.",
+    "ar": "الورنيش يحمي الخشب ويجعله لامعاً."
+   },
+   {
+    "start": 64.846,
+    "dur": 4.512,
+    "en": "This is plywood. Thin layers of wood glued together.",
+    "ar": "هذا خشب رقائقي. طبقات رقيقة من الخشب ملصوقة معاً."
+   },
+   {
+    "start": 69.708,
+    "dur": 2.76,
+    "en": "The layers make it a strong board.",
+    "ar": "الطبقات تجعله لوحاً قويّاً."
+   },
+   {
+    "start": 72.818,
+    "dur": 4.56,
+    "en": "This is foam. It is a soft material for cushions.",
+    "ar": "هذا إسفنج. إنّه مادّة ناعمة للوسائد."
+   },
+   {
+    "start": 77.728,
+    "dur": 3.768,
+    "en": "This is leather. It is an animal skin.",
+    "ar": "هذا جلد. إنّه جلد حيوان."
+   },
+   {
+    "start": 81.846,
+    "dur": 3.12,
+    "en": "We use it to cover sofas and chairs.",
+    "ar": "نستخدمه لتغطية الكنبات والكراسي."
+   },
+   {
+    "start": 85.316,
+    "dur": 4.032,
+    "en": "This is velvet. It is a soft fabric.",
+    "ar": "هذا مخمل. إنّه قماش ناعم."
+   },
+   {
+    "start": 89.698,
+    "dur": 3.552,
+    "en": "It has a short, thick, furry surface.",
+    "ar": "له سطح قصير وكثيف وناعم كالفرو."
+   },
+   {
+    "start": 93.6,
+    "dur": 4.392,
+    "en": "This is walnut. It is a dark brown hardwood.",
+    "ar": "هذا جوز. إنّه خشب صلب بنّي داكن."
+   },
+   {
+    "start": 98.342,
+    "dur": 3.912,
+    "en": "Syrian walnut is beautiful, but it is expensive.",
+    "ar": "الجوز السوري جميل، لكنّه غالٍ."
+   },
+   {
+    "start": 102.604,
+    "dur": 2.136,
+    "en": "And this is upholstery.",
+    "ar": "وهذا هو التنجيد."
+   },
+   {
+    "start": 105.09,
+    "dur": 3.528,
+    "en": "Upholstery is the cover and the padding on a sofa.",
+    "ar": "التنجيد هو الغطاء والحشوة على الكنبة."
+   },
+   {
+    "start": 108.968,
+    "dur": 3.456,
+    "en": "Now match five materials with their meanings.",
+    "ar": "الآن طابِق خمس موادّ مع معانيها."
+   },
+   {
+    "start": 112.774,
+    "dur": 1.872,
+    "en": "What is leather?",
+    "ar": "ما هو الجلد؟"
+   },
+   {
+    "start": 118.646,
+    "dur": 3.576,
+    "en": "An animal skin used to cover sofas and chairs.",
+    "ar": "جلد حيوان يُستخدم لتغطية الكنبات والكراسي."
+   },
+   {
+    "start": 122.572,
+    "dur": 1.872,
+    "en": "What is foam?",
+    "ar": "ما هو الإسفنج؟"
+   },
+   {
+    "start": 128.444,
+    "dur": 3.336,
+    "en": "A soft material we put inside cushions.",
+    "ar": "مادّة ناعمة نضعها داخل الوسائد."
+   },
+   {
+    "start": 132.13,
+    "dur": 1.944,
+    "en": "What is plywood?",
+    "ar": "ما هو الخشب الرقائقي؟"
+   },
+   {
+    "start": 138.074,
+    "dur": 3.816,
+    "en": "Thin layers of wood glued together to make strong boards.",
+    "ar": "طبقات رقيقة من الخشب ملصوقة معاً لصنع ألواح قويّة."
+   },
+   {
+    "start": 142.24,
+    "dur": 1.872,
+    "en": "What is glass?",
+    "ar": "ما هو الزجاج؟"
+   },
+   {
+    "start": 148.112,
+    "dur": 3.48,
+    "en": "A hard, clear material we can see through.",
+    "ar": "مادّة قاسية وشفّافة نرى من خلالها."
+   },
+   {
+    "start": 151.942,
+    "dur": 1.872,
+    "en": "What is steel?",
+    "ar": "ما هو الفولاذ؟"
+   },
+   {
+    "start": 157.814,
+    "dur": 3.432,
+    "en": "A strong metal used for legs and frames.",
+    "ar": "معدن قويّ يُستخدم للأرجل والهياكل."
+   },
+   {
+    "start": 161.596,
+    "dur": 4.656,
+    "en": "Good. Now finish four sentences about materials.",
+    "ar": "جيّد. الآن أكمِل أربع جمل عن المواد."
+   },
+   {
+    "start": 166.602,
+    "dur": 3.456,
+    "en": "The frame of the sofa is made of strong what?",
+    "ar": "هيكل الكنبة مصنوع من ماذا القويّ؟"
+   },
+   {
+    "start": 175.705,
+    "dur": 4.488,
+    "en": "Wood. The frame of the sofa is made of strong wood.",
+    "ar": "خشب. هيكل الكنبة مصنوع من خشب قويّ."
+   },
+   {
+    "start": 180.543,
+    "dur": 3.528,
+    "en": "The soft what inside the cushion makes it comfortable?",
+    "ar": "ما الشيء الناعم داخل الوسادة الذي يجعلها مريحة؟"
+   },
+   {
+    "start": 190.248,
+    "dur": 4.8,
+    "en": "Foam. The soft foam inside the cushion makes it comfortable.",
+    "ar": "الإسفنج. الإسفنج الناعم داخل الوسادة يجعلها مريحة."
+   },
+   {
+    "start": 195.398,
+    "dur": 3.288,
+    "en": "This armchair has a cover made of brown what?",
+    "ar": "هذا الكرسي الوثير له غطاء من ماذا البنّي؟"
+   },
+   {
+    "start": 204.333,
+    "dur": 3.984,
+    "en": "Leather. It has a cover made of brown leather.",
+    "ar": "الجلد. له غطاء من جلد بنّي."
+   },
+   {
+    "start": 208.667,
+    "dur": 2.544,
+    "en": "The table legs are made of what?",
+    "ar": "أرجل الطاولة مصنوعة من ماذا؟"
+   },
+   {
+    "start": 216.093,
+    "dur": 3.648,
+    "en": "Metal. The table legs are made of metal.",
+    "ar": "معدن. أرجل الطاولة مصنوعة من معدن."
+   },
+   {
+    "start": 220.091,
+    "dur": 3.408,
+    "en": "Last, two questions about a short text.",
+    "ar": "أخيراً، سؤالان عن نصّ قصير."
+   },
+   {
+    "start": 223.849,
+    "dur": 3.216,
+    "en": "Furniture is made from many materials.",
+    "ar": "يُصنع الأثاث من موادّ كثيرة."
+   },
+   {
+    "start": 227.415,
+    "dur": 3.456,
+    "en": "The frame is often wood, because wood is strong.",
+    "ar": "الهيكل غالباً من الخشب، لأنّ الخشب قويّ."
+   },
+   {
+    "start": 231.221,
+    "dur": 3.0,
+    "en": "The cushions have soft foam inside.",
+    "ar": "الوسائد فيها إسفنج ناعم من الداخل."
+   },
+   {
+    "start": 234.571,
+    "dur": 2.784,
+    "en": "The cover can be leather or fabric.",
+    "ar": "الغطاء قد يكون جلداً أو قماشاً."
+   },
+   {
+    "start": 237.705,
+    "dur": 5.832,
+    "en": "What is the frame often made of? Glass, wood, foam, or paper?",
+    "ar": "ممّ يُصنع الهيكل غالباً؟ زجاج، خشب، إسفنج، أم ورق؟"
+   },
+   {
+    "start": 250.126,
+    "dur": 4.296,
+    "en": "B. Wood. The frame is often made of wood.",
+    "ar": "ب. الخشب. الهيكل غالباً مصنوع من الخشب."
+   },
+   {
+    "start": 254.772,
+    "dur": 6.024,
+    "en": "What is inside the cushions? Metal, glass, soft foam, or stone?",
+    "ar": "ماذا يوجد داخل الوسائد؟ معدن، زجاج، إسفنج ناعم، أم حجر؟"
+   },
+   {
+    "start": 267.502,
+    "dur": 4.968,
+    "en": "C. Soft foam. The cushions have soft foam inside.",
+    "ar": "ج. إسفنج ناعم. الوسائد فيها إسفنج ناعم من الداخل."
+   },
+   {
+    "start": 272.82,
+    "dur": 4.44,
+    "en": "Well done. Ten materials, and you know them all.",
+    "ar": "أحسنت. عشر موادّ، وأنت تعرفها كلّها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "hardwood",
+    "label": "hardwood",
+    "ar": "الخشب الصلب",
+    "at": 26.936,
+    "hold": 3.0,
+    "img": "assets/vocab/hardwood.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 31.919,
+    "hold": 3.0,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "softwood",
+    "label": "softwood",
+    "ar": "الخشب اللين",
+    "at": 37.104,
+    "hold": 3.0,
+    "img": "assets/vocab/softwood.png",
+    "sha": "313dfe55339461bb"
+   },
+   {
+    "lemma": "veneer",
+    "label": "veneer",
+    "ar": "القشرة الخشبية",
+    "at": 46.36,
+    "hold": 3.0,
+    "img": "assets/vocab/veneer.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 54.668,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 63.371,
+    "hold": 3.0,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 71.343,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 76.266,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "velvet",
+    "label": "velvet",
+    "ar": "المخمل",
+    "at": 83.854,
+    "hold": 3.0,
+    "img": "assets/vocab/velvet.png",
+    "sha": "965331d69e9e864f"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 101.279,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 111.337,
+    "hold": 7.26,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 121.135,
+    "hold": 7.26,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "plywood",
+    "label": "plywood",
+    "ar": "الخشب الرقائقي",
+    "at": 130.68,
+    "hold": 7.34,
+    "img": "assets/vocab/plywood.png",
+    "sha": "b2c9b87d2c53832d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 190.248,
+    "hold": 3.0,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "leather",
+    "label": "leather",
+    "ar": "الجلد",
+    "at": 204.333,
+    "hold": 3.0,
+    "img": "assets/vocab/leather.png",
+    "sha": "95d0e558147f5bea"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 239.53,
+    "hold": 10.55,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 256.847,
+    "hold": 13.65,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

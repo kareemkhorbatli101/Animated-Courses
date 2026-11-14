@@ -1,0 +1,306 @@
+{
+ "schema": "timeline/1",
+ "duration": 188.799,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to English for Furniture Designers. This is Unit 3, Tools and the Workshop.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثالثة، الأدوات والورشة."
+   },
+   {
+    "start": 7.304,
+    "dur": 7.08,
+    "en": "This is Part 1, Tools and Safety Check. You will match four pieces of gear to what they protect.",
+    "ar": "هذا الجزء الأوّل، تحقّق من الأدوات والسلامة. ستطابق أربع قطع مع ما تحميه."
+   },
+   {
+    "start": 14.734,
+    "dur": 5.04,
+    "en": "Safety gear first. Each piece protects one part of you.",
+    "ar": "معدّات السلامة أوّلاً. كلّ قطعة تحمي جزءاً منك."
+   },
+   {
+    "start": 20.124,
+    "dur": 3.264,
+    "en": "Goggles. What do they protect?",
+    "ar": "النظّارات الواقية. ماذا تحمي؟"
+   },
+   {
+    "start": 28.153,
+    "dur": 2.832,
+    "en": "They protect your eyes from wood pieces.",
+    "ar": "تحمي عينيك من قطع الخشب."
+   },
+   {
+    "start": 31.335,
+    "dur": 3.192,
+    "en": "Gloves. What do they protect?",
+    "ar": "القفّازات. ماذا تحمي؟"
+   },
+   {
+    "start": 39.233,
+    "dur": 2.688,
+    "en": "They protect your hands from cuts.",
+    "ar": "تحمي يديك من الجروح."
+   },
+   {
+    "start": 42.271,
+    "dur": 3.696,
+    "en": "A dust mask. What does it protect?",
+    "ar": "كمّامة الغبار. ماذا تحمي؟"
+   },
+   {
+    "start": 50.967,
+    "dur": 3.168,
+    "en": "It protects your nose and mouth from dust.",
+    "ar": "تحمي أنفك وفمك من الغبار."
+   },
+   {
+    "start": 54.485,
+    "dur": 3.504,
+    "en": "Ear protection. What does it protect?",
+    "ar": "واقي الأذنين. ماذا يحمي؟"
+   },
+   {
+    "start": 63.165,
+    "dur": 3.048,
+    "en": "It protects your ears from loud machines.",
+    "ar": "يحمي أذنيك من الآلات الصاخبة."
+   },
+   {
+    "start": 66.563,
+    "dur": 3.96,
+    "en": "One reason was not needed: protect the floor from oil.",
+    "ar": "بقي سبب لم نحتجه: حماية الأرض من الزيت."
+   },
+   {
+    "start": 70.873,
+    "dur": 3.168,
+    "en": "Safety gear protects YOU, not the room.",
+    "ar": "معدّات السلامة تحميك أنت، لا الغرفة."
+   },
+   {
+    "start": 74.391,
+    "dur": 6.168,
+    "en": "Eyes, hands, nose and mouth, ears. Four pieces, four parts.",
+    "ar": "العينان، اليدان، الأنف والفم، الأذنان. أربع قطع، أربعة أجزاء."
+   },
+   {
+    "start": 80.909,
+    "dur": 2.232,
+    "en": "Now three questions.",
+    "ar": "الآن ثلاثة أسئلة."
+   },
+   {
+    "start": 83.491,
+    "dur": 5.52,
+    "en": "Which tool makes a hole? Hammer, saw, clamp, or drill?",
+    "ar": "أيّ أداة تصنع ثقباً؟ المطرقة، المنشار، المِشبك، أم المثقاب؟"
+   },
+   {
+    "start": 95.188,
+    "dur": 3.912,
+    "en": "D. A drill. A drill makes a hole.",
+    "ar": "د. المثقاب. المثقاب يصنع ثقباً."
+   },
+   {
+    "start": 99.45,
+    "dur": 3.888,
+    "en": "What holds two glued pieces together while they dry?",
+    "ar": "ما الذي يمسك قطعتين ملصوقتين حتّى تجفّا؟"
+   },
+   {
+    "start": 109.397,
+    "dur": 1.872,
+    "en": "A. A clamp.",
+    "ar": "أ. المِشبك."
+   },
+   {
+    "start": 111.619,
+    "dur": 2.856,
+    "en": "What do you wear to protect your eyes?",
+    "ar": "ماذا ترتدي لحماية عينيك؟"
+   },
+   {
+    "start": 119.71,
+    "dur": 1.872,
+    "en": "C. Goggles.",
+    "ar": "ج. النظّارات الواقية."
+   },
+   {
+    "start": 121.932,
+    "dur": 3.024,
+    "en": "Last, four sentences to complete.",
+    "ar": "أخيراً، أربع جمل لإكمالها."
+   },
+   {
+    "start": 125.306,
+    "dur": 2.832,
+    "en": "The carpenter works at a strong what?",
+    "ar": "النجّار يعمل على ماذا قويّة؟"
+   },
+   {
+    "start": 133.314,
+    "dur": 4.536,
+    "en": "Workbench. The carpenter works at a strong workbench.",
+    "ar": "طاولة عمل. النجّار يعمل على طاولة عمل قويّة."
+   },
+   {
+    "start": 138.2,
+    "dur": 3.24,
+    "en": "Put some what on the wood to join the two pieces?",
+    "ar": "ضع ماذا على الخشب لوصل القطعتين؟"
+   },
+   {
+    "start": 147.323,
+    "dur": 3.336,
+    "en": "Glue. Put some glue on the wood.",
+    "ar": "غراء. ضع بعض الغراء على الخشب."
+   },
+   {
+    "start": 151.009,
+    "dur": 3.672,
+    "en": "Use a what to hold the pieces together while they dry?",
+    "ar": "استخدم ماذا لإمساك القطعتين حتّى تجفّا؟"
+   },
+   {
+    "start": 160.857,
+    "dur": 4.224,
+    "en": "Clamp. Use a clamp to hold the pieces together.",
+    "ar": "مِشبكاً. استخدم مِشبكاً لإمساك القطعتين معاً."
+   },
+   {
+    "start": 165.431,
+    "dur": 3.648,
+    "en": "The saw's what is very sharp, so be careful?",
+    "ar": "ماذا في المنشار حادّ جداً، فكن حذراً؟"
+   },
+   {
+    "start": 174.667,
+    "dur": 4.008,
+    "en": "Blade. The saw's blade is very sharp.",
+    "ar": "النصل. نصل المنشار حادّ جداً."
+   },
+   {
+    "start": 179.025,
+    "dur": 5.04,
+    "en": "Good. Now write two or three sentences about tools you know.",
+    "ar": "جيّد. الآن اكتب جملتين أو ثلاثاً عن أدوات تعرفها."
+   },
+   {
+    "start": 184.415,
+    "dur": 2.784,
+    "en": "Use three words from this unit.",
+    "ar": "استخدم ثلاث كلمات من هذه الوحدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 18.324,
+    "hold": 9.78,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "dust_mask",
+    "label": "dust mask",
+    "ar": "كمّامة الغبار",
+    "at": 40.608,
+    "hold": 10.31,
+    "img": "assets/vocab/dust_mask.png",
+    "sha": "3af1e1d2b7ab8f84"
+   },
+   {
+    "lemma": "ear_protection",
+    "label": "ear protection",
+    "ar": "واقي الأذنين",
+    "at": 52.685,
+    "hold": 10.43,
+    "img": "assets/vocab/ear_protection.png",
+    "sha": "b9bb9be620170338"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 85.041,
+    "hold": 10.1,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 109.397,
+    "hold": 3.0,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "goggles",
+    "label": "goggles",
+    "ar": "النظّارات الواقية",
+    "at": 119.71,
+    "hold": 3.0,
+    "img": "assets/vocab/goggles.png",
+    "sha": "f5cd9316ff89485e"
+   },
+   {
+    "lemma": "workbench",
+    "label": "workbench",
+    "ar": "طاولة العمل",
+    "at": 133.314,
+    "hold": 3.0,
+    "img": "assets/vocab/workbench.png",
+    "sha": "d20d351a86c006c4"
+   },
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 147.323,
+    "hold": 3.0,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "clamp",
+    "label": "clamp",
+    "ar": "المِشبك",
+    "at": 160.857,
+    "hold": 3.0,
+    "img": "assets/vocab/clamp.png",
+    "sha": "7d7e73d9687d0add"
+   },
+   {
+    "lemma": "blade",
+    "label": "blade",
+    "ar": "النصل",
+    "at": 174.667,
+    "hold": 3.0,
+    "img": "assets/vocab/blade.png",
+    "sha": "fc1c2663efa9bf04"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

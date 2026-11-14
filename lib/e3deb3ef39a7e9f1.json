@@ -1,0 +1,180 @@
+{
+ "schema": "timeline/1",
+ "duration": 135.893,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.408,
+    "en": "Welcome to English for Furniture Designers. This is Unit 2, Materials and Wood.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الثانية، المواد والخشب."
+   },
+   {
+    "start": 7.208,
+    "dur": 7.008,
+    "en": "This is Part 2, Correct the Sentence. You will find one mistake in each of five sentences.",
+    "ar": "هذا الجزء الثاني، تصحيح الجملة. ستجد خطأً واحداً في كلّ جملة من خمس."
+   },
+   {
+    "start": 14.566,
+    "dur": 4.8,
+    "en": "Five sentences. Each has exactly one mistake.",
+    "ar": "خمس جمل. في كلّ واحدة خطأ واحد بالضبط."
+   },
+   {
+    "start": 19.716,
+    "dur": 3.6,
+    "en": "Find it, then say the whole sentence correctly.",
+    "ar": "جده، ثمّ قل الجملة كاملة بشكل صحيح."
+   },
+   {
+    "start": 23.666,
+    "dur": 2.592,
+    "en": "There is three sofas in the room.",
+    "ar": "صحّح هذه الجملة: «There is three sofas in the room.»"
+   },
+   {
+    "start": 31.199,
+    "dur": 4.32,
+    "en": "There are three sofas in the room. Three is more than one.",
+    "ar": "There are three sofas in the room. ثلاثة أكثر من واحد."
+   },
+   {
+    "start": 35.869,
+    "dur": 2.352,
+    "en": "How much chairs do you have?",
+    "ar": "صحّح هذه الجملة: «How much chairs do you have?»"
+   },
+   {
+    "start": 42.868,
+    "dur": 4.008,
+    "en": "How many chairs do you have? We count chairs.",
+    "ar": "How many chairs do you have? نحن نعدّ الكراسي."
+   },
+   {
+    "start": 47.226,
+    "dur": 2.064,
+    "en": "There isn't some glue.",
+    "ar": "صحّح هذه الجملة: «There isn't some glue.»"
+   },
+   {
+    "start": 53.584,
+    "dur": 4.44,
+    "en": "There isn't any glue. Any goes in a minus sentence.",
+    "ar": "There isn't any glue. Any تأتي في الجملة المنفيّة."
+   },
+   {
+    "start": 58.374,
+    "dur": 2.52,
+    "en": "There are much foam in the box.",
+    "ar": "صحّح هذه الجملة: «There are much foam in the box.»"
+   },
+   {
+    "start": 65.718,
+    "dur": 4.56,
+    "en": "There is much foam in the box. Foam is not counted.",
+    "ar": "There is much foam in the box. الإسفنج غير معدود."
+   },
+   {
+    "start": 70.628,
+    "dur": 2.904,
+    "en": "The mistake there was are, not much.",
+    "ar": "الخطأ هناك كان are، وليس much."
+   },
+   {
+    "start": 73.882,
+    "dur": 2.136,
+    "en": "We don't have many wood.",
+    "ar": "صحّح هذه الجملة: «We don't have many wood.»"
+   },
+   {
+    "start": 80.43,
+    "dur": 3.864,
+    "en": "We don't have much wood. We do not count wood.",
+    "ar": "We don't have much wood. نحن لا نعدّ الخشب."
+   },
+   {
+    "start": 84.644,
+    "dur": 4.368,
+    "en": "Now two questions. Which sentence is correct?",
+    "ar": "الآن سؤالان. أيّ جملة صحيحة؟"
+   },
+   {
+    "start": 89.362,
+    "dur": 5.808,
+    "en": "There is many chairs, there are many chairs, there are much chairs, or there is many chair?",
+    "ar": "أيّها صحيح من هذه الجمل الأربع؟"
+   },
+   {
+    "start": 103.17,
+    "dur": 2.376,
+    "en": "B. There are many chairs.",
+    "ar": "ب. There are many chairs."
+   },
+   {
+    "start": 105.896,
+    "dur": 5.544,
+    "en": "How much woods, how many wood, how much wood, or how many woods we need?",
+    "ar": "أيّ سؤال صحيح من هذه الأربعة؟"
+   },
+   {
+    "start": 118.675,
+    "dur": 2.64,
+    "en": "C. How much wood do we need?",
+    "ar": "ج. How much wood do we need?"
+   },
+   {
+    "start": 121.665,
+    "dur": 4.512,
+    "en": "Wood has no plural here. We never say woods.",
+    "ar": "الخشب ليس له جمع هنا. لا نقول woods أبداً."
+   },
+   {
+    "start": 126.527,
+    "dur": 3.264,
+    "en": "Chairs do have a plural, and they take many.",
+    "ar": "الكراسي لها جمع، وتأخذ many."
+   },
+   {
+    "start": 130.141,
+    "dur": 4.152,
+    "en": "That is the whole rule. Keep it in your pocket.",
+    "ar": "تلك هي القاعدة كلّها. احتفظ بها في جيبك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 46.101,
+    "hold": 10.48,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   },
+   {
+    "lemma": "foam",
+    "label": "foam",
+    "ar": "الإسفنج",
+    "at": 57.137,
+    "hold": 11.58,
+    "img": "assets/vocab/foam.png",
+    "sha": "1dc473755964944d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
