@@ -42,7 +42,8 @@ A2 = {
 
 def heads(U):
     """The head words a unit teaches, whichever strand name it uses."""
-    return list(U.get('acad', U.get('core', []))) + list(U.get('campus', []))
+    return (list(U.get('acad', U.get('core', []))) + list(U.get('campus', []))
+            + list(U.get('awl', [])))
 
 
 def check(U, taught=()):

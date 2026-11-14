@@ -59,7 +59,8 @@ script interview repeat discussion post professor model review glossary
 practice guided exam audio partner pairs tick underline complete choose
 passage passages
 correct incorrect example examples topic skill skills level cefr toefl
-internet wifi online
+internet wifi online ly ing ed es ies ally
+score scores band bands academic
 """.split())
 
 _WORD = re.compile(r"[A-Za-z][A-Za-z'’-]*")
