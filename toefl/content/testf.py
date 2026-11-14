@@ -64,7 +64,7 @@ TEST = dict(
             'The shape is not the same in every country. In some places the week runs '
             'from Sunday to Thursday. But the idea is always the same. A week needs a '
             'hole in the middle, and a student with five heavy days does the work of '
-            'four.'], 117),
+            'four.'], 107),
         academic=[
             ('Which day is often free?',
              ('Monday', 'Tuesday', 'Wednesday', 'Friday'), 2,
