@@ -1,0 +1,1076 @@
+{
+"freq": {
+"ports": 1,
+"inland": 2,
+"railroad": 1,
+"shipping": 1,
+"laid": 1,
+"harbour": 1,
+"swamp": 1,
+"plains": 1,
+"break-in-bulk": 1,
+"stopping": 2,
+"westward": 1,
+"wheat": 2,
+"continent": 1,
+"invisible": 1,
+"moth": 1,
+"searchlight": 1,
+"solution": 1,
+"circles": 1,
+"slightly": 2,
+"movement": 1,
+"colour": 1,
+"starlight": 1,
+"measurable": 1,
+"ordinary": 1,
+"fainter": 1,
+"instrument": 3,
+"patience": 1,
+"majority": 1,
+"behaving": 1,
+"astronomy": 1,
+"bounce": 1,
+"radar": 1,
+"nearby": 1,
+"parallax": 1,
+"thumb": 1,
+"geometry": 1,
+"objects": 1,
+"brightness": 1,
+"standard": 1,
+"candles": 1,
+"calibrated": 1,
+"ladder": 1,
+"rung": 1,
+"resemblance": 1,
+"belief": 1,
+"qualities": 1,
+"mixed": 1,
+"colours": 1,
+"characteristics": 1,
+"blended": 1,
+"alike": 1,
+"monastery": 1,
+"pea": 1,
+"trait": 1,
+"unchanged": 1,
+"medium": 1,
+"reappeared": 1,
+"predictable": 1,
+"proportion": 2,
+"separate": 2,
+"version": 1,
+"ignored": 1,
+"rediscovered": 1,
+"biologists": 1,
+"microscopes": 1,
+"inferred": 1,
+"divided": 1,
+"predicted": 1,
+"rare": 1,
+"fully": 1,
+"confirm": 1,
+"replaces": 1,
+"replacements": 1,
+"instructions": 1,
+"divides": 1,
+"sequence": 1,
+"confirms": 1,
+"attached": 1,
+"pause": 1,
+"rate": 1,
+"considerably": 1,
+"misread": 1,
+"affected": 1,
+"extremely": 1,
+"capacity": 2,
+"contains": 2,
+"mass": 2,
+"atmosphere": 2,
+"absorb": 1,
+"enormous": 2,
+"thermometer": 2,
+"trapped": 2,
+"flywheel": 2,
+"equally": 1,
+"decades": 1,
+"emissions": 2,
+"consequences": 1,
+"expands": 2,
+"constantly": 2,
+"fraction": 1,
+"swallow": 1,
+"colossal": 1,
+"quantity": 1,
+"quote": 1,
+"weigh": 1,
+"gain": 1,
+"whichever": 1,
+"noticeably": 1,
+"asymmetry": 1,
+"irrational": 1,
+"coin": 1,
+"toss": 1,
+"average": 1,
+"winning": 1,
+"curiosity": 1,
+"essay": 1,
+"definite": 1,
+"overtake": 1,
+"misjudges": 1,
+"alternative": 1,
+"admitting": 1,
+"exhausted": 1,
+"psychologists": 1,
+"fascination": 1,
+"thriller": 1,
+"effort": 1,
+"wanders": 1,
+"crucial": 1,
+"produces": 1,
+"fatigue": 1,
+"measurably": 1,
+"irritable": 1,
+"distracted": 1,
+"restores": 1,
+"ability": 1,
+"practical": 1,
+"screen": 1,
+"document": 1,
+"brief": 1,
+"drawings": 1,
+"concert": 1,
+"daylight": 1,
+"reverses": 1,
+"screens": 1,
+"dining": 1,
+"pleasant": 1,
+"phrase": 1,
+"function": 1,
+"quoted": 1,
+"plain": 1,
+"argument": 4,
+"decorated": 1,
+"functional": 1,
+"staircase": 1,
+"width": 1,
+"depth": 1,
+"stair": 1,
+"facade": 1,
+"obeyed": 1,
+"regulations": 1,
+"scatter": 1,
+"narrow": 1,
+"explanation": 2,
+"uncomfortable": 2,
+"fingernail": 1,
+"gap": 1,
+"beneath": 1,
+"descending": 1,
+"parallel": 1,
+"edge": 1,
+"behave": 1,
+"erupt": 1,
+"lava": 1,
+"runny": 1,
+"rarely": 1,
+"violently": 1,
+"magma": 1,
+"thick": 1,
+"mix": 1,
+"geologists": 1,
+"absolute": 1,
+"zero": 1,
+"radioactive": 1,
+"minerals": 1,
+"limitation": 1,
+"contain": 1,
+"sandstone": 1,
+"species": 1,
+"geologically": 1,
+"wide": 1,
+"index": 1,
+"dull": 1,
+"radiometric": 1,
+"occur": 1,
+"economists": 2,
+"counter-intuitive": 1,
+"cloth": 1,
+"intuition": 1,
+"efficient": 1,
+"concentrates": 1,
+"produce": 1,
+"gains": 1,
+"thinly": 1,
+"buyers": 1,
+"concentrated": 1,
+"industry": 1,
+"sharply": 1,
+"economist": 1,
+"suspicious": 1,
+"harvest": 2,
+"profitable": 1,
+"instruction": 1,
+"coordinated": 1,
+"tip": 1,
+"therefore": 1,
+"grandparents": 1,
+"adult": 1,
+"siblings": 1,
+"inherit": 1,
+"anthropologist": 1,
+"argued": 1,
+"economy": 1,
+"ideal": 1,
+"visible": 1,
+"arrange": 1,
+"warmth": 1,
+"obligation": 1,
+"dissolved": 1,
+"complicate": 1,
+"published": 1,
+"collection": 1,
+"deliberately": 1,
+"clan": 1,
+"tartans": 1,
+"anthems": 1,
+"railways": 1,
+"includes": 1,
+"excludes": 1,
+"invented": 1,
+"genuinely": 1,
+"performed": 1,
+"tourists": 1,
+"technological": 1,
+"magazines": 1,
+"wander": 1,
+"magazine": 1,
+"competed": 1,
+"produced": 1,
+"motion": 1,
+"background": 1,
+"tends": 1,
+"technique": 1,
+"infuriating": 1,
+"perform": 1,
+"dialogue": 1,
+"reveal": 1,
+"advance": 1,
+"novelist": 1,
+"furnish": 1,
+"envelope": 1,
+"characterisation": 1
+},
+"where": {
+"ports": [
+"U01 r3"
+],
+"inland": [
+"U01 r3",
+"U07 r3"
+],
+"railroad": [
+"U01 r3"
+],
+"shipping": [
+"U01 r3"
+],
+"laid": [
+"U01 r3"
+],
+"harbour": [
+"U01 r3"
+],
+"swamp": [
+"U01 r3"
+],
+"plains": [
+"U01 r3"
+],
+"break-in-bulk": [
+"U01 r3"
+],
+"stopping": [
+"U01 r3",
+"U10 l3"
+],
+"westward": [
+"U01 l3"
+],
+"wheat": [
+"U01 l3",
+"U08 r3"
+],
+"continent": [
+"U01 l3"
+],
+"invisible": [
+"U02 r3"
+],
+"moth": [
+"U02 r3"
+],
+"searchlight": [
+"U02 r3"
+],
+"solution": [
+"U02 r3"
+],
+"circles": [
+"U02 r3"
+],
+"slightly": [
+"U02 r3",
+"U08 l3"
+],
+"movement": [
+"U02 r3"
+],
+"colour": [
+"U02 r3"
+],
+"starlight": [
+"U02 r3"
+],
+"measurable": [
+"U02 r3"
+],
+"ordinary": [
+"U02 r3"
+],
+"fainter": [
+"U02 r3"
+],
+"instrument": [
+"U02 r3",
+"U03 r3",
+"U10 r3"
+],
+"patience": [
+"U02 r3"
+],
+"majority": [
+"U02 r3"
+],
+"behaving": [
+"U02 r3"
+],
+"astronomy": [
+"U02 l3"
+],
+"bounce": [
+"U02 l3"
+],
+"radar": [
+"U02 l3"
+],
+"nearby": [
+"U02 l3"
+],
+"parallax": [
+"U02 l3"
+],
+"thumb": [
+"U02 l3"
+],
+"geometry": [
+"U02 l3"
+],
+"objects": [
+"U02 l3"
+],
+"brightness": [
+"U02 l3"
+],
+"standard": [
+"U02 l3"
+],
+"candles": [
+"U02 l3"
+],
+"calibrated": [
+"U02 l3"
+],
+"ladder": [
+"U02 l3"
+],
+"rung": [
+"U02 l3"
+],
+"resemblance": [
+"U03 r3"
+],
+"belief": [
+"U03 r3"
+],
+"qualities": [
+"U03 r3"
+],
+"mixed": [
+"U03 r3"
+],
+"colours": [
+"U03 r3"
+],
+"characteristics": [
+"U03 r3"
+],
+"blended": [
+"U03 r3"
+],
+"alike": [
+"U03 r3"
+],
+"monastery": [
+"U03 r3"
+],
+"pea": [
+"U03 r3"
+],
+"trait": [
+"U03 r3"
+],
+"unchanged": [
+"U03 r3"
+],
+"medium": [
+"U03 r3"
+],
+"reappeared": [
+"U03 r3"
+],
+"predictable": [
+"U03 r3"
+],
+"proportion": [
+"U03 r3",
+"U06 l3"
+],
+"separate": [
+"U03 r3",
+"U09 r3"
+],
+"version": [
+"U03 r3"
+],
+"ignored": [
+"U03 r3"
+],
+"rediscovered": [
+"U03 r3"
+],
+"biologists": [
+"U03 r3"
+],
+"microscopes": [
+"U03 r3"
+],
+"inferred": [
+"U03 r3"
+],
+"divided": [
+"U03 r3"
+],
+"predicted": [
+"U03 r3"
+],
+"rare": [
+"U03 r3"
+],
+"fully": [
+"U03 r3"
+],
+"confirm": [
+"U03 r3"
+],
+"replaces": [
+"U03 l3"
+],
+"replacements": [
+"U03 l3"
+],
+"instructions": [
+"U03 l3"
+],
+"divides": [
+"U03 l3"
+],
+"sequence": [
+"U03 l3"
+],
+"confirms": [
+"U03 l3"
+],
+"attached": [
+"U03 l3"
+],
+"pause": [
+"U03 l3"
+],
+"rate": [
+"U03 l3"
+],
+"considerably": [
+"U04 r3"
+],
+"misread": [
+"U04 r3"
+],
+"affected": [
+"U04 r3"
+],
+"extremely": [
+"U04 r3"
+],
+"capacity": [
+"U04 l3",
+"U04 r3"
+],
+"contains": [
+"U04 r3",
+"U06 r3"
+],
+"mass": [
+"U04 l3",
+"U04 r3"
+],
+"atmosphere": [
+"U04 l3",
+"U04 r3"
+],
+"absorb": [
+"U04 r3"
+],
+"enormous": [
+"U04 l3",
+"U04 r3"
+],
+"thermometer": [
+"U04 l3",
+"U04 r3"
+],
+"trapped": [
+"U04 l3",
+"U04 r3"
+],
+"flywheel": [
+"U04 l3",
+"U04 r3"
+],
+"equally": [
+"U04 r3"
+],
+"decades": [
+"U04 r3"
+],
+"emissions": [
+"U04 l3",
+"U04 r3"
+],
+"consequences": [
+"U04 r3"
+],
+"expands": [
+"U04 l3",
+"U04 r3"
+],
+"constantly": [
+"U04 l3",
+"U07 l3"
+],
+"fraction": [
+"U04 l3"
+],
+"swallow": [
+"U04 l3"
+],
+"colossal": [
+"U04 l3"
+],
+"quantity": [
+"U04 l3"
+],
+"quote": [
+"U04 l3"
+],
+"weigh": [
+"U05 r3"
+],
+"gain": [
+"U05 r3"
+],
+"whichever": [
+"U05 r3"
+],
+"noticeably": [
+"U05 r3"
+],
+"asymmetry": [
+"U05 r3"
+],
+"irrational": [
+"U05 r3"
+],
+"coin": [
+"U05 r3"
+],
+"toss": [
+"U05 r3"
+],
+"average": [
+"U05 r3"
+],
+"winning": [
+"U05 r3"
+],
+"curiosity": [
+"U05 r3"
+],
+"essay": [
+"U05 r3"
+],
+"definite": [
+"U05 r3"
+],
+"overtake": [
+"U05 r3"
+],
+"misjudges": [
+"U05 r3"
+],
+"alternative": [
+"U05 r3"
+],
+"admitting": [
+"U05 r3"
+],
+"exhausted": [
+"U05 l3"
+],
+"psychologists": [
+"U05 l3"
+],
+"fascination": [
+"U05 l3"
+],
+"thriller": [
+"U05 l3"
+],
+"effort": [
+"U05 l3"
+],
+"wanders": [
+"U05 l3"
+],
+"crucial": [
+"U05 l3"
+],
+"produces": [
+"U05 l3"
+],
+"fatigue": [
+"U05 l3"
+],
+"measurably": [
+"U05 l3"
+],
+"irritable": [
+"U05 l3"
+],
+"distracted": [
+"U05 l3"
+],
+"restores": [
+"U05 l3"
+],
+"ability": [
+"U05 l3"
+],
+"practical": [
+"U05 l3"
+],
+"screen": [
+"U05 l3"
+],
+"document": [
+"U06 r3"
+],
+"brief": [
+"U06 r3"
+],
+"drawings": [
+"U06 r3"
+],
+"concert": [
+"U06 r3"
+],
+"daylight": [
+"U06 r3"
+],
+"reverses": [
+"U06 r3"
+],
+"screens": [
+"U06 r3"
+],
+"dining": [
+"U06 r3"
+],
+"pleasant": [
+"U06 r3"
+],
+"phrase": [
+"U06 l3"
+],
+"function": [
+"U06 l3"
+],
+"quoted": [
+"U06 l3"
+],
+"plain": [
+"U06 l3"
+],
+"argument": [
+"U06 l3",
+"U08 l3",
+"U08 r3",
+"U09 l3"
+],
+"decorated": [
+"U06 l3"
+],
+"functional": [
+"U06 l3"
+],
+"staircase": [
+"U06 l3"
+],
+"width": [
+"U06 l3"
+],
+"depth": [
+"U06 l3"
+],
+"stair": [
+"U06 l3"
+],
+"facade": [
+"U06 l3"
+],
+"obeyed": [
+"U06 l3"
+],
+"regulations": [
+"U06 l3"
+],
+"scatter": [
+"U07 r3"
+],
+"narrow": [
+"U07 r3"
+],
+"explanation": [
+"U07 r3",
+"U08 r3"
+],
+"uncomfortable": [
+"U07 r3",
+"U09 l3"
+],
+"fingernail": [
+"U07 r3"
+],
+"gap": [
+"U07 r3"
+],
+"beneath": [
+"U07 r3"
+],
+"descending": [
+"U07 r3"
+],
+"parallel": [
+"U07 r3"
+],
+"edge": [
+"U07 r3"
+],
+"behave": [
+"U07 r3"
+],
+"erupt": [
+"U07 r3"
+],
+"lava": [
+"U07 r3"
+],
+"runny": [
+"U07 r3"
+],
+"rarely": [
+"U07 r3"
+],
+"violently": [
+"U07 r3"
+],
+"magma": [
+"U07 r3"
+],
+"thick": [
+"U07 r3"
+],
+"mix": [
+"U07 l3"
+],
+"geologists": [
+"U07 l3"
+],
+"absolute": [
+"U07 l3"
+],
+"zero": [
+"U07 l3"
+],
+"radioactive": [
+"U07 l3"
+],
+"minerals": [
+"U07 l3"
+],
+"limitation": [
+"U07 l3"
+],
+"contain": [
+"U07 l3"
+],
+"sandstone": [
+"U07 l3"
+],
+"species": [
+"U07 l3"
+],
+"geologically": [
+"U07 l3"
+],
+"wide": [
+"U07 l3"
+],
+"index": [
+"U07 l3"
+],
+"dull": [
+"U07 l3"
+],
+"radiometric": [
+"U07 l3"
+],
+"occur": [
+"U07 l3"
+],
+"economists": [
+"U08 l3",
+"U08 r3"
+],
+"counter-intuitive": [
+"U08 r3"
+],
+"cloth": [
+"U08 r3"
+],
+"intuition": [
+"U08 r3"
+],
+"efficient": [
+"U08 r3"
+],
+"concentrates": [
+"U08 r3"
+],
+"produce": [
+"U08 r3"
+],
+"gains": [
+"U08 r3"
+],
+"thinly": [
+"U08 r3"
+],
+"buyers": [
+"U08 r3"
+],
+"concentrated": [
+"U08 r3"
+],
+"industry": [
+"U08 r3"
+],
+"sharply": [
+"U08 r3"
+],
+"economist": [
+"U08 r3"
+],
+"suspicious": [
+"U08 l3"
+],
+"harvest": [
+"U08 l3",
+"U09 r3"
+],
+"profitable": [
+"U08 l3"
+],
+"instruction": [
+"U08 l3"
+],
+"coordinated": [
+"U08 l3"
+],
+"tip": [
+"U08 l3"
+],
+"therefore": [
+"U08 l3"
+],
+"grandparents": [
+"U09 r3"
+],
+"adult": [
+"U09 r3"
+],
+"siblings": [
+"U09 r3"
+],
+"inherit": [
+"U09 r3"
+],
+"anthropologist": [
+"U09 r3"
+],
+"argued": [
+"U09 r3"
+],
+"economy": [
+"U09 r3"
+],
+"ideal": [
+"U09 r3"
+],
+"visible": [
+"U09 r3"
+],
+"arrange": [
+"U09 r3"
+],
+"warmth": [
+"U09 r3"
+],
+"obligation": [
+"U09 r3"
+],
+"dissolved": [
+"U09 r3"
+],
+"complicate": [
+"U09 l3"
+],
+"published": [
+"U09 l3"
+],
+"collection": [
+"U09 l3"
+],
+"deliberately": [
+"U09 l3"
+],
+"clan": [
+"U09 l3"
+],
+"tartans": [
+"U09 l3"
+],
+"anthems": [
+"U09 l3"
+],
+"railways": [
+"U09 l3"
+],
+"includes": [
+"U09 l3"
+],
+"excludes": [
+"U09 l3"
+],
+"invented": [
+"U09 l3"
+],
+"genuinely": [
+"U09 l3"
+],
+"performed": [
+"U09 l3"
+],
+"tourists": [
+"U09 l3"
+],
+"technological": [
+"U10 r3"
+],
+"magazines": [
+"U10 r3"
+],
+"wander": [
+"U10 r3"
+],
+"magazine": [
+"U10 r3"
+],
+"competed": [
+"U10 r3"
+],
+"produced": [
+"U10 r3"
+],
+"motion": [
+"U10 r3"
+],
+"background": [
+"U10 r3"
+],
+"tends": [
+"U10 r3"
+],
+"technique": [
+"U10 r3"
+],
+"infuriating": [
+"U10 r3"
+],
+"perform": [
+"U10 r3"
+],
+"dialogue": [
+"U10 r3"
+],
+"reveal": [
+"U10 r3"
+],
+"advance": [
+"U10 r3"
+],
+"novelist": [
+"U10 r3"
+],
+"furnish": [
+"U10 r3"
+],
+"envelope": [
+"U10 l3"
+],
+"characterisation": [
+"U10 l3"
+]
+}
+}
