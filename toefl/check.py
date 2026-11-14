@@ -161,7 +161,10 @@ def heads(U):
 
 def check(U, taught=()):
     n = U['n']
-    b2 = U.get('level') == 'B2'
+    # Volume 6 is C1 and carries exactly the B2 shape: the same strands,
+    # the same item counts, the same five cycles. What rises is the
+    # density windows in _DENSITY and gate 9, not the architecture.
+    b2 = U.get('level') in ('B2', 'C1')
     a2 = U.get('level') == 'A2'
     f2 = U.get('level') == 'A2B1'    # Foundation 2
     found = a2 or f2                 # behaviour shared by both Foundation books

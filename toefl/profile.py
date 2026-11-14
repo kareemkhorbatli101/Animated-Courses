@@ -35,7 +35,9 @@ VOLS = [('Foundation 1', 'f', range(1, 11)),
         ('Volume 1', 'u', range(1, 11)),
         ('Volume 2', 'u', range(11, 21)),
         ('Volume 3', 'u', range(21, 31)),
-        ('Volume 4', 'u', range(31, 41))]
+        ('Volume 4', 'u', range(31, 41)),
+        ('Volume 5', 'u', range(41, 51)),
+        ('Volume 6', 'u', range(51, 61))]
 
 
 def ranks():
@@ -56,7 +58,11 @@ def prose(pre, rng):
     """The academic reading passages, which is where a level lives."""
     out = []
     for n in rng:
-        U = importlib.import_module('content.%s%02d' % (pre, n)).UNIT
+        try:
+            U = importlib.import_module('content.%s%02d' % (pre, n)).UNIT
+        except ImportError:
+            # a volume still being written has no profile yet
+            continue
         for tag in ('r3', 'r4', 'r5'):
             b = U.get(tag)
             if b and 'paras' in b:

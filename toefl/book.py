@@ -9,6 +9,10 @@ from docxw import Doc, INDIGO, INDIGO_D, BLUE, AMBER, TEAL, PLUM, GREY, GREEN, R
 
 VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2),
         3: dict(units=range(21, 31), test=3), 4: dict(units=range(31, 41), test=4),
+        # Volume 5 finishes B2 and Volume 6 is C1. Same architecture, five
+        # cycles a skill as in Volumes 3 and 4, and the density windows of
+        # gate 9 rather than the page shape are what rise.
+        5: dict(units=range(41, 51), test=5), 6: dict(units=range(51, 61), test=6),
         # The Foundation volume sits before Volume 1. Same architecture, same
         # task names, same item counts; a lower level and four strands that are
         # not about the test at all.
@@ -20,7 +24,7 @@ VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2
 # Progress Test naming and the twenty-page unit; what differs is the level on
 # the cover and which test the student is being pointed at next.
 FOUND = ('A2', 'A2B1')
-_LABEL = {'A2': 'A1–A2', 'A2B1': 'A2–B1'}
+_LABEL = {'A2': 'A1–A2', 'A2B1': 'A2–B1', 'C1': 'C1'}
 
 
 def lvl_label(lvl):
@@ -841,8 +845,13 @@ def render_test(d, T):
     sp = Spread()
     a2 = bool(T.get('a2'))
     f2 = bool(T.get('f2'))
+    # Volume 6 carries four further forms as well as its practice test, for
+    # the one kind of practice a top-band candidate cannot get from a unit:
+    # four sections in a row, timed, with no stopping.
+    form = T.get('form')
     d.unit_title('Progress Test F2' if f2 else
-                 'Progress Test F' if a2 else 'Practice Test %d' % vol)
+                 'Progress Test F' if a2 else
+                 'Timed Form %s' % form if form else 'Practice Test %d' % vol)
     if a2:
         d.strapline('The real order and the real task names · %s module%s in each section'
                     % ('two' if f2 else 'one', 's' if f2 else ''))
@@ -996,7 +1005,7 @@ def _testname(vol, units):
             else 'Practice Test %s' % vol)
 
 
-def answer_key(d, vol, units, tkey, ukeys):
+def answer_key(d, vol, units, tkey, ukeys, fkeys=()):
     d.unit_title('Answer key')
     d.strapline('Volume %s · Units %d–%d and %s'
                 % (vol, units[0]['n'], units[-1]['n'], _testname(vol, units)))
@@ -1062,9 +1071,25 @@ def answer_key(d, vol, units, tkey, ukeys):
     d.body_p('The email, the discussion post and the whole Speaking section are rated, not '
              'marked. Use the band descriptors on the next page.')
     d.page_break_section()
+    for FT, fk in fkeys:
+        d.keybar('Timed Form %s' % FT.get('form', FT['n']))
+        for sec in [k for k in ('reading 1', 'reading 2', 'listening 1',
+                                'listening 2') if k in fk]:
+            one = len([k for k in fk if k.startswith(sec.split()[0])]) == 1
+            d.h3(sec.split()[0].title() if one
+                 else sec.title().replace(' ', ', Module '),
+                 BLUE if 'read' in sec else AMBER)
+            d.keygrid([a for _, a, _ in fk[sec]], 5)
+            for num, ans, why in fk[sec]:
+                if why:
+                    d.why(num, ans, why)
+        d.h3('Writing · Build a Sentence', PLUM)
+        for num, ans, _ in fk['writing build']:
+            d.keyline('%d' % num, ans)
+        d.page_break_section()
 
 
-def audio_scripts(d, vol, units, T):
+def audio_scripts(d, vol, units, T, forms=()):
     d.unit_title('Audio scripts')
     d.strapline('Volume %s' % vol)
     d.cefr('Read these only after you have listened. At B1 a script is a reading text too, '
@@ -1096,20 +1121,23 @@ def audio_scripts(d, vol, units, T):
             for i, q in enumerate(blk['qs'], 1):
                 d.body_p('   Interviewer %d:  %s' % (i, q), sz=19)
         d.page_break_section()
-    d.keybar(_testname(vol, units))
-    for mi, M in enumerate(T['listening'], 1):
-        d.h3('Listening, Module %d' % mi, AMBER)
-        for i, (stem, _, _, _) in enumerate(M['warm'], 1):
-            d.body_p('%d.  %s' % (i, stem), sz=20)
-        for sc, _ in M['convos']:
-            d.script(sc, 'Conversation')
-        d.script(M['announce'][0], 'Announcement')
-        d.script(M['talk'][0], 'Academic talk')
-    d.h3('Speaking', TEAL)
-    d.body_p('Listen and Repeat:  ' + '  |  '.join(T['speaking']['repeat']), sz=19)
-    for i, q in enumerate(T['speaking']['interview'][1], 1):
-        d.body_p('Interviewer %d:  %s' % (i, q), sz=19)
-    d.page_break_section()
+    for TT in [T] + list(forms):
+        d.keybar('Timed Form %s' % TT['form'] if TT.get('form')
+                 else _testname(vol, units))
+        for mi, M in enumerate(TT['listening'], 1):
+            d.h3('Listening, Module %d' % mi, AMBER)
+            for i, (stem, _, _, _) in enumerate(M['warm'], 1):
+                d.body_p('%d.  %s' % (i, stem), sz=20)
+            for sc, _ in M['convos']:
+                d.script(sc, 'Conversation')
+            d.script(M['announce'][0], 'Announcement')
+            d.script(M['talk'][0], 'Academic talk')
+        d.h3('Speaking', TEAL)
+        d.body_p('Listen and Repeat:  '
+                 + '  |  '.join(TT['speaking']['repeat']), sz=19)
+        for i, q in enumerate(TT['speaking']['interview'][1], 1):
+            d.body_p('Interviewer %d:  %s' % (i, q), sz=19)
+        d.page_break_section()
 
 
 def glossary(d, vol, units):
@@ -1260,15 +1288,20 @@ def build(vol, out):
     for u in units:
         ukeys[u['n']] = render_unit(d, u)
     tkey = render_test(d, T)
+    fkeys = []
+    for fn in cfg.get('forms', ()):
+        FT = importlib.import_module('content.test%s' % fn).TEST
+        fkeys.append((FT, render_test(d, FT)))
     if lvl in FOUND:
         first_sight(d)
-    answer_key(d, vol, units, tkey, ukeys)
-    audio_scripts(d, vol, units, T)
+    answer_key(d, vol, units, tkey, ukeys, fkeys)
+    audio_scripts(d, vol, units, T, [FT for FT, _ in fkeys])
     glossary(d, vol, units)
     grammar_reference(d, vol, units)
     if lvl in FOUND:
         foundation_back(d, units)
-    d.figure(*F.cover_back(vol, BLURB[lvl], BULLETS[lvl],
+    _key = vol if vol in BLURB else lvl
+    d.figure(*F.cover_back(vol, BLURB[_key], BULLETS[_key],
                            ['%d  %s' % (u['n'], u['title']) for u in units]), cover=True)
     d.save(out)
     return out, len(d.images)
@@ -1312,19 +1345,48 @@ BULLETS = {'A2': [
     'A grammar syllabus built around what Build a Sentence really tests',
     'A full practice test in each volume, with an answer key that explains',
 ], 'B2': [
-    'Every 2026 task type, three times in every unit, at B2 density',
+    'Every 2026 task type, five times in every unit — three everyday, two academic',
     '360 further Academic Word List items, 200 collocations, 50 stance markers',
     'A grammar syllabus of the twenty structures that separate B1 from B2',
     'Find the Fault and a banded answer pair in every unit',
     'Two more full practice tests, with an answer key that explains',
 ]}
+# Volumes 5 and 6 do different jobs from Volumes 3 and 4 and say so, so the
+# back cover for those two is keyed by volume rather than by level.
+BLURB[5] = [
+    'The volume that finishes B2. Volumes 3 and 4 bring a learner to the level',
+    'a competitive score needs; this one takes the same architecture to the top',
+    'of B2, where the reading is longer than the test’s own and every academic',
+    'cycle argues with the one before it.',
+]
+BLURB[6] = [
+    'The last volume, and the only one written at C1. It is not more of the',
+    'same ground at greater length: it is the preparation for a 5.5 or a 6.0,',
+    'where the overall band is the average of four section bands and the',
+    'weakest section is the one that decides the score.',
+]
+BULLETS[5] = [
+    'Every 2026 task type, five times in every unit, at the top of B2',
+    'Academic passages of 360 to 410 words, longer than the real test’s own',
+    'A fifth cycle that is always the objection to what the fourth one claims',
+    'Density measured against a published window, not asserted on the cover',
+    'Practice Test 5 in the real two-module shape, with an answer key that explains',
+]
+BULLETS[6] = [
+    'Every 2026 task type, five times in every unit, at C1',
+    'Academic passages of 400 to 450 words, at 28 to 31 words a sentence',
+    'Four full timed forms as well as Practice Test 6',
+    'The arithmetic of the band scale, and what it does to your weakest section',
+    'An answer key that explains every wrong option, as in every volume',
+]
 
 if __name__ == '__main__':
     _a = sys.argv[1] if len(sys.argv) > 1 else '1'
     _u = _a.upper()
     v = ('F1' if _u in ('F', 'F1') else 'F2' if _u == 'F2' else int(_a))
     _lv = 'A2' if v == 'F1' else ('B1' if v == 'F2' else
-                                 ('B2' if v >= 3 else 'B1'))
+                                 ('C1' if v == 6 else
+                                  'B2' if v >= 3 else 'B1'))
     o = sys.argv[2] if len(sys.argv) > 2 else (
         '/home/user/Animated-Courses/TOEFL_2026_Foundation_%s.docx' % str(v)[1:]
         if isinstance(v, str)

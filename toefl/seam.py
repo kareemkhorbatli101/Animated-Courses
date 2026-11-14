@@ -32,7 +32,9 @@ PATH = [('F1', [('f', range(1, 11))]),
         ('V3', [('f', range(1, 11)), ('g', range(1, 11)),
                 ('u', range(1, 31))]),
         ('V4', [('f', range(1, 11)), ('g', range(1, 11)),
-                ('u', range(1, 41))])]
+                ('u', range(1, 41))]),
+        ('V5', [('f', range(1, 11)), ('g', range(1, 11)),
+                ('u', range(1, 51))])]
 STAGE = dict(PATH)
 
 # the seams worth a number: what a leaver of X meets in volume Y
@@ -40,10 +42,13 @@ SEAMS = [('F1', 1, 'Foundation 1 -> Volume 1'),
          ('F2', 1, 'Foundation 2 -> Volume 1'),
          ('V1', 2, 'Volume 1 -> Volume 2'),
          ('V2', 3, 'Volume 2 -> Volume 3'),
-         ('V3', 4, 'Volume 3 -> Volume 4')]
+         ('V3', 4, 'Volume 3 -> Volume 4'),
+         ('V4', 5, 'Volume 4 -> Volume 5'),
+         ('V5', 6, 'Volume 5 -> Volume 6')]
 
 VOL_UNITS = {1: range(1, 11), 2: range(11, 21),
-             3: range(21, 31), 4: range(31, 41)}
+             3: range(21, 31), 4: range(31, 41),
+             5: range(41, 51), 6: range(51, 61)}
 
 
 def leaver(stage, deriv=True):
@@ -60,7 +65,10 @@ def leaver(stage, deriv=True):
     taught, names = [], []
     for pre, rng in STAGE[stage]:
         for n in rng:
-            U = importlib.import_module('content.%s%02d' % (pre, n)).UNIT
+            try:
+                U = importlib.import_module('content.%s%02d' % (pre, n)).UNIT
+            except ImportError:
+                continue
             taught += [w for w, _ in check.heads(U)]
             names += list(U.get('names', ()))
     extra = None
@@ -82,7 +90,11 @@ def passages(vol):
     unit's own taught vocabulary, which the unit presents before them."""
     out = []
     for n in VOL_UNITS[vol]:
-        U = importlib.import_module('content.u%02d' % n).UNIT
+        try:
+            U = importlib.import_module('content.u%02d' % n).UNIT
+        except ImportError:
+            # a volume still being written: report the seams that exist
+            continue
         own = [w for w, _ in check.heads(U)] + list(U.get('names', ()))
         nm = list(U.get('names', ()))
         for tag in ('r1', 'r2', 'r3', 'r4', 'r5'):
@@ -165,6 +177,8 @@ def main(argv):
     worst_seam = None
     for stage, vol, label in SEAMS:
         rows = measure(stage, vol)
+        if not rows:
+            continue
         t = [k for _, k, _ in rows]
         mean = sum(t) / float(len(t))
         over = sum(1 for k in t if k > 15)
