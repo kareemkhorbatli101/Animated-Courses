@@ -1046,3 +1046,636 @@ UNIT = dict(
         'hedge in front of a claim you have not argued for. An unsupported claim is not made '
         'safer by it is arguable that — it is made conspicuous.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 29 gains its two academic cycles. Cycle 4 defends the method by
+# transferring an argument from physics: nobody objects to a frictionless
+# plane, both idealisations remove something real on purpose, and the
+# asymmetry in how students react is about the subject rather than the
+# method. Cycle 5 grants the defence and asks where the data comes from,
+# then splits the method in two: a counterexample needs one case and one
+# person who notices, a confirmation needs a representative reaction, and
+# only the first survives the finding that intuitions vary.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('lever', 'a bar used to move a weight, pivoted at one point'),
+ ('frictionless', 'with no resistance to movement at all'),
+ ('physicist', 'a scientist who studies matter and energy'),
+ ('idealisation', 'a simplified case built to make one thing visible'),
+ ('bystander', 'somebody present who is not involved'),
+ ('hypothetical', 'put forward as a case to consider, not a real one'),
+ ('criticism', 'a reasoned objection, not necessarily a hostile one'),
+ ('deliberate', 'done on purpose'),
+ ('examination', 'a careful looking at something'),
+ ('respondent', 'a person who answers a question in a study'),
+ ('undergraduate', 'a student taking a first degree'),
+ ('isolate', 'to separate one thing from everything around it')]
+UNIT['r4'] = {'sub': 'Thought experiments',
+ 'title': 'Why the Case Has to Be Impossible',
+ 'words': 311,
+ 'skill': ('Reading a defence of a method that looks like a weakness',
+           ['The objection is stated first and the defence answers it, so identify the '
+            'objection before you read on.',
+            'The comparison with physics is the whole argument. Follow what it claims is the '
+            'same.',
+            'A question about realism wants what the impossibility is for.']),
+ 'paras': ['The commonest criticism of philosophical thought experiments is that the cases '
+           'are absurd. Nobody will ever be standing at a lever that diverts a runaway '
+           'vehicle, and no situation in anybody’s life will present a choice of five lives '
+           'against one with perfect information and no other course of action available. '
+           'The criticism is accurate and it is also beside the point, because the '
+           'impossibility is deliberate and it is performing a function that no realistic '
+           'case could perform. The complaint and the defence are therefore not in '
+           'disagreement about the facts, which is worth establishing before either side is '
+           'examined.',
+           'Compare the frictionless plane. No physicist has ever seen one, and no student '
+           'objects to being asked to consider one, because the purpose of the idealisation '
+           'is understood. Friction is a real force and it is not the force under '
+           'examination, so it is removed in order that the relation between mass and '
+           'acceleration becomes visible on its own. The same reasoning governs the '
+           'philosophical case. Real situations contain uncertainty about outcomes, '
+           'obligations to particular people, legal consequences and the state of the '
+           'agent’s knowledge, and all of those matter morally. The hypothetical removes '
+           'them to isolate one variable, which is the distinction between bringing a harm '
+           'about and allowing it to happen.',
+           'What the method yields in the end is not a verdict about vehicles or levers at '
+           'all. It is a test of whether a principle stated in general terms survives '
+           'contact with a case constructed to press on it, and a principle that fails in an '
+           'artificial case has been shown to need a qualification it did not state. That is '
+           'a genuine finding about the principle under consideration, and the artificiality '
+           'of the case is precisely what makes the finding clean rather than disputable, '
+           'because nothing else in the case can be blamed for the failure.'],
+ 'guided': [('What is the commonest criticism of thought experiments?',
+             ('They are too complicated',
+              'The cases are absurd',
+              'They are too realistic',
+              'They avoid moral questions'),
+             1,
+             'That the cases are absurd, which the passage concedes before answering.'),
+            ('How does the passage respond to that criticism?',
+             ('It denies the cases are absurd',
+              'It accepts the criticism and calls it beside the point',
+              'It argues absurdity is a virtue in itself',
+              'It abandons the method'),
+             1,
+             'The criticism is accurate and also beside the point, because the impossibility '
+             'is deliberate.'),
+            ('Why is friction removed from the physical case?',
+             ('It is not a real force',
+              'It is real but not the force under examination',
+              'It cannot be measured',
+              'Students find it confusing'),
+             1,
+             'Friction is real and is not the force under examination, so it is removed to '
+             'make another relation visible.')],
+ 'exam': [('What does the hypothetical case remove, by this passage?',
+           ('All moral content',
+            'Uncertainty, particular obligations, legal consequences and the agent’s '
+            'knowledge',
+            'The distinction between harming and allowing',
+            'The possibility of a verdict'),
+           1,
+           'Those four are listed, and the passage says all of them matter morally, which is '
+           'why they are removed deliberately.'),
+          ('What variable is the case designed to isolate?',
+           ('The number of lives',
+            'The distinction between bringing a harm about and allowing it',
+            'The reliability of information',
+            'The legal position'),
+           1,
+           'The hypothetical removes the rest to isolate that one distinction.'),
+          ('What does the passage say the method yields?',
+           ('A verdict about vehicles',
+            'A test of whether a general principle survives a constructed case',
+            'A description of real dilemmas',
+            'A measure of public opinion'),
+           1,
+           'Not a verdict about vehicles but a test of a principle stated in general terms.'),
+          ('What has been shown when a principle fails in an artificial case?',
+           ('That the case was badly built',
+            'That the principle needs a qualification it did not state',
+            'That the principle is useless',
+            'That realism is required'),
+           1,
+           'It needs a qualification it did not state, which the passage calls a real '
+           'finding about the principle.'),
+          ('Why does the passage say artificiality makes the finding clean?',
+           ('Artificial cases are easier to publish',
+            'Nothing else in the case can be blamed for the failure',
+            'Real cases are never decided',
+            'It removes the need for argument'),
+           1,
+           'With the other variables removed, a failure can only be attributed to the one '
+           'the case isolates.')]}
+UNIT['r5'] = {'sub': 'Thought experiments',
+ 'title': 'Whose Intuitions Are the Evidence?',
+ 'words': 312,
+ 'skill': ('Reading an objection about the sample a method relies on',
+           ['The objection accepts the logic of the method and asks where its data comes '
+            'from.',
+            'Note the two findings the writer reports, because they do different work.',
+            'A question about the conclusion wants what the writer still accepts from the '
+            'method.']),
+ 'paras': ['Grant the defence of the method entirely. A thought experiment isolates a '
+           'variable and tests a principle, exactly as advertised. The test still needs a '
+           'result, and the result is an intuition: the sense, on reading the case, that the '
+           'action described is or is not permissible. That intuition is the evidence, which '
+           'raises a question the method is not usually asked to answer. Whose intuition is '
+           'it, and how does anybody know it is not local to the small population that '
+           'happens to produce it?',
+           'Two findings bear on this and they point in different directions. The first is '
+           'that responses to several standard cases differ by culture, by language of '
+           'presentation and by the order in which the cases are given, which is not what '
+           'one expects of a perception of something stable. The second is that '
+           'philosophical training shifts the responses in a consistent direction, so the '
+           'intuitions used in the literature are those of a small population selected and '
+           'then trained, which is the definition of a sample nobody would accept in any '
+           'other field.',
+           'The honest conclusion from all of this is considerably narrower than the one '
+           'either enthusiasts or critics usually draw from it. The method remains the best '
+           'available instrument for the discovery that a principle is incomplete, because '
+           'that discovery requires only one case and one person who notices the difficulty '
+           'in it. What it cannot do, on the evidence now available, is establish that a '
+           'principle is correct by reporting that the case in question feels a particular '
+           'way to a trained philosopher. The first of those uses survives the criticism '
+           'untouched and the second does not, and a great many published arguments make no '
+           'distinction between them at all. The remedy is not a new method. It is a '
+           'sentence in the introduction saying which of the two the paper is attempting.'],
+ 'guided': [('What does the passage say the result of a thought experiment is?',
+             ('A proof', 'An intuition', 'A measurement', 'A legal ruling'),
+             1,
+             'The result is an intuition: the sense that the action is or is not '
+             'permissible.'),
+            ('What question does the passage say the method is not usually asked?',
+             ('Whether the case is realistic',
+              'Whose intuition counts as the evidence',
+              'How many cases are needed',
+              'Who invented the method'),
+             1,
+             'Whose intuition, and how we know it is not local to the people who produce '
+             'it.'),
+            ('What does the first finding report?',
+             ('Responses are stable across cultures',
+              'Responses differ by culture, language and order of presentation',
+              'Training has no effect',
+              'Cases cannot be translated'),
+             1,
+             'Those three sources of variation are named, and the passage says that is not '
+             'what one expects of a stable perception.')],
+ 'exam': [('What does the second finding report?',
+           ('Training has no effect on responses',
+            'Training shifts responses in a consistent direction',
+            'Philosophers disagree more than others',
+            'Order of presentation matters most'),
+           1,
+           'Philosophical training shifts the responses consistently, which makes the '
+           'literature’s intuitions a selected and trained sample.'),
+          ('Why does the passage call that a sample nobody would accept?',
+           ('It is too small to analyse',
+            'It is selected and then trained, in a field relying on it as evidence',
+            'It is drawn from one country',
+            'It cannot be replicated'),
+           1,
+           'Selected and then trained is the objection, and the passage says no other field '
+           'would accept it.'),
+          ('Which use of the method survives the criticism?',
+           ('Establishing that a principle is correct',
+            'Finding that a principle is incomplete',
+            'Measuring public opinion',
+            'Neither use'),
+           1,
+           'That finding needs only one case and one person who notices, so variation in '
+           'intuitions does not undermine it.'),
+          ('Why does the first use survive?',
+           ('Because philosophers agree about it',
+            'Because it needs only one case and one person who notices',
+            'Because it avoids intuitions',
+            'Because it is older'),
+           1,
+           'A counterexample requires a single instance, which is why a disputed sample does '
+           'not damage it.'),
+          ('What does the passage say about published arguments?',
+           ('They all distinguish the two uses',
+            'A great many do not distinguish between them',
+            'They avoid intuitions entirely',
+            'They have been withdrawn'),
+           1,
+           'A great many published arguments do not distinguish between the two uses, which '
+           'is the practical complaint.')]}
+UNIT['l4'] = {'sub': 'Thought experiments',
+ 'caption': 'A lecture comparing two kinds of idealisation',
+ 'board': ['Frictionless plane: nobody objects',
+           'Runaway vehicle: everybody does',
+           'Both remove a real factor on purpose',
+           'The objection is about the subject, not the method'],
+ 'skill': ('A lecture that transfers an argument from another field',
+           ['The lecturer borrows a method from physics and argues the objection is '
+            'inconsistent, so track what he says is the same.',
+            'Note the asymmetry he points out in how students react.',
+            'A question about his explanation of the asymmetry wants the reason he gives, '
+            'not the fact.']),
+ 'warm': [('Woman: What does nobody object to?',
+           ('The frictionless plane.',
+            'The runaway vehicle.',
+            'Yes, nobody objects.',
+            'Two factors.'),
+           0,
+           'The physics idealisation is accepted without complaint, which is the asymmetry '
+           'he is examining.'),
+          ('Woman: What do both idealisations do?',
+           ('Remove a real factor on purpose.',
+            'Describe a realistic situation.',
+            'Yes, they do something.',
+            'In one hour.'),
+           0,
+           'Both strip out something real in order to isolate something else.'),
+          ('Woman: What does he say the objection is really about?',
+           ('The subject, not the method.',
+            'The method, not the subject.',
+            'Yes, it is about something.',
+            'Friction.'),
+           0,
+           'His explanation of the asymmetry is that people hold moral philosophy to a '
+           'different standard.')],
+ 'script': [('Man',
+             'I want to put two idealisations side by side and ask you why you accept the '
+             'one and resist the other. Here is the first. A block slides down a '
+             'frictionless plane. No such plane has ever existed, friction is real, and the '
+             'whole point of removing it is that friction is not what we are studying this '
+             'week. Nobody in this room has ever complained about that. Here is the second. '
+             'A vehicle is running out of control, there is a lever, and pulling it diverts '
+             'the vehicle so that one person dies instead of five. Immediately somebody '
+             'objects that the case is unrealistic, that you would never have that '
+             'information, that there would be other options, and every one of those '
+             'objections is true. Notice that they are also true of the plane. The case '
+             'removes uncertainty, legal consequences and particular obligations for the '
+             'same reason the physicist removes friction: those things are real, they '
+             'matter, and they are not the variable under examination. So why the asymmetry '
+             'in how you react? My own answer is that you expect moral philosophy to be '
+             'about your life in a way you do not expect mechanics to be, and that '
+             'expectation is reasonable and it is not an argument. The test of an '
+             'idealisation is whether removing the factor changes the answer to the question '
+             'being asked, and that is a question you can actually investigate, by running '
+             'the case both ways, rather than one you can merely feel your way towards.')],
+ 'items': [('Why is friction removed from the physical case?',
+            ('It is not real',
+             'It is not what is being studied',
+             'It cannot be measured',
+             'It makes the sum harder'),
+            1,
+            'Friction is real and the point of removing it is that it is not what is being '
+            'studied.'),
+           ('What objections does he say people raise to the second case?',
+            ('That it is immoral',
+             'That it is unrealistic, the information would be missing, and there would be '
+             'other options',
+             'That it is too simple to analyse',
+             'That it has been overused'),
+            1,
+            'Those three are listed, and he says every one of them is true.'),
+           ('What does he point out about those objections?',
+            ('They are false',
+             'They are also true of the frictionless plane',
+             'They apply only to philosophy',
+             'They were raised by physicists'),
+            1,
+            'Notice that they are also true of the plane, which is the move the lecture '
+            'turns on.'),
+           ('What is his explanation for the asymmetry?',
+            ('Philosophy is harder',
+             'People expect moral philosophy to be about their own lives',
+             'Mechanics is better taught',
+             'The vehicle case is newer'),
+            1,
+            'You expect moral philosophy to be about your life in a way you do not expect '
+            'mechanics to be.'),
+           ('What does he say the test of an idealisation is?',
+            ('Whether it feels realistic',
+             'Whether removing the factor changes the answer to the question asked',
+             'Whether students accept it',
+             'Whether it comes from physics'),
+            1,
+            'That test is something you can investigate rather than merely feel, which is '
+            'how he ends.')]}
+UNIT['l5'] = {'sub': 'Thought experiments',
+ 'caption': 'A short talk on where the evidence comes from',
+ 'board': ['The result is an intuition',
+           'Whose? Selected, then trained',
+           'Counterexample: needs one person',
+           'Confirmation: needs a population'],
+ 'skill': ('A talk that splits a method into two uses',
+           ['The speaker accepts a method for one purpose and refuses it for another, so '
+            'keep the two purposes separate as you listen.',
+            'Note what she says a counterexample requires, because the asymmetry is the '
+            'whole argument.',
+            'A question about her advice wants what to check in a paper.']),
+ 'warm': [('Man: What is the evidence a thought experiment produces?',
+           ('An intuition.', 'A measurement.', 'Yes, it produces evidence.', 'Two uses.'),
+           0,
+           'The result is the sense that an action is or is not permissible, which is an '
+           'intuition.'),
+          ('Man: How many people does a counterexample need?',
+           ('One.', 'A representative sample.', 'Yes, it needs people.', 'Two findings.'),
+           0,
+           'A single clear case from a single person is enough to show a principle '
+           'incomplete.'),
+          ('Man: What should a student check in a paper?',
+           ('Which of the two uses it is making.',
+            'Whether the case is realistic.',
+            'Yes, they should check.',
+            'The number of cases.'),
+           0,
+           'Her advice is to identify the use, because the criticism applies to only one of '
+           'them.')],
+ 'script': [('Woman',
+             'My colleague defended the method and I accept the defence, and now I want to '
+             'ask about the data. What does a thought experiment actually produce? It '
+             'produces an intuition: you read the case and something in you reports that the '
+             'action is or is not permissible. That report is the evidence, which means the '
+             'method has a sample, and the sample has never been described. Two findings are '
+             'relevant. Responses to the standard cases vary with culture, with the language '
+             'the case is presented in and with the order the cases come in. And '
+             'philosophical training moves responses in a consistent direction, which means '
+             'the intuitions in the literature belong to a group that was selected and then '
+             'trained. Now here is the asymmetry that matters and that almost nobody states. '
+             'If I want to show your principle is incomplete, I need one case and one person '
+             'who notices, and whether my reaction generalises is irrelevant. If I want to '
+             'show your principle is correct because the case feels a certain way to me, I '
+             'need my reaction to be representative, and on this evidence it is not. So the '
+             'counterexample survives all of this intact and the confirmation does not, and '
+             'when you read a paper the first thing to work out is which of those two it is '
+             'doing. I will tell you how often that is stated explicitly in the papers I '
+             'review, which is almost never, and how often it can be worked out from the '
+             'first paragraph, which is most of the time.')],
+ 'items': [('What does the speaker accept at the start?',
+            ('That the cases are realistic',
+             'Her colleague’s defence of the method',
+             'That intuitions are stable',
+             'Nothing at all'),
+            1,
+            'She accepts the defence and then asks about the data, which is a different '
+            'question.'),
+           ('What three sources of variation does she report?',
+            ('Age, sex and education',
+             'Culture, language of presentation and order of the cases',
+             'Country, training and religion',
+             'Wording, length and difficulty'),
+            1,
+            'Those three are the first finding, and together they are not what one expects '
+            'of a stable perception.'),
+           ('What does philosophical training do?',
+            ('Removes intuitions',
+             'Moves responses in a consistent direction',
+             'Has no measurable effect',
+             'Makes responses more variable'),
+            1,
+            'It moves responses consistently, so the literature’s intuitions are those of a '
+            'selected and trained group.'),
+           ('What does a counterexample require?',
+            ('A representative sample',
+             'One case and one person who notices',
+             'Agreement among philosophers',
+             'A cross-cultural study'),
+            1,
+            'One case and one person who notices, and whether the reaction generalises is '
+            'irrelevant.'),
+           ('What should a reader work out first, by her advice?',
+            ('Whether the case is realistic',
+             'Which of the two uses the paper is making',
+             'Who the author trained with',
+             'How many cases are given'),
+            1,
+            'The first thing to work out is which of those two the paper is doing.')]}
+UNIT['w4'] = {'sub': 'Thought experiments',
+ 'skill': ('Hedging a claim to the strength of its evidence',
+           ['On this evidence, so far as the studies go and in the cases examined all limit '
+            'a claim to what was actually tested.',
+            'Put the limit where it belongs. On this evidence the principle fails says '
+            'something different from the principle fails on this evidence.',
+            'Do not hedge the logic. A counterexample either works or it does not, and '
+            'probably has no place in it.']),
+ 'guided': [('You want to limit a claim to the studies that exist.',
+             ['on',
+              'this',
+              'evidence',
+              'the intuitions',
+              'in',
+              'the literature',
+              'are',
+              'not',
+              'representative'],
+             'On this evidence, the intuitions in the literature are not representative.'),
+            ('You want to state a counterexample without hedging it.',
+             ['one case',
+              'and',
+              'one person',
+              'who',
+              'notices',
+              'is',
+              'enough',
+              'to show',
+              'the principle',
+              'incomplete'],
+             'One case and one person who notices is enough to show the principle '
+             'incomplete.'),
+            ('You want to say the removal was purposeful.',
+             ['the uncertainty',
+              'is',
+              'removed',
+              'deliberately',
+              'because',
+              'it',
+              'is',
+              'not',
+              'the variable',
+              'under',
+              'examination'],
+             'The uncertainty is removed deliberately because it is not the variable under '
+             'examination.')],
+ 'exam': [('You want to concede a criticism and limit it.',
+           ['the criticism',
+            'is',
+            'accurate',
+            'and',
+            'applies',
+            'to',
+            'only',
+            'one',
+            'of',
+            'the two',
+            'uses'],
+           'The criticism is accurate and applies to only one of the two uses.'),
+          ('You want to report variation carefully.',
+           ['responses',
+            'vary',
+            'with',
+            'culture',
+            'and',
+            'with',
+            'the order',
+            'in which',
+            'the cases',
+            'are',
+            'presented'],
+           'Responses vary with culture and with the order in which the cases are '
+           'presented.'),
+          ('You want to say training selected the sample.',
+           ['the sample',
+            'was',
+            'selected',
+            'and then',
+            'trained',
+            'which',
+            'no',
+            'other',
+            'field',
+            'would',
+            'accept'],
+           'The sample was selected and then trained, which no other field would accept.'),
+          ('You want to compare two idealisations.',
+           ['the plane',
+            'and',
+            'the vehicle',
+            'remove',
+            'a real',
+            'factor',
+            'for',
+            'precisely',
+            'the same',
+            'reason'],
+           'The plane and the vehicle remove a real factor for precisely the same reason.'),
+          ('You want to say an expectation is not an argument.',
+           ['the expectation',
+            'is',
+            'reasonable',
+            'and',
+            'it',
+            'is',
+            'not',
+            'an',
+            'argument',
+            'against',
+            'the method'],
+           'The expectation is reasonable and it is not an argument against the method.')]}
+UNIT['w5'] = {'sub': 'Thought experiments',
+ 'prof': 'Dr Beaumont',
+ 'question': 'A philosophy department is revising its first-year course. It can teach the '
+             'standard thought experiments as the discipline has used them, or teach them '
+             'alongside the studies showing that responses to them vary by culture and '
+             'training. There is room for one approach done properly. Which?',
+ 'posts': [('Rafael',
+            'm',
+            'Teach the cases. A first-year student has no intuitions to examine yet, and '
+            'presenting the empirical criticism before they can use the method produces '
+            'people who can repeat an objection and have never run the argument it objects '
+            'to.'),
+           ('Hana',
+            'w',
+            'That is how a cohort acquires a habit it spends ten years unlearning. The talk '
+            'separated two uses of the method and said most papers do not. If the '
+            'distinction is that easy to miss, it belongs in the first week rather than the '
+            'fourth year.')],
+ 'skill': ('A question about when a criticism should arrive',
+           ['Rafael argues from what a beginner can use; Hana from what a habit costs later. '
+            'Neither disputes the empirical findings.',
+            'Use the second passage, which says one use survives the criticism untouched and '
+            'the other does not.',
+            'A strong answer says what it teaches in week one, in words, rather than '
+            'choosing between two labels.']),
+ 'starters': ['Hana is right that…, although that holds only if…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passage suggests…',
+              'What belongs in the first week is not… but…'],
+ 'model': ['Hana is right that the distinction is easy to miss and wrong that the remedy is '
+           'the empirical literature. The passage does not need a cross-cultural study to '
+           'make its central point: a counterexample requires one case and one person who '
+           'notices, and a confirmation requires a representative reaction. That asymmetry '
+           'is available from the logic alone, in a single lecture, to students who have '
+           'never seen a response rate.',
+           'Rafael is right about sequence and overstates what follows. Running the argument '
+           'first is necessary, and nothing about it requires the distinction to be withheld '
+           'for four years.',
+           'So the course should teach the cases, and should teach in the first week that a '
+           'thought experiment can show a principle incomplete and cannot show one correct. '
+           'What is given up is the empirical material, which goes to the third year, where '
+           'the studies can be read properly rather than merely cited. That is a real cost, '
+           'and the students will meet the variation findings later than they might have. '
+           'They will meet them already knowing which half of the method those findings '
+           'threaten, which is more than a good deal of the published literature manages. A '
+           'student who has that distinction can read an empirical paper about intuitions '
+           'without either dismissing it or over-reading it, and those are the two failures '
+           'the department sees every year.'],
+ 'model_words': 226}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Thought experiments',
+  'focus': 'saying why a factor was removed',
+  'skill': ('It is removed because it is not the variable under examination',
+            ['The reason clause carries the argument, so give it the weight. The removal is '
+             'not the news.',
+             'Stress not and the noun it governs: not the variable under examination.',
+             'Keep the whole clause in one breath. Breaking it makes the removal sound '
+             'arbitrary.']),
+  'repeat': ['The uncertainty is removed deliberately.',
+             'It is not the variable under examination.',
+             'On this evidence the intuitions are not representative.',
+             'The plane and the vehicle do the same thing.',
+             'One case and one person who notices is enough.',
+             'Friction is real and it is not what we are studying.',
+             'The expectation that moral philosophy is about your own life is reasonable and '
+             'it is not an argument.'],
+  'theme': 'simplifying something to understand it',
+  'qs': ['Tell me about a time you simplified a problem to understand it. What did you leave '
+         'out?',
+         'Some people say that a simplified model is useless once you know it is false. How '
+         'far would you agree?',
+         'If somebody told you a model was too unrealistic to be useful, what would you ask '
+         'them?',
+         'Finally, describe something you understand better because somebody removed a '
+         'complication from it.'],
+  'model': [(2,
+             'That goes too far and there is a version of it I accept. A simplification is '
+             'useless if the thing you removed is the thing you are asking about, and '
+             'otherwise it is the only way anybody understands anything.'),
+            (3,
+             'Whether removing the complication changes the answer to the question. If it '
+             'does, the objection is right and the model is broken. If it does not, the '
+             'objection is about taste.')],
+  'selfcheck': ['I gave the reason clause the weight, not the removal',
+                'I kept the clause in one breath',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Thought experiments',
+  'focus': 'splitting a method into the use that works and the use that does not',
+  'skill': ('It works for one of those and not for the other',
+            ['Name both uses before you judge either. Naming them is what makes the split '
+             'credible.',
+             'Then take them in order, with the surviving one first.',
+             'The stress falls on the two uses, not on the verdicts.']),
+  'repeat': ['A confirmation needs a representative reaction.',
+             'A counterexample needs one person who notices.',
+             'The sample was selected and then trained.',
+             'Responses vary with culture and with order of presentation.',
+             'It works for one of those and not for the other.',
+             'The first use survives the criticism and the second does not.',
+             'When you read a paper, the first thing to work out is which of the two it is '
+             'doing.'],
+  'theme': 'a tool that is right for one job and wrong for another',
+  'qs': ['Tell me about something you use that is right for one purpose and wrong for '
+         'another. How did you learn the difference?',
+         'Some people think a method that fails sometimes should be abandoned. What do you '
+         'think?',
+         'How should a textbook present a method with a known limit?',
+         'Finally, describe an argument you have heard that proved less than the person '
+         'making it believed.'],
+  'model': [(2,
+             'I think that is the wrong unit of judgement, and the right one is the pairing '
+             'of method and question. Almost nothing works everywhere, and a method with a '
+             'known limit and a stated one is more useful than a method whose limits nobody '
+             'has looked for.'),
+            (4,
+             'A survey showing most people in an office preferred a change. It was presented '
+             'as showing the change was a good idea, and it showed that people who answered '
+             'a survey said so.')],
+  'selfcheck': ['I named both uses before judging either',
+                'I took the surviving use first',
+                'I stressed the uses rather than the verdicts']}]

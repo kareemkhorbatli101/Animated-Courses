@@ -21,6 +21,7 @@ import io
 import json
 import os
 import pprint
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -97,7 +98,10 @@ def merge(n, blocks):
 
 def seam_report(n, U):
     """Does this unit now teach the words its own passages needed?"""
-    want = set(w.lower() for w in TEACH.get(str(n), []))
+    # the measurement reports the surface form it found, which is sometimes a
+    # possessive: teaching 'physicist' licenses "physicist's", so the ending
+    # comes off before the comparison.
+    want = {re.sub(r"['\u2019]s$", '', w.lower()) for w in TEACH.get(str(n), [])}
     mine = {w.lower() for w, _ in check.heads(U)}
     from content._wordbank import expand
     covered = {w.lower() for w in expand(list(mine), deriv=True)} | mine

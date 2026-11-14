@@ -31,10 +31,13 @@ Foundation join we just closed.
 ### Why it is wide
 
 Volumes 1–2 teach 36 words a unit. Volumes 3–4 teach 18, while their passages
-get longer and denser. The measured shortfall is **622 words, a mean of 31 a
-unit**, held per unit in `v34_newlex.json`. The words that survive the
-morphology credit are ones whose stems are unknown too — *preserve, absent,
-subtract, conclude, employ, observe* — which is exactly what should be taught.
+get longer and denser. Every word those volumes use and never teach comes to
+622, a mean of 31 a unit (`v34_newlex.json`) — but that is not the number to
+fix, because at B2 meeting an unknown word and inferring it is the skill. The
+number to fix is the one that brings every passage under the course's own
+threshold of fifteen: **63 words, a mean of 3 a unit and a worst unit of 12**,
+in `v34_teach.json`. Five passages of forty are over the threshold today, and
+those five are where the 63 words live.
 
 ### The prose ladder
 
@@ -113,10 +116,16 @@ distance you race.
 
 ## 3. What changes in Volumes 3 and 4
 
-1. **Teach the 622 measured words.** The vocabulary page goes from 18 academic
-   words to 24 academic + 12 field words, matching Volumes 1–2's 36, with the
-   10 collocations kept. 720 slots over 20 units against a measured need of
-   622.
+1. **Teach to the threshold, not to zero.** The first count said 622 words —
+   every word Volumes 3–4 use and never teach, 31 a unit. That was the wrong
+   target: a B2 reader is supposed to meet unknown words and infer them, and
+   the standard is the one the course itself gives the student, fifteen a
+   passage. Teaching to *that*, greedily and worst-passage-first, needs **63
+   words across the twenty units — a mean of 3 and a worst unit of 12**
+   (`v34_teach.json`). So the eighteen academic words each unit already has
+   stay, and a list of **12 field words** covers both the unit's seam list and
+   the vocabulary its two new cycles need: 40 taught items a unit against
+   Volumes 1–2's 36.
 2. **Five cycles a skill.** Reading 4 and 5, Listening 4 and 5, Writing 4 and
    5, Speaking 4 and 5 — the machinery the Foundation volumes already use
    (`ITEMS_A2X`, `SHAPE_A2X`), ported to B2 as `ITEMS_B2X` and `SHAPE_B2X`.

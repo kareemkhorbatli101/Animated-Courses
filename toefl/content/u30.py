@@ -1044,3 +1044,645 @@ UNIT = dict(
         'Everything in the next ten units assumes you can produce all three without thinking '
         'about them.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 30 gains its two academic cycles and closes Volume 3. Cycle 4
+# corrects the assumption almost every reader brings: copyright in a
+# photograph belongs to the photographer, the subject has no property
+# interest at all, and the separate personal claim is narrower in three
+# ways and varies between jurisdictions. Cycle 5 argues that the law is
+# answering a question nobody is asking, through a case in which the
+# signature is valid, the use is lawful, nobody behaved badly, and a
+# person has still been placed in a situation that did not exist to be
+# consented to.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('copyright', 'the legal right to control copying of a work'),
+ ('jurisdictions', 'the different legal systems a rule may differ between'),
+ ('likeness', 'a recognisable image of a particular person'),
+ ('reproduction', 'the making of a further copy'),
+ ('attribution', 'the naming of who made a work'),
+ ('photographer', 'the person who takes the photograph'),
+ ('dissemination', 'the spreading of something to many people'),
+ ('perpetuity', 'for ever, with no end date'),
+ ('retrospective', 'applying to things that happened earlier'),
+ ('identifiable', 'able to be recognised as a particular person'),
+ ('commercial', 'done for profit rather than for record'),
+ ('consented', 'agreed to in advance')]
+UNIT['r4'] = {'sub': 'Who owns an image',
+ 'title': 'The Photograph Belongs to the Person Holding the Camera',
+ 'words': 329,
+ 'skill': ('Reading a passage about a rule that surprises most readers',
+           ['The rule stated here runs against what most people assume, so note the '
+            'assumption as well as the rule.',
+            'Two separate rights are distinguished and they belong to different people. Keep '
+            'them apart.',
+            'A question about jurisdictions wants what varies, not what is constant.']),
+ 'paras': ['Copyright in a photograph belongs to the photographer, and in most systems it '
+           'belongs to nobody else at all. The person in the image has no property interest '
+           'in it, cannot prevent its reproduction, and cannot require attribution or '
+           'payment when it is used. That arrangement surprises almost everybody who hears '
+           'it for the first time, and the surprise is itself worth noticing, because an '
+           'assumption this widely held produces a great many people relying on the rule '
+           'wrongly. A student who treats consent as a condition of publication has the '
+           'position exactly the wrong way round.',
+           'A second and quite separate right does sometimes protect the subject, and it is '
+           'not a property right. Depending on the jurisdiction, an identifiable person may '
+           'have a claim where an image is put to commercial use without agreement, or where '
+           'its publication is an intrusion on private life. Those claims are narrower than '
+           'ownership in three ways that matter, since they usually carry a requirement of '
+           'commercial use and a requirement of identification. They also show far more '
+           'variation between jurisdictions than copyright does, so the same photograph can '
+           'be lawful in one country and actionable in another.',
+           'The consequence for anybody working with images is practical rather than '
+           'theoretical, and it governs the administration of every archive. A release '
+           'signed by a subject is not a transfer of ownership, because the subject never '
+           'had any; it is a promise not to bring the second kind of claim. An archive that '
+           'holds a photograph therefore holds the copyright and does not hold the subject’s '
+           'agreement, which is a gap no amount of care closes. Those two permissions come '
+           'from different people, and often from different decades, because the '
+           'photographer can be traced through a deposit record while the subject can be '
+           'traced through nothing at all. That division of the problem, and not mere '
+           'caution, is why the permissions page of a photographic book runs to several '
+           'pages of small print.'],
+ 'guided': [('Who holds copyright in a photograph?',
+             ('The person in the image', 'The photographer', 'Both equally', 'The publisher'),
+             1,
+             'Copyright belongs to the photographer, and in most systems to nobody else at '
+             'all.'),
+            ('What can the person in the image NOT do?',
+             ('Appear in the photograph',
+              'Prevent its reproduction',
+              'Take a photograph themselves',
+              'Sign a release'),
+             1,
+             'The subject has no property interest, so cannot prevent the reproduction of '
+             'the image.'),
+            ('Why does the passage say the surprise is worth noticing?',
+             ('It makes the rule unfair',
+              'An assumption this widely held produces people relying on it wrongly',
+              'It shows the law is recent',
+              'It explains why archives exist'),
+             1,
+             'A widely held assumption produces a great many people relying on the rule '
+             'wrongly.')],
+ 'exam': [('What is the second right described in the passage?',
+           ('A property right in the image',
+            'A claim where an image is used commercially or is an intrusion on private life',
+            'A right to attribution',
+            'A right to payment'),
+           1,
+           'Those are the two circumstances given, and the passage is explicit that it is '
+           'not a property right.'),
+          ('Which is NOT one of the three ways the second right is narrower?',
+           ('It usually requires commercial use',
+            'It usually requires the person to be identifiable',
+            'It varies between jurisdictions',
+            'It lasts for only five years'),
+           3,
+           'The passage names commercial use, identification and variation between '
+           'jurisdictions; no term of years is mentioned.'),
+          ('What does a release signed by a subject actually do?',
+           ('Transfers ownership of the image',
+            'Promises not to bring the second kind of claim',
+            'Assigns copyright to the archive',
+            'Requires attribution'),
+           1,
+           'The subject never had ownership to transfer, so the release is a promise about '
+           'the second claim.'),
+          ('Why must an archive obtain two permissions from two people?',
+           ('The photographer must be paid twice',
+            'It holds the copyright but not the subject’s agreement',
+            'Jurisdictions require two signatures',
+            'Photographers are hard to find'),
+           1,
+           'The archive holds copyright and does not hold the subject’s agreement, and those '
+           'come from different people.'),
+          ('The word actionable in paragraph 2 is closest in meaning to',
+           ('worth publishing',
+            'able to be sued over',
+            'recently taken',
+            'commercially valuable'),
+           1,
+           'Set against lawful in one country, it means giving rise to a legal claim in the '
+           'other.')]}
+UNIT['r5'] = {'sub': 'Who owns an image',
+ 'title': 'What Ownership Was Never Going to Settle',
+ 'words': 326,
+ 'skill': ('Reading an objection that a legal frame is the wrong frame',
+           ['The writer accepts the law as described and argues it is answering a different '
+            'question from the one people are asking.',
+            'Note what the writer says a signature cannot do, because the whole argument '
+            'turns on it.',
+            'A question about the recommendation wants a practice, not a legal reform.']),
+ 'paras': ['The legal position is clear and it answers a question almost nobody is actually '
+           'asking. People who object to a photograph of themselves are rarely making a '
+           'claim about property, and the objection is not usually that somebody profited. '
+           'It is that an image made in one context is now circulating in another, and the '
+           'law of ownership has no vocabulary for that complaint at all. Ownership answers '
+           'the question of who may make a reproduction and sell it, and the intrusion '
+           'people complain of is not a transaction at all.',
+           'Consider what a release can and cannot do. A person photographed at a '
+           'demonstration in nineteen eighty-four consented to a photograph, in a world '
+           'where dissemination meant a print run and a library. The same image is now '
+           'searchable, matched to a name by software nobody had then, and durable in '
+           'perpetuity. The signature is valid, the use is lawful, and the person has been '
+           'placed in a situation they could not have consented to because it did not exist '
+           'to be described. Consent given at one moment cannot cover a technology that '
+           'arrives afterwards, and no drafting solves this, because the problem is not in '
+           'the wording.',
+           'The recommendation that follows is a practice rather than a legal reform, which '
+           'is fortunate, because retrospective legislation here would be unworkable. '
+           'Archives and publishers that treat a lawful right as the beginning of the '
+           'question rather than the end of it do ask again before a retrospective reuse, do '
+           'remove an image on a reasonable request even where no claim could be brought, '
+           'and do record that they were asked. None of that is required of them. The '
+           'expense is not the objection either, since a contact address and a record of '
+           'requests cost an institution almost nothing. All of it is cheap, and the '
+           'institutions that decline to do it are relying on a rule that was written before '
+           'the only circumstance that now matters.'],
+ 'guided': [('What does the passage say the legal position answers?',
+             ('The question people are asking',
+              'A question almost nobody is asking',
+              'No question at all',
+              'A question about profit'),
+             1,
+             'It is clear and it answers a question almost nobody is actually asking.'),
+            ('What is the objection usually about?',
+             ('Profit',
+              'An image made in one context circulating in another',
+              'Attribution',
+              'Copyright ownership'),
+             1,
+             'Not usually that somebody profited: that the image has moved from one context '
+             'into another.'),
+            ('What had changed by the time the old photograph circulated again?',
+             ('The law of copyright',
+              'Dissemination, searchability and durability',
+              'The identity of the photographer',
+              'The commercial value'),
+             1,
+             'Searchable, matched to a name by software nobody had then, and durable in '
+             'perpetuity.')],
+ 'exam': [('What does the passage say about the signature on the release?',
+           ('It was invalid',
+            'It is valid, and the person was placed in a situation they could not have '
+            'consented to',
+            'It should be withdrawn',
+            'It covered future technologies'),
+           1,
+           'The signature is valid and the use lawful, and the situation did not exist to be '
+           'described when consent was given.'),
+          ('Why does the passage say no drafting solves this?',
+           ('Lawyers are careless',
+            'The problem is not in the wording',
+            'Releases are too short',
+            'Jurisdictions differ'),
+           1,
+           'Consent at one moment cannot cover a later technology, and the problem is not in '
+           'the wording.'),
+          ('Why does the passage call it fortunate that the remedy is a practice?',
+           ('Practices are cheaper to teach',
+            'Retrospective legislation here would be unworkable',
+            'Publishers prefer voluntary rules',
+            'Archives are not regulated'),
+           1,
+           'Retrospective legislation here would be unworkable, which is given as the '
+           'reason.'),
+          ('Which is NOT one of the three practices the passage names?',
+           ('Asking again before a retrospective reuse',
+            'Removing an image on reasonable request',
+            'Recording that they were asked',
+            'Paying the subject a fee'),
+           3,
+           'The three are asking again, removing on request, and keeping a record; no '
+           'payment is proposed.'),
+          ('What does the passage say about institutions that decline?',
+           ('They are acting unlawfully',
+            'They are relying on a rule written before the circumstance that now matters',
+            'They will be legislated against',
+            'They cannot afford the practice'),
+           1,
+           'None of it is required and all of it is cheap, so the refusal rests on a rule '
+           'that predates the situation.')]}
+UNIT['l4'] = {'sub': 'Who owns an image',
+ 'caption': 'A lecture on two rights that belong to two people',
+ 'board': ['Copyright: the photographer',
+           'Privacy or commercial claim: the subject',
+           'A release is not a transfer',
+           'Two permissions, two people'],
+ 'skill': ('A lecture that corrects a widespread assumption',
+           ['The lecturer begins from what the class already believes and then contradicts '
+            'it, so note the assumption first.',
+            'Two rights, two owners. The whole hour depends on not merging them.',
+            'A question about the permissions page wants the practical consequence.']),
+ 'warm': [('Woman: Who owns the copyright?',
+           ('The photographer.',
+            'The person in the picture.',
+            'Yes, somebody owns it.',
+            'Two rights.'),
+           0,
+           'Copyright belongs to whoever made the image, which is the correction the hour is '
+           'built on.'),
+          ('Woman: What does a release actually do?',
+           ('It promises not to bring the second claim.',
+            'It transfers ownership of the image.',
+            'Yes, it does something.',
+            'In two jurisdictions.'),
+           0,
+           'Since the subject never owned anything, a release cannot be a transfer.'),
+          ('Woman: Why is a permissions page so long?',
+           ('Two permissions come from two people.',
+            'Copyright lasts a long time.',
+            'Yes, it is long.',
+            'For commercial use.'),
+           0,
+           'The practical consequence is that an archive must collect two different '
+           'agreements from two different parties.')],
+ 'script': [('Man',
+             'Let me start with what almost all of you believe, because it is wrong and it '
+             'is wrong in a useful way. You believe that a photograph of you is in some '
+             'sense yours. It is not. Copyright in a photograph belongs to the person who '
+             'took it, and in most systems the subject has no property interest in the image '
+             'whatever: no right to stop a reproduction, no right to be named, no right to a '
+             'share of anything it earns. Now, there is a second right, and the mistake '
+             'students make is merging it with the first. In many jurisdictions an '
+             'identifiable person can object where an image is used commercially without '
+             'agreement, or where publishing it intrudes on private life. That is a personal '
+             'claim, it is not ownership, and it varies between countries far more than '
+             'copyright does. Keep them apart and a lot of confusion disappears. Notice also '
+             'which way the variation runs. Copyright is nearly uniform across the '
+             'industrialised world, while the personal claim is a patchwork, so the question '
+             'for a picture editor is not only what the law says but which law applies. Here '
+             'is the practical consequence, and it explains something you have all seen. '
+             'When a subject signs a release, they are not transferring the image, because '
+             'they never had it. They are promising not to bring the second kind of claim. '
+             'So an archive holding a photograph has the copyright and does not have the '
+             'subject’s agreement, and the two must be collected from two different people, '
+             'often decades apart. That is why the permissions page of a photographic book '
+             'runs to four pages of small print.')],
+ 'items': [('What does the lecturer say most of the class believes?',
+            ('That copyright is complicated',
+             'That a photograph of them is in some sense theirs',
+             'That releases are unnecessary',
+             'That jurisdictions agree'),
+            1,
+            'He opens with the belief and says it is wrong in a useful way.'),
+           ('What three things does he say the subject has no right to?',
+            ('Payment, attribution and a copy',
+             'Stopping a reproduction, being named, and a share of earnings',
+             'Privacy, consent and removal',
+             'Publication, sale and display'),
+            1,
+            'No right to stop a reproduction, to be named, or to a share of anything it '
+            'earns.'),
+           ('What mistake does he say students make?',
+            ('Confusing two jurisdictions',
+             'Merging the second right with the first',
+             'Ignoring commercial use',
+             'Assuming releases are invalid'),
+            1,
+            'The mistake is merging the personal claim with the property right.'),
+           ('How does the second right differ between countries?',
+            ('It does not vary at all',
+             'It varies far more than copyright does',
+             'It varies slightly less than copyright',
+             'He does not say'),
+            1,
+            'It varies between countries far more than copyright does.'),
+           ('Why does a permissions page run to four pages?',
+            ('Copyright terms are long',
+             'Two agreements must be collected from two people, often decades apart',
+             'Jurisdictions require it',
+             'Publishers are cautious'),
+            1,
+            'The archive has the copyright and not the agreement, so both have to be '
+            'gathered separately.')]}
+UNIT['l5'] = {'sub': 'Who owns an image',
+ 'caption': 'A short talk on consent and a technology that arrived later',
+ 'board': ['Consent in 1984: a print run',
+           'Same image: searchable, for ever',
+           'Signature valid, situation new',
+           'Ask again. It is cheap.'],
+ 'skill': ('A talk that locates a problem outside the law',
+           ['The speaker says a difficulty cannot be fixed by better wording, so identify '
+            'where she puts it instead.',
+            'Note the three practices she recommends, and that none of them is required.',
+            'A question about her argument wants why legislation is not the answer.']),
+ 'warm': [('Man: Was the signature valid?',
+           ('Yes, and the situation is new.',
+            'No, it was invalid.',
+            'Yes, it was.',
+            'In 1984.'),
+           0,
+           'She is careful that nothing was done wrongly: the consent was good and the world '
+           'changed.'),
+          ('Man: How many practices does she recommend?',
+           ('Three.', 'One.', 'Yes, she recommends some.', 'None at all.'),
+           0,
+           'Ask again, remove on request, and record the request are the three.'),
+          ('Man: Why not legislate?',
+           ('Retrospective legislation would be unworkable.',
+            'Parliaments are too slow.',
+            'Yes, legislation would help.',
+            'Because archives object.'),
+           0,
+           'Her reason is specific: the fix would have to reach backwards, and that cannot '
+           'be drafted.')],
+ 'script': [('Woman',
+             'I want to describe a case where everybody behaved properly and the outcome is '
+             'still wrong. A woman is photographed at a demonstration in nineteen '
+             'eighty-four. She agrees. In nineteen eighty-four agreeing meant a print run of '
+             'a few thousand and a copy in a library, and that is the thing she consented '
+             'to, because it is the only thing that existed. The archive digitises in two '
+             'thousand and ten, the image is searchable by two thousand and fifteen, '
+             'software matches it to her name shortly afterwards, and it is now permanent '
+             'and findable by anybody who types her name. The photographer did nothing '
+             'wrong. The archive did nothing wrong. The signature is valid and the use is '
+             'lawful. And she has been put in a position she could not have agreed to, '
+             'because it did not exist to be described. Notice too that the objection has '
+             'nothing to do with money. Nobody profited from the reuse, nobody published her '
+             'for gain, and the complaint is just as strong. Notice that no amount of better '
+             'drafting in nineteen eighty-four would have helped, so the problem is not in '
+             'the wording and there is nothing to fix there. Legislation will not reach it '
+             'either, because the fix would have to be retrospective and that is unworkable. '
+             'What is left is practice. Ask again before a reuse. Take an image down on a '
+             'reasonable request even when no claim could be brought. Write down that you '
+             'were asked. None of that is required of anybody and all of it is nearly '
+             'free.')],
+ 'items': [('What does the speaker say about everybody’s behaviour in the case?',
+            ('Somebody acted unlawfully',
+             'Everybody behaved properly and the outcome is still wrong',
+             'The archive was careless',
+             'The photographer broke an agreement'),
+            1,
+            'She builds the case so that nobody did anything wrong, which is what makes it '
+            'interesting.'),
+           ('What did consent mean in nineteen eighty-four, by her account?',
+            ('Worldwide publication',
+             'A print run of a few thousand and a library copy',
+             'Permanent searchable availability',
+             'Commercial use'),
+            1,
+            'That is the thing she consented to, because it was the only thing that '
+            'existed.'),
+           ('Why would better drafting not have helped?',
+            ('Lawyers were less skilled then',
+             'The situation did not exist to be described',
+             'The archive would have refused',
+             'Releases were not used'),
+            1,
+            'No amount of better drafting would have helped, because the problem is not in '
+            'the wording.'),
+           ('Why does she rule out legislation?',
+            ('It would be unpopular',
+             'The fix would have to be retrospective, which is unworkable',
+             'Archives are exempt',
+             'It would cost too much'),
+            1,
+            'The fix would have to reach backwards, and that is unworkable.'),
+           ('What does she say about the three practices?',
+            ('They are legally required',
+             'None is required and all are nearly free',
+             'They are expensive but necessary',
+             'They apply only to commercial use'),
+            1,
+            'None of that is required of anybody and all of it is nearly free.')]}
+UNIT['w4'] = {'sub': 'Who owns an image',
+ 'skill': ('Concession with while, whereas and albeit',
+           ['While and whereas set two things against each other without rejecting either: '
+            'copyright belongs to the photographer, whereas the claim belongs to the '
+            'subject.',
+            'Albeit introduces a short qualification, not a clause with its own subject: '
+            'lawful, albeit narrow.',
+            'While at the start of a sentence can mean although or at the same time, so '
+            'place it where only one reading is available.']),
+ 'guided': [('You want to set the two rights against each other.',
+             ['copyright',
+              'belongs',
+              'to',
+              'the photographer',
+              'whereas',
+              'the',
+              'personal',
+              'claim',
+              'belongs',
+              'to',
+              'the subject'],
+             'Copyright belongs to the photographer, whereas the personal claim belongs to '
+             'the subject.'),
+            ('You want to concede that a use was lawful.',
+             ['the reuse',
+              'was',
+              'lawful',
+              'albeit',
+              'in',
+              'a',
+              'context',
+              'nobody',
+              'could',
+              'have',
+              'described'],
+             'The reuse was lawful, albeit in a context nobody could have described.'),
+            ('You want to concede a right while limiting it.',
+             ['while',
+              'the claim',
+              'exists',
+              'in',
+              'many',
+              'jurisdictions',
+              'it',
+              'requires',
+              'the use',
+              'to be',
+              'commercial'],
+             'While the claim exists in many jurisdictions, it requires the use to be '
+             'commercial.')],
+ 'exam': [('You want to contrast the two kinds of variation.',
+           ['the personal',
+            'claim',
+            'varies',
+            'between',
+            'jurisdictions',
+            'whereas',
+            'copyright',
+            'varies',
+            'hardly',
+            'at all'],
+           'The personal claim varies between jurisdictions, whereas copyright varies hardly '
+           'at all.'),
+          ('You want to concede validity and deny sufficiency.',
+           ['the signature',
+            'is',
+            'valid',
+            'albeit',
+            'given',
+            'for',
+            'a',
+            'world',
+            'that',
+            'no longer',
+            'exists'],
+           'The signature is valid, albeit given for a world that no longer exists.'),
+          ('You want to concede that nothing was required.',
+           ['while',
+            'none',
+            'of',
+            'these',
+            'practices',
+            'is',
+            'required',
+            'all',
+            'of them',
+            'are',
+            'cheap'],
+           'While none of these practices is required, all of them are cheap.'),
+          ('You want to contrast a release with a transfer.',
+           ['a release',
+            'is',
+            'a promise',
+            'whereas',
+            'a transfer',
+            'would',
+            'move',
+            'something',
+            'the subject',
+            'never',
+            'held'],
+           'A release is a promise, whereas a transfer would move something the subject '
+           'never held.'),
+          ('You want to concede the clarity of the law.',
+           ['the law',
+            'is',
+            'clear',
+            'albeit',
+            'about',
+            'a question',
+            'almost',
+            'nobody',
+            'is',
+            'actually',
+            'asking'],
+           'The law is clear, albeit about a question almost nobody is actually asking.')]}
+UNIT['w5'] = {'sub': 'Who owns an image',
+ 'prof': 'Dr Castellanos',
+ 'question': 'A photographic archive is putting a collection from the nineteen eighties. It '
+             'can publish everything, which is lawful and makes the collection useful, or '
+             'publish only images whose subjects it can trace and ask again, which would '
+             'mean releasing perhaps a third of it. Which should it do?',
+ 'posts': [('Hana',
+            'w',
+            'Publish everything. The releases are valid, the use is lawful, and an archive '
+            'that hides two thirds of a collection has destroyed the historical record to '
+            'protect people who in most cases would not object.'),
+           ('Omar',
+            'm',
+            'The talk showed exactly why valid and lawful is not the end of it. These people '
+            'consented to a print run, not to being findable by name for ever, and treating '
+            'a signature from nineteen eighty-four as covering that is using a document for '
+            'something it never described.')],
+ 'skill': ('A question about a lawful act and a new consequence',
+           ['Hana argues from the record and the validity of the consent; Omar from what the '
+            'consent actually covered.',
+            'Use the second passage, which accepts that everybody behaved properly and still '
+            'calls the outcome wrong.',
+            'A strong answer says what gets published and what gets done about the rest, in '
+            'practical terms.']),
+ 'starters': ['Omar is right that…, although that holds only where…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passage suggests…',
+              'What the archive should do is not… but…'],
+ 'model': ['Omar is right about what the signature covered and his conclusion does not '
+           'follow, because the remedy he implies is to hide the images and the passage '
+           'recommends something else. The practices it names are asking again, removing on '
+           'request and recording the request, and none of the three requires an image to be '
+           'kept back before anybody has objected. Hiding an image before any objection is '
+           'not among them, and none of them implies it.',
+           'Hana’s historical argument is the stronger one and she makes too much of the '
+           'alternative. Nothing here requires two thirds of a collection to be hidden; it '
+           'requires a route by which a person who finds themselves searchable can get the '
+           'image taken down without hiring anybody. The distinction worth drawing is '
+           'between keeping back an image and keeping back any route by which a subject '
+           'could object, and it is only the second that the passage treats as a failure.',
+           'So the archive should publish the collection and build that route before it '
+           'publishes, with a named contact, a stated undertaking to remove on reasonable '
+           'request, and a log of what was asked and what was done. What is given up is the '
+           'finality of publication, because the collection will be slightly different in '
+           'ten years and the citations will need dates. That is a real cost to scholarship, '
+           'and it is smaller than either hiding the record or treating a nineteen '
+           'eighty-four signature as consent to something that did not exist.'],
+ 'model_words': 249}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Who owns an image',
+  'focus': 'contrasting two things with whereas',
+  'skill': ('Copyright belongs to the photographer, whereas the claim belongs to the subject',
+            ['Whereas takes a clear pause before it and none after. The pause is what marks '
+             'the contrast.',
+             'Give both halves equal weight. Dropping the second half makes it sound like an '
+             'afterthought.',
+             'Stress the two contrasted items, not whereas itself.']),
+  'repeat': ['Copyright belongs to the photographer.',
+             'The personal claim belongs to the subject.',
+             'The claim varies between jurisdictions, whereas copyright hardly varies.',
+             'The signature is valid, albeit given for another world.',
+             'A release is a promise, whereas a transfer moves something.',
+             'While none of these practices is required, all of them are cheap.',
+             'An archive holds the copyright, whereas the subject’s agreement has to be '
+             'collected from somebody else entirely.'],
+  'theme': 'owning, or not owning, an image of yourself',
+  'qs': ['Tell me about a photograph of you that somebody else controls. How do you feel '
+         'about that?',
+         'Some people say that if you are in a public place you have agreed to be '
+         'photographed. How far would you agree?',
+         'If an old photograph of you became searchable by name, what would you want to be '
+         'able to do?',
+         'Finally, describe a case where you think a lawful use of an image would still be '
+         'wrong.'],
+  'model': [(2,
+             'That moves much too fast for me, and the reason is the distinction in this '
+             'unit. Being seen in a street and being findable by name for ever are not the '
+             'same consent, and treating the first as the second does a lot of work in a '
+             'very short sentence.'),
+            (3,
+             'A way of asking for it to come down that does not involve a lawyer. Not a '
+             'right to win, necessarily, but a route to ask and a record that I did.')],
+  'selfcheck': ['I paused before whereas and not after',
+                'I gave both halves equal weight',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Who owns an image',
+  'focus': 'saying that everybody acted properly and the outcome is wrong',
+  'skill': ('Nobody did anything wrong, and the result is still bad',
+            ['Clear the people first, at full length, before you say what is wrong. Rushing '
+             'it sounds like an accusation you are hiding.',
+             'Mark the turn with and rather than but. But reads as though the clearing was '
+             'insincere.',
+             'Then put the fault where it belongs, in the situation or the rule, not in a '
+             'person.']),
+  'repeat': ['Nobody did anything wrong here.',
+             'It did not exist to be described.',
+             'No amount of better drafting would have helped.',
+             'The signature is valid and the use is lawful.',
+             'She was put in a position she could not have agreed to.',
+             'The problem is not in the wording, so there is nothing to fix there.',
+             'Legislation will not reach it either, because the fix would have to be '
+             'retrospective.'],
+  'theme': 'a bad outcome with no bad actor',
+  'qs': ['Tell me about a situation that went wrong although everybody acted reasonably. '
+         'What caused it?',
+         'Some people think that if nobody is at fault, nothing needs to change. What do you '
+         'think?',
+         'How should an organisation respond to a harm it caused lawfully?',
+         'Finally, describe a rule that made sense when it was written and does not now.'],
+  'model': [(2,
+             'I think that is exactly backwards, and the reason is practical. If somebody is '
+             'at fault you can deal with the person and leave the system alone. If nobody '
+             'is, the system is the only thing left to change, so those are the cases where '
+             'design actually matters.'),
+            (4,
+             'A rule at my old job that expenses had to be claimed on paper within a month. '
+             'It was written when people worked in one building and nobody had reviewed it '
+             'since.')],
+  'selfcheck': ['I cleared the people at full length first',
+                'I turned with and rather than but',
+                'I put the fault in the rule rather than a person']}]
