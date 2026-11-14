@@ -12,7 +12,8 @@ VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2
         # The Foundation volume sits before Volume 1. Same architecture, same
         # task names, same item counts; a lower level and four strands that are
         # not about the test at all.
-        'F': dict(units=range(1, 11), test='f', pre='f')}
+        # Foundation 1 sits before Volume 1; Foundation 2 sits between them.
+        'F1': dict(units=range(1, 11), test='f', pre='f')}
 
 SKILL_TASK = {
     'r1': ('reading', 1, 'Complete the Words'),
@@ -523,7 +524,7 @@ def front_matter(d, vol, units):
              'since 21 January 2026. Every task name, item count and timing in this book '
              'follows the official ETS practice test for that form.' % lvl)
     if lvl == 'A2':
-        d.body_p('This is the Foundation volume, and it comes before Volume 1. It exists '
+        d.body_p('This is Foundation 1, and it comes before Volume 1. It exists '
                  'because the rest of the course starts at B1, and a great many people who '
                  'need the TOEFL are not there yet. Being told to "do a general English '
                  'course first and come back" is not an answer, because a general course '
@@ -1067,10 +1068,13 @@ BULLETS = {'A2': [
 
 if __name__ == '__main__':
     _a = sys.argv[1] if len(sys.argv) > 1 else '1'
-    v = 'F' if _a.upper() == 'F' else int(_a)
-    _lv = 'A2' if v == 'F' else ('B2' if v >= 3 else 'B1')
+    _u = _a.upper()
+    v = ('F1' if _u in ('F', 'F1') else 'F2' if _u == 'F2' else int(_a))
+    _lv = 'A2' if v == 'F1' else ('B1' if v == 'F2' else
+                                 ('B2' if v >= 3 else 'B1'))
     o = sys.argv[2] if len(sys.argv) > 2 else (
-        '/home/user/Animated-Courses/TOEFL_2026_Foundation.docx' if v == 'F'
+        '/home/user/Animated-Courses/TOEFL_2026_Foundation_%s.docx' % str(v)[1:]
+        if isinstance(v, str)
         else '/home/user/Animated-Courses/TOEFL_2026_%s_Volume_%d.docx' % (_lv, v))
     path, nimg = build(v, o)
     print('wrote', path, os.path.getsize(path), 'bytes,', nimg, 'images')

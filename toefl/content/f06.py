@@ -6,7 +6,7 @@ Question spine: How much ...? How many ...?
 """
 
 UNIT = dict(
-    n=6, vol='F', level='A2',
+    n=6, vol='F1', level='A2',
     title='Food, Prices and the Cafeteria',
     icons=('leaf', 'chart', 'speech'),
     subs=('The menu', 'Paying and change', 'What people eat'),

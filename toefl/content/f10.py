@@ -10,7 +10,7 @@ them.
 """
 
 UNIT = dict(
-    n=10, vol='F', level='A2',
+    n=10, vol='F1', level='A2',
     title='Study, Work and Your Plans',
     icons=('chart', 'laptop', 'pen'),
     subs=('Choosing a subject', 'A part-time job', 'What you will do next'),

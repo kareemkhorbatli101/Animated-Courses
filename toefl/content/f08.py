@@ -6,7 +6,7 @@ Question spine: Did ...? Where did ...?
 """
 
 UNIT = dict(
-    n=8, vol='F', level='A2',
+    n=8, vol='F1', level='A2',
     title='Getting There: Travel and Transport',
     icons=('globe', 'clock', 'chart'),
     subs=('The bus and the train', 'A ticket and a timetable', 'A journey you made'),

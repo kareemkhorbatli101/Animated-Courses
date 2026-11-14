@@ -6,7 +6,7 @@ Question spine: What are you doing?
 """
 
 UNIT = dict(
-    n=5, vol='F', level='A2',
+    n=5, vol='F1', level='A2',
     title='A Day in Your Life',
     icons=('clock', 'laptop', 'headphones'),
     subs=('A student’s routine', 'How people study', 'Free time'),

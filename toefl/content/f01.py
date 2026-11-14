@@ -6,7 +6,7 @@ statement. Question spine: Am / Is / Are ...?
 """
 
 UNIT = dict(
-    n=1, vol='F', level='A2',
+    n=1, vol='F1', level='A2',
     title='People, Names and the First Week',
     icons=('speech', 'book', 'globe'),
     subs=('Meeting your class', 'The student card', 'Where people are from'),

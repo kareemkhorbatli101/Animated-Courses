@@ -6,7 +6,7 @@ Question spine: Can you ...? What should ...?
 """
 
 UNIT = dict(
-    n=9, vol='F', level='A2',
+    n=9, vol='F1', level='A2',
     title='The Body, Health and the Clinic',
     icons=('brain', 'flask', 'speech'),
     subs=('Parts of the body', 'At the clinic', 'Staying well'),

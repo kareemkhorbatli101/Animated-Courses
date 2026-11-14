@@ -6,7 +6,7 @@ Question spine: Was ...? Were ...?
 """
 
 UNIT = dict(
-    n=7, vol='F', level='A2',
+    n=7, vol='F1', level='A2',
     title='Weather, Seasons and the Year',
     icons=('leaf', 'globe', 'clock'),
     subs=('A week of weather', 'The four seasons', 'A day it rained'),
