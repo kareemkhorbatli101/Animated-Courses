@@ -1053,3 +1053,642 @@ UNIT = dict(
         'smuggle in your own opinion — an examiner who sees it is widely believed attached to '
         'an unsupported claim knows exactly what has happened.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 26 gains its two academic cycles. Cycle 4 is the access argument,
+# built quantitatively rather than morally: a tenant with an enforceable
+# right and a claim worth less than the cost of asserting it, and a body
+# of precedent that develops unevenly because the reports record what was
+# decided and not what nobody could afford to bring. Cycle 5 accepts the
+# diagnosis and prices the two remedies, concluding that access is bought
+# by lowering the quality of adjudication, that the trade is usually worth
+# making, and that it should be described rather than concealed.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('courtroom', 'the room in which a case is heard'),
+ ('unlawful', 'against the law'),
+ ('litigant', 'a person bringing or defending a case'),
+ ('adversarial', 'run as a contest between two sides'),
+ ('procedural', 'to do with the steps a process must follow'),
+ ('claimant', 'the person bringing a claim'),
+ ('representation', 'having a lawyer act for you'),
+ ('enforceable', 'able to be made to happen by a court'),
+ ('tenant', 'a person who rents a home from somebody'),
+ ('comparable', 'close enough in size to be set beside'),
+ ('practitioner', 'somebody who does the work rather than studies it'),
+ ('unevenly', 'not spread equally')]
+UNIT['r4'] = {'sub': 'Access to justice',
+ 'title': 'A Right Nobody Can Afford to Use',
+ 'words': 294,
+ 'skill': ('Reading an argument about the gap between a rule and its use',
+           ['The claim here is not that a right is absent but that its exercise costs more '
+            'than the right is worth to most people.',
+            'Follow the arithmetic of the example, because the argument is quantitative '
+            'rather than moral.',
+            'A question about enforceability wants the practical condition, not the legal '
+            'one.']),
+ 'paras': ['A right that exists in a statute and cannot in practice be exercised presents a '
+           'difficulty that no amount of careful drafting will resolve, and the recognition '
+           'of that difficulty has reorganised a good deal of modern discussion of rights. '
+           'Consider a tenant with an enforceable right to repairs. The landlord declines, '
+           'the tenant has a claim worth perhaps two thousand in value, and bringing it '
+           'requires either representation, at a cost comparable to the claim, or appearing '
+           'without a lawyer against a landlord who has one. The right is genuine, the '
+           'remedy is available in principle, and the rational decision for the tenant is '
+           'the abandonment of the claim.',
+           'The consequence is not merely that some claims go unbrought. It is that the law '
+           'develops unevenly, because the cases that reach a courtroom and generate a '
+           'ruling are those somebody could afford to bring. A body of precedent assembled '
+           'from the claims of well-funded litigants will be detailed and sophisticated on '
+           'the questions those litigants care about and close to silent on the rest, and '
+           'the silence is invisible from inside the reports, which record what was decided '
+           'and not what was never heard.',
+           'This explains why procedural reform occupies so much more of the attention of '
+           'practitioners than the drafting of rights, and why the two are so often treated '
+           'as separate projects. They are not separate. The cost of access is a term in the '
+           'definition of the right, in the only sense that matters to the person holding '
+           'one, and the creation of an entitlement without an affordable route to its '
+           'enforcement produces something much closer to a declaration of intention. The '
+           'distinction is not a technical refinement. It is the difference between a '
+           'protection and the description of one.'],
+ 'guided': [('What problem does the passage open with?',
+             ('A right that is badly drafted',
+              'A right that exists and cannot in practice be exercised',
+              'A right that has been taken away again',
+              'A right nobody has claimed'),
+             1,
+             'Exists in a statute and cannot in practice be exercised, which the passage '
+             'says no drafting will solve.'),
+            ('What is the rational decision for the tenant?',
+             ('To bring the claim without a lawyer',
+              'To abandon the claim',
+              'To hire representation',
+              'To negotiate with the landlord'),
+             1,
+             'With the cost of representation comparable to the claim, abandoning it is the '
+             'rational decision.'),
+            ('What does the passage say develops unevenly?',
+             ('The housing market',
+              'The law itself',
+              'The cost of representation',
+              'The number of claimants'),
+             1,
+             'The law develops unevenly, because the cases that generate rulings are the '
+             'ones somebody could afford to bring.')],
+ 'exam': [('Why is the silence in the body of precedent invisible?',
+           ('Reports are poorly indexed',
+            'The reports record what was decided, not what was never heard',
+            'Judges do not publish reasons',
+            'Litigants withhold information'),
+           1,
+           'The reports record decisions, so an absence of cases leaves no trace in them.'),
+          ('What does the passage say about procedural reform and drafting?',
+           ('They are separate projects',
+            'They are often discussed as separate and are not',
+            'Drafting matters more',
+            'Neither affects access'),
+           1,
+           'Often discussed as though they were separate projects. They are not.'),
+          ('The phrase a term in the definition of the right means that cost',
+           ('is a practical inconvenience only',
+            'partly constitutes what the right amounts to',
+            'can be ignored by a court',
+            'matters only in housing'),
+           1,
+           'In the only sense that matters to the holder, what you can actually do is what '
+           'the right is.'),
+          ('What does the passage call an entitlement with no affordable route to enforce '
+           'it?',
+           ('An unlawful provision',
+            'Something much closer to a declaration of intention',
+            'A procedural error',
+            'A binding ruling'),
+           1,
+           'Much closer to a declaration of intention, which is the passage’s final '
+           'judgement.'),
+          ('Which of these would most weaken the argument?',
+           ('Evidence that landlords usually do the repairs once asked',
+            'Evidence that representation costs more than supposed',
+            'Evidence that precedent is well indexed',
+            'Evidence that claims are worth less than two thousand'),
+           0,
+           'If most claims succeed without reaching a court, the cost of the courtroom stops '
+           'being the binding constraint.')]}
+UNIT['r5'] = {'sub': 'Access to justice',
+ 'title': 'What the Access Argument Leaves Out',
+ 'words': 297,
+ 'skill': ('Reading an objection that accepts a diagnosis and doubts a remedy',
+           ['The writer agrees that access is the binding problem and questions what follows '
+            'about how to fix it.',
+            'Two remedies are compared, and the comparison is about where the money goes '
+            'rather than about principle.',
+            'A question about the ending wants the recommendation and its admitted cost.']),
+ 'paras': ['The access argument is correct and incomplete, and its incompleteness becomes '
+           'visible at the moment somebody has to act on it rather than restate it. If the '
+           'barrier is the cost of representation, the obvious remedy is to fund '
+           'representation, and that remedy has been tried at scale in several systems with '
+           'results that are harder to read than its advocates expected. Funded '
+           'representation raises the number of claims brought and also raises the cost of '
+           'each, because an adversarial process with lawyers on both sides is slower and '
+           'more thorough than one with a lawyer on one.',
+           'The alternative is to reduce what a claim requires: a lower threshold of '
+           'formality, a tribunal that hears a dispute in an hour, procedural rules a '
+           'litigant can follow without training. Those reforms are cheap, they work, and '
+           'they produce decisions of lower quality, which is not an argument against them '
+           'but is a fact about them. A tenant who gets a rough answer in three weeks is in '
+           'a better position than one who would have had a careful answer in two years and '
+           'abandoned the claim instead.',
+           'So the honest position is that access is bought by a reduction in the quality of '
+           'adjudication, that this transaction is usually worth making, and that it should '
+           'be described rather than concealed. Concealment is the characteristic failure of '
+           'reform documents in this area, and it is what makes the eventual discovery of '
+           'the price look like a scandal rather than an acknowledged cost. What is lost is '
+           'the development of the law itself, because a tribunal deciding quickly and '
+           'informally generates no precedent worth the name, and the uneven body of law the '
+           'first argument complained about is not corrected by a system that produces no '
+           'reports at all.'],
+ 'guided': [('What does the passage say about the access argument?',
+             ('It is wrong',
+              'It is correct and incomplete',
+              'It applies only to tenants',
+              'It has never been tested'),
+             1,
+             'Correct and incomplete, with the incompleteness showing when somebody has to '
+             'act.'),
+            ('What happens when representation is funded?',
+             ('Fewer claims are brought',
+              'More claims are brought and each costs more',
+              'Costs fall sharply',
+              'Nothing measurable changes'),
+             1,
+             'It raises the number of claims and the cost of each, because both sides then '
+             'have lawyers.'),
+            ('What does the alternative remedy do?',
+             ('Funds more lawyers',
+              'Reduces what a claim requires',
+              'Raises the threshold for claims',
+              'Abolishes tribunals'),
+             1,
+             'A lower threshold of formality, a tribunal hearing a dispute in an hour, rules '
+             'a litigant can follow without training.')],
+ 'exam': [('How does the passage characterise the lower-quality decisions?',
+           ('As an argument against the cheap reforms',
+            'As a fact about them rather than an argument against them',
+            'As impossible to measure',
+            'As the main benefit'),
+           1,
+           'Not an argument against them but a fact about them, which is the passage’s '
+           'careful formulation.'),
+          ('What comparison does the passage use to justify the trade?',
+           ('A careful answer in two years against a rough one in three weeks',
+            'A cheap lawyer against an expensive one',
+            'A tribunal against a court of appeal',
+            'A tenant against a landlord'),
+           0,
+           'A rough answer in three weeks beats a careful answer the claimant never waited '
+           'for.'),
+          ('What does the passage say is lost?',
+           ('The right itself',
+            'The development of the law, because quick decisions make no precedent',
+            'The tenant’s remedy',
+            'Nothing of value'),
+           1,
+           'A tribunal deciding quickly and informally generates no precedent worth the '
+           'name.'),
+          ('Why is that loss connected to the first argument?',
+           ('It makes representation cheaper',
+            'A system producing no reports cannot correct an uneven body of law',
+            'It raises the threshold',
+            'It affects only well-funded litigants'),
+           1,
+           'The uneven law the first argument complained about is not corrected by a system '
+           'that produces no reports at all.'),
+          ('What does the passage say should happen to the trade-off?',
+           ('It should be avoided',
+            'It should be described rather than concealed',
+            'It should be decided by courts',
+            'It should be reversed'),
+           1,
+           'Usually worth making and should be described rather than concealed.')]}
+UNIT['l4'] = {'sub': 'Access to justice',
+ 'caption': 'A lecture on the cases that never arrive',
+ 'board': ['Reports record what was decided',
+           'Not what nobody could afford to bring',
+           'Precedent follows the money',
+           'The gap is invisible from inside'],
+ 'skill': ('A lecture about an absence in a body of evidence',
+           ['The lecturer is describing something missing from a record, which cannot be '
+            'read off the record itself.',
+            'Note the two areas of law he contrasts, and why one is detailed.',
+            'A question about his advice wants a question to ask of a reading list.']),
+ 'warm': [('Woman: What do the reports record?',
+           ('What was decided.',
+            'What was never brought.',
+            'Yes, they record it.',
+            'Two areas of law.'),
+           0,
+           'Reports contain decisions, which is why the absence he describes leaves no trace '
+           'in them.'),
+          ('Woman: Why is commercial law so detailed?',
+           ('Because those litigants can afford to litigate.',
+            'Because the questions are harder.',
+            'Yes, it is detailed.',
+            'In every system.'),
+           0,
+           'The detail follows the money rather than the intrinsic difficulty, which is his '
+           'central claim.'),
+          ('Woman: What should a student ask of a reading list?',
+           ('Who could afford to bring these cases.',
+            'Which cases were decided first.',
+            'Yes, they should ask something.',
+            'How long it is.'),
+           0,
+           'His advice is a question about the selection of the cases rather than about '
+           'their content.')],
+ 'script': [('Man',
+             'Open any casebook and you are reading a selection, and the selection was not '
+             'made by your editor. Law reports record what a court decided. They do not '
+             'record what nobody could afford to bring, and the second category is larger '
+             'than the first in most areas that matter to ordinary people. Compare two '
+             'fields. Commercial law, where the parties are companies with funded legal '
+             'departments, is extraordinarily detailed: every point worth arguing has been '
+             'argued, often several times. Housing law covering the same number of people is '
+             'thin, and where it is thick it is usually because a charity ran a test case on '
+             'purpose. That asymmetry is not about difficulty. The questions in housing are '
+             'not easier; they are cheaper to abandon. Now here is the part that matters for '
+             'your essays. You cannot see this from inside the reports, because an absence '
+             'leaves no citation. So you have to ask the question from outside, and the '
+             'question is simply this: who could afford to bring the cases on this reading '
+             'list? Ask it about every list you are given, including mine, and you will '
+             'notice things about the shape of a subject that no amount of close reading '
+             'will show you. One more remark, because students take this as a reason for '
+             'cynicism about the reports. It is not. The reasoning in those commercial cases '
+             'is excellent, and it is excellent because it was tested repeatedly by people '
+             'who could pay. The problem is not the quality of what is there but the '
+             'distribution of where it went.')],
+ 'items': [('What does the lecturer say a casebook is?',
+            ('A complete record',
+             'A selection made by somebody other than the editor',
+             'A list of statutes',
+             'A guide to procedure'),
+            1,
+            'You are reading a selection, and the selection was not made by your editor.'),
+           ('Why is commercial law extraordinarily detailed?',
+            ('Its questions are harder',
+             'The parties can fund argument, repeatedly',
+             'It is older',
+             'Judges prefer it'),
+            1,
+            'Companies with funded legal departments argue every point worth arguing, often '
+            'several times.'),
+           ('What does he say about the questions in housing law?',
+            ('They are easier',
+             'They are not easier, they are cheaper to abandon',
+             'They are better reported',
+             'They are decided faster'),
+            1,
+            'Not easier but cheaper to abandon, which is the distinction he insists on.'),
+           ('When is housing law thick, by his account?',
+            ('When a charity ran a test case on purpose',
+             'When the questions are hard',
+             'When landlords litigate',
+             'It is never thick'),
+            0,
+            'Where it is thick it is usually because a charity ran a test case '
+            'deliberately.'),
+           ('What question does he want asked of every reading list?',
+            ('How long it is',
+             'Who could afford to bring these cases',
+             'Which court decided them',
+             'When they were decided'),
+            1,
+            'Who could afford to bring the cases on this reading list, asked of every list '
+            'including his own.')]}
+UNIT['l5'] = {'sub': 'Access to justice',
+ 'caption': 'A short talk on buying access with quality',
+ 'board': ['Fund lawyers: more claims, dearer each',
+           'Lower formality: cheap, rougher answers',
+           'Rough and soon beats careful and never',
+           'And the law stops developing'],
+ 'skill': ('A talk that prices a reform instead of defending it',
+           ['The speaker treats both remedies as purchases and asks what each buys, which is '
+            'not the same as asking which is right.',
+            'Note the cost she says nobody mentions, which arrives late.',
+            'A question about her recommendation wants what she concedes along with it.']),
+ 'warm': [('Man: What happens when representation is funded?',
+           ('More claims, and each one costs more.',
+            'Fewer claims, and each one costs less.',
+            'Yes, something happens.',
+            'In three weeks.'),
+           0,
+           'Both effects move together, which is the finding that surprised the advocates.'),
+          ('Man: What do the cheap reforms produce?',
+           ('Rougher decisions, sooner.',
+            'Careful decisions, later.',
+            'Yes, they produce something.',
+            'No decisions.'),
+           0,
+           'Lower quality and much faster is the trade she is pricing.'),
+          ('Man: What cost does she say nobody mentions?',
+           ('The law stops developing.',
+            'Lawyers become more expensive.',
+            'Yes, there is a cost.',
+            'Tribunals close.'),
+           0,
+           'The loss of precedent is the late cost, and it is the one her talk exists to '
+           'add.')],
+ 'script': [('Woman',
+             'I want to treat both reforms as purchases, because the question is not which '
+             'is right but what each buys and at what price. Purchase one: fund '
+             'representation for people who cannot pay. It works, in the sense that more '
+             'claims get brought. It also makes every claim more expensive, because a '
+             'process with lawyers on both sides is slower than one with a lawyer on one, so '
+             'you are buying access and delay in the same transaction, and several systems '
+             'discovered that second half late. Purchase two: make a claim easier to bring. '
+             'A tribunal, an hour, rules a person can follow without training, no lawyers '
+             'necessary. It is cheap, it works, and the decisions are rougher. I think that '
+             'trade is usually worth making, and I want to be straightforward that it is a '
+             'trade: a rough answer in three weeks beats a careful answer in two years that '
+             'the claimant abandoned. Here is the cost nobody puts in the paper. An informal '
+             'tribunal deciding quickly leaves no precedent, so the thin body of housing law '
+             'stays thin, and the inequality in the development of the law that justified '
+             'the reform is untouched by it. I would still make the purchase, and I would '
+             'print the price next to it on the same page. There is a version of this reform '
+             'announced as an improvement in access with no mention of adjudication at all, '
+             'and that version is dishonest in a way that matters, because the people who '
+             'later notice the rougher decisions will reasonably conclude that somebody hid '
+             'them.')],
+ 'items': [('Why does the speaker treat the reforms as purchases?',
+            ('To avoid taking a position',
+             'To ask what each buys and at what price',
+             'To compare their legality',
+             'To criticise both'),
+            1,
+            'The question is not which is right but what each buys and at what price.'),
+           ('What does funded representation buy, on her account?',
+            ('Access and delay together',
+             'Access and speed together',
+             'Fewer claims',
+             'Better precedent'),
+            0,
+            'You are buying access and buying delay in the same transaction.'),
+           ('What does she say about the rougher decisions?',
+            ('They make the reform indefensible',
+             'The trade is usually worth making and should be named as a trade',
+             'They are as good as careful ones',
+             'They cannot be measured'),
+            1,
+            'She thinks the trade is usually worth making and wants it stated plainly as a '
+            'trade.'),
+           ('What is the cost she says nobody prints?',
+            ('The cost of tribunals',
+             'That no precedent is generated, so thin law stays thin',
+             'The training of litigants',
+             'The delay to claimants'),
+            1,
+            'An informal tribunal leaves no precedent, so the thin body of housing law stays '
+            'thin.'),
+           ('What is her final position?',
+            ('Do not make the reform',
+             'Make it and print the price next to it',
+             'Fund representation instead',
+             'Wait for more evidence'),
+            1,
+            'I would still make the purchase, and I would print the price next to it on the '
+            'same page. There is a version of this reform announced as an improvement in '
+            'access with no mention of adjudication at all, and that version is dishonest in '
+            'a way that matters, because the people who later notice the rougher decisions '
+            'will reasonably conclude that somebody hid them.')]}
+UNIT['w4'] = {'sub': 'Access to justice',
+ 'skill': ('Passive reporting when the actor is not the point',
+           ['A passive report puts the finding first: the claim was abandoned, the reform '
+            'was tried at scale.',
+            'Use it when the actor is obvious or irrelevant, and not to hide who acted when '
+            'that matters.',
+            'It is said that and it has been argued that introduce a position without '
+            'endorsing it.']),
+ 'guided': [('You want to report that the remedy has been tried.',
+             ['the remedy',
+              'has',
+              'been',
+              'tried',
+              'at scale',
+              'in',
+              'several',
+              'systems',
+              'with',
+              'mixed',
+              'results'],
+             'The remedy has been tried at scale in several systems with mixed results.'),
+            ('You want to report the tenant’s decision without blaming them.',
+             ['the claim',
+              'was',
+              'abandoned',
+              'because',
+              'the cost',
+              'of',
+              'representation',
+              'was',
+              'comparable',
+              'to',
+              'its value'],
+             'The claim was abandoned because the cost of representation was comparable to '
+             'its value.'),
+            ('You want to introduce a position you will question.',
+             ['it',
+              'has',
+              'been',
+              'argued',
+              'that',
+              'funding',
+              'lawyers',
+              'is',
+              'the only',
+              'defensible',
+              'remedy'],
+             'It has been argued that funding lawyers is the only defensible remedy.')],
+ 'exam': [('You want to report an absence in the record.',
+           ['what',
+            'was',
+            'never',
+            'brought',
+            'is',
+            'not',
+            'recorded',
+            'anywhere',
+            'in',
+            'the',
+            'reports'],
+           'What was never brought is not recorded anywhere in the reports.'),
+          ('You want to report the asymmetry without naming a cause.',
+           ['housing law',
+            'is',
+            'reported',
+            'thinly',
+            'while',
+            'commercial',
+            'law',
+            'has',
+            'been',
+            'argued',
+            'exhaustively'],
+           'Housing law is reported thinly while commercial law has been argued '
+           'exhaustively.'),
+          ('You want to report a decision made quickly.',
+           ['the dispute',
+            'was',
+            'decided',
+            'in',
+            'an hour',
+            'and',
+            'no',
+            'precedent',
+            'was',
+            'generated',
+            'by it'],
+           'The dispute was decided in an hour and no precedent was generated by it.'),
+          ('You want to report the discovery that came late.',
+           ['the second',
+            'effect',
+            'was',
+            'discovered',
+            'late',
+            'by',
+            'systems',
+            'that',
+            'had',
+            'already',
+            'committed'],
+           'The second effect was discovered late by systems that had already committed.'),
+          ('You want to say a trade should be stated openly.',
+           ['the trade',
+            'should',
+            'be',
+            'described',
+            'rather than',
+            'concealed',
+            'whenever',
+            'a reform',
+            'of',
+            'this kind',
+            'is proposed'],
+           'The trade should be described rather than concealed whenever a reform of this '
+           'kind is proposed.')]}
+UNIT['w5'] = {'sub': 'Access to justice',
+ 'prof': 'Dr Adeyemi',
+ 'question': 'A ministry has a fixed budget for civil justice. It can fund representation '
+             'for claimants who cannot pay, or build informal tribunals that hear disputes '
+             'in an hour without lawyers. It cannot do both at any useful scale. Which '
+             'should it fund?',
+ 'posts': [('Hana',
+            'w',
+            'Tribunals, on the arithmetic alone. The same money resolves perhaps twenty '
+            'times as many disputes, and a claimant with a rough answer this month is in a '
+            'materially better position than one with a careful answer two years from now '
+            'that they will not wait for.'),
+           ('Luka',
+            'm',
+            'That buys resolutions and gives up the law. Twenty thousand informal decisions '
+            'generate no precedent, so housing law stays as thin as the lecture described, '
+            'and the next generation of claimants inherits the same gap with better '
+            'statistics about it.')],
+ 'skill': ('A question about resolutions against precedent',
+           ['Hana argues from the number of disputes resolved; Luka from what the '
+            'resolutions fail to leave behind. Both accept the access diagnosis.',
+            'Use the second passage, which concedes exactly Luka’s point and makes the '
+            'purchase anyway.',
+            'An answer that splits the budget must say what the split costs, or it is a way '
+            'of avoiding the question.']),
+ 'starters': ['Luka is right that…, although that holds only if…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passage concedes…',
+              'What follows is not… but…'],
+ 'model': ['Luka is right about the precedent and the passage concedes it before he does, '
+           'which is why his objection cannot be the end of the argument. The second passage '
+           'names the loss and makes the purchase anyway, on the ground that an uneven body '
+           'of law is not corrected by a system producing no reports and is not corrected by '
+           'a system producing no resolutions either.',
+           'Hana’s arithmetic is the stronger case and it is doing less work than she '
+           'thinks. Twenty times as many resolutions is decisive only if the resolutions are '
+           'roughly right, and nothing in either passage establishes how rough rough is.',
+           'So the ministry should fund tribunals, and should fund a small test-case '
+           'programme out of the same budget, which is what the lecture identified as the '
+           'reason the thick parts of housing law are thick. What is given up is scale: a '
+           'few hundred disputes a year go unresolved so that a handful of appeals can be '
+           'run properly. That is a real cost and it is the right one, because it is the '
+           'price of a system that resolves this year’s disputes without leaving next year’s '
+           'claimants in precisely the position the lecture described. A programme of that '
+           'size is also small enough to be cut by the next minister, which is an argument '
+           'for writing its purpose into the legislation rather than the budget.'],
+ 'model_words': 231}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Access to justice',
+  'focus': 'reporting a position in the passive without endorsing it',
+  'skill': ('It has been argued that, and the evidence suggests otherwise',
+            ['Say it has been argued that quickly and flatly. Any colour in the voice turns '
+             'a report into an opinion.',
+             'The stress belongs on the content of the claim, not on argued.',
+             'Then mark your own view clearly, so the listener knows which half you own.']),
+  'repeat': ['The claim was abandoned on cost alone.',
+             'The remedy has been tried at scale.',
+             'What was never brought is not recorded.',
+             'It has been argued that funding lawyers is the only remedy.',
+             'Housing law is reported thinly, and the reason is not difficulty.',
+             'The dispute was decided in an hour and no precedent was generated.',
+             'It has been said that the two reforms are alternatives, and the better reading '
+             'is that one of them buys what the other cannot.'],
+  'theme': 'a right or a rule you could not actually use',
+  'qs': ['Tell me about a rule or an entitlement you were unable to use in practice. What '
+         'stopped you?',
+         'Some people say a right you cannot afford to exercise is not a right at all. How '
+         'far would you agree?',
+         'If you were designing a complaints process, what would you do to keep it usable?',
+         'Finally, describe a situation where a quick rough decision would be better than a '
+         'slow careful one.'],
+  'model': [(2,
+             'I would put it less absolutely and in the same direction. It is a right in law '
+             'and not in fact, and the distinction is worth keeping because the law is where '
+             'you go to fix the fact. Collapsing the two leaves you with nothing to argue '
+             'from.'),
+            (4,
+             'A deposit dispute at the end of a tenancy. I wanted an answer before I had to '
+             'find the money for the next place, and a careful answer six months later would '
+             'have been worth nothing to me at all.')],
+  'selfcheck': ['I reported the position flatly, with no colour in the voice',
+                'I marked which half was my own view',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Access to justice',
+  'focus': 'naming the price of a position you hold',
+  'skill': ('I would make that trade, and here is what it costs',
+            ['Say what you would do, then the cost, in two separate sentences. Running them '
+             'together sounds like a hedge.',
+             'Give the cost at full volume. Dropping your voice on the cost is what makes an '
+             'answer sound evasive.',
+             'Finish by saying why the cost is worth paying, not by apologising for it.']),
+  'repeat': ['I would make that trade.',
+             'Here is what it costs.',
+             'The decisions are rougher and they arrive.',
+             'An informal tribunal leaves no precedent behind it.',
+             'A rough answer in three weeks beats a careful answer in two years.',
+             'I would still make the purchase, and I would print the price next to it.',
+             'The inequality that justified the reform is untouched by it, and the reform is '
+             'still the right one.'],
+  'theme': 'a decision with a cost you accepted',
+  'qs': ['Tell me about a decision you made knowing it had a real cost. What was the cost?',
+         'Some people think that admitting the cost of your own position weakens it. What do '
+         'you think?',
+         'How should a government explain a reform that makes one thing worse and another '
+         'better?',
+         'Finally, describe a trade-off you think is usually described dishonestly.'],
+  'model': [(2,
+             'The opposite, and I would go further. A position with no stated cost reads as '
+             'though nobody has examined it, and the first person who finds the cost gets to '
+             'present it as a discovery instead of as a known price.'),
+            (4,
+             'Anything described as efficiency. It almost always means fewer people doing '
+             'the same work, and saying so out loud would make the argument harder and more '
+             'honest.')],
+  'selfcheck': ['I said the decision and the cost in separate sentences',
+                'I gave the cost at full volume',
+                'I finished on why the cost was worth paying']}]
