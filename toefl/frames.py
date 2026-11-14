@@ -24,7 +24,7 @@ def cover_front(volume, units, strap, level='B1'):
     g.append(T(W / 2, 252, 'PREPARATION COURSE', 30, PERI_L, bold=True))
     g.append(T(W / 2, 390, 'for the 2026 test', 36, PAPER))
     g.append(R(W / 2 - 150, 424, 300, 4, PERI))
-    g.append(T(W / 2, 500, 'VOLUME %d' % volume, 44, PAPER, bold=True))
+    g.append(T(W / 2, 500, 'VOLUME %s' % volume, 44, PAPER, bold=True))
     g.append(T(W / 2, 546, units, 26, PERI_L))
     # the four skills as a row of plates
     bx, bw, gap = 70, 180, 16
@@ -49,7 +49,7 @@ def cover_back(volume, blurb, bullets, contents):
     g = [R(0, 0, W, h, SOFT)]
     g.append(R(0, 0, W, 140, INDIGO))
     g.append(T(W / 2, 72, 'TOEFL iBT® Preparation Course · 2026', 28, PAPER, bold=True))
-    g.append(T(W / 2, 110, 'Volume %d' % volume, 22, PERI_L))
+    g.append(T(W / 2, 110, 'Volume %s' % volume, 22, PERI_L))
     y = 200
     for line in blurb:
         g.append(T(60, y, line, 21, INK, anchor='start'))
@@ -604,7 +604,7 @@ def map_strip(volume, rows):
     h = 110 + sum(max(44, n * LEAD + 16) for _, _, n in laid) + 20
     g = [R(0, 0, W, h, PAPER)]
     g.append(R(0, 0, W, 76, INDIGO))
-    g.append(T(30, 48, 'MAP OF THE BOOK · VOLUME %d' % volume, 24, PAPER, bold=True, anchor='start'))
+    g.append(T(30, 48, 'MAP OF THE BOOK · VOLUME %s' % volume, 24, PAPER, bold=True, anchor='start'))
     for lab, (x, _w) in zip(('Unit', 'Sub-topics', 'Grammar', 'Words'),
                             (COLS[0], COLS[2], COLS[3], COLS[4])):
         g.append(T(x, 100, lab, 17, PERI, bold=True, anchor='start'))
@@ -671,3 +671,127 @@ def hedge_scale(rows):
         g.append(T(88, y + 30, expr, 22, INDIGO_D, bold=True, anchor='start'))
         g.append(TFIT(gx, y + 30, gloss, 19, (W - 70 - 18) - gx, INK, floor=0.78))
     return render(''.join(g), W, h, PAPER)
+
+
+# ------------------------------------------------ Foundation-only families --
+# These three carry the strands that Volumes 1-4 do not have. Like every family
+# above they measure with tw(), wrap with fit()/fit_block() and draw with
+# TFIT()/TBLOCK(), so no text in them can ever reach the edge of the image.
+
+def sound_strip(title, rows, accent=AMBER):
+    """Sound and spelling: a symbol, the words that carry it, and a note.
+
+    rows: [(symbol, [example words], note)]
+    """
+    SX, CX = 92, 150                      # symbol centre, content left edge
+    CW = W - CX - 40                      # content width
+    LEAD, NLEAD = 34, 24
+    laid = []
+    for sym, ex, note in rows:
+        chips, cur, curw = [], [], 0.0
+        for e in ex:
+            w_ = tw(e, 19) + 26
+            if cur and curw + w_ + 10 > CW:
+                chips.append(cur); cur, curw = [], 0.0
+            cur.append((e, w_)); curw += w_ + 10
+        if cur:
+            chips.append(cur)
+        nl = fit(note, CW, 17) if note else []
+        h_ = max(76, 14 + len(chips) * LEAD + (len(nl) * NLEAD if nl else 0) + 14)
+        laid.append((sym, chips, nl, h_))
+    head = 64
+    h = head + sum(r[3] for r in laid) + 20
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(R(16, 10, W - 32, h - 20, PAPER, RULE, 2, 10))
+    g.append(R(16, 10, W - 32, head - 8, accent, rx=10))
+    g.append(R(16, head - 24, W - 32, 18, accent))
+    g.append(TFIT(40, head - 18, title, 23, W - 96, PAPER, bold=True))
+    y = head + 6
+    for sym, chips, nl, h_ in laid:
+        g.append(C(SX, y + h_ / 2 - 6, 30, SOFT))
+        g.append(C(SX, y + h_ / 2 - 6, 30, 'none', accent, 2))
+        g.append(TFIT(SX, y + h_ / 2 + 2, sym, 21, 52, INK, bold=True, anchor='middle'))
+        cy = y + 14
+        for row in chips:
+            x = CX
+            for e, w_ in row:
+                g.append(R(x, cy, w_, 28, SOFT, RULE, 1.5, 14))
+                g.append(T(x + w_ / 2, cy + 20, e, 19, INK))
+                x += w_ + 10
+            cy += LEAD
+        if nl:
+            blk, _, _ = TBLOCK(CX, cy + 16, None, 17, CW, NLEAD, GREY, lines=nl)
+            g.append(blk)
+        y += h_
+        if (sym, chips, nl, h_) is not laid[-1]:
+            g.append(_rule(y - 4, 40, W - 40))
+    return render(''.join(g), W, int(h), PAPER)
+
+
+_KB = ('qwertyuiop', 'asdfghjkl', 'zxcvbnm')
+
+
+def keyboard_map(highlight='', caption='', accent=INDIGO):
+    """The keyboard, with some keys lit. The test is typed; this is not decoration."""
+    K, GAP = 66, 8
+    hi = set(highlight.lower())
+    top = 54
+    rows_w = [len(r) * (K + GAP) - GAP for r in _KB]
+    kb_h = 3 * (K + GAP) + K + 10
+    cap = fit(caption, W - 120, 18) if caption else []
+    h = top + kb_h + (len(cap) * 25 + 18 if cap else 10) + 16
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(R(16, 10, W - 32, h - 20, SOFT, RULE, 2, 10))
+    y = top
+    for ri, row in enumerate(_KB):
+        x = (W - rows_w[ri]) / 2.0
+        for ch in row:
+            on = ch in hi
+            g.append(R(x, y, K, K, accent if on else PAPER, RULE if not on else accent, 2, 8))
+            g.append(T(x + K / 2, y + K / 2 + 9, ch.upper(), 24,
+                       PAPER if on else INK, bold=on))
+            x += K + GAP
+        y += K + GAP
+    sw = rows_w[0] * 0.62
+    on = ' ' in hi
+    g.append(R((W - sw) / 2.0, y, sw, K * 0.62, accent if on else PAPER,
+               accent if on else RULE, 2, 8))
+    g.append(T(W / 2, y + K * 0.42, 'space', 18, PAPER if on else GREY, bold=on))
+    if cap:
+        blk, _, _ = TBLOCK(60, y + K * 0.62 + 34, None, 18, W - 120, 25, INK,
+                           lines=cap, anchor='start')
+        g.append(blk)
+    return render(''.join(g), W, int(h), PAPER)
+
+
+def frame_card(title, lines, accent=PLUM, tag='WRITING FRAME'):
+    """A writing frame the student fills in. Blanks are runs of underscores."""
+    RIGHT = W - 44
+    head_w = RIGHT - 40 - (tw(tag, 16, True) + 28)
+    LEAD = 32
+    laid = []
+    for ln_ in lines:
+        if ln_.startswith('# '):
+            laid.append(('h', fit(ln_[2:], RIGHT - 40, 20, True), 20, 40, True))
+        elif not ln_.strip():
+            laid.append(('g', [''], 19, 40, False))
+        else:
+            laid.append(('p', fit(ln_, RIGHT - 56, 20), 20, 56, False))
+    body = sum(len(l[1]) * LEAD + (8 if l[0] == 'h' else 0) for l in laid)
+    h = 118 + body + 30
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(R(16, 16, W - 32, h - 32, PAPER, RULE, 2, 8))
+    g.append(R(16, 16, W - 32, 62, accent, rx=8))
+    g.append(R(16, 60, W - 32, 18, accent))
+    g.append(TFIT(40, 56, title, 24, head_w, PAPER, bold=True))
+    g.append(T(RIGHT, 54, tag, 16, PAPER, bold=True, anchor='end'))
+    y = 110
+    for kind_, lns, sz, x, bold in laid:
+        if kind_ == 'h':
+            y += 8
+        if kind_ == 'p':
+            g.append(R(40, y - 20, 5, len(lns) * LEAD - 6, accent, rx=2))
+        blk, _, _ = TBLOCK(x, y, None, sz, RIGHT - x, LEAD, INK, bold=bold, lines=lns)
+        g.append(blk)
+        y += len(lns) * LEAD
+    return render(''.join(g), W, int(h), PAPER)

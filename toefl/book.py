@@ -8,7 +8,11 @@ import frames as F
 from docxw import Doc, INDIGO, INDIGO_D, BLUE, AMBER, TEAL, PLUM, GREY, GREEN, RED, PERI
 
 VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2),
-        3: dict(units=range(21, 31), test=3), 4: dict(units=range(31, 41), test=4)}
+        3: dict(units=range(21, 31), test=3), 4: dict(units=range(31, 41), test=4),
+        # The Foundation volume sits before Volume 1. Same architecture, same
+        # task names, same item counts; a lower level and four strands that are
+        # not about the test at all.
+        'F': dict(units=range(1, 11), test='f', pre='f')}
 
 SKILL_TASK = {
     'r1': ('reading', 1, 'Complete the Words'),
@@ -84,6 +88,73 @@ def _vocab_b1(d, U):
     d.page_break_section()
 
 
+def _vocab_f(d, U):
+    d.partbar('Vocabulary 1 · The words you need most',
+              '24 words from the two thousand most common words of English')
+    d.body_p('These are not academic words. They are the words that carry ordinary English, '
+             'and until you own them the academic words of Volume 1 have nothing to stand on. '
+             'Cover the right-hand column and test yourself.')
+    d.wordlist(U['core'], 2, INDIGO)
+    d.ex('Exercise A   Work in pairs. Ask and answer.')
+    d.items(U['vocab_talk'])
+    d.partbar('Vocabulary 2 · Campus and everyday', '12 words for student life', 'listening')
+    d.body_p('Every Listening conversation in the real test happens on a campus. These twelve '
+             'words come back in this unit and again in Volume 1.')
+    d.wordlist(U['campus'], 2, AMBER)
+    if U.get('awl'):
+        d.partbar('Vocabulary 3 · First academic words', 'The bridge into Volume 1', 'reading')
+        d.body_p('Volume 1 teaches four hundred and eighty words from the Academic Word List. '
+                 'These are the first of them, and they are here so that the list is not new '
+                 'when you meet it.')
+        d.wordlist(U['awl'], 2, PLUM)
+    d.wordbank('Words you will meet again:', U['again'], PERI)
+    d.page_break_section()
+
+
+def _strands(d, U, which):
+    """The four Foundation strands. None of them is about the TOEFL."""
+    if which == 'sound':
+        sn = U['sound']
+        d.partbar('Sound and Spelling', sn['title'], 'listening')
+        d.body_p(sn['intro'])
+        d.figure(*F.sound_strip('Sound and Spelling · %s' % sn['title'], sn['rows']))
+        d.ex('Exercise A   Listen. Which word do you hear?', 'listening')
+        d.items([a for a, _ in sn['hear']])
+        d.ex('Exercise B   Say these out loud. Record yourself if you can.', 'speaking')
+        d.items(sn['say'])
+        d.page_break_section()
+    elif which == 'builder':
+        sb = U['builder']
+        d.partbar('Sentence Builder', sb['title'], 'writing')
+        d.body_p(sb['rule'])
+        d.table(['Not a sentence', 'A sentence'], sb['pairs'], PLUM)
+        d.watchout(sb['watch'])
+        d.ex('Exercise A   Is it a sentence? Write yes or no. If no, put it right.', 'writing')
+        d.items([q for q, _ in sb['ex']])
+        d.page_break_section()
+    elif which == 'typing':
+        ty = U['typing']
+        d.partbar('Typing and the Screen', ty['title'])
+        d.body_p('The real test is typed. Nobody gives you paper. If you are still looking for '
+                 'the keys, you lose the Writing section before your English does.')
+        d.body_p(ty['intro'])
+        d.figure(*F.keyboard_map(ty['keys'], ty['caption']))
+        d.ex('Exercise   Type this. Time yourself, then write your speed in the box.')
+        for ln in ty['drill']:
+            d.body_p(ln, sz=20, i=True)
+        d.keyline('My time', '_______ seconds')
+        d.keyline('Words a minute', '_______   (the target for Unit %d is %d)'
+                  % (U['n'], ty['target']))
+        d.page_break_section()
+    else:
+        st = U['study']
+        d.partbar('Learning to Learn', st['title'])
+        d.body_p(st['intro'])
+        d.bullets(st['steps'])
+        d.tip(st['tip'])
+        d.page_break_section()
+
+
 def _vocab_b2(d, U):
     """B2: 18 word families, 10 collocations, 5 stance expressions, 3 nuance pairs."""
     d.partbar('Vocabulary 1 · Academic word families', '18 families, not 18 words')
@@ -110,12 +181,13 @@ def _vocab_b2(d, U):
 
 def render_unit(d, U):
     n, title = U['n'], U['title']
+    a2 = U.get('level') == 'A2'
     sp = Spread()
     key = {}            # section -> list of (number, answer, why)
 
     # ---- page 1: opener -----------------------------------------------------
     d.unit_title('Unit %d · %s' % (n, title))
-    d.strapline('TOEFL iBT® Preparation Course 2026 · Volume %d' % U['vol'])
+    d.strapline('TOEFL iBT® Preparation Course 2026 · Volume %s' % U['vol'])
     d.cefr('CEFR %s  ·  Grammar: %s  ·  Word field: %s'
            % (U.get('level', 'B1'), U['grammar'], U['field']))
     d.figure(*F.unit_opener(n, title, U['subs'], U['icons']))
@@ -126,6 +198,9 @@ def render_unit(d, U):
     # ---- page 2: vocabulary -------------------------------------------------
     if U.get('level') == 'B2':
         _vocab_b2(d, U)
+    elif a2:
+        _vocab_f(d, U)
+        _strands(d, U, 'sound')
     else:
         _vocab_b1(d, U)
 
@@ -166,6 +241,9 @@ def render_unit(d, U):
             d.body_p('Check your answers in the key at the back of the book.', i=True)
         d.page_break_section()
 
+    if a2:
+        _strands(d, U, 'builder')
+
     # ---- pages 6-8: listening ----------------------------------------------
     for tag in ('l1', 'l2', 'l3'):
         blk = U[tag]
@@ -199,6 +277,9 @@ def render_unit(d, U):
         d.body_p('An interviewer asks you four questions on one theme: %s. '
                  'Answer each one fully. There is no preparation time.' % blk['theme'])
         d.figure(*F.interview_panel(blk['theme'], blk['qs']))
+        if a2 and blk.get('frames'):
+            d.h3('Say it like this', TEAL)
+            d.bullets(blk['frames'])
         d.h3('A good answer sounds like this', TEAL)
         for q_no, model in blk['model']:
             d.body_p('Question %d  —  %s' % (q_no, model))
@@ -232,6 +313,10 @@ def render_unit(d, U):
     d.figure(*F.skill_bar('writing', 2, w2['sub'], 'Write an Email'))
     d.body_p('You read a short situation and write an email. You have 7 minutes. '
              'The three bullet points are the mark scheme: answer all three.')
+    if a2:
+        d.body_p('In the real test you write as much as you can in seven minutes. In this '
+                 'unit, aim for about %d words. That number goes up in every unit of this '
+                 'book, and in Volume 1 it stops being a number at all.' % w2['target'])
     for ln in w2['scenario']:
         d.body_p(ln)
     d.bullets(w2['bullets'])
@@ -248,6 +333,8 @@ def render_unit(d, U):
         d.body_p('Both answer the three bullet points. One would score in the middle band '
                  'and one near the top. Read them side by side before you write your own.')
         d.bandpair(bp['mid'], bp['top'], bp['diffs'])
+    if a2 and w2.get('frame'):
+        d.figure(*F.frame_card('Write your email', w2['frame']))
     d.ex('Now write your own. 7 minutes.', 'writing')
     d.lines(8)
     d.page_break_section()
@@ -256,6 +343,10 @@ def render_unit(d, U):
     d.figure(*F.skill_bar('writing', 3, w3['sub'], 'Write for an Academic Discussion'))
     d.body_p('A professor asks a question and two students answer. You add your own post. '
              'You have 10 minutes and an effective answer is at least 100 words.')
+    if a2:
+        d.body_p('One hundred words is what the real test wants, and you will get there. '
+                 'For this unit, write about %d. Every unit of this book asks for a few '
+                 'more.' % w3['target'])
     d.figure(*F.discussion_panel(w3['prof'], w3['question'], w3['posts']))
     d.skillbox(w3['skill'][0], w3['skill'][1], 'writing')
     d.h3('Sentence starters', PLUM)
@@ -264,7 +355,10 @@ def render_unit(d, U):
     for ln in w3['model']:
         d.body_p(ln)
     d.body_p('[%d words]' % w3['model_words'], i=True)
-    d.ex('Now write your own. 10 minutes, at least 100 words.', 'writing')
+    if a2 and w3.get('frame'):
+        d.figure(*F.frame_card('Write your post', w3['frame']))
+    d.ex('Now write your own. 10 minutes, at least %d words.'
+         % (w3['target'] if a2 else 100), 'writing')
     d.lines(10)
     d.page_break_section()
 
@@ -292,6 +386,10 @@ def render_unit(d, U):
         d.faultline(ft['text'], ft['faults'])
         key['fault'] = [(i, r, why) for i, (w_, r, why) in enumerate(ft['faults'], 1)]
     d.page_break_section()
+
+    if a2:
+        _strands(d, U, 'typing')
+        _strands(d, U, 'study')
 
     # ---- page 16: review ----------------------------------------------------
     rv = U['rev']
@@ -322,14 +420,28 @@ def front_matter(d, vol, units):
     d.page_break_section(zero=True)
 
     d.unit_title('TOEFL iBT® Preparation Course 2026')
-    d.strapline('Volume %d · Units %d–%d · CEFR %s'
+    d.strapline('Volume %s · Units %d–%d · CEFR %s'
                 % (vol, units[0]['n'], units[-1]['n'], lvl))
-    d.cefr('Student’s Book with Practice Test %d' % vol)
+    d.cefr('Student’s Book with %s'
+           % ('Progress Test F' if lvl == 'A2' else 'Practice Test %s' % vol))
     d.blank()
     d.body_p('This course prepares %s learners for the TOEFL iBT® test as it has been '
              'since 21 January 2026. Every task name, item count and timing in this book '
              'follows the official ETS practice test for that form.' % lvl)
-    if lvl == 'B2':
+    if lvl == 'A2':
+        d.body_p('This is the Foundation volume, and it comes before Volume 1. It exists '
+                 'because the rest of the course starts at B1, and a great many people who '
+                 'need the TOEFL are not there yet. Being told to "do a general English '
+                 'course first and come back" is not an answer, because a general course '
+                 'does not know where you are going.')
+        d.body_p('So this book goes where you are going, from much further back. It has the '
+                 'same ten units as every other volume, the same three cycles a skill, the '
+                 'same task names in the same order, and exactly the same number of '
+                 'exercises. Nothing has been taken out. What is different is that every '
+                 'text is shorter, every sentence is simpler, every word is one of the two '
+                 'thousand most common words of English or a word this book teaches you '
+                 'first — and four pages in every unit are not about the test at all.')
+    elif lvl == 'B2':
         d.body_p('Forty units across four volumes. Volumes 1 and 2 take a B1 learner through '
                  'every task in the test; Volumes 3 and 4, of which this is one, take the '
                  'same tasks to B2. The passages are not longer here. They are denser, which '
@@ -345,26 +457,30 @@ def front_matter(d, vol, units):
                  'skills, three times, on three different sub-topics.')
     d.blank()
     d.keyline('Series', 'TOEFL iBT® Preparation Course 2026')
-    d.keyline('Level', 'CEFR %s (targeting a steady %s band)'
-              % (lvl, '4.5–5.5' if lvl == 'B2' else '3.0–4.0'))
+    d.keyline('Level', 'CEFR %s (%s)'
+              % (lvl, 'A1–A2 in, A2+ out — ready for Volume 1' if lvl == 'A2'
+                 else 'targeting a steady %s band'
+                 % ('4.5–5.5' if lvl == 'B2' else '3.0–4.0')))
     d.keyline('Components', 'Student’s Book · Audio · Interview video')
-    d.keyline('This volume', 'Units %d–%d, Practice Test %d, answer key, audio scripts, glossary'
-              % (units[0]['n'], units[-1]['n'], vol))
+    d.keyline('This volume', 'Units %d–%d, %s, answer key, audio scripts, glossary'
+              % (units[0]['n'], units[-1]['n'],
+                 'Progress Test F' if lvl == 'A2' else 'Practice Test %s' % vol))
     d.blank()
     d.body_p('TOEFL and TOEFL iBT are registered trademarks of ETS. This publication is not '
              'endorsed by or affiliated with ETS. Format details are taken from ETS’s own '
              'published practice material for the January 2026 form.', sz=18)
     d.page_break_section()
 
-    d.partbar('Map of the book', 'Volume %d' % vol)
+    d.partbar('Map of the book', 'Volume %s' % vol)
     rows = [(u['n'], u['title'], ' · '.join(s.lower() for s in u['subs']),
              u['grammar'].split(' · ')[0], u['field']) for u in units]
     d.figure(*F.map_strip(vol, rows))
     d.page_break_section()
 
     d.partbar('How to use this book', 'Three cycles, four skills')
-    d.body_p('Every unit is sixteen pages and every unit is built the same way, so once you '
-             'have worked through Unit %d you know where everything is.' % units[0]['n'])
+    d.body_p('Every unit is %s pages and every unit is built the same way, so once you '
+             'have worked through Unit %d you know where everything is.'
+             % ('twenty' if lvl == 'A2' else 'sixteen', units[0]['n']))
     d.figure(*F.unit_tour())
     d.h3('What a cycle is')
     d.body_p('A cycle is one sub-topic taken through one skill. Cycle 1 of Reading, Listening, '
@@ -382,6 +498,10 @@ def front_matter(d, vol, units):
     d.page_break_section()
 
     d.partbar('What an adaptive test does to you', 'Modules, and why you cannot go back')
+    if lvl == 'A2':
+        d.body_p('Read this page now and do not worry about it. The Progress Test at the end '
+                 'of this book is one module per section, so that you finish it. The real '
+                 'two-module shape below is waiting for you in Volume 1.')
     d.figure(*F.adaptive_map())
     d.body_p('Reading and Listening are adaptive. Each is split into two modules, and how you '
              'do in Module 1 decides how hard Module 2 is. Two rules follow, and they are not '
@@ -405,7 +525,9 @@ def front_matter(d, vol, units):
         weeks.append(('Week %d' % (w * 2 + 2), 'Unit %d · %s' % (b['n'], b['title']),
                       'Speaking, Writing, grammar, review'))
     weeks.append(('Week 11', 'Review units %d–%d' % (us[0]['n'], us[-1]['n']), 'Glossary and grammar reference'))
-    weeks.append(('Week 12', 'Practice Test %d' % vol, 'Sit it in one sitting, then mark it'))
+    weeks.append(('Week 12',
+                  'Progress Test F' if lvl == 'A2' else 'Practice Test %s' % vol,
+                  'Sit it in one sitting, then mark it'))
     d.table(['When', 'What', 'Focus'], weeks, INDIGO, [16, 44, 40])
     d.page_break_section()
 
@@ -414,18 +536,29 @@ def front_matter(d, vol, units):
 def render_test(d, T):
     vol = T['n']
     sp = Spread()
-    d.unit_title('Practice Test %d' % vol)
-    d.strapline('The full 2026 shape: 97 items, in the order the real test asks them')
-    d.cefr('Reading 40  ·  Listening 34  ·  Writing 12  ·  Speaking 11')
-    d.body_p('Sit this in one sitting. Do not look anything up. Mark it with the key at the '
-             'back, then read the explanations — they matter more than the score.')
+    a2 = bool(T.get('a2'))
+    d.unit_title('Progress Test F' if a2 else 'Practice Test %d' % vol)
+    if a2:
+        d.strapline('The real order and the real task names · one module in each section')
+        d.cefr('Reading 20  ·  Listening 16  ·  Writing 12  ·  Speaking 11  —  59 items')
+        d.body_p('Sit this in one sitting. Do not look anything up. Mark it with the key at '
+                 'the back, then read the explanations — they matter more than the score.')
+        d.body_p('Two numbers here are not reduced, and that is deliberate. Build a Sentence '
+                 'is ten items because the real task is ten. Speaking is seven repeats and '
+                 'four interview questions because that is the task; shortening it would '
+                 'leave you practising something else.', i=True)
+    else:
+        d.strapline('The full 2026 shape: 97 items, in the order the real test asks them')
+        d.cefr('Reading 40  ·  Listening 34  ·  Writing 12  ·  Speaking 11')
+        d.body_p('Sit this in one sitting. Do not look anything up. Mark it with the key at the '
+                 'back, then read the explanations — they matter more than the score.')
     d.figure(*F.format_map())
     d.page_break_section()
 
     key = {}
     # ---- reading ----
     for mi, M in enumerate(T['reading'], 1):
-        d.partbar('Reading Section, Module %d' % mi,
+        d.partbar('Reading Section' if a2 else 'Reading Section, Module %d' % mi,
                   'In an actual test the clock shows you how long you have', 'reading')
         if mi == 2:
             d.body_p('You cannot return to Module 1 once Module 2 has begun.', i=True)
@@ -444,7 +577,7 @@ def render_test(d, T):
 
     # ---- listening ----
     for mi, M in enumerate(T['listening'], 1):
-        d.partbar('Listening Section, Module %d' % mi,
+        d.partbar('Listening Section' if a2 else 'Listening Section, Module %d' % mi,
                   'You will not be able to return to previous questions', 'listening')
         d.ex('Choose the best response.', 'listening')
         k = []
@@ -501,10 +634,15 @@ def render_test(d, T):
 
 
 # -------------------------------------------------------------- back matter --
+def _testname(vol, units):
+    return ('Progress Test F' if units[0].get('level') == 'A2'
+            else 'Practice Test %s' % vol)
+
+
 def answer_key(d, vol, units, tkey, ukeys):
     d.unit_title('Answer key')
-    d.strapline('Volume %d · Units %d–%d and Practice Test %d'
-                % (vol, units[0]['n'], units[-1]['n'], vol))
+    d.strapline('Volume %s · Units %d–%d and %s'
+                % (vol, units[0]['n'], units[-1]['n'], _testname(vol, units)))
     d.cefr('Every wrong option is explained, because a letter on its own teaches nothing.')
     d.page_break_section()
     for u in units:
@@ -532,7 +670,7 @@ def answer_key(d, vol, units, tkey, ukeys):
         d.keyline('B  Grammar', ' · '.join('%d %s' % (i, a) for i, a, _ in gram))
         d.keyline('C  Mini-section', ' · '.join('%d %s' % (i, a) for i, a, _ in mini))
         d.page_break_section()
-    d.keybar('Practice Test %d' % vol)
+    d.keybar(_testname(vol, units))
     for sec in ('reading 1', 'reading 2', 'listening 1', 'listening 2'):
         d.h3(sec.title().replace(' ', ', Module '), BLUE if 'read' in sec else AMBER)
         d.keygrid([a for _, a, _ in tkey[sec]], 5)
@@ -549,7 +687,7 @@ def answer_key(d, vol, units, tkey, ukeys):
 
 def audio_scripts(d, vol, units, T):
     d.unit_title('Audio scripts')
-    d.strapline('Volume %d' % vol)
+    d.strapline('Volume %s' % vol)
     d.cefr('Read these only after you have listened. At B1 a script is a reading text too, '
            'and teachers may use it as one.')
     d.page_break_section()
@@ -572,7 +710,7 @@ def audio_scripts(d, vol, units, T):
             for i, q in enumerate(blk['qs'], 1):
                 d.body_p('   Interviewer %d:  %s' % (i, q), sz=19)
         d.page_break_section()
-    d.keybar('Practice Test %d' % vol)
+    d.keybar(_testname(vol, units))
     for mi, M in enumerate(T['listening'], 1):
         d.h3('Listening, Module %d' % mi, AMBER)
         for i, (stem, _, _, _) in enumerate(M['warm'], 1):
@@ -592,14 +730,15 @@ def glossary(d, vol, units):
     lvl = units[0].get('level', 'B1')
     allw = []
     for u in units:
-        for w, g in u['acad']:
+        for w, g in u.get('acad', u.get('core', [])):
             allw.append((w, g, u['n'], 'A'))
         # B1 volumes gloss campus words; B2 volumes have none and gloss the
         # collocations instead, which is where the new meaning sits at that level
-        for w, g in u.get('campus', []) + list(u.get('collocs', [])):
+        for w, g in (list(u.get('campus', [])) + list(u.get('collocs', []))
+                     + list(u.get('awl', []))):
             allw.append((w, g, u['n'], 'C'))
     d.unit_title('Glossary')
-    d.strapline('Volume %d · %d entries with %s definitions' % (vol, len(allw), lvl))
+    d.strapline('Volume %s · %d entries with %s definitions' % (vol, len(allw), lvl))
     d.cefr('The number after each word is the unit where it is first taught.')
     d.page_break_section()
     allw.sort(key=lambda r: r[0].lower())
@@ -620,7 +759,7 @@ def glossary(d, vol, units):
 
 def grammar_reference(d, vol, units):
     d.unit_title('Grammar reference')
-    d.strapline('Volume %d · the ten points of this volume, on two pages' % vol)
+    d.strapline('Volume %s · the ten points of this volume, on two pages' % vol)
     for u in units:
         d.h3('Unit %d · %s' % (u['n'], u['gram']['title']), INDIGO)
         d.table(u['gram']['headers'], u['gram']['rows'], INDIGO)
@@ -634,20 +773,85 @@ def grammar_reference(d, vol, units):
     d.page_break_section()
 
 
+IRREG = [
+ ('be', 'was / were', 'been'), ('become', 'became', 'become'), ('begin', 'began', 'begun'),
+ ('break', 'broke', 'broken'), ('bring', 'brought', 'brought'), ('build', 'built', 'built'),
+ ('buy', 'bought', 'bought'), ('catch', 'caught', 'caught'), ('choose', 'chose', 'chosen'),
+ ('come', 'came', 'come'), ('cost', 'cost', 'cost'), ('cut', 'cut', 'cut'),
+ ('do', 'did', 'done'), ('drink', 'drank', 'drunk'), ('drive', 'drove', 'driven'),
+ ('eat', 'ate', 'eaten'), ('fall', 'fell', 'fallen'), ('feel', 'felt', 'felt'),
+ ('find', 'found', 'found'), ('fly', 'flew', 'flown'), ('forget', 'forgot', 'forgotten'),
+ ('get', 'got', 'got'), ('give', 'gave', 'given'), ('go', 'went', 'gone'),
+ ('grow', 'grew', 'grown'), ('have', 'had', 'had'), ('hear', 'heard', 'heard'),
+ ('hold', 'held', 'held'), ('keep', 'kept', 'kept'), ('know', 'knew', 'known'),
+ ('leave', 'left', 'left'), ('lose', 'lost', 'lost'), ('make', 'made', 'made'),
+ ('meet', 'met', 'met'), ('pay', 'paid', 'paid'), ('put', 'put', 'put'),
+ ('read', 'read', 'read'), ('run', 'ran', 'run'), ('say', 'said', 'said'),
+ ('see', 'saw', 'seen'), ('sell', 'sold', 'sold'), ('send', 'sent', 'sent'),
+ ('sit', 'sat', 'sat'), ('sleep', 'slept', 'slept'), ('speak', 'spoke', 'spoken'),
+ ('spend', 'spent', 'spent'), ('stand', 'stood', 'stood'), ('take', 'took', 'taken'),
+ ('teach', 'taught', 'taught'), ('tell', 'told', 'told'), ('think', 'thought', 'thought'),
+ ('understand', 'understood', 'understood'), ('wear', 'wore', 'worn'),
+ ('win', 'won', 'won'), ('write', 'wrote', 'written')]
+
+
+def foundation_back(d, units):
+    """The two references this level needs and the bridge into Volume 1."""
+    d.unit_title('The irregular verbs you actually need')
+    d.strapline('Fifty-five verbs · learn them in the middle column first')
+    d.body_p('English has about two hundred irregular verbs. These are the ones that come up '
+             'again and again, and Unit 8 of this book teaches them. The third column is the '
+             'past participle. You do not need it yet — it is what Volume 1 Unit 1 uses to '
+             'build the present perfect, and it is printed here so that it is already '
+             'familiar when you get there.')
+    half = (len(IRREG) + 1) // 2
+    d.table(['Verb', 'Past', 'Participle'], [list(r) for r in IRREG[:half]], INDIGO)
+    d.page_break_section()
+    d.table(['Verb', 'Past', 'Participle'], [list(r) for r in IRREG[half:]], INDIGO)
+    d.page_break_section()
+
+    d.unit_title('What Volume 1 will ask of you')
+    d.strapline('Where this book stops and the next one starts')
+    d.body_p('You have finished ten units. Here is exactly what changes when you open '
+             'Volume 1, so that none of it is a surprise.')
+    d.table(['', 'This book', 'Volume 1'], [
+        ['Academic passage', '110 words in Unit 1, 175 by Unit 10', '265 words'],
+        ['Academic talk', '85 words in Unit 1, 150 by Unit 10', 'about 190 words'],
+        ['Discussion post', '40 words, rising to 80', 'at least 100 words'],
+        ['Vocabulary', '360 general-service words', '480 Academic Word List words'],
+        ['Grammar', 'ends at past simple and will', 'starts at present perfect'],
+        ['The test', 'one module in each section', 'two modules, adaptive'],
+    ], INDIGO, [22, 39, 39])
+    d.h3('The one thing that does not change')
+    d.body_p('The architecture. Three sub-topics, three cycles, the same twelve task names in '
+             'the same order, the same number of exercises on the same pages. You already '
+             'know how to use Volume 1. You have been using it for ten units.')
+    d.h3('What to do in the week between the two books')
+    d.bullets([
+        'Read the glossary of this book once, all of it, out loud.',
+        'Do the Progress Test again and give yourself no help at all.',
+        'Type one of your own email answers from memory and time it.',
+        'Read the first academic passage of Volume 1 Unit 1 and count what you do not '
+        'know. If it is fewer than fifteen words, you are ready.'])
+    d.page_break_section()
+
+
 # ------------------------------------------------------------------ build ----
 def build(vol, out):
     cfg = VOLS[vol]
+    pre = cfg.get('pre', 'u')
     units = []
     for n in cfg['units']:
-        mod = importlib.import_module('content.u%02d' % n)
+        mod = importlib.import_module('content.%s%02d' % (pre, n))
         importlib.reload(mod)
         units.append(mod.UNIT)
-    T = importlib.import_module('content.test%d' % cfg['test']).TEST
+    T = importlib.import_module('content.test%s' % cfg['test']).TEST
 
     lvl = units[0].get('level', 'B1')
-    d = Doc('TOEFL iBT Preparation Course 2026 · Volume %d' % vol,
-            'CEFR %s · Units %d–%d · Practice Test %d'
-            % (lvl, units[0]['n'], units[-1]['n'], cfg['test']))
+    d = Doc('TOEFL iBT Preparation Course 2026 · Volume %s' % vol,
+            'CEFR %s · Units %d–%d · %s'
+            % (lvl, units[0]['n'], units[-1]['n'],
+               'Progress Test F' if lvl == 'A2' else 'Practice Test %s' % cfg['test']))
     front_matter(d, vol, units)
     ukeys = {}
     for u in units:
@@ -657,13 +861,20 @@ def build(vol, out):
     audio_scripts(d, vol, units, T)
     glossary(d, vol, units)
     grammar_reference(d, vol, units)
+    if lvl == 'A2':
+        foundation_back(d, units)
     d.figure(*F.cover_back(vol, BLURB[lvl], BULLETS[lvl],
                            ['%d  %s' % (u['n'], u['title']) for u in units]), cover=True)
     d.save(out)
     return out, len(d.images)
 
 
-BLURB = {'B1': [
+BLURB = {'A2': [
+    'The volume that comes before Volume 1, for the many people who need the',
+    'TOEFL iBT® and are not at B1 yet. Ten units, the same architecture as the',
+    'rest of the course, the same number of exercises — and every text written',
+    'inside the two thousand commonest words of English.',
+], 'B1': [
     'A complete preparation course for the TOEFL iBT® test as it has been since',
     '21 January 2026, written for learners at CEFR B1 — the level most students',
     'actually sit it at, and the level no other course is written for.',
@@ -672,7 +883,13 @@ BLURB = {'B1': [
     'it has been since 21 January 2026. Volumes 3 and 4 carry a learner who has',
     'the B1 foundations up to CEFR B2 — the level a competitive score needs.',
 ]}
-BULLETS = {'B1': [
+BULLETS = {'A2': [
+    'Every 2026 task type, three times in every unit, at A2 load',
+    'A grammar syllabus that stops exactly where Volume 1 Unit 1 begins',
+    '360 words from the general-service list, with the first academic words last',
+    'Sound and spelling, sentence building, typing and study skills in every unit',
+    'A Progress Test in the real order, and an honest word about what comes next',
+], 'B1': [
     'Every 2026 task type, three times in every unit',
     'Three cycles a skill, on three different sub-topics',
     '480 Academic Word List items and 240 campus words, glossed at B1',
