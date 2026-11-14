@@ -139,6 +139,7 @@ IRREG_FORMS = [
     ('understand', 'understood', 'understood'),
     ('wear', 'wore', 'worn'),
     ('win', 'won', 'won'),
+    ('feed', 'fed', 'fed'),
     ('write', 'wrote', 'written'),
 ]
 
