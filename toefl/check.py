@@ -302,7 +302,8 @@ taken taught told thought understood worn won written
 # nouns or adjectives. Neither signals the structure the gate is looking for.
 ED_OK = set("""tired interested married closed crowded excited bored worried pleased
 surprised finished united advanced limited shared included allowed needed
-used fixed mixed printed written spoken known""".split())
+used fixed mixed printed written spoken known
+seed feed deed weed breed speed indeed exceed proceed""".split())
 ING_OK = set("""interesting boring exciting amazing surprising confusing relaxing
 tiring willing missing building meeting morning evening spring shopping parking
 swimming cooking sitting ceiling something nothing everything anything king ring

@@ -740,3 +740,8 @@ UNIT = dict(
         'where they live, one small detail. You will use them in half the interviews you '
         'ever sit.',
 )
+
+# ---- the two academic cycles (field: Living Things) -----------------------
+from .fx04 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)

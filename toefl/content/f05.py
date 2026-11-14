@@ -12,7 +12,8 @@ UNIT = dict(
     subs=('A student’s routine', 'How people study', 'Free time'),
     grammar='present continuous · present continuous and present simple',
     field='routine, study, free time',
-    names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Dale', 'Patel', 'Oakfield'),
+    names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Dale', 'Patel', 'Oakfield',
+           'Lena'),
     opener_line='Three sub-topics, three cycles in every skill. Now you can say what you '
                 'do every day and what you are doing at this moment — two different '
                 'things, two different tenses.',
@@ -752,3 +753,8 @@ UNIT = dict(
         'What do you do? wants your routine. What are you doing? wants this week. Answering '
         'the wrong one is the fastest way to sound like you did not understand.',
 )
+
+# ---- the two academic cycles (field: People and the Mind) -----------------
+from .fx05 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)
