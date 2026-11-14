@@ -1073,7 +1073,7 @@ UNIT['fieldwords'] = [('epidemic', 'a disease spreading quickly through a popula
  ('clustered', 'grouped together rather than spread evenly'),
  ('subgroup', 'a smaller group inside a larger one'),
  ('saturation', 'the point at which no more can be taken up'),
- ('decline', 'a steady fall in a number'),
+ ('immunisation', 'a public programme of vaccination'),
  ('assumption', 'something a model takes to be true without testing it')]
 UNIT['r4'] = {'sub': 'Why outbreaks end',
  'title': 'The Epidemic That Stops Without Reaching Everybody',

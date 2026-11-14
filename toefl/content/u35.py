@@ -56,7 +56,8 @@ UNIT = dict(
         ('fallacy', 'a form of reasoning that does not work'),
         ('analogy', 'an argument from similarity'),
         ('anecdote', 'a single story used as evidence'),
-        ('emphasis', 'the weight given to one part of a message'),
+        ('rhetorical', 'to do with the means by which an audience is '
+        'moved'),
         ('connotation', 'the associations a word carries'),
         ('audience', 'the people an argument is aimed at'),
         ('credibility', 'the degree to which a speaker is believed'),

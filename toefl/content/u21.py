@@ -1045,7 +1045,6 @@ UNIT = dict(
 )
 
 
-
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1066,7 +1065,7 @@ UNIT['fieldwords'] = [('lexicographer', 'a person who writes or edits dictionari
  ('recursion', 'putting a structure inside another of the same kind'),
  ('constrain', 'to limit what is possible'),
  ('generalise', 'to draw a rule from particular cases'),
- ('circumstance', 'the conditions something happens in'),
+ ('surroundings', 'everything around a learner that could be an influence'),
  ('grammatical', 'allowed by the grammar of a language')]
 UNIT['r4'] = {'sub': 'What a child could not have learned',
  'title': 'The Argument From What Was Never Heard',
@@ -1082,7 +1081,7 @@ UNIT['r4'] = {'sub': 'What a child could not have learned',
            'able to say why, and does all of it years before learning to tie a knot. No '
            'instruction is involved, and correction, where parents attempt it at all, is '
            'directed at content rather than at syntax and is generally ignored. The '
-           'achievement is indifferent to circumstance, proceeding at much the same rate in '
+           'achievement is indifferent to surroundings, proceeding at much the same rate in '
            'talkative households and quiet ones, and in every language yet looked at.',
            'The argument that follows turns on absence, and it begins from the formation of '
            'a question out of a statement that contains two clauses. The operation requires '
@@ -1188,7 +1187,7 @@ UNIT['r5'] = {'sub': 'What a child could not have learned',
            'None of this disposes of the puzzle, and the writers who report these counts are '
            'the first to say so. A learner still arrives at a system no instruction '
            'supplied. The sheer uniformity of the outcome across children, languages and '
-           'circumstances remains the central fact of the field. The cautious position is '
+           'surroundings remains the central fact of the field. The cautious position is '
            'that the input is richer than the classical argument allowed and still thinner '
            'than a general-purpose learner would require, which leaves the interesting '
            'question open. What has changed is the standing of the premise, which used to be '

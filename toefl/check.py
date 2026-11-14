@@ -318,6 +318,28 @@ def _stray_script(U, bad):
 # fifteen of them. Each new block is held to twelve, a margin under that, with
 # everything the series has taught and the regular derivations of it credited.
 _UNKNOWN_CAP = 12
+# A head word is taught once in the series, and the gate that enforces it only
+# compares the strings. That makes it blind to the one case where a second
+# teaching is right: a word whose B2 or C1 sense is not the sense a Volume 1
+# or 2 unit gave it. The series does this three times and each one is declared
+# here with the two units and the reason, so a declared pair passes and an
+# undeclared repeat still fails. Four other pairs were found by this gate and
+# were not second senses at all - the later unit was teaching the same word
+# with the same definition fifteen units after the reader had met it - and
+# those entries were replaced rather than declared.
+SECOND_SENSE = {
+    'analogy': ((10, 35),
+                'u10 teaches a comparison that explains something; u35 '
+                'teaches argument from similarity, which is a form of '
+                'reasoning and not an illustration'),
+    'portfolio': ((6, 39),
+                  'u6 teaches the folder of work a student submits; u39 '
+                  'teaches the set of rights a licence holder holds'),
+    'stress': ((13, 34),
+               'u13 teaches pressure, and the extra force on a syllable; '
+               'u34 teaches the engineering quantity, force per unit area '
+               'inside a loaded material'),
+}
 # Gate 9 sets a density floor on a whole volume, which is no use to an author
 # writing one unit: by the time it fails, ten units are written. So the same
 # floor is applied here, per passage, derived from the volume target.
@@ -567,9 +589,20 @@ def main(nums, pre='u'):
         for w, _ in heads(U):
             seen.setdefault(w, []).append(n)
             taught.append(w)
+    notes = []
     for w, us in sorted(seen.items()):
-        if len(us) > 1:
-            problems.append('"%s" is taught in units %s' % (w, us))
+        if len(us) <= 1:
+            continue
+        declared = SECOND_SENSE.get(w)
+        if declared and tuple(us) == declared[0]:
+            notes.append('"%s" in units %s: %s' % (w, list(us), declared[1]))
+            continue
+        problems.append('"%s" is taught in units %s' % (w, us))
+    if notes:
+        print('declared second senses, which are not repeats:')
+        for ln in notes:
+            print('  ' + ln)
+        print('')
     if problems:
         print('\n'.join(problems))
         print('\n%d problem(s)' % len(problems))

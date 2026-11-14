@@ -1071,7 +1071,7 @@ UNIT['fieldwords'] = [('lever', 'a bar used to move a weight, pivoted at one poi
  ('examination', 'a careful looking at something'),
  ('respondent', 'a person who answers a question in a study'),
  ('undergraduate', 'a student taking a first degree'),
- ('isolate', 'to separate one thing from everything around it')]
+ ('intuitions', 'the judgements people make without working them out')]
 UNIT['r4'] = {'sub': 'Thought experiments',
  'title': 'Why the Case Has to Be Impossible',
  'words': 311,
