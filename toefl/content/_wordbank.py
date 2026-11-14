@@ -44,7 +44,7 @@ monday tuesday wednesday thursday friday saturday sunday
 january february march april may june july august september october
 november december
 mr mrs ms dr st ok okay yes
-o'clock edu com org ltd am pm
+o'clock edu com org ltd am pm cent per
 """.split())
 
 # The furniture of the book itself: the task names, the parts of a page and the

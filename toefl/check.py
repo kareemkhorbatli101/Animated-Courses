@@ -367,7 +367,8 @@ def _containment(toks, n, bad):
         if n < 7 and _past(w):
             bad('past tense appears before unit 7 teaches it: ...%s...' % show(i))
             return
-        if n < 8 and w in IRREG_PAST:
+        # unit 7 teaches was and were; the other irregular pasts wait for unit 8
+        if n < 8 and w in IRREG_PAST and w not in ('was', 'were'):
             bad('an irregular past appears before unit 8 teaches it: ...%s...' % show(i))
             return
         # 'than' is the real signal; 'most lessons' is a quantifier, not a
