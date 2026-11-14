@@ -1,0 +1,261 @@
+{
+ "schema": "timeline/1",
+ "duration": 161.023,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 6.624,
+    "en": "This is Part 1, Check What You Know. You will match the safety gear and answer questions.",
+    "ar": "هذا الجزء الأوّل، تحقّق ممّا تعرفه. ستطابق معدّات الوقاية وتجيب عن أسئلة."
+   },
+   {
+    "start": 14.71,
+    "dur": 4.056,
+    "en": "Five pieces of safety gear, and what each one does.",
+    "ar": "خمس قطع من معدّات الوقاية، وماذا تفعل كلّ واحدة."
+   },
+   {
+    "start": 19.116,
+    "dur": 2.568,
+    "en": "What do safety glasses do?",
+    "ar": "ماذا تفعل نظّارات الأمان؟"
+   },
+   {
+    "start": 26.213,
+    "dur": 2.376,
+    "en": "They protect your eyes.",
+    "ar": "تحمي عينيك."
+   },
+   {
+    "start": 28.939,
+    "dur": 2.088,
+    "en": "What do gloves do?",
+    "ar": "ماذا تفعل القفّازات؟"
+   },
+   {
+    "start": 35.086,
+    "dur": 2.424,
+    "en": "They protect your hands.",
+    "ar": "تحمي يديك."
+   },
+   {
+    "start": 37.86,
+    "dur": 2.424,
+    "en": "What do ear defenders do?",
+    "ar": "ماذا تفعل واقيات الأذن؟"
+   },
+   {
+    "start": 44.755,
+    "dur": 3.12,
+    "en": "They protect your ears from loud noise.",
+    "ar": "تحمي أذنيك من الضجيج العالي."
+   },
+   {
+    "start": 48.225,
+    "dur": 2.304,
+    "en": "What do overalls do?",
+    "ar": "ماذا يفعل لباس العمل؟"
+   },
+   {
+    "start": 54.705,
+    "dur": 2.976,
+    "en": "They protect your body and clothes.",
+    "ar": "يحمي جسمك وملابسك."
+   },
+   {
+    "start": 58.031,
+    "dur": 2.736,
+    "en": "What is a fire extinguisher for?",
+    "ar": "لماذا تُستخدم طفّاية الحريق؟"
+   },
+   {
+    "start": 65.65,
+    "dur": 2.52,
+    "en": "You use it to put out a fire.",
+    "ar": "تستخدمها لإخماد الحريق."
+   },
+   {
+    "start": 68.52,
+    "dur": 5.928,
+    "en": "One meaning was not needed: it lifts the car up. That is the jack.",
+    "ar": "معنى واحد لم يكن مطلوباً: يرفع السيارة. ذلك هو الرافعة."
+   },
+   {
+    "start": 74.798,
+    "dur": 5.76,
+    "en": "What does a torque wrench do: lifts the car, or tightens a bolt to the exact level?",
+    "ar": "ماذا يفعل مفتاح العزم: يرفع السيارة، أم يشدّ البرغي إلى الحدّ المضبوط؟"
+   },
+   {
+    "start": 88.44,
+    "dur": 3.168,
+    "en": "It tightens a bolt to the exact level.",
+    "ar": "يشدّ البرغي إلى الحدّ المضبوط."
+   },
+   {
+    "start": 91.958,
+    "dur": 2.568,
+    "en": "What is an axle stand for?",
+    "ar": "لماذا يُستخدم حامل المحور؟"
+   },
+   {
+    "start": 99.056,
+    "dur": 2.568,
+    "en": "Holding the car up safely.",
+    "ar": "لإسناد السيارة بأمان."
+   },
+   {
+    "start": 101.974,
+    "dur": 2.688,
+    "en": "What do ear defenders protect?",
+    "ar": "ماذا تحمي واقيات الأذن؟"
+   },
+   {
+    "start": 109.426,
+    "dur": 1.872,
+    "en": "Your ears.",
+    "ar": "أذنيك."
+   },
+   {
+    "start": 111.648,
+    "dur": 6.72,
+    "en": "Last, four sentences. Choose spanner, jack, goggles, or chock.",
+    "ar": "أخيراً، أربع جمل. اختر مفتاح الربط أو الرافعة أو النظّارات أو الصادّ."
+   },
+   {
+    "start": 118.718,
+    "dur": 3.0,
+    "en": "Use a blank to turn the nuts and bolts.",
+    "ar": "استخدم فراغاً لفكّ الصواميل والبراغي."
+   },
+   {
+    "start": 127.012,
+    "dur": 1.872,
+    "en": "A spanner.",
+    "ar": "مفتاح ربط."
+   },
+   {
+    "start": 129.234,
+    "dur": 2.496,
+    "en": "Use a blank to lift the car.",
+    "ar": "استخدم فراغاً لرفع السيارة."
+   },
+   {
+    "start": 136.377,
+    "dur": 1.872,
+    "en": "A jack.",
+    "ar": "رافعة."
+   },
+   {
+    "start": 138.599,
+    "dur": 2.784,
+    "en": "Wear blank to protect your eyes.",
+    "ar": "ارتدِ فراغاً لحماية عينيك."
+   },
+   {
+    "start": 146.266,
+    "dur": 1.872,
+    "en": "Goggles.",
+    "ar": "نظّارات واقية."
+   },
+   {
+    "start": 148.488,
+    "dur": 3.24,
+    "en": "Put a blank behind the wheel to stop it rolling.",
+    "ar": "ضع فراغاً خلف العجلة لمنعها من التدحرج."
+   },
+   {
+    "start": 157.551,
+    "dur": 1.872,
+    "en": "A chock.",
+    "ar": "صادّاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 17.654,
+    "hold": 8.51,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 27.464,
+    "hold": 7.57,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "fire_extinguisher",
+    "label": "fire extinguisher",
+    "ar": "طفّاية الحريق",
+    "at": 56.631,
+    "hold": 8.97,
+    "img": "assets/vocab/fire_extinguisher.png",
+    "sha": "6080a1ae532e6412"
+   },
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 73.498,
+    "hold": 14.89,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 90.633,
+    "hold": 8.37,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 112.711,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 127.012,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "schema": "timeline/1",
+ "duration": 77.754,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 5.88,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 12.934,
+    "dur": 5.64,
+    "en": "Six words from this unit. Say each one aloud and stress the loud syllable.",
+    "ar": "ستّ كلمات من هذه الوحدة. انطق كلّ واحدة بصوت عالٍ وشدّد على المقطع القويّ."
+   },
+   {
+    "start": 18.924,
+    "dur": 6.024,
+    "en": "Radiator. RA-di-a-tor. Four syllables, and the first one is loud.",
+    "ar": "Radiator. الراديتير. أربعة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 25.298,
+    "dur": 5.4,
+    "en": "Coolant. COOL-ant. Two syllables, and the first one is loud.",
+    "ar": "Coolant. سائل التبريد. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 31.048,
+    "dur": 6.312,
+    "en": "Alternator. AL-ter-na-tor. Four syllables, and the first one is loud.",
+    "ar": "Alternator. الدينامو. أربعة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 37.71,
+    "dur": 5.544,
+    "en": "Battery. BAT-ter-y. Three syllables, and the first one is loud.",
+    "ar": "Battery. البطارية. ثلاثة مقاطع، والأوّل هو القويّ."
+   },
+   {
+    "start": 43.604,
+    "dur": 5.592,
+    "en": "Filter. FIL-ter. Two syllables, and the first one is loud.",
+    "ar": "Filter. الفلتر. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 49.546,
+    "dur": 5.448,
+    "en": "Engine. EN-gine. Two syllables, and the first one is loud.",
+    "ar": "Engine. المحرّك. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 55.344,
+    "dur": 4.608,
+    "en": "In radiator, which syllable is loud: the first or the second?",
+    "ar": "في كلمة radiator، أيّ مقطع هو القويّ: الأوّل أم الثاني؟"
+   },
+   {
+    "start": 66.54,
+    "dur": 2.952,
+    "en": "The first. RA-di-a-tor.",
+    "ar": "الأوّل. RA-di-a-tor."
+   },
+   {
+    "start": 69.842,
+    "dur": 6.312,
+    "en": "In all six words the first syllable is the loud one. That is a useful pattern.",
+    "ar": "في الكلمات الستّ كلّها المقطع الأوّل هو القويّ. هذا نمط مفيد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 17.137,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 23.498,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "alternator",
+    "label": "alternator",
+    "ar": "الدينامو",
+    "at": 29.261,
+    "hold": 3.0,
+    "img": "assets/vocab/alternator.png",
+    "sha": "885941b910ec936e"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 35.923,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 53.732,
+    "hold": 15.81,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

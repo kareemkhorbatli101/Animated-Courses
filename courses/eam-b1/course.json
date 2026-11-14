@@ -39,9 +39,9 @@
    },
    "bytes": 8869687,
    "meshopt": true,
-   "meshoptBytes": 1819119,
+   "meshoptBytes": 1818967,
    "wireBytes": 4677596,
-   "meshoptWireBytes": 1312320,
+   "meshoptWireBytes": 1312502,
    "files": 35,
    "badgePhoto": true,
    "defaults": {
@@ -77,9 +77,9 @@
    },
    "bytes": 8640906,
    "meshopt": true,
-   "meshoptBytes": 1590338,
+   "meshoptBytes": 1590186,
    "wireBytes": 4480994,
-   "meshoptWireBytes": 1115718,
+   "meshoptWireBytes": 1115900,
    "files": 27,
    "badgePhoto": true,
    "defaults": {
@@ -115,9 +115,9 @@
    },
    "bytes": 8771774,
    "meshopt": true,
-   "meshoptBytes": 1721206,
+   "meshoptBytes": 1721054,
    "wireBytes": 4580587,
-   "meshoptWireBytes": 1215311,
+   "meshoptWireBytes": 1215493,
    "files": 31,
    "badgePhoto": true,
    "defaults": {
@@ -153,9 +153,9 @@
    },
    "bytes": 8640421,
    "meshopt": true,
-   "meshoptBytes": 1589853,
+   "meshoptBytes": 1589701,
    "wireBytes": 4474125,
-   "meshoptWireBytes": 1108849,
+   "meshoptWireBytes": 1109031,
    "files": 27,
    "badgePhoto": true,
    "defaults": {
@@ -191,9 +191,9 @@
    },
    "bytes": 8746062,
    "meshopt": true,
-   "meshoptBytes": 1698782,
+   "meshoptBytes": 1698662,
    "wireBytes": 4535083,
-   "meshoptWireBytes": 1174993,
+   "meshoptWireBytes": 1175479,
    "files": 33,
    "badgePhoto": true,
    "defaults": {
@@ -229,9 +229,9 @@
    },
    "bytes": 8887845,
    "meshopt": true,
-   "meshoptBytes": 1837277,
+   "meshoptBytes": 1837125,
    "wireBytes": 4670449,
-   "meshoptWireBytes": 1305173,
+   "meshoptWireBytes": 1305355,
    "files": 33,
    "badgePhoto": true,
    "defaults": {
@@ -267,9 +267,9 @@
    },
    "bytes": 8860472,
    "meshopt": true,
-   "meshoptBytes": 1809904,
+   "meshoptBytes": 1809752,
    "wireBytes": 4630324,
-   "meshoptWireBytes": 1265048,
+   "meshoptWireBytes": 1265230,
    "files": 35,
    "badgePhoto": true,
    "defaults": {
@@ -305,9 +305,9 @@
    },
    "bytes": 9021081,
    "meshopt": true,
-   "meshoptBytes": 1973801,
+   "meshoptBytes": 1973681,
    "wireBytes": 4797277,
-   "meshoptWireBytes": 1437187,
+   "meshoptWireBytes": 1437673,
    "files": 38,
    "badgePhoto": true,
    "defaults": {
@@ -343,9 +343,9 @@
    },
    "bytes": 8897438,
    "meshopt": true,
-   "meshoptBytes": 1832950,
+   "meshoptBytes": 1832890,
    "wireBytes": 4679660,
-   "meshoptWireBytes": 1319750,
+   "meshoptWireBytes": 1319751,
    "files": 39,
    "badgePhoto": true,
    "defaults": {
@@ -381,9 +381,9 @@
    },
    "bytes": 8910939,
    "meshopt": true,
-   "meshoptBytes": 1860371,
+   "meshoptBytes": 1860219,
    "wireBytes": 4692752,
-   "meshoptWireBytes": 1327476,
+   "meshoptWireBytes": 1327658,
    "files": 40,
    "badgePhoto": true,
    "defaults": {
@@ -419,9 +419,9 @@
    },
    "bytes": 8722279,
    "meshopt": true,
-   "meshoptBytes": 1657791,
+   "meshoptBytes": 1657731,
    "wireBytes": 4492969,
-   "meshoptWireBytes": 1133059,
+   "meshoptWireBytes": 1133060,
    "files": 33,
    "badgePhoto": true,
    "defaults": {
@@ -457,9 +457,9 @@
    },
    "bytes": 9208500,
    "meshopt": true,
-   "meshoptBytes": 2157932,
+   "meshoptBytes": 2157780,
    "wireBytes": 4941675,
-   "meshoptWireBytes": 1576399,
+   "meshoptWireBytes": 1576581,
    "files": 48,
    "badgePhoto": true,
    "defaults": {
@@ -495,9 +495,9 @@
    },
    "bytes": 8940412,
    "meshopt": true,
-   "meshoptBytes": 1889844,
+   "meshoptBytes": 1889692,
    "wireBytes": 4757162,
-   "meshoptWireBytes": 1391886,
+   "meshoptWireBytes": 1392068,
    "files": 40,
    "badgePhoto": true,
    "defaults": {
@@ -533,9 +533,9 @@
    },
    "bytes": 8994374,
    "meshopt": true,
-   "meshoptBytes": 1943806,
+   "meshoptBytes": 1943654,
    "wireBytes": 4745381,
-   "meshoptWireBytes": 1380105,
+   "meshoptWireBytes": 1380287,
    "files": 38,
    "badgePhoto": true,
    "defaults": {
@@ -571,9 +571,9 @@
    },
    "bytes": 8821379,
    "meshopt": true,
-   "meshoptBytes": 1770811,
+   "meshoptBytes": 1770659,
    "wireBytes": 4612723,
-   "meshoptWireBytes": 1247447,
+   "meshoptWireBytes": 1247629,
    "files": 37,
    "badgePhoto": true,
    "defaults": {
@@ -609,9 +609,9 @@
    },
    "bytes": 8923910,
    "meshopt": true,
-   "meshoptBytes": 1873342,
+   "meshoptBytes": 1873190,
    "wireBytes": 4700480,
-   "meshoptWireBytes": 1335204,
+   "meshoptWireBytes": 1335386,
    "files": 40,
    "badgePhoto": true,
    "defaults": {
@@ -647,9 +647,9 @@
    },
    "bytes": 8882072,
    "meshopt": true,
-   "meshoptBytes": 1831504,
+   "meshoptBytes": 1831352,
    "wireBytes": 4665967,
-   "meshoptWireBytes": 1300691,
+   "meshoptWireBytes": 1300873,
    "files": 34,
    "badgePhoto": true,
    "defaults": {
@@ -685,9 +685,9 @@
    },
    "bytes": 9196983,
    "meshopt": true,
-   "meshoptBytes": 2146415,
+   "meshoptBytes": 2146263,
    "wireBytes": 4950224,
-   "meshoptWireBytes": 1584948,
+   "meshoptWireBytes": 1585130,
    "files": 49,
    "badgePhoto": true,
    "defaults": {
@@ -723,9 +723,9 @@
    },
    "bytes": 8889433,
    "meshopt": true,
-   "meshoptBytes": 1985053,
+   "meshoptBytes": 1985061,
    "wireBytes": 4821900,
-   "meshoptWireBytes": 1458950,
+   "meshoptWireBytes": 1458891,
    "files": 42,
    "badgePhoto": true,
    "defaults": {
@@ -761,9 +761,9 @@
    },
    "bytes": 9077225,
    "meshopt": true,
-   "meshoptBytes": 2026657,
+   "meshoptBytes": 2026505,
    "wireBytes": 4843392,
-   "meshoptWireBytes": 1478116,
+   "meshoptWireBytes": 1478298,
    "files": 47,
    "badgePhoto": true,
    "defaults": {
@@ -799,10 +799,1606 @@
    },
    "bytes": 9171141,
    "meshopt": true,
-   "meshoptBytes": 2120573,
+   "meshoptBytes": 2120421,
    "wireBytes": 4912755,
-   "meshoptWireBytes": 1547479,
+   "meshoptWireBytes": 1547661,
    "files": 56,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v01",
+   "order": 1,
+   "title": {
+    "en": "Warm Up",
+    "ar": "التمهيد"
+   },
+   "description": {
+    "en": "You will meet the systems and fluids under the bonnet.",
+    "ar": "ستتعرّف على الأنظمة والسوائل تحت غطاء المحرّك."
+   },
+   "dir": "courses/eam-b1/u02v01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 147.85
+   },
+   "bytes": 9076910,
+   "meshopt": true,
+   "meshoptBytes": 2014502,
+   "wireBytes": 4832956,
+   "meshoptWireBytes": 1466809,
+   "files": 42,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v02",
+   "order": 2,
+   "title": {
+    "en": "Systems and Fluid Terms",
+    "ar": "مصطلحات الأنظمة والسوائل"
+   },
+   "description": {
+    "en": "You will name seven parts under the bonnet.",
+    "ar": "ستسمّي سبعة أجزاء تحت غطاء المحرّك."
+   },
+   "dir": "courses/eam-b1/u02v02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 104.96
+   },
+   "bytes": 8706479,
+   "meshopt": true,
+   "meshoptBytes": 1650027,
+   "wireBytes": 4526300,
+   "meshoptWireBytes": 1157586,
+   "files": 34,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v03",
+   "order": 3,
+   "title": {
+    "en": "Pronunciation",
+    "ar": "النطق"
+   },
+   "description": {
+    "en": "You will practise the stress in six words.",
+    "ar": "ستتدرّب على النبر في ستّ كلمات."
+   },
+   "dir": "courses/eam-b1/u02v03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 77.75
+   },
+   "bytes": 8669186,
+   "meshopt": true,
+   "meshoptBytes": 1592954,
+   "wireBytes": 4483848,
+   "meshoptWireBytes": 1109064,
+   "files": 24,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v04",
+   "order": 4,
+   "title": {
+    "en": "Check What You Know",
+    "ar": "تحقّق ممّا تعرفه"
+   },
+   "description": {
+    "en": "You will match the fluids and answer questions.",
+    "ar": "ستطابق السوائل وتجيب عن أسئلة."
+   },
+   "dir": "courses/eam-b1/u02v04",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 166.69
+   },
+   "bytes": 8899437,
+   "meshopt": true,
+   "meshoptBytes": 1842985,
+   "wireBytes": 4674887,
+   "meshoptWireBytes": 1306173,
+   "files": 41,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v05",
+   "order": 5,
+   "title": {
+    "en": "Notice the Quantity",
+    "ar": "لاحظ الكمّية"
+   },
+   "description": {
+    "en": "You will notice there is and there are.",
+    "ar": "ستلاحظ there is و there are."
+   },
+   "dir": "courses/eam-b1/u02v05",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 79.37
+   },
+   "bytes": 8640705,
+   "meshopt": true,
+   "meshoptBytes": 1564473,
+   "wireBytes": 4452368,
+   "meshoptWireBytes": 1077584,
+   "files": 23,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v06",
+   "order": 6,
+   "title": {
+    "en": "Grammar Practice",
+    "ar": "تدريب القواعد"
+   },
+   "description": {
+    "en": "You will choose is or are, then some, any, much or many.",
+    "ar": "ستختار is أو are، ثمّ some أو any أو much أو many."
+   },
+   "dir": "courses/eam-b1/u02v06",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 125.25
+   },
+   "bytes": 8749640,
+   "meshopt": true,
+   "meshoptBytes": 1673408,
+   "wireBytes": 4541091,
+   "meshoptWireBytes": 1166307,
+   "files": 31,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v07",
+   "order": 7,
+   "title": {
+    "en": "Grammar Review",
+    "ar": "مراجعة القواعد"
+   },
+   "description": {
+    "en": "You will find the mistake, then choose the correct sentence.",
+    "ar": "ستجد الخطأ، ثمّ تختار الجملة الصحيحة."
+   },
+   "dir": "courses/eam-b1/u02v07",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 119.13
+   },
+   "bytes": 8745009,
+   "meshopt": true,
+   "meshoptBytes": 1668777,
+   "wireBytes": 4534924,
+   "meshoptWireBytes": 1160140,
+   "files": 30,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v08",
+   "order": 8,
+   "title": {
+    "en": "Checking the Fluids",
+    "ar": "فحص السوائل"
+   },
+   "description": {
+    "en": "You will listen to a mechanic check all four fluids, then answer true or false.",
+    "ar": "ستستمع إلى ميكانيكي يفحص السوائل الأربعة، ثمّ تجيب بصحيح أو خطأ."
+   },
+   "dir": "courses/eam-b1/u02v08",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 126.05
+   },
+   "bytes": 8898034,
+   "meshopt": true,
+   "meshoptBytes": 1841582,
+   "wireBytes": 4676868,
+   "meshoptWireBytes": 1308154,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v09",
+   "order": 9,
+   "title": {
+    "en": "At the Parts Store",
+    "ar": "في مخزن القطع"
+   },
+   "description": {
+    "en": "You will listen to a mechanic and a trainee check the store, then answer questions.",
+    "ar": "ستستمع إلى ميكانيكي ومتدرّب يفحصان المخزن، ثمّ تجيب عن أسئلة."
+   },
+   "dir": "courses/eam-b1/u02v09",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 109.78
+   },
+   "bytes": 8760997,
+   "meshopt": true,
+   "meshoptBytes": 1704545,
+   "wireBytes": 4559506,
+   "meshoptWireBytes": 1190792,
+   "files": 29,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v10",
+   "order": 10,
+   "title": {
+    "en": "The Morning Stock Check",
+    "ar": "فحص المخزون الصباحي"
+   },
+   "description": {
+    "en": "You will listen to the whole team, then match each person with what they do.",
+    "ar": "ستستمع إلى الفريق كلّه، ثمّ تطابق كلّ شخص مع ما يفعله."
+   },
+   "dir": "courses/eam-b1/u02v10",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 129.15
+   },
+   "bytes": 8884659,
+   "meshopt": true,
+   "meshoptBytes": 1822251,
+   "wireBytes": 4656622,
+   "meshoptWireBytes": 1290475,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v11",
+   "order": 11,
+   "title": {
+    "en": "Discussing Systems and Fluids",
+    "ar": "مناقشة الأنظمة والسوائل"
+   },
+   "description": {
+    "en": "You will hear model answers, then speak.",
+    "ar": "ستسمع أجوبة نموذجية، ثمّ تتحدّث."
+   },
+   "dir": "courses/eam-b1/u02v11",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 136.24
+   },
+   "bytes": 8832825,
+   "meshopt": true,
+   "meshoptBytes": 1761645,
+   "wireBytes": 4606521,
+   "meshoptWireBytes": 1241234,
+   "files": 29,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v12",
+   "order": 12,
+   "title": {
+    "en": "Reporting Role Play",
+    "ar": "لعب أدوار التقرير"
+   },
+   "description": {
+    "en": "You will report amounts, then take a turn yourself.",
+    "ar": "ستبلّغ كمّيات، ثمّ تأخذ دورك بنفسك."
+   },
+   "dir": "courses/eam-b1/u02v12",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 201.06
+   },
+   "bytes": 9428137,
+   "meshopt": true,
+   "meshoptBytes": 2365729,
+   "wireBytes": 5125466,
+   "meshoptWireBytes": 1759319,
+   "files": 48,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v13",
+   "order": 13,
+   "title": {
+    "en": "The Engine and Its Fluids",
+    "ar": "المحرّك وسوائله"
+   },
+   "description": {
+    "en": "You will hear the reading, then answer three questions.",
+    "ar": "ستسمع النصّ، ثمّ تجيب عن ثلاثة أسئلة."
+   },
+   "dir": "courses/eam-b1/u02v13",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 108.26
+   },
+   "bytes": 8805906,
+   "meshopt": true,
+   "meshoptBytes": 1729674,
+   "wireBytes": 4592639,
+   "meshoptWireBytes": 1217855,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v14",
+   "order": 14,
+   "title": {
+    "en": "Words in Context, and Parts in Syria",
+    "ar": "الكلمات في سياقها، والقطع في سوريا"
+   },
+   "description": {
+    "en": "You will match four words, then read about parts in Syria.",
+    "ar": "ستطابق أربع كلمات، ثمّ تقرأ عن القطع في سوريا."
+   },
+   "dir": "courses/eam-b1/u02v14",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 138.97
+   },
+   "bytes": 8870081,
+   "meshopt": true,
+   "meshoptBytes": 1793849,
+   "wireBytes": 4640841,
+   "meshoptWireBytes": 1266057,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v15",
+   "order": 15,
+   "title": {
+    "en": "How to Describe What Is Under the Bonnet",
+    "ar": "كيف تصف ما تحت غطاء المحرّك"
+   },
+   "description": {
+    "en": "You will take a model apart, then write fifty to seventy words.",
+    "ar": "ستفكّك نموذجاً، ثمّ تكتب من خمسين إلى سبعين كلمة."
+   },
+   "dir": "courses/eam-b1/u02v15",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 133.32
+   },
+   "bytes": 8930287,
+   "meshopt": true,
+   "meshoptBytes": 1854055,
+   "wireBytes": 4688825,
+   "meshoptWireBytes": 1314041,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v16",
+   "order": 16,
+   "title": {
+    "en": "What a Manager Says",
+    "ar": "ما يقوله المدير"
+   },
+   "description": {
+    "en": "You will hear what a manager says, then a full stock check.",
+    "ar": "ستسمع ما يقوله المدير، ثمّ فحص مخزون كامل."
+   },
+   "dir": "courses/eam-b1/u02v16",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 144.53
+   },
+   "bytes": 8861564,
+   "meshopt": true,
+   "meshoptBytes": 1799156,
+   "wireBytes": 4634971,
+   "meshoptWireBytes": 1268824,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v17",
+   "order": 17,
+   "title": {
+    "en": "Completing the Order",
+    "ar": "إكمال الطلب"
+   },
+   "description": {
+    "en": "You will choose much, many, some or any, then role-play.",
+    "ar": "ستختار much أو many أو some أو any، ثمّ تلعب الدور."
+   },
+   "dir": "courses/eam-b1/u02v17",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 142.97
+   },
+   "bytes": 8972468,
+   "meshopt": true,
+   "meshoptBytes": 1910060,
+   "wireBytes": 4737009,
+   "meshoptWireBytes": 1370862,
+   "files": 35,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v18",
+   "order": 18,
+   "title": {
+    "en": "A Store That Never Runs Out",
+    "ar": "مخزن لا ينقطع"
+   },
+   "description": {
+    "en": "You will hear how one store stopped running out.",
+    "ar": "ستسمع كيف توقّف مخزن واحد عن النقص."
+   },
+   "dir": "courses/eam-b1/u02v18",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 224.54
+   },
+   "bytes": 9380500,
+   "meshopt": true,
+   "meshoptBytes": 2320540,
+   "wireBytes": 5075093,
+   "meshoptWireBytes": 1700383,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v19",
+   "order": 19,
+   "title": {
+    "en": "Genuine or Cheaper Parts?",
+    "ar": "قطع أصليّة أم أرخص؟"
+   },
+   "description": {
+    "en": "You will hear an honest piece of advice, then decide yourself.",
+    "ar": "ستسمع نصيحة صادقة، ثمّ تقرّر بنفسك."
+   },
+   "dir": "courses/eam-b1/u02v19",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 136.06
+   },
+   "bytes": 8908670,
+   "meshopt": true,
+   "meshoptBytes": 1837490,
+   "wireBytes": 4669146,
+   "meshoptWireBytes": 1303859,
+   "files": 26,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v20",
+   "order": 20,
+   "title": {
+    "en": "Spiral Review",
+    "ar": "المراجعة اللولبية"
+   },
+   "description": {
+    "en": "Every Unit 2 answer, asked once.",
+    "ar": "كلّ جواب في الوحدة الثانية، يُسأل مرّة واحدة."
+   },
+   "dir": "courses/eam-b1/u02v20",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 167.08
+   },
+   "bytes": 8969558,
+   "meshopt": true,
+   "meshoptBytes": 1909598,
+   "wireBytes": 4746896,
+   "meshoptWireBytes": 1372186,
+   "files": 43,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u02v21",
+   "order": 21,
+   "title": {
+    "en": "Can-Do and Glossary",
+    "ar": "أستطيع والمسرد"
+   },
+   "description": {
+    "en": "Check what you can do, and name the ten words.",
+    "ar": "تحقّق ممّا تستطيع فعله، وسمِّ الكلمات العشر."
+   },
+   "dir": "courses/eam-b1/u02v21",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 194.95
+   },
+   "bytes": 9241021,
+   "meshopt": true,
+   "meshoptBytes": 2178613,
+   "wireBytes": 4964410,
+   "meshoptWireBytes": 1598263,
+   "files": 53,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v01",
+   "order": 1,
+   "title": {
+    "en": "Warm Up",
+    "ar": "التمهيد"
+   },
+   "description": {
+    "en": "You will meet the tools and the safety gear in the bay.",
+    "ar": "ستتعرّف على العُدّة ومعدّات الوقاية في موقع الصيانة."
+   },
+   "dir": "courses/eam-b1/u03v01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 165.95
+   },
+   "bytes": 9153995,
+   "meshopt": true,
+   "meshoptBytes": 2097543,
+   "wireBytes": 4902361,
+   "meshoptWireBytes": 1533647,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v02",
+   "order": 2,
+   "title": {
+    "en": "Tools and Safety Terms",
+    "ar": "مصطلحات العُدّة والأمان"
+   },
+   "description": {
+    "en": "You will name seven tools.",
+    "ar": "ستسمّي سبع أدوات."
+   },
+   "dir": "courses/eam-b1/u03v02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 104.0
+   },
+   "bytes": 8688629,
+   "meshopt": true,
+   "meshoptBytes": 1632177,
+   "wireBytes": 4509690,
+   "meshoptWireBytes": 1140976,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v03",
+   "order": 3,
+   "title": {
+    "en": "Pronunciation",
+    "ar": "النطق"
+   },
+   "description": {
+    "en": "You will practise the stress in six words.",
+    "ar": "ستتدرّب على النبر في ستّ كلمات."
+   },
+   "dir": "courses/eam-b1/u03v03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 76.36
+   },
+   "bytes": 8614306,
+   "meshopt": true,
+   "meshoptBytes": 1538074,
+   "wireBytes": 4431217,
+   "meshoptWireBytes": 1056433,
+   "files": 21,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v04",
+   "order": 4,
+   "title": {
+    "en": "Check What You Know",
+    "ar": "تحقّق ممّا تعرفه"
+   },
+   "description": {
+    "en": "You will match the safety gear and answer questions.",
+    "ar": "ستطابق معدّات الوقاية وتجيب عن أسئلة."
+   },
+   "dir": "courses/eam-b1/u03v04",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 161.02
+   },
+   "bytes": 8884470,
+   "meshopt": true,
+   "meshoptBytes": 1828018,
+   "wireBytes": 4667455,
+   "meshoptWireBytes": 1298741,
+   "files": 43,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v05",
+   "order": 5,
+   "title": {
+    "en": "Notice the Instruction",
+    "ar": "لاحظ التعليم"
+   },
+   "description": {
+    "en": "You will notice the imperative and the order of the steps.",
+    "ar": "ستلاحظ فعل الأمر وترتيب الخطوات."
+   },
+   "dir": "courses/eam-b1/u03v05",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 95.24
+   },
+   "bytes": 8732260,
+   "meshopt": true,
+   "meshoptBytes": 1675808,
+   "wireBytes": 4543138,
+   "meshoptWireBytes": 1174424,
+   "files": 22,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v06",
+   "order": 6,
+   "title": {
+    "en": "Grammar Practice",
+    "ar": "تدريب القواعد"
+   },
+   "description": {
+    "en": "You will write imperatives, then put the lifting steps in the safe order.",
+    "ar": "ستكتب أفعال أمر، ثمّ ترتّب خطوات الرفع بالترتيب الآمن."
+   },
+   "dir": "courses/eam-b1/u03v06",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 119.17
+   },
+   "bytes": 8685862,
+   "meshopt": true,
+   "meshoptBytes": 1629410,
+   "wireBytes": 4493272,
+   "meshoptWireBytes": 1124558,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v07",
+   "order": 7,
+   "title": {
+    "en": "Grammar Review",
+    "ar": "مراجعة القواعد"
+   },
+   "description": {
+    "en": "You will find the mistake, then choose the safe and correct order.",
+    "ar": "ستجد الخطأ، ثمّ تختار الترتيب الآمن الصحيح."
+   },
+   "dir": "courses/eam-b1/u03v07",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 125.91
+   },
+   "bytes": 8817340,
+   "meshopt": true,
+   "meshoptBytes": 1741108,
+   "wireBytes": 4601019,
+   "meshoptWireBytes": 1226235,
+   "files": 32,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v08",
+   "order": 8,
+   "title": {
+    "en": "A Safety Briefing",
+    "ar": "إحاطة أمان"
+   },
+   "description": {
+    "en": "You will listen to a foreman brief the team, then answer true or false.",
+    "ar": "ستستمع إلى رئيس ورشة يحيط الفريق، ثمّ تجيب بصحيح أو خطأ."
+   },
+   "dir": "courses/eam-b1/u03v08",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 129.59
+   },
+   "bytes": 8903377,
+   "meshopt": true,
+   "meshoptBytes": 1846925,
+   "wireBytes": 4681078,
+   "meshoptWireBytes": 1312364,
+   "files": 31,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v09",
+   "order": 9,
+   "title": {
+    "en": "Where Are the Tools?",
+    "ar": "أين العُدّة؟ ستستمع إلى متدرّب يجد العُدّة، ثمّ تجيب عن أسئلة"
+   },
+   "description": {
+    "en": "This is Part 3, Where Are the Tools? You will listen to a trainee find the tools, then answer questions.",
+    "ar": "هذا الجزء الثالث، أين العُدّة؟ ستستمع إلى متدرّب يجد العُدّة، ثمّ تجيب عن أسئلة."
+   },
+   "dir": "courses/eam-b1/u03v09",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 88.28
+   },
+   "bytes": 8648698,
+   "meshopt": true,
+   "meshoptBytes": 1592246,
+   "wireBytes": 4472276,
+   "meshoptWireBytes": 1103562,
+   "files": 27,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v10",
+   "order": 10,
+   "title": {
+    "en": "The Workshop Rules",
+    "ar": "قواعد الورشة"
+   },
+   "description": {
+    "en": "You will hear all five rules, then match each one with what it says.",
+    "ar": "ستسمع القواعد الخمس، ثمّ تطابق كلّ واحدة مع ما تقوله."
+   },
+   "dir": "courses/eam-b1/u03v10",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 158.39
+   },
+   "bytes": 9003810,
+   "meshopt": true,
+   "meshoptBytes": 1943850,
+   "wireBytes": 4762702,
+   "meshoptWireBytes": 1387992,
+   "files": 36,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v11",
+   "order": 11,
+   "title": {
+    "en": "Discussing Safety",
+    "ar": "مناقشة الأمان"
+   },
+   "description": {
+    "en": "You will hear model answers, then speak.",
+    "ar": "ستسمع أجوبة نموذجية، ثمّ تتحدّث."
+   },
+   "dir": "courses/eam-b1/u03v11",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 135.27
+   },
+   "bytes": 8849150,
+   "meshopt": true,
+   "meshoptBytes": 1772918,
+   "wireBytes": 4627527,
+   "meshoptWireBytes": 1252743,
+   "files": 29,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v12",
+   "order": 12,
+   "title": {
+    "en": "Safety Instructions Role Play",
+    "ar": "لعب أدوار تعليمات الأمان"
+   },
+   "description": {
+    "en": "You will give the steps in order, then take a turn.",
+    "ar": "ستعطي الخطوات بالترتيب، ثمّ تأخذ دورك."
+   },
+   "dir": "courses/eam-b1/u03v12",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 227.16
+   },
+   "bytes": 9486689,
+   "meshopt": true,
+   "meshoptBytes": 2430237,
+   "wireBytes": 5162947,
+   "meshoptWireBytes": 1794233,
+   "files": 46,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v13",
+   "order": 13,
+   "title": {
+    "en": "Safe Working in the Bay",
+    "ar": "العمل الآمن في موقع الصيانة"
+   },
+   "description": {
+    "en": "You will hear the reading, then answer three questions.",
+    "ar": "ستسمع النصّ، ثمّ تجيب عن ثلاثة أسئلة."
+   },
+   "dir": "courses/eam-b1/u03v13",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 149.43
+   },
+   "bytes": 9074711,
+   "meshopt": true,
+   "meshoptBytes": 1998479,
+   "wireBytes": 4815167,
+   "meshoptWireBytes": 1440383,
+   "files": 35,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v14",
+   "order": 14,
+   "title": {
+    "en": "Words in Context, and a Garage in Damascus",
+    "ar": "الكلمات في سياقها، وورشة في دمشق"
+   },
+   "description": {
+    "en": "You will match four words, then read about a family garage in Damascus.",
+    "ar": "ستطابق أربع كلمات، ثمّ تقرأ عن ورشة عائلية في دمشق."
+   },
+   "dir": "courses/eam-b1/u03v14",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 169.46
+   },
+   "bytes": 9082504,
+   "meshopt": true,
+   "meshoptBytes": 2006272,
+   "wireBytes": 4818969,
+   "meshoptWireBytes": 1444185,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v15",
+   "order": 15,
+   "title": {
+    "en": "How to Write Safety Rules",
+    "ar": "كيف تكتب قواعد الأمان"
+   },
+   "description": {
+    "en": "You will take a model apart, then write five safety rules.",
+    "ar": "ستفكّك نموذجاً، ثمّ تكتب خمس قواعد أمان."
+   },
+   "dir": "courses/eam-b1/u03v15",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 159.82
+   },
+   "bytes": 9098057,
+   "meshopt": true,
+   "meshoptBytes": 2021825,
+   "wireBytes": 4834911,
+   "meshoptWireBytes": 1460127,
+   "files": 35,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v16",
+   "order": 16,
+   "title": {
+    "en": "The Bay Induction",
+    "ar": "التعريف بموقع الصيانة"
+   },
+   "description": {
+    "en": "You will hear what a foreman says, then a full induction.",
+    "ar": "ستسمع ما يقوله رئيس الورشة، ثمّ تعريفاً كاملاً."
+   },
+   "dir": "courses/eam-b1/u03v16",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 156.34
+   },
+   "bytes": 8964834,
+   "meshopt": true,
+   "meshoptBytes": 1908382,
+   "wireBytes": 4733650,
+   "meshoptWireBytes": 1364936,
+   "files": 34,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v17",
+   "order": 17,
+   "title": {
+    "en": "Induction Steps in Order",
+    "ar": "خطوات التعريف بالترتيب"
+   },
+   "description": {
+    "en": "You will order the five steps, then role-play.",
+    "ar": "ستُرتّب الخطوات الخمس، ثمّ تلعب الدور."
+   },
+   "dir": "courses/eam-b1/u03v17",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 152.67
+   },
+   "bytes": 9100379,
+   "meshopt": true,
+   "meshoptBytes": 2037971,
+   "wireBytes": 4852937,
+   "meshoptWireBytes": 1486790,
+   "files": 38,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v18",
+   "order": 18,
+   "title": {
+    "en": "The Workshop with No Accidents",
+    "ar": "الورشة بلا حوادث"
+   },
+   "description": {
+    "en": "You will hear how one workshop reached a whole year with no accidents.",
+    "ar": "ستسمع كيف بلغت ورشة سنة كاملة بلا حوادث."
+   },
+   "dir": "courses/eam-b1/u03v18",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 217.5
+   },
+   "bytes": 9363262,
+   "meshopt": true,
+   "meshoptBytes": 2303302,
+   "wireBytes": 5064357,
+   "meshoptWireBytes": 1689647,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v19",
+   "order": 19,
+   "title": {
+    "en": "Raising a Garage to Standard",
+    "ar": "رفع ورشة إلى المعيار"
+   },
+   "description": {
+    "en": "You will hear how a Damascus garage reached dealership standard, then decide yourself.",
+    "ar": "ستسمع كيف بلغت ورشة في دمشق معيار الوكالة، ثمّ تقرّر بنفسك."
+   },
+   "dir": "courses/eam-b1/u03v19",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 137.22
+   },
+   "bytes": 8932994,
+   "meshopt": true,
+   "meshoptBytes": 1873034,
+   "wireBytes": 4713604,
+   "meshoptWireBytes": 1338894,
+   "files": 29,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v20",
+   "order": 20,
+   "title": {
+    "en": "Spiral Review",
+    "ar": "المراجعة اللولبية"
+   },
+   "description": {
+    "en": "Every Unit 3 answer, asked once - and one from Unit 2.",
+    "ar": "كلّ جواب في الوحدة الثالثة، يُسأل مرّة واحدة - وواحد من الوحدة الثانية."
+   },
+   "dir": "courses/eam-b1/u03v20",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 167.89
+   },
+   "bytes": 8964069,
+   "meshopt": true,
+   "meshoptBytes": 1904109,
+   "wireBytes": 4743778,
+   "meshoptWireBytes": 1369068,
+   "files": 45,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u03v21",
+   "order": 21,
+   "title": {
+    "en": "Can-Do and Glossary",
+    "ar": "أستطيع والمسرد"
+   },
+   "description": {
+    "en": "Check what you can do, and name the ten words.",
+    "ar": "تحقّق ممّا تستطيع فعله، وسمِّ الكلمات العشر."
+   },
+   "dir": "courses/eam-b1/u03v21",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 192.63
+   },
+   "bytes": 9221435,
+   "meshopt": true,
+   "meshoptBytes": 2159027,
+   "wireBytes": 4949561,
+   "meshoptWireBytes": 1583414,
+   "files": 53,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -952,6 +2548,288 @@
      "videos": [
       "u01v20",
       "u01v21"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u02",
+   "order": 2,
+   "title": {
+    "en": "Unit 2 — Under the Bonnet",
+    "ar": "الوحدة ٢ — تحت غطاء المحرّك"
+   },
+   "parts": [
+    {
+     "id": "warmup",
+     "order": 0,
+     "title": {
+      "en": "Warm Up",
+      "ar": "التمهيد"
+     },
+     "videos": [
+      "u02v01"
+     ]
+    },
+    {
+     "id": "p1",
+     "order": 1,
+     "title": {
+      "en": "Part 1 — Vocabulary",
+      "ar": "الجزء ١ — المفردات"
+     },
+     "videos": [
+      "u02v02",
+      "u02v03",
+      "u02v04"
+     ]
+    },
+    {
+     "id": "p2",
+     "order": 2,
+     "title": {
+      "en": "Part 2 — Grammar",
+      "ar": "الجزء ٢ — القواعد"
+     },
+     "videos": [
+      "u02v05",
+      "u02v06",
+      "u02v07"
+     ]
+    },
+    {
+     "id": "p3",
+     "order": 3,
+     "title": {
+      "en": "Part 3 — Listening",
+      "ar": "الجزء ٣ — الاستماع"
+     },
+     "videos": [
+      "u02v08",
+      "u02v09",
+      "u02v10"
+     ]
+    },
+    {
+     "id": "p4",
+     "order": 4,
+     "title": {
+      "en": "Part 4 — Speaking",
+      "ar": "الجزء ٤ — المحادثة"
+     },
+     "videos": [
+      "u02v11",
+      "u02v12"
+     ]
+    },
+    {
+     "id": "p5",
+     "order": 5,
+     "title": {
+      "en": "Part 5 — Reading",
+      "ar": "الجزء ٥ — القراءة"
+     },
+     "videos": [
+      "u02v13",
+      "u02v14"
+     ]
+    },
+    {
+     "id": "p6",
+     "order": 6,
+     "title": {
+      "en": "Part 6 — Writing",
+      "ar": "الجزء ٦ — الكتابة"
+     },
+     "videos": [
+      "u02v15"
+     ]
+    },
+    {
+     "id": "p7",
+     "order": 7,
+     "title": {
+      "en": "Part 7 — Management File",
+      "ar": "الجزء ٧ — ملفّ الإدارة"
+     },
+     "videos": [
+      "u02v16",
+      "u02v17"
+     ]
+    },
+    {
+     "id": "p8",
+     "order": 8,
+     "title": {
+      "en": "Part 8 — Case Study",
+      "ar": "الجزء ٨ — دراسة حالة"
+     },
+     "videos": [
+      "u02v18"
+     ]
+    },
+    {
+     "id": "p9",
+     "order": 9,
+     "title": {
+      "en": "Part 9 — Syria in Focus",
+      "ar": "الجزء ٩ — سوريا في التركيز"
+     },
+     "videos": [
+      "u02v19"
+     ]
+    },
+    {
+     "id": "p10",
+     "order": 10,
+     "title": {
+      "en": "Part 10 — Review",
+      "ar": "الجزء ١٠ — المراجعة"
+     },
+     "videos": [
+      "u02v20",
+      "u02v21"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u03",
+   "order": 3,
+   "title": {
+    "en": "Unit 3 — Tools and Safe Working",
+    "ar": "الوحدة ٣ — العُدّة والعمل الآمن"
+   },
+   "parts": [
+    {
+     "id": "warmup",
+     "order": 0,
+     "title": {
+      "en": "Warm Up",
+      "ar": "التمهيد"
+     },
+     "videos": [
+      "u03v01"
+     ]
+    },
+    {
+     "id": "p1",
+     "order": 1,
+     "title": {
+      "en": "Part 1 — Vocabulary",
+      "ar": "الجزء ١ — المفردات"
+     },
+     "videos": [
+      "u03v02",
+      "u03v03",
+      "u03v04"
+     ]
+    },
+    {
+     "id": "p2",
+     "order": 2,
+     "title": {
+      "en": "Part 2 — Grammar",
+      "ar": "الجزء ٢ — القواعد"
+     },
+     "videos": [
+      "u03v05",
+      "u03v06",
+      "u03v07"
+     ]
+    },
+    {
+     "id": "p3",
+     "order": 3,
+     "title": {
+      "en": "Part 3 — Listening",
+      "ar": "الجزء ٣ — الاستماع"
+     },
+     "videos": [
+      "u03v08",
+      "u03v09",
+      "u03v10"
+     ]
+    },
+    {
+     "id": "p4",
+     "order": 4,
+     "title": {
+      "en": "Part 4 — Speaking",
+      "ar": "الجزء ٤ — المحادثة"
+     },
+     "videos": [
+      "u03v11",
+      "u03v12"
+     ]
+    },
+    {
+     "id": "p5",
+     "order": 5,
+     "title": {
+      "en": "Part 5 — Reading",
+      "ar": "الجزء ٥ — القراءة"
+     },
+     "videos": [
+      "u03v13",
+      "u03v14"
+     ]
+    },
+    {
+     "id": "p6",
+     "order": 6,
+     "title": {
+      "en": "Part 6 — Writing",
+      "ar": "الجزء ٦ — الكتابة"
+     },
+     "videos": [
+      "u03v15"
+     ]
+    },
+    {
+     "id": "p7",
+     "order": 7,
+     "title": {
+      "en": "Part 7 — Management File",
+      "ar": "الجزء ٧ — ملفّ الإدارة"
+     },
+     "videos": [
+      "u03v16",
+      "u03v17"
+     ]
+    },
+    {
+     "id": "p8",
+     "order": 8,
+     "title": {
+      "en": "Part 8 — Case Study",
+      "ar": "الجزء ٨ — دراسة حالة"
+     },
+     "videos": [
+      "u03v18"
+     ]
+    },
+    {
+     "id": "p9",
+     "order": 9,
+     "title": {
+      "en": "Part 9 — Syria in Focus",
+      "ar": "الجزء ٩ — سوريا في التركيز"
+     },
+     "videos": [
+      "u03v19"
+     ]
+    },
+    {
+     "id": "p10",
+     "order": 10,
+     "title": {
+      "en": "Part 10 — Review",
+      "ar": "الجزء ١٠ — المراجعة"
+     },
+     "videos": [
+      "u03v20",
+      "u03v21"
      ]
     }
    ]

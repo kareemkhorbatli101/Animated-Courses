@@ -1,0 +1,264 @@
+{
+ "schema": "timeline/1",
+ "duration": 227.165,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 7.512,
+    "en": "This is Part 4, the Safety Instructions Role Play. You will give the steps in order, then take a turn.",
+    "ar": "هذا الجزء الرابع، لعب أدوار تعليمات الأمان. ستعطي الخطوات بالترتيب، ثمّ تأخذ دورك."
+   },
+   {
+    "start": 15.598,
+    "dur": 6.168,
+    "en": "A foreman gives the steps; a new mechanic listens and repeats. Listen to the model.",
+    "ar": "رئيس الورشة يعطي الخطوات؛ والميكانيكي الجديد يسمع ويعيد. استمع إلى النموذج."
+   },
+   {
+    "start": 22.116,
+    "dur": 3.48,
+    "en": "First, put on your gloves and glasses.",
+    "ar": "أوّلاً، ارتدِ قفّازيك ونظّارتك."
+   },
+   {
+    "start": 25.946,
+    "dur": 1.776,
+    "en": "OK.",
+    "ar": "حسناً."
+   },
+   {
+    "start": 28.072,
+    "dur": 3.288,
+    "en": "Then chock the wheels before you raise the car.",
+    "ar": "ثمّ ضع صادّات العجلات قبل أن ترفع السيارة."
+   },
+   {
+    "start": 31.71,
+    "dur": 2.304,
+    "en": "And the axle stands?",
+    "ar": "وحوامل المحور؟"
+   },
+   {
+    "start": 34.364,
+    "dur": 5.376,
+    "en": "Always use two. Never work under a car on a jack alone.",
+    "ar": "استخدم اثنين دائماً. لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 40.09,
+    "dur": 7.896,
+    "en": "Card A, the foreman: give the safety steps in order. Use First, Then, Always, and Never.",
+    "ar": "البطاقة أ، رئيس الورشة: أعطِ خطوات الأمان بالترتيب. استخدم First و Then و Always و Never."
+   },
+   {
+    "start": 48.336,
+    "dur": 7.056,
+    "en": "Card B, the new mechanic: listen, ask one question, and repeat the rules in your own words.",
+    "ar": "البطاقة ب، الميكانيكي الجديد: اسمع، واسأل سؤالاً واحداً، وأعد القواعد بكلماتك."
+   },
+   {
+    "start": 55.742,
+    "dur": 9.768,
+    "en": "A harder one, for the practitioner track: the new mechanic is in a hurry and wants to skip a safety step. Stop them, and explain why the step matters.",
+    "ar": "واحدة أصعب، للمسار المهني: الميكانيكي الجديد في عجلة ويريد تجاوز خطوة أمان. أوقفه، واشرح لماذا الخطوة مهمّة."
+   },
+   {
+    "start": 65.86,
+    "dur": 6.48,
+    "en": "Now your turn, line by line. You are the foreman, and I am the new mechanic.",
+    "ar": "الآن دورك، سطراً بسطر. أنت رئيس الورشة، وأنا الميكانيكي الجديد."
+   },
+   {
+    "start": 72.69,
+    "dur": 3.72,
+    "en": "Good morning. What do I do first?",
+    "ar": "صباح الخير. ماذا أفعل أوّلاً؟"
+   },
+   {
+    "start": 76.76,
+    "dur": 4.608,
+    "en": "Your turn. Tell me to put on my PPE first.",
+    "ar": "دورك. قل لي أن أرتدي معدّات الوقاية أوّلاً."
+   },
+   {
+    "start": 86.839,
+    "dur": 3.888,
+    "en": "You can say: First, put on your PPE.",
+    "ar": "يمكنك أن تقول: أوّلاً، ارتدِ معدّات الوقاية."
+   },
+   {
+    "start": 91.077,
+    "dur": 3.744,
+    "en": "Done. The car needs to go up.",
+    "ar": "فعلت. السيارة تحتاج أن تُرفع."
+   },
+   {
+    "start": 95.171,
+    "dur": 5.088,
+    "en": "Your turn. Tell me to chock the wheels, then raise it slowly.",
+    "ar": "دورك. قل لي أن أضع الصادّ عند العجلات، ثمّ أرفعها ببطء."
+   },
+   {
+    "start": 106.847,
+    "dur": 4.296,
+    "en": "You can say: Then chock the wheels, and raise it slowly.",
+    "ar": "يمكنك أن تقول: ثمّ ضع الصادّ عند العجلات، وارفعها ببطء."
+   },
+   {
+    "start": 111.493,
+    "dur": 3.576,
+    "en": "It is up. Can I go under now?",
+    "ar": "ارتفعت. أيمكنني الدخول تحتها الآن؟"
+   },
+   {
+    "start": 115.419,
+    "dur": 5.136,
+    "en": "Your turn. Say no, and tell me what must come first.",
+    "ar": "دورك. قل لا، وأخبرني بما يجب أن يأتي أوّلاً."
+   },
+   {
+    "start": 126.614,
+    "dur": 5.784,
+    "en": "You can say: No. Always put two axle stands under it first.",
+    "ar": "يمكنك أن تقول: لا. ضع حاملَي محور تحتها أوّلاً دائماً."
+   },
+   {
+    "start": 132.748,
+    "dur": 4.776,
+    "en": "Now the same induction again, but this time the bay is busy and noisy.",
+    "ar": "الآن نفس التعريف مرّة أخرى، لكن هذه المرّة الموقع مشغول وصاخب."
+   },
+   {
+    "start": 137.874,
+    "dur": 4.056,
+    "en": "And the new mechanic has already started without his gloves.",
+    "ar": "والميكانيكي الجديد بدأ فعلاً دون قفّازيه."
+   },
+   {
+    "start": 142.28,
+    "dur": 4.992,
+    "en": "Your turn. Stop him kindly, and say what is missing.",
+    "ar": "دورك. أوقفه بلطف، وقل ما هو الناقص."
+   },
+   {
+    "start": 153.331,
+    "dur": 5.448,
+    "en": "You can say: Stop, please. You aren't wearing your gloves.",
+    "ar": "يمكنك أن تقول: توقّف، من فضلك. أنت لا ترتدي قفّازيك."
+   },
+   {
+    "start": 159.129,
+    "dur": 4.968,
+    "en": "Sorry, Ustaz. It is only a small job.",
+    "ar": "آسف يا أستاذ. إنّها مهمّة صغيرة فقط."
+   },
+   {
+    "start": 164.447,
+    "dur": 5.112,
+    "en": "Your turn. Tell him a small job can still hurt a hand.",
+    "ar": "دورك. قل له إنّ مهمّة صغيرة يمكن أن تؤذي اليد أيضاً."
+   },
+   {
+    "start": 175.735,
+    "dur": 6.12,
+    "en": "You can say: A small job can hurt your hand too. The rule is always.",
+    "ar": "يمكنك أن تقول: المهمّة الصغيرة يمكن أن تؤذي يدك أيضاً. القاعدة دائماً."
+   },
+   {
+    "start": 182.205,
+    "dur": 4.848,
+    "en": "Good. A foreman who explains is a foreman they listen to.",
+    "ar": "جيّد. رئيس الورشة الذي يشرح هو من يُسمع له."
+   },
+   {
+    "start": 187.403,
+    "dur": 3.744,
+    "en": "Now, a short safety briefing for a bay you know.",
+    "ar": "الآن، إحاطة أمان قصيرة لموقع تعرفه."
+   },
+   {
+    "start": 191.497,
+    "dur": 4.368,
+    "en": "Say what to wear, what to do first, and what never to do.",
+    "ar": "قل ماذا يُرتدى، وما يُفعل أوّلاً، وما لا يُفعل أبداً."
+   },
+   {
+    "start": 196.215,
+    "dur": 3.84,
+    "en": "Pause the video now, and talk for about one minute.",
+    "ar": "أوقف الفيديو الآن، وتحدّث لنحو دقيقة."
+   },
+   {
+    "start": 200.405,
+    "dur": 4.896,
+    "en": "Here is one possible briefing. Yours can be different.",
+    "ar": "هذه إحاطة ممكنة. إحاطتك قد تكون مختلفة."
+   },
+   {
+    "start": 205.651,
+    "dur": 3.456,
+    "en": "First, always wear your safety glasses.",
+    "ar": "أوّلاً، ارتدِ نظّارات الأمان دائماً."
+   },
+   {
+    "start": 209.457,
+    "dur": 4.944,
+    "en": "Then keep your area clean, and chock the wheels before you raise a car.",
+    "ar": "ثمّ حافظ على نظافة مكانك، وضع الصادّ عند العجلات قبل أن ترفع سيارة."
+   },
+   {
+    "start": 214.751,
+    "dur": 5.208,
+    "en": "Never work under a car on a jack alone, and ask me if you are not sure.",
+    "ar": "لا تعمل أبداً تحت سيارة على رافعة وحدها، واسألني إن لم تكن متأكّداً."
+   },
+   {
+    "start": 220.309,
+    "dur": 5.256,
+    "en": "Well done. Now practise with a partner, and swap roles.",
+    "ar": "أحسنت. الآن تدرّب مع زميل، وتبادلا الدورين."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 21.616,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 153.331,
+    "hold": 5.06,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

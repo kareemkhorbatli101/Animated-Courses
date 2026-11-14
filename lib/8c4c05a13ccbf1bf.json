@@ -1,0 +1,153 @@
+{
+ "schema": "timeline/1",
+ "duration": 119.172,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 7.848,
+    "en": "This is Part 2, Grammar Practice. You will write imperatives, then put the lifting steps in the safe order.",
+    "ar": "هذا الجزء الثاني، تدريب القواعد. ستكتب أفعال أمر، ثمّ ترتّب خطوات الرفع بالترتيب الآمن."
+   },
+   {
+    "start": 15.934,
+    "dur": 6.744,
+    "en": "Write each instruction as an imperative. The book does the first: wear your safety glasses.",
+    "ar": "اكتب كلّ تعليم بصيغة الأمر. الكتاب يحلّ الأوّل: ارتدِ نظّارات الأمان."
+   },
+   {
+    "start": 23.028,
+    "dur": 5.784,
+    "en": "An imperative drops the you and starts with the verb. Not you wear, but wear.",
+    "ar": "فعل الأمر يحذف you ويبدأ بالفعل. ليس you wear، بل wear."
+   },
+   {
+    "start": 29.162,
+    "dur": 2.328,
+    "en": "Not touch the hot engine.",
+    "ar": "عدم لمس المحرّك الساخن."
+   },
+   {
+    "start": 35.961,
+    "dur": 2.304,
+    "en": "Don't touch the hot engine.",
+    "ar": "لا تلمس المحرّك الساخن."
+   },
+   {
+    "start": 38.615,
+    "dur": 2.232,
+    "en": "Chock the wheels first.",
+    "ar": "وضع صادّات العجلات أوّلاً."
+   },
+   {
+    "start": 45.2,
+    "dur": 2.232,
+    "en": "Chock the wheels first.",
+    "ar": "ضع صادّات العجلات أوّلاً."
+   },
+   {
+    "start": 47.782,
+    "dur": 3.264,
+    "en": "Not work under a car on a jack alone.",
+    "ar": "عدم العمل تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 56.222,
+    "dur": 3.336,
+    "en": "Never work under a car on a jack alone.",
+    "ar": "لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 59.908,
+    "dur": 2.568,
+    "en": "Clean your area at the end.",
+    "ar": "تنظيف منطقتك في النهاية."
+   },
+   {
+    "start": 67.064,
+    "dur": 2.568,
+    "en": "Clean your area at the end.",
+    "ar": "نظّف منطقتك في النهاية."
+   },
+   {
+    "start": 69.982,
+    "dur": 6.84,
+    "en": "Now put the lifting steps in the safe order. The book gives you step one: chock the wheels.",
+    "ar": "الآن رتّب خطوات الرفع بالترتيب الآمن. الكتاب يعطيك الخطوة الأولى: ضع صادّات العجلات."
+   },
+   {
+    "start": 77.172,
+    "dur": 3.504,
+    "en": "After you chock the wheels, what is step two?",
+    "ar": "بعد وضع صادّات العجلات، ما الخطوة الثانية؟"
+   },
+   {
+    "start": 86.323,
+    "dur": 3.12,
+    "en": "Raise the car slowly with the jack.",
+    "ar": "ارفع السيارة ببطء بالرافعة."
+   },
+   {
+    "start": 89.793,
+    "dur": 2.04,
+    "en": "What is step three?",
+    "ar": "ما الخطوة الثالثة؟"
+   },
+   {
+    "start": 95.951,
+    "dur": 2.928,
+    "en": "Put the axle stands under the car.",
+    "ar": "ضع حوامل المحور تحت السيارة."
+   },
+   {
+    "start": 99.229,
+    "dur": 3.264,
+    "en": "And step four, before you start work?",
+    "ar": "والخطوة الرابعة، قبل أن تبدأ العمل؟"
+   },
+   {
+    "start": 107.67,
+    "dur": 3.096,
+    "en": "Check the car is steady before you work.",
+    "ar": "تأكّد أنّ السيارة ثابتة قبل أن تعمل."
+   },
+   {
+    "start": 111.116,
+    "dur": 6.456,
+    "en": "Chock, raise, stands, check. In that order, every time.",
+    "ar": "صادّ، ثمّ رفع، ثمّ حوامل، ثمّ تأكّد. بهذا الترتيب، في كلّ مرّة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 28.275,
+    "hold": 10.69,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

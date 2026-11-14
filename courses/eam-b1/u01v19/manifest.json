@@ -13,8 +13,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 60526,
    "meshopt": {
-    "address": "lib/7c519fcae3eddf2a.glb",
-    "sha": "7c519fcae3eddf2a",
+    "address": "lib/9b9c2b621ff4c18f.glb",
+    "sha": "9b9c2b621ff4c18f",
     "bytes": 78148,
     "wire": 19670
    }
@@ -26,8 +26,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 60064,
    "meshopt": {
-    "address": "lib/a82bb5e574b52e04.glb",
-    "sha": "a82bb5e574b52e04",
+    "address": "lib/b721b416683e06e0.glb",
+    "sha": "b721b416683e06e0",
     "bytes": 76900,
     "wire": 19363
    }
@@ -39,8 +39,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 1915726,
    "meshopt": {
-    "address": "lib/5646c9f53f438765.glb",
-    "sha": "5646c9f53f438765",
+    "address": "lib/fc57b673049e291b.glb",
+    "sha": "fc57b673049e291b",
     "bytes": 411016,
     "wire": 281872
    }
@@ -52,10 +52,10 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 1933431,
    "meshopt": {
-    "address": "lib/3576a644740c4044.glb",
-    "sha": "3576a644740c4044",
-    "bytes": 417952,
-    "wire": 285892
+    "address": "lib/548c9e8fe1d14f6e.glb",
+    "sha": "548c9e8fe1d14f6e",
+    "bytes": 417960,
+    "wire": 285833
    }
   },
   "lines/0789f0b05a126601.mp3": {
@@ -337,28 +337,28 @@
    "id": "lina",
    "encodings": {
     "exact": "58386d2845703ea9",
-    "meshopt": "3576a644740c4044"
+    "meshopt": "548c9e8fe1d14f6e"
    }
   },
   {
    "id": "maher",
    "encodings": {
     "exact": "7fb58e12c7e299a6",
-    "meshopt": "5646c9f53f438765"
+    "meshopt": "fc57b673049e291b"
    }
   },
   {
    "id": "workshop_local_set_merged",
    "encodings": {
     "exact": "ee44945d9a12a416",
-    "meshopt": "7c519fcae3eddf2a"
+    "meshopt": "9b9c2b621ff4c18f"
    }
   },
   {
    "id": "workshop_local_set_noceil_merged",
    "encodings": {
     "exact": "0b51f27511653fba",
-    "meshopt": "a82bb5e574b52e04"
+    "meshopt": "b721b416683e06e0"
    }
   }
  ]

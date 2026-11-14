@@ -1,0 +1,249 @@
+{
+ "schema": "timeline/1",
+ "duration": 217.505,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.6,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.4,
+    "dur": 7.368,
+    "en": "This is Part 8, a Global Case Study. You will hear how one workshop reached a whole year with no accidents.",
+    "ar": "هذا الجزء الثامن، دراسة حالة عالمية. ستسمع كيف بلغت ورشة سنة كاملة بلا حوادث."
+   },
+   {
+    "start": 15.118,
+    "dur": 4.704,
+    "en": "Before you read: how can a workshop stop accidents before they happen?",
+    "ar": "قبل أن تقرأ: كيف يمكن للورشة أن تمنع الحوادث قبل وقوعها؟"
+   },
+   {
+    "start": 20.172,
+    "dur": 3.504,
+    "en": "An accident is when someone is hurt by mistake.",
+    "ar": "الحادث هو أن يتأذّى أحد بالخطأ."
+   },
+   {
+    "start": 24.026,
+    "dur": 3.696,
+    "en": "A rule is an instruction that everyone must follow.",
+    "ar": "والقاعدة تعليم يجب أن يتبعه الجميع."
+   },
+   {
+    "start": 28.072,
+    "dur": 3.432,
+    "en": "And to report is to tell someone about a problem.",
+    "ar": "والإبلاغ هو أن تخبر أحداً عن مشكلة."
+   },
+   {
+    "start": 31.854,
+    "dur": 7.632,
+    "en": "A large service centre once had too many small accidents. A mechanic cut his hand; another slipped on oil.",
+    "ar": "كان لمركز خدمة كبير حوادث صغيرة كثيرة جدّاً. جرح ميكانيكي يده؛ وانزلق آخر على زيت."
+   },
+   {
+    "start": 39.836,
+    "dur": 6.024,
+    "en": "The work slowed down, and people were worried. So the new manager made a plan.",
+    "ar": "تباطأ العمل، وقلق الناس. فوضعت المديرة الجديدة خطّة."
+   },
+   {
+    "start": 46.21,
+    "dur": 4.008,
+    "en": "First, she wrote five clear rules and put them on the wall.",
+    "ar": "أوّلاً، كتبت خمس قواعد واضحة وعلّقتها على الحائط."
+   },
+   {
+    "start": 50.568,
+    "dur": 7.824,
+    "en": "Everyone had to wear PPE, keep their area clean, use axle stands, ask if they were not sure, and report any problem at once.",
+    "ar": "كان على الجميع أن يرتدوا معدّات الوقاية، ويحفظوا منطقتهم نظيفة، ويستخدموا حوامل المحور، ويسألوا إذا لم يكونوا متأكّدين، ويبلّغوا عن أيّ مشكلة فوراً."
+   },
+   {
+    "start": 58.742,
+    "dur": 6.552,
+    "en": "Then she trained every worker, old and new. Next, she checked the workshop every morning.",
+    "ar": "ثمّ درّبت كلّ عامل، قديماً وجديداً. بعد ذلك، كانت تفحص الورشة كلّ صباح."
+   },
+   {
+    "start": 65.644,
+    "dur": 8.184,
+    "en": "If she saw oil on the floor or a tool out of place, she stopped and fixed it with the team. She did not shout; she taught.",
+    "ar": "إذا رأت زيتاً على الأرض أو أداة في غير مكانها، كانت تتوقّف وتصلح الأمر مع الفريق. لم تصرخ؛ بل علّمت."
+   },
+   {
+    "start": 74.178,
+    "dur": 10.992,
+    "en": "After one year, the workshop had no accidents at all. Good safety is not luck, she said. It is simple rules that everyone follows, every single day.",
+    "ar": "بعد سنة، لم يكن في الورشة أيّ حادث على الإطلاق. الأمان الجيّد ليس حظّاً، قالت. إنّه قواعد بسيطة يتبعها الجميع، كلّ يوم."
+   },
+   {
+    "start": 85.52,
+    "dur": 2.688,
+    "en": "What did the manager put on the wall?",
+    "ar": "ماذا علّقت المديرة على الحائط؟"
+   },
+   {
+    "start": 93.385,
+    "dur": 2.376,
+    "en": "Five clear rules.",
+    "ar": "خمس قواعد واضحة."
+   },
+   {
+    "start": 96.111,
+    "dur": 2.496,
+    "en": "What did she do every morning?",
+    "ar": "ماذا كانت تفعل كلّ صباح؟"
+   },
+   {
+    "start": 103.371,
+    "dur": 4.176,
+    "en": "She checked the workshop, and fixed problems with the team.",
+    "ar": "كانت تفحص الورشة، وتصلح المشاكل مع الفريق."
+   },
+   {
+    "start": 107.897,
+    "dur": 2.856,
+    "en": "What did she say good safety is?",
+    "ar": "ماذا قالت عن الأمان الجيّد؟"
+   },
+   {
+    "start": 115.636,
+    "dur": 3.624,
+    "en": "Simple rules that everyone follows every day.",
+    "ar": "قواعد بسيطة يتبعها الجميع كلّ يوم."
+   },
+   {
+    "start": 119.61,
+    "dur": 2.04,
+    "en": "What does rule mean?",
+    "ar": "ماذا تعني كلمة القاعدة؟"
+   },
+   {
+    "start": 125.826,
+    "dur": 3.168,
+    "en": "An instruction that everyone must follow.",
+    "ar": "تعليم يجب أن يتبعه الجميع."
+   },
+   {
+    "start": 129.344,
+    "dur": 2.376,
+    "en": "And what does report mean?",
+    "ar": "وماذا تعني كلمة الإبلاغ؟"
+   },
+   {
+    "start": 136.25,
+    "dur": 2.712,
+    "en": "To tell someone about a problem.",
+    "ar": "أن تخبر أحداً عن مشكلة."
+   },
+   {
+    "start": 139.312,
+    "dur": 2.616,
+    "en": "And what does an accident mean?",
+    "ar": "وماذا تعني كلمة الحادث؟"
+   },
+   {
+    "start": 146.751,
+    "dur": 2.784,
+    "en": "When someone is hurt by mistake.",
+    "ar": "أن يتأذّى أحد بالخطأ."
+   },
+   {
+    "start": 149.885,
+    "dur": 3.456,
+    "en": "One more: what does to train someone mean?",
+    "ar": "وأخيراً: ماذا يعني أن تدرّب أحداً؟"
+   },
+   {
+    "start": 158.812,
+    "dur": 3.048,
+    "en": "To teach them how to do the work safely.",
+    "ar": "أن تعلّمه كيف يؤدّي العمل بأمان."
+   },
+   {
+    "start": 162.21,
+    "dur": 4.488,
+    "en": "Now talk with a partner. Use these frames.",
+    "ar": "الآن تحدّث مع زميل. استخدم هذه القوالب."
+   },
+   {
+    "start": 167.048,
+    "dur": 7.032,
+    "en": "I think the most important thing is. The reason is. In my workshop, we.",
+    "ar": "أعتقد أنّ الأمر الأهمّ هو. والسبب هو. في ورشتي، نحن."
+   },
+   {
+    "start": 174.43,
+    "dur": 3.24,
+    "en": "What is the most important thing in this story?",
+    "ar": "ما الأمر الأهمّ في هذه القصّة؟"
+   },
+   {
+    "start": 183.435,
+    "dur": 4.248,
+    "en": "You can say: the manager checked every morning, not only once.",
+    "ar": "يمكنك أن تقول: المديرة كانت تتحقّق كلّ صباح، وليس مرّة واحدة."
+   },
+   {
+    "start": 188.033,
+    "dur": 5.328,
+    "en": "Your opinion can be different. Say why, and that is enough.",
+    "ar": "رأيك قد يكون مختلفاً. قل لماذا، وهذا يكفي."
+   },
+   {
+    "start": 193.711,
+    "dur": 6.264,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 200.325,
+    "dur": 5.016,
+    "en": "This is PPE. It was the first of the five rules.",
+    "ar": "هذه معدّات الوقاية. كانت أوّل القواعد الخمس."
+   },
+   {
+    "start": 205.691,
+    "dur": 4.656,
+    "en": "This is an axle stand. It was in the third rule.",
+    "ar": "هذا حامل محور. كان في القاعدة الثالثة."
+   },
+   {
+    "start": 210.697,
+    "dur": 5.208,
+    "en": "And this is a fire extinguisher. Everyone knows where it is.",
+    "ar": "وهذه طفّاية حريق. الجميع يعرف مكانها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 103.371,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

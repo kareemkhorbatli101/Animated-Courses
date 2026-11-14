@@ -1,0 +1,165 @@
+{
+ "schema": "timeline/1",
+ "duration": 135.268,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.0,
+    "en": "This is Part 4, Discussing Safety. You will hear model answers, then speak.",
+    "ar": "هذا الجزء الرابع، مناقشة الأمان. ستسمع أجوبة نموذجية، ثمّ تتحدّث."
+   },
+   {
+    "start": 13.654,
+    "dur": 4.584,
+    "en": "Here are three questions for you and a partner, with model answers first.",
+    "ar": "هذه ثلاثة أسئلة لك ولزميلك، مع أجوبة نموذجية أوّلاً."
+   },
+   {
+    "start": 18.588,
+    "dur": 2.904,
+    "en": "What safety gear do you wear in a workshop?",
+    "ar": "أيّ معدّات وقاية ترتدي في الورشة؟"
+   },
+   {
+    "start": 27.021,
+    "dur": 3.84,
+    "en": "I wear safety glasses, gloves, and overalls.",
+    "ar": "أرتدي نظّارات الأمان والقفّازات ولباس العمل."
+   },
+   {
+    "start": 31.211,
+    "dur": 3.12,
+    "en": "Why is a tidy workshop a safe workshop?",
+    "ar": "لماذا الورشة المرتّبة ورشة آمنة؟"
+   },
+   {
+    "start": 39.626,
+    "dur": 3.456,
+    "en": "Because oil or a tool on the floor can cause a fall.",
+    "ar": "لأنّ الزيت أو أداة على الأرض يمكن أن تسبّب سقوطاً."
+   },
+   {
+    "start": 43.432,
+    "dur": 2.688,
+    "en": "What are three important safety rules?",
+    "ar": "ما ثلاث قواعد أمان مهمّة؟"
+   },
+   {
+    "start": 51.355,
+    "dur": 7.32,
+    "en": "Always wear your PPE. Always use axle stands. Never work under a car on a jack alone.",
+    "ar": "ارتدِ معدّات الوقاية دائماً. استخدم حوامل المحور دائماً. لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 59.025,
+    "dur": 9.936,
+    "en": "Useful language: I wear. Always. Never. First, then. Because it is safe.",
+    "ar": "لغة مفيدة: أرتدي. دائماً. أبداً. أوّلاً، ثمّ. لأنّه آمن."
+   },
+   {
+    "start": 69.311,
+    "dur": 5.352,
+    "en": "Now your turn, before you find a partner. I will ask, and you answer.",
+    "ar": "الآن دورك، قبل أن تجد زميلاً. سأسأل، وأنت تجيب."
+   },
+   {
+    "start": 75.013,
+    "dur": 5.4,
+    "en": "Your turn. A new mechanic asks what he must wear. What do you tell him?",
+    "ar": "دورك. ميكانيكي جديد يسألك ماذا يجب أن يرتدي. بماذا تخبره؟"
+   },
+   {
+    "start": 87.589,
+    "dur": 3.936,
+    "en": "You can say: Always wear your safety glasses and gloves.",
+    "ar": "يمكنك أن تقول: ارتدِ نظّارات الأمان والقفّازات دائماً."
+   },
+   {
+    "start": 91.875,
+    "dur": 5.184,
+    "en": "Your turn. He asks why the floor must be clean. What do you say?",
+    "ar": "دورك. يسألك لماذا يجب أن تكون الأرض نظيفة. ماذا تقول؟"
+   },
+   {
+    "start": 103.824,
+    "dur": 4.416,
+    "en": "You can say: Because oil or a tool on the floor can cause a fall.",
+    "ar": "يمكنك أن تقول: لأنّ زيتاً أو أداة على الأرض يمكن أن تسبّب سقوطاً."
+   },
+   {
+    "start": 108.59,
+    "dur": 4.68,
+    "en": "And he asks for the one rule he must never break. What do you say?",
+    "ar": "ويسألك عن القاعدة التي لا يجوز أن يخالفها أبداً. ماذا تقول؟"
+   },
+   {
+    "start": 120.152,
+    "dur": 3.888,
+    "en": "You can say: Never work under a car on a jack alone.",
+    "ar": "يمكنك أن تقول: لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 124.39,
+    "dur": 3.552,
+    "en": "Good. You answered all three without reading.",
+    "ar": "جيّد. أجبت عن الثلاثة كلّها دون قراءة."
+   },
+   {
+    "start": 128.292,
+    "dur": 5.376,
+    "en": "Now your turn. Ask a partner the same three questions, then swap roles.",
+    "ar": "الآن دورك. اسأل زميلك الأسئلة الثلاثة نفسها، ثمّ تبادلا الدورين."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 18.476,
+    "hold": 8.5,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 30.299,
+    "hold": 9.28,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 51.355,
+    "hold": 3.0,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

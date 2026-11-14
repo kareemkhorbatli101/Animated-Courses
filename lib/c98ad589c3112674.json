@@ -1,0 +1,167 @@
+{
+ "schema": "timeline/1",
+ "duration": 133.32,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 6.768,
+    "en": "This is Part 6, Writing. You will take a model apart, then write fifty to seventy words.",
+    "ar": "هذا الجزء السادس، الكتابة. ستفكّك نموذجاً، ثمّ تكتب من خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 13.822,
+    "dur": 4.248,
+    "en": "You will write fifty to seventy words about what is under the bonnet.",
+    "ar": "ستكتب من خمسين إلى سبعين كلمة عمّا تحت غطاء المحرّك."
+   },
+   {
+    "start": 18.42,
+    "dur": 4.416,
+    "en": "Use there is and there are, and some, any, much, and many.",
+    "ar": "استخدم there is و there are، و some و any و much و many."
+   },
+   {
+    "start": 23.186,
+    "dur": 6.624,
+    "en": "The book gives you a plan with four gaps. Under the bonnet, there is blank. There are blank.",
+    "ar": "يعطيك الكتاب خطّة فيها أربع فراغات. تحت غطاء المحرّك، هناك فراغ. هناك فراغ."
+   },
+   {
+    "start": 30.16,
+    "dur": 3.456,
+    "en": "There is some blank. There are blank filters.",
+    "ar": "هناك بعض الفراغ. هناك فراغ فلاتر."
+   },
+   {
+    "start": 33.966,
+    "dur": 8.088,
+    "en": "Here is one way to fill it. Under the bonnet, there is an engine. There are a battery and a radiator.",
+    "ar": "هذه طريقة لتعبئتها. تحت غطاء المحرّك، هناك محرّك. هناك بطارية وراديتير."
+   },
+   {
+    "start": 42.404,
+    "dur": 4.248,
+    "en": "There is some oil. There are two filters.",
+    "ar": "هناك بعض الزيت. هناك فلتران."
+   },
+   {
+    "start": 47.002,
+    "dur": 2.736,
+    "en": "Now look at what each sentence is doing.",
+    "ar": "الآن انظر إلى ما يفعله كلّ جملة."
+   },
+   {
+    "start": 50.088,
+    "dur": 3.912,
+    "en": "The first sentence names the one big thing: there is an engine.",
+    "ar": "الجملة الأولى تسمّي الشيء الكبير الواحد: هناك محرّك."
+   },
+   {
+    "start": 54.35,
+    "dur": 3.24,
+    "en": "One engine, so is it there is or there are?",
+    "ar": "محرّك واحد، فهل نقول there is أم there are؟"
+   },
+   {
+    "start": 63.12,
+    "dur": 3.192,
+    "en": "There is. One thing takes there is.",
+    "ar": "There is. الشيء الواحد يأخذ there is."
+   },
+   {
+    "start": 66.662,
+    "dur": 4.248,
+    "en": "The second sentence names two things together, so it changes.",
+    "ar": "الجملة الثانية تسمّي شيئين معاً، فتتغيّر."
+   },
+   {
+    "start": 71.26,
+    "dur": 3.216,
+    "en": "A battery and a radiator: which one now?",
+    "ar": "بطارية وراديتير: أيّهما الآن؟"
+   },
+   {
+    "start": 79.828,
+    "dur": 2.904,
+    "en": "There are. Two things take there are.",
+    "ar": "There are. الشيئان يأخذان there are."
+   },
+   {
+    "start": 83.082,
+    "dur": 3.336,
+    "en": "Oil or filters: which one needs there is?",
+    "ar": "الزيت أم الفلاتر: أيّهما يحتاج there is؟"
+   },
+   {
+    "start": 91.83,
+    "dur": 4.032,
+    "en": "Oil. Oil is uncountable, so there is some oil.",
+    "ar": "الزيت. الزيت غير معدود، فنقول there is some oil."
+   },
+   {
+    "start": 96.212,
+    "dur": 3.672,
+    "en": "And the last sentence counts them: there are two filters.",
+    "ar": "والجملة الأخيرة تعدّها: هناك فلتران."
+   },
+   {
+    "start": 100.234,
+    "dur": 5.592,
+    "en": "That is fifty-four words, with two uncountable nouns and two counted ones.",
+    "ar": "هذه أربع وخمسون كلمة، فيها اسمان غير معدودين واثنان معدودان."
+   },
+   {
+    "start": 106.176,
+    "dur": 1.872,
+    "en": "Now it is your turn.",
+    "ar": "الآن دورك."
+   },
+   {
+    "start": 108.398,
+    "dur": 4.128,
+    "en": "Pause the video, and write your own fifty to seventy words.",
+    "ar": "أوقف الفيديو، واكتب من خمسين إلى سبعين كلمة من عندك."
+   },
+   {
+    "start": 112.876,
+    "dur": 7.488,
+    "en": "Check before you finish. Did you use there is and there are? Did you use some, any, much, or many?",
+    "ar": "تحقّق قبل أن تنتهي. هل استخدمت there is و there are؟ هل استخدمت some أو any أو much أو many؟"
+   },
+   {
+    "start": 120.714,
+    "dur": 5.208,
+    "en": "Is it fifty to seventy words? Are the capitals and full stops right?",
+    "ar": "هل هي من خمسين إلى سبعين كلمة؟ هل الحروف الكبيرة والنقاط صحيحة؟"
+   },
+   {
+    "start": 126.272,
+    "dur": 5.448,
+    "en": "The book has two more tasks: a note about a leak, and a stock list for your own bay.",
+    "ar": "في الكتاب مهمّتان أخريان: مذكّرة عن تسريب، وقائمة مخزون لموقعك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

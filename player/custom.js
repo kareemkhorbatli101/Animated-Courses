@@ -10,12 +10,62 @@
  *
  * No look numbers live here (no_layout_in_player): a slot's position, size, colour and box come from its
  * declaration; the layer only converts them to the frame the lesson is drawn in.
+ *
+ * v29.0 (package alhasan_u1_videos v2, 06 §3; step S05), twin of engine/customize.py's same additions: keys of 2-4
+ * parts; values of every type (a bilingual text gives the slot's lang= and nothing else; a list is reached through
+ * list= + item= as {item}); a course's own value set and the vocabulary's setBy (a host value for a key the course
+ * sets is ignored, never applied); aliases; sub=, anchor=, lang=, library= carried only when declared.
+ * resolve()/record() called without the course set and the vocabulary give byte-for-byte the v28.3 answers.
  */
 (function (global) {
   'use strict';
 
   var TIERS_SUPPORTED = {overlay: true};
-  var PLACEHOLDER = /\{([A-Za-z_][A-Za-z0-9_]*\.[A-Za-z_][A-Za-z0-9_]*)\}/g;
+  var PLACEHOLDER = /\{([A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*){1,3})\}/g;
+  var ITEM = /\{item\}/g;
+  var WHOLE = /^[1-9][0-9]*$/;
+
+  // the text a value shows, or null when it has none in this language (engine/customize.py value_text)
+  function valueText(v, lang) {
+    if (v === undefined || v === null) return null;
+    if (Array.isArray(v)) return null;
+    if (typeof v === 'object') return (v[lang] === undefined || v[lang] === null) ? null : String(v[lang]);
+    return String(v);
+  }
+
+  function aliasMap(vocab) {
+    var out = {}, rows = (vocab && vocab.values) || {};
+    Object.keys(rows).forEach(function (k) { (rows[k].aliases || []).forEach(function (a) { out[a] = k; }); });
+    return out;
+  }
+
+  // {eff, refused}: the course's value set, then the host's values - a host value for a setBy "course" key refused
+  function effective(values, course, vocab) {
+    var host = values || {}, eff = {}, refused = [];
+    if ((course === undefined || course === null) && (vocab === undefined || vocab === null)) {
+      Object.keys(host).forEach(function (k) { eff[k] = host[k]; });
+      return {eff: eff, refused: refused};
+    }
+    var rows = (vocab && vocab.values) || {}, alias = aliasMap(vocab);
+    Object.keys(course || {}).forEach(function (k) { eff[alias[k] || k] = course[k]; });
+    Object.keys(host).forEach(function (k) {
+      var name = alias[k] || k;
+      if ((rows[name] || {}).setBy === 'course') { refused.push(k); return; }
+      eff[name] = host[k];
+    });
+    return {eff: eff, refused: refused};
+  }
+
+  // [the {item} text, the list key] for a slot with list= and item=
+  function itemOf(def, eff, lang) {
+    var lk = def.list;
+    if (!lk) return [null, null];
+    var lst = eff[lk], s = String(def.item === undefined ? 'undefined' : def.item === null ? 'null' : def.item).trim();
+    if (!WHOLE.test(s)) return [null, lk];
+    var n = parseInt(s, 10);
+    if (!Array.isArray(lst) || n > lst.length) return [null, lk];
+    return [valueText(lst[n - 1], lang), lk];
+  }
 
   function num(x) {
     var v = Number(x);
@@ -64,9 +114,12 @@
     return order.filter(function (id) { return byId[id]; }).map(function (id) { return byId[id]; });
   }
 
-  /* resolve(defs, values, enable) -> {enabled, ignored, unsupported, missing, unknown, slots:{id: resolved}, used} */
-  function resolve(defs, values, enable) {
+  /* resolve(defs, values, enable[, course, vocab]) -> {enabled, ignored, unsupported, missing, unknown,
+   *   slots:{id: resolved}, used}. Without course and vocab: the v28.3 resolver, answer for answer. */
+  function resolve(defs, values, enable, course, vocab) {
     values = values || {};
+    var ev = effective(values, course, vocab), eff = ev.eff, refused = {};
+    ev.refused.forEach(function (k) { refused[k] = true; });
     var byId = {};
     (defs || []).forEach(function (d) { byId[d.id] = d; });
     var out = {enabled: [], ignored: [], unsupported: [], missing: [], unknown: [], slots: {}, used: []};
@@ -75,33 +128,50 @@
       var def = byId[id];
       if (!def) { out.unknown.push(id); return; }
       if (!TIERS_SUPPORTED[def.tier || 'overlay']) { out.unsupported.push(id); return; }
+      var lang = String(def.lang || 'en');
+      var io = itemOf(def, eff, lang), itemText = io[0], listKey = io[1];
       var req = requiresOf(def);
       var lacking = req.filter(function (k) {
-        return values[k] === undefined || values[k] === null || String(values[k]).trim() === '';
+        var t = valueText(eff[k], lang);
+        return t === null || t.trim() === '';
       });
-      var text;
+      if (listKey && (itemText === null || itemText.trim() === '')) lacking.push(listKey);
+      var text, subtext = null;
       if (lacking.length) {
         var dft = defaultText(def);
         if (dft === null) { out.missing.push(id); return; }
         text = dft;
       } else {
-        text = String(def.template || '').replace(PLACEHOLDER, function (m, key) {
-          if (values[key] === undefined || values[key] === null) return '';
-          used[key] = true;
-          return String(values[key]);
-        });
+        var fill = function (tpl) {
+          var s = tpl.replace(PLACEHOLDER, function (m, key) {
+            var t = valueText(eff[key], lang);
+            if (t === null) return '';
+            used[key] = true;
+            return t;
+          });
+          if (listKey !== null && s.search(ITEM) >= 0) {
+            used[listKey] = true;
+            s = s.replace(ITEM, function () { return itemText; });
+          }
+          return s;
+        };
+        text = fill(String(def.template || ''));
+        if (def.sub) subtext = fill(String(def.sub));
       }
       out.enabled.push(id);
-      out.slots[id] = {
+      var slot = {
         tier: def.tier || 'overlay', kind: def.kind || 'text', text: text,
         at: num(def.at || 0), dur: num(def.dur || 0), show: def.show || 'timeline',
         region: {x: num(def.x), y: num(def.y), width: num(def.width)},
         style: {size: num(def.size), color: String(def.color || ''), box: String(def.box || ''), layer: String(def.layer || '')},
         privacy: def.privacy || 'public'
       };
+      ['anchor', 'lang', 'library'].forEach(function (k) { if (def[k]) slot[k] = String(def[k]); });
+      if (subtext !== null) slot.sub = subtext;
+      out.slots[id] = slot;
     });
     out.used = Object.keys(used).sort();
-    out.ignored = Object.keys(values).filter(function (k) { return !used[k]; }).sort();
+    out.ignored = Object.keys(values).filter(function (k) { return refused[k] || !used[k]; }).sort();
     return out;
   }
 
@@ -110,14 +180,21 @@
       ? 'personal' : 'public';
   }
 
-  /* The record (package 07 §2.4, §2.5). Async because hashing is. */
-  function record(ctx, res, values) {
+  /* The record (package 07 §2.4, §2.5). Async because hashing is. v29.0: the values come from the same merge resolve()
+   * used; a bilingual text or a list is kept as itself; base.valueSet names the course value set's version when one
+   * was used (absent otherwise, so a v28.3 record is unchanged). */
+  function record(ctx, res, values, course, vocab) {
+    var eff = effective(values, course, vocab).eff;
     var usedValues = {};
-    res.used.forEach(function (k) { usedValues[k] = String(values[k]); });
+    res.used.forEach(function (k) {
+      var v = eff[k];
+      usedValues[k] = (v !== null && typeof v === 'object') ? v : String(v);
+    });
     var slotsOut = {};
     res.enabled.forEach(function (id) {
       var s = res.slots[id];
       slotsOut[id] = {tier: s.tier, kind: s.kind, text: s.text, at: s.at, dur: s.dur, show: s.show, region: s.region};
+      ['anchor', 'lang', 'sub', 'library'].forEach(function (k) { if (s[k] !== undefined) slotsOut[id][k] = s[k]; });
     });
     return Promise.all([
       sha16(canonical(ctx.courseSlots || [])),
@@ -126,10 +203,12 @@
     ]).then(function (h) {
       var courseVersion = ctx.courseSlotsVersion || h[0];
       return sha16((ctx.fingerprint || '') + '|' + h[2] + '|' + canonical(usedValues)).then(function (identity) {
+        var base = {course: ctx.course, video: ctx.video, fingerprint: ctx.fingerprint || '', slotsHash: h[2],
+                    slotSet: {courseSlotsVersion: courseVersion, lessonSlotsHash: h[1], resolvedSlotsHash: h[2]}};
+        if (ctx.courseValuesVersion) base.valueSet = {courseValuesVersion: ctx.courseValuesVersion};
         return {
           schema: 'custom/1',
-          base: {course: ctx.course, video: ctx.video, fingerprint: ctx.fingerprint || '', slotsHash: h[2],
-                 slotSet: {courseSlotsVersion: courseVersion, lessonSlotsHash: h[1], resolvedSlotsHash: h[2]}},
+          base: base,
           identity: identity,
           slots: slotsOut,
           values: usedValues,
@@ -219,5 +298,6 @@
   };
 
   global.Custom = {resolve: resolve, merge: merge, record: record, canonical: canonical, canonicalRecord: canonicalRecord,
-                   sha16: sha16, num: num, Layer: Layer, TIERS_SUPPORTED: TIERS_SUPPORTED};
+                   sha16: sha16, num: num, Layer: Layer, TIERS_SUPPORTED: TIERS_SUPPORTED,
+                   valueText: valueText, effective: effective};
 })(typeof window !== 'undefined' ? window : globalThis);

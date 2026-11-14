@@ -13,8 +13,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 26538,
    "meshopt": {
-    "address": "lib/b7ed4ead2b1339b7.glb",
-    "sha": "b7ed4ead2b1339b7",
+    "address": "lib/cf117521302ce865.glb",
+    "sha": "cf117521302ce865",
     "bytes": 42108,
     "wire": 11013
    }
@@ -26,8 +26,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 26106,
    "meshopt": {
-    "address": "lib/eee84c1a48d800e6.glb",
-    "sha": "eee84c1a48d800e6",
+    "address": "lib/6e361c088c19813b.glb",
+    "sha": "6e361c088c19813b",
     "bytes": 40720,
     "wire": 10821
    }
@@ -39,10 +39,10 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 2104993,
    "meshopt": {
-    "address": "lib/8436d5df4f7f342a.glb",
-    "sha": "8436d5df4f7f342a",
-    "bytes": 440332,
-    "wire": 243107
+    "address": "lib/73d9f863d347a908.glb",
+    "sha": "73d9f863d347a908",
+    "bytes": 440408,
+    "wire": 243218
    }
   },
   "assets/sami_cd9cc4e3b9.glb": {
@@ -52,8 +52,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 2096745,
    "meshopt": {
-    "address": "lib/67d3269817cebdc9.glb",
-    "sha": "67d3269817cebdc9",
+    "address": "lib/98ed5dad2f41f6c2.glb",
+    "sha": "98ed5dad2f41f6c2",
     "bytes": 435608,
     "wire": 239230
    }
@@ -65,8 +65,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 2105443,
    "meshopt": {
-    "address": "lib/4e1ad260a1778e23.glb",
-    "sha": "4e1ad260a1778e23",
+    "address": "lib/50b4e44c869e06db.glb",
+    "sha": "50b4e44c869e06db",
     "bytes": 439412,
     "wire": 241806
    }
@@ -175,35 +175,35 @@
    "id": "furniture_office_set_merged",
    "encodings": {
     "exact": "31775d571dffc5bb",
-    "meshopt": "b7ed4ead2b1339b7"
+    "meshopt": "cf117521302ce865"
    }
   },
   {
    "id": "furniture_office_set_noceil_merged",
    "encodings": {
     "exact": "39e6700c0267ab8c",
-    "meshopt": "eee84c1a48d800e6"
+    "meshopt": "6e361c088c19813b"
    }
   },
   {
    "id": "khaled",
    "encodings": {
     "exact": "5ca94452a6afcbbf",
-    "meshopt": "4e1ad260a1778e23"
+    "meshopt": "50b4e44c869e06db"
    }
   },
   {
    "id": "nour",
    "encodings": {
     "exact": "c7612b96c9b0941f",
-    "meshopt": "8436d5df4f7f342a"
+    "meshopt": "73d9f863d347a908"
    }
   },
   {
    "id": "sami",
    "encodings": {
     "exact": "f2d96d7869e77f3d",
-    "meshopt": "67d3269817cebdc9"
+    "meshopt": "98ed5dad2f41f6c2"
    }
   }
  ]

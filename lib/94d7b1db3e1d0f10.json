@@ -1,0 +1,111 @@
+{
+ "schema": "timeline/1",
+ "duration": 95.237,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 7.08,
+    "en": "This is Part 2, Notice the Instruction. You will notice the imperative and the order of the steps.",
+    "ar": "هذا الجزء الثاني، لاحظ التعليم. ستلاحظ فعل الأمر وترتيب الخطوات."
+   },
+   {
+    "start": 15.166,
+    "dur": 6.384,
+    "en": "Listen to these safety rules. Notice the verbs, and the words that show the order.",
+    "ar": "استمع إلى قواعد الأمان هذه. لاحظ الأفعال، والكلمات التي تُظهر الترتيب."
+   },
+   {
+    "start": 21.9,
+    "dur": 7.512,
+    "en": "First, put on your gloves. Then check the tools. Next, chock the wheels.",
+    "ar": "أوّلاً، ارتدِ قفّازيك. ثمّ افحص العُدّة. بعد ذلك، ضع صادّات العجلات."
+   },
+   {
+    "start": 29.762,
+    "dur": 8.64,
+    "en": "Always use axle stands. Never work under a car on a jack alone. Finally, clean your area.",
+    "ar": "استخدم حوامل المحور دائماً. لا تعمل أبداً تحت سيارة على رافعة وحدها. وأخيراً، نظّف منطقتك."
+   },
+   {
+    "start": 38.752,
+    "dur": 5.112,
+    "en": "Every one of those verbs is an imperative: the base verb, with no subject.",
+    "ar": "كلّ فعل من تلك الأفعال فعل أمر: الفعل الأساسي، بدون فاعل."
+   },
+   {
+    "start": 44.214,
+    "dur": 6.096,
+    "en": "We use it for an order, an instruction, or a rule. Put on your gloves.",
+    "ar": "نستخدمه للأمر أو التعليم أو القاعدة. ارتدِ قفّازيك."
+   },
+   {
+    "start": 50.66,
+    "dur": 5.208,
+    "en": "For a negative, use Don't or Never. Don't touch the hot engine.",
+    "ar": "للنفي، استخدم Don't أو Never. لا تلمس المحرّك الساخن."
+   },
+   {
+    "start": 56.218,
+    "dur": 5.304,
+    "en": "The order words are First, Then, Next, After that, and Finally.",
+    "ar": "كلمات الترتيب هي First و Then و Next و After that و Finally."
+   },
+   {
+    "start": 61.872,
+    "dur": 7.2,
+    "en": "Watch out. You put on gloves is wrong as a rule. Say: put on your gloves.",
+    "ar": "احترس. جملة You put on gloves خطأ كقاعدة. قل: ارتدِ قفّازيك."
+   },
+   {
+    "start": 69.422,
+    "dur": 7.416,
+    "en": "And this one is not a style mistake, it is a danger. First raise the car, then chock is WRONG.",
+    "ar": "وهذه ليست مسألة أسلوب، بل خطر. جملة أوّلاً ارفع السيارة، ثمّ ضع الصادّ خطأ."
+   },
+   {
+    "start": 77.188,
+    "dur": 4.44,
+    "en": "Which comes first: chock the wheels, or raise the car?",
+    "ar": "ما الذي يأتي أوّلاً: وضع صادّات العجلات، أم رفع السيارة؟"
+   },
+   {
+    "start": 87.805,
+    "dur": 5.832,
+    "en": "Chock the wheels first, then raise the car. The safe order matters.",
+    "ar": "ضع صادّات العجلات أوّلاً، ثمّ ارفع السيارة. الترتيب الآمن مهمّ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 21.4,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

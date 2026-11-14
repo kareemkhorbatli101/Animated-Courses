@@ -1,0 +1,216 @@
+{
+ "schema": "timeline/1",
+ "duration": 152.667,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 7.176,
+    "en": "This is Part 7, Induction Steps in Order. You will order the five steps, then role-play.",
+    "ar": "هذا الجزء السابع، خطوات التعريف بالترتيب. ستُرتّب الخطوات الخمس، ثمّ تلعب الدور."
+   },
+   {
+    "start": 15.262,
+    "dur": 7.152,
+    "en": "Put a foreman's induction steps in order. The book gives you step one: give the new worker their PPE.",
+    "ar": "رتّب خطوات التعريف التي يقوم بها رئيس الورشة. الكتاب يعطيك الخطوة الأولى: أعطِ العامل الجديد معدّات وقايته."
+   },
+   {
+    "start": 22.764,
+    "dur": 3.336,
+    "en": "After the PPE, what comes next?",
+    "ar": "بعد معدّات الوقاية، ما التالي؟"
+   },
+   {
+    "start": 30.924,
+    "dur": 2.016,
+    "en": "Show the tool board.",
+    "ar": "أرِه لوحة العُدّة."
+   },
+   {
+    "start": 33.29,
+    "dur": 1.872,
+    "en": "And then?",
+    "ar": "ثمّ؟"
+   },
+   {
+    "start": 39.162,
+    "dur": 3.024,
+    "en": "Explain how to lift a car safely.",
+    "ar": "اشرح كيف ترفع سيارة بأمان."
+   },
+   {
+    "start": 42.536,
+    "dur": 1.872,
+    "en": "Step four?",
+    "ar": "الخطوة الرابعة؟"
+   },
+   {
+    "start": 48.408,
+    "dur": 3.0,
+    "en": "Show where the fire extinguisher is.",
+    "ar": "أرِه أين طفّاية الحريق."
+   },
+   {
+    "start": 51.758,
+    "dur": 2.016,
+    "en": "And the last step?",
+    "ar": "والخطوة الأخيرة؟"
+   },
+   {
+    "start": 57.832,
+    "dur": 2.928,
+    "en": "Say: ask me if you are not sure.",
+    "ar": "قل: اسألني إذا لم تكن متأكّداً."
+   },
+   {
+    "start": 61.11,
+    "dur": 5.568,
+    "en": "Now the role play. One is the foreman; one is the new mechanic.",
+    "ar": "الآن لعب الأدوار. أحدكما رئيس الورشة؛ والآخر الميكانيكي الجديد."
+   },
+   {
+    "start": 67.028,
+    "dur": 9.984,
+    "en": "Card A, the foreman: give the induction in order. PPE, then tools, then lifting a car, then the fire extinguisher, then ask if not sure.",
+    "ar": "البطاقة أ، رئيس الورشة: أعطِ التعريف بالترتيب. معدّات الوقاية، ثمّ العُدّة، ثمّ رفع السيارة، ثمّ طفّاية الحريق، ثمّ اسأل إذا لم تكن متأكّداً."
+   },
+   {
+    "start": 77.362,
+    "dur": 5.664,
+    "en": "Card B, the new mechanic: listen, ask two questions, and repeat the safety rules.",
+    "ar": "البطاقة ب، الميكانيكي الجديد: اسمع، واسأل سؤالين، وأعد قواعد الأمان."
+   },
+   {
+    "start": 83.377,
+    "dur": 2.928,
+    "en": "Listen to the two of them do it first.",
+    "ar": "استمع إليهما يفعلانها أوّلاً."
+   },
+   {
+    "start": 86.655,
+    "dur": 7.752,
+    "en": "Welcome, Tarek. First, this is your PPE. Put it on before you enter the bay.",
+    "ar": "أهلاً يا طارق. أوّلاً، هذه معدّات وقايتك. ارتدِها قبل أن تدخل الموقع."
+   },
+   {
+    "start": 94.757,
+    "dur": 4.512,
+    "en": "Thank you, Ustaz. Where do the tools live?",
+    "ar": "شكراً يا أستاذ. أين مكان العُدّة؟"
+   },
+   {
+    "start": 99.619,
+    "dur": 5.904,
+    "en": "On the board, every one in its place. Then you always know what is missing.",
+    "ar": "على اللوح، كلّ واحدة في مكانها. فتعرف دائماً ما هو الناقص."
+   },
+   {
+    "start": 105.873,
+    "dur": 2.424,
+    "en": "And when a car must go up?",
+    "ar": "وعندما يجب رفع سيارة؟"
+   },
+   {
+    "start": 108.647,
+    "dur": 7.224,
+    "en": "Chock the wheels, raise it slowly, then two axle stands. Never work under a jack alone.",
+    "ar": "ضع الصادّ عند العجلات، وارفعها ببطء، ثمّ حاملَي محور. لا تعمل أبداً تحت رافعة وحدها."
+   },
+   {
+    "start": 116.221,
+    "dur": 4.44,
+    "en": "Understood. And if I am not sure about something?",
+    "ar": "فهمت. وإن لم أكن متأكّداً من شيء؟"
+   },
+   {
+    "start": 121.011,
+    "dur": 4.704,
+    "en": "Then you ask me. That is the most important rule of all.",
+    "ar": "فتسألني. هذه أهمّ قاعدة على الإطلاق."
+   },
+   {
+    "start": 126.065,
+    "dur": 9.576,
+    "en": "A harder one: the new mechanic says the last workshop did not use axle stands. Explain, kindly but firmly, why Cham Motors always does.",
+    "ar": "واحدة أصعب: يقول الميكانيكي الجديد إنّ الورشة السابقة لم تستخدم حوامل المحور. اشرح بلطف وحزم لماذا تستخدمها شام موتورز دائماً."
+   },
+   {
+    "start": 135.991,
+    "dur": 5.688,
+    "en": "Last, you are the foreman. Write a short welcome note to a new mechanic.",
+    "ar": "وأخيراً، أنت رئيس الورشة. اكتب مذكّرة ترحيب قصيرة لميكانيكي جديد."
+   },
+   {
+    "start": 142.029,
+    "dur": 5.064,
+    "en": "Give his first week, the PPE he needs, and one rule he must never break.",
+    "ar": "اذكر أسبوعه الأوّل، ومعدّات الوقاية التي يحتاجها، وقاعدة لا يخرقها أبداً."
+   },
+   {
+    "start": 147.443,
+    "dur": 3.624,
+    "en": "Pause the video, and write fifty to eighty words.",
+    "ar": "أوقف الفيديو، واكتب من خمسين إلى ثمانين كلمة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 21.427,
+    "hold": 9.45,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "tool_cabinet",
+    "label": "tool board",
+    "ar": "لوحة العُدّة",
+    "at": 30.924,
+    "hold": 3.0,
+    "img": "assets/vocab/tool_cabinet.png",
+    "sha": "1ff45d6627d691fa"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 39.162,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "fire_extinguisher",
+    "label": "fire extinguisher",
+    "ar": "طفّاية الحريق",
+    "at": 48.408,
+    "hold": 3.0,
+    "img": "assets/vocab/fire_extinguisher.png",
+    "sha": "6080a1ae532e6412"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

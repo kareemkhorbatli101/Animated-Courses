@@ -1,0 +1,195 @@
+{
+ "schema": "timeline/1",
+ "duration": 156.336,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 7.008,
+    "en": "This is Part 7, the Bay Induction. You will hear what a foreman says, then a full induction.",
+    "ar": "هذا الجزء السابع، التعريف بموقع الصيانة. ستسمع ما يقوله رئيس الورشة، ثمّ تعريفاً كاملاً."
+   },
+   {
+    "start": 15.094,
+    "dur": 6.864,
+    "en": "This part is for the practitioner track. Four things a foreman says, and what each one is for.",
+    "ar": "هذا الجزء للمسار المهني. أربعة أمور يقولها رئيس الورشة، ولماذا يقول كلّ واحد منها."
+   },
+   {
+    "start": 22.308,
+    "dur": 4.392,
+    "en": "Always wear your PPE. What is that for?",
+    "ar": "ارتدِ معدّات الوقاية دائماً. لماذا هذا؟"
+   },
+   {
+    "start": 31.994,
+    "dur": 2.376,
+    "en": "It gives a safety rule.",
+    "ar": "يعطي قاعدة أمان."
+   },
+   {
+    "start": 34.72,
+    "dur": 4.488,
+    "en": "Let me show you where the tools are. What is that for?",
+    "ar": "دعني أريك أين العُدّة. لماذا هذا؟"
+   },
+   {
+    "start": 45.385,
+    "dur": 2.568,
+    "en": "It is showing someone around.",
+    "ar": "إنّه تعريف بالمكان."
+   },
+   {
+    "start": 48.303,
+    "dur": 4.8,
+    "en": "If you are not sure, stop and ask. What is that for?",
+    "ar": "إذا لم تكن متأكّداً، توقّف واسأل. لماذا هذا؟"
+   },
+   {
+    "start": 59.161,
+    "dur": 2.424,
+    "en": "It offers help and support.",
+    "ar": "يقدّم المساعدة والدعم."
+   },
+   {
+    "start": 61.935,
+    "dur": 5.208,
+    "en": "Never work under a car on a jack alone. What is that for?",
+    "ar": "لا تعمل أبداً تحت سيارة على رافعة وحدها. لماذا هذا؟"
+   },
+   {
+    "start": 73.496,
+    "dur": 2.352,
+    "en": "It gives a strong warning.",
+    "ar": "يعطي تحذيراً قويّاً."
+   },
+   {
+    "start": 76.198,
+    "dur": 13.128,
+    "en": "Now the induction. Tarek, today is your bay induction. First, this is your PPE: safety glasses, gloves, and overalls. Always wear them.",
+    "ar": "الآن التعريف. طارق، اليوم تعريفك بموقع الصيانة. أوّلاً، هذه معدّات وقايتك: نظّارات الأمان والقفّازات ولباس العمل. ارتدِها دائماً."
+   },
+   {
+    "start": 89.676,
+    "dur": 2.376,
+    "en": "Yes, Ustaz.",
+    "ar": "نعم، أستاذ."
+   },
+   {
+    "start": 92.402,
+    "dur": 8.16,
+    "en": "Second, this is the tool board. Every tool has a place. After you use a tool, put it back.",
+    "ar": "ثانياً، هذه لوحة العُدّة. لكلّ أداة مكان. بعد أن تستخدم أداة، أعدها."
+   },
+   {
+    "start": 100.912,
+    "dur": 1.776,
+    "en": "OK.",
+    "ar": "حسناً."
+   },
+   {
+    "start": 103.038,
+    "dur": 8.64,
+    "en": "Third, when we lift a car, we chock the wheels, then use axle stands. Never work under a car on a jack alone.",
+    "ar": "ثالثاً، عندما نرفع سيارة، نضع صادّات العجلات، ثمّ نستخدم حوامل المحور. لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 112.028,
+    "dur": 2.016,
+    "en": "I understand.",
+    "ar": "فهمت."
+   },
+   {
+    "start": 114.394,
+    "dur": 6.936,
+    "en": "Good. If you are not sure about anything, stop and ask me. Safety first.",
+    "ar": "جيّد. إذا لم تكن متأكّداً من شيء، توقّف واسألني. الأمان أوّلاً."
+   },
+   {
+    "start": 121.68,
+    "dur": 3.384,
+    "en": "What PPE must Tarek always wear?",
+    "ar": "أيّ معدّات وقاية يجب أن يرتديها طارق دائماً؟"
+   },
+   {
+    "start": 129.947,
+    "dur": 4.056,
+    "en": "Safety glasses, gloves, and overalls.",
+    "ar": "نظّارات الأمان والقفّازات ولباس العمل."
+   },
+   {
+    "start": 134.353,
+    "dur": 2.952,
+    "en": "What must he do after using a tool?",
+    "ar": "ماذا يجب أن يفعل بعد استخدام أداة؟"
+   },
+   {
+    "start": 142.364,
+    "dur": 2.52,
+    "en": "Put it back on the tool board.",
+    "ar": "أن يعيدها إلى لوحة العُدّة."
+   },
+   {
+    "start": 145.234,
+    "dur": 2.112,
+    "en": "What must he never do?",
+    "ar": "ما الذي لا يجب أن يفعله أبداً؟"
+   },
+   {
+    "start": 151.64,
+    "dur": 3.096,
+    "en": "Work under a car on a jack alone.",
+    "ar": "أن يعمل تحت سيارة على رافعة وحدها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 21.383,
+    "hold": 10.56,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 120.143,
+    "hold": 9.75,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "tool_cabinet",
+    "label": "tool board",
+    "ar": "لوحة العُدّة",
+    "at": 142.364,
+    "hold": 3.0,
+    "img": "assets/vocab/tool_cabinet.png",
+    "sha": "1ff45d6627d691fa"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

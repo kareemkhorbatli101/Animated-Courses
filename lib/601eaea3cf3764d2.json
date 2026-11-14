@@ -1,0 +1,149 @@
+{
+ "schema": "timeline/1",
+ "duration": 109.775,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.336,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 7.136,
+    "dur": 8.304,
+    "en": "This is Part 3, At the Parts Store. You will listen to a mechanic and a trainee check the store, then answer questions.",
+    "ar": "هذا الجزء الثالث، في مخزن القطع. ستستمع إلى ميكانيكي ومتدرّب يفحصان المخزن، ثمّ تجيب عن أسئلة."
+   },
+   {
+    "start": 15.79,
+    "dur": 4.728,
+    "en": "Before you listen: what parts does a service department keep in the store?",
+    "ar": "قبل أن تستمع: ما القطع التي يحفظها قسم الخدمة في المخزن؟"
+   },
+   {
+    "start": 20.868,
+    "dur": 3.384,
+    "en": "Tarek, are there any oil filters in the store?",
+    "ar": "طارق، هل هناك أيّ فلاتر زيت في المخزن؟"
+   },
+   {
+    "start": 24.602,
+    "dur": 6.288,
+    "en": "Let me check. There are three oil filters, but there aren't any air filters.",
+    "ar": "دعني أتحقّق. هناك ثلاثة فلاتر زيت، لكن ليس هناك أيّ فلاتر هواء."
+   },
+   {
+    "start": 31.24,
+    "dur": 2.52,
+    "en": "How much coolant is there?",
+    "ar": "كم سائل تبريد هناك؟"
+   },
+   {
+    "start": 34.11,
+    "dur": 3.144,
+    "en": "There isn't much - only one bottle.",
+    "ar": "ليس هناك كثير - عبوة واحدة فقط."
+   },
+   {
+    "start": 37.604,
+    "dur": 4.992,
+    "en": "OK. Please order some air filters and more coolant.",
+    "ar": "حسناً. اطلب بعض فلاتر الهواء والمزيد من سائل التبريد."
+   },
+   {
+    "start": 42.946,
+    "dur": 4.152,
+    "en": "Yes, Ustaz. I'll tell Maher.",
+    "ar": "نعم، أستاذ. سأخبر ماهر."
+   },
+   {
+    "start": 47.448,
+    "dur": 2.568,
+    "en": "How many oil filters are there?",
+    "ar": "كم فلتر زيت هناك؟"
+   },
+   {
+    "start": 54.84,
+    "dur": 1.872,
+    "en": "Three.",
+    "ar": "ثلاثة."
+   },
+   {
+    "start": 57.062,
+    "dur": 2.208,
+    "en": "Are there any air filters?",
+    "ar": "هل هناك أيّ فلاتر هواء؟"
+   },
+   {
+    "start": 63.799,
+    "dur": 2.4,
+    "en": "No, there aren't any.",
+    "ar": "لا، ليس هناك أيّ منها."
+   },
+   {
+    "start": 66.549,
+    "dur": 2.304,
+    "en": "What must Tarek order?",
+    "ar": "ماذا يجب أن يطلب طارق؟"
+   },
+   {
+    "start": 73.147,
+    "dur": 2.688,
+    "en": "Air filters and more coolant.",
+    "ar": "فلاتر هواء والمزيد من سائل التبريد."
+   },
+   {
+    "start": 76.185,
+    "dur": 6.36,
+    "en": "Useful phrases: Are there any? How much? There aren't any.",
+    "ar": "عبارات مفيدة: هل هناك أيّ؟ كم؟ ليس هناك أيّ."
+   },
+   {
+    "start": 82.895,
+    "dur": 6.432,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 89.677,
+    "dur": 4.224,
+    "en": "This is engine oil. We keep it in the store.",
+    "ar": "هذا زيت المحرّك. نحفظه في المخزن."
+   },
+   {
+    "start": 94.251,
+    "dur": 4.584,
+    "en": "This is brake fluid. We keep it in the store too.",
+    "ar": "هذا زيت الفرامل. نحفظه في المخزن أيضاً."
+   },
+   {
+    "start": 99.185,
+    "dur": 4.344,
+    "en": "This is a battery. It is a part we order often.",
+    "ar": "هذه بطارية. قطعة نطلبها كثيراً."
+   },
+   {
+    "start": 103.879,
+    "dur": 4.296,
+    "en": "This is a radiator. It is a bigger part.",
+    "ar": "هذا راديتير. قطعة أكبر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

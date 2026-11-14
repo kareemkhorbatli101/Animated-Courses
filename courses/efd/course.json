@@ -1,7 +1,7 @@
 {
  "schema": "course/1",
  "id": "efd",
- "order": 2,
+ "order": 1,
  "title": {
   "en": "Furniture Design",
   "ar": "تصميم الأثاث"
@@ -39,9 +39,9 @@
    },
    "bytes": 14607885,
    "meshopt": true,
-   "meshoptBytes": 1688009,
+   "meshoptBytes": 1688085,
    "wireBytes": 6614792,
-   "meshoptWireBytes": 1000944,
+   "meshoptWireBytes": 1001055,
    "files": 18,
    "badgePhoto": true,
    "defaults": {

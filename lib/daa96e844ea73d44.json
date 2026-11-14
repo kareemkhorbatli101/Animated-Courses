@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 125.248,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 7.056,
+    "en": "This is Part 2, Grammar Practice. You will choose is or are, then some, any, much or many.",
+    "ar": "هذا الجزء الثاني، تدريب القواعد. ستختار is أو are، ثمّ some أو any أو much أو many."
+   },
+   {
+    "start": 14.11,
+    "dur": 6.024,
+    "en": "Complete with is or are. The book does the first one: there is a battery under the bonnet.",
+    "ar": "أكمل بـ is أو are. الكتاب يحلّ الأولى: هناك بطارية تحت غطاء المحرّك."
+   },
+   {
+    "start": 20.484,
+    "dur": 5.52,
+    "en": "One battery, so it is there is. Count the things first, then choose.",
+    "ar": "بطارية واحدة، فنقول there is. عدّ الأشياء أوّلاً، ثمّ اختر."
+   },
+   {
+    "start": 26.354,
+    "dur": 2.976,
+    "en": "There blank two hoses on the radiator.",
+    "ar": "هناك فراغ خرطومان على الراديتير."
+   },
+   {
+    "start": 34.565,
+    "dur": 4.656,
+    "en": "There are two hoses on the radiator. Two hoses are plural.",
+    "ar": "There are two hoses. خرطومان جمع."
+   },
+   {
+    "start": 39.571,
+    "dur": 2.256,
+    "en": "There blank some oil on the floor.",
+    "ar": "هناك فراغ بعض الزيت على الأرض."
+   },
+   {
+    "start": 46.827,
+    "dur": 3.912,
+    "en": "There is some oil on the floor. Oil is uncountable.",
+    "ar": "There is some oil. الزيت غير معدود."
+   },
+   {
+    "start": 51.089,
+    "dur": 2.64,
+    "en": "There blank four filters in the box.",
+    "ar": "هناك فراغ أربعة فلاتر في الصندوق."
+   },
+   {
+    "start": 58.847,
+    "dur": 2.376,
+    "en": "There are four filters in the box.",
+    "ar": "There are four filters in the box. أربعة فلاتر جمع."
+   },
+   {
+    "start": 61.573,
+    "dur": 2.16,
+    "en": "There blank a leak in the pipe.",
+    "ar": "هناك فراغ تسريب في الأنبوب."
+   },
+   {
+    "start": 68.557,
+    "dur": 3.744,
+    "en": "There is a leak in the pipe. One leak is singular.",
+    "ar": "There is a leak. تسريب واحد مفرد."
+   },
+   {
+    "start": 72.651,
+    "dur": 3.864,
+    "en": "Now choose some, any, much, or many.",
+    "ar": "الآن اختر some أو any أو much أو many."
+   },
+   {
+    "start": 76.865,
+    "dur": 2.496,
+    "en": "Is there blank brake fluid?",
+    "ar": "هل هناك فراغ زيت فرامل؟"
+   },
+   {
+    "start": 83.949,
+    "dur": 4.056,
+    "en": "Any. It is a question, so any.",
+    "ar": "Any. إنّه سؤال، فنستخدم any."
+   },
+   {
+    "start": 88.355,
+    "dur": 2.88,
+    "en": "There aren't blank clean filters.",
+    "ar": "ليس هناك فراغ فلاتر نظيفة."
+   },
+   {
+    "start": 96.176,
+    "dur": 3.624,
+    "en": "Many. Filters are countable.",
+    "ar": "Many. الفلاتر معدودة."
+   },
+   {
+    "start": 100.15,
+    "dur": 2.736,
+    "en": "There isn't blank coolant left.",
+    "ar": "لم يتبقَّ فراغ سائل تبريد."
+   },
+   {
+    "start": 107.71,
+    "dur": 3.816,
+    "en": "Much. Coolant is uncountable.",
+    "ar": "Much. سائل التبريد غير معدود."
+   },
+   {
+    "start": 111.876,
+    "dur": 2.928,
+    "en": "We have blank new spark plugs.",
+    "ar": "لدينا فراغ شمعات إشعال جديدة."
+   },
+   {
+    "start": 119.568,
+    "dur": 4.08,
+    "en": "Some. It is a positive sentence.",
+    "ar": "Some. إنّها جملة مثبتة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 16.46,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 75.79,
+    "hold": 8.11,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

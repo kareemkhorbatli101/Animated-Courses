@@ -1,0 +1,219 @@
+{
+ "schema": "timeline/1",
+ "duration": 104.962,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.336,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 7.136,
+    "dur": 6.72,
+    "en": "This is Part 1, Systems and Fluid Terms. You will name seven parts under the bonnet.",
+    "ar": "هذا الجزء الأوّل، مصطلحات الأنظمة والسوائل. ستسمّي سبعة أجزاء تحت غطاء المحرّك."
+   },
+   {
+    "start": 14.206,
+    "dur": 5.112,
+    "en": "Under the bonnet there are many parts. Let us name seven of them.",
+    "ar": "تحت غطاء المحرّك أجزاء كثيرة. لنسمِّ سبعة منها."
+   },
+   {
+    "start": 19.668,
+    "dur": 5.832,
+    "en": "The book gives you the first one. Engine: the machine that makes the car move.",
+    "ar": "الكتاب يعطيك الأوّل. المحرّك: الآلة التي تجعل السيارة تتحرّك."
+   },
+   {
+    "start": 25.85,
+    "dur": 2.304,
+    "en": "What does the battery do?",
+    "ar": "ماذا تفعل البطارية؟"
+   },
+   {
+    "start": 32.625,
+    "dur": 3.192,
+    "en": "It stores electricity to start the car.",
+    "ar": "تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 36.167,
+    "dur": 2.448,
+    "en": "What does the radiator do?",
+    "ar": "ماذا يفعل الراديتير؟"
+   },
+   {
+    "start": 43.144,
+    "dur": 2.976,
+    "en": "It holds coolant and lets heat escape.",
+    "ar": "يحمل سائل التبريد ويسمح للحرارة بالخروج."
+   },
+   {
+    "start": 46.47,
+    "dur": 2.448,
+    "en": "What does the alternator do?",
+    "ar": "ماذا يفعل الدينامو؟"
+   },
+   {
+    "start": 53.565,
+    "dur": 3.384,
+    "en": "It makes electricity while the engine runs.",
+    "ar": "يولّد الكهرباء أثناء دوران المحرّك."
+   },
+   {
+    "start": 57.299,
+    "dur": 1.872,
+    "en": "What is a belt?",
+    "ar": "ما هو السير؟"
+   },
+   {
+    "start": 63.171,
+    "dur": 3.24,
+    "en": "A rubber loop that turns parts in the engine.",
+    "ar": "حلقة مطّاطية تُدوّر أجزاء في المحرّك."
+   },
+   {
+    "start": 66.761,
+    "dur": 2.016,
+    "en": "What is a hose?",
+    "ar": "ما هو الخرطوم؟"
+   },
+   {
+    "start": 72.777,
+    "dur": 2.832,
+    "en": "A rubber pipe that carries a fluid.",
+    "ar": "أنبوب مطّاطي ينقل سائلاً."
+   },
+   {
+    "start": 75.959,
+    "dur": 2.472,
+    "en": "What do you use a dipstick for?",
+    "ar": "لماذا تستخدم مقياس الزيت؟"
+   },
+   {
+    "start": 83.255,
+    "dur": 2.664,
+    "en": "You use it to check the oil level.",
+    "ar": "تستخدمه لفحص مستوى الزيت."
+   },
+   {
+    "start": 86.269,
+    "dur": 2.424,
+    "en": "What does the air filter do?",
+    "ar": "ماذا يفعل فلتر الهواء؟"
+   },
+   {
+    "start": 93.34,
+    "dur": 3.072,
+    "en": "It cleans the air going into the engine.",
+    "ar": "ينظّف الهواء الداخل إلى المحرّك."
+   },
+   {
+    "start": 96.762,
+    "dur": 6.6,
+    "en": "One meaning was not needed: a tool for turning nuts and bolts. That is a spanner.",
+    "ar": "معنى واحد لم يكن مطلوباً: أداة لفكّ الصواميل والبراغي. ذلك مفتاح الربط."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 34.842,
+    "hold": 8.25,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "alternator",
+    "label": "alternator",
+    "ar": "الدينامو",
+    "at": 45.183,
+    "hold": 8.33,
+    "img": "assets/vocab/alternator.png",
+    "sha": "885941b910ec936e"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 53.565,
+    "hold": 2.3,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "belt",
+    "label": "belt",
+    "ar": "السير",
+    "at": 55.912,
+    "hold": 7.21,
+    "img": "assets/vocab/belt.png",
+    "sha": "00403a758c196774"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 63.171,
+    "hold": 2.55,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "hose",
+    "label": "hose",
+    "ar": "الخرطوم",
+    "at": 65.771,
+    "hold": 6.96,
+    "img": "assets/vocab/hose.png",
+    "sha": "2a1e283c4fbcdee6"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 74.872,
+    "hold": 8.33,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 85.019,
+    "hold": 8.27,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 93.34,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

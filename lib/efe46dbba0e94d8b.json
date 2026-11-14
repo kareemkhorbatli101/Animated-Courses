@@ -1,0 +1,191 @@
+{
+ "schema": "timeline/1",
+ "duration": 158.386,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.6,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.4,
+    "dur": 7.392,
+    "en": "This is Part 3, The Workshop Rules. You will hear all five rules, then match each one with what it says.",
+    "ar": "هذا الجزء الثالث، قواعد الورشة. ستسمع القواعد الخمس، ثمّ تطابق كلّ واحدة مع ما تقوله."
+   },
+   {
+    "start": 15.142,
+    "dur": 4.944,
+    "en": "Before you listen: how many safety rules do you think a workshop needs?",
+    "ar": "قبل أن تستمع: كم قاعدة أمان تعتقد أنّ الورشة تحتاجها؟"
+   },
+   {
+    "start": 20.436,
+    "dur": 5.976,
+    "en": "Welcome to the workshop. We have five simple rules, and everyone follows them.",
+    "ar": "أهلاً بك في الورشة. لدينا خمس قواعد بسيطة، والجميع يتبعها."
+   },
+   {
+    "start": 26.762,
+    "dur": 5.232,
+    "en": "First, always wear your PPE: safety glasses, gloves, and overalls.",
+    "ar": "أوّلاً، ارتدِ معدّات الوقاية دائماً: نظّارات الأمان والقفّازات ولباس العمل."
+   },
+   {
+    "start": 32.344,
+    "dur": 5.28,
+    "en": "Second, keep your area clean and tidy - a tidy workshop is a safe workshop.",
+    "ar": "ثانياً، احفظ منطقتك نظيفة ومرتّبة - الورشة المرتّبة ورشة آمنة."
+   },
+   {
+    "start": 37.974,
+    "dur": 8.088,
+    "en": "Third, when you lift a car, chock the wheels, then use axle stands. Never work under a car on a jack alone.",
+    "ar": "ثالثاً، عندما ترفع سيارة، ضع صادّات العجلات، ثمّ استخدم حوامل المحور. لا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 46.412,
+    "dur": 3.504,
+    "en": "Fourth, if you are not sure, stop and ask.",
+    "ar": "رابعاً، إذا لم تكن متأكّداً، توقّف واسأل."
+   },
+   {
+    "start": 50.266,
+    "dur": 4.2,
+    "en": "Fifth, if you smell fuel or see a problem, tell me at once.",
+    "ar": "خامساً، إذا شممت وقوداً أو رأيت مشكلة، أخبرني فوراً."
+   },
+   {
+    "start": 54.816,
+    "dur": 5.04,
+    "en": "We look after each other here. A safe team is a good team.",
+    "ar": "نحن نعتني ببعضنا هنا. الفريق الآمن فريق جيّد."
+   },
+   {
+    "start": 60.206,
+    "dur": 2.352,
+    "en": "What does Rule 2 say?",
+    "ar": "ماذا تقول القاعدة الثانية؟"
+   },
+   {
+    "start": 66.793,
+    "dur": 2.688,
+    "en": "Keep your area clean and tidy.",
+    "ar": "احفظ منطقتك نظيفة ومرتّبة."
+   },
+   {
+    "start": 69.831,
+    "dur": 2.376,
+    "en": "What does Rule 3 say?",
+    "ar": "ماذا تقول القاعدة الثالثة؟"
+   },
+   {
+    "start": 76.443,
+    "dur": 3.384,
+    "en": "Chock the wheels, then use axle stands.",
+    "ar": "ضع صادّات العجلات، ثمّ استخدم حوامل المحور."
+   },
+   {
+    "start": 80.177,
+    "dur": 2.352,
+    "en": "What does Rule 4 say?",
+    "ar": "ماذا تقول القاعدة الرابعة؟"
+   },
+   {
+    "start": 86.764,
+    "dur": 3.024,
+    "en": "If you are not sure, stop and ask.",
+    "ar": "إذا لم تكن متأكّداً، توقّف واسأل."
+   },
+   {
+    "start": 90.138,
+    "dur": 1.968,
+    "en": "And Rule 5?",
+    "ar": "والقاعدة الخامسة؟"
+   },
+   {
+    "start": 96.106,
+    "dur": 3.048,
+    "en": "If you smell fuel, tell the manager.",
+    "ar": "إذا شممت وقوداً، أخبر المدير."
+   },
+   {
+    "start": 99.504,
+    "dur": 3.144,
+    "en": "And going back - what does Rule 1 say?",
+    "ar": "ونرجع إلى الوراء - ماذا تقول القاعدة الأولى؟"
+   },
+   {
+    "start": 107.883,
+    "dur": 2.496,
+    "en": "Always wear your PPE.",
+    "ar": "ارتدِ معدّات الوقاية دائماً."
+   },
+   {
+    "start": 110.729,
+    "dur": 4.824,
+    "en": "You guessed a number at the start. How many rules were there?",
+    "ar": "خمّنت عدداً في البداية. كم قاعدة كانت؟"
+   },
+   {
+    "start": 122.142,
+    "dur": 4.584,
+    "en": "Five. Five rules, and everyone follows them.",
+    "ar": "خمس. خمس قواعد، والجميع يتبعها."
+   },
+   {
+    "start": 127.076,
+    "dur": 4.032,
+    "en": "Five is enough, because everyone can remember five.",
+    "ar": "خمس تكفي، لأنّ الجميع يستطيع تذكّر خمس."
+   },
+   {
+    "start": 131.458,
+    "dur": 6.264,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 138.072,
+    "dur": 4.464,
+    "en": "This is PPE. Rule one is to wear it.",
+    "ar": "هذه معدّات الوقاية. القاعدة الأولى أن ترتديها."
+   },
+   {
+    "start": 142.886,
+    "dur": 4.464,
+    "en": "These are safety glasses. They are part of it.",
+    "ar": "هذه نظّارات أمان. جزء منها."
+   },
+   {
+    "start": 147.7,
+    "dur": 4.152,
+    "en": "These are gloves. They are part of it too.",
+    "ar": "هذه قفّازات. جزء منها أيضاً."
+   },
+   {
+    "start": 152.202,
+    "dur": 4.584,
+    "en": "This is a wheel chock. Rule three begins with it.",
+    "ar": "هذا صادّ عجلة. القاعدة الثالثة تبدأ به."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

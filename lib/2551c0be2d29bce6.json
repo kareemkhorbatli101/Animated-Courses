@@ -1,0 +1,177 @@
+{
+ "schema": "timeline/1",
+ "duration": 125.914,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.792,
+    "en": "This is Part 2, Grammar Review. You will find the mistake, then choose the safe and correct order.",
+    "ar": "هذا الجزء الثاني، مراجعة القواعد. ستجد الخطأ، ثمّ تختار الترتيب الآمن الصحيح."
+   },
+   {
+    "start": 14.446,
+    "dur": 5.592,
+    "en": "Each sentence has one mistake. Find it, then say the correct sentence.",
+    "ar": "في كلّ جملة خطأ واحد. اعثر عليه، ثمّ قل الجملة الصحيحة."
+   },
+   {
+    "start": 20.388,
+    "dur": 2.448,
+    "en": "You wear your gloves in the workshop.",
+    "ar": "صحّح هذه الجملة: You wear your gloves in the workshop."
+   },
+   {
+    "start": 28.013,
+    "dur": 4.224,
+    "en": "The correct sentence drops the you: wear your gloves in the workshop.",
+    "ar": "الجملة الصحيحة تحذف you: wear your gloves in the workshop."
+   },
+   {
+    "start": 32.587,
+    "dur": 2.04,
+    "en": "Not touch the hot engine.",
+    "ar": "صحّح هذه الجملة: Not touch the hot engine."
+   },
+   {
+    "start": 39.097,
+    "dur": 4.608,
+    "en": "Don't touch the hot engine. A negative imperative needs Don't.",
+    "ar": "Don't touch the hot engine. الأمر المنفي يحتاج Don't."
+   },
+   {
+    "start": 44.055,
+    "dur": 3.144,
+    "en": "First raise the car, then chock the wheels.",
+    "ar": "صحّح هذه الجملة: First raise the car, then chock the wheels."
+   },
+   {
+    "start": 52.729,
+    "dur": 4.92,
+    "en": "First chock the wheels, then raise the car. The safe order matters.",
+    "ar": "First chock the wheels, then raise the car. الترتيب الآمن مهمّ."
+   },
+   {
+    "start": 57.999,
+    "dur": 2.016,
+    "en": "Please to clean your area.",
+    "ar": "صحّح هذه الجملة: Please to clean your area."
+   },
+   {
+    "start": 64.544,
+    "dur": 3.672,
+    "en": "Please clean your area. No to after please.",
+    "ar": "Please clean your area. لا نضع to بعد please."
+   },
+   {
+    "start": 68.566,
+    "dur": 2.712,
+    "en": "Now choose the correct answer.",
+    "ar": "الآن اختر الجواب الصحيح."
+   },
+   {
+    "start": 71.628,
+    "dur": 5.904,
+    "en": "Which is a correct instruction: wear your safety glasses, or you wearing safety glasses?",
+    "ar": "أيّهما تعليم صحيح: wear your safety glasses، أم you wearing safety glasses؟"
+   },
+   {
+    "start": 85.532,
+    "dur": 2.496,
+    "en": "Wear your safety glasses.",
+    "ar": "Wear your safety glasses. وهي الصحيحة."
+   },
+   {
+    "start": 88.378,
+    "dur": 2.688,
+    "en": "Which order is safe and correct?",
+    "ar": "أيّ ترتيب آمن وصحيح؟"
+   },
+   {
+    "start": 95.948,
+    "dur": 3.696,
+    "en": "First chock the wheels, then raise the car.",
+    "ar": "First chock the wheels, then raise the car. وهي الصحيحة."
+   },
+   {
+    "start": 99.994,
+    "dur": 3.84,
+    "en": "Now, write two safety rules for your own bay.",
+    "ar": "الآن، اكتب قاعدتَي أمان لموقعك."
+   },
+   {
+    "start": 104.184,
+    "dur": 4.008,
+    "en": "One with an imperative, and one starting with Never.",
+    "ar": "واحدة بفعل أمر، وواحدة تبدأ بـ Never."
+   },
+   {
+    "start": 108.542,
+    "dur": 3.12,
+    "en": "Pause the video, and write them now.",
+    "ar": "أوقف الفيديو، واكتبهما الآن."
+   },
+   {
+    "start": 112.012,
+    "dur": 7.344,
+    "en": "Here is an example. Put your tools back on the board. Never leave oil on the floor.",
+    "ar": "هذا مثال. أعد عُدّتك إلى اللوح. لا تترك زيتاً على الأرض أبداً."
+   },
+   {
+    "start": 119.706,
+    "dur": 4.608,
+    "en": "You will see imperatives and sequencers again in the Part 5 reading.",
+    "ar": "ستجد أفعال الأمر وكلمات الترتيب مرّة أخرى في قراءة الجزء الخامس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 19.188,
+    "hold": 12.5,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 31.862,
+    "hold": 10.24,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 71.841,
+    "hold": 16.69,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

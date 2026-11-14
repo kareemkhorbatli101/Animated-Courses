@@ -1,0 +1,245 @@
+{
+ "schema": "timeline/1",
+ "duration": 224.537,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 6.336,
+    "en": "This is Part 8, a Global Case Study. You will hear how one store stopped running out.",
+    "ar": "هذا الجزء الثامن، دراسة حالة عالمية. ستسمع كيف توقّف مخزن واحد عن النقص."
+   },
+   {
+    "start": 13.606,
+    "dur": 6.528,
+    "en": "Before you read: what is the problem if a garage has too few parts? What about too many?",
+    "ar": "قبل أن تقرأ: ما المشكلة إذا كانت القطع في الورشة قليلة جدّاً؟ وماذا عن الكثيرة جدّاً؟"
+   },
+   {
+    "start": 20.484,
+    "dur": 3.384,
+    "en": "Stock is the parts a business keeps to use.",
+    "ar": "المخزون هو القطع التي يحفظها العمل للاستخدام."
+   },
+   {
+    "start": 24.218,
+    "dur": 3.456,
+    "en": "To order is to ask a supplier to send more.",
+    "ar": "والطلب هو أن تسأل مورّداً أن يرسل المزيد."
+   },
+   {
+    "start": 28.024,
+    "dur": 3.384,
+    "en": "And a shelf is where parts are kept in the store.",
+    "ar": "والرفّ هو حيث تُحفظ القطع في المخزن."
+   },
+   {
+    "start": 31.758,
+    "dur": 7.944,
+    "en": "A busy service centre once had a problem. Sometimes it had too many parts on the shelf, and sometimes it had none.",
+    "ar": "كان لمركز خدمة مزدحم مشكلة. أحياناً كانت القطع على الرفّ كثيرة جدّاً، وأحياناً لم يكن هناك أيّ منها."
+   },
+   {
+    "start": 40.052,
+    "dur": 6.72,
+    "en": "Mechanics waited, and customers were unhappy. So the manager made a simple system.",
+    "ar": "كان الميكانيكيون ينتظرون، والزبائن غير راضين. لذا وضعت المديرة نظاماً بسيطاً."
+   },
+   {
+    "start": 47.122,
+    "dur": 6.12,
+    "en": "For every part, she wrote down two numbers: how many to keep, and the point where they must order more.",
+    "ar": "لكلّ قطعة، كتبت رقمين: كم تحفظ، والحدّ الذي يجب عنده طلب المزيد."
+   },
+   {
+    "start": 53.592,
+    "dur": 7.392,
+    "en": "When the stock reached that point, the team ordered more at once. They counted the parts they used most every week.",
+    "ar": "عندما يصل المخزون إلى ذلك الحدّ، يطلب الفريق المزيد فوراً. كانوا يعدّون القطع الأكثر استخداماً كلّ أسبوع."
+   },
+   {
+    "start": 61.334,
+    "dur": 8.352,
+    "en": "Soon, the shelves always had enough, but never too much. The mechanics did not wait, and the money was not stuck on the shelf.",
+    "ar": "قريباً، كان على الرفوف ما يكفي دائماً، ولكن ليس أكثر من اللازم. لم ينتظر الميكانيكيون، ولم يبقَ المال عالقاً على الرفّ."
+   },
+   {
+    "start": 70.036,
+    "dur": 9.12,
+    "en": "The manager said: a good store is not a full store. It is a store that always has what you need, and never runs out of the important things.",
+    "ar": "قالت المديرة: المخزن الجيّد ليس المخزن الممتلئ. إنّه المخزن الذي فيه دائماً ما تحتاجه، ولا تنتهي منه الأمور المهمّة."
+   },
+   {
+    "start": 79.506,
+    "dur": 3.696,
+    "en": "What two numbers did the manager write for each part?",
+    "ar": "أيّ رقمين كتبت المديرة لكلّ قطعة؟"
+   },
+   {
+    "start": 89.32,
+    "dur": 3.912,
+    "en": "How many to keep, and the point where they must order more.",
+    "ar": "كم تحفظ، والحدّ الذي يجب عنده طلب المزيد."
+   },
+   {
+    "start": 93.582,
+    "dur": 3.6,
+    "en": "How often did they count the parts they used most?",
+    "ar": "كم مرّة كانوا يعدّون القطع الأكثر استخداماً؟"
+   },
+   {
+    "start": 103.123,
+    "dur": 1.872,
+    "en": "Every week.",
+    "ar": "كلّ أسبوع."
+   },
+   {
+    "start": 105.345,
+    "dur": 3.144,
+    "en": "What did the manager say a good store is?",
+    "ar": "ماذا قالت المديرة عن المخزن الجيّد؟"
+   },
+   {
+    "start": 113.901,
+    "dur": 4.944,
+    "en": "A store that always has what you need and never runs out of the important things.",
+    "ar": "مخزن فيه دائماً ما تحتاجه ولا تنتهي منه الأمور المهمّة."
+   },
+   {
+    "start": 119.195,
+    "dur": 2.112,
+    "en": "What does stock mean?",
+    "ar": "ماذا تعني كلمة المخزون؟"
+   },
+   {
+    "start": 125.542,
+    "dur": 2.808,
+    "en": "The parts a business keeps to use.",
+    "ar": "القطع التي يحفظها العمل للاستخدام."
+   },
+   {
+    "start": 128.7,
+    "dur": 2.256,
+    "en": "And what does shelf mean?",
+    "ar": "وماذا تعني كلمة الرفّ؟"
+   },
+   {
+    "start": 135.427,
+    "dur": 2.784,
+    "en": "Where parts are kept in the store.",
+    "ar": "حيث تُحفظ القطع في المخزن."
+   },
+   {
+    "start": 138.561,
+    "dur": 2.544,
+    "en": "And what does it mean to order?",
+    "ar": "وماذا يعني أن تطلب؟"
+   },
+   {
+    "start": 145.928,
+    "dur": 2.856,
+    "en": "To ask a supplier to send more.",
+    "ar": "أن تسأل مورّداً أن يرسل المزيد."
+   },
+   {
+    "start": 149.134,
+    "dur": 2.904,
+    "en": "One more: what is a supplier?",
+    "ar": "وأخيراً: ما هو المورّد؟"
+   },
+   {
+    "start": 156.744,
+    "dur": 3.408,
+    "en": "The business that sends you the parts you order.",
+    "ar": "العمل الذي يرسل لك القطع التي تطلبها."
+   },
+   {
+    "start": 160.502,
+    "dur": 4.488,
+    "en": "Now talk with a partner. Use these frames.",
+    "ar": "الآن تحدّث مع زميل. استخدم هذه القوالب."
+   },
+   {
+    "start": 165.34,
+    "dur": 6.96,
+    "en": "I think the most important thing is. The reason is. In my garage, we.",
+    "ar": "أعتقد أنّ الأمر الأهمّ هو. والسبب هو. في ورشتي، نحن."
+   },
+   {
+    "start": 172.65,
+    "dur": 3.24,
+    "en": "What is the most important thing in this story?",
+    "ar": "ما الأمر الأهمّ في هذه القصّة؟"
+   },
+   {
+    "start": 181.655,
+    "dur": 3.84,
+    "en": "You can say: knowing the point where you must order more.",
+    "ar": "يمكنك أن تقول: معرفة الحدّ الذي يجب عنده طلب المزيد."
+   },
+   {
+    "start": 185.845,
+    "dur": 5.328,
+    "en": "Your opinion can be different. Say why, and that is enough.",
+    "ar": "رأيك قد يكون مختلفاً. قل لماذا، وهذا يكفي."
+   },
+   {
+    "start": 191.523,
+    "dur": 6.264,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 198.137,
+    "dur": 4.8,
+    "en": "This is an air filter. The store counts it every week.",
+    "ar": "هذا فلتر هواء. المخزن يعدّه كلّ أسبوع."
+   },
+   {
+    "start": 203.287,
+    "dur": 4.2,
+    "en": "This is a belt. The store counts it too.",
+    "ar": "هذا سير. المخزن يعدّه أيضاً."
+   },
+   {
+    "start": 207.837,
+    "dur": 4.776,
+    "en": "This is engine oil. It is never allowed to run out.",
+    "ar": "هذا زيت المحرّك. لا يُسمح أبداً بأن ينتهي."
+   },
+   {
+    "start": 212.963,
+    "dur": 4.848,
+    "en": "This is coolant. It has its own number on the shelf.",
+    "ar": "هذا سائل التبريد. له رقمه الخاصّ على الرفّ."
+   },
+   {
+    "start": 218.161,
+    "dur": 4.776,
+    "en": "And this is a parts order. It goes to the supplier.",
+    "ar": "وهذا طلب قطع. يُرسل إلى المورّد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

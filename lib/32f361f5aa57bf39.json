@@ -1,0 +1,159 @@
+{
+ "schema": "timeline/1",
+ "duration": 119.134,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 6.576,
+    "en": "This is Part 2, Grammar Review. You will find the mistake, then choose the correct sentence.",
+    "ar": "هذا الجزء الثاني، مراجعة القواعد. ستجد الخطأ، ثمّ تختار الجملة الصحيحة."
+   },
+   {
+    "start": 13.63,
+    "dur": 5.592,
+    "en": "Each sentence has one mistake. Find it, then say the correct sentence.",
+    "ar": "في كلّ جملة خطأ واحد. اعثر عليه، ثمّ قل الجملة الصحيحة."
+   },
+   {
+    "start": 19.572,
+    "dur": 2.352,
+    "en": "There is two batteries in the store.",
+    "ar": "صحّح هذه الجملة: There is two batteries in the store."
+   },
+   {
+    "start": 27.042,
+    "dur": 4.344,
+    "en": "There are two batteries in the store. Two batteries are plural.",
+    "ar": "There are two batteries in the store. بطاريتان جمع."
+   },
+   {
+    "start": 31.736,
+    "dur": 1.92,
+    "en": "How much filters are there?",
+    "ar": "صحّح هذه الجملة: How much filters are there?"
+   },
+   {
+    "start": 38.244,
+    "dur": 3.864,
+    "en": "How many filters are there? Filters are countable.",
+    "ar": "How many filters are there? الفلاتر معدودة."
+   },
+   {
+    "start": 42.458,
+    "dur": 2.256,
+    "en": "There are much oil in the engine.",
+    "ar": "صحّح هذه الجملة: There are much oil in the engine."
+   },
+   {
+    "start": 49.655,
+    "dur": 4.104,
+    "en": "There is much oil in the engine. Oil is uncountable.",
+    "ar": "There is much oil in the engine. الزيت غير معدود."
+   },
+   {
+    "start": 54.109,
+    "dur": 2.064,
+    "en": "Is there some brake fluid?",
+    "ar": "صحّح هذه الجملة: Is there some brake fluid?"
+   },
+   {
+    "start": 60.703,
+    "dur": 4.392,
+    "en": "Is there any brake fluid? It is a question, so any.",
+    "ar": "Is there any brake fluid? إنّه سؤال، فنستخدم any."
+   },
+   {
+    "start": 65.445,
+    "dur": 2.832,
+    "en": "Now choose the correct sentence.",
+    "ar": "الآن اختر الجملة الصحيحة."
+   },
+   {
+    "start": 68.627,
+    "dur": 3.936,
+    "en": "There are three filters, or there is three filters?",
+    "ar": "There are three filters، أم there is three filters؟"
+   },
+   {
+    "start": 78.563,
+    "dur": 2.448,
+    "en": "There are three filters.",
+    "ar": "There are three filters. هذه هي الصحيحة."
+   },
+   {
+    "start": 81.361,
+    "dur": 3.768,
+    "en": "There are many hoses, or there is many hoses?",
+    "ar": "There are many hoses، أم there is many hoses؟"
+   },
+   {
+    "start": 90.776,
+    "dur": 2.352,
+    "en": "There are many hoses.",
+    "ar": "There are many hoses. هذه هي الصحيحة."
+   },
+   {
+    "start": 93.478,
+    "dur": 4.032,
+    "en": "Now, write two sentences about your own workshop.",
+    "ar": "الآن، اكتب جملتين عن ورشتك."
+   },
+   {
+    "start": 97.86,
+    "dur": 3.552,
+    "en": "One with there is, and one with there are.",
+    "ar": "واحدة مع there is، وواحدة مع there are."
+   },
+   {
+    "start": 101.762,
+    "dur": 3.12,
+    "en": "Pause the video, and write them now.",
+    "ar": "أوقف الفيديو، واكتبهما الآن."
+   },
+   {
+    "start": 105.232,
+    "dur": 7.488,
+    "en": "Here is an example. There is some oil on the bench. There are three filters in the box.",
+    "ar": "هذا مثال. هناك بعض الزيت على الطاولة. هناك ثلاثة فلاتر في الصندوق."
+   },
+   {
+    "start": 113.07,
+    "dur": 4.464,
+    "en": "You will see these again in the Part 5 reading. Watch for them.",
+    "ar": "ستراها مرّة أخرى في قراءة الجزء الخامس. راقبها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 52.959,
+    "hold": 10.74,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

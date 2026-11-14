@@ -1,7 +1,7 @@
 {
  "schema": "course/1",
  "id": "tours",
- "order": 3,
+ "order": 2,
  "title": {
   "en": "Workshop Tours",
   "ar": "جولات في الورشة"
@@ -39,9 +39,9 @@
    },
    "bytes": 10737054,
    "meshopt": true,
-   "meshoptBytes": 1351206,
+   "meshoptBytes": 1350998,
    "wireBytes": 4626113,
-   "meshoptWireBytes": 813718,
+   "meshoptWireBytes": 813582,
    "files": 17,
    "badgePhoto": true,
    "defaults": {

@@ -13,8 +13,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 69071,
    "meshopt": {
-    "address": "lib/add338ac283b8629.glb",
-    "sha": "add338ac283b8629",
+    "address": "lib/31e0957574189b01.glb",
+    "sha": "31e0957574189b01",
     "bytes": 86856,
     "wire": 21854
    }
@@ -26,8 +26,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 68664,
    "meshopt": {
-    "address": "lib/69dc2ef22d03e67d.glb",
-    "sha": "69dc2ef22d03e67d",
+    "address": "lib/387728b5cd9ba702.glb",
+    "sha": "387728b5cd9ba702",
     "bytes": 85624,
     "wire": 21564
    }
@@ -39,8 +39,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 1915726,
    "meshopt": {
-    "address": "lib/5646c9f53f438765.glb",
-    "sha": "5646c9f53f438765",
+    "address": "lib/fc57b673049e291b.glb",
+    "sha": "fc57b673049e291b",
     "bytes": 411016,
     "wire": 281872
    }
@@ -52,10 +52,10 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 1922538,
    "meshopt": {
-    "address": "lib/565314bcf5803cac.glb",
-    "sha": "565314bcf5803cac",
-    "bytes": 415516,
-    "wire": 285433
+    "address": "lib/de071634c4a180ce.glb",
+    "sha": "de071634c4a180ce",
+    "bytes": 415364,
+    "wire": 285615
    }
   },
   "lines/019bd1eddcdd512f.mp3": {
@@ -302,28 +302,28 @@
    "id": "maher",
    "encodings": {
     "exact": "7fb58e12c7e299a6",
-    "meshopt": "5646c9f53f438765"
+    "meshopt": "fc57b673049e291b"
    }
   },
   {
    "id": "tarek",
    "encodings": {
     "exact": "d0244c8b9382cde4",
-    "meshopt": "565314bcf5803cac"
+    "meshopt": "de071634c4a180ce"
    }
   },
   {
    "id": "workshop_set_merged",
    "encodings": {
     "exact": "fd1feebbdc97e092",
-    "meshopt": "add338ac283b8629"
+    "meshopt": "31e0957574189b01"
    }
   },
   {
    "id": "workshop_set_noceil_merged",
    "encodings": {
     "exact": "1199632333751ac5",
-    "meshopt": "69dc2ef22d03e67d"
+    "meshopt": "387728b5cd9ba702"
    }
   }
  ]

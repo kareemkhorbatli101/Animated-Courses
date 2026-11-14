@@ -1,0 +1,117 @@
+{
+ "schema": "timeline/1",
+ "duration": 79.371,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 5.544,
+    "en": "This is Part 2, Notice the Quantity. You will notice there is and there are.",
+    "ar": "هذا الجزء الثاني، لاحظ الكمّية. ستلاحظ there is و there are."
+   },
+   {
+    "start": 12.598,
+    "dur": 4.608,
+    "en": "Listen to these lines from the workshop, and notice there is and there are.",
+    "ar": "استمع إلى هذه الجمل من الورشة، ولاحظ there is و there are."
+   },
+   {
+    "start": 17.556,
+    "dur": 4.728,
+    "en": "There is a battery under the bonnet. There are two filters in the box.",
+    "ar": "هناك بطارية تحت غطاء المحرّك. هناك فلتران في الصندوق."
+   },
+   {
+    "start": 22.634,
+    "dur": 3.192,
+    "en": "There is some oil, but there isn't much coolant.",
+    "ar": "هناك بعض الزيت، لكن ليس هناك كثير من سائل التبريد."
+   },
+   {
+    "start": 26.176,
+    "dur": 4.056,
+    "en": "Are there any clean filters? How many hoses are there?",
+    "ar": "هل هناك أيّ فلاتر نظيفة؟ كم خرطوماً هناك؟"
+   },
+   {
+    "start": 30.582,
+    "dur": 5.256,
+    "en": "There is goes with one thing, or with a fluid. There are goes with more than one.",
+    "ar": "نستخدم there is مع شيء واحد أو مع سائل. ونستخدم there are مع أكثر من واحد."
+   },
+   {
+    "start": 36.188,
+    "dur": 5.976,
+    "en": "Some is for positive sentences. Any is for questions and negative sentences.",
+    "ar": "نستخدم some في الجمل المثبتة. ونستخدم any في الأسئلة والجمل المنفية."
+   },
+   {
+    "start": 42.514,
+    "dur": 4.032,
+    "en": "Much is for uncountable nouns, like oil and coolant.",
+    "ar": "نستخدم much مع الأسماء غير المعدودة، مثل الزيت وسائل التبريد."
+   },
+   {
+    "start": 46.896,
+    "dur": 4.104,
+    "en": "Many is for countable nouns, like filters and hoses.",
+    "ar": "نستخدم many مع الأسماء المعدودة، مثل الفلاتر والخراطيم."
+   },
+   {
+    "start": 51.35,
+    "dur": 3.624,
+    "en": "Oil or filters: which one takes much?",
+    "ar": "الزيت أم الفلاتر: أيّهما يأخذ much؟"
+   },
+   {
+    "start": 60.151,
+    "dur": 4.944,
+    "en": "Oil. Oil is uncountable, so it takes much.",
+    "ar": "الزيت. الزيت غير معدود، فيأخذ much."
+   },
+   {
+    "start": 65.445,
+    "dur": 6.456,
+    "en": "Watch out. There are much oil is wrong. Oil is uncountable, so there is much oil.",
+    "ar": "احترس. جملة There are much oil خطأ. الزيت غير معدود، فنقول There is much oil."
+   },
+   {
+    "start": 72.251,
+    "dur": 5.52,
+    "en": "And how much filters is wrong. Filters are countable, so how many filters.",
+    "ar": "وجملة how much filters خطأ. الفلاتر معدودة، فنقول how many filters."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 22.922,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

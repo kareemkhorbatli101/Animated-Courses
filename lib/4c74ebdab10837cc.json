@@ -1,0 +1,276 @@
+{
+ "schema": "timeline/1",
+ "duration": 147.847,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 5.88,
+    "en": "This is the Warm Up. You will meet the systems and fluids under the bonnet.",
+    "ar": "هذا هو التمهيد. ستتعرّف على الأنظمة والسوائل تحت غطاء المحرّك."
+   },
+   {
+    "start": 13.15,
+    "dur": 5.016,
+    "en": "Welcome back to Cham Motors. Today we open the bonnet.",
+    "ar": "أهلاً بعودتك إلى شام موتورز. اليوم نفتح غطاء المحرّك."
+   },
+   {
+    "start": 18.516,
+    "dur": 5.4,
+    "en": "You will learn ten words. Look at each thing before I say its name.",
+    "ar": "ستتعلّم عشر كلمات. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 24.266,
+    "dur": 5.544,
+    "en": "This is the battery. It stores electricity to start the car.",
+    "ar": "هذه البطارية. تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 30.16,
+    "dur": 5.424,
+    "en": "This is the radiator. It holds the coolant and lets heat escape.",
+    "ar": "هذا الراديتير. يحمل سائل التبريد ويسمح للحرارة بالخروج."
+   },
+   {
+    "start": 35.934,
+    "dur": 5.712,
+    "en": "This is the alternator. It makes electricity while the engine runs.",
+    "ar": "هذا الدينامو. يولّد الكهرباء أثناء دوران المحرّك."
+   },
+   {
+    "start": 41.996,
+    "dur": 5.376,
+    "en": "This is a belt. It is a rubber loop that turns parts in the engine.",
+    "ar": "هذا سير. حلقة مطّاطية تُدوّر أجزاء في المحرّك."
+   },
+   {
+    "start": 47.722,
+    "dur": 5.136,
+    "en": "This is a hose. It is a rubber pipe that carries a fluid.",
+    "ar": "هذا خرطوم. أنبوب مطّاطي ينقل سائلاً."
+   },
+   {
+    "start": 53.208,
+    "dur": 5.376,
+    "en": "This is engine oil. It keeps the engine parts moving smoothly.",
+    "ar": "هذا زيت المحرّك. يحافظ على حركة أجزاء المحرّك بسلاسة."
+   },
+   {
+    "start": 58.934,
+    "dur": 5.016,
+    "en": "This is coolant. It stops the engine getting too hot.",
+    "ar": "هذا سائل التبريد. يمنع المحرّك من السخونة الشديدة."
+   },
+   {
+    "start": 64.3,
+    "dur": 4.488,
+    "en": "This is brake fluid. It makes the brakes work.",
+    "ar": "هذا زيت الفرامل. يجعل الفرامل تعمل."
+   },
+   {
+    "start": 69.138,
+    "dur": 5.328,
+    "en": "This is the air filter. It cleans the air going into the engine.",
+    "ar": "هذا فلتر الهواء. ينظّف الهواء الداخل إلى المحرّك."
+   },
+   {
+    "start": 74.816,
+    "dur": 4.944,
+    "en": "This is the dipstick. You use it to check the oil level.",
+    "ar": "هذا مقياس الزيت. تستخدمه لفحص مستوى الزيت."
+   },
+   {
+    "start": 80.11,
+    "dur": 4.992,
+    "en": "Now three questions from the book. Think before you answer.",
+    "ar": "الآن ثلاثة أسئلة من الكتاب. فكّر قبل أن تجيب."
+   },
+   {
+    "start": 85.452,
+    "dur": 4.944,
+    "en": "Check the blank level with the dipstick. Which word is missing?",
+    "ar": "افحص مستوى الفراغ بمقياس الزيت. ما الكلمة الناقصة؟"
+   },
+   {
+    "start": 97.102,
+    "dur": 4.32,
+    "en": "Oil. Check the oil level with the dipstick.",
+    "ar": "الزيت. افحص مستوى الزيت بمقياس الزيت."
+   },
+   {
+    "start": 101.772,
+    "dur": 5.784,
+    "en": "The car will not start; maybe the blank is flat. Which word is missing?",
+    "ar": "السيارة لا تعمل؛ ربّما الفراغ فارغ. ما الكلمة الناقصة؟"
+   },
+   {
+    "start": 114.733,
+    "dur": 4.248,
+    "en": "The battery. Maybe the battery is flat.",
+    "ar": "البطارية. ربّما البطارية فارغة."
+   },
+   {
+    "start": 119.331,
+    "dur": 3.096,
+    "en": "What does the mechanic check every service?",
+    "ar": "ما الذي يفحصه الميكانيكي في كلّ صيانة؟"
+   },
+   {
+    "start": 127.956,
+    "dur": 2.088,
+    "en": "The fluid levels.",
+    "ar": "مستويات السوائل."
+   },
+   {
+    "start": 130.394,
+    "dur": 2.784,
+    "en": "What can happen if there isn't enough oil?",
+    "ar": "ماذا يمكن أن يحدث إذا لم يكن هناك زيت كافٍ؟"
+   },
+   {
+    "start": 138.649,
+    "dur": 2.4,
+    "en": "The engine can be damaged.",
+    "ar": "يمكن أن يتعرّض المحرّك للتلف."
+   },
+   {
+    "start": 141.399,
+    "dur": 4.848,
+    "en": "Good. A good mechanic always checks the fluids first.",
+    "ar": "جيّد. الميكانيكي الجيّد يفحص السوائل أوّلاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 23.129,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 29.01,
+    "hold": 2.5,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 31.56,
+    "hold": 2.72,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "alternator",
+    "label": "alternator",
+    "ar": "الدينامو",
+    "at": 34.784,
+    "hold": 3.0,
+    "img": "assets/vocab/alternator.png",
+    "sha": "885941b910ec936e"
+   },
+   {
+    "lemma": "belt",
+    "label": "belt",
+    "ar": "السير",
+    "at": 40.746,
+    "hold": 3.0,
+    "img": "assets/vocab/belt.png",
+    "sha": "00403a758c196774"
+   },
+   {
+    "lemma": "hose",
+    "label": "hose",
+    "ar": "الخرطوم",
+    "at": 46.46,
+    "hold": 3.0,
+    "img": "assets/vocab/hose.png",
+    "sha": "2a1e283c4fbcdee6"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 51.871,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 62.938,
+    "hold": 3.0,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 67.963,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 73.704,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 85.04,
+    "hold": 16.06,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 114.733,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

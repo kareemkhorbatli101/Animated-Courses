@@ -1,7 +1,15 @@
 {
  "schema": "custom_values/1",
- "version": "1.0",
- "note": "The value vocabulary of the customisation contract (package web_os_live_player v5, 07 §3). A placeholder or a value key not listed here is an authoring error (engine/customize.py) and is ignored at run time. Adding a customisation = one row here + a slot in a spec.",
+ "version": "1.1",
+ "note": "The value vocabulary of the customisation contract (package web_os_live_player v5, 07 §3). A placeholder or a value key not listed here is an authoring error (engine/customize.py) and is ignored at run time. Adding a customisation = one row here + a slot in a spec. v29.0 (package alhasan_u1_videos v2, 06 §3): each row may declare its `type` (text - the old `string` is its alias -, colour, image, number, list, choice), `bilingual` (an English and an Arabic text), `setBy` (\"course\": only a course value set, courses/<id>/values.xml, may give it; absent = the host, as every v1.0 row), `aliases` (old names that still resolve), and for a list its `items` and `maxItems`, for a choice its `choices`. Every v1.0 row is unchanged.",
+ "types": [
+  "text",
+  "colour",
+  "image",
+  "number",
+  "list",
+  "choice"
+ ],
  "values": {
   "user.userId": {
    "type": "string",
@@ -27,6 +35,347 @@
    "max": 80,
    "privacy": "public",
    "source": "a hosting organisation (test fixture custom_probe uses it)"
+  },
+  "company.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 60,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.shortName": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.logo": {
+   "type": "image",
+   "maxPx": 2048,
+   "format": "png",
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "a PNG inside courses/<course>/"
+  },
+  "company.colour.primary": {
+   "type": "colour",
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.colour.accent": {
+   "type": "colour",
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.colour.ground": {
+   "type": "colour",
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.colour.second": {
+   "type": "colour",
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.sectors": {
+   "type": "list",
+   "items": {
+    "type": "text",
+    "bilingual": true,
+    "max": 24
+   },
+   "maxItems": 8,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.sectorIcons": {
+   "type": "list",
+   "items": {
+    "type": "choice",
+    "choices": [
+     "factory",
+     "crates",
+     "energy",
+     "beam",
+     "landmark",
+     "service",
+     "truck",
+     "ship",
+     "office",
+     "leaf"
+    ]
+   },
+   "maxItems": 8,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.departments": {
+   "type": "list",
+   "items": {
+    "type": "text",
+    "bilingual": true,
+    "max": 24
+   },
+   "maxItems": 6,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.companies": {
+   "type": "list",
+   "items": {
+    "type": "text",
+    "bilingual": true,
+    "max": 24
+   },
+   "maxItems": 8,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.motto": {
+   "type": "text",
+   "bilingual": true,
+   "max": 60,
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "company.services": {
+   "type": "list",
+   "items": {
+    "type": "text",
+    "bilingual": true,
+    "max": 24
+   },
+   "maxItems": 8,
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.agent.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.agent.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.editor.name": {"type": "text", "bilingual": true, "max": 30, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.editor.title": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.reporter.name": {"type": "text", "bilingual": true, "max": 30, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.reporter.title": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.factchecker.name": {"type": "text", "bilingual": true, "max": 30, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.factchecker.title": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.digital.name": {"type": "text", "bilingual": true, "max": 30, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.digital.title": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.photo.name": {"type": "text", "bilingual": true, "max": 30, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.photo.title": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "story.headline": {"type": "text", "bilingual": true, "max": 60, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "place.name": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "place.stall": {"type": "text", "bilingual": true, "max": 40, "optional": true, "privacy": "public",
+   "setBy": "course", "source": "courses/<course>/values.xml"},
+  "people.enterprise.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.enterprise.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "optional": true,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.founder.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.founder.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.board.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.board.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.gm.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.gm.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.fc.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.fc.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.fm.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.fm.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.accountant.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.accountant.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.admin.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 30,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "people.admin.title": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "product.cement.label": {
+   "type": "text",
+   "bilingual": true,
+   "max": 24,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "product.iron.label": {
+   "type": "text",
+   "bilingual": true,
+   "max": 24,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "product.steel.label": {
+   "type": "text",
+   "bilingual": true,
+   "max": 24,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "partner.name": {
+   "type": "text",
+   "bilingual": true,
+   "max": 40,
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
+  },
+  "partner.colour": {
+   "type": "colour",
+   "privacy": "public",
+   "setBy": "course",
+   "source": "courses/<course>/values.xml"
   }
  },
  "reserved": [

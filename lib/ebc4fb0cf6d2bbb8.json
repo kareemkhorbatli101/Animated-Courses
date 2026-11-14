@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 126.05,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.336,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 7.136,
+    "dur": 8.496,
+    "en": "This is Part 3, Checking the Fluids. You will listen to a mechanic check all four fluids, then answer true or false.",
+    "ar": "هذا الجزء الثالث، فحص السوائل. ستستمع إلى ميكانيكي يفحص السوائل الأربعة، ثمّ تجيب بصحيح أو خطأ."
+   },
+   {
+    "start": 15.982,
+    "dur": 4.416,
+    "en": "Before you listen: which fluid does a mechanic check first?",
+    "ar": "قبل أن تستمع: أيّ سائل يفحصه الميكانيكي أوّلاً؟"
+   },
+   {
+    "start": 20.748,
+    "dur": 6.288,
+    "en": "Right, let's check the fluids. First, I check the engine oil with the dipstick.",
+    "ar": "حسناً، لنفحص السوائل. أوّلاً، أفحص زيت المحرّك بمقياس الزيت."
+   },
+   {
+    "start": 27.386,
+    "dur": 6.72,
+    "en": "There is enough oil, good. Now the coolant - there isn't much coolant, so I'll top it up.",
+    "ar": "هناك زيت كافٍ، جيّد. الآن سائل التبريد - ليس هناك كثير منه، لذا سأضيف إليه."
+   },
+   {
+    "start": 34.456,
+    "dur": 4.872,
+    "en": "Is there any brake fluid? Yes, the level is fine.",
+    "ar": "هل هناك زيت فرامل؟ نعم، المستوى جيّد."
+   },
+   {
+    "start": 39.678,
+    "dur": 4.2,
+    "en": "Finally, the washer fluid is low, so I'll add some.",
+    "ar": "أخيراً، سائل غسل الزجاج منخفض، لذا سأضيف بعضه."
+   },
+   {
+    "start": 44.228,
+    "dur": 3.216,
+    "en": "Always check the fluids at every service.",
+    "ar": "افحص السوائل دائماً في كلّ صيانة."
+   },
+   {
+    "start": 47.794,
+    "dur": 3.816,
+    "en": "Now write True, False, or Not Given.",
+    "ar": "الآن اكتب صحيح أو خطأ أو غير مذكور."
+   },
+   {
+    "start": 51.96,
+    "dur": 2.544,
+    "en": "There is enough engine oil.",
+    "ar": "هناك زيت محرّك كافٍ."
+   },
+   {
+    "start": 59.092,
+    "dur": 3.912,
+    "en": "True. He said there is enough oil.",
+    "ar": "صحيح. قال إنّ هناك زيتاً كافياً."
+   },
+   {
+    "start": 63.354,
+    "dur": 2.352,
+    "en": "There is a lot of coolant.",
+    "ar": "هناك كثير من سائل التبريد."
+   },
+   {
+    "start": 70.236,
+    "dur": 3.864,
+    "en": "False. There isn't much coolant.",
+    "ar": "خطأ. ليس هناك كثير من سائل التبريد."
+   },
+   {
+    "start": 74.45,
+    "dur": 2.544,
+    "en": "The washer fluid is full.",
+    "ar": "سائل غسل الزجاج ممتلئ."
+   },
+   {
+    "start": 81.464,
+    "dur": 4.656,
+    "en": "False. It is low, so he will add some.",
+    "ar": "خطأ. إنّه منخفض، لذا سيضيف بعضه."
+   },
+   {
+    "start": 86.47,
+    "dur": 8.016,
+    "en": "Useful phrases: First, I check. There is, or there isn't much. I'll top it up.",
+    "ar": "عبارات مفيدة: أوّلاً أفحص. هناك، أو ليس هناك كثير. سأضيف إليه."
+   },
+   {
+    "start": 94.836,
+    "dur": 6.432,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 101.618,
+    "dur": 4.32,
+    "en": "This is the dipstick. It shows the oil level.",
+    "ar": "هذا مقياس الزيت. يُظهر مستوى الزيت."
+   },
+   {
+    "start": 106.288,
+    "dur": 4.56,
+    "en": "This is the radiator. It lets the heat escape.",
+    "ar": "هذا الراديتير. يسمح للحرارة بالخروج."
+   },
+   {
+    "start": 111.198,
+    "dur": 4.272,
+    "en": "This is the alternator. It makes electricity.",
+    "ar": "هذا الدينامو. يولّد الكهرباء."
+   },
+   {
+    "start": 115.82,
+    "dur": 4.296,
+    "en": "This is a belt. It turns parts in the engine.",
+    "ar": "هذا سير. يُدوّر أجزاء في المحرّك."
+   },
+   {
+    "start": 120.466,
+    "dur": 3.984,
+    "en": "This is a hose. It carries a fluid.",
+    "ar": "هذا خرطوم. ينقل سائلاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 22.886,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 28.449,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 50.835,
+    "hold": 8.21,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 62.342,
+    "hold": 11.41,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

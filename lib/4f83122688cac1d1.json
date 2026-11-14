@@ -1,0 +1,336 @@
+{
+ "schema": "timeline/1",
+ "duration": 166.695,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.336,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 7.136,
+    "dur": 6.336,
+    "en": "This is Part 1, Check What You Know. You will match the fluids and answer questions.",
+    "ar": "هذا الجزء الأوّل، تحقّق ممّا تعرفه. ستطابق السوائل وتجيب عن أسئلة."
+   },
+   {
+    "start": 13.822,
+    "dur": 5.4,
+    "en": "Now check what you know. Five fluids, and what each one does.",
+    "ar": "الآن تحقّق ممّا تعرفه. خمسة سوائل، وماذا يفعل كلّ واحد."
+   },
+   {
+    "start": 19.572,
+    "dur": 2.256,
+    "en": "What does engine oil do?",
+    "ar": "ماذا يفعل زيت المحرّك؟"
+   },
+   {
+    "start": 26.24,
+    "dur": 3.312,
+    "en": "It keeps the engine parts moving smoothly.",
+    "ar": "يحافظ على حركة أجزاء المحرّك بسلاسة."
+   },
+   {
+    "start": 29.902,
+    "dur": 2.064,
+    "en": "What does coolant do?",
+    "ar": "ماذا يفعل سائل التبريد؟"
+   },
+   {
+    "start": 36.201,
+    "dur": 3.096,
+    "en": "It stops the engine getting too hot.",
+    "ar": "يمنع المحرّك من السخونة الشديدة."
+   },
+   {
+    "start": 39.647,
+    "dur": 2.448,
+    "en": "What does brake fluid do?",
+    "ar": "ماذا يفعل زيت الفرامل؟"
+   },
+   {
+    "start": 46.566,
+    "dur": 2.352,
+    "en": "It makes the brakes work.",
+    "ar": "يجعل الفرامل تعمل."
+   },
+   {
+    "start": 49.268,
+    "dur": 2.472,
+    "en": "What does washer fluid do?",
+    "ar": "ماذا يفعل سائل غسل الزجاج؟"
+   },
+   {
+    "start": 56.269,
+    "dur": 2.376,
+    "en": "It cleans the windscreen.",
+    "ar": "ينظّف الزجاج الأمامي."
+   },
+   {
+    "start": 58.995,
+    "dur": 2.688,
+    "en": "What does the engine do with fuel?",
+    "ar": "ماذا يفعل المحرّك بالوقود؟"
+   },
+   {
+    "start": 66.683,
+    "dur": 2.808,
+    "en": "The engine burns it to make power.",
+    "ar": "يحرقه المحرّك لتوليد القدرة."
+   },
+   {
+    "start": 69.841,
+    "dur": 6.144,
+    "en": "What does the alternator do: makes electricity, cools the engine, or cleans the oil?",
+    "ar": "ماذا يفعل الدينامو: يولّد الكهرباء، أم يبرّد المحرّك، أم ينظّف الزيت؟"
+   },
+   {
+    "start": 83.926,
+    "dur": 3.432,
+    "en": "It makes electricity while the engine runs.",
+    "ar": "يولّد الكهرباء أثناء دوران المحرّك."
+   },
+   {
+    "start": 87.708,
+    "dur": 2.568,
+    "en": "What do you use a dipstick for?",
+    "ar": "لماذا تستخدم مقياس الزيت؟"
+   },
+   {
+    "start": 95.1,
+    "dur": 2.376,
+    "en": "To check the oil level.",
+    "ar": "لفحص مستوى الزيت."
+   },
+   {
+    "start": 97.826,
+    "dur": 2.256,
+    "en": "And what does coolant do?",
+    "ar": "وماذا يفعل سائل التبريد؟"
+   },
+   {
+    "start": 104.553,
+    "dur": 3.048,
+    "en": "It stops the engine getting too hot.",
+    "ar": "يمنع المحرّك من السخونة الشديدة."
+   },
+   {
+    "start": 107.951,
+    "dur": 6.816,
+    "en": "Last, four sentences. Choose oil, coolant, filter, or battery.",
+    "ar": "أخيراً، أربع جمل. اختر الزيت أو سائل التبريد أو الفلتر أو البطارية."
+   },
+   {
+    "start": 115.117,
+    "dur": 2.88,
+    "en": "Check the engine blank with the dipstick.",
+    "ar": "افحص فراغ المحرّك بمقياس الزيت."
+   },
+   {
+    "start": 123.408,
+    "dur": 4.152,
+    "en": "Oil. Check the engine oil with the dipstick.",
+    "ar": "الزيت. افحص زيت المحرّك بمقياس الزيت."
+   },
+   {
+    "start": 127.91,
+    "dur": 2.688,
+    "en": "The blank keeps the engine cool.",
+    "ar": "الفراغ يبقي المحرّك بارداً."
+   },
+   {
+    "start": 135.481,
+    "dur": 2.76,
+    "en": "The coolant keeps the engine cool.",
+    "ar": "سائل التبريد يبقي المحرّك بارداً."
+   },
+   {
+    "start": 138.591,
+    "dur": 3.696,
+    "en": "The air blank cleans the air going into the engine.",
+    "ar": "فراغ الهواء ينظّف الهواء الداخل إلى المحرّك."
+   },
+   {
+    "start": 148.287,
+    "dur": 3.72,
+    "en": "The air filter cleans the air going into the engine.",
+    "ar": "فلتر الهواء ينظّف الهواء الداخل إلى المحرّك."
+   },
+   {
+    "start": 152.357,
+    "dur": 3.48,
+    "en": "The blank stores electricity to start the car.",
+    "ar": "الفراغ يخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 161.543,
+    "dur": 3.552,
+    "en": "The battery stores electricity to start the car.",
+    "ar": "البطارية تخزّن الكهرباء لتشغيل السيارة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 18.147,
+    "hold": 10.29,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 28.489,
+    "hold": 7.66,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 36.201,
+    "hold": 2.01,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 38.26,
+    "hold": 8.26,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 57.733,
+    "hold": 11.95,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 71.429,
+    "hold": 15.2,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 86.683,
+    "hold": 8.37,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 96.626,
+    "hold": 7.88,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 104.553,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 109.751,
+    "hold": 2.5,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 112.301,
+    "hold": 1.65,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 114.001,
+    "hold": 12.42,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 127.098,
+    "hold": 8.33,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 135.481,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 139.091,
+    "hold": 12.72,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 161.543,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

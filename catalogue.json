@@ -14,18 +14,13 @@
    "dir": "courses/eam-b1"
   },
   {
-   "id": "eam",
-   "order": 1,
-   "dir": "courses/eam"
-  },
-  {
    "id": "efd",
-   "order": 2,
+   "order": 1,
    "dir": "courses/efd"
   },
   {
    "id": "tours",
-   "order": 3,
+   "order": 2,
    "dir": "courses/tours"
   }
  ]

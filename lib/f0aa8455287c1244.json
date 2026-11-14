@@ -1,0 +1,174 @@
+{
+ "schema": "timeline/1",
+ "duration": 136.241,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 6.888,
+    "en": "This is Part 4, Discussing Systems and Fluids. You will hear model answers, then speak.",
+    "ar": "هذا الجزء الرابع، مناقشة الأنظمة والسوائل. ستسمع أجوبة نموذجية، ثمّ تتحدّث."
+   },
+   {
+    "start": 13.942,
+    "dur": 4.584,
+    "en": "Here are three questions for you and a partner, with model answers first.",
+    "ar": "هذه ثلاثة أسئلة لك ولزميلك، مع أجوبة نموذجية أوّلاً."
+   },
+   {
+    "start": 18.876,
+    "dur": 3.504,
+    "en": "Which fluids does a car need? Name three.",
+    "ar": "أيّ سوائل تحتاجها السيارة؟ اذكر ثلاثة."
+   },
+   {
+    "start": 27.792,
+    "dur": 3.84,
+    "en": "A car needs engine oil, coolant, and brake fluid.",
+    "ar": "تحتاج السيارة زيت المحرّك وسائل التبريد وزيت الفرامل."
+   },
+   {
+    "start": 31.982,
+    "dur": 3.504,
+    "en": "What can happen if there isn't enough oil or coolant?",
+    "ar": "ماذا يمكن أن يحدث إذا لم يكن هناك زيت أو سائل تبريد كافٍ؟"
+   },
+   {
+    "start": 41.603,
+    "dur": 5.04,
+    "en": "If there isn't enough, the engine can be damaged, and the repair is expensive.",
+    "ar": "إذا لم يكن هناك كفاية، يمكن أن يتلف المحرّك، والإصلاح مكلف."
+   },
+   {
+    "start": 46.993,
+    "dur": 2.976,
+    "en": "How often should a driver check the fluids?",
+    "ar": "كم مرّة ينبغي أن يفحص السائق السوائل؟"
+   },
+   {
+    "start": 55.499,
+    "dur": 4.368,
+    "en": "The driver should check them at every service, and before a long road.",
+    "ar": "ينبغي أن يفحصها في كلّ صيانة، وقبل طريق طويل."
+   },
+   {
+    "start": 60.217,
+    "dur": 8.664,
+    "en": "Useful language: A car needs. There is, there are. If there isn't enough. The driver should.",
+    "ar": "لغة مفيدة: تحتاج السيارة. هناك. إذا لم يكن هناك كفاية. ينبغي على السائق."
+   },
+   {
+    "start": 69.231,
+    "dur": 5.352,
+    "en": "Now your turn, before you find a partner. I will ask, and you answer.",
+    "ar": "الآن دورك، قبل أن تجد زميلاً. سأسأل، وأنت تجيب."
+   },
+   {
+    "start": 74.933,
+    "dur": 5.832,
+    "en": "Your turn. A driver asks you which liquids his car needs. What do you say?",
+    "ar": "دورك. سائق يسألك أيّ سوائل تحتاجها سيارته. ماذا تقول؟"
+   },
+   {
+    "start": 88.118,
+    "dur": 4.656,
+    "en": "You can say: It needs engine oil, coolant, and brake fluid.",
+    "ar": "يمكنك أن تقول: تحتاج زيت المحرّك وسائل التبريد وزيت الفرامل."
+   },
+   {
+    "start": 93.124,
+    "dur": 5.04,
+    "en": "Your turn. He asks why the coolant matters. What do you say?",
+    "ar": "دورك. يسألك لماذا سائل التبريد مهمّ. ماذا تقول؟"
+   },
+   {
+    "start": 104.693,
+    "dur": 5.208,
+    "en": "You can say: If there isn't enough, the engine gets too hot and can be damaged.",
+    "ar": "يمكنك أن تقول: إذا لم يكن هناك كفاية، يسخن المحرّك كثيراً ويمكن أن يتلف."
+   },
+   {
+    "start": 110.251,
+    "dur": 4.152,
+    "en": "And he asks how often he should check them. What do you say?",
+    "ar": "ويسألك كم مرّة ينبغي أن يفحصها. ماذا تقول؟"
+   },
+   {
+    "start": 120.933,
+    "dur": 4.08,
+    "en": "You can say: At every service, and before a long road.",
+    "ar": "يمكنك أن تقول: في كلّ صيانة، وقبل طريق طويل."
+   },
+   {
+    "start": 125.363,
+    "dur": 3.552,
+    "en": "Good. You answered all three without reading.",
+    "ar": "جيّد. أجبت عن الثلاثة كلّها دون قراءة."
+   },
+   {
+    "start": 129.265,
+    "dur": 5.376,
+    "en": "Now your turn. Ask a partner the same three questions, then swap roles.",
+    "ar": "الآن دورك. اسأل زميلك الأسئلة الثلاثة نفسها، ثمّ تبادلا الدورين."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 27.792,
+    "hold": 13.76,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 55.499,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 88.118,
+    "hold": 16.53,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 120.933,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

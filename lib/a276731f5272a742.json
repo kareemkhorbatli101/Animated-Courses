@@ -1,0 +1,291 @@
+{
+ "schema": "timeline/1",
+ "duration": 165.95,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 5.448,
+    "en": "This is the Warm Up. You will meet the tools and the safety gear in the bay.",
+    "ar": "هذا هو التمهيد. ستتعرّف على العُدّة ومعدّات الوقاية في موقع الصيانة."
+   },
+   {
+    "start": 13.534,
+    "dur": 5.808,
+    "en": "Welcome to the bay. Today we learn the tools, and how to work safely.",
+    "ar": "أهلاً بك في موقع الصيانة. اليوم نتعلّم العُدّة، وكيف نعمل بأمان."
+   },
+   {
+    "start": 19.692,
+    "dur": 5.664,
+    "en": "You will learn ten words. Look at each thing before I say its name.",
+    "ar": "ستتعلّم عشر كلمات. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 25.706,
+    "dur": 4.704,
+    "en": "This is a spanner. You use it to turn nuts and bolts.",
+    "ar": "هذا مفتاح ربط. تستخدمه لفكّ الصواميل والبراغي وشدّها."
+   },
+   {
+    "start": 30.76,
+    "dur": 5.712,
+    "en": "This is a socket set. It is a box of round tool heads for different bolts.",
+    "ar": "هذا طقم مفاتيح. صندوق فيه رؤوس مستديرة لبراغي مختلفة."
+   },
+   {
+    "start": 36.822,
+    "dur": 5.112,
+    "en": "This is a torque wrench. It tightens a bolt to the exact level.",
+    "ar": "هذا مفتاح عزم. يشدّ البرغي إلى الحدّ المضبوط."
+   },
+   {
+    "start": 42.284,
+    "dur": 5.112,
+    "en": "This is a trolley jack. It is a wheeled tool that lifts the car.",
+    "ar": "هذه رافعة متحرّكة. أداة بعجلات ترفع السيارة."
+   },
+   {
+    "start": 47.746,
+    "dur": 6.048,
+    "en": "This is an axle stand. It is a strong metal stand that holds the car up safely.",
+    "ar": "هذا حامل محور. حامل معدني قويّ يسند السيارة بأمان."
+   },
+   {
+    "start": 54.144,
+    "dur": 5.304,
+    "en": "This is a wheel chock. It is a block that stops a wheel from rolling.",
+    "ar": "هذا صادّ عجلة. قطعة تمنع العجلة من التدحرج."
+   },
+   {
+    "start": 59.798,
+    "dur": 4.824,
+    "en": "These are safety glasses. They protect your eyes.",
+    "ar": "هذه نظّارات أمان. تحمي عينيك."
+   },
+   {
+    "start": 64.972,
+    "dur": 4.344,
+    "en": "These are gloves. They protect your hands.",
+    "ar": "هذه قفّازات. تحمي يديك."
+   },
+   {
+    "start": 69.666,
+    "dur": 4.464,
+    "en": "All of it together is PPE: personal protective equipment.",
+    "ar": "كلّ ذلك معاً هو معدّات الوقاية الشخصية."
+   },
+   {
+    "start": 74.48,
+    "dur": 5.112,
+    "en": "And this is a fire extinguisher. You use it to put out a fire.",
+    "ar": "وهذه طفّاية حريق. تستخدمها لإخماد الحريق."
+   },
+   {
+    "start": 79.942,
+    "dur": 4.752,
+    "en": "Now some questions from the book. Think before you answer.",
+    "ar": "الآن بعض الأسئلة من الكتاب. فكّر قبل أن تجيب."
+   },
+   {
+    "start": 85.044,
+    "dur": 4.92,
+    "en": "Wear blank to protect your hands. Which word is missing?",
+    "ar": "ارتدِ الفراغ لحماية يديك. ما الكلمة الناقصة؟"
+   },
+   {
+    "start": 96.258,
+    "dur": 4.44,
+    "en": "Gloves. Wear gloves to protect your hands.",
+    "ar": "القفّازات. ارتدِ القفّازات لحماية يديك."
+   },
+   {
+    "start": 101.048,
+    "dur": 2.784,
+    "en": "Wear blank to protect your eyes.",
+    "ar": "ارتدِ الفراغ لحماية عينيك."
+   },
+   {
+    "start": 108.715,
+    "dur": 4.416,
+    "en": "Goggles. Wear goggles to protect your eyes.",
+    "ar": "النظّارات الواقية. ارتدِ النظّارات الواقية لحماية عينيك."
+   },
+   {
+    "start": 113.481,
+    "dur": 2.496,
+    "en": "Use a blank to lift the car.",
+    "ar": "استخدم فراغاً لرفع السيارة."
+   },
+   {
+    "start": 120.624,
+    "dur": 4.056,
+    "en": "A jack. Use a jack to lift the car.",
+    "ar": "رافعة. استخدم رافعة لرفع السيارة."
+   },
+   {
+    "start": 125.03,
+    "dur": 2.808,
+    "en": "Keep your area blank and safe.",
+    "ar": "احفظ منطقتك فراغاً وآمنة."
+   },
+   {
+    "start": 132.602,
+    "dur": 4.32,
+    "en": "Tidy. Keep your area tidy and safe.",
+    "ar": "مرتّبة. احفظ منطقتك مرتّبة وآمنة."
+   },
+   {
+    "start": 137.272,
+    "dur": 2.472,
+    "en": "What must you put on first?",
+    "ar": "ماذا يجب أن تلبس أوّلاً؟"
+   },
+   {
+    "start": 144.333,
+    "dur": 2.856,
+    "en": "Safety glasses and gloves.",
+    "ar": "نظّارات الأمان والقفّازات."
+   },
+   {
+    "start": 147.539,
+    "dur": 4.128,
+    "en": "When a car is up on a jack, what must you always use?",
+    "ar": "عندما تكون السيارة على رافعة، ماذا يجب أن تستخدم دائماً؟"
+   },
+   {
+    "start": 157.784,
+    "dur": 2.112,
+    "en": "Axle stands.",
+    "ar": "حوامل المحور."
+   },
+   {
+    "start": 160.246,
+    "dur": 4.104,
+    "en": "A tidy, careful workshop is a safe workshop.",
+    "ar": "الورشة المرتّبة الحريصة ورشة آمنة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 24.394,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "socket_set",
+    "label": "socket set",
+    "ar": "طقم المفاتيح",
+    "at": 29.41,
+    "hold": 3.0,
+    "img": "assets/vocab/socket_set.png",
+    "sha": "8a569df2fb1093df"
+   },
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 35.472,
+    "hold": 3.0,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 40.959,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 46.459,
+    "hold": 3.0,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   },
+   {
+    "lemma": "wheel_chock",
+    "label": "wheel chock",
+    "ar": "صادّ العجلة",
+    "at": 52.782,
+    "hold": 3.0,
+    "img": "assets/vocab/wheel_chock.png",
+    "sha": "39166eb056e54a9b"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 58.436,
+    "hold": 3.0,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 63.597,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "fire_extinguisher",
+    "label": "fire extinguisher",
+    "ar": "طفّاية الحريق",
+    "at": 73.218,
+    "hold": 3.0,
+    "img": "assets/vocab/fire_extinguisher.png",
+    "sha": "6080a1ae532e6412"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 96.258,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 144.333,
+    "hold": 3.0,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

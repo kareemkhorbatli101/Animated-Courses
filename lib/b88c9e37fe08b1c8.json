@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 149.425,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.816,
+    "en": "This is Part 5, Safe Working in the Bay. You will hear the reading, then answer three questions.",
+    "ar": "هذا الجزء الخامس، العمل الآمن في الموقع. ستسمع النصّ، ثمّ تجيب عن ثلاثة أسئلة."
+   },
+   {
+    "start": 14.47,
+    "dur": 4.656,
+    "en": "Before you read: what is the most important safety rule in a workshop?",
+    "ar": "قبل أن تقرأ: ما أهمّ قاعدة أمان في الورشة؟"
+   },
+   {
+    "start": 19.476,
+    "dur": 3.792,
+    "en": "To chock is to put a block behind a wheel so it can't roll.",
+    "ar": "الصدّ هو وضع قطعة خلف العجلة لتمنعها من التدحرج."
+   },
+   {
+    "start": 23.618,
+    "dur": 4.056,
+    "en": "To disconnect is to take a wire off, to stop the power.",
+    "ar": "والفصل هو إزالة سلك لإيقاف الكهرباء."
+   },
+   {
+    "start": 28.024,
+    "dur": 3.744,
+    "en": "And safety gear is the things you wear to protect yourself.",
+    "ar": "ومعدّات الوقاية هي ما تلبسه لتحمي نفسك."
+   },
+   {
+    "start": 32.118,
+    "dur": 5.064,
+    "en": "A car workshop can be a dangerous place, but good rules keep everyone safe.",
+    "ar": "ورشة السيارات قد تكون مكاناً خطيراً، لكن القواعد الجيّدة تحفظ أمان الجميع."
+   },
+   {
+    "start": 37.532,
+    "dur": 8.904,
+    "en": "The most important rule is simple: always wear your safety gear. Put on your safety glasses, gloves, and overalls before you start.",
+    "ar": "أهمّ قاعدة بسيطة: ارتدِ معدّات الوقاية دائماً. ارتدِ نظّارات الأمان والقفّازات ولباس العمل قبل أن تبدأ."
+   },
+   {
+    "start": 46.786,
+    "dur": 7.464,
+    "en": "Next, keep your area clean and tidy. Oil or a tool on the floor can cause a fall, so put things away.",
+    "ar": "بعد ذلك، احفظ منطقتك نظيفة ومرتّبة. الزيت أو أداة على الأرض قد تسبّب سقوطاً، فأعد الأشياء إلى مكانها."
+   },
+   {
+    "start": 54.6,
+    "dur": 8.952,
+    "en": "When you lift a car, be very careful. First, chock the wheels so the car cannot roll. Then raise the car slowly with the jack.",
+    "ar": "عندما ترفع سيارة، كن حذراً جدّاً. أوّلاً، ضع صادّات العجلات حتّى لا تتدحرج السيارة. ثمّ ارفعها ببطء بالرافعة."
+   },
+   {
+    "start": 63.902,
+    "dur": 5.352,
+    "en": "Always put axle stands under the car, and never work under a car on a jack alone.",
+    "ar": "ضع حوامل المحور تحت السيارة دائماً، ولا تعمل أبداً تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 69.604,
+    "dur": 7.536,
+    "en": "Before you work on the electrics, disconnect the battery. If you smell fuel, stop at once and tell the manager.",
+    "ar": "قبل أن تعمل على الكهرباء، افصل البطارية. إذا شممت وقوداً، توقّف فوراً وأخبر المدير."
+   },
+   {
+    "start": 77.49,
+    "dur": 8.712,
+    "en": "These rules are not difficult, but they save lives. A careful mechanic is a safe mechanic, and a safe workshop is a good workshop.",
+    "ar": "هذه القواعد ليست صعبة، لكنّها تنقذ حياةً. الميكانيكي الحريص ميكانيكي آمن، والورشة الآمنة ورشة جيّدة."
+   },
+   {
+    "start": 86.552,
+    "dur": 2.736,
+    "en": "Why must you keep the floor clean?",
+    "ar": "لماذا يجب أن تحفظ الأرض نظيفة؟"
+   },
+   {
+    "start": 94.288,
+    "dur": 3.408,
+    "en": "Because oil or a tool can cause a fall.",
+    "ar": "لأنّ الزيت أو أداة يمكن أن تسبّب سقوطاً."
+   },
+   {
+    "start": 98.046,
+    "dur": 2.976,
+    "en": "What must you do before you raise the car?",
+    "ar": "ماذا يجب أن تفعل قبل أن ترفع السيارة؟"
+   },
+   {
+    "start": 106.493,
+    "dur": 2.064,
+    "en": "Chock the wheels.",
+    "ar": "تضع صادّات العجلات."
+   },
+   {
+    "start": 108.907,
+    "dur": 3.36,
+    "en": "What must you do before working on the electrics?",
+    "ar": "ماذا يجب أن تفعل قبل العمل على الكهرباء؟"
+   },
+   {
+    "start": 118.149,
+    "dur": 2.256,
+    "en": "Disconnect the battery.",
+    "ar": "تفصل البطارية."
+   },
+   {
+    "start": 120.755,
+    "dur": 5.784,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 126.889,
+    "dur": 4.008,
+    "en": "These are safety glasses. Wear them before you start.",
+    "ar": "هذه نظّارات أمان. ارتدِها قبل أن تبدأ."
+   },
+   {
+    "start": 131.247,
+    "dur": 3.528,
+    "en": "These are gloves. Wear them before you start.",
+    "ar": "هذه قفّازات. ارتدِها قبل أن تبدأ."
+   },
+   {
+    "start": 135.125,
+    "dur": 4.008,
+    "en": "This is a wheel chock. It comes first when you lift.",
+    "ar": "هذا صادّ عجلة. يأتي أوّلاً عند الرفع."
+   },
+   {
+    "start": 139.483,
+    "dur": 3.432,
+    "en": "This is a trolley jack. It comes second.",
+    "ar": "هذه رافعة متحرّكة. تأتي ثانياً."
+   },
+   {
+    "start": 143.265,
+    "dur": 4.56,
+    "en": "This is an axle stand. It comes third, and never alone.",
+    "ar": "هذا حامل محور. يأتي ثالثاً، ولا يكون وحده أبداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 118.149,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 141.978,
+    "hold": 3.0,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

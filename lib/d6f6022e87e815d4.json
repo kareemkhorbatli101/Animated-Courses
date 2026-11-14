@@ -1,0 +1,165 @@
+{
+ "schema": "timeline/1",
+ "duration": 88.283,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.104,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.904,
+    "dur": 7.8,
+    "en": "This is Part 3, Where Are the Tools? You will listen to a trainee find the tools, then answer questions.",
+    "ar": "هذا الجزء الثالث، أين العُدّة؟ ستستمع إلى متدرّب يجد العُدّة، ثمّ تجيب عن أسئلة."
+   },
+   {
+    "start": 16.054,
+    "dur": 4.152,
+    "en": "Before you listen: where does a workshop keep its tools?",
+    "ar": "قبل أن تستمع: أين تحفظ الورشة عُدّتها؟"
+   },
+   {
+    "start": 20.556,
+    "dur": 3.096,
+    "en": "Ustaz, where is the torque wrench?",
+    "ar": "أستاذ، أين مفتاح العزم؟"
+   },
+   {
+    "start": 24.002,
+    "dur": 3.168,
+    "en": "It's on the wall, next to the socket set.",
+    "ar": "إنّه على الحائط، بجانب طقم المفاتيح."
+   },
+   {
+    "start": 27.52,
+    "dur": 2.184,
+    "en": "And the trolley jack?",
+    "ar": "والرافعة المتحرّكة؟"
+   },
+   {
+    "start": 30.054,
+    "dur": 4.848,
+    "en": "It's in the corner. But first, put on your gloves.",
+    "ar": "إنّها في الزاوية. لكن أوّلاً، ارتدِ قفّازيك."
+   },
+   {
+    "start": 35.252,
+    "dur": 3.744,
+    "en": "Yes. And the axle stands?",
+    "ar": "نعم. وحوامل المحور؟"
+   },
+   {
+    "start": 39.346,
+    "dur": 8.064,
+    "en": "Under the bench. Always use two. Remember: chock the wheels first, then raise the car.",
+    "ar": "تحت الطاولة. استخدم اثنين دائماً. تذكّر: ضع صادّات العجلات أوّلاً، ثمّ ارفع السيارة."
+   },
+   {
+    "start": 47.76,
+    "dur": 2.256,
+    "en": "Where is the torque wrench?",
+    "ar": "أين مفتاح العزم؟"
+   },
+   {
+    "start": 54.604,
+    "dur": 3.216,
+    "en": "On the wall, next to the socket set.",
+    "ar": "على الحائط، بجانب طقم المفاتيح."
+   },
+   {
+    "start": 58.17,
+    "dur": 2.544,
+    "en": "What must Tarek do first?",
+    "ar": "ماذا يجب أن يفعل طارق أوّلاً؟"
+   },
+   {
+    "start": 65.185,
+    "dur": 2.184,
+    "en": "Put on his gloves.",
+    "ar": "أن يرتدي قفّازيه."
+   },
+   {
+    "start": 67.719,
+    "dur": 3.096,
+    "en": "What must he do before raising the car?",
+    "ar": "ماذا يجب أن يفعل قبل رفع السيارة؟"
+   },
+   {
+    "start": 76.109,
+    "dur": 2.064,
+    "en": "Chock the wheels.",
+    "ar": "أن يضع صادّات العجلات."
+   },
+   {
+    "start": 78.523,
+    "dur": 8.16,
+    "en": "Useful phrases: Where is? It's next to, in the corner, under. First, then.",
+    "ar": "عبارات مفيدة: أين؟ إنّه بجانب، في الزاوية، تحت. أوّلاً، ثمّ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 20.094,
+    "hold": 3.0,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 25.983,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 31.542,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 46.46,
+    "hold": 8.09,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 65.185,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

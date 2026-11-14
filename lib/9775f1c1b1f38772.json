@@ -1,0 +1,131 @@
+{
+ "schema": "timeline/1",
+ "duration": 136.058,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 7.104,
+    "en": "This is Part 9, a Local Case Study. You will hear an honest piece of advice, then decide yourself.",
+    "ar": "هذا الجزء التاسع، دراسة حالة محلّية. ستسمع نصيحة صادقة، ثمّ تقرّر بنفسك."
+   },
+   {
+    "start": 14.158,
+    "dur": 6.216,
+    "en": "Before you read: when a car needs a part, what two choices does a customer often have in Syria?",
+    "ar": "قبل أن تقرأ: عندما تحتاج سيارة قطعة، ما الخياران اللذان غالباً ما يكونان أمام الزبون في سوريا؟"
+   },
+   {
+    "start": 20.724,
+    "dur": 7.488,
+    "en": "A customer, Mr Aboud, came to Cham Motors for a service. His car needed a new air filter and a belt.",
+    "ar": "جاء زبون، السيّد عبود، إلى شام موتورز للصيانة. احتاجت سيارته فلتر هواء جديداً وسيراً."
+   },
+   {
+    "start": 28.562,
+    "dur": 7.848,
+    "en": "I explained that there were two choices. There were genuine parts from the carmaker, which cost more but lasted a long time.",
+    "ar": "شرحتُ أنّ هناك خيارين. هناك قطع أصليّة من صانع السيارة، تكلّف أكثر لكنّها تدوم وقتاً طويلاً."
+   },
+   {
+    "start": 36.76,
+    "dur": 4.896,
+    "en": "There were also cheaper parts, which cost less but sometimes wore out sooner.",
+    "ar": "وهناك أيضاً قطع أرخص، تكلّف أقلّ لكنّها تتلف أسرع أحياناً."
+   },
+   {
+    "start": 42.006,
+    "dur": 5.784,
+    "en": "In Syria, genuine parts are not always in the shop, and they can be expensive to import.",
+    "ar": "في سوريا، القطع الأصليّة ليست دائماً في المحل، وقد يكون استيرادها مكلفاً."
+   },
+   {
+    "start": 48.14,
+    "dur": 9.24,
+    "en": "I was honest. I said the genuine belt was the safest choice for a part that is very important, but for the air filter, a good cheaper part was fine.",
+    "ar": "كنتُ صادقة. قلتُ إنّ السير الأصلي هو الخيار الأكثر أماناً لقطعة مهمّة جدّاً، أمّا فلتر الهواء فقطعة أرخص جيّدة تكفي."
+   },
+   {
+    "start": 57.73,
+    "dur": 6.504,
+    "en": "I trusted her advice and I was happy. Honest advice brings customers back.",
+    "ar": "وثقتُ بنصيحتها وكنتُ سعيداً. النصيحة الصادقة تعيد الزبائن."
+   },
+   {
+    "start": 64.584,
+    "dur": 2.856,
+    "en": "What did Mr Aboud's car need?",
+    "ar": "ماذا احتاجت سيارة السيّد عبود؟"
+   },
+   {
+    "start": 72.146,
+    "dur": 3.264,
+    "en": "A new air filter and a belt.",
+    "ar": "فلتر هواء جديداً وسيراً."
+   },
+   {
+    "start": 75.76,
+    "dur": 3.024,
+    "en": "What two choices did Rana explain?",
+    "ar": "أيّ خيارين شرحتهما رنا؟"
+   },
+   {
+    "start": 83.784,
+    "dur": 7.8,
+    "en": "Genuine parts, which cost more and last long, or cheaper parts, which cost less and wear sooner.",
+    "ar": "قطع أصليّة تكلّف أكثر وتدوم طويلاً، أو قطع أرخص تكلّف أقلّ وتتلف أسرع."
+   },
+   {
+    "start": 91.934,
+    "dur": 2.928,
+    "en": "What did Rana advise for the belt?",
+    "ar": "بماذا نصحت رنا بشأن السير؟"
+   },
+   {
+    "start": 99.862,
+    "dur": 4.104,
+    "en": "The genuine belt - the safest choice for an important part.",
+    "ar": "السير الأصلي - الخيار الأكثر أماناً لقطعة مهمّة."
+   },
+   {
+    "start": 104.316,
+    "dur": 7.992,
+    "en": "Now your decision. A customer wants the cheapest parts for everything, even the brakes. What should the advisor do?",
+    "ar": "الآن قرارك. زبون يريد أرخص القطع لكلّ شيء، حتّى الفرامل. ماذا ينبغي أن يفعل المستشار؟"
+   },
+   {
+    "start": 112.658,
+    "dur": 6.48,
+    "en": "Sell only cheap parts, explain the difference and advise honestly, or refuse to serve the customer?",
+    "ar": "أن يبيع القطع الرخيصة فقط، أم يشرح الفرق وينصح بصدق، أم يرفض خدمة الزبون؟"
+   },
+   {
+    "start": 127.138,
+    "dur": 7.32,
+    "en": "Explain the difference and advise honestly. For important parts like brakes, the safest choice is best.",
+    "ar": "أن يشرح الفرق وينصح بصدق. للقطع المهمّة مثل الفرامل، الخيار الأكثر أماناً هو الأفضل."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

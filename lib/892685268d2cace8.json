@@ -1,0 +1,105 @@
+{
+ "schema": "timeline/1",
+ "duration": 76.365,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.304,
+    "dur": 5.88,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 13.534,
+    "dur": 5.64,
+    "en": "Six words from this unit. Say each one aloud and stress the loud syllable.",
+    "ar": "ستّ كلمات من هذه الوحدة. انطق كلّ واحدة بصوت عالٍ وشدّد على المقطع القويّ."
+   },
+   {
+    "start": 19.524,
+    "dur": 5.952,
+    "en": "Spanner. SPA-nner. Two syllables, and the first one is loud.",
+    "ar": "Spanner. مفتاح الربط. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 25.826,
+    "dur": 5.784,
+    "en": "Socket. SOC-ket. Two syllables, and the first one is loud.",
+    "ar": "Socket. الرأس. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 31.96,
+    "dur": 5.592,
+    "en": "Ratchet. RA-tchet. Two syllables, and the first one is loud.",
+    "ar": "Ratchet. السقّاطة. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 37.902,
+    "dur": 5.784,
+    "en": "Goggles. GOG-gles. Two syllables, and the first one is loud.",
+    "ar": "Goggles. النظّارات الواقية. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 44.036,
+    "dur": 5.352,
+    "en": "Safety. SAFE-ty. Two syllables, and the first one is loud.",
+    "ar": "Safety. الأمان. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 49.738,
+    "dur": 5.592,
+    "en": "Workshop. WORK-shop. Two syllables, and the first one is loud.",
+    "ar": "Workshop. الورشة. مقطعان، والأوّل هو القويّ."
+   },
+   {
+    "start": 55.68,
+    "dur": 4.584,
+    "en": "In safety, which syllable is loud: the first or the second?",
+    "ar": "في كلمة safety، أيّ مقطع هو القويّ: الأوّل أم الثاني؟"
+   },
+   {
+    "start": 66.735,
+    "dur": 3.432,
+    "en": "The first. SAFE-ty.",
+    "ar": "الأوّل. SAFE-ty."
+   },
+   {
+    "start": 70.517,
+    "dur": 4.248,
+    "en": "Every one of these six words puts the stress on its first syllable.",
+    "ar": "كلّ واحدة من هذه الكلمات الستّ تضع الشدّة على مقطعها الأوّل."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 17.724,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

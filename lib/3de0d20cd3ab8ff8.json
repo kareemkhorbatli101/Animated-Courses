@@ -1,0 +1,333 @@
+{
+ "schema": "timeline/1",
+ "duration": 192.627,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.6,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.4,
+    "dur": 6.6,
+    "en": "This is Part 10, Can-Do and Glossary. Check what you can do, and name the ten words.",
+    "ar": "هذا الجزء العاشر، أستطيع والمسرد. تحقّق ممّا تستطيع فعله، وسمِّ الكلمات العشر."
+   },
+   {
+    "start": 14.35,
+    "dur": 5.208,
+    "en": "Five things you can do now. Tick each one if it is true for you.",
+    "ar": "خمسة أمور تستطيع فعلها الآن. ضع علامة على كلّ واحدة إذا كانت صحيحة لك."
+   },
+   {
+    "start": 19.908,
+    "dur": 3.792,
+    "en": "I can name the main tools and safety gear in a workshop.",
+    "ar": "أستطيع تسمية العُدّة ومعدّات الوقاية الرئيسية في الورشة."
+   },
+   {
+    "start": 24.05,
+    "dur": 5.232,
+    "en": "For example: I can point to the thing that lifts a car, and the thing that holds it up.",
+    "ar": "مثلاً: أستطيع أن أشير إلى ما يرفع السيارة، وما يسندها."
+   },
+   {
+    "start": 29.632,
+    "dur": 4.944,
+    "en": "I can give instructions and safety rules using imperatives and sequencers.",
+    "ar": "أستطيع إعطاء تعليمات وقواعد أمان باستخدام أفعال الأمر وكلمات الترتيب."
+   },
+   {
+    "start": 34.926,
+    "dur": 8.088,
+    "en": "For example: first, chock the wheels. Then lift the car. Finally, check it is steady.",
+    "ar": "مثلاً: أوّلاً، ضع الصادّ عند العجلات. ثمّ ارفع السيارة. وأخيراً، تأكّد أنّها ثابتة."
+   },
+   {
+    "start": 43.364,
+    "dur": 3.984,
+    "en": "I can understand a safety briefing and a bay induction.",
+    "ar": "أستطيع فهم إحاطة أمان وتعريف بموقع الصيانة."
+   },
+   {
+    "start": 47.698,
+    "dur": 5.112,
+    "en": "For example: I understand when the foreman says never work under a car alone.",
+    "ar": "مثلاً: أفهم عندما يقول رئيس الورشة لا تعمل تحت سيارة وحدك أبداً."
+   },
+   {
+    "start": 53.16,
+    "dur": 3.216,
+    "en": "I can write clear workshop safety rules.",
+    "ar": "أستطيع كتابة قواعد أمان واضحة للورشة."
+   },
+   {
+    "start": 56.726,
+    "dur": 7.2,
+    "en": "For example: wear your gloves. Keep your area tidy. Report every problem.",
+    "ar": "مثلاً: البس قفّازيك. حافظ على نظافة مكانك. أبلغ عن كلّ مشكلة."
+   },
+   {
+    "start": 64.276,
+    "dur": 3.048,
+    "en": "I can induct and brief a new mechanic.",
+    "ar": "أستطيع تعريف ميكانيكي جديد وإحاطته."
+   },
+   {
+    "start": 67.674,
+    "dur": 5.568,
+    "en": "For example: welcome to the team. Ask me if you are not sure.",
+    "ar": "مثلاً: أهلاً بك في الفريق. اسألني إن لم تكن متأكّداً."
+   },
+   {
+    "start": 73.592,
+    "dur": 5.976,
+    "en": "Now the ten words of Unit 3. Look at each thing and name it before I do.",
+    "ar": "الآن كلمات الوحدة الثالثة العشر. انظر إلى كلّ شيء وسمِّه قبلي."
+   },
+   {
+    "start": 79.918,
+    "dur": 1.872,
+    "en": "What is this?",
+    "ar": "ما هذا؟"
+   },
+   {
+    "start": 85.79,
+    "dur": 4.416,
+    "en": "The spanner. You use it to turn nuts and bolts.",
+    "ar": "مفتاح الربط. تستخدمه لفكّ الصواميل والبراغي."
+   },
+   {
+    "start": 90.556,
+    "dur": 2.808,
+    "en": "And this box of round tool heads?",
+    "ar": "وهذا الصندوق ذو الرؤوس المستديرة؟"
+   },
+   {
+    "start": 98.305,
+    "dur": 1.968,
+    "en": "The socket set.",
+    "ar": "طقم المفاتيح."
+   },
+   {
+    "start": 100.623,
+    "dur": 3.216,
+    "en": "Which one tightens a bolt to the exact level?",
+    "ar": "أيّها يشدّ البرغي إلى الحدّ المضبوط؟"
+   },
+   {
+    "start": 109.486,
+    "dur": 1.968,
+    "en": "The torque wrench.",
+    "ar": "مفتاح العزم."
+   },
+   {
+    "start": 111.804,
+    "dur": 3.336,
+    "en": "And what is this wheeled tool that lifts the car?",
+    "ar": "وما هذه الأداة ذات العجلات التي ترفع السيارة؟"
+   },
+   {
+    "start": 121.023,
+    "dur": 1.944,
+    "en": "The trolley jack.",
+    "ar": "الرافعة المتحرّكة."
+   },
+   {
+    "start": 123.317,
+    "dur": 3.624,
+    "en": "What holds the car up safely once it is lifted?",
+    "ar": "ما الذي يسند السيارة بأمان بعد رفعها؟"
+   },
+   {
+    "start": 132.705,
+    "dur": 2.04,
+    "en": "The axle stand.",
+    "ar": "حامل المحور."
+   },
+   {
+    "start": 135.095,
+    "dur": 2.856,
+    "en": "And what stops a wheel from rolling?",
+    "ar": "وما الذي يمنع العجلة من التدحرج؟"
+   },
+   {
+    "start": 143.069,
+    "dur": 1.848,
+    "en": "The wheel chock.",
+    "ar": "صادّ العجلة."
+   },
+   {
+    "start": 145.267,
+    "dur": 2.424,
+    "en": "What protects your eyes?",
+    "ar": "ما الذي يحمي عينيك؟"
+   },
+   {
+    "start": 152.103,
+    "dur": 2.112,
+    "en": "Safety glasses.",
+    "ar": "نظّارات الأمان."
+   },
+   {
+    "start": 154.565,
+    "dur": 2.616,
+    "en": "And what protects your hands?",
+    "ar": "وما الذي يحمي يديك؟"
+   },
+   {
+    "start": 161.887,
+    "dur": 1.872,
+    "en": "Gloves.",
+    "ar": "القفّازات."
+   },
+   {
+    "start": 164.109,
+    "dur": 3.0,
+    "en": "What do we call all the safety gear together?",
+    "ar": "ماذا نسمّي كلّ معدّات الأمان معاً؟"
+   },
+   {
+    "start": 172.756,
+    "dur": 1.872,
+    "en": "PPE.",
+    "ar": "معدّات الوقاية."
+   },
+   {
+    "start": 174.978,
+    "dur": 2.832,
+    "en": "And what do you use to put out a fire?",
+    "ar": "وبماذا تُخمد الحريق؟"
+   },
+   {
+    "start": 183.045,
+    "dur": 2.256,
+    "en": "The fire extinguisher.",
+    "ar": "طفّاية الحريق."
+   },
+   {
+    "start": 185.651,
+    "dur": 5.376,
+    "en": "That is Unit 3. A careful mechanic is a safe mechanic.",
+    "ar": "هذه هي الوحدة الثالثة. الميكانيكي الحريص ميكانيكي آمن."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 56.214,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 85.79,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "socket_set",
+    "label": "socket set",
+    "ar": "طقم المفاتيح",
+    "at": 98.305,
+    "hold": 3.0,
+    "img": "assets/vocab/socket_set.png",
+    "sha": "8a569df2fb1093df"
+   },
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 109.486,
+    "hold": 3.0,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 121.023,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 132.705,
+    "hold": 3.0,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   },
+   {
+    "lemma": "wheel_chock",
+    "label": "wheel chock",
+    "ar": "صادّ العجلة",
+    "at": 143.069,
+    "hold": 3.0,
+    "img": "assets/vocab/wheel_chock.png",
+    "sha": "39166eb056e54a9b"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 152.103,
+    "hold": 3.0,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 161.887,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 172.756,
+    "hold": 3.0,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "fire_extinguisher",
+    "label": "fire extinguisher",
+    "ar": "طفّاية الحريق",
+    "at": 183.045,
+    "hold": 3.0,
+    "img": "assets/vocab/fire_extinguisher.png",
+    "sha": "6080a1ae532e6412"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

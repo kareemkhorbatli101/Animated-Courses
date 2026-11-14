@@ -13,8 +13,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 62192,
    "meshopt": {
-    "address": "lib/8b7a39c58b1695ce.glb",
-    "sha": "8b7a39c58b1695ce",
+    "address": "lib/640202cea8962bc9.glb",
+    "sha": "640202cea8962bc9",
     "bytes": 73324,
     "wire": 19290
    }
@@ -26,10 +26,10 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 61801,
    "meshopt": {
-    "address": "lib/8ed88bd3ec8b9369.glb",
-    "sha": "8ed88bd3ec8b9369",
+    "address": "lib/3f72c521d715a0dc.glb",
+    "sha": "3f72c521d715a0dc",
     "bytes": 71924,
-    "wire": 19003
+    "wire": 19002
    }
   },
   "assets/maher_a85314610c.glb": {
@@ -39,10 +39,10 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 2122476,
    "meshopt": {
-    "address": "lib/4c464e6a15d75854.glb",
-    "sha": "4c464e6a15d75854",
-    "bytes": 440756,
-    "wire": 244031
+    "address": "lib/dddefd3372033e3b.glb",
+    "sha": "dddefd3372033e3b",
+    "bytes": 440548,
+    "wire": 243896
    }
   },
   "assets/nabil_44f002d761.glb": {
@@ -52,8 +52,8 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 2086980,
    "meshopt": {
-    "address": "lib/b616a7c103c1204d.glb",
-    "sha": "b616a7c103c1204d",
+    "address": "lib/07d96133359f91b9.glb",
+    "sha": "07d96133359f91b9",
     "bytes": 435332,
     "wire": 238730
    }
@@ -162,28 +162,28 @@
    "id": "maher",
    "encodings": {
     "exact": "193306ed32007426",
-    "meshopt": "4c464e6a15d75854"
+    "meshopt": "dddefd3372033e3b"
    }
   },
   {
    "id": "nabil",
    "encodings": {
     "exact": "de4c7518b00a457e",
-    "meshopt": "b616a7c103c1204d"
+    "meshopt": "07d96133359f91b9"
    }
   },
   {
    "id": "workshop_set_merged",
    "encodings": {
     "exact": "5351bbbe3154f369",
-    "meshopt": "8b7a39c58b1695ce"
+    "meshopt": "640202cea8962bc9"
    }
   },
   {
    "id": "workshop_set_noceil_merged",
    "encodings": {
     "exact": "94c35e8eeb931ead",
-    "meshopt": "8ed88bd3ec8b9369"
+    "meshopt": "3f72c521d715a0dc"
    }
   }
  ]

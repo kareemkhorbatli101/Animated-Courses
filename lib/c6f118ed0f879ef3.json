@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 159.822,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.304,
+    "dur": 6.456,
+    "en": "This is Part 6, Writing. You will take a model apart, then write five safety rules.",
+    "ar": "هذا الجزء السادس، الكتابة. ستفكّك نموذجاً، ثمّ تكتب خمس قواعد أمان."
+   },
+   {
+    "start": 14.11,
+    "dur": 4.824,
+    "en": "You will write five safety rules for a workshop, fifty to seventy words.",
+    "ar": "ستكتب خمس قواعد أمان للورشة، من خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 19.284,
+    "dur": 4.824,
+    "en": "Use imperatives and sequencers, and at least one Never or Don't.",
+    "ar": "استخدم أفعال الأمر وكلمات الترتيب، وعلى الأقلّ Never أو Don't مرّة واحدة."
+   },
+   {
+    "start": 24.458,
+    "dur": 9.36,
+    "en": "The book gives you a plan. First, always blank. Then blank. When you blank. Never blank. If blank.",
+    "ar": "يعطيك الكتاب خطّة. أوّلاً، دائماً فراغ. ثمّ فراغ. عندما فراغ. أبداً فراغ. إذا فراغ."
+   },
+   {
+    "start": 34.168,
+    "dur": 8.472,
+    "en": "Here is one way to fill it. First, always wear your PPE. Then keep your area clean and tidy.",
+    "ar": "هذه طريقة لتعبئتها. أوّلاً، ارتدِ معدّات الوقاية دائماً. ثمّ احفظ منطقتك نظيفة ومرتّبة."
+   },
+   {
+    "start": 42.99,
+    "dur": 10.536,
+    "en": "When you lift a car, chock the wheels first. Never work under a car on a jack alone. If you smell fuel, stop and tell the manager.",
+    "ar": "عندما ترفع سيارة، ضع صادّات العجلات أوّلاً. لا تعمل أبداً تحت سيارة على رافعة وحدها. إذا شممت وقوداً، توقّف وأخبر المدير."
+   },
+   {
+    "start": 53.876,
+    "dur": 2.736,
+    "en": "Is you must wear gloves an imperative?",
+    "ar": "هل جملة you must wear gloves فعل أمر؟"
+   },
+   {
+    "start": 61.847,
+    "dur": 3.816,
+    "en": "No. The imperative is: wear your gloves.",
+    "ar": "لا. الأمر هو: wear your gloves."
+   },
+   {
+    "start": 66.013,
+    "dur": 2.472,
+    "en": "Now look at what each rule is doing.",
+    "ar": "الآن انظر إلى ما تفعله كلّ قاعدة."
+   },
+   {
+    "start": 68.835,
+    "dur": 5.112,
+    "en": "The first rule starts with First, and gives the thing you do before anything else.",
+    "ar": "القاعدة الأولى تبدأ بـ First، وتعطي ما تفعله قبل كلّ شيء."
+   },
+   {
+    "start": 74.297,
+    "dur": 4.776,
+    "en": "Wear your PPE, or you should wear your PPE: which one is the rule?",
+    "ar": "wear your PPE أم you should wear your PPE: أيّهما القاعدة؟"
+   },
+   {
+    "start": 85.956,
+    "dur": 4.152,
+    "en": "Wear your PPE. A rule gives the order straight.",
+    "ar": "wear your PPE. القاعدة تعطي الأمر مباشرة."
+   },
+   {
+    "start": 90.458,
+    "dur": 3.912,
+    "en": "The middle rules use Then and When to put the steps in time.",
+    "ar": "القواعد الوسطى تستخدم Then و When لترتيب الخطوات في الزمن."
+   },
+   {
+    "start": 94.72,
+    "dur": 4.8,
+    "en": "Which word tells you a rule only applies sometimes: Then, or When?",
+    "ar": "أيّ كلمة تخبرك أنّ القاعدة تنطبق في حالة معيّنة: Then أم When؟"
+   },
+   {
+    "start": 106.402,
+    "dur": 4.296,
+    "en": "When. When you lift a car tells you the one time it applies.",
+    "ar": "When. فجملة when you lift a car تحدّد الحالة الواحدة."
+   },
+   {
+    "start": 111.048,
+    "dur": 5.016,
+    "en": "And the last rule is the one that must never be broken, so it starts with Never.",
+    "ar": "والقاعدة الأخيرة هي التي لا يجوز خرقها أبداً، فتبدأ بـ Never."
+   },
+   {
+    "start": 116.414,
+    "dur": 2.832,
+    "en": "Why is Never stronger than Don't usually?",
+    "ar": "لماذا Never أقوى من Don't usually؟"
+   },
+   {
+    "start": 124.658,
+    "dur": 3.84,
+    "en": "Because never means no exceptions, not even once.",
+    "ar": "لأنّ never تعني بلا استثناء، ولا مرّة واحدة."
+   },
+   {
+    "start": 128.848,
+    "dur": 6.144,
+    "en": "That is fifty-six words: five rules, three sequencers, and one Never.",
+    "ar": "هذه ستّ وخمسون كلمة: خمس قواعد، وثلاث كلمات ترتيب، وNever واحدة."
+   },
+   {
+    "start": 135.342,
+    "dur": 1.872,
+    "en": "Now it is your turn.",
+    "ar": "الآن دورك."
+   },
+   {
+    "start": 137.564,
+    "dur": 3.432,
+    "en": "Pause the video, and write your own five rules.",
+    "ar": "أوقف الفيديو، واكتب خمس قواعد من عندك."
+   },
+   {
+    "start": 141.346,
+    "dur": 8.544,
+    "en": "Check before you finish. Did you use imperatives? Did you use sequencers? Is there at least one Never or Don't?",
+    "ar": "تحقّق قبل أن تنتهي. هل استخدمت أفعال الأمر؟ هل استخدمت كلمات الترتيب؟ هل هناك Never أو Don't مرّة واحدة على الأقلّ؟"
+   },
+   {
+    "start": 150.24,
+    "dur": 2.448,
+    "en": "Is it fifty to seventy words?",
+    "ar": "هل هي من خمسين إلى سبعين كلمة؟"
+   },
+   {
+    "start": 153.038,
+    "dur": 5.184,
+    "en": "The book has two more tasks: a notice for the bay wall, and a rule you would add.",
+    "ar": "في الكتاب مهمّتان أخريان: لافتة لحائط الموقع، وقاعدة تضيفها أنت."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 52.964,
+    "hold": 12.83,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 72.947,
+    "hold": 16.01,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

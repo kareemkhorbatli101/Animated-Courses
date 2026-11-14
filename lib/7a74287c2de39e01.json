@@ -1,0 +1,324 @@
+{
+ "schema": "timeline/1",
+ "duration": 194.952,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 6.6,
+    "en": "This is Part 10, Can-Do and Glossary. Check what you can do, and name the ten words.",
+    "ar": "هذا الجزء العاشر، أستطيع والمسرد. تحقّق ممّا تستطيع فعله، وسمِّ الكلمات العشر."
+   },
+   {
+    "start": 13.87,
+    "dur": 5.208,
+    "en": "Five things you can do now. Tick each one if it is true for you.",
+    "ar": "خمسة أمور تستطيع فعلها الآن. ضع علامة على كلّ واحدة إذا كانت صحيحة لك."
+   },
+   {
+    "start": 19.428,
+    "dur": 3.936,
+    "en": "I can name the main systems and fluids under the bonnet.",
+    "ar": "أستطيع تسمية الأنظمة والسوائل الرئيسية تحت غطاء المحرّك."
+   },
+   {
+    "start": 23.714,
+    "dur": 6.744,
+    "en": "For example: I can point to the cooling system, the electrical system, and the parts that carry each liquid.",
+    "ar": "مثلاً: أستطيع أن أشير إلى نظام التبريد، والنظام الكهربائي، والأجزاء التي تنقل كلّ سائل."
+   },
+   {
+    "start": 30.808,
+    "dur": 4.272,
+    "en": "I can use there is and there are with some, any, much, and many.",
+    "ar": "أستطيع استخدام there is و there are مع some و any و much و many."
+   },
+   {
+    "start": 35.43,
+    "dur": 5.352,
+    "en": "For example: there is some water in the bottle, and there are three bottles on the shelf.",
+    "ar": "مثلاً: هناك بعض الماء في القارورة، وهناك ثلاث قوارير على الرفّ."
+   },
+   {
+    "start": 41.132,
+    "dur": 4.32,
+    "en": "I can understand a stock check between a manager and a mechanic.",
+    "ar": "أستطيع فهم فحص مخزون بين مدير وميكانيكي."
+   },
+   {
+    "start": 45.802,
+    "dur": 8.016,
+    "en": "For example: have we got any left? Yes, we have four. No, we must order more.",
+    "ar": "مثلاً: هل بقي عندنا شيء؟ نعم، عندنا أربعة. لا، يجب أن نطلب المزيد."
+   },
+   {
+    "start": 54.168,
+    "dur": 3.408,
+    "en": "I can write a short parts order or stock note.",
+    "ar": "أستطيع كتابة طلب قطع قصير أو مذكّرة مخزون."
+   },
+   {
+    "start": 57.926,
+    "dur": 5.448,
+    "en": "For example: please send six units for the Tuesday service, and confirm the price.",
+    "ar": "مثلاً: أرسلوا ستّ وحدات لصيانة الثلاثاء، وأكّدوا السعر."
+   },
+   {
+    "start": 63.724,
+    "dur": 3.912,
+    "en": "I can describe what a car needs, and how much and how many.",
+    "ar": "أستطيع وصف ما تحتاجه السيارة، وكم."
+   },
+   {
+    "start": 67.986,
+    "dur": 5.232,
+    "en": "For example: this car needs four litres before Friday, and it needs two new ones.",
+    "ar": "مثلاً: هذه السيارة تحتاج أربعة ليترات قبل الجمعة، وتحتاج اثنين جديدين."
+   },
+   {
+    "start": 73.568,
+    "dur": 5.976,
+    "en": "Now the ten words of Unit 2. Look at each thing and name it before I do.",
+    "ar": "الآن كلمات الوحدة الثانية العشر. انظر إلى كلّ شيء وسمِّه قبلي."
+   },
+   {
+    "start": 79.894,
+    "dur": 1.872,
+    "en": "What is this?",
+    "ar": "ما هذا؟"
+   },
+   {
+    "start": 85.766,
+    "dur": 4.752,
+    "en": "The battery. It stores electricity to start the car.",
+    "ar": "البطارية. تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 90.868,
+    "dur": 1.896,
+    "en": "And this part?",
+    "ar": "وهذا الجزء؟"
+   },
+   {
+    "start": 96.764,
+    "dur": 4.896,
+    "en": "The radiator. It holds the coolant and lets heat escape.",
+    "ar": "الراديتير. يحمل سائل التبريد ويسمح للحرارة بالخروج."
+   },
+   {
+    "start": 102.01,
+    "dur": 3.432,
+    "en": "What makes electricity while the engine runs?",
+    "ar": "ما الذي يولّد الكهرباء أثناء دوران المحرّك؟"
+   },
+   {
+    "start": 111.089,
+    "dur": 1.872,
+    "en": "The alternator.",
+    "ar": "الدينامو."
+   },
+   {
+    "start": 113.311,
+    "dur": 2.472,
+    "en": "And what is this rubber loop?",
+    "ar": "وما هذه الحلقة المطّاطية؟"
+   },
+   {
+    "start": 120.489,
+    "dur": 4.008,
+    "en": "The belt. It turns parts in the engine.",
+    "ar": "السير. يُدوّر أجزاء في المحرّك."
+   },
+   {
+    "start": 124.847,
+    "dur": 2.232,
+    "en": "And this rubber pipe?",
+    "ar": "وهذا الأنبوب المطّاطي؟"
+   },
+   {
+    "start": 131.314,
+    "dur": 3.624,
+    "en": "The hose. It carries a liquid.",
+    "ar": "الخرطوم. ينقل سائلاً."
+   },
+   {
+    "start": 135.289,
+    "dur": 3.408,
+    "en": "What keeps the engine parts moving smoothly?",
+    "ar": "ما الذي يحافظ على حركة أجزاء المحرّك بسلاسة؟"
+   },
+   {
+    "start": 144.285,
+    "dur": 1.872,
+    "en": "Engine oil.",
+    "ar": "زيت المحرّك."
+   },
+   {
+    "start": 146.507,
+    "dur": 3.24,
+    "en": "And what stops the engine getting too hot?",
+    "ar": "وما الذي يمنع المحرّك من السخونة الشديدة؟"
+   },
+   {
+    "start": 155.217,
+    "dur": 1.872,
+    "en": "Coolant.",
+    "ar": "سائل التبريد."
+   },
+   {
+    "start": 157.439,
+    "dur": 2.376,
+    "en": "What makes the brakes work?",
+    "ar": "ما الذي يجعل الفرامل تعمل؟"
+   },
+   {
+    "start": 164.404,
+    "dur": 1.872,
+    "en": "Brake fluid.",
+    "ar": "زيت الفرامل."
+   },
+   {
+    "start": 166.626,
+    "dur": 3.096,
+    "en": "What cleans the air going into the engine?",
+    "ar": "ما الذي ينظّف الهواء الداخل إلى المحرّك؟"
+   },
+   {
+    "start": 175.192,
+    "dur": 1.872,
+    "en": "The air filter.",
+    "ar": "فلتر الهواء."
+   },
+   {
+    "start": 177.414,
+    "dur": 2.88,
+    "en": "And what do you check the oil level with?",
+    "ar": "وبماذا تفحص مستوى الزيت؟"
+   },
+   {
+    "start": 185.706,
+    "dur": 1.872,
+    "en": "The dipstick.",
+    "ar": "مقياس الزيت."
+   },
+   {
+    "start": 187.928,
+    "dur": 5.424,
+    "en": "That is Unit 2. In Unit 3 we open the tool cabinet.",
+    "ar": "هذه هي الوحدة الثانية. في الوحدة الثالثة نفتح خزانة العُدّة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 85.766,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 96.764,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "alternator",
+    "label": "alternator",
+    "ar": "الدينامو",
+    "at": 111.089,
+    "hold": 3.0,
+    "img": "assets/vocab/alternator.png",
+    "sha": "885941b910ec936e"
+   },
+   {
+    "lemma": "belt",
+    "label": "belt",
+    "ar": "السير",
+    "at": 120.489,
+    "hold": 3.0,
+    "img": "assets/vocab/belt.png",
+    "sha": "00403a758c196774"
+   },
+   {
+    "lemma": "hose",
+    "label": "hose",
+    "ar": "الخرطوم",
+    "at": 131.314,
+    "hold": 3.0,
+    "img": "assets/vocab/hose.png",
+    "sha": "2a1e283c4fbcdee6"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 144.285,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 155.217,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 164.404,
+    "hold": 3.0,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 175.192,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 185.706,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

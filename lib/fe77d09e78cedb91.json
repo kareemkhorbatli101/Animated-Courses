@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 104.003,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 6.12,
+    "en": "This is Part 1, Tools and Safety Terms. You will name seven tools.",
+    "ar": "هذا الجزء الأوّل، مصطلحات العُدّة والأمان. ستسمّي سبع أدوات."
+   },
+   {
+    "start": 14.206,
+    "dur": 6.048,
+    "en": "Seven tools, and what each one is for. The book gives you the first one.",
+    "ar": "سبع أدوات، ولماذا تُستخدم كلّ واحدة. الكتاب يعطيك الأولى."
+   },
+   {
+    "start": 20.604,
+    "dur": 3.504,
+    "en": "A screwdriver is a tool for turning screws.",
+    "ar": "المفكّ أداة لتدوير البراغي."
+   },
+   {
+    "start": 24.458,
+    "dur": 2.208,
+    "en": "What is a spanner for?",
+    "ar": "لماذا يُستخدم مفتاح الربط؟"
+   },
+   {
+    "start": 30.96,
+    "dur": 2.856,
+    "en": "A tool for turning nuts and bolts.",
+    "ar": "أداة لفكّ الصواميل والبراغي وشدّها."
+   },
+   {
+    "start": 34.166,
+    "dur": 2.208,
+    "en": "What is a socket set?",
+    "ar": "ما هو طقم المفاتيح؟"
+   },
+   {
+    "start": 40.609,
+    "dur": 3.432,
+    "en": "A box of round tool heads for different bolts.",
+    "ar": "صندوق فيه رؤوس مستديرة لبراغي مختلفة."
+   },
+   {
+    "start": 44.391,
+    "dur": 1.968,
+    "en": "What is a ratchet?",
+    "ar": "ما هو مفتاح السقّاطة؟"
+   },
+   {
+    "start": 50.418,
+    "dur": 3.0,
+    "en": "A handle that turns a socket one way.",
+    "ar": "مقبض يدوّر الرأس في اتّجاه واحد."
+   },
+   {
+    "start": 53.768,
+    "dur": 2.424,
+    "en": "What does a torque wrench do?",
+    "ar": "ماذا يفعل مفتاح العزم؟"
+   },
+   {
+    "start": 60.898,
+    "dur": 2.928,
+    "en": "It tightens a bolt to the exact level.",
+    "ar": "يشدّ البرغي إلى الحدّ المضبوط."
+   },
+   {
+    "start": 64.176,
+    "dur": 2.232,
+    "en": "What is a trolley jack?",
+    "ar": "ما هي الرافعة المتحرّكة؟"
+   },
+   {
+    "start": 70.761,
+    "dur": 2.712,
+    "en": "A wheeled tool that lifts the car.",
+    "ar": "أداة بعجلات ترفع السيارة."
+   },
+   {
+    "start": 73.823,
+    "dur": 2.4,
+    "en": "What is an axle stand?",
+    "ar": "ما هو حامل المحور؟"
+   },
+   {
+    "start": 80.517,
+    "dur": 3.624,
+    "en": "A strong metal stand that holds the car up safely.",
+    "ar": "حامل معدني قويّ يسند السيارة بأمان."
+   },
+   {
+    "start": 84.491,
+    "dur": 2.376,
+    "en": "And what is a wheel chock?",
+    "ar": "وما هو صادّ العجلة؟"
+   },
+   {
+    "start": 91.397,
+    "dur": 2.976,
+    "en": "A block that stops a wheel from rolling.",
+    "ar": "قطعة تمنع العجلة من التدحرج."
+   },
+   {
+    "start": 94.723,
+    "dur": 7.68,
+    "en": "One meaning was not needed: a rubber pipe that carries a fluid. That is a hose, from Unit 2.",
+    "ar": "معنى واحد لم يكن مطلوباً: أنبوب مطّاطي ينقل سائلاً. ذلك خرطوم، من الوحدة الثانية."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 23.083,
+    "hold": 7.83,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "socket_set",
+    "label": "socket set",
+    "ar": "طقم المفاتيح",
+    "at": 32.766,
+    "hold": 7.79,
+    "img": "assets/vocab/socket_set.png",
+    "sha": "8a569df2fb1093df"
+   },
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 52.431,
+    "hold": 8.42,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 62.826,
+    "hold": 7.88,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 72.511,
+    "hold": 7.96,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   },
+   {
+    "lemma": "wheel_chock",
+    "label": "wheel chock",
+    "ar": "صادّ العجلة",
+    "at": 83.266,
+    "hold": 8.08,
+    "img": "assets/vocab/wheel_chock.png",
+    "sha": "39166eb056e54a9b"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

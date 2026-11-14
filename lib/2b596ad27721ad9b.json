@@ -1,0 +1,177 @@
+{
+ "schema": "timeline/1",
+ "duration": 129.145,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 7.608,
+    "en": "This is Part 3, The Morning Stock Check. You will listen to the whole team, then match each person with what they do.",
+    "ar": "هذا الجزء الثالث، فحص المخزون الصباحي. ستستمع إلى الفريق كلّه، ثمّ تطابق كلّ شخص مع ما يفعله."
+   },
+   {
+    "start": 14.878,
+    "dur": 4.728,
+    "en": "Before you listen: why does a manager check the stock before the day starts?",
+    "ar": "قبل أن تستمع: لماذا يفحص المدير المخزون قبل بدء اليوم؟"
+   },
+   {
+    "start": 19.956,
+    "dur": 4.752,
+    "en": "Good morning. Before we start, let's check the stock.",
+    "ar": "صباح الخير. قبل أن نبدأ، لنفحص المخزون."
+   },
+   {
+    "start": 25.058,
+    "dur": 6.504,
+    "en": "We have a busy day: five services and two repairs. Nabil, how are the fluids?",
+    "ar": "لدينا يوم مزدحم: خمس صيانات وإصلاحان. نبيل، كيف السوائل؟"
+   },
+   {
+    "start": 31.912,
+    "dur": 5.616,
+    "en": "There is plenty of oil, but there isn't much coolant, and there aren't many brake-fluid bottles.",
+    "ar": "هناك زيت وفير، لكن ليس هناك كثير من سائل التبريد، وليس هناك كثير من عبوات زيت الفرامل."
+   },
+   {
+    "start": 37.878,
+    "dur": 5.568,
+    "en": "OK. Tarek, please order some coolant and brake fluid today.",
+    "ar": "حسناً. طارق، اطلب بعض سائل التبريد وزيت الفرامل اليوم."
+   },
+   {
+    "start": 43.796,
+    "dur": 3.408,
+    "en": "We also need air filters - there aren't any left.",
+    "ar": "نحتاج أيضاً فلاتر هواء - لم يتبقَّ أيّ منها."
+   },
+   {
+    "start": 47.554,
+    "dur": 3.552,
+    "en": "Lina, is the diagnostic computer working?",
+    "ar": "لينا، هل حاسوب التشخيص يعمل؟"
+   },
+   {
+    "start": 51.456,
+    "dur": 2.832,
+    "en": "Lina says yes, it's fine.",
+    "ar": "لينا تقول نعم، إنّه بحال جيّدة."
+   },
+   {
+    "start": 54.638,
+    "dur": 6.984,
+    "en": "Good. We can't service a car without the right parts and fluids, so we always check the stock first.",
+    "ar": "جيّد. لا يمكننا صيانة سيارة بدون القطع والسوائل الصحيحة، لذا نفحص المخزون أوّلاً دائماً."
+   },
+   {
+    "start": 61.972,
+    "dur": 2.928,
+    "en": "What does Nabil do in the stock check?",
+    "ar": "ماذا يفعل نبيل في فحص المخزون؟"
+   },
+   {
+    "start": 70.135,
+    "dur": 2.496,
+    "en": "He reports on the fluids.",
+    "ar": "يقدّم تقريراً عن السوائل."
+   },
+   {
+    "start": 72.981,
+    "dur": 2.112,
+    "en": "What does Tarek do?",
+    "ar": "ماذا يفعل طارق؟"
+   },
+   {
+    "start": 79.211,
+    "dur": 2.904,
+    "en": "He orders coolant and brake fluid.",
+    "ar": "يطلب سائل التبريد وزيت الفرامل."
+   },
+   {
+    "start": 82.465,
+    "dur": 2.136,
+    "en": "What does Lina do?",
+    "ar": "ماذا تفعل لينا؟"
+   },
+   {
+    "start": 88.66,
+    "dur": 3.024,
+    "en": "She checks the diagnostic computer.",
+    "ar": "تفحص حاسوب التشخيص."
+   },
+   {
+    "start": 92.034,
+    "dur": 2.4,
+    "en": "And what does everyone do?",
+    "ar": "وماذا يفعل الجميع؟"
+   },
+   {
+    "start": 98.963,
+    "dur": 3.072,
+    "en": "Everyone checks the stock before starting.",
+    "ar": "الجميع يفحص المخزون قبل البدء."
+   },
+   {
+    "start": 102.385,
+    "dur": 6.264,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 108.999,
+    "dur": 4.584,
+    "en": "This is engine oil. There is plenty of it today.",
+    "ar": "هذا زيت المحرّك. هناك كثير منه اليوم."
+   },
+   {
+    "start": 113.933,
+    "dur": 4.128,
+    "en": "This is coolant. There isn't much of it.",
+    "ar": "هذا سائل التبريد. ليس هناك كثير منه."
+   },
+   {
+    "start": 118.411,
+    "dur": 4.368,
+    "en": "This is brake fluid. We need more bottles.",
+    "ar": "هذا زيت الفرامل. نحتاج عبوات أكثر."
+   },
+   {
+    "start": 123.129,
+    "dur": 4.416,
+    "en": "This is an air filter. There aren't any left.",
+    "ar": "هذا فلتر هواء. لم يتبقَّ أيّ منها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 121.954,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

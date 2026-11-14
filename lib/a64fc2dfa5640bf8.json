@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 138.973,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 7.128,
+    "en": "This is Part 5, Words in Context. You will match four words, then read about parts in Syria.",
+    "ar": "هذا الجزء الخامس، الكلمات في سياقها. ستطابق أربع كلمات، ثمّ تقرأ عن القطع في سوريا."
+   },
+   {
+    "start": 14.182,
+    "dur": 4.344,
+    "en": "Four words from the text. Match each one with its meaning.",
+    "ar": "أربع كلمات من النصّ. طابق كلّ واحدة مع معناها."
+   },
+   {
+    "start": 18.876,
+    "dur": 1.872,
+    "en": "Engine oil.",
+    "ar": "زيت المحرّك."
+   },
+   {
+    "start": 24.748,
+    "dur": 3.528,
+    "en": "Engine oil keeps the engine parts moving smoothly.",
+    "ar": "زيت المحرّك يحافظ على حركة أجزاء المحرّك بسلاسة."
+   },
+   {
+    "start": 28.626,
+    "dur": 1.872,
+    "en": "Coolant.",
+    "ar": "سائل التبريد."
+   },
+   {
+    "start": 34.498,
+    "dur": 2.976,
+    "en": "Coolant stops the engine getting too hot.",
+    "ar": "سائل التبريد يمنع المحرّك من السخونة الشديدة."
+   },
+   {
+    "start": 37.824,
+    "dur": 1.872,
+    "en": "Brake fluid.",
+    "ar": "زيت الفرامل."
+   },
+   {
+    "start": 43.696,
+    "dur": 2.568,
+    "en": "Brake fluid makes the brakes work.",
+    "ar": "زيت الفرامل يجعل الفرامل تعمل."
+   },
+   {
+    "start": 46.614,
+    "dur": 1.872,
+    "en": "Dipstick.",
+    "ar": "مقياس الزيت."
+   },
+   {
+    "start": 52.486,
+    "dur": 3.216,
+    "en": "The dipstick is a tool to check the oil level.",
+    "ar": "مقياس الزيت أداة لفحص مستوى الزيت."
+   },
+   {
+    "start": 56.052,
+    "dur": 4.128,
+    "en": "One meaning was not needed: a pipe that carries air.",
+    "ar": "معنى واحد لم يكن مطلوباً: أنبوب ينقل الهواء."
+   },
+   {
+    "start": 60.53,
+    "dur": 7.92,
+    "en": "Now a second text, about parts in Syria. Three words first: import, genuine part, and stock.",
+    "ar": "الآن نصّ ثانٍ، عن القطع في سوريا. ثلاث كلمات أوّلاً: الاستيراد، والقطعة الأصليّة، والمخزون."
+   },
+   {
+    "start": 68.8,
+    "dur": 8.952,
+    "en": "In Syria, good parts and fluids are not always easy to find. New cars are hard to import, and some parts must come from far away.",
+    "ar": "في سوريا، القطع والسوائل الجيّدة ليست دائماً سهلة الإيجاد. استيراد السيارات الجديدة صعب، وبعض القطع يجب أن تأتي من بعيد."
+   },
+   {
+    "start": 78.102,
+    "dur": 8.256,
+    "en": "So prices can be high, and a part is not always in the shop. Many garages keep a small stock of the parts they use most.",
+    "ar": "لذا قد تكون الأسعار مرتفعة، والقطعة ليست دائماً في المحل. كثير من الورشات تحفظ مخزوناً صغيراً من القطع الأكثر استخداماً."
+   },
+   {
+    "start": 86.708,
+    "dur": 5.04,
+    "en": "A careful manager checks the stock every week and orders more before it runs out.",
+    "ar": "المدير الحريص يفحص المخزون كلّ أسبوع ويطلب المزيد قبل أن ينتهي."
+   },
+   {
+    "start": 92.098,
+    "dur": 4.872,
+    "en": "Prices for some parts can be high. True or false?",
+    "ar": "أسعار بعض القطع قد تكون مرتفعة. صحيح أم خطأ؟"
+   },
+   {
+    "start": 102.853,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 105.075,
+    "dur": 5.496,
+    "en": "A careful manager checks the stock every week. True or false?",
+    "ar": "المدير الحريص يفحص المخزون كلّ أسبوع. صحيح أم خطأ؟"
+   },
+   {
+    "start": 117.159,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 119.381,
+    "dur": 5.88,
+    "en": "Genuine parts and cheaper parts are exactly the same. True or false?",
+    "ar": "القطع الأصليّة والقطع الأرخص متماثلة تماماً. صحيح أم خطأ؟"
+   },
+   {
+    "start": 132.261,
+    "dur": 5.112,
+    "en": "False. Genuine parts cost more but last longer.",
+    "ar": "خطأ. القطع الأصليّة أغلى لكنّها تدوم أطول."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 17.076,
+    "hold": 9.7,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 26.826,
+    "hold": 9.15,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 36.024,
+    "hold": 8.74,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 44.814,
+    "hold": 10.67,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

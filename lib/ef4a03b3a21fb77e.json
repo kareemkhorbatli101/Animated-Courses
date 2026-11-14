@@ -1,0 +1,156 @@
+{
+ "schema": "timeline/1",
+ "duration": 108.26,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.904,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.704,
+    "dur": 7.032,
+    "en": "This is Part 5, The Engine and Its Fluids. You will hear the reading, then answer three questions.",
+    "ar": "هذا الجزء الخامس، المحرّك وسوائله. ستسمع النصّ، ثمّ تجيب عن ثلاثة أسئلة."
+   },
+   {
+    "start": 14.086,
+    "dur": 4.704,
+    "en": "Before you read: which fluid do you think is the most important for the engine?",
+    "ar": "قبل أن تقرأ: أيّ سائل تعتقد أنّه الأهمّ للمحرّك؟"
+   },
+   {
+    "start": 19.14,
+    "dur": 9.408,
+    "en": "Three words first. Level is how much of a fluid there is. Top up is to add more of a fluid. Damaged is broken or harmed.",
+    "ar": "ثلاث كلمات أوّلاً. المستوى هو مقدار السائل الموجود. الإضافة هي أن تضيف المزيد من سائل. والتالف هو المكسور أو المتضرّر."
+   },
+   {
+    "start": 28.898,
+    "dur": 7.416,
+    "en": "An engine has many parts, and it needs several fluids to work well. The most important fluid is engine oil.",
+    "ar": "للمحرّك أجزاء كثيرة، ويحتاج عدّة سوائل ليعمل جيّداً. أهمّ سائل هو زيت المحرّك."
+   },
+   {
+    "start": 36.664,
+    "dur": 7.92,
+    "en": "Oil keeps the engine parts moving smoothly, so there must always be enough. The mechanic checks the oil with a dipstick.",
+    "ar": "الزيت يحافظ على حركة أجزاء المحرّك بسلاسة، فيجب أن يكون كافياً دائماً. يفحص الميكانيكي الزيت بمقياس الزيت."
+   },
+   {
+    "start": 44.934,
+    "dur": 8.448,
+    "en": "Coolant is also very important. It flows around the engine and through the radiator, and it stops the engine from getting too hot.",
+    "ar": "سائل التبريد مهمّ جدّاً أيضاً. يجري حول المحرّك وعبر الراديتير، ويمنع المحرّك من السخونة الشديدة."
+   },
+   {
+    "start": 53.732,
+    "dur": 7.848,
+    "en": "Brake fluid makes the brakes work, so it must be clean and at the right level. There is also washer fluid for the windscreen.",
+    "ar": "زيت الفرامل يجعل الفرامل تعمل، فيجب أن يكون نظيفاً وبالمستوى الصحيح. وهناك أيضاً سائل غسل للزجاج الأمامي."
+   },
+   {
+    "start": 61.93,
+    "dur": 9.408,
+    "en": "At every service, a good mechanic checks all the levels. If there isn't enough oil or coolant, the engine can be damaged, and the repair is expensive.",
+    "ar": "في كلّ صيانة، يفحص الميكانيكي الجيّد كلّ المستويات. إذا لم يكن هناك زيت أو سائل تبريد كافٍ، يمكن أن يتلف المحرّك، والإصلاح مكلف."
+   },
+   {
+    "start": 71.688,
+    "dur": 4.128,
+    "en": "So checking the fluids is a small job that saves a lot of money.",
+    "ar": "لذا فحص السوائل عمل صغير يوفّر مالاً كثيراً."
+   },
+   {
+    "start": 76.166,
+    "dur": 2.088,
+    "en": "What does coolant do?",
+    "ar": "ماذا يفعل سائل التبريد؟"
+   },
+   {
+    "start": 82.489,
+    "dur": 3.048,
+    "en": "It stops the engine getting too hot.",
+    "ar": "يمنع المحرّك من السخونة الشديدة."
+   },
+   {
+    "start": 85.887,
+    "dur": 2.76,
+    "en": "How does the mechanic check the oil?",
+    "ar": "كيف يفحص الميكانيكي الزيت؟"
+   },
+   {
+    "start": 93.765,
+    "dur": 2.016,
+    "en": "With a dipstick.",
+    "ar": "بمقياس الزيت."
+   },
+   {
+    "start": 96.131,
+    "dur": 2.928,
+    "en": "Why is checking the fluids important?",
+    "ar": "لماذا فحص السوائل مهمّ؟"
+   },
+   {
+    "start": 104.236,
+    "dur": 2.424,
+    "en": "It saves a lot of money.",
+    "ar": "يوفّر مالاً كثيراً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 33.273,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 41.602,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 47.784,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 93.765,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "schema": "timeline/1",
+ "duration": 167.892,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.6,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.4,
+    "dur": 7.512,
+    "en": "This is Part 10, the Spiral Review. Every Unit 3 answer, asked once - and one from Unit 2.",
+    "ar": "هذا الجزء العاشر، المراجعة اللولبية. كلّ جواب في الوحدة الثالثة، يُسأل مرّة واحدة - وواحد من الوحدة الثانية."
+   },
+   {
+    "start": 15.262,
+    "dur": 6.984,
+    "en": "A review of Unit 3. The book does the first one: you use a spanner to turn nuts and bolts.",
+    "ar": "مراجعة للوحدة الثالثة. الكتاب يحلّ الأولى: تستخدم مفتاح الربط لفكّ الصواميل والبراغي."
+   },
+   {
+    "start": 22.596,
+    "dur": 3.72,
+    "en": "A strong stand that holds the car up safely is what?",
+    "ar": "الحامل القويّ الذي يسند السيارة بأمان هو ماذا؟"
+   },
+   {
+    "start": 32.375,
+    "dur": 2.136,
+    "en": "An axle stand.",
+    "ar": "حامل محور."
+   },
+   {
+    "start": 34.861,
+    "dur": 3.576,
+    "en": "Safety gear like gloves and glasses is called what?",
+    "ar": "معدّات الوقاية مثل القفّازات والنظّارات تُسمّى ماذا؟"
+   },
+   {
+    "start": 44.437,
+    "dur": 1.872,
+    "en": "PPE.",
+    "ar": "معدّات الوقاية الشخصية."
+   },
+   {
+    "start": 46.659,
+    "dur": 5.184,
+    "en": "Blank your safety glasses. Which word, as an instruction?",
+    "ar": "فراغ نظّارات أمانك. أيّ كلمة، كتعليم؟"
+   },
+   {
+    "start": 58.196,
+    "dur": 3.816,
+    "en": "Wear. Wear your safety glasses.",
+    "ar": "Wear. ارتدِ نظّارات أمانك."
+   },
+   {
+    "start": 62.362,
+    "dur": 3.432,
+    "en": "To show the last step, which word do we use?",
+    "ar": "لإظهار الخطوة الأخيرة، أيّ كلمة نستخدم؟"
+   },
+   {
+    "start": 71.382,
+    "dur": 1.872,
+    "en": "Finally.",
+    "ar": "Finally. أخيراً."
+   },
+   {
+    "start": 73.604,
+    "dur": 4.248,
+    "en": "And from Unit 2: the fluid that keeps the engine cool is what?",
+    "ar": "ومن الوحدة الثانية: السائل الذي يبقي المحرّك بارداً هو ماذا؟"
+   },
+   {
+    "start": 84.499,
+    "dur": 1.872,
+    "en": "Coolant.",
+    "ar": "سائل التبريد."
+   },
+   {
+    "start": 86.721,
+    "dur": 7.464,
+    "en": "Five from five, and the last one came back from Unit 2. The words return, so they stay.",
+    "ar": "خمس من خمس، والأخيرة عادت من الوحدة الثانية. الكلمات تعود، فتبقى."
+   },
+   {
+    "start": 94.535,
+    "dur": 4.032,
+    "en": "Now, quick! Name each thing.",
+    "ar": "الآن، بسرعة! سمِّ كلّ شيء."
+   },
+   {
+    "start": 98.917,
+    "dur": 3.048,
+    "en": "What do you use to turn nuts and bolts?",
+    "ar": "بماذا تفكّ الصواميل والبراغي؟"
+   },
+   {
+    "start": 107.259,
+    "dur": 1.752,
+    "en": "A spanner.",
+    "ar": "مفتاح الربط."
+   },
+   {
+    "start": 109.361,
+    "dur": 3.288,
+    "en": "And what is this box of round tool heads?",
+    "ar": "وما هذا الصندوق ذو الرؤوس المستديرة؟"
+   },
+   {
+    "start": 118.061,
+    "dur": 2.016,
+    "en": "A socket set.",
+    "ar": "طقم المفاتيح."
+   },
+   {
+    "start": 120.427,
+    "dur": 3.48,
+    "en": "Which tool tightens a bolt to the exact level?",
+    "ar": "أيّ أداة تشدّ البرغي إلى الحدّ المضبوط؟"
+   },
+   {
+    "start": 129.613,
+    "dur": 1.992,
+    "en": "A torque wrench.",
+    "ar": "مفتاح العزم."
+   },
+   {
+    "start": 131.955,
+    "dur": 2.256,
+    "en": "And what lifts the car?",
+    "ar": "وما الذي يرفع السيارة؟"
+   },
+   {
+    "start": 138.564,
+    "dur": 2.064,
+    "en": "A trolley jack.",
+    "ar": "الرافعة المتحرّكة."
+   },
+   {
+    "start": 140.978,
+    "dur": 2.592,
+    "en": "What stops a wheel from rolling?",
+    "ar": "ما الذي يمنع العجلة من التدحرج؟"
+   },
+   {
+    "start": 148.452,
+    "dur": 1.896,
+    "en": "A wheel chock.",
+    "ar": "صادّ العجلة."
+   },
+   {
+    "start": 150.698,
+    "dur": 2.928,
+    "en": "And what do you use to put out a fire?",
+    "ar": "وبماذا تُخمد الحريق؟"
+   },
+   {
+    "start": 158.862,
+    "dur": 2.376,
+    "en": "A fire extinguisher.",
+    "ar": "طفّاية الحريق."
+   },
+   {
+    "start": 161.588,
+    "dur": 4.704,
+    "en": "Well done. You know the ten words of Unit 3.",
+    "ar": "أحسنت. أنت تعرف كلمات الوحدة الثالثة العشر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 17.825,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 32.375,
+    "hold": 3.0,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 44.437,
+    "hold": 3.0,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 84.499,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 107.259,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "socket_set",
+    "label": "socket set",
+    "ar": "طقم المفاتيح",
+    "at": 118.061,
+    "hold": 3.0,
+    "img": "assets/vocab/socket_set.png",
+    "sha": "8a569df2fb1093df"
+   },
+   {
+    "lemma": "torque_wrench",
+    "label": "torque wrench",
+    "ar": "مفتاح العزم",
+    "at": 129.613,
+    "hold": 3.0,
+    "img": "assets/vocab/torque_wrench.png",
+    "sha": "863d585e4b60937c"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 138.564,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "wheel_chock",
+    "label": "wheel chock",
+    "ar": "صادّ العجلة",
+    "at": 148.452,
+    "hold": 3.0,
+    "img": "assets/vocab/wheel_chock.png",
+    "sha": "39166eb056e54a9b"
+   },
+   {
+    "lemma": "fire_extinguisher",
+    "label": "fire extinguisher",
+    "ar": "طفّاية الحريق",
+    "at": 158.862,
+    "hold": 3.0,
+    "img": "assets/vocab/fire_extinguisher.png",
+    "sha": "6080a1ae532e6412"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

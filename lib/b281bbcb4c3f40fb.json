@@ -1,0 +1,156 @@
+{
+ "schema": "timeline/1",
+ "duration": 137.223,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.6,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.4,
+    "dur": 8.688,
+    "en": "This is Part 9, a Local Case Study. You will hear how a Damascus garage reached dealership standard, then decide yourself.",
+    "ar": "هذا الجزء التاسع، دراسة حالة محلّية. ستسمع كيف بلغت ورشة في دمشق معيار الوكالة، ثمّ تقرّر بنفسك."
+   },
+   {
+    "start": 16.438,
+    "dur": 5.016,
+    "en": "Before you read: what does a garage need to become an authorised service centre?",
+    "ar": "قبل أن تقرأ: ما تحتاجه الورشة لتصبح مركز خدمة معتمداً؟"
+   },
+   {
+    "start": 21.804,
+    "dur": 5.736,
+    "en": "I once visited a small garage in Damascus that wanted to become an authorised service centre.",
+    "ar": "زرتُ مرّة ورشة صغيرة في دمشق أرادت أن تصبح مركز خدمة معتمداً."
+   },
+   {
+    "start": 27.89,
+    "dur": 5.496,
+    "en": "The owner did good work, but the workshop was not safe enough for the dealership standard.",
+    "ar": "كان صاحبها يعمل عملاً جيّداً، لكن الورشة لم تكن آمنة بما يكفي لمعيار الوكالة."
+   },
+   {
+    "start": 33.736,
+    "dur": 8.016,
+    "en": "I gave simple advice. You do not need expensive machines first, I said. You need safety.",
+    "ar": "أعطيتُ نصيحة بسيطة. لا تحتاج آلات غالية أوّلاً، قلتُ. تحتاج الأمان."
+   },
+   {
+    "start": 42.102,
+    "dur": 5.064,
+    "en": "First, the owner bought safety gear for the team and a good set of axle stands.",
+    "ar": "أوّلاً، اشترى صاحب الورشة معدّات وقاية للفريق وطقماً جيّداً من حوامل المحور."
+   },
+   {
+    "start": 47.516,
+    "dur": 7.464,
+    "en": "Then he cleaned the workshop and put up a tool board. Next, he trained his mechanics in the five safety rules.",
+    "ar": "ثمّ نظّف الورشة وركّب لوحة عُدّة. بعد ذلك، درّب ميكانيكيّيه على قواعد الأمان الخمس."
+   },
+   {
+    "start": 55.33,
+    "dur": 7.92,
+    "en": "After six months, the garage passed the safety check and became an authorised service centre. The owner was proud.",
+    "ar": "بعد ستّة أشهر، نجحت الورشة في فحص الأمان وأصبحت مركز خدمة معتمداً. وكان صاحبها فخوراً."
+   },
+   {
+    "start": 63.6,
+    "dur": 4.368,
+    "en": "Now, he said, customers trust us, and my team is safe.",
+    "ar": "الآن، قال، الزبائن يثقون بنا، وفريقي آمن."
+   },
+   {
+    "start": 68.318,
+    "dur": 3.216,
+    "en": "What did Maher say the owner needed first?",
+    "ar": "ماذا قال ماهر إنّ صاحب الورشة يحتاجه أوّلاً؟"
+   },
+   {
+    "start": 77.005,
+    "dur": 3.384,
+    "en": "Safety, not expensive machines.",
+    "ar": "الأمان، لا الآلات الغالية."
+   },
+   {
+    "start": 80.739,
+    "dur": 2.688,
+    "en": "What three things did the owner do?",
+    "ar": "أيّ ثلاثة أمور فعلها صاحب الورشة؟"
+   },
+   {
+    "start": 88.486,
+    "dur": 7.032,
+    "en": "He bought safety gear and axle stands, cleaned the workshop and put up a tool board, and trained the team.",
+    "ar": "اشترى معدّات وقاية وحوامل محور، ونظّف الورشة وركّب لوحة عُدّة، ودرّب الفريق."
+   },
+   {
+    "start": 95.868,
+    "dur": 2.664,
+    "en": "What happened after six months?",
+    "ar": "ماذا حدث بعد ستّة أشهر؟"
+   },
+   {
+    "start": 103.355,
+    "dur": 4.848,
+    "en": "The garage passed the safety check and became an authorised service centre.",
+    "ar": "نجحت الورشة في فحص الأمان وأصبحت مركز خدمة معتمداً."
+   },
+   {
+    "start": 108.553,
+    "dur": 5.784,
+    "en": "Now your decision. A garage owner has some money to improve his workshop.",
+    "ar": "الآن قرارك. صاحب ورشة لديه بعض المال لتحسين ورشته."
+   },
+   {
+    "start": 114.687,
+    "dur": 6.864,
+    "en": "Should he first buy a new diagnostic machine, buy safety gear and axle stands and train the team, or paint the building?",
+    "ar": "هل يشتري أوّلاً آلة تشخيص جديدة، أم معدّات وقاية وحوامل محور ويدرّب الفريق، أم يدهن المبنى؟"
+   },
+   {
+    "start": 129.551,
+    "dur": 6.072,
+    "en": "Buy safety gear and axle stands and train the team. Safety must come first.",
+    "ar": "يشتري معدّات وقاية وحوامل محور ويدرّب الفريق. الأمان يجب أن يأتي أوّلاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 88.486,
+    "hold": 4.25,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 103.355,
+    "hold": 4.22,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

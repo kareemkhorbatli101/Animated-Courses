@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 142.973,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 7.368,
+    "en": "This is Part 7, Completing the Order. You will choose much, many, some or any, then role-play.",
+    "ar": "هذا الجزء السابع، إكمال الطلب. ستختار much أو many أو some أو any، ثمّ تلعب الدور."
+   },
+   {
+    "start": 14.638,
+    "dur": 4.032,
+    "en": "Complete the order with much, many, some, or any.",
+    "ar": "أكمل الطلب بـ much أو many أو some أو any."
+   },
+   {
+    "start": 19.02,
+    "dur": 2.472,
+    "en": "There isn't blank coolant.",
+    "ar": "ليس هناك فراغ سائل تبريد."
+   },
+   {
+    "start": 26.021,
+    "dur": 3.888,
+    "en": "Much. Coolant is uncountable.",
+    "ar": "Much. سائل التبريد غير معدود."
+   },
+   {
+    "start": 30.259,
+    "dur": 2.664,
+    "en": "There aren't blank oil filters.",
+    "ar": "ليس هناك فراغ فلاتر زيت."
+   },
+   {
+    "start": 37.747,
+    "dur": 3.768,
+    "en": "Many. Filters are countable.",
+    "ar": "Many. الفلاتر معدودة."
+   },
+   {
+    "start": 41.865,
+    "dur": 2.664,
+    "en": "Please order blank air filters.",
+    "ar": "اطلب فراغ فلاتر هواء."
+   },
+   {
+    "start": 49.353,
+    "dur": 4.128,
+    "en": "Some. It is a positive instruction.",
+    "ar": "Some. إنّه تعليم مثبت."
+   },
+   {
+    "start": 53.831,
+    "dur": 2.64,
+    "en": "Is there blank brake fluid left?",
+    "ar": "هل بقي فراغ زيت فرامل؟"
+   },
+   {
+    "start": 61.353,
+    "dur": 3.336,
+    "en": "Any. It is a question.",
+    "ar": "Any. إنّه سؤال."
+   },
+   {
+    "start": 65.039,
+    "dur": 5.52,
+    "en": "Now the role play. One is the manager; one is the mechanic.",
+    "ar": "الآن لعب الأدوار. أحدكما المدير؛ والآخر الميكانيكي."
+   },
+   {
+    "start": 70.909,
+    "dur": 11.04,
+    "en": "The model: How much oil do we have? There is plenty. How many filters are there? Only two. Please order ten more.",
+    "ar": "النموذج: كم زيتاً لدينا؟ هناك وفير. كم فلتراً هناك؟ اثنان فقط. اطلب عشرة أخرى."
+   },
+   {
+    "start": 82.299,
+    "dur": 6.24,
+    "en": "Card A, the manager: ask how much and how many of three items, then decide what to order.",
+    "ar": "البطاقة أ، المدير: اسأل كم من ثلاثة أصناف، ثمّ قرّر ما تطلبه."
+   },
+   {
+    "start": 88.889,
+    "dur": 6.0,
+    "en": "Card B, the mechanic: report the amounts using some, any, much, and many.",
+    "ar": "البطاقة ب، الميكانيكي: أبلغ الكمّيات مستخدماً some و any و much و many."
+   },
+   {
+    "start": 95.239,
+    "dur": 2.928,
+    "en": "Listen to the two of them do it first.",
+    "ar": "استمع إليهما يفعلانها أوّلاً."
+   },
+   {
+    "start": 98.517,
+    "dur": 3.336,
+    "en": "Tarek, how much engine oil do we have?",
+    "ar": "طارق، كم زيت محرّك لدينا؟"
+   },
+   {
+    "start": 102.203,
+    "dur": 4.896,
+    "en": "There is plenty, Ustaz. Four full bottles.",
+    "ar": "هناك وفير يا أستاذ. أربع عبوات ممتلئة."
+   },
+   {
+    "start": 107.449,
+    "dur": 4.056,
+    "en": "Good. And how many air filters are there?",
+    "ar": "جيّد. وكم فلتر هواء هناك؟"
+   },
+   {
+    "start": 111.855,
+    "dur": 3.84,
+    "en": "Only two. There aren't many left.",
+    "ar": "اثنان فقط. لم يبقَ كثير."
+   },
+   {
+    "start": 116.045,
+    "dur": 2.76,
+    "en": "Then please order ten more today.",
+    "ar": "إذاً اطلب عشرة أخرى اليوم."
+   },
+   {
+    "start": 119.155,
+    "dur": 7.584,
+    "en": "A harder one: money is tight this month. Decide which parts to order now and which can wait, and explain why.",
+    "ar": "واحدة أصعب: المال قليل هذا الشهر. قرّر أيّ القطع تطلبها الآن وأيّها يمكن أن تنتظر، واشرح لماذا."
+   },
+   {
+    "start": 127.089,
+    "dur": 5.808,
+    "en": "Last, you are the manager. Write a short order note to the supplier.",
+    "ar": "وأخيراً، أنت المدير. اكتب مذكّرة طلب قصيرة للمورّد."
+   },
+   {
+    "start": 133.247,
+    "dur": 4.056,
+    "en": "Give three items, how many of each, and the day you need them.",
+    "ar": "اذكر ثلاثة أصناف، وكم من كلّ واحد، واليوم الذي تحتاجها فيه."
+   },
+   {
+    "start": 137.653,
+    "dur": 3.72,
+    "en": "Pause the video, and write forty to sixty words.",
+    "ar": "أوقف الفيديو، واكتب من أربعين إلى ستّين كلمة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 18.145,
+    "hold": 10.88,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "brake_fluid",
+    "label": "brake fluid",
+    "ar": "زيت الفرامل",
+    "at": 52.706,
+    "hold": 8.6,
+    "img": "assets/vocab/brake_fluid.png",
+    "sha": "2cf3f1bf87049b29"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

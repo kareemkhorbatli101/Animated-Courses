@@ -59,6 +59,13 @@
   function jawAt(mouth,t){ return chanAt(mouth,t,'env',JAW_GAIN); }
   // v28: see interp.viseme_at - gated on the jaw, so no shape is held through a silence.
   var VIS_GAIN=0.55;
+  // v29.36: see engine/interp - the four gaze constants, which must be these exact numbers in both
+  // languages or gates/gaze_parity fails. The gain is 1.0 and not the browser preview's old 0.6 because no
+  // forge head carries an eye-gaze morph to take the remainder (measured; see interp.py's registry note).
+  var GAZE_GAIN=1.0, GAZE_CLAMP=0.20, GAZE_EYE=0.8, GAZE_UP=-0.05, GAZE_Q=1e6;
+  // see engine/interp._g6 - floor(v*Q+0.5)/Q, NOT Math.round, because Python rounds half to even and
+  // JS rounds half up. atan2 is not correctly rounded in either language and the two disagree by an ulp.
+  function g6(v){ return Math.floor(v*GAZE_Q+0.5)/GAZE_Q; }
   function visemeAt(mouth,t){
     var openNow=chanAt(mouth,t,'env',1.0);
     if(openNow<=0.0) return [0.0,0.0];
@@ -72,11 +79,11 @@
     var spk=speakerAt(speakers,t), spkPos = speakerPosEased(sc,t);
     var out=[];
     for(var idx=0; idx<acts.length; idx++){
-      var a=acts[idx], pos=a.pos.slice(), face=a.base_face, moving=false, frm=a.pos.slice();
+      var a=acts[idx], pos=a.pos.slice(), face=a.base_face, moving=false, frm=a.pos.slice(), mvFrom=null;
       var moves=a.moves||[];
       for(var m=0;m<moves.length;m++){ var mv=moves[m];
         if(t>=mv.at){ var e=ease((t-mv.at)/Math.max(0.1,mv.dur)); var to=[mv.to[0],a.pos[1],mv.to[1]];
-          pos=lerp3(frm,to,e); if(e<1){ moving=true; face=Math.atan2(to[0]-frm[0],to[2]-frm[2]); } frm=to; } }
+          pos=lerp3(frm,to,e); if(e<1){ moving=true; face=Math.atan2(to[0]-frm[0],to[2]-frm[2]); mvFrom=frm; } frm=to; } }
       if(dancers.indexOf(idx)>=0){
         var other=dancers.filter(function(j){return j!==idx;});
         if(other.length){ var op=acts[other[0]].pos; face=Math.atan2(op[0]-pos[0],op[2]-pos[2]); }
@@ -101,11 +108,16 @@
       // see interp.drive: a looping Talk clip fights the measured envelope, so the envelope wins
       if(jaw>0.0 && clip==="Talk") clip="Idle";
       var clipT = t - clipSince;
+      // v29.1: see interp.drive - a rig-2 walker's cycle follows the ground it covers, so its feet stay planted
+      if(moving && a.walkSpeed && mvFrom!==null){ var wdx=pos[0]-mvFrom[0], wdz=pos[2]-mvFrom[2];
+        clipT = Math.sqrt(wdx*wdx + wdz*wdz) / a.walkSpeed; }
+      // v29.1: see interp.drive - a move that plays once holds its last pose (rig 2 only)
+      if(a.once && a.once.hasOwnProperty(clip) && clipT > a.once[clip]) clipT = a.once[clip];
       var vz = visemeAt(a.mouth,t);
       out.push({pos:pos, face:face, clip:clip, jaw:jaw, wide:vz[0], round:vz[1],
                 clip_t: clipT>0.0?clipT:0.0});
     }
-    var cp,ct;
+    var cp,ct,shotFov=null;
     if(sc.camera_mode==="group"){
       var g=sc.group, f=favoredAt(sc,t);
       cp=[g.gcx+(f[0]-g.gcx)*FAVOR_POS, CAM_Y, g.front_z-CAM_D];
@@ -113,11 +125,66 @@
     } else {
       var shots=sc.shots, cur=lastLE(shots,t), ci=shots.indexOf(cur), nxt=ci+1<shots.length?shots[ci+1]:null;
       cp=[cur.px,cur.py,cur.pz]; ct=[cur.tx,cur.ty,cur.tz];
+      shotFov = (cur.fov===undefined||cur.fov===null) ? null : cur.fov;
       if(nxt && !cur.cut){ var e2=ease((t-cur.at)/Math.max(0.1,nxt.at-cur.at));
-        cp=lerp3(cp,[nxt.px,nxt.py,nxt.pz],e2); ct=lerp3(ct,[nxt.tx,nxt.ty,nxt.tz],e2); }
-      if(spkPos!==null) ct=lerp3(ct,[spkPos[0],spkPos[1]+1.35,spkPos[2]],0.6);
+        cp=lerp3(cp,[nxt.px,nxt.py,nxt.pz],e2); ct=lerp3(ct,[nxt.tx,nxt.ty,nxt.tz],e2);
+        // v29.36: see interp.drive - a shot that GLIDES glides its lens too, from whichever end declares
+        // one (the other falls back to the scene's lens, then the renderer's default). A cut holds its own.
+        var nf2=(nxt.fov===undefined||nxt.fov===null)?null:nxt.fov;
+        if(shotFov!==null || nf2!==null){
+          var dfl2=sc.camera_fov||sc.fov;
+          var a02=(shotFov!==null)?shotFov:dfl2, a12=(nf2!==null)?nf2:dfl2;
+          shotFov=a02+(a12-a02)*e2;
+        } }
+      // v29.17: see interp.drive - <camera aim="shot"> holds the written shot; the default favours the speaker
+      if(spkPos!==null && (sc.camera_aim||'speaker')!=='shot') ct=lerp3(ct,[spkPos[0],spkPos[1]+1.35,spkPos[2]],0.6);
     }
-    return {actors:out, camera:{pos:cp, target:ct}};
+    var res={actors:out, camera:{pos:cp, target:ct}};
+    // v29.36: see interp.drive - only a scene whose shots declare a lens carries `fov` at all, so the
+    // camera object a delivered spec produces keeps exactly the two keys it has always had.
+    if(sc.camera_mode!=="group" && shotFov!==null) res.camera.fov=shotFov;
+    // v29.36 GAZE, opt-in - the mirror of interp.drive. A SECOND pass, because one actor's target is
+    // another's resolved position, and the two interpreters must read the same finished positions rather
+    // than whatever order each one's loop happens to run in.
+    if(sc.gaze_mode){
+      var spkXZ=null;
+      if(spk!==null && spk!==undefined && spk>=0 && spk<out.length) spkXZ=[out[spk].pos[0],out[spk].pos[2]];
+      for(var gi=0; gi<acts.length; gi++){
+        var ga=acts[gi], gst=out[gi], gt=null, gzl=ga.gazes||[];
+        if(gzl.length){ var gg=lastLE(gzl,t); gt=(gg.to==='speaker')?spkXZ:gg.to; }
+        if(gt===null && spk!==null && spk!==undefined && spk>=0 && spk!==gi) gt=spkXZ;
+        var gyaw=0.0, glr=0.0, glu=0.0;
+        if(gt!==null && gt!==undefined){
+          var grel=wrap(Math.atan2(gt[0]-gst.pos[0], gt[1]-gst.pos[2]) - gst.face);
+          gyaw=GAZE_GAIN*grel;
+          gyaw=(gyaw<-GAZE_CLAMP)?-GAZE_CLAMP:((gyaw>GAZE_CLAMP)?GAZE_CLAMP:gyaw);
+          glr=grel/GAZE_EYE;
+          glr=(glr<-1.0)?-1.0:((glr>1.0)?1.0:glr);
+          glu=GAZE_UP;
+        }
+        gst.head_yaw=g6(gyaw); gst.look_right=g6(glr); gst.look_up=g6(glu);
+      }
+    }
+    if(sc.props && sc.props.length) res.props=sc.props.map(function(p){ return propState(p,t); });   // v29.1
+    return res;
+  }
+
+  // v29.1: see interp.prop_state - held (by actor index, in a hand) or resting (at a place), the last event decides
+  function propState(p,t){
+    var st={held:-1, hand:'R', pos:p.rest.pos, quat:p.rest.quat}, ev=p.events||[];
+    for(var i=0;i<ev.length;i++){
+      if(ev[i].at>t) break;
+      if(ev[i].hold!==undefined) st={held:ev[i].hold, hand:ev[i].hand, pos:st.pos, quat:st.quat};
+      else st={held:-1, hand:st.hand, pos:ev[i].rest.pos, quat:ev[i].rest.quat};
+    }
+    // v29.27 TIMED VISIBILITY - the mirror of engine/interp.prop_state. The rule is written out the same way in
+    // both languages, including the >= on hide, because gates/interpreter_parity compares the two at
+    // max_error 0.00e+00 and a boundary that differs by one frame is a difference.
+    var vis=true;
+    if(p.show!==undefined && p.show!==null && t<p.show) vis=false;
+    if(p.hide!==undefined && p.hide!==null && t>=p.hide) vis=false;
+    st.visible=vis;
+    return st;
   }
 
   function groupOf(actors){
@@ -207,6 +274,9 @@
     for(var i=0;i<S.actors.length;i++){ this.mixers.push(null); this.roots.push(null); this.curClip.push(null); }
     var items=[{rel:setRel, kind:'set'}];
     for(var j=0;j<S.actors.length;j++) items.push({rel:S.actors[j].model_glb, kind:'actor', idx:j});
+    // v29.1: the props that change hands - separate models, placed or carried by seek()
+    this.props=[]; this._holds={};
+    for(var pj=0;pj<(S.props||[]).length;pj++){ this.props.push(null); items.push({rel:S.props[pj].glb, kind:'prop', idx:pj}); }
     var loader=new THREE.GLTFLoader(), remaining=items.length;
     // v27.36: EXT_meshopt_compression, for the site's smaller encoding. GLTFLoader already understands
     // the extension and cannot decode without a decoder, and compressed assets mark it REQUIRED - so an
@@ -236,13 +306,45 @@
         o.geometry.setAttribute('skinWeight', new THREE.BufferAttribute(f, a.itemSize, false));
       });
     }
+    // v29.0 DRESSING (engine/dress.py): the lesson's values on the room's named places, drawn ONCE at load, never by
+    // seek(). A quad is the very PNG Prime drew, unlit and outside tone mapping, so its colours are the PNG's in both
+    // renderers; a paint sets the named part's base colour EXACTLY as this GLTFLoader sets a baked factor
+    // (color.fromArray), so a painted part and a baked part of that colour agree here as they do in Prime.
+    var dress=S.dress||[], quads=dress.filter(function(d){return d.kind==='quad';});
+    remaining += quads.length;
+    self.dressErrors=[];
+    function paintSet(root){
+      dress.forEach(function(d){
+        if(d.kind!=='paint') return;
+        var hit=0;
+        root.traverse(function(o){ if(o.isMesh && o.name===d.mesh && o.material){ o.material.color.fromArray(d.factor); hit++; } });
+        if(!hit) self.dressErrors.push(d.anchor);
+      });
+    }
+    quads.forEach(function(d){
+      var img=new Image();
+      img.onload=function(){
+        var tex=new THREE.Texture(img); tex.encoding=THREE.sRGBEncoding; tex.needsUpdate=true;
+        var m=new THREE.Mesh(new THREE.PlaneGeometry(d.size[0], d.size[1]),
+          new THREE.MeshBasicMaterial({map:tex, transparent:true, toneMapped:false, side:THREE.DoubleSide}));
+        m.position.set(d.pos[0], d.pos[1], d.pos[2]); m.rotation.y=d.rotY; m.name='dress:'+d.anchor;
+        scene.add(m); done();
+      };
+      img.onerror=function(){ self.dressErrors.push(d.anchor); done(); };
+      img.src=URL.createObjectURL(new Blob([buffers[d.png]], {type:'image/png'}));
+    });
     function done(){ if(--remaining===0){ self._finish(S); if(onReady) onReady(); } }
     items.forEach(function(item){
       var buf=buffers[item.rel];
       loader.parse(buf, '', function(g){
         if(item.kind==='set'){
           g.scene.traverse(function(o){ if(o.isMesh){ o.castShadow=shadows; o.receiveShadow=shadows; } });
+          paintSet(g.scene);
           scene.add(g.scene);
+        } else if(item.kind==='prop'){
+          var pr=g.scene; pr.matrixAutoUpdate=false; pr.name='prop:'+S.props[item.idx].id;
+          if(shadows) pr.traverse(function(o){ if(o.isMesh) o.castShadow=true; });
+          scene.add(pr); self.props[item.idx]=pr;
         } else {
           var root=g.scene; denormaliseSkinWeights(root);
           if(shadows) root.traverse(function(o){ if(o.isMesh) o.castShadow=true; });
@@ -254,27 +356,28 @@
     });
     return this;
   };
-  // COMPENSATES: the browser player framed every shot wider than the MP4 of the same scene, because
-  // COMPENSATES: Prime (pygfx) and THREE.js interpret `fov` differently.
-  // ROOT-CAUSE: not established. The relation was fitted empirically, not derived - the original comment
-  // ROOT-CAUSE: said "FOVK~0.70", and a tilde in a constant is a fudge factor admitting itself. One of
-  // ROOT-CAUSE: the two renderers is applying fov to a different axis or a different convention, and
-  // ROOT-CAUSE: until that is established this constant hides the disagreement rather than resolving it.
-  // VERIFY: render one scene through Prime and through the player at the same fov, measure the framed
-  // VERIFY: height of a known object in both; if they agree with FOVK = 1.0 the compensation is dead.
-  // VERIFY: gates/gates.gate_bundle_parity already compares the two pictures structurally and would
-  // VERIFY: register the change, so the measurement has somewhere to land.
-  // RE-TEST-WHEN: pygfx or three.js changes its camera/projection handling, or either renderer's fov
-  // RE-TEST-WHEN: convention is documented.
-  // REVIEW-BY: 2026-12-01
-  var FOVK = 0.70;
-  function primeFovToThree(fp){ return 2*Math.atan(FOVK*Math.tan(fp*Math.PI/360))*180/Math.PI; }
+  // THE FOV CONVENTION, DERIVED (v29.0) - it replaces FOVK = 0.70, a constant fitted by eye and registered as a
+  // compensation whose root cause was "not established". The root cause: pygfx applies `fov` to the MEAN of the
+  // view's width and height (pygfx 0.17, cameras/_perspective.py: size = 2*near*tan(fov/2); height =
+  // 2*size/(1+aspect)); THREE.js applies it to the height. So Prime's fov fp is the THREE vertical fov f3 with
+  // tan(f3/2) = tan(fp/2) * 2/(1+aspect) - 0.72 at 16:9, not 0.70. The 0.02 framed every web-player shot 2.8% tighter
+  // than the MP4 of the same scene (measured on the dress probe: the board 536 px wide in the page, 520 in Prime).
+  // gates/param_growth and gates/param_parity hold the two renderers to the same pixels for a dressed place.
+  function primeFovToThree(fp, aspect){ return 2*Math.atan(2/(1+aspect)*Math.tan(fp*Math.PI/360))*180/Math.PI; }
   ScenePlayer.prototype._finish = function(S){
     var THREE=this.THREE;
-    this.sc={ actors:S.actors.map(function(a){return {pos:a.pos, base_face:a.base_face, moves:a.moves||[], looks:a.looks||[], clips:a.clips||[], mouth:a.mouth||[]};}),
+    this.sc={ actors:S.actors.map(function(a){var o={pos:a.pos, base_face:a.base_face, moves:a.moves||[], looks:a.looks||[], clips:a.clips||[], mouth:a.mouth||[]};
+                if(a.walkSpeed) o.walkSpeed=a.walkSpeed; if(a.once) o.once=a.once;
+                if(a.gazes) o.gazes=a.gazes;                                                 // v29.36 gaze cues
+                return o;}),    // v29.1 rig-2 walkers
+              props:(S.props||[]).map(function(p){return {id:p.id, rest:p.rest, events:p.events||[]};}),   // v29.1
               dancers:S.dancers||[], speakers:S.speakers||[], camera_mode:S.camera.mode, shots:S.shots,
               group:groupOf(S.actors), fov:S.camera.fov };
-    this.camera=new THREE.PerspectiveCamera(primeFovToThree(S.camera.fov), (S.size?S.size[0]/S.size[1]:16/9), 0.05, 500);
+    if(S.camera.aim) this.sc.camera_aim=S.camera.aim;                                        // v29.17
+    if(S.camera.fovDeg) this.sc.camera_fov=S.camera.fovDeg;                                  // v29.30 declared lens
+    if(S.camera.gaze) this.sc.gaze_mode=S.camera.gaze;                                       // v29.36
+    var aspect=(S.size?S.size[0]/S.size[1]:16/9);
+    this.camera=new THREE.PerspectiveCamera(primeFovToThree(S.camera.fov, aspect), aspect, 0.05, 500);
   };
   // v28: every mesh on actor i that carries a mouth morph, found once per actor and then reused. Walking
   // the scene graph per frame would be the kind of cost that is invisible on one actor and not on five.
@@ -313,6 +416,33 @@
   ScenePlayer.prototype.sayStop = function(){ this.live = null; return this; };
   ScenePlayer.prototype.saying = function(){ return !!this.live; };
 
+  // v29.36: the node the head rides on, found once per actor. The forge parents head, hair and eyes to a
+  // WorldObject called `neck`; there is no bone named head on this skeleton, which is why the old preview
+  // page's /head/ bone search turned nothing at all.
+  ScenePlayer.prototype._neckNode = function(i){
+    this._nk = this._nk || [];
+    if(this._nk[i] !== undefined) return this._nk[i];
+    var root=this.roots[i];
+    this._nk[i] = (root && root.getObjectByName('neck')) || null;
+    return this._nk[i];
+  };
+  ScenePlayer.prototype._setGaze = function(i, yaw, lookR, lookU){
+    var THREE=this.THREE, nk=this._neckNode(i);
+    if(nk){
+      var q=new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0), yaw);
+      nk.quaternion.multiply(q);
+    }
+    // the eye morphs, where a head has them. No forge head does today (measured: eyeBlink, jawOpen,
+    // mouthWide, mouthRound and nothing else), so this loop writes nothing - and does the right thing
+    // the day one exports them, without a player change.
+    var root=this.roots[i];
+    if(root) root.traverse(function(o){
+      var d=o.morphTargetDictionary, w=o.morphTargetInfluences;
+      if(!d || !w) return;
+      if(d.lookRight!==undefined) w[d.lookRight]=lookR;
+      if(d.lookUp!==undefined) w[d.lookUp]=lookU;
+    });
+  };
   ScenePlayer.prototype._setClip = function(i, want){
     var m=this.mixers[i]; if(want===m.cur) return;
     var cl=null; for(var k=0;k<m.clips.length;k++){ if(m.clips[k].name===want){ cl=m.clips[k]; break; } }
@@ -343,6 +473,38 @@
         var lm = liveMouthAt(liveNow() - this.live.word);
         this._setMouth(i, lm[0], lm[1], lm[2]);
       }
+      // v29.36 GAZE. Also after mixer.setTime, and for the same reason the mouth is: the seated clips
+      // animate `neck` themselves, so a write before the seek would be overwritten. COMPOSED with what
+      // the clip wrote, exactly as engine/prime_stage.set_gaze does it, so the nod survives the turn.
+      // THREE.GLTFLoader sanitises node names, but `neck` has no dot in it, so one spelling is enough -
+      // unlike 'hold.R' below, which arrives as 'holdR'.
+      if(st.head_yaw !== undefined) this._setGaze(i, st.head_yaw, st.look_right||0, st.look_up||0);
+    }
+    // v29.1 THE PROPS: after every actor's pose is set, each is either resting (its place) or riding the palm's hold
+    // node of the actor holding it - the node's WORLD matrix, the same one Prime reads
+    var props=fr.props||[];
+    for(var pk=0;pk<props.length;pk++){
+      var obj=this.props[pk], ps=props[pk]; if(!obj) continue;
+      obj.visible = (ps.visible===undefined) ? true : !!ps.visible;   // v29.27 timed visibility (Prime: place_props)
+      if(ps.held>=0 && this.roots[ps.held]){
+        var key=ps.held+':'+ps.hand, hn=this._holds[key];
+        // THREE.GLTFLoader SANITISES node names: 'hold.R' in the file arrives here as 'holdR' - a dot is
+        // reserved for property paths in its animation bindings, so it is REMOVED. Looking only for the file's own name
+        // found nothing, and the branch below then left every held prop AT ITS RESTING PLACE - the teapot
+        // stayed on the table while the woman carried it, silently, in the web player only. Both spellings
+        // are tried now, and a miss is recorded rather than passed over (gates/movement_check R measured
+        // it at 496.7 mm against Prime).
+        if(!hn){ hn=this.roots[ps.held].getObjectByName('hold.'+ps.hand)
+                    || this.roots[ps.held].getObjectByName('hold'+ps.hand)
+                    || this.roots[ps.held].getObjectByName('hold_'+ps.hand);
+                 if(!hn){ (this.warnings||(this.warnings=[])).push('no hold node: actor '+ps.held+' hand '+ps.hand); }
+                 this._holds[key]=hn||null; }
+        if(hn){ this.roots[ps.held].updateMatrixWorld(true); obj.matrix.copy(hn.matrixWorld); }
+      } else {
+        obj.matrix.compose(new THREE.Vector3(ps.pos[0],ps.pos[1],ps.pos[2]),
+                           new THREE.Quaternion(ps.quat[0],ps.quat[1],ps.quat[2],ps.quat[3]), new THREE.Vector3(1,1,1));
+      }
+      obj.matrixWorldNeedsUpdate=true;
     }
     // THE VIEWER'S CAMERA, APPLIED AFTER drive() AND NOWHERE ELSE.
     //
@@ -354,12 +516,14 @@
     // The rule runs BACKWARDS here on purpose: what both renderers must agree on belongs in drive()'s
     // output, so the one thing they must NOT share belongs exactly here instead. Putting the viewer's
     // camera in drive() would leave parity passing while comparing nothing.
+    // v29.36: the lens this frame is shot through - the shot's own, else the scene's, else the default.
+    // It is applied whether or not a viewer view is set, because it is the DIRECTOR's lens.
     var cam = fr.camera;
-    if(this.view){
-      cam = this.view.apply(fr.camera, this.sc.fov);
-      var f = cam.fov > 0 ? primeFovToThree(cam.fov) : this.camera.fov;
-      if(Math.abs(this.camera.fov - f) > 1e-6){ this.camera.fov = f; this.camera.updateProjectionMatrix(); }
-    }
+    var primeFov = (fr.camera.fov !== undefined && fr.camera.fov !== null) ? fr.camera.fov : this.sc.fov;
+    if(this.view) cam = this.view.apply(fr.camera, primeFov);
+    var wantFov = (this.view && cam.fov > 0) ? cam.fov : primeFov;
+    var f3 = primeFovToThree(wantFov, this.camera.aspect);
+    if(Math.abs(this.camera.fov - f3) > 1e-6){ this.camera.fov = f3; this.camera.updateProjectionMatrix(); }
     this.camera.position.set(cam.pos[0],cam.pos[1],cam.pos[2]);
     this.camera.lookAt(cam.target[0],cam.target[1],cam.target[2]);
     // Roll is the one degree of freedom no authored shot has - the player aims with lookAt and a default

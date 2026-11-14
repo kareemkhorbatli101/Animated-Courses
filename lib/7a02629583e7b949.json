@@ -1,0 +1,267 @@
+{
+ "schema": "timeline/1",
+ "duration": 167.08,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 6.288,
+    "en": "This is Part 10, the Spiral Review. Every Unit 2 answer, asked once.",
+    "ar": "هذا الجزء العاشر، المراجعة اللولبية. كلّ جواب في الوحدة الثانية، يُسأل مرّة واحدة."
+   },
+   {
+    "start": 13.558,
+    "dur": 7.032,
+    "en": "A review of Unit 2. The book does the first one: the machine that makes the car move is the engine.",
+    "ar": "مراجعة للوحدة الثانية. الكتاب يحلّ الأولى: الآلة التي تجعل السيارة تتحرّك هي المحرّك."
+   },
+   {
+    "start": 20.94,
+    "dur": 4.032,
+    "en": "A liquid that keeps the engine parts moving smoothly is what?",
+    "ar": "السائل الذي يحافظ على حركة أجزاء المحرّك بسلاسة هو ماذا؟"
+   },
+   {
+    "start": 31.56,
+    "dur": 3.312,
+    "en": "Oil. Engine oil.",
+    "ar": "الزيت. زيت المحرّك."
+   },
+   {
+    "start": 35.222,
+    "dur": 3.816,
+    "en": "The part that holds the coolant and lets heat escape is what?",
+    "ar": "الجزء الذي يحمل سائل التبريد ويسمح للحرارة بالخروج هو ماذا؟"
+   },
+   {
+    "start": 45.627,
+    "dur": 1.968,
+    "en": "The radiator.",
+    "ar": "الراديتير."
+   },
+   {
+    "start": 47.945,
+    "dur": 2.928,
+    "en": "There blank two filters in the box.",
+    "ar": "هناك فراغ فلتران في الصندوق."
+   },
+   {
+    "start": 55.931,
+    "dur": 4.248,
+    "en": "Are. There are two filters in the box.",
+    "ar": "Are. هناك فلتران في الصندوق."
+   },
+   {
+    "start": 60.529,
+    "dur": 2.832,
+    "en": "There blank some oil on the floor.",
+    "ar": "هناك فراغ بعض الزيت على الأرض."
+   },
+   {
+    "start": 68.361,
+    "dur": 4.008,
+    "en": "Is. There is some oil on the floor.",
+    "ar": "Is. هناك بعض الزيت على الأرض."
+   },
+   {
+    "start": 72.719,
+    "dur": 5.304,
+    "en": "Much is for uncountable nouns. What is for countable nouns?",
+    "ar": "much للأسماء غير المعدودة. وما هو للأسماء المعدودة؟"
+   },
+   {
+    "start": 84.494,
+    "dur": 1.872,
+    "en": "Many.",
+    "ar": "Many. للأسماء المعدودة."
+   },
+   {
+    "start": 86.716,
+    "dur": 6.144,
+    "en": "Five from five. Now, quick! Name each thing.",
+    "ar": "خمس من خمس. الآن، بسرعة! سمِّ كلّ شيء."
+   },
+   {
+    "start": 93.21,
+    "dur": 2.304,
+    "en": "What is this part called?",
+    "ar": "ما اسم هذا الجزء؟"
+   },
+   {
+    "start": 99.985,
+    "dur": 4.944,
+    "en": "The battery. It stores electricity to start the car.",
+    "ar": "البطارية. تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 105.279,
+    "dur": 1.992,
+    "en": "And what is this?",
+    "ar": "وما هذا؟"
+   },
+   {
+    "start": 111.271,
+    "dur": 5.232,
+    "en": "The alternator. It makes electricity while the engine runs.",
+    "ar": "الدينامو. يولّد الكهرباء أثناء دوران المحرّك."
+   },
+   {
+    "start": 116.853,
+    "dur": 2.544,
+    "en": "What do we call this rubber loop?",
+    "ar": "ماذا نسمّي هذه الحلقة المطّاطية؟"
+   },
+   {
+    "start": 124.338,
+    "dur": 4.08,
+    "en": "The belt. It turns parts in the engine.",
+    "ar": "السير. يُدوّر أجزاء في المحرّك."
+   },
+   {
+    "start": 128.768,
+    "dur": 2.136,
+    "en": "And this rubber pipe?",
+    "ar": "وهذا الأنبوب المطّاطي؟"
+   },
+   {
+    "start": 135.139,
+    "dur": 3.816,
+    "en": "The hose. It carries a fluid.",
+    "ar": "الخرطوم. ينقل سائلاً."
+   },
+   {
+    "start": 139.305,
+    "dur": 3.096,
+    "en": "What cleans the air going into the engine?",
+    "ar": "ما الذي ينظّف الهواء الداخل إلى المحرّك؟"
+   },
+   {
+    "start": 147.872,
+    "dur": 1.968,
+    "en": "The air filter.",
+    "ar": "فلتر الهواء."
+   },
+   {
+    "start": 150.19,
+    "dur": 2.928,
+    "en": "And what do you check the oil level with?",
+    "ar": "وبماذا تفحص مستوى الزيت؟"
+   },
+   {
+    "start": 158.53,
+    "dur": 1.872,
+    "en": "The dipstick.",
+    "ar": "مقياس الزيت."
+   },
+   {
+    "start": 160.752,
+    "dur": 4.728,
+    "en": "Well done. You know the ten words of Unit 2.",
+    "ar": "أحسنت. أنت تعرف كلمات الوحدة الثانية العشر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 20.203,
+    "hold": 14.19,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 34.447,
+    "hold": 11.13,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 99.985,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "alternator",
+    "label": "alternator",
+    "ar": "الدينامو",
+    "at": 111.271,
+    "hold": 3.0,
+    "img": "assets/vocab/alternator.png",
+    "sha": "885941b910ec936e"
+   },
+   {
+    "lemma": "belt",
+    "label": "belt",
+    "ar": "السير",
+    "at": 124.338,
+    "hold": 3.0,
+    "img": "assets/vocab/belt.png",
+    "sha": "00403a758c196774"
+   },
+   {
+    "lemma": "hose",
+    "label": "hose",
+    "ar": "الخرطوم",
+    "at": 135.139,
+    "hold": 3.0,
+    "img": "assets/vocab/hose.png",
+    "sha": "2a1e283c4fbcdee6"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 139.118,
+    "hold": 8.7,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 147.872,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 158.53,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

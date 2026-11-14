@@ -39,9 +39,10 @@
  * panel and the pad would then be editing different quantities for the same thing. The authored spec
  * still stores tx, ty, tz; the panel shows the resulting look-at point as a DERIVED readout.
  *
- * ZOOM IS A MULTIPLIER, never degrees - scene_player.js carries FOVK = 0.70, an admitted and unresolved
- * convention mismatch between Prime and three.js, and printing a degree figure would publish a
- * disagreement as though it were a fact.
+ * ZOOM IS A MULTIPLIER, never degrees. It was chosen while scene_player.js carried FOVK = 0.70, an unresolved
+ * convention mismatch between Prime and three.js. v29.0 derived the real relation (pygfx applies fov to the mean
+ * of width and height, three.js to the height; see primeFovToThree), and a multiplier stays right under it: a
+ * degree figure would still name one renderer's convention and not the other's.
  */
 (function (global) {
   'use strict';

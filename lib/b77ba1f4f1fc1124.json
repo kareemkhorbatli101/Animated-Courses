@@ -1,0 +1,186 @@
+{
+ "schema": "timeline/1",
+ "duration": 169.462,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.504,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.304,
+    "dur": 7.992,
+    "en": "This is Part 5, Words in Context. You will match four words, then read about a family garage in Damascus.",
+    "ar": "هذا الجزء الخامس، الكلمات في سياقها. ستطابق أربع كلمات، ثمّ تقرأ عن ورشة عائلية في دمشق."
+   },
+   {
+    "start": 15.646,
+    "dur": 4.344,
+    "en": "Four words from the text. Match each one with its meaning.",
+    "ar": "أربع كلمات من النصّ. طابق كلّ واحدة مع معناها."
+   },
+   {
+    "start": 20.34,
+    "dur": 1.872,
+    "en": "Safety gear.",
+    "ar": "معدّات الوقاية."
+   },
+   {
+    "start": 26.212,
+    "dur": 2.64,
+    "en": "The things you wear to protect yourself.",
+    "ar": "ما تلبسه لتحمي نفسك."
+   },
+   {
+    "start": 29.202,
+    "dur": 1.872,
+    "en": "To chock.",
+    "ar": "أن تصدّ."
+   },
+   {
+    "start": 35.074,
+    "dur": 3.168,
+    "en": "To put a block behind a wheel so it can't roll.",
+    "ar": "أن تضع قطعة خلف العجلة لتمنعها من التدحرج."
+   },
+   {
+    "start": 38.592,
+    "dur": 1.872,
+    "en": "An axle stand.",
+    "ar": "حامل المحور."
+   },
+   {
+    "start": 44.464,
+    "dur": 3.192,
+    "en": "A strong stand that holds the car up safely.",
+    "ar": "حامل قويّ يسند السيارة بأمان."
+   },
+   {
+    "start": 48.006,
+    "dur": 1.872,
+    "en": "To disconnect.",
+    "ar": "أن تفصل."
+   },
+   {
+    "start": 53.878,
+    "dur": 3.048,
+    "en": "To take a wire off, to stop the power.",
+    "ar": "أن تزيل سلكاً لإيقاف الكهرباء."
+   },
+   {
+    "start": 57.276,
+    "dur": 6.24,
+    "en": "One meaning was not needed: a fluid that cools the engine. That is coolant.",
+    "ar": "معنى واحد لم يكن مطلوباً: سائل يبرّد المحرّك. ذلك سائل التبريد."
+   },
+   {
+    "start": 63.866,
+    "dur": 11.376,
+    "en": "Now a second text, about a family garage in Damascus. Two words first: a tool board is a board where every tool has its place, and step by step means a little at a time.",
+    "ar": "الآن نصّ ثانٍ، عن ورشة عائلية في دمشق. كلمتان أوّلاً: لوحة العُدّة لوحة لكلّ أداة فيها مكانها، وخطوة بخطوة تعني قليلاً في كلّ مرّة."
+   },
+   {
+    "start": 75.592,
+    "dur": 5.496,
+    "en": "In a small street in Damascus, the Khalil family has run a garage for thirty years.",
+    "ar": "في شارع صغير في دمشق، تدير عائلة خليل ورشة منذ ثلاثين عاماً."
+   },
+   {
+    "start": 81.438,
+    "dur": 9.816,
+    "en": "For many years, the work was good, but the workshop was not always safe. Tools were on the floor, and the mechanics did not always wear gloves or glasses.",
+    "ar": "لسنوات كثيرة، كان العمل جيّداً، لكن الورشة لم تكن آمنة دائماً. كانت العُدّة على الأرض، ولم يكن الميكانيكيون يرتدون القفّازات أو النظّارات دائماً."
+   },
+   {
+    "start": 91.604,
+    "dur": 9.216,
+    "en": "Then the son, Samir, worked for a big dealership and learned new safety rules. He came home and changed the family garage step by step.",
+    "ar": "ثمّ عمل الابن سمير في وكالة كبيرة وتعلّم قواعد أمان جديدة. فعاد إلى البيت وغيّر ورشة العائلة خطوة بخطوة."
+   },
+   {
+    "start": 101.17,
+    "dur": 10.992,
+    "en": "First, he bought safety gear for everyone. Then he put up a tool board, so every tool had a place. Next, he bought axle stands and taught the team to use them.",
+    "ar": "أوّلاً، اشترى معدّات وقاية للجميع. ثمّ ركّب لوحة عُدّة، ليصبح لكلّ أداة مكان. بعد ذلك، اشترى حوامل محور وعلّم الفريق استخدامها."
+   },
+   {
+    "start": 112.512,
+    "dur": 10.272,
+    "en": "The garage did not become a big dealership, but it became clean and safe. Safety is not expensive, Samir says. An accident is expensive.",
+    "ar": "لم تصبح الورشة وكالة كبيرة، لكنّها أصبحت نظيفة وآمنة. الأمان ليس مكلفاً، يقول سمير. الحادث هو المكلف."
+   },
+   {
+    "start": 123.134,
+    "dur": 5.616,
+    "en": "Samir learned safety rules at a big dealership. True or false?",
+    "ar": "تعلّم سمير قواعد الأمان في وكالة كبيرة. صحيح أم خطأ؟"
+   },
+   {
+    "start": 135.397,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 137.619,
+    "dur": 6.024,
+    "en": "He changed the garage all at once, in one day. True or false?",
+    "ar": "غيّر الورشة كلّها مرّة واحدة، في يوم واحد. صحيح أم خطأ؟"
+   },
+   {
+    "start": 150.232,
+    "dur": 4.2,
+    "en": "False. He changed it step by step.",
+    "ar": "خطأ. غيّرها خطوة بخطوة."
+   },
+   {
+    "start": 154.782,
+    "dur": 5.208,
+    "en": "Samir says an accident is expensive. True or false?",
+    "ar": "يقول سمير إنّ الحادث مكلف. صحيح أم خطأ؟"
+   },
+   {
+    "start": 165.99,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 36.967,
+    "hold": 7.45,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 87.726,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

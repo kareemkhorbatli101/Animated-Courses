@@ -1,0 +1,243 @@
+{
+ "schema": "timeline/1",
+ "duration": 201.057,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.336,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 7.136,
+    "dur": 7.152,
+    "en": "This is Part 4, the Reporting Role Play. You will report amounts, then take a turn yourself.",
+    "ar": "هذا الجزء الرابع، لعب أدوار التقرير. ستبلّغ كمّيات، ثمّ تأخذ دورك بنفسك."
+   },
+   {
+    "start": 14.638,
+    "dur": 6.144,
+    "en": "A mechanic reports; a manager decides what to order. Listen to the model.",
+    "ar": "الميكانيكي يقدّم تقريراً؛ والمدير يقرّر ما يطلبه. استمع إلى النموذج."
+   },
+   {
+    "start": 21.132,
+    "dur": 3.912,
+    "en": "There isn't much coolant, and there aren't any air filters.",
+    "ar": "ليس هناك كثير من سائل التبريد، وليس هناك أيّ فلاتر هواء."
+   },
+   {
+    "start": 25.394,
+    "dur": 2.688,
+    "en": "How many oil filters are there?",
+    "ar": "كم فلتر زيت هناك؟"
+   },
+   {
+    "start": 28.432,
+    "dur": 2.064,
+    "en": "There are only two.",
+    "ar": "هناك اثنان فقط."
+   },
+   {
+    "start": 30.846,
+    "dur": 2.616,
+    "en": "OK, please order more.",
+    "ar": "حسناً، اطلب المزيد."
+   },
+   {
+    "start": 33.812,
+    "dur": 7.08,
+    "en": "Card A, the mechanic: report on the fluids and parts. Use some, any, much, and many.",
+    "ar": "البطاقة أ، الميكانيكي: قدّم تقريراً عن السوائل والقطع. استخدم some و any و much و many."
+   },
+   {
+    "start": 41.242,
+    "dur": 5.04,
+    "en": "Card B, the manager: ask how much and how many, then decide what to order.",
+    "ar": "البطاقة ب، المدير: اسأل كم، ثمّ قرّر ما تطلبه."
+   },
+   {
+    "start": 46.632,
+    "dur": 6.072,
+    "en": "Now your turn, line by line. You are the mechanic, and I am the manager.",
+    "ar": "الآن دورك، سطراً بسطر. أنت الميكانيكي، وأنا المدير."
+   },
+   {
+    "start": 53.054,
+    "dur": 4.056,
+    "en": "Good morning. How is the stock this week?",
+    "ar": "صباح الخير. كيف المخزون هذا الأسبوع؟"
+   },
+   {
+    "start": 57.46,
+    "dur": 4.512,
+    "en": "Your turn. Tell me there is not much engine oil.",
+    "ar": "دورك. قل لي إنه ليس هناك كثير من زيت المحرّك."
+   },
+   {
+    "start": 67.796,
+    "dur": 3.504,
+    "en": "You can say: There isn't much engine oil left.",
+    "ar": "يمكنك أن تقول: لم يبقَ كثير من زيت المحرّك."
+   },
+   {
+    "start": 71.65,
+    "dur": 3.528,
+    "en": "I see. And the filters?",
+    "ar": "فهمت. والفلاتر؟"
+   },
+   {
+    "start": 75.528,
+    "dur": 5.664,
+    "en": "Your turn. Say there are only three, and ask if you should order more.",
+    "ar": "دورك. قل إن هناك ثلاثة فقط، واسأل إن كان عليك طلب المزيد."
+   },
+   {
+    "start": 88.309,
+    "dur": 5.016,
+    "en": "You can say: There are only three. Shall I order more?",
+    "ar": "يمكنك أن تقول: هناك ثلاثة فقط. هل أطلب المزيد؟"
+   },
+   {
+    "start": 93.675,
+    "dur": 3.84,
+    "en": "Yes, please. Order ten.",
+    "ar": "نعم، من فضلك. اطلب عشرة."
+   },
+   {
+    "start": 97.865,
+    "dur": 5.016,
+    "en": "Now the same stock check again, but this time the shop is closed until Sunday.",
+    "ar": "الآن نفس فحص المخزون، لكن هذه المرّة المحل مغلق حتى الأحد."
+   },
+   {
+    "start": 103.231,
+    "dur": 3.672,
+    "en": "And a car is waiting in the workshop for brake fluid.",
+    "ar": "وهناك سيارة تنتظر زيت الفرامل في الورشة."
+   },
+   {
+    "start": 107.253,
+    "dur": 5.712,
+    "en": "Your turn. Tell me there isn't any, and say why that is a problem today.",
+    "ar": "دورك. قل لي إنه لا يوجد منه شيء، واشرح لماذا هذه مشكلة اليوم."
+   },
+   {
+    "start": 120.201,
+    "dur": 5.136,
+    "en": "You can say: There isn't any brake fluid, and the shop is closed until Sunday.",
+    "ar": "يمكنك أن تقول: لا يوجد زيت فرامل، والمحل مغلق حتى الأحد."
+   },
+   {
+    "start": 125.687,
+    "dur": 4.224,
+    "en": "That is a problem. What do you suggest?",
+    "ar": "هذه مشكلة. بماذا تقترح؟"
+   },
+   {
+    "start": 130.261,
+    "dur": 5.616,
+    "en": "Your turn. Suggest borrowing one bottle from the garage next door.",
+    "ar": "دورك. اقترح استعارة عبوة من الورشة المجاورة."
+   },
+   {
+    "start": 142.759,
+    "dur": 4.368,
+    "en": "You can say: Shall I borrow one bottle from the garage next door?",
+    "ar": "يمكنك أن تقول: هل أستعير عبوة من الورشة المجاورة؟"
+   },
+   {
+    "start": 147.477,
+    "dur": 4.776,
+    "en": "Good. That is exactly what a careful mechanic does.",
+    "ar": "جيّد. هذا بالضبط ما يفعله الميكانيكي الحذر."
+   },
+   {
+    "start": 152.603,
+    "dur": 3.744,
+    "en": "Now, a short stock report about a workshop you know.",
+    "ar": "الآن، تقرير مخزون قصير عن ورشة تعرفها."
+   },
+   {
+    "start": 156.697,
+    "dur": 4.344,
+    "en": "Say what there is, what there isn't, and how much you must order.",
+    "ar": "قل ماذا يوجد، وماذا لا يوجد، وكم يجب أن تطلب."
+   },
+   {
+    "start": 161.391,
+    "dur": 3.816,
+    "en": "Pause the video now, and talk for about one minute.",
+    "ar": "أوقف الفيديو الآن، وتحدّث لنحو دقيقة."
+   },
+   {
+    "start": 165.557,
+    "dur": 4.872,
+    "en": "Here is one possible report. Yours can be different.",
+    "ar": "هذا تقرير ممكن. تقريرك قد يكون مختلفاً."
+   },
+   {
+    "start": 170.779,
+    "dur": 3.264,
+    "en": "There is some engine oil, but there isn't much.",
+    "ar": "هناك بعض زيت المحرّك، لكن ليس كثيراً."
+   },
+   {
+    "start": 174.393,
+    "dur": 2.904,
+    "en": "There are two new belts on the shelf.",
+    "ar": "هناك سيران جديدان على الرفّ."
+   },
+   {
+    "start": 177.647,
+    "dur": 2.568,
+    "en": "There isn't any coolant at all.",
+    "ar": "ولا يوجد سائل تبريد أبداً."
+   },
+   {
+    "start": 180.565,
+    "dur": 3.696,
+    "en": "So we must order six filters and four bottles.",
+    "ar": "لذلك يجب أن نطلب ستّة فلاتر وأربع عبوات."
+   },
+   {
+    "start": 184.611,
+    "dur": 9.312,
+    "en": "A harder one, for the practitioner track: a needed part is not in the shop and hard to import. Explain the delay to the customer politely.",
+    "ar": "واحدة أصعب، للمسار المهني: قطعة مطلوبة غير متوفّرة في المحل ويصعب استيرادها. اشرح التأخير للزبون بلباقة."
+   },
+   {
+    "start": 194.273,
+    "dur": 5.184,
+    "en": "Well done. Now practise with a partner, and swap roles.",
+    "ar": "أحسنت. الآن تدرّب مع زميل، وتبادلا الدورين."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 20.045,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

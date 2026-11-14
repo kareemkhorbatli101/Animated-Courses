@@ -1,0 +1,195 @@
+{
+ "schema": "timeline/1",
+ "duration": 144.525,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.12,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 2, Under the Bonnet.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثانية، تحت غطاء المحرّك."
+   },
+   {
+    "start": 6.92,
+    "dur": 7.224,
+    "en": "This is Part 7, the Management File. You will hear what a manager says, then a full stock check.",
+    "ar": "هذا الجزء السابع، ملفّ الإدارة. ستسمع ما يقوله المدير، ثمّ فحص مخزون كامل."
+   },
+   {
+    "start": 14.494,
+    "dur": 6.888,
+    "en": "This part is for the practitioner track. Four things a manager says, and what each one is for.",
+    "ar": "هذا الجزء للمسار المهني. أربعة أمور يقولها المدير، ولماذا يقول كلّ واحد منها."
+   },
+   {
+    "start": 21.732,
+    "dur": 4.8,
+    "en": "How much coolant do we have? What is that question for?",
+    "ar": "كم سائل تبريد لدينا؟ لماذا هذا السؤال؟"
+   },
+   {
+    "start": 32.767,
+    "dur": 3.744,
+    "en": "It asks about quantity, for an uncountable noun.",
+    "ar": "يسأل عن الكمّية، لاسم غير معدود."
+   },
+   {
+    "start": 36.861,
+    "dur": 4.752,
+    "en": "How many filters are left? What is that question for?",
+    "ar": "كم فلتراً بقي؟ لماذا هذا السؤال؟"
+   },
+   {
+    "start": 47.731,
+    "dur": 3.576,
+    "en": "It asks about quantity, for a countable noun.",
+    "ar": "يسأل عن الكمّية، لاسم معدود."
+   },
+   {
+    "start": 51.657,
+    "dur": 4.2,
+    "en": "Please order more oil. What is that for?",
+    "ar": "اطلب المزيد من الزيت. لماذا هذا؟"
+   },
+   {
+    "start": 61.21,
+    "dur": 2.736,
+    "en": "It gives an instruction to buy.",
+    "ar": "يعطي تعليماً بالشراء."
+   },
+   {
+    "start": 64.296,
+    "dur": 4.704,
+    "en": "We can't start without the parts. What is that for?",
+    "ar": "لا يمكننا البدء بدون القطع. لماذا هذا؟"
+   },
+   {
+    "start": 75.0,
+    "dur": 2.616,
+    "en": "It explains why it matters.",
+    "ar": "يشرح لماذا الأمر مهمّ."
+   },
+   {
+    "start": 77.966,
+    "dur": 8.352,
+    "en": "Now the dialogue. Nabil, let's check the stock before the customers arrive. How much oil do we have?",
+    "ar": "الآن الحوار. نبيل، لنفحص المخزون قبل وصول الزبائن. كم زيتاً لدينا؟"
+   },
+   {
+    "start": 86.668,
+    "dur": 3.288,
+    "en": "There is plenty of oil - about ten litres.",
+    "ar": "هناك زيت وفير - نحو عشرة ليترات."
+   },
+   {
+    "start": 90.306,
+    "dur": 4.032,
+    "en": "Good. How many oil filters are there?",
+    "ar": "جيّد. كم فلتر زيت هناك؟"
+   },
+   {
+    "start": 94.688,
+    "dur": 2.376,
+    "en": "There are only two left.",
+    "ar": "بقي اثنان فقط."
+   },
+   {
+    "start": 97.414,
+    "dur": 6.6,
+    "en": "That isn't many. We have five services today. Please order ten.",
+    "ar": "هذا ليس كثيراً. لدينا خمس صيانات اليوم. اطلب عشرة."
+   },
+   {
+    "start": 104.364,
+    "dur": 3.432,
+    "en": "And there isn't much coolant - only one bottle.",
+    "ar": "وليس هناك كثير من سائل التبريد - عبوة واحدة فقط."
+   },
+   {
+    "start": 108.146,
+    "dur": 5.736,
+    "en": "Order some coolant too. We can't service a car without the right parts.",
+    "ar": "اطلب بعض سائل التبريد أيضاً. لا يمكننا صيانة سيارة بدون القطع الصحيحة."
+   },
+   {
+    "start": 114.232,
+    "dur": 2.184,
+    "en": "How much oil is there?",
+    "ar": "كم زيتاً هناك؟"
+   },
+   {
+    "start": 120.71,
+    "dur": 2.76,
+    "en": "Plenty - about ten litres.",
+    "ar": "وفير - نحو عشرة ليترات."
+   },
+   {
+    "start": 123.82,
+    "dur": 2.712,
+    "en": "How many oil filters are left?",
+    "ar": "كم فلتر زيت بقي؟"
+   },
+   {
+    "start": 131.297,
+    "dur": 1.872,
+    "en": "Only two.",
+    "ar": "اثنان فقط."
+   },
+   {
+    "start": 133.519,
+    "dur": 2.208,
+    "en": "What must Nabil order?",
+    "ar": "ماذا يجب أن يطلب نبيل؟"
+   },
+   {
+    "start": 140.021,
+    "dur": 2.904,
+    "en": "Ten oil filters and some coolant.",
+    "ar": "عشرة فلاتر زيت وبعض سائل التبريد."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 20.357,
+    "hold": 12.36,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 103.439,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 140.021,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

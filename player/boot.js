@@ -59,6 +59,8 @@
         if (scene.set && scene.set.glb) rels.push(scene.set.glb);
         if (scene.set && scene.set.noceil_glb) rels.push(scene.set.noceil_glb);
         scene.actors.forEach(function (a) { rels.push(a.model_glb); });
+        (scene.dress || []).forEach(function (d) { if (d.png) rels.push(d.png); });   // v29.0 dressing pictures
+        (scene.props || []).forEach(function (p) { if (p.glb) rels.push(p.glb); });   // v29.1 props that change hands
         rels = rels.filter(function (v, i, a) { return a.indexOf(v) === i; });
         status('fetching ' + rels.length + ' model(s)…');
         return fetcher.getMany(rels.map(function (rel) { return recOf(manifest, rel); }))

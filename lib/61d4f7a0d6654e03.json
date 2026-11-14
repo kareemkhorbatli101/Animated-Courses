@@ -1,0 +1,165 @@
+{
+ "schema": "timeline/1",
+ "duration": 129.591,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.936,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 3, Tools and Safe Working.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الثالثة، العُدّة والعمل الآمن."
+   },
+   {
+    "start": 7.736,
+    "dur": 8.112,
+    "en": "This is Part 3, A Safety Briefing. You will listen to a foreman brief the team, then answer true or false.",
+    "ar": "هذا الجزء الثالث، إحاطة أمان. ستستمع إلى رئيس ورشة يحيط الفريق، ثمّ تجيب بصحيح أو خطأ."
+   },
+   {
+    "start": 16.198,
+    "dur": 4.632,
+    "en": "Before you listen: what does a foreman say before the work starts?",
+    "ar": "قبل أن تستمع: ماذا يقول رئيس الورشة قبل بدء العمل؟"
+   },
+   {
+    "start": 21.18,
+    "dur": 7.32,
+    "en": "Listen, everyone, before we start. First, always wear your safety glasses and gloves.",
+    "ar": "اسمعوا جميعاً، قبل أن نبدأ. أوّلاً، ارتدوا نظّارات الأمان والقفّازات دائماً."
+   },
+   {
+    "start": 28.85,
+    "dur": 4.416,
+    "en": "Then keep your area clean - no oil or rags on the floor.",
+    "ar": "ثمّ احفظوا منطقتكم نظيفة - لا زيت ولا خِرق على الأرض."
+   },
+   {
+    "start": 33.616,
+    "dur": 5.64,
+    "en": "When you lift a car, always chock the wheels first, and always use axle stands.",
+    "ar": "عندما ترفعون سيارة، ضعوا صادّات العجلات أوّلاً دائماً، واستخدموا حوامل المحور دائماً."
+   },
+   {
+    "start": 39.606,
+    "dur": 6.432,
+    "en": "Never work under a car on a jack alone. If you smell fuel, stop and tell me.",
+    "ar": "لا تعملوا أبداً تحت سيارة على رافعة وحدها. إذا شممتم وقوداً، توقّفوا وأخبروني."
+   },
+   {
+    "start": 46.388,
+    "dur": 2.832,
+    "en": "Safety first, every day.",
+    "ar": "الأمان أوّلاً، كلّ يوم."
+   },
+   {
+    "start": 49.57,
+    "dur": 3.816,
+    "en": "Now write True, False, or Not Given.",
+    "ar": "الآن اكتب صحيح أو خطأ أو غير مذكور."
+   },
+   {
+    "start": 53.736,
+    "dur": 2.664,
+    "en": "You can leave oil on the floor.",
+    "ar": "يمكنك ترك الزيت على الأرض."
+   },
+   {
+    "start": 61.224,
+    "dur": 4.848,
+    "en": "False. He said no oil or rags on the floor.",
+    "ar": "خطأ. قال لا زيت ولا خِرق على الأرض."
+   },
+   {
+    "start": 66.422,
+    "dur": 3.192,
+    "en": "You must always use axle stands.",
+    "ar": "يجب أن تستخدم حوامل المحور دائماً."
+   },
+   {
+    "start": 74.496,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 76.718,
+    "dur": 3.816,
+    "en": "It is OK to work under a car on a jack alone.",
+    "ar": "لا مشكلة في العمل تحت سيارة على رافعة وحدها."
+   },
+   {
+    "start": 86.181,
+    "dur": 3.528,
+    "en": "False. Never do this.",
+    "ar": "خطأ. لا تفعل ذلك أبداً."
+   },
+   {
+    "start": 90.059,
+    "dur": 8.04,
+    "en": "Useful phrases: First, always. Never. If you smell fuel, stop and tell me.",
+    "ar": "عبارات مفيدة: أوّلاً، دائماً. أبداً. إذا شممت وقوداً، توقّف وأخبرني."
+   },
+   {
+    "start": 98.449,
+    "dur": 6.432,
+    "en": "Now, a few more words from this unit. Look at each thing before I say its name.",
+    "ar": "الآن، بعض الكلمات الأخرى من هذه الوحدة. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 105.231,
+    "dur": 4.464,
+    "en": "These are safety glasses. Put them on first.",
+    "ar": "هذه نظّارات أمان. ارتدِها أوّلاً."
+   },
+   {
+    "start": 110.045,
+    "dur": 3.816,
+    "en": "These are gloves. Put them on too.",
+    "ar": "هذه قفّازات. ارتدِها أيضاً."
+   },
+   {
+    "start": 114.211,
+    "dur": 4.488,
+    "en": "This is a wheel chock. It stops the wheel rolling.",
+    "ar": "هذا صادّ عجلة. يمنع العجلة من التدحرج."
+   },
+   {
+    "start": 119.049,
+    "dur": 4.416,
+    "en": "This is an axle stand. Always use two.",
+    "ar": "هذا حامل محور. استخدم اثنين دائماً."
+   },
+   {
+    "start": 123.815,
+    "dur": 4.176,
+    "en": "This is a trolley jack. It lifts the car.",
+    "ar": "هذه رافعة متحرّكة. ترفع السيارة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "axle_stand",
+    "label": "axle stand",
+    "ar": "حامل المحور",
+    "at": 117.762,
+    "hold": 3.0,
+    "img": "assets/vocab/axle_stand.png",
+    "sha": "3b3f6849c1c1d3f3"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
