@@ -13,6 +13,7 @@ UNIT = dict(
     grammar='countable and uncountable · some and any · much, many and a lot of',
     field='food, money, meals',
     names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Patel', 'Oakfield', 'Dale',
+           'Brazil', 'Hartley',
            'Spain', 'Britain', 'Asia'),
     opener_line='Three sub-topics, three cycles in every skill. Money and food are in every '
                 'Listening conversation the test has ever written, and both of them turn on '
@@ -746,3 +747,8 @@ UNIT = dict(
         'A number on your paper is worth a mark; a number in your head is gone by the next '
         'sentence.',
 )
+
+# ---- the two academic cycles (field: Work, Trade and Money) ---------------
+from .fx06 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)
