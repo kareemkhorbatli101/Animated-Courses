@@ -13,6 +13,13 @@ SHAPE_A2 = [('core', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
 SHAPE_A2X = SHAPE_A2 + [('fieldwords', 12)]
 SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
             ('candos', 6), ('vocab_talk', 4)]
+# A B2 unit with its two academic cycles. seam.py measures 622 words that
+# Volumes 3-4's own passages use and a Volume 2 leaver has never been taught,
+# a mean of 31 a unit against the 18 those units teach, so the vocabulary page
+# carries 24 academic plus 12 field words - the 36 of Volumes 1-2 - and keeps
+# its 10 collocations.
+SHAPE_B2X = [('acad', 24), ('fieldwords', 12), ('collocs', 10), ('stance', 5),
+             ('nuance', 3), ('candos', 6), ('vocab_talk', 4)]
 # Foundation 2 teaches 39 head words a unit, and 33 of them are not a choice:
 # gapscan.py measures 329 words that Volume 1's own texts use and a Foundation
 # 1 leaver does not know, and 33 a unit over ten units is 330. So the acad and
@@ -43,6 +50,37 @@ ITEMS_A2X = ITEMS_A2 + [
     ('r4', 'guided', 3), ('r4', 'exam', 4), ('r5', 'guided', 3), ('r5', 'exam', 4),
     ('l4', 'warm', 2), ('l4', 'items', 4), ('l5', 'warm', 2), ('l5', 'items', 4),
     ('w4', 'guided', 2), ('w4', 'exam', 4)]
+# The same two cycles at B2, carrying the extra items the B2 table carries
+# everywhere else: five in the exam phase rather than four.
+ITEMS_B2X = ITEMS_B2 + [
+    ('r4', 'guided', 3), ('r4', 'exam', 5), ('r5', 'guided', 3), ('r5', 'exam', 5),
+    ('l4', 'warm', 3), ('l4', 'items', 5), ('l5', 'warm', 3), ('l5', 'items', 5),
+    ('w4', 'guided', 3), ('w4', 'exam', 5)]
+
+
+# The academic cycles of the upper volumes, unit by unit. _check_b2 gives all
+# twenty existing B2 units one flat passage band of 255-300 words, which is
+# why Volume 3 profiles as a near-repeat of Volume 2: nothing inside the B2
+# half is required to rise. These are the curve, and the r3 passage keeps the
+# real test's own length in every volume while the two new cycles run longer,
+# because reading speed is built above the distance you race.
+#              units      r4/r5 first -> last   l4/l5 first -> last   w5 model
+_RAMP = ((3, range(21, 31), (280, 330), (230, 270), (205, 240)),
+         (4, range(31, 41), (320, 380), (260, 300), (235, 275)),
+         (5, range(41, 51), (360, 410), (290, 330), (265, 305)),
+         (6, range(51, 61), (400, 450), (320, 360), (295, 340)))
+BX = {}
+for _v, _u, _r, _l, _w in _RAMP:
+    _last = len(_u) - 1
+    for _i, _n in enumerate(_u):
+        def _at(pair, i=_i, last=_last):
+            lo, hi = pair
+            return int(round(lo + (hi - lo) * i / float(last)))
+        BX[_n] = dict(vol=_v,
+                      r45=(_at(_r) - 14, _at(_r) + 14),
+                      l45=(_at(_l) - 14, _at(_l) + 14),
+                      w5=(_at(_w) - 10, _at(_w) + 10),
+                      sp=5)
 
 #     academic passage        academic talk      speaking cycles
 AX = {
@@ -126,7 +164,8 @@ def check(U, taught=()):
         out.append("%s%02d: %s" % (_lvltag, n, msg))
 
     ax = found and 'r4' in U         # a Foundation unit with its academic cycles
-    for k, want in (SHAPE_B2 if b2 else SHAPE_F2 if f2
+    bx = b2 and 'r4' in U            # a B2+ unit with its academic cycles
+    for k, want in ((SHAPE_B2X if bx else SHAPE_B2) if b2 else SHAPE_F2 if f2
                     else (SHAPE_A2X if ax else SHAPE_A2) if a2
                     else SHAPE_B1):
         if len(U[k]) != want:
@@ -158,7 +197,8 @@ def check(U, taught=()):
                 if d_ != len(a):
                     bad('r1 %s gap %d: %d dashes but answer %r is %d letters'
                         % (tag, i, d_, a, len(a)))
-    for blk, field, want in (ITEMS_B2 if b2 else (ITEMS_A2X if ax else ITEMS_A2) if found
+    for blk, field, want in ((ITEMS_B2X if bx else ITEMS_B2) if b2
+                             else (ITEMS_A2X if ax else ITEMS_A2) if found
                              else ITEMS_B1):
         got = len(U[blk][field])
         if got != want:
