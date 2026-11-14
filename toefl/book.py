@@ -722,10 +722,12 @@ def front_matter(d, vol, units):
                  'every tense, obligation, adverbs, linking a paragraph, noun phrases, '
                  'phrasal verbs, and how to say what a text says.')
     elif lvl == 'B2':
-        d.body_p('Forty units across four volumes. Volumes 1 and 2 take a B1 learner through '
-                 'every task in the test; Volumes 3 and 4, of which this is one, take the '
-                 'same tasks to B2. The passages are not longer here. They are denser, which '
-                 'is what the real test does to you as your score rises.')
+        d.body_p('Sixty units across six volumes. Volumes 1 and 2 take a B1 learner '
+        'through every task in the test; Volumes 3 and 4 take the same '
+        'tasks to B2; Volume 5 finishes B2 and Volume 6 is written at C1, '
+        'for the top of the band scale. From Volume 3 on, the passages are '
+        'not only longer. They are denser, which is what the real test does '
+        'to you as your score rises.')
         d.body_p('One thing is assumed rather than taught. Volumes 1 and 2 carried a strand '
                  'of campus and everyday vocabulary — enrolment, tutorial, reading week — '
                  'because the Listening conversations turn on it. This volume spends those '

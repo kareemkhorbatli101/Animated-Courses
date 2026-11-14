@@ -37,9 +37,9 @@ UNIT = dict(
           'Deciding without the number'],
     grammar='Discourse management and stance',
     field='probability, uncertainty, robustness',
-    opener_line='The last unit of the course is about the thing every other unit has been '
-                'practising: managing a long argument so a reader can follow it, and marking '
-                'your own position in it. Everything you have learned about hedging, '
+    opener_line='The last unit of this volume is about the thing every other unit '
+    'has been practising: managing a long argument so a reader can '
+    'follow it, and marking your own position in it. Everything you have learned about hedging, '
                 'emphasis and cohesion comes together here.',
     candos=[
         'I can manage a long argument with signposts a reader can follow.',
@@ -1060,11 +1060,14 @@ UNIT = dict(
         ],
     ),
 
-    tip='This is the end of the course. The four volumes have taught twenty grammar systems, '
-        '1,620 words and every 2026 task type three times over, and the thing that will '
-        'actually move your score now is none of those. It is doing a complete timed test, '
-        'marking it honestly against the keys, and going back to the three units whose '
-        'structures you avoided. You know which three.',
+    tip='This is the end of the B2 half. The four volumes have taught '
+    'twenty grammar systems, 1,620 words and every 2026 task type, and '
+    'the thing that will move your score now is none of those. It is '
+    'doing Practice Test 4 against a clock, marking it honestly against '
+    'the key, and going back to the three units whose structures you '
+    'avoided. You know which three. Volume 5 finishes B2 and Volume 6 '
+    'is written at C1, for the top of the band scale; go there when a '
+    'timed test stops frightening you.',
 )
 
 

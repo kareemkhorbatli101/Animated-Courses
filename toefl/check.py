@@ -29,6 +29,18 @@ SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
 # 1-2's thirty-six.
 SHAPE_B2X = [('acad', 18), ('fieldwords', 12), ('collocs', 10), ('stance', 5),
              ('nuance', 3), ('candos', 6), ('vocab_talk', 4)]
+# Volumes 5 and 6 keep thirty head words a unit and move four of them from one
+# strand to the other, for a reason that is a measurement rather than a
+# preference. Forty units have spent the Academic Word List: of about four
+# hundred general academic items, 130 are still untaught, and the next layer
+# out consists largely of words no TOEFL candidate needs - sedulous, nugatory,
+# opprobrium. Teaching eighteen a unit for twenty more units would mean
+# padding the list to fill the shape, which is the one thing a vocabulary
+# syllabus must not do. Field vocabulary has no such limit, and a C1 reader
+# facing a 450-word passage on quantum interpretation needs more of it, not
+# less. So: fourteen general academic words and sixteen of the field.
+SHAPE_B2Y = [('acad', 14), ('fieldwords', 16), ('collocs', 10), ('stance', 5),
+             ('nuance', 3), ('candos', 6), ('vocab_talk', 4)]
 # Foundation 2 teaches 39 head words a unit, and 33 of them are not a choice:
 # gapscan.py measures 329 words that Volume 1's own texts use and a Foundation
 # 1 leaver does not know, and 33 a unit over ten units is 330. So the acad and
@@ -177,7 +189,9 @@ def check(U, taught=()):
 
     ax = found and 'r4' in U         # a Foundation unit with its academic cycles
     bx = b2 and 'r4' in U            # a B2+ unit with its academic cycles
-    for k, want in ((SHAPE_B2X if bx else SHAPE_B2) if b2 else SHAPE_F2 if f2
+    by = bx and U.get('vol') in (5, 6)   # the last two volumes' word shape
+    for k, want in ((SHAPE_B2Y if by else SHAPE_B2X if bx else SHAPE_B2) if b2
+                    else SHAPE_F2 if f2
                     else (SHAPE_A2X if ax else SHAPE_A2) if a2
                     else SHAPE_B1):
         if len(U[k]) != want:
