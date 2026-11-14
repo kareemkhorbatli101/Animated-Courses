@@ -1095,7 +1095,7 @@ UNIT['fieldwords'] = [('disrupted', 'broken up, so that the old pattern no longe
  ('livelihood', 'the work by which a person supports themselves')]
 UNIT['r4'] = {'sub': 'The shape of a working life',
  'title': 'Why Two Centuries of Machinery Did Not Produce Mass Idleness',
- 'words': 325,
+ 'words': 326,
  'skill': ('Reading an argument against an intuition',
            ['The intuition is stated first and named. Find the name, because the passage '
             'uses it again.',
@@ -1106,18 +1106,18 @@ UNIT['r4'] = {'sub': 'The shape of a working life',
            'natural that it is rarely stated: that the quantity of work in an economy is '
            'fixed, so that every job performed by a machine is a job removed from the total. '
            'Economists call this the lump of labour fallacy, and the historical record '
-           'against it is about as strong as evidence in the subject ever gets. Two '
-           'centuries of mechanisation, from the power loom through the tractor to clerical '
-           'computing, displaced an enormous variety of occupations without producing any '
-           'permanent reduction in the proportion of adults in paid employment. The '
-           'explanation is not that the displacement was imaginary. It is that the quantity '
-           'of work was never fixed, and no economy has yet been observed to run out of '
-           'things worth doing.',
+           'against it is about as strong as evidence in the field ever gets. Two centuries '
+           'of mechanisation, from the power loom through the tractor to clerical computing, '
+           'displaced an enormous variety of occupations without yielding any permanent '
+           'reduction in the proportion of adults in paid employment. The explanation is not '
+           'that the displacement was imaginary. It is that the quantity of work was never '
+           'fixed, and no economy has yet been observed to exhaust the supply of things '
+           'worth doing.',
            'Three mechanisms account for the expansion. The first is that automation of a '
            'task raises productivity, which lowers the price of the output, which raises the '
            'quantity demanded, and a larger industry can require more workers in the tasks '
            'that remain. The second is that the income freed by cheaper goods is spent on '
-           'something else, and the production of that something else is itself a source of '
+           'something else, and the production of whatever replaces it is itself a source of '
            'employment, in occupations that often did not exist before. The third, and the '
            'least intuitive, is that machinery is frequently complementary to labour rather '
            'than a substitute for it: the introduction of the cash machine was followed by a '
@@ -1125,7 +1125,7 @@ UNIT['r4'] = {'sub': 'The shape of a working life',
            'to the selling of services.',
            'The conclusion is narrower than it is usually reported to be. It says that the '
            'aggregate level of employment survives technological disruption, and the '
-           'reallocation that produces that survival is a real event with a real '
+           'reallocation that produces that survival is a genuine event with a real '
            'distribution of costs. The next passage is about who pays them, and about why '
            'the answer has stayed the same through every change of machinery since the power '
            'loom.'],
@@ -1218,7 +1218,7 @@ UNIT['r5'] = {'sub': 'The shape of a working life',
            'What follows from this is an argument about what the displaced are owed rather '
            'than about blocking the change. Resistance to a technology that raises '
            'productivity imposes a permanent cost on everybody in order to protect a few, '
-           'which makes a whole country poorer in order to help one part of it. The '
+           'which makes a whole country poorer in order to shield one part of it. The '
            'alternative is to treat the displaced cohort as having a claim on part of the '
            'gain, through income support that does not end on a fixed date and retraining '
            'that is honest about its limits. The necessity for this is not kindness. A '

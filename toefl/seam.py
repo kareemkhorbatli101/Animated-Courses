@@ -97,12 +97,40 @@ def passages(vol):
     return out
 
 
-def measure(stage, vol):
+def measure(stage, vol, progressive=False):
+    """Unknown word types in each passage of `vol` for a leaver of `stage`.
+
+    Two readings, and the difference between them matters.
+
+    The leaver reading credits only what the student read before the volume
+    began. It is the right measure for the first passage of unit one and
+    increasingly pessimistic after that, because nobody reaches unit ten of
+    a volume without having read units one to nine.
+
+    The progressive reading credits, for each unit, the earlier units of the
+    same volume as well. That is how the book is actually read, and it is
+    the standard check.py enforces per passage while a unit is written.
+    """
     taught, names, extra = leaver(stage)
+    taught, names = list(taught), list(names)
     rows = []
+    earlier, earlier_names, seen_units = [], [], set()
     for label, text, own, own_names in passages(vol):
-        out = unknown(text, list(taught) + list(own),
-                      tuple(names) + tuple(own_names), extra)
+        n = int(label[1:3])
+        if progressive and n not in seen_units:
+            # everything the earlier units of this volume teach by name
+            seen_units.add(n)
+            earlier, earlier_names = [], []
+            for m in VOL_UNITS[vol]:
+                if m >= n:
+                    break
+                U = importlib.import_module('content.u%02d' % m).UNIT
+                earlier += [w for w, _ in check.heads(U)]
+                earlier_names += list(U.get('names', ()))
+        base = taught + earlier if progressive else taught
+        base_names = names + earlier_names if progressive else names
+        out = unknown(text, list(base) + list(own),
+                      tuple(base_names) + tuple(own_names), extra)
         seen, uniq = set(), []
         for w in out:
             if w.lower() not in seen:
@@ -128,18 +156,24 @@ def main(argv):
 
     print('EVERY SEAM IN THE SERIES')
     print('unknown word types a leaver meets in the next volume\n')
-    print('%-32s %8s %7s %8s %9s' % ('seam', 'worst', 'mean', 'median',
-                                     'over 15'))
-    print('-' * 70)
+    print('The first three columns credit only what the student read before')
+    print('the volume began. The last three credit the earlier units of the')
+    print('volume too, which is how the book is read.\n')
+    print('%-30s %6s %6s %7s  | %6s %6s %7s'
+          % ('seam', 'worst', 'mean', 'over 15', 'worst', 'mean', 'over 15'))
+    print('-' * 78)
     worst_seam = None
     for stage, vol, label in SEAMS:
         rows = measure(stage, vol)
         t = [k for _, k, _ in rows]
         mean = sum(t) / float(len(t))
         over = sum(1 for k in t if k > 15)
-        print('%-32s %8d %7.1f %8d %9s'
-              % (label, max(t), mean, sorted(t)[len(t) // 2],
-                 '%d of %d' % (over, len(t))))
+        prog = [k for _, k, _ in measure(stage, vol, progressive=True)]
+        pmean = sum(prog) / float(len(prog))
+        print('%-30s %6d %6.1f %7s  | %6d %6.1f %7s'
+              % (label, max(t), mean, '%d of %d' % (over, len(t)),
+                 max(prog), pmean,
+                 '%d of %d' % (sum(1 for k in prog if k > 15), len(prog))))
         if worst_seam is None or mean > worst_seam[1]:
             worst_seam = (label, mean)
     print('-' * 70)

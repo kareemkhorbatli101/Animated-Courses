@@ -1049,7 +1049,6 @@ UNIT = dict(
 )
 
 
-
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1088,12 +1087,12 @@ UNIT['r4'] = {'sub': 'Why outbreaks end',
  'paras': ['An epidemic does not continue until every person has been infected, and the '
            'reason is arithmetical rather than biological. What governs the course of an '
            'outbreak is the average number of further infections each infected person '
-           'produces, and an epidemic grows only while that number stands above one. Every '
+           'produces, and an epidemic grows only while that ratio stands above one. Every '
            'person who becomes immune, whether by infection or by vaccination, removes one '
            'of the opportunities for transmission that the next infected person would '
            'otherwise have had. The number therefore falls as the epidemic proceeds. When it '
            'crosses one the outbreak begins to shrink of its own accord, and the proportion '
-           'of the population still susceptible at that moment can be very large.',
+           'of the population still susceptible at that moment can be very substantial.',
            'The threshold at which this happens follows from a single quantity, the number '
            'of infections a case would produce in a population with no immunity at all. '
            'Where that quantity is three, each case must lose two thirds of its '
@@ -1106,10 +1105,10 @@ UNIT['r4'] = {'sub': 'Why outbreaks end',
            'infections have been prevented, only that the ratio has crossed its threshold.',
            'Two practical consequences follow. The first is that an immunisation programme '
            'does not have to reach everybody to protect everybody, which is the whole '
-           'justification for a public campaign rather than a private decision. The second '
-           'is less comfortable, and it is the subject of the next passage: the threshold is '
-           'calculated for a population treated as a single homogeneous pool, and the figure '
-           'quoted in public is the figure for that pool.'],
+           'justification for a collective campaign rather than a private decision. The '
+           'second is less comfortable, and it is the subject of the next passage: the '
+           'threshold is calculated for a population treated as a single homogeneous pool, '
+           'and the figure quoted in public is the figure for that pool.'],
  'guided': [('What governs the course of an outbreak, by this account?',
              ('The total number infected',
               'The average number of further infections each case produces',
@@ -1183,19 +1182,20 @@ UNIT['r5'] = {'sub': 'Why outbreaks end',
            'clustered by household, by school, by occupation and by conviction, and '
            'clustering does not merely add noise to the result: it changes what the result '
            'means.',
-           'Take a city of a million people in which vaccination has reached seventy per '
-           'cent, comfortably above a threshold of two thirds. Suppose that coverage is not '
-           'spread evenly but divides into two subgroups: a large one at eighty per cent and '
-           'a small one of fifty thousand at twenty per cent, which is roughly what happens '
-           'wherever a community has convictions of its own about vaccination. The city '
-           'average is above the threshold and the small subgroup is far below it, and since '
-           'its members meet each other far more often than they meet anybody else, the '
-           'arithmetic inside that subgroup is the arithmetic of an unprotected population. '
-           'Transmission there can run its full course while the published figure for the '
-           'city stays reassuring, and this is not a hypothetical pattern. It is the pattern '
-           'of almost every measles outbreak of the last twenty years.',
+           'Take a city of a million inhabitants in which vaccination has reached seventy '
+           'per cent, comfortably above a threshold of two thirds. Suppose that coverage is '
+           'not spread evenly but divides into two subgroups: a large one at eighty per cent '
+           'and a small one of fifty thousand at twenty per cent, which is roughly what '
+           'happens wherever a community has convictions of its own about vaccination. The '
+           'city average is above the threshold and the small subgroup is far below it, and '
+           'since its members encounter each other far more often than they encounter '
+           'anybody else, the arithmetic inside that subgroup is the arithmetic of an '
+           'unprotected population. Transmission there can run its full course while the '
+           'published figure for the city stays reassuring, and this is not a hypothetical '
+           'pattern. It is the pattern of almost every measles outbreak of the last twenty '
+           'years.',
            'The recommendation is about publication rather than about belief. A single '
-           'coverage figure for a large area is close to useless for the purpose it is '
+           'coverage figure for a large region is close to useless for the purpose it is '
            'normally put to, because the quantity that matters is the lowest figure in any '
            'group that mixes mainly with itself. Agencies that publish the average and not '
            'the distribution are not misreporting anything, and they are reporting the '

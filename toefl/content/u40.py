@@ -1066,3 +1066,621 @@ UNIT = dict(
         'marking it honestly against the keys, and going back to the three units whose '
         'structures you avoided. You know which three.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 40 closes Volume 4. Cycle 4 separates risk from uncertainty by
+# the availability of a distribution rather than the quantity of
+# knowledge, and shows what happens when expected value is applied where
+# no actuarial record exists: a confessed ignorance at the top of the
+# page becomes a parameter in the middle of it, and the quantification
+# moves the difficulty instead of reducing it. Cycle 5 finds the same
+# fault in the remedy, since the enumeration of foreseeable futures is a
+# judgement by the same analyst and a future left off the list has been
+# given a probability of zero that nobody wrote down, so what the two
+# methods owe a reader is the disclosure rather than a choice between
+# them.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('frequency', 'how often something has actually occurred in a record'),
+ ('actuarial', 'resting on the recorded frequency of past events'),
+ ('distribution', 'the spread of outcomes with a probability on each'),
+ ('subjective', 'belonging to the judgement of the person stating it'),
+ ('quantification', 'the turning of a judgement into a number'),
+ ('conservative', 'choosing the option that loses least in a bad case'),
+ ('tolerable', 'bad but survivable, as against unacceptable'),
+ ('foreseeable', 'able to be thought of in advance'),
+ ('stipulated', 'laid down in advance by decision rather than found'),
+ ('candour', 'the stating of what one does not know'),
+ ('auditable', 'able to be examined afterwards by somebody else'),
+ ('indifference', 'having no reason to prefer one option to another')]
+UNIT['r4'] = {'sub': 'Risk and uncertainty are different',
+ 'title': 'The Number That Makes the Difficulty Invisible',
+ 'words': 389,
+ 'skill': ('Reading a distinction between two kinds of not knowing',
+           ['Two conditions are defined. The difference is about what exists, not about how '
+            'much is known.',
+            'The standard apparatus requires one thing. Note what it requires and what '
+            'happens when it is absent.',
+            'A question about the subjective probability wants what the writer says it '
+            'describes.']),
+ 'paras': ['The vocabulary of the subject distinguishes risk from uncertainty, and the '
+           'distinction turns on whether a distribution exists at all rather than on the '
+           'quantity of knowledge anybody holds. A decision is risky where the possible '
+           'outcomes can be listed and a probability attaches to each of them, drawn from an '
+           'actuarial record of comparable cases: the failure rate of a component across ten '
+           'thousand installations, or the frequency with which a river has reached a stated '
+           'height at a stated point over ninety years of measurement. A decision is '
+           'uncertain where no such record exists, either because the case is the first of '
+           'its kind or because the mechanism generating the outcomes has itself altered. '
+           'The actuarial tables of the insurance industry are the standard illustration of '
+           'the second possibility: a century of mortality observations describes a '
+           'population whose medical circumstances are no longer those of the population now '
+           'buying the policies. The second condition is not a severe version of the first. '
+           'It is a different condition, and the apparatus built for the first does not '
+           'operate in it at all.',
+           'That apparatus is expected value, and its requirement is a probability on every '
+           'branch. Where the actuarial record supplies them the method is very nearly '
+           'beyond criticism, and the whole of the difficulty lies elsewhere. Where it does '
+           'not, the practice of the profession is to supply a subjective probability, '
+           'stipulated by the analyst from a reading of the circumstances and entered in the '
+           'computation beside the measured figures in an identical typeface. The arithmetic '
+           'proceeds, the output carries two decimal places, and a difficulty announced as a '
+           'confessed ignorance in the opening paragraph has become a parameter in the '
+           'appendix. The quantification has not reduced the uncertainty by any amount. It '
+           'has relocated the uncertainty to a position no reader can inspect, and the '
+           'consequence is a false precision which the document conceals from its own '
+           'authors as efficiently as from anybody else.',
+           'The honest statement of a subjective probability is that it describes the '
+           'analyst and not the world. That is not an objection to the employment of one, '
+           'since a decision must be reached and indifference is seldom an available '
+           'position. It is an objection to the concealment of one, and the next passage '
+           'examines what the recognised alternative actually costs its users.'],
+ 'guided': [('What is the distinction about?',
+             ('The quantity of knowledge',
+              'The availability of a distribution',
+              'The size of the possible loss',
+              'The experience of the analyst'),
+             1,
+             'The passage makes that correction in its first sentence.'),
+            ('When is a decision risky?',
+             ('When the possible loss is large',
+              'When outcomes are enumerable and a probability attaches to each',
+              'When the mechanism has changed',
+              'When no record exists'),
+             1,
+             'Drawn from an actuarial record of comparable cases, as the passage adds.'),
+            ('Why might no actuarial record exist?',
+             ('The data are expensive',
+              'The case is the first of its kind, or the mechanism has changed',
+              'Nobody has looked',
+              'The outcomes are too many'),
+             1,
+             'Those are the two reasons the passage gives.')],
+ 'exam': [('What does expected value require?',
+           ('An actuarial record',
+            'A probability on every branch',
+            'A conservative assumption',
+            'A stated tolerance'),
+           1,
+           'And where the record supplies them the method is close to irreproachable.'),
+          ('What is the practice where the record does not supply them?',
+           ('The calculation is abandoned',
+            'A subjective probability is stipulated by the analyst and entered beside the '
+            'measured figures',
+            'A range is published instead',
+            'The decision is sent to a committee'),
+           1,
+           'And in the same typeface, which is the detail the passage presses.'),
+          ('What has happened to the difficulty by the middle of the page?',
+           ('It has been resolved',
+            'It has become a parameter',
+            'It has been published as a range',
+            'It has been referred to a committee'),
+           1,
+           'A confessed ignorance at the top has become a parameter in the middle.'),
+          ('What does the writer say quantification has NOT done?',
+           ('Moved the uncertainty',
+            'Reduced the uncertainty by any amount',
+            'Produced a precise output',
+            'Concealed the difficulty'),
+           1,
+           'It moves the uncertainty rather than reducing it.'),
+          ('What is the writer’s objection?',
+           ('To using a subjective probability',
+            'To burying one',
+            'To expected value in general',
+            'To actuarial records'),
+           1,
+           'A decision has to be taken, so the objection is to concealment rather than to '
+           'use.')]}
+UNIT['r5'] = {'sub': 'Deciding without the number',
+ 'title': 'An Arbitrary Number and an Arbitrary List',
+ 'words': 367,
+ 'skill': ('Reading an objection that the remedy shares the fault',
+           ['The remedy is described first and then shown to have the same defect. Note the '
+            'defect.',
+            'A cost is named that the remedy pays in every case. Hold it.',
+            'A question about the recommendation wants what should be published, not what '
+            'should be chosen.']),
+ 'paras': ['The alternative to a stipulated probability is robust decision making, and its '
+           'procedure is to set out the futures regarded as foreseeable, to evaluate every '
+           'option within each of them, and to select whichever option exhibits a tolerable '
+           'worst performance across the entire collection. No probability is required at '
+           'any point, which is the attraction, and the method is in established use '
+           'wherever a decision admits of no revision: the height of a sea wall, the '
+           'capacity of a reservoir, the containment specification of a reactor.',
+           'Two costs attach to it and the second is the serious one. The first is a '
+           'standing conservatism, since a criterion attending to the worst case within a '
+           'collection of futures is answerable to the worst member of that collection, and '
+           'a policy selected on such a criterion forgoes considerable value in whichever '
+           'future actually turns up. The second is that the listing of the futures is '
+           'itself a judgement, made by the same analyst, with no more warrant than the '
+           'probability it replaces. A future omitted from the list has been assigned a '
+           'probability of zero without the assignment being written anywhere, and the '
+           'futures that get omitted are the ones nobody in the room had thought of, which '
+           'is the whole of the original difficulty restated in different language and '
+           'nothing more. The claim that the method requires no subjective input is false. '
+           'The subjective input has been moved from a column of figures into the edge of a '
+           'list, where a reader is less likely to look for it.',
+           'What follows is not a preference between the two methods but a requirement on '
+           'both. Either way the decision rests on something the analyst supplied, and the '
+           'difference that matters is whether a reader can find it. A document that prints '
+           'its stipulated probabilities with the reasoning beside them, or prints the '
+           'futures it considered together with the ones it considered and rejected, is '
+           'auditable by a successor who disagrees. A document printing neither exhibits '
+           'identical arithmetic and no candour whatever, and the absence of the candour '
+           'cannot be detected from the output alone. The methods are comparable. The '
+           'disclosure is what distinguishes one piece of work from another.'],
+ 'guided': [('What is the procedure of robust decision making?',
+             ('To average the outcomes',
+              'To enumerate foreseeable futures and choose the option whose worst '
+              'performance is tolerable',
+              'To assign a probability to each future',
+              'To postpone the decision'),
+             1,
+             'And no probability is required at any point, which the passage calls the '
+             'attraction.'),
+            ('Where is the method in regular use?',
+             ('Wherever the record is complete',
+              'Wherever a decision cannot be revisited',
+              'In actuarial work',
+              'In short-term planning'),
+             1,
+             'Sea walls, reservoirs and reactor containment are the examples given.'),
+            ('What is the first cost?',
+             ('A standing conservatism',
+              'A loss of precision',
+              'The expense of the analysis',
+              'A longer timescale'),
+             0,
+             'A criterion answerable to the worst member of the set forgoes value in the '
+             'futures that arrive.')],
+ 'exam': [('What does the writer say about the listing of the futures?',
+           ('It is settled by the data',
+            'It is itself a judgement with no more warrant than the probability it replaces',
+            'It is produced by a committee',
+            'It is published as a matter of course'),
+           1,
+           'Made by the same analyst, as the passage is careful to say.'),
+          ('What has happened to a future omitted from the list?',
+           ('It has been judged unlikely',
+            'It has been assigned a probability of zero without the assignment being written '
+            'anywhere',
+            'It has been referred to a successor',
+            'It has been replaced by a worse case'),
+           1,
+           'Which is why the writer calls it the same difficulty in different language.'),
+          ('Which futures does the writer say get omitted?',
+           ('The least likely ones',
+            'The ones nobody in the room had thought of',
+            'The ones that are too expensive to model',
+            'The ones already covered by regulation'),
+           1,
+           'That is the point of the objection, since those are exactly the ones a '
+           'probability cannot cover either.'),
+          ('What does the writer say the claim about no subjective input is?',
+           ('Mostly correct', 'False', 'Unproven', 'Correct for sea walls'),
+           1,
+           'The subjective input has been moved into the boundary of a list.'),
+          ('What distinguishes one piece of work from another?',
+           ('The method chosen',
+            'The disclosure',
+            'The arithmetic',
+            'The experience of the analyst'),
+           1,
+           'The methods are called comparable, and the disclosure is what differs.')]}
+UNIT['l4'] = {'sub': 'Risk and uncertainty are different',
+ 'caption': 'A lecture on two conditions and one piece of arithmetic',
+ 'board': ['Risk: a distribution exists',
+           'Uncertainty: none exists',
+           'Expected value needs a probability',
+           'A stipulated number hides the gap'],
+ 'skill': ('A lecture that refuses to treat one case as a version of another',
+           ['The two conditions are defined and then separated. Note the separation, which '
+            'the lecturer repeats.',
+            'The arithmetic is not criticised. What is done with it is.',
+            'A question about his instruction wants what he asks to be printed.']),
+ 'warm': [('Woman: What makes a decision risky?',
+           ('A distribution exists for it.',
+            'The loss is large.',
+            'Yes, it is risky.',
+            'Ten thousand cases.'),
+           0,
+           'Whether a distribution exists is the whole of the test.'),
+          ('Woman: Is uncertainty a severe kind of risk?',
+           ('No, it is a different condition.',
+            'Yes, it is worse risk.',
+            'Yes, it is.',
+            'Expected value.'),
+           0,
+           'He repeats the separation because the merging of the two is the error.'),
+          ('Woman: What does he want printed?',
+           ('The reasoning beside the stipulated number.',
+            'The expected value only.',
+            'Yes, something printed.',
+            'Two decimal places.'),
+           0,
+           'The number may stand, provided the reasoning stands beside it.')],
+ 'script': [('Man',
+             'Two conditions, and the examiners will punish you for running them together. '
+             'Risk: you have a distribution. Ten thousand of these components have been '
+             'installed and four hundred failed, so you know the failure rate, and you know '
+             'the frequency of a flood at that gauge because somebody wrote it down for '
+             'ninety years. Uncertainty: there is no such record, because this is the first '
+             'one of its kind, or because whatever generated the old numbers has changed and '
+             'the record is now about a world that no longer exists. Now please hear this. '
+             'Uncertainty is not severe risk. It is a different condition, and the machinery '
+             'we build for risk does not run in it. Which machinery? Expected value, and '
+             'what it demands is a probability on every branch. When the record gives you '
+             'those, the method is very nearly perfect and I have no quarrel with it at all. '
+             'When the record does not, here is what the profession does. The analyst '
+             'stipulates a number, from judgement, and types it into the sheet in the same '
+             'font as the measured ones. The arithmetic runs. The answer comes out to two '
+             'decimal places. And a thing that was an honest confession of ignorance on page '
+             'one has turned into a parameter on page four, where nobody can see it. The '
+             'uncertainty has not gone down by one per cent. It has moved somewhere it '
+             'cannot be audited. So, my instruction. Stipulate your number if you must, and '
+             'print the reasoning next to it, in the same font. I want the sentence that '
+             'produced the number, not a line at the bottom of the page admitting that a '
+             'number was produced somehow. If you cannot write that sentence, you have '
+             'discovered something about your own analysis.')],
+ 'items': [('What will the examiners punish, according to the lecturer?',
+            ('Using expected value',
+             'Treating the two conditions as one',
+             'Stipulating a probability',
+             'Quoting the failure rate'),
+            1,
+            'He opens with that warning and comes back to it.'),
+           ('Why might an old record be useless?',
+            ('It is incomplete',
+             'Whatever generated the old numbers has changed',
+             'It covers too few cases',
+             'It was badly kept'),
+            1,
+            'The record is then about a world that no longer exists.'),
+           ('What does he say about expected value where the record supplies probabilities?',
+            ('It is unreliable',
+             'It is close to faultless and he has no quarrel with it',
+             'It should be replaced',
+             'It is too conservative'),
+            1,
+            'His objection is to the other case entirely.'),
+           ('Which detail about the stipulated number does he repeat?',
+            ('Its size',
+             'That it is typed in the same font as the measured ones',
+             'That it is never published',
+             'That it changes the answer'),
+            1,
+            'He repeats the detail about the font in his final instruction.'),
+           ('What is his instruction?',
+            ('Never stipulate a probability',
+             'Stipulate it if you must, and print the reasoning next to it',
+             'Use robust methods instead',
+             'Publish the record you relied on'),
+            1,
+            'In the same font, as he says at the end.')]}
+UNIT['l5'] = {'sub': 'Deciding without the number',
+ 'caption': 'A short talk on where the judgement went',
+ 'board': ['Robust: no probability needed',
+           'Cost one: standing conservatism',
+           'Cost two: the list is a judgement',
+           'An omitted future is a zero'],
+ 'skill': ('A talk that finds the same fault in the remedy',
+           ['The remedy is stated fairly before it is criticised. Note what the speaker '
+            'grants.',
+            'Two costs, and she says which is serious. Keep them in order.',
+            'A question about her conclusion wants what she asks of both methods.']),
+ 'warm': [('Man: Does the robust method need a probability?',
+           ('No, and that is the attraction.',
+            'Yes, on every branch.',
+            'Yes, it does.',
+            'A sea wall.'),
+           0,
+           'She grants that squarely before she attacks it.'),
+          ('Man: Which cost is the serious one?',
+           ('That the list of futures is a judgement.',
+            'That the method is conservative.',
+            'Yes, there is a cost.',
+            'Two costs.'),
+           0,
+           'She says so explicitly and spends most of the talk on it.'),
+          ('Man: What does an omitted future get?',
+           ('A probability of zero.',
+            'A second examination.',
+            'Yes, it gets something.',
+            'A worse case.'),
+           0,
+           'And the assignment is never written down anywhere.')],
+ 'script': [('Woman',
+             'Let me put the alternative as strongly as its advocates do, because I think '
+             'they are half right. You refuse to invent a probability. Instead you list the '
+             'futures you can foresee, you test every option against each of them, and you '
+             'take the option whose worst showing across the list you can live with. No '
+             'probabilities anywhere. That is a real advantage, and it is why we build sea '
+             'walls and reservoir capacity and reactor containment that way. Two costs. The '
+             'first is well known and I will be brief: a rule that answers to the worst '
+             'member of a set is governed by the worst member of that set, so you give up a '
+             'lot of value in the futures that actually turn up. The second is the one I '
+             'want you to leave with. Who wrote the list? The same analyst. On what '
+             'authority? None that is any better than the probability they refused to state. '
+             'And notice what has happened to a future that is not on the list. It has been '
+             'given a probability of zero, and nobody has written that down anywhere, and '
+             'the futures that fall off a list are precisely the ones nobody in the room had '
+             'thought of. So the claim that this method needs no subjective judgement is '
+             'simply false. The judgement moved out of a column of figures and into the edge '
+             'of a list, where it is harder to see. I am not choosing between the methods. I '
+             'have used both and I will use both again. I am asking both of them to print '
+             'what the analyst supplied, and to print it where a successor who disagrees can '
+             'find it in ten years without an archive and a court order.')],
+ 'items': [('Why does the speaker state the alternative strongly?',
+            ('To dismiss it quickly',
+             'Because she thinks its advocates are half right',
+             'Because it is unfamiliar',
+             'To compare it with expected value'),
+            1,
+            'She says so in her first sentence.'),
+           ('Where does she say the method is used?',
+            ('In actuarial work',
+             'Sea walls, reservoir capacity and reactor containment',
+             'In short-term planning',
+             'Wherever the record is complete'),
+            1,
+            'Those are her three examples of decisions that cannot be revisited.'),
+           ('What is her summary of the first cost?',
+            ('It is expensive to analyse',
+             'A rule answering to the worst member of a set is governed by it',
+             'It requires too many futures',
+             'It needs a probability after all'),
+            1,
+            'So a great deal of value is given up in the futures that turn up.'),
+           ('What two questions does she ask about the list?',
+            ('How long it is and who checks it',
+             'Who wrote it and on what authority',
+             'When it was made and why',
+             'Which futures were rejected and why'),
+            1,
+            'And she answers the second with none that is any better.'),
+           ('What does she say she is not doing?',
+            ('Criticising the method',
+             'Choosing between the methods',
+             'Defending expected value',
+             'Asking for more data'),
+            1,
+            'She asks both methods to print what the analyst supplied.')]}
+UNIT['w4'] = {'sub': 'Risk and uncertainty are different',
+ 'skill': ('Discourse management and stance: as far as, on any account, to my mind',
+           ['A stance adverbial marks how far you are committing: on any account, in my '
+            'view, as far as the record goes.',
+            'Put it at the front for a whole clause, or next to the word it limits.',
+            'Managing phrases tell a reader where you are: the second objection is the '
+            'serious one.']),
+ 'guided': [('You want to limit a claim to the record.',
+             ['as far as',
+              'the actuarial',
+              'record',
+              'goes',
+              'the failure',
+              'rate',
+              'is',
+              'four',
+              'per cent'],
+             'As far as the actuarial record goes, the failure rate is four per cent.'),
+            ('You want to mark which objection matters.',
+             ['the second',
+              'objection',
+              'is',
+              'the serious',
+              'one',
+              'and',
+              'I',
+              'shall',
+              'spend',
+              'longer',
+              'on it'],
+             'The second objection is the serious one, and I shall spend longer on it.'),
+            ('You want a strong stance adverbial.',
+             ['on any',
+              'account',
+              'a stipulated',
+              'number',
+              'describes',
+              'the',
+              'analyst',
+              'rather than',
+              'the world'],
+             'On any account, a stipulated number describes the analyst rather than the '
+             'world.')],
+ 'exam': [('You want to hedge a claim precisely.',
+           ['to my mind',
+            'the',
+            'quantification',
+            'conceals',
+            'the',
+            'difficulty',
+            'rather than',
+            'reducing',
+            'it'],
+           'To my mind, the quantification conceals the difficulty rather than reducing it.'),
+          ('You want to mark a turn in the argument.',
+           ['so far',
+            'the method',
+            'is',
+            'faultless',
+            'and',
+            'the trouble',
+            'begins',
+            'where',
+            'the record',
+            'stops'],
+           'So far the method is faultless, and the trouble begins where the record stops.'),
+          ('You want to signal the structure of what follows.',
+           ['two costs',
+            'attach',
+            'to',
+            'it',
+            'and',
+            'the second',
+            'is',
+            'the',
+            'serious',
+            'one'],
+           'Two costs attach to it, and the second is the serious one.'),
+          ('You want to state a limit on your own position.',
+           ['as far as',
+            'the evidence',
+            'goes',
+            'neither',
+            'method',
+            'avoids',
+            'a',
+            'subjective',
+            'input'],
+           'As far as the evidence goes, neither method avoids a subjective input.'),
+          ('You want to disclaim a choice.',
+           ['I am',
+            'not',
+            'choosing',
+            'between',
+            'the methods',
+            'and',
+            'I am',
+            'asking',
+            'both',
+            'to',
+            'publish'],
+           'I am not choosing between the methods, and I am asking both to publish.')]}
+UNIT['w5'] = {'sub': 'Deciding without the number',
+ 'prof': 'Dr Ferreiro',
+ 'question': 'A water authority must set the height of a sea wall for the next hundred '
+             'years. One team proposes an expected-value calculation using stipulated '
+             'probabilities for sea-level rise. Another proposes a robust analysis over a '
+             'list of futures with no probabilities. Which should the authority commission?',
+ 'posts': [('Yara',
+            'w',
+            'The robust analysis. A hundred-year decision that cannot be revisited is '
+            'exactly the case the expected-value apparatus is worst at, and inventing '
+            'probabilities for a mechanism that is changing is not analysis.'),
+           ('Lukas',
+            'm',
+            'Yara has swapped a visible invention for an invisible one. The second passage '
+            'says the list of futures is a judgement by the same person, and a future left '
+            'off it has been given a zero that nobody wrote down.')],
+ 'skill': ('A question where neither option escapes the difficulty',
+           ['Yara argues from the kind of decision; Lukas from where the judgement has gone.',
+            'The second passage asks the same thing of both methods, which is the move '
+            'neither of them makes.',
+            'A strong answer commissions something specific and says what it must contain.']),
+ 'starters': ['Lukas is right that…, and the conclusion he stops short of…',
+              'The distinction that matters is between… and…',
+              'What both methods owe a reader is…',
+              'So the authority should commission…, on condition that…'],
+ 'model': ['Lukas is right that the judgement has merely moved and he stops one step short '
+           'of the useful conclusion. The passage does not rank the two methods; it asks '
+           'both of them to print what the analyst supplied, which means his objection is an '
+           'argument about the terms of the commission rather than about which team wins it.',
+           'Yara is right about the kind of decision and treats the expected value objection '
+           'as decisive on its own. It is not quite, because a hundred-year wall is not only '
+           'unrevisable but expensive, and a criterion answerable to the worst member of a '
+           'list of futures will build to the worst future anybody happened to list, at a '
+           'cost borne by people in the futures that arrive instead.',
+           'So the authority should commission the robust analysis, on the condition that '
+           'the list of futures is published together with the futures considered and '
+           'rejected, and the reason for each rejection. That single requirement converts '
+           'Lukas’s objection from a complaint into a document, because a successor who '
+           'thinks a future was wrongly dropped can now say which one and why. What is given '
+           'up is the appearance of a settled answer, since a published list of rejections '
+           'is an invitation to argue about every one of them, and a water authority with a '
+           'hundred-year decision would rather not be arguing. That cost is worth paying. '
+           'The alternative is a wall whose height rests on a judgement nobody recorded, '
+           'defended in forty years by officials who have no means of reconstructing it and '
+           'no idea which futures their predecessors declined to consider.'],
+ 'model_words': 267}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Risk and uncertainty are different',
+  'focus': 'refusing to treat one case as a version of another',
+  'skill': ('Uncertainty is not severe risk. It is a different condition.',
+            ['Two short sentences, not one long one. The full stop does the work.',
+             'Stress different, not not.',
+             'Then say what follows: the machinery for the first does not run in the '
+             'second.']),
+  'repeat': ['Uncertainty means none exists.',
+             'Risk means a distribution exists.',
+             'Uncertainty is not severe risk.',
+             'It is a different condition.',
+             'Expected value needs a probability on every branch.',
+             'The analyst stipulates a number and types it in the same font.',
+             'The uncertainty has not gone down by one per cent, and it has moved where '
+             'nobody can see it.'],
+  'theme': 'two situations that are not versions of each other',
+  'qs': ['Tell me about two problems people treat as the same that you think are different. '
+         'What separates them?',
+         'Some people say every decision can be reduced to a number. How far would you '
+         'agree?',
+         'How would you explain to a friend the difference between a risk and an '
+         'uncertainty?',
+         'Finally, describe a figure you were given that you suspect was invented.'],
+  'model': [(2,
+             'I would say any decision can be given a number, which is not the same as being '
+             'reduced to one. If the number was stipulated by the person doing the sum, the '
+             'difficulty is still there and it is harder to find.'),
+            (3,
+             'A risk is when you know the odds, like a flood at a gauge with ninety years of '
+             'records. An uncertainty is when nobody has the odds, because the thing has '
+             'never happened or the world that produced the records has changed.')],
+  'selfcheck': ['I used two short sentences, not one long one',
+                'I stressed different rather than not',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'Deciding without the number',
+  'focus': 'stating the other side at its strongest',
+  'skill': ('Let me put the alternative as strongly as its advocates do',
+            ['Say you are doing it, then do it properly and at length. A short version is '
+             'worse than none.',
+             'Keep your own view out of the summary entirely.',
+             'Then turn, and make the turn short.']),
+  'repeat': ['No probabilities anywhere.',
+             'That is a real advantage.',
+             'Now, who wrote the list?',
+             'You refuse to invent a probability.',
+             'Let me put it as strongly as its advocates do.',
+             'A future that is not on the list has been given a zero.',
+             'The judgement moved out of a column of figures and into the edge of a list.'],
+  'theme': 'putting the other side fairly',
+  'qs': ['Tell me about an argument you disagree with that you can state well. What is its '
+         'strongest form?',
+         'Some people think stating the other side fairly weakens your own case. What do you '
+         'think?',
+         'How do you tell whether somebody has understood your position?',
+         'Finally, describe a time somebody changed your mind by describing your own view '
+         'back to you.'],
+  'model': [(2,
+             'I think it does the opposite, for a simple reason. If I cannot state your case '
+             'in a form you would accept, nobody should believe that my objection is aimed '
+             'at anything you actually hold.'),
+            (3,
+             'I listen for whether they can say what would change my mind. Anybody can '
+             'repeat a conclusion; the condition behind it is the part that shows '
+             'understanding.')],
+  'selfcheck': ['I announced the summary and then gave it in full',
+                'I kept my own view out of the summary',
+                'I made the turn short']}]

@@ -53,7 +53,9 @@ def strip(n):
     i = text.find(MARK)
     if i < 0:
         return False
-    open(path, 'w').write(text[:i] + '\n')
+    # rstrip, so that a unit re-emitted several times does not
+    # accumulate blank lines where the augmentation was removed.
+    open(path, 'w').write(text[:i].rstrip('\n') + '\n')
     return True
 
 

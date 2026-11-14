@@ -1037,8 +1037,6 @@ UNIT = dict(
 )
 
 
-
-
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1073,34 +1071,35 @@ UNIT['r4'] = {'sub': 'How an argument is built',
             'The worked example is the centre of the passage. Identify the part that is '
             'missing from it.',
             'A question about disagreement wants where the passage locates it.']),
- 'paras': ['An argument in ordinary speech has three parts and only two of them are usually '
+ 'paras': ['An argument in everyday speech has three parts and only two of them are usually '
            'said aloud. There are the grounds, which are the facts offered; there is the '
            'claim, which is the proposition the speaker wants accepted; and there is the '
            'warrant, which is the general principle that permits the one to support the '
            'other. The distinction between the three is not a classification for its own '
            'sake: a reader with no separate word for the warrant has no way of asking '
            'whether the connection between the grounds and the claim holds. The grounds and '
-           'the claim are spoken because an argument without them is not an argument at all, '
+           'the claim are voiced because an argument without them is not an argument at all, '
            'while the warrant is normally implicit, and the reason for its omission is not '
            'concealment but economy, since an argument that stated every warrant would be '
            'unbearable to listen to.',
-           'Consider a sentence of the ordinary kind: the applicant was late for the '
+           'Consider a sentence of the commonplace kind: the applicant was late for the '
            'interview, so she should not be appointed. The grounds and the claim are both '
            'present and the warrant is not. The unstated principle is something like a '
            'candidate who is late for an interview will be unreliable in the post, and the '
-           'moment it is written down two things happen that do not happen while it stays '
+           'instant it is written down two things occur that do not occur while it stays '
            'implicit. It becomes a general claim about human behaviour; a general claim '
-           'admits of examination, and this one is fairly weak. It also becomes clear that '
+           'admits of examination, and this one is fairly weak. It also becomes evident that '
            'the disagreement was never about the facts at all, since nobody disputes that '
            'the applicant was late.',
-           'This is the chief practical result of the model, and it holds across subjects. '
-           'Disagreements that present themselves as disagreements about evidence are very '
-           'often disagreements about warrants, with both sides accepting the same grounds '
-           'and drawing incompatible conclusions because each is applying a different '
-           'implicit principle. The instruction that follows is simple to state and hard to '
-           'carry out. When an argument resists you and you cannot say why, write down the '
-           'sentence the speaker did not say, and examine that instead of the evidence, '
-           'because the examination of grounds everybody accepts is wasted effort.'],
+           'This is the chief practical application of the model, and it holds across '
+           'subjects. Disagreements that present themselves as disagreements about evidence '
+           'are very often disagreements about warrants, with both sides accepting the same '
+           'grounds and drawing incompatible conclusions because each is applying a '
+           'different implicit principle. The instruction that follows is simple to state '
+           'and hard to carry out. When an argument resists you and you cannot say why, '
+           'write down the sentence the speaker did not say, and examine that instead of the '
+           'evidence, because the examination of grounds everybody accepts is wasted '
+           'effort.'],
  'guided': [('Which two parts of an argument are usually said aloud?',
              ('The grounds and the warrant',
               'The grounds and the claim',
@@ -1160,37 +1159,37 @@ UNIT['r4'] = {'sub': 'How an argument is built',
            'And examine that instead of the evidence, which is the practical result.')]}
 UNIT['r5'] = {'sub': 'How an argument is built',
  'title': 'A Model of How We Ought to Be Persuaded',
- 'words': 346,
+ 'words': 345,
  'skill': ('Reading an objection that a model is an ideal rather than a report',
            ['The writer accepts that the model is useful and denies that it describes '
             'anything. Note the word for each.',
             'Measured findings follow. Hold what each of them says moves an audience.',
             'A question about the conclusion wants why the writer still teaches the model.']),
- 'paras': ['Everything in the previous passage is worth learning and almost none of it is a '
-           'description of how persuasion works. The model is normative: it sets out what an '
-           'argument would consist of if audiences were moved by reasons. The experimental '
-           'literature on what actually moves audiences is large, consistent and '
-           'unflattering, and the quantities that predict agreement best are not features of '
-           'the argument at all, which is an awkward result for a subject that teaches '
-           'argument.',
+ 'paras': ['Everything in the previous passage is worth learning and virtually none of it is '
+           'a description of how persuasion works. The model is normative: it sets out what '
+           'an argument would consist of if audiences were moved by reasons. The '
+           'experimental literature on what actually moves audiences is large, consistent '
+           'and unflattering, and the quantities that predict agreement best are not '
+           'features of the argument at all, which is an awkward result for a subject that '
+           'teaches argument.',
            'Three findings give the shape of it. Repetition raises acceptance of a statement '
            'whether or not any evidence accompanies it, and the effect survives in people '
            'who can remember being told that the statement was false, which means that '
            'familiarity is doing work that has nothing to do with grounds. Agreement rises '
            'sharply when the audience takes the speaker to belong to its own group, and the '
-           'same argument in the mouth of an outsider moves the same audience much less, so '
-           'the warrant is not what is being examined. And insinuation performs better than '
-           'assertion for anything the audience is reluctant to hear, because a suggestion '
-           'the listener completes for themselves is not available to be checked. None of '
-           'these three is a kind of argument. Each is a kind of deception, or close enough '
-           'to one that the distinction needs an argument of its own, and that argument is '
-           'never supplied by the people who use them.',
+           'same argument in the mouth of an outsider moves the same audience considerably '
+           'less, so the warrant is not what is being examined. And insinuation performs '
+           'better than assertion for anything the audience is reluctant to hear, because a '
+           'suggestion the listener completes for themselves is not available to be checked. '
+           'None of these three is a kind of argument. Each is a kind of deception, or close '
+           'enough to one that the distinction needs an argument of its own, and that '
+           'argument is never supplied by the people who use them.',
            'Why then teach the model at all? Because the three findings describe what cannot '
            'be defended against from the inside, and the warrant is the only part of a '
            'persuasion that a listener can examine without trusting the speaker. A reader '
            'who writes down the unstated principle has the one tool that works on '
            'familiarity, on group membership and on insinuation alike, since all three '
-           'operate by making a sentence feel unnecessary to state. The model is a poor '
+           'operate by rendering a sentence unnecessary to state. The model is a poor '
            'account of how we are persuaded and the best available account of how to notice '
            'it happening, and the suspicion it teaches is worth more than the elegance it '
            'claims.'],

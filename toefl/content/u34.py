@@ -1062,7 +1062,7 @@ UNIT['fieldwords'] = [('profession', 'an occupation with its own training and st
  ('sudden', 'happening without warning')]
 UNIT['r4'] = {'sub': 'Designing for being wrong',
  'title': 'Choosing the Way a Thing Will Fail',
- 'words': 332,
+ 'words': 333,
  'skill': ('Reading a design principle stated against expectation',
            ['The passage replaces one aim with another. Note both aims, because a question '
             'will contrast them.',
@@ -1073,7 +1073,7 @@ UNIT['r4'] = {'sub': 'Designing for being wrong',
  'paras': ['The first instinct of a student in this profession is to make the structure '
            'strong, and the instruction of the first year is largely devoted to the '
            'replacement of that instinct with a better one. Strength is a requirement and '
-           'not an objective. Every structure meets a load it was not designed for '
+           'not an objective. Every structure encounters a load it was not designed for '
            'eventually, and the question that governs the consequences is not how strong it '
            'was but what it does at the moment it gives way. A design decision about '
            'material is therefore a decision about the behaviour of a failure, and the '
@@ -1082,13 +1082,13 @@ UNIT['r4'] = {'sub': 'Designing for being wrong',
            'The distinction that carries the argument is between a failure with warning and '
            'a failure without one. A ductile material, mild steel being the standard '
            'example, begins to deform under excessive load and goes on deforming visibly for '
-           'some time before any separation occurs. A deflection in a girder is therefore an '
-           'announcement that something is wrong and an invitation to intervene. A brittle '
-           'material of the same nominal strength gives no such announcement. It carries its '
-           'load without complaint until the load exceeds its capacity, and then it '
-           'separates in an instant. That is why the collapse of a cast iron structure is '
-           'catastrophic, while the collapse of a steel one is usually preceded by weeks of '
-           'visible distress.',
+           'a considerable period before any separation occurs. A deflection in a girder is '
+           'therefore an announcement that something is wrong and an invitation to '
+           'intervene. A brittle material of the same nominal strength gives no such '
+           'announcement. It carries its load without complaint until the load exceeds its '
+           'capacity, and then it separates in an instant. That is why the collapse of a '
+           'cast iron structure is catastrophic, while the collapse of a steel one is '
+           'usually preceded by weeks of visible distress.',
            'The factor of safety belongs to the same reasoning and is widely misunderstood '
            'as a margin for an overload. Its larger purpose is to keep the structure in the '
            'region where its behaviour is predictable and its distress is visible, so that '
@@ -1183,9 +1183,9 @@ UNIT['r5'] = {'sub': 'Designing for being wrong',
            'with a named recipient rather than a department, an obligation to respond in '
            'writing within a stated period, and an escalation that happens automatically '
            'when the response does not arrive. None of that is engineering in the sense the '
-           'first year teaches, and it protects more structures than any choice of material '
-           'has ever done. The instruction a profession gives is a statement of what it '
-           'believes its problem to be.'],
+           'first year teaches, and it safeguards more structures than any choice of '
+           'material has ever done. The instruction a profession gives is a statement of '
+           'what it believes its problem to be.'],
  'guided': [('What does the writer say the argument for a visible failure is?',
              ('Mistaken',
               'Correct and only half of a system',

@@ -1064,7 +1064,7 @@ UNIT['fieldwords'] = [('conservation', 'the work of keeping species and habitats
  ('debt', 'something owed that has not yet been paid')]
 UNIT['r4'] = {'sub': 'How habitats break up',
  'title': 'The Species a Fragment Has Not Lost Yet',
- 'words': 346,
+ 'words': 345,
  'skill': ('Reading a finding about delay',
            ['The passage says a count taken now is misleading. Note what it is misleading '
             'about.',
@@ -1075,25 +1075,25 @@ UNIT['r4'] = {'sub': 'How habitats break up',
            'be used in planning and in legislation. What it does not say is that a given '
            'area, divided into pieces, holds as many species as the same area in one block. '
            'Division loses species for two reasons that are quite separate, and the '
-           'confusion of them is the commonest error in the subject. The first is edge. A '
-           'fragment has a far greater proportion of its area within reach of the open '
+           'confusion of them is the commonest error in the field. The first is edge. A '
+           'fragment has a far greater proportion of its area within reach of the cleared '
            'ground around it, where the light, the wind and the temperature are those of a '
-           'field rather than a woodland, so part of what looks like habitat on a map is not '
+           'field rather than a woodland, so part of what resembles habitat on a map is not '
            'habitat for the species that need the interior, and the proportion affected '
            'rises sharply as the pieces get smaller.',
            'The second reason is the one that changes how a survey must be read. A fragment '
            'does not lose its species at the moment it is cut off. It loses them over '
-           'decades, as populations too small to persist decline one by one, and '
+           'decades, as populations too small to persist dwindle one by one, and '
            'recolonisation from elsewhere becomes impossible because there is no elsewhere '
            'within reach. The species are present and the fragment cannot support them, and '
            'the difference between the two is called an extinction debt. A survey taken ten '
-           'years after fragmentation finds a list of species that includes a substantial '
+           'years after fragmentation yields a list of species that includes a substantial '
            'number already committed to disappearing, and no observation made on the day of '
            'the visit distinguishes them from the rest.',
            'The practical consequence is uncomfortable for everybody who relies on '
            'monitoring. A count cannot tell you whether a fragment is in a stable condition '
-           'or in the early part of a long decline, and the two look identical on the day of '
-           'the visit. What distinguishes them is area, isolation and the length of time '
+           'or in the early stage of a long decline, and the two appear identical on the day '
+           'of the visit. What distinguishes them is area, isolation and the length of time '
            'since the division, which are measured from a map and not from the ground, and '
            'that is an uncomfortable conclusion for a profession whose whole training is in '
            'identification.'],
@@ -1163,7 +1163,7 @@ UNIT['r5'] = {'sub': 'Restoration and what it cannot restore',
  'paras': ['A hectare of woodland cleared and a hectare of plantation established are '
            'treated in the public accounting as a loss and a gain of the same size. The '
            'practice survives because the variable it counts is the one available to '
-           'inspection from an aeroplane. Canopy cover is a real quantity, open to '
+           'inspection from an aeroplane. Canopy cover is a genuine quantity, open to '
            'measurement, hard to dispute, and it returns on a timescale of forty years or '
            'less. Nothing else about an ancient woodland returns on that timescale, and the '
            'distance between the quantity and the condition it stands for is the subject of '
@@ -1179,14 +1179,14 @@ UNIT['r5'] = {'sub': 'Restoration and what it cannot restore',
            'be written for. A site with a closed canopy at forty years is therefore a wood '
            'in one respect and in no other, and the entry in the accounts records it as a '
            'wood without qualification.',
-           'None of this is an argument against planting trees, which is a good thing to do '
-           'for a dozen reasons, and it is an argument against the entry in the ledger. What '
-           'politicians are offered is a pair of numbers in balance, and what the evidence '
-           'supports is a loss now against a gain in three hundred years, which is not a '
-           'transaction anybody would agree to if the dates were printed beside the figures. '
-           'The remedy is dull and effective, and its adoption would cost nothing: record '
-           'the age of what is cleared, record the planting date of what replaces it, and '
-           'refuse to add the two together.'],
+           'None of this is an argument against planting trees, which is a worthwhile thing '
+           'to do for a dozen reasons, and it is an argument against the entry in the '
+           'ledger. What politicians are offered is a pair of numbers in balance, and what '
+           'the evidence supports is a loss now against a gain in three hundred years, which '
+           'is not a transaction anybody would agree to if the dates were printed beside the '
+           'figures. The remedy is dull and effective, and its adoption would cost nothing: '
+           'record the age of what is cleared, record the planting date of what replaces it, '
+           'and refuse to add the two together.'],
  'guided': [('How are a cleared hectare and a planted hectare treated?',
              ('As a loss and a smaller gain',
               'As a loss and a gain of the same size',

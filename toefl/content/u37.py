@@ -1063,7 +1063,6 @@ UNIT = dict(
 )
 
 
-
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1101,31 +1100,31 @@ UNIT['r4'] = {'sub': 'What a bank actually does',
  'paras': ['A bank can be unable to pay and still own more than it owes, and the separation '
            'of those two conditions is the foundation of the subject. Insolvency means that '
            'the value of what is owned falls short of the value of what is owed. Illiquidity '
-           'means that the money cannot be produced on the day it is demanded, whatever the '
+           'means that the cash cannot be produced on the day it is demanded, whatever the '
            'eventual value of the assets. The two conditions are independent: a bank can be '
-           'solvent and illiquid, which is the interesting case, or insolvent and liquid for '
-           'a while, which is the dangerous one.',
+           'solvent and illiquid, which is the instructive case, or insolvent and liquid for '
+           'a while, which is the hazardous one.',
            'The exposure of a bank to the first condition lies in what it does for a living. '
-           'Its liabilities are short, since a depositor may demand the whole balance '
-           'without notice, and its assets are long, since a mortgage runs for twenty-five '
+           'Its liabilities are short, since a depositor may demand the entire balance '
+           'without warning, and its assets are long, since a mortgage runs for twenty-five '
            'years and admits of no cancellation on an afternoon. The transformation of short '
            'borrowing into long lending is not a defect of the arrangement but the service '
            'the arrangement provides, and it is what allows a society to finance the '
            'construction of houses and factories out of money its owners may want back next '
-           'week. The safeguard against the obvious danger is statistical. It holds as long '
+           'week. The safeguard against the obvious hazard is statistical. It holds as long '
            'as withdrawals stay within their usual distribution, and its protection is an '
-           'average, not a guarantee. It fails the moment every depositor arrives at once, '
+           'average, not a guarantee. It fails the moment every depositor appears at once, '
            'and it fails for a bank whose assets would cover its liabilities three times '
            'over, because the assets are not there in the form of cash and their conversion '
            'into cash cannot be achieved that morning.',
            'The lender of last resort exists for precisely this case and for no other, which '
            'is worth memorising before the rest of the doctrine. A central bank that lends '
            'against good assets to a solvent institution facing a run is not rescuing a '
-           'failure; it is supplying the only thing that was missing from the position, '
-           'which was the timing. The classical statement of the doctrine is equally clear '
-           'about the other case, in which the institution is insolvent and the lending '
-           'merely transfers the loss to the public. Everything in the next passage follows '
-           'from one difficulty with that clean division, and the difficulty is one of '
+           'failure; it is supplying the only thing that was absent from the position, which '
+           'was the timing. The classical statement of the doctrine is equally clear about '
+           'the other case, in which the institution is insolvent and the lending merely '
+           'transfers the loss to the public. Everything in the next passage follows from '
+           'one difficulty with that clean division, and the difficulty is one of '
            'information.'],
  'guided': [('What does insolvency mean?',
              ('That cash cannot be produced on the day',
@@ -1166,7 +1165,7 @@ UNIT['r4'] = {'sub': 'What a bank actually does',
            'times over.'),
           ('What is the lender of last resort for?',
            ('Rescuing failing banks',
-            'Supplying the timing a solvent institution is missing',
+            'Supplying the timing a solvent institution is absent',
             'Buying bad assets',
             'Preventing withdrawals'),
            1,
@@ -1188,7 +1187,7 @@ UNIT['r4'] = {'sub': 'What a bank actually does',
            'A run is the simultaneous demand the second paragraph describes.')]}
 UNIT['r5'] = {'sub': 'Debt, default and who decides',
  'title': 'A Distinction Nobody Can Make at Three in the Morning',
- 'words': 357,
+ 'words': 356,
  'skill': ('Reading an objection about when a distinction is available',
            ['The writer accepts the distinction and attacks its availability. Note the '
             'difference.',
@@ -1199,32 +1198,31 @@ UNIT['r5'] = {'sub': 'Debt, default and who decides',
  'paras': ['The division between an illiquid institution and an insolvent one is correct, '
            'and it is unavailable at the moment a decision has to be taken. Solvency is a '
            'statement about the value of assets. The value of an asset in a crisis is '
-           'whatever somebody will pay for it that week, and in the week of a run nobody is '
-           'buying. The official who must decide at three in the morning whether an '
-           'institution is illiquid or insolvent is being asked a question that is '
-           'undecidable with the information in the room. The honest position is that the '
+           'whatever somebody will pay for it that fortnight, and in the week of a run '
+           'nobody is buying. The official who must decide at three in the morning whether '
+           'an institution is illiquid or insolvent is being asked a question that is '
+           'undecidable with the information in the room. The candid position is that the '
            'distinction does its work afterwards, in the account of what happened, rather '
            'than during.',
            'The response of the central banks has not been a solution to the problem but a '
-           'replacement of the judgement by a rule. Lending is made against a published list '
-           'of acceptable assets at a published discount. The question at three in the '
-           'morning therefore becomes whether the paper on the table appears on the list, '
-           'which is a question with an answer. The substitution is an improvement and it is '
-           'not a solution, since the list was written in calm conditions by people '
-           'estimating what would hold its value in conditions they were not in and could '
-           'not easily imagine.',
+           'replacement of the judgement by a rule. Lending is made against a published '
+           'schedule of acceptable assets at a published discount. The question at three in '
+           'the morning therefore becomes whether the paper on the table appears on the '
+           'schedule, which is a question with an answer. The substitution is an improvement '
+           'and it is not a solution, since the schedule was written in calm conditions by '
+           'people estimating what would hold its value in conditions they were not in and '
+           'could not easily imagine.',
            'For a country the same difficulty arrives without any of the machinery. A '
            'company that cannot pay enters a statutory procedure in which a court imposes an '
-           'outcome on creditors who would individually prefer something else, and the '
-           'absence of any equivalent for a sovereign borrower is the central fact about '
-           'this whole half of the subject. What takes its place is a committee of '
-           'creditors, a restructuring agreed under the threat of years of litigation, and '
-           'an outcome that depends on who holds the debt rather than on what the debtor can '
-           'pay. Proposals for a statutory procedure have been made repeatedly since the '
-           'nineteen seventies and have failed every time, for a reason worth stating '
-           'plainly and seldom stated at all: the governments that would have to legislate '
-           'are the governments whose own lenders would lose the power the absence gives '
-           'them.'],
+           'outcome on creditors who would individually prefer otherwise, and the absence of '
+           'any equivalent for a sovereign borrower is the central fact about this whole '
+           'half of the subject. What takes its place is a committee of creditors, a '
+           'restructuring agreed under the threat of years of litigation, and an outcome '
+           'that depends on who holds the debt rather than on what the debtor can pay. '
+           'Proposals for a statutory procedure have been made repeatedly since the nineteen '
+           'seventies and have failed every time, for a reason worth stating plainly and '
+           'seldom stated at all: the governments that would have to legislate are the '
+           'governments whose own lenders would lose the power the absence gives them.'],
  'guided': [('What does the writer say about the division between illiquid and insolvent?',
              ('It is mistaken',
               'It is correct and unavailable when a decision must be taken',
@@ -1249,7 +1247,7 @@ UNIT['r5'] = {'sub': 'Debt, default and who decides',
              'night.')],
  'exam': [('How have central banks responded?',
            ('By solving the problem',
-            'By replacing the judgement with a published rule',
+            'By replacing the judgement with a published schedule',
             'By refusing to lend in a crisis',
             'By lending without security'),
            1,
