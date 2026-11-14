@@ -1055,6 +1055,7 @@ UNIT = dict(
 )
 
 
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1178,7 +1179,7 @@ UNIT['r4'] = {'sub': 'Access to justice',
            'being the binding constraint.')]}
 UNIT['r5'] = {'sub': 'Access to justice',
  'title': 'What the Access Argument Leaves Out',
- 'words': 297,
+ 'words': 294,
  'skill': ('Reading an objection that accepts a diagnosis and doubts a remedy',
            ['The writer agrees that access is the binding problem and questions what follows '
             'about how to fix it.',
@@ -1188,11 +1189,11 @@ UNIT['r5'] = {'sub': 'Access to justice',
  'paras': ['The access argument is correct and incomplete, and its incompleteness becomes '
            'visible at the moment somebody has to act on it rather than restate it. If the '
            'barrier is the cost of representation, the obvious remedy is to fund '
-           'representation, and that remedy has been tried at scale in several systems with '
-           'results that are harder to read than its advocates expected. Funded '
-           'representation raises the number of claims brought and also raises the cost of '
-           'each, because an adversarial process with lawyers on both sides is slower and '
-           'more thorough than one with a lawyer on one.',
+           'representation. That remedy has been tried at scale in several systems, with '
+           'results harder to read than its advocates expected. Funded representation raises '
+           'the number of claims brought. It also raises the cost of each, because an '
+           'adversarial process with lawyers on both sides is slower and more thorough than '
+           'one with a lawyer on one.',
            'The alternative is to reduce what a claim requires: a lower threshold of '
            'formality, a tribunal that hears a dispute in an hour, procedural rules a '
            'litigant can follow without training. Those reforms are cheap, they work, and '
@@ -1203,12 +1204,12 @@ UNIT['r5'] = {'sub': 'Access to justice',
            'So the honest position is that access is bought by a reduction in the quality of '
            'adjudication, that this transaction is usually worth making, and that it should '
            'be described rather than concealed. Concealment is the characteristic failure of '
-           'reform documents in this area, and it is what makes the eventual discovery of '
-           'the price look like a scandal rather than an acknowledged cost. What is lost is '
-           'the development of the law itself, because a tribunal deciding quickly and '
-           'informally generates no precedent worth the name, and the uneven body of law the '
-           'first argument complained about is not corrected by a system that produces no '
-           'reports at all.'],
+           'reform documents in this whole area, and it is what makes the eventual discovery '
+           'of the price look like a scandal rather than an acknowledged cost. What is lost '
+           'is the development of the law itself. A tribunal deciding quickly and informally '
+           'generates no precedent worth the name, and the uneven body of law the first '
+           'argument complained about is not corrected by a system that produces no reports '
+           'at all.'],
  'guided': [('What does the passage say about the access argument?',
              ('It is wrong',
               'It is correct and incomplete',

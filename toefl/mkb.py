@@ -33,6 +33,28 @@ TEACH = json.load(open(os.path.join(HERE, 'v34_teach.json'))) \
 
 ORDER = ['fieldwords', 'r4', 'r5', 'l4', 'l5', 'w4', 'w5', 'sp']
 
+MARK = ('\n\n# ------------------------------------------------------------'
+        '---------------\n# The two academic cycles, added by the '
+        'Volumes 3-6 work.')
+
+
+def strip(n):
+    """Remove a previous augmentation, so a unit can be re-emitted.
+
+    emit() appends, which is what keeps the original unit auditable. The cost
+    is that running it twice gives a unit two sets of academic cycles, so
+    re-emitting has to take the old block off first. The marker is the header
+    emit() writes, and everything from it to the end of the file is the
+    augmentation.
+    """
+    path = os.path.join(HERE, 'content', 'u%02d.py' % n)
+    text = open(path).read()
+    i = text.find(MARK)
+    if i < 0:
+        return False
+    open(path, 'w').write(text[:i] + '\n')
+    return True
+
 
 def taught_before(n):
     """Every head word a student on the series path has met before unit n."""
@@ -83,6 +105,7 @@ def seam_report(n, U):
 
 
 def emit(n, blocks, doc, strict_seam=True):
+    strip(n)
     U = merge(n, blocks)
     bad = check.check(U, taught_before(n))
     want, hit = seam_report(n, U)

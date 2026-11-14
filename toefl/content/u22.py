@@ -1041,6 +1041,7 @@ UNIT = dict(
 )
 
 
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1066,7 +1067,7 @@ UNIT['fieldwords'] = [('palaeontologist', 'a scientist who studies fossils'),
  ('optics', 'the physics of how light behaves')]
 UNIT['r4'] = {'sub': 'Convergent forms',
  'title': 'The Same Answer, Arrived at Twice',
- 'words': 300,
+ 'words': 298,
  'skill': ('Reading a passage whose evidence is a coincidence',
            ['The argument here rests on two unrelated cases turning out alike, so hold both '
             'cases in mind rather than only the second.',
@@ -1091,7 +1092,7 @@ UNIT['r4'] = {'sub': 'Convergent forms',
            'account. The statistical shape of the argument is the one used in any other '
            'science, and the only unusual feature is that the repetitions were run by the '
            'world rather than by an investigator.',
-           'This is why convergent cases are collected so carefully, and why a claim about '
+           'This is why convergent cases are collected so carefully. A claim about '
            'adaptation is strongest where the same pressure can be shown to have produced '
            'the same outcome in populations that could not have communicated it. The method '
            'also sets its own limits, because it needs cases that are genuinely independent, '

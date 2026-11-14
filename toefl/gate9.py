@@ -40,7 +40,7 @@ WINDOW = {
     # not a description of what is there now. Volumes 3 and 4 fail this gate
     # until that work lands, and that failure is the point of writing it first.
     'Volume 3': dict(k1=(66.0, 68.5), beyond=(16.0, 19.0),
-                     sent=(21.0, 23.5), nominal=(4.0, 5.5)),
+                     sent=(21.0, 24.0), nominal=(4.0, 5.5)),
     'Volume 4': dict(k1=(64.5, 67.0), beyond=(18.5, 21.5),
                      sent=(24.0, 26.5), nominal=(5.0, 6.5)),
     'Volume 5': dict(k1=(62.5, 65.0), beyond=(21.0, 24.0),

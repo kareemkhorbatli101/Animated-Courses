@@ -1035,6 +1035,7 @@ UNIT = dict(
 )
 
 
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1060,7 +1061,7 @@ UNIT['fieldwords'] = [('mooring', 'an instrument anchored to the sea floor to re
  ('arithmetic', 'the calculation itself, as opposed to the argument')]
 UNIT['r4'] = {'sub': 'Measuring a moving sea',
  'title': 'How You Weigh a Current That Is Thousands of Miles Wide',
- 'words': 284,
+ 'words': 288,
  'skill': ('Reading a passage about instrumentation rather than findings',
            ['The subject here is how a quantity is measured, so the method is the content '
             'and not the background to it.',
@@ -1069,15 +1070,15 @@ UNIT['r4'] = {'sub': 'Measuring a moving sea',
             'A question about the array wants what the spacing of the instruments was chosen '
             'to achieve.']),
  'paras': ['The overturning circulation carries warm surface water towards the pole in a '
-           'single broad current, releases its heat to the atmosphere, and returns the same '
-           'water at depth, having made it denser by cooling and by an increase in salinity. '
-           'The quantity everybody wants is the strength of that overturning, expressed as a '
-           'volume of water crossing a line of latitude every second. Measuring it directly '
-           'is a problem of a peculiar kind, because the flow is spread across a basin '
-           'thousands of miles wide, it reverses with depth, and its speed at any one point '
-           'bears very little relation to the total.',
-           'The solution adopted is an array: a line of moorings set across the ocean at one '
-           'latitude, each carrying instruments at a series of depths, recording '
+           'single broad current and releases its heat to the atmosphere. It returns the '
+           'same water at depth, having made it denser by cooling and by an increase in '
+           'salinity. The quantity everybody wants is the strength of that overturning, '
+           'expressed as a volume of water crossing a line of latitude every second. '
+           'Measuring it directly is a problem of a peculiar kind, because the flow is '
+           'spread across a basin thousands of miles wide, it reverses with depth, and its '
+           'speed at any one point bears very little relation to the total.',
+           'The solution adopted is an array. A line of moorings is set across the ocean at '
+           'one latitude, each carrying instruments at a series of depths, and each records '
            'temperature, salinity and the speed of the flow continuously for years at a '
            'time. The spacing is not uniform and the reason is instructive. Instruments are '
            'concentrated near the two coasts, where the strongest and least steady flows are '

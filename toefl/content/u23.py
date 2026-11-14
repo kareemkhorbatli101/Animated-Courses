@@ -1035,6 +1035,7 @@ UNIT = dict(
 )
 
 
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1060,7 +1061,7 @@ UNIT['fieldwords'] = [('consolidation', 'the process by which a new memory becom
  ('spindle', 'a short burst of activity seen in sleep recordings')]
 UNIT['r4'] = {'sub': 'Consolidation and sleep',
  'title': 'What the Sleeping Brain Is Doing With the Day',
- 'words': 293,
+ 'words': 291,
  'skill': ('Reading a mechanism described in two species at once',
            ['The passage moves between recordings from rodents and tests on people, so keep '
             'track of which evidence comes from which.',
@@ -1069,9 +1070,9 @@ UNIT['r4'] = {'sub': 'Consolidation and sleep',
             'A question about the strongest evidence wants the manipulation, not the '
             'correlation.']),
  'paras': ['A memory is not stored where it is formed. The hippocampus takes the events of a '
-           'day quickly and holds them in a form that is easily disturbed, while the cortex '
-           'holds memories for decades in a form that is slow to establish, and the transfer '
-           'of information from the first to the second requires some mechanism of its own. '
+           'day quickly and holds them in a form that is easily disturbed. The cortex holds '
+           'memories for decades in a form that is slow to establish. The transfer of '
+           'information from the first to the second requires some mechanism of its own. '
            'Recordings from rodents show the hippocampus reproducing, during sleep, the same '
            'sequences of activity it produced while the animal was awake, compressed into a '
            'fraction of the original time. This replay occurs in bursts that coincide with '
@@ -1155,7 +1156,7 @@ UNIT['r4'] = {'sub': 'Consolidation and sleep',
            'was not moved when it could have been.')]}
 UNIT['r5'] = {'sub': 'Consolidation and sleep',
  'title': 'The Distance Between a Rodent and a Student',
- 'words': 298,
+ 'words': 297,
  'skill': ('Reading an objection about how far evidence travels',
            ['The target here is not the mechanism but the step from one species and one task '
             'to a claim about people and learning.',
@@ -1167,9 +1168,9 @@ UNIT['r5'] = {'sub': 'Consolidation and sleep',
            'built on it afterwards. The recordings and the studies that interfere with '
            'replay concern a rodent finding its way through a maze, which is a task with a '
            'clear order of steps and a measurable outcome. The material a student is trying '
-           'to retain has none of those features, and the claim that the same mechanism '
-           'carries it is an extrapolation across species, across task and across the length '
-           'of time involved, all at once.',
+           'to retain has none of those features. The claim that the same mechanism carries '
+           'it is an extrapolation across species, across task and across the length of time '
+           'involved, all at once.',
            'Human investigations exist, and most of them share a limitation that constrains '
            'what they can show. The task is usually a word list or a set of paired items, '
            'chosen because retention can be scored unambiguously, and the effect of sleep on '

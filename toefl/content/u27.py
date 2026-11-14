@@ -1032,3 +1032,630 @@ UNIT = dict(
         'automatic, because a conditional is the natural way to argue about any decision that '
         'has already been taken, and you will reach for one constantly.',
 )
+
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 27 gains its two academic cycles. Cycle 4 is about a published
+# figure rather than a technology: the cost per megawatt-hour generated,
+# why its denominator is energy generated rather than energy wanted, the
+# four ways of meeting an evening peak, and the arithmetic that makes the
+# last ten per cent of a transition dearer than the first fifty. Cycle 5
+# accepts every line of that arithmetic and objects to the comparison it
+# appears in, because a thermal system has firming costs too and they are
+# paid rather than published.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('megawatt', 'a unit of electrical power, a million watts'),
+ ('dispatchable', 'able to be turned up or down when it is wanted'),
+ ('intermittency', 'the property of arriving only some of the time'),
+ ('curtailment', 'the throwing away of power that cannot be used'),
+ ('firming', 'the adding of whatever makes a variable supply reliable'),
+ ('denominator', 'the quantity a figure is divided by'),
+ ('overbuild', 'to install more capacity than is needed on average'),
+ ('backup', 'a second source kept ready for when the first fails'),
+ ('hourly', 'reckoned hour by hour'),
+ ('installation', 'the equipment once it has been put in place'),
+ ('deficit', 'the amount by which supply falls short'),
+ ('variable', 'changing from hour to hour rather than steady')]
+UNIT['r4'] = {'sub': 'The cost of transition',
+ 'title': 'The Cheapest Power and the Most Expensive System',
+ 'words': 308,
+ 'skill': ('Reading a passage about a figure rather than a technology',
+           ['The subject is a published number and what it leaves out, so the definition of '
+            'the number is the content.',
+            'Note what varies hour by hour, because every cost in the argument follows from '
+            'that variation.',
+            'A question about the comparison wants what the two figures include, not which '
+            'technology is better.']),
+ 'paras': ['The figure reported when a technology is described as the cheapest source of '
+           'electricity is a cost per megawatt-hour produced. It is worked out over the '
+           'lifetime of the installation and divided by the energy that installation is '
+           'expected to produce, which sounds like a complete description of a cost and is '
+           'not. For solar and wind that figure has fallen below the figure for any '
+           'dispatchable source, and that reduction is real, large and not in dispute by '
+           'anybody. The difficulty is that the denominator is energy generated rather than '
+           'energy wanted, and those are different quantities in a way that matters more as '
+           'the share of the variable sources rises.',
+           'Demand does not follow sunlight. A system supplied largely by solar generation '
+           'produces a surplus in the middle of the day and a shortfall in the evening, and '
+           'the evening is when demand peaks in most climates. The supply of evening power '
+           'therefore requires something else: storage charged earlier, a dispatchable plant '
+           'held ready, transmission from a location where the sun is still up, or a fall in '
+           'consumption for which somebody is paid. Each of those arrangements carries a '
+           'real cost, none of those costs appears in the per-megawatt-hour figure, and in '
+           'combination they constitute what the literature calls firming.',
+           'The arithmetic of firming has one unpleasant property, which is that its cost '
+           'rises with the proportion of variable generation rather than remaining constant. '
+           'At a low share the existing system absorbs the swings without noticing. At a '
+           'high share the surplus requires storage or curtailment and the deficit requires '
+           'capacity that runs rarely and must be paid for in full, with the consequence '
+           'that the last ten per cent of a transition costs more than the first fifty. The '
+           'headline figure and the system cost move in opposite directions, and both are '
+           'honestly calculated.'],
+ 'guided': [('What is the reported figure a cost of?',
+             ('The installation only',
+              'Each megawatt-hour produced, over the installation’s lifetime',
+              'Each megawatt-hour wanted',
+              'Storage and transmission'),
+             1,
+             'A cost per megawatt-hour produced, worked out over the lifetime and divided by '
+             'the energy expected.'),
+            ('What does the passage say about the fall in that figure?',
+             ('It is disputed',
+              'It is real, large and not in dispute',
+              'It applies only to solar',
+              'It has been exaggerated'),
+             1,
+             'Real, large and not in dispute, which the passage grants before raising its '
+             'objection.'),
+            ('What is the problem with the denominator?',
+             ('It is measured inaccurately',
+              'It is energy generated rather than energy wanted',
+              'It excludes the lifetime',
+              'It uses the wrong units'),
+             1,
+             'Energy generated and energy wanted are different quantities, and the gap grows '
+             'with the proportion of variable supply.')],
+ 'exam': [('Why does a solar-heavy system have an evening problem?',
+           ('Panels fail at night',
+            'Demand peaks when generation has stopped',
+            'Transmission is unavailable',
+            'Storage is illegal'),
+           1,
+           'A surplus in the middle of the day and a deficit in the evening, which is when '
+           'demand peaks in most climates.'),
+          ('Which of these is NOT given as a way of meeting the evening?',
+           ('Storage charged earlier',
+            'A dispatchable plant held ready',
+            'Building more panels at the same site',
+            'Transmission from where the sun is still up'),
+           2,
+           'The passage lists storage, dispatchable capacity, transmission and demand '
+           'reduction; more panels at the same site is not among them.'),
+          ('What does the passage say about those costs?',
+           ('They are small',
+            'They are real and absent from the per-megawatt-hour figure',
+            'They are included in the headline figure',
+            'They cannot be estimated'),
+           1,
+           'Each is a real cost, none appears in the figure, and together they are what '
+           'firming means.'),
+          ('What is the unpleasant property of firming cost?',
+           ('It is impossible to measure',
+            'It rises with the share of variable generation',
+            'It falls as the share rises',
+            'It stays flat'),
+           1,
+           'Its cost rises with the share rather than staying flat, which is what makes the '
+           'last part of a transition dear.'),
+          ('What does the last sentence claim about the two figures?',
+           ('One of them is dishonest',
+            'They move in opposite directions and are both honestly calculated',
+            'They measure the same thing',
+            'Neither can be published'),
+           1,
+           'The headline figure and the system cost move in opposite directions, and both '
+           'are honestly calculated.')]}
+UNIT['r5'] = {'sub': 'The cost of transition',
+ 'title': 'The Firming Argument and Who Makes It',
+ 'words': 311,
+ 'skill': ('Reading an objection that examines who benefits from an argument',
+           ['The writer accepts the firming arithmetic and asks what is usually left out of '
+            'the comparison it is used in.',
+            'Note the comparison the writer says is never made, because the whole objection '
+            'is about a missing baseline.',
+            'A question about the conclusion wants what both sides have to supply.']),
+ 'paras': ['The firming argument is correct, it is often used by people with an interest in '
+           'the outcome, and both of those things can be true at once. Its correctness is a '
+           'matter of simple sums and has been demonstrated repeatedly. Its use is '
+           'selective, because a cost that rises with the proportion of variable generation '
+           'is almost always set against a system assumed to carry no costs of the same '
+           'kind, and that assumption does not survive inspection. The selective use is the '
+           'objection. The sums are not.',
+           'A thermal system has firming costs too, and they are paid rather than published. '
+           'Capacity sits idle for most of the year against the possibility of a cold still '
+           'week, plants fail without warning and reserve must be held against that failure, '
+           'and fuel prices move by factors nobody forecasts. None of that appears in a '
+           'per-megawatt-hour figure for a thermal plant either, which means the comparison '
+           'routinely offered sets a variable source carrying its system costs against an '
+           'older kind of plant that is not asked to carry its own. The comparison that '
+           'would settle anything is total system cost against total system cost, and it is '
+           'harder to compute and far less often printed.',
+           'The useful conclusion from all of this is about method rather than about '
+           'electricity, and it holds for anybody arguing about the supply of anything at '
+           'all. Ask what the denominator is, ask what the starting figure includes, and '
+           'treat any comparison in which one side carries its system costs and the other '
+           'does not as telling you nothing, whichever of the two directions it happens to '
+           'point in. The firming literature has made the first of those questions '
+           'respectable, which is a genuine contribution to the discussion, and the second '
+           'is the question it has for the most part declined to ask about its own '
+           'comparisons.'],
+ 'guided': [('What two things does the passage say can be true at once?',
+             ('The argument is wrong and is widely used',
+              'The argument is correct and is used by interested parties',
+              'The arithmetic is new and disputed',
+              'Firming is cheap and rising'),
+             1,
+             'Correct, often used by people with an interest, and both can be true at once.'),
+            ('What does the passage say about a thermal system?',
+             ('It has no firming costs',
+              'It has firming costs that are paid rather than published',
+              'Its costs are always published',
+              'It never fails'),
+             1,
+             'A thermal system has firming costs too, and they are paid rather than '
+             'published.'),
+            ('What comparison is routinely offered?',
+             ('Total system cost against total system cost',
+              'A variable source with system costs added against a conventional one with '
+              'them omitted',
+              'Fuel price against capital cost',
+              'One country against another'),
+             1,
+             'That asymmetry in what each side carries is the whole of the objection.')],
+ 'exam': [('Which of these is given as a thermal system cost?',
+           ('Curtailment of surplus',
+            'Capacity sitting idle against a cold still week',
+            'Storage charging losses',
+            'Transmission from distant sunlight'),
+           1,
+           'Idle capacity held against a cold still week is the first of the three examples '
+           'given.'),
+          ('What does the passage say about the comparison that would settle the question?',
+           ('It has been made repeatedly',
+            'It is harder to compute and less often printed',
+            'It is impossible in principle',
+            'It favours thermal plant'),
+           1,
+           'Total system cost against total system cost, harder to compute and far less '
+           'often printed.'),
+          ('What does the passage say the useful conclusion is?',
+           ('About which source is cheaper',
+            'About method: what to ask of any comparison',
+            'About who funds the research',
+            'About storage'),
+           1,
+           'About method rather than about electricity, and it holds for arguments about the '
+           'supply of anything.'),
+          ('How should a reader treat an asymmetric comparison?',
+           ('As evidence for the side carrying fewer costs',
+            'As telling you nothing, whichever direction it points',
+            'As evidence against the variable source',
+            'As a starting point for calculation'),
+           1,
+           'It tells you nothing whichever direction it points, which is why the advice is '
+           'about method.'),
+          ('What does the passage credit the firming literature with?',
+           ('Settling the cost question',
+            'Making the question about the denominator respectable',
+            'Computing total system cost',
+            'Nothing at all'),
+           1,
+           'It has made the first of those questions respectable, which the passage calls a '
+           'real contribution.')]}
+UNIT['l4'] = {'sub': 'The cost of transition',
+ 'caption': 'A lecture on the curve that causes the problem',
+ 'board': ['Noon: surplus. Evening: deficit.',
+           'Four ways to meet the evening',
+           'All four cost money, none is in the figure',
+           'Cost rises with share, not flat'],
+ 'skill': ('A lecture built on a daily pattern',
+           ['The lecturer describes a shape that repeats every day, and every cost in the '
+            'hour is a response to that shape.',
+            'Count the remedies he lists. He is explicit that the list is complete.',
+            'A question about the last ten per cent wants the reason the cost is not flat.']),
+ 'warm': [('Woman: When is the surplus?',
+           ('In the middle of the day.',
+            'In the evening.',
+            'Yes, there is a surplus.',
+            'Four ways.'),
+           0,
+           'When wants a time, and the surplus is at noon while the deficit is in the '
+           'evening.'),
+          ('Woman: How many remedies does he list?',
+           ('Four.', 'Two.', 'Yes, he lists them.', 'Ten per cent.'),
+           0,
+           'How many wants the count, and he says the list is complete at four.'),
+          ('Woman: Why is the last part of the transition dearest?',
+           ('The firming cost rises with the share.',
+            'The panels become more expensive.',
+            'Yes, it is dearest.',
+            'In the evening.'),
+           0,
+           'The cost is not flat: it rises with the share of variable supply, which is the '
+           'whole arithmetic of the hour.')],
+ 'script': [('Man',
+             'Draw demand across a day and then draw solar generation under it, and the '
+             'problem of this entire topic is visible in the gap between the two lines. '
+             'Generation peaks at noon. Demand peaks in the early evening, when people come '
+             'home and the sun is going down. So you have a surplus you did not ask for and '
+             'a deficit at exactly the wrong hour, every single day, for reasons that have '
+             'nothing to do with how cheap a panel is. There are four ways to meet that '
+             'evening and I believe the list is complete. Store the noon surplus and release '
+             'it. Hold a dispatchable plant ready and run it for three hours. Move power '
+             'along a wire from a place where the sun is still up. Or pay somebody to want '
+             'less electricity at seven o’clock. Every one of those costs money and not one '
+             'of them is inside the figure you read in the newspaper, which is a cost per '
+             'megawatt-hour generated. Now the part that matters for policy. That firming '
+             'cost does not sit still as you add more variable generation. At ten per cent '
+             'of supply the existing system swallows the variation without anybody noticing. '
+             'At eighty per cent you are curtailing surplus you paid to build and paying for '
+             'capacity that runs a fortnight a year. The last ten per cent of a transition '
+             'costs more than the first fifty, and any plan that assumes a flat cost per '
+             'unit has the arithmetic wrong at the only point where it matters.')],
+ 'items': [('Where is the problem of the topic visible, by the lecturer?',
+            ('In the price of panels',
+             'In the gap between the demand and generation curves',
+             'In the cost of storage',
+             'In transmission losses'),
+            1,
+            'The problem is visible in the gap between the two lines, which is how he '
+            'opens.'),
+           ('Why does demand peak in the early evening?',
+            ('Factories start up',
+             'People come home as the sun goes down',
+             'Storage discharges',
+             'Prices fall'),
+            1,
+            'People come home and the sun is going down, which puts the peak at the worst '
+            'hour.'),
+           ('Which is NOT one of his four remedies?',
+            ('Store the surplus and release it',
+             'Hold a dispatchable plant ready',
+             'Build panels facing a different way',
+             'Pay somebody to want less at seven'),
+            2,
+            'His four are storage, dispatchable capacity, transmission and paid demand '
+            'reduction.'),
+           ('What happens at ten per cent of supply?',
+            ('Curtailment begins',
+             'The existing system absorbs the variation unnoticed',
+             'Capacity must be overbuilt',
+             'Storage becomes essential'),
+            1,
+            'At ten per cent the existing system swallows the variation without anybody '
+            'noticing.'),
+           ('What does he say about a plan assuming a flat cost per unit?',
+            ('It is approximately right',
+             'It has the arithmetic wrong where it matters most',
+             'It is the standard approach',
+             'It overstates the cost'),
+            1,
+            'Wrong at the only point where it matters, which is the high-share end of the '
+            'transition.')]}
+UNIT['l5'] = {'sub': 'The cost of transition',
+ 'caption': 'A short talk on comparisons with one side missing',
+ 'board': ['Variable: system costs added',
+           'Thermal: system costs omitted',
+           'Idle capacity, outages, fuel swings',
+           'Ask what the baseline carries'],
+ 'skill': ('A talk about a missing half of a comparison',
+           ['The speaker accepts an argument and objects to the comparison it is used in, '
+            'which is a narrower complaint than it sounds.',
+            'Note the three costs she says a conventional system carries without publishing '
+            'them.',
+            'A question about her rule wants something to ask of any figure, not a '
+            'conclusion about energy.']),
+ 'warm': [('Man: Does she dispute the firming arithmetic?',
+           ('No, she accepts it.', 'Yes, she disputes it.', 'Yes, in part.', 'Three costs.'),
+           0,
+           'She accepts the arithmetic and objects to the comparison, which she says twice.'),
+          ('Man: How many thermal system costs does she name?',
+           ('Three.', 'One.', 'Yes, she names them.', 'Eighty per cent.'),
+           0,
+           'Idle capacity, unplanned outages and fuel price swings are the three.'),
+          ('Man: What is her rule?',
+           ('Ask what the baseline carries.',
+            'Ask which source is cheaper.',
+            'Yes, she has a rule.',
+            'Compare two countries.'),
+           0,
+           'Her rule is a question to ask of any comparison, which is why she calls it '
+           'procedural.')],
+ 'script': [('Woman',
+             'I accept every line of the firming arithmetic and I want to object to the '
+             'comparison it usually appears in, which is a narrower complaint than people '
+             'expect. Here is the standard move. Take a variable source, add its storage, '
+             'its backup, its transmission and its curtailment, arrive at a system cost, and '
+             'set that against a per-megawatt-hour figure for a gas plant. Notice what just '
+             'happened. One side of that comparison carries its system costs and the other '
+             'does not. A thermal system has them. It holds capacity idle most of the year '
+             'against a cold still week, it keeps reserve against plants that fail without '
+             'notice, and it is exposed to fuel prices that have moved by a factor of four '
+             'inside a single year. All three are paid for by somebody and none of them is '
+             'in the published figure for the plant. So the honest comparison is total '
+             'system cost against total system cost, which is harder to compute and much '
+             'rarer in print. My rule, and I would like you to apply it beyond this subject, '
+             'is to ask what the baseline carries before you look at what the new thing '
+             'costs. A comparison where one side has been fully costed and the other has not '
+             'tells you nothing about either, whichever way it comes out. And I want to be '
+             'clear that this cuts in both directions. The same objection applies to anybody '
+             'quoting a thermal figure without its reserve, and I have heard that done '
+             'rather more often than the reverse.')],
+ 'items': [('What does the speaker accept?',
+            ('Every line of the firming arithmetic',
+             'That variable sources are cheapest',
+             'That thermal plant is cheaper',
+             'Nothing in the argument'),
+            0,
+            'She accepts every line of the arithmetic and objects only to the comparison.'),
+           ('What is the standard move she describes?',
+            ('Comparing two variable sources',
+             'Adding system costs to one side and not the other',
+             'Omitting curtailment',
+             'Using the wrong units'),
+            1,
+            'One side of the comparison carries its system costs and the other does not.'),
+           ('Which thermal cost does she mention first?',
+            ('Fuel price swings',
+             'Capacity held idle against a cold still week',
+             'Reserve against failures',
+             'Transmission'),
+            1,
+            'Idle capacity against a cold still week is the first of her three.'),
+           ('By how much does she say fuel prices have moved?',
+            ('By a tenth',
+             'By a factor of four inside a year',
+             'By a factor of two over a decade',
+             'She does not say'),
+            1,
+            'Moved by a factor of four inside a single year.'),
+           ('What does she say an asymmetric comparison tells you?',
+            ('That the new thing is dearer',
+             'Nothing about either side',
+             'That the baseline is cheaper',
+             'Only the direction of the difference'),
+            1,
+            'It tells you nothing about either, whichever way it comes out.')]}
+UNIT['w4'] = {'sub': 'The cost of transition',
+ 'skill': ('Third and mixed conditionals for costs not incurred',
+           ['A third conditional reasons about a past that did not happen: if the surplus '
+            'had been stored, it would not have been curtailed.',
+            'A mixed conditional runs from a past condition to a present result: if the '
+            'transmission had been built, the evening would not be a problem now.',
+            'Keep had with the condition and would have with the result, and the sentence '
+            'stays readable however long it gets.']),
+ 'guided': [('You want to say the surplus was wasted for want of storage.',
+             ['if',
+              'the surplus',
+              'had',
+              'been',
+              'stored',
+              'it',
+              'would',
+              'not',
+              'have',
+              'been',
+              'curtailed'],
+             'If the surplus had been stored, it would not have been curtailed.'),
+            ('You want to run a past condition to a present result.',
+             ['if',
+              'the transmission',
+              'had',
+              'been',
+              'built',
+              'the evening',
+              'would',
+              'not',
+              'be',
+              'a problem',
+              'now'],
+             'If the transmission had been built, the evening would not be a problem now.'),
+            ('You want to say the figure would have been different.',
+             ['if',
+              'firming',
+              'had',
+              'been',
+              'included',
+              'the comparison',
+              'would',
+              'have',
+              'looked',
+              'quite',
+              'different'],
+             'If firming had been included, the comparison would have looked quite '
+             'different.')],
+ 'exam': [('You want to say a complete comparison would have settled it.',
+           ['if',
+            'both sides',
+            'had',
+            'carried',
+            'their',
+            'system costs',
+            'the comparison',
+            'would',
+            'have',
+            'settled',
+            'something'],
+           'If both sides had carried their system costs, the comparison would have settled '
+           'something.'),
+          ('You want to say a flat assumption caused a present error.',
+           ['if',
+            'the plan',
+            'had',
+            'not',
+            'assumed',
+            'a flat cost',
+            'it',
+            'would',
+            'be',
+            'defensible',
+            'today'],
+           'If the plan had not assumed a flat cost, it would be defensible today.'),
+          ('You want to say idle capacity was always paid for.',
+           ['if',
+            'idle capacity',
+            'had',
+            'been',
+            'free',
+            'the thermal',
+            'figure',
+            'would',
+            'have',
+            'been',
+            'honest'],
+           'If idle capacity had been free, the thermal figure would have been honest.'),
+          ('You want to say demand reduction was never priced.',
+           ['if',
+            'anybody',
+            'had',
+            'priced',
+            'demand reduction',
+            'the fourth',
+            'remedy',
+            'would',
+            'have',
+            'been',
+            'compared'],
+           'If anybody had priced demand reduction, the fourth remedy would have been '
+           'compared.'),
+          ('You want to say the share, not the technology, set the cost.',
+           ['if',
+            'the share',
+            'had',
+            'stayed',
+            'at',
+            'ten per cent',
+            'none',
+            'of',
+            'this',
+            'would',
+            'matter'],
+           'If the share had stayed at ten per cent, none of this would matter.')]}
+UNIT['w5'] = {'sub': 'The cost of transition',
+ 'prof': 'Dr Haugen',
+ 'question': 'A government must publish one figure to guide public debate about electricity. '
+             'It can publish the cost per megawatt-hour generated, which is simple, '
+             'comparable across countries and incomplete, or a modelled total system cost, '
+             'which is complete, contestable and understood by very few people. Which?',
+ 'posts': [('Ingrid',
+            'w',
+            'The simple figure, with a footnote. A number nobody can check is not public '
+            'information, it is an assertion with arithmetic attached, and the modelling '
+            'assumptions will be chosen by whoever commissions the model.'),
+           ('Omar',
+            'm',
+            'A footnote is where inconvenient quantities go to die. The whole lesson of both '
+            'passages is that the simple figure misleads precisely where the decisions are '
+            'made, at a high share, and publishing it as the headline guarantees the debate '
+            'happens on the wrong number.')],
+ 'skill': ('A question about a simple figure and a complete one',
+           ['Ingrid argues from checkability; Omar from where the figure misleads. Both have '
+            'read the same arithmetic.',
+            'Use the second passage, whose advice is procedural: ask what the baseline '
+            'carries.',
+            'A strong answer specifies what gets published, in words, rather than choosing '
+            'between two labels.']),
+ 'starters': ['Omar is right that…, although that holds only when…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the second passage suggests…',
+              'What should be published is not… but…'],
+ 'model': ['Omar is right about where the simple figure fails, and his remedy inherits the '
+           'problem Ingrid names. A modelled total system cost is not a figure a citizen can '
+           'audit, and the second passage is explicit that the hard part is the baseline, '
+           'which is exactly the assumption a commissioning ministry would set.',
+           'Ingrid’s footnote is doing no work at all. The passages agree that the omission '
+           'matters most at a high share, which is where every current decision is being '
+           'taken, and a qualification printed small is a way of being able to say it was '
+           'printed.',
+           'So the government should publish both figures, side by side and the same size, '
+           'with one sentence saying that the first excludes firming and the second includes '
+           'assumptions somebody chose. What is given up is a single headline number, and '
+           'the debate becomes harder to conduct in a sentence. That is a real cost, and the '
+           'alternative is a debate that is easy to conduct and settled on a quantity nobody '
+           'intended to be decisive. A government that publishes one number has not avoided '
+           'choosing; it has chosen, and declined to say so. Publishing two is the only '
+           'version of this that leaves the choice where it belongs, which is with the '
+           'people reading them rather than with the department compiling them.'],
+ 'model_words': 220}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'The cost of transition',
+  'focus': 'saying a third conditional without losing the listener',
+  'skill': ('If the surplus had been stored, it would not have been curtailed',
+            ['Two halves, each with its own auxiliary. Say had been quickly and land on the '
+             'participle.',
+             'Pause at the comma. A third conditional with no pause is very hard to follow '
+             'at speed.',
+             'The stress goes on stored and curtailed, which carry the meaning.']),
+  'repeat': ['If firming had been included, the figure would have differed.',
+             'If the share had stayed low, none of this would matter.',
+             'If both sides had been costed, the comparison would mean something.',
+             'If idle capacity were free, the thermal figure would be honest.',
+             'If the surplus had been stored, it would not have been curtailed.',
+             'If the transmission had been built, the evening would not be a problem now.',
+             'If anybody had priced demand reduction, the fourth remedy would have been '
+             'compared with the other three.'],
+  'theme': 'a cost that was left out of a decision',
+  'qs': ['Tell me about a decision where a real cost was left out of the calculation. What '
+         'was it?',
+         'Some people say every cost should be put in money terms so it can be compared. How '
+         'far would you agree?',
+         'If somebody showed you a comparison of two options, what would you check first?',
+         'Finally, describe something cheap to buy and expensive to own.'],
+  'model': [(2,
+             'Up to a point, and the exception is the one that matters. Putting a cost in '
+             'money makes it comparable and also makes it look precise, and a '
+             'precise-looking number beats a vague true one in any meeting I have sat in.'),
+            (4,
+             'A second-hand car, and I knew it at the time. The purchase was a quarter of '
+             'what a newer one cost and the two years of repairs took the difference back '
+             'and rather more.')],
+  'selfcheck': ['I paused at the comma in the conditional',
+                'I stressed the two participles rather than the auxiliaries',
+                'I used at least two of the unit’s field words']},
+ {'sub': 'The cost of transition',
+  'focus': 'accepting an argument and refusing its use',
+  'skill': ('I accept the arithmetic and I object to the comparison',
+            ['Put the acceptance first and make it unambiguous. Any hedge there and the '
+             'objection sounds like disagreement.',
+             'Then name the narrow thing you object to. Narrow is what makes an objection '
+             'credible.',
+             'End with the question you would ask instead, in concrete words.']),
+  'repeat': ['I accept the arithmetic.',
+             'I object to the comparison it appears in.',
+             'One side carries its system costs and the other does not.',
+             'The honest comparison is total system cost against total system cost.',
+             'A thermal system has firming costs that are paid rather than published.',
+             'Ask what the baseline carries before you look at what the new thing costs.',
+             'A comparison where one side has been fully costed and the other has not tells '
+             'you nothing about either.'],
+  'theme': 'an argument used selectively',
+  'qs': ['Tell me about an argument you have seen used only when it suited somebody. What '
+         'was it?',
+         'Some people think that pointing out who benefits from an argument is a way of '
+         'avoiding it. What do you think?',
+         'How should a report present an argument its authors have an interest in?',
+         'Finally, describe a comparison you were shown that left out the other side.'],
+  'model': [(2,
+             'It usually is, and there is one case where it is not. If the argument is '
+             'sound, who benefits is irrelevant and raising it is evasion. If the argument '
+             'is selectively applied, who benefits explains the selection, and that is a '
+             'real observation about the argument rather than about the person.'),
+            (4,
+             'A comparison of two office rents that counted the cost of one building and the '
+             'cost plus the commute of neither. We moved, and the commute was the whole of '
+             'the difference.')],
+  'selfcheck': ['I made the acceptance unambiguous before objecting',
+                'I kept the objection narrow',
+                'I ended with the question I would ask instead']}]

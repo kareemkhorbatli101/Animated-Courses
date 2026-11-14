@@ -326,8 +326,14 @@ _UNKNOWN_CAP = 12
 # mean of 19 words a sentence, and the two new cycles add about 5,800. For the
 # volume to reach a mean of 21 the new passages have to average 22.1, so the
 # floor is 22 with the volume target as the margin.
-#               mean sentence   nominalisation
-_DENSITY = {3: (22.0, 4.5), 4: (25.0, 5.5), 5: (27.0, 6.5), 6: (29.0, 7.5)}
+# The floor alone was not enough. Written to a floor of 22 the new passages
+# came out between 26 and 33 words a sentence, denser than Volume 4's existing
+# prose, which would have reproduced the defect this work exists to fix: a
+# level on a cover that the text does not match. So the sentence length is a
+# band and not a floor, and the bands are contiguous across the four volumes.
+#          mean sentence band      nominalisation floor
+_DENSITY = {3: ((22.0, 26.0), 4.5), 4: ((25.0, 28.5), 5.5),
+            5: ((27.0, 30.5), 6.5), 6: ((29.0, 33.0), 7.5)}
 _FREQ_CEILING = {3: 10000, 4: 10000, 5: 10000, 6: 10000}
 _FREQ_CACHE = {}
 
@@ -413,7 +419,7 @@ def _check_bx(U, bad, taught):
     from content._band2 import BAND2
     n = U['n']
     P = BX[n]
-    want_sent, want_nom = _DENSITY[U['vol']]
+    (sent_lo, sent_hi), want_nom = _DENSITY[U['vol']]
     for tag in ('r4', 'r5'):
         pw = sum(len(x.split()) for x in U[tag]['paras'])
         lo, hi = P['r45']
@@ -424,9 +430,9 @@ def _check_bx(U, bad, taught):
         blob = ' '.join(U[tag]['paras'])
         sents = [x for x in re.split(r'(?<=[.!?])\s+', blob) if x.strip()]
         ms = pw / float(len(sents))
-        if ms < want_sent:
-            bad('%s averages %.1f words a sentence, the floor is %.1f'
-                % (tag, ms, want_sent))
+        if not sent_lo <= ms <= sent_hi:
+            bad('%s averages %.1f words a sentence, want %.1f-%.1f'
+                % (tag, ms, sent_lo, sent_hi))
         toks = re.findall(r"[A-Za-z][A-Za-z'\u2019-]*", blob)
         nom = 100.0 * sum(1 for w in toks if re.match(
             r'\w+(tion|sion|ment|ity|ness|ance|ence|ism)$', w, re.I)) / len(toks)

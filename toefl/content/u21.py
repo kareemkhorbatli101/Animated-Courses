@@ -1045,6 +1045,7 @@ UNIT = dict(
 )
 
 
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1076,9 +1077,9 @@ UNIT['r4'] = {'sub': 'What a child could not have learned',
             'Find the structure the writer says no child hears, and then find what the child '
             'does with it anyway.',
             'A question about the conclusion wants the inference, not the data.']),
- 'paras': ['A four-year-old controls a system of remarkable complexity, producing sentences '
-           'never encountered before and rejecting others as impossible without being able '
-           'to say why, and does all of it years before learning to tie a knot. No '
+ 'paras': ['A four-year-old controls a system of remarkable complexity. The child produces '
+           'sentences never encountered before, rejects others as impossible without being '
+           'able to say why, and does all of it years before learning to tie a knot. No '
            'instruction is involved, and correction, where parents attempt it at all, is '
            'directed at content rather than at syntax and is generally ignored. The '
            'achievement is indifferent to circumstance, proceeding at much the same rate in '
@@ -1088,12 +1089,11 @@ UNIT['r4'] = {'sub': 'What a child could not have learned',
            'identifying which of the two verbs the question belongs to, and no amount of '
            'hearing simple questions teaches that, because the sentences that would '
            'demonstrate it are vanishingly rare in speech directed at children. The child '
-           'nevertheless performs the operation correctly from the start, and the error that '
-           'the simpler hypothesis predicts is not merely uncommon in the record but '
-           'unattested, a word that is doing a great deal of work here. An error that is '
-           'rare can be explained away by saying that the conditions for it rarely arise, '
-           'whereas an error never recorded at all asks for a different kind of account '
-           'altogether.',
+           'nevertheless performs the operation correctly from the start. The error that the '
+           'simpler hypothesis predicts is not merely uncommon in the record but unattested, '
+           'and that word is doing a great deal of work here. An error that is rare can be '
+           'explained away by saying that the conditions for it rarely arise, whereas an '
+           'error never recorded at all asks for a different kind of account altogether.',
            'The conclusion drawn is that acquisition cannot be a matter of generalising from '
            'the stimulus, because the stimulus is too thin to support the generalisation. '
            'Something in the learner must already constrain what is possible, and narrow '
@@ -1163,7 +1163,7 @@ UNIT['r4'] = {'sub': 'What a child could not have learned',
            'the argument changed and its starting point did not.')]}
 UNIT['r5'] = {'sub': 'What a child could not have learned',
  'title': 'The Corpus Answers Back',
- 'words': 292,
+ 'words': 287,
  'skill': ('Reading an objection that concedes the puzzle',
            ['This writer accepts that acquisition is remarkable and denies that the standard '
             'explanation follows from it.',
@@ -1182,13 +1182,12 @@ UNIT['r5'] = {'sub': 'What a child could not have learned',
            'them before school. That figure was unavailable to anybody arguing about this '
            'before the collections existed. Whether several thousand is sufficient is a '
            'separate question, and an empirical one rather than a matter for assertion. '
-           'There is a second and sharper difficulty, which is that children do produce the '
-           'errors the stronger versions say they cannot, at low rates and for short '
-           'periods, and a theory built on an absence is embarrassed by any attested '
-           'exception.',
+           'There is a second and sharper difficulty. Children do produce the errors the '
+           'stronger versions say they cannot, at low rates and for short periods, and a '
+           'theory built on an absence is embarrassed by any attested exception.',
            'None of this disposes of the puzzle, and the writers who report these counts are '
-           'the first to say so, because a learner still arrives at a system no instruction '
-           'supplied, and the sheer uniformity of the outcome across children, languages and '
+           'the first to say so. A learner still arrives at a system no instruction '
+           'supplied. The sheer uniformity of the outcome across children, languages and '
            'circumstances remains the central fact of the field. The cautious position is '
            'that the input is richer than the classical argument allowed and still thinner '
            'than a general-purpose learner would require, which leaves the interesting '

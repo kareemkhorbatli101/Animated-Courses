@@ -1029,6 +1029,7 @@ UNIT = dict(
 )
 
 
+
 # ---------------------------------------------------------------------------
 # The two academic cycles, added by the Volumes 3-6 work.
 #
@@ -1055,7 +1056,7 @@ UNIT['fieldwords'] = [('replication', 'the repeating of a study to see whether i
  ('binary', 'having two values and no more')]
 UNIT['r4'] = {'sub': 'Replication',
  'title': 'Why a Published Finding Can Be Expected to Fail',
- 'words': 302,
+ 'words': 301,
  'skill': ('Reading an argument that predicts its own literature',
            ['The claim here is about publication as a filter, so the subject is the set of '
             'studies that got printed rather than any one of them.',
@@ -1066,10 +1067,10 @@ UNIT['r4'] = {'sub': 'Replication',
  'paras': ['Consider a literature in which every study is conducted honestly and the '
            'published findings are nevertheless wrong more often than their significance '
            'tests suggest. Three features of ordinary practice produce that outcome '
-           'together. The first is low precision: a study small enough to be paid for can '
+           'together. The first is low precision. A study small enough to be paid for can '
            'detect only a large effect, so a small true effect reaches significance in such '
-           'a study only when chance has been generous, which means the published estimate '
-           'is systematically larger than the quantity it estimates.',
+           'a study only when chance has been generous. The published estimate is therefore '
+           'systematically larger than the quantity it estimates.',
            'The second is the filter. A result that fails its significance test is harder to '
            'publish, and in several fields it was for decades close to impossible to print, '
            'so the record retains the fortunate studies and discards the unfortunate ones. '
@@ -1155,7 +1156,7 @@ UNIT['r4'] = {'sub': 'Replication',
            'Across several fields it is approximately what they found.')]}
 UNIT['r5'] = {'sub': 'Replication',
  'title': 'What a Failed Replication Does Not Prove',
- 'words': 294,
+ 'words': 293,
  'skill': ('Reading an objection to an interpretation, not to a result',
            ['The writer accepts the replication results and disputes the reading that a '
             'failure shows the original was wrong.',
@@ -1167,10 +1168,10 @@ UNIT['r5'] = {'sub': 'Replication',
            'finding that did not hold, and that description carries an assumption worth '
            'examining. It assumes the effect is a single quantity that either exists or does '
            'not, and that two studies of it are two attempts at the same measurement. For a '
-           'great many effects in the study of human behaviour that assumption is false, '
-           'because the quantity depends on the population, the equipment and the '
-           'circumstances, and genuine heterogeneity between two honest studies is then the '
-           'expected result rather than a sign that one of them went wrong.',
+           'great many effects in the study of human behaviour that assumption is false. The '
+           'quantity depends on the population, the equipment and the circumstances, and '
+           'genuine heterogeneity between two honest studies is then the expected result '
+           'rather than a sign that one of them went wrong.',
            'The distinction matters for what should be done next. If the failure indicates '
            'that the original effect was never there, the appropriate response is to discard '
            'it. If it indicates that the effect is real and conditional, the appropriate '
