@@ -985,26 +985,10 @@ def grammar_reference(d, vol, units):
     d.page_break_section()
 
 
-IRREG = [
- ('be', 'was / were', 'been'), ('become', 'became', 'become'), ('begin', 'began', 'begun'),
- ('break', 'broke', 'broken'), ('bring', 'brought', 'brought'), ('build', 'built', 'built'),
- ('buy', 'bought', 'bought'), ('catch', 'caught', 'caught'), ('choose', 'chose', 'chosen'),
- ('come', 'came', 'come'), ('cost', 'cost', 'cost'), ('cut', 'cut', 'cut'),
- ('do', 'did', 'done'), ('drink', 'drank', 'drunk'), ('drive', 'drove', 'driven'),
- ('eat', 'ate', 'eaten'), ('fall', 'fell', 'fallen'), ('feel', 'felt', 'felt'),
- ('find', 'found', 'found'), ('fly', 'flew', 'flown'), ('forget', 'forgot', 'forgotten'),
- ('get', 'got', 'got'), ('give', 'gave', 'given'), ('go', 'went', 'gone'),
- ('grow', 'grew', 'grown'), ('have', 'had', 'had'), ('hear', 'heard', 'heard'),
- ('hold', 'held', 'held'), ('keep', 'kept', 'kept'), ('know', 'knew', 'known'),
- ('leave', 'left', 'left'), ('lose', 'lost', 'lost'), ('make', 'made', 'made'),
- ('meet', 'met', 'met'), ('pay', 'paid', 'paid'), ('put', 'put', 'put'),
- ('read', 'read', 'read'), ('run', 'ran', 'run'), ('say', 'said', 'said'),
- ('see', 'saw', 'seen'), ('sell', 'sold', 'sold'), ('send', 'sent', 'sent'),
- ('sit', 'sat', 'sat'), ('sleep', 'slept', 'slept'), ('speak', 'spoke', 'spoken'),
- ('spend', 'spent', 'spent'), ('stand', 'stood', 'stood'), ('take', 'took', 'taken'),
- ('teach', 'taught', 'taught'), ('tell', 'told', 'told'), ('think', 'thought', 'thought'),
- ('understand', 'understood', 'understood'), ('wear', 'wore', 'worn'),
- ('win', 'won', 'won'), ('write', 'wrote', 'written')]
+# The irregular verb table is data, not prose: it lives in content/_wordbank.py
+# so that the vocabulary gate and this printed table are the same list. A verb
+# in it is one the student has met, so the gate accepts its past form too.
+from content._wordbank import IRREG_FORMS as IRREG   # noqa: E402
 
 
 def foundation_back(d, units):

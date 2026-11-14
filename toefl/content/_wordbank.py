@@ -69,9 +69,82 @@ _SUFFIX = (('ies', 'y'), ('ied', 'y'), ('ier', 'y'), ('iest', 'y'),
            ('est', ''), ('ly', ''), ('d', ''), ('n', ''))
 
 
+
+
+# The irregular verbs this course teaches, and prints as a table in the
+# Foundation back matter. It lives here so that the gate and the book cannot
+# disagree: a verb in this table is one the student has met, so _forms()
+# licenses its past and participle as well as its regular inflections.
+IRREG_FORMS = [
+    ('be', 'was / were', 'been'),
+    ('become', 'became', 'become'),
+    ('begin', 'began', 'begun'),
+    ('break', 'broke', 'broken'),
+    ('bring', 'brought', 'brought'),
+    ('build', 'built', 'built'),
+    ('buy', 'bought', 'bought'),
+    ('catch', 'caught', 'caught'),
+    ('choose', 'chose', 'chosen'),
+    ('come', 'came', 'come'),
+    ('cost', 'cost', 'cost'),
+    ('cut', 'cut', 'cut'),
+    ('do', 'did', 'done'),
+    ('drink', 'drank', 'drunk'),
+    ('drive', 'drove', 'driven'),
+    ('eat', 'ate', 'eaten'),
+    ('fall', 'fell', 'fallen'),
+    ('feel', 'felt', 'felt'),
+    ('find', 'found', 'found'),
+    ('fit', 'fitted', 'fitted'),
+    ('fly', 'flew', 'flown'),
+    ('forget', 'forgot', 'forgotten'),
+    ('get', 'got', 'got'),
+    ('give', 'gave', 'given'),
+    ('go', 'went', 'gone'),
+    ('grow', 'grew', 'grown'),
+    ('have', 'had', 'had'),
+    ('hear', 'heard', 'heard'),
+    ('hold', 'held', 'held'),
+    ('keep', 'kept', 'kept'),
+    ('know', 'knew', 'known'),
+    ('lay', 'laid', 'laid'),
+    ('leave', 'left', 'left'),
+    ('lie', 'lay', 'lain'),
+    ('lose', 'lost', 'lost'),
+    ('make', 'made', 'made'),
+    ('meet', 'met', 'met'),
+    ('pay', 'paid', 'paid'),
+    ('put', 'put', 'put'),
+    ('read', 'read', 'read'),
+    ('rise', 'rose', 'risen'),
+    ('run', 'ran', 'run'),
+    ('say', 'said', 'said'),
+    ('see', 'saw', 'seen'),
+    ('sell', 'sold', 'sold'),
+    ('send', 'sent', 'sent'),
+    ('sit', 'sat', 'sat'),
+    ('sleep', 'slept', 'slept'),
+    ('speak', 'spoke', 'spoken'),
+    ('spend', 'spent', 'spent'),
+    ('stand', 'stood', 'stood'),
+    ('take', 'took', 'taken'),
+    ('teach', 'taught', 'taught'),
+    ('tell', 'told', 'told'),
+    ('think', 'thought', 'thought'),
+    ('understand', 'understood', 'understood'),
+    ('wear', 'wore', 'worn'),
+    ('win', 'won', 'won'),
+    ('write', 'wrote', 'written'),
+]
+
+_IRREG = {}
+for _v, _p, _pp in IRREG_FORMS:
+    _IRREG[_v] = {f.strip() for part in (_p, _pp)
+                  for f in part.split('/')}
+
 def _forms(w):
     """Every spelling of w a text might reasonably use."""
-    out = {w}
+    out = {w} | _IRREG.get(w, set())
     if w.endswith('y') and len(w) > 2 and w[-2] not in 'aeiou':
         out |= {w[:-1] + s for s in ('ies', 'ied', 'ier', 'iest')}
     if w.endswith('e'):
@@ -102,6 +175,12 @@ def _known(tok, allowed):
         if tok.endswith(suf) and len(tok) - len(suf) >= 2:
             stem = tok[:-len(suf)] + repl
             if stem in allowed or stem + 'e' in allowed:
+                return True
+            # _forms() doubles a final consonant before -ed and -ing, so this
+            # has to be able to undo it: stopping -> stopp -> stop. Without
+            # this the gate generates a form it cannot then recognise.
+            if (len(stem) > 2 and stem[-1] == stem[-2]
+                    and stem[-1] not in 'aeiou' and stem[:-1] in allowed):
                 return True
     return False
 

@@ -8,8 +8,6 @@
   "plains",
   "ports",
   "railroad",
-  "shipping",
-  "stopping",
   "swamp",
   "westward",
   "wheat"
@@ -109,12 +107,10 @@
   "quantity",
   "quote",
   "swallow",
-  "thermometer",
-  "trapped"
+  "thermometer"
  ],
  "5": [
   "ability",
-  "admitting",
   "alternative",
   "asymmetry",
   "average",
@@ -144,8 +140,7 @@
   "toss",
   "wanders",
   "weigh",
-  "whichever",
-  "winning"
+  "whichever"
  ],
  "6": [
   "argument",
@@ -289,7 +284,6 @@
   "perform",
   "produced",
   "reveal",
-  "stopping",
   "technique",
   "technological",
   "tends",

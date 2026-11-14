@@ -13,12 +13,13 @@ SHAPE_A2 = [('core', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
 SHAPE_A2X = SHAPE_A2 + [('fieldwords', 12)]
 SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
             ('candos', 6), ('vocab_talk', 4)]
-# Foundation 2 teaches 42 head words a unit, and 36 of them are not a choice:
-# they are the words Volume 1's own academic passages use and a Foundation 1
-# leaver does not know, measured by gate7 and sorted by unit in
-# v1_gap_by_unit.json. Campus words drop to 6 because Foundation 1 has already
-# done the campus work and this volume's job is the academic gap.
-SHAPE_F2 = [('acad', 24), ('campus', 6), ('candos', 6), ('vocab_talk', 4),
+# Foundation 2 teaches 33 head words a unit, and the number is not a choice:
+# gapscan.py measures 329 words that Volume 1's own texts use and a Foundation
+# 1 leaver does not know, and 33 a unit over ten units is 330. So this volume
+# teaches the measured gap and one word more. 21 of the 33 are general academic
+# words and 12 are the unit's field; campus words drop to 6, because Foundation
+# 1 has already done the campus work and this volume's job is the academic gap.
+SHAPE_F2 = [('acad', 21), ('campus', 6), ('candos', 6), ('vocab_talk', 4),
             ('fieldwords', 12)]
 
 ITEMS_B1 = [('r2', 'guided', 4), ('r2', 'exam', 6), ('r3', 'guided', 4), ('r3', 'exam', 7),
