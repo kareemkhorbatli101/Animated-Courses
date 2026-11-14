@@ -13,7 +13,7 @@ UNIT = dict(
     grammar='past simple: irregular verbs · questions with did',
     field='travel, journeys, tickets',
     names=('Riverside', 'Ana', 'Ruiz', 'Yusuf', 'Mei', 'Patel', 'Oakfield', 'Lena',
-           'Peru', 'Turkey', 'Northgate', 'Westbury'),
+           'Peru', 'Turkey', 'Northgate', 'Westbury', 'Roman', 'Hartley'),
     opener_line='Three sub-topics, three cycles in every skill. This unit carries the fifty '
                 'irregular verbs that English uses most, and after it the past is yours.',
     candos=[
@@ -768,3 +768,8 @@ UNIT = dict(
         'not remember which number the question wants until the question arrives, and by '
         'then the audio has gone.',
 )
+
+# ---- the two academic cycles (field: History and Change) ------------------
+from .fx08 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)

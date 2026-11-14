@@ -762,3 +762,8 @@ UNIT = dict(
         'change — and practise it until the verbs are automatic. One rehearsed story '
         'carries you through a dozen different questions.',
 )
+
+# ---- the two academic cycles (field: Water, Air and Weather) --------------
+from .fx07 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)
