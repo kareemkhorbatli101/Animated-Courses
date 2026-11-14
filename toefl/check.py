@@ -13,12 +13,21 @@ SHAPE_A2 = [('core', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
 SHAPE_A2X = SHAPE_A2 + [('fieldwords', 12)]
 SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
             ('candos', 6), ('vocab_talk', 4)]
-# A B2 unit with its two academic cycles. seam.py measures 622 words that
-# Volumes 3-4's own passages use and a Volume 2 leaver has never been taught,
-# a mean of 31 a unit against the 18 those units teach, so the vocabulary page
-# carries 24 academic plus 12 field words - the 36 of Volumes 1-2 - and keeps
-# its 10 collocations.
-SHAPE_B2X = [('acad', 24), ('fieldwords', 12), ('collocs', 10), ('stance', 5),
+# A B2 unit with its two academic cycles.
+#
+# The first pass at this said 24 academic words plus 12 field words, from a
+# count of every word Volumes 3-4 use and never teach: 622 of them, 31 a unit.
+# That was the wrong target. A B2 reader is supposed to meet unknown words and
+# infer them; the standard is the threshold the course itself gives the
+# student, which is fifteen a passage. Teaching to that standard instead -
+# greedily, worst passage first - needs 63 words across the twenty units, a
+# mean of 3 and a worst unit of 12, and v34_teach.json holds them.
+#
+# So acad keeps the eighteen well-made words each unit already has, and the
+# twelve field words cover both that unit's seam list and the vocabulary its
+# two new academic cycles need. Forty taught items a unit against Volumes
+# 1-2's thirty-six.
+SHAPE_B2X = [('acad', 18), ('fieldwords', 12), ('collocs', 10), ('stance', 5),
              ('nuance', 3), ('candos', 6), ('vocab_talk', 4)]
 # Foundation 2 teaches 39 head words a unit, and 33 of them are not a choice:
 # gapscan.py measures 329 words that Volume 1's own texts use and a Foundation
@@ -227,7 +236,8 @@ def check(U, taught=()):
     # speaking
     want_sp = 5 if ax else 3
     if len(U['sp']) != want_sp:
-        bad('needs %d speaking cycles, has %d' % (want_sp, len(U['sp'])))
+        if not (bx and len(U['sp']) == BX[n]['sp']):
+            bad('needs %d speaking cycles, has %d' % (want_sp, len(U['sp'])))
     for i, s in enumerate(U['sp'], 1):
         if len(s['repeat']) != 7:
             bad('speaking %d has %d repeat sentences, want 7' % (i, len(s['repeat'])))
@@ -257,6 +267,8 @@ def check(U, taught=()):
         bad('discussion model is under %d words' % (130 if b2 else 100))
     if b2:
         _check_b2(U, bad)
+        if bx:
+            _check_bx(U, bad, taught)
     if a2:
         _check_a2(U, bad, taught)
     if f2:
@@ -283,6 +295,181 @@ def _stray_script(U, bad):
         elif isinstance(v, (list, tuple)):
             for x in v: walk(x)
     walk(U)
+
+
+# The Foundation volumes are written inside 2,200 and 4,000 word forms, and
+# that kind of ceiling cannot be carried upward. Two reasons.
+#
+# First, it would force B1 prose into a B2 book: Volume 3's academic passages
+# already take 15.5% of their running words from beyond 4,000.
+#
+# Second, and this is the one that settled it, the frequency ranking is built
+# from subtitles, and subtitles contain almost no academic English. Of the
+# words the first version of this gate flagged in Unit 21's new prose, 46 of
+# 59 were absent from all fifty thousand forms - among them definition,
+# inference, constraint, hypotheses, assertion, grammatical and doubtful. A
+# list that does not contain 'definition' is not a description of what a B2
+# reader knows, and a gate built on it measures the list rather than the book.
+#
+# So the upper volumes are controlled from both sides by something else. Gate 9
+# sets the density floor, which stops the prose being too easy. This gate sets
+# the other side, using the standard the course itself gives the student in
+# Volume 1 Unit 10: a passage may carry unknown words, and not more than
+# fifteen of them. Each new block is held to twelve, a margin under that, with
+# everything the series has taught and the regular derivations of it credited.
+_UNKNOWN_CAP = 12
+# Gate 9 sets a density floor on a whole volume, which is no use to an author
+# writing one unit: by the time it fails, ten units are written. So the same
+# floor is applied here, per passage, derived from the volume target.
+#
+# The arithmetic for Volume 3: r3 across ten units is about 2,700 words at a
+# mean of 19 words a sentence, and the two new cycles add about 5,800. For the
+# volume to reach a mean of 21 the new passages have to average 22.1, so the
+# floor is 22 with the volume target as the margin.
+#               mean sentence   nominalisation
+_DENSITY = {3: (22.0, 4.5), 4: (25.0, 5.5), 5: (27.0, 6.5), 6: (29.0, 7.5)}
+_FREQ_CEILING = {3: 10000, 4: 10000, 5: 10000, 6: 10000}
+_FREQ_CACHE = {}
+
+
+def _freq_upto(rank):
+    """The commonest `rank` word forms, from content/_freq.txt."""
+    if rank in _FREQ_CACHE:
+        return _FREQ_CACHE[rank]
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        'content', '_freq.txt')
+    out, i = set(), 0
+    with open(path) as fh:
+        for line in fh:
+            if not line.strip() or line.startswith('#'):
+                continue
+            i += 1
+            if i > rank:
+                break
+            out.add(line.split()[0].lower())
+    _FREQ_CACHE[rank] = out
+    return out
+
+
+def _texts_bx(U):
+    """Only the prose of the two new academic cycles.
+
+    Volumes 1-4 were written before the vocabulary gate existed, so their
+    original three cycles are not under it and cannot be put under it without
+    rewriting them. Everything added from here is, which is the difference
+    between a book that drifts and one that does not.
+    """
+    out = []
+    for tag in ('r4', 'r5'):
+        b = U.get(tag)
+        if b:
+            out.append(b['title'])
+            out += list(b['paras'])
+            for f in ('guided', 'exam'):
+                for stem, opts, _, why in b.get(f, []):
+                    out.append(stem); out += list(opts); out.append(why)
+    for tag in ('l4', 'l5'):
+        b = U.get(tag)
+        if b:
+            out.append(b['caption'])
+            out += [t for _, t in b['script']]
+            out += list(b.get('board', ()))
+            for f in ('warm', 'items'):
+                for stem, opts, _, why in b.get(f, []):
+                    out.append(stem); out += list(opts); out.append(why)
+    if 'w4' in U:
+        out += [a for _, _, a in U['w4']['guided'] + U['w4']['exam']]
+    if 'w5' in U:
+        w5 = U['w5']
+        out += [w5['question']] + [p[-1] for p in w5['posts']] + list(w5['model'])
+    for s in U.get('sp', ())[3:]:
+        out += list(s['repeat']) + list(s['qs']) + [m for _, m in s['model']]
+    return [t for t in out if isinstance(t, str) and t.strip()]
+
+
+def _block_text_bx(U, tag):
+    """The prose of one new block, for the per-block unknown-word cap."""
+    b = U[tag]
+    out = []
+    if tag in ('r4', 'r5'):
+        out.append(b['title']); out += list(b['paras'])
+        for f in ('guided', 'exam'):
+            for stem, opts, _, why in b.get(f, []):
+                out.append(stem); out += list(opts); out.append(why)
+    elif tag in ('l4', 'l5'):
+        out.append(b['caption']); out += [t for _, t in b['script']]
+        out += list(b.get('board', ()))
+        for f in ('warm', 'items'):
+            for stem, opts, _, why in b.get(f, []):
+                out.append(stem); out += list(opts); out.append(why)
+    elif tag == 'w5':
+        out += [b['question']] + [p[-1] for p in b['posts']] + list(b['model'])
+    return [t for t in out if isinstance(t, str) and t.strip()]
+
+
+def _check_bx(U, bad, taught):
+    """The two academic cycles of an upper-volume unit."""
+    from content._wordbank import unknown
+    from content._band2 import BAND2
+    n = U['n']
+    P = BX[n]
+    want_sent, want_nom = _DENSITY[U['vol']]
+    for tag in ('r4', 'r5'):
+        pw = sum(len(x.split()) for x in U[tag]['paras'])
+        lo, hi = P['r45']
+        if not lo <= pw <= hi:
+            bad('%s is %d words, want %d-%d' % (tag, pw, lo, hi))
+        if U[tag]['words'] != pw:
+            bad('%s declares %d words but has %d' % (tag, U[tag]['words'], pw))
+        blob = ' '.join(U[tag]['paras'])
+        sents = [x for x in re.split(r'(?<=[.!?])\s+', blob) if x.strip()]
+        ms = pw / float(len(sents))
+        if ms < want_sent:
+            bad('%s averages %.1f words a sentence, the floor is %.1f'
+                % (tag, ms, want_sent))
+        toks = re.findall(r"[A-Za-z][A-Za-z'\u2019-]*", blob)
+        nom = 100.0 * sum(1 for w in toks if re.match(
+            r'\w+(tion|sion|ment|ity|ness|ance|ence|ism)$', w, re.I)) / len(toks)
+        if nom < want_nom:
+            bad('%s is %.1f%% nominalisation, the floor is %.1f%%'
+                % (tag, nom, want_nom))
+    for tag in ('l4', 'l5'):
+        sw = sum(len(t.split()) for _, t in U[tag]['script'])
+        lo, hi = P['l45']
+        if not lo <= sw <= hi:
+            bad('%s script is %d words, want %d-%d' % (tag, sw, lo, hi))
+    mw = sum(len(l.split()) for l in U['w5']['model'])
+    lo, hi = P['w5']
+    if not lo <= mw <= hi:
+        bad('w5 model is %d words, want %d-%d' % (mw, lo, hi))
+    if U['w5']['model_words'] != mw:
+        bad('w5 declares %d words but has %d' % (U['w5']['model_words'], mw))
+    if len(U['sp']) != P['sp']:
+        bad('%d speaking cycles, want %d' % (len(U['sp']), P['sp']))
+    for prompt, tiles, _ in U['w4']['guided'] + U['w4']['exam']:
+        if not 9 <= len(tiles) <= 11:
+            bad('w4 "%s" has %d tiles, want 9-11' % (prompt[:30], len(tiles)))
+    # the vocabulary gate, on the new prose only, block by block: each new
+    # passage, script and model may carry up to _UNKNOWN_CAP words the series
+    # has not taught, which is the standard the course gives the student.
+    from content._wordbank import expand
+    band = _freq_upto(_FREQ_CEILING[U['vol']])
+    mine = [w for w, _ in heads(U)]
+    extra = set(BAND2) | band | expand(list(taught) + mine, deriv=True) \
+        | expand(list(band), deriv=True)
+    for tag in ('r4', 'r5', 'l4', 'l5', 'w5'):
+        if tag not in U:
+            continue
+        txt = _block_text_bx(U, tag)
+        out = unknown(' . '.join(txt), list(taught) + mine,
+                      U.get('names', ()), extra)
+        seen, uniq = set(), []
+        for w in out:
+            if w.lower() not in seen:
+                seen.add(w.lower()); uniq.append(w)
+        if len(uniq) > _UNKNOWN_CAP:
+            bad('%s carries %d untaught words, the cap is %d: %s'
+                % (tag, len(uniq), _UNKNOWN_CAP, ', '.join(uniq[:16])))
 
 
 def _check_b2(U, bad):
@@ -355,6 +542,19 @@ def main(nums, pre='u'):
         for m in range(1, 11):
             F = importlib.import_module('content.f%02d' % m).UNIT
             taught += [w for w, _ in heads(F)]
+    if pre == 'u':
+        # A student opening unit 21 has come through both Foundation volumes
+        # and units 1-20, so the gate is seeded with all of it. Without this a
+        # run of 21-40 starts from nothing and reports words as untaught that
+        # the series taught fifteen units earlier.
+        for _pre, _rng in (('f', range(1, 11)), ('g', range(1, 11)),
+                           ('u', range(1, min(nums)))):
+            for m in _rng:
+                try:
+                    E = importlib.import_module('content.%s%02d' % (_pre, m)).UNIT
+                except ImportError:
+                    continue
+                taught += [w for w, _ in heads(E)]
     for n in nums:
         U = importlib.import_module('content.%s%02d' % (pre, n)).UNIT
         problems += check(U, taught)

@@ -24,8 +24,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-FREQ = (sys.argv[1] if len(sys.argv) > 1 else
-        os.path.join(HERE, 'content', '_freq.txt'))
+FREQ = os.path.join(HERE, 'content', '_freq.txt')
 
 BANDS = [(1, 1000, '1k'), (1001, 2000, '2k'), (2001, 3000, '3k'),
          (3001, 4000, '4k'), (4001, 6000, '6k'), (6001, 10000, '10k')]
@@ -101,6 +100,9 @@ def profile(name, texts, R):
 
 
 def main():
+    global FREQ
+    if len(sys.argv) > 1:
+        FREQ = sys.argv[1]
     if not os.path.exists(FREQ):
         print('no frequency file at %s' % FREQ)
         return 2

@@ -1043,3 +1043,629 @@ UNIT = dict(
         'interview whenever you say you are not sure of something. Get the word order '
         'automatic now and you stop losing marks for it in three skills at once.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 21 gains the two academic cycles the Volumes 3-6 plan specifies.
+# Cycle 4 is the argument from the poverty of the stimulus, stated as the
+# field defends it. Cycle 5 is the corpus objection to it, which concedes
+# the puzzle and denies that the explanation follows. The pair is the
+# unit's own subject carried to the point where a student can hold a
+# position rather than recite one.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('lexicographer', 'a person who writes or edits dictionaries'),
+ ('usage', 'the way a word is actually used by speakers'),
+ ('corpus', 'a large collection of real texts, used as evidence'),
+ ('attested', 'recorded as having actually occurred'),
+ ('stimulus', 'what a learner is exposed to; the input'),
+ ('embed', 'to put one structure inside another'),
+ ('instruction', 'being taught something directly'),
+ ('recursion', 'putting a structure inside another of the same kind'),
+ ('constrain', 'to limit what is possible'),
+ ('generalise', 'to draw a rule from particular cases'),
+ ('circumstance', 'the conditions something happens in'),
+ ('grammatical', 'allowed by the grammar of a language')]
+UNIT['r4'] = {'sub': 'What a child could not have learned',
+ 'title': 'The Argument From What Was Never Heard',
+ 'words': 291,
+ 'skill': ('Reading an argument built on an absence',
+           ['The evidence here is something that did not happen, which is harder to hold in '
+            'mind than an ordinary finding.',
+            'Find the structure the writer says no child hears, and then find what the child '
+            'does with it anyway.',
+            'A question about the conclusion wants the inference, not the data.']),
+ 'paras': ['A four-year-old controls a system of remarkable complexity, producing sentences '
+           'never encountered before and rejecting others as impossible without being able '
+           'to say why, and does all of it years before learning to tie a knot. No '
+           'instruction is involved, and correction, where parents attempt it at all, is '
+           'directed at content rather than at syntax and is generally ignored. The '
+           'achievement is indifferent to circumstance, proceeding at much the same rate in '
+           'talkative households and quiet ones, and in every language yet looked at.',
+           'The argument that follows turns on absence, and it begins from the formation of '
+           'a question out of a statement that contains two clauses. The operation requires '
+           'identifying which of the two verbs the question belongs to, and no amount of '
+           'hearing simple questions teaches that, because the sentences that would '
+           'demonstrate it are vanishingly rare in speech directed at children. The child '
+           'nevertheless performs the operation correctly from the start, and the error that '
+           'the simpler hypothesis predicts is not merely uncommon in the record but '
+           'unattested, a word that is doing a great deal of work here. An error that is '
+           'rare can be explained away by saying that the conditions for it rarely arise, '
+           'whereas an error never recorded at all asks for a different kind of account '
+           'altogether.',
+           'The conclusion drawn is that acquisition cannot be a matter of generalising from '
+           'the stimulus, because the stimulus is too thin to support the generalisation. '
+           'Something in the learner must already constrain what is possible, and narrow '
+           'enough to rule out what children never consider. That something is what the term '
+           'innate was introduced to name, and although the argument has been rebuilt many '
+           'times since, that starting point has never been given up.'],
+ 'guided': [('What does the passage present as the evidence?',
+             ('The speed at which children learn words',
+              'An error children are never recorded as making',
+              'The correction parents give their children',
+              'The intricacy of shoelaces'),
+             1,
+             'The argument turns on absence: the error the simpler hypothesis predicts is '
+             'unattested, and an absence is the whole of the data.'),
+            ('What does the passage say about correction?',
+             ('It is directed at syntax and works',
+              'It is directed at content and is generally ignored',
+              'Parents correct grammar constantly',
+              'It explains the speed of acquisition'),
+             1,
+             'Correction is directed at content rather than at syntax, and it is generally '
+             'ignored, so it cannot be doing the work.'),
+            ('Why can exposure not teach which verb governs the whole?',
+             ('Children do not listen to adults',
+              'The sentences that would show it are vanishingly rare in speech to children',
+              'Adults use the wrong form themselves',
+              'The operation is too simple to need teaching'),
+             1,
+             'The claim is about the input: the demonstrating sentences are vanishingly '
+             'rare, so the distinction cannot be read off it.')],
+ 'exam': [('The phrase remarkable complexity in paragraph 1 is closest in meaning to',
+           ('great speed', 'many interacting parts', 'general usefulness', 'formal style'),
+           1,
+           'A system of remarkable complexity is one with many interacting parts; nothing in '
+           'the sentence is about speed or style.'),
+          ('What is the function of the reference to tying a knot?',
+           ('To show that children are slow to learn',
+            'To measure the grammatical achievement against an easier one',
+            'To argue that instruction matters',
+            'To introduce the idea of correction'),
+           1,
+           'It is a comparison of difficulty: the harder thing is mastered years before the '
+           'easier one, which is what makes the achievement odd.'),
+          ('What does unattested mean as the passage uses it?',
+           ('Disputed by researchers',
+            'Not found in the recorded data at all',
+            'Rare but well documented',
+            'Impossible in principle'),
+           1,
+           'The passage sets it against merely uncommon, so it means absent from the record '
+           'rather than rare in it.'),
+          ('Which of these would most weaken the argument?',
+           ('Evidence that children tie knots later than supposed',
+            'A corpus showing the demonstrating sentences are common in speech to children',
+            'Evidence that parents correct content',
+            'A finding that four-year-olds know fewer words than assumed'),
+           1,
+           'The argument rests on the input being too thin. Showing the input is rich '
+           'removes the premise; the other three leave it untouched.'),
+          ('What does the last sentence claim about the argument?',
+           ('It has been abandoned',
+            'It has been rebuilt repeatedly while its premise survived',
+            'It was never properly stated',
+            'It depends on correction'),
+           1,
+           'Reconstructed many times without its premise being abandoned says the form of '
+           'the argument changed and its starting point did not.')]}
+UNIT['r5'] = {'sub': 'What a child could not have learned',
+ 'title': 'The Corpus Answers Back',
+ 'words': 292,
+ 'skill': ('Reading an objection that concedes the puzzle',
+           ['This writer accepts that acquisition is remarkable and denies that the standard '
+            'explanation follows from it.',
+            'Note what the objection concedes, because a reader who misses the concession '
+            'misreads the whole passage.',
+            'A question about the ending wants the position, which is neither of the two it '
+            'describes.']),
+ 'paras': ['The argument from absence was constructed at a time when nobody could count, '
+           'which matters because its premise is a claim about frequency, and frequency is '
+           'now a matter of record rather than of impression. Collections of recorded speech '
+           'addressed to children now run to many millions of words and can be searched in '
+           'seconds, and they do not show what the argument assumed.',
+           'The demonstrating structures are rarer than ordinary questions and they are not '
+           'nearly so rare as that. In one large collection they occur often enough that a '
+           'child hearing a normal quantity of speech would encounter several thousand of '
+           'them before school. That figure was unavailable to anybody arguing about this '
+           'before the collections existed. Whether several thousand is sufficient is a '
+           'separate question, and an empirical one rather than a matter for assertion. '
+           'There is a second and sharper difficulty, which is that children do produce the '
+           'errors the stronger versions say they cannot, at low rates and for short '
+           'periods, and a theory built on an absence is embarrassed by any attested '
+           'exception.',
+           'None of this disposes of the puzzle, and the writers who report these counts are '
+           'the first to say so, because a learner still arrives at a system no instruction '
+           'supplied, and the sheer uniformity of the outcome across children, languages and '
+           'circumstances remains the central fact of the field. The cautious position is '
+           'that the input is richer than the classical argument allowed and still thinner '
+           'than a general-purpose learner would require, which leaves the interesting '
+           'question open. What has changed is the standing of the premise, which used to be '
+           'the fixed point from which the argument began and is now one of the things the '
+           'argument itself has to establish.'],
+ 'guided': [('What does the objection say about the original argument?',
+             ('Its conclusion is obviously false',
+              'Its premise is a frequency claim that can now be checked',
+              'It was never influential',
+              'It ignores correction'),
+             1,
+             'The premise is a claim about frequency, and frequency is now a matter of '
+             'record, which is the whole move the passage makes.'),
+            ('What do the corpora show about the demonstrating structures?',
+             ('They do not occur at all',
+              'They are rarer than ordinary questions but not vanishingly rare',
+              'They are the commonest structures in speech to children',
+              'They occur only in writing'),
+             1,
+             'Rarer than ordinary questions and not vanishingly rare is stated directly, and '
+             'the distinction is the point.'),
+            ('What is the second difficulty the passage raises?',
+             ('Corpora are too small',
+              'Children do sometimes produce the errors the argument excludes',
+              'Parents correct syntax after all',
+              'The uniformity of the outcome'),
+             1,
+             'A theory built on an absence is embarrassed by any attested exception, and the '
+             'passage reports low-rate exceptions.')],
+ 'exam': [('Why does the passage say the argument was built when nobody could count?',
+           ('To excuse the people who built it and date its premise',
+            'To show they were careless',
+            'To argue that counting is irrelevant',
+            'To introduce the uniformity of the outcome'),
+           0,
+           'It places the premise in its time: an impression was the best available evidence '
+           'then, and a record is available now.'),
+          ('What does the passage say about whether several thousand is enough?',
+           ('It is clearly enough',
+            'It is clearly not enough',
+            'It is a separate and empirical question',
+            'It cannot be investigated'),
+           2,
+           'Explicitly a separate question, and an empirical one rather than a matter for '
+           'assertion, so the passage declines to settle it.'),
+          ('What remains the central fact of the field, by this passage?',
+           ('The size of the available corpora',
+            'The uniformity of the outcome across children and languages',
+            'The rarity of correction',
+            'The existence of low-rate errors'),
+           1,
+           'The sheer uniformity of the outcome remains the central fact, which is what '
+           'stops the objection becoming a dismissal.'),
+          ('Which best states the position the passage ends on?',
+           ('The classical argument was right',
+            'The classical argument was empty',
+            'The input is richer than that argument allowed and thinner than a general '
+            'learner needs',
+            'The question cannot be investigated'),
+           2,
+           'The cautious position is stated in those terms, and it is neither of the two '
+           'positions the passage has described.'),
+          ('The word disposes of in paragraph 3 is closest in meaning to',
+           ('explains', 'gets rid of', 'supports', 'measures'),
+           1,
+           'None of this disposes of the puzzle means none of it removes the puzzle, which '
+           'still stands.')]}
+UNIT['l4'] = {'sub': 'What a child could not have learned',
+ 'caption': 'A lecture on structures inside structures',
+ 'board': ['One rule, applied to its own output',
+           'The man the dog bit left',
+           'No longest sentence exists',
+           'Memory stops us, not the grammar'],
+ 'skill': ('A lecture that builds one example by stages',
+           ['The lecturer adds a layer at a time, so note each version rather than only the '
+            'finished one.',
+            'The point is a property of the system, not a fact about any sentence.',
+            'A question about memory is asking you to separate two things the lecturer '
+            'deliberately distinguishes.']),
+ 'warm': [('Man: What is the property he is describing?',
+           ('A rule that applies to what it has already produced.',
+            'A rule about word order in questions.',
+            'Yes, it is a property of grammar.',
+            'About twenty words.'),
+           0,
+           'What is the property wants the property itself; a yes and a length answer '
+           'something else.'),
+          ('Man: Why does he say there is no longest sentence?',
+           ('Because the rule can always apply again.',
+            'Because speakers talk for a long time.',
+            'Yes, there is no limit at all.',
+            'In the written language only.'),
+           0,
+           'Why wants the reason, and the reason is the rule applying to its own output '
+           'without a stopping point.'),
+          ('Man: What does he say stops us in practice?',
+           ('Memory, rather than the grammar.',
+            'The grammar, rather than memory.',
+            'Yes, something does stop us.',
+            'Three or four layers.'),
+           0,
+           'The distinction between the system and its use is the thing he most wants the '
+           'class to keep separate.')],
+ 'script': [('Man',
+             'Take the sentence the man left. Now put something inside it: the man the dog '
+             'bit left. You have placed a clause in the middle of another clause, and '
+             'nothing new was needed to do it. The same rule that produced the first '
+             'sentence produced the second, applied to its own output. That property has a '
+             'name, recursion, and it is the reason there is no longest sentence of English. '
+             'Whatever sentence you offer me, I can embed it and hand you a longer one. Now '
+             'notice what I am not claiming. I am not claiming anybody speaks that way. Put '
+             'three layers in and the sentence becomes unreadable, and at four nobody can '
+             'follow it at all. But unreadable is not the same as ungrammatical, and the '
+             'difference matters more than almost anything else in this course. Your memory '
+             'fails. The grammar does not. A description of the system and a description of '
+             'its use are two different projects, and conflating them has produced a great '
+             'deal of bad argument, in this field and in several others. One more thing. The '
+             'property is not a curiosity of English. Every language anybody has described '
+             'has some version of it, which is why the claim is stated about human language '
+             'rather than about any particular one, and why a single counter-example would '
+             'matter so much.')],
+ 'items': [('What does the lecturer do to the sentence the man left?',
+            ('Makes it a question',
+             'Puts a clause inside it',
+             'Shortens it',
+             'Changes its word order'),
+            1,
+            'He places a clause in the middle of another clause, which is the operation the '
+            'whole lecture is about.'),
+           ('What produced the second sentence?',
+            ('A new rule learned later',
+             'The same rule, applied to its own output',
+             'A rule about questions',
+             'Correction from a parent'),
+            1,
+            'Applied to its own output is the phrase, and it is what the word recursion '
+            'names.'),
+           ('Why is there no longest sentence of English?',
+            ('Speakers have good memories',
+             'Any sentence can be embedded to give a longer one',
+             'Writing has no limits',
+             'The lexicon is open'),
+            1,
+            'Whatever sentence you offer me, I can embed it and hand you a longer one, which '
+            'is a property of the rule rather than of speakers.'),
+           ('What happens at four layers of embedding?',
+            ('The sentence becomes ungrammatical',
+             'Nobody can follow it',
+             'The rule stops applying',
+             'The meaning changes'),
+            1,
+            'Nobody can follow it at all, and the lecturer is careful that this is a fact '
+            'about following rather than about grammar.'),
+           ('What distinction does the lecturer say matters most?',
+            ('Between speech and writing',
+             'Between unreadable and ungrammatical',
+             'Between a rule and an example',
+             'Between memory and attention'),
+            1,
+            'Unreadable is not the same as ungrammatical, and he calls the difference more '
+            'important than almost anything else in the course.')]}
+UNIT['l5'] = {'sub': 'What a child could not have learned',
+ 'caption': 'A short talk on what the innateness claim costs',
+ 'board': ['Innate: a name or an explanation?',
+           'What would count against it?',
+           'Narrow enough to exclude',
+           'The honest version is testable'],
+ 'skill': ('A talk that tests a claim rather than reporting it',
+           ['The speaker is asking what evidence would count against the claim, which is a '
+            'different activity from arguing about it.',
+            'Note the two versions she distinguishes, and which one she keeps.',
+            'A question about the weak version wants what it fails to do.']),
+ 'warm': [('Woman: What is her question about the claim?',
+           ('What would count as evidence against it.',
+            'Whether anybody still believes it.',
+            'Yes, she questions it.',
+            'In the nineteen sixties.'),
+           0,
+           'She is asking after falsifiability, not after popularity or history.'),
+          ('Woman: Which version does she keep?',
+           ('The one that specifies what is excluded.',
+            'The one that says learning is constrained somehow.',
+            'Yes, she keeps one.',
+            'Neither of them.'),
+           0,
+           'Which version wants the version itself, and she keeps the narrow one because it '
+           'can be tested.'),
+          ('Woman: What is wrong with the weak version?',
+           ('Nothing could count against it.',
+            'It is obviously false.',
+            'Yes, something is wrong with it.',
+            'It is too recent.'),
+           0,
+           'A claim that nothing could count against is the specific complaint she makes, '
+           'and she makes it twice.')],
+ 'script': [('Woman',
+             'I want to put one question to the innateness claim, and it is not whether I '
+             'believe it. The question is what would count against it. Take the weak version '
+             'first: learning is constrained by properties of the learner. Nobody disputes '
+             'that, and nothing could possibly count against it, which is precisely the '
+             'trouble. It is a name for the puzzle rather than an answer to it, and a name '
+             'that cannot be wrong is not doing scientific work. Now the strong version: the '
+             'constraint is specific, it excludes particular hypotheses, and we can say in '
+             'advance which errors children will therefore never make. That version has '
+             'content, because it can fail, and twice now it has had to be revised when an '
+             'excluded error turned up in the data. I regard those revisions as the best '
+             'evidence that the field is doing something real. The lesson for your own '
+             'essays is narrower than the debate. Before you defend a claim, write down what '
+             'would refute it. If nothing would, you are not defending a claim at all. I '
+             'will add the uncomfortable half, since it applies to me too. The version I '
+             'teach is the one that has twice been wrong. The other has never been wrong '
+             'about anything, because it has never said anything precise enough to be wrong. '
+             'If you prefer the version that cannot fail, notice what you are preferring it '
+             'for.')],
+ 'items': [('What question does the speaker put to the claim?',
+            ('Whether she believes it',
+             'What would count as evidence against it',
+             'Who first proposed it',
+             'Whether students understand it'),
+            1,
+            'She says explicitly that the question is not whether she believes it but what '
+            'would count against it.'),
+           ('What is her objection to the weak version?',
+            ('It is false',
+             'Nothing could count against it, so it names the puzzle instead of answering it',
+             'It is too specific',
+             'It has been revised too often'),
+            1,
+            'A name that cannot be wrong is not doing scientific work, which is the '
+            'complaint in her own words.'),
+           ('What gives the strong version content?',
+            ('Its age',
+             'That it can fail',
+             'That everybody accepts it',
+             'That it is easier to state'),
+            1,
+            'That version has content, because it can fail, and failure is what makes a '
+            'claim testable.'),
+           ('How does she regard the revisions?',
+            ('As a weakness of the field',
+             'As the best evidence the field is doing something real',
+             'As irrelevant',
+             'As a reason to prefer the weak version'),
+            1,
+            'She says she regards those revisions as the best evidence that the field is '
+            'doing something real.'),
+           ('What is her advice for an essay?',
+            ('Defend the claim you prefer',
+             'Write down what would refute your claim before defending it',
+             'Avoid claims about innateness',
+             'Quote the data at length'),
+            1,
+            'Before you defend a claim, write down what would refute it, and if nothing '
+            'would, you are not defending a claim at all.')]}
+UNIT['w4'] = {'sub': 'What a child could not have learned',
+ 'skill': ('Noun clauses that carry an argument',
+           ['An academic sentence often puts a whole clause where a noun would go: what the '
+            'corpus shows is that the input is richer.',
+            'Keep the clause in one piece and decide where it belongs before you place '
+            'anything else.',
+            'Whether and what that cannot be swapped: whether opens a question, what names a '
+            'thing.']),
+ 'guided': [('You want to say that the frequency claim can now be tested.',
+             ['what',
+              'the argument',
+              'rests on',
+              'is',
+              'a claim',
+              'about',
+              'frequency',
+              'that',
+              'can now',
+              'be tested'],
+             'What the argument rests on is a claim about frequency that can now be tested.'),
+            ('You want to say the evidence does not settle the sufficiency question.',
+             ['whether',
+              'several thousand',
+              'is',
+              'sufficient',
+              'is',
+              'a',
+              'separate',
+              'question',
+              'the evidence',
+              'leaves open'],
+             'Whether several thousand is sufficient is a separate question the evidence '
+             'leaves open.'),
+            ('You want to concede the puzzle while rejecting the explanation.',
+             ['what',
+              'remains',
+              'remarkable',
+              'is',
+              'the uniformity',
+              'of',
+              'the outcome',
+              'rather than',
+              'the thinness',
+              'of the input'],
+             'What remains remarkable is the uniformity of the outcome rather than the '
+             'thinness of the input.')],
+ 'exam': [('You want to say nobody has recorded the error.',
+           ['the error',
+            'that',
+            'the simpler',
+            'hypothesis',
+            'predicts',
+            'is',
+            'not',
+            'merely',
+            'uncommon',
+            'it is',
+            'unattested'],
+           'The error that the simpler hypothesis predicts is not merely uncommon, it is '
+           'unattested.'),
+          ('You want to report what the lecturer refused to claim.',
+           ['he',
+            'was',
+            'careful',
+            'to say',
+            'that',
+            'unreadable',
+            'is',
+            'not',
+            'the same',
+            'as',
+            'ungrammatical'],
+           'He was careful to say that unreadable is not the same as ungrammatical.'),
+          ('You want to say the test of a claim is what would refute it.',
+           ['what',
+            'makes',
+            'a claim',
+            'scientific',
+            'is',
+            'that',
+            'something',
+            'could',
+            'count',
+            'against it'],
+           'What makes a claim scientific is that something could count against it.'),
+          ('You want to raise a doubt about a definition.',
+           ['it is',
+            'doubtful',
+            'whether',
+            'a working',
+            'definition',
+            'of',
+            'innate',
+            'can',
+            'be given',
+            'at all'],
+           'It is doubtful whether a working definition of innate can be given at all.'),
+          ('You want to say the corpus changed what could be assumed.',
+           ['the corpus',
+            'changed',
+            'what',
+            'a researcher',
+            'is',
+            'entitled',
+            'to',
+            'assume',
+            'about',
+            'the input'],
+           'The corpus changed what a researcher is entitled to assume about the input.')]}
+UNIT['w5'] = {'sub': 'What a child could not have learned',
+ 'prof': 'Dr Almeida',
+ 'question': 'A first-year syllabus has room for one of two things: the classical argument '
+             'for an innate component, taught as the field has defended it, or a unit on '
+             'evidence and what would refute a claim, using that argument as its worked '
+             'example. Which should the syllabus carry, and why?',
+ 'posts': [('Hana',
+            'w',
+            'The argument itself, and I would not treat that as a close call. Students '
+            'cannot judge a method they have no content to apply it to, and the classical '
+            'argument is the content this field is organised around. Teach falsifiability in '
+            'a philosophy of science module, where it belongs.'),
+           ('Luka',
+            'm',
+            'That order produces students who can repeat an argument and cannot say what '
+            'would defeat it, which is the failure the lecture spent ten minutes on. The '
+            'reasoning carries over to other cases and the particular argument does not. I '
+            'would rather they left able to test a claim than able to reproduce one.')],
+ 'skill': ('A question about what a syllabus is for',
+           ['Hana is arguing from what evaluation requires; Luka from what transfers. Both '
+            'are claims about sequence rather than about value.',
+            'Use the passages: the corpus objection is exactly a case of evidence arriving '
+            'and a premise having to move.',
+            'A strong answer names what it would give up, because a syllabus with room for '
+            'one thing is a question about cost.']),
+ 'starters': ['Luka is right that…, although that holds only once…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passages suggest…',
+              'What follows is not… but…'],
+ 'model': ['Luka is right about the failure he describes, although his answer treats the two '
+           'as separate things when the passages suggest they are not. The corpus objection '
+           'is not a lesson about evidence attached to an argument about language. It is the '
+           'argument, restated once frequency became a matter of record rather than of '
+           'impression.',
+           'Hana’s premise is the stronger one and it does not carry her conclusion. '
+           'Students do need content before they can evaluate anything, and it does not '
+           'follow that the content and the judging belong in different modules, taught a '
+           'year apart by people who do not read each other.',
+           'So the syllabus should carry the argument and its revisions in the same unit, '
+           'which is not a compromise between the two positions but a rejection of the '
+           'premise both of them share. What is given up is coverage: a unit that spends '
+           'three weeks watching one claim survive two revisions cannot also survey the '
+           'field. That is the right thing to give up, because a student who has watched a '
+           'premise move once will read every later paper differently, and a student who has '
+           'surveyed six arguments in the same three weeks will not.'],
+ 'model_words': 199}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'What a child could not have learned',
+  'focus': 'keeping a what-clause intact when it is the subject',
+  'skill': ('What the corpus shows is that the input is richer',
+            ['The whole clause is the subject, so nothing in it takes the main verb. Say it '
+             'in one breath and put the stress on shows.',
+             'Do not insert a pause before is. The pause makes two sentences out of one and '
+             'the listener loses the structure.',
+             'The second is belongs to the main clause. Keep it unstressed and move straight '
+             'on.']),
+  'repeat': ['What remains remarkable is the uniformity.',
+             'The error the hypothesis predicts is unattested.',
+             'Whether that is sufficient is a separate question.',
+             'What a researcher is entitled to assume has changed.',
+             'What the corpus shows is that the input is richer.',
+             'What would count against the claim is the question worth asking.',
+             'What the lecturer refused to claim is that anybody actually speaks that way.'],
+  'theme': 'learning something nobody taught you',
+  'qs': ['Tell me about something you can do that nobody taught you explicitly. How do you '
+         'think you picked it up?',
+         'Some people say that anything worth knowing has to be taught directly. How far '
+         'would you agree?',
+         'If you wanted to show that a skill had been learned rather than acquired without '
+         'instruction, what evidence would you look for?',
+         'Finally, think of a claim you hold strongly. What would make you give it up?'],
+  'model': [(2,
+             'Only up to a point. I learned to read a room long before anybody named the '
+             'skill for me, and I would not say the naming added much. What direct teaching '
+             'does well is correct you quickly, and that matters for things where being '
+             'wrong is expensive.'),
+            (4,
+             'A reproducible result going the other way, from a group with no reason to want '
+             'it. I would want it twice, which is the part I used to skip.')],
+  'selfcheck': ['I kept the what-clause in one piece with no pause before is',
+                'I used at least two of the unit’s field words',
+                'I said what would change my mind, not just what I believe']},
+ {'sub': 'What a child could not have learned',
+  'focus': 'conceding a point out loud without losing the argument',
+  'skill': ('Right that, although that holds only once',
+            ['Say the concession at normal speed and do not hurry it. Hurrying it sounds '
+             'like a trick and the examiner hears that.',
+             'The stress lands on although, which is where the sentence turns.',
+             'Finish on your own clause, not on theirs: the last thing you say is the thing '
+             'that is heard.']),
+  'repeat': ['She is right about the failure.',
+             'None of this disposes of the puzzle.',
+             'That holds only once the input is counted.',
+             'I accept the finding and I draw a different inference from it.',
+             'The premise is the stronger one and it does not carry her conclusion.',
+             'What is given up is coverage, and that is the right thing to give up.',
+             'A claim that nothing could count against is not a claim at all, whatever it is '
+             'called.'],
+  'theme': 'changing your mind about something',
+  'qs': ['Tell me about a time you changed your mind after seeing some evidence. What was '
+         'the evidence?',
+         'Some people think admitting you were wrong weakens your position in an argument. '
+         'What do you think?',
+         'How should a course present a claim that specialists still disagree about?',
+         'Finally, describe a disagreement where you think both sides are partly right. What '
+         'is each side getting right?'],
+  'model': [(2,
+             'I think it does the opposite, and I would put it more strongly than that. The '
+             'people I trust most in an argument are the ones who have conceded something in '
+             'front of me, because I then know the rest is not automatic.'),
+            (3,
+             'With the disagreement in it, and dated. A claim presented as settled when it '
+             'is not leaves a student unable to read the literature, which is the one thing '
+             'the course is for.')],
+  'selfcheck': ['I conceded the point without hurrying it',
+                'I put the stress on although and finished on my own clause',
+                'I named what each side was getting right']}]
