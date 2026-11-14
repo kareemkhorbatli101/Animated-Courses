@@ -46,7 +46,17 @@ VOL_UNITS = {1: range(1, 11), 2: range(11, 21),
              3: range(21, 31), 4: range(31, 41)}
 
 
-def leaver(stage):
+def leaver(stage, deriv=True):
+    """What a leaver of `stage` knows.
+
+    deriv licenses the regular derivations of a taught stem - description from
+    describe, abundance from abundant, unusual from usual. Foundation 2 teaches
+    those three families by name in Units 3, 7 and 8, so a student who has them
+    can read the derived form; crediting them is the difference between
+    measuring a vocabulary gap and measuring a morphology gap. It is off for
+    F1, which has not taught the families yet.
+    """
+    from content._wordbank import expand
     taught, names = [], []
     for pre, rng in STAGE[stage]:
         for n in rng:
@@ -56,7 +66,14 @@ def leaver(stage):
     extra = None
     if stage != 'F1':
         from content._band2 import BAND2
-        extra = BAND2
+        extra = set(BAND2)
+        if deriv:
+            # the band is stems too: a B2 reader decodes frequency from
+            # frequent and accuracy from accurate as readily as from a word
+            # the course taught by name.
+            from content._band import BAND
+            extra |= expand(taught, deriv=True)
+            extra |= expand(list(BAND) + list(BAND2), deriv=True)
     return taught, names, extra
 
 

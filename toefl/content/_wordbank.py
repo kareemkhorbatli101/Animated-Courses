@@ -163,7 +163,71 @@ def _forms(w):
     return out
 
 
-def expand(words):
+# ---------------------------------------------------------------- derivation --
+# Foundation 2 teaches three derivation families by name: the -tion / -ment /
+# -ity nouns (Unit 3), -ous and -ive adjectives (Unit 7), and un- / in- / re-
+# (Unit 8). A student who has those and knows the stem can read the derived
+# form, which is most of what "reading at B2" means. So the upper volumes'
+# gates license a derived form of a taught word, and the Foundation gates do
+# not, because Foundation 1 has not taught the families yet.
+#
+# English spells these irregularly, so the rules are written out rather than
+# guessed. Each entry is (stem ending, what replaces it).
+_NOUN = [
+    ('ate', 'ation'), ('ize', 'ization'), ('ise', 'isation'),
+    ('ibe', 'iption'),          # describe   -> description
+    ('eive', 'eption'),         # deceive    -> deception
+    ('ume', 'umption'),         # assume     -> assumption
+    ('ide', 'ision'),           # decide     -> decision
+    ('ude', 'usion'),           # conclude   -> conclusion
+    ('olve', 'olution'),        # solve      -> solution
+    ('ute', 'ution'),           # contribute -> contribution
+    ('mit', 'mission'),         # transmit   -> transmission
+    ('end', 'ension'),          # extend     -> extension
+    ('eat', 'etition'),         # repeat     -> repetition
+    ('ve', 'vation'),           # observe    -> observation
+    ('y', 'ication'),           # classify   -> classification
+    ('e', 'ation'),             # examine    -> examination
+    ('', 'ion'),                # invent     -> invention
+    ('', 'ment'), ('', 'ity'), ('', 'ness'),
+]
+# an adjective turned into its noun: the same three families, different spellings
+_ADJN = [
+    ('ant', 'ance'),            # abundant   -> abundance
+    ('ent', 'ence'),            # absent     -> absence
+    ('ate', 'acy'),             # accurate   -> accuracy
+    ('ult', 'ulty'),            # difficult  -> difficulty
+    ('t', 'cy'),                # frequent   -> frequency
+    ('e', 'ity'), ('', 'ity'), ('', 'ness'),
+]
+# Unit 7's two adjective endings, and nothing else
+_ADJ = [('e', 'ive'), ('', 'ive'), ('e', 'ous'), ('', 'ous')]
+# Unit 8's four prefixes, and nothing else
+_PRE = ('un', 'in', 'im', 're')
+_ADV = [('e', 'y'), ('', 'ly'), ('y', 'ily')]
+
+
+def derive(w):
+    """Every regular derivation of w a B2 reader can decode from the stem."""
+    out = set()
+    for table in (_NOUN, _ADJN, _ADJ, _ADV):
+        for end, rep in table:
+            if end and not w.endswith(end):
+                continue
+            base = w[:-len(end)] if end else w
+            if not base:
+                continue
+            out.add(base + rep)
+    out |= {p + w for p in _PRE}
+    # and the inflections of everything derived, so that 'measurements' and
+    # 'contributions' are licensed as well as 'measurement'
+    flat = set()
+    for d in out:
+        flat |= _forms(d)
+    return out | flat
+
+
+def expand(words, deriv=False):
     """A taught word licenses its inflections."""
     out = set()
     for w in words:
@@ -171,6 +235,8 @@ def expand(words):
             part = part.strip("'’")
             if part:
                 out |= _forms(part)
+                if deriv:
+                    out |= derive(part)
     return out
 
 
