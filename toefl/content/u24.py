@@ -1033,3 +1033,636 @@ UNIT = dict(
         'writing the extent to which of, stop and ask what the system actually did — then '
         'write that as a clause.',
 )
+
+
+# ---------------------------------------------------------------------------
+# The two academic cycles, added by the Volumes 3-6 work.
+#
+# Unit 24 gains its two academic cycles. Cycle 4 is about instrumentation
+# rather than findings: how you weigh a current thousands of miles wide,
+# why the mooring array is spaced unevenly, and what it discovered, which
+# was about variability rather than about the average. Cycle 5 accepts the
+# measurement and refuses one use of it, because detecting a slow trend
+# against swings that large needs thirty to forty years and the record
+# grows at one year a year.
+# ---------------------------------------------------------------------------
+UNIT['fieldwords'] = [('mooring', 'an instrument anchored to the sea floor to record one spot'),
+ ('buoy', 'a floating marker that carries instruments'),
+ ('transect', 'a line of measurements taken across a region'),
+ ('salinity', 'how much salt the water contains'),
+ ('cruise', 'a research voyage made to collect measurements'),
+ ('array', 'a set of instruments laid out in a planned pattern'),
+ ('latitude', 'how far north or south of the equator a place is'),
+ ('amplitude', 'the size of the swing a quantity makes'),
+ ('conveyor', 'a belt that carries material steadily from place to place'),
+ ('variability', 'the amount a quantity moves about from year to year'),
+ ('convenient', 'easy to use, and chosen partly for that reason'),
+ ('arithmetic', 'the calculation itself, as opposed to the argument')]
+UNIT['r4'] = {'sub': 'Measuring a moving sea',
+ 'title': 'How You Weigh a Current That Is Thousands of Miles Wide',
+ 'words': 284,
+ 'skill': ('Reading a passage about instrumentation rather than findings',
+           ['The subject here is how a quantity is measured, so the method is the content '
+            'and not the background to it.',
+            'Note the problem that makes the measurement difficult, because every design '
+            'decision that follows is an answer to it.',
+            'A question about the array wants what the spacing of the instruments was chosen '
+            'to achieve.']),
+ 'paras': ['The overturning circulation carries warm surface water towards the pole in a '
+           'single broad current, releases its heat to the atmosphere, and returns the same '
+           'water at depth, having made it denser by cooling and by an increase in salinity. '
+           'The quantity everybody wants is the strength of that overturning, expressed as a '
+           'volume of water crossing a line of latitude every second. Measuring it directly '
+           'is a problem of a peculiar kind, because the flow is spread across a basin '
+           'thousands of miles wide, it reverses with depth, and its speed at any one point '
+           'bears very little relation to the total.',
+           'The solution adopted is an array: a line of moorings set across the ocean at one '
+           'latitude, each carrying instruments at a series of depths, recording '
+           'temperature, salinity and the speed of the flow continuously for years at a '
+           'time. The spacing is not uniform and the reason is instructive. Instruments are '
+           'concentrated near the two coasts, where the strongest and least steady flows are '
+           'found, and thinned across the interior, where the vertical structure changes '
+           'slowly enough that a wide spacing loses little information. The design is a '
+           'direct expression of where the variability lives.',
+           'What the array produced was a surprise, and the surprise was about variability '
+           'rather than about the average. The overturning turned out to fluctuate by a '
+           'factor of several over a single year, which no earlier estimate had anticipated, '
+           'because earlier estimates came from occasional cruises along the same transect, '
+           'and a single cruise records one moment. A quantity sampled once a decade and '
+           'moving strongly within a year will appear steady, and that appearance belongs to '
+           'the sampling interval rather than to the ocean.'],
+ 'guided': [('What does the overturning circulation do, by this passage?',
+             ('Carries warm water towards the pole and returns it at depth',
+              'Carries cold water towards the pole at the surface',
+              'Moves water only vertically',
+              'Keeps the ocean at one temperature'),
+             0,
+             'Warm surface water towards the pole, heat released, and the same water '
+             'returning southward at depth.'),
+            ('Why is the flow hard to measure directly?',
+             ('The instruments are expensive',
+              'It is basin-wide, reverses with depth, and local speed says little about the '
+              'total',
+              'It changes direction every day',
+              'Salinity cannot be recorded'),
+             1,
+             'All three difficulties are listed, and together they rule out measuring at a '
+             'point.'),
+            ('What is the array?',
+             ('A single mooring at one depth',
+              'A line of moorings across the ocean, each with instruments at several depths',
+              'A fleet of research ships',
+              'A satellite measurement'),
+             1,
+             'A line of moorings strung across the ocean at one latitude, each carrying '
+             'instruments at a series of depths.')],
+ 'exam': [('Why is the spacing of the moorings not uniform?',
+           ('The ocean floor prevents it',
+            'Instruments are concentrated where the flow is most variable',
+            'The array was built in stages',
+            'Salinity varies at the margins'),
+           1,
+           'Concentrated near the continental margins, where the strongest and most variable '
+           'flows are, and thinned across the interior.'),
+          ('The phrase a direct expression of where the variability lives means that',
+           ('the design was chosen for convenience',
+            'the layout of the instruments follows the structure of the flow',
+            'variability cannot be measured',
+            'the interior is unimportant'),
+           1,
+           'The design mirrors the physics: instruments go where the quantity moves most.'),
+          ('What was the surprise the array produced?',
+           ('The average was much larger than expected',
+            'The overturning moves by a factor of several within a year',
+            'The circulation had stopped',
+            'Salinity was higher than predicted'),
+           1,
+           'The surprise was about variability rather than about the average.'),
+          ('Why had earlier estimates missed it?',
+           ('They used the wrong instruments',
+            'They came from occasional cruises, each recording one moment',
+            'They measured the wrong latitude',
+            'They were never published'),
+           1,
+           'Occasional cruises along the same transect give snapshots, which cannot see '
+           'variation within a year.'),
+          ('What general point does the last sentence make?',
+           ('Oceans are steadier than they appear',
+            'An appearance of steadiness can be produced by the sampling interval',
+            'Cruises should be abandoned',
+            'Variability is unmeasurable'),
+           1,
+           'A quantity sampled once a decade and varying within a year will look stable, and '
+           'that stability belongs to the sampling.')]}
+UNIT['r5'] = {'sub': 'Measuring a moving sea',
+ 'title': 'Ten Years Is Not a Trend',
+ 'words': 284,
+ 'skill': ('Reading an objection about the length of a record',
+           ['This writer accepts the measurements and disputes what a record of that length '
+            'can support.',
+            'The argument is statistical, so find the comparison between the variability and '
+            'the trend being looked for.',
+            'A question about the metaphor wants what it makes a reader expect.']),
+ 'paras': ['The array did exactly what it was built to do, and the difficulty began when its '
+           'output was asked a question it was not long enough to answer. A decade of '
+           'continuous measurement established the variability, and the variability turned '
+           'out to be large. Detecting a slow decline in the average against fluctuations of '
+           'that amplitude requires a record several times longer than the one available, '
+           'and the arithmetic is not in dispute. It was, for a period, widely ignored, and '
+           'a run of low years was reported in several places as the beginning of a long '
+           'decline.',
+           'The conveyor metaphor deserves part of the blame. A conveyor belt runs at a '
+           'steady rate, can be slowed, and will eventually stop, and a reader holding that '
+           'image will treat any fall as movement along a path towards a halt. The behaviour '
+           'the array actually recorded has no such character. It is closer to the '
+           'circulation of air in a large room, where a measurement at any instant sits a '
+           'long way from the mean, and where a sequence of low readings is the ordinary '
+           'consequence of variability rather than evidence that anything has changed.',
+           'The appropriate conclusion is an unexciting one, and it is worth stating clearly '
+           'rather than leaving to a reader to assemble. The instrumentation is excellent, '
+           'the variability is now described, the longer record required for trend detection '
+           'is accumulating at one year a year, and nothing can speed that up. Models '
+           'predict a decline and the observations are not yet in a position to confirm or '
+           'deny it, which is an ordinary situation in the physical sciences and an '
+           'uncomfortable one in a field whose results are reported as news.'],
+ 'guided': [('What question was the array not long enough to answer?',
+             ('What the average overturning is',
+              'Whether there is a slow decline in the average',
+              'How variable the flow is',
+              'Where the strongest flows are'),
+             1,
+             'Detecting a slow decline against fluctuations of that amplitude needs a much '
+             'longer record.'),
+            ('What was reported during that period?',
+             ('That the array had failed',
+              'That a run of low years was the start of a long-term weakening',
+              'That variability was small',
+              'That the metaphor was wrong'),
+             1,
+             'A run of low years was reported in several places as the beginning of a '
+             'long-term weakening.'),
+            ('What does a conveyor belt image make a reader expect?',
+             ('Movement without pattern',
+              'A steady rate that can slow and eventually stop',
+              'A reversal twice a year',
+              'No change at all'),
+             1,
+             'Steady rate, can be slowed, will eventually stop, and that is the expectation '
+             'the metaphor creates.')],
+ 'exam': [('What comparison does the passage prefer to the conveyor?',
+           ('A river in flood',
+            'The circulation of air in a large room',
+            'A tide moving twice a day',
+            'A pump with a switch'),
+           1,
+           'Closer to the circulation of air in a large room, where any instant differs '
+           'considerably from the mean.'),
+          ('The word amplitude in paragraph 1 is closest in meaning to',
+           ('duration', 'size of the swing', 'direction', 'average value'),
+           1,
+           'Fluctuations of that amplitude means swings of that size, and the size is what '
+           'makes a trend hard to see.'),
+          ('What does the passage say about the arithmetic?',
+           ('It is disputed',
+            'It is not in dispute and was widely ignored',
+            'It has never been done',
+            'It supports the weakening claim'),
+           1,
+           'The arithmetic is not in dispute, and it was for a period widely ignored.'),
+          ('What does the passage say cannot be accelerated?',
+           ('The publication of results',
+            'The growth of the longer record',
+            'The improvement of instruments',
+            'The modelling work'),
+           1,
+           'The record accumulates at one year a year, and nothing can speed that up.'),
+          ('Why is the situation uncomfortable for this field in particular?',
+           ('Its instruments are unreliable',
+            'Its results are reported as news',
+            'Its models are untested',
+            'Its records are short everywhere'),
+           1,
+           'An ordinary situation in the physical sciences and an uncomfortable one in a '
+           'field whose results are reported as news.')]}
+UNIT['l4'] = {'sub': 'Measuring a moving sea',
+ 'caption': 'A lecture on designing an array',
+ 'board': ['Point measurement: useless here',
+           'Array: one latitude, many depths',
+           'Dense at the margins, sparse inside',
+           'The design encodes the physics'],
+ 'skill': ('A lecture that justifies a design decision',
+           ['The lecturer explains why a measurement was made one way rather than another, '
+            'so the alternatives he rejects are part of the content.',
+            'Note the cost he mentions, because every design argument in this field runs '
+            'into it.',
+            'A question about the spacing wants the physical reason, not the budget.']),
+ 'warm': [('Woman: Why will a single mooring not do?',
+           ('The flow at one point says little about the total.',
+            'A single mooring is too expensive.',
+            'Yes, one will not do.',
+            'At one latitude.'),
+           0,
+           'Why wants the physical reason, and it is that local velocity does not scale to a '
+           'basin-wide transport.'),
+          ('Woman: Where are the instruments concentrated?',
+           ('Near the continental margins.',
+            'Across the interior.',
+            'Yes, they are concentrated.',
+            'At the surface.'),
+           0,
+           'Where wants a place, and the margins are where the strong and variable flows '
+           'are.'),
+          ('Woman: What does he say the design encodes?',
+           ('The physics of where the variability is.',
+            'The budget available for instruments.',
+            'Yes, it encodes something.',
+            'Ten years of data.'),
+           0,
+           'He says the layout is a statement about the flow, which is the point he wants '
+           'remembered.')],
+ 'script': [('Man',
+             'Suppose I hand you a budget and ask you to measure the overturning. Your first '
+             'instinct is to put a current meter in the water and read it, and that instinct '
+             'is wrong in an instructive way. The flow you want is a transport across an '
+             'entire basin, warm water going one way near the surface and cold water coming '
+             'back underneath, and the velocity at any single point tells you almost nothing '
+             'about the sum. You cannot integrate a quantity you have sampled once. So the '
+             'design is an array: a line of moorings along one latitude, each with '
+             'instruments at a dozen depths, recording continuously for years. Now the '
+             'interesting decision, which is the spacing. You might expect even spacing, and '
+             'you would be wasting instruments. The flow near the continental margins is '
+             'fast and highly variable, so you need instruments close together there. The '
+             'interior changes slowly with distance, so you can thin them out and lose very '
+             'little. That asymmetry in the layout is not a compromise with the budget. It '
+             'is a statement about where the variability lives, written in the position of '
+             'the hardware, and if you understand the array you understand the physics. '
+             'There is a cost, and it is the one every observational programme meets: a '
+             'deployment of this kind takes a decade to produce a decade of data, and no '
+             'amount of money shortens that.')],
+ 'items': [('Why is putting a single current meter in the water wrong?',
+            ('The instrument is inaccurate',
+             'A transport across a basin cannot be read from one point',
+             'Moorings are cheaper',
+             'The flow has no velocity'),
+            1,
+            'The velocity at any single point tells you almost nothing about the sum, and '
+            'you cannot integrate from one sample.'),
+           ('What does the array consist of?',
+            ('One mooring at many depths',
+             'A line of moorings at one latitude with instruments at many depths',
+             'A ship repeating a transect',
+             'A satellite'),
+            1,
+            'A line of moorings along one latitude, each with instruments at a dozen depths, '
+            'recording continuously.'),
+           ('Why would even spacing waste instruments?',
+            ('The margins need fewer',
+             'The interior changes slowly with distance',
+             'The ocean is uniform',
+             'Instruments fail at depth'),
+            1,
+            'The interior changes slowly, so instruments can be thinned there with little '
+            'loss.'),
+           ('What does the lecturer say the asymmetric layout is?',
+            ('A compromise with the budget',
+             'A statement about where the variability lives',
+             'An accident of deployment',
+             'A limitation of the hardware'),
+            1,
+            'Not a compromise with the budget but a statement about the physics, written in '
+            'the position of the hardware.'),
+           ('What cost does he say every observational programme meets?',
+            ('Instruments fail in salt water',
+             'A decade of data takes a decade',
+             'Ships are expensive',
+             'Data must be published quickly'),
+            1,
+            'A deployment of this kind takes a decade to produce a decade of data, and money '
+            'does not shorten it.')]}
+UNIT['l5'] = {'sub': 'Measuring a moving sea',
+ 'caption': 'A short talk on what a ten-year record can support',
+ 'board': ['Variability: large, now measured',
+           'Trend: needs a much longer record',
+           'Low run ≠ decline',
+           'Say what the record can carry'],
+ 'skill': ('A talk about the limits of a dataset the speaker admires',
+           ['The speaker praises the measurement and refuses one use of it, so note which is '
+            'which.',
+            'There is a number in here about how long a record would need to be. Write it '
+            'down.',
+            'A question about her advice wants a sentence she asks you to write, not a '
+            'conclusion about the ocean.']),
+ 'warm': [('Man: What does she say the record established?',
+           ('The size of the variability.',
+            'A long-term decline.',
+            'Yes, it established something.',
+            'Ten years.'),
+           0,
+           'The decade established the variability, which is what the array was built to '
+           'do.'),
+          ('Man: What would detecting a trend require?',
+           ('A record several times longer.',
+            'Better instruments.',
+            'Yes, it requires something.',
+            'A new metaphor.'),
+           0,
+           'The length of the record is the limiting factor, not the quality of the '
+           'instruments.'),
+          ('Man: What does she ask you to write in an essay?',
+           ('What the record can and cannot support.',
+            'That the circulation is weakening.',
+            'Yes, she asks for something.',
+            'A description of the array.'),
+           0,
+           'Her advice is about a sentence that states the limits of the evidence, which is '
+           'the transferable habit.')],
+ 'script': [('Woman',
+             'I am an admirer of this dataset and I am going to spend ten minutes on what it '
+             'cannot do, which is not a criticism of the people who built it. A decade of '
+             'continuous measurement told us the overturning fluctuates by a factor of '
+             'several within a single year. That is a genuine discovery and nobody expected '
+             'it. Now ask the next question. Can the same record tell us whether the average '
+             'is declining? Run the arithmetic: against swings that large you would need '
+             'something like thirty to forty years of continuous data before a slow trend '
+             'separated itself from the noise. We have had rather less than half of that. So '
+             'when a run of low years appeared in the middle of the record, and was reported '
+             'in three newspapers as the circulation slowing, the honest answer was that a '
+             'run of low years is what large variability looks like. It is not evidence of a '
+             'trend, and it is not evidence against one either. Here is the sentence I want '
+             'in your essays, and I will accept it in any wording. State what the record is '
+             'long enough to establish, and then state what it is not, in the same paragraph '
+             'as the finding. That habit costs you two lines of writing, and it is the '
+             'difference between a careful paper and a merely confident one.')],
+ 'items': [('What does the speaker call a genuine discovery?',
+            ('A long-term decline',
+             'That the overturning fluctuates by a factor of several in a year',
+             'The design of the array',
+             'The conveyor metaphor'),
+            1,
+            'Nobody expected the size of the within-year variability, and that is what the '
+            'decade established.'),
+           ('How long a record would a trend need, by her arithmetic?',
+            ('Ten years', 'Thirty to forty years', 'A century', 'Five years'),
+            1,
+            'Something like thirty to forty years of continuous data before a slow trend '
+            'separated itself from the noise.'),
+           ('What does she say a run of low years is?',
+            ('Evidence of a trend',
+             'What large variability looks like',
+             'Evidence against a trend',
+             'An instrument failure'),
+            1,
+            'A run of low years is what large variability looks like, and she says it is '
+            'evidence neither for nor against a trend.'),
+           ('What does she ask students to put in the same paragraph as a finding?',
+            ('The newspaper coverage',
+             'What the record is long enough to establish and what it is not',
+             'A description of the instruments',
+             'The model expectation'),
+            1,
+            'State what the record can establish and then what it cannot, in the same '
+            'paragraph, in any wording.'),
+           ('What does she say that habit costs?',
+            ('A great deal of extra work',
+             'Two lines',
+             'Nothing at all',
+             'A whole paragraph'),
+            1,
+            'It costs two lines, and she calls it the difference between a careful paper and '
+            'a confident one.')]}
+UNIT['w4'] = {'sub': 'Measuring a moving sea',
+ 'skill': ('Relative clauses with a preposition in front',
+           ['Academic English moves the preposition to the front of the clause: the latitude '
+            'at which the array was placed.',
+            'The preposition has to match the verb it belongs to, and that is where most '
+            'errors happen.',
+            'Which for things and whom for people, after a preposition, every time.']),
+ 'guided': [('You want to name the latitude the array sits on.',
+             ['the latitude',
+              'at which',
+              'the array',
+              'was',
+              'deployed',
+              'is',
+              'chosen',
+              'for',
+              'the',
+              'flow',
+              'there'],
+             'The latitude at which the array was deployed is chosen for the flow there.'),
+            ('You want to describe the interval the sampling used.',
+             ['the interval',
+              'at which',
+              'the cruises',
+              'sampled',
+              'the',
+              'transect',
+              'was',
+              'too',
+              'long',
+              'by',
+              'far'],
+             'The interval at which the cruises sampled the transect was too long by far.'),
+            ('You want to describe the depths the instruments record at.',
+             ['the depths',
+              'at which',
+              'the instruments',
+              'record',
+              'are',
+              'spaced',
+              'to',
+              'capture',
+              'the',
+              'vertical',
+              'structure'],
+             'The depths at which the instruments record are spaced to capture the vertical '
+             'structure.')],
+ 'exam': [('You want to describe the conditions the metaphor fails under.',
+           ['the conditions',
+            'under which',
+            'the conveyor',
+            'image',
+            'fails',
+            'are',
+            'exactly',
+            'those',
+            'the',
+            'array',
+            'recorded'],
+           'The conditions under which the conveyor image fails are exactly those the array '
+           'recorded.'),
+          ('You want to describe the amplitude a trend must be seen against.',
+           ['the amplitude',
+            'against which',
+            'a trend',
+            'must',
+            'be',
+            'detected',
+            'is',
+            'larger',
+            'than',
+            'anybody',
+            'expected'],
+           'The amplitude against which a trend must be detected is larger than anybody '
+           'expected.'),
+          ('You want to describe the rate the record grows at.',
+           ['the rate',
+            'at which',
+            'the record',
+            'accumulates',
+            'is',
+            'one',
+            'year',
+            'a year',
+            'and',
+            'cannot',
+            'change'],
+           'The rate at which the record accumulates is one year a year and cannot change.'),
+          ('You want to describe the margins the flow is fastest at.',
+           ['the margins',
+            'at which',
+            'the flow',
+            'is',
+            'fastest',
+            'are',
+            'where',
+            'the moorings',
+            'are',
+            'placed',
+            'closest'],
+           'The margins at which the flow is fastest are where the moorings are placed '
+           'closest.'),
+          ('You want to describe the basis a model expectation rests on.',
+           ['the basis',
+            'on which',
+            'the model',
+            'expects',
+            'a decline',
+            'is',
+            'not',
+            'the basis',
+            'the',
+            'observations',
+            'use'],
+           'The basis on which the model expects a decline is not the basis the observations '
+           'use.')]}
+UNIT['w5'] = {'sub': 'Measuring a moving sea',
+ 'prof': 'Dr Lindqvist',
+ 'question': 'A funding panel has one decision to make. It can extend the existing array for '
+             'another fifteen years, which would make trend detection possible, or fund '
+             'three new arrays elsewhere, which would measure variability in regions nobody '
+             'has instrumented. Which is the better use of the money?',
+ 'posts': [('Priya',
+            'w',
+            'Extend the one we have. A fifteen-year extension converts a decade of expensive '
+            'variability data into the only record capable of answering the question the '
+            'programme was funded to answer. Three short records elsewhere will reproduce '
+            'exactly the problem we already have, in triplicate.'),
+           ('Omar',
+            'm',
+            'That assumes the question is settled as the right one. We learned from this '
+            'array that we did not know what the variability was, and we only learned it by '
+            'instrumenting somewhere new. Three arrays will find three more things nobody '
+            'predicted, and prediction is not the strong suit of this field.')],
+ 'skill': ('A question about extending a record or widening coverage',
+           ['Priya argues from the value of length; Omar from the history of surprises. Both '
+            'are using the same passage.',
+            'Use the arithmetic: the second passage is specific about how much longer a '
+            'record needs to be, and that number is available to you.',
+            'Say what you give up, and in a funding question that means saying what does not '
+            'get measured.']),
+ 'starters': ['Omar is right that…, although that holds only while…',
+              'The distinction I would draw is between… and…',
+              'It is doubtful whether…, and the passage suggests…',
+              'What follows is not… but…'],
+ 'model': ['Omar is right about the history and draws the wrong lesson from it. The surprise '
+           'at this latitude was a discovery about variability, and the reason it was a '
+           'discovery is that continuous measurement replaced snapshots. That argument '
+           'supports continuous records wherever in the world they are placed, and it says '
+           'nothing about whether a fourth decade here is worth less than a first decade '
+           'somewhere else.',
+           'Priya has the stronger case and understates the cost. A fifteen-year extension '
+           'is not an improvement to an existing dataset. It is the only way the central '
+           'question gets answered at all, because the record grows at one year a year and '
+           'no amount of money shortens that.',
+           'So the panel should extend, and should fund one new array rather than three, at '
+           'the location where a surprise would most change the modelling. What is given up '
+           'is coverage, and two regions stay uninstrumented for another fifteen years, '
+           'which is a real loss and the right one. A field that keeps starting records and '
+           'never finishes one will end up knowing the variability of every basin in the '
+           'world and the trend of none of them, which is a comfortable place to publish '
+           'from and a useless one to advise from.'],
+ 'model_words': 208}
+UNIT['sp'] = list(UNIT['sp']) + [{'sub': 'Measuring a moving sea',
+  'focus': 'fronting a preposition in a relative clause',
+  'skill': ('The latitude at which the array was deployed',
+            ['The preposition and which travel together at the front of the clause. Say them '
+             'as one unit with no pause between.',
+             'Stress the noun before the clause, not the preposition.',
+             'In speech you may say the latitude the array was deployed at; in an exam '
+             'answer, front it.']),
+  'repeat': ['The latitude at which the array sits.',
+             'The depths at which the instruments record.',
+             'The rate at which the record accumulates.',
+             'The conditions under which the metaphor fails.',
+             'The amplitude against which a trend must be detected.',
+             'The interval at which the cruises sampled was far too long.',
+             'The basis on which a model expects a decline is not the basis the observations '
+             'are able to use.'],
+  'theme': 'measuring something that keeps changing',
+  'qs': ['Tell me about something you have tried to measure that would not stay still. How '
+         'did you handle it?',
+         'Some people say that if a measurement is difficult, an estimate is good enough. '
+         'How far would you agree?',
+         'If you had to describe how often to measure something, what would you need to know '
+         'first?',
+         'Finally, describe a time a short run of results misled you.'],
+  'model': [(2,
+             'It depends entirely on what the estimate is for, and I would want to separate '
+             'two cases. For a decision you can revise next week, an estimate is fine. For '
+             'anything you will build on for ten years, a bad estimate is worse than an '
+             'admitted gap, because nobody goes back to check it.'),
+            (4,
+             'Three good weeks of sales at a shop I worked in. We hired on the strength of '
+             'them and the three weeks turned out to be the ordinary swing rather than the '
+             'new level.')],
+  'selfcheck': ['I kept the preposition and which together with no pause',
+                'I used at least two of the unit’s field words',
+                'I said what I would need to know before choosing an interval']},
+ {'sub': 'Measuring a moving sea',
+  'focus': 'stating what evidence can and cannot support, in one breath',
+  'skill': ('The record establishes the variability and cannot settle the trend',
+            ['One sentence, two halves, joined by and rather than but. But sounds like a '
+             'retreat; and sounds like a description.',
+             'Give both halves the same weight and the same speed. Rushing the second half '
+             'is what makes a speaker sound evasive.',
+             'Name the quantity in each half. Establishes the variability, not establishes '
+             'something.']),
+  'repeat': ['The record establishes the variability.',
+             'It cannot settle the trend.',
+             'A run of low years is what variability looks like.',
+             'The arithmetic is not controversial and it was widely ignored.',
+             'The instrumentation is excellent and the record is still too short.',
+             'That is not evidence of a trend and not evidence against one.',
+             'State what the record is long enough to establish, and then state what it is '
+             'not, in the same paragraph as the finding.'],
+  'theme': 'saying what you do not yet know',
+  'qs': ['Tell me about a time you had to say you did not know something. How did you put '
+         'it?',
+         'Some people think admitting uncertainty makes an expert less useful. What do you '
+         'think?',
+         'How should a news report present a finding the evidence cannot yet support?',
+         'Finally, describe a question in your own field that nobody can answer yet. What '
+         'would answer it?'],
+  'model': [(2,
+             'Less comfortable and more useful, and I would put the difference like this. An '
+             'expert who says the range is between these two numbers has told me something I '
+             'can plan around. An expert who gives me one number and no range has told me '
+             'less and sounded like more.'),
+            (4,
+             'Whether the thing I measure in a term is the thing that matters in five years. '
+             'Nothing short of waiting five years answers it, which is an unsatisfying '
+             'answer and the true one.')],
+  'selfcheck': ['I joined the two halves with and, not but',
+                'I gave both halves the same weight',
+                'I named the quantity in each half']}]
