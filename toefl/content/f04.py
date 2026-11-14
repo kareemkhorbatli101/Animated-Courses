@@ -28,7 +28,7 @@ UNIT = dict(
         ('family', 'your mother, father, brothers and sisters'),
         ('mother', 'your female parent'),
         ('father', 'your male parent'),
-        ('parents', 'your mother and your father together'),
+        ('parent', 'your mother or your father'),
         ('brother', 'a boy or man with the same parents as you'),
         ('sister', 'a girl or woman with the same parents as you'),
         ('son', 'the male child of a parent'),

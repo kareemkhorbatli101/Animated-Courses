@@ -18,10 +18,17 @@ SKILL_TASK = {
     'r1': ('reading', 1, 'Complete the Words'),
     'r2': ('reading', 2, 'Read in Daily Life'),
     'r3': ('reading', 3, 'Read an Academic Passage'),
+    'r4': ('reading', 4, 'Read an Academic Passage'),
+    'r5': ('reading', 5, 'Read an Academic Passage'),
     'l1': ('listening', 1, 'Conversations'),
     'l2': ('listening', 2, 'Announcements'),
     'l3': ('listening', 3, 'Academic Talks'),
+    'l4': ('listening', 4, 'Academic Talks'),
+    'l5': ('listening', 5, 'Academic Talks'),
 }
+# In Foundation 1 the third cycle reads a short text about student life. Calling
+# it an academic passage would not be true, so it is not called one there.
+TASK_A2X = {'r3': 'Read a Short Text', 'l3': 'Short Talk'}
 
 
 # --------------------------------------------------------------- helpers ----
@@ -182,6 +189,7 @@ def _vocab_b2(d, U):
 def render_unit(d, U):
     n, title = U['n'], U['title']
     a2 = U.get('level') == 'A2'
+    ax = a2 and 'r4' in U
     sp = Spread()
     key = {}            # section -> list of (number, answer, why)
 
@@ -208,6 +216,8 @@ def render_unit(d, U):
     for tag in ('r1', 'r2', 'r3'):
         blk = U[tag]
         skill, cyc, task = SKILL_TASK[tag]
+        if ax:
+            task = TASK_A2X.get(tag, task)
         d.figure(*F.skill_bar(skill, cyc, blk['sub'], task))
         d.skillbox(blk['skill'][0], blk['skill'][1], skill)
         rows = []
@@ -241,6 +251,28 @@ def render_unit(d, U):
             d.body_p('Check your answers in the key at the back of the book.', i=True)
         d.page_break_section()
 
+    if ax:
+        d.partbar('The field: %s' % U['fieldname'],
+                  'Two more cycles in every skill, on one subject', 'reading')
+        d.body_p('Everything up to here was about your own life, because that is where a '
+                 'language starts. From this page the same unit turns to a subject, and '
+                 'the subject is one Volume 1 will take up properly: %s.' % U['fieldwhy'])
+        d.wordlist(U['fieldwords'], 2, BLUE)
+        d.page_break_section()
+        for tag in ('r4', 'r5'):
+            blk = U[tag]
+            skill, cyc, task = SKILL_TASK[tag]
+            d.figure(*F.skill_bar(skill, cyc, blk['sub'], task))
+            d.skillbox(blk['skill'][0], blk['skill'][1], skill)
+            d.passage(blk['title'], blk['paras'], blk['words'])
+            d.ex('Exercise A   Guided practice.', skill)
+            k = []
+            nn = _items(d, blk['guided'], 1, k, skill, sp)
+            d.ex('Exercise B   Exam practice.', skill)
+            _items(d, blk['exam'], nn, k, skill, sp)
+            key[tag] = k
+            d.page_break_section()
+
     if a2:
         _strands(d, U, 'builder')
 
@@ -248,6 +280,8 @@ def render_unit(d, U):
     for tag in ('l1', 'l2', 'l3'):
         blk = U[tag]
         skill, cyc, task = SKILL_TASK[tag]
+        if ax:
+            task = TASK_A2X.get(tag, task)
         d.figure(*F.skill_bar(skill, cyc, blk['sub'], task))
         d.ex('Exercise A   Listen and choose a response. You hear one line. Choose the best reply.', skill)
         k = []
@@ -264,6 +298,22 @@ def render_unit(d, U):
         key[tag] = k
         d.body_p('Audio script: see the back of the book. Do not read it before you listen.', i=True)
         d.page_break_section()
+
+    if ax:
+        for tag in ('l4', 'l5'):
+            blk = U[tag]
+            skill, cyc, task = SKILL_TASK[tag]
+            d.figure(*F.skill_bar(skill, cyc, blk['sub'], task))
+            d.ex('Exercise A   Listen and choose a response.', skill)
+            k = []
+            nn = _items(d, blk['warm'], 1, k, skill, sp)
+            d.figure(*F.talk_scene(blk['caption'], blk['board']))
+            d.skillbox(blk['skill'][0], blk['skill'][1], skill)
+            d.ex('Exercise B   Listen and answer. The audio plays once.', skill)
+            _items(d, blk['items'], nn, k, skill, sp)
+            key[tag] = k
+            d.body_p('Audio script: see the back of the book.', i=True)
+            d.page_break_section()
 
     # ---- pages 9-11: speaking ----------------------------------------------
     for cyc, blk in enumerate(U['sp'], 1):
@@ -361,6 +411,50 @@ def render_unit(d, U):
          % (w3['target'] if a2 else 100), 'writing')
     d.lines(10)
     d.page_break_section()
+
+    if ax:
+        w4 = U['w4']
+        d.figure(*F.skill_bar('writing', 4, w4['sub'], 'Build a Sentence'))
+        d.body_p('The same task again, on the subject of this unit. The sentences are '
+                 'about %s now, and the word order has not changed at all.'
+                 % U['fieldname'].lower())
+        d.skillbox(w4['skill'][0], w4['skill'][1], 'writing')
+        d.ex('Exercise A   Guided practice.', 'writing')
+        kw4 = []
+        for i, (prompt, tiles, ans) in enumerate(w4['guided'], 1):
+            d.figure(*F.build_demo(prompt, len(ans.replace('?', '').replace('.', '').split()),
+                                   tiles))
+            d.body_p('%d.  %s' % (i, ans), i=True)
+            kw4.append((i, ans, ''))
+        d.ex('Exercise B   Exam practice. Write the sentence.', 'writing')
+        for i, (prompt, tiles, ans) in enumerate(w4['exam'], len(w4['guided']) + 1):
+            d.item('%d.  ' % i, prompt)
+            d.body_p('      ' + '  /  '.join(tiles), sz=20, i=True)
+            d.lines(1, 560)
+            kw4.append((i, ans, ''))
+        key['w4'] = kw4
+        d.page_break_section()
+
+        w5 = U['w5']
+        d.figure(*F.skill_bar('writing', 5, w5['sub'], 'Write for an Academic Discussion'))
+        d.body_p('A second discussion, and this one is about the subject rather than about '
+                 'your own week. In the real test both kinds come up, and the second kind '
+                 'is the harder one.')
+        d.body_p('For this unit, write about %d words. The real test wants a hundred.'
+                 % w5['target'])
+        d.figure(*F.discussion_panel(w5['prof'], w5['question'], w5['posts']))
+        d.skillbox(w5['skill'][0], w5['skill'][1], 'writing')
+        d.h3('Sentence starters', PLUM)
+        d.bullets(w5['starters'])
+        d.h3('Model post', PLUM)
+        for ln in w5['model']:
+            d.body_p(ln)
+        d.body_p('[%d words]' % w5['model_words'], i=True)
+        if w5.get('frame'):
+            d.figure(*F.frame_card('Write your post', w5['frame']))
+        d.ex('Now write your own. 10 minutes, at least %d words.' % w5['target'], 'writing')
+        d.lines(10)
+        d.page_break_section()
 
     # ---- page 15: grammar ---------------------------------------------------
     gr = U['gram']
@@ -690,17 +784,31 @@ def answer_key(d, vol, units, tkey, ukeys):
         d.keybar('Unit %d · %s' % (u['n'], u['title']))
         d.h3('Reading 1 · Complete the Words', BLUE)
         d.keygrid([a for _, a, _ in k['r1']], 5)
-        for tag, lab, col in (('r2', 'Reading 2 · Read in Daily Life', BLUE),
-                              ('r3', 'Reading 3 · Academic Passage', BLUE),
-                              ('l1', 'Listening 1 · Conversation', AMBER),
-                              ('l2', 'Listening 2 · Announcement', AMBER),
-                              ('l3', 'Listening 3 · Academic Talk', AMBER)):
+        _ax = 'r4' in k
+        for tag, lab, col in (
+                ('r2', 'Reading 2 · Read in Daily Life', BLUE),
+                ('r3', 'Reading 3 · Short Text' if _ax else 'Reading 3 · Academic Passage',
+                 BLUE),
+                ('r4', 'Reading 4 · Academic Passage', BLUE),
+                ('r5', 'Reading 5 · Academic Passage', BLUE),
+                ('l1', 'Listening 1 · Conversation', AMBER),
+                ('l2', 'Listening 2 · Announcement', AMBER),
+                ('l3', 'Listening 3 · Short Talk' if _ax else 'Listening 3 · Academic Talk',
+                 AMBER),
+                ('l4', 'Listening 4 · Academic Talk', AMBER),
+                ('l5', 'Listening 5 · Academic Talk', AMBER)):
+            if tag not in k:
+                continue
             d.h3(lab, col)
             for num, ans, why in k[tag]:
                 d.why(num, ans, why)
         d.h3('Writing 1 · Build a Sentence', PLUM)
         for num, ans, _ in k['w1']:
             d.keyline('%d' % num, ans)
+        if 'w4' in k:
+            d.h3('Writing 4 · Build a Sentence', PLUM)
+            for num, ans, _ in k['w4']:
+                d.keyline('%d' % num, ans)
         d.h3('Grammar focus', INDIGO)
         for num, ans, _ in k['gram']:
             d.keyline('Exercise %d' % num, ans)
@@ -736,12 +844,19 @@ def audio_scripts(d, vol, units, T):
     d.page_break_section()
     for u in units:
         d.keybar('Unit %d · %s' % (u['n'], u['title']))
+        _ax = 'l4' in u
         for tag, lab in (('l1', 'Listening 1 · Conversation'),
                          ('l2', 'Listening 2 · Announcement'),
-                         ('l3', 'Listening 3 · Academic Talk')):
+                         ('l3', 'Listening 3 · Short Talk' if _ax
+                          else 'Listening 3 · Academic Talk'),
+                         ('l4', 'Listening 4 · Academic Talk'),
+                         ('l5', 'Listening 5 · Academic Talk')):
+            if tag not in u:
+                continue
             d.h3(lab, AMBER)
             d.script(u[tag]['script'])
-            d.body_p('Listen and choose a response, items 1–3:', i=True)
+            d.body_p('Listen and choose a response, items 1–%d:'
+                     % len(u[tag]['warm']), i=True)
             for i, (stem, _, _, _) in enumerate(u[tag]['warm'], 1):
                 d.body_p('%d.  %s' % (i, stem), sz=20)
         d.h3('Speaking · Listen and Repeat', TEAL)

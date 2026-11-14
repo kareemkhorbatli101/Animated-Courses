@@ -15,7 +15,8 @@ UNIT = dict(
     names=('Ana', 'Ruiz', 'Riverside', 'Dale', 'Brazil', 'Yusuf', 'Demir',
            'Mei', 'Chen', 'Turkey', 'Poland', 'Block', 'Kenya', 'Peru',
            'Turkish', 'Arabic', 'Spanish', 'Quechua', 'Japan', 'Robert',
-           'Victor', 'English'),
+           'Victor', 'English', 'Hungary', 'Iceland', 'Spain', 'Latin', 'China',
+           'America'),
     opener_line='Three sub-topics, three cycles in every skill. Everything in this unit '
                 'comes back in the review at the end, and again in Unit 2.',
     candos=[
@@ -710,3 +711,8 @@ UNIT = dict(
         'student number, the name of your department, and the name of your tutor. You will '
         'be asked for all three, often, and by people who are in a hurry.',
 )
+
+# ---- the two academic cycles (field: People and Their Ways) ----------------
+from .fx01 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)

@@ -7,6 +7,10 @@ SHAPE_B1 = [('acad', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
 # The Foundation volume keeps the same two-strand shape. What changes is where
 # the words come from: the general-service band, not the Academic Word List.
 SHAPE_A2 = [('core', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
+# The two academic cycles a skill that Foundation 1 gained. Twelve words of the
+# field come with them, because the measured gap at Volume 1 was field
+# vocabulary and not grammar.
+SHAPE_A2X = SHAPE_A2 + [('fieldwords', 12)]
 SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
             ('candos', 6), ('vocab_talk', 4)]
 
@@ -24,6 +28,26 @@ ITEMS_B2 = [('r2', 'guided', 4), ('r2', 'exam', 7), ('r3', 'guided', 4), ('r3', 
 # level needs more practice, not less; what is scaled is the load of each item,
 # not how many there are. Every number in the table below is a gate.
 ITEMS_A2 = ITEMS_B1
+# The new academic cycles are lighter than the three they sit beside: these are
+# extra repetitions of a field, not extra load for its own sake.
+ITEMS_A2X = ITEMS_A2 + [
+    ('r4', 'guided', 3), ('r4', 'exam', 4), ('r5', 'guided', 3), ('r5', 'exam', 4),
+    ('l4', 'warm', 2), ('l4', 'items', 4), ('l5', 'warm', 2), ('l5', 'items', 4),
+    ('w4', 'guided', 2), ('w4', 'exam', 4)]
+
+#     academic passage        academic talk      speaking cycles
+AX = {
+ 1: dict(r45=(80, 104),  l45=(58, 78),  sp=5),
+ 2: dict(r45=(86, 110),  l45=(62, 82),  sp=5),
+ 3: dict(r45=(92, 116),  l45=(66, 86),  sp=5),
+ 4: dict(r45=(98, 122),  l45=(70, 90),  sp=5),
+ 5: dict(r45=(104, 128), l45=(76, 96),  sp=5),
+ 6: dict(r45=(110, 136), l45=(82, 102), sp=5),
+ 7: dict(r45=(118, 144), l45=(88, 108), sp=5),
+ 8: dict(r45=(124, 152), l45=(94, 116), sp=5),
+ 9: dict(r45=(132, 160), l45=(100, 124), sp=5),
+10: dict(r45=(140, 170), l45=(106, 132), sp=5),
+}
 
 #        passage       mean max   talk        announce   turns  repeat tiles  q/10  w3 model    w2 model
 A2 = {
@@ -43,7 +67,7 @@ A2 = {
 def heads(U):
     """The head words a unit teaches, whichever strand name it uses."""
     return (list(U.get('acad', U.get('core', []))) + list(U.get('campus', []))
-            + list(U.get('awl', [])))
+            + list(U.get('awl', [])) + list(U.get('fieldwords', [])))
 
 
 def check(U, taught=()):
@@ -57,7 +81,9 @@ def check(U, taught=()):
     def bad(msg):
         out.append("%s%02d: %s" % (_lvltag, n, msg))
 
-    for k, want in (SHAPE_B2 if b2 else SHAPE_A2 if a2 else SHAPE_B1):
+    ax = a2 and 'r4' in U            # a Foundation unit with its academic cycles
+    for k, want in (SHAPE_B2 if b2 else (SHAPE_A2X if ax else SHAPE_A2) if a2
+                    else SHAPE_B1):
         if len(U[k]) != want:
             bad('%s has %d, want %d' % (k, len(U[k]), want))
     # no repeated head words inside the unit
@@ -87,14 +113,15 @@ def check(U, taught=()):
                 if d_ != len(a):
                     bad('r1 %s gap %d: %d dashes but answer %r is %d letters'
                         % (tag, i, d_, a, len(a)))
-    for blk, field, want in (ITEMS_B2 if b2 else ITEMS_A2 if a2 else ITEMS_B1):
+    for blk, field, want in (ITEMS_B2 if b2 else (ITEMS_A2X if ax else ITEMS_A2) if a2
+                             else ITEMS_B1):
         got = len(U[blk][field])
         if got != want:
             bad('%s.%s has %d, want %d' % (blk, field, got, want))
     # every multiple-choice item: four options, a valid index, a reason
-    for blk in ('r2', 'r3', 'l1', 'l2', 'l3'):
+    for blk in ('r2', 'r3', 'r4', 'r5', 'l1', 'l2', 'l3', 'l4', 'l5'):
         for field in ('guided', 'exam', 'warm', 'items'):
-            for it in U[blk].get(field, []):
+            for it in U.get(blk, {}).get(field, []):
                 stem, opts, ai, why = it
                 if len(opts) != 4:
                     bad('%s.%s "%s" has %d options' % (blk, field, stem[:30], len(opts)))
@@ -104,16 +131,17 @@ def check(U, taught=()):
                     bad('%s.%s "%s" has no real explanation' % (blk, field, stem[:30]))
     # answers must not all sit on one letter
     letters = []
-    for blk in ('r2', 'r3', 'l1', 'l2', 'l3'):
+    for blk in ('r2', 'r3', 'r4', 'r5', 'l1', 'l2', 'l3', 'l4', 'l5'):
         for field in ('guided', 'exam', 'warm', 'items'):
-            letters += ['ABCD'[it[2]] for it in U[blk].get(field, [])]
+            letters += ['ABCD'[it[2]] for it in U.get(blk, {}).get(field, [])]
     # option order is spread evenly at render time (book.Spread), so the raw
     # data only has to avoid being degenerate
     if len(set(letters)) < 3:
         bad('items use only %d distinct answer positions' % len(set(letters)))
     # speaking
-    if len(U['sp']) != 3:
-        bad('needs 3 speaking cycles')
+    want_sp = 5 if ax else 3
+    if len(U['sp']) != want_sp:
+        bad('needs %d speaking cycles, has %d' % (want_sp, len(U['sp'])))
     for i, s in enumerate(U['sp'], 1):
         if len(s['repeat']) != 7:
             bad('speaking %d has %d repeat sentences, want 7' % (i, len(s['repeat'])))
@@ -404,19 +432,28 @@ def _texts(U):
         for x in spec[1:]:
             if isinstance(x, (list, tuple)):
                 out += [l.lstrip('#* ') for l in x]
-    out.append(U['r3']['title']); out += list(U['r3']['paras'])
-    for tag in ('l1', 'l2', 'l3'):
+    for tag in ('r3', 'r4', 'r5'):
+        if tag in U:
+            out.append(U[tag]['title']); out += list(U[tag]['paras'])
+    for tag in ('l1', 'l2', 'l3', 'l4', 'l5'):
+        if tag not in U:
+            continue
         b = U[tag]
         out.append(b['caption'])
         out += [t for _, t in b['script']]
         out += list(b.get('poster', ())) + list(b.get('board', ()))
-    for blk in ('r2', 'r3', 'l1', 'l2', 'l3'):
+    for blk in ('r2', 'r3', 'r4', 'r5', 'l1', 'l2', 'l3', 'l4', 'l5'):
         for field in ('guided', 'exam', 'warm', 'items'):
-            for stem, opts, _, _ in U[blk].get(field, []):
+            for stem, opts, _, _ in U.get(blk, {}).get(field, []):
                 out.append(stem); out += list(opts)
     for s in U['sp']:
         out += list(s['repeat']) + list(s['qs']) + [m for _, m in s['model']]
     out += [a for _, _, a in U['w1']['guided'] + U['w1']['exam']]
+    if 'w4' in U:
+        out += [a for _, _, a in U['w4']['guided'] + U['w4']['exam']]
+    if 'w5' in U:
+        w5 = U['w5']
+        out += [w5['question']] + [p[-1] for p in w5['posts']] + list(w5['model'])
     out += list(U['w2']['scenario']) + list(U['w2']['bullets']) + list(U['w2']['model'])
     out += [U['w3']['question']] + [p[-1] for p in U['w3']['posts']] + list(U['w3']['model'])
     # fill the blank with its answer: a gapped sentence is not a sentence, and
@@ -455,6 +492,30 @@ def _check_a2(U, bad, taught):
     band('listening 3 script', sum(len(t.split()) for _, t in U['l3']['script']), P['l3'])
     band('listening 2 script', sum(len(t.split()) for _, t in U['l2']['script']), P['l2'])
     band('listening 1 turns', len(U['l1']['script']), P['turns'])
+    if 'r4' in U:
+        X = AX[n]
+        for tag in ('r4', 'r5'):
+            pw4 = sum(len(x.split()) for x in U[tag]['paras'])
+            band('%s academic passage' % tag, pw4, X['r45'])
+            if U[tag]['words'] != pw4:
+                bad('%s declares %d words but the passage has %d'
+                    % (tag, U[tag]['words'], pw4))
+            ls4 = [len(x.split()) for x in
+                   re.split(r'(?<=[.!?])\s+', ' '.join(U[tag]['paras'])) if x.strip()]
+            if ls4 and max(ls4) > P['xs']:
+                bad('%s has a %d-word sentence, the cap is %d' % (tag, max(ls4), P['xs']))
+        for tag in ('l4', 'l5'):
+            band('%s academic talk' % tag,
+                 sum(len(t.split()) for _, t in U[tag]['script']), X['l45'])
+        lo4, hi4 = P['tiles']
+        for prompt, tiles, _ in U['w4']['guided'] + U['w4']['exam']:
+            if not lo4 <= len(tiles) <= hi4:
+                bad('w4 "%s" has %d tiles, want %d-%d'
+                    % (prompt[:30], len(tiles), lo4, hi4))
+        mw5 = sum(len(l.split()) for l in U['w5']['model'])
+        band('w5 discussion model', mw5, P['w3'])
+        if U['w5']['model_words'] != mw5:
+            bad('w5 declares %d words but has %d' % (U['w5']['model_words'], mw5))
     mw = sum(len(l.split()) for l in U['w3']['model'])
     band('discussion model', mw, P['w3'])
     if U['w3']['model_words'] != mw:
