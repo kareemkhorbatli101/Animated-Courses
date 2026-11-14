@@ -13,6 +13,13 @@ SHAPE_A2 = [('core', 24), ('campus', 12), ('candos', 6), ('vocab_talk', 4)]
 SHAPE_A2X = SHAPE_A2 + [('fieldwords', 12)]
 SHAPE_B2 = [('acad', 18), ('collocs', 10), ('stance', 5), ('nuance', 3),
             ('candos', 6), ('vocab_talk', 4)]
+# Foundation 2 teaches 42 head words a unit, and 36 of them are not a choice:
+# they are the words Volume 1's own academic passages use and a Foundation 1
+# leaver does not know, measured by gate7 and sorted by unit in
+# v1_gap_by_unit.json. Campus words drop to 6 because Foundation 1 has already
+# done the campus work and this volume's job is the academic gap.
+SHAPE_F2 = [('acad', 24), ('campus', 6), ('candos', 6), ('vocab_talk', 4),
+            ('fieldwords', 12)]
 
 ITEMS_B1 = [('r2', 'guided', 4), ('r2', 'exam', 6), ('r3', 'guided', 4), ('r3', 'exam', 7),
             ('l1', 'warm', 3), ('l1', 'items', 6), ('l2', 'warm', 3), ('l2', 'items', 5),
@@ -49,6 +56,39 @@ AX = {
 10: dict(r45=(140, 170), l45=(106, 132), sp=5),
 }
 
+# Foundation 2 starts where Foundation 1 stops and ends at Volume 1's door.
+# Foundation 1 unit 10 reads a 170-192 word passage; Volume 1's ten academic
+# passages run 230-255 words, mean 242. So this table runs 176-196 up to
+# 224-244, and the listening and writing bands are set the same way, from the
+# measured Volume 1 numbers rather than from judgement.
+F2 = {
+ 1: dict(r3=(176,196), ms=13, xs=22, l3=(148,168), l2=(84,104),  turns=(11,15), rep=16, tiles=(6,7), qf=8, w3=(100,116), w2=(64,84)),
+ 2: dict(r3=(182,202), ms=13, xs=23, l3=(153,173), l2=(87,107),  turns=(11,15), rep=17, tiles=(6,7), qf=8, w3=(105,121), w2=(67,87)),
+ 3: dict(r3=(188,208), ms=14, xs=23, l3=(158,178), l2=(90,110),  turns=(12,16), rep=17, tiles=(6,7), qf=8, w3=(110,126), w2=(70,90)),
+ 4: dict(r3=(194,214), ms=14, xs=24, l3=(163,183), l2=(93,113),  turns=(12,16), rep=18, tiles=(6,7), qf=8, w3=(115,131), w2=(73,93)),
+ 5: dict(r3=(200,220), ms=14, xs=25, l3=(168,188), l2=(96,116),  turns=(12,17), rep=19, tiles=(7,8), qf=8, w3=(120,136), w2=(76,96)),
+ 6: dict(r3=(206,226), ms=15, xs=25, l3=(173,193), l2=(99,119),  turns=(13,17), rep=19, tiles=(7,8), qf=8, w3=(125,141), w2=(79,99)),
+ 7: dict(r3=(212,232), ms=15, xs=26, l3=(178,198), l2=(102,122), turns=(13,18), rep=20, tiles=(7,8), qf=8, w3=(130,146), w2=(82,102)),
+ 8: dict(r3=(216,236), ms=15, xs=27, l3=(182,202), l2=(105,125), turns=(13,18), rep=21, tiles=(7,8), qf=8, w3=(134,150), w2=(85,105)),
+ 9: dict(r3=(220,240), ms=16, xs=27, l3=(186,208), l2=(108,128), turns=(14,19), rep=21, tiles=(7,8), qf=8, w3=(138,154), w2=(88,108)),
+10: dict(r3=(224,244), ms=16, xs=28, l3=(190,212), l2=(110,132), turns=(14,19), rep=22, tiles=(7,8), qf=8, w3=(142,160), w2=(92,112)),
+}
+
+# The two academic cycles a skill, for Foundation 2. Foundation 1 ends at
+# 140-170; these run to 196-226, just under Volume 1's own passages.
+F2X = {
+ 1: dict(r45=(146,176), l45=(110,138), sp=5),
+ 2: dict(r45=(152,182), l45=(115,143), sp=5),
+ 3: dict(r45=(158,188), l45=(120,148), sp=5),
+ 4: dict(r45=(164,194), l45=(125,153), sp=5),
+ 5: dict(r45=(170,200), l45=(130,158), sp=5),
+ 6: dict(r45=(176,206), l45=(135,163), sp=5),
+ 7: dict(r45=(182,212), l45=(140,168), sp=5),
+ 8: dict(r45=(188,218), l45=(144,172), sp=5),
+ 9: dict(r45=(192,222), l45=(148,177), sp=5),
+10: dict(r45=(196,226), l45=(152,182), sp=5),
+}
+
 #        passage       mean max   talk        announce   turns  repeat tiles  q/10  w3 model    w2 model
 A2 = {
  1: dict(r3=(104,122), ms=11, xs=18, l3=(78, 96), l2=(46,64), turns=(7,10),  rep=9,  tiles=(4,5), qf=5, w3=(40,56), w2=(28,46)),
@@ -73,16 +113,19 @@ def heads(U):
 def check(U, taught=()):
     n = U['n']
     b2 = U.get('level') == 'B2'
-    a2 = U.get('level') == 'A2' 
+    a2 = U.get('level') == 'A2'
+    f2 = U.get('level') == 'A2B1'    # Foundation 2
+    found = a2 or f2                 # behaviour shared by both Foundation books
     out = []
 
-    _lvltag = "f" if a2 else "u"
+    _lvltag = "g" if f2 else "f" if a2 else "u"
 
     def bad(msg):
         out.append("%s%02d: %s" % (_lvltag, n, msg))
 
-    ax = a2 and 'r4' in U            # a Foundation unit with its academic cycles
-    for k, want in (SHAPE_B2 if b2 else (SHAPE_A2X if ax else SHAPE_A2) if a2
+    ax = found and 'r4' in U         # a Foundation unit with its academic cycles
+    for k, want in (SHAPE_B2 if b2 else SHAPE_F2 if f2
+                    else (SHAPE_A2X if ax else SHAPE_A2) if a2
                     else SHAPE_B1):
         if len(U[k]) != want:
             bad('%s has %d, want %d' % (k, len(U[k]), want))
@@ -113,7 +156,7 @@ def check(U, taught=()):
                 if d_ != len(a):
                     bad('r1 %s gap %d: %d dashes but answer %r is %d letters'
                         % (tag, i, d_, a, len(a)))
-    for blk, field, want in (ITEMS_B2 if b2 else (ITEMS_A2X if ax else ITEMS_A2) if a2
+    for blk, field, want in (ITEMS_B2 if b2 else (ITEMS_A2X if ax else ITEMS_A2) if found
                              else ITEMS_B1):
         got = len(U[blk][field])
         if got != want:
@@ -127,7 +170,8 @@ def check(U, taught=()):
                     bad('%s.%s "%s" has %d options' % (blk, field, stem[:30], len(opts)))
                 if not 0 <= ai <= 3:
                     bad('%s.%s "%s" answer index %r' % (blk, field, stem[:30], ai))
-                if not why or len(why) < (30 if b2 else 16 if a2 else 20):
+                if not why or len(why) < (30 if b2 else 16 if a2 else 18 if f2
+                                          else 20):
                     bad('%s.%s "%s" has no real explanation' % (blk, field, stem[:30]))
     # answers must not all sit on one letter
     letters = []
@@ -163,16 +207,18 @@ def check(U, taught=()):
     for _, _, a in U['w1']['guided'] + U['w1']['exam']:
         if a.rstrip().endswith('?') or EMBED.search(a):
             qs += 1
-    want_qs = A2[n]['qf'] if a2 else 8
+    want_qs = F2[n]['qf'] if f2 else A2[n]['qf'] if a2 else 8
     if qs < want_qs:
         bad('only %d of 10 Build a Sentence items use a question frame (want at least %d)'
             % (qs, want_qs))
-    if not a2 and U['w3']['model_words'] < (130 if b2 else 100):
+    if not found and U['w3']['model_words'] < (130 if b2 else 100):
         bad('discussion model is under %d words' % (130 if b2 else 100))
     if b2:
         _check_b2(U, bad)
     if a2:
         _check_a2(U, bad, taught)
+    if f2:
+        _check_f2(U, bad, taught)
     # review
     for k, want in (('vocab', 12), ('gram', 8), ('mini', 6)):
         if len(U['rev'][k]) != want:
@@ -261,6 +307,12 @@ def _check_b2(U, bad):
 
 def main(nums, pre='u'):
     problems, seen, taught = [], {}, []
+    if pre == 'g':
+        # A Foundation 2 student knows every word Foundation 1 taught, so the
+        # vocabulary gate is seeded with all of them before unit 1 is checked.
+        for m in range(1, 11):
+            F = importlib.import_module('content.f%02d' % m).UNIT
+            taught += [w for w, _ in heads(F)]
     for n in nums:
         U = importlib.import_module('content.%s%02d' % (pre, n)).UNIT
         problems += check(U, taught)
@@ -467,9 +519,33 @@ def _texts(U):
 
 
 def _check_a2(U, bad, taught):
+    """Foundation 1: the A2 bands, and the progressive containment gate that
+    unlocks one structure a unit."""
+    _check_found(U, bad, taught, A2, AX, lambda toks, n, b: _containment(toks, n, b))
+
+
+def _check_f2(U, bad, taught):
+    """Foundation 2: its own bands, and a containment gate that grants
+    everything Foundation 1 taught from unit 1 while still refusing every
+    structure Volume 1 owns."""
+    # 'used to' stays in the text this gate reads, because Volume 1 unit 9
+    # owns it and _containment_f2 is here to refuse it.
+    _check_found(U, bad, taught, F2, F2X, _containment_f2,
+                 strip=tuple(x for x in _STRIP if x != 'used to'))
+
+
+# Fixed lexical chunks at this level, not productive grammar. 'made of' is the
+# clearest case: unavoidable in a unit about materials, and never a passive a
+# student could form.
+_STRIP = ('used to', 'how are you', 'nice to meet you', 'excuse me',
+          'would like', 'thank you', 'see you', 'good morning',
+          'where are you from', 'i am from', 'made of', 'made from')
+
+
+def _check_found(U, bad, taught, TAB, XTAB, contain, strip=_STRIP):
     from content._wordbank import unknown
     n = U['n']
-    P = A2[n]
+    P = TAB[n]
     texts = _texts(U)
     blob = ' . '.join(texts)
 
@@ -494,7 +570,7 @@ def _check_a2(U, bad, taught):
     band('listening 2 script', sum(len(t.split()) for _, t in U['l2']['script']), P['l2'])
     band('listening 1 turns', len(U['l1']['script']), P['turns'])
     if 'r4' in U:
-        X = AX[n]
+        X = XTAB[n]
         for tag in ('r4', 'r5'):
             pw4 = sum(len(x.split()) for x in U[tag]['paras'])
             band('%s academic passage' % tag, pw4, X['r45'])
@@ -549,19 +625,64 @@ def _check_a2(U, bad, taught):
 
     # --- grammar containment ---------------------------------------------
     low = blob.lower()
-    # 'made of' is a fixed lexical phrase at this level, not a productive
-    # passive, and it is unavoidable in a unit about materials.
-    for phrase in ('used to', 'how are you', 'nice to meet you', 'excuse me',
-                   'would like', 'thank you', 'see you', 'good morning',
-                   'where are you from', 'i am from', 'made of', 'made from'):
+    for phrase in strip:
         low = low.replace(phrase, ' ')
-    _containment(_tok(low), n, bad)
+    contain(_tok(low), n, bad)
+
+
+# --------------------------------------------------------- Foundation 2 ----
+# Foundation 2's student has all of Foundation 1's grammar on day one, so none
+# of the one-structure-a-unit locks apply: the gate is called at n=10, which
+# opens every Foundation 1 lock and leaves the three unconditional refusals in
+# _containment (present perfect, passive, relative clause) standing.
+#
+# But n=10 also opens two gates Foundation 2 must keep shut, because Volume 1
+# owns them: the superlative (Volume 1 unit 2) and the past continuous (unit
+# 10, where the whole point is narrative). used to and would belong to unit 9
+# and the first conditional to unit 4. So those are refused here by name.
+_WAS = set('was were'.split())
+
+
+def _containment_f2(toks, n, bad):
+    _containment(toks, 10, bad)
+    for i, w in enumerate(toks):
+        nxt = toks[i + 1] if i + 1 < len(toks) else ''
+        def show():
+            return ' '.join(toks[max(0, i - 4):i + 3])
+        if w in _WAS and nxt.endswith('ing') and nxt not in ING_OK:
+            bad('past continuous belongs to Volume 1 unit 10: ...%s...' % show())
+            return
+        if w == 'most' and i and toks[i - 1] == 'the':
+            bad('the superlative belongs to Volume 1 unit 2: ...%s...' % show())
+            return
+        if w.endswith('est') and len(w) > 5 and i and toks[i - 1] == 'the' \
+                and w not in ('best', 'west', 'rest', 'test', 'guest', 'forest',
+                              'nearest', 'honest', 'interest', 'request'):
+            bad('the superlative belongs to Volume 1 unit 2: ...%s...' % show())
+            return
+        if w == 'used' and nxt == 'to':
+            bad('used to belongs to Volume 1 unit 9: ...%s...' % show())
+            return
+        if w == 'would':
+            bad('would belongs to Volume 1 unit 9: ...%s...' % show())
+            return
+        if w == 'if':
+            for j in range(i + 1, min(len(toks), i + 14)):
+                if toks[j] in ('.', '?', '!'):
+                    break
+                if toks[j] == 'will':
+                    bad('the first conditional belongs to Volume 1 unit 4: '
+                        '...%s...' % show())
+                    return
 
 
 if __name__ == '__main__':
     arg = sys.argv[1:] or ['1-20']
     pre = 'u'
-    if arg[0].lower().startswith('f'):
+    if arg[0].lower().startswith('g'):
+        pre = 'g'
+        arg = [a.lower().replace('g', '') for a in arg]
+    elif arg[0].lower().startswith('f'):
         pre = 'f'
         arg = [a.lower().replace('f', '') for a in arg]
     nums = []

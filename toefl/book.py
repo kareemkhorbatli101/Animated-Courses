@@ -13,7 +13,26 @@ VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2
         # task names, same item counts; a lower level and four strands that are
         # not about the test at all.
         # Foundation 1 sits before Volume 1; Foundation 2 sits between them.
-        'F1': dict(units=range(1, 11), test='f', pre='f')}
+        'F1': dict(units=range(1, 11), test='f', pre='f'),
+        'F2': dict(units=range(1, 11), test='f2', pre='g')}
+
+# The two Foundation volumes. Both keep the Foundation front matter, the
+# Progress Test naming and the twenty-page unit; what differs is the level on
+# the cover and which test the student is being pointed at next.
+FOUND = ('A2', 'A2B1')
+_LABEL = {'A2': 'A1–A2', 'A2B1': 'A2–B1'}
+
+
+def lvl_label(lvl):
+    return _LABEL.get(lvl, lvl)
+
+
+def test_label(lvl, vol):
+    if lvl == 'A2':
+        return 'Progress Test F'
+    if lvl == 'A2B1':
+        return 'Progress Test F2'
+    return 'Practice Test %s' % vol
 
 SKILL_TASK = {
     'r1': ('reading', 1, 'Complete the Words'),
@@ -511,18 +530,17 @@ def front_matter(d, vol, units):
     strap = ['Reading · Listening · Speaking · Writing',
              'Every task type in the 2026 test, three times a unit']
     d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']), strap,
-                            'A1–A2' if lvl == 'A2' else lvl), cover=True)
+                            lvl_label(lvl)), cover=True)
     d.page_break_section(zero=True)
 
     d.unit_title('TOEFL iBT® Preparation Course 2026')
     d.strapline('Volume %s · Units %d–%d · CEFR %s'
-                % (vol, units[0]['n'], units[-1]['n'], lvl))
-    d.cefr('Student’s Book with %s'
-           % ('Progress Test F' if lvl == 'A2' else 'Practice Test %s' % vol))
+                % (vol, units[0]['n'], units[-1]['n'], lvl_label(lvl)))
+    d.cefr('Student’s Book with %s' % test_label(lvl, vol))
     d.blank()
     d.body_p('This course prepares %s learners for the TOEFL iBT® test as it has been '
              'since 21 January 2026. Every task name, item count and timing in this book '
-             'follows the official ETS practice test for that form.' % lvl)
+             'follows the official ETS practice test for that form.' % lvl_label(lvl))
     if lvl == 'A2':
         d.body_p('This is Foundation 1, and it comes before Volume 1. It exists '
                  'because the rest of the course starts at B1, and a great many people who '
@@ -530,12 +548,42 @@ def front_matter(d, vol, units):
                  'course first and come back" is not an answer, because a general course '
                  'does not know where you are going.')
         d.body_p('So this book goes where you are going, from much further back. It has the '
-                 'same ten units as every other volume, the same three cycles a skill, the '
-                 'same task names in the same order, and exactly the same number of '
-                 'exercises. Nothing has been taken out. What is different is that every '
-                 'text is shorter, every sentence is simpler, every word is one of the two '
-                 'thousand most common words of English or a word this book teaches you '
-                 'first — and four pages in every unit are not about the test at all.')
+                 'same ten units as every other volume, the same task names in the same '
+                 'order, and exactly the same number of exercises. Nothing has been taken '
+                 'out. What is different is that every text is shorter, every sentence is '
+                 'simpler, and every word is one of the two thousand most common words of '
+                 'English or a word this book teaches you first.')
+        d.body_p('There are five cycles a skill in every unit, not three. Three take an '
+                 'everyday sub-topic. The other two take one academic field — living '
+                 'things, trade, the weather, history, rocks, stories — because that is '
+                 'what Volume 1 is made of, and a student should not meet an academic '
+                 'passage for the first time there. Four more pages in every unit are not '
+                 'about the test at all.')
+    elif lvl == 'A2B1':
+        d.body_p('This is Foundation 2, and it sits between Foundation 1 and Volume 1. '
+                 'Foundation 1 takes an A1 learner to a solid A2. This book takes that '
+                 'learner to the door of Volume 1, and it was written after measuring how '
+                 'far that door still was.')
+        d.body_p('The measurement was simple. Take every academic passage in Volume 1, and '
+                 'count the words in it that a Foundation 1 leaver has never met. The '
+                 'answer was about fourteen a passage, and they were not the same fourteen '
+                 'each time: two hundred and sixty-one different words, and only '
+                 'twenty-three of them turning up in more than one passage. A short word '
+                 'list cannot close a gap shaped like that.')
+        d.body_p('So this book does two things instead. Thirty-six of the forty-two words '
+                 'each unit teaches are taken straight from that measured list, and each '
+                 'unit teaches the ones that Volume 1’s matching unit actually uses: unit '
+                 '1 here prepares unit 1 there, and so on down the ten. And two of the ten '
+                 'grammar points are word building, because a student who can get '
+                 'explanation from explain, and characteristics from character, reads past '
+                 'most of a long tail without having met the exact form.')
+        d.body_p('The grammar is the other half of the bridge. Volume 1 owns the present '
+                 'perfect, the passive, relative clauses, the conditional, the superlative '
+                 'and the past continuous, and this book teaches none of them — a gate '
+                 'fails the build if it tries. What it teaches is the A2–B1 ground between '
+                 'the two books that neither of them had: choosing a tense, questions in '
+                 'every tense, obligation, adverbs, linking a paragraph, noun phrases, '
+                 'phrasal verbs, and how to say what a text says.')
     elif lvl == 'B2':
         d.body_p('Forty units across four volumes. Volumes 1 and 2 take a B1 learner through '
                  'every task in the test; Volumes 3 and 4, of which this is one, take the '
@@ -553,14 +601,14 @@ def front_matter(d, vol, units):
     d.blank()
     d.keyline('Series', 'TOEFL iBT® Preparation Course 2026')
     d.keyline('Level', 'CEFR %s (%s)'
-              % ('A1–A2' if lvl == 'A2' else lvl,
+              % (lvl_label(lvl),
                  'A1 in, a solid A2 out' if lvl == 'A2'
+                 else 'a solid A2 in, B1 out' if lvl == 'A2B1'
                  else 'targeting a steady %s band'
                  % ('4.5–5.5' if lvl == 'B2' else '3.0–4.0')))
     d.keyline('Components', 'Student’s Book · Audio · Interview video')
     d.keyline('This volume', 'Units %d–%d, %s, answer key, audio scripts, glossary'
-              % (units[0]['n'], units[-1]['n'],
-                 'Progress Test F' if lvl == 'A2' else 'Practice Test %s' % vol))
+              % (units[0]['n'], units[-1]['n'], test_label(lvl, vol)))
     d.blank()
     d.body_p('TOEFL and TOEFL iBT are registered trademarks of ETS. This publication is not '
              'endorsed by or affiliated with ETS. Format details are taken from ETS’s own '
@@ -576,7 +624,7 @@ def front_matter(d, vol, units):
     d.partbar('How to use this book', 'Three cycles, four skills')
     d.body_p('Every unit is %s pages and every unit is built the same way, so once you '
              'have worked through Unit %d you know where everything is.'
-             % ('twenty' if lvl == 'A2' else 'sixteen', units[0]['n']))
+             % ('twenty' if lvl in FOUND else 'sixteen', units[0]['n']))
     d.figure(*F.unit_tour())
     d.h3('What a cycle is')
     d.body_p('A cycle is one sub-topic taken through one skill. Cycle 1 of Reading, Listening, '
@@ -598,6 +646,11 @@ def front_matter(d, vol, units):
         d.body_p('Read this page now and do not worry about it. The Progress Test at the end '
                  'of this book is one module per section, so that you finish it. The real '
                  'two-module shape below is waiting for you in Volume 1.')
+    elif lvl == 'A2B1':
+        d.body_p('Read this page properly. Progress Test F2 at the end of this book is the '
+                 'real shape: two modules in Reading and two in Listening, with no way '
+                 'back. Foundation 1 gave you one module a section so that you would '
+                 'finish. This book gives you the test.')
     d.figure(*F.adaptive_map())
     d.body_p('Reading and Listening are adaptive. Each is split into two modules, and how you '
              'do in Module 1 decides how hard Module 2 is. Two rules follow, and they are not '
@@ -622,7 +675,7 @@ def front_matter(d, vol, units):
                       'Speaking, Writing, grammar, review'))
     weeks.append(('Week 11', 'Review units %d–%d' % (us[0]['n'], us[-1]['n']), 'Glossary and grammar reference'))
     weeks.append(('Week 12',
-                  'Progress Test F' if lvl == 'A2' else 'Practice Test %s' % vol,
+                  test_label(lvl, vol),
                   'Sit it in one sitting, then mark it'))
     d.table(['When', 'What', 'Focus'], weeks, INDIGO, [16, 44, 40])
     d.page_break_section()
@@ -1011,20 +1064,20 @@ def build(vol, out):
     lvl = units[0].get('level', 'B1')
     d = Doc('TOEFL iBT Preparation Course 2026 · Volume %s' % vol,
             'CEFR %s · Units %d–%d · %s'
-            % (lvl, units[0]['n'], units[-1]['n'],
-               'Progress Test F' if lvl == 'A2' else 'Practice Test %s' % cfg['test']))
+            % (lvl_label(lvl), units[0]['n'], units[-1]['n'],
+               test_label(lvl, vol)))
     front_matter(d, vol, units)
     ukeys = {}
     for u in units:
         ukeys[u['n']] = render_unit(d, u)
     tkey = render_test(d, T)
-    if lvl == 'A2':
+    if lvl in FOUND:
         first_sight(d)
     answer_key(d, vol, units, tkey, ukeys)
     audio_scripts(d, vol, units, T)
     glossary(d, vol, units)
     grammar_reference(d, vol, units)
-    if lvl == 'A2':
+    if lvl in FOUND:
         foundation_back(d, units)
     d.figure(*F.cover_back(vol, BLURB[lvl], BULLETS[lvl],
                            ['%d  %s' % (u['n'], u['title']) for u in units]), cover=True)
@@ -1037,6 +1090,11 @@ BLURB = {'A2': [
     'TOEFL iBT® and are not at B1 yet. Ten units, the same architecture as the',
     'rest of the course, the same number of exercises — and every text written',
     'inside the two thousand commonest words of English.',
+], 'A2B1': [
+    'The bridge between Foundation 1 and Volume 1, built from a measurement:',
+    'the words Volume 1’s own academic passages use and an A2 learner does not',
+    'know. Ten units, one for each unit of Volume 1, and a grammar syllabus of',
+    'the A2–B1 ground that neither book had.',
 ], 'B1': [
     'A complete preparation course for the TOEFL iBT® test as it has been since',
     '21 January 2026, written for learners at CEFR B1 — the level most students',
@@ -1052,6 +1110,12 @@ BULLETS = {'A2': [
     '360 words from the general-service list, with the first academic words last',
     'Sound and spelling, sentence building, typing and study skills in every unit',
     'A Progress Test in the real order, and an honest word about what comes next',
+], 'A2B1': [
+    'Every 2026 task type, five times in every unit — three everyday, two academic',
+    '360 of its 420 words measured from Volume 1’s own academic passages',
+    'Two grammar points of word building, because the gap is a tail, not a core',
+    'A grammar syllabus that takes nothing Volume 1 teaches, checked by a gate',
+    'Progress Test F2 in the real two-module shape, with an answer key that explains',
 ], 'B1': [
     'Every 2026 task type, three times in every unit',
     'Three cycles a skill, on three different sub-topics',
