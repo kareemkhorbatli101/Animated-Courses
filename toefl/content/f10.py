@@ -830,3 +830,8 @@ UNIT = dict(
         'three things you will come back to all the way through Volume 1, and a book you '
         'have already read is the fastest reference you will ever own.',
 )
+
+# ---- the two academic cycles (field: Stories and Writing) -----------------
+from .fx10 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)

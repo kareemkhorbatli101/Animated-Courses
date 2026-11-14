@@ -791,3 +791,8 @@ UNIT = dict(
         'advice, then because and a reason. Practise that shape until it arrives without '
         'thinking.',
 )
+
+# ---- the two academic cycles (field: Rocks, Land and Time) ----------------
+from .fx09 import EXTRA as _X, SP_EXTRA as _SP   # noqa: E402
+UNIT.update(_X)
+UNIT['sp'] = list(UNIT['sp'])[:3] + list(_SP)
