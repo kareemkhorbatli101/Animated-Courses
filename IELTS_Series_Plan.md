@@ -707,15 +707,116 @@ Each of these is a lesson, because each shows the rule choosing differently:
 | Education level × 3 years, Bulgaria | 2D | **education level** (3 BPs) | Three by three, so either works — level wins because each level has one clean trend shape, making each paragraph a single claim. |
 | Nutrients × 2 groups, plus a table | 2D + table | **nutrient, grouped by shared behaviour** | Fat alone; vegetables and fruits together because both reverse; cereals and fish together because both are equal. Then "Turning to the table". |
 | UK visits (line) + top countries (bar) | 2D **+ 1D** | **hybrid** | Line graph by series, two paragraphs; then the bar chart by order and group, joined with "On the other hand". |
-| Headland erosion | 1D (sequence) | **stage** | Order is given; group into phases where a process is long. |
-| Stokeford, 1930 and 2010 | 1D (time) | **map** | One paragraph a map, and inside each, move through space in a fixed order so the reader can follow. |
+| Headland erosion | sequence | **stage** | See 6.5 — processes carry their own decisions and are not merely "ordered". |
+| Wave energy device | device | **apparatus, then operation** | See 6.5 — a device is not a sequence and does not take one. |
+| Stokeford, 1930 and 2010 | **2D: space × time** | **time** | See 6.6 — a map is two-dimensional and the structuring choice is real. |
 
 The lesson a student takes from the table is that the rule is not "always do it
 by category". **The story picks the dimension**, and the clearest sign of a turn
 — a swap in rank, a reversal of direction, a change in the relationship between
 two series — is where the body paragraphs should divide.
 
-### 6.5 Task 1 General Training: the letter
+### 6.5 Process diagrams: two shapes, not one
+
+A process is usually taught as "just follow the arrows". The models say
+otherwise. **The first decision is what kind of diagram it is**, and the two
+kinds take different structures.
+
+**A sequence** — stages that happen one after another, in time. Erosion of a
+headland, cement production, the life cycle of a frog. Structure by stage.
+
+**A device or system** — components that exist together and operate. The wave
+energy converter. These take **two paragraphs and the order is fixed**:
+
+1. **What it is made of**, statically: "The device is made up of two
+   compartments, one on top of the other. The lower one is half-submerged and
+   has a gate that allows water in. It also has two holes leading to the upper
+   compartment, which has two turbines inside…"
+2. **What it does**, dynamically: "First, the waves flow into the lower
+   compartment pushing the air up through the two holes… When the waves recede,
+   air is sucked in… All along, the turbines are causing the generator to
+   produce electricity."
+
+Apparatus before operation, because the reader who cannot see the diagram
+(principle 4) cannot follow an action between parts they have not been
+introduced to. **This is the single most missed structure in Task 1 teaching**,
+and it is the one that most often produces an incoherent answer: a candidate
+narrating movement through a machine nobody has described.
+
+Four further decisions, each a lesson:
+
+* **Linear or cyclical.** A cycle has no natural beginning. You must choose one
+  and say that you have chosen it — "the process can be said to begin with
+  evaporation" — or the reader cannot locate themselves.
+* **Grouping into phases.** The 1D grouping rule applies: where stages are
+  many, group them, and put the boundary **where the character of the work
+  changes** — catching and transport, then processing and smoking, then
+  packaging and delivery. Three phases, three paragraphs, one claim each.
+* **Branching.** Where a process splits, the branch is a grouping boundary and
+  both arms must be followed. A branch silently dropped is the process
+  equivalent of ignoring one of three crime lines.
+* **The Overall statement** names start state and end state for a sequence
+  ("starts with a small cave being formed and proceeds to… the formation of a
+  stack"), or the function for a device ("allows vertical wave movement to push
+  air up and down through its chambers to turn turbines"), plus the number of
+  stages.
+
+*(My extension, not taken from the models: voice follows agency. Manufactured
+processes take the passive — "the fish are cleaned, frozen and stored" —
+because the agent is irrelevant and constant. Natural processes take the active
+— "the weaker areas of rock start eroding first" — because the agent is the
+explanation. It is consistent across every model in the file, but it was never
+stated as a rule, so it should be confirmed before it is taught as one.)*
+
+### 6.6 Maps: two-dimensional after all
+
+A map is not a one-dimensional visual. **It varies over space and over time**,
+so the structuring choice is a real one and the rule of 6.3 applies unchanged.
+
+Three candidate structuring dimensions:
+
+| Structure by | One paragraph per | Use when |
+|---|---|---|
+| **Time** | map | the default — change is spread across the whole area |
+| **Zone** | region (north, riverside, town centre), tracked across all the maps | the changes cluster geographically and the story is "this part changed, that part did not" |
+| **Change type** | additions · removals · conversions and expansions | almost everything changed, and the story is the *kind* of change rather than where it happened |
+
+The models take time, which is right for them, and the discipline inside each
+paragraph is what makes them work:
+
+**1. The first map is described in full, from a spatial anchor.** Never a
+random tour. The anchor is the thing that organises the space — a road, a
+river, a coastline, the centre — and everything else is placed relative to it:
+"a street passed the town from south to north. In the town centre, there were
+some houses, some shops, a small school and a post office, all on the sides of
+the main street. To the southeast… Finally, to the northeast and southwest…"
+That is 1D ordering applied to space, and it is the same move as never jumping
+from the biggest value to the smallest.
+
+**2. Later maps are described as change, and each change names what it
+replaced.** "A science block and a car park were added **in the area previously
+occupied by the houses**, while the farmland **was converted into** a sports
+field." "The car park had been expanded **at the expense of** the sports
+field." One clause carries both the before and the after — which is principle 4
+solved in the most economical way available, and the construction is teachable
+as a pattern: *X was replaced by Y · the area previously occupied by X · at the
+expense of X · X was converted into Y.*
+
+**3. The order of items stays parallel across maps.** Stokeford describes
+farmland, shops, school and big house in map 1, and takes them in the same
+order in map 2. That is principle 3 — balanced comparison — applied to space,
+and it is what lets a reader compare item by item instead of hunting.
+
+**4. What did *not* change is part of the answer.** "While the original bridge
+and school remained…" A map answer that lists only changes implies everything
+else vanished, which fails complete coverage (principle 2).
+
+The exercise that teaches all four at once is the blind-reader sketch from 6.2:
+one student reads the description aloud, the other draws the map. An answer
+without an anchor is undrawable, and the pair discovers that in about fifteen
+seconds.
+
+### 6.7 Task 1 General Training: the letter
 
 The letter forks from the Academic task completely and is taught in cycles 1 to
 3, where the everyday register already lives. Three registers — formal,
@@ -1199,7 +1300,7 @@ taught.
 | **11 technique** | **every unit carries its Active Reading lesson and exercise** |
 | **12 reading speed** | **every volume's timed passages are set so the loop's arithmetic closes at that volume's target wpm, and every printed time budget names the speed it assumes** |
 | **13 outlining** | **every unit carries an outlining exercise; every volume runs passage-to-outline at least once, and every one of the eight families appears** |
-| **14 structure coverage** | **all eleven Task 2 structures and all seven Academic Task 1 visual types are taught before they are set, and each is set at least twice across the series** |
+| **14 structure coverage** | **all eleven Task 2 structures are taught before they are set, and each is set at least twice. Task 1 covers all seven visual types, and within them both process shapes (sequence and device), linear and cyclical, a branching process, and all three map structures (by time, by zone, by change type)** |
 | **15 criterion mapping** | **every lesson in Writing and Speaking names the published criterion it moves, and across a volume all four criteria of each skill are served** |
 | **16 no templates** | **no model answer in the series contains a sentence that would fit a different prompt unchanged** |
 | **17 scaffolding** | **no task type is ever set cold: every exercise declares its staircase step, and step 5 for a type never appears before steps 1–4 have appeared somewhere earlier in the ladder** |
