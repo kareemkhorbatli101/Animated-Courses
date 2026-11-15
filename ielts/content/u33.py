@@ -917,7 +917,7 @@ UNIT = dict(
           'it. Certainty is expensive and slow to improve: it requires more '
           'investigation, better forensic capacity and improved rates of case '
           'completion, and none of these is visible to a voter. Severity is '
-          'cheap to legislate, immediate, and legible as a statement of '
+          'cheap to legislate, immediate, and salient as a statement of '
           'seriousness. The instrument that works is the one that is hard to '
           'deliver.',
           'There is one further consideration that cuts across all of this, '
