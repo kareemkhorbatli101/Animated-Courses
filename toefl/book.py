@@ -41,12 +41,59 @@ def lvl_label(lvl):
     return _LABEL.get(lvl, lvl)
 
 
-def test_label(lvl, vol):
+def test_label(lvl, vol, long=False):
+    """What this volume's assessment is called.
+
+    `long` adds the timed forms. Volume 6 carries four of them as well as its
+    practice test, and the cover, the title page and the contents line all
+    named the practice test alone.
+    """
     if lvl == 'A2':
         return 'Progress Test F'
     if lvl == 'A2B1':
         return 'Progress Test F2'
-    return 'Practice Test %s' % vol
+    base = 'Practice Test %s' % vol
+    nf = len(VOLS.get(vol, {}).get('forms', ()))
+    if long and nf:
+        return '%s and %s timed forms' % (base, _WORD.get(nf, nf))
+    return base
+
+
+_WORD = {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
+
+# The band a volume targets, defined once. The scoring figure, the level
+# keyline and the back cover all state it, and when each of them carried its
+# own copy the figure went on claiming 3.0-4.0 in all eight volumes.
+_BAND_NOTE = {
+    '3.0\u20134.0': ['This volume targets a steady 3.0\u20134.0 \u2014 the band a confident B1',
+                 'learner can reach, and the one most undergraduate entry asks for.'],
+    '4.5\u20135.5': ['This volume targets a steady 4.5\u20135.5 \u2014 the band a competitive',
+                 'application asks for, and the reason Volumes 3 and 4 exist.'],
+    '5.0\u20135.5': ['This volume targets a steady 5.0\u20135.5. It finishes B2, and it is for',
+                 'the candidate who is close and keeps missing by half a band.'],
+    '5.5\u20136.0': ['This volume targets 5.5\u20136.0, the top of the scale, where the overall',
+                 'band is the average of four and your weakest section sets it.'],
+}
+_NO_BAND = ['This volume does not target a band, and it does not prepare you to',
+            'sit the test. It builds the English the graded volumes stand on.']
+
+
+def target_band(lvl, vol):
+    """The band string, or None for the two Foundation volumes."""
+    if lvl in FOUND:
+        return None
+    if lvl == 'C1':
+        return '5.5\u20136.0'
+    if vol == 5:
+        return '5.0\u20135.5'
+    if lvl == 'B2':
+        return '4.5\u20135.5'
+    return '3.0\u20134.0'
+
+
+def band_note(lvl, vol):
+    b = target_band(lvl, vol)
+    return _BAND_NOTE[b] if b else _NO_BAND
 
 SKILL_TASK = {
     'r1': ('reading', 1, 'Complete the Words'),
@@ -233,8 +280,13 @@ def _strands(d, U, which):
 
 
 def _vocab_b2(d, U):
-    """B2: 18 word families, 10 collocations, 5 stance expressions, 3 nuance pairs."""
-    d.partbar('Vocabulary 1 · Academic word families', '18 families, not 18 words')
+    """B2 and C1: word families, collocations, stance expressions, nuance pairs.
+
+    The counts come off the unit. Volumes 3 and 4 teach 18 families a unit and
+    Volumes 5 and 6 teach 14, and this bar used to say 18 in all four.
+    """
+    d.partbar('Vocabulary 1 · Academic word families',
+              '%d families, not %d words' % (len(U['acad']), len(U['acad'])))
     d.body_p('At B2 the word on its own is not enough. Each entry below is a family: learn '
              'the noun, the verb and the adjective together, because the test will use '
              'whichever one the sentence needs.')
@@ -672,18 +724,61 @@ def render_unit(d, U):
 
 
 # ------------------------------------------------------------ front matter --
+# Pages in a unit, measured rather than claimed. Rebuild a volume, convert it
+# with `soffice --headless --convert-to pdf`, and count the pages between one
+# unit title and the next. The figure that used to carry this number said
+# sixteen in all eight volumes; no volume has ever been sixteen.
+_PAGES = {1: 28, 2: 28, 3: 48, 4: 48, 5: 48, 6: 48, 'F1': 48, 'F2': 48}
+
+
+def _tour(U):
+    """(wordline, cells, cycle label) for the unit map, read off the unit."""
+    a2 = U.get('level') in FOUND
+    ax = a2 and 'r4' in U
+    five = 'r4' in U
+    r3 = TASK_A2X['r3'] if ax else 'Read an Academic\nPassage'
+    l3 = TASK_A2X['l3'] if ax else 'Academic Talk'
+    cells = [['Complete the Words', 'Read in Daily Life', r3],
+             ['Conversation', 'Announcement', l3],
+             ['Repeat + Interview'] * 3,
+             ['Build a Sentence', 'Write an Email', 'Academic Discussion']]
+    if five:
+        cells[0].append('Read an Academic\nPassage (cycles 4-5)')
+        cells[1].append('Academic Talk\n(cycles 4-5)')
+        cells[2].append('Repeat + Interview\n(cycles 4-5)')
+        cells[3].append('Build a Sentence, then\nAcademic Discussion')
+    # every vocabulary list the unit actually carries, in teaching order
+    names = [('core', 'core'), ('acad', 'academic'), ('awl', 'first academic'),
+             ('collocs', 'collocations'), ('stance', 'stance'),
+             ('nuance', 'nuance pairs'), ('campus', 'campus'),
+             ('fieldwords', 'field')]
+    bits = ['%d %s' % (len(U[k]), lab) for k, lab in names if U.get(k)]
+    wordline = 'Vocabulary:  ' + '  ·  '.join(bits)
+    # the Foundation volumes carry four strands that are not about the test,
+    # and a map of the unit that leaves them out is a map of two thirds of it
+    foot = ('Grammar  ·  Sound and spelling  ·  Sentence builder  ·  Typing  ·  '
+            'Study skills  ·  Unit review' if a2 else
+            'Grammar focus  ·  Unit review and progress check  ·  Adaptive tip')
+    return (wordline, cells, ('cycles 1 - 5' if five else 'cycles 1 · 2 · 3'),
+            foot)
+
+
 def front_matter(d, vol, units):
     lvl = units[0].get('level', 'B1')
+    five = 'r4' in units[0]
+    cyc = 'five' if five else 'three'
     strap = ['Reading · Listening · Speaking · Writing',
-             'Every task type in the 2026 test, three times a unit']
+             'Every task type in the 2026 test, %s times a unit' % cyc]
     d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']), strap,
-                            lvl_label(lvl)), cover=True)
+                            lvl_label(lvl),
+                            footer='%s cycles a skill · every 2026 task type, %s times a unit'
+                                   % (cyc.title(), cyc)), cover=True)
     d.page_break_section(zero=True)
 
     d.unit_title('TOEFL iBT® Preparation Course 2026')
     d.strapline('Volume %s · Units %d–%d · CEFR %s'
                 % (vol, units[0]['n'], units[-1]['n'], lvl_label(lvl)))
-    d.cefr('Student’s Book with %s' % test_label(lvl, vol))
+    d.cefr('Student’s Book with %s' % test_label(lvl, vol, long=True))
     d.blank()
     d.body_p('This course prepares %s learners for the TOEFL iBT® test as it has been '
              'since 21 January 2026. Every task name, item count and timing in this book '
@@ -741,9 +836,10 @@ def front_matter(d, vol, units):
         d.body_p('One thing is assumed rather than taught. Volumes 1 and 2 carried a strand '
                  'of campus and everyday vocabulary — enrolment, tutorial, reading week — '
                  'because the Listening conversations turn on it. This volume spends those '
-                 'pages on collocation and stance instead. If you have come to this volume '
-                 'without the earlier ones, read the Volumes 1–2 glossary once before you '
-                 'start.')
+                 'pages on collocation and stance instead. So a few campus words turn up '
+                 'in the daily-life tasks without being taught here. They are the '
+                 'vocabulary of any university, and every one of them is printed in '
+                 'context in the audio scripts at the back of this book.')
         if lvl == 'C1':
             d.body_p('This volume is also the only one with a second kind of practice in it. '
                      'Ten units teach; four timed forms, as well as Practice Test 6, do '
@@ -761,12 +857,10 @@ def front_matter(d, vol, units):
               % (lvl_label(lvl),
                  'A1 in, a solid A2 out' if lvl == 'A2'
                  else 'a solid A2 in, B1 out' if lvl == 'A2B1'
-                 else 'targeting a steady %s band'
-                 % ('5.5–6.0' if lvl == 'C1' else '5.0–5.5' if vol == 5
-                    else '4.5–5.5' if lvl == 'B2' else '3.0–4.0')))
+                 else 'targeting a steady %s band' % target_band(lvl, vol)))
     d.keyline('Components', 'Student’s Book · Audio · Interview video')
     d.keyline('This volume', 'Units %d–%d, %s, answer key, audio scripts, glossary'
-              % (units[0]['n'], units[-1]['n'], test_label(lvl, vol)))
+              % (units[0]['n'], units[-1]['n'], test_label(lvl, vol, long=True)))
     d.blank()
     d.body_p('TOEFL and TOEFL iBT are registered trademarks of ETS. This publication is not '
              'endorsed by or affiliated with ETS. Format details are taken from ETS’s own '
@@ -784,20 +878,21 @@ def front_matter(d, vol, units):
     five = 'r4' in units[0]
     d.partbar('How to use this book',
               'Five cycles, four skills' if five else 'Three cycles, four skills')
+    pages = _PAGES.get(vol, 48)
     if lvl in FOUND:
-        d.body_p('Every unit is twenty pages and every unit is built the same way, so '
-                 'once you have worked through Unit %d you know where everything is.'
-                 % units[0]['n'])
+        d.body_p('Every unit runs to about %d pages and every unit is built the same '
+                 'way, so once you have worked through Unit %d you know where '
+                 'everything is.' % (pages, units[0]['n']))
     elif five:
-        d.body_p('Every unit is built the same way, and from this volume on every skill '
-                 'runs to five cycles rather than three, so a unit is appreciably longer '
-                 'than its Volume 2 counterpart. Once you have worked through Unit %d you '
-                 'know where everything is.' % units[0]['n'])
+        d.body_p('Every unit is built the same way, and every skill runs to five cycles '
+                 'rather than three, so a unit runs to about %d pages against the %d of '
+                 'a Volume 1 or 2 unit. Once you have worked through Unit %d you know '
+                 'where everything is.' % (pages, _PAGES[1], units[0]['n']))
     else:
-        d.body_p('Every unit is sixteen pages and every unit is built the same way, so '
-                 'once you have worked through Unit %d you know where everything is.'
-                 % units[0]['n'])
-    d.figure(*F.unit_tour())
+        d.body_p('Every unit runs to about %d pages and every unit is built the same '
+                 'way, so once you have worked through Unit %d you know where '
+                 'everything is.' % (pages, units[0]['n']))
+    d.figure(*F.unit_tour(*_tour(units[0])))
     d.h3('What a cycle is')
     d.body_p('A cycle is one sub-topic taken through one skill. Cycle 1 of Reading, Listening, '
              'Speaking and Writing all deal with sub-topic A; cycle 2 with sub-topic B; cycle 3 '
@@ -817,7 +912,7 @@ def front_matter(d, vol, units):
 
     d.partbar('The 2026 test at a glance', 'What you are preparing for')
     d.figure(*F.format_map())
-    d.figure(*F.band_scale())
+    d.figure(*F.band_scale(band_note(lvl, vol)))
     d.page_break_section()
 
     # Volume 6 is the only volume written for the top of the scale, and at the
@@ -886,19 +981,28 @@ def front_matter(d, vol, units):
     d.figure(*F.gap_demo())
     d.page_break_section()
 
-    d.partbar('Study planner', 'Twelve weeks, two units a week')
-    weeks = []
+    # One unit a week. The first version of this table paired two different
+    # units in each fortnight and gave each of them half a syllabus: five units
+    # were never spoken or written, and the other five were never read.
     us = list(units)
-    for w in range(5):
-        a, b = us[w * 2], us[w * 2 + 1]
-        weeks.append(('Week %d' % (w * 2 + 1), 'Unit %d · %s' % (a['n'], a['title']),
-                      'Vocabulary, Reading, Listening'))
-        weeks.append(('Week %d' % (w * 2 + 2), 'Unit %d · %s' % (b['n'], b['title']),
-                      'Speaking, Writing, grammar, review'))
-    weeks.append(('Week 11', 'Review units %d–%d' % (us[0]['n'], us[-1]['n']), 'Glossary and grammar reference'))
-    weeks.append(('Week 12',
-                  test_label(lvl, vol),
+    forms = VOLS.get(vol, {}).get('forms', ())
+    nweeks = len(us) + 2 + len(forms)
+    d.partbar('Study planner', '%d weeks, one unit a week' % nweeks)
+    weeks = []
+    for i, u in enumerate(us, 1):
+        weeks.append(('Week %d' % i, 'Unit %d · %s' % (u['n'], u['title']),
+                      'All %s cycles, then the unit review'
+                      % ('five' if 'r4' in u else 'three')))
+    w = len(us) + 1
+    weeks.append(('Week %d' % w, 'Review units %d–%d' % (us[0]['n'], us[-1]['n']),
+                  'Glossary and grammar reference'))
+    w += 1
+    weeks.append(('Week %d' % w, test_label(lvl, vol),
                   'Sit it in one sitting, then mark it'))
+    for i, fn in enumerate(forms, 1):
+        w += 1
+        weeks.append(('Week %d' % w, 'Timed Form %d' % i,
+                      'Four sections against the clock, then the band table'))
     d.table(['When', 'What', 'Focus'], weeks, INDIGO, [16, 44, 40])
     d.page_break_section()
 
@@ -1070,6 +1174,7 @@ def _testname(vol, units):
 
 
 def answer_key(d, vol, units, tkey, ukeys, fkeys=()):
+    lvl = units[0].get('level', 'B1')
     d.unit_title('Answer key')
     d.strapline('Volume %s · Units %d–%d and %s'
                 % (vol, units[0]['n'], units[-1]['n'], _testname(vol, units)))
@@ -1132,9 +1237,19 @@ def answer_key(d, vol, units, tkey, ukeys, fkeys=()):
     d.h3('Writing · Build a Sentence', PLUM)
     for num, ans, _ in tkey['writing build']:
         d.keyline('%d' % num, ans)
-    d.body_p('The email, the discussion post and the whole Speaking section are rated, not '
-             'marked. Use the band descriptors on the next page.')
+    if lvl in FOUND:
+        d.body_p('The email, the discussion post and the whole Speaking section are '
+                 'rated, not marked. The band descriptors on the next page say what '
+                 'each band looks like.')
+    else:
+        d.body_p('The email, the discussion post and the whole Speaking section are '
+                 'rated, not marked. The band descriptors on the next page say what '
+                 'each band looks like, and the page after them turns a marked '
+                 'Reading or Listening section into a band.')
     d.page_break_section()
+    band_descriptors(d, vol)
+    if lvl not in FOUND:
+        score_table(d, vol, lvl)
     for FT, fk in fkeys:
         d.keybar('Timed Form %s' % FT.get('form', FT['n']))
         for sec in [k for k in ('reading 1', 'reading 2', 'listening 1',
@@ -1150,14 +1265,150 @@ def answer_key(d, vol, units, tkey, ukeys, fkeys=()):
         d.h3('Writing · Build a Sentence', PLUM)
         for num, ans, _ in fk['writing build']:
             d.keyline('%d' % num, ans)
+        d.body_p('The email, the discussion post and the whole Speaking section are '
+                 'rated, not marked. Use the band descriptors and the conversion '
+                 'tables earlier in this key.')
         d.page_break_section()
+
+
+# The two rated sections cannot be marked from a key, and the answer key has
+# always ended by sending the student to "the band descriptors on the next
+# page". No such page existed in any volume until now. These descriptors are
+# the course's own: ETS publishes no publicly available rubric for the 2026
+# tasks, so the page says that on its face rather than implying otherwise.
+_SPEAK = [
+    ('6.0', 'Repeats the whole sentence, first time, at speed, with the '
+            'stress where a speaker would put it.',
+            'Answers the question actually asked, develops it without being '
+            'asked twice, and self-corrects on the run.'),
+    ('5.0', 'Repeats the whole sentence with at most one slip, and the slip '
+            'does not change the meaning.',
+            'Answers the question and adds a reason or an example. Hesitates '
+            'to plan, not to find words.'),
+    ('4.0', 'Repeats the short sentences accurately; loses words from the end '
+            'of the long ones.',
+            'Answers the question, but mostly in one clause. Reasons are '
+            'asserted rather than given.'),
+    ('3.0', 'Keeps the shape of the sentence and the content words; grammar '
+            'words drop out.',
+            'Answers a near neighbour of the question. Needs the question '
+            'repeated.'),
+    ('2.0', 'Repeats a fragment, usually the beginning.',
+            'Produces words on the topic rather than an answer.'),
+    ('1.0', 'No usable repetition.', 'No usable answer.'),
+]
+_WRITE = [
+    ('6.0', 'Covers all three bullets, in the register the situation asks '
+            'for, with nothing a reader has to work out.',
+            'Takes a position, answers the two posts by name, and adds a '
+            'reason neither of them used.'),
+    ('5.0', 'Covers all three bullets and reads as a real email. One or two '
+            'slips that do not slow a reader.',
+            'Takes a position and supports it; engages at least one post '
+            'rather than restating the question.'),
+    ('4.0', 'Covers the three bullets but one is thin. Register wobbles '
+            'between formal and casual.',
+            'Takes a position and gives one reason. Mentions the posts '
+            'without really answering them.'),
+    ('3.0', 'Covers two bullets. The reader can follow it, with effort.',
+            'States an opinion. No developed reason, or a reason that does '
+            'not support the opinion.'),
+    ('2.0', 'One bullet, or three one-line answers with no email around them.',
+            'A sentence on the topic.'),
+    ('1.0', 'Too little to judge.', 'Too little to judge.'),
+]
+# Marked items a section: Reading 40, Listening 34, and of the twelve Writing
+# items only the ten Build a Sentence ones can be marked from a key.
+_CONV = {
+    'Reading': (40, [('6.0', '38-40'), ('5.5', '35-37'), ('5.0', '32-34'),
+                     ('4.5', '28-31'), ('4.0', '24-27'), ('3.5', '20-23'),
+                     ('3.0', '16-19'), ('2.5', '12-15'), ('2.0', '8-11'),
+                     ('1.0', '0-7')]),
+    'Listening': (34, [('6.0', '32-34'), ('5.5', '30-31'), ('5.0', '27-29'),
+                       ('4.5', '24-26'), ('4.0', '20-23'), ('3.5', '17-19'),
+                       ('3.0', '13-16'), ('2.5', '10-12'), ('2.0', '6-9'),
+                       ('1.0', '0-5')]),
+}
+
+
+def band_descriptors(d, vol):
+    d.unit_title('Band descriptors')
+    d.strapline('Volume %s · Speaking and Writing, band by band' % vol)
+    d.cefr('These descriptors are this course\u2019s own. ETS publishes no publicly '
+           'available rubric for the 2026 Speaking and Writing tasks, so read them as '
+           'a description of what to fix next, not as a prediction of an official '
+           'score.')
+    d.page_break_section()
+
+    d.partbar('Speaking', 'Listen and Repeat · Take an Interview', 'speaking')
+    d.body_p('Record yourself. Nobody can rate their own speaking from memory, and the '
+             'gap between what you meant to say and what you said is exactly what the '
+             'rater hears.')
+    d.table(['Band', 'Listen and Repeat', 'Take an Interview'], _SPEAK,
+            TEAL, [8, 46, 46])
+    d.body_p('Half bands sit between the rows: 4.5 is a 4.0 that does the 5.0 thing '
+             'some of the time.', i=True)
+    d.page_break_section()
+
+    d.partbar('Writing', 'Write an Email · Write for an Academic Discussion', 'writing')
+    d.body_p('Mark your own against the model in the unit, not against what you '
+             'remember writing. Read the two side by side and ask what the model does '
+             'that yours does not.')
+    d.table(['Band', 'Write an Email', 'Academic Discussion'], _WRITE,
+            PLUM, [8, 46, 46])
+    d.h3('Three things that move a rated answer most', PLUM)
+    d.bullets([
+        'Answer the question that was asked. A good essay on a near neighbour of the '
+        'question scores below a plain one on the question itself.',
+        'Finish. An unfinished answer is marked on what is there, and the last bullet '
+        'is usually the one that was going to carry the argument.',
+        'Give the reason, do not assert it. "It is unfair" is an opinion; "it is '
+        'unfair because the cost falls on the people who did not choose it" is a '
+        'reason.'])
+    d.page_break_section()
+
+
+def score_table(d, vol, lvl):
+    """Raw marks to a section band, and the four sections to an overall band."""
+    d.unit_title('Turning a marked section into a band')
+    d.strapline('Volume %s · Reading and Listening' % vol)
+    d.cefr('ETS publishes no raw-score-to-band table for the 2026 form. The two tables '
+           'below are this course\u2019s own, fitted to this course\u2019s own tests. Use '
+           'them to find your weakest section and to watch it move, and do not quote '
+           'them as an official score.')
+    d.page_break_section()
+    for name, (total, rows) in _CONV.items():
+        d.partbar(name, '%d marked items' % total,
+                  'reading' if name == 'Reading' else 'listening')
+        d.table(['Band', 'Marks out of %d' % total], rows,
+                BLUE if name == 'Reading' else AMBER, [22, 78])
+    d.h3('Writing and Speaking', PLUM)
+    d.body_p('These are rated, not marked, so there is no table for them. Take the '
+             'band straight from the descriptors on the page before this one. The ten '
+             'Build a Sentence items are the one part of Writing a key can mark: if '
+             'you lose more than two of them, that is a grammar problem and the '
+             'descriptors will not tell you so.')
+    d.h3('The overall band', INDIGO)
+    d.body_p('Add your four section bands, divide by four, and round to the nearest '
+             'half band. That is the whole arithmetic, and it is why the section you '
+             'are worst at is the one worth your next month.')
+    d.bullets([
+        'A half band is inside the measurement error of any test this length. Treat '
+        '4.5 and 5.0 on one sitting as the same result, and a move of a whole band '
+        'across two sittings as real.',
+        'Mark the two Reading modules together and the two Listening modules '
+        'together. The modules are adaptive in the real test; these are not, so a '
+        'per-module figure means nothing.'])
+    d.page_break_section()
 
 
 def audio_scripts(d, vol, units, T, forms=()):
     d.unit_title('Audio scripts')
     d.strapline('Volume %s' % vol)
-    d.cefr('Read these only after you have listened. At B1 a script is a reading text too, '
-           'and teachers may use it as one.')
+    d.cefr('Read these only after you have listened. A script is a reading text as well '
+           'as a record of the audio, and teachers may use it as one \u2014 but only once '
+           'the listening has been done, because a script you have already read tests '
+           'nothing.')
     d.page_break_section()
     for u in units:
         d.keybar('Unit %d · %s' % (u['n'], u['title']))
@@ -1216,7 +1467,8 @@ def glossary(d, vol, units):
                      + list(u.get('awl', [])) + list(u.get('fieldwords', []))):
             allw.append((w, g, u['n'], 'C'))
     d.unit_title('Glossary')
-    d.strapline('Volume %s · %d entries with %s definitions' % (vol, len(allw), lvl))
+    d.strapline('Volume %s · %d entries, defined at CEFR %s'
+                % (vol, len(allw), lvl_label(lvl)))
     d.cefr('The number after each word is the unit where it is first taught.')
     d.page_break_section()
     allw.sort(key=lambda r: r[0].lower())
@@ -1391,7 +1643,7 @@ BLURB = {'A2': [
     'the B1 foundations up to CEFR B2 — the level a competitive score needs.',
 ]}
 BULLETS = {'A2': [
-    'Every 2026 task type, three times in every unit, at A2 load',
+    'Every 2026 task type, five times in every unit \u2014 three everyday, two academic',
     'A grammar syllabus that stops exactly where Volume 1 Unit 1 begins',
     '360 words from the general-service list, with the first academic words last',
     'Sound and spelling, sentence building, typing and study skills in every unit',

@@ -30,14 +30,14 @@ All four are done. The course is now **eight volumes and sixty units**.
 
 | Volume | Level | Units | Assessment | Body words | Figures | File |
 |---|---|---|---|---|---|---|
-| Foundation 1 | A1–A2 | 1–10 | Progress Test F (59 items) | 114,066 | 518 | 6.4 MB |
-| Foundation 2 | A2–B1 | 1–10 | Progress Test F2 (77 items) | 130,584 | 521 | 7.1 MB |
-| Volume 1 | B1 | 1–10 | Practice Test 1 (97) | 87,032 | 311 | 4.6 MB |
-| Volume 2 | B1 | 11–20 | Practice Test 2 (97) | 85,177 | 311 | 4.7 MB |
-| **Volume 3** | **B2** | 21–30 | Practice Test 3 (97) | **159,645** | 510 | 7.8 MB |
-| **Volume 4** | **B2** | 31–40 | Practice Test 4 (97) | **156,693** | 511 | 7.9 MB |
-| **Volume 5** | **B2** | 41–50 | Practice Test 5 (97) | **159,808** | 511 | 7.7 MB |
-| **Volume 6** | **C1** | 51–60 | Practice Test 6 **+ four timed forms** (97 each) | **185,427** | 559 | 9.3 MB |
+| Foundation 1 | A1–A2 | 1–10 | Progress Test F (59 items) | 114,682 | 518 | 6.4 MB |
+| Foundation 2 | A2–B1 | 1–10 | Progress Test F2 (77 items) | 131,200 | 521 | 7.1 MB |
+| Volume 1 | B1 | 1–10 | Practice Test 1 (97) | 87,948 | 311 | 4.6 MB |
+| Volume 2 | B1 | 11–20 | Practice Test 2 (97) | 86,093 | 311 | 4.7 MB |
+| **Volume 3** | **B2** | 21–30 | Practice Test 3 (97) | **160,586** | 510 | 7.8 MB |
+| **Volume 4** | **B2** | 31–40 | Practice Test 4 (97) | **157,634** | 511 | 7.9 MB |
+| **Volume 5** | **B2** | 41–50 | Practice Test 5 (97) | **160,749** | 511 | 7.7 MB |
+| **Volume 6** | **C1** | 51–60 | Practice Test 6 **+ four timed forms** (97 each) | **186,533** | 559 | 9.3 MB |
 
 Volume 6 is the largest book in the series, and almost all of the difference is
 the four extra timed forms: 388 further items with their own answer keys and
@@ -276,8 +276,10 @@ words a volume where Volumes 3 and 4 teach 120.
 README.txt, 55 MB.
 
 Each volume contains its ten units, its practice test, an answer key with an
-explanation for every item, audio scripts for every listening and speaking
-task, a glossary and a grammar reference. Volume 6 adds the four timed forms,
+explanation for every item, band descriptors for the rated tasks, audio
+scripts for every listening and speaking task, a glossary and a grammar
+reference. The six graded volumes also carry the table that turns a marked
+Reading or Listening section into a band. Volume 6 adds the four timed forms,
 their keys and their scripts.
 
 They are Word documents. Word, LibreOffice Writer, Google Docs and Pages all
@@ -286,7 +288,95 @@ you print.
 
 ---
 
-## 9. What I would look at next
+## 9. The front- and back-matter pass
+
+After the volumes were built, a sweep of everything that is printed *around*
+the units found eighteen defects with one cause: strings and figures written
+for the original two-volume B1 course, still printing unchanged in all eight
+books. Every one is fixed, and the pattern of the fix is the same each time —
+the fact is now derived from the volume or passed in by the caller, so it
+cannot go stale again.
+
+**The book contradicting itself**
+
+1. The scoring figure ended *"This course targets a steady 3.0–4.0"* in all
+   eight volumes. In Volume 6 it faced the new page about reaching 6.0. The
+   band is now defined once, in `target_band()`, and the figure, the level
+   keyline and the back cover all read from it.
+2. The unit map showed three cycles, *"sixteen pages"* and a campus wordlist
+   in volumes that run five cycles, no campus list and about 48 pages. Its
+   arguments now come off the unit itself.
+3. The cover said *"three times a unit"* twice — in the strapline and again in
+   the footer rule — on six covers where the answer is five.
+4. Foundation 1's back cover claimed three cycles a unit; it has run five
+   since its academic cycles were written.
+5. The answer key sent the student to *"the band descriptors on the next
+   page"*. No such page had ever existed, in any volume.
+6. The audio-scripts page addressed a B1 reader in the A1–A2 book and in the
+   C1 book alike.
+7. The Volumes 5 and 6 vocabulary bar announced *"18 families, not 18 words"*
+   over a list of 14.
+8. The upper volumes told a student who had skipped ahead to read a glossary
+   in a book they may not own.
+9. The cycle labels under the unit map were painted over by the footer bar,
+   so they had never been visible in any volume.
+
+**Volume 6 underselling itself**
+
+10. The cover subtitle, title page, contents keyline and document title all
+    said *"Practice Test 6"* and never mentioned the four timed forms.
+11. Volumes 5 and 6 compared their units to *"its Volume 2 counterpart"*.
+12. The study planner gave Volume 6's four timed forms no week at all.
+
+**A logic bug in the study planner**
+
+13. The twelve-week planner paired two different units in each fortnight and
+    gave each half a syllabus: five units were never spoken or written and the
+    other five were never read or listened to. It now runs one unit a week
+    with all of its cycles, and Volume 6's planner is sixteen weeks so that
+    each timed form gets one.
+
+**Pages that did not exist**
+
+14. **Band descriptors** for Speaking and Writing, band by band, for the four
+    rated tasks — the page the answer key had always promised.
+15. **Turning a marked section into a band** — conversion tables for Reading
+    (40 marked items) and Listening (34), the arithmetic of the overall band,
+    and the warning that half a band is inside the measurement error of a test
+    this length.
+
+    Both pages say on their face that they are this course's own. ETS
+    publishes no public rubric for the 2026 rated tasks and no
+    raw-score-to-band table for the form, so these are fitted to this course's
+    own tests and are there to find a weak section and watch it move, not to
+    predict an official score. That is the one judgement call in this pass,
+    and it is stated on the page rather than buried here.
+
+**Smaller**
+
+16. Timed-form keys now carry the same rated-not-marked note as the practice
+    tests.
+17. The glossary strapline read *"480 entries with C1 definitions"*.
+18. The package README repeated the sixteen-pages claim. Page counts are now
+    measured: convert a built volume with LibreOffice and count the pages
+    between one unit title and the next. The answer is 28 for Volumes 1 and 2
+    and 47–49 for the six five-cycle volumes — so the figure that said sixteen
+    was wrong for every volume in the series, not only the upper ones.
+
+The components keyline still promises Audio and an Interview video, which are
+not in the package. That is left as it stands, as media produced elsewhere.
+
+**Verification after the pass.** All nine gates pass on all eight volumes.
+Gate 8 checks the same 15,323 strings as before the pass and finds none
+missing, which is the evidence that nothing was dropped; gate 6 reports zero
+overruns after the unit map was rebuilt and its text moved onto the fitted
+text path, so the new figure is measured rather than assumed. The band
+descriptors, the conversion tables and both study planners were also read off
+the rendered PDF by eye.
+
+---
+
+## 10. What I would look at next
 
 * **The Volume 5 → Volume 6 seam.** Nineteen passages above the fifteen-type
   threshold is tolerable at C1 and is the widest number in the series. A pass

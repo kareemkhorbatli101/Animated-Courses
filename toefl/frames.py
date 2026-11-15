@@ -13,7 +13,7 @@ def _rule(y, x0=0, x1=W, col=RULE, sw=2):
 
 
 # ---------------------------------------------------------------- covers ----
-def cover_front(volume, units, strap, level='B1'):
+def cover_front(volume, units, strap, level='B1', footer=None):
     h = 1270
     g = [R(0, 0, W, h, INDIGO)]
     g.append(R(0, 0, W, 300, INDIGO_D))
@@ -40,7 +40,7 @@ def cover_front(volume, units, strap, level='B1'):
         g.append(T(W / 2, 910 + k * 36, line, 23, PERI_L))
     g.append(T(W / 2, 1110, 'CEFR %s' % level, 30, PAPER, bold=True))
     g.append(T(W / 2, 1150, 'Student’s Book', 24, PERI_L))
-    g.append(T(W / 2, 1222, 'Three cycles a skill · every 2026 task type, three times a unit', 18, '#9a9edd'))
+    g.append(T(W / 2, 1222, footer or 'Every 2026 task type, in every unit', 18, '#9a9edd'))
     return render(''.join(g), W, h, INDIGO)
 
 
@@ -525,7 +525,12 @@ def gap_demo():
     return render(''.join(g), W, h, PAPER)
 
 
-def band_scale():
+def band_scale(note):
+    """`note` is the two lines under the scale: which band THIS volume
+    targets. It is passed in rather than written here because the same
+    figure prints in all eight volumes, and for years it told every one of
+    them that the course targets 3.0-4.0.
+    """
     h = 300
     g = [R(0, 0, W, h, PAPER)]
     g.append(T(W / 2, 46, 'How the 2026 test is scored', 28, INDIGO, bold=True))
@@ -537,35 +542,52 @@ def band_scale():
         g.append(R(x, 120, bw - 8, 64, col, rx=8))
         g.append(T(x + (bw - 8) / 2, 162, lab, 26, PAPER, bold=True))
     g.append(R(70, 200, W - 140, 2, RULE))
-    g.append(T(70, 238, 'This course targets a steady 3.0–4.0 — the band a confident B1', 20, INK, anchor='start'))
-    g.append(T(70, 268, 'learner can reach, and the one most undergraduate entry asks for.', 20, INK, anchor='start'))
+    for i, line in enumerate(note):
+        g.append(T(70, 238 + i * 30, line, 20, INK, anchor='start'))
     return render(''.join(g), W, h, PAPER)
 
 
-def unit_tour():
-    h = 500
+def unit_tour(wordline, cells, cyclabel, foot=None,
+              header='Every unit is built the same way'):
+    """The map of a unit.
+
+    Everything that differs between volumes is an argument: the header, the
+    vocabulary line, the task names in each column and the label under them.
+    The hardcoded version of this figure showed three cycles and "sixteen
+    pages" in all eight volumes, including the six that run five cycles, and
+    its cycle labels were painted over by the footer bar.
+    """
+    n = max(len(c) for c in cells)
+    rows_end = 212 + (n - 1) * 74 + 66
+    cyc_y = rows_end + 26
+    bar_y = cyc_y + 18
+    h = int(bar_y + 56)
     g = [R(0, 0, W, h, PAPER)]
-    g.append(T(W / 2, 46, 'Every unit runs the same sixteen pages', 28, INDIGO, bold=True))
+    g.append(TFIT(W / 2, 46, header, 28, W - 100, INDIGO, bold=True,
+                  anchor='middle'))
     g.append(R(40, 86, W - 80, 54, SOFT, rx=10))
-    g.append(T(W / 2, 120, 'Unit opener  ·  24 academic words  ·  12 campus words', 21, INK))
-    cols = [('READING', BLUE, ['Complete the Words', 'Read in Daily Life', 'Read an Academic\nPassage']),
-            ('LISTENING', AMBER, ['Conversation', 'Announcement', 'Academic Talk']),
-            ('SPEAKING', TEAL, ['Repeat + Interview', 'Repeat + Interview', 'Repeat + Interview']),
-            ('WRITING', PLUM, ['Build a Sentence', 'Write an Email', 'Academic Discussion'])]
+    g.append(TFIT(W / 2, 120, wordline, 21, W - 120, INK, anchor='middle'))
+    cols = [('READING', BLUE), ('LISTENING', AMBER),
+            ('SPEAKING', TEAL), ('WRITING', PLUM)]
     cw = (W - 100) / 4.0
-    for i, (name, col, cells) in enumerate(cols):
+    for i, (name, col) in enumerate(cols):
         x = 40 + i * (cw + 6)
         g.append(R(x, 160, cw - 6, 40, col, rx=8))
         g.append(T(x + (cw - 6) / 2, 187, name, 18, PAPER, bold=True))
-        for k, cell in enumerate(cells):
+        for k, cell in enumerate(cells[i]):
             y = 212 + k * 74
             g.append(R(x, y, cw - 6, 66, PAPER, col, 1.5, 8))
             parts = cell.split('\n')
             for j, pt in enumerate(parts):
-                g.append(T(x + (cw - 6) / 2, y + (34 if len(parts) == 1 else 28 + j * 22), pt, 16, INK))
-        g.append(T(x + (cw - 6) / 2, 456, 'cycles 1 · 2 · 3', 15, GREY))
-    g.append(R(40, h - 54, W - 80, 44, SOFT, rx=10))
-    g.append(T(W / 2, h - 24, 'Grammar focus  ·  Unit review and progress check  ·  Adaptive tip', 20, INK))
+                g.append(TFIT(x + (cw - 6) / 2,
+                              y + (34 if len(parts) == 1 else 28 + j * 22),
+                              pt, 16, cw - 26, INK, anchor='middle'))
+        g.append(TFIT(x + (cw - 6) / 2, cyc_y, cyclabel, 15, cw - 26, GREY,
+                      anchor='middle'))
+    g.append(R(40, bar_y, W - 80, 44, SOFT, rx=10))
+    g.append(TFIT(W / 2, bar_y + 30,
+                  foot or 'Grammar focus  ·  Unit review  ·  Adaptive tip',
+                  20, W - 120, INK, anchor='middle'))
     return render(''.join(g), W, h, PAPER)
 
 
