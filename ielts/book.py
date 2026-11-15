@@ -1,0 +1,525 @@
+# -*- coding: utf-8 -*-
+"""Build an IELTS volume.
+
+    python3 book.py 4 [outfile]
+
+One unit is one general theme; one cycle is one sub-topic through all four
+skills, carrying its own grammar, vocabulary, expressions and transitions.
+The renderer takes the cycle apart in the order the plan fixes - read,
+listen, speak, write - because nobody produces a pattern they have not first
+processed.
+"""
+import importlib
+import os
+import sys
+
+from _base import Doc, D_INDIGO, D_BLUE, D_AMBER, D_TEAL, D_PLUM, D_GREY, D_PERI
+import charts
+import diagrams
+import frames as F
+
+VOLS = {4: dict(units=range(31, 41), level='B2', band='6.5',
+                cefr='B2', title='Volume 4')}
+SKILL_COL = {'reading': D_BLUE, 'listening': D_AMBER,
+             'speaking': D_TEAL, 'writing': D_PLUM}
+STEP = {1: 'See it', 2: 'See it fail', 3: 'With the frame',
+        4: 'With a prompt', 5: 'Cold'}
+
+
+def _figure(d, spec):
+    """Render whatever visual a block asked for, from its data."""
+    k = spec['kind']
+    if k == 'line':
+        return d.figure(*charts.line_graph(spec['title'], spec['x'],
+                                           spec['series'], spec.get('ylab', ''),
+                                           spec.get('sub', '')))
+    if k == 'bar':
+        return d.figure(*charts.bar_chart(spec['title'], spec['cats'],
+                                          spec['series'], spec.get('ylab', ''),
+                                          spec.get('sub', '')))
+    if k == 'pie':
+        return d.figure(*charts.pie_chart(spec['title'], spec['slices'],
+                                          spec.get('sub', '')))
+    if k == 'table':
+        return d.figure(*charts.data_table(spec['title'], spec['headers'],
+                                           spec['rows'], spec.get('sub', ''),
+                                           spec.get('widths')))
+    if k == 'process':
+        return d.figure(*diagrams.process_flow(spec['title'], spec['stages'],
+                                               spec.get('phases'),
+                                               spec.get('sub', '')))
+    if k == 'cycle':
+        return d.figure(*diagrams.cycle_flow(spec['title'], spec['stages'],
+                                             spec.get('sub', '')))
+    if k == 'device':
+        return d.figure(*diagrams.device_schematic(spec['title'], spec['parts'],
+                                                   spec['flows'],
+                                                   spec.get('sub', '')))
+    if k == 'map':
+        return d.figure(*diagrams.site_map(spec['title'], spec['panels'],
+                                           spec.get('sub', ''), spec.get('key')))
+    raise ValueError('unknown figure kind %r' % k)
+
+
+def _items(d, items, start, key, skill):
+    n = start
+    for it in items:
+        stem, opts, ans, why = it
+        if opts:
+            d.mcq(n, stem, opts)
+            key.append((n, chr(65 + ans), why))
+        else:
+            d.item('%d.  ' % n, stem)
+            d.lines(1, 520)
+            key.append((n, ans, why))
+        n += 1
+    return n
+
+
+def render_cycle(d, U, c, ci, key):
+    d.figure(*F.cycle_bar(ci, c['sub'], c['step'], STEP[c['step']]))
+    nq = 1
+
+    # ---- reading ----------------------------------------------------------
+    for r in c['read']:
+        d.figure(*F.skill_bar('reading', ci, r['kind'], r['task']))
+        if r.get('skill'):
+            d.skillbox(r['skill'][0], r['skill'][1], 'reading')
+        if r.get('figure'):
+            _figure(d, r['figure'])
+        d.passage(r['heading'], r['paras'],
+                  sum(len(p.split()) for p in r['paras']))
+        d.ex('Exercise  %s' % r['qtype'], 'reading')
+        nq = _items(d, r['items'], nq, key.setdefault('reading', []), 'reading')
+        d.page_break_section()
+
+    # ---- listening --------------------------------------------------------
+    for l in c['listen']:
+        d.figure(*F.skill_bar('listening', ci, l['part'], l['task']))
+        if l.get('figure'):
+            _figure(d, l['figure'])
+        if l.get('skill'):
+            d.skillbox(l['skill'][0], l['skill'][1], 'listening')
+        d.ex('Exercise  %s   The recording is played once.' % l['qtype'],
+             'listening')
+        nq = _items(d, l['items'], nq, key.setdefault('listening', []),
+                    'listening')
+        d.body_p('Audio script: at the back of the book. Do not read it '
+                 'before you listen.', i=True)
+        d.page_break_section()
+
+    # ---- speaking ---------------------------------------------------------
+    sp = c['speak']
+    d.figure(*F.skill_bar('speaking', ci, sp['part'], sp['focus']))
+    d.body_p(sp['intro'])
+    if sp.get('cue'):
+        d.figure(*F.cue_card(sp['cue'][0], sp['cue'][1]))
+    d.ex('Exercise  Answer each question in the shape you have been taught.',
+         'speaking')
+    d.items(sp['qs'])
+    d.figure(*F.answer_shape(sp['shape']))
+    d.page_break_section()
+
+    # ---- writing ----------------------------------------------------------
+    for w in c['write']:
+        lab = {'A': 'Academic', 'GT': 'General Training'}.get(w.get('fork'), '')
+        d.figure(*F.skill_bar('writing', ci, w['task'] + (
+            '  ·  ' + lab if lab else ''), w['heading']))
+        if w.get('figure'):
+            _figure(d, w['figure'])
+        d.body_p(w['prompt'])
+        if w.get('plan'):
+            d.figure(*F.outline_frame(w['plan'][0], w['plan'][1]))
+        if w.get('model'):
+            d.h3('Model answer', D_PLUM)
+            for p in w['model']:
+                d.body_p(p)
+            d.h3('Why it works', D_PLUM)
+            d.bullets(w['notes'])
+        if w.get('criterion'):
+            d.figure(*F.criterion_tag(w['criterion']))
+        d.ex('Now write your own.%s' % w.get('instruct', ''), 'writing')
+        d.lines(w.get('lines', 10))
+        d.page_break_section()
+
+    # ---- the language this cycle teaches ----------------------------------
+    g = c['gram']
+    d.partbar('Grammar · cycle %d' % ci, g['point'], 'writing')
+    d.body_p(g['explain'])
+    d.figure(*F.pattern_box(g['point'], g['examples']))
+    d.ex('Exercise  %s' % g['task'], 'writing')
+    d.items([q for q, _ in g['items']])
+    key.setdefault('grammar', []).extend(
+        [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(g['items'], 1)])
+    d.h3('Vocabulary from this cycle', D_INDIGO)
+    d.wordlist(c['vocab'], 2, D_INDIGO)
+    d.h3('Expressions', D_TEAL)
+    d.wordlist(c['expr'], 1, D_TEAL)
+    d.wordbank('Transitions used in this cycle:', c['trans'], D_PERI)
+    d.page_break_section()
+
+
+def render_unit(d, U):
+    key = {}
+    d.unit_title('Unit %d · %s' % (U['n'], U['theme']))
+    d.strapline('IELTS Preparation Course · Volume %s · band %s'
+                % (U['vol'], U['band']))
+    d.cefr('CEFR %s  ·  Academic and General Training  ·  five cycles'
+           % U['level'])
+    d.figure(*F.unit_opener(U['n'], U['theme'], [c['sub'] for c in U['cycles']]))
+    d.body_p(U['opener'])
+    d.page_break_section()
+    for ci, c in enumerate(U['cycles'], 1):
+        render_cycle(d, U, c, ci, key)
+    t = U['technique']
+    d.partbar('Active Reading and Listening', t['title'], 'reading')
+    d.body_p(t['body'])
+    d.figure(*F.loop_panel(t['panel']))
+    d.ex('Exercise  %s' % t['task'], 'reading')
+    d.items(t['qs'])
+    d.page_break_section()
+    o = U['outlining']
+    d.partbar('Outlining', o['title'], 'writing')
+    d.body_p(o['body'])
+    d.figure(*F.outline_frame(o['frame'][0], o['frame'][1]))
+    d.ex('Exercise  %s' % o['task'], 'writing')
+    d.items(o['qs'])
+    key.setdefault('outlining', []).extend(
+        [(i, a, '') for i, a in enumerate(o['answers'], 1)])
+    d.page_break_section()
+    d.partbar('Unit review', 'What this unit taught', 'reading')
+    d.h3('Can you do these now?', D_INDIGO)
+    d.checkrow(U['candos'])
+    d.tip(U['tip'])
+    d.page_break_section()
+    return key
+
+
+# ------------------------------------------------------------ front matter --
+def front_matter(d, vol, cfg, units):
+    band, lvl = cfg['band'], cfg['level']
+    strap = ['Reading · Listening · Speaking · Writing',
+             'Every task type in the test, five times a unit']
+    d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']),
+                            lvl, band, strap), cover=True)
+    d.page_break_section(zero=True)
+    d.unit_title('IELTS Preparation Course')
+    d.strapline('Volume %s · Units %d–%d · CEFR %s · target band %s'
+                % (vol, units[0]['n'], units[-1]['n'], lvl, band))
+    d.cefr("Student's Book with Practice Test %s · Academic and General "
+           'Training in one book' % vol)
+    d.blank()
+    d.body_p('This volume prepares candidates for band %s, which is the score '
+             'most postgraduate courses ask for. It carries both modules, '
+             'because Academic and General Training are one test with two '
+             'substitutions: Listening and Speaking are identical, the eleven '
+             'reading question types are identical, and only Writing Task 1 '
+             'genuinely forks.' % band)
+    d.body_p('Every unit is one general theme and every cycle is one sub-topic '
+             'inside it, taken through all four skills in the order read, '
+             'listen, speak, write. Nobody produces a pattern they have not '
+             'first processed, which is why cycles 4 and 5 are a writing '
+             'lesson wearing a reading lesson’s clothes: you read a claim, '
+             'then the objection to it, and are then asked to make the same '
+             'move yourself.')
+    d.body_p('Grammar, vocabulary, expressions and transitions are taught '
+             'inside the cycle that uses them, from that cycle’s own texts. '
+             'The lists at the back are revision of what you have met, not a '
+             'syllabus to swallow first.')
+    d.blank()
+    d.keyline('Series', 'IELTS Preparation Course · eight volumes')
+    d.keyline('Level', 'CEFR %s · targeting a steady band %s' % (lvl, band))
+    d.keyline('Modules', 'Academic and General Training, in one book')
+    d.keyline('This volume', 'Units %d–%d, answer key, audio scripts, band '
+              'descriptors, glossary' % (units[0]['n'], units[-1]['n']))
+    d.page_break_section()
+
+    d.partbar('How to use this book', 'Five cycles, four skills')
+    d.body_p('Every unit is built the same way, and every skill runs to five '
+             'cycles. Work through a unit in order: the cycles are not '
+             'interchangeable, and cycle 5 answers cycle 4.')
+    d.figure(*F.loop_panel([
+        ('Orient', 'Title, any headings, the first paragraph. Thirty seconds. '
+         'You are buying a map, not meaning.'),
+        ('Load the questions', 'Read every question for that passage first, '
+         'and predict the form of each answer, not its content.'),
+        ('The paragraph loop', 'Read one paragraph properly, then close the '
+         'questions it answered. Then the next paragraph.')]))
+    d.body_p('That method is taught in Listening first, because there you have '
+             'no choice: the recording plays once and you cannot scan audio. '
+             'Reading is the same problem with the text standing still.')
+    d.h3('What the method costs, in minutes', D_INDIGO)
+    d.body_p('Academic Reading is three passages, about 2,150 to 2,750 words, '
+             '40 questions, 60 minutes, with no transfer time. Orienting three '
+             'passages costs 90 seconds and reading their questions costs six '
+             'minutes, so the fixed cost of the method is 7.5 minutes.')
+    d.table(['Your reading speed', 'Reading the texts', 'Left for 40 questions',
+             'Net per question'],
+            [['80 words a minute', '27–34 min', '18–26 min', '27–38 s'],
+             ['100 words a minute', '21–28 min', '25–31 min', '38–46 s'],
+             ['140 words a minute', '15–20 min', '32–38 min', '48–57 s'],
+             ['180 words a minute', '12–15 min', '37–41 min', '56–61 s']],
+            D_INDIGO, [26, 24, 26, 24])
+    d.body_p('Read the last column again: 40 to 60 seconds a question, and that '
+             'is net — the reading has already been done. The familiar figure '
+             'of ninety seconds a question is gross, and a candidate pacing '
+             'against it spends it on question 1.', i=True)
+    d.page_break_section()
+
+    d.partbar('The test at a glance', 'What you are preparing for')
+    d.table(['Section', 'Shape', 'Timing'],
+            [['Listening', '4 parts, 40 questions, both modules identical',
+              'about 30 minutes'],
+             ['Reading', '40 questions. Academic: 3 long passages. '
+              'General Training: 3 sections, the last one long', '60 minutes'],
+             ['Writing', 'Task 1 (150 words) and Task 2 (250 words). Task 1 '
+              'forks: data for Academic, a letter for General Training',
+              '60 minutes'],
+             ['Speaking', '3 parts: interview, long turn, discussion',
+              '11–14 minutes']], D_INDIGO, [16, 60, 24])
+    d.figure(*F.band_scale('band %s' % band,
+                           'That is the band most postgraduate entry asks for.'))
+    d.h3('The arithmetic that decides your score', D_INDIGO)
+    d.body_p('Your overall band is the mean of the four section bands, rounded '
+             'to the nearest half. A .25 rounds up to the next half band and a '
+             '.75 rounds up to the next whole band. So the section you are '
+             'worst at is the one deciding your result, and it is the one '
+             'worth your next month.')
+    d.table(['Listening', 'Reading', 'Writing', 'Speaking', 'Mean', 'Overall'],
+            [['7.5', '7.5', '6.0', '6.5', '6.875', '7.0'],
+             ['7.0', '7.0', '6.0', '6.0', '6.5', '6.5'],
+             ['8.0', '8.0', '5.5', '6.0', '6.875', '7.0'],
+             ['6.5', '6.5', '6.5', '6.5', '6.5', '6.5']],
+            D_INDIGO, [16, 16, 16, 16, 18, 18])
+    d.body_p('Rows one and three are the same candidate twice: raising reading '
+             'from 7.5 to 8.0 bought nothing at all, because writing was the '
+             'section holding the average down.', i=True)
+    d.page_break_section()
+
+    d.partbar('Study planner', '%d weeks, one unit a week' % (len(units) + 2))
+    weeks = [('Week %d' % i, 'Unit %d · %s' % (u['n'], u['theme']),
+              'All five cycles, then the unit review')
+             for i, u in enumerate(units, 1)]
+    weeks.append(('Week %d' % (len(units) + 1),
+                  'Review units %d–%d' % (units[0]['n'], units[-1]['n']),
+                  'Glossary, grammar reference, expression bank'))
+    weeks.append(('Week %d' % (len(units) + 2), 'Practice Test %s' % vol,
+                  'Sit it in one sitting, then use the band tables'))
+    d.table(['When', 'What', 'Focus'], weeks, D_INDIGO, [16, 44, 40])
+    d.page_break_section()
+
+
+# ------------------------------------------------------------- back matter --
+_SPEAK = [
+    ('9', 'Answers the question asked, develops it without being asked twice, '
+     'and self-corrects without losing the thread.'),
+    ('7', 'Answers and supports at length. Hesitates to plan what to say, not '
+     'to find the words for it.'),
+    ('6', 'Answers and gives a reason. Development is uneven and some answers '
+     'stop at one clause.'),
+    ('5', 'Answers a near neighbour of the question. Reasons are asserted '
+     'rather than given.'),
+    ('4', 'Produces words on the topic rather than an answer to the question.'),
+]
+_WRITE = [
+    ('9', 'Every part of the task covered and developed, in the register the '
+     'situation asks for, with nothing a reader has to work out.'),
+    ('7', 'All parts covered and supported. A clear position held throughout; '
+     'occasional slips that do not slow a reader.'),
+    ('6', 'All parts covered but one is thin. The position is clear and the '
+     'support is general rather than specific.'),
+    ('5', 'Parts of the task are missing or the response is partly off the '
+     'question asked.'),
+    ('4', 'Too little that answers the question to judge the rest.'),
+]
+_CONV = {'Reading (Academic)': (40, [('9', '39-40'), ('8.5', '37-38'),
+         ('8', '35-36'), ('7.5', '33-34'), ('7', '30-32'), ('6.5', '27-29'),
+         ('6', '23-26'), ('5.5', '19-22'), ('5', '15-18'), ('4', '10-14')]),
+         'Listening': (40, [('9', '39-40'), ('8.5', '37-38'), ('8', '35-36'),
+         ('7.5', '32-34'), ('7', '30-31'), ('6.5', '26-29'), ('6', '23-25'),
+         ('5.5', '18-22'), ('5', '16-17'), ('4', '10-15')])}
+
+
+def back_matter(d, vol, units, ukeys):
+    d.unit_title('Answer key')
+    d.strapline('Volume %s · Units %d–%d'
+                % (vol, units[0]['n'], units[-1]['n']))
+    d.cefr('Every wrong option is explained, because a letter on its own '
+           'teaches nothing.')
+    d.page_break_section()
+    for u in units:
+        k = ukeys[u['n']]
+        d.keybar('Unit %d · %s' % (u['n'], u['theme']))
+        for sec, col in (('reading', D_BLUE), ('listening', D_AMBER)):
+            if not k.get(sec):
+                continue
+            d.h3(sec.title(), col)
+            d.keygrid([a for _, a, _ in k[sec]], 5)
+            for num, ans, why in k[sec]:
+                if why:
+                    d.why(num, ans, why)
+        if k.get('grammar'):
+            d.h3('Grammar', D_PLUM)
+            for num, ans, _ in k['grammar']:
+                d.keyline(str(num), ans)
+        if k.get('outlining'):
+            d.h3('Outlining', D_PLUM)
+            for num, ans, _ in k['outlining']:
+                d.keyline(str(num), ans)
+        d.body_p('Speaking, the letter and the essay are rated, not marked. '
+                 'Use the band descriptors on the next page, and the tables '
+                 'after them for Reading and Listening.')
+        d.page_break_section()
+
+    d.unit_title('Band descriptors')
+    d.strapline('Speaking and Writing · what each band looks like')
+    d.cefr('These are written to follow the published assessment criteria — '
+           'Task Response, Coherence and Cohesion, Lexical Resource and '
+           'Grammatical Range for Writing; Fluency and Coherence, Lexical '
+           'Resource, Grammatical Range and Pronunciation for Speaking. They '
+           'are a guide to what to fix next, not an official score.')
+    d.page_break_section()
+    d.partbar('Speaking', 'Fluency and Coherence · Task Response', 'speaking')
+    d.body_p('Record yourself. Nobody can rate their own speaking from memory, '
+             'and the gap between what you meant to say and what you said is '
+             'exactly what the examiner hears.')
+    d.table(['Band', 'What it sounds like'], _SPEAK, D_TEAL, [12, 88])
+    d.partbar('Writing', 'Task Response · Coherence and Cohesion', 'writing')
+    d.table(['Band', 'What it reads like'], _WRITE, D_PLUM, [12, 88])
+    d.body_p('Half bands sit between the rows: a 6.5 is a 6 that does the 7 '
+             'thing some of the time.', i=True)
+    d.page_break_section()
+
+    d.unit_title('Turning a marked section into a band')
+    d.strapline('Reading and Listening · approximate conversions')
+    d.cefr('Raw-score boundaries move a little from paper to paper, so these '
+           'are approximate and are this course’s own. Use them to find your '
+           'weakest section and to watch it move, not to predict a result.')
+    d.page_break_section()
+    for name, (tot, rows) in _CONV.items():
+        d.partbar(name, '%d marked questions' % tot,
+                  'reading' if 'Reading' in name else 'listening')
+        d.table(['Band', 'Marks out of %d' % tot], rows,
+                D_BLUE if 'Reading' in name else D_AMBER, [24, 76])
+    d.body_p('General Training Reading needs more marks for the same band than '
+             'Academic Reading does; the table above is the Academic one.',
+             i=True)
+    d.h3('Writing and Speaking', D_PLUM)
+    d.body_p('These are rated, not marked, so there is no table. Take the band '
+             'from the descriptors on the page before this one.')
+    d.h3('The overall band', D_INDIGO)
+    d.body_p('Add your four section bands, divide by four, and round to the '
+             'nearest half. A half band is inside the measurement error of any '
+             'test this length, so treat 6.5 and 7.0 on one sitting as the '
+             'same result and a whole band across two sittings as real.')
+    d.page_break_section()
+
+
+def audio_scripts(d, vol, units):
+    d.unit_title('Audio scripts')
+    d.strapline('Volume %s' % vol)
+    d.cefr('Read these only after you have listened. A script is a reading '
+           'text as well as a record of the audio, and a script you have '
+           'already read tests nothing.')
+    d.page_break_section()
+    for u in units:
+        d.keybar('Unit %d · %s' % (u['n'], u['theme']))
+        for ci, c in enumerate(u['cycles'], 1):
+            for l in c['listen']:
+                d.h3('Cycle %d · %s · %s' % (ci, l['part'], l['heading']),
+                     D_AMBER)
+                d.script(l['script'])
+        d.page_break_section()
+
+
+def glossary(d, vol, units):
+    allw = []
+    for u in units:
+        for c in u['cycles']:
+            for w, g in c['vocab']:
+                allw.append((w, g, u['n']))
+    d.unit_title('Glossary')
+    d.strapline('Volume %s · %d entries, defined at CEFR B2'
+                % (vol, len(allw)))
+    d.cefr('The number after each entry is the unit that taught it. Every one '
+           'was taught inside the cycle whose texts use it.')
+    d.page_break_section()
+    allw.sort(key=lambda r: r[0].lower())
+    letter, buf = '', []
+    for w, g, n in allw:
+        ini = w[0].upper()
+        if ini != letter:
+            if buf:
+                d.wordlist(buf, 1, D_INDIGO)
+                buf = []
+            d.h3(ini, D_INDIGO)
+            letter = ini
+        buf.append((w, '%s  (unit %d)' % (g, n)))
+    if buf:
+        d.wordlist(buf, 1, D_INDIGO)
+    d.page_break_section()
+
+
+def expression_bank(d, vol, units):
+    d.unit_title('Expression bank')
+    d.strapline('Volume %s · the functional language of these ten units' % vol)
+    d.cefr('These are expressions, not templates. If a sentence would fit a '
+           'different question unchanged, it is a template and it is costing '
+           'you marks on Task Response before the language is even read.')
+    d.page_break_section()
+    for u in units:
+        d.keybar('Unit %d · %s' % (u['n'], u['theme']))
+        rows = []
+        for c in u['cycles']:
+            rows.extend(c['expr'])
+        d.wordlist(rows, 1, D_TEAL)
+        d.page_break_section()
+
+
+BLURB = [
+    'The volume for band 6.5 — the score most postgraduate courses ask for,',
+    'and the one most candidates miss by half a band in a single section.',
+    'Academic and General Training in one book, because they are one test',
+    'with two substitutions.',
+]
+BULLETS = [
+    'Every task type, five times in every unit, both modules throughout',
+    'Academic passages of 620 to 780 words, longer than the real paper',
+    'A reading method that states its own cost in minutes, and proves it',
+    'Grammar and vocabulary taught inside the cycle whose texts use them',
+    'Band descriptors and score tables, with what they can and cannot tell you',
+]
+
+
+def build(vol, out=None):
+    cfg = VOLS[vol]
+    units = []
+    for n in cfg['units']:
+        try:
+            m = importlib.import_module('content.u%02d' % n)
+        except ModuleNotFoundError:
+            continue          # a volume under construction still builds
+        importlib.reload(m)
+        units.append(m.UNIT)
+    d = Doc('IELTS Preparation Course · Volume %s' % vol,
+            'CEFR %s · band %s' % (cfg['level'], cfg['band']))
+    front_matter(d, vol, cfg, units)
+    ukeys = {}
+    for u in units:
+        ukeys[u['n']] = render_unit(d, u)
+    back_matter(d, vol, units, ukeys)
+    audio_scripts(d, vol, units)
+    glossary(d, vol, units)
+    expression_bank(d, vol, units)
+    d.figure(*F.cover_back(vol, BLURB, BULLETS,
+                           ['%d  %s' % (u['n'], u['theme']) for u in units]),
+             cover=True)
+    out = out or ('/home/user/Animated-Courses/IELTS_2026_B2_Volume_%d.docx' % vol)
+    d.save(out)
+    return out, len(d.images)
+
+
+if __name__ == '__main__':
+    v = int(sys.argv[1]) if len(sys.argv) > 1 else 4
+    p, n = build(v, sys.argv[2] if len(sys.argv) > 2 else None)
+    print('wrote', p, os.path.getsize(p), 'bytes,', n, 'images')
