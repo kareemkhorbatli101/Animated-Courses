@@ -1,0 +1,209 @@
+{
+ "schema": "timeline/1",
+ "duration": 143.745,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.408,
+    "dur": 7.704,
+    "en": "This is Part 9, A Wedding Order in Three Weeks. You will decide what a busy workshop should do with a new order.",
+    "ar": "هذا الجزء التاسع، طلبيّة عرس في ثلاثة أسابيع. ستقرّر ما تفعله ورشة مشغولة بطلبيّة جديدة."
+   },
+   {
+    "start": 16.462,
+    "dur": 3.552,
+    "en": "Why is a wedding order a big and important job?",
+    "ar": "لماذا طلبيّة العرس عمل كبير ومهمّ؟"
+   },
+   {
+    "start": 20.364,
+    "dur": 3.792,
+    "en": "A family in Damascus ordered a full living-room set.",
+    "ar": "طلبت عائلة في دمشق طقم غرفة جلوس كاملاً."
+   },
+   {
+    "start": 24.506,
+    "dur": 2.112,
+    "en": "For their son's wedding.",
+    "ar": "لعرس ابنهم."
+   },
+   {
+    "start": 26.968,
+    "dur": 2.736,
+    "en": "They needed it in only three weeks.",
+    "ar": "احتاجوه في ثلاثة أسابيع فقط."
+   },
+   {
+    "start": 30.054,
+    "dur": 3.216,
+    "en": "At Cham Furniture, this was a big job.",
+    "ar": "في أثاث الشام، كان هذا عملاً كبيراً."
+   },
+   {
+    "start": 33.62,
+    "dur": 2.952,
+    "en": "So Layla and I made a clear plan.",
+    "ar": "فوضعت أنا وليلى خطّة واضحة."
+   },
+   {
+    "start": 36.922,
+    "dur": 3.672,
+    "en": "In the first week, the frames were cut and assembled.",
+    "ar": "في الأسبوع الأوّل، قُطعت الهياكل وجُمِّعت."
+   },
+   {
+    "start": 40.944,
+    "dur": 4.224,
+    "en": "In the second week, the sofas and armchairs were upholstered.",
+    "ar": "في الأسبوع الثاني، نُجِّدت الكنبات والكراسي الوثيرة."
+   },
+   {
+    "start": 45.518,
+    "dur": 2.688,
+    "en": "With beautiful cream fabric.",
+    "ar": "بقماش كريميّ جميل."
+   },
+   {
+    "start": 48.556,
+    "dur": 4.464,
+    "en": "In the third week, everything was varnished, checked and cleaned.",
+    "ar": "في الأسبوع الثالث، وُرنش كلّ شيء وفُحص ونُظِّف."
+   },
+   {
+    "start": 53.37,
+    "dur": 3.312,
+    "en": "Every department knew its days and its job.",
+    "ar": "كلّ قسم عرف أيّامه وعمله."
+   },
+   {
+    "start": 57.032,
+    "dur": 2.592,
+    "en": "The set was finished on time.",
+    "ar": "اكتمل الطقم في الوقت."
+   },
+   {
+    "start": 59.974,
+    "dur": 2.928,
+    "en": "And it was delivered the day before the wedding.",
+    "ar": "وسُلِّم في اليوم السابق للعرس."
+   },
+   {
+    "start": 63.252,
+    "dur": 4.032,
+    "en": "The family was very happy, and they told all their friends.",
+    "ar": "كانت العائلة سعيدة جداً، وأخبروا كلّ أصدقائهم."
+   },
+   {
+    "start": 67.634,
+    "dur": 2.376,
+    "en": "How much time did they have?",
+    "ar": "كم من الوقت كان لديهم؟"
+   },
+   {
+    "start": 74.657,
+    "dur": 1.872,
+    "en": "Three weeks.",
+    "ar": "ثلاثة أسابيع."
+   },
+   {
+    "start": 76.879,
+    "dur": 2.52,
+    "en": "What happened in the second week?",
+    "ar": "ماذا حدث في الأسبوع الثاني؟"
+   },
+   {
+    "start": 84.34,
+    "dur": 4.032,
+    "en": "The sofas and armchairs were upholstered with cream fabric.",
+    "ar": "نُجِّدت الكنبات والكراسي الوثيرة بقماش كريميّ."
+   },
+   {
+    "start": 88.722,
+    "dur": 2.28,
+    "en": "When was the set delivered?",
+    "ar": "متى سُلِّم الطقم؟"
+   },
+   {
+    "start": 95.591,
+    "dur": 2.184,
+    "en": "The day before the wedding.",
+    "ar": "في اليوم السابق للعرس."
+   },
+   {
+    "start": 98.125,
+    "dur": 4.2,
+    "en": "Now a decision. A new big order comes in.",
+    "ar": "الآن قرار. تأتي طلبيّة كبيرة جديدة."
+   },
+   {
+    "start": 102.675,
+    "dur": 2.568,
+    "en": "But the workshop is already busy.",
+    "ar": "لكنّ الورشة مشغولة أصلاً."
+   },
+   {
+    "start": 105.593,
+    "dur": 4.68,
+    "en": "Work longer hours, say no, or ask another workshop to help?",
+    "ar": "نعمل ساعات أطول، نرفض، أم نطلب ورشة أخرى للمساعدة؟"
+   },
+   {
+    "start": 110.623,
+    "dur": 2.544,
+    "en": "What should they do, and why?",
+    "ar": "ماذا ينبغي أن يفعلوا، ولماذا؟"
+   },
+   {
+    "start": 117.873,
+    "dur": 5.472,
+    "en": "Ask another small workshop to help, so they finish on time and keep the customer.",
+    "ar": "يطلبون ورشة صغيرة أخرى للمساعدة، فينتهون في الوقت ويحتفظون بالزبون."
+   },
+   {
+    "start": 123.695,
+    "dur": 4.416,
+    "en": "Also, longer hours make tired workers and more mistakes.",
+    "ar": "وأيضاً، الساعات الأطول تصنع عمّالاً متعبين وأخطاء أكثر."
+   },
+   {
+    "start": 128.461,
+    "dur": 4.92,
+    "en": "This is better than saying no, because a lost customer stays lost.",
+    "ar": "هذا أفضل من الرفض، لأنّ الزبون المفقود يبقى مفقوداً."
+   },
+   {
+    "start": 133.731,
+    "dur": 4.416,
+    "en": "That is one good answer. Yours may be different.",
+    "ar": "تلك إجابة جيّدة واحدة. إجابتك قد تكون مختلفة."
+   },
+   {
+    "start": 138.497,
+    "dur": 3.648,
+    "en": "Give a reason, and your answer is a good one too.",
+    "ar": "أعطِ سبباً، وتكون إجابتك جيّدة أيضاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

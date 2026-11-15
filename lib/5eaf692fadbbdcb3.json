@@ -1,0 +1,201 @@
+{
+ "schema": "timeline/1",
+ "duration": 116.701,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.84,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.64,
+    "dur": 7.056,
+    "en": "This is Part 3, Which Wardrobe?. You will hear three wardrobes compared by size and price.",
+    "ar": "هذا الجزء الثالث، أيّ خزانة؟. ستسمع مقارنة بين ثلاث خزائن بالمقاس والسعر."
+   },
+   {
+    "start": 15.046,
+    "dur": 4.128,
+    "en": "For a small bedroom, is a big or a small wardrobe better?",
+    "ar": "لغرفة نوم صغيرة، أيّهما أفضل: خزانة كبيرة أم صغيرة؟"
+   },
+   {
+    "start": 19.524,
+    "dur": 4.992,
+    "en": "I need a wardrobe for a small bedroom. Which is the smallest?",
+    "ar": "أحتاج خزانة لغرفة نوم صغيرة. أيّها الأصغر؟"
+   },
+   {
+    "start": 24.866,
+    "dur": 4.392,
+    "en": "This white one is the smallest, ninety centimetres wide.",
+    "ar": "هذه البيضاء هي الأصغر، عرضها تسعون سنتيمتراً."
+   },
+   {
+    "start": 29.608,
+    "dur": 3.552,
+    "en": "The brown one is wider, one hundred and twenty.",
+    "ar": "البنّيّة أعرض، مئة وعشرون."
+   },
+   {
+    "start": 33.51,
+    "dur": 4.056,
+    "en": "And the big oak one is the widest, one hundred and fifty.",
+    "ar": "وخزانة البلّوط الكبيرة هي الأعرض، مئة وخمسون."
+   },
+   {
+    "start": 37.916,
+    "dur": 2.184,
+    "en": "Is the white one tall?",
+    "ar": "هل البيضاء عالية؟"
+   },
+   {
+    "start": 40.45,
+    "dur": 4.344,
+    "en": "Yes, it is the tallest, two hundred and ten centimetres.",
+    "ar": "نعم، هي الأعلى، مئتان وعشرة سنتيمترات."
+   },
+   {
+    "start": 45.144,
+    "dur": 2.184,
+    "en": "So it holds a lot.",
+    "ar": "لذا تتّسع لأشياء كثيرة."
+   },
+   {
+    "start": 47.678,
+    "dur": 1.872,
+    "en": "And the price?",
+    "ar": "والسعر؟"
+   },
+   {
+    "start": 49.9,
+    "dur": 5.352,
+    "en": "The white one is the cheapest. The oak one is the most expensive.",
+    "ar": "البيضاء هي الأرخص. وخزانة البلّوط هي الأغلى."
+   },
+   {
+    "start": 55.602,
+    "dur": 4.8,
+    "en": "I will take the white one. It is the smallest and the cheapest.",
+    "ar": "سآخذ البيضاء. هي الأصغر والأرخص."
+   },
+   {
+    "start": 60.752,
+    "dur": 2.712,
+    "en": "A good choice for a small room.",
+    "ar": "اختيار جيّد لغرفة صغيرة."
+   },
+   {
+    "start": 63.814,
+    "dur": 3.624,
+    "en": "Now match each wardrobe with the right description.",
+    "ar": "الآن طابق كلّ خزانة مع الوصف الصحيح."
+   },
+   {
+    "start": 67.788,
+    "dur": 2.136,
+    "en": "The white wardrobe.",
+    "ar": "الخزانة البيضاء."
+   },
+   {
+    "start": 74.042,
+    "dur": 3.288,
+    "en": "The smallest, tallest and cheapest.",
+    "ar": "الأصغر والأعلى والأرخص."
+   },
+   {
+    "start": 77.68,
+    "dur": 2.088,
+    "en": "The brown wardrobe.",
+    "ar": "الخزانة البنّيّة."
+   },
+   {
+    "start": 83.885,
+    "dur": 3.216,
+    "en": "One hundred and twenty centimetres wide.",
+    "ar": "عرضها مئة وعشرون سنتيمتراً."
+   },
+   {
+    "start": 87.452,
+    "dur": 2.088,
+    "en": "The oak wardrobe.",
+    "ar": "خزانة البلّوط."
+   },
+   {
+    "start": 93.54,
+    "dur": 2.856,
+    "en": "The widest and most expensive.",
+    "ar": "الأعرض والأغلى."
+   },
+   {
+    "start": 96.746,
+    "dur": 2.544,
+    "en": "The advice for a small room.",
+    "ar": "النصيحة لغرفة صغيرة."
+   },
+   {
+    "start": 103.937,
+    "dur": 2.736,
+    "en": "Choose the smallest and cheapest.",
+    "ar": "اختر الأصغر والأرخص."
+   },
+   {
+    "start": 107.023,
+    "dur": 3.984,
+    "en": "One description was not needed: the heaviest to lift.",
+    "ar": "بقي وصف لم نحتجه: الأثقل رفعاً."
+   },
+   {
+    "start": 111.357,
+    "dur": 3.744,
+    "en": "Weight matters when you move it, not when you choose it.",
+    "ar": "الوزن يهمّ حين تنقلها، لا حين تختارها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "wardrobe",
+    "label": "wardrobe",
+    "ar": "الخزانة",
+    "at": 66.476,
+    "hold": 7.52,
+    "img": "assets/vocab/wardrobe.png",
+    "sha": "71ccf8f52669fc10"
+   },
+   {
+    "lemma": "wardrobe",
+    "label": "wardrobe",
+    "ar": "الخزانة",
+    "at": 76.38,
+    "hold": 7.46,
+    "img": "assets/vocab/wardrobe.png",
+    "sha": "71ccf8f52669fc10"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 85.877,
+    "hold": 7.61,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

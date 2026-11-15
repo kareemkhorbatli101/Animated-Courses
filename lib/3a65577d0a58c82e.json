@@ -1,0 +1,186 @@
+{
+ "schema": "timeline/1",
+ "duration": 116.944,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.84,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.64,
+    "dur": 8.256,
+    "en": "This is Part 4, Showroom Role Play. You will take the customer's part, then advise on a size that will not fit.",
+    "ar": "هذا الجزء الرابع، لعب أدوار في صالة العرض. ستأخذ دور الزبون، ثمّ تنصح بشأن مقاس لن يناسب."
+   },
+   {
+    "start": 16.246,
+    "dur": 4.536,
+    "en": "A customer has a small room. Listen first.",
+    "ar": "زبون لديه غرفة صغيرة. استمع أوّلاً."
+   },
+   {
+    "start": 21.132,
+    "dur": 4.344,
+    "en": "I have a small room. Which sofa is best?",
+    "ar": "لديّ غرفة صغيرة. أيّ كنبة أفضل؟"
+   },
+   {
+    "start": 25.826,
+    "dur": 3.792,
+    "en": "The two-metre sofa is smaller than the three-metre one.",
+    "ar": "الكنبة ذات المترين أصغر من ذات الثلاثة أمتار."
+   },
+   {
+    "start": 29.968,
+    "dur": 2.328,
+    "en": "So it is better for you.",
+    "ar": "لذا هي أفضل لك."
+   },
+   {
+    "start": 32.646,
+    "dur": 1.872,
+    "en": "Is it comfortable?",
+    "ar": "هل هي مريحة؟"
+   },
+   {
+    "start": 34.868,
+    "dur": 3.552,
+    "en": "It is the most comfortable small sofa we have.",
+    "ar": "هي أكثر الكنبات الصغيرة راحة لدينا."
+   },
+   {
+    "start": 38.77,
+    "dur": 1.872,
+    "en": "How much is it?",
+    "ar": "كم سعرها؟"
+   },
+   {
+    "start": 40.992,
+    "dur": 2.4,
+    "en": "It is also the cheapest.",
+    "ar": "وهي الأرخص أيضاً."
+   },
+   {
+    "start": 43.742,
+    "dur": 2.784,
+    "en": "Now you take the customer's part.",
+    "ar": "الآن خذ أنت دور الزبون."
+   },
+   {
+    "start": 46.876,
+    "dur": 4.104,
+    "en": "Say your room is small, and ask which sofa is best.",
+    "ar": "قل إنّ غرفتك صغيرة، واسأل أيّ كنبة أفضل."
+   },
+   {
+    "start": 56.98,
+    "dur": 4.416,
+    "en": "I have a small room. Which sofa is best?",
+    "ar": "لديّ غرفة صغيرة. أيّ كنبة أفضل؟"
+   },
+   {
+    "start": 61.746,
+    "dur": 2.328,
+    "en": "Ask me about comfort.",
+    "ar": "اسألني عن الراحة."
+   },
+   {
+    "start": 68.309,
+    "dur": 1.92,
+    "en": "Is it comfortable?",
+    "ar": "هل هي مريحة؟"
+   },
+   {
+    "start": 70.579,
+    "dur": 2.112,
+    "en": "Ask me the price.",
+    "ar": "اسألني عن السعر."
+   },
+   {
+    "start": 76.691,
+    "dur": 1.896,
+    "en": "How much is it?",
+    "ar": "كم سعرها؟"
+   },
+   {
+    "start": 78.937,
+    "dur": 3.912,
+    "en": "Three questions: size, comfort, price.",
+    "ar": "ثلاثة أسئلة: المقاس، الراحة، السعر."
+   },
+   {
+    "start": 83.199,
+    "dur": 4.32,
+    "en": "Now a harder one. I like the biggest sofa.",
+    "ar": "الآن واحدة أصعب. تعجبني أكبر كنبة."
+   },
+   {
+    "start": 87.869,
+    "dur": 4.008,
+    "en": "But it is three metres, and your room is three metres.",
+    "ar": "لكنّها ثلاثة أمتار، وغرفتك ثلاثة أمتار."
+   },
+   {
+    "start": 92.227,
+    "dur": 3.768,
+    "en": "How do I compare the sizes and advise him politely?",
+    "ar": "كيف أقارن المقاسات وأنصحه بلباقة؟"
+   },
+   {
+    "start": 101.995,
+    "dur": 5.376,
+    "en": "That sofa is bigger than your room. The smaller one will fit better.",
+    "ar": "تلك الكنبة أكبر من غرفتك. الأصغر ستناسب أكثر."
+   },
+   {
+    "start": 107.722,
+    "dur": 3.024,
+    "en": "Compare the numbers, not the taste.",
+    "ar": "قارن الأرقام، لا الذوق."
+   },
+   {
+    "start": 111.096,
+    "dur": 4.248,
+    "en": "He may still want it. But now he knows.",
+    "ar": "قد يظلّ يريدها. لكنّه الآن يعرف."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 47.164,
+    "hold": 13.38,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 101.995,
+    "hold": 3.0,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "schema": "timeline/1",
+ "duration": 124.008,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.696,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.496,
+    "dur": 6.336,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 14.182,
+    "dur": 4.368,
+    "en": "Six words. Say each one aloud after me.",
+    "ar": "ستّ كلمات. قل كلّ واحدة بصوت عالٍ بعدي."
+   },
+   {
+    "start": 18.9,
+    "dur": 3.792,
+    "en": "Measure. Two parts: MEA-sure.",
+    "ar": "Measure. مقطعان: MEA-sure."
+   },
+   {
+    "start": 23.042,
+    "dur": 2.544,
+    "en": "Which part of measure is loud?",
+    "ar": "أيّ مقطع في measure هو العالي؟"
+   },
+   {
+    "start": 30.351,
+    "dur": 2.976,
+    "en": "The first. MEA-sure.",
+    "ar": "الأوّل. MEA-sure."
+   },
+   {
+    "start": 33.677,
+    "dur": 4.632,
+    "en": "Centimetre. Four parts: CEN-ti-me-tre.",
+    "ar": "Centimetre. أربعة مقاطع: CEN-ti-me-tre."
+   },
+   {
+    "start": 38.659,
+    "dur": 2.784,
+    "en": "Which part of centimetre is loud?",
+    "ar": "أيّ مقطع في centimetre هو العالي؟"
+   },
+   {
+    "start": 46.384,
+    "dur": 3.408,
+    "en": "The first. CEN-ti-me-tre.",
+    "ar": "الأوّل. CEN-ti-me-tre."
+   },
+   {
+    "start": 50.142,
+    "dur": 4.8,
+    "en": "Dimensions. Three parts: di-MEN-sions.",
+    "ar": "Dimensions. ثلاثة مقاطع: di-MEN-sions."
+   },
+   {
+    "start": 55.292,
+    "dur": 2.736,
+    "en": "Which part of dimensions is loud?",
+    "ar": "أيّ مقطع في dimensions هو العالي؟"
+   },
+   {
+    "start": 62.969,
+    "dur": 3.288,
+    "en": "The second. di-MEN-sions.",
+    "ar": "الثاني. di-MEN-sions."
+   },
+   {
+    "start": 66.607,
+    "dur": 4.896,
+    "en": "Rectangle. Three parts: REC-tan-gle.",
+    "ar": "Rectangle. ثلاثة مقاطع: REC-tan-gle."
+   },
+   {
+    "start": 71.853,
+    "dur": 2.808,
+    "en": "Which part of rectangle is loud?",
+    "ar": "أيّ مقطع في rectangle هو العالي؟"
+   },
+   {
+    "start": 79.544,
+    "dur": 3.144,
+    "en": "The first. REC-tan-gle.",
+    "ar": "الأوّل. REC-tan-gle."
+   },
+   {
+    "start": 83.038,
+    "dur": 4.368,
+    "en": "Material. Four parts: ma-TE-ri-al.",
+    "ar": "Material. أربعة مقاطع: ma-TE-ri-al."
+   },
+   {
+    "start": 87.756,
+    "dur": 2.784,
+    "en": "Which part of material is loud?",
+    "ar": "أيّ مقطع في material هو العالي؟"
+   },
+   {
+    "start": 95.363,
+    "dur": 3.12,
+    "en": "The second. ma-TE-ri-al.",
+    "ar": "الثاني. ma-TE-ri-al."
+   },
+   {
+    "start": 98.833,
+    "dur": 3.72,
+    "en": "Compare. Two parts: com-PARE.",
+    "ar": "Compare. مقطعان: com-PARE."
+   },
+   {
+    "start": 102.903,
+    "dur": 2.568,
+    "en": "Which part of compare is loud?",
+    "ar": "أيّ مقطع في compare هو العالي؟"
+   },
+   {
+    "start": 110.236,
+    "dur": 2.88,
+    "en": "The second. com-PARE.",
+    "ar": "الثاني. com-PARE."
+   },
+   {
+    "start": 113.466,
+    "dur": 3.984,
+    "en": "Three are loud at the start, three are loud after it.",
+    "ar": "ثلاث عالية في البداية، وثلاث عالية بعدها."
+   },
+   {
+    "start": 117.8,
+    "dur": 4.608,
+    "en": "Compare is the word of the next part. Say it well.",
+    "ar": "Compare هي كلمة الجزء التالي. قلها جيّداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 48.342,
+    "hold": 16.42,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 64.807,
+    "hold": 17.74,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

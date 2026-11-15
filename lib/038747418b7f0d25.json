@@ -1,0 +1,162 @@
+{
+ "schema": "timeline/1",
+ "duration": 92.876,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.696,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.496,
+    "dur": 6.504,
+    "en": "This is Part 3, Checking Sizes. You will hear a board checked against the cutting list.",
+    "ar": "هذا الجزء الثالث، التحقّق من المقاسات. ستسمع لوحاً يُقارن بقائمة القصّ."
+   },
+   {
+    "start": 14.35,
+    "dur": 3.744,
+    "en": "What is the rule, measure twice, cut once?",
+    "ar": "ما قاعدة: قِس مرّتين واقطع مرّة؟"
+   },
+   {
+    "start": 18.444,
+    "dur": 3.192,
+    "en": "Khaled, measure this board, please.",
+    "ar": "خالد، قِس هذا اللوح من فضلك."
+   },
+   {
+    "start": 21.986,
+    "dur": 4.704,
+    "en": "It is one hundred and twenty centimetres long, and forty wide.",
+    "ar": "طوله مئة وعشرون سنتيمتراً، وعرضه أربعون."
+   },
+   {
+    "start": 27.04,
+    "dur": 4.512,
+    "en": "Good. The cutting list says one hundred and eighteen.",
+    "ar": "جيّد. قائمة القصّ تقول مئة وثمانية عشر."
+   },
+   {
+    "start": 31.902,
+    "dur": 2.52,
+    "en": "So it is a little too long.",
+    "ar": "إذاً هو أطول قليلاً ممّا يجب."
+   },
+   {
+    "start": 34.772,
+    "dur": 2.64,
+    "en": "Shall I cut two centimetres?",
+    "ar": "هل أقطع سنتيمترين؟"
+   },
+   {
+    "start": 37.762,
+    "dur": 2.88,
+    "en": "Yes, but measure twice first.",
+    "ar": "نعم، لكن قِس مرّتين أوّلاً."
+   },
+   {
+    "start": 40.992,
+    "dur": 3.408,
+    "en": "Remember: measure twice, cut once.",
+    "ar": "تذكّر: قِس مرّتين، واقطع مرّة."
+   },
+   {
+    "start": 44.75,
+    "dur": 2.16,
+    "en": "OK, Ustaz.",
+    "ar": "حسناً يا أستاذ."
+   },
+   {
+    "start": 47.26,
+    "dur": 4.896,
+    "en": "The first question is done. I asked him to measure a board.",
+    "ar": "السؤال الأوّل محلول. طلبت منه قياس لوح."
+   },
+   {
+    "start": 52.506,
+    "dur": 2.184,
+    "en": "How long is the board?",
+    "ar": "كم طول اللوح؟"
+   },
+   {
+    "start": 58.984,
+    "dur": 2.88,
+    "en": "One hundred and twenty centimetres.",
+    "ar": "مئة وعشرون سنتيمتراً."
+   },
+   {
+    "start": 62.214,
+    "dur": 2.4,
+    "en": "What does the cutting list say?",
+    "ar": "ماذا تقول قائمة القصّ؟"
+   },
+   {
+    "start": 69.438,
+    "dur": 2.928,
+    "en": "One hundred and eighteen centimetres.",
+    "ar": "مئة وثمانية عشر سنتيمتراً."
+   },
+   {
+    "start": 72.716,
+    "dur": 2.544,
+    "en": "What rule does Sami repeat?",
+    "ar": "ما القاعدة التي يكرّرها سامي؟"
+   },
+   {
+    "start": 79.848,
+    "dur": 2.64,
+    "en": "Measure twice, cut once.",
+    "ar": "قِس مرّتين، واقطع مرّة."
+   },
+   {
+    "start": 82.838,
+    "dur": 3.72,
+    "en": "Two centimetres is a small number and a big problem.",
+    "ar": "سنتيمتران رقم صغير ومشكلة كبيرة."
+   },
+   {
+    "start": 86.908,
+    "dur": 4.368,
+    "en": "You can cut wood shorter. You cannot cut it longer.",
+    "ar": "تستطيع أن تقصّ الخشب أقصر. ولا تستطيع أن تقصّه أطول."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 26.628,
+    "hold": 3.0,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 60.939,
+    "hold": 8.45,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

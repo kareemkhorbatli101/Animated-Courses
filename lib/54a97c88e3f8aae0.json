@@ -1,0 +1,288 @@
+{
+ "schema": "timeline/1",
+ "duration": 171.881,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 7.128,
+    "en": "This is Part 10, Can-Do and Glossary. You will check five things you can now do.",
+    "ar": "هذا الجزء العاشر، ماذا أستطيع والمسرد. ستتحقّق من خمسة أشياء تستطيع فعلها الآن."
+   },
+   {
+    "start": 16.582,
+    "dur": 4.824,
+    "en": "Five things you can do now. We check each one.",
+    "ar": "خمسة أشياء تستطيع فعلها الآن. نتحقّق من كلّ واحد."
+   },
+   {
+    "start": 21.756,
+    "dur": 5.52,
+    "en": "One. I can name the steps and departments in making furniture.",
+    "ar": "الأوّل. أستطيع تسمية الخطوات والأقسام في صناعة الأثاث."
+   },
+   {
+    "start": 27.626,
+    "dur": 3.048,
+    "en": "Name three steps and two departments.",
+    "ar": "سمِّ ثلاث خطوات وقسمين."
+   },
+   {
+    "start": 35.851,
+    "dur": 5.328,
+    "en": "Cut, assemble, varnish. The workshop and quality control.",
+    "ar": "القطع، والتجميع، والورنشة. الورشة وضبط الجودة."
+   },
+   {
+    "start": 41.529,
+    "dur": 4.824,
+    "en": "Two. I can use the passive to describe a process.",
+    "ar": "الثاني. أستطيع استخدام المبنيّ للمجهول لوصف عمليّة."
+   },
+   {
+    "start": 46.703,
+    "dur": 2.784,
+    "en": "Describe two steps in the passive.",
+    "ar": "صِف خطوتين بالمبنيّ للمجهول."
+   },
+   {
+    "start": 54.487,
+    "dur": 3.168,
+    "en": "The wood is cut, and the parts are sanded.",
+    "ar": "يُقطع الخشب، وتُصنفر الأجزاء."
+   },
+   {
+    "start": 58.005,
+    "dur": 5.328,
+    "en": "Three. I can understand a talk about how a piece is made.",
+    "ar": "الثالث. أستطيع فهم حديث عن كيفيّة صنع قطعة."
+   },
+   {
+    "start": 63.683,
+    "dur": 3.192,
+    "en": "What happens between assembly and finishing?",
+    "ar": "ماذا يحدث بين التجميع والتشطيب؟"
+   },
+   {
+    "start": 72.463,
+    "dur": 3.336,
+    "en": "The seat is upholstered with foam and fabric.",
+    "ar": "يُنجَّد المقعد بالإسفنج والقماش."
+   },
+   {
+    "start": 76.149,
+    "dur": 4.992,
+    "en": "Four. I can plan or follow a production schedule.",
+    "ar": "الرابع. أستطيع تخطيط جدول إنتاج أو اتّباعه."
+   },
+   {
+    "start": 81.491,
+    "dur": 4.32,
+    "en": "Delivery is Thursday. When is the frame cut?",
+    "ar": "التسليم يوم الخميس. متى يُقطع الهيكل؟"
+   },
+   {
+    "start": 91.399,
+    "dur": 4.224,
+    "en": "On Monday, so there is time for upholstery and finishing.",
+    "ar": "يوم الاثنين، ليبقى وقت للتنجيد والتشطيب."
+   },
+   {
+    "start": 95.973,
+    "dur": 5.136,
+    "en": "Five. I can explain how a piece is made in writing.",
+    "ar": "الخامس. أستطيع شرح كيفيّة صنع قطعة كتابةً."
+   },
+   {
+    "start": 101.459,
+    "dur": 3.48,
+    "en": "Explain a chair in three passive sentences.",
+    "ar": "اشرح صنع كرسيّ في ثلاث جمل مجهولة."
+   },
+   {
+    "start": 110.468,
+    "dur": 5.832,
+    "en": "The wood is cut. The parts are assembled. Then it is varnished.",
+    "ar": "يُقطع الخشب. تُجمَّع الأجزاء. ثمّ يُورنش."
+   },
+   {
+    "start": 116.651,
+    "dur": 3.792,
+    "en": "If you ticked all five, the unit is yours.",
+    "ar": "إن وضعت علامة على الخمسة كلّها، فالوحدة لك."
+   },
+   {
+    "start": 120.793,
+    "dur": 3.288,
+    "en": "Now the ten words, one last time.",
+    "ar": "الآن الكلمات العشر، للمرّة الأخيرة."
+   },
+   {
+    "start": 124.431,
+    "dur": 2.808,
+    "en": "Assemble: put the parts together.",
+    "ar": "التجميع: وضع الأجزاء معاً."
+   },
+   {
+    "start": 127.589,
+    "dur": 3.552,
+    "en": "Upholster: add foam and fabric to a seat.",
+    "ar": "التنجيد: إضافة الإسفنج والقماش إلى مقعد."
+   },
+   {
+    "start": 131.491,
+    "dur": 2.952,
+    "en": "Finishing: sanding and cleaning.",
+    "ar": "التشطيب: الصنفرة والتنظيف."
+   },
+   {
+    "start": 134.793,
+    "dur": 2.496,
+    "en": "And a coat of varnish on top.",
+    "ar": "وطبقة من الورنيش فوقها."
+   },
+   {
+    "start": 137.639,
+    "dur": 3.888,
+    "en": "Quality control: checking the work before it leaves.",
+    "ar": "ضبط الجودة: فحص العمل قبل أن يخرج."
+   },
+   {
+    "start": 141.877,
+    "dur": 3.672,
+    "en": "Department: one part of a company with one job.",
+    "ar": "القسم: جزء من شركة بعمل واحد."
+   },
+   {
+    "start": 145.899,
+    "dur": 4.104,
+    "en": "Production line: the order of steps, one after another.",
+    "ar": "خطّ الإنتاج: ترتيب الخطوات، واحدة بعد الأخرى."
+   },
+   {
+    "start": 150.353,
+    "dur": 3.0,
+    "en": "Stage: one step in a process.",
+    "ar": "المرحلة: خطوة واحدة في عمليّة."
+   },
+   {
+    "start": 153.703,
+    "dur": 3.072,
+    "en": "Process: the whole order of steps.",
+    "ar": "العمليّة: ترتيب الخطوات كلّه."
+   },
+   {
+    "start": 157.125,
+    "dur": 3.528,
+    "en": "Varnish: a clear liquid that protects the wood.",
+    "ar": "الورنيش: سائل شفّاف يحمي الخشب."
+   },
+   {
+    "start": 161.003,
+    "dur": 3.216,
+    "en": "Deliver: take the furniture to the customer.",
+    "ar": "التسليم: أخذ الأثاث إلى الزبون."
+   },
+   {
+    "start": 164.569,
+    "dur": 5.712,
+    "en": "Five units now. A piece measured, made, and out of the door.",
+    "ar": "خمس وحدات الآن. قطعة قيست، وصُنعت، وخرجت من الباب."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 35.851,
+    "hold": 3.0,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   },
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 63.495,
+    "hold": 8.92,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 91.399,
+    "hold": 3.08,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 129.691,
+    "hold": 3.0,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 133.58,
+    "hold": 2.5,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 136.13,
+    "hold": 2.71,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "production_line",
+    "label": "production line",
+    "ar": "خطّ الإنتاج",
+    "at": 144.099,
+    "hold": 3.0,
+    "img": "assets/vocab/production_line.png",
+    "sha": "eae8b17966f1c347"
+   },
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 159.203,
+    "hold": 3.0,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

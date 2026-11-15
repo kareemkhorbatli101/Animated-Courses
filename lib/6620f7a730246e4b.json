@@ -1,0 +1,441 @@
+{
+ "schema": "timeline/1",
+ "duration": 279.935,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.408,
+    "dur": 5.304,
+    "en": "This is the Warm Up. You will meet the ten process words of the unit.",
+    "ar": "هذا هو التمهيد. ستتعرّف على كلمات العمليّة العشر في الوحدة."
+   },
+   {
+    "start": 14.062,
+    "dur": 4.656,
+    "en": "Good morning, Khaled. Today, the whole journey.",
+    "ar": "صباح الخير يا خالد. اليوم، الرحلة كاملة."
+   },
+   {
+    "start": 19.068,
+    "dur": 4.368,
+    "en": "In Unit 4 you measured. Now we make the piece.",
+    "ar": "في الوحدة الرابعة قِست. الآن نصنع القطعة."
+   },
+   {
+    "start": 23.786,
+    "dur": 4.608,
+    "en": "Ten words. Look at each step before I name it.",
+    "ar": "عشر كلمات. انظر إلى كلّ خطوة قبل أن أسمّيها."
+   },
+   {
+    "start": 28.744,
+    "dur": 4.056,
+    "en": "This is assemble. We put the parts together.",
+    "ar": "هذا هو التجميع. نضع الأجزاء معاً."
+   },
+   {
+    "start": 33.15,
+    "dur": 5.4,
+    "en": "A frame, a rail, and two dowels. Now it is one thing.",
+    "ar": "هيكل، وعارضة، ووتدان. الآن أصبح شيئاً واحداً."
+   },
+   {
+    "start": 38.9,
+    "dur": 4.824,
+    "en": "This is upholstery. We add foam and fabric to a seat.",
+    "ar": "هذا هو التنجيد. نضيف الإسفنج والقماش إلى المقعد."
+   },
+   {
+    "start": 44.074,
+    "dur": 4.536,
+    "en": "To upholster is the verb. The seat is upholstered.",
+    "ar": "«ينجّد» هو الفعل. المقعد مُنجَّد."
+   },
+   {
+    "start": 48.96,
+    "dur": 4.248,
+    "en": "This is finishing. The last work on a piece.",
+    "ar": "هذا هو التشطيب. آخر عمل على القطعة."
+   },
+   {
+    "start": 53.558,
+    "dur": 2.976,
+    "en": "Sanding, varnish, and cleaning.",
+    "ar": "الصنفرة، والورنيش، والتنظيف."
+   },
+   {
+    "start": 56.884,
+    "dur": 4.392,
+    "en": "Look: one board, half of it bare, half of it varnished.",
+    "ar": "انظر: لوح واحد، نصفه عارٍ ونصفه مورنش."
+   },
+   {
+    "start": 61.626,
+    "dur": 4.656,
+    "en": "This is varnish. A clear liquid that protects the wood.",
+    "ar": "هذا هو الورنيش. سائل شفّاف يحمي الخشب."
+   },
+   {
+    "start": 66.632,
+    "dur": 4.728,
+    "en": "This is quality control. Checking that the work is good.",
+    "ar": "هذا هو ضبط الجودة. التحقّق من أنّ العمل جيّد."
+   },
+   {
+    "start": 71.71,
+    "dur": 3.264,
+    "en": "Three rows ticked, and one still open.",
+    "ar": "ثلاثة صفوف مؤشَّرة، وواحد ما زال مفتوحاً."
+   },
+   {
+    "start": 75.324,
+    "dur": 4.392,
+    "en": "This is a production line. The order of the steps.",
+    "ar": "هذا خطّ إنتاج. ترتيب الخطوات."
+   },
+   {
+    "start": 80.066,
+    "dur": 3.48,
+    "en": "One station, then the next, then the next.",
+    "ar": "محطّة، ثمّ التالية، ثمّ التالية."
+   },
+   {
+    "start": 83.896,
+    "dur": 4.008,
+    "en": "A department is one part of the workshop that does one job.",
+    "ar": "القسم جزء من الورشة يؤدّي عملاً واحداً."
+   },
+   {
+    "start": 88.254,
+    "dur": 3.072,
+    "en": "A stage is one step in a process.",
+    "ar": "المرحلة خطوة واحدة في عمليّة."
+   },
+   {
+    "start": 91.676,
+    "dur": 3.192,
+    "en": "And a process is the whole order of steps.",
+    "ar": "والعمليّة هي ترتيب الخطوات كلّه."
+   },
+   {
+    "start": 95.218,
+    "dur": 4.872,
+    "en": "Last, this is deliver. We take the piece to the customer.",
+    "ar": "أخيراً، هذا هو التسليم. نأخذ القطعة إلى الزبون."
+   },
+   {
+    "start": 100.44,
+    "dur": 3.312,
+    "en": "Wrapped, on a trolley, and out of the door.",
+    "ar": "ملفوفة، على عربة، وخارج الباب."
+   },
+   {
+    "start": 104.102,
+    "dur": 3.48,
+    "en": "Now match five step words with their meanings.",
+    "ar": "الآن طابِق خمس كلمات خطوات مع معانيها."
+   },
+   {
+    "start": 107.932,
+    "dur": 3.048,
+    "en": "To cut. What does it mean?",
+    "ar": "القطع. ماذا يعني؟"
+   },
+   {
+    "start": 115.51,
+    "dur": 2.712,
+    "en": "To divide the wood into pieces.",
+    "ar": "تقسيم الخشب إلى قطع."
+   },
+   {
+    "start": 118.572,
+    "dur": 3.096,
+    "en": "To sand. What does it mean?",
+    "ar": "الصنفرة. ماذا تعني؟"
+   },
+   {
+    "start": 126.256,
+    "dur": 2.856,
+    "en": "To rub the wood until it is smooth.",
+    "ar": "فرك الخشب حتّى يصبح ناعماً."
+   },
+   {
+    "start": 129.462,
+    "dur": 3.12,
+    "en": "To assemble. What does it mean?",
+    "ar": "التجميع. ماذا يعني؟"
+   },
+   {
+    "start": 137.405,
+    "dur": 2.256,
+    "en": "To put the parts together.",
+    "ar": "وضع الأجزاء معاً."
+   },
+   {
+    "start": 140.011,
+    "dur": 3.192,
+    "en": "To varnish. What does it mean?",
+    "ar": "الورنشة. ماذا تعني؟"
+   },
+   {
+    "start": 147.968,
+    "dur": 3.168,
+    "en": "To paint a clear liquid that protects the wood.",
+    "ar": "دهن سائل شفّاف يحمي الخشب."
+   },
+   {
+    "start": 151.486,
+    "dur": 3.144,
+    "en": "To deliver. What does it mean?",
+    "ar": "التسليم. ماذا يعني؟"
+   },
+   {
+    "start": 159.395,
+    "dur": 2.808,
+    "en": "To take the furniture to the customer.",
+    "ar": "أخذ الأثاث إلى الزبون."
+   },
+   {
+    "start": 162.553,
+    "dur": 4.08,
+    "en": "One meaning was not needed: to measure the wood before cutting.",
+    "ar": "بقي معنى لم نحتجه: قياس الخشب قبل القطع."
+   },
+   {
+    "start": 166.983,
+    "dur": 4.536,
+    "en": "That was Unit 4. It comes before all of these.",
+    "ar": "تلك كانت الوحدة الرابعة. تأتي قبل هذه كلّها."
+   },
+   {
+    "start": 171.869,
+    "dur": 3.744,
+    "en": "Now four sentences about how a sofa is made.",
+    "ar": "الآن أربع جمل عن كيفيّة صنع الكنبة."
+   },
+   {
+    "start": 175.963,
+    "dur": 3.384,
+    "en": "First, the wood is blank into pieces.",
+    "ar": "أوّلاً، يُـ ـــ الخشب إلى قطع."
+   },
+   {
+    "start": 184.523,
+    "dur": 4.368,
+    "en": "Cut. First, the wood is cut into pieces.",
+    "ar": "يُقطع. أوّلاً، يُقطع الخشب إلى قطع."
+   },
+   {
+    "start": 189.241,
+    "dur": 3.312,
+    "en": "Then the parts are blank until they are smooth.",
+    "ar": "ثمّ تُـ ـــ الأجزاء حتّى تصبح ناعمة."
+   },
+   {
+    "start": 198.318,
+    "dur": 3.576,
+    "en": "Sanded. Then the parts are sanded.",
+    "ar": "تُصنفر. ثمّ تُصنفر الأجزاء."
+   },
+   {
+    "start": 202.244,
+    "dur": 3.528,
+    "en": "Next, the sofa is blank from all the parts.",
+    "ar": "بعد ذلك، تُـ ـــ الكنبة من كلّ الأجزاء."
+   },
+   {
+    "start": 211.302,
+    "dur": 4.08,
+    "en": "Assembled. Next, the sofa is assembled.",
+    "ar": "تُجمَّع. بعد ذلك، تُجمَّع الكنبة."
+   },
+   {
+    "start": 215.732,
+    "dur": 3.36,
+    "en": "Finally, the sofa is blank to the customer.",
+    "ar": "أخيراً، تُـ ـــ الكنبة إلى الزبون."
+   },
+   {
+    "start": 224.621,
+    "dur": 4.152,
+    "en": "Delivered. Finally, the sofa is delivered.",
+    "ar": "تُسلَّم. أخيراً، تُسلَّم الكنبة إلى الزبون."
+   },
+   {
+    "start": 229.123,
+    "dur": 3.336,
+    "en": "Last, a short text about the steps.",
+    "ar": "أخيراً، نصّ قصير عن الخطوات."
+   },
+   {
+    "start": 232.809,
+    "dur": 2.664,
+    "en": "Furniture is made in steps.",
+    "ar": "يُصنع الأثاث على خطوات."
+   },
+   {
+    "start": 235.823,
+    "dur": 3.336,
+    "en": "First, the designer draws the piece.",
+    "ar": "أوّلاً، يرسم المصمّم القطعة."
+   },
+   {
+    "start": 239.509,
+    "dur": 3.744,
+    "en": "Then, in the workshop, the wood is cut and sanded.",
+    "ar": "ثمّ، في الورشة، يُقطع الخشب ويُصنفر."
+   },
+   {
+    "start": 243.603,
+    "dur": 3.12,
+    "en": "Next, the parts are joined together.",
+    "ar": "بعد ذلك، تُوصل الأجزاء معاً."
+   },
+   {
+    "start": 247.073,
+    "dur": 4.224,
+    "en": "After that, the sofa is upholstered with foam and fabric.",
+    "ar": "بعد ذلك، تُنجَّد الكنبة بالإسفنج والقماش."
+   },
+   {
+    "start": 251.647,
+    "dur": 3.576,
+    "en": "Finally, it is checked and delivered to the customer.",
+    "ar": "أخيراً، تُفحص وتُسلَّم إلى الزبون."
+   },
+   {
+    "start": 255.573,
+    "dur": 2.592,
+    "en": "Where are the wood cut and sanded?",
+    "ar": "أين يُقطع الخشب ويُصنفر؟"
+   },
+   {
+    "start": 263.165,
+    "dur": 2.112,
+    "en": "B. In the workshop.",
+    "ar": "ب. في الورشة."
+   },
+   {
+    "start": 265.627,
+    "dur": 2.184,
+    "en": "What is the last step?",
+    "ar": "ما الخطوة الأخيرة؟"
+   },
+   {
+    "start": 272.105,
+    "dur": 1.968,
+    "en": "C. Delivering.",
+    "ar": "ج. التسليم."
+   },
+   {
+    "start": 274.423,
+    "dur": 3.912,
+    "en": "Ten words, and they happen in that order every time.",
+    "ar": "عشر كلمات، وتحدث بذلك الترتيب في كلّ مرّة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 27.257,
+    "hold": 3.0,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   },
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 47.51,
+    "hold": 3.0,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 52.433,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 65.182,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "production_line",
+    "label": "production line",
+    "ar": "خطّ الإنتاج",
+    "at": 73.899,
+    "hold": 3.0,
+    "img": "assets/vocab/production_line.png",
+    "sha": "eae8b17966f1c347"
+   },
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 94.381,
+    "hold": 3.0,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   },
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 127.812,
+    "hold": 9.54,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 138.349,
+    "hold": 9.57,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 149.824,
+    "hold": 9.52,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

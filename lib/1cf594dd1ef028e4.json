@@ -1,0 +1,225 @@
+{
+ "schema": "timeline/1",
+ "duration": 162.04,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 7.8,
+    "en": "This is Part 7, Find the Wrong Size. You will find the one impossible number on a cutting list.",
+    "ar": "هذا الجزء السابع، اعثر على المقاس الخاطئ. ستجد الرقم المستحيل الوحيد في قائمة القصّ."
+   },
+   {
+    "start": 16.246,
+    "dur": 3.912,
+    "en": "A cutting list for a chair has one wrong size.",
+    "ar": "قائمة قصّ لكرسيّ فيها مقاس خاطئ واحد."
+   },
+   {
+    "start": 20.508,
+    "dur": 4.248,
+    "en": "The seat is forty-five by forty-five centimetres.",
+    "ar": "المقعد خمسة وأربعون في خمسة وأربعين سنتيمتراً."
+   },
+   {
+    "start": 25.106,
+    "dur": 3.6,
+    "en": "The back is forty-five centimetres wide.",
+    "ar": "الظهر عرضه خمسة وأربعون سنتيمتراً."
+   },
+   {
+    "start": 29.056,
+    "dur": 3.048,
+    "en": "The legs are four centimetres thick.",
+    "ar": "الأرجل سماكتها أربعة سنتيمترات."
+   },
+   {
+    "start": 32.454,
+    "dur": 3.696,
+    "en": "And the total height is five centimetres.",
+    "ar": "والارتفاع الكلّيّ خمسة سنتيمترات."
+   },
+   {
+    "start": 36.5,
+    "dur": 5.232,
+    "en": "The first is done. The wrong line is the total height.",
+    "ar": "الأوّل محلول. السطر الخاطئ هو الارتفاع الكلّيّ."
+   },
+   {
+    "start": 42.082,
+    "dur": 3.288,
+    "en": "Why is it wrong, and what is a better number?",
+    "ar": "لماذا هو خطأ، وما الرقم الأفضل؟"
+   },
+   {
+    "start": 51.017,
+    "dur": 6.984,
+    "en": "A chair cannot be five centimetres tall. A normal chair is about ninety centimetres high.",
+    "ar": "لا يمكن أن يكون ارتفاع الكرسيّ خمسة سنتيمترات. الكرسيّ العاديّ نحو تسعين سنتيمتراً."
+   },
+   {
+    "start": 58.351,
+    "dur": 3.696,
+    "en": "Five centimetres is the thickness of a cushion.",
+    "ar": "خمسة سنتيمترات سماكة وسادة."
+   },
+   {
+    "start": 62.397,
+    "dur": 2.664,
+    "en": "Somebody wrote the wrong row.",
+    "ar": "أحدهم كتب في السطر الخاطئ."
+   },
+   {
+    "start": 65.411,
+    "dur": 5.16,
+    "en": "Now the role play. I read the sizes, you check them.",
+    "ar": "الآن لعب الأدوار. أقرأ المقاسات، وأنت تتحقّق منها."
+   },
+   {
+    "start": 70.921,
+    "dur": 5.472,
+    "en": "The top is one hundred and sixty by ninety. Is that correct?",
+    "ar": "السطح مئة وستّون في تسعين. هل هذا صحيح؟"
+   },
+   {
+    "start": 76.743,
+    "dur": 3.048,
+    "en": "Yes. And the legs?",
+    "ar": "نعم. والأرجل؟"
+   },
+   {
+    "start": 80.141,
+    "dur": 2.616,
+    "en": "The list says fifty-seven.",
+    "ar": "القائمة تقول سبعة وخمسين."
+   },
+   {
+    "start": 83.107,
+    "dur": 4.224,
+    "en": "That's too short. It should be seventy-five.",
+    "ar": "هذا قصير جداً. يجب أن يكون خمسة وسبعين."
+   },
+   {
+    "start": 87.681,
+    "dur": 3.504,
+    "en": "You're right. I'll change it.",
+    "ar": "أنت محقّ. سأغيّرها."
+   },
+   {
+    "start": 91.535,
+    "dur": 3.936,
+    "en": "Your turn. You read, I check.",
+    "ar": "دورك. أنت تقرأ، وأنا أتحقّق."
+   },
+   {
+    "start": 95.821,
+    "dur": 3.528,
+    "en": "Tell me a size and ask if it is correct.",
+    "ar": "أخبرني بمقاس واسأل إن كان صحيحاً."
+   },
+   {
+    "start": 104.702,
+    "dur": 5.472,
+    "en": "The top is one hundred and sixty by ninety. Is that correct?",
+    "ar": "السطح مئة وستّون في تسعين. هل هذا صحيح؟"
+   },
+   {
+    "start": 110.524,
+    "dur": 4.44,
+    "en": "I say the leg is fifty-seven. Correct me.",
+    "ar": "أقول إنّ الرجل سبعة وخمسون. صحّح لي."
+   },
+   {
+    "start": 120.376,
+    "dur": 4.464,
+    "en": "That's too short. It should be seventy-five.",
+    "ar": "هذا قصير جداً. يجب أن يكون خمسة وسبعين."
+   },
+   {
+    "start": 125.19,
+    "dur": 2.856,
+    "en": "Now ask me to measure twice.",
+    "ar": "الآن اطلب منّي أن أقيس مرّتين."
+   },
+   {
+    "start": 132.693,
+    "dur": 3.144,
+    "en": "Please measure twice before you cut.",
+    "ar": "قِس مرّتين من فضلك قبل أن تقطع."
+   },
+   {
+    "start": 136.187,
+    "dur": 4.128,
+    "en": "Now the harder one. Two sizes are wrong.",
+    "ar": "الآن الأصعب. مقاسان خاطئان."
+   },
+   {
+    "start": 140.665,
+    "dur": 4.392,
+    "en": "Which is more serious, a wrong leg or a wrong cushion?",
+    "ar": "أيّهما أخطر، رجل خاطئة أم وسادة خاطئة؟"
+   },
+   {
+    "start": 151.234,
+    "dur": 5.904,
+    "en": "The leg. A wrong cushion is replaced; a wrong leg is cut wood.",
+    "ar": "الرجل. الوسادة الخاطئة تُستبدل؛ والرجل الخاطئة خشب مقطوع."
+   },
+   {
+    "start": 157.488,
+    "dur": 2.952,
+    "en": "Wood you have cut is wood you have spent.",
+    "ar": "الخشب الذي قطعته خشب أنفقته."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 16.246,
+    "hold": 1.26,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "height",
+    "label": "height",
+    "ar": "الارتفاع",
+    "at": 31.292,
+    "hold": 3.0,
+    "img": "assets/vocab/height.png",
+    "sha": "3e373d73d3e9a0ca"
+   },
+   {
+    "lemma": "thickness",
+    "label": "thickness",
+    "ar": "السماكة",
+    "at": 58.089,
+    "hold": 3.0,
+    "img": "assets/vocab/thickness.png",
+    "sha": "24321c413ad09445"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "schema": "timeline/1",
+ "duration": 117.715,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.408,
+    "dur": 6.84,
+    "en": "This is Part 2, Correct the Sentence. You will find one mistake in each of four sentences.",
+    "ar": "هذا الجزء الثاني، تصحيح الجملة. ستجد خطأً واحداً في كلّ جملة من أربع."
+   },
+   {
+    "start": 15.598,
+    "dur": 4.536,
+    "en": "Four sentences. Each has exactly one mistake.",
+    "ar": "أربع جمل. في كلّ واحدة خطأ واحد بالضبط."
+   },
+   {
+    "start": 20.484,
+    "dur": 2.4,
+    "en": "The wood cuts in the workshop.",
+    "ar": "صحّح هذه الجملة: «The wood cuts in the workshop.»"
+   },
+   {
+    "start": 27.649,
+    "dur": 4.704,
+    "en": "The wood is cut in the workshop. Wood does not cut itself.",
+    "ar": "The wood is cut in the workshop. الخشب لا يقطع نفسه."
+   },
+   {
+    "start": 32.703,
+    "dur": 2.712,
+    "en": "The parts are sand by the workers.",
+    "ar": "صحّح هذه الجملة: «The parts are sand by the workers.»"
+   },
+   {
+    "start": 40.415,
+    "dur": 5.112,
+    "en": "The parts are sanded by the workers. Are needs the past participle.",
+    "ar": "The parts are sanded by the workers. تحتاج are اسم المفعول."
+   },
+   {
+    "start": 45.877,
+    "dur": 2.64,
+    "en": "The sofa is deliver tomorrow.",
+    "ar": "صحّح هذه الجملة: «The sofa is deliver tomorrow.»"
+   },
+   {
+    "start": 53.223,
+    "dur": 4.968,
+    "en": "The sofa is delivered tomorrow. Is needs the past participle.",
+    "ar": "The sofa is delivered tomorrow. تحتاج is اسم المفعول."
+   },
+   {
+    "start": 58.541,
+    "dur": 3.024,
+    "en": "The frames is assembled in the workshop.",
+    "ar": "صحّح هذه الجملة: «The frames is assembled in the workshop.»"
+   },
+   {
+    "start": 66.918,
+    "dur": 4.728,
+    "en": "The frames are assembled in the workshop. Frames is plural.",
+    "ar": "The frames are assembled in the workshop. Frames جمع."
+   },
+   {
+    "start": 71.996,
+    "dur": 2.856,
+    "en": "Two mistakes were a missing E-D.",
+    "ar": "خطآن كانا حرفَي E-D ناقصين."
+   },
+   {
+    "start": 75.202,
+    "dur": 3.528,
+    "en": "One was the wrong form, one was the wrong number.",
+    "ar": "وواحد كان الصيغة الخاطئة، وواحد العدد الخاطئ."
+   },
+   {
+    "start": 79.08,
+    "dur": 4.368,
+    "en": "Now two questions. Which sentence is correct?",
+    "ar": "الآن سؤالان. أيّ جملة صحيحة؟"
+   },
+   {
+    "start": 83.798,
+    "dur": 3.6,
+    "en": "Which of the four on screen is passive and correct?",
+    "ar": "أيّ جملة من الأربع على الشاشة مبنيّة للمجهول وصحيحة؟"
+   },
+   {
+    "start": 93.398,
+    "dur": 3.096,
+    "en": "B. The sofa is made in the workshop.",
+    "ar": "ب. The sofa is made in the workshop."
+   },
+   {
+    "start": 96.844,
+    "dur": 2.688,
+    "en": "And which of these four is correct?",
+    "ar": "وأيّ جملة من هذه الأربع صحيحة؟"
+   },
+   {
+    "start": 104.59,
+    "dur": 2.568,
+    "en": "C. The parts are joined.",
+    "ar": "ج. The parts are joined."
+   },
+   {
+    "start": 107.508,
+    "dur": 4.992,
+    "en": "Is or are, then the past participle. Always both.",
+    "ar": "Is أو are، ثمّ اسم المفعول. دائماً كلاهما."
+   },
+   {
+    "start": 112.85,
+    "dur": 3.264,
+    "en": "Leave out either one and the sentence breaks.",
+    "ar": "احذف أيّاً منهما وتنكسر الجملة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 44.814,
+    "hold": 8.36,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

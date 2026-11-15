@@ -1,0 +1,167 @@
+{
+ "schema": "timeline/1",
+ "duration": 128.138,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.728,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.528,
+    "dur": 6.12,
+    "en": "This is Part 6, Four Writing Tasks. You will see how each one is built.",
+    "ar": "هذا الجزء السادس، مهامّ الكتابة الأربع. سترى كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 14.998,
+    "dur": 4.752,
+    "en": "Four writing tasks. I will show how each is built.",
+    "ar": "أربع مهامّ كتابيّة. سأبيّن كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 20.1,
+    "dur": 3.216,
+    "en": "First: explain how a chair is made.",
+    "ar": "أوّلاً: اشرح كيف يُصنع كرسيّ."
+   },
+   {
+    "start": 23.666,
+    "dur": 4.248,
+    "en": "Fifty to seventy words, with the passive and sequencers.",
+    "ar": "خمسون إلى سبعون كلمة، بالمجهول وكلمات الترتيب."
+   },
+   {
+    "start": 28.264,
+    "dur": 8.256,
+    "en": "First blank is. Then blank is. Next blank are. Finally blank is.",
+    "ar": "أوّلاً ـــ يُـ. ثمّ ـــ يُـ. بعد ذلك ـــ تُـ. أخيراً ـــ يُـ."
+   },
+   {
+    "start": 36.87,
+    "dur": 3.264,
+    "en": "What two things must that paragraph use?",
+    "ar": "ما الأمران اللذان يجب أن تستخدمهما تلك الفقرة؟"
+   },
+   {
+    "start": 45.487,
+    "dur": 2.712,
+    "en": "The passive, and sequencers.",
+    "ar": "المبنيّ للمجهول، وكلمات الترتيب."
+   },
+   {
+    "start": 48.549,
+    "dur": 4.176,
+    "en": "Second: which step is the most important, and why?",
+    "ar": "ثانياً: أيّ خطوة أهمّ، ولماذا؟"
+   },
+   {
+    "start": 53.075,
+    "dur": 2.352,
+    "en": "What must that one have?",
+    "ar": "ماذا يجب أن تحوي تلك؟"
+   },
+   {
+    "start": 59.839,
+    "dur": 3.288,
+    "en": "A clear choice, and a reason with because.",
+    "ar": "اختيار واضح، وسبب مع because."
+   },
+   {
+    "start": 63.477,
+    "dur": 4.44,
+    "en": "Use: every later step depends on, and time is wasted.",
+    "ar": "استخدم: كلّ خطوة لاحقة تعتمد على، ويُهدر الوقت."
+   },
+   {
+    "start": 68.267,
+    "dur": 3.576,
+    "en": "Third: a production note from Layla to the team.",
+    "ar": "ثالثاً: ملاحظة إنتاج من ليلى إلى الفريق."
+   },
+   {
+    "start": 72.193,
+    "dur": 5.736,
+    "en": "Dear team. First blank is. Then blank is.",
+    "ar": "فريقي العزيز. أوّلاً ـــ يُـ. ثمّ ـــ يُـ."
+   },
+   {
+    "start": 78.279,
+    "dur": 3.12,
+    "en": "Finally blank is delivered on blank.",
+    "ar": "أخيراً ـــ يُسلَّم في ـــ."
+   },
+   {
+    "start": 81.749,
+    "dur": 3.456,
+    "en": "What must that note include besides the steps?",
+    "ar": "ماذا يجب أن تتضمّن تلك الملاحظة إضافة إلى الخطوات؟"
+   },
+   {
+    "start": 90.911,
+    "dur": 3.144,
+    "en": "A clear order, and a day for the delivery.",
+    "ar": "ترتيب واضح، ويوم للتسليم."
+   },
+   {
+    "start": 94.405,
+    "dur": 3.84,
+    "en": "Fourth: a reflection on something made in your town.",
+    "ar": "رابعاً: تأمّل في شيء يُصنع في بلدتك."
+   },
+   {
+    "start": 98.595,
+    "dur": 4.68,
+    "en": "Forty to sixty words, with the passive and two or three steps.",
+    "ar": "أربعون إلى ستّون كلمة، بالمجهول وخطوتين أو ثلاث."
+   },
+   {
+    "start": 103.625,
+    "dur": 2.472,
+    "en": "What does that reflection need?",
+    "ar": "ماذا يحتاج ذلك التأمّل؟"
+   },
+   {
+    "start": 110.92,
+    "dur": 3.264,
+    "en": "The passive, and two or three steps.",
+    "ar": "المبنيّ للمجهول، وخطوتان أو ثلاث."
+   },
+   {
+    "start": 114.534,
+    "dur": 3.12,
+    "en": "Every task wants the same two things.",
+    "ar": "كلّ مهمّة تريد الأمرين نفسيهما."
+   },
+   {
+    "start": 118.004,
+    "dur": 2.928,
+    "en": "What happens, and in what order.",
+    "ar": "ماذا يحدث، وبأيّ ترتيب."
+   },
+   {
+    "start": 121.282,
+    "dur": 5.256,
+    "en": "Now write. The video stops here, and your pen starts.",
+    "ar": "الآن اكتب. الفيديو يتوقّف هنا، وقلمك يبدأ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

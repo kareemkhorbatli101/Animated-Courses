@@ -1,0 +1,300 @@
+{
+ "schema": "timeline/1",
+ "duration": 179.629,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.696,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.496,
+    "dur": 6.36,
+    "en": "This is Part 1, Shapes Check. You will name four shapes and complete four sentences.",
+    "ar": "هذا الجزء الأوّل، مراجعة الأشكال. ستسمّي أربعة أشكال وتكمل أربع جمل."
+   },
+   {
+    "start": 14.206,
+    "dur": 4.536,
+    "en": "Four shapes first. Match each with its description.",
+    "ar": "أربعة أشكال أوّلاً. طابِق كلّ واحد مع وصفه."
+   },
+   {
+    "start": 19.092,
+    "dur": 3.192,
+    "en": "A square. Which description?",
+    "ar": "المربّع. أيّ وصف؟"
+   },
+   {
+    "start": 26.931,
+    "dur": 2.136,
+    "en": "Four equal sides.",
+    "ar": "أربعة أضلاع متساوية."
+   },
+   {
+    "start": 29.417,
+    "dur": 3.384,
+    "en": "A rectangle. Which description?",
+    "ar": "المستطيل. أيّ وصف؟"
+   },
+   {
+    "start": 37.625,
+    "dur": 3.312,
+    "en": "Two long sides and two short sides.",
+    "ar": "ضلعان طويلان وضلعان قصيران."
+   },
+   {
+    "start": 41.287,
+    "dur": 3.168,
+    "en": "A circle. Which description?",
+    "ar": "الدائرة. أيّ وصف؟"
+   },
+   {
+    "start": 49.102,
+    "dur": 2.016,
+    "en": "Perfectly round.",
+    "ar": "مستديرة تماماً."
+   },
+   {
+    "start": 51.468,
+    "dur": 3.096,
+    "en": "An oval. Which description?",
+    "ar": "الشكل البيضوي. أيّ وصف؟"
+   },
+   {
+    "start": 59.152,
+    "dur": 2.136,
+    "en": "Round, like an egg.",
+    "ar": "مستدير، كالبيضة."
+   },
+   {
+    "start": 61.638,
+    "dur": 4.152,
+    "en": "One description was not needed: three straight sides.",
+    "ar": "بقي وصف لم نحتجه: ثلاثة أضلاع مستقيمة."
+   },
+   {
+    "start": 66.14,
+    "dur": 3.456,
+    "en": "That is a triangle, and we rarely build one.",
+    "ar": "ذاك مثلّث، ونادراً ما نصنع واحداً."
+   },
+   {
+    "start": 69.946,
+    "dur": 2.232,
+    "en": "Now three questions.",
+    "ar": "الآن ثلاثة أسئلة."
+   },
+   {
+    "start": 72.528,
+    "dur": 3.408,
+    "en": "How many millimetres are in one centimetre?",
+    "ar": "كم ميليمتراً في السنتيمتر الواحد؟"
+   },
+   {
+    "start": 81.465,
+    "dur": 1.872,
+    "en": "D. Ten.",
+    "ar": "د. عشرة."
+   },
+   {
+    "start": 83.687,
+    "dur": 2.904,
+    "en": "What do we use to measure furniture?",
+    "ar": "ماذا نستخدم لقياس الأثاث؟"
+   },
+   {
+    "start": 91.709,
+    "dur": 2.376,
+    "en": "C. A measuring tape.",
+    "ar": "ج. شريط قياس."
+   },
+   {
+    "start": 94.435,
+    "dur": 2.208,
+    "en": "What is a cutting list?",
+    "ar": "ما هي قائمة القصّ؟"
+   },
+   {
+    "start": 100.996,
+    "dur": 3.096,
+    "en": "A. A list of pieces and their sizes.",
+    "ar": "أ. قائمة بالقطع ومقاساتها."
+   },
+   {
+    "start": 104.442,
+    "dur": 3.024,
+    "en": "Last, four sentences to complete.",
+    "ar": "أخيراً، أربع جمل لإكمالها."
+   },
+   {
+    "start": 107.816,
+    "dur": 4.008,
+    "en": "The blank of the sofa are two hundred by ninety by eighty.",
+    "ar": "ـــ الكنبة مئتان في تسعين في ثمانين."
+   },
+   {
+    "start": 118.236,
+    "dur": 4.992,
+    "en": "Dimensions. The dimensions of the sofa are those three numbers.",
+    "ar": "الأبعاد. أبعاد الكنبة هي تلك الأرقام الثلاثة."
+   },
+   {
+    "start": 123.578,
+    "dur": 4.968,
+    "en": "The blank of the table is one hundred and twenty, from side to side.",
+    "ar": "ـــ الطاولة مئة وعشرون، من جانب إلى جانب."
+   },
+   {
+    "start": 135.546,
+    "dur": 4.656,
+    "en": "Width. The width of the table is one hundred and twenty.",
+    "ar": "العرض. عرض الطاولة مئة وعشرون."
+   },
+   {
+    "start": 140.552,
+    "dur": 4.416,
+    "en": "The blank of the wardrobe is two hundred, from floor to top.",
+    "ar": "ـــ الخزانة مئتان، من الأرض إلى الأعلى."
+   },
+   {
+    "start": 151.497,
+    "dur": 4.248,
+    "en": "Height. The height of the wardrobe is two hundred.",
+    "ar": "الارتفاع. ارتفاع الخزانة مئتان."
+   },
+   {
+    "start": 156.095,
+    "dur": 3.216,
+    "en": "The carpenter writes every piece on the blank.",
+    "ar": "يكتب النجّار كلّ قطعة على ـــ."
+   },
+   {
+    "start": 165.017,
+    "dur": 4.488,
+    "en": "Cutting list. He writes every piece on the cutting list.",
+    "ar": "قائمة القصّ. يكتب كلّ قطعة على قائمة القصّ."
+   },
+   {
+    "start": 169.855,
+    "dur": 5.376,
+    "en": "Good. Now write two or three sentences about one piece at home.",
+    "ar": "جيّد. الآن اكتب جملتين أو ثلاثاً عن قطعة في البيت."
+   },
+   {
+    "start": 175.581,
+    "dur": 2.448,
+    "en": "Use two measurement words.",
+    "ar": "استخدم كلمتي قياس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "square",
+    "label": "square",
+    "ar": "المربّع",
+    "at": 17.43,
+    "hold": 9.45,
+    "img": "assets/vocab/square.png",
+    "sha": "e9798bc83a9a4db0"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 27.742,
+    "hold": 9.83,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   },
+   {
+    "lemma": "circle",
+    "label": "circle",
+    "ar": "الدائرة",
+    "at": 39.612,
+    "hold": 9.44,
+    "img": "assets/vocab/circle.png",
+    "sha": "6cda905d9b1ae31d"
+   },
+   {
+    "lemma": "oval",
+    "label": "oval",
+    "ar": "البيضوي",
+    "at": 49.83,
+    "hold": 9.27,
+    "img": "assets/vocab/oval.png",
+    "sha": "a30d0e6fdbaee337"
+   },
+   {
+    "lemma": "measuring_tape",
+    "label": "measuring tape",
+    "ar": "شريط القياس",
+    "at": 91.709,
+    "hold": 1.3,
+    "img": "assets/vocab/measuring_tape.png",
+    "sha": "426631ffb9b80558"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 93.06,
+    "hold": 7.89,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 118.236,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "width",
+    "label": "width",
+    "ar": "العرض",
+    "at": 135.546,
+    "hold": 3.0,
+    "img": "assets/vocab/width.png",
+    "sha": "555786d59525614d"
+   },
+   {
+    "lemma": "height",
+    "label": "height",
+    "ar": "الارتفاع",
+    "at": 151.497,
+    "hold": 3.0,
+    "img": "assets/vocab/height.png",
+    "sha": "3e373d73d3e9a0ca"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 165.017,
+    "hold": 3.0,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

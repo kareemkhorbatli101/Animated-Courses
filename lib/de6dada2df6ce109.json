@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 113.66,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 7.584,
+    "en": "This is Part 3, Measuring for a Customer. You will hear a designer match a sofa to a small room.",
+    "ar": "هذا الجزء الثالث، القياس لزبون. ستسمع مصمّمة تلائم كنبة مع غرفة صغيرة."
+   },
+   {
+    "start": 16.03,
+    "dur": 4.488,
+    "en": "What does a designer ask before she chooses a sofa size?",
+    "ar": "ماذا تسأل المصمّمة قبل أن تختار مقاس الكنبة؟"
+   },
+   {
+    "start": 20.868,
+    "dur": 3.84,
+    "en": "Mr Haddad, how big is your living room?",
+    "ar": "سيّد حدّاد، ما مساحة غرفة جلوسك؟"
+   },
+   {
+    "start": 25.058,
+    "dur": 3.192,
+    "en": "It is small, about three metres wide.",
+    "ar": "إنّها صغيرة، عرضها نحو ثلاثة أمتار."
+   },
+   {
+    "start": 28.6,
+    "dur": 4.176,
+    "en": "Then a two-metre sofa is better than a three-metre one.",
+    "ar": "إذاً كنبة بمترين أفضل من كنبة بثلاثة أمتار."
+   },
+   {
+    "start": 33.126,
+    "dur": 4.44,
+    "en": "Yes. And is the grey sofa taller than the blue one?",
+    "ar": "نعم. وهل الكنبة الرماديّة أعلى من الزرقاء؟"
+   },
+   {
+    "start": 37.916,
+    "dur": 4.392,
+    "en": "The grey one is a little taller, but the blue one is wider.",
+    "ar": "الرماديّة أعلى قليلاً، لكنّ الزرقاء أعرض."
+   },
+   {
+    "start": 42.658,
+    "dur": 2.904,
+    "en": "I want the smaller one, please.",
+    "ar": "أريد الأصغر، من فضلك."
+   },
+   {
+    "start": 45.912,
+    "dur": 5.04,
+    "en": "Good choice. I will check the exact dimensions now.",
+    "ar": "اختيار جيّد. سأتحقّق من الأبعاد الدقيقة الآن."
+   },
+   {
+    "start": 51.302,
+    "dur": 5.088,
+    "en": "Three sentences. True, False, or Not Given?",
+    "ar": "ثلاث جمل. صحيح، خطأ، أم غير مذكور؟"
+   },
+   {
+    "start": 56.74,
+    "dur": 3.768,
+    "en": "Mr Haddad's living room is very big.",
+    "ar": "غرفة جلوس السيّد حدّاد كبيرة جداً."
+   },
+   {
+    "start": 65.626,
+    "dur": 5.328,
+    "en": "False. He said it is small, about three metres wide.",
+    "ar": "خطأ. قال إنّها صغيرة، عرضها نحو ثلاثة أمتار."
+   },
+   {
+    "start": 71.304,
+    "dur": 3.504,
+    "en": "The grey sofa is taller than the blue one.",
+    "ar": "الكنبة الرماديّة أعلى من الزرقاء."
+   },
+   {
+    "start": 80.278,
+    "dur": 4.704,
+    "en": "True. I said the grey one is a little taller.",
+    "ar": "صحيح. قلتُ إنّ الرماديّة أعلى قليلاً."
+   },
+   {
+    "start": 85.332,
+    "dur": 3.384,
+    "en": "Mr Haddad wants the biggest sofa.",
+    "ar": "السيّد حدّاد يريد أكبر كنبة."
+   },
+   {
+    "start": 93.658,
+    "dur": 4.152,
+    "en": "False. He asked for the smaller one.",
+    "ar": "خطأ. طلب الأصغر."
+   },
+   {
+    "start": 98.16,
+    "dur": 2.88,
+    "en": "Three phrases carry this talk.",
+    "ar": "ثلاث عبارات تحمل هذا الحديث."
+   },
+   {
+    "start": 101.39,
+    "dur": 5.664,
+    "en": "How big is it? It is better than. The smaller one.",
+    "ar": "كم حجمها؟ إنّها أفضل من. الأصغر."
+   },
+   {
+    "start": 107.404,
+    "dur": 4.656,
+    "en": "Ask the room first. Then choose the sofa.",
+    "ar": "اسأل عن الغرفة أوّلاً. ثمّ اختر الكنبة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 47.012,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 69.904,
+    "hold": 10.32,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 85.345,
+    "hold": 8.26,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "schema": "timeline/1",
+ "duration": 172.021,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 8.52,
+    "en": "This is Part 8, Standard Sizes and Flat-Pack. You will read how fixed sizes made a factory cheaper.",
+    "ar": "هذا الجزء الثامن، المقاسات القياسيّة والعبوة المسطّحة. ستقرأ كيف جعلت المقاسات الثابتة مصنعاً أرخص."
+   },
+   {
+    "start": 16.966,
+    "dur": 4.08,
+    "en": "Why is it cheaper to make furniture in a few fixed sizes?",
+    "ar": "لماذا صناعة الأثاث بمقاسات ثابتة قليلة أرخص؟"
+   },
+   {
+    "start": 21.396,
+    "dur": 3.72,
+    "en": "A standard size is a fixed, common size.",
+    "ar": "المقاس القياسيّ مقاس ثابت وشائع."
+   },
+   {
+    "start": 25.466,
+    "dur": 3.936,
+    "en": "Flat-pack is flat boxes of pieces to build at home.",
+    "ar": "العبوة المسطّحة صناديق مسطّحة بقطع تُركَّب في البيت."
+   },
+   {
+    "start": 29.752,
+    "dur": 5.136,
+    "en": "A big furniture company had a clever idea: standard sizes.",
+    "ar": "كانت لشركة أثاث كبيرة فكرة ذكيّة: مقاسات قياسيّة."
+   },
+   {
+    "start": 35.238,
+    "dur": 3.624,
+    "en": "Instead of making every piece a different size,",
+    "ar": "بدل أن تصنع كلّ قطعة بمقاس مختلف،"
+   },
+   {
+    "start": 39.212,
+    "dur": 4.44,
+    "en": "it made all its shelves and doors in a few fixed sizes.",
+    "ar": "صنعت كلّ رفوفها وأبوابها بمقاسات ثابتة قليلة."
+   },
+   {
+    "start": 44.002,
+    "dur": 3.312,
+    "en": "This made the work faster and cheaper.",
+    "ar": "هذا جعل العمل أسرع وأرخص."
+   },
+   {
+    "start": 47.664,
+    "dur": 3.96,
+    "en": "The machines cut the same pieces again and again.",
+    "ar": "الآلات تقطع القطع نفسها مرّة بعد مرّة."
+   },
+   {
+    "start": 51.974,
+    "dur": 3.6,
+    "en": "The company also used flat-pack design.",
+    "ar": "واستخدمت الشركة أيضاً تصميم العبوة المسطّحة."
+   },
+   {
+    "start": 55.924,
+    "dur": 3.48,
+    "en": "It did not send big, finished furniture.",
+    "ar": "لم ترسل أثاثاً كبيراً جاهزاً."
+   },
+   {
+    "start": 59.754,
+    "dur": 5.064,
+    "en": "It sent flat boxes with all the pieces and simple instructions.",
+    "ar": "أرسلت صناديق مسطّحة فيها كلّ القطع وتعليمات بسيطة."
+   },
+   {
+    "start": 65.168,
+    "dur": 3.432,
+    "en": "And the customer built the furniture at home.",
+    "ar": "والزبون ركّب الأثاث في البيت."
+   },
+   {
+    "start": 68.95,
+    "dur": 3.768,
+    "en": "Flat boxes are smaller than finished furniture.",
+    "ar": "الصناديق المسطّحة أصغر من الأثاث الجاهز."
+   },
+   {
+    "start": 73.068,
+    "dur": 2.664,
+    "en": "So they are cheaper to deliver.",
+    "ar": "لذا توصيلها أرخص."
+   },
+   {
+    "start": 76.082,
+    "dur": 3.336,
+    "en": "Why did standard sizes make the work cheaper?",
+    "ar": "لماذا جعلت المقاسات القياسيّة العمل أرخص؟"
+   },
+   {
+    "start": 85.065,
+    "dur": 3.528,
+    "en": "The machines cut the same pieces again and again.",
+    "ar": "الآلات تقطع القطع نفسها مرّة بعد مرّة."
+   },
+   {
+    "start": 88.943,
+    "dur": 2.448,
+    "en": "What is flat-pack design?",
+    "ar": "ما تصميم العبوة المسطّحة؟"
+   },
+   {
+    "start": 95.862,
+    "dur": 3.912,
+    "en": "Flat boxes of pieces that the customer builds at home.",
+    "ar": "صناديق مسطّحة بقطع يركّبها الزبون في البيت."
+   },
+   {
+    "start": 100.124,
+    "dur": 3.144,
+    "en": "Why are flat boxes cheaper to deliver?",
+    "ar": "لماذا توصيل الصناديق المسطّحة أرخص؟"
+   },
+   {
+    "start": 108.503,
+    "dur": 3.024,
+    "en": "They are smaller than finished furniture.",
+    "ar": "لأنّها أصغر من الأثاث الجاهز."
+   },
+   {
+    "start": 111.877,
+    "dur": 2.112,
+    "en": "Now four words.",
+    "ar": "الآن أربع كلمات."
+   },
+   {
+    "start": 114.339,
+    "dur": 2.232,
+    "en": "A standard size.",
+    "ar": "المقاس القياسيّ."
+   },
+   {
+    "start": 120.571,
+    "dur": 2.784,
+    "en": "A fixed, common size.",
+    "ar": "مقاس ثابت وشائع."
+   },
+   {
+    "start": 123.705,
+    "dur": 1.872,
+    "en": "Flat-pack.",
+    "ar": "العبوة المسطّحة."
+   },
+   {
+    "start": 129.577,
+    "dur": 3.432,
+    "en": "Flat boxes of pieces to build at home.",
+    "ar": "صناديق مسطّحة بقطع تُركَّب في البيت."
+   },
+   {
+    "start": 133.359,
+    "dur": 2.016,
+    "en": "Instructions.",
+    "ar": "التعليمات."
+   },
+   {
+    "start": 139.375,
+    "dur": 3.168,
+    "en": "Steps that tell you how to do something.",
+    "ar": "خطوات تخبرك كيف تفعل شيئاً."
+   },
+   {
+    "start": 142.893,
+    "dur": 1.872,
+    "en": "To deliver.",
+    "ar": "أن توصّل."
+   },
+   {
+    "start": 148.765,
+    "dur": 2.808,
+    "en": "To take furniture to the customer.",
+    "ar": "أن تأخذ الأثاث إلى الزبون."
+   },
+   {
+    "start": 151.923,
+    "dur": 3.552,
+    "en": "One meaning was not needed: a round shape.",
+    "ar": "بقي معنى لم نحتجه: شكل مستدير."
+   },
+   {
+    "start": 155.825,
+    "dur": 2.904,
+    "en": "That is a circle, from Part 1.",
+    "ar": "تلك هي الدائرة، من الجزء الأوّل."
+   },
+   {
+    "start": 159.079,
+    "dur": 5.136,
+    "en": "Talk with a partner. This is similar to Syria because...",
+    "ar": "تحدّث مع شريك. هذا يشبه سوريا لأنّ..."
+   },
+   {
+    "start": 164.565,
+    "dur": 5.856,
+    "en": "This is different because... Flat-pack is good or hard because...",
+    "ar": "هذا يختلف لأنّ... العبوة المسطّحة جيّدة أو صعبة لأنّ..."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

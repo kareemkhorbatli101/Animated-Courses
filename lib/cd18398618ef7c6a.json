@@ -1,0 +1,303 @@
+{
+ "schema": "timeline/1",
+ "duration": 195.606,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 8.808,
+    "en": "This is Part 5, Comprehension and Teamwork. You will answer seven questions and read why departments wait.",
+    "ar": "هذا الجزء الخامس، الفهم والعمل الجماعيّ. ستجيب عن سبعة أسئلة وتقرأ لماذا تنتظر الأقسام."
+   },
+   {
+    "start": 18.262,
+    "dur": 3.216,
+    "en": "Three questions about the text, Layla.",
+    "ar": "ثلاثة أسئلة عن النصّ يا ليلى."
+   },
+   {
+    "start": 21.828,
+    "dur": 2.736,
+    "en": "Where is the piece planned and drawn?",
+    "ar": "أين تُخطَّط القطعة وتُرسم؟"
+   },
+   {
+    "start": 29.741,
+    "dur": 2.448,
+    "en": "B. In the design office.",
+    "ar": "ب. في مكتب التصميم."
+   },
+   {
+    "start": 32.539,
+    "dur": 3.144,
+    "en": "What is added in the upholstery department?",
+    "ar": "ماذا يُضاف في قسم التنجيد؟"
+   },
+   {
+    "start": 41.212,
+    "dur": 2.256,
+    "en": "A. Foam and fabric.",
+    "ar": "أ. الإسفنج والقماش."
+   },
+   {
+    "start": 43.818,
+    "dur": 3.72,
+    "en": "What happens if something is wrong at quality control?",
+    "ar": "ماذا يحدث إن كان هناك خطأ عند ضبط الجودة؟"
+   },
+   {
+    "start": 53.714,
+    "dur": 2.328,
+    "en": "C. It is sent back.",
+    "ar": "ج. تُعاد."
+   },
+   {
+    "start": 56.392,
+    "dur": 2.616,
+    "en": "Now four words from the text.",
+    "ar": "الآن أربع كلمات من النصّ."
+   },
+   {
+    "start": 59.358,
+    "dur": 1.872,
+    "en": "A stage.",
+    "ar": "المرحلة."
+   },
+   {
+    "start": 65.23,
+    "dur": 2.568,
+    "en": "One step in a process.",
+    "ar": "خطوة واحدة في عمليّة."
+   },
+   {
+    "start": 68.148,
+    "dur": 1.872,
+    "en": "To assemble.",
+    "ar": "التجميع."
+   },
+   {
+    "start": 74.02,
+    "dur": 2.328,
+    "en": "To put the parts together.",
+    "ar": "وضع الأجزاء معاً."
+   },
+   {
+    "start": 76.698,
+    "dur": 1.872,
+    "en": "Upholstery.",
+    "ar": "التنجيد."
+   },
+   {
+    "start": 82.57,
+    "dur": 3.504,
+    "en": "The department that adds foam and fabric.",
+    "ar": "القسم الذي يضيف الإسفنج والقماش."
+   },
+   {
+    "start": 86.425,
+    "dur": 2.112,
+    "en": "Quality control.",
+    "ar": "ضبط الجودة."
+   },
+   {
+    "start": 92.537,
+    "dur": 3.072,
+    "en": "The checking of the work before delivery.",
+    "ar": "فحص العمل قبل التسليم."
+   },
+   {
+    "start": 95.959,
+    "dur": 3.456,
+    "en": "One meaning was not needed: a round shape.",
+    "ar": "بقي معنى لم نحتجه: شكل مستدير."
+   },
+   {
+    "start": 99.765,
+    "dur": 3.072,
+    "en": "That is a circle, from Unit 4.",
+    "ar": "تلك هي الدائرة، من الوحدة الرابعة."
+   },
+   {
+    "start": 103.187,
+    "dur": 4.416,
+    "en": "Now a second text. Working as a team.",
+    "ar": "الآن نصّ ثانٍ. العمل كفريق."
+   },
+   {
+    "start": 107.953,
+    "dur": 6.096,
+    "en": "On time means not late. To waste is to lose time or materials.",
+    "ar": "«في الوقت» تعني غير متأخّر. و«الهدر» فقدان الوقت أو المواد."
+   },
+   {
+    "start": 114.399,
+    "dur": 3.84,
+    "en": "In a furniture company, no one works alone.",
+    "ar": "في شركة أثاث، لا أحد يعمل وحده."
+   },
+   {
+    "start": 118.589,
+    "dur": 3.264,
+    "en": "Each department depends on the others.",
+    "ar": "كلّ قسم يعتمد على الآخرين."
+   },
+   {
+    "start": 122.203,
+    "dur": 4.632,
+    "en": "If the workshop is slow, the upholstery team must wait.",
+    "ar": "إن كانت الورشة بطيئة، فعلى فريق التنجيد أن ينتظر."
+   },
+   {
+    "start": 127.185,
+    "dur": 4.152,
+    "en": "If a size is wrong, the whole piece is sent back.",
+    "ar": "إن كان مقاس خاطئاً، تُعاد القطعة كلّها."
+   },
+   {
+    "start": 131.687,
+    "dur": 2.4,
+    "en": "And time is wasted.",
+    "ar": "ويُهدر الوقت."
+   },
+   {
+    "start": 134.437,
+    "dur": 4.416,
+    "en": "So good companies plan carefully and talk every day.",
+    "ar": "لذا تخطّط الشركات الجيّدة بعناية وتتحدّث كلّ يوم."
+   },
+   {
+    "start": 139.203,
+    "dur": 4.488,
+    "en": "When each stage is finished on time, the furniture is ready.",
+    "ar": "حين تنتهي كلّ مرحلة في وقتها، يكون الأثاث جاهزاً."
+   },
+   {
+    "start": 144.041,
+    "dur": 4.176,
+    "en": "Teamwork makes the work faster and the furniture better.",
+    "ar": "العمل الجماعيّ يجعل العمل أسرع والأثاث أفضل."
+   },
+   {
+    "start": 148.567,
+    "dur": 3.816,
+    "en": "Three sentences. True or False?",
+    "ar": "ثلاث جمل. صحيح أم خطأ؟"
+   },
+   {
+    "start": 152.733,
+    "dur": 2.544,
+    "en": "Each department works alone.",
+    "ar": "كلّ قسم يعمل وحده."
+   },
+   {
+    "start": 159.924,
+    "dur": 4.224,
+    "en": "False. Each department depends on the others.",
+    "ar": "خطأ. كلّ قسم يعتمد على الآخرين."
+   },
+   {
+    "start": 164.498,
+    "dur": 3.288,
+    "en": "If a size is wrong, time is wasted.",
+    "ar": "إن كان مقاس خاطئاً، يُهدر الوقت."
+   },
+   {
+    "start": 172.845,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 175.067,
+    "dur": 2.712,
+    "en": "Teamwork makes the work faster.",
+    "ar": "العمل الجماعيّ يجعل العمل أسرع."
+   },
+   {
+    "start": 182.602,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 184.824,
+    "dur": 5.016,
+    "en": "A wrong size in Unit 4 becomes a wasted week in Unit 5.",
+    "ar": "مقاس خاطئ في الوحدة الرابعة يصبح أسبوعاً مهدوراً في الخامسة."
+   },
+   {
+    "start": 190.19,
+    "dur": 3.816,
+    "en": "That is why the two units sit next to each other.",
+    "ar": "لهذا تقع الوحدتان جنباً إلى جنب."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 31.589,
+    "hold": 9.57,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 43.743,
+    "hold": 9.92,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 66.523,
+    "hold": 7.45,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 74.898,
+    "hold": 7.62,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 84.625,
+    "hold": 7.86,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "schema": "timeline/1",
+ "duration": 106.465,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 7.848,
+    "en": "This is Part 5, Measuring and the Cutting List. You will read why two centimetres can waste a week.",
+    "ar": "هذا الجزء الخامس، القياس وقائمة القصّ. ستقرأ لماذا قد يهدر سنتيمتران أسبوعاً."
+   },
+   {
+    "start": 16.294,
+    "dur": 4.344,
+    "en": "Before you read: why must a carpenter measure carefully?",
+    "ar": "قبل القراءة: لماذا يجب أن يقيس النجّار بعناية؟"
+   },
+   {
+    "start": 20.988,
+    "dur": 4.176,
+    "en": "A cutting list is a list of every piece and its size.",
+    "ar": "قائمة القصّ قائمة بكلّ قطعة ومقاسها."
+   },
+   {
+    "start": 25.514,
+    "dur": 3.624,
+    "en": "To fit means to be the right size for a space.",
+    "ar": "«يناسب» تعني أن يكون بالمقاس الصحيح لمكان ما."
+   },
+   {
+    "start": 29.488,
+    "dur": 4.632,
+    "en": "Measuring is one of the most important jobs in furniture-making.",
+    "ar": "القياس من أهمّ الأعمال في صناعة الأثاث."
+   },
+   {
+    "start": 34.47,
+    "dur": 4.344,
+    "en": "Before a carpenter cuts any wood, he measures the space.",
+    "ar": "قبل أن يقطع النجّار أيّ خشب، يقيس المكان."
+   },
+   {
+    "start": 39.164,
+    "dur": 2.472,
+    "en": "And he measures the pieces.",
+    "ar": "ويقيس القطع."
+   },
+   {
+    "start": 41.986,
+    "dur": 4.08,
+    "en": "He writes every piece and its size on a cutting list.",
+    "ar": "يكتب كلّ قطعة ومقاسها على قائمة القصّ."
+   },
+   {
+    "start": 46.416,
+    "dur": 3.936,
+    "en": "A good cutting list shows the length of every part.",
+    "ar": "قائمة القصّ الجيّدة تبيّن طول كلّ جزء."
+   },
+   {
+    "start": 50.702,
+    "dur": 2.904,
+    "en": "It shows the width of every part.",
+    "ar": "وتبيّن عرض كلّ جزء."
+   },
+   {
+    "start": 53.956,
+    "dur": 2.448,
+    "en": "And it shows the thickness.",
+    "ar": "وتبيّن السماكة."
+   },
+   {
+    "start": 56.754,
+    "dur": 3.816,
+    "en": "If the numbers are wrong, the pieces do not fit.",
+    "ar": "إن كانت الأرقام خاطئة، فلن تتناسب القطع."
+   },
+   {
+    "start": 60.92,
+    "dur": 3.168,
+    "en": "And the workshop wastes wood and time.",
+    "ar": "وتهدر الورشة الخشب والوقت."
+   },
+   {
+    "start": 64.438,
+    "dur": 4.656,
+    "en": "That is why carpenters say: measure twice, cut once.",
+    "ar": "لهذا يقول النجّارون: قِس مرّتين، واقطع مرّة."
+   },
+   {
+    "start": 69.444,
+    "dur": 5.016,
+    "en": "A small mistake of one or two centimetres makes a big problem.",
+    "ar": "خطأ صغير من سنتيمتر أو اثنين يصنع مشكلة كبيرة."
+   },
+   {
+    "start": 74.81,
+    "dur": 4.08,
+    "en": "The best carpenters are careful and slow with measuring.",
+    "ar": "أفضل النجّارين دقيقون وبطيئون في القياس."
+   },
+   {
+    "start": 79.24,
+    "dur": 2.808,
+    "en": "But fast and sure with cutting.",
+    "ar": "لكنّهم سريعون وواثقون في القطع."
+   },
+   {
+    "start": 82.398,
+    "dur": 4.056,
+    "en": "Good measuring saves money and makes better furniture.",
+    "ar": "القياس الجيّد يوفّر المال ويصنع أثاثاً أفضل."
+   },
+   {
+    "start": 86.804,
+    "dur": 2.232,
+    "en": "Is measuring important?",
+    "ar": "هل القياس مهمّ؟"
+   },
+   {
+    "start": 93.389,
+    "dur": 4.272,
+    "en": "Yes. It is one of the most important jobs.",
+    "ar": "نعم. إنّه من أهمّ الأعمال."
+   },
+   {
+    "start": 98.011,
+    "dur": 3.288,
+    "en": "Slow with the tape, fast with the saw.",
+    "ar": "بطيء مع الشريط، سريع مع المنشار."
+   },
+   {
+    "start": 101.649,
+    "dur": 3.216,
+    "en": "That is the whole sentence worth remembering.",
+    "ar": "تلك هي الجملة الوحيدة الجديرة بالتذكّر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 19.251,
+    "hold": 3.0,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "length",
+    "label": "length",
+    "ar": "الطول",
+    "at": 46.291,
+    "hold": 3.0,
+    "img": "assets/vocab/length.png",
+    "sha": "14838a644a582e77"
+   },
+   {
+    "lemma": "width",
+    "label": "width",
+    "ar": "العرض",
+    "at": 49.54,
+    "hold": 3.0,
+    "img": "assets/vocab/width.png",
+    "sha": "555786d59525614d"
+   },
+   {
+    "lemma": "thickness",
+    "label": "thickness",
+    "ar": "السماكة",
+    "at": 52.969,
+    "hold": 3.0,
+    "img": "assets/vocab/thickness.png",
+    "sha": "24321c413ad09445"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

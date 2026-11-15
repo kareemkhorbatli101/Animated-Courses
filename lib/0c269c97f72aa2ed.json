@@ -1,0 +1,203 @@
+{
+ "schema": "timeline/1",
+ "duration": 149.579,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 7.152,
+    "en": "This is Part 2, Notice. You will hear three showroom lines and find the rule in them.",
+    "ar": "هذا الجزء الثاني، لاحِظ. ستسمع ثلاث جمل من صالة العرض وتجد القاعدة فيها."
+   },
+   {
+    "start": 15.598,
+    "dur": 3.096,
+    "en": "Listen to three lines from the showroom.",
+    "ar": "استمعي إلى ثلاث جمل من صالة العرض."
+   },
+   {
+    "start": 19.044,
+    "dur": 3.936,
+    "en": "Which words compare two things, and which compare many?",
+    "ar": "أيّ الكلمات تقارن بين شيئين، وأيّها تقارن بين كثيرين؟"
+   },
+   {
+    "start": 23.33,
+    "dur": 3.0,
+    "en": "The wardrobe is bigger than the cabinet.",
+    "ar": "الخزانة أكبر من الدولاب."
+   },
+   {
+    "start": 26.68,
+    "dur": 3.744,
+    "en": "Oak is stronger than pine, but pine is cheaper.",
+    "ar": "البلّوط أقوى من الصنوبر، لكنّ الصنوبر أرخص."
+   },
+   {
+    "start": 30.774,
+    "dur": 3.72,
+    "en": "In our shop, the oak sofa is the most comfortable.",
+    "ar": "في متجرنا، كنبة البلّوط هي الأكثر راحة."
+   },
+   {
+    "start": 34.844,
+    "dur": 3.336,
+    "en": "And the walnut table is the most expensive.",
+    "ar": "وطاولة الجوز هي الأغلى."
+   },
+   {
+    "start": 38.53,
+    "dur": 3.288,
+    "en": "Which words compare just two things?",
+    "ar": "أيّ الكلمات تقارن بين شيئين فقط؟"
+   },
+   {
+    "start": 46.936,
+    "dur": 3.168,
+    "en": "Bigger than, stronger than, cheaper.",
+    "ar": "أكبر من، أقوى من، أرخص."
+   },
+   {
+    "start": 50.454,
+    "dur": 3.192,
+    "en": "Which words compare three or more?",
+    "ar": "أيّ الكلمات تقارن بين ثلاثة أو أكثر؟"
+   },
+   {
+    "start": 58.646,
+    "dur": 3.288,
+    "en": "The most comfortable, the most expensive.",
+    "ar": "الأكثر راحة، الأغلى."
+   },
+   {
+    "start": 62.284,
+    "dur": 3.912,
+    "en": "Now the rule. It has three parts.",
+    "ar": "الآن القاعدة. لها ثلاثة أجزاء."
+   },
+   {
+    "start": 66.546,
+    "dur": 3.792,
+    "en": "First: a short adjective takes E-R and than.",
+    "ar": "أوّلاً: الصفة القصيرة تأخذ E-R و than."
+   },
+   {
+    "start": 70.688,
+    "dur": 2.784,
+    "en": "A sofa is bigger than a chair.",
+    "ar": "الكنبة أكبر من الكرسيّ."
+   },
+   {
+    "start": 73.822,
+    "dur": 3.768,
+    "en": "Second: a long adjective takes more and than.",
+    "ar": "ثانياً: الصفة الطويلة تأخذ more و than."
+   },
+   {
+    "start": 77.94,
+    "dur": 3.168,
+    "en": "Leather is more expensive than fabric.",
+    "ar": "الجلد أغلى من القماش."
+   },
+   {
+    "start": 81.458,
+    "dur": 3.168,
+    "en": "Is it cheaper than, or more cheap than?",
+    "ar": "أنقول cheaper than أم more cheap than؟"
+   },
+   {
+    "start": 89.92,
+    "dur": 4.296,
+    "en": "Cheaper than. Cheap is a short adjective.",
+    "ar": "Cheaper than. كلمة cheap صفة قصيرة."
+   },
+   {
+    "start": 94.566,
+    "dur": 3.936,
+    "en": "Third: for three or more, use the and E-S-T.",
+    "ar": "ثالثاً: لثلاثة أو أكثر، استخدم the و E-S-T."
+   },
+   {
+    "start": 98.852,
+    "dur": 3.336,
+    "en": "Or the and most, for a long adjective.",
+    "ar": "أو the و most، للصفة الطويلة."
+   },
+   {
+    "start": 102.538,
+    "dur": 5.256,
+    "en": "This is the biggest sofa. This is the most comfortable sofa.",
+    "ar": "هذه أكبر كنبة. وهذه أكثر الكنبات راحة."
+   },
+   {
+    "start": 108.144,
+    "dur": 4.752,
+    "en": "Three wardrobes. How do I name the small one?",
+    "ar": "ثلاث خزائن. كيف أسمّي الصغيرة؟"
+   },
+   {
+    "start": 118.543,
+    "dur": 4.848,
+    "en": "The smallest. Three or more takes the superlative.",
+    "ar": "The smallest. ثلاثة أو أكثر تأخذ صيغة التفضيل."
+   },
+   {
+    "start": 123.741,
+    "dur": 2.832,
+    "en": "Four words do not follow the rule.",
+    "ar": "أربع كلمات لا تتبع القاعدة."
+   },
+   {
+    "start": 126.923,
+    "dur": 2.832,
+    "en": "Good becomes better, then best.",
+    "ar": "Good تصبح better، ثمّ best."
+   },
+   {
+    "start": 130.105,
+    "dur": 3.0,
+    "en": "Bad becomes worse, then worst.",
+    "ar": "Bad تصبح worse، ثمّ worst."
+   },
+   {
+    "start": 133.455,
+    "dur": 5.76,
+    "en": "Watch out. More bigger is wrong. Bigger is right.",
+    "ar": "انتبهي. More bigger خطأ. Bigger صحيحة."
+   },
+   {
+    "start": 139.565,
+    "dur": 4.704,
+    "en": "The most cheapest is wrong. The cheapest is right.",
+    "ar": "The most cheapest خطأ. The cheapest صحيحة."
+   },
+   {
+    "start": 144.619,
+    "dur": 3.36,
+    "en": "You will see these again in the Part 5 reading.",
+    "ar": "سترين هذه مرّة أخرى في قراءة الجزء الخامس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

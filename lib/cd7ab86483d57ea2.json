@@ -1,0 +1,210 @@
+{
+ "schema": "timeline/1",
+ "duration": 146.442,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 8.064,
+    "en": "This is Part 9, Furniture for Small Flats. You will decide what Cham Furniture should build next.",
+    "ar": "هذا الجزء التاسع، أثاث للشقق الصغيرة. ستقرّر ما ينبغي أن يصنعه أثاث الشام تالياً."
+   },
+   {
+    "start": 16.51,
+    "dur": 3.912,
+    "en": "Why is a big wardrobe a problem in a small flat?",
+    "ar": "لماذا الخزانة الكبيرة مشكلة في شقّة صغيرة؟"
+   },
+   {
+    "start": 20.772,
+    "dur": 4.224,
+    "en": "In Damascus, many families live in small flats.",
+    "ar": "في دمشق، تعيش عائلات كثيرة في شقق صغيرة."
+   },
+   {
+    "start": 25.346,
+    "dur": 4.104,
+    "en": "A big sofa or a wide wardrobe does not fit.",
+    "ar": "الكنبة الكبيرة أو الخزانة العريضة لا تناسب."
+   },
+   {
+    "start": 29.8,
+    "dur": 4.704,
+    "en": "So Cham Furniture makes special furniture for small spaces.",
+    "ar": "لذا يصنع أثاث الشام أثاثاً خاصّاً للمساحات الصغيرة."
+   },
+   {
+    "start": 34.854,
+    "dur": 3.648,
+    "en": "I design a sofa that is narrower than usual.",
+    "ar": "أصمّم كنبة أضيق من المعتاد."
+   },
+   {
+    "start": 38.852,
+    "dur": 3.288,
+    "en": "And a table that folds against the wall.",
+    "ar": "وطاولة تُطوى على الجدار."
+   },
+   {
+    "start": 42.49,
+    "dur": 3.456,
+    "en": "I also make a bed with drawers under it.",
+    "ar": "وأصنع أيضاً سريراً بأدراج تحته."
+   },
+   {
+    "start": 46.296,
+    "dur": 3.72,
+    "en": "So the family does not need a separate cabinet.",
+    "ar": "فلا تحتاج العائلة دولاباً منفصلاً."
+   },
+   {
+    "start": 50.366,
+    "dur": 4.32,
+    "en": "In a small flat, every centimetre is important.",
+    "ar": "في شقّة صغيرة، كلّ سنتيمتر مهمّ."
+   },
+   {
+    "start": 55.036,
+    "dur": 3.216,
+    "en": "These smaller pieces are cheaper too.",
+    "ar": "هذه القطع الأصغر أرخص أيضاً."
+   },
+   {
+    "start": 58.602,
+    "dur": 2.496,
+    "en": "Because they use less wood.",
+    "ar": "لأنّها تستخدم خشباً أقلّ."
+   },
+   {
+    "start": 61.448,
+    "dur": 4.152,
+    "en": "Many young families in the city like them very much.",
+    "ar": "عائلات شابّة كثيرة في المدينة تحبّها كثيراً."
+   },
+   {
+    "start": 65.95,
+    "dur": 3.888,
+    "en": "What problem do big pieces cause in a small flat?",
+    "ar": "ما المشكلة التي تسبّبها القطع الكبيرة في شقّة صغيرة؟"
+   },
+   {
+    "start": 75.72,
+    "dur": 1.896,
+    "en": "They do not fit.",
+    "ar": "لا تناسب."
+   },
+   {
+    "start": 77.967,
+    "dur": 3.312,
+    "en": "What does Layla design for small spaces?",
+    "ar": "ماذا تصمّم ليلى للمساحات الصغيرة؟"
+   },
+   {
+    "start": 86.631,
+    "dur": 4.512,
+    "en": "A narrower sofa, a folding table, and a bed with drawers.",
+    "ar": "كنبة أضيق، وطاولة قابلة للطي، وسريراً بأدراج."
+   },
+   {
+    "start": 91.493,
+    "dur": 2.904,
+    "en": "Why are the smaller pieces cheaper?",
+    "ar": "لماذا القطع الأصغر أرخص؟"
+   },
+   {
+    "start": 99.456,
+    "dur": 2.064,
+    "en": "They use less wood.",
+    "ar": "تستخدم خشباً أقلّ."
+   },
+   {
+    "start": 101.87,
+    "dur": 5.52,
+    "en": "Now a decision. We want one new product for small flats.",
+    "ar": "الآن قرار. نريد منتجاً جديداً واحداً للشقق الصغيرة."
+   },
+   {
+    "start": 107.74,
+    "dur": 4.848,
+    "en": "A folding table, a bed with drawers, or a narrow bookshelf?",
+    "ar": "طاولة قابلة للطي، سرير بأدراج، أم رفّ كتب ضيّق؟"
+   },
+   {
+    "start": 112.938,
+    "dur": 2.808,
+    "en": "What should they make, and why?",
+    "ar": "ماذا ينبغي أن يصنعوا، ولماذا؟"
+   },
+   {
+    "start": 120.57,
+    "dur": 4.752,
+    "en": "I think the folding table, because it saves space when it is not used.",
+    "ar": "أعتقد الطاولة القابلة للطي، لأنّها توفّر مساحة حين لا تُستخدم."
+   },
+   {
+    "start": 125.672,
+    "dur": 4.968,
+    "en": "Also, every flat needs a table, but not every flat needs a shelf.",
+    "ar": "وأيضاً، كلّ شقّة تحتاج طاولة، لكن ليس كلّ شقّة تحتاج رفّاً."
+   },
+   {
+    "start": 130.99,
+    "dur": 4.296,
+    "en": "This is better than a bed with drawers, because a bed is a big job.",
+    "ar": "هذا أفضل من سرير بأدراج، لأنّ السرير عمل كبير."
+   },
+   {
+    "start": 135.636,
+    "dur": 4.776,
+    "en": "That is one good answer. Yours may be different.",
+    "ar": "تلك إجابة جيّدة واحدة. إجابتك قد تكون مختلفة."
+   },
+   {
+    "start": 140.762,
+    "dur": 4.08,
+    "en": "Give a reason, and your answer is a good one too.",
+    "ar": "أعطِ سبباً، وتكون إجابتك جيّدة أيضاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 86.631,
+    "hold": 3.0,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "folding_table",
+    "label": "folding table",
+    "ar": "الطاولة القابلة للطي",
+    "at": 120.57,
+    "hold": 3.0,
+    "img": "assets/vocab/folding_table.png",
+    "sha": "d276deb08036b65c"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

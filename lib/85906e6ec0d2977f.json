@@ -1,0 +1,177 @@
+{
+ "schema": "timeline/1",
+ "duration": 107.065,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.728,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.528,
+    "dur": 7.32,
+    "en": "This is Part 3, The Order Is Ready. You will hear a finished sofa described in the past passive.",
+    "ar": "هذا الجزء الثالث، الطلبيّة جاهزة. ستسمع وصف كنبة جاهزة بالمجهول الماضي."
+   },
+   {
+    "start": 16.198,
+    "dur": 3.888,
+    "en": "What does a manager tell a customer when the sofa is ready?",
+    "ar": "ماذا تقول المديرة للزبون حين تجهز الكنبة؟"
+   },
+   {
+    "start": 20.436,
+    "dur": 4.824,
+    "en": "Good morning, Mr Haddad. Your sofa is ready.",
+    "ar": "صباح الخير سيّد حدّاد. كنبتك جاهزة."
+   },
+   {
+    "start": 25.61,
+    "dur": 3.36,
+    "en": "Wonderful! How was it made?",
+    "ar": "رائع! كيف صُنعت؟"
+   },
+   {
+    "start": 29.32,
+    "dur": 2.976,
+    "en": "First, it was designed by Layla.",
+    "ar": "أوّلاً، صمّمتها ليلى."
+   },
+   {
+    "start": 32.646,
+    "dur": 3.048,
+    "en": "Then the oak frame was cut and assembled.",
+    "ar": "ثمّ قُطع هيكل البلّوط وجُمِّع."
+   },
+   {
+    "start": 36.044,
+    "dur": 4.176,
+    "en": "After that, it was upholstered with soft grey fabric.",
+    "ar": "بعد ذلك، نُجِّدت بقماش رماديّ ناعم."
+   },
+   {
+    "start": 40.57,
+    "dur": 3.096,
+    "en": "Next, it was varnished and cleaned.",
+    "ar": "بعد ذلك، وُرنشت ونُظِّفت."
+   },
+   {
+    "start": 44.016,
+    "dur": 3.456,
+    "en": "Finally, it was checked by our quality team.",
+    "ar": "أخيراً، فحصها فريق الجودة لدينا."
+   },
+   {
+    "start": 47.822,
+    "dur": 2.088,
+    "en": "When can it be delivered?",
+    "ar": "متى يمكن تسليمها؟"
+   },
+   {
+    "start": 50.26,
+    "dur": 2.832,
+    "en": "It can be delivered tomorrow morning.",
+    "ar": "يمكن تسليمها صباح الغد."
+   },
+   {
+    "start": 53.442,
+    "dur": 2.856,
+    "en": "Perfect. Thank you.",
+    "ar": "ممتاز. شكراً."
+   },
+   {
+    "start": 56.648,
+    "dur": 4.464,
+    "en": "Now put the steps in order. The first is done.",
+    "ar": "الآن رتّب الخطوات. الأولى محلولة."
+   },
+   {
+    "start": 61.462,
+    "dur": 4.392,
+    "en": "It was designed by Layla. That is step one.",
+    "ar": "صمّمتها ليلى. تلك الخطوة الأولى."
+   },
+   {
+    "start": 66.204,
+    "dur": 2.28,
+    "en": "Which step is second?",
+    "ar": "ما الخطوة الثانية؟"
+   },
+   {
+    "start": 72.719,
+    "dur": 2.856,
+    "en": "The oak frame was cut and assembled.",
+    "ar": "قُطع هيكل البلّوط وجُمِّع."
+   },
+   {
+    "start": 75.925,
+    "dur": 2.208,
+    "en": "Which step is third?",
+    "ar": "ما الخطوة الثالثة؟"
+   },
+   {
+    "start": 82.31,
+    "dur": 2.688,
+    "en": "It was upholstered with fabric.",
+    "ar": "نُجِّدت بالقماش."
+   },
+   {
+    "start": 85.348,
+    "dur": 2.232,
+    "en": "Which step is fourth?",
+    "ar": "ما الخطوة الرابعة؟"
+   },
+   {
+    "start": 91.815,
+    "dur": 2.832,
+    "en": "It was checked by the quality team.",
+    "ar": "فحصها فريق الجودة."
+   },
+   {
+    "start": 94.997,
+    "dur": 2.952,
+    "en": "Notice: was, not is.",
+    "ar": "لاحظ: was، لا is."
+   },
+   {
+    "start": 98.299,
+    "dur": 3.936,
+    "en": "The sofa is finished, so the steps are in the past.",
+    "ar": "الكنبة انتهت، لذا الخطوات في الماضي."
+   },
+   {
+    "start": 102.585,
+    "dur": 2.88,
+    "en": "Same passive, different time.",
+    "ar": "المبنيّ للمجهول نفسه، زمن مختلف."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 72.719,
+    "hold": 3.0,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

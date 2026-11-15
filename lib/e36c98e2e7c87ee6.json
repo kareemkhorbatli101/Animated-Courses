@@ -1,0 +1,185 @@
+{
+ "schema": "timeline/1",
+ "duration": 137.872,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 7.008,
+    "en": "This is Part 2, Notice. You will hear four pairs and find what moved to the front.",
+    "ar": "هذا الجزء الثاني، لاحِظ. ستسمع أربعة أزواج وتجد ما انتقل إلى المقدّمة."
+   },
+   {
+    "start": 16.462,
+    "dur": 4.08,
+    "en": "Read these pairs. What is different?",
+    "ar": "اقرأ هذه الأزواج. ما الفرق؟"
+   },
+   {
+    "start": 20.892,
+    "dur": 2.472,
+    "en": "Who or what is at the start?",
+    "ar": "مَن أو ما الذي يأتي في البداية؟"
+   },
+   {
+    "start": 23.714,
+    "dur": 4.296,
+    "en": "The carpenter cuts the wood. The wood is cut.",
+    "ar": "النجّار يقطع الخشب. الخشب يُقطع."
+   },
+   {
+    "start": 28.36,
+    "dur": 4.848,
+    "en": "The workers sand the parts. The parts are sanded.",
+    "ar": "العمّال يصنفرون الأجزاء. الأجزاء تُصنفر."
+   },
+   {
+    "start": 33.558,
+    "dur": 3.552,
+    "en": "What is at the start of the second sentence in each pair?",
+    "ar": "ما الذي يأتي في بداية الجملة الثانية في كلّ زوج؟"
+   },
+   {
+    "start": 43.463,
+    "dur": 4.728,
+    "en": "The thing, not the person. The wood, the parts.",
+    "ar": "الشيء، لا الشخص. الخشب، الأجزاء."
+   },
+   {
+    "start": 48.541,
+    "dur": 3.552,
+    "en": "We use the passive to talk about the process.",
+    "ar": "نستخدم المبنيّ للمجهول للحديث عن العمليّة."
+   },
+   {
+    "start": 52.443,
+    "dur": 3.432,
+    "en": "When the thing is more important than the person.",
+    "ar": "حين يكون الشيء أهمّ من الشخص."
+   },
+   {
+    "start": 56.225,
+    "dur": 5.016,
+    "en": "Now the rule. The active names who does the action.",
+    "ar": "الآن القاعدة. المبنيّ للمعلوم يسمّي من يقوم بالفعل."
+   },
+   {
+    "start": 61.591,
+    "dur": 2.448,
+    "en": "The carpenter cuts the wood.",
+    "ar": "النجّار يقطع الخشب."
+   },
+   {
+    "start": 64.389,
+    "dur": 4.296,
+    "en": "The passive is is or are, plus the past participle.",
+    "ar": "المبنيّ للمجهول هو is أو are، مع اسم المفعول."
+   },
+   {
+    "start": 69.035,
+    "dur": 4.104,
+    "en": "The wood is cut. The parts are sanded.",
+    "ar": "الخشب يُقطع. الأجزاء تُصنفر."
+   },
+   {
+    "start": 73.489,
+    "dur": 3.144,
+    "en": "Is or are? One sofa.",
+    "ar": "Is أم are؟ كنبة واحدة."
+   },
+   {
+    "start": 80.81,
+    "dur": 3.384,
+    "en": "Is. The sofa is made.",
+    "ar": "Is. الكنبة تُصنع."
+   },
+   {
+    "start": 84.544,
+    "dur": 3.192,
+    "en": "Is or are? Many parts.",
+    "ar": "Is أم are؟ أجزاء كثيرة."
+   },
+   {
+    "start": 92.03,
+    "dur": 3.192,
+    "en": "Are. The parts are joined.",
+    "ar": "Are. الأجزاء تُوصل."
+   },
+   {
+    "start": 95.572,
+    "dur": 3.408,
+    "en": "If you must name the person, add by.",
+    "ar": "إن كان لا بدّ من تسمية الشخص، أضف by."
+   },
+   {
+    "start": 99.33,
+    "dur": 3.096,
+    "en": "The sofa is made by the workshop.",
+    "ar": "الكنبة تُصنع من قِبل الورشة."
+   },
+   {
+    "start": 102.776,
+    "dur": 3.456,
+    "en": "But in a process we usually do not need it.",
+    "ar": "لكن في العمليّة لا نحتاج ذلك عادةً."
+   },
+   {
+    "start": 106.582,
+    "dur": 3.288,
+    "en": "Why does a production line prefer the passive?",
+    "ar": "لماذا يفضّل خطّ الإنتاج المبنيّ للمجهول؟"
+   },
+   {
+    "start": 115.576,
+    "dur": 3.552,
+    "en": "Because the piece matters, not which hands did it.",
+    "ar": "لأنّ القطعة هي المهمّة، لا أيّ يدين فعلتها."
+   },
+   {
+    "start": 119.478,
+    "dur": 3.936,
+    "en": "Watch out. The wood cuts is wrong.",
+    "ar": "انتبه. The wood cuts خطأ."
+   },
+   {
+    "start": 123.764,
+    "dur": 2.448,
+    "en": "The wood is cut is right.",
+    "ar": "The wood is cut صحيحة."
+   },
+   {
+    "start": 126.562,
+    "dur": 5.376,
+    "en": "The parts are sand is wrong. The parts are sanded is right.",
+    "ar": "The parts are sand خطأ. The parts are sanded صحيحة."
+   },
+   {
+    "start": 132.288,
+    "dur": 3.984,
+    "en": "You will see the passive again in the Part 5 reading.",
+    "ar": "سترى المبنيّ للمجهول مرّة أخرى في قراءة الجزء الخامس."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

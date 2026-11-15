@@ -1,0 +1,486 @@
+{
+ "schema": "timeline/1",
+ "duration": 263.003,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.696,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.496,
+    "dur": 5.328,
+    "en": "This is the Warm Up. You will meet the ten measuring words of the unit.",
+    "ar": "هذا هو التمهيد. ستتعرّف على كلمات القياس العشر في الوحدة."
+   },
+   {
+    "start": 13.174,
+    "dur": 4.104,
+    "en": "Good morning, Khaled. Today we measure.",
+    "ar": "صباح الخير يا خالد. اليوم نقيس."
+   },
+   {
+    "start": 17.628,
+    "dur": 5.112,
+    "en": "In Unit 3 you learned the tools. Now you learn the numbers.",
+    "ar": "في الوحدة الثالثة تعلّمت الأدوات. الآن تتعلّم الأرقام."
+   },
+   {
+    "start": 23.09,
+    "dur": 4.536,
+    "en": "Ten words. Look at each one before I name it.",
+    "ar": "عشر كلمات. انظر إلى كلٍّ منها قبل أن أسمّيها."
+   },
+   {
+    "start": 27.976,
+    "dur": 4.584,
+    "en": "These are dimensions. They are the sizes of a piece.",
+    "ar": "هذه هي الأبعاد. إنّها مقاسات القطعة."
+   },
+   {
+    "start": 32.91,
+    "dur": 3.168,
+    "en": "Three numbers, and you will learn each one.",
+    "ar": "ثلاثة أرقام، وستتعلّم كلّ واحد منها."
+   },
+   {
+    "start": 36.428,
+    "dur": 5.208,
+    "en": "This is width. How wide something is, from side to side.",
+    "ar": "هذا هو العرض. كم يبلغ اتّساع الشيء، من جانب إلى جانب."
+   },
+   {
+    "start": 41.986,
+    "dur": 5.016,
+    "en": "This is height. How tall something is, from bottom to top.",
+    "ar": "هذا هو الارتفاع. كم يبلغ طول الشيء، من الأسفل إلى الأعلى."
+   },
+   {
+    "start": 47.352,
+    "dur": 5.064,
+    "en": "This is depth. How deep something is, from front to back.",
+    "ar": "هذا هو العمق. كم يبلغ عمق الشيء، من الأمام إلى الخلف."
+   },
+   {
+    "start": 52.766,
+    "dur": 3.888,
+    "en": "This is length. How long something is.",
+    "ar": "هذا هو الطول. كم يبلغ طول الشيء."
+   },
+   {
+    "start": 57.004,
+    "dur": 4.128,
+    "en": "And this is thickness. How thick something is.",
+    "ar": "وهذه هي السماكة. كم تبلغ سماكة الشيء."
+   },
+   {
+    "start": 61.482,
+    "dur": 3.072,
+    "en": "A board is long, and it is also thin.",
+    "ar": "اللوح طويل، وهو أيضاً رقيق."
+   },
+   {
+    "start": 64.904,
+    "dur": 2.184,
+    "en": "This is a cutting list.",
+    "ar": "هذه قائمة قصّ."
+   },
+   {
+    "start": 67.438,
+    "dur": 3.336,
+    "en": "It is a list of all the pieces and their sizes.",
+    "ar": "إنّها قائمة بكلّ القطع ومقاساتها."
+   },
+   {
+    "start": 71.124,
+    "dur": 4.488,
+    "en": "This is a measuring tape. A long, soft ruler.",
+    "ar": "هذا شريط قياس. مسطرة طويلة ليّنة."
+   },
+   {
+    "start": 75.962,
+    "dur": 2.64,
+    "en": "We use it to measure furniture.",
+    "ar": "نستخدمه لقياس الأثاث."
+   },
+   {
+    "start": 78.952,
+    "dur": 5.16,
+    "en": "This is a rectangle. Two long sides and two short sides.",
+    "ar": "هذا مستطيل. ضلعان طويلان وضلعان قصيران."
+   },
+   {
+    "start": 84.462,
+    "dur": 4.416,
+    "en": "And this is an oval. A round shape, like an egg.",
+    "ar": "وهذا شكل بيضوي. شكل مستدير، كالبيضة."
+   },
+   {
+    "start": 89.228,
+    "dur": 3.576,
+    "en": "Now match five measurement words with their meanings.",
+    "ar": "الآن طابِق خمس كلمات قياس مع معانيها."
+   },
+   {
+    "start": 93.154,
+    "dur": 2.928,
+    "en": "Length. What does it mean?",
+    "ar": "الطول. ماذا يعني؟"
+   },
+   {
+    "start": 100.612,
+    "dur": 2.232,
+    "en": "How long something is.",
+    "ar": "كم يبلغ طول الشيء."
+   },
+   {
+    "start": 103.194,
+    "dur": 2.904,
+    "en": "Width. What does it mean?",
+    "ar": "العرض. ماذا يعني؟"
+   },
+   {
+    "start": 110.568,
+    "dur": 3.456,
+    "en": "How wide something is, from side to side.",
+    "ar": "كم يبلغ اتّساع الشيء، من جانب إلى جانب."
+   },
+   {
+    "start": 114.374,
+    "dur": 2.952,
+    "en": "Height. What does it mean?",
+    "ar": "الارتفاع. ماذا يعني؟"
+   },
+   {
+    "start": 121.856,
+    "dur": 3.336,
+    "en": "How tall something is, from bottom to top.",
+    "ar": "كم يبلغ طول الشيء، من الأسفل إلى الأعلى."
+   },
+   {
+    "start": 125.542,
+    "dur": 2.904,
+    "en": "Depth. What does it mean?",
+    "ar": "العمق. ماذا يعني؟"
+   },
+   {
+    "start": 132.916,
+    "dur": 3.408,
+    "en": "How deep something is, from front to back.",
+    "ar": "كم يبلغ عمق الشيء، من الأمام إلى الخلف."
+   },
+   {
+    "start": 136.674,
+    "dur": 3.072,
+    "en": "Thickness. What does it mean?",
+    "ar": "السماكة. ماذا تعني؟"
+   },
+   {
+    "start": 144.452,
+    "dur": 2.184,
+    "en": "How thick something is.",
+    "ar": "كم تبلغ سماكة الشيء."
+   },
+   {
+    "start": 146.986,
+    "dur": 3.864,
+    "en": "One meaning was not needed: how heavy something is.",
+    "ar": "بقي معنى لم نحتجه: كم يبلغ وزن الشيء."
+   },
+   {
+    "start": 151.2,
+    "dur": 3.456,
+    "en": "That is weight, and weight is not a dimension.",
+    "ar": "ذاك هو الوزن، والوزن ليس بُعداً."
+   },
+   {
+    "start": 155.006,
+    "dur": 3.0,
+    "en": "Now four sentences about size.",
+    "ar": "الآن أربع جمل عن المقاس."
+   },
+   {
+    "start": 158.356,
+    "dur": 2.376,
+    "en": "Use a tape to blank the wood.",
+    "ar": "استخدم شريطاً لـ ـــ الخشب."
+   },
+   {
+    "start": 165.438,
+    "dur": 3.528,
+    "en": "Measure. Use a tape to measure the wood.",
+    "ar": "قياس. استخدم شريطاً لقياس الخشب."
+   },
+   {
+    "start": 169.316,
+    "dur": 2.736,
+    "en": "The table is ninety blank high.",
+    "ar": "الطاولة تسعون ـــ ارتفاعاً."
+   },
+   {
+    "start": 176.876,
+    "dur": 4.728,
+    "en": "Centimetres. The table is ninety centimetres high.",
+    "ar": "سنتيمتراً. الطاولة تسعون سنتيمتراً ارتفاعاً."
+   },
+   {
+    "start": 181.954,
+    "dur": 4.728,
+    "en": "This wardrobe is very blank. It nearly touches the ceiling.",
+    "ar": "هذه الخزانة ـــ جداً. تكاد تلامس السقف."
+   },
+   {
+    "start": 193.152,
+    "dur": 3.576,
+    "en": "Tall. This wardrobe is very tall.",
+    "ar": "عالية. هذه الخزانة عالية جداً."
+   },
+   {
+    "start": 197.078,
+    "dur": 2.736,
+    "en": "The sofa is two metres blank.",
+    "ar": "الكنبة متران ـــ."
+   },
+   {
+    "start": 204.52,
+    "dur": 3.864,
+    "en": "Wide. The sofa is two metres wide.",
+    "ar": "عرضاً. الكنبة متران عرضاً."
+   },
+   {
+    "start": 208.734,
+    "dur": 3.192,
+    "en": "Last, a short text about measuring.",
+    "ar": "أخيراً، نصّ قصير عن القياس."
+   },
+   {
+    "start": 212.276,
+    "dur": 3.984,
+    "en": "Before a carpenter makes furniture, he measures carefully.",
+    "ar": "قبل أن يصنع النجّار الأثاث، يقيس بعناية."
+   },
+   {
+    "start": 216.61,
+    "dur": 3.504,
+    "en": "He checks the width, the depth, and the height.",
+    "ar": "يتحقّق من العرض والعمق والارتفاع."
+   },
+   {
+    "start": 220.464,
+    "dur": 3.024,
+    "en": "He writes the sizes on a cutting list.",
+    "ar": "يكتب المقاسات على قائمة القصّ."
+   },
+   {
+    "start": 223.838,
+    "dur": 3.696,
+    "en": "If a piece is too big, it does not fit the room.",
+    "ar": "إن كانت القطعة كبيرة جداً، فلن تناسب الغرفة."
+   },
+   {
+    "start": 227.884,
+    "dur": 3.096,
+    "en": "If it is too small, it looks wrong.",
+    "ar": "وإن كانت صغيرة جداً، فستبدو غير مناسبة."
+   },
+   {
+    "start": 231.33,
+    "dur": 3.456,
+    "en": "A good carpenter measures twice and cuts once.",
+    "ar": "النجّار الجيّد يقيس مرّتين ويقطع مرّة."
+   },
+   {
+    "start": 235.136,
+    "dur": 3.0,
+    "en": "Where does the carpenter write the sizes?",
+    "ar": "أين يكتب النجّار المقاسات؟"
+   },
+   {
+    "start": 243.548,
+    "dur": 2.28,
+    "en": "B. On a cutting list.",
+    "ar": "ب. على قائمة القصّ."
+   },
+   {
+    "start": 246.178,
+    "dur": 2.928,
+    "en": "What happens if a piece is too big?",
+    "ar": "ماذا يحدث إن كانت القطعة كبيرة جداً؟"
+   },
+   {
+    "start": 254.165,
+    "dur": 2.592,
+    "en": "A. It does not fit the room.",
+    "ar": "أ. لا تناسب الغرفة."
+   },
+   {
+    "start": 257.107,
+    "dur": 4.296,
+    "en": "Measure twice, cut once. Remember it.",
+    "ar": "قِس مرّتين، واقطع مرّة. تذكّرها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 26.576,
+    "hold": 3.0,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "width",
+    "label": "width",
+    "ar": "العرض",
+    "at": 34.978,
+    "hold": 3.0,
+    "img": "assets/vocab/width.png",
+    "sha": "555786d59525614d"
+   },
+   {
+    "lemma": "height",
+    "label": "height",
+    "ar": "الارتفاع",
+    "at": 40.511,
+    "hold": 3.0,
+    "img": "assets/vocab/height.png",
+    "sha": "3e373d73d3e9a0ca"
+   },
+   {
+    "lemma": "depth",
+    "label": "depth",
+    "ar": "العمق",
+    "at": 45.915,
+    "hold": 3.0,
+    "img": "assets/vocab/depth.png",
+    "sha": "bb045013b741388a"
+   },
+   {
+    "lemma": "length",
+    "label": "length",
+    "ar": "الطول",
+    "at": 51.316,
+    "hold": 3.0,
+    "img": "assets/vocab/length.png",
+    "sha": "14838a644a582e77"
+   },
+   {
+    "lemma": "thickness",
+    "label": "thickness",
+    "ar": "السماكة",
+    "at": 55.704,
+    "hold": 3.0,
+    "img": "assets/vocab/thickness.png",
+    "sha": "24321c413ad09445"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 63.492,
+    "hold": 3.0,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "measuring_tape",
+    "label": "measuring tape",
+    "ar": "شريط القياس",
+    "at": 69.699,
+    "hold": 3.0,
+    "img": "assets/vocab/measuring_tape.png",
+    "sha": "426631ffb9b80558"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 77.54,
+    "hold": 3.0,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   },
+   {
+    "lemma": "oval",
+    "label": "oval",
+    "ar": "البيضوي",
+    "at": 83.25,
+    "hold": 3.0,
+    "img": "assets/vocab/oval.png",
+    "sha": "a30d0e6fdbaee337"
+   },
+   {
+    "lemma": "length",
+    "label": "length",
+    "ar": "الطول",
+    "at": 91.354,
+    "hold": 9.21,
+    "img": "assets/vocab/length.png",
+    "sha": "14838a644a582e77"
+   },
+   {
+    "lemma": "width",
+    "label": "width",
+    "ar": "العرض",
+    "at": 101.394,
+    "hold": 9.12,
+    "img": "assets/vocab/width.png",
+    "sha": "555786d59525614d"
+   },
+   {
+    "lemma": "height",
+    "label": "height",
+    "ar": "الارتفاع",
+    "at": 112.574,
+    "hold": 9.23,
+    "img": "assets/vocab/height.png",
+    "sha": "3e373d73d3e9a0ca"
+   },
+   {
+    "lemma": "depth",
+    "label": "depth",
+    "ar": "العمق",
+    "at": 123.742,
+    "hold": 9.12,
+    "img": "assets/vocab/depth.png",
+    "sha": "bb045013b741388a"
+   },
+   {
+    "lemma": "thickness",
+    "label": "thickness",
+    "ar": "السماكة",
+    "at": 134.874,
+    "hold": 9.53,
+    "img": "assets/vocab/thickness.png",
+    "sha": "24321c413ad09445"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 243.548,
+    "hold": 3.0,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

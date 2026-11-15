@@ -1,0 +1,228 @@
+{
+ "schema": "timeline/1",
+ "duration": 165.454,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 7.896,
+    "en": "This is Part 7, Checking a Cutting List. You will hear a wrong number found before anything is cut.",
+    "ar": "هذا الجزء السابع، تفقّد قائمة القصّ. ستسمع رقماً خاطئاً يُكتشف قبل أن يُقطع شيء."
+   },
+   {
+    "start": 16.342,
+    "dur": 4.536,
+    "en": "This part is for managers. It is optional.",
+    "ar": "هذا الجزء للمديرين. وهو اختياريّ."
+   },
+   {
+    "start": 21.228,
+    "dur": 4.992,
+    "en": "Four things a foreman says. What is each one for?",
+    "ar": "أربعة أشياء يقولها رئيس العمّال. ما غرض كلّ واحد؟"
+   },
+   {
+    "start": 26.57,
+    "dur": 2.4,
+    "en": "Let's check the cutting list.",
+    "ar": "لنتفقّد قائمة القصّ."
+   },
+   {
+    "start": 33.676,
+    "dur": 2.52,
+    "en": "Checking the sizes on paper.",
+    "ar": "التحقّق من المقاسات على الورق."
+   },
+   {
+    "start": 36.546,
+    "dur": 3.24,
+    "en": "This board is two centimetres too long.",
+    "ar": "هذا اللوح أطول بسنتيمترين."
+   },
+   {
+    "start": 45.08,
+    "dur": 2.256,
+    "en": "Pointing out a mistake.",
+    "ar": "الإشارة إلى خطأ."
+   },
+   {
+    "start": 47.686,
+    "dur": 2.52,
+    "en": "Measure it again, please.",
+    "ar": "قِسه مرّة أخرى من فضلك."
+   },
+   {
+    "start": 54.677,
+    "dur": 2.64,
+    "en": "Asking someone to measure again.",
+    "ar": "طلب إعادة القياس."
+   },
+   {
+    "start": 57.667,
+    "dur": 2.616,
+    "en": "The sizes look correct now.",
+    "ar": "المقاسات تبدو صحيحة الآن."
+   },
+   {
+    "start": 64.871,
+    "dur": 2.328,
+    "en": "Saying the work is right.",
+    "ar": "القول إنّ العمل صحيح."
+   },
+   {
+    "start": 67.549,
+    "dur": 4.344,
+    "en": "One purpose was not needed: asking about the price.",
+    "ar": "بقي غرض لم نحتجه: السؤال عن السعر."
+   },
+   {
+    "start": 72.243,
+    "dur": 3.24,
+    "en": "A cutting list has no prices on it.",
+    "ar": "قائمة القصّ ليس فيها أسعار."
+   },
+   {
+    "start": 75.833,
+    "dur": 4.728,
+    "en": "Sami, let's check the cutting list for Mr Haddad's table.",
+    "ar": "سامي، لنتفقّد قائمة القصّ لطاولة السيّد حدّاد."
+   },
+   {
+    "start": 80.911,
+    "dur": 5.4,
+    "en": "OK. The top is one hundred and sixty by ninety centimetres.",
+    "ar": "حسناً. السطح مئة وستّون في تسعين سنتيمتراً."
+   },
+   {
+    "start": 86.661,
+    "dur": 4.056,
+    "en": "Good, that's correct. And the legs?",
+    "ar": "جيّد، هذا صحيح. والأرجل؟"
+   },
+   {
+    "start": 91.067,
+    "dur": 4.344,
+    "en": "The list says seventy-five, but here it is written fifty-seven.",
+    "ar": "القائمة تقول خمسة وسبعين، لكن هنا مكتوب سبعة وخمسين."
+   },
+   {
+    "start": 95.761,
+    "dur": 4.344,
+    "en": "That's a mistake. It should be seventy-five.",
+    "ar": "هذا خطأ. يجب أن يكون خمسة وسبعين."
+   },
+   {
+    "start": 100.455,
+    "dur": 3.912,
+    "en": "A fifty-seven centimetre leg is too short.",
+    "ar": "رجل بسبعة وخمسين سنتيمتراً قصيرة جداً."
+   },
+   {
+    "start": 104.717,
+    "dur": 4.056,
+    "en": "You're right. I will change it before we cut.",
+    "ar": "أنت محقّة. سأغيّرها قبل أن نقطع."
+   },
+   {
+    "start": 109.123,
+    "dur": 3.792,
+    "en": "Thank you. Please measure twice.",
+    "ar": "شكراً. قِس مرّتين من فضلك."
+   },
+   {
+    "start": 113.265,
+    "dur": 5.4,
+    "en": "The first question is done. We are checking the cutting list.",
+    "ar": "السؤال الأوّل محلول. نحن نتفقّد قائمة القصّ."
+   },
+   {
+    "start": 119.015,
+    "dur": 2.688,
+    "en": "What size is the table top?",
+    "ar": "ما مقاس سطح الطاولة؟"
+   },
+   {
+    "start": 126.291,
+    "dur": 3.792,
+    "en": "One hundred and sixty by ninety centimetres.",
+    "ar": "مئة وستّون في تسعين سنتيمتراً."
+   },
+   {
+    "start": 130.433,
+    "dur": 2.64,
+    "en": "What is the mistake on the list?",
+    "ar": "ما الخطأ في القائمة؟"
+   },
+   {
+    "start": 137.956,
+    "dur": 4.224,
+    "en": "The leg is written fifty-seven instead of seventy-five.",
+    "ar": "الرجل مكتوبة سبعة وخمسين بدل خمسة وسبعين."
+   },
+   {
+    "start": 142.53,
+    "dur": 3.12,
+    "en": "What will Sami do before they cut?",
+    "ar": "ماذا سيفعل سامي قبل أن يقطعوا؟"
+   },
+   {
+    "start": 150.65,
+    "dur": 3.864,
+    "en": "Change it to seventy-five, and correct the mistake.",
+    "ar": "يغيّرها إلى خمسة وسبعين، ويصحّح الخطأ."
+   },
+   {
+    "start": 154.864,
+    "dur": 3.696,
+    "en": "Fifty-seven and seventy-five are the same digits.",
+    "ar": "سبعة وخمسون وخمسة وسبعون الرقمان نفسهما."
+   },
+   {
+    "start": 158.91,
+    "dur": 4.944,
+    "en": "Written in the wrong order. That is the commonest mistake of all.",
+    "ar": "مكتوبان بترتيب خاطئ. ذاك أشيع الأخطاء جميعاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 25.42,
+    "hold": 8.21,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 70.505,
+    "hold": 3.0,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

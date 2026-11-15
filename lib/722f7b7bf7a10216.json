@@ -1,0 +1,225 @@
+{
+ "schema": "timeline/1",
+ "duration": 156.098,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 8.04,
+    "en": "This is Part 7, Planning a Production Schedule. You will hear a week planned backwards from the delivery day.",
+    "ar": "هذا الجزء السابع، تخطيط جدول الإنتاج. ستسمع أسبوعاً يُخطَّط رجوعاً من يوم التسليم."
+   },
+   {
+    "start": 17.494,
+    "dur": 4.536,
+    "en": "This part is for managers. It is optional.",
+    "ar": "هذا الجزء للمديرين. وهو اختياريّ."
+   },
+   {
+    "start": 22.38,
+    "dur": 4.968,
+    "en": "Four things a manager says. What is each one for?",
+    "ar": "أربعة أشياء يقولها المدير. ما غرض كلّ واحد؟"
+   },
+   {
+    "start": 27.698,
+    "dur": 2.04,
+    "en": "Let's plan the week.",
+    "ar": "لنخطّط للأسبوع."
+   },
+   {
+    "start": 33.914,
+    "dur": 2.04,
+    "en": "Starting to plan.",
+    "ar": "البدء بالتخطيط."
+   },
+   {
+    "start": 36.304,
+    "dur": 2.568,
+    "en": "The frames are cut on Monday.",
+    "ar": "الهياكل تُقطع يوم الاثنين."
+   },
+   {
+    "start": 43.578,
+    "dur": 2.616,
+    "en": "Saying when a stage happens.",
+    "ar": "القول متى تحدث مرحلة."
+   },
+   {
+    "start": 46.544,
+    "dur": 2.808,
+    "en": "Upholstery starts on Wednesday.",
+    "ar": "التنجيد يبدأ يوم الأربعاء."
+   },
+   {
+    "start": 54.176,
+    "dur": 2.64,
+    "en": "Saying when a stage begins.",
+    "ar": "القول متى تبدأ مرحلة."
+   },
+   {
+    "start": 57.166,
+    "dur": 2.544,
+    "en": "We must finish by Thursday.",
+    "ar": "يجب أن ننتهي بحلول الخميس."
+   },
+   {
+    "start": 64.298,
+    "dur": 2.016,
+    "en": "Giving a deadline.",
+    "ar": "تحديد موعد نهائيّ."
+   },
+   {
+    "start": 66.664,
+    "dur": 4.368,
+    "en": "One purpose was not needed: talking about the price.",
+    "ar": "بقي غرض لم نحتجه: الحديث عن السعر."
+   },
+   {
+    "start": 71.382,
+    "dur": 3.432,
+    "en": "A schedule has days on it, not money.",
+    "ar": "الجدول فيه أيّام، لا مال."
+   },
+   {
+    "start": 75.164,
+    "dur": 3.984,
+    "en": "Sami, let's plan Mr Haddad's sofa.",
+    "ar": "سامي، لنخطّط لكنبة السيّد حدّاد."
+   },
+   {
+    "start": 79.498,
+    "dur": 3.048,
+    "en": "It must be delivered on Thursday.",
+    "ar": "يجب أن تُسلَّم يوم الخميس."
+   },
+   {
+    "start": 82.896,
+    "dur": 5.088,
+    "en": "OK. The frame is cut and assembled on Monday and Tuesday.",
+    "ar": "حسناً. الهيكل يُقطع ويُجمَّع يومي الاثنين والثلاثاء."
+   },
+   {
+    "start": 88.334,
+    "dur": 3.384,
+    "en": "Good. Then upholstery?",
+    "ar": "جيّد. ثمّ التنجيد؟"
+   },
+   {
+    "start": 92.068,
+    "dur": 2.88,
+    "en": "The seat is upholstered on Wednesday.",
+    "ar": "المقعد يُنجَّد يوم الأربعاء."
+   },
+   {
+    "start": 95.298,
+    "dur": 1.872,
+    "en": "And finishing?",
+    "ar": "والتشطيب؟"
+   },
+   {
+    "start": 97.52,
+    "dur": 3.168,
+    "en": "It is varnished and checked on Thursday morning.",
+    "ar": "يُورنش ويُفحص صباح الخميس."
+   },
+   {
+    "start": 101.038,
+    "dur": 5.112,
+    "en": "Perfect. Then it is delivered on Thursday afternoon.",
+    "ar": "ممتاز. ثمّ يُسلَّم بعد ظهر الخميس."
+   },
+   {
+    "start": 106.5,
+    "dur": 4.824,
+    "en": "Yes. If nothing goes wrong, we finish on time.",
+    "ar": "نعم. إن لم يسُئ شيء، ننتهي في الوقت."
+   },
+   {
+    "start": 111.674,
+    "dur": 5.016,
+    "en": "The first question is done. We are planning the week.",
+    "ar": "السؤال الأوّل محلول. نحن نخطّط للأسبوع."
+   },
+   {
+    "start": 117.04,
+    "dur": 2.712,
+    "en": "When must the sofa be delivered?",
+    "ar": "متى يجب أن تُسلَّم الكنبة؟"
+   },
+   {
+    "start": 124.635,
+    "dur": 2.04,
+    "en": "On Thursday.",
+    "ar": "يوم الخميس."
+   },
+   {
+    "start": 127.025,
+    "dur": 2.592,
+    "en": "When is the seat upholstered?",
+    "ar": "متى يُنجَّد المقعد؟"
+   },
+   {
+    "start": 134.323,
+    "dur": 1.944,
+    "en": "On Wednesday.",
+    "ar": "يوم الأربعاء."
+   },
+   {
+    "start": 136.617,
+    "dur": 3.0,
+    "en": "What happens on Thursday morning?",
+    "ar": "ماذا يحدث صباح الخميس؟"
+   },
+   {
+    "start": 144.558,
+    "dur": 2.568,
+    "en": "It is varnished and checked.",
+    "ar": "يُورنش ويُفحص."
+   },
+   {
+    "start": 147.476,
+    "dur": 3.456,
+    "en": "Four days, four stages, one delivery.",
+    "ar": "أربعة أيّام، وأربع مراحل، وتسليم واحد."
+   },
+   {
+    "start": 151.282,
+    "dur": 3.216,
+    "en": "Plan backwards from the day it must leave.",
+    "ar": "خطّط رجوعاً من اليوم الذي يجب أن تخرج فيه."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 44.744,
+    "hold": 9.38,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

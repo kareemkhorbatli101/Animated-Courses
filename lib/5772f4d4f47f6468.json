@@ -1,0 +1,282 @@
+{
+ "schema": "timeline/1",
+ "duration": 183.626,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 9.096,
+    "en": "This is Part 8, A Faster Production Line. You will read how a factory got faster by moving nothing but the order.",
+    "ar": "هذا الجزء الثامن، خطّ إنتاج أسرع. ستقرأ كيف أصبح مصنع أسرع بتغيير الترتيب وحده."
+   },
+   {
+    "start": 18.55,
+    "dur": 4.368,
+    "en": "How can a factory make furniture faster without more mistakes?",
+    "ar": "كيف يصنع مصنع أثاثاً أسرع دون أخطاء أكثر؟"
+   },
+   {
+    "start": 23.268,
+    "dur": 3.12,
+    "en": "To waste time is to use time badly.",
+    "ar": "هدر الوقت هو استخدامه بشكل سيّئ."
+   },
+   {
+    "start": 26.738,
+    "dur": 2.52,
+    "en": "Lean means with little waste.",
+    "ar": "«الرشيق» تعني بهدر قليل."
+   },
+   {
+    "start": 29.608,
+    "dur": 3.984,
+    "en": "A furniture factory wanted to make sofas faster.",
+    "ar": "أراد مصنع أثاث صنع كنبات أسرع."
+   },
+   {
+    "start": 33.942,
+    "dur": 2.544,
+    "en": "But with no more mistakes.",
+    "ar": "لكن دون أخطاء أكثر."
+   },
+   {
+    "start": 36.836,
+    "dur": 2.856,
+    "en": "The manager studied every step.",
+    "ar": "درست المديرة كلّ خطوة."
+   },
+   {
+    "start": 40.042,
+    "dur": 4.368,
+    "en": "She found that workers walked too far between departments.",
+    "ar": "وجدت أنّ العمّال يمشون مسافة طويلة بين الأقسام."
+   },
+   {
+    "start": 44.76,
+    "dur": 2.376,
+    "en": "And this wasted time.",
+    "ar": "وهذا أهدر الوقت."
+   },
+   {
+    "start": 47.486,
+    "dur": 4.968,
+    "en": "So she put the steps in a better order, close together, like a line.",
+    "ar": "فرتّبت الخطوات ترتيباً أفضل، متقاربة، كالخطّ."
+   },
+   {
+    "start": 52.804,
+    "dur": 4.392,
+    "en": "The wood is cut, then passed straight to the next worker.",
+    "ar": "يُقطع الخشب، ثمّ يُمرَّر مباشرة إلى العامل التالي."
+   },
+   {
+    "start": 57.546,
+    "dur": 1.992,
+    "en": "Who sands it.",
+    "ar": "الذي يصنفره."
+   },
+   {
+    "start": 59.888,
+    "dur": 4.416,
+    "en": "After that, it is assembled, upholstered, and checked.",
+    "ar": "بعد ذلك، يُجمَّع ويُنجَّد ويُفحص."
+   },
+   {
+    "start": 64.654,
+    "dur": 2.832,
+    "en": "Each step next to the last.",
+    "ar": "كلّ خطوة بجانب السابقة."
+   },
+   {
+    "start": 67.836,
+    "dur": 3.744,
+    "en": "Nothing waits, and nothing is carried far.",
+    "ar": "لا شيء ينتظر، ولا شيء يُحمل بعيداً."
+   },
+   {
+    "start": 71.93,
+    "dur": 3.192,
+    "en": "This is called a lean production line.",
+    "ar": "يُسمّى هذا خطّ إنتاج رشيق."
+   },
+   {
+    "start": 75.472,
+    "dur": 3.888,
+    "en": "Now the factory makes more sofas each day.",
+    "ar": "الآن يصنع المصنع كنبات أكثر كلّ يوم."
+   },
+   {
+    "start": 79.71,
+    "dur": 3.024,
+    "en": "And the quality is even better.",
+    "ar": "والجودة أفضل أيضاً."
+   },
+   {
+    "start": 83.084,
+    "dur": 4.128,
+    "en": "Because every worker checks the piece before it moves on.",
+    "ar": "لأنّ كلّ عامل يفحص القطعة قبل أن تنتقل."
+   },
+   {
+    "start": 87.562,
+    "dur": 2.856,
+    "en": "What problem did the manager find?",
+    "ar": "ما المشكلة التي وجدتها المديرة؟"
+   },
+   {
+    "start": 95.418,
+    "dur": 4.68,
+    "en": "Workers walked too far between departments, and this wasted time.",
+    "ar": "العمّال يمشون مسافة طويلة بين الأقسام، وهذا أهدر الوقت."
+   },
+   {
+    "start": 100.448,
+    "dur": 2.136,
+    "en": "What did she change?",
+    "ar": "ماذا غيّرت؟"
+   },
+   {
+    "start": 106.761,
+    "dur": 4.68,
+    "en": "She put the steps close together, in a better order, like a line.",
+    "ar": "رتّبت الخطوات متقاربة، بترتيب أفضل، كالخطّ."
+   },
+   {
+    "start": 111.791,
+    "dur": 2.64,
+    "en": "Why is the quality better now?",
+    "ar": "لماذا الجودة أفضل الآن؟"
+   },
+   {
+    "start": 119.195,
+    "dur": 3.528,
+    "en": "Every worker checks the piece before it moves on.",
+    "ar": "كلّ عامل يفحص القطعة قبل أن تنتقل."
+   },
+   {
+    "start": 123.073,
+    "dur": 2.112,
+    "en": "Now four words.",
+    "ar": "الآن أربع كلمات."
+   },
+   {
+    "start": 125.535,
+    "dur": 1.872,
+    "en": "A stage.",
+    "ar": "المرحلة."
+   },
+   {
+    "start": 131.407,
+    "dur": 2.568,
+    "en": "One step in the process.",
+    "ar": "خطوة واحدة في العمليّة."
+   },
+   {
+    "start": 134.325,
+    "dur": 1.944,
+    "en": "To waste time.",
+    "ar": "هدر الوقت."
+   },
+   {
+    "start": 140.269,
+    "dur": 2.376,
+    "en": "To use time badly.",
+    "ar": "استخدام الوقت بشكل سيّئ."
+   },
+   {
+    "start": 142.995,
+    "dur": 2.232,
+    "en": "A production line.",
+    "ar": "خطّ الإنتاج."
+   },
+   {
+    "start": 149.286,
+    "dur": 3.408,
+    "en": "The order of steps, one after another.",
+    "ar": "ترتيب الخطوات، واحدة بعد الأخرى."
+   },
+   {
+    "start": 153.044,
+    "dur": 1.872,
+    "en": "Quality.",
+    "ar": "الجودة."
+   },
+   {
+    "start": 158.916,
+    "dur": 2.352,
+    "en": "How good something is.",
+    "ar": "مدى جودة الشيء."
+   },
+   {
+    "start": 161.618,
+    "dur": 3.696,
+    "en": "One meaning was not needed: a soft fabric.",
+    "ar": "بقي معنى لم نحتجه: قماش ناعم."
+   },
+   {
+    "start": 165.664,
+    "dur": 2.928,
+    "en": "That is velvet, from Unit 2.",
+    "ar": "ذاك المخمل، من الوحدة الثانية."
+   },
+   {
+    "start": 168.942,
+    "dur": 3.144,
+    "en": "She moved nobody and bought nothing.",
+    "ar": "لم تنقل أحداً ولم تشترِ شيئاً."
+   },
+   {
+    "start": 172.436,
+    "dur": 3.672,
+    "en": "She only changed the order, and the distance.",
+    "ar": "غيّرت الترتيب فقط، والمسافة."
+   },
+   {
+    "start": 176.458,
+    "dur": 5.568,
+    "en": "Talk with a partner. A lean line is good or hard because...",
+    "ar": "تحدّث مع شريك. الخطّ الرشيق جيّد أو صعب لأنّ..."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "production_line",
+    "label": "production line",
+    "ar": "خطّ الإنتاج",
+    "at": 71.255,
+    "hold": 3.0,
+    "img": "assets/vocab/production_line.png",
+    "sha": "eae8b17966f1c347"
+   },
+   {
+    "lemma": "production_line",
+    "label": "production line",
+    "ar": "خطّ الإنتاج",
+    "at": 141.283,
+    "hold": 7.95,
+    "img": "assets/vocab/production_line.png",
+    "sha": "eae8b17966f1c347"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

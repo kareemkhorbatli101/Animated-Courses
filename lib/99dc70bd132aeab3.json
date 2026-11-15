@@ -1,0 +1,294 @@
+{
+ "schema": "timeline/1",
+ "duration": 189.242,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 9.0,
+    "en": "This is Part 5, Comprehension and Small Spaces. You will answer seven questions and read about small homes.",
+    "ar": "هذا الجزء الخامس، الفهم والمساحات الصغيرة. ستجيب عن سبعة أسئلة وتقرأ عن البيوت الصغيرة."
+   },
+   {
+    "start": 17.446,
+    "dur": 3.216,
+    "en": "Three questions about the text, Layla.",
+    "ar": "ثلاثة أسئلة عن النصّ يا ليلى."
+   },
+   {
+    "start": 21.012,
+    "dur": 3.12,
+    "en": "What does a carpenter write on a cutting list?",
+    "ar": "ماذا يكتب النجّار على قائمة القصّ؟"
+   },
+   {
+    "start": 29.838,
+    "dur": 2.808,
+    "en": "B. Every piece and its size.",
+    "ar": "ب. كلّ قطعة ومقاسها."
+   },
+   {
+    "start": 32.996,
+    "dur": 2.736,
+    "en": "What happens if the numbers are wrong?",
+    "ar": "ماذا يحدث إن كانت الأرقام خاطئة؟"
+   },
+   {
+    "start": 40.967,
+    "dur": 3.432,
+    "en": "A. The pieces do not fit and wood is wasted.",
+    "ar": "أ. لا تتناسب القطع ويُهدر الخشب."
+   },
+   {
+    "start": 44.749,
+    "dur": 2.88,
+    "en": "What do carpenters say about measuring?",
+    "ar": "ماذا يقول النجّارون عن القياس؟"
+   },
+   {
+    "start": 52.923,
+    "dur": 3.0,
+    "en": "C. Measure twice, cut once.",
+    "ar": "ج. قِس مرّتين، واقطع مرّة."
+   },
+   {
+    "start": 56.273,
+    "dur": 2.616,
+    "en": "Now four words from the text.",
+    "ar": "الآن أربع كلمات من النصّ."
+   },
+   {
+    "start": 59.239,
+    "dur": 1.872,
+    "en": "To measure.",
+    "ar": "أن تقيس."
+   },
+   {
+    "start": 65.111,
+    "dur": 2.664,
+    "en": "To find the size of something.",
+    "ar": "أن تعرف مقاس شيء."
+   },
+   {
+    "start": 68.125,
+    "dur": 2.016,
+    "en": "A cutting list.",
+    "ar": "قائمة القصّ."
+   },
+   {
+    "start": 74.141,
+    "dur": 2.904,
+    "en": "A list of pieces and their sizes.",
+    "ar": "قائمة بالقطع ومقاساتها."
+   },
+   {
+    "start": 77.395,
+    "dur": 1.872,
+    "en": "To fit.",
+    "ar": "أن يناسب."
+   },
+   {
+    "start": 83.267,
+    "dur": 2.904,
+    "en": "To be the right size for a space.",
+    "ar": "أن يكون بالمقاس الصحيح لمكان."
+   },
+   {
+    "start": 86.521,
+    "dur": 1.872,
+    "en": "To waste.",
+    "ar": "أن تهدر."
+   },
+   {
+    "start": 92.393,
+    "dur": 3.048,
+    "en": "To use more than you need and lose it.",
+    "ar": "أن تستخدم أكثر ممّا تحتاج وتفقده."
+   },
+   {
+    "start": 95.791,
+    "dur": 3.456,
+    "en": "One meaning was not needed: a round shape.",
+    "ar": "بقي معنى لم نحتجه: شكل مستدير."
+   },
+   {
+    "start": 99.597,
+    "dur": 1.992,
+    "en": "That is a circle.",
+    "ar": "تلك هي الدائرة."
+   },
+   {
+    "start": 101.939,
+    "dur": 5.04,
+    "en": "Now a second text. Furniture for small spaces.",
+    "ar": "الآن نصّ ثانٍ. أثاث للمساحات الصغيرة."
+   },
+   {
+    "start": 107.329,
+    "dur": 3.864,
+    "en": "To fold means to bend so it takes less space.",
+    "ar": "«يُطوى» تعني أن ينثني ليأخذ مساحة أقلّ."
+   },
+   {
+    "start": 111.544,
+    "dur": 2.664,
+    "en": "Narrow means not wide.",
+    "ar": "«ضيّق» تعني غير عريض."
+   },
+   {
+    "start": 114.558,
+    "dur": 4.608,
+    "en": "In small homes, furniture must be smaller and clever.",
+    "ar": "في البيوت الصغيرة، يجب أن يكون الأثاث أصغر وأذكى."
+   },
+   {
+    "start": 119.516,
+    "dur": 3.528,
+    "en": "A narrow sofa is better than a wide one.",
+    "ar": "الكنبة الضيّقة أفضل من العريضة."
+   },
+   {
+    "start": 123.394,
+    "dur": 3.96,
+    "en": "A table that folds against the wall saves space.",
+    "ar": "الطاولة التي تُطوى على الجدار توفّر مساحة."
+   },
+   {
+    "start": 127.704,
+    "dur": 3.552,
+    "en": "A bed with drawers under it holds clothes.",
+    "ar": "السرير ذو الأدراج تحته يحفظ الملابس."
+   },
+   {
+    "start": 131.606,
+    "dur": 3.072,
+    "en": "So you do not need a big cabinet.",
+    "ar": "فلا تحتاج دولاباً كبيراً."
+   },
+   {
+    "start": 135.028,
+    "dur": 4.68,
+    "en": "Small furniture is often cheaper, because it uses less wood.",
+    "ar": "الأثاث الصغير غالباً أرخص، لأنّه يستخدم خشباً أقلّ."
+   },
+   {
+    "start": 140.058,
+    "dur": 2.856,
+    "en": "Always measure the space first.",
+    "ar": "قِس المساحة أوّلاً دائماً."
+   },
+   {
+    "start": 143.264,
+    "dur": 3.816,
+    "en": "Three sentences. True or False?",
+    "ar": "ثلاث جمل. صحيح أم خطأ؟"
+   },
+   {
+    "start": 147.43,
+    "dur": 3.408,
+    "en": "A wide sofa is best for a small room.",
+    "ar": "الكنبة العريضة أفضل لغرفة صغيرة."
+   },
+   {
+    "start": 156.014,
+    "dur": 3.816,
+    "en": "False. A narrow sofa is better.",
+    "ar": "خطأ. الكنبة الضيّقة أفضل."
+   },
+   {
+    "start": 160.18,
+    "dur": 2.832,
+    "en": "A folding table saves space.",
+    "ar": "الطاولة القابلة للطي توفّر مساحة."
+   },
+   {
+    "start": 167.659,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 169.881,
+    "dur": 2.88,
+    "en": "Small furniture is often cheaper.",
+    "ar": "الأثاث الصغير غالباً أرخص."
+   },
+   {
+    "start": 177.702,
+    "dur": 3.48,
+    "en": "True. It uses less wood.",
+    "ar": "صحيح. يستخدم خشباً أقلّ."
+   },
+   {
+    "start": 181.532,
+    "dur": 3.192,
+    "en": "Measure the room, then choose the piece.",
+    "ar": "قِس الغرفة، ثمّ اختر القطعة."
+   },
+   {
+    "start": 185.074,
+    "dur": 2.568,
+    "en": "Never the other way round.",
+    "ar": "لا العكس أبداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 20.55,
+    "hold": 9.24,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 66.4,
+    "hold": 7.69,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 146.055,
+    "hold": 12.36,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "folding_table",
+    "label": "folding table",
+    "ar": "الطاولة القابلة للطي",
+    "at": 158.468,
+    "hold": 9.14,
+    "img": "assets/vocab/folding_table.png",
+    "sha": "d276deb08036b65c"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

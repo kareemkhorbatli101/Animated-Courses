@@ -1,0 +1,228 @@
+{
+ "schema": "timeline/1",
+ "duration": 178.979,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 6.792,
+    "en": "This is Part 2, Practice. You will complete eight sentences comparing furniture.",
+    "ar": "هذا الجزء الثاني، التدريب. ستكمل ثماني جمل تقارن بين قطع الأثاث."
+   },
+   {
+    "start": 15.238,
+    "dur": 4.392,
+    "en": "Eight sentences. Four compare two things.",
+    "ar": "ثماني جمل. أربع تقارن بين شيئين."
+   },
+   {
+    "start": 19.98,
+    "dur": 3.84,
+    "en": "The first is done: a sofa is bigger than a chair.",
+    "ar": "الأولى محلولة: الكنبة أكبر من الكرسيّ."
+   },
+   {
+    "start": 24.17,
+    "dur": 4.512,
+    "en": "Oak is blank pine. The word is strong.",
+    "ar": "البلّوط ـــ الصنوبر. الكلمة strong."
+   },
+   {
+    "start": 33.917,
+    "dur": 4.416,
+    "en": "Stronger than. Oak is stronger than pine.",
+    "ar": "Stronger than. البلّوط أقوى من الصنوبر."
+   },
+   {
+    "start": 38.683,
+    "dur": 4.896,
+    "en": "Leather is blank fabric. The word is expensive.",
+    "ar": "الجلد ـــ القماش. الكلمة expensive."
+   },
+   {
+    "start": 49.344,
+    "dur": 5.232,
+    "en": "More expensive than. Leather is more expensive than fabric.",
+    "ar": "More expensive than. الجلد أغلى من القماش."
+   },
+   {
+    "start": 54.926,
+    "dur": 5.04,
+    "en": "A wardrobe is blank a cabinet. The word is tall.",
+    "ar": "الخزانة ـــ الدولاب. الكلمة tall."
+   },
+   {
+    "start": 65.79,
+    "dur": 4.872,
+    "en": "Taller than. A wardrobe is taller than a cabinet.",
+    "ar": "Taller than. الخزانة أعلى من الدولاب."
+   },
+   {
+    "start": 71.012,
+    "dur": 5.4,
+    "en": "This design is blank the old one. The word is modern.",
+    "ar": "هذا التصميم ـــ القديم. الكلمة modern."
+   },
+   {
+    "start": 82.529,
+    "dur": 5.544,
+    "en": "More modern than. This design is more modern than the old one.",
+    "ar": "More modern than. هذا التصميم أحدث من القديم."
+   },
+   {
+    "start": 88.423,
+    "dur": 3.624,
+    "en": "Strong and tall are short, so they take E-R.",
+    "ar": "Strong و tall قصيرتان، لذا تأخذان E-R."
+   },
+   {
+    "start": 92.397,
+    "dur": 3.864,
+    "en": "Expensive and modern are long, so they take more.",
+    "ar": "Expensive و modern طويلتان، لذا تأخذان more."
+   },
+   {
+    "start": 96.611,
+    "dur": 4.056,
+    "en": "Now four more. Three or more things.",
+    "ar": "الآن أربع أخرى. ثلاثة أشياء أو أكثر."
+   },
+   {
+    "start": 101.017,
+    "dur": 5.256,
+    "en": "This is blank sofa in the shop. The word is comfortable.",
+    "ar": "هذه ـــ كنبة في المتجر. الكلمة comfortable."
+   },
+   {
+    "start": 112.567,
+    "dur": 5.592,
+    "en": "The most comfortable. This is the most comfortable sofa in the shop.",
+    "ar": "The most comfortable. هذه أكثر الكنبات راحة في المتجر."
+   },
+   {
+    "start": 118.509,
+    "dur": 5.28,
+    "en": "Walnut is blank wood we have. The word is expensive.",
+    "ar": "الجوز ـــ خشب لدينا. الكلمة expensive."
+   },
+   {
+    "start": 129.848,
+    "dur": 5.664,
+    "en": "The most expensive. Walnut is the most expensive wood we have.",
+    "ar": "The most expensive. الجوز أغلى خشب لدينا."
+   },
+   {
+    "start": 135.862,
+    "dur": 5.304,
+    "en": "This white wardrobe is blank one. The word is small.",
+    "ar": "هذه الخزانة البيضاء ـــ واحدة. الكلمة small."
+   },
+   {
+    "start": 147.225,
+    "dur": 5.184,
+    "en": "The smallest. This white wardrobe is the smallest one.",
+    "ar": "The smallest. هذه الخزانة البيضاء هي الأصغر."
+   },
+   {
+    "start": 152.759,
+    "dur": 4.776,
+    "en": "Oak is blank wood for a frame. The word is good.",
+    "ar": "البلّوط ـــ خشب للهيكل. الكلمة good."
+   },
+   {
+    "start": 163.359,
+    "dur": 4.344,
+    "en": "The best. Oak is the best wood for a frame.",
+    "ar": "The best. البلّوط أفضل خشب للهيكل."
+   },
+   {
+    "start": 168.053,
+    "dur": 4.656,
+    "en": "Good does not take E-S-T. It becomes the best.",
+    "ar": "Good لا تأخذ E-S-T. تصبح the best."
+   },
+   {
+    "start": 173.059,
+    "dur": 4.32,
+    "en": "Two things take than. Three or more take the.",
+    "ar": "شيئان يأخذان than. ثلاثة أو أكثر تأخذ the."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 22.37,
+    "hold": 14.56,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "wardrobe",
+    "label": "wardrobe",
+    "ar": "الخزانة",
+    "at": 53.201,
+    "hold": 15.59,
+    "img": "assets/vocab/wardrobe.png",
+    "sha": "71ccf8f52669fc10"
+   },
+   {
+    "lemma": "sofa",
+    "label": "sofa",
+    "ar": "الكنبة",
+    "at": 100.005,
+    "hold": 16.65,
+    "img": "assets/vocab/sofa.png",
+    "sha": "e3bc3ab8247c2d35"
+   },
+   {
+    "lemma": "walnut",
+    "label": "walnut",
+    "ar": "الجوز",
+    "at": 116.709,
+    "hold": 16.38,
+    "img": "assets/vocab/walnut.png",
+    "sha": "37d1dbe5401335e6"
+   },
+   {
+    "lemma": "wardrobe",
+    "label": "wardrobe",
+    "ar": "الخزانة",
+    "at": 134.637,
+    "hold": 16.09,
+    "img": "assets/vocab/wardrobe.png",
+    "sha": "71ccf8f52669fc10"
+   },
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 150.959,
+    "hold": 15.4,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

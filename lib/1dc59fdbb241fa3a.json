@@ -1,0 +1,167 @@
+{
+ "schema": "timeline/1",
+ "duration": 124.086,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.84,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.64,
+    "dur": 6.12,
+    "en": "This is Part 6, Four Writing Tasks. You will see how each one is built.",
+    "ar": "هذا الجزء السادس، مهامّ الكتابة الأربع. سترى كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 14.11,
+    "dur": 4.752,
+    "en": "Four writing tasks. I will show how each is built.",
+    "ar": "أربع مهامّ كتابيّة. سأبيّن كيف تُبنى كلّ واحدة."
+   },
+   {
+    "start": 19.212,
+    "dur": 3.336,
+    "en": "First: compare two pieces of furniture.",
+    "ar": "أوّلاً: قارن بين قطعتي أثاث."
+   },
+   {
+    "start": 22.898,
+    "dur": 3.744,
+    "en": "Fifty to seventy words, using comparatives.",
+    "ar": "خمسون إلى سبعون كلمة، باستخدام صيغ المقارنة."
+   },
+   {
+    "start": 26.992,
+    "dur": 4.824,
+    "en": "There are two blank. The blank is E-R than the blank.",
+    "ar": "هناك ـــ اثنان. ـــ أكثر E-R من ـــ."
+   },
+   {
+    "start": 32.166,
+    "dur": 2.856,
+    "en": "What must that paragraph contain?",
+    "ar": "ماذا يجب أن تحوي تلك الفقرة؟"
+   },
+   {
+    "start": 39.963,
+    "dur": 3.504,
+    "en": "Two comparatives, and at least one size.",
+    "ar": "صيغتا مقارنة، ومقاس واحد على الأقلّ."
+   },
+   {
+    "start": 43.817,
+    "dur": 3.792,
+    "en": "Second: which furniture is best for a small room?",
+    "ar": "ثانياً: أيّ أثاث أفضل لغرفة صغيرة؟"
+   },
+   {
+    "start": 47.959,
+    "dur": 4.824,
+    "en": "Use superlatives: the smallest, the cheapest, the best choice.",
+    "ar": "استخدم صيغ التفضيل: الأصغر، الأرخص، الخيار الأفضل."
+   },
+   {
+    "start": 53.133,
+    "dur": 2.352,
+    "en": "What must that one have?",
+    "ar": "ماذا يجب أن تحوي تلك؟"
+   },
+   {
+    "start": 59.897,
+    "dur": 3.264,
+    "en": "Two superlatives, and a clear choice.",
+    "ar": "صيغتا تفضيل، واختيار واضح."
+   },
+   {
+    "start": 63.511,
+    "dur": 4.392,
+    "en": "Third: a note from Layla to Sami with the sizes for a table.",
+    "ar": "ثالثاً: ملاحظة من ليلى إلى سامي بمقاسات طاولة."
+   },
+   {
+    "start": 68.253,
+    "dur": 3.792,
+    "en": "Dear blank. Please make blank.",
+    "ar": "عزيزي ـــ. اصنع ـــ من فضلك."
+   },
+   {
+    "start": 72.395,
+    "dur": 3.936,
+    "en": "It is blank long, blank wide, and blank high.",
+    "ar": "طولها ـــ، وعرضها ـــ، وارتفاعها ـــ."
+   },
+   {
+    "start": 76.681,
+    "dur": 2.88,
+    "en": "What three things must that note give?",
+    "ar": "ما الأمور الثلاثة التي يجب أن تعطيها تلك الملاحظة؟"
+   },
+   {
+    "start": 84.796,
+    "dur": 4.632,
+    "en": "Three sizes, the shape or material, and a clear instruction.",
+    "ar": "ثلاثة مقاسات، الشكل أو المادّة، وتعليمة واضحة."
+   },
+   {
+    "start": 89.778,
+    "dur": 3.864,
+    "en": "Fourth: a reflection on the biggest piece in your home.",
+    "ar": "رابعاً: تأمّل في أكبر قطعة في بيتك."
+   },
+   {
+    "start": 93.992,
+    "dur": 4.656,
+    "en": "Forty to sixty words, with one superlative and one size.",
+    "ar": "أربعون إلى ستّون كلمة، بصيغة تفضيل واحدة ومقاس واحد."
+   },
+   {
+    "start": 98.998,
+    "dur": 2.616,
+    "en": "What does a reflection need here?",
+    "ar": "ماذا يحتاج التأمّل هنا؟"
+   },
+   {
+    "start": 106.556,
+    "dur": 2.856,
+    "en": "A superlative, and a size.",
+    "ar": "صيغة تفضيل، ومقاس."
+   },
+   {
+    "start": 109.762,
+    "dur": 2.856,
+    "en": "Every task wants a number in it.",
+    "ar": "كلّ مهمّة تريد رقماً فيها."
+   },
+   {
+    "start": 112.968,
+    "dur": 3.912,
+    "en": "A comparison with no measurement is only an opinion.",
+    "ar": "المقارنة بلا قياس ليست إلّا رأياً."
+   },
+   {
+    "start": 117.23,
+    "dur": 5.256,
+    "en": "Now write. The video stops here, and your pen starts.",
+    "ar": "الآن اكتب. الفيديو يتوقّف هنا، وقلمك يبدأ."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

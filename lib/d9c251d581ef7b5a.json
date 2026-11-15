@@ -1,0 +1,312 @@
+{
+ "schema": "timeline/1",
+ "duration": 165.663,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.696,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.496,
+    "dur": 7.44,
+    "en": "This is Part 1, Measuring and Shapes Terms. You will define seven terms and fill a table of shapes.",
+    "ar": "هذا الجزء الأوّل، مصطلحات القياس والأشكال. ستعرّف سبعة مصطلحات وتملأ جدول أشكال."
+   },
+   {
+    "start": 15.286,
+    "dur": 4.728,
+    "en": "Seven terms today. One meaning will be left over.",
+    "ar": "سبعة مصطلحات اليوم. سيبقى معنى واحد زائداً."
+   },
+   {
+    "start": 20.364,
+    "dur": 5.352,
+    "en": "The first is done. A ruler is a straight tool for short lengths.",
+    "ar": "الأوّل محلول. المسطرة أداة مستقيمة للأطوال القصيرة."
+   },
+   {
+    "start": 26.066,
+    "dur": 1.92,
+    "en": "What are dimensions?",
+    "ar": "ما هي الأبعاد؟"
+   },
+   {
+    "start": 32.163,
+    "dur": 4.032,
+    "en": "The sizes of a piece: width, depth and height.",
+    "ar": "مقاسات القطعة: العرض والعمق والارتفاع."
+   },
+   {
+    "start": 36.545,
+    "dur": 2.136,
+    "en": "What is a cutting list?",
+    "ar": "ما هي قائمة القصّ؟"
+   },
+   {
+    "start": 43.033,
+    "dur": 3.336,
+    "en": "A list of all the pieces and their sizes.",
+    "ar": "قائمة بكلّ القطع ومقاساتها."
+   },
+   {
+    "start": 46.719,
+    "dur": 2.256,
+    "en": "What is a measuring tape?",
+    "ar": "ما هو شريط القياس؟"
+   },
+   {
+    "start": 53.446,
+    "dur": 3.408,
+    "en": "A long, soft ruler to measure furniture.",
+    "ar": "مسطرة طويلة ليّنة لقياس الأثاث."
+   },
+   {
+    "start": 57.204,
+    "dur": 1.992,
+    "en": "What is a millimetre?",
+    "ar": "ما هو الميليمتر؟"
+   },
+   {
+    "start": 63.431,
+    "dur": 4.392,
+    "en": "A very small unit. Ten make one centimetre.",
+    "ar": "وحدة صغيرة جداً. عشرة منها تساوي سنتيمتراً واحداً."
+   },
+   {
+    "start": 68.173,
+    "dur": 1.92,
+    "en": "What is a square?",
+    "ar": "ما هو المربّع؟"
+   },
+   {
+    "start": 74.093,
+    "dur": 2.784,
+    "en": "A shape with four equal sides.",
+    "ar": "شكل بأربعة أضلاع متساوية."
+   },
+   {
+    "start": 77.227,
+    "dur": 2.04,
+    "en": "What is a rectangle?",
+    "ar": "ما هو المستطيل؟"
+   },
+   {
+    "start": 83.444,
+    "dur": 3.912,
+    "en": "A shape with two long sides and two short sides.",
+    "ar": "شكل بضلعين طويلين وضلعين قصيرين."
+   },
+   {
+    "start": 87.706,
+    "dur": 1.896,
+    "en": "What is an oval?",
+    "ar": "ما هو الشكل البيضوي؟"
+   },
+   {
+    "start": 93.602,
+    "dur": 2.784,
+    "en": "A round shape, like an egg.",
+    "ar": "شكل مستدير، كالبيضة."
+   },
+   {
+    "start": 96.736,
+    "dur": 3.936,
+    "en": "The leftover meaning was a tool that makes a hole in wood.",
+    "ar": "المعنى الزائد كان أداة تصنع ثقباً في الخشب."
+   },
+   {
+    "start": 101.022,
+    "dur": 5.232,
+    "en": "That is the drill, from Unit 3. A drill is not a shape.",
+    "ar": "ذاك المثقاب، من الوحدة الثالثة. المثقاب ليس شكلاً."
+   },
+   {
+    "start": 106.604,
+    "dur": 5.232,
+    "en": "Now a table. What shape is each piece, and one size?",
+    "ar": "الآن جدول. ما شكل كلّ قطعة، وما أحد مقاساتها؟"
+   },
+   {
+    "start": 112.186,
+    "dur": 4.728,
+    "en": "The coffee table is done: a rectangle, one hundred and twenty long.",
+    "ar": "طاولة القهوة محلولة: مستطيل، طولها مئة وعشرون."
+   },
+   {
+    "start": 117.264,
+    "dur": 4.032,
+    "en": "A stool. What shape, and one size?",
+    "ar": "المقعد. ما شكله، وما أحد مقاساته؟"
+   },
+   {
+    "start": 126.296,
+    "dur": 3.504,
+    "en": "Round, and forty-five centimetres high.",
+    "ar": "مستدير، وارتفاعه خمسة وأربعون سنتيمتراً."
+   },
+   {
+    "start": 130.15,
+    "dur": 4.08,
+    "en": "A mirror. What shape, and one size?",
+    "ar": "المرآة. ما شكلها، وما أحد مقاساتها؟"
+   },
+   {
+    "start": 139.289,
+    "dur": 3.144,
+    "en": "Oval, and eighty centimetres tall.",
+    "ar": "بيضوية، وارتفاعها ثمانون سنتيمتراً."
+   },
+   {
+    "start": 142.783,
+    "dur": 4.416,
+    "en": "A dining table. What shape, and one size?",
+    "ar": "طاولة الطعام. ما شكلها، وما أحد مقاساتها؟"
+   },
+   {
+    "start": 152.611,
+    "dur": 4.392,
+    "en": "A rectangle, and one hundred and sixty centimetres long.",
+    "ar": "مستطيلة، وطولها مئة وستّون سنتيمتراً."
+   },
+   {
+    "start": 157.353,
+    "dur": 3.12,
+    "en": "Every piece has a shape and three numbers.",
+    "ar": "لكلّ قطعة شكل وثلاثة أرقام."
+   },
+   {
+    "start": 160.823,
+    "dur": 3.24,
+    "en": "Name the shape first, then the sizes.",
+    "ar": "سمِّ الشكل أوّلاً، ثمّ المقاسات."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "dimensions",
+    "label": "dimensions",
+    "ar": "الأبعاد",
+    "at": 24.529,
+    "hold": 7.58,
+    "img": "assets/vocab/dimensions.png",
+    "sha": "52a51304feacadc1"
+   },
+   {
+    "lemma": "cutting_list",
+    "label": "cutting list",
+    "ar": "قائمة القصّ",
+    "at": 35.145,
+    "hold": 7.84,
+    "img": "assets/vocab/cutting_list.png",
+    "sha": "f368784c2be4a779"
+   },
+   {
+    "lemma": "measuring_tape",
+    "label": "measuring tape",
+    "ar": "شريط القياس",
+    "at": 45.332,
+    "hold": 8.06,
+    "img": "assets/vocab/measuring_tape.png",
+    "sha": "426631ffb9b80558"
+   },
+   {
+    "lemma": "square",
+    "label": "square",
+    "ar": "المربّع",
+    "at": 66.798,
+    "hold": 7.25,
+    "img": "assets/vocab/square.png",
+    "sha": "e9798bc83a9a4db0"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 75.827,
+    "hold": 7.57,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   },
+   {
+    "lemma": "oval",
+    "label": "oval",
+    "ar": "البيضوي",
+    "at": 86.418,
+    "hold": 7.13,
+    "img": "assets/vocab/oval.png",
+    "sha": "a30d0e6fdbaee337"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 111.973,
+    "hold": 3.0,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   },
+   {
+    "lemma": "stool",
+    "label": "stool",
+    "ar": "المقعد",
+    "at": 115.589,
+    "hold": 10.66,
+    "img": "assets/vocab/stool.png",
+    "sha": "0578fbf31b50af9c"
+   },
+   {
+    "lemma": "mirror",
+    "label": "mirror",
+    "ar": "المرآة",
+    "at": 128.475,
+    "hold": 10.76,
+    "img": "assets/vocab/mirror.png",
+    "sha": "2851f9c7c0eab30a"
+   },
+   {
+    "lemma": "oval",
+    "label": "oval",
+    "ar": "البيضوي",
+    "at": 139.289,
+    "hold": 1.78,
+    "img": "assets/vocab/oval.png",
+    "sha": "a30d0e6fdbaee337"
+   },
+   {
+    "lemma": "dining_table",
+    "label": "dining table",
+    "ar": "طاولة الطعام",
+    "at": 141.12,
+    "hold": 11.44,
+    "img": "assets/vocab/dining_table.png",
+    "sha": "d984e43a7336a41a"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 152.611,
+    "hold": 3.0,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

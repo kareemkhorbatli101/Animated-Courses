@@ -1,0 +1,207 @@
+{
+ "schema": "timeline/1",
+ "duration": 141.703,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.296,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 8.096,
+    "dur": 7.584,
+    "en": "This is Part 4, Comparing Furniture. You will ask four questions that describe any table.",
+    "ar": "هذا الجزء الرابع، مقارنة الأثاث. ستسأل أربعة أسئلة تصف أيّ طاولة."
+   },
+   {
+    "start": 16.03,
+    "dur": 4.608,
+    "en": "Three questions, Layla. Answer with a reason.",
+    "ar": "ثلاثة أسئلة يا ليلى. أجيبي مع سبب."
+   },
+   {
+    "start": 20.988,
+    "dur": 3.456,
+    "en": "Which is bigger, your table or your bed?",
+    "ar": "أيّهما أكبر، طاولتك أم سريرك؟"
+   },
+   {
+    "start": 29.797,
+    "dur": 3.0,
+    "en": "My bed is bigger than my table.",
+    "ar": "سريري أكبر من طاولتي."
+   },
+   {
+    "start": 33.147,
+    "dur": 3.384,
+    "en": "What is the most comfortable seat in your home?",
+    "ar": "ما أكثر مقعد راحة في بيتك؟"
+   },
+   {
+    "start": 42.296,
+    "dur": 4.536,
+    "en": "The old armchair is the most comfortable seat in my home.",
+    "ar": "الكرسيّ الوثير القديم هو أكثر مقعد راحة في بيتي."
+   },
+   {
+    "start": 47.182,
+    "dur": 4.44,
+    "en": "Do you prefer a bigger sofa or a smaller one, and why?",
+    "ar": "أتفضّلين كنبة أكبر أم أصغر، ولماذا؟"
+   },
+   {
+    "start": 57.798,
+    "dur": 3.552,
+    "en": "A smaller one, because my room is small.",
+    "ar": "أصغر، لأنّ غرفتي صغيرة."
+   },
+   {
+    "start": 61.7,
+    "dur": 4.632,
+    "en": "Use: bigger than, the most comfortable, I prefer because.",
+    "ar": "استخدمي: أكبر من، الأكثر راحة، أفضّل لأنّ."
+   },
+   {
+    "start": 66.682,
+    "dur": 4.32,
+    "en": "Now a pair task. We each have a table.",
+    "ar": "الآن مهمّة ثنائيّة. لكلٍّ منّا طاولة."
+   },
+   {
+    "start": 71.352,
+    "dur": 3.312,
+    "en": "Ask questions and find three differences.",
+    "ar": "اسألي أسئلة وجدي ثلاثة فروق."
+   },
+   {
+    "start": 75.014,
+    "dur": 2.016,
+    "en": "What shape is it?",
+    "ar": "ما شكلها؟"
+   },
+   {
+    "start": 77.38,
+    "dur": 3.648,
+    "en": "Mine is round. And yours?",
+    "ar": "طاولتي مستديرة. وطاولتك؟"
+   },
+   {
+    "start": 81.378,
+    "dur": 4.704,
+    "en": "Mine is a rectangle. That is one difference.",
+    "ar": "طاولتي مستطيلة. هذا فرق أوّل."
+   },
+   {
+    "start": 86.432,
+    "dur": 1.944,
+    "en": "How long is it?",
+    "ar": "كم طولها؟"
+   },
+   {
+    "start": 88.726,
+    "dur": 4.608,
+    "en": "Mine is one hundred and ten across. And yours?",
+    "ar": "طاولتي مئة وعشرة عرضاً. وطاولتك؟"
+   },
+   {
+    "start": 93.684,
+    "dur": 4.464,
+    "en": "One hundred and sixty long. That is two.",
+    "ar": "مئة وستّون طولاً. هذا فرق ثانٍ."
+   },
+   {
+    "start": 98.498,
+    "dur": 1.968,
+    "en": "How wide is it?",
+    "ar": "كم عرضها؟"
+   },
+   {
+    "start": 100.816,
+    "dur": 5.136,
+    "en": "Mine is round, so it has no width. Only across.",
+    "ar": "طاولتي مستديرة، فليس لها عرض. فقط قطر."
+   },
+   {
+    "start": 106.302,
+    "dur": 4.344,
+    "en": "Mine is ninety wide. That is three.",
+    "ar": "طاولتي عرضها تسعون. هذا فرق ثالث."
+   },
+   {
+    "start": 110.996,
+    "dur": 4.584,
+    "en": "Both are seventy-five high. That is the same.",
+    "ar": "كلتاهما ارتفاعهما خمسة وسبعون. هذا متماثل."
+   },
+   {
+    "start": 115.93,
+    "dur": 3.504,
+    "en": "Which four questions describe any table?",
+    "ar": "أيّ أربعة أسئلة تصف أيّ طاولة؟"
+   },
+   {
+    "start": 124.787,
+    "dur": 6.888,
+    "en": "What shape is it? How long? How wide? How high?",
+    "ar": "ما شكلها؟ كم طولها؟ كم عرضها؟ كم ارتفاعها؟"
+   },
+   {
+    "start": 132.025,
+    "dur": 3.096,
+    "en": "Now prepare a talk of about one minute.",
+    "ar": "الآن حضّري حديثاً من دقيقة تقريباً."
+   },
+   {
+    "start": 135.471,
+    "dur": 4.632,
+    "en": "Compare two pieces at home: bigger, taller, more comfortable.",
+    "ar": "قارني بين قطعتين في البيت: أكبر، أعلى، أكثر راحة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "armchair",
+    "label": "armchair",
+    "ar": "الكرسي الوثير",
+    "at": 42.296,
+    "hold": 3.0,
+    "img": "assets/vocab/armchair.png",
+    "sha": "c539ba4c14c4b4be"
+   },
+   {
+    "lemma": "rectangle",
+    "label": "rectangle",
+    "ar": "المستطيل",
+    "at": 80.228,
+    "hold": 3.0,
+    "img": "assets/vocab/rectangle.png",
+    "sha": "13e9f74b3f9bbe1a"
+   },
+   {
+    "lemma": "width",
+    "label": "width",
+    "ar": "العرض",
+    "at": 100.854,
+    "hold": 3.0,
+    "img": "assets/vocab/width.png",
+    "sha": "555786d59525614d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

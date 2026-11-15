@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 112.345,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 7.896,
+    "en": "This is Part 3, How a Sofa Is Made. You will hear six stages, and meet Not Given again.",
+    "ar": "هذا الجزء الثالث، كيف تُصنع الكنبة. ستسمع ستّ مراحل، وتلتقي «غير مذكور» مرّة أخرى."
+   },
+   {
+    "start": 17.35,
+    "dur": 4.008,
+    "en": "How many steps do you think there are in making a sofa?",
+    "ar": "كم خطوة تظنّ أنّ في صنع الكنبة؟"
+   },
+   {
+    "start": 21.708,
+    "dur": 3.336,
+    "en": "Let me explain how a sofa is made.",
+    "ar": "دعني أشرح كيف تُصنع الكنبة."
+   },
+   {
+    "start": 25.394,
+    "dur": 3.72,
+    "en": "First, the design is drawn in the office.",
+    "ar": "أوّلاً، يُرسم التصميم في المكتب."
+   },
+   {
+    "start": 29.464,
+    "dur": 3.72,
+    "en": "Then the wood is cut and sanded in the workshop.",
+    "ar": "ثمّ يُقطع الخشب ويُصنفر في الورشة."
+   },
+   {
+    "start": 33.534,
+    "dur": 3.48,
+    "en": "Next, the frame is assembled and checked.",
+    "ar": "بعد ذلك، يُجمَّع الهيكل ويُفحص."
+   },
+   {
+    "start": 37.364,
+    "dur": 4.536,
+    "en": "After that, the seat is upholstered with foam and fabric.",
+    "ar": "بعد ذلك، يُنجَّد المقعد بالإسفنج والقماش."
+   },
+   {
+    "start": 42.25,
+    "dur": 4.68,
+    "en": "The sofa is then varnished and cleaned in the finishing department.",
+    "ar": "ثمّ تُورنش الكنبة وتُنظَّف في قسم التشطيب."
+   },
+   {
+    "start": 47.28,
+    "dur": 4.488,
+    "en": "Finally, it is checked by quality control and delivered.",
+    "ar": "أخيراً، تُفحص من قِبل ضبط الجودة وتُسلَّم."
+   },
+   {
+    "start": 52.118,
+    "dur": 2.88,
+    "en": "Every step is done with care.",
+    "ar": "كلّ خطوة تُنجز بعناية."
+   },
+   {
+    "start": 55.348,
+    "dur": 5.088,
+    "en": "Three sentences. True, False, or Not Given?",
+    "ar": "ثلاث جمل. صحيح، خطأ، أم غير مذكور؟"
+   },
+   {
+    "start": 60.786,
+    "dur": 2.616,
+    "en": "The wood is cut in the office.",
+    "ar": "يُقطع الخشب في المكتب."
+   },
+   {
+    "start": 68.167,
+    "dur": 3.984,
+    "en": "False. It is cut in the workshop.",
+    "ar": "خطأ. يُقطع في الورشة."
+   },
+   {
+    "start": 72.501,
+    "dur": 3.72,
+    "en": "The seat is upholstered with foam and fabric.",
+    "ar": "يُنجَّد المقعد بالإسفنج والقماش."
+   },
+   {
+    "start": 81.868,
+    "dur": 1.872,
+    "en": "True.",
+    "ar": "صحيح."
+   },
+   {
+    "start": 84.09,
+    "dur": 3.192,
+    "en": "The sofa is delivered in one day.",
+    "ar": "تُسلَّم الكنبة في يوم واحد."
+   },
+   {
+    "start": 92.223,
+    "dur": 5.496,
+    "en": "Not Given. I said it is delivered, but never said how soon.",
+    "ar": "غير مذكور. قلتُ إنّها تُسلَّم، لكنّي لم أقل متى."
+   },
+   {
+    "start": 98.069,
+    "dur": 3.288,
+    "en": "So Not Given again, like Unit 3.",
+    "ar": "إذاً «غير مذكور» مرّة أخرى، كالوحدة الثالثة."
+   },
+   {
+    "start": 101.707,
+    "dur": 4.848,
+    "en": "Yes. The step is mentioned; the speed is not.",
+    "ar": "نعم. الخطوة مذكورة؛ والسرعة ليست كذلك."
+   },
+   {
+    "start": 106.905,
+    "dur": 3.84,
+    "en": "Six stages, and every one of them in the passive.",
+    "ar": "ستّ مراحل، وكلّ واحدة منها بالمبنيّ للمجهول."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 42.9,
+    "hold": 3.0,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 47.205,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "schema": "timeline/1",
+ "duration": 120.521,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 7.848,
+    "en": "This is Part 5, From Design to Delivery. You will read one piece passing through five departments.",
+    "ar": "هذا الجزء الخامس، من التصميم إلى التسليم. ستقرأ عن قطعة تمرّ بخمسة أقسام."
+   },
+   {
+    "start": 17.302,
+    "dur": 3.768,
+    "en": "How many departments does a furniture company have?",
+    "ar": "كم قسماً لدى شركة أثاث؟"
+   },
+   {
+    "start": 21.42,
+    "dur": 4.416,
+    "en": "A department is one part of a company that does one job.",
+    "ar": "القسم جزء من شركة يؤدّي عملاً واحداً."
+   },
+   {
+    "start": 26.186,
+    "dur": 3.312,
+    "en": "A stage is one step in a process.",
+    "ar": "المرحلة خطوة واحدة في عمليّة."
+   },
+   {
+    "start": 29.848,
+    "dur": 3.912,
+    "en": "A piece of furniture is made in many stages.",
+    "ar": "تُصنع قطعة الأثاث على مراحل كثيرة."
+   },
+   {
+    "start": 34.11,
+    "dur": 4.008,
+    "en": "And each stage is done by a different department.",
+    "ar": "وكلّ مرحلة يؤدّيها قسم مختلف."
+   },
+   {
+    "start": 38.468,
+    "dur": 4.656,
+    "en": "First, in the design office, the piece is planned and drawn.",
+    "ar": "أوّلاً، في مكتب التصميم، تُخطَّط القطعة وتُرسم."
+   },
+   {
+    "start": 43.474,
+    "dur": 3.12,
+    "en": "And the exact sizes are chosen.",
+    "ar": "وتُختار المقاسات الدقيقة."
+   },
+   {
+    "start": 46.944,
+    "dur": 3.24,
+    "en": "Then the drawing is sent to the workshop.",
+    "ar": "ثمّ يُرسل الرسم إلى الورشة."
+   },
+   {
+    "start": 50.534,
+    "dur": 4.92,
+    "en": "There, the wood is cut, sanded, and assembled into a frame.",
+    "ar": "هناك، يُقطع الخشب ويُصنفر ويُجمَّع في هيكل."
+   },
+   {
+    "start": 55.804,
+    "dur": 4.44,
+    "en": "Next, the frame is passed to the upholstery department.",
+    "ar": "بعد ذلك، يُمرَّر الهيكل إلى قسم التنجيد."
+   },
+   {
+    "start": 60.594,
+    "dur": 2.928,
+    "en": "Where foam and fabric are added.",
+    "ar": "حيث يُضاف الإسفنج والقماش."
+   },
+   {
+    "start": 63.872,
+    "dur": 4.152,
+    "en": "After that, the piece goes to the finishing department.",
+    "ar": "بعد ذلك، تذهب القطعة إلى قسم التشطيب."
+   },
+   {
+    "start": 68.374,
+    "dur": 2.904,
+    "en": "Where it is varnished and cleaned.",
+    "ar": "حيث تُورنش وتُنظَّف."
+   },
+   {
+    "start": 71.628,
+    "dur": 4.728,
+    "en": "Before it leaves, it is checked carefully by quality control.",
+    "ar": "قبل أن تخرج، تُفحص بعناية من قِبل ضبط الجودة."
+   },
+   {
+    "start": 76.706,
+    "dur": 3.48,
+    "en": "If something is wrong, it is sent back.",
+    "ar": "إن كان هناك خطأ، تُعاد."
+   },
+   {
+    "start": 80.536,
+    "dur": 4.224,
+    "en": "Finally, the finished furniture is packed and delivered.",
+    "ar": "أخيراً، يُغلَّف الأثاث الجاهز ويُسلَّم."
+   },
+   {
+    "start": 85.11,
+    "dur": 4.896,
+    "en": "Good furniture is made when every department does its job well.",
+    "ar": "الأثاث الجيّد يُصنع حين يؤدّي كلّ قسم عمله جيّداً."
+   },
+   {
+    "start": 90.356,
+    "dur": 2.976,
+    "en": "Is furniture made in many stages?",
+    "ar": "هل يُصنع الأثاث على مراحل كثيرة؟"
+   },
+   {
+    "start": 98.273,
+    "dur": 1.872,
+    "en": "Yes.",
+    "ar": "نعم."
+   },
+   {
+    "start": 100.495,
+    "dur": 2.736,
+    "en": "Count the passives in that text.",
+    "ar": "عُدّ صيغ المجهول في ذلك النصّ."
+   },
+   {
+    "start": 103.581,
+    "dur": 5.904,
+    "en": "Planned, drawn, chosen, sent, cut, sanded, assembled, added.",
+    "ar": "تُخطَّط، تُرسم، تُختار، يُرسل، يُقطع، يُصنفر، يُجمَّع، يُضاف."
+   },
+   {
+    "start": 109.835,
+    "dur": 4.944,
+    "en": "Varnished, cleaned, checked, sent back, packed, delivered.",
+    "ar": "تُورنش، تُنظَّف، تُفحص، تُعاد، يُغلَّف، يُسلَّم."
+   },
+   {
+    "start": 115.129,
+    "dur": 3.792,
+    "en": "Fourteen, and not one of them names a person.",
+    "ar": "أربع عشرة، وليست واحدة منها تسمّي شخصاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 64.01,
+    "hold": 3.0,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 72.516,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

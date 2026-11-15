@@ -1,0 +1,234 @@
+{
+ "schema": "timeline/1",
+ "duration": 162.158,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.408,
+    "dur": 6.72,
+    "en": "This is Part 2, Practice. You will turn four sentences around and choose four forms.",
+    "ar": "هذا الجزء الثاني، التدريب. ستقلب أربع جمل وتختار أربع صيغ."
+   },
+   {
+    "start": 15.478,
+    "dur": 4.392,
+    "en": "Eight sentences. Four to change into the passive.",
+    "ar": "ثماني جمل. أربع لتحويلها إلى المبنيّ للمجهول."
+   },
+   {
+    "start": 20.22,
+    "dur": 5.28,
+    "en": "The first is done. The carpenter cuts the wood becomes the wood is cut.",
+    "ar": "الأولى محلولة. «النجّار يقطع الخشب» تصبح «الخشب يُقطع»."
+   },
+   {
+    "start": 25.85,
+    "dur": 3.624,
+    "en": "The workers sand the parts. Change it.",
+    "ar": "العمّال يصنفرون الأجزاء. حوّلها."
+   },
+   {
+    "start": 34.709,
+    "dur": 2.064,
+    "en": "The parts are sanded.",
+    "ar": "الأجزاء تُصنفر."
+   },
+   {
+    "start": 37.123,
+    "dur": 3.72,
+    "en": "The team assembles the frame. Change it.",
+    "ar": "الفريق يجمّع الهيكل. حوّلها."
+   },
+   {
+    "start": 46.196,
+    "dur": 2.232,
+    "en": "The frame is assembled.",
+    "ar": "الهيكل يُجمَّع."
+   },
+   {
+    "start": 48.778,
+    "dur": 3.48,
+    "en": "They upholster the seat. Change it.",
+    "ar": "هم ينجّدون المقعد. حوّلها."
+   },
+   {
+    "start": 57.317,
+    "dur": 2.256,
+    "en": "The seat is upholstered.",
+    "ar": "المقعد يُنجَّد."
+   },
+   {
+    "start": 59.923,
+    "dur": 3.912,
+    "en": "The workshop makes the sofas. Change it.",
+    "ar": "الورشة تصنع الكنبات. حوّلها."
+   },
+   {
+    "start": 69.188,
+    "dur": 2.088,
+    "en": "The sofas are made.",
+    "ar": "الكنبات تُصنع."
+   },
+   {
+    "start": 71.626,
+    "dur": 6.0,
+    "en": "One frame, one seat: is. Many parts, many sofas: are.",
+    "ar": "هيكل واحد، مقعد واحد: is. أجزاء كثيرة، كنبات كثيرة: are."
+   },
+   {
+    "start": 77.976,
+    "dur": 5.904,
+    "en": "Now four more. Active or passive? Choose the right form.",
+    "ar": "الآن أربع أخرى. معلوم أم مجهول؟ اختر الصيغة الصحيحة."
+   },
+   {
+    "start": 84.23,
+    "dur": 4.224,
+    "en": "The wood blank in the workshop. Cuts, or is cut?",
+    "ar": "الخشب ـــ في الورشة. cuts أم is cut؟"
+   },
+   {
+    "start": 94.278,
+    "dur": 3.912,
+    "en": "Is cut. The wood is cut in the workshop.",
+    "ar": "Is cut. الخشب يُقطع في الورشة."
+   },
+   {
+    "start": 98.54,
+    "dur": 4.464,
+    "en": "The carpenter blank the frame. Sands, or is sanded?",
+    "ar": "النجّار ـــ الهيكل. sands أم is sanded؟"
+   },
+   {
+    "start": 109.004,
+    "dur": 3.816,
+    "en": "Sands. The carpenter sands the frame.",
+    "ar": "Sands. النجّار يصنفر الهيكل."
+   },
+   {
+    "start": 113.17,
+    "dur": 4.896,
+    "en": "The sofas blank on Sunday. Deliver, or are delivered?",
+    "ar": "الكنبات ـــ يوم الأحد. deliver أم are delivered؟"
+   },
+   {
+    "start": 124.183,
+    "dur": 4.176,
+    "en": "Are delivered. The sofas are delivered on Sunday.",
+    "ar": "Are delivered. الكنبات تُسلَّم يوم الأحد."
+   },
+   {
+    "start": 128.709,
+    "dur": 5.016,
+    "en": "Quality control blank every piece. Checks, or is checked?",
+    "ar": "ضبط الجودة ـــ كلّ قطعة. checks أم is checked؟"
+   },
+   {
+    "start": 140.078,
+    "dur": 4.248,
+    "en": "Checks. Quality control checks every piece.",
+    "ar": "Checks. ضبط الجودة يفحص كلّ قطعة."
+   },
+   {
+    "start": 144.676,
+    "dur": 2.904,
+    "en": "Notice the last two, Khaled.",
+    "ar": "لاحظ الأخيرتين يا خالد."
+   },
+   {
+    "start": 147.93,
+    "dur": 3.912,
+    "en": "The sofas do not deliver themselves, so they are delivered.",
+    "ar": "الكنبات لا تسلّم نفسها، لذا تُسلَّم."
+   },
+   {
+    "start": 152.192,
+    "dur": 3.456,
+    "en": "Quality control does the checking, so it checks.",
+    "ar": "ضبط الجودة هو من يفحص، لذا يفحص."
+   },
+   {
+    "start": 155.998,
+    "dur": 4.56,
+    "en": "Ask who does it. That tells you which form to use.",
+    "ar": "اسأل من يفعلها. ذلك يخبرك أيّ صيغة تستخدم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 36.361,
+    "hold": 12.84,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 97.777,
+    "hold": 14.82,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 113.685,
+    "hold": 10.45,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 126.909,
+    "hold": 16.17,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 147.055,
+    "hold": 3.0,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 150.392,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

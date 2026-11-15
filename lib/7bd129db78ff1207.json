@@ -1,0 +1,264 @@
+{
+ "schema": "timeline/1",
+ "duration": 182.574,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 8.76,
+    "en": "This is Part 1, Process and Department Terms. You will define seven terms and fill a table of departments.",
+    "ar": "هذا الجزء الأوّل، مصطلحات العمليّة والأقسام. ستعرّف سبعة مصطلحات وتملأ جدول أقسام."
+   },
+   {
+    "start": 18.214,
+    "dur": 5.184,
+    "en": "Seven terms today. One meaning will be left over.",
+    "ar": "سبعة مصطلحات اليوم. سيبقى معنى واحد زائداً."
+   },
+   {
+    "start": 23.748,
+    "dur": 6.72,
+    "en": "The first is done. A prototype is the first sample made to test a design.",
+    "ar": "الأوّل محلول. النموذج الأوّليّ أوّل عيّنة تُصنع لاختبار تصميم."
+   },
+   {
+    "start": 30.818,
+    "dur": 2.16,
+    "en": "What does assemble mean?",
+    "ar": "ماذا يعني التجميع؟"
+   },
+   {
+    "start": 37.39,
+    "dur": 2.952,
+    "en": "To put the parts together to make the piece.",
+    "ar": "وضع الأجزاء معاً لصنع القطعة."
+   },
+   {
+    "start": 40.692,
+    "dur": 2.232,
+    "en": "What does upholster mean?",
+    "ar": "ماذا يعني التنجيد؟"
+   },
+   {
+    "start": 47.394,
+    "dur": 2.88,
+    "en": "To add foam and fabric to a seat.",
+    "ar": "إضافة الإسفنج والقماش إلى المقعد."
+   },
+   {
+    "start": 50.624,
+    "dur": 1.92,
+    "en": "What is finishing?",
+    "ar": "ما هو التشطيب؟"
+   },
+   {
+    "start": 56.603,
+    "dur": 4.08,
+    "en": "The last work: sanding, varnish, and cleaning.",
+    "ar": "آخر عمل: الصنفرة والورنيش والتنظيف."
+   },
+   {
+    "start": 61.033,
+    "dur": 2.424,
+    "en": "What is quality control?",
+    "ar": "ما هو ضبط الجودة؟"
+   },
+   {
+    "start": 67.869,
+    "dur": 3.144,
+    "en": "Checking that the furniture is good and correct.",
+    "ar": "التحقّق من أنّ الأثاث جيّد وصحيح."
+   },
+   {
+    "start": 71.363,
+    "dur": 2.088,
+    "en": "What is a department?",
+    "ar": "ما هو القسم؟"
+   },
+   {
+    "start": 77.686,
+    "dur": 3.216,
+    "en": "One part of the workshop that does one job.",
+    "ar": "جزء من الورشة يؤدّي عملاً واحداً."
+   },
+   {
+    "start": 81.252,
+    "dur": 2.328,
+    "en": "What is a production line?",
+    "ar": "ما هو خطّ الإنتاج؟"
+   },
+   {
+    "start": 88.11,
+    "dur": 2.976,
+    "en": "The order of steps that makes a product.",
+    "ar": "ترتيب الخطوات الذي يصنع منتجاً."
+   },
+   {
+    "start": 91.436,
+    "dur": 1.968,
+    "en": "What is a stage?",
+    "ar": "ما هي المرحلة؟"
+   },
+   {
+    "start": 97.404,
+    "dur": 2.4,
+    "en": "One step in a process.",
+    "ar": "خطوة واحدة في عمليّة."
+   },
+   {
+    "start": 100.154,
+    "dur": 4.368,
+    "en": "The leftover meaning was the room where customers buy furniture.",
+    "ar": "المعنى الزائد كان الغرفة التي يشتري فيها الزبائن الأثاث."
+   },
+   {
+    "start": 104.872,
+    "dur": 5.4,
+    "en": "That is the showroom, from Unit 1. It is not a stage.",
+    "ar": "تلك صالة العرض، من الوحدة الأولى. ليست مرحلة."
+   },
+   {
+    "start": 110.622,
+    "dur": 3.816,
+    "en": "A stage and a department are easy to confuse.",
+    "ar": "المرحلة والقسم يسهل الخلط بينهما."
+   },
+   {
+    "start": 114.788,
+    "dur": 5.688,
+    "en": "A stage is a step in time. A department is a place with people.",
+    "ar": "المرحلة خطوة في الزمن. والقسم مكان فيه أناس."
+   },
+   {
+    "start": 120.826,
+    "dur": 5.16,
+    "en": "Now a table. Which department, and what happens there?",
+    "ar": "الآن جدول. أيّ قسم، وماذا يحدث فيه؟"
+   },
+   {
+    "start": 126.336,
+    "dur": 4.488,
+    "en": "Cutting is done in the workshop: the wood is cut into pieces.",
+    "ar": "القطع يتمّ في الورشة: يُقطع الخشب إلى قطع."
+   },
+   {
+    "start": 131.174,
+    "dur": 4.584,
+    "en": "Upholstery. Which department, and what happens?",
+    "ar": "التنجيد. أيّ قسم، وماذا يحدث؟"
+   },
+   {
+    "start": 141.523,
+    "dur": 4.704,
+    "en": "The upholstery department. Foam and fabric are added.",
+    "ar": "قسم التنجيد. يُضاف الإسفنج والقماش."
+   },
+   {
+    "start": 146.577,
+    "dur": 4.44,
+    "en": "Finishing. Which department, and what happens?",
+    "ar": "التشطيب. أيّ قسم، وماذا يحدث؟"
+   },
+   {
+    "start": 156.722,
+    "dur": 4.896,
+    "en": "The finishing department. The piece is sanded and varnished.",
+    "ar": "قسم التشطيب. تُصنفر القطعة وتُورنش."
+   },
+   {
+    "start": 161.968,
+    "dur": 4.344,
+    "en": "Delivery. Which department, and what happens?",
+    "ar": "التسليم. أيّ قسم، وماذا يحدث؟"
+   },
+   {
+    "start": 171.959,
+    "dur": 4.152,
+    "en": "Delivery. The sofa is taken to the customer.",
+    "ar": "التسليم. تؤخذ الكنبة إلى الزبون."
+   },
+   {
+    "start": 176.462,
+    "dur": 4.512,
+    "en": "Four departments, four jobs, one piece moving through them.",
+    "ar": "أربعة أقسام، وأربعة أعمال، وقطعة واحدة تمرّ بها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 29.331,
+    "hold": 8.01,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   },
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 49.187,
+    "hold": 7.37,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 59.608,
+    "hold": 8.21,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "production_line",
+    "label": "production line",
+    "ar": "خطّ الإنتاج",
+    "at": 79.865,
+    "hold": 8.19,
+    "img": "assets/vocab/production_line.png",
+    "sha": "eae8b17966f1c347"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 129.374,
+    "hold": 15.15,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 144.777,
+    "hold": 14.95,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

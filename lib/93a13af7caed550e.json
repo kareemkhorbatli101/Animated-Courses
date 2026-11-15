@@ -1,0 +1,168 @@
+{
+ "schema": "timeline/1",
+ "duration": 95.175,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.408,
+    "dur": 6.768,
+    "en": "This is Part 3, A Problem on the Line. You will hear a frame stopped before it moves on.",
+    "ar": "هذا الجزء الثالث، مشكلة على الخطّ. ستسمع هيكلاً يُوقَف قبل أن ينتقل."
+   },
+   {
+    "start": 15.526,
+    "dur": 3.096,
+    "en": "What can go wrong when a frame is made?",
+    "ar": "ما الذي قد يسوء حين يُصنع هيكل؟"
+   },
+   {
+    "start": 18.972,
+    "dur": 2.592,
+    "en": "Khaled, is the frame ready?",
+    "ar": "خالد، هل الهيكل جاهز؟"
+   },
+   {
+    "start": 21.914,
+    "dur": 4.584,
+    "en": "Yes, it is assembled and sanded. But there is a problem.",
+    "ar": "نعم، جُمِّع وصُنفر. لكن هناك مشكلة."
+   },
+   {
+    "start": 26.848,
+    "dur": 1.872,
+    "en": "What is it?",
+    "ar": "ما هي؟"
+   },
+   {
+    "start": 29.07,
+    "dur": 2.496,
+    "en": "One leg is not straight.",
+    "ar": "إحدى الأرجل ليست مستقيمة."
+   },
+   {
+    "start": 31.916,
+    "dur": 2.856,
+    "en": "Then it can't go to upholstery yet.",
+    "ar": "إذاً لا يمكن أن يذهب إلى التنجيد بعد."
+   },
+   {
+    "start": 35.122,
+    "dur": 2.952,
+    "en": "First, the leg must be fixed.",
+    "ar": "أوّلاً، يجب إصلاح الرجل."
+   },
+   {
+    "start": 38.424,
+    "dur": 2.784,
+    "en": "After that, it is checked again.",
+    "ar": "بعد ذلك، يُفحص مرّة أخرى."
+   },
+   {
+    "start": 41.558,
+    "dur": 3.144,
+    "en": "OK. I will fix it now.",
+    "ar": "حسناً. سأصلحها الآن."
+   },
+   {
+    "start": 45.052,
+    "dur": 3.216,
+    "en": "Good. Quality first.",
+    "ar": "جيّد. الجودة أوّلاً."
+   },
+   {
+    "start": 48.618,
+    "dur": 4.656,
+    "en": "The first question is done. I asked about the frame.",
+    "ar": "السؤال الأوّل محلول. سألت عن الهيكل."
+   },
+   {
+    "start": 53.624,
+    "dur": 2.136,
+    "en": "Is the frame assembled?",
+    "ar": "هل الهيكل مُجمَّع؟"
+   },
+   {
+    "start": 60.113,
+    "dur": 2.928,
+    "en": "Yes, it is assembled and sanded.",
+    "ar": "نعم، مُجمَّع ومصنفر."
+   },
+   {
+    "start": 63.391,
+    "dur": 1.944,
+    "en": "What is the problem?",
+    "ar": "ما المشكلة؟"
+   },
+   {
+    "start": 69.512,
+    "dur": 2.496,
+    "en": "One leg is not straight.",
+    "ar": "إحدى الأرجل ليست مستقيمة."
+   },
+   {
+    "start": 72.358,
+    "dur": 3.696,
+    "en": "What must happen before the frame goes to upholstery?",
+    "ar": "ماذا يجب أن يحدث قبل أن يذهب الهيكل إلى التنجيد؟"
+   },
+   {
+    "start": 82.171,
+    "dur": 3.384,
+    "en": "The leg must be fixed, and checked again.",
+    "ar": "يجب إصلاح الرجل، وفحصها مرّة أخرى."
+   },
+   {
+    "start": 85.905,
+    "dur": 3.84,
+    "en": "A bad frame under good fabric is still a bad sofa.",
+    "ar": "هيكل سيّئ تحت قماش جيّد يبقى كنبة سيّئة."
+   },
+   {
+    "start": 90.095,
+    "dur": 3.48,
+    "en": "That is why the line stops here and not later.",
+    "ar": "لهذا يتوقّف الخطّ هنا لا لاحقاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 52.112,
+    "hold": 7.95,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 71.77,
+    "hold": 10.35,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

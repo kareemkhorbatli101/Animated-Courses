@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 110.88,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.728,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.528,
+    "dur": 8.28,
+    "en": "This is Part 4, Explaining the Process. You will take the customer's part, then explain why a week is not enough.",
+    "ar": "هذا الجزء الرابع، شرح العمليّة. ستأخذ دور الزبون، ثمّ تشرح لماذا لا يكفي أسبوع."
+   },
+   {
+    "start": 17.158,
+    "dur": 5.256,
+    "en": "A customer asks how his sofa is made. Listen first.",
+    "ar": "زبون يسأل كيف تُصنع كنبته. استمع أوّلاً."
+   },
+   {
+    "start": 22.764,
+    "dur": 2.304,
+    "en": "How is this sofa made?",
+    "ar": "كيف تُصنع هذه الكنبة؟"
+   },
+   {
+    "start": 25.418,
+    "dur": 3.36,
+    "en": "First, the oak frame is cut and assembled.",
+    "ar": "أوّلاً، يُقطع هيكل البلّوط ويُجمَّع."
+   },
+   {
+    "start": 29.128,
+    "dur": 1.872,
+    "en": "And then?",
+    "ar": "ثمّ ماذا؟"
+   },
+   {
+    "start": 31.35,
+    "dur": 3.288,
+    "en": "Then it is upholstered with foam and fabric.",
+    "ar": "ثمّ يُنجَّد بالإسفنج والقماش."
+   },
+   {
+    "start": 34.988,
+    "dur": 3.048,
+    "en": "Finally, it is checked and delivered.",
+    "ar": "أخيراً، يُفحص ويُسلَّم."
+   },
+   {
+    "start": 38.386,
+    "dur": 2.112,
+    "en": "How long does it take?",
+    "ar": "كم يستغرق؟"
+   },
+   {
+    "start": 40.848,
+    "dur": 2.184,
+    "en": "About two weeks.",
+    "ar": "نحو أسبوعين."
+   },
+   {
+    "start": 43.382,
+    "dur": 2.784,
+    "en": "Now you take the customer's part.",
+    "ar": "الآن خذ أنت دور الزبون."
+   },
+   {
+    "start": 46.516,
+    "dur": 2.784,
+    "en": "Ask me how the sofa is made.",
+    "ar": "اسألني كيف تُصنع الكنبة."
+   },
+   {
+    "start": 53.947,
+    "dur": 2.28,
+    "en": "How is this sofa made?",
+    "ar": "كيف تُصنع هذه الكنبة؟"
+   },
+   {
+    "start": 56.577,
+    "dur": 2.568,
+    "en": "Ask me what happens next.",
+    "ar": "اسألني ماذا يحدث بعد ذلك."
+   },
+   {
+    "start": 63.616,
+    "dur": 3.696,
+    "en": "And then? What happens next?",
+    "ar": "ثمّ ماذا؟ ماذا يحدث بعد ذلك؟"
+   },
+   {
+    "start": 67.662,
+    "dur": 2.592,
+    "en": "Ask me how long it takes.",
+    "ar": "اسألني كم يستغرق."
+   },
+   {
+    "start": 74.724,
+    "dur": 2.184,
+    "en": "How long does it take?",
+    "ar": "كم يستغرق؟"
+   },
+   {
+    "start": 77.258,
+    "dur": 3.504,
+    "en": "Three questions carry the whole explanation.",
+    "ar": "ثلاثة أسئلة تحمل الشرح كلّه."
+   },
+   {
+    "start": 81.112,
+    "dur": 4.08,
+    "en": "Now a harder one. I want it in one week.",
+    "ar": "الآن واحدة أصعب. أريدها في أسبوع واحد."
+   },
+   {
+    "start": 85.542,
+    "dur": 4.056,
+    "en": "Which steps take time, and how do I explain politely?",
+    "ar": "أيّ خطوات تستغرق وقتاً، وكيف أشرح بلباقة؟"
+   },
+   {
+    "start": 95.716,
+    "dur": 4.992,
+    "en": "The glue and the varnish must dry. They cannot be hurried.",
+    "ar": "الغراء والورنيش يجب أن يجفّا. لا يمكن استعجالهما."
+   },
+   {
+    "start": 101.058,
+    "dur": 2.664,
+    "en": "Name the step, not the rule.",
+    "ar": "سمِّ الخطوة، لا القاعدة."
+   },
+   {
+    "start": 104.072,
+    "dur": 5.208,
+    "en": "A customer accepts drying time. Nobody accepts no.",
+    "ar": "الزبون يتقبّل وقت الجفاف. لا أحد يتقبّل «لا»."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "glue",
+    "label": "glue",
+    "ar": "الغراء",
+    "at": 95.716,
+    "hold": 3.0,
+    "img": "assets/vocab/glue.png",
+    "sha": "2eaa6691ac75c1f8"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

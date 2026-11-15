@@ -1,0 +1,171 @@
+{
+ "schema": "timeline/1",
+ "duration": 118.875,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.696,
+    "en": "Welcome to English for Furniture Designers. This is Unit 4, Measuring and Dimensions.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الرابعة، القياس والأبعاد."
+   },
+   {
+    "start": 7.496,
+    "dur": 6.84,
+    "en": "This is Part 2, Correct the Sentence. You will find one mistake in each of four sentences.",
+    "ar": "هذا الجزء الثاني، تصحيح الجملة. ستجد خطأً واحداً في كلّ جملة من أربع."
+   },
+   {
+    "start": 14.686,
+    "dur": 4.536,
+    "en": "Four sentences. Each has exactly one mistake.",
+    "ar": "أربع جمل. في كلّ واحدة خطأ واحد بالضبط."
+   },
+   {
+    "start": 19.572,
+    "dur": 3.288,
+    "en": "The oak table is more bigger than the pine one.",
+    "ar": "صحّح هذه الجملة: «The oak table is more bigger than the pine one.»"
+   },
+   {
+    "start": 28.625,
+    "dur": 4.752,
+    "en": "The oak table is bigger than the pine one. Never more with E-R.",
+    "ar": "The oak table is bigger than the pine one. لا تجمع more مع E-R أبداً."
+   },
+   {
+    "start": 33.727,
+    "dur": 2.64,
+    "en": "This is the most cheapest sofa.",
+    "ar": "صحّح هذه الجملة: «This is the most cheapest sofa.»"
+   },
+   {
+    "start": 41.19,
+    "dur": 4.416,
+    "en": "This is the cheapest sofa. Never most with E-S-T.",
+    "ar": "This is the cheapest sofa. لا تجمع most مع E-S-T أبداً."
+   },
+   {
+    "start": 45.956,
+    "dur": 3.0,
+    "en": "A wardrobe is taller that a cabinet.",
+    "ar": "صحّح هذه الجملة: «A wardrobe is taller that a cabinet.»"
+   },
+   {
+    "start": 54.074,
+    "dur": 5.064,
+    "en": "A wardrobe is taller than a cabinet. The word is than, not that.",
+    "ar": "A wardrobe is taller than a cabinet. الكلمة than وليست that."
+   },
+   {
+    "start": 59.488,
+    "dur": 2.856,
+    "en": "Leather is expensiver than fabric.",
+    "ar": "صحّح هذه الجملة: «Leather is expensiver than fabric.»"
+   },
+   {
+    "start": 67.344,
+    "dur": 5.592,
+    "en": "Leather is more expensive than fabric. Expensive is too long for E-R.",
+    "ar": "Leather is more expensive than fabric. Expensive أطول من أن تأخذ E-R."
+   },
+   {
+    "start": 73.286,
+    "dur": 4.68,
+    "en": "Two mistakes were doubling: more with E-R, most with E-S-T.",
+    "ar": "خطآن كانا ازدواجاً: more مع E-R، و most مع E-S-T."
+   },
+   {
+    "start": 78.316,
+    "dur": 3.72,
+    "en": "Use one or the other. Never both.",
+    "ar": "استخدم واحدة أو الأخرى. لا الاثنتين أبداً."
+   },
+   {
+    "start": 82.386,
+    "dur": 4.368,
+    "en": "Now two questions. Which sentence is correct?",
+    "ar": "الآن سؤالان. أيّ جملة صحيحة؟"
+   },
+   {
+    "start": 87.104,
+    "dur": 3.072,
+    "en": "Which of the four on screen is correct?",
+    "ar": "أيّ جملة من الأربع على الشاشة صحيحة؟"
+   },
+   {
+    "start": 95.47,
+    "dur": 3.12,
+    "en": "B. This chair is cheaper than that one.",
+    "ar": "ب. This chair is cheaper than that one."
+   },
+   {
+    "start": 98.94,
+    "dur": 2.688,
+    "en": "And which of these four is correct?",
+    "ar": "وأيّ جملة من هذه الأربع صحيحة؟"
+   },
+   {
+    "start": 106.687,
+    "dur": 2.904,
+    "en": "C. It is the biggest wardrobe.",
+    "ar": "ج. It is the biggest wardrobe."
+   },
+   {
+    "start": 109.941,
+    "dur": 4.824,
+    "en": "Short word, E-R and E-S-T. Long word, more and most.",
+    "ar": "الكلمة القصيرة: E-R و E-S-T. الكلمة الطويلة: more و most."
+   },
+   {
+    "start": 115.115,
+    "dur": 2.16,
+    "en": "That is the whole rule.",
+    "ar": "تلك هي القاعدة كلّها."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "oak",
+    "label": "oak",
+    "ar": "البلّوط",
+    "at": 17.91,
+    "hold": 13.72,
+    "img": "assets/vocab/oak.png",
+    "sha": "dc6c24401e183b7e"
+   },
+   {
+    "lemma": "wardrobe",
+    "label": "wardrobe",
+    "ar": "الخزانة",
+    "at": 44.294,
+    "hold": 12.78,
+    "img": "assets/vocab/wardrobe.png",
+    "sha": "71ccf8f52669fc10"
+   },
+   {
+    "lemma": "wardrobe",
+    "label": "wardrobe",
+    "ar": "الخزانة",
+    "at": 106.687,
+    "hold": 3.0,
+    "img": "assets/vocab/wardrobe.png",
+    "sha": "71ccf8f52669fc10"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

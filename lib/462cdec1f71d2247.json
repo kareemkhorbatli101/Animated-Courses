@@ -1,0 +1,219 @@
+{
+ "schema": "timeline/1",
+ "duration": 147.106,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 7.344,
+    "en": "This is Part 7, Ordering the Schedule. You will reorder a week after the wood arrives late.",
+    "ar": "هذا الجزء السابع، ترتيب الجدول. ستعيد ترتيب أسبوع بعد تأخّر وصول الخشب."
+   },
+   {
+    "start": 16.798,
+    "dur": 3.624,
+    "en": "Put the production stages in order for the week.",
+    "ar": "رتّب مراحل الإنتاج لهذا الأسبوع."
+   },
+   {
+    "start": 20.772,
+    "dur": 5.016,
+    "en": "The first is done. The frame is cut and assembled.",
+    "ar": "الأولى محلولة. الهيكل يُقطع ويُجمَّع."
+   },
+   {
+    "start": 26.138,
+    "dur": 2.256,
+    "en": "Which stage is second?",
+    "ar": "ما المرحلة الثانية؟"
+   },
+   {
+    "start": 32.688,
+    "dur": 2.232,
+    "en": "The seat is upholstered.",
+    "ar": "المقعد يُنجَّد."
+   },
+   {
+    "start": 35.27,
+    "dur": 2.208,
+    "en": "Which stage is third?",
+    "ar": "ما المرحلة الثالثة؟"
+   },
+   {
+    "start": 41.713,
+    "dur": 2.736,
+    "en": "The sofa is varnished and checked.",
+    "ar": "الكنبة تُورنش وتُفحص."
+   },
+   {
+    "start": 44.8,
+    "dur": 2.28,
+    "en": "Which stage is fourth?",
+    "ar": "ما المرحلة الرابعة؟"
+   },
+   {
+    "start": 51.374,
+    "dur": 2.184,
+    "en": "The sofa is delivered.",
+    "ar": "الكنبة تُسلَّم."
+   },
+   {
+    "start": 53.908,
+    "dur": 3.12,
+    "en": "Checked before delivered, always.",
+    "ar": "تُفحص قبل أن تُسلَّم، دائماً."
+   },
+   {
+    "start": 57.378,
+    "dur": 5.856,
+    "en": "A fault found here costs an hour. Found at the customer, a week.",
+    "ar": "عيب يُكتشف هنا يكلّف ساعة. وعند الزبون، أسبوعاً."
+   },
+   {
+    "start": 63.584,
+    "dur": 5.184,
+    "en": "Now the role play. It must be ready by Thursday.",
+    "ar": "الآن لعب الأدوار. يجب أن تجهز بحلول الخميس."
+   },
+   {
+    "start": 69.118,
+    "dur": 2.328,
+    "en": "When is the frame cut?",
+    "ar": "متى يُقطع الهيكل؟"
+   },
+   {
+    "start": 71.796,
+    "dur": 1.872,
+    "en": "On Monday.",
+    "ar": "يوم الاثنين."
+   },
+   {
+    "start": 74.018,
+    "dur": 2.088,
+    "en": "And upholstery?",
+    "ar": "والتنجيد؟"
+   },
+   {
+    "start": 76.456,
+    "dur": 1.872,
+    "en": "On Wednesday.",
+    "ar": "يوم الأربعاء."
+   },
+   {
+    "start": 78.678,
+    "dur": 4.776,
+    "en": "Good. Then it is checked and delivered on Thursday.",
+    "ar": "جيّد. ثمّ تُفحص وتُسلَّم يوم الخميس."
+   },
+   {
+    "start": 83.804,
+    "dur": 4.104,
+    "en": "Your turn. You are the designer now.",
+    "ar": "دورك. أنت المصمّم الآن."
+   },
+   {
+    "start": 88.258,
+    "dur": 4.128,
+    "en": "Give me the deadline, and ask when the frame is cut.",
+    "ar": "أعطني الموعد النهائيّ، واسأل متى يُقطع الهيكل."
+   },
+   {
+    "start": 98.445,
+    "dur": 5.232,
+    "en": "It must be ready by Thursday. When is the frame cut?",
+    "ar": "يجب أن تجهز بحلول الخميس. متى يُقطع الهيكل؟"
+   },
+   {
+    "start": 104.027,
+    "dur": 2.856,
+    "en": "Now ask about upholstery.",
+    "ar": "الآن اسأل عن التنجيد."
+   },
+   {
+    "start": 111.353,
+    "dur": 2.784,
+    "en": "And when is the seat upholstered?",
+    "ar": "ومتى يُنجَّد المقعد؟"
+   },
+   {
+    "start": 114.487,
+    "dur": 4.608,
+    "en": "Now the harder one. The wood arrives one day late.",
+    "ar": "الآن الأصعب. الخشب يصل متأخّراً يوماً."
+   },
+   {
+    "start": 119.445,
+    "dur": 4.416,
+    "en": "How do you change the plan and still deliver on Thursday?",
+    "ar": "كيف تغيّر الخطّة وتسلّم يوم الخميس مع ذلك؟"
+   },
+   {
+    "start": 130.214,
+    "dur": 5.88,
+    "en": "Cut and assemble on Tuesday, upholster Wednesday, finish Thursday morning.",
+    "ar": "اقطع وجمّع يوم الثلاثاء، نجّد الأربعاء، وأنهِ صباح الخميس."
+   },
+   {
+    "start": 136.444,
+    "dur": 4.224,
+    "en": "One day lost, so one day of slack is spent.",
+    "ar": "يوم ضاع، فيُنفق يوم من الفائض."
+   },
+   {
+    "start": 141.018,
+    "dur": 4.488,
+    "en": "A schedule with no slack is a schedule that fails once.",
+    "ar": "جدول بلا فائض جدول يفشل مرّة واحدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "frame",
+    "label": "frame",
+    "ar": "الهيكل",
+    "at": 88.62,
+    "hold": 14.42,
+    "img": "assets/vocab/frame.png",
+    "sha": "0e97e2a47d4a59e0"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 103.227,
+    "hold": 8.08,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "deliver",
+    "label": "deliver",
+    "ar": "التسليم",
+    "at": 119.695,
+    "hold": 10.47,
+    "img": "assets/vocab/deliver.png",
+    "sha": "176f53c673e3aa08"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

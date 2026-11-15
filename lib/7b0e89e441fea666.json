@@ -1,0 +1,210 @@
+{
+ "schema": "timeline/1",
+ "duration": 133.17,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 8.64,
+    "en": "This is Part 4, Talking About How Things Are Made. You will compare two orders of steps and decide which is right.",
+    "ar": "هذا الجزء الرابع، الحديث عن كيفيّة صنع الأشياء. ستقارن ترتيبين للخطوات وتقرّر أيّهما صحيح."
+   },
+   {
+    "start": 18.094,
+    "dur": 4.752,
+    "en": "Three questions, Layla. Answer with the passive.",
+    "ar": "ثلاثة أسئلة يا ليلى. أجيبي بالمبنيّ للمجهول."
+   },
+   {
+    "start": 23.196,
+    "dur": 4.032,
+    "en": "How is a chair made? Say the steps.",
+    "ar": "كيف يُصنع الكرسيّ؟ اذكري الخطوات."
+   },
+   {
+    "start": 32.287,
+    "dur": 5.136,
+    "en": "The wood is cut, the parts are joined, then it is sanded and varnished.",
+    "ar": "يُقطع الخشب، وتُوصل الأجزاء، ثمّ يُصنفر ويُورنش."
+   },
+   {
+    "start": 37.773,
+    "dur": 3.528,
+    "en": "Which step is the most difficult, and why?",
+    "ar": "أيّ خطوة أصعب، ولماذا؟"
+   },
+   {
+    "start": 46.771,
+    "dur": 4.416,
+    "en": "Upholstery, because the fabric must be smooth everywhere.",
+    "ar": "التنجيد، لأنّ القماش يجب أن يكون أملس في كلّ مكان."
+   },
+   {
+    "start": 51.537,
+    "dur": 3.36,
+    "en": "What jobs are done in a furniture workshop?",
+    "ar": "ما الأعمال التي تُنجز في ورشة أثاث؟"
+   },
+   {
+    "start": 60.427,
+    "dur": 4.392,
+    "en": "Wood is cut, parts are joined, and pieces are sanded.",
+    "ar": "يُقطع الخشب، وتُوصل الأجزاء، وتُصنفر القطع."
+   },
+   {
+    "start": 65.169,
+    "dur": 4.944,
+    "en": "Use: first it is, then it is, after that, finally it is.",
+    "ar": "استخدمي: أوّلاً يُـ، ثمّ يُـ، بعد ذلك، أخيراً يُـ."
+   },
+   {
+    "start": 70.463,
+    "dur": 4.824,
+    "en": "Now a pair task. We each have a list of steps.",
+    "ar": "الآن مهمّة ثنائيّة. لكلٍّ منّا قائمة خطوات."
+   },
+   {
+    "start": 75.637,
+    "dur": 3.768,
+    "en": "Ask questions and find two differences in the order.",
+    "ar": "اسألي أسئلة وجدي فرقين في الترتيب."
+   },
+   {
+    "start": 79.755,
+    "dur": 2.328,
+    "en": "What is the first step?",
+    "ar": "ما الخطوة الأولى؟"
+   },
+   {
+    "start": 82.433,
+    "dur": 3.12,
+    "en": "Cut. And yours?",
+    "ar": "القطع. وعندك؟"
+   },
+   {
+    "start": 85.903,
+    "dur": 3.312,
+    "en": "Cut as well. The same.",
+    "ar": "القطع أيضاً. متماثل."
+   },
+   {
+    "start": 89.565,
+    "dur": 2.256,
+    "en": "What happens next?",
+    "ar": "ماذا يحدث بعد ذلك؟"
+   },
+   {
+    "start": 92.171,
+    "dur": 2.64,
+    "en": "Assemble, then upholster.",
+    "ar": "التجميع، ثمّ التنجيد."
+   },
+   {
+    "start": 95.161,
+    "dur": 4.92,
+    "en": "Assemble, then varnish. That is one difference.",
+    "ar": "التجميع، ثمّ الورنشة. هذا فرق أوّل."
+   },
+   {
+    "start": 100.431,
+    "dur": 2.28,
+    "en": "When is it upholstered?",
+    "ar": "متى يُنجَّد؟"
+   },
+   {
+    "start": 103.061,
+    "dur": 2.592,
+    "en": "Third, before the varnish.",
+    "ar": "ثالثاً، قبل الورنيش."
+   },
+   {
+    "start": 106.003,
+    "dur": 4.464,
+    "en": "Mine is fourth, after it. That is two.",
+    "ar": "عندي رابعاً، بعده. هذا فرق ثانٍ."
+   },
+   {
+    "start": 110.817,
+    "dur": 2.904,
+    "en": "Which order is right, and why?",
+    "ar": "أيّ ترتيب صحيح، ولماذا؟"
+   },
+   {
+    "start": 118.486,
+    "dur": 4.848,
+    "en": "Upholster last. Varnish would stain the new fabric.",
+    "ar": "التنجيد أخيراً. الورنيش قد يلطّخ القماش الجديد."
+   },
+   {
+    "start": 123.684,
+    "dur": 3.096,
+    "en": "Now prepare a talk of about one minute.",
+    "ar": "الآن حضّري حديثاً من دقيقة تقريباً."
+   },
+   {
+    "start": 127.13,
+    "dur": 4.44,
+    "en": "Explain how one thing is made, with the passive and sequencers.",
+    "ar": "اشرحي كيف يُصنع شيء، بالمجهول وكلمات الترتيب."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 46.771,
+    "hold": 3.0,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 90.371,
+    "hold": 3.0,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 94.336,
+    "hold": 3.0,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   },
+   {
+    "lemma": "varnish",
+    "label": "varnish",
+    "ar": "الورنيش",
+    "at": 118.486,
+    "hold": 3.19,
+    "img": "assets/vocab/varnish.png",
+    "sha": "3e3a5ddd0cee0b5a"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

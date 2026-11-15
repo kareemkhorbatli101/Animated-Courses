@@ -1,0 +1,177 @@
+{
+ "schema": "timeline/1",
+ "duration": 127.934,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 7.608,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 8.408,
+    "dur": 6.336,
+    "en": "This is Part 1, Pronunciation. You will practise the stress in six words.",
+    "ar": "هذا الجزء الأوّل، النطق. ستتدرّب على النبر في ستّ كلمات."
+   },
+   {
+    "start": 15.094,
+    "dur": 4.368,
+    "en": "Six words. Say each one aloud after me.",
+    "ar": "ستّ كلمات. قل كلّ واحدة بصوت عالٍ بعدي."
+   },
+   {
+    "start": 19.812,
+    "dur": 4.2,
+    "en": "Assemble. Three parts: as-SEM-ble.",
+    "ar": "Assemble. ثلاثة مقاطع: as-SEM-ble."
+   },
+   {
+    "start": 24.362,
+    "dur": 2.616,
+    "en": "Which part of assemble is loud?",
+    "ar": "أيّ مقطع في assemble هو العالي؟"
+   },
+   {
+    "start": 31.802,
+    "dur": 3.216,
+    "en": "The second. as-SEM-ble.",
+    "ar": "الثاني. as-SEM-ble."
+   },
+   {
+    "start": 35.368,
+    "dur": 4.464,
+    "en": "Upholster. Three parts: up-HOL-ster.",
+    "ar": "Upholster. ثلاثة مقاطع: up-HOL-ster."
+   },
+   {
+    "start": 40.182,
+    "dur": 2.76,
+    "en": "Which part of upholster is loud?",
+    "ar": "أيّ مقطع في upholster هو العالي؟"
+   },
+   {
+    "start": 47.824,
+    "dur": 3.264,
+    "en": "The second. up-HOL-ster.",
+    "ar": "الثاني. up-HOL-ster."
+   },
+   {
+    "start": 51.438,
+    "dur": 4.104,
+    "en": "Department. Three parts: de-PART-ment.",
+    "ar": "Department. ثلاثة مقاطع: de-PART-ment."
+   },
+   {
+    "start": 55.892,
+    "dur": 2.688,
+    "en": "Which part of department is loud?",
+    "ar": "أيّ مقطع في department هو العالي؟"
+   },
+   {
+    "start": 63.521,
+    "dur": 3.024,
+    "en": "The second. de-PART-ment.",
+    "ar": "الثاني. de-PART-ment."
+   },
+   {
+    "start": 66.895,
+    "dur": 4.728,
+    "en": "Production. Three parts: pro-DUC-tion.",
+    "ar": "Production. ثلاثة مقاطع: pro-DUC-tion."
+   },
+   {
+    "start": 71.973,
+    "dur": 2.736,
+    "en": "Which part of production is loud?",
+    "ar": "أيّ مقطع في production هو العالي؟"
+   },
+   {
+    "start": 79.65,
+    "dur": 3.264,
+    "en": "The second. pro-DUC-tion.",
+    "ar": "الثاني. pro-DUC-tion."
+   },
+   {
+    "start": 83.264,
+    "dur": 2.376,
+    "en": "Now two that are different.",
+    "ar": "الآن اثنتان مختلفتان."
+   },
+   {
+    "start": 85.99,
+    "dur": 4.584,
+    "en": "Quality. Three parts: QUAL-i-ty.",
+    "ar": "Quality. ثلاثة مقاطع: QUAL-i-ty."
+   },
+   {
+    "start": 90.924,
+    "dur": 2.664,
+    "en": "Which part of quality is loud?",
+    "ar": "أيّ مقطع في quality هو العالي؟"
+   },
+   {
+    "start": 98.353,
+    "dur": 3.24,
+    "en": "The first. QUAL-i-ty.",
+    "ar": "الأوّل. QUAL-i-ty."
+   },
+   {
+    "start": 101.943,
+    "dur": 4.176,
+    "en": "Process. Two parts: PRO-cess.",
+    "ar": "Process. مقطعان: PRO-cess."
+   },
+   {
+    "start": 106.469,
+    "dur": 2.688,
+    "en": "Which part of process is loud?",
+    "ar": "أيّ مقطع في process هو العالي؟"
+   },
+   {
+    "start": 113.922,
+    "dur": 3.024,
+    "en": "The first. PRO-cess.",
+    "ar": "الأوّل. PRO-cess."
+   },
+   {
+    "start": 117.296,
+    "dur": 5.064,
+    "en": "Four are loud on the second part. Two are loud on the first.",
+    "ar": "أربع عالية في المقطع الثاني. واثنتان في الأوّل."
+   },
+   {
+    "start": 122.71,
+    "dur": 3.624,
+    "en": "Production and process look alike and sound different.",
+    "ar": "Production و process تتشابهان شكلاً وتختلفان صوتاً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "assemble",
+    "label": "assemble",
+    "ar": "التجميع",
+    "at": 18.012,
+    "hold": 16.79,
+    "img": "assets/vocab/assemble.png",
+    "sha": "1ade2b529681e772"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

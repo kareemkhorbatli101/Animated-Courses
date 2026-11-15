@@ -1,0 +1,273 @@
+{
+ "schema": "timeline/1",
+ "duration": 189.065,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 8.304,
+    "en": "Welcome to English for Furniture Designers. This is Unit 5, Making a Piece: Steps and Process.",
+    "ar": "أهلاً بكم في الإنجليزية لمصمّمي الأثاث. هذه الوحدة الخامسة، صناعة القطعة: الخطوات والعمليّة."
+   },
+   {
+    "start": 9.104,
+    "dur": 6.696,
+    "en": "This is Part 1, Departments Check. You will match four departments to their jobs.",
+    "ar": "هذا الجزء الأوّل، مراجعة الأقسام. ستطابق أربعة أقسام مع أعمالها."
+   },
+   {
+    "start": 16.15,
+    "dur": 4.512,
+    "en": "Four departments. Match each with its job.",
+    "ar": "أربعة أقسام. طابِق كلّ واحد مع عمله."
+   },
+   {
+    "start": 21.012,
+    "dur": 3.864,
+    "en": "The design office. What is its job?",
+    "ar": "مكتب التصميم. ما عمله؟"
+   },
+   {
+    "start": 29.935,
+    "dur": 2.616,
+    "en": "The piece is planned and drawn.",
+    "ar": "تُخطَّط القطعة وتُرسم."
+   },
+   {
+    "start": 32.901,
+    "dur": 3.528,
+    "en": "The workshop. What is its job?",
+    "ar": "الورشة. ما عملها؟"
+   },
+   {
+    "start": 41.194,
+    "dur": 2.976,
+    "en": "The wood is cut and the parts are joined.",
+    "ar": "يُقطع الخشب وتُوصل الأجزاء."
+   },
+   {
+    "start": 44.52,
+    "dur": 3.576,
+    "en": "Upholstery. What is its job?",
+    "ar": "التنجيد. ما عمله؟"
+   },
+   {
+    "start": 52.743,
+    "dur": 2.4,
+    "en": "Foam and fabric are added.",
+    "ar": "يُضاف الإسفنج والقماش."
+   },
+   {
+    "start": 55.493,
+    "dur": 3.864,
+    "en": "Quality control. What is its job?",
+    "ar": "ضبط الجودة. ما عمله؟"
+   },
+   {
+    "start": 64.298,
+    "dur": 2.28,
+    "en": "The furniture is checked.",
+    "ar": "يُفحص الأثاث."
+   },
+   {
+    "start": 66.928,
+    "dur": 4.944,
+    "en": "One job was not needed: the furniture is sold to customers.",
+    "ar": "بقي عمل لم نحتجه: يُباع الأثاث للزبائن."
+   },
+   {
+    "start": 72.222,
+    "dur": 3.912,
+    "en": "That is the showroom, and it is not part of making.",
+    "ar": "تلك صالة العرض، وليست جزءاً من الصناعة."
+   },
+   {
+    "start": 76.484,
+    "dur": 2.448,
+    "en": "Now three questions.",
+    "ar": "الآن ثلاثة أسئلة."
+   },
+   {
+    "start": 79.282,
+    "dur": 3.504,
+    "en": "What happens in the upholstery department?",
+    "ar": "ماذا يحدث في قسم التنجيد؟"
+   },
+   {
+    "start": 88.257,
+    "dur": 3.288,
+    "en": "B. Foam and fabric are added.",
+    "ar": "ب. يُضاف الإسفنج والقماش."
+   },
+   {
+    "start": 91.895,
+    "dur": 2.472,
+    "en": "What is quality control?",
+    "ar": "ما هو ضبط الجودة؟"
+   },
+   {
+    "start": 98.778,
+    "dur": 3.384,
+    "en": "A. Checking that the furniture is good.",
+    "ar": "أ. التحقّق من أنّ الأثاث جيّد."
+   },
+   {
+    "start": 102.512,
+    "dur": 2.424,
+    "en": "What is a production line?",
+    "ar": "ما هو خطّ الإنتاج؟"
+   },
+   {
+    "start": 109.466,
+    "dur": 3.744,
+    "en": "D. The order of steps that makes a product.",
+    "ar": "د. ترتيب الخطوات الذي يصنع منتجاً."
+   },
+   {
+    "start": 113.56,
+    "dur": 3.264,
+    "en": "Last, four sentences to complete.",
+    "ar": "أخيراً، أربع جمل لإكمالها."
+   },
+   {
+    "start": 117.174,
+    "dur": 3.336,
+    "en": "In the workshop, the parts are blank together.",
+    "ar": "في الورشة، تُـ ـــ الأجزاء معاً."
+   },
+   {
+    "start": 126.216,
+    "dur": 4.944,
+    "en": "Assembled. In the workshop, the parts are assembled together.",
+    "ar": "تُجمَّع. في الورشة، تُجمَّع الأجزاء معاً."
+   },
+   {
+    "start": 131.51,
+    "dur": 4.32,
+    "en": "In the next department, the seat is blank with foam and fabric.",
+    "ar": "في القسم التالي، يُـ ـــ المقعد بالإسفنج والقماش."
+   },
+   {
+    "start": 142.536,
+    "dur": 4.944,
+    "en": "Upholstered. The seat is upholstered with foam and fabric.",
+    "ar": "يُنجَّد. يُنجَّد المقعد بالإسفنج والقماش."
+   },
+   {
+    "start": 147.83,
+    "dur": 3.624,
+    "en": "The blank department sands and varnishes the piece.",
+    "ar": "قسم ـــ يصنفر القطعة ويورنشها."
+   },
+   {
+    "start": 157.454,
+    "dur": 5.256,
+    "en": "Finishing. The finishing department sands and varnishes the piece.",
+    "ar": "التشطيب. قسم التشطيب يصنفر القطعة ويورنشها."
+   },
+   {
+    "start": 163.06,
+    "dur": 3.984,
+    "en": "Before delivery, blank checks that everything is correct.",
+    "ar": "قبل التسليم، ـــ يتحقّق من أنّ كلّ شيء صحيح."
+   },
+   {
+    "start": 173.397,
+    "dur": 5.784,
+    "en": "Quality control. Before delivery, quality control checks everything.",
+    "ar": "ضبط الجودة. قبل التسليم، يتحقّق ضبط الجودة من كلّ شيء."
+   },
+   {
+    "start": 179.531,
+    "dur": 4.968,
+    "en": "Now write two or three sentences about how a piece is made.",
+    "ar": "الآن اكتب جملتين أو ثلاثاً عن كيفيّة صنع قطعة."
+   },
+   {
+    "start": 184.849,
+    "dur": 2.616,
+    "en": "Use two step words.",
+    "ar": "استخدم كلمتي خطوات."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "design",
+    "label": "design",
+    "ar": "التصميم",
+    "at": 19.35,
+    "hold": 10.54,
+    "img": "assets/vocab/design.png",
+    "sha": "7027c53d8e914352"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 42.72,
+    "hold": 9.97,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 53.693,
+    "hold": 10.56,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "upholstery",
+    "label": "upholstery",
+    "ar": "التنجيد",
+    "at": 78.519,
+    "hold": 9.69,
+    "img": "assets/vocab/upholstery.png",
+    "sha": "7fef04a8a280f84f"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 90.42,
+    "hold": 8.31,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   },
+   {
+    "lemma": "finishing",
+    "label": "finishing",
+    "ar": "التشطيب",
+    "at": 157.454,
+    "hold": 3.0,
+    "img": "assets/vocab/finishing.png",
+    "sha": "a834c981d962ad6a"
+   },
+   {
+    "lemma": "quality_control",
+    "label": "quality control",
+    "ar": "ضبط الجودة",
+    "at": 173.397,
+    "hold": 3.0,
+    "img": "assets/vocab/quality_control.png",
+    "sha": "f348605e73b46144"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
