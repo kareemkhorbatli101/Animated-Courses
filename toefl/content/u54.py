@@ -288,35 +288,40 @@ UNIT = {'n': 54,
                   'She endorses the appeal, the variable list and the retraining clause.')]},
  'r3': {'sub': 'When a formula replaces a judgement',
         'title': 'The Summer Nobody Sat an Examination',
-        'words': 273,
+        'words': 299,
         'skill': ('Reading a case where the model was not the problem',
                   ['The constraint comes first: what the regulator had to do and why.',
                    'Then what the formula did, and to whom.',
                    'A question about the ending wants what the case does not show.']),
-        'paras': ['In the spring of 2020 the examinations that decide English university places '
-                  'were cancelled, and a regulator was left to award grades to some three '
-                  'hundred thousand candidates who had sat nothing. Teachers supplied a '
-                  'predicted grade and a ranking of their pupils, and the rankings were then '
-                  'adjusted by a formula built from each school’s results in earlier years. The '
-                  'intention was to prevent the inflation that the predicted grades would '
-                  'plainly have produced, and the method chosen was to hold every centre close '
-                  'to its own history.',
-                  'What followed in practice followed from that choice. A pupil at a school '
-                  'whose cohorts had done badly for three years was moved down irrespective of '
-                  'anything known about her, while a pupil in a small class, where the '
-                  'historical adjustment was applied weakly or not at all, kept the figure her '
-                  'teacher had given. Small classes are commoner in fee-paying schools. Two '
-                  'fifths of the teacher grades were lowered, the reduction falling hardest on '
-                  'large comprehensive cohorts, and the whole arrangement was published with its '
-                  'reasoning intact.',
-                  'The policy was withdrawn within four days and the teacher grades were '
-                  'restored. It is worth being exact about what the episode does and does not '
-                  'show. Nothing here turned on an inscrutable model: the formula was public, '
-                  'simple and arithmetically correct, and it did what it had been designed to '
-                  'do. The unfairness entered with the inputs, and with the decision to treat a '
-                  'school’s past as evidence about a present pupil, and the choice cannot be '
-                  'avoided by better engineering, since a system built to predict the past will '
-                  'reproduce whatever the past contained.'],
+        'paras': ['The cancellation of the 2020 examinations that determine admission to English '
+                  'universities left a regulator with the obligation of awarding grades to some '
+                  'three hundred thousand candidates who had sat nothing. Its position was '
+                  'accordingly a constrained one: no assessment had taken place, and the only '
+                  'information in existence was an estimate supplied by interested parties. '
+                  'Teachers submitted a predicted grade together with a ranking of their pupils, '
+                  'and the rankings were then subjected to an adjustment derived from each '
+                  'centre’s attainment in earlier years. The objective was the prevention of the '
+                  'inflation that unadjusted predictions would demonstrably have produced; the '
+                  'instrument chosen was the retention of every centre’s historical '
+                  'distribution.',
+                  'The consequences followed from that instrument. A candidate at a centre whose '
+                  'cohorts had underperformed for three successive years was displaced downward '
+                  'irrespective of any information about her, while a candidate in a small '
+                  'class, where the historical adjustment operated weakly or not at all, '
+                  'retained her teacher’s figure. Small classes are disproportionately a feature '
+                  'of fee-paying provision. Two fifths of teacher grades were reduced, the '
+                  'reduction concentrated in large comprehensive cohorts, and the entire '
+                  'arrangement was published with its reasoning intact.',
+                  'Withdrawal followed within four days and the teacher grades were reinstated. '
+                  'Precision about the lesson repays effort. Nothing in the episode turned on '
+                  'inscrutability: the formula was public, arithmetically unexceptionable and '
+                  'faithful to its own specification. The injustice entered with the inputs, and '
+                  'with the determination to treat a school’s past attainment as evidence about '
+                  'a present candidate, and the choice cannot be avoided by improvements in '
+                  'engineering, since any system constructed for the prediction of the past will '
+                  'reproduce its contents. The distinction between opacity and injustice is the '
+                  'whole of what the episode establishes, and it was established at the expense '
+                  'of a cohort.'],
         'guided': [('Why was a formula needed at all?',
                     ('The teachers refused to grade',
                      'The examinations had been cancelled and grades still had to be awarded',
