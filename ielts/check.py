@@ -118,6 +118,26 @@ def check_unit(U, out, heads):
         out.append('%s: missing a strand' % tag)
 
 
+def check_numbering(U, out):
+    """The Questions a-b headings must match the running count in the unit."""
+    tag = 'u%d' % U['n']
+    n = 1
+    for ci, c in enumerate(U['cycles'], 1):
+        for blk in list(c['read']) + list(c['listen']):
+            m = re.match(r'Questions (\d+)-(\d+)$', blk.get('qtype', ''))
+            if not m:
+                out.append('%s c%d "%s": qtype %r is not "Questions a-b"'
+                           % (tag, ci, blk['heading'][:24], blk.get('qtype')))
+                continue
+            a, b = int(m.group(1)), int(m.group(2))
+            k = len(blk['items'])
+            if a != n or b != n + k - 1:
+                out.append('%s c%d "%s": heading says %d-%d, prints %d-%d'
+                           % (tag, ci, blk['heading'][:24], a, b, n,
+                              n + k - 1))
+            n += k
+
+
 def check_paper(P, out):
     """The timed paper: shape, length, numbering and answer spread."""
     tag = 'paper%s' % P['vol']
@@ -176,6 +196,7 @@ def main(argv):
         importlib.reload(m)
         got += 1
         check_unit(m.UNIT, out, heads)
+        check_numbering(m.UNIT, out)
     npaper = 0
     try:
         pm = importlib.import_module('content.paper4')

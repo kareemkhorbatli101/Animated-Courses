@@ -202,9 +202,11 @@ def site_map(title, panels, sub='', key=None):
             g.append(L(px + x0 * pw, top + y0 * ph, px + x1 * pw,
                        top + y1 * ph, '#d9d9d9', 11))
             if lab:
+                # clear of the 11px band, so the label is not read through
+                # the road it names
                 g.append(TFIT(px + (x0 + x1) / 2 * pw,
-                              top + (y0 + y1) / 2 * ph - 6, lab, 13,
-                              pw * 0.5, GREY, anchor='middle'))
+                              top + (y0 + y1) / 2 * ph - 11, lab, 13,
+                              pw * 0.5, INK, anchor='middle'))
         for x, y, w_, h_, lab, kind in objs:
             fill, edge = _KIND.get(kind, _KIND['building'])
             bx, by = px + x * pw, top + y * ph

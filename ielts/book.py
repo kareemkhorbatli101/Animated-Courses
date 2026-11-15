@@ -76,9 +76,10 @@ def _items(d, items, start, key, skill):
     return n
 
 
-def render_cycle(d, U, c, ci, key):
+def render_cycle(d, U, c, ci, key, nq=1):
+    """Render one cycle. `nq` is the unit's running question number, so the
+    printed numbers match the Questions 30-35 headings the data carries."""
     d.figure(*F.cycle_bar(ci, c['sub'], c['step'], STEP[c['step']]))
-    nq = 1
 
     # ---- reading ----------------------------------------------------------
     for r in c['read']:
@@ -131,9 +132,11 @@ def render_cycle(d, U, c, ci, key):
         if w.get('plan'):
             d.figure(*F.outline_frame(w['plan'][0], w['plan'][1]))
         if w.get('model'):
-            d.h3('Model answer', D_PLUM)
+            d.h3('Model answer' if not w.get('plan') else 'How to do it',
+                 D_PLUM)
             for p in w['model']:
                 d.body_p(p)
+        if w.get('notes'):
             d.h3('Why it works', D_PLUM)
             d.bullets(w['notes'])
         if w.get('criterion'):
@@ -157,6 +160,7 @@ def render_cycle(d, U, c, ci, key):
     d.wordlist(c['expr'], 1, D_TEAL)
     d.wordbank('Transitions used in this cycle:', c['trans'], D_PERI)
     d.page_break_section()
+    return nq
 
 
 def render_unit(d, U):
@@ -169,8 +173,9 @@ def render_unit(d, U):
     d.figure(*F.unit_opener(U['n'], U['theme'], [c['sub'] for c in U['cycles']]))
     d.body_p(U['opener'])
     d.page_break_section()
+    nq = 1
     for ci, c in enumerate(U['cycles'], 1):
-        render_cycle(d, U, c, ci, key)
+        nq = render_cycle(d, U, c, ci, key, nq)
     t = U['technique']
     d.partbar('Active Reading and Listening', t['title'], 'reading')
     d.body_p(t['body'])
