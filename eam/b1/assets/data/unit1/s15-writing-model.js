@@ -38,6 +38,17 @@ EAM.page('u1-s15', {
           purpose: 'Present continuous: "Right now, I am…" or "This week we are…"' }
       ],
       minWords: 50,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'A description of the learner’s job, or of a car they know: what it is, what happens every day, the order of the work, and what is happening right now. 50-70 words.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['at least one sentence in the present simple with a time word', 'at least one sentence in the present continuous', 'at least three words from this unit', 'between 50 and 70 words'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       pastCheck: false,
       stems: ['I am a…', 'My family has a…', 'Every day, I…', 'First, I… Then I…',
               'Right now, I am…', 'I like my job because…'],
@@ -114,6 +125,17 @@ EAM.page('u1-s15', {
           purpose: 'Safety, cost, and how long the car lasts. One sentence each.' }
       ],
       minWords: 50,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'An argument in 50-70 words for why good servicing is important, giving two or three reasons.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['a clear opinion in the first sentence', 'at least two reasons', 'because or so, linking a reason to a result'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       stems: ['Good servicing is important because…', '…is safer', '…lasts longer',
               '…saves money', 'If a car is not serviced,…', 'Customers come back because…'],
       model: 'Good servicing is important because a car that is checked often is safer. The '
@@ -175,6 +197,17 @@ EAM.page('u1-s15', {
           purpose: '"So please…  Thank you." and your name.' }
       ],
       minWords: 50,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'A short workplace note (50-70 words) from the service advisor to the mechanic, saying which car has arrived, what it needs, what the customer reported, and what is being asked for.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['a greeting and a close with a name', 'which car, and what it needs', 'what the customer said, reported as the customer’s words', 'a clear request beginning with please'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       stems: ['Dear Nabil,', 'Here is…', 'It needs…', 'The customer says…', 'So please…',
               'Thank you,', 'Rana'],
       model: 'Dear Nabil,\n\nHere is Mr Aboud’s car, a blue Kia. It needs a full service, and '
@@ -236,6 +269,17 @@ EAM.page('u1-s15', {
           purpose: 'One present-simple and one present-continuous sentence.' }
       ],
       minWords: 40,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'A short personal piece (40-60 words) about a car in the learner’s family or one they know well.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['the car named or described', 'one present-simple sentence', 'one present-continuous sentence'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       stems: ['My family has…', 'We have had it for…', 'It is…', 'Every year we…',
               'At the moment it…', 'I like it because…'],
       model: 'My family has an old white Peugeot. We have had it for twelve years, and my '

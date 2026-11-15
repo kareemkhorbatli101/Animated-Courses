@@ -99,18 +99,21 @@ EAM.coverage('unit1', [
 
   /* ---------------------------------------------------------------- Part 3 */
   { ref: '3 · A Mechanic Talks About His Work', page: 's08-listening-1', id: 'u1-s08',
-    card: 'c1+c2', status: 'adapted',
-    note: 'The recording is a study card with its lines NUMBERED, because the True / False / '
-      + 'Not Given card asks which line proves each answer and that question needs numbers. '
-      + 'The three statements and their answers are the book\'s.' },
-  { ref: '3 · At Reception', page: 's09-listening-2', id: 'u1-s09', card: 'c1+c2',
+    card: 'c1', status: 'adapted',
+    note: 'The recording is ACTED: Nabil, rigged and lip-synced, in the workshop, with EN and '
+      + 'AR subtitles, a speed control and a loop-a-line button. The numbered text sits under '
+      + 'the scene because the True / False / Not Given card asks which line proves each '
+      + 'answer, and the three statements and their answers are the book\'s.' },
+  { ref: '3 · At Reception', page: 's09-listening-2', id: 'u1-s09', card: 'c1',
     status: 'adapted',
-    note: 'Dialogue as a study card, three short answers beside it. The four phrases the Part '
-      + '4 role play reuses are marked in bold in the dialogue.' },
+    note: 'The dialogue is acted on the reception set by Rana and Mr Aboud, with the script '
+      + 'under it and the four phrases in bold. The same scene is mounted again in §12, where '
+      + 'the learner takes one of the two parts and it goes quiet for them.' },
   { ref: '3 · A Day at Cham Motors', page: 's10-listening-3', id: 'u1-s10', card: 'c1+c2',
     status: 'adapted',
-    note: 'Briefing as a study card; the matching card draws the five faces instead of '
-      + 'printing the names. Same five people, same spare action.' },
+    note: 'The briefing is acted with all four people Maher mentions standing on the stage, so '
+      + 'the learner can see them while he says what each is doing. The matching card then '
+      + 'uses the same five faces, because identity is fixed per character.' },
 
   /* ---------------------------------------------------------------- Part 4 */
   { ref: '4 · Discussing Cars and Work', page: 's11-speaking-model', id: 'u1-s11', card: 'c1',

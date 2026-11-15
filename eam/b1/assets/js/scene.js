@@ -44,8 +44,14 @@
       box.style.width = (cst.scale ? cst.scale * 26 : 26) + '%';
       box.style.bottom = (cst.bottom === undefined ? -4 : cst.bottom) + '%';
       box.style.transform = 'translateX(-50%)';
+      /* THE CAST ENTRY IS PASSED AS OPTIONS, so a character's clothes travel with their name.
+         Without this the stage drew every actor in their RIG's default shirt while the cards
+         drew them in the colours art-eam-cast.js assigns - so Nabil wore olive on the stage and
+         blue on the card beside it, and two characters sharing a rig became the same person.
+         Identity is fixed per NAME, and this is the line that lets a name carry it.
+         Applied by tools/eam_engine_lift.py, so a re-lift keeps it. */
       box.innerHTML = '<svg viewBox="0 0 200 300" style="width:100%;display:block;overflow:visible">' +
-        art.actor(scene.id + '-' + key, cst.rig) + '</svg>';
+        art.actor(scene.id + '-' + key, cst.rig, cst) + '</svg>';
       actLayer.appendChild(box);
       actors[key] = {
         box: box,

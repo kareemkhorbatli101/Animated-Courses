@@ -68,9 +68,22 @@ EAM.page('u1-s05', {
       title: 'The rule, and the two mistakes to watch for',
       instruction: 'The book’s own focus box. Read it once now; the practice on the next two '
         + 'screens comes straight out of it.',
+      /* AN ANIMATED FIGURE, NOT A PICTURE OF THE RULE.
+         `tense-timeline` is a LIVE figure the engine has carried all along: a timeline, a
+         clock, and an actor who performs the action while one button per tense moves the
+         marker and a voice says why that tense fits. It teaches present simple against present
+         continuous, which is exactly this unit's grammar point, and unit 1 shipped last night
+         without it. A learner can press a tense and watch WHEN it happens, which is the thing
+         the rule is actually about. The two static figures stay underneath as the reference
+         to come back to. */
       visual: [
-        { art: 'tense-two-clocks',
-          caption: 'The time words decide the tense, every time. Find the time word first.' },
+        { live: 'tense-timeline',
+          caption: 'Press a tense and watch when it happens. The line shows <b>when</b>; the '
+            + 'panel beside it shows <b>what the person is doing</b>. '
+            + '<b>Use the first two for now</b> — <i>simple present</i> and <i>present '
+            + 'continuous</i> are this unit’s. The two past tenses are there because the same '
+            + 'figure is used later in the book; pressing them does no harm, and the contrast '
+            + 'is worth seeing once.' },
         { art: 'verb-s-rule',
           caption: 'The two faults the book warns about, and their repairs.' }
       ],

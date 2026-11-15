@@ -121,6 +121,17 @@ EAM.page('u1-s07', {
           purpose: 'Something happening as you write. Start with "Right now" or "At the moment".' }
       ],
       minWords: 12,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'Two sentences about the learner’s own work or study: one routine in the present simple with a time word, one about this moment in the present continuous.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['one sentence in the present simple with a frequency or time word', 'one sentence in the present continuous with am/is/are and a verb ending in -ing', 'both about the writer’s own work or study'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       stems: ['Every day I…', 'I usually…', 'Right now, I am…', 'At the moment, I am…',
               'This week, I am…'],
       model: 'Every day I study English for one hour after work. Right now, I am writing two '

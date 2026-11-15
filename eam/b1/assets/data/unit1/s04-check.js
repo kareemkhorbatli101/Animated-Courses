@@ -130,6 +130,17 @@ EAM.page('u1-s04', {
           purpose: 'Two or three details. This is where your three unit words belong.' }
       ],
       minWords: 30,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'Two or three sentences (30-50 words) about a car the learner knows, or about a service department, using at least three words from Unit 1.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['at least three words from the unit: engine, battery, radiator, bonnet, boot, ', 'service bay, job card, mechanic, service, workshop', 'at least two complete sentences', 'a capital letter at the start and a full stop at the end of each sentence'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       stems: ['My family has a…', 'It has a…', 'The mechanic…', 'In a service department…',
               'The service advisor…'],
       model: 'My family has an old car. It has a strong engine and a new battery. Every year '

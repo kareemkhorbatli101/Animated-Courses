@@ -30,9 +30,9 @@ EAM.unitMap('unit1', [
     label: '§7 Review — find and fix',                n: 3, video: 'u01v07' },
 
   { id: 'u1-s08', file: 's08-listening-1',   part: '3',  lesson: 'Part 3 · Listening',
-    label: '§8 Nabil talks about his work',           n: 2, video: 'u01v08' },
+    label: '§8 Nabil talks about his work',           n: 1, video: 'u01v08' },
   { id: 'u1-s09', file: 's09-listening-2',   part: '3',  lesson: 'Part 3 · Listening',
-    label: '§9 At reception',                         n: 2, video: 'u01v09' },
+    label: '§9 At reception',                         n: 1, video: 'u01v09' },
   { id: 'u1-s10', file: 's10-listening-3',   part: '3',  lesson: 'Part 3 · Listening',
     label: '§10 A day at Cham Motors',                n: 2, video: 'u01v10' },
 

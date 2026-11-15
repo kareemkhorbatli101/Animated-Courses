@@ -25,10 +25,18 @@ EAM.page('u1-s12', {
       id: 'c1', covers: ['Part 4'], ref: '4B', bookRef: 'Unit 1 · Part 4 · Cards A and B',
       type: 'roleplay',
       title: 'Card A and Card B — booking a car in',
-      instruction: 'The book does this in pairs. On your own: take <b>Card A</b> first and '
-        + 'speak the advisor’s lines aloud — the customer’s four lines are written out, so you '
-        + 'always know what comes next. Then swap and take Card B.',
-      scene: 'reception-desk',
+      instruction: 'The book does this in pairs. On your own: <b>choose your role below</b> and '
+        + 'press play — the scene acts the other part and goes quiet for yours. Then swap and '
+        + 'take the other card.',
+      /* A SCENE ID, NOT A DIORAMA NAME. This card shipped with `reception-desk`, which is a
+         picture, so EAM.cine.mount could not find a scene of that name and rendered a red
+         "Scene not found" box where the role play should have been. */
+      scene: 'u1-reception',
+      modelScene: { id: 'u1-roleplay-model',
+        label: 'See the whole thing played',
+        note: 'One way of doing it, acted all the way through. Try it yourself first — a model '
+          + 'watched before the attempt gets copied, and a model watched after it gets learnt '
+          + 'from.' },
       roles: [
         { who: 'A', label: 'Card A — you are Rana, the service advisor',
           body: 'Greet the customer. Ask what they need and what the problem is. Say you will '

@@ -1201,6 +1201,45 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
   height: auto;
 }
 
+/* ============================================================
+   EAM — the AI marker and the writing scaffold.
+
+   THE CHIP IS A LABEL, NOT A DECORATION. Every control that sends a learner's work to a
+   language model carries it, so no model call is reachable from a button that does not admit
+   what it is. It is deliberately loud: amber on ink, the same everywhere, never only a colour
+   (it says "AI"), and it keeps a border so it survives forced-colours mode.
+   ============================================================ */
+.ai-chip {
+  display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 999px;
+  font: 800 10.5px/1.5 var(--ui, system-ui); letter-spacing: 0.06em;
+  background: var(--accent, #e8b418); color: #1a1200;
+  border: 1px solid rgba(0, 0, 0, .28); vertical-align: 2px;
+}
+button.is-ai { border-color: var(--accent, #e8b418); }
+@media (forced-colors: active) { .ai-chip { border: 1px solid ButtonText; } }
+
+.scaffold {
+  border: 1px solid var(--border); border-radius: var(--r-3);
+  background: var(--surface-2); padding: 14px 16px; margin: 0 0 18px;
+}
+.scaf-head { margin-bottom: 10px; }
+.scaf-step { display: flex; gap: 12px; padding: 10px 0; border-top: 1px solid var(--border); }
+.scaf-step:first-of-type { border-top: 0; }
+.scaf-n {
+  flex: 0 0 26px; height: 26px; border-radius: 50%;
+  background: var(--primary, #1f6f8b); color: #fff;
+  display: grid; place-items: center; font: 800 13px/1 var(--ui, system-ui);
+}
+.scaf-t { flex: 1 1 auto; min-width: 0; }
+.scaf-plan { width: 100%; margin-top: 8px; }
+.scaf-out { margin-top: 8px; font-size: 14.5px; }
+.scaf-out p { margin: 0 0 7px; }
+.scaf-ul { margin: 0 0 7px; padding-left: 20px; }
+.scaf-ul li { margin-bottom: 3px; }
+
+/* the stage inside a modal needs a height, or it measures zero and the actors vanish */
+.modal .scene-shell { min-height: 320px; }
+
 /* FOUR COLUMNS. The engine's stylesheet defines `.cols-2` and `.cols-3` and nothing else, so a
    card authored with `cols: 4` fell back to the bare `.drops` grid — one target per row, each
    the full width of the card. Four matching cards in unit 1 rendered as four enormous portraits

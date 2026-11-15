@@ -54,9 +54,13 @@ EAM.page('u1-s17', {
       id: 'c2', covers: ['Part 7'], ref: '7D', bookRef: 'Unit 1 · Part 7D · Role play',
       type: 'roleplay',
       title: 'Role play — briefing the apprentice',
-      instruction: 'The book does this in pairs. On your own: take the <b>foreman’s</b> card '
-        + 'and speak his part aloud — the apprentice’s lines are written out. Then swap.',
-      scene: 'workshop-floor',
+      instruction: 'The book does this in pairs. On your own: <b>choose your role</b> and press '
+        + 'play — the scene acts the other part and goes quiet for yours. Then swap.',
+      scene: 'u1-first-day',
+      modelScene: { id: 'u1-brief-model',
+        label: 'See a finished briefing',
+        note: 'Nabil briefing Tarek, all the way through, with the three safety rules and the '
+          + 'offer of help. Try yours first.' },
       roles: [
         { who: 'A', label: 'Card A — you are Nabil, the foreman',
           body: 'Welcome Tarek. Give him three safety rules. Say what he will do today. Offer '
@@ -134,6 +138,17 @@ EAM.page('u1-s17', {
           purpose: 'The rule that matters most, and "ask if you are not sure".' }
       ],
       minWords: 50,
+      /* THE FOUR-STEP SCAFFOLD. A writing task is not one empty box: it is ask
+         for ideas, plan, write, then ask for a marking. The two AI steps carry
+         their own prompts and their own refusals - the ideas step may return only
+         topics, never sentences, so a learner cannot have the piece written for
+         them while believing they were helped to start it. */
+      scaffold: {
+        task: 'A welcome note (50-80 words) from the manager to a new apprentice, with the plan for his first week, one safety rule, and an offer of help.',
+        words: ['engine', 'battery', 'radiator', 'bonnet', 'boot', 'service bay', 'job card', 'mechanic', 'service', 'workshop'],
+        must: ['a greeting and the writer’s name at the end', 'what he will do this week', 'at least one safety rule', 'an offer of help if he is unsure'],
+        planPlaceholder: 'My plan:  1)…   2)…   3)…'
+      },
       stems: ['Dear Tarek,', 'Welcome to Cham Motors.', 'This week you will…',
               'On Thursday you can…', 'Always remember to…', 'If you are not sure,…',
               'Maher'],

@@ -76,20 +76,20 @@ EAM.arabic({
     'واحدة من الأربع صحيحة في كل مجموعة. ما بين القوسين يبيّن المعنى المطلوب.',
 
   /* ---- §8 Listening 1 ---- */
-  'Before you listen: what does a mechanic do first — read the job card, or start the engine? Press a line to hear it. The lines are numbered because the next card asks you which one proves each answer.':
-    'قبل الاستماع: ما أول ما يفعله الميكانيكي، أيقرأ بطاقة العمل أم يشغّل المحرك؟ اضغط على السطر لتسمعه. الأسطر مرقّمة لأن البطاقة التالية تسألك أي سطر يثبت كل إجابة.',
+  'Before you listen: what does a mechanic do first — read the job card, or start the engine? Press play. You can slow it down, loop a line, and turn the Arabic on.':
+    'قبل الاستماع: ما أول ما يفعله الميكانيكي، أيقرأ بطاقة العمل أم يشغّل المحرك؟ اضغط «تشغيل». يمكنك إبطاء المشهد، وتكرار أي جملة، وإظهار الترجمة العربية.',
   'Judge each statement against what Nabil actually said. Then write the line number that proves it. If nothing in the text settles it, the answer is Not Given and there is no line to write.':
     'احكم على كل عبارة بالرجوع إلى ما قاله نبيل فعلًا، ثم اكتب رقم السطر الذي يثبتها. وإن لم يحسم النص المسألة فالجواب «غير مذكور» ولا سطر تكتبه.',
 
   /* ---- §9 Listening 2 ---- */
-  'Before you listen: what does a service advisor ask a customer first? Press any line to hear it.':
-    'قبل الاستماع: ما أول ما يسأله مستشار الصيانة الزبون؟ اضغط على أي سطر لتسمعه.',
-  'Short answers are fine — a few words each. Spelling and capitals are marked kindly; the meaning is what counts. The first is done for you.':
-    'تكفي إجابات قصيرة من بضع كلمات. التصحيح متسامح في الإملاء والحروف الكبيرة؛ المعنى هو المهم. المثال الأول محلول.',
+  'Before you listen: what does a service advisor ask a customer first? Watch it once straight through, then again with the Arabic on if you need it.':
+    'قبل الاستماع: ما أول ما يسأله مستشار الصيانة الزبون؟ شاهد المشهد كاملًا مرة، ثم أعِده مع الترجمة العربية إن احتجت.',
+  'Short answers are fine — a few words each. Spelling and capitals are marked kindly; the meaning is what counts. The first is done for you: Where is Mr Aboud? — At Cham Motors (reception).':
+    'تكفي إجابات قصيرة من بضع كلمات. التصحيح متسامح في الإملاء والحروف الكبيرة؛ المعنى هو المهم. المثال الأول محلول: أين السيد عبود؟ — في شام موتورز (الاستقبال).',
 
   /* ---- §10 Listening 3 ---- */
-  'Before you listen: who works in a car service department? Name two jobs. Then press the lines and follow who is doing what.':
-    'قبل الاستماع: من يعمل في قسم صيانة السيارات؟ اذكر مهنتين. ثم اضغط على الأسطر وتابع من يفعل ماذا.',
+  'Before you listen: who works in a car service department? Name two jobs. Then watch — everybody he mentions is standing there.':
+    'قبل الاستماع: من يعمل في قسم صيانة السيارات؟ اذكر مهنتين. ثم شاهد المشهد: كل من يذكرهم ماهر واقفون أمامك.',
   'Drag each action onto the person doing it. One action is not needed. Maher is done for you.':
     'اسحب كل عمل إلى الشخص الذي يقوم به. هناك عمل واحد زائد. ماهر محلول لك.',
 
@@ -98,8 +98,8 @@ EAM.arabic({
     'يطلب الكتاب أداء هذا مع زميل. وإن كنت وحدك فأجب عن كل سؤال بجملة أو جملتين: انطقها أولًا ثم اكتبها. وقد أجاب أحد العاملين في «شام موتورز» عن كل سؤال، وتظهر إجاباتهم بعد أن تكتب إجابتك.',
 
   /* ---- §12 Role play ---- */
-  'The book does this in pairs. On your own: take Card A first and speak the advisor\'s lines aloud — the customer\'s four lines are written out, so you always know what comes next. Then swap and take Card B.':
-    'يطلب الكتاب أداء هذا في ثنائيات. وإن كنت وحدك فابدأ بالبطاقة (أ) وانطق جمل المستشار بصوت مسموع؛ جمل الزبون الأربع مكتوبة أمامك فتعرف دائمًا ما يأتي بعدها. ثم بدّل الدور وخذ البطاقة (ب).',
+  'The book does this in pairs. On your own: choose your role below and press play — the scene acts the other part and goes quiet for yours. Then swap and take the other card.':
+    'يطلب الكتاب أداء هذا في ثنائيات. وإن كنت وحدك فاختر دورك في الأسفل واضغط «تشغيل»: يؤدي المشهد الدور الآخر ويصمت عند دورك. ثم بدّل وخذ البطاقة الأخرى.',
   'Describe your job, or a car you know : what it is, its main parts, and what you check or do. Use the stems to plan it, then say the whole thing aloud once without stopping.':
     'صِف عملك أو سيارة تعرفها: ما هي، وأهم أجزائها، وما الذي تفحصه أو تفعله. استعن ببدايات الجمل في التخطيط، ثم انطق الحديث كاملًا مرة واحدة دون توقف.',
 
@@ -138,8 +138,8 @@ EAM.arabic({
   /* ---- §17 Management File, practice ---- */
   'Five things a manager does on a new worker\'s first morning. Put them in the order you would do them. Step 1 is done for you.':
     'خمسة أمور يقوم بها المدير في أول صباح لعامل جديد. رتّبها بالترتيب الذي تراه مناسبًا. الخطوة الأولى محلولة.',
-  'The book does this in pairs. On your own: take the foreman\'s card and speak his part aloud — the apprentice\'s lines are written out. Then swap.':
-    'يطلب الكتاب أداء هذا في ثنائيات. وإن كنت وحدك فخذ بطاقة رئيس الورشة وانطق دوره بصوت مسموع؛ جمل المتدرّب مكتوبة أمامك. ثم بدّل الدور.',
+  'The book does this in pairs. On your own: choose your role and press play — the scene acts the other part and goes quiet for yours. Then swap.':
+    'يطلب الكتاب أداء هذا في ثنائيات. وإن كنت وحدك فاختر دورك واضغط «تشغيل»: يؤدي المشهد الدور الآخر ويصمت عند دورك. ثم بدّل الدور.',
   'You are Maher . Write a short welcome note to Tarek, with his plan for the first week.':
     'أنت ماهر. اكتب رسالة ترحيب قصيرة إلى طارق تتضمن خطة أسبوعه الأول.',
 
