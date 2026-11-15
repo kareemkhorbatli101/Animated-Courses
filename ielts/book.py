@@ -88,6 +88,7 @@ def _items(d, items, start, key, skill):
 
 
 SPEED = {3: (125, 140), 4: (150, 165), 5: (170, 185), 6: (190, 210)}
+_NUM = {3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven'}
 
 
 def speed_page(d, vol, cfg, units):
@@ -430,7 +431,9 @@ def render_paper(d, P):
                 'transfer time' % P['vol'])
     d.cefr(P['intro'])
     d.page_break_section()
-    d.partbar('Before you start', 'Four rules, and the clock', 'reading')
+    d.partbar('Before you start',
+              '%s rules, and the clock' % _NUM.get(len(P['instruct']), 'The'),
+              'reading')
     d.items(P['instruct'])
     d.page_break_section()
     for ps in P['passages']:
@@ -453,7 +456,9 @@ def render_lpaper(d, L):
                 'played once' % L['vol'])
     d.cefr(L['intro'])
     d.page_break_section()
-    d.partbar('Before you start', 'Five rules, and the clock', 'listening')
+    d.partbar('Before you start',
+              '%s rules, and the clock' % _NUM.get(len(L['instruct']), 'The'),
+              'listening')
     d.items(L['instruct'])
     d.page_break_section()
     for pt in L['parts']:

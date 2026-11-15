@@ -16,6 +16,7 @@ _TAB = dict(kind='table', title='Four clubs: income, wages and league '
             sub='2023, income and wages in millions',
             headers=['Club', 'Income', 'Wages', 'Wages as % of income',
                      'Position'],
+            widths=[1.25, 0.8, 0.8, 1.35, 0.8],
             rows=[['Harlow Vale', '186', '151', '81', '4'],
                   ['Carrick Athletic', '29', '17', '59', '11'],
                   ['Dunmore City', '94', '88', '94', '17'],

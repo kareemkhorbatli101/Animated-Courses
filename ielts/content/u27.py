@@ -2,8 +2,8 @@
 """Unit 27 - Urban Planning. IELTS Volume 3, band 6.0."""
 
 _NOW = ('The site today',
- [(0.06, 0.08, 0.40, 0.18, 'Disused warehouses', 'building'),
-  (0.52, 0.08, 0.42, 0.18, 'Timber yard', 'building'),
+ [(0.06, 0.05, 0.40, 0.15, 'Disused warehouses', 'building'),
+  (0.52, 0.05, 0.42, 0.15, 'Timber yard', 'building'),
   (0.06, 0.34, 0.26, 0.18, 'Car park', 'new'),
   (0.36, 0.34, 0.26, 0.18, 'Scrubland', 'green'),
   (0.66, 0.34, 0.28, 0.18, 'Bus depot', 'building'),
@@ -12,15 +12,15 @@ _NOW = ('The site today',
  [(0.0, 0.90, 1.0, 0.90, 'Brackwell Road')])
 
 _PLAN = ('Under the masterplan',
- [(0.06, 0.08, 0.40, 0.18, 'Housing, 6 storeys', 'new'),
-  (0.52, 0.08, 0.42, 0.18, 'Housing, 4 storeys', 'new'),
+ [(0.06, 0.05, 0.40, 0.15, 'Housing, 6 storeys', 'new'),
+  (0.52, 0.05, 0.42, 0.15, 'Housing, 4 storeys', 'new'),
   (0.06, 0.34, 0.26, 0.18, 'School', 'new'),
   (0.36, 0.34, 0.26, 0.18, 'Square', 'green'),
   (0.66, 0.34, 0.28, 0.18, 'Workshops', 'new'),
   (0.06, 0.58, 0.40, 0.18, 'Canal park', 'water'),
   (0.52, 0.58, 0.42, 0.18, 'Allotments retained', 'green')],
  [(0.0, 0.90, 1.0, 0.90, 'Brackwell Road'),
-  (0.0, 0.26, 1.0, 0.26, 'New pedestrian route')])
+  (0.0, 0.29, 1.0, 0.29, 'New pedestrian route')])
 
 _KEY = [('Existing building', 'building'), ('New or rebuilt', 'new'),
         ('Water', 'water'), ('Open ground', 'green')]
