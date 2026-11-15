@@ -715,7 +715,9 @@ def build(vol, out=None):
     d.figure(*F.cover_back(vol, BLURB_BY_VOL[vol], BULLETS_BY_VOL[vol],
                            ['%d  %s' % (u['n'], u['theme']) for u in units]),
              cover=True)
-    out = out or ('/home/user/Animated-Courses/IELTS_2026_B2_Volume_%d.docx' % vol)
+    lvl = VOLS[vol]['cefr'].replace('+', 'plus')
+    out = out or ('/home/user/Animated-Courses/IELTS_2026_%s_Volume_%d.docx'
+                  % (lvl, vol))
     d.save(out)
     return out, len(d.images)
 
