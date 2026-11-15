@@ -10,7 +10,7 @@ redrawn, and so that every label goes through the fitting layer.
 apparatus-then-operation shape that a device takes; `cycle_flow` a process
 with no natural beginning; `site_map` the before-and-after pair.
 """
-from _base import (render, T, R, C, L, P, TFIT, TBLOCK, fit, tw, W,
+from _base import (render, T, R, C, L, P, TFIT, TBLOCK, fit, fit_block, tw, W,
                    PAPER, SOFT, CREAM, INDIGO, INDIGO_D, PERI, BLUE, AMBER,
                    TEAL, PLUM, GREEN, INK, GREY, GREY_L, RULE)
 
@@ -69,8 +69,9 @@ def process_flow(title, stages, phases=None, sub=''):
         g.append(R(x, y + 20, bw, 10, INDIGO))
         g.append(TFIT(x + bw / 2, y + 21, '%d. %s' % (i + 1, lab), 15,
                       bw - 18, PAPER, bold=True, anchor='middle'))
-        blk, _, _ = TBLOCK(x + bw / 2, y + 52, None, 15, bw - 22, 19, INK,
-                           anchor='middle', lines=fit(cap, bw - 22, 15))
+        lns, sz = fit_block(cap, bw - 22, 15)
+        blk, _, _ = TBLOCK(x + bw / 2, y + 52, None, sz, bw - 22, 19, INK,
+                           anchor='middle', lines=lns)
         g.append(blk)
         if i + 1 < len(stages):
             nx, ny = pos[i + 1]
@@ -101,8 +102,9 @@ def device_schematic(title, parts, flows, sub=''):
         bw, bh = w * PW, ht * PH
         box[key] = (bx, by, bw, bh)
         g.append(R(bx, by, bw, bh, CREAM, INDIGO, 2, 10))
-        blk, _, _ = TBLOCK(bx + bw / 2, by + bh / 2 - 2, None, 16, bw - 20, 20,
-                           INK, anchor='middle', lines=fit(lab, bw - 20, 16))
+        lns, sz = fit_block(lab, bw - 20, 16)
+        blk, _, _ = TBLOCK(bx + bw / 2, by + bh / 2 - 2, None, sz, bw - 20, 20,
+                           INK, anchor='middle', lines=lns)
         g.append(blk)
     for a, b, cap in flows:
         ax, ay, aw, ah = box[a]
@@ -141,9 +143,9 @@ def cycle_flow(title, stages, sub=''):
     for i, lab in enumerate(stages):
         x, y = pts[i]
         g.append(R(x - bw / 2, y - bh / 2, bw, bh, PAPER, INDIGO, 2, 10))
-        blk, _, _ = TBLOCK(x, y - 2, None, 15, bw - 20, 19, INK,
-                           anchor='middle', lines=fit('%d. %s' % (i + 1, lab),
-                                                      bw - 20, 15))
+        lns, sz = fit_block('%d. %s' % (i + 1, lab), bw - 20, 15)
+        blk, _, _ = TBLOCK(x, y - 2, None, sz, bw - 20, 19, INK,
+                           anchor='middle', lines=lns)
         g.append(blk)
     return render(''.join(g), W, h, PAPER)
 
@@ -187,9 +189,9 @@ def site_map(title, panels, sub='', key=None):
             bx, by = px + x * pw, top + y * ph
             bw_, bh_ = w_ * pw, h_ * ph
             g.append(R(bx, by, bw_, bh_, fill, edge, 1.5, 5))
-            blk, _, _ = TBLOCK(bx + bw_ / 2, by + bh_ / 2 - 1, None, 13.5,
-                               bw_ - 8, 16, INK, anchor='middle',
-                               lines=fit(lab, bw_ - 8, 13.5))
+            lns, sz = fit_block(lab, bw_ - 8, 13.5, floor=0.66)
+            blk, _, _ = TBLOCK(bx + bw_ / 2, by + bh_ / 2 - 1, None, sz,
+                               bw_ - 8, 16, INK, anchor='middle', lines=lns)
             g.append(blk)
         g.append(C(px + pw - 26, top + 26, 13, PAPER, GREY, 1.2))
         g.append(T(px + pw - 26, top + 31, 'N', 13, GREY, bold=True))
