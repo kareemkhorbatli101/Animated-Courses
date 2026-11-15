@@ -142,7 +142,10 @@
       s.id = 'la-style';
       s.textContent = '.la-who{display:inline-block;padding:4px 11px;border-radius:999px;'
         + 'font:650 13px/1.4 inherit;text-decoration:none;border:1px solid currentColor;'
-        + 'border-left-width:5px;opacity:.95}.la-who.la-out{border-left-width:1px;opacity:.7}';
+        + 'border-left-width:5px;opacity:.95}.la-who.la-out{border-left-width:1px;opacity:.7}'
+        /* .la-float mounts on <body>, outside anything the page redraws: on the CMA
+         * section pages the badge sat in div.wrap and that page's own script rebuilds it. */
+        + '#la-bar.la-float{position:fixed;top:10px;right:12px;z-index:2147483000}';
       (doc.head || doc.body).appendChild(s);
     } catch (e) { /* the badge is still readable without it */ }
   }
