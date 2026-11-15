@@ -139,18 +139,32 @@ A method taught without its variants gets abandoned the first time it fails.
 The three moves never change. What changes is what move 2 predicts and what
 move 3 does at the end of a paragraph, and each variant is a named lesson.
 
-**Matching Headings.** In move 2, read each heading and predict *what a
-paragraph under it would have to say*. You have read the introduction, so this
-is cheap and it primes recognition. Then in move 3, at the end of each
-paragraph, **write your own heading before you look at the list** — summarise
-it in your head, get the main idea, name it. Only then read the options.
+**Matching Headings — two parts, one at each end of the loop.**
 
-This ordering is the whole lesson. The failure mode of Matching Headings is
-being captured by an option that repeats a word from the paragraph, and you
-cannot be captured by an option you have not yet read. Committing to your own
-gist first makes the match a comparison rather than a temptation. It is also
-the one place where the self-generated answer is more reliable than the
-printed one.
+*Part 1, inside move 2.* Read each heading and predict **what a paragraph
+under it would have to contain**. Not which paragraph it is — you have not read
+them. You are loading expectations so that a paragraph arrives recognised
+instead of cold. It is nearly free, because the headings are being read
+anyway.
+
+*Part 2, inside move 3.* At the end of each paragraph, **name it yourself
+before you look at the list**: summarise what it said, find the main idea, put
+a heading on it. Only then go to the options and match.
+
+Part 2 carries the weight, and the mechanism is anchoring. The failure mode of
+Matching Headings is capture by an option that repeats a word from the
+paragraph, and **you cannot be captured by an option you have not read yet**.
+Having committed to your own gist you are comparing two summaries, which is a
+judgement a student can make, instead of scanning options for familiarity,
+which is a judgement they cannot.
+
+**The risk the lesson must name.** Part 1 primes you with the examiner's
+wording and Part 2 depends on being independent of it. A student who does Part
+1 too hard will "generate" a heading in option iv's exact words and think they
+have summarised when they have remembered. So the rule on the page: *your
+heading comes out in your own words; if it comes out in the paper's words,
+that is a signal to check, not an answer.* Say it again differently, then
+match. Without that line the two parts quietly cancel each other.
 
 **Matching Features — the quoted-claim types** (which researcher said X,
 which study found Y). In move 2, read the claims and **understand them**.
@@ -160,14 +174,28 @@ asserted. Then when you check the open questions and recognise an idea, go
 back for the name and write it down.
 
 The reason is that the test paraphrases the **claim** and prints the **name**
-unchanged. Names are the easy half and they will still be there when you need
-them; the claim is the half that is actually being tested. Scanning for
-capitalised words is genuinely fast — this is the one place where traditional
-scanning has a real speed advantage — and it is fast at retrieving the wrong
-paragraph, because several people are usually quoted near each other and only
-the sense distinguishes them. The books should say that honestly rather than
-pretend scanning never works: it works, and it works on the half that was not
+unchanged. Names are the easy half and they wait for you; the claim is the half
 being tested.
+
+It is tempting to answer that scanning for capitalised words is at least fast.
+It is, and the speed buys nothing, because **a search key that matches
+everything has no discriminating power**. Every name on the list is in the
+passage by construction, so finding one narrows nothing — you must visit all of
+them anyway. The scan returns a pointer, not an answer, and at that pointer the
+whole job is still waiting: understand the claim, then compare it against every
+remaining statement rather than one. Two further costs follow. You are reading
+the claim **in a fragment**, stripped of what frames it — whether it is being
+reported, endorsed, or set up to be knocked down, which is precisely what these
+tasks and Yes/No/Not Given are built on. And claims attribute **by anaphora**:
+a researcher is named once and then carries three sentences of "she went on to
+show", "his data suggested". Scanning finds the anchor and misses the claims
+hanging off it. Only reading tracks the pronouns.
+
+So the rule the books teach is narrower and more useful than "scanning is bad":
+**scanning earns its keep only when the key is rare in the text and unique to
+one question** — a year, a unit of measurement, an unusual technical term in a
+completion question. A name list in a matching task fails both halves of that
+test.
 
 **Matching Information** ("which paragraph contains…") is not in passage
 order and cannot be predicted at all. These questions stay live across the
@@ -294,7 +322,83 @@ reads as a plateau and the student quits the exercise that was working. Every
 speed figure in the books is printed with the density of the text it was
 measured on.
 
-### 3.5 The method has to work on screen
+### 3.7 Pacing: the number students are usually given is the wrong number
+
+The standard figure is twenty minutes a passage, about thirteen questions, so
+"roughly ninety seconds a question". That is a **gross** figure and it
+misleads, because it silently includes reading time not yet spent. A student
+pacing against ninety seconds spends it on question 1 and finds out at
+question 9.
+
+This method can state the **net** figure, which is the one a student can
+actually pace against. Fixed cost a passage is about 2.5 minutes — thirty
+seconds orienting, about nine seconds a question to read and mark thirteen.
+What is left after the reading is done:
+
+| Reading speed | Reading 880 words | Left for 13 questions | **Net per question** |
+|---|---|---|---|
+| 80 wpm | 11.0 min | 6.5 min | **30 s** |
+| 100 wpm | 8.8 | 8.8 | **40 s** |
+| 140 wpm | 6.3 | 11.3 | **52 s** |
+| 180 wpm | 4.9 | 12.7 | **58 s** |
+| 200 wpm | 4.4 | 13.1 | **61 s** |
+
+**Teach 40 to 60 seconds a question, and say the word *net*.**
+
+**Two clocks, and the exam clock never squeezes.** A Volume 1 student at about
+110 wpm attempting a real full-length passage needs roughly twenty-five
+minutes once realistic decision time is allowed. The exam gives twenty. That
+ten-minute gap is the course, and it closes because the passage grows and the
+re-reads fall, not because anybody is told to hurry. So:
+
+* **Teaching exercises derive their allowance, never pick it.** Allowance =
+  orient + (questions x 9 s) + words / that volume's target wpm + questions x
+  decision time. It lands near 7 minutes in Foundation 1 and 13 in Volume 6,
+  and every exercise prints the word count and the speed it assumed. That is
+  gate 12 doing its work.
+* **Test sections always use the real twenty minutes a passage**, from Volume
+  3 on, once passages are near full length.
+
+By Volume 6 a student finishes a full exam passage in about thirteen derived
+minutes against twenty allowed. The seven-minute cushion is where Not Given
+decisions get made.
+
+### 3.8 Passage length and paragraph count
+
+The design rule to defend hardest: **hold paragraph length constant and grow
+the paragraph count.**
+
+The loop works because one paragraph fits in working memory. Grow the
+paragraphs and the method breaks; grow the count and stamina builds without
+touching it. Real IELTS paragraphs run about 100 to 130 words, seven to nine of
+them — which is already the right size for the loop, so the target is the right
+shape to aim at.
+
+| Book | Paragraphs | Each | Passage | Questions | Derived allowance |
+|---|---|---|---|---|---|
+| Foundation 1 | 3 | ~70 | 210 | 5 | 7 min |
+| Foundation 2 | 4 | ~75 | 300 | 6 | 8 min |
+| Volume 1 | 5 | ~95 | 480 | 8 | 10 min |
+| Volume 2 | 5 | ~108 | 540 | 9 | 11 min |
+| Volume 3 | 6 | ~115 | 700 | 10 | 12 min |
+| Volume 4 | 7 | ~110 | 770 | 11 | 12.5 min |
+| Volume 5 | 8 | ~108 | 860 | 13 | 13.5 min |
+| Volume 6 | 8 | ~115 | 920 | 13 | 13 min |
+
+Volume 6 sits a little above the exam's typical passage so that the real thing
+feels short — the principle the TOEFL series used for its own reading lengths.
+
+Two consequences. **Paragraph count decides which question types can be set**:
+matching headings and matching information need lettered paragraphs and enough
+of them. A five-paragraph Volume 1 passage supports a five-heading task with
+seven or eight options, which is a legitimate scaled version; matching
+information does not work below six paragraphs and should not be forced in
+earlier. And **splitting a long paragraph becomes training rather than
+routine** — if the course's own passages hold 100 to 130 words, students meet
+the 150-word paragraph as the exception the real paper occasionally throws,
+which is exactly when the move is needed.
+
+### 3.9 The method has to work on screen
 
 The core format is unchanged for 2026, but delivery is moving to computer,
 with paper being withdrawn at different times in different markets. That
@@ -310,7 +414,320 @@ official source states.
 
 ---
 
-## 4. The unit, cycle by cycle
+## 4. The same loop in Listening — and why Listening teaches it first
+
+The method is not a reading method that happens to be useful elsewhere. It is
+the same three moves, and in Listening the test **forces** them:
+
+| | Reading | Listening |
+|---|---|---|
+| 1. Orient | title, subheadings, intro | the section's context line, the form, the map, who is speaking |
+| 2. Load and predict | read all the questions; predict the **form** of each answer | read that section's questions; predict form **and grammar** |
+| 3. The loop | one paragraph, then close what it answered | one chunk of audio, then the next — closing as you go |
+
+**Listening is the purer case, so teach it first.** You cannot scan audio. The
+questions are always in passage order, the recording plays once, and there is
+no going back. A student therefore has no choice but to run the loop, and when
+it works they have an intuition they already trust. Reading is then introduced
+as *the same problem with the text standing still, which only makes it easier*
+— and that reframing is worth more than any argument about skimming.
+
+This inverts the usual teaching order and it is deliberate. It also means the
+method is established in Foundation 2, where Listening is already being taught,
+before a student has formed the scan-and-hunt habit in Reading that has to be
+broken later.
+
+### 4.1 Prediction is richer in Listening
+
+In Reading you predict the form of the answer. In Listening you predict more,
+because the answer has to fit a gap in a sentence you can already see:
+
+* **Word class and grammar** — a noun or a verb, singular or plural, with or
+  without an article, past or present.
+* **Category** — a number, a date, a time, a price, a name that will be spelt
+  out, a place.
+* **Range** — a price in a form about a gym is £20 to £60 a month, not £4,000.
+  Hearing "forty" when the gap wants a price makes "£40" the safe reading.
+* **The word limit** — "no more than two words" is itself a prediction, and it
+  tells you the answer is a short noun phrase, not a clause.
+
+### 4.2 The four Listening-only moves
+
+1. **Look ahead.** While you write the answer to question 5, your eyes are on
+   question 6. The recording does not wait. This is the single most trainable
+   listening habit and it needs its own exercise family.
+2. **Guess from context.** The answer word may be one a student does not know.
+   What carries it is the frame around it — the sentence it sits in, the
+   preposition before it, the examples after it. Guessing from context is a
+   taught skill with its own exercises, not a hope.
+3. **Recover from a miss.** The fatal error is chasing a lost answer and losing
+   the next three. The drill is explicit: mark it, drop it, catch the next
+   question's signpost, come back at the end. Every practice section should
+   include at least one answer that is genuinely easy to miss, so the recovery
+   is rehearsed and not just described.
+4. **Hear the correction.** "It's on Tuesday — sorry, no, Thursday." "The
+   deposit is fifty pounds, which includes the key." The test's favourite
+   instrument is the self-correction, the qualification and the distractor that
+   answers a question nobody asked. These are patterns, they are enumerable,
+   and they are taught as patterns.
+
+Signposting is the connective tissue for all four: *right, moving on to* ·
+*before I forget* · *the main thing to remember* · *actually* · *having said
+that*. A student who hears the signpost knows a change is coming and is already
+looking at the next question.
+
+### 4.3 Listening grows too
+
+The same principle as reading: the work grows, the clock does not squeeze.
+
+| Book | Part 1 | Part 4 monologue | Speakers in Part 3 | Items a section |
+|---|---|---|---|---|
+| Foundation 1 | 120–160 words | 150–200 | 2 | 5 |
+| Foundation 2 | 160–220 | 200–260 | 2 | 6 |
+| Volume 1 | 220–300 | 260–340 | 2–3 | 8 |
+| Volume 2 | 280–360 | 320–400 | 3 | 9 |
+| Volume 3 | 340–420 | 400–480 | 3 | 10 |
+| Volume 4 | 380–460 | 460–540 | 3–4 | 10 |
+| Volume 5 | 420–500 | 520–600 | 4 | 10 |
+| Volume 6 | 450–540 | 560–650 | 4 | 10 |
+
+Two things grow besides length: **the number of speakers** (Part 3 reaches
+four, and telling four voices apart is its own skill), and **the density of
+distractors**. A Foundation recording says the answer once, clearly. A Volume 6
+recording says a wrong answer first, corrects it, and qualifies the right one.
+
+---
+
+## 5. Main idea and supporting detail — the spine that runs through all four skills
+
+This is the strongest cross-skill thread in the design and it should be named
+on the page, because students do not notice it by themselves.
+
+**The same single judgement is tested in all four sections:**
+
+* **Reading** — Matching Headings *is* "what is the main idea of this
+  paragraph". So is the summary-completion task, and so is every "the writer's
+  main point in paragraph C is…" multiple choice.
+* **Listening** — note and table completion is a main-idea-versus-detail
+  judgement made in real time: the recording gives both and the gap wants one
+  of them.
+* **Writing** — an outline is main ideas with their supporting details. Task 2
+  body paragraphs are a topic sentence plus support; Task 1 is an Overall
+  statement plus topic sentences plus figures.
+* **Speaking** — Part 2 is one minute to build a main-idea outline. Part 3 is
+  an answer that has a point and support for it rather than a list.
+
+**Matching Headings is outlining in reverse.** Writing an outline produces
+exactly what that task asks a student to recognise. Saying this out loud, and
+building the exercises so that a student does both directions on the same text
+in the same unit, is most of what makes the thread real rather than asserted.
+
+### 5.1 Choosing main ideas: the six tests
+
+Students are told to "brainstorm" and then left to it. The judgement that
+actually matters is which of the brainstormed ideas become body paragraphs, and
+it has criteria:
+
+1. **Distinct** — no two overlap. If two can be merged, they were one idea.
+2. **Roughly equal weight** — none is a sub-point of another. They sit at the
+   same level of generality.
+3. **Each answers the question**, not the topic. The commonest essay failure is
+   three good paragraphs about the subject that never answer what was asked.
+4. **Together they cover enough** that no obvious branch is missing.
+5. **Each is developable** — you have three or four sentences of real support
+   for it. An idea you cannot support is not a body paragraph, however good it
+   sounds.
+6. **Ordered on purpose** — strongest last, or chronological, or whatever the
+   chosen structure requires.
+
+### 5.2 The outlining exercise families
+
+Each appears in every unit from Foundation 2 on, at that volume's level:
+
+| Exercise | What the student does |
+|---|---|
+| **Fill the outline** | Given a thesis and eight to twelve sentences, sort them into main ideas and the details that sit under them |
+| **Spot the intruder** | One sentence belongs under no main idea |
+| **Spot the overlap** | Two proposed main ideas are the same idea in different words — merge them |
+| **Spot the unequal** | One proposed main idea is a detail of another — demote it |
+| **Outline to essay** | Write from a given outline, so the plan is visibly doing work |
+| **Essay to outline** | Reverse-engineer a model's plan. This is the reading skill wearing writing clothes |
+| **Passage to outline** | Outline a reading passage from the unit — the single exercise that makes the thread explicit |
+| **The one-minute outline** | Speaking Part 2 cue card, against a clock |
+
+The last three are the ones that make the series different from a book that
+teaches four skills in four silos.
+
+---
+
+## 6. Writing
+
+### 6.1 Task 2: eleven structures, chosen by intent rather than by wording
+
+The structures are organised by **what the writer wants to do**, not by what
+the question says. This matters more than it looks: a student who has memorised
+"if the question says *discuss both views*, use structure X" is defeated by a
+question phrased unusually, and produces an essay that answers the template
+instead of the prompt. A student who asks *what do I want to do here* can place
+any prompt.
+
+| | The writer wants to | Shape | Conclusion |
+|---|---|---|---|
+| 1 | present one point of view | intro states the opinion (not optional) · BP1–3 reasons | summary, perhaps with a twist |
+| 2 | present two views, one of them theirs | BP1 the opposing view · BP2 their own | summary |
+| 3 | present two opposed, even extreme, views and then choose, moderate or reconcile | BP1 first position · BP2 second | **detailed — it has to prove the position** |
+| 4 | give advantages and disadvantages of one choice and take a position **immediately** | BP1 advantages · BP2 "However, I believe the disadvantages are greater" | summary |
+| 5 | give advantages and disadvantages and say which are greater **afterwards** | BP1 advantages · BP2 disadvantages | **the position, and why** — or "we can have the advantages without the disadvantages if…" |
+| 6 | weigh **two** choices and then pick | BP1 choice 1 · BP2 choice 2 | the choice and **why**: one outright, one conditionally, or both under different conditions |
+| 7 | analyse a problem | BP1 causes · BP2 effects · BP3 solutions and why they work | summary with a twist |
+| 8 | present a situation and how to deal with it | BP per action, each with its reason | summary |
+| 9 | state a position, raise an objection and rebut it | BP1 support · BP2 counterargument and rebuttal | summary |
+| 10 | answer more than one related question | BP per question | summary |
+| 11 | agree in some circumstances and disagree in others | BP1 when they agree · BP2 when they disagree | summary |
+
+Three things in this taxonomy are worth teaching as explicit lessons because
+most books miss them:
+
+* **4 against 5 is a real choice, not a rule.** The same prompt takes either.
+  Structure 4 commits in body paragraph 2 and reads as confident; structure 5
+  defers to the conclusion and reads as weighed. Teaching both and letting the
+  student choose is teaching rhetoric rather than a template.
+* **The conditional move — "both, under different circumstances"** — appears
+  in 3, 6 and 11 and is the high-band move. It is what separates an essay that
+  takes a position from an essay that takes a *considered* position.
+* **The conclusion is not one thing.** In most structures it is a summary,
+  optionally with a twist — a hope, a wish, a piece of advice, a warning, a
+  prediction. In 3, 5 and 6 it carries the argument and must be longer, because
+  the position has been deferred to it. The twist taxonomy is five concrete
+  endings a student can practise, which beats "restate the thesis".
+
+### 6.2 Task 1 Academic: ten principles
+
+These come from the attached technique and are the spine of the Task 1 strand.
+They are stated as principles with a reason, and each gets a lesson:
+
+1. **It is an essay, so give it an essay's structure**: an Overall (thesis)
+   statement in the introduction, topic sentences, and a **declared basis** for
+   dividing the body paragraphs.
+2. **Cover everything, but summarise.** No element may be ignored; simple
+   behaviour over a stretch may be compressed into one sentence, and often a
+   whole line over a whole period can be.
+3. **Keep comparisons balanced.** If you said a thing was first at the start,
+   you may not go silent about its position later — above all when it changes.
+   Balance usually costs three or four words.
+4. **Write for a reader who cannot see the graph**, and the essay has to be
+   useful to them.
+5. **No bare numbers.** Every figure carries a description — high, low,
+   relatively low, the value it started or ended at. The test of this is sharp:
+   **delete every number and the essay should still read.**
+6. **Do not state conclusions; steer the reader to them.** Show that DVD sales
+   fell as Blu-ray appeared and rose, and the reader concludes the substitution
+   themselves and feels clever. The report you are writing sits *before* the
+   Conclusions and Recommendations section of a real study, which is the fact
+   almost no candidate knows.
+7. **Never jump from the biggest value to the smallest.** Go in order, group as
+   you go, and compare how near or far each is from its neighbour. The second
+   country by visitors is not less interesting than the last.
+8. **A conclusion is not required.** Its substance belongs in the Overall
+   statement so the reader knows from the first sentence what the data says.
+   Use the space at the end instead for the comparison that would not fit the
+   body paragraphs.
+9. **Cohesion downward.** Every body paragraph supports the Overall statement;
+   everything in a body paragraph supports its topic sentence. That is what
+   makes it an essay and not a heap of bullet points.
+10. **Where generic advice conflicts with this, follow this.** The technique's
+    own evidence is the side-by-side: the official model answer and the
+    improved one on the same graph.
+
+Three of these convert directly into exercises that no other course has:
+
+* **The number-deletion test** (principle 5). Hand the student a model with
+  every figure removed and ask whether it still describes the graph. Then hand
+  them their own essay with the figures removed.
+* **The blind-reader test** (principle 4). One student reads the essay aloud;
+  the other, who has not seen the visual, **sketches it**. Compare with the
+  original. Nothing else exposes an under-described graph so fast.
+* **The side-by-side** (principle 10). A weaker published model and a stronger
+  one on the same visual, with the differences annotated, exactly as the
+  attached file does for the Newport crime graph.
+
+### 6.3 Task 1: strategic organisation, which is the part that is actually hard
+
+Selecting and grouping is where Task 1 marks are won, and it has a rule.
+**Count the data dimensions first.**
+
+**One-dimensional visuals** — a single set of items with one measure each: a
+pie chart, a single-series bar chart, a process diagram (one dimension, time),
+a sequence of maps. The three moves are **order, group, compare**:
+
+* Order the items — by size, or by sequence where the dimension is time.
+* Group those that sit close together or behave alike.
+* Compare neighbour to neighbour, so the reader gets the shape of the
+  distribution, and never jump from top to bottom (principle 7).
+
+*Worked example — a pie chart of household spending over six categories.*
+"Housing dominates at 35%. Food and transport follow, close to one another at
+around 20% each. The remaining three — clothing, leisure and other — are all
+below 10% and within two points of each other." One dimension, ordered,
+grouped, compared.
+
+**Two-dimensional visuals** — the data varies along two axes at once: three
+crimes across nine years; five age groups in two years; five arrest reasons by
+gender. Here the move is: **choose one dimension to structure the body
+paragraphs, and run the one-dimensional moves along the other dimension inside
+each paragraph.**
+
+The structuring dimension is chosen by three tests:
+
+1. **Which dimension carries the story?** Where is there a turn, a reversal, a
+   change of rank?
+2. **Which gives two or three paragraphs rather than five?**
+3. **Does each paragraph become a single coherent claim?**
+
+If the chosen dimension has many values — years, usually — grouping is not
+optional, and the group boundary goes **where the story turns**.
+
+**Hybrid** — where a second visual has a different shape from the first, give
+it its own treatment and join the two explicitly. A two-dimensional line graph
+handled by series, then a one-dimensional bar chart handled by order and group,
+joined with "On the other hand".
+
+### 6.4 The organisation decisions, worked from the attached models
+
+Each of these is a lesson, because each shows the rule choosing differently:
+
+| Visual | Dimensions | Structured by | Why, and what happens inside |
+|---|---|---|---|
+| Newport crime, 3 crimes × 9 years | 2D | **crime** (3 BPs) | Only three items and no two share a pattern, so no grouping needed on that axis. Inside each paragraph, move along time. |
+| *the same graph, the other way* | 2D | **time** (2 BPs) | Ten years is too many to list, so grouping is **compulsory** — and the boundary goes at mid-2006, where burglary and car theft swap rank. The story picks the cut. |
+| Donations, 5 age groups × 2 years | 2D | **year** (2 BPs) | Five age-group paragraphs would be absurd; the story is "same shape, different peak", which is a comparison between years. Inside each, walk the age groups in order. |
+| Arrests, 5 reasons × 2 genders | 2D | **gender** (2 BPs) | Inside each, order the reasons and **group**: "the remaining three — drink driving, breach of order and theft — came close together, averaging about 13%". |
+| French and Mandarin, 2 languages × 20 years | 2D | **time** (2 BPs) | Only two series, yet time wins: the relationship itself changes — opposed patterns to 2005, near-identical stability after. Structuring by language would bury the turn. |
+| Bee colonies + honey, 2 charts × 5 years | 2D | **time** (2 BPs) | The two series move oppositely for two decades and together for two. Again the reversal picks the cut. |
+| Education level × 3 years, Bulgaria | 2D | **education level** (3 BPs) | Three by three, so either works — level wins because each level has one clean trend shape, making each paragraph a single claim. |
+| Nutrients × 2 groups, plus a table | 2D + table | **nutrient, grouped by shared behaviour** | Fat alone; vegetables and fruits together because both reverse; cereals and fish together because both are equal. Then "Turning to the table". |
+| UK visits (line) + top countries (bar) | 2D **+ 1D** | **hybrid** | Line graph by series, two paragraphs; then the bar chart by order and group, joined with "On the other hand". |
+| Headland erosion | 1D (sequence) | **stage** | Order is given; group into phases where a process is long. |
+| Stokeford, 1930 and 2010 | 1D (time) | **map** | One paragraph a map, and inside each, move through space in a fixed order so the reader can follow. |
+
+The lesson a student takes from the table is that the rule is not "always do it
+by category". **The story picks the dimension**, and the clearest sign of a turn
+— a swap in rank, a reversal of direction, a change in the relationship between
+two series — is where the body paragraphs should divide.
+
+### 6.5 Task 1 General Training: the letter
+
+The letter forks from the Academic task completely and is taught in cycles 1 to
+3, where the everyday register already lives. Three registers — formal,
+semi-formal, informal — and the choice is driven by who the reader is, which is
+the only thing the prompt reliably tells you. The outlining spine applies
+unchanged: the three bullet points in the prompt **are** the main ideas, and the
+commonest failure is treating them as topics to mention rather than as
+paragraphs to develop.
+
+---
+
+## 7. The unit, cycle by cycle
 
 Sixteen parts, five cycles a skill, the same architecture the TOEFL series
 ships — with the task names swapped for IELTS ones and one strand added.
@@ -323,10 +740,16 @@ ships — with the task names swapped for IELTS ones and one strand added.
 | 4 | **Academic passage / GT Section 3** — the claim the field rests on | Part 4: academic lecture | **Academic Task 1**: data, process or map | Part 3: discussion |
 | 5 | **Academic passage** — the objection to cycle 4 | Part 4: a second lecture | **Task 2** at full length | Part 3: the harder turn |
 
-Added strand, in every unit: **Active Reading** — one lesson on a move of the
-method or one of its four type variants, the unit's exercise from the four
-families in 3.4, and the timed passage whose words-per-minute goes into the
-unit review beside the re-read counter.
+Two strands are added to every unit:
+
+* **Active Reading / Active Listening** — one lesson on a move of the method,
+  one of its four reading variants or one of the four Listening-only moves
+  (4.2); the unit's exercise from the four families in 3.4; and the timed
+  passage whose words-per-minute goes into the unit review beside the re-read
+  counter.
+* **Outlining** — one exercise from the eight families in 5.2, at that
+  volume's level, with at least one unit a volume running the
+  passage-to-outline exercise that makes the cross-skill thread explicit.
 
 Passage lengths, which are *not* the TOEFL ones — Academic Reading runs
 longer than TOEFL's, and the whole paper is 40 questions in 60 minutes with no
@@ -343,7 +766,7 @@ passage does, and reading speed is built above the distance you race.
 
 ---
 
-## 5. Question types: the coverage that has to be gated
+## 8. Question types: the coverage that has to be gated
 
 The eleven Reading types and the Listening types are the syllabus. Each one is
 **taught in a named lesson before it is ever tested**, and a gate enforces it.
@@ -357,8 +780,10 @@ completion · diagram labelling · short answer.
 form, note, table and flow-chart completion · sentence completion · short
 answer.
 
-**Writing Task 2** — opinion · discuss both views · problem and solution ·
-advantages and disadvantages · two-part question.
+**Writing Task 2** — the eleven structures of 6.1, which cut the same ground
+as the usual prompt-type list (opinion · discuss both views · problem and
+solution · advantages and disadvantages · two-part question) but are indexed by
+intent rather than by wording.
 **Academic Task 1** — line graph · bar chart · pie chart · table · process ·
 map · multiple charts.
 **GT Task 1** — formal · semi-formal · informal letter.
@@ -372,7 +797,7 @@ taught.
 
 ---
 
-## 6. What clones, what is new
+## 9. What clones, what is new
 
 **Clones unchanged** — the expensive, proven part:
 
@@ -412,7 +837,7 @@ taught.
 
 ---
 
-## 7. The gates, restated for IELTS
+## 10. The gates, restated for IELTS
 
 | Gate | What it proves |
 |---|---|
@@ -428,6 +853,8 @@ taught.
 | **10 type coverage** | **no question type tested before it is taught; minimum counts met** |
 | **11 technique** | **every unit carries its Active Reading lesson and exercise** |
 | **12 reading speed** | **every volume's timed passages are set so the loop's arithmetic closes at that volume's target wpm, and every printed time budget names the speed it assumes** |
+| **13 outlining** | **every unit carries an outlining exercise; every volume runs passage-to-outline at least once, and every one of the eight families appears** |
+| **14 structure coverage** | **all eleven Task 2 structures and all seven Academic Task 1 visual types are taught before they are set, and each is set at least twice across the series** |
 
 Gates 10 and 11 are written **before** the content, for the same reason gate 9
 was: gate 9 failed Volumes 3 and 4 on the day it was written, and that failure
@@ -435,7 +862,7 @@ is what drove the work that fixed them.
 
 ---
 
-## 8. Sequence, and an honest word on scale
+## 11. Sequence, and an honest word on scale
 
 The TOEFL series is eight books, 1.09 million body words and 3,752 figures.
 The IELTS clone is the same order of work or slightly more, because the
@@ -469,7 +896,7 @@ measurement is what made gate 7 pass at a mean of 1.5 unknown types.
 
 ---
 
-## 9. Open questions worth settling before step 1
+## 12. Open questions worth settling before step 1
 
 1. **Market and format.** Which country's candidates, and are they sitting on
    computer or paper? This changes the technique chapter and the timings
