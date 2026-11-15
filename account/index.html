@@ -69,10 +69,10 @@ footer{border-top:1px solid var(--border);padding:18px 0;color:var(--muted);font
 [hidden]{display:none !important}
 </style>
 </head>
-<body data-la-course="account">
+<body data-la-course="account" data-la-root="../">
 
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><b>Learn</b>Actively</a>
+  <a class="brand" href="../"><b>Learn</b>Actively</a>
   <span class="spacer"></span>
   <span id="la-bar"></span>
 </div></header>
@@ -114,6 +114,9 @@ footer{border-top:1px solid var(--border);padding:18px 0;color:var(--muted);font
     <p class="hint"><strong>If you give no email, your password cannot be reset.</strong>
       Nobody can recover the account for you &mdash; not even me.</p>
     <p class="ar" lang="ar" dir="rtl">إن لم تُدخل بريداً، لا يمكن استعادة كلمة المرور إطلاقاً.</p>
+    <p class="hint">While the trial is running, <strong>no confirmation email is sent yet</strong>,
+      so for now a password cannot be reset by email either way &mdash; ring me and I will reset
+      it. Your address is kept and becomes usable the moment sending is switched on.</p>
 
     <label for="upName">Your name <span class="hint">optional &middot; shown to you only</span></label>
     <input id="upName" autocomplete="name">
@@ -217,10 +220,10 @@ footer{border-top:1px solid var(--border);padding:18px 0;color:var(--muted);font
 </div></main>
 
 <footer><div class="wrap">
-  <a href="/">Back to the courses</a> &middot; <a href="privacy.html">What is stored</a>
+  <a href="../">Back to the courses</a> &middot; <a href="privacy.html">What is stored</a>
 </div></footer>
 
-<script src="/assets/la/account.js?v=dea4e7675e"></script>
+<script src="../assets/la/account.js?v=b6f686ec1c"></script>
 <script>
 (function () {
   'use strict';

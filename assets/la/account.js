@@ -61,6 +61,16 @@
     } catch (e) { return null; }
   }
 
+  /* Where the site root is FROM THIS PAGE. A course page sits several directories deep, and the
+   * site's standing rule is that it works from a folder with no server - so '/account/' would be
+   * a dead link on a USB stick. The page declares its own way back up; absolute is the fallback
+   * for pages that sit at the root. */
+  function root_() {
+    try {
+      return (doc.body && doc.body.getAttribute('data-la-root')) || '/';
+    } catch (e) { return '/'; }
+  }
+
   function who() {
     var raw = cookie('la_who');
     if (!raw) { return null; }
@@ -122,15 +132,31 @@
   }
   function progressGet(key) { return progress(key); }
 
+  /* THE BADGE BRINGS ITS OWN STYLES. Five course families have five unrelated stylesheets, and
+   * editing all of them to add one rule is five chances to break a page that works. One <style>,
+   * written once per document, costs a few hundred bytes of the budget and touches nothing. */
+  function style() {
+    try {
+      if (doc.getElementById('la-style')) { return; }
+      var s = doc.createElement('style');
+      s.id = 'la-style';
+      s.textContent = '.la-who{display:inline-block;padding:4px 11px;border-radius:999px;'
+        + 'font:650 13px/1.4 inherit;text-decoration:none;border:1px solid currentColor;'
+        + 'border-left-width:5px;opacity:.95}.la-who.la-out{border-left-width:1px;opacity:.7}';
+      (doc.head || doc.body).appendChild(s);
+    } catch (e) { /* the badge is still readable without it */ }
+  }
+
   function bar() {
     try {
       var host = doc.getElementById('la-bar');
       if (!host) { return false; }
+      style();
       var u = who();
       host.textContent = '';
       var a = doc.createElement('a');
       a.className = u ? 'la-who' : 'la-who la-out';
-      a.href = '/account/';
+      a.href = root_() + 'account/';
       if (u) {
         a.textContent = u.username;
         a.style.borderColor = u.colour;
@@ -145,7 +171,7 @@
   }
 
   root.LA = {
-    who: who, on: on, flush: flush,
+    who: who, on: on, flush: flush, root: root_,
     progress: progress, progressGet: progressGet,
     bar: bar, course: course, api: API
   };
