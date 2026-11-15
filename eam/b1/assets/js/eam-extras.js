@@ -289,6 +289,28 @@
   var baseRoleplay = EX.roleplay;
   EX.roleplay = function (card, host, api) {
     var ctl = baseRoleplay(card, host, api);
+
+    /* THE TWO ROLE CARDS. The book prints a brief for each part - "Card A — Mechanic: report
+       on the fluids; Card B — Foreman: ask how low, then decide" - and the engine's roleplay
+       renders only the role BUTTONS, so without this the learner picked a side and was never
+       told what that side has to do. The briefs sit above the recorder, each under its own
+       heading, so a pair sharing a screen can read their own and not the other's. */
+    if (card.briefs && card.briefs.length) {
+      var bx = el('div', 'briefs');
+      card.briefs.forEach(function (bf) {
+        var one = el('div', 'brief');
+        one.innerHTML = '<h4>' + esc(bf.label || '') + '</h4><div>' + esc(bf.text || '')
+          + '</div>';
+        bx.appendChild(one);
+      });
+      /* above the Remember note when there is one, so the order reads: pick your role, this
+         is what your role has to do, these are the words you can use. */
+      var anchor = host.querySelector('.note.warm')
+        || host.querySelector('.rec-row, .recorder')
+        || host.querySelector('textarea');
+      host.insertBefore(bx, anchor || null);
+    }
+
     if (card.modelScene && EAM.modal && EAM.cine) {
       var row = el('div', 'btn-row');
       var b = el('button', 'btn btn-sm',

@@ -1275,4 +1275,71 @@ button.is-ai { border-color: var(--accent, #e8b418); }
   .station .t { min-width: 0; overflow-wrap: anywhere; }
   .chip, .tile, .opt, .ord-block { max-width: 100%; overflow-wrap: anywhere; }
   .tbl, .tbl td, .tbl th { word-break: break-word; }
+  /* A reading passage carries the book's own prose, which includes long compound terms and
+     quoted speech with no break opportunity. Two pixels of overflow is still a page that
+     scrolls sideways on a phone, so the text is allowed to break anywhere rather than the
+     page being allowed to move. */
+  .reading, .reading p, .convo, .q-row, .qt { overflow-wrap: anywhere; min-width: 0; }
+  .scaf-out, .scaf-out p, .tutor-out { overflow-wrap: anywhere; }
+  /* The book-reference chip is one unbroken line - "EAM B1 · Unit 2 · Part 7 - Management
+     File, dialogue" - and a chip is styled not to wrap, so on a long reference it reached
+     362px inside a 360px page. It wraps here rather than the page moving. */
+  .eyebrow { flex-wrap: wrap; }
+  .bookchip { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+}
+
+/* The book's worked item 0. It is marked rather than merely printed, because its model
+   sentence is often built from the same word as item 1 and so reads as a leaked answer to
+   anything scanning the page; eam_render R7 subtracts this region and R7b refuses one that
+   is not a worked example. Styled so a learner reads it as the model, not as a gap. */
+.eg-model {
+  display: block;
+  padding: 8px 12px;
+  border-left: 3px solid var(--teal-500);
+  background: var(--teal-050);
+  border-radius: 0 6px 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+/* The two role cards of a role play, side by side on a laptop and stacked on a phone. The
+   engine's roleplay draws the role buttons only, so the brief for each part is rendered by the
+   decorator in eam-extras.js and styled here. */
+.briefs { display: flex; gap: 12px; margin: 14px 0 4px; flex-wrap: wrap; }
+.brief {
+  flex: 1 1 240px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: var(--surface);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.brief h4 {
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 3px;
+}
+
+/* The heading of a task nested under a player - the comprehension questions below a
+   listening scene. It is a card inside a card, so it needs a rule of its own; the page shell
+   only draws the outer card's heading. */
+.sub-h {
+  margin: 20px 0 2px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line, #d8e3e6);
+  font-size: 16px;
+  color: var(--teal-800);
+}
+
+.eg-model b {
+  display: block;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--teal-700);
+  margin-bottom: 2px;
 }

@@ -46,8 +46,50 @@
     sami:  { rig: 'm-50s-a', shirt: '#6d6f8f', shirt2: '#54566f',
              name: 'Sami', role: 'garage owner', voice: 'm', pitch: 0.92 }
   };
+  /* Workwear below the waist, fixed per person for the same reason the shirt is: a character
+     who changes trousers between two cards is two characters. */
+  CAST.maher.legs = '#2b3440'; CAST.maher.shoe = '#20262d';
+  CAST.nabil.legs = '#33465c'; CAST.nabil.shoe = '#242c33';
+  CAST.rana.legs = '#3a4854'; CAST.rana.shoe = '#262c33';
+  CAST.lina.legs = '#2f4a45'; CAST.lina.shoe = '#222a28';
+  CAST.tarek.legs = '#4f4636'; CAST.tarek.shoe = '#2d2a24';
+  CAST.aboud.legs = '#5c4b3a'; CAST.aboud.shoe = '#2e2721';
+  CAST.sami.legs = '#4a4b60'; CAST.sami.shoe = '#26262f';
+
   A.cast = CAST;
   A.castNames = Object.keys(CAST);
+
+  /* ============================================================
+     LEGS AND FEET, WHEN THE FRAME HOLDS THEM
+
+     A.actor draws head, neck, torso and both arms in a 200x300 box and stops at the shirt hem,
+     so on a stage every character stood like a doll cut off at the waist. A figure in a frame
+     should be CLIPPED by the frame, not amputated by the drawing: the legs are drawn below the
+     box and the stage's own overflow decides how much of them a given shot shows.
+
+     A.actor is WRAPPED rather than edited, for the same reason A.set is: art.js has to stay a
+     byte-for-byte copy so it can be re-lifted. The legs are opt-in through `opts.full`, so the
+     200x140 spots and dioramas - which really are head-and-shoulders - are untouched; only a
+     cast entry that asks for a whole person gets one.
+     ============================================================ */
+  var engineActor = A.actor;
+  A.actor = function (id, rigName, opts) {
+    var body = engineActor(id, rigName, opts);
+    if (!opts || !opts.full) { return body; }
+    var leg = opts.legs || '#39434f', shoe = opts.shoe || '#23282e';
+    var s = '<g id="' + id + '-legs">';
+    /* hips, so the shirt hem sits ON something rather than ending in air */
+    s += r(30, 292, 140, 46, leg, 12);
+    /* the two legs, knee-height apart, with a hem above the shoe */
+    s += r(48, 330, 46, 172, leg, 10);
+    s += r(106, 330, 46, 172, leg, 10);
+    /* shoes, toes outward */
+    s += p('M 94 496 v 16 h -46 q -12 0 -12 -8 q 0 -8 14 -8 Z', shoe);
+    s += p('M 106 496 v 16 h 46 q 12 0 12 -8 q 0 -8 -14 -8 Z', shoe);
+    s += '</g>';
+    /* BEFORE the torso in document order, so the shirt hem overlaps the waistband */
+    return body.replace('>', '>' + s);
+  };
 
   /* One person, drawn by the engine's rig, at a scale and offset that fits a 200x140 spot.
      The actor's own box is 200x300 and holds head, neck, torso and both arms, so a spot shows

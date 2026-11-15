@@ -22,8 +22,12 @@ var EAMC = (function () {
   var C = EAM.art.cast;
   function who(key, at, scale) {
     var g = C[key];
+    /* `full: true` asks art-eam-cast.js for legs and feet as well as the arms the rig already
+       had. The stage then CLIPS the figure the way a camera frames a standing person, instead
+       of the drawing ending at the shirt hem. */
     return { rig: g.rig, name: g.name, at: at, voice: g.voice, pitch: g.pitch,
-             scale: scale || 1, shirt: g.shirt, shirt2: g.shirt2 };
+             scale: scale || 0.72, bottom: 42, shirt: g.shirt, shirt2: g.shirt2,
+             legs: g.legs, shoe: g.shoe, full: true };
   }
   return { who: who };
 }());

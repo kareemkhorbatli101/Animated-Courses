@@ -3588,6 +3588,14 @@
     var sub = null;
     if (card.quiz) {
       var qcard = Object.assign({}, card.quiz);
+      /* THE NESTED CARD'S OWN HEADING. core.js renders a card's title and instruction for the
+         OUTER card only, so until this was added the learner reached the statements under a
+         listening scene with no direction at all: not told to write the line that proves it,
+         not told what Not Given means, and the worked item 0 above them unexplained. Patched
+         by tools/eam_engine_lift.py, which REFUSES if this line goes, and checked by
+         gates/eam_render.py R13. */
+      if (qcard.title) host.appendChild(mk('h4', 'sub-h', esc(qcard.title)));
+      if (qcard.instruction) host.appendChild(mk('p', 'instr', qcard.instruction));
       sub = EX[qcard.type](qcard, host, api);
     }
     if (!sub) {
