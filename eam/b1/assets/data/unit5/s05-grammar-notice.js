@@ -61,8 +61,9 @@ EAM.page('u5-s05', {
         + '<div class="note warm"><h4>Watch out</h4>' + '✗ The car serviced. → ✓ The car is serviced. ✗ The tyres is checked. → ✓ '
         + 'The tyres are checked (plural)' + '</div>'
         + '</div>',
-      visual: { live: 'shift-day', wide: true,
-        caption: 'The same day, seen as a process.' },
+      visual: { live: 'passive-focus', wide: true,
+        caption: 'The same action, with the doer fading out of it — which is what the '
+        + 'passive does.' },
       doneLabel: 'I have read it',
       playable: ['Remember: Passive = is / are + past participle (checked, serviced, done, '
         + 'handed over). Use by + doer only if y', 'Watch out! ✗ The car serviced. → ✓ The car is serviced. ✗ The tyres is '

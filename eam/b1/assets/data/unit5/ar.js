@@ -29,8 +29,8 @@ EAM.arabic({
   /* ---- s02-vocabulary ---- */
   'Match the words with their meanings. One meaning is not needed. (0. is done for you.) Column A Column B':
     'صِلْ كل كلمة بمعناها. هناك معنى واحد زائد لا يُستخدم. (البند 0 محلول كمثال.)',
-  'Complete the table. Write what happens in each department. (0. is done.)':
-    'أكمل الجدول: اكتب ماذا يحدث في كل قسم. (البند 0 محلول.)',
+  'The book prints a table here and asks you to complete it. Read the worked row, then do the two cards on this screen — they practise the same words.':
+    'يطبع الكتاب هنا جدولًا ويطلب منك إكماله. اقرأ الصف المحلول، ثم أنجز البطاقتين الأخريين في هذه الصفحة؛ فهما تتدربان على الكلمات نفسها.',
   'Match each department with its job. One job is not needed. Write the letter. Column A Column B':
     'صِلْ كل قسم بعمله. هناك عمل واحد زائد لا يُستخدم.',
 

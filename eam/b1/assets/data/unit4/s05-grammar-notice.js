@@ -59,8 +59,9 @@ EAM.page('u4-s05', {
         + '<div class="note warm"><h4>Watch out</h4>' + '✗ gooder / more good → ✓ better / the best. ✗ badder → ✓ worse / the '
         + 'worst. Don’t forget than after a comparative' + '</div>'
         + '</div>',
-      visual: { live: 'tense-timeline', wide: true,
-        caption: 'When a measurement was taken matters as much as what it says.' },
+      visual: { live: 'compare-gauges', wide: true,
+        caption: 'Four tyres, four readings. Comparing two of them, then all four, is what '
+        + 'the two forms are for.' },
       doneLabel: 'I have read it',
       playable: ['Remember: Short adjective + -er / -est (low → lower → the lowest). Long '
         + 'adjective: more / the most (worn → mor', 'Watch out! ✗ gooder / more good → ✓ better / the best. ✗ badder → ✓ worse '

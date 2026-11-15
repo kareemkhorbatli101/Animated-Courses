@@ -29,19 +29,19 @@ EAM.page('u4-s14', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'gauge', accept: 'm-b',
+        { id: 't1', num: 1, label: 'gauge', art: 'gauge', accept: 'm-b',
           why: '<b>gauge</b> — a tool that shows a measurement. Keep it apart from '
         + '<i>tolerance</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'tolerance', accept: 'm-a',
+        { id: 't2', num: 2, label: 'tolerance', art: 'tolerance', accept: 'm-a',
           why: '<b>tolerance</b> — the correct level for a reading. Keep it apart from '
         + '<i>gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'voltage', accept: 'm-e',
+        { id: 't3', num: 3, label: 'voltage', art: 'voltage', accept: 'm-e',
           why: '<b>voltage</b> — the electric power, in volts. Keep it apart from '
         + '<i>gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'worn', accept: 'm-d',
+        { id: 't4', num: 4, label: 'worn', art: 'worn', accept: 'm-d',
           why: '<b>worn</b> — old and used, with less tread. Keep it apart from '
         + '<i>gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' }

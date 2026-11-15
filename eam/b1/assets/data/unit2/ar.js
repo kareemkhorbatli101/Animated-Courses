@@ -29,8 +29,8 @@ EAM.arabic({
   /* ---- s02-vocabulary ---- */
   'Match the parts with their meanings. One meaning is not needed. (0. is done for you.) Column A Column B':
     'صِلْ كل جزء بمعناه. هناك معنى واحد زائد لا يُستخدم. (البند 0 محلول كمثال.)',
-  'Complete the table. Write what each fluid does and where it goes. (0. is done.)':
-    'أكمل الجدول: اكتب ماذا يفعل كل سائل وأين يوضع. (البند 0 محلول.)',
+  'The book prints a table here and asks you to complete it. Read the worked row, then do the two cards on this screen — they practise the same words.':
+    'يطبع الكتاب هنا جدولًا ويطلب منك إكماله. اقرأ الصف المحلول، ثم أنجز البطاقتين الأخريين في هذه الصفحة؛ فهما تتدربان على الكلمات نفسها.',
   'Match each fluid with what it does. One meaning is not needed. Write the letter. Column A Column B':
     'صِلْ كل سائل بالعمل الذي يؤديه. هناك معنى واحد زائد لا يُستخدم.',
 

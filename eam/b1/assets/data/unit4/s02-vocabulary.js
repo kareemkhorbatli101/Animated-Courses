@@ -34,31 +34,31 @@ EAM.page('u4-s02', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Gauge', accept: 'm-d',
+        { id: 't1', num: 1, label: 'Gauge', art: 'gauge', accept: 'm-d',
           why: '<b>Gauge</b> — a tool that shows a measurement. Keep it apart from <i>Tyre '
         + 'pressure</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Tyre pressure', accept: 'm-a',
+        { id: 't2', num: 2, label: 'Tyre pressure', art: 'tyre pressure', accept: 'm-a',
           why: '<b>Tyre pressure</b> — how hard the air pushes inside a tyre. Keep it '
         + 'apart from <i>Gauge</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'Tread depth', accept: 'm-f',
+        { id: 't3', num: 3, label: 'Tread depth', art: 'tread depth', accept: 'm-f',
           why: '<b>Tread depth</b> — how deep the grooves on a tyre are. Keep it apart '
         + 'from <i>Gauge</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'Voltage', accept: 'm-g',
+        { id: 't4', num: 4, label: 'Voltage', art: 'voltage', accept: 'm-g',
           why: '<b>Voltage</b> — the amount of electric power, in volts. Keep it apart '
         + 'from <i>Gauge</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Temperature', accept: 'm-h',
+        { id: 't5', num: 5, label: 'Temperature', art: 'temperature', accept: 'm-h',
           why: '<b>Temperature</b> — how hot or cold something is. Keep it apart from '
         + '<i>Gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't6', num: 6, label: 'Tolerance', accept: 'm-b',
+        { id: 't6', num: 6, label: 'Tolerance', art: 'tolerance', accept: 'm-b',
           why: '<b>Tolerance</b> — the correct level, or the small range that is allowed. '
         + 'Keep it apart from <i>Gauge</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't7', num: 7, label: 'Reading', accept: 'm-e',
+        { id: 't7', num: 7, label: 'Reading', art: 'reading', accept: 'm-e',
           why: '<b>Reading</b> — the number a meter or gauge shows. Keep it apart from '
         + '<i>Gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' }
@@ -72,21 +72,23 @@ EAM.page('u4-s02', {
     },
     {
       id: 'c2', covers: ['Part 1'], ref: '1B',
-      bookRef: 'Unit 4 · Part 1', type: 'cloze',
+      bookRef: 'Unit 4 · Part 1', type: 'study',
       title: 'Measurements Table',
-      instruction: 'Complete the table. Write the unit and the tool for each measurement. (0. '
-        + 'is done.)',
-      before: '<span class="eg-model"><b>Worked example</b>0. Tyre pressure — bar or psi '
-        + '— a pressure gauge.</span>',
-      text: '<div style="font-size:16px;line-height:2.5">'
-        + '</div>',
-      answers: {
-
-      },
-      whyTitle: 'How each gap was decided',
-      why: {
-
-      }
+      instruction: 'The book prints a table here and asks you to complete it. Read the worked '
+        + 'row, then do the two cards on this screen — they practise the same words.',
+      html: '<div style="font-size:16px;line-height:1.9">'
+        + '<span class="eg-model"><b>Worked example</b>0. Tyre pressure — bar or psi '
+        + '— a pressure gauge.</span>'
+        + '<div class="note warm" style="margin-top:12px">'
+        + '<h4>What is missing, and why you are seeing this</h4>'
+        + 'The book\'s table has more rows than the one worked for you. They are not '
+        + 'in this course\'s extraction of the book, and a page that invented them '
+        + 'would be teaching something the book does not say. The coverage manifest '
+        + 'for this unit records the gap, and the rows will be added when the table '
+        + 'is re-extracted.'
+        + '</div></div>',
+      doneLabel: 'I have read the worked row',
+      playable: ['Tyre pressure — bar or psi — a pressure gauge.']
     },
     {
       id: 'c3', covers: ['Part 1'], ref: '1C',

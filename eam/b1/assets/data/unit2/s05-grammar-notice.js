@@ -44,8 +44,9 @@ EAM.page('u2-s05', {
         + '<div class="note warm"><h4>Watch out</h4>' + '✗ There are much oil. → ✓ There is much oil (oil is uncountable). ✗ How '
         + 'much filters? → ✓ How many filters?' + '</div>'
         + '</div>',
-      visual: { live: 'two-actions', wide: true,
-        caption: 'Two things happening at once, and the words that join them.' },
+      visual: { live: 'there-shelf', wide: true,
+        caption: 'Things you can count go on the shelf; what you cannot count goes in the '
+        + 'tank. The sentence changes with them.' },
       doneLabel: 'I have read it',
       playable: ['Remember: some → + sentences. any → questions and – sentences. much + '
         + 'uncountable (oil, coolant). many + count', 'Watch out! ✗ There are much oil. → ✓ There is much oil (oil is '

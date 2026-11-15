@@ -39,11 +39,14 @@ EAM.coverage('unit4', [
         + 'book\'s.' },
   { ref: 'Part 1 · Measurements Table', page: 's02-vocabulary', id: 'u4-s02', card: 'c2',
     status: 'adapted',
-    note: 'The book prints a table with empty cells to complete. The page asks for '
-        + 'the same words as gaps inside the sentences the table rows state, because '
-        + 'a free-text cell cannot be compared with an answer and would mark '
-        + 'everything correct. Every cell the book asks for is asked for here, in the '
-        + 'book\'s order.' },
+    note: 'The book prints a table with empty cells to complete. Where the extraction '
+        + 'holds the rows, the page asks for the same words as gaps inside the '
+        + 'sentences those rows state, because a free-text cell cannot be compared '
+        + 'with an answer and would mark everything correct. Where it holds only the '
+        + 'worked row - which is the case in units 2 to 5 - the card shows that row '
+        + 'and SAYS the rest are missing rather than rendering an empty box with a '
+        + 'Check answers button under it. RESIDUALS CW: the table needs '
+        + 're-extracting.' },
   { ref: 'Part 1 · Readings and What They Tell You', page: 's02-vocabulary', id: 'u4-s02', card: 'c3',
     status: 'adapted',
     note: 'The book prints two columns and asks the learner to WRITE the letter of '

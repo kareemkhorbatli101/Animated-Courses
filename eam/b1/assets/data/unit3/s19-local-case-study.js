@@ -21,7 +21,7 @@ EAM.page('u3-s19', {
         + 'become? — An authorised service centre.</span>',
       items: [
         { q: '1. What did Maher say the owner needed first?',
-          accept: ['safety (not expensive machines)', 'safety'],
+          accept: ['safety', 'safety (not expensive machines)'],
           keys: ['safety'], need: 1,
           evidence: 'Look back at the text above — this answer is stated in it.' },
         { q: '2. What three things did the owner do?',

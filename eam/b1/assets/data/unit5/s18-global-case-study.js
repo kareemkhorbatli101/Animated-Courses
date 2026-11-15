@@ -65,7 +65,7 @@ EAM.page('u5-s18', {
           why: '<b>order</b> — the correct sequence of steps. Keep it apart from '
         + '<i>process</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'inspect', accept: 'm-e',
+        { id: 't4', num: 4, label: 'inspect', art: 'inspect', accept: 'm-e',
           why: '<b>inspect</b> — to look at a car carefully to check it. Keep it apart '
         + 'from <i>process</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' }

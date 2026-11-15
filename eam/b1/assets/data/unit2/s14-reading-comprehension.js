@@ -29,19 +29,19 @@ EAM.page('u2-s14', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'engine oil', accept: 'm-b',
+        { id: 't1', num: 1, label: 'engine oil', art: 'engine oil', accept: 'm-b',
           why: '<b>engine oil</b> — keeps the engine parts moving smoothly. Keep it apart '
         + 'from <i>coolant</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'coolant', accept: 'm-e',
+        { id: 't2', num: 2, label: 'coolant', art: 'coolant', accept: 'm-e',
           why: '<b>coolant</b> — stops the engine getting too hot. Keep it apart from '
         + '<i>engine oil</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'brake fluid', accept: 'm-a',
+        { id: 't3', num: 3, label: 'brake fluid', art: 'brake fluid', accept: 'm-a',
           why: '<b>brake fluid</b> — makes the brakes work. Keep it apart from <i>engine '
         + 'oil</i>, which is a different part of the same system. The meaning left in '
         + 'the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'dipstick', accept: 'm-c',
+        { id: 't4', num: 4, label: 'dipstick', art: 'dipstick', accept: 'm-c',
           why: '<b>dipstick</b> — a tool to check the oil level. Keep it apart from '
         + '<i>engine oil</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' }

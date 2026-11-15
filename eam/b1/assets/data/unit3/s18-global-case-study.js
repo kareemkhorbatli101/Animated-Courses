@@ -60,7 +60,7 @@ EAM.page('u3-s18', {
           why: '<b>accident</b> — when someone is hurt by mistake. Keep it apart from '
         + '<i>rule</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'PPE', accept: 'm-d',
+        { id: 't3', num: 3, label: 'PPE', art: 'ppe', accept: 'm-d',
           why: '<b>PPE</b> — safety gear you wear to protect yourself. Keep it apart from '
         + '<i>rule</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },

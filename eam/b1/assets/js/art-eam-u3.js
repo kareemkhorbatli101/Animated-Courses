@@ -167,10 +167,11 @@
 
   /* The hyphenated spellings a card may ask for. A spot that does not exist draws a dashed
      "no drawing for X" box, so both spellings point at the one drawing. */
-  [['socket-set', 'socket set'], ['torque-wrench', 'torque wrench'],
-   ['trolley-jack', 'trolley jack'], ['axle-stand', 'axle stand'],
-   ['wheel-chock', 'wheel chock'], ['fire-extinguisher', 'fire extinguisher'],
-   ['PPE', 'ppe']].forEach(function (pair) {
-    A.addSpot(pair[0], function () { return A.spot(pair[1]); });
-  });
+  A.addSpot('socket-set', function () { return A.spot('socket set'); });
+  A.addSpot('torque-wrench', function () { return A.spot('torque wrench'); });
+  A.addSpot('trolley-jack', function () { return A.spot('trolley jack'); });
+  A.addSpot('axle-stand', function () { return A.spot('axle stand'); });
+  A.addSpot('wheel-chock', function () { return A.spot('wheel chock'); });
+  A.addSpot('fire-extinguisher', function () { return A.spot('fire extinguisher'); });
+  A.addSpot('PPE', function () { return A.spot('ppe'); });
 }(window));

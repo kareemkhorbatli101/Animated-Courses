@@ -37,7 +37,7 @@ EAM.page('u3-s14', {
           why: '<b>chock</b> — to put a block behind a wheel so it can’t roll. Keep it '
         + 'apart from <i>safety gear</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'axle stand', accept: 'm-e',
+        { id: 't3', num: 3, label: 'axle stand', art: 'axle stand', accept: 'm-e',
           why: '<b>axle stand</b> — a strong stand that holds the car up safely. Keep it '
         + 'apart from <i>safety gear</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' },

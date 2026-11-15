@@ -46,8 +46,9 @@ EAM.page('u3-s05', {
         + 'car, then chock. → ✓ First chock the wheels, then raise the car (the safe '
         + 'order matters)' + '</div>'
         + '</div>',
-      visual: { live: 'shift-day', wide: true,
-        caption: 'A working day, step by step.' },
+      visual: { live: 'safe-order', wide: true,
+        caption: 'The job, played step by step — and again in the wrong order, so you can '
+        + 'see what the order was for.' },
       doneLabel: 'I have read it',
       playable: ['Remember: Negative imperative = Don’t / Never + verb. Use sequencers to '
         + 'show the order of the steps', 'Watch out! ✗ You put on gloves. (as a rule) → ✓ Put on your gloves. ✗ '

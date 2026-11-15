@@ -33,7 +33,7 @@ EAM.page('u2-s01', {
           why: '<b>Oil</b> — a liquid that keeps the engine parts moving smoothly. Keep it '
         + 'apart from <i>Coolant</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Coolant', accept: 'm-f',
+        { id: 't2', num: 2, label: 'Coolant', art: 'coolant', accept: 'm-f',
           why: '<b>Coolant</b> — a liquid that keeps the engine from getting too hot. Keep '
         + 'it apart from <i>Oil</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },

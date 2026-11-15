@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Progress &middot; English for Auto Maintenance B1</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/css/app.css">
+<script>window.EAM_BASE='../';window.EAM_MEDIA='';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/art-eam.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/data/unit1/meta.js"></script>
+<script src="../assets/data/unit1/map.js"></script>
+<script src="../assets/data/unit2/meta.js"></script>
+<script src="../assets/data/unit2/map.js"></script>
+<script src="../assets/data/unit3/meta.js"></script>
+<script src="../assets/data/unit3/map.js"></script>
+<script src="../assets/data/unit4/meta.js"></script>
+<script src="../assets/data/unit4/map.js"></script>
+<script src="../assets/data/unit5/meta.js"></script>
+<script src="../assets/data/unit5/map.js"></script>
+</head>
+<body data-la-course="eam-web" data-la-root="../../../">
+<span id="la-bar" class="la-float"></span>
+<script src="../../../assets/la/account.js"></script>
+<script>
+/* WHAT THIS BROWSER HAS DONE. There is no server behind it: EAM.progress keeps a learner's
+   work in this browser, so this page reports that and says so. A class view needs the back end
+   recorded in the residuals, and claiming one here would be a lie a teacher could act on. */
+(function () {
+  'use strict';
+  var U = EAM.util, el = U.el, esc = U.esc, P = EAM.progress;
+  EAM.chrome = { refresh: function () {} };
+  var main = el('main', 'page-main'), wrap = el('div', 'wrap');
+  wrap.appendChild(el('div', 'page-head',
+    '<div class="eyebrow"><span>Teacher</span><span class="bookchip">EAM B1</span></div>'
+    + '<h1>What has been done in this browser</h1>'
+    + '<p style="font-size:17px;max-width:72ch;color:var(--text-2)">This course stores a '
+    + 'learner\'s work in their own browser. This page reads that store. It is not a class '
+    + 'register: another learner on another machine does not appear here.</p>'));
+
+  var units = Object.keys(EAM.unitMaps || {});
+  if (!units.length) { wrap.appendChild(el('p', 'wc', 'No unit maps loaded.')); }
+  units.forEach(function (key) {
+    var rows = EAM.unitMaps[key] || [];
+    var block = el('div', 'lesson-block');
+    var done = 0, cards = 0, dc = 0;
+    rows.forEach(function (r) {
+      var sc = P.pageScore(r.id);
+      cards += sc.total; dc += sc.done;
+      if (sc.total > 0 && sc.done === sc.total) done += 1;
+    });
+    var us = P.unitScore ? P.unitScore(key) : null;
+    block.innerHTML = '<h2>' + esc(key.replace('unit', 'Unit ')) + '</h2>'
+      + '<p class="wc">' + done + ' of ' + rows.length + ' sections finished &middot; '
+      + dc + ' of ' + cards + ' activities'
+      + (us && us.max ? ' &middot; ' + us.score + ' / ' + us.max + ' on the marked exercises'
+         : '') + (us && us.open ? ' &middot; ' + us.open + ' open tasks submitted' : '') + '</p>';
+    var grid = el('div', 'stations');
+    rows.forEach(function (r) {
+      var sc = P.pageScore(r.id);
+      var a = el('a', 'station' + (sc.total > 0 && sc.done === sc.total ? ' done'
+        : (sc.done > 0 ? ' part' : '')));
+      a.href = '../' + key + '/' + r.file + '.html';
+      a.innerHTML = '<span class="n">' + (sc.done || 0) + '</span><span class="t">'
+        + esc(r.label) + '<small>' + sc.done + ' of ' + sc.total + ' done</small></span>';
+      grid.appendChild(a);
+    });
+    block.appendChild(grid);
+    wrap.appendChild(block);
+  });
+
+  var btns = el('div', 'btn-row');
+  btns.style.margin = '24px 0 10px';
+  var exp = el('button', 'btn', 'Export everything this browser has stored');
+  exp.onclick = function () {
+    var blob = new Blob([P.exportAll()], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'eam-b1-progress.json';
+    a.click();
+  };
+  btns.appendChild(exp);
+  var back = el('a', 'btn', '◀ Teacher pages');
+  back.href = 'index.html';
+  btns.appendChild(back);
+  wrap.appendChild(btns);
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+}());
+</script>
+</body>
+</html>

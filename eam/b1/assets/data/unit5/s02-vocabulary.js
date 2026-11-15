@@ -34,15 +34,15 @@ EAM.page('u5-s02', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Book in', accept: 'm-d',
+        { id: 't1', num: 1, label: 'Book in', art: 'book in', accept: 'm-d',
           why: '<b>Book in</b> — to write a car into the system when it arrives. Keep it '
         + 'apart from <i>Inspect</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Inspect', accept: 'm-a',
+        { id: 't2', num: 2, label: 'Inspect', art: 'inspect', accept: 'm-a',
           why: '<b>Inspect</b> — to look at a car carefully to check it. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'Diagnose', accept: 'm-f',
+        { id: 't3', num: 3, label: 'Diagnose', art: 'diagnose', accept: 'm-f',
           why: '<b>Diagnose</b> — to find out what is wrong with a car. Keep it apart from '
         + '<i>Book in</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
@@ -50,15 +50,15 @@ EAM.page('u5-s02', {
           why: '<b>Service</b> — to do the regular checks and work. Keep it apart from '
         + '<i>Book in</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Road-test', accept: 'm-h',
+        { id: 't5', num: 5, label: 'Road-test', art: 'road-test', accept: 'm-h',
           why: '<b>Road-test</b> — to drive a car to check it works well. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't6', num: 6, label: 'Quality check', accept: 'm-b',
+        { id: 't6', num: 6, label: 'Quality check', art: 'quality check', accept: 'm-b',
           why: '<b>Quality check</b> — a final check before the car goes back. Keep it '
         + 'apart from <i>Book in</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't7', num: 7, label: 'Hand over', accept: 'm-e',
+        { id: 't7', num: 7, label: 'Hand over', art: 'hand over', accept: 'm-e',
           why: '<b>Hand over</b> — to give the car back to the customer. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' }
@@ -72,20 +72,23 @@ EAM.page('u5-s02', {
     },
     {
       id: 'c2', covers: ['Part 1'], ref: '1B',
-      bookRef: 'Unit 5 · Part 1', type: 'cloze',
+      bookRef: 'Unit 5 · Part 1', type: 'study',
       title: 'Departments Table',
-      instruction: 'Complete the table. Write what happens in each department. (0. is done.)',
-      before: '<span class="eg-model"><b>Worked example</b>0. Reception — the car is '
-        + 'booked in and handed over.</span>',
-      text: '<div style="font-size:16px;line-height:2.5">'
-        + '</div>',
-      answers: {
-
-      },
-      whyTitle: 'How each gap was decided',
-      why: {
-
-      }
+      instruction: 'The book prints a table here and asks you to complete it. Read the worked '
+        + 'row, then do the two cards on this screen — they practise the same words.',
+      html: '<div style="font-size:16px;line-height:1.9">'
+        + '<span class="eg-model"><b>Worked example</b>0. Reception — the car is '
+        + 'booked in and handed over.</span>'
+        + '<div class="note warm" style="margin-top:12px">'
+        + '<h4>What is missing, and why you are seeing this</h4>'
+        + 'The book\'s table has more rows than the one worked for you. They are not '
+        + 'in this course\'s extraction of the book, and a page that invented them '
+        + 'would be teaching something the book does not say. The coverage manifest '
+        + 'for this unit records the gap, and the rows will be added when the table '
+        + 'is re-extracted.'
+        + '</div></div>',
+      doneLabel: 'I have read the worked row',
+      playable: ['Reception — the car is booked in and handed over.']
     },
     {
       id: 'c3', covers: ['Part 1'], ref: '1C',

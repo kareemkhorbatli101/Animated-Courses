@@ -42,23 +42,23 @@ EAM.page('u2-s02', {
           why: '<b>Radiator</b> — it holds coolant and lets heat escape. Keep it apart '
         + 'from <i>Battery</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'Alternator', accept: 'm-a',
+        { id: 't3', num: 3, label: 'Alternator', art: 'alternator', accept: 'm-a',
           why: '<b>Alternator</b> — it makes electricity while the engine runs. Keep it '
         + 'apart from <i>Battery</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'Belt', accept: 'm-g',
+        { id: 't4', num: 4, label: 'Belt', art: 'belt', accept: 'm-g',
           why: '<b>Belt</b> — a rubber loop that turns parts in the engine. Keep it apart '
         + 'from <i>Battery</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Hose', accept: 'm-b',
+        { id: 't5', num: 5, label: 'Hose', art: 'hose', accept: 'm-b',
           why: '<b>Hose</b> — a rubber pipe that carries a fluid. Keep it apart from '
         + '<i>Battery</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't6', num: 6, label: 'Dipstick', accept: 'm-h',
+        { id: 't6', num: 6, label: 'Dipstick', art: 'dipstick', accept: 'm-h',
           why: '<b>Dipstick</b> — you use it to check the oil level. Keep it apart from '
         + '<i>Battery</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't7', num: 7, label: 'Air filter', accept: 'm-e',
+        { id: 't7', num: 7, label: 'Air filter', art: 'air filter', accept: 'm-e',
           why: '<b>Air filter</b> — it cleans the air going into the engine. Keep it apart '
         + 'from <i>Battery</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' }
@@ -73,21 +73,23 @@ EAM.page('u2-s02', {
     },
     {
       id: 'c2', covers: ['Part 1'], ref: '1B',
-      bookRef: 'Unit 2 · Part 1', type: 'cloze',
+      bookRef: 'Unit 2 · Part 1', type: 'study',
       title: 'Fluids Table',
-      instruction: 'Complete the table. Write what each fluid does and where it goes. (0. is '
-        + 'done.)',
-      before: '<span class="eg-model"><b>Worked example</b>0. Engine oil — keeps parts '
-        + 'moving smoothly — in the engine.</span>',
-      text: '<div style="font-size:16px;line-height:2.5">'
-        + '</div>',
-      answers: {
-
-      },
-      whyTitle: 'How each gap was decided',
-      why: {
-
-      }
+      instruction: 'The book prints a table here and asks you to complete it. Read the worked '
+        + 'row, then do the two cards on this screen — they practise the same words.',
+      html: '<div style="font-size:16px;line-height:1.9">'
+        + '<span class="eg-model"><b>Worked example</b>0. Engine oil — keeps parts '
+        + 'moving smoothly — in the engine.</span>'
+        + '<div class="note warm" style="margin-top:12px">'
+        + '<h4>What is missing, and why you are seeing this</h4>'
+        + 'The book\'s table has more rows than the one worked for you. They are not '
+        + 'in this course\'s extraction of the book, and a page that invented them '
+        + 'would be teaching something the book does not say. The coverage manifest '
+        + 'for this unit records the gap, and the rows will be added when the table '
+        + 'is re-extracted.'
+        + '</div></div>',
+      doneLabel: 'I have read the worked row',
+      playable: ['Engine oil — keeps parts moving smoothly — in the engine.']
     },
     {
       id: 'c3', covers: ['Part 1'], ref: '1C',
@@ -107,23 +109,23 @@ EAM.page('u2-s02', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Engine oil', accept: 'm-b',
+        { id: 't1', num: 1, label: 'Engine oil', art: 'engine oil', accept: 'm-b',
           why: '<b>Engine oil</b> — keeps the engine parts moving smoothly. Keep it apart '
         + 'from <i>Coolant</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Coolant', accept: 'm-d',
+        { id: 't2', num: 2, label: 'Coolant', art: 'coolant', accept: 'm-d',
           why: '<b>Coolant</b> — stops the engine getting too hot. Keep it apart from '
         + '<i>Engine oil</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'Brake fluid', accept: 'm-a',
+        { id: 't3', num: 3, label: 'Brake fluid', art: 'brake fluid', accept: 'm-a',
           why: '<b>Brake fluid</b> — makes the brakes work. Keep it apart from <i>Engine '
         + 'oil</i>, which is a different part of the same system. The meaning left in '
         + 'the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'Washer fluid', accept: 'm-e',
+        { id: 't4', num: 4, label: 'Washer fluid', art: 'washer fluid', accept: 'm-e',
           why: '<b>Washer fluid</b> — cleans the windscreen. Keep it apart from <i>Engine '
         + 'oil</i>, which is a different part of the same system. The meaning left in '
         + 'the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Fuel', accept: 'm-f',
+        { id: 't5', num: 5, label: 'Fuel', art: 'fuel', accept: 'm-f',
           why: '<b>Fuel</b> — the engine burns it to make power. Keep it apart from '
         + '<i>Engine oil</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' }

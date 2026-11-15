@@ -29,11 +29,11 @@ EAM.page('u5-s01', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Book in', accept: 'm-d',
+        { id: 't1', num: 1, label: 'Book in', art: 'book in', accept: 'm-d',
           why: '<b>Book in</b> — to write a car into the system when it arrives. Keep it '
         + 'apart from <i>Inspect</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Inspect', accept: 'm-a',
+        { id: 't2', num: 2, label: 'Inspect', art: 'inspect', accept: 'm-a',
           why: '<b>Inspect</b> — to look at a car carefully to check it. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
@@ -41,11 +41,11 @@ EAM.page('u5-s01', {
           why: '<b>Service</b> — to do the regular checks and work on a car. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'Road-test', accept: 'm-e',
+        { id: 't4', num: 4, label: 'Road-test', art: 'road-test', accept: 'm-e',
           why: '<b>Road-test</b> — to drive a car to check it works well. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Hand over', accept: 'm-c',
+        { id: 't5', num: 5, label: 'Hand over', art: 'hand over', accept: 'm-c',
           why: '<b>Hand over</b> — to give the car back to the customer. Keep it apart '
         + 'from <i>Book in</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' }

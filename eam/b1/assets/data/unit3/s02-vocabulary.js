@@ -34,11 +34,11 @@ EAM.page('u3-s02', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Spanner', accept: 'm-d',
+        { id: 't1', num: 1, label: 'Spanner', art: 'spanner', accept: 'm-d',
           why: '<b>Spanner</b> — a tool for turning nuts and bolts. Keep it apart from '
         + '<i>Socket set</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Socket set', accept: 'm-a',
+        { id: 't2', num: 2, label: 'Socket set', art: 'socket set', accept: 'm-a',
           why: '<b>Socket set</b> — a box of round tool heads for different bolts. Keep it '
         + 'apart from <i>Spanner</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
@@ -46,19 +46,19 @@ EAM.page('u3-s02', {
           why: '<b>Ratchet</b> — a handle that turns a socket one way. Keep it apart from '
         + '<i>Spanner</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'Torque wrench', accept: 'm-g',
+        { id: 't4', num: 4, label: 'Torque wrench', art: 'torque wrench', accept: 'm-g',
           why: '<b>Torque wrench</b> — a tool that tightens a bolt to the exact level. '
         + 'Keep it apart from <i>Spanner</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Trolley jack', accept: 'm-h',
+        { id: 't5', num: 5, label: 'Trolley jack', art: 'trolley jack', accept: 'm-h',
           why: '<b>Trolley jack</b> — a wheeled tool that lifts the car. Keep it apart '
         + 'from <i>Spanner</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't6', num: 6, label: 'Axle stand', accept: 'm-b',
+        { id: 't6', num: 6, label: 'Axle stand', art: 'axle stand', accept: 'm-b',
           why: '<b>Axle stand</b> — a strong metal stand that holds the car up safely. '
         + 'Keep it apart from <i>Spanner</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't7', num: 7, label: 'Wheel chock', accept: 'm-e',
+        { id: 't7', num: 7, label: 'Wheel chock', art: 'wheel chock', accept: 'm-e',
           why: '<b>Wheel chock</b> — a block that stops a wheel from rolling. Keep it '
         + 'apart from <i>Spanner</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' }
@@ -73,21 +73,23 @@ EAM.page('u3-s02', {
     },
     {
       id: 'c2', covers: ['Part 1'], ref: '1B',
-      bookRef: 'Unit 3 · Part 1', type: 'cloze',
+      bookRef: 'Unit 3 · Part 1', type: 'study',
       title: 'Safety Gear (PPE) Table',
-      instruction: 'Complete the table. Write what each item protects and when to wear it. (0. '
-        + 'is done.)',
-      before: '<span class="eg-model"><b>Worked example</b>0. Safety glasses — the eyes — '
-        + 'always in the workshop.</span>',
-      text: '<div style="font-size:16px;line-height:2.5">'
-        + '</div>',
-      answers: {
-
-      },
-      whyTitle: 'How each gap was decided',
-      why: {
-
-      }
+      instruction: 'The book prints a table here and asks you to complete it. Read the worked '
+        + 'row, then do the two cards on this screen — they practise the same words.',
+      html: '<div style="font-size:16px;line-height:1.9">'
+        + '<span class="eg-model"><b>Worked example</b>0. Safety glasses — the eyes — '
+        + 'always in the workshop.</span>'
+        + '<div class="note warm" style="margin-top:12px">'
+        + '<h4>What is missing, and why you are seeing this</h4>'
+        + 'The book\'s table has more rows than the one worked for you. They are not '
+        + 'in this course\'s extraction of the book, and a page that invented them '
+        + 'would be teaching something the book does not say. The coverage manifest '
+        + 'for this unit records the gap, and the rows will be added when the table '
+        + 'is re-extracted.'
+        + '</div></div>',
+      doneLabel: 'I have read the worked row',
+      playable: ['Safety glasses — the eyes — always in the workshop.']
     },
     {
       id: 'c3', covers: ['Part 1'], ref: '1C',
@@ -111,7 +113,7 @@ EAM.page('u3-s02', {
           why: '<b>Safety glasses</b> — they protect your eyes. Keep it apart from '
         + '<i>Gloves</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'Gloves', accept: 'm-a',
+        { id: 't2', num: 2, label: 'Gloves', art: 'gloves', accept: 'm-a',
           why: '<b>Gloves</b> — they protect your hands. Keep it apart from <i>Safety '
         + 'glasses</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
@@ -123,7 +125,7 @@ EAM.page('u3-s02', {
           why: '<b>Overalls</b> — they protect your body and clothes. Keep it apart from '
         + '<i>Safety glasses</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Fire extinguisher', accept: 'm-b',
+        { id: 't5', num: 5, label: 'Fire extinguisher', art: 'fire extinguisher', accept: 'm-b',
           why: '<b>Fire extinguisher</b> — you use it to put out a fire. Keep it apart '
         + 'from <i>Safety glasses</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' }

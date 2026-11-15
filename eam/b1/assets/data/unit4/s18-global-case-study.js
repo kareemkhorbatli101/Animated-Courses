@@ -25,7 +25,7 @@ EAM.page('u4-s18', {
           keys: ['mechanics', 'serviced'], need: 2,
           evidence: 'Look back at the text above — this answer is stated in it.' },
         { q: '2. What did the book give for every car?',
-          accept: ['the correct reading and the tolerance (pressure, voltage, tread depth)', 'the correct reading and the tolerance'],
+          accept: ['the correct reading and the tolerance', 'the correct reading and the tolerance (pressure, voltage, tread depth)'],
           keys: ['correct', 'reading'], need: 2,
           evidence: 'Look back at the text above — this answer is stated in it.' },
         { q: '3. What did the chief engineer say?',
@@ -56,11 +56,11 @@ EAM.page('u4-s18', {
           why: '<b>standard</b> — an agreed correct level for everyone. Keep it apart from '
         + '<i>tolerance</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't2', num: 2, label: 'tolerance', accept: 'm-a',
+        { id: 't2', num: 2, label: 'tolerance', art: 'tolerance', accept: 'm-a',
           why: '<b>tolerance</b> — the small range that is allowed. Keep it apart from '
         + '<i>standard</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'reading', accept: 'm-d',
+        { id: 't3', num: 3, label: 'reading', art: 'reading', accept: 'm-d',
           why: '<b>reading</b> — the number a meter shows. Keep it apart from '
         + '<i>standard</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },

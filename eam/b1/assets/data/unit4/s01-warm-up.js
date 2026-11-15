@@ -29,7 +29,7 @@ EAM.page('u4-s01', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Gauge', accept: 'm-d',
+        { id: 't1', num: 1, label: 'Gauge', art: 'gauge', accept: 'm-d',
           why: '<b>Gauge</b> — a tool that shows a measurement. Keep it apart from '
         + '<i>Pressure</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
@@ -41,11 +41,11 @@ EAM.page('u4-s01', {
           why: '<b>Tread</b> — the pattern of grooves on a tyre. Keep it apart from '
         + '<i>Gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'Voltage', accept: 'm-e',
+        { id: 't4', num: 4, label: 'Voltage', art: 'voltage', accept: 'm-e',
           why: '<b>Voltage</b> — the amount of electric power, in volts. Keep it apart '
         + 'from <i>Gauge</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Reading', accept: 'm-c',
+        { id: 't5', num: 5, label: 'Reading', art: 'reading', accept: 'm-c',
           why: '<b>Reading</b> — the number a tool or meter shows. Keep it apart from '
         + '<i>Gauge</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' }

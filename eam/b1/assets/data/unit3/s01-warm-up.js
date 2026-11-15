@@ -29,7 +29,7 @@ EAM.page('u3-s01', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'Spanner', accept: 'm-d',
+        { id: 't1', num: 1, label: 'Spanner', art: 'spanner', accept: 'm-d',
           why: '<b>Spanner</b> — you use it to turn nuts and bolts. Keep it apart from '
         + '<i>Screwdriver</i>, which is a different part of the same system. The '
         + 'meaning left in the pool belongs to nothing on this card.' },
@@ -45,7 +45,7 @@ EAM.page('u3-s01', {
           why: '<b>Pliers</b> — you use them to hold or bend things. Keep it apart from '
         + '<i>Spanner</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' },
-        { id: 't5', num: 5, label: 'Torque wrench', accept: 'm-e',
+        { id: 't5', num: 5, label: 'Torque wrench', art: 'torque wrench', accept: 'm-e',
           why: '<b>Torque wrench</b> — you use it to tighten a bolt to the right level. '
         + 'Keep it apart from <i>Spanner</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' }

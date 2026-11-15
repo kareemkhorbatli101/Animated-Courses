@@ -119,7 +119,33 @@
     return frame(s, '#f1eee8');
   });
 
-  /* The book prints these as two words; a card may ask for the hyphenated form, and a spot
-     that does not exist draws a dashed "no drawing for X" box. Both names, one drawing. */
+  /* ---- fuel: the pump nozzle and what it fills ---- */
+  A.addSpot('fuel', function () {
+    var s = '';
+    s += r(36, 40, 50, 74, '#b8432f', 8);                   /* the pump */
+    s += r(44, 48, 34, 22, '#f6efe0', 3);
+    s += t(61, 64, 12, '45.0', '#1b1f24', 'middle', 800);
+    s += r(48, 80, 26, 26, '#8f2f20', 4);
+    s += stroke('M 86 64 q 34 -6 38 26 q 2 16 -12 18', '#2b3238', 8);   /* the hose */
+    s += p('M 104 110 l 24 -8 v 18 Z', '#39434c');          /* the nozzle */
+    s += p('M 138 46 q 14 18 14 28 a 14 14 0 0 1 -28 0 q 0 -10 14 -28 Z', OCHRE);  /* a drop */
+    return frame(s, '#f3ece6');
+  });
+
+  /* THE NAME ON THE CARD IS NOT ALWAYS THE NAME OF THE DRAWING. A matching target is labelled
+     with the book's own words - "Engine oil", "Brake fluid" - while the drawing registered in
+     art-eam.js is called `oil` or `brakes`, so four targets on the vocabulary screen showed no
+     picture at all. These aliases are the book's labels pointing at the drawings that already
+     exist; an alias is only ever added where the drawing really is of that thing.
+
+     Each alias is written out in full rather than looped, because tools/eam_build_unit.py
+     finds a unit's drawings by reading `A.addSpot('<name>'` out of this file: a name built at
+     run time is invisible to it, and the target would keep its label instead of its picture. */
   A.addSpot('air-filter', function () { return A.spot('air filter'); });
+  A.addSpot('engine oil', function () { return A.spot('oil'); });
+  A.addSpot('engine-oil', function () { return A.spot('oil'); });
+  A.addSpot('brake fluid', function () { return A.spot('brakes'); });
+  A.addSpot('brake-fluid', function () { return A.spot('brakes'); });
+  A.addSpot('washer fluid', function () { return A.spot('windscreen'); });
+  A.addSpot('washer-fluid', function () { return A.spot('windscreen'); });
 }(window));

@@ -29,7 +29,7 @@ EAM.page('u5-s14', {
       ],
       whyTitle: 'What each one means, and what it is not',
       targets: [
-        { id: 't1', num: 1, label: 'book in', accept: 'm-b',
+        { id: 't1', num: 1, label: 'book in', art: 'book in', accept: 'm-b',
           why: '<b>book in</b> — to write a car into the system when it arrives. Keep it '
         + 'apart from <i>job card</i>, which is a different part of the same system. '
         + 'The meaning left in the pool belongs to nothing on this card.' },
@@ -37,11 +37,11 @@ EAM.page('u5-s14', {
           why: '<b>job card</b> — the paper that follows the car through every step. Keep '
         + 'it apart from <i>book in</i>, which is a different part of the same '
         + 'system. The meaning left in the pool belongs to nothing on this card.' },
-        { id: 't3', num: 3, label: 'diagnose', accept: 'm-e',
+        { id: 't3', num: 3, label: 'diagnose', art: 'diagnose', accept: 'm-e',
           why: '<b>diagnose</b> — to find out what is wrong. Keep it apart from <i>book '
         + 'in</i>, which is a different part of the same system. The meaning left in '
         + 'the pool belongs to nothing on this card.' },
-        { id: 't4', num: 4, label: 'quality check', accept: 'm-d',
+        { id: 't4', num: 4, label: 'quality check', art: 'quality check', accept: 'm-d',
           why: '<b>quality check</b> — the final check before handover. Keep it apart from '
         + '<i>book in</i>, which is a different part of the same system. The meaning '
         + 'left in the pool belongs to nothing on this card.' }
