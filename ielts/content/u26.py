@@ -851,7 +851,9 @@ UNIT = dict(
           'national wholesaler moves most of the price of a meal out of the '
           'town; the same kitchen buying from a boat in the harbour keeps it '
           'for at least one more transaction. The difference is invisible to '
-          'the visitor eating the fish.',
+          'the visitor eating the fish, which is why no amount of marketing '
+          'addresses it and why the only effective instruments are '
+          'planning rules and public procurement.',
           'The third is labour. Wages paid to people who live in the town are '
           'spent there; wages paid to seasonal workers housed in a hostel and '
           'returning home in October are mostly spent elsewhere. This is the '
