@@ -1154,7 +1154,7 @@ UNIT['r4'] = {'sub': 'Consolidation and sleep',
            1,
            'The mechanism is a timed transfer, so extra sleep later does not recover what '
            'was not moved when it could have been.')]}
-UNIT['r5'] = {'sub': 'Consolidation and sleep',
+UNIT['r5'] = {'sub': 'From the rodent to the student',
  'title': 'The Distance Between a Rodent and a Student',
  'words': 297,
  'skill': ('Reading an objection about how far evidence travels',

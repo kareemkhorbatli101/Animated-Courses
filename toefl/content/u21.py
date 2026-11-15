@@ -1160,7 +1160,7 @@ UNIT['r4'] = {'sub': 'What a child could not have learned',
            1,
            'Reconstructed many times without its premise being abandoned says the form of '
            'the argument changed and its starting point did not.')]}
-UNIT['r5'] = {'sub': 'What a child could not have learned',
+UNIT['r5'] = {'sub': 'What the corpus shows',
  'title': 'The Corpus Answers Back',
  'words': 287,
  'skill': ('Reading an objection that concedes the puzzle',

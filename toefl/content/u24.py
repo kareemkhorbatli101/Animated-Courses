@@ -1155,7 +1155,7 @@ UNIT['r4'] = {'sub': 'Measuring a moving sea',
            1,
            'A quantity sampled once a decade and varying within a year will look stable, and '
            'that stability belongs to the sampling.')]}
-UNIT['r5'] = {'sub': 'Measuring a moving sea',
+UNIT['r5'] = {'sub': 'Ten years is not a trend',
  'title': 'Ten Years Is Not a Trend',
  'words': 284,
  'skill': ('Reading an objection about the length of a record',

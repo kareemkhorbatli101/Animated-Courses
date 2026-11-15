@@ -1158,7 +1158,7 @@ UNIT['r4'] = {'sub': 'The cost of transition',
            1,
            'The headline figure and the system cost move in opposite directions, and both '
            'are honestly calculated.')]}
-UNIT['r5'] = {'sub': 'The cost of transition',
+UNIT['r5'] = {'sub': 'Firming, and who argues for it',
  'title': 'The Firming Argument and Who Makes It',
  'words': 311,
  'skill': ('Reading an objection that examines who benefits from an argument',

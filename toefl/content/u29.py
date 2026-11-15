@@ -1169,7 +1169,7 @@ UNIT['r4'] = {'sub': 'Thought experiments',
            1,
            'With the other variables removed, a failure can only be attributed to the one '
            'the case isolates.')]}
-UNIT['r5'] = {'sub': 'Thought experiments',
+UNIT['r5'] = {'sub': 'Whose intuitions are the evidence',
  'title': 'Whose Intuitions Are the Evidence?',
  'words': 312,
  'skill': ('Reading an objection about the sample a method relies on',

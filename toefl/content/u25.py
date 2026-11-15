@@ -1154,7 +1154,7 @@ UNIT['r4'] = {'sub': 'Replication',
             'That originals were fraudulent'),
            1,
            'Across several fields it is approximately what they found.')]}
-UNIT['r5'] = {'sub': 'Replication',
+UNIT['r5'] = {'sub': 'What a failed replication proves',
  'title': 'What a Failed Replication Does Not Prove',
  'words': 293,
  'skill': ('Reading an objection to an interpretation, not to a result',

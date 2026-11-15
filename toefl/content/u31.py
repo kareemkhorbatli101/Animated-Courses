@@ -1164,7 +1164,7 @@ UNIT['r4'] = {'sub': 'Why outbreaks end',
            ('agreement', 'its own motion', 'arrangement', 'measurement'),
            1,
            'Of its own accord means without anything further being done to it.')]}
-UNIT['r5'] = {'sub': 'Why outbreaks end',
+UNIT['r5'] = {'sub': 'One number, several populations',
  'title': 'One Number for a Population That Is Not One Population',
  'words': 315,
  'skill': ('Reading an objection to an assumption inside a model',

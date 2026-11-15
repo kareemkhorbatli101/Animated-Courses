@@ -1158,7 +1158,7 @@ UNIT['r4'] = {'sub': 'How an argument is built',
             'Set out your own warrant first'),
            1,
            'And examine that instead of the evidence, which is the practical result.')]}
-UNIT['r5'] = {'sub': 'How an argument is built',
+UNIT['r5'] = {'sub': 'A model of how we ought to think',
  'title': 'A Model of How We Ought to Be Persuaded',
  'words': 345,
  'skill': ('Reading an objection that a model is an ideal rather than a report',
