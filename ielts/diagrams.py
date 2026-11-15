@@ -82,6 +82,17 @@ def process_flow(title, stages, phases=None, sub=''):
     return render(''.join(g), W, h, PAPER)
 
 
+def _edge(cx, cy, w, h, dx, dy, pad=6):
+    """Where the ray from a box centre in direction (dx, dy) leaves the box."""
+    if dx == 0 and dy == 0:
+        return cx, cy
+    hw, hh = w / 2.0 + pad, h / 2.0 + pad
+    tx = hw / abs(dx) if dx else float('inf')
+    ty = hh / abs(dy) if dy else float('inf')
+    t = min(tx, ty)
+    return cx + dx * t, cy + dy * t
+
+
 def device_schematic(title, parts, flows, sub=''):
     """A device: labelled components, then the movement between them.
 
@@ -109,12 +120,22 @@ def device_schematic(title, parts, flows, sub=''):
     for a, b, cap in flows:
         ax, ay, aw, ah = box[a]
         bx, by, bw, bh = box[b]
-        x0, y0 = ax + aw / 2, ay + ah / 2
-        x1, y1 = bx + bw / 2, by + bh / 2
+        cx0, cy0 = ax + aw / 2, ay + ah / 2
+        cx1, cy1 = bx + bw / 2, by + bh / 2
+        x0, y0 = _edge(cx0, cy0, aw, ah, cx1 - cx0, cy1 - cy0, 6)
+        x1, y1 = _edge(cx1, cy1, bw, bh, cx0 - cx1, cy0 - cy1, 9)
         g.append(_arrow(x0, y0, x1, y1, TEAL, 3))
         if cap:
-            g.append(TFIT((x0 + x1) / 2, (y0 + y1) / 2 - 10, cap, 14,
-                          200, TEAL, anchor='middle'))
+            mx, my = (x0 + x1) / 2, (y0 + y1) / 2
+            ddx, ddy = x1 - x0, y1 - y0
+            ln = (ddx * ddx + ddy * ddy) ** 0.5 or 1.0
+            nx, ny = -ddy / ln, ddx / ln
+            if ny > 0:
+                nx, ny = -nx, -ny
+            mx, my = mx + nx * 15, my + ny * 15
+            cw = tw(cap, 14) + 14
+            g.append(R(mx - cw / 2, my - 19, cw, 22, PAPER, None, 0, 5))
+            g.append(TFIT(mx, my - 3, cap, 14, cw, TEAL, anchor='middle'))
     return render(''.join(g), W, h, PAPER)
 
 
