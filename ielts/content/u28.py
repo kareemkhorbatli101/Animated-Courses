@@ -1130,7 +1130,9 @@ UNIT = dict(
           'and relocates the question. If a third of cereal production feeds '
           'animals and a third of food is wasted, then a system producing '
           'twenty per cent less per hectare is not obviously unable to feed '
-          'anybody; it is a system requiring changes nobody has agreed to.',
+          'anybody; it is a system requiring changes nobody has agreed to. '
+          'Those are two very different findings and they are routinely '
+          'reported as though they were the same one.',
           'The honest conclusion is a scope statement rather than an answer. '
           'Organic methods cannot feed the current population on the current '
           'land with the current diet and the current waste, which is what '
