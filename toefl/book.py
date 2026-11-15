@@ -12,7 +12,11 @@ VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2
         # Volume 5 finishes B2 and Volume 6 is C1. Same architecture, five
         # cycles a skill as in Volumes 3 and 4, and the density windows of
         # gate 9 rather than the page shape are what rise.
-        5: dict(units=range(41, 51), test=5), 6: dict(units=range(51, 61), test=6),
+        5: dict(units=range(41, 51), test=5),
+        # Volume 6 carries four further timed forms as well as its practice
+        # test: the one thing a top-band candidate cannot get from a unit is
+        # four sections in a row against a clock.
+        6: dict(units=range(51, 61), test=6, forms=(61, 62, 63, 64)),
         # The Foundation volume sits before Volume 1. Same architecture, same
         # task names, same item counts; a lower level and four strands that are
         # not about the test at all.
@@ -24,6 +28,12 @@ VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2
 # Progress Test naming and the twenty-page unit; what differs is the level on
 # the cover and which test the student is being pointed at next.
 FOUND = ('A2', 'A2B1')
+# Volumes 3 to 6 share one page architecture: the five-cycle unit, the
+# collocation and stance strands, Find the Fault and the banded answer pair.
+# Volume 6 differs from them in density and in the level on its cover, not in
+# its shape, so every renderer below tests for membership of this pair rather
+# than for the string 'B2'.
+B2X = ('B2', 'C1')
 _LABEL = {'A2': 'A1–A2', 'A2B1': 'A2–B1', 'C1': 'C1'}
 
 
@@ -271,7 +281,7 @@ def render_unit(d, U):
     d.page_break_section()
 
     # ---- page 2: vocabulary -------------------------------------------------
-    if U.get('level') == 'B2':
+    if U.get('level') in B2X:
         _vocab_b2(d, U)
     elif U.get('level') == 'A2B1':
         _vocab_f2(d, U)
@@ -489,7 +499,7 @@ def render_unit(d, U):
         d.body_p(ln)
     d.h3('Why it works', PLUM)
     d.bullets(w2['notes'])
-    if U.get('level') == 'B2' and w2.get('bandpair'):
+    if U.get('level') in B2X and w2.get('bandpair'):
         bp = w2['bandpair']
         d.h3('Two answers, one band apart', PLUM)
         d.body_p('Both answer the three bullet points. One would score in the middle band '
@@ -628,7 +638,7 @@ def render_unit(d, U):
     key['gram'] = kg
     d.h3('How this is tested in Build a Sentence', PLUM)
     d.body_p(gr['bas'])
-    if U.get('level') == 'B2' and U.get('fault'):
+    if U.get('level') in B2X and U.get('fault'):
         ft = U['fault']
         d.partbar('Find the fault', '%d errors, drawn from this unit and the two before' % len(ft['faults']), 'writing')
         d.body_p('Every error below is one a B2 writer makes after learning the rule. Mark '
@@ -721,7 +731,7 @@ def front_matter(d, vol, units):
                  'the two books that neither of them had: choosing a tense, questions in '
                  'every tense, obligation, adverbs, linking a paragraph, noun phrases, '
                  'phrasal verbs, and how to say what a text says.')
-    elif lvl == 'B2':
+    elif lvl in B2X:
         d.body_p('Sixty units across six volumes. Volumes 1 and 2 take a B1 learner '
         'through every task in the test; Volumes 3 and 4 take the same '
         'tasks to B2; Volume 5 finishes B2 and Volume 6 is written at C1, '
@@ -731,8 +741,16 @@ def front_matter(d, vol, units):
         d.body_p('One thing is assumed rather than taught. Volumes 1 and 2 carried a strand '
                  'of campus and everyday vocabulary — enrolment, tutorial, reading week — '
                  'because the Listening conversations turn on it. This volume spends those '
-                 'pages on collocation and stance instead. If you have come straight to '
-                 'Volume 3, read the Volumes 1–2 glossary once before you start.')
+                 'pages on collocation and stance instead. If you have come to this volume '
+                 'without the earlier ones, read the Volumes 1–2 glossary once before you '
+                 'start.')
+        if lvl == 'C1':
+            d.body_p('This volume is also the only one with a second kind of practice in it. '
+                     'Ten units teach; four timed forms, as well as Practice Test 6, do '
+                     'nothing but put four sections in a row against a clock. The one thing '
+                     'a unit cannot give a candidate near the top of the scale is the '
+                     'experience of a whole test when the third section is the one that '
+                     'decides the band, and that is what the forms are for.')
     else:
         d.body_p('Twenty units, ten in each volume. Each unit takes one topic from the test — '
                  'American History, Astronomy, Public Health — and runs it through all four '
@@ -744,7 +762,8 @@ def front_matter(d, vol, units):
                  'A1 in, a solid A2 out' if lvl == 'A2'
                  else 'a solid A2 in, B1 out' if lvl == 'A2B1'
                  else 'targeting a steady %s band'
-                 % ('4.5–5.5' if lvl == 'B2' else '3.0–4.0')))
+                 % ('5.5–6.0' if lvl == 'C1' else '5.0–5.5' if vol == 5
+                    else '4.5–5.5' if lvl == 'B2' else '3.0–4.0')))
     d.keyline('Components', 'Student’s Book · Audio · Interview video')
     d.keyline('This volume', 'Units %d–%d, %s, answer key, audio scripts, glossary'
               % (units[0]['n'], units[-1]['n'], test_label(lvl, vol)))
@@ -800,6 +819,49 @@ def front_matter(d, vol, units):
     d.figure(*F.format_map())
     d.figure(*F.band_scale())
     d.page_break_section()
+
+    # Volume 6 is the only volume written for the top of the scale, and at the
+    # top the arithmetic of the overall band stops being a detail: the average
+    # of four section bands is set by the weakest of them, so the page below
+    # exists to stop a candidate spending eight weeks on a section that cannot
+    # move the score.
+    if vol == 6:
+        d.partbar('The arithmetic of the overall band',
+                  'Why your weakest section is the only one that matters')
+        d.body_p('The 2026 test reports a band from 1 to 6 in half bands for each of the '
+                 'four sections, and the overall band is the average of those four, '
+                 'rounded to the nearest half band. That sentence is the whole of this '
+                 'page, and everything below is a consequence of it.')
+        d.body_p('The consequence is not symmetrical. Near the middle of the scale, work '
+                 'on any section raises the average. At the top it does not, because a '
+                 'candidate at the top is almost never level: three sections sit where '
+                 'they need to be and one is a band behind, and the average is held down '
+                 'by the one. Eight weeks on a strong section buys nothing at all.')
+        d.table(['Four sections', 'Average', 'Overall band'],
+                [('6.0  6.0  6.0  4.5', '5.63', '5.5'),
+                 ('6.0  6.0  6.0  6.0', '6.00', '6.0'),
+                 ('6.5  6.5  6.0  4.5', '5.88', '6.0'),
+                 ('5.5  5.5  5.5  5.5', '5.50', '5.5'),
+                 ('6.5  6.5  6.5  4.0', '5.88', '6.0')],
+                INDIGO, [44, 26, 30])
+        d.body_p('Two readings of that table are worth having. The first row is the '
+                 'commonest profile at this level and the most expensive: one section at '
+                 '4.5 costs half a band overall. The third and fifth rows show the other '
+                 'half of the arithmetic, which is that raising the three strong sections '
+                 'can carry a weak one — at a price in work that is several times '
+                 'the price of repairing the weak section itself.', i=True)
+        d.bullets([
+            'Read the four figures first and the average last. The average is the one '
+            'number on the report you cannot act on.',
+            'Find your lowest section. At this level it is setting your overall band and '
+            'nothing else is.',
+            'Ignore any difference of half a band between two of your own sections, or '
+            'between you and anybody else. The published standard error for a single '
+            'section is about half a band, so a difference that small is not a '
+            'difference.',
+            'Spend the time unevenly. Eight weeks on one section is worth more than eight '
+            'weeks spread across four, and Unit 60 is about why.'])
+        d.page_break_section()
 
     d.partbar('What an adaptive test does to you', 'Modules, and why you cannot go back')
     if lvl == 'A2':
