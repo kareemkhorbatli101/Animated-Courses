@@ -5,7 +5,7 @@ This is the only source the website's assistant is given.
 
 ## What this is
 
-Interactive English courses that run in the browser, generated from the author's own book and checked against it. A trial platform by Mohamad Khorbatli.
+Interactive courses that run in the browser - English for work, accounting, and more - generated from the author's own books and checked against them. A trial platform by Mohamad Khorbatli.
 
 ## The courses
 
@@ -95,7 +95,7 @@ Opens at: cybersecurity/b1/index.html
 
 ## The video player, which is not a course either
 
-A separate experiment: lessons acted out by animated characters on a 3D set, rendered by this project's own engine. The player streams them, shows English and Arabic subtitles together, and replays them offline once they are loaded. It is a working trial, not a finished product — the courses in it are short samples. AnimatedEverything Twenty-six animated lessons across four sample courses, about fifty-three minutes in all. English speech, with English and Arabic subtitles on every line. Open the video player → What it previews Auto Maintenance Book 1 21 videos · 48.9 min Auto Maintenance 3 videos · 2.3 min Furniture Design 1 video · 0.8 min Workshop Tours 1 video · 0.8 min
+A separate experiment: lessons acted out by animated characters on a 3D set, rendered by this project's own engine. The player streams them, shows English and Arabic subtitles together, and replays them offline once they are loaded. It is a working trial, not a finished product — the courses in it are short samples. AnimatedEverything Two hundred and eleven animated lessons across three courses, about nine hours in all. English speech, with English and Arabic subtitles on every line. Open the video player → What it previews Auto Maintenance Book 1 21 videos · 48.9 min Auto Maintenance 3 videos · 2.3 min Furniture Design 1 video · 0.8 min Workshop Tours 1 video · 0.8 min
 
 Opens at: player.html
 

@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Confirm your email &middot; LearnActively</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23E8B418'/%3E%3Cpath d='M11 7h4.3v13.3h6.4V25H11z' fill='%231A1200'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body data-la-course="account">
+<header class="top"><div class="wrap"><a class="brand" href="/"><b>Learn</b>Actively</a></div></header>
+<main><div class="wrap">
+  <h1>Confirm your email</h1>
+  <div id="msg" class="msg show" role="status" aria-live="polite">Checking the link&hellip;</div>
+  <p class="small muted">Confirming the address is what makes a password reset possible later.
+    Until it is confirmed, it cannot be used to recover the account &mdash; if it had been mistyped,
+    sending a reset link there would hand the account to whoever owns the typo.</p>
+  <p class="ar small" lang="ar" dir="rtl">تأكيد البريد هو ما يتيح استعادة كلمة المرور لاحقاً.</p>
+  <p><a href="./">Go to your account</a></p>
+</div></main>
+<script>
+(function () {
+  var token = new URLSearchParams(location.search).get('token') || '';
+  var msg = document.getElementById('msg');
+  function say(t, bad) { msg.textContent = t; msg.className = 'msg show ' + (bad ? 'bad' : 'good'); }
+  if (!token) { say('This link is incomplete. Open it from your email exactly as it was sent.', true); return; }
+  fetch('https://api.learnactively.com/auth/email/verify', {
+    method: 'POST', credentials: 'include',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ token: token })
+  }).then(function (r) {
+    return r.json().catch(function () { return {}; })
+      .then(function (j) { return { ok: r.ok, j: j }; });
+  }).then(function (res) {
+    history.replaceState(null, '', location.pathname);
+    if (res.ok) { say('Confirmed. Your password can now be reset by email if you ever need it.'); }
+    else { say(res.j.message || 'That link has expired or has already been used.', true); }
+  })['catch'](function () {
+    say('Could not reach the server. Check your connection and open the link again.', true);
+  });
+}());
+</script>
+</body></html>

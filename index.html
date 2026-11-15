@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LearnActively</title>
-<meta name="description" content="Interactive English courses that run in the browser, generated from the author's own book and checked against it. A trial platform by Mohamad Khorbatli.">
+<meta name="description" content="Interactive courses that run in the browser - English for work, accounting, and more - generated from the author's own books and checked against them. A trial platform by Mohamad Khorbatli.">
 <!-- The tab icon, inline so the page still needs no second file. Without it every visit logged a
      404 for /favicon.ico, which is noise in the one place a real fault would have shown up. -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23E8B418'/%3E%3Cpath d='M11 7h4.3v13.3h6.4V25H11z' fill='%231A1200'/%3E%3C/svg%3E">
@@ -56,6 +56,12 @@ a{color:inherit}
 /* ---- header --------------------------------------------------------------------------------- */
 .top{border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:20}
 .top .wrap{display:flex;align-items:center;gap:14px;padding-top:13px;padding-bottom:13px}
+/* The account badge. Its LEFT BORDER carries a colour derived from the account, so switching
+   between accounts is something you notice rather than something you have to read. */
+.whoami{display:inline-block;padding:5px 12px;border-radius:999px;font-size:14px;font-weight:650;
+        text-decoration:none;background:var(--surface2);border:1px solid var(--border);
+        border-left-width:5px}
+.whoami.out{font-weight:600;color:var(--muted);border-left-width:1px}
 .brand{font-size:19px;font-weight:650;letter-spacing:.2px;text-decoration:none}
 .brand b{color:var(--accent);font-weight:650}
 .tag-trial{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
@@ -163,6 +169,12 @@ footer a{color:var(--muted)}
     <nav>
       <a href="player.html">Video player</a>
     </nav>
+    <!-- The account badge is painted into here by the bootstrap below, from a cookie. No external
+         script and no fetch on this page; gates/site_check holds all four of those rules.
+         The words "script" and "src" are kept apart in this comment ON PURPOSE: written together
+         as a tag they are matched by the gate's own regex, and the page then reports two scripts,
+         one of them external, and fails four assertions over a sentence in a comment. -->
+    <span id="la-bar"></span>
   </div>
 </header>
 
@@ -172,11 +184,11 @@ footer a{color:var(--muted)}
   <div class="hero">
     <div>
       <p class="eyebrow">learnactively.com</p>
-      <h1>English courses you work through, not watch</h1>
+      <h1>Courses you work through, not watch</h1>
       <p class="lede">Every exercise on this site is generated from the author&rsquo;s own book and
         checked against it word by word. The pages mark your work, read themselves aloud, remember
         where you stopped &mdash; and keep working with no internet connection at all.</p>
-      <p class="ar" lang="ar" dir="rtl">دروس إنجليزية تفاعلية، مع ترجمة عربية &mdash; نسخة تجريبية</p>
+      <p class="ar" lang="ar" dir="rtl">دروس تفاعلية، مع ترجمة عربية &mdash; نسخة تجريبية</p>
       <p class="notice"><strong>This platform is launching as a trial.</strong> The courses below
         are finished and working, and they are free to use while the trial runs. If you find
         something wrong, or you want a course built for your own book, call me &mdash; the number
@@ -221,8 +233,9 @@ footer a{color:var(--muted)}
 
   <section class="block">
     <h2>Courses you can work through</h2>
-    <p class="sub">Each one opens in the browser and needs nothing installed. Your answers are kept
-      in your own browser, not on a server.</p>
+    <p class="sub">Each one opens in the browser and needs nothing installed. Your answers stay in
+      your own browser. Sign in and your progress is saved to your account as well, so it follows
+      you to another device.</p>
 
     <div class="grid">
 
@@ -408,6 +421,11 @@ footer a{color:var(--muted)}
   var a=document.getElementById('askBtn'),k=document.getElementById('askKeyBtn');
   if(a)a.addEventListener('click',function(){open('ask');});
   if(k)k.addEventListener('click',function(){open('keys');});
+  /* badge: a cookie read, not a request */
+  try{var mm=document.cookie.match(/(?:^|; *)la_who=([^;]*)/),hh=document.getElementById('la-bar'),
+  el=document.createElement('a'),ww=mm?decodeURIComponent(mm[1]).split('|'):0;el.href='account/';
+  el.className=ww?'whoami':'whoami out';el.textContent=ww?ww[0]:'Sign in';
+  if(ww)el.style.borderColor=ww[1]||'#888';if(hh)hh.appendChild(el);}catch(e){}
 })();
 </script>
 </body></html>

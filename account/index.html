@@ -1,0 +1,489 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your account &middot; LearnActively</title>
+<meta name="description" content="Sign in, create an account, or switch between accounts on this computer.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23E8B418'/%3E%3Cpath d='M11 7h4.3v13.3h6.4V25H11z' fill='%231A1200'/%3E%3C/svg%3E">
+<!--
+  THE ACCOUNT PAGE. Unlike the home page, this one is allowed to need the network: it cannot do its
+  job without the server. The home page's rule - works from a USB stick, fetches nothing at load -
+  is kept there and does not apply here, which is why sign-in lives on its own page rather than in
+  a box on the front.
+
+  Everything personal is OPTIONAL except a username and a password. The form says so, and it says
+  the one thing a learner cannot discover later: an account with no email cannot be recovered.
+-->
+<style>
+:root{
+  --bg:#0E1116; --surface:#161B22; --surface2:#1F262E; --border:#5B677A;
+  --text:#E6EDF3; --muted:#A9B4C0; --accent:#E8B418; --onAccent:#1A1200;
+  --focus:#58A6FF; --ok:#3FB950; --bad:#F85149;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Noto Sans Arabic",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:16px;line-height:1.55}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.top{border-bottom:1px solid var(--border);background:var(--surface)}
+.top .wrap{display:flex;align-items:center;gap:14px;padding:13px 20px}
+.brand{font-size:19px;font-weight:650;text-decoration:none;color:var(--text)}
+.brand b{color:var(--accent)}
+.spacer{flex:1}
+main{padding:28px 0 60px}
+h1{font-size:26px;margin:0 0 6px}
+h2{font-size:18px;margin:28px 0 10px}
+.lede{color:var(--muted);margin:0 0 22px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:18px}
+label{display:block;font-size:14px;font-weight:600;margin:14px 0 5px}
+.hint{font-weight:400;color:var(--muted);font-size:13px;margin:3px 0 0}
+input,select,textarea{width:100%;padding:10px 12px;border-radius:8px;border:1px solid var(--border);
+  background:var(--surface2);color:var(--text);font:inherit;font-size:15px}
+textarea{min-height:72px;resize:vertical}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.row>div{flex:1 1 220px}
+button{font:inherit;font-weight:650;border-radius:8px;border:1px solid transparent;padding:11px 18px;cursor:pointer}
+.primary{background:var(--accent);color:var(--onAccent)}
+.ghost{background:transparent;color:var(--text);border-color:var(--border)}
+.danger{background:transparent;color:var(--bad);border-color:var(--bad)}
+.tabs{display:flex;gap:8px;margin-bottom:16px}
+.tabs button{background:var(--surface2);color:var(--muted);border-color:var(--border)}
+.tabs button[aria-selected=true]{background:var(--accent);color:var(--onAccent);border-color:var(--accent)}
+.msg{padding:11px 14px;border-radius:8px;margin:14px 0;font-size:15px;display:none}
+.msg.show{display:block}
+.msg.bad{background:#2d1517;border:1px solid var(--bad);color:#ffb4ae}
+.msg.good{background:#122117;border:1px solid var(--ok);color:#9ae6b4}
+.ar{direction:rtl;text-align:right;color:var(--muted);font-size:14px;margin-top:4px}
+.acct{display:flex;align-items:center;gap:12px;padding:11px 13px;border:1px solid var(--border);
+  border-radius:9px;margin-bottom:9px;background:var(--surface2)}
+.dot{width:14px;height:14px;border-radius:50%;flex:none}
+.acct .nm{font-weight:650}
+.acct .ref{color:var(--muted);font-size:12px;font-family:ui-monospace,Consolas,monospace}
+.acct .sp{flex:1}
+.tagwrap{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.tag{display:flex;align-items:center;gap:6px;background:var(--surface2);border:1px solid var(--border);
+  border-radius:20px;padding:6px 13px;font-size:14px;cursor:pointer}
+.tag input{width:auto}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+footer{border-top:1px solid var(--border);padding:18px 0;color:var(--muted);font-size:14px}
+[hidden]{display:none !important}
+</style>
+</head>
+<body data-la-course="account">
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><b>Learn</b>Actively</a>
+  <span class="spacer"></span>
+  <span id="la-bar"></span>
+</div></header>
+
+<main><div class="wrap">
+
+<div id="msg" class="msg" role="status" aria-live="polite"></div>
+
+<!-- ======================================================= signed out ======================= -->
+<section id="out" hidden>
+  <h1>Your account</h1>
+  <p class="lede">Sign in to keep your progress across devices. Everything except a username and a
+    password is optional.</p>
+  <p class="ar" lang="ar" dir="rtl">سجّل الدخول ليُحفظ تقدّمك. كل شيء عدا اسم المستخدم وكلمة المرور اختياري.</p>
+
+  <div class="tabs" role="tablist">
+    <button id="tabIn" role="tab" aria-selected="true">Sign in</button>
+    <button id="tabUp" role="tab" aria-selected="false">Create an account</button>
+  </div>
+
+  <form id="formIn" class="card">
+    <label for="inUser">Username or email</label>
+    <input id="inUser" autocomplete="username" required>
+    <label for="inPass">Password</label>
+    <input id="inPass" type="password" autocomplete="current-password" required>
+    <p style="margin:18px 0 0"><button class="primary" type="submit">Sign in</button>
+      <a href="forgot.html" style="margin-left:14px">Forgotten your password?</a></p>
+  </form>
+
+  <form id="formUp" class="card" hidden>
+    <label for="upUser">Username <span class="hint">required &middot; 3&ndash;32 letters, numbers, dot, dash or underscore</span></label>
+    <input id="upUser" autocomplete="username" required>
+
+    <label for="upPass">Password <span class="hint">required &middot; at least 12 characters</span></label>
+    <input id="upPass" type="password" autocomplete="new-password" required>
+
+    <label for="upEmail">Email <span class="hint">optional</span></label>
+    <input id="upEmail" type="email" autocomplete="email">
+    <p class="hint"><strong>If you give no email, your password cannot be reset.</strong>
+      Nobody can recover the account for you &mdash; not even me.</p>
+    <p class="ar" lang="ar" dir="rtl">إن لم تُدخل بريداً، لا يمكن استعادة كلمة المرور إطلاقاً.</p>
+
+    <label for="upName">Your name <span class="hint">optional &middot; shown to you only</span></label>
+    <input id="upName" autocomplete="name">
+
+    <!-- A honeypot. Hidden from people, filled in by naive bots, and the server answers such a
+         sign-up with a cheerful 202 that creates nothing. -->
+    <div style="position:absolute;left:-9999px" aria-hidden="true">
+      <label for="website">Website</label><input id="website" tabindex="-1" autocomplete="off">
+    </div>
+
+    <p style="margin:18px 0 0"><button class="primary" type="submit">Create my account</button></p>
+    <p class="hint" style="margin-top:12px">By creating an account you agree to how your
+      information is handled &mdash; <a href="privacy.html">one short page, please read it</a>.</p>
+  </form>
+</section>
+
+<!-- ======================================================== signed in ======================= -->
+<section id="in" hidden>
+  <h1>Signed in as <span id="meName"></span></h1>
+  <p class="lede" id="meLede"></p>
+
+  <h2>Accounts on this computer</h2>
+  <p class="small muted">Switching does not sign you out of the others.</p>
+  <div id="accts"></div>
+  <p><button id="addAcct" class="ghost">Sign in to another account</button>
+     <button id="signOut" class="ghost">Sign out</button>
+     <button id="signOutAll" class="ghost">Sign out of all</button></p>
+
+  <h2>About you</h2>
+  <p class="small muted">All optional. It is used to suggest courses, and for nothing else.</p>
+  <form id="formProfile" class="card">
+    <div class="row">
+      <div><label for="pName">Name</label><input id="pName"></div>
+      <div><label for="pEmail">Email</label><input id="pEmail" type="email" disabled>
+        <p class="hint" id="emailHint"></p></div>
+    </div>
+    <div class="row">
+      <div><label for="pCountry">Country</label><input id="pCountry"></div>
+      <div><label for="pCity">City</label><input id="pCity"></div>
+    </div>
+    <div class="row">
+      <div><label for="pAge">Age</label><select id="pAge">
+        <option value="">&mdash;</option><option>under 18</option><option>18&ndash;24</option>
+        <option>25&ndash;34</option><option>35&ndash;44</option><option>45&ndash;54</option>
+        <option>55 or over</option><option>prefer not to say</option></select></div>
+      <div><label for="pNative">First language</label><input id="pNative"></div>
+      <div><label for="pEnglish">Your English</label><select id="pEnglish">
+        <option value="">&mdash;</option><option>A1 beginner</option><option>A2 elementary</option>
+        <option>B1 intermediate</option><option>B2 upper intermediate</option>
+        <option>C1 advanced</option><option>C2 proficient</option><option>not sure</option>
+      </select></div>
+    </div>
+    <div class="row">
+      <div><label for="pEdu">Education</label><select id="pEdu">
+        <option value="">&mdash;</option><option>school</option><option>diploma</option>
+        <option>bachelor&rsquo;s</option><option>master&rsquo;s</option><option>doctorate</option>
+        <option>other</option></select></div>
+      <div><label for="pField">Field of study</label><input id="pField"></div>
+      <div><label for="pInst">School or university</label><input id="pInst"></div>
+    </div>
+    <div class="row">
+      <div><label for="pJob">Your work</label><input id="pJob"></div>
+      <div><label for="pIndustry">Industry</label><input id="pIndustry"></div>
+      <div><label for="pHours">Hours a week you can study</label><input id="pHours" type="number" min="0" max="80"></div>
+    </div>
+
+    <label>What are you interested in?</label>
+    <div id="tags" class="tagwrap"></div>
+
+    <label for="pFound" style="margin-top:16px">How did you find this site?</label>
+    <input id="pFound">
+    <label for="pNotes">Anything else you want me to know</label>
+    <textarea id="pNotes"></textarea>
+    <label class="tag" style="margin-top:14px;display:inline-flex">
+      <input type="checkbox" id="pOptIn"> You may email me about new courses</label>
+
+    <p style="margin:18px 0 0"><button class="primary" type="submit">Save</button></p>
+  </form>
+
+  <h2>Your password</h2>
+  <form id="formPw" class="card">
+    <div class="row">
+      <div><label for="pwOld">Current password</label><input id="pwOld" type="password" autocomplete="current-password"></div>
+      <div><label for="pwNew">New password</label><input id="pwNew" type="password" autocomplete="new-password"></div>
+    </div>
+    <p style="margin:18px 0 0"><button class="primary" type="submit">Change password</button></p>
+  </form>
+
+  <h2>Your data</h2>
+  <div class="card">
+    <p class="small">Everything this site holds about you, in one file.</p>
+    <p><button id="btnExport" class="ghost">Download my data</button></p>
+    <hr style="border:0;border-top:1px solid var(--border);margin:18px 0">
+    <p class="small"><strong>Delete my account.</strong> Your profile and progress are removed and
+      cannot be brought back. Type your username to confirm.</p>
+    <div class="row"><div><input id="delConfirm" placeholder="your username"></div>
+      <div style="flex:0 0 auto"><button id="btnDelete" class="danger" type="button">Delete</button></div></div>
+  </div>
+</section>
+
+</div></main>
+
+<footer><div class="wrap">
+  <a href="/">Back to the courses</a> &middot; <a href="privacy.html">What is stored</a>
+</div></footer>
+
+<script src="/assets/la/account.js?v=dea4e7675e"></script>
+<script>
+(function () {
+  'use strict';
+  var API = (window.LA && window.LA.api) || 'https://api.learnactively.com';
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { user: null, interests: [] };
+
+  function say(text, bad) {
+    var m = $('msg');
+    m.textContent = text;
+    m.className = 'msg show ' + (bad ? 'bad' : 'good');
+    if (!bad) { window.setTimeout(function () { m.className = 'msg'; }, 6000); }
+    m.scrollIntoView({ block: 'nearest' });
+  }
+  function clearMsg() { $('msg').className = 'msg'; }
+
+  function api(method, path, body) {
+    return fetch(API + path, {
+      method: method,
+      credentials: 'include',
+      headers: body ? { 'content-type': 'application/json' } : {},
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) {
+        return { status: r.status, ok: r.ok, body: j };
+      });
+    });
+  }
+
+  // ------------------------------------------------------------------------------- signed out
+  function showOut() {
+    $('out').hidden = false; $('in').hidden = true;
+  }
+  $('tabIn').onclick = function () {
+    $('tabIn').setAttribute('aria-selected', 'true');
+    $('tabUp').setAttribute('aria-selected', 'false');
+    $('formIn').hidden = false; $('formUp').hidden = true; clearMsg();
+  };
+  $('tabUp').onclick = function () {
+    $('tabUp').setAttribute('aria-selected', 'true');
+    $('tabIn').setAttribute('aria-selected', 'false');
+    $('formUp').hidden = false; $('formIn').hidden = true; clearMsg();
+  };
+
+  $('formIn').onsubmit = function (e) {
+    e.preventDefault();
+    api('POST', '/auth/login',
+        { username: $('inUser').value.trim(), password: $('inPass').value })
+      .then(function (r) {
+        if (r.ok) { $('inPass').value = ''; load(); }
+        else { say(r.body.message || 'That did not work.', true); }
+      });
+  };
+
+  $('formUp').onsubmit = function (e) {
+    e.preventDefault();
+    api('POST', '/auth/signup', {
+      username: $('upUser').value.trim(),
+      password: $('upPass').value,
+      email: $('upEmail').value.trim() || null,
+      display_name: $('upName').value.trim() || null,
+      website: $('website').value
+    }).then(function (r) {
+      if (r.status === 201) {
+        $('upPass').value = '';
+        load();
+        if (r.body.email_verification_sent) {
+          say('Account created. Check your email to confirm the address — '
+              + 'that is what makes a password reset possible later.');
+        } else { say('Account created.'); }
+      } else if (r.status === 202) {
+        // The honeypot path. It looks like success on purpose.
+        say('Account created.');
+      } else { say(r.body.message || 'That did not work.', true); }
+    });
+  };
+
+  // -------------------------------------------------------------------------------- signed in
+  function showIn(user) {
+    state.user = user;
+    $('out').hidden = true; $('in').hidden = false;
+    $('meName').textContent = user.display_name || user.username;
+    $('meLede').textContent = 'Username ' + user.username
+      + ' · id ' + String(user.public_ref).slice(0, 8);
+    $('pEmail').value = user.email || '';
+    $('emailHint').textContent = user.email
+      ? (user.email_verified ? 'Confirmed — your password can be reset by email.'
+                             : 'Not confirmed yet. Until it is, it cannot reset your password.')
+      : 'No email on this account, so the password cannot be reset.';
+    if (window.LA) { window.LA.bar(); }
+  }
+
+  function accounts() {
+    return api('GET', '/auth/accounts').then(function (r) {
+      var box = $('accts');
+      box.textContent = '';
+      (r.body.accounts || []).forEach(function (a) {
+        var row = document.createElement('div');
+        row.className = 'acct';
+        var dot = document.createElement('span');
+        dot.className = 'dot'; dot.style.background = a.colour;
+        var nm = document.createElement('span');
+        nm.className = 'nm'; nm.textContent = a.display_name || a.username;
+        var ref = document.createElement('span');
+        ref.className = 'ref'; ref.textContent = String(a.public_ref).slice(0, 8);
+        var sp = document.createElement('span'); sp.className = 'sp';
+        row.appendChild(dot); row.appendChild(nm); row.appendChild(ref); row.appendChild(sp);
+        if (a.active) {
+          var cur = document.createElement('span');
+          cur.className = 'small muted'; cur.textContent = 'signed in now';
+          row.appendChild(cur);
+        } else {
+          var b = document.createElement('button');
+          b.className = 'ghost'; b.textContent = 'Switch to this';
+          b.onclick = function () {
+            api('POST', '/auth/switch', { public_ref: a.public_ref }).then(function (s) {
+              if (s.ok) { load(); say('Switched to ' + a.username + '.'); }
+              else { say(s.body.message || 'Could not switch.', true); }
+            });
+          };
+          row.appendChild(b);
+        }
+        box.appendChild(row);
+      });
+    });
+  }
+
+  function interests(chosen) {
+    var box = $('tags');
+    if (box.dataset.built) { mark(chosen); return Promise.resolve(); }
+    return api('GET', '/interests').then(function (r) {
+      state.interests = r.body.interests || [];
+      box.textContent = '';
+      state.interests.forEach(function (t) {
+        var l = document.createElement('label');
+        l.className = 'tag';
+        var cb = document.createElement('input');
+        cb.type = 'checkbox'; cb.value = t.slug;
+        var s = document.createElement('span');
+        s.textContent = t.label_en;
+        var ar = document.createElement('span');
+        ar.className = 'muted small'; ar.dir = 'rtl'; ar.lang = 'ar'; ar.textContent = t.label_ar;
+        l.appendChild(cb); l.appendChild(s); l.appendChild(ar);
+        box.appendChild(l);
+      });
+      box.dataset.built = '1';
+      mark(chosen);
+    });
+  }
+  function mark(chosen) {
+    var want = chosen || [];
+    Array.prototype.forEach.call($('tags').querySelectorAll('input'), function (cb) {
+      cb.checked = want.indexOf(cb.value) >= 0;
+    });
+  }
+  function chosenTags() {
+    return Array.prototype.filter.call($('tags').querySelectorAll('input'), function (cb) {
+      return cb.checked;
+    }).map(function (cb) { return cb.value; });
+  }
+
+  function profile() {
+    return api('GET', '/me/profile').then(function (r) {
+      var p = r.body.profile || {};
+      $('pName').value = state.user.display_name || '';
+      $('pCountry').value = p.country || '';
+      $('pCity').value = p.city || '';
+      $('pAge').value = p.age_band || '';
+      $('pNative').value = p.native_language || '';
+      $('pEnglish').value = p.english_level || '';
+      $('pEdu').value = p.education_level || '';
+      $('pField').value = p.field_of_study || '';
+      $('pInst').value = p.institution || '';
+      $('pJob').value = p.occupation || '';
+      $('pIndustry').value = p.industry || '';
+      $('pHours').value = p.hours_per_week == null ? '' : p.hours_per_week;
+      $('pFound').value = p.how_found || '';
+      $('pNotes').value = p.notes || '';
+      $('pOptIn').checked = !!p.contact_opt_in;
+      return interests(p.interests || []);
+    });
+  }
+
+  $('formProfile').onsubmit = function (e) {
+    e.preventDefault();
+    api('PATCH', '/me/profile', {
+      display_name: $('pName').value.trim() || null,
+      country: $('pCountry').value.trim() || null,
+      city: $('pCity').value.trim() || null,
+      age_band: $('pAge').value || null,
+      native_language: $('pNative').value.trim() || null,
+      english_level: $('pEnglish').value || null,
+      education_level: $('pEdu').value || null,
+      field_of_study: $('pField').value.trim() || null,
+      institution: $('pInst').value.trim() || null,
+      occupation: $('pJob').value.trim() || null,
+      industry: $('pIndustry').value.trim() || null,
+      hours_per_week: $('pHours').value || null,
+      how_found: $('pFound').value.trim() || null,
+      notes: $('pNotes').value.trim() || null,
+      contact_opt_in: $('pOptIn').checked,
+      interests: chosenTags()
+    }).then(function (r) {
+      if (r.ok) { say('Saved.'); load(); } else { say(r.body.message || 'Could not save.', true); }
+    });
+  };
+
+  $('formPw').onsubmit = function (e) {
+    e.preventDefault();
+    api('POST', '/me/password',
+        { current_password: $('pwOld').value, new_password: $('pwNew').value })
+      .then(function (r) {
+        $('pwOld').value = ''; $('pwNew').value = '';
+        if (r.ok) { say('Password changed.'); } else { say(r.body.message || 'Could not change it.', true); }
+      });
+  };
+
+  $('addAcct').onclick = function () {
+    $('in').hidden = true; $('out').hidden = false;
+    $('tabIn').click();
+    say('Signing in to another account will not sign you out of this one.');
+  };
+  $('signOut').onclick = function () {
+    api('POST', '/auth/logout').then(load);
+  };
+  $('signOutAll').onclick = function () {
+    api('POST', '/auth/logout?all=1').then(load);
+  };
+
+  $('btnExport').onclick = function () {
+    api('GET', '/me/export').then(function (r) {
+      var blob = new Blob([JSON.stringify(r.body, null, 1)], { type: 'application/json' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'learnactively-' + state.user.username + '.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+  };
+
+  $('btnDelete').onclick = function () {
+    if (!window.confirm('Delete this account? Your profile and progress cannot be brought back.')) {
+      return;
+    }
+    api('POST', '/me/delete', { confirm: $('delConfirm').value.trim() }).then(function (r) {
+      if (r.ok) { say('Account deleted.'); load(); }
+      else { say(r.body.message || 'Could not delete it.', true); }
+    });
+  };
+
+  // --------------------------------------------------------------------------------------- load
+  function load() {
+    return api('GET', '/auth/me').then(function (r) {
+      if (r.ok && r.body.user) { showIn(r.body.user); return accounts().then(profile); }
+      showOut();
+      if (window.LA) { window.LA.bar(); }
+      return accounts();
+    })['catch'](function () {
+      showOut();
+      say('Could not reach the server. Check your connection and reload.', true);
+    });
+  }
+  load();
+}());
+</script>
+</body></html>

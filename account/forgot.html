@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forgotten password &middot; LearnActively</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23E8B418'/%3E%3Cpath d='M11 7h4.3v13.3h6.4V25H11z' fill='%231A1200'/%3E%3C/svg%3E">
+<!-- THE ANSWER IS ALWAYS THE SAME, whether the account exists, has no email, or has one that was
+     never confirmed. The server is built that way and this page must not undo it by saying
+     something more helpful - "no account with that name" would tell a stranger who has one. -->
+<link rel="stylesheet" href="shared.css">
+</head>
+<body data-la-course="account">
+<header class="top"><div class="wrap"><a class="brand" href="/"><b>Learn</b>Actively</a></div></header>
+<main><div class="wrap">
+  <h1>Forgotten your password?</h1>
+  <p class="lede">Give the username or email on the account. If it has a confirmed email address,
+    a link to set a new password is on its way.</p>
+  <p class="ar" lang="ar" dir="rtl">أدخل اسم المستخدم أو البريد. إن كان للحساب بريد مؤكَّد، سيصلك رابط لتعيين كلمة مرور جديدة.</p>
+
+  <div id="msg" class="msg" role="status" aria-live="polite"></div>
+
+  <form id="f" class="card">
+    <label for="who">Username or email</label>
+    <input id="who" autocomplete="username" required>
+    <p style="margin:18px 0 0"><button class="primary" type="submit">Send me a link</button></p>
+  </form>
+
+  <div class="card">
+    <p class="small"><strong>If the account has no confirmed email, nothing can be sent.</strong>
+      There is no other way to recover it &mdash; the password is the only key, and it is stored in
+      a form nobody can read back, including me.</p>
+    <p class="ar small" lang="ar" dir="rtl">إن لم يكن للحساب بريد مؤكَّد فلا سبيل لاستعادته.</p>
+  </div>
+
+  <p><a href="./">Back to sign in</a></p>
+</div></main>
+<script>
+document.getElementById('f').onsubmit = function (e) {
+  e.preventDefault();
+  var m = document.getElementById('msg');
+  fetch('https://api.learnactively.com/auth/password/forgot', {
+    method: 'POST', credentials: 'include',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ username_or_email: document.getElementById('who').value.trim() })
+  }).then(function (r) { return r.json(); }).then(function (j) {
+    m.textContent = j.message || 'If that account exists and has a confirmed email, a link is on its way.';
+    m.className = 'msg show good';
+  })['catch'](function () {
+    m.textContent = 'Could not reach the server. Check your connection and try again.';
+    m.className = 'msg show bad';
+  });
+};
+</script>
+</body></html>
