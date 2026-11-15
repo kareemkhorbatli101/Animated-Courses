@@ -1020,8 +1020,22 @@ it is the best thing the architecture does.
 
 ## 9. The unit, cycle by cycle
 
-**A cycle is one sub-topic taken through all four skills.** Five of them make a
-unit. That is the TOEFL architecture unchanged, and three things about it have
+**A unit is one general theme. A cycle is one sub-topic inside it, taken
+through all four skills.** Five cycles make a unit.
+
+The theme is deliberately broad, because a broad theme is what lets one unit
+hold five genuinely different sub-topics and both registers at once. *Art* at
+B1 gives you booking a place at an exhibition, a conversation about a picture,
+a notice about gallery opening hours, a talk on how a painting was restored,
+and a passage on why some works are worth more than others — everyday
+transactions and academic argument out of one word on the contents page. A
+narrow theme cannot do that, and a unit built on one would have to reach
+outside itself by cycle three.
+
+At the lower levels the theme behaves almost as a container: the five cycles
+are five separate practical topics that happen to share a field. As the ladder
+rises the cycles converge, until in the upper volumes cycles 4 and 5 are two
+halves of a single argument about the theme itself. That is the TOEFL architecture unchanged, and three things about it have
 to be stated precisely, because each of them is a place the design can go
 wrong.
 
@@ -1036,12 +1050,18 @@ it. Only Writing Task 1 genuinely forks, and where it does, **the cycle carries
 both versions on the same sub-topic** — the data description and the letter,
 side by side, each fully taught.
 
-**2. A cycle is sized by what it needs.** One task a skill is a floor, not a
-cap. A cycle may carry two or three short reading texts where the real paper
-does — GT Section 1 is two or three short texts — or two listening pieces, or a
-speaking group that runs across two parts. The number of items in a cycle is
-decided by the sub-topic and the task, and the gates count coverage across the
-unit rather than enforcing one item a slot.
+**2. A cycle is sized by what it needs, in either register.** One task a skill
+is a floor, not a cap, and this applies to the academic cycles as much as the
+everyday ones. An academic cycle may carry two readings — a passage and a
+shorter counter-piece, or a passage and the abstract it came from — and a
+General Training cycle may carry two or three short texts the way GT Section 1
+does, or a notice and the email that answers it. Likewise two listening
+pieces, or a speaking group running across two parts.
+
+**The judge is coverage of knowledge and skills, not a slot count.** The gates
+ask whether the unit covers the question types, the task types, both modules
+and the vocabulary it promised — not whether each cycle held exactly one item
+a skill.
 
 **3. Grammar, vocabulary, expressions and transitions live inside the cycles.**
 This is the real departure from the TOEFL series, where the vocabulary sits on
@@ -1353,7 +1373,28 @@ measurement is what made gate 7 pass at a mean of 1.5 unknown types.
 
 ---
 
-## 15. Open questions worth settling before step 1
+## 15. The outline this plan produced
+
+`IELTS_Series_Full_Outline.docx` is the whole series instantiated against
+everything above: **80 units, 400 cycles, 470 reading texts, 452 recordings,
+400 speaking groups and 400 writing tasks**, each with its heading, its text
+type, its length band and its question types, plus the grammar, vocabulary,
+expressions, transitions and scaffolding step that cycle carries.
+
+It is generated from `ielts/outline/`, not written as prose, for the reason
+the rest of this project works that way: eighty units cannot be checked by
+reading them. `mkoutline.py --check` counts what this plan promised — five
+cycles a unit, both Task 1 forks, Listening Parts 1 to 4, Speaking Parts 1 to
+3, and grammar, vocabulary, expressions and transitions on every cycle.
+
+That check earned its place immediately. Fifty-two of the eighty units had
+drifted off the Listening coverage in section 9.1, almost all of them missing
+the Part 2 monologue, because a discussion is more interesting to invent than
+a talk. Nobody would have found that by reading 150 pages.
+
+---
+
+## 16. Open questions worth settling before step 1
 
 1. **Market and format.** Which country's candidates, and are they sitting on
    computer or paper? This changes the technique chapter and the timings

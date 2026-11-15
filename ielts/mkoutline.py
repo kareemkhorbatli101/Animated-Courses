@@ -11,6 +11,7 @@ scaffolding steps, and the per-cycle grammar, vocabulary, expressions and
 transitions that section 9 of the plan requires.
 """
 import importlib
+import re
 import sys
 
 BOOKS = [
@@ -114,6 +115,25 @@ def check():
                 problems.append('%s: %d cycles, want 5' % (tag, len(cyc)))
             if forks != {'A', 'GT'}:
                 problems.append('%s: Task 1 forks %s, want both' % (tag, sorted(forks) or 'none'))
+            # the plan promises Listening Parts 1-4 and Speaking Parts 1-3 in
+            # every unit. Fifty-two units had drifted off that before this
+            # check existed, almost all of them missing the Part 2 monologue.
+            nums = set()
+            for c in cyc:
+                for l in c['listen']:
+                    m2 = re.match(r'Part (\d)', l['part'])
+                    if m2:
+                        nums.add(int(m2.group(1)))
+            if nums != {1, 2, 3, 4}:
+                problems.append('%s: Listening Parts %s, missing %s'
+                                % (tag, sorted(nums), sorted({1, 2, 3, 4} - nums)))
+            snums = set()
+            for c in cyc:
+                for m3 in re.finditer(r'Part (\d)', c['speak']['part']):
+                    snums.add(int(m3.group(1)))
+            if snums != {1, 2, 3}:
+                problems.append('%s: Speaking Parts %s, missing %s'
+                                % (tag, sorted(snums), sorted({1, 2, 3} - snums)))
             for c in cyc:
                 for f in ('gram', 'vocab', 'expr', 'trans'):
                     if not c[f]:
