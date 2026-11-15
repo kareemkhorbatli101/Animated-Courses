@@ -54,3 +54,9 @@ TOEFL_2026_Complete_5_Volumes.zip
 #   mkdir TOEFL_iBT_2026_Course && cp TOEFL_2026_*.docx TOEFL_iBT_2026_Course/
 #   zip -r TOEFL_iBT_2026_Course_All_Six_Volumes.zip TOEFL_iBT_2026_Course
 TOEFL_iBT_2026_Course_All_Six_Volumes.zip
+
+# The eight-volume bundle that replaces it. Same reason: the eight volumes
+# inside are tracked individually. Rebuild it with:
+#   mkdir TOEFL_iBT_2026_Course && cp TOEFL_2026_*.docx TOEFL_iBT_2026_Course/
+#   zip -r TOEFL_iBT_2026_Course_All_Eight_Volumes.zip TOEFL_iBT_2026_Course
+TOEFL_iBT_2026_Course_All_Eight_Volumes.zip

@@ -25,13 +25,18 @@ Volume 6 targets 5.5–6.0.
 |---|---|---|
 | level string | `B2` | `C1` |
 | r3 passage | 255–300 words | 255–300 words |
-| r4 / r5 passages | 360–410 words, ±14 a unit | 400–450 words, ±14 a unit |
-| l4 / l5 scripts | 290–330 words | 320–360 words |
-| w5 model | 265–305 words | 295–340 words |
+| r4 / r5 passages | 346–424 words, ramped across the ten units, ±14 in each | 386–464 words, ramped, ±14 in each |
+| l4 / l5 scripts | 276–344 words, ramped | 306–374 words, ramped |
+| w5 model | 255–315 words, ramped | 285–350 words, ramped |
 | mean sentence, new prose | 27.0–30.5 | 29.0–33.0 |
 | nominalisation floor | 6.5% | 7.5% |
-| untaught words a block | <= 12 | <= 12 | | head words a unit | '
-'14 academic + 16 field | 14 academic + 16 field |
+| untaught words a block | ≤ 12 | ≤ 12 |
+| head words a unit | 14 academic + 16 field | 14 academic + 16 field |
+
+The three ramped rows are the per-unit bands in `check.BX`, which rise linearly
+from the first unit of the volume to the last, so that unit 41 joins Volume 4
+without a step and unit 60 is the longest reading in the course. The single
+figure the plan used to quote was the middle of each ramp, not its ends.
 
 The r3 passage keeps the real test's own length in every volume. The two
 academic cycles are what run long, because reading speed is built above the
