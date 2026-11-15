@@ -153,6 +153,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
             _figure(d, r['figure'])
         if r.get('figure2'):
             _figure(d, r['figure2'])
+        if r.get('figure3'):
+            _figure(d, r['figure3'])
         d.passage(r['heading'], r['paras'],
                   sum(len(p.split()) for p in r['paras']))
         d.ex('Exercise  %s' % r['qtype'], 'reading')
@@ -166,6 +168,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
             _figure(d, l['figure'])
         if l.get('figure2'):
             _figure(d, l['figure2'])
+        if l.get('figure3'):
+            _figure(d, l['figure3'])
         if l.get('skill'):
             d.skillbox(l['skill'][0], l['skill'][1], 'listening')
         d.ex('Exercise  %s   The recording is played once.' % l['qtype'],
@@ -197,6 +201,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
             _figure(d, w['figure'])
         if w.get('figure2'):
             _figure(d, w['figure2'])
+        if w.get('figure3'):
+            _figure(d, w['figure3'])
         d.body_p(w['prompt'])
         if w.get('plan'):
             d.figure(*F.outline_frame(w['plan'][0], w['plan'][1]))
