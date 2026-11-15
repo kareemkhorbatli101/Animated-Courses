@@ -1,0 +1,1429 @@
+# -*- coding: utf-8 -*-
+"""Unit 24 - Climate and Adaptation. IELTS Volume 3, band 6.0."""
+
+_WARM = dict(kind='line',
+             title='Temperature anomaly and number of hot days',
+             sub='one station, 1900 to 2020, ten-year means',
+             ylab='',
+             x=['1900', '1920', '1940', '1960', '1980', '2000', '2020'],
+             series=[('Anomaly (°C × 10)', [-3, -2, 1, 0, 4, 9, 14]),
+                     ('Days above 30°C', [4, 5, 7, 6, 11, 18, 29])])
+
+UNIT = dict(
+ n=24, vol=3, level='B1+', band='6.0',
+ theme='Climate and Adaptation',
+ opener=(
+   'A flood notice, four households that prepared, and a chart that puts a '
+   'temperature line and a counted number of hot days on the same axes. The '
+   'unit ends on what can honestly be said about a single flood, which is '
+   'less than campaigners claim and a great deal more than it was ten years '
+   'ago.'),
+
+ cycles=[
+  dict(
+   sub='Flood protection where you live',
+   step=1,
+   read=[
+    dict(heading='Flood risk and what the council will do',
+         kind='Public notice', task='Matching features and short answer',
+         band='gt_short', qtype='Questions 1-5',
+         skill=('A notice that assigns duties is read for who does what',
+                ['Where a notice divides responsibility between an authority '
+                 'and a resident, every sentence belongs to one of the two.',
+                 'Mark each as C for council or R for resident as you read. '
+                 'The questions come almost entirely from the R sentences.']),
+         paras=[
+          'Properties in the shaded zones on the map are in an area at risk '
+          'of flooding from the river. Being in a zone does not mean a '
+          'property has flooded or will flood; it means that the probability '
+          'in any year is above the national threshold at which we must '
+          'plan.',
+          'The council maintains the embankment, clears the main watercourse '
+          'twice a year and operates the warning system. It does not clear '
+          'private ditches, and it is not responsible for drains inside a '
+          'boundary wall. Responsibility for a ditch follows ownership of the '
+          'land it crosses, which surprises people every autumn.',
+          'Residents in the zones are strongly advised to sign up for '
+          'warnings, which are free and are sent by text, and to prepare a '
+          'plan naming who moves what, and where. A plan written in November '
+          'is worth four times a plan written at two in the morning.',
+          'Grants of up to £5,000 are available for property-level '
+          'protection: flood doors, airbrick covers and pumps. Applications '
+          'are assessed on risk and not on income, and a survey is required '
+          'before any work is approved. The grant is paid to the contractor '
+          'and not to the householder.'],
+         items=[
+          ('Being in a flood zone means that',
+           ['the property has flooded', 'the probability is above a '
+            'threshold', 'the property will flood', 'insurance is '
+            'refused'], 1,
+           'Paragraph 1, which is the level at which the council must plan.'),
+          ('Who is responsible for a private ditch?',
+           ['The council', 'The landowner', 'The water company',
+            'Nobody'], 1,
+           'Paragraph 2: responsibility follows ownership of the land it '
+           'crosses.'),
+          ('Grant applications are assessed on',
+           ['income', 'risk', 'property value', 'first come, first '
+            'served'], 1,
+           'Paragraph 4, and a survey is required before approval.'),
+          ('The council clears the main watercourse ____________ a year.',
+           None, 'twice',
+           'Paragraph 2, alongside maintaining the embankment and the '
+           'warning system.'),
+          ('The grant is paid to the ____________.', None, 'contractor',
+           'Paragraph 4, rather than to the householder.')]),
+    dict(heading='Applying for a property grant',
+         kind='Procedure notice', task='Flow-chart completion',
+         band='gt_short', qtype='Questions 6-9',
+         paras=[
+          'Check first that your property is in a grant area, which is not '
+          'the same as the flood zone and covers fewer streets. The map on '
+          'the website is the authority; a neighbour being eligible is not '
+          'evidence that you are.',
+          'Request a survey. A surveyor visits, usually within three weeks, '
+          'and produces a report recommending specific measures. The survey '
+          'is free and carries no obligation, and roughly a fifth of surveys '
+          'conclude that no works are justified.',
+          'Choose a contractor from the approved list. Quotations from '
+          'outside the list will not be funded, which is the single '
+          'commonest reason an application fails at this stage, and the list '
+          'is updated every January.',
+          'Submit the application with the survey report and one quotation. '
+          'A decision takes about six weeks. Works must begin within six '
+          'months of approval, and an extension is granted once where a '
+          'contractor has a waiting list, which most of them do.'],
+         items=[
+          ('Check that the property is in a ____________ area.', None,
+           'grant',
+           'Paragraph 1: this is narrower than the flood zone.'),
+          ('A surveyor normally visits within ____________ weeks.', None,
+           'three',
+           'Paragraph 2, and the survey is free and carries no obligation.'),
+          ('Use a contractor from the ____________ list.', None, 'approved',
+           'Paragraph 3, where outside quotations are the commonest reason '
+           'for failure.'),
+          ('Works must begin within ____________ months of approval.', None,
+           'six',
+           'Paragraph 4, with one extension where a contractor has a waiting '
+           'list.')])],
+   listen=[
+    dict(heading='Applying for a flood grant', part='Part 1',
+         task='A call to a council flood team', band='l1',
+         qtype='Questions 10-14',
+         script=[
+          ('Officer', 'Flood team, Annika speaking.'),
+          ('Caller', 'Hello. My neighbour has had flood doors fitted with a '
+           'grant and I wanted to ask whether I could.'),
+          ('Officer', 'Possibly. Can I take your address?'),
+          ('Caller', 'Eleven, Brookmill Lane.'),
+          ('Officer', 'Brookmill Lane. Which end? The numbers matter here '
+           'more than you would expect.'),
+          ('Caller', 'The river end. Number eleven.'),
+          ('Officer', 'Then you are in the grant area, and I should say that '
+           'the odd numbers above twenty-three are not, which catches people '
+           'who have spoken to a neighbour.'),
+          ('Caller', 'How much is available?'),
+          ('Officer', 'Up to five thousand, and it goes to the contractor '
+           'rather than to you. What it covers depends on the survey.'),
+          ('Caller', 'Is the survey expensive?'),
+          ('Officer', 'It is free and you are not committed to anything '
+           'afterwards. About one in five surveys concludes that nothing is '
+           'worth doing, and that is a useful answer too.'),
+          ('Caller', 'How long does all this take?'),
+          ('Officer', 'Three weeks for the surveyor, then you get a quote, '
+           'then about six weeks for a decision. So two to three months '
+           'before anybody starts work.'),
+          ('Caller', 'And I choose the builder?'),
+          ('Officer', 'From our approved list, which is on the website and '
+           'changes each January. A quotation from somebody not on it cannot '
+           'be funded, and that is where most applications fall over.'),
+          ('Caller', 'I would have done exactly that.'),
+          ('Officer', 'Everybody would. One other thing while I have you: the '
+           'grant pays for doors, airbrick covers and a pump, and it does '
+           'not pay for anything below the floor, which is where a lot of '
+           'water on your street actually comes in.'),
+          ('Caller', 'So the doors might not be the answer at all.'),
+          ('Officer', 'They might be half of it. The survey will tell you, '
+           'and if it says the floor is the problem you will at least know '
+           'that before you spend four thousand pounds finding out.'),
+          ('Caller', 'That is more useful than the leaflet.'),
+          ('Officer', 'I will email you the list and the survey form '
+           'today.')],
+         items=[
+          ('Address: ____________ Brookmill Lane', None, 'eleven',
+           'At the river end, which the officer confirms is inside the grant '
+           'area.'),
+          ('Odd numbers above ____________ are outside the grant area.',
+           None, 'twenty-three',
+           'Which the officer says catches people who have asked a '
+           'neighbour.'),
+          ('Maximum grant: £____________', None, '5,000',
+           'Paid to the contractor rather than the householder.'),
+          ('About one survey in ____________ concludes no works are needed.',
+           None, 'five', 'Which the officer calls a useful answer too.'),
+          ('A decision takes about ____________ weeks.', None, 'six',
+           'After the survey and the quotation, making two to three months '
+           'in all.')]),
+    dict(heading='A short talk: what people do about it', part='Part 2',
+         task='A talk at a community flood meeting', band='l2',
+         qtype='Questions 15-18',
+         script=[
+          ('Speaker', 'I have worked on flood recovery for fourteen years and '
+           'I am going to tell you what actually distinguishes the households '
+           'that cope from the ones that do not, because it is not what the '
+           'leaflets say.'),
+          ('Speaker', 'It is not flood doors. Property-level protection is '
+           'worth having and it buys you about twenty centimetres, which is '
+           'the difference between a bad day and a ruined year in maybe one '
+           'flood in three. In the other two it is overtopped and makes no '
+           'difference at all.'),
+          ('Speaker', 'What distinguishes them is where things are. The '
+           'households that recover fastest are the ones that moved the '
+           'irreplaceable upstairs in the autumn and left it there: '
+           'documents, photographs, the hard drive, the things that are not '
+           'on an insurance form because they have no price. Everything else '
+           'is a claim.'),
+          ('Speaker', 'The second thing is knowing the sequence. In a real '
+           'warning you have between one and four hours, and almost nobody '
+           'has decided in advance who collects the children, who moves the '
+           'car, and where the car goes. The households with a plan on the '
+           'fridge move in twenty minutes. The ones without it argue for '
+           'forty and then move.'),
+          ('Speaker', 'Third, and this is the one I did not expect when I '
+           'started: the households that cope are the ones that have told '
+           'their neighbours what they are doing. Not out of community '
+           'spirit, though that is real. It is that two people moving a '
+           'piano is a different problem from one person moving a piano, and '
+           'everybody discovers this at the wrong moment.'),
+          ('Speaker', 'So my advice is ordinary. Move the irreplaceable now, '
+           'write the sequence on one sheet of paper, and tell two '
+           'neighbours. None of it costs anything and all of it is harder to '
+           'do in November than to intend in July.')],
+         items=[
+          ('What does the speaker say about flood doors?',
+           ['They always work', 'They help in about one flood in three',
+            'They are a waste of money', 'They are too expensive'], 1,
+           'They buy about twenty centimetres and are overtopped in the '
+           'other two.'),
+          ('What distinguishes households that recover fastest?',
+           ['Better insurance', 'Moving irreplaceable things upstairs early',
+            'Living higher up', 'Having more warning'], 1,
+           'Documents, photographs and things with no price on an insurance '
+           'form.'),
+          ('In a real warning, how long do people have?',
+           ['Minutes', 'One to four hours', 'A day', 'Two days'], 1,
+           'And almost nobody has decided the sequence in advance.'),
+          ('What surprised the speaker?',
+           ['The cost of repairs', 'That telling neighbours matters',
+            'The speed of the water', 'How few people claim'], 1,
+           'Because two people moving a piano is a different problem from '
+           'one.')])],
+   speak=dict(
+    part='Part 1', focus='Weather where you live',
+    intro=('Two or three sentences each. Ordinary observation is exactly '
+           'right here.'),
+    qs=['What is the weather usually like where you live?',
+        'Has the weather changed since you were a child?',
+        'Do you prefer hot weather or cold weather?',
+        'Does the weather affect what you do at weekends?'],
+    shape=[('answer', 'Wet, and milder than it used to be.'),
+           ('support', 'We had snow most winters when I was at school.'),
+           ('follow-up', 'My daughter has seen it twice in ten years, which '
+            'tells you something.')]),
+   write=[
+    dict(task='Task 1', fork='GT',
+         heading='Writing about flood protection',
+         prompt=('Your home is in an area at risk of flooding and you want '
+                 'the council to act. Write a letter to the council. In your '
+                 'letter: describe the problem; explain what you have already '
+                 'done; say what you would like the council to do. Write at '
+                 'least 150 words.'),
+         model=[
+          'Dear Sir or Madam,',
+          'I am writing about surface water flooding in Brookmill Lane, and '
+          'in particular about the stretch between numbers nine and '
+          'seventeen, which has flooded three times since January.',
+          'The problem is not the river. Water collects at the low point '
+          'outside number eleven because the gully there is blocked, and it '
+          'then runs into the three houses on that side. On 14 January it '
+          'reached the doorstep of number eleven and entered number thirteen, '
+          'which has a lower step.',
+          'I have taken the steps open to me. I reported the gully through '
+          'the website on 16 January and again on 2 March, receiving '
+          'reference numbers on both occasions, and I have had a survey done '
+          'under the property grant scheme, which recommended a flood door '
+          'but noted that the gully is the underlying cause.',
+          'I would be grateful if you would clear and inspect the gully, tell '
+          'me which team is responsible for it, and confirm whether this '
+          'stretch is included in the drainage review I understand is under '
+          'way. I am happy to meet an officer on site at any time.',
+          'Yours faithfully,',
+          'T. Mbeki-Lindgren'],
+         notes=[
+          'The second paragraph distinguishes this problem from the one the '
+          'council expects. Saying "the problem is not the river" in four '
+          'words stops the letter being filed under flood zone and read no '
+          'further.',
+          'The record of what has been tried is specific: two dates, two '
+          'reference numbers, and a survey that supports the writer’s '
+          'diagnosis. That last detail turns an opinion into a finding.',
+          'Three requests, and the third one asks about something already '
+          'happening. Connecting your problem to work the reader is already '
+          'doing is far more effective than asking for new work.'],
+         criterion=[('Distinguishing this problem from the expected one',
+                     'Task Achievement'),
+                    ('A record with dates and reference numbers',
+                     'Task Achievement'),
+                    ('Attaching a request to work already under way',
+                     'Task Response')],
+         instruct='  Write at least 150 words in about 20 minutes.',
+         lines=14)],
+   gram=dict(
+    point='Saying what a problem is not',
+    explain=('A letter about a problem the reader thinks they understand has '
+             'to correct them early. These patterns do it without sounding '
+             'combative.'),
+    examples=['The problem is not the river.',
+              'This is surface water, not river flooding.',
+              'The difficulty is the gully rather than the level of the '
+              'water.',
+              'I am not asking about the embankment.'],
+    task='Rewrite each complaint so that it rules out the expected cause.',
+    items=[('Our street floods.',
+            'Our street floods from surface water, not from the river.'),
+           ('The drains are a problem.',
+            'The difficulty is one blocked gully, not the drainage system as '
+            'a whole.'),
+           ('We need flood defences.',
+            'We are not asking for new defences; we are asking for the '
+            'existing gully to be cleared.'),
+           ('The council has not helped.',
+            'The flood team has responded promptly; the gully appears to '
+            'belong to a different department.'),
+           ('It happens when it rains hard.',
+            'It happens in heavy rain regardless of the river level, which '
+            'is what points to the gully.')]),
+   vocab=[('watercourse', 'a channel that water runs along'),
+          ('embankment', 'a raised bank holding back water'),
+          ('gully', 'a drain at the edge of a road'),
+          ('surface water', 'rain that collects on the ground'),
+          ('airbrick', 'a ventilation brick with holes in it'),
+          ('overtop', 'to rise above a barrier'),
+          ('property-level', 'applied to one building rather than an area'),
+          ('irreplaceable', 'impossible to replace if lost')],
+   expr=[('The problem is not the river', 'rules out the expected cause'),
+         ('I have taken the steps open to me',
+          'pre-empts the suggestion you have not tried'),
+         ('which recommended X but noted that Y',
+          'reports a finding that supports your own view'),
+         ('I am happy to meet an officer on site',
+          'removes an obstacle to action')],
+   trans=['in particular', 'because', 'and again', 'I understand'],
+  ),
+
+  dict(
+   sub='What people do about it',
+   step=2,
+   read=[
+    dict(heading='Four households that prepared',
+         kind='Four short texts', task='Matching features and Yes/No/Not Given',
+         band='gt_short', qtype='Questions 19-24',
+         paras=[
+          'A  Ilse: We spent four thousand pounds on flood doors and the '
+          'water came through the floor. Nobody had told us that it rises '
+          'under a house as well as against it, and I do not think the people '
+          'who sold us the doors knew either. They work. They work against '
+          'one of the two ways water arrives.',
+          'B  Oskar: I did nothing for eleven years and then I moved the '
+          'photographs upstairs in one afternoon. That afternoon is the only '
+          'preparation I have ever done and it is the only one that has '
+          'mattered, because everything else in the house was replaced by '
+          'the insurance and the photographs would not have been.',
+          'C  Varsha: What we did was agree the plan with the people either '
+          'side. Who knocks on whose door, who has the spare key, whose car '
+          'goes to the high car park first. It took an hour in a kitchen and '
+          'I would say it is worth more than anything we bought.',
+          'D  Emmanuel: I am the cautious one on this street and I have come '
+          'to think caution has a cost nobody counts. We have not had a '
+          'holiday for three years because of what we spent, and the house '
+          'has not flooded since 2019. That may mean I wasted the money or '
+          'that I bought three quiet winters. I genuinely cannot tell.'],
+         items=[
+          ('Which person found that a defence worked only partly?',
+           ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 0,
+           'The doors work against one of the two ways water arrives.'),
+          ('Which person prepared only once and thinks it was enough?',
+           ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 1,
+           'One afternoon moving photographs, because insurance replaced '
+           'everything else.'),
+          ('Which person values an arrangement with neighbours most?',
+           ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 2,
+           'An hour in a kitchen, worth more than anything bought.'),
+          ('Which person is unsure whether their spending was justified?',
+           ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 3,
+           'He says he genuinely cannot tell.'),
+          ('Ilse believes the sellers deliberately misled her.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'She says she does not think they knew either, which is the '
+           'opposite of deliberate.'),
+          ('Varsha has needed to use the plan she agreed.',
+           ['Yes', 'No', 'Not Given'], 2,
+           'She describes making it and valuing it; whether it has been used '
+           'is never said.')])],
+   listen=[
+    dict(heading='Two residents disagree about moving', part='Part 3',
+         task='A conversation between neighbours', band='l3',
+         qtype='Questions 25-29',
+         script=[
+          ('Rafaela', 'The consultation closes on Friday and I still do not '
+           'know what to write.'),
+          ('Gustav', 'Write that you want the defence. It is not '
+           'complicated.'),
+          ('Rafaela', 'It is slightly complicated, because the defence they '
+           'are offering protects the twelve houses on the river side and '
+           'raises the level on ours by about ten centimetres.'),
+          ('Gustav', 'Where does ten centimetres come from?'),
+          ('Rafaela', 'Page forty-one of the modelling report. It is in a '
+           'table, it is not in the summary, and I only found it because my '
+           'son reads these things for a living.'),
+          ('Gustav', 'Then that is what you write, and you write it with the '
+           'page number, because a letter with a page number gets a different '
+           'answer from a letter without one.'),
+          ('Rafaela', 'Agreed. The part I am stuck on is what I am asking '
+           'for. I am not asking them to abandon twelve houses.'),
+          ('Gustav', 'No. You are asking what they propose to do about the '
+           'ten centimetres, which is a question they have to answer and '
+           'have not.'),
+          ('Rafaela', 'That is better than anything I had written. Although '
+           'it does rather assume they have an answer.'),
+          ('Gustav', 'They may not, and then you have established that in '
+           'writing before the scheme is built, which is worth more than any '
+           'objection.'),
+          ('Rafaela', 'And if the answer is that we should move?'),
+          ('Gustav', 'Then it will be said out loud for the first time, and '
+           'that is a conversation this street has been avoiding for six '
+           'years.'),
+          ('Rafaela', 'I will draft it tonight. Will you read it?'),
+          ('Gustav', 'I will read it and I will sign it, which is worth '
+           'more than a second letter saying the same thing. Twelve '
+           'signatures on one letter is a consultation response. Twelve '
+           'letters is a mailbag.'),
+          ('Rafaela', 'I had assumed the opposite.'),
+          ('Gustav', 'Most people do, and the officers I have met say the '
+           'same thing: one document they have to answer beats twelve they '
+           'can summarise. Get the page number in the first paragraph and '
+           'the signatures on the back.')],
+         items=[
+          ('The proposed defence would raise the level on Rafaela’s side '
+           'by', ['no amount', 'ten centimetres', 'forty-one centimetres',
+            'an unknown amount'], 1,
+           'A figure she found in a table on page forty-one.'),
+          ('Where did she find the figure?',
+           ['In the summary', 'In a table in the modelling report',
+            'From the council', 'From a neighbour'], 1,
+           'Not in the summary, which is why she nearly missed it.'),
+          ('Why does Gustav want the page number in the letter?',
+           ['It is required', 'It gets a different answer',
+            'It saves time', 'It proves she read it'], 1,
+           'A letter with a page number gets a different answer from one '
+           'without.'),
+          ('What does he say she should ask for?',
+           ['Abandoning the scheme', 'What they propose to do about the ten '
+            'centimetres', 'Compensation', 'A new report'], 1,
+           'A question they have to answer and have not.'),
+          ('What does Gustav say would follow if the answer is that they '
+           'should move?',
+           ['Nothing', 'A conversation the street has avoided',
+            'Legal action', 'A new consultation'], 1,
+           'For six years, as he puts it, the street has avoided it.')])],
+   speak=dict(
+    part='Part 1 into Part 2', focus='Preparing',
+    intro=('Short answers, then the long turn. Four bullets in order, equal '
+           'weight, developed one at a time.'),
+    cue=('Describe a time you prepared for something that might not happen.',
+         ['what you prepared for', 'what you did',
+          'whether it happened',
+          'and explain how you felt about the preparation afterwards']),
+    qs=['Do you plan ahead or deal with things as they come?',
+        'Do people in your country prepare for bad weather?',
+        'Now look at the card. You have one minute to make notes.',
+        'Is it worth preparing for something unlikely?'],
+    shape=[('answer', 'We packed a bag the night the river was forecast to '
+            'rise.'),
+           ('support', 'Documents, chargers, a change of clothes for each of '
+            'us.'),
+           ('follow-up', 'It stopped forty centimetres short and we unpacked '
+            'it.'),
+           ('support', 'I felt slightly foolish for about a day.'),
+           ('follow-up', 'And then noticed we had left the bag packed, which '
+            'answers the question.')]),
+   write=[
+    dict(task='Task 2', fork=None, wband='essay',
+         heading='Should people be allowed to build where there is a risk?',
+         prompt=('Some people think governments should prevent building in '
+                 'areas at risk of flooding. Others believe people should be '
+                 'free to choose where they live. Discuss both views and give '
+                 'your own opinion. Write at least 250 words.'),
+         model=[
+          'The argument is usually framed as one about freedom, and framing '
+          'it that way hides the fact that the people making the choice are '
+          'rarely the people who pay for it. That is what makes it a question '
+          'for government at all.',
+          'The case for restriction is about who bears the cost. A house '
+          'built on a floodplain is rescued by a fire service everybody '
+          'funds, insured through a scheme everybody subsidises, and '
+          'protected eventually by a defence everybody pays for. The '
+          'householder chooses; the public carries a substantial part of the '
+          'consequence, and a free choice whose costs fall elsewhere is the '
+          'standard case for regulating something.',
+          'The case against restriction is stronger than it is usually '
+          'allowed to be. Risk maps are probabilistic and are revised '
+          'regularly, so a line on a map is a forecast and not a fact. '
+          'Restriction also concentrates its effect on cheaper land, which '
+          'means that the people prevented from building are '
+          'disproportionately those with the fewest alternatives, while '
+          'expensive riverside developments continue under conditions.',
+          'My own position is that the question of permission is less '
+          'important than the question of disclosure. A great deal of what '
+          'goes wrong happens because a buyer did not know, or was told in a '
+          'search document nobody reads, and discovered the risk in the '
+          'fourth year of a mortgage.',
+          'I would therefore permit building where it can be done safely, '
+          'require the risk to be stated on the sale particulars in the same '
+          'type size as the price, and make the warranty transfer with the '
+          'house. That addresses the real failure, which is not that people '
+          'choose badly but that they choose without knowing.'],
+         notes=[
+          'The introduction names what the usual framing hides, which gives '
+          'the essay a job to do beyond answering yes or no.',
+          'Paragraph 3 gives the opposing case two arguments, and the second '
+          'one — that restriction falls hardest on cheaper land — is one most '
+          'candidates would not think of. Finding the argument the other side '
+          'has not made is what lifts Task Response.',
+          'The conclusion proposes something checkable: same type size as the '
+          'price. A specific mechanism is worth three sentences of principle.'],
+         criterion=[('Naming what the usual framing hides', 'Task Response'),
+                    ('An opposing argument the other side has not made',
+                     'Task Response'),
+                    ('A conclusion with a checkable mechanism',
+                     'Coherence and Cohesion')],
+         instruct='  Write at least 250 words in about 40 minutes.',
+         lines=18)],
+   gram=dict(
+    point='Separating who chooses from who pays',
+    explain=('A large share of policy essays turn on this distinction, and '
+             'stating it plainly is often the whole argument.'),
+    examples=['The householder chooses and the public carries part of the '
+              'consequence.',
+              'The people making the choice are rarely the people who pay '
+              'for it.',
+              'A free choice whose costs fall elsewhere is the standard case '
+              'for regulation.',
+              'The benefit is private and a share of the cost is shared.'],
+    task='Rewrite each claim so that chooser and payer are both named.',
+    items=[('People should be free to live where they like.',
+            'People may choose where to live, while rescue and insurance '
+            'costs fall partly on everybody.'),
+           ('Flood defences are expensive.',
+            'Defences are funded publicly to protect properties bought '
+            'privately.'),
+           ('Insurance covers it.',
+            'Insurance covers the householder, through a scheme whose costs '
+            'are spread across all policyholders.'),
+           ('It is their own risk.',
+            'The risk is theirs; a substantial part of the cost of that risk '
+            'is not.'),
+           ('Developers build where there is demand.',
+            'Developers choose the site and sell before the first flood, so '
+            'the risk passes to a buyer.')]),
+   vocab=[('floodplain', 'flat land beside a river that floods naturally'),
+          ('probabilistic', 'expressed as a chance rather than a certainty'),
+          ('search document', 'a report on a property obtained before '
+           'buying'),
+          ('sale particulars', 'the printed description of a property for '
+           'sale'),
+          ('warranty', 'a guarantee attached to work or property'),
+          ('conveyance', 'the legal transfer of a property'),
+          ('subsidise', 'to pay part of a cost for somebody else'),
+          ('concentrate', 'to fall more heavily on one group')],
+   expr=[('a letter with a page number gets a different answer',
+          'explains why precision changes a response'),
+         ('that is a question they have to answer and have not',
+          'identifies an unanswered obligation'),
+         ('it will be said out loud for the first time',
+          'names the value of forcing an answer'),
+         ('the standard case for regulating something',
+          'places an argument in a familiar category')],
+   trans=['the case for', 'the case against', 'therefore',
+          'that addresses'],
+  ),
+
+  dict(
+   sub='A warming record',
+   step=3,
+   read=[
+    dict(heading='What a hundred years of readings show',
+         kind='Data article',
+         task='Matching information and sentence completion',
+         band='gt_work', qtype='Questions 30-35',
+         figure=_WARM,
+         paras=[
+          'The chart shows two measures from a single weather station between '
+          '1900 and 2020, as ten-year means. One is the temperature anomaly, '
+          'which is the difference from a long-term average, shown here in '
+          'tenths of a degree. The other is a count: the number of days each '
+          'year above thirty degrees.',
+          'Both rise, and they do not rise in the same way. The anomaly moves '
+          'from minus 0.3 degrees in 1900 to plus 1.4 in 2020, a change of '
+          '1.7 degrees spread fairly evenly across the century, with a flat '
+          'period between 1940 and 1960. The count of hot days moves from '
+          'four to twenty-nine, and almost all of that movement is after '
+          '1980.',
+          'That difference in shape is the point of putting the two on one '
+          'chart. An average can move gently while the number of extreme days '
+          'moves sharply, because the count depends on how much of the '
+          'distribution sits above a fixed line. Shift a whole distribution a '
+          'little to the right and the part beyond the line grows far faster '
+          'than the middle moves.',
+          'This is why a public accustomed to hearing about a degree and a '
+          'half experiences something that feels much larger. The degree and '
+          'a half is the middle of the distribution. What people encounter is '
+          'the tail, and the tail has grown by a factor of seven at this '
+          'station while the mean moved by less than two degrees.',
+          'Two cautions belong with any single-station chart. The first is '
+          'that one station is weather and not climate; the pattern here '
+          'matches the regional record, which is why it is worth showing. The '
+          'second is that stations are affected by what is built around them, '
+          'and this one moved in 1964, which is visible as a small step in '
+          'the anomaly line and has been corrected for in the published '
+          'series.'],
+         items=[
+          ('The temperature anomaly in 2020 was',
+           ['minus 0.3°C', 'plus 0.9°C', 'plus 1.4°C', 'plus 2.9°C'], 2,
+           'Paragraph 2, against minus 0.3 in 1900.'),
+          ('Which paragraph explains why extreme days rise faster than the '
+           'average?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
+            'Paragraph 5'], 1,
+           'The count depends on how much of the distribution sits above a '
+           'fixed line.'),
+          ('Which paragraph gives reasons to be careful with one station?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 3,
+           'One station is weather, and the station moved in 1964.'),
+          ('The number of days above thirty degrees rose from four to '
+           '____________.', None, '29',
+           'Paragraph 2, with almost all of the change after 1980.'),
+          ('The writer says what people encounter is the ____________.',
+           None, 'tail',
+           'Paragraph 4, which has grown by a factor of seven.'),
+          ('The station moved in ____________, which has been corrected for.',
+           None, '1964',
+           'Paragraph 5, visible as a small step in the anomaly line.')])],
+   listen=[
+    dict(heading='A climatologist on the instrumental record', part='Part 4',
+         task='A lecture on temperature records', band='l4',
+         qtype='Questions 36-41',
+         figure=_WARM,
+         script=[
+          ('Lecturer', 'The chart in front of you is one weather station over '
+           'a hundred and twenty years, and I have chosen it because it shows '
+           'the single thing people find hardest to believe about warming, '
+           'which is that a small change in an average is a large change in '
+           'experience.'),
+          ('Lecturer', 'Two lines. The anomaly, which is how far the mean sits '
+           'from a long-term average, and a simple count of days above thirty '
+           'degrees. The anomaly moves about 1.7 degrees across the century. '
+           'The count goes from four days a year to twenty-nine.'),
+          ('Lecturer', 'Those are the same data. Nothing has been '
+           'exaggerated. The reason they look so different is arithmetic '
+           'about distributions. Temperature on a summer day is spread around '
+           'a mean, and thirty degrees is a fixed line some way out to the '
+           'right. Move the whole distribution a little and you move a lot of '
+           'days across that line, because that is where the curve is '
+           'steep.'),
+          ('Lecturer', 'This is why the public conversation and the '
+           'scientific one keep failing to meet. We report the mean, because '
+           'it is the stable measure and the one models predict. People '
+           'experience the tail, because that is what a heatwave is. Both are '
+           'describing the same change and the numbers sound unrelated.'),
+          ('Lecturer', 'Now two cautions about using any single station, and '
+           'I would make them about my own chart. One station is weather. It '
+           'is only worth showing because it matches the regional series; on '
+           'its own it would prove nothing, and you can find a station '
+           'somewhere that shows almost anything.'),
+          ('Lecturer', 'The second is that instruments and their surroundings '
+           'change. This station moved in 1964, and a move produces a step in '
+           'the record that looks exactly like a climate signal and is not. '
+           'Correcting for those is called homogenisation, it is tedious, it '
+           'is where most of the public accusations of fraud are aimed, and '
+           'it is also the reason the record can be trusted at all.'),
+          ('Lecturer', 'One last thing worth saying out loud. The count I '
+           'have shown you is days above thirty degrees, and thirty is a '
+           'line somebody chose. Pick thirty-two and the rise looks '
+           'steeper; pick twenty-eight and it looks gentler but begins '
+           'earlier. The threshold is a decision, it should be stated '
+           'whenever the chart is shown, and in most newspaper versions of '
+           'this chart it is not.')],
+         items=[
+          ('The lecturer chose this station to show that',
+           ['records are unreliable', 'a small change in an average is a '
+            'large change in experience', 'warming has stopped',
+            'stations disagree'], 1,
+           'Which he says people find hardest to believe.'),
+          ('The anomaly moves about',
+           ['0.7 degrees', '1.7 degrees', '2.9 degrees', '4 degrees'], 1,
+           'While the count of hot days goes from four to twenty-nine.'),
+          ('Why do the two measures look so different?',
+           ['Different instruments', 'Arithmetic about distributions',
+            'Different periods', 'One is estimated'], 1,
+           'Thirty degrees is a fixed line where the curve is steep.'),
+          ('Scientists report the mean because',
+           ['it is dramatic', 'it is stable and models predict it',
+            'it is easier to measure', 'the public asks for it'], 1,
+           'While people experience the tail, which is what a heatwave is.'),
+          ('He says a single station is only worth showing because',
+           ['it is well maintained', 'it matches the regional series',
+            'it is the oldest', 'it has no gaps'], 1,
+           'On its own it would prove nothing.'),
+          ('Correcting for station moves and changes is called',
+           ['calibration', 'homogenisation', 'smoothing', 'adjustment'], 1,
+           'Which he says is where most accusations of fraud are aimed.')])],
+   speak=dict(
+    part='Part 3', focus='Evidence about the climate',
+    intro=('Four or five sentences. Say once what a measurement does and does '
+           'not cover.'),
+    qs=['How do we know the climate is changing?',
+        'Why do some people not believe the evidence?',
+        'Should scientists explain their methods to the public?',
+        'What kind of evidence do people find convincing?'],
+    shape=[('answer', 'Mostly from very long records of ordinary '
+            'measurements.'),
+           ('support', 'Thousands of stations, some running for over a '
+            'century.'),
+           ('follow-up', 'And the corrections made to them are published, '
+            'which is the part critics attack.'),
+           ('support', 'What convinces people is usually not the average.'),
+           ('follow-up', 'It is the count of hot days, because that is what '
+            'they have lived through.')]),
+   write=[
+    dict(task='Task 1', fork='A',
+         heading='Two measures from one weather station',
+         prompt=('The graph below shows the temperature anomaly and the '
+                 'number of days above 30°C at one weather station between '
+                 '1900 and 2020. Summarise the information by selecting and '
+                 'reporting the main features, and make comparisons where '
+                 'relevant. Write at least 150 words.'),
+         figure=_WARM,
+         model=[
+          'The line graph compares two measures recorded at a single weather '
+          'station between 1900 and 2020: the temperature anomaly, shown in '
+          'tenths of a degree, and the number of days each year above thirty '
+          'degrees. Overall, both rise across the period, but they rise in '
+          'different shapes: the anomaly climbs fairly steadily, while almost '
+          'all of the increase in hot days occurs after 1980.',
+          'The anomaly begins at minus 0.3 degrees in 1900 and crosses zero '
+          'between 1920 and 1940. It then remains broadly flat for twenty '
+          'years, standing at zero in 1960, before rising continuously to '
+          'plus 0.4 in 1980, plus 0.9 in 2000 and plus 1.4 in 2020.',
+          'The count of hot days follows a very different path. It changes '
+          'hardly at all for the first eighty years, moving only between four '
+          'and seven days, and is still at six in 1960. From 1980 it rises '
+          'sharply, reaching eleven, then eighteen, and finally twenty-nine '
+          'by 2020.',
+          'The contrast is clearest over the final forty years. Between 1980 '
+          'and 2020 the anomaly rose by one degree, while the number of hot '
+          'days rose from eleven to twenty-nine, which is almost a '
+          'threefold increase over the same period.'],
+         notes=[
+          'The two series are on the same axes but are not the same kind of '
+          'thing, and the Overall statement says so by naming the difference '
+          'in shape. That is the main feature of this chart.',
+          'Each series gets a paragraph and each paragraph picks a turning '
+          'point: the flat period for the anomaly, the change at 1980 for the '
+          'count. Selecting the turn is what makes a description an answer.',
+          'The final paragraph compares the two over one stretch and gives '
+          'both the absolute and the proportional change. On a chart with '
+          'different units, proportion is often the only fair comparison.'],
+         criterion=[('An Overall statement naming the difference in shape',
+                     'Task Achievement'),
+                    ('A turning point selected for each series',
+                     'Coherence and Cohesion'),
+                    ('Comparing in proportion where the units differ',
+                     'Task Achievement')],
+         instruct='  Write at least 150 words in about 20 minutes.',
+         lines=14)],
+   gram=dict(
+    point='Comparing two series with different units',
+    explain=('When two lines share a chart but not a unit, you cannot say one '
+             'is higher than the other. You compare shapes, turning points '
+             'and proportions instead.'),
+    examples=['Both rise, but in different shapes.',
+              'Almost all of the increase occurs after 1980.',
+              'The anomaly rose by one degree while hot days almost '
+              'trebled.',
+              'It changes hardly at all for the first eighty years.'],
+    task='Rewrite each comparison so that it does not compare the values '
+         'directly.',
+    items=[('Hot days are higher than the anomaly.',
+            'The two are measured in different units and cannot be compared '
+            'directly in level.'),
+           ('Both lines go up.',
+            'Both measures rise across the period, though the anomaly does so '
+            'more evenly.'),
+           ('The anomaly changed by 1.7 and hot days by 25.',
+            'The anomaly rose by 1.7 degrees while hot days rose sevenfold.'),
+           ('Hot days changed suddenly.',
+            'The count of hot days is nearly flat until 1980 and rises '
+            'steeply thereafter.'),
+           ('They both end high.',
+            'Both finish at their highest recorded values, in 2020.')]),
+   vocab=[('anomaly', 'the difference from a long-term average'),
+          ('instrumental record', 'measurements taken by instruments over '
+           'time'),
+          ('homogenisation', 'correcting a record for changes in how it was '
+           'measured'),
+          ('tail', 'the extreme end of a range of values'),
+          ('heatwave', 'a period of unusually hot weather'),
+          ('ten-year mean', 'an average taken across a decade'),
+          ('station', 'a place where weather is measured'),
+          ('step', 'a sudden shift in a record caused by a change in '
+           'method')],
+   expr=[('those are the same data', 'insists two figures describe one '
+          'thing'),
+         ('nothing has been exaggerated', 'pre-empts an accusation'),
+         ('on its own it would prove nothing',
+          'limits what a single case shows'),
+         ('it is also the reason the record can be trusted at all',
+          'defends a disputed practice by its purpose')],
+   trans=['both rise', 'that difference', 'this is why', 'two cautions'],
+  ),
+
+  dict(
+   sub='Attributing one event',
+   step=4,
+   read=[
+    dict(heading='How a single flood is linked to a changing climate',
+         kind='Academic passage',
+         task='Matching headings, Yes/No/Not Given and summary completion',
+         band='acad', qtype='Questions 42-48',
+         paras=[
+          'For most of the past thirty years the standard answer to whether '
+          'climate change caused a particular storm was that no single event '
+          'can be attributed to it. That answer was correct when it was first '
+          'given and has been obsolete for about fifteen years, and it is '
+          'still the answer most often repeated. It survives because it was '
+          'taught to a generation of journalists as the responsible thing to '
+          'say, and because the alternative takes four sentences to explain '
+          'instead of one.',
+          'What changed was a method. Instead of asking whether an event was '
+          'caused by warming, which has no clear meaning for a single weather '
+          'system, researchers began asking how much more likely the event '
+          'had become. That question can be answered, and the answer is a '
+          'number with a range attached.',
+          'The method runs a climate model many times over, producing a large '
+          'set of simulated worlds that resemble the present one. It then '
+          'runs the same model again with the extra greenhouse gases removed, '
+          'producing a set of worlds resembling one that no longer exists. '
+          'The frequency of the event in question is counted in each set, and '
+          'the two frequencies are compared.',
+          'A result might be that rainfall of the observed intensity would '
+          'have occurred once in four hundred years without warming and now '
+          'occurs once in a hundred, making it four times more likely. '
+          'Expressed another way, roughly three quarters of the probability '
+          'of that event is attributable to the change in the atmosphere. Both '
+          'formulations describe the same calculation, and the second is the '
+          'one that tends to appear in a headline, because a fraction sounds '
+          'more like blame than a ratio does. Neither says the event would '
+          'not have happened without warming.',
+          'The method has limits and its practitioners are usually clearer '
+          'about them than its reporters are. It works far better for heat '
+          'than for rainfall, because models represent temperature well and '
+          'represent the small-scale physics of a downpour badly. It works '
+          'poorly for anything involving where a storm goes, as opposed to '
+          'how much water it carries. Nobody has yet found a way to attribute '
+          'the track of a storm, and it is not obvious that there is one to '
+          'find.',
+          'There is also a selection problem that is rarely mentioned. '
+          'Attribution studies are run on events that made the news, and '
+          'events make the news when they are severe and when they happen in '
+          'countries with the capacity to study them. The published set of '
+          'results is therefore not a random sample of extreme weather, and '
+          'nobody has yet tried to correct for that.',
+          'What the method genuinely delivers is a change in the shape of '
+          'public argument. A claim that cannot be checked has been replaced '
+          'by a number that can be disputed on its own terms, and disputes '
+          'about method are more productive than disputes about whether a '
+          'question is askable at all. A critic can now ask which model was '
+          'used, how many runs were made, and why the range is as wide as it '
+          'is, and each of those questions has an answer somewhere in a '
+          'supplementary file.',
+          'It also delivers something the courts have begun to use. A figure '
+          'of the form "four times more likely, with a range of two to nine" '
+          'is the kind of statement a legal system knows how to handle, and '
+          'several cases now turning on it would have been impossible to '
+          'bring under the older answer that no event can be attributed to '
+          'anything. Whether courts ought to decide such questions is a '
+          'separate argument, but they will no longer be prevented from doing '
+          'so by the absence of a number, because the number exists and is '
+          'improving each year.'],
+         items=[
+          ('Choose the best heading for paragraph 2.',
+           ['The old answer', 'A better question', 'How the method works',
+            'Where it works badly'], 1,
+           'Asking how much more likely an event has become, instead of '
+           'whether it was caused.'),
+          ('Choose the best heading for paragraph 3.',
+           ['A better question', 'How the method works',
+            'Where it works badly', 'Which events get studied'], 1,
+           'Running a model many times with and without the extra gases.'),
+          ('Choose the best heading for paragraph 6.',
+           ['Where it works badly', 'Which events get studied',
+            'What the method delivers', 'A use in the courts'], 1,
+           'Studies are run on events that made the news in countries able '
+           'to study them.'),
+          ('The writer believes no single event can be attributed to climate '
+           'change.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 calls that answer obsolete for about fifteen '
+           'years.'),
+          ('The writer believes attribution works equally well for all '
+           'kinds of weather.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5: far better for heat than for rainfall, and poorly '
+           'for storm tracks.'),
+          ('The method compares the frequency of an event in two sets of '
+           'simulated ____________.', None, 'worlds',
+           'Paragraph 3, one with the extra greenhouse gases and one '
+           'without.'),
+          ('Studies are run on events that made the ____________, which is '
+           'why the published set is not random.', None, 'news',
+           'Paragraph 6, and in countries with the capacity to study '
+           'them.')])],
+   listen=[
+    dict(heading='A lecture on attribution studies', part='Part 4',
+         task='A lecture on linking events to warming', band='l4',
+         qtype='Questions 49-54',
+         script=[
+          ('Lecturer', 'Somebody asks you after a flood whether climate '
+           'change caused it. For twenty years the correct answer was that '
+           'the question cannot be answered. That is no longer true and I '
+           'want to explain what replaced it.'),
+          ('Lecturer', 'The old answer was not evasion. "Did warming cause '
+           'this storm" is genuinely close to meaningless, in the way that '
+           '"did the loaded dice cause this six" is close to meaningless. The '
+           'six would sometimes have come up anyway.'),
+          ('Lecturer', 'But there is a question about loaded dice that is '
+           'perfectly answerable: how much more often do they produce a six? '
+           'That is the question attribution science asks. Not whether, but '
+           'how much more likely.'),
+          ('Lecturer', 'Mechanically, you run a model hundreds of times to '
+           'generate a set of worlds like the present one, and count how '
+           'often the event appears. Then you remove the extra greenhouse '
+           'gases from the model and run it hundreds of times again, and '
+           'count in that set. The ratio is your answer: four times more '
+           'likely, ten times, whatever it turns out to be.'),
+          ('Lecturer', 'Three limits, and my own field is bad at stating the '
+           'third. Heat attributions are reliable because models handle '
+           'temperature well. Rainfall is harder, because the physics of a '
+           'downpour happens at a scale below the model grid. And the events '
+           'we study are the ones that reach the news in countries that fund '
+           'this work, so our published results are a biased sample of the '
+           'world’s extreme weather and nobody has corrected for it.'),
+          ('Lecturer', 'What this has changed is not mainly scientific. It is '
+           'that a sentence like "four times more likely, range two to nine" '
+           'can be argued with, tested and used in a courtroom, and the old '
+           'answer could only be repeated. Giving people a number they can '
+           'attack turns out to be more useful than giving them a caution '
+           'they can only accept.'),
+          ('Lecturer', 'One practical note, because you will be asked '
+           'about it. These studies now appear within a week or two of an '
+           'event rather than two years later, and the speed is '
+           'deliberate: a number published while people are still arguing '
+           'changes the argument, and a number published in 2029 changes a '
+           'literature review. The fast studies are slightly less careful '
+           'than the slow ones, and their authors say so in the paper.')],
+         items=[
+          ('The lecturer says the old answer was',
+           ['evasion', 'not evasion but genuinely near meaningless',
+            'deliberately cautious', 'politically motivated'], 1,
+           'He compares it with asking whether loaded dice caused one '
+           'particular six.'),
+          ('The answerable question is',
+           ['whether warming caused it', 'how much more likely it has '
+            'become', 'when it will happen again', 'who is responsible'], 1,
+           'Not whether, but how much more likely.'),
+          ('The method removes from the model',
+           ['the oceans', 'the extra greenhouse gases', 'the clouds',
+            'the event itself'], 1,
+           'And counts the event’s frequency in both sets of runs.'),
+          ('Attribution is most reliable for',
+           ['rainfall', 'heat', 'storm tracks', 'drought'], 1,
+           'Because models handle temperature well.'),
+          ('Which limit does he say his field states badly?',
+           ['The heat limit', 'The rainfall limit',
+            'The biased sample of studied events', 'The model grid'], 2,
+           'Studies are run where the news and the funding are.'),
+          ('He says the main change is that a number can be',
+           ['believed', 'argued with and used in court', 'published faster',
+            'simplified'], 1,
+           'Where the old answer could only be repeated.')])],
+   speak=dict(
+    part='Part 3', focus='Linking causes and events',
+    intro=('Four or five sentences. Try once to replace a yes-or-no question '
+           'with a how-much question.'),
+    qs=['Can we say that climate change caused a particular storm?',
+        'Should scientists give simple answers to the public?',
+        'Who should pay for damage caused by extreme weather?',
+        'How certain does evidence have to be before a government acts?'],
+    shape=[('answer', 'Not caused, but we can say how much more likely it '
+            'became.'),
+           ('support', 'You compare how often the event appears in two '
+            'modelled worlds.'),
+           ('follow-up', 'One with the extra gases and one without.'),
+           ('support', 'That gives a ratio with a range attached.'),
+           ('follow-up', 'Which is a sentence a court can use, and the old '
+            'answer was not.')]),
+   write=[
+    dict(task='Task 2 · planning', fork=None,
+         heading='Spot the overlap in a nine-idea brainstorm',
+         prompt=('Rich countries should pay for climate damage in poorer '
+                 'ones. Brainstorm nine ideas, then brainstorm the opposite '
+                 'position, and mark everything that appears in both lists. '
+                 'Do not write the essay yet.'),
+         plan=('Payment is defensible on responsibility and indefensible as '
+               'charity, and the distinction decides the mechanism',
+               [('Responsibility can now be quantified, which charity never '
+                 'required',
+                 ['attribution gives a figure with a range',
+                  'emissions by country are measured and published']),
+                ('A payment framed as aid produces different institutions '
+                 'from one framed as liability',
+                 ['aid is discretionary and can be withdrawn',
+                  'liability is enforceable and survives a change of '
+                  'government'])]),
+         notes=[
+          'The overlap exercise is for finding what both sides concede. Here '
+          'it is usually large: both agree the damage is real, both agree '
+          'poorer countries emitted less, and both agree money currently '
+          'moves too slowly.',
+          'Everything in the overlap belongs in your introduction, where it '
+          'makes you sound fair, and nowhere else. A body paragraph arguing '
+          'something nobody disputes is a wasted paragraph.',
+          'What is left after the overlap is removed is usually narrower than '
+          'the prompt suggests: not whether to pay but on what basis, which '
+          'is the thesis above.'],
+         criterion=[('Identifying what both sides concede', 'Task Response'),
+                    ('Building body paragraphs on the genuine disagreement',
+                     'Coherence and Cohesion')],
+         instruct='  Produce both brainstorms, the overlap and the outline. '
+                  'You will write it in cycle 5.',
+         lines=12)],
+   gram=dict(
+    point='Replacing a yes-or-no question with a how-much question',
+    explain=('Many arguments stall because the question asked has no '
+             'answer. Converting it into a question of degree is often the '
+             'whole contribution a good essay makes.'),
+    examples=['Not whether warming caused it, but how much more likely it '
+              'became.',
+              'The question is not whether to act but how much and when.',
+              'That has no answer; this one does.',
+              'Rephrased as a matter of degree, the question becomes '
+              'testable.'],
+    task='Convert each question into one that can be answered.',
+    items=[('Did climate change cause this flood?',
+            'How much more likely did warming make a flood of this size?'),
+           ('Is immigration good for the economy?',
+            'How large is the measured effect, on whom, and over what '
+            'period?'),
+           ('Does this policy work?',
+            'How much does the outcome differ from comparable places without '
+            'the policy?'),
+           ('Is the evidence strong enough?',
+            'How much would we have to be wrong for the decision to change?'),
+           ('Are renewables cheaper?',
+            'Cheaper by how much, measured over what boundary, in which '
+            'system?')]),
+   vocab=[('ensemble', 'a large set of model runs taken together'),
+          ('simulation', 'a run of a model representing a possible world'),
+          ('greenhouse gas', 'a gas that traps heat in the atmosphere'),
+          ('likelihood', 'how probable something is'),
+          ('model grid', 'the scale at which a model divides the world'),
+          ('downpour', 'a short period of very heavy rain'),
+          ('press release', 'an announcement issued to journalists'),
+          ('testable', 'able to be checked against evidence')],
+   expr=[('that answer was correct when it was first given',
+          'dates a claim instead of dismissing it'),
+         ('not whether, but how much more likely',
+          'converts a question into one with an answer'),
+         ('its practitioners are usually clearer about them than its '
+          'reporters', 'locates a distortion outside the research'),
+         ('a number they can attack', 'defends precision by its usefulness')],
+   trans=['what changed', 'expressed another way', 'there is also',
+          'what the method delivers'],
+  ),
+
+  dict(
+   sub='What attribution cannot settle',
+   step=5,
+   read=[
+    dict(heading='The limits of a counterfactual world',
+         kind='Academic passage',
+         task='Matching information, Yes/No/Not Given and short answer',
+         band='acad', qtype='Questions 55-61',
+         paras=[
+          'Attribution science produces a sentence of a particular form: this '
+          'event was four times more likely than it would have been in a '
+          'world without the extra greenhouse gases. The sentence is '
+          'well-founded and it is doing something more complicated than it '
+          'appears, because the world it refers to does not exist and never '
+          'did. That is not a criticism. Every causal claim about a single '
+          'event rests on a comparison with something that did not happen, '
+          'and this field is unusual only in writing the comparison down and '
+          'putting a range on it.',
+          'A counterfactual world is constructed, not observed. It is the '
+          'output of a model run with one input changed, and it inherits '
+          'every assumption that model makes about clouds, oceans and the '
+          'small-scale behaviour of air. Two modelling groups given the same '
+          'task will produce different counterfactuals, and the spread '
+          'between them is part of why attribution results carry wide '
+          'ranges.',
+          'That is a technical limit and it is not the interesting one. The '
+          'deeper difficulty is that the counterfactual holds everything '
+          'except the greenhouse gases constant, including where people live '
+          'and what they have built. It therefore answers a question about '
+          'the atmosphere while the damage it is used to explain is produced '
+          'jointly by the atmosphere and by those decisions. A model asked what '
+          'the rainfall would have been in 1850 is not asked what the town '
+          'looked like in 1850, and the second question is where most of the '
+          'difference in damage lies.',
+          'Consider a flood that destroys two thousand homes on a floodplain '
+          'developed in the 1990s. Attribution may establish that the '
+          'rainfall was four times more likely because of warming. It cannot '
+          'establish what share of the damage is attributable to warming, '
+          'because the same rainfall over the same ground in 1960 would have '
+          'destroyed almost nothing. Both the rain and the houses are '
+          'necessary; neither is sufficient.',
+          'This matters because the figure is increasingly used where '
+          'responsibility is being allocated, and responsibility for damage '
+          'is not the same quantity as responsibility for weather. A '
+          'defensible claim about rainfall is routinely reported as a claim '
+          'about loss, and the two differ by every planning decision taken in '
+          'the intervening sixty years. The gap is not small. In several '
+          'well-studied floods the number of properties standing in the path '
+          'of the water has more than doubled since the 1970s, which on its '
+          'own would have raised the loss without a single extra millimetre '
+          'of rain.',
+          'None of this is an argument against attribution and its '
+          'practitioners make the same point in their own papers. The '
+          'distinction between hazard, exposure and vulnerability is standard '
+          'in the field: the rain is the hazard, the houses are the exposure, '
+          'and what those houses are made of is the vulnerability. '
+          'Attribution addresses the first and is quoted about all three.',
+          'There is a further consequence that cuts in an unexpected '
+          'direction. Because exposure has risen so sharply, the share of '
+          'damage attributable to development is larger in most recent '
+          'disasters than the share attributable to warming, and that is '
+          'true while warming is also making the hazard worse. Both '
+          'statements hold, and quoting either alone misleads.',
+          'The practical upshot is that attribution answers the question it '
+          'was built for and is being asked to settle an adjacent one. '
+          'Nothing is wrong with the science. What is missing is a second '
+          'number, for exposure, that nobody has an incentive to produce, '
+          'because it would assign responsibility to planning authorities '
+          'rather than to a distant and anonymous cause. That is an '
+          'unflattering explanation for a gap in a literature, and it is the '
+          'one that best fits where the gap actually is.'],
+         items=[
+          ('Which paragraph explains that counterfactual worlds differ '
+           'between modelling groups?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
+           'Which is part of why attribution results carry wide ranges.'),
+          ('Which paragraph gives the flood example?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 1,
+           'Two thousand homes on a floodplain developed in the 1990s.'),
+          ('Which paragraph names the three standard terms in the field?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
+           'Hazard, exposure and vulnerability.'),
+          ('The writer believes attribution science is unsound.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 6 says none of this is an argument against it and '
+           'practitioners say the same.'),
+          ('The writer believes warming is not making hazards worse.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 states that both hold at once.'),
+          ('In the writer’s terms, the rain is the hazard and the houses '
+           'are the ____________.', None, 'exposure',
+           'Paragraph 6, with vulnerability as what the houses are made '
+           'of.'),
+          ('What second number does the writer say is missing?', None,
+           'a number for exposure',
+           'The final paragraph, which nobody has an incentive to '
+           'produce.')])],
+   listen=[
+    dict(heading='Two climate scientists disagree', part='Part 4',
+         task='A recorded exchange', band='l4', qtype='Questions 62-67',
+         script=[
+          ('Chair', 'Dr Iwuchukwu runs attribution studies. Professor '
+           'Halloran-Baptiste works on disaster risk.'),
+          ('Halloran-Baptiste', 'Let me begin by saying what I am not '
+           'arguing, because this conversation usually goes wrong in the '
+           'first minute. I am not disputing the attribution results. I think '
+           'they are among the better-validated numbers in climate '
+           'science.'),
+          ('Iwuchukwu', 'Then we are starting further forward than usual.'),
+          ('Halloran-Baptiste', 'My objection is about what the number is '
+           'then asked to do. You tell me the rainfall was four times more '
+           'likely. The headline says the disaster was four times more '
+           'likely. Those are different sentences and only one of them is '
+           'yours.'),
+          ('Iwuchukwu', 'That is true and I will go further: we could stop '
+           'it and we have not. Our press releases say rainfall. Our '
+           'interviews say event. I have done it myself and I noticed '
+           'afterwards.'),
+          ('Halloran-Baptiste', 'Which brings me to the part I actually care '
+           'about. In most recent floods, the growth in exposure explains '
+           'more of the loss than the growth in hazard does. Both are rising. '
+           'Only one of them gets a number and a headline.'),
+          ('Iwuchukwu', 'May I push back on that? If you produce the '
+           'exposure figure, it will be used to argue that warming is not the '
+           'problem, which is not what you mean and is what will happen.'),
+          ('Halloran-Baptiste', 'That is the strongest objection and it is '
+           'the reason the number does not exist. I would still produce it. A '
+           'field that withholds a true number because it will be misused has '
+           'started making editorial decisions, and we are poorly placed to '
+           'make those.'),
+          ('Iwuchukwu', 'I think you are right and I notice I do not want '
+           'you to be.'),
+          ('Halloran-Baptiste', 'That is the most honest thing anybody has '
+           'said to me at one of these.'),
+          ('Halloran-Baptiste', 'And I would put the two numbers in one '
+           'sentence. Warming made this rainfall four times more likely; '
+           'development put three times as many houses in its path. '
+           'Anybody quoting half of that sentence is quoting me '
+           'dishonestly, and once I have said it in print I can point at '
+           'it.'),
+          ('Iwuchukwu', 'Then let us publish both numbers in the same paper, '
+           'with our names on it together, which makes the misuse harder and '
+           'costs us a Tuesday.')],
+         items=[
+          ('Halloran-Baptiste begins by saying he is not disputing',
+           ['the models', 'the attribution results', 'the funding',
+            'the terminology'], 1,
+           'He calls them among the better-validated numbers in the field.'),
+          ('His objection concerns the difference between',
+           ['models and observations', 'rainfall and disaster',
+            'heat and rain', 'science and policy'], 1,
+           'Only one of those two sentences belongs to the attribution '
+           'scientist.'),
+          ('What does Iwuchukwu admit about her own practice?',
+           ['Her models are wrong', 'Press releases say rainfall and '
+            'interviews say event', 'She avoids the press',
+            'She overstates ranges'], 1,
+           'And she says she has done it herself and noticed afterwards.'),
+          ('In recent floods, more of the loss is explained by',
+           ['growth in hazard', 'growth in exposure', 'poor warning',
+            'building materials'], 1,
+           'Though both hazard and exposure are rising.'),
+          ('Why does Iwuchukwu hesitate about publishing the exposure '
+           'figure?', ['It is unreliable', 'It would be used to argue '
+            'warming is not the problem', 'It is expensive',
+            'It is already known'], 1,
+           'Which Halloran-Baptiste calls the strongest objection.'),
+          ('What do they agree to do?',
+           ['Withhold the figure', 'Publish both numbers in one joint paper',
+            'Issue a correction', 'Change the press release only'], 1,
+           'Which he says makes the misuse harder and costs them a '
+           'Tuesday.')])],
+   speak=dict(
+    part='Part 3', focus='Responsibility for damage',
+    intro=('The hardest turn in the unit. Try once to say that two causes are '
+           'both necessary.'),
+    qs=['Who is responsible when a flood destroys homes?',
+        'Should building be allowed on land that may flood?',
+        'Is it fair to blame distant countries for local damage?',
+        'How should a government decide what to protect?'],
+    shape=[('answer', 'Both the weather and the decision to build '
+            'there.'),
+           ('support', 'The same rainfall in 1960 would have damaged almost '
+            'nothing.'),
+           ('follow-up', 'So the rain is necessary and not sufficient.'),
+           ('support', 'Attribution gives a figure for the rain only.'),
+           ('follow-up', 'And there is no equivalent figure for the '
+            'building, which is nobody’s accident.')]),
+   write=[
+    dict(task='Task 2', fork=None, wband='essay',
+         heading='Should rich countries pay for climate damage elsewhere?',
+         prompt=('Write the essay you planned in cycle 4. Some people believe '
+                 'wealthier countries should pay for climate damage in poorer '
+                 'ones. Discuss both views and give your own opinion. Write '
+                 'at least 250 words.'),
+         model=[
+          'Almost everybody in this argument agrees on more than they '
+          'suppose. Both sides accept that the damage is real, that the '
+          'countries suffering most emitted least, and that money currently '
+          'arrives late and in the wrong form. The disagreement is about the '
+          'basis on which it should be paid, and that turns out to decide '
+          'everything else.',
+          'The case for payment as compensation rests on something that has '
+          'recently become measurable. Emissions by country are published, '
+          'and attribution studies can now put a figure on how much more '
+          'likely a particular flood or heatwave was made by those '
+          'emissions. Responsibility of this kind is no longer a moral '
+          'intuition; it is a quantity with a range attached, which is '
+          'precisely what a legal claim requires.',
+          'The case against is not usually that nothing should be paid. It '
+          'is that compensation is the wrong instrument: the figures carry '
+          'wide uncertainties, the damage depends on local decisions about '
+          'where to build as much as on the weather, and a liability '
+          'framework invites decades of litigation while people need '
+          'sea walls now.',
+          'That objection has force, and it is an argument about mechanism '
+          'and not about whether to pay. My own position is that the basis '
+          'should be responsibility rather than generosity, because the two '
+          'produce different institutions. Aid is discretionary, is cut when '
+          'a donor’s politics change, and arrives as projects chosen by the '
+          'giver. An obligation survives a change of government.',
+          'What I would therefore support is an assessed contribution based '
+          'on historical emissions, paid into a fund the receiving countries '
+          'administer, with the attribution figures used to set the size of '
+          'the fund rather than to adjudicate individual claims. That keeps '
+          'what the science can support and avoids asking it to settle a '
+          'question it was not built for.'],
+         notes=[
+          'The first paragraph is the overlap exercise from cycle 4 turned '
+          'into prose. Naming the agreement first makes the disagreement '
+          'look small and precise, which is where you want it.',
+          'Paragraph 4 concedes that the objection has force and then '
+          'reclassifies it as being about mechanism. Accepting an argument '
+          'and moving it is stronger than answering it.',
+          'The conclusion separates two uses of the same number: setting the '
+          'size of a fund, and deciding individual claims. Distinguishing two '
+          'uses of one piece of evidence is a reliable way to end an essay '
+          'about contested science.'],
+         criterion=[('Opening on what both sides concede', 'Task Response'),
+                    ('Reclassifying an objection as being about mechanism',
+                     'Task Response'),
+                    ('Separating two uses of the same evidence',
+                     'Coherence and Cohesion')],
+         instruct='  Write at least 250 words in 40 minutes, from your '
+                  'outline.',
+         lines=18)],
+   gram=dict(
+    point='Saying that two causes are both necessary',
+    explain=('Where an outcome needs two things at once, English has to say '
+             'so carefully, or a reader hears you choosing one. These '
+             'patterns hold both.'),
+    examples=['Both the rain and the houses are necessary; neither is '
+              'sufficient.',
+              'The damage is produced jointly by the atmosphere and by '
+              'planning decisions.',
+              'Both statements hold, and quoting either alone misleads.',
+              'The same rainfall in 1960 would have destroyed almost '
+              'nothing.'],
+    task='Rewrite each claim so that both causes are held together.',
+    items=[('The flood was caused by climate change.',
+            'The flood required both unusually heavy rain and two thousand '
+            'houses built on a floodplain.'),
+           ('Building on floodplains is the real problem.',
+            'Exposure explains much of the loss, in a period when the hazard '
+            'is also rising.'),
+           ('The storm destroyed the town.',
+            'The storm and the town’s location together produced the '
+            'damage.'),
+           ('Warming is to blame.',
+            'Warming made the event more likely; what it cost depended on '
+            'what had been built.'),
+           ('Planning failures caused this.',
+            'Planning decisions and a changed atmosphere are both necessary '
+            'parts of the explanation.')]),
+   vocab=[('counterfactual', 'a description of what would have happened '
+           'otherwise'),
+          ('hazard', 'the dangerous event itself'),
+          ('exposure', 'what is in the way of a hazard'),
+          ('vulnerability', 'how badly something is damaged when hit'),
+          ('necessary', 'required for something to happen'),
+          ('litigation', 'the process of taking a case to court'),
+          ('discretionary', 'given at the giver’s choice'),
+          ('assessed contribution', 'a payment calculated by a fixed rule')],
+   expr=[('Let me begin by saying what I am not arguing',
+          'prevents a predictable misreading'),
+         ('we could stop it and we have not',
+          'admits an avoidable failure'),
+         ('I think you are right and I notice I do not want you to be',
+          'concedes against inclination'),
+         ('costs us a Tuesday', 'minimises the price of doing the right '
+          'thing')],
+   trans=['consider', 'this matters because', 'none of this',
+          'the practical upshot'],
+  ),
+ ],
+ technique=dict(
+  title='A combined chart: which dimension structures the answer',
+  body=('A combined chart puts two different measures on one set of axes, '
+        'usually because the writer wants you to see a relationship. For Task '
+        '1 that creates a choice nobody tells you about: you can structure '
+        'your answer by series, giving each line a paragraph, or by period, '
+        'walking both lines through the same stretches of time. Series is '
+        'right when the two behave differently, which is most of the time. '
+        'Period is right when the story is a turning point they share. Decide '
+        'in the first thirty seconds, write the choice at the top of your '
+        'page, and do not change your mind halfway down.'),
+  panel=[('Count the units', 'Two measures, two units, and often two axes. '
+          'You cannot say one is higher than the other, only that they move '
+          'differently.'),
+         ('Series or period', 'Different shapes means structure by series. A '
+          'shared turning point means structure by period. Choose once.'),
+         ('Find the divergence', 'The reason both are on one chart is usually '
+          'that they stop agreeing somewhere. That stretch is your best '
+          'paragraph.'),
+         ('Compare in proportion', 'With different units, the honest '
+          'comparison is proportional: this rose by half while that '
+          'trebled.')],
+  task='Take the chart in cycle 3. Write the structuring choice you would '
+       'make and why, then write the Overall statement each choice would '
+       'produce.',
+  qs=['What does each axis measure, and in what units?',
+      'Do the two series have the same shape or different shapes?',
+      'Which structure did you choose, and what decided it?',
+      'Where do the two series diverge most?',
+      'Write one proportional comparison between them.']),
+ outlining=dict(
+  title='Spot the overlap in a nine-idea brainstorm',
+  body=('Brainstorm your position, then brainstorm the position you are '
+        'arguing against as though you held it, then mark everything that '
+        'appears on both lists. That overlap is what nobody disputes. It '
+        'belongs in your introduction, where conceding it makes you sound '
+        'fair and costs you nothing, and it must not appear in a body '
+        'paragraph, where it would be arguing with nobody. What survives the '
+        'deletion is the actual disagreement, and it is usually smaller, '
+        'sharper and easier to write about than the prompt made it look.'),
+  frame=('Payment is defensible on responsibility and indefensible as '
+         'charity, and the distinction decides the mechanism',
+         [('Responsibility can now be quantified, which charity never '
+           'required',
+           ['attribution gives a figure with a range',
+            'emissions by country are measured and published']),
+          ('A payment framed as aid produces different institutions from one '
+           'framed as liability',
+           ['aid is discretionary and can be withdrawn',
+            'an obligation survives a change of government'])]),
+  task='Do both brainstorms for the cycle 4 prompt, mark the overlap, and '
+       'write the one sentence that states what is genuinely in dispute.',
+  qs=['Which claims appeared on both lists?',
+      'Where will those claims go in your essay?',
+      'What is left once the overlap is removed?',
+      'Is the remaining disagreement about ends or about means?'],
+  answers=['usually that the damage is real and that the poorest emitted '
+           'least',
+           'the introduction, in one sentence, and nowhere else',
+           'the basis for payment: responsibility or generosity',
+           'almost always means, which is why the prompt felt harder than it '
+           'is']),
+ candos=['I can read a notice for who is responsible for what',
+         'I can choose between structuring a combined chart by series or by '
+         'period',
+         'I can compare two series proportionally when the units differ',
+         'I can convert a yes-or-no question into a how-much question',
+         'I can hold two necessary causes together in one sentence'],
+ tip=('On a combined chart, write "by series" or "by period" at the top of '
+      'your page before you write a word of the answer. Changing structure '
+      'halfway through costs more marks than either choice could.'),
+)
