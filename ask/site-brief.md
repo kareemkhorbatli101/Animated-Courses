@@ -9,7 +9,7 @@ Interactive courses that run in the browser - English for work, accounting, and 
 
 ## The courses
 
-There are 6 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
+There are 7 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
 
 ### Al-Hasan International — English for Trade & Industry
 
@@ -92,6 +92,19 @@ Study skills, career pathways, writing a report and the conversation skills a de
 - Teacher key
 
 Opens at: cybersecurity/b1/index.html
+
+### English for Auto Maintenance
+
+Level and subject: B1 · The service department
+
+The parts of a car, the people who work on it, the paper that records the job and the talk that holds it together. Unit 1 is complete, and every section has an acted 3D lesson by the same five people.
+
+- Unit 1
+- 21 screens
+- 54 cards
+- Arabic support
+
+Opens at: eam/b1/index.html
 
 ## The video player, which is not a course either
 
