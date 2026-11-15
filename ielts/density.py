@@ -47,7 +47,9 @@ P = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(P)
 
 # gated: a property of English, so the TOEFL window transfers
-GATED = dict(k1=(64.5, 67.0), beyond=(18.5, 21.5))
+GATED_BY_VOL = {3: dict(k1=(66.0, 68.5), beyond=(16.0, 19.0)),
+                4: dict(k1=(64.5, 67.0), beyond=(18.5, 21.5))}
+GATED = GATED_BY_VOL[4]
 # reported only: calibrated on another series' genre, so provisional here
 PROVISIONAL = dict(sent=(24.0, 26.5), nominal=(5.0, 6.5))
 # where each TOEFL volume's window sits, for locating the prose on the ladder
@@ -79,7 +81,8 @@ def _load(name):
 
 def texts(vol=4, bands=('acad', 'long')):
     out, paper = [], []
-    for n in range(31, 41):
+    lo = 21 if vol == 3 else 31
+    for n in range(lo, lo + 10):
         m = _load('u%02d' % n)
         if m is None:
             continue
@@ -121,9 +124,12 @@ def rung(got):
 
 
 def main():
+    global GATED
+    vol = int(sys.argv[1]) if len(sys.argv) > 1 else 4
+    GATED = GATED_BY_VOL[vol]
     R = P.ranks()
-    units, paper = texts()
-    print('DENSITY - IELTS Volume 4\n')
+    units, paper = texts(vol)
+    print('DENSITY - IELTS Volume %d\n' % vol)
     print('GATED (vocabulary: a property of English, measured on the shared')
     print('word-rank ladder)\n')
     head = ('%-24s %8s %8s %9s   %s'
@@ -156,7 +162,7 @@ def main():
     for name, got in keep.items():
         print('%-24s %11.1f %9.1f%%   %s'
               % (name, got['sent'], got['nominal'], rung(got)))
-    print('\nProvisional Volume 4 window: sent %.1f-%.1f  nominal %.1f-%.1f'
+    print('\nProvisional window: sent %.1f-%.1f  nominal %.1f-%.1f'
           % (PROVISIONAL['sent'] + PROVISIONAL['nominal']))
     print('To validate it, measure the same two numbers on a set of official '
           'Cambridge\nAcademic passages and replace the window with what '

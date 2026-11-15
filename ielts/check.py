@@ -11,13 +11,34 @@ import importlib
 import re
 import sys
 
-# Volume 4 bands, from section 9.2 of the plan.
-BANDS = {
-    'gt_short': (180, 260), 'gt_work': (280, 380), 'long': (480, 640),
-    'acad': (620, 800), 'l1': (260, 340), 'l2': (280, 360),
-    'l3': (330, 400), 'l4': (380, 460), 'model': (150, 320),
-    'essay': (260, 430),
+# Per-volume text bands, from section 9.2 of the plan. A volume's texts are
+# shorter and its scripts slower than the volume above it, and the ladder is
+# the whole promise of the series, so it is gated rather than intended.
+BANDS_BY_VOL = {
+    3: {'gt_short': (150, 240), 'gt_work': (250, 340), 'long': (420, 560),
+        'acad': (600, 760), 'l1': (240, 320), 'l2': (250, 330),
+        'l3': (300, 380), 'l4': (350, 430), 'model': (140, 300),
+        'essay': (240, 390)},
+    4: {'gt_short': (180, 260), 'gt_work': (280, 380), 'long': (480, 640),
+        'acad': (620, 800), 'l1': (260, 340), 'l2': (280, 360),
+        'l3': (330, 400), 'l4': (380, 460), 'model': (150, 320),
+        'essay': (260, 430)},
 }
+
+
+def vol_of(n):
+    """Which volume a unit number belongs to."""
+    return 3 if 21 <= n <= 30 else 4
+
+
+# the module-level name the rest of this file uses; set per unit as it runs
+BANDS = BANDS_BY_VOL[4]
+
+# the timed Reading paper: per passage, and for the paper as a whole. The
+# real Academic paper runs 2,150-2,750 words; a volume below the target band
+# sits at the bottom of that range and reaches it at Volume 5.
+PAPER_BY_VOL = {3: dict(passage=(620, 820), total=(1950, 2350)),
+                4: dict(passage=(700, 950), total=(2150, 2750))}
 MIN_WHY = 30            # an explanation shorter than this explains nothing
 MAX_UNTAUGHT = 14       # untaught word types in one academic passage
 
@@ -45,7 +66,9 @@ def _items_ok(items, tag, n_lo, n_hi, out):
 
 
 def check_unit(U, out, heads):
+    global BANDS
     n = U['n']
+    BANDS = BANDS_BY_VOL[vol_of(n)]
     tag = 'u%d' % n
     cyc = U['cycles']
     if len(cyc) != 5:
@@ -139,6 +162,8 @@ def check_numbering(U, out):
 
 
 def check_paper(P, out):
+    global BANDS
+    BANDS = BANDS_BY_VOL[P['vol']]
     """The timed paper: shape, length, numbering and answer spread."""
     tag = 'paper%s' % P['vol']
     ps = P['passages']
@@ -148,9 +173,10 @@ def check_paper(P, out):
     nxt = 1
     for x in ps:
         w = sum(len(t.split()) for t in x['paras'])
-        if not 700 <= w <= 950:
-            out.append('%s p%d "%s": %d words, want 700-950'
-                       % (tag, x['no'], x['heading'][:28], w))
+        plo, phi = PAPER_BY_VOL[P['vol']]['passage']
+        if not plo <= w <= phi:
+            out.append('%s p%d "%s": %d words, want %d-%d'
+                       % (tag, x['no'], x['heading'][:28], w, plo, phi))
         if x['first'] != nxt:
             out.append('%s p%d starts at %d, want %d'
                        % (tag, x['no'], x['first'], nxt))
@@ -170,9 +196,10 @@ def check_paper(P, out):
     if total != 40:
         out.append('%s: %d questions in total, want 40' % (tag, total))
     words = sum(sum(len(t.split()) for t in x['paras']) for x in ps)
-    if not 2150 <= words <= 2750:
-        out.append('%s: %d words in total, want 2150-2750 (the real range)'
-                   % (tag, words))
+    tlo, thi = PAPER_BY_VOL[P['vol']]['total']
+    if not tlo <= words <= thi:
+        out.append('%s: %d words in total, want %d-%d'
+                   % (tag, words, tlo, thi))
     spread = set()
     for x in ps:
         for it in x['items']:
@@ -184,6 +211,8 @@ def check_paper(P, out):
 
 def check_lpaper(L, out):
     """The timed Listening paper: four parts, ten questions each, 1-40."""
+    global BANDS
+    BANDS = BANDS_BY_VOL[L['vol']]
     tag = 'lpaper%s' % L['vol']
     parts = L['parts']
     if len(parts) != 4:
@@ -215,6 +244,33 @@ def check_lpaper(L, out):
         out.append('%s: %d questions in total, want 40' % (tag, total))
 
 
+def seam(heads, ns, out):
+    """A head word taught in one volume must not be re-taught in another.
+
+    Within a volume check_unit already forbids repeats. This catches the
+    seam between volumes, where a student who has done Volume 3 would
+    otherwise meet the same word presented as new in Volume 4.
+    """
+    this = vol_of(ns[0])
+    for other in sorted(BANDS_BY_VOL):
+        if other == this:
+            continue
+        theirs = {}
+        for n in range(21 if other == 3 else 31, 31 if other == 3 else 41):
+            try:
+                m = importlib.import_module('content.u%02d' % n)
+            except ModuleNotFoundError:
+                continue
+            importlib.reload(m)
+            for c in m.UNIT['cycles']:
+                for w, _ in c['vocab']:
+                    theirs.setdefault(w, n)
+        for w, where in sorted(heads.items()):
+            if w in theirs:
+                out.append('seam: "%s" taught in unit %s and again in unit %d '
+                           '(Volume %d)' % (w, where, theirs[w], other))
+
+
 def main(argv):
     spec = argv[0] if argv else '31-40'
     a, _, b = spec.partition('-')
@@ -230,16 +286,18 @@ def main(argv):
         got += 1
         check_unit(m.UNIT, out, heads)
         check_numbering(m.UNIT, out)
+    if got:
+        seam(heads, list(ns), out)
     npaper = 0
     try:
-        pm = importlib.import_module('content.paper4')
+        pm = importlib.import_module('content.paper%d' % vol_of(ns[0]))
         importlib.reload(pm)
         check_paper(pm.PAPER, out)
         npaper += 1
     except ModuleNotFoundError:
         pass
     try:
-        lm = importlib.import_module('content.lpaper4')
+        lm = importlib.import_module('content.lpaper%d' % vol_of(ns[0]))
         importlib.reload(lm)
         check_lpaper(lm.LPAPER, out)
         npaper += 1

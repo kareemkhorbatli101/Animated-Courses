@@ -18,8 +18,19 @@ import charts
 import diagrams
 import frames as F
 
-VOLS = {4: dict(units=range(31, 41), level='B2', band='6.5',
+VOLS = {3: dict(units=range(21, 31), level='B1+', band='6.0',
+                cefr='B1+', title='Volume 3'),
+        4: dict(units=range(31, 41), level='B2', band='6.5',
                 cefr='B2', title='Volume 4')}
+
+# what the band on the cover is actually for, per volume
+BAND_IS_FOR = {
+    '6.0': 'which is the score most undergraduate courses and most skilled '
+           'visa routes ask for, and the band at which a candidate stops '
+           'guessing and starts choosing',
+    '6.5': 'which is the score most postgraduate courses ask for, and the '
+           'one most candidates miss by half a band in a single section',
+}
 SKILL_COL = {'reading': D_BLUE, 'listening': D_AMBER,
              'speaking': D_TEAL, 'writing': D_PLUM}
 STEP = {1: 'See it', 2: 'See it fail', 3: 'With the frame',
@@ -266,12 +277,13 @@ def front_matter(d, vol, cfg, units):
     d.cefr("Student's Book with Practice Test %s · Academic and General "
            'Training in one book' % vol)
     d.blank()
-    d.body_p('This volume prepares candidates for band %s, which is the score '
-             'most postgraduate courses ask for. It carries both modules, '
+    d.body_p('This volume prepares candidates for band %s, %s. It carries '
+             'both modules, '
              'because Academic and General Training are one test with two '
              'substitutions: Listening and Speaking are identical, the eleven '
              'reading question types are identical, and only Writing Task 1 '
-             'genuinely forks.' % band)
+             'genuinely forks.' % (band, BAND_IS_FOR.get(band, 'the band '
+                                   'this volume targets')))
     d.body_p('Every unit is one general theme and every cycle is one sub-topic '
              'inside it, taken through all four skills in the order read, '
              'listen, speak, write. Nobody produces a pattern they have not '
@@ -625,19 +637,31 @@ def expression_bank(d, vol, units):
         d.page_break_section()
 
 
-BLURB = [
-    'The volume for band 6.5 — the score most postgraduate courses ask for,',
-    'and the one most candidates miss by half a band in a single section.',
-    'Academic and General Training in one book, because they are one test',
-    'with two substitutions.',
-]
-BULLETS = [
-    'Every task type, five times in every unit, both modules throughout',
-    'Academic passages of 620 to 780 words, longer than the real paper',
-    'A reading method that states its own cost in minutes, and proves it',
-    'Grammar and vocabulary taught inside the cycle whose texts use them',
-    'Band descriptors and score tables, with what they can and cannot tell you',
-]
+BLURB_BY_VOL = {
+    3: ['The volume for band 6.0 — the score most undergraduate courses and',
+        'most skilled visa routes ask for, and the band at which a candidate',
+        'stops guessing and starts choosing. Academic and General Training in',
+        'one book, because they are one test with two substitutions.'],
+    4: ['The volume for band 6.5 — the score most postgraduate courses ask '
+        'for,',
+        'and the one most candidates miss by half a band in a single section.',
+        'Academic and General Training in one book, because they are one test',
+        'with two substitutions.'],
+}
+BULLETS_BY_VOL = {
+    3: ['Every task type, five times in every unit, both modules throughout',
+        'Academic passages of 600 to 760 words, at the length of the real '
+        'paper',
+        'The reading method taught at 125 to 140 words a minute, and measured',
+        'Grammar and vocabulary taught inside the cycle whose texts use them',
+        'A full timed Reading paper and a full timed Listening paper'],
+    4: ['Every task type, five times in every unit, both modules throughout',
+        'Academic passages of 620 to 780 words, longer than the real paper',
+        'A reading method that states its own cost in minutes, and proves it',
+        'Grammar and vocabulary taught inside the cycle whose texts use them',
+        'Band descriptors and score tables, with what they can and cannot '
+        'tell you'],
+}
 
 
 def build(vol, out=None):
@@ -676,7 +700,7 @@ def build(vol, out=None):
     audio_scripts(d, vol, units)
     glossary(d, vol, units)
     expression_bank(d, vol, units)
-    d.figure(*F.cover_back(vol, BLURB, BULLETS,
+    d.figure(*F.cover_back(vol, BLURB_BY_VOL[vol], BULLETS_BY_VOL[vol],
                            ['%d  %s' % (u['n'], u['theme']) for u in units]),
              cover=True)
     out = out or ('/home/user/Animated-Courses/IELTS_2026_B2_Volume_%d.docx' % vol)
