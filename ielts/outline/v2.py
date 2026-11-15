@@ -441,7 +441,7 @@ L('An engineer on the grid', 'Part 4 - lecture',
   ], 'Two pie charts: grouping slices that behave alike',
      'The six tests, applied to someone else brainstorm',
      'Wordlist, grammar reference, expression bank, the unit quiz'),
- U(7, 'Art and Design', [
+ U(7, 'Design and How It Is Judged', [
    C('Entering a competition',
      [R('The Marchfield Open - rules of entry', 'competition notice', 200,
         'matching features; short answer'),
@@ -659,7 +659,7 @@ L('Two journalists on reporting a study', 'Part 3 - discussion',
      'Passage to outline, then the one-minute spoken version',
      'Wordlist, grammar reference, expression bank, the unit quiz'),
 
- U(10, 'Music and Performance', [
+ U(10, 'Recorded Music and Live Performance', [
    C('Hiring a venue',
      [R('Riverside Hall - hire rates and conditions', 'hire information', 200,
         'table completion; matching features'),

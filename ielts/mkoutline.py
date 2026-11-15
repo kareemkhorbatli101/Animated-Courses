@@ -90,6 +90,7 @@ def build():
 
 def check():
     problems, rows = [], []
+    themes = {}
     for key, name, cefr, band in BOOKS:
         units = load(key)
         if not units:
@@ -138,6 +139,12 @@ def check():
                 for f in ('gram', 'vocab', 'expr', 'trans'):
                     if not c[f]:
                         problems.append('%s cycle "%s": no %s' % (tag, c['sub'], f))
+            # two units carrying the same title is a contents-page defect
+            # even when their cycles share nothing
+            if u['theme'] in themes:
+                problems.append('%s: theme "%s" already used by %s'
+                                % (tag, u['theme'], themes[u['theme']]))
+            themes[u['theme']] = tag
             rows.append((tag, u['theme'], len(cyc), reads, lists,
                          len(parts), len(sparts)))
     print('%-8s %-38s %3s %3s %3s %3s %3s' %

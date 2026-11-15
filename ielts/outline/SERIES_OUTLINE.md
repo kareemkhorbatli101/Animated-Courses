@@ -2365,7 +2365,7 @@
 
 **Strands** — technique: Two pie charts: grouping slices that behave alike · outlining: The six tests, applied to someone else brainstorm · review: Wordlist, grammar reference, expression bank, the unit quiz
 
-### Unit 7 · Art and Design
+### Unit 7 · Design and How It Is Judged
 
 **Cycle 1 — Entering a competition**  
 
@@ -2562,7 +2562,7 @@
 
 **Strands** — technique: Maps again: parallel order across the two plans · outlining: Passage to outline, then the one-minute spoken version · review: Wordlist, grammar reference, expression bank, the unit quiz
 
-### Unit 10 · Music and Performance
+### Unit 10 · Recorded Music and Live Performance
 
 **Cycle 1 — Hiring a venue**  
 
