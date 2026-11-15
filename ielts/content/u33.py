@@ -58,7 +58,7 @@ UNIT = dict(
            ['excusal', 'deferral', 'payment at a higher rate',
             'release after two days'], 1,
            'Paragraph 3 lists it with being busy and on holiday, explicitly as '
-           'deferral rather than excusal.'),
+           'deferral, not an excusal.'),
           ('How many times may service be deferred?',
            ['Once', 'Twice', 'As often as necessary', 'It cannot be deferred'],
            0, 'Paragraph 3: granted once only, within the following twelve '
@@ -190,8 +190,8 @@ UNIT = dict(
            'defendant have no way of knowing what you read or whether it was '
            'true, and the whole arrangement depends on everyone deciding from '
            'the same material. People have been prosecuted for this, and in '
-           'every case I am aware of they were being conscientious rather '
-           'than malicious.')],
+           'every case I am aware of they were being conscientious, not '
+           'malicious.')],
          items=[
           ('The usher says jurors may be called',
            ['on the first morning', 'within three days',
@@ -212,7 +212,7 @@ UNIT = dict(
            ['It wastes time', 'The information is usually wrong',
             'Others cannot know what was read or whether it was true',
             'It is against court rules'], 2,
-           'He gives the reason rather than the rule: everyone must decide '
+           'He gives the reason instead of the rule: everyone must decide '
            'from the same material.')])],
    speak=dict(
     part='Part 1', focus='Rules and the people who make them',
@@ -384,13 +384,13 @@ UNIT = dict(
            'prosecutor who wants a judge-only trial simply has to make the '
            'case complicated, and complexity is largely within the '
            'prosecution’s control.'),
-          ('Nakamura', 'That is a fair point about incentives and it does not '
+          ('Nakamura', 'I had not considered the incentives and it does not '
            'answer the eleven weeks.'),
           ('Oyelaran', 'No, but it changes who should fix it. The answer to a '
            'case a jury cannot follow is a case presented better, not a '
            'different tribunal. We manage it in medical negligence, where the '
            'material is at least as technical, by making the experts explain '
-           'themselves rather than by removing the jury.'),
+           'themselves, with the jury left where it is.'),
           ('Nakamura', 'Medical negligence is mostly civil, and the standard '
            'of proof is different. You are comparing instruments.'),
           ('Oyelaran', 'Accepted, and I would still rather reform the '
@@ -459,10 +459,9 @@ UNIT = dict(
             'disagreed to say why.')]),
    write=[
     dict(task='Task 2', fork=None, wband='essay',
-         heading='Should serious cases be decided by judges rather than '
-                 'juries?',
+         heading='Should judges decide serious cases instead of juries?',
          prompt=('Some people believe that complex criminal cases should be '
-                 'decided by judges rather than by juries. Others argue that '
+                 'decided by judges instead of by juries. Others argue that '
                  'the jury is an essential protection. Discuss both views and '
                  'give your own opinion. Write at least 250 words.'),
          model=[
@@ -607,7 +606,7 @@ UNIT = dict(
           'burglary will rise even if every individual case is treated exactly '
           'as it would have been twenty years earlier. Part of the increase '
           'visible in this chart is therefore a change in what is being '
-          'measured rather than a change in judicial behaviour.',
+          'measured, with judicial behaviour unchanged beneath it.',
           'The fall in robbery sentences has a different explanation again, '
           'and one that illustrates the same difficulty. The category contains '
           'a wide range of conduct, from armed robbery to a bag snatched in '
@@ -671,7 +670,7 @@ UNIT = dict(
            'almost every sentence you could write about it is capable of being '
            'wrong in an interesting way.'),
           ('Lecturer', 'Start with what is solid. The numbers are accurate. '
-           'They come from administrative records rather than a survey, so '
+           'They come from administrative records instead of a survey, so '
            'there is no sampling error, no non-response, and nothing to '
            'weight. If the chart says the average was eighteen months, the '
            'average was eighteen months. That is unusual in social science and '
@@ -798,7 +797,7 @@ UNIT = dict(
           'twenty months to eleven over the period.'],
          notes=[
           'The data are two-dimensional — offence by year — and the answer is '
-          'structured by behaviour rather than by either axis: the three that '
+          'structured by behaviour, which cuts across both axes: the three that '
           'rose, then the one that fell. That grouping is the Overall '
           'statement made visible.',
           'No number appears without a description. Delete every figure and '
@@ -1013,7 +1012,7 @@ UNIT = dict(
            'years past the peak is incapacitating somebody who would probably '
            'have stopped anyway, at full cost.'),
           ('Lecturer', 'So why does policy move the other way? Here is my '
-           'answer, and it is about institutions rather than people. '
+           'answer, and it is about institutions, not people. '
            'Increasing certainty means more detectives, better forensics and '
            'faster courts. It is expensive, it takes a decade, and nobody can '
            'see it. Increasing severity means amending a schedule. It is '
@@ -1022,7 +1021,8 @@ UNIT = dict(
            'the system was shaped to produce.'),
           ('Lecturer', 'The sentence I would like you to be able to write by '
            'the end of this term is that a policy failure of this kind is '
-           'usually a design feature of the institution rather than a mistake '
+           'usually a design feature of the institution, traceable to how it was '
+           'built and not to a mistake '
            'by an individual in it.')],
          items=[
           ('The lecturer says the research literature has been clear for about',
@@ -1057,8 +1057,8 @@ UNIT = dict(
    speak=dict(
     part='Part 3', focus='Punishment and prevention',
     intro=('Four or five sentences, and concede at least once. An answer that '
-           'gives no ground on a question like this sounds prepared rather '
-           'than thought about.'),
+           'gives no ground on a question like this sounds prepared, not '
+           'thought about.'),
     qs=['Do you think longer prison sentences reduce crime?',
         'What else could a government do to prevent offending?',
         'Should the public have a say in how long sentences are?',
@@ -1070,15 +1070,15 @@ UNIT = dict(
             'costs you nothing in advance.'),
            ('support', 'That said, prison does prevent offending while '
             'somebody is inside.'),
-           ('follow-up', 'So the argument is about proportion rather than '
-            'about whether prison works at all.')]),
+           ('follow-up', 'So the argument is about proportion, not about '
+            'whether prison works at all.')]),
    write=[
     dict(task='Task 2 · planning', fork=None,
          heading='Brainstorm and outline: should sentences be longer for '
                  'repeat offences?',
          prompt=('Some people argue that repeat offenders should receive '
                  'substantially longer sentences. Others say this punishes '
-                 'people for their past rather than their present offence. Do '
+                 'people for their past instead of their present offence. Do '
                  'not write the essay yet. Brainstorm, then build the outline '
                  'below using the six tests.'),
          plan=('Longer sentences for repeat offences are defensible only on '
@@ -1091,7 +1091,7 @@ UNIT = dict(
                   'a sentence past the peak buys little at full cost'])]),
          notes=[
           'Both ideas answer the question asked — whether longer sentences for '
-          'repeat offences are justified — rather than the general topic of '
+          'repeat offences are justified — and not the general topic of '
           'sentencing.',
           'They are distinct because they rest on different grounds: one is '
           'about whether the policy achieves its stated aim, the other about '
@@ -1142,7 +1142,7 @@ UNIT = dict(
           ('condemnation', 'public expression of disapproval'),
           ('salient', 'standing out and easily noticed')],
    expr=[('sounds obviously true and turns out to be partly false',
-          'sets up a claim you intend to qualify rather than reject'),
+          'sets up a claim you intend to qualify, not reject'),
          ('it is worth being careful here',
           'limits your own argument before an opponent does'),
          ('the instrument that works is the one that is hard to deliver',
@@ -1175,7 +1175,7 @@ UNIT = dict(
           'than the offence merits is unjust even if it would prevent future '
           'offending. Retribution is the only one of the four purposes that is '
           'backward-looking, and it is the only one that places a ceiling on '
-          'punishment rather than a floor.',
+          'punishment, where the other three set a floor.',
           'Deterrence and incapacitation are both forward-looking and both '
           'consequentialist, but they point in different directions in '
           'practice. Deterrence is served by publicity and by certainty, and '
@@ -1185,7 +1185,8 @@ UNIT = dict(
           'confined, which is indifferent to publicity and highly sensitive to '
           'the accuracy of the prediction.',
           'Rehabilitation differs from all three in requiring that something '
-          'be done to the offender rather than to his liberty. It argues for '
+          'be done to the offender, where the others act only on his liberty. '
+          'It argues for '
           'shorter sentences in general, since institutions are poor places to '
           'acquire the habits of a non-offending life, and for different '
           'sentences in particular: treatment, supervision, employment. It is '
@@ -1208,7 +1209,7 @@ UNIT = dict(
           'when deterrence research is cited against it, and defended as '
           'incapacitating when desert is questioned. The argument never loses '
           'because it never has to stay in one place.',
-          'The remedy proposed by several writers is procedural rather than '
+          'The remedy proposed by several writers is procedural, not '
           'substantive: require that a sentencing framework state which '
           'purpose it is pursuing, and accept the evidential test appropriate '
           'to that purpose. A measure justified by deterrence would then have '
@@ -1244,7 +1245,8 @@ UNIT = dict(
           ('Which paragraph identifies the only purpose that limits '
            'punishment?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 7'], 0,
-           'Retribution places a ceiling rather than a floor, and is the only '
+           'Retribution places a ceiling where the others place a floor, and is '
+           'the only '
            'backward-looking purpose.'),
           ('The writer believes rehabilitation is the most important purpose.',
            ['Yes', 'No', 'Not Given'], 2,
@@ -1356,14 +1358,14 @@ UNIT = dict(
             'consequences.'),
            ('support', 'The strongest case against me is the retributive one.'),
            ('follow-up', 'Because it is the only purpose that sets a limit '
-            'rather than a target.')]),
+            'and not a target.')]),
    write=[
     dict(task='Task 2', fork=None, wband='essay',
          heading='Should repeat offenders receive longer sentences?',
          prompt=('Write the essay you planned in cycle 4. Some people believe '
                  'that repeat offenders should receive substantially longer '
                  'sentences. Others argue that this punishes people for their '
-                 'past rather than their present offence. Discuss both views '
+                 'past instead of their present offence. Discuss both views '
                  'and give your own opinion. Write at least 250 words.'),
          model=[
           'Most sentencing frameworks increase punishment for those who have '
@@ -1388,8 +1390,8 @@ UNIT = dict(
           'offending, so a policy of longer sentences for repeat offences '
           'targets confinement at those most likely to reoffend. This is a '
           'real argument and it is almost never the one that is made in public.',
-          'It has a limit, however, which is imposed by the shape of a '
-          'criminal career rather than by any principle. Offending falls '
+          'It has a limit, however, imposed by the shape of a '
+          'criminal career and not by any principle. Offending falls '
           'sharply with age in every population that has been studied, so a '
           'sentence extending well past that decline is confining somebody who '
           'would probably have stopped, at full public cost and with little '
@@ -1398,12 +1400,12 @@ UNIT = dict(
           'justifiable, but only as incapacitation and only while the '
           'prediction underlying them remains good. That implies increases '
           'that are moderate, that are reviewed, and that are defended in '
-          'those terms rather than as a deterrent they are not.'],
+          'those terms, instead of as a deterrent they are not.'],
          notes=[
           'Structure 9 with an unusual move: the writer takes a position, '
           'tests the weaker justification first and discards it, then rescues '
-          'the policy on different grounds. The essay changes the reason '
-          'rather than the verdict.',
+          'the policy on different grounds. The essay changes the reason while '
+          'leaving the verdict alone.',
           'The concession in paragraph 3 — this is a real argument and it is '
           'almost never the one that is made — does two things at once: it '
           'strengthens the opposing case and explains why the public debate is '
@@ -1422,7 +1424,7 @@ UNIT = dict(
    gram=dict(
     point='Concessive-contrastive chains across a paragraph',
     explain=('At band 7 a paragraph often has the shape: grant, limit, '
-             'restate. Doing this with varied connectors rather than but '
+             'restate. Doing this with varied connectors instead of but '
              'three times is what separates a controlled argument from a '
              'list of objections.'),
     examples=['The argument is real. It has a limit, however, which is '
@@ -1450,12 +1452,12 @@ UNIT = dict(
            ('The reform is sensible. It will not be adopted.',
             'Sensible as the reform is, it will not be adopted.')]),
    vocab=[('retribution', 'punishment deserved by the wrong done'),
-          ('consequentialist', 'judged by its effects rather than its desert'),
+          ('consequentialist', 'judged by its effects, not its desert'),
           ('falsifiable', 'capable of being shown false by evidence'),
           ('actuarial', 'based on statistical prediction for a group'),
           ('desert', 'what a person deserves'),
           ('procedural', 'concerning how a decision is made, not what it is'),
-          ('rhetorical', 'relating to persuasion rather than substance'),
+          ('rhetorical', 'relating to persuasion, not substance'),
           ('ceiling', 'an upper limit')],
    expr=[('they do not merely differ; they recommend different sentences',
           'sharpens a contrast into a conflict'),

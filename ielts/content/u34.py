@@ -89,7 +89,7 @@ UNIT = dict(
           'request is treated as accepted on the terms the employee proposed. '
           'This provision exists because delay was the commonest way in which '
           'the earlier scheme failed, and it places the cost of inaction on '
-          'the employer rather than the applicant.'],
+          'the employer, where the earlier scheme had left it with the applicant.'],
          items=[
           ('The two-month period begins when a ____________ request is '
            'received.', None, 'valid',
@@ -130,7 +130,7 @@ UNIT = dict(
           ('Employee', 'No, never.'),
           ('Adviser', 'Then say so, because the form asks and an answer of '
            'none is not the same as leaving it blank. Now, one piece of '
-           'advice. If you want this as a trial rather than permanently, you '
+           'advice. If you want this as a trial only, you '
            'must say that in the request itself. A change that is accepted is '
            'permanent by default, and people are caught by that constantly.'),
           ('Employee', 'I had not thought of that. A three-month trial would '
@@ -170,7 +170,7 @@ UNIT = dict(
            'allowed to refuse. You are not allowed to refuse and then hold a '
            'consultation as a formality, and an employee can almost always '
            'tell. If you walk in knowing the answer, the meeting is evidence '
-           'against you rather than for you.'),
+           'against you instead of for you.'),
           ('Trainer', 'The second is giving the wrong kind of reason. There '
            'are eight statutory grounds and your refusal must name one. What '
            'it must not do is give a reason that sounds managerial but is not '
@@ -233,7 +233,7 @@ UNIT = dict(
           'Dear Ms Eriksen,',
           'I am writing to make a formal request under the flexible working '
           'policy. I have not made a previous request. I would like to work my '
-          'current contracted hours over four days rather than five, from '
+          'current contracted hours over four days instead of five, from '
           'Monday to Thursday, beginning on 6 January.',
           'On the question of cover, Thursday afternoon is currently the '
           'quietest period in our team’s schedule and Friday has no fixed '
@@ -258,11 +258,11 @@ UNIT = dict(
           'covered without saying how has not answered the bullet.',
           'Offering the review yourself is the strongest move available here, '
           'because it removes the reader’s main reason to refuse. Notice it '
-          'appears in the letter as a proposal rather than a concession.',
+          'appears in the letter as a proposal, which is a different thing from a concession.',
           'Dear Ms Eriksen pairs with Yours sincerely. Dear Sir or Madam pairs '
           'with Yours faithfully. Mixing them is a small error that is very '
           'visible to an examiner.'],
-         criterion=[('Specific cover arrangements rather than assurances',
+         criterion=[('Specific cover arrangements, not assurances',
                      'Task Achievement'),
                     ('Removing the reader’s reason to refuse',
                      'Task Response'),
@@ -328,8 +328,7 @@ UNIT = dict(
           'B  Rashid: I am suspicious of meaningful work as a category. It '
           'seems to be a way of paying people less for jobs that are already '
           'badly paid. My work means nothing to me and it pays for a life that '
-          'means a great deal, and I think that is an honourable arrangement '
-          'rather than a sad one.',
+          'means a great deal, and I think that is an honourable arrangement, whatever people assume about it.',
           'C  Noor: What changed everything for me was control, not content. '
           'Same job, same salary, and when they let me decide the order I did '
           'things in I stopped dreading Sunday evening. I could not have told '
@@ -355,7 +354,7 @@ UNIT = dict(
            'He would leave within a year if the team changed completely.'),
           ('Rashid believes his arrangement is a regrettable compromise.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He calls it honourable rather than sad, which is the opposite of '
+           'He calls it honourable, which is the opposite of '
            'the statement.'),
           ('Noor expected autonomy to be important before she experienced it.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -402,7 +401,7 @@ UNIT = dict(
            'seen anyone step back voluntarily without it being read as a '
            'failure. The route down is not symmetrical with the route up, and '
            'that asymmetry is most of why I said no.'),
-          ('Dagmar', 'That is fair, and it is not about ambition at all. It '
+          ('Dagmar', 'You have shifted me. It is not about ambition at all. It '
            'is about whether a decision is reversible.'),
           ('Idris', 'Which is how I should have put it an hour ago.')],
          items=[
@@ -410,7 +409,7 @@ UNIT = dict(
            ['more travel', 'more meetings', 'more responsibility',
             'more hours'], 1,
            'Twenty per cent more money and about eighty per cent more '
-           'meetings, which he calls arithmetic rather than modesty.'),
+           'meetings, which he calls arithmetic and not modesty.'),
           ('What does Idris say about Dagmar’s argument?',
            ['It is about the work', 'It is about the structure, not the work',
             'It is about money', 'It is about status'], 1,
@@ -433,7 +432,7 @@ UNIT = dict(
    speak=dict(
     part='Part 1 into Part 2', focus='Working life',
     intro=('Short answers, then the long turn. Four bullets, roughly equal '
-           'weight, in order, and develop rather than list.'),
+           'weight, in order, and developed instead of listed.'),
     cue=('Describe a job that changed how you think about work.',
          ['what the job was', 'when you did it',
           'what was different about it',
@@ -459,8 +458,7 @@ UNIT = dict(
          model=[
           'The proposal that governments should actively encourage shorter '
           'working hours is usually discussed as though the only question were '
-          'whether output would fall. That is one question and not the most '
-          'interesting one, and the answer to it is less obvious than either '
+          'whether output would fall. That is one question, and not the most interesting one, and the answer to it is less obvious than either '
           'side tends to assume.',
           'The advantages are easiest to see at the individual level. Long '
           'hours are associated with poorer health, higher rates of error and '
@@ -468,7 +466,7 @@ UNIT = dict(
           'shift, effects which are well documented in medicine and '
           'transport. There is also an argument from distribution: where work '
           'is scarce, hours worked by one person are hours not available to '
-          'another, so a reduction spreads employment rather than destroying '
+          'another, so a reduction spreads employment instead of destroying '
           'it.',
           'The disadvantages are more structural. Output per hour is not '
           'constant, and a firm that loses a day of production does not '
@@ -492,17 +490,16 @@ UNIT = dict(
          notes=[
           'Structure 5: advantages, disadvantages, then a position stated in '
           'the conclusion. Notice the position is a distinction — '
-          'encouragement yes, compulsion no — rather than a side.',
-          'The final paragraph refuses the frame of the question rather than '
+          'encouragement yes, compulsion no — in place of a side.',
+          'The final paragraph refuses the frame of the question instead of '
           'answering it again. That is a risk, and it works here because the '
           'essay has already answered the question on its own terms in the '
           'paragraph before.',
           'Each body paragraph contains a concrete mechanism — error rates '
-          'late in a shift, work proportional to time — rather than a '
-          'generality. Mechanisms are what separate 6.5 from 6.0.'],
+          'late in a shift, work proportional to time — where a weaker essay would offer a generality. Mechanisms are what separate 6.5 from 6.0.'],
          criterion=[('A position that is a distinction, not a side',
                      'Task Response'),
-                    ('Concrete mechanisms rather than generalities',
+                    ('Concrete mechanisms, not generalities',
                      'Lexical Resource'),
                     ('Questioning the frame only after answering it',
                      'Task Response')],
@@ -538,14 +535,14 @@ UNIT = dict(
             'People may want more free time and still not want less income.')]),
    vocab=[('autonomy', 'control over how you do your own work'),
           ('remuneration', 'payment for work'),
-          ('vocation', 'work felt as a calling rather than a job'),
+          ('vocation', 'work felt as a calling, not a job'),
           ('asymmetry', 'a difference between two directions of a process'),
           ('reversible', 'able to be undone'),
           ('distribution', 'how something is shared across a population'),
-          ('compulsion', 'being required rather than encouraged'),
+          ('compulsion', 'being required, not merely encouraged'),
           ('interrupted', 'broken by a period of absence')],
    expr=[('notice the shape of your argument',
-          'objects to a form of reasoning rather than a fact'),
+          'objects to a form of reasoning, not to a fact'),
          ('that is the best point you have made',
           'concedes generously, which strengthens what follows'),
          ('the case for X is strong and the case for Y is weak',
@@ -597,7 +594,7 @@ UNIT = dict(
           'output per hour is low, the only way for a household to reach a '
           'given income is to supply more hours, often from more members of '
           'the household. Long hours are therefore a symptom of low '
-          'productivity rather than its cause, which reverses the arrow most '
+          'productivity, which reverses the arrow most '
           'readers draw when they first see the chart.',
           'None of this means that hours have no effect on output. The '
           'evidence from within single workplaces is reasonably clear that '
@@ -628,7 +625,7 @@ UNIT = dict(
            ['Alvania', 'Corland', 'Estren', 'Fenland'], 0,
            'Paragraph 2: around 2,100 hours a year with the lowest output '
            'index of the six.'),
-          ('Which paragraph explains long hours as a symptom rather than a '
+          ('Which paragraph explains long hours as a symptom and not a '
            'cause?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
             'Paragraph 6'], 2,
            'Paragraph 5: households supply more hours to reach a given income '
@@ -659,8 +656,8 @@ UNIT = dict(
          script=[
           ('Lecturer', 'I am going to put a chart on the screen that I use '
            'every year, because it produces the same wrong answer from a new '
-           'set of people every time, and the wrongness is instructive rather '
-           'than embarrassing.'),
+           'set of people every time, and the wrongness is instructive, not '
+           'embarrassing.'),
           ('Lecturer', 'Six countries. Horizontal axis, annual hours worked. '
            'Vertical axis, output per hour. The points fall almost on a '
            'straight line sloping downwards. The countries that work most '
@@ -678,8 +675,7 @@ UNIT = dict(
            'also rich. And in rich countries, leisure is a normal good: as '
            'income rises people buy more of it. Hours fall because the country '
            'is productive, not the other way round.'),
-          ('Lecturer', 'There is a second channel, which is about households '
-           'rather than firms. If an hour of your labour buys very little, you '
+          ('Lecturer', 'There is a second channel, which operates on households and not on firms, and it is the one most people miss. If an hour of your labour buys very little, you '
            'supply more hours, and often more household members supply them. '
            'Long hours in a poor economy are a response to low productivity. '
            'The arrow runs from productivity to hours again.'),
@@ -690,8 +686,7 @@ UNIT = dict(
            'But that is a statement about the last hours of a long shift in '
            'one workplace. It is not an explanation of why Fenland produces '
            'twice as much per hour as Alvania.'),
-          ('Lecturer', 'The lesson I want you to take is a habit rather than a '
-           'fact. When two variables move together, write down all the arrows '
+          ('Lecturer', 'The lesson I want you to take is a habit, not a fact. When two variables move together, write down all the arrows '
            'that would produce that picture before you choose one. In this '
            'case there are four, and the one everybody picks is the weakest of '
            'them.')],
@@ -724,8 +719,7 @@ UNIT = dict(
    speak=dict(
     part='Part 3', focus='Hours, output and comparison',
     intro=('Four or five sentences. These questions invite a causal claim, so '
-           'try to mark at least once where you are reasoning rather than '
-           'reporting.'),
+           'try to mark at least once where you are reasoning, as against reporting.'),
     qs=['Why do you think working hours differ so much between countries?',
         'Should a government set a maximum working week?',
         'Is output a good measure of how well a country is doing?',
@@ -733,8 +727,7 @@ UNIT = dict(
     shape=[('answer', 'Mostly because of what the economies actually do.'),
            ('support', 'Where output per hour is low, people work more hours '
             'to reach the same income.'),
-           ('follow-up', 'So the long hours are a symptom rather than a '
-            'choice.'),
+           ('follow-up', 'So the long hours are a symptom, not a choice.'),
            ('support', 'Culture probably plays some part as well.'),
            ('follow-up', 'Though I would want to see it separated from income '
             'before believing it.')]),
@@ -781,12 +774,12 @@ UNIT = dict(
           'Inside each paragraph the countries are taken in order with '
           'grouping, never jumping from highest to lowest. The three lowest '
           'are grouped because they sit close together, which is a judgement '
-          'about the data rather than a formula.',
+          'about the data, not a formula.',
           'The last paragraph states the inversion, which is the actual '
           'finding and belongs in neither body paragraph. Notice that it '
           'describes the relationship without claiming a cause: the chart does '
           'not show one.'],
-         criterion=[('Structuring by measure rather than by country',
+         criterion=[('Structuring by measure, not by country',
                      'Coherence and Cohesion'),
                     ('Grouping the countries that cluster',
                      'Coherence and Cohesion'),
@@ -857,7 +850,7 @@ UNIT = dict(
           'the trial ended. These findings have been widely reported and are '
           'usually presented as settling the question.',
           'They do not settle it, and the reasons are instructive for anybody '
-          'learning to read evidence rather than headlines. The first and '
+          'learning to read evidence instead of headlines. The first and '
           'largest difficulty is that the firms in these trials selected '
           'themselves. An organisation volunteers for a four-day week when its '
           'leadership already believes the idea will work, when its work can '
@@ -891,7 +884,7 @@ UNIT = dict(
           'cycles and stopped doing things nobody could justify. Those '
           'improvements are real and they are available at five days a week '
           'as well, which means part of the measured effect belongs to the '
-          'audit rather than to the shorter week.',
+          'audit, which the week merely prompted.',
           'The same confusion affects the absence figures. Absence fell in '
           'most trials, and this is reported as an effect on health. It may '
           'partly be an effect on arithmetic: an employee with a medical '
@@ -958,7 +951,7 @@ UNIT = dict(
            'appears in it somewhere.'),
           ('Lecturer', 'Start with what is genuinely impressive. These are '
            'real organisations, not laboratories. The outcome measures are '
-           'collected over months rather than minutes. And the direction of '
+           'collected over months, not minutes. And the direction of '
            'the findings is consistent: output held up, absence fell, almost '
            'nobody went back. If you wanted a literature to be encouraging, '
            'this one is encouraging.'),
@@ -1005,7 +998,7 @@ UNIT = dict(
            'literature?',
            ['The size of the samples', 'That they are real organisations',
             'The length of the trials', 'The independence of the researchers'],
-           1, 'Real organisations rather than laboratories, with measures '
+           1, 'Real organisations, not laboratories, with measures '
            'collected over months.'),
           ('The three conditions for volunteering do not include',
            ['belief that it will work', 'work that can be compressed',
@@ -1044,8 +1037,7 @@ UNIT = dict(
     shape=[('answer', 'Fairly is difficult, because the firms that volunteer '
             'are unusual.'),
            ('support', 'They already believe it will work before they start.'),
-           ('follow-up', 'Which means the result tells you about them rather '
-            'than about everybody.'),
+           ('follow-up', 'Which means the result tells you about them alone.'),
            ('support', 'You would need firms assigned at random.'),
            ('follow-up', 'And almost no employer would agree to that, which is '
             'why the evidence looks the way it does.')]),
@@ -1072,7 +1064,7 @@ UNIT = dict(
           'design. Resting two main ideas on different kinds of ground is one '
           'of the most reliable ways to make them genuinely distinct.',
           'Both answer the question asked — whether it should become standard '
-          '— rather than the topic of working hours in general.',
+          '— instead of the topic of working hours in general.',
           'The order lets the second build on the first: having shown what the '
           'evidence does not cover, the conclusion can propose something that '
           'does not need it to.'],
@@ -1085,7 +1077,7 @@ UNIT = dict(
    gram=dict(
     point='Evaluating evidence: what a study does and does not show',
     explain=('The most valuable sentences in a band 7 essay are often the ones '
-             'that limit a finding rather than report it. These patterns let '
+             'that limit a finding instead of reporting it. These patterns let '
              'you accept evidence and restrict its reach in the same breath.'),
     examples=['The finding supports a narrower claim than the one usually '
               'made.',
@@ -1113,7 +1105,7 @@ UNIT = dict(
           ('proxy', 'something measured in place of the thing you want'),
           ('novelty effect', 'an improvement caused by change itself'),
           ('attenuated', 'reduced in strength'),
-          ('durable', 'lasting rather than temporary'),
+          ('durable', 'lasting, not temporary'),
           ('actionable', 'able to be acted on in practice'),
           ('intervention', 'the change being tested in a study'),
           ('generalise', 'to extend a finding beyond what was studied')],
@@ -1256,7 +1248,7 @@ UNIT = dict(
            'evidence is fine and I have no objection. If your policy is '
            'require, you are extrapolating from the firms it would be easiest '
            'for to the firms it would be hardest for.'),
-          ('Haldorsen', 'That is a fair description of the inference and I '
+          ('Haldorsen', 'You have described the inference exactly and I '
            'think it is a reasonable one. We extrapolate constantly. The '
            'alternative is paralysis.'),
           ('Mbeki', 'We extrapolate when the direction of the bias is unknown. '
@@ -1281,7 +1273,7 @@ UNIT = dict(
           ('Haldorsen', 'That I accept entirely, and I will say publicly that '
            'it is the study the field most needs. I still think the balance of '
            'risk favours acting before we have it.'),
-          ('Mbeki', 'Then we disagree about risk rather than about evidence, '
+          ('Mbeki', 'Then our disagreement is about risk, '
            'which is a more honest place to be standing than where this debate '
            'usually is.')],
          items=[
@@ -1330,7 +1322,7 @@ UNIT = dict(
            ('support', 'The strongest case against me is that this reasoning '
             'justifies almost anything.'),
            ('follow-up', 'Which is why it has to be paired with a review date '
-            'rather than used alone.')]),
+            'instead of being used alone.')]),
    write=[
     dict(task='Task 2', fork=None, wband='essay',
          heading='Should a four-day week become standard?',
@@ -1345,7 +1337,7 @@ UNIT = dict(
           'and opposed by pointing to the sectors that have not. I think the '
           'supporters are right about what their evidence shows and wrong '
           'about what it licenses, and that the disagreement is really about '
-          'the word standard rather than about the week itself.',
+          'the word standard, which the week itself has very little to do with.',
           'The evidence for shorter weeks is genuinely encouraging and should '
           'not be dismissed. Dozens of organisations have reduced hours '
           'without reducing pay, output has generally held up, absence has '
@@ -1367,8 +1359,8 @@ UNIT = dict(
           'Citing trial evidence in support of a mandate is therefore citing '
           'the least relevant evidence available, however good that evidence '
           'is on its own terms.',
-          'My own position is that the arrangement should be made easy rather '
-          'than compulsory: a strengthened right to request, protection for '
+          'My own position is that the arrangement should be made easy, not '
+          'compulsory: a strengthened right to request, protection for '
           'those who take it up, and public reporting by employers who adopt '
           'it. That captures almost all of the demonstrated benefit, since the '
           'firms it suits can act immediately, while declining to extend a '
@@ -1380,7 +1372,7 @@ UNIT = dict(
           'Paragraph 2 argues the opposing case better than its supporters '
           'usually do, including identifying which of their points is '
           'strongest. An examiner notices this immediately.',
-          'The conclusion is three specific measures rather than a sentiment. '
+          'The conclusion is three specific measures, not a sentiment. '
           'Compare it with a conclusion that said in conclusion, both sides '
           'have valid points.'],
          criterion=[('Relocating the disagreement onto a definition',
@@ -1416,7 +1408,7 @@ UNIT = dict(
             'The evidence is strong about feasibility and silent about '
             'compulsion.'),
            ('This supports the policy.',
-            'This supports permitting the arrangement rather than requiring '
+            'This supports permitting the arrangement, not requiring '
             'it.')]),
    vocab=[('extrapolation', 'extending a finding beyond the cases studied'),
           ('random assignment', 'allocating participants by chance'),
@@ -1447,7 +1439,7 @@ UNIT = dict(
         'still be Not Given, because this writer never addressed it. The move '
         'that saves marks is to ask where in the passage the writer committed '
         'themselves, and to accept that absence of commitment is the answer '
-        'rather than a failure to find one.'),
+        'instead of a failure to find one.'),
   panel=[('Yes', 'The writer states it, or states something that entails it.'),
          ('No', 'The writer states the opposite, or something incompatible '
           'with it.'),
@@ -1469,7 +1461,7 @@ UNIT = dict(
         'can support each one for four sentences. An idea you believe, that '
         'answers the question and is distinct from the others, is still not a '
         'main idea if all you can say about it is that it is true.'),
-  frame=('A four-day week should be permitted rather than required',
+  frame=('A four-day week should be permitted, not required',
          [('The evidence covers an unrepresentative set of employers',
            ['volunteering selects for suitability',
             'the hardest sectors are missing from the literature']),

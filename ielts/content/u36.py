@@ -54,8 +54,7 @@ UNIT = dict(
           'source of both cost and delay, and an applicant who can reduce the '
           'capacity sought below the reinforcement threshold will usually '
           'receive a materially cheaper and earlier offer.',
-          'Connection dates are allocated in order of acceptance rather than '
-          'enquiry, and projects that accept and then fail to proceed have '
+          'Connection dates are allocated in order of acceptance, with the date of enquiry carrying no weight, and projects that accept and then fail to proceed have '
           'until recently retained their place. The queue at some grid supply '
           'points now extends beyond 2037, and reform of the queue is the '
           'single most discussed subject in the industry.'],
@@ -71,7 +70,7 @@ UNIT = dict(
            'Paragraph 3 calls these the principal source of cost and delay.'),
           ('Connection dates are allocated in order of ____________.', None,
            'acceptance',
-           'Paragraph 4, rather than in order of enquiry, which is why the '
+           'Paragraph 4, where the date of enquiry counts for nothing, which is why the '
            'queue behaves as it does.'),
           ('What does the writer say reform of the queue is?',
            ['A government priority', 'The most discussed subject in the '
@@ -151,7 +150,7 @@ UNIT = dict(
           ('Caller', 'That is a distinction I would rather learn now.'),
           ('Operator', 'Most people learn it the other way. One more thing '
            'that might save you a considerable amount. If you can live with '
-           'four hundred and fifty kilowatts rather than five hundred, you '
+           'four hundred and fifty kilowatts instead of five hundred, you '
            'may come in under the threshold that triggers reinforcement at '
            'your local substation. I cannot promise that until we have '
            'looked, but it is worth asking for both figures.'),
@@ -210,8 +209,7 @@ UNIT = dict(
           'I would be grateful if you could do three things. First, confirm '
           'in writing whether my application is still live. Second, provide '
           'either the offer or a date by which it will be issued. Third, '
-          'confirm that the ninety-day acceptance period will run from the '
-          'date I receive the offer rather than from the date it is drawn up, '
+          'confirm that the ninety-day acceptance period will run from the date I receive the offer, as against the date it is drawn up, '
           'since I have no means of knowing the latter.',
           'I look forward to hearing from you.',
           'Yours faithfully,',
@@ -227,7 +225,7 @@ UNIT = dict(
           'Dear Sir or Madam with Yours faithfully. The writer does not know '
           'a name, and inventing one to be able to use sincerely is a mistake '
           'some candidates make.'],
-         criterion=[('Specific, actionable requests rather than a general '
+         criterion=[('Specific, actionable requests in place of a general '
                      'demand', 'Task Achievement'),
                     ('A documented record of dates and amounts',
                      'Task Achievement'),
@@ -265,7 +263,7 @@ UNIT = dict(
           ('substation', 'equipment that changes voltage between networks'),
           ('export', 'to send electricity out onto the network'),
           ('lapse', 'to expire through not being acted on'),
-          ('indicative', 'given as a guide rather than a firm figure'),
+          ('indicative', 'given as a guide, not as a firm figure'),
           ('commissioning', 'testing new equipment before it is used'),
           ('grid supply point', 'where a local network joins the national '
            'one')],
@@ -311,7 +309,7 @@ UNIT = dict(
          items=[
           ('Which person argues the cost is attached to the wrong fuel?',
            ['Ekaterina', 'Dermot', 'Priyanka', 'Sigurd'], 1,
-           'The levies sit on electricity rather than on gas or income.'),
+           'The levies sit on electricity alone, leaving gas and income untouched.'),
           ('Which person says the schemes are designed for owners?',
            ['Ekaterina', 'Dermot', 'Priyanka', 'Sigurd'], 0,
            'She notes the grant covered a third and the rest is more than her '
@@ -337,8 +335,7 @@ UNIT = dict(
          qtype='Questions 21-24',
          script=[
           ('Speaker', 'I have been asked to explain what is actually on your '
-           'electricity bill, and I am going to do it with four numbers '
-           'rather than four arguments.'),
+           'electricity bill, and I am going to do it with four numbers in place of four arguments.'),
           ('Speaker', 'Take a typical annual bill. Roughly forty per cent of '
            'it is the wholesale cost of the energy itself. About twenty-two '
            'per cent is networks: the wires, the substations, the people who '
@@ -360,9 +357,8 @@ UNIT = dict(
           ('Speaker', 'I am not going to tell you what to do about that, '
            'because moving the charge onto gas raises the bills of people '
            'who cannot afford a heat pump, and moving it onto general taxation '
-           'is a decision for a chancellor and not for me. But if you leave '
-           'tonight knowing one thing, know that this is a choice about where '
-           'to put a cost, and not a law of nature.')],
+           'is a decision for a chancellor, which I am not. But if you leave '
+           'tonight knowing one thing, know that this is a choice about where to put a cost, made by people who could have chosen otherwise.')],
          items=[
           ('What proportion of a typical bill is the wholesale cost of '
            'energy?', ['Sixteen per cent', 'Twenty-two per cent',
@@ -377,8 +373,7 @@ UNIT = dict(
            'environmental is',
            ['correct', 'wrong by about half', 'deliberately misleading',
             'a recent change'], 1,
-           'Because a substantial part of it is social rather than '
-           'environmental.'),
+           'Because a substantial part of it is social in purpose.'),
           ('Her main point about who pays is that',
            ['gas users pay most', 'the charge sits on the clean fuel',
             'taxpayers pay', 'suppliers absorb it'], 1,
@@ -413,7 +408,7 @@ UNIT = dict(
            'in a scenario.'),
           ('Jerzy', 'That is the strongest thing anybody has said this '
            'evening and I do not have an answer to it.'),
-          ('Jerzy', 'Let me try to give you something rather than only '
+          ('Jerzy', 'Let me try to give you something instead of only '
            'objections. If the motion said that the levies move to taxation '
            'over three years, with the existing contracts underwritten by the '
            'Treasury on day one, I would vote for it tomorrow and I would '
@@ -457,7 +452,7 @@ UNIT = dict(
    speak=dict(
     part='Part 1 into Part 2', focus='Energy',
     intro=('Short answers, then the long turn. Four bullets in order, equal '
-           'weight, developed rather than listed.'),
+           'weight, and developed instead of listed.'),
     cue=('Describe a change you made because of the cost of energy.',
          ['what the change was', 'when you made it',
           'how much difference it made',
@@ -500,8 +495,7 @@ UNIT = dict(
           'also the matter of who pays: in many countries these costs sit on '
           'electricity bills, which fall most heavily on households least able '
           'to escape them.',
-          'My own view is that the second argument defeats a particular kind '
-          'of support rather than the principle. Support justified by the '
+          'My own view is that the second argument defeats a particular kind of support, leaving the principle standing. Support justified by the '
           'learning argument should fall automatically as deployment rises, '
           'because its entire purpose is to become unnecessary; support '
           'justified by unpriced damage should be replaced by pricing the '
@@ -511,7 +505,7 @@ UNIT = dict(
           'it is the form that is easiest to legislate and hardest to '
           'remove.'],
          notes=[
-          'Structure 3, and the resolution again divides rather than splits: '
+          'Structure 3, and the resolution again divides instead of splitting: '
           'it accepts the opponents’ objection and shows that it lands on one '
           'design of subsidy, not on subsidy as such.',
           'The two reasons in paragraph 2 are genuinely different kinds of '
@@ -522,7 +516,7 @@ UNIT = dict(
           'a specific target is far stronger than ending on a balance.'],
          criterion=[('Two reasons of genuinely different kinds',
                      'Coherence and Cohesion'),
-                    ('Defeating a design rather than a principle',
+                    ('Defeating a design, not a principle',
                      'Task Response'),
                     ('A conclusion naming a specific target',
                      'Task Response')],
@@ -533,7 +527,7 @@ UNIT = dict(
     explain=('Energy and tax arguments are won or lost on precision about '
              'incidence — who actually bears a cost, as against who hands over '
              'the money. These patterns state it.'),
-    examples=['The levies sit on electricity rather than on gas.',
+    examples=['The levies sit on electricity, not on gas.',
               'These costs fall most heavily on households least able to '
               'escape them.',
               'The charge is collected from suppliers and borne by '
@@ -550,8 +544,7 @@ UNIT = dict(
             'The cost of pollution is borne by people other than those who '
             'cause it.'),
            ('Subsidies are expensive.',
-            'The cost of subsidy falls on bill payers rather than on '
-            'taxpayers.'),
+            'The cost of subsidy falls on bill payers, a narrower group than taxpayers.'),
            ('Taxes would be fairer.',
             'Funding the policy through taxation would shift the cost onto a '
             'more progressive group.')]),
@@ -592,8 +585,7 @@ UNIT = dict(
           'heating load arrives before industrial demand has fallen away.',
           'Wind does almost the opposite. It is at its highest overnight, at '
           '14 to 15 GW, and falls steadily through the day to a minimum of 6 '
-          'GW at eight in the evening. This is a particular day rather than a '
-          'pattern, but the general problem it illustrates is real: wind is '
+          'GW at eight in the evening. This is a particular day, not a pattern, but the general problem it illustrates is real: wind is '
           'not more available when demand is higher, and on many days it is '
           'markedly less.',
           'Solar makes a brief appearance, reaching 11 GW at midday and '
@@ -666,7 +658,7 @@ UNIT = dict(
            'also provides the ability to change output quickly, which is the '
            'steepness of the curve. A system can be short of either one.'),
           ('Engineer', 'One more thing about the morning climb, because it '
-           'is the part that is getting harder rather than easier. Between '
+           'is the part that is getting harder, not easier. Between '
            'four and eight in the morning demand rises twelve gigawatts, and '
            'as more heating and more vehicles move onto electricity that climb '
            'gets steeper every year. A system can have more than enough '
@@ -762,7 +754,7 @@ UNIT = dict(
           'the Coherence mark on a chart like this. Grouping by fuel type '
           'would put wind and solar together for a reason that has nothing to '
           'do with what the chart shows.',
-          'The flat line is reported rather than ignored. A series that does '
+          'The flat line is reported instead of ignored. A series that does '
           'not move is still a main feature, and leaving it out is a coverage '
           'failure under Task Achievement.'],
          criterion=[('Grouping five series by behaviour, not by name',
@@ -811,7 +803,7 @@ UNIT = dict(
          ('remain almost constant throughout',
           'reports a flat series as a finding'),
          ('several hours before demand peaks',
-          'compares timing rather than value')],
+          'compares timing, not value')],
    trans=['overall', 'by contrast', 'then', 'throughout'],
   ),
 
@@ -888,9 +880,7 @@ UNIT = dict(
           'What follows practically is that the value of a storage asset '
           'cannot be read from its cost per kilowatt-hour, the figure that '
           'dominates the reporting. It depends on how often the asset will be '
-          'used, which depends on the shape of the gap it is filling, which is '
-          'a property of the weather and the demand curve rather than of the '
-          'technology.'],
+          'used, which depends on the shape of the gap it is filling, which is a property of the weather and the demand curve, where everybody looks for one of the technology.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Hours: close to solved', 'Days: no answer at scale',
@@ -952,7 +942,7 @@ UNIT = dict(
            'storage, or keeping gas plant and running it for forty hours a '
            'year.'),
           ('Lecturer', 'Now the point I actually want you to leave with, '
-           'which is about economics rather than chemistry. A four-hour '
+           'which is about economics. A four-hour '
            'battery cycles every day: three hundred and sixty-five uses a '
            'year, so its capital cost is divided by a large number. A store '
            'built for a two-week wind drought might be used fully twice in a '
@@ -1011,7 +1001,7 @@ UNIT = dict(
     shape=[('answer', 'It depends which part of the problem you mean.'),
            ('support', 'Covering an evening is largely solved now.'),
            ('follow-up', 'Covering a still fortnight in January is not.'),
-           ('support', 'So the honest answer is partly, and not yet.'),
+           ('support', 'So the honest answer is partly, and not yet entirely.'),
            ('follow-up', 'Which is less satisfying than either of the '
             'answers people usually give.')]),
    write=[
@@ -1040,8 +1030,7 @@ UNIT = dict(
           'which converts a position people will attack into one they have to '
           'argue with. Conditions are the cheapest way to make a thesis '
           'defensible.',
-          'The second idea is about reversibility rather than emissions, so '
-          'the two main ideas rest on different grounds. That is the test '
+          'The second idea is about reversibility, where the first was about emissions, so the two main ideas rest on different grounds. That is the test '
           'from unit 34 applied again.',
           'The task asks you to outline the objection as well. The strongest '
           'one is that a reserve kept for emergencies is reliably used for '
@@ -1095,7 +1084,7 @@ UNIT = dict(
           'others', 'limits a true claim'),
          ('hold all three sentences at once',
           'asks for a position that is not a single slogan'),
-         ('which is a property of the weather rather than of the technology',
+         ('which is a property of the weather, not of the technology',
           'relocates where a variable comes from')],
    trans=['problem one', 'now the point', 'which means', 'so'],
   ),
@@ -1171,8 +1160,7 @@ UNIT = dict(
           'position.',
           'The practical lesson is narrower than either camp would like. '
           'Levelised cost is a good measure of what it says it measures and a '
-          'poor measure of what people use it for. Anybody comparing systems '
-          'rather than generators needs a different number, and the '
+          'poor measure of what people use it for. Anybody comparing whole systems needs a different number, and the '
           'availability of a simple figure is not a reason to answer a '
           'question it was not built to answer.'],
          items=[
@@ -1236,13 +1224,13 @@ UNIT = dict(
            'number is nearly right. Above sixty per cent they rise steeply, '
            'because you are sizing the system for conditions that happen for '
            'ten days a decade.'),
-          ('Oyelowo-Brandt', 'That I would qualify rather than dispute. The '
+          ('Oyelowo-Brandt', 'That I would qualify, not dispute. The '
            'steepness depends on what else is in the system — interconnection, '
            'hydro, flexible demand. In a well-connected system with storage '
            'the curve is far flatter, and treating sixty per cent as a '
            'universal threshold imports an assumption about the system you '
            'have just told me not to leave out.'),
-          ('Ingrassia', 'That is a fair hit and I accept it.'),
+          ('Ingrassia', 'You have me there, and I will not pretend otherwise.'),
           ('Ingrassia', 'May I ask you something I have never asked in '
            'public? Why does your organisation not publish a system cost '
            'alongside the generator cost?'),
@@ -1334,12 +1322,10 @@ UNIT = dict(
           'for seven consecutive days, and no storage technology has yet been '
           'built at the scale that period requires. The alternative to a '
           'reserve, in those conditions, is not lower emissions; it is demand '
-          'that goes unserved, which in a cold week is a question of '
-          'mortality rather than of inconvenience.',
+          'that goes unserved, which in a cold week is a question of mortality.',
           'The strongest objection to my position is that a reserve kept for '
           'emergencies is reliably used for more than emergencies, and the '
-          'history of such arrangements supports it. I think the answer is '
-          'design rather than refusal: a running-hours limit written into the '
+          'history of such arrangements supports it. I think the answer is design: a running-hours limit written into the '
           'licence, published annually, with the reserve retired automatically '
           'once multi-day storage is demonstrated. If that condition is never '
           'met, the objection was right and the plants stay, which is a cost I '
@@ -1350,8 +1336,7 @@ UNIT = dict(
           'without it, and that is a question evidence can settle.'],
          notes=[
           'Structure 9: position, objection, rebuttal. The objection is given '
-          'its full force — with the admission that history supports it — and '
-          'the rebuttal is a design rather than a denial.',
+          'its full force — with the admission that history supports it — and the rebuttal is a design.',
           'The opening sentence reframes the question by naming what is '
           'actually at stake. Compare an opening that restates the prompt: '
           'this one has already done work by the end of its first line.',
@@ -1411,7 +1396,7 @@ UNIT = dict(
           'it', 'separates a measure from its misuse'),
          ('we are in violent agreement',
           'notes that an apparent dispute is not one'),
-         ('That is a fair hit and I accept it',
+         ('You have me there, and I will not pretend otherwise',
           'concedes a specific point without conceding the argument'),
          ('whichever direction they are going in',
           'applies a criticism to both sides at once')],
@@ -1474,12 +1459,11 @@ UNIT = dict(
   answers=['a reserve kept for emergencies will be used for more than '
            'emergencies',
            'the second: it denies that the arrangement is really reversible',
-           'its own paragraph, because meeting it requires a design and not a '
-           'sentence',
+           'its own paragraph, because meeting it requires a design, which a sentence cannot carry',
            'that running-hours limits are never enforced anywhere, which is '
            'checkable']),
  candos=['I can group five series on a chart by what they do',
-         'I can report a flat series as a finding rather than skip it',
+         'I can report a flat series as a finding instead of skipping it',
          'I can separate three problems hiding behind one word',
          'I can state what a figure excludes in a single clause',
          'I can outline the objection to my own position before writing'],

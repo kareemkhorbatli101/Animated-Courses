@@ -280,8 +280,7 @@ UNIT = dict(
           'I am requesting a human review of the decision on that ground, '
           'under the provisions concerning automated decisions. I should be '
           'grateful if you would confirm three things in your reply: that the '
-          'corrected income figure has been entered; that the reviewer has '
-          'authority to change the decision rather than only to confirm it; '
+          'corrected income figure has been entered; that the reviewer has authority to change the decision, as against only to confirm it; '
           'and the date by which I may expect an answer.',
           'Yours faithfully,',
           'D. Abara-Lindgren'],
@@ -327,7 +326,7 @@ UNIT = dict(
             'The account ending 4471 is recorded in my name but was closed by '
             'its holder in 2019.'),
            ('They used the wrong year.',
-            'The assessment uses the 2023 tax year rather than the most '
+            'The assessment uses the 2023 tax year instead of the most '
             'recent one.'),
            ('I did pay that bill.',
             'The payment recorded as missed was made on 3 February, as the '
@@ -411,8 +410,7 @@ UNIT = dict(
           ('Casimiro', 'You have had an answer, you have not liked it. If we '
            'default it off, about four per cent turn it on, the product is '
            'worse for the other ninety-six, and they do not know why.'),
-          ('Ingrid', 'Four per cent is the number that proves my point rather '
-           'than yours. If almost nobody moves from the default in either '
+          ('Ingrid', 'Four per cent is the number that proves my point, not yours. If almost nobody moves from the default in either '
            'direction, then the default is the decision, and we are the '
            'people making it for everybody.'),
           ('Casimiro', 'Yes. That is true and it is unavoidable. There is no '
@@ -428,18 +426,16 @@ UNIT = dict(
            'because we can measure it, and then we talk as though we had '
            'measured whether people are glad afterwards, which we have never '
            'measured once.'),
-          ('Casimiro', 'That is a fair criticism of our metrics and I do not '
+          ('Casimiro', 'Our metrics deserve that and I do not '
            'have an answer to it.'),
           ('Ingrid', 'Here is a proposal, then. Default on, which you want. '
-           'Plus a monthly one-line summary of what it has been doing, in the '
-           'product rather than in settings. And a measure of whether people '
+           'Plus a monthly one-line summary of what it has been doing, in the product itself, where people will see it. And a measure of whether people '
            'are glad a week later, which we build before the next '
            'release.'),
           ('Casimiro', 'A week later is an expensive measure to build. We '
            'would have to contact people who have already left.'),
           ('Ingrid', 'Which is exactly the population whose view we have '
-           'never collected, and I notice that is an argument for building '
-           'it rather than against.'),
+           'never collected, and I notice that is an argument for building it.'),
           ('Casimiro', 'The summary will reduce engagement.'),
           ('Ingrid', 'Almost certainly. Say that out loud in the meeting '
            'rather than in this room and I will accept whatever we '
@@ -449,7 +445,7 @@ UNIT = dict(
            'default?',
            ['Four per cent', 'Fourteen per cent', 'Forty per cent',
             'Ninety-six per cent'], 0,
-           'Which Ingrid says proves her point rather than his.'),
+           'Which Ingrid says proves her point, not his.'),
           ('What does Casimiro concede about defaults?',
            ['They can be neutral', 'There is no neutral default',
             'Prompts solve the problem', 'Users decide'], 1,
@@ -461,7 +457,7 @@ UNIT = dict(
           ('What does Casimiro say he has no answer to?',
            ['The default question', 'The criticism of their metrics',
             'The summary proposal', 'The release date'], 1,
-           'He calls it a fair criticism of their metrics.'),
+           'He concedes that their metrics deserve it.'),
           ('What does Ingrid ask him to do in the larger meeting?',
            ['Support her proposal', 'Say out loud that the summary will '
             'reduce engagement', 'Delay the release', 'Present the data'], 1,
@@ -469,7 +465,7 @@ UNIT = dict(
    speak=dict(
     part='Part 1 into Part 2', focus='Choosing',
     intro=('Short answers, then the long turn. Bullets in order, equal '
-           'weight, and develop rather than list.'),
+           'weight, and developed instead of merely listed.'),
     cue=('Describe a choice that was made easier or harder for you by '
          'technology.',
          ['what the choice was', 'what the technology did',
@@ -510,8 +506,7 @@ UNIT = dict(
           'range of things an ordinary listener now hears in a year is wider '
           'than it was when the filter was a local shop with limited shelf '
           'space.',
-          'The case that it narrows is better understood as a claim about '
-          'the objective rather than about the mechanism. These systems are '
+          'The case that it narrows is better understood as a claim about the objective, where the mechanism is sound enough. These systems are '
           'built to maximise time spent, because time spent is what can be '
           'measured, and what holds attention is not always what a person '
           'would endorse afterwards. A filter optimising for engagement will '
@@ -522,8 +517,7 @@ UNIT = dict(
           'problem. The evidence is consistent across products: almost nobody '
           'changes a setting. Four per cent is a typical figure. Whoever '
           'chooses the default is therefore making the decision for almost '
-          'everybody, and that is a transfer of a choice rather than a '
-          'narrowing of one.',
+          'everybody, and that is a transfer of a choice, which is a different complaint from a narrowing of one.',
           'What follows is modest and specific. I would not ban these '
           'systems or require them to be off. I would require that what they '
           'optimise for is stated plainly, and that a user can see what has '
@@ -544,7 +538,7 @@ UNIT = dict(
           'not proposing makes what you are proposing sound considered.'],
          criterion=[('Questioning what the prompt compares against',
                      'Task Response'),
-                    ('Criticising an objective rather than a mechanism',
+                    ('Criticising an objective, not a mechanism',
                      'Task Response'),
                     ('Declining the strong options before proposing the '
                      'modest ones', 'Coherence and Cohesion')],
@@ -615,12 +609,10 @@ UNIT = dict(
           'The model combines the inputs according to its weights and '
           'produces a score. The score is a number and is not yet a decision. '
           'It becomes one only when compared with a threshold, which is set '
-          'separately, usually by the organisation rather than by whoever '
-          'built the model, and which can be moved without changing the model '
+          'separately, usually by the organisation, where everybody assumes its authors set it, and which can be moved without changing the model '
           'at all.',
           'This separation is the most commonly misunderstood part of the '
-          'diagram. A complaint that a system is too harsh is frequently a '
-          'complaint about the threshold and not about the model, and the two '
+          'diagram. A complaint that a system is too harsh is frequently a complaint about the threshold, where the model is blamed, and the two '
           'are owned by different people and changed by different processes. '
           'A system can be made more generous overnight without anybody '
           'retraining anything.',
@@ -628,7 +620,7 @@ UNIT = dict(
           'requested it is notified directly as the outcome. If review is '
           'requested, it passes to a human reviewer, and the question of '
           'whether that reviewer may change the decision or only confirm it '
-          'is decided by policy rather than by the diagram.',
+          'is decided by policy, which the diagram cannot show.',
           'The historical records deserve a sentence of their own. The model '
           'learned from decisions made in the past, so it reproduces whatever '
           'pattern those decisions contained. If the past decisions were '
@@ -885,7 +877,7 @@ UNIT = dict(
           'have defaulted, the average score should also be the same across '
           'groups. One group’s poor applicants scoring systematically higher '
           'means they are approved more often and then suffer the '
-          'consequences, which is a harm rather than a benefit.',
+          'consequences, which is a harm dressed as a benefit.',
           'Each of these is defensible and each corresponds to a complaint '
           'somebody could reasonably make. The result, proved in 2016 and '
           'robust to every attempt to escape it, is that a system can satisfy '
@@ -895,7 +887,7 @@ UNIT = dict(
           'The conclusion is not that fairness is meaningless or that we '
           'should abandon the attempt. It is that choosing a fairness '
           'criterion is a choice about which harm to accept, and that this '
-          'choice is political rather than technical. An engineer who selects '
+          'choice is political, not technical. An engineer who selects '
           'one has made a decision about distribution that nobody elected '
           'them to make, usually without noticing that the decision was '
           'available.',
@@ -912,16 +904,15 @@ UNIT = dict(
           'Postcode, occupation, the age of an account and a dozen other '
           'variables jointly reconstruct the characteristic well enough for a '
           'model to use it without ever seeing it. Deleting the column '
-          'removes the ability to measure the disparity and not the '
-          'disparity, which is worse than doing nothing.',
+          'removes the ability to measure the disparity while leaving the disparity in place, which is worse than doing nothing.',
           'This reframes what transparency should require. Publishing source '
           'code reveals which criterion was implemented only to somebody able '
           'to read it and willing to spend a week. Publishing the criterion '
           'itself, in a sentence, tells everybody which harm the organisation '
           'chose to bear and which it chose to impose, and that sentence is '
           'the thing a public can actually argue about.',
-          'There is a final observation that makes the problem harder rather '
-          'than easier. The impossibility concerns groups that have been '
+          'There is a final observation that makes the problem harder, not '
+          'easier. The impossibility concerns groups that have been '
           'defined. Any real population can be divided in many ways, and a '
           'system calibrated across one division will generally fail '
           'calibration across another that nobody thought to check. There is '
@@ -967,7 +958,7 @@ UNIT = dict(
           ('Lecturer', 'I am going to present a result that I think every '
            'person who writes about this subject should know and that most '
            'do not, and then I am going to argue that its consequences are '
-           'political rather than technical.'),
+           'political, not technical.'),
           ('Lecturer', 'Set up the problem. A system scores people. There are '
            'two groups. Here are three things you might reasonably mean by '
            'fair, and I want you to notice that you probably believe all '
@@ -1066,7 +1057,7 @@ UNIT = dict(
                'threshold, not the code',
                [('Code is not an explanation to anybody who needs one',
                  ['reading it requires expertise almost no applicant has',
-                  'it reveals the mechanism and not the choice behind it']),
+                  'it reveals the mechanism while hiding the choice behind it']),
                 ('The criterion and the cut-off are a sentence each and '
                  'settle most complaints',
                  ['they name which harm the organisation chose to impose',
@@ -1077,7 +1068,7 @@ UNIT = dict(
           'Three minutes on the six tests: does each idea answer the question '
           'asked, is it true, can you support it for four sentences, is it '
           'distinct, is it of roughly equal weight, does it depend on '
-          'another. Cross out as you go rather than deliberating.',
+          'another. Cross out as you go instead of deliberating.',
           'Two minutes on distinctness specifically, because it is the test '
           'that fails most often and the one you will be tempted to skip. '
           'Look for two ideas that are the same idea in different clothes; '
@@ -1103,7 +1094,7 @@ UNIT = dict(
           'The point of doing all five once, under time pressure, is that '
           'you will never do all five in the exam. You will do the two that '
           'this exercise shows you need.'],
-         criterion=[('Planning as a timed sequence rather than a pause',
+         criterion=[('Planning as a timed sequence, not a pause',
                      'Coherence and Cohesion'),
                     ('Knowing which families you personally need',
                      'Task Response')],
@@ -1120,7 +1111,7 @@ UNIT = dict(
               'This is a theorem, not an engineering limitation.',
               'The choice is which harm to accept, not whether to accept '
               'one.'],
-    task='Restate each as a precise impossibility rather than a '
+    task='Restate each as a precise impossibility, not as a '
          'difficulty.',
     items=[('It is hard to be fair to everybody.',
             'Three reasonable fairness criteria cannot all be satisfied '
@@ -1178,8 +1169,7 @@ UNIT = dict(
           'auditor has a statutory right to the books. An algorithmic auditor '
           'generally has whatever access the audited firm agrees to give, and '
           'firms have commercial reasons to give as little as possible. This '
-          'is the most tractable problem, because it is a matter of '
-          'legislation rather than of logic.',
+          'is the most tractable problem, because it is a matter of legislation, and legislation is a thing a parliament can pass in an afternoon when it decides to.',
           'The second is the object of the audit. Accounts are a finite '
           'record of what happened. A model is a function, and auditing a '
           'function means establishing how it behaves across inputs, '
@@ -1192,8 +1182,7 @@ UNIT = dict(
           'cycle. Since no system can satisfy every reasonable fairness '
           'criterion, an auditor must choose which to test against. That '
           'choice is the political decision the audit was supposed to '
-          'scrutinise, now taken by the auditor rather than by the firm, and '
-          'taken in private.',
+          'scrutinise, now taken by the auditor, in private.',
           'None of this means audits are worthless. They have found real '
           'faults: training data missing whole categories of people, '
           'thresholds set without documentation, systems in production that '
@@ -1235,7 +1224,7 @@ UNIT = dict(
          items=[
           ('Which paragraph identifies the most easily fixed problem?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'Access, which is a matter of legislation rather than of logic.'),
+           'Access, which legislation could fix tomorrow if anybody wished to.'),
           ('Which paragraph says the auditor ends up making the political '
            'choice?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
             'Paragraph 5'], 2,
@@ -1288,8 +1277,7 @@ UNIT = dict(
            'mandate. That is worse than a firm making it openly, because at '
            'least the firm can be voted against by its customers.'),
           ('Delacroix-Mbeki', 'That is the strongest criticism of my '
-           'profession and I accept it without qualification. It is also an '
-           'argument for publication rather than for abolishing audit.'),
+           'profession and I accept it without qualification. It is also an argument for publication, which is a reform and not an abolition.'),
           ('Yusupov', 'Publication invites gaming. Publish my threshold and '
            'applicants optimise to it.'),
           ('Delacroix-Mbeki', 'Some will. Which ones? The ones with advisers. '
@@ -1311,8 +1299,7 @@ UNIT = dict(
            'sentences published: the criterion, the threshold and who may '
            'move it, the date of last training, and whether a reviewer may '
            'overturn. Everything else stays confidential.'),
-          ('Yusupov', 'I would sign that today, and I would predict my '
-           'industry fights all four.')],
+          ('Yusupov', 'Put those four in a statute and my industry will fight every one of them, which is how I know they are the right four.')],
          items=[
           ('What does the auditor concede at the start?',
            ['Audits are too expensive',
@@ -1359,7 +1346,7 @@ UNIT = dict(
            ('support', 'The honest difficulty is that inspection cannot '
             'establish very much.'),
            ('follow-up', 'So I would want publication of four or five facts '
-            'rather than a certificate that sounds stronger than it is.')]),
+            'instead of a certificate that sounds stronger than it is.')]),
    write=[
     dict(task='Task 2', fork=None, wband='essay',
          heading='Should companies be required to explain automated '
@@ -1393,8 +1380,7 @@ UNIT = dict(
           'My own position is that both sides are arguing about the wrong '
           'object. What determines most outcomes is not the model but the '
           'threshold the score is compared with, and that is a single number, '
-          'set by the organisation rather than by any engineer, changeable in '
-          'an afternoon without retraining anything. Alongside it sit the '
+          'set by the organisation, beyond the reach of any engineer, changeable in an afternoon without retraining anything. Alongside it sit the '
           'fairness criterion the system was built to satisfy, the date the '
           'model was last trained, and whether a human reviewer may overturn '
           'a decision or only confirm it.',
@@ -1403,8 +1389,7 @@ UNIT = dict(
           'and none of them reveals anything a competitor could use. '
           'Requiring them is a modest demand that would do more than any '
           'amount of published code, which is the usual pattern with '
-          'transparency: the useful disclosure is small, specific, and not '
-          'the one being argued about.'],
+          'transparency: the useful disclosure is small, specific, and almost never the one being argued about.'],
          notes=[
           'The essay refuses the object of the dispute in its first '
           'paragraph and replaces it. That is the riskiest of the moves this '
@@ -1413,8 +1398,7 @@ UNIT = dict(
           'Paragraph 3 gives the opposing side a genuine technical point, '
           'and does so in its strongest form. Conceding something real is '
           'what buys the reader’s assent for the relocation that follows.',
-          'The closing generalisation — the useful disclosure is small, '
-          'specific and not the one being argued about — lifts the essay from '
+          'The closing generalisation — the useful disclosure is small, specific and almost never the one being argued about — lifts the essay from '
           'a position on one question to a claim about a kind of question. '
           'That is the last thing to add and only when the specific case has '
           'been made.'],
@@ -1473,8 +1457,7 @@ UNIT = dict(
           'acknowledges an opponent’s candour'),
          ('Secrecy is not protecting the applicant you are describing',
           'redirects a protective argument'),
-         ('I would sign that today, and I would predict my industry fights '
-          'all four', 'agrees while forecasting resistance')],
+         ('Put those four in a statute and my industry will fight every one, which is how I know they are the right all four', 'agrees while forecasting resistance')],
    trans=['the analogy breaks', 'none of this means', 'rather than',
           'the conclusion'],
   ),
@@ -1526,7 +1509,7 @@ UNIT = dict(
          'code',
          [('Code is not an explanation to anybody who needs one',
            ['reading it requires expertise almost no applicant has',
-            'it shows the mechanism and not the choice behind it']),
+            'it shows the mechanism while hiding the choice behind it']),
           ('The criterion and the cut-off are a sentence each and settle most '
            'complaints',
            ['they name which harm the organisation chose to impose',
@@ -1550,7 +1533,7 @@ UNIT = dict(
  candos=['I can challenge an automated decision on a ground that succeeds',
          'I can describe a device diagram as apparatus then operation',
          'I can follow both arms of a branch to the end point',
-         'I can state an impossibility precisely rather than as a '
+         'I can state an impossibility precisely, not as a '
          'difficulty',
          'I can sit a full timed Reading paper to the clock times I set'],
  tip=('This is the last unit of the volume. Before you sit the timed paper, '

@@ -153,7 +153,7 @@ UNIT = dict(
            'report.'),
           ('Lender', 'One of them was relined in the nineteen-eighties.'),
           ('Registrar', 'Then I will note that now, and it will go in the '
-           'file rather than being discovered by a conservator in six '
+           'file instead of being discovered by a conservator in six '
            'weeks.')],
          items=[
           ('Updated value for the pair: £____________', None, '310,000',
@@ -161,14 +161,14 @@ UNIT = dict(
           ('A courier is required above £____________.', None, '1 million',
            'The gallery threshold, which these works are below.'),
           ('Works on paper are displayed at ____________ lux.', None, '50',
-           'Stated as a condition of the loan rather than a preference.'),
+           'Stated as a condition of the loan, not a preference.'),
           ('A condition report must be from the last ____________ months.',
            None, 'three',
            'The lender’s report is from 2019, so the gallery will commission '
            'a new one.'),
           ('The lender discloses that one work was ____________ in the '
            '1980s.', None, 'relined',
-           'Which the registrar notes immediately rather than leaving to be '
+           'Which the registrar notes immediately instead of leaving it to be '
            'found later.')]),
     dict(heading='A short talk: what a registrar worries about', part='Part 2',
          task='A briefing to new museum staff', band='l2',
@@ -180,11 +180,9 @@ UNIT = dict(
            'which is not the order you would guess.'),
           ('Registrar', 'Fourth, and rarest, is transport. Everybody fears '
            'the lorry. Fine art shippers are extremely good and in eleven '
-           'years I have had one incident in transit, which was a delay rather '
-           'than damage. The lorry is where the anxiety goes because it is '
+           'years I have had one incident in transit, which was a delay, with nothing broken. The lorry is where the anxiety goes because it is '
            'the part you can picture.'),
-          ('Registrar', 'Third is display conditions, and that is mostly a '
-           'failure of nerve rather than of equipment. A curator wants a work '
+          ('Registrar', 'Third is display conditions, and that is mostly a failure of nerve; the equipment is rarely at fault. A curator wants a work '
            'in a particular room, the room has a window, and somebody persuades '
            'themselves that a blind will do. The numbers in the agreement are '
            'not aspirations.'),
@@ -196,8 +194,7 @@ UNIT = dict(
           ('Registrar', 'Before I get to the first, one general remark about '
            'all three. None of them is an accident. Each is a place where '
            'somebody made a judgement under time pressure with incomplete '
-           'information, and the fix in every case is a checklist rather than '
-           'a better person. I say that because new staff tend to assume the '
+           'information, and the fix in every case is a checklist, which no amount of care replaces. I say that because new staff tend to assume the '
            'solution is vigilance, and vigilance is the one resource that '
            'reliably runs out at four o’clock on an installation day.'),
           ('Registrar', 'And first, by a wide margin, is the condition report. '
@@ -215,8 +212,7 @@ UNIT = dict(
           ('What does she say about transport?',
            ['It is the biggest risk', 'It is where anxiety goes but not '
             'incidents', 'It is uninsurable', 'It is improving'], 1,
-           'One incident in eleven years, and that a delay rather than '
-           'damage.'),
+           'One incident in eleven years, and that a delay with nothing broken.'),
           ('Failures of display conditions are mostly',
            ['equipment failures', 'a failure of nerve', 'budget decisions',
             'the lender’s fault'], 1,
@@ -258,8 +254,7 @@ UNIT = dict(
           'and ten thousand pounds for the pair.',
           'Before I confirm, I would be grateful for some detail about the '
           'arrangements for their safety. Could you tell me at what value they '
-          'will be insured and whether the cover runs from the moment they '
-          'leave this house rather than from their arrival with you? I would '
+          'will be insured and whether the cover runs from the moment they leave this house, as against from their arrival with you? I would '
           'also like to know the light level at which works on paper are '
           'displayed in the gallery, and who will prepare the condition report.',
           'There is one condition I would want to make. Neither drawing has '
@@ -271,7 +266,7 @@ UNIT = dict(
           'Yours sincerely,',
           'T. Brightmore'],
          notes=[
-          'Bullet two is answered as three specific questions rather than a '
+          'Bullet two is answered as three specific questions instead of a '
           'general request for reassurance. Specific questions also show '
           'control of the topic, which lifts Lexical Resource without any '
           'unusual vocabulary.',
@@ -592,11 +587,10 @@ UNIT = dict(
              'named precisely, and then show that the general form does not '
              'follow.'),
     examples=['There is a version of the complaint I accept.',
-              'The objection holds for the top of the market and not for the '
-              'market.',
+              'The objection holds for the top of the market, which is a small part of it.',
               'That is true of some purchases and is being offered as true of '
               'all.',
-              'I agree with the premise and not with what is drawn from it.'],
+              'I agree with the premise; it is the inference I resist.'],
     task='Concede a version of each claim, then limit it.',
     items=[('Art prices are absurd.',
             'Some prices at the very top are absurd; most of the market is '
@@ -608,8 +602,7 @@ UNIT = dict(
             'Specific practices are opaque, which is not the same as the '
             'market being corrupt throughout.'),
            ('The money would be better spent on hospitals.',
-            'That is true of almost any private purchase, which is why it is '
-            'an argument about wealth rather than about art.'),
+            'That is true of almost any private purchase, which is why it is an argument about wealth, under which art happens to fall.'),
            ('Nobody looks at these paintings.',
             'Works held in storage are indeed not looked at, and most sold '
             'works are hung somewhere.')]),
@@ -721,7 +714,7 @@ UNIT = dict(
           ('Analyst', 'Put the two together. My category chart is weighted by '
            'value. So a fourteen-point move in that chart can be produced '
            'without a single ordinary buyer changing their behaviour. If two '
-           'hundred people at the top buy contemporary rather than '
+           'hundred people at the top buy contemporary instead of '
            'impressionist, the chart moves fourteen points and taste, in any '
            'ordinary sense, has not shifted at all.'),
           ('Analyst', 'Let me show you how large the effect is, because '
@@ -792,8 +785,7 @@ UNIT = dict(
            ('follow-up', 'A painting in a free port is doing no cultural work '
             'at all.'),
            ('support', 'Whereas the same painting lent to a museum is.'),
-           ('follow-up', 'So I would tax the storage rather than the '
-            'purchase.')]),
+           ('follow-up', 'So I would tax the storage, leaving the purchase alone.')]),
    write=[
     dict(task='Task 1', fork='A',
          heading='Two charts of one market',
@@ -932,7 +924,7 @@ UNIT = dict(
           'ends a career if it is wrong. The institutional cost of raising the '
           'question was borne entirely by the person raising it, and the '
           'benefit, if any, accrued to the gallery.',
-          'This is a general pattern rather than a feature of art history. '
+          'This is a general pattern, visible well beyond art history. '
           'Wherever expert judgement is distributed across individuals with no '
           'mechanism for pooling doubt, the field can hold a great deal of '
           'quiet scepticism and act on none of it. The information existed in '
@@ -958,8 +950,7 @@ UNIT = dict(
           'original failure. If retraction were cheap and routine, raising a '
           'doubt would be cheap too. It is precisely because a doubt, once '
           'confirmed, imposes uncosted damage on colleagues and institutions '
-          'that the doubt is phrased as an observation about unusual quality '
-          'rather than as a question with an answer.',
+          'that the doubt is phrased as an observation about unusual quality, which commits nobody.',
           'There is a final turn worth noticing. The panel is the same object '
           'it was in 2012. The pleasure it gave, the puzzles it resolved, the '
           'descriptions written about it — none of these has been shown to be '
@@ -1145,8 +1136,7 @@ UNIT = dict(
           'outline shows you what you actually built.',
           'Most candidates discover the same thing the first time: one main '
           'idea has two paragraphs and another has half of one. That is a '
-          'balance fault, and it is a Coherence and Cohesion fault rather '
-          'than a Task Response one.',
+          'balance fault, and it is a Coherence and Cohesion fault, where candidates expect a Task Response one.',
           'Do this exercise three times in this volume and you will stop '
           'needing it, which is the point of the exercises in this series '
           'generally.'],
@@ -1238,8 +1228,7 @@ UNIT = dict(
           'achieved. Vermeer’s canvas solved problems that had not been '
           'solved. The forger’s canvas solved the problem of copying a '
           'solution, which is difficult but different in kind. On this view we '
-          'are valuing an act, and the object is the record of that act rather '
-          'than the thing valued.',
+          'are valuing an act, and the object is the record of that act, standing in for what is valued.',
           'A third answer denies that the question is about the object at all. '
           'What differs, on this account, is the institution: one canvas is '
           'embedded in a practice of scholarship, display and exchange that '
@@ -1252,8 +1241,7 @@ UNIT = dict(
           'The achievement account predicts that a forgery whose maker is '
           'known and admired might retain value, which happens: works by '
           'celebrated forgers sell for substantial sums under their own '
-          'names. The institutional account predicts that value should track '
-          'scholarly consensus rather than any discovery, which is harder to '
+          'names. The institutional account predicts that value should track scholarly consensus, which moves without any discovery, which is harder to '
           'test but broadly matches the behaviour of prices during disputed '
           'attributions.',
           'The accounts are not exclusive and the most defensible position '
@@ -1270,7 +1258,7 @@ UNIT = dict(
           'differences that nobody had thought to look for, so that any pair '
           'of canvases indistinguishable today may be trivially '
           'distinguishable in twenty years.',
-          'That objection is practical rather than philosophical, and the '
+          'That objection is practical, not philosophical, and the '
           'standard reply is that the experiment concerns what we would say '
           'if the condition held. But the objection has more force than the '
           'reply allows. If the only access we have to the historical fact is '
@@ -1333,7 +1321,7 @@ UNIT = dict(
            'finding differences that nobody expected to find, with techniques '
            'that did not exist when the object was last examined. Your premise '
            'asks me to assume away the entire history of my field.'),
-          ('Achterberg', 'That is fair as a practical matter and it does not '
+          ('Achterberg', 'As a practical matter I cannot argue with that, and it does not '
            'touch the philosophical point. I am asking what we would say if '
            'they were identical, in order to find out what our judgement is '
            'about.'),
@@ -1394,7 +1382,7 @@ UNIT = dict(
           ('Why does she say a reattributed work comes off the wall?',
            ['It loses value', 'The label would be wrong',
             'Visitors complain', 'It needs conservation'], 1,
-           'She calls this an honest answer and not a good one.')])],
+           'She calls this an honest answer, while refusing to call it a good one.')])],
    speak=dict(
     part='Part 3', focus='Originals and copies',
     intro=('The hardest turn in the unit. Try once to say what would have to '
@@ -1406,8 +1394,7 @@ UNIT = dict(
     shape=[('answer', 'For paintings yes, and I notice it is not true for '
             'books.'),
            ('support', 'A novel in any edition is the same novel.'),
-           ('follow-up', 'Which suggests the painting case is about the '
-            'object and not the work.'),
+           ('follow-up', 'Which suggests the painting case is about the object itself.'),
            ('support', 'So what I value must be contact with the actual '
             'surface.'),
            ('follow-up', 'If I found I could not tell, in a blind test, I '
@@ -1461,7 +1448,7 @@ UNIT = dict(
           'The last sentence inverts the opponent’s own criterion: authority. '
           'Taking the value your opponent appeals to and showing it supports '
           'you is the strongest ending available in a discussion essay.'],
-         criterion=[('Rebutting by changing a condition rather than denying',
+         criterion=[('Rebutting by changing a condition, not by denying',
                      'Task Response'),
                     ('One concrete case used precisely', 'Lexical Resource'),
                     ('Turning the opponent’s own criterion',
@@ -1477,10 +1464,9 @@ UNIT = dict(
     examples=['Both objections assume the work would be displayed as what it '
               'pretended to be.',
               'Displayed as what it is, the objection reverses.',
-              'That is true of an unlabelled work and not of a labelled '
-              'one.',
+              'That is true of an unlabelled work; a label removes the difficulty.',
               'The difficulty disappears once the condition is changed.'],
-    task='Rebut each objection by changing a condition rather than denying '
+    task='Rebut each objection by changing a condition instead of denying '
          'it.',
     items=[('A forgery misleads the public.',
             'It misleads only if it is labelled as genuine; labelled '
@@ -1505,7 +1491,7 @@ UNIT = dict(
           ('aesthetic', 'relating to the experience of beauty'),
           ('consensus', 'general agreement among those qualified to judge'),
           ('premise', 'a statement an argument assumes')],
-   expr=[('by stipulation', 'marks something assumed rather than argued'),
+   expr=[('by stipulation', 'marks something assumed, not argued'),
          ('the thought experiment earns its keep',
           'justifies an abstract device by what it predicts'),
          ('which is itself a position, and an interesting one',
@@ -1575,7 +1561,7 @@ UNIT = dict(
  candos=['I can give each of two charts its own structuring dimension',
          'I can write the one sentence that combines two visuals',
          'I can say what a piece of evidence cannot establish',
-         'I can rebut by changing a condition rather than denying a claim',
+         'I can rebut by changing a condition instead of denying a claim',
          'I can outline my own essay afterwards and find the gap'],
  tip=('With two visuals, count your paragraphs before you start: Overall, '
       'chart one, chart two. If you are tempted to write a fourth, it is '

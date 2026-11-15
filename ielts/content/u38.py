@@ -112,7 +112,7 @@ UNIT = dict(
           ('You sign ____________ copies of the consent form.', None, 'two',
            'Paragraph 2: one for the study file and one for you, with a copy '
            'in your medical notes.'),
-          ('____________ follows consent rather than preceding it.', None,
+          ('____________ follows consent instead of preceding it.', None,
            'Screening',
            'Paragraph 3, and data from those found ineligible is destroyed '
            'within three months.'),
@@ -183,8 +183,7 @@ UNIT = dict(
            'to second-guess it. What it is checking is whether the person in '
            'front of you can give consent that means anything.'),
           ('Speaker', 'That breaks into three questions. Does the volunteer '
-           'understand what will happen? Are they free to refuse, which is a '
-           'question about their circumstances and not about your intentions? '
+           'understand what will happen? Are they free to refuse, which is a question about their circumstances, whatever you intend? '
            'And is the burden on them proportionate to what the study might '
            'produce? That third one is where most studies are sent back.'),
           ('Speaker', 'Let me give the commonest failure, since it is '
@@ -442,7 +441,7 @@ UNIT = dict(
            'characters.'),
           ('Dr Ferreira-Nakamura', 'Then the system is producing a false '
            'statement and we are both agreeing it is nobody’s fault.'),
-          ('Journalist', 'That is fair, and I will push back on something. '
+          ('Journalist', 'Guilty, and I am going to push back on something of yours. '
            'Your press release led with twenty-five per cent. The adjusted '
            'figure is nine. Your own institution chose the larger number for '
            'the first line, and I am held responsible for the headline it '
@@ -488,7 +487,7 @@ UNIT = dict(
           ('What does the journalist criticise about the press release?',
            ['It was late', 'It led with the unadjusted figure',
             'It omitted the sample size', 'It named no authors'], 1,
-           'Twenty-five per cent in the first line rather than nine.'),
+           'Twenty-five per cent in the first line instead of nine.'),
           ('How does the scientist respond to that?',
            ['She disputes it', 'She accepts it and says it is not a defence',
             'She blames the journal', 'She asks for a correction'], 1,
@@ -506,7 +505,7 @@ UNIT = dict(
    speak=dict(
     part='Part 1 into Part 2', focus='Claims',
     intro=('Short answers, then the long turn. The card asks for a story; '
-           'tell one story properly rather than three briefly.'),
+           'tell one story properly instead of three briefly.'),
     cue=('Describe something you were told that turned out to be wrong.',
          ['what you were told', 'who told you',
           'how you found out it was wrong',
@@ -545,24 +544,20 @@ UNIT = dict(
           'first, and the reversals do more damage to trust than the original '
           'errors.',
           'The case against is practical and serious. Newspapers compete for '
-          'attention, a hedged headline loses to an unhedged one, and a rule '
-          'binding one outlet and not another simply transfers readers. There '
+          'attention, a hedged headline loses to an unhedged one, and a rule binding one outlet while leaving its competitor free simply transfers readers. There '
           'is also a real limit to how much method a general reader will '
           'absorb, and an article that explains confounding before it says '
           'what happened will not be finished.',
           'My own view is that both sides are arguing about the wrong '
           'placement. The useful reform is not more caution but better '
-          'numbers, and specifically absolute rather than relative ones. A '
+          'numbers, and specifically absolute ones instead of relative ones. A '
           'risk falling from four in a thousand to three in a thousand is '
           'honest, it fits in a headline, and it is more interesting than '
-          'twenty-five per cent because a reader can picture it. The '
-          'limitation is carried by the number itself rather than bolted on '
-          'afterwards.',
+          'twenty-five per cent because a reader can picture it. The limitation is carried by the number itself, where a caveat is bolted on afterwards.',
           'The same principle handles the design problem. A caveat written '
           'into the sentence that states the finding survives editing, because '
           'removing it breaks the sentence. What is appended can be deleted; '
-          'what is structural cannot, and that is a fact about editing rather '
-          'than about ethics.'],
+          'what is structural cannot, and that is a fact about editing, which no appeal to ethics changes.'],
          notes=[
           'The opening does not restate the prompt. It makes a claim about '
           'why the existing solution fails, which means the essay has already '
@@ -571,13 +566,13 @@ UNIT = dict(
           'relocation: not whether to add caution but where it should sit. '
           'Notice how much work the word placement does.',
           'The final paragraph gives a mechanism — what is appended can be '
-          'deleted — that explains the recommendation rather than repeating '
+          'deleted — that explains the recommendation instead of repeating '
           'it. A conclusion that explains why your proposal would survive '
           'contact with reality is worth more than one that asserts it '
           'would.'],
-         criterion=[('An opening that argues rather than restates',
+         criterion=[('An opening that argues, not one that restates',
                      'Task Response'),
-                    ('A position that relocates rather than chooses',
+                    ('A position that relocates, not one that chooses',
                      'Task Response'),
                     ('A conclusion giving the mechanism',
                      'Coherence and Cohesion')],
@@ -613,7 +608,7 @@ UNIT = dict(
            ('The policy reduced crime.',
             'Crime fell after the policy, which is consistent with the policy '
             'having reduced it and does not establish that it did.')]),
-   vocab=[('observational', 'based on watching rather than assigning'),
+   vocab=[('observational', 'based on watching, not on assigning'),
           ('association', 'two things occurring together'),
           ('baseline risk', 'the rate before any change'),
           ('relative risk', 'a change expressed as a proportion of the '
@@ -712,8 +707,7 @@ UNIT = dict(
            'two.'),
           ('Lecturer', 'Boxes one to three — recruit, screen, consent — '
            'determine who is in your study. They matter enormously for '
-           'whether your result applies to anybody else, and not at all for '
-           'whether your result is true of the people in it. Keep those two '
+           'whether your result applies to anybody else, and not at all for whether it is true of the people in it. Keep those two '
            'questions apart and half the confusion in this field '
            'disappears.'),
           ('Lecturer', 'Box four is allocation. A computer assigns each '
@@ -780,12 +774,12 @@ UNIT = dict(
    speak=dict(
     part='Part 3', focus='Showing that something works',
     intro=('Four or five sentences. Try to use one of the unit’s '
-           'distinctions precisely rather than gesturing at it.'),
+           'distinctions precisely instead of gesturing at it.'),
     qs=['How can we tell whether a medicine really works?',
         'Is it fair to give some people a dummy treatment?',
         'Should people be paid to take part in experiments?',
         'Can everything important be tested this way?'],
-    shape=[('answer', 'By assigning the treatment rather than observing who '
+    shape=[('answer', 'By assigning the treatment instead of observing who '
             'takes it.'),
            ('support', 'Otherwise the people who take it differ in other '
             'ways.'),
@@ -810,9 +804,7 @@ UNIT = dict(
           'treatment and the analysis, which is carried out last of all.',
           'In the first phase, volunteers are recruited by responding to an '
           'invitation. They are then screened against a set of eligibility '
-          'criteria, and those who qualify give written consent, which is '
-          'taken only after a cooling-off period rather than at the first '
-          'meeting.',
+          'criteria, and those who qualify give written consent, which is taken only after a cooling-off period has passed.',
           'The second phase consists of two steps. Each participant is first '
           'allocated to a group by a computer, and the resulting assignment '
           'is then concealed, so that neither the participant nor the staff '
@@ -830,8 +822,7 @@ UNIT = dict(
           'description where volunteers are recruited is correct; one where '
           'the researchers recruit volunteers imports an actor the diagram '
           'does not show.',
-          'The Overall statement names the phases rather than the first and '
-          'last stages. On a process diagram the shape of the sequence is the '
+          'The Overall statement names the phases, where a weaker answer names the first and last stages. On a process diagram the shape of the sequence is the '
           'main feature, not its endpoints.'],
          criterion=[('Grouping the sequence into the phases shown',
                      'Coherence and Cohesion'),
@@ -908,14 +899,13 @@ UNIT = dict(
           'often and accepted less often. What reaches print is not a sample '
           'of the research conducted; it is a sample filtered on the result, '
           'and the filter is applied by the same people at every stage.',
-          'A second mechanism operates within studies rather than between '
-          'them. Any dataset admits many defensible analyses: which cases to '
+          'A second mechanism operates inside a single study. Any dataset admits many defensible analyses: which cases to '
           'exclude, which measure to treat as primary, which covariates to '
           'include. A researcher who makes these choices after seeing the data '
           'is not being dishonest, but is selecting among many studies while '
           'believing they have run one.',
-          'Both mechanisms inflate published effect sizes rather than '
-          'inventing effects. This is the point most commonly missed in '
+          'Both mechanisms inflate published effect sizes instead of '
+          'inventing them. This is the point most commonly missed in '
           'public discussion. A finding that fails to replicate is usually not '
           'a finding that is false; it is far more often a real effect that is '
           'considerably smaller than the published estimate, discovered by a '
@@ -939,7 +929,7 @@ UNIT = dict(
           'low, that this rate is predictable from sample sizes that were '
           'public all along, and that nobody in the fields concerned had '
           'calculated it. The last of those is the genuinely damning finding, '
-          'and it is about attention rather than integrity.',
+          'and it is about attention, not integrity.',
           'There is also a question about which findings were chosen for '
           'repetition. The projects selected prominent results, which are by '
           'construction the ones most likely to have been published because '
@@ -985,8 +975,8 @@ UNIT = dict(
           ('About ____________ in ten psychology repetitions produced the '
            'original result.', None, 'four',
            'Paragraph 1, with fewer in cancer biology.'),
-          ('Both mechanisms ____________ published effect sizes rather than '
-           'inventing effects.', None, 'inflate',
+          ('Both mechanisms ____________ published effect sizes instead of '
+           'inventing them.', None, 'inflate',
            'Paragraph 5, which the writer calls the most commonly missed '
            'point.')])],
    listen=[
@@ -1030,8 +1020,7 @@ UNIT = dict(
           ('Lecturer', 'One caution about the projects themselves. They '
            'chose famous findings, and famous findings are the surprising '
            'ones, and surprising ones are disproportionately the lucky ones. '
-           'So that four-in-ten figure describes the reliability of a field’s '
-           'headlines rather than of its ordinary work.'),
+           'So that four-in-ten figure describes the reliability of a field’s headlines, which is a narrower thing than its ordinary work.'),
           ('Lecturer', 'And that determines the remedy. If the problem were '
            'dishonesty you would want audits and sanctions. Because the '
            'problem is arithmetic, you want bigger samples, analyses written '
@@ -1116,7 +1105,7 @@ UNIT = dict(
           'The second idea here passes the sixth test in the useful '
           'direction: it depends on the first, which is why it is second, and '
           'the dependence is what makes the essay feel like an argument '
-          'rather than a list.'],
+          'instead of a list.'],
          criterion=[('Running the distinctness test before writing',
                      'Coherence and Cohesion'),
                     ('Ordering ideas by dependence', 'Task Response')],
@@ -1124,7 +1113,7 @@ UNIT = dict(
                   'You will write it in cycle 5.',
          lines=12)],
    gram=dict(
-    point='Explaining a mechanism rather than asserting a result',
+    point='Explaining a mechanism, not asserting a result',
     explain=('At band 7 the difference is usually mechanism. These patterns '
              'take a claim and say how the thing happens, which is what turns '
              'an assertion into an argument.'),
@@ -1132,7 +1121,7 @@ UNIT = dict(
               'written up less often.',
               'The filter is applied by the same people at every stage.',
               'What reaches print is a sample filtered on the result.',
-              'Both mechanisms inflate effects rather than inventing them.'],
+              'Both mechanisms inflate effects, not invent them.'],
     task='Turn each assertion into a sentence that gives the mechanism.',
     items=[('Published results are biased.',
             'Studies finding nothing are published less often, so the '
@@ -1219,19 +1208,16 @@ UNIT = dict(
           'population. The defenders’ strongest rule — that context matters — '
           'holds here too, and is the rule most often used to rescue findings '
           'that deserve no rescue.',
-          'What would settle it is a third study, designed around the '
-          'moderator rather than around the effect: recruit schools at both '
+          'What would settle it is a third study, designed around the moderator: recruit schools at both '
           'extremes of the baseline measure, pre-specify the comparison, and '
-          'power it to detect a difference between them rather than an average '
+          'power it to detect a difference between them and not an average '
           'effect. That study is expensive and nobody’s career is advanced by '
           'running it, which is why it has not been run.',
           'It is worth noticing what has happened to the two researchers '
           'since. Neither has retracted anything, because there is nothing to '
           'retract: no error has been identified in either study. The '
           'original paper continues to be cited, chiefly by people who have '
-          'not read the replication, and the replication is cited chiefly by '
-          'people making general arguments about the field rather than '
-          'specific ones about this effect. The literature has not resolved '
+          'not read the replication, and the replication is cited chiefly by people making general arguments about the field, who have no interest in this effect specifically. The literature has not resolved '
           'the question so much as split into two populations of readers.',
           'This outcome is more common than the public account of '
           'replication suggests, and it follows from how citation works. A '
@@ -1304,8 +1290,7 @@ UNIT = dict(
           ('Adeyemi-Strand', 'And the honest answer is that I knew about the '
            '2011 paper and I did not design around it, because designing '
            'around a moderator requires recruiting at both extremes and it '
-           'would have cost three times as much. That is a resource '
-           'constraint and not a disagreement.'),
+           'would have cost three times as much. That is a resource constraint, which is a different thing from a disagreement.'),
           ('Vasquez-Oyelaran', 'Which I understand, and the result is that we '
            'now have an expensive null that does not answer the question.'),
           ('Adeyemi-Strand', 'Let me put the hardest thing to you. Your '
@@ -1327,8 +1312,7 @@ UNIT = dict(
            'field, and mine by people who have not read yours. Neither '
            'community reads the other, so the disagreement is not being had '
            'anywhere except in this room.'),
-          ('Adeyemi-Strand', 'That is true, and it is a fact about citation '
-           'rather than about either of us.'),
+          ('Adeyemi-Strand', 'That is true, and it is a fact about citation, which neither of us controls.'),
           ('Vasquez-Oyelaran', 'So do I, and neither of us can get it funded, '
            'which is the actual finding of this exchange.')],
          items=[
@@ -1350,8 +1334,7 @@ UNIT = dict(
           ('Why did Adeyemi-Strand not design around the moderator?',
            ['He disagreed with it', 'It would have cost three times as much',
             'He was unaware of it', 'The schools refused'], 1,
-           'He calls it a resource constraint rather than a '
-           'disagreement.'),
+           'He calls it a resource constraint, separating it from any disagreement.'),
           ('What does he call the hardest point for her?',
            ['The sample size',
             'That subgroup findings have rescued false results before',
@@ -1370,8 +1353,7 @@ UNIT = dict(
         'Is it a weakness or a strength when science corrects itself?',
         'Who should pay for studies that check other studies?',
         'Can the public be expected to follow these arguments?'],
-    shape=[('answer', 'By treating a failed repetition as information rather '
-            'than a verdict.'),
+    shape=[('answer', 'By treating a failed repetition as information.'),
            ('support', 'It tells you the effect is smaller or narrower, not '
             'usually that it is absent.'),
            ('follow-up', 'Those are different conclusions with different '
@@ -1388,8 +1370,7 @@ UNIT = dict(
                  'experiment succeeded. To what extent do you agree or '
                  'disagree? Write at least 250 words.'),
          model=[
-          'I agree, and I want to argue for it on grounds that are '
-          'arithmetical rather than ethical, because the ethical case is '
+          'I agree, and I want to argue for it on grounds that are arithmetical, because the ethical case is '
           'familiar and has not persuaded anybody who was not already '
           'persuaded.',
           'The core problem is that a literature assembled from successes is '
@@ -1398,8 +1379,7 @@ UNIT = dict(
           'which surveys suggest is typical, then half of all work on real '
           'effects finds nothing. That half is written up less often, '
           'submitted less often and accepted less often, so what a reader '
-          'eventually sees is the lucky half, and every published estimate is '
-          'drawn from the top of a distribution rather than its middle.',
+          'eventually sees is the lucky half, and every published estimate is drawn from the top of a distribution, where its middle is what you wanted.',
           'The consequence is not that published findings are false. It is '
           'that they are systematically too large, which is a subtler and more '
           'damaging problem, because a field can spend a decade building on '
@@ -1416,19 +1396,17 @@ UNIT = dict(
           'uninformative negative results. I think this confuses a null result '
           'with an uninformative one: a well-powered study finding nothing is '
           'highly informative, and an underpowered one is uninformative '
-          'whichever way it comes out. The filter we need is on power, which '
-          'is a property of the design, rather than on direction, which is a '
-          'property of the answer.'],
+          'whichever way it comes out. The filter we need is on power, which is a property of the design, instead of on direction, which is a property of the answer.'],
          notes=[
           'Structure 1: one point of view, argued throughout. The position is '
           'stated in the first line, which is the right move when you genuinely '
-          'agree rather than part-agree.',
+          'agree and do not part-agree.',
           'Paragraph 2 is a worked mechanism with a number in it. Nothing in '
           'this essay asks the reader to take a claim on trust, and that is '
           'what distinguishes a 7.0 body paragraph from a 6.0 one.',
           'The final paragraph answers the strongest objection and does so by '
           'reframing: the filter should be on power, not on direction. '
-          'Finishing on the objection rather than a summary leaves the '
+          'Finishing on the objection instead of a summary leaves the '
           'argument at its strongest point.'],
          criterion=[('A position stated immediately and held',
                      'Task Response'),
@@ -1449,9 +1427,8 @@ UNIT = dict(
               'Both claims are true and they are not in conflict.',
               'The rule holds here, but weakly, because the populations '
               'differ.',
-              'I accept the default reading as a default and not as a '
-              'conclusion.'],
-    task='Write each as a double position rather than a compromise.',
+              'I accept the default reading as a default, which is as far as it goes.'],
+    task='Write each as a double position, not as a compromise.',
     items=[('Both sides have a point.',
             'The critics are right that effects are overstated; the '
             'defenders are right that one failure settles little.'),
@@ -1541,7 +1518,7 @@ UNIT = dict(
        'writing, and record which test killed each idea you discarded.',
   qs=['Which ideas failed the distinctness test, and why?',
       'Which idea could you not support for four sentences?',
-      'Which idea turned out to be a support rather than a main idea?',
+      'Which idea turned out to be a support all along?',
       'Were your surviving two roughly equal in weight?'],
   answers=['usually three restatements of bias: readers misled, effort '
            'wasted, estimates wrong',

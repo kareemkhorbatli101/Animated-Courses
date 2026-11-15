@@ -48,7 +48,7 @@ UNIT = dict(
           'Once registered you will receive a registration certificate, '
           'usually by post within ten working days. You will need it to open '
           'a bank account, to enrol children in school and to register with a '
-          'doctor, and you should keep the original rather than relying on '
+          'doctor, and you should keep the original instead of relying on '
           'the copy.',
           'If you move, you must notify the authority within fourteen days of '
           'the new address. Failure to register or to notify a change may '
@@ -252,7 +252,7 @@ UNIT = dict(
            'the language is the job they are still in at forty-five. We see '
            'that constantly.'),
           ('Hyacinth', 'We do, and I accept it, and notice that it is an '
-           'argument for evening classes and a review date rather than for '
+           'argument for evening classes and a review date, not for '
            'full-time study.'),
           ('Emeka', 'Evening classes after a ten-hour shift have an attrition '
            'rate of about seventy per cent. We are choosing between two bad '
@@ -261,7 +261,7 @@ UNIT = dict(
           ('Hyacinth', 'That I agree with entirely. What I object to is a '
            'single piece of advice given to two populations with opposite '
            'constraints.'),
-          ('Emeka', 'Then let me propose something concrete rather than '
+          ('Emeka', 'Then let me propose something concrete instead of '
            'arguing about emphasis. Two tracks, explicitly named, with the '
            'trade-off written down. Track one: language first, slower income, '
            'better ceiling. Track two: income first, evening study, higher '
@@ -279,10 +279,8 @@ UNIT = dict(
           ('Hyacinth', 'We have eleven years of records and a spreadsheet. '
            'We have never looked, which is a different statement from not '
            'having them.'),
-          ('Emeka', 'That is a fair correction and I will take it.'),
-          ('Emeka', 'Because nobody is funded to do it. Which is the real '
-           'obstacle and not the one we have been arguing about for ten '
-           'minutes.')],
+          ('Emeka', 'Noted, and I will stop saying it.'),
+          ('Emeka', 'Because nobody is funded to do it. Which is the real obstacle, while we have spent ten minutes on another one.')],
          items=[
           ('Hyacinth argues the current advice is wrong for',
            ['everybody', 'about half of clients', 'new arrivals only',
@@ -356,8 +354,7 @@ UNIT = dict(
           'The error is stated without accusation — posted to a different '
           'street — and the writer does not say whose fault it was. That is a '
           'deliberate choice: the aim is a certificate, not an apology.',
-          'Ending on what the writer actually fears, rather than on a polite '
-          'formula, tells the reader which of the three questions to answer '
+          'Ending on what the writer actually fears, where a polite formula would normally go, tells the reader which of the three questions to answer '
           'first. That is a use of position that costs nothing.'],
          criterion=[('A checkable record in place of a general complaint',
                      'Task Achievement'),
@@ -474,7 +471,7 @@ UNIT = dict(
            'hundred and ten last year.'),
           ('Rutger', 'Which is the number the campaign has been using, and I '
            'notice you are about to tell me it is misleading.'),
-          ('Perpetua', 'It is incomplete rather than misleading. Twenty-two '
+          ('Perpetua', 'It is incomplete, not misleading. Twenty-two '
            'hundred people arrived and seventeen hundred and ninety left. The '
            'net figure is four hundred and ten and the number of households '
            'that changed hands is nearly four thousand.'),
@@ -497,8 +494,7 @@ UNIT = dict(
            'the answer to be, because I have learned to ask that before '
            'funding a survey.'),
           ('Perpetua', 'I expect departures to be higher than we currently '
-           'estimate, which would make the net figure smaller and would be '
-           'inconvenient for me rather than for you.'),
+           'estimate, which would make the net figure smaller and would be inconvenient for me, which is why you should believe me.'),
           ('Rutger', 'That is the answer that makes me willing to pay for '
            'it.'),
           ('Perpetua', 'And if I am wrong, the number goes the other way and '
@@ -572,11 +568,9 @@ UNIT = dict(
           'requirement attaches a penalty to something that is mostly '
           'determined by circumstance. A person working two shifts to support '
           'children has not chosen to go without classes. Attaching a '
-          'consequence to their failure punishes the shift pattern rather '
-          'than any decision, and the people who would meet the requirement '
+          'consequence to their failure punishes the shift pattern itself, and the people who would meet the requirement '
           'easily are those who needed it least.',
-          'My own position is that the argument is about provision rather '
-          'than obligation. If classes are free, available in the evening and '
+          'My own position is that the argument is really about provision. If classes are free, available in the evening and '
           'at weekends, and offered with childcare, the number of people who '
           'decline them is very small, and a requirement then does almost no '
           'work because almost nobody fails it. If classes are scarce and '
@@ -589,7 +583,7 @@ UNIT = dict(
           'followed.'],
          notes=[
           'The opening identifies where the disagreement really sits — on the '
-          'word required — rather than restating both sides. That is the '
+          'word required — instead of restating both sides. That is the '
           'single most reliable way to open a discussion essay at this '
           'band.',
           'Paragraph 4 is a conditional argument: if provision is good the '
@@ -604,7 +598,7 @@ UNIT = dict(
                      'Task Response'),
                     ('A conditional argument covering both branches',
                      'Coherence and Cohesion'),
-                    ('A sequence rather than a compromise',
+                    ('A sequence, not a compromise',
                      'Task Response')],
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
@@ -618,8 +612,7 @@ UNIT = dict(
               'work.',
               'If they are scarce, it is a penalty dressed as an '
               'expectation.',
-              'Either way, the argument is about provision rather than '
-              'obligation.',
+              'Either way, the argument turns on provision.',
               'Whichever is true, the same conclusion follows.'],
     task='Turn each claim into a two-branch conditional argument.',
     items=[('A requirement would help.',
@@ -672,8 +665,7 @@ UNIT = dict(
           'Read by the net column alone, the year looks modest. The North '
           'gained twenty-two thousand, Central fifteen thousand; the West lost '
           'thirty thousand and the East seven. Across all four regions the net '
-          'changes total zero, which is a property of a closed system and not '
-          'a finding about anything.',
+          'changes total zero, which is a property of a closed system, true by construction.',
           'Read by turnover the same year looks entirely different. Central '
           'has a net change of fifteen thousand and a turnover of three '
           'hundred and ninety-one thousand: nearly four hundred thousand '
@@ -736,7 +728,7 @@ UNIT = dict(
            'Three hundred and ninety-one thousand people moved house across a '
            'regional boundary, and the headline figure for that is '
            'fifteen.'),
-          ('Lecturer', 'Now, why does the difference matter rather than just '
+          ('Lecturer', 'Now, why does the difference matter instead of just '
            'being an interesting arithmetic point? Because the two figures '
            'drive different costs, and governments budget on the wrong one. '
            'Net change tells you how many houses you will eventually need. '
@@ -749,8 +741,7 @@ UNIT = dict(
            'identically. That is not a small inefficiency. In high-turnover '
            'areas it is the single largest unfunded pressure in the '
            'system.'),
-          ('Lecturer', 'Second problem, and this one is about measurement '
-           'rather than reporting. Arrivals are counted well, because people '
+          ('Lecturer', 'Second problem, and this one is about measurement itself, before any question of how the number is then reported. Arrivals are counted well, because people '
            'register when they arrive: they need the documents. Departures '
            'are estimated, often from survey data with alarming confidence '
            'intervals, because nobody has any reason to tell an authority '
@@ -764,7 +755,7 @@ UNIT = dict(
            'question when somebody closes a utility or council tax account. '
            'That is all. We would move from estimating departures to counting '
            'most of them, and every net figure in the country would become a '
-           'measurement rather than a subtraction of a guess.')],
+           'measurement instead of a subtraction of a guess.')],
          items=[
           ('What does the lecturer say is wrong with the net figure?',
            ['It is inaccurate', 'It answers a question nobody asked',
@@ -891,10 +882,10 @@ UNIT = dict(
           ('outflow', 'movement out of an area'),
           ('closed system', 'one in which totals must balance'),
           ('roll', 'the number of pupils on a school’s register'),
-          ('mid-year', 'during rather than at the start of a school year'),
+          ('mid-year', 'during a school year, not at the start of one'),
           ('confidence interval', 'the range an estimate is likely to lie '
            'in')],
-   expr=[('is a property of a closed system and not a finding',
+   expr=[('is a property of a closed system, true by construction',
           'dismisses an artefact of definition'),
          ('they agree by coincidence', 'warns against a conclusion that '
           'happens to hold'),
@@ -924,9 +915,7 @@ UNIT = dict(
           'intuition against it is strong. More workers does mean more labour '
           'supplied. It also means more consumption, more demand for housing, '
           'food and services, and therefore more labour demanded. Arrivals '
-          'additionally bring different skills from those already present, so '
-          'they are frequently complements rather than substitutes for '
-          'existing workers.',
+          'additionally bring different skills from those already present, so they are frequently complements to existing workers.',
           'But the average is not the finding, and treating it as one is '
           'where most of the public argument goes wrong. Within the average, '
           'the effects fall very unevenly. Workers whose skills most closely '
@@ -935,11 +924,13 @@ UNIT = dict(
           'little wage floor — experience measurable downward pressure. '
           'Workers whose skills complement them experience gains.',
           'The size of these distributional effects is contested, and the '
-          'disagreement is methodological rather than political. One approach '
+          'disagreement is methodological, not political, and it has persisted '
+          'for thirty years because each approach fails in a different '
+          'place. One approach '
           'compares cities with different levels of immigration. The '
           'difficulty is that migrants choose cities with strong labour '
           'markets, so a positive correlation between immigration and wages '
-          'may record where people went rather than what they caused.',
+          'may record where people went, with causation playing no part in it.',
           'A second approach uses natural experiments: sudden arrivals caused '
           'by events unconnected with local conditions. These are far better '
           'identified and far rarer, and the most famous of them have been '
@@ -1000,12 +991,11 @@ UNIT = dict(
            'same people.'),
           ('The writer believes immigration lowers wages overall.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1: the average effect is close to zero and not '
-           'reliably distinguishable from it.'),
+           'Paragraph 1: the average effect is close to zero, and cannot be reliably distinguished from it.'),
           ('The writer believes the disagreement among economists is '
            'political.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 states that the disagreement is methodological rather '
-           'than political.'),
+           'Paragraph 4 states that the disagreement is methodological, not '
+           'political.'),
           ('Workers whose skills ____________ those of arrivals experience '
            'gains.', None, 'complement',
            'Paragraph 3, as against those whose skills substitute for '
@@ -1039,8 +1029,7 @@ UNIT = dict(
            'decade’s migrants.'),
           ('Lecturer', 'Why is the size of that effect still disputed after '
            'so much work? Three methods, three problems. Compare cities, and '
-           'you face the fact that migrants choose thriving cities, so your '
-           'correlation may record destination choice rather than causation. '
+           'you face the fact that migrants choose thriving cities, so your correlation may record destination choice alone. '
            'Use a natural experiment, and you have excellent identification '
            'and a sample of about four events in modern history, each '
            're-analysed with conflicting results.'),
@@ -1081,8 +1070,7 @@ UNIT = dict(
           ('The problem with comparing cities is that',
            ['data are scarce', 'migrants choose thriving cities',
             'cities differ in size', 'wages are not comparable'], 1,
-           'So the correlation may record destination choice rather than '
-           'causation.'),
+           'So the correlation may record destination choice alone.'),
           ('How many natural experiments does he say exist in modern '
            'history?', ['About four', 'About a dozen', 'Dozens',
             'Hundreds'], 0,
@@ -1091,7 +1079,7 @@ UNIT = dict(
            ['They are scandalous', 'Their answers depend on contested '
             'parameters', 'They are the most reliable',
             'They are rarely used'], 1,
-           'He calls this a limit rather than a scandal.'),
+           'He calls this a limit, not a scandal.'),
           ('His final point is that the literature says least about',
            ['wages', 'channels other than wages', 'long-run effects',
             'measurement error'], 1,
@@ -1123,8 +1111,7 @@ UNIT = dict(
                  'not write the essay yet.'),
          plan=('Selection by skill is defensible as a tool and indefensible '
                'as a whole policy',
-               [('Selection answers a question about the economy and not the '
-                 'one usually asked',
+               [('Selection answers a question about the economy, which is not the one usually asked',
                  ['it shapes what arrivals do, not how many arrive',
                   'the public concern is usually about pace and place, not '
                   'skill mix']),
@@ -1135,8 +1122,7 @@ UNIT = dict(
          notes=[
           'The exercise is to brainstorm both sides and then look for the '
           'overlap: the claims that appear in both lists. Those are the ones '
-          'nobody is disputing, which means they belong in your framing and '
-          'not in your body paragraphs.',
+          'nobody is disputing, which means they belong in your framing, where your body paragraphs have no use for them.',
           'On this prompt the overlap is usually large: both sides agree that '
           'shortages exist, that recognition is slow, and that the public '
           'debate is not really about skill. A position built on the overlap '
@@ -1183,7 +1169,7 @@ UNIT = dict(
             'to reveal it.')]),
    vocab=[('substitute', 'a worker whose skills replace another’s'),
           ('complement', 'a worker whose skills increase another’s value'),
-          ('aggregate', 'relating to the total rather than its parts'),
+          ('aggregate', 'relating to the total, not to its parts'),
           ('distributional', 'concerning how effects are shared out'),
           ('natural experiment', 'a real event that resembles an assigned '
            'one'),
@@ -1261,8 +1247,7 @@ UNIT = dict(
           'but to stop treating evidence about either as though it answered '
           'the other.',
           'What would actually help is unglamorous and specific: measurement '
-          'at the level where effects are experienced, and funding that '
-          'follows turnover rather than net change. Where this has been tried '
+          'at the level where effects are experienced, and funding that follows turnover. Where this has been tried '
           'the political temperature has fallen noticeably, which suggests '
           'that much of what is read as hostility to migration is hostility '
           'to an unfunded local pressure that nobody will acknowledge '
@@ -1294,8 +1279,7 @@ UNIT = dict(
            'different unit, which is reasonable.'),
           ('The writer believes the evidence on funding by turnover is '
            'conclusive.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says the pattern is suggestive and not '
-           'identified.'),
+           'The final paragraph says the pattern is suggestive, and stops short of calling it identified.'),
           ('The mechanisms producing the national figure are all '
            '____________ mechanisms.', None, 'adjustment',
            'Paragraph 2, and adjustment takes time, which is the whole '
@@ -1319,8 +1303,8 @@ UNIT = dict(
            'you to stop producing it, because it is not about my ward and '
            'everybody in this room knows that except, apparently, the people '
            'who keep quoting it.'),
-          ('Steinhauer-Okafor', 'That is a fair challenge and I want to '
-           'answer it properly rather than repeat myself. The national result '
+          ('Steinhauer-Okafor', 'You are entitled to be impatient with that, and I want to '
+           'answer it properly instead of repeating myself. The national result '
            'is produced by adjustment: firms open, capital arrives, the '
            'economy accommodates. All of those take between three and seven '
            'years. Your ward received its arrivals in eighteen months. Nothing '
@@ -1350,11 +1334,8 @@ UNIT = dict(
           ('Brannigan', 'Which is a sentence I would like minuted, because '
            'three of my colleagues have proposed exactly that this year.'),
           ('Steinhauer-Okafor', 'Then here is what I think we agree on. '
-           'Measurement at the level where people live, and funding that '
-           'follows the number of children moving rather than the number '
-           'arriving net.'),
-          ('Brannigan', 'I would vote for that tomorrow, and I would note '
-           'that neither of us can deliver it.')],
+           'Measurement at the level where people live, and funding that follows the number of children moving, as against the number arriving net.'),
+          ('Brannigan', 'Neither of us can deliver any of that, which is worth minuting too.')],
          items=[
           ('What does the councillor say about the national figure?',
            ['It is wrong', 'It is not about his ward',
@@ -1413,8 +1394,7 @@ UNIT = dict(
                  'opinion. Write at least 250 words.'),
          model=[
           'Selection by skill is often discussed as though it were the whole '
-          'of immigration policy, when it is a decision about composition '
-          'and not about scale. That distinction matters because the public '
+          'of immigration policy, when it is a decision about composition alone. That distinction matters because the public '
           'concern it is usually offered to address — the pace at which a '
           'particular place changes — is a question about scale, and '
           'selection does not touch it.',
@@ -1456,12 +1436,10 @@ UNIT = dict(
           'what is genuinely disputed.',
           'Paragraph 3 is the strongest because it contains a specific, '
           'checkable mechanism: the sectors with the worst shortages score '
-          'worst on the test. An examiner cannot verify it, but it reads as '
-          'knowledge rather than opinion, which is what Lexical Resource '
+          'worst on the test. An examiner cannot verify it, but it reads as knowledge, which is what Lexical Resource '
           'rewards at this band.',
           'The conclusion ranks its own three proposals. Saying which of your '
-          'recommendations matters most is a small move that makes a position '
-          'sound held rather than assembled.'],
+          'recommendations matters most is a small move that makes a position sound held, where a list of three sounds assembled.'],
          criterion=[('Framing on what both sides concede',
                      'Task Response'),
                     ('A specific mechanism in the strongest body paragraph',
@@ -1553,8 +1531,7 @@ UNIT = dict(
   body=('Brainstorm your position. Then brainstorm the opposite position as '
         'though you held it. Then mark everything that appears in both. The '
         'overlap is what nobody disputes, and it belongs in your framing — '
-        'where it does the work of making you sound fair — rather than in '
-        'your body paragraphs, where it argues against nobody. What is left '
+        'where it does the work of making you sound fair — leaving your body paragraphs to argue with somebody. What is left '
         'is the real disagreement, and it is almost always smaller and more '
         'specific than either list suggested.'),
   frame=('Selection by skill is a tool for a narrow purpose, not an answer to '

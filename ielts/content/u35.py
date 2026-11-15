@@ -179,7 +179,7 @@ UNIT = dict(
           ('Owner', 'Timber sashes, and three of them are rotten at the '
            'bottom.'),
           ('Officer', 'Then I would expect repair to be the starting point '
-           'rather than replacement, and I should tell you that an application '
+           'instead of replacement, and I should tell you that an application '
            'to put in units with sealed double glazing is very unlikely to '
            'succeed on a terrace of that date. Slim-profile secondary glazing '
            'behind the existing sash usually does.'),
@@ -316,7 +316,7 @@ UNIT = dict(
           'movements, and each one is identifiable at a glance. An examiner '
           'checking coverage should never have to hunt.',
           'Notice what the second bullet does: it gives a reason the reader '
-          'can act on — rot, water, a child’s bedroom — rather than saying '
+          'can act on — rot, water, a child’s bedroom — instead of saying '
           'the windows are in poor condition. Specifics are the difference '
           'between 6.0 and 7.0 on Task Achievement here.',
           'Proposing repair before the officer can propose it is a quiet '
@@ -349,8 +349,8 @@ UNIT = dict(
             'The roof leaks, with the result that the ceiling below is '
             'stained.'),
            ('The gutter is blocked. Water runs down the wall.',
-            'The gutter is blocked, so that water runs down the wall rather '
-            'than away from it.'),
+            'The gutter is blocked, so that water runs down the wall instead '
+            'of away from it.'),
            ('The sash is rotten. It cannot be opened.',
             'The sash has rotted at the rail, which means it can no longer be '
             'opened.'),
@@ -455,7 +455,7 @@ UNIT = dict(
            'empty for twenty-two years.'),
           ('Rosalind', 'And the chapel at Thornbeck fell down while its '
            'trustees waited. You are choosing the example that flatters you.'),
-          ('Tobias', 'That is fair.'),
+          ('Tobias', 'Thornbeck is the better example and I knew it.'),
           ('Rosalind', 'There is also a question nobody wants to ask. Who is '
            'this for? The congregation is eleven. If we spend four hundred '
            'thousand of somebody’s money on a building eleven people use, we '
@@ -473,13 +473,12 @@ UNIT = dict(
           ('Rosalind', 'If we are awarded it. Those funds are heavily '
            'oversubscribed and we would be competing against buildings in '
            'active use, which is the criterion we fail.'),
-          ('Tobias', 'That is true, and it is an argument for applying '
-           'rather than for not applying.'),
+          ('Tobias', 'That is true, and it is an argument for applying anyway.'),
           ('Tobias', 'Then let me put something concrete. Give me eighteen '
            'months and a commitment to list it. If I cannot raise the roof '
            'money in that time I will second the sale myself.'),
           ('Rosalind', 'Eighteen months and listing. I would accept that, and '
-           'I would want the deadline written into the minutes rather than '
+           'I would want the deadline written into the minutes, not merely '
            'understood.')],
          items=[
           ('The surveyor’s figure for the roof is',
@@ -501,12 +500,11 @@ UNIT = dict(
           ('What do they agree to?',
            ['An immediate sale', 'Eighteen months and listing',
             'A public meeting', 'A new survey'], 1,
-           'With the deadline written into the minutes rather than '
-           'understood.')])],
+           'With the deadline written into the minutes, where an understanding would not hold.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Places that matter',
     intro=('Short answers, then the long turn. Four bullets, in order, '
-           'roughly equal weight, developed rather than listed.'),
+           'roughly equal weight, and developed one at a time.'),
     cue=('Describe a building that matters to people where you live.',
          ['what the building is', 'where it is',
           'what it is used for now',
@@ -569,7 +567,7 @@ UNIT = dict(
           'The final paragraph admits the position is untidy. Conceding a '
           'weakness you have identified yourself reads as confidence, not '
           'doubt, provided you say why the position survives it.'],
-         criterion=[('A third position that divides rather than splits',
+         criterion=[('A third position that divides, not one that splits',
                      'Task Response'),
                     ('One mechanism developed through a whole paragraph',
                      'Coherence and Cohesion'),
@@ -654,7 +652,7 @@ UNIT = dict(
           'orchard had become allotments. A railway crossed the southern part '
           'of the site, with a station beside it.',
           'The present-day map records a third transformation, and this one is '
-          'a reversal rather than a continuation. The mill has been demolished '
+          'a reversal of the second. The mill has been demolished '
           'and a visitor centre built on part of its footprint, with a car '
           'park where the mill pond was. The railway and station have gone, and '
           'the line of the track is now a cycle path. The mill pond site has '
@@ -680,8 +678,7 @@ UNIT = dict(
            'Paragraph 3, after the railway and station were removed.'),
           ('Which paragraph describes a change that reverses an earlier one?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
-           'Paragraph 3 calls the present-day transformation a reversal rather '
-           'than a continuation.'),
+           'Paragraph 3 calls the present-day transformation a reversal of what came before it.'),
           ('Which paragraph identifies what has not changed?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 3,
            'Paragraph 4: Mill Lane and the continuous use of the eastern end '
@@ -802,8 +799,8 @@ UNIT = dict(
           'paragraph per map, and runs a spatial order inside each paragraph. '
           'The alternative, structuring by zone, would work but is far harder '
           'to control with three dates.',
-          'Notice that the second and third paragraphs describe change rather '
-          'than listing contents: the mill is over the fish ponds, the housing '
+          'Notice that the second and third paragraphs describe change instead '
+          'of listing contents: the mill is over the fish ponds, the housing '
           'across the former cloister. A later map described as a list of '
           'buildings throws away the comparison the task asks for.',
           'The Overall statement names the two transformations and the '
@@ -880,9 +877,7 @@ UNIT = dict(
           'good title, and the question of what the museum has done with them '
           'since is irrelevant.',
           'The second claim is made by a descendant community, now living '
-          'largely in a different country, and it rests on continuity of '
-          'relationship rather than on territory. The objects are argued to be '
-          'the property of a people rather than of a place, and the claim '
+          'largely in a different country, and it rests on continuity of relationship, which is a claim about people. The objects are argued to be the property of a people wherever that people now lives, and the claim '
           'would be unaffected if the borders moved again. It is also the only '
           'one of the four claims that distinguishes among the objects: it '
           'concerns the two hundred that are funerary and is indifferent to '
@@ -895,7 +890,7 @@ UNIT = dict(
           'those who can afford the journey. This claim is explicitly not '
           'about wrongdoing.',
           'The fourth position is the holding museum’s own, and it is usually '
-          'described as a defence rather than a claim, which obscures its '
+          'described as a defence, a label which obscures its '
           'structure. It rests on stewardship and on the integrity of the '
           'assemblage: the objects have been conserved, catalogued and '
           'published as a unit for over a century, dispersal would destroy '
@@ -993,8 +988,7 @@ UNIT = dict(
            'administrations now regarded as illegitimate. Very few people want '
            'the principle applied consistently, which tells you it is doing '
            'less work than it appears to.'),
-          ('Lecturer', 'Continuity says the object belongs to a people rather '
-           'than a place. This is the claim that has moved furthest in thirty '
+          ('Lecturer', 'Continuity says the object belongs to a people wherever they are. This is the claim that has moved furthest in thirty '
            'years and it is now the one museums find hardest to resist, '
            'particularly for human remains and funerary material. Its '
            'difficulty is representation: who speaks for a dispersed people, '
@@ -1052,7 +1046,7 @@ UNIT = dict(
    speak=dict(
     part='Part 3', focus='Objects far from where they were made',
     intro=('Four or five sentences. At least once, name which principle you '
-           'are arguing from rather than only asserting a conclusion.'),
+           'are arguing from instead of only asserting a conclusion.'),
     qs=['Should museums return objects taken during colonial rule?',
         'Who should decide where an object belongs?',
         'Does it matter where an object is kept, if people can see it '
@@ -1089,7 +1083,7 @@ UNIT = dict(
                   'a holder who offers them in place of title is changing the '
                   'subject'])]),
          notes=[
-          'The two main ideas are ordered as a sequence rather than a pair: '
+          'The two main ideas are ordered as a sequence: '
           'the second only makes sense once the first has established what '
           'kind of question comes first. An examiner reads that as '
           'progression.',
@@ -1099,7 +1093,7 @@ UNIT = dict(
           'Notice the position does not say return everything. A plan whose '
           'thesis contains a criterion is easier to develop than one that '
           'contains a side.'],
-         criterion=[('A thesis containing a criterion rather than a side',
+         criterion=[('A thesis containing a criterion, not a side',
                      'Task Response'),
                     ('Main ideas ordered as a sequence',
                      'Coherence and Cohesion')],
@@ -1109,8 +1103,8 @@ UNIT = dict(
     point='Attributing a claim to a principle',
     explain=('Writing about a dispute is much clearer when each position is '
              'named by what it rests on. These patterns do that in one clause '
-             'and let you evaluate the principle rather than the person.'),
-    examples=['The first claim rests on legality rather than on need.',
+             'and let you evaluate the principle instead of the person.'),
+    examples=['The first claim rests on legality, not on need.',
               'This argument turns on continuity of relationship.',
               'The defence appeals to stewardship, which makes competence a '
               'source of title.',
@@ -1120,8 +1114,7 @@ UNIT = dict(
             'Their claim rests on legality: the objects were never lawfully '
             'acquired.'),
            ('They say the objects belong to their people.',
-            'Their claim turns on continuity of relationship rather than on '
-            'territory.'),
+            'Their claim turns on continuity of relationship, which territory does not affect.'),
            ('The museum says it looks after them well.',
             'The museum appeals to stewardship, arguing that it alone has '
             'demonstrated the capacity to conserve them.'),
@@ -1190,10 +1183,9 @@ UNIT = dict(
           'former holder has borrowed from the collection twice.',
           'What distinguishes the third case is not goodwill, of which there '
           'was no more than in the first. It is that the transfer was designed '
-          'as the beginning of a relationship rather than the end of a '
-          'dispute. The agreement specified what would happen after the '
+          'as the beginning of a relationship, where the others ended a dispute. The agreement specified what would happen after the '
           'objects arrived, and the costs of that were budgeted by the '
-          'returning institution as part of the return rather than left to the '
+          'returning institution as part of the return instead of left to the '
           'recipient as a consequence of it.',
           'This points to a conclusion that neither campaign literature nor '
           'museum policy documents find convenient. The question of who owns '
@@ -1213,16 +1205,14 @@ UNIT = dict(
           'who can write the history.',
           'It is worth saying what these three cases cannot support, since '
           'three is not a sample. They were selected because they are old '
-          'enough to have outcomes, which biases towards returns that were '
-          'completed rather than abandoned, and towards institutions willing '
+          'enough to have outcomes, which biases towards returns that were seen through, and towards institutions willing '
           'to be studied afterwards. A fourth case, in which a negotiation '
           'collapsed and nothing moved, would be the most informative of all '
           'and has never been written up by either party.',
           'None of this tells us whether any particular object should be '
           'returned. What it tells us is that the arguments used to decide '
           'that question are mostly about consequences, that the consequences '
-          'turn out to depend on the design of the transfer rather than on the '
-          'fact of it, and that a dispute which has spent thirty years '
+          'turn out to depend on the design of the transfer far more than on the fact of it, and that a dispute which has spent thirty years '
           'predicting outcomes could now begin reading them.'],
          items=[
           ('Which paragraph describes a return followed by reburial?',
@@ -1284,7 +1274,7 @@ UNIT = dict(
            'properly, which is the only thing I actually believe about this.'),
           ('Abeyratne', 'Then we agree on the 2011 manuscripts.'),
           ('Fenwick-Oyelaran', 'Entirely. Digitisation, training, reciprocal '
-           'loans, and the costs carried by us rather than left behind as a '
+           'loans, and the costs carried by us instead of left behind as a '
            'problem for you. Twelve years on those manuscripts are consulted '
            'more than they ever were here. If every return looked like that I '
            'would have no position left.'),
@@ -1398,7 +1388,7 @@ UNIT = dict(
           'then cited against them.',
           'I therefore think museums should return objects whose acquisition '
           'cannot be defended, and should carry the cost of designing those '
-          'returns properly rather than offering good stewardship in place of '
+          'returns properly instead of offering good stewardship in place of '
           'ownership. The second obligation is the one currently missing; the '
           'first is the one currently argued about.'],
          notes=[
@@ -1412,7 +1402,7 @@ UNIT = dict(
           'argued about, which leaves the reader with a sharper statement than '
           'a summary would. A conclusion should add the final turn, not repeat '
           'the essay.'],
-         criterion=[('A position that orders the questions rather than '
+         criterion=[('A position that orders the questions instead of '
                      'picking a side', 'Task Response'),
                     ('Accepting opposing evidence and reclassifying it',
                      'Task Response'),
@@ -1435,20 +1425,17 @@ UNIT = dict(
               'This tells us how to return an object, not whether we should.'],
     task='Accept each point and reclassify it.',
     items=[('Returned objects sometimes end up in storage.',
-            'That is true, and it is an argument about display rather than '
-            'about ownership.'),
+            'That is true, and it is an argument about display, which is a separate question from ownership.'),
            ('Museums conserve objects better.',
             'Often they do, and that is a reason to fund training as part of '
             'a return, not a reason to refuse one.'),
            ('More people see the objects where they are.',
-            'More people do, which bears on access and not on who owns '
-            'them.'),
+            'More people do, which bears on access alone.'),
            ('The objects were bought legally at the time.',
             'They were, under administrations whose authority is precisely '
             'what is in dispute.'),
            ('Splitting a collection destroys information.',
-            'It can, which is an argument for returning it as a unit rather '
-            'than for keeping it.')]),
+            'It can, which is an argument for returning it as a unit.')]),
    vocab=[('reciprocal', 'given by each side to the other'),
           ('digitisation', 'making a photographic or digital record'),
           ('reburial', 'burying human remains again after return'),
@@ -1489,8 +1476,7 @@ UNIT = dict(
          ('Parallel order', 'Take the features in the same order in every '
           'paragraph. The reader should be able to read down your answer, not '
           'across it.'),
-         ('The survival', 'Name what is unchanged, and say so as a finding '
-          'rather than as an afterthought.')],
+         ('The survival', 'Name what is unchanged, and say so as a finding, with a sentence of its own.')],
   task='Look at the three maps again. Write the four sentences this panel '
        'asks for: an anchor, two changes described as change, a parallel '
        'order you will use, and the survival.',
@@ -1506,8 +1492,8 @@ UNIT = dict(
         'outline its writer must have worked from. Four claims, each resting '
         'on a principle, then a cost for each, then a conclusion about what '
         'kind of question the dispute is. If your outline of a passage comes '
-        'out with eight main ideas, you have listed paragraphs rather than '
-        'found the structure.'),
+        'out with eight main ideas, you have listed paragraphs instead of '
+        'finding the structure.'),
   frame=('Restitution disputes are disagreements about principles, not facts',
          [('Four claims, each resting on a different principle',
            ['legality, continuity, access, stewardship',

@@ -260,7 +260,7 @@ UNIT = dict(
           'K. Brennan'],
          notes=[
           'Each bullet gets its own paragraph and each paragraph develops '
-          'rather than mentions. The third is the longest because a suggestion '
+          'instead of mentions. The third is the longest because a suggestion '
           'with no reasoning behind it is not a suggestion.',
           'The specific detail does the persuading: a date, a household size, '
           'eleven days, the lane behind the terraces. Generalities are what a '
@@ -270,7 +270,7 @@ UNIT = dict(
           'is a band 7 move and costs one sentence.'],
          criterion=[('All three bullets developed, not mentioned',
                      'Task Achievement'),
-                    ('Specific figures and places rather than generalities',
+                    ('Specific figures and places, not generalities',
                      'Lexical Resource'),
                     ('Anticipating the reader’s objection',
                      'Task Response')],
@@ -310,7 +310,7 @@ UNIT = dict(
          ('I do not say this to ask for an exception',
           'answers the obvious objection before it is made'),
          ('the likely consequence is not... It is...',
-          'corrects an assumption rather than contradicting a person'),
+          'corrects an assumption without contradicting a person'),
          ('I would suggest an alternative',
           'introduces a proposal without claiming authority')],
    trans=['rather than', 'while', 'in the days between', 'at present'],
@@ -340,12 +340,12 @@ UNIT = dict(
           'D  Yusuf: What changed my habits was the library of things at the '
           'community centre. I do not need to own a pressure washer that I use '
           'twice a year, and once you have borrowed one, buying one begins to '
-          'look like an odd decision rather than a normal one.'],
+          'look like an odd decision instead of a normal one.'],
          items=[
           ('Which person objects to information being withheld?',
            ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 0,
            'The drawing was a commercial secret: her objection is to the '
-           'secrecy rather than to the failure.'),
+           'secrecy; the failure itself she forgives.'),
           ('Which person questions the environmental case for repair?',
            ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 1,
            'He argues older machines use more electricity, so universal repair '
@@ -354,7 +354,7 @@ UNIT = dict(
            ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 2,
            'An hour of an engineer’s time against the price of a new '
            'appliance.'),
-          ('Which person changed because of something shared rather than '
+          ('Which person changed because of something shared, not '
            'owned?', ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 3,
            'The library of things, and the shift in what counts as a normal '
            'decision.'),
@@ -417,7 +417,7 @@ UNIT = dict(
            'And he gives the consequence: the seal is why the failure rate '
            'halved.'),
           ('Astrid’s criticism is that the sealing argument has become',
-           ['false', 'too expensive', 'a justification rather than a reason',
+           ['false', 'too expensive', 'a justification dressed as a reason',
             'unfashionable'], 2,
            'We seal things and then use the improvement as the reason they '
            'cannot be opened.'),
@@ -443,7 +443,7 @@ UNIT = dict(
     cue=('Describe something you repaired instead of replacing.',
          ['what the thing was', 'what was wrong with it',
           'how you went about repairing it',
-          'and explain why you chose to repair rather than replace it']),
+          'and explain why you chose to repair it instead of replacing it']),
     qs=['Do you usually repair things or replace them?',
         'Are things made to last as long as they used to be?',
         'Now look at the card. You have one minute to make notes.',
@@ -486,10 +486,9 @@ UNIT = dict(
           'weaker. Safety regulation was resisted on identical grounds and '
           'produced a generation of engineering effort directed at making safe '
           'products cheap; there is no obvious reason why repair should behave '
-          'differently once it becomes a constraint rather than an '
-          'afterthought.',
+          'differently once it becomes a constraint at the design stage.',
           'My own view is that the requirement should attach to three '
-          'conditions rather than to a vague obligation. A spare part must '
+          'conditions, each of which can be tested. A spare part must '
           'exist, it must be sold at a proportionate price for a stated '
           'number of years, and the instructions must be public. Of these, the '
           'second is the one that matters, since a product advertised as '
@@ -504,13 +503,13 @@ UNIT = dict(
           'The position in the introduction is precise: correct about prices, '
           'wrong about innovation, adopt in a narrower form. An examiner can '
           'see the shape of the whole essay from the first paragraph.',
-          'The conclusion does work rather than repeating: it specifies the '
+          'The conclusion does work instead of repeating: it specifies the '
           'three conditions and then says which of them matters and why.'],
          criterion=[('Two objections answered on different grounds',
                      'Task Response'),
                     ('A position stated precisely in the introduction',
                      'Coherence and Cohesion'),
-                    ('A conclusion that specifies rather than restates',
+                    ('A conclusion that specifies, not one that restates',
                      'Task Response')],
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
@@ -544,12 +543,12 @@ UNIT = dict(
           ('liability', 'a future obligation that counts as a cost'),
           ('trade-off', 'a gain accepted in exchange for a loss'),
           ('constraint', 'a requirement a design must satisfy'),
-          ('module', 'a replaceable assembly rather than a single part'),
+          ('module', 'a replaceable assembly, not a single part'),
           ('retail price', 'the price paid by the final buyer')],
    expr=[('That is a real trade-off and I am not pretending it is not',
           'concedes fully before disagreeing'),
          ('notice what has happened to the argument',
-          'points at a shift in reasoning rather than a false fact'),
+          'points at a shift in reasoning, not a false fact'),
          ('is honest and should be conceded',
           'accepts an objection in your own voice'),
          ('has satisfied the letter of any looser rule while changing nothing',
@@ -583,7 +582,7 @@ UNIT = dict(
           'sense most people imagine. Nothing is turned into anything. The '
           'building is a separation machine, and its product is four or five '
           'streams of material clean enough that somebody else will pay for '
-          'them. Understanding it as separation rather than manufacture '
+          'them. Understanding it as a separation process '
           'explains most of what follows.',
           'The process begins with tipping. Collection lorries empty onto a '
           'concrete floor, where a loading shovel pushes the material onto a '
@@ -601,7 +600,7 @@ UNIT = dict(
           'Three automatic separations follow. An overband magnet lifts out '
           'steel. An eddy current separator induces a field in non-ferrous '
           'metal and throws aluminium clear of the belt, which is the only '
-          'stage in the plant where a material is moved rather than lifted or '
+          'stage in the plant where a material is pushed along, not lifted or '
           'dropped. Optical sorters then identify plastics by polymer, firing '
           'short bursts of air to divert the target material into a chute.',
           'What remains passes a line of pickers who remove, by hand, whatever '
@@ -621,7 +620,7 @@ UNIT = dict(
           'has been sorted.',
           'Two things in this description are commonly misunderstood. The '
           'first is that contamination is not dirt but wrong material, and '
-          'that its cost is sudden rather than gradual: a load above a '
+          'that its cost arrives suddenly, not gradually: a load above a '
           'threshold is rejected whole. The second is that the plant’s output '
           'is sold into a market, so the economics of the service depend on a '
           'price set somewhere else entirely, and a plant running perfectly '
@@ -639,7 +638,7 @@ UNIT = dict(
             'It determines the number of staff required',
             'It controls the noise level'], 1,
            'Paragraph 2: a surge defeats every stage that follows.'),
-          ('Which stage sorts by size rather than by material?',
+          ('Which stage sorts by size instead of by material?',
            ['The bag splitter', 'The trommel', 'The overband magnet',
             'The optical sorter'], 1,
            'Paragraph 3, and it is called the stage that most affects final '
@@ -658,7 +657,7 @@ UNIT = dict(
           ('An eddy current separator throws ____________ clear of the belt.',
            None, 'aluminium',
            'Paragraph 4, which also notes it is the only stage where material '
-           'is moved rather than lifted or dropped.'),
+           'is pushed along, not lifted or dropped.'),
           ('Each separated stream is baled, weighed and stored for collection '
            'by a ____________.', None, 'reprocessor',
            'Paragraph 5. The plant separates; somebody else reprocesses.')])],
@@ -739,7 +738,7 @@ UNIT = dict(
     part='Part 3', focus='Recycling and what it achieves',
     intro=('Four or five sentences. At this point in the test the examiner is '
            'listening for development, so make sure at least one follow-up '
-           'explains rather than adds.'),
+           'explains instead of merely adding.'),
     qs=['How effective do you think recycling is?',
         'Should people be fined for putting the wrong things in a bin?',
         'Some say recycling makes people feel entitled to consume more. What '
@@ -752,7 +751,7 @@ UNIT = dict(
            ('follow-up', 'Because there is a buyer at the other end who wants '
             'them.'),
            ('support', 'Mixed plastics are much shakier.'),
-           ('follow-up', 'And that is a market problem rather than a sorting '
+           ('follow-up', 'And that is a market problem, which is a different department from a sorting '
             'problem.')]),
    write=[
     dict(task='Task 1', fork='A',
@@ -784,8 +783,8 @@ UNIT = dict(
           'In the receiving phase, collection lorries tip their loads onto a '
           'floor, from which the material is fed onto a conveyor. It then '
           'passes through a rotating drum which splits any bags, and on to a '
-          'trommel, where it is separated according to size rather than '
-          'according to material.',
+          'trommel, where it is separated by size alone, with material '
+          'playing no part at this stage.',
           'Three automatic separations follow. An overband magnet first lifts '
           'out steel, after which an eddy current separator throws aluminium '
           'clear of the belt. The remaining material then passes optical '
@@ -883,7 +882,7 @@ UNIT = dict(
           'Each of these has a different cost structure, and this is where the '
           'plateau comes from. Food waste can be captured, but only by a '
           'separate weekly collection, since a fortnightly food caddy in '
-          'summer produces a public health complaint rather than a compost '
+          'summer produces a public health complaint instead of a compost '
           'feedstock. Textiles can be captured at bring-banks cheaply and at '
           'the kerbside expensively. Composite packaging cannot be captured at '
           'any price with current technology, because the separation has to '
@@ -902,8 +901,8 @@ UNIT = dict(
           'packaging. Plastic film is among the most environmentally '
           'significant fractions and among the least useful for hitting a '
           'weight-based target, and authorities have responded to the target '
-          'they were given rather than to the problem it was meant to '
-          'represent.',
+          'they were given, leaving the problem it was meant to '
+          'represent untouched.',
           'There is a further complication which the plateau literature has '
           'only recently taken seriously. The composition of household waste '
           'has itself been changing throughout the period during which rates '
@@ -933,14 +932,14 @@ UNIT = dict(
          items=[
           ('Choose the best heading for paragraph 3.',
            ['Three materials, three cost structures',
-            'Why the curve turns rather than bends',
+            'Why the curve turns, and does not bend',
             'The problem with weight targets',
             'Where the plateau actually sits'], 0,
            'The paragraph takes food, textiles and composites in turn and '
            'gives the cost of capturing each.'),
           ('Choose the best heading for paragraph 5.',
            ['Three materials, three cost structures',
-            'Why the curve turns rather than bends',
+            'Why the curve turns, and does not bend',
             'The problem with weight targets',
             'A politically awkward improvement'], 2,
            'It explains how a weight-based target pushes authorities towards '
@@ -949,7 +948,7 @@ UNIT = dict(
            ['A politically awkward improvement',
             'Where the plateau actually sits',
             'Three materials, three cost structures',
-            'Why the curve turns rather than bends'], 1,
+            'Why the curve turns, and does not bend'], 1,
            'Not in household behaviour but in packaging design and collection '
            'economics.'),
           ('The writer believes households have become less willing to '
@@ -962,7 +961,7 @@ UNIT = dict(
            'early evidence, without recommending it generally.'),
           ('Beyond about ____________ per cent, each additional point costs '
            'more than the material is worth.', None, 'forty-five',
-           'Paragraph 4, which also insists the curve turns rather than '
+           'Paragraph 4, which also insists the curve turns and does not '
            'bending.'),
           ('Composite packaging cannot be separated because it was '
            'manufactured as a single ____________.', None, 'object',
@@ -1051,19 +1050,19 @@ UNIT = dict(
     qs=['Are targets a good way to improve public services?',
         'Who should be responsible for reducing packaging: shoppers, '
         'manufacturers or government?',
-        'Why do you think people blame individuals rather than systems?',
+        'Why do you think people blame individuals instead of systems?',
         'Would you support a rule that made recycling rates look worse but '
         'did more good?'],
     shape=[('answer', 'They help at the start and then start to distort '
             'things.'),
            ('support', 'A weight target makes grass cuttings look like '
             'progress.'),
-           ('follow-up', 'Because the measure rewards mass rather than harm '
+           ('follow-up', 'Because the measure rewards mass and not harm '
             'avoided.'),
            ('support', 'Though without any target nothing gets measured at '
             'all.'),
-           ('follow-up', 'So the answer is probably a better target rather '
-            'than no target.')]),
+           ('follow-up', 'So the answer is probably a better target, not '
+            'no target.')]),
    write=[
     dict(task='Task 2 · planning', fork=None,
          heading='Brainstorm and outline: should households be fined for poor '
@@ -1082,7 +1081,7 @@ UNIT = dict(
                   'most contamination is confident, not careless'])]),
          notes=[
           'Both main ideas answer the question asked — whether fining is '
-          'right — rather than the topic, which is recycling. Ideas about '
+          'right — and not the topic, which is recycling. Ideas about '
           'recycling in general belong in the bin at this stage, however true.',
           'They are distinct: one is about control, the other about knowledge. '
           'If you can file one under the other you have one idea and need '
@@ -1104,7 +1103,7 @@ UNIT = dict(
     examples=['The rate rose steeply for a decade before levelling off.',
               'Beyond that point the curve does not bend; it turns.',
               'Each additional point costs more than the one before it.',
-              'The change arrives abruptly rather than gradually.'],
+              'The change arrives abruptly, not gradually.'],
     task='Rewrite each sentence to make the shape of the change explicit.',
     items=[('Recycling rates went up and then stopped.',
             'Recycling rates rose steeply before levelling off at about half.'),
@@ -1112,7 +1111,7 @@ UNIT = dict(
             'Beyond that point each additional tonne costs more than the last.'),
            ('The curve changes.', 'The curve does not bend gently; it turns.'),
            ('Capture becomes harder.',
-            'Capture becomes progressively more expensive rather than '
+            'Capture becomes progressively more expensive, not '
             'uniformly harder.'),
            ('The rate stopped at forty-eight per cent.',
             'The rate levelled off at forty-eight per cent and has stayed '
@@ -1120,7 +1119,7 @@ UNIT = dict(
    vocab=[('plateau', 'a level stretch after a rise'),
           ('composite', 'made of two materials bonded into one'),
           ('fraction', 'one component of a mixed waste stream'),
-          ('marginal', 'relating to the next unit rather than the average'),
+          ('marginal', 'relating to the next unit, not the average'),
           ('feedstock', 'material fed into a process'),
           ('kerbside', 'collected from outside the property'),
           ('bring-bank', 'a container the public brings material to'),
@@ -1146,7 +1145,7 @@ UNIT = dict(
          band='acad', qtype='Questions 56-62',
          paras=[
           'The previous cycle argued that household recycling rates have '
-          'stalled for structural reasons rather than behavioural ones. That '
+          'stalled for structural reasons and not behavioural ones. That '
           'argument is sound and it invites a further question which it does '
           'not itself raise: whether the whole category of household recycling '
           'deserves the attention it receives. A growing body of work suggests '
@@ -1191,7 +1190,7 @@ UNIT = dict(
           'product lifetime, the design of the retail supply chain. These '
           'decisions are made by a small number of people and are almost never '
           'the subject of a campaign.',
-          'A fourth consideration is practical rather than theoretical, and '
+          'A fourth consideration is practical, not theoretical, and '
           'it concerns what a policy can actually reach. Household behaviour '
           'is addressed through campaigns, which are cheap to run and whose '
           'effects decay within months of the last leaflet. Packaging design '
@@ -1259,7 +1258,7 @@ UNIT = dict(
            'on too hard. The laboratory results are real and the field results '
            'are a mess, and the difference between those two sentences is '
            'where most of this debate should be taking place.'),
-          ('Lindqvist', 'That is fair, and I have stopped using the strong '
+          ('Lindqvist', 'You are right and I have stopped using the strong '
            'version. The weaker version does not need the experiment at all. '
            'If a person believes the waste problem is a sorting problem, they '
            'will not support a packaging regulation, because in their '
@@ -1277,7 +1276,7 @@ UNIT = dict(
            'varies with how wasteful the packaging is behaves differently from '
            'a flat tax: the firm can escape most of it by redesigning, and '
            'that is the whole point of charging at that end of the chain '
-           'rather than this one.'),
+           'instead of this one.'),
           ('Lindqvist', 'Agreed, and I would add a reporting requirement so '
            'that the figure appears somewhere a shareholder reads it. The cost '
            'alone gets absorbed. The cost plus the disclosure gets designed '
@@ -1326,7 +1325,7 @@ UNIT = dict(
            'answer it.'),
     qs=['Is it fair to ask individuals to solve environmental problems?',
         'Should companies pay the full cost of disposing of their packaging?',
-        'Why do you think campaigns focus on households rather than industry?',
+        'Why do you think campaigns focus on households and not industry?',
         'Can a public habit be valuable even if its direct effect is small?'],
     shape=[('answer', 'Partly fair, and mostly a way of avoiding a harder '
             'conversation.'),
@@ -1363,7 +1362,7 @@ UNIT = dict(
           'household that moves five miles is wrong about everything it was '
           'previously right about. Labelling is set by manufacturers and is '
           'inconsistent by design. Most contamination, in the surveys I have '
-          'seen, is confident rather than careless: people place an item in a '
+          'seen, is confident: people place an item in a '
           'bin believing it belongs there. A fine corrects carelessness, and '
           'this is not carelessness.',
           'There is also the question of where the material came from. A '
@@ -1372,8 +1371,8 @@ UNIT = dict(
           'laminated object. Fining the person at the end of that chain for '
           'failing to undo a decision made at the beginning of it is a curious '
           'way to allocate responsibility.',
-          'In my view the penalty should attach to the producer rather than '
-          'the household, in the form of a charge reflecting the real cost of '
+          'In my view the penalty should attach to the producer, not the '
+          'household, in the form of a charge reflecting the real cost of '
           'dealing with the packaging they sell. That places the cost where '
           'the design decision is made, and it has the practical advantage '
           'that it requires no householder to be persuaded of anything.'],
@@ -1384,14 +1383,14 @@ UNIT = dict(
           'The third and fourth paragraphs give two different reasons, not two '
           'versions of one reason. Testing for that overlap is what the cycle '
           '4 outlining exercise trained.',
-          'The conclusion proposes an alternative instrument rather than '
+          'The conclusion proposes an alternative instrument instead of '
           'repeating the objection, and gives it a practical advantage. A '
           'conclusion that only restates is a wasted paragraph.'],
          criterion=[('Stating the opposing case at its strongest',
                      'Task Response'),
                     ('Two genuinely distinct reasons, not one repeated',
                      'Coherence and Cohesion'),
-                    ('A conclusion that proposes rather than restates',
+                    ('A conclusion that proposes, not one that restates',
                      'Task Response')],
          instruct='  Write at least 250 words in 40 minutes, from your outline.',
          lines=20)],
@@ -1400,7 +1399,7 @@ UNIT = dict(
     explain=('Scope words decide how much of a claim you are making, and '
              'misplacing one changes the claim entirely. At band 6.5 the '
              'examiner is watching whether you can limit a statement '
-             'deliberately rather than hedging everything in sight.'),
+             'deliberately instead of hedging everything in sight.'),
     examples=['The objection is largely correct about prices.',
               'Only the second condition has any real force.',
               'Even a household that sorts perfectly acts on a small share.',
@@ -1452,7 +1451,7 @@ UNIT = dict(
           'question’s words.'),
          ('What the loop does instead',
           'You read the paragraph for meaning, so a paraphrase registers as '
-          'the same idea rather than as different words.')],
+          'the same idea even when the wording has moved.')],
   task='Two of these five questions are keyword traps. Which, and where does '
        'each one send you?',
   qs=['Which bin takes rigid plastic?',

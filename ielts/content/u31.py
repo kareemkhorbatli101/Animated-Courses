@@ -66,7 +66,7 @@ UNIT = dict(
           ('Income answers are',
            ['recorded exactly', 'not collected at all', 'placed in bands',
             'published by household'], 2,
-           'Paragraph 3: placed in bands rather than recorded exactly.'),
+           'Paragraph 3: income goes into bands, not exact figures.'),
           ('The twenty-pound voucher is described as',
            ['a payment for completing every question',
             'a contribution towards your time',
@@ -104,7 +104,7 @@ UNIT = dict(
           ('A record that is internally inconsistent is checked by an '
            '____________.', None, 'analyst',
            'Paragraph 2: an analyst looks at the record by hand.'),
-          ('An impossible answer is ____________ rather than corrected.',
+          ('An impossible answer is ____________ instead of corrected.',
            None, 'deleted',
            'Paragraph 2 gives the reason as well: a corrected answer is a guess '
            'wearing a figure.'),
@@ -217,7 +217,7 @@ UNIT = dict(
           ('A clean refusal is described as',
            ['a failure', 'noise', 'data', 'a call-back'], 2,
            'It tells us the shape of who is missing, which is why he calls it '
-           'data rather than a failure.')])],
+           'data, not a failure.')])],
    speak=dict(
     part='Part 1', focus='Numbers and surveys',
     intro=('Part 1 answers stay short. Two or three sentences: answer, then '
@@ -231,8 +231,8 @@ UNIT = dict(
     shape=[('answer', 'I usually avoid them, to be honest.'),
            ('support', 'They always arrive when I am in the middle of '
             'something.'),
-           ('follow-up', 'So it is the timing rather than the questions I '
-            'object to.')]),
+           ('follow-up', 'So it is the timing I object to, and not '
+            'the questions.')]),
    write=[
     dict(task='Task 1', fork='GT',
          heading='Asking how your data will be used',
@@ -271,7 +271,7 @@ UNIT = dict(
           'together.',
           'Every claim is specific. The date, the reference, the newspaper and '
           'the figure are all named, which is what makes a complaint answerable '
-          'rather than a grumble.'],
+          'instead of a grumble.'],
          criterion=[('Covering all three bullets and developing each',
                      'Task Achievement'),
                     ('Opening and closing that match the register',
@@ -288,7 +288,7 @@ UNIT = dict(
              'the passive, and IELTS Task 1 process answers live on it.'),
     examples=['Addresses are selected at random from the postal address file.',
               'The label is removed and replaced with a serial number.',
-              'An impossible answer is deleted rather than corrected.',
+              'An impossible answer is deleted, not corrected.',
               'Results are published nine months after fieldwork closes.'],
     task='Rewrite each sentence so that the agent disappears.',
     items=[('Somebody at the central office removes the address label.',
@@ -461,7 +461,7 @@ UNIT = dict(
     intro=('Part 1 stays at two or three sentences. Then the long turn: one to '
            'two minutes, and the card has already written your outline for '
            'you. Take the bullets in order, give them roughly equal weight, '
-           'and develop rather than list.'),
+           'and develop each bullet instead of listing more.'),
     cue=('Describe a statistic or a number you have heard quoted.',
          ['what the number was',
           'where you heard or read it',
@@ -500,7 +500,7 @@ UNIT = dict(
           'source for every figure they print, and equally often answered that '
           'this would turn a news article into an academic paper. I believe the '
           'requirement is right, and that the objection is really about where '
-          'the citation goes rather than whether there should be one.',
+          'the citation goes, not whether there should be one.',
           'The case for citation is that a reader cannot check what has not '
           'been identified. A figure without a source is not evidence; it is an '
           'assertion with a number attached, and it is indistinguishable on the '
@@ -523,20 +523,20 @@ UNIT = dict(
           'between a claim that can be tested and one that cannot.'],
          notes=[
           'Structure 2: the opposing view is given a full paragraph before the '
-          'writer’s own, and it is given properly rather than set up to be '
+          'writer’s own, and it is given properly instead of being set up to be '
           'knocked down.',
           'The two objections are answered separately and differently: the '
           'first is conceded and shown to be irrelevant, the second is '
           'accepted and redirected to layout. Answering two objections the '
           'same way is what makes an essay feel thin.',
-          'The conclusion adds a limit rather than restating the position. A '
+          'The conclusion adds a limit instead of restating the position. A '
           'qualified position reads as considered; a repeated one reads as '
           'padding.'],
          criterion=[('Both views developed before the writer’s own',
                      'Task Response'),
                     ('Each objection answered on its own terms',
                      'Task Response'),
-                    ('A conclusion that qualifies rather than repeats',
+                    ('A conclusion that qualifies, not one that repeats',
                      'Coherence and Cohesion')],
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
@@ -621,7 +621,7 @@ UNIT = dict(
           'to fall by more than half the height of the chart, and vehicle crime '
           'climbs steeply to cross it in 2021. Nothing in the data has changed. '
           'What has changed is how much of the chart is occupied by the '
-          'difference rather than by the quantity.',
+          'difference, while the quantity itself takes up less and less of it.',
           'A third chart, published by a researcher who had read both, showed '
           'neither series as a count. It divided each figure by the number of '
           'households in the district, which had risen by about nine per cent '
@@ -704,7 +704,7 @@ UNIT = dict(
            'will produce a perfectly flat line across the page, and you will '
            'have concealed the fever. For a quantity where zero is not a '
            'meaningful value, and where the interesting thing is movement '
-           'rather than size, cutting the axis is not merely permitted. It is '
+           'movement, cutting the axis is not merely permitted. It is '
            'the only honest option available to you.'),
           ('Lecturer', 'So the rule is not about zero at all. The rule is that '
            'the axis should match what the reader is being asked to compare. '
@@ -718,7 +718,7 @@ UNIT = dict(
            'presented without its denominator is already a claim about cause. '
            'Divide by households, by patients, by vehicle miles, and very often '
            'the trend you were arguing about turns out to belong to the '
-           'denominator rather than to the thing you were counting.'),
+           'denominator, which is a different quantity altogether.'),
           ('Lecturer', 'In your own writing, the discipline I want is simple. '
            'Name the basis, name the period, and if you have cut the axis, say '
            'so in the sentence rather than in the small print.')],
@@ -751,13 +751,13 @@ UNIT = dict(
            'axis?',
            ['Avoid it entirely', 'Explain it in a footnote',
             'Say so in the sentence', 'Use a bar chart instead'], 2,
-           'Say so in the sentence rather than in the small print, which is '
+           'Say so in the sentence, not in the small print, which is '
            'the last line of the lecture.')])],
    speak=dict(
     part='Part 3', focus='How figures are presented',
     intro=('Part 3 answers are longer: four or five sentences. Answer, support, '
-           'follow-up, second support. You are being asked to discuss rather '
-           'than to report, so the follow-up matters more here than anywhere '
+           'follow-up, second support. You are being asked to discuss, not to '
+           'report, so the follow-up matters more here than anywhere '
            'else in the test.'),
     qs=['Why do you think the same figures can give people opposite '
         'impressions?',
@@ -903,8 +903,8 @@ UNIT = dict(
           'calculation almost not at all.',
           'Put formally, the uncertainty attached to a proportion estimated '
           'from a random sample depends on the square root of the number of '
-          'observations, and not on the size of the population those '
-          'observations came from. A sample of a thousand gives a margin of '
+          'observations, while the size of the population those observations '
+          'came from barely enters the arithmetic. A sample of a thousand gives a margin of '
           'error of about three percentage points either way. To halve that '
           'margin you do not need twice as many respondents; you need four '
           'times as many, because of the square root. This is why professional '
@@ -938,7 +938,7 @@ UNIT = dict(
           'surveys approach and never reach. Several national statistical '
           'offices achieve it closely enough that the arithmetic holds, and '
           'they do so by spending heavily on persuading reluctant households '
-          'rather than on enlarging the initial list.',
+          'instead of enlarging the initial list.',
           'The practical consequence for a reader is a simple reordering of '
           'questions. When a figure is quoted, the first question is not how '
           'many people were asked. It is how they were chosen, and what '
@@ -1061,7 +1061,7 @@ UNIT = dict(
     part='Part 3', focus='Trusting a survey',
     intro=('Keep the shape: answer, support, follow-up, support. The follow-up '
            'is where a 6.5 answer separates from a 6.0, because it is the '
-           'sentence that explains rather than adds.'),
+           'sentence that explains instead of merely adding.'),
     qs=['What would make you trust a survey result?',
         'Should news reports be required to give the response rate?',
         'Why do you think people distrust polls more than other kinds of '
@@ -1099,12 +1099,12 @@ UNIT = dict(
           'support that fully is not a main idea, however true it is.',
           'The two ideas sit at the same level of generality and neither '
           'contains the other. If one can be filed under the other, you have '
-          'one idea and not two.',
+          'one idea wearing two hats.',
           'The order is deliberate: the objection to the proposal comes '
           'second, because it is the one the conclusion will build on.'],
          criterion=[('Choosing distinct, equally weighted main ideas',
                      'Coherence and Cohesion'),
-                    ('Ideas that answer the question rather than the topic',
+                    ('Ideas that answer the question, not the topic',
                      'Task Response')],
          instruct='  Produce the outline only. You will write it in cycle 5.',
          lines=12)],
@@ -1270,7 +1270,7 @@ UNIT = dict(
            'misses of the nineteen-forties everyone fixed quota sampling. Each '
            'fix was correct and each left the underlying vulnerability intact, '
            'which is that we cannot observe the people who do not answer.'),
-          ('Vasquez', 'I agree with the history and not with the conclusion. '
+          ('Vasquez', 'I agree with the history; the conclusion is where we part. '
            'The vulnerability is real and it is bounded. We know roughly how '
            'large it can be, because we can compare pre-election polls with '
            'results over hundreds of contests. The average error is around two '
@@ -1360,7 +1360,7 @@ UNIT = dict(
             'introduced.'),
            ('follow-up', 'And the benefit only showed up years later, by which '
             'time nobody objected.'),
-           ('support', 'But I would want the unpopularity recorded rather than '
+           ('support', 'But I would want the unpopularity recorded, not '
             'denied.'),
            ('follow-up', 'Otherwise the next unpopular decision has nothing to '
             'point back to.')]),
@@ -1382,7 +1382,7 @@ UNIT = dict(
           'settle it.',
           'The case for the requirement is stronger than it is usually given '
           'credit for. A measure that commands no support tends to fail at the '
-          'point of implementation rather than at the point of announcement. '
+          'point of implementation, not at the point of announcement. '
           'People comply with rules they regard as legitimate and evade those '
           'they do not, so that enforcement costs rise sharply where consent '
           'is absent. On this argument, consulting opinion is not weakness but '
@@ -1413,8 +1413,8 @@ UNIT = dict(
          notes=[
           'Structure 3: two positions are set out properly and the conclusion '
           'supplies a third that is not a compromise between them but a '
-          'different arrangement — publish and explain, rather than require or '
-          'ignore.',
+          'different arrangement — publish and explain, instead of requiring or '
+          'ignoring.',
           'The fourth paragraph introduces an argument the prompt did not '
           'suggest. At 6.5 and above, one idea the examiner has not seen in '
           'the previous twenty scripts is worth more than two that are in all '
@@ -1427,7 +1427,7 @@ UNIT = dict(
                      'Task Response'),
                     ('A genuine concession before the objection',
                      'Task Response'),
-                    ('Specific examples rather than general assertion',
+                    ('Specific examples in place of general assertion',
                      'Lexical Resource')],
          instruct='  Write at least 250 words in 40 minutes, from your outline.',
          lines=20)],
@@ -1435,15 +1435,15 @@ UNIT = dict(
     point='Concession and rebuttal: giving ground without losing the argument',
     explain=('A 6.5 essay concedes. The structures below let you accept part '
              'of an opposing case and then limit it, which reads as judgement '
-             'rather than as indecision. The pattern is always the same: grant '
+             'as indecision. The pattern is always the same: grant '
              'the point, then name what it does not reach.'),
     examples=['The case is stronger than it is usually given credit for, but '
               'it does not reach the harder cases.',
               'That is true, and it is beside the point.',
               'Admittedly the figure is reliable; the comparison it is used '
               'for is not.',
-              'While the objection has force, it is an argument about layout '
-              'rather than about principle.'],
+              'While the objection has force, it is an argument about layout, '
+              'where the principle is untouched.'],
     task='Concede the first clause and then limit it.',
     items=[('Surveys are useful.',
             'Surveys are useful, but they measure what a method reached.'),
@@ -1495,14 +1495,14 @@ UNIT = dict(
   task='For each gap, write only what form the answer must take.',
   qs=['The survey contacts about ____________ households each year.',
       'Interviewers call back up to ____________ times.',
-      'Income is reported in ____________ rather than exact figures.',
+      'Income is reported in ____________ instead of exact figures.',
       'The voucher is worth ____________.',
       'Anonymised records are released to ____________ under licence.']),
  outlining=dict(
   title='Main ideas and the details under them',
   body=('An outline is main ideas with their supports, and the judgement that '
         'matters is which brainstormed ideas become main ideas. Six tests: '
-        'distinct, roughly equal in weight, answering the question rather than '
+        'distinct, roughly equal in weight, answering the question and not '
         'the topic, covering enough between them, developable in four '
         'sentences, and ordered on purpose.'),
   frame=('Surveys are worth taking part in',

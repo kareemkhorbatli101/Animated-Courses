@@ -50,8 +50,7 @@ PAPER = dict(
         'where labour was, which generally meant inside cities, and a '
         'substantial fraction of the population of every port city worked, '
         'directly or indirectly, on moving goods between ship and shore.',
-        'The container removed almost all of that work, and the removal was '
-        'the point rather than a side effect. Resistance from dock labour was '
+        'The container removed almost all of that work, and the removal was the point of the exercise. Resistance from dock labour was '
         'immediate and well organised, and in several countries it delayed '
         'adoption by a decade. Where agreements were eventually reached they '
         'typically traded guaranteed income for existing workers against '
@@ -83,7 +82,7 @@ PAPER = dict(
         'another continent had previously faced a shipping cost that could '
         'exceed the wage difference. After containerisation that cost was '
         'often less than one per cent of the value of the goods.',
-        'The transition also redistributed work rather than simply '
+        'The transition also redistributed work instead of simply '
         'eliminating it. Jobs disappeared from the docks of old port cities '
         'and appeared in distribution parks forty miles inland, in haulage, '
         'and in the warehouses that a fast, predictable supply chain '
@@ -160,8 +159,7 @@ PAPER = dict(
          'passage.'),
         ('The container reduced the cost of long-distance trade more than '
          'short-distance trade.', ['True', 'False', 'Not Given'], 0,
-         'Paragraph 9: the saving was in handling rather than distance, which '
-         'is the reverse of most transport improvements.')]),
+         'Paragraph 9: the saving lay in handling, where distance was barely affected, which is the reverse of most transport improvements.')]),
 
   dict(no=2, first=14,
        heading='The invention of standard time',
@@ -237,11 +235,9 @@ PAPER = dict(
         'operator in one city could ask an operator in another what the time '
         'was and receive an answer that was both accurate and wrong, and the '
         'astronomers who ran the early time signals were among the first to '
-        'insist that the question needed a convention rather than an '
-        'observation.',
+        'insist that the question needed a convention to answer it.',
         'The final irony is that the precision the system was built on has '
-        'since been abandoned. Modern civil time is derived from atomic '
-        'clocks rather than from the rotation of the earth, and because that '
+        'since been abandoned. Modern civil time is derived from atomic clocks, where it was once derived from the rotation of the earth, and because that '
         'rotation is slightly irregular the two diverge. Leap seconds were '
         'introduced to keep them aligned, and in 2022 it was agreed to '
         'abandon them by 2035, accepting that civil time will drift away from '
@@ -285,8 +281,7 @@ PAPER = dict(
         ('According to the writer, nineteenth-century objections to standard '
          'time concerned',
          ['inconvenience', 'cost', 'authority', 'accuracy'], 2,
-         'Paragraph 7: time derived from an agreement rather than from the '
-         'sun.'),
+         'Paragraph 7: time derived from an agreement, where it had come from the sun.'),
         ('The writer describes the complaint about losing local time as',
          ['foolish', 'not as foolish as it sounds', 'typical of the period',
           'economically motivated'], 1,
@@ -433,7 +428,7 @@ PAPER = dict(
         ('Approximately how many species definitions are in current use?',
          ['Six', 'Twelve', 'Twenty-six', 'Over a hundred'], 2,
          'Paragraph 5, each working well in the domain it was built for.'),
-        ('Palaeontologists use ____________ criteria rather than the '
+        ('Palaeontologists use ____________ criteria instead of the '
          'interbreeding test.', None, 'morphological',
          'Paragraph 4, because the test cannot be run on fossils.'),
         ('The writer says species are a way of dividing populations into '
