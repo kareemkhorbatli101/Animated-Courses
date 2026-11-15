@@ -727,7 +727,197 @@ paragraphs to develop.
 
 ---
 
-## 7. The unit, cycle by cycle
+## 7. Speaking
+
+### 7.1 The two-to-five rule
+
+Every answer has a shape, and the shape is an outline said out loud:
+
+| Sentences | Pattern | |
+|---|---|---|
+| 2 | **answer + support** | the floor — an answer with nothing behind it is not an answer |
+| 3 | **answer + support + support** | |
+| 4 | **answer + support + its follow-up + support** | |
+| 5 | **answer + support + follow-up + support + follow-up** | the ceiling for one Part 1 or Part 3 turn |
+
+The mapping to section 5 is exact, and the books should draw it on the page:
+
+| Speaking | Outline | Writing |
+|---|---|---|
+| the answer | the main idea | the topic sentence |
+| a support | a supporting detail | the evidence or reason |
+| a follow-up | the development | the explanation that earns the detail |
+
+So a student who can outline can speak, and a student who can speak in this
+shape is drafting a body paragraph aloud. **This is the same lesson arriving
+for the third time**, and saying so is what stops it being three lessons.
+
+**It is a model, not a constraint, and the books must say that in those
+words.** Two is a floor rather than a target; five is a shape, not a quota. An
+answer that runs to six sentences because the sixth is doing work is a better
+answer, and an answer padded to five with a sentence that says nothing is a
+worse one. The rule exists to stop a candidate answering in three words and to
+stop them rambling, and both failures are commoner than anything in between.
+
+**The ladder.** The shape grows with the volume and with the part of the test:
+
+| Book | Part 1 | Part 3 |
+|---|---|---|
+| Foundation 1–2 | 2 | 2 |
+| Volumes 1–2 | 2–3 | 3 |
+| Volumes 3–4 | 3 | 3–4 |
+| Volumes 5–6 | 3 | 4–5 |
+
+Part 1 stays short on purpose. A candidate who gives a five-sentence answer to
+"Do you work or study?" has misread the room, and the examiner has eleven more
+questions to get through.
+
+### 7.2 Part 2: the card is an outline that has already been written for you
+
+The bullets on the cue card are the main ideas. Run the two-to-five rule on
+each one and the long turn builds itself. Three rules, in order of how often
+they are broken:
+
+1. **Depth beats breadth.** A long list is boring, it is simple, and it will
+   not get you far. Two points developed outscore five points mentioned, every
+   time, because development is what the criteria reward and a list is what a
+   nervous candidate produces.
+2. **Take the bullets in order**, unless there is a real reason not to. The
+   order is usually the natural order of the story, and a candidate who jumps
+   around spends fluency on navigation.
+3. **Give them roughly equal weight** — as far as that makes sense. One bullet
+   starved and one bloated reads as a candidate who ran out of material and
+   padded, which is exactly what it is.
+
+**The arithmetic says this is calibrated, not arbitrary.** Four bullets at four
+sentences each, at an ordinary spoken 15 words a sentence, is 240 words — which
+is 1.5 minutes at 160 words a minute and 2.0 at 120. The long turn asks for one
+to two minutes. Across the plausible range (three to five sentences a bullet,
+120 to 160 wpm) the rule produces 1.0 to 2.8 minutes, so a student running it
+lands inside the window without watching a clock. That is worth printing,
+because a candidate who trusts the shape stops counting and starts talking.
+
+### 7.3 Expressions and structures, never templates
+
+The course teaches **functional expressions** — ways to concede, to qualify, to
+compare, to speculate, to correct yourself, to buy a moment honestly — and
+**general structures**, which are shapes. It does not teach sentences to insert
+regardless of what was asked.
+
+This is not only a matter of taste. A memorised opening is recognised, and it
+does not demonstrate the ability the criteria are written to measure; worse,
+the template usually answers a question slightly different from the one asked,
+which costs the response criterion before the language is even considered. The
+practical test the books use: **if you could say this sentence in answer to a
+different question, it is a template, and it is costing you.**
+
+The stance strand already in the architecture does this work. It teaches
+*arguably*, *on balance*, *it depends what you mean by*, *I would go further
+than that* — expressions that commit to a degree, which is precisely the
+flexibility the criteria reward and the thing a template cannot fake.
+
+---
+
+## 8. What the test measures, and what that makes this course
+
+### 8.1 Every lesson names the criterion it moves
+
+IELTS publishes its criteria. Writing is marked on Task Response, Coherence and
+Cohesion, Lexical Resource, and Grammatical Range and Accuracy. Speaking is
+marked on Fluency and Coherence, Lexical Resource, Grammatical Range and
+Accuracy, and Pronunciation. Reading and Listening have no criteria at all —
+they are raw-marked and converted.
+
+**That asymmetry is a design instruction, not a footnote.** In Reading and
+Listening, technique converts straight into marks: a better method finds more
+answers. In Writing and Speaking there is no such line, and a technique only
+pays if it moves one of four named criteria. So every lesson in the productive
+strands **states the criterion it serves**, and the gate checks that it does.
+
+| Technique | Criterion it moves |
+|---|---|
+| Choosing distinct, equally weighted main ideas | Coherence and Cohesion |
+| The two-to-five rule | Fluency and Coherence; Task Response |
+| Outlining before writing | Task Response and Coherence and Cohesion |
+| Task 1: every number carries a description | Task Achievement |
+| Task 1: a declared basis for dividing the body paragraphs | Coherence and Cohesion |
+| Task 1: complete coverage, summarised | Task Achievement |
+| Stance and hedging expressions | Lexical Resource |
+| The conditional move ("both, under different circumstances") | Task Response |
+| Refusing templates | Lexical Resource; Task Response |
+
+A student who knows which of four numbers a technique moves can spend their
+last fortnight on the one that is holding their band down. A student who has
+been given a bag of tips cannot.
+
+### 8.2 Why there are two modules, and what follows from it
+
+If IELTS were a test of English in the abstract there would be one paper. There
+are two because the thing being measured is **language in a domain** — academic
+study on one side, work and daily life in an English-speaking country on the
+other — and the conventions of a domain are part of what is being tested, not
+packaging around it.
+
+That is why General Training is bound up with workplaces, notices, handbooks
+and letters, and why Academic is bound up with argument, evidence and the
+shapes a research literature uses. A candidate who knows the grammar and has
+never met the conventions will still miss: they will not know that a notice
+buries its condition in the last line, or that an academic passage states a
+claim and then qualifies it, or that a letter to a landlord is not a letter to
+a friend.
+
+**So this course cannot be a grammar and vocabulary course with test practice
+attached.** It has to teach the discourse of both domains — which is what the
+five-cycle unit is already for. Cycles 1 to 3 are the everyday and workplace
+domain; cycles 4 and 5 are the academic one. The architecture was already
+making this argument; the books should now say it out loud, in the front
+matter, because a student who understands why the two modules exist stops
+treating the other module's cycles as padding.
+
+### 8.3 Skills and technique, not hacks
+
+The line between them is not attitude, it is durability, and there is a test
+for it:
+
+> **A hack stops working if the test changes slightly. A skill is something
+> you would keep doing the day after the exam.**
+
+Outlining survives. Reading one paragraph at a time survives. Knowing that a
+number without a description is worth less than a number with one survives —
+it is just good writing. "Open every conclusion with *In conclusion*" does not
+survive, and was never worth anything.
+
+Every lesson in this series should pass that test, and where something is a
+genuine exam artefact — the word limit on a completion answer, the two-minute
+check at the end of computer-delivered Listening — the book says so plainly and
+calls it what it is. A course that mixes the two and labels neither teaches
+students to distrust both.
+
+### 8.4 Receptive before productive, inside every cycle
+
+**If you cannot read and understand, you will not be able to speak or write.**
+Ideas come from having read; structure comes from having seen structure;
+vocabulary is recognised long before it is produced; and the main-idea judgement
+is learned by recognising it before anyone can perform it.
+
+This fixes the order inside a cycle: **read, listen, then speak, then write**,
+on the same sub-topic, with the productive tasks drawing on the ideas and the
+language of the receptive ones. The TOEFL series already works this way — the
+email you write in cycle 2 answers the announcement you heard in cycle 2 — and
+for IELTS it has a sharper consequence:
+
+**Cycles 4 and 5 are a writing lesson disguised as a reading lesson.** Cycle 4
+reads the claim a field rests on; cycle 5 reads the objection to that claim.
+That pair *is* essay structure 2, 3 and 9 from the Task 2 taxonomy, met as a
+reader before it is required of a writer. By the time the student plans the
+essay in cycle 5 they have just read two models of the exact move they are
+being asked to make. The plan should make that explicit in the unit, with a
+line of text that says so, because students do not notice it by themselves and
+it is the best thing the architecture does.
+
+---
+
+## 9. The unit, cycle by cycle
 
 Sixteen parts, five cycles a skill, the same architecture the TOEFL series
 ships — with the task names swapped for IELTS ones and one strand added.
@@ -740,6 +930,12 @@ ships — with the task names swapped for IELTS ones and one strand added.
 | 4 | **Academic passage / GT Section 3** — the claim the field rests on | Part 4: academic lecture | **Academic Task 1**: data, process or map | Part 3: discussion |
 | 5 | **Academic passage** — the objection to cycle 4 | Part 4: a second lecture | **Task 2** at full length | Part 3: the harder turn |
 
+The order inside a cycle is fixed and it is not arbitrary: **read, listen,
+speak, write**, all on the one sub-topic, because nobody produces a pattern
+they have not first processed (8.4). Cycles 4 and 5 carry the heaviest version
+of this — the claim and the objection are read before the same move is asked
+for in the Task 2 essay — and the unit says so on the page.
+
 Two strands are added to every unit:
 
 * **Active Reading / Active Listening** — one lesson on a move of the method,
@@ -750,6 +946,9 @@ Two strands are added to every unit:
 * **Outlining** — one exercise from the eight families in 5.2, at that
   volume's level, with at least one unit a volume running the
   passage-to-outline exercise that makes the cross-skill thread explicit.
+* **The answer shape** — the two-to-five rule (7.1) practised in Speaking and
+  then shown to be the same object as the outline and the body paragraph. Each
+  productive lesson names the criterion it moves (8.1).
 
 Passage lengths, which are *not* the TOEFL ones — Academic Reading runs
 longer than TOEFL's, and the whole paper is 40 questions in 60 minutes with no
@@ -766,7 +965,7 @@ passage does, and reading speed is built above the distance you race.
 
 ---
 
-## 8. Question types: the coverage that has to be gated
+## 10. Question types: the coverage that has to be gated
 
 The eleven Reading types and the Listening types are the syllabus. Each one is
 **taught in a named lesson before it is ever tested**, and a gate enforces it.
@@ -797,7 +996,7 @@ taught.
 
 ---
 
-## 9. What clones, what is new
+## 11. What clones, what is new
 
 **Clones unchanged** — the expensive, proven part:
 
@@ -837,7 +1036,7 @@ taught.
 
 ---
 
-## 10. The gates, restated for IELTS
+## 12. The gates, restated for IELTS
 
 | Gate | What it proves |
 |---|---|
@@ -855,6 +1054,8 @@ taught.
 | **12 reading speed** | **every volume's timed passages are set so the loop's arithmetic closes at that volume's target wpm, and every printed time budget names the speed it assumes** |
 | **13 outlining** | **every unit carries an outlining exercise; every volume runs passage-to-outline at least once, and every one of the eight families appears** |
 | **14 structure coverage** | **all eleven Task 2 structures and all seven Academic Task 1 visual types are taught before they are set, and each is set at least twice across the series** |
+| **15 criterion mapping** | **every lesson in Writing and Speaking names the published criterion it moves, and across a volume all four criteria of each skill are served** |
+| **16 no templates** | **no model answer in the series contains a sentence that would fit a different prompt unchanged** |
 
 Gates 10 and 11 are written **before** the content, for the same reason gate 9
 was: gate 9 failed Volumes 3 and 4 on the day it was written, and that failure
@@ -862,7 +1063,7 @@ is what drove the work that fixed them.
 
 ---
 
-## 11. Sequence, and an honest word on scale
+## 13. Sequence, and an honest word on scale
 
 The TOEFL series is eight books, 1.09 million body words and 3,752 figures.
 The IELTS clone is the same order of work or slightly more, because the
@@ -896,7 +1097,7 @@ measurement is what made gate 7 pass at a mean of 1.5 unknown types.
 
 ---
 
-## 12. Open questions worth settling before step 1
+## 14. Open questions worth settling before step 1
 
 1. **Market and format.** Which country's candidates, and are they sitting on
    computer or paper? This changes the technique chapter and the timings
