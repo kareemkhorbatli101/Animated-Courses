@@ -919,44 +919,99 @@ it is the best thing the architecture does.
 
 ## 9. The unit, cycle by cycle
 
-Sixteen parts, five cycles a skill, the same architecture the TOEFL series
-ships — with the task names swapped for IELTS ones and one strand added.
+**A cycle is one sub-topic taken through all four skills.** Five of them make a
+unit. That is the TOEFL architecture unchanged, and three things about it have
+to be stated precisely, because each of them is a place the design can go
+wrong.
 
-| Cycle | Reading | Listening | Writing | Speaking |
-|---|---|---|---|---|
-| 1 | GT Section 1 text: notice, advert, timetable | Part 1: social conversation, 2 speakers | **GT Task 1**: a letter | Part 1: interview |
-| 2 | GT Section 1–2 text: workplace document | Part 2: social monologue | **GT Task 1**: a second register | Part 1 + Part 2 cue card |
-| 3 | GT Section 2 text: staff handbook, training | Part 3: academic discussion, up to 4 speakers | Task 2 under 250 words | Part 2: the long turn |
-| 4 | **Academic passage / GT Section 3** — the claim the field rests on | Part 4: academic lecture | **Academic Task 1**: data, process or map | Part 3: discussion |
-| 5 | **Academic passage** — the objection to cycle 4 | Part 4: a second lecture | **Task 2** at full length | Part 3: the harder turn |
+**1. No cycle belongs to a module.** Every cycle advances an Academic candidate
+and a General Training candidate equally. The earlier draft of this plan
+labelled cycles 1 to 3 "General Training" and 4 to 5 "Academic", which turned a
+distinction between *topics* into a distinction between *papers* and quietly
+told half the students that half the book was not theirs. It is not true: a GT
+candidate needs the long passage because GT Section 3 is one, and an Academic
+candidate needs the everyday register because Listening Parts 1 and 2 live in
+it. Only Writing Task 1 genuinely forks, and where it does, **the cycle carries
+both versions on the same sub-topic** — the data description and the letter,
+side by side, each fully taught.
 
-The order inside a cycle is fixed and it is not arbitrary: **read, listen,
-speak, write**, all on the one sub-topic, because nobody produces a pattern
-they have not first processed (8.4). Cycles 4 and 5 carry the heaviest version
-of this — the claim and the objection are read before the same move is asked
-for in the Task 2 essay — and the unit says so on the page.
+**2. A cycle is sized by what it needs.** One task a skill is a floor, not a
+cap. A cycle may carry two or three short reading texts where the real paper
+does — GT Section 1 is two or three short texts — or two listening pieces, or a
+speaking group that runs across two parts. The number of items in a cycle is
+decided by the sub-topic and the task, and the gates count coverage across the
+unit rather than enforcing one item a slot.
 
-Two strands are added to every unit:
+**3. Grammar, vocabulary, expressions and transitions live inside the cycles.**
+This is the real departure from the TOEFL series, where the vocabulary sits on
+dedicated pages at the front of the unit and the grammar has its own section at
+the back. Here each cycle carries its own:
+
+* **Vocabulary** drawn from that cycle's own texts, taught where it is used.
+* **A grammar point discovered in that cycle's reading and then required by
+  that cycle's writing** — found as a reader, used as a writer, inside one
+  sub-topic.
+* **The expressions the cycle's task actually needs** — letter openings and
+  closings in a letter cycle; the language of trend, proportion and comparison
+  in a data cycle; concession and qualification in an essay cycle.
+* **The transitions that hold that cycle's text type together**, taken from the
+  passage the student has just read.
+
+The unit-level lists do not disappear; they change job. **Teach in the cycle,
+consolidate at the unit.** The wordlist, the grammar reference and the
+expression bank at the end of a unit collect what the five cycles taught, so
+they are a revision tool rather than a dump to be swallowed before anything has
+been met.
+
+### 9.1 The five cycles
+
+| Cycle | Reading | Listening | Speaking | Writing | Both modules |
+|---|---|---|---|---|---|
+| 1 | GT Section 1 shape: two or three short texts — notice, advert, timetable | Part 1: social conversation | Part 1: interview | **Task 1, both forks**: a letter and a simple data description on the same sub-topic | both taught |
+| 2 | GT Section 2 shape: workplace or handbook text | Part 2: social monologue | Part 1 into Part 2 | Task 2, under length | shared |
+| 3 | Longer general-interest text — GT Section 3, which is already academic in shape | Part 3: discussion, three or four speakers | Part 2: the long turn | **Task 1, both forks**: a second visual type and a second register | both taught |
+| 4 | Academic passage — **the claim the field rests on** | Part 4: academic lecture | Part 3: discussion | Task 2: brainstorming and the outline only | shared |
+| 5 | Academic passage — **the objection to cycle 4** | Part 4: a second lecture | Part 3: the harder turn | Task 2: the full essay, from cycle 4's outline | shared |
+
+Across one unit that is the whole inventory: GT Reading Sections 1, 2 and 3;
+two academic passages; Listening Parts 1 to 4; Speaking Parts 1 to 3; two Task
+1 slots carrying both forks; and Task 2 met three times — short, planned, then
+written in full.
+
+**The order inside a cycle is fixed**: read, listen, speak, write, on the one
+sub-topic, because nobody produces a pattern they have not first processed
+(8.4). Cycles 4 and 5 carry the heaviest version of this — the claim and the
+objection are read, and then the same move is required in the essay — and the
+page says so.
+
+**Cycles 4 and 5 are deliberately one piece of work.** Cycle 4 ends with a
+brainstorm and an outline; cycle 5 writes the essay from it. A student who has
+read a claim and then an objection, and outlined before writing, has done in
+the book exactly what the exam asks for in forty minutes.
+
+Three strands run through every unit on top of the cycles:
 
 * **Active Reading / Active Listening** — one lesson on a move of the method,
   one of its four reading variants or one of the four Listening-only moves
   (4.2); the unit's exercise from the four families in 3.4; and the timed
   passage whose words-per-minute goes into the unit review beside the re-read
   counter.
-* **Outlining** — one exercise from the eight families in 5.2, at that
-  volume's level, with at least one unit a volume running the
-  passage-to-outline exercise that makes the cross-skill thread explicit.
+* **Outlining** — one exercise from the eight families in 5.2, with at least
+  one unit a volume running passage-to-outline.
 * **The answer shape** — the two-to-five rule (7.1) practised in Speaking and
-  then shown to be the same object as the outline and the body paragraph. Each
+  then shown to be the same object as the outline and the body paragraph. Every
   productive lesson names the criterion it moves (8.1).
 
-Passage lengths, which are *not* the TOEFL ones — Academic Reading runs
-longer than TOEFL's, and the whole paper is 40 questions in 60 minutes with no
-separate transfer time:
+### 9.2 Lengths
+
+Not the TOEFL ones: Academic Reading runs longer, and the paper is 40 questions
+in 60 minutes with no transfer time.
 
 | | Foundation 1 | Foundation 2 | V1–V2 | V3–V4 | V5–V6 |
 |---|---|---|---|---|---|
-| GT-style texts (cycles 1–3) | 90–140 | 140–200 | 200–280 | 280–360 | 340–420 |
+| Short GT texts (cycle 1, each) | 60–90 | 90–130 | 130–180 | 180–240 | 220–280 |
+| Workplace text (cycle 2) | 90–140 | 140–200 | 200–280 | 280–360 | 340–420 |
+| Long text (cycle 3) | 150–200 | 200–280 | 320–420 | 480–620 | 650–800 |
 | Academic passage (cycles 4–5) | 180–240 | 240–320 | 420–560 | 620–780 | 800–950 |
 | Listening script, Part 4 | 180–240 | 240–300 | 300–400 | 420–520 | 520–620 |
 
@@ -965,7 +1020,98 @@ passage does, and reading speed is built above the distance you race.
 
 ---
 
-## 10. Question types: the coverage that has to be gated
+## 10. Scaffolding and visuals
+
+Two requirements that apply to **every page of every book**, and together they
+are the largest cost in the project. They are stated here as specifications so
+that they can be gated rather than hoped for.
+
+### 10.1 Extensive scaffolding: the five-step staircase
+
+Nothing is ever asked for cold. Every task type in the series — every reading
+question type, every listening type, every writing task, every speaking part —
+is reached by the same staircase, and the staircase is visible on the page:
+
+| Step | What the student gets | What they do |
+|---|---|---|
+| **1. See it** | A worked example, completed, with the thinking shown beside it in the margin | Read how it was done |
+| **2. See it fail** | The same item answered badly, with the reason named | Say what went wrong |
+| **3. Do it with the frame** | The task with the structure given — an outline skeleton, a sentence frame, the first move made | Fill the frame |
+| **4. Do it with a prompt** | The task with one hint: a nudge toward the structuring dimension, a reminder of the criterion | Produce with support |
+| **5. Do it cold** | The task as the exam sets it | Produce unaided |
+
+Steps 2 and 4 are the ones usually missing from published courses. **Step 2 is
+the most efficient teaching in the book**: a bad answer with its diagnosis
+teaches faster than a good answer alone, because a student can see their own
+work in it. And the whole Task 1 technique already has a step-2 artefact ready
+made — the published model beside the improved one.
+
+The staircase is not uniform across the ladder. Foundation 1 may spend four
+pages getting to step 5; Volume 6 may start at step 3, because by then the type
+is known and what is being trained is speed under load. **Which step a given
+exercise sits on is declared in the data**, so a gate can check that no type is
+ever set cold before its staircase has been climbed somewhere earlier.
+
+Three supports run alongside it:
+
+* **Margin thinking.** The reasoning that produced an answer, printed next to
+  it, in the voice of someone working — not a rule, a decision being made.
+* **Checklists the student owns.** Short, concrete, specific to the task: *have
+  I grouped? does every number carry a description? would this sentence fit a
+  different question?*
+* **Error banks.** The real mistakes, collected per task type, with what to do
+  instead. Drawn from the technique's own diagnoses rather than invented.
+
+### 10.2 Visuals: in this course they are content, not decoration
+
+The TOEFL series carries 3,752 figures. IELTS needs more, and needs them to be
+better, for a reason that is structural rather than aesthetic: **in Academic
+Task 1 and in the Listening labelling tasks, the visual *is* the question.** A
+vague chart is not a presentation flaw, it is an invalid item.
+
+What the series has to generate:
+
+| Family | Where it is used | Rough need |
+|---|---|---|
+| Line graph, bar chart, pie, table, multiple charts | Academic Task 1, two slots a unit | 120+ across the units, plus every test form |
+| Process and cycle diagrams | Academic Task 1 | 40+ |
+| Maps, before-and-after | Academic Task 1; Listening plan labelling | 60+ |
+| Plans and diagrams for labelling | Listening Parts 1–4 | 60+ |
+| Technique figures | the loop, the two-to-five rule, 1D/2D organisation, the staircase | 100+ |
+| Scaffolding frames | outline skeletons, paragraph builders, letter plans, cue-card planners | 300+ |
+| Everyday documents | notices, adverts, timetables, handbooks, emails, forms | 300+ |
+| Band and criterion figures | descriptors, the criterion each lesson moves, score conversion | 50+ |
+
+**The design decision that makes this affordable: every chart is generated from
+a data specification, not drawn.** A line graph is a table of numbers plus a
+title and axis labels, rendered by a figure family in the same fitting layer
+the TOEFL series already uses. Three things follow, and they are the argument
+for doing it this way:
+
+1. **The model answer is derived from the same data as the chart.** No
+   transcription errors between what the figure shows and what the answer
+   says — a defect that is endemic in published IELTS material.
+2. **Gate 6 covers them.** Every label goes through the measured text-fitting
+   layer, so no figure in the series can clip text, at any size, ever.
+3. **A chart can be re-levelled without being redrawn.** The same data at
+   Volume 3 and Volume 6 differs in how many series and how many turning points
+   it carries; that is a parameter, not a new illustration.
+
+Maps and process diagrams are the hard cases, because they are spatial rather
+than tabular. They need their own small layout grammar — a grid, placed
+objects, roads and paths, a compass, consistent icons — built once and then
+specified per figure. That is a real piece of machinery and it belongs in step
+1 of the build sequence, not discovered halfway through Volume 4.
+
+**Honest note on cost.** "World-class visuals for absolutely everything" is the
+single largest line item here, larger than the prose. It is achievable only
+because it is generated and gated rather than illustrated by hand, and the
+first vertical slice must prove the chart, map and process families before any
+volume is committed to.
+
+---
+
+## 11. Question types: the coverage that has to be gated
 
 The eleven Reading types and the Listening types are the syllabus. Each one is
 **taught in a named lesson before it is ever tested**, and a gate enforces it.
@@ -996,7 +1142,7 @@ taught.
 
 ---
 
-## 11. What clones, what is new
+## 12. What clones, what is new
 
 **Clones unchanged** — the expensive, proven part:
 
@@ -1036,7 +1182,7 @@ taught.
 
 ---
 
-## 12. The gates, restated for IELTS
+## 13. The gates, restated for IELTS
 
 | Gate | What it proves |
 |---|---|
@@ -1056,6 +1202,9 @@ taught.
 | **14 structure coverage** | **all eleven Task 2 structures and all seven Academic Task 1 visual types are taught before they are set, and each is set at least twice across the series** |
 | **15 criterion mapping** | **every lesson in Writing and Speaking names the published criterion it moves, and across a volume all four criteria of each skill are served** |
 | **16 no templates** | **no model answer in the series contains a sentence that would fit a different prompt unchanged** |
+| **17 scaffolding** | **no task type is ever set cold: every exercise declares its staircase step, and step 5 for a type never appears before steps 1–4 have appeared somewhere earlier in the ladder** |
+| **18 cycle balance** | **every cycle carries vocabulary, a grammar point, expressions and transitions drawn from its own texts; every unit covers GT Sections 1–3, two academic passages, Listening Parts 1–4, Speaking Parts 1–3, and both Task 1 forks** |
+| **19 figure integrity** | **every chart, map and process figure is generated from a data specification, and the model answer for a Task 1 item is derived from that same specification** |
 
 Gates 10 and 11 are written **before** the content, for the same reason gate 9
 was: gate 9 failed Volumes 3 and 4 on the day it was written, and that failure
@@ -1063,7 +1212,7 @@ is what drove the work that fixed them.
 
 ---
 
-## 13. Sequence, and an honest word on scale
+## 14. Sequence, and an honest word on scale
 
 The TOEFL series is eight books, 1.09 million body words and 3,752 figures.
 The IELTS clone is the same order of work or slightly more, because the
@@ -1074,13 +1223,19 @@ fixing: a book whose cover claims a level its prose does not have.
 The order that keeps the risk at the front:
 
 1. **The machinery and the gates.** Shared layer extracted, the IELTS test
-   shape written, gates 10 and 11 written. All nine existing gates re-run on
-   the TOEFL series afterwards to prove the extraction broke nothing — they
-   exist precisely to make that safe.
+   shape written, the new gates written. All nine existing gates re-run on the
+   TOEFL series afterwards to prove the extraction broke nothing — they exist
+   precisely to make that safe.
+   **The figure families come first inside this step**, not later: charts from
+   data specifications, the map and process layout grammar, and the scaffolding
+   frames. They are the largest cost in the project (10.2) and the one most
+   expensive to discover halfway through a volume.
 2. **One complete vertical slice: Volume 4, Unit 1.** The hardest common case —
-   band 6.5, both modules, five cycles, the technique strand with its timed
-   passage, both Writing Task 1 forks. Build it, run every gate, print it,
-   read it. Decide the shape is right while one unit is cheap to rewrite.
+   band 6.5, five cycles each serving both modules, vocabulary and grammar
+   woven into the cycles, the technique strand with its timed passage, both
+   Task 1 forks, and at least one chart, one map and one process figure so the
+   visual machinery is proved on real pages. Build it, run every gate, print
+   it, read it. Decide the shape is right while one unit is cheap to rewrite.
    Then do one more thing before scaling: **sit the unit's reading yourself
    at 150 wpm with a stopwatch** and confirm the arithmetic in 3.5 closes on
    real pages rather than on a spreadsheet.
@@ -1097,7 +1252,7 @@ measurement is what made gate 7 pass at a mean of 1.5 unknown types.
 
 ---
 
-## 14. Open questions worth settling before step 1
+## 15. Open questions worth settling before step 1
 
 1. **Market and format.** Which country's candidates, and are they sitting on
    computer or paper? This changes the technique chapter and the timings
