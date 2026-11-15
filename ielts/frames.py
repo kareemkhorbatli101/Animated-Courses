@@ -236,3 +236,45 @@ def cover_back(vol, blurb, bullets, contents):
     g.append(T(W / 2, h - 68, 'Written for the test as it is sat in 2026',
                20, PAPER))
     return render(''.join(g), W, h, SOFT)
+
+
+def speed_grid(title, sub, lo, hi, labels, ymin, ymax, note):
+    """An empty chart the student plots their own reading speed onto.
+
+    `lo`-`hi` is the target band for the volume, drawn as a shaded strip so
+    that a reader can see at a glance whether a plotted point is where it
+    should be. Nothing is plotted: the whole point is that the student fills
+    it in.
+    """
+    h = 560
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(TFIT(W / 2, 44, title, 26, W - 80, INDIGO, bold=True,
+                  anchor='middle'))
+    g.append(TFIT(W / 2, 72, sub, 17, W - 120, GREY, anchor='middle'))
+    PX, PY = 104, 104
+    PW, PH = W - 164, 330
+    span = float(ymax - ymin)
+    yof = lambda v: PY + PH - (v - ymin) / span * PH
+    # the target band
+    g.append(R(PX, yof(hi), PW, yof(lo) - yof(hi), '#eaf5f1'))
+    g.append(TFIT(PX + PW - 8, yof(hi) + 20, 'target for this volume', 14,
+                  220, '#3f7a44', anchor='end'))
+    step = 20
+    v = ymin
+    while v <= ymax:
+        y = yof(v)
+        g.append(L(PX, y, PX + PW, y, RULE if v != ymin else GREY_L, 1))
+        g.append(T(PX - 12, y + 5, str(v), 15, GREY, anchor='end'))
+        v += step
+    g.append(T(PX - 12, PY - 14, 'wpm', 15, GREY, anchor='end'))
+    n = len(labels)
+    for i, lab in enumerate(labels):
+        x = PX + (i + 0.5) * PW / n
+        g.append(L(x, PY, x, PY + PH, '#f0f0f4', 1))
+        g.append(T(x, PY + PH + 24, lab, 15, GREY, anchor='middle'))
+        g.append(C(x, PY + PH, 3, GREY_L))
+    g.append(L(PX, PY + PH, PX + PW, PY + PH, GREY, 2))
+    g.append(L(PX, PY, PX, PY + PH, GREY, 2))
+    blk, _, _ = TBLOCK(PX, PY + PH + 66, note, 17, PW, 24, INK)
+    g.append(blk)
+    return render(''.join(g), W, h, PAPER)

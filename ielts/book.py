@@ -76,6 +76,58 @@ def _items(d, items, start, key, skill):
     return n
 
 
+SPEED = {3: (125, 140), 4: (150, 165), 5: (170, 185), 6: (190, 210)}
+
+
+def speed_page(d, vol, cfg, units):
+    """The reading-speed tracker: a page the student fills in, not reads."""
+    lo, hi = SPEED.get(vol, (150, 165))
+    ns = [u['n'] for u in units]
+    d.unit_title('Your reading speed')
+    d.strapline('Volume %s \u00b7 target %d\u2013%d words a minute' % (vol, lo, hi))
+    d.cefr('The loop works at a hundred words a minute, which is why this '
+           'course never asks you to read faster than you can understand. '
+           'What it does ask is that you know your own number, because the '
+           'arithmetic of the paper depends on it and almost no candidate '
+           'can state it.')
+    d.page_break_section()
+    d.partbar('How to measure it', 'Once a unit, on the cycle 4 passage',
+              'reading')
+    d.items([
+        'Time yourself reading the cycle 4 academic passage once, for '
+        'meaning, without answering anything. Stop the clock at the last '
+        'word.',
+        'The word count is printed in the margin at the end of every '
+        'passage in this book.',
+        'Words a minute is the word count divided by the minutes taken. '
+        'Seven hundred words in five minutes is 700 \u00f7 5 = 140 wpm.',
+        'Write the number in the table below and plot it on the chart. One '
+        'point a unit, ten points by the end of the volume.'])
+    d.table(['Unit', 'Words', 'Minutes', 'Words a minute'],
+            [[str(n), '', '', ''] for n in ns], D_BLUE, [14, 26, 26, 34])
+    d.page_break_section()
+    d.figure(*F.speed_grid(
+        'Your reading speed through this volume',
+        'one point per unit, measured on that unit\u2019s own academic passage',
+        lo, hi, [str(n) for n in ns], 80, 200,
+        'Plot words a minute, not minutes. A flat line across this volume '
+        'is a gain, not a plateau: every unit is written denser than the '
+        'one before it, so holding your speed steady means you are reading '
+        'harder prose at the same rate.'))
+    d.body_p('If your line sits below the band, do not try to read faster. '
+             'Read the same passage twice on two different days and watch '
+             'the second reading: speed at this level comes from '
+             'recognising more words without stopping, and that is a '
+             'vocabulary gain arriving late, not an effort you can make on '
+             'the day.')
+    d.body_p('If your line sits above the band and your accuracy is below '
+             'seventy per cent, you are skimming and calling it reading. '
+             'Slow down to the band and the accuracy will come up; the '
+             'arithmetic in unit 40 shows why the extra minutes are '
+             'affordable.', i=True)
+    d.page_break_section()
+
+
 def render_cycle(d, U, c, ci, key, nq=1):
     """Render one cycle. `nq` is the unit's running question number, so the
     printed numbers match the Questions 30-35 headings the data carries."""
@@ -312,6 +364,7 @@ def front_matter(d, vol, cfg, units):
                   'Sit it in one sitting, then use the band tables'))
     d.table(['When', 'What', 'Focus'], weeks, D_INDIGO, [16, 44, 40])
     d.page_break_section()
+    speed_page(d, vol, cfg, units)
 
 
 # ------------------------------------------------------------- back matter --
@@ -366,6 +419,45 @@ def render_paper(d, P):
         _items(d, ps['items'], ps['first'], key, 'reading')
         d.page_break_section()
     return key
+
+
+def render_lpaper(d, L):
+    """The volume's timed Listening paper: four parts, forty questions."""
+    key = []
+    d.unit_title(L['title'])
+    d.strapline('Volume %s \u00b7 four parts \u00b7 40 questions \u00b7 each recording '
+                'played once' % L['vol'])
+    d.cefr(L['intro'])
+    d.page_break_section()
+    d.partbar('Before you start', 'Five rules, and the clock', 'listening')
+    d.items(L['instruct'])
+    d.page_break_section()
+    for pt in L['parts']:
+        d.figure(*F.skill_bar('listening', pt['no'], pt['part'], pt['task']))
+        d.body_p(pt['blurb'], i=True)
+        d.ex('Exercise  %s   The recording is played once.' % pt['qtype'],
+             'listening')
+        _items(d, pt['items'], pt['first'], key, 'listening')
+        d.body_p('Audio script: at the back of the book. Do not read it '
+                 'before you listen.', i=True)
+        d.page_break_section()
+    return key
+
+
+def lpaper_key(d, L, key):
+    d.unit_title('Listening Paper \u00b7 answer key')
+    d.strapline('Volume %s \u00b7 40 questions' % L['vol'])
+    d.cefr('Mark the paper, then read every explanation. On Listening the '
+           'explanation matters more than on Reading, because you cannot go '
+           'back and look: the only way to learn what you missed is to be '
+           'told where it was.')
+    d.page_break_section()
+    d.keybar('Listening Paper')
+    d.keygrid([a for _, a, _ in key], 5)
+    for num, ans, why in key:
+        if why:
+            d.why(num, ans, why)
+    d.page_break_section()
 
 
 def paper_key(d, P, key):
@@ -560,10 +652,18 @@ def build(vol, out=None):
         importlib.reload(pm)
     except ModuleNotFoundError:
         pm = None
+    try:
+        lm = importlib.import_module('content.lpaper%d' % vol)
+        importlib.reload(lm)
+    except ModuleNotFoundError:
+        lm = None
     pkey = render_paper(d, pm.PAPER) if pm else None
+    lkey = render_lpaper(d, lm.LPAPER) if lm else None
     back_matter(d, vol, units, ukeys)
     if pm:
         paper_key(d, pm.PAPER, pkey)
+    if lm:
+        lpaper_key(d, lm.LPAPER, lkey)
     audio_scripts(d, vol, units)
     glossary(d, vol, units)
     expression_bank(d, vol, units)

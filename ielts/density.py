@@ -161,6 +161,14 @@ def main():
     print('To validate it, measure the same two numbers on a set of official '
           'Cambridge\nAcademic passages and replace the window with what '
           'they show.')
+    print('\nThe split between the two rows above is deliberate. The timed '
+          'paper is an\nexam simulation, so it is written to the window: '
+          'fidelity to the register a\ncandidate will actually meet matters '
+          'more there than readability. The unit\npassages are teaching '
+          'texts read at 100 words a minute under the loop, and\nthey are '
+          'left shorter-sentenced on purpose. If the Cambridge measurement '
+          'ever\nshows 24+ to be the real figure for both, the unit passages '
+          'are the ones to\nraise.')
     return bad
 
 

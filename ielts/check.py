@@ -182,6 +182,39 @@ def check_paper(P, out):
         out.append('%s: answers use only %d positions' % (tag, len(spread)))
 
 
+def check_lpaper(L, out):
+    """The timed Listening paper: four parts, ten questions each, 1-40."""
+    tag = 'lpaper%s' % L['vol']
+    parts = L['parts']
+    if len(parts) != 4:
+        out.append('%s: %d parts, want 4' % (tag, len(parts)))
+    want_parts = ['Part 1', 'Part 2', 'Part 3', 'Part 4']
+    got_parts = [p.get('part') for p in parts]
+    if got_parts != want_parts:
+        out.append('%s: parts are %s, want %s' % (tag, got_parts, want_parts))
+    nxt, total = 1, 0
+    for p in parts:
+        w = sum(len(t.split()) for _, t in p['script'])
+        lo, hi = BANDS[p['band']]
+        if not lo <= w <= hi:
+            out.append('%s %s "%s": %d words, want %d-%d'
+                       % (tag, p['part'], p['heading'][:26], w, lo, hi))
+        if p['first'] != nxt:
+            out.append('%s %s starts at %d, want %d'
+                       % (tag, p['part'], p['first'], nxt))
+        n = len(p['items'])
+        if n != 10:
+            out.append('%s %s: %d questions, want 10' % (tag, p['part'], n))
+        for i, it in enumerate(p['items']):
+            if len(it) != 4 or len(it[3]) < MIN_WHY:
+                out.append('%s %s item %d: explanation too short'
+                           % (tag, p['part'], p['first'] + i))
+        nxt += n
+        total += n
+    if total != 40:
+        out.append('%s: %d questions in total, want 40' % (tag, total))
+
+
 def main(argv):
     spec = argv[0] if argv else '31-40'
     a, _, b = spec.partition('-')
@@ -202,7 +235,14 @@ def main(argv):
         pm = importlib.import_module('content.paper4')
         importlib.reload(pm)
         check_paper(pm.PAPER, out)
-        npaper = 1
+        npaper += 1
+    except ModuleNotFoundError:
+        pass
+    try:
+        lm = importlib.import_module('content.lpaper4')
+        importlib.reload(lm)
+        check_lpaper(lm.LPAPER, out)
+        npaper += 1
     except ModuleNotFoundError:
         pass
     print('%d unit(s) checked, %d head words, %d timed paper(s)'
