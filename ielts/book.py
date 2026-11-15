@@ -340,6 +340,49 @@ _CONV = {'Reading (Academic)': (40, [('9', '39-40'), ('8.5', '37-38'),
          ('5.5', '18-22'), ('5', '16-17'), ('4', '10-15')])}
 
 
+def render_paper(d, P):
+    """The volume's timed Reading paper: three passages, forty questions."""
+    key = []
+    d.unit_title(P['title'])
+    d.strapline('Volume %s \u00b7 60 minutes \u00b7 40 questions \u00b7 no extra '
+                'transfer time' % P['vol'])
+    d.cefr(P['intro'])
+    d.page_break_section()
+    d.partbar('Before you start', 'Four rules, and the clock', 'reading')
+    d.items(P['instruct'])
+    d.page_break_section()
+    for ps in P['passages']:
+        d.figure(*F.skill_bar('reading', ps['no'], ps['kind'],
+                              'Timed paper \u00b7 about 20 minutes'))
+        d.body_p(ps['blurb'], i=True)
+        d.passage(ps['heading'], ps['paras'],
+                  sum(len(x.split()) for x in ps['paras']))
+        d.ex('Exercise  %s' % ps['qtype'], 'reading')
+        _items(d, ps['items'], ps['first'], key, 'reading')
+        d.page_break_section()
+    return key
+
+
+def paper_key(d, P, key):
+    d.unit_title('Reading Paper \u00b7 answer key')
+    d.strapline('Volume %s \u00b7 40 questions \u00b7 mark it before you read the '
+                'explanations' % P['vol'])
+    d.cefr('Mark the whole paper first and write your raw score out of forty. '
+           'Then read every explanation, including those for the questions '
+           'you answered correctly, because a right answer reached the wrong '
+           'way will not survive the next paper.')
+    d.page_break_section()
+    d.keybar('Reading Paper \u00b7 Academic')
+    d.keygrid([a for _, a, _ in key], 5)
+    for num, ans, why in key:
+        if why:
+            d.why(num, ans, why)
+    d.body_p('Use the Reading conversion table earlier in this section to '
+             'turn your raw score into an approximate band, and note the '
+             'number rather than the band: the number moves sooner.')
+    d.page_break_section()
+
+
 def back_matter(d, vol, units, ukeys):
     d.unit_title('Answer key')
     d.strapline('Volume %s · Units %d–%d'
@@ -507,7 +550,15 @@ def build(vol, out=None):
     ukeys = {}
     for u in units:
         ukeys[u['n']] = render_unit(d, u)
+    try:
+        pm = importlib.import_module('content.paper%d' % vol)
+        importlib.reload(pm)
+    except ModuleNotFoundError:
+        pm = None
+    pkey = render_paper(d, pm.PAPER) if pm else None
     back_matter(d, vol, units, ukeys)
+    if pm:
+        paper_key(d, pm.PAPER, pkey)
     audio_scripts(d, vol, units)
     glossary(d, vol, units)
     expression_bank(d, vol, units)

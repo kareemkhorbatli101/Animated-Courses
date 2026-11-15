@@ -118,6 +118,50 @@ def check_unit(U, out, heads):
         out.append('%s: missing a strand' % tag)
 
 
+def check_paper(P, out):
+    """The timed paper: shape, length, numbering and answer spread."""
+    tag = 'paper%s' % P['vol']
+    ps = P['passages']
+    if len(ps) != 3:
+        out.append('%s: %d passages, want 3' % (tag, len(ps)))
+    total = 0
+    nxt = 1
+    for x in ps:
+        w = sum(len(t.split()) for t in x['paras'])
+        if not 700 <= w <= 950:
+            out.append('%s p%d "%s": %d words, want 700-950'
+                       % (tag, x['no'], x['heading'][:28], w))
+        if x['first'] != nxt:
+            out.append('%s p%d starts at %d, want %d'
+                       % (tag, x['no'], x['first'], nxt))
+        n = len(x['items'])
+        if not 12 <= n <= 14:
+            out.append('%s p%d: %d questions, want 12-14' % (tag, x['no'], n))
+        for i, it in enumerate(x['items']):
+            if len(it) != 4:
+                out.append('%s p%d item %d: malformed' % (tag, x['no'], i + 1))
+                continue
+            if len(it[3]) < MIN_WHY:
+                out.append('%s p%d item %d: explanation %d chars, want %d+'
+                           % (tag, x['no'], x['first'] + i, len(it[3]),
+                              MIN_WHY))
+        nxt += n
+        total += n
+    if total != 40:
+        out.append('%s: %d questions in total, want 40' % (tag, total))
+    words = sum(sum(len(t.split()) for t in x['paras']) for x in ps)
+    if not 2150 <= words <= 2750:
+        out.append('%s: %d words in total, want 2150-2750 (the real range)'
+                   % (tag, words))
+    spread = set()
+    for x in ps:
+        for it in x['items']:
+            if it[1]:
+                spread.add(it[2])
+    if len(spread) < 3:
+        out.append('%s: answers use only %d positions' % (tag, len(spread)))
+
+
 def main(argv):
     spec = argv[0] if argv else '31-40'
     a, _, b = spec.partition('-')
@@ -132,7 +176,16 @@ def main(argv):
         importlib.reload(m)
         got += 1
         check_unit(m.UNIT, out, heads)
-    print('%d unit(s) checked, %d head words' % (got, len(heads)))
+    npaper = 0
+    try:
+        pm = importlib.import_module('content.paper4')
+        importlib.reload(pm)
+        check_paper(pm.PAPER, out)
+        npaper = 1
+    except ModuleNotFoundError:
+        pass
+    print('%d unit(s) checked, %d head words, %d timed paper(s)'
+          % (got, len(heads), npaper))
     if out:
         print('\n%d problem(s):' % len(out))
         for p in out[:60]:
