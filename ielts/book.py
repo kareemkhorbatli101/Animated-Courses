@@ -570,6 +570,15 @@ def audio_scripts(d, vol, units):
                      D_AMBER)
                 d.script(l['script'])
         d.page_break_section()
+    try:
+        L = importlib.import_module('content.lpaper%s' % vol).LPAPER
+    except ModuleNotFoundError:
+        return
+    d.keybar('Listening Paper')
+    for pt in L['parts']:
+        d.h3('%s · %s' % (pt['part'], pt['heading']), D_AMBER)
+        d.script(pt['script'])
+    d.page_break_section()
 
 
 def glossary(d, vol, units):

@@ -1,9 +1,14 @@
 # IELTS 2026 · Volume 4 — delivery report
 
 **File:** `/home/user/Animated-Courses/IELTS_2026_B2_Volume_4.docx`
-**Size:** 4.5 MB · 493 pages · 459 images
+**Size:** 4.6 MB · 506 pages · 464 images
 **Level:** CEFR B2 · target band 6.5 · Academic **and** General Training in one book
 **Branch:** `claude/nice-davinci-om6fxb` (all work committed and pushed)
+
+This is the second delivery. The first built the volume; this one is the
+fixing and augmentation pass that followed it. §4 is the new part — what the
+second pass found, including a prose habit of my own that no gate could have
+caught.
 
 ---
 
@@ -12,22 +17,20 @@
 Ten units, five cycles each, following the architecture you specified: a cycle
 is one sub-topic taken through all four skills, no cycle belongs to a module,
 and grammar, vocabulary, expressions and transitions are woven inside the
-cycles rather than parked at the end of the unit.
+cycles.
 
 | | |
 |---|---|
 | Units | 10 (31–40) |
 | Cycles | 50 |
-| Readings | 60 (23,604 words of passage) |
-| Recordings | 63 (23,254 words of script) |
+| Readings | 60 (23,612 words of passage) |
+| Recordings | 63 (23,272 words of script) |
 | Speaking sets | 50 |
-| Writing tasks | 50 (10,855 words of model answer) |
-| Gated questions | 725 in the units + 40 in the timed paper = **765** |
+| Writing tasks | 50 (10,847 words of model answer) |
+| **Gated questions** | 685 in the units + 40 Reading paper + 40 Listening paper = **765** |
 | Grammar points | 50, with 250 worked items |
 | Taught head words | 400 vocabulary + 200 expressions + 200 transitions |
-| Original figures | 30 data visuals (5 line graphs, 7 bar charts, 6 tables, 6 process diagrams, 3 maps, 3 device schematics) plus every cycle bar, skill bar, cue card, answer shape, outline frame, pattern box, criterion tag and loop panel |
-
-The ten themes, taken from the series outline:
+| Original figures | 30 data visuals (5 line graphs, 7 bar charts, 6 tables, 6 process diagrams, 3 maps, 3 device schematics) plus every cycle bar, skill bar, cue card, answer shape, outline frame, pattern box, criterion tag, loop panel and the reading-speed grid |
 
 31 Measurement and Statistics · 32 Consumption and Waste · 33 Justice and
 Punishment · 34 Work, Time and Meaning · 35 Heritage and Ownership ·
@@ -37,193 +40,174 @@ Error in Science · 39 Migration and Movement · 40 Technology and Autonomy
 Each unit runs from a General Training surface (a form, a council notice, a
 rights sheet, a loan agreement) through four short texts of opinion, a data or
 process visual, and finishes on two Academic passages that argue rather than
-inform. That is the same ladder inside every unit, so a GT candidate and an
-Academic candidate both get a full unit's work from every page.
+inform.
 
-## 2. The volume ends with a full timed Reading paper
+## 2. Two timed papers and a speed tracker
 
-Academic, three passages, 40 questions, 60 minutes, 2,427 words — with its own
-answer key and all forty explanations. The three passages are *The box that
-changed the world* (containerisation), *The invention of standard time* and
-*What counts as a species*.
+**Reading paper** — Academic, three passages, 40 questions, 60 minutes, 2,489
+words, with its own key and all forty explanations. Built to the arithmetic
+unit 40 teaches: 7.5 minutes orienting and loading, 24 minutes of text at 100
+wpm, **28 minutes for 40 questions — about 40 seconds each**, not the
+misleading 90 you get by dividing 60 by 40.
 
-The length is not arbitrary. Unit 40's technique page briefs the arithmetic
-and the paper is built to match it: 30 seconds orienting plus 2 minutes
-loading the questions, three times over, is 7.5 minutes; 2,427 words at 100
-words a minute is 24 minutes; what is left is **28 minutes for 40 questions,
-about 40 seconds each**. That is the number the student is taught to feel,
-instead of the misleading 90 seconds you get by dividing 60 by 40.
+**Listening paper** (new in this pass) — four parts, 40 questions, 1,537 words
+of script, each part at the volume's own band, with its own key and forty
+explanations. The scripts are printed in the audio-script section at the back.
+Its rules page includes the one most courses have not updated: on the
+computer-delivered test there is no ten-minute transfer window, only a
+two-minute check.
 
-## 3. Your technique, as it is actually taught in this volume
+**Reading-speed tracker** (new in this pass) — the plan specified it and the
+first build lacked it. A page of method, a table the student fills in, and a
+chart with this volume's 150–165 wpm band shaded, which they plot ten points
+onto. The page says the thing that matters: *a flat line across this volume is
+a gain, not a plateau*, because every unit is denser than the one before it.
+It also says what to do if the line sits below the band (don't read faster)
+and above it (you are skimming and calling it reading).
 
-The loop is present on every reading and every recording. What this volume
-adds, unit by unit, is the hard variant of each type:
+## 3. Your technique, as it is taught here
 
-- **Unit 34 — Yes/No/Not Given as a question about the writer's commitment.**
-  A statement can be true and still be *No*; plausible and still *Not Given*.
-  The move taught is to say what sentence the writer would have had to write,
-  then look for it.
-- **Unit 35 — three maps, parallel order, and what did not change.** Maps are
-  two-dimensional, so one dimension has to structure the paragraphs. Structure
-  by time, run the same spatial order inside each paragraph, describe later
-  maps as *change* naming what was replaced, and finish on the survival —
-  which is the sentence candidates reliably omit.
-- **Unit 36 — five series grouped by behaviour, not by name.** On the day
-  graph, wind and solar go together because they run against demand, not
-  because they are both renewable. The flat line is reported, because a series
-  that does not move is still a main feature.
-- **Unit 37 — two charts, two structuring dimensions, one story.** Each visual
-  gets its own paragraph on its own dimension; exactly one sentence, at the
-  end, says what they show together.
-- **Unit 38 — Not Given at Volume 4 density**, plus the agentless passive for
-  process diagrams.
-- **Unit 39 — flows in two directions.** A net figure is a subtraction and a
-  subtraction destroys information: +15,000 can describe a sleepy region or
-  one where 391,000 people changed places.
-- **Unit 40 — a full timed paper**, and the branch language a device diagram
-  needs so that both arms are followed to the end point.
+The loop is on every reading and every recording. Each unit adds the hard
+variant of one type: Yes/No/Not Given as a question about the *writer's
+commitment* (34); three maps with parallel order and *what did not change*
+(35); five series grouped by behaviour, not by name (36); two charts, two
+structuring dimensions (37); Not Given at this density (38); net figures
+against the flows behind them (39); the timed paper (40).
 
-Outlining runs the same way, one family per unit, ending in unit 40 with all
-five families run against a twelve-minute clock so a student finds out which
-two they personally need.
+Outlining runs one family per unit and ends in unit 40 with all five against a
+twelve-minute clock, so a student finds out which two they personally need.
 
-Speaking keeps the 2-to-5 rule as a model: every Part 1 set shows the shape
-(answer + support + follow-up), every Part 3 set shows the five-sentence
-version with a concession in it, and the cue cards take the bullets in order
-with roughly equal weight and favour depth over listing.
+Speaking keeps the 2-to-5 rule as a model: every Part 1 set shows the shape,
+every Part 3 set the five-sentence version with a concession in it, cue cards
+take bullets in order with equal weight and favour depth over listing.
 
-Writing teaches from your two files throughout: the eleven essay structures
-are used by intent (structure 1 in unit 38, structure 3 in units 35/36/39,
-structure 5 in unit 34, structure 9 in unit 36, structure 11 in unit 37), and
-every Task 1 model is marked against your ten principles — Overall statement
-first, declared basis for dividing, no bare numbers, grouping where the data
-clusters, never jumping from biggest to smallest.
+Writing teaches from your two files: the eleven structures used by intent
+(1 in unit 38, 3 in 35/36/39, 5 in 34, 9 in 36, 11 in 37), and every Task 1
+model marked against your ten principles.
 
-## 4. The gates, and what they caught
+## 4. What the second pass found
 
-Five gates ran on this volume. Three were written before the content, two were
-written because the first three missed something.
+### 4.1 A prose habit of my own
 
-**`check.py` — the content gate (written first).** Five cycles per unit, word
-bands per text type, item counts, explanation length, answer-position spread,
-Listening Parts 1–4 present, Speaking Parts 1–3 present, both Task 1 forks
-present, per-cycle grammar/vocabulary/expressions/transitions, and no repeated
-taught head word anywhere in the volume. Result: **10 units, 400 head words,
-all checks pass.**
+I measured my own writing across 69,000 words. Ten units drafted in one
+sitting by one author had produced a tic no gate tests for:
 
-**`gate6.py` — no clipped text.** `TFIT` and `TBLOCK` are the only two ways a
-figure draws fitted text and both record the box they promised, so this
-measures every run against its own promise with exact DejaVu metrics rather
-than squinting at a rendered page. Result: **3,705 fitted runs, 0 overrun, 0
-printed under 7.5px.**
+| | before | after |
+|---|---|---|
+| "rather than" | **192** (2.8 per 1,000 words) | 15 (0.22) |
+| ", not" | 97 | 101 |
+| "and not" | 132 | 14 |
+| "instead of" | 18 | 56 |
+| "in place of" / "as against" | 0 | 9 |
+| **total contrastive density** | **6.1 per 1,000** | **2.8 per 1,000** |
 
-**`omit.py` — zero omissions.** Reads the `.docx` the student actually gets and
-checks that every authored string is in it. Result: **4,564 strings checked,
-0 missing.**
+The first attempt at this was itself a mistake worth recording: swapping
+"rather than" for "and not" simply moved the tic, and the measurement showed
+it immediately — "and not" went to 132. The habit was not a word, it was
+**defining everything by contrast**. The second pass recast about 120 of them
+as positive statements, subordinate clauses and restructured sentences, which
+is why "instead of" only tripled while the total halved.
 
-**`density.py` — the level on the cover, measured from the prose.** See §6; it
-is deliberately part gate, part report.
+The discussion scripts had the same problem in dialogue form: "that is fair"
+appeared in nine of the ten units, and three discussions ended on the same "I
+would sign that tomorrow" beat. Both are now varied.
 
-**The timed-paper gate** (inside `check.py`): three passages, 12–14 questions
-each, continuous numbering, 2,150–2,750 words in total, explanations on every
-one of the 40.
+### 4.2 The register decision
 
-### What the gates found
-
-| # | Defect | Found by | Fix |
-|---|---|---|---|
-| 1 | `import frames` resolved to the TOEFL package | build crash | `sys.path.append`, not `insert(0, …)` |
-| 2 | Chart axes stepped in 20s on a 43-max series | visual check | `_nice()` divides the span by 5, not 4 |
-| 3 | A Task 2 model measured against a letter's word band | `check.py` | separate `essay` band plus a `wband` field |
-| 4 | **Systematic under-writing of long passages and Part 3/4 scripts — 40+ failures across all ten units** | `check.py` | every one lengthened with real paragraphs and real turns, never filler |
-| 5 | `legible` taught twice (units 31 and 33) and 11 other repeated head words | `check.py` | all replaced; the no-repeat rule now holds across 400 words |
-| 6 | Map labels broke mid-word (`Gatehou se`) | visual check | all four diagram families wrap with `fit_block`, which shrinks the type rather than splitting a word |
-| 7 | Device-diagram arrows ran centre-to-centre, straight across the boxes they connected, with captions on top of the line | visual check | flows clipped to each box's boundary; captions offset perpendicular |
-| 8 | **The planning tasks' "Why it works" notes were never rendered** — 24 notes across eight units silently dropped, because `book.py` printed notes only when a model answer existed | `omit.py` | notes render whenever notes exist |
-| 9 | **Question numbers restarted at 1 in every cycle while the headings said "Questions 30–35"** | visual check | numbering runs continuously through a unit; `check.py` now gates the headings against the running count |
-| 10 | Map road labels were drawn through the band they name | visual check | offset clear of the 11px band |
-
-Items 8 and 9 are the ones worth dwelling on. Both were invisible to a gate
-that reads the Python, and both were found only by reading the built file and
-looking at rendered pages. That is why `omit.py` exists and why I spot-checked
-pages rather than trusting the build.
-
-## 5. Visual verification
-
-Pages rendered to PNG and inspected: the three-map figure (p. 174), the
-five-series day graph (p. 212), the scoring-system device diagram (p. 365), a
-GT procedure notice with flow-chart completion (p. 9), an Academic passage
-(p. 181), the timed paper's first passage (p. 391) and the timed paper's
-answer key (p. 436). All correct after the fixes in §4.
-
-## 6. Where the volume is honestly short
-
-**Sentence length and nominalisation sit one rung below the B2 window.**
-Measured on the volume's own academic prose against the ruler the TOEFL series
-uses:
+The density question from the first report is now **decided and recorded**,
+since no Cambridge source was available to settle it (the fetch is blocked by
+this environment's network policy, and a second attempt through the fetch
+agent was refused).
 
 | | 1k words | beyond 4k | mean sentence | nominalisation |
 |---|---|---|---|---|
 | Unit academic passages | 65.1% | 19.3% | 21.2 | 4.5% |
-| Timed Reading paper | 64.2% | 19.4% | 23.1 | 4.0% |
-| **Both together** | **65.0%** | **19.3%** | **21.5** | **4.4%** |
+| **Timed Reading paper** | 64.2% | 19.4% | **24.4** | **4.8%** |
 | B2 window | 64.5–67.0 | 18.5–21.5 | 24.0–26.5 | 5.0–6.5 |
 
-Vocabulary is in the window and is **gated**: the word-rank ladder is a
-property of English, so the window transfers between the two courses without
-an assumption. Sentence length and nominalisation are **reported, not gated**,
-and `density.py` says why in its own docstring: the only window available for
-those two was calibrated on TOEFL textbook prose, and IELTS Academic passages
-are adapted journalism, a different register. Gating this book against that
-window would assert an equivalence nobody has measured.
+The split is deliberate and `density.py` now says so in its own docstring. The
+**timed paper is an exam simulation**, so it is written to the window —
+fidelity to the register a candidate will actually meet matters more there
+than readability, and it moved from 23.1/4.0 to 24.4/4.8. The **unit passages
+are teaching texts** read under the loop at 100 wpm, and they are left
+shorter-sentenced on purpose.
 
-I tried to settle it properly by measuring official Cambridge sample passages.
-The fetch was refused — `ielts.org` is not on this environment's allowed-hosts
-list, and a second attempt through the fetch agent was blocked as well. So the
-honest statement is: **this prose sits in the TOEFL Volume 3 window on both
-syntax measures while sitting in the Volume 4 window on vocabulary**, and I do
-not have the evidence to say whether that is correct for IELTS or a genuine
-under-reach. What would settle it is ten minutes with a set of real Cambridge
-passages and the same two numbers.
+Vocabulary remains **gated** (it rests on a word-rank ladder that is a
+property of English); syntax remains **reported**. If a real Cambridge
+measurement ever shows 24+ to be right for both, the unit passages are the
+ones to raise, and the file says that too.
 
-The timed paper's 1k share (64.2%) is 0.3 points *below* the window floor,
-i.e. marginally denser than the units. For an end-of-volume exam simulation
-that is the right direction, but it is outside the stated window and I have
-not adjusted it.
+### 4.3 Defects fixed across both passes
 
-**Other limits, stated plainly:**
+| # | Defect | Found by | Fix |
+|---|---|---|---|
+| 1 | `import frames` resolved to the TOEFL package | build crash | `sys.path.append`, not `insert(0, …)` |
+| 2 | Chart axes stepped in 20s on a 43-max series | visual check | `_nice()` divides the span by 5 |
+| 3 | Task 2 model measured against a letter's band | `check.py` | separate `essay` band + `wband` field |
+| 4 | **Under-written long passages and Part 3/4 scripts — 40+ failures across all ten units** | `check.py` | each lengthened with real paragraphs, never filler |
+| 5 | 12 repeated taught head words | `check.py` | all replaced; no repeat across 400 words |
+| 6 | Map labels broke mid-word (`Gatehou se`) | visual check | all four diagram families wrap with `fit_block` |
+| 7 | Device arrows ran centre-to-centre across the boxes | visual check | flows clipped to box edges, captions offset |
+| 8 | **24 planning-task notes never rendered** | `omit.py` | notes render independently of model answers |
+| 9 | **Question numbers restarted each cycle while headings said "Questions 30–35"** | visual check | continuous numbering, and a gate on the headings |
+| 10 | Map road labels drawn through their own band | visual check | offset clear of the band |
+| 11 | **192 instances of one connective; the contrast habit behind it** | measuring my own prose | §4.1 |
+| 12 | "that is fair" in 9 of 10 discussions; three identical endings | measuring the scripts | varied |
+| 13 | A grammatical error introduced by my own first fix pass ("about measurement and not of reporting") | second measurement | corrected |
+| 14 | Listening-paper scripts missing from the audio-script section | `omit.py` after the paper was added | audio scripts now carry them |
 
-- The Listening recordings exist as scripts, not audio. The book prints them
-  at the back with the instruction not to read them first; nothing in this
-  volume produces sound.
-- Speaking and Writing are rated against band descriptors, not marked. That is
-  the right design, and it means a student working alone gets less from those
-  two strands than from Reading and Listening.
-- The reading-speed ladder is specified in the plan (V4 ≈ 150–165 wpm on this
-  volume's own prose) but this volume does not contain the timing charts that
-  would let a student plot it; they are in the plan for Volumes 5 and 6.
-- Only one timed paper, and it is Reading. The plan calls for a Listening
-  paper at this level too.
+Items 8, 9, 13 and 14 were invisible to any gate reading the Python. They were
+found by reading the built file and by re-measuring after my own edits — which
+is the argument for doing both.
 
-## 7. What I changed in the machinery, and why it matters to the rest of the series
+## 5. The gates
 
-Five changes, all of which the later volumes inherit:
+| Gate | Result |
+|---|---|
+| `check.py` — content | 10 units, 400 head words, 2 timed papers, **all pass** |
+| `gate6.py` — no clipped text | **3,723 fitted runs, 0 overrun, 0 under 7.5px** |
+| `omit.py` — zero omissions | **4,712 strings checked, 0 missing** |
+| `density.py` — level | vocabulary gated and in window; syntax reported (§4.2) |
+| timed-paper gates | shape, lengths, part order, continuous numbering, 40 explanations each |
 
-1. `fit_block` in all four diagram families — no label will ever break
-   mid-word again.
+Pages rendered and inspected: three-map figure (174), five-series day graph
+(212), scoring-system schematic (365), GT procedure notice (9), Academic
+passage (181), timed Reading paper (391), its answer key (436), the new speed
+tracker (7–8) and the new Listening paper (404).
+
+## 6. Where it is still short
+
+- **The Listening recordings are scripts, not audio.** Nothing in this volume
+  produces sound.
+- **Speaking and Writing are rated, not marked.** A student working alone gets
+  less from those two strands.
+- **The syntax window is still unvalidated** (§4.2). It is a recorded decision
+  now, not an open question, but it rests on my judgement and not on a
+  measurement of real Cambridge passages.
+- The timed Reading paper's 1k share (64.2%) sits 0.3 points below the window
+  floor — marginally denser vocabulary than the units, which is right for an
+  exam simulation but outside the stated band.
+- **One Reading paper and one Listening paper.** No timed Writing or Speaking
+  paper at this level.
+
+## 7. Machinery the rest of the series inherits
+
+1. `fit_block` in all four diagram families — no label breaks mid-word.
 2. Arrow clipping and perpendicular captions in `device_schematic`.
-3. Continuous question numbering through a unit, plus the gate that keeps the
-   headings honest.
-4. `notes` render independently of `model`, so planning tasks keep their
-   commentary.
-5. `omit.py` and `density.py` exist now, so Volume 5 starts with five gates
-   instead of three.
+3. Continuous question numbering, with a gate on the headings.
+4. `notes` render independently of `model`.
+5. `speed_grid` — the reading-speed tracker frame, parameterised per volume
+   (V3 125–140, V4 150–165, V5 170–185, V6 190–210).
+6. `omit.py`, `density.py` and the two timed-paper gates.
+
+Volume 5 starts with six gates instead of three, and with a measured record of
+the prose habits to avoid.
 
 ## 8. Reproducing it
 
 ```bash
 cd /home/user/Animated-Courses/ielts
-python3 check.py 31-40        # content gate: 10 units, 400 head words, 1 timed paper
+python3 check.py 31-40        # 10 units, 400 head words, 2 timed papers
 python3 book.py 4             # builds the .docx (~3 min)
 python3 omit.py 4 /home/user/Animated-Courses/IELTS_2026_B2_Volume_4.docx
 python3 gate6.py 4            # no clipped text
@@ -232,14 +216,11 @@ python3 density.py            # the level, measured
 
 ## 9. What comes next
 
-Volume 4 is one of eight. On the same machinery, each further volume is ten
-units of authoring plus its timed paper; the gates, the frames, the charts,
-the maps, the process and device diagrams and the book skeleton are now done
-and shared. The sensible order is Volume 3 (B1+, band 6.0) next, because it
-feeds this one, then Volume 5, then the Foundation pair, then Volumes 1, 2 and
-6.
+Volume 3 (B1+, band 6.0) is the sensible next book, because it feeds this one.
+The machinery is now complete and the prose measurements give a baseline to
+write against from the first unit instead of discovering it afterwards.
 
-The one thing I would want settled before writing Volume 5 is the syntax
-window in §6 — it is the difference between "write as I have been writing" and
-"write longer, more nominal sentences in the academic passages", and it is
-cheap to answer with the right source material.
+The one open item remains the syntax window. It is cheap to close: two or
+three real Cambridge Academic passages, measured with `density.py`'s own
+numbers, would either confirm the decision in §4.2 or tell me to raise the
+unit passages before Volume 3 is written in the same register.

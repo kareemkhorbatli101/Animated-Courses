@@ -112,6 +112,23 @@ def paper_wanted(P):
     return out
 
 
+def lpaper_wanted(L):
+    out = []
+    out.append(('lpaper intro', L['intro']))
+    for i, ln in enumerate(L['instruct'], 1):
+        out.append(('lpaper rule %d' % i, ln))
+    for pt in L['parts']:
+        out.append(('lpaper %s blurb' % pt['part'], pt['blurb']))
+        for i, it in enumerate(pt['items'], 1):
+            out.append(('lpaper %s q%d' % (pt['part'], i), it[0]))
+            out.append(('lpaper %s q%d why' % (pt['part'], i), it[3]))
+    # the four scripts are printed in the audio-script section at the back
+    for pt in L['parts']:
+        for i, (_, t) in enumerate(pt['script'], 1):
+            out.append(('lpaper %s turn %d' % (pt['part'], i), t))
+    return out
+
+
 def main(vol, path):
     vol = int(vol)
     cfg = B.VOLS[vol]
@@ -128,6 +145,11 @@ def main(vol, path):
     try:
         want += paper_wanted(importlib.import_module('content.paper%d'
                                                      % vol).PAPER)
+    except ModuleNotFoundError:
+        pass
+    try:
+        want += lpaper_wanted(importlib.import_module('content.lpaper%d'
+                                                      % vol).LPAPER)
     except ModuleNotFoundError:
         pass
 
