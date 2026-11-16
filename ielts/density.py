@@ -53,15 +53,21 @@ GATED_BY_VOL = {1: dict(k1=(69.0, 71.5), beyond=(11.5, 14.5)),
                 4: dict(k1=(64.5, 67.0), beyond=(18.5, 21.5)),
                 5: dict(k1=(62.5, 65.5), beyond=(20.5, 23.5)),
                 6: dict(k1=(60.5, 63.5), beyond=(22.5, 25.5)),
-                # The Foundation books, continuing the ladder downwards at
-                # the same step the graded volumes take. Volume 1 measured
-                # 69.9 / 13.4, Volume 2 69.3 / 14.8, so about two and a
-                # half points of k1 a book: Foundation 2 sits near 74 and
-                # Foundation 1 near 80, where almost every running word is
-                # from the first thousand and the few that are not are the
-                # words the unit is there to teach.
-                7: dict(k1=(78.0, 82.0), beyond=(2.5, 6.0)),
-                8: dict(k1=(73.0, 76.5), beyond=(6.5, 10.0))}
+                # The Foundation books. These two windows were set from
+                # guesswork first - 78-82% k1 for Foundation 1, on the
+                # reasoning that an A1 text is almost all first-thousand
+                # words - and the first unit written against them came
+                # out at 73.3. The guess was wrong for a reason worth
+                # recording: these books exist to teach the 988 words of
+                # the gap into Volume 1, and every one of those words is
+                # by definition NOT in the first thousand. A Foundation
+                # passage that taught nothing new would hit 80% easily;
+                # one that carries its ten head words cannot. The window
+                # is therefore set where the prose actually lands when
+                # it does its job, a step below Volume 1's 69.9 / 13.4
+                # rather than two steps.
+                7: dict(k1=(72.5, 77.0), beyond=(6.0, 10.0)),
+                8: dict(k1=(70.0, 74.0), beyond=(8.5, 12.5))}
 GATED = GATED_BY_VOL[4]
 # the two books whose key is not their name
 BOOK_NAME = {7: 'Foundation 1', 8: 'Foundation 2'}
