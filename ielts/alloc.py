@@ -68,9 +68,18 @@ def home_units():
     return where
 
 
+def written():
+    """Units that already exist. Their vocabulary is taught, so the
+    remaining gap belongs to the units still to be written: after
+    Foundation 1 was finished, the allocator was still handing words
+    to its units, where nobody would ever teach them."""
+    return {u for u in F1 + F2 if LG._unit(u) is not None}
+
+
 def allocate():
     rows = LG.gap()                       # (uses, rank, word), commonest first
     where = home_units()
+    done = written()
     half = len(rows) // 2
     book_of = {}
     for i, (_, _, w) in enumerate(rows):
@@ -86,7 +95,10 @@ def allocate():
         if not v1:
             spill.append((uses, rank, w))
             continue
-        cands = THEME[v1[0][0]]
+        cands = [u for u in THEME[v1[0][0]] if u not in done]
+        if not cands:
+            spill.append((uses, rank, w))
+            continue
         book = book_of[w]
         want = [u for u in cands if (u in F1) == (book == 1)]
         want = want or cands
@@ -98,13 +110,29 @@ def allocate():
     # pass 2: whatever overflowed goes where there is room, keeping the
     # commoner half in Foundation 1
     for uses, rank, w in spill:
-        pool = F1 if book_of[w] == 1 else F2
-        pool = [u for u in pool if len(slots[u]) < 5 * PER_CYCLE] or \
-               [u for u in F1 + F2 if len(slots[u]) < 5 * PER_CYCLE]
-        if not pool:
-            pool = F1 + F2
+        pool = [u for u in (F1 if book_of[w] == 1 else F2)
+                if u not in done and len(slots[u]) < 5 * PER_CYCLE]
+        pool = pool or [u for u in F1 + F2
+                        if u not in done and len(slots[u]) < 5 * PER_CYCLE]
+        pool = pool or [u for u in F1 + F2 if u not in done] or F1 + F2
         u = min(pool, key=lambda x: len(slots[x]))
         slots[u].append(w)
+    # Even out each book. Theme affinity decides where a word would
+    # most like to go; it cannot decide how many words exist. Volume 1
+    # has no music in it, so Foundation 2's music unit was allocated
+    # nothing at all once Foundation 1 had taken the commoner half.
+    # A unit with no vocabulary is not a unit, so the remainder is
+    # levelled within each book after the themed passes.
+    for pool in ([u for u in F1 if u not in done],
+                 [u for u in F2 if u not in done]):
+        if len(pool) < 2:
+            continue
+        while True:
+            lo = min(pool, key=lambda x: len(slots[x]))
+            hi = max(pool, key=lambda x: len(slots[x]))
+            if len(slots[hi]) - len(slots[lo]) <= 2:
+                break
+            slots[lo].append(slots[hi].pop())
     return slots
 
 

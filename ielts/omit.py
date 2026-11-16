@@ -19,6 +19,9 @@ import sys
 import unicodedata
 import zipfile
 
+# the two books whose key is not their name
+BOOK = {7: 'Foundation 1', 8: 'Foundation 2'}
+
 import _base                                            # noqa: F401
 import book as B                                        # noqa: E402
 
@@ -206,7 +209,8 @@ def main(vol, path):
             continue
         if norm(s).strip() not in body:
             missing.append((label, s))
-    print('Volume %s: %s' % (vol, os.path.basename(path)))
+    print('%s: %s'
+          % (BOOK.get(vol, 'Volume %s' % vol), os.path.basename(path)))
     print('%d strings checked' % len(want))
     if missing:
         for label, s in missing[:40]:

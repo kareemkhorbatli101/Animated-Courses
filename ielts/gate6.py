@@ -13,6 +13,9 @@ import sys
 import _base                                     # puts the TOEFL dir on path
 import art
 
+# the two books whose key is not their name
+BOOK = {7: 'Foundation 1', 8: 'Foundation 2'}
+
 TOL = 0.5
 MIN_SIZE = 7.5
 OUT = ('/tmp/claude-0/-home-user-Animated-Courses/'
@@ -39,7 +42,8 @@ def audit(vol):
 def main():
     vol = int(sys.argv[1]) if len(sys.argv) > 1 else 4
     log, over, small = audit(vol)
-    print('Volume %s: %d fitted runs of text in the figures' % (vol, len(log)))
+    print('%s: %d fitted runs of text in the figures'
+          % (BOOK.get(vol, 'Volume %s' % vol), len(log)))
     bad = 0
     if over:
         bad += len(over)
