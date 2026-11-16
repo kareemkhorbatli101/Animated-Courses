@@ -36,7 +36,13 @@ def process_flow(title, stages, phases=None, sub=''):
     """
     per = 4
     rows = [stages[i:i + per] for i in range(0, len(stages), per)]
-    bw, bh, gap, vgap = 176, 104, 34, 72
+    bw, gap, vgap = 176, 34, 72
+    # The caption block starts 52px down and sets on a 19px line, so a box
+    # of the old fixed 104px held two and a half lines and dropped the
+    # third below its own border. Volume 6 unit 59 showed six boxes doing
+    # it at once. Size every box to the longest caption in the figure.
+    _lines = max(len(fit_block(c, bw - 22, 15)[0]) for _, c in stages)
+    bh = max(104, 56 + 19 * _lines)
     top = 92 + (16 if sub else 0)
     h = int(top + len(rows) * (bh + vgap) + 24)
     g = [R(0, 0, W, h, PAPER)]
@@ -78,7 +84,18 @@ def process_flow(title, stages, phases=None, sub=''):
             if ny == y:
                 g.append(_arrow(x + bw + 5, y + bh / 2, nx - 7, y + bh / 2))
             else:
-                g.append(_arrow(x + bw / 2, y + bh + 6, nx + bw / 2, ny - 8))
+                # Row wrap. A straight line from the end of one row to the
+                # start of the next cuts diagonally across both phase bands
+                # and the label sitting on the second one. Route it down the
+                # gutter instead: the bands stop 14px below a row and start
+                # 30px above the next, so the middle of the vertical gap is
+                # clear of both.
+                midy = y + bh + (vgap / 2.0)
+                g.append(L(x + bw / 2, y + bh + 6, x + bw / 2, midy,
+                           INDIGO_D, 2.6))
+                g.append(L(x + bw / 2, midy, nx + bw / 2, midy,
+                           INDIGO_D, 2.6))
+                g.append(_arrow(nx + bw / 2, midy, nx + bw / 2, ny - 8))
     return render(''.join(g), W, h, PAPER)
 
 
