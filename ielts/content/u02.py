@@ -5,9 +5,10 @@ _HOURS = dict(kind='bar',
               title='Average weekly hours worked, five countries',
               sub='full-time employees, 2024',
               ylab='hours a week',
-              series=[('Mexico', 43.1), ('Japan', 38.4),
-                      ('United Kingdom', 36.2), ('France', 34.7),
-                      ('Netherlands', 31.5)])
+              cats=['Mexico', 'Japan', 'United Kingdom', 'France',
+                    'Netherlands'],
+              series=[('Hours a week', [43.1, 38.4, 36.2, 34.7,
+                                        31.5])])
 
 UNIT = dict(
  n=2, vol=1, level='B1', band='5.0',

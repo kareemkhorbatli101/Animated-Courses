@@ -5,9 +5,10 @@ _FREE = dict(kind='bar',
              title='Adults taking free online courses, by subject',
              sub='one town, 2024, thousands of people',
              ylab='people (thousands)',
-             series=[('Computing', 18.4), ('English', 14.1),
-                     ('Business', 11.7), ('Health and care', 9.3),
-                     ('History', 3.8)])
+             cats=['Computing', 'English', 'Business',
+                   'Health and care', 'History'],
+             series=[('Adults enrolling', [18.4, 14.1, 11.7, 9.3,
+                                           3.8])])
 
 UNIT = dict(
  n=1, vol=1, level='B1', band='5.0',
