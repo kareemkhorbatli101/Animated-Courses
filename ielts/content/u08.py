@@ -1014,12 +1014,12 @@ UNIT = dict(
               'answer',
          band='acad', qtype='Questions 61-68',
          paras=[
-          'Yield is the amount harvested from a hectare in a season, and it '
-          'is the number against which farming has been judged, subsidised '
-          'and researched for seventy years. It is an excellent measure of '
-          'one thing and it is entirely silent about several others, and '
-          'that silence has shaped what farms look like more powerfully than '
-          'any policy ever has.',
+          'Yield is the amount harvested from a hectare in a single season, '
+          'and it is the number against which farming has been judged, '
+          'subsidised, taught and researched for something like seventy '
+          'years. It is an excellent measure of one thing and it is entirely '
+          'silent about several others, and that silence has shaped what '
+          'farms look like more powerfully than any policy ever has.',
           'What yield measures, exactly and only, is what leaves the field '
           'at harvest. What it does not measure is what the field has left: '
           'the depth of the topsoil, the organic matter within it, the water '
