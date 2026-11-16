@@ -18,7 +18,9 @@ import charts
 import diagrams
 import frames as F
 
-VOLS = {3: dict(units=range(21, 31), level='B1+', band='6.0',
+VOLS = {2: dict(units=range(11, 21), level='B1+', band='5.5',
+                cefr='B1+', title='Volume 2'),
+        3: dict(units=range(21, 31), level='B1+', band='6.0',
                 cefr='B1+', title='Volume 3'),
         4: dict(units=range(31, 41), level='B2', band='6.5',
                 cefr='B2', title='Volume 4'),
@@ -29,6 +31,9 @@ VOLS = {3: dict(units=range(21, 31), level='B1+', band='6.0',
 
 # what the band on the cover is actually for, per volume
 BAND_IS_FOR = {
+    '5.5': 'which is the commonest band awarded anywhere in the world and '
+           'the commonest place to stop, usually because one section is '
+           'half a band behind the other three and nobody has said which',
     '6.0': 'which is the score most undergraduate courses and most skilled '
            'visa routes ask for, and the band at which a candidate stops '
            'guessing and starts choosing',
@@ -99,7 +104,8 @@ def _items(d, items, start, key, skill):
     return n
 
 
-SPEED = {3: (125, 140), 4: (150, 165), 5: (170, 185), 6: (190, 210)}
+SPEED = {2: (110, 130), 3: (125, 140), 4: (150, 165), 5: (170, 185),
+         6: (190, 210)}
 _NUM = {3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven'}
 
 
@@ -768,6 +774,10 @@ def expression_bank(d, vol, units):
 
 
 BLURB_BY_VOL = {
+    2: ['The volume for band 5.5 — the commonest score in the world and',
+        'the commonest ceiling, which is a different problem from not',
+        'knowing enough English. Academic and General Training in one',
+        'book, because they are one test with two substitutions.'],
     3: ['The volume for band 6.0 — the score most undergraduate courses and',
         'most skilled visa routes ask for, and the band at which a candidate',
         'stops guessing and starts choosing. Academic and General Training in',
@@ -788,6 +798,15 @@ BLURB_BY_VOL = {
         'substitutions.'],
 }
 BULLETS_BY_VOL = {
+    2: ['Every task type, five times in every unit, both modules '
+        'throughout',
+        'Academic passages of 450 to 580 words, five paragraphs and the '
+        'loop',
+        'The reading method taught at 110 to 130 words a minute, and '
+        'measured',
+        'Grammar and vocabulary taught inside the cycle whose texts use '
+        'them',
+        'A full timed Reading paper and a full timed Listening paper'],
     3: ['Every task type, five times in every unit, both modules throughout',
         'Academic passages of 600 to 760 words, at the length of the real '
         'paper',

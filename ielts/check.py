@@ -15,6 +15,17 @@ import sys
 # shorter and its scripts slower than the volume above it, and the ladder is
 # the whole promise of the series, so it is gated rather than intended.
 BANDS_BY_VOL = {
+    # Volume 2 is the first book below Volume 3 to be written, so its bands
+    # are a step down from Volume 3's and sit inside the plan's own V1-V2
+    # row: short GT 130-180, workplace 200-280, long 320-420, academic
+    # 420-560, Part 4 script 300-400. The two productive bands are the
+    # exception: a model answer has to satisfy the rubric whatever the
+    # band on the cover, so Task 1 starts at 155 words and Task 2 at 255,
+    # both above the floor the instructions demand.
+    2: {'gt_short': (130, 205), 'gt_work': (205, 290), 'long': (340, 450),
+        'acad': (450, 580), 'l1': (200, 275), 'l2': (210, 285),
+        'l3': (250, 330), 'l4': (300, 400), 'model': (155, 260),
+        'essay': (255, 340)},
     3: {'gt_short': (150, 240), 'gt_work': (250, 340), 'long': (420, 560),
         'acad': (600, 760), 'l1': (240, 320), 'l2': (250, 330),
         'l3': (300, 380), 'l4': (350, 430), 'model': (140, 300),
@@ -37,11 +48,13 @@ BANDS_BY_VOL = {
 def vol_of(n):
     """Which volume a unit number belongs to.
 
-    Ten units a volume from 21, so the arithmetic generalises and a new
-    volume needs no edit here. Anything below 21 belongs to the Foundation
-    books, which this file does not gate.
+    Ten units a volume from 21, so the arithmetic generalises in both
+    directions: units 11-20 are Volume 2, units 1-10 Volume 1. The floor
+    was once a literal 3, written when Volume 3 was the lowest book that
+    existed, and it silently reported every Volume 2 unit as Volume 3.
     """
-    return max(3, min(max(BANDS_BY_VOL), 3 + (n - 21) // 10))
+    return max(min(BANDS_BY_VOL),
+               min(max(BANDS_BY_VOL), 3 + (n - 21) // 10))
 
 
 # the module-level name the rest of this file uses; set per unit as it runs
@@ -50,7 +63,8 @@ BANDS = BANDS_BY_VOL[4]
 # the timed Reading paper: per passage, and for the paper as a whole. The
 # real Academic paper runs 2,150-2,750 words; a volume below the target band
 # sits at the bottom of that range and reaches it at Volume 5.
-PAPER_BY_VOL = {3: dict(passage=(620, 820), total=(1950, 2350)),
+PAPER_BY_VOL = {2: dict(passage=(520, 700), total=(1650, 2000)),
+                3: dict(passage=(620, 820), total=(1950, 2350)),
                 4: dict(passage=(700, 950), total=(2150, 2750)),
                 5: dict(passage=(760, 1000), total=(2350, 2850)),
                 6: dict(passage=(820, 1050), total=(2550, 3000))}
