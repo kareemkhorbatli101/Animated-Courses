@@ -425,7 +425,18 @@
         return k;
       },
       reset: function () { inp.style.borderColor = ''; },
-      show: function () { if (q.model) inp.value = q.model; },
+      show: function () {
+        /* `q.model` is one of three ways an answer is authored here, and this used to be
+           the only one it could show: a question written with an `accept` list and no
+           model was left EMPTY by Show me, and mark() then scored it zero. On the
+           highlighter card in EAM unit 1 that made the card's own shown answer "2 of 4
+           correct" - the engine rejecting what it had just offered. `accept[0]` is an
+           authored acceptable answer, so show it when there is no model. */
+        if (q.model) { inp.value = q.model; return; }
+        var a = Array.isArray(q.accept) ? q.accept[0] : q.accept;
+        if (a) { inp.value = String(a); return; }
+        if (Array.isArray(q.keys) && q.keys.length) inp.value = q.keys.join(', ');
+      },
       getState: function () { return inp.value; },
       setState: function (v) { if (typeof v === 'string') inp.value = v; }
     };
@@ -1200,6 +1211,18 @@
      ============================================================ */
   EX.cloze = function (card, host, api) {
     if (card.before) host.appendChild(mk('div', 'note', card.before));
+
+    /* A CLOZE WITH NO KEY IS A SUBMITTED EXERCISE, NOT A SCORED ONE.
+       `U.accepts(value, [])` walks an empty list and returns false, so a card authored as
+       `answers: {'1': [], '2': []}` marks every word a learner writes as wrong, and show()
+       writes `a[0]` - the string "undefined" - into every blank. All 47 of this course's
+       cloze cards ARE keyed and none of this changes them; it is here because the sibling
+       course shipped 15 that were not, and these two copies of the engine must not drift. */
+    var keyed = Object.keys(card.answers || {}).some(function (k) {
+      var a = card.answers[k];
+      return Array.isArray(a) ? a.length > 0 : (a !== undefined && a !== null && a !== '');
+    });
+
     var box = mk('div', card.plain ? '' : 'reading');
     var idx = [];
     box.innerHTML = card.text.replace(/\[\[(\w+)\]\]/g, function (m, k) {
@@ -1229,6 +1252,15 @@
     }
     function ins() { return box.querySelectorAll('.blank'); }
 
+    if (!keyed) {
+      var nk = mk('div', 'note');
+      nk.innerHTML = 'The book sets this exercise but prints <b>no answer key</b> for it, '
+        + 'so this card does not mark your words right or wrong. Write your answers, press '
+        + 'Check answers to save them, and compare each one with the unit&rsquo;s own '
+        + 'vocabulary list.';
+      host.appendChild(nk);
+    }
+
     var reasons = card.why ? Reasons(host, card.whyTitle || 'Why each word is the one she says') : null;
     function tellWhy() {
       if (!reasons) return;
@@ -1237,8 +1269,8 @@
         var bid = el.dataset.bid;
         var a = card.answers[bid];
         return {
-          t: Array.isArray(a) ? a[0] : a,
-          ok: !String(el.value).trim() ? null : U.accepts(el.value, a),
+          t: Array.isArray(a) ? (a[0] || '') : (a || ''),
+          ok: (!keyed || !String(el.value).trim()) ? null : U.accepts(el.value, a),
           why: card.why[bid] || ''
         };
       }));
@@ -1248,6 +1280,25 @@
       check: function () {
         attempt(host);
         var list = ins(), n = 0;
+        if (!keyed) {
+          /* submitted, not scored: a real attempt in every gap is what completes it */
+          var filled = 0;
+          for (var z = 0; z < list.length; z++) {
+            list[z].classList.remove('ok', 'no');
+            if (String(list[z].value).trim()) filled++;
+          }
+          api.save(Array.prototype.map.call(list, function (x) { return x.value; }));
+          tellWhy();
+          if (filled < list.length) {
+            api.verdict('part', 'Fill in all ' + list.length + ' gaps ('
+              + filled + ' so far). The book prints no key for this one, so your words '
+              + 'are saved rather than marked.');
+            return;
+          }
+          api.complete('Saved — all ' + list.length + ' gaps filled. The book prints no '
+            + 'answer key for this exercise, so compare your words with the vocabulary list.');
+          return;
+        }
         for (var i = 0; i < list.length; i++) {
           var bid = list[i].dataset.bid;
           var ok = U.accepts(list[i].value, card.answers[bid]);
@@ -1268,6 +1319,11 @@
         if (reasons) reasons.hide();
       },
       hint: function () {
+        if (!keyed) {
+          EAM.toast('The book prints no key for this exercise, so there is no letter to '
+            + 'give. The words you need are on the vocabulary screen.', 4600);
+          return;
+        }
         var list = ins();
         for (var i = 0; i < list.length; i++) {
           if (!U.accepts(list[i].value, card.answers[list[i].dataset.bid])) {
@@ -1282,6 +1338,12 @@
         EAM.toast('All blanks are already correct.');
       },
       show: function () {
+        if (!keyed) {
+          /* `a[0]` on an empty list writes "undefined" into every blank */
+          EAM.toast('There is no answer to show: the book prints no key for this exercise.',
+            4600);
+          return;
+        }
         var list = ins();
         for (var i = 0; i < list.length; i++) {
           var a = card.answers[list[i].dataset.bid];
@@ -1464,6 +1526,36 @@
      ============================================================ */
   EX.tristate = function (card, host, api) {
     var rows = [];
+
+    /* A ROW NEEDS A LINE NUMBER ONLY IF THE AUTHOR GAVE ONE.
+       check() used to score a row only when `parseInt(box) === it.line`, strictly, against
+       a NUMBER. Measured on the published site: all 60 items of this course's 20 true/false
+       cards have no `line` at all, so every T/F row failed however the learner answered,
+       and show() wrote the string "undefined" into the box. Where the author did name the
+       proving line the question is still asked and still marked; where they did not, the
+       verdict alone is the answer and the box is disabled rather than unanswerable.
+       parseInt also accepts line: '1' as a string, which is how one worked example was
+       authored. */
+    function wantLine(it) {
+      return it.ans !== 'NI' && it.line !== undefined && it.line !== null && it.line !== ''
+        && !isNaN(parseInt(it.line, 10));
+    }
+    function lineOf(it) { return parseInt(it.line, 10); }
+
+    /* The worked example the book prints was in the data and drawn nowhere: `card.given`
+       was read only to pre-click the FIRST REAL ITEM's "T" button - which in this course's
+       unit 1 pre-selected T on an item whose answer is F. Draw it instead, and leave the
+       learner's own rows untouched. */
+    if (card.given) {
+      var gv = mk('div', 'note');
+      gv.innerHTML = '<b>Done for you.</b> ' + esc(card.given.t) + ' &mdash; <b>'
+        + esc({ T: 'true', F: 'false', NI: 'no information' }[card.given.ans] || '')
+        + '</b>'
+        + (card.given.line ? ' (line ' + esc(String(card.given.line)) + ')' : '')
+        + (card.given.why ? '<br><span class="wc">' + card.given.why + '</span>' : '');
+      host.appendChild(gv);
+    }
+
     card.items.forEach(function (it, i) {
       var row = mk('div', 'q-row');
       row.innerHTML = '<div class="qn">' + (i + 1) + '.</div>';
@@ -1486,7 +1578,7 @@
       var ln = mk('input', 'blank sm');
       ln.placeholder = 'line';
       ln.title = 'Which line number proves it?';
-      if (it.ans === 'NI') { ln.disabled = true; ln.placeholder = '—'; }
+      if (!wantLine(it)) { ln.disabled = true; ln.placeholder = '—'; }
       ctr.appendChild(mk('span', 'wc', 'line:'));
       ctr.appendChild(ln);
       cEl.appendChild(ctr);
@@ -1496,7 +1588,6 @@
       host.appendChild(row);
       rows.push({ v: null, pk: pk, ln: ln, fb: fb, it: it });
     });
-    if (card.given) rows[0].pk.querySelectorAll('button')[0].click();
 
     var reasons = card.items.some(function (i) { return i.why; })
       ? Reasons(host, card.whyTitle || 'Why each one is true, false or neither') : null;
@@ -1505,8 +1596,8 @@
       if (!reasons) return;
       reasons.fill(rows.map(function (r, i) {
         return {
-          t: r.it.t + ' — ' + VERDICT[r.it.ans] + (r.it.ans === 'NI' ? '' : ' (line ' + r.it.line + ')'),
-          given: !!(card.given && i === 0),
+          t: r.it.t + ' — ' + VERDICT[r.it.ans] + (wantLine(r.it) ? ' (line ' + lineOf(r.it) + ')' : ''),
+          given: false,
           ok: r.v === null ? null : r.v === r.it.ans,
           why: r.it.why || ''
         };
@@ -1521,10 +1612,10 @@
           r.pk.classList.remove('ok', 'no');
           r.fb.style.display = 'none';
           var vOk = r.v === r.it.ans;
-          var lOk = r.it.ans === 'NI' ? true : (parseInt(r.ln.value, 10) === r.it.line);
+          var lOk = wantLine(r.it) ? (parseInt(r.ln.value, 10) === lineOf(r.it)) : true;
           r.ln.classList.remove('ok', 'no');
           if (r.v !== null) r.pk.classList.add(vOk ? 'ok' : 'no');
-          if (r.it.ans !== 'NI' && r.ln.value) r.ln.classList.add(lOk ? 'ok' : 'no');
+          if (wantLine(r.it) && r.ln.value) r.ln.classList.add(lOk ? 'ok' : 'no');
           if (vOk && lOk) n++;
           else if (r.v !== null) {
             r.fb.style.display = 'block';
@@ -1553,7 +1644,9 @@
           var want = { T: 0, F: 1, NI: 2 }[r.it.ans];
           for (var z = 0; z < bs.length; z++) bs[z].setAttribute('aria-pressed', z === want ? 'true' : 'false');
           r.v = r.it.ans;
-          if (r.it.ans !== 'NI') r.ln.value = r.it.line;
+          /* `r.it.line` is undefined for every item in this course, and assigning it put
+             the literal string "undefined" in the evidence box of every shown row. */
+          if (wantLine(r.it)) r.ln.value = lineOf(r.it);
           r.pk.classList.add('ok');
         });
         tellWhy();
@@ -2896,6 +2989,19 @@
     var blocks = card.blocks || [];
     var slots = [], blockEls = {};
 
+    /* `positions` MAY BE A LIST OF BLOCK-ID STRINGS, and in practice always is.
+       Every course on this site authors `positions: ['b1','b2','b3']`, while the code
+       below reads pos.answer, pos.job, pos.why and pos.hint. On a string those are all
+       undefined, so check() compared a placed id against undefined and scored 0 of n
+       however the learner arranged the blocks, and show() called place(i, undefined) and
+       filled nothing. Measured on the published site: 4 cards here, 5 in FMS, and the
+       original accounting course's own, every one saying "Not yet" to its own shown
+       answer. Normalising here keeps the authored form - a bare order of ids - which is
+       the right shape for a card whose slots are simply positions 1..n. */
+    card.positions = (card.positions || []).map(function (p) {
+      return (p && typeof p === 'object') ? p : { answer: p, job: '' };
+    });
+
     if (card.poolLabel) host.appendChild(mk('div', 'wc', card.poolLabel));
 
     /* the slots: one per position, each saying what job it wants */
@@ -3006,13 +3112,18 @@
       },
       hint: function () {
         for (var i = 0; i < card.positions.length; i++) {
-          if (placed[i] !== card.positions[i].answer) {
-            EAM.toast(card.positions[i].hint || ('Position ' + (i + 1) + ' is ' + card.positions[i].job + '.'), 4600);
+          var pos = card.positions[i];
+          if (placed[i] !== pos.answer) {
+            /* With a bare order of ids there is no job to name, so name the paragraph
+               instead - "Position 1 is undefined." was what this said otherwise. */
+            var b = blockById(pos.answer);
+            var what = pos.job || ('paragraph ' + ((b && (b.tag || b.id)) || pos.answer));
+            EAM.toast(pos.hint || ('Position ' + (i + 1) + ' is ' + what + '.'), 4600);
             try { slots[i].scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (e) { }
             return;
           }
         }
-        EAM.toast('All three are already in the right order.');
+        EAM.toast('They are already in the right order.');
       },
       show: function () {
         card.positions.forEach(function (pos, i) {

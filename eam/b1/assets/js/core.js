@@ -157,11 +157,19 @@
     }
     return rec;
   };
-  /** The cast voice for a scene line, or a course/role voice. */
+  /** The cast voice for a scene line, or a course/role voice.
+
+     `V.scene` is OPTIONAL and this read used to assume it. This course casts per PERSON
+     and registers a flat map with no `scene` block, so every line of every scene threw
+     here before a word was spoken — measured by pressing Play on all 59 scene screens,
+     all 59 threw and nothing was heard, because the throw lands before the device-voice
+     fallback is reached.
+
+     Stage casting first, then the person's voice, then nothing. */
   EAM.voiceFor = function (role, sceneId, who) {
     var V = EAM.voiceMap;
     if (!V) return null;
-    if (sceneId && who) return (V.scene[sceneId] || {})[who] || null;
+    if (sceneId && who) return ((V.scene || {})[sceneId] || {})[who] || V[who] || null;
     return V[role] || null;
   };
 
@@ -254,7 +262,17 @@
   /* ============================================================
      progress
      ============================================================ */
-  var KEY = 'csb1.progress.v1', PREF = 'csb1.prefs.v1';
+  /* THE KEY CARRIES THE COURSE'S NAME, and until now it did not.
+     Every course on this site is served from one origin, so localStorage is shared, and
+     three courses saved progress under 'csb1.progress.v1' - the name the engine was lifted
+     with - while numbering their screens identically. Measured: marking three cards here
+     in unit 1 screen 2 left the FMS course's unit 1 screen 2 already ticked on a screen
+     that learner had never opened, because both records are 'u1-s02'. The engine lift
+     renames the namespace and did not rename this.
+
+     Changing it starts this course's progress from empty rather than importing records
+     that may belong to another course - the old data cannot be told apart per card. */
+  var KEY = 'eam.b1.progress.v1', PREF = 'eam.b1.prefs.v1';
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 

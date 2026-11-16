@@ -425,7 +425,17 @@
         return k;
       },
       reset: function () { inp.style.borderColor = ''; },
-      show: function () { if (q.model) inp.value = q.model; },
+      show: function () {
+        /* `q.model` is one of three ways an answer is authored here, and this used to be
+           the only one it could show: a question written with an `accept` list and no
+           model was left EMPTY by Show me, and mark() then scored it zero - the engine
+           rejecting what it had just offered. `accept[0]` is an authored acceptable
+           answer, so show it when there is no model. */
+        if (q.model) { inp.value = q.model; return; }
+        var a = Array.isArray(q.accept) ? q.accept[0] : q.accept;
+        if (a) { inp.value = String(a); return; }
+        if (Array.isArray(q.keys) && q.keys.length) inp.value = q.keys.join(', ');
+      },
       getState: function () { return inp.value; },
       setState: function (v) { if (typeof v === 'string') inp.value = v; }
     };
@@ -1200,6 +1210,23 @@
      ============================================================ */
   EX.cloze = function (card, host, api) {
     if (card.before) host.appendChild(mk('div', 'note', card.before));
+
+    /* A CLOZE WITH NO KEY IS A SUBMITTED EXERCISE, NOT A SCORED ONE.
+       `U.accepts(value, [])` walks an empty list and returns false, so a card authored as
+       `answers: {'1': [], '2': []}` marked every word a learner wrote as wrong, and
+       show() wrote `a[0]` - the string "undefined" - into every blank. Fifteen cards of
+       this course shipped that way, three per unit, because the BOOK prints no answer key
+       for those exercises: 1D, 2C and 5C appear nowhere in the unit's own key.
+
+       The answer is not to invent the author's key. It is to stop pretending there is
+       one: the gaps still render, the learner still writes, the work is still saved and
+       marked complete, and the card says what it cannot do. A card that CAN be marked is
+       unaffected - this only reads as unkeyed when every single gap is empty. */
+    var keyed = Object.keys(card.answers || {}).some(function (k) {
+      var a = card.answers[k];
+      return Array.isArray(a) ? a.length > 0 : (a !== undefined && a !== null && a !== '');
+    });
+
     var box = mk('div', card.plain ? '' : 'reading');
     var idx = [];
     box.innerHTML = card.text.replace(/\[\[(\w+)\]\]/g, function (m, k) {
@@ -1229,6 +1256,15 @@
     }
     function ins() { return box.querySelectorAll('.blank'); }
 
+    if (!keyed) {
+      var nk = mk('div', 'note');
+      nk.innerHTML = 'The book sets this exercise but prints <b>no answer key</b> for it, '
+        + 'so this card does not mark your words right or wrong. Write your answers, press '
+        + 'Check answers to save them, and compare each one with the unit&rsquo;s own '
+        + 'vocabulary list.';
+      host.appendChild(nk);
+    }
+
     var reasons = card.why ? Reasons(host, card.whyTitle || 'Why each word is the one she says') : null;
     function tellWhy() {
       if (!reasons) return;
@@ -1237,8 +1273,8 @@
         var bid = el.dataset.bid;
         var a = card.answers[bid];
         return {
-          t: Array.isArray(a) ? a[0] : a,
-          ok: !String(el.value).trim() ? null : U.accepts(el.value, a),
+          t: Array.isArray(a) ? (a[0] || '') : (a || ''),
+          ok: (!keyed || !String(el.value).trim()) ? null : U.accepts(el.value, a),
           why: card.why[bid] || ''
         };
       }));
@@ -1248,6 +1284,25 @@
       check: function () {
         attempt(host);
         var list = ins(), n = 0;
+        if (!keyed) {
+          /* submitted, not scored: a real attempt in every gap is what completes it */
+          var filled = 0;
+          for (var z = 0; z < list.length; z++) {
+            list[z].classList.remove('ok', 'no');
+            if (String(list[z].value).trim()) filled++;
+          }
+          api.save(Array.prototype.map.call(list, function (x) { return x.value; }));
+          tellWhy();
+          if (filled < list.length) {
+            api.verdict('part', 'Fill in all ' + list.length + ' gaps ('
+              + filled + ' so far). The book prints no key for this one, so your words '
+              + 'are saved rather than marked.');
+            return;
+          }
+          api.complete('Saved — all ' + list.length + ' gaps filled. The book prints no '
+            + 'answer key for this exercise, so compare your words with the vocabulary list.');
+          return;
+        }
         for (var i = 0; i < list.length; i++) {
           var bid = list[i].dataset.bid;
           var ok = U.accepts(list[i].value, card.answers[bid]);
@@ -1268,6 +1323,11 @@
         if (reasons) reasons.hide();
       },
       hint: function () {
+        if (!keyed) {
+          FMS.toast('The book prints no key for this exercise, so there is no letter to '
+            + 'give. The words you need are on the vocabulary screen.', 4600);
+          return;
+        }
         var list = ins();
         for (var i = 0; i < list.length; i++) {
           if (!U.accepts(list[i].value, card.answers[list[i].dataset.bid])) {
@@ -1282,6 +1342,13 @@
         FMS.toast('All blanks are already correct.');
       },
       show: function () {
+        if (!keyed) {
+          /* there is nothing to show, and `a[0]` on an empty list wrote "undefined" into
+             every blank - which is what the published card did */
+          FMS.toast('There is no answer to show: the book prints no key for this exercise.',
+            4600);
+          return;
+        }
         var list = ins();
         for (var i = 0; i < list.length; i++) {
           var a = card.answers[list[i].dataset.bid];
@@ -2896,6 +2963,20 @@
     var blocks = card.blocks || [];
     var slots = [], blockEls = {};
 
+    /* `positions` MAY BE A LIST OF BLOCK-ID STRINGS, and in practice always is.
+       Every course on this site authors `positions: ['b1','b2','b3']`, while the code
+       below reads pos.answer, pos.job, pos.why and pos.hint. On a string those are all
+       undefined, so check() compared a placed id against undefined and scored 0 of n
+       however the learner arranged the blocks, and show() called place(i, undefined) and
+       filled nothing. Measured on the published site: 9 cards in two courses and the
+       original accounting course's own, every one of them saying "Not yet" to its own
+       shown answer. Normalising here fixes every course that loads this file, and keeps
+       the authored form - a bare order of ids - which is the right shape for a card whose
+       slots are simply positions 1..n. */
+    card.positions = (card.positions || []).map(function (p) {
+      return (p && typeof p === 'object') ? p : { answer: p, job: '' };
+    });
+
     if (card.poolLabel) host.appendChild(mk('div', 'wc', card.poolLabel));
 
     /* the slots: one per position, each saying what job it wants */
@@ -3006,13 +3087,18 @@
       },
       hint: function () {
         for (var i = 0; i < card.positions.length; i++) {
-          if (placed[i] !== card.positions[i].answer) {
-            FMS.toast(card.positions[i].hint || ('Position ' + (i + 1) + ' is ' + card.positions[i].job + '.'), 4600);
+          var pos = card.positions[i];
+          if (placed[i] !== pos.answer) {
+            /* With a bare order of ids there is no job to name, so name the paragraph
+               instead - "Position 1 is undefined." was what this said otherwise. */
+            var b = blockById(pos.answer);
+            var what = pos.job || ('paragraph ' + ((b && (b.tag || b.id)) || pos.answer));
+            FMS.toast(pos.hint || ('Position ' + (i + 1) + ' is ' + what + '.'), 4600);
             try { slots[i].scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (e) { }
             return;
           }
         }
-        FMS.toast('All three are already in the right order.');
+        FMS.toast('They are already in the right order.');
       },
       show: function () {
         card.positions.forEach(function (pos, i) {

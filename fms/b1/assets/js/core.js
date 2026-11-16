@@ -157,11 +157,21 @@
     }
     return rec;
   };
-  /** The cast voice for a scene line, or a course/role voice. */
+  /** The cast voice for a scene line, or a course/role voice.
+
+     `V.scene` is OPTIONAL and this read used to assume it. A course that casts per PERSON
+     rather than per stage registers a flat map with no `scene` block, and then every line
+     of every scene threw here before a word was spoken — 28 screens of this course and 59
+     of EAM's, measured by pressing Play on each one. Nothing was heard: not a recording,
+     not the device voice, because the throw happens before the fallback is reached.
+
+     So: the stage's own casting first, then the person's voice, then nothing. The guarded
+     form was already the idiom in components.js for the passage player; this brings the
+     scene player into line with it. */
   FMS.voiceFor = function (role, sceneId, who) {
     var V = FMS.voiceMap;
     if (!V) return null;
-    if (sceneId && who) return (V.scene[sceneId] || {})[who] || null;
+    if (sceneId && who) return ((V.scene || {})[sceneId] || {})[who] || V[who] || null;
     return V[role] || null;
   };
 
@@ -254,7 +264,17 @@
   /* ============================================================
      progress
      ============================================================ */
-  var KEY = 'csb1.progress.v1', PREF = 'csb1.prefs.v1';
+  /* THE KEY CARRIES THE COURSE'S NAME, and until now it did not.
+     Every course on this site is served from one origin, so localStorage is shared, and
+     three courses saved progress under 'csb1.progress.v1' - the name the engine was lifted
+     with - while numbering their screens identically. Measured: marking three cards in
+     EAM's unit 1 screen 2 left THIS course's unit 1 screen 2 already ticked, on a screen
+     the learner had never opened, because both records are 'u1-s02'. The engine lift
+     renames the namespace and did not rename this.
+
+     Changing it starts this course's progress from empty rather than importing records
+     that may belong to another course - the old data cannot be told apart per card. */
+  var KEY = 'fms.b1.progress.v1', PREF = 'fms.b1.prefs.v1';
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 
