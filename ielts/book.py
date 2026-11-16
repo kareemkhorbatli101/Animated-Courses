@@ -75,7 +75,8 @@ def _figure(d, spec):
     if k == 'process':
         return d.figure(*diagrams.process_flow(spec['title'], spec['stages'],
                                                spec.get('phases'),
-                                               spec.get('sub', '')))
+                                               spec.get('sub', ''),
+                                               spec.get('alts', ())))
     if k == 'cycle':
         return d.figure(*diagrams.cycle_flow(spec['title'], spec['stages'],
                                              spec.get('sub', '')))

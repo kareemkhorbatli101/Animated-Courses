@@ -20,7 +20,8 @@ _DES = dict(kind='process',
               'with reasons given')],
             phases=[('Before submission', 0, 3),
                     ('Decision', 4, 4),
-                    ('Two outcomes', 5, 6)])
+                    ('Two outcomes', 5, 6)],
+            alts=(6,))
 
 UNIT = dict(
  n=17, vol=2, level='B1+', band='5.5',

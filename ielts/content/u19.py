@@ -22,7 +22,7 @@ _AFTER = ('The corridor after the new line',
   (0.46, 0.56, 0.48, 0.16, 'Underpass', 'new')],
  [(0.0, 0.24, 1.0, 0.24, 'Dunmorrow Road'),
   (0.0, 0.80, 1.0, 0.80, 'Canal'),
-  (0.0, 0.46, 1.0, 0.46, 'New footbridge route')])
+  (0.0, 0.52, 1.0, 0.52, 'New footbridge route')])
 
 _KEY = [('Kept from before', 'building'), ('New or rebuilt', 'new'),
         ('Open ground', 'green')]

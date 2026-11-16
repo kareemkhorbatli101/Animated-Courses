@@ -27,13 +27,21 @@ def _arrow(x0, y0, x1, y1, col=INDIGO_D, sw=2.6):
     return ''.join(g)
 
 
-def process_flow(title, stages, phases=None, sub=''):
+def process_flow(title, stages, phases=None, sub='', alts=()):
     """stages = [(short label, one-line caption), ...] laid out in rows.
 
     phases = [(name, first index, last index), ...] draws a tinted band
     behind each group, which is how a long process is grouped into the
     three or four phases an answer should use as paragraphs.
+
+    alts = indices of stages that are ALTERNATIVES to the stage before
+    them rather than steps after it. A chain of arrows through two
+    outcomes says that one follows the other, which is the opposite of
+    what a branching process means, so an alternative gets no incoming
+    arrow from its sibling: it is forked from the stage they share,
+    around and below the sibling.
     """
+    alts = set(alts)
     per = 4
     rows = [stages[i:i + per] for i in range(0, len(stages), per)]
     bw, gap, vgap = 176, 34, 72
@@ -81,7 +89,24 @@ def process_flow(title, stages, phases=None, sub=''):
         g.append(blk)
         if i + 1 < len(stages):
             nx, ny = pos[i + 1]
-            if ny == y:
+            if i + 1 in alts:
+                # Fork: find the stage this alternative and its sibling
+                # both follow, and route under the sibling into the
+                # bottom edge of the alternative.
+                p = i + 1
+                while p in alts:
+                    p -= 1
+                p -= 1
+                if p in pos and pos[p][1] == ny:
+                    px, py = pos[p]
+                    line = ny + bh + 28
+                    g.append(L(px + bw / 2, py + bh + 4, px + bw / 2,
+                               line, INDIGO_D, 2.6))
+                    g.append(L(px + bw / 2, line, nx + bw / 2, line,
+                               INDIGO_D, 2.6))
+                    g.append(_arrow(nx + bw / 2, line, nx + bw / 2,
+                                    ny + bh + 6))
+            elif ny == y:
                 g.append(_arrow(x + bw + 5, y + bh / 2, nx - 7, y + bh / 2))
             else:
                 # Row wrap. A straight line from the end of one row to the

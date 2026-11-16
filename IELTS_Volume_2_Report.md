@@ -3,7 +3,7 @@
 **Status: complete.** Ten units, fifty cycles, two timed papers, all five gates
 green, built and visually verified.
 
-**PAGES pages, FIGURES figures, SIZE.**
+**481 pages, 438 figures, 4.3 MB.**
 
 ---
 
@@ -137,8 +137,8 @@ and learn from the wrong answers rather than only counting them.
 | `density.py 2` | the level on the cover, measured from the prose | **pass** |
 | `omit.py 2` | every passage, script turn, model, question and explanation is actually in the .docx | **pass** |
 | `gate6.py 2` | no clipped or overrunning text in any figure | **pass** |
-| build | the .docx renders | **pass** — PAGES pages, FIGURES figures |
-| visual check | pages sampled across the volume, at full size | **pass** |
+| build | the .docx renders | **pass** — 481 pages, 438 figures |
+| visual check | pages sampled across the volume, at full size | **pass after two fixes** — see §6 |
 
 ### Density: the level on the cover
 
@@ -187,7 +187,7 @@ The two productive bands do **not** scale down with the cover band: a Task 1
 model must still satisfy the rubric, so the model bands stay at 155–260 and
 255–340 words. A B1+ book is not licensed to print a model that would fail.
 
-### A defect fixed on the way
+### Defects fixed on the way
 
 `check.py` now gates the per-cycle **speaking answer shape**: three moves
 minimum, only the three taught move names, and no line shorter than twelve
@@ -195,9 +195,44 @@ characters. A missing shape previously crashed the build with `KeyError` rather
 than reporting a problem; the gate was added when unit 54 of Volume 6 shipped
 without one, and Volume 2 was written against it from the start.
 
+Two more were found by looking at rendered pages rather than by a gate, and
+both are fixed at source rather than worked around in the content:
+
+1. **A branching process diagram drew a sequential arrow between its two
+   outcomes.** `process_flow` chains every stage to the next, so unit 17's
+   diagram read "Approved → Referred back" — on the page whose model answer
+   says the two arms are *not* equivalent. `process_flow` now takes `alts`,
+   a list of stages that are alternatives to the stage before them rather
+   than steps after it: the sibling arrow is suppressed and a fork is routed
+   from the stage they share, under the sibling, into the alternative. A
+   diagram with no `alts` renders exactly as before, so no other volume
+   changes.
+2. **A map label was overrun by the boxes it ran between.** Unit 19's "New
+   footbridge route" sat at the exact lower edge of the middle row of
+   objects, so the label printed behind them and read "foo". Moved into the
+   clear band between the rows. The figure gate could not see this: the text
+   was inside its own box, and the box was behind another object.
+
 ---
 
-## 6. What is still open
+## 6. The visual check
+
+Pages were sampled across the volume at full size and read as a reader would
+see them — the two Task 1 Academic figure pages, the process article, the
+four-series line graph, a technique page and a page of the Reading paper. The
+line graph, the pie pairs, the bar charts and the page furniture were right
+first time. The two figure defects described in §5 were found this way, fixed
+in `diagrams.py` and `content/u19.py`, the volume rebuilt, and both pages
+re-read to confirm: the fork now runs from **Application** into both outcomes
+rather than chaining one into the other, and **New footbridge route** prints in
+full between the rows.
+
+Running `gate6.py` again after the rebuild: 3 810 fitted runs of text in the
+figures, nothing overrunning its box, nothing printed under 7.5 px.
+
+---
+
+## 7. What is still open
 
 - **`VOLS[3]['cefr']` says B1+ where the plan says B2.** Volume 3's cover and
   filename (`IELTS_2026_B1plus_Volume_3.docx`) therefore carry the wrong level
@@ -211,9 +246,9 @@ without one, and Volume 2 was written against it from the start.
 
 ---
 
-## 7. Files
+## 8. Files
 
-- `IELTS_2026_B1plus_Volume_2.docx` — the book, PAGES pages
+- `IELTS_2026_B1plus_Volume_2.docx` — the book, 481 pages
 - `IELTS_Volume_2_Report.md` — this report
 
 Branch `claude/nice-davinci-om6fxb`.
