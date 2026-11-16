@@ -3,6 +3,8 @@
 **Status: complete.** Ten units, fifty cycles, four timed papers, all five gates
 green, built and visually verified.
 
+**539 pages, 449 figures, 4.5 MB.**
+
 ---
 
 ## 1. What is in the book
@@ -80,7 +82,8 @@ All five gates pass on the whole volume.
 | `density.py 6` | the level on the cover, measured from the prose | **pass** — see below |
 | `omit.py` | every passage, script turn, model, question and explanation is actually in the .docx | **pass** |
 | `gate6.py` | no clipped or overrunning text in any figure | **pass** |
-| build | the .docx renders | **pass** |
+| build | the .docx renders | **pass** — 539 pages, 449 figures |
+| visual check | pages sampled across the volume, at full size | **pass after two fixes** — see §4 |
 
 ### Density: the level on the cover
 
@@ -149,6 +152,20 @@ this volume:
 5. **A cycle without an answer shape crashed the build** rather than printing a
    blank page. Unit 54's second cycle shipped without one; `check.py` now
    requires three moves with legible lines on every cycle.
+6. **`omit.py` reported twenty phantom omissions** — it listed the Speaking
+   paper's cue card and answer shapes, which are PNGs by the time they reach
+   the .docx and carry no text at all. `gate6.py` checks those. Volumes 3, 4
+   and 5 re-verified after the change.
+7. **Process-diagram captions fell out of their boxes** — the caption block
+   starts 52 px into a box that was a fixed 104 px tall and sets on a 19 px
+   line, so any three-line caption dropped its last line below its own border.
+   Six boxes did it at once in unit 59. Boxes are now sized to the longest
+   caption in the figure, which removes the whole class of defect by
+   construction. Found by looking at the page, not by a gate.
+8. **The process-diagram row-wrap arrow** ran diagonally across both phase
+   bands and the label on the second. It now runs down the gutter between the
+   rows, which the band geometry leaves clear. Volume 4's trial diagram is
+   improved by both fixes.
 
 ---
 
@@ -165,7 +182,7 @@ this volume:
 
 ## 6. Files
 
-- `IELTS_2026_C1_Volume_6.docx` — the book
+- `IELTS_2026_C1_Volume_6.docx` — the book, 539 pages
 - `IELTS_Volume_6_Report.md` — this report
 
 Branch `claude/nice-davinci-om6fxb`.
