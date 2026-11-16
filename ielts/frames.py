@@ -93,13 +93,24 @@ def answer_shape(shape):
 
 
 def outline_frame(thesis, rows):
-    """A skeleton the student fills: main ideas with their supports."""
-    h = 120 + sum(34 + 28 * len(s) for _, s in rows)
+    """A skeleton the student fills: main ideas with their supports.
+
+    The header carries the thesis, and from Volume 5 a thesis is a long
+    qualified sentence rather than a phrase. One shrink-to-fit line could not
+    hold it: the text hit the 8px floor and still ran past the box, which is
+    clipping that no reader could recover. The header now wraps and the bar
+    grows with it. A one-line thesis still produces a 64px bar, so every
+    frame already in the series is unchanged.
+    """
+    lines = fit('Outline · %s' % thesis, W - 56, 19, bold=True)
+    head = max(64, 38 + 26 * len(lines))
+    h = head + 56 + sum(34 + 28 * len(s) for _, s in rows)
     g = [R(0, 0, W, h, PAPER)]
-    g.append(R(0, 0, W, 64, PLUM, rx=10))
-    g.append(TFIT(28, 40, 'Outline · %s' % thesis, 19, W - 56, PAPER,
-                  bold=True, anchor='start'))
-    y = 100
+    g.append(R(0, 0, W, head, PLUM, rx=10))
+    blk, _, _ = TBLOCK(28, 40, None, 19, W - 56, 26, PAPER, bold=True,
+                       anchor='start', lines=lines)
+    g.append(blk)
+    y = head + 36
     for i, (main, sups) in enumerate(rows, 1):
         g.append(R(34, y - 24, W - 68, 32, SOFT, rx=6))
         g.append(TFIT(48, y, 'Main idea %d:  %s' % (i, main), 18, W - 110,
