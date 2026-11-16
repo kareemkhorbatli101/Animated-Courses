@@ -107,22 +107,27 @@ EAM.page('u10-s21', {
       visual: { spot: 'training', wide: true,
         caption: 'Ten units, and the English a service department uses every day.' },
       html: '<div class="closing">'
-        + '<p>' + 'Congratulations — you have finished English for Auto Maintenance '
-        + 'Personnel. You started with the parts of a car and the people in a service '
+        + '<p>' + 'Congratulations — you have finished English for Auto Maintenance Personnel.' + '</p>'
+        + '<p>' + 'You started with the parts of a car and the people in a service '
         + 'department. Step by step, you learned to talk about systems and fluids, '
         + 'tools and safety, measuring and diagnosis, the service process, servicing '
         + 'and advice, the service desk, quality and warranty, repairs and comebacks, '
         + 'and finally the customer, the manufacturer, and the team. You now have the '
         + 'English a mechanic and a service-department manager need every day in a '
-        + 'modern dealership. Keep using it: read the bulletins, talk to your '
-        + 'customers, report to your team, and never stop learning. A good mechanic, '
-        + 'like a good garage, always improves. Well done, and good luck.' + '</p>'
+        + 'modern dealership.' + '</p>'
+        + '<p>' + 'Keep using it: read the bulletins, talk to your customers, report to your '
+        + 'team, and never stop learning. A good mechanic, like a good garage, always '
+        + 'improves. Well done, and good luck.' + '</p>'
         + '</div>',
       doneLabel: 'I have finished the course',
-      playable: ['Congratulations — you have finished English for Auto Maintenance '
-        + 'Personnel. You started with the parts of a car and the people in a service '
+      playable: ['Congratulations — you have finished English for Auto Maintenance Personnel.',
+        'You started with the parts of a car and the people in a service '
         + 'department. Step by step, you learned to talk about systems and fluids, '
-        + 'tools and safety, measuring']
+        + 'tools and safety, measuring and diagnosis, the service process, servicing '
+        + 'and advice, the service desk,',
+        'Keep using it: read the bulletins, talk to your customers, report to your '
+        + 'team, and never stop learning. A good mechanic, like a good garage, always '
+        + 'improves. Well done, and good luck.']
     }
   ]
 });
