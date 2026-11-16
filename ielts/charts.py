@@ -44,12 +44,18 @@ def _fmt(v):
 
 
 def _axes(g, x0, y0, x1, y1, bot, top, step, ylab):
-    """Left axis with gridlines, baseline, and a y-axis caption."""
+    """Left axis with gridlines, baseline, and a y-axis caption.
+
+    Where the scale runs below zero the heavy rule is drawn at zero rather
+    than at the foot of the plot, so that a bar or a point below the line is
+    read as a fall and not as a short column.
+    """
     n = int(round((top - bot) / step))
     for i in range(n + 1):
         v = bot + i * step
         y = y1 - (v - bot) / (top - bot) * (y1 - y0)
-        g.append(L(x0, y, x1, y, RULE if i else GREY_L, 1 if i else 2))
+        heavy = (abs(v) < 1e-9) if bot < 0 else (i == 0)
+        g.append(L(x0, y, x1, y, GREY_L if heavy else RULE, 2 if heavy else 1))
         g.append(TFIT(x0 - 10, y + 6, _fmt(v), 16, _ML - 24, GREY, anchor='end'))
     if ylab:
         g.append(TFIT(x0 - 10, y0 - 22, ylab, 15, _ML + 150, GREY, anchor='start'))
@@ -112,8 +118,13 @@ def bar_chart(title, cats, series, ylab='', sub=''):
     y0, y1 = _MT + (14 if sub else 0), h - 96
     x0, x1 = _ML, W - _MR
     vals = [v for _, vs in series for v in vs]
-    bot, top, step = _nice(max(vals), 0)
+    # A chart of changes can carry a fall. The floor is the lower of zero and
+    # the smallest value, and bars are drawn from the zero line in whichever
+    # direction the value goes; with no negative value the floor is zero and
+    # nothing about an all-positive chart moves.
+    bot, top, step = _nice(max(vals), min(min(vals), 0.0))
     _axes(g, x0, y0, x1, y1, bot, top, step, ylab)
+    yz = y1 - (0.0 - bot) / (top - bot) * (y1 - y0)
     ncat, nser = len(cats), len(series)
     slot = (x1 - x0) / float(ncat)
     bw = min(46.0, (slot - 18) / nser)
@@ -123,8 +134,9 @@ def bar_chart(title, cats, series, ylab='', sub=''):
         for si, (nm, vs) in enumerate(series):
             v = vs[ci]
             col = SERIES_COLOURS[si % len(SERIES_COLOURS)]
-            bh = (v - bot) / (top - bot) * (y1 - y0)
-            g.append(R(left + si * bw, y1 - bh, bw - 4, bh, col, rx=3))
+            y = y1 - (v - bot) / (top - bot) * (y1 - y0)
+            g.append(R(left + si * bw, min(y, yz), bw - 4, abs(yz - y),
+                       col, rx=3))
         g.append(TFIT(cx, y1 + 26, str(cat), 16, slot - 6, GREY, anchor='middle'))
     _legend(g, h - 34, [nm for nm, _ in series],
             [SERIES_COLOURS[i % len(SERIES_COLOURS)] for i in range(nser)])
