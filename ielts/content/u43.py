@@ -761,7 +761,14 @@ UNIT = dict(
            'not the others, it has made a substantive argument while '
            'appearing to report a fact. I would ask for all three as a '
            'matter of routine, and the reaction to that request tells you a '
-           'great deal about what was intended.')],
+           'great deal about what was intended.'),
+          ('Economist', 'One last practical point, since several of you '
+           'will end up writing these reports. Put all three measures in a '
+           'table at the front, not one in the text and two in an annex, '
+           'because an annex is where a number goes to be true without '
+           'being read. If your organisation objects to the table, you '
+           'have learned something about your organisation and you should '
+           'write that down as well.')],
          items=[
           ('Over twenty years the decile ratio rose by',
            ['six per cent', 'thirty-eight per cent', 'ninety-four per '
@@ -1388,7 +1395,17 @@ UNIT = dict(
            'competing for cannot be. You cannot have more places at a '
            'selective university without it ceasing to be selective.'),
           ('Nakagawa-Oduya', 'That is the objection I have no answer to, and '
-           'I would like it in the record that I have none.')],
+           'I would like it in the record that I have none.'),
+          ('Villanueva-Bright', 'Then let me offer the only thing I have, '
+           'which is not an answer. Some of what people compete for is '
+           'positional and some of it is not. Health is not. Literacy is '
+           'not. A dry house is not. The expandable goods are the ones '
+           'worth putting money into, and we have spent thirty years '
+           'arguing about the other kind because that is where the status '
+           'is.'),
+          ('Nakagawa-Oduya', 'That I can use, and I notice it is an '
+           'argument for precisely the policies my side already wanted, '
+           'which should make us both slightly suspicious of it.')],
          items=[
           ('Villanueva-Bright concedes that the relative figure has been',
            ['falling', 'flat for forty years', 'rising', 'unmeasurable'], 1,
