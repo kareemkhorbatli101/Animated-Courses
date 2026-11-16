@@ -15,15 +15,15 @@ _CALL = dict(kind='device',
                      'receiver'),
                     ('ph2', 0.02, 0.56, 0.24, 0.17, 'Receiver’s '
                      'phone'),
-                    ('cab', 0.02, 0.83, 0.24, 0.17, 'Fixed cable '
+                    ('cab', 0.74, 0.83, 0.24, 0.17, 'Fixed cable '
                      'network')],
              flows=[('ph1', 'm1', 'radio signal'),
                     ('m1', 'bs', 'to the base station'),
                     ('bs', 'sw', 'over cable'),
                     ('sw', 'db', 'where is the receiver?'),
-                    ('sw', 'm2', 'routed to the right mast'),
+                    ('sw', 'm2', 'to the right mast'),
                     ('m2', 'ph2', 'radio signal'),
-                    ('sw', 'cab', 'if the receiver is on a landline')])
+                    ('sw', 'cab', 'if it is a landline')])
 
 UNIT = dict(
  n=9, vol=1, level='B1', band='5.0',

@@ -66,15 +66,30 @@ def process_flow(title, stages, phases=None, sub='', alts=()):
             pos[ri * per + ci] = (x, y)
             x += bw + gap
     if phases:
+        # A phase whose stages wrap onto a second row used to be drawn as
+        # one rectangle round the whole bounding box. That box reaches
+        # back under the row above, so it covered the previous phase's
+        # band and painted over its label: Volume 1 unit 8 printed
+        # "On the far". Draw one band per row instead, and draw every
+        # band before any label so no band can cover a label at all.
+        bands = []
         for pi, (nm, a, b) in enumerate(phases):
-            xs = [pos[i][0] for i in range(a, b + 1) if i in pos]
-            ys = [pos[i][1] for i in range(a, b + 1) if i in pos]
-            if not xs:
-                continue
-            x0, x1 = min(xs) - 14, max(xs) + bw + 14
-            y0, y1 = min(ys) - 30, max(ys) + bh + 14
-            g.append(R(x0, y0, x1 - x0, y1 - y0, PHASE_TINT[pi % 4], rx=12))
-            g.append(TFIT(x0 + 12, y0 + 20, nm, 16, x1 - x0 - 24, GREY,
+            byrow = {}
+            for i in range(a, b + 1):
+                if i in pos:
+                    byrow.setdefault(pos[i][1], []).append(pos[i][0])
+            first = True
+            for y in sorted(byrow):
+                xs = byrow[y]
+                x0, x1 = min(xs) - 14, max(xs) + bw + 14
+                y0, y1 = y - 30, y + bh + 14
+                g.append(R(x0, y0, x1 - x0, y1 - y0,
+                           PHASE_TINT[pi % 4], rx=12))
+                if first:
+                    bands.append((x0, y0, x1 - x0, nm))
+                    first = False
+        for x0, y0, wd, nm in bands:
+            g.append(TFIT(x0 + 12, y0 + 20, nm, 16, wd - 24, GREY,
                           bold=True, anchor='start'))
     for i, (lab, cap) in enumerate(stages):
         x, y = pos[i]
@@ -159,6 +174,7 @@ def device_schematic(title, parts, flows, sub=''):
         blk, _, _ = TBLOCK(bx + bw / 2, by + bh / 2 - 2, None, sz, bw - 20, 20,
                            INK, anchor='middle', lines=lns)
         g.append(blk)
+    placed = []
     for a, b, cap in flows:
         ax, ay, aw, ah = box[a]
         bx, by, bw, bh = box[b]
@@ -174,10 +190,45 @@ def device_schematic(title, parts, flows, sub=''):
             nx, ny = -ddy / ln, ddx / ln
             if ny > 0:
                 nx, ny = -nx, -ny
-            mx, my = mx + nx * 15, my + ny * 15
             cw = tw(cap, 14) + 14
-            g.append(R(mx - cw / 2, my - 19, cw, 22, PAPER, None, 0, 5))
-            g.append(TFIT(mx, my - 3, cap, 14, cw, TEAL, anchor='middle'))
+            # A mostly vertical arrow has a horizontal normal, so an
+            # offset of 15 left the patch sitting on the arrow and hid
+            # it: clear the patch's own width there. Then take whichever
+            # side is actually free, because off the plate on one side
+            # and on top of a part on the other are both wrong. Score
+            # both and keep the lesser.
+            if True:
+                # Push the patch clear along the normal by its own
+                # extent in that direction, so a diagonal arrow is not
+                # covered by the very label that names it.
+                off = (cw / 2.0) * abs(nx) + 11.0 * abs(ny) + 8.0
+                best, bx_, by_ = None, mx, my
+                for sign in (1, -1):
+                    cx_ = mx + nx * sign * off
+                    cy_ = my + ny * sign * off
+                    l, r = cx_ - cw / 2, cx_ + cw / 2
+                    t_, b_ = cy_ - 11, cy_ + 11
+                    pen = max(0.0, 12 - l) + max(0.0, r - (W - 12))
+                    pen *= 22
+                    rects = [(bxx, byy, bww, bhh)
+                             for bxx, byy, bww, bhh in box.values()]
+                    # Labels already placed count too: two captions in a
+                    # crowded corner used to land on each other.
+                    rects += placed
+                    for bxx, byy, bww, bhh in rects:
+                        ox = min(r, bxx + bww) - max(l, bxx)
+                        oy = min(b_, byy + bhh) - max(t_, byy)
+                        if ox > 0 and oy > 0:
+                            pen += ox * oy
+                    if best is None or pen < best:
+                        best, bx_, by_ = pen, cx_, cy_
+                mx, my = bx_, by_
+            # The patch used to hang above its anchor point, so a label
+            # on a short vertical arrow rode up into the box it came
+            # from. Centre it on the midpoint instead.
+            g.append(R(mx - cw / 2, my - 11, cw, 22, PAPER, None, 0, 5))
+            g.append(TFIT(mx, my + 4, cap, 14, cw, TEAL, anchor='middle'))
+            placed.append((mx - cw / 2, my - 11, cw, 22))
     return render(''.join(g), W, h, PAPER)
 
 
@@ -240,15 +291,13 @@ def site_map(title, panels, sub='', key=None):
         g.append(R(px, top, pw, ph, '#fbfbfd', GREY_L, 1.5, 8))
         g.append(TFIT(px + pw / 2, top - 12, cap, 17, pw - 12, INDIGO_D,
                       bold=True, anchor='middle'))
+        rlabs = []
         for x0, y0, x1, y1, lab in roads:
             g.append(L(px + x0 * pw, top + y0 * ph, px + x1 * pw,
                        top + y1 * ph, '#d9d9d9', 11))
             if lab:
-                # clear of the 11px band, so the label is not read through
-                # the road it names
-                g.append(TFIT(px + (x0 + x1) / 2 * pw,
-                              top + (y0 + y1) / 2 * ph - 11, lab, 13,
-                              pw * 0.5, INK, anchor='middle'))
+                rlabs.append((px + (x0 + x1) / 2 * pw,
+                              top + (y0 + y1) / 2 * ph, lab))
         for x, y, w_, h_, lab, kind in objs:
             fill, edge = _KIND.get(kind, _KIND['building'])
             bx, by = px + x * pw, top + y * ph
@@ -258,6 +307,16 @@ def site_map(title, panels, sub='', key=None):
             blk, _, _ = TBLOCK(bx + bw_ / 2, by + bh_ / 2 - 1, None, sz,
                                bw_ - 8, 16, INK, anchor='middle', lines=lns)
             g.append(blk)
+        # Road labels go on last, on the road itself, each on a small
+        # paper patch. Setting them 11px clear of the band put them
+        # under the row of buildings above whenever a road ran close to
+        # one: Volume 1 unit 7 lost "New footpath" completely and clipped
+        # "Brackwell Road" in both panels.
+        for lx, ly, lab in rlabs:
+            wd = tw(lab, 13) + 12
+            g.append(R(lx - wd / 2, ly - 10, wd, 19, PAPER, rx=4))
+            g.append(TFIT(lx, ly + 4, lab, 13, pw * 0.6, INK,
+                          anchor='middle'))
         g.append(C(px + pw - 26, top + 26, 13, PAPER, GREY, 1.2))
         g.append(T(px + pw - 26, top + 31, 'N', 13, GREY, bold=True))
     if key:

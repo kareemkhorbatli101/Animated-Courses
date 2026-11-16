@@ -7,10 +7,10 @@ _THEN = ('Brackwell in 1975',
   (0.06, 0.30, 0.26, 0.17, 'Primary school', 'building'),
   (0.37, 0.30, 0.24, 0.17, 'Wash house', 'building'),
   (0.66, 0.30, 0.28, 0.17, 'Engineering works', 'building'),
-  (0.06, 0.56, 0.42, 0.16, 'Allotments', 'green'),
-  (0.54, 0.56, 0.40, 0.16, 'Goods siding', 'building')],
+  (0.06, 0.60, 0.42, 0.16, 'Allotments', 'green'),
+  (0.54, 0.60, 0.40, 0.16, 'Goods siding', 'building')],
  [(0.0, 0.24, 1.0, 0.24, 'Brackwell Road'),
-  (0.0, 0.78, 1.0, 0.78, 'Railway')])
+  (0.0, 0.86, 1.0, 0.86, 'Railway')])
 
 _NOW = ('Brackwell today',
  [(0.06, 0.05, 0.42, 0.14, 'Flats, five storeys', 'new'),
@@ -18,10 +18,10 @@ _NOW = ('Brackwell today',
   (0.06, 0.30, 0.26, 0.17, 'Primary school', 'building'),
   (0.37, 0.30, 0.24, 0.17, 'Health centre', 'new'),
   (0.66, 0.30, 0.28, 0.17, 'Business units', 'new'),
-  (0.06, 0.56, 0.42, 0.16, 'Allotments reduced', 'green'),
-  (0.54, 0.56, 0.40, 0.16, 'Car park', 'new')],
+  (0.06, 0.60, 0.42, 0.16, 'Allotments reduced', 'green'),
+  (0.54, 0.60, 0.40, 0.16, 'Car park', 'new')],
  [(0.0, 0.24, 1.0, 0.24, 'Brackwell Road'),
-  (0.0, 0.78, 1.0, 0.78, 'Railway'),
+  (0.0, 0.86, 1.0, 0.86, 'Railway'),
   (0.0, 0.50, 1.0, 0.50, 'New footpath')])
 
 _KEY = [('Unchanged', 'building'), ('New or rebuilt', 'new'),
