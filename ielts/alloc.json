@@ -84,58 +84,11 @@
   []
  ],
  "73": [
-  [
-   "button",
-   "pushed",
-   "failure",
-   "defeat",
-   "status",
-   "response",
-   "awkward",
-   "annoying",
-   "commercial"
-  ],
-  [
-   "remote",
-   "intention",
-   "solved",
-   "basis",
-   "recover",
-   "weakness",
-   "approve",
-   "divided",
-   "invest"
-  ],
-  [
-   "automatically",
-   "burglar",
-   "secrecy",
-   "spelling",
-   "authentication",
-   "bulk",
-   "complexity",
-   "consequential"
-  ],
-  [
-   "disagreement",
-   "erases",
-   "faithfully",
-   "flashing",
-   "misconception",
-   "nineties",
-   "promoting",
-   "refined"
-  ],
-  [
-   "settings",
-   "photographic",
-   "out-of-hours",
-   "necessity",
-   "litres",
-   "famines",
-   "undercut",
-   "thirty-six"
-  ]
+  [],
+  [],
+  [],
+  [],
+  []
  ],
  "74": [
   [
@@ -178,15 +131,15 @@
    "undisturbed",
    "unphotogenic",
    "unploughed",
-   "refrigerated"
+   "removal"
   ],
   [
-   "rashes",
-   "pharmacist",
-   "one-kilogram",
-   "measurements",
-   "industrially",
-   "extending",
+   "receptionist",
+   "powerfully",
+   "ownership",
+   "neighbouring",
+   "manufactured",
+   "fractures",
    "dominated",
    "diarrhoeal"
   ]
@@ -283,21 +236,21 @@
    "thirty-eight",
    "unaffected",
    "unsustainable",
-   "throats",
-   "varieties",
    "water-holding",
-   "responsibly",
-   "recognisable"
+   "smallpox",
+   "seventy",
+   "same-day",
+   "refrigerated"
   ],
   [
-   "questionnaire",
-   "penalised",
-   "omits",
-   "measles",
-   "historians",
-   "vitae",
-   "two-thirds",
-   "thirty-five"
+   "rashes",
+   "pharmacist",
+   "one-kilogram",
+   "measurements",
+   "industrially",
+   "extending",
+   "diphtheria",
+   "two-thirds"
   ]
  ],
  "77": [
@@ -308,12 +261,11 @@
    "obvious",
    "disappear",
    "task",
-   "automation",
    "created",
-   "useless"
+   "useless",
+   "software"
   ],
   [
-   "software",
    "predicted",
    "printing",
    "dying",
@@ -321,10 +273,10 @@
    "regret",
    "arranged",
    "pretending",
-   "electricity"
+   "electricity",
+   "confirmed"
   ],
   [
-   "confirmed",
    "affected",
    "disagree",
    "sickness",
@@ -332,27 +284,28 @@
    "wages",
    "cupboard",
    "candidates",
-   "diagnosis"
+   "diagnosis",
+   "vanish"
   ],
   [
-   "vanish",
    "encouraged",
    "tractor",
    "beforehand",
    "curricula",
    "economists",
    "fifty-five",
-   "fifty-five-year-old"
+   "fifty-five-year-old",
+   "fifty-six"
   ],
   [
-   "fifty-six",
    "gloomiest",
    "headings",
    "highest-scoring",
    "justified",
    "nineteenth",
    "requirements",
-   "stationery"
+   "stationery",
+   "summarise"
   ]
  ],
  "78": [
@@ -491,32 +444,32 @@
   [
    "trivial",
    "unaccompanied",
-   "same-day",
-   "self-service",
-   "seventy",
-   "seventy-two",
-   "smallpox",
-   "spoiling"
-  ],
-  [
+   "defeat",
+   "spoiling",
    "sprains",
    "statistics",
    "threefold",
-   "unmeasured",
-   "walk-in",
-   "widens",
-   "removal",
-   "receptionist"
+   "throats"
   ],
   [
-   "powerfully",
-   "ownership",
-   "neighbouring",
-   "manufactured",
-   "fractures",
+   "unmeasured",
+   "varieties",
+   "walk-in",
+   "widens",
+   "seventy-two",
+   "self-service",
+   "responsibly",
+   "recognisable"
+  ],
+  [
+   "questionnaire",
+   "penalised",
+   "omits",
+   "measles",
+   "historians",
    "edible",
-   "diphtheria",
-   "summarise"
+   "vitae",
+   "thirty-five"
   ]
  ]
 }
