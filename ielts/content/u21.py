@@ -9,7 +9,7 @@ _EARN = dict(kind='bar', title='Median earnings five years after graduating',
                      ('Women', [48, 42, 35, 33, 26, 21])])
 
 UNIT = dict(
- n=21, vol=3, level='B1+', band='6.0',
+ n=21, vol=3, level='B2', band='6.0',
  theme='Education: Access and Outcomes',
  opener=(
    'This unit starts with an admissions page and ends with a question nobody '

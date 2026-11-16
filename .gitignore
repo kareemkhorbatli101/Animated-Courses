@@ -60,3 +60,7 @@ TOEFL_iBT_2026_Course_All_Six_Volumes.zip
 #   mkdir TOEFL_iBT_2026_Course && cp TOEFL_2026_*.docx TOEFL_iBT_2026_Course/
 #   zip -r TOEFL_iBT_2026_Course_All_Eight_Volumes.zip TOEFL_iBT_2026_Course
 TOEFL_iBT_2026_Course_All_Eight_Volumes.zip
+
+# the delivery zip is just the six books plus the reports, all of which are
+# already tracked here; no point storing 26MB of duplicates
+IELTS_2026_Series_Volumes_*.zip

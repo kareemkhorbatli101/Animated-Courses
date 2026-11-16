@@ -15,7 +15,7 @@ _SHARE = dict(kind='line', title='Share of consumption met by imports',
               series=[('Import share', [21, 27, 34, 42, 49])])
 
 UNIT = dict(
- n=28, vol=3, level='B1+', band='6.0',
+ n=28, vol=3, level='B2', band='6.0',
  theme='Food Security',
  opener=(
    'Allotment rules, a week of empty shelves, and the second hybrid Task 1 '

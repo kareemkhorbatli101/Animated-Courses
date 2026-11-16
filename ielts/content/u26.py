@@ -17,7 +17,7 @@ _MON = dict(kind='line', title='Arrivals by month, 2023',
                     ('Val d’Arrie', [6, 7, 9, 13, 11, 7])])
 
 UNIT = dict(
- n=26, vol=3, level='B1+', band='6.0',
+ n=26, vol=3, level='B2', band='6.0',
  theme='Tourism and Its Costs',
  opener=(
    'A council notice on holiday lets, four residents of a town that fills up '

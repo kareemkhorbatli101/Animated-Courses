@@ -31,7 +31,7 @@ _MAPS = dict(kind='map', title='The Brackwell site now and under the '
              key=_KEY)
 
 UNIT = dict(
- n=27, vol=3, level='B1+', band='6.0',
+ n=27, vol=3, level='B2', band='6.0',
  theme='Urban Planning',
  opener=(
    'A consultation notice, four residents of one street who want four '

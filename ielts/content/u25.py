@@ -22,7 +22,7 @@ _REC = dict(kind='device', title='How a recommendation system builds a profile',
                    ('log', 'ret', 'stored')])
 
 UNIT = dict(
- n=25, vol=3, level='B1+', band='6.0',
+ n=25, vol=3, level='B2', band='6.0',
  theme='Technology and Privacy',
  opener=(
    'A privacy notice, a request to have your data deleted, and a diagram of '

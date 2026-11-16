@@ -10,7 +10,7 @@ _WARM = dict(kind='line',
                      ('Days above 30°C', [4, 5, 7, 6, 11, 18, 29])])
 
 UNIT = dict(
- n=24, vol=3, level='B1+', band='6.0',
+ n=24, vol=3, level='B2', band='6.0',
  theme='Climate and Adaptation',
  opener=(
    'A flood notice, four households that prepared, and a chart that puts a '

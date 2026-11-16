@@ -23,7 +23,7 @@ _TAB = dict(kind='table', title='Four clubs: income, wages and league '
                   ['Pellow Rangers', '41', '19', '46', '6']])
 
 UNIT = dict(
- n=30, vol=3, level='B1+', band='6.0',
+ n=30, vol=3, level='B2', band='6.0',
  theme='Sport: Money and Ethics',
  opener=(
    'The last unit of Volume 3. A club’s membership categories, four families '

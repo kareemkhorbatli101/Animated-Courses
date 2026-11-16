@@ -163,13 +163,13 @@ error surfaces in seconds rather than six minutes in.
 
 ## 6. Open items
 
-- **Volumes 2 and 4 should be rebuilt** to pick up the three renderer
-  fixes: Volume 2 unit 18 and Volume 4 units 32, 36 and 38 all have a
-  phase that wraps a row, so all four currently have the clipped phase
-  label described above.
-- **Volume 3's label.** `VOLS[3]['cefr']` and `['level']` say `B1+`
-  where the series plan says Volume 3 is **B2**. Fixing it renames the
-  shipped file, so it is flagged rather than done.
+- ~~**Volumes 2 and 4 should be rebuilt**~~ Done: Volumes 2 to 6 were
+  all rebuilt on the fixed renderers, and all five pass zero omissions
+  and the figure fitting gate.
+- ~~**Volume 3's label.**~~ Fixed on 16 November: `VOLS[3]` and the
+  `level=` line of units 21 to 30 now say **B2**, as the series plan
+  always had it. Volume 3 was rebuilt and is now
+  `IELTS_2026_B2_Volume_3.docx`; no occurrence of "B1+" survives in it.
 - **The syntax window** (mean sentence length, nominalisation) is still
   a recorded decision rather than a gated measurement. Volume 1's unit
   passages measure 24.0 words a sentence, the timed paper 22.2.

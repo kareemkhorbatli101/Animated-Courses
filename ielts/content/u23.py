@@ -8,7 +8,7 @@ _CASES = dict(kind='line', title='Reported cases and hospital admissions',
                       ('Hospital admissions', [3, 7, 18, 29, 24, 12])])
 
 UNIT = dict(
- n=23, vol=3, level='B1+', band='6.0',
+ n=23, vol=3, level='B2', band='6.0',
  theme='Public Health',
  opener=(
    'A vaccination notice, four people who ignored advice, and two lines on a '

@@ -11,7 +11,7 @@ _TASKS = dict(kind='bar', title='Share of working time by task type',
                       ('Non-routine', [20, 22, 70, 67])])
 
 UNIT = dict(
- n=22, vol=3, level='B1+', band='6.0',
+ n=22, vol=3, level='B2', band='6.0',
  theme='Work: Automation and Skills',
  opener=(
    'A secondment form, four people who changed career, and a chart that '

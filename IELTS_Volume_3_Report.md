@@ -1,8 +1,8 @@
 # IELTS 2026 · Volume 3 — delivery report
 
-**File:** `/home/user/Animated-Courses/IELTS_2026_B1plus_Volume_3.docx`
+**File:** `/home/user/Animated-Courses/IELTS_2026_B2_Volume_3.docx`
 **Size:** 4.3 MB · 497 pages · 445 images
-**Level:** CEFR B1+ · target band 6.0 · Academic **and** General Training in one book
+**Level:** CEFR B2 · target band 6.0 · Academic **and** General Training in one book
 **Branch:** `claude/nice-davinci-om6fxb` (all work committed and pushed)
 
 Volume 3 is the book that feeds Volume 4. It was written against the
@@ -118,7 +118,7 @@ your ten principles. There are no templates anywhere in the book.
 | Unit academic passages | 66.6% | 17.4% | 12,374 | in window |
 | Timed Reading paper | 67.4% | 17.0% | 2,196 | in window |
 | Both together | 66.7% | 17.4% | 14,570 | in window |
-| **B1+ window** | 66.0–68.5 | 16.0–19.0 | | |
+| **Volume 3 window** | 66.0–68.5 | 16.0–19.0 | | |
 
 This is better than Volume 4 managed: there the timed paper sat 0.3 points
 below the window floor. Here all three rows are inside it.
@@ -158,8 +158,8 @@ argument the Volume 4 report made and the reason I did it again here.
    and 30 need it; Volumes 5 and 6 will need it more.
 2. **Rules bars that count their own rules**, so a paper with a different
    number of instructions cannot be mislabelled.
-3. **Filenames carry the volume's CEFR level**, so B1+ and B2 books cannot be
-   confused in a folder.
+3. **Filenames carry the volume's CEFR level**, so two books at different
+   levels cannot be confused in a folder.
 
 ## 7. Where it is still short
 
@@ -191,3 +191,20 @@ Volumes 3 and 4 are now both complete and gated, and the seam between them is
 closed word by word. Volume 5 (B2 to the end, band 5.0–5.5) is the next book
 in the plan; its speed band (170–185 wpm) and its density windows are already
 in the machinery, so it starts with eight gates instead of three.
+
+---
+
+## 8. Correction, 16 November
+
+Volume 3 was built and shipped labelled **B1+**, where the series plan has
+always had it at **B2**, band 6.0 — the undergraduate-entry book. The label
+was wrong in `book.py` and in all ten unit headers; the content, the bands
+and the register window were set against B2 throughout and did not change.
+
+The fix is surgical: `VOLS[3]` and the `level=` line of units 21 to 30. The
+cover, the ten unit headers and the filename now read B2, and the file is
+renamed `IELTS_2026_B2_Volume_3.docx`. Every gate was re-run on the rebuilt
+file: all checks pass, the register window is unmoved (66.7% / 17.4% both
+together), zero omissions across 4,670 strings, and 3,666 fitted runs with
+no overrun and nothing under 7.5px. No occurrence of "B1+" survives
+anywhere in the book.

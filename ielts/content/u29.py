@@ -9,7 +9,7 @@ _SHARES = dict(kind='bar', title='Shares and read-throughs by story type',
                        ('Read to the end', [11, 14, 46, 52])])
 
 UNIT = dict(
- n=29, vol=3, level='B1+', band='6.0',
+ n=29, vol=3, level='B2', band='6.0',
  theme='Media and Trust',
  opener=(
    'A regulator’s complaints notice, four readers who trust four different '
