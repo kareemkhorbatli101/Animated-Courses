@@ -523,7 +523,13 @@ UNIT = dict(
     qs=['Do you have a good memory for events?',
         'Do you and your family agree about the past?',
         'Now look at the card. You have one minute to make notes.',
-        'Why do people remember the same thing differently?']),
+        'Why do people remember the same thing differently?'],
+    shape=[('answer', 'A move when I was nine, which I remember as rain.'),
+           ('support', 'My sister remembers sun and a long wait for a van.'),
+           ('follow-up', 'We agree on the house and on nothing about the day.'),
+           ('support', 'Neither of us has any reason to be '
+            'misremembering on purpose.'),
+           ('follow-up', 'So I think we each kept the part that mattered to us, and lost the rest.')]),
    write=[
     dict(task='Task 2', fork=None, wband='essay',
          heading='Should history be taught as a single national story?',

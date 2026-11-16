@@ -122,6 +122,20 @@ def check_unit(U, out, heads):
             sparts.add(int(m.group(1)))
         if len(sp['qs']) < 3:
             out.append('%s: speaking has %d questions, want 3+' % (ct, len(sp['qs'])))
+        # The answer shape is drawn as a figure by book.py, so a cycle
+        # missing it crashes the build rather than printing a blank page.
+        # Volume 6 unit 54 shipped without one; this is why.
+        shape = sp.get('shape') or []
+        if len(shape) < 3:
+            out.append('%s: answer shape has %d moves, want 3+'
+                       % (ct, len(shape)))
+        for mv, line in shape:
+            if mv not in ('answer', 'support', 'follow-up'):
+                out.append('%s: unknown move %r in the answer shape'
+                           % (ct, mv))
+            if len(line) < 12:
+                out.append('%s: a shape line of %d chars says nothing'
+                           % (ct, len(line)))
         for w in c['write']:
             if w.get('fork'):
                 forks.add(w['fork'])
