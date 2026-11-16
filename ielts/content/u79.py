@@ -20,21 +20,19 @@ _NEWS = dict(kind='bar',
 _CABLE = dict(kind='device',
               title='How a cable network reaches a house',
               sub='from the exchange to the socket on the wall',
-              parts=[('Exchange', 'the building where the network '
-                      'begins'),
-                     ('Street cabinet', 'where one thick cable divides '
-                      'between about three hundred homes'),
-                     ('Drop cable', 'the single cable from the cabinet '
-                      'to one house'),
-                     ('Wall socket', 'where the cable ends inside the '
-                      'house'),
-                     ('Router', 'the box that turns the signal into a '
-                      'wireless one')],
-              flows=[('Exchange', 'Street cabinet', 'fibre'),
-                     ('Street cabinet', 'Drop cable', 'copper or '
-                      'fibre'),
-                     ('Drop cable', 'Wall socket', 'one house'),
-                     ('Wall socket', 'Router', 'wireless indoors')])
+              parts=[('ex', 0.02, 0.04, 0.26, 0.18, 'Exchange'),
+                     ('cab', 0.37, 0.04, 0.26, 0.18, 'Street '
+                      'cabinet'),
+                     ('drop', 0.37, 0.41, 0.26, 0.18, 'Drop cable'),
+                     ('sock', 0.72, 0.41, 0.26, 0.18, 'Wall socket'),
+                     ('rt', 0.72, 0.78, 0.26, 0.18, 'Router'),
+                     ('dev', 0.37, 0.78, 0.26, 0.18, 'Device '
+                      'indoors')],
+              flows=[('ex', 'cab', 'fibre'),
+                     ('cab', 'drop', 'one house'),
+                     ('drop', 'sock', 'into the house'),
+                     ('sock', 'rt', 'by cable'),
+                     ('rt', 'dev', 'wireless')])
 
 UNIT = dict(
  n=9, vol=8, level='A2-B1', band='4.0-4.5',
@@ -775,27 +773,28 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=17,
          model=[
-          'The diagram shows the five stages by which a network signal '
-          'travels from an exchange to a wireless device in a house.',
+          'The diagram shows the six parts through which a network '
+          'signal travels from an exchange to a device inside a house.',
           'The signal begins at the exchange and is carried by fibre to '
           'a street cabinet. At the cabinet a single cable divides '
           'between about three hundred homes, and each home is served '
           'by a drop cable of its own, which may be either copper or '
           'fibre.',
           'The drop cable ends at a socket on the wall inside the '
-          'house, and from there a router converts the signal into a '
-          'wireless one for use indoors.',
+          'house, and a short cable carries the signal from there to a '
+          'router, which converts it into a wireless signal for the '
+          'devices used indoors.',
           'The system therefore narrows at the street cabinet, which is '
           'the point at which a shared cable becomes an individual one, '
           'and changes form twice: once from fibre to the drop cable, '
           'and once from a cable to a wireless signal at the router.'],
-         notes=['All five labelled parts appear, in the order the '
+         notes=['All six labelled parts appear, in the order the '
                 'signal travels.',
                 'The division at the cabinet is given its number, '
                 'which the diagram supplies.',
                 'The closing sentence identifies the two changes of '
                 'form, which is what the diagram is about.'],
-         criterion=[('All five parts in order', 'Task Achievement'),
+         criterion=[('All six parts in order', 'Task Achievement'),
                     ('The division at the cabinet described',
                      'Task Response'),
                     ('Passive forms used', 'Grammatical Range and '
