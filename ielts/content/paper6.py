@@ -42,14 +42,14 @@ PAPER = dict(
         'removed its own summit. The eruption of Tambora was the largest '
         'witnessed in recorded history: it ejected something in the region '
         'of a hundred and fifty cubic kilometres of rock and ash, reduced '
-        'the mountain’s height by about a third, and was heard two '
+        'the mountain’s height by approximately a third, and was heard two '
         'thousand kilometres away, where garrison commanders mistook it for '
         'gunfire and sent troops to investigate.',
         'The local destruction was immense and, by the standards of what '
         'followed, local. Perhaps ten thousand people died in the eruption '
         'itself and many times that number in the famine and disease that '
         'followed across the islands. But the event that interests '
-        'historians of climate happened at a distance, over the following '
+        'historians of climate occurred at a distance, over the following '
         'two years, to people who had not heard of Sumbawa and never would.',
         'The mechanism was sulphur. A large eruption throws sulphur dioxide '
         'high enough to enter the stratosphere, where it forms droplets that '
@@ -90,10 +90,10 @@ PAPER = dict(
         'The episode has acquired a secondary fame in cultural history. '
         'Confined indoors by the weather at a house on Lake Geneva, a party '
         'of English writers agreed to compose ghost stories, and one of them '
-        'produced the draft of Frankenstein. The connection is real and is '
-        'routinely overstated: the weather supplied a wet fortnight, and the '
-        'rest of the explanation lies in the people and the books they had '
-        'been reading.',
+        'produced the draft of Frankenstein. The connection is genuine and '
+        'is routinely overstated: the weather supplied a wet fortnight, and '
+        'the rest of the explanation lies in the people and the books they '
+        'had been reading.',
         'For the sciences, the lasting importance of Tambora is as a natural '
         'experiment. A single, dated, well-documented injection of sulphur '
         'into the stratosphere, followed by two years of recorded weather '
@@ -105,15 +105,15 @@ PAPER = dict(
         'and they reproduce the pattern of wetness and dryness poorly, which '
         'is not. The global average is the quantity the physics handles '
         'well; where the rain falls after a major eruption remains among the '
-        'least predictable things in the field, and the harvest depends on '
-        'the rain rather than on the average.',
-        'That asymmetry has a direct consequence for how such an event '
-        'would be managed today. A reliable forecast of global cooling is '
-        'of limited use to any particular government, since what a nation '
-        'needs to know is whether its own rainfall will rise or fall, and '
-        'that is the part no current model delivers with confidence. '
-        'Planning would therefore have to proceed on a range of outcomes '
-        'rather than a prediction.',
+        'least predictable things in the field, and the harvest is '
+        'contingent on the rain rather than on the average.',
+        'That asymmetry has a direct consequence for how such an event would '
+        'be managed today. A reliable forecast of global cooling is of '
+        'limited use to any specific government, since what a nation needs '
+        'to know is whether its own rainfall will rise or fall, and that is '
+        'the part no current model delivers with confidence. Planning would '
+        'therefore have to proceed on a range of outcomes rather than a '
+        'prediction.',
         'There is a final observation that the record supports and that is '
         'rarely drawn. The deaths of 1816 and 1817 in Europe were caused by '
         'the price of grain rather than by its absence: there was food in '
@@ -189,10 +189,10 @@ PAPER = dict(
        paras=[
         'Before the late eighteenth century, a measure of length was a local '
         'institution. The foot, the ell and the aune varied between towns '
-        'and sometimes between trades within a town, and the variation was '
-        'not a failure of administration but a feature of it: a measure was '
-        'maintained by the authority that enforced contracts in a place, and '
-        'its value was part of what that authority was for.',
+        'and occasionally between trades within a town, and the variation '
+        'was not a failure of administration but a feature of it: a measure '
+        'was maintained by the authority that enforced contracts in a place, '
+        'and its value was part of what that authority was for.',
         'This arrangement had costs that fell unevenly. A merchant trading '
         'between two towns absorbed a conversion at every boundary, a '
         'manufacturer could not specify a part that would fit a mechanism '
@@ -202,16 +202,17 @@ PAPER = dict(
         'in 1789 are specific about the third of these.',
         'The commission appointed to replace the system had an unusual '
         'brief: to find a unit that no nation could claim as its own. A '
-        'measure derived from the length of a particular king’s arm, or '
-        'kept as a bar in a particular capital, would be accepted elsewhere '
-        'only under duress. The unit had to be derived from something '
-        'available to anybody who cared to measure it.',
+        'measure derived from the length of a specific king’s arm, or kept '
+        'as a bar in a specific capital, would be accepted elsewhere only '
+        'under duress. The unit had to be derived from something available '
+        'to anybody who cared to measure it.',
         'Two candidates were considered. The first was the length of a '
         'pendulum beating once a second, which was attractive because the '
-        'apparatus was simple and the experiment could be repeated '
-        'anywhere. It was rejected because the period of a pendulum depends '
-        'on local gravity, which varies with latitude and altitude, so the '
-        'definition would have required naming a place after all.',
+        'apparatus was straightforward and the experiment could be repeated '
+        'anywhere. It was rejected because the period of a pendulum is '
+        'contingent on local gravity, which varies with latitude and '
+        'altitude, so the definition would have required naming a place '
+        'after all.',
         'The second was a fraction of the Earth itself: one ten-millionth of '
         'the distance from the equator to the North Pole, measured along the '
         'meridian through Paris. This was adopted, and the choice of '
@@ -221,7 +222,7 @@ PAPER = dict(
         'The survey took seven years and is one of the more remarkable '
         'episodes in the history of measurement. Two astronomers, Delambre '
         'and Méchain, worked north and south from a point near Paris, '
-        'carrying out a chain of triangulations between hilltops, church '
+        'conducting a chain of triangulations between hilltops, church '
         'towers and purpose-built signal stations, through a country at war '
         'and in revolution. Both were arrested more than once by local '
         'authorities who took their instruments for something else.',
@@ -229,15 +230,15 @@ PAPER = dict(
         'in 1799, whose length was intended to embody the calculation. It '
         'did so imperfectly. The survey had assumed a value for the '
         'flattening of the Earth that was slightly wrong, and the bar is now '
-        'known to be about two tenths of a millimetre shorter than the '
-        'definition it was built to realise.',
+        'known to be approximately two tenths of a millimetre shorter than '
+        'the definition it was built to realise.',
         'The error is instructive rather than embarrassing, because of what '
-        'happened to the definition afterwards. The bar, not the Earth, '
+        'occurred to the definition afterwards. The bar, not the Earth, '
         'became the metre. Once the artefact existed and contracts referred '
         'to it, the question of whether it matched the meridian became a '
         'historical curiosity, and the formal definition was changed in 1889 '
         'to say so explicitly: the metre was the distance between two marks '
-        'on a particular bar.',
+        'on a specific bar.',
         'That move solved the problem of consistency and reintroduced the '
         'problem the commission had set out to avoid. A metre defined by an '
         'object is a metre held by whoever holds the object, and copies '
@@ -253,7 +254,7 @@ PAPER = dict(
         'The last of these has a consequence that is frequently '
         'misunderstood. Since 1983 the speed of light in vacuum is not a '
         'measured quantity but an exact number, and an experiment that '
-        'appeared to find a different value would be interpreted as a '
+        'appeared to find a distinct value would be interpreted as a '
         'measurement of length or time rather than of speed. This is not a '
         'trick: it is a choice about which quantity to treat as fixed, and '
         'the choice is justified by the fact that time can now be measured '
@@ -261,11 +262,11 @@ PAPER = dict(
         'Two centuries of this history support a general observation about '
         'standards. Each redefinition moved the metre away from an object '
         'that somebody owned and towards a procedure that anybody could '
-        'carry out, and at every stage the practical argument for the move '
-        'was precision while the political argument was access. The '
-        'commission of 1791 wanted a unit no nation could claim, and it '
-        'took a hundred and ninety-two years to get one, by which time '
-        'nobody involved in asking for it was alive to see it.'],
+        'conduct, and at every stage the practical argument for the move was '
+        'precision while the political argument was access. The commission '
+        'of 1791 wanted a unit no nation could claim, and it took a hundred '
+        'and ninety-two years to get one, by which time nobody involved in '
+        'asking for it was alive to see it.'],
        items=[
         ('Which paragraph explains why local variation in measures was not '
          'an administrative failure?',
@@ -341,9 +342,9 @@ PAPER = dict(
         'which therefore will not be provided by a market however much it is '
         'wanted. The light shines on the paying and the unpaying ship '
         'alike.',
-        'The argument has a clean structure and is worth stating in full, '
-        'because the subsequent dispute is about one of its steps rather '
-        'than its conclusion. A good from which non-payers cannot be '
+        'The argument has a clean structure and merits stating in full, '
+        'because the subsequent dispute is approximately one of its steps '
+        'rather than its conclusion. A good from which non-payers cannot be '
         'excluded generates no revenue for its provider; a provider with no '
         'revenue does not build; therefore the good is not built unless the '
         'state builds it or compels the payment. Each step appears to '
@@ -381,7 +382,7 @@ PAPER = dict(
         'is that the inference from non-excludability to public provision '
         'skips a step.',
         'The skipped step is the search for a bundle. Before concluding that '
-        'a good must be publicly provided, it is worth asking whether some '
+        'a good must be publicly provided, it merits asking whether some '
         'excludable good is reliably consumed alongside it, because a charge '
         'can then be attached to the second and the first provided out of '
         'the proceeds. Commercial radio bundles programmes with '
@@ -397,17 +398,17 @@ PAPER = dict(
         'lighthouse tolls were paid by ships entering British ports and '
         'enjoyed by every vessel in the sea lanes, including those sailing '
         'past without calling anywhere, so coastal traders subsidised '
-        'passing traffic. Charging at a chokepoint means charging the people '
-        'who pass through it rather than the people who benefit, and these '
-        'are different populations.',
+        'passing traffic. Charging at a chokepoint means charging the '
+        'individuals who pass through it rather than the individuals who '
+        'benefit, and these are different populations.',
         'There is a lesson here about examples rather than about '
         'lighthouses. The textbook case survived for decades because it was '
         'vivid, and was then attacked with a historical finding that was '
         'also vivid, and the exchange produced more heat than either '
         'position deserved. What the episode actually established was a '
         'refinement: non-excludability is a property of a good, and '
-        'provision depends on whether a charge can be attached to something '
-        'else.',
+        'provision is contingent on whether a charge can be attached to '
+        'something else.',
         'The refinement is more useful than either slogan and less '
         'quotable, which is a common fate. A student who learns that '
         'lighthouses prove markets can supply public goods has learnt '
@@ -416,11 +417,11 @@ PAPER = dict(
         'who learns to look for the bundle has learnt the thing the dispute '
         'was about.',
         'A final caution follows from the same material. The 1974 paper is '
-        'now cited far more often than it is read, and almost all of the '
-        'citations attribute to it a conclusion about markets which its '
+        'now cited far more frequently than it is read, and almost all of '
+        'the citations attribute to it a conclusion about markets which its '
         'author stated more carefully than his readers have. This is not '
-        'unusual and it is worth noticing: a paper that becomes an example '
-        'is read as the example, and the qualifications in it are the first '
+        'unusual and it merits noticing: a paper that becomes an example is '
+        'read as the example, and the qualifications in it are the first '
         'thing to be lost.'],
        items=[
         ('Which paragraph sets out the textbook argument step by step?',
