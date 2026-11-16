@@ -111,6 +111,9 @@ def speed_page(d, vol, cfg, units):
     d.page_break_section()
     d.partbar('How to measure it', 'Once a unit, on the cycle 4 passage',
               'reading')
+    # the worked example is set at this volume's own target speed, so the
+    # number a student anchors on is the one they are aiming at
+    _mid = int(round((lo + hi) / 2.0))
     d.items([
         'Time yourself reading the cycle 4 academic passage once, for '
         'meaning, without answering anything. Stop the clock at the last '
@@ -118,7 +121,8 @@ def speed_page(d, vol, cfg, units):
         'The word count is printed in the margin at the end of every '
         'passage in this book.',
         'Words a minute is the word count divided by the minutes taken. '
-        'Seven hundred words in five minutes is 700 \u00f7 5 = 140 wpm.',
+        '%d words in five minutes is %d \u00f7 5 = %d wpm.'
+        % (_mid * 5, _mid * 5, _mid),
         'Write the number in the table below and plot it on the chart. One '
         'point a unit, ten points by the end of the volume.'])
     d.table(['Unit', 'Words', 'Minutes', 'Words a minute'],
