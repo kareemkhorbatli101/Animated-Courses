@@ -57,6 +57,25 @@ def stem(w):
     return out
 
 
+def expand(words):
+    """A taught word covers its own family.
+
+    known() stems the word it is asked about, which catches a taught
+    "farm" against a passage's "farms". It does not catch the other
+    direction: the ledger keeps whichever form of a family is commonest
+    in Volume 1, and that is often the plural, so a taught "eggs" has to
+    cover a passage's "egg" too.
+    """
+    out = set()
+    for w in words:
+        w = w.lower()
+        out.add(w)
+        out.update(stem(w))
+        for suf in ('s', 'es', 'ed', 'ing', 'er', 'ers'):
+            out.add(w + suf)
+    return out
+
+
 def known(w, R, extra, k=1000):
     """Would a reader who knows the first k ranks plus `extra` know this?"""
     for f in stem(w):
@@ -105,22 +124,54 @@ def volume_text(rng):
 
 def gap(rng=range(1, 11), k=1000):
     """The types in those units that a k-word reader does not know and
-    that no book in the series teaches, commonest first."""
+    that no book in the series teaches, commonest first.
+
+    Proper nouns are not vocabulary. A place or a person's name carries
+    no meaning to teach and no transfer to the next passage, so a type
+    that is capitalised almost everywhere it appears is dropped: the
+    first allocation otherwise sent "india" to a Foundation 1 cycle as
+    one of its fourteen words to learn.
+    """
     R = P.ranks()
-    spoken = set(taught())
+    spoken = expand(set(taught()))
     seen = {}
+    caps = {}
     for para in volume_text(rng):
-        for w in WORD.findall(para.lower()):
+        # a word after a full stop or at the start is capitalised by
+        # grammar rather than by being a name, so it does not count
+        starts = set()
+        for m in re.finditer(r'(?:^|[.!?’"]\s+|\s[—-]\s)([A-Za-z])',
+                             para):
+            starts.add(m.start(1))
+        for m in WORD.finditer(para):
+            w = m.group(0).lower()
             seen[w] = seen.get(w, 0) + 1
+            if m.group(0)[0].isupper() and m.start() not in starts:
+                caps[w] = caps.get(w, 0) + 1
     out = []
     for w, n in seen.items():
         if len(w) < 3 or known(w, R, spoken, k):
+            continue
+        if caps.get(w, 0) >= 0.6 * n:
             continue
         if any(f in spoken for f in stem(w)):
             continue
         out.append((n, R.get(w, 99999), w))
     out.sort(key=lambda t: (-t[0], t[1], t[2]))
-    return out
+    # One entry a stem family. The first allocation gave a Foundation 1
+    # cycle "farm", "farms", "farmer" and "farming" as four of its
+    # fourteen words to learn, which is three wasted slots and one
+    # insulting lesson. known() already counts a reader who has the
+    # commonest form as having the rest, so the rest are not the gap.
+    fam, keep = {}, []
+    for n, r, w in out:
+        hit = next((f for f in sorted(stem(w), key=len) if f in fam), None)
+        if hit is None:
+            for f in stem(w):
+                fam.setdefault(f, w)
+            fam[w] = w
+            keep.append((n, r, w))
+    return keep
 
 
 def main(argv):

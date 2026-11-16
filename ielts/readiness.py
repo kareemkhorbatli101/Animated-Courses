@@ -23,8 +23,15 @@ WORST = 20          # and no single passage may be hopeless
 
 
 def foundation_heads():
-    """Every head word the two Foundation books teach."""
-    return set(LG.taught(range(61, 81)))
+    """What the leaver knows beyond the first thousand families.
+
+    The two Foundation books' head words, and Volume 1's own four
+    hundred. Volume 1 teaches those four hundred inside the cycle whose
+    texts use them, so meeting one there is the lesson rather than a
+    barrier; counting them as unknown would measure the wrong thing.
+    """
+    return LG.expand(set(LG.taught(range(61, 81)))
+                     | set(LG.taught(range(1, 11))))
 
 
 def passages(rng=range(1, 11), bands=('acad',)):
@@ -41,15 +48,25 @@ def passages(rng=range(1, 11), bands=('acad',)):
 
 
 def unknown_types(paras, R, kn):
-    seen = set()
+    """Types the leaver has not met. Proper nouns are not counted, for
+    the reason ledger.gap gives: a name is not vocabulary, and no amount
+    of teaching would have covered this passage's particular town."""
+    seen, caps, n = set(), {}, {}
     for p in paras:
-        for w in LG.WORD.findall(p.lower()):
+        starts = set()
+        for m in __import__('re').finditer(
+                r'(?:^|[.!?\u2019"]\s+|\s[\u2014-]\s)([A-Za-z])', p):
+            starts.add(m.start(1))
+        for m in LG.WORD.finditer(p):
+            w = m.group(0).lower()
             if len(w) < 3:
                 continue
-            if LG.known(w, R, kn):
-                continue
-            seen.add(w)
-    return seen
+            n[w] = n.get(w, 0) + 1
+            if m.group(0)[0].isupper() and m.start() not in starts:
+                caps[w] = caps.get(w, 0) + 1
+            if not LG.known(w, R, kn):
+                seen.add(w)
+    return {w for w in seen if caps.get(w, 0) < 0.6 * n[w]}
 
 
 def main(argv):
