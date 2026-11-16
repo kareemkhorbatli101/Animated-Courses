@@ -1290,7 +1290,7 @@ UNIT = dict(
           'the experts share a convention, the convention has no further '
           'justification, and the residue is prejudice with a long training '
           'behind it. This interpretation is held by very few individuals '
-          'who have worked closely with experts and by a numerous who have '
+          'who have worked closely with experts and by numerous practitioners who have '
           'not, which is suggestive without being decisive. Familiarity '
           'breeds both insight and investment, and the distribution of a '
           'belief among those who know a subject best is evidence of '

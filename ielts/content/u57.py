@@ -1286,7 +1286,7 @@ UNIT = dict(
           'could be dissolved by stipulating a meaning and moving on. The '
           'complaint is occasionally correct, and the interesting question '
           'is how to tell when it is. Treating the complaint as generally '
-          'true is itself a substantive position about a numerous disputes, '
+          'true is itself a substantive position about numerous disputes, '
           'adopted without examining any of them.',
           'The clearest test is whether anything turns on the answer. If two '
           'parties agree on every fact about a settlement, and differ only '
