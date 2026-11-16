@@ -911,10 +911,10 @@ UNIT = dict(
           'steadily for forty years, across countries with very different '
           'political systems, levels of wealth and standards of public '
           'administration. A phenomenon that general is unlikely to be '
-          'explained by incompetence in any particular place, and the '
-          'explanations that survive comparison are all structural. Four '
-          'of them recur, they reinforce one another, and none of them '
-          'requires anybody involved to be careless or dishonest.',
+          'explained by incompetence in any specific place, and the '
+          'explanations that survive comparison are all structural. Four of '
+          'them recur, they reinforce one another, and none of them requires '
+          'anybody involved to be careless or dishonest.',
           'The first is the shape of deterioration itself. Assets hold '
           'condition for a long period and then lose it quickly, which '
           'means that the cost of inaction is negligible for years and then '
@@ -1228,10 +1228,10 @@ UNIT = dict(
           'long enough for the results to be assessed. All three rules are '
           'still formally in force. None of them is producing the effect it '
           'was enacted for, and the three failed in three different ways, '
-          'which is more instructive than a single failure would have '
-          'been. Each failure mode is generic to a form of rule rather '
-          'than particular to a drafter, which is the finding that matters '
-          'for anybody designing a fourth attempt.',
+          'which is more instructive than a single failure would have been. '
+          'Each failure mode is generic to a form of rule rather than '
+          'specific to a drafter, which is the finding that matters for '
+          'anybody designing a fourth attempt.',
           'The first set a minimum proportion of the transport budget to be '
           'spent on maintenance: not less than forty per cent, measured '
           'annually, with a report to the legislature. Compliance has been '
@@ -1299,7 +1299,7 @@ UNIT = dict(
           'appears.',
           'That is not a general argument for transparency over regulation, '
           'and it would be wrong to read it as one. It is an argument about '
-          'a particular kind of problem: where the behaviour is driven by '
+          'a specific kind of problem: where the behaviour is driven by '
           'invisibility rather than by preference, the effective rule is the '
           'one that removes the invisibility, and where it is driven by '
           'preference or by shortage, information changes nothing and only '

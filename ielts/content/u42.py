@@ -923,7 +923,7 @@ UNIT = dict(
          band='acad', qtype='Questions 45-52',
          paras=[
           'The complaint that regulation always lags behind technology is '
-          'usually offered as an observation about speed and is better '
+          'ordinarily offered as an observation about speed and is better '
           'understood as a statement about a trade-off that has no good '
           'resolution. Rules can be written in two registers, each of which '
           'fails in a characteristic way, and the lag is produced by '
@@ -940,7 +940,7 @@ UNIT = dict(
           'enforcement everywhere is done by such rules.',
           'Its characteristic failure is obsolescence with evasion. A rule '
           'precise enough to enforce is specific enough to go round, and the '
-          'going round is usually lawful. A device redesigned so that the '
+          'going round is ordinarily lawful. A device redesigned so that the '
           'named component is absent complies with the rule and presents the '
           'identical risk, and the regulator must then write a second rule '
           'naming the new arrangement, which is the activity that looks from '
@@ -1010,7 +1010,7 @@ UNIT = dict(
           'second. The two are not merely different; they are almost '
           'opposite, since a well-staffed agency that still cannot enact '
           'anything will produce longer delays and better-drafted rules, '
-          'which is exactly what the record shows.',
+          'which is exactly what the record demonstrates.',
           'None of this means the lag is costless or that the trade-off '
           'should be accepted as given. It means that proposals to fix it by '
           'exhortation — regulators should be more agile, should think '
@@ -1264,11 +1264,10 @@ UNIT = dict(
           'reaction that did not occur. A harm produced by the precaution '
           'consists of things that did not happen — the treatment not '
           'approved, the housing not built, the alternative not developed — '
-          'and the people who suffer it cannot usually be identified even '
-          'afterwards. This is not a subtle point and it is '
-          'systematically missing from the documents in which such '
-          'decisions are recorded, which count one column and leave the '
-          'other blank.',
+          'and the people who suffer it cannot ordinarily be identified even '
+          'afterwards. This is not a subtle point and it is systematically '
+          'missing from the documents in which such decisions are recorded, '
+          'which count one column and leave the other blank.',
           'The clearest documented cases come from pharmaceutical '
           'regulation, where both sides of the ledger have occasionally been '
           'quantified. A regulator that delays approval of an effective '
@@ -1280,7 +1279,7 @@ UNIT = dict(
           'commensurable in principle and are never placed side by side in '
           'practice, which is the condition under which an asymmetry '
           'becomes a bias.',
-          'The incentives this creates are entirely one-directional and are '
+          'The incentives this creates are wholly one-directional and are '
           'not disputed by anybody inside the system. An official who '
           'approves too slowly faces no consequence that attaches to them '
           'personally; an official who approves too quickly may lose their '
@@ -1331,12 +1330,12 @@ UNIT = dict(
           'review date and a named condition for lifting them. A precaution '
           'adopted under uncertainty and never revisited becomes a permanent '
           'prohibition justified by an uncertainty that may have been '
-          'resolved a decade ago, and the record shows this happening more '
-          'often than any regulator claims and less often than any critic '
-          'asserts. The review date is the cheaper of the two measures by '
-          'a wide margin and is the one more often refused, for a reason '
-          'that is rarely stated in public and is not difficult to '
-          'reconstruct.',
+          'resolved a decade ago, and the record demonstrates this happening '
+          'more frequently than any regulator claims and less frequently '
+          'than any critic asserts. The review date is the cheaper of the '
+          'two measures by a wide margin and is the one more frequently '
+          'refused, for a reason that is rarely stated in public and is not '
+          'difficult to reconstruct.',
           'The honest summary is that precaution is a policy about which '
           'error to risk, and that a system which treats one error as a '
           'scandal and the other as an absence will make the same choice '

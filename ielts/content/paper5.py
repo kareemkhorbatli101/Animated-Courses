@@ -58,7 +58,7 @@ PAPER = dict(
         'found that his cost per tonne loaded fell by a factor of '
         'thirty-six. The saving was real and it was also unrepeatable by '
         'anybody else, because his boxes fitted only his equipment.',
-        'What followed was a decade of committee work which is usually '
+        'What followed was a decade of committee work which is ordinarily '
         'omitted from the story and is the part that mattered. Between 1958 '
         'and 1970, national standards bodies, shipping lines, railway '
         'companies and the United States military argued about lengths, '
@@ -83,19 +83,19 @@ PAPER = dict(
         'whole industrial regions in Europe and North America lost their '
         'reason for existing in the space of twenty years.',
         'The effect on ports themselves was more abrupt still and is less '
-        'often discussed. Container handling requires deep water, enormous '
-        'flat land for stacking, and road and rail access, and almost no '
-        'traditional port had any of the three. The great nineteenth-century '
-        'docks of London, Liverpool, New York and Hamburg were in the wrong '
-        'place by the standards of the new trade, and the business moved to '
-        'sites which had often been of no commercial significance '
-        'whatever.',
+        'frequently discussed. Container handling requires deep water, '
+        'enormous flat land for stacking, and road and rail access, and '
+        'almost no traditional port had any of the three. The great '
+        'nineteenth-century docks of London, Liverpool, New York and Hamburg '
+        'were in the wrong place by the standards of the new trade, and the '
+        'business moved to sites which had frequently been of no commercial '
+        'significance whatever.',
         'Employment fell in a way that no retraining programme could '
-        'address. The port of London employed about fifty thousand dockers '
-        'in 1960 and a few thousand by 1980, and the work that remained '
-        'required operating a crane rather than stowing a hold. The skill '
-        'that had been accumulated over generations — knowing how a '
-        'particular cargo behaved in a swell — had no application to a box '
+        'address. The port of London employed approximately fifty thousand '
+        'dockers in 1960 and a few thousand by 1980, and the work that '
+        'remained required operating a crane rather than stowing a hold. The '
+        'skill that had been accumulated over generations — knowing how a '
+        'specific cargo behaved in a swell — had no application to a box '
         'whose contents the handler never saw.',
         'Historians of the subject disagree about how much of this to '
         'attribute to the container itself. One line of argument treats the '
@@ -191,7 +191,7 @@ PAPER = dict(
         'in texts the decipherer has never seen, or they do not. This makes '
         'the history of the subject unusually instructive, because the '
         'failures are as well documented as the successes and the two look '
-        'remarkably similar from the inside.',
+        'remarkably comparable from the inside.',
         'The problem has three variables and the difficulty of any case '
         'depends on how many are unknown. The script may be known or '
         'unknown; the language may be known or unknown; and a bilingual text '
@@ -202,10 +202,10 @@ PAPER = dict(
         'Where the language is unknown, the standard method is to work on '
         'the structure of the script before attempting any sound values at '
         'all. The number of distinct signs is the first diagnostic. Fewer '
-        'than about forty signs indicates an alphabet; between roughly fifty '
-        'and a hundred and twenty indicates a syllabary, in which each sign '
-        'is a consonant and vowel together; several hundred or more '
-        'indicates that signs stand for whole words or concepts.',
+        'than approximately forty signs indicates an alphabet; between '
+        'roughly fifty and a hundred and twenty indicates a syllabary, in '
+        'which each sign is a consonant and vowel together; several hundred '
+        'or more indicates that signs stand for whole words or concepts.',
         'The second step is positional analysis, which requires no '
         'hypothesis about sound whatsoever. One tabulates which signs occur '
         'at the beginning of words, which at the end, which never occur '
@@ -217,37 +217,38 @@ PAPER = dict(
         'Crete and mainland Greece. Alice Kober, working in the 1940s with '
         'no computer and index cards cut from the backs of cigarette '
         'cartons, identified triplets of words which differed only in their '
-        'final signs, and showed that the variation was systematic. She drew '
-        'no conclusion about what language it was. She established that it '
-        'was inflected and that certain signs must share a consonant or a '
-        'vowel.',
+        'final signs, and demonstrated that the variation was systematic. '
+        'She drew no conclusion about what language it was. She established '
+        'that it was inflected and that certain signs must share a consonant '
+        'or a vowel.',
         'Michael Ventris completed the work in 1952 by adding a guess that '
         'Kober had deliberately refused to make. He assumed that certain '
-        'frequently occurring words, found only on tablets from particular '
+        'frequently occurring words, found only on tablets from specific '
         'sites, were place names, and that the language might be an early '
         'form of Greek — a proposal he had himself rejected in print a few '
         'years earlier as implausible. The place names gave him sound values '
         'and the sound values produced Greek words elsewhere.',
         'The verification is the part that matters and is the part most '
-        'often skipped in popular accounts. A decipherment is not confirmed '
-        'by the texts used to produce it, which is circular, but by texts '
-        'read afterwards. In 1953 a tablet excavated at Pylos was published '
-        'carrying a list of vessels; Ventris’s values read it as words for '
-        'tripod and cup, in the numbers the accompanying pictograms showed. '
-        'Nobody who understood the argument doubted it after that.',
+        'frequently skipped in popular accounts. A decipherment is not '
+        'confirmed by the texts used to produce it, which is circular, but '
+        'by texts read afterwards. In 1953 a tablet excavated at Pylos was '
+        'published carrying a list of vessels; Ventris’s values read it as '
+        'words for tripod and cup, in the numbers the accompanying '
+        'pictograms demonstrated. Nobody who understood the argument doubted '
+        'it after that.',
         'Against this, the long list of failures repays study. Many proposed '
         'decipherments are internally consistent, produce plausible readings '
         'of the texts their author worked on, and collapse immediately on '
         'new material. The reason is a structural feature of the problem: a '
-        'system with enough free parameters can be fitted to any finite '
-        'body of text, and an undeciphered corpus is always finite and '
-        'usually small.',
+        'system with enough free parameters can be fitted to any finite body '
+        'of text, and an undeciphered corpus is always finite and ordinarily '
+        'small.',
         'This is why the field has converged on a methodological rule which '
         'is unusual in the humanities. A decipherer should state the '
         'predictions their system makes about material not yet read, before '
-        'that material is read. The rule is honoured less often than it is '
-        'stated, and the cases where it has been honoured are almost exactly '
-        'the cases now accepted.',
+        'that material is read. The rule is honoured less frequently than it '
+        'is stated, and the cases where it has been honoured are almost '
+        'exactly the cases now accepted.',
         'Several major scripts remain unread and the reasons differ in ways '
         'that are themselves informative. The Indus script resists because '
         'its texts are mostly four or five signs long, which provides almost '
@@ -256,9 +257,9 @@ PAPER = dict(
         'aloud, since many of its signs are shared with Linear B, and the '
         'resulting words are in no language anybody recognises.',
         'That last case is worth dwelling on because it separates two things '
-        'usually run together. Being able to pronounce a text is not the '
+        'ordinarily run together. Being able to pronounce a text is not the '
         'same as understanding it, and a script can be solved while its '
-        'language remains entirely unknown. Linear A is, in the technical '
+        'language remains wholly unknown. Linear A is, in the technical '
         'sense, partly deciphered and wholly untranslated, a combination '
         'which the ordinary word decipherment conceals.',
         'What the history suggests about method is modest and transferable. '
@@ -352,19 +353,18 @@ PAPER = dict(
         'behave badly, and is the leading explanation.',
         'The third is selective reporting, which lies between the other two '
         'in culpability and may exceed both in importance. A researcher who '
-        'measures six outcomes and reports the one that reached '
-        'significance has not invented anything, has not run an '
-        'underpowered study, and has nonetheless published a finding that '
-        'will not replicate. Surveys in which researchers were asked '
-        'anonymously about their own practice found this to be '
-        'near-universal before about 2012.',
+        'measures six outcomes and reports the one that reached significance '
+        'has not invented anything, has not run an underpowered study, and '
+        'has nonetheless published a finding that will not replicate. '
+        'Surveys in which researchers were asked anonymously about their own '
+        'practice found this to be near-universal before approximately 2012.',
         'The fourth meaning is the interesting one and is almost never '
         'separated from the others: that the effect is real, the original '
         'study was sound, and the replication failed because the effect '
         'depends on conditions the replication did not reproduce. This is a '
         'genuine possibility and it is also the explanation that cannot be '
         'distinguished from failure without further work, which makes it '
-        'both important and rhetorically dangerous.',
+        'both significant and rhetorically dangerous.',
         'It is rhetorically dangerous because it is unfalsifiable as '
         'ordinarily deployed. An author whose finding has not replicated can '
         'always propose that some unmeasured feature of the original setting '
@@ -388,13 +388,13 @@ PAPER = dict(
         'convention in most journals, defended on the grounds that no '
         'agreed alternative exists.',
         'There is a further complication which the public discussion has '
-        'almost entirely missed. The replication projects examined '
-        'psychology because psychology permitted them to: its studies are '
-        'cheap, its data are shareable and its community organised the '
-        'audit of itself. Fields with more expensive experiments, more '
-        'restricted data or weaker norms of sharing have not been audited at '
-        'anything like the same rate, and the inference that they are '
-        'therefore sounder is unavailable.',
+        'almost wholly missed. The replication projects examined psychology '
+        'because psychology permitted them to: its studies are cheap, its '
+        'data are shareable and its community organised the audit of itself. '
+        'Fields with more expensive experiments, more restricted data or '
+        'weaker norms of sharing have not been audited at anything like the '
+        'same rate, and the inference that they are therefore sounder is '
+        'unavailable.',
         'This produces an uncomfortable asymmetry in reputation. A field '
         'that investigates itself and publishes the result acquires a '
         'reputation for unreliability, while a field that does not '

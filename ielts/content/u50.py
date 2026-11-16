@@ -914,13 +914,14 @@ UNIT = dict(
          task='Matching headings, Yes/No/Not Given and summary completion',
          band='acad', qtype='Questions 45-52',
          paras=[
-          'The idea that two sentences in different languages can mean the '
-          'same thing is so ordinary that it is startling to find how hard '
-          'it is to state precisely. Translation depends on it, teaching '
-          'depends on it, and every machine evaluation score presupposes it. '
-          'Four decades of attempts to define it have produced a succession '
-          'of definitions, each of which works for a class of cases and '
-          'fails for the class the previous one handled.',
+          'The notion that two sentences in different languages can mean the '
+          'same thing is so commonplace that it is startling to discover how '
+          'intractable it is to formulate precisely. Translation depends '
+          'upon it, pedagogy depends upon it, and every machine evaluation '
+          'score presupposes it. Four decades of attempts at a definition '
+          'have yielded a succession of formulations, each of which succeeds '
+          'for one class of cases and collapses for the class its '
+          'predecessor handled.',
           'The simplest definition is referential. Two sentences are '
           'equivalent if they are true in exactly the same circumstances. '
           'This is precise, testable in principle, and immediately too weak '
@@ -955,20 +956,21 @@ UNIT = dict(
           'definition cannot be applied until somebody states what the text '
           'is for, and that statement is not itself a matter of '
           'translation.',
-          'A fourth position, held by a minority and worth more attention '
-          'than it gets, is that the question is malformed. On this view '
-          'there is no single relation of equivalence, only a family of '
-          'partial relations — same reference, same connotation, same '
-          'register, same function, same sound — which coincide in easy '
-          'cases and come apart in exactly the cases anybody argues about.',
+          'A fourth position, held by a minority and deserving more '
+          'attention than it receives, is that the question is malformed. On '
+          'this view there exists no single relation of equivalence, merely '
+          'a family of partial relations — identical reference, identical '
+          'connotation, identical register, identical function, identical '
+          'sound — which coincide in straightforward cases and diverge in '
+          'precisely the cases anybody disputes.',
           'The practical consequence of the fourth position is unexpectedly '
           'concrete. If equivalence is a family, then asking whether a '
           'translation is equivalent is unanswerable, and asking which of '
           'the five relations it preserves is answerable, cheap and useful. '
           'Every real dispute between translators that has been examined in '
           'detail turns out to be a disagreement about which relation '
-          'matters for a particular text. That is a reframing rather than '
-          'a solution, and it has the merit of turning an unanswerable '
+          'matters for a specific text. That is a reframing rather than a '
+          'solution, and it has the merit of turning an unanswerable '
           'question into a list of answerable ones.',
           'Evaluation practice has moved in this direction without saying '
           'so. Machine translation is now scored on two separate measures '
@@ -980,26 +982,27 @@ UNIT = dict(
           'mark was replaced by criteria for reasons that are formally '
           'identical and were never described as philosophical.',
           'There is one objection to the fourth position that its holders '
-          'should answer and usually do not. If equivalence is only a '
+          'should answer and ordinarily do not. If equivalence is only a '
           'family of relations, it is unclear what a translation is a '
           'translation of, and the ordinary notion that two texts say the '
-          'same thing is left with nothing behind it. Most people, '
-          'including most translators, do not experience the relation as '
-          'fragmented. They experience reading a translation as reading the '
-          'book, and a theory that denies them a single object is owed an '
-          'account of why the illusion is so complete.',
+          'same thing is left with nothing behind it. Most people, including '
+          'most translators, do not experience the relation as fragmented. '
+          'They experience reading a translation as reading the book, and a '
+          'theory that denies them a single object is owed an account of why '
+          'the illusion is so complete.',
           'The available answer is that the ordinary notion survives as a '
           'useful approximation for easy cases, in the way that ordinary '
           'talk of weight survives the distinction between mass and force. '
           'That is a respectable answer, and it is less satisfying than the '
-          'experience it is explaining, which is usually a sign that there '
-          'is more work to do.',
+          'experience it is explaining, which is ordinarily a sign that '
+          'there is more work to do.',
           'What follows for anybody actually translating is modest and '
-          'immediately usable. Decide which relations matter for the text in '
-          'front of you, in writing, before you begin. Expect to preserve '
-          'three of the five and choose which three on purpose. And when '
-          'somebody asks whether the result is faithful, answer the question '
-          'they should have asked, which is faithful in which respect.'],
+          'immediately serviceable. Determine which relations matter for the '
+          'text in front of you, in writing, before commencing. Anticipate '
+          'preserving three of the five and select which three deliberately. '
+          'And when somebody enquires whether the result is faithful, answer '
+          'the question they ought to have asked, which is faithful in which '
+          'respect.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The referential definition', 'Connotation',
@@ -1231,20 +1234,21 @@ UNIT = dict(
          task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 59-66',
          paras=[
-          'A short novel published in 1961 has been translated into English '
+          'A short novel published in 1961 has been rendered into English '
           'three times, in 1968, in 1994 and in 2019. All three translators '
-          'have written about their choices, all three are accomplished, and '
-          'the three versions disagree about almost every sentence. The case '
-          'is useful precisely because none of the three can be dismissed, '
-          'which forecloses the usual way such arguments end.',
+          'have written about their choices, all three are accomplished '
+          'practitioners, and the three versions diverge on almost every '
+          'sentence. The instance is instructive precisely because none of '
+          'the three can be dismissed, which forecloses the customary manner '
+          'in which such arguments terminate.',
           'The 1968 version follows the original sentence by sentence. Its '
-          'word order is often strange in English, its idioms are rendered '
-          'literally with footnotes, and the reader is never allowed to '
-          'forget that the book was written elsewhere. Its translator '
-          'defended this as a refusal to flatter: an English reader who '
-          'wants an English novel can read one. The version has been out '
-          'of print twice and brought back twice, which is itself a fact '
-          'about who buys translated fiction.',
+          'word order is frequently strange in English, its idioms are '
+          'rendered literally with footnotes, and the reader is never '
+          'allowed to forget that the book was written elsewhere. Its '
+          'translator defended this as a refusal to flatter: an English '
+          'reader who wants an English novel can read one. The version has '
+          'been out of print twice and brought back twice, which is itself a '
+          'fact about who buys translated fiction.',
           'The 1994 version reads as if written in English. Idioms are '
           'replaced with English idioms, two paragraphs of local political '
           'detail are compressed into one sentence, and a running joke about '
@@ -1262,26 +1266,27 @@ UNIT = dict(
           'tedium and that its rhythm is therefore its argument, so that a '
           'version which varies the sentence length to read pleasantly has '
           'translated a book about tedium into a different book.',
-          'Readers divide in a pattern that is itself informative. Those who '
-          'know the original language overwhelmingly prefer the 2019 '
-          'version. Those reading the book for the first time '
+          'Readers divide along a pattern that is itself informative. Those '
+          'acquainted with the original language overwhelmingly prefer the '
+          '2019 version. Those encountering the book for the first time '
           'overwhelmingly prefer 1994. Critics writing for literary reviews '
           'prefer 1968, and the three preferences correlate almost perfectly '
-          'with what each group is in a position to check.',
-          'That correlation is the most important fact in the case and it is '
-          'rarely stated. Each group prefers the version that is best by the '
-          'standard it can apply. A reader with the original can hear the '
-          'rhythm. A first-time reader can only experience the effect. A '
+          'with whatever each constituency is positioned to verify.',
+          'That correlation is the most significant fact in the case and it '
+          'is rarely stated. Each group prefers the version that is best by '
+          'the standard it can apply. A reader with the original can hear '
+          'the rhythm. A first-time reader can only experience the effect. A '
           'critic can compare sentences, which is what literal fidelity '
           'optimises for. Nobody in any of the three groups is applying a '
-          'standard they chose; each is applying the only standard '
-          'available from where they stand.',
-          'What the case shows is not that judgement is impossible but that '
-          'it is impossible without a stated standard. "Better" is '
-          'incomplete in the way that "faster" would be incomplete without '
-          'saying over what distance. The three versions are not three '
-          'attempts at one thing of differing quality; they are three '
-          'different things, each close to excellent by its own measure.',
+          'standard they chose; each is applying the only standard available '
+          'from where they stand.',
+          'What the instance demonstrates is not that judgement is '
+          'impossible but that it is impossible in the absence of a stated '
+          'standard. "Better" is incomplete in the manner that "faster" '
+          'would be incomplete without specifying over what distance. The '
+          'three versions are not three attempts at one undertaking of '
+          'differing quality; they are three distinct undertakings, each '
+          'approaching excellence by its own criterion.',
           'A sceptical conclusion is sometimes drawn from this and it does '
           'not follow. If judgement requires a standard, it does not follow '
           'that all standards are equal or that any text may be judged by '
@@ -1299,7 +1304,7 @@ UNIT = dict(
           'of one standard against the appropriateness of another.',
           'Applied to the three versions, the two-stage test gives a result '
           'that satisfies nobody and is probably right. All three standards '
-          'are defensible for this particular novel, because it is '
+          'are defensible for this specific novel, because it is '
           'simultaneously foreign, funny and about tedium. All three '
           'versions meet their chosen standard well. The honest verdict is '
           'that there are three good translations of this book and a reader '

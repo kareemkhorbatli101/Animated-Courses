@@ -894,11 +894,11 @@ UNIT = dict(
           'its buildings, its machinery and its stock. The accounts do not '
           'record the condition of the soil, which is the asset that '
           'produces the income the accounts exist to measure. This is not an '
-          'oversight by any particular farmer; it is a property of the '
+          'oversight by any specific farmer; it is a property of the '
           'accounting conventions used everywhere, and it has consequences '
-          'that are visible in the behaviour of the industry. The '
-          'convention is not arbitrary either: it records what was bought '
-          'and what was sold, and a soil was neither.',
+          'that are visible in the behaviour of the industry. The convention '
+          'is not arbitrary either: it records what was bought and what was '
+          'sold, and a soil was neither.',
           'The structure of the problem is a distinction between income and '
           'capital. A harvest is income: it is produced in a year, sold in '
           'that year and recorded in that year. The soil is capital: it took '
@@ -919,14 +919,14 @@ UNIT = dict(
           'are not published, which suggests the calculation is possible '
           'and that the obstacle is disclosure rather than arithmetic.',
           'The consequence is that two farms with identical accounts may be '
-          'in entirely different positions. One has maintained its soil and '
+          'in wholly different positions. One has maintained its soil and '
           'earned its profit; the other has produced the same profit by '
           'drawing down an asset that will have to be rebuilt over decades '
-          'or replaced by purchased inputs for ever. A buyer, a lender and '
-          'a tax authority all see the same figures. The difference '
-          'becomes visible only when the second farm needs to buy the '
-          'fertility back, at which point it appears as an unusually large '
-          'input bill with no explanation attached.',
+          'or replaced by purchased inputs for ever. A buyer, a lender and a '
+          'tax authority all see the same figures. The difference becomes '
+          'visible only when the second farm needs to buy the fertility '
+          'back, at which point it appears as an unusually large input bill '
+          'with no explanation attached.',
           'Tenancy sharpens this into something close to a designed '
           'incentive. A tenant who rebuilds organic matter over four years '
           'confers the benefit on the landowner and bears the cost '
@@ -943,9 +943,9 @@ UNIT = dict(
           'as income or loss, bringing the soil onto the balance sheet in '
           'the way the combine already is. The arguments for it are '
           'straightforward and the arguments against it are more interesting '
-          'than its advocates usually allow. Three of them recur, and the '
-          'third is the one that has actually stopped the reform rather '
-          'than merely delayed it.',
+          'than its advocates ordinarily allow. Three of them recur, and the '
+          'third is the one that has actually stopped the reform rather than '
+          'merely delayed it.',
           'The first difficulty is valuation. A soil has no market price '
           'separable from the land it is part of, and valuations are '
           'therefore constructed from an estimate of future output, which '
@@ -972,7 +972,7 @@ UNIT = dict(
           'than a monetary value; require it at the start and end of a '
           'tenancy, where the incentive problem is sharpest and the cost is '
           'justified by the transaction; and leave it off the balance sheet '
-          'entirely, which addresses the third objection by declining to '
+          'wholly, which addresses the third objection by declining to '
           'create the asset.'],
          items=[
           ('Choose the best heading for paragraph 3.',
@@ -1223,14 +1223,14 @@ UNIT = dict(
           'not fraud but noise: organic matter varies by more within a '
           'single field than the scheme was paying for between years, and '
           'the sampling density required to detect the change cost more than '
-          'the payment. Nothing about that was foreseeable from the '
-          'design documents, and it was entirely foreseeable from a day '
-          'in a field with an auger.',
+          'the payment. Nothing about that was foreseeable from the design '
+          'documents, and it was wholly foreseeable from a day in a field '
+          'with an auger.',
           'The scheme’s designers had anticipated this and specified a '
           'sampling protocol that would have worked. It was reduced twice '
           'during implementation on cost grounds, each reduction defensible '
           'on its own, and the final protocol could not distinguish a real '
-          'improvement from a sampling artefact in about half of '
+          'improvement from a sampling artefact in approximately half of '
           'participating fields. The sequence is worth noting for its own '
           'sake: a sound design degraded by a series of defensible cost '
           'reductions into one that could not do its job.',
@@ -1243,7 +1243,7 @@ UNIT = dict(
           'creating additional habitat. The remaining seventy-seven per '
           'cent was additional and is the largest verified gain any such '
           'scheme has produced.',
-          'That finding is usually reported as gaming and the term is '
+          'That finding is ordinarily reported as gaming and the term is '
           'misleading. The farms did what the payment asked: the index rose '
           'and the surveyor measured it correctly. What failed was the '
           'assumption that an index measured at defined points would behave '
