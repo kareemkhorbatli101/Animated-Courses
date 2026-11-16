@@ -4,61 +4,85 @@
    "birds",
    "responsibility",
    "loose",
-   "safety"
-  ],
-  [
+   "safety",
    "boring",
    "tall",
-   "dust",
-   "rice"
+   "dust"
   ],
   [
+   "rice",
    "cow",
    "eaten",
    "thrown",
-   "sink"
-  ],
-  [
+   "sink",
    "beneath",
-   "increase",
-   "furniture",
-   "profit"
+   "increase"
   ],
   [
+   "furniture",
+   "profit",
    "barn",
    "adopted",
-   "growth"
+   "growth",
+   "carbon",
+   "reliable"
+  ],
+  [
+   "depth",
+   "laboratory",
+   "deliberately",
+   "grain",
+   "wheat",
+   "virtue",
+   "crop"
+  ],
+  [
+   "flock",
+   "grams",
+   "carrots",
+   "weighs",
+   "stem",
+   "daytime"
   ]
  ],
  "62": [
   [
    "detail",
-   "urgent"
-  ],
-  [
+   "urgent",
    "crisis",
-   "construction"
+   "construction",
+   "beside"
   ],
   [
-   "beside",
-   "relief"
-  ],
-  [
+   "relief",
    "structure",
-   "eastern"
+   "eastern",
+   "primary"
   ],
   [
-   "primary",
-   "elected"
+   "elected",
+   "labour",
+   "opposed",
+   "railway"
+  ],
+  [
+   "batteries",
+   "views",
+   "poisonous",
+   "obtain"
+  ],
+  [
+   "pets",
+   "bricks",
+   "restricted",
+   "organised"
   ]
  ],
  "63": [
   [
    "cable",
    "compass",
-   "trapped"
-  ],
-  [
+   "trapped",
    "object",
    "wire",
    "mysterious"
@@ -66,17 +90,30 @@
   [
    "lifetime",
    "wednesday",
-   "chips"
-  ],
-  [
+   "chips",
    "log",
-   "polite",
-   "sheet"
+   "polite"
   ],
   [
+   "sheet",
    "react",
    "maximum",
-   "reply"
+   "reply",
+   "literature"
+  ],
+  [
+   "initial",
+   "database",
+   "issued",
+   "lent",
+   "misfortune"
+  ],
+  [
+   "preparation",
+   "translated",
+   "arise",
+   "substantial",
+   "dictionary"
   ]
  ],
  "64": [
@@ -84,15 +121,13 @@
    "button",
    "pushed",
    "failure",
-   "attempt"
-  ],
-  [
+   "attempt",
    "defeat",
-   "status",
-   "response",
-   "awkward"
+   "status"
   ],
   [
+   "response",
+   "awkward",
    "annoying",
    "commercial",
    "remote"
@@ -100,34 +135,53 @@
   [
    "intention",
    "solved",
-   "basis"
+   "basis",
+   "recover",
+   "weakness"
   ],
   [
-   "recover",
-   "weakness",
-   "approve"
+   "approve",
+   "devoted",
+   "divided",
+   "invest",
+   "notebook"
+  ],
+  [
+   "automatically",
+   "burglar",
+   "secrecy",
+   "spelling",
+   "actively"
   ]
  ],
  "65": [
   [
    "insult",
-   "overnight"
-  ],
-  [
+   "overnight",
    "cruise",
    "formal"
   ],
   [
-   "infection",
-   "consciousness"
+   "advertising",
+   "suitable",
+   "adding",
+   "attraction"
   ],
   [
-   "behaviour",
-   "declared"
+   "villages",
+   "worldwide",
+   "dislike",
+   "sixty"
   ],
   [
-   "seeds",
-   "melt"
+   "ashore",
+   "bakery",
+   "tenth"
+  ],
+  [
+   "cathedral",
+   "convert",
+   "accommodation"
   ]
  ],
  "66": [
@@ -136,34 +190,41 @@
    "opposite",
    "required",
    "obvious",
-   "disappear"
+   "disappear",
+   "task",
+   "automation"
   ],
   [
-   "task",
-   "automation",
    "created",
    "useless",
-   "software"
-  ],
-  [
+   "software",
    "predicted",
    "printing",
-   "dying",
-   "process",
-   "regret"
+   "dying"
   ],
   [
+   "process",
+   "regret",
    "comfort",
    "arranged",
    "pretending",
-   "electricity",
-   "confirmed"
+   "electricity"
   ],
   [
+   "confirmed",
    "affected",
    "disagree",
    "sickness",
-   "unlikely"
+   "unlikely",
+   "wages"
+  ],
+  [
+   "cupboard",
+   "candidates",
+   "diagnosis",
+   "vanish",
+   "encouraged",
+   "tractor"
   ]
  ],
  "67": [
@@ -171,297 +232,125 @@
    "trick",
    "prepared",
    "original",
-   "aware"
+   "aware",
+   "social"
   ],
   [
-   "social",
    "desk",
    "meal",
-   "education"
-  ],
-  [
+   "education",
    "dish",
-   "exam",
-   "photograph"
+   "exam"
   ],
   [
+   "photograph",
    "blocks",
    "tend",
-   "achieve"
+   "achieve",
+   "fund"
   ],
   [
-   "fund",
    "tool",
-   "identified"
+   "identified",
+   "represents",
+   "purchase",
+   "delayed"
+  ],
+  [
+   "beliefs",
+   "select",
+   "part-time",
+   "considerable",
+   "avoided"
   ]
  ],
  "68": [
   [
-   "appointment",
-   "twenty",
-   "difficulty",
-   "centre",
-   "arrives",
-   "neither",
-   "health",
-   "telephone",
-   "improvement",
-   "illness",
-   "expectancy",
-   "emergency",
-   "surgery",
-   "medicine",
-   "therefore"
+   "infection",
+   "consciousness"
   ],
   [
-   "childhood",
-   "decides",
-   "visible",
-   "patient",
-   "although",
-   "healthy",
-   "modern",
-   "text",
-   "released",
-   "attend",
-   "minor",
-   "published",
-   "improved",
-   "refers",
-   "success"
+   "behaviour",
+   "prescription"
   ],
   [
-   "disease",
-   "successful",
-   "events",
-   "quarter",
-   "underneath",
-   "majority",
-   "eighteen",
-   "antibiotics",
-   "eighty",
-   "enormously",
-   "inequality",
-   "nineteen",
-   "sixty-five",
-   "summary",
-   "vaccines"
+   "grasp",
+   "requests"
   ],
   [
-   "bus",
-   "double",
-   "drug",
-   "strength",
-   "nurse",
-   "breathing",
-   "chest",
-   "ruin",
-   "clock",
-   "confused",
-   "bleeding",
-   "spoken",
-   "lack",
-   "dozen",
-   "stress"
+   "long-term",
+   "understandable"
   ],
   [
-   "equal",
-   "western",
-   "documents",
-   "territory",
-   "prevent",
-   "diet",
-   "constantly",
-   "occurred",
-   "anxious",
-   "coughs",
-   "medication",
-   "sore",
-   "severe",
-   "advise",
-   "worthless"
+   "pharmacy",
+   "seventeen"
   ]
  ],
  "69": [
   [
-   "sport",
-   "pattern",
-   "gap",
-   "produces",
-   "collected",
-   "chart",
-   "membership",
-   "slow",
-   "swimming",
-   "considerably",
-   "properly"
+   "enthusiasm",
+   "gradually"
   ],
   [
-   "reliably",
-   "weekdays",
-   "beyond",
-   "serve",
-   "pool",
-   "survived",
-   "reception",
-   "weekends",
-   "athletes",
-   "professional",
-   "gym"
+   "temporarily",
+   "regime"
   ],
   [
-   "session",
-   "muscle",
-   "survivors",
-   "flattening",
-   "specialisation",
-   "specialisers",
-   "strategies",
-   "twenty-one",
-   "shoes",
-   "nervous"
+   "impatient",
+   "recruit"
   ],
   [
-   "energy",
-   "track",
-   "brilliant",
-   "performance",
-   "perform",
-   "fuel",
-   "injured",
-   "academy",
-   "abroad",
-   "method"
+   "competing",
+   "stored"
   ],
   [
-   "technique",
-   "worn",
-   "combination",
-   "tissue",
-   "defence",
-   "dull",
-   "risky",
-   "strictly",
-   "possessed",
-   "flu"
+   "accompanied",
+   "acquire"
   ]
  ],
  "70": [
   [
-   "river",
-   "above",
-   "removed",
-   "lower",
-   "bin",
-   "metres",
-   "property",
-   "items",
-   "animals",
-   "remain",
-   "dry",
-   "below",
-   "edge",
-   "collection",
-   "bottles"
+   "declared",
+   "seeds"
   ],
   [
-   "definition",
-   "glass",
-   "summer",
-   "garden",
-   "spring",
-   "depends",
-   "fence",
-   "drawn",
-   "fails",
-   "graph",
-   "grow",
-   "raise",
-   "bottom",
-   "example",
-   "nowhere"
+   "melt",
+   "vegetable"
   ],
   [
-   "brown",
-   "enter",
-   "damage",
-   "square",
-   "map",
-   "approach",
-   "naturally",
-   "behave",
-   "plastic",
-   "reasonable",
-   "rubbish",
-   "elsewhere",
-   "islands",
-   "threats",
-   "rejected"
+   "biology",
+   "overwhelmed"
   ],
   [
-   "climate",
-   "careless",
-   "readings",
-   "wetland",
-   "impossible",
-   "green",
-   "wind",
-   "dirty",
-   "cross",
-   "waste",
-   "famous",
-   "rain",
-   "meat",
-   "belong",
-   "bones"
+   "crews",
+   "tyres"
   ],
   [
-   "pizza",
-   "wood",
-   "vehicle",
-   "dramatic",
-   "fully",
-   "disaster",
-   "cats",
-   "drawing",
-   "temperature",
-   "raw",
-   "management",
-   "payment",
-   "threaten",
-   "rear",
-   "drain"
+   "occasional",
+   "abstract"
   ]
  ],
  "71": [
   [
-   "represents",
-   "purchase",
-   "delayed",
-   "beliefs",
-   "select"
-  ],
-  [
-   "part-time",
-   "considerable",
-   "avoided",
-   "assigning"
-  ],
-  [
+   "assigning",
    "backgrounds",
-   "evident",
-   "favours",
-   "hardship"
+   "evident"
   ],
   [
-   "invariably",
+   "favours",
+   "hardship",
+   "invariably"
+  ],
+  [
    "parental",
    "photocopies",
    "prefers"
   ],
   [
    "salaries",
-   "typically",
+   "typically"
+  ],
+  [
    "uncomfortably",
    "wealthier"
   ]
@@ -475,22 +364,11 @@
  ],
  "73": [
   [
-   "devoted",
-   "divided",
-   "invest",
-   "notebook",
-   "automatically"
-  ],
-  [
-   "burglar",
-   "secrecy",
-   "spelling",
-   "actively",
-   "authentication"
-  ],
-  [
+   "authentication",
    "bulk",
-   "complexity",
+   "complexity"
+  ],
+  [
    "consequential",
    "disagreement",
    "erases"
@@ -498,53 +376,48 @@
   [
    "faithfully",
    "flashing",
-   "misconception",
-   "nineties"
+   "misconception"
   ],
   [
+   "nineties",
    "popularity",
-   "promoting",
+   "promoting"
+  ],
+  [
    "refined",
    "settings"
   ]
  ],
  "74": [
   [
-   "vegetable",
-   "biology",
-   "overwhelmed",
-   "crews",
-   "tyres",
-   "occasional",
-   "abstract"
-  ],
-  [
    "cardboard",
    "cubic",
    "dissolved",
    "efficiently",
-   "excluded",
-   "fast-growing",
-   "freezers"
+   "excluded"
   ],
   [
+   "fast-growing",
+   "freezers",
    "fridges",
    "harms",
-   "jars",
-   "joined-up",
-   "lids",
-   "limitation"
+   "jars"
   ],
   [
+   "joined-up",
+   "lids",
+   "limitation",
    "lorry",
-   "mattresses",
+   "mattresses"
+  ],
+  [
    "passageway",
    "peelings",
    "repainted",
-   "run-off"
+   "run-off",
+   "surrounds"
   ],
   [
-   "surrounds",
    "tins",
    "trolleys",
    "undisturbed",
@@ -554,45 +427,34 @@
  ],
  "75": [
   [
-   "labour",
-   "opposed",
-   "railway",
-   "batteries",
-   "views",
-   "poisonous",
-   "obtain",
-   "pets"
-  ],
-  [
-   "bricks",
-   "restricted",
-   "organised",
    "acute",
    "bulbs",
    "deduction",
-   "farmland"
+   "farmland",
+   "fifteenth"
   ],
   [
-   "fifteenth",
    "fittings",
    "five-storey",
    "government-backed",
    "hesitation",
-   "house-hunting",
-   "incomplete"
+   "house-hunting"
   ],
   [
+   "incomplete",
    "indefinitely",
    "indirectly",
    "objectors",
-   "obtainable",
-   "outward",
-   "preserves",
-   "restriction"
+   "obtainable"
   ],
   [
+   "outward",
+   "preserves",
+   "restriction",
    "risen",
-   "terraced",
+   "terraced"
+  ],
+  [
    "timber",
    "twenty-eight",
    "unreasonably",
@@ -602,24 +464,6 @@
  ],
  "76": [
   [
-   "advertising",
-   "suitable",
-   "adding",
-   "attraction",
-   "villages",
-   "worldwide"
-  ],
-  [
-   "dislike",
-   "sixty",
-   "ashore",
-   "bakery",
-   "tenth",
-   "cathedral"
-  ],
-  [
-   "convert",
-   "accommodation",
    "ascent",
    "dishonest",
    "distances",
@@ -628,7 +472,9 @@
   [
    "enforcing",
    "forbidding",
-   "inland",
+   "inland"
+  ],
+  [
    "instructive",
    "intractable",
    "museums"
@@ -636,7 +482,9 @@
   [
    "predictable",
    "shortened",
-   "straightforward",
+   "straightforward"
+  ],
+  [
    "thirty-eight",
    "unaffected",
    "unsustainable"
@@ -644,15 +492,6 @@
  ],
  "77": [
   [
-   "wages",
-   "cupboard",
-   "candidates",
-   "diagnosis",
-   "vanish",
-   "encouraged"
-  ],
-  [
-   "tractor",
    "authors",
    "beforehand",
    "best-known",
@@ -664,20 +503,22 @@
    "fifty-five-year-old",
    "fifty-six",
    "gloomiest",
-   "headings",
-   "highest-scoring"
+   "headings"
   ],
   [
+   "highest-scoring",
    "justified",
    "nineteenth",
    "requirements",
-   "six-month",
-   "stationery",
-   "summarise"
+   "six-month"
   ],
   [
+   "stationery",
+   "summarise",
    "textile",
-   "thirty-five",
+   "thirty-five"
+  ],
+  [
    "thirty-six",
    "two-thirds",
    "undercut",
@@ -686,30 +527,6 @@
  ],
  "78": [
   [
-   "carbon",
-   "reliable",
-   "depth",
-   "laboratory",
-   "prescription",
-   "deliberately",
-   "grain",
-   "wheat",
-   "virtue",
-   "grasp",
-   "requests",
-   "crop",
-   "long-term",
-   "flock",
-   "understandable"
-  ],
-  [
-   "grams",
-   "pharmacy",
-   "carrots",
-   "seventeen",
-   "weighs",
-   "stem",
-   "daytime",
    "administrative",
    "conceals",
    "constrained",
@@ -717,12 +534,12 @@
    "continuous",
    "diarrhoeal",
    "diphtheria",
-   "dominated"
-  ],
-  [
+   "dominated",
    "edible",
    "extending",
-   "famines",
+   "famines"
+  ],
+  [
    "fractures",
    "historians",
    "industrially",
@@ -732,11 +549,11 @@
    "measurements",
    "necessity",
    "neighbouring",
-   "noticeably",
-   "omits",
-   "one-kilogram"
+   "noticeably"
   ],
   [
+   "omits",
+   "one-kilogram",
    "out-of-hours",
    "ownership",
    "penalised",
@@ -744,19 +561,21 @@
    "photographic",
    "powerfully",
    "questionnaire",
-   "rashes",
+   "rashes"
+  ],
+  [
    "receptionist",
    "recognisable",
    "refrigerated",
    "removal",
    "responsibly",
-   "same-day"
-  ],
-  [
+   "same-day",
    "self-service",
    "seventy",
    "seventy-two",
-   "smallpox",
+   "smallpox"
+  ],
+  [
    "spoiling",
    "sprains",
    "statistics",
@@ -771,48 +590,37 @@
  ],
  "79": [
   [
-   "literature",
-   "initial",
-   "database",
-   "issued",
-   "lent",
-   "misfortune",
-   "preparation",
-   "translated"
-  ],
-  [
-   "arise",
-   "substantial",
-   "dictionary",
    "audiobooks",
    "capability",
    "chats",
    "circulate",
-   "conveys"
+   "conveys",
+   "distinguish"
   ],
   [
-   "distinguish",
    "endlessly",
    "factually",
    "faintly",
    "fibre",
    "fourteen-digit",
-   "grammar",
-   "illustrated"
+   "grammar"
   ],
   [
+   "illustrated",
    "landline",
    "measurably",
    "nostalgia",
    "notified",
-   "operates",
-   "optional",
-   "perceive",
-   "practised"
+   "operates"
   ],
   [
+   "optional",
+   "perceive",
+   "practised",
    "puzzled",
-   "sections",
+   "sections"
+  ],
+  [
    "subscriber",
    "thereby",
    "unavailable",
@@ -822,34 +630,18 @@
  ],
  "80": [
   [
-   "altogether",
-   "elite",
-   "rapid",
-   "instructor",
-   "enthusiasm",
-   "gradually",
-   "temporarily"
-  ],
-  [
-   "regime",
-   "impatient",
-   "recruit",
-   "competing",
-   "stored",
-   "accompanied"
-  ],
-  [
-   "acquire",
    "concludes",
    "counter-intuitive",
    "discovers",
-   "establishes",
-   "fitness"
+   "establishes"
   ],
   [
+   "fitness",
    "fitter",
    "governs",
-   "historically",
+   "historically"
+  ],
+  [
    "hooks",
    "measurable",
    "outdoor"
@@ -857,7 +649,9 @@
   [
    "participants",
    "peers",
-   "reasonably",
+   "reasonably"
+  ],
+  [
    "trivial",
    "unaccompanied",
    "unclaimed"
