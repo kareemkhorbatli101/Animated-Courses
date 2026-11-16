@@ -72,11 +72,10 @@ UNIT = dict(
           'within two hours has been dealt with to standard, and the '
           'repair that follows runs to the Category 2 timetable from the '
           'inspection date rather than the report date.',
-          'You will receive a reference beginning DF and a category. If you '
-          'believe the category is wrong, send a measurement rather than a '
-          'description: categories are changed on measurements roughly four '
-          'times in ten and on descriptions almost never, which is not '
-          'obstruction but a consequence of what the system can act on.'],
+          'You will receive a reference beginning DF and a category. If '
+          'you believe the category is wrong, send a measurement rather '
+          'than a description: categories change on measurements roughly '
+          'four times in ten and on descriptions almost never.'],
          items=[
           ('What determines the response to a report?',
            ['the description', 'the measurement', 'the photograph',
