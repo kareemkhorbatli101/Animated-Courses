@@ -27,14 +27,21 @@ BANDS_BY_VOL = {
         'acad': (780, 960), 'l1': (280, 360), 'l2': (300, 390),
         'l3': (350, 430), 'l4': (400, 490), 'model': (160, 340),
         'essay': (280, 470)},
+    6: {'gt_short': (200, 300), 'gt_work': (320, 430), 'long': (560, 760),
+        'acad': (860, 1000), 'l1': (290, 380), 'l2': (290, 400),
+        'l3': (360, 450), 'l4': (400, 510), 'model': (170, 360),
+        'essay': (300, 500)},
 }
 
 
 def vol_of(n):
-    """Which volume a unit number belongs to."""
-    if 21 <= n <= 30:
-        return 3
-    return 4 if 31 <= n <= 40 else 5
+    """Which volume a unit number belongs to.
+
+    Ten units a volume from 21, so the arithmetic generalises and a new
+    volume needs no edit here. Anything below 21 belongs to the Foundation
+    books, which this file does not gate.
+    """
+    return max(3, min(max(BANDS_BY_VOL), 3 + (n - 21) // 10))
 
 
 # the module-level name the rest of this file uses; set per unit as it runs
@@ -45,7 +52,8 @@ BANDS = BANDS_BY_VOL[4]
 # sits at the bottom of that range and reaches it at Volume 5.
 PAPER_BY_VOL = {3: dict(passage=(620, 820), total=(1950, 2350)),
                 4: dict(passage=(700, 950), total=(2150, 2750)),
-                5: dict(passage=(760, 1000), total=(2350, 2850))}
+                5: dict(passage=(760, 1000), total=(2350, 2850)),
+                6: dict(passage=(820, 1050), total=(2550, 3000))}
 MIN_WHY = 30            # an explanation shorter than this explains nothing
 MAX_UNTAUGHT = 14       # untaught word types in one academic passage
 
@@ -251,6 +259,90 @@ def check_lpaper(L, out):
         out.append('%s: %d questions in total, want 40' % (tag, total))
 
 
+def check_wpaper(Wp, out):
+    """The timed Writing paper: both Task 1 forks, one Task 2, models and
+    marking checks on every task."""
+    global BANDS
+    BANDS = BANDS_BY_VOL[Wp['vol']]
+    tag = 'wpaper%s' % Wp['vol']
+    ts = Wp['tasks']
+    if len(ts) != 3:
+        out.append('%s: %d tasks, want 3 (Task 1 Academic, Task 1 GT, '
+                   'Task 2)' % (tag, len(ts)))
+    forks = [t.get('fork') for t in ts]
+    if sorted(x for x in forks if x) != ['A', 'GT']:
+        out.append('%s: Task 1 forks are %s, want one A and one GT'
+                   % (tag, forks))
+    nxt = 1
+    for t in ts:
+        if t['no'] != nxt:
+            out.append('%s task %d numbered %d' % (tag, nxt, t['no']))
+        nxt += 1
+        band = 'essay' if t['task'].startswith('Task 2') else 'model'
+        w = wc(t['model'])
+        lo, hi = BANDS[band]
+        if not lo <= w <= hi:
+            out.append('%s "%s" model: %d words, want %d-%d'
+                       % (tag, t['heading'][:30], w, lo, hi))
+        floor = 250 if band == 'essay' else 150
+        if w < floor:
+            out.append('%s "%s" model is %d words, under the %d the rubric '
+                       'demands' % (tag, t['heading'][:30], w, floor))
+        if len(t['notes']) < 3:
+            out.append('%s "%s": %d notes, want 3+'
+                       % (tag, t['heading'][:30], len(t['notes'])))
+        if len(t['checks']) < 4:
+            out.append('%s "%s": %d marking checks, want 4+'
+                       % (tag, t['heading'][:30], len(t['checks'])))
+        for i, c in enumerate(t['checks'], 1):
+            if len(c) < MIN_WHY:
+                out.append('%s "%s" check %d: %d chars, want %d+'
+                           % (tag, t['heading'][:30], i, len(c), MIN_WHY))
+
+
+def check_spaper(Sp, out):
+    """The timed Speaking paper: three parts in order, a cue card on Part 2,
+    an answer shape and marking checks on each."""
+    tag = 'spaper%s' % Sp['vol']
+    parts = Sp['parts']
+    want = ['Part 1', 'Part 2', 'Part 3']
+    got = [p.get('part') for p in parts]
+    if got != want:
+        out.append('%s: parts are %s, want %s' % (tag, got, want))
+    for i, pt in enumerate(parts, 1):
+        nm = pt.get('part', '?')
+        if pt['no'] != i:
+            out.append('%s %s numbered %d, want %d' % (tag, nm, pt['no'], i))
+        if (nm == 'Part 2') != bool(pt.get('cue')):
+            out.append('%s %s: a cue card belongs on Part 2 and only there'
+                       % (tag, nm))
+        lo = 4 if nm == 'Part 1' else 3
+        if len(pt['qs']) < lo:
+            out.append('%s %s: %d questions, want %d+'
+                       % (tag, nm, len(pt['qs']), lo))
+        shape = pt.get('shape') or []
+        if len(shape) < (3 if nm == 'Part 1' else 5):
+            out.append('%s %s: answer shape has %d moves, want %d+'
+                       % (tag, nm, len(shape),
+                          3 if nm == 'Part 1' else 5))
+        for mv, line in shape:
+            if mv not in ('answer', 'support', 'follow-up'):
+                out.append('%s %s: unknown move %r in the answer shape'
+                           % (tag, nm, mv))
+            if len(line) < 12:
+                out.append('%s %s: a shape line of %d chars says nothing'
+                           % (tag, nm, len(line)))
+        if len(pt['notes']) < 3:
+            out.append('%s %s: %d notes, want 3+' % (tag, nm, len(pt['notes'])))
+        if len(pt['checks']) < 4:
+            out.append('%s %s: %d marking checks, want 4+'
+                       % (tag, nm, len(pt['checks'])))
+        for j, c in enumerate(pt['checks'], 1):
+            if len(c) < MIN_WHY:
+                out.append('%s %s check %d: %d chars, want %d+'
+                           % (tag, nm, j, len(c), MIN_WHY))
+
+
 def seam(heads, ns, out):
     """A head word taught in one volume must not be re-taught in another.
 
@@ -312,6 +404,20 @@ def main(argv):
         lm = importlib.import_module('content.lpaper%d' % vol_of(ns[0]))
         importlib.reload(lm)
         check_lpaper(lm.LPAPER, out)
+        npaper += 1
+    except ModuleNotFoundError:
+        pass
+    try:
+        wm = importlib.import_module('content.wpaper%d' % vol_of(ns[0]))
+        importlib.reload(wm)
+        check_wpaper(wm.WPAPER, out)
+        npaper += 1
+    except ModuleNotFoundError:
+        pass
+    try:
+        sm = importlib.import_module('content.spaper%d' % vol_of(ns[0]))
+        importlib.reload(sm)
+        check_spaper(sm.SPAPER, out)
         npaper += 1
     except ModuleNotFoundError:
         pass

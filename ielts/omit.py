@@ -112,6 +112,45 @@ def paper_wanted(P):
     return out
 
 
+def wpaper_wanted(Wp):
+    """Every string the timed Writing paper puts on a page."""
+    out = [('wpaper intro', Wp['intro']), ('wpaper keyintro', Wp['keyintro'])]
+    for i, ln in enumerate(Wp['instruct'], 1):
+        out.append(('wpaper rule %d' % i, ln))
+    for t in Wp['tasks']:
+        out.append(('wpaper t%d heading' % t['no'], t['heading']))
+        out.append(('wpaper t%d prompt' % t['no'], t['prompt']))
+        for i, para in enumerate(t['model'], 1):
+            out.append(('wpaper t%d model %d' % (t['no'], i), para))
+        for i, n in enumerate(t['notes'], 1):
+            out.append(('wpaper t%d note %d' % (t['no'], i), n))
+        for i, c in enumerate(t['checks'], 1):
+            out.append(('wpaper t%d check %d' % (t['no'], i), c))
+    return out
+
+
+def spaper_wanted(Sp):
+    """Every string the timed Speaking paper puts on a page."""
+    out = [('spaper intro', Sp['intro']), ('spaper keyintro', Sp['keyintro'])]
+    for i, ln in enumerate(Sp['instruct'], 1):
+        out.append(('spaper rule %d' % i, ln))
+    for pt in Sp['parts']:
+        out.append(('spaper %s blurb' % pt['part'], pt['blurb']))
+        for i, q in enumerate(pt['qs'], 1):
+            out.append(('spaper %s q%d' % (pt['part'], i), q))
+        if pt.get('cue'):
+            out.append(('spaper %s cue' % pt['part'], pt['cue'][0]))
+            for i, b in enumerate(pt['cue'][1], 1):
+                out.append(('spaper %s cue bullet %d' % (pt['part'], i), b))
+        for i, (_, line) in enumerate(pt.get('shape') or [], 1):
+            out.append(('spaper %s shape %d' % (pt['part'], i), line))
+        for i, n in enumerate(pt['notes'], 1):
+            out.append(('spaper %s note %d' % (pt['part'], i), n))
+        for i, c in enumerate(pt['checks'], 1):
+            out.append(('spaper %s check %d' % (pt['part'], i), c))
+    return out
+
+
 def lpaper_wanted(L):
     out = []
     out.append(('lpaper intro', L['intro']))
@@ -150,6 +189,16 @@ def main(vol, path):
     try:
         want += lpaper_wanted(importlib.import_module('content.lpaper%d'
                                                       % vol).LPAPER)
+    except ModuleNotFoundError:
+        pass
+    try:
+        want += wpaper_wanted(importlib.import_module('content.wpaper%d'
+                                                      % vol).WPAPER)
+    except ModuleNotFoundError:
+        pass
+    try:
+        want += spaper_wanted(importlib.import_module('content.spaper%d'
+                                                      % vol).SPAPER)
     except ModuleNotFoundError:
         pass
 

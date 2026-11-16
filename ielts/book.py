@@ -23,7 +23,9 @@ VOLS = {3: dict(units=range(21, 31), level='B1+', band='6.0',
         4: dict(units=range(31, 41), level='B2', band='6.5',
                 cefr='B2', title='Volume 4'),
         5: dict(units=range(41, 51), level='B2+/C1', band='7.0',
-                cefr='B2+', title='Volume 5')}
+                cefr='B2+', title='Volume 5'),
+        6: dict(units=range(51, 61), level='C1', band='7.5',
+                cefr='C1', title='Volume 6')}
 
 # what the band on the cover is actually for, per volume
 BAND_IS_FOR = {
@@ -36,6 +38,10 @@ BAND_IS_FOR = {
            'medicine, nursing, law and engineering in most English-speaking '
            'countries, and the band at which a candidate has to be right '
            'about hard questions rather than careful about easy ones',
+    '7.5': 'which is asked for by a small number of courses and professional '
+           'bodies and reached by a small number of candidates, and which is '
+           'the point at which preparation stops being the thing holding a '
+           'score down',
 }
 SKILL_COL = {'reading': D_BLUE, 'listening': D_AMBER,
              'speaking': D_TEAL, 'writing': D_PLUM}
@@ -519,6 +525,103 @@ def paper_key(d, P, key):
     d.page_break_section()
 
 
+def render_wpaper(d, Wp):
+    """The volume's timed Writing paper.
+
+    Both Task 1 forks are printed, because this book carries Academic and
+    General Training together; a candidate sits one of them and is told
+    which. Nothing is marked for them, so what stands in for an answer key
+    is a band descriptor read against a model.
+    """
+    d.unit_title(Wp['title'])
+    d.strapline('Volume %s \u00b7 60 minutes \u00b7 two tasks \u00b7 Task 2 carries '
+                'twice the marks' % Wp['vol'])
+    d.cefr(Wp['intro'])
+    d.page_break_section()
+    d.partbar('Before you start',
+              '%s rules, and the clock' % _NUM.get(len(Wp['instruct']), 'The'),
+              'writing')
+    d.items(Wp['instruct'])
+    d.page_break_section()
+    for t in Wp['tasks']:
+        lab = {'A': 'Academic', 'GT': 'General Training'}.get(t.get('fork'),
+                                                             '')
+        d.figure(*F.skill_bar('writing', t['no'],
+                              t['task'] + ('  \u00b7  ' + lab if lab else ''),
+                              'Timed paper \u00b7 %s' % t['clock']))
+        for f in ('figure', 'figure2', 'figure3'):
+            if t.get(f):
+                _figure(d, t[f])
+        d.body_p(t['prompt'])
+        d.ex('Write your answer.%s' % t.get('instruct', ''), 'writing')
+        d.lines(t.get('lines', 18))
+        d.page_break_section()
+
+
+def wpaper_key(d, Wp):
+    """Not a key: a model at the target band, and how to mark your own."""
+    d.unit_title('Writing Paper \u00b7 marking your own')
+    d.strapline('Volume %s \u00b7 a model at band %s, and what to compare'
+                % (Wp['vol'], Wp['band']))
+    d.cefr(Wp['keyintro'])
+    d.page_break_section()
+    for t in Wp['tasks']:
+        lab = {'A': 'Academic', 'GT': 'General Training'}.get(t.get('fork'),
+                                                             '')
+        d.partbar(t['task'] + ('  \u00b7  ' + lab if lab else ''),
+                  t['heading'], 'writing')
+        d.h3('A model at band %s' % Wp['band'], D_PLUM)
+        for para in t['model']:
+            d.body_p(para)
+        d.h3('Why it works', D_PLUM)
+        d.bullets(t['notes'])
+        if t.get('criterion'):
+            d.figure(*F.criterion_tag(t['criterion']))
+        d.h3('Mark your own against these', D_PLUM)
+        d.items(t['checks'])
+        d.page_break_section()
+
+
+def render_spaper(d, Sp):
+    """The volume's timed Speaking paper: three parts, 11 to 14 minutes."""
+    d.unit_title(Sp['title'])
+    d.strapline('Volume %s \u00b7 11 to 14 minutes \u00b7 three parts \u00b7 recorded'
+                % Sp['vol'])
+    d.cefr(Sp['intro'])
+    d.page_break_section()
+    d.partbar('Before you start',
+              '%s rules, and the clock' % _NUM.get(len(Sp['instruct']), 'The'),
+              'speaking')
+    d.items(Sp['instruct'])
+    d.page_break_section()
+    for pt in Sp['parts']:
+        d.figure(*F.skill_bar('speaking', pt['no'], pt['part'],
+                              'Timed paper \u00b7 %s' % pt['clock']))
+        d.body_p(pt['blurb'], i=True)
+        if pt.get('cue'):
+            d.figure(*F.cue_card(pt['cue'][0], pt['cue'][1]))
+        d.ex('Exercise  %s' % pt['task'], 'speaking')
+        d.items(pt['qs'])
+        d.page_break_section()
+
+
+def spaper_key(d, Sp):
+    """What an examiner is listening for, with an answer at the band."""
+    d.unit_title('Speaking Paper \u00b7 marking your own')
+    d.strapline('Volume %s \u00b7 what an examiner is listening for' % Sp['vol'])
+    d.cefr(Sp['keyintro'])
+    d.page_break_section()
+    for pt in Sp['parts']:
+        d.partbar(pt['part'], pt['focus'], 'speaking')
+        d.h3('An answer at band %s' % Sp['band'], D_TEAL)
+        d.figure(*F.answer_shape(pt['shape']))
+        d.h3('What that answer is doing', D_TEAL)
+        d.bullets(pt['notes'])
+        d.h3('Listen back to your recording and check', D_TEAL)
+        d.items(pt['checks'])
+        d.page_break_section()
+
+
 def back_matter(d, vol, units, ukeys):
     d.unit_title('Answer key')
     d.strapline('Volume %s · Units %d–%d'
@@ -678,6 +781,11 @@ BLURB_BY_VOL = {
         'registration and for immigration points, and the band at which',
         'being careful stops being enough. Academic and General Training in',
         'one book, because they are one test with two substitutions.'],
+    6: ['The last volume, for band 7.5 and above — the top of what',
+        'preparation can move. Above this the limit is your English rather',
+        'than your technique, and this book says so. Academic and General',
+        'Training in one book, because they are one test with two',
+        'substitutions.'],
 }
 BULLETS_BY_VOL = {
     3: ['Every task type, five times in every unit, both modules throughout',
@@ -701,6 +809,14 @@ BULLETS_BY_VOL = {
         'unit',
         'A full timed Reading paper and a full timed Listening paper at '
         'band 7.0'],
+    6: ['Every task type, five times in every unit, both modules throughout',
+        'Academic passages of 860 to 1,000 words in nine paragraphs, above '
+        'the real paper',
+        'The reading method at 190 to 210 words a minute, measured and '
+        'plotted',
+        'Judgement under load: almost every exercise at the last '
+        'scaffolding step',
+        'All four papers, timed: Reading, Listening, Writing and Speaking'],
 }
 
 
@@ -730,13 +846,31 @@ def build(vol, out=None):
         importlib.reload(lm)
     except ModuleNotFoundError:
         lm = None
+    try:
+        wm = importlib.import_module('content.wpaper%d' % vol)
+        importlib.reload(wm)
+    except ModuleNotFoundError:
+        wm = None
+    try:
+        sm = importlib.import_module('content.spaper%d' % vol)
+        importlib.reload(sm)
+    except ModuleNotFoundError:
+        sm = None
     pkey = render_paper(d, pm.PAPER) if pm else None
     lkey = render_lpaper(d, lm.LPAPER) if lm else None
+    if wm:
+        render_wpaper(d, wm.WPAPER)
+    if sm:
+        render_spaper(d, sm.SPAPER)
     back_matter(d, vol, units, ukeys)
     if pm:
         paper_key(d, pm.PAPER, pkey)
     if lm:
         lpaper_key(d, lm.LPAPER, lkey)
+    if wm:
+        wpaper_key(d, wm.WPAPER)
+    if sm:
+        spaper_key(d, sm.SPAPER)
     audio_scripts(d, vol, units)
     glossary(d, vol, units)
     expression_bank(d, vol, units)
