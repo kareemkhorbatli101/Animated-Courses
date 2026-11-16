@@ -29,7 +29,22 @@ VOLS = {1: dict(units=range(1, 11), level='B1', band='5.0',
         5: dict(units=range(41, 51), level='B2+/C1', band='7.0',
                 cefr='B2+', title='Volume 5'),
         6: dict(units=range(51, 61), level='C1', band='7.5',
-                cefr='C1', title='Volume 6')}
+                cefr='C1', title='Volume 6'),
+        # The two Foundation books. Their key continues upwards because the
+        # key is also the arithmetic that maps a unit module to a book, but
+        # they sit BELOW Volume 1 on the ladder, their units print 1-10,
+        # and their covers say Foundation rather than Volume.
+        7: dict(units=range(61, 71), level='A1-A2', band='below 4.0',
+                cefr='A1-A2', title='Foundation 1', label='FOUNDATION 1',
+                short='Foundation 1', foundation=True),
+        8: dict(units=range(71, 81), level='A2-B1', band='4.0-4.5',
+                cefr='A2-B1', title='Foundation 2', label='FOUNDATION 2',
+                short='Foundation 2', foundation=True)}
+
+
+def vlabel(vol):
+    """What this book calls itself: 'Volume 3', or 'Foundation 1'."""
+    return VOLS[vol].get('short', 'Volume %s' % vol)
 
 # what the band on the cover is actually for, per volume
 BAND_IS_FOR = {
@@ -53,6 +68,14 @@ BAND_IS_FOR = {
            'bodies and reached by a small number of candidates, and which is '
            'the point at which preparation stops being the thing holding a '
            'score down',
+    'below 4.0': 'which is not a band anybody asks for, and that is the '
+                 'point of this book: it is the one that gets a student to '
+                 'the foot of the ladder, where preparation can start to '
+                 'mean something',
+    '4.0-4.5': 'which is the bridge into the graded course - not yet a '
+               'score that opens a door, but the level at which the paper '
+               'stops being noise and starts being a test a candidate can '
+               'be taught to beat',
 }
 SKILL_COL = {'reading': D_BLUE, 'listening': D_AMBER,
              'speaking': D_TEAL, 'writing': D_PLUM}
@@ -112,7 +135,7 @@ def _items(d, items, start, key, skill):
 
 
 SPEED = {1: (100, 120), 2: (110, 130), 3: (125, 140), 4: (150, 165),
-         5: (170, 185), 6: (190, 210)}
+         5: (170, 185), 6: (190, 210), 7: (60, 80), 8: (80, 100)}
 _NUM = {3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven'}
 
 
@@ -121,7 +144,8 @@ def speed_page(d, vol, cfg, units):
     lo, hi = SPEED.get(vol, (150, 165))
     ns = [u['n'] for u in units]
     d.unit_title('Your reading speed')
-    d.strapline('Volume %s \u00b7 target %d\u2013%d words a minute' % (vol, lo, hi))
+    d.strapline('%s \u00b7 target %d\u2013%d words a minute'
+                % (vlabel(vol), lo, hi))
     d.cefr('The loop works at a hundred words a minute, which is why this '
            'course never asks you to read faster than you can understand. '
            'What it does ask is that you know your own number, because the '
@@ -271,7 +295,7 @@ def render_cycle(d, U, c, ci, key, nq=1):
 def render_unit(d, U):
     key = {}
     d.unit_title('Unit %d · %s' % (U['n'], U['theme']))
-    d.strapline('IELTS Preparation Course · Volume %s · band %s'
+    d.strapline('IELTS Preparation Course · %s · band %s'
                 % (U['vol'], U['band']))
     d.cefr('CEFR %s  ·  Academic and General Training  ·  five cycles'
            % U['level'])
@@ -310,11 +334,12 @@ def front_matter(d, vol, cfg, units):
     band, lvl = cfg['band'], cfg['level']
     strap = ['Reading · Listening · Speaking · Writing',
              'Every task type in the test, five times a unit']
-    d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']),
+    d.figure(*F.cover_front(cfg.get('label', 'VOLUME %s' % vol),
+                            'Units %d–%d' % (units[0]['n'], units[-1]['n']),
                             lvl, band, strap), cover=True)
     d.page_break_section(zero=True)
     d.unit_title('IELTS Preparation Course')
-    d.strapline('Volume %s · Units %d–%d · CEFR %s · target band %s'
+    d.strapline('%s · Units %d–%d · CEFR %s · target band %s'
                 % (vol, units[0]['n'], units[-1]['n'], lvl, band))
     d.cefr("Student's Book with Practice Test %s · Academic and General "
            'Training in one book' % vol)
@@ -456,8 +481,10 @@ def render_paper(d, P):
     """The volume's timed Reading paper: three passages, forty questions."""
     key = []
     d.unit_title(P['title'])
-    d.strapline('Volume %s \u00b7 60 minutes \u00b7 40 questions \u00b7 no extra '
-                'transfer time' % P['vol'])
+    nq = sum(len(x['items']) for x in P['passages'])
+    d.strapline('%s \u00b7 %d minutes \u00b7 %d questions \u00b7 no extra '
+                'transfer time'
+                % (vlabel(P['vol']), P.get('minutes', 60), nq))
     d.cefr(P['intro'])
     d.page_break_section()
     d.partbar('Before you start',
@@ -481,8 +508,9 @@ def render_lpaper(d, L):
     """The volume's timed Listening paper: four parts, forty questions."""
     key = []
     d.unit_title(L['title'])
-    d.strapline('Volume %s \u00b7 four parts \u00b7 40 questions \u00b7 each recording '
-                'played once' % L['vol'])
+    nq = sum(len(p['items']) for p in L['parts'])
+    d.strapline('%s \u00b7 four parts \u00b7 %d questions \u00b7 each recording '
+                'played once' % (vlabel(L['vol']), nq))
     d.cefr(L['intro'])
     d.page_break_section()
     d.partbar('Before you start',
@@ -504,7 +532,9 @@ def render_lpaper(d, L):
 
 def lpaper_key(d, L, key):
     d.unit_title('Listening Paper \u00b7 answer key')
-    d.strapline('Volume %s \u00b7 40 questions' % L['vol'])
+    d.strapline('%s \u00b7 %d questions'
+                % (vlabel(L['vol']),
+                   sum(len(p['items']) for p in L['parts'])))
     d.cefr('Mark the paper, then read every explanation. On Listening the '
            'explanation matters more than on Reading, because you cannot go '
            'back and look: the only way to learn what you missed is to be '
@@ -520,9 +550,11 @@ def lpaper_key(d, L, key):
 
 def paper_key(d, P, key):
     d.unit_title('Reading Paper \u00b7 answer key')
-    d.strapline('Volume %s \u00b7 40 questions \u00b7 mark it before you read the '
-                'explanations' % P['vol'])
-    d.cefr('Mark the whole paper first and write your raw score out of forty. '
+    d.strapline('%s \u00b7 %d questions \u00b7 mark it before you read the '
+                'explanations'
+                % (vlabel(P['vol']),
+                   sum(len(x['items']) for x in P['passages'])))
+    d.cefr('Mark the whole paper first and write your raw score down. '
            'Then read every explanation, including those for the questions '
            'you answered correctly, because a right answer reached the wrong '
            'way will not survive the next paper.')
@@ -547,8 +579,8 @@ def render_wpaper(d, Wp):
     is a band descriptor read against a model.
     """
     d.unit_title(Wp['title'])
-    d.strapline('Volume %s \u00b7 60 minutes \u00b7 two tasks \u00b7 Task 2 carries '
-                'twice the marks' % Wp['vol'])
+    d.strapline('%s \u00b7 60 minutes \u00b7 two tasks \u00b7 Task 2 carries '
+                'twice the marks' % vlabel(Wp['vol']))
     d.cefr(Wp['intro'])
     d.page_break_section()
     d.partbar('Before you start',
@@ -574,8 +606,8 @@ def render_wpaper(d, Wp):
 def wpaper_key(d, Wp):
     """Not a key: a model at the target band, and how to mark your own."""
     d.unit_title('Writing Paper \u00b7 marking your own')
-    d.strapline('Volume %s \u00b7 a model at band %s, and what to compare'
-                % (Wp['vol'], Wp['band']))
+    d.strapline('%s \u00b7 a model at band %s, and what to compare'
+                % (vlabel(Wp['vol']), Wp['band']))
     d.cefr(Wp['keyintro'])
     d.page_break_section()
     for t in Wp['tasks']:
@@ -598,8 +630,8 @@ def wpaper_key(d, Wp):
 def render_spaper(d, Sp):
     """The volume's timed Speaking paper: three parts, 11 to 14 minutes."""
     d.unit_title(Sp['title'])
-    d.strapline('Volume %s \u00b7 11 to 14 minutes \u00b7 three parts \u00b7 recorded'
-                % Sp['vol'])
+    d.strapline('%s \u00b7 11 to 14 minutes \u00b7 three parts \u00b7 recorded'
+                % vlabel(Sp['vol']))
     d.cefr(Sp['intro'])
     d.page_break_section()
     d.partbar('Before you start',
@@ -621,7 +653,8 @@ def render_spaper(d, Sp):
 def spaper_key(d, Sp):
     """What an examiner is listening for, with an answer at the band."""
     d.unit_title('Speaking Paper \u00b7 marking your own')
-    d.strapline('Volume %s \u00b7 what an examiner is listening for' % Sp['vol'])
+    d.strapline('%s \u00b7 what an examiner is listening for'
+                % vlabel(Sp['vol']))
     d.cefr(Sp['keyintro'])
     d.page_break_section()
     for pt in Sp['parts']:
@@ -637,7 +670,7 @@ def spaper_key(d, Sp):
 
 def back_matter(d, vol, units, ukeys):
     d.unit_title('Answer key')
-    d.strapline('Volume %s · Units %d–%d'
+    d.strapline('%s · Units %d–%d'
                 % (vol, units[0]['n'], units[-1]['n']))
     d.cefr('Every wrong option is explained, because a letter on its own '
            'teaches nothing.')
@@ -712,7 +745,7 @@ def back_matter(d, vol, units, ukeys):
 
 def audio_scripts(d, vol, units):
     d.unit_title('Audio scripts')
-    d.strapline('Volume %s' % vol)
+    d.strapline(vlabel(vol))
     d.cefr('Read these only after you have listened. A script is a reading '
            'text as well as a record of the audio, and a script you have '
            'already read tests nothing.')
@@ -743,8 +776,9 @@ def glossary(d, vol, units):
             for w, g in c['vocab']:
                 allw.append((w, g, u['n']))
     d.unit_title('Glossary')
-    d.strapline('Volume %s · %d entries, defined at CEFR B2'
-                % (vol, len(allw)))
+    d.strapline('%s · %d entries, defined at CEFR %s'
+                % (vlabel(vol), len(allw),
+                   'A2' if VOLS[vol].get('foundation') else 'B2'))
     d.cefr('The number after each entry is the unit that taught it. Every one '
            'was taught inside the cycle whose texts use it.')
     d.page_break_section()
@@ -766,7 +800,8 @@ def glossary(d, vol, units):
 
 def expression_bank(d, vol, units):
     d.unit_title('Expression bank')
-    d.strapline('Volume %s · the functional language of these ten units' % vol)
+    d.strapline('%s · the functional language of these ten units'
+                % vlabel(vol))
     d.cefr('These are expressions, not templates. If a sentence would fit a '
            'different question unchanged, it is a template and it is costing '
            'you marks on Task Response before the language is even read.')
@@ -781,6 +816,17 @@ def expression_bank(d, vol, units):
 
 
 BLURB_BY_VOL = {
+    7: ['The book for a student who is not ready for the test and should',
+        'not be sitting it yet. It says so on this cover, because the',
+        'kindest thing a foundation book can do is refuse to pretend.',
+        'Ten everyday themes, the gentle question types only, and the',
+        'reading method taught from its first paragraph.'],
+    8: ['The bridge into the graded course - the book for band 4.0 to 4.5,',
+        'where the paper stops being noise and starts being a test that',
+        'can be beaten. Listening Parts 3 and 4 arrive properly, Task 2',
+        'is written at full shape for the first time, and every word',
+        'taught here was measured against what Volume 1 assumes.'],
+
     1: ['The volume for band 5.0 and a first sitting — the book for a',
         'candidate who can read English but has never met this paper, and',
         'who loses marks to the clock and the question wording rather than',
@@ -809,6 +855,21 @@ BLURB_BY_VOL = {
         'substitutions.'],
 }
 BULLETS_BY_VOL = {
+    7: ['Ten everyday themes, five cycles each, all four skills every '
+        'cycle',
+        'Passages of 170 to 250 words in three short paragraphs',
+        'The reading method taught at 60 to 80 words a minute, and '
+        'measured',
+        'Completion, matching, labelling and short answer - the gentle '
+        'types only',
+        'A progress test in both papers, at this book\'s own length'],
+    8: ['Ten themes, five cycles each, all four skills every cycle',
+        'Passages of 250 to 355 words in four paragraphs, and the loop',
+        'The reading method taught at 80 to 100 words a minute, and '
+        'measured',
+        'Listening Parts 3 and 4 at full shape, Task 2 written whole',
+        'A progress test in both papers, and the handoff into Volume 1'],
+
     1: ['Every task type, five times in every unit, both modules '
         'throughout',
         'Academic passages of 400 to 510 words, five paragraphs and the '
@@ -869,7 +930,7 @@ def build(vol, out=None):
             continue          # a volume under construction still builds
         importlib.reload(m)
         units.append(m.UNIT)
-    d = Doc('IELTS Preparation Course · Volume %s' % vol,
+    d = Doc('IELTS Preparation Course · %s' % vlabel(vol),
             'CEFR %s · band %s' % (cfg['level'], cfg['band']))
     front_matter(d, vol, cfg, units)
     ukeys = {}
@@ -913,12 +974,15 @@ def build(vol, out=None):
     audio_scripts(d, vol, units)
     glossary(d, vol, units)
     expression_bank(d, vol, units)
-    d.figure(*F.cover_back(vol, BLURB_BY_VOL[vol], BULLETS_BY_VOL[vol],
+    d.figure(*F.cover_back(vlabel(vol), BLURB_BY_VOL[vol], BULLETS_BY_VOL[vol],
                            ['%d  %s' % (u['n'], u['theme']) for u in units]),
              cover=True)
     lvl = VOLS[vol]['cefr'].replace('+', 'plus')
-    out = out or ('/home/user/Animated-Courses/IELTS_2026_%s_Volume_%d.docx'
-                  % (lvl, vol))
+    if cfg.get('foundation'):
+        stem = 'IELTS_2026_%s_%s' % (lvl, cfg['short'].replace(' ', '_'))
+    else:
+        stem = 'IELTS_2026_%s_Volume_%d' % (lvl, vol)
+    out = out or '/home/user/Animated-Courses/%s.docx' % stem
     d.save(out)
     return out, len(d.images)
 

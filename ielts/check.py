@@ -52,16 +52,43 @@ BANDS_BY_VOL = {
         'acad': (860, 1000), 'l1': (290, 380), 'l2': (290, 400),
         'l3': (360, 450), 'l4': (400, 510), 'model': (170, 360),
         'essay': (300, 500)},
+    # The two Foundation books, numbered 7 and 8 here because the volume
+    # key is also the arithmetic that maps a unit number to a book; they
+    # sit BELOW Volume 1 on the ladder whatever their key says. Lengths
+    # are the plan's own Foundation rows: a 210-word passage in three
+    # paragraphs of about 70 for Foundation 1, 300 in four of about 75
+    # for Foundation 2, with Part 1 scripts of 120-160 and 160-220.
+    #
+    # These are the one place the productive bands DO step down. The rule
+    # everywhere above is that a model must satisfy the rubric at any
+    # cover band, so Task 1 never starts below 155 words. It does not
+    # apply here, because neither Foundation book prepares a candidate to
+    # sit the paper and Foundation 1 says so on its own cover. Asking an
+    # A1 writer for 150 words teaches padding, which is the one habit the
+    # graded books then have to undo.
+    7: {'gt_short': (55, 100), 'gt_work': (70, 125), 'long': (110, 175),
+        'acad': (170, 250), 'l1': (115, 165), 'l2': (125, 180),
+        'l3': (135, 195), 'l4': (145, 205), 'model': (80, 150),
+        'essay': (130, 210)},
+    8: {'gt_short': (90, 150), 'gt_work': (120, 195), 'long': (180, 265),
+        'acad': (250, 355), 'l1': (155, 225), 'l2': (170, 240),
+        'l3': (185, 255), 'l4': (195, 270), 'model': (110, 200),
+        'essay': (185, 285)},
 }
 
 
 def vol_of(n):
-    """Which volume a unit number belongs to.
+    """Which book a unit MODULE number belongs to.
 
-    Ten units a volume from 21, so the arithmetic generalises in both
+    Ten units a book from 21, so the arithmetic generalises in both
     directions: units 11-20 are Volume 2, units 1-10 Volume 1. The floor
     was once a literal 3, written when Volume 3 was the lowest book that
     existed, and it silently reported every Volume 2 unit as Volume 3.
+
+    The two Foundation books continue upwards: modules 61-70 are
+    Foundation 1 (key 7) and 71-80 Foundation 2 (key 8). Their units
+    print as 1-10, because each Foundation book stands alone, so this
+    takes the MODULE number and never the unit's own n.
     """
     return max(min(BANDS_BY_VOL),
                min(max(BANDS_BY_VOL), 3 + (n - 21) // 10))
@@ -78,7 +105,18 @@ PAPER_BY_VOL = {1: dict(passage=(430, 580), total=(1400, 1700)),
                 3: dict(passage=(620, 820), total=(1950, 2350)),
                 4: dict(passage=(700, 950), total=(2150, 2750)),
                 5: dict(passage=(760, 1000), total=(2350, 2850)),
-                6: dict(passage=(820, 1050), total=(2550, 3000))}
+                6: dict(passage=(820, 1050), total=(2550, 3000)),
+                # The Foundation progress tests. They are the real paper's
+                # shape at the book's own length, not the real paper: a
+                # candidate who cannot yet read 2,150 words learns nothing
+                # from failing to. Reading runs 20 questions in Foundation
+                # 1 and 24 in Foundation 2, Listening the same, so the
+                # answer sheet still teaches transfer and the clock still
+                # teaches pace.
+                7: dict(passage=(180, 265), total=(570, 760),
+                        qs=(6, 8), total_q=20, litems=5),
+                8: dict(passage=(250, 360), total=(800, 1060),
+                        qs=(7, 9), total_q=24, litems=6)}
 MIN_WHY = 30            # an explanation shorter than this explains nothing
 MAX_UNTAUGHT = 14       # untaught word types in one academic passage
 
@@ -108,7 +146,10 @@ def _items_ok(items, tag, n_lo, n_hi, out):
 def check_unit(U, out, heads):
     global BANDS
     n = U['n']
-    BANDS = BANDS_BY_VOL[vol_of(n)]
+    # The unit says which book it belongs to. Deriving it from n instead
+    # works only while unit numbers run straight through the series, and
+    # the Foundation books number their own units 1-10.
+    BANDS = BANDS_BY_VOL[U.get('vol') or vol_of(n)]
     tag = 'u%d' % n
     cyc = U['cycles']
     if len(cyc) != 5:
@@ -235,8 +276,10 @@ def check_paper(P, out):
             out.append('%s p%d starts at %d, want %d'
                        % (tag, x['no'], x['first'], nxt))
         n = len(x['items'])
-        if not 12 <= n <= 14:
-            out.append('%s p%d: %d questions, want 12-14' % (tag, x['no'], n))
+        qlo, qhi = PAPER_BY_VOL[P['vol']].get('qs', (12, 14))
+        if not qlo <= n <= qhi:
+            out.append('%s p%d: %d questions, want %d-%d'
+                       % (tag, x['no'], n, qlo, qhi))
         for i, it in enumerate(x['items']):
             if len(it) != 4:
                 out.append('%s p%d item %d: malformed' % (tag, x['no'], i + 1))
@@ -247,8 +290,10 @@ def check_paper(P, out):
                               MIN_WHY))
         nxt += n
         total += n
-    if total != 40:
-        out.append('%s: %d questions in total, want 40' % (tag, total))
+    want_total = PAPER_BY_VOL[P['vol']].get('total_q', 40)
+    if total != want_total:
+        out.append('%s: %d questions in total, want %d'
+                   % (tag, total, want_total))
     words = sum(sum(len(t.split()) for t in x['paras']) for x in ps)
     tlo, thi = PAPER_BY_VOL[P['vol']]['total']
     if not tlo <= words <= thi:
@@ -286,16 +331,20 @@ def check_lpaper(L, out):
             out.append('%s %s starts at %d, want %d'
                        % (tag, p['part'], p['first'], nxt))
         n = len(p['items'])
-        if n != 10:
-            out.append('%s %s: %d questions, want 10' % (tag, p['part'], n))
+        per = PAPER_BY_VOL[L['vol']].get('litems', 10)
+        if n != per:
+            out.append('%s %s: %d questions, want %d'
+                       % (tag, p['part'], n, per))
         for i, it in enumerate(p['items']):
             if len(it) != 4 or len(it[3]) < MIN_WHY:
                 out.append('%s %s item %d: explanation too short'
                            % (tag, p['part'], p['first'] + i))
         nxt += n
         total += n
-    if total != 40:
-        out.append('%s: %d questions in total, want 40' % (tag, total))
+    want_total = PAPER_BY_VOL[L['vol']].get('litems', 10) * 4
+    if total != want_total:
+        out.append('%s: %d questions in total, want %d'
+                   % (tag, total, want_total))
 
 
 def check_wpaper(Wp, out):
@@ -323,7 +372,10 @@ def check_wpaper(Wp, out):
         if not lo <= w <= hi:
             out.append('%s "%s" model: %d words, want %d-%d'
                        % (tag, t['heading'][:30], w, lo, hi))
-        floor = 250 if band == 'essay' else 150
+        # The rubric floor is a floor for a candidate sitting the paper.
+        # Neither Foundation book prepares one to sit it, and their bands
+        # above say so, so the floor is not applied there.
+        floor = (250 if band == 'essay' else 150) if Wp['vol'] <= 6 else 0
         if w < floor:
             out.append('%s "%s" model is %d words, under the %d the rubric '
                        'demands' % (tag, t['heading'][:30], w, floor))

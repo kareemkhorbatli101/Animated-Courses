@@ -52,8 +52,19 @@ GATED_BY_VOL = {1: dict(k1=(69.0, 71.5), beyond=(11.5, 14.5)),
                 3: dict(k1=(66.0, 68.5), beyond=(16.0, 19.0)),
                 4: dict(k1=(64.5, 67.0), beyond=(18.5, 21.5)),
                 5: dict(k1=(62.5, 65.5), beyond=(20.5, 23.5)),
-                6: dict(k1=(60.5, 63.5), beyond=(22.5, 25.5))}
+                6: dict(k1=(60.5, 63.5), beyond=(22.5, 25.5)),
+                # The Foundation books, continuing the ladder downwards at
+                # the same step the graded volumes take. Volume 1 measured
+                # 69.9 / 13.4, Volume 2 69.3 / 14.8, so about two and a
+                # half points of k1 a book: Foundation 2 sits near 74 and
+                # Foundation 1 near 80, where almost every running word is
+                # from the first thousand and the few that are not are the
+                # words the unit is there to teach.
+                7: dict(k1=(78.0, 82.0), beyond=(2.5, 6.0)),
+                8: dict(k1=(73.0, 76.5), beyond=(6.5, 10.0))}
 GATED = GATED_BY_VOL[4]
+# the two books whose key is not their name
+BOOK_NAME = {7: 'Foundation 1', 8: 'Foundation 2'}
 # reported only: calibrated on another series' genre, so provisional here
 PROVISIONAL = dict(sent=(24.0, 26.5), nominal=(5.0, 6.5))
 # where each TOEFL volume's window sits, for locating the prose on the ladder
@@ -133,7 +144,7 @@ def main():
     GATED = GATED_BY_VOL[vol]
     R = P.ranks()
     units, paper = texts(vol)
-    print('DENSITY - IELTS Volume %d\n' % vol)
+    print('DENSITY - IELTS %s\n' % BOOK_NAME.get(vol, 'Volume %d' % vol))
     print('GATED (vocabulary: a property of English, measured on the shared')
     print('word-rank ladder)\n')
     head = ('%-24s %8s %8s %9s   %s'

@@ -189,7 +189,10 @@ def band_scale(target, note):
     return render(''.join(g), W, h, PAPER)
 
 
-def cover_front(vol, units, level, band, strap):
+def cover_front(label, units, level, band, strap):
+    """`label` is what the book calls itself in capitals on the front:
+    'VOLUME 3', or 'FOUNDATION 1'. It used to be the volume number, which
+    cannot name a book that is not a numbered volume."""
     h = 1270
     g = [R(0, 0, W, h, INDIGO)]
     g.append(R(0, 0, W, 300, INDIGO_D))
@@ -199,7 +202,8 @@ def cover_front(vol, units, level, band, strap):
     g.append(T(W / 2, 252, 'PREPARATION COURSE', 28, PERI_L, bold=True))
     g.append(T(W / 2, 384, 'Academic and General Training', 30, PAPER))
     g.append(R(W / 2 - 170, 418, 340, 4, PERI))
-    g.append(T(W / 2, 496, 'VOLUME %s' % vol, 44, PAPER, bold=True))
+    g.append(TFIT(W / 2, 496, label, 44, W - 120, PAPER, bold=True,
+                  anchor='middle'))
     g.append(T(W / 2, 542, units, 26, PERI_L))
     bx, bw, gap = 70, 180, 16
     for i, name in enumerate(('READING', 'LISTENING', 'SPEAKING', 'WRITING')):
@@ -218,12 +222,13 @@ def cover_front(vol, units, level, band, strap):
     return render(''.join(g), W, h, INDIGO)
 
 
-def cover_back(vol, blurb, bullets, contents):
+def cover_back(label, blurb, bullets, contents):
+    """`label` is the book's own name, e.g. 'Volume 3' or 'Foundation 1'."""
     h = 1270
     g = [R(0, 0, W, h, SOFT)]
     g.append(R(0, 0, W, 140, INDIGO))
     g.append(T(W / 2, 72, 'IELTS Preparation Course', 28, PAPER, bold=True))
-    g.append(T(W / 2, 110, 'Volume %s' % vol, 22, PERI_L))
+    g.append(TFIT(W / 2, 110, label, 22, W - 120, PERI_L, anchor='middle'))
     y = 200
     for line in blurb:
         g.append(T(60, y, line, 21, INK, anchor='start'))

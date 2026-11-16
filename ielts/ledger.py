@@ -1,0 +1,146 @@
+# -*- coding: utf-8 -*-
+"""The word ledger the Foundation books are written from.
+
+Section 14 of the plan is explicit about why these two books are written
+last: "scan the finished Volume 1 for every word a Foundation leaver will
+not know, and teach exactly those." This is that scan.
+
+A Foundation leaver is modelled as someone who knows the first thousand
+word families and nothing else of the series. Volume 1 then assumes a
+great deal more, and most of it Volume 1 never stops to teach: its own
+four hundred head words are taught, and everything else is simply used.
+Those untaught, non-first-thousand types are the gap, and the gap is what
+Foundation 2 teaches.
+
+    python3 ledger.py            # the gap into Volume 1, by frequency
+    python3 ledger.py --f1       # the everyday layer Foundation 1 teaches
+    python3 ledger.py --taught   # every head word already spoken for
+"""
+import importlib
+import importlib.util
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+
+_PP = os.path.join(os.path.dirname(HERE), 'toefl', 'profile.py')
+_spec = importlib.util.spec_from_file_location('toefl_profile', _PP)
+P = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(P)
+# profile.py puts the TOEFL directory at the front of sys.path when it is
+# imported, which makes `content.uNN` resolve to the TOEFL series' units
+# instead of this one's. Put this directory back in front of it.
+sys.path.insert(0, HERE)
+
+WORD = re.compile(r"[A-Za-z][A-Za-z'-]*")
+
+# Endings stripped before a type is looked up, so that "measured" and
+# "measures" are not counted as two unknown words when "measure" is known.
+SUFF = ('ingly', 'edly', 'ies', 'ied', 'ing', 'ers', 'est', 'ely', 'ed',
+        'es', 'er', 'ly', 's')
+
+
+def stem(w):
+    """Crude but honest: try the word, then the word minus an ending."""
+    out = [w]
+    for suf in SUFF:
+        if w.endswith(suf) and len(w) - len(suf) >= 3:
+            base = w[:-len(suf)]
+            out.append(base)
+            out.append(base + 'e')
+            if len(base) > 2 and base[-1] == base[-2]:
+                out.append(base[:-1])
+            if base.endswith('i'):
+                out.append(base[:-1] + 'y')
+    return out
+
+
+def known(w, R, extra, k=1000):
+    """Would a reader who knows the first k ranks plus `extra` know this?"""
+    for f in stem(w):
+        if f in extra:
+            return True
+        r = R.get(f)
+        if r is not None and r <= k:
+            return True
+    return False
+
+
+def _unit(n):
+    try:
+        m = importlib.import_module('content.u%02d' % n)
+    except ModuleNotFoundError:
+        return None
+    importlib.reload(m)
+    return m
+
+
+def taught(rng=range(1, 81)):
+    """Every head word any book in the series already teaches."""
+    out = {}
+    for n in rng:
+        m = _unit(n)
+        if m is None:
+            continue
+        for c in m.UNIT['cycles']:
+            for w, _ in c['vocab']:
+                out.setdefault(w.lower(), n)
+    return out
+
+
+def volume_text(rng):
+    """Everything a student of these units actually reads."""
+    out = []
+    for n in rng:
+        m = _unit(n)
+        if m is None:
+            continue
+        for c in m.UNIT['cycles']:
+            for r in c['read']:
+                out.extend(r['paras'])
+    return out
+
+
+def gap(rng=range(1, 11), k=1000):
+    """The types in those units that a k-word reader does not know and
+    that no book in the series teaches, commonest first."""
+    R = P.ranks()
+    spoken = set(taught())
+    seen = {}
+    for para in volume_text(rng):
+        for w in WORD.findall(para.lower()):
+            seen[w] = seen.get(w, 0) + 1
+    out = []
+    for w, n in seen.items():
+        if len(w) < 3 or known(w, R, spoken, k):
+            continue
+        if any(f in spoken for f in stem(w)):
+            continue
+        out.append((n, R.get(w, 99999), w))
+    out.sort(key=lambda t: (-t[0], t[1], t[2]))
+    return out
+
+
+def main(argv):
+    if '--taught' in argv:
+        t = taught()
+        print('%d head words already taught across the series' % len(t))
+        return 0
+    k = 1000
+    rows = gap(k=k)
+    print('THE GAP INTO VOLUME 1')
+    print('types a %d-word reader meets in Volume 1 that no book teaches: %d'
+          % (k, len(rows)))
+    print()
+    print('  uses  rank   word')
+    for n, r, w in rows[:60]:
+        print('  %4d  %5s  %s' % (n, r if r < 99999 else '-', w))
+    if len(rows) > 60:
+        print('  ... and %d more' % (len(rows) - 60))
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
