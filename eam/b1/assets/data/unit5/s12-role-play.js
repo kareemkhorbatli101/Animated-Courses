@@ -21,12 +21,11 @@ EAM.page('u5-s12', {
       roles: [{ who: 'rana', label: 'Card A · Rana' }, { who: 'aboud', label: 'Card B · Mr Aboud' }],
       briefs: [{ label: 'Card A', text: 'Service advisor: explain the process to the customer, step by step (use '
         + 'the passive)' },
-                { label: 'Card B', text: 'Play the other part. Ask, then decide.' }],
+                { label: 'Card B', text: 'Customer: ask what happens at each step, and when the car will be ready' }],
       remember: ['Model exchange — Rana: First, your car is booked in and a job card is '
-        + 'made. — Mr Aboud: Then what? — Rana: Then it is inspected and serviced. — '
-        + 'Mr Aboud: And before I get it back? — Rana: It is road-tested and checked, '
-        + 'then handed over. — Mr Aboud: ask what happens at each step, and when the '
-        + 'car will be ready.',
+        + 'made. — Customer: Then what? — Rana: Then it is inspected and serviced. — '
+        + 'Customer: And before I get it back? — Rana: It is road-tested and checked, '
+        + 'then handed over.',
         'Stretch: the customer wants the car back before the quality check is done '
         + '— explain, politely, why every car must be checked first'],
       minWords: 30,
@@ -41,11 +40,10 @@ EAM.page('u5-s12', {
         parts: ['The passive is used where the doer does not matter: “the car is checked”, '
         + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
         + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
-        example: ['Rana: First, your car is booked in and a job card is made. — Mr Aboud: '
-        + 'Then what? — Rana: Then it is inspected and serviced. — Mr Aboud: And '
+        example: ['Rana: First, your car is booked in and a job card is made. — Customer: '
+        + 'Then what? — Rana: Then it is inspected and serviced. — Customer: And '
         + 'before I get it back? — Rana: It is road-tested and checked, then handed '
-        + 'over. — Mr Aboud: ask what happens at each step, and when the car will be '
-        + 'ready.'],
+        + 'over.'],
         criteria: [{ t: 'The passive is used where the doer does not matter: “the car is checked”, '
         + 'not “the mechanic checks the car”.' },
                    { t: 'Each passive is “be” + the past participle, and “be” agrees with its '

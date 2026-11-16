@@ -7,15 +7,26 @@
    exercise, and gates/eam_ar.py fails the build if one appears.
 
    KEYED BY THE ENGLISH SENTENCE, normalised through core.js's arKey(): markup becomes a space,
-   curly quotes become straight ones, whitespace collapses. The keys below were taken verbatim
-   from the data files by tools/eam_ar_keys.py rather than retyped, because a key that differs
-   by one space attaches to nothing and fails silently.
+   curly quotes become straight ones, whitespace collapses. So rewrapping a sentence in a data
+   file does not orphan its translation, while rewriting the words does — and
+   gates/eam_ar.py B1 and B3 report both. The keys below were taken verbatim from the data
+   files rather than retyped, because a key that differs by one space attaches to nothing and
+   fails silently.
+
+   NOTE THE SPACE A TAG LEAVES BEHIND. arKey turns `<[^>]+>` into a SPACE, not into nothing, so
+   an instruction ending `<b>what they do</b>.` is looked up as `…what they do .` — with a
+   space before the full stop. An entry typed without it attaches to no sentence at all and
+   says nothing about it. This is why the keys are generated and never retyped.
+
+   FILLED BY tools/eam_ar_pool.py from the Arabic units 1–5 already carry, for every
+   direction this unit shares with them — which is most of them, because the directions are
+   emitted from the same templates. The unit's own titles and its own words were written for
+   this unit.
 
    NOT NATIVE-REVIEWED. This is a scaffold written for a learner who cannot yet read the
    English direction. It should be read by an Arabic speaker before a classroom relies on it.
    ============================================================ */
 EAM.arabic({
-
   /* ---- s01-warm-up ---- */
   'Match the steps with their meanings. One meaning is not needed. Write the letter. Column A Column B':
     'صِلْ كل خطوة بمعناها. هناك معنى واحد زائد لا يُستخدم. في الكتاب تُكتب الحروف؛ هنا اسحب المعنى إلى الخطوة.',
@@ -47,8 +58,6 @@ EAM.arabic({
     'اكتب جملتين أو ثلاثًا عن مسار الصيانة. استعمل ثلاث كلمات من هذه الوحدة.',
 
   /* ---- s05-grammar-notice ---- */
-  'Press a paragraph button to hear it read.':
-    'اضغط زر الفقرة لتسمعها مقروءة.',
   'Read these pairs. In which sentence is the doer important? In which is the action important?':
     'اقرأ هذه الأزواج: في أي جملة يكون الفاعل هو المهم؟ وفي أيها يكون الفعل نفسه هو المهم؟',
   'The book\'s own box. Read it once now; the practice that follows comes straight out of it.':
@@ -147,8 +156,6 @@ EAM.arabic({
     'تحدَّث مع زميل مستعينًا بالعبارات الجاهزة.',
 
   /* ---- s19-local-case-study ---- */
-  'Answer in a few words each.':
-    'أجب بكلمات قليلة عن كل سؤال.',
   'A big fleet job comes in, but the normal customers still need service. Should Maher (a) stop all normal work, (b) plan the fleet in small groups and keep some normal work going, or (c) refuse the fleet job? Decide and explain. Use the frame.':
     'وصل طلب كبير لأسطول سيارات، لكن الزبائن المعتادين ما زالوا بحاجة إلى الصيانة. هل ينبغي لماهر (أ) أن يوقف كل العمل المعتاد، أم (ب) أن يوزّع سيارات الأسطول على مجموعات صغيرة ويُبقي جزءًا من العمل المعتاد، أم (ج) أن يرفض طلب الأسطول؟ قرِّر واشرح، مستعينًا بالعبارات الجاهزة.',
 

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Answer key · Unit 6 &middot; English for Auto Maintenance B1</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/css/app.css">
+<script>window.EAM_BASE='../';window.EAM_MEDIA='';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/art-eam.js"></script>
+<script src="../assets/js/art-eam-cast.js"></script>
+<script src="../assets/js/art-eam-live.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/js/scene.js"></script>
+<script src="../assets/js/art-eam-u6.js"></script>
+<script src="../assets/data/unit6/meta.js"></script>
+<script src="../assets/data/unit6/voices.js"></script>
+<script src="../assets/data/unit6/glossary.js"></script>
+<script src="../assets/data/unit6/ar.js"></script>
+<script src="../assets/data/unit6/scenes.js"></script>
+<script src="../assets/data/unit6/map.js"></script>
+<script src="../assets/data/unit6/s01-warm-up.js"></script>
+<script src="../assets/data/unit6/s02-vocabulary.js"></script>
+<script src="../assets/data/unit6/s03-pronunciation.js"></script>
+<script src="../assets/data/unit6/s04-check.js"></script>
+<script src="../assets/data/unit6/s05-grammar-notice.js"></script>
+<script src="../assets/data/unit6/s06-grammar-practice.js"></script>
+<script src="../assets/data/unit6/s07-grammar-review.js"></script>
+<script src="../assets/data/unit6/s08-listening-1.js"></script>
+<script src="../assets/data/unit6/s09-listening-2.js"></script>
+<script src="../assets/data/unit6/s10-listening-3.js"></script>
+<script src="../assets/data/unit6/s11-speaking-model.js"></script>
+<script src="../assets/data/unit6/s12-role-play.js"></script>
+<script src="../assets/data/unit6/s13-reading-text.js"></script>
+<script src="../assets/data/unit6/s14-reading-comprehension.js"></script>
+<script src="../assets/data/unit6/s15-writing-model.js"></script>
+<script src="../assets/data/unit6/s16-management-file-dialogue.js"></script>
+<script src="../assets/data/unit6/s17-management-file-practice.js"></script>
+<script src="../assets/data/unit6/s18-global-case-study.js"></script>
+<script src="../assets/data/unit6/s19-local-case-study.js"></script>
+<script src="../assets/data/unit6/s20-spiral-review.js"></script>
+<script src="../assets/data/unit6/s21-can-do-glossary.js"></script>
+</head>
+<body data-la-course="eam-web" data-la-root="../../../">
+<span id="la-bar" class="la-float"></span>
+<script src="../../../assets/la/account.js"></script>
+
+<script>
+/* THE ANSWER KEY, DERIVED FROM THE UNIT'S OWN DATA.
+   Nothing about the answers is written in this file: every line below is read out of the same
+   data file the learner's screen loads, so a changed card changes the key with it. */
+(function () {
+  'use strict';
+  var U = EAM.util, el = U.el, esc = U.esc, art = EAM.art;
+  EAM.chrome = { refresh: function () {} };
+  var UNIT = 6;
+  var ROWS = EAM.unitMaps['unit' + UNIT] || [];
+  var PAGES = EAM.pages || {};
+
+  function plain(s) { return String(s == null ? '' : s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(); }
+  function listify(a) { return Array.isArray(a) ? a.join('  /  ') : plain(a); }
+
+  /* one card -> the lines a teacher needs. Open tasks say what to look for; they do not
+     pretend to have an answer. */
+  function keyFor(card) {
+    var out = [], t = card.type;
+    function line(s) { out.push(s); }
+    function whys(obj, head) {
+      if (!obj) return;
+      var ks = Object.keys(obj);
+      if (!ks.length) return;
+      line('');
+      line(head || 'What the page tells the learner:');
+      ks.forEach(function (k) { line('   ' + k + '  —  ' + plain(obj[k])); });
+    }
+
+    if (t === 'scene' && card.quiz) {
+      line('A scene plays, then the task below it. The transcript is on the card.');
+      line('');
+      return out.concat(keyFor(card.quiz));
+    }
+    if (t === 'quizset') {
+      (card.items || []).forEach(function (it, i) {
+        var right = (it.options || []).filter(function (o) { return o.ok; })[0] || {};
+        line((i + 1) + '. ' + plain(right.t));
+        if (it.evidence) line('      where: ' + plain(it.evidence));
+        (it.options || []).forEach(function (o) {
+          if (!o.ok && o.why) line('      x ' + plain(o.t) + ' — ' + plain(o.why));
+        });
+      });
+      return out;
+    }
+    if (t === 'tristate') {
+      if (card.given) line('0. ' + plain(card.given.t) + '  —  ' + card.given.ans + '  (worked)');
+      (card.items || []).forEach(function (it, i) {
+        line((i + 1) + '. ' + plain(it.t) + '  —  ' + it.ans);
+        if (it.why) line('      ' + plain(it.why));
+      });
+      return out;
+    }
+    if (t === 'cloze') {
+      var a = card.answers || {};
+      Object.keys(a).forEach(function (k) { line(k + '. ' + listify(a[k])); });
+      whys(card.why);
+      return out;
+    }
+    if (t === 'dragmatch') {
+      var byId = {};
+      (card.chips || []).forEach(function (ch) { byId[ch.id] = ch.label; });
+      (card.targets || []).forEach(function (tg, i) {
+        line((i + 1) + '. ' + plain(tg.label) + '  —  ' + plain(byId[tg.accept] || tg.accept));
+        if (tg.why) line('      ' + plain(tg.why));
+      });
+      if (card.after) line('\n' + plain(card.after));
+      return out;
+    }
+    if (t === 'shortanswer') {
+      (card.items || []).forEach(function (it, i) {
+        line((i + 1) + '. ' + plain(it.q));
+        line('      accept: ' + listify(it.accept));
+        if (it.evidence) line('      where: ' + plain(it.evidence));
+      });
+      return out;
+    }
+    if (t === 'editor') {
+      (card.items || []).forEach(function (it, i) {
+        line((i + 1) + '. ' + plain(it.wrong));
+        line('      -> ' + listify(it.accept));
+        if (it.why) line('      ' + plain(it.why));
+      });
+      return out;
+    }
+    if (t === 'order') {
+      var byB = {};
+      (card.blocks || []).forEach(function (b) { byB[b.id] = b.text; });
+      (card.positions || []).forEach(function (id, i) {
+        line((i + 1) + '. ' + plain(byB[id] || id));
+      });
+      if (card.after) line('\n' + plain(card.after));
+      return out;
+    }
+    if (t === 'chipcols') {
+      var cols = (card.cols || []).map(function (c) { return c.label; });
+      var ans = card.answers || {};
+      Object.keys(ans).forEach(function (k) {
+        line(plain(k) + '  —  ' + plain(cols[ans[k]] || ans[k]));
+      });
+      whys(card.why, 'Why each one:');
+      return out;
+    }
+    if (t === 'highlighter') {
+      var flat = [];
+      (card.paras || []).forEach(function (pp) { pp.forEach(function (x) { flat[x.i] = x.t; }); });
+      (card.answers || []).forEach(function (i) { line('• ' + plain(flat[i])); });
+      if (card.after) line('\n' + plain(card.after));
+      return out;
+    }
+    if (t === 'checklistlive') {
+      line('Self-assessment. Each row is checked against what the learner did on the writing');
+      line('screen of this unit, so a tick with no work behind it is reported to them.');
+      (card.items || []).forEach(function (it, i) { line('   ' + (i + 1) + '. ' + plain(it.t)); });
+      return out;
+    }
+    if (t === 'flashcards') {
+      line('The unit glossary as a deck. The ten words:');
+      (card.items || []).forEach(function (it) { line('   ' + plain(it.label)); });
+      return out;
+    }
+    /* the open ones: writing, speaking, role play, discussion */
+    line('OPEN TASK — there is no single answer. What to look for:');
+    var co = card.coach || card.aiCheck || {};
+    (co.criteria || []).forEach(function (c) { line('   • ' + plain(c.t || c)); });
+    (co.must || []).forEach(function (c) { line('   • ' + plain(c)); });
+    if (!(co.criteria || co.must)) line('   • the task is answered, in this unit\'s language');
+    if (co.example && co.example.length) {
+      line('');
+      line('The model the page can show, after an attempt:');
+      co.example.forEach(function (x) { line('   ' + plain(x)); });
+    }
+    if (card.minWords) line('\n   Length the page asks for: ' + card.minWords + ' words.');
+    return out;
+  }
+
+  var main = el('main', 'page-main'), wrap = el('div', 'wrap');
+  var head = el('div', 'page-head');
+  head.innerHTML = '<div class="eyebrow"><span>Teacher</span>'
+    + '<span class="bookchip">Unit ' + UNIT + '</span></div>'
+    + '<h1>Answer key &mdash; Unit ' + UNIT + '</h1>'
+    + '<p style="font-size:17px;max-width:72ch;color:var(--text-2)">Every answer below is read '
+    + 'out of the same data file the learner\'s screen loads, so this key cannot drift away '
+    + 'from the activity. Where a task is open, the key prints what to look for rather than '
+    + 'inventing an answer. The explanations are the ones the page itself gives.</p>'
+    + '<div class="btn-row" style="margin-top:12px">'
+    + '<button class="btn btn-sm no-print" id="pk">Print</button>'
+    + '<a class="btn btn-sm" href="index.html">All teacher pages</a>'
+    + '<a class="btn btn-sm" href="../unit' + UNIT + '/index.html">Open the unit</a></div>'
+    /* EVERY KEY PAGE SAYS WHAT IT IS, not only the index. These ten pages carry
+       `robots: noindex` and nothing more: the site's account layer has identity but no roles,
+       so there is nothing to check a path against, and a client-side check would be theatre
+       because the key is in the page. The index said so; the keys themselves did not, which
+       meant a teacher who arrived at one directly - which is how a shared link arrives - was
+       not told. RESIDUALS CX. */
+    + '<div class="note warm" style="margin-top:14px;max-width:72ch">'
+    + '<b>This page is not behind a login.</b> Anyone with the link can read it. It is kept out '
+    + 'of search engines, which is not the same as protected — do not share the URL with a '
+    + 'class.</div>';
+  wrap.appendChild(head);
+
+  ROWS.forEach(function (row) {
+    var page = PAGES[row.id];
+    var block = el('div', 'lesson-block');
+    block.innerHTML = '<h2>' + esc(row.label) + '</h2>';
+    if (!page) {
+      block.appendChild(el('p', 'wc', 'This screen\'s data did not load.'));
+      wrap.appendChild(block);
+      return;
+    }
+    (page.cards || []).forEach(function (card) {
+      var cbox = el('div', 'card'), cb = el('div', 'card-body');
+      cb.style.paddingTop = '16px';
+      cb.innerHTML = '<div class="eyebrow"><span>' + esc(card.ref || card.id) + '</span>'
+        + '<span class="bookchip">' + esc(card.type) + '</span></div>'
+        + '<h4 style="margin:4px 0 6px">' + esc(card.title || '') + '</h4>'
+        + '<p class="wc" style="margin-bottom:8px">' + (card.instruction || '') + '</p>';
+      var pre = el('pre');
+      pre.style.cssText = 'white-space:pre-wrap;font:14px/1.6 var(--mono,ui-monospace,monospace);'
+        + 'background:var(--surface-2);padding:12px 14px;border-radius:8px;overflow-wrap:anywhere';
+      pre.textContent = keyFor(card).join('\n') || '(nothing to mark)';
+      cb.appendChild(pre);
+      cbox.appendChild(cb);
+      block.appendChild(cbox);
+    });
+    wrap.appendChild(block);
+  });
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+  document.getElementById('pk').onclick = function () { window.print(); };
+}());
+</script>
+</body>
+</html>

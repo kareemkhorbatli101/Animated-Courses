@@ -7,15 +7,26 @@
    exercise, and gates/eam_ar.py fails the build if one appears.
 
    KEYED BY THE ENGLISH SENTENCE, normalised through core.js's arKey(): markup becomes a space,
-   curly quotes become straight ones, whitespace collapses. The keys below were taken verbatim
-   from the data files by tools/eam_ar_keys.py rather than retyped, because a key that differs
-   by one space attaches to nothing and fails silently.
+   curly quotes become straight ones, whitespace collapses. So rewrapping a sentence in a data
+   file does not orphan its translation, while rewriting the words does — and
+   gates/eam_ar.py B1 and B3 report both. The keys below were taken verbatim from the data
+   files rather than retyped, because a key that differs by one space attaches to nothing and
+   fails silently.
+
+   NOTE THE SPACE A TAG LEAVES BEHIND. arKey turns `<[^>]+>` into a SPACE, not into nothing, so
+   an instruction ending `<b>what they do</b>.` is looked up as `…what they do .` — with a
+   space before the full stop. An entry typed without it attaches to no sentence at all and
+   says nothing about it. This is why the keys are generated and never retyped.
+
+   FILLED BY tools/eam_ar_pool.py from the Arabic units 1–5 already carry, for every
+   direction this unit shares with them — which is most of them, because the directions are
+   emitted from the same templates. The unit's own titles and its own words were written for
+   this unit.
 
    NOT NATIVE-REVIEWED. This is a scaffold written for a learner who cannot yet read the
    English direction. It should be read by an Arabic speaker before a classroom relies on it.
    ============================================================ */
 EAM.arabic({
-
   /* ---- s01-warm-up ---- */
   'Match the tools with their uses. One use is not needed. Write the letter. Column A Column B':
     'صِلْ كل أداة بالعمل الذي تُستعمل فيه. هناك استعمال واحد زائد لا يُستخدم. في الكتاب تُكتب الحروف؛ هنا اسحب المعنى إلى الأداة.',
@@ -145,8 +156,6 @@ EAM.arabic({
     'تحدَّث مع زميل مستعينًا بالعبارات الجاهزة.',
 
   /* ---- s19-local-case-study ---- */
-  'Answer in a few words each.':
-    'أجب بكلمات قليلة عن كل سؤال.',
   'A garage owner has some money to improve his workshop. Should he first (a) buy a new diagnostic machine, (b) buy safety gear and axle stands and train the team, or (c) paint the building? Decide and explain. Use the frame.':
     'صاحب ورشة لديه مبلغ من المال ليحسّن ورشته. هل يشتري أولًا (أ) جهاز تشخيص جديدًا، أم (ب) معدات سلامة وحوامل محاور ويدرِّب فريقه، أم (ج) يدهن المبنى؟ قرِّر واشرح، مستعينًا بالعبارات الجاهزة.',
 

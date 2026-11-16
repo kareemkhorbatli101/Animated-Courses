@@ -7,15 +7,26 @@
    exercise, and gates/eam_ar.py fails the build if one appears.
 
    KEYED BY THE ENGLISH SENTENCE, normalised through core.js's arKey(): markup becomes a space,
-   curly quotes become straight ones, whitespace collapses. The keys below were taken verbatim
-   from the data files by tools/eam_ar_keys.py rather than retyped, because a key that differs
-   by one space attaches to nothing and fails silently.
+   curly quotes become straight ones, whitespace collapses. So rewrapping a sentence in a data
+   file does not orphan its translation, while rewriting the words does — and
+   gates/eam_ar.py B1 and B3 report both. The keys below were taken verbatim from the data
+   files rather than retyped, because a key that differs by one space attaches to nothing and
+   fails silently.
+
+   NOTE THE SPACE A TAG LEAVES BEHIND. arKey turns `<[^>]+>` into a SPACE, not into nothing, so
+   an instruction ending `<b>what they do</b>.` is looked up as `…what they do .` — with a
+   space before the full stop. An entry typed without it attaches to no sentence at all and
+   says nothing about it. This is why the keys are generated and never retyped.
+
+   FILLED BY tools/eam_ar_pool.py from the Arabic units 1–5 already carry, for every
+   direction this unit shares with them — which is most of them, because the directions are
+   emitted from the same templates. The unit's own titles and its own words were written for
+   this unit.
 
    NOT NATIVE-REVIEWED. This is a scaffold written for a learner who cannot yet read the
    English direction. It should be read by an Arabic speaker before a classroom relies on it.
    ============================================================ */
 EAM.arabic({
-
   /* ---- s01-warm-up ---- */
   'Match the words with their meanings. One meaning is not needed. Write the letter. Column A Column B':
     'صِلْ كل كلمة بمعناها. هناك معنى واحد زائد لا يُستخدم. في الكتاب تُكتب الحروف؛ هنا اسحب المعنى إلى الكلمة.',

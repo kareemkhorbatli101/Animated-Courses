@@ -1343,3 +1343,25 @@ button.is-ai { border-color: var(--accent, #e8b418); }
   color: var(--teal-700);
   margin-bottom: 2px;
 }
+
+/* The book's end-of-course address, on the last card of unit 10. It is the one piece of prose
+   in the course addressed TO the learner, so it is set larger than body copy and centred, and
+   it is not styled as a task - there is nothing to answer on it. */
+.closing {
+  max-width: 60ch;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.closing p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text-1);
+  margin: 0 0 14px;
+}
+
+.closing p:first-child {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--teal-800);
+}

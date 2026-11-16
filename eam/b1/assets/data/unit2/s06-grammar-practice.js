@@ -31,16 +31,17 @@ EAM.page('u2-s06', {
         '3': ['are'],
         '4': ['is']
       },
+      bank: ['is', 'are'],
       whyTitle: 'How each gap was decided',
       why: {
-        '1': '<b>are</b>. Read the words either side of the gap: they fix which word '
-        + 'belongs here.',
-        '2': '<b>is</b>. Read the words either side of the gap: they fix which word '
-        + 'belongs here.',
-        '3': '<b>are</b>. Read the words either side of the gap: they fix which word '
-        + 'belongs here.',
-        '4': '<b>is</b>. Read the words either side of the gap: they fix which word '
-        + 'belongs here.'
+        '1': '<b>are</b>. The sentence names what this one DOES, which is what tells it '
+        + 'apart from <i>is</i> in the bank.',
+        '2': '<b>is</b>. The sentence names what this one DOES, which is what tells it '
+        + 'apart from <i>are</i> in the bank.',
+        '3': '<b>are</b>. The sentence names what this one DOES, which is what tells it '
+        + 'apart from <i>is</i> in the bank.',
+        '4': '<b>is</b>. The sentence names what this one DOES, which is what tells it '
+        + 'apart from <i>are</i> in the bank.'
       }
     },
     {

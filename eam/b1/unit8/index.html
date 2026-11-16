@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 8 &middot; Quality, Standards and Warranty &middot; English for Auto Maintenance B1</title>
+<meta name="description" content="Unit 8 map &mdash; 21 interactive sections across the parts of the book, with your progress and the coverage manifest.">
+<link rel="stylesheet" href="../assets/css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='9' fill='%231f6f8b'/%3E%3Cpath d='M9 30 l5-8 q2-3 6-3h16q4 0 6 3l5 8v7h-5a4 4 0 0 1-8 0H22a4 4 0 0 1-8 0H9z' fill='%23fdfbf6'/%3E%3Ccircle cx='17' cy='37' r='3' fill='%231b1f24'/%3E%3Ccircle cx='35' cy='37' r='3' fill='%231b1f24'/%3E%3C/svg%3E">
+<script>window.EAM_BASE='../';window.EAM_MEDIA='';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/art-eam.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/data/unit8/meta.js"></script>
+<script src="../assets/data/unit8/voices.js"></script>
+<script src="../assets/data/unit8/glossary.js"></script>
+<script src="../assets/data/unit8/ar.js"></script>
+<script src="../assets/data/unit8/map.js"></script>
+<script src="coverage.js"></script>
+</head>
+<body data-la-course="eam-web" data-la-root="../../../">
+<noscript><p style="padding:40px;font:600 16px system-ui">This course needs JavaScript. Please enable it and reload.</p></noscript>
+<span id="la-bar" class="la-float"></span>
+<script src="../../../assets/la/account.js?v=c611664f37"></script>
+<script>
+/* The unit hub: what is in the unit, how far you are through it, and what the course does with
+   the book. Built from map.js, meta.js and coverage.js — nothing about the unit is written in
+   this file, so the hub cannot disagree with the screens it links to. */
+(function () {
+  'use strict';
+  var U = EAM.util, el = U.el, art = EAM.art, P = EAM.progress;
+  var META = EAM.unitMeta.unit8, ROWS = EAM.unitMaps.unit8, COV = EAM.coverageData.unit8 || [];
+
+  EAM.chrome = { refresh: function () {} };
+
+  /* ---- top bar ---- */
+  document.body.appendChild((function () {
+    var bar = el('header', 'topbar'), wrap = el('div', 'wrap');
+    var brand = el('a', 'brand');
+    brand.href = '../index.html';
+    brand.innerHTML = art.icon('wrench', 20) + '<span>Auto Maintenance B1</span>';
+    wrap.appendChild(brand);
+    wrap.appendChild(el('div', 'crumbs',
+      '<span class="sep">▸</span><span>Unit ' + META.n + ' · ' + U.esc(META.title) + '</span>'));
+    wrap.appendChild(el('div', 'spacer'));
+    var tools = el('div', 'tb-tools');
+    var th = el('button', 'btn btn-sm btn-ghost', art.icon('moon', 16));
+    th.title = 'Light / dark theme';
+    th.onclick = EAM.toggleTheme;
+    tools.appendChild(th);
+    wrap.appendChild(tools);
+    bar.appendChild(wrap);
+    return bar;
+  })());
+
+  var main = el('main', 'page-main'), wrap = el('div', 'wrap');
+
+  /* ---- heading ---- */
+  var head = el('div', 'page-head');
+  head.innerHTML =
+    '<div class="eyebrow"><span>Unit ' + META.n + '</span>' +
+    '<span class="bookchip">' + U.esc(META.cefr) + ' · ' + U.esc(META.grammar) + '</span></div>' +
+    '<h1>' + U.esc(META.title) + '</h1>' +
+    '<p style="font-size:17px;max-width:72ch;color:var(--text-2)">' + U.esc(META.blurb) +
+    ' The cast you meet here — Maher, Nabil, Rana, Lina and Tarek — are the same five the ' +
+    'acted videos follow, so the page and the screen teach the same unit.</p>';
+  wrap.appendChild(head);
+
+  var look = el('div', 'note warm');
+  look.innerHTML = '<h4>By the end of this unit</h4>' +
+    META.canDo.map(function (x) { return '<div>• ' + U.esc(x) + '</div>'; }).join('');
+  wrap.appendChild(look);
+
+  /* ---- progress ---- */
+  var sum = el('div', 'card'), sb = el('div', 'card-body');
+  sb.style.paddingTop = '20px';
+  var done = ROWS.filter(function (r) {
+    var sc = P.pageScore(r.id);
+    return sc.total > 0 && sc.done === sc.total;
+  }).length;
+  var cards = ROWS.reduce(function (a, r) { return a + P.pageScore(r.id).total; }, 0);
+  var doneCards = ROWS.reduce(function (a, r) { return a + P.pageScore(r.id).done; }, 0);
+  var US = P.unitScore ? P.unitScore('unit8') : null;
+  var pct = (US && US.max) ? Math.round(US.score / US.max * 100) : 0;
+  sb.innerHTML =
+    '<div style="display:flex;gap:26px;align-items:center;flex-wrap:wrap">' +
+    '<div><div class="eyebrow">Your progress</div>' +
+    '<div style="font:800 30px/1 var(--ui);color:var(--primary)">' + done + ' / ' + ROWS.length +
+    '</div><div class="wc">sections finished</div></div>' +
+    (US && US.max
+      ? '<div><div class="eyebrow">Marks</div><div style="font:800 30px/1 var(--ui);color:' +
+        (pct >= 80 ? 'var(--ok)' : (pct >= 50 ? 'var(--hint)' : 'var(--accent)')) + '">' +
+        US.score + ' / ' + US.max + '</div><div class="wc">' + pct +
+        '% on the ' + US.scored + ' exercises the page marks</div></div>'
+      : '') +
+    (US && US.open
+      ? '<div><div class="eyebrow">Your own writing</div>' +
+        '<div style="font:800 30px/1 var(--ui);color:var(--primary-2)">' + US.open + '</div>' +
+        '<div class="wc">open tasks submitted — counted, never scored</div></div>'
+      : '') +
+    '<div style="flex:1;min-width:200px"><div class="meter"><i style="width:' +
+    (ROWS.length ? (done / ROWS.length * 100) : 0) + '%"></i></div>' +
+    '<div class="wc" style="margin-top:6px">' + doneCards + ' of ' + cards +
+    ' activities completed</div></div></div>';
+
+  var btns = el('div', 'btn-row');
+  var nextRow = ROWS.filter(function (r) {
+    var sc = P.pageScore(r.id);
+    return !(sc.total > 0 && sc.done === sc.total);
+  })[0] || ROWS[0];
+  var resume = el('a', 'btn btn-primary', art.icon('play', 16) + 'Start / resume');
+  resume.href = nextRow.file + '.html';
+  btns.appendChild(resume);
+
+  var exp = el('button', 'btn', art.icon('print', 16) + 'Export my progress');
+  exp.onclick = function () {
+    var blob = new Blob([P.exportAll()], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'eam-b1-unit8-progress.json';
+    a.click();
+  };
+  btns.appendChild(exp);
+
+  var rs = el('button', 'btn btn-ghost', 'Reset Unit 8');
+  rs.onclick = function () {
+    if (!confirm('Delete all your saved answers for Unit 8? This cannot be undone.')) return;
+    ROWS.forEach(function (r) { delete P.all[r.id]; });
+    P.save();
+    location.reload();
+  };
+  btns.appendChild(rs);
+  sb.appendChild(btns);
+  sum.appendChild(sb);
+  wrap.appendChild(sum);
+
+  /* ---- the twenty-one sections, grouped by the book's parts ---- */
+  var groups = [], last = null;
+  ROWS.forEach(function (r) {
+    if (!last || last.lesson !== r.lesson) {
+      last = { lesson: r.lesson, rows: [] };
+      groups.push(last);
+    }
+    last.rows.push(r);
+  });
+
+  var n = 0;
+  groups.forEach(function (g) {
+    var block = el('div', 'lesson-block');
+    block.innerHTML = '<h2>' + U.esc(g.lesson) + '</h2>';
+    var grid = el('div', 'stations');
+    g.rows.forEach(function (r) {
+      n++;
+      var sc = P.pageScore(r.id);
+      var cls = 'station' + (sc.total > 0 && sc.done === sc.total ? ' done'
+        : (sc.done > 0 ? ' part' : ''));
+      var a = el('a', cls);
+      a.href = r.file + '.html';
+      a.innerHTML = '<span class="n">' + (sc.total > 0 && sc.done === sc.total ? '✓' : n) +
+        '</span><span class="t">' + U.esc(r.label) +
+        '<small>' + r.n + ' card' + (r.n === 1 ? '' : 's') +
+        ' · acted lesson ' + U.esc(r.video) + '</small></span>' +
+        '<span class="bookchip">Part ' + U.esc(r.part) + '</span>';
+      grid.appendChild(a);
+    });
+    block.appendChild(grid);
+    wrap.appendChild(block);
+  });
+
+  /* ---- what this course does with the book ---- */
+  var full = COV.filter(function (r) { return r.status === 'full'; }).length;
+  var adapted = COV.filter(function (r) { return r.status === 'adapted'; }).length;
+  var bonus = COV.filter(function (r) { return r.status === 'bonus'; }).length;
+  var cbox = el('div', 'card'), cb = el('div', 'card-body');
+  cb.style.paddingTop = '20px';
+  cb.innerHTML = '<div class="eyebrow">Coverage against the book</div>' +
+    '<p style="margin-bottom:10px">Every exercise in EAM Book 1 Unit 8 is implemented: ' +
+    '<b>' + full + '</b> exactly as the book sets it, <b>' + adapted + '</b> adapted — most ' +
+    'often because a matching task is drawn rather than written, or because a task the book ' +
+    'gives to a pair has been made to work for a learner on their own' +
+    (bonus ? ', plus <b>' + bonus + '</b> card that is not in the book' : '') +
+    '. <b>Nothing is dropped</b>, and every adapted row says what changed and why.</p>';
+  var tog = el('button', 'btn btn-sm', art.icon('eye', 15) + 'Show the full manifest');
+  var tbl = el('div', 'matrix-wrap');
+  tbl.style.display = 'none';
+  tbl.innerHTML = '<table class="tbl"><thead><tr><th>Book</th><th>Screen</th><th>Status</th>' +
+    '<th>What changed, and why</th></tr></thead><tbody>' +
+    COV.map(function (r) {
+      return '<tr><td>' + U.esc(r.ref) + '</td><td>' + U.esc(r.page) + '</td>' +
+        '<td><b>' + U.esc(r.status) + '</b></td><td>' + U.esc(r.note || '—') +
+        (r.inClass ? '<div class="wc" style="margin-top:5px"><b>With a class:</b> ' +
+          U.esc(r.inClass) + '</div>' : '') + '</td></tr>';
+    }).join('') + '</tbody></table>';
+  tog.onclick = function () {
+    var on = tbl.style.display !== 'none';
+    tbl.style.display = on ? 'none' : 'block';
+    tog.innerHTML = art.icon('eye', 15) + (on ? 'Show the full manifest' : 'Hide the manifest');
+  };
+  cb.appendChild(tog);
+  cb.appendChild(tbl);
+  cbox.appendChild(cb);
+  wrap.appendChild(cbox);
+
+  var nav = el('div', 'btn-row');
+  nav.style.margin = '28px 0 10px';
+  var back = el('a', 'btn', '◀ All units');
+  back.href = '../index.html';
+  nav.appendChild(back);
+  wrap.appendChild(nav);
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+}());
+</script>
+</body>
+</html>

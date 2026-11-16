@@ -194,7 +194,17 @@
     + '<div class="btn-row" style="margin-top:12px">'
     + '<button class="btn btn-sm no-print" id="pk">Print</button>'
     + '<a class="btn btn-sm" href="index.html">All teacher pages</a>'
-    + '<a class="btn btn-sm" href="../unit' + UNIT + '/index.html">Open the unit</a></div>';
+    + '<a class="btn btn-sm" href="../unit' + UNIT + '/index.html">Open the unit</a></div>'
+    /* EVERY KEY PAGE SAYS WHAT IT IS, not only the index. These ten pages carry
+       `robots: noindex` and nothing more: the site's account layer has identity but no roles,
+       so there is nothing to check a path against, and a client-side check would be theatre
+       because the key is in the page. The index said so; the keys themselves did not, which
+       meant a teacher who arrived at one directly - which is how a shared link arrives - was
+       not told. RESIDUALS CX. */
+    + '<div class="note warm" style="margin-top:14px;max-width:72ch">'
+    + '<b>This page is not behind a login.</b> Anyone with the link can read it. It is kept out '
+    + 'of search engines, which is not the same as protected — do not share the URL with a '
+    + 'class.</div>';
   wrap.appendChild(head);
 
   ROWS.forEach(function (row) {

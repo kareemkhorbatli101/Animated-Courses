@@ -7,15 +7,26 @@
    exercise, and gates/eam_ar.py fails the build if one appears.
 
    KEYED BY THE ENGLISH SENTENCE, normalised through core.js's arKey(): markup becomes a space,
-   curly quotes become straight ones, whitespace collapses. The keys below were taken verbatim
-   from the data files by tools/eam_ar_keys.py rather than retyped, because a key that differs
-   by one space attaches to nothing and fails silently.
+   curly quotes become straight ones, whitespace collapses. So rewrapping a sentence in a data
+   file does not orphan its translation, while rewriting the words does — and
+   gates/eam_ar.py B1 and B3 report both. The keys below were taken verbatim from the data
+   files rather than retyped, because a key that differs by one space attaches to nothing and
+   fails silently.
+
+   NOTE THE SPACE A TAG LEAVES BEHIND. arKey turns `<[^>]+>` into a SPACE, not into nothing, so
+   an instruction ending `<b>what they do</b>.` is looked up as `…what they do .` — with a
+   space before the full stop. An entry typed without it attaches to no sentence at all and
+   says nothing about it. This is why the keys are generated and never retyped.
+
+   FILLED BY tools/eam_ar_pool.py from the Arabic units 1–5 already carry, for every
+   direction this unit shares with them — which is most of them, because the directions are
+   emitted from the same templates. The unit's own titles and its own words were written for
+   this unit.
 
    NOT NATIVE-REVIEWED. This is a scaffold written for a learner who cannot yet read the
    English direction. It should be read by an Arabic speaker before a classroom relies on it.
    ============================================================ */
 EAM.arabic({
-
   /* ---- s01-warm-up ---- */
   'Match the words with their meanings. One meaning is not needed. Write the letter. Column A Column B':
     'صِلْ كل كلمة بمعناها. هناك معنى واحد زائد لا يُستخدم. في الكتاب تُكتب الحروف؛ هنا اسحب المعنى إلى الكلمة.',
@@ -47,8 +58,6 @@ EAM.arabic({
     'اكتب جملتين أو ثلاثًا عمّا تقيسه في السيارة والأدوات التي تستعملها. استعمل ثلاث كلمات من هذه الوحدة.',
 
   /* ---- s05-grammar-notice ---- */
-  'Press a paragraph button to hear it read.':
-    'اضغط زر الفقرة لتسمعها مقروءة.',
   'Read these lines from a tyre check. Underline the comparative and superlative forms.':
     'اقرأ هذه الجمل من فحص الإطارات، وحدِّد صيغ المقارنة والتفضيل.',
   'The book\'s own box. Read it once now; the practice that follows comes straight out of it.':
@@ -147,8 +156,6 @@ EAM.arabic({
     'تحدَّث مع زميل مستعينًا بالعبارات الجاهزة.',
 
   /* ---- s19-local-case-study ---- */
-  'Answer in a few words each.':
-    'أجب بكلمات قليلة عن كل سؤال.',
   'A customer drives every day on rough, dusty roads. Should the service centre (a) follow the book\'s interval exactly, (b) shorten the interval and check more often, or (c) never service the car? Decide and explain. Use the frame.':
     'زبون يقود يوميًّا على طرق وعرة مليئة بالغبار. هل ينبغي لمركز الخدمة (أ) أن يتبع الفترة التي يحددها الكتاب تمامًا، أم (ب) أن يقصّر الفترة ويفحص السيارة أكثر، أم (ج) ألّا يصونها أبدًا؟ قرِّر واشرح، مستعينًا بالعبارات الجاهزة.',
 
