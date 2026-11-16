@@ -47,7 +47,8 @@ P = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(P)
 
 # gated: a property of English, so the TOEFL window transfers
-GATED_BY_VOL = {2: dict(k1=(67.5, 70.0), beyond=(13.5, 16.5)),
+GATED_BY_VOL = {1: dict(k1=(69.0, 71.5), beyond=(11.5, 14.5)),
+                2: dict(k1=(67.5, 70.0), beyond=(13.5, 16.5)),
                 3: dict(k1=(66.0, 68.5), beyond=(16.0, 19.0)),
                 4: dict(k1=(64.5, 67.0), beyond=(18.5, 21.5)),
                 5: dict(k1=(62.5, 65.5), beyond=(20.5, 23.5)),

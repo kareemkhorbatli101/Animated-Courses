@@ -18,7 +18,9 @@ import charts
 import diagrams
 import frames as F
 
-VOLS = {2: dict(units=range(11, 21), level='B1+', band='5.5',
+VOLS = {1: dict(units=range(1, 11), level='B1', band='5.0',
+                cefr='B1', title='Volume 1'),
+        2: dict(units=range(11, 21), level='B1+', band='5.5',
                 cefr='B1+', title='Volume 2'),
         3: dict(units=range(21, 31), level='B1+', band='6.0',
                 cefr='B1+', title='Volume 3'),
@@ -31,6 +33,10 @@ VOLS = {2: dict(units=range(11, 21), level='B1+', band='5.5',
 
 # what the band on the cover is actually for, per volume
 BAND_IS_FOR = {
+    '5.0': 'which is the first score that counts for anything — the entry '
+           'requirement for a foundation year, many vocational courses and '
+           'several visa routes, and the band at which a candidate stops '
+           'being defeated by the paper and starts being beaten by it',
     '5.5': 'which is the commonest band awarded anywhere in the world and '
            'the commonest place to stop, usually because one section is '
            'half a band behind the other three and nobody has said which',
@@ -105,8 +111,8 @@ def _items(d, items, start, key, skill):
     return n
 
 
-SPEED = {2: (110, 130), 3: (125, 140), 4: (150, 165), 5: (170, 185),
-         6: (190, 210)}
+SPEED = {1: (100, 120), 2: (110, 130), 3: (125, 140), 4: (150, 165),
+         5: (170, 185), 6: (190, 210)}
 _NUM = {3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven'}
 
 
@@ -775,6 +781,10 @@ def expression_bank(d, vol, units):
 
 
 BLURB_BY_VOL = {
+    1: ['The volume for band 5.0 and a first sitting — the book for a',
+        'candidate who can read English but has never met this paper, and',
+        'who loses marks to the clock and the question wording rather than',
+        'to the language. Academic and General Training in one book.'],
     2: ['The volume for band 5.5 — the commonest score in the world and',
         'the commonest ceiling, which is a different problem from not',
         'knowing enough English. Academic and General Training in one',
@@ -799,6 +809,15 @@ BLURB_BY_VOL = {
         'substitutions.'],
 }
 BULLETS_BY_VOL = {
+    1: ['Every task type, five times in every unit, both modules '
+        'throughout',
+        'Academic passages of 400 to 510 words, five paragraphs and the '
+        'loop',
+        'The reading method taught at 100 to 120 words a minute, and '
+        'measured',
+        'Grammar and vocabulary taught inside the cycle whose texts use '
+        'them',
+        'A full timed Reading paper and a full timed Listening paper'],
     2: ['Every task type, five times in every unit, both modules '
         'throughout',
         'Academic passages of 450 to 580 words, five paragraphs and the '

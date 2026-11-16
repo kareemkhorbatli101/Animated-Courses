@@ -15,6 +15,16 @@ import sys
 # shorter and its scripts slower than the volume above it, and the ladder is
 # the whole promise of the series, so it is gated rather than intended.
 BANDS_BY_VOL = {
+    # Volume 1 is the first sitting: five-paragraph academic passages of
+    # about 480 words, Part 1 scripts of 220-300 and a Part 4 of 260-340,
+    # which is the plan's own V1 row. Everything steps down from Volume 2
+    # except the two productive bands, which cannot: a model has to satisfy
+    # the rubric at any band, so Task 1 still starts at 155 words and Task 2
+    # at 255, above the floor the instructions demand.
+    1: {'gt_short': (110, 185), 'gt_work': (175, 250), 'long': (290, 390),
+        'acad': (400, 510), 'l1': (170, 245), 'l2': (180, 255),
+        'l3': (210, 295), 'l4': (255, 345), 'model': (155, 255),
+        'essay': (255, 330)},
     # Volume 2 is the first book below Volume 3 to be written, so its bands
     # are a step down from Volume 3's and sit inside the plan's own V1-V2
     # row: short GT 130-180, workplace 200-280, long 320-420, academic
@@ -63,7 +73,8 @@ BANDS = BANDS_BY_VOL[4]
 # the timed Reading paper: per passage, and for the paper as a whole. The
 # real Academic paper runs 2,150-2,750 words; a volume below the target band
 # sits at the bottom of that range and reaches it at Volume 5.
-PAPER_BY_VOL = {2: dict(passage=(520, 700), total=(1650, 2000)),
+PAPER_BY_VOL = {1: dict(passage=(430, 580), total=(1400, 1700)),
+                2: dict(passage=(520, 700), total=(1650, 2000)),
                 3: dict(passage=(620, 820), total=(1950, 2350)),
                 4: dict(passage=(700, 950), total=(2150, 2750)),
                 5: dict(passage=(760, 1000), total=(2350, 2850)),
