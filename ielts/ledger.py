@@ -36,6 +36,14 @@ sys.path.insert(0, HERE)
 
 WORD = re.compile(r"[A-Za-z][A-Za-z'-]*")
 
+# Names the capitalisation rule does not catch, because the series uses
+# them at the start of a sentence as often as inside one. A town in a
+# reading passage is not a word to teach.
+BLOCK = {'brackwell', 'ashfield', 'ashbury', 'dunmorrow', 'hallowfield',
+         'marchfield', 'greenway', 'fenwick', 'oduya', 'mariam',
+         'hillcrest', 'brantwell', 'carrowmoor', 'ashwell', 'kessock',
+         'larchmont', 'netherby', 'strathmore', 'tarnmouth', 'eastvale'}
+
 # Endings stripped before a type is looked up, so that "measured" and
 # "measures" are not counted as two unknown words when "measure" is known.
 SUFF = ('ingly', 'edly', 'ies', 'ied', 'ing', 'ers', 'est', 'ely', 'ed',
@@ -152,7 +160,7 @@ def gap(rng=range(1, 11), k=1000):
     for w, n in seen.items():
         if len(w) < 3 or known(w, R, spoken, k):
             continue
-        if caps.get(w, 0) >= 0.6 * n:
+        if caps.get(w, 0) >= 0.6 * n or w in BLOCK:
             continue
         if any(f in spoken for f in stem(w)):
             continue

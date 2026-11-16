@@ -66,7 +66,8 @@ def unknown_types(paras, R, kn):
                 caps[w] = caps.get(w, 0) + 1
             if not LG.known(w, R, kn):
                 seen.add(w)
-    return {w for w in seen if caps.get(w, 0) < 0.6 * n[w]}
+    return {w for w in seen
+            if caps.get(w, 0) < 0.6 * n[w] and w not in LG.BLOCK}
 
 
 def main(argv):

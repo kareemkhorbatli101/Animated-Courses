@@ -34,17 +34,20 @@ OUT = os.path.join(HERE, 'alloc.json')
 # Volume 1 unit -> the Foundation units that inherit its vocabulary.
 # Modules 61-70 are Foundation 1, 71-80 Foundation 2.
 THEME = {
-    1:  [67, 77],        # Education            -> School and Study; Clothes
-    2:  [66, 79],        # Work and Careers     -> Work and Jobs; News
-    3:  [68, 78],        # Health               -> Health and the Body
+    1:  [67, 71],        # Education            -> School and Study; Art
+    2:  [66, 77],        # Work and Careers     -> Work and Jobs; Clothes
+    3:  [68, 78],        # Health               -> Health; Festivals
     4:  [70, 74],        # Environment          -> Weather; Animals
-    5:  [63, 73],        # Technology           -> Family; Technology at Home
+    5:  [64, 73],        # Technology           -> Shopping; Technology
     6:  [65, 76],        # Travel and Tourism   -> Travel; Holidays
     7:  [62, 75],        # Cities and Housing   -> Home; Cities
-    8:  [61, 71],        # Food and Agriculture -> Food; Art and Design
-    9:  [69, 72],        # Media                -> Free Time; Music
-    10: [64, 80],        # Sport                -> Shopping; Transport
+    8:  [61, 78],        # Food and Agriculture -> Food; Festivals
+    9:  [63, 79],        # Media                -> Family; News and Media
+    10: [69, 80],        # Sport                -> Free Time; Transport
 }
+# Foundation 2's music unit has no source unit in Volume 1, which has no
+# music in it. It fills from the spill, which is the honest answer: there
+# is no measured music vocabulary to inherit.
 F1 = list(range(61, 71))
 F2 = list(range(71, 81))
 PER_CYCLE = 15           # a ceiling; the floor is 14
