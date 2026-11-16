@@ -20,13 +20,13 @@ _NEWS = dict(kind='bar',
 _CABLE = dict(kind='device',
               title='How a cable network reaches a house',
               sub='from the exchange to the socket on the wall',
-              parts=[('ex', 0.02, 0.04, 0.26, 0.18, 'Exchange'),
-                     ('cab', 0.37, 0.04, 0.26, 0.18, 'Street '
+              parts=[('ex', 0.04, 0.04, 0.30, 0.18, 'Exchange'),
+                     ('cab', 0.58, 0.04, 0.30, 0.18, 'Street '
                       'cabinet'),
-                     ('drop', 0.37, 0.41, 0.26, 0.18, 'Drop cable'),
-                     ('sock', 0.72, 0.41, 0.26, 0.18, 'Wall socket'),
-                     ('rt', 0.72, 0.78, 0.26, 0.18, 'Router'),
-                     ('dev', 0.37, 0.78, 0.26, 0.18, 'Device '
+                     ('drop', 0.58, 0.41, 0.30, 0.18, 'Drop cable'),
+                     ('sock', 0.04, 0.41, 0.30, 0.18, 'Wall socket'),
+                     ('rt', 0.04, 0.78, 0.30, 0.18, 'Router'),
+                     ('dev', 0.58, 0.78, 0.30, 0.18, 'Device '
                       'indoors')],
               flows=[('ex', 'cab', 'fibre'),
                      ('cab', 'drop', 'one house'),
