@@ -1,12 +1,12 @@
-# IELTS 2026 Preparation Course — the graded series
+# IELTS 2026 Preparation Course — the complete series
 
-Six volumes, 60 units, 300 cycles. Academic **and** General Training in
+**Eight books, 80 units, 400 cycles.** Academic **and** General Training in
 every book. Built from one source, gated the same way, and graded so that
-each volume starts where the one below it stops.
+each book starts where the one below it stops.
 
-Foundation 1 and Foundation 2 (below 4.0 and 4.0–4.5) are planned in
-`IELTS_Series_Plan.md` but are **not built yet**. This package is the six
-graded volumes, which are.
+The series is now complete: the two Foundation books (below 4.0 and
+4.0–4.5) are built, and the gap between them and Volume 1 is measured
+rather than assumed — see *The bridge into Volume 1* below.
 
 ---
 
@@ -14,6 +14,8 @@ graded volumes, which are.
 
 | Book | CEFR | Band | Units | Pages | Figures | File |
 |---|---|---|---|---|---|---|
+| Foundation 1 | A1–A2 | below 4.0 | 1–10 | 411 | 436 | `IELTS_2026_A1-A2_Foundation_1.docx` |
+| Foundation 2 | A2–B1 | 4.0–4.5 | 1–10 | 439 | 440 | `IELTS_2026_A2-B1_Foundation_2.docx` |
 | Volume 1 | B1 | 5.0 | 1–10 | 468 | 436 | `IELTS_2026_B1_Volume_1.docx` |
 | Volume 2 | B1+ | 5.5 | 11–20 | 481 | 438 | `IELTS_2026_B1plus_Volume_2.docx` |
 | Volume 3 | B2 | 6.0 | 21–30 | 497 | 445 | `IELTS_2026_B2_Volume_3.docx` |
@@ -21,8 +23,11 @@ graded volumes, which are.
 | Volume 5 | B2+/C1 | 7.0 | 41–50 | 513 | 430 | `IELTS_2026_B2plus_Volume_5.docx` |
 | Volume 6 | C1 | 7.5–8.0 | 51–60 | 539 | 449 | `IELTS_2026_C1_Volume_6.docx` |
 
-**3,004 pages. 2,662 rendered figures. 2,400 head words, none repeated
-across volumes.**
+**3,854 pages. 3,538 rendered figures. 3,384 head words, none repeated
+across books.**
+
+Each Foundation book numbers its own units 1–10, because each stands
+alone; the six graded volumes carry units 1–60 straight through.
 
 Band 6.5 (Volume 4) and 7.0 (Volume 5) are the two thresholds written into
 university and immigration requirements, which is why they were written
@@ -68,14 +73,16 @@ on the 2-to-5 rule. **No templates anywhere.**
 
 ### The speed ladder
 
-| Volume | Reading speed |
+| Book | Reading speed |
 |---|---|
-| 1 | 100–120 wpm |
-| 2 | 110–130 |
-| 3 | 125–140 |
-| 4 | 150–165 |
-| 5 | 170–185 |
-| 6 | 190–210 |
+| Foundation 1 | 60–80 wpm |
+| Foundation 2 | 80–100 |
+| Volume 1 | 100–120 |
+| Volume 2 | 110–130 |
+| Volume 3 | 125–140 |
+| Volume 4 | 150–165 |
+| Volume 5 | 170–185 |
+| Volume 6 | 190–210 |
 
 ---
 
@@ -87,18 +94,49 @@ the share of running words from the first 1,000 most frequent English words
 (`beyond`). Each volume has its own window, and the gate is the two sets
 measured **together**.
 
-| Volume | k1 | beyond | verdict |
+| Book | k1 | beyond | verdict |
 |---|---|---|---|
-| 1 | 69.9% | 13.4% | in window |
-| 2 | 69.3% | 14.8% | in window |
-| 3 | 66.7% | 17.4% | in window |
-| 4 | 64.8% | 19.4% | in window |
-| 5 | 64.6% | 21.0% | in window |
-| 6 | 62.8% | 23.4% | in window |
+| Foundation 1 | 74.8% | 9.7% | in window |
+| Foundation 2 | 72.2% | 12.0% | in window |
+| Volume 1 | 69.9% | 13.4% | in window |
+| Volume 2 | 69.3% | 14.8% | in window |
+| Volume 3 | 66.7% | 17.4% | in window |
+| Volume 4 | 64.8% | 19.4% | in window |
+| Volume 5 | 64.6% | 21.0% | in window |
+| Volume 6 | 62.8% | 23.4% | in window |
 
 The two productive bands do **not** scale down with the cover band: a model
 answer has to satisfy the rubric at any level, so the writing models in
-Volume 1 are held to the same standard as those in Volume 6.
+Volume 1 are held to the same standard as those in Volume 6. The two
+Foundation books are the single exception, and deliberately so: neither
+prepares a candidate to sit the paper, and asking an A1 writer for 150
+words teaches padding, which is then hard to unteach.
+
+---
+
+## The bridge into Volume 1
+
+The two Foundation books exist to answer one question with a number: can a
+student who finishes them open Volume 1 and read it?
+
+`ledger.py` measured the gap — the word **types** a reader with the first
+1,000 English words meets in Volume 1 that no book in the series teaches,
+with proper nouns dropped and one entry per stem family. **The gap was 984
+types.** `alloc.py` assigned every one of them to a Foundation cycle, by
+theme: a word that lives in Volume 1's food unit is taught in the
+Foundation unit about food.
+
+| | |
+|---|---|
+| Gap into Volume 1, before either Foundation book | 984 types |
+| Taught in Foundation 1 | 561 head words |
+| Taught in Foundation 2 | 423 head words |
+| **Gap remaining** | **0** |
+
+`readiness.py` (gate 7) then measures the result on the finished books: a
+Foundation 2 leaver meets **11.3 unknown types** in a mean Volume 1
+academic passage and **18 in the worst of the twenty**, against ceilings of
+12 and 20. **PASS.**
 
 ---
 
@@ -111,20 +149,27 @@ Volume 1 are held to the same standard as those in Volume 6.
 | `book.py` | the build itself |
 | `omit.py` | zero omissions — every passage, script turn, model, question and explanation reaching the file |
 | `gate6.py` | every run of text inside its box, nothing printed under 7.5px |
+| `readiness.py` | gate 7, on the pair of Foundation books: a leaver can read Volume 1 |
 
-All five pass on all six files in this package.
+The first five pass on all eight files in this package; gate 7 passes on
+the Foundation pair.
+
+Gates do not replace looking at the page. Three figure defects in the
+shared renderer and one in the Foundation 2 cable schematic were found by
+rendering pages and reading them, not by a gate — a gate proves text is
+inside its own box, not that a caption is clear of its neighbour.
 
 ---
 
 ## What is in this package
 
-- the six volumes, as `.docx`
-- `IELTS_Series_Plan.md` — the full series design, including the two
-  Foundation books not yet built
+- all eight books, as `.docx`
+- `IELTS_Series_Plan.md` — the full series design
 - `IELTS_Series_Full_Outline.docx` — the unit-by-unit outline of all 80
   planned units
-- `IELTS_Volume_N_Report.md` — a delivery report per volume: what is in it,
-  how its level was measured, what was fixed and what is still open
+- `IELTS_Volume_N_Report.md` and `IELTS_Foundation_N_Report.md` — a
+  delivery report per book: what is in it, how its level was measured,
+  what was fixed and what is still open
 
 ## Known open item
 
