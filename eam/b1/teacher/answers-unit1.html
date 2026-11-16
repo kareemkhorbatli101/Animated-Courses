@@ -173,10 +173,21 @@
     (co.criteria || []).forEach(function (c) { line('   • ' + plain(c.t || c)); });
     (co.must || []).forEach(function (c) { line('   • ' + plain(c)); });
     if (!(co.criteria || co.must)) line('   • the task is answered, in this unit\'s language');
-    if (co.example && co.example.length) {
+    /* `coach.example` IS EITHER A STRING OR AN ARRAY, and core.js says so in two places:
+       `Array.isArray(cfg.example) ? cfg.example.join('\n') : cfg.example`. This called
+       `.forEach` on it unconditionally, so a card whose model is one paragraph threw
+       "co.example.forEach is not a function" - and because the throw happens while the key is
+       being built, it took the WHOLE page down: unit 1's answer key rendered 7 characters.
+
+       Only unit 1 has one, because unit 1 is the only hand-authored unit; the generator always
+       emits an array. So nine keys worked, the tenth was blank, and nothing said so - the
+       render gate's population is the sNN screens, and a teacher page is not one of them. */
+    var eg = Array.isArray(co.example) ? co.example
+      : (co.example ? [co.example] : []);
+    if (eg.length) {
       line('');
       line('The model the page can show, after an attempt:');
-      co.example.forEach(function (x) { line('   ' + plain(x)); });
+      eg.forEach(function (x) { line('   ' + plain(x)); });
     }
     if (card.minWords) line('\n   Length the page asks for: ' + card.minWords + ' words.');
     return out;
