@@ -120,10 +120,10 @@ LPAPER = dict(
          'for people who already cycle; they use the road. For the '
          'people who have told us in three surveys that they would cycle '
          'if they did not have to share the A road with lorries.'),
-        ('Officer', 'In the two comparable schemes in this county, '
-         'cycling to work rose by about forty per cent along the route '
-         'and by nothing at all two streets away. These paths do not '
-         'change a town. They change a corridor.')],
+        ('Officer', 'In two comparable schemes in this county, cycling '
+         'to work rose about forty per cent along the route and by '
+         'nothing two streets away. These paths change a corridor, not a '
+         'town.')],
        items=[
         ('Length of the path: ____________ kilometres', None, 'four '
          'and a half', 'From the station to the hospital.'),
