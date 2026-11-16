@@ -138,12 +138,10 @@ def spaper_wanted(Sp):
         out.append(('spaper %s blurb' % pt['part'], pt['blurb']))
         for i, q in enumerate(pt['qs'], 1):
             out.append(('spaper %s q%d' % (pt['part'], i), q))
-        if pt.get('cue'):
-            out.append(('spaper %s cue' % pt['part'], pt['cue'][0]))
-            for i, b in enumerate(pt['cue'][1], 1):
-                out.append(('spaper %s cue bullet %d' % (pt['part'], i), b))
-        for i, (_, line) in enumerate(pt.get('shape') or [], 1):
-            out.append(('spaper %s shape %d' % (pt['part'], i), line))
+        # The cue card and the answer shape are drawn by frames.py, so they
+        # are PNGs by the time they reach the .docx and carry no text at all.
+        # gate6.py checks those; listing them here reported twenty phantom
+        # omissions on a correctly rendered book.
         for i, n in enumerate(pt['notes'], 1):
             out.append(('spaper %s note %d' % (pt['part'], i), n))
         for i, c in enumerate(pt['checks'], 1):
