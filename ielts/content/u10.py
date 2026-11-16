@@ -766,13 +766,14 @@ UNIT = dict(
           'no amount of enthusiasm raises that ceiling.',
           'That flattening is not a sign of having done anything wrong, and '
           'it arrives at almost exactly the point at which most people stop, '
-          'which is why so many give up in their fourth or fifth month '
-          'rather than their first. A beginner who is told in advance that '
-          'four months of rapid improvement will be followed by two years of '
-          'slow improvement is far more likely to be training at the end of '
-          'those years than one who discovers the flattening alone and '
-          'concludes, reasonably enough, that the training has stopped '
-          'working.'],
+          'which is why so many people give up in their fourth or fifth '
+          'month rather than in their first, having survived the hard part '
+          'and stopped at the dull one. A beginner who is told in advance '
+          'that four months of rapid improvement will be followed by two '
+          'years of slow improvement is far more likely to be training at '
+          'the end of those years than one who discovers the flattening '
+          'alone and concludes, reasonably enough, that the training has '
+          'stopped working.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Why training makes you worse first',
