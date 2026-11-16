@@ -68,11 +68,10 @@ UNIT = dict(
           'however unpleasant it is to drive over, and the guidance says '
           'so rather than leaving it to be discovered.',
           'Making safe is not repairing, and the distinction causes more '
-          'complaints than anything else on this page. A Category 1 defect '
-          'that has been coned within two hours has been dealt with '
-          'according to the standard, and the repair that follows is '
-          'scheduled under the Category 2 timetable from the date of the '
-          'inspection rather than from the date of the report.',
+          'complaints than anything else here. A Category 1 defect coned '
+          'within two hours has been dealt with to standard, and the '
+          'repair that follows runs to the Category 2 timetable from the '
+          'inspection date rather than the report date.',
           'You will receive a reference beginning DF and a category. If you '
           'believe the category is wrong, send a measurement rather than a '
           'description: categories are changed on measurements roughly four '
