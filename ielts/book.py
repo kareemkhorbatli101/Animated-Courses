@@ -21,7 +21,9 @@ import frames as F
 VOLS = {3: dict(units=range(21, 31), level='B1+', band='6.0',
                 cefr='B1+', title='Volume 3'),
         4: dict(units=range(31, 41), level='B2', band='6.5',
-                cefr='B2', title='Volume 4')}
+                cefr='B2', title='Volume 4'),
+        5: dict(units=range(41, 51), level='B2+/C1', band='7.0',
+                cefr='B2+', title='Volume 5')}
 
 # what the band on the cover is actually for, per volume
 BAND_IS_FOR = {
@@ -30,6 +32,10 @@ BAND_IS_FOR = {
            'guessing and starts choosing',
     '6.5': 'which is the score most postgraduate courses ask for, and the '
            'one most candidates miss by half a band in a single section',
+    '7.0': 'which is the threshold for professional registration in '
+           'medicine, nursing, law and engineering in most English-speaking '
+           'countries, and the band at which a candidate has to be right '
+           'about hard questions rather than careful about easy ones',
 }
 SKILL_COL = {'reading': D_BLUE, 'listening': D_AMBER,
              'speaking': D_TEAL, 'writing': D_PLUM}
@@ -664,6 +670,10 @@ BLURB_BY_VOL = {
         'and the one most candidates miss by half a band in a single section.',
         'Academic and General Training in one book, because they are one test',
         'with two substitutions.'],
+    5: ['The volume for band 7.0 — the threshold for professional',
+        'registration and for immigration points, and the band at which',
+        'being careful stops being enough. Academic and General Training in',
+        'one book, because they are one test with two substitutions.'],
 }
 BULLETS_BY_VOL = {
     3: ['Every task type, five times in every unit, both modules throughout',
@@ -678,6 +688,15 @@ BULLETS_BY_VOL = {
         'Grammar and vocabulary taught inside the cycle whose texts use them',
         'Band descriptors and score tables, with what they can and cannot '
         'tell you'],
+    5: ['Every task type, five times in every unit, both modules throughout',
+        'Academic passages of 780 to 960 words in eight paragraphs, above '
+        'the real paper',
+        'The reading method at 170 to 185 words a minute, measured and '
+        'plotted',
+        'Objections that attack a premise rather than a conclusion, in every '
+        'unit',
+        'A full timed Reading paper and a full timed Listening paper at '
+        'band 7.0'],
 }
 
 

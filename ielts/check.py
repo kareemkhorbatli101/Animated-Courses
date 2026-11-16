@@ -23,12 +23,18 @@ BANDS_BY_VOL = {
         'acad': (620, 800), 'l1': (260, 340), 'l2': (280, 360),
         'l3': (330, 400), 'l4': (380, 460), 'model': (150, 320),
         'essay': (260, 430)},
+    5: {'gt_short': (190, 285), 'gt_work': (300, 400), 'long': (520, 700),
+        'acad': (780, 960), 'l1': (280, 360), 'l2': (300, 390),
+        'l3': (350, 430), 'l4': (400, 490), 'model': (160, 340),
+        'essay': (280, 470)},
 }
 
 
 def vol_of(n):
     """Which volume a unit number belongs to."""
-    return 3 if 21 <= n <= 30 else 4
+    if 21 <= n <= 30:
+        return 3
+    return 4 if 31 <= n <= 40 else 5
 
 
 # the module-level name the rest of this file uses; set per unit as it runs
@@ -38,7 +44,8 @@ BANDS = BANDS_BY_VOL[4]
 # real Academic paper runs 2,150-2,750 words; a volume below the target band
 # sits at the bottom of that range and reaches it at Volume 5.
 PAPER_BY_VOL = {3: dict(passage=(620, 820), total=(1950, 2350)),
-                4: dict(passage=(700, 950), total=(2150, 2750))}
+                4: dict(passage=(700, 950), total=(2150, 2750)),
+                5: dict(passage=(760, 1000), total=(2350, 2850))}
 MIN_WHY = 30            # an explanation shorter than this explains nothing
 MAX_UNTAUGHT = 14       # untaught word types in one academic passage
 

@@ -48,7 +48,8 @@ _spec.loader.exec_module(P)
 
 # gated: a property of English, so the TOEFL window transfers
 GATED_BY_VOL = {3: dict(k1=(66.0, 68.5), beyond=(16.0, 19.0)),
-                4: dict(k1=(64.5, 67.0), beyond=(18.5, 21.5))}
+                4: dict(k1=(64.5, 67.0), beyond=(18.5, 21.5)),
+                5: dict(k1=(62.5, 65.5), beyond=(20.5, 23.5))}
 GATED = GATED_BY_VOL[4]
 # reported only: calibrated on another series' genre, so provisional here
 PROVISIONAL = dict(sent=(24.0, 26.5), nominal=(5.0, 6.5))
@@ -81,7 +82,7 @@ def _load(name):
 
 def texts(vol=4, bands=('acad', 'long')):
     out, paper = [], []
-    lo = 21 if vol == 3 else 31
+    lo = {3: 21, 4: 31, 5: 41}[vol]
     for n in range(lo, lo + 10):
         m = _load('u%02d' % n)
         if m is None:
