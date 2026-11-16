@@ -21,8 +21,8 @@ EAM.page('u5-s18', {
         + 'Customers waited too long.</span>',
       items: [
         { q: '1. Why were the cars not moving well before?',
-          accept: ['they were not moving in a clear order (serviced before inspected, waiting '
-        + 'for parts)', 'they were not moving in a clear order'],
+          accept: ['they were not moving in a clear order', 'they were not moving in a clear order (serviced before inspected, waiting '
+        + 'for parts)'],
           keys: ['they', 'were'], need: 2,
           evidence: 'Look back at the text above — this answer is stated in it.' },
         { q: '2. What did the board on the wall show?',

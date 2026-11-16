@@ -86,7 +86,7 @@ EAM.page('u2-s16', {
           + 'stock? — Before the customers arrive.</span>',
         items: [
           { q: '1. How much oil is there?',
-            accept: ['plenty (about ten litres)', 'plenty'],
+            accept: ['plenty', 'plenty (about ten litres)'],
             keys: ['plenty'], need: 1,
             evidence: 'Look back at the text above — this answer is stated in it.' },
           { q: '2. How many oil filters are left?',

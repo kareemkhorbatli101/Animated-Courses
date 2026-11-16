@@ -25,7 +25,7 @@ EAM.page('u3-s18', {
           keys: ['five', 'clear'], need: 2,
           evidence: 'Look back at the text above — this answer is stated in it.' },
         { q: '2. What did she do every morning?',
-          accept: ['she checked the workshop (and fixed problems with the team)', 'she checked the workshop'],
+          accept: ['she checked the workshop', 'she checked the workshop (and fixed problems with the team)'],
           keys: ['checked', 'workshop'], need: 2,
           evidence: 'Look back at the text above — this answer is stated in it.' },
         { q: '3. What did she say good safety is?',
