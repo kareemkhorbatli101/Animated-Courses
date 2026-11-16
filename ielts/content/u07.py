@@ -760,11 +760,12 @@ UNIT = dict(
           'could obtain would be worth nothing at all.',
           'That scarcity is deliberate and it is not simply somebody’s '
           'mistake. Restricting where building may happen protects farmland, '
-          'limits the outward spread of cities, and preserves open views '
-          'that people value highly and vote repeatedly to keep. Every one '
-          'of those is a real public benefit rather than an excuse, and '
-          'together they are the reason the restriction exists and keeps '
-          'being renewed by people who are not acting badly.',
+          'limits the outward spread of cities, and preserves open views and '
+          'quiet places that people value highly and vote repeatedly to keep '
+          'in place. Every one of those is a real public benefit rather than '
+          'an excuse, and together they are the reason the restriction '
+          'exists and keeps being renewed by people who are not acting '
+          'badly.',
           'The cost of that benefit, however, falls almost entirely on '
           'people who are not in the room when it is decided. Those who '
           'already own houses gain as prices rise; those who do not own one '
@@ -997,14 +998,14 @@ UNIT = dict(
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
-          'If housing is expensive because there is not enough of it, '
-          'the remedy is to build more, and a great deal of serious '
+          'If housing is expensive because there is not enough of it, then '
+          'the remedy is to build more of it, and a great deal of serious '
           'evidence supports that argument. Cities that have permitted '
-          'sustained building have lower rents than comparable cities '
-          'that have not, and the relationship holds after allowing for '
-          'the obvious differences between them. The argument is '
-          'correct, and it is incomplete in three ways that matter for '
-          'anybody deciding policy.',
+          'sustained building have lower rents than comparable cities that '
+          'have not, and the relationship holds after allowing for the '
+          'obvious differences between them. The argument is correct, and it '
+          'is incomplete in three ways that matter for anybody deciding '
+          'policy.',
           'The first is timing. Housing takes between three and eight '
           'years to move from a decision to a family living in it, and '
           'prices respond at the end of that period rather than at the '
@@ -1019,14 +1020,15 @@ UNIT = dict(
           'it does very little for the price of a flat near the centre, '
           'which is where the shortage is most acute and where the jobs '
           'are.',
-          'The third is who the new homes are for. A new flat is sold or '
-          'let at the price the market will bear, so new building first '
-          'serves those with the most money, and the benefit reaches '
-          'poorer households only indirectly, as those households move '
-          'up and release what they leave behind. That chain works and '
-          'it works slowly, and in the meantime the visible result is '
-          'expensive new flats in a district with a housing problem, '
-          'which is politically poisonous.',
+          'The third is who the new homes are for. A new flat is sold or let '
+          'at the price the market will bear, so new building first serves '
+          'those with the most money, and the benefit reaches poorer '
+          'households only indirectly, as those households move up and '
+          'release what they leave behind. That chain does work, and it '
+          'works slowly, and in the meantime the visible result is a row of '
+          'expensive new flats in a district with a housing problem, which '
+          'is politically poisonous and looks exactly like what the '
+          'objectors predicted.',
           'None of this is an argument against building. It is an '
           'argument against expecting building alone to do the work, '
           'and it explains why the cities with the best outcomes have '
