@@ -56,15 +56,15 @@ EAM.page('u5-s19', {
         + 'Should Maher (a) stop all normal work, (b) plan the fleet in small groups '
         + 'and keep some normal work going, or (c) refuse the fleet job? Decide and '
         + 'explain. Use the frame.',
-        parts: ['The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.'],
+        parts: ['The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+        criteria: [{ t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' },
                    { t: 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.' }]

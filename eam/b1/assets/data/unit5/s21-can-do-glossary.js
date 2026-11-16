@@ -36,18 +36,18 @@ EAM.page('u5-s21', {
         + 'the passive (is / are + past participle) to describe a process. I can '
         + 'understand a customer explanation and a day plan. I can explain the '
         + 'service process to a customer in writing. I can plan a day’s service '
-        + 'schedule (Practitioner).', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.'],
+        + 'schedule (Practitioner).', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
         criteria: [{ t: 'I can name the steps and the departments of the service process. I can use '
         + 'the passive (is / are + past participle) to describe a process. I can '
         + 'understand a customer explanation and a day plan. I can' },
-                   { t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+                   { t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' },
                    { t: 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.' }]
@@ -75,15 +75,15 @@ EAM.page('u5-s21', {
         title: 'Check your own work',
         target: 'The passive, for describing a process',
         task: 'Unit 5 glossary (10 words)',
-        parts: ['The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.'],
+        parts: ['The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+        criteria: [{ t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' },
                    { t: 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.' }]

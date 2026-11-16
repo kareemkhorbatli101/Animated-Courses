@@ -17,17 +17,17 @@ EAM.glossary({
   'book in': {
     en: 'to write a car into the system when it arrives',
     ar: 'التسجيل: إدخال السيارة إلى النظام عند وصولها',
-    img: 'job-card', from: 'Warm Up'
+    img: 'book in', from: 'Warm Up'
   },
   'inspect': {
     en: 'to look at a car carefully to check it',
     ar: 'الفحص: النظر في السيارة بعناية للتأكد من حالتها',
-    from: 'Warm Up'
+    img: 'inspect', from: 'Warm Up'
   },
   'diagnose': {
     en: 'to find out what is wrong with a car',
     ar: 'التشخيص: معرفة العطل في السيارة',
-    img: 'diagnostic-machine', from: 'Part 1'
+    img: 'diagnose', from: 'Part 1'
   },
   'service': {
     en: 'to do the regular checks and work on a car',
@@ -37,17 +37,17 @@ EAM.glossary({
   'road-test': {
     en: 'to drive a car to check it works well',
     ar: 'تجربة الطريق: قيادة السيارة للتأكد من أنها تعمل جيدًا',
-    from: 'Part 1'
+    img: 'road-test', from: 'Part 1'
   },
   'quality check': {
     en: 'the final check before handover',
     ar: 'فحص الجودة: الفحص الأخير قبل التسليم',
-    from: 'Part 1'
+    img: 'quality check', from: 'Part 1'
   },
   'hand over': {
     en: 'to give the car back to the customer',
     ar: 'التسليم: إعادة السيارة إلى الزبون',
-    img: 'customer', from: 'Warm Up'
+    img: 'hand over', from: 'Warm Up'
   },
   'reception': {
     en: 'where the car is booked in and handed over',
@@ -62,6 +62,6 @@ EAM.glossary({
   'invoice': {
     en: 'the bill that lists the work done and what it costs',
     ar: 'الفاتورة: ورقة تبيّن العمل المنجز وكلفته',
-    from: 'Part 7'
+    img: 'invoice', from: 'Part 7'
   }
 });

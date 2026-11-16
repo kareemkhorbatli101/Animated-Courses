@@ -40,9 +40,8 @@ EAM.page('u5-s17', {
       scene: 'u5-dialogue6',
       roles: [{ who: 'maher', label: 'Card A · Maher' }, { who: 'nabil', label: 'Card B · Nabil' }],
       briefs: [{ label: 'Card A', text: 'Manager (Maher): share out the cars, say who does each job, and state the '
-        + 'rule for handover Foreman (Nabil): ask about the order and the other cars, '
-        + 'and agree the plan' },
-                { label: 'Card B', text: 'Play the other part.' }],
+        + 'rule for handover' },
+                { label: 'Card B', text: 'Foreman (Nabil): ask about the order and the other cars, and agree the plan' }],
       remember: ['Model exchange — Maher: Which car is first? — Nabil: Mr Aboud’s, a normal '
         + 'service. — Maher: Good. The second car is diagnosed by Lina. Every car is '
         + 'checked before handover. — Nabil: Understood.',
@@ -58,16 +57,16 @@ EAM.page('u5-s17', {
         target: 'The passive, for describing a process',
         task: 'In pairs. One is the manager (Maher); one is the foreman (Nabil). Use the '
         + 'model and cards.',
-        parts: ['The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.'],
+        parts: ['The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
         example: ['Maher: Which car is first? — Nabil: Mr Aboud’s, a normal service. — Maher: '
         + 'Good. The second car is diagnosed by Lina. Every car is checked before '
         + 'handover. — Nabil: Understood.'],
-        criteria: [{ t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+        criteria: [{ t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' },
                    { t: 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.' },
@@ -92,9 +91,9 @@ EAM.page('u5-s17', {
         task: 'You are Maher. Write the plan for the day for the team. Say the order of '
         + 'the cars and the rule for handover.',
         words: [],
-        must: ['the order clear?', 'passive used?', 'the handover rule stated?', '50–80 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.'],
+        must: ['the order clear?', 'passive used?', 'the handover rule stated?', '50–80 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
@@ -102,9 +101,9 @@ EAM.page('u5-s17', {
         + 'the cars and the rule for handover.',
         grammar: 'The passive, for describing a process',
         reader: 'the teacher',
-        must: ['the order clear?', 'passive used?', 'the handover rule stated?', '50–80 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.']
+        must: ['the order clear?', 'passive used?', 'the handover rule stated?', '50–80 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.']
       },
       coach: {
         title: 'Check your writing',
@@ -121,10 +120,10 @@ EAM.page('u5-s17', {
                    { t: 'passive used?' },
                    { t: 'the handover rule stated?' },
                    { t: '50–80 words?' },
-                   { t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' }]
+                   { t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' }]
       }
     }
   ]

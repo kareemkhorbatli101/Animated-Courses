@@ -36,18 +36,18 @@ EAM.page('u3-s21', {
         + 'instructions and safety rules using imperatives and sequencers. I can '
         + 'understand a safety briefing and a bay induction. I can write clear '
         + 'workshop safety rules. I can induct and brief a new mechanic '
-        + '(Practitioner).', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.'],
+        + '(Practitioner).', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
         criteria: [{ t: 'I can name the main tools and safety gear in a workshop. I can give '
         + 'instructions and safety rules using imperatives and sequencers. I can '
         + 'understand a safety briefing and a bay induction. I can write' },
-                   { t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+                   { t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' },
                    { t: 'The tools are named exactly — spanner, jack, goggles — not “the thing for '
@@ -76,16 +76,16 @@ EAM.page('u3-s21', {
         title: 'Check your own work',
         target: 'Imperatives, and the order of the steps',
         task: 'Unit 3 glossary (10 words)',
-        parts: ['Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        parts: ['Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+        criteria: [{ t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' },
                    { t: 'The tools are named exactly — spanner, jack, goggles — not “the thing for '

@@ -14,13 +14,15 @@ EAM.scene('u3-dialogue', {
     { who: 'nabil', cam: { shot: 'mid' }, en: 'Listen, everyone, before we start.',
       ar: 'اسمعوا جميعًا قبل أن نبدأ.' },
     { who: 'nabil', en: 'First, always wear your safety glasses and gloves.',
-      ar: 'أولًا، البسوا دائمًا نظارات السلامة والقفازات.' },
+      ar: 'أولًا، البسوا دائمًا نظارات السلامة والقفازات.',
+      card: { img: 'safety-glasses', en: 'safety glasses — they protect your eyes', ar: 'نظارة السلامة: تحمي عينيك' } },
     { who: 'nabil', en: 'Then keep your area clean — no oil or rags on the floor.',
       ar: 'ثم حافظوا على نظافة مكان عملكم — لا زيت ولا خِرَق على الأرض.' },
     { who: 'nabil', en: 'When you lift a car, always chock the wheels first, and always use axle '
         + 'stands.',
       ar: 'عند رفع السيارة، ضعوا الأسافين تحت العجلات أولًا دائمًا، واستعملوا حوامل '
-        + 'المحاور دائمًا.' },
+        + 'المحاور دائمًا.',
+      card: { img: 'axle stand', en: 'axle stand — a strong stand that holds the car up safely', ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان' } },
     { who: 'nabil', en: 'Never work under a car on a jack alone.',
       ar: 'لا تعمل أبدًا تحت سيارة مرفوعة على الكريك وحده.' },
     { who: 'nabil', en: 'If you smell fuel, stop and tell me.',
@@ -39,15 +41,20 @@ EAM.scene('u3-dialogue2', {
   },
   lines: [
     { who: 'tarek', cam: { shot: 'mid' }, en: 'Ustaz, where is the torque wrench?',
-      ar: 'أستاذ، أين مفتاح العزم؟' },
+      ar: 'أستاذ، أين مفتاح العزم؟',
+      card: { img: 'torque wrench', en: 'torque wrench — you use it to tighten a bolt to the right level', ar: 'مفتاح العزم: تربط به البرغي إلى الشدّ الصحيح تمامًا' } },
     { who: 'nabil', en: 'It’s on the wall, next to the socket set.',
-      ar: 'على الجدار، بجانب طقم البّوز.' },
+      ar: 'على الجدار، بجانب طقم البّوز.',
+      card: { img: 'socket set', en: 'socket set — a box of round tool heads for different bolts', ar: 'طقم البّوز: علبة رؤوس دائرية لمقاسات براغٍ مختلفة' } },
     { who: 'tarek', en: 'And the trolley jack?',
-      ar: 'والرافعة المتحركة؟' },
+      ar: 'والرافعة المتحركة؟',
+      card: { img: 'trolley jack', en: 'trolley jack — a wheeled tool that lifts the car', ar: 'الرافعة المتحركة (الكريك): أداة بعجلات ترفع السيارة' } },
     { who: 'nabil', en: 'It’s in the corner. But first, put on your gloves.',
-      ar: 'في الزاوية. لكن أولًا، البس قفازيك.' },
+      ar: 'في الزاوية. لكن أولًا، البس قفازيك.',
+      card: { img: 'gloves', en: 'gloves — they protect your hands', ar: 'القفازات: تحمي يديك' } },
     { who: 'tarek', en: 'Yes. And the axle stands?',
-      ar: 'حسنًا. وحوامل المحاور؟' },
+      ar: 'حسنًا. وحوامل المحاور؟',
+      card: { img: 'axle stand', en: 'axle stand — a strong stand that holds the car up safely', ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان' } },
     { who: 'nabil', en: 'Under the bench. Always use two. Remember: chock the wheels first, then '
         + 'raise the car.',
       ar: 'تحت الطاولة. استعمل اثنين دائمًا. وتذكّر: ضع الأسافين تحت العجلات أولًا، '
@@ -67,11 +74,13 @@ EAM.scene('u3-dialogue3', {
     { who: 'maher', en: 'We have five simple rules, and everyone follows them.',
       ar: 'لدينا خمس قواعد بسيطة، والجميع يلتزم بها.' },
     { who: 'maher', en: 'First, always wear your PPE: safety glasses, gloves, and overalls.',
-      ar: 'أولًا، البس دائمًا معدات الوقاية: نظارات السلامة والقفازات وبدلة العمل.' },
+      ar: 'أولًا، البس دائمًا معدات الوقاية: نظارات السلامة والقفازات وبدلة العمل.',
+      card: { img: 'safety-glasses', en: 'safety glasses — they protect your eyes', ar: 'نظارة السلامة: تحمي عينيك' } },
     { who: 'maher', en: 'Second, keep your area clean and tidy — a tidy workshop is a safe workshop.',
       ar: 'ثانيًا، حافظ على نظافة مكانك وترتيبه — الورشة المرتبة ورشة آمنة.' },
     { who: 'maher', en: 'Third, when you lift a car, chock the wheels, then use axle stands.',
-      ar: 'ثالثًا، عند رفع السيارة، ضع الأسافين تحت العجلات ثم استعمل حوامل المحاور.' },
+      ar: 'ثالثًا، عند رفع السيارة، ضع الأسافين تحت العجلات ثم استعمل حوامل المحاور.',
+      card: { img: 'axle stand', en: 'axle stand — a strong stand that holds the car up safely', ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان' } },
     { who: 'maher', en: 'Never work under a car on a jack alone.',
       ar: 'لا تعمل أبدًا تحت سيارة مرفوعة على الكريك وحده.' },
     { who: 'maher', en: 'Fourth, if you are not sure, stop and ask.',
@@ -94,13 +103,15 @@ EAM.scene('u3-dialogue4', {
   },
   lines: [
     { who: 'nabil', cam: { shot: 'mid' }, en: 'First, put on your gloves and glasses.',
-      ar: 'أولًا، البس قفازيك ونظارتك.' },
+      ar: 'أولًا، البس قفازيك ونظارتك.',
+      card: { img: 'gloves', en: 'gloves — they protect your hands', ar: 'القفازات: تحمي يديك' } },
     { who: 'tarek', en: 'OK.',
       ar: 'حسنًا.' },
     { who: 'nabil', en: 'Then chock the wheels before you raise the car.',
       ar: 'ثم ضع الأسافين تحت العجلات قبل أن ترفع السيارة.' },
     { who: 'tarek', en: 'And the axle stands?',
-      ar: 'وحوامل المحاور؟' },
+      ar: 'وحوامل المحاور؟',
+      card: { img: 'axle stand', en: 'axle stand — a strong stand that holds the car up safely', ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان' } },
     { who: 'nabil', en: 'Always use two. Never work under a car on a jack alone.',
       ar: 'استعمل اثنين دائمًا. لا تعمل أبدًا تحت سيارة مرفوعة على الكريك وحده.' }
   ]
@@ -117,7 +128,8 @@ EAM.scene('u3-dialogue5', {
     { who: 'nabil', cam: { shot: 'mid' }, en: 'Tarek, today is your bay induction. First, this is your PPE: safety '
         + 'glasses, gloves, and overalls. Always wear them.',
       ar: 'طارق، اليوم هو يوم تعريفك بالورشة. أولًا، هذه معدات وقايتك: نظارات السلامة '
-        + 'والقفازات وبدلة العمل. البسها دائمًا.' },
+        + 'والقفازات وبدلة العمل. البسها دائمًا.',
+      card: { img: 'safety-glasses', en: 'safety glasses — they protect your eyes', ar: 'نظارة السلامة: تحمي عينيك' } },
     { who: 'tarek', en: 'Yes, Ustaz.',
       ar: 'حاضر يا أستاذ.' },
     { who: 'nabil', en: 'Second, this is the tool board. Every tool has a place. After you use a '
@@ -129,7 +141,8 @@ EAM.scene('u3-dialogue5', {
     { who: 'nabil', en: 'Third, when we lift a car, we chock the wheels, then use axle stands. '
         + 'Never work under a car on a jack alone.',
       ar: 'ثالثًا، عند رفع السيارة نضع الأسافين تحت العجلات ثم نستعمل حوامل المحاور. '
-        + 'لا تعمل أبدًا تحت سيارة مرفوعة على الكريك وحده.' },
+        + 'لا تعمل أبدًا تحت سيارة مرفوعة على الكريك وحده.',
+      card: { img: 'axle stand', en: 'axle stand — a strong stand that holds the car up safely', ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان' } },
     { who: 'tarek', en: 'I understand.',
       ar: 'فهمت.' },
     { who: 'nabil', en: 'Good. If you are not sure about anything, stop and ask me. Safety first.',
@@ -146,7 +159,8 @@ EAM.scene('u3-dialogue6', {
   },
   lines: [
     { who: 'nabil', cam: { shot: 'mid' }, en: 'First, always wear your PPE.',
-      ar: 'أولًا، البس معدات الوقاية دائمًا.' },
+      ar: 'أولًا، البس معدات الوقاية دائمًا.',
+      card: { img: 'ppe', en: 'ppe — safety gear you wear to protect yourself', ar: 'معدات الوقاية الشخصية: ما تلبسه لحماية نفسك' } },
     { who: 'tarek', en: 'Yes, Ustaz.',
       ar: 'حاضر يا أستاذ.' },
     { who: 'nabil', en: 'After you use a tool, put it back on the board.',
@@ -156,7 +170,8 @@ EAM.scene('u3-dialogue6', {
     { who: 'nabil', en: 'Chock the wheels, then use axle stands. Never work under a car on a jack '
         + 'alone.',
       ar: 'ضع الأسافين تحت العجلات، ثم استعمل حوامل المحاور. لا تعمل أبدًا تحت سيارة '
-        + 'مرفوعة على الكريك وحده.' }
+        + 'مرفوعة على الكريك وحده.',
+      card: { img: 'axle stand', en: 'axle stand — a strong stand that holds the car up safely', ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان' } }
   ]
 });
 

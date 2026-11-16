@@ -28,17 +28,17 @@ EAM.glossary({
   'alternator': {
     en: 'it makes electricity while the engine runs',
     ar: 'المولّد (الدينامو): يولّد الكهرباء أثناء دوران المحرك',
-    from: 'Part 1'
+    img: 'alternator', from: 'Part 1'
   },
   'belt': {
     en: 'a rubber loop that turns parts in the engine',
     ar: 'السير: حلقة مطاطية تُدير أجزاء في المحرك',
-    from: 'Part 1'
+    img: 'belt', from: 'Part 1'
   },
   'hose': {
     en: 'a rubber pipe that carries a fluid',
     ar: 'الخرطوم: أنبوب مطاطي ينقل سائلًا',
-    from: 'Part 1'
+    img: 'hose', from: 'Part 1'
   },
   'engine oil': {
     en: 'it keeps the engine parts moving smoothly',
@@ -48,7 +48,7 @@ EAM.glossary({
   'coolant': {
     en: 'a liquid that keeps the engine from getting too hot',
     ar: 'سائل التبريد: يمنع المحرك من السخونة الزائدة',
-    from: 'Warm Up'
+    img: 'coolant', from: 'Warm Up'
   },
   'brake fluid': {
     en: 'it makes the brakes work',
@@ -58,11 +58,11 @@ EAM.glossary({
   'air filter': {
     en: 'it cleans the air going into the engine',
     ar: 'فلتر الهواء: ينظّف الهواء الداخل إلى المحرك',
-    from: 'Part 3'
+    img: 'air filter', from: 'Part 3'
   },
   'dipstick': {
     en: 'a tool to check the oil level',
     ar: 'مقياس الزيت: أداة لفحص مستوى الزيت',
-    from: 'Part 1'
+    img: 'dipstick', from: 'Part 1'
   }
 });

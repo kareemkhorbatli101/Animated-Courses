@@ -14,13 +14,16 @@ EAM.scene('u2-dialogue', {
     { who: 'nabil', cam: { shot: 'mid' }, en: 'Right, let’s check the fluids.',
       ar: 'حسنًا، لنفحص السوائل.' },
     { who: 'nabil', en: 'First, I check the engine oil with the dipstick.',
-      ar: 'أولًا، أفحص زيت المحرك بمقياس الزيت.' },
+      ar: 'أولًا، أفحص زيت المحرك بمقياس الزيت.',
+      card: { img: 'oil', en: 'engine oil — it keeps the engine parts moving smoothly', ar: 'زيت المحرك: يبقي أجزاء المحرك تتحرك بسلاسة' } },
     { who: 'nabil', en: 'There is enough oil, good.',
       ar: 'الزيت كافٍ، جيد.' },
     { who: 'nabil', en: 'Now the coolant — hmm, there isn’t much coolant, so I’ll top it up.',
-      ar: 'الآن سائل التبريد — هممم، ليس هناك الكثير منه، سأضيف إليه.' },
+      ar: 'الآن سائل التبريد — هممم، ليس هناك الكثير منه، سأضيف إليه.',
+      card: { img: 'coolant', en: 'coolant — a liquid that keeps the engine from getting too hot', ar: 'سائل التبريد: يمنع المحرك من السخونة الزائدة' } },
     { who: 'nabil', en: 'Is there any brake fluid?',
-      ar: 'هل يوجد سائل فرامل؟' },
+      ar: 'هل يوجد سائل فرامل؟',
+      card: { img: 'brakes', en: 'brake fluid — it makes the brakes work', ar: 'سائل الفرامل: هو ما يجعل الفرامل تعمل' } },
     { who: 'nabil', en: 'Yes, the level is fine.',
       ar: 'نعم، المستوى جيد.' },
     { who: 'nabil', en: 'Finally, the washer fluid is low, so I’ll add some.',
@@ -41,9 +44,11 @@ EAM.scene('u2-dialogue2', {
     { who: 'nabil', cam: { shot: 'mid' }, en: 'Tarek, are there any oil filters in the store?',
       ar: 'طارق، هل يوجد أي فلاتر زيت في المخزن؟' },
     { who: 'tarek', en: 'Let me check. There are three oil filters, but there aren’t any air filters.',
-      ar: 'دعني أتحقق. يوجد ثلاثة فلاتر زيت، لكن لا يوجد أي فلاتر هواء.' },
+      ar: 'دعني أتحقق. يوجد ثلاثة فلاتر زيت، لكن لا يوجد أي فلاتر هواء.',
+      card: { img: 'air filter', en: 'air filter — it cleans the air going into the engine', ar: 'فلتر الهواء: ينظّف الهواء الداخل إلى المحرك' } },
     { who: 'nabil', en: 'How much coolant is there?',
-      ar: 'كم لدينا من سائل التبريد؟' },
+      ar: 'كم لدينا من سائل التبريد؟',
+      card: { img: 'coolant', en: 'coolant — a liquid that keeps the engine from getting too hot', ar: 'سائل التبريد: يمنع المحرك من السخونة الزائدة' } },
     { who: 'tarek', en: 'There isn’t much — only one bottle.',
       ar: 'ليس كثيرًا — عبوة واحدة فقط.' },
     { who: 'nabil', en: 'OK. Please order some air filters and more coolant.',
@@ -69,12 +74,14 @@ EAM.scene('u2-dialogue3', {
     { who: 'nabil', en: 'There is plenty of oil, but there isn’t much coolant, and there aren’t '
         + 'many brake-fluid bottles.',
       ar: 'يوجد زيت وفير، لكن ليس هناك الكثير من سائل التبريد، وليس هناك عبوات كثيرة '
-        + 'من سائل الفرامل.' },
+        + 'من سائل الفرامل.',
+      card: { img: 'coolant', en: 'coolant — a liquid that keeps the engine from getting too hot', ar: 'سائل التبريد: يمنع المحرك من السخونة الزائدة' } },
     { who: 'maher', en: 'OK. Tarek, please order some coolant and brake fluid today. We also need '
         + 'air filters — there aren’t any left. Lina, is the diagnostic computer '
         + 'working?',
       ar: 'حسنًا. طارق، اطلب اليوم بعض سائل التبريد وسائل الفرامل. ونحتاج أيضًا إلى '
-        + 'فلاتر هواء — لم يبقَ منها شيء. لينا، هل حاسوب التشخيص يعمل؟' },
+        + 'فلاتر هواء — لم يبقَ منها شيء. لينا، هل حاسوب التشخيص يعمل؟',
+      card: { img: 'brakes', en: 'brake fluid — it makes the brakes work', ar: 'سائل الفرامل: هو ما يجعل الفرامل تعمل' } },
     { who: 'lina', en: 'Yes, it’s fine.',
       ar: 'نعم، إنه بخير.' },
     { who: 'maher', en: 'Good. Remember, we can’t service a car without the right parts and fluids, '
@@ -93,7 +100,8 @@ EAM.scene('u2-dialogue4', {
   },
   lines: [
     { who: 'nabil', cam: { shot: 'mid' }, en: 'There isn’t much coolant, and there aren’t any air filters.',
-      ar: 'ليس هناك الكثير من سائل التبريد، ولا يوجد أي فلاتر هواء.' },
+      ar: 'ليس هناك الكثير من سائل التبريد، ولا يوجد أي فلاتر هواء.',
+      card: { img: 'coolant', en: 'coolant — a liquid that keeps the engine from getting too hot', ar: 'سائل التبريد: يمنع المحرك من السخونة الزائدة' } },
     { who: 'maher', en: 'How many oil filters are there?',
       ar: 'كم فلتر زيت يوجد؟' },
     { who: 'nabil', en: 'There are only two.',
@@ -123,7 +131,8 @@ EAM.scene('u2-dialogue5', {
     { who: 'maher', en: 'That isn’t many. We have five services today. Please order ten.',
       ar: 'هذا ليس كثيرًا. لدينا خمس صيانات اليوم. اطلب عشرة من فضلك.' },
     { who: 'nabil', en: 'And there isn’t much coolant — only one bottle.',
-      ar: 'وليس هناك الكثير من سائل التبريد — عبوة واحدة فقط.' },
+      ar: 'وليس هناك الكثير من سائل التبريد — عبوة واحدة فقط.',
+      card: { img: 'coolant', en: 'coolant — a liquid that keeps the engine from getting too hot', ar: 'سائل التبريد: يمنع المحرك من السخونة الزائدة' } },
     { who: 'maher', en: 'Order some coolant too. We can’t service a car without the right parts.',
       ar: 'اطلب سائل تبريد أيضًا. لا نستطيع صيانة سيارة بلا القطع الصحيحة.' }
   ]

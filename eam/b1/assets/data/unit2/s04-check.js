@@ -128,10 +128,10 @@ EAM.page('u2-s04', {
         task: 'Write two or three sentences about what is under the bonnet. Use three '
         + 'words from this unit.',
         words: [],
-        must: ['Every sentence that says what exists uses <b>there is</b> or <b>there '
-        + 'are</b>, and the one you chose matches one thing or more than one.', '<b>much</b> goes with what you cannot count — oil, coolant, water; '
-        + '<b>many</b> goes with what you can — filters, tyres, litres.', '<b>any</b> is in your questions and your negatives; <b>some</b> is in your '
-        + 'positive statements.', 'The parts and fluids are named with this unit’s words, not with “thing” or '
+        must: ['Every sentence that says what exists uses “there is” or “there are”, and '
+        + 'the one you chose matches one thing or more than one.', '“much” goes with what you cannot count — oil, coolant, water; “many” goes '
+        + 'with what you can — filters, tyres, litres.', '“any” is in your questions and your negatives; “some” is in your positive '
+        + 'statements.', 'The parts and fluids are named with this unit’s words, not with “thing” or '
         + '“stuff”.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
@@ -140,10 +140,10 @@ EAM.page('u2-s04', {
         + 'words from this unit.',
         grammar: 'There is / There are, and some, any, much, many',
         reader: 'the teacher',
-        must: ['Every sentence that says what exists uses <b>there is</b> or <b>there '
-        + 'are</b>, and the one you chose matches one thing or more than one.', '<b>much</b> goes with what you cannot count — oil, coolant, water; '
-        + '<b>many</b> goes with what you can — filters, tyres, litres.', '<b>any</b> is in your questions and your negatives; <b>some</b> is in your '
-        + 'positive statements.', 'The parts and fluids are named with this unit’s words, not with “thing” or '
+        must: ['Every sentence that says what exists uses “there is” or “there are”, and '
+        + 'the one you chose matches one thing or more than one.', '“much” goes with what you cannot count — oil, coolant, water; “many” goes '
+        + 'with what you can — filters, tyres, litres.', '“any” is in your questions and your negatives; “some” is in your positive '
+        + 'statements.', 'The parts and fluids are named with this unit’s words, not with “thing” or '
         + '“stuff”.']
       },
       coach: {
@@ -154,18 +154,18 @@ EAM.page('u2-s04', {
         + 'it there is.'],
         task: 'Write two or three sentences about what is under the bonnet. Use three '
         + 'words from this unit.',
-        parts: ['Every sentence that says what exists uses <b>there is</b> or <b>there '
-        + 'are</b>, and the one you chose matches one thing or more than one.', '<b>much</b> goes with what you cannot count — oil, coolant, water; '
-        + '<b>many</b> goes with what you can — filters, tyres, litres.', '<b>any</b> is in your questions and your negatives; <b>some</b> is in your '
-        + 'positive statements.'],
+        parts: ['Every sentence that says what exists uses “there is” or “there are”, and '
+        + 'the one you chose matches one thing or more than one.', '“much” goes with what you cannot count — oil, coolant, water; “many” goes '
+        + 'with what you can — filters, tyres, litres.', '“any” is in your questions and your negatives; “some” is in your positive '
+        + 'statements.'],
         example: ['Write your own. The checklist below is the book’s own — read your piece '
         + 'back against it line by line before you ask for a mark.'],
-        criteria: [{ t: 'Every sentence that says what exists uses <b>there is</b> or <b>there '
-        + 'are</b>, and the one you chose matches one thing or more than one.' },
-                   { t: '<b>much</b> goes with what you cannot count — oil, coolant, water; '
-        + '<b>many</b> goes with what you can — filters, tyres, litres.' },
-                   { t: '<b>any</b> is in your questions and your negatives; <b>some</b> is in your '
-        + 'positive statements.' },
+        criteria: [{ t: 'Every sentence that says what exists uses “there is” or “there are”, and '
+        + 'the one you chose matches one thing or more than one.' },
+                   { t: '“much” goes with what you cannot count — oil, coolant, water; “many” goes '
+        + 'with what you can — filters, tyres, litres.' },
+                   { t: '“any” is in your questions and your negatives; “some” is in your positive '
+        + 'statements.' },
                    { t: 'The parts and fluids are named with this unit’s words, not with “thing” or '
         + '“stuff”.' }]
       }

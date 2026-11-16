@@ -56,14 +56,14 @@ EAM.page('u4-s19', {
         + 'centre (a) follow the book’s interval exactly, (b) shorten the interval '
         + 'and check more often, or (c) never service the car? Decide and explain. '
         + 'Use the frame.',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' }]
       }

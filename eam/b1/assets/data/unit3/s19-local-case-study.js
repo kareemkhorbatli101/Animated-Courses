@@ -57,16 +57,16 @@ EAM.page('u3-s19', {
         + 'buy a new diagnostic machine, (b) buy safety gear and axle stands and '
         + 'train the team, or (c) paint the building? Decide and explain. Use the '
         + 'frame.',
-        parts: ['Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        parts: ['Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+        criteria: [{ t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' },
                    { t: 'The tools are named exactly — spanner, jack, goggles — not “the thing for '

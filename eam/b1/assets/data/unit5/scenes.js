@@ -14,9 +14,11 @@ EAM.scene('u5-dialogue', {
     { who: 'rana', cam: { shot: 'mid' }, en: 'Let me explain what happens to your car.',
       ar: 'دعني أشرح لك ما يحدث لسيارتك.' },
     { who: 'rana', en: 'First, it is booked in here at reception, and a job card is made.',
-      ar: 'أولًا، تُسجَّل هنا في الاستقبال، وتُعَدّ لها بطاقة عمل.' },
+      ar: 'أولًا، تُسجَّل هنا في الاستقبال، وتُعَدّ لها بطاقة عمل.',
+      card: { img: 'reception', en: 'reception — where the car is booked in and handed over', ar: 'الاستقبال: حيث تُسجَّل السيارة وتُسلَّم' } },
     { who: 'rana', en: 'Then it is taken to the workshop, where it is inspected and serviced.',
-      ar: 'ثم تُنقل إلى الورشة، حيث تُفحص وتُصان.' },
+      ar: 'ثم تُنقل إلى الورشة، حيث تُفحص وتُصان.',
+      card: { img: 'workshop', en: 'workshop — where the car is serviced and repaired', ar: 'الورشة: حيث تُصان السيارة وتُصلَّح' } },
     { who: 'rana', en: 'If there is a fault, it is diagnosed by our technician.',
       ar: 'وإذا كان فيها عطل، يُشخَّص على يد الفني عندنا.' },
     { who: 'rana', en: 'After the work, the car is road-tested and checked by the quality team.',
@@ -40,7 +42,8 @@ EAM.scene('u5-dialogue2', {
       ar: 'مرحبًا، هل سيارتي جاهزة؟' },
     { who: 'rana', en: 'Not yet, but let me check. It was booked in this morning, and now it is in '
         + 'the workshop.',
-      ar: 'ليس بعد، لكن دعني أتحقق. سُجِّلت هذا الصباح، وهي الآن في الورشة.' },
+      ar: 'ليس بعد، لكن دعني أتحقق. سُجِّلت هذا الصباح، وهي الآن في الورشة.',
+      card: { img: 'workshop', en: 'workshop — where the car is serviced and repaired', ar: 'الورشة: حيث تُصان السيارة وتُصلَّح' } },
     { who: 'aboud', en: 'How long will it take?',
       ar: 'كم ستستغرق؟' },
     { who: 'rana', en: 'The oil is changed, and the brakes are checked now. After that, it is '
@@ -118,7 +121,8 @@ EAM.scene('u5-dialogue5', {
     { who: 'maher', cam: { shot: 'mid' }, en: 'Nabil, let’s plan today. We have six cars. Which is booked in first?',
       ar: 'نبيل، لنخطط لليوم. لدينا ست سيارات. أيها المسجَّلة أولًا؟' },
     { who: 'nabil', en: 'Mr Aboud’s. It’s a normal service.',
-      ar: 'سيارة السيد عبود. صيانة عادية.' },
+      ar: 'سيارة السيد عبود. صيانة عادية.',
+      card: { img: 'service', en: 'service — to do the regular checks and work on a car', ar: 'الصيانة الدورية: الفحوص والأعمال المنتظمة للسيارة' } },
     { who: 'maher', en: 'Good, you service that one. The second car has a brake problem, so it is '
         + 'diagnosed by Lina first.',
       ar: 'جيد، أنت تصونها. السيارة الثانية فيها مشكلة فرامل، فتُشخَّص على يد لينا أولًا.' },
@@ -146,7 +150,8 @@ EAM.scene('u5-dialogue6', {
     { who: 'maher', cam: { shot: 'mid' }, en: 'Which car is first?',
       ar: 'أي سيارة أولًا؟' },
     { who: 'nabil', en: 'Mr Aboud’s, a normal service.',
-      ar: 'سيارة السيد عبود، صيانة عادية.' },
+      ar: 'سيارة السيد عبود، صيانة عادية.',
+      card: { img: 'service', en: 'service — to do the regular checks and work on a car', ar: 'الصيانة الدورية: الفحوص والأعمال المنتظمة للسيارة' } },
     { who: 'maher', en: 'Good. The second car is diagnosed by Lina. Every car is checked before '
         + 'handover.',
       ar: 'جيد. السيارة الثانية تُشخَّص على يد لينا. وكل سيارة تُفحص قبل التسليم.' },

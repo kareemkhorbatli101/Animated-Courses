@@ -31,14 +31,14 @@ EAM.page('u4-s11', {
         task: 'Work with a partner. Ask and answer these questions. What things does a '
         + 'mechanic measure on a car? Why is it important to compare all four tyres? '
         + 'Why must a reading be within the tolerance?',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' },
                    { t: 'You asked at least one question as well as answering — a conversation is '
@@ -63,14 +63,14 @@ EAM.page('u4-s11', {
         target: 'Comparatives and superlatives',
         task: 'Work in pairs. Student A looks at Car A; Student B looks at Car B. Ask and '
         + 'answer to find three differences. Do not show your card.',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['How deep is the tread? · Which is more worn? · What is the voltage? · Is '
         + 'it within the tolerance?'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' },
                    { t: 'You asked at least one question as well as answering — a conversation is '

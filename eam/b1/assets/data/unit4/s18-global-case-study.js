@@ -88,14 +88,14 @@ EAM.page('u4-s18', {
         title: 'Check your own work',
         target: 'Comparatives and superlatives',
         task: 'Talk with a partner. Use the frames.',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' },
                    { t: 'You asked at least one question as well as answering — a conversation is '

@@ -59,9 +59,9 @@ EAM.page('u3-s07', {
         task: 'Write three safety rules for a workshop. Use imperatives (and one Don’t or '
         + 'Never).',
         words: [],
-        must: ['Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.', 'The tools are named exactly — spanner, jack, goggles — not “the thing for '
         + 'the wheel”.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
@@ -71,9 +71,9 @@ EAM.page('u3-s07', {
         + 'Never).',
         grammar: 'Imperatives, and the order of the steps',
         reader: 'the teacher',
-        must: ['Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.', 'The tools are named exactly — spanner, jack, goggles — not “the thing for '
         + 'the wheel”.']
       },
@@ -85,16 +85,16 @@ EAM.page('u3-s07', {
         + 'give an instruction in the right order.'],
         task: 'Write three safety rules for a workshop. Use imperatives (and one Don’t or '
         + 'Never).',
-        parts: ['Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        parts: ['Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         example: ['Write your own. The checklist below is the book’s own — read your piece '
         + 'back against it line by line before you ask for a mark.'],
-        criteria: [{ t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+        criteria: [{ t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' },
                    { t: 'The tools are named exactly — spanner, jack, goggles — not “the thing for '

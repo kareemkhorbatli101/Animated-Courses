@@ -51,10 +51,9 @@ EAM.page('u4-s17', {
         + 'the model and cards.',
       scene: 'u4-dialogue6',
       roles: [{ who: 'maher', label: 'Card A · Maher' }, { who: 'lina', label: 'Card B · Lina' }],
-      briefs: [{ label: 'Card A', text: 'Manager (Maher): ask about the battery and the tyres; decide what to do '
-        + 'Technician (Lina): report the readings, compare them, and say what is '
-        + 'below or within the tolerance' },
-                { label: 'Card B', text: 'Play the other part.' }],
+      briefs: [{ label: 'Card A', text: 'Manager (Maher): ask about the battery and the tyres; decide what to do' },
+                { label: 'Card B', text: 'Technician (Lina): report the readings, compare them, and say what is '
+        + 'below or within the tolerance' }],
       remember: ['Model exchange — Maher: How is the battery? — Lina: Below the tolerance, '
         + '12.1 volts. — Maher: And the tyres? — Lina: The rear left is the most '
         + 'worn. — Maher: Charge the battery and change that tyre.',
@@ -70,15 +69,15 @@ EAM.page('u4-s17', {
         target: 'Comparatives and superlatives',
         task: 'In pairs. One is the manager (Maher); one is the technician (Lina). Use '
         + 'the model and cards.',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Maher: How is the battery? — Lina: Below the tolerance, 12.1 volts. — '
         + 'Maher: And the tyres? — Lina: The rear left is the most worn. — Maher: '
         + 'Charge the battery and change that tyre.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' },
                    { t: 'You asked at least one question as well as answering — a conversation is '
@@ -104,7 +103,7 @@ EAM.page('u4-s17', {
         + 'customer’s file. Say what is within and what is below the tolerance, and '
         + 'what you will do.',
         words: [],
-        must: ['clear readings + comparisons?', 'within / below the tolerance used?', 'the action stated?', '50–80 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.'],
+        must: ['clear readings + comparisons?', 'within / below the tolerance used?', 'the action stated?', '50–80 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
@@ -113,7 +112,7 @@ EAM.page('u4-s17', {
         + 'what you will do.',
         grammar: 'Comparatives and superlatives',
         reader: 'the teacher',
-        must: ['clear readings + comparisons?', 'within / below the tolerance used?', 'the action stated?', '50–80 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.']
+        must: ['clear readings + comparisons?', 'within / below the tolerance used?', 'the action stated?', '50–80 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.']
       },
       coach: {
         title: 'Check your writing',
@@ -130,8 +129,8 @@ EAM.page('u4-s17', {
                    { t: 'within / below the tolerance used?' },
                    { t: 'the action stated?' },
                    { t: '50–80 words?' },
-                   { t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' }]
+                   { t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' }]
       }
     }
   ]

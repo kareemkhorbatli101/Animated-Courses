@@ -29,9 +29,9 @@ EAM.page('u5-s15', {
         task: 'Describe the service process from check-in to handover. Use the passive '
         + 'and sequencers.',
         words: ['is / are + past participle', 'booked in, inspected, serviced', 'road-tested, checked, handed over', 'First, Then, Next, Finally'],
-        must: ['passive used throughout?', 'sequencers used?', 'the steps in order?', '60–80 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.'],
+        must: ['passive used throughout?', 'sequencers used?', 'the steps in order?', '60–80 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.'],
         planPlaceholder: 'First, the car is ___. Then it is ___. Next, the oil is ___. After that, '
         + 'it is ___. Finally, it is ___'
       },
@@ -40,9 +40,9 @@ EAM.page('u5-s15', {
         + 'and sequencers.',
         grammar: 'The passive, for describing a process',
         reader: 'the teacher',
-        must: ['passive used throughout?', 'sequencers used?', 'the steps in order?', '60–80 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.']
+        must: ['passive used throughout?', 'sequencers used?', 'the steps in order?', '60–80 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.']
       },
       coach: {
         title: 'Check your writing',
@@ -59,10 +59,10 @@ EAM.page('u5-s15', {
                    { t: 'sequencers used?' },
                    { t: 'the steps in order?' },
                    { t: '60–80 words?' },
-                   { t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' }]
+                   { t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' }]
       }
     },
     {
@@ -80,18 +80,18 @@ EAM.page('u5-s15', {
       scaffold: {
         task: 'Write why a clear service process is important. Give reasons.',
         words: ['… is important because…', 'nothing is forgotten', 'every car is checked', 'saves time / keeps cars safe'],
-        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.'],
+        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
         task: 'Write why a clear service process is important. Give reasons.',
         grammar: 'The passive, for describing a process',
         reader: 'the teacher',
-        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.']
+        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.']
       },
       coach: {
         title: 'Check your writing',
@@ -106,10 +106,10 @@ EAM.page('u5-s15', {
         criteria: [{ t: 'a clear opinion?' },
                    { t: 'two or three reasons?' },
                    { t: '50–70 words?' },
-                   { t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+                   { t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' }]
       }
     },
@@ -130,9 +130,9 @@ EAM.page('u5-s15', {
         task: 'Write a short note from Rana to a customer, explaining what will happen to '
         + 'their car.',
         words: [],
-        must: ['passive used?', 'steps in order?', 'polite and clear?', '50–70 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.'],
+        must: ['passive used?', 'steps in order?', 'polite and clear?', '50–70 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.'],
         planPlaceholder: 'Dear ___, First, your car is ___. Then it is ___. After that, it is ___. '
         + 'Finally, it is ___'
       },
@@ -141,9 +141,9 @@ EAM.page('u5-s15', {
         + 'their car.',
         grammar: 'The passive, for describing a process',
         reader: 'the teacher',
-        must: ['passive used?', 'steps in order?', 'polite and clear?', '50–70 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.']
+        must: ['passive used?', 'steps in order?', 'polite and clear?', '50–70 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.']
       },
       coach: {
         title: 'Check your writing',
@@ -160,10 +160,10 @@ EAM.page('u5-s15', {
                    { t: 'steps in order?' },
                    { t: 'polite and clear?' },
                    { t: '50–70 words?' },
-                   { t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' }]
+                   { t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' }]
       }
     },
     {
@@ -183,9 +183,9 @@ EAM.page('u5-s15', {
         task: 'Write about a process you know well (at work, at home, or in a shop). '
         + 'Describe the steps in order.',
         words: [],
-        must: ['steps in order?', 'some passive used?', '40–60 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.'],
+        must: ['steps in order?', 'some passive used?', '40–60 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
@@ -193,9 +193,9 @@ EAM.page('u5-s15', {
         + 'Describe the steps in order.',
         grammar: 'The passive, for describing a process',
         reader: 'the teacher',
-        must: ['steps in order?', 'some passive used?', '40–60 words?', 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.']
+        must: ['steps in order?', 'some passive used?', '40–60 words?', 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.']
       },
       coach: {
         title: 'Check your writing',
@@ -211,10 +211,10 @@ EAM.page('u5-s15', {
         criteria: [{ t: 'steps in order?' },
                    { t: 'some passive used?' },
                    { t: '40–60 words?' },
-                   { t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+                   { t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' }]
       }
     }

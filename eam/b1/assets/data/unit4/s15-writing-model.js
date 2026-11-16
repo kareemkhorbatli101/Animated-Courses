@@ -27,7 +27,7 @@ EAM.page('u4-s15', {
       scaffold: {
         task: 'Compare two cars, or two sets of tyres. Use comparatives and superlatives.',
         words: ['… is more / -er than…', 'the most / the -est…', 'newer, stronger, worn, low', 'needs more work'],
-        must: ['comparatives used?', 'at least one superlative?', 'than after comparatives?', '50–70 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.'],
+        must: ['comparatives used?', 'at least one superlative?', 'than after comparatives?', '50–70 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.'],
         planPlaceholder: 'The first car is ___ than the second. Its ___ is newer/stronger. The '
         + 'second car’s ___ is the most ___. So ___ needs more work'
       },
@@ -35,7 +35,7 @@ EAM.page('u4-s15', {
         task: 'Compare two cars, or two sets of tyres. Use comparatives and superlatives.',
         grammar: 'Comparatives and superlatives',
         reader: 'the teacher',
-        must: ['comparatives used?', 'at least one superlative?', 'than after comparatives?', '50–70 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.']
+        must: ['comparatives used?', 'at least one superlative?', 'than after comparatives?', '50–70 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.']
       },
       coach: {
         title: 'Check your writing',
@@ -50,8 +50,8 @@ EAM.page('u4-s15', {
                    { t: 'at least one superlative?' },
                    { t: 'than after comparatives?' },
                    { t: '50–70 words?' },
-                   { t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' }]
+                   { t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' }]
       }
     },
     {
@@ -69,16 +69,16 @@ EAM.page('u4-s15', {
       scaffold: {
         task: 'Write why careful measuring is important in car maintenance. Give reasons.',
         words: ['… is important because…', 'find the real problem', 'within / below the tolerance', 'better than guessing'],
-        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
         task: 'Write why careful measuring is important in car maintenance. Give reasons.',
         grammar: 'Comparatives and superlatives',
         reader: 'the teacher',
-        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.']
+        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.']
       },
       coach: {
         title: 'Check your writing',
@@ -92,10 +92,10 @@ EAM.page('u4-s15', {
         criteria: [{ t: 'a clear opinion?' },
                    { t: 'two or three reasons?' },
                    { t: '50–70 words?' },
-                   { t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' }]
+                   { t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' }]
       }
     },
     {
@@ -115,8 +115,8 @@ EAM.page('u4-s15', {
         task: 'Write a short note from Lina (technician) to Maher (manager) with a car’s '
         + 'readings.',
         words: [],
-        must: ['clear readings + comparisons?', 'a recommendation?', '50–70 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        must: ['clear readings + comparisons?', 'a recommendation?', '50–70 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         planPlaceholder: 'Dear ___, Here are the readings for ___. The battery is ___. The ___ tyre '
         + 'is the most worn. I think we should ___. Thank you. ___'
       },
@@ -125,8 +125,8 @@ EAM.page('u4-s15', {
         + 'readings.',
         grammar: 'Comparatives and superlatives',
         reader: 'the teacher',
-        must: ['clear readings + comparisons?', 'a recommendation?', '50–70 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.']
+        must: ['clear readings + comparisons?', 'a recommendation?', '50–70 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.']
       },
       coach: {
         title: 'Check your writing',
@@ -141,10 +141,10 @@ EAM.page('u4-s15', {
         criteria: [{ t: 'clear readings + comparisons?' },
                    { t: 'a recommendation?' },
                    { t: '50–70 words?' },
-                   { t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' }]
+                   { t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' }]
       }
     },
     {
@@ -164,8 +164,8 @@ EAM.page('u4-s15', {
         task: 'Write about two things you know well and compare them (for example, two '
         + 'cars, two roads, or two tools).',
         words: [],
-        must: ['comparatives + one superlative?', 'clear comparison?', '40–60 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        must: ['comparatives + one superlative?', 'clear comparison?', '40–60 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
@@ -173,8 +173,8 @@ EAM.page('u4-s15', {
         + 'cars, two roads, or two tools).',
         grammar: 'Comparatives and superlatives',
         reader: 'the teacher',
-        must: ['comparatives + one superlative?', 'clear comparison?', '40–60 words?', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.']
+        must: ['comparatives + one superlative?', 'clear comparison?', '40–60 words?', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.']
       },
       coach: {
         title: 'Check your writing',
@@ -189,10 +189,10 @@ EAM.page('u4-s15', {
         criteria: [{ t: 'comparatives + one superlative?' },
                    { t: 'clear comparison?' },
                    { t: '40–60 words?' },
-                   { t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' }]
+                   { t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' }]
       }
     }
   ]

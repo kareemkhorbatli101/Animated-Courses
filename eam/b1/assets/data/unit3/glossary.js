@@ -13,32 +13,32 @@ EAM.glossary({
   'spanner': {
     en: 'you use it to turn nuts and bolts',
     ar: 'المفتاح (الإنكليزي): تستعمله لفكّ الصواميل والبراغي وربطها',
-    img: 'tools', from: 'Warm Up'
+    img: 'spanner', from: 'Warm Up'
   },
   'socket set': {
     en: 'a box of round tool heads for different bolts',
     ar: 'طقم البّوز: علبة رؤوس دائرية لمقاسات براغٍ مختلفة',
-    from: 'Part 1'
+    img: 'socket set', from: 'Part 1'
   },
   'torque wrench': {
     en: 'you use it to tighten a bolt to the right level',
     ar: 'مفتاح العزم: تربط به البرغي إلى الشدّ الصحيح تمامًا',
-    from: 'Part 1'
+    img: 'torque wrench', from: 'Part 1'
   },
   'trolley jack': {
     en: 'a wheeled tool that lifts the car',
     ar: 'الرافعة المتحركة (الكريك): أداة بعجلات ترفع السيارة',
-    from: 'Part 1'
+    img: 'trolley jack', from: 'Part 1'
   },
   'axle stand': {
     en: 'a strong stand that holds the car up safely',
     ar: 'حامل المحور: دعامة قوية تحمل السيارة مرفوعة بأمان',
-    from: 'Part 1'
+    img: 'axle stand', from: 'Part 1'
   },
   'wheel chock': {
     en: 'a block that stops a wheel rolling',
     ar: 'إسفين العجلة: قطعة تمنع العجلة من التدحرج',
-    from: 'Part 1'
+    img: 'wheel chock', from: 'Part 1'
   },
   'safety glasses': {
     en: 'they protect your eyes',
@@ -48,16 +48,16 @@ EAM.glossary({
   'gloves': {
     en: 'they protect your hands',
     ar: 'القفازات: تحمي يديك',
-    from: 'Warm Up'
+    img: 'gloves', from: 'Warm Up'
   },
   'ppe': {
     en: 'safety gear you wear to protect yourself',
     ar: 'معدات الوقاية الشخصية: ما تلبسه لحماية نفسك',
-    from: 'Part 1'
+    img: 'ppe', from: 'Part 1'
   },
   'fire extinguisher': {
     en: 'you use it to put out a fire',
     ar: 'طفّاية الحريق: تستعملها لإخماد النار',
-    from: 'Part 1'
+    img: 'fire extinguisher', from: 'Part 1'
   }
 });

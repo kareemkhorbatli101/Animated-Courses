@@ -147,11 +147,15 @@ EAM.page('u1-s18', {
       picture: 'workshop-floor',
       minWords: 12,
       questions: [
-        { q: '1. What in Sami’s story is <b>similar</b> to a garage in Syria?',
+        /* A DISCUSS QUESTION IS ESCAPED, NOT RENDERED. These three carried <b> and printed
+           it: "What in Sami's story is <b>similar</b> to a garage in Syria?". The emphasis is
+           carried by quotation marks instead, which survive escaping and read the same when
+           the question is spoken. gates/eam_render.py R15 found it and now holds it. */
+        { q: '1. What in Sami’s story is “similar” to a garage in Syria?',
           placeholder: 'This is similar to Syria because…' },
-        { q: '2. What is <b>different</b>?',
+        { q: '2. What is “different”?',
           placeholder: 'This is different from Syria because…' },
-        { q: '3. What do you think is the <b>most important</b> thing he did? Why?',
+        { q: '3. What do you think is the “most important” thing he did? Why?',
           placeholder: 'I think the most important thing is… because…' }
       ],
       ideas: ['This is similar to Syria because…', 'This is different from Syria because…',

@@ -20,9 +20,8 @@ EAM.page('u4-s12', {
       scene: 'u4-dialogue4',
       roles: [{ who: 'lina', label: 'Card A · Lina' }, { who: 'nabil', label: 'Card B · Nabil' }],
       briefs: [{ label: 'Card A', text: 'Technician: report the tyre and battery readings; compare them (use '
-        + 'comparatives and superlatives) Foreman: ask how low / how worn, then '
-        + 'decide what to do' },
-                { label: 'Card B', text: 'Play the other part.' }],
+        + 'comparatives and superlatives)' },
+                { label: 'Card B', text: 'Foreman: ask how low / how worn, then decide what to do' }],
       remember: ['Model exchange — Lina: The rear left is more worn than the others. — '
         + 'Nabil: How low? — Lina: Only two millimetres — the most worn of the four. '
         + '— Nabil: And the battery? — Lina: Lower than last time, below the '
@@ -38,15 +37,15 @@ EAM.page('u4-s12', {
         title: 'Check your own work',
         target: 'Comparatives and superlatives',
         task: 'Work in pairs. Read the model, then use the cards.',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Lina: The rear left is more worn than the others. — Nabil: How low? — '
         + 'Lina: Only two millimetres — the most worn of the four. — Nabil: And the '
         + 'battery? — Lina: Lower than last time, below the tolerance.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' },
                    { t: 'You asked at least one question as well as answering — a conversation is '
@@ -67,14 +66,14 @@ EAM.page('u4-s12', {
         target: 'Comparatives and superlatives',
         task: 'Prepare a short talk (about one minute). Compare two cars or two tyres, '
         + 'and say which is in better condition and why.',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' },
                    { t: 'You asked at least one question as well as answering — a conversation is '

@@ -128,9 +128,9 @@ EAM.page('u5-s04', {
         task: 'Write two or three sentences about the service process. Use three words '
         + 'from this unit.',
         words: [],
-        must: ['The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.', 'Nothing in the process is left out between the car arriving and the '
+        must: ['The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.', 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
@@ -139,9 +139,9 @@ EAM.page('u5-s04', {
         + 'from this unit.',
         grammar: 'The passive, for describing a process',
         reader: 'the teacher',
-        must: ['The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.', 'Nothing in the process is left out between the car arriving and the '
+        must: ['The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.', 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.']
       },
       coach: {
@@ -152,15 +152,15 @@ EAM.page('u5-s04', {
         + 'the doer does not matter.'],
         task: 'Write two or three sentences about the service process. Use three words '
         + 'from this unit.',
-        parts: ['The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.', 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.', 'The steps are joined in order — first, then, after that, finally.'],
+        parts: ['The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.', 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.', 'The steps are joined in order — first, then, after that, finally.'],
         example: ['Write your own. The checklist below is the book’s own — read your piece '
         + 'back against it line by line before you ask for a mark.'],
-        criteria: [{ t: 'The passive is used where the doer does not matter: <i>the car is '
-        + 'checked</i>, not <i>the mechanic checks the car</i>.' },
-                   { t: 'Each passive is <b>be</b> + the past participle, and <b>be</b> agrees with '
-        + 'its subject — the car <i>is</i> washed, the tyres <i>are</i> checked.' },
+        criteria: [{ t: 'The passive is used where the doer does not matter: “the car is checked”, '
+        + 'not “the mechanic checks the car”.' },
+                   { t: 'Each passive is “be” + the past participle, and “be” agrees with its '
+        + 'subject — the car “is” washed, the tyres “are” checked.' },
                    { t: 'The steps are joined in order — first, then, after that, finally.' },
                    { t: 'Nothing in the process is left out between the car arriving and the '
         + 'customer leaving.' }]

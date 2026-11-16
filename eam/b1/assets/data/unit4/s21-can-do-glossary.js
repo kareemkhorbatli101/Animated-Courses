@@ -37,16 +37,16 @@ EAM.page('u4-s21', {
         + 'can use comparatives and superlatives to compare readings. I can '
         + 'understand a diagnostic report and which reading is outside the tolerance. '
         + 'I can write a clear readings summary (Practitioner). I can compare cars '
-        + 'and decide which needs the most work.', 'Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.'],
+        + 'and decide which needs the most work.', 'Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
         criteria: [{ t: 'I can name the main measurements on a car and the tools that read them. I '
         + 'can use comparatives and superlatives to compare readings. I can '
         + 'understand a diagnostic report and which reading is outside t' },
-                   { t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+                   { t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' }]
       }
@@ -73,14 +73,14 @@ EAM.page('u4-s21', {
         title: 'Check your own work',
         target: 'Comparatives and superlatives',
         task: 'Unit 4 glossary (10 words)',
-        parts: ['Every comparison of two things has <b>than</b> after it.', 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.', '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.'],
+        parts: ['Every comparison of two things has “than” after it.', 'Every superlative has “the” in front of it — the most worn, the lowest.', '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.'],
         example: ['Answer in your own words, then read your answer back and check it against '
         + 'the list above.'],
-        criteria: [{ t: 'Every comparison of two things has <b>than</b> after it.' },
-                   { t: 'Every superlative has <b>the</b> in front of it — the most worn, the lowest.' },
-                   { t: '<b>good</b> and <b>bad</b> are irregular: better / the best, worse / the '
-        + 'worst — never <i>gooder</i> or <i>more bad</i>.' },
+        criteria: [{ t: 'Every comparison of two things has “than” after it.' },
+                   { t: 'Every superlative has “the” in front of it — the most worn, the lowest.' },
+                   { t: '“good” and “bad” are irregular: better / the best, worse / the worst — '
+        + 'never “gooder” or “more bad”.' },
                    { t: 'The numbers are given with their units — two millimetres, 12.1 volts — and '
         + 'compared with the tolerance.' }]
       }

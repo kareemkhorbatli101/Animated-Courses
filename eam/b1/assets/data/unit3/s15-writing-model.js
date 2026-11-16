@@ -27,18 +27,18 @@ EAM.page('u3-s15', {
       scaffold: {
         task: 'Write five safety rules for a workshop. Use imperatives and sequencers.',
         words: ['First, Then, Next, Finally', 'Always… / Never…', 'wear… / keep… / chock… / use…', 'If you…, stop and…'],
-        must: ['imperatives used?', 'sequencers used?', 'at least one Never/Don’t?', '50–70 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.'],
+        must: ['imperatives used?', 'sequencers used?', 'at least one Never/Don’t?', '50–70 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.'],
         planPlaceholder: 'First, always… Then… When you…, … Never… If…, …'
       },
       aiCheck: {
         task: 'Write five safety rules for a workshop. Use imperatives and sequencers.',
         grammar: 'Imperatives, and the order of the steps',
         reader: 'the teacher',
-        must: ['imperatives used?', 'sequencers used?', 'at least one Never/Don’t?', '50–70 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.']
+        must: ['imperatives used?', 'sequencers used?', 'at least one Never/Don’t?', '50–70 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.']
       },
       coach: {
         title: 'Check your writing',
@@ -53,10 +53,10 @@ EAM.page('u3-s15', {
                    { t: 'sequencers used?' },
                    { t: 'at least one Never/Don’t?' },
                    { t: '50–70 words?' },
-                   { t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' }]
+                   { t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' }]
       }
     },
     {
@@ -74,9 +74,9 @@ EAM.page('u3-s15', {
       scaffold: {
         task: 'Write why safety is important in a workshop. Give reasons.',
         words: ['… is important because…', 'heavy / dangerous', 'protect the mechanics', 'an accident costs a lot'],
-        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
@@ -84,9 +84,9 @@ EAM.page('u3-s15', {
         task: 'Write why safety is important in a workshop. Give reasons.',
         grammar: 'Imperatives, and the order of the steps',
         reader: 'the teacher',
-        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['a clear opinion?', 'two or three reasons?', '50–70 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.']
       },
       coach: {
@@ -102,10 +102,10 @@ EAM.page('u3-s15', {
         criteria: [{ t: 'a clear opinion?' },
                    { t: 'two or three reasons?' },
                    { t: '50–70 words?' },
-                   { t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+                   { t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' }]
       }
@@ -125,9 +125,9 @@ EAM.page('u3-s15', {
       scaffold: {
         task: 'Write a short safety notice to put on the workshop wall. Use imperatives.',
         words: [],
-        must: ['clear imperatives?', 'easy to read?', '40–60 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['clear imperatives?', 'easy to read?', '40–60 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
@@ -135,9 +135,9 @@ EAM.page('u3-s15', {
         task: 'Write a short safety notice to put on the workshop wall. Use imperatives.',
         grammar: 'Imperatives, and the order of the steps',
         reader: 'the teacher',
-        must: ['clear imperatives?', 'easy to read?', '40–60 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['clear imperatives?', 'easy to read?', '40–60 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.']
       },
       coach: {
@@ -153,10 +153,10 @@ EAM.page('u3-s15', {
         criteria: [{ t: 'clear imperatives?' },
                    { t: 'easy to read?' },
                    { t: '40–60 words?' },
-                   { t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+                   { t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' }]
       }
@@ -176,9 +176,9 @@ EAM.page('u3-s15', {
       scaffold: {
         task: 'Write about a time when safety was important, at work or at home.',
         words: [],
-        must: ['a clear story?', 'imperatives or a safety rule?', '40–60 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['a clear story?', 'imperatives or a safety rule?', '40–60 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
@@ -186,9 +186,9 @@ EAM.page('u3-s15', {
         task: 'Write about a time when safety was important, at work or at home.',
         grammar: 'Imperatives, and the order of the steps',
         reader: 'the teacher',
-        must: ['a clear story?', 'imperatives or a safety rule?', '40–60 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        must: ['a clear story?', 'imperatives or a safety rule?', '40–60 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.']
       },
       coach: {
@@ -204,10 +204,10 @@ EAM.page('u3-s15', {
         criteria: [{ t: 'a clear story?' },
                    { t: 'imperatives or a safety rule?' },
                    { t: '40–60 words?' },
-                   { t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+                   { t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' }]
       }

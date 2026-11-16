@@ -17,51 +17,51 @@ EAM.glossary({
   'gauge': {
     en: 'a tool that shows a measurement',
     ar: 'المقياس: أداة تُظهر قيمة قياس',
-    img: 'diagnostic-machine', from: 'Warm Up'
+    img: 'gauge', from: 'Warm Up'
   },
   'tyre pressure': {
     en: 'how hard the air pushes inside a tyre',
     ar: 'ضغط الإطار: مقدار دفع الهواء داخل الإطار',
-    img: 'tyre', from: 'Warm Up'
+    img: 'tyre pressure', from: 'Warm Up'
   },
   'tread depth': {
     en: 'how deep a tyre’s grooves are',
     ar: 'عمق المداس: عمق أخاديد الإطار',
-    img: 'tyre', from: 'Part 1'
+    img: 'tread depth', from: 'Part 1'
   },
   'voltage': {
     en: 'the amount of electric power, in volts',
     ar: 'الجهد الكهربائي: مقدار الطاقة الكهربائية بالفولت',
-    img: 'battery', from: 'Part 1'
+    img: 'voltage', from: 'Part 1'
   },
   'temperature': {
     en: 'how hot or cold something is',
     ar: 'الحرارة: مدى سخونة الشيء أو برودته',
-    from: 'Part 1'
+    img: 'temperature', from: 'Part 1'
   },
   'tolerance': {
     en: 'the correct level, or allowed range',
     ar: 'الحد المسموح: المستوى الصحيح أو المدى المقبول',
-    from: 'Part 1'
+    img: 'tolerance', from: 'Part 1'
   },
   'reading': {
     en: 'the number a tool or meter shows',
     ar: 'القراءة: الرقم الذي تُظهره الأداة أو العدّاد',
-    from: 'Warm Up'
+    img: 'reading', from: 'Warm Up'
   },
   'worn': {
     en: 'old and used, with less tread',
     ar: 'متآكل: قديم ومستعمل، وقد نقص مداسه',
-    img: 'tyre', from: 'Part 2'
+    img: 'worn', from: 'Part 2'
   },
   'meter': {
     en: 'the instrument that takes a reading and shows it as a number',
     ar: 'العدّاد: الجهاز الذي يأخذ القياس ويُظهره رقمًا',
-    from: 'Part 1'
+    img: 'meter', from: 'Part 1'
   },
   'millimetre': {
     en: 'the unit tread depth is measured in — one thousandth of a metre',
     ar: 'الميليمتر: وحدة قياس عمق المداس، وهي جزء من ألف من المتر',
-    from: 'Part 1'
+    img: 'millimetre', from: 'Part 1'
   }
 });

@@ -40,9 +40,8 @@ EAM.page('u3-s17', {
       scene: 'u3-dialogue6',
       roles: [{ who: 'nabil', label: 'Card A · Nabil' }, { who: 'tarek', label: 'Card B · Tarek' }],
       briefs: [{ label: 'Card A', text: 'Foreman (Nabil): give the induction in order (PPE → tools → lifting a car '
-        + '→ fire extinguisher → ask if not sure) New mechanic (Tarek): listen, ask '
-        + 'two questions, repeat the safety rules' },
-                { label: 'Card B', text: 'Play the other part.' }],
+        + '→ fire extinguisher → ask if not sure)' },
+                { label: 'Card B', text: 'New mechanic (Tarek): listen, ask two questions, repeat the safety rules' }],
       remember: ['Model exchange — Nabil: First, always wear your PPE. — Tarek: Yes, Ustaz. '
         + '— Nabil: After you use a tool, put it back on the board. — Tarek: OK. What '
         + 'about lifting a car? — Nabil: Chock the wheels, then use axle stands. '
@@ -59,18 +58,18 @@ EAM.page('u3-s17', {
         target: 'Imperatives, and the order of the steps',
         task: 'In pairs. One is the foreman (Nabil); one is the new mechanic (Tarek). Use '
         + 'the model and cards.',
-        parts: ['Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.', 'A reader who had never done this job could follow your steps in the order '
+        parts: ['Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.', 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.'],
         example: ['Nabil: First, always wear your PPE. — Tarek: Yes, Ustaz. — Nabil: After '
         + 'you use a tool, put it back on the board. — Tarek: OK. What about lifting '
         + 'a car? — Nabil: Chock the wheels, then use axle stands. Never work under a '
         + 'car on a jack alone.'],
-        criteria: [{ t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' },
+        criteria: [{ t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' },
                    { t: 'A reader who had never done this job could follow your steps in the order '
         + 'you wrote them.' },
                    { t: 'The tools are named exactly — spanner, jack, goggles — not “the thing for '
@@ -96,9 +95,9 @@ EAM.page('u3-s17', {
         task: 'You are Maher. Write the workshop’s safety rules as a short notice for the '
         + 'wall. Use imperatives and sequencers.',
         words: [],
-        must: ['clear numbered rules?', 'imperatives + sequencers?', 'the axle-stand rule included?', '50–80 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.'],
+        must: ['clear numbered rules?', 'imperatives + sequencers?', 'the axle-stand rule included?', '50–80 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.'],
         planPlaceholder: 'My plan:  1)…   2)…   3)…'
       },
       aiCheck: {
@@ -106,9 +105,9 @@ EAM.page('u3-s17', {
         + 'wall. Use imperatives and sequencers.',
         grammar: 'Imperatives, and the order of the steps',
         reader: 'the teacher',
-        must: ['clear numbered rules?', 'imperatives + sequencers?', 'the axle-stand rule included?', '50–80 words?', 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.', 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.']
+        must: ['clear numbered rules?', 'imperatives + sequencers?', 'the axle-stand rule included?', '50–80 words?', 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.', 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.']
       },
       coach: {
         title: 'Check your writing',
@@ -125,10 +124,10 @@ EAM.page('u3-s17', {
                    { t: 'imperatives + sequencers?' },
                    { t: 'the axle-stand rule included?' },
                    { t: '50–80 words?' },
-                   { t: 'Every instruction begins with the verb — <b>Put</b>, <b>Check</b>, '
-        + '<b>Wear</b> — with no <i>I</i> or <i>you</i> in front of it.' },
-                   { t: 'A step that keeps somebody safe comes <b>before</b> the work it protects, '
-        + 'not after it.' }]
+                   { t: 'Every instruction begins with the verb — “Put”, “Check”, “Wear” — with no '
+        + '“I” or “you” in front of it.' },
+                   { t: 'A step that keeps somebody safe comes “before” the work it protects, not '
+        + 'after it.' }]
       }
     }
   ]
