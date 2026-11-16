@@ -263,7 +263,12 @@ def seam(heads, ns, out):
         if other == this:
             continue
         theirs = {}
-        for n in range(21 if other == 3 else 31, 31 if other == 3 else 41):
+        # The first unit of volume v. This was once written as a pair of
+        # two-way conditionals, which silently gave every volume past the
+        # fourth volume 4's own units: `check.py 31-40` then reported unit 39
+        # colliding with itself under the name of Volume 5.
+        lo = 21 + (other - 3) * 10
+        for n in range(lo, lo + 10):
             try:
                 m = importlib.import_module('content.u%02d' % n)
             except ModuleNotFoundError:
