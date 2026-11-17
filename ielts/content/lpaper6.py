@@ -158,49 +158,53 @@ LPAPER = dict(
          'to last December. Hold us to the cancelled journeys figure, '
          'because that is the one the penalty attaches to.')],
        items=[
-        ('From March the town’s buses will be run under',
-         ['eleven commercial routes', 'a single contract for the whole '
-          'network', 'two competing contracts',
-          'direct council operation'], 1,
-         'The council specifies and one operator runs the network.'),
+        ('From March the town\u2019s buses will be run under',
+         ['eleven commercial routes', 'a single contract for the whole network', 'two competing contracts', 'direct council operation'],
+         1, 'The council specifies and one operator runs the network.',
+         {0: 'Eleven commercial routes is the old arrangement.', 2: 'One operator runs it, not two competing ones.', 3: 'The council specifies; an operator runs the buses.'}),
         ('The reason for the change is',
-         ['lower cost', 'the power to require a route to exist',
-          'new vehicles', 'a government order'], 1,
-         'The new arrangement costs about four per cent more.'),
-        ('Under the old system an operator withdrew the evening service '
-         'on the Wentbridge route with',
-         ['two weeks’ notice', 'four weeks’ notice', 'eight weeks’ '
-          'notice', 'no notice'], 2,
-         'And the council had no power to prevent it.'),
+         ['lower cost', 'the power to require a route to exist', 'new vehicles', 'a government order'],
+         1, 'The new arrangement costs about four per cent more.',
+         {0: 'The new arrangement costs four per cent more.', 2: 'New vehicles are not given as the reason.', 3: 'No government order is mentioned in the talk.'}),
+        (
+         'Under the old system an operator withdrew the evening '
+         'service on the Wentbridge route with',
+         ['two weeks\u2019 notice', 'four weeks\u2019 notice', 'eight weeks\u2019 notice', 'no notice'],
+         2, 'And the council had no power to prevent it.',
+         {0: 'Two weeks is shorter than the notice given.', 1: 'Four weeks is the consultation window, not the notice.', 3: 'Notice was given; the council simply could not refuse.'}),
         ('Every route in the new contract must run until',
-         ['ten at night', 'eleven at night', 'midnight',
-          'the last train'], 1,
-         'Seven days a week, with penalties for cancellations.'),
+         ['ten at night', 'eleven at night', 'midnight', 'the last train'],
+         1, 'Seven days a week, with penalties for cancellations.',
+         {0: 'Ten at night is an hour earlier than the standard.', 2: 'Midnight is later than the contract requires.', 3: 'No train time is mentioned in the contract.'}),
         ('A single journey anywhere in the town will cost',
-         ['£1.50', '£1.90', '£2.50', '£4.50'], 1,
-         'A rise for the two shortest routes and a fall for the rest.'),
+         ['\u00a31.50', '\u00a31.90', '\u00a32.50', '\u00a34.50'], 1,
+         'A rise for the two shortest routes and a fall for the rest.',
+         {0: '\u00a31.50 is below the new single fare.', 2: '\u00a32.50 is above the new single fare.', 3: '\u00a34.50 is the daily cap, not the single fare.'}),
         ('The daily cap applies',
-         ['on request', 'automatically', 'only with a smartcard',
-          'at weekends only'], 1,
-         'So no decision is needed in advance.'),
+         ['on request', 'automatically', 'only with a smartcard', 'at weekends only'],
+         1, 'So no decision is needed in advance.',
+         {0: 'No request is needed for the cap to apply.', 2: 'No smartcard condition is mentioned.', 3: 'The cap applies every day, not only at weekends.'}),
         ('Under the new timetable buses will run',
-         ['every twelve minutes at peak', 'every twenty minutes all '
-          'day', 'every forty minutes off peak',
-          'hourly on Sundays'], 1,
-         'Replacing a peak and off-peak pattern.'),
+         ['every twelve minutes at peak', 'every twenty minutes all day', 'every forty minutes off peak', 'hourly on Sundays'],
+         1, 'Replacing a peak and off-peak pattern.',
+         {0: 'Twelve minutes at peak is the old pattern.', 2: 'Forty minutes off peak is the old pattern.', 3: 'Sunday service runs on the same twenty-minute pattern.'}),
         ('The consultation received',
-         ['nine responses', 'ninety-one responses',
-          'four hundred responses', 'no responses'], 1,
-         'From a town of forty thousand people, which he declines to call '
-         'consultation.'),
+         ['nine responses', 'ninety-one responses', 'four hundred responses', 'no responses'],
+         1,
+         'From a town of forty thousand people, which he declines to '
+         'call consultation.',
+         {0: 'Nine is a tenth of the responses received.', 2: 'Four hundred is far more than were received.', 3: 'Ninety-one responses did arrive.'}),
         ('What has been reopened for comment is',
-         ['the route structure', 'the stopping pattern on two routes',
-          'the fares', 'the school journeys'], 1,
-         'Until the end of January, since the contract is signed.'),
-        ('He asks residents to hold the council particularly to the figure '
-         'for', ['punctuality', 'cancelled journeys', 'passenger '
-          'numbers', 'complaints'], 1,
-         'Because that is the figure the penalty attaches to.')]),
+         ['the route structure', 'the stopping pattern on two routes', 'the fares', 'the school journeys'],
+         1, 'Until the end of January, since the contract is signed.',
+         {0: 'The route structure is fixed, the contract being signed.', 2: 'Fares are set in the contract.', 3: 'School journeys stay as they are for a year.'}),
+        (
+         'He asks residents to hold the council particularly to the '
+         'figure for',
+         ['punctuality', 'cancelled journeys', 'passenger numbers', 'complaints'],
+         1, 'Because that is the figure the penalty attaches to.',
+         {0: 'Punctuality is one of the four figures but carries no '
+             'penalty.', 2: 'Passenger numbers carry no penalty.', 3: 'Complaints carry no penalty either.'})]),
 
   dict(no=3, first=21, part='Part 3', band='l3',
        heading='Three students plan a dissertation study',
@@ -267,45 +271,58 @@ LPAPER = dict(
          'service was withdrawn. Write me four hundred words on '
          'recruitment by Friday and we will decide then.')],
        items=[
-        ('The supervisor’s first objection to the plan is that',
-         ['the question is too broad', 'there is no measurement from '
-          'before the change', 'surveys are unreliable',
-          'the sample is too small'], 1,
-         'A survey in April tells them only what people do in April.'),
-        ('Who objects that recall questions about travel are '
-         'unreliable?', ['Clemency', 'Olufemi', 'the supervisor',
-          'nobody'], 1,
-         'Particularly about frequency of travel.'),
+        ('The supervisor\u2019s first objection to the plan is that',
+         ['the question is too broad', 'there is no measurement from before the change', 'surveys are unreliable', 'the sample is too small'],
+         1,
+         'A survey in April tells them only what people do in April.',
+         {0: 'He calls the question a good one.', 2: 'Recall unreliability is his second objection.', 3: 'Sample size is raised later, not first.'}),
+        (
+         'Who objects that recall questions about travel are '
+         'unreliable?',
+         ['Clemency', 'Olufemi', 'the supervisor', 'nobody'], 1,
+         'Particularly about frequency of travel.',
+         {0: 'Clemency says she would rather have unreliable recall.', 2: 'The supervisor\u2019s first objection was the missing before.', 3: 'One of the two students does raise it.'}),
         ('Who says they would prefer unreliable recall to nothing?',
          ['Clemency', 'Olufemi', 'the supervisor', 'nobody'], 0,
-         'Said immediately after the objection to recall.'),
-        ('The supervisor says the published passenger numbers will show '
-         'that boardings changed but not',
-         ['by how much', 'who changed or why', 'on which routes',
-          'in which months'], 1,
-         'Which is what the students’ study is for.'),
+         'Said immediately after the objection to recall.',
+         {1: 'Olufemi objects that recall about travel is unreliable.', 2: 'The supervisor points to the published numbers instead.', 3: 'One of the two students does say it.'}),
+        (
+         'The supervisor says the published passenger numbers will '
+         'show that boardings changed but not',
+         ['by how much', 'who changed or why', 'on which routes', 'in which months'],
+         1, 'Which is what the students\u2019 study is for.',
+         {0: 'The numbers do give the size of the change.', 2: 'Routes are recorded in the published figures.', 3: 'The figures are published monthly, so months are '
+             'covered.'}),
         ('According to the supervisor, the survey answers',
          ['the why', 'the who', 'the how much', 'the when'], 1,
-         'The why requires interviews instead.'),
+         'The why requires interviews instead.',
+         {0: 'The why needs interviews, not the survey.', 2: 'The published numbers give the how much.', 3: 'The monthly figures give the when.'}),
         ('The number of interviews recommended is',
-         ['five to eight', 'twelve to fifteen', 'twenty to thirty',
-          'fifty'], 1,
-         'Which he says sounds thin and is not.'),
+         ['five to eight', 'twelve to fifteen', 'twenty to thirty', 'fifty'],
+         1, 'Which he says sounds thin and is not.',
+         {0: 'Five to eight is below the number he recommends.', 2: 'Twenty to thirty is more than a dissertation needs.', 3: 'Fifty is far beyond what he recommends.'}),
         ('Twelve interviews are defensible because the study is',
-         ['estimating a proportion', 'finding what kinds of reason '
-          'exist', 'testing a hypothesis', 'piloting a survey'], 1,
-         'And new kinds stop appearing after about ten conversations.'),
-        ('Who raises the problem that both students live on the same bus '
-         'route?', ['Clemency', 'Olufemi', 'the supervisor',
-          'nobody'], 1,
-         'Called the sharpest point of the afternoon.'),
+         ['estimating a proportion', 'finding what kinds of reason exist', 'testing a hypothesis', 'piloting a survey'],
+         1,
+         'And new kinds stop appearing after about ten conversations.',
+         {0: 'Estimating a proportion is what it is not doing.', 2: 'No hypothesis is being tested by the interviews.', 3: 'The interviews are not a pilot for the survey.'}),
+        (
+         'Who raises the problem that both students live on the same '
+         'bus route?',
+         ['Clemency', 'Olufemi', 'the supervisor', 'nobody'], 1,
+         'Called the sharpest point of the afternoon.',
+         {0: 'Clemency replies that she does not see it as a problem.', 2: 'The supervisor calls it the sharpest point made.', 3: 'One of the two students does raise it.'}),
         ('Who proposes adding weekday and weekend recruitment?',
          ['Clemency', 'Olufemi', 'the supervisor', 'nobody'], 0,
-         'Because the timetable change differs by day.'),
-        ('The group the supervisor calls most informative and hardest to '
-         'reach is', ['evening passengers', 'people who stopped using '
-          'the bus', 'school pupils', 'car owners'], 1,
-         'They are not at a bus stop, so almost nobody reaches them.')]),
+         'Because the timetable change differs by day.',
+         {1: 'Olufemi proposes three routes rather than one.', 2: 'The supervisor accepts both additions.', 3: 'One of the two students does propose it.'}),
+        (
+         'The group the supervisor calls most informative and hardest '
+         'to reach is',
+         ['evening passengers', 'people who stopped using the bus', 'school pupils', 'car owners'],
+         1,
+         'They are not at a bus stop, so almost nobody reaches them.',
+         {0: 'Evening passengers are still at a bus stop.', 2: 'School pupils stay on the old arrangement for a year.', 3: 'Car parks are where to find them, not the group itself.'})]),
 
   dict(no=4, first=31, part='Part 4', band='l4',
        heading='A lecture on the coming of standard time',

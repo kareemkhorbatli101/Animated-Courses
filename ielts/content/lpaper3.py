@@ -133,30 +133,34 @@ LPAPER = dict(
          'figure exists because people filled in a form for two years.')],
        items=[
         ('Where does the group meet?',
-         ['The boathouse', 'The bridge car park', 'The village hall',
-          'The parish office'], 1,
-         'The boathouse appears on old leaflets and still catches people '
-         'out.'),
-        ('How many teams are there?',
-         ['Two', 'Three', 'Four', 'Five'], 1,
-         'Bank, water and sorting, and volunteers choose between them.'),
+         ['The boathouse', 'The bridge car park', 'The village hall', 'The parish office'],
+         1,
+         'The boathouse appears on old leaflets and still catches '
+         'people out.',
+         {0: 'The boathouse is the old leaflet\u2019s address.', 2: 'The village hall is where the soup is afterwards.', 3: 'No parish office is mentioned in the talk.'}),
+        ('How many teams are there?', ['Two', 'Three', 'Four', 'Five'],
+         1,
+         'Bank, water and sorting, and volunteers choose between them.',
+         {0: 'Two leaves out one of the three teams.', 2: 'Four is one more than the teams named.', 3: 'Five is well above the number of teams.'}),
         ('Why does nobody use waders on a first day?',
-         ['It is dangerous', 'For insurance reasons', 'There are too few',
-          'The water is too cold'], 1,
-         'The speaker says the reason is insurance rather than safety.'),
-        ('Which job does the speaker say produces the group’s only real '
-         'data?', ['Bank picking', 'Water work', 'Sorting and weighing',
-          'Campaigning'], 2,
-         'The job the speaker says most people dismiss.'),
+         ['It is dangerous', 'For insurance reasons', 'There are too few', 'The water is too cold'],
+         1,
+         'The speaker says the reason is insurance rather than safety.',
+         {0: 'The speaker says the reason is not safety.', 2: 'Nothing is said about a shortage of waders.', 3: 'Water temperature is not mentioned at all.'}),
+        (
+         'Which job does the speaker say produces the group\u2019s only '
+         'real data?',
+         ['Bank picking', 'Water work', 'Sorting and weighing', 'Campaigning'],
+         2, 'The job the speaker says most people dismiss.',
+         {0: 'Bank picking collects litter from the path.', 1: 'Water work is done in waders, not for the data.', 3: 'Campaigning is not one of the three teams.'}),
         ('What makes up about a third of the material by weight?',
-         ['Plastic bottles', 'Wet wipes', 'Shopping trolleys',
-          'Food packaging'], 1,
-         'Almost all of it arriving through the storm drains.'),
+         ['Plastic bottles', 'Wet wipes', 'Shopping trolleys', 'Food packaging'],
+         1, 'Almost all of it arriving through the storm drains.',
+         {0: 'Plastic bottles are about a tenth by weight.', 2: 'Trolleys are four or five a year, not a third.', 3: 'Food packaging is not among the figures given.'}),
         ('What does the speaker say about shopping trolleys?',
-         ['They are the heaviest item', 'They are the most photographed and '
-          'few are found', 'They cannot be recovered',
-          'They are increasing'], 1,
-         'Four or five a year, and in every local news photograph.'),
+         ['They are the heaviest item', 'They are the most photographed and few are found', 'They cannot be recovered', 'They are increasing'],
+         1, 'Four or five a year, and in every local news photograph.',
+         {0: 'Wet wipes are the heaviest share by weight.', 2: 'Four or five are recovered each year.', 3: 'No trend in trolley numbers is reported.'}),
         ('Rule: sharp items go in the ____________ bin.', None, 'yellow',
          'Where somebody with a licence deals with them.'),
         ('Rule: nobody works alone out of ____________ of another person.',
@@ -218,33 +222,40 @@ LPAPER = dict(
          'you cannot say that in advance, you will find the timetable '
          'whatever the data says.')],
        items=[
-        ('What was the students’ original research question?',
-         ['Why ridership fell', 'Whether the timetable change reduced '
-          'ridership', 'How satisfied passengers are',
-          'Where passengers travel'], 1,
-         'Which the tutor shows is already answered by published data.'),
+        ('What was the students\u2019 original research question?',
+         ['Why ridership fell', 'Whether the timetable change reduced ridership', 'How satisfied passengers are', 'Where passengers travel'],
+         1,
+         'Which the tutor shows is already answered by published data.',
+         {0: 'Why ridership fell is the better question they move to.', 2: 'Satisfaction is not what either version asks.', 3: 'Destinations are not part of either question.'}),
         ('Why does the tutor reject asking people about last year?',
-         ['It is unethical', 'It measures memory rather than buses',
-          'It takes too long', 'Nobody will answer'], 1,
-         'The published boarding counts measure the change directly.'),
+         ['It is unethical', 'It measures memory rather than buses', 'It takes too long', 'Nobody will answer'],
+         1,
+         'The published boarding counts measure the change directly.',
+         {0: 'The tutor raises no ethical objection.', 2: 'Length of the task is not the objection.', 3: 'He expects answers, just unreliable ones.'}),
         ('What data did Marek find?',
-         ['Ticket prices', 'Monthly boarding counts by route',
-          'Passenger complaints', 'Parking records'], 1,
-         'Going back six years, which makes the survey unnecessary for the '
-         'first question.'),
+         ['Ticket prices', 'Monthly boarding counts by route', 'Passenger complaints', 'Parking records'],
+         1,
+         'Going back six years, which makes the survey unnecessary for '
+         'the first question.',
+         {0: 'Ticket prices are not what Marek found.', 2: 'Complaints are not among the published data.', 3: 'Parking records are the confound, not the data found.'}),
         ('By how much did ridership fall?',
-         ['six per cent', 'eleven per cent', 'twenty per cent',
-          'it rose'], 1,
-         'A figure the counts give without any survey.'),
+         ['six per cent', 'eleven per cent', 'twenty per cent', 'it rose'],
+         1, 'A figure the counts give without any survey.',
+         {0: 'Six per cent is below the figure the counts give.', 2: 'Twenty per cent is nearly double the fall reported.', 3: 'Ridership fell rather than rose.'}),
         ('What is wrong with surveying at the bus stop?',
-         ['It is unsafe', 'Everybody there is still using the bus',
-          'Mornings are too busy', 'Permission is needed'], 1,
-         'The people whose behaviour changed are the ones not there.'),
-        ('What does the tutor ask them to write down before collecting '
-         'data?', ['The questions', 'What result would point to the parking '
-          'charges', 'The sample size', 'The budget'], 1,
-         'Because otherwise they will find the timetable whatever the data '
-         'says.'),
+         ['It is unsafe', 'Everybody there is still using the bus', 'Mornings are too busy', 'Permission is needed'],
+         1,
+         'The people whose behaviour changed are the ones not there.',
+         {0: 'Safety at the stop is not raised.', 2: 'Busy mornings are not the tutor\u2019s objection.', 3: 'Permission is not the problem at the stop.'}),
+        (
+         'What does the tutor ask them to write down before collecting '
+         'data?',
+         ['The questions', 'What result would point to the parking charges', 'The sample size', 'The budget'],
+         1,
+         'Because otherwise they will find the timetable whatever the '
+         'data says.',
+         {0: 'The nine questions are chosen separately.', 2: 'The sample size is already calculated at a hundred and '
+             'twenty.', 3: 'No budget is discussed in the tutorial.'}),
         ('Instead of the bus stop, they will knock on ____________ along '
          'the route.', None, 'doors',
          'Which the tutor calls expensive in time and the best available '
@@ -309,32 +320,40 @@ LPAPER = dict(
          'visitor, whose engagement depends on scale and presence in a way '
          'a screen does not carry. It is also what funders prefer.')],
        items=[
-        ('What proportion of its holdings does a large museum display?',
-         ['Under one per cent', 'One to five per cent',
-          'Ten to twenty per cent', 'About half'], 1,
-         'The rest is in store, which is the subject of the lecture.'),
+        (
+         'What proportion of its holdings does a large museum display?',
+         ['Under one per cent', 'One to five per cent', 'Ten to twenty per cent', 'About half'],
+         1,
+         'The rest is in store, which is the subject of the lecture.',
+         {0: 'Under one per cent is below the range he gives.', 2: 'Ten to twenty per cent is well above the range.', 3: 'About half is far more than any museum displays.'}),
         ('Most collections, the lecturer says, were',
-         ['assembled deliberately', 'accumulated through bequests',
-          'bought at auction', 'transferred from other museums'], 1,
-         'And bequests usually arrive with conditions attached.'),
-        ('Which factor does the lecturer say does more selecting than any '
-         'curator?', ['Space', 'Condition', 'Documentation',
-          'Funding'], 1,
-         'Because light damages textiles, paper and dyes irreversibly.'),
-        ('A watercolour shown for three months in nine years is in store '
-         'for', ['three years', 'six years', 'eight years and nine '
-          'months', 'the whole period'], 2,
-         'Whatever anybody thinks of its quality.'),
+         ['assembled deliberately', 'accumulated through bequests', 'bought at auction', 'transferred from other museums'],
+         1, 'And bequests usually arrive with conditions attached.',
+         {0: 'Deliberate assembly is what he says did not happen.', 2: 'Auction purchases are not how most arrived.', 3: 'Transfers between museums are not mentioned.'}),
+        (
+         'Which factor does the lecturer say does more selecting than '
+         'any curator?',
+         ['Space', 'Condition', 'Documentation', 'Funding'], 1,
+         'Because light damages textiles, paper and dyes irreversibly.',
+         {0: 'Space is the fourth factor he lists.', 2: 'Documentation is the third factor he lists.', 3: 'Funding is not among the four factors.'}),
+        (
+         'A watercolour shown for three months in nine years is in '
+         'store for',
+         ['three years', 'six years', 'eight years and nine months', 'the whole period'],
+         2, 'Whatever anybody thinks of its quality.',
+         {0: 'Three years is the time it can be shown, not stored.', 1: 'Six years leaves nearly three years unaccounted for.', 3: 'The whole nine years would leave no display time.'}),
         ('Why are poorly documented objects under-displayed?',
-         ['They are fragile', 'A label makes a claim that can be '
-          'challenged', 'Visitors dislike them', 'They are too small'], 1,
+         ['They are fragile', 'A label makes a claim that can be challenged', 'Visitors dislike them', 'They are too small'],
+         1,
          'And weak documentation correlates with how an object was '
-         'acquired.'),
+         'acquired.',
+         {0: 'Fragility is the condition factor, not documentation.', 2: 'Visitor taste is not the reason he gives.', 3: 'Size is a separate factor in his list.'}),
         ('Doubling gallery space increases what can be shown by about',
-         ['two per cent of holdings', 'ten per cent of holdings',
-          'double', 'forty per cent'], 0,
-         'Because display space per object is roughly forty times storage '
-         'space.'),
+         ['two per cent of holdings', 'ten per cent of holdings', 'double', 'forty per cent'],
+         0,
+         'Because display space per object is roughly forty times '
+         'storage space.',
+         {1: 'Ten per cent is five times the figure he gives.', 2: 'Gallery space doubles; what can be shown does not.', 3: 'Forty is the ratio of display to storage space.'}),
         ('What is on display is approximately the durable, the '
          'well-documented, the bequeathed and the ____________.', None,
          'small', 'A selection the lecturer says nobody designed.'),

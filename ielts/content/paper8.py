@@ -73,7 +73,8 @@ PAPER = dict(
          None, 'forty', 'A rule about changing rooms, not swimming.'),
         ('How many lanes stay open to the public on club evenings?',
          ['two', 'one', 'four', 'six'], 0,
-         'Two of the six lanes, with the shallow end unaffected.'),
+         'Two of the six lanes, with the shallow end unaffected.',
+         {1: 'One lane is fewer than the two kept open.', 2: 'Four lanes are reserved for the clubs.', 3: 'Six is the total number of lanes.'}),
         ('A monthly pass pays for itself at ____________ swims.',
          None, 'seven', 'Which staff will tell a swimmer who asks.'),
         ('One adult may bring no more than ____________ children '
@@ -140,9 +141,9 @@ PAPER = dict(
          '____________.', None, 'flour',
          'Paragraph 3, which is why the saving mattered.'),
         ('What brought the oven into the kitchen wall?',
-         ['cheap flour', 'the cast iron range', 'the village oven',
-          'the landlord'], 1,
-         'Paragraph 4, together with cheaper coal.'),
+         ['cheap flour', 'the cast iron range', 'the village oven', 'the landlord'],
+         1, 'Paragraph 4, together with cheaper coal.',
+         {0: 'Flour was cheaper than fuel, which is the old balance.', 2: 'The village oven is what the change replaced.', 3: 'The landlord charged for the shared oven\u2019s use.'}),
         ('Some ovens survived where the building also served as a '
          '____________ place.', None, 'meeting',
          'Paragraph 5, in some cases into the 1950s.')]),
@@ -202,8 +203,8 @@ PAPER = dict(
          'Paragraph 3, naming the time and the dentist.'),
         ('What did a second message on the morning itself add?',
          ['a third', 'a quarter', 'nothing at all', 'very little'], 3,
-         'Paragraph 3: the useful message leaves time to '
-         'rearrange.'),
+         'Paragraph 3: the useful message leaves time to rearrange.',
+         {0: 'A third is what the two-day message achieved.', 1: 'A quarter is the fall from the read-back question.', 2: 'It added very little rather than nothing at all.'}),
         ('Staff began asking patients to state the day and '
          '____________ they had written down.', None, 'time',
          'Paragraph 4, instead of telling them.'),

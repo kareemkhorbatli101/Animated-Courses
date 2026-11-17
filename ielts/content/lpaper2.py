@@ -216,17 +216,19 @@ LPAPER = dict(
          'actually.'),
         ('Rosamund', 'Then write it down before we forget it.')],
        items=[
-        ('Rosamund rejects the first idea because they could not '
-         'obtain enough', ['time', 'responses', 'permission',
-          'funding'], 1,
-         'Four hundred would be needed and they would get about '
-         'forty.'),
+        (
+         'Rosamund rejects the first idea because they could not '
+         'obtain enough',
+         ['time', 'responses', 'permission', 'funding'], 1,
+         'Four hundred would be needed and they would get about forty.',
+         {0: 'Three weeks is the time they have, not what they lack.', 2: 'Permission is the obstacle to the library topic.', 3: 'Funding is not raised about any of the three ideas.'}),
         ('She says a survey of forty people in their own building '
          'would be a report about ____________.', None, 'themselves',
          'Which is her objection to the first topic.'),
         ('What appeals to her about the canteen topic is that it is a',
          ['comparison', 'measurement', 'survey', 'case study'], 1,
-         'Weighing what comes back produces a number nobody has.'),
+         'Weighing what comes back produces a number nobody has.',
+         {0: 'The comparison with ordering figures comes later.', 2: 'A survey is what the first idea would have required.', 3: 'Neither student calls the canteen topic a case study.'}),
         ('The catering manager agreed on condition that they come '
          'after ____________.', None, '2.30',
          'And do not get in the way of the staff.'),
@@ -238,10 +240,12 @@ LPAPER = dict(
          'And will not be released without a staff signature.'),
         ('Their tutor is away until the ____________.', None,
          'twelfth', 'Which is why no signature can be obtained.'),
-        ('The weakness Rosamund identifies is that one week falls '
-         'before the', ['examinations', 'holiday', 'inspection',
-          'term'], 1,
-         'When canteen numbers are not typical.'),
+        (
+         'The weakness Rosamund identifies is that one week falls '
+         'before the',
+         ['examinations', 'holiday', 'inspection', 'term'], 1,
+         'When canteen numbers are not typical.',
+         {0: 'Examinations are not mentioned by either student.', 2: 'No inspection is part of the canteen plan.', 3: 'The start of term is not the week she means.'}),
         ('Benedikt will take the ordering figures and the '
          '____________.', None, 'literature',
          'While Rosamund does the weighing.'),
@@ -309,14 +313,15 @@ LPAPER = dict(
          'Although nothing about capacity has changed.'),
         ('At fifty per cent of capacity, waiting is',
          ['noticeable', 'negligible', 'doubled', 'infinite'], 1,
-         'It becomes noticeable at eighty per cent.'),
+         'It becomes noticeable at eighty per cent.',
+         {0: 'Waiting becomes noticeable at eighty per cent.', 2: 'Waiting doubles between eighty and ninety per cent.', 3: 'Waiting goes to infinity near full capacity.'}),
         ('Waiting at ninety-five per cent of capacity is about '
          '____________ times what it is at eighty.', None, 'four',
          'And at ninety it is roughly twice.'),
         ('A system run at ninety-eight per cent is described as',
          ['efficient', 'fragile', 'typical', 'illegal'], 1,
-         'Because the curve rises towards infinity near full '
-         'capacity.'),
+         'Because the curve rises towards infinity near full capacity.',
+         {0: 'The lecturer says it is not efficient at all.', 2: 'He does not call ninety-eight per cent typical.', 3: 'Nothing about it is described as illegal.'}),
         ('Managers resist the finding because spare capacity looks '
          'like ____________ on a spreadsheet.', None, 'waste',
          'Though it is what absorbs an emergency.'),

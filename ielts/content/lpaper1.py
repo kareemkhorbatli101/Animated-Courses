@@ -188,10 +188,12 @@ LPAPER = dict(
          'draft. Put that in the design and I will write the '
          'literature.')],
        items=[
-        ('Marguerite objects to surveying current users because they '
-         'are', ['too busy', 'already using it', 'hard to reach',
-          'unrepresentative'], 1,
-         'The question is about why people stop.'),
+        (
+         'Marguerite objects to surveying current users because they '
+         'are',
+         ['too busy', 'already using it', 'hard to reach', 'unrepresentative'],
+         1, 'The question is about why people stop.',
+         {0: 'Being busy is not her objection to current users.', 2: 'Current users are the easiest group to reach.', 3: 'She does not call current users unrepresentative.'}),
         ('____________ people cancelled their membership last year.',
          None, '340', 'Out of a total of nine hundred members.'),
         ('That is more than a ____________ of the membership.', None,
@@ -205,10 +207,12 @@ LPAPER = dict(
         ('Marguerite expects a response rate of about ____________ '
          'per cent.', None, 'eight',
          'Which works out at about twenty-seven people.'),
-        ('She says twenty-seven responses are worth having because '
-         'nobody else has', ['published them', 'asked',
-          'counted them', 'paid for them'], 1,
-         'Which is her answer to the objection.'),
+        (
+         'She says twenty-seven responses are worth having because '
+         'nobody else has',
+         ['published them', 'asked', 'counted them', 'paid for them'],
+         1, 'Which is her answer to the objection.',
+         {0: 'Publication is not what she says nobody has done.', 2: 'The centre has counted the cancellations already.', 3: 'Payment is not mentioned by either student.'}),
         ('Their single question asks what was happening in the '
          '____________ when the person stopped coming.', None,
          'month', 'Rather than asking them why they stopped.'),
@@ -272,7 +276,9 @@ LPAPER = dict(
          'At nine in the morning and five in the afternoon.'),
         ('At eighty per cent of capacity the wait is described as',
          ['negligible', 'noticeable', 'fourfold', 'infinite'], 1,
-         'Rising sharply as capacity is approached.'),
+         'Rising sharply as capacity is approached.',
+         {0: 'Negligible describes capacity well below eighty per '
+             'cent.', 2: 'Fourfold is the wait at ninety-five per cent.', 3: 'Infinite is the wait as capacity reaches a hundred.'}),
         ('At ninety-five per cent the wait is about ____________ '
          'times that.', None, 'four',
          'And the curve goes to infinity at a hundred.'),
