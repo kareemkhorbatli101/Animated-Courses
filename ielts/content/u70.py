@@ -436,8 +436,9 @@ UNIT = dict(
           ('Announcer', 'The next announcement will be at two o clock, '
            'or sooner if the river rises faster than expected.')],
          items=[
-          ('The river is expected to come over its banks between four '
-           'and ____________.', None, 'six',
+          (
+           'Between which hours is the river expected to come over its '
+           'banks?', None, 'four and six',
            'This afternoon, the announcement says.'),
           ('Properties below the level of the old ____________ are '
            'most at risk.', None, 'bridge',
@@ -448,8 +449,8 @@ UNIT = dict(
           ('Vehicles should go to the car park behind the '
            '____________.', None, 'school',
            'Eight metres above the river, and never flooded.'),
-          ('The next announcement is at ____________ o clock.', None,
-           'two', 'Or sooner if the river rises faster.')])],
+          ('When is the next announcement?', None, 'two o clock',
+           'Or sooner if the river rises faster.')])],
    speak=dict(
     part='Part 2', focus='A time the weather changed your plans',
     longturn=[('I am going to talk about a time when the weather changed my '
@@ -676,20 +677,23 @@ UNIT = dict(
            'high each one is. Distance is the least useful of the '
            'three.')],
          items=[
-          ('Rainfall on two sides of a hill can differ by a factor of '
-           '____________.', None, 'three',
-           'Although the sides are four kilometres apart.'),
+          (
+           'Rainfall on two sides of the same hill can differ by a '
+           'factor of', ['two', 'three', 'ten', 'a hundred'],
+           1, 'Although the two sides are four kilometres apart.',
+           {0: 'Two is less than the figure he gives.', 2: 'Ten is far more than the figure he gives.', 3: 'A hundred is not a figure anywhere in the talk.'}),
           ('Cool air cannot hold as much ____________.', None,
            'moisture', 'So the water falls on the windward side.'),
-          ('Air that descends the other side ____________ as it '
-           'comes down.', None, 'warms',
-           'And that dries the land still further.'),
-          ('Height takes about ____________ degrees off for every '
-           'thousand metres.', None, 'six',
-           'And water nearby keeps winters mild.'),
-          ('The speaker says ____________ is the least useful of the '
-           'three.', None, 'distance',
-           'Facing and height matter more.')])],
+          ('Air that descends the far side of the hill',
+           ['cools and dries the land', 'warms and dries the land', 'warms and wets the land', 'does not change'],
+           1, 'And that dries the land still further.',
+           {0: 'Cooling is what happens on the way up, not down.', 2: 'The water has already fallen on the windward side.', 3: 'The change is his whole explanation of the difference.'}),
+          ('How many degrees does every thousand metres take off?',
+           None, 'six', 'And water nearby keeps winters mild.'),
+          ('Of the three things he names, the least useful is',
+           ['which way a slope faces', 'height', 'distance from the sea', 'the time of year'],
+           2, 'Facing and height matter more, he says.',
+           {0: 'Facing is one of the two he says matter more.', 1: 'Height is the other of the two he says matter more.', 3: 'The time of year is not one of the three he names.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Climate and place',
     intro=('Start with the card. Notes for a minute, then talk, developing '
@@ -859,6 +863,9 @@ UNIT = dict(
          part='Part 3',
          task='A discussion between two neighbours · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Ivy    B  Hal    C  both of them',
          script=[
           ('Tutor', 'You have both lived on this street for decades. '
            'What has changed?'),
@@ -883,17 +890,19 @@ UNIT = dict(
            'evidence of what it does.'),
           ('Tutor', 'That is the distinction the essay needs.')],
          items=[
-          ('Ivy plants ____________ weeks earlier than her mother '
-           'did.', None, 'three', 'And she loses less of it to frost.'),
-          ('The road has flooded ____________ times in four years.',
-           None, 'twice', 'And not once in the thirty years before.'),
-          ('The drain was built for a street of ____________ houses.',
-           None, 'thirty', 'There are ninety houses on it now.'),
-          ('Ivy says it now rains very hard for an ____________.',
-           None, 'hour', 'Rather than all day as it used to.'),
-          ('Hal says they are evidence of what the trend '
-           '____________, not of the trend.', None, 'does',
-           'Which the tutor calls the distinction the essay needs.')])],
+          ('Plants three weeks earlier than the previous generation.',
+           None, 'A', 'And loses less of the garden to frost.'),
+          ('Reports two floods in four years and none in thirty.',
+           None, 'B', 'Which is the change on the road itself.'),
+          (
+           'Says the drain was built for a street a third of the size.',
+           None, 'B', 'Thirty houses then and ninety now.'),
+          ('Says the rain now comes very hard for an hour.', None, 'A',
+           'Rather than all day, as it used to.'),
+          (
+           'Accepts that the two of them are not evidence of the '
+           'trend.', None, 'C',
+           'Hal puts it and the tutor calls it the distinction.')])],
    speak=dict(
     part='Part 3', focus='Weather, memory and records',
     sounds=[('This is the last page on sounds in this book. Five things '

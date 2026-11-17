@@ -255,8 +255,8 @@ UNIT = dict(
            'years in a flat above a road, that is worth more to me than '
            'another two square metres.')],
          items=[
-          ('The kitchen has one base unit and one ____________.', None,
-           'shelf', 'The speaker keeps heavy things low.'),
+          ('What does the kitchen have besides one base unit?', None,
+           'one shelf', 'The speaker keeps heavy things low.'),
           ('How many people can cook in the kitchen at once?', None,
            'one',
            'Two people cannot, the speaker says.'),
@@ -639,18 +639,25 @@ UNIT = dict(
            'kitchen is the last room we finish and the first room that '
            'sells the house.')],
          items=[
-          ('There are ____________ houses on the site.', None,
-           'twenty-four', 'At four different stages, the speaker says.'),
-          ('The concrete base is left for ____________ weeks.', None,
-           'three', 'Because it has not gained its full strength.'),
+          ('The number of houses on the site is',
+           ['fourteen', 'twenty-four', 'forty', 'four'], 1,
+           'At four different stages, the speaker says.',
+           {0: 'Fourteen sounds close to it but is not the number '
+               'given.', 2: 'Forty is more than the speaker says are on the site.', 3: 'Four is the number of stages, not of houses.'}),
+          ('The concrete base is left for',
+           ['three days', 'three weeks', 'three months', 'one week'], 1,
+           'Because it has not yet reached its full strength.',
+           {0: 'Days would be too short for the strength he describes.', 2: 'Months is much longer than the time he gives.', 3: 'One week is a third of the time he gives.'}),
           ('Which trade is paid most on this site?', None,
            'bricklayers',
            'Because a good bricklayer is scarce, the speaker says.'),
-          ('The inside work is about ____________ the total build '
-           'time.', None, 'half',
+          ('About how much of the build time is the inside work?',
+           None, 'about half',
            'Heating, wires and water, after the roof.'),
-          ('Buyers decide in the first ninety ____________.', None,
-           'seconds', 'And almost always in the kitchen.')])],
+          ('Buyers decide in the first',
+           ['ninety seconds', 'nine minutes', 'ninety minutes', 'nine seconds'],
+           0, 'And almost always in the kitchen.',
+           {1: 'He says seconds, not minutes.', 2: 'Ninety minutes is far longer than the time he gives.', 3: 'Nine seconds is shorter than the time he gives.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Old houses and new houses',
     intro=('The card comes first. Make your notes inside the minute you '
@@ -806,6 +813,9 @@ UNIT = dict(
     dict(heading='Two people talk about moving', part='Part 3',
          task='A discussion between two students · sentence completion and multiple choice', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Sam    B  Nour    C  the tutor',
          script=[
           ('Tutor', 'You both moved last year, in opposite directions. '
            'Sam, you went out of the city.'),
@@ -830,19 +840,16 @@ UNIT = dict(
           ('Tutor', 'So the same fact is the cost and the benefit.'),
           ('Nour', 'Which is what we should say in the report.')],
          items=[
-          ('Sam moved to a village of about ____________ people.', None,
-           'four hundred', 'The first thing Sam says about it.'),
-          ('Sam now travels ____________ hours a day.', None, 'two',
-           'Which Sam calls the real price of the move.'),
-          ("Nour's rent went up by about a ____________.", None,
-           'third', 'Moving from a town into the centre.'),
-          ('What does Nour not have in the new flat?',
-           ['hot water', 'space', 'a quiet street', 'a short journey'],
-           1, 'Nour says the desk is in the bedroom.',
-           {0: 'Hot water is not what Nour says is missing.', 2: 'A quiet street is not what she gave up.', 3: 'She walks to work, so the journey is short.'}),
-          ('When the roof leaked, ____________ people offered to help.',
-           None, 'three',
-           'They offered before Sam had asked anybody.')])],
+          ('Moved to a village of about four hundred people.', None,
+           'A', 'Where the rent is half what it was before.'),
+          ('Now spends two hours a day travelling.', None, 'A',
+           'Which is called the real price of the move.'),
+          ('Pays about a third more in rent than before.', None, 'B',
+           'After moving from a town into the centre.'),
+          ('Has a desk in the bedroom and no space at all.', None, 'B',
+           'The cost of being able to walk to work.'),
+          ('Says the same fact is both the cost and the benefit.',
+           None, 'C', 'Being known in a village, which cuts both ways.')])],
    speak=dict(
     part='Part 3', focus='Living in a town or in the country',
     sounds=[('English has two th sounds. In thing and three there is no voice. '

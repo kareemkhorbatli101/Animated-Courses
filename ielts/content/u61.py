@@ -255,16 +255,16 @@ UNIT = dict(
           ('Shopper', 'Thank you. See you on Tuesday.'),
           ('Seller', 'See you Tuesday.')],
          items=[
-          ('The shopper buys ____________ kilograms of potatoes.', None,
-           'two', 'The first thing asked for in the conversation.'),
-          ('The apples come from the farm at ____________.', None,
-           'Ashbury', 'The seller names the farm when asked.'),
+          ('How many kilograms of potatoes does the shopper buy?',
+           None, 'two', 'The first thing asked for in the conversation.'),
+          ('Which farm do the apples come from?', None, 'Ashbury',
+           'The seller names the farm when asked.'),
           ('The apples were picked on ____________.', None, 'Tuesday',
            'The seller says so when asked if they are fresh.'),
           ('The total is ____________ pounds forty.', None, 'four',
            'The shopper adds it up and the seller agrees.'),
-          ('The stall is open Tuesday to ____________.', None,
-           'Saturday', 'The last line: it is closed on Sunday.')])],
+          ('On which day is the stall closed?', None, 'Sunday',
+           'The last line: it is closed on Sunday.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Where you buy your food',
     intro=('The long turn first. A minute of notes, then one to two '
@@ -625,19 +625,24 @@ UNIT = dict(
            'but one of us now spends a day a week on paperwork, so it is '
            'not free money.')],
          items=[
-          ('The farm is ____________ hectares.', None, 'forty',
-           'The first line of the talk, and the speaker calls it '
-           'small.'),
+          ('The school farm is',
+           ['four hectares', 'forty hectares', 'fourteen hectares', 'four hundred hectares'],
+           1, 'The first line of the talk, and he calls it small.',
+           {0: 'Four hectares is much smaller than the number he '
+               'gives.', 2: 'Fourteen sounds close to it but is not the number.', 3: 'Four hundred would not be a small farm, and he says it '
+               'is small.'}),
           ('How many things does the farm grow?', None, 'four',
            'Wheat, potatoes, apples and grass.'),
-          ('The soil is tested ____________ a year.', None, 'twice',
-           'In every field, the speaker says.'),
-          ('A tired field is planted with ____________ for two '
-           'seasons.', None, 'grass',
-           'So that the tired field can rest for a season.'),
-          ('Selling directly costs the farm a day a week in '
-           '____________.', None, 'paperwork',
-           'The speaker calls it "not free money".')])],
+          ('The soil is tested',
+           ['once a year', 'twice a year', 'every month', 'every two years'],
+           1, 'In every field, the speaker says.',
+           {0: 'Once is half the number of times he gives.', 2: 'No month is mentioned anywhere in the talk.', 3: 'Every two years is less often than he says.'}),
+          ('What is a tired field planted with for two seasons?', None,
+           'grass', 'So that the tired field can rest for a season.'),
+          ('Selling the food directly costs the farm',
+           ['a day a week in paperwork', 'nothing at all', 'a day a month', 'two extra workers'],
+           0, 'Which is why he calls it money that is not free.',
+           {1: 'He says in the same breath that it is not free money.', 2: 'He says a week, not a month.', 3: 'No extra workers are mentioned in the talk.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Food that comes from other countries',
     intro=('Take the card first. One minute to make notes, then one to two '
@@ -797,6 +802,9 @@ UNIT = dict(
     dict(heading='Two students talk about meals at home', part='Part 3',
          task='A discussion between two students · sentence completion and matching', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Leo    B  Mei    C  the tutor',
          script=[
           ('Tutor', 'You were both looking at family meals. What did you '
            'find?'),
@@ -821,21 +829,16 @@ UNIT = dict(
            'disappearing; it is moving.'),
           ('Mei', 'That is what we will say in the report.')],
          items=[
-          ('Leo asked ____________ people about family meals.', None,
-           'thirty', 'He gives the number at the start.'),
-          ('Most people eat with their family about once a '
-           '____________.', None, 'week',
-           'Not every day, which is what Leo expected.'),
-          ('Mei found the main reason was that people eat at different '
-           '____________.', None, 'times',
-           'She says this surprised her: it was not work.'),
-          ('Which group still eats together every day?',
-           ['students', 'people who work at night', 'families with small children', 'older people'],
-           2, 'Mei says small children eat early.',
-           {0: 'Students are not the group named in the talk.', 1: 'Night workers are not mentioned by either speaker.', 3: 'Older people are not the group they found.'}),
-          ('The tutor says the family meal is not disappearing but '
-           '____________.', None, 'moving',
-           'His summary at the end of the discussion.')])],
+          ('Asked thirty people about meals at home.', None, 'A',
+           'He gives the number at the start.'),
+          ('Says most people eat with their family about once a week.',
+           None, 'A', 'Which is not what he expected to find.'),
+          ('Was surprised that the reason was different mealtimes.',
+           None, 'B', 'She had expected the reason to be work.'),
+          ('Says small children still eat together every day.', None,
+           'B', 'Because they eat early, she says.'),
+          ('Says the family meal is moving rather than disappearing.',
+           None, 'C', 'The summary at the end of the discussion.')])],
    speak=dict(
     part='Part 3', focus='Why food is different from place to place',
     sounds=[('Say each word to the end. In English the end of a word carries '

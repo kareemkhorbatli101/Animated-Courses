@@ -427,10 +427,10 @@ UNIT = dict(
          items=[
           ('The work is due on ____________.', None, 'Monday',
            'The student asks before that date.'),
-          ('The new date is the ____________.', None, 'twenty-fifth',
-           'A week later, the following Monday.'),
-          ('This is the student’s ____________ extension this '
-           'term.', None, 'first', 'Two extensions are allowed each term.'),
+          ('What is the new date for the work?', None,
+           'the twenty-fifth', 'A week later, the following Monday.'),
+          ('How many extensions are allowed each term?', None, 'two',
+           'Two extensions are allowed each term.'),
           ('The teacher says what costs marks is ____________.', None,
            'silence', 'That is, not asking for more time at all.'),
           ('The student should send an email so there is a '
@@ -665,19 +665,29 @@ UNIT = dict(
            'choose the three worst methods available to you, and you '
            'will do it confidently.')],
          items=[
-          ('The first method is to ____________ yourself.', None,
-           'test', 'Instead of reading the material again.'),
-          ('Testing is worth roughly a whole extra ____________.',
-           None, 'lesson', 'According to the studies, the speaker '
-           'says.'),
-          ('Twenty minutes on ____________ days beats an hour on one.',
-           None, 'three', 'Because each gap forces a recall.'),
+          ('The first method the speaker recommends is to',
+           ['read the material again', 'test yourself', 'copy out your notes', 'work with a partner'],
+           1, 'Instead of reading the material again.',
+           {0: 'That is the method she is recommending against.', 2: 'Copying notes is not mentioned in the talk.', 3: 'Working with somebody else is not one of her methods.'}),
+          ('Testing yourself is worth roughly what?', None,
+           'an extra lesson',
+           'According to the studies, the speaker says.'),
+          ('Twenty minutes on three days beats an hour on one because',
+           ['it is less tiring', 'each gap forces a recall', 'teachers prefer it', 'it covers more material'],
+           1, 'Which is the same principle as testing yourself.',
+           {0: 'Tiredness is the other speaker\'s point about long '
+               'school hours.', 2: 'What teachers prefer is not her argument.', 3: 'The amount covered is the same in both cases; the '
+               'timing differs.'}),
           ('Mixing makes you perform worse in practice and better in '
            'the ____________.', None, 'examination',
            'Which never says which kind of question it is.'),
-          ('If you judge a method by how it ____________, you choose '
-           'the worst ones.', None, 'feels',
-           'And do it confidently, the speaker adds.')])],
+          (
+           'If you judge a study method by how it feels, the speaker '
+           'says, you',
+           ['choose the best ones', 'choose the worst ones', 'choose at random', 'cannot choose at all'],
+           1, 'And do it confidently, she adds.',
+           {0: 'She says the opposite, which is her whole warning.', 2: 'She says the choice is systematic, not random.', 3: 'The problem she describes is choosing wrongly, not '
+               'being unable to choose.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Learning and memory',
     intro=('Take the card first. One minute to make notes, then one to two '
@@ -837,6 +847,9 @@ UNIT = dict(
     dict(heading='Two students compare their schools', part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Mei    B  Luka    C  both of them',
          script=[
           ('Tutor', 'You went to school in two different systems. Start '
            'with the biggest difference.'),
@@ -861,18 +874,17 @@ UNIT = dict(
           ('Tutor', 'Quite right. Use the published comparisons in the '
            'essay and keep your own experience for the introduction.')],
          items=[
-          ('Mei began school at ____________.', None, 'seven',
-           'Luka began at five, two years earlier.'),
-          ('Mei caught up with Luka by the age of ____________.',
-           None, 'eleven', 'Luka had been ahead of her at eight.'),
-          ('Before school Mei attended ____________ every day.', None,
-           'pre-school', 'Free, with trained staff, and no lessons.'),
-          ('Mei had ____________ hours of lessons a week at seven.',
-           None, 'eighteen', 'Against twenty-five in Luka’s '
-           'country.'),
-          ('The tutor says to keep their own experience for the '
-           '____________.', None, 'introduction',
-           'And to use published comparisons for the argument.')])],
+          ('Began school at seven.', None, 'A',
+           'The other speaker began two years earlier.'),
+          ('Was ahead at eight and says it proves nothing.', None, 'B',
+           'Because the other had caught up by eleven.'),
+          ('Attended free pre-school every day with trained staff.',
+           None, 'A', 'No lessons, but not nothing either.'),
+          ('Says more hours did not mean learning more.', None, 'B',
+           'Twenty-five a week, and being tired more.'),
+          (
+           'Is told to keep their own experience for the introduction.',
+           None, 'C', 'And to argue from the published comparisons.')])],
    speak=dict(
     part='Part 3', focus='Schools in different countries',
     sounds=[('A long sentence needs breaks. Breathe after about five or six '

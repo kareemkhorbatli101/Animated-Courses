@@ -244,6 +244,24 @@ UNIT = dict(
     dict(heading='Directions to the sports centre', part='Part 1',
          task='A conversation in the street · note completion', band='l1',
          qtype='Questions 16-20',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
+         banklabel='Write the letter from the plan of the streets',
+         figure={'key': [('Building', 'building'), ('Open ground', 'green')],
+           'kind': 'map',
+           'panels': [('Walking from where the visitor is standing',
+                       [(0.68, 0.82, 0.16, 0.12, 'A', 'building'),
+                        (0.72, 0.44, 0.12, 0.09, 'B', 'new'),
+                        (0.58, 0.05, 0.16, 0.11, 'C', 'building'),
+                        (0.04, 0.82, 0.18, 0.12, 'D', 'green'),
+                        (0.28, 0.06, 0.18, 0.12, 'E', 'new'),
+                        (0.28, 0.54, 0.16, 0.1, 'F', 'building'),
+                        (0.48, 0.54, 0.16, 0.1, 'G', 'building'),
+                        (0.04, 0.38, 0.18, 0.12, 'H', 'building')],
+                       [(0.0, 0.8, 1.0, 0.8, 'Mill Road'),
+                        (0.8, 0.8, 0.8, 0.03, 'Bank Street'),
+                        (0.26, 0.2, 0.8, 0.2, 'Pool Lane')])],
+           'sub': 'eight lettered places; you are standing at the cross',
+           'title': 'The streets between here and the sports centre'},
          script=[
           ('Visitor', 'Excuse me. Is the sports centre near here?'),
           ('Local', 'Not far. Are you walking or driving?'),
@@ -266,16 +284,18 @@ UNIT = dict(
           ('Local', 'If you reach the park you have definitely gone '
            'wrong. The park is the other direction entirely.')],
          items=[
-          ('Turn right at the ____________.', None, 'bank',
+          ('Where the visitor turns right.', None, 'A',
            'The one on the corner, at the end of the road.'),
-          ('Take the ____________ turning on the left.', None, 'third',
-           'And it is after the bridge, not before.'),
-          ('If you see a ____________ you have gone too far.', None,
-           'church', 'About two hundred metres too far.'),
-          ('The walk takes about ____________ minutes.', None, 'ten',
-           'Twelve if the lights are against you.'),
-          ('On Sunday the centre is open from ten until ____________.',
-           None, 'four', 'The pool is closed on Sunday morning.')])],
+          ('What the visitor crosses before the third turning.', None,
+           'B', 'After it, the local says, and not before.'),
+          (
+           'What means the visitor has gone two hundred metres too '
+           'far.', None, 'C',
+           'Seen after crossing the bridge.'),
+          ('What means the visitor is going the wrong way entirely.',
+           None, 'D', 'It is in the other direction, the local says.'),
+          ('Where the visitor is going.', None, 'E',
+           'Open from ten until four on a Sunday.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Getting lost',
     intro=('Take the card first. One minute to make notes, then one to two '
@@ -434,8 +454,8 @@ UNIT = dict(
           ('Announcer', 'We are sorry for the delay. The road is '
            'expected to reopen this evening.')],
          items=[
-          ('The two forty service is delayed by about ____________ '
-           'minutes.', None, 'thirty-five',
+          ('By about how long is the two forty service delayed?', None,
+           'thirty-five minutes',
            'Because of a road closure on the coastal road.'),
           ('It will now leave from stand ____________.', None, 'four',
            'Rather than stand two, the announcer says.'),
@@ -444,8 +464,8 @@ UNIT = dict(
            'From stand one, and it goes directly.'),
           ('The airport coach is being held for ____________ minutes.',
            None, 'twenty', 'And no longer, the announcer says.'),
-          ('Luggage may be left at the desk at no ____________.', None,
-           'charge', 'For passengers who decide not to wait.')])],
+          ('What may passengers leave at the desk at no charge?', None,
+           'luggage', 'For passengers who decide not to wait.')])],
    speak=dict(
     part='Part 2', focus='A journey',
     longturn=[('I am going to talk about a journey I remember. I travelled by '
@@ -671,17 +691,22 @@ UNIT = dict(
          items=[
           ('How many questions does the speaker answer?', None,
            'three', 'Why not buses, what it costs, and who pays.'),
-          ('A tram line is fixed for ____________ years.', None,
-           'forty', 'Which is why people build beside it.'),
-          ('The scheme is ____________ kilometres long.', None,
-           'sixteen', 'At a cost of two hundred and ten million '
-           'pounds.'),
-          ('Fares must be sustained at current numbers plus about '
-           '____________ per cent.', None, 'fifteen',
+          ('A tram line is fixed for',
+           ['four years', 'fourteen years', 'forty years', 'a hundred years'],
+           2, 'Which is why people build beside it, he says.',
+           {0: 'Four years is far shorter than the figure he gives.', 1: 'Fourteen sounds close to it but is not the number.', 3: 'A hundred years is longer than anything he claims.'}),
+          ('The scheme is sixteen kilometres long and costs',
+           ['twenty-one million pounds', 'two hundred and ten million pounds', 'two million pounds', 'two billion pounds'],
+           1, 'The two figures he gives in the same sentence.',
+           {0: 'Twenty-one million is a tenth of the figure he gives.', 2: 'Two million would not build sixteen kilometres of '
+               'anything.', 3: 'Two billion is ten times the figure he gives.'}),
+          ('By about what percentage must passenger numbers rise?',
+           None, 'fifteen per cent',
            'Which the speaker calls the real risk.'),
-          ('Every city that has built one has gone over its first '
-           '____________.', None, 'estimate',
-           'Which this estimate already allows for.')])],
+          ('Every city that has built one has gone over its first',
+           ['deadline', 'estimate', 'route', 'fare'], 1,
+           'Which this estimate already allows for.',
+           {0: 'He talks about cost, not about when the work finished.', 2: 'The route is not what he says the cities exceeded.', 3: 'Fares are the risk he names separately.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Public transport in your town',
     intro=('The long turn first. A minute of notes, then one to two '
@@ -841,6 +866,9 @@ UNIT = dict(
     dict(heading='Planning a weekend away', part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Jo    B  Sam    C  the tutor',
          script=[
           ('Tutor', 'You are planning the field weekend. Where have you '
            'got to?'),
@@ -865,17 +893,21 @@ UNIT = dict(
            'because the cancellation terms get worse after that.'),
           ('Sam', 'I will send the form round tomorrow.')],
          items=[
-          ('There are ____________ students in the group.', None,
-           'twenty-one', 'Four of them have a strict budget.'),
-          ('Four students cannot afford more than ____________ pounds.',
-           None, 'thirty', 'Which decides the choice for Sam.'),
-          ('The coast with the hostel costs ____________ pounds each.',
-           None, 'twenty-eight', 'Including the train, Sam says.'),
-          ('In ____________ the hostel is half price.', None, 'May',
-           'Because it is outside the season.'),
-          ('They must book before the end of the week because of the '
-           '____________ terms.', None, 'cancellation',
-           'They get worse after that, the tutor says.')])],
+          (
+           'Gives the size of the group and the budget of four of '
+           'them.', None, 'A',
+           'Twenty-one students; four with thirty pounds.'),
+          ('Says that figure settles the choice.', None, 'B',
+           'The coast comes to twenty-eight pounds each.'),
+          ('Says the coast is cheaper to reach than to stay in.', None,
+           'B', 'And that the city is the other way round.'),
+          (
+           'Points out that the hostel is half price outside the '
+           'season.', None, 'A',
+           'May rather than July, which is the reason.'),
+          ('Says the booking must be made before the end of the week.',
+           None, 'C',
+           'Because the cancellation terms get worse after that.')])],
    speak=dict(
     part='Part 3', focus='Why people travel',
     sounds=[('Join your words together. In English a journey sounds like a '

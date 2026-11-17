@@ -240,16 +240,15 @@ UNIT = dict(
           ('Woman', 'Nadia Costa. C-O-S-T-A.'),
           ('Desk', 'Come to the office on Wharf Road before six.')],
          items=[
-          ('The bag was left on the number ____________ bus.', None,
-           '12', 'She says this at the start of the call.'),
+          ('Which bus was the bag left on?', None, 'the number 12',
+           'She says this at the start of the call.'),
           ('The bag is dark ____________.', None, 'green',
            'With a long strap, the woman says.'),
           ('There is a bold yellow ____________ on the front.', None,
            'mark', 'Drawn by her son, which identifies it.'),
           ('The bus was at about half past ____________.', None, 'four',
            'The bus left from the station, she says.'),
-          ('She must go to the office before ____________.', None,
-           'six',
+          ('By what time must she go to the office?', None, 'six',
            'The lost property office is on Wharf Road.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Someone you know well',
@@ -610,18 +609,25 @@ UNIT = dict(
            'That is not a small point. If you get the order wrong you '
            'design the wrong policy.')],
          items=[
-          ('In 1920 the average family had ____________ point eight '
-           'children.', None, 'five', 'Today the figure is one point '
-           'seven.'),
+          ('In 1920 the average family had',
+           ['one point seven children', 'five point eight children', 'three point eight children', 'eight point five children'],
+           1, 'Today the figure is one point seven.',
+           {0: 'One point seven is the figure for today, not for 1920.', 2: 'Three point eight is not a figure given in the talk.', 3: 'Eight point five reverses the two halves of the '
+               'number.'}),
           ('The speaker says the fall was not a ____________.', None,
            'decision', 'Nobody held a meeting, the speaker says.'),
-          ('Roughly one child in ____________ died before school age.',
-           None, 'four', 'Which is why families began with five.'),
-          ('A child in school is a cost for ____________ years.', None,
+          ('Before school age, roughly one child in',
+           ['two died', 'four died', 'ten died', 'twenty died'], 1,
+           'Which is why families began with five.',
+           {0: 'One in two is a much higher rate than the speaker '
+               'gives.', 2: 'One in ten is lower than the rate she gives.', 3: 'One in twenty is lower still.'}),
+          ('For how many years is a child in school a cost?', None,
            'sixteen', 'A child on a farm was useful at six.'),
-          ('The third cause ____________ the first two rather than '
-           'causing them.', None, 'follows',
-           'Getting the order wrong gives the wrong policy.')])],
+          ('The speaker says the third cause',
+           ['causes the first two', 'follows the first two', 'is the most important', 'has no effect'],
+           1, 'Getting the order wrong gives the wrong policy.',
+           {0: 'That is the mistake she is warning against.', 2: 'She ranks it last in the order of causes, not first.', 3: 'She treats it as real; it is the order she is '
+               'correcting.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='How families have changed',
     intro=('Card first, and the last bullet is the one that earns the '
@@ -772,6 +778,9 @@ UNIT = dict(
     dict(heading='A conversation about a neighbour', part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Ravi    B  Ana    C  both of them',
          script=[
           ('Tutor', 'You interviewed people about neighbours. What did '
            'you find?'),
@@ -797,20 +806,16 @@ UNIT = dict(
           ('Tutor', 'That is worth putting in the report.'),
           ('Ravi', 'We will. It was the clearest result we had.')],
          items=[
-          ('Ravi asked ____________ people to describe a good '
-           'neighbour.', None, 'twenty',
-           'Nineteen described somebody who does little.'),
-          ('Ravi says a good neighbour is mostly defined by '
-           '____________.', None, 'absence',
-           'Quiet, takes a parcel in, does not look in.'),
-          ('Ana asked ____________ people.', None, 'older',
-           'They described somebody who calls in.'),
-          ('Both groups agreed a neighbour should help in an '
-           '____________.', None, 'emergency',
-           'The one thing young and old agreed about.'),
-          ('Nobody would ____________ money from a neighbour.', None,
-           'borrow',
-           'Not once in forty interviews, Ana says.')])],
+          ('Asked twenty people to describe a good neighbour.', None,
+           'A', 'Nineteen of them described somebody who does little.'),
+          ('Says a good neighbour is mostly defined by absence.', None,
+           'A', 'Quiet, takes a parcel in, does not look in.'),
+          ('Asked older people, who described somebody who calls in.',
+           None, 'B', 'Which is why the two sets of answers differ.'),
+          ('Found that a neighbour should help in an emergency.', None,
+           'C', 'The one thing young and old agreed about.'),
+          ('Found that nobody would borrow money from a neighbour.',
+           None, 'C', 'Not once in forty interviews between them.')])],
    speak=dict(
     part='Part 3', focus='Neighbours and what makes a good one',
     sounds=[('In English we do not stress every word. In I do the washing-up '

@@ -259,10 +259,10 @@ UNIT = dict(
          items=[
           ('The seat is in block F, row ____________.', None, 'twelve',
            'Seat nine, over in the east stand.'),
-          ('The walk round the outside takes ____________ minutes.',
-           None, 'four', 'And there are twenty minutes before the '
-           'start.'),
-          ('Hot food is served until ____________.', None, 'half time',
+          ('How long does the walk round the outside take?', None,
+           'four minutes',
+           'And there are twenty minutes before the start.'),
+          ('Until when is hot food served?', None, 'half time',
            'At the place at the back of that stand.'),
           ('Anything above row ____________ is covered.', None,
            'eight', 'So row twelve is under the cover.'),
@@ -671,17 +671,27 @@ UNIT = dict(
            'come back weaker but not back to the beginning, which is '
            'the fact that gets people through an injury.')],
          items=[
-          ('For about ____________ weeks nothing visible changes.',
-           None, 'six', 'Although you get considerably stronger.'),
+          ('For about six weeks of training',
+           ['you get weaker', 'nothing visible changes', 'the muscles grow fastest', 'you should rest completely'],
+           1, 'Although you get considerably stronger in that time.',
+           {0: 'He says you get stronger, not weaker.', 2: 'Size comes later, between the sessions.', 3: 'Rest between sessions is his point, not rest instead '
+               'of them.'}),
           ('What has changed early on is the ____________ system.',
            None, 'nervous', 'It uses the muscle you already had.'),
-          ('Size is built ____________ sessions.', None, 'between',
-           'Not during them, the speaker says.'),
-          ('Training seven days a week makes you perform '
-           '____________.', None, 'worse',
-           'Than training four days a week.'),
-          ('After stopping for two months you come back weaker but '
-           'not back to the ____________.', None, 'beginning',
+          ('Size, the speaker says, is built',
+           ['during the sessions', 'between the sessions', 'only in the first week', 'only after an injury'],
+           1, 'Not during them, which is the point of the talk.',
+           {0: 'That is the assumption he is correcting.', 2: 'The first weeks are when the nervous system changes.', 3: 'An injury is the example he ends with, not a cause of '
+               'growth.'}),
+          ('Training seven days a week makes you perform',
+           ['better than four days', 'worse than four days', 'the same as four days', 'better for six weeks only'],
+           1, 'Which follows from size being built between sessions.',
+           {0: 'He says the opposite of that.', 2: 'He says there is a difference, not that they are '
+               'equal.', 3: 'The six weeks is when nothing visible changes, not a '
+               'limit on this.'}),
+          (
+           'After stopping for two months, where do you not return to?',
+           None, 'the beginning',
            'Which is what gets people through an injury.')])],
    speak=dict(
     part='Part 2 into Part 3', focus='Exercise and health',
@@ -851,6 +861,9 @@ UNIT = dict(
     dict(heading='Two coaches disagree', part='Part 3',
          task='A discussion between two coaches · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Ravi    B  Kim    C  both of them',
          script=[
           ('Tutor', 'You coach the same age group and you do it '
            'differently. Begin with what you agree on.'),
@@ -877,19 +890,17 @@ UNIT = dict(
           ('Kim', 'That is the honest answer and I would accept it '
            'too.')],
          items=[
-          ('They agree that nobody reaches a high level without many '
-           '____________.', None, 'hours',
-           'The disagreement is about when they start.'),
-          ("Kim's players do ____________ sports until fifteen.", None,
-           'three', 'Because of the injury figures, Kim says.'),
-          ('Kim has had ____________ serious injuries in eight '
-           'years.', None, 'two',
-           'The academy nearby has that many in a season.'),
-          ('Ravi says the top of his sport is reached at '
-           '____________.', None, 'twenty-two',
-           'So the hours have to start at nine.'),
-          ('Ravi says he will not defend the ____________ rate.',
-           None, 'drop-out',
+          (
+           'Agrees that nobody reaches a high level without many '
+           'hours.', None, 'C',
+           'Ravi states it and Kim agrees at once.'),
+          ('Has players who do three sports until fifteen.', None, 'B',
+           'The injury figures are the reason given.'),
+          ('Gives two serious injuries in eight years.', None, 'B',
+           'Against the same number in a season nearby.'),
+          ('Coaches a sport whose top is reached at twenty-two.', None,
+           'A', 'So the hours have to start at nine.'),
+          ('Refuses to defend the drop-out rate.', None, 'A',
            'Because those children never return to any sport.')])],
    speak=dict(
     part='Part 3', focus='Children and sport',

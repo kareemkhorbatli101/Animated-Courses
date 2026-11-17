@@ -422,9 +422,10 @@ UNIT = dict(
            'first eight off the membership if you join later.'),
           ('Visitor', 'That is a good offer.')],
          items=[
-          ('Membership costs ____________ pounds a month.', None,
-           'twenty-six', 'Against four pounds fifty for one visit.'),
-          ('Membership pays for itself after ____________ visits.',
+          ('How much does membership cost a month?', None,
+           'twenty-six pounds',
+           'Against four pounds fifty for one visit.'),
+          ('After how many visits does membership pay for itself?',
            None, 'six', 'As the visitor works out at the desk.'),
           ('The pool is closed on Thursday from twelve to '
            '____________.', None, 'two', 'For cleaning, the desk '
@@ -658,19 +659,27 @@ UNIT = dict(
            'poorest districts is eighteen years. Both districts have '
            'the same hospitals.')],
          items=[
-          ('The speaker says medicine is ____________ on the list.',
-           None, 'third', 'After water and after child deaths.'),
+          ('The speaker puts medicine',
+           ['first on the list', 'second on the list', 'third on the list', 'last on the list'],
+           2, 'After water and after child deaths.',
+           {0: 'Water comes first in her order, not medicine.', 1: 'Child deaths come second in her order.', 3: 'She names three things, and medicine is the third of '
+               'them, not an afterthought.'}),
           ('In 1850 cities, the water and the ____________ were the '
            'same water.', None, 'waste',
            'Separating them was an engineering problem.'),
-          ('The problem was solved before anybody understood the '
-           '____________.', None, 'biology', 'By engineers, the '
-           'speaker says.'),
-          ('The average of forty-seven describes ____________.', None,
+          ('The problem was solved',
+           ['by doctors who understood the biology', 'before anybody understood the biology', 'only after the biology was understood', 'by accident'],
+           1, 'By engineers, the speaker says.',
+           {0: 'She credits engineers, not doctors.', 2: 'That is the order she says people wrongly assume.', 3: 'She describes it as an engineering problem that was '
+               'worked at, not an accident.'}),
+          ('Who does the average of forty-seven describe?', None,
            'nobody', 'It is a true number that describes nobody.'),
-          ('The gap between districts in the city is ____________ '
-           'years.', None, 'eighteen',
-           'And both districts have the same hospitals.')])],
+          (
+           'The gap in life expectancy between the two city districts '
+           'is',
+           ['eight years', 'eighteen years', 'eighty years', 'one year'],
+           1, 'And both districts have the same hospitals.',
+           {0: 'Eight is close in sound but not the number she gives.', 2: 'Eighty years is longer than a lifetime.', 3: 'One year would not be the point she is making.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Health and society',
     intro=('The card comes first. Make your notes inside the minute you '
@@ -837,6 +846,9 @@ UNIT = dict(
     dict(heading='Two people compare hospitals', part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Yusuf    B  Elena    C  both of them',
          script=[
           ('Tutor', 'You have both used health systems in two '
            'countries. Where do you disagree?'),
@@ -861,19 +873,17 @@ UNIT = dict(
           ('Elena', 'And that the honest question is which failure you '
            'prefer, not which system is better.')],
          items=[
-          ('Yusuf waited ____________ weeks for a scan at home.', None,
-           'eleven', 'Against nine days in the other country.'),
-          ('He paid ____________ pounds for the faster scan.', None,
-           'four hundred', 'Which Elena says she could not have '
-           'paid.'),
-          ('About one adult in ____________ delays treatment because '
-           'of cost.', None, 'five',
-           'In one of the two systems, Elena says.'),
-          ('Yusuf says a ____________ list also makes people delay.',
-           None, 'waiting', 'And that nobody counts those people.'),
-          ('They agree the honest question is which ____________ you '
-           'prefer.', None, 'failure',
-           'Rather than which system is better.')])],
+          ('Waited eleven weeks at home and nine days abroad.', None,
+           'A', 'And paid four hundred pounds for the second.'),
+          ('Says the four hundred pounds would have been impossible.',
+           None, 'B', 'In the year the other speaker is describing.'),
+          ('Gives the figure for people who delay because of cost.',
+           None, 'B',
+           'Near zero in one system, one adult in five in the other.'),
+          ('Says a waiting list also makes people delay.', None, 'A',
+           'And that nobody counts those people.'),
+          ('Agrees the honest question is which failure you prefer.',
+           None, 'C', 'Rather than which of the two systems is better.')])],
    speak=dict(
     part='Part 3', focus='Paying for health care',
     sounds=[('Say the ends of plural words. Habits, weeks, kilograms. The s is '

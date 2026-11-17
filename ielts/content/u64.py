@@ -407,15 +407,14 @@ UNIT = dict(
           ('Desk', 'Three working days. Keep the message until it '
            'arrives.')],
          items=[
-          ('The jacket is being returned because it is the wrong '
-           '____________.', None, 'size',
+          ('Why is the jacket being returned?', None, 'the wrong size',
            'The first thing the customer says.'),
           ('Instead of a paper receipt the customer has a '
            '____________.', None, 'message',
            'On a telephone, and it shows the date.'),
           ('The jacket was bought on the ____________.', None,
            'second', 'Well inside the fourteen days.'),
-          ('The refund takes ____________ working days.', None,
+          ('How many working days does the refund take?', None,
            'three', 'And goes back to the same card.'),
           ('Without the ____________ it would be an exchange only.',
            None, 'label', 'The customer did not take it off.')])],
@@ -632,21 +631,26 @@ UNIT = dict(
            'worth examining. The pattern exists whether or not you '
            'believe you are part of it.')],
          items=[
-          ('As a household gets richer, the ____________ spent on food '
-           'falls.', None, 'share',
-           'The amount spent rises, the speaker stresses.'),
+          ('As a household gets richer, spending on food',
+           ['falls in amount', 'rises in amount but falls as a share', 'stays exactly the same', 'rises as a share'],
+           1, 'The speaker stresses that the amount itself rises.',
+           {0: 'He says the amount rises; it is the share that falls.', 2: 'Neither the amount nor the share stays the same.', 3: 'The share is the thing he says goes down.'}),
           ('If food is a ____________ of spending, the country is '
            'poor.', None, 'third',
            'Whatever the official figures say.'),
-          ('Spending on equipment grows faster than income for about '
-           '____________ years.', None, 'twenty',
-           'And then it settles, the speaker says.'),
-          ('Companies move their ____________ from country to '
-           'country.', None, 'advertising',
-           'As the window opens in each one.'),
-          ('The speaker says the pattern exists whether or not you '
-           '____________ you are part of it.', None, 'believe',
-           'Nobody in the room is immune, he says.')])],
+          ('Spending on equipment grows faster than income for about',
+           ['two years', 'twenty years', 'two hundred years', 'twelve years'],
+           1, 'And then it settles, the speaker says.',
+           {0: 'Two years is far shorter than the period he gives.', 2: 'Two hundred years is far longer than anything he '
+               'claims.', 3: 'Twelve sounds close to it but is not the number.'}),
+          ('What do companies move from country to country?', None,
+           'advertising', 'As the window opens in each one.'),
+          ('The speaker says the pattern holds',
+           ['only in poorer countries', 'only for people who believe it', 'whether or not you think you are part of it', 'only where advertising is allowed'],
+           2, 'Nobody in the room is immune, he says.',
+           {0: 'He uses the share spent on food to compare countries, '
+               'not to limit the pattern to some of them.', 1: 'That is the opposite of what he says.', 3: 'Advertising moves between countries in his account; it '
+               'does not switch the pattern off.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Things people spend too much on',
     intro=('Start with the card. Notes for a minute, then talk, developing '
@@ -803,6 +807,9 @@ UNIT = dict(
     dict(heading='Two shoppers disagree', part='Part 3',
          task='A discussion between two students · sentence completion and short answer', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Priya    B  Dan    C  both of them',
          script=[
           ('Tutor', 'You tested whether offers save money. What did you '
            'find?'),
@@ -829,18 +836,18 @@ UNIT = dict(
           ('Tutor', 'Then write both conclusions and let the reader '
            'choose.')],
          items=[
-          ('They tracked ____________ offers over six weeks.', None,
-           'forty', 'In two shops over six weeks, Priya says.'),
-          ('How many were genuinely cheaper?', None, 'eleven',
-           'Than the ordinary price elsewhere that day.'),
-          ('Priya says checking takes twenty minutes to save '
-           '____________ pounds.', None, 'two',
-           'Which is most of what they found.'),
-          ('____________ shops raised a price before cutting it.', None,
-           'six', 'And all six were within the law.'),
-          ('They disagree about the ____________, not the numbers.',
-           None, 'conclusion',
-           'So the tutor asks for both to be written.')])],
+          (
+           'Gives the number of offers tracked and the number that '
+           'saved money.', None, 'A',
+           'Forty over six weeks, of which eleven did.'),
+          ('Says eleven real savings is not nothing.', None, 'B',
+           'And that the shopper who checks finds them.'),
+          ('Says checking costs twenty minutes to save two pounds.',
+           None, 'A', 'Which is most of what the study found.'),
+          ('Wants the legality of raising a price first put first.',
+           None, 'B', 'Because people assume it is not legal.'),
+          ('Agrees that the disagreement is about the conclusion.',
+           None, 'C', 'Priya says it and Dan is asked to write his own.')])],
    speak=dict(
     part='Part 3', focus='Small shops and big shops',
     sounds=[('Prices and numbers must be very clear, because the examiner '

@@ -416,8 +416,8 @@ UNIT = dict(
            'leave.'),
           ('Manager', 'Put it in my tray, not on the desk.')],
          items=[
-          ('The worker wants the ____________ of June off.', None,
-           'fourteenth', 'For a family wedding, they explain.'),
+          ('Which day of June does the worker want off?', None,
+           'the fourteenth', 'For a family wedding, they explain.'),
           ('The real problem is that the shop is short on '
            '____________.', None, 'Saturdays',
            'Two people short in June, the manager says.'),
@@ -425,8 +425,8 @@ UNIT = dict(
            'Sunday', 'Which solves the problem, the manager agrees.'),
           ('The form must be filled in ____________.', None, 'today',
            'Because the date is less than four weeks away.'),
-          ('The swap costs the worker ____________ holiday days.',
-           None, 'no', 'A holiday day would have left fourteen.')])],
+          ('How many holiday days does the swap cost?', None, 'none',
+           'A holiday day would have left fourteen.')])],
    speak=dict(
     part='Part 2', focus='Time off',
     longturn=[('I am going to talk about a time I needed time off work. I '
@@ -650,19 +650,25 @@ UNIT = dict(
            'jobs than it destroys, the sentence is true, and it is also '
            'irrelevant to the person asking the question.')],
          items=[
-          ('In 1900, ____________ per cent of workers were '
-           'agricultural.', None, 'forty-one',
-           'Today the figure is two per cent.'),
+          ('In 1900 the share of workers in agriculture was',
+           ['two per cent', 'forty-one per cent', 'fourteen per cent', 'eighty-six per cent'],
+           1, 'Today the figure is two per cent.',
+           {0: 'Two per cent is the figure for today, not for 1900.', 2: 'Fourteen sounds close to it but is not the number '
+               'given.', 3: 'Eighty-six is the service figure for today.'}),
           ('Service employment rose to ____________ per cent.', None,
            'eighty-six', 'From about a third of all jobs.'),
-          ('A factory region can lose its work in ____________ years.',
-           None, 'ten', 'And take forty years to recover.'),
-          ('For a worker of ____________, forty years is the rest of a '
-           'working life.', None, 'fifty',
+          ('A factory region can lose its work in ten years and take',
+           ['ten years to recover', 'forty years to recover', 'four years to recover', 'a hundred years to recover'],
+           1, 'Which is the comparison the whole talk turns on.',
+           {0: 'He contrasts the two periods, so they are not the '
+               'same.', 2: 'Four years is shorter than the loss itself.', 3: 'A hundred years is longer than anything he claims.'}),
+          ('For a worker of what age is forty years a working life?',
+           None, 'fifty',
            'For somebody of twenty-two it is an abstraction.'),
-          ('The speaker says the total figures are true and also '
-           '____________ to the person asking.', None, 'irrelevant',
-           'Which is the part usually left out.')])],
+          ('The speaker says the total figures are true and also',
+           ['exaggerated', 'irrelevant to the person asking', 'out of date', 'impossible to collect'],
+           1, 'Which is the part usually left out.',
+           {0: 'He does not dispute the totals; he accepts them.', 2: 'He gives a figure for today, so they are current.', 3: 'He quotes them, so they plainly can be collected.'})])],
    speak=dict(
     part='Part 2 into Part 3', focus='Machines and work',
     intro=('Work the card first: a minute of notes, the long turn, then '
@@ -821,6 +827,9 @@ UNIT = dict(
          part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Hana    B  Theo    C  both of them',
          script=[
           ('Tutor', 'You read the same three papers and reached '
            'different conclusions. Start with where you agree.'),
@@ -846,19 +855,18 @@ UNIT = dict(
           ('Hana', 'Then we write both, and we both state our own '
            'weakness. That is more interesting than agreeing.')],
          items=[
-          ('They agree that total ____________ has risen through '
-           'previous waves.', None, 'employment',
-           'The numbers are not in dispute, Hana says.'),
-          ('Hana says every generation believed its own change was '
-           '____________.', None, 'different',
-           'And was wrong in the same way, she argues.'),
-          ('Theo says that argument proves too ____________.', None,
-           'much', 'Because then nothing could ever be different.'),
-          ('Hana says the burden of ____________ is on the person '
-           'claiming a break.', None, 'proof',
-           'Which she calls her real position.'),
-          ('Theo admits his position cannot yet be ____________.',
-           None, 'measured', 'He says he will admit that in the essay.')])],
+          ('Accepts that total employment rose through earlier waves.',
+           None, 'C', 'Hana states it and Theo agrees at once.'),
+          (
+           'Says every generation believed its own change was '
+           'different.', None, 'A',
+           'And was wrong in the same way each time.'),
+          ('Says that argument proves too much.', None, 'B',
+           'Because then nothing could ever be different.'),
+          ('Puts the burden of proof on whoever claims a break.', None,
+           'A', 'Which she calls her real position.'),
+          ('Admits that the position cannot yet be measured.', None,
+           'B', 'And says so will go into the essay.')])],
    speak=dict(
     part='Part 3', focus='Work in the future',
     sounds=[('Past forms need to be heard, because they carry the time. Asked, '
