@@ -265,6 +265,9 @@ UNIT = dict(
     dict(heading='Two friends talk about keeping pets', part='Part 3',
          task='A discussion between two friends · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Ife    B  Ross    C  both of them',
          script=[
           ('Tutor', 'You were asked whether people should keep pets at '
            'all. Where did you get to?'),
@@ -293,23 +296,18 @@ UNIT = dict(
           ('Tutor', 'Then say it in your section and let Ife answer it '
            'in hers.')],
          items=[
-          ('Ife says the welfare argument is real for some animals and '
-           'not for ____________.', None, 'dogs',
-           'Which have lived with people a very long time.'),
-          ('Ross is less sure about fish and ____________ in small '
-           'spaces.', None, 'birds',
-           'Which Ife accepts as a fair point.'),
-          ('Ife calls a tank a ____________ nothing in the animal is '
-           'built for.', None, 'limitation',
-           'Agreeing with Ross about fish.'),
-          ('Ross says cost ____________ people from keeping animals '
-           'properly.', None, 'excludes',
-           'At about a thousand pounds a year.'),
-          ('Ife says that is an argument for cheaper ____________ '
-           'care.', None, 'veterinary', 'Rather than an argument against pets.'),
-          ('Rescue centres fill in the month after ____________.',
-           None, 'Christmas', 'Which Ross says a book should '
-           'mention.')])],
+          ('Says the welfare argument does not apply to dogs.', None,
+           'A', 'Which have lived alongside people a very long time.'),
+          ('Is less sure about fish and birds in small spaces.', None,
+           'B', 'A point the other speaker accepts as fair.'),
+          ('Agrees a tank is a limitation nothing is built for.', None,
+           'C', 'Ross raises it and Ife puts it in those words.'),
+          ('Says cost keeps people from keeping animals properly.',
+           None, 'B', 'At about a thousand pounds a year.'),
+          ('Treats that as an argument for cheaper veterinary care.',
+           None, 'A', 'Rather than an argument against keeping pets.'),
+          ('Says a book on this should mention the rescue centres.',
+           None, 'B', 'They fill in the month after Christmas.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='An animal you know',
     longturn=[('I am going to talk about an animal I know well. It is a cat '
@@ -754,17 +752,16 @@ UNIT = dict(
          items=[
           ('A tadpole is a ____________ animal, not a small frog.',
            None, 'different', 'With a different diet and gut.'),
-          ('The process over sixteen weeks is not growth but '
-           '____________.', None, 'rebuilding',
-           'The rebuilding uses the same material.'),
+          ('If the sixteen-week process is not growth, what is it?',
+           None, 'rebuilding', 'The rebuilding uses the same material.'),
           ('The gut ____________ as the animal becomes a meat eater.',
            None, 'shortens',
            'Which tells you its diet in advance.'),
           ('The tail is absorbed and the material is used to build '
            'legs and ____________.', None, 'muscle',
            'So the froglet carries its last meal inside.'),
-          ('A cold spring can add a ____________ to the process.',
-           None, 'month', 'Because temperature sets the speed.'),
+          ('How much can a cold spring add to the process?', None,
+           'a month', 'Because temperature sets the speed.'),
           ('When digging a pond, ____________ matters more than '
            'area.', None, 'depth',
            'Because a pond that freezes solid loses everything.')])],
@@ -956,23 +953,34 @@ UNIT = dict(
           ('Speaker', 'Which is why the measure that matters is not how '
            'many animals there are. It is how many kinds.')],
          items=[
-          ('Most declines since ____________ were caused by habitat '
-           'change.', None, '1970',
-           'Rather than by anything killing animals directly.'),
-          ('A field ploughed in ____________ leaves stubble through '
-           'the winter.', None, 'spring',
-           'While autumn ploughing leaves none.'),
+          ('Most of the declines since 1970 were caused by',
+           ['hunting', 'habitat change', 'disease', 'temperature alone'],
+           1, 'Rather than by anything killing animals directly.',
+           {0: 'He says the cause was not anything killing animals '
+               'directly.', 2: 'Disease is not mentioned anywhere in the talk.', 3: 'Temperature sets the speed in the earlier talk, not '
+               'this one.'}),
+          ('A field ploughed in spring is different because it',
+           ['yields more', 'leaves stubble through the winter', 'needs less water', 'is easier to plough'],
+           1, 'Autumn ploughing leaves none, he says.',
+           {0: 'Yield is not mentioned; winter cover is the point.', 2: 'Water plays no part in the comparison he draws.', 3: 'How hard the ploughing is never comes up.'}),
           ('The aerial ____________ is unchanged although the birds '
            'have gone.', None, 'photograph',
            'Nothing was built or cut down.'),
-          ('Three connected woods hold more ____________ than three '
-           'separate ones.', None, 'species',
-           'Because animals can walk back from another piece.'),
-          ('The species lost first are the ____________.', None,
-           'specialists', 'While the generalists do well in cities.'),
-          ('The speaker says the measure that matters is how many '
-           '____________.', None, 'kinds',
-           'Rather than how many animals there are.')])],
+          (
+           'Three connected woods hold more species than three '
+           'separate ones because',
+           ['they cover more ground', 'animals can walk back from another piece', 'they are older', 'they are better protected'],
+           1, 'A piece that loses a species can be filled again.',
+           {0: 'The area is the same in both cases; connection is the '
+               'difference.', 2: 'The age of the woods is not part of the comparison.', 3: 'Protection is not what separates the two cases in his '
+               'example.'}),
+          ('The species lost first, he says, are',
+           ['the largest', 'the specialists', 'the rarest birds', 'the generalists'],
+           1, 'While the generalists do well in cities.',
+           {0: 'Size is not the division he draws.', 2: 'He speaks of specialists of every kind, not of birds '
+               'only.', 3: 'Generalists are the ones he says do well in cities.'}),
+          ('What measure does the speaker say actually matters?', None,
+           'how many kinds', 'Rather than how many animals there are.')])],
    speak=dict(
     part='Part 3', focus='Protecting wildlife',
     sounds=[('Make your voice go down at the end of a statement and up at the '

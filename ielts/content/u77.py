@@ -264,6 +264,9 @@ UNIT = dict(
     dict(heading='Two colleagues on the dress code', part='Part 3',
          task='A discussion between two colleagues · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Dan    B  Rita    C  both of them',
          script=[
           ('Manager', 'You both replied to the dress code '
            'consultation and you disagreed. Tell me why.'),
@@ -292,20 +295,18 @@ UNIT = dict(
           ('Manager', 'That I can work with. Write it as a ranking and '
            'I will take it to the meeting.')],
          items=[
-          ('Dan wants ____________ code at all.', None, 'no',
-           'Because the team does not meet customers.'),
-          ('Rita wants a ____________ code.', None, 'specific',
-           'Which sounds like the opposite of Dan’s view.'),
-          ('The current code says smart ____________.', None,
-           'casual', 'Which Rita says means nothing.'),
-          ('____________ people in three years were told they looked '
-           'unprofessional.', None, 'Two',
-           'Both wearing what half the office wears.'),
-          ('Rita says she would take a list over a ____________.',
-           None, 'vibe', 'She would take a list every time.'),
-          ('They agree on the ____________ and disagree about the top '
-           'of it.', None, 'ranking',
-           'Which the manager says she can work with.')])],
+          ('Wants no dress code at all.', None, 'A',
+           'Because the team never meets a customer.'),
+          ('Wants a code that says exactly what is meant.', None, 'B',
+           'Which sounds like the opposite of the other view.'),
+          ('Says the present wording means nothing.', None, 'B',
+           'The code currently says smart casual.'),
+          ('Accepts that two people in three years were criticised.',
+           None, 'C', 'Both of them wearing what half the office wears.'),
+          ('Would take a list over a feeling every time.', None, 'B',
+           'Her own phrase for the present arrangement.'),
+          ('Agrees on the ranking and differs about the top of it.',
+           None, 'C', 'Which the manager says she can work with.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Clothes you wear for different occasions',
     longturn=[('I am going to talk about the clothes I wear for a particular '
@@ -748,8 +749,8 @@ UNIT = dict(
           ('Speaker', 'The useful prediction: look at what was popular '
            'about twenty-five years ago and is not yet back.')],
          items=[
-          ('A designer is typically between thirty and ____________.',
-           None, 'forty-five',
+          ('What is the typical age range of a designer?', None,
+           'thirty to forty-five',
            'So the images that formed them are decades old.'),
           ('Something five years old looks like a ____________.',
            None, 'mistake',
@@ -763,8 +764,8 @@ UNIT = dict(
           ('The speaker says fashion is unusual in presenting every '
            'decision as ____________.', None, 'inspiration',
            'Although other industries do the same thing.'),
-          ('To predict the next revival, look at what was popular '
-           'about ____________ years ago.', None, 'twenty-five',
+          ('How far back should you look to predict the next revival?',
+           None, 'twenty-five years',
            'And has not yet come back into fashion.')])],
    speak=dict(
     part='Part 2 into Part 3', focus='Fashion and change',
@@ -964,21 +965,35 @@ UNIT = dict(
            'basis, and I am not going to pretend I do.'),
           ('Ada', 'At least that is an honest place to stop.')],
          items=[
-          ('Ada says under a ____________ of collected clothing '
-           'becomes new clothing.', None, 'tenth',
-           'Which Joel accepts as accurate.'),
-          ('Joel says the schemes exist because ____________ ask for '
-           'them.', None, 'customers',
-           'And that without them people use the bin.'),
+          (
+           'Ada says the proportion of collected clothing that becomes '
+           'new clothing is',
+           ['about half', 'under a tenth', 'about a third', 'almost all of it'],
+           1, 'A figure Joel accepts as accurate.',
+           {0: 'Half is far above the figure she gives.', 2: 'A third is still well above her figure.', 3: 'That is the impression she says the schemes create.'}),
+          ('Joel says the collection schemes exist because',
+           ['the law requires them', 'customers ask for them', 'they are profitable', 'competitors started them'],
+           1, 'And that without them people use the bin.',
+           {0: 'He later says he would accept a legal requirement, so '
+               'there is none yet.', 2: 'Profit is not the reason he gives for them.', 3: 'He says competitors would accept a rule, not that they '
+               'began the schemes.'}),
           ('Ada says that is an argument for ____________ in how they '
            'are described.', None, 'honesty',
            'Rather than for continuing as they are.'),
-          ('Joel would accept a requirement about ____________.',
-           None, 'wording', 'And says competitors would too.'),
-          ('He says no retailer can move ____________.', None,
-           'first', 'Because an honest label looks worse alone.'),
-          ('They still disagree about ____________.', None, 'volume',
-           'Which Joel says he cannot run a company against.')])],
+          ('Joel says he would accept a requirement about',
+           ['volume', 'wording', 'prices', 'collection points'], 1,
+           'And says his competitors would accept it too.',
+           {0: 'Volume is the thing they still disagree about at the '
+               'end.', 2: 'Price is not mentioned in the exchange.', 3: 'The points themselves are what he is defending, not '
+               'what he would have regulated.'}),
+          ('He says no retailer can move first because',
+           ['the cost is too high', 'an honest label looks worse alone', 'customers would not notice', 'the rules forbid it'],
+           1, 'Which is why he would accept a rule binding everybody.',
+           {0: 'Cost is not the reason he gives for waiting.', 2: 'His argument is that customers would notice and judge '
+               'him for it.', 3: 'There is no rule yet; that is what he says he would '
+               'accept.'}),
+          ('What do the two of them still disagree about?', None,
+           'volume', 'Which Joel says he cannot run a company against.')])],
    speak=dict(
     part='Part 3', focus='Waste and responsibility',
     sounds=[('Say your word endings. Shoes, clothes and trousers all end in a '

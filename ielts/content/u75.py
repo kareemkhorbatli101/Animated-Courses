@@ -278,6 +278,9 @@ UNIT = dict(
     dict(heading='Two neighbours discuss the new flats', part='Part 3',
          task='A discussion between two neighbours · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Paul    B  Sara    C  both of them',
          script=[
           ('Chair', 'You two are on opposite sides of this. Keep it '
            'short and keep it specific.'),
@@ -311,21 +314,23 @@ UNIT = dict(
            'the next meeting, and we will put it to the council as one '
            'proposal rather than two objections.')],
          items=[
-          ('There are ____________ people on the housing list.', None,
-           'four hundred', 'Against eleven homes built last year.'),
-          ('Paul objects to five storeys with no school places and no '
-           'second ____________.', None, 'bus',
-           'Rather than to the flats themselves.'),
-          ('The school has ____________ spare places this year.', None,
-           'thirty', 'Which Paul says will not last.'),
-          ('The estate behind has ____________ children under four.',
-           None, 'forty', 'A figure Sara admits she had not checked.'),
-          ('Paul wants a classroom and a bus written into the '
-           '____________.', None, 'permission',
-           'Rather than promised beside it.'),
-          ('Sara would want the condition to have a ____________ '
-           'attached.', None, 'date',
-           'At which point the two of them agree.')])],
+          ('Quotes the number of people waiting on the housing list.',
+           None, 'B',
+           'Four hundred, against eleven homes built last year.'),
+          ('Objects to the height and to what is missing beside it.',
+           None, 'A',
+           'Five storeys, no school places and no second bus.'),
+          ('Says the spare school places will not last.', None, 'A',
+           'There are thirty of them this year.'),
+          ('Accepts the figure for children under four on the estate.',
+           None, 'C',
+           'Paul gives forty; Sara admits she had not checked.'),
+          (
+           'Wants the classroom and the bus written into the '
+           'permission.', None, 'A',
+           'Rather than promised alongside it.'),
+          ('Agrees the condition should carry a date.', None, 'C',
+           'Sara proposes it and the two of them agree.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A place that changed',
     longturn=[('I am going to talk about a place that has changed. It is the '
@@ -770,16 +775,15 @@ UNIT = dict(
          items=[
           ('The speaker dates the change to ____________.', None,
            '1953', 'When the train service changed.'),
-          ('The service went from four a day to ____________ an '
-           'hour.', None, 'two',
-           'Which changed the kind of settlement.'),
+          ('How often did the trains run after the change?', None,
+           'two an hour', 'Which changed the kind of settlement.'),
           ('The estates were built ____________ from the old street.',
            None, 'outward', 'Rather than along the railway line.'),
           ('That decision was made by whoever owned the '
            '____________.', None, 'fields',
            'Not by anybody planning a town.'),
-          ('Use of the southern footpaths has fallen by about '
-           '____________ per cent.', None, 'eighty',
+          ('By how much has use of the southern footpaths fallen?',
+           None, 'eighty per cent',
            'Since the bypass was built in 1998.'),
           ('The three changes were a timetable, a landowner and a '
            '____________.', None, 'road',
@@ -973,24 +977,37 @@ UNIT = dict(
            'downside, somebody has hidden the cost in the one place '
            'nobody checks: the future.')],
          items=[
-          ('Building outward is quick because a field has no '
-           'neighbours and no ____________.', None, 'archaeology',
-           'The speaker names both of those.'),
+          (
+           'Building outward is quick, the speaker says, because a '
+           'field has',
+           ['cheaper land', 'no neighbours and no archaeology', 'better transport', 'fewer rules'],
+           1, 'The speaker names both of those in the same breath.',
+           {0: 'Land price is not what he says makes it quick.', 2: 'Transport is what has to be added afterwards, at '
+               'public expense.', 3: 'He talks about what a field lacks, not about the rules '
+               'that apply to it.'}),
           ('The buyer does not pay for roads, pipes, school places '
            'and a ____________.', None, 'bus',
            'The public does, usually later.'),
-          ('Roughly ____________ small sites equal one field at the '
-           'edge.', None, 'a hundred',
-           'And each takes as long as the first.'),
-          ('The town has about ____________ thousand spare '
-           'bedrooms.', None, 'nine',
+          ('One field at the edge of the town is equal to about',
+           ['ten small sites', 'a hundred small sites', 'a thousand small sites', 'three small sites'],
+           1, 'And each of them takes as long as the first.',
+           {0: 'Ten is well short of the figure he gives.', 2: 'A thousand is far beyond the figure he gives.', 3: 'Three is the number of answers a council can refuse, '
+               'not of sites.'}),
+          ('How many spare bedrooms does the town have?', None,
+           'about nine thousand',
            'More than anything built this decade will match.'),
-          ('A council that says no to all three has decided that '
-           '____________ rise.', None, 'prices',
-           'A decision that appears in no document.'),
-          ('The speaker says a plan with no downside has its cost '
-           'hidden in the ____________.', None, 'future',
-           'Which is the place nobody checks.')])],
+          ('A council that refuses all three options has decided that',
+           ['nothing will change', 'prices will rise', 'the town will shrink', 'the field will be built on'],
+           1, 'A decision that appears in no document, he says.',
+           {0: 'His point is that refusing everything is itself a '
+               'change.', 2: 'Shrinking is not among the outcomes he describes.', 3: 'Building on the field is one of the options being '
+               'refused.'}),
+          ('A plan with no downside, the speaker says, has its cost',
+           ['hidden in the future', 'paid by the developer', 'written in the permission', 'spread across the county'],
+           0, 'Which is the place nobody checks.',
+           {1: 'He says the buyer does not pay for the roads and '
+               'pipes; the public does.', 2: 'What is written into a permission is the other '
+               'speaker\'s remedy, not this.', 3: 'No county-wide sharing is mentioned in the talk.'})])],
    speak=dict(
     part='Part 3', focus='Housing',
     sounds=[('Compound nouns take the stress on the first word: a CAR park, a '

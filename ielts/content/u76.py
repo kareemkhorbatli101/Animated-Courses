@@ -273,6 +273,9 @@ UNIT = dict(
     dict(heading='Two travellers compare trips', part='Part 3',
          task='A discussion between two travellers · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Nils    B  Priya    C  both of them',
          script=[
           ('Tutor', 'You are writing about what people want from a '
            'holiday. Start with where you differ.'),
@@ -307,24 +310,18 @@ UNIT = dict(
           ('Tutor', 'It is, and it is the sentence examiners remember '
            'at this level.')],
          items=[
-          ('Nils says people say they want discovery and actually want '
-           '____________.', None, 'rest',
-           'Because they return to the same places.'),
-          ('Priya says his sample is people who book ____________ '
-           'holidays.', None, 'package',
-           'Which Nils accepts as a problem.'),
-          ('Priya says repetition is not the opposite of '
-           '____________.', None, 'discovery',
-           'Because returning teaches you more about one place.'),
-          ('They agree about ____________, which people often call '
-           'the best part.', None, 'preparation',
-           'The reading done before a trip.'),
-          ('Nils says the ____________ is doing the work rather than '
-           'the travel.', None, 'anticipation',
-           'Which is one conclusion from the observation.'),
-          ('The tutor says they have two different ____________ from '
-           'the same observation.', None, 'conclusions',
-           'And tells them to include both.')])],
+          ('Says people ask for discovery and actually want rest.',
+           None, 'A', 'Because they return to the same places.'),
+          ('Points out that the sample is people who book packages.',
+           None, 'B', 'A problem the other speaker accepts.'),
+          ('Argues that repetition is not the opposite of discovery.',
+           None, 'B', 'Returning teaches you more about one place.'),
+          ('Treats the preparation as the best part of a trip.', None,
+           'C', 'The reading done before going, which both agree on.'),
+          ('Concludes that the anticipation is doing the work.', None,
+           'A', 'Rather than the travelling itself.'),
+          ('Is told to put both conclusions in the essay.', None, 'C',
+           'Two conclusions from the same observation.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A holiday you remember',
     longturn=[('I am going to talk about a holiday I remember well. I spent a '
@@ -784,8 +781,8 @@ UNIT = dict(
           ('Speaker', 'I would say the same to a regulator, by the way. '
            'I am describing it accurately, not defending all of it.')],
          items=[
-          ('Rooms and seats are bought a ____________ ahead.', None,
-           'year', 'After which that money is spent.'),
+          ('How far ahead are the rooms and seats bought?', None,
+           'a year', 'After which that money is spent.'),
           ('An empty seat is a total loss while a cheap seat is a '
            'partial ____________.', None, 'recovery',
            'Which is why two prices can differ.'),
@@ -795,8 +792,9 @@ UNIT = dict(
           ('The advertised price exists to make the ____________ '
            'ring.', None, 'telephone',
            'Rather than to describe what you will pay.'),
-          ('It generates more ____________ than everything else '
-           'combined.', None, 'complaints',
+          (
+           'What does the advertised price generate more of than '
+           'anything else?', None, 'complaints',
            'Although it is legal if genuinely available.'),
           ('The speaker says the system works because customers '
            'believe a price ____________ something.', None, 'means',
@@ -991,24 +989,38 @@ UNIT = dict(
            'wants to sell you something, and it is what the numbers '
            'say.')],
          items=[
-          ('A coach emits about ____________ grams per person per '
-           'kilometre.', None, 'forty',
-           'Against thirty-five for an electrified train.'),
+          (
+           'A coach emits about forty grams per person per kilometre, '
+           'against',
+           ['fifteen for a train', 'thirty-five for an electrified train', 'eighty for a train', 'the same for a train'],
+           1, 'The two figures the speaker puts side by side.',
+           {0: 'Fifteen is not a figure given anywhere in the talk.', 2: 'Eighty would put the train above the coach, which is '
+               'not what she says.', 3: 'She gives two different figures, not one.'}),
           ('A car with four people emits about ____________ grams per '
            'person.', None, 'forty-three',
            'Against a hundred and seventy with one.'),
-          ('The speaker says ____________ matters more than '
-           'technology.', None, 'occupancy',
-           'Because nobody sells it, nobody advertises it.'),
-          ('A return flight of two thousand kilometres equals about a '
-           '____________ of local travel.', None, 'year',
-           'For a typical person, the speaker says.'),
-          ('Nothing available at ____________ today changes the '
-           'arithmetic for flying.', None, 'scale',
-           'Although it may in twenty years.'),
-          ('The advice is to fly less ____________ rather than '
-           'differently.', None, 'often',
-           'Which the speaker admits is dull.')])],
+          (
+           'The speaker says the thing that matters more than '
+           'technology is',
+           ['fuel', 'occupancy', 'distance', 'speed'], 1,
+           'And that nobody advertises it because nobody sells it.',
+           {0: 'Fuel is not the comparison she makes between the '
+               'modes.', 2: 'Distance is the subject of the flying figure, not of '
+               'this point.', 3: 'Speed is never mentioned in the talk.'}),
+          (
+           'A return flight of two thousand kilometres is equal to '
+           'about',
+           ['a month of local travel', 'a year of local travel', 'a week of local travel', 'ten years of local travel'],
+           1, 'For a typical person, the speaker says.',
+           {0: 'A month is well short of the comparison she draws.', 2: 'A week is shorter still than the figure she gives.', 3: 'Ten years is far beyond anything she claims.'}),
+          (
+           'What does the speaker say nothing available today changes?',
+           None, 'the arithmetic', 'Although it may in twenty years.'),
+          ('The advice the speaker ends with is to fly',
+           ['in a different class', 'with a different airline', 'less often', 'on newer aircraft'],
+           2, 'Which she admits is a dull conclusion.',
+           {0: 'Class of travel is not raised in the talk.', 1: 'No airline is named or compared.', 3: 'She says nothing at scale today changes the '
+               'arithmetic, so newer aircraft are not the answer.'})])],
    speak=dict(
     part='Part 3', focus='Travel and the environment',
     sounds=[('Join a final consonant to a following vowel. An island sounds '

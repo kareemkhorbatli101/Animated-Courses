@@ -311,6 +311,9 @@ UNIT = dict(
     dict(heading='Two visitors discuss a painting', part='Part 3',
          task='A discussion between two visitors · note completion', band='l3',
          qtype='Questions 22-27',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Mia    B  Jon    C  both of them',
          script=[
           ('Mia', 'I had always assumed this was a painting.'),
           ('Jon', 'So had I. It says several thousand were printed.'),
@@ -342,20 +345,19 @@ UNIT = dict(
            'and getting the right thing anyway.'),
           ('Jon', 'Which is most of an education, I think.')],
          items=[
-          ('Both visitors had assumed the work was a ____________.',
-           None, 'painting', 'Both say so until they read the label.'),
-          ('Mia first says that makes it a ____________.', None,
-           'poster', 'Jon partly accepts that description.'),
-          ('Jon says you cannot be looking at it because it is '
-           '____________.', None, 'rare',
-           'Since thousands of impressions exist.'),
-          ('Mia admits she has never actually ____________ at it.',
-           None, 'looked', 'Although she has seen it many times.'),
-          ('Jon notices that the boats are not in ____________.', None,
-           'trouble', 'The men are rowing in time, Mia agrees.'),
-          ('They agree the drama comes from ____________ rather than '
-           'danger.', None, 'scale',
-           'Everything moving in the print is water.')])],
+          ('Assumed at first that the work was a painting.', None, 'C',
+           'Mia says so and Jon answers "So had I".'),
+          ('Calls the work a poster.', None, 'A',
+           'Jon answers that it is a cheap popular image.'),
+          ('Says you cannot be looking at it because it is rare.',
+           None, 'B', 'Since the label says thousands were printed.'),
+          ('Admits never having really looked at it before.', None,
+           'A', 'Although she has seen it a thousand times.'),
+          ('Points out that the boats are not in danger.', None, 'B',
+           'Mia then agrees that the men are rowing in time.'),
+          ('Agrees the drama comes from scale and not from danger.',
+           None, 'C',
+           'Mia proposes it and Jon calls it the better reason.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A picture or object you like',
     longturn=[('I am going to talk about an object I like. It is a small clock '
@@ -809,8 +811,8 @@ UNIT = dict(
            'decision to somebody in fifty years, with better tools than '
            'mine, and the notes to explain what I did.')],
          items=[
-          ('About a ____________ of her time is spent cleaning.', None,
-           'tenth', 'The rest is deciding and writing down why.'),
+          ('What fraction of her time is spent cleaning?', None,
+           'a tenth', 'The rest is deciding and writing down why.'),
           ('The sky looks brown because of yellowed ____________.',
            None, 'varnish', 'Under which it is almost certainly blue.'),
           ('Photography under invisible light shows earlier '
@@ -819,9 +821,8 @@ UNIT = dict(
           ('Solvents are tested in a corner covered by the '
            '____________.', None, 'frame',
            'Because the same varnish behaves differently.'),
-          ('Removal takes about ____________ weeks for this '
-           'painting.', None, 'six',
-           'A few square centimetres at a time.'),
+          ('How long does the removal take for this painting?', None,
+           'six weeks', 'A few square centimetres at a time.'),
           ('She says she is handing a ____________ to somebody in '
            'fifty years.', None, 'decision',
            'With better tools and her notes to explain.')])],
@@ -1020,21 +1021,33 @@ UNIT = dict(
           ('Tutor', 'Then that is the shape of the essay. Say which '
            'part of the market each claim covers.')],
          items=[
-          ('Ravi says price depends on scarcity, provenance and '
-           '____________.', None, 'money',
-           'Looking for somewhere to sit, as he puts it.'),
-          ('Leah agrees with the three reasons but says the '
-           '____________ is wrong.', None, 'conclusion',
-           'She thinks they cover only part of the market.'),
-          ('Leah says those reasons decide the price of the expensive '
-           '____________ per cent.', None, 'ten',
-           'For other artists, price tracks reputation.'),
-          ('Ravi admits he was generalising from the ____________ of '
-           'the market.', None, 'top',
-           'Which Leah says is what everybody does.'),
-          ('Ravi suggests comparing works by the same artist in two '
-           '____________.', None, 'media',
-           'A drawing against a painting, for example.'),
+          ('Ravi says that the price of a work of art depends on',
+           ['quality and skill', 'scarcity, provenance and money', 'the age of the artist', 'what critics prefer'],
+           1, 'Money looking for somewhere to sit, as he puts it.',
+           {0: 'He says price is not about quality at all, which is '
+               'his whole position.', 2: 'No age is mentioned; his later comparison is between '
+               'two media.', 3: 'He says critics may prefer the drawing while the '
+               'painting sells for more.'}),
+          ('Leah replies that Ravi\'s three reasons are',
+           ['all three wrong', 'right, but lead to the wrong conclusion', 'right for drawings only', 'impossible to test'],
+           1, 'She agrees with the reasons and rejects the conclusion.',
+           {0: 'She says in her first sentence that she agrees with '
+               'all three.', 2: 'The drawing is part of Ravi\'s test, which he offers '
+               'later.', 3: 'She calls that test a good one, so she does not say it '
+               'cannot be tested.'}),
+          ('Leah says those three reasons set the price of',
+           ['every work of art', 'the expensive ten per cent', 'work by living artists', 'work sold at auction'],
+           1, 'For other artists, she says, price tracks reputation.',
+           {0: 'That is the generalisation she is objecting to.', 2: 'She contrasts the top of the market with working '
+               'artists, not with living ones.', 3: 'No method of sale is mentioned in the discussion.'}),
+          ('Which part of the market had Ravi been generalising from?',
+           None, 'the top', 'Which Leah says is what everybody does.'),
+          ('Ravi suggests measuring the question by comparing',
+           ['two artists of the same age', 'prices in two different countries', 'works by the same artist in two media', 'reviews written ten years apart'],
+           2, 'A drawing against a painting by the same hand.',
+           {0: 'He compares one artist with themselves, which is what '
+               'takes reputation out of the comparison.', 1: 'No country is mentioned anywhere in the discussion.', 3: 'He mentions what critics prefer, but inside the '
+               'comparison and not as the measure.'}),
           ('The tutor tells them to say which part of the '
            '____________ each claim covers.', None, 'market',
            'Which becomes the shape of the essay.')])],

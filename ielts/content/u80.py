@@ -275,6 +275,9 @@ UNIT = dict(
          part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Ravi    B  Elin    C  both of them',
          script=[
           ('Tutor', 'You are both using the teacher’s data. What '
            'is the disagreement?'),
@@ -306,23 +309,21 @@ UNIT = dict(
           ('Tutor', 'Ask, and expect a spreadsheet nobody has tidied. '
            'That is normal and it is better than a tidy summary.')],
          items=[
-          ('Ravi questions whether one person for one '
-           '____________ is worth anything.', None, 'year',
-           'Which is the disagreement the tutor asks about.'),
-          ('Elin says people estimate in the direction that '
-           '____________ the choice they made.', None, 'flatters',
-           'Which is why estimates are unreliable.'),
-          ('Ravi worries about ____________ from one route.', None,
-           'generalising', 'One city, one bicycle, one fitness '
-           'level.'),
-          ('Elin says to generalise the ____________ rather than the '
-           'numbers.', None, 'method',
-           'Because anybody can time their own journey.'),
-          ('All four late arrivals were on ____________ days.', None,
-           'bus', 'Which were about a third of the days.'),
-          ('The tutor says to put the ____________ figure before the '
-           'minutes.', None, 'lateness',
-           'Because it is the number that changed her behaviour.')])],
+          (
+           'Questions whether one person for one year is worth '
+           'anything.', None, 'A',
+           'The disagreement the tutor asks them to set out.'),
+          ('Says people estimate in the direction that flatters them.',
+           None, 'B', 'Which is why she does not trust estimates.'),
+          ('Worries about generalising from a single route.', None,
+           'A', 'One city, one bicycle, one level of fitness.'),
+          ('Says it is the method that generalises, not the numbers.',
+           None, 'B', 'Anybody can time their own journey.'),
+          ('Accepts that all four late arrivals were on bus days.',
+           None, 'C', 'Which were about a third of the days recorded.'),
+          ('Is told to put the lateness figure before the minutes.',
+           None, 'C',
+           'Because that is the number that changed her behaviour.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A journey you make often',
     longturn=[('I am going to talk about a journey I make often. I travel '
@@ -791,11 +792,10 @@ UNIT = dict(
           ('The gates will not move until the ____________ match.',
            None, 'levels',
            'And the answer is waiting rather than pushing.'),
-          ('The top paddles should be opened a ____________ turn at '
-           'a time.', None, 'quarter',
-           'Because fast water throws the boat about.'),
-          ('Filling takes about ____________ minutes.', None,
-           'five', 'With the whole cycle about twelve.'),
+          ('How far should the top paddles be opened at a time?', None,
+           'a quarter turn', 'Because fast water throws the boat about.'),
+          ('How long does the filling take?', None,
+           'about five minutes', 'With the whole cycle about twelve.'),
           ('The lock was built in ____________ and has not been '
            'improved.', None, '1790',
            'Because, the speaker says, it cannot be.')])],
@@ -994,23 +994,36 @@ UNIT = dict(
            'a policy with the right reasons attached than the same '
            'policy with the wrong ones.')],
          items=[
-          ('Bea’s reason is ____________ time.', None,
-           'boarding', 'Ten per cent off journey times on busy '
-           'routes.'),
-          ('Karim says car use fell only ____________ per cent.',
-           None, 'three', 'Which he says is not worth the fare '
-           'income.'),
+          ('Bea\'s own reason for the policy is',
+           ['the fall in car use', 'boarding time', 'the cost of ticket machines', 'air quality'],
+           1, 'Ten per cent off journey times on the busy routes.',
+           {0: 'The fall in car use is the figure she tells him to '
+               'stop using.', 2: 'Machines are never mentioned in the discussion.', 3: 'Air quality plays no part in either argument.'}),
+          ('Karim says that car use fell by',
+           ['three per cent', 'ten per cent', 'thirty per cent', 'no measurable amount'],
+           0, 'Which he says is not worth the fare income.',
+           {1: 'Ten per cent is the saving in journey time, not in car '
+               'use.', 2: 'Thirty per cent is far above the figure he gives.', 3: 'He gives a figure, so the fall was measurable.'}),
           ('Bea says to buy faster buses and savings for the '
            '____________ residents.', None, 'poorest',
            'Rather than the fall in car use.'),
-          ('Karim says their own paper talks about ____________ for '
-           'two pages.', None, 'congestion',
-           'Which is not the argument he can support.'),
-          ('Bea says the paper is badly ____________.', None,
-           'written', 'And admits she helped write it.'),
-          ('Karim would vote for it if it were rewritten round the '
-           'two ____________ that showed up.', None, 'effects',
-           'Which the chair turns into the motion.')])],
+          ('Karim objects that their own paper spends two pages on',
+           ['boarding time', 'congestion', 'fares', 'the poorest residents'],
+           1, 'Which is not the argument he can support.',
+           {0: 'Boarding time is the argument he says he could '
+               'support.', 2: 'Fares are what the policy removes, not the paper\'s '
+               'subject.', 3: 'The poorest residents are part of the case Bea wants '
+               'made.'}),
+          ('What does Bea say is wrong with the paper?', None,
+           'badly written', 'And admits she helped write it.'),
+          (
+           'Karim says he would vote for the policy if it were '
+           'rewritten round',
+           ['the fall in car use', 'the two effects that showed up', 'a lower fare', 'a trial on one route'],
+           1, 'Which the chair turns into the motion.',
+           {0: 'That is the claim he says the evidence does not '
+               'support.', 2: 'The policy removes the fare altogether; no lower fare '
+               'is proposed.', 3: 'No trial is suggested by either of them.'})])],
    speak=dict(
     part='Part 3', focus='Paying for transport',
     sounds=[('This is the last page on sounds in this book, and it is a list '

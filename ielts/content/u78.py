@@ -271,6 +271,9 @@ UNIT = dict(
     dict(heading='Two friends on family customs', part='Part 3',
          task='A discussion between two friends · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Maya    B  Owen    C  both of them',
          script=[
           ('Tutor', 'You are writing about family traditions. Where do '
            'you disagree?'),
@@ -303,22 +306,22 @@ UNIT = dict(
            'is. One case cannot prove a general claim, but it can show '
            'what the claim would look like if it were true.')],
          items=[
-          ('Maya thinks a tradition nobody ____________ should '
-           'stop.', None, 'enjoys',
-           'Which is the point they disagree about.'),
-          ('Owen says enjoyment is the wrong ____________.', None,
-           'test', 'Because nobody enjoys a fire drill.'),
-          ('Owen says a tradition marks a ____________.', None,
-           'date', 'And in doing so gives the year a shape.'),
-          ('In the family Maya interviewed, the person who proposed '
-           'stopping was the person who ____________ it.', None,
-           'started', 'Which Owen says reveals who it served.'),
-          ('The event was liked by four people and put up with by '
-           '____________.', None, 'twenty',
+          ('Thinks a tradition nobody enjoys should stop.', None, 'A',
+           'Which is the point the two of them disagree about.'),
+          ('Says enjoyment is the wrong test to use.', None, 'B',
+           'Because nobody enjoys a fire drill either.'),
+          ('Says a tradition gives the year its shape.', None, 'B',
+           'By marking a date, whatever else it does.'),
+          (
+           'Accepts that the person who proposed stopping had started '
+           'it.', None, 'C',
+           'Maya found it; Owen says it reveals who it served.'),
+          (
+           'Reports the four who liked it and the twenty who put up '
+           'with it.', None, 'A',
            'Which is how the gathering had changed.'),
-          ('Owen adds a condition: a tradition should change its '
-           '____________ when the family changes shape.', None,
-           'form', 'A condition which Maya says she would sign.')])],
+          ('Agrees a tradition should change form with the family.',
+           None, 'C', 'Owen adds the condition and Maya would sign it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A tradition you know',
     longturn=[('I am going to talk about a tradition in my country. On the '
@@ -769,13 +772,12 @@ UNIT = dict(
           ('The review happens in the ____________ after the '
            'festival.', None, 'week',
            'Because by January memories have been tidied.'),
-          ('Booking happens ____________ months out.', None,
+          ('How many months ahead does the booking happen?', None,
            'eleven', 'When equipment is still available.'),
           ('Fencing companies have a ____________-month season.',
            None, 'four', 'And a fixed amount of fencing.'),
-          ('The speaker visits the ____________ nearest houses before '
-           'applying.', None, 'twelve',
-           'Every year, and has never regretted it.'),
+          ('How many of the nearest houses does the speaker visit?',
+           None, 'twelve', 'Every year, and has never regretted it.'),
           ('Tickets fund the ____________.', None, 'deposits',
            'And most of them are sold by March.'),
           ('They spend more on ____________ than on advertising.',
@@ -978,20 +980,30 @@ UNIT = dict(
           ('Chair', 'Put that sentence in the letter. It is the most '
            'useful thing either of you has said.')],
          items=[
-          ('Hugh says in the hall the event becomes a '
-           '____________.', None, 'performance',
-           'Rather than something the town does.'),
-          ('Nadia says she has never been able to ____________.',
-           None, 'come', 'Because of a cold street and a '
-           'wheelchair.'),
-          ('Hugh says that is the part of the argument he cannot '
-           '____________.', None, 'answer',
-           'He concedes the point and does not try to.'),
-          ('Nadia agrees that something was ____________.', None,
-           'lost', 'Although she says she is not the one who lost it.'),
-          ('Hugh proposes a shorter procession on a ____________ '
-           'street.', None, 'wider',
-           'A shorter route, with the hall afterwards.'),
+          ('Hugh says that holding the event in the hall makes it',
+           ['cheaper', 'a performance', 'safer', 'shorter'], 1,
+           'Rather than something the town itself does.',
+           {0: 'Cost is not his objection; the other speaker raises '
+               'access.', 2: 'Safety is not the ground of his objection.', 3: 'Length is what he later offers to change, not his '
+               'objection.'}),
+          ('Nadia says the street version of the event',
+           ['was too long', 'she had never been able to attend', 'cost too much', 'was better attended'],
+           1, 'A cold street and a wheelchair, in her words.',
+           {0: 'Length is Hugh\'s later concession, not her objection.', 2: 'She says nothing about what it cost.', 3: 'Attendance is not the part of it she speaks about.'}),
+          ('Hugh replies to that point by',
+           ['disputing the figures', 'conceding it', 'changing the subject', 'asking the chair to rule'],
+           1, 'He says it is the part he cannot answer.',
+           {0: 'No figures are in dispute between them.', 2: 'He answers it directly and says he cannot answer it.', 3: 'The chair speaks only at the end, about a smaller '
+               'argument.'}),
+          (
+           'Nadia accepts that something was lost. Who does she say '
+           'did not lose it?', None, 'her',
+           'Although she says she is not the one who lost it.'),
+          ('Hugh ends by proposing',
+           ['keeping the hall only', 'a shorter procession on a wider street', 'moving the date', 'cancelling the event'],
+           1, 'With the hall afterwards, which is the compromise.',
+           {0: 'Keeping the hall only is the position he is moving '
+               'away from.', 2: 'The date is never mentioned by either of them.', 3: 'Neither of them proposes cancelling it.'}),
           ('They end by arguing about which half is the '
            '____________.', None, 'afterthought',
            'Which the chair calls a smaller argument.')])],

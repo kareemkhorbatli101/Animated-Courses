@@ -141,6 +141,58 @@ def to_verify(name, spec, kind='tf'):
     return done, len(bad)
 
 
+def to_mc(name, spec):
+    """{ordinal: (stem, options, answer index, why, {wrong index: line})}
+    -> a multiple-choice item.
+
+    The other direction of to_q, and the one the Foundation books needed:
+    both of them put four fifths of their listening into gap completion
+    and neither reached the ten per cent of multiple choice gate 10 asks
+    for. A gap and a four-option question test the same fact about the
+    same recording; which one is printed is a choice about the task, and
+    a course that never prints the second has not taught it.
+
+    Every distractor has to be wrong for a reason a listener could find
+    in the script, and every wrong option carries the line that says so,
+    which is the rule check.py has enforced since phase 8."""
+    f, items = _items(name)
+    bad = []
+    done = 0
+    for n, v in sorted(spec.items()):
+        if not (1 <= n <= len(items)):
+            bad.append('%s: no item %d' % (name, n))
+            continue
+        it = items[n - 1]
+        stem, opts, ans, why, wrongs = v
+        if len(opts) != 4:
+            bad.append('%s i%d: %d options, the paper uses 4'
+                       % (name, n, len(opts)))
+            continue
+        if not isinstance(ans, int) or not (0 <= ans < 4):
+            bad.append('%s i%d: answer %r is not 0 to 3' % (name, n, ans))
+            continue
+        if GAP.search(stem):
+            bad.append('%s i%d: a multiple-choice stem keeps its gap'
+                       % (name, n))
+            continue
+        need = [k for k in range(4) if k != ans]
+        short = [k for k in need if len(str(wrongs.get(k, ''))) < 25]
+        if short:
+            bad.append('%s i%d: option %s needs a line of 25 characters'
+                       % (name, n, ''.join('ABCD'[k] for k in short)))
+            continue
+        if len({str(o).strip().lower() for o in opts}) != 4:
+            bad.append('%s i%d: two options say the same thing' % (name, n))
+            continue
+        it.wrongs = {k: wrongs[k] for k in need}
+        it.set(stem=stem, ans=ans, why=why, opts=list(opts))
+        done += 1
+    f.save()
+    for b in bad:
+        print('  !! ' + b)
+    return done, len(bad)
+
+
 def to_short(name, spec):
     """{ordinal: (question, answer)} -> short-answer items from gap items.
 

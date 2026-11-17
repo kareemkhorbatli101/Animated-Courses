@@ -324,6 +324,9 @@ UNIT = dict(
          part='Part 3',
          task='A discussion between two parents · note completion', band='l3',
          qtype='Questions 23-28',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Ana    B  Ben    C  both of them',
          script=[
           ('Tutor', 'You run the same parents’ group and you '
            'disagree about this. Begin.'),
@@ -349,23 +352,19 @@ UNIT = dict(
           ('Ben', 'Which is probably how most of these arguments '
            'actually are.')],
          items=[
-          ('Ana says the ____________ are the wrong thing to count.',
-           None, 'hours', 'Because two hours are not all alike.'),
-          ('Ben counts them because what he can measure he can '
-           '____________.', None, 'enforce',
-           'Which Ana calls an honest answer.'),
-          ('Ben says a rule about ____________ needs a parent to '
-           'judge every case.', None, 'quality',
-           'Which would mean an argument every evening.'),
-          ('Ana says the relationship with ____________ is strong.',
-           None, 'sleep', 'While the relationship with hours is '
-           'weak.'),
-          ('Ben says the one rule he would never give up is nothing '
-           'after ____________.', None, 'nine',
-           'It is the rule he accepts completely.'),
-          ('They agree on the rule that ____________ and disagree '
-           'about the measurable one.', None, 'matters',
-           'Which Ben says is how most such arguments are.')])],
+          ('Says the hours are the wrong thing to count.', None, 'A',
+           'Two hours of making and of scrolling differ.'),
+          ('Counts the hours because they can be enforced.', None, 'B',
+           'What he can measure is what he can enforce.'),
+          ('Says a rule about quality would mean a nightly argument.',
+           None, 'B', 'Because a parent would judge every case.'),
+          ('Reports that the link with sleep is the strong one.', None,
+           'A', 'While the link with hours is weak.'),
+          ('Treats a rule about late use as the one worth keeping.',
+           None, 'C', 'Ana reports the evidence; Ben makes it his rule.'),
+          ('Accepts that they agree about the rule that matters.',
+           None, 'C',
+           'Ana puts it and Ben says most arguments are like it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A rule in your home',
     longturn=[('I am going to talk about a rule in my home. We do not use '
@@ -592,11 +591,10 @@ UNIT = dict(
            'dirty, or a filter is blocked, and we have cleaned more '
            'machines than we have mended.')],
          items=[
-          ('The cafe opens on the first ____________ of the month.',
-           None, 'Saturday', 'The cafe opens from ten until two.'),
-          ('Last year they saw ____________ hundred and twelve items.',
-           None, 'four', 'Of which two hundred and fifty went home '
-           'working.'),
+          ('On which day of the month does the cafe open?', None,
+           'the first Saturday', 'The cafe opens from ten until two.'),
+          ('How many items did they see last year?', None, '412',
+           'Of which two hundred and fifty went home working.'),
           ('The part is almost always under ____________ pounds.',
            None, 'ten', 'And the work under half an hour.'),
           ('The rule they will not break is that you hold the '
@@ -605,9 +603,8 @@ UNIT = dict(
           ('They refuse anything ____________ or where the part is '
            'not sold separately.', None, 'sealed',
            'And they explain why at the door.'),
-          ('Many machines brought in are not broken but '
-           '____________.', None, 'dirty',
-           'Or have a blocked filter, the speaker says.')])],
+          ('What is wrong with many of the machines brought in?', None,
+           'dirty', 'Or have a blocked filter, the speaker says.')])],
    speak=dict(
     part='Part 2 into Part 3', focus='Repair and waste',
     intro=('The long turn first. A minute of notes, then one to two '
@@ -785,6 +782,23 @@ UNIT = dict(
          part='Part 4',
          task='A talk to trainee technicians · note completion and short answer', band='l4',
          qtype='Questions 48-53',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
+         banklabel='Write the letter from the diagram of the refrigerator',
+         figure={'flows': [('A', 'B', 'hot gas'),
+                     ('B', 'C', ''),
+                     ('C', 'D', 'cold liquid'),
+                     ('D', 'A', '')],
+           'kind': 'device',
+           'parts': [('A', 0.04, 0.6, 0.2, 0.22, 'A'),
+                     ('B', 0.04, 0.12, 0.2, 0.22, 'B'),
+                     ('C', 0.4, 0.12, 0.16, 0.22, 'C'),
+                     ('D', 0.4, 0.6, 0.16, 0.22, 'D'),
+                     ('E', 0.7, 0.6, 0.12, 0.22, 'E'),
+                     ('F', 0.7, 0.12, 0.12, 0.22, 'F'),
+                     ('G', 0.88, 0.12, 0.1, 0.22, 'G'),
+                     ('H', 0.88, 0.6, 0.1, 0.22, 'H')],
+           'sub': 'eight lettered parts; the arrows are the circuit',
+           'title': 'A refrigerator, as a heat pump'},
          script=[
           ('Speaker', 'Before any of you touch a fridge, understand '
            'what it is. It is not a cold machine. It is a heat pump, '
@@ -810,20 +824,19 @@ UNIT = dict(
            'machines are thrown away. That is the fact I want you to '
            'remember when somebody tells you repair is not viable.')],
          items=[
-          ('The speaker says a fridge is a ____________ pump.', None,
-           'heat', 'Rather than a machine that makes cold.'),
-          ('The coils at the back let heat go into the ____________.',
-           None, 'kitchen', 'After the compressor squeezes the gas.'),
-          ('Dusty coils make the fridge run ____________.', None,
-           'continuously', 'Because the heat cannot leave.'),
-          ('The test for a door seal is a sheet of ____________.',
-           None, 'paper', 'If it pulls out easily, the seal has '
-           'gone.'),
-          ('A new seal costs about ____________ pounds.', None,
-           'eight', 'Which is one of the two cheap faults.'),
-          ('Which fault is usually not worth repairing?', None,
-           'a gas leak', 'Because finding it costs more than the '
-           'machine.')])],
+          ('Squeezes the gas so that it becomes hot.', None, 'A',
+           'The first of the four stages the speaker lists.'),
+          ('Lets that heat go out into the kitchen.', None, 'B',
+           'These are the parts that collect dust.'),
+          ('Lets the liquid expand so that it becomes very cold.',
+           None, 'C',
+           'The third stage, between the back and the inside.'),
+          ('Takes the heat out of the food.', None, 'D',
+           'The last stage before the circuit begins again.'),
+          ('Is tested with a sheet of paper.', None, 'E',
+           'If the paper pulls out easily it has perished.'),
+          ('Leaks in the fault that is not worth repairing.', None,
+           'F', 'Finding the leak costs more than the machine.')])],
    speak=dict(
     part='Part 2 into Part 3', focus='Machines and how they work',
     intro=('Work the card first: a minute of notes, the long turn, then '
@@ -1021,23 +1034,40 @@ UNIT = dict(
            'people, ask one question: does it remove a task, or does it '
            'make a task easier? Only the first kind gives time back.')],
          items=[
-          ('The speaker says the most important machine in a house is '
-           'the ____________.', None, 'tap',
-           'With the washing machine second.'),
+          (
+           'The speaker argues that the most important machine in a '
+           'house is',
+           ['the washing machine', 'the tap', 'the refrigerator', 'the cooker'],
+           1, 'With the washing machine second, which is her argument.',
+           {0: 'She puts the washing machine second, not first.', 2: 'The fridge arrives later as the exception to her '
+               'pattern.', 3: 'No cooker is mentioned anywhere in the talk.'}),
           ('Washing clothes took one full ____________ a week.', None,
            'day', 'None of it possible to do sitting down.'),
-          ('Once washing was easy, the expected ____________ rose.',
-           None, 'standard',
-           'So the hours did not come back as free time.'),
-          ('The standard was usually set by advertising and by '
-           '____________.', None, 'neighbours',
+          (
+           'The hours saved by the washing machine did not become free '
+           'time because',
+           ['the machines were unreliable', 'the expected standard rose', 'fewer clothes were owned', 'the water cost more'],
+           1, 'Clothes worn for a week were washed after a day.',
+           {0: 'Reliability is not raised; the machine worked.', 2: 'The number of clothes is not mentioned, only how often '
+               'they were washed.', 3: 'Heating and carrying water is what the machine '
+               'replaced, not a cost it added.'}),
+          ('Who usually set the higher standard, besides advertising?',
+           None, 'neighbours',
            'Rather than by health, the speaker says.'),
-          ('The fridge abolished a ____________ rather than raising a '
-           'standard.', None, 'task',
-           'It ended the daily walk to buy food.'),
-          ('The question to ask of a new technology is whether it '
-           '____________ a task.', None, 'removes',
-           'Rather than merely making it easier.')])],
+          (
+           'The speaker says the refrigerator was different because it',
+           ['was cheaper', 'abolished a task', 'raised a standard', 'was bought later'],
+           1, 'It ended the daily walk for food that would spoil.',
+           {0: 'No price is given for any of the machines she '
+               'discusses.', 2: 'Raising a standard is what the other machines did, '
+               'which is her contrast.', 3: 'When it was bought plays no part in the argument.'}),
+          (
+           'The question she says to ask of a new technology is '
+           'whether it',
+           ['is affordable', 'removes a task', 'saves electricity', 'is popular'],
+           1, 'Only that kind, she says, gives time back.',
+           {0: 'Cost is not the test she offers.', 2: 'Electricity is never mentioned in the talk.', 3: 'Advertising and neighbours set standards in her '
+               'account; popularity is not the test.'})])],
    speak=dict(
     part='Part 3', focus='Technology and time',
     sounds=[('Pause between groups of words, not inside them. At the table is '

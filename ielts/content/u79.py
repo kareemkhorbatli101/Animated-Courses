@@ -285,6 +285,9 @@ UNIT = dict(
     dict(heading='Two students on checking a story', part='Part 3',
          task='A discussion between two students · note completion', band='l3',
          qtype='Questions 18-23',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Dalia    B  Hassan    C  both of them',
          script=[
           ('Tutor', 'You are presenting on verification. What is your '
            'main point?'),
@@ -311,23 +314,21 @@ UNIT = dict(
            'say out loud, and put the method in a diagram rather than '
            'in a paragraph.')],
          items=[
-          ('Dalia says the useful skill is asking questions with '
-           '____________ answers.', None, 'checkable',
-           'Rather than trying to detect lies directly.'),
-          ('Hassan spent an ____________ asking whether a photograph '
-           'looked real.', None, 'hour',
-           'A question he says had no answer.'),
-          ('The reporter’s telephone call took ____________ '
-           'minutes.', None, 'four',
-           'And settled what an hour of looking could not.'),
-          ('The method is to find what the claim implies about the '
-           '____________, then look it up.', None, 'world',
-           'Which Dalia says is the same structure every time.'),
-          ('Hassan says the ____________ on a file is weaker evidence '
-           'than people think.', None, 'data',
-           'Because it can be changed and phones are often wrong.'),
-          ('Hassan says a tree cannot be ____________ by somebody who '
-           'did not think about trees.', None, 'edited',
+          ('Says the useful skill is asking checkable questions.',
+           None, 'A', 'Rather than trying to detect a lie directly.'),
+          ('Spent an hour on a question that had no answer.', None,
+           'B', 'Whether the photograph looked real.'),
+          ('Accepts that a four-minute telephone call settled it.',
+           None, 'C', 'What an hour of looking could not settle.'),
+          ('Describes the method as the same structure every time.',
+           None, 'A', 'Find what the claim implies, then look it up.'),
+          (
+           'Says the data on a file is weaker evidence than people '
+           'think.', None, 'B',
+           'It can be changed, and phones are often wrong.'),
+          (
+           'Says a tree cannot be edited by somebody not thinking of '
+           'trees.', None, 'B',
            'Which the tutor calls his best sentence.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='A news story you remember',
@@ -791,16 +792,17 @@ UNIT = dict(
           ('The speaker has never found a fault in the '
            '____________.', None, 'fibre',
            'Between the exchange and the street cabinet.'),
-          ('For copper, the number that matters is its '
-           '____________.', None, 'length',
+          ('For copper, which number matters most?', None,
+           'its length',
            'Because the signal weakens measurably with distance.'),
           ('Two houses on one cabinet can differ ____________.',
            None, 'threefold',
            'And the far one is not imagining it.'),
           ('Most of the work is the last ____________ metres.', None,
            'ten', 'Inside the house, where walls matter.'),
-          ('About a ____________ of reported faults end with moving '
-           'the router.', None, 'third',
+          (
+           'What fraction of reported faults end with moving the '
+           'router?', None, 'about a third',
            'Which is why the speaker starts there.'),
           ('A householder who understands the ____________ will not '
            'ring again.', None, 'walls',
@@ -996,24 +998,37 @@ UNIT = dict(
            'changed your policy by accident.'),
           ('Chair', 'Which is roughly how most policies change.')],
          items=[
-          ('Recall of corrections rose from four per cent to '
-           '____________.', None, 'thirty-one',
-           'After front-page corrections were introduced.'),
-          ('Tomas fears a reader will ____________ the paper for '
-           'visible corrections.', None, 'downgrade',
-           'Concluding it makes three mistakes a month.'),
+          (
+           'After front-page corrections were introduced, recall rose '
+           'from four per cent to',
+           ['fourteen per cent', 'thirty-one per cent', 'sixty per cent', 'eight per cent'],
+           1, 'The figure Priya brings to the argument.',
+           {0: 'Fourteen is not a figure given in the discussion.', 2: 'Sixty is far above the figure she reports.', 3: 'Eight would be a doubling; the rise she reports is '
+               'much larger.'}),
+          ('Tomas fears that visible corrections will make a reader',
+           ['stop reading', 'downgrade the paper', 'write in', 'trust the paper more'],
+           1, 'Concluding that it makes three mistakes a month.',
+           {0: 'He does not say readers would stop; he says they would '
+               'judge.', 2: 'Letters from readers are not mentioned.', 3: 'Trusting it more is Priya\'s finding, which he is '
+               'answering.'}),
           ('Priya says the ____________ survey went up rather than '
            'down.', None, 'trust',
            'With corrections named without prompting.'),
-          ('Tomas accepts the finding but says it is one '
-           '____________.', None, 'paper',
-           'Which Priya agrees she would not generalise from.'),
-          ('Page two reaches ____________ per cent of the relevant '
-           'readers.', None, 'four',
+          ('Tomas accepts Priya\'s finding but objects that it is',
+           ['too old', 'one paper only', 'badly measured', 'about a different country'],
+           1, 'Which Priya agrees she would not generalise from.',
+           {0: 'He says nothing about when the survey was done.', 2: 'He accepts the finding, so he is not disputing the '
+               'method.', 3: 'No country is mentioned by either of them.'}),
+          (
+           'What percentage of the relevant readers does page two '
+           'reach?', None, 'four per cent',
            'Which Tomas calls the number that moves him.'),
-          ('Tomas says four per cent is a ____________ that a '
-           'mistake was made.', None, 'record',
-           'Rather than a correction of it.')])],
+          ('Tomas says that reaching four per cent of readers is',
+           ['enough', 'a record that a mistake was made', 'better than nothing', 'the industry standard'],
+           1, 'Rather than a correction of the mistake.',
+           {0: 'He calls four per cent the number that moves him '
+               'against page two.', 2: 'His point is that it is not a correction at all, not '
+               'that it helps a little.', 3: 'No standard for the industry is quoted.'})])],
    speak=dict(
     part='Part 3', focus='Accuracy and trust',
     sounds=[('Numbers in the news are the part people mishear. Say nine '

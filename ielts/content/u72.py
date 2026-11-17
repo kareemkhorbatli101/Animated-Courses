@@ -558,6 +558,9 @@ UNIT = dict(
          part='Part 3',
          task='A discussion between two friends · note completion', band='l3',
          qtype='Questions 35-40',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Tomas    B  Ruth    C  both of them',
          script=[
           ('Tomas', 'Ninety pounds for a ticket. For music I already '
            'own.'),
@@ -588,22 +591,22 @@ UNIT = dict(
            'music.'),
           ('Tomas', 'That is a risk I am prepared to take.')],
          items=[
-          ('The ticket costs ____________ pounds.', None, 'ninety',
-           'For music Tomas says he already owns.'),
-          ('Ruth says he is buying a room of people who care at the '
-           'same ____________.', None, 'moment',
-           'Which cannot be streamed, she says.'),
-          ('Tomas says the recording is mixed over ____________.',
-           None, 'weeks',
-           'While a hall engineer has forty minutes.'),
-          ('Ruth says a recording is the ____________ every time.',
-           None, 'same', 'A live performance, she says, is not.'),
-          ('Tomas says the ____________ is what he is avoiding.',
-           None, 'variability', 'Which Ruth says is what she pays '
-           'for.'),
-          ('Ruth says they are disagreeing about ____________ rather '
-           'than music.', None, 'risk',
-           'Which Tomas calls annoyingly well put.')])],
+          ('Objects to the price of the ticket.', None, 'A',
+           'Ninety pounds for music he says he already owns.'),
+          ('Says the ticket buys a room of people who care at once.',
+           None, 'B', 'Which is the thing she says cannot be streamed.'),
+          ('Says the sound at a concert is worse than on a record.',
+           None, 'A',
+           'Weeks of mixing against forty minutes in the hall.'),
+          (
+           'Accepts that a live performance is not the same every '
+           'time.', None, 'C',
+           'Ruth states it and Tomas calls it what he avoids.'),
+          ('Is paying for the thing the other one is avoiding.', None,
+           'B', 'She pays for variability; he avoids it.'),
+          (
+           'Agrees the disagreement is about risk and not about music.',
+           None, 'C', 'Ruth says it and Tomas calls it well put.')])],
    speak=dict(
     part='Part 2 into Part 3', focus='Live and recorded',
     intro=('Card first, and the last bullet is the one that earns the '
@@ -833,8 +836,8 @@ UNIT = dict(
            'remember that order. Most money in home recording is spent '
            'on the item that matters least.')],
          items=[
-          ('The problem the room solves is that a microphone hears '
-           '____________.', None, 'everything',
+          ('What does a microphone hear that the ear can ignore?',
+           None, 'everything',
            'While the ear can ignore what it chooses.'),
           ('The walls are shaped so that sound does not come '
            '____________.', None, 'back',
@@ -845,8 +848,9 @@ UNIT = dict(
           ('Reflections heard on a record are usually added '
            '____________.', None, 'afterwards',
            'And are chosen rather than accidental.'),
-          ('The sampling rate matters ____________ than students '
-           'expect.', None, 'less',
+          (
+           'What does the speaker say matters more than the sampling '
+           'rate?', None, 'microphone position',
            'The microphone position matters more.'),
           ('Most money in home recording is spent on the item that '
            'matters ____________.', None, 'least',
@@ -1045,23 +1049,40 @@ UNIT = dict(
            'somebody being themselves matters to the family even if the '
            'measurements show nothing has changed.')],
          items=[
-          ('People of seventy mostly name music from between fourteen '
-           'and ____________.', None, 'twenty-four',
-           'Which the speaker calls the most replicated finding.'),
+          ('People of seventy mostly name music they first heard',
+           ['in childhood', 'between fourteen and twenty-four', 'in their thirties', 'in the last ten years'],
+           1,
+           'The speaker calls it the most replicated finding in the '
+           'field.',
+           {0: 'Childhood falls below the band she gives, which starts '
+               'at fourteen.', 2: 'The thirties are past the top of the band, which ends '
+               'at twenty-four.', 3: 'Recent music is what the finding says people do not '
+               'name.'}),
           ('The finding holds even for people who insist it does not '
            '____________ to them.', None, 'apply',
            'Across countries and kinds of music.'),
-          ('A first time has nothing to be ____________ with.', None,
-           'confused', 'Unlike an ordinary repeated day.'),
-          ('The speaker says music is special because of its '
-           '____________.', None, 'exactness',
-           'The recording does not change.'),
-          ('In dementia care it can bring back speech and '
-           '____________.', None, 'expression',
-           'That were unreachable ten minutes earlier.'),
-          ('The speaker says it does not slow the ____________.',
-           None, 'disease',
-           'And that this should be said honestly.')])],
+          (
+           'One reason the speaker gives for the effect is that those '
+           'years',
+           ['are the happiest', 'contain the first times', 'are the least busy', 'are easiest to talk about'],
+           1, 'A first time has nothing to be confused with, she says.',
+           {0: 'Happiness is not mentioned; she gives a biological '
+               'reason and a first-time one.', 2: 'She contrasts a first time with a repeated day, not a '
+               'busy one.', 3: 'She says nothing about how easily the years are '
+               'described.'}),
+          ('Music is a special cue, the speaker says, because it is',
+           ['loud', 'shared', 'exact', 'short'], 2,
+           'The recording at seventy is the same object, note for '
+           'note.',
+           {0: 'Loudness is never mentioned in the talk.', 1: 'Sharing is the argument in the earlier discussion, not '
+               'here.', 3: 'Length plays no part in the point she is making.'}),
+          ('What can the music bring back besides speech?', None,
+           'expression', 'That were unreachable ten minutes earlier.'),
+          ('The speaker says that playing the music',
+           ['slows the disease', 'cures the disease', 'does not slow the disease', 'has never been tested'],
+           2, 'She says this should be stated honestly.',
+           {0: 'She says the opposite in so many words.', 1: 'No claim of a cure is made anywhere in the talk.', 3: 'She says it is being used carefully in dementia care, '
+               'so it has been studied.'})])],
    speak=dict(
     part='Part 3', focus='Memory and the past',
     sounds=[('The small words in English lose their vowel: of, for, to, and, '

@@ -116,3 +116,23 @@ def blocks(name, skill):
             out.append((i, 'c%d' % ci, b))
             i += 1
     return out
+
+
+def addscript(name, skill, index, lines):
+    """Append (speaker, line) pairs to one block's recording script.
+
+    Phase 12 and 13 avoided this on purpose: a question can almost always
+    be re-asked in another task's form without touching the recording. A
+    plan or diagram labelling task is the exception. It needs the
+    recording to say where things are, and a script that never describes a
+    place cannot be relabelled into one - the task would be unanswerable.
+    So ten scripts in each Foundation book gain two to four lines, in the
+    speaker's voice, saying what the diagram shows. Those additions are
+    declared as text changes in the phase's intent file, where every other
+    change to a script in this series has had to be declared.
+    """
+    blks = blocks(name, skill)
+    if not (0 <= index < len(blks)):
+        raise SystemExit('%s: no %s block %d' % (name, skill, index))
+    old = list(blks[index][2].get('script') or [])
+    return setkw(name, skill, index, script=old + [tuple(x) for x in lines])
