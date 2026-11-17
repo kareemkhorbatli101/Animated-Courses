@@ -49,7 +49,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Leisure: clubs and times',
-         kind='Noticeboard', task='Sentence completion and short answer',
+         kind='Noticeboard', task='True/False/Not Given, short answer and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A club list is read for the age and the cost',
                 ['Three facts repeat in every entry: day, age range, '
@@ -210,7 +210,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Match day: finding your way round the ground',
-         kind='Ground notice', task='Sentence completion and short answer',
+         kind='Ground notice', task='Plan labelling',
          band='gt_short', qtype='Questions 11-15',
          bank=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
          banklabel='Write the letter from the plan of the ground',
@@ -255,7 +255,7 @@ UNIT = dict(
            'Beside reception, by the southern footpath.')])],
    listen=[
     dict(heading='Finding your seat', part='Part 1',
-         task='A conversation with a steward · note completion', band='l1',
+         task='A conversation with a steward · sentence completion and short answer', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Visitor', 'Excuse me. Where is block F?'),
@@ -393,7 +393,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three people and their hobbies',
-         kind='Short profiles', task='Matching features, short answer and sentence completion',
+         kind='Short profiles', task='Matching headings, matching features and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('Three profiles are read for the difference, not the '
                 'hobby',
@@ -668,7 +668,7 @@ UNIT = dict(
            'Paragraph 3, which is good news after an injury.')])],
    listen=[
     dict(heading='A talk about training and rest', part='Part 4',
-         task='A short lecture to sports students · note completion', band='l4',
+         task='A short lecture to sports students · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to tell you the three things that '
@@ -824,7 +824,7 @@ UNIT = dict(
    read=[
     dict(heading='Whether early specialisation works',
          kind='Short factual article',
-         task='Sentence completion, matching information and multiple choice',
+         task='Multiple choice, matching information and sentence completion',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Parents are told two opposite things about children and '
@@ -892,7 +892,7 @@ UNIT = dict(
                'recall.', 3: 'Playing many sports is what the non-specialisers did.'})])],
    listen=[
     dict(heading='Two coaches disagree', part='Part 3',
-         task='A discussion between two coaches · note completion', band='l3',
+         task='A discussion between two coaches · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

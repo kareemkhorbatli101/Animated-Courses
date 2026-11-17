@@ -269,7 +269,7 @@ UNIT = dict(
            'before.')])],
    listen=[
     dict(heading='Two friends on family customs', part='Part 3',
-         task='A discussion between two friends · note completion', band='l3',
+         task='A discussion between two friends · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -469,7 +469,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='What people eat at four festivals',
-         kind='Short article', task='Multiple choice, sentence completion and short answer',
+         kind='Short article', task='Multiple choice, matching information, sentence completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A comparison of four events is read column by column',
                 ['Decide which event the question is about before you '
@@ -503,18 +503,22 @@ UNIT = dict(
            'Sixty-two per cent at the music festival.',
            {0: 'Harvest is not among the shares quoted.', 1: 'Hot food takes only thirty-one per cent there.', 2: 'Midwinter takes fifty-eight per cent, four points '
                'less.'}),
-          ('Bread and cake reach ____________ per cent at the spring '
-           'fair.', None, 'forty-four',
-           'The highest share of any category anywhere.'),
-          ('Fruit and raw food stays between fifteen and '
-           '____________ per cent.', None, 'twenty-five',
-           'The most stable category of the three.'),
+          ('Which paragraph gives the share taken by bread and cake?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Forty-four per cent at the spring fair.',
+           {0: 'Paragraph 1 describes the study, not the shares.', 2: 'Paragraph 3 is about fruit and raw food.', 3: 'Paragraph 4 is about water rather than food.'}),
+          ('Which paragraph explains what sets the share of fruit?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           2, 'What is easy to carry, rather than the weather.',
+           {0: 'Paragraph 1 compares events and years in general.', 1: 'Paragraph 2 gives the hot-food shares.', 3: 'Paragraph 4 draws the conclusion about taps.'}),
           ('The organisers think that share is set by what is easy to '
            '____________.', None, 'carry',
            'Rather than by the weather, as assumed.'),
-          ('Where hot food dominates, water queues were '
-           '____________ times longer.', None, 'four',
-           'Because salty hot food makes people thirsty.'),
+          ('Which paragraph explains why the water queues were long?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           3, 'Hot food is salty, and two taps removed the queue.',
+           {0: 'Paragraph 1 is about the stability of the pattern.', 1: 'Paragraph 2 gives the hot-food shares and nothing on '
+               'water.', 2: 'Paragraph 3 is about fruit and raw food.'}),
           ('What removed the longest queue on the site?', None,
            'two extra taps', 'Two taps, which cost the organisers very little.')])],
    listen=[
@@ -686,7 +690,7 @@ UNIT = dict(
    read=[
     dict(heading='Twelve months of planning',
          kind='Short factual article',
-         task='Note completion and matching features',
+         task='True/False/Not Given, sentence completion and matching features',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A festival that runs for three days is worked on for twelve '
@@ -718,22 +722,27 @@ UNIT = dict(
           'strongest argument an organiser has, and it is made in '
           'silence.'],
          items=[
-          ('The committee reads complaints and accounts within a '
-           '____________ of the festival ending.', None, 'week',
-           'Paragraph 1, while people still remember.'),
+          ('The committee reviews the festival in January.',
+           ['True', 'False', 'Not Given'], 1,
+           'It reviews it in the week after the festival ends.',
+           {0: 'January is given as an example of a review done too '
+               'late.', 2: 'The passage states when the review happens.'}),
           ('Performers are booked about ____________ months ahead.',
            None, 'eleven', 'Paragraph 2, because they are scarce.'),
-          ('Suppliers have a season that is ____________ months '
-           'long.', None, 'four',
-           'Paragraph 2, with a fixed quantity of equipment.'),
+          ('Suppliers of stages and fencing work all year.',
+           ['True', 'False', 'Not Given'], 1,
+           'Their season is four months long, the passage says.',
+           {0: 'A four-month season is not the whole year.', 2: 'The length of the season is stated in paragraph 2.'}),
           ('Which stage can stop everything?',
            ['review', 'booking', 'licensing', 'ticketing'], 2,
            'Paragraph 3: the council sets conditions.',
            {0: 'The review happens after the last festival ends.', 1: 'Booking limits the choice but does not stop it.', 3: 'Tickets go on sale once the licence is likely.'}),
-          ('An objection answered in advance is ____________.', None,
-           'administrative',
-           'Paragraph 3, while the same one at a hearing is a '
-           'crisis.'),
+          (
+           'An objection is easier to deal with before an application '
+           'than at a hearing.',
+           ['True', 'False', 'Not Given'], 0,
+           'Administrative in advance; a crisis at a hearing.',
+           {1: 'The passage draws exactly that contrast.', 2: 'Paragraph 3 says it in those terms.'}),
           ('Most tickets are sold by ____________.', None, 'March',
            'Paragraph 4, and the money pays the deposits.'),
           ('The site is built in four days and cleared in '
@@ -742,7 +751,7 @@ UNIT = dict(
    listen=[
     dict(heading='A festival organiser on the year before',
          part='Part 4',
-         task='A talk to events students · note completion', band='l4',
+         task='A talk to events students · sentence completion and short answer', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'Three days of festival, twelve months of work, '
@@ -889,7 +898,7 @@ UNIT = dict(
    read=[
     dict(heading='A festival that moved indoors',
          kind='Short factual article',
-         task='Note completion and matching features',
+         task='Sentence completion, matching headings and matching features',
          band='acad', qtype='Questions 49-55',
          paras=[
           'For a hundred and forty years a town in the north held a '
@@ -925,13 +934,14 @@ UNIT = dict(
          items=[
           ('The procession had run for ____________ and forty years.',
            None, 'a hundred', 'Paragraph 1: it ran until 2019 in the streets.'),
-          (
-           'The route was declared unsafe because the crowd had '
-           '____________.', None, 'grown',
-           'Paragraph 1, and insurance could not be obtained.'),
-          ('Those who stopped coming said it had become something the '
-           'town ____________.', None, 'watched',
-           'Paragraph 2, rather than something it did.'),
+          ('Which is the best heading for paragraph 1?',
+           ['Why the route was given up', 'The reasons people stopped coming', 'The people who came for the first time', 'A question the town could not answer'],
+           0, 'A grown crowd, a narrow street and no insurance.',
+           {1: 'The reasons people stopped coming are paragraph 2.', 2: 'The first-time attenders are paragraph 3.', 3: 'The unanswered question is paragraph 4.'}),
+          ('Which is the best heading for paragraph 2?',
+           ['Something the town did, not something it watched', 'Warmth, seats and a toilet', 'A hundred and forty years', 'Which exclusion the town preferred'],
+           0, 'Free, no ticket, and joinable for ten minutes.',
+           {1: 'Warmth, seats and a toilet are paragraph 3.', 2: 'The hundred and forty years are paragraph 1.', 3: 'Which exclusion was preferred is paragraph 4.'}),
           ('Which group mentioned warmth and seats?',
            ['parents', 'older residents', 'wheelchair users', 'former attenders'],
            1, 'Paragraph 3, among those who newly arrived.',
@@ -940,17 +950,17 @@ UNIT = dict(
           ('Two people in ____________ attended for the first time.',
            None, 'wheelchairs',
            'Paragraph 3, one after sixty years in the town.'),
-          ('The report said both arrangements ____________ people.',
-           None, 'exclude',
-           'Paragraph 4: the street and the hall each exclude '
-           'somebody.'),
+          ('Which is the best heading for paragraph 4?',
+           ['Two arrangements, two sets of people left out', 'The insurance that could not be bought', 'A cold street at nine at night', 'Half the audience stopped coming'],
+           0, 'The street and the hall each exclude somebody.',
+           {1: 'The insurance is paragraph 1.', 2: 'The cold street at nine is paragraph 3.', 3: 'Half the audience leaving is paragraph 1.'}),
           ('The committee could not get ____________ on an answer.',
            None, 'agreement',
            'Paragraph 4, on which exclusion the town preferred.')])],
    listen=[
     dict(heading='Two residents disagree about a changed custom',
          part='Part 3',
-         task='A discussion between two residents · note completion', band='l3',
+         task='A discussion between two residents · multiple choice, short answer and sentence completion', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You both wrote to the committee and you disagree. '

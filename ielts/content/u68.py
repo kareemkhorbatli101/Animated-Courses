@@ -41,7 +41,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Surgery opening times and how to book',
-         kind='Notice', task='Sentence completion and short answer',
+         kind='Notice', task='True/False/Not Given and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A surgery notice is read for which number to ring',
                 ['There are always two or three numbers: normal, '
@@ -365,7 +365,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Walking for twenty minutes: a leaflet',
-         kind='Leaflet', task='Short answer and sentence completion',
+         kind='Leaflet', task='Short answer, matching headings and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A health leaflet is read for the number and the '
                 'condition',
@@ -406,7 +406,7 @@ UNIT = dict(
            {1: 'How long weight takes is paragraph 2.', 2: 'Walking five days a week is paragraph 1.', 3: 'Fitting it into a working day is paragraph 3.'})])],
    listen=[
     dict(heading='Joining the sports centre', part='Part 1',
-         task='A conversation at a reception desk · note completion', band='l1',
+         task='A conversation at a reception desk · short answer and sentence completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Desk', 'Are you joining today?'),
@@ -642,7 +642,7 @@ UNIT = dict(
            'Paragraph 3, larger than between some countries.')])],
    listen=[
     dict(heading='A talk about clean water and health', part='Part 4',
-         task='A short lecture to first-year students · note completion', band='l4',
+         task='A short lecture to first-year students · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I want to correct something almost everybody in '
@@ -853,7 +853,7 @@ UNIT = dict(
                'most.'})])],
    listen=[
     dict(heading='Two people compare hospitals', part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

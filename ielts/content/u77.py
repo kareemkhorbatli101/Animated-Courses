@@ -262,7 +262,7 @@ UNIT = dict(
            'Unlike a vague one, the writer argues.')])],
    listen=[
     dict(heading='Two colleagues on the dress code', part='Part 3',
-         task='A discussion between two colleagues · note completion', band='l3',
+         task='A discussion between two colleagues · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -455,7 +455,7 @@ UNIT = dict(
    read=[
     dict(heading='The journey of a cotton shirt',
          kind='Short factual article',
-         task='Note completion and short answer',
+         task='True/False/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 24-30',
          paras=[
           'A cotton shirt on a shelf in Europe has usually travelled '
@@ -487,22 +487,26 @@ UNIT = dict(
           'advice that every honest summary reaches and almost no '
           'advertisement gives.'],
          items=[
-          ('A cotton shirt has usually passed through at least '
-           '____________ countries.', None, 'four',
-           'Paragraph 1, one for each main stage.'),
+          ('A cotton shirt is made in a single country.',
+           ['True', 'False', 'Not Given'], 1,
+           'At least four countries, one for each main stage.',
+           {0: 'The passage names four stages in four countries.', 2: 'The number of countries is given in the first line.'}),
           ('Each stage goes where it is cheapest for that '
            '____________.', None, 'stage',
            'Paragraph 1, rather than cheapest overall.'),
-          ('Spinning and weaving go where ____________ is steady.',
-           None, 'power',
-           'Paragraph 2, because they are done by machine.'),
+          ('Spinning and weaving follow low wages.',
+           ['True', 'False', 'Not Given'], 1,
+           'They follow steady power; sewing follows low wages.',
+           {0: 'It is cutting and sewing that follow low wages.', 2: 'The passage explains what each stage follows.'}),
           (
            'Cutting and sewing stay manual because cloth is '
            '____________.', None, 'floppy',
            'Paragraph 2, so those stages follow low wages.'),
-          ('Shipping produces less than a ____________ of the '
-           'emissions of growing and making.', None, 'tenth',
-           'Paragraph 3, which people overestimate.'),
+          ('Shipping is the largest part of a shirt\'s emissions.',
+           ['True', 'False', 'Not Given'], 1,
+           'Less than a tenth of growing and making it.',
+           {0: 'The passage says shipping is the part people '
+               'overestimate.', 2: 'The comparison is made directly in paragraph 3.'}),
           ('The real cost is in the water and energy used in growing '
            'and ____________.', None, 'dyeing',
            'Paragraph 3, before the shirt moves.'),
@@ -679,7 +683,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Why old styles return',
-         kind='Short article', task='Note completion and short answer',
+         kind='Short article', task='Matching headings, sentence completion and short answer',
          band='gt_work', qtype='Questions 37-42',
          paras=[
           'Styles return on a cycle of roughly twenty to thirty years, '
@@ -702,26 +706,34 @@ UNIT = dict(
           'not an insult: every industry does this and only this one is '
           'expected to pretend otherwise.'],
          items=[
-          ('Styles return on a cycle of about ____________ to thirty '
-           'years.', None, 'twenty',
-           'Which the writer says is not a coincidence.'),
+          ('Which is the best heading for paragraph 1?',
+           ['The age of the people deciding', 'Why five years looks wrong', 'Reviving rather than inventing', 'What the industry talks about least'],
+           0,
+           'A designer of thirty-five drawing on what excited them at '
+           'ten.',
+           {1: 'Why five years looks wrong is paragraph 2.', 2: 'Reviving rather than inventing is paragraph 3.', 3: 'What the industry talks about least is paragraph 3.'}),
           ('A designer of thirty-five draws on what excited them at '
            '____________.', None, 'ten',
            'Which explains the length of the cycle.'),
-          ('Clothes from five years ago look ____________.', None,
-           'wrong', 'While clothes from twenty-five look like a '
-           'decision.'),
+          ('Which is the best heading for paragraph 2?',
+           ['The gloomy middle', 'A cycle of twenty to thirty years', 'Patterns and photographs that already exist', 'A decision about risk'],
+           0,
+           'Five years looks wrong; twenty-five looks like a decision.',
+           {1: 'The cycle of twenty to thirty years is paragraph 1.', 2: 'The patterns and photographs are paragraph 3.', 3: 'A decision about risk is paragraph 3.'}),
           ('What is the period in between called?', None,
            'the gloomy middle', 'The years where nothing can be sold.'),
-          ('Reviving a style is cheaper and ____________ than '
-           'inventing one.', None, 'safer',
-           'Because the patterns and photographs exist.'),
+          ('Which is the best heading for paragraph 3?',
+           ['Why a revival is the safer choice', 'What a buyer of thirty-five recognises', 'Clothes from five years ago', 'The length of the cycle'],
+           0,
+           'The patterns exist and somebody has proved people will '
+           'wear it.',
+           {1: 'The buyer of thirty-five is paragraph 1.', 2: 'Clothes from five years ago are paragraph 2.', 3: 'The length of the cycle is paragraph 1.'}),
           ('What is presented as a creative decision is often a '
            'decision about ____________.', None, 'risk',
            'Which the writer says is not an insult.')])],
    listen=[
     dict(heading='A fashion historian on cycles', part='Part 2',
-         task='One speaker explaining a pattern · note completion', band='l2',
+         task='One speaker explaining a pattern · short answer and sentence completion', band='l2',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'I am going to explain why your parents’ '
@@ -936,7 +948,7 @@ UNIT = dict(
            'hypocrisy.')])],
    listen=[
     dict(heading='A campaigner and a retailer disagree', part='Part 3',
-         task='A discussion between two speakers · note completion', band='l3',
+         task='A discussion between two speakers · multiple choice, sentence completion and short answer', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You two have argued in public before. Keep it '

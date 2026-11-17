@@ -271,7 +271,7 @@ UNIT = dict(
            'Which she points out to people who make it.')])],
    listen=[
     dict(heading='Two travellers compare trips', part='Part 3',
-         task='A discussion between two travellers · note completion', band='l3',
+         task='A discussion between two travellers · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -475,7 +475,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='A town with too many visitors',
-         kind='Short article', task='Note completion',
+         kind='Short article', task='True/False/Not Given and sentence completion',
          band='gt_work', qtype='Questions 24-29',
          skill=('An article about a local problem is read for who '
                 'gains and who pays',
@@ -504,13 +504,21 @@ UNIT = dict(
           'request was for the public toilets to be open before nine, '
           'which is when the first coaches arrive.'],
          items=[
-          ('Elmouth has ____________ thousand two hundred residents.',
-           None, 'two', 'And about four hundred thousand visitors.'),
-          ('____________ quarters of visitors come for the day.',
-           None, 'Three', 'Rather than staying overnight.'),
-          ('A day visitor spends about ____________ pounds.', None,
-           'eleven', 'Against about seventy for an overnight '
-           'visitor.'),
+          (
+           'Elmouth receives more visitors in a year than it has '
+           'residents.', ['True', 'False', 'Not Given'], 0,
+           'Four hundred thousand against two thousand two hundred.',
+           {1: 'The two figures are given in the first sentence.', 2: 'Both numbers are stated, so this is not left out.'}),
+          ('Most visitors stay overnight.',
+           ['True', 'False', 'Not Given'], 1,
+           'Three quarters come for the day rather than overnight.',
+           {0: 'Three quarters come for the day, so most do not stay.', 2: 'The proportion is given in the first paragraph.'}),
+          (
+           'A day visitor spends less than a sixth of what a staying '
+           'visitor spends.', ['True', 'False', 'Not Given'],
+           0, 'Eleven pounds against about seventy.',
+           {1: 'A sixth of seventy is almost twelve, so eleven is '
+               'less.', 2: 'Both figures are given in the second paragraph.'}),
           ('The park-and-ride has cut central traffic by a '
            '____________.', None, 'fifth',
            'Which is the one measure that worked.'),
@@ -695,7 +703,7 @@ UNIT = dict(
    read=[
     dict(heading='From brochure to booking',
          kind='Short factual article',
-         task='Note completion and matching information',
+         task='Matching headings, sentence completion and matching information',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A package holiday is not priced the way most goods are. A '
@@ -728,15 +736,20 @@ UNIT = dict(
           'to book is true. The honest advice is that booking early '
           'buys certainty and booking late buys a chance.'],
          items=[
-          ('A holiday company buys rooms and seats up to a '
-           '____________ in advance.', None, 'year',
-           'Paragraph 1, and pays whether they are used or not.'),
+          ('Which is the best heading for paragraph 2?',
+           ['Why an empty room is worse than a cheap one', 'What the advertised price is for', 'Buying a year in advance', 'Cutting the price at the last minute'],
+           0,
+           'Prices are set to fill the aircraft, not to cover a seat.',
+           {1: 'What the advertised price is for is paragraph 3.', 2: 'Buying a year in advance is paragraph 1.', 3: 'Cutting the price late is paragraph 5.'}),
           ('Prices are set to fill the ____________ rather than to '
            'cover each seat.', None, 'aircraft',
            'Paragraph 2, because the cost is already paid.'),
-          ('The advertised price usually applies to the least popular '
-           '____________.', None, 'category',
-           'Paragraph 3, on particular dates.'),
+          ('Which is the best heading for paragraph 3?',
+           ['A price that is meant to bring enquiries', 'Two people in the same row', 'A shirt and a margin', 'Early certainty, late chance'],
+           0,
+           'A few rooms, particular dates, and the complaints it '
+           'causes.',
+           {1: 'Two people in the same row is paragraph 2.', 2: 'The shirt and the margin are paragraph 1.', 3: 'Early certainty and late chance are paragraph 5.'}),
           ('The advertised price is legal provided it is genuinely '
            '____________ to somebody.', None, 'available',
            'Paragraph 3, although it causes many complaints.'),
@@ -747,12 +760,15 @@ UNIT = dict(
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
            'Late booking is sometimes cheap and sometimes impossible.',
            {0: 'Paragraph 2 explains why prices move at all.', 1: 'Paragraph 3 is about the cost of an empty room.'}),
-          ('Booking early buys certainty and booking late buys a '
-           '____________.', None, 'chance',
-           'Paragraph 4, which the writer calls the honest advice.')])],
+          ('Which is the best heading for paragraph 5?',
+           ['Why no simple rule about booking is true', 'The least popular category', 'What the regulator receives', 'Filling the aircraft'],
+           0,
+           'Late booking is sometimes very cheap and sometimes '
+           'impossible.',
+           {1: 'The least popular category is paragraph 3.', 2: 'What the regulator receives is also paragraph 3.', 3: 'Filling the aircraft is paragraph 2.'})])],
    listen=[
     dict(heading='Inside a travel company', part='Part 4',
-         task='A talk to business students · note completion', band='l4',
+         task='A talk to business students · short answer and sentence completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'I price holidays for a living and I am going to '
@@ -958,7 +974,7 @@ UNIT = dict(
    listen=[
     dict(heading='A researcher on aviation and emissions',
          part='Part 4',
-         task='A short lecture · note completion', band='l4', qtype='Questions 56-61',
+         task='A short lecture · multiple choice, sentence completion and short answer', band='l4', qtype='Questions 56-61',
          script=[
           ('Speaker', 'I am going to give you four numbers and then '
            'tell you which one actually matters.'),

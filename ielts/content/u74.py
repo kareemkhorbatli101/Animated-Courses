@@ -47,7 +47,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Hollow Brook Wildlife Park: visitor information',
-         kind='Visitor information', task='Sentence completion and short answer',
+         kind='Visitor information', task='True/False/Not Given and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('Visitor information is read for the time and the '
                 'exception',
@@ -71,12 +71,22 @@ UNIT = dict(
           'main path, and bins for peelings and other food waste, which '
           'go to the compost heaps behind the barn.'],
          items=[
-          ('The last entry is at half past ____________.', None,
-           'three', 'Although the gates stay open until five.'),
-          ('A child aged three to fifteen pays ____________ pounds.',
-           None, 'nine', 'Adults pay sixteen pounds for the same entry.'),
-          ('A family ticket covers two adults and ____________ '
-           'children.', None, 'three', 'The family ticket costs forty-four pounds.'),
+          ('The gates close at the same time as the ticket office.',
+           ['True', 'False', 'Not Given'], 1,
+           'The last entry is at half past three; the gates close at '
+           'five.',
+           {0: 'The guide gives two different times for those two '
+               'things.', 2: 'Both times are stated in the first paragraph.'}),
+          ('A child of two pays nine pounds.',
+           ['True', 'False', 'Not Given'], 1,
+           'Children under three enter free, the guide says.',
+           {0: 'Nine pounds is the price from the age of three.', 2: 'The guide states the rule for under-threes.'}),
+          (
+           'A family ticket costs less than the five tickets '
+           'separately.', ['True', 'False', 'Not Given'], 0,
+           'Forty-four pounds against fifty-nine bought singly.',
+           {1: 'Two adults and three children come to fifty-nine '
+               'pounds.', 2: 'Every price needed for the comparison is given.'}),
           ('Which dogs are allowed?', None, 'guide dogs',
            'The single exception to the rule.'),
           ('Where does food waste from the bins go?', None,
@@ -263,7 +273,7 @@ UNIT = dict(
            'Rather than about the whole life of the animal.')])],
    listen=[
     dict(heading='Two friends talk about keeping pets', part='Part 3',
-         task='A discussion between two friends · note completion', band='l3',
+         task='A discussion between two friends · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -668,7 +678,7 @@ UNIT = dict(
    read=[
     dict(heading='From egg to frog',
          kind='Short factual article',
-         task='Note completion and matching features',
+         task='Matching headings, sentence completion and matching features',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A frog does not grow in the way a kitten grows. It is '
@@ -700,17 +710,20 @@ UNIT = dict(
           'is why people who dig a pond are told to think about depth '
           'before they think about size.'],
          items=[
-          ('A mass of eggs can hold ____________ thousand.', None,
-           'two', 'Paragraph 2, and most do not survive.'),
+          ('Which is the best heading for paragraph 2?',
+           ['The eggs, and what the jelly is for', 'Gills, gut and the first lungs', 'Legs, and the absorbed tail', 'Sixteen weeks, and the depth of a pond'],
+           0, 'Two thousand in a mass, hatching after three weeks.',
+           {1: 'Gills, gut and lungs are paragraph 3.', 2: 'Legs and the tail are paragraph 4.', 3: 'The sixteen weeks and the depth are paragraph 5.'}),
           (
            'The jelly holds water and makes the mass hard to '
            '____________.', None, 'swallow',
            'Paragraph 2 says the jelly is not food.'),
           ('The tadpoles hatch after about ____________ weeks.', None,
            'three', 'Paragraph 2: the eggs are laid in spring.'),
-          ('The gut ____________ as the animal becomes a meat eater.',
-           None, 'shortens',
-           'Paragraph 3, because meat is easier to digest.'),
+          ('Which is the best heading for paragraph 3?',
+           ['Why most eggs do not survive', 'Two changes that happen at once', 'Leaving the water without eating', 'Why a shallow pond loses its frogs'],
+           1, 'The gut shortens while the lungs begin to develop.',
+           {0: 'Why most eggs do not survive is paragraph 2.', 2: 'Leaving the water without eating is paragraph 4.', 3: 'A shallow pond losing its frogs is paragraph 5.'}),
           ('Which grow first?',
            ['front legs', 'back legs', 'lungs', 'gills'], 1,
            'Paragraph 4: back legs, then front legs.',
@@ -718,11 +731,14 @@ UNIT = dict(
           ('The tail is not dropped but ____________.', None,
            'absorbed',
            'Paragraph 4, and used to build the body.'),
-          ('The process is slower in a cold ____________.', None,
-           'spring', 'Paragraph 4: the pond sets the speed.')])],
+          ('Which is the best heading for paragraph 5?',
+           ['Sixteen weeks, and why depth matters', 'Rebuilt rather than grown', 'The jelly round the eggs', 'Back legs before front legs'],
+           0,
+           'The pond sets the speed, and a deep one keeps its frogs.',
+           {1: 'Rebuilt rather than grown is paragraph 1.', 2: 'The jelly round the eggs is paragraph 2.', 3: 'Back legs before front legs is paragraph 4.'})])],
    listen=[
     dict(heading='A biologist on the life cycle', part='Part 4',
-         task='A short talk to students · note completion', band='l4',
+         task='A short talk to students · sentence completion and short answer', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'I want to use the frog to make a general point '
@@ -922,7 +938,7 @@ UNIT = dict(
            'Paragraph 4, that it cannot do without.')])],
    listen=[
     dict(heading='A conservationist on habitat loss', part='Part 4',
-         task='A short talk · note completion', band='l4', qtype='Questions 56-61',
+         task='A short talk · multiple choice, sentence completion and short answer', band='l4', qtype='Questions 56-61',
          script=[
           ('Speaker', 'I am going to ask you to stop thinking about '
            'hunting for twenty minutes, because it is not what is '

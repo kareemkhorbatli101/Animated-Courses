@@ -42,7 +42,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Three job adverts on a noticeboard',
-         kind='Adverts', task='Matching features and short answer',
+         kind='Adverts', task='Matching features and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('Adverts are read for the condition, not the job',
                 ['Every advert has one condition: experience, a '
@@ -356,7 +356,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Holiday requests: how the system works',
-         kind='Notice', task='Note completion',
+         kind='Notice', task='Matching headings and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A rule page is read for the number and the exception',
                 ['Three numbers run through any holiday policy: how '
@@ -403,7 +403,7 @@ UNIT = dict(
            {1: 'The four-week rule is paragraph 1.', 2: 'Pay for untaken days is refused in paragraph 3.', 3: 'Cover within a department is paragraph 2.'})])],
    listen=[
     dict(heading='Asking the manager for a day off', part='Part 1',
-         task='A conversation at work · note completion', band='l1',
+         task='A conversation at work · short answer and sentence completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Worker', 'Could I ask about a day off in June?'),
@@ -638,7 +638,7 @@ UNIT = dict(
                'demand.', 3: 'Paragraph 3 makes no prediction about the next change.'})])],
    listen=[
     dict(heading='A talk about work and machines', part='Part 4',
-         task='A short lecture to first-year students · note completion', band='l4',
+         task='A short lecture to first-year students · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to give you two numbers and then one '
@@ -838,7 +838,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two students disagree about automation',
          part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

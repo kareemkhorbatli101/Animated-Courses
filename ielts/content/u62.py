@@ -210,7 +210,7 @@ UNIT = dict(
    read=[
     dict(heading='Flat 3B: a plan of the rooms',
          kind='Floor plan with labels',
-         task='Sentence completion and short answer',
+         task='Plan labelling',
          band='gt_short', qtype='Questions 11-15',
          bank=['A', 'B', 'C', 'D', 'E', 'F', 'G'],
          banklabel='Write the letter from the plan of Flat 3B',
@@ -250,7 +250,7 @@ UNIT = dict(
            'quietest.')])],
    listen=[
     dict(heading='Showing a friend round the flat', part='Part 2',
-         task='One speaker describing a home · sentence completion and short answer', band='l2',
+         task='One speaker describing a home · short answer and sentence completion', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Speaker', 'Come in. It is small, but it works, and I will '
@@ -372,7 +372,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Repairs: what to do and who to call',
-         kind='Notice', task='Short answer, sentence completion and matching features',
+         kind='Notice', task='Matching headings, sentence completion and matching features',
          band='gt_work', qtype='Questions 21-25',
          skill=('A notice about repairs is read for who does what',
                 ['The questions are nearly always about who to call and '
@@ -595,7 +595,7 @@ UNIT = dict(
    read=[
     dict(heading='Four stages in building a small house',
          kind='Short factual article',
-         task='Sentence completion, multiple choice and matching features',
+         task='Note completion, multiple choice and matching features',
          band='acad', qtype='Questions 31-36',
          qkind=('note/table/flow-chart completion',),
          paras=[
@@ -638,7 +638,7 @@ UNIT = dict(
            None, 'twenty', 'Paragraph 3, and weather can add to it.')])],
    listen=[
     dict(heading='A visit to a building site', part='Part 4',
-         task='A short talk to visiting students · sentence completion and short answer', band='l4',
+         task='A short talk to visiting students · multiple choice and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Hard hats on, please. We have twenty-four houses '
@@ -835,7 +835,7 @@ UNIT = dict(
            'Paragraph 3, but somebody is paid to answer it.')])],
    listen=[
     dict(heading='Two people talk about moving', part='Part 3',
-         task='A discussion between two students · sentence completion and multiple choice', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

@@ -229,7 +229,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Twelve months of one journey',
-         kind='Short article', task='Multiple choice and note completion',
+         kind='Short article', task='Multiple choice, True/False/Not Given and sentence completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'A teacher timed her journey to work every day for a year, '
@@ -256,24 +256,30 @@ UNIT = dict(
            ['a month', 'three months', 'six months', 'a year'], 3,
            'Every day, door to door, by both means.',
            {0: 'A month is far shorter than the period described.', 1: 'Three months is a quarter of the period described.', 2: 'Six months is half the period described.'}),
-          ('The bicycle’s best month was ____________ at '
-           'twenty-four minutes.', None, 'July',
-           'And its worst was December at thirty-three.'),
+          ('The bicycle was faster than the bus in every month.',
+           ['True', 'False', 'Not Given'], 0,
+           'Its worst month still beat the bus\'s best month.',
+           {1: 'The passage says the bicycle was faster in every '
+               'month.', 2: 'Paragraph 2 gives the figures for both.'}),
           ('The bus took ____________ minutes in December.', None,
            'fifty', 'Its worst month of the twelve.'),
-          ('The gap between the two was widest in '
-           '____________.', None, 'winter',
-           'The opposite of what she had expected.'),
-          ('The step in the bus figures in September was caused by '
-           'the school ____________.', None, 'term',
-           'Rather than by the weather, the writer says.'),
+          ('The gap between the two was widest in summer.',
+           ['True', 'False', 'Not Given'], 1,
+           'It was widest in winter, which surprised her.',
+           {0: 'The passage says winter, not summer.', 2: 'The passage states which season it was.'}),
+          (
+           'The September step in the bus times was caused by the '
+           'weather.', ['True', 'False', 'Not Given'], 1,
+           'It was caused by the school term, the passage says.',
+           {0: 'The weather is what the bicycle responds to, not the '
+               'bus.', 2: 'Paragraph 3 names the cause directly.'}),
           ('She was late for work ____________ times in the year.',
            None, 'four',
            'All of them on days she took the bus.')])],
    listen=[
     dict(heading='Two students on measuring a journey',
          part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -445,7 +451,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three years of a hire scheme',
-         kind='Short article', task='Multiple choice and note completion',
+         kind='Short article', task='Multiple choice, matching headings and sentence completion',
          band='gt_work', qtype='Questions 24-29',
          skill=('A report of a scheme is read for what was changed',
                 ['Find the decision and the result it produced.',
@@ -477,20 +483,23 @@ UNIT = dict(
            0, 'At forty stands, in a city of three hundred thousand.',
            {1: 'Four hundred is half the number put out.', 2: 'One thousand is the total after the second year\u2019s '
                'additions.', 3: 'Two hundred is the number added in the second year.'}),
-          ('The commonest complaint was that stands were '
-           '____________ when people wanted a bicycle.', None,
-           'empty', 'And full when they wanted to leave one.'),
-          ('In the second year a van moved bicycles ____________ '
-           'times a day.', None, 'four',
-           'Following a list from the previous week.'),
+          ('Which is the best heading for paragraph 1?',
+           ['A first year judged a failure', 'A van that moved the bicycles', 'Free journeys under twenty minutes', 'Cost for each journey'],
+           0, 'A third of the planned use, and stands empty or full.',
+           {1: 'The van that moved the bicycles is paragraph 2.', 2: 'The free short journeys are paragraph 3.', 3: 'Cost for each journey is paragraph 4.'}),
+          ('Which is the best heading for paragraph 2?',
+           ['Moving the bicycles to where they were wanted', 'Eight hundred bicycles at forty stands', 'Journeys between the station and the centre', 'Dividing a fixed cost'],
+           0, 'Four moves a day, and journeys doubled.',
+           {1: 'The eight hundred bicycles are paragraph 1.', 2: 'The station and the centre are paragraph 3.', 3: 'Dividing the fixed cost is paragraph 4.'}),
           (
            'The third year made journeys under ____________ minutes '
            'free.', None, 'twenty',
            'Paragraph 3: free under twenty minutes, and journeys '
            'doubled.'),
-          ('Most of the new journeys were between the station and the '
-           '____________.', None, 'centre',
-           'And many were by first-time users.'),
+          ('Which is the best heading for paragraph 4?',
+           ['Why the cost for each journey fell', 'The commonest complaint', 'Two hundred extra bicycles', 'First-time users'],
+           0, 'The fixed cost of the stands divided by more journeys.',
+           {1: 'The commonest complaint is paragraph 1.', 2: 'The extra bicycles are paragraph 2.', 3: 'The first-time users are paragraph 3.'}),
           ('Cost per journey fell to ____________ pence by the third '
            'year.', None, 'thirty-five',
            'Down from four pounds twenty in the first.')])],
@@ -754,7 +763,7 @@ UNIT = dict(
    listen=[
     dict(heading='A canal volunteer on operating a lock',
          part='Part 4',
-         task='A talk to new volunteers · note completion', band='l4',
+         task='A talk to new volunteers · sentence completion and short answer', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'You will each work a lock on your own by the end '
@@ -967,7 +976,7 @@ UNIT = dict(
            'drivers.')])],
    listen=[
     dict(heading='Two councillors on free buses', part='Part 3',
-         task='A discussion between two councillors · note completion', band='l3',
+         task='A discussion between two councillors · multiple choice, sentence completion and short answer', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You are voting opposite ways on free buses. Give '

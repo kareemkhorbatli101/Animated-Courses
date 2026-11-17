@@ -80,8 +80,10 @@ UNIT = dict(
          items=[
           ('The exhibition ends on ____________ June.', None, '18',
            'It opens on 4 March, the notice says.'),
-          ('Entry is by ____________ ticket, in half-hour slots.',
-           None, 'timed', 'Although you may stay as long as you like.'),
+          ('A visitor must leave at the end of the half-hour slot.',
+           ['True', 'False', 'Not Given'], 1,
+           'You may stay as long as you like once inside.',
+           {0: 'The slot fixes when you go in, not when you leave.', 2: 'The notice says so in the same sentence.'}),
           ('A reduced ticket costs ____________ pounds.', None, 'nine',
            'Against fourteen pounds at the full price.'),
           (
@@ -269,7 +271,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='The Great Wave: a gallery label',
-         kind='Gallery label', task='Note completion and multiple choice',
+         kind='Gallery label', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 16-21',
          paras=[
           'The Great Wave off Kanagawa was made about 1831. It is not a '
@@ -289,27 +291,34 @@ UNIT = dict(
           'but rowing, and the mountain behind sits perfectly still. '
           'The print is about scale, not catastrophe.'],
          items=[
-          ('The work was made about ____________.', None, '1831',
-           'And it is a print rather than a painting.'),
+          ('The Great Wave was made about',
+           ['1731', '1831', '1931', '1631'], 1,
+           'And it is a print rather than a painting.',
+           {0: '1731 is a century before the date on the label.', 2: '1931 is a century after the date on the label.', 3: '1631 is two centuries before it.'}),
           ('Several thousand ____________ were taken from the '
            'blocks.', None, 'impressions',
            'They were taken during the artist’s lifetime.'),
-          (
-           'The original price was compared to a double helping of '
-           '____________.', None, 'noodles',
-           'It was a cheap, popular image.'),
+          ('The original price was about that of',
+           ['a small painting', 'a double helping of noodles', 'a week\'s wages', 'a block of wood'],
+           1, 'It was a cheap, popular image when it was made.',
+           {0: 'The label contrasts it with a painting; it is a print.', 2: 'A week\'s wages would make it expensive, not cheap.', 3: 'The blocks are what it was printed from, not its '
+               'price.'}),
           ('Where did the idea that it is a masterpiece come from?',
            ['Japan', 'Europe', 'the artist', 'the gallery'], 1,
            'The label says it came later and from Europe.',
            {0: 'The print was made and sold cheaply in Japan.', 2: 'The artist sold it as a cheap popular image.', 3: 'The gallery only reports where the idea came from.'}),
-          ('Later impressions have ____________ colour.', None,
-           'paler', 'Because the blocks wear with use.'),
+          ('Later impressions differ from early ones because',
+           ['the paper is thicker', 'the blocks wear with use', 'the colours were changed', 'they were made in Europe'],
+           1,
+           'So early impressions show sharper lines and deeper colour.',
+           {0: 'The paper is not mentioned anywhere on the label.', 2: 'Nobody changed the colours; the blocks themselves wore '
+               'down.', 3: 'Europe is where the idea of a masterpiece came from.'}),
           ('The crews in the boats are ____________, not panicking.',
            None, 'rowing',
            'Which is why the label says the print is about scale.')])],
    listen=[
     dict(heading='Two visitors discuss a painting', part='Part 3',
-         task='A discussion between two visitors · note completion', band='l3',
+         task='A discussion between two visitors · matching', band='l3',
          qtype='Questions 22-27',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -511,7 +520,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Why a kettle has a wide handle',
-         kind='Short article', task='Sentence completion and matching features',
+         kind='Short article', task='Matching headings and matching features',
          band='gt_work', qtype='Questions 28-33',
          skill=('A design article is read for the reason behind each '
                 'feature',
@@ -537,8 +546,12 @@ UNIT = dict(
           'invisible when it is right, and the only thing you notice '
           'when it is wrong.'],
          items=[
-          ('A full kettle weighs about ____________ kilograms.', None,
-           'two', 'Paragraph 1, hanging from four fingers.'),
+          ('Which is the best heading for paragraph 1?',
+           ['Why the handle is wide', 'Why the spout is shaped', 'Why the lid opens backwards', 'Why good design goes unnoticed'],
+           0,
+           'Two kilograms on four fingers, and what a narrow handle '
+           'does.',
+           {1: 'Why the spout is shaped is paragraph 2.', 2: 'Why the lid opens backwards is paragraph 3.', 3: 'Why good design goes unnoticed is the last sentence.'}),
           ('Which feature prevents pain in the hand?',
            ['the wide handle', 'the shaped spout', 'the lid', 'the base'],
            0, 'Paragraph 1: a narrow handle concentrates the weight.',
@@ -548,17 +561,21 @@ UNIT = dict(
            ['the wide handle', 'the shaped spout', 'the lid', 'the base'],
            1, 'Paragraph 2: the flow is broken into one stream.',
            {0: 'The wide handle prevents pain in the hand.', 2: 'The lid keeps steam away from the hand.', 3: 'The base is not discussed in the passage at all.'}),
-          ('A kettle that cannot be poured accurately is '
-           '____________ more often.', None, 'returned',
-           'Paragraph 2, more often than an ugly one.'),
+          ('Which is the best heading for paragraph 2?',
+           ['Weight and the hand', 'Pouring, and why returns matter', 'Steam and the hand', 'The price of a kettle'],
+           1,
+           'A single stream, and what a spreading one costs the shop.',
+           {0: 'Weight and the hand is paragraph 1.', 2: 'Steam and the hand is paragraph 3.', 3: 'No price for a kettle is given anywhere.'}),
           ('Which feature keeps steam away from the hand?',
            ['the wide handle', 'the shaped spout', 'the lid', 'the base'],
            2, 'Paragraph 3: it opens away from the handle.',
            {0: 'The wide handle prevents pain in the hand.', 1: 'The shaped spout stops water going over the edge of a '
                'cup.', 3: 'The base is not discussed in the passage at all.'}),
-          ('Good design in a kitchen is ____________ when it is '
-           'right.', None, 'invisible',
-           'Paragraph 3, and noticed only when wrong.')])],
+          ('Which is the best heading for paragraph 3?',
+           ['The lid, and the rule behind all of it', 'How much a full kettle weighs', 'Accurate pouring', 'Elegance in the kitchen'],
+           0,
+           'The lid opens away from the hand, and design is invisible.',
+           {1: 'How much a full kettle weighs is paragraph 1.', 2: 'Accurate pouring is paragraph 2.', 3: 'Elegance is what paragraph 2 says this is not about.'})])],
    listen=[
     dict(heading='A short talk on chair design', part='Part 2',
          task='One speaker describing a design problem · note completion', band='l2',
@@ -781,7 +798,7 @@ UNIT = dict(
            'Paragraph 4: somebody can undo them in fifty years.')])],
    listen=[
     dict(heading='A conservator explains her work', part='Part 4',
-         task='A talk to visiting students · note completion', band='l4',
+         task='A talk to visiting students · short answer and sentence completion', band='l4',
          qtype='Questions 47-52',
          script=[
           ('Speaker', 'People think my job is cleaning. About a tenth '
@@ -991,7 +1008,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two students argue about value in art',
          part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · multiple choice, short answer and sentence completion', band='l3',
          qtype='Questions 60-65',
          script=[
           ('Tutor', 'You disagreed in the seminar. Put it properly.'),

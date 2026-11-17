@@ -40,7 +40,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Bexley Stores: signs at the till',
-         kind='Shop notices', task='Matching features and short answer',
+         kind='Shop notices', task='Matching features and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('Short notices are read for the one word that differs',
                 ['Four notices usually say four different things about '
@@ -200,7 +200,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Half price this week: a sale poster',
-         kind='Poster', task='Sentence completion and short answer',
+         kind='Poster', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          qkind=('note/table/flow-chart completion',),
          paras=[
@@ -350,7 +350,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Returns: what you need to know',
-         kind='Notice', task='Sentence completion, short answer and matching features',
+         kind='Notice', task='Matching headings, short answer and matching features',
          band='gt_work', qtype='Questions 21-25',
          skill=('A policy is read for the exception, not the rule',
                 ['The first line gives the normal rule. The questions '
@@ -393,7 +393,7 @@ UNIT = dict(
            {0: 'Coats may be returned within fourteen days.', 1: 'Electrical goods may be returned with their parts.', 3: 'Books are not among the exceptions in paragraph 4.'})])],
    listen=[
     dict(heading='Returning a jacket', part='Part 1',
-         task='A conversation at a customer desk · note completion', band='l1',
+         task='A conversation at a customer desk · short answer and sentence completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Desk', 'Good morning. How can I help?'),
@@ -619,7 +619,7 @@ UNIT = dict(
            None, 'window', 'Paragraph 3, which is when goods spread.')])],
    listen=[
     dict(heading='A talk about family spending', part='Part 4',
-         task='A short lecture to first-year students · note completion', band='l4',
+         task='A short lecture to first-year students · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to give you one law, and it is as '
@@ -818,7 +818,7 @@ UNIT = dict(
            'offer.', None, 'two', 'Paragraph 3, as the dull defence.')])],
    listen=[
     dict(heading='Two shoppers disagree', part='Part 3',
-         task='A discussion between two students · sentence completion and short answer', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

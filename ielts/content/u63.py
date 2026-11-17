@@ -40,7 +40,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='The Okoro family: a short profile',
-         kind='Short profile', task='Short answer and True/False/Not Given',
+         kind='Short profile', task='True/False/Not Given and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A profile is read for who does what',
                 ['Names first. Write them in a list down the side of '
@@ -221,7 +221,7 @@ UNIT = dict(
            'Paragraph 3, and telephone the number.')])],
    listen=[
     dict(heading='Describing a missing bag and its owner', part='Part 1',
-         task='A conversation at a lost property desk · note completion', band='l1',
+         task='A conversation at a lost property desk · short answer and sentence completion', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Desk', 'Lost property. What have you lost?'),
@@ -342,7 +342,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Who does what: a family timetable',
-         kind='Timetable', task='Sentence completion and short answer',
+         kind='Timetable', task='Matching headings and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('A timetable is read down a column, not across a line',
                 ['Find the column the question is about first. Most '
@@ -594,7 +594,7 @@ UNIT = dict(
            'Paragraph 3, against a week to be useful on a farm.')])],
    listen=[
     dict(heading='A talk about family size', part='Part 4',
-         task='A short lecture to first-year students · note completion', band='l4',
+         task='A short lecture to first-year students · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I want to start with a number that surprises '
@@ -787,7 +787,7 @@ UNIT = dict(
            'Paragraph 3, and everything can be read again.')])],
    listen=[
     dict(heading='A conversation about a neighbour', part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

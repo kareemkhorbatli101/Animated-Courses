@@ -52,7 +52,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading="This week's forecast",
-         kind='Forecast chart', task='Note completion',
+         kind='Forecast chart', task='True/False/Not Given and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A forecast is read down the day you need',
                 ['Find the day first, then the thing: rain, wind, '
@@ -219,7 +219,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='What to pack: a list for a cold country',
-         kind='Packing list', task='Short answer, sentence completion and matching features',
+         kind='Packing list', task='Short answer, note completion and matching features',
          band='gt_short', qtype='Questions 11-15',
          qkind=('note/table/flow-chart completion',),
          paras=[
@@ -382,7 +382,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Flood warning: what to do',
-         kind='Public notice', task='Sentence completion and short answer',
+         kind='Public notice', task='Matching headings and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('An emergency notice is read for the order of actions',
                 ['Find what to do first and what never to do. Those '
@@ -426,7 +426,7 @@ UNIT = dict(
            'And wait for the council on the water supply.')])],
    listen=[
     dict(heading='A flood warning announcement', part='Part 2',
-         task='A public announcement · note completion', band='l2',
+         task='A public announcement · short answer and sentence completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Announcer', 'This is a flood warning for properties on Mill '
@@ -664,7 +664,7 @@ UNIT = dict(
            'Paragraph 3, depending which way each faces.')])],
    listen=[
     dict(heading='A talk about rain and mountains', part='Part 4',
-         task='A short lecture to first-year students · note completion', band='l4',
+         task='A short lecture to first-year students · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Here is a fact that sounds impossible. Two sides '
@@ -873,7 +873,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two neighbours talk about hotter summers',
          part='Part 3',
-         task='A discussion between two neighbours · note completion', band='l3',
+         task='A discussion between two neighbours · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

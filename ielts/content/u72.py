@@ -77,8 +77,10 @@ UNIT = dict(
          items=[
           ('The season ends on ____________ December.', None, '7',
            'The season begins on 14 September.'),
-          ('Sunday afternoon concerts begin at ____________.', None,
-           'three', 'Other concerts begin at half past seven.'),
+          ('Every concert in the season begins at the same time.',
+           ['True', 'False', 'Not Given'], 1,
+           'The Sunday afternoon series begins at three.',
+           {0: 'Two starting times are given, not one.', 2: 'Both times are printed in the first paragraph.'}),
           ('There is a lift to the gallery.',
            ['True', 'False', 'Not Given'], 1,
            'The text says the gallery is a steep climb and there is no '
@@ -97,7 +99,7 @@ UNIT = dict(
            'duplicate bookings',
            'Which is why people should telephone rather than rebook.')]),
     dict(heading='How to collect your tickets',
-         kind='Information page', task='Note completion',
+         kind='Information page', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 6-10',
          paras=[
           'The box office opens at ten on concert days and at noon '
@@ -111,11 +113,15 @@ UNIT = dict(
           'name on the card is checked against the booking, and a '
           'replacement is printed while you wait.'],
          items=[
-          ('The box office opens at ____________ on concert days.',
-           None, 'ten', 'And at noon on days without a concert.'),
-          ('It closes ____________ minutes after the concert begins.',
-           None, 'fifteen',
-           'After which a ticket waits until the interval.'),
+          ('On a day with no concert the box office opens at',
+           ['ten', 'noon', 'half past seven', 'three'], 1,
+           'And at ten on the days when there is a concert.',
+           {0: 'Ten is the opening time on concert days.', 2: 'Half past seven is when most concerts begin.', 3: 'Three is when the Sunday series begins.'}),
+          ('A ticket not collected before the box office closes',
+           ['is posted out', 'waits until the interval', 'is cancelled', 'must be paid for again'],
+           1, 'The office closes fifteen minutes after the start.',
+           {0: 'The page says plainly that tickets are not posted.', 2: 'Unclaimed tickets are held for the whole season.', 3: 'Nothing is said about paying twice; that is the '
+               'duplicate booking problem.'}),
           ('Unclaimed tickets are held for the whole ____________.',
            None, 'season',
            'And can be collected at any later concert.'),
@@ -123,10 +129,12 @@ UNIT = dict(
            'Tickets are not posted because the post is slower than the '
            '____________ is long.', None, 'season',
            'The information page says so directly.'),
-          (
-           'If you lose a ticket, bring the ____________ you paid '
-           'with.', None, 'card',
-           'The name is checked and a replacement printed.')])],
+          ('Somebody who has lost a ticket should bring',
+           ['a printed receipt', 'the card they paid with', 'a form of photographic identification', 'the email they were sent'],
+           1, 'The name on it is checked against the booking.',
+           {0: 'No receipt is mentioned on the page.', 2: 'The check is against the card, not against a '
+               'photograph.', 3: 'The email is the ticket itself, which is what has been '
+               'lost.'})])],
    listen=[
     dict(heading='Booking seats by telephone', part='Part 1',
          task='A telephone booking · note completion', band='l1',
@@ -509,7 +517,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Two listeners, two habits',
-         kind='Two short profiles', task='Matching features, sentence completion and multiple choice',
+         kind='Two short profiles', task='Matching features, matching headings and multiple choice',
          band='gt_work', qtype='Questions 29-34',
          paras=[
           'Dele listens to about three hours of music a day, almost all '
@@ -540,23 +548,28 @@ UNIT = dict(
            ['Dele', 'Marta', 'both', 'neither'], 1,
            'And plays each one many times.',
            {0: 'Dele has never owned a record.', 2: 'Only Marta buys records; Dele never has.', 3: 'Marta buys about ten records a year.'}),
-          ('Dele says he now follows an ____________ rather than an '
-           'artist.', None, 'idea',
-           'One kind of song across sixty years, for example.'),
-          ('Marta says paying for something makes her listen '
-           '____________.', None, 'properly',
-           'Which she admits is illogical.'),
+          ('Which is the best heading for paragraph 1?',
+           ['Three hours a day, and what changed', 'Forty minutes, and nothing else at the same time', 'The one thing they agree about', 'Children, jobs and spare attention'],
+           0,
+           'Dele listens while doing other things and follows an idea.',
+           {1: 'Forty minutes and nothing else is paragraph 2.', 2: 'The point they agree about is paragraph 3.', 3: 'Children and jobs come in paragraph 3.'}),
+          ('Which is the best heading for paragraph 2?',
+           ['Streaming and four seconds', 'Paying, and listening properly', 'Sixty years of one kind of song', 'Discovering music at twenty'],
+           1, 'Ten records a year, played many times each.',
+           {0: 'Streaming and the four seconds are paragraph 1.', 2: 'Sixty years of one kind of song is paragraph 1.', 3: 'Discovering music at twenty is paragraph 3.'}),
           ('What do both agree about?',
            ['new music is worse', 'records sound better', 'they listen less than at twenty', 'streaming is too cheap'],
            2, 'And both say it is about available attention.',
            {0: 'Neither of them says new music is worse.', 1: 'Sound quality is not what they agree about.', 3: 'Nothing is said about the price of streaming.'}),
-          ('They think the years for discovering music are the years '
-           'with time nobody else ____________.', None, 'wants',
-           'The last sentence of the passage.')])],
+          ('Which is the best heading for paragraph 3?',
+           ['Where the attention went', 'Records against streaming', 'An idea rather than an artist', 'The cost of a record'],
+           0, 'Neither listens as at twenty, and both blame attention.',
+           {1: 'Records against streaming is the contrast in the first '
+               'two paragraphs.', 2: 'An idea rather than an artist is paragraph 1.', 3: 'No cost of a record is given anywhere.'})])],
    listen=[
     dict(heading='Two friends disagree about live music',
          part='Part 3',
-         task='A discussion between two friends · note completion', band='l3',
+         task='A discussion between two friends · matching', band='l3',
          qtype='Questions 35-40',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -804,7 +817,7 @@ UNIT = dict(
            'Paragraph 4: bad speakers spoil a good recording.')])],
    listen=[
     dict(heading='Inside a recording studio', part='Part 4',
-         task='A talk to visiting students · note completion', band='l4',
+         task='A talk to visiting students · short answer and sentence completion', band='l4',
          qtype='Questions 48-53',
          script=[
           ('Speaker', 'Everything in this room exists to solve one '
@@ -1020,7 +1033,7 @@ UNIT = dict(
            'Paragraph 4, which nobody calls a treatment.')])],
    listen=[
     dict(heading='A psychologist on music and memory', part='Part 4',
-         task='A short lecture · note completion', band='l4', qtype='Questions 61-66',
+         task='A short lecture · multiple choice, sentence completion and short answer', band='l4', qtype='Questions 61-66',
          script=[
           ('Speaker', 'I want to start with the most replicated finding '
            'in my field that nobody outside it has heard of. Ask a '

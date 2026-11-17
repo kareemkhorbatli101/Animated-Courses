@@ -236,7 +236,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Before it was printed',
-         kind='Short article', task='Multiple choice and note completion',
+         kind='Short article', task='Multiple choice, True/False/Not Given and sentence completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'In March a reporter was sent a photograph of a flooded '
@@ -264,26 +264,32 @@ UNIT = dict(
            ['one day', 'two days', 'four days', 'two weeks'], 2,
            'And the four days of checking are the story.',
            {0: 'One day is far shorter than the wait described.', 1: 'Two days is half the wait paragraph 1 reports.', 3: 'Two weeks is much longer than the four days.'}),
-          ('The first check was the bare ____________ in the '
-           'background.', None, 'trees',
-           'Which do not occur in that town in March.'),
-          ('The photograph’s own data gave the month as '
-           '____________.', None, 'November',
-           'Which the writer says is suggestive but not '
-           'conclusive.'),
+          ('The bare trees alone proved the photograph was old.',
+           ['True', 'False', 'Not Given'], 1,
+           'The trees made it a November picture only with the data.',
+           {0: 'The passage calls the trees the simplest check, not a '
+               'proof.', 2: 'The passage says what each check settled.'}),
+          ('Data in a photograph can be changed.',
+           ['True', 'False', 'Not Given'], 0,
+           'Which is why the month alone was not conclusive.',
+           {1: 'The passage says data can be changed.', 2: 'Paragraph 2 says so in those words.'}),
           (
            'The reporter asked whether the hall ____________ had been '
            'replaced.', None, 'floor',
            'A question with a checkable answer.'),
-          ('The floor was replaced in ____________.', None,
-           'December', 'And the photograph showed the old floor.'),
+          (
+           'The hall floor had been replaced before the photograph was '
+           'taken.', ['True', 'False', 'Not Given'], 1,
+           'The photograph showed the old floor, replaced in December.',
+           {0: 'The photograph shows the floor that was later '
+               'replaced.', 2: 'Paragraph 3 gives both the month and the floor.'}),
           ('The editor preferred the question "what would be '
            '____________ if it were?"', None, 'different',
            'Rather than "is this true?", which invites an '
            'opinion.')])],
    listen=[
     dict(heading='Two students on checking a story', part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -759,7 +765,7 @@ UNIT = dict(
            'Paragraph 4: eighty centimetres is often enough.')])],
    listen=[
     dict(heading='An engineer on home networks', part='Part 4',
-         task='A talk to trainee engineers · note completion', band='l4',
+         task='A talk to trainee engineers · sentence completion and short answer', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'You will spend your first year being sent to '
@@ -911,7 +917,7 @@ UNIT = dict(
    read=[
     dict(heading='The correction nobody read',
          kind='Short factual article',
-         task='Note completion and multiple choice',
+         task='Matching headings, sentence completion and multiple choice',
          band='acad', qtype='Questions 49-55',
          paras=[
           'In 2017 a regional paper printed a front-page story saying '
@@ -947,20 +953,26 @@ UNIT = dict(
           'any year it had been asked about, and several respondents '
           'mentioned the corrections unprompted as their reason.'],
          items=[
-          ('The bus route was being ____________.', None, 'altered',
-           'Paragraph 1: altered, not withdrawn.'),
+          ('Which is the best heading for paragraph 1?',
+           ['A wrong story and a quiet correction', 'Telephoning two hundred readers', 'Changing where a correction goes', 'The fear inside the building'],
+           0, 'Eight days later, in a box on page two.',
+           {1: 'Telephoning the readers is paragraph 2.', 2: 'Changing where a correction goes is paragraph 3.', 3: 'The fear inside the building is paragraph 4.'}),
           ('The correction appeared ____________ days later.', None,
            'eight', 'Paragraph 1, in a box on page two.'),
           ('How many readers were telephoned?',
            ['two hundred', 'one hundred', 'fifty', 'five hundred'], 0,
            'Paragraph 2, three weeks after the correction.',
            {1: 'One hundred is half the sample described.', 2: 'Fifty is a quarter of the sample described.', 3: 'Five hundred is more than twice the sample.'}),
-          ('____________ per cent could recall a correction '
-           'appearing.', None, 'Four',
-           'Paragraph 2, among those who remembered the story.'),
-          ('Recall rose to ____________ per cent after the change in '
-           'practice.', None, 'thirty-one',
-           'Paragraph 3, when corrections matched the original.'),
+          ('Which is the best heading for paragraph 2?',
+           ['What the survey found', 'The two stops that were removed', 'Trust higher than in any year', 'Matching the column width'],
+           0,
+           'Four per cent recalled a correction; nine were still '
+           'wrong.',
+           {1: 'The two stops are paragraph 1.', 2: 'Trust higher than in any year is paragraph 4.', 3: 'Matching the column width is paragraph 3.'}),
+          ('Which is the best heading for paragraph 3?',
+           ['What the study actually showed, and what followed', 'A correction on page two', 'Nine per cent who were still wrong', 'Respondents who mentioned it unprompted'],
+           0, 'Place and size, and recall of thirty-one per cent.',
+           {1: 'The correction on page two is paragraph 1.', 2: 'The nine per cent are paragraph 2.', 3: 'The unprompted respondents are paragraph 4.'}),
           ('The argument was about the fear of looking ____________.',
            None, 'unreliable',
            'Paragraph 4: not about accuracy, which nobody opposed.'),
@@ -969,7 +981,7 @@ UNIT = dict(
            'Paragraph 4, as a reason for trusting the paper.')])],
    listen=[
     dict(heading='Two editors on corrections', part='Part 3',
-         task='A discussion between two editors · note completion', band='l3',
+         task='A discussion between two editors · multiple choice, sentence completion and short answer', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You run two papers with opposite policies on '

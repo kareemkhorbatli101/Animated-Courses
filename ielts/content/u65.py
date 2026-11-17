@@ -60,7 +60,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Fares and times: a station board',
-         kind='Timetable', task='Note completion',
+         kind='Timetable', task='True/False/Not Given and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A board is read across one line only',
                 ['Find the line the question is about, then put a '
@@ -248,7 +248,7 @@ UNIT = dict(
            'fire station', 'Paragraph 3, at the end of the street.')])],
    listen=[
     dict(heading='Directions to the sports centre', part='Part 1',
-         task='A conversation in the street · note completion', band='l1',
+         task='A conversation in the street · plan labelling', band='l1',
          qtype='Questions 16-20',
          bank=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
          banklabel='Write the letter from the plan of the streets',
@@ -401,7 +401,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='What to do if your train is cancelled',
-         kind='Notice', task='Note completion',
+         kind='Notice', task='Matching headings and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A notice about problems is read for who pays',
                 ['Find the word refund, and the word unless beside it. '
@@ -444,7 +444,7 @@ UNIT = dict(
                'paragraph 1.'})])],
    listen=[
     dict(heading='A delayed bus', part='Part 2',
-         task='An announcement at a bus station · note completion', band='l2',
+         task='An announcement at a bus station · short answer and sentence completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Announcer', 'This is an announcement for passengers waiting '
@@ -629,7 +629,7 @@ UNIT = dict(
    read=[
     dict(heading='Four ways a city moves people',
          kind='Short factual article',
-         task='Short answer, sentence completion and matching information',
+         task='Short answer, note completion and matching information',
          band='acad', qtype='Questions 31-36',
          qkind=('note/table/flow-chart completion',),
          paras=[
@@ -678,7 +678,7 @@ UNIT = dict(
            'Paragraph 3, which is what decided its use.')])],
    listen=[
     dict(heading='A talk about the new tram', part='Part 4',
-         task='A short lecture at a public meeting · short answer and sentence completion', band='l4',
+         task='A short lecture at a public meeting · short answer and multiple choice', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Three questions come up every time a tram is '
@@ -878,7 +878,7 @@ UNIT = dict(
            {0: 'The number of visitors stays the same, spread wider.', 1: 'A shop selling shoes survives, so shops are not fewer.', 3: 'Spreading visitors keeps young residents in the town.'})])],
    listen=[
     dict(heading='Planning a weekend away', part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · plan labelling', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

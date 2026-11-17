@@ -85,9 +85,10 @@ UNIT = dict(
            'The guide says the letter O is a zero throughout the '
            'password.',
            {1: 'False contradicts the note about the password.', 2: 'Not Given is wrong because the note says exactly this.'}),
-          ('If the light is steady red, unplug the power for '
-           '____________ seconds.', None, 'thirty',
-           'Then begin again from the second step.')]),
+          ('A steady red light means the power should be unplugged.',
+           ['True', 'False', 'Not Given'], 0,
+           'For thirty seconds, then begin again from step two.',
+           {1: 'The guide gives exactly that instruction.', 2: 'The instruction is printed in the last paragraph.'})]),
     dict(heading='If it does not connect',
          kind='Troubleshooting page', task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 6-10',
@@ -322,7 +323,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two parents disagree about screen time',
          part='Part 3',
-         task='A discussion between two parents · note completion', band='l3',
+         task='A discussion between two parents · matching', band='l3',
          qtype='Questions 23-28',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -562,7 +563,7 @@ UNIT = dict(
            'Paragraph 3, the last sentence.')])],
    listen=[
     dict(heading='A repair cafe volunteer explains', part='Part 2',
-         task='One speaker describing a project · note completion', band='l2',
+         task='One speaker describing a project · short answer and sentence completion', band='l2',
          qtype='Questions 35-40',
          script=[
           ('Speaker', 'We open on the first Saturday of the month, from '
@@ -730,8 +731,23 @@ UNIT = dict(
    read=[
     dict(heading='The cycle inside a refrigerator',
          kind='Short factual article',
-         task='Note completion and matching features',
+         task='Diagram labelling and matching features',
          band='acad', qtype='Questions 41-47',
+         figure={'flows': [('P', 'C', 'hot gas'),
+                     ('C', 'V', 'liquid'),
+                     ('V', 'I', 'cold liquid'),
+                     ('I', 'P', 'gas'),
+                     ('C', 'K', 'heat out'),
+                     ('F', 'I', 'heat in')],
+           'kind': 'device',
+           'parts': [('P', 0.02, 0.6, 0.2, 0.24, 'The pump'),
+                     ('C', 0.02, 0.1, 0.2, 0.24, 'The coils at the back'),
+                     ('V', 0.42, 0.1, 0.2, 0.24, 'The narrow opening'),
+                     ('I', 0.42, 0.6, 0.2, 0.24, 'The pipes inside'),
+                     ('K', 0.76, 0.1, 0.2, 0.24, 'The kitchen air'),
+                     ('F', 0.76, 0.6, 0.2, 0.24, 'The food')],
+           'sub': 'the same material goes round all four stages',
+           'title': 'The circuit inside a refrigerator'},
          paras=[
           'A fridge does not make cold. There is no such thing as cold '
           'to make: there is only heat, and a fridge is a machine for '
@@ -780,7 +796,7 @@ UNIT = dict(
    listen=[
     dict(heading='A technician explains the cooling cycle',
          part='Part 4',
-         task='A talk to trainee technicians · note completion and short answer', band='l4',
+         task='A talk to trainee technicians · diagram labelling', band='l4',
          qtype='Questions 48-53',
          bank=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
          banklabel='Write the letter from the diagram of the refrigerator',
@@ -948,7 +964,7 @@ UNIT = dict(
    read=[
     dict(heading='Three machines that changed housework',
          kind='Short factual article',
-         task='Short answer, sentence completion and matching information',
+         task='Short answer, matching headings and matching information',
          band='acad', qtype='Questions 54-60',
          paras=[
           'If you ask which machine saved the most human time, the '
@@ -984,15 +1000,18 @@ UNIT = dict(
            'machine does the writer name?', None,
            'the fridge',
            'Paragraph 1, rather than the vacuum or dishwasher.'),
-          (
-           'The three removed work that was measured in ____________ a '
-           'day.', None, 'hours',
-           'Paragraph 1, rather than minutes.'),
-          ('Surveys from the ____________ put water carrying at '
-           'several hours daily.', None, 'nineteen-twenties',
-           'Paragraph 2, in rural households.'),
-          ('Hand-washing clothes took a full ____________ a week.',
-           None, 'day', 'Paragraph 3, and it was heavy and wet.'),
+          ('Which is the best heading for paragraph 2?',
+           ['Running water, the largest saving', 'The washing machine and the standard', 'Rising standards and the one exception', 'Which machine saved the most time'],
+           0, 'Several hours a day, carried by a woman or a child.',
+           {1: 'The washing machine is paragraph 3.', 2: 'Rising standards and the exception are paragraph 4.', 3: 'Which machine saved most is the question of paragraph '
+               '1.'}),
+          ('In which decade did surveys measure water carrying?', None,
+           'the nineteen-twenties', 'Paragraph 2, in rural households.'),
+          ('Which is the best heading for paragraph 3?',
+           ['A tap that was never called a machine', 'A day a week, and a rising standard', 'The journey the fridge removed', 'The three machines that mattered'],
+           1, 'Cleaner people rather than freer ones.',
+           {0: 'The tap that was never called a machine is paragraph '
+               '2.', 2: 'The journey the fridge removed is paragraph 4.', 3: 'The three machines are introduced in paragraph 1.'}),
           ('What did the washing machine change besides the hours?',
            None, 'the standard',
            'Paragraph 3: clothes were washed far more often.'),
@@ -1000,13 +1019,13 @@ UNIT = dict(
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
            'Rising standards followed labour-saving machines.',
            {0: 'Paragraph 2 names the three machines that mattered.', 1: 'Paragraph 3 is about who did the work before.'}),
-          (
-           'The fridge removed a daily ____________ rather than '
-           'raising a standard.', None, 'journey',
-           'Paragraph 4, and that time has stayed saved.')])],
+          ('Which is the best heading for paragraph 4?',
+           ['Why the saving was usually absorbed', 'Carrying every litre by hand', 'Hand-washing a household\'s clothes', 'The vacuum cleaner and the dishwasher'],
+           0, 'Rising standards absorbed it; the fridge did not.',
+           {1: 'Carrying every litre by hand is paragraph 2.', 2: 'Hand-washing clothes is paragraph 3.', 3: 'Those two are named in paragraph 1 as not the answer.'})])],
    listen=[
     dict(heading='A historian on the washing machine', part='Part 4',
-         task='A short lecture · note completion', band='l4', qtype='Questions 61-66',
+         task='A short lecture · multiple choice, sentence completion and short answer', band='l4', qtype='Questions 61-66',
          script=[
           ('Speaker', 'I am going to argue that the washing machine is '
            'the second most important machine ever installed in a '

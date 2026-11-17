@@ -48,7 +48,7 @@ UNIT = dict(
    read=[
     dict(heading='The Corner Cafe: menu and opening times',
          kind='Menu and notice',
-         task='Sentence completion, short answer and True/False/Not Given',
+         task='True/False/Not Given, sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A menu is read for the number beside the word',
                 ['Read the question first. It tells you whether you are '
@@ -206,7 +206,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading="Greenway Market: this week's prices",
-         kind='Price list', task='Sentence completion and short answer',
+         kind='Price list', task='Multiple choice, short answer and sentence completion',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Potatoes are sixty pence a kilogram this week, down from '
@@ -237,7 +237,7 @@ UNIT = dict(
            {0: 'The text names one morning, not every morning.', 2: 'Having no minimum is a separate fact about cards.', 3: 'Sunday is not mentioned in this text at all.'})])],
    listen=[
     dict(heading='At the market stall', part='Part 1',
-         task='A conversation at a market · note completion', band='l1',
+         task='A conversation at a market · short answer and sentence completion', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Seller', 'Morning. What can I get you?'),
@@ -367,7 +367,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Egg and tomato rice: a recipe card',
-         kind='Recipe', task='Sentence completion and short answer',
+         kind='Recipe', task='Matching headings, short answer and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A recipe is read for order and for amounts',
                 ['The verbs at the start of each line are the steps. '
@@ -569,7 +569,7 @@ UNIT = dict(
    read=[
     dict(heading='From the field to the shop',
          kind='Short factual article',
-         task='Sentence completion, matching features and multiple choice',
+         task='Note completion, matching features and multiple choice',
          band='acad', qtype='Questions 31-36',
          skill=('A process text is read for the order of its stages',
                 ['Find the stage words first: grown, cut, sent, sold. '
@@ -618,7 +618,7 @@ UNIT = dict(
            {0: 'A label does not change the price.', 2: 'The cold building keeps the food cold.', 3: 'A label does not make the food sell faster.'})])],
    listen=[
     dict(heading='A talk at the school farm', part='Part 4',
-         task='A short talk to visiting students · sentence completion and short answer', band='l4',
+         task='A short talk to visiting students · multiple choice and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Welcome to the school farm. We have forty '
@@ -817,7 +817,7 @@ UNIT = dict(
            'Paragraph 3, as more people worked away from home.')])],
    listen=[
     dict(heading='Two students talk about meals at home', part='Part 3',
-         task='A discussion between two students · sentence completion and matching', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

@@ -41,7 +41,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Evening classes: a course list',
-         kind='Course list', task='Note completion',
+         kind='Course list', task='Sentence completion and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A course list is read down the column you need',
                 ['Decide first whether the question is about the day, '
@@ -202,7 +202,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Classroom rules: a poster',
-         kind='Poster', task='Sentence completion and short answer',
+         kind='Poster', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          qkind=('note/table/flow-chart completion',),
          paras=[
@@ -373,7 +373,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='When you cannot hand work in on time',
-         kind='Notice', task='Note completion',
+         kind='Notice', task='Matching headings and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A deadline policy is read for the word before',
                 ['Nearly every rule here turns on whether you asked '
@@ -412,7 +412,7 @@ UNIT = dict(
            {1: 'The seven-day extension is paragraph 2.', 2: 'Asking before the deadline is paragraph 1.', 3: 'A genuine reason is mentioned in paragraph 2.'})])],
    listen=[
     dict(heading='Asking for more time', part='Part 1',
-         task='A conversation with a teacher · note completion', band='l1',
+         task='A conversation with a teacher · sentence completion and short answer', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Student', 'Could I ask for more time on the writing?'),
@@ -650,7 +650,7 @@ UNIT = dict(
            'failure', 'Paragraph 3, which is why it is rarely used.')])],
    listen=[
     dict(heading='A talk about remembering', part='Part 4',
-         task='A short lecture to new students · note completion', band='l4',
+         task='A short lecture to new students · multiple choice, short answer and sentence completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to tell you three things about '
@@ -856,7 +856,7 @@ UNIT = dict(
                'does not close it.'})])],
    listen=[
     dict(heading='Two students compare their schools', part='Part 3',
-         task='A discussion between two students · note completion', band='l3',
+         task='A discussion between two students · matching', band='l3',
          qtype='Questions 48-52',
          bank=['A', 'B', 'C'],
          reuse=True,

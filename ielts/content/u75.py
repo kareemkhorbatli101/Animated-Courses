@@ -62,7 +62,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Welcome to Ashfield: new residents guide',
-         kind='Council guide', task='Note completion',
+         kind='Council guide', task='True/False/Not Given and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A council guide is read for the deadline',
                 ['Nearly every item has a time limit. Find all of them '
@@ -84,16 +84,21 @@ UNIT = dict(
           'Boxes for glass, paper and tins are delivered within ten '
           'working days of your telling us you have arrived.'],
          items=[
-          ('You must tell the council within ____________ days.', None,
-           'twenty-one', 'Online or at the Mill Street office.'),
-          ('The office closes at ____________ on weekdays.', None,
-           'four', 'It opens at nine in the morning.'),
+          ('Telling the council late changes the size of the bill.',
+           ['True', 'False', 'Not Given'], 1,
+           'The bill is the same; only the time to pay is shorter.',
+           {0: 'The guide says the bill is the same either way.', 2: 'The guide answers this in the second paragraph.'}),
+          ('The Mill Street office is open on Saturday.',
+           ['True', 'False', 'Not Given'], 2,
+           'Weekday hours are given and no weekend hours are.',
+           {0: 'Only weekday opening is mentioned in the guide.', 1: 'The guide does not say it is closed either.'}),
           ('Council tax is charged from the day you ____________.',
            None, 'move in', 'Not from the day you tell the council.'),
-          (
-           'Registering for tax does not register you to ____________.',
-           None, 'vote',
-           'The tax list and the voting list are separate.'),
+          ('Paying council tax puts you on the voting list.',
+           ['True', 'False', 'Not Given'], 1,
+           'The two lists are separate, which is the commonest '
+           'complaint.',
+           {0: 'The guide says the opposite in so many words.', 2: 'The guide raises it as the commonest complaint.'}),
           ('Recycling boxes arrive within ____________ working days.',
            None, 'ten', 'After you tell the council you have '
            'arrived.')])],
@@ -276,7 +281,7 @@ UNIT = dict(
            'Which she calls a way of not answering them.')])],
    listen=[
     dict(heading='Two neighbours discuss the new flats', part='Part 3',
-         task='A discussion between two neighbours · note completion', band='l3',
+         task='A discussion between two neighbours · matching', band='l3',
          qtype='Questions 18-23',
          bank=['A', 'B', 'C'],
          reuse=True,
@@ -479,7 +484,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='The new cycle route: a map and key',
-         kind='Route description', task='Note completion and short answer',
+         kind='Route description', task='Plan labelling and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A route description is read in the order you would '
                 'travel it',
@@ -487,6 +492,22 @@ UNIT = dict(
                  'the order of the journey.',
                  'Junctions and crossings are where the questions '
                  'are.']),
+         figure={'key': [('Painted lane', 'building'),
+                   ('Separate path', 'new'),
+                   ('Loose stone', 'green')],
+           'kind': 'map',
+           'panels': [('From the station to the farmland',
+                       [(0.38, 0.84, 0.24, 0.1, 'Station', 'building'),
+                        (0.38, 0.62, 0.24, 0.09, 'Market', 'new'),
+                        (0.68, 0.56, 0.22, 0.09, 'School', 'new'),
+                        (0.38, 0.38, 0.24, 0.09, 'Bridge', 'new'),
+                        (0.38, 0.14, 0.24, 0.1, 'Old railway', 'green'),
+                        (0.38, 0.02, 0.24, 0.08, 'Farmland', 'green')],
+                       [(0.5, 0.84, 0.5, 0.62, 'Mill Street'),
+                        (0.0, 0.46, 1.0, 0.46, 'The bypass'),
+                        (0.5, 0.38, 0.5, 0.04, 'Old railway')])],
+           'sub': 'north is at the top; the key names each surface',
+           'title': 'The new cycle route'},
          paras=[
           'The route begins at the station and runs north along Mill '
           'Street, where it is a painted lane beside the traffic for '
@@ -689,7 +710,7 @@ UNIT = dict(
    read=[
     dict(heading='Stokeford, 1930 and today',
          kind='Short factual article',
-         task='Note completion and matching information',
+         task='Matching headings, sentence completion and matching information',
          band='acad', qtype='Questions 36-42',
          paras=[
           'In 1930 Stokeford was a village of twelve houses, a church, '
@@ -722,8 +743,10 @@ UNIT = dict(
           'that are busy are the ones beside the station rather than '
           'the ones in the middle.'],
          items=[
-          ('In 1930 the village had ____________ houses.', None,
-           'twelve', 'Paragraph 1, with a church, forge and station.'),
+          ('Which is the best heading for paragraph 2?',
+           ['The trains, and when the growth began', 'Twelve houses and a forge', 'Two estates and a long walk', 'What the plans do not show'],
+           0, 'Four trains a day, then two an hour, in the 1950s.',
+           {1: 'Twelve houses and the forge are paragraph 1.', 2: 'The estates and the walk are paragraph 3.', 3: 'What the plans do not show is paragraph 5.'}),
           ('About ____________ thousand people live there today.',
            None, 'four', 'Paragraph 1, and the church still stands.'),
           ('Growth began when the trains became ____________.', None,
@@ -735,16 +758,20 @@ UNIT = dict(
            'The estates were built outward rather than along the '
            'railway.',
            {0: 'Paragraph 2 is about what the village had in 1930.', 2: 'Paragraph 4 is about where people shop now.'}),
-          ('The orchard became the ____________.', None, 'school',
-           'Paragraph 3, and the forge became shops.'),
+          ('Which is the best heading for paragraph 3?',
+           ['The bypass and the underpass', 'Building outward rather than along the line', 'A village of twelve houses', 'Where people work now'],
+           1, 'Two estates, and a fifteen-minute walk to the station.',
+           {0: 'The bypass and the underpass are paragraph 4.', 2: 'The village of twelve houses is paragraph 1.', 3: 'Where people work now is paragraph 5.'}),
           ('The bypass arrived in ____________.', None, '1998',
            'Paragraph 4, and did two things at once.'),
-          ('The fields on the southern side are now reached by a '
-           'single ____________.', None, 'underpass',
-           'Paragraph 4, which nobody enjoys after dark.')])],
+          ('Which is the best heading for paragraph 4?',
+           ['One road that did two things', 'The orchard and the forge', 'Trains every half hour', 'Working within a mile'],
+           0,
+           'It took the traffic out and cut off the southern fields.',
+           {1: 'The orchard and the forge are paragraph 3.', 2: 'The trains are paragraph 2.', 3: 'Working within a mile is paragraph 5.'})])],
    listen=[
     dict(heading='A local historian on the village', part='Part 4',
-         task='A talk to a local society · note completion', band='l4',
+         task='A talk to a local society · sentence completion and short answer', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'People ask me when Stokeford stopped being a '
@@ -948,7 +975,7 @@ UNIT = dict(
            'Paragraph 4, which is an invisible choice.')])],
    listen=[
     dict(heading='A planner on building upwards', part='Part 4',
-         task='A short talk · note completion', band='l4', qtype='Questions 56-61',
+         task='A short talk · multiple choice, sentence completion and short answer', band='l4', qtype='Questions 56-61',
          script=[
           ('Speaker', 'I am a planner, and I want to describe the three '
            'choices honestly, including the costs of the one I '
