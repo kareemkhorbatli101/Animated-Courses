@@ -452,24 +452,20 @@ UNIT = dict(
          items=[
           (
            'The penalty for not knowing the format is estimated at '
-           'about',
-           ['a quarter of a band', 'half a band', 'one band', 'two bands'],
-           1, 'Collected by four or five papers.',
-           {0: 'A quarter of a band is below the published estimate.', 2: 'A full band overstates the format penalty.', 3: 'Two bands is far beyond the estimate given.'}),
+           'about half a ____________.', None, 'band',
+           'Collected by four or five papers.'),
           (
            'The clearest sign that practice has not raised ability is '
            'that the gain',
            ['fades', 'does not show up outside the exam room', 'varies by section', 'cannot be measured'],
            1, 'As against a rise in the thing being sampled.',
            {0: 'Fading is not the sign he names.', 2: 'Variation by section is not the evidence he gives.', 3: 'The gain is measurable; it simply does not transfer.'}),
-          ('Washback is',
-           ['always harmful', 'not automatically bad', 'a marking error', 'rare'],
-           1, 'A test sampling reading at length improves teaching.',
-           {0: 'He says washback is not automatically bad.', 2: 'Washback is a teaching effect, not a marking error.', 3: 'He says every high-stakes test produces it.'}),
-          ('Washback goes wrong when what is sampled is',
-           ['too difficult', 'narrower than what is claimed', 'too long', 'badly marked'],
-           1, 'So teaching narrows to the sample.',
-           {0: 'Difficulty is not what makes washback harmful.', 2: 'Length is not the problem he identifies.', 3: 'Marking quality is not what goes wrong.'})]),
+          ('Washback is not ____________ bad.', None, 'automatically',
+           'A test sampling reading at length improves teaching.'),
+          (
+           'Washback goes wrong when what is sampled is ____________ '
+           'than what is claimed.', None, 'narrower',
+           'So teaching narrows to the sample.')]),
     dict(heading='Two teachers disagree about test preparation',
          part='Part 3',
          task='A discussion between two teachers · multiple choice', band='l3',
@@ -522,24 +518,19 @@ UNIT = dict(
            'that does not cost money.')],
          items=[
           (
-           'Ignatius states the strongest argument against his own '
-           'proposal, which is that students believe',
-           ['papers are too hard', 'papers are the course', 'reading is wasted', 'the fees are high'],
-           1, 'So the school may lose them to a competitor.',
-           {0: 'Difficulty of the papers is not the belief he cites.', 2: 'He does not say students think reading is wasted.', 3: 'Fees are not what the students object to.'}),
+           'The strongest argument against his own proposal is that '
+           'students believe papers are the ____________.',
+           None, 'course',
+           'So the school may lose them to a competitor.'),
           (
-           'Thandeka objects that their records show the flattening of',
-           ['the real gain', 'the measured gain', 'attendance', 'scores'],
-           1, 'Which she says is not the same thing.',
-           {0: 'The real gain is what she says they cannot see.', 2: 'Attendance is not what the records track here.', 3: 'Scores on their own papers are the measure, not the '
-               'point.'}),
-          ('The gain she thinks they cannot see is',
-           ['vocabulary', 'stamina for a long paper', 'speaking confidence', 'listening accuracy'],
-           1,
+           'Thandeka objects that their records show the flattening of '
+           'the ____________ gain.', None, 'measured',
+           'Which she says is not the same thing.'),
+          (
+           'The gain she thinks they cannot see is ____________ for a '
+           'long paper.', None, 'stamina',
            'Because papers are marked in sections on different '
-           'afternoons.',
-           {0: 'Vocabulary is not the gain she has in mind.', 2: 'Speaking confidence is not what papers five to eight '
-               'build.', 3: 'Listening accuracy is not the invisible gain.'}),
+           'afternoons.'),
           (
            'The half of Ignatius\u2019s case her objection does not touch '
            'is that',
@@ -549,15 +540,11 @@ UNIT = dict(
                'half.', 2: 'Expense of papers is not the argument he makes.', 3: 'Marking time is not part of his case.'}),
           (
            'She argues for keeping paper five because it is where '
-           'candidates meet',
-           ['harder passages', 'an unusual combination of question types', 'the full time limit', 'a new format'],
-           1, 'And combinations are what panics people.',
-           {0: 'Harder passages are not what the fifth paper adds.', 2: 'The full time limit comes earlier than paper five.', 3: 'A new format is not what the fifth introduces.'}),
-          ('Their agreement includes running a test of',
-           ['marking reliability', 'stamina', 'vocabulary growth', 'student satisfaction'],
-           1, 'With the whole paper in one sitting.',
-           {0: 'Marking reliability is not what they agree to test.', 2: 'Vocabulary growth is not the subject of the test.', 3: 'Satisfaction is not what the whole-paper sitting '
-               'measures.'})])],
+           'candidates meet an unusual ____________ of question types.',
+           None, 'combination',
+           'And combinations are what panics people.'),
+          ('Their agreement includes running a test of ____________.',
+           None, 'stamina', 'With the whole paper in one sitting.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Preparing',
     longturn=[('The thing I prepared for thoroughly is a driving theory test, '
@@ -848,24 +835,21 @@ UNIT = dict(
           ('Candidate A is reported at', ['7.0', '7.25', '7.5', '8.0'],
            2, 'From an average of 7.25, rounded.',
            {0: '7.0 is where C and D are reported.', 1: '7.25 is the unrounded average.', 3: '8.0 is one of A\u2019s section scores, not the band.'}),
-          ('Candidate A\u2019s sections span',
-           ['half a band', 'one band', 'two bands', 'three bands'], 3,
-           'From 8.5 in reading to 5.5 in writing.',
-           {0: 'Half a band is B\u2019s span, not A\u2019s.', 1: 'One band is more than B spans and less than A does.', 2: 'Two bands is the gap for A between band and lowest '
-               'section.'}),
-          ('C and D are both reported at 7.0 and their strengths are',
-           ['identical', 'the exact reverse of each other', 'in writing', 'unreported'],
-           1, 'Strongest in speaking against strongest in listening.',
-           {0: 'Their strengths are opposite, not identical.', 2: 'Writing is not where either is strongest.', 3: 'Both profiles are reported in full.'}),
+          ('Candidate A\u2019s sections span ____________ bands.',
+           None, 'three', 'From 8.5 in reading to 5.5 in writing.'),
+          (
+           'C and D are both reported at 7.0 and their strengths are '
+           'the exact ____________ of each other.', None,
+           'reverse',
+           'Strongest in speaking against strongest in listening.'),
           ('The candidate he says he would bet on is',
            ['A', 'B', 'D', 'E'], 3,
            'The only one whose band describes every section.',
            {0: 'A spans three bands, which is why he does not.', 1: 'B is close behind but not the one he names.', 2: 'D is five and a half in speaking.'}),
           (
            'A requirement of 7.0 overall with a 6.5 component minimum '
-           'admits', ['all five', 'four', 'two', 'one'], 2,
-           'Against all five on overall band alone.',
-           {0: 'All five is what the overall band alone admits.', 1: 'Four is not the number the component minimum admits.', 3: 'Two candidates clear the minimum, not one.'}),
+           'admits how many of the five?', None, 'two',
+           'Against all five on overall band alone.'),
           ('His criticism is directed at',
            ['the arithmetic', 'reading an average as a description of a profile', 'the section scores', 'the rounding rule'],
            1, 'Because an average cannot both compress and describe.',
@@ -1205,42 +1189,34 @@ UNIT = dict(
            'itself the most useful thing the question does.')],
          items=[
           (
-           'What a test measures, he says, is performance on four '
-           'tasks in',
-           ['two hours', 'two hours and nine minutes', 'three hours', 'a single sitting'],
-           1, 'Standing in for something bigger.',
-           {0: 'Two hours leaves out the nine minutes.', 2: 'Three hours is longer than the test he describes.', 3: 'A single sitting is not the figure he gives.'}),
+           'What a test measures is performance on four tasks in two '
+           'hours and ____________ minutes.', None, 'nine',
+           'Standing in for something bigger.'),
           (
            'Claiming academic reading while including nothing over '
-           'four hundred words is',
-           ['contamination', 'construct underrepresentation', 'unreliability', 'washback'],
-           1, 'As against the opposite failure.',
-           {0: 'Contamination is the opposite failure, as with '
-               'cricket.', 2: 'Unreliability concerns scoring the same candidate '
-               'twice.', 3: 'Washback is the effect on teaching.'}),
+           'four hundred words is construct ____________.',
+           None, 'underrepresentation',
+           'As against the opposite failure.'),
           ('The typical correlation with first-year outcomes is',
            ['0.1 to 0.2', '0.3 to 0.5', '0.6 to 0.7', 'above 0.8'], 1,
            'Which he calls informative rather than disappointing.',
            {0: '0.1 to 0.2 is lower than the literature reports.', 2: '0.6 to 0.7 is higher than any stable figure.', 3: 'Above 0.8 would determine individual decisions.'}),
           (
            'The standard error of measurement for most sections is '
-           'about',
-           ['a tenth of a band', 'a third of a band', 'half a band', 'a full band'],
-           1, 'So a reported 6.5 spans roughly 6.0 to 7.0.',
-           {0: 'A tenth of a band is smaller than the published error.', 2: 'Half a band is wider than the figure he gives.', 3: 'A full band would span 6.0 to 7.5 from a 6.5.'}),
+           'about a ____________ of a band.', None, 'third',
+           'So a reported 6.5 spans roughly 6.0 to 7.0.'),
           (
            'Candidates either side of a cut-off, he says, often differ '
            'by',
            ['a full band', 'less than the error of the instrument', 'more than a band', 'nothing measurable'],
            1, 'Which institutions do not sit with.',
            {0: 'A full band is larger than the usual difference.', 2: 'More than a band is not what he claims.', 3: 'The difference is measurable, just small.'}),
-          ('Leaving washback out of a validation omits',
-           ['a minor factor', 'the test\u2019s largest effect on the world', 'the construct', 'the reliability evidence'],
-           1,
+          (
+           'Leaving washback out of a validation omits the test\u2019s '
+           'largest ____________ on the world.', None,
+           'effect',
            'Which he calls the newest and most argued-over kind of '
-           'evidence.',
-           {0: 'He calls it the largest effect, not a minor factor.', 2: 'The construct is named before any evidence is '
-               'gathered.', 3: 'Reliability evidence is a separate kind.'})])],
+           'evidence.')])],
    speak=dict(
     part='Part 3', focus='What a score entitles you to say',
     followup=[(('You say you learned the bank, not the skill. What can a test '
@@ -1615,10 +1591,8 @@ UNIT = dict(
            {0: 'Reachability is not what she says they would lose.', 2: 'Acceptance of the standards is not the issue.', 3: 'Choosing the standards is not what candidates lose.'}),
           (
            'Szczepanski distinguishes four papers as a service from '
-           'twenty as',
-           ['a necessity', 'a sale', 'a standard', 'a formality'], 1,
-           'With everything after the fifth raising what he is paid.',
-           {0: 'Necessity is not what he calls the twenty.', 2: 'A standard is not the word he uses.', 3: 'A formality is not his description of the sale.'}),
+           'twenty as a ____________.', None, 'sale',
+           'With everything after the fifth raising what he is paid.'),
           ('He says he cannot sell only four because',
            ['examiners object', 'the student goes to the school selling twenty', 'parents complain', 'it costs more'],
            1, 'And nobody has found a way out without regulation.',

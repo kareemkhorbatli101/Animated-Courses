@@ -240,10 +240,10 @@ UNIT = dict(
            'captures most of what the sophisticated methods capture, at '
            'about a hundredth of the administrative cost.')],
          items=[
-          ('Additionality is the question of',
-           ['who pays', 'what would have happened without the payment', 'how much to pay', 'which species benefit'],
-           1, 'A counterfactual known only to the recipient.',
-           {0: 'Who pays is not what the term means.', 2: 'The level of payment is a separate question.', 3: 'Which species benefit is not the counterfactual.'}),
+          (
+           'Additionality is the question of what would have happened '
+           'without the ____________.', None, 'payment',
+           'A counterfactual known only to the recipient.'),
           (
            'In schemes that have been checked, how much goes to '
            'practices already being followed?',
@@ -257,13 +257,9 @@ UNIT = dict(
            {0: 'Those who must change most are least likely to apply.', 2: 'Farm size is not what she says predicts application.', 3: 'New entrants are not the group she identifies.'}),
           (
            'The speaker\u2019s own preference is to pay for practices that '
-           'are',
-           ['popular and cheap', 'expensive and rare', 'easy to monitor', 'required by law'],
-           1,
+           'are expensive and ____________.', None, 'rare',
            'Because nobody is already doing them, making payment '
-           'wholly additional.',
-           {0: 'Popular and cheap practices are mostly not additional.', 2: 'Ease of monitoring is the outcome approach she sets '
-               'aside.', 3: 'Legal requirements would not be paid for at all.'})])],
+           'wholly additional.')])],
    speak=dict(
     part='Part 1', focus='Wild places near you',
     intro=('Two or three sentences each. Name a place rather than '
@@ -505,30 +501,24 @@ UNIT = dict(
          items=[
           (
            'What proportion of applications are for the three cheapest '
-           'options?',
-           ['Fifty-one per cent', 'Seventy per cent', 'Ninety-one per cent', 'All of them'],
-           2, 'Which Ingrid says were mostly already being done.',
-           {0: 'Lower than the proportion she reports.', 1: 'Still below the figure she gives.', 3: 'She gives a definite proportion, not all.'}),
-          ('Obadiah\u2019s objection is that paying only for change',
-           ['costs more', 'rewards previous neglect', 'is unlawful', 'reduces uptake'],
-           1,
+           'options?', None, 'ninety-one per cent',
+           'Which Ingrid says were mostly already being done.'),
+          (
+           'Obadiah objects that paying only for change rewards '
+           'previous ____________.', None, 'neglect',
            'Paying nothing to farms that have managed well for twenty '
-           'years.',
-           {0: 'Paying only for change costs less, not more.', 2: 'Legality is not raised by either officer.', 3: 'Uptake is high, which is her complaint.'}),
-          ('Ingrid proposes',
-           ['abolishing the scheme', 'two payments rather than one', 'higher payments', 'stricter inspection'],
-           1,
-           'A maintenance payment and a separate payment for change.',
-           {0: 'Neither officer proposes abolition.', 2: 'Higher payments are not her proposal.', 3: 'Inspection is not what she suggests changing.'}),
-          ('Obadiah thinks the maintenance payment would fail with',
-           ['the farming press', 'the finance ministry', 'the public', 'ecologists'],
-           1, 'Because it is expensive and buys nothing new.',
-           {0: 'The farming press is what the two payments would '
-               'survive.', 2: 'Public opinion is not what he says would reject it.', 3: 'Ecologists are not the obstacle he names.'}),
-          ('Ingrid says the maintenance payment buys',
-           ['goodwill', 'the absence of a loss', 'new habitat', 'political support'],
-           1, 'Which no accounting system they use can record.',
-           {0: 'Goodwill is not what she says it purchases.', 2: 'New habitat is what the change payment would buy.', 3: 'Political support is not her claim.'}),
+           'years.'),
+          ('Ingrid proposes ____________ payments rather than one.',
+           None, 'two',
+           'A maintenance payment and a separate payment for change.'),
+          (
+           'Obadiah thinks the maintenance payment would fail with the '
+           '____________ ministry.', None, 'finance',
+           'Because it is expensive and buys nothing new.'),
+          (
+           'Ingrid says the maintenance payment buys the absence of a '
+           '____________.', None, 'loss',
+           'Which no accounting system they use can record.'),
           ('What evidence does she have for that?',
            ['A national survey', 'Four counties that left the scheme in 2016', 'An academic study', 'Inspection records'],
            1,
@@ -812,32 +802,27 @@ UNIT = dict(
            'commissioned without that conversation produces a number that '
            'is accurate and useless, and I have written several.')],
          items=[
-          ('The transect recorded how many bird species?',
-           ['Nine', 'Twenty-three', 'Forty-six', 'Eighty-four'], 2,
-           'Against twenty-three from cameras and nine from sampling.',
-           {0: 'Nine is the figure from specimen sampling.', 1: 'Twenty-three is the figure from the cameras.', 3: 'Eighty-four is the beetle count from sampling.'}),
-          ('Camera traps find more mammals because they are',
-           ['more sensitive', 'at knee height and run at night', 'left for longer', 'placed near water'],
-           1, 'So they miss what sings in a canopy at noon.',
-           {0: 'Sensitivity is not the reason he gives.', 2: 'Duration is not what explains the mammal counts.', 3: 'Placement near water is not mentioned.'}),
-          ('The zero for fungi from cameras is',
-           ['a finding about the wood', 'a failure to detect', 'an error', 'a seasonal effect'],
-           1,
-           'Most fungi need a specimen and a microscope to identify.',
-           {0: 'He says explicitly it is not a finding about the wood.', 2: 'No error was made by any of the three teams.', 3: 'Season is not what explains the camera zero.'}),
-          ('A zero that reflects failure to detect is called a',
-           ['null result', 'false absence', 'detection limit', 'sampling gap'],
-           1,
-           'More common in published site reports than true absence.',
-           {0: 'A null result is a different idea in statistics.', 2: 'A detection limit is a threshold, not a false zero.', 3: 'No such term is used in the lecture.'}),
+          ('The transect recorded how many bird species?', None,
+           'forty-six',
+           'Against twenty-three from cameras and nine from sampling.'),
+          (
+           'Camera traps find more mammals because they are at knee '
+           'height and run at ____________.', None, 'night',
+           'So they miss what sings in a canopy at noon.'),
+          (
+           'The zero for fungi from cameras is a failure to '
+           '____________.', None, 'detect',
+           'Most fungi need a specimen and a microscope to identify.'),
+          (
+           'A zero that reflects failure to detect is called a false '
+           '____________.', None, 'absence',
+           'More common in published site reports than true absence.'),
           (
            'Comparing a 2004 transect with a 2024 camera survey '
-           'measures',
-           ['a real change', 'a change of method', 'seasonal variation', 'observer skill'],
-           1,
+           'measures a change of ____________.', None,
+           'method',
            'Half the local extinctions he verifies turn out to be '
-           'this.',
-           {0: 'A real change is what the comparison appears to show.', 2: 'Season is not what the comparison measures.', 3: 'Observer skill is not the variable that differs.'}),
+           'this.'),
           (
            'His rule for reports is to state what a method cannot '
            'detect',
@@ -1172,10 +1157,10 @@ UNIT = dict(
            'discover anything about them that the authors had not already '
            'said.')],
          items=[
-          ('The bird population rose from under forty pairs to',
-           ['one hundred', 'two hundred', 'over three hundred', 'one thousand'],
-           2, 'Within fifteen years of the fence being erected.',
-           {0: 'Lower than the figure he reports.', 1: 'Still below the population he gives.', 3: 'Far above the figure in the case.'}),
+          (
+           'The bird population rose from under forty pairs to over '
+           '____________ hundred.', None, 'three',
+           'Within fifteen years of the fence being erected.'),
           (
            'The lecturer rules out negligence because the migration '
            'route was',
@@ -1184,21 +1169,20 @@ UNIT = dict(
            'The modelling was not built for the question that '
            'mattered.',
            {0: 'He says the migration was known and mapped.', 2: 'The migration was in use, which is why it mattered.', 3: 'The fence crossed it, so it was inside the area.'}),
-          ('A single large mammal programme can exceed',
-           ['the national parks budget', 'the entire invertebrate budget of its country', 'all private donations', 'the research budget'],
-           1,
-           'Including funding for pollinators the system depends on.',
-           {0: 'The parks budget is not the comparison he draws.', 2: 'Private donations are a source, not the comparison.', 3: 'Research budgets are not what he compares it with.'}),
+          (
+           'A single large mammal programme can exceed the entire '
+           '____________ budget of its country.', None,
+           'invertebrate',
+           'Including funding for pollinators the system depends on.'),
           ('The measured overlap supporting the flagship argument is',
            ['over three quarters', 'about half', 'under a third', 'not measurable'],
            2, 'Far lower than the argument assumes.',
            {0: 'Far higher than the measured overlap.', 1: 'Higher than the figure he reports.', 3: 'It has been measured in several systems.'}),
-          ('Habitat restoration shows measurable results after about',
-           ['four years', 'eight years', 'fifteen years', 'fifty years'],
-           2,
+          (
+           'Habitat restoration shows measurable results after about '
+           '____________ years.', None, 'fifteen',
            'Against four years for intensive protection of a small '
-           'population.',
-           {0: 'Four years is the figure for intensive protection.', 1: 'Shorter than the period he gives for restoration.', 3: 'Far longer than the period he names.'}),
+           'population.'),
           ('His conclusion is that trade-offs should be',
            ['avoided', 'written down at the point of decision', 'decided by ministers', 'left to funders'],
            1, 'So that a proposal recording its cost can be improved.',
@@ -1555,10 +1539,8 @@ UNIT = dict(
            {0: 'Cost is not his objection to the instrument.', 2: 'Popularity is not what he raises.', 3: 'Local people are not mentioned in the exchange.'}),
           (
            'She says an area target produces a bias towards land that '
-           'is',
-           ['fertile', 'high, dry, cold or steep', 'coastal', 'privately owned'],
-           1, 'And therefore has least to protect.',
-           {0: 'Fertile land is what the bias avoids.', 2: 'Coastal land is not what she names.', 3: 'Ownership is not the basis of the bias she describes.'}),
+           'is high, dry, cold or ____________.', None,
+           'steep', 'And therefore has least to protect.'),
           ('What do they finally propose?',
            ['Replacing area targets', 'A condition target alongside the area target', 'Abolishing targets', 'A larger area target'],
            1, 'Harder to measure and politically survivable.',

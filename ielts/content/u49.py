@@ -454,34 +454,32 @@ UNIT = dict(
            'answer.'),
           ('Thomasina', 'Say that in the report too.')],
          items=[
-          ('Ignatius defends the arm rails as',
-           ['a comfort feature', 'a measure to prevent lying down', 'a cost saving', 'a legal requirement'],
-           1, 'And says he would rather defend them honestly.',
-           {0: 'He says he would rather not pretend they are for '
-               'comfort.', 2: 'Cost saving is not the purpose he defends.', 3: 'No legal requirement is mentioned for the rails.'}),
+          (
+           'Ignatius defends the arm rails as a measure to prevent '
+           '____________ down.', None, 'lying',
+           'And says he would rather defend them honestly.'),
           ('What happened to the sleeping?',
            ['It stopped', 'It moved to the underpass', 'It increased', 'It was not measured'],
            1, 'Which he accepts is worse for everybody.',
            {0: 'He says the sleeping moved rather than stopped.', 2: 'He does not report an increase overall.', 3: 'He knows where it went, so it was observed.'}),
-          ('Dwell time after installation fell by about',
-           ['ten per cent', 'twenty-five per cent', 'forty per cent', 'sixty per cent'],
-           2,
+          (
+           'Dwell time after installation fell by about ____________ '
+           'per cent.', None, 'forty',
            'Measured the same way before and after, with kiosk takings '
-           'falling too.',
-           {0: 'Smaller than the fall he reports.', 1: 'Still below the drop he measured.', 3: 'Larger than the figure he gives.'}),
+           'falling too.'),
           ('Who was most harmed, according to Ignatius?',
            ['people sleeping there', 'an elderly woman wanting a back and arms', 'the kiosk owner', 'teenagers'],
            1, 'Not the person the design was aimed against.',
            {0: 'The people sleeping were who the design was aimed '
                'against.', 2: 'The kiosk lost takings but is not who he names.', 3: 'Teenagers are not mentioned in the exchange.'}),
-          ('Thomasina would have proposed',
-           ['no seating', 'backs and arms on half the seating and evening staff', 'more rails', 'closing the square at night'],
-           1, 'A social answer rather than a physical one.',
-           {0: 'Removing seating is the opposite of what she wants.', 2: 'More rails is what she objects to.', 3: 'Closing the square is not her proposal.'}),
-          ('Why does her option lose?',
-           ['It is unpopular', 'It needs revenue funding rather than capital', 'It is unlawful', 'It is untested'],
-           1, 'Capital money is available and revenue money is not.',
-           {0: 'Popularity is not the obstacle she names.', 2: 'Legality is not raised by either designer.', 3: 'She treats a staffed presence as known to work.'})])],
+          (
+           'Thomasina would have proposed backs and arms on half the '
+           'seating and ____________ staff.', None,
+           'evening', 'A social answer rather than a physical one.'),
+          (
+           'Her option loses because it needs ____________ funding '
+           'rather than capital.', None, 'revenue',
+           'Capital money is available and revenue money is not.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Public space',
     longturn=[('The public place I want to describe is a square outside a '
@@ -754,20 +752,15 @@ UNIT = dict(
            'Nothing was built to achieve that and it changed the square more '
            'than the library did.')],
          items=[
-          ('The bus station closed in',
-           ['1965', '1981', '1994', '2003'], 1,
-           'With the interchange function moving to the ring road.',
-           {0: '1965 is the date of the earlier plan.', 2: '1994 is when the car park and the traffic went.', 3: '2003 is when the toilets were demolished.'}),
-          ('What now stands on the former public toilets site?',
-           ['the library', 'the market hall', 'a kiosk with seating', 'the water feature'],
-           2,
+          ('The bus station closed in ____________.', None, '1981',
+           'With the interchange function moving to the ring road.'),
+          ('What now stands on the former public toilets site?', None,
+           'a kiosk',
            'In the north-west corner, where the toilets stood until '
-           '2003.',
-           {0: 'The library stands on the bus station footprint.', 1: 'The market hall stands where the open stalls were.', 3: 'The water feature replaced the ornamental fountain.'}),
-          ('The Corn Exchange is described as',
-           ['removed', 'added', 'converted', 'unchanged'], 2,
-           'Same footprint, height and name; cafes instead of grain.',
-           {0: 'It is still standing, so not removed.', 1: 'It predates the square\u2019s redesign, so not added.', 3: 'Its use changed, so not unchanged.'}),
+           '2003.'),
+          ('The Corn Exchange is described as ____________.', None,
+           'converted',
+           'Same footprint, height and name; cafes instead of grain.'),
           ('Why does the rebuilt fountain matter?',
            ['it is cheaper', 'it can be switched off for events', 'it is larger', 'it is historic'],
            1, 'Which the 1965 fountain could not be.',
@@ -777,10 +770,10 @@ UNIT = dict(
            ['the Corn Exchange and the fountain', 'the lime trees and Fenwick Street', 'the market hall and the kiosk', 'the car park and the stalls'],
            1, 'And asks for it to go in the minutes.',
            {0: 'The Corn Exchange and the fountain were converted.', 2: 'The market hall and the kiosk were added.', 3: 'The car park was removed and the stalls were roofed.'}),
-          ('The change he says altered the square most was',
-           ['the library', 'the market hall', 'the removal of traffic in 1994', 'the new paving'],
-           2, 'Achieved without building anything.',
-           {0: 'The library is one of the three additions.', 1: 'The market hall is another of the additions.', 3: 'Paving is not among the changes he lists.'})])],
+          (
+           'The change he says altered the square most was the removal '
+           'of ____________ in 1994.', None, 'traffic',
+           'Achieved without building anything.')])],
    speak=dict(
     part='Part 3', focus='Redesigning a public place',
     intro=('Five or six sentences. Try once to name a change that cost '
@@ -1111,22 +1104,21 @@ UNIT = dict(
            ['passage', 'dwelling', 'trade', 'residents'], 0,
            'Numerous, in a hurry, and never at the meeting.',
            {1: 'Dwelling users are visible and attend when they can.', 2: 'Trade pays rent and has a reliable voice.', 3: 'Residents are heard through the noise rules.'}),
-          ('For dwelling users, he says a square is',
-           ['an amenity', 'the only room available', 'a thoroughfare', 'a workplace'],
-           1, 'So designing them out sends them nowhere better.',
-           {0: 'An amenity is what it is for other users.', 2: 'A thoroughfare is what passage wants.', 3: 'A workplace is what trade makes of it.'}),
-          ('Why does trade have a reliable voice?',
-           ['it is better organised', 'it pays rent', 'it is more numerous', 'it is legally privileged'],
-           1, 'Which buys it a telephone number at the council.',
-           {0: 'Organisation is not the reason he gives.', 2: 'Passage is the most numerous claim.', 3: 'No legal privilege is described for trade.'}),
-          ('The incompatibility of the three claims is',
-           ['a matter of personality', 'structural, given a finite square', 'caused by bad consultation', 'recent'],
-           1, 'Seating obstructs passage; width destroys enclosure.',
-           {0: 'He says it is not a matter of personality.', 2: 'Consultation is a separate aggravating feature.', 3: 'The conflict is as old as the square.'}),
-          ('His single empirical finding is that removing a use',
-           ['ends it', 'displaces it somewhere worse', 'reduces it slightly', 'has no effect'],
-           1, 'The underpass being the standard destination.',
-           {0: 'He says the use is displaced, not ended.', 2: 'He reports relocation rather than reduction.', 3: 'The effect is real and recurs in study after study.'})])],
+          (
+           'For dwelling users, he says a square is the only '
+           '____________ available.', None, 'room',
+           'So designing them out sends them nowhere better.'),
+          ('Trade has a reliable voice because it pays ____________.',
+           None, 'rent',
+           'Which buys it a telephone number at the council.'),
+          (
+           'The incompatibility of the three claims is ____________, '
+           'given a finite square.', None, 'structural',
+           'Seating obstructs passage; width destroys enclosure.'),
+          (
+           'His single empirical finding is that removing a use '
+           '____________ it somewhere worse.', None,
+           'displaces', 'The underpass being the standard destination.')])],
    speak=dict(
     part='Part 3', focus='Rules in shared places',
     followup=[(('You say the design excludes people. Who is usually left out '
@@ -1472,15 +1464,14 @@ UNIT = dict(
            ['collecting the data', 'collecting but not publishing it', 'the condition scores', 'the security contract'],
            1, 'A distinction he draws himself.',
            {0: 'He is comfortable with collecting the data.', 2: 'He defends the condition scores as real.', 3: 'He defends each security decision as reasonable.'}),
-          ('Achterberg says she has stopped arguing about',
-           ['money', 'motives', 'design', 'ownership'], 1,
-           'Accepting that the pattern was nobody\u2019s intention.',
-           {0: 'Money is not what she says she has dropped.', 2: 'Design is what she still discusses, measure by '
-               'measure.', 3: 'Ownership is what she drops only at the very end.'}),
-          ('She describes "better kept and less used" as',
-           ['a contradiction', 'both true and not a contradiction', 'unproven', 'irrelevant'],
-           1, 'And says she cannot get it into a press release.',
-           {0: 'She says they are not in contradiction.', 2: 'Both halves are supported by the figures.', 3: 'She treats both halves as central.'}),
+          (
+           'Achterberg says she has stopped arguing about '
+           '____________.', None, 'motives',
+           'Accepting that the pattern was nobody\u2019s intention.'),
+          (
+           'She describes "better kept and less used" as both true and '
+           'not a ____________.', None, 'contradiction',
+           'And says she cannot get it into a press release.'),
           ('What does she actually ask for?',
            ['public ownership', 'annual publication of composition of use', 'removal of security', 'longer opening hours'],
            1,
@@ -1488,10 +1479,10 @@ UNIT = dict(
            'scores.',
            {0: 'She says explicitly that she does not want his keys.', 2: 'She accepts the security as lawful and asks for '
                'reporting.', 3: 'Opening hours are one mechanism, not her request.'}),
-          ('Why does he say the clause would work?',
-           ['it is cheap', 'he manages what he is asked about', 'it is legally binding', 'his tenants want it'],
-           1, 'And says this is not to his credit.',
-           {0: 'Cost is low, but not the reason he gives.', 2: 'He offers to sign it, so no obligation yet exists.', 3: 'His tenants ask about condition, not composition.'})])],
+          (
+           'He says the clause would work because he ____________ what '
+           'he is asked about.', None, 'manages',
+           'And says this is not to his credit.')])],
    speak=dict(
     part='Part 3', focus='Who decides how a place is used',
     sounds=[('Place and design words in this unit are compounds and take the '

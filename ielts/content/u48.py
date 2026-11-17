@@ -239,29 +239,23 @@ UNIT = dict(
            'anyway, and in a market with this structure it is paid for by '
            'the people it was supposed to help.')],
          items=[
-          ('The speaker says switching rates are low because',
-           ['consumers are passive', 'switching is not worth doing', 'the process is slow', 'tariffs are unclear'],
-           1,
-           'A finding that puts him at odds with his own profession.',
-           {0: 'He says explicitly that it is not passivity.', 2: 'Speed was addressed by twenty years of reform.', 3: 'Tariff clarity was addressed by comparison sites.'}),
-          ('After reforms, switching rates',
-           ['rose permanently', 'rose for about three years and then returned', 'fell immediately', 'did not change'],
-           1, 'In each market where the reforms were tried.',
-           {0: 'He reports a return to roughly the starting level.', 2: 'They rose first, before falling back.', 3: 'They rose for three years before returning.'}),
-          ('The switching discount is funded by',
-           ['suppliers\u2019 profits', 'customers who stay', 'government', 'new entrants'],
-           1,
+          (
+           'The speaker says switching rates are low because switching '
+           'is not ____________ doing.', None, 'worth',
+           'A finding that puts him at odds with his own profession.'),
+          (
+           'After reforms, switching rates rose for about ____________ '
+           'years and then returned.', None, 'three',
+           'In each market where the reforms were tried.'),
+          (
+           'The switching discount is funded by customers who '
+           '____________.', None, 'stay',
            'Which produces a transfer from inactive to active '
-           'customers.',
-           {0: 'Suppliers fund it from loyal customers, not from '
-               'profit.', 2: 'No government money is involved.', 3: 'New entrants receive the discount rather than funding '
-               'it.'}),
-          ('The remedy that worked was',
-           ['faster switching', 'a cap on the price charged to inactive customers', 'more comparison sites', 'compulsory switching'],
-           1,
-           'Which reduces switching and raises total consumer welfare.',
-           {0: 'Faster switching is among the reforms that did not '
-               'last.', 2: 'Comparison sites are part of what was already tried.', 3: 'No compulsion is proposed in the talk.'})])],
+           'customers.'),
+          (
+           'The remedy that worked was a ____________ on the price '
+           'charged to inactive customers.', None, 'cap',
+           'Which reduces switching and raises total consumer welfare.')])],
    speak=dict(
     part='Part 1', focus='Choosing between providers',
     intro=('Two or three sentences each. Real examples from your own life '
@@ -511,19 +505,18 @@ UNIT = dict(
            'Leaving price to be set by the regulator rather than '
            'competition.',
            {0: 'He argues the cap keeps prices down for the inactive.', 2: 'Legality is not raised by either regulator.', 3: 'Administrative cost is not his objection.'}),
-          ('Beatrix answers that switching',
-           ['has risen', 'had already fallen back before any cap', 'is irrelevant', 'cannot be measured'],
-           1, 'Peaking three years after the comparison-site reforms.',
-           {0: 'She reports a fall, not a rise.', 2: 'She treats switching as the discipline in question.', 3: 'She has the series broken out by year.'}),
+          (
+           'Beatrix answers that switching had already fallen back '
+           '____________ any cap.', None, 'before',
+           'Peaking three years after the comparison-site reforms.'),
           ('What does Hieronymus do when shown the series?',
            ['Withdraws entirely', 'Shifts his objection rather than dropping it', 'Disputes the data', 'Ends the discussion'],
            1, 'Having relied on a sequence the figures damage.',
            {0: 'He keeps an objection rather than withdrawing.', 2: 'He accepts the figures he had not seen.', 3: 'He continues the discussion to a proposal.'}),
-          ('His revised objection concerns',
-           ['the price level', 'how a regulated price is ever removed', 'legal powers', 'consumer awareness'],
-           1,
-           'Because lifting a cap raises somebody\u2019s bill personally.',
-           {0: 'The price level is what the cap sets, not his worry.', 2: 'Legal powers are not in question.', 3: 'Consumer awareness is not his revised objection.'}),
+          (
+           'His revised objection concerns how a ____________ price is '
+           'ever removed.', None, 'regulated',
+           'Because lifting a cap raises somebody\u2019s bill personally.'),
           ('What would he accept?',
            ['A permanent cap', 'A cap with a sunset and a stated test for renewal', 'No cap', 'A cap set by ministers'],
            1,
@@ -531,12 +524,10 @@ UNIT = dict(
            {0: 'A permanent cap is what he objects to.', 2: 'He is willing to support a cap with conditions.', 3: 'Ministerial setting is not what he proposes.'}),
           (
            'The test proposed is the gap between the cheapest and '
-           'default tariff closing to under',
-           ['three per cent', 'eight per cent', 'fifteen per cent', 'twenty per cent'],
-           1,
+           'default tariff closing to under ____________ per cent.',
+           None, 'eight',
            'Measured over two consecutive years, and in the instrument '
-           'rather than in guidance.',
-           {0: 'Tighter than the threshold he proposes.', 2: 'Wider than the gap he names.', 3: 'Far wider than the test he sets.'})])],
+           'rather than in guidance.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Choice',
     longturn=[('The time I had no real alternative was when the only nursery '
@@ -824,32 +815,30 @@ UNIT = dict(
            'understate its effect, and the direction of that error is the '
            'same every time.')],
          items=[
-          ('In Market A the buyer price settles at',
-           ['105', '112', '118', '120'], 3,
-           'Having risen from 102 before the tax.',
-           {0: '105 is where Market B settles.', 1: 'No figure of that size appears for Market A.', 2: '118 is the first-quarter figure, before it settles.'}),
-          ('In Market B the quantity falls in the first quarter to',
-           ['95', '87', '82', '76'], 2,
-           'Continuing to 76 by the fourth quarter.',
-           {0: '95 is where Market A quantity settles.', 1: 'No figure of that size appears on either chart.', 3: '76 is the fourth-quarter figure for Market B.'}),
-          ('Incidence refers to',
-           ['the rate of a tax', 'who bears a tax rather than who remits it', 'the date a tax starts', 'how a tax is collected'],
-           1, 'The seller remits it in both markets shown.',
-           {0: 'The rate is the same twenty units in both markets.', 2: 'The start date is the same in both markets.', 3: 'Collection is by the seller in both markets.'}),
-          ('The difference between the markets is',
-           ['the size of the tax', 'the availability of substitutes', 'the number of sellers', 'the collection method'],
-           1, 'A is a staple; B has many alternatives.',
-           {0: 'The tax is identical in both markets.', 2: 'Seller numbers are not what he identifies.', 3: 'Collection is the same in both.'}),
+          ('In Market A the buyer price settles at ____________.',
+           None, '120', 'Having risen from 102 before the tax.'),
+          (
+           'In Market B the quantity falls in the first quarter to '
+           '____________.', None, '82',
+           'Continuing to 76 by the fourth quarter.'),
+          (
+           'Incidence refers to who ____________ a tax rather than who '
+           'remits it.', None, 'bears',
+           'The seller remits it in both markets shown.'),
+          (
+           'The difference between the markets is the availability of '
+           '____________.', None, 'substitutes',
+           'A is a staple; B has many alternatives.'),
           ('A tax that raises substantial revenue',
            ['also reduces consumption sharply', 'does not reduce consumption much', 'always falls on sellers', 'is regressive'],
            1,
            'Which is why a minister cannot promise both from one tax.',
            {0: 'Sharp reduction is what the other kind of tax '
                'achieves.', 2: 'Incidence depends on the market, not on the revenue.', 3: 'Regressiveness is a separate property of the market.'}),
-          ('Measuring a tax one quarter after it starts will',
-           ['overstate its effect', 'understate its effect', 'be accurate', 'show nothing'],
-           1, 'With the error in the same direction every time.',
-           {0: 'The error runs the other way in both markets.', 2: 'Adjustment is still happening four quarters later.', 3: 'Some effect is visible at once, but not all of it.'})])],
+          (
+           'Measuring a tax one quarter after it starts will '
+           '____________ its effect.', None, 'understate',
+           'With the error in the same direction every time.')])],
    speak=dict(
     part='Part 3', focus='Who really pays',
     intro=('Five or six sentences. Try once to separate who hands over the '
@@ -1181,26 +1170,23 @@ UNIT = dict(
          items=[
           (
            'How many kinds of exception does the lecturer distinguish?',
-           ['Two', 'Three', 'Four', 'Five'], 1,
+           None, 'three',
            'Crowding out, norm conversion, and the conceptual '
-           'objection.',
-           {0: 'Fewer than the kinds he sets out.', 2: 'One more than the number he gives.', 3: 'He distinguishes three, not five.'}),
+           'objection.'),
           (
            'In controlled studies, a small payment reduces '
-           'participation in',
-           ['nearly all cases', 'about a third of cases', 'about two thirds', 'almost none'],
-           1, 'With no effect in a third and an increase in the rest.',
-           {0: 'Far more than the share he reports.', 2: 'He reports a third, with the rest split.', 3: 'He reports a substantial minority, not almost none.'}),
+           'participation in about a ____________ of cases.',
+           None, 'third',
+           'With no effect in a third and an increase in the rest.'),
           ('He says his own side of the argument',
            ['overstates the data', 'quotes the third that supports it and omits the rest', 'has no evidence', 'misreads the studies'],
            1, 'Which is why he quotes all three figures.',
            {0: 'He says the data is sound and selectively quoted.', 2: 'He cites controlled studies, so evidence exists.', 3: 'He says the studies are read correctly and quoted '
                'partly.'}),
-          ('The important part of the nursery study is that',
-           ['lateness rose', 'lateness stayed high after the fine was removed', 'parents objected', 'the fine was small'],
-           1, 'Because the norm could not be restored.',
-           {0: 'The rise in lateness is the expected part.', 2: 'Parental objection is not reported.', 3: 'The size of the fine is part of why it read as a '
-               'price.'}),
+          (
+           'The important part of the nursery study is that lateness '
+           'stayed high after the ____________ was removed.',
+           None, 'fine', 'Because the norm could not be restored.'),
           ('The third kind of objection is',
            ['empirical', 'not empirical at all', 'about efficiency', 'about fairness'],
            1, 'A purchased friendship is not a friendship.',
@@ -1566,9 +1552,8 @@ UNIT = dict(
            {0: 'He says the judgement comes first, not the principle.', 2: 'He treats the principle as evidence of the judgement.', 3: 'Economics is the other speaker\u2019s field, not his '
                'source.'}),
           ('How many questions does the working version contain?',
-           ['Two', 'Three', 'Four', 'Five'], 2,
-           'Supply, alternatives, constitution, and cost to outsiders.',
-           {0: 'Fewer than the questions he lists.', 1: 'One short of the four proposed.', 3: 'He proposes four, not five.'}),
+           None, 'four',
+           'Supply, alternatives, constitution, and cost to outsiders.'),
           (
            'Which question does Bergstr\u00f6m-Adeyemi say cannot be '
            'settled by evidence?',

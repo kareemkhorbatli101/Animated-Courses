@@ -244,13 +244,11 @@ UNIT = dict(
            'shows that message performing worse than saying nothing.')],
          items=[
           (
-           'The speaker says the "bad at numbers" explanation fails '
-           'because the pattern',
-           ['disappears with training', 'survives when people are given the numbers and time', 'is found only in surveys', 'is a recent development'],
-           1,
+           'The "bad at numbers" explanation fails because the pattern '
+           'survives when people are given the numbers and '
+           '____________.', None, 'time',
            'It also appears among people who work with numbers '
-           'professionally.',
-           {0: 'He says training does not remove it.', 2: 'He says it appears among numerate professionals too.', 3: 'Nothing suggests the pattern is recent.'}),
+           'professionally.'),
           (
            'A chosen risk is tolerated at how many times the level of '
            'an imposed one?',
@@ -263,10 +261,10 @@ UNIT = dict(
            1, 'None of which an imposed risk has.',
            {0: 'These are not the properties he lists.', 2: 'Dread and familiarity are the two smaller factors.', 3: 'Consent is the heading, not one of the three '
                'properties.'}),
-          ('Comparing an imposed risk to a chosen one performs',
-           ['better than saying nothing', 'worse than saying nothing', 'about the same', 'well with experts only'],
-           1, 'In every evaluation the speaker has run.',
-           {0: 'He says it performs worse than saying nothing.', 2: 'He reports a clear difference, not parity.', 3: 'He does not report an expert exception.'})])],
+          (
+           'Comparing an imposed risk to a chosen one performs '
+           '____________ than saying nothing.', None,
+           'worse', 'In every evaluation the speaker has run.')])],
    speak=dict(
     part='Part 1', focus='Safety where you work or study',
     intro=('Two or three sentences each. Concrete detail from your own '
@@ -515,31 +513,26 @@ UNIT = dict(
            'left in this room, because somebody is going to ask in four '
            'years what we knew.')],
          items=[
-          ('Marisol proposes a control costing the sector',
-           ['two million a year', 'eleven million a year', 'nine million a year', 'nothing'],
-           1,
+          (
+           'Marisol proposes a control costing the sector ____________ '
+           'million a year.', None, 'eleven',
            'Against two deaths in nine years across four hundred '
-           'sites.',
-           {0: 'Lower than the figure he puts to her.', 2: 'Nine is the number of lives, not the millions.', 3: 'She proposes a control with a real cost.'}),
-          ('Her argument rests on the risk being',
-           ['large', 'imposed rather than chosen', 'newly discovered', 'poorly measured'],
-           1,
+           'sites.'),
+          (
+           'Her argument rests on the risk being ____________ rather '
+           'than chosen.', None, 'imposed',
            'Nobody in those buildings chose the exposure or is paid '
-           'for it.',
-           {0: 'Two deaths in nine years is the arithmetic against '
-               'her.', 2: 'Novelty of the risk is not her argument.', 3: 'She accepts the measurement without question.'}),
-          ('Yannick\u2019s objection is that the same money would',
-           ['be wasted', 'buy about nine lives a year elsewhere', 'close the sites', 'be refused by the board'],
-           1, 'So the choice is not between the control and nothing.',
-           {0: 'He says it would buy nine lives, not be wasted.', 2: 'Closing the sites is not what he suggests.', 3: 'The board is who she expects to fight, not his '
-               'objection.'}),
-          ('Marisol answers that the money would actually go',
-           ['to a safety programme', 'back to the operators', 'to the regulator', 'to insurance'],
-           1,
+           'for it.'),
+          (
+           'Yannick objects that the same money would buy about '
+           '____________ lives a year elsewhere.', None,
+           'nine',
+           'So the choice is not between the control and nothing.'),
+          (
+           'Marisol answers that the money would actually go back to '
+           'the ____________.', None, 'operators',
            'Making the counterfactual a dividend rather than nine '
-           'lives.',
-           {0: 'A safety programme is the ideal counterfactual, not '
-               'the real one.', 2: 'The regulator does not receive the money.', 3: 'Insurance is not mentioned in the exchange.'}),
+           'lives.'),
           ('Yannick calls that',
            ['irrelevant', 'a fair hit that does not dispose of the point', 'decisive', 'outside their powers'],
            1,
@@ -856,32 +849,29 @@ UNIT = dict(
          items=[
           (
            'Against the fixed threshold, events per decade rose from '
-           'nine to',
-           ['eleven', 'nineteen', 'twenty-seven', 'thirty'], 2,
-           'While the recalculated series stayed at ten or eleven.',
-           {0: 'Eleven is the recalculated series, not the fixed one.', 1: 'No figure of that size appears in the record.', 3: 'Higher than the count he reports for the 2010s.'}),
-          ('The engineer\u2019s athletics comparison illustrates that',
-           ['records always improve', 'a moving baseline cannot show a trend', 'measurement is subjective', 'averages mislead'],
-           1,
-           'Raise the bar as the jumpers improve and no improvement is '
-           'reported.',
-           {0: 'He does not claim records always improve.', 2: 'He insists nothing has been manipulated.', 3: 'Averages are not what the comparison is about.'}),
+           'nine to ____________.', None, 'twenty-seven',
+           'While the recalculated series stayed at ten or eleven.'),
           (
-           'Two structures on one river to the same stated standard '
-           'differed by',
-           ['two per cent', 'eleven per cent', 'twenty per cent', 'no measurable amount'],
-           1,
+           'The engineer\u2019s athletics comparison illustrates that a '
+           'moving ____________ cannot show a trend.', None,
+           'baseline',
+           'Raise the bar as the jumpers improve and no improvement is '
+           'reported.'),
+          (
+           'Two structures on one river built to the same stated '
+           'standard differed by ____________ per cent.',
+           None, 'eleven',
            'Because the underlying record had been updated between '
-           'them.',
-           {0: 'Smaller than the difference he reports.', 2: 'Larger than the figure he gives.', 3: 'He gives a definite difference between the two.'}),
-          ('Stationarity is the assumption that',
-           ['measurements are accurate', 'the distribution generating events is not changing', 'events are independent', 'records are complete'],
-           1, 'Where it fails, the return period is undefined.',
-           {0: 'Accuracy is not what stationarity assumes.', 2: 'Independence is a separate assumption.', 3: 'Completeness of the record is a different matter.'}),
-          ('Where the assumption fails, the return period is',
-           ['inaccurate', 'undefined', 'too high', 'too low'], 1,
-           'Which cannot be fixed by measuring more carefully.',
-           {0: 'He distinguishes undefined from inaccurate.', 2: 'Undefined is not the same as overstated.', 3: 'Undefined is not the same as understated either.'}),
+           'them.'),
+          (
+           'Stationarity is the assumption that the ____________ '
+           'generating events is not changing.', None,
+           'distribution',
+           'Where it fails, the return period is undefined.'),
+          (
+           'Where the assumption fails, the return period is '
+           '____________.', None, 'undefined',
+           'Which cannot be fixed by measuring more carefully.'),
           ('Which recommendation does the engineer most argue for?',
            ['Stating the computation period', 'Designing to a range', 'Not reporting return periods to the public', 'Updating records annually'],
            2, 'Because the phrase is heard as "not in my lifetime".',
@@ -1225,10 +1215,10 @@ UNIT = dict(
            'problem. That is a political skill, and it is not the one any '
            'of you were recruited for.')],
          items=[
-          ('The lecturer says the lag is a statement about',
-           ['speed', 'a trade-off', 'funding', 'expertise'], 1,
-           'Rather than about urgency or capability.',
-           {0: 'He says it is not a statement about speed.', 2: 'Funding is part of the staffing point, not his claim.', 3: 'Expertise is what the usual remedies address.'}),
+          (
+           'The lecturer says the lag is a statement about a '
+           '____________.', None, 'trade-off',
+           'Rather than about urgency or capability.'),
           (
            'A prescriptive rule is easy to enforce because compliance '
            'is',
@@ -1237,22 +1227,18 @@ UNIT = dict(
            'An inspector settles it in an afternoon without expert '
            'evidence.',
            {0: 'Negotiation belongs to the principle-based rule.', 2: 'Self-certification is not part of his account.', 3: 'He says such rules are the ones actually enforced.'}),
-          ('A principle-based rule fails',
-           ['immediately', 'at the margin', 'only for small firms', 'when technology changes'],
-           1, 'Where whether a duty was met can be argued either way.',
-           {0: 'He says they never become obsolete.', 2: 'They are negotiated with large firms, which is the '
-               'pattern.', 3: 'They survive technological change, which is their '
-               'merit.'}),
+          ('A principle-based rule fails at the ____________.', None,
+           'margin',
+           'Where whether a duty was met can be argued either way.'),
           ('The enforcement pattern he describes results from',
            ['corruption', 'an asymmetry in legal spending', 'poor drafting', 'political pressure'],
            1, 'And would happen with saints running the agency.',
            {0: 'He says explicitly that it is not corruption.', 2: 'Drafting quality is not what produces the pattern.', 3: 'Political pressure is not the mechanism he names.'}),
-          ('Where a new statute was required, the median interval was',
-           ['six years', 'eleven years', 'three years', 'twenty years'],
-           1,
+          (
+           'Where a new statute was required, the median interval was '
+           '____________ years.', None, 'eleven',
            'Against a median of six across all twenty-four '
-           'technologies.',
-           {0: 'Six years is the median across all twenty-four.', 2: 'Shorter than either median he reports.', 3: 'Longer than the figure he gives.'}),
+           'technologies.'),
           ('The remedy the evidence points to is',
            ['more technical staff', 'delegated powers', 'faster drafting', 'international agreement'],
            1,
@@ -1700,12 +1686,10 @@ UNIT = dict(
            ['delays are costless', 'the bad approvals were a genuine failure of a too-fast system', 'regulators are competent', 'his model was wrong'],
            1, 'And that those who warned at the time were right.',
            {0: 'He goes on to argue that delays have a real cost.', 2: 'Competence is not what he concedes.', 3: 'His model is not in question here.'}),
-          ('Fanshawe-Oyelude says she has stopped using the phrase',
-           ['"risk-based"', '"abundance of caution"', '"evidence-led"', '"proportionate"'],
-           1, 'Because it describes a cost as though it were a virtue.',
-           {0: 'She does not object to describing a regime as '
-               'risk-based.', 2: 'She appeals to the evidence herself throughout.', 3: 'Proportionality is what her proposed accounting would '
-               'serve.'}),
+          (
+           'Fanshawe-Oyelude says she has stopped using the phrase '
+           '"abundance of ____________".', None, 'caution',
+           'Because it describes a cost as though it were a virtue.'),
           ('She characterises the bias towards delay as a failure of',
            ['nerve', 'accounting', 'training', 'leadership'], 1,
            'Since no official anywhere has been dismissed for an '

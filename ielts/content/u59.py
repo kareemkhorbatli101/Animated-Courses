@@ -467,26 +467,23 @@ UNIT = dict(
            'score, recorded without them, deciding where a patient spent '
            'the following year.')],
          items=[
-          ('Most of the scales they will use were built to',
-           ['decide a single case', 'track change in one patient', 'compare patients', 'predict recovery'],
-           1, 'Which he calls a different job from deciding.',
-           {0: 'Deciding a single case is the job he says they do '
-               'badly.', 2: 'Comparing patients is not what they were built for.', 3: 'Prediction is not the purpose named in the manual.'}),
+          (
+           'Most of the scales they will use were built to track '
+           '____________ in one patient.', None, 'change',
+           'Which he calls a different job from deciding.'),
           (
            'A patient who cannot move scores the minimum, so the '
-           'number is really a measurement of',
-           ['awareness', 'movement', 'recovery', 'attention'], 1,
-           'Though it is filed as a measurement of awareness.',
-           {0: 'Awareness is what the number is filed as, not what it '
-               'measures.', 2: 'Recovery is not what the motor points record.', 3: 'Attention is not what the minimum score reflects.'}),
-          ('One unit found two experienced clinicians differing by',
-           ['one point', 'two points', 'three points', 'five points'],
-           2, 'On the same patient within an hour.',
-           {0: 'One point is less than the gap the unit found.', 1: 'Two points is below the difference measured.', 3: 'Five points overstates the gap he reports.'}),
-          ('His honest comparison is between a flawed scale and',
-           ['a better scale', 'an unrecorded impression', 'no assessment', 'a second opinion'],
-           1, 'A number two people can argue about.',
-           {0: 'A better scale is the comparison he calls dishonest.', 2: 'No assessment at all is not the real alternative.', 3: 'A second opinion is not what replaces the number.'})]),
+           'number is really a measurement of ____________.',
+           None, 'movement',
+           'Though it is filed as a measurement of awareness.'),
+          (
+           'One unit found two experienced clinicians differing by '
+           '____________ points.', None, 'three',
+           'On the same patient within an hour.'),
+          (
+           'His honest comparison is between a flawed scale and an '
+           'unrecorded ____________.', None, 'impression',
+           'A number two people can argue about.')]),
     dict(heading='Two clinicians disagree about a scale', part='Part 3',
          task='A discussion between two clinicians · multiple choice', band='l3',
          qtype='Questions 27-32',
@@ -542,30 +539,28 @@ UNIT = dict(
           ('Fontaine-Abara', 'That I will take now.')],
          items=[
           (
-           'Fontaine-Abara\u2019s actual proposal is to remove the scale',
-           ['entirely', 'for patients who cannot move', 'from rehabilitation', 'for new admissions'],
-           1, 'Narrower than Hollingbury had been briefed on.',
-           {0: 'She says explicitly not off the form entirely.', 2: 'Rehabilitation is where the case went wrong, not her '
-               'proposal.', 3: 'New admissions are not the group she singles out.'}),
-          ('For a patient who cannot move, she says the instrument is',
-           ['measuring with error', 'not measuring the thing at all', 'measuring slowly', 'measuring indirectly'],
-           1, 'Because four points require a motor response.',
-           {0: 'Measuring with error is what she says it is not.', 2: 'Speed is not her objection to the instrument.', 3: 'Indirect measurement is not her complaint.'}),
+           'Fontaine-Abara\u2019s actual proposal is to remove the scale '
+           'for patients who cannot ____________.', None,
+           'move', 'Narrower than Hollingbury had been briefed on.'),
+          (
+           'For a patient who cannot move, she says the instrument is '
+           'not measuring the ____________ at all.', None,
+           'thing', 'Because four points require a motor response.'),
           (
            'Hollingbury\u2019s worry is that the number would be replaced '
            'by',
            ['another scale', 'an unrecorded impression', 'nothing at all', 'a second opinion'],
            1, 'Which he says is more confident than the number was.',
            {0: 'Another scale is not what he fears would replace it.', 2: 'Something does go in the box, he says.', 3: 'A second opinion is not what the box would hold.'}),
-          ('In the case she describes, the score overrode',
-           ['a scan', 'free text written by two nurses', 'a family request', 'an earlier assessment'],
-           1, 'Recording command-following with her eyes for a week.',
-           {0: 'No scan is mentioned in the case she describes.', 2: 'No family request is part of this case.', 3: 'An earlier assessment is not what the score overrode.'}),
-          ('Hollingbury argues the failure was in',
-           ['the scale', 'the ranking of kinds of evidence', 'the staffing', 'the transfer policy'],
-           1,
-           'Which he calls the testable version of their disagreement.',
-           {0: 'The scale is what she blames; he does not.', 2: 'Staffing is not raised as the failure.', 3: 'Transfer policy is not where he locates it.'}),
+          (
+           'In the case she describes, the score overrode free '
+           '____________ written by two nurses.', None,
+           'text',
+           'Recording command-following with her eyes for a week.'),
+          (
+           'Hollingbury argues the failure was in the ____________ of '
+           'kinds of evidence.', None, 'ranking',
+           'Which he calls the testable version of their disagreement.'),
           ('Their agreed next step is to',
            ['remove the scale', 'read the free text of 41 cases against the score', 'retrain assessors', 'redesign the form'],
            1,
@@ -887,24 +882,19 @@ UNIT = dict(
            ['weak evidence', 'not a result', 'misleading', 'rare'], 1,
            'The property he calls unlike almost anything else.',
            {0: 'He says it is not a result at all, not weak evidence.', 2: 'He does not call the negative misleading in itself.', 3: 'Rarity is not what he says about negative results.'}),
-          ('Each active block lasts',
-           ['ten seconds', 'thirty seconds', 'one minute', 'two minutes'],
-           1, 'Alternating with thirty seconds of rest.',
-           {0: 'Ten seconds is shorter than the block he describes.', 2: 'A minute is a block and its rest together.', 3: 'Two minutes is the baseline recording.'}),
+          ('Each active block lasts ____________ seconds.', None,
+           'thirty', 'Alternating with thirty seconds of rest.'),
           (
            'The blocks are in a fixed order so that coincidence '
-           'becomes',
-           ['measurable', 'implausible', 'detectable', 'rare'], 1,
-           'Which is why ten blocks run in a known sequence.',
-           {0: 'Measurability is not what the fixed order achieves.', 2: 'Detectability is not the word he uses for coincidence.', 3: 'Unlikely is what it was before; implausible is after.'}),
-          ('The statistical threshold is set',
-           ['after analysis', 'before collecting data', 'by the journal', 'per patient'],
-           1, 'Which is why it goes in the protocol.',
-           {0: 'Set after analysis, he says, it is not a threshold.', 2: 'The journal does not set the threshold.', 3: 'It is fixed once, not per patient.'}),
+           'becomes ____________.', None, 'implausible',
+           'Which is why ten blocks run in a known sequence.'),
+          (
+           'The statistical threshold is set ____________ collecting '
+           'data.', None, 'before',
+           'Which is why it goes in the protocol.'),
           ('How many explanations for a non-detection does he list?',
-           ['three', 'four', 'five', 'six'], 2,
-           'Including being asleep and imagining the wrong thing.',
-           {0: 'Three is fewer than the explanations he lists.', 1: 'Four leaves one of his explanations out.', 3: 'He lists five explanations, not six.'}),
+           None, 'five',
+           'Including being asleep and imagining the wrong thing.'),
           (
            'From a negative result, a report doing the method justice '
            'claims',
@@ -1250,12 +1240,9 @@ UNIT = dict(
            'do.')],
          items=[
           (
-           'Standard biological explanation, he says, specifies what a '
-           'thing is for and then finds',
-           ['its history', 'the mechanism that does it', 'its variants', 'its failures'],
-           1, 'Which he says leaves no residue.',
-           {0: 'History is not what biological explanation seeks.', 2: 'Variants are not what the form looks for.', 3: 'Failures illustrate the account rather than complete '
-               'it.'}),
+           'Standard biological explanation specifies what a thing is '
+           'for and then finds the ____________ that does it.',
+           None, 'mechanism', 'Which he says leaves no residue.'),
           (
            'The functional story about seeing red includes '
            'discriminating, remembering, reporting and',
@@ -1265,21 +1252,18 @@ UNIT = dict(
           (
            'The claim, he says, is not that a detail is missing but '
            'that the ____________ of explanation does not address the '
-           'thing.', ['language', 'form', 'scale', 'method'],
-           1,
+           'thing.', None, 'form',
            'So a longer functional story is more of what was not '
-           'helping.',
-           {0: 'Language is not what he says fails to address it.', 2: 'Scale is not the dimension at fault.', 3: 'Method is not his word for the problem.'}),
+           'helping.'),
           ('The reply he calls the sharpest holds that',
            ['conceivability proves nothing', 'there are two representations', 'the sense of a remainder is itself produced by a mechanism', 'the question is meaningless'],
            2,
            'So a theory would explain why we feel the explanation is '
            'incomplete.',
            {0: 'Conceivability proving nothing is the first reply.', 1: 'The two representations are the second reply.', 3: 'Meaninglessness is not among the three replies.'}),
-          ('He says the three replies all explain',
-           ['the experience', 'the intuition', 'the mechanism', 'the disagreement'],
-           1, 'Which was not what the complaint was about.',
-           {0: 'The experience is what the replies do not explain.', 2: 'Mechanism is not what the replies are about.', 3: 'The disagreement itself is not what they explain.'}),
+          ('He says the three replies all explain the ____________.',
+           None, 'intuition',
+           'Which was not what the complaint was about.'),
           ('His general lesson concerns',
            ['consciousness', 'the form of the argument', 'the history of science', 'experimental design'],
            1, 'An argument from failure of imagination.',
@@ -1637,12 +1621,10 @@ UNIT = dict(
            ['proven', 'a promissory note', 'a majority view', 'an empirical claim'],
            1, 'A prediction about future science.',
            {0: 'She does not claim her position is proven.', 2: 'Majority support is not what she claims.', 3: 'She says it is dressed as philosophy, not empirical.'}),
-          ('The historical parallel she offers concerns',
-           ['heat', 'life', 'light', 'motion'], 1,
+          ('The historical parallel she offers concerns ____________.',
+           None, 'life',
            'Where the best-informed people could not see how matter '
-           'could be alive.',
-           {0: 'Heat is one of the old cases, not the parallel drawn '
-               'here.', 2: 'Light is another old case, not the one offered.', 3: 'Motion is not among the historical parallels.'}),
+           'could be alive.'),
           (
            'Thackeray-Osei distinguishes his case by saying those '
            'people lacked',

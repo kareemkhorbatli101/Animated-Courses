@@ -456,19 +456,14 @@ UNIT = dict(
            {0: 'Detail alone is not what he says makes it valuable.', 2: 'Officialdom is not the quality he praises.', 3: 'It gives the number arrested, not their names.'}),
           (
            'Crowd estimates made from windows are, he says, high by a '
-           'factor of',
-           ['two', 'three or four', 'ten', 'an unknown amount'], 1,
-           'Which is why he doubts the resident\u2019s thousand.',
-           {0: 'Lower than the factor he reports.', 2: 'Higher than the factor he gives.', 3: 'He gives a definite factor for window estimates.'}),
+           'factor of three or ____________.', None, 'four',
+           'Which is why he doubts the resident\u2019s thousand.'),
           (
            'His lesson from the oral history is that the 1987 account '
-           'is good evidence about',
-           ['the afternoon', '1987', '1974', 'nothing'], 1,
+           'is good evidence about ____________.', None,
+           '1987',
            'And that both accounts are documents about different '
-           'years.',
-           {0: 'The afternoon is what the 1974 account is evidence '
-               'about.', 2: '1974 is the date of the earlier interview, not the '
-               'later one.', 3: 'He says both accounts are good evidence of something.'})]),
+           'years.')]),
     dict(heading='Two historians disagree about a source', part='Part 3',
          task='A discussion between two historians · multiple choice', band='l3',
          qtype='Questions 27-32',
@@ -526,30 +521,28 @@ UNIT = dict(
            1, 'She thinks the letter should be used.',
            {0: 'She says she thinks he should use the letter.', 2: 'She is defending the chapter\u2019s claim, not attacking '
                'it.', 3: 'The notebook comes up later, as the second half.'}),
-          ('What does Casimir\u2019s draft call the letter?',
-           ['a later recollection', 'contemporary testimony', 'an unreliable account', 'an eyewitness report'],
-           1, 'Although it was written four days afterwards.',
-           {0: 'A later recollection is what she says it should be '
-               'called.', 2: 'He does not describe it as unreliable.', 3: 'Eyewitness is accurate but not the phrase she objects '
-               'to.'}),
+          (
+           'Casimir\u2019s draft calls the letter contemporary '
+           '____________.', None, 'testimony',
+           'Although it was written four days afterwards.'),
           ('What finally persuades him to expand the citation?',
            ['the crowd figure', 'that it is the only evidence for his central claim', 'the four-day gap', 'the editor'],
            1, 'An argument Perpetua says she did not start with.',
            {0: 'The crowd figure is part of her objection, not the '
                'clincher.', 2: 'The four-day gap is one clause she wants added.', 3: 'No editor is mentioned in the exchange.'}),
-          ('For the eastern gate, Perpetua says the constable is',
-           ['the best source', 'not a source at all', 'a corroborating source', 'an official source'],
-           1, 'Because he records never having seen it.',
-           {0: 'He is the best source for the western end.', 2: 'He cannot corroborate what he did not see.', 3: 'Being official does not make him a witness to it.'}),
-          ('The absence of eastern disorder from the notebook is',
-           ['evidence it did not happen', 'not evidence of its absence', 'proof of a cover-up', 'inconclusive about the west'],
-           1,
-           'Which is the inference Casimir\u2019s next paragraph makes.',
-           {0: 'She says the absence proves nothing about the east.', 2: 'No concealment is alleged by either historian.', 3: 'The notebook is reliable about the west.'}),
-          ('Perpetua says an overstating citation is nearly always',
-           ['careless', 'load-bearing for something later', 'deliberate', 'harmless'],
-           1, 'Which is why she chased the citation at all.',
-           {0: 'She says it is rarely an accident.', 2: 'She does not say the overstatement is deliberate.', 3: 'She says it is worth chasing, so not harmless.'})])],
+          (
+           'For the eastern gate, Perpetua says the constable is not a '
+           '____________ at all.', None, 'source',
+           'Because he records never having seen it.'),
+          (
+           'The absence of eastern disorder from the notebook is not '
+           '____________ of its absence.', None, 'evidence',
+           'Which is the inference Casimir\u2019s next paragraph makes.'),
+          (
+           'Perpetua says an overstating citation is nearly always '
+           '____________ for something later.', None,
+           'load-bearing',
+           'Which is why she chased the citation at all.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Remembering',
     longturn=[('The event I remember differently is a car accident my family '
@@ -859,38 +852,31 @@ UNIT = dict(
          items=[
           (
            'He says that before hearing the cause, listeners have '
-           'already begun',
-           ['checking the figures', 'constructing an explanation', 'comparing archives', 'doubting the data'],
-           1, 'Civil war, disorder, administration breaking down.',
-           {0: 'The figures are not in dispute at that point.', 2: 'Other archives come up later in the lecture.', 3: 'The data is accepted; the explanation is the problem.'}),
+           'already begun constructing an ____________.',
+           None, 'explanation',
+           'Civil war, disorder, administration breaking down.'),
           ('Court and legal records in the sixteenth century stood at',
            ['12', '26', '41', '214'], 2,
            'Rising to 214 by the nineteenth.',
            {0: 'Twelve is the seventeenth-century court figure.', 1: 'Twenty-six is the sixteenth-century estate figure.', 3: '214 is the nineteenth-century court figure.'}),
-          ('The cause of the seventeenth-century gap was',
-           ['civil war', 'a fire in 1783', 'poor cataloguing', 'theft'],
-           1, 'The deposits having been shelved together.',
-           {0: 'Civil war is the explanation he says listeners '
-               'construct.', 2: 'Cataloguing is a separate distortion in the next '
-               'cycle.', 3: 'Theft is not mentioned as a cause.'}),
+          (
+           'The cause of the seventeenth-century gap was a '
+           '____________ in 1783.', None, 'fire',
+           'The deposits having been shelved together.'),
           (
            'The sixteenth-century material survived because it had '
-           'been',
-           ['copied', 'moved to the cathedral', 'kept in another county', 'stored in metal cases'],
-           1, 'Twelve years before the fire destroyed the rest.',
-           {0: 'No copying is mentioned in the lecture.', 2: 'It stayed in the county, at the cathedral.', 3: 'Storage material is not what saved it.'}),
+           'been moved to the ____________.', None,
+           'cathedral',
+           'Twelve years before the fire destroyed the rest.'),
           (
            'Estate records fell to what percentage of their '
-           'sixteenth-century rate?',
-           ['twenty-nine', 'thirty-five', 'forty-one', 'fifty'], 1,
-           'Against twenty-nine for both court and parish records.',
-           {0: 'Twenty-nine is the court and parish figure.', 2: 'Forty-one is the sixteenth-century court rate.', 3: 'Higher than the percentage he gives.'}),
-          ('His closing rule is to describe the hole and then',
-           ['explain it', 'stop', 'compare archives', 'estimate the loss'],
-           1,
+           'sixteenth-century rate?', None, 'thirty-five',
+           'Against twenty-nine for both court and parish records.'),
+          (
+           'His closing rule is to describe the hole and then '
+           '____________.', None, 'stop',
            'Because the explanation you find satisfying was built '
-           'without evidence.',
-           {0: 'He says the cause is not in the chart.', 2: 'Comparison with other archives is a separate point.', 3: 'Estimating the loss is part of describing the hole.'})])],
+           'without evidence.')])],
    speak=dict(
     part='Part 3', focus='What the past left behind',
     intro=('Five or six sentences. Try once to say what an absence does '
@@ -1242,34 +1228,29 @@ UNIT = dict(
            'the step when challenged.')],
          items=[
           (
-           'The sentence the lecture follows from is that what '
-           'survives is the residue of',
-           ['a society', 'an administration', 'a generation', 'a collection'],
-           1, 'Rather than a sample of a society.',
-           {0: 'A sample of a society is what it is not.', 2: 'A generation is not the unit he names.', 3: 'The collection is what the residue consists of.'}),
+           'The lecture follows from the sentence that what survives '
+           'is the residue of an ____________.', None,
+           'administration', 'Rather than a sample of a society.'),
           ('Counting disputes in a parish archive measures',
            ['how quarrelsome the parish was', 'how good quarrels are at generating documents', 'the size of the parish', 'the quality of the archive'],
            1, 'Because agreement leaves no trail.',
            {0: 'That is the conclusion he says is unwarranted.', 2: 'Parish size is not what the count measures.', 3: 'Archive quality is not what is being measured.'}),
-          ('He says the archive records the poor',
-           ['not at all', 'as objects of administration', 'in their own words', 'only after 1800'],
-           1, 'Which he calls different from the comfortable version.',
-           {0: 'He says the archive is not silent about them.', 2: 'Their own words are what the record does not carry.', 3: 'No date threshold is given in the lecture.'}),
-          ('Anything shelved together, he says, is',
-           ['catalogued together', 'lost together', 'found first', 'copied'],
-           1, 'Which can remove a century from a collection.',
-           {0: 'Cataloguing is a separate, fourth distortion.', 2: 'Being found first is not what he says happens.', 3: 'Copying is not part of his account of survival.'}),
-          ('The fourth distortion operates through',
-           ['storage', 'cataloguing', 'language', 'ownership'], 1,
-           'Since nobody finds what they do not know is there.',
-           {0: 'Storage is the third distortion, not the fourth.', 2: 'Language is not among the four distortions.', 3: 'Ownership drives the second distortion.'}),
+          (
+           'He says the archive records the poor as objects of '
+           '____________.', None, 'administration',
+           'Which he calls different from the comfortable version.'),
+          (
+           'Anything shelved together, he says, is ____________ '
+           'together.', None, 'lost',
+           'Which can remove a century from a collection.'),
+          ('The fourth distortion operates through ____________.',
+           None, 'cataloguing',
+           'Since nobody finds what they do not know is there.'),
           (
            'He blocks the response that nothing can be known by saying '
-           'the distortions are',
-           ['small', 'systematic and directional', 'recent', 'correctable'],
-           1, 'A known bias being different from an unknown one.',
-           {0: 'He does not claim the distortions are small.', 2: 'Age of the distortions is not his answer.', 3: 'Correctability follows from direction, not the '
-               'reverse.'})])],
+           'the distortions are systematic and ____________.',
+           None, 'directional',
+           'A known bias being different from an unknown one.')])],
    speak=dict(
     part='Part 3', focus='Whose past is recorded',
     followup=[('You say the record favours some lives. Is that changing?',

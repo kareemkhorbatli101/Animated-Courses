@@ -432,21 +432,19 @@ UNIT = dict(
            ['owned', 'impossible to exclude people from and diminished by use', 'scarce and valuable', 'publicly funded'],
            1, 'Giving each user the same arithmetic.',
            {0: 'Ownership is what would break the structure.', 2: 'Scarcity alone does not produce the arithmetic.', 3: 'Public funding is not part of the structure.'}),
-          ('The outcome does not require',
-           ['many users', 'greed or short-sightedness', 'a large resource', 'weak law'],
-           1,
-           'A skipper who knows and cares faces the same arithmetic.',
-           {0: 'He does not say the number of users is irrelevant.', 2: 'Resource size is not what he rules out.', 3: 'Weak law is not the condition he dismisses.'}),
-          ('He says appeals for restraint fail',
-           ['sometimes', 'in a direction, because compliers are selected against', 'only where users are many', 'unless repeated'],
-           1,
+          ('The outcome does not require greed or ____________.', None,
+           'short-sightedness',
+           'A skipper who knows and cares faces the same arithmetic.'),
+          (
+           'He says appeals for restraint fail in a direction, because '
+           'compliers are selected ____________.', None,
+           'against',
            'The benefit is captured by whoever does not restrain '
-           'themselves.',
-           {0: 'He says they fail in a direction, not sometimes.', 2: 'He does not limit the failure to large groups.', 3: 'Repetition does not change the arithmetic.'}),
-          ('The fourth fishery, which never declined, he describes as',
-           ['the best governed', 'not a success', 'a model for others', 'poorly measured'],
-           1, 'Because nobody has ever been able to fish it hard.',
-           {0: 'He says it is not a case of governance at all.', 2: 'He warns against treating it as a model.', 3: 'Measurement is not what he questions about it.'})]),
+           'themselves.'),
+          (
+           'The fourth fishery, which never declined, he describes as '
+           'not a ____________.', None, 'success',
+           'Because nobody has ever been able to fish it hard.')]),
     dict(heading='Two residents disagree about shared costs',
          part='Part 3', task='A discussion between two residents · multiple choice',
          band='l3', qtype='Questions 27-32',
@@ -499,29 +497,27 @@ UNIT = dict(
           ('Thomasina', 'That is the refinement, and you found it rather '
            'than me. Put it in the proposal that way.')],
          items=[
-          ('Thomasina begins by accepting that',
-           ['the courtyard is clean', 'four flats pay and nine benefit', 'compulsion is needed', 'the rota works'],
-           1, 'Which she calls unjust and unstable.',
-           {0: 'Cleanliness of the courtyard is not what she concedes.', 2: 'Compulsion for the courtyard she accepts later, '
-               'separately.', 3: 'No rota is part of this dispute.'}),
+          (
+           'Thomasina begins by accepting that four flats pay and '
+           '____________ benefit.', None, 'nine',
+           'Which she calls unjust and unstable.'),
           ('Her objection concerns',
            ['the courtyard', 'compulsion as a principle extending to the roof garden', 'the cost', 'the committee'],
            1, 'Which Casimir\u2019s argument would also cover.',
            {0: 'She accepts compulsion for the courtyard.', 2: 'Cost comes in only at the window boxes.', 3: 'The committee is not what she objects to.'}),
-          ('The test she proposes is whether somebody can be',
-           ['charged', 'excluded from the benefit', 'identified', 'consulted'],
-           1, 'Nobody can be excluded from a clean courtyard.',
-           {0: 'Charging is what follows from the test, not the test.', 2: 'Identifying users is not the question she asks.', 3: 'Consultation is not part of her test.'}),
-          ('She says the principle is',
-           ['hers', 'about two hundred years old', 'new', 'contested'],
-           1,
+          (
+           'The test she proposes is whether somebody can be '
+           '____________ from the benefit.', None,
+           'excluded', 'Nobody can be excluded from a clean courtyard.'),
+          (
+           'She says the principle is about ____________ hundred years '
+           'old.', None, 'two',
            'And explains why street lighting is taxed and gyms are '
-           'not.',
-           {0: 'She says explicitly that it is not hers.', 2: 'She dates it back about two hundred years.', 3: 'She treats it as settled, with examples.'}),
-          ('The bin store falls on the compulsory side because',
-           ['it has a key', 'rats do not respect the key', 'everybody uses it', 'it is expensive'],
-           1, 'So the benefit of cleaning reaches everybody.',
-           {0: 'The key is why it looks excludable.', 2: 'Use is not what puts it on the compulsory side.', 3: 'Cost is not the deciding factor here.'}),
+           'not.'),
+          (
+           'The bin store falls on the compulsory side because rats do '
+           'not respect the ____________.', None, 'key',
+           'So the benefit of cleaning reaches everybody.'),
           ('The refinement they reach is that the test concerns',
            ['access', 'the benefit rather than the access', 'cost', 'frequency of use'],
            1, 'Which Casimir found rather than Thomasina.',
@@ -839,29 +835,26 @@ UNIT = dict(
            'the pressure the failures were under, and surprisingly often '
            'the answer is no.')],
          items=[
-          ('He says the least informative thing on the chart is',
-           ['the vertical scale', 'the names in the key', 'the dates', 'the units'],
-           1, 'And that most people organise around them.',
-           {0: 'The vertical scale carries the stock figures.', 2: 'The dates define the thirty-year period.', 3: 'The units are thousands of tonnes, which he uses.'}),
-          ('The flatness of the collapsed group represents',
-           ['stability', 'a stock too small to rebuild', 'successful management', 'a measurement limit'],
-           1, 'After fifteen years along the bottom.',
-           {0: 'He says explicitly that it is not stability.', 2: 'The collapsed group was not well managed.', 3: 'No measurement limit is suggested.'}),
+          (
+           'He says the least informative thing on the chart is the '
+           'names in the ____________.', None, 'key',
+           'And that most people organise around them.'),
+          (
+           'The flatness of the collapsed group represents a stock too '
+           'small to ____________.', None, 'rebuild',
+           'After fifteen years along the bottom.'),
           (
            'Ashcombe Deep ended within what percentage of its starting '
-           'level?', ['two', 'eight', 'fifteen', 'twenty'],
-           1, 'Climbing from a minimum of 128 in 2004.',
-           {0: 'Closer than the figure he gives.', 2: 'Further than the eight per cent he reports.', 3: 'Far further than the gap he gives.'}),
+           'level?', None, 'eight',
+           'Climbing from a minimum of 128 in 2004.'),
           (
            'The difference between the collapse group and the recovery '
-           'was',
-           ['the quota', 'who verified the numbers', 'fleet size', 'the species'],
-           1, 'All three operated under quota.',
-           {0: 'All three operated under quota, which is his point.', 2: 'Fleet size is not what he identifies.', 3: 'The species is not the variable he names.'}),
-          ('Kelverstone\u2019s stability is described as a fact about',
-           ['its rules', 'the weather', 'its fleet', 'its quota'], 1,
-           'Since effort has never threatened the stock.',
-           {0: 'It has no rules at all, which is his point.', 2: 'The fleet is not what keeps the stock steady.', 3: 'It has no quota in place.'}),
+           'was who ____________ the numbers.', None,
+           'verified', 'All three operated under quota.'),
+          (
+           'Kelverstone\u2019s stability is described as a fact about the '
+           '____________.', None, 'weather',
+           'Since effort has never threatened the stock.'),
           ('On meeting a success story, his first question is',
            ['what it did', 'whether it was ever under pressure', 'who funded it', 'how long it lasted'],
            1, 'And the answer is surprisingly often no.',
@@ -1206,17 +1199,13 @@ UNIT = dict(
            'theory of how to build one of these things. The features were '
            'found in institutions that grew, which is not advice.')],
          items=[
-          ('The standard prediction was refuted by',
-           ['argument', 'fieldwork', 'simulation', 'legislation'], 1,
-           'Which the lecturer says is rarer than it sounds.',
-           {0: 'He says it was refuted by looking, not by arguing.', 2: 'No simulation is mentioned in the lecture.', 3: 'Legislation is not what refuted the prediction.'}),
-          ('The research programme is described as',
-           ['theoretical', 'comparative', 'experimental', 'historical'],
-           1,
+          ('The standard prediction was refuted by ____________.',
+           None, 'fieldwork',
+           'Which the lecturer says is rarer than it sounds.'),
+          ('The research programme is described as ____________.',
+           None, 'comparative',
            'The programme covered four kinds of resource, several '
-           'hundred cases.',
-           {0: 'He says explicitly that it was not theoretical.', 2: 'Nothing was assigned or randomised in the programme.', 3: 'Historical depth is a property of the cases, not the '
-               'method.'}),
+           'hundred cases.'),
           ('Which of these is NOT among the eight features?',
            ['clear boundaries', 'ownership', 'graduated sanctions', 'nesting'],
            1, 'He stresses that ownership is absent from the list.',
@@ -1227,14 +1216,12 @@ UNIT = dict(
            {0: 'They begin trivially, so they do not deter strongly.', 2: 'Cheapness is a property of conflict resolution.', 3: 'No legal requirement is involved.'}),
           (
            'The objection to monitoring by users is answered by making '
-           'it',
-           ['anonymous', 'a rotating paid job', 'external', 'voluntary'],
-           1, 'Rather than being left as a moral duty of neighbours.',
-           {0: 'Anonymity is not what the successful cases used.', 2: 'External monitoring is what the condition rules out.', 3: 'A voluntary duty is exactly what fails.'}),
-          ('He says the eight features are',
-           ['a theory of institution-building', 'a description of survivors', 'a legal framework', 'a prediction'],
-           1, 'Observed in institutions that survived.',
-           {0: 'He says it was never a theory of institution-building.', 2: 'No legal framework is described.', 3: 'A description of survivors predicts nothing.'})])],
+           'it a rotating paid ____________.', None, 'job',
+           'Rather than being left as a moral duty of neighbours.'),
+          (
+           'He says the eight features are a description of '
+           '____________.', None, 'survivors',
+           'Observed in institutions that survived.')])],
    speak=dict(
     part='Part 3', focus='Rules people make for themselves',
     followup=[(('You say succession failed rather than free-riding. Are self- '

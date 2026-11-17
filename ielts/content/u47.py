@@ -230,18 +230,18 @@ UNIT = dict(
            'ownership. Neither of them is lying and both of them have been '
            'misinformed.')],
          items=[
-          ('The speaker says "it is private property"',
-           ['is false', 'is true but settles nothing', 'is a modern invention', 'applies only to buildings'],
-           1, 'And understanding why is most of the subject.',
-           {0: 'He says the sentence is true.', 2: 'He says absolute ownership is the recent invention.', 3: 'He is discussing land, not buildings alone.'}),
-          ('Ownership of land is described as',
-           ['a single right', 'a bundle of separable rights', 'a recent concept', 'a public arrangement'],
-           1, 'Held by different people routinely for eight centuries.',
-           {0: 'He says it has never been a single right.', 2: 'He dates the separable version back eight centuries.', 3: 'Private and public rights both sit in the bundle.'}),
-          ('The speaker says the unified version of ownership is',
-           ['the historical norm', 'the recent invention', 'a legal fiction', 'universal'],
-           1, 'While the separable version is the historical norm.',
-           {0: 'The separable version is the historical norm.', 2: 'He does not call it a fiction, but a recent idea.', 3: 'He says the answer differs by country and century.'}),
+          (
+           'The speaker says "it is private property" is true but '
+           'settles ____________.', None, 'nothing',
+           'And understanding why is most of the subject.'),
+          (
+           'Ownership of land is described as a bundle of ____________ '
+           'rights.', None, 'separable',
+           'Held by different people routinely for eight centuries.'),
+          (
+           'The speaker says the ____________ version of ownership is '
+           'the recent invention.', None, 'unified',
+           'While the separable version is the historical norm.'),
           ('In most heated disputes he attends,',
            ['one party is dishonest', 'both parties hold genuine rights and have been misinformed', 'the law is unclear', 'the map is wrong'],
            1, 'Each told that their right is the whole of ownership.',
@@ -487,21 +487,19 @@ UNIT = dict(
            'keep a paragraph of it in a file and paste it into every '
            'letter of this kind.')],
          items=[
-          ('Rosalind\u2019s immediate problem is that',
-           ['the map is wrong', 'the path is fenced and prosecution costs eleven thousand pounds', 'the landowner has appealed', 'the route is dangerous'],
-           1, 'Which is why she wants to accept a permissive route.',
-           {0: 'The map is not in dispute in this case.', 2: 'No appeal is mentioned by either officer.', 3: 'Danger is not the problem she describes.'}),
-          ('Emeka\u2019s objection is that permission',
-           ['is unlawful', 'can be withdrawn', 'costs more', 'requires advertising'],
-           1,
+          (
+           'Rosalind\u2019s immediate problem is that the path is fenced '
+           'and prosecution costs ____________ thousand pounds.',
+           None, 'eleven',
+           'Which is why she wants to accept a permissive route.'),
+          ('Emeka objects that permission can be ____________.', None,
+           'withdrawn',
            'Leaving a successor to reopen rather than maintain the '
-           'route.',
-           {0: 'A permissive route is lawful, which is why she '
-               'proposes it.', 2: 'Permission is the cheaper option this year.', 3: 'Advertising belongs to a diversion application.'}),
-          ('Rosalind points out that the recorded right',
-           ['is extinguished', 'stays on the definitive map', 'must be re-registered', 'lapses after four years'],
-           1, 'Whatever the two officers agree.',
-           {0: 'She says the recorded right is not extinguished.', 2: 'No re-registration is required for a recorded route.', 3: 'Nothing in the exchange suggests a four-year lapse.'}),
+           'route.'),
+          (
+           'Rosalind points out that the recorded right stays on the '
+           '____________ map.', None, 'definitive',
+           'Whatever the two officers agree.'),
           ('Emeka answers that in practice the 2029 officer would be',
            ['maintaining it', 'reopening it', 'prosecuting', 'diverting it'],
            1,
@@ -801,27 +799,24 @@ UNIT = dict(
            'missing one is the cost of the inputs rather than their '
            'quantity.')],
          items=[
-          ('The purchased input index reaches',
-           ['144', '164', '186', '200'], 2,
-           'Against 144 for yield over the same period.',
-           {0: '144 is the yield index at the end of the period.', 1: 'No figure of that size appears on the chart.', 3: 'Higher than the input index he reports.'}),
-          ('The gap between the top two lines shows that',
-           ['yield is falling', 'each extra unit of output costs more to obtain', 'inputs are cheaper', 'the farm is profitable'],
-           1, 'So a margin can shrink while yield rises.',
-           {0: 'Yield rises throughout the period.', 2: 'Inputs rose faster than output, so not cheaper.', 3: 'Profitability is what the gap puts in doubt.'}),
-          ('In the original units, soil organic matter fell from',
-           ['4.1 to 3.0 per cent', '7.4 to 4.0 per cent', '10 to 7.4 per cent', '2.0 to 1.5 per cent'],
-           0, 'Against a structural failure threshold of about 2.0.',
-           {1: 'These are index values, not percentages of organic '
-               'matter.', 2: 'Neither figure matches the units he gives.', 3: '2.0 is the failure threshold, not the starting point.'}),
+          ('The purchased input index reaches ____________.', None,
+           '186', 'Against 144 for yield over the same period.'),
+          (
+           'The gap between the top two lines shows that each extra '
+           'unit of output costs ____________ to obtain.',
+           None, 'more', 'So a margin can shrink while yield rises.'),
+          (
+           'In the original units, soil organic matter fell from 4.1 '
+           'to ____________ per cent.', None, '3.0',
+           'Against a structural failure threshold of about 2.0.'),
           ('Which explanation does he tell students to resist?',
            ['That yields rose', 'That inputs are replacing fertility', 'That the soil is declining', 'That the farm is one holding'],
            1, 'Because rotation, tenancy and prices fit equally well.',
            {0: 'Rising yield is simply what the chart shows.', 2: 'The decline in soil is read directly from the chart.', 3: 'The chart covers one holding, which is stated.'}),
-          ('The fourth thing an index hides is its own',
-           ['units', 'base year', 'source', 'frequency'], 1,
-           'An unusually bad base year flatters everything after it.',
-           {0: 'The units are what indexing removes, and he says so.', 2: 'The source is not what an index conceals.', 3: 'Frequency is visible from the series itself.'}),
+          (
+           'The fourth thing an index hides is its own ____________ '
+           'year.', None, 'base',
+           'An unusually bad base year flatters everything after it.'),
           (
            'His honest reading is that the three series are consistent '
            'with',
@@ -1151,10 +1146,11 @@ UNIT = dict(
            'actually wanted. I think that is a price worth paying and I '
            'would not pretend it is free.')],
          items=[
-          ('Soil is not recorded because there is no convention for',
-           ['valuing land', 'depreciating an asset nobody purchased', 'measuring organic matter', 'taxing natural assets'],
-           1, 'Unlike machinery, which is depreciated carefully.',
-           {0: 'Land is valued in the accounts already.', 2: 'Organic matter can be measured, at a cost.', 3: 'Taxation is not the convention he names.'}),
+          (
+           'Soil is not recorded because there is no convention for '
+           '____________ an asset nobody purchased.', None,
+           'depreciating',
+           'Unlike machinery, which is depreciated carefully.'),
           (
            'If soil were treated like machinery, a farm drawing it '
            'down would appear to have',
@@ -1166,17 +1162,15 @@ UNIT = dict(
            1,
            'Most tenancies being shorter than soil improvement takes.',
            {0: 'Rebuilding soil does not breach a tenancy.', 2: 'The crop is not lost by improving the soil.', 3: 'Rent is not what rises in his account.'}),
-          ('Valuation is circular because a soil',
-           ['changes constantly', 'has no price apart from the land, so is valued from its output', 'cannot be measured', 'is owned jointly'],
-           1, 'Making the asset value a function of the income.',
-           {0: 'Constant change is not what makes the valuation '
-               'circular.', 2: 'He says measurement is expensive, not impossible.', 3: 'Joint ownership is not part of the difficulty.'}),
+          (
+           'Valuation is circular because soil has no ____________ '
+           'apart from the land.', None, 'price',
+           'Making the asset value a function of the income.'),
           (
            'The objection that worries him most is that soil on a '
-           'balance sheet becomes',
-           ['taxable', 'collateral', 'tradeable', 'insurable'], 1,
-           'Giving every farmer a reason to report good condition.',
-           {0: 'Taxation is not the objection he singles out.', 2: 'Tradeability is not what he says follows.', 3: 'Insurance is not mentioned in the lecture.'}),
+           'balance sheet becomes ____________.', None,
+           'collateral',
+           'Giving every farmer a reason to report good condition.'),
           ('His own proposal is to measure the physical quantity and',
            ['value it annually', 'keep it off the balance sheet', 'report it publicly', 'tax it'],
            1, 'Required at the start and end of a tenancy.',
@@ -1519,14 +1513,15 @@ UNIT = dict(
            ['falsified records', 'moved habitat towards survey points', 'left the scheme early', 'under-reported his land'],
            1, 'Without thinking of it as cheating at the time.',
            {0: 'No records were falsified in his account.', 2: 'He stayed in all three schemes.', 3: 'He did not misreport the size of his holding.'}),
-          ('The design of the bird scheme assumed that farmers',
-           ['would create habitat', 'did not know where the survey points were', 'would not participate', 'would under-report'],
-           1, 'Though the points were stated in the agreement.',
-           {0: 'Habitat creation is what the scheme intended to buy.', 2: 'Participation was high, which is why the index rose.', 3: 'Under-reporting is not what the design assumed.'}),
-          ('He says the soil scheme was corrosive because',
-           ['payments were late', 'identical farms were paid differently', 'the sampling was intrusive', 'the rate was too low'],
-           1, 'Which teaches everybody that the scheme is a lottery.',
-           {0: 'Late payment is not what he complains of.', 2: 'Intrusiveness is not his objection.', 3: 'The rate is not what made it corrosive.'}),
+          (
+           'The design of the bird scheme assumed that farmers did not '
+           'know where the ____________ points were.', None,
+           'survey', 'Though the points were stated in the agreement.'),
+          (
+           'He says the soil scheme was corrosive because identical '
+           'farms were ____________ differently.', None,
+           'paid',
+           'Which teaches everybody that the scheme is a lottery.'),
           ('What does she now recommend for most payments?',
            ['Outcomes', 'Actions', 'A mixture of both at every farm', 'No payment'],
            1, 'With outcome payments only where measurement is cheap.',

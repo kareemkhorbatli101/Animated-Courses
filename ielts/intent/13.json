@@ -1,0 +1,10 @@
+{
+ "note": "Phase 13 (in progress) - the listening strand rebalanced. Volumes 3 to 6 put two thirds of their listening questions into multiple choice, which no real Listening paper does; the Foundation books and Volumes 1 and 2 put four fifths of theirs into gap completion. The fix is not new recordings, which are sound, but asking the existing question in the form the real paper would use. A conversion keeps the fact being tested and changes how the candidate answers: the keyed option already is the answer, so a stem plus its keyed option becomes a gapped sentence or a question, the option list and its wrong-option lines go, and the explanation stays because the evidence is the same sentence of the script either way. convert.py checks every one: a completion stem must carry a gap, a short-answer stem must ask something, the answer must be inside the three words the rubric allows, and the item must stop being multiple choice. Volume 6 and Volume 5 are done: 150 and 149 items respectively.",
+ "items": ["*"],
+ "item_fields": ["stem", "ans", "opts", "why", "wrongs"],
+ "texts": [],
+ "prose": ["*"],
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

@@ -467,28 +467,22 @@ UNIT = dict(
            'is what is happening.')],
          items=[
           (
-           'He argues that three of the four failures were failures of',
-           ['method', 'reporting', 'data', 'funding'], 1,
-           'For which the remedies are completely different.',
-           {0: 'He says three of the four were not failures of method.', 2: 'Data quality is not what he blames.', 3: 'Funding is not among the failures he describes.'}),
-          ('A projection, he says, is',
-           ['a prediction', 'a conditional statement', 'an estimate', 'a scenario'],
-           1,
+           'He argues that three of the four failures were failures of '
+           '____________.', None, 'reporting',
+           'For which the remedies are completely different.'),
+          ('A projection, he says, is a ____________ statement.', None,
+           'conditional',
            'Whose condition is stripped off between modeller and '
-           'reader.',
-           {0: 'He says explicitly that it is not a prediction.', 2: 'An estimate carries no condition with it.', 3: 'The scenario is the condition, not the statement.'}),
-          ('The traffic outturn of fifteen thousand was',
-           ['above the range', 'inside the range', 'below the range', 'not measured'],
-           1, 'Against a published range of fourteen to thirty-one.',
-           {0: 'Fifteen is below the central figure but inside the '
-               'range.', 2: 'Fourteen is the bottom of the range, so fifteen is '
-               'inside.', 3: 'The outturn was measured at fifteen thousand.'}),
-          ('His recommendation is to stop publishing',
-           ['ranges', 'a central figure', 'assumptions', 'press releases'],
-           1,
+           'reader.'),
+          (
+           'The traffic outturn of fifteen thousand was ____________ '
+           'the published range.', None, 'inside',
+           'Against a published range of fourteen to thirty-one.'),
+          (
+           'His recommendation is to stop publishing a ____________ '
+           'figure.', None, 'central',
            'And to give a journalist the range again if they ask for a '
-           'number.',
-           {0: 'He wants the range published, not withheld.', 2: 'He wants the condition published with the range.', 3: 'He wants press releases to carry the range.'})]),
+           'number.')]),
     dict(heading='Two forecasters disagree about a projection',
          part='Part 3', task='A discussion between two forecasters · multiple choice',
          band='l3', qtype='Questions 27-32',
@@ -543,39 +537,32 @@ UNIT = dict(
            'with.')],
          items=[
           (
-           'Thomasina\u2019s argument against a range with no central '
-           'figure is that',
-           ['it is dishonest', 'it is less usable for somebody who must choose', 'it is too wide', 'it is unpublishable'],
-           1, 'A planner cannot build a range.',
-           {0: 'She does not call the practice dishonest.', 2: 'Width is not her objection to a range.', 3: 'A range can be published; her point is about use.'}),
+           'Thomasina argues that a range with no central figure is '
+           'less ____________ for somebody who must choose.',
+           None, 'usable', 'A planner cannot build a range.'),
           (
-           'If a planner takes the midpoint of a skewed range, they '
-           'take a figure',
-           ['most likely', 'less likely than either end', 'identical to the mean', 'outside the range'],
-           1, 'Which she says the modeller has caused.',
-           {0: 'The midpoint of a skewed range is not the most likely '
-               'value.', 2: 'The midpoint and the mean need not coincide.', 3: 'The midpoint lies inside the range by definition.'}),
+           'A planner who takes the midpoint of a skewed range takes a '
+           'figure ____________ likely than either end.',
+           None, 'less', 'Which she says the modeller has caused.'),
           ('Casimir concedes her case for',
            ['the newspaper', 'the planner', 'both audiences', 'neither'],
            1, 'And says he can answer it for the other audience.',
            {0: 'The newspaper is the audience he says he can answer '
                'for.', 2: 'He concedes one audience and not the other.', 3: 'He concedes her case for one of the two.'}),
-          ('His proposal is',
-           ['one document with a range', 'two documents for two audiences', 'no press release', 'a longer annex'],
-           1,
+          ('His proposal is ____________ documents for two audiences.',
+           None, 'two',
            'The annex giving the central figure, the release the range '
-           'and condition.',
-           {0: 'One document for both audiences is what he rejects.', 2: 'He keeps the press release and changes its content.', 3: 'Length of the annex is not his proposal.'}),
+           'and condition.'),
           ('Why does he say it will fail?',
            ['it costs too much', 'the press release is written by people who want approval', 'journalists object', 'planners object'],
            1,
            'Which makes it a question about drafting rather than '
            'forecasting.',
            {0: 'Cost is not what he says will defeat it.', 2: 'Journalists are not who he says will resist.', 3: 'Planners are served by his proposal.'}),
-          ('Thomasina\u2019s advice is to put the recommendation',
-           ['last', 'first', 'in an annex', 'in a footnote'], 1,
-           'Because the present order reads as a complaint.',
-           {0: 'The present order puts it last, which she criticises.', 2: 'She wants it in the main text, not an annex.', 3: 'A footnote is less prominent still.'})])],
+          (
+           'Thomasina advises putting the recommendation ____________.',
+           None, 'first',
+           'Because the present order reads as a complaint.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Prediction',
     longturn=[('The prediction I want to talk about is that my city\'s new tram '
@@ -879,20 +866,13 @@ UNIT = dict(
            'and the slow loop contaminates the data. Four sentences, and '
            'they will take you further than any amount of arithmetic.')],
          items=[
-          ('How many components does the diagram have?',
-           ['seven', 'eight', 'nine', 'ten'], 2,
-           'With ten movements between them.',
-           {0: 'Fewer than the components he counts.', 1: 'One short of the number of components.', 3: 'Ten is the number of movements, not components.'}),
-          ('Choosing the structure is described as',
-           ['mechanical', 'a judgement', 'automated', 'arbitrary'], 1,
-           'Two good teams given the same data may choose differently.',
-           {0: 'Fitting is the mechanical step, not structure.', 2: 'Automation belongs to the fitting routine.', 3: 'He says both teams could defend their choice.'}),
-          ('The step with the least judgement in it is',
-           ['choosing structure', 'fitting', 'the hindcast', 'annual review'],
-           1, 'He says a clerk could supervise it.',
-           {0: 'Choosing structure is the judgement he contrasts it '
-               'with.', 2: 'The hindcast is the test, which requires choices about '
-               'tolerance.', 3: 'Annual review compares the range with the outturn.'}),
+          ('How many components does the diagram have?', None, 'nine',
+           'With ten movements between them.'),
+          ('Choosing the structure is described as a ____________.',
+           None, 'judgement',
+           'Two good teams given the same data may choose differently.'),
+          ('The step with the least judgement in it is ____________.',
+           None, 'fitting', 'He says a clerk could supervise it.'),
           ('The held-back years are excluded from fitting because',
            ['they are unreliable', 'a model tested on its own fitting data always looks good', 'they are too recent', 'they are incomplete'],
            1, 'And such tests are still published.',
@@ -900,12 +880,8 @@ UNIT = dict(
                'model.'}),
           (
            'A model adjusted repeatedly until it matches the held-back '
-           'years has effectively been',
-           ['validated', 'fitted to them', 'improved', 'simplified'], 1,
-           'So the test has stopped being a test.',
-           {0: 'Validation is what the hindcast was supposed to '
-               'provide.', 2: 'Matching the test years is not an improvement in the '
-               'model.', 3: 'Repeated adjustment does not simplify anything.'}),
+           'years has effectively been ____________ to them.',
+           None, 'fitted', 'So the test has stopped being a test.'),
           ('The problem he says nobody has solved concerns',
            ['computing cost', 'a forecast changing the behaviour it forecasts', 'missing data', 'staff turnover'],
            1,
@@ -1247,32 +1223,26 @@ UNIT = dict(
            'asks, and where it has been asked the answer was: less often '
            'than the spread implied.')],
          items=[
-          ('The word that is almost never checked is',
-           ['accurate', 'independent', 'calibrated', 'validated'], 1,
-           'Which the textbook reasoning rests on entirely.',
-           {0: 'Accuracy is what the agreement is taken to indicate.', 2: 'Calibration is a separate step in model building.', 3: 'Validation is the purpose, not the unchecked word.'}),
+          ('The word that is almost never checked is ____________.',
+           None, 'independent',
+           'Which the textbook reasoning rests on entirely.'),
           (
            'The mid-2000s survey found that models from different '
            'institutions',
            ['used different methods', 'shared substantial sections of code', 'disagreed sharply', 'were unpublished'],
            1, 'In some cases without either group knowing.',
            {0: 'The finding was shared code, not different methods.', 2: 'Sharp disagreement would be evidence of independence.', 3: 'The models were published and surveyed.'}),
-          ('Ensemble spread measures',
-           ['distance from the truth', 'how far models are from each other', 'parameter uncertainty only', 'forecast error'],
-           1, 'Which is why it understates the uncertainty.',
-           {0: 'Distance from the truth is what spread does not '
-               'measure.', 2: 'Spread includes some structural variation across '
-               'models.', 3: 'Forecast error is measured against the outturn '
-               'instead.'}),
+          (
+           'Ensemble spread measures how far the models are from '
+           '____________.', None, 'each other',
+           'Which is why it understates the uncertainty.'),
           ('The structural check counts',
            ['models', 'distinct assumptions represented', 'institutions', 'publications'],
            1, 'Finding four or five across twenty models.',
            {0: 'Counting models is what the structural check corrects.', 2: 'Institutions are what the shared code crosses.', 3: 'Publications are not what is counted.'}),
-          ('An ensemble provides',
-           ['a probability distribution', 'a lower bound on uncertainty', 'a central estimate', 'a validation'],
-           1,
-           'Which the lecturer admits he has himself misrepresented.',
-           {0: 'He says it is presented as one and is not.', 2: 'A central estimate is a separate output.', 3: 'Validation is what agreement is wrongly taken for.'}),
+          ('An ensemble provides a lower ____________ on uncertainty.',
+           None, 'bound',
+           'Which the lecturer admits he has himself misrepresented.'),
           (
            'Where the third question has been asked, past ensembles '
            'contained the outturn',
@@ -1747,21 +1717,18 @@ UNIT = dict(
            '"Choose robust options" is not advice until something is '
            'given up.',
            {0: 'He argues the published uncertainty is understated.', 2: 'He works with models rather than ignoring them.', 3: 'Mathematical difficulty is not his concession.'}),
-          ('The robustness premium in infrastructure cases is',
-           ['under five per cent', 'eight to twenty per cent', 'about half', 'unmeasurable'],
-           1,
-           'Measured against the optimised net benefit in those cases.',
-           {0: 'Lower than the range he gives.', 2: 'Far higher than the premium he reports.', 3: 'He gives a measured range for those cases.'}),
+          (
+           'The robustness premium in infrastructure cases is eight to '
+           '____________ per cent.', None, 'twenty',
+           'Measured against the optimised net benefit in those cases.'),
           (
            'The connection between their two confessions is that an '
            'understated band makes robustness look',
            ['cheaper', 'more expensive than it is', 'unnecessary', 'compulsory'],
            1, 'Because the insurance is priced against the wrong risk.',
            {0: 'A narrow band makes robustness look dear, not cheap.', 2: 'Necessity is what a wider band would show.', 3: 'Nothing compels the robust choice.'}),
-          ('What does he ask her for?',
-           ['a wider band', 'one sentence as prominent as the band', 'a new model', 'an ensemble'],
-           1, 'Naming what the band does not cover.',
-           {0: 'A wider band is not what he asks for.', 2: 'No new model is requested.', 3: 'An ensemble is what she already publishes.'}),
+          ('What does he ask her for?', None, 'one sentence',
+           'Naming what the band does not cover.'),
           ('Why does she say she would be signing it alone?',
            ['nobody agrees', 'a report carrying it is easier to attack and loses contracts', 'it is unpublishable', 'it is untrue'],
            1,

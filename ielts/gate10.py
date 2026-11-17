@@ -44,7 +44,19 @@ BOOKS = [(7, range(61, 71)), (8, range(71, 81)), (1, range(1, 11)),
 FLOOR_READ = 2.0        # per cent of a book's reading items
 FLOOR_LISTEN = 3.0      # per cent of a book's listening items
 CEIL_READ = 30.0
-CEIL_LISTEN = 38.0
+CEIL_LISTEN = 45.0
+# A per-type ceiling of one number for both skills was the first thing
+# this gate did, and it was wrong about Listening. The two papers are not
+# shaped alike. Reading is three passages and a paper uses five to seven
+# of the eleven types, so no type should carry a third of it. Listening is
+# four parts and two of them are completion tasks by design - Part 1 is a
+# form or a set of notes, Part 4 is notes or sentences - so the completion
+# family legitimately carries half a real paper and a flat 38% ceiling
+# would have failed a faithful book. These three numbers replace it:
+# completion may dominate, together it may not take the whole paper, and
+# multiple choice may never dominate, because in a real paper it does not.
+CEIL_LISTEN_MC = 35.0
+CEIL_LISTEN_FAMILY = 65.0       # note completion + sentence completion
 SPEAK_LO, SPEAK_HI = 25.0, 40.0
 
 # A type a book is too low a level to teach. Yes/No/Not Given asks what a
@@ -126,6 +138,10 @@ def report(only=None):
             for t in inv:
                 n = cen.get(t, 0)
                 sh = 100.0 * n / tot
+                if skill == 'listen' and t == 'multiple choice':
+                    ceil = CEIL_LISTEN_MC
+                else:
+                    ceil = CEIL_LISTEN if skill == 'listen' else CEIL_READ
                 flag = ''
                 if t in EXEMPT.get(vol, set()):
                     flag = 'exempt'
@@ -138,6 +154,19 @@ def report(only=None):
                     bad.append('%s %s: %s is %.1f%% (%d items), ceiling %.0f%%'
                                % (tag, skill, t, sh, n, ceil))
                 print('    %-42s %4d  %5.1f%%  %s' % (t, n, sh, flag))
+            if skill == 'listen':
+                fam = sum(cen.get(t, 0) for t in
+                          ('note/table/flow-chart completion',
+                           'sentence completion'))
+                fsh = 100.0 * fam / tot
+                print('    %-42s %4d  %5.1f%%  %s'
+                      % ('(the completion family together)', fam, fsh,
+                         'OVER %.0f%%' % CEIL_LISTEN_FAMILY
+                         if fsh > CEIL_LISTEN_FAMILY else ''))
+                if fsh > CEIL_LISTEN_FAMILY:
+                    bad.append('%s listen: the completion family is %.1f%% '
+                               '(%d items), ceiling %.0f%%'
+                               % (tag, fsh, fam, CEIL_LISTEN_FAMILY))
         sp = speak_parts(rng)
         tot = sum(sp.values()) or 1
         line = []

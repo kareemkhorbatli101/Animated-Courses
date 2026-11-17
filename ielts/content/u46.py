@@ -251,18 +251,19 @@ UNIT = dict(
            ['ignorance', 'the shape of the cost curve against annual budgets', 'poor engineering', 'corruption'],
            1, 'And assuming ignorance is why advice achieves nothing.',
            {0: 'He says explicitly that it is not ignorance.', 2: 'Engineering quality is not what he blames.', 3: 'He rules out dishonesty along with carelessness.'}),
-          ('A repair at ninety per cent condition costs about',
-           ['the same as at seventy', 'an eighth of the repair at seventy', 'half the repair at seventy', 'twice as much'],
-           1, 'Though the two look identical to a non-inspector.',
-           {0: 'The costs differ by a factor of eight.', 2: 'Larger than the fraction he gives.', 3: 'The earlier repair is far cheaper, not dearer.'}),
-          ('Why is maintenance the line that gets cut?',
-           ['It is the largest', 'Its consequence is invisible this year', 'It is optional', 'It is unpopular'],
-           1, 'Cutting anything else produces a complaint on Monday.',
-           {0: 'Size of the line is not the reason he gives.', 2: 'He treats maintenance as necessary, not optional.', 3: 'Unpopularity is what cutting anything else produces.'}),
-          ('What does the speaker say actually works?',
-           ['Training', 'Publishing a condition index annually', 'Legal requirements', 'Larger budgets'],
-           1, 'Because deferral stops being invisible.',
-           {0: 'He says exhortation and training achieve nothing.', 2: 'Legal requirements are not what he recommends.', 3: 'Larger budgets are not the remedy he names.'})])],
+          (
+           'A repair at ninety per cent condition costs about an '
+           '____________ of the repair at seventy.', None,
+           'eighth', 'Though the two look identical to a non-inspector.'),
+          (
+           'Maintenance is the line that gets cut because its '
+           'consequence is ____________ this year.', None,
+           'invisible',
+           'Cutting anything else produces a complaint on Monday.'),
+          (
+           'What the speaker says actually works is publishing a '
+           '____________ index annually.', None, 'condition',
+           'Because deferral stops being invisible.')])],
    speak=dict(
     part='Part 1', focus='Roads and services where you live',
     intro=('Two or three sentences each. A specific road or service is '
@@ -510,14 +511,13 @@ UNIT = dict(
           ('Oluwaseun', 'Published and with a date on it, or next year it '
            'is a design somebody meant to progress.')],
          items=[
-          ('Oluwaseun begins by conceding that',
-           ['the walls can wait', 'resurfacing is the highest-return spending', 'the budget is adequate', 'inspections are too frequent'],
-           1, 'As every whole-life calculation has said for a decade.',
-           {0: 'He argues that the walls cannot wait.', 2: 'Adequacy of the budget is not what he concedes.', 3: 'Inspection frequency is not raised as a problem.'}),
-          ('How many structures are at condition grade four?',
-           ['Four', 'Nine', 'Eleven', 'Forty-one'], 1,
-           'Out of forty-one bridges and eleven retaining walls.',
-           {0: 'Fewer than the number at grade four.', 2: 'Eleven is the number of retaining walls.', 3: 'Forty-one is the number of bridges.'}),
+          (
+           'Oluwaseun begins by conceding that resurfacing is the '
+           'highest-____________ spending.', None, 'return',
+           'As every whole-life calculation has said for a decade.'),
+          ('How many structures are at condition grade four?', None,
+           'nine',
+           'Out of forty-one bridges and eleven retaining walls.'),
           ('What does he say about how a grade four wall fails?',
            ['Gradually', 'It is fine and then it is on the railway', 'Only in winter', 'With long warning'],
            1, 'Which is why it cannot be managed like a road surface.',
@@ -529,11 +529,11 @@ UNIT = dict(
            1, 'He says he would rather she did not make it.',
            {0: 'Deliverability is the argument he calls better.', 2: 'Contractor availability is part of the better '
                'argument.', 3: 'Whole-life cost is what he concedes at the start.'}),
-          ('Her better argument is that the wall works require',
-           ['more money', 'a design, a railway possession and eighteen months', 'new legislation', 'public consultation'],
-           1,
-           'So moving the money would leave it unspent and taken back.',
-           {0: 'Money is what she has; time is what she lacks.', 2: 'No legislation is needed for the wall works.', 3: 'Consultation is not mentioned in the exchange.'}),
+          (
+           'Her better argument is that the wall works require a '
+           'design, a railway possession and ____________ months.',
+           None, 'eighteen',
+           'So moving the money would leave it unspent and taken back.'),
           ('What do they agree?',
            ['Move the uplift to the walls', 'Spend the uplift on roads and fund the wall designs from revenue', 'Delay both', 'Seek extra funding'],
            1, 'With the designs published alongside the programme.',
@@ -826,33 +826,30 @@ UNIT = dict(
            'replacement decision, which is a cost appearing in neither '
            'graph.')],
          items=[
-          ('The planned regime ends at condition',
-           ['100', '96', '90', '76'], 2,
-           'Because no repair returns an asset to as-built condition.',
-           {0: 'No repair returns an asset to as-built condition.', 1: 'No figure of that size is given for either regime.', 3: '76 is the reactive figure at year fifteen.'}),
-          ('For the first decade the two condition lines are',
-           ['far apart', 'almost on top of each other', 'crossing repeatedly', 'diverging steadily'],
-           1, 'Everything that matters happens in the second half.',
-           {0: 'They diverge only in the second half.', 2: 'They do not cross; they separate once.', 3: 'The divergence begins after year ten.'}),
-          ('At year fifteen, reactive spending stands at',
-           ['5 million', '14 million', '29 million', '38 million'], 0,
-           'Against 14 million for the planned regime.',
-           {1: '14 million is the planned figure at year fifteen.', 2: '29 million is the planned total at year thirty.', 3: '38 million is the reactive figure at year twenty-five.'}),
+          ('The planned regime ends at condition ____________.', None,
+           '90',
+           'Because no repair returns an asset to as-built condition.'),
+          (
+           'For the first decade the two condition lines are almost on '
+           '____________ of each other.', None, 'top',
+           'Everything that matters happens in the second half.'),
+          (
+           'At year fifteen, reactive spending stands at ____________ '
+           'million.', None, '5',
+           'Against 14 million for the planned regime.'),
           ('The two spending lines cross at about year',
            ['ten', 'fifteen', 'nineteen', 'twenty-five'], 2,
            'After which reactive spending rises steeply.',
            {0: 'Year ten is where the condition line turns.', 1: 'At year fifteen reactive spending is still much lower.', 3: 'By year twenty-five reactive spending has run far '
                'ahead.'}),
-          ('The condition line turns how long before the cost line?',
-           ['Two years', 'Five years', 'Nine years', 'Fifteen years'],
-           2, 'Year ten against year nineteen.',
-           {0: 'Shorter than the gap he reports.', 1: 'Still shorter than the nine years he gives.', 3: 'Longer than the gap between the two turns.'}),
-          ('His recommendation is to publish',
-           ['spending by year', 'condition by asset with five years of history', 'whole-life costings', 'inspection reports'],
-           1,
-           'So that the decline is visible while it is still gentle.',
-           {0: 'Spending by year is what he says tells you too late.', 2: 'Whole-life costings are not what he asks to be '
-               'published.', 3: 'Inspection reports are not his recommendation.'})])],
+          (
+           'The condition line turns ____________ years before the '
+           'cost line.', None, 'nine',
+           'Year ten against year nineteen.'),
+          (
+           'His recommendation is to publish condition by asset with '
+           '____________ years of history.', None, 'five',
+           'So that the decline is visible while it is still gentle.')])],
    speak=dict(
     part='Part 3', focus='Paying now or paying later',
     intro=('Five or six sentences. Try once to describe a curve that is '
@@ -1182,18 +1179,17 @@ UNIT = dict(
            {0: 'He says to stop looking for villains.', 2: 'National differences are what the pattern crosses.', 3: 'Funding levels come later, as the allocation question.'}),
           (
            'A decision rule recommends deferral whenever its horizon '
-           'is',
-           ['longer than the flat section', 'shorter than the flat section', 'exactly one year', 'set by statute'],
-           1, 'And it appears correct every time it is reviewed.',
-           {0: 'A longer horizon would catch the consequence.', 2: 'He does not tie the rule to any particular year.', 3: 'Statute is not what sets the horizon in his account.'}),
-          ('Engineers have redesigned schemes in order to call work',
-           ['urgent', 'replacement rather than repair', 'capital maintenance', 'emergency work'],
-           1, 'Because the accounting treatment differs.',
-           {0: 'Urgency is not the classification that matters.', 2: 'No such category appears in the lecture.', 3: 'Emergency work is what deferral eventually produces.'}),
-          ('Maintenance is invisible because it produces',
-           ['no paperwork', 'a failure that did not happen', 'no cost', 'no inspection'],
-           1, 'Which is not an event and cannot be attributed.',
-           {0: 'Paperwork exists; the failure does not.', 2: 'Maintenance costs money, which is the problem.', 3: 'Inspection is what records condition.'}),
+           'is ____________ than the flat section.', None,
+           'shorter',
+           'And it appears correct every time it is reviewed.'),
+          (
+           'Engineers have redesigned schemes in order to call work '
+           '____________ rather than repair.', None,
+           'replacement', 'Because the accounting treatment differs.'),
+          (
+           'Maintenance is invisible because it produces a '
+           '____________ that did not happen.', None,
+           'failure', 'Which is not an event and cannot be attributed.'),
           ('He calls the audit gap one of',
            ['ethics', 'audit rather than ethics', 'funding', 'training'],
            1,
@@ -1551,12 +1547,11 @@ UNIT = dict(
            ['It was expensive', 'It looked like a reporting burden with no mechanism', 'It was unlawful', 'Engineers opposed it'],
            1, 'A view she still calls reasonable and wrong.',
            {0: 'Cost is not the reason she gives.', 2: 'Legality is not raised by either speaker.', 3: 'Engineers supported it, which is his point.'}),
-          ('The mechanism turned out to be',
-           ['public shaming', 'internal visibility of long-run consequences', 'legal obligation', 'ministerial direction'],
-           1,
+          (
+           'The mechanism turned out to be internal ____________ of '
+           'long-run consequences.', None, 'visibility',
            'Finance committees asking about trajectory rather than '
-           'annual figures.',
-           {0: 'He says explicitly that nobody was shamed.', 2: 'There was no obligation to spend anything.', 3: 'No ministerial direction was involved.'}),
+           'annual figures.'),
           ('Nakamura-Lindgren characterises publication as',
            ['a cure', 'a reallocation mechanism, and a diagnostic where the total is the problem', 'a reporting burden', 'a substitute for funding'],
            1, 'And says his profession has been selling it as a cure.',

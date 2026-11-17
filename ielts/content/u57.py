@@ -469,27 +469,25 @@ UNIT = dict(
          items=[
           (
            'The structure he describes is a sharp definition applied '
-           'to',
-           ['incomplete evidence', 'a world supplying a continuum', 'changing circumstances', 'unclear law'],
-           1, 'While the law requires a verdict from a set of two.',
-           {0: 'Evidence is not what he says the world supplies.', 2: 'Changing circumstances are not his contrast.', 3: 'The law is clear; it is the world that is not.'}),
+           'to a world supplying a ____________.', None,
+           'continuum',
+           'While the law requires a verdict from a set of two.'),
           (
            'His colleague who believed she was bad at the job was in '
-           'fact',
-           ['undertrained', 'correctly perceiving that cases did not determine an answer', 'applying the wrong test', 'too slow'],
-           1, 'A conclusion she took two years to reach.',
-           {0: 'Training is not the explanation he gives.', 2: 'She was applying the right test to undetermined cases.', 3: 'Speed is not what she doubted about herself.'}),
+           'fact correctly ____________ that cases did not determine '
+           'an answer.', None, 'perceiving',
+           'A conclusion she took two years to reach.'),
           (
            'Where facts do not determine an answer, what distinguishes '
            'a good decision from an arbitrary one?',
            ['speed', 'treating like cases alike', 'seniority', 'documentation'],
            1, 'Which requires knowing what was decided last time.',
            {0: 'Speed is not offered as a safeguard.', 2: 'Seniority is not what makes a decision defensible.', 3: 'Recording comes later, in his procedural list.'}),
-          ('He says appeals come mostly from',
-           ['genuine borderline cases', 'people plainly inside a definition who were told otherwise', 'legal representatives', 'repeat applicants'],
-           1, 'Which is an error about facts and is correctable.',
-           {0: 'He says the genuine borderline cases are almost never '
-               'appealed.', 2: 'Representatives are not who he says appeals come from.', 3: 'Repeat applicants are not mentioned as a source.'})]),
+          (
+           'He says appeals come mostly from people plainly '
+           '____________ a definition who were told otherwise.',
+           None, 'inside',
+           'Which is an error about facts and is correctable.')]),
     dict(heading='Two lawyers disagree about a definition', part='Part 3',
          task='A discussion between two lawyers · multiple choice', band='l3',
          qtype='Questions 27-32',
@@ -542,22 +540,20 @@ UNIT = dict(
            'the duty to give reasons first, because that is the part that '
            'does the work and it is the part a reader skims.')],
          items=[
-          ('Casimir wants precision in order to secure',
-           ['speed', 'consistency', 'simplicity', 'fairness to appellants'],
-           1,
+          ('Casimir wants precision in order to secure ____________.',
+           None, 'consistency',
            'Two decision-makers reaching opposite conclusions and both '
-           'being upheld.',
-           {0: 'Speed is not what he says precision buys.', 2: 'Simplicity is not the benefit he claims.', 3: 'Appellants are not the beneficiaries he names.'}),
-          ('Thomasina argues that a precise definition',
-           ['removes the borderline', 'moves the borderline and makes it sharper', 'is impossible to draft', 'binds nobody'],
-           1, 'Creating an argument at exactly the threshold.',
-           {0: 'She says it does not remove the borderline.', 2: 'She grants that it can be drafted precisely.', 3: 'A statutory definition binds the appeal courts.'}),
+           'being upheld.'),
+          (
+           'Thomasina argues that a precise definition moves the '
+           '____________ and makes it sharper.', None,
+           'borderline',
+           'Creating an argument at exactly the threshold.'),
           (
            'Casimir\u2019s strongest point, in her view, is that an '
-           'argument about a rule is',
-           ['faster', 'public, reviewable and the same for everybody', 'cheaper', 'more likely to succeed'],
-           1, 'Which an argument about an impression is not.',
-           {0: 'Speed is not what she concedes to him.', 2: 'Cost is not part of her concession.', 3: 'Likelihood of success is not her point.'}),
+           'argument about a rule is public, ____________ and the same '
+           'for everybody.', None, 'reviewable',
+           'Which an argument about an impression is not.'),
           (
            'Their actual disagreement is about whether precision '
            'belongs in',
@@ -568,10 +564,8 @@ UNIT = dict(
                'difference.'}),
           (
            'Her answer to the objection that guidance can be ignored '
-           'is',
-           ['inspection', 'a duty to explain a departure from it', 'penalties', 'publication'],
-           1, 'Which she calls the middle position.',
-           {0: 'Inspection is not the mechanism she proposes.', 2: 'Penalties are not part of her middle position.', 3: 'Publication alone would not meet the objection.'}),
+           'is a duty to explain a ____________ from it.',
+           None, 'departure', 'Which she calls the middle position.'),
           (
            'She advises putting which element first in the joint note?',
            ['the statutory test', 'the published guidance', 'the duty to give reasons', 'the examples'],
@@ -881,21 +875,18 @@ UNIT = dict(
            1, 'So the series stops rather than being incomplete.',
            {0: 'He says explicitly that it is not missing data.', 2: 'Confidentiality is not the reason given.', 3: 'The 2016 round went ahead on the new definition.'}),
           (
-           'The urban threshold changed from ten thousand residents to',
-           ['two thousand', 'five thousand plus a density condition', 'seven thousand', 'twenty thousand'],
-           1, 'Moving several hundred settlements between categories.',
-           {0: 'Two thousand is not a threshold in the talk.', 2: 'Seven thousand appears nowhere in the figures.', 3: 'Twenty thousand is double the old threshold.'}),
+           'The urban threshold changed from ten thousand residents to '
+           'five thousand plus a ____________ condition.',
+           None, 'density',
+           'Moving several hundred settlements between categories.'),
           (
            'The reclassification added how many thousand to urban in '
-           '2001?', ['149', '264', '367', '612'], 1,
-           'From 1,840 thousand to 2,104 thousand on the new basis.',
-           {0: '149 thousand is the fall in rural, not the rise in '
-               'urban.', 2: '367 thousand is the apparent rise from a joined '
-               'series.', 3: '612 thousand is semi-urban on the old definition.'}),
-          ('The definitional change moved',
-           ['the trend', 'the level and not the trend', 'both equally', 'neither'],
-           1, 'Urban rising and rural falling on either basis.',
-           {0: 'The trend is the same under both definitions.', 2: 'Only the level moved, he says.', 3: 'The level plainly moved by 264 thousand.'}),
+           '2001?', None, '264',
+           'From 1,840 thousand to 2,104 thousand on the new basis.'),
+          (
+           'The definitional change moved the ____________ and not the '
+           'trend.', None, 'level',
+           'Urban rising and rural falling on either basis.'),
           (
            'Appending the 2016 figure to the old series would show '
            'urban rising by',
@@ -904,10 +895,9 @@ UNIT = dict(
            {0: '264 thousand is the 2001 reclassification.', 2: '149 thousand is the fall in rural for 2001.', 3: '544 thousand appears in none of the figures.'}),
           (
            'Where recalculation is impossible, he says a joined series '
-           'would be',
-           ['two lines each true', 'a single line false at one point', 'acceptable with a footnote', 'more useful'],
-           1, 'Which is why the two series are published separately.',
-           {0: 'Two true lines is what the separate series give.', 2: 'He says they decline to join them at all.', 3: 'He calls the joined version false, not more useful.'})])],
+           'would be a single line ____________ at one point.',
+           None, 'false',
+           'Which is why the two series are published separately.')])],
    speak=dict(
     part='Part 3', focus='Counting and categories',
     intro=('Five or six sentences. Try once to say that a jump in a figure '
@@ -1257,27 +1247,25 @@ UNIT = dict(
                'false.', 2: 'He says obviously false rather than controversial.', 3: 'Its age is the other half of the combination.'}),
           (
            'The structure applies wherever a predicate comes in '
-           'degrees and a decision requires',
-           ['evidence', 'a yes or a no', 'expertise', 'consensus'], 1,
-           'Which covers every administrative system on earth.',
-           {0: 'Evidence is not what the decision requires here.', 2: 'Expertise is not what the structure demands.', 3: 'Consensus is not required by the predicate.'}),
-          ('The first response holds that',
-           ['there is no fact', 'a precise number exists and is unknowable', 'truth has degrees', 'language is vague'],
-           1, 'And explains our reluctance to name a number.',
-           {0: 'That no fact exists is the third response.', 2: 'Degrees of truth is the second response.', 3: 'Vague language is the third response.'}),
+           'degrees and a decision requires a ____________ or a no.',
+           None, 'yes',
+           'Which covers every administrative system on earth.'),
+          (
+           'The first response holds that a precise number exists and '
+           'is ____________.', None, 'unknowable',
+           'And explains our reluctance to name a number.'),
           ('The objection to degrees of truth is that it',
            ['is unmeasurable', 'reproduces the problem one floor up', 'is unpopular', 'conflicts with logic'],
            1, 'The line between 0.49 and 0.51 being equally sharp.',
            {0: 'Measurement is not the objection he raises.', 2: 'Popularity is not the objection to it.', 3: 'It does not conflict with logic, only relocate the '
                'line.'}),
-          ('The cost of the majority view is that stipulations',
-           ['are illegal', 'do not dissolve the vagueness', 'are expensive', 'change too often'],
-           1, 'Defining urban starts an argument about residents.',
-           {0: 'Legality has nothing to do with the cost.', 2: 'Expense is not the cost he identifies.', 3: 'Frequency of change is not the problem.'}),
-          ('The procedural answer makes a decision',
-           ['correct', 'reviewable', 'faster', 'popular'], 1,
-           'Which he calls the property you can actually have.',
-           {0: 'He says it does not make the decision correct.', 2: 'Speed is not what the procedure buys.', 3: 'Popularity is not among its properties.'})])],
+          (
+           'The cost of the majority view is that stipulations do not '
+           '____________ the vagueness.', None, 'dissolve',
+           'Defining urban starts an argument about residents.'),
+          ('The procedural answer makes a decision ____________.',
+           None, 'reviewable',
+           'Which he calls the property you can actually have.')])],
    speak=dict(
     part='Part 3', focus='Lines and cases',
     followup=[(('You would ask for hours rather than identity. Should rules '
@@ -1659,10 +1647,10 @@ UNIT = dict(
            'Which is the sorites arriving in the filing cabinet.',
            {0: 'The tenth is not the figure in her example.', 2: 'The hundredth is not where she stops the chain.', 3: 'The next case is indistinguishable, which is her '
                'premise.'}),
-          ('She calls that the strongest practical argument for',
-           ['judicial discretion', 'a stipulated threshold', 'more training', 'appeals'],
-           1, 'Because a stipulation stops the drift.',
-           {0: 'Discretion is what the stipulation constrains.', 2: 'Training is not her practical argument.', 3: 'Appeals are what the stipulation is meant to prevent.'}),
+          (
+           'She calls that the strongest practical argument for a '
+           '____________ threshold.', None, 'stipulated',
+           'Because a stipulation stops the drift.'),
           (
            'He will not write his agreement in a judgement because '
            'describing a threshold as a useful fiction would invite',

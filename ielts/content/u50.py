@@ -440,19 +440,16 @@ UNIT = dict(
            'be the two that are easiest to check.')],
          items=[
           (
-           'The speaker objects to the word "lost" because it suggests',
-           ['carelessness', 'an accident', 'incompetence', 'disagreement'],
-           1, 'Things are given up on purpose, by somebody.',
-           {0: 'Carelessness is nearer what he says does not happen.', 2: 'He attributes the choice to judgement, not '
-               'incompetence.', 3: 'Disagreement is not what the word suggests.'}),
+           'The speaker objects to the word "lost" because it suggests '
+           'an ____________.', None, 'accident',
+           'Things are given up on purpose, by somebody.'),
           ('How many things does he say a sentence does at once?',
-           ['two', 'three', 'four', 'five'], 2,
-           'Statement, sound, level of formality, and function.',
-           {0: 'Fewer than the things he lists.', 1: 'One short of the four he names.', 3: 'He names four things, not five.'}),
-          ('The choice reviewers never criticise is giving up',
-           ['the statement', 'the register', 'the sound', 'the function'],
-           2, 'Because reviewers have no vocabulary for it.',
-           {0: 'The statement is the thing reviewers can check.', 1: 'Register is the thing reviewers can feel.', 3: 'Giving up the function is what gets people attacked.'}),
+           None, 'four',
+           'Statement, sound, level of formality, and function.'),
+          (
+           'The choice reviewers never criticise is giving up the '
+           '____________.', None, 'sound',
+           'Because reviewers have no vocabulary for it.'),
           ('The choice nobody admits to is giving up',
            ['the hardest element', 'whatever reviewers cannot see', 'the author\u2019s intention', 'the title'],
            1,
@@ -505,30 +502,26 @@ UNIT = dict(
           ('Perpetua', 'And nobody asks, because asking looks like evading '
            'the question.')],
          items=[
-          ('Casimir states the cost of his own approach as',
-           ['inaccuracy', 'some readers stopping at the foreign word', 'length', 'expense'],
-           1, 'And the sentence stopping with them.',
-           {0: 'He does not concede inaccuracy as the cost.', 2: 'Length is not what he says it costs.', 3: 'Expense is not part of either position.'}),
-          ('Perpetua\u2019s concern is with a sentence that',
-           ['is long', 'has a job in the chapter', 'is untranslatable', 'is famous'],
-           1, 'Such as being funny shortly before a death.',
-           {0: 'Length is not what makes the sentence hard for her.', 2: 'She treats the sentence as translatable but '
-               'mis-serving.', 3: 'Fame of the sentence is not her concern.'}),
+          (
+           'Casimir states the cost of his own approach as some '
+           'readers ____________ at the foreign word.', None,
+           'stopping', 'And the sentence stopping with them.'),
+          (
+           'Perpetua\u2019s concern is with a sentence that has a '
+           '____________ in the chapter.', None, 'job',
+           'Such as being funny shortly before a death.'),
           ('What does Casimir concede after about a decade?',
            ['that he was wrong about words', 'that judged as books rather than sentences, she wins more often', 'that fidelity is impossible', 'that critics are useless'],
            1, 'Because the unit a reader experiences is the chapter.',
            {0: 'He still keeps the foreign word, so not that.', 2: 'He does not concede that fidelity is impossible.', 3: 'He says he has been serving critics, not that they are '
                'useless.'}),
-          ('He says he has been optimising for',
-           ['the author', 'the reader', 'the critic', 'the publisher'],
-           2, 'While telling himself he was serving the text.',
-           {0: 'The author is who he tells himself he serves.', 1: 'The reader experiences the chapter, which is her unit.', 3: 'The publisher is not mentioned in the exchange.'}),
+          ('He says he has been optimising for the ____________.',
+           None, 'critic',
+           'While telling himself he was serving the text.'),
           (
-           'Where does he say his approach is right and hers '
-           'dangerous?',
-           ['poetry', 'philosophy and law', 'journalism', 'children\u2019s books'],
-           1, 'Because there the sentence is the unit.',
-           {0: 'Poetry is not where he draws the line.', 2: 'Journalism is not named by either translator.', 3: 'Children\'s books are not mentioned.'}),
+           'He says his approach is right and hers dangerous in '
+           'philosophy and ____________.', None, 'law',
+           'Because there the sentence is the unit.'),
           ('They agree the real question is',
            ['who is more faithful', 'which kind of text each is right about', 'how long a translation takes', 'who the audience is'],
            1,
@@ -833,28 +826,21 @@ UNIT = dict(
            'wrong text takes longer than translating the source, and the '
            'errors it leaves behind are the invisible kind.')],
          items=[
-          ('Fluency rose in',
-           ['two pairs', 'three pairs', 'all four pairs', 'none'], 2,
-           'By between fourteen and twenty-one points.',
-           {0: 'Fluency rose in more than two pairs.', 1: 'One short of the number of pairs that rose.', 3: 'Every pair gained on fluency.'}),
-          ('Why is the German fluency gain the smallest?',
-           ['poor data', 'a ceiling effect', 'grammar', 'fewer assessors'],
-           1, 'German output was already the most readable in 2019.',
-           {0: 'German has the most data, not the least.', 2: 'He says the cause is data rather than grammar.', 3: 'Assessor numbers were the same throughout.'}),
-          ('Adequacy for Yoruba',
-           ['rose eleven points', 'rose nine points', 'did not move', 'fell three points'],
-           3, 'While its fluency rose by nineteen.',
-           {0: 'Eleven points is the German adequacy gain.', 1: 'Nine points is the Spanish adequacy gain.', 2: 'Turkish adequacy is the series that did not move.'}),
-          ('He says the chart should be read as',
-           ['four stories', 'two stories', 'one story', 'eight stories'],
-           1,
-           'German and Spanish together; Turkish and Yoruba together.',
-           {0: 'He says explicitly not four stories.', 2: 'The two groups behave in opposite ways.', 3: 'There are four pairs and two scores, not eight '
-               'stories.'}),
-          ('The cause of the pattern is',
-           ['grammar', 'the quantity of matched text in both languages', 'assessor bias', 'the scale used'],
-           1, 'English text alone improves fluency from any source.',
-           {0: 'He says the cause is data rather than grammar.', 2: 'Assessors were blind to system and year.', 3: 'The scale is the same for both measures.'}),
+          ('Fluency rose in all ____________ pairs.', None, 'four',
+           'By between fourteen and twenty-one points.'),
+          (
+           'The German fluency gain is the smallest because of a '
+           '____________ effect.', None, 'ceiling',
+           'German output was already the most readable in 2019.'),
+          ('Adequacy for Yoruba fell ____________ points.', None,
+           'three', 'While its fluency rose by nineteen.'),
+          ('He says the chart should be read as ____________ stories.',
+           None, 'two',
+           'German and Spanish together; Turkish and Yoruba together.'),
+          (
+           'The cause of the pattern is the ____________ of matched '
+           'text in both languages.', None, 'quantity',
+           'English text alone improves fluency from any source.'),
           ('Agencies discourage post-editing Yoruba output because',
            ['it is too expensive', 'correcting fluent wrong text takes longer than translating afresh', 'staff refuse', 'clients object'],
            1, 'And the remaining errors are the invisible kind.',
@@ -1191,29 +1177,25 @@ UNIT = dict(
          items=[
           (
            'The first definition fails because it makes "half full" '
-           'equivalent to',
-           ['"the glass is empty"', '"half empty"', '"nearly full"', '"a glass"'],
-           1, 'Which no speaker of any language believes.',
-           {0: 'The pair he gives is half full and half empty.', 2: 'Nearly full is not the pair he names.', 3: 'A bare noun phrase is not a sentence to compare.'}),
-          ('Adding connotation fails because connotation',
-           ['cannot be measured', 'is not stable across readers', 'is untranslatable', 'varies by language'],
-           1,
-           'So it cannot settle an argument between two translators.',
-           {0: 'Measurement is not the problem he identifies.', 2: 'He treats connotation as translatable but unstable.', 3: 'Variation by language would not defeat the definition.'}),
+           'equivalent to "half ____________".', None,
+           'empty', 'Which no speaker of any language believes.'),
+          (
+           'Adding connotation fails because connotation is not '
+           '____________ across readers.', None, 'stable',
+           'So it cannot settle an argument between two translators.'),
           ('The functional definition handles',
            ['legal texts', 'greetings and jokes', 'poetry', 'technical manuals'],
            1,
            'Where the words barely overlap and nobody doubts the '
            'equivalence.',
            {0: 'Legal texts are where the sentence is the unit.', 2: 'Poetry is not the example he gives.', 3: 'Technical manuals are not his example.'}),
-          ('Its cost is that function is defined relative to',
-           ['a reader', 'a purpose', 'a language', 'a period'], 1,
-           'So the definition pushes the hard part outside the field.',
-           {0: 'A reader is who connotation varies by.', 2: 'A language is not what function is relative to.', 3: 'A period is not what the definition depends on.'}),
-          ('How many relations does the fourth position name?',
-           ['three', 'four', 'five', 'six'], 2,
-           'Reference, connotation, register, function and sound.',
-           {0: 'Fewer than the relations he lists.', 1: 'One short of the five he names.', 3: 'He names five relations, not six.'}),
+          (
+           'Its cost is that function is defined relative to a '
+           '____________.', None, 'purpose',
+           'So the definition pushes the hard part outside the field.'),
+          ('How many relations does the fourth position name?', None,
+           'five',
+           'Reference, connotation, register, function and sound.'),
           ('He cites two-number scoring of machine translation as',
            ['a refutation', 'the fourth position adopted in practice', 'irrelevant', 'a measurement error'],
            1, 'By people who would reject it as a theory.',
@@ -1570,10 +1552,8 @@ UNIT = dict(
            ['the idioms', 'the sentence rhythm, because the book is about tedium', 'the political detail', 'the jokes'],
            1, 'Sentences of the same length for ninety pages.',
            {0: 'Idioms are what the 1994 version replaced.', 2: 'Political detail was compressed in the 1994 version.', 3: 'The jokes are what the 1994 version substituted.'}),
-          ('How many of her sentences does she say differ in meaning?',
-           ['three', 'seven', 'eleven', 'twenty'], 2,
-           'Each of them chosen, and listable.',
-           {0: 'Fewer than the number she admits to.', 1: 'Still fewer than the eleven she lists.', 3: 'More than the number she gives.'}),
+          ('She says ____________ of her sentences differ in meaning.',
+           None, 'eleven', 'Each of them chosen, and listable.'),
           ('Her objection to the charge is that',
            ['it is untrue', 'it comes from somebody who paid a larger price without noticing', 'it is unfair to publishers', 'nobody read the book'],
            1, 'Meaning the earlier versions, praised for fluency.',

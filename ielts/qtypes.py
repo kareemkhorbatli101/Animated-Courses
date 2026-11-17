@@ -81,6 +81,10 @@ PRETTY = {
     'short answer': 'Short answer',
 }
 
+# How many gaps make a note/summary set rather than independent
+# sentences. See completion_kind for why this is five.
+NOTE_SET = 5
+
 GAP = re.compile(r'_{3,}')
 PARA = re.compile(r'^(paragraph|section|part)\s+[\dA-Za-z]+$', re.I)
 HEADING = re.compile(r'best heading', re.I)
@@ -99,6 +103,17 @@ def frame_of(blk):
     return (None, None)
 
 
+def in_bank(it, blk):
+    """True when this item is answered by a letter from the block's bank."""
+    bank = blk.get('bank')
+    if not bank:
+        return False
+    a = it[2]
+    if not isinstance(a, str):
+        return False
+    return a.strip() in [str(x).strip() for x in bank]
+
+
 def shape_of(it, blk, skill='read'):
     """The official type of one item. 'gap' where only qkind can decide."""
     stem, opts = it[0], it[1]
@@ -115,7 +130,12 @@ def shape_of(it, blk, skill='read'):
         if WHICH.search(stem) and not GAP.search(stem):
             return 'matching features' if skill == 'read' else 'matching'
         return 'multiple choice'
-    if blk.get('bank'):
+    if in_bank(it, blk):
+        # A bank item is one whose answer is a letter the bank offers.
+        # Testing that, rather than the mere presence of a bank, lets one
+        # block hold a lettered task and a completion task at once, which
+        # is what a real Part 2 does and what this series needs in order
+        # to reach the floors without inventing recordings.
         bl = '%s %s' % (blk.get('banklabel', ''), blk.get('heading', ''))
         if MAPWORDS.search(bl) or frame_of(blk)[0] == \
                 'plan/map/diagram labelling':
@@ -133,18 +153,27 @@ def shape_of(it, blk, skill='read'):
 def completion_kind(blk):
     """Which completion type a block's unframed gapped lines are.
 
-    Authored in qkind where the author has said. Otherwise: three or more
-    gaps in one block read as a set under the exercise heading, which is
-    note completion; one or two stand on their own, which is sentence
-    completion. The rule is written down so a reader can disagree with it
-    rather than wonder what happened."""
+    Authored in qkind where the author has said. Otherwise the gap count
+    decides, and the threshold is five, because that is where the two
+    tasks differ in the real paper: a note, summary, table or flow-chart
+    set is one continuous frame and runs five to eight gaps, while a
+    sentence-completion set is three to six independent sentences drawn
+    from different parts of the text. Blocks of three and four gaps in
+    this series are the second thing - their gaps sit in different
+    paragraphs - so they are sentence completion and are now named that.
+
+    The rule is written down, with its reason, so that a reader can
+    disagree with the threshold rather than wonder what happened. It was
+    3 when this module was first written and moving it to 5 reclassified
+    668 reading items, which is why it is a constant and not a guess
+    repeated in four places."""
     q = blk.get('qkind') or ()
     for k in COMPLETION:
         if k in q:
             return k
     gaps = sum(1 for it in blk['items']
                if not it[1] and GAP.search(it[0] or ''))
-    return ('note/table/flow-chart completion' if gaps >= 3
+    return ('note/table/flow-chart completion' if gaps >= NOTE_SET
             else 'sentence completion')
 
 

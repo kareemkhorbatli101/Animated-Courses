@@ -462,26 +462,23 @@ UNIT = dict(
            'period when nobody measured anything and the worst performer in '
            'the region could not be identified.')],
          items=[
-          ('He stresses at the start that these behaviours require',
-           ['dishonesty', 'no dishonesty', 'poor management', 'weak rules'],
-           1,
+          (
+           'He stresses at the start that these behaviours require no '
+           '____________.', None, 'dishonesty',
            'They are what reasonable people do when a number governs '
-           'their work.',
-           {0: 'He says none of them requires dishonesty.', 2: 'He attributes the behaviour to reasonable people, not '
-               'bad managers.', 3: 'The rules work as written, which is the problem.'}),
-          ('Threshold behaviour moves effort to',
-           ['the hardest cases', 'where the line is', 'the start of the day', 'the cheapest cases'],
-           1, 'Producing a spike just before the four-hour mark.',
-           {0: 'The hardest cases are what selection moves away.', 2: 'Time of day is not where the effort moves.', 3: 'Cheapness drives selection, not the threshold.'}),
-          ('Selection works, he says, without anybody',
-           ['being measured', 'refusing anything', 'being told', 'keeping records'],
-           1, 'An unadvertised route or a longer form is enough.',
-           {0: 'Measurement is what creates the pressure.', 2: 'No instruction is needed, which is his point.', 3: 'Records are kept throughout.'}),
-          ('The costliest failure mode is',
-           ['threshold behaviour', 'selection', 'redefinition', 'effort moving off what is unmeasured'],
-           3, 'Which he says is also the least visible.',
-           {0: 'Threshold behaviour is visible as a spike in the '
-               'figures.', 1: 'Selection shows in the case mix if anybody looks.', 2: 'Redefinition is visible in the definition itself.'})]),
+           'their work.'),
+          (
+           'Threshold behaviour moves effort to where the ____________ '
+           'is.', None, 'line',
+           'Producing a spike just before the four-hour mark.'),
+          (
+           'Selection works, he says, without anybody ____________ '
+           'anything.', None, 'refusing',
+           'An unadvertised route or a longer form is enough.'),
+          (
+           'The costliest failure mode is effort moving off what is '
+           '____________.', None, 'unmeasured',
+           'Which he says is also the least visible.')]),
     dict(heading='Two managers disagree about targets', part='Part 3',
          task='A discussion between two managers · multiple choice', band='l3',
          qtype='Questions 27-32',
@@ -544,24 +541,24 @@ UNIT = dict(
            ['the figures are wrong', 'the service was better before', 'the target was dishonest', 'staff are at fault'],
            1, 'She says it was worse and she was there.',
            {0: 'She relies on the figures being right.', 2: 'She says the behaviour requires no dishonesty.', 3: 'She does not blame the staff.'}),
-          ('Her evidence is that completions and satisfaction',
-           ['both rose', 'both fell', 'moved in opposite directions', 'did not change'],
-           2, 'Over the same five years, both figures audited.',
-           {0: 'Satisfaction fell while completions rose.', 1: 'Completions rose while satisfaction fell.', 3: 'Both moved every year for five years.'}),
-          ('The cause she identifies is',
-           ['staff shortages', 'the definition of a completed repair', 'funding', 'the survey method'],
-           1, 'A repair is complete when the operative leaves.',
-           {0: 'Staffing is not what she identifies.', 2: 'Funding is not her explanation.', 3: 'The satisfaction survey is audited.'}),
+          (
+           'Her evidence is that completions and satisfaction moved in '
+           '____________ directions.', None, 'opposite',
+           'Over the same five years, both figures audited.'),
+          (
+           'The cause she identifies is the ____________ of a '
+           'completed repair.', None, 'definition',
+           'A repair is complete when the operative leaves.'),
           (
            'Winifred\u2019s second objection to the proposed measure is '
            'that it creates an incentive to',
            ['delay repairs', 'avoid properties where things recur', 'over-report', 'reduce staff'],
            1, 'The oldest stock and the poorest tenants.',
            {0: 'Delay is not what the new measure would reward.', 2: 'Over-reporting is the old measure\u2019s problem.', 3: 'Staff numbers are not part of his objection.'}),
-          ('Her proposed fix is to report the measure by',
-           ['region', 'stock age', 'operative', 'cost'], 1,
-           'So that the avoidance becomes visible.',
-           {0: 'Region is not the breakdown she proposes.', 2: 'Reporting by operative is not her suggestion.', 3: 'Cost is not the dimension she names.'}),
+          (
+           'Her proposed fix is to report the measure by stock '
+           '____________.', None, 'age',
+           'So that the avoidance becomes visible.'),
           (
            'The principle she states is that you want a measure whose '
            'gaming',
@@ -892,18 +889,19 @@ UNIT = dict(
            ['emergency care', 'housing repairs', 'benefit decisions', 'none'],
            0, 'From 71 to 94 on target and 63 to 71 on outcome.',
            {1: 'Housing repairs fell on the outcome measure.', 2: 'Benefit decisions fell on the outcome measure.', 3: 'One of the three improved on both.'}),
-          ('The gap between the two accounts in housing repairs is',
-           ['five points', 'twenty-seven points', 'thirty-two points', 'ninety-one points'],
-           2, 'A gain of twenty-seven against a loss of five.',
-           {0: 'Five points is the outcome loss alone.', 1: 'Twenty-seven points is the target gain alone.', 3: 'Ninety-one is the end-point on the target measure.'}),
+          (
+           'The gap between the two accounts in housing repairs is '
+           '____________ points.', None, 'thirty-two',
+           'A gain of twenty-seven against a loss of five.'),
           ('The cost of overturned benefit refusals appears',
            ['on chart one', 'on chart two', 'on both', 'on neither'], 3,
            'Which he says is worth sitting with.',
            {0: 'The appeal cost is outside the target measure.', 1: 'The appeal cost is outside the outcome measure too.', 2: 'It appears on neither of the two charts.'}),
-          ('Emergency care improved on both because its target is',
-           ['easier', 'nearest to the thing it stands for', 'older', 'less strict'],
-           1, 'Time to treatment is a component of quality of care.',
-           {0: 'He does not say its target is easier to hit.', 2: 'Age of the target is not his explanation.', 3: 'Strictness is not what distinguishes it.'}),
+          (
+           'Emergency care improved on both charts because its target '
+           'is ____________ to the thing it stands for.',
+           None, 'nearest',
+           'Time to treatment is a component of quality of care.'),
           (
            'The question to ask of a proposed target is whether the '
            'measure is',
@@ -1260,27 +1258,28 @@ UNIT = dict(
            ['difficult', 'easy and invisible from inside', 'contested', 'recent'],
            1, 'It has been found independently in four fields.',
            {0: 'He says the result is not intellectually demanding.', 2: 'He treats the result as established, not contested.', 3: 'It dates from Goodhart on monetary aggregates.'}),
-          ('The mechanism is primarily',
-           ['cheating', 'a correlation measured without pressure on it', 'poor data', 'weak management'],
-           1, 'Pushing destroys the world the correlation came from.',
-           {0: 'He says cheating happens but is not the mechanism.', 2: 'Data quality is not what produces the effect.', 3: 'Management quality is not his explanation.'}),
+          (
+           'The mechanism is primarily a ____________ measured without '
+           'pressure on it.', None, 'correlation',
+           'Pushing destroys the world the correlation came from.'),
           ('Degradation of a measure shows',
            ['the wrong measure was chosen', 'nothing about whether the measure was well chosen', 'poor enforcement', 'fraud'],
            1,
            'The best available proxy degrades too, sometimes faster.',
            {0: 'He says the best available proxy degrades too.', 2: 'Enforcement quality is not what degradation indicates.', 3: 'Fraud is a minority case, not the mechanism.'}),
-          ('Multiplying measures fails because',
-           ['they conflict', 'twelve measures give twelve distortions and a reporting burden', 'they cost too much', 'staff resist'],
-           1, 'A burden that consumes the activity being measured.',
-           {0: 'Conflict between measures is not the reason he gives.', 2: 'Cost is part of the burden but not his phrasing.', 3: 'Staff resistance is not what he reports.'}),
-          ('The second measure stays honest because',
-           ['it is better designed', 'nobody has a reason to move it', 'it is secret', 'it is audited'],
-           1, 'And attaching a consequence would destroy it.',
-           {0: 'Design quality is not why the second measure holds.', 2: 'It is published, not secret.', 3: 'Auditing is part of the assessment, not the reason.'}),
-          ('The output he says you actually want is',
-           ['the control measure', 'the truth measure', 'the gap between them', 'the trend'],
-           2, 'A direct estimate of the distortion being generated.',
-           {0: 'The control measure carries the distortions.', 1: 'The truth measure alone does not show the distortion.', 3: 'A trend in either measure is not the output he names.'})])],
+          (
+           'Multiplying measures fails because twelve measures give '
+           'twelve ____________ and a reporting burden.',
+           None, 'distortions',
+           'A burden that consumes the activity being measured.'),
+          (
+           'The second measure stays honest because nobody has a '
+           '____________ to move it.', None, 'reason',
+           'And attaching a consequence would destroy it.'),
+          (
+           'The output he says you actually want is the ____________ '
+           'between them.', None, 'gap',
+           'A direct estimate of the distortion being generated.')])],
    speak=dict(
     part='Part 3', focus='Judging institutions',
     followup=[(('You would keep the target but add others. Is it possible to '
@@ -1631,10 +1630,10 @@ UNIT = dict(
            'maintenance rather than design, and my field keeps selling it as '
            'design.')],
          items=[
-          ('Winterbourne-Adeyemi opens by stating that',
-           ['her targets are unfair', 'sixty per cent of her refusals are overturned', 'her staff are overworked', 'the measure is new'],
-           1, 'A figure she says she has known for three years.',
-           {0: 'She does not complain that the targets are unfair.', 2: 'Workload is not what she opens with.', 3: 'She has known the figure for three years.'}),
+          (
+           'Winterbourne-Adeyemi opens by stating that ____________ '
+           'per cent of her refusals are overturned.', None,
+           'sixty', 'A figure she says she has known for three years.'),
           (
            'Castellanos-Nkemdirim concedes that her field '
            'under-documents',
@@ -1660,10 +1659,9 @@ UNIT = dict(
            ['refuse more', 'withdraw cases before decision', 'appeal less', 'hire more staff'],
            1, 'Which three other offices have already done.',
            {0: 'Refusing more is what the current target rewards.', 2: 'Appeal volume is the figure being targeted.', 3: 'Staffing is not what he predicts changing.'}),
-          ('He describes the resulting work as',
-           ['design', 'maintenance', 'research', 'inspection'], 1,
-           'And says his field keeps selling it as the other.',
-           {0: 'He says his field keeps selling it as design.', 2: 'Research is what he does, not what the work is.', 3: 'Inspection is a separate activity.'})])],
+          ('He describes the resulting work as ____________.', None,
+           'maintenance',
+           'And says his field keeps selling it as the other.')])],
    speak=dict(
     part='Part 3', focus='Trust and accountability',
     sounds=[('Institutional nouns are long, front-loaded and easy to chain: '

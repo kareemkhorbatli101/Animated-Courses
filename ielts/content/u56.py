@@ -450,25 +450,22 @@ UNIT = dict(
          items=[
           (
            'The evidence usually offered against expertise in taste is '
-           'that experts',
-           ['are untrained', 'disagree', 'are biased', 'change their minds'],
-           1, 'Which the speaker calls accurate.',
-           {0: 'Lack of training is not the evidence offered.', 2: 'Bias is a different charge from disagreement.', 3: 'Changing minds is not the evidence he examines.'}),
+           'that experts ____________.', None, 'disagree',
+           'Which the speaker calls accurate.'),
           ('When trained judges split, they usually',
            ['describe the work differently', 'describe it almost identically and weight features differently', 'refuse to score', 'defer to the chair'],
            1, 'Four exceptions in one chair\u2019s thirty-year career.',
            {0: 'He says this happens about four times in thirty years.', 2: 'Refusal to score is not what the records show.', 3: 'Deference to the chair is not the pattern he reports.'}),
-          ('The engineering comparison is used to show that',
-           ['taste is like engineering', 'disagreement about weighting does not establish subjectivity', 'experts are unreliable', 'criteria are unnecessary'],
-           1, 'Nobody concludes engineering is personal taste.',
-           {0: 'The parallel is a comparison, not an identification.', 2: 'He defends the judges rather than doubting them.', 3: 'Criteria are what the engineers also share.'}),
           (
-           'He says what would settle the question is evidence about '
-           'whether trained judgements',
-           ['agree more often', 'predict anything independent', 'are faster', 'are cheaper'],
-           1,
-           'And that in the few fields tested the results are mixed.',
-           {0: 'More agreement is what he says proves little.', 2: 'Speed of judgement is not what he would test.', 3: 'Cost is not part of the question he poses.'})]),
+           'The engineering comparison shows that disagreement about '
+           '____________ does not establish subjectivity.',
+           None, 'weighting',
+           'Nobody concludes engineering is personal taste.'),
+          (
+           'He says the question would be settled by evidence about '
+           'whether trained judgements predict anything ____________.',
+           None, 'independent',
+           'And that in the few fields tested the results are mixed.')]),
     dict(heading='Two critics disagree about a work', part='Part 3',
          task='A discussion between two critics · multiple choice', band='l3',
          qtype='Questions 27-32',
@@ -519,31 +516,27 @@ UNIT = dict(
           ('Hieronymus', 'That sentence will annoy somebody and it is the '
            'only useful thing either of us has said today.')],
          items=[
-          ('Perpetua begins by asking whether they are',
-           ['disagreeing about anything', 'using the same criteria', 'equally experienced', 'going to compromise'],
-           0, 'She asks this before either of them describes the work.',
-           {1: 'Whether they share criteria is settled by the '
-               'document.', 2: 'Experience is not what she asks about.', 3: 'Compromise is not what she proposes.'}),
+          (
+           'Perpetua begins by asking whether they are ____________ '
+           'about anything.', None, 'disagreeing',
+           'She asks this before either of them describes the work.'),
           ('Hieronymus\u2019s response to her description is that he',
            ['disputes the second half', 'would sign both sentences unchanged', 'needs to see it again', 'disagrees about the edges'],
            1, 'Establishing that they agree about the work.',
            {0: 'He signs both sentences, including the second.', 2: 'He does not ask to see the work again.', 3: 'The edges are part of what he agrees with.'}),
           (
            'His reasons for weighting execution higher include that '
-           'technical command is',
-           ['more teachable', 'rarer and slower to acquire', 'easier to judge', 'more popular'],
-           1, 'Reasons he declines to call compelling.',
-           {0: 'Teachability is not the reason he gives.', 2: 'Ease of judging is not his argument.', 3: 'Popularity is not part of his reasoning.'}),
-          ('Perpetua\u2019s reason concerns',
-           ['the artist', 'the exhibition rather than the work', 'the public', 'the budget'],
-           1, 'Which Hieronymus calls better than his own.',
-           {0: 'The artist is not what her reason turns on.', 2: 'The public is not the subject of her reason.', 3: 'Budget is not raised by either critic.'}),
-          ('They conclude that the published criteria are',
-           ['correct', 'wrong or at least incomplete', 'too detailed', 'irrelevant'],
-           1,
+           'technical command is rarer and ____________ to acquire.',
+           None, 'slower', 'Reasons he declines to call compelling.'),
+          (
+           'Perpetua\u2019s reason concerns the ____________ rather than '
+           'the work.', None, 'exhibition',
+           'Which Hieronymus calls better than his own.'),
+          (
+           'They conclude that the published criteria are wrong or at '
+           'least ____________.', None, 'incomplete',
            'Because they do not say how to weigh execution against '
-           'theme.',
-           {0: 'They find the criteria silent on the key question.', 2: 'Detail is not what they say is wrong.', 3: 'They treat the criteria as worth correcting.'}),
+           'theme.'),
           ('Perpetua wants the panel report to say they',
            ['disagreed', 'agreed about the work and found the criteria silent on weighting', 'could not decide', 'need more time'],
            1, 'Because "we disagreed" tells the office nothing.',
@@ -853,15 +846,13 @@ UNIT = dict(
            'spread. The mean of a bimodal distribution describes nobody in '
            'it.')],
          items=[
-          ('He says that taking only the middle bar will produce',
-           ['a rough answer', 'the opposite of the right conclusion', 'an unreliable estimate', 'the same answer'],
-           1, 'Which is what published reports of this kind do.',
-           {0: 'He says it produces the opposite conclusion, not a '
-               'rough one.', 2: 'The estimate is not merely imprecise but inverted.', 3: 'The two orderings differ, which is his point.'}),
-          ('The spread in architecture is',
-           ['seven points', 'twenty-five points', 'fifty points', 'seventy-eight points'],
-           0, 'From a lowest pair of 72 to a highest of 79.',
-           {1: 'Twenty-five points is the gap between two means.', 2: 'No spread of that size appears on the chart.', 3: 'Seventy-eight points is the sculpture spread.'}),
+          (
+           'He says that taking only the middle bar will produce the '
+           '____________ of the right conclusion.', None,
+           'opposite',
+           'Which is what published reports of this kind do.'),
+          ('The spread in architecture is ____________ points.', None,
+           'seven', 'From a lowest pair of 72 to a highest of 79.'),
           ('The sculpture mean of 51 is produced by',
            ['all pairs scoring near 51', 'one pair agreeing almost perfectly averaged with one barely above chance', 'a measurement error', 'two outliers'],
            1, 'Across a spread of seventy-eight points.',
@@ -871,20 +862,15 @@ UNIT = dict(
            1, 'A narrow range allowing a smaller panel.',
            {0: 'Who wins is decided by the scores, not these figures.', 2: 'Which criteria to publish is a separate decision.', 3: 'Judge training is not what the figures are for.'}),
           (
-           'His caveat is that a wide spread may mean different '
-           'standards or the same standard applied to work that',
-           ['is more difficult', 'genuinely varies more', 'is newer', 'is anonymised'],
-           1, 'Calling for opposite remedies.',
-           {0: 'Difficulty is not the alternative he names.', 2: 'Novelty of the work is not part of the caveat.', 3: 'Anonymisation is not what the caveat concerns.'}),
+           'His caveat is that a wide spread may mean the same '
+           'standard applied to work that genuinely ____________ more.',
+           None, 'varies', 'Calling for opposite remedies.'),
           (
            'His general rule is that when a figure arrives with a '
-           'spread, you should',
-           ['average it', 'report the spread', 'discard outliers', 'repeat the measurement'],
-           1,
+           'spread, you should report the ____________.',
+           None, 'spread',
            'Because the mean of a bimodal distribution describes '
-           'nobody in it.',
-           {0: 'Averaging is what produces the misleading figure.', 2: 'Discarding outliers removes the spread he wants '
-               'reported.', 3: 'Repetition is not what he recommends.'})])],
+           'nobody in it.')])],
    speak=dict(
     part='Part 3', focus='Judging consistently',
     intro=('Five or six sentences. Try once to say why an average can '
@@ -1232,16 +1218,13 @@ UNIT = dict(
            'could fix.')],
          items=[
           (
-           'Step one of the argument assumes the disagreement is about',
-           ['the criteria', 'the work', 'the judges', 'the process'], 1,
-           'Which he says it almost never is.',
-           {0: 'The criteria are shared, which is his point.', 2: 'The judges are who disagree, not what about.', 3: 'The process is not what step one assumes.'}),
+           'Step one of the argument assumes the disagreement is about '
+           'the ____________.', None, 'work',
+           'Which he says it almost never is.'),
           (
            'In thirty years the chair recalled how many incompatible '
-           'descriptions?',
-           ['none', 'four', 'forty', 'several hundred'], 1,
-           'Out of several thousand assessments.',
-           {0: 'He gives a small number, not none.', 2: 'Ten times the figure he reports.', 3: 'Several thousand is the number of assessments.'}),
+           'descriptions?', None, 'four',
+           'Out of several thousand assessments.'),
           (
            'The engineering parallel shows that disagreement about '
            'weighting does not mean',
@@ -1250,10 +1233,8 @@ UNIT = dict(
            {0: 'He treats the engineers as reliable throughout.', 2: 'Cost is a term in the weighting, not the conclusion.', 3: 'Structural analysis continues unaffected.'}),
           (
            'He says high inter-rater agreement is nearly worthless '
-           'because judges are not',
-           ['experienced', 'independent', 'numerous', 'trained'], 1,
-           'Sharing a training in what to look at.',
-           {0: 'Experience is what they all have in common.', 2: 'Panel size is not his objection.', 3: 'They are trained, which is exactly the problem.'}),
+           'because judges are not ____________.', None,
+           'independent', 'Sharing a training in what to look at.'),
           (
            'Of his three parts, the one with no evidence is expertise '
            'in',
@@ -1261,10 +1242,10 @@ UNIT = dict(
            'Perception and reasoning he calls real.',
            {0: 'Perception he calls real and demonstrable.', 1: 'Reasoning he calls real, since a weighting can be '
                'defended.', 3: 'Teaching is not one of his three parts.'}),
-          ('His practical recommendation is that judges record their',
-           ['rankings', 'weightings', 'descriptions', 'confidence'], 1,
-           'So the kind of disagreement becomes visible.',
-           {0: 'Rankings are what panels already record.', 2: 'Descriptions are already shared between judges.', 3: 'Confidence is not what he asks them to record.'})])],
+          (
+           'His practical recommendation is that judges record their '
+           '____________.', None, 'weightings',
+           'So the kind of disagreement becomes visible.')])],
    speak=dict(
     part='Part 3', focus='Taste and argument',
     followup=[(('You changed your mind when you learned what the building was '
@@ -1649,10 +1630,9 @@ UNIT = dict(
            {0: 'She says they could not state a new criterion.', 2: 'Agreement increases rather than falling.', 3: 'The document was available from the start.'}),
           (
            'He says that evidence is not decisive because '
-           'apprenticeship also transmits',
-           ['errors', 'arbitrary conventions', 'technique', 'reputation'],
-           1, 'Beautifully, which is the word he chooses for it.',
-           {0: 'Errors are not what he says apprenticeship propagates.', 2: 'Technique is not the thing he names.', 3: 'Reputation is the confound in the survival argument.'}),
+           'apprenticeship also transmits ____________ conventions.',
+           None, 'arbitrary',
+           'Beautifully, which is the word he chooses for it.'),
           (
            'The finding he cites is that judges from different '
            'traditions agree above chance on work from',
