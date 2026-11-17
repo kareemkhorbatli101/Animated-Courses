@@ -911,13 +911,13 @@ UNIT = dict(
           'forger working entirely in period materials, which is laborious but '
           'not difficult, produces an object that no instrument can refute, '
           'and such objects exist in collections now.',
-          'Nor was connoisseurship simply wrong here. Reading the earlier '
-          'literature, something interesting emerges: three specialists '
-          'recorded doubts, in print, in 1974, 1988 and 2004. None used the '
-          'word forgery. All three noted that the panel was unusually '
-          'satisfying, that it resolved iconographic puzzles more neatly than '
-          'contemporary works typically do, and that this was worth further '
-          'study.',
+          'Nor was connoisseurship simply wrong here, and reading the '
+          'earlier literature something interesting emerges: three '
+          'specialists recorded doubts, in print, in 1974, 1988 and '
+          '2004. None used the word forgery. All three noted that the '
+          'panel was unusually satisfying, that it resolved '
+          'iconographic puzzles more neatly than contemporary works '
+          'typically do, and that this was worth further study.',
           'What failed, therefore, was not perception but the mechanism for '
           'acting on perception. A doubt expressed as an unusual quality does '
           'not generate an investigation; a doubt expressed as an accusation '
@@ -951,12 +951,12 @@ UNIT = dict(
           'doubt would be cheap too. It is precisely because a doubt, once '
           'confirmed, imposes uncosted damage on colleagues and institutions '
           'that the doubt is phrased as an observation about unusual quality, which commits nobody.',
-          'There is a final turn worth noticing. The panel is the same object '
-          'it was in 2012. The pleasure it gave, the puzzles it resolved, the '
-          'descriptions written about it — none of these has been shown to be '
-          'mistaken, and the historian who called it the most moving object in '
-          'the collection has not retracted that and says she sees no reason '
-          'to.',
+          'There is a final turn worth noticing: the panel is the same '
+          'object it was in 2012. The pleasure it gave, the puzzles it '
+          'resolved, the descriptions written about it \u2014 none of these '
+          'has been shown to be mistaken, and the historian who called '
+          'it the most moving object in the collection has not '
+          'retracted that and says she sees no reason to.',
           'Whether she is right depends on a question the analysis cannot '
           'touch: whether what we value in such an object is a property of the '
           'thing in front of us or of the story attached to it. The pigment '
@@ -1204,13 +1204,13 @@ UNIT = dict(
          task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 59-65',
          paras=[
-          'Consider a thought experiment that has become standard in the '
-          'philosophy of art and is more useful than most. Two canvases hang '
-          'side by side. They are indistinguishable: the same pigments in the '
-          'same quantities, the same craquelure, the same weave, identical '
-          'under every instrument. One was painted by Vermeer in 1660. The '
-          'other was painted last year by a forger of extraordinary '
-          'ability.',
+          'Consider a thought experiment that has become standard in '
+          'the philosophy of art and is more useful than most: two '
+          'canvases hang side by side. They are indistinguishable: the '
+          'same pigments in the same quantities, the same craquelure, '
+          'the same weave, identical under every instrument. One was '
+          'painted by Vermeer in 1660; the other was painted last year '
+          'by a forger of extraordinary ability.',
           'Almost everybody says the first is worth more, and most people find '
           'the judgement obvious. The interesting question is what it is a '
           'judgement about, since by stipulation there is no difference in '
@@ -1224,11 +1224,12 @@ UNIT = dict(
           'people’s reaction to forgery, which is not the reaction of '
           'somebody who has been shown an inferior picture but of somebody who '
           'has been lied to.',
-          'A second answer is that the difference is in what the object '
-          'achieved. Vermeer’s canvas solved problems that had not been '
-          'solved. The forger’s canvas solved the problem of copying a '
-          'solution, which is difficult but different in kind. On this view we '
-          'are valuing an act, and the object is the record of that act, standing in for what is valued.',
+          'A second answer is that the difference is in what the '
+          'object achieved: Vermeer\u2019s canvas solved problems that had '
+          'not been solved. The forger\u2019s canvas solved the problem of '
+          'copying a solution, which is difficult but different in '
+          'kind. On this view we are valuing an act, and the object is '
+          'the record of that act, standing in for what is valued.',
           'A third answer denies that the question is about the object at all. '
           'What differs, on this account, is the institution: one canvas is '
           'embedded in a practice of scholarship, display and exchange that '

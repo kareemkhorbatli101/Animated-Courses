@@ -717,48 +717,52 @@ UNIT = dict(
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
-          'Life expectancy in western Europe was around forty in 1850 and is '
-          'around eighty now, which is the largest change in human health '
-          'that has ever been recorded, and most people assume that modern '
-          'medicine is responsible for it. The assumption is understandable '
-          'and the timing does not support it. The majority of the '
-          'improvement had already occurred before antibiotics, before most '
-          'vaccines, and before any of the treatments that make modern '
-          'hospitals expensive. The order of events is not in dispute; what '
-          'the order means is argued about constantly.',
+          'Life expectancy in western Europe was around forty in 1850 '
+          'and is around eighty now, which is the largest change in '
+          'human health that has ever been recorded. Most people '
+          'assume that modern medicine is responsible for it. The '
+          'assumption is understandable and the timing does not '
+          'support it. The majority of the improvement had already '
+          'occurred before antibiotics, before most vaccines, and '
+          'before any of the treatments that make modern hospitals '
+          'expensive. The order of events is not in dispute; what the '
+          'order means is argued about constantly.',
           'The first point to grasp is that average life expectancy is '
-          'dominated by deaths in childhood. A population in which a quarter '
-          'of children die before the age of five will show an average of '
-          'about forty even if most of the adults who survive childhood '
-          'reach sixty-five in good health. Preventing those childhood '
-          'deaths moves the average enormously; extending old age moves it '
-          'very little. An average is therefore a statement about children '
-          'before it is a statement about anybody else.',
-          'The main cause of the fall in child deaths was clean water and '
-          'the removal of sewage, achieved in European cities between about '
-          '1860 and 1910. The connection is visible in the city records: '
-          'deaths from diarrhoeal disease fall sharply in the decade in '
-          'which each city completed its drainage, and the order in which '
-          'the cities improved matches the order in which they built. That '
-          'match is the strongest evidence available for a cause in a period '
-          'with no controlled trials.',
-          'Food supply was the second cause and is considerably harder to '
-          'measure. Better nutrition does not prevent infection directly; '
-          'what it determines is whether a child survives one, and how '
-          'quickly. The effect therefore appears in the records as a '
-          'reduction in deaths from a dozen different diseases at once, '
-          'which is exactly the pattern historians argue about, since a '
-          'general improvement is consistent with several different '
-          'explanations.',
-          'Medicine entered late and then mattered enormously. Vaccines '
-          'against smallpox, diphtheria and measles removed diseases that '
-          'sanitation could not touch, and antibiotics after 1945 changed '
-          'the outcome of infections that had previously been decided by the '
-          'patient’s own strength. The honest summary is that drains '
-          'produced most of the first eighty per cent of the improvement and '
-          'medicine produced most of the last twenty, and that the last '
-          'twenty per cent contains almost everything that keeps adults '
-          'alive today rather than children.'],
+          'dominated by deaths in childhood. A population in which a '
+          'quarter of children die before the age of five will show an '
+          'average of about forty. That holds even if most of the '
+          'adults who survive childhood reach sixty-five in good '
+          'health. Preventing those childhood deaths moves the average '
+          'enormously; extending old age moves it very little. An '
+          'average is therefore a statement about children before it '
+          'is a statement about anybody else.',
+          'The main cause of the fall in child deaths was clean water '
+          'and the removal of sewage, achieved in European cities '
+          'between about 1860 and 1910. The connection is visible in '
+          'the city records. Deaths from diarrhoeal disease fall '
+          'sharply in the decade in which each city completed its '
+          'drainage, and the order in which the cities improved '
+          'matches the order in which they built. That match is the '
+          'strongest evidence available for a cause in a period with '
+          'no controlled trials.',
+          'Food supply was the second cause and is considerably harder '
+          'to measure. Better nutrition does not prevent infection '
+          'directly; what it determines is whether a child survives '
+          'one, and how quickly. The effect therefore appears in the '
+          'records as a reduction in deaths from a dozen different '
+          'diseases at once. That is exactly the pattern historians '
+          'argue about, since a general improvement is consistent with '
+          'several different explanations.',
+          'Medicine entered late and then mattered enormously. '
+          'Vaccines against smallpox, diphtheria and measles removed '
+          'diseases that sanitation could not touch, and antibiotics '
+          'after 1945 changed the outcome of infections that had '
+          'previously been decided by the patient\u2019s own strength. The '
+          'honest summary is that drains produced most of the first '
+          'eighty per cent of the improvement and medicine produced '
+          'most of the last twenty. That last twenty per cent contains '
+          'almost everything that keeps adults alive today rather than '
+          'children.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The timing problem', 'Why child deaths dominate',
@@ -967,13 +971,13 @@ UNIT = dict(
           'almost nobody who lives in the country it refers to. '
           'Understanding why is the most valuable thing a reader of health '
           'statistics can learn.',
-          'Within that one country, life expectancy varies by about ten '
-          'years between the richest and the poorest districts, and in '
-          'several cities the variation can be seen between neighbouring '
-          'stops on the same bus route, which is the comparison that makes '
-          'the figure real to people. The national figure is the midpoint of '
-          'a range so wide that neither end is recognisable from the middle '
-          'of it.',
+          'Within that one country, life expectancy varies by about '
+          'ten years between the richest and the poorest districts. In '
+          'several cities the variation can be seen between '
+          'neighbouring stops on the same bus route, which is the '
+          'comparison that makes the figure real to people. The '
+          'national figure is the midpoint of a range so wide that '
+          'neither end is recognisable from the middle of it.',
           'The gap is not mainly explained by the health service, which is a '
           'conclusion that surprises almost everybody who meets it. '
           'Countries with free treatment at the point of use show the same '
@@ -995,13 +999,13 @@ UNIT = dict(
           'measured, the poorest districts lose about twice as many healthy '
           'years as they lose years of life, so the inequality in illness is '
           'roughly double the inequality in death.',
-          'None of this makes the average useless, and it should continue to '
-          'be published. It makes it an answer to one narrow question: how '
-          'long, on average, in this territory and in this year. A reader '
-          'who wants to know how long people live in a particular place, or '
-          'whether the country is becoming more equal, has asked two '
-          'different questions, and the published figure answers neither of '
-          'them.'],
+          'None of this makes the average useless, and it should '
+          'continue to be published. It makes it an answer to one '
+          'narrow question: how long, on average, in this territory '
+          'and in this year. A reader who wants to know how long '
+          'people live in a particular place, or whether the country '
+          'is becoming more equal, has asked two different questions. '
+          'The published figure answers neither of them.'],
          items=[
           ('Which paragraph explains that the gap is not mainly caused '
            'by health services?',

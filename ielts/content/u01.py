@@ -734,21 +734,22 @@ UNIT = dict(
           'schooling and among children from the poorest households.',
           'That finding is genuine, and the advantage it describes is '
           'smaller than most people assume. Reducing a class from '
-          'twenty-three to fifteen is an expensive business: it requires '
-          'about half as many teachers again, and those teachers have to '
-          'come from somewhere. Several studies have shown that the benefit '
-          'of a smaller class disappears entirely if the only practical way '
-          'to staff it is to employ less experienced teachers, which is '
-          'invariably how it is staffed when the reduction is introduced '
-          'quickly.',
+          'twenty-three to fifteen is an expensive business: it '
+          'requires about half as many teachers again, and those '
+          'teachers have to come from somewhere. Several studies have '
+          'shown that the benefit of a smaller class disappears '
+          'entirely if the only practical way to staff it is to employ '
+          'less experienced teachers. That is invariably how it is '
+          'staffed when the reduction is introduced quickly.',
           'The honest conclusion is therefore not that class size is '
-          'unimportant. It is that class size matters much less than the '
-          'quality of the person standing at the front of the room, and that '
-          'the two are linked by money, since both are paid for from the '
-          'same single budget. A government with a fixed sum to spend is in '
-          'effect choosing between employing more teachers and paying '
-          'present ones better, and the evidence points, uncomfortably for '
-          'many parents, towards the second choice.'],
+          'unimportant. It is that class size matters much less than '
+          'the quality of the person standing at the front of the '
+          'room. The two are linked by money, since both are paid for '
+          'from the same single budget. A government with a fixed sum '
+          'to spend is in effect choosing between employing more '
+          'teachers and paying present ones better, and the evidence '
+          'points, uncomfortably for many parents, towards the second '
+          'choice.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['What parents ask', 'Schools that differ in other ways',
@@ -956,30 +957,33 @@ UNIT = dict(
           'effects too small to be measured reliably, and almost every '
           'political promise is for a small reduction, because a large one '
           'cannot be afforded by anybody who has examined the figures.',
-          'There is then the question of where the extra teachers are to be '
-          'found. A country reducing class sizes everywhere at once requires '
-          'thousands of new teachers within a short period, and it gets them '
-          'by relaxing the training it asks for. Several countries have '
-          'tried precisely this and have measured the results: the benefit '
-          'of the smaller class was cancelled out by the disadvantage of the '
-          'less experienced teacher, and in two cases the pupils did '
-          'slightly worse than before.',
+          'There is then the question of where the extra teachers are '
+          'to be found. A country reducing class sizes everywhere at '
+          'once requires thousands of new teachers within a short '
+          'period, and it gets them by relaxing the training it asks '
+          'for. Several countries have tried precisely this and have '
+          'measured the results. The benefit of the smaller class was '
+          'cancelled out by the disadvantage of the less experienced '
+          'teacher, and in two cases the pupils did slightly worse '
+          'than before.',
           'There is also a consequence inside the school building that '
-          'parents rarely observe. A school forced to create extra classes '
-          'requires extra rooms, and the rooms it takes are the music room, '
-          'the library and the room in which pupils who have fallen behind '
-          'receive support in small groups. Those rooms are small, which is '
-          'precisely why they suit that work and precisely why they are '
-          'taken first. The cost of a smaller class is frequently paid by '
-          'the pupils who need the most help.',
-          'None of this shows that class size is unimportant. It shows that '
-          'the real question is not "do smaller classes help?" but "is this '
-          'the most valuable purchase available for this money?" Framed the '
-          'second way, the evidence favours better paid teachers, improved '
-          'training and targeted support for pupils who have fallen behind, '
-          'in about that order of priority. None of those three can be '
-          'reduced to a single figure on a poster, which accounts for a '
-          'considerable part of why they lose the public argument.'],
+          'parents rarely observe. A school forced to create extra '
+          'classes requires extra rooms. The rooms it takes are the '
+          'music room, the library and the room in which pupils who '
+          'have fallen behind receive support in small groups. Those '
+          'rooms are small, which is precisely why they suit that work '
+          'and precisely why they are taken first. The cost of a '
+          'smaller class is frequently paid by the pupils who need the '
+          'most help.',
+          'None of this shows that class size is unimportant. It shows '
+          'that the real question is not whether smaller classes help. '
+          'The question is whether this is the most valuable purchase '
+          'available for this money. Framed the second way, the '
+          'evidence favours better paid teachers, improved training '
+          'and targeted support for pupils who have fallen behind, in '
+          'about that order of priority. None of those three can be '
+          'reduced to a single figure on a poster, which accounts for '
+          'a considerable part of why they lose the public argument.'],
          items=[
           ('Which paragraph explains why small reductions achieve '
            'little?',

@@ -728,13 +728,14 @@ UNIT = dict(
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
-          'When a search engine returns ten results in order, somebody has '
-          'already decided what "best" is going to mean, and that decision '
-          'is probably the most consequential piece of design most people '
-          'meet every day without ever noticing it. The ordering is not a '
-          'fact about the pages. It is the output of a rule, and rules can '
-          'be written down, examined and argued with, which is the only '
-          'reason this subject can be discussed at all.',
+          'When a search engine returns ten results in order, somebody '
+          'has already decided what "best" is going to mean. That '
+          'decision is probably the most consequential piece of design '
+          'most people meet every day without ever noticing it. The '
+          'ordering is not a fact about the pages. It is the output of '
+          'a rule, and rules can be written down, examined and argued '
+          'with, which is the only reason this subject can be '
+          'discussed at all.',
           'The earliest search engines ranked pages by how often the search '
           'word appeared on them, which worked for about three years. The '
           'weakness is obvious once stated: anybody who wants to be first '
@@ -742,22 +743,23 @@ UNIT = dict(
           'invisible text repeating search terms hundreds of times. The '
           'measure had become a target, and it stopped measuring anything '
           'useful within about three years of becoming widely known.',
-          'The change that solved it was to use information from outside the '
-          'page. If many other pages link to a page, that is a judgement '
-          'made by people who do not control it, and judgements of that kind '
-          'are much harder to fake than the words on your own site. The '
-          'ordering became a measure of what other people pointed at, which '
-          'is a far better guide to quality than anything a page can say '
-          'about itself.',
-          'That rule in turn created an industry devoted to producing links, '
-          'so the measure was refined: links from pages that are themselves '
-          'linked to count more, recent links count more than old ones, and '
-          'a link bought in bulk from a site that links to everything counts '
-          'for almost nothing. Each refinement is a response to an attempt '
-          'to exploit the rule before it, which is why these systems become '
-          'more complicated over time rather than more accurate. The '
-          'complexity is a record of past attacks rather than a sign of '
-          'better understanding.',
+          'The change that solved it was to use information from '
+          'outside the page. If many other pages link to a page, that '
+          'is a judgement made by people who do not control it. '
+          'Judgements of that kind are much harder to fake than the '
+          'words on your own site. The ordering became a measure of '
+          'what other people pointed at, which is a far better guide '
+          'to quality than anything a page can say about itself.',
+          'That rule in turn created an industry devoted to producing '
+          'links, so the measure was refined. Links from pages that '
+          'are themselves linked to count more, and recent links count '
+          'more than old ones. A link bought in bulk from a site that '
+          'links to everything counts for almost nothing. Each '
+          'refinement is a response to an attempt to exploit the rule '
+          'before it, which is why these systems become more '
+          'complicated over time rather than more accurate. The '
+          'complexity is a record of past attacks rather than a sign '
+          'of better understanding.',
           'What all of these have in common is that they measure something '
           'that stands in for quality rather than quality itself. Nobody can '
           'write a rule for "this page is accurate". What can be measured is '
@@ -966,13 +968,14 @@ UNIT = dict(
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
-          'Every ranking system measures something it can count in place of '
-          'something it wants. The question that decides whether the system '
-          'is any good is how closely the two travel together, and the '
-          'honest answer is that they travel together well for most '
-          'questions and come apart badly for a few. Unfortunately, the few '
-          'are the ones that matter most, which is the general shape of a '
-          'great many problems in this field.',
+          'Every ranking system measures something it can count in '
+          'place of something it wants. The question that decides '
+          'whether the system is any good is how closely the two '
+          'travel together. The honest answer is that they travel '
+          'together well for most questions and come apart badly for a '
+          'few. Unfortunately, the few are the ones that matter most, '
+          'which is the general shape of a great many problems in this '
+          'field.',
           'For an ordinary question — the opening hours of a library, '
           'the spelling of a word, how to change a tyre — what people '
           'link to and click on is an excellent guide to what is '

@@ -1150,13 +1150,14 @@ UNIT = dict(
          task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 53-59',
          paras=[
-          'Arguments about restitution are conducted almost entirely in '
-          'advance of the event. Both sides describe what return would mean, '
-          'and both descriptions are predictions. Three substantial returns '
-          'have now been completed and followed for long enough to be '
-          'examined, and what they show is that the predictions on both sides '
-          'were wrong in the same way: they overstated how much the transfer '
-          'itself would settle.',
+          'Arguments about restitution are conducted almost entirely '
+          'in advance of the event, with both sides describing what '
+          'return would mean, and both descriptions are predictions. '
+          'Three substantial returns have now been completed and '
+          'followed for long enough to be examined, and what they show '
+          'is that the predictions on both sides were wrong in the '
+          'same way: they overstated how much the transfer itself '
+          'would settle.',
           'The first case involved a set of carved panels returned to a '
           'national museum in 1998 after a nine-year negotiation. The '
           'receiving institution displayed them for four years and then placed '

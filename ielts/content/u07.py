@@ -773,15 +773,16 @@ UNIT = dict(
           'owners vote in greater numbers than renters, attend the meetings '
           'and are organised street by street, the political pressure on any '
           'committee runs almost entirely in one direction, year after year.',
-          'What follows from all of this is uncomfortable for both sides of '
-          'the argument as it is usually conducted in public. The cost of '
-          'the house is largely the cost of the permission to build it, so '
-          'building costs and construction methods are very nearly '
-          'irrelevant to whether people can afford to buy one. And the '
-          'permission is restricted for reasons that a majority of the '
-          'people complaining about prices would support without hesitation '
-          'if the question were asked about the field at the end of their '
-          'own road.'],
+          'What follows from all of this is uncomfortable for both '
+          'sides of the argument as it is usually conducted in public. '
+          'The cost of the house is largely the cost of the permission '
+          'to build it, so building costs and construction methods are '
+          'very nearly irrelevant to whether people can afford to buy '
+          'one. And the permission is restricted for reasons that a '
+          'majority of the people complaining about prices would '
+          'support without hesitation. They would support them if the '
+          'question were asked about the field at the end of their own '
+          'road.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['What a house is made of',
@@ -1013,28 +1014,28 @@ UNIT = dict(
           'offering relief to people who will be house-hunting in a '
           'decade, which is a real benefit and not an answer to a '
           'current crisis.',
-          'The second is where the building happens. New homes are built '
-          'where land is available and permission is obtainable, which '
-          'in practice means the edges of cities rather than the '
-          'centres. Supply at the edge does reduce pressure overall, and '
-          'it does very little for the price of a flat near the centre, '
-          'which is where the shortage is most acute and where the jobs '
-          'are.',
-          'The third is who the new homes are for. A new flat is sold or let '
-          'at the price the market will bear, so new building first serves '
-          'those with the most money, and the benefit reaches poorer '
-          'households only indirectly, as those households move up and '
-          'release what they leave behind. That chain does work, and it '
-          'works slowly, and in the meantime the visible result is a row of '
-          'expensive new flats in a district with a housing problem, which '
-          'is politically poisonous and looks exactly like what the '
-          'objectors predicted.',
+          'The second is where the building happens. New homes are '
+          'built where land is available and permission is obtainable, '
+          'which in practice means the edges of cities rather than the '
+          'centres. Supply at the edge does reduce pressure overall. '
+          'It does very little for the price of a flat near the '
+          'centre, which is where the shortage is most acute and where '
+          'the jobs are.',
+          'The third is who the new homes are for. A new flat is sold '
+          'or let at the price the market will bear, so new building '
+          'first serves those with the most money. The benefit reaches '
+          'poorer households only indirectly, as those households move '
+          'up and release what they leave behind. That chain does '
+          'work, and it works slowly. In the meantime the visible '
+          'result is a row of expensive new flats in a district with a '
+          'housing problem, which is politically poisonous and looks '
+          'exactly like what the objectors predicted.',
           'None of this is an argument against building. It is an '
-          'argument against expecting building alone to do the work, '
-          'and it explains why the cities with the best outcomes have '
-          'done two things at once: permitted a great deal of private '
-          'building and built directly for people the market does not '
-          'serve, on land the public already owns.',
+          'argument against expecting building alone to do the work. '
+          'It explains why the cities with the best outcomes have done '
+          'two things at once. They have permitted a great deal of '
+          'private building, and they have built directly for people '
+          'the market does not serve, on land the public already owns.',
           'The sentence worth holding on to is that supply arguments are '
           'true of the market as a whole and much weaker when they are '
           'applied to any one particular street. A policy that is right in '

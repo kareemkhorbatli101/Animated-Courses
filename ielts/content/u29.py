@@ -872,12 +872,12 @@ UNIT = dict(
           'telling people to be careful.',
           'What follows is not despair but a change of target. If the '
           'mechanism is novelty and simplicity rather than malice or '
-          'inattention, then the useful interventions act on the structure of '
-          'distribution rather than on the virtue of individuals: slowing '
-          'the resharing of unread links, attaching the correction to the '
-          'original item rather than publishing it separately, and declining '
-          'to treat the number of shares as a measure of anything except '
-          'itself.'],
+          'inattention, then the useful interventions act on the '
+          'structure of distribution rather than on the virtue of '
+          'individuals. They slow the resharing of unread links, '
+          'attach the correction to the original item rather than '
+          'publishing it separately, and decline to treat the number '
+          'of shares as a measure of anything except itself.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The role of automated accounts', 'Novelty',

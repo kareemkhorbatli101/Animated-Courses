@@ -1162,15 +1162,16 @@ UNIT = dict(
          task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 56-62',
          paras=[
-          'Cycle 4 argued that sample size is the wrong thing to worry about. '
-          'That argument is correct and it is incomplete, because it can leave '
-          'a reader with the impression that the remaining problem, '
-          'non-random selection, is a technical blemish that careful '
-          'practitioners avoid. The history of the subject suggests otherwise. '
-          'The notable failures were not produced by careless amateurs. They '
-          'were produced by well-resourced organisations using the best method '
-          'of their day, and in several cases the flaw was invisible until '
-          'after the result was known.',
+          'Cycle 4 argued that sample size is the wrong thing to worry '
+          'about. That argument is correct and it is incomplete, '
+          'because it can leave a reader with the impression that the '
+          'remaining problem, non-random selection, is a technical '
+          'blemish that careful practitioners avoid. The history of '
+          'the subject suggests otherwise, because the notable '
+          'failures were not produced by careless amateurs. They were '
+          'produced by well-resourced organisations using the best '
+          'method of their day, and in several cases the flaw was '
+          'invisible until after the result was known.',
           'The canonical example is a magazine poll of 1936, which mailed '
           'ballots to some ten million addresses, received two and a half '
           'million back, and predicted the wrong winner by a wide margin. The '

@@ -833,13 +833,14 @@ UNIT = dict(
          task='Matching headings, Yes/No/Not Given and summary completion',
          band='acad', qtype='Questions 42-48',
          paras=[
-          'Every growing city faces the same three options and discusses them '
-          'as though there were two. It can build upwards, increasing the '
-          'number of homes on land already serviced; it can build outwards, '
-          'adding land at the edge; or it can build very little, which is a '
-          'choice made by default and has consequences as large as either of '
-          'the others, and almost none of them recorded anywhere a '
-          'council would look.',
+          'Every growing city faces the same three options and '
+          'discusses them as though there were two. It can build '
+          'upwards, increasing the number of homes on land already '
+          'serviced; it can build outwards, adding land at the edge; '
+          'or it can build very little. Building very little is a '
+          'choice made by default, and it has consequences as large as '
+          'either of the others, almost none of them recorded anywhere '
+          'a council would look.',
           'Building upwards is cheap to serve and expensive to build. The '
           'pipes, cables, buses and schools largely exist, and each '
           'additional household uses them at a lower marginal cost than a new '
@@ -874,12 +875,13 @@ UNIT = dict(
           'arguing either case can assemble a consistent set of true '
           'statements, which is why the argument has lasted forty years '
           'without moving.',
-          'What is genuinely settled is the arithmetic of servicing. A city '
-          'that grows outwards commits itself to a maintenance liability it '
-          'carries for a century: the kilometres of pipe and road per '
-          'household are two to four times higher at the edge than in the '
-          'centre, and those assets have to be renewed on a cycle whatever '
-          'happens to the city’s population.',
+          'What is genuinely settled is the arithmetic of servicing. A '
+          'city that grows outwards commits itself to a maintenance '
+          'liability it carries for a century. The kilometres of pipe '
+          'and road per household are two to four times higher at the '
+          'edge than in the centre, and those assets have to be '
+          'renewed on a cycle whatever happens to the city\u2019s '
+          'population.',
           'What is not settled, and is often asserted, is the claim that '
           'density produces community. The research here is weak in both '
           'directions, the effects found are small, and they are swamped by '

@@ -966,16 +966,17 @@ UNIT = dict(
           'merit of being defensible under cross-examination, which the '
           'broader one is not, and a technique oversold by its advocates is '
           'eventually discredited by them.',
-          'Where randomisation is impossible, which covers most questions '
-          'governments actually face, the alternatives all substitute an '
-          'assumption for the randomisation. A comparison region assumes the '
-          'two regions would have moved together. A phased rollout assumes '
-          'the order of phases was unrelated to the outcome. A discontinuity '
-          'design assumes that units just above and just below a threshold '
+          'Where randomisation is impossible, which covers most '
+          'questions governments actually face, the alternatives all '
+          'substitute an assumption for the randomisation. A '
+          'comparison region assumes the two regions would have moved '
+          'together. A phased rollout assumes the order of phases was '
+          'unrelated to the outcome, and a discontinuity design '
+          'assumes that units just above and just below a threshold '
           'are otherwise alike. Each assumption is plausible in some '
-          'settings and false in others, and no amount of care in executing '
-          'the arithmetic compensates for choosing a design whose '
-          'assumption the setting does not support.',
+          'settings and false in others, and no amount of care in '
+          'executing the arithmetic compensates for choosing a design '
+          'whose assumption the setting does not support.',
           'The crucial property of these assumptions is that the central one '
           'in each design is untestable in the period that matters. The '
           'common trend assumption concerns what the comparison region would '
@@ -1006,14 +1007,15 @@ UNIT = dict(
           'the estimate survives a substantial violation and a reader who '
           'learns that it does not have been given different things, and the '
           'second reader has been given the more significant one.',
-          'A second practice is to pre-register the comparison, naming it '
-          'before the outcome is known. This does not make the assumption '
-          'true. It removes one specific way of being wrong, which is '
-          'choosing among several defensible comparisons after seeing which '
-          'produces the preferred answer, and it is valuable precisely '
-          'because nobody who did that would be able to prove they had '
-          'not. It also costs nothing, which distinguishes it from most '
-          'proposals for improving the quality of evidence.',
+          'A second practice is to pre-register the comparison, naming '
+          'it before the outcome is known; this does not make the '
+          'assumption true. It removes one specific way of being '
+          'wrong, which is choosing among several defensible '
+          'comparisons after seeing which produces the preferred '
+          'answer, and it is valuable precisely because nobody who did '
+          'that would be able to prove they had not. It also costs '
+          'nothing, which distinguishes it from most proposals for '
+          'improving the quality of evidence.',
           'None of this leads where the sceptical reader expects. The '
           'conclusion is not that causal claims about policy are '
           'unwarranted; most of the ones that survive this scrutiny are '
@@ -1025,12 +1027,13 @@ UNIT = dict(
           'stated in a sentence can be contested by a reader who has never '
           'seen the data; a judgement buried in a method section cannot be '
           'contested at all.',
-          'The practical test a careful reader can apply is short. What is '
-          'the comparison? Was it named before the result was known? What '
-          'would have to be true for it to be fair? And how much would the '
-          'estimate change if that were wrong? Four questions, none of them '
-          'technical, and together they separate most of the evaluation '
-          'literature worth relying on from most of what is not.'],
+          'The practical test a careful reader can apply is short: '
+          'what is the comparison? Was it named before the result was '
+          'known? What would have to be true for it to be fair? And '
+          'how much would the estimate change if that were wrong? Four '
+          'questions, none of them technical, and together they '
+          'separate most of the evaluation literature worth relying on '
+          'from most of what is not.'],
          items=[
           ('Choose the best heading for paragraph 3.',
            ['The missing world', 'What randomisation actually guarantees',
@@ -1269,13 +1272,13 @@ UNIT = dict(
          task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 59-66',
          paras=[
-          'A recurring frustration in public argument is the discovery that '
-          'a question which sounds empirical cannot be resolved empirically. '
-          'The condition is ordinarily construed as temporary, remediable by '
-          'superior data. For an identifiable class of questions it is '
-          'permanent, and membership of that class is discernible in advance '
-          'by inspection rather than by awaiting the failure of successive '
-          'studies.',
+          'A recurring frustration in public argument is the discovery '
+          'that a question which sounds empirical cannot be resolved '
+          'empirically, and the condition is ordinarily construed as '
+          'temporary, remediable by superior data. For an identifiable '
+          'class of questions it is permanent, and membership of that '
+          'class is discernible in advance by inspection rather than '
+          'by awaiting the failure of successive studies.',
           'The first kind of question fails on the counterfactual. Whether a '
           'specific war shortened or lengthened a subsequent peace requires '
           'comparing the world as it is with a world in which the war did '
@@ -1322,13 +1325,13 @@ UNIT = dict(
           'result is in, and never from the same speaker when a study '
           'concludes favourably.',
           'Distinguishing the fourth case from the first three is not '
-          'invariably easy and there is a test that works more frequently '
-          'than not. Ask the disputants what finding would change their '
-          'position. In a genuine limit case, both sides can describe the '
-          'study they wish existed and explain why it cannot be run. In the '
-          'fourth case, one side describes such a study and the other '
-          'produces a series of objections that would apply equally to any '
-          'study whatever.',
+          'invariably easy and there is a test that works more '
+          'frequently than not. Ask the disputants what finding would '
+          'change their position: in a genuine limit case, both sides '
+          'can describe the study they wish existed and explain why it '
+          'cannot be run. In the fourth case, one side describes such '
+          'a study and the other produces a series of objections that '
+          'would apply equally to any study whatever.',
           'That test has an honourable history and a practical cost: it '
           'requires the person applying it to be willing to find that their '
           'own side is the one producing universal objections. Most people '
@@ -1345,15 +1348,15 @@ UNIT = dict(
           'those is where most governing occurs. Pretending the gradation '
           'does not exist forces every decision into one of two boxes, '
           'neither of which fits.',
-          'The objection to this is that labelling is inexpensive and nobody '
-          'consults the label. The objection is accurate about current '
-          'practice and does not touch the principle. A document stating '
-          'that its conclusion rests on a mechanism argument, enumerating '
-          'the alternative explanations considered, and specifying what '
-          'would revise its view, is contestable; the document asserting '
-          'that the evidence supports the policy is not. The second '
-          'formulation is not a stronger claim than the first but a less '
-          'inspectable one.',
+          'The objection to this is that labelling is inexpensive and '
+          'nobody consults the label; the objection is accurate about '
+          'current practice and does not touch the principle. A '
+          'document stating that its conclusion rests on a mechanism '
+          'argument, enumerating the alternative explanations '
+          'considered, and specifying what would revise its view, is '
+          'contestable; the document asserting that the evidence '
+          'supports the policy is not. The second formulation is not a '
+          'stronger claim than the first but a less inspectable one.',
           'The deeper point is that the demand for proof before action is '
           'not a neutral standard applied evenly. It is applied to proposed '
           'changes and scarcely ever to the arrangements already in place, '

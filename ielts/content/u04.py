@@ -720,20 +720,22 @@ UNIT = dict(
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
-          'The simplest way to protect a species is to buy the land it lives '
-          'on and keep people off it, and for about a century that was very '
-          'largely what conservation meant in practice. The approach works '
-          'for some species and fails for others, and the reason it fails is '
-          'about shape rather than about biology, which is why no amount of '
-          'good work inside the fence can repair it.',
-          'A reserve has edges, and the ground near an edge is not the same '
-          'kind of place as the ground in the middle of it. Wind, light and '
-          'dry air reach a hundred metres or more into a wood, and so do '
-          'cats, rats and the seeds of plants from the fields outside it. A '
-          'square reserve of one square kilometre contains very little '
-          'ground that is more than four hundred metres from an edge, which '
-          'means that a small reserve may be almost entirely edge, and a '
-          'long narrow one may have no undisturbed interior whatever.',
+          'The simplest way to protect a species is to buy the land it '
+          'lives on and keep people off it, and for about a century '
+          'that was very largely what conservation meant in practice. '
+          'The approach works for some species and fails for others. '
+          'The reason it fails is about shape rather than about '
+          'biology, which is why no amount of good work inside the '
+          'fence can repair it.',
+          'A reserve has edges, and the ground near an edge is not the '
+          'same kind of place as the ground in the middle of it. Wind, '
+          'light and dry air reach a hundred metres or more into a '
+          'wood, and so do cats, rats and the seeds of plants from the '
+          'fields outside it. A square reserve of one square kilometre '
+          'contains very little ground that is more than four hundred '
+          'metres from an edge. A small reserve may therefore be '
+          'almost entirely edge, and a long narrow one may have no '
+          'undisturbed interior whatever.',
           'The second difficulty is that a population has to be large enough '
           'to survive its bad years, and a small reserve by definition holds '
           'a small population. Below a certain size, a population is removed '
@@ -743,14 +745,14 @@ UNIT = dict(
           'which bad year did it. Many protected populations are at or below '
           'that size and are kept alive by occasional arrivals from '
           'elsewhere.',
-          'This is why corridors matter so much. A strip of rough ground, a '
-          'hedge or an unploughed river bank connecting two reserves lets '
-          'animals move between them, which turns two small groups into one '
-          'larger group for every purpose that matters here. Unless the '
-          'corridors are kept open, the reserve is an island, and islands '
-          'lose species steadily in a way that has been counted for a '
-          'century on real islands and then found again on ones we have '
-          'made.',
+          'This is why corridors matter so much. A strip of rough '
+          'ground, a hedge or an unploughed river bank connecting two '
+          'reserves lets animals move between them. That turns two '
+          'small groups into one larger group for every purpose that '
+          'matters here. Unless the corridors are kept open, the '
+          'reserve is an island. Islands lose species steadily in a '
+          'way that has been counted for a century on real islands and '
+          'then found again on ones we have made.',
           'None of this is an argument against reserves, which remain the '
           'only instrument that reliably prevents land from being built on '
           'or ploughed. It argues against assuming that a boundary solves '

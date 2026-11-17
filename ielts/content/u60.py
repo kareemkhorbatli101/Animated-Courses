@@ -1269,13 +1269,14 @@ UNIT = dict(
           'largely predictable from the test’s design, which means it is '
           'a decision somebody made rather than an accident that befell '
           'the teaching.',
-          'The mechanism is straightforward. Teachers and learners have '
-          'limited hours and a visible target, and they allocate hours '
-          'towards what the target rewards. This is rational behaviour by '
-          'everyone involved and no account that treats it as laziness or '
-          'cynicism will predict anything. A teacher with thirty hours and a '
-          'student who needs a 7.0 next month is not being cynical when she '
-          'spends them where the marks are.',
+          'The mechanism is straightforward: teachers and learners '
+          'have limited hours and a visible target, and they allocate '
+          'hours towards what the target rewards. This is rational '
+          'behaviour by everyone involved and no account that treats '
+          'it as laziness or cynicism will predict anything. A teacher '
+          'with thirty hours and a student who needs a 7.0 next month '
+          'is not being cynical when she spends them where the marks '
+          'are.',
           'Where a test samples the construct broadly, the mechanism works '
           'in favour of learning. A test that requires reading three long '
           'passages under time produces teaching in which people read long '

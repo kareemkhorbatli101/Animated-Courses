@@ -53,6 +53,41 @@ def inventory(vol):
     return out
 
 
+def pairs(vol):
+    """Adjacent sentence pairs inside one paragraph, shortest sum first.
+
+    Merging raises a book's mean without adding a word, but only a pair
+    that belongs together can be merged without damaging the prose, and
+    a pair is only a candidate if it sits inside one paragraph.
+    """
+    out = []
+    lo = 21 + (vol - 3) * 10
+    mods = [D._load('u%02d' % n) for n in range(lo, lo + 10)]
+    paras = []
+    for m in mods:
+        if m is None:
+            continue
+        U = m.UNIT
+        for ci, c in enumerate(U['cycles'], 1):
+            for r in c['read']:
+                if r['band'] in ('acad', 'long'):
+                    for pi, p in enumerate(r['paras'], 1):
+                        paras.append(('u%d c%d p%d' % (U['n'], ci, pi), p))
+    for nm in ('paper%d' % vol, 'paper%da' % vol, 'paper%db' % vol):
+        pm = D._load(nm)
+        if pm is None:
+            continue
+        for x in pm.PAPER['passages']:
+            for pi, p in enumerate(x['paras'], 1):
+                paras.append(('%s p%d.%d' % (nm, x['no'], pi), p))
+    for addr, p in paras:
+        ss = sentences(p)
+        for i in range(len(ss) - 1):
+            a, b = ss[i], ss[i + 1]
+            out.append((len(a.split()) + len(b.split()), addr, a, b))
+    return sorted(out)
+
+
 def mean(inv):
     return sum(n for _, n, _ in inv) / float(len(inv))
 
@@ -85,6 +120,13 @@ def main(argv):
         else:
             print('to reach %.1f: split %d sentences (%d -> %d)'
                   % (target, round(-need), S, S + round(-need)))
+        return 0
+    if '--pairs' in argv:
+        k = int(argv[argv.index('--pairs') + 1])
+        for tot, addr, a, b in pairs(vol)[:k]:
+            print('%-16s %3d' % (addr, tot))
+            print('   A: %s' % a)
+            print('   B: %s' % b)
         return 0
     k = 0
     if '--short' in argv:

@@ -44,12 +44,13 @@ PAPER = dict(
         'by what happened at either end of it.',
         'The figures are startling once they are assembled. Studies of '
         'break-bulk operations in the 1950s found that loading and '
-        'unloading could account for between forty and sixty per cent of '
-        'the total cost of a shipment, that a docker handled roughly one and '
-        'a half tonnes an hour, and that pilferage ran at a level which the '
-        'industry treated as an operating expense rather than as a crime. '
-        'Insurance premiums were set on the assumption that a proportion of '
-        'every consignment would simply not arrive.',
+        'unloading could account for between forty and sixty per cent '
+        'of the total cost of a shipment, and that a docker handled '
+        'roughly one and a half tonnes an hour. Pilferage ran at a '
+        'level which the industry treated as an operating expense '
+        'rather than as a crime. Insurance premiums were set on the '
+        'assumption that a proportion of every consignment would '
+        'simply not arrive.',
         'The response, when it came, was not a technology but a standard. '
         'Containers of various kinds had existed for decades; what did not '
         'exist was agreement on their dimensions, on the fittings by which '
@@ -262,12 +263,13 @@ PAPER = dict(
         'language remains wholly unknown. Linear A is, in the technical '
         'sense, partly deciphered and wholly untranslated, a combination '
         'which the ordinary word decipherment conceals.',
-        'What the history suggests about method is modest and transferable. '
-        'Work on structure before meaning. Refuse the attractive guess until '
-        'the structure forces it. State what your solution predicts about '
-        'evidence you have not seen. And distinguish carefully between the '
-        'claim that you can read a text and the claim that you know what it '
-        'says, because the first can be true while the second is not.'],
+        'What the history suggests about method is modest and '
+        'transferable: work on structure before meaning. Refuse the '
+        'attractive guess until the structure forces it, and state '
+        'what your solution predicts about evidence you have not seen. '
+        'And distinguish carefully between the claim that you can read '
+        'a text and the claim that you know what it says, because the '
+        'first can be true while the second is not.'],
        items=[
         ('The writer says decipherments can be verified absolutely '
          'because',
@@ -374,19 +376,20 @@ PAPER = dict(
         'test, and confirmed, which is the only form in which the argument '
         'deserves a hearing.',
         'The response of the field has been more substantial than its '
-        'critics allow and less than its defenders claim. Preregistration '
-        '— publishing the analysis plan before collecting data — has gone '
-        'from rare to routine in several subfields, and preregistered '
-        'studies replicate at markedly higher rates. Sample sizes have risen '
-        'substantially. Journals that once refused negative results now '
-        'publish them, though they remain harder to place.',
+        'critics allow and less than its defenders claim. '
+        'Preregistration \u2014 publishing the analysis plan before '
+        'collecting data \u2014 has gone from rare to routine in several '
+        'subfields, and preregistered studies replicate at markedly '
+        'higher rates. Sample sizes have risen substantially, and '
+        'journals that once refused negative results now publish them, '
+        'though they remain harder to place.',
         'Against that, three features of the system that produced the '
-        'problem are unchanged. Hiring and promotion still reward volume of '
-        'publication. Replication work is still difficult to fund and '
-        'confers little credit on those who do it. And the statistical '
-        'threshold whose misuse generated much of the trouble remains the '
-        'convention in most journals, defended on the grounds that no '
-        'agreed alternative exists.',
+        'problem are unchanged: hiring and promotion still reward '
+        'volume of publication. Replication work is still difficult to '
+        'fund and confers little credit on those who do it. And the '
+        'statistical threshold whose misuse generated much of the '
+        'trouble remains the convention in most journals, defended on '
+        'the grounds that no agreed alternative exists.',
         'There is a further complication which the public discussion has '
         'almost wholly missed. The replication projects examined psychology '
         'because psychology permitted them to: its studies are cheap, its '
@@ -410,13 +413,14 @@ PAPER = dict(
         'and was always weak evidence, and the error lay in treating '
         'publication as a certification of truth rather than as an entry '
         'into a conversation.',
-        'That conclusion is less dramatic than a crisis and more useful, '
-        'because it tells a reader what to do. Ask how large the sample '
-        'was. Ask whether the analysis was specified in advance. Ask whether '
-        'the finding has been repeated by somebody with no stake in it. '
-        'Three questions, none of them requiring statistical training, which '
-        'between them separate most of the literature worth relying on from '
-        'most of the literature that is not.',
+        'That conclusion is less dramatic than a crisis and more '
+        'useful, because it tells a reader what to do. Ask how large '
+        'the sample was, and whether the analysis was specified in '
+        'advance. Ask whether the finding has been repeated by '
+        'somebody with no stake in it. Three questions, none of them '
+        'requiring statistical training, which between them separate '
+        'most of the literature worth relying on from most of the '
+        'literature that is not.',
         'It is worth adding that the episode is, by any reasonable standard, '
         'a success rather than a failure. A body of researchers identified a '
         'systematic weakness in their own work, measured its extent, '

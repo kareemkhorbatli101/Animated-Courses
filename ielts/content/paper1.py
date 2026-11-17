@@ -39,12 +39,13 @@ PAPER = dict(
         'South Africa, the hands on every watch today would almost certainly '
         'turn the other way.',
         'A sundial is nothing more complicated than a stick set in the '
-        'ground with a scale marked around it. In the northern hemisphere '
-        'the sun appears in the east, crosses the southern sky and sets in '
-        'the west, so the shadow of the stick travels from west to north to '
-        'east: precisely the direction we now describe as clockwise. South '
-        'of the equator the sun crosses the northern sky instead, and the '
-        'shadow travels the opposite way.',
+        'ground with a scale marked around it. In the northern '
+        'hemisphere the sun appears in the east, crosses the southern '
+        'sky and sets in the west. The shadow of the stick therefore '
+        'travels from west to north to east: precisely the direction '
+        'we now describe as clockwise. South of the equator the sun '
+        'crosses the northern sky instead, and the shadow travels the '
+        'opposite way.',
         'When the first mechanical clocks were built in Europe in the '
         'fourteenth century, they were made for people who had used sundials '
         'all their lives. A clock whose hand moved the other way would have '
@@ -134,19 +135,20 @@ PAPER = dict(
              'which are based on Reading Passage 2 below.',
        qtype='Questions 14-26',
        paras=[
-        'Before 1840, sending a letter in Britain was an expensive business, '
-        'and the charge was collected from the person who received it. The '
-        'cost depended on the distance travelled and on the number of sheets '
-        'of paper used, and it was high enough to matter: a single sheet '
-        'carried from London to Edinburgh cost more than a labourer earned '
-        'in half a day of work.',
-        'The arrangement produced some remarkable behaviour among the people '
-        'subject to it. People wrote across the page and then turned the '
-        'paper and wrote across their own writing at a right angle, to keep '
-        'a letter to one sheet. Others agreed a private code in advance: an '
-        'agreed mark on the outside of the letter carried the whole message, '
-        'and the receiver examined the outside, learned what was needed and '
-        'then refused to pay, so that the information travelled the length '
+        'Before 1840, sending a letter in Britain was an expensive '
+        'business, and the charge was collected from the person who '
+        'received it. The cost depended on the distance travelled and '
+        'on the number of sheets of paper used, and it was high enough '
+        'to matter. A single sheet carried from London to Edinburgh '
+        'cost more than a labourer earned in half a day of work.',
+        'The arrangement produced some remarkable behaviour among the '
+        'people subject to it. People wrote across the page and then '
+        'turned the paper and wrote across their own writing at a '
+        'right angle, to keep a letter to one sheet. Others agreed a '
+        'private code in advance. An agreed mark on the outside of the '
+        'letter carried the whole message, and the receiver examined '
+        'the outside and learned what was needed. The receiver then '
+        'refused to pay, so that the information travelled the length '
         'of the country free of charge.',
         'Rowland Hill, a schoolteacher, published a pamphlet in 1837 arguing '
         'that the whole arrangement was wrong. His central objection was '
@@ -284,10 +286,10 @@ PAPER = dict(
         'Where those procedures are followed, witness confidence is '
         'actually quite a good guide to accuracy. The relationship '
         'between the two is strong at the moment of first '
-        'identification and weakens steadily afterwards, which is '
+        'identification and weakens steadily afterwards. That is '
         'almost exactly the opposite of how courts have traditionally '
-        'treated it, since the confidence a jury hears is the '
-        'confidence of a witness who has told the story many times.',
+        'treated it. The confidence a jury hears is the confidence of '
+        'a witness who has told the story many times.',
         'None of this means witnesses should be disbelieved. It means that a '
         'witness’s confidence in court is a measurement of something other '
         'than what they originally observed, and that the genuinely useful '

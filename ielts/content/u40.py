@@ -911,14 +911,15 @@ UNIT = dict(
           'itself, in a sentence, tells everybody which harm the organisation '
           'chose to bear and which it chose to impose, and that sentence is '
           'the thing a public can actually argue about.',
-          'There is a final observation that makes the problem harder, not '
-          'easier. The impossibility concerns groups that have been '
-          'defined. Any real population can be divided in many ways, and a '
-          'system calibrated across one division will generally fail '
-          'calibration across another that nobody thought to check. There is '
-          'no finite list of groups whose fairness can be certified, which '
-          'means that fairness, in the sense the public wants, is not a '
-          'property a system can be proved to have.'],
+          'There is a final observation that makes the problem harder, '
+          'not easier: the impossibility concerns groups that have '
+          'been defined. Any real population can be divided in many '
+          'ways, and a system calibrated across one division will '
+          'generally fail calibration across another that nobody '
+          'thought to check. There is no finite list of groups whose '
+          'fairness can be certified, which means that fairness, in '
+          'the sense the public wants, is not a property a system can '
+          'be proved to have.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['A score that means the same for everyone',
@@ -1164,19 +1165,22 @@ UNIT = dict(
           'simultaneously. Its appeal is that it borrows a settled '
           'institution: we audit accounts, and the arrangement, whatever its '
           'failures, is one society has learned to operate.',
-          'The analogy breaks in three places, and they are worth taking in '
-          'order of how fixable they are. The first is access. A financial '
-          'auditor has a statutory right to the books. An algorithmic auditor '
-          'generally has whatever access the audited firm agrees to give, and '
-          'firms have commercial reasons to give as little as possible. This '
-          'is the most tractable problem, because it is a matter of legislation, and legislation is a thing a parliament can pass in an afternoon when it decides to.',
-          'The second is the object of the audit. Accounts are a finite '
-          'record of what happened. A model is a function, and auditing a '
-          'function means establishing how it behaves across inputs, '
-          'including inputs nobody has yet supplied. An auditor can test the '
-          'cases they think to test, which is why audits reliably find the '
-          'problems somebody already suspected and reliably miss the '
-          'others.',
+          'The analogy breaks in three places, and they are worth '
+          'taking in order of how fixable they are. The first is '
+          'access: a financial auditor has a statutory right to the '
+          'books. An algorithmic auditor generally has whatever access '
+          'the audited firm agrees to give, and firms have commercial '
+          'reasons to give as little as possible. This is the most '
+          'tractable problem, because it is a matter of legislation, '
+          'and legislation is a thing a parliament can pass in an '
+          'afternoon when it decides to.',
+          'The second is the object of the audit: accounts are a '
+          'finite record of what happened. A model is a function, and '
+          'auditing a function means establishing how it behaves '
+          'across inputs, including inputs nobody has yet supplied. An '
+          'auditor can test the cases they think to test, which is why '
+          'audits reliably find the problems somebody already '
+          'suspected and reliably miss the others.',
           'The third is the one that does not yield to resources at all, and '
           'it follows from the impossibility result discussed in the previous '
           'cycle. Since no system can satisfy every reasonable fairness '
@@ -1211,11 +1215,12 @@ UNIT = dict(
           'engineered it, which in practice is the better-resourced '
           'applicants.',
           'There is one further asymmetry that the accounting analogy '
-          'obscures. A financial audit is repeated annually on a record that '
-          'is finished. An algorithmic audit examines a system that may be '
-          'retrained the following month, after which the audited object no '
-          'longer exists. Any certificate therefore describes a version, and '
-          'the public reads it as describing a product.',
+          'obscures: a financial audit is repeated annually on a '
+          'record that is finished. An algorithmic audit examines a '
+          'system that may be retrained the following month, after '
+          'which the audited object no longer exists. Any certificate '
+          'therefore describes a version, and the public reads it as '
+          'describing a product.',
           'The conclusion this volume has reached repeatedly applies here '
           'too. The question is rarely whether to have oversight but what '
           'kind of thing oversight can establish, and a great deal of '

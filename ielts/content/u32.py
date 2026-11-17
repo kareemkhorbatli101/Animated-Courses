@@ -578,31 +578,34 @@ UNIT = dict(
                              ('Automatic separation', 3, 5),
                              ('Finishing', 6, 7)]),
          paras=[
-          'A modern materials recovery facility is not a recycling plant in the '
-          'sense most people imagine. Nothing is turned into anything. The '
-          'building is a separation machine, and its product is four or five '
-          'streams of material clean enough that somebody else will pay for '
-          'them. Understanding it as a separation process '
-          'explains most of what follows.',
-          'The process begins with tipping. Collection lorries empty onto a '
-          'concrete floor, where a loading shovel pushes the material onto a '
-          'conveyor at a controlled rate. That rate matters: the machinery '
-          'downstream is designed for a particular depth of material, and a '
-          'surge defeats every stage that follows. The first mechanical stage '
-          'is a rotating drum which splits any bags, since a sealed bag passes '
-          'through the entire plant as a single object.',
+          'A modern materials recovery facility is not a recycling '
+          'plant in the sense most people imagine, because nothing is '
+          'turned into anything. The building is a separation machine, '
+          'and its product is four or five streams of material clean '
+          'enough that somebody else will pay for them. Understanding '
+          'it as a separation process explains most of what follows.',
+          'The process begins with tipping: collection lorries empty '
+          'onto a concrete floor, where a loading shovel pushes the '
+          'material onto a conveyor at a controlled rate. That rate '
+          'matters: the machinery downstream is designed for a '
+          'particular depth of material, and a surge defeats every '
+          'stage that follows. The first mechanical stage is a '
+          'rotating drum which splits any bags, since a sealed bag '
+          'passes through the entire plant as a single object.',
           'The material then reaches a trommel, a large inclined cylinder '
           'perforated with holes. Small items fall through and large items '
           'travel on, which sorts by size before anything is sorted by '
           'material. This is the least glamorous stage and the one that most '
           'affects the final quality, because every later machine works better '
           'on a narrow range of sizes.',
-          'Three automatic separations follow. An overband magnet lifts out '
-          'steel. An eddy current separator induces a field in non-ferrous '
-          'metal and throws aluminium clear of the belt, which is the only '
-          'stage in the plant where a material is pushed along, not lifted or '
-          'dropped. Optical sorters then identify plastics by polymer, firing '
-          'short bursts of air to divert the target material into a chute.',
+          'Three automatic separations follow, the first of which is '
+          'an overband magnet that lifts out steel. An eddy current '
+          'separator induces a field in non-ferrous metal and throws '
+          'aluminium clear of the belt, which is the only stage in the '
+          'plant where a material is pushed along, not lifted or '
+          'dropped. Optical sorters then identify plastics by polymer, '
+          'firing short bursts of air to divert the target material '
+          'into a chute.',
           'What remains passes a line of pickers who remove, by hand, whatever '
           'the machines could not read. The hand-picking line exists because '
           'optical sorters identify material by its surface, and a sleeved or '
@@ -920,7 +923,7 @@ UNIT = dict(
           'recycling rate fall, which is politically awkward in a way that '
           'nobody anticipated: an authority doing better by the new measure '
           'reports a worse number by the old one.',
-          'None of this makes the plateau unimportant. It makes it a '
+          'None of this makes the plateau unimportant; it makes it a '
           'different object from the one campaigns address.',
           'The deeper lesson is about where the plateau is located. It is not '
           'in household behaviour, which is the part of the system that '
@@ -1159,14 +1162,15 @@ UNIT = dict(
           'is acting on a small share of the problem, and a public conversation '
           'organised around household bins has quietly agreed not to discuss '
           'the rest.',
-          'The second line of argument concerns ordering. Waste policy is '
-          'conventionally expressed as a hierarchy: prevent, reduce, reuse, '
-          'recycle, recover, dispose. Recycling sits fourth, and the three '
-          'options above it are more effective by a wide margin. Yet recycling '
-          'receives most of the public attention and most of the '
-          'infrastructure spending, for reasons that are easy to see: it is '
-          'visible, it is measurable, and it does not require anybody to buy '
-          'less of anything.',
+          'The second line of argument concerns ordering, since waste '
+          'policy is conventionally expressed as a hierarchy: prevent, '
+          'reduce, reuse, recycle, recover, dispose. Recycling sits '
+          'fourth, and the three options above it are more effective '
+          'by a wide margin. Yet recycling receives most of the public '
+          'attention and most of the infrastructure spending, for '
+          'reasons that are easy to see: it is visible, it is '
+          'measurable, and it does not require anybody to buy less of '
+          'anything.',
           'This leads to the most contested claim in the field, which is that '
           'conspicuous recycling may increase consumption. The mechanism '
           'proposed is moral licensing: an action that feels virtuous relaxes '
@@ -1182,14 +1186,15 @@ UNIT = dict(
           'about. What can be said is that the effect is plausible, that it '
           'has been demonstrated under controlled conditions, and that it has '
           'not been shown to be large in the wild.',
-          'There is a third argument which does not depend on the second at '
-          'all, and which may be stronger for that reason. Attention is '
-          'finite. A public conversation that spends its available concern on '
-          'the sorting of household packaging has less left for the decisions '
-          'that determine whether the packaging existed: material choice, '
-          'product lifetime, the design of the retail supply chain. These '
-          'decisions are made by a small number of people and are almost never '
-          'the subject of a campaign.',
+          'There is a third argument which does not depend on the '
+          'second at all, and which may be stronger for that reason: '
+          'attention is finite. A public conversation that spends its '
+          'available concern on the sorting of household packaging has '
+          'less left for the decisions that determine whether the '
+          'packaging existed: material choice, product lifetime, the '
+          'design of the retail supply chain. These decisions are made '
+          'by a small number of people and are almost never the '
+          'subject of a campaign.',
           'A fourth consideration is practical, not theoretical, and '
           'it concerns what a policy can actually reach. Household behaviour '
           'is addressed through campaigns, which are cheap to run and whose '

@@ -879,20 +879,23 @@ UNIT = dict(
          task='Matching headings, Yes/No/Not Given and summary completion',
          band='acad', qtype='Questions 46-52',
          paras=[
-          'Between 2011 and 2020 a series of large projects attempted to '
-          'repeat well-known experiments in several fields. In psychology, '
-          'about four in ten repetitions produced the original result. In '
-          'cancer biology, fewer. The findings were widely described as a '
-          'crisis, and the word has done considerable damage to a discussion '
-          'that would be better served by arithmetic.',
-          'The first thing to establish is that this outcome was predicted. '
-          'If a field runs studies with a fifty per cent chance of detecting a '
-          'real effect of the size it is looking for — and surveys of '
-          'published work suggest this is roughly typical — then even if every '
-          'single effect studied were real, half the original studies would '
-          'have found nothing and half of the repetitions would fail. The '
-          'observed failure rate is close to what underpowered research '
-          'produces when it is working correctly.',
+          'Between 2011 and 2020 a series of large projects attempted '
+          'to repeat well-known experiments in several fields. In '
+          'psychology, about four in ten repetitions produced the '
+          'original result; in cancer biology, fewer. The findings '
+          'were widely described as a crisis, and the word has done '
+          'considerable damage to a discussion that would be better '
+          'served by arithmetic.',
+          'The first thing to establish is that this outcome was '
+          'predicted. If a field runs studies with a fifty per cent '
+          'chance of detecting a real effect of the size it is looking '
+          'for \u2014 and surveys of published work suggest this is roughly '
+          'typical \u2014 then the arithmetic is unforgiving. Even if every '
+          'single effect studied were real, half the original studies '
+          'would have found nothing and half of the repetitions would '
+          'fail. The observed failure rate is close to what '
+          'underpowered research produces when it is working '
+          'correctly.',
           'The mechanism that converts low power into a literature of '
           'successes is publication bias. A study that finds nothing is '
           'harder to publish, so it is written up less often, submitted less '
@@ -905,17 +908,19 @@ UNIT = dict(
           'is not being dishonest, but is selecting among many studies while '
           'believing they have run one.',
           'Both mechanisms inflate published effect sizes instead of '
-          'inventing them. This is the point most commonly missed in '
-          'public discussion. A finding that fails to replicate is usually not '
-          'a finding that is false; it is far more often a real effect that is '
-          'considerably smaller than the published estimate, discovered by a '
-          'study too small to measure it reliably.',
-          'That distinction has consequences for what should be done. If '
-          'published findings were mostly fabrications, the remedy would be '
-          'detection and punishment. If they are mostly real effects measured '
-          'badly, the remedy is larger samples, pre-registered analyses and a '
-          'publication system that accepts null results — and these are '
-          'exactly the reforms the fields concerned have adopted.',
+          'inventing them, which is the point most commonly missed in '
+          'public discussion. A finding that fails to replicate is '
+          'usually not a finding that is false; it is far more often a '
+          'real effect that is considerably smaller than the published '
+          'estimate, discovered by a study too small to measure it '
+          'reliably.',
+          'That distinction has consequences for what should be done: '
+          'if published findings were mostly fabrications, the remedy '
+          'would be detection and punishment. If they are mostly real '
+          'effects measured badly, the remedy is larger samples, '
+          'pre-registered analyses and a publication system that '
+          'accepts null results \u2014 and these are exactly the reforms '
+          'the fields concerned have adopted.',
           'There is a further complication that cuts against the whole '
           'enterprise of replication projects. A repetition can fail because '
           'the original effect was overstated, or because the repetition '
@@ -1170,12 +1175,12 @@ UNIT = dict(
          paras=[
           'In 2009 a laboratory reported that a brief writing exercise '
           'improved the examination results of students from '
-          'under-represented groups, with an effect that persisted for two '
-          'years. In 2017 a larger study, conducted with the original '
-          'authors’ cooperation and using their materials, found nothing. '
-          'Both studies were well conducted. The disagreement between them is '
-          'still open, and it is a useful case because it resists every easy '
-          'reading.',
+          'under-represented groups, with an effect that persisted for '
+          'two years. In 2017 a larger study, conducted with the '
+          'original authors\u2019 cooperation and using their materials, '
+          'found nothing. Both studies were well conducted, and the '
+          'disagreement between them is still open; it is a useful '
+          'case because it resists every easy reading.',
           'The simplest interpretation is that the original result was a '
           'false positive produced by a small sample and a selective '
           'literature. This is the correct default and it may well be right. '
@@ -1225,14 +1230,15 @@ UNIT = dict(
           'supports two different arguments equally well. Nothing in the '
           'system brings the two citing communities into contact, and the '
           'disagreement therefore persists without ever being conducted.',
-          'The general lesson is about what replication is for. A repetition '
-          'tests whether a result holds under the conditions of the '
-          'repetition. When those conditions differ in a way that theory says '
-          'should matter, the repetition has tested a related but different '
-          'claim. Treating every failed replication as a verdict on the '
-          'original finding imports an assumption — that context does not '
-          'matter — which is itself an empirical claim, and one that in this '
-          'instance the original authors had explicitly denied in advance.'],
+          'The general lesson is about what replication is for: a '
+          'repetition tests whether a result holds under the '
+          'conditions of the repetition. When those conditions differ '
+          'in a way that theory says should matter, the repetition has '
+          'tested a related but different claim. Treating every failed '
+          'replication as a verdict on the original finding imports an '
+          'assumption \u2014 that context does not matter \u2014 which is itself '
+          'an empirical claim, and one that in this instance the '
+          'original authors had explicitly denied in advance.'],
          items=[
           ('Which paragraph gives the simplest explanation of the '
            'disagreement?', ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',

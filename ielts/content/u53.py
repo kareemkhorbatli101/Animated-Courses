@@ -983,16 +983,16 @@ UNIT = dict(
           'behaved improperly; the relationship merely described a situation '
           'that the act of measurement abolished.',
           'This carries a significant consequence that is routinely '
-          'overlooked. The degradation is no indication that an '
-          'inappropriate measure was selected. The optimal available proxy '
-          'degrades for precisely the same reason as an inadequate one, and '
-          'occasionally faster, since a superior proxy attracts greater '
-          'pressure. The pursuit of a measure immune to manipulation is '
-          'therefore not a pursuit capable of succeeding, and considerable '
-          'effort has been expended on it. The practical corollary is that a '
-          'proposal defended on the ground that its measure is exceptionally '
-          'well chosen has misconstrued the difficulty it purports to '
-          'resolve.',
+          'overlooked: the degradation is no indication that an '
+          'inappropriate measure was selected. The optimal available '
+          'proxy degrades for precisely the same reason as an '
+          'inadequate one, and occasionally faster, since a superior '
+          'proxy attracts greater pressure. The pursuit of a measure '
+          'immune to manipulation is therefore not a pursuit capable '
+          'of succeeding, and considerable effort has been expended on '
+          'it. The practical corollary is that a proposal defended on '
+          'the ground that its measure is exceptionally well chosen '
+          'has misconstrued the difficulty it purports to resolve.',
           'What does differ between measures is how far the degradation can '
           'go, and this is contingent on a structural property: whether the '
           'measure is a component of the outcome or merely correlated with '
@@ -1048,12 +1048,13 @@ UNIT = dict(
           'judgement, under which the weakest performer in a region is '
           'indistinguishable from the strongest and nobody, the weakest '
           'performer included, knows which is which.',
-          'The practical test for any proposed measure is three questions. '
-          'Is it a component of the outcome or a correlate of it? Does it '
-          'cover the whole job or one component of it? And is there a second '
-          'measure, attached to nothing, against which it can be checked? A '
-          'measure that fails all three will produce exactly the figures it '
-          'was designed to produce, and nothing else.'],
+          'The practical test for any proposed measure is three '
+          'questions: is it a component of the outcome or a correlate '
+          'of it? Does it cover the whole job or one component of it, '
+          'and is there a second measure, attached to nothing, against '
+          'which it can be checked? A measure that fails all three '
+          'will produce exactly the figures it was designed to '
+          'produce, and nothing else.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Rediscovery', 'Why a correlation breaks under pressure',
@@ -1318,14 +1319,14 @@ UNIT = dict(
           'sentence merits reading twice, because it describes a system in '
           'which the thing determining what occurred to a person was which '
           'door they came through.',
-          'The significant feature of this variation is its invisibility '
-          'from inside. A practitioner observes their own cases and a '
-          'handful of colleagues’, and possesses no access to the '
-          'distribution. Somebody at the tenth percentile and somebody at '
-          'the ninetieth each experience themselves as exercising careful '
-          'judgement, and neither possesses any mechanism for discovering '
-          'otherwise, which accounts for the hostility the finding provoked '
-          'on arrival.',
+          'The significant feature of this variation is its '
+          'invisibility from inside: a practitioner observes their own '
+          'cases and a handful of colleagues\u2019, and possesses no access '
+          'to the distribution. Somebody at the tenth percentile and '
+          'somebody at the ninetieth each experience themselves as '
+          'exercising careful judgement, and neither possesses any '
+          'mechanism for discovering otherwise, which accounts for the '
+          'hostility the finding provoked on arrival.',
           'This furnishes the pro-measurement case with its strongest '
           'formulation, which is not the formulation ordinarily advanced. '
           'The argument is not that measurement improves performance; it is '

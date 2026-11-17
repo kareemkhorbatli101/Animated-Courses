@@ -780,22 +780,24 @@ UNIT = dict(
               'completion',
          band='acad', qtype='Questions 47-54',
          paras=[
-          'Between 1960 and 2000 the world’s population roughly doubled and '
-          'the area of land under cultivation rose by about twelve per cent. '
-          'The gap between those two numbers is the most important single '
-          'fact in modern agriculture, and it was closed by getting a great '
-          'deal more food from each hectare rather than by ploughing up more '
-          'of the planet to grow it on.',
-          'Three separate changes produced that increase, and they worked '
-          'together rather than one at a time, which is why no single one of '
-          'them can be given the credit. New varieties of wheat and rice put '
-          'more of the plant into grain and less into stem, so that a field '
-          'of shorter plants carried more food than a field of tall ones had '
-          'done. Nitrogen fertiliser, manufactured industrially, removed the '
-          'limit that had constrained every earlier agriculture. Irrigation '
-          'made the first two reliable in places where the rainfall was not, '
-          'and reliability turns out to matter as much to a farmer as the '
-          'size of a good year does.',
+          'Between 1960 and 2000 the world\u2019s population roughly '
+          'doubled and the area of land under cultivation rose by '
+          'about twelve per cent. The gap between those two numbers is '
+          'the most important single fact in modern agriculture. It '
+          'was closed by getting a great deal more food from each '
+          'hectare rather than by ploughing up more of the planet to '
+          'grow it on.',
+          'Three separate changes produced that increase, and they '
+          'worked together rather than one at a time, which is why no '
+          'single one of them can be given the credit. New varieties '
+          'of wheat and rice put more of the plant into grain and less '
+          'into stem. A field of shorter plants therefore carried more '
+          'food than a field of tall ones had done. Nitrogen '
+          'fertiliser, manufactured industrially, removed the limit '
+          'that had constrained every earlier agriculture. Irrigation '
+          'made the first two reliable in places where the rainfall '
+          'was not, and reliability turns out to matter as much to a '
+          'farmer as the size of a good year does.',
           'The gains were enormous and they are not in dispute. Cereal '
           'production per hectare in India rose roughly threefold in forty '
           'years, and famines that had been expected did not occur. Several '
@@ -803,20 +805,22 @@ UNIT = dict(
           'any account of this period that does not begin with that sentence '
           'is not describing what actually happened.',
           'The costs appeared later and are mostly in the soil and the '
-          'water. Repeated ploughing and continuous cropping reduce the '
-          'organic matter that holds soil together, so that soil washes and '
-          'blows away faster than new soil forms beneath it. Fertiliser that '
-          'is not taken up by the crop runs off into rivers, where it '
-          'produces exactly the growth it was designed to produce, in the '
-          'wrong place and at the wrong time of year.',
-          'What makes this difficult to argue about is that the costs and '
-          'the benefits are measured in different units and arrive at '
-          'different times. Higher yields have been bought at the cost of a '
-          'stock of soil that took centuries to build, and no accounting '
-          'system in ordinary use records that stock at all. A farm can show '
-          'a profit in every one of forty consecutive years and be worth '
-          'less at the end of them than it was at the start, without a '
-          'single figure in its accounts having been wrong.'],
+          'water. Repeated ploughing and continuous cropping reduce '
+          'the organic matter that holds soil together, so that soil '
+          'washes and blows away faster than new soil forms beneath '
+          'it. Fertiliser that is not taken up by the crop runs off '
+          'into rivers. There it produces exactly the growth it was '
+          'designed to produce, in the wrong place and at the wrong '
+          'time of year.',
+          'What makes this difficult to argue about is that the costs '
+          'and the benefits are measured in different units and arrive '
+          'at different times. Higher yields have been bought at the '
+          'cost of a stock of soil that took centuries to build, and '
+          'no accounting system in ordinary use records that stock at '
+          'all. A farm can show a profit in every one of forty '
+          'consecutive years and be worth less at the end of them than '
+          'it was at the start. Not a single figure in its accounts '
+          'need have been wrong.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Population and farmland', 'The three changes together',
@@ -1020,12 +1024,13 @@ UNIT = dict(
           'years. It is an excellent measure of one thing and it is entirely '
           'silent about several others, and that silence has shaped what '
           'farms look like more powerfully than any policy ever has.',
-          'What yield measures, exactly and only, is what leaves the field '
-          'at harvest. What it does not measure is what the field has left: '
-          'the depth of the topsoil, the organic matter within it, the water '
-          'held in it, and the organisms that make it behave like soil '
-          'rather than like dust. A field can raise its recorded yield for '
-          'twenty consecutive years while every one of those four things '
+          'What yield measures, exactly and only, is what leaves the '
+          'field at harvest. What it does not measure is what the '
+          'field has left: the depth of the topsoil and the organic '
+          'matter within it. Nor does it measure the water held in it, '
+          'or the organisms that make it behave like soil rather than '
+          'like dust. A field can raise its recorded yield for twenty '
+          'consecutive years while every one of those four things '
           'declines steadily underneath it.',
           'None of this is an argument that yield is the wrong measure to '
           'use. It is the right measure of production, and production is '
@@ -1036,24 +1041,26 @@ UNIT = dict(
           'merely unmeasured.',
           'The consequences are visible in what farmers are paid for. '
           'Subsidies, loans and land valuations have all been built on '
-          'output, so a farm that protects its soil at the cost of a '
-          'slightly lower harvest is penalised by every one of those systems '
-          'at once. The farmer behaving most responsibly receives the least '
-          'support of anybody, which no one intended, which everybody can '
-          'see, and which nothing in the system currently corrects.',
-          'Measuring the rest is possible and is being done. Soil carbon can '
-          'be sampled directly, water-holding capacity can be tested in a '
-          'laboratory, and both have been shown to predict how a field '
-          'performs in a dry year rather better than its average yield does. '
-          'The measurements cost money and take time, which is the whole '
-          'reason they were not adopted in a period when the alternative '
-          'number was already being collected for nothing.',
-          'The general lesson is older than farming and appears wherever '
-          'something important is hard to count. The measure that is '
-          'easy to take drives out the measure that matters, not because '
-          'anybody decides that it should, but because budgets, '
-          'contracts and habits form around whatever number is already '
-          'on the page.'],
+          'output. A farm that protects its soil at the cost of a '
+          'slightly lower harvest is penalised by every one of those '
+          'systems at once. The farmer behaving most responsibly '
+          'receives the least support of anybody, which no one '
+          'intended, which everybody can see, and which nothing in the '
+          'system currently corrects.',
+          'Measuring the rest is possible and is being done. Soil '
+          'carbon can be sampled directly, and water-holding capacity '
+          'can be tested in a laboratory. Both have been shown to '
+          'predict how a field performs in a dry year rather better '
+          'than its average yield does. The measurements cost money '
+          'and take time, which is the whole reason they were not '
+          'adopted in a period when the alternative number was already '
+          'being collected for nothing.',
+          'The general lesson is older than farming and appears '
+          'wherever something important is hard to count. The measure '
+          'that is easy to take drives out the measure that matters. '
+          'That happens not because anybody decides that it should, '
+          'but because budgets, contracts and habits form around '
+          'whatever number is already on the page.'],
          items=[
           ('Which paragraph lists what yield does not measure?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',

@@ -970,14 +970,15 @@ UNIT = dict(
           'experimental result in the field, which is what renders it worth '
           'taking seriously rather than correcting.',
           'Begin with what has been achieved, because the argument is '
-          'worthless without it. Vision is understood well enough to be '
-          'built: edge detection, motion, depth and colour constancy have '
-          'mechanical accounts that predict what people see and what they '
-          'fail to see. Memory has been separated into systems with '
-          'distinct anatomy and distinct failures. Attention can be '
-          'manipulated and measured with a precision that would have '
-          'seemed fanciful in 1960. None of this is contested by either '
-          'party to the argument that follows.',
+          'worthless without it. Vision is understood well enough to '
+          'be built: edge detection, motion, depth and colour '
+          'constancy have mechanical accounts that predict what people '
+          'see and what they fail to see. Memory has been separated '
+          'into systems with distinct anatomy and distinct failures, '
+          'and attention can be manipulated and measured with a '
+          'precision that would have seemed fanciful in 1960. None of '
+          'this is contested by either party to the argument that '
+          'follows.',
           'Each of these accounts works by specifying a function and then '
           'finding the mechanism that performs it. This is the standard form '
           'of explanation in biology and it has never failed elsewhere: once '
@@ -993,21 +994,21 @@ UNIT = dict(
           'to be something it is like to see red, and that is what the '
           'functional story appears to omit. Whether the appearance '
           'survives examination is the entire dispute.',
-          'The argument has a standard form. Specify every function '
-          'associated with seeing red and suppose all of them performed. '
-          'It then still appears intelligible to ask why performing them '
-          'is accompanied by any experience at all, and that question '
-          'seems not to be answered by a longer or better functional '
-          'story. The gap is not a gap in current knowledge but a gap in '
-          'the form of the explanation.',
+          'The argument has a standard form: specify every function '
+          'associated with seeing red and suppose all of them '
+          'performed. It then still appears intelligible to ask why '
+          'performing them is accompanied by any experience at all, '
+          'and that question seems not to be answered by a longer or '
+          'better functional story. The gap is not a gap in current '
+          'knowledge but a gap in the form of the explanation.',
           'Several thought experiments make the point vivid. A being '
           'physically identical to a person but with no experience is '
           'described as conceivable; a person who knows every physical '
-          'fact about colour vision without having seen colour is said to '
-          'learn something new on first seeing red. Neither is an '
-          'argument on its own, and both are devices for locating where '
-          'the intuition sits. Their authors generally say so, and their '
-          'readers generally forget it.',
+          'fact about colour vision without having seen colour is said '
+          'to learn something new on first seeing red. Neither is an '
+          'argument on its own, and both are devices for locating '
+          'where the intuition sits; their authors generally say so, '
+          'and their readers generally forget it.',
           'Those devices have been heavily criticised and the criticism '
           'has force. Conceivability is a fact about what we can imagine '
           'and establishes nothing directly about what is possible; many '
@@ -1046,13 +1047,14 @@ UNIT = dict(
           'and it is some evidence that the disagreement is not empirical: '
           'there is no experiment either side expects to resolve it, and '
           'neither side claims otherwise.',
-          'For a reader rather than a participant, the usable conclusion '
-          'concerns the shape of the argument rather than its outcome. An '
-          'argument that a thing cannot be explained because we cannot '
-          'discern how it could be explained is an argument from a failure '
-          'of imagination, and such arguments have an appalling historical '
-          'record. That is not a refutation. It is a reason to hold the '
-          'conclusion more loosely than those making it generally do.'],
+          'For a reader rather than a participant, the usable '
+          'conclusion concerns the shape of the argument rather than '
+          'its outcome. An argument that a thing cannot be explained '
+          'because we cannot discern how it could be explained is an '
+          'argument from a failure of imagination, and such arguments '
+          'have an appalling historical record. That is not a '
+          'refutation; it is a reason to hold the conclusion more '
+          'loosely than those making it generally do.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['What the functional account leaves out',
@@ -1307,22 +1309,24 @@ UNIT = dict(
           'routinely run together, by its proponents and by its critics, and '
           'separating them does more work than any objection raised on '
           'either side.',
-          'The distinction is between an epistemic and an ontological claim. '
-          'An epistemic claim says we cannot know, or cannot explain, or '
-          'cannot discern how an explanation would go. An ontological claim '
-          'says there is something in the world that no explanation of a '
-          'specific kind could capture. The second is much stronger and the '
-          'arguments offered mostly support the first. The slide from one to '
-          'the other is so natural in English that it frequently happens '
-          'inside a single sentence.',
-          'Consider how the argument actually proceeds. We are invited to '
-          'suppose every functional fact fixed, and then to notice that a '
-          'question still appears intelligible. The noticing is done by '
-          'us, with our concepts, and the premise that does the work is '
-          'that our inability to see how the question could be closed is '
-          'informative about whether it can be. Stated that baldly, the '
-          'premise looks much less secure than the intuition it is '
-          'extracted from, which is why it is seldom stated.',
+          'The distinction is between an epistemic and an ontological '
+          'claim: an epistemic claim says we cannot know, or cannot '
+          'explain, or cannot discern how an explanation would go. An '
+          'ontological claim says there is something in the world that '
+          'no explanation of a specific kind could capture. The second '
+          'is much stronger and the arguments offered mostly support '
+          'the first. The slide from one to the other is so natural in '
+          'English that it frequently happens inside a single '
+          'sentence.',
+          'Consider how the argument actually proceeds: we are invited '
+          'to suppose every functional fact fixed, and then to notice '
+          'that a question still appears intelligible. The noticing is '
+          'done by us, with our concepts, and the premise that does '
+          'the work is that our inability to see how the question '
+          'could be closed is informative about whether it can be. '
+          'Stated that baldly, the premise looks much less secure than '
+          'the intuition it is extracted from, which is why it is '
+          'seldom stated.',
           'That premise is not obviously true and is rarely defended. It is '
           'instead elicited, by thought experiments designed to make the '
           'intuition vivid, and a device that renders an intuition vivid is '
@@ -1382,13 +1386,13 @@ UNIT = dict(
           'relies on a premise about the relation between our concepts and '
           'the world which its proponents have not defended and which the '
           'history of explanation gives us no reason to accept.',
-          'The reader’s version is two questions, which can be asked of '
-          'absolutely any claim '
-          'that something is beyond explanation. Is the claim about what '
-          'we can know or about what there is? And what is offered in '
-          'support: evidence, or the vividness of an intuition? Those two '
-          'questions dispose of most such claims, and in the hardest case '
-          'they tell you precisely why it is hard.'],
+          'The reader\u2019s version is two questions, which can be asked '
+          'of absolutely any claim that something is beyond '
+          'explanation. Is the claim about what we can know or about '
+          'what there is, and what is offered in support: evidence, or '
+          'the vividness of an intuition? Those two questions dispose '
+          'of most such claims, and in the hardest case they tell you '
+          'precisely why it is hard.'],
          items=[
           ('Which paragraph defines the epistemic and ontological '
            'distinction?',

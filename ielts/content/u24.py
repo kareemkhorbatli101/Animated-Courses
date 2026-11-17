@@ -857,15 +857,16 @@ UNIT = dict(
           'used, how many runs were made, and why the range is as wide as it '
           'is, and each of those questions has an answer somewhere in a '
           'supplementary file.',
-          'It also delivers something the courts have begun to use. A figure '
-          'of the form "four times more likely, with a range of two to nine" '
-          'is the kind of statement a legal system knows how to handle, and '
-          'several cases now turning on it would have been impossible to '
-          'bring under the older answer that no event can be attributed to '
-          'anything. Whether courts ought to decide such questions is a '
-          'separate argument, but they will no longer be prevented from doing '
-          'so by the absence of a number, because the number exists and is '
-          'improving each year.'],
+          'It also delivers something the courts have begun to use. A '
+          'figure of the form "four times more likely, with a range of '
+          'two to nine" is the kind of statement a legal system knows '
+          'how to handle. Several cases now turning on it would have '
+          'been impossible to bring under the older answer that no '
+          'event can be attributed to anything. Whether courts ought '
+          'to decide such questions is a separate argument, but they '
+          'will no longer be prevented from doing so by the absence of '
+          'a number, because the number exists and is improving each '
+          'year.'],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The old answer', 'A better question', 'How the method works',

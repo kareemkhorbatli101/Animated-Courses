@@ -1315,19 +1315,21 @@ UNIT = dict(
           'conditions while remaining wholly resistant to formulation as '
           'instructions.',
           'The two interpretations make different predictions and the '
-          'predictions have been tested, which is the useful part of this '
-          'literature and the part least frequently cited. If the residue is '
-          'arbitrary convention, expert judgement should not predict '
-          'anything beyond the agreement of other similarly trained experts. '
-          'If it tracks something real, it should.',
-          'The results differ by field and the pattern is informative. '
-          'Clinical intuition predicts outcomes in several well-documented '
-          'cases, occasionally outperforming early test results. Wine '
-          'expertise predicts blind identification of region at rates well '
-          'above chance and fails almost wholly at predicting price or later '
-          'critical reputation. That split within a single field is more '
-          'informative than either result alone: the same expertise tracks '
-          'one external thing and not another, which no general account of '
+          'predictions have been tested, which is the useful part of '
+          'this literature and the part least frequently cited. If the '
+          'residue is arbitrary convention, expert judgement should '
+          'not predict anything beyond the agreement of other '
+          'similarly trained experts; if it tracks something real, it '
+          'should.',
+          'The results differ by field and the pattern is informative: '
+          'clinical intuition predicts outcomes in several '
+          'well-documented cases, occasionally outperforming early '
+          'test results. Wine expertise predicts blind identification '
+          'of region at rates well above chance and fails almost '
+          'wholly at predicting price or later critical reputation. '
+          'That split within a single field is more informative than '
+          'either result alone: the same expertise tracks one external '
+          'thing and not another, which no general account of '
           'expertise predicts.',
           'In the arts the evidence is thinnest and most contested. '
           'Selection panels predict subsequent exhibition history more '
@@ -1341,10 +1343,10 @@ UNIT = dict(
           'decades.',
           'A natural experiment exists and has barely been exploited. '
           'Where two panels independently assess the same body of work '
-          'without knowing each other’s results, their agreement can be '
-          'compared with their joint prediction of anything external. Two '
-          'such studies exist. Both are small and their results point in '
-          'opposite directions.',
+          'without knowing each other\u2019s results, their agreement can '
+          'be compared with their joint prediction of anything '
+          'external. Two such studies exist, both small and with '
+          'results that point in opposite directions.',
           'What can be said with some confidence is that the arbitrary '
           'interpretation is too strong. It predicts no transfer across '
           'traditions, and judges trained in different traditions do agree '
@@ -1368,11 +1370,12 @@ UNIT = dict(
           'not been dishonest; it has committed to paper the component '
           'susceptible to being committed to paper.',
           'And it has a consequence for the sceptic, which is the most '
-          'useful thing in this passage. A standard that cannot be written '
-          'down is not thereby absent. The inference from "they cannot say '
-          'what the rule is" to "there is no rule" is the same inference '
-          'that would conclude nobody can recognise faces, and it should '
-          'be resisted in both places for the same reason.'],
+          'useful thing in this passage: a standard that cannot be '
+          'written down is not thereby absent. The inference from '
+          '"they cannot say what the rule is" to "there is no rule" is '
+          'the same inference that would conclude nobody can recognise '
+          'faces, and it should be resisted in both places for the '
+          'same reason.'],
          items=[
           ('Which paragraph sets out the two rival interpretations’ '
            'different predictions?',
