@@ -973,7 +973,7 @@
         var anyMine = rows.some(function (r) { return r.mine !== undefined; });
         if (rows.length) {
           if (anyMine) {
-            var h = U.el('div', 'rev-row');
+            var h = U.el('div', 'rev-row rev-headrow');
             h.appendChild(U.el('div', 'rev-head', ''));
             h.appendChild(U.el('div', 'rev-head', 'What you wrote'));
             h.appendChild(U.el('div', 'rev-head', 'The answer'));

@@ -988,6 +988,82 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 }
 .modal-wide { width:min(900px,100%); }
 
+/* ---------- panel: the floating, moveable, resizable reveal ----------
+   Deliberately NOT a .modal: there is no backdrop, because the exercise
+   behind it has to stay readable — the panel exists so a learner can
+   compare their own answer with the model, and a panel that covers the
+   answer is the defect it replaces. See EAM.panel in core.js. */
+.fpanel {
+  position:fixed; z-index:520; display:flex; flex-direction:column; overflow:hidden;
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--r-4);
+  box-shadow:var(--sh-3); min-width:300px; min-height:180px;
+}
+.fpanel-head {
+  display:flex; align-items:center; gap:10px; padding:11px 12px 11px 14px;
+  border-bottom:1px solid var(--border); background:var(--surface-2);
+  cursor:grab; touch-action:none; flex:0 0 auto;
+}
+.fpanel-head:active { cursor:grabbing; }
+.fpanel-head:focus-visible { outline:3px solid var(--primary); outline-offset:-3px; }
+.fpanel-head h3 { margin:0; font:700 15px/1.3 var(--ui); color:var(--text); }
+.fpanel-close { flex:0 0 auto; white-space:nowrap; }
+.fpanel-body { padding:14px; overflow:auto; flex:1 1 auto; }
+.fpanel-foot {
+  display:flex; gap:8px; flex-wrap:wrap; padding:10px 14px;
+  border-top:1px solid var(--border); background:var(--surface-2); flex:0 0 auto;
+}
+/* the resize grip: a corner the pointer can grab, drawn as two short rules */
+.fpanel-grip {
+  position:absolute; right:0; bottom:0; width:20px; height:20px;
+  cursor:nwse-resize; touch-action:none;
+  background:
+    linear-gradient(135deg, transparent 0 44%, var(--border) 44% 56%, transparent 56%),
+    linear-gradient(135deg, transparent 0 66%, var(--border) 66% 78%, transparent 78%);
+}
+/* ON A PHONE it is a bottom sheet, not a floating window: a draggable
+   300px window inside a 360px viewport cannot be put anywhere useful. */
+.fpanel-sheet {
+  left:0 !important; right:0; bottom:0; top:auto !important;
+  width:auto !important; height:auto !important; max-height:72vh;
+  border-radius:var(--r-4) var(--r-4) 0 0; border-bottom:none;
+}
+.fpanel-sheet .fpanel-head { cursor:default; }
+/* the compare table inside it */
+.rev-row { display:grid; grid-template-columns:22px 1fr 1fr; gap:8px 12px; padding:8px 0;
+  border-top:1px solid var(--border); align-items:start; }
+.rev-row:first-of-type { border-top:none; }
+.rev-head { font:700 11px/1.3 var(--ui); letter-spacing:.06em; text-transform:uppercase;
+  color:var(--muted); padding-bottom:4px; }
+.rev-mark { font:700 15px/1.4 var(--ui); text-align:center; }
+.rev-ok .rev-mark { color:var(--ok); }
+.rev-no .rev-mark { color:var(--no); }
+.rev-skip .rev-mark { color:var(--muted); }
+.rev-mine { font:400 14px/1.5 var(--ui); color:var(--text); white-space:pre-wrap; }
+.rev-mine em { color:var(--muted); font-style:italic; }
+.rev-want { font:600 14px/1.5 var(--ui); color:var(--accent); white-space:pre-wrap; }
+.rev-why { grid-column:2 / -1; font:400 13px/1.55 var(--ui); color:var(--muted); }
+.rev-note { font:400 14px/1.6 var(--ui); color:var(--text); margin:0 0 10px; }
+/* NARROW: the two columns stack, and the column HEADINGS go away.
+   They cannot simply fall into one column - the heading row has three cells, so
+   "The answer" landed in the 22px mark column and wrapped one letter per line.
+   Stacked, each cell labels itself, so the headings are redundant. */
+@media (max-width:640px) {
+  .rev-row { grid-template-columns:22px 1fr; }
+  .rev-want, .rev-mine { grid-column:2; }
+  .rev-row.rev-headrow { display:none; }
+  .rev-mine::before {
+    content:'You wrote'; display:block;
+    font:700 10.5px/1.4 var(--ui); letter-spacing:.06em; text-transform:uppercase;
+    color:var(--muted); margin-bottom:2px;
+  }
+  .rev-want::before {
+    content:'The answer'; display:block;
+    font:700 10.5px/1.4 var(--ui); letter-spacing:.06em; text-transform:uppercase;
+    color:var(--muted); margin:6px 0 2px;
+  }
+}
+@media print { .fpanel { display:none !important; } }
+
 /* ---------- put the parts in order ---------- */
 .ord-pool { display:grid; gap:10px; margin:var(--s-3) 0 var(--s-4); }
 .ord-block {
@@ -1177,6 +1253,11 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
   a[href]::after { content:""; }
   .page-main { padding-bottom:0; }
 }
+
+/* a word beside the colour, for every marked text answer — see qField.mark */
+.q-fb { font:600 12.5px/1.5 var(--ui); margin:4px 0 0; min-height:0; }
+.q-fb.is-ok { color:var(--ok); }
+.q-fb.is-no { color:var(--no); }
 
 /* ============================================================
    EAM — no sideways scrolling on a phone.

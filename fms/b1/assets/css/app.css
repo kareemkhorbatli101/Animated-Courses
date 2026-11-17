@@ -1043,9 +1043,24 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 .rev-want { font:600 14px/1.5 var(--ui); color:var(--accent); white-space:pre-wrap; }
 .rev-why { grid-column:2 / -1; font:400 13px/1.55 var(--ui); color:var(--muted); }
 .rev-note { font:400 14px/1.6 var(--ui); color:var(--text); margin:0 0 10px; }
+/* NARROW: the two columns stack, and the column HEADINGS go away.
+   They cannot simply fall into one column - the heading row has three cells, so
+   "The answer" landed in the 22px mark column and wrapped one letter per line.
+   Stacked, each cell labels itself, so the headings are redundant. */
 @media (max-width:640px) {
   .rev-row { grid-template-columns:22px 1fr; }
-  .rev-want { grid-column:2; }
+  .rev-want, .rev-mine { grid-column:2; }
+  .rev-row.rev-headrow { display:none; }
+  .rev-mine::before {
+    content:'You wrote'; display:block;
+    font:700 10.5px/1.4 var(--ui); letter-spacing:.06em; text-transform:uppercase;
+    color:var(--muted); margin-bottom:2px;
+  }
+  .rev-want::before {
+    content:'The answer'; display:block;
+    font:700 10.5px/1.4 var(--ui); letter-spacing:.06em; text-transform:uppercase;
+    color:var(--muted); margin:6px 0 2px;
+  }
 }
 @media print { .fpanel { display:none !important; } }
 

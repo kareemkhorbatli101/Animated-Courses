@@ -12,6 +12,24 @@
 
   function mk(tag, cls, html) { return el(tag, cls, html); }
   function attempt(host) { EAFM.attempted(host); }
+
+  /* ------------------------------------------------------------
+     progressLine — what is DONE, then what is left.
+
+     The engine had nine different ways of saying "not enough yet" and not one of
+     them mentioned the part the learner had finished. Measured on 60 cards of this
+     course: a real half-finished answer got a demand and nothing else, with the
+     work silently saved. This is the one wording, so it only has to be got right
+     once. RESIDUALS FM-30 / F4b.
+     ------------------------------------------------------------ */
+  function progressLine(done, total, noun, ask) {
+    var n = noun || 'answers';
+    if (done <= 0) return ask;
+    if (done >= total) return ask;
+    return done + ' of ' + total + ' ' + n + ' saved \u2014 ' + ask;
+  }
+  EAFM.progressLine = progressLine;
+
   /* shallow copy with defaults, so a card-level setting can fall
      through to each of its questions without mutating the data */
   function withDefaults(defs, o) {
@@ -134,11 +152,15 @@
       });
       host.appendChild(row);
     }
+    /* THE COMPLETION BUTTON GOES IN THE FOOTER, where every other card keeps its
+       controls. It used to sit in the body, which left the footer of these cards
+       offering "Try again" and nothing else - the only control on a reference card
+       being the one that un-completes it. 25 study cards and 10 quiz-less scene
+       cards of this course. `footer` is read by core.js buildCard.
+       RESIDUALS FM-30 / F7. */
     var done = mk('button', 'btn btn-accent', art.icon('check', 16) + (card.doneLabel || "I've studied this"));
-    done.style.marginTop = '12px';
     done.onclick = function () { attempt(host); api.complete('Noted. You can come back to this chart at any time.'); };
-    host.appendChild(done);
-    return { reset: function () { api.clearVerdict(); } };
+    return { reset: function () { api.clearVerdict(); }, footer: [done] };
   };
 
   function renderTable(tb) {
@@ -210,7 +232,9 @@
           return;
         }
         if (txtOk >= txtN) api.complete(card.okMsg || 'Good — your answers are saved.');
-        else api.verdict('part', 'Answer all ' + txtN + ' questions with at least ' + (card.minWords || 4) + ' words each. (' + txtOk + '/' + txtN + ' so far)');
+        else api.verdict('part', progressLine(txtOk, txtN, 'answers',
+          'answer the ' + (txtN - txtOk) + ' still to go, in at least '
+          + (card.minWords || 4) + ' words each.'));
       },
       reset: function () { fields.forEach(function (f) { f.reset(); }); api.save(state()); },
       hint: function () {
@@ -223,9 +247,41 @@
         }
         EAFM.toast('Use the model answers to compare once you have written your own.');
       },
+      /* THE 30 DISCUSSION CARDS OF THIS COURSE SHOWED NOTHING AT ALL.
+         Measured 2026-11-17: every question on all 30 is authored with only its
+         text - no model, no accept, no keys - so qField's show() found nothing to
+         write and wrote nothing, and the card still announced "Shown. Press Try
+         again to do it yourself." The model answer does exist on all 30: it is in
+         `coach.example`, behind a different button further down the card. So the
+         panel reads it from there, and the button that promises the answer is at
+         last the button that has it. RESIDUALS FM-30 / F3. */
       show: function () {
-        fields.forEach(function (f) { f.show(); });
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        var rows = [];
+        fields.forEach(function (f, i) {
+          var r = f.revealRow ? f.revealRow() : null;
+          if (r) { rows.push(r); return; }
+          var ex = card.coach && card.coach.example;
+          var model = Array.isArray(ex) ? ex[i] : (i === 0 ? ex : null);
+          if (model) {
+            rows.push({ t: model, mine: f.text ? f.text() : '',
+                        ok: f.ok && String(f.text()).trim() ? f.ok() : null,
+                        why: '' });
+          }
+        });
+        if (!rows.length) {
+          api.reveal({
+            title: card.title || 'About this exercise',
+            note: 'The book prints no single answer for this discussion — it is yours to '
+                + 'make. Use the checklist below the exercise to judge your own answer.'
+          });
+          return;
+        }
+        api.reveal({
+          title: 'A model answer, beside yours',
+          note: 'This is the book’s own sample answer. Yours does not have to match '
+              + 'it word for word — compare the ideas and the structure.',
+          rows: rows
+        });
       },
       coachText: function () {
         return fields.filter(function (f) { return f.kind === 'txt'; })
@@ -402,7 +458,20 @@
           return got === want;
         },
         reset: function () { if (wdg.get() !== want) wdg.reset(); else wdg.hideWhy(); },
-        show: function () { wdg.set(want); wdg.mark(null); wdg.showWhy(want); },
+        /* REPORTS the answer instead of selecting it. `show()` used to call
+           `wdg.set(want)`, which makes the right option the learner's own choice -
+           so the next press of Check marked the card correct for an answer they
+           never gave. Now it hands a row up to the card, which puts it in the
+           panel. The learner's selection is not touched. RESIDUALS FM-30. */
+        revealRow: function () {
+          var got = wdg.get();
+          return {
+            t: want >= 0 ? q.options[want].t : '',
+            mine: got === null || got === undefined ? '' : q.options[got].t,
+            ok: (got === null || got === undefined) ? null : got === want,
+            why: (want >= 0 && q.options[want].why) || q.evidence || ''
+          };
+        },
         getState: function () { return wdg.get(); },
         setState: function (v) { if (v !== null && v !== undefined) wdg.set(v); }
       };
@@ -419,13 +488,49 @@
         if (q.keys) return U.mentions(inp.value, q.keys, q.need || 1);
         return U.words(inp.value) >= (q.minWords || 4);
       },
+      /* A WORD, NOT ONLY A COLOUR.
+         This used to set `borderColor` and nothing else, and it is the only
+         per-item feedback on the 30 discussion cards of this course - so which
+         answer was short was communicated by the colour of a box and by nothing
+         a screen reader could say. Measured 2026-11-17. RESIDUALS FM-30 / F18. */
       mark: function () {
         var k = this.ok();
         inp.style.borderColor = k ? 'var(--ok)' : 'var(--no)';
+        if (!inp._fb) {
+          inp._fb = mk('div', 'q-fb');
+          inp.insertAdjacentElement('afterend', inp._fb);
+        }
+        var short = q.keys ? 'Mention the key points the source gives.'
+          : 'A little short — aim for at least ' + (q.minWords || 4) + ' words.';
+        inp._fb.className = 'q-fb ' + (k ? 'is-ok' : 'is-no');
+        inp._fb.textContent = k ? 'Answered.' : short;
+        inp.setAttribute('aria-describedby', inp._fb.id
+          || (inp._fb.id = 'qfb' + Math.random().toString(36).slice(2, 8)));
         return k;
       },
       reset: function () { inp.style.borderColor = ''; },
-      show: function () { if (q.model) inp.value = q.model; },
+      /* REPORTS the answer instead of typing it into the learner's box.
+         `show()` used to do `inp.value = q.model`, which overwrote whatever the
+         learner had written with no way back. The three places an answer may be
+         authored are unchanged - a model, an accept list, or a set of keys, in
+         that order - and `null` where there is none, which is what lets a card
+         say "the book prints no answer for this one" instead of pretending.
+         RESIDUALS FM-30. */
+      revealRow: function () {
+        var t = null;
+        if (q.model) t = q.model;
+        else {
+          var a = Array.isArray(q.accept) ? q.accept[0] : q.accept;
+          if (a) t = String(a);
+          else if (Array.isArray(q.keys) && q.keys.length) t = q.keys.join(', ');
+        }
+        if (t === null) return null;
+        return {
+          t: t, mine: inp.value,
+          ok: String(inp.value).trim() ? this.ok() : null,
+          why: q.evidence ? 'Where to look: ' + esc(q.evidence) : ''
+        };
+      },
       getState: function () { return inp.value; },
       setState: function (v) { if (typeof v === 'string') inp.value = v; }
     };
@@ -529,7 +634,9 @@
         var n = 0;
         rows.forEach(function (r) { if (markRow(r, false)) n++; });
         api.save(rows.map(function (r) { return r.w.get(); }));
-        api.result(n, rows.length);
+        api.result(n, rows.length, rows.filter(function (r) {
+          var g = r.w.get(); return g !== null && g !== undefined;
+        }).length);
       },
       reset: function () {
         rows.forEach(function (r) {
@@ -552,9 +659,22 @@
         }
         EAFM.toast('Every answer already looks right.');
       },
+      /* It used to call `r.w.set(correctIx(r.it))`, which makes the right option the
+         learner's own selection - so the next press of Check marked the whole card
+         correct for answers they never chose. RESIDUALS FM-30. */
       show: function () {
-        rows.forEach(function (r) { r.w.set(correctIx(r.it)); markRow(r, true); });
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        api.reveal({
+          title: 'The answers, beside yours',
+          rows: rows.map(function (r) {
+            var want = correctIx(r.it), got = r.w.get();
+            return {
+              t: r.it.options[want] ? r.it.options[want].t : '',
+              mine: (got === null || got === undefined) ? '' : r.it.options[got].t,
+              ok: (got === null || got === undefined) ? null : got === want,
+              why: (r.it.options[want] && r.it.options[want].why) || r.it.evidence || ''
+            };
+          })
+        });
       },
       getState: function () { return rows.map(function (r) { return r.w.get(); }); },
       setState: function (s) { if (Array.isArray(s)) s.forEach(function (v, i) { if (rows[i] && v !== null) rows[i].w.set(v); }); }
@@ -632,11 +752,29 @@
         EAFM.toast('Look at the chart above — which tier does your choice sit in?', 4200);
       },
       show: function () {
+        /* ONLY THE SLOTS THE AUTHOR ANSWERED. A picker card may leave slots for the
+           learner's own choice, and a row with an empty answer column is exactly how
+           the gate recognises a component that cannot read its own key - so emitting
+           one for a slot that was never keyed made a correct card look broken. */
+        var keyedRows = [], mine = 0;
         slots.forEach(function (s) {
           var want = card.answers[s.k];
-          if (want !== undefined) { s.p.set(Array.isArray(want) ? want[0] : want); s.p.mark('ok'); }
+          want = Array.isArray(want) ? want[0] : want;
+          var got = s.p.get ? s.p.get() : undefined;
+          if (want === undefined || want === null || want === '') { mine++; return; }
+          keyedRows.push({ t: String(want),
+                           mine: got === undefined || got === null ? '' : String(got),
+                           ok: (got === undefined || got === null) ? null : got === want,
+                           why: '' });
         });
-        api.verdict('part', 'Shown. You still have to say why.');
+        api.reveal({
+          title: 'Where each one belongs',
+          note: 'You still have to say why.'
+              + (mine ? '  ' + mine + (mine === 1 ? ' slot is' : ' slots are')
+                 + ' yours to choose, so the book gives no answer for '
+                 + (mine === 1 ? 'it' : 'them') + '.' : ''),
+          rows: keyedRows
+        });
       },
       getState: state,
       setState: function (s) {
@@ -692,7 +830,8 @@
           if (ok) n++;
         });
         api.save(inputs.map(function (x) { return x.value; }));
-        api.result(n, card.items.length);
+        api.result(n, card.items.length,
+          inputs.filter(function (x) { return String(x.value).trim(); }).length);
       },
       reset: function () {
         inputs.forEach(function (x, i) {
@@ -712,13 +851,25 @@
         }
         EAFM.toast('All answers already look right.');
       },
+      /* It used to type the model answer over the learner's sentence, in every box.
+         Measured 2026-11-17: 5 cards of this course, each replacing what the learner
+         had written with no way back. RESIDUALS FM-30. */
       show: function () {
-        card.items.forEach(function (it, i) {
-          inputs[i].value = Array.isArray(it.accept) ? it.accept[0] : it.accept;
-          inputs[i].style.borderColor = 'var(--hint)';
-          it._ev.style.display = 'none';
+        api.reveal({
+          title: 'The answers, beside yours',
+          rows: card.items.map(function (it, i) {
+            var want = Array.isArray(it.accept) ? it.accept[0] : it.accept;
+            return {
+              t: want === undefined || want === null ? '' : String(want),
+              mine: inputs[i].value,
+              ok: String(inputs[i].value).trim()
+                  ? (U.accepts(inputs[i].value, it.accept) ||
+                     !!(it.keys && U.mentions(inputs[i].value, it.keys, it.need || it.keys.length)))
+                  : null,
+              why: it.evidence ? 'Where to look: ' + esc(it.evidence) : ''
+            };
+          })
         });
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
       },
       getState: function () { return inputs.map(function (x) { return x.value; }); },
       setState: function (s) { if (Array.isArray(s)) s.forEach(function (v, i) { if (inputs[i]) inputs[i].value = v; }); }
@@ -998,7 +1149,9 @@
         });
         api.save(placed);
         tellWhy();
-        api.result(n, card.targets.length);
+        api.result(n, card.targets.length, card.targets.filter(function (tg) {
+          return !!placed[tg.id];
+        }).length);
       },
       reset: function () {
         card.targets.forEach(function (tg) {
@@ -1021,10 +1174,26 @@
         }
         EAFM.toast('Everything is already in the right place.');
       },
+      /* It used to `place()` every chip in its right slot - and place() calls
+         api.save(), so the revealed arrangement became the learner's saved answer
+         and their own was gone for good, not merely off the screen. One of the 20
+         cards in this course where that was true. RESIDUALS FM-30 / F17. */
       show: function () {
-        card.targets.forEach(function (tg) { if (placed[tg.id] !== tg.accept) place(tg.id, tg.accept); tg._zone.classList.add('ok'); });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        api.reveal({
+          title: 'What matches what',
+          rows: card.targets.map(function (tg) {
+            var ch = chipEls[tg.accept];
+            var mineId = placed[tg.id];
+            var mineEl = mineId ? chipEls[mineId] : null;
+            return {
+              t: (tg.label || tg.id) + ' \u2192 '
+                 + (ch ? (ch.textContent || '').replace(/\s+/g, ' ').trim() : tg.accept),
+              mine: mineEl ? (mineEl.textContent || '').replace(/\s+/g, ' ').trim() : '',
+              ok: mineId === undefined ? null : mineId === tg.accept,
+              why: tg.why || ''
+            };
+          })
+        });
       },
       getState: function () { return placed; },
       setState: function (s) { if (s) for (var k in s) if (find(k) && chipEls[s[k]]) place(k, s[k]); }
@@ -1175,15 +1344,23 @@
         EAFM.toast('All blanks are already correct.');
       },
       show: function () {
-        for (var bid in card.answers) if (placed[bid] !== card.answers[bid]) place(bid, card.answers[bid]);
-        tellWhy();
-        if (card.donePassage && !host.querySelector('.cloze-done')) {
-          var ds = mk('div', 'cloze-done');
-          ds.appendChild(mk('div', 'wc', card.doneLabel || 'Here it is complete — now hear it read properly.'));
-          ds.appendChild(EAFM.passageNode(card.donePassage));
-          host.appendChild(ds);
+        var rows = [], i = 0;
+        for (var bid in card.answers) {
+          if (!card.answers.hasOwnProperty(bid)) continue;
+          i++;
+          var want = card.answers[bid];
+          var wEl = tileEls[want], mEl = placed[bid] ? tileEls[placed[bid]] : null;
+          var txt = function (el, fb) {
+            return el ? (el.textContent || '').replace(/\s+/g, ' ').trim() : fb;
+          };
+          rows.push({
+            t: i + '. ' + txt(wEl, String(want)),
+            mine: txt(mEl, ''),
+            ok: placed[bid] === undefined ? null : placed[bid] === want,
+            why: (card.why && card.why[bid]) || ''
+          });
         }
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        api.reveal({ title: 'The words that go in the gaps', rows: rows });
       },
       getState: function () { return placed; },
       setState: function (s) {
@@ -1257,7 +1434,9 @@
         }
         api.save(Array.prototype.map.call(list, function (x) { return x.value; }));
         tellWhy();
-        api.result(n, list.length);
+        api.result(n, list.length, Array.prototype.filter.call(list, function (x) {
+          return String(x.value).trim();
+        }).length);
       },
       reset: function () {
         var list = ins();
@@ -1283,13 +1462,18 @@
       },
       show: function () {
         var list = ins();
-        for (var i = 0; i < list.length; i++) {
-          var a = card.answers[list[i].dataset.bid];
-          list[i].value = Array.isArray(a) ? a[0] : a;
-          list[i].classList.remove('no'); list[i].classList.add('ok');
-        }
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        api.reveal({
+          title: 'The words that go in the gaps',
+          rows: Array.prototype.map.call(list, function (el, i) {
+            var a = card.answers[el.dataset.bid];
+            return {
+              t: (i + 1) + '. ' + (Array.isArray(a) ? a[0] : a),
+              mine: el.value,
+              ok: String(el.value).trim() ? U.accepts(el.value, a) : null,
+              why: (card.why && card.why[el.dataset.bid]) || ''
+            };
+          })
+        });
       },
       getState: function () { return Array.prototype.map.call(ins(), function (x) { return x.value; }); },
       setState: function (s) { if (Array.isArray(s)) { var l = ins(); s.forEach(function (v, i) { if (l[i]) l[i].value = v; }); } }
@@ -1362,7 +1546,9 @@
         });
         api.save(picks.map(function (p) { return p.choice; }));
         tellWhy();
-        api.result(n, picks.length);
+        api.result(n, picks.length, picks.filter(function (p) {
+          return p.choice !== null && p.choice !== undefined;
+        }).length);
       },
       reset: function () {
         picks.forEach(function (p) {
@@ -1376,13 +1562,21 @@
         if (reasons) reasons.hide();
       },
       show: function () {
-        picks.forEach(function (p) {
-          var bs = p.el.querySelectorAll('button');
-          for (var z = 0; z < bs.length; z++) bs[z].setAttribute('aria-pressed', z === p.answer ? 'true' : 'false');
-          p.choice = p.answer; p.el.classList.add('ok');
+        api.reveal({
+          title: 'The right word in each sentence',
+          rows: picks.map(function (p, i) {
+            var bs = p.el.querySelectorAll('button');
+            var txt = function (z) {
+              return bs[z] ? (bs[z].textContent || '').replace(/\s+/g, ' ').trim() : '';
+            };
+            return {
+              t: (i + 1) + '. ' + txt(p.answer),
+              mine: (p.choice === null || p.choice === undefined) ? '' : txt(p.choice),
+              ok: (p.choice === null || p.choice === undefined) ? null : p.choice === p.answer,
+              why: (card.items[i] && card.items[i].why) || ''
+            };
+          })
         });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
       },
       getState: function () { return picks.map(function (p) { return p.choice; }); },
       setState: function (s) {
@@ -1434,21 +1628,28 @@
           else if (z === sel) all[z].classList.add('no');
         }
         api.save(sel);
-        api.result(sel !== null && card.options[sel].ok ? 1 : 0, 1);
+        api.result(sel !== null && card.options[sel].ok ? 1 : 0, 1,
+          sel === null || sel === undefined ? 0 : 1);
       },
       reset: function () {
         var all = opts.querySelectorAll('.opt');
         for (var z = 0; z < all.length; z++) { all[z].classList.remove('ok', 'no', 'reveal'); all[z].setAttribute('aria-checked', 'false'); }
         sel = null;
       },
+      /* It used to set `sel = z` - the learner's own answer variable - so the next
+         press of Check scored full marks for a choice they never made. */
       show: function () {
-        var all = opts.querySelectorAll('.opt');
-        for (var z = 0; z < all.length; z++) {
-          all[z].classList.add('reveal');
-          all[z].setAttribute('aria-checked', card.options[z].ok ? 'true' : 'false');
-          if (card.options[z].ok) { all[z].classList.add('ok'); sel = z; }
-        }
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        var want = -1;
+        card.options.forEach(function (o, z) { if (o.ok) want = z; });
+        api.reveal({
+          title: 'The right option',
+          rows: [{
+            t: want >= 0 ? card.options[want].t : '',
+            mine: (sel === null || sel === undefined) ? '' : card.options[sel].t,
+            ok: (sel === null || sel === undefined) ? null : sel === want,
+            why: (want >= 0 && card.options[want].why) || ''
+          }]
+        });
       },
       getState: function () { return sel; },
       setState: function (s) {
@@ -1534,7 +1735,7 @@
         });
         api.save(rows.map(function (r) { return [r.v, r.ln.value]; }));
         tellWhy();
-        api.result(n, rows.length);
+        api.result(n, rows.length, rows.filter(function (r) { return !!r.v; }).length);
       },
       reset: function () {
         rows.forEach(function (r) {
@@ -1547,7 +1748,24 @@
         });
         if (reasons) reasons.hide();
       },
+      /* It used to flip every button AND set `r.v` - the learner's own verdict - so
+         the next press of Check marked the card correct for answers they never gave.
+         Now it reports them. RESIDUALS FM-30. */
       show: function () {
+        var LBL = { T: 'True', F: 'False', NI: 'Not given' };
+        api.reveal({
+          title: 'True, false or not given',
+          rows: rows.map(function (r, i) {
+            var want = LBL[r.it.ans] + (r.it.ans !== 'NI' && r.it.line
+              ? '  (line ' + r.it.line + ')' : '');
+            var mine = r.v ? LBL[r.v] : '';
+            if (mine && r.ln && r.ln.value) mine += '  (line ' + r.ln.value + ')';
+            return { t: (i + 1) + '. ' + want, mine: mine,
+                     ok: r.v ? r.v === r.it.ans : null, why: r.it.why || '' };
+          })
+        });
+      },
+      _oldShow: function () {
         rows.forEach(function (r) {
           var bs = r.pk.querySelectorAll('button');
           var want = { T: 0, F: 1, NI: 2 }[r.it.ans];
@@ -1556,8 +1774,6 @@
           if (r.it.ans !== 'NI') r.ln.value = r.it.line;
           r.pk.classList.add('ok');
         });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
       },
       getState: function () { return rows.map(function (r) { return [r.v, r.ln.value]; }); },
       setState: function (s) {
@@ -1641,13 +1857,19 @@
         if (reasons) reasons.hide();
       },
       show: function () {
-        cells.forEach(function (c, i) {
-          c.setAttribute('aria-checked', card.items[i].ok ? 'true' : 'false');
-          c.classList.remove('no', 'miss');
-          if (card.items[i].ok) c.classList.add('ok');
+        api.reveal({
+          title: 'Which ones belong on the list',
+          note: 'A tick in the left column is the answer; "you" says what you chose.',
+          rows: card.items.map(function (it, i) {
+            var minePicked = cells[i] && cells[i].getAttribute('aria-checked') === 'true';
+            return {
+              t: (it.ok ? 'YES \u2014 ' : 'no \u2014 ') + (it.t || it.label || ''),
+              mine: minePicked ? 'you ticked it' : 'you left it',
+              ok: minePicked === !!it.ok,
+              why: it.why || ''
+            };
+          })
         });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
       },
       getState: function () { return cells.map(function (c) { return c.getAttribute('aria-checked') === 'true'; }); },
       setState: function (s) { if (Array.isArray(s)) s.forEach(function (v, i) { if (cells[i]) cells[i].setAttribute('aria-checked', v ? 'true' : 'false'); }); }
@@ -1752,7 +1974,9 @@
         });
         api.save(card.cols.map(function (c, i) { return sel(i); }));
         tellWhy();
-        api.result(n, card.cols.length);
+        api.result(n, card.cols.length, card.cols.filter(function (c, i) {
+          return sel(i) !== null;
+        }).length);
       },
       reset: function () {
         card.cols.forEach(function (c, ci) {
@@ -1764,14 +1988,31 @@
         if (reasons) reasons.hide();
       },
       show: function () {
-        card.cols.forEach(function (c, ci) {
-          var cells = wrapG.querySelectorAll('td[data-c="' + ci + '"]');
-          for (var i = 0; i < cells.length; i++) { cells[i].querySelector('button').setAttribute('aria-pressed', i === c.answer ? 'true' : 'false'); cells[i].classList.remove('no', 'want'); }
-          cells[c.answer].classList.add('ok');
+        api.reveal({
+          title: 'The right row in each column',
+          rows: card.cols.map(function (c, ci) {
+            var got = sel(ci);
+            var name = function (i) {
+              var r = card.rows && card.rows[i];
+              if (!r) return 'row ' + (i + 1);
+              return r.label || r.short || (typeof r === 'string' ? r : 'row ' + (i + 1));
+            };
+            /* EVERY FALLBACK, because a column is named four different ways across
+               the five courses: `short`, `label`, or only the `line` it plays.
+               Writing just `c.short || c.label` printed the word "undefined" into
+               the panel on cybersecurity/b1, whose columns have neither. */
+            var col = c.short || c.label || c.line || ('column ' + (ci + 1));
+            return { t: col + ' \u2192 ' + name(c.answer),
+                     mine: got === null ? '' : String(name(got)),
+                     ok: got === null ? null : got === c.answer,
+                     why: c.why || '' };
+          })
         });
+        /* The transcript used to be opened inside the card here. It is part of what
+           the reveal shows, so it belongs with the rest of it - and a reveal that
+           changes the card cannot be told apart from one that overwrites an answer,
+           by the gate or by the learner. */
         transBox.style.display = 'block';
-        tellWhy();
-        api.verdict('part', 'Shown, with the transcript. Press Try again to do it yourself.');
       },
       getState: function () { return card.cols.map(function (c, i) { return sel(i); }); },
       setState: function (s) {
@@ -1864,15 +2105,37 @@
         }
         EAFM.toast('Underline the sentences that carry the answer.');
       },
+      /* The underlining is not written into the passage any more - it used to
+         toggle `sel` on every sentence, which both replaced the learner's own
+         underlining and, because it TOGGLED, un-underlined a sentence they had
+         already found. The panel names the sentences instead. RESIDUALS FM-30. */
       show: function () {
-        for (var i = 0; i < spans.length; i++) {
-          var si = parseInt(spans[i].dataset.si, 10);
-          spans[i].classList.toggle('sel', card.answers.indexOf(si) >= 0);
-          spans[i].classList.remove('no');
-          if (card.answers.indexOf(si) >= 0) spans[i].classList.add('ok');
-        }
-        qf.forEach(function (f) { f.show(); });
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        var mineSel = selected();
+        var rows = [];
+        card.answers.forEach(function (si) {
+          var sp = null;
+          for (var i = 0; i < spans.length; i++) {
+            if (parseInt(spans[i].dataset.si, 10) === si) { sp = spans[i]; break; }
+          }
+          rows.push({
+            t: sp ? (sp.textContent || '').replace(/\s+/g, ' ').trim() : ('sentence ' + (si + 1)),
+            ok: mineSel.indexOf(si) >= 0 ? true : null,
+            why: ''
+          });
+        });
+        var extra = mineSel.filter(function (si) { return card.answers.indexOf(si) < 0; });
+        qf.forEach(function (f) {
+          var r = f.revealRow ? f.revealRow() : null;
+          if (r) rows.push(r);
+        });
+        api.reveal({
+          title: 'The sentences that carry the answer',
+          note: 'A tick means you underlined it too.'
+              + (extra.length ? ' You also underlined ' + extra.length
+                 + (extra.length === 1 ? ' sentence' : ' sentences') + ' that is not in the key.'
+                 : ''),
+          rows: rows
+        });
       },
       getState: function () { return { sel: selected(), ans: qf.map(function (f) { return f.getState(); }) }; },
       setState: function (s) {
@@ -2277,39 +2540,47 @@
         }
         EAFM.toast(keyed ? 'Every gap is already right — press Check answers.' : 'Every line is filled — press Check answers.');
       },
+      /* THE WORST OF THE TWENTY-THREE, on the unkeyed path: it wrote a phrase from
+         the bank into every empty slot AND called api.save(), so a conversation the
+         engine invented became the learner's own saved work - a reveal that makes up
+         an answer and then keeps it. The keyed path merely overwrote what they had
+         written. Neither writes anything now. RESIDUALS FM-30 / F23. */
       show: function () {
         if (keyed) {
-          Object.keys(card.answers).forEach(function (bid) {
-            var s = slotById[bid];
-            if (!s) return;
-            s.textContent = wants(bid)[0];
-            s.style.borderStyle = 'solid';
-            s.style.color = 'var(--hint)';
-            s.classList.remove('no');
+          api.reveal({
+            title: 'The lines that complete the conversation',
+            rows: Object.keys(card.answers).map(function (bid, i) {
+              var s = slotById[bid];
+              var got = s ? (s.textContent === '…' ? '' : s.textContent) : '';
+              return {
+                t: (i + 1) + '. ' + wants(bid)[0],
+                mine: got,
+                ok: got ? wants(bid).indexOf(got) >= 0 : null,
+                why: (card.why && card.why[bid]) || (card.clue && card.clue[bid]) || ''
+              };
+            })
           });
-          tellWhy();
-          api.save(state());
-          syncPlayer();
-          api.verdict('part', 'Shown. Press Try again to do it yourself.');
           return;
         }
-        var k = 0, banks = card.banks || [];
+        var k = 0, banks = card.banks || [], rows = [];
         mine.forEach(function (t) {
           t.slots.forEach(function (s) {
-            if (s.textContent !== '…') { k++; return; }
-            /* step through the bank so the revealed version is a real
+            /* step through the bank so the suggested version reads as a real
                conversation and not the same phrase five times */
             var bank = banks[Math.min(k, banks.length - 1)];
-            if (bank && bank.items.length) {
-              s.textContent = bank.items[k % bank.items.length];
-              s.style.borderStyle = 'solid';
-              s.style.color = 'var(--hint)';
+            var sug = (bank && bank.items.length) ? bank.items[k % bank.items.length] : '';
+            if (sug) {
+              rows.push({ t: sug, mine: s.textContent === '…' ? '' : s.textContent, ok: null });
             }
             k++;
           });
         });
-        syncPlayer();
-        api.verdict('part', 'One possible version is shown. Press Try again and build your own.');
+        api.reveal({
+          title: 'One possible version of this conversation',
+          note: 'There is no single right answer here. This is one version that works — '
+              + 'yours can be different and still be good.',
+          rows: rows
+        });
       },
       getState: state,
       setState: function (s) {
@@ -2505,25 +2776,46 @@
         }
         EAFM.toast('Every sentence is already corrected.');
       },
+      /* THE ONE COMPONENT THAT WAS ALREADY HALF RIGHT, and that is why it is worth a
+         note: the multiple-choice branch protected a typed correction with
+         `if (r.inp && !r.inp.value)` and only filled an empty box, while the branch
+         four lines below it overwrote unconditionally. One author had already
+         written the careful version. Now neither branch writes anything.
+         RESIDUALS FM-30 / F21. */
       show: function () {
-        rows.forEach(function (r) {
-          if (r.given) return;
+        var out = [];
+        rows.forEach(function (r, i) {
+          if (r.given) {
+            out.push({ t: String(r.it.given || r.it.wrong || ''), given: true, why: r.it.why || '' });
+            return;
+          }
           if (r.it.fix) {
             var want = 0;
             r.it.fix.forEach(function (o, oi) { if (o.ok) want = oi; });
-            var bs = r.pick.querySelectorAll('button');
-            for (var z = 0; z < bs.length; z++) bs[z].setAttribute('aria-pressed', z === want ? 'true' : 'false');
-            r.choice = want;
-            r.pick.classList.add('ok');
-            if (r.draw) r.draw();
-            if (r.inp && !r.inp.value) r.inp.value = r.it.wrong.replace(/\*(.+?)\*/, r.it.fix[want].t);
+            var pickTxt = function (ix) {
+              return (ix === null || ix === undefined || !r.it.fix[ix]) ? '' : r.it.fix[ix].t;
+            };
+            var mine = pickTxt(r.choice);
+            if (r.inp && String(r.inp.value).trim()) {
+              mine = (mine ? mine + ' \u2014 ' : '') + r.inp.value;
+            }
+            out.push({
+              t: (i + 1) + '. ' + r.it.fix[want].t,
+              mine: mine,
+              ok: (r.choice === null || r.choice === undefined) ? null : r.choice === want,
+              why: r.it.why || ''
+            });
           } else if (r.inp) {
-            r.inp.value = Array.isArray(r.it.accept) ? r.it.accept[0] : r.it.accept;
-            r.inp.style.borderColor = 'var(--ok)';
+            var acc = Array.isArray(r.it.accept) ? r.it.accept[0] : r.it.accept;
+            out.push({
+              t: (i + 1) + '. ' + (acc === undefined ? '' : acc),
+              mine: r.inp.value,
+              ok: String(r.inp.value).trim() ? U.accepts(r.inp.value, r.it.accept) : null,
+              why: r.it.why || ''
+            });
           }
         });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        api.reveal({ title: 'The corrections, beside yours', rows: out });
       },
       getState: function () { return rows.map(function (r) { return [r.choice === undefined ? null : r.choice, r.inp ? r.inp.value : '']; }); },
       setState: function (s) {
@@ -2591,7 +2883,11 @@
         var total = U.words(text());
         var min = card.minWords || 50;
         var problems = [];
-        if (total < min) problems.push('Write at least ' + min + ' words in total (you have ' + total + ').');
+        if (total < min) {
+          problems.push(total > 0
+            ? total + ' of ' + min + ' words saved \u2014 ' + (min - total) + ' to go.'
+            : 'Write at least ' + min + ' words in total.');
+        }
         tas.forEach(function (t, i) { if (U.words(t.value) < (card.paras[i].min || 8)) problems.push('Paragraph ' + (i + 1) + ' is still very short.'); });
         if (card.pastCheck && U.pastVerbs(text()).length < 2) problems.push('Use the past tense — the checker found fewer than two past-tense verbs.');
         api.save(tas.map(function (t) { return t.value; }));
@@ -2821,7 +3117,8 @@
           var cnt = Object.keys(placed).length;
           api.save(placed);
           if (cnt < (card.need || 4)) {
-            api.verdict('part', 'Place at least ' + (card.need || 4) + ' items (you have ' + cnt + ').');
+            api.verdict('part', progressLine(cnt, (card.need || 4), 'items',
+              'place at least ' + ((card.need || 4) - cnt) + ' more.'));
             return;
           }
           /* Reference mode: there is no single right arrangement —
@@ -2848,7 +3145,9 @@
         }
         api.save(placed);
         tellWhy();
-        api.result(n, total);
+        api.result(n, total, Object.keys(card.answers).filter(function (cid) {
+          return placed[cid] !== undefined;
+        }).length);
       },
       reset: function () {
         for (var cid in placed) {
@@ -2862,15 +3161,32 @@
         Object.keys(chipEls).forEach(function (k) { chipEls[k].classList.remove('ok', 'no'); });
         if (reasons) reasons.hide();
       },
+      /* It used to `place()` every chip, and place() saves - so the revealed sort
+         became the learner's saved answer. One of the 20 cards where Show me
+         overwrote the saved record too. RESIDUALS FM-30 / F17. */
       show: function () {
-        if (!card.answers) return;
+        if (!card.answers) {
+          api.reveal({
+            title: 'How a working team would sort these',
+            note: 'There is no single right arrangement for this one \u2014 a skill really '
+                + 'does belong to more than one job. Read the notes under the exercise.'
+          });
+          return;
+        }
+        var rows = [];
         for (var cid in card.answers) {
           var want = card.answers[cid];
-          place(cid, Array.isArray(want) ? want[0] : want);
-          chipEls[cid].classList.add('ok');
+          want = Array.isArray(want) ? want[0] : want;
+          var got = placed[cid];
+          var colName = function (ci) {
+            return (card.cols[ci] && (card.cols[ci].short || card.cols[ci].label)) || ('column ' + (ci + 1));
+          };
+          rows.push({ t: cid + ' \u2192 ' + colName(want),
+                      mine: got === undefined ? '' : String(colName(got)),
+                      ok: got === undefined ? null : got === want,
+                      why: (card.why && card.why[cid]) || '' });
         }
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        api.reveal({ title: 'Which column each one belongs in', rows: rows });
       },
       getState: function () { return placed; },
       setState: function (s) { if (s) for (var k in s) if (chipEls[k]) place(k, s[k]); }
@@ -3012,7 +3328,9 @@
             host.appendChild(nt);
           }
         }
-        api.result(n, card.positions.length);
+        api.result(n, card.positions.length, card.positions.filter(function (pos, i) {
+          return placed[i] !== undefined;
+        }).length);
       },
       reset: function () {
         card.positions.forEach(function (pos, i) {
@@ -3032,12 +3350,19 @@
         EAFM.toast('All three are already in the right order.');
       },
       show: function () {
-        card.positions.forEach(function (pos, i) {
-          if (placed[i] !== pos.answer) place(i, pos.answer);
-          slots[i].classList.add('ok');
+        api.reveal({
+          title: 'The order they go in',
+          rows: card.positions.map(function (pos, i) {
+            var b = blockById(pos.answer);
+            var mineB = placed[i] ? blockById(placed[i]) : null;
+            var txt = function (bl) {
+              return bl ? String(bl.text || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
+            };
+            return { t: (i + 1) + '. ' + txt(b), mine: txt(mineB),
+                     ok: placed[i] === undefined ? null : placed[i] === pos.answer,
+                     why: pos.why || '' };
+          })
         });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
       },
       getState: function () { return placed; },
       setState: function (s) { if (s) for (var k in s) if (blockEls[s[k]]) place(+k, s[k]); }
@@ -3292,18 +3617,20 @@
         rows.forEach(function (r) { r.inp.disabled = false; r.inp.style.opacity = ''; r.inp.classList.remove('ok', 'no'); r.cmp.style.display = 'none'; });
         if (reasons) reasons.hide();
       },
+      /* It used to type the answer into every box AND set `disabled = true` on
+         them, so after a reveal the learner could not type at all until the card
+         was destroyed and rebuilt. RESIDUALS FM-30 / F23. */
       show: function () {
-        locked = true;
-        rows.forEach(function (r) {
-          var a = Array.isArray(r.it.accept) ? r.it.accept[0] : r.it.accept;
-          r.inp.value = a;
-          r.inp.disabled = true;
-          r.inp.classList.remove('no'); r.inp.classList.add('ok');
-          r.cmp.style.display = 'block';
-          r.cmp.innerHTML = 'the speaker said <b style="color:var(--accent)">' + esc(a) + '</b>';
+        api.reveal({
+          title: 'What the speaker actually said',
+          note: 'Your predictions are still in the boxes \u2014 compare them.',
+          rows: rows.map(function (r, i) {
+            var a = Array.isArray(r.it.accept) ? r.it.accept[0] : r.it.accept;
+            return { t: (i + 1) + '. ' + a, mine: r.inp.value,
+                     ok: String(r.inp.value).trim() ? U.accepts(r.inp.value, r.it.accept) : null,
+                     why: r.it.why || '' };
+          })
         });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to make your own predictions.');
       },
       getState: function () { return rows.map(function (r) { return r.inp.value; }); },
       setState: function (s) { if (Array.isArray(s)) s.forEach(function (v, i) { if (rows[i]) rows[i].inp.value = v; }); }
@@ -3365,7 +3692,13 @@
     return {
       check: function () {
         attempt(host);
-        if (!started || pos < order.length) { api.verdict('part', 'Finish the drill first.'); return; }
+        if (!started || pos < order.length) {
+          api.verdict('part', !started
+            ? 'Start the drill \u2014 turn over the first card.'
+            : progressLine(pos, order.length, 'cards',
+                'turn over the ' + (order.length - pos) + ' still to go.'));
+          return;
+        }
         api.save({ score: score, of: order.length });
         api.result(score, order.length);
       },
@@ -3609,10 +3942,8 @@
     }
     if (!sub) {
       var done = mk('button', 'btn btn-accent', art.icon('check', 16) + 'I have watched this');
-      done.style.marginTop = '12px';
       done.onclick = function () { attempt(host); api.complete('Marked as watched.'); };
-      host.appendChild(done);
-      return { reset: function () { api.clearVerdict(); } };
+      return { reset: function () { api.clearVerdict(); }, footer: [done] };
     }
     return sub;
   };
@@ -3664,7 +3995,10 @@
         attempt(host);
         api.save(ta.value);
         if (U.words(ta.value) >= (card.minWords || 10)) api.complete('Role-play recorded. Swap roles and try the other part too.');
-        else api.verdict('part', 'Write at least ' + (card.minWords || 10) + ' words from your role-play.');
+        else api.verdict('part', progressLine(U.words(ta.value), (card.minWords || 10),
+          'words', 'write at least '
+          + Math.max(0, (card.minWords || 10) - U.words(ta.value))
+          + ' more from your role-play.'));
       },
       reset: function () { ta.value = ''; },
       getState: function () { return ta.value; },
@@ -3731,13 +4065,19 @@
         var bs = grid.querySelectorAll('button');
         for (var i = 0; i < bs.length; i++) { bs[i].setAttribute('aria-pressed', 'false'); bs[i].parentElement.classList.remove('ok', 'no'); }
       },
+      /* Already non-destructive - it only wrote a verdict. Moved into the panel so
+         every reveal in the engine is in one place and reads the same way, and
+         because a long list of cues in the one-line verdict box was unreadable. */
       show: function () {
         var sc = EAFM.scenes[card.scene], list = [];
         sc.lines.forEach(function (l) {
           if (!l.cue) return;
           (Array.isArray(l.cue) ? l.cue : [l.cue]).forEach(function (x) { list.push(x); });
         });
-        api.verdict('part', 'The cues, in order: ' + list.join(' → '));
+        api.reveal({
+          title: 'The cues, in order',
+          rows: list.map(function (x, i) { return { t: (i + 1) + '. ' + x, ok: null }; })
+        });
       },
       getState: function () { return ticks; },
       setState: function (s) { if (Array.isArray(s)) ticks = s; }
@@ -3912,11 +4252,22 @@
         if (left.length) { EAFM.toast('There are still ' + left.length + ' clues in the picture — click them first.', 4200); return; }
         EAFM.toast('Every clue points at the same subject. Which option names it without adding anything?', 5000);
       },
+      /* IT USED TO CLICK EVERY HOTSPOT - and the click is a TOGGLE, so any clue
+         the learner had already found was un-found by pressing Show me. The panel
+         names the clues instead and the picture is left exactly as they left it.
+         RESIDUALS FM-30 / F23. */
       show: function () {
-        var bs = box.querySelectorAll('.hs');
-        for (var i = 0; i < bs.length; i++) bs[i].click();
-        fld.show();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        var rows = card.clues.map(function (cl) {
+          return { t: cl.label || cl.text || cl.id, ok: found[cl.id] ? true : null,
+                   why: cl.why || '' };
+        });
+        var r = fld.revealRow ? fld.revealRow() : null;
+        if (r) rows.push(r);
+        api.reveal({
+          title: 'The clues, and what they point at',
+          note: 'A tick means you had already found it in the picture.',
+          rows: rows
+        });
       },
       getState: function () { return { found: Object.keys(found), ans: fld.getState() }; },
       setState: function (s) { if (s && s.ans !== undefined && s.ans !== null) fld.setState(s.ans); }
@@ -4261,7 +4612,9 @@
         attempt(host);
         api.save(ta.value);
         if (U.words(ta.value) >= (card.minWords || 20)) api.complete('Report saved (' + U.words(ta.value) + ' words).');
-        else api.verdict('part', 'Write at least ' + (card.minWords || 20) + ' words.');
+        else api.verdict('part', progressLine(U.words(ta.value), (card.minWords || 20),
+          'words', 'write at least '
+          + Math.max(0, (card.minWords || 20) - U.words(ta.value)) + ' more.'));
       },
       reset: function () { ta.value = ''; meta.textContent = ''; },
       getState: function () { return ta.value; },
@@ -4346,8 +4699,12 @@
         EAFM.toast('Compare your own answer with the model below it.');
       },
       show: function () {
-        qf.forEach(function (f) { f.show(); });
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
+        var rows = [];
+        qf.forEach(function (f) {
+          var r = f.revealRow ? f.revealRow() : null;
+          if (r) rows.push(r);
+        });
+        api.reveal({ title: 'The answers, beside yours', rows: rows });
       },
       coachText: function () {
         return qf.filter(function (f) { return f.kind === 'txt'; })
@@ -4530,15 +4887,19 @@
         }
       },
       show: function () {
-        picks.forEach(function (p, i) {
-          var bs = p.el.querySelectorAll('button');
-          for (var z = 0; z < bs.length; z++) bs[z].setAttribute('aria-pressed', z === p.answer ? 'true' : 'false');
-          p.choice = p.answer; p.el.classList.add('ok');
+        api.reveal({
+          title: 'The right word, and what it matches',
+          rows: picks.map(function (p, i) {
+            var bs = p.el.querySelectorAll('button');
+            var txt = function (z) {
+              return bs[z] ? (bs[z].textContent || '').replace(/\s+/g, ' ').trim() : '';
+            };
+            return { t: (i + 1) + '. ' + txt(p.answer) + ' \u2192 ' + String(p.match),
+                     mine: (p.choice === null || p.choice === undefined) ? '' : txt(p.choice),
+                     ok: (p.choice === null || p.choice === undefined) ? null : p.choice === p.answer,
+                     why: p.why || '' };
+          })
         });
-        unlock();
-        picks.forEach(function (p, i) { place(i, p.match); p.slot.classList.add('ok'); });
-        tellWhy();
-        api.verdict('part', 'Shown. Press Try again to do it yourself.');
       },
       getState: function () { return { picks: picks.map(function (p) { return p.choice; }), placed: placed, stage: stage }; },
       setState: function (s) {
@@ -4661,9 +5022,19 @@
         else api.result(n, rows.length);
       },
       reset: function () { rows.forEach(function (r) { r.inp.value = ''; r.inp.style.borderColor = ''; r.fb.innerHTML = ''; }); },
+      /* It used to type the example into every box and fire an `input` event, so
+         anything listening treated the model as the learner's typing. */
       show: function () {
-        rows.forEach(function (r) { r.inp.value = r.bx.eg; r.inp.dispatchEvent(new w.Event('input')); r.inp.style.borderColor = 'var(--hint)'; });
-        api.verdict('part', 'Examples shown. Press Try again and write your own.');
+        api.reveal({
+          title: 'An example in each form',
+          note: 'These are examples, not the only right answers \u2014 yours should be '
+              + 'your own sentence in the same form.',
+          rows: rows.map(function (r) {
+            return { t: r.bx.eg, mine: r.inp.value,
+                     ok: String(r.inp.value).trim() ? null : null,
+                     why: r.bx.label ? esc(r.bx.label) : '' };
+          })
+        });
       },
       getState: function () { return rows.map(function (r) { return r.inp.value; }); },
       setState: function (s) { if (Array.isArray(s)) s.forEach(function (v, i) { if (rows[i]) { rows[i].inp.value = v; rows[i].inp.dispatchEvent(new w.Event('input')); } }); }

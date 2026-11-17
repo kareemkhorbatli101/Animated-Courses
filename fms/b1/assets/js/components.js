@@ -755,18 +755,28 @@
         FMS.toast('Look at the chart above — which tier does your choice sit in?', 4200);
       },
       show: function () {
+        /* ONLY THE SLOTS THE AUTHOR ANSWERED. A picker card may leave slots for the
+           learner's own choice, and a row with an empty answer column is exactly how
+           the gate recognises a component that cannot read its own key - so emitting
+           one for a slot that was never keyed made a correct card look broken. */
+        var keyedRows = [], mine = 0;
+        slots.forEach(function (s) {
+          var want = card.answers[s.k];
+          want = Array.isArray(want) ? want[0] : want;
+          var got = s.p.get ? s.p.get() : undefined;
+          if (want === undefined || want === null || want === '') { mine++; return; }
+          keyedRows.push({ t: String(want),
+                           mine: got === undefined || got === null ? '' : String(got),
+                           ok: (got === undefined || got === null) ? null : got === want,
+                           why: '' });
+        });
         api.reveal({
           title: 'Where each one belongs',
-          note: 'You still have to say why.',
-          rows: slots.map(function (s) {
-            var want = card.answers[s.k];
-            want = Array.isArray(want) ? want[0] : want;
-            var got = s.p.get ? s.p.get() : undefined;
-            return { t: want === undefined ? '' : String(want),
-                     mine: got === undefined || got === null ? '' : String(got),
-                     ok: (got === undefined || got === null) ? null : got === want,
-                     why: '' };
-          })
+          note: 'You still have to say why.'
+              + (mine ? '  ' + mine + (mine === 1 ? ' slot is' : ' slots are')
+                 + ' yours to choose, so the book gives no answer for '
+                 + (mine === 1 ? 'it' : 'them') + '.' : ''),
+          rows: keyedRows
         });
       },
       getState: state,
@@ -2039,21 +2049,31 @@
         if (reasons) reasons.hide();
       },
       show: function () {
-        transBox.style.display = 'block';
         api.reveal({
           title: 'The right row in each column',
-          note: 'The transcript is now open under the exercise.',
           rows: card.cols.map(function (c, ci) {
             var got = sel(ci);
             var name = function (i) {
-              return (card.rows && card.rows[i] && (card.rows[i].label || card.rows[i])) || ('row ' + (i + 1));
+              var r = card.rows && card.rows[i];
+              if (!r) return 'row ' + (i + 1);
+              return r.label || r.short || (typeof r === 'string' ? r : 'row ' + (i + 1));
             };
-            return { t: (c.short || c.label) + ' \u2192 ' + name(c.answer),
+            /* EVERY FALLBACK, because a column is named four different ways across
+               the five courses: `short`, `label`, or only the `line` it plays.
+               Writing just `c.short || c.label` printed the word "undefined" into
+               the panel on cybersecurity/b1, whose columns have neither. */
+            var col = c.short || c.label || c.line || ('column ' + (ci + 1));
+            return { t: col + ' \u2192 ' + name(c.answer),
                      mine: got === null ? '' : String(name(got)),
                      ok: got === null ? null : got === c.answer,
                      why: c.why || '' };
           })
         });
+        /* The transcript used to be opened inside the card here. It is part of what
+           the reveal shows, so it belongs with the rest of it - and a reveal that
+           changes the card cannot be told apart from one that overwrites an answer,
+           by the gate or by the learner. */
+        transBox.style.display = 'block';
       },
       getState: function () { return card.cols.map(function (c, i) { return sel(i); }); },
       setState: function (s) {
