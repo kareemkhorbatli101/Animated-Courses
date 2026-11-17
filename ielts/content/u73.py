@@ -694,8 +694,8 @@ UNIT = dict(
           'the food, so heat flows out of the food and into it. The '
           'liquid becomes a gas again and returns to the pump.',
           'The whole machine therefore depends on one rule: heat flows '
-          'from the hotter thing to the colder one, always, and the '
-          'only way to move it the other way is to use energy to make '
+          'from the hotter thing to the colder one, always. The only '
+          'way to move it the other way is to use energy to make '
           'something hotter or colder than what you want to affect. A '
           'fridge is not an exception to that rule. It is a device for '
           'exploiting it twice.'],
@@ -868,11 +868,11 @@ UNIT = dict(
          band='acad', qtype='Questions 54-60',
          paras=[
           'If you ask which machine saved the most human time, the '
-          'answer is not the one people expect. It is not the vacuum '
-          'cleaner and it is not the dishwasher. The three that '
-          'mattered are running water, the washing machine and the '
-          'fridge, and what they have in common is that they removed '
-          'work that was measured in hours a day rather than minutes.',
+          'answer defeats expectation. It is not the vacuum cleaner '
+          'and it is not the dishwasher. The three that mattered are '
+          'running water, the washing machine and the fridge, and what '
+          'they have in common is the elimination of work that was '
+          'measured in hours a day rather than minutes.',
           'Running water is the largest and the least discussed. In a '
           'house without it, somebody carried every litre that was '
           'used, for drinking, washing, cooking and cleaning, and that '
@@ -881,13 +881,12 @@ UNIT = dict(
           'households. A tap does not look like a machine and it '
           'replaced more labour than any machine ever built.',
           'The washing machine is second and is better documented. '
-          'Hand-washing a household’s clothes took a full day a '
-          'week, and it was heavy, wet and unavoidable. What the '
-          'machine changed was not only the hours but the standard: '
-          'once washing became easy, clothes were washed far more '
-          'often, so the time saved was smaller than the arithmetic '
-          'suggests and the result was cleaner people rather than freer '
-          'ones.',
+          'Hand-washing a household\u2019s clothes took a full day a week, '
+          'and it was heavy, wet and unavoidable. What the machine '
+          'changed was not only the hours but the standard. Once '
+          'washing became easy, clothes were washed far more often. '
+          'The time saved was smaller than the arithmetic suggests, '
+          'and the result was cleaner people rather than freer ones.',
           'That last point generalises, and it is the interesting part. '
           'Labour-saving machines in the home have repeatedly been '
           'followed by rising standards that absorbed much of the '

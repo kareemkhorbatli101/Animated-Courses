@@ -675,30 +675,30 @@ UNIT = dict(
          task='Flow-chart completion and matching',
          band='acad', qtype='Questions 41-47',
          paras=[
-          'A recording is a series of measurements, and understanding '
-          'that one sentence explains most of what people argue about. '
-          'Sound in a room is a continuous movement of air. A '
+          'A recording is a series of measurements, and that one '
+          'sentence is the explanation of most of what people argue '
+          'about. Sound in a room is a continuous movement of air. A '
           'microphone turns that movement into a continuous electrical '
-          'signal, which is still continuous: at this stage nothing has '
-          'been lost and nothing has been counted.',
-          'The counting happens next. The signal is measured many times '
-          'a second, and each measurement is written down as a number. '
-          'The standard rate is forty-four thousand one hundred '
-          'measurements a second, chosen because it is slightly more '
-          'than twice the highest frequency most adults can hear, and '
-          'measuring at twice the highest frequency is enough to '
-          'reconstruct the original wave exactly. That last claim '
-          'surprises people and it is a mathematical result rather than '
-          'an opinion.',
-          'So what is lost? Not the shape of the wave, within the range '
-          'that was sampled, but everything above it, and any detail '
-          'finer than the size of each measurement step. A file that '
-          'stores each measurement in sixteen bits can describe about '
-          'sixty-five thousand levels of loudness; one that uses '
+          'signal, which is still continuous: at this stage nothing '
+          'has been lost and nothing has been counted.',
+          'The counting happens next. The signal is measured many '
+          'times a second, and each measurement is written down as a '
+          'number. The standard rate is forty-four thousand one '
+          'hundred measurements a second. That rate was chosen because '
+          'it is slightly more than twice the highest frequency most '
+          'adults can hear, and measuring at twice the highest '
+          'frequency is enough to reconstruct the original wave '
+          'exactly. That last claim surprises people and it is a '
+          'mathematical result rather than an opinion.',
+          'So what is lost? Not the shape of the wave, within the '
+          'range that was sampled, but everything above it, and any '
+          'detail finer than the size of each measurement step. A file '
+          'that stores each measurement in sixteen bits can describe '
+          'about sixty-five thousand levels of loudness; one that uses '
           'twenty-four bits can describe sixteen million. Whether '
-          'anybody can hear the difference has been tested repeatedly '
-          'and the honest summary is: almost nobody, under almost all '
-          'conditions.',
+          'anybody can hear the difference has been tested repeatedly, '
+          'and the honest conclusion is: almost nobody, under almost '
+          'all conditions.',
           'The last stage reverses the first. The numbers move a '
           'speaker, the speaker moves air, and the air moves your '
           'eardrum, which is where the whole chain started. A good '
@@ -899,18 +899,17 @@ UNIT = dict(
           'Music seems to work better than other cues for a third '
           'reason, which is that a song is identical every time you '
           'hear it. A photograph of a place changes as the place '
-          'changes; a smell is approximate; but the recording is a '
+          'changes, and a smell is approximate. The recording is a '
           'fixed object, and the version in your head and the version '
           'playing are the same object. That exactness appears to be '
           'what opens the door.',
-          'The practical consequence is being used in care homes, where '
-          'music from a person’s late teens reaches people whose '
+          'The practical consequence is being used in care homes, '
+          'where music from a person\u2019s late teens reaches people whose '
           'other memories have become unreachable. This is not a '
           'treatment and nobody claims it reverses anything. What it '
           'does is give somebody back a half-hour in which they are '
-          'recognisably themselves, and the people who work in those '
-          'homes do not need a study to tell them that is worth '
-          'having.'],
+          'recognisably themselves. The people who work in those homes '
+          'do not need a study to tell them that is worth having.'],
          items=[
           ('The effect is strongest for music heard between fourteen '
            'and ____________.', None, 'twenty-four',

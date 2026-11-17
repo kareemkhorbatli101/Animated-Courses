@@ -539,9 +539,10 @@ UNIT = dict(
           'the longest of the four.',
           'Overall a small house takes about twenty weeks. Bad weather '
           'adds to the first two stages and almost never to the last '
-          'two, which is why a house started in autumn is often sold '
+          'two. That is why a house started in autumn is often sold '
           'later than one started in spring. Building firms know this '
-          'and price the work accordingly, so the same house can cost a '
+          'and price the work accordingly, so the same house can cost '
+          'a '
           'different amount depending on the month the base is laid.'],
          items=[
           ('A flat base of ____________ is laid first.', None,
@@ -689,13 +690,13 @@ UNIT = dict(
          band='acad', qtype='Questions 42-47',
          paras=[
           'A village of four hundred people and a city of four hundred '
-          'thousand are not the same thing at different sizes. They are '
-          'different in kind, and the clearest difference is how '
-          'decisions are made. In a village, the council is a committee '
-          'of neighbours. Its members are known by name, a vote at a '
-          'meeting is often the end of the matter, and permission to '
-          'build is decided by people who will see the building every '
-          'day.',
+          'thousand are not the same thing at different sizes. They '
+          'are different in kind, and the clearest difference is how '
+          'decisions are made. In a village, the council is a '
+          'committee of neighbours. Its members are known by name, and '
+          'a vote at a meeting is often the end of the matter. '
+          'Permission to build is decided by people who will see the '
+          'building every day.',
           'In a city, the same decision passes through a department. '
           'Nobody who votes on it will walk past the result, and the '
           'benefit of a new block of flats is counted across a whole '

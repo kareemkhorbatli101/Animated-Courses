@@ -444,8 +444,9 @@ UNIT = dict(
           'reliable electricity and capital; they go where power is '
           'steady. Cutting and sewing are still done by hand, because '
           'cloth is floppy and no machine handles it well, so those '
-          'stages go where wages are lowest. The work has moved between '
-          'countries several times for that reason alone.',
+          'stages go where wages are lowest. The migration of the work '
+          'between countries has happened several times for that '
+          'reason alone.',
           'The shirt is then shipped, and shipping is the part people '
           'overestimate. Moving a shirt from Asia to Europe by sea '
           'produces less than a tenth of the emissions created by '
@@ -453,11 +454,12 @@ UNIT = dict(
           'energy used in growing cotton and dyeing cloth, which '
           'happens before the shirt starts moving at all.',
           'Knowing the stages changes what a shopper can usefully do. '
-          'Buying a shirt made nearer home moves one stage, usually the '
-          'sewing, and leaves the larger costs where they were. Buying '
-          'fewer shirts and keeping them longer affects every stage at '
-          'once, which is why it is the advice that every honest '
-          'summary reaches and almost no advertisement gives.'],
+          'Buying a shirt made nearer home moves one stage of '
+          'production, usually the sewing, and leaves the larger costs '
+          'where they were. Buying fewer shirts and keeping them '
+          'longer affects every stage at once, which is why it is the '
+          'advice that every honest summary reaches and almost no '
+          'advertisement gives.'],
          items=[
           ('A cotton shirt has usually passed through at least '
            '____________ countries.', None, 'four',
@@ -812,9 +814,9 @@ UNIT = dict(
           'Households in rich countries now buy roughly twice as many '
           'garments a year as they did in 2000 and keep each one about '
           'half as long. The result is a quantity of unwanted clothing '
-          'that no existing system was built for, and three answers are '
-          'usually proposed. Each of them does something, and only one '
-          'of them addresses the amount.',
+          'that no existing system was built for, and three answers '
+          'are usually proposed. Each of them does something, and only '
+          'one of them addresses the quantity.',
           'The first is recycling. It sounds like the obvious answer '
           'and it is the weakest, because most garments are mixtures of '
           'fibres and no cheap process separates them. A cotton shirt '
@@ -826,18 +828,20 @@ UNIT = dict(
           'The second is reuse: selling or giving garments to somebody '
           'else. This works well and is limited by demand rather than '
           'by supply. The second-hand market in several countries is '
-          'now saturated, and a significant share of donated clothing '
-          'is shipped abroad, where some of it is worn and some of it '
+          'now saturated. A significant share of donated clothing is '
+          'shipped abroad, where some of it is worn and some of it '
           'arrives in places with no system for what cannot be sold. '
-          'Reuse postpones the problem and moves it.',
+          'Reuse postpones the problem and moves it, which is a delay '
+          'rather than a solution.',
           'The third is the only one that reduces the quantity: buying '
-          'fewer things and keeping them longer. Doubling the life of a '
-          'garment halves its share of every cost in this article. It '
-          'requires no technology and no new system, which is why it '
-          'appears in every honest summary and in almost no commercial '
-          'campaign. An industry cannot be expected to advertise '
-          'against its own volume, and that is not hypocrisy; it is a '
-          'reason to expect the push to come from somewhere else.'],
+          'fewer things and keeping them longer. Doubling the life of '
+          'a garment halves its share of every cost in this article. '
+          'It requires no technology and no new arrangement, which is '
+          'why it appears in every honest summary and in almost no '
+          'commercial campaign. An industry cannot be expected to '
+          'advertise against its own volume, and that is not '
+          'hypocrisy; it is a reason to expect the push to come from '
+          'somewhere else.'],
          items=[
           ('Households buy roughly ____________ as many garments as '
            'in 2000.', None, 'twice',

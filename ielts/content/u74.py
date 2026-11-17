@@ -620,9 +620,9 @@ UNIT = dict(
           'A frog does not grow in the way a kitten grows. It is '
           'rebuilt. The animal that leaves the water in summer has a '
           'different mouth, a different gut and a different way of '
-          'breathing from the animal that hatched in spring, and the '
-          'change between them is one of the clearest things in '
-          'biology to watch in a garden pond.',
+          'breathing from the animal that hatched in spring. The '
+          'transformation between them is one of the clearest things '
+          'in biology to watch in a garden pond.',
           'The eggs are laid in still water in early spring, in a mass '
           'that can hold two thousand. Most do not survive. The jelly '
           'round them is not food; it holds water and makes the mass '
@@ -632,8 +632,8 @@ UNIT = dict(
           'the following weeks two things change at once. The gut '
           'shortens, because meat is easier to digest than plant '
           'material and the animal is becoming a meat eater. At the '
-          'same time lungs develop, and the tadpole starts coming to '
-          'the surface for air.',
+          'same time the development of the lungs begins, and the '
+          'tadpole starts coming to the surface for air.',
           'Back legs grow first and front legs later. The tail is not '
           'dropped: it is absorbed, and the material in it is used to '
           'build the rest of the body. That is why a young frog can '
@@ -826,10 +826,11 @@ UNIT = dict(
           'photographs look identical and the animals are gone.',
           'The third is that species dominated by a single food or a '
           'single nesting site have no second option. A generalist '
-          'moves to the next thing; a specialist does not. That is why '
-          'the birds doing best in cities are the ones that eat '
-          'anything, and why protecting a rare species usually means '
-          'protecting one specific thing it cannot do without.'],
+          'makes the transition to the next thing; a specialist does '
+          'not. That is why the birds doing best in cities are the '
+          'ones that eat anything, and why protecting a rare species '
+          'usually means protecting one specific thing it cannot do '
+          'without.'],
          items=[
           ('What do people usually blame?', None, 'hunting',
            'Paragraph 1, although it is rarely the main cause.'),

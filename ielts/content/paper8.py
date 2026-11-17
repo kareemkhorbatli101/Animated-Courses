@@ -106,12 +106,12 @@ PAPER = dict(
         'Once an oven is at that temperature, however, it will bake '
         'batch after batch with no further fuel at all. A shared oven '
         'that heats once and bakes for thirty families uses a '
-        'thirtieth of the wood per loaf, and the saving is not a small '
+        'thirtieth of the wood per loaf. The saving is not a small '
         'one: in parts of France in the eighteenth century, fuel cost '
         'more than flour.',
         'The pattern held until two things changed. Coal became cheap '
         'enough and concentrated enough to heat a small oven for one '
-        'household, and the cast iron range brought the oven into the '
+        'household. The cast iron range brought the oven into the '
         'kitchen wall, where it was heated anyway for cooking and '
         'warmth. Within two generations the village oven was gone from '
         'most places.',
@@ -160,8 +160,8 @@ PAPER = dict(
         'in twenty.',
         'The first thing they tried was charging for a missed '
         'appointment. It worked, in the narrow sense that missed '
-        'appointments fell by about a fifth, and it produced an effect '
-        'nobody had asked for: the patients who stopped missing '
+        'appointments fell by about a fifth. It also produced an '
+        'effect nobody had asked for. The patients who stopped missing '
         'appointments were not the same people as the patients who '
         'stopped coming at all. Attendance among the poorest patients '
         'fell measurably, and two practices withdrew the charge for '
@@ -174,12 +174,12 @@ PAPER = dict(
         'message is the one sent while there is still time to '
         'rearrange.',
         'The third thing was the one the report recommends most '
-        'strongly, and it is a change to a sentence rather than to a '
-        'system. Reception staff stopped saying "we will see you on '
-        'Tuesday at ten" and started asking "can you tell me the day '
-        'and time you have written down?" Missed appointments among '
-        'patients who had answered that question fell by about a '
-        'quarter, at no cost at all.',
+        'strongly, and it is an alteration to a sentence rather than '
+        'to a system. Reception staff stopped telling patients the day '
+        'and time of the appointment. They started asking each patient '
+        'to say back the day and time they had written down. Missed '
+        'appointments among patients who had answered that question '
+        'fell by about a quarter, at no cost at all.',
         'The report is careful about what it claims. Eleven practices '
         'in one region is not the country, the three measures were not '
         'tried in isolation from each other, and the practices that '

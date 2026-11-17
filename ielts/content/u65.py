@@ -551,14 +551,14 @@ UNIT = dict(
          task='Matching information and short answer',
          band='acad', qtype='Questions 31-36',
          paras=[
-          'Every city solves the same problem with some mixture of four '
-          'answers: buses, trams or trains, bicycles, and cars. What '
-          'differs is the proportion, and the proportion is decided '
-          'less by what people want than by what the streets will hold. '
-          'A city built before cars has narrow streets, and the '
-          'arithmetic there is brutal: a car carrying one person needs '
-          'roughly ten times the road space per passenger of a bus '
-          'carrying forty.',
+          'Every city solves the same problem with some mixture of '
+          'four answers: buses, trams or trains, bicycles, and cars. '
+          'What differs is the proportion, and the proportion is '
+          'decided less by what people want than by what the streets '
+          'will hold. A city built before cars has narrow streets, and '
+          'the arithmetic there is brutal. A car carrying one person '
+          'needs roughly ten times the road space per passenger of a '
+          'bus carrying forty.',
           'Buses are cheap to start and easy to change, which is their '
           'strength and their weakness. A route can be moved in a week, '
           'so nobody builds a shop or a house because of one. A tram '
@@ -741,7 +741,7 @@ UNIT = dict(
           'cannot sell to residents in February, so the chain that '
           'survives is the one selling ice cream rather than shoes. '
           'Houses bought to let for six weeks a year are empty for '
-          'forty-six, which raises the price of every other house and '
+          'forty-six. That raises the price of every other house and '
           'pushes young residents out of the town they grew up in. '
           'Those residents are also the staff the hotels need in July.',
           'Towns that have handled this well did something unusual: '
@@ -749,8 +749,9 @@ UNIT = dict(
           'trying to attract them at a different time. A town that '
           'spreads two hundred thousand visitors across twenty weeks '
           'instead of eleven needs fewer beds, fewer car parks and '
-          'fewer staff on short contracts, and it keeps a shop selling '
-          'shoes. The policy is harder to explain than a bigger car '
+          'fewer staff on short contracts. It also keeps a shop '
+          'selling shoes. The policy is harder to explain than a '
+          'bigger car '
           'park, which is why it is rarely the one chosen.'],
          items=[
           ('The town has ____________ residents.', None,

@@ -521,12 +521,12 @@ UNIT = dict(
          band='acad', qtype='Questions 31-36',
          paras=[
           'Ask a family where its money goes and the answer is usually '
-          'wrong, not because people lie but because spending that '
-          'happens once a month is remembered and spending that happens '
-          'every day is not. When households keep an accurate record '
-          'for a month, the same pattern appears almost everywhere. '
-          'Housing takes the largest share. Food takes the second, and '
-          'travel a smaller share than almost anybody expects.',
+          'wrong. People are not lying. Spending that happens once a '
+          'month is remembered, and spending that happens every day is '
+          'not. When households keep an accurate record for a month, '
+          'the same pattern appears almost everywhere. Housing takes '
+          'the largest share. Food takes the second, and travel a '
+          'smaller share than almost anybody expects.',
           'The interesting differences are between countries rather '
           'than between families. In a richer country, housing can '
           'reach a third of all spending while food falls to around a '

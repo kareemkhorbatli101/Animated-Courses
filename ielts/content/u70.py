@@ -585,12 +585,12 @@ UNIT = dict(
           'one at sea level before any other factor is counted. The '
           'wetland in a valley may add fog, which keeps a cold morning '
           'cold for hours longer.',
-          'The third cause is the direction the wind comes from, and it '
-          'is the one that varies most. A wind that has crossed water '
-          'carries moisture; a wind that has crossed a mountain has '
-          'left most of its rain on the far side and arrives dry. This '
-          'is why two slopes of the same hill can have rainfall '
-          'readings that differ by a factor of three, and why a careless '
+          'The third cause is the direction the wind comes from, and '
+          'it is the one that varies most. A wind that has crossed '
+          'water carries moisture; a wind that has crossed a mountain '
+          'has left most of its rain on the far side and arrives dry. '
+          'This is why two slopes of the same hill can have rainfall '
+          'readings that differ by a factor of three. A careless '
           'comparison of two towns tells you almost nothing unless you '
           'know which way each of them faces.'],
          items=[

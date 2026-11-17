@@ -650,8 +650,8 @@ UNIT = dict(
           'Tickets go on sale once the licence is likely, and most are '
           'sold by March, which matters because the money pays the '
           'deposits. The site itself is built in four days and cleared '
-          'in two, and the clearing is the part that decides whether '
-          'the council is pleased. A field returned clean is the '
+          'in two, and the clearing is the part that decides the '
+          'council\u2019s satisfaction. A field returned clean is the '
           'strongest argument an organiser has, and it is made in '
           'silence.'],
          items=[
@@ -822,15 +822,16 @@ UNIT = dict(
           'midwinter procession through its streets. In 2019 the route '
           'was declared unsafe: the crowd had grown, the street was '
           'narrow, and the insurance could not be obtained at any '
-          'price. The organisers moved the event into a hall. Half the '
-          'audience stopped coming, and a different half arrived.',
+          'price. The organisers took the decision to move the event '
+          'into a hall. Half the audience stopped coming, and a '
+          'different half arrived.',
           'Those who stopped coming gave consistent reasons. The '
           'procession had been free, had required no ticket and no '
           'decision, and had been something you could join for ten '
           'minutes on your way home. Indoors it became an event you '
-          'attended, with a start time and a seat, and several people '
-          'said the same sentence: it had stopped being something the '
-          'town did and become something the town watched.',
+          'attended, with a start time and a seat. Several people said '
+          'the same sentence: it had stopped being something the town '
+          'did and become something the town watched.',
           'Those who arrived were equally consistent, and had not been '
           'coming before. Older residents said the hall was warm and '
           'had seats and a toilet. Parents of small children said that '
@@ -838,15 +839,15 @@ UNIT = dict(
           'them. Two people in wheelchairs attended for the first time '
           'in their lives, and one of them had lived in the town for '
           'sixty years.',
-          'The committee’s report refused to call the change good '
+          'The committee\u2019s report refused to call the alteration good '
           'or bad, and this is the part worth noticing. It observed '
-          'that the procession had been open to anybody who could stand '
-          'in a cold narrow street for an hour, and that the hall was '
-          'open to anybody who could buy a ticket for a seat. Both '
-          'conditions exclude people. The committee asked which '
-          'exclusion the town preferred, and reported that it could not '
-          'get agreement on an answer, which it considered the honest '
-          'result.'],
+          'that the procession had been open to anybody who could '
+          'stand in a cold narrow street for an hour. The hall, by '
+          'contrast, was open to anybody who could buy a ticket for a '
+          'seat. Both conditions exclude people. The committee asked '
+          'which exclusion the town preferred, and reported that it '
+          'could not get agreement on an answer, which it considered '
+          'the honest result.'],
          items=[
           ('The procession had run for ____________ and forty years.',
            None, 'a hundred', 'Paragraph 1: it ran until 2019 in the streets.'),

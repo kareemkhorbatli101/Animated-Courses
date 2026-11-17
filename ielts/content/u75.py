@@ -826,24 +826,26 @@ UNIT = dict(
           'pipes and a bus route that do not yet exist, and those are '
           'paid for by everybody rather than by the buyer.',
           'The second is to build upward, on land inside the town that '
-          'has been used before. The roads and pipes are already there, '
-          'so the public cost per home is much lower. The cost here is '
-          'that building among existing homes is slow, it is opposed by '
-          'the people already living there, and the sites are small, so '
-          'a hundred of them are needed to do what one field does.',
-          'The third answer is the one that is least discussed: use the '
-          'homes that exist. A town with a shortage usually has empty '
-          'rooms in it, in houses too large for the people left in '
-          'them. Taxes, grants and conversions can move some of that '
-          'space, and every home it releases is free in terms of land. '
-          'The cost is that it means telling people what to do with '
-          'their own property, which is why almost no town tries it '
-          'seriously.',
+          'has been used before. The roads and pipes are already '
+          'there, so the public cost per home is much lower. The cost '
+          'here is that building among existing homes is slow, and '
+          'that it meets opposition from the people already living '
+          'there. The sites are small, so a hundred of them are needed '
+          'to do what one field does.',
+          'The third answer is the one that is least discussed: use '
+          'the homes that exist. A town with a shortage usually has '
+          'empty rooms in it, in houses too large for the people left '
+          'in them. Taxes, grants and conversions can move some of '
+          'that space, and every home it releases is free in terms of '
+          'land consumption. The cost is that it means telling people '
+          'what to do with their own property, which is why almost no '
+          'town tries it seriously.',
           'Nobody can avoid choosing. A town that refuses all three '
-          'answers has chosen the fourth, which is that prices keep '
-          'rising and the people who would have moved there simply do '
-          'not. That choice is invisible, costs nothing today, and is '
-          'the one most places are actually making.'],
+          'answers has made the fourth decision by default, which is '
+          'that prices keep rising and the people who would have moved '
+          'there simply do not. That choice is invisible, costs '
+          'nothing today, and is the one most places are actually '
+          'making.'],
          items=[
           ('How many answers does the writer describe?', None, 'three',
            'Paragraph 1, plus a fourth that is a refusal.'),

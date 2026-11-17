@@ -76,9 +76,9 @@ PAPER = dict(
        blurb='A short article about a process. Six stages, in order.',
        paras=[
         'A letter posted in a box on a Monday morning is collected at '
-        'about five that evening. Every box carries the collection time '
-        'on its front, and a letter posted at six on Monday is '
-        'collected on Tuesday, which is the commonest reason a letter '
+        'about five that evening. Every box carries the collection '
+        'time on its front. A letter posted at six on Monday is '
+        'collected on Tuesday. That is the commonest reason a letter '
         'arrives a day later than the sender expected.',
         'The letters go to a sorting office, where machines read the '
         'postcode and sort about thirty thousand letters an hour. '
@@ -89,9 +89,9 @@ PAPER = dict(
         'the order of the streets on one walking route, so that the '
         'person delivering them walks the route once and never goes '
         'back.',
-        'Delivery begins at about seven in the morning. A letter posted '
-        'before five on Monday will usually arrive on Tuesday or '
-        'Wednesday, and the whole journey has been done by machine '
+        'Delivery begins at about seven in the morning. A letter '
+        'posted before five on Monday will usually arrive on Tuesday '
+        'or Wednesday. The whole journey has been done by machine '
         'except for two steps: the reading of bad handwriting, and the '
         'last two hundred metres.'],
        items=[
@@ -136,8 +136,8 @@ PAPER = dict(
         'shelter from the wind, and there are fewer of these than '
         'people expect. Where a harbour existed, a town followed, '
         'whatever the land behind it was like. What is remarkable is '
-        'how little has changed: the roads and the railways were later '
-        'built to join these towns, which is why they appear to be well '
+        'how little has changed. The roads and the railways were later '
+        'built to join these towns. That is why they appear to be well '
         'placed for modern travel. The truth is the other way round.'],
        items=[
         ('How many kinds of place does the writer describe?', None,

@@ -554,12 +554,12 @@ UNIT = dict(
           'surgery, scans. Medicine is on the list, but it is third, '
           'and the summary of the evidence has been stable for fifty '
           'years. The largest single cause is clean water and the '
-          'removal of waste, which cut deaths from a handful of '
+          'removal of waste. That cut deaths from a handful of '
           'diseases enormously, and it did so before the diseases '
           'themselves were properly understood.',
           'The second cause is that fewer children die. A figure like '
           'forty-seven years is not a description of how long an adult '
-          'lived in 1900; it is an average dragged down by the quarter '
+          'lived in 1900. It is an average dragged down by the quarter '
           'of children who died before the age of five. An adult who '
           'reached twenty in 1900 could expect to see sixty-five. Most '
           'of the thirty-four years we have gained were gained at the '
@@ -569,9 +569,9 @@ UNIT = dict(
           'the treatment of heart disease have added years to adult '
           'life rather than to childhood, and that is where the '
           'remaining gains are. The uncomfortable part of the modern '
-          'picture is inequality: the gap in life expectancy between '
+          'picture is inequality. The gap in life expectancy between '
           'the richest and poorest districts of the same city can be '
-          'eighteen years, which is larger than the gap between some '
+          'eighteen years. That is larger than the gap between some '
           'countries.'],
          items=[
           ('Life expectancy was ____________ in 1900.', None,
@@ -758,9 +758,9 @@ UNIT = dict(
           'The systems that work best in practice are mixed, and the '
           'mixture is usually the product of history rather than '
           'design. What matters more than the system is how much is '
-          'spent, how early people are seen, and whether the money '
-          'follows the patient who is hardest to treat or the patient '
-          'who is easiest.'],
+          'spent and how early people are seen. It also matters '
+          'whether the money follows the patient who is hardest to '
+          'treat or the patient who is easiest.'],
          items=[
           ('In Country A, health care is paid for out of '
            '____________.', None, 'taxes',

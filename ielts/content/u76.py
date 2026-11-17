@@ -642,8 +642,8 @@ UNIT = dict(
           'Because the rooms are already paid for, an empty one earns '
           'nothing and a cheap one earns something. The company '
           'therefore sets prices to fill the aircraft rather than to '
-          'cover the cost of each seat, and two people in the same row '
-          'may have paid very different amounts without either of them '
+          'cover the cost of each seat. Two people in the same row may '
+          'have paid very different amounts without either of them '
           'being cheated.',
           'The advertised price is a separate decision again. It '
           'usually applies to a small number of rooms, on particular '
@@ -838,20 +838,21 @@ UNIT = dict(
           'figures below are per person per kilometre, for a typical '
           'load rather than a full one.',
           'A train on an electrified line is the lowest of the three '
-          'at about thirty-five grams. A coach is close behind at about '
-          'forty, which surprises people who assume rail is in a '
+          'at about thirty-five grams. A coach is close behind at '
+          'about forty, which surprises people who assume rail is in a '
           'different class. A car carrying one person is about a '
-          'hundred and seventy, and the same car carrying four is about '
-          'forty-three, which is the single most useful fact in this '
-          'whole subject: how full the vehicle is matters more than '
-          'what kind of vehicle it is.',
+          'hundred and seventy, and the same car carrying four is '
+          'about forty-three. That is the single most useful fact in '
+          'this whole subject. How full the vehicle is matters more '
+          'than what kind of vehicle it is.',
           'Flying is different in kind rather than in degree. A '
           'short-haul flight is around two hundred and fifty grams per '
-          'person per kilometre, and the distances are far greater, so '
-          'one return flight of two thousand kilometres can exceed a '
+          'person per kilometre, and the distances are far greater. '
+          'One return flight of two thousand kilometres can exceed a '
           'year of ordinary local travel. Nothing available today '
-          'changes that arithmetic much, which is why the honest advice '
-          'about flying is about how often rather than about how.',
+          'changes that arithmetic much, which is why the honest '
+          'advice about flying is about how often rather than about '
+          'how.',
           'The practical conclusion is unglamorous. Filling vehicles, '
           'choosing the train where the line is electrified, and taking '
           'one longer holiday instead of three short ones do more than '

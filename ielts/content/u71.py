@@ -671,10 +671,10 @@ UNIT = dict(
           'gallery, because one stage of it cannot be undone. The '
           'yellow layer that a visitor sees on a four-hundred-year-old '
           'picture is usually not dirt and not age. It is varnish, '
-          'applied to protect the paint, which has yellowed with time. '
-          'Remove it and the colours underneath are as the artist left '
-          'them; remove a little too much and some of the artist’s '
-          'own glazes go with it.',
+          'applied for the protection of the paint, which has yellowed '
+          'with time. Remove it and the colours underneath are as the '
+          'artist left them; remove a little too much and some of the '
+          'artist\u2019s own glazes go with it.',
           'The work begins with examination rather than cleaning. The '
           'surface is photographed under several kinds of light, '
           'including some that the eye cannot see, which show where '
@@ -686,7 +686,7 @@ UNIT = dict(
           'Only then does the varnish come off, a few square '
           'centimetres at a time, under a microscope, over weeks. This '
           'is the irreversible stage and it is where the arguments '
-          'are: a conservator who stops too early leaves a picture '
+          'are. A conservator who stops too early leaves a picture '
           'looking muddy, and one who goes too far has destroyed '
           'something that no technique can bring back.',
           'The last two stages are deliberately reversible. Losses are '
@@ -868,33 +868,34 @@ UNIT = dict(
          paras=[
           'The price of a painting has almost nothing to do with the '
           'cost of making it and not much to do with how good it is. '
-          'Three things explain most of the variation, and the first is '
-          'supply. An artist who died in 1890 will make no more '
-          'paintings, and of the ones that exist, most are in museums '
-          'that will never sell. What remains in private hands may be a '
-          'few dozen works, invariably fought over by several hundred '
-          'people who could buy any of them.',
-          'The second is provenance: the record of who has owned a work '
-          'since it left the artist. A painting with a complete record '
-          'is worth considerably more than an identical one with a gap, '
-          'because a gap is where a forgery or a theft could hide. '
-          'Buyers are not paying for the history; they are paying to '
-          'remove a risk, and the price difference between a clean '
-          'record and a doubtful one is larger than most people outside '
-          'the trade would believe.',
+          'Three things account for most of the variation, and the '
+          'first is the limitation of supply. An artist who died in '
+          '1890 will make no more paintings, and of the ones that '
+          'exist, most are in museums that will never sell. What '
+          'remains in private hands may be a few dozen works, '
+          'invariably fought over by several hundred people who could '
+          'buy any of them.',
+          'The second is provenance: the record of who has owned a '
+          'work since it left the artist. A painting with a complete '
+          'record is worth considerably more than an identical one '
+          'with a gap, because a gap is where a forgery or a theft '
+          'could hide. Buyers are not paying for the history; they are '
+          'paying to remove a risk. The price difference between a '
+          'clean record and a doubtful one is larger than most people '
+          'outside the trade would believe.',
           'The third is harder to say politely. A very expensive '
           'painting is a way of holding wealth that can be moved, '
           'stored and sold without attracting the attention that other '
-          'assets attract. That use has nothing to do with looking at '
-          'pictures, and it is why the top of the market moves with the '
-          'number of wealthier buyers in the world rather than with '
-          'anything happening in art.',
-          'None of this says that price measures quality, and the trade '
-          'knows it better than anybody. A gallery that pays a record '
-          'sum typically says so in a press release; it rarely says '
-          'that the same artist’s better picture, two rooms away, '
-          'cost a fortieth as much because it is a drawing rather than '
-          'a painting.'],
+          'possessions attract. That use has nothing to do with '
+          'looking at pictures. It is why the top of the market moves '
+          'with the number of wealthier buyers in the world rather '
+          'than with anything happening in art.',
+          'None of this says that price is a measurement of quality, '
+          'and the trade knows it better than anybody. A gallery that '
+          'pays a record sum typically says so in a press release. It '
+          'rarely says that the same artist\u2019s better picture, two '
+          'rooms away, cost a fortieth as much because it is a drawing '
+          'rather than a painting.'],
          items=[
           ('How many reasons does the writer give?', None, 'three',
            'Supply, provenance and the use of art as wealth.'),

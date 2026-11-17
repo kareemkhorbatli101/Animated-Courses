@@ -550,20 +550,21 @@ UNIT = dict(
           'they have to be taught rather than discovered.',
           'The first is testing yourself. Closing the book and writing '
           'down what you remember produces far more learning than '
-          'reading the same material again, and the comparison is not '
-          'close: in repeated studies the gap is roughly the '
+          'reading the same material again. The comparison is not '
+          'close. In repeated studies the gap is roughly the '
           'difference between one lesson and two. The second is '
           'spacing. The same twenty minutes, split across three days, '
           'teaches more than twenty minutes in one block, because each '
           'gap forces a recall that the block does not.',
-          'The third is mixing. Students who practise one kind of '
-          'problem until they can do it, then move to the next kind, '
-          'perform better in the lesson and worse in the examination '
-          'than students who mix the kinds up from the start. The '
-          'reason is that an examination does not tell you which kind '
-          'of problem you are looking at, and choosing the method is '
-          'most of the skill. Mixing feels like failure while you are '
-          'doing it, which is a genuine cost and the main reason the '
+          'The third is mixing. Some students practise one kind of '
+          'problem until they can do it, then move to the next kind. '
+          'They perform better in the lesson and worse in the '
+          'examination than students who mix the kinds up from the '
+          'start. The reason is that an examination does not tell you '
+          'which kind of problem you are looking at, and choosing the '
+          'method is most of the skill. Mixing feels like failure '
+          'while you are doing it, which is a genuine cost and the '
+          'main reason the '
           'method is rarely used.'],
          items=[
           ('The methods that feel most productive work ____________.',
@@ -734,21 +735,21 @@ UNIT = dict(
           'who start at seven are behind at eight and level by eleven, '
           'and in several careful comparisons they are ahead by '
           'fifteen, particularly in reading for pleasure.',
-          'Why would a late start help? The leading explanation is that '
-          'what happens before school matters more than what a reading '
-          'lesson at five can add. A five-year-old in a classroom is '
-          'not playing, and play is where a great deal of language is '
-          'learned. The effect is strongest for the children who most '
-          'need it, which is the finding that changed the political '
-          'argument: an early start appears to widen the gap between '
-          'children rather than reduce it.',
+          'Why would a late start help? The leading explanation is '
+          'that what happens before school matters more than what a '
+          'reading lesson at five can add. A five-year-old in a '
+          'classroom is not playing, and play is where a great deal of '
+          'language is learned. The effect is strongest for the '
+          'children who most need it. That is the finding that changed '
+          'the political argument. An early start appears to widen the '
+          'gap between children rather than reduce it.',
           'None of this means a country should simply move its date. '
           'The countries that start at seven have long, well-paid '
-          'pre-school systems, and the start age is one part of a whole '
-          'that includes those years. A country that moved the age '
-          'without building that would get the costs of a late start '
-          'and none of its advantages, which is roughly what happened '
-          'in two attempts in the last twenty years.'],
+          'pre-school systems, and the start age is one part of a '
+          'whole that includes those years. A country that moved the '
+          'age without building that would get the costs of a late '
+          'start and none of its advantages. That is roughly what '
+          'happened in two attempts in the last twenty years.'],
          items=[
           ('Children who start at seven are level by ____________.',
            None, 'eleven', 'Paragraph 1, and ahead by fifteen.'),

@@ -544,11 +544,11 @@ UNIT = dict(
           'in both directions.',
           'What happened to the agricultural workers is not that they '
           'became unemployed. Their children took jobs that did not '
-          'exist in 1900, in shops, offices, hospitals and schools, and '
-          'the service share of employment rose from a third to '
-          'eighty-six per cent. Factory work rose first and then fell: '
-          'it was thirty-six per cent in 1960 and twelve per cent in '
-          '2020, which is a fall as sharp as the agricultural one and '
+          'exist in 1900, in shops, offices, hospitals and schools, '
+          'and the service share of employment rose from a third to '
+          'eighty-six per cent. Factory work rose first and then fell. '
+          'It was thirty-six per cent in 1960 and twelve per cent in '
+          '2020. That is a fall as sharp as the agricultural one and '
           'far more recent.',
           'The uncomfortable part is the timing. Jobs disappear in a '
           'decade and new kinds of job appear over a generation, and '
@@ -556,9 +556,9 @@ UNIT = dict(
           'gets the new job. A region can lose its factories in ten '
           'years and recover over forty, which is useless to a worker '
           'of fifty. Every honest account of automation says both '
-          'things: in total it has created more work than it destroyed, '
-          'and for particular people in particular places it has been '
-          'exactly the disaster they said it was.'],
+          'things. In total it has created more work than it '
+          'destroyed. For particular people in particular places it '
+          'has been exactly the disaster they said it was.'],
          items=[
           ('In 1900, ____________ per cent of workers were '
            'agricultural.', None, 'forty-one',
@@ -732,12 +732,13 @@ UNIT = dict(
           'spread thinly over many people and the losses fall heavily '
           'on few, and attention follows concentration.',
           'There is one genuine difference this time, and it is worth '
-          'stating carefully rather than loudly. Earlier waves replaced '
-          'physical work and left the judging to people. Current '
-          'software is beginning to do some of the judging. Whether '
-          'that is a difference of kind or merely of degree is not '
-          'known, and anybody who tells you they are certain is telling '
-          'you about their temperament rather than about the evidence.'],
+          'stating carefully rather than loudly. Earlier waves '
+          'replaced physical work and left the judging to people. '
+          'Current software is beginning to do some of the judging. '
+          'Whether that is a difference of kind or merely of degree is '
+          'not known. Anybody who tells you they are certain is '
+          'telling you about their temperament rather than about the '
+          'evidence.'],
          items=[
           ('The belief is at least ____________ hundred years old.',
            None, 'two', 'Paragraph 1, and stated confidently since.'),
