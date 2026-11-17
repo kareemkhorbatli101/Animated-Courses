@@ -137,3 +137,40 @@ and the longest sentence from 43 words to **31** (ceiling 34).
 Nominalisation measures **1.8 %**, the bottom rung of a ladder that rises
 to 5.6 % in Volume 6. The full account, including what the gate still
 does not prove, is in `IELTS_Syntax_Ladder_Report.md`.
+
+---
+
+## The ten-phase fix, as it landed in Foundation 1
+
+`IELTS_Fix_Plan.md` set out ten phases after the eight books were first
+delivered. All ten have shipped, and this is what they put into this book.
+
+| | |
+|---|---|
+| Pages, rebuilt | 421 |
+| Rendered figures | 436 |
+| Questions | 560 |
+| Four-option items | 23 |
+| Wrong-option lines written | 69 |
+| Speaking, as a share of a unit | 18.2-20.4% (floor 12%) |
+| Exam-length reading inside the units | n/a (neither Foundation book sits the paper) |
+| Band-6.5 second models | n/a (no band-6.5 model: an A1-A2 book does not ask for 250 words) |
+| Part 2 long-turn models | 10, one per unit |
+| Pronunciation and fluency pages | 10, one per unit |
+| "Find the fault" error correction | 10, one per unit |
+| Matching sentence endings | 0 set |
+| Listening plan or map labelling | 0 set |
+
+The answer-key page of this book now reads **"Every wrong option is
+explained, because a letter on its own teaches nothing,"** and `check.py`
+fails the build if a line is missing. The book was rebuilt and passes all
+nine gates; `regress.py 8` reports no undeclared difference against the
+baseline.
+
+**What this does not prove.** The wrong-option lines are gated for
+presence and for a 25-character floor, not for truth: `freeze.py` records
+the field as a count, so a line rewritten at the same length moves nothing
+in the baseline. Nobody has read all of them a second time. The full
+account, including the three defects the invariance contract caught and
+the five things the plan did not fix, is in
+`IELTS_Fix_Plan_Completion_Report.md`.

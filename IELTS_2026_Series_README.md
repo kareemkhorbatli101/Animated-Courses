@@ -14,17 +14,18 @@ rather than assumed — see *The bridge into Volume 1* below.
 
 | Book | CEFR | Band | Units | Pages | Figures | File |
 |---|---|---|---|---|---|---|
-| Foundation 1 | A1–A2 | below 4.0 | 1–10 | 411 | 436 | `IELTS_2026_A1-A2_Foundation_1.docx` |
-| Foundation 2 | A2–B1 | 4.0–4.5 | 1–10 | 439 | 440 | `IELTS_2026_A2-B1_Foundation_2.docx` |
-| Volume 1 | B1 | 5.0 | 1–10 | 468 | 436 | `IELTS_2026_B1_Volume_1.docx` |
-| Volume 2 | B1+ | 5.5 | 11–20 | 481 | 438 | `IELTS_2026_B1plus_Volume_2.docx` |
-| Volume 3 | B2 | 6.0 | 21–30 | 497 | 445 | `IELTS_2026_B2_Volume_3.docx` |
-| Volume 4 | B2 | 6.5 | 31–40 | 506 | 464 | `IELTS_2026_B2_Volume_4.docx` |
-| Volume 5 | B2+/C1 | 7.0 | 41–50 | 513 | 430 | `IELTS_2026_B2plus_Volume_5.docx` |
-| Volume 6 | C1 | 7.5–8.0 | 51–60 | 539 | 449 | `IELTS_2026_C1_Volume_6.docx` |
+| Foundation 1 | A1–A2 | below 4.0 | 1–10 | 421 | 436 | `IELTS_2026_A1-A2_Foundation_1.docx` |
+| Foundation 2 | A2–B1 | 4.0–4.5 | 1–10 | 441 | 443 | `IELTS_2026_A2-B1_Foundation_2.docx` |
+| Volume 1 | B1 | 5.0 | 1–10 | 510 | 445 | `IELTS_2026_B1_Volume_1.docx` |
+| Volume 2 | B1+ | 5.5 | 11–20 | 529 | 444 | `IELTS_2026_B1plus_Volume_2.docx` |
+| Volume 3 | B2 | 6.0 | 21–30 | 559 | 453 | `IELTS_2026_B2_Volume_3.docx` |
+| Volume 4 | B2 | 6.5 | 31–40 | 565 | 472 | `IELTS_2026_B2_Volume_4.docx` |
+| Volume 5 | B2+/C1 | 7.0 | 41–50 | 566 | 438 | `IELTS_2026_B2plus_Volume_5.docx` |
+| Volume 6 | C1 | 7.5–8.0 | 51–60 | 575 | 453 | `IELTS_2026_C1_Volume_6.docx` |
 
-**3,854 pages. 3,538 rendered figures. 3,384 head words, none repeated
-across books.**
+**4,166 pages. 3,584 rendered figures. 3,384 head words, none repeated
+across books. 6,385 questions, every one of them explained, and a line for
+every wrong option of all 2,563 four-option items.**
 
 Each Foundation book numbers its own units 1–10, because each stands
 alone; the six graded volumes carry units 1–60 straight through.
@@ -96,14 +97,14 @@ measured **together**.
 
 | Book | k1 | beyond | verdict |
 |---|---|---|---|
-| Foundation 1 | 74.8% | 9.7% | in window |
-| Foundation 2 | 72.2% | 12.0% | in window |
-| Volume 1 | 69.9% | 13.4% | in window |
-| Volume 2 | 69.3% | 14.8% | in window |
-| Volume 3 | 66.7% | 17.4% | in window |
-| Volume 4 | 64.8% | 19.4% | in window |
-| Volume 5 | 64.6% | 21.0% | in window |
-| Volume 6 | 62.8% | 23.4% | in window |
+| Foundation 1 | 74.7% | 9.7% | in window |
+| Foundation 2 | 71.9% | 12.2% | in window |
+| Volume 1 | 70.1% | 13.4% | in window |
+| Volume 2 | 69.4% | 14.7% | in window |
+| Volume 3 | 67.0% | 17.1% | in window |
+| Volume 4 | 64.9% | 19.3% | in window |
+| Volume 5 | 64.8% | 20.7% | in window |
+| Volume 6 | 63.0% | 23.2% | in window |
 
 ### The syntax ladder
 
@@ -115,12 +116,12 @@ the best single marker of academic density.
 |---|---|---|---|---|
 | Foundation 1 | 16.8 | 16.5–18.5 | 31 | 1.8% |
 | Foundation 2 | 18.8 | 17.6–19.6 | 37 | 2.0% |
-| Volume 1 | 20.2 | 19.4–21.4 | 37 | 3.0% |
-| Volume 2 | 21.1 | 20.2–22.2 | 46 | 3.6% |
-| Volume 3 | 21.8 | 20.9–22.9 | 50 | 3.9% |
-| Volume 4 | 22.7 | 21.6–23.6 | 54 | 4.5% |
-| Volume 5 | 23.3 | 22.3–24.3 | 56 | 4.9% |
-| Volume 6 | 24.0 | 23.0–25.0 | 55 | 5.6% |
+| Volume 1 | 19.6 | 19.4–21.4 | 39 | 2.9% |
+| Volume 2 | 20.7 | 20.2–22.2 | 46 | 3.4% |
+| Volume 3 | 21.6 | 20.9–22.9 | 50 | 3.9% |
+| Volume 4 | 22.7 | 21.6–23.6 | 54 | 4.3% |
+| Volume 5 | 23.3 | 22.3–24.3 | 56 | 4.7% |
+| Volume 6 | 24.0 | 23.0–25.0 | 55 | 5.5% |
 
 Three things are gated: each book inside its own window, no sentence
 anywhere over its book's ceiling, and — with `density.py --ladder` — the
@@ -167,9 +168,45 @@ Foundation unit about food.
 | **Gap remaining** | **0** |
 
 `readiness.py` (gate 7) then measures the result on the finished books: a
-Foundation 2 leaver meets **11.3 unknown types** in a mean Volume 1
+Foundation 2 leaver meets **11.4 unknown types** in a mean Volume 1
 academic passage and **18 in the worst of the twenty**, against ceilings of
 12 and 20. **PASS.**
+
+---
+
+## What the ten-phase fix added after the first delivery
+
+The eight books were delivered, then measured against two external
+critiques and a page-by-page visual pass. That produced
+`IELTS_Fix_Plan.md`: ten phases, each with a gate written **before** the
+content it governs, and an invariance contract that fails the build on
+any change a phase did not declare. All ten have shipped.
+
+| what the books gained | where |
+|---|---|
+| a line for every wrong option — what that option actually is, and where in the text it came from | all 2,563 four-option items and all 489 three-option items: **7,689 lines** |
+| a band-6.5 second model answer, with a list of what the band-9 answer does that it does not | the cycle-5 Task 2 of all 60 units in Volumes 1–6 |
+| a Part 2 long-turn model, scaled by book from 130–180 words to 255–320 | every unit, all eight books |
+| a Part 3 follow-up set, three exchanges rising to four | every unit from Volume 3 |
+| a pronunciation and fluency page | every unit, all eight books |
+| "Find the fault" — a band-6 paragraph with three planted errors, each with its correction and its reason | the third cycle of all 80 units |
+| a second Reading paper and a second Listening paper | Volumes 1–5: ten papers, 400 new questions |
+| exam-length reading inside the units, not only in the papers | 62 reads of 700+ words from Volume 3 up; one stamina read each in Volumes 1 and 2 |
+| matching sentence endings | one set a book, Volumes 1–6 |
+| listening plan and map labelling | one set a book from Volume 3 |
+| both verification types taught in every book | 56 items retyped between True/False/Not Given and Yes/No/Not Given |
+
+Two numbers are worth stating because they are the ones a candidate feels.
+**Speaking** was 6.2–13.6% of a unit and falling as the books got harder;
+it is now 12.1–20.4%, with a floor of 12% enforced in every unit of every
+book. And the answer-key page, which once said that a wrong option is
+explained *where it is tempting*, now says **"Every wrong option is
+explained, because a letter on its own teaches nothing"** — and
+`check.py` fails the build if one is missing.
+
+`IELTS_Fix_Plan_Completion_Report.md` has the phase-by-phase record, the
+measurements above per book, the three defects the invariance contract
+caught, and the five things the plan did **not** fix.
 
 ---
 
@@ -184,9 +221,11 @@ academic passage and **18 in the worst of the twenty**, against ceilings of
 | `gate6.py` | every run of text inside its box, nothing printed under 7.5px |
 | `density.py --ladder` | the syntax ladder above: eight books, rising |
 | `readiness.py` | gate 7, on the pair of Foundation books: a leaver can read Volume 1 |
+| `gate8.py` | a block of text is inside its own box, measured rather than eyeballed |
+| `freeze.py` / `regress.py` | the invariance contract: nothing changes that a phase did not declare |
 
-The first five pass on all eight files in this package; gate 7 passes on
-the Foundation pair.
+All nine pass on all eight files in this package. One command runs them:
+`bash runall.sh <phase>`, which ends `SUITE: ok` or names what failed.
 
 Gates do not replace looking at the page. Three figure defects in the
 shared renderer and one in the Foundation 2 cable schematic were found by
@@ -206,14 +245,30 @@ inside its own box, not that a caption is clear of its neighbour.
   what was fixed and what is still open
 - `IELTS_Syntax_Ladder_Report.md` — how the last open item in the series
   was closed, what it found, and what it still does not prove
+- `IELTS_Fix_Plan.md` and `IELTS_Fix_Plan_Completion_Report.md` — the
+  ten-phase plan that followed the first eight deliveries, and the record
+  of what each phase put into the books, what the gates say now, and what
+  the plan did not fix
 
-## Known open item
+## Known open items
 
 **None blocking.** The syntax window, carried as the one open item through
 eight deliveries, was closed on 17 November: it is now gated, and the
-prose of six books was changed to pass it.
+prose of six books was changed to pass it. The ten-phase fix plan closed
+the rest, and the three things it left are improvements rather than
+defects.
 
-What remains is an improvement rather than a defect. The syntax ladder is
+**The wrong-option lines are gated for presence, not for truth.**
+`freeze.py` records the `wrongs` field as a count, so a line rewritten at
+the same length moves nothing in the baseline. Each of the 7,689 lines was
+written against the passage in front of the author and checked for
+presence and length; a sampled read by a second person is the obvious next
+step. Two answer keys also cite a paragraph one short of the one their
+explanation describes — in both the keyed option is still the best of the
+four, so neither was changed under a phase whose declaration did not
+permit it. Both are named in the completion report.
+
+The remaining item is the one carried from the start. The syntax ladder is
 a relative gate: it proves this series is internally graded, not that
 Volume 4's 22.7 words a sentence is the right figure for band 6.5 in the
 real exam. Settling that needs the mean sentence length and

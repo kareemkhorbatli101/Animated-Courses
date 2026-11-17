@@ -5,6 +5,20 @@
 units, 1,085,425 body words, 3,752 figures, nine gates. This plan says what
 clones, what changes, and what has to be written before any content is.*
 
+> **Status: delivered in full, then improved in ten gated phases.**
+> All eight books are built: 80 units, 400 cycles, 4,166 pages, 3,584
+> figures, 6,385 questions, 3,384 head words with no repeat across books.
+> The ten phases of `IELTS_Fix_Plan.md` have all shipped on top of that —
+> among them a line for every wrong option on every four-option item, a
+> band-6.5 second model in every unit of Volumes 1–6, a speaking strand
+> with a 12%-of-unit floor, error correction in all 80 units, a second
+> Reading and Listening paper for Volumes 1–5, and the three IELTS task
+> types the first delivery had never used. Nine gates green, and the
+> invariance contract reports no undeclared change.
+> See `IELTS_2026_Series_README.md` for the measurements and
+> `IELTS_Fix_Plan_Completion_Report.md` for the phase-by-phase record,
+> including what is still not proved.
+
 ---
 
 ## 1. The decision that shapes everything: one book for both modules

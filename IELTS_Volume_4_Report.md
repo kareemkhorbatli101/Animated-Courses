@@ -230,3 +230,40 @@ The one open item remains the syntax window. It is cheap to close: two or
 three real Cambridge Academic passages, measured with `density.py`'s own
 numbers, would either confirm the decision in §4.2 or tell me to raise the
 unit passages before Volume 3 is written in the same register.
+
+---
+
+## The ten-phase fix, as it landed in Volume 4
+
+`IELTS_Fix_Plan.md` set out ten phases after the eight books were first
+delivered. All ten have shipped, and this is what they put into this book.
+
+| | |
+|---|---|
+| Pages, rebuilt | 565 |
+| Rendered figures | 472 |
+| Questions | 855 |
+| Four-option items | 477 |
+| Wrong-option lines written | 1431 |
+| Speaking, as a share of a unit | 12.2-14.7% (floor 12%) |
+| Exam-length reading inside the units | 10 reads of 700+ words, longest 759 |
+| Band-6.5 second models | 10 |
+| Part 2 long-turn models | 10, one per unit |
+| Pronunciation and fluency pages | 10, one per unit |
+| "Find the fault" error correction | 10, one per unit |
+| Matching sentence endings | 1 set |
+| Listening plan or map labelling | 1 set |
+
+The answer-key page of this book now reads **"Every wrong option is
+explained, because a letter on its own teaches nothing,"** and `check.py`
+fails the build if a line is missing. The book was rebuilt and passes all
+nine gates; `regress.py 8` reports no undeclared difference against the
+baseline.
+
+**What this does not prove.** The wrong-option lines are gated for
+presence and for a 25-character floor, not for truth: `freeze.py` records
+the field as a count, so a line rewritten at the same length moves nothing
+in the baseline. Nobody has read all of them a second time. The full
+account, including the three defects the invariance contract caught and
+the five things the plan did not fix, is in
+`IELTS_Fix_Plan_Completion_Report.md`.

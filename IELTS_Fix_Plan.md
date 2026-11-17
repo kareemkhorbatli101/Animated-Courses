@@ -8,6 +8,21 @@ in both against the source modules rather than the .docx.
 Part 5: no regression, no omission, no drift — enforced by a gate that
 fails the build on any undeclared change, not by care.**
 
+> ## Status: all ten phases shipped
+>
+> | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+> |---|---|---|---|---|---|---|---|---|---|
+> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>
+> Eight books rebuilt, nine gates green (`SUITE: ok`), `regress.py 8`
+> reports no undeclared difference, and the baseline is re-frozen at
+> `baseline/008.json`. Every phase from 2 onward carries its permission
+> slip in `ielts/intent/<n>.json`, committed with the content it allows.
+>
+> **What each phase actually put into the books, what the gates say now,
+> the three defects the contract caught, and the five things this plan
+> did not fix:** `IELTS_Fix_Plan_Completion_Report.md`.
+
 ---
 
 ## Part 1 · What the visual pass found

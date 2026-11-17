@@ -261,3 +261,40 @@ figures, nothing overrunning its box, nothing printed under 7.5 px.
 - `IELTS_Volume_2_Report.md` — this report
 
 Branch `claude/nice-davinci-om6fxb`.
+
+---
+
+## The ten-phase fix, as it landed in Volume 2
+
+`IELTS_Fix_Plan.md` set out ten phases after the eight books were first
+delivered. All ten have shipped, and this is what they put into this book.
+
+| | |
+|---|---|
+| Pages, rebuilt | 529 |
+| Rendered figures | 444 |
+| Questions | 889 |
+| Four-option items | 304 |
+| Wrong-option lines written | 912 |
+| Speaking, as a share of a unit | 12.3-14.2% (floor 12%) |
+| Exam-length reading inside the units | 1 stamina read of 718 words |
+| Band-6.5 second models | 10 |
+| Part 2 long-turn models | 10, one per unit |
+| Pronunciation and fluency pages | 10, one per unit |
+| "Find the fault" error correction | 10, one per unit |
+| Matching sentence endings | 1 set |
+| Listening plan or map labelling | 0 set |
+
+The answer-key page of this book now reads **"Every wrong option is
+explained, because a letter on its own teaches nothing,"** and `check.py`
+fails the build if a line is missing. The book was rebuilt and passes all
+nine gates; `regress.py 8` reports no undeclared difference against the
+baseline.
+
+**What this does not prove.** The wrong-option lines are gated for
+presence and for a 25-character floor, not for truth: `freeze.py` records
+the field as a count, so a line rewritten at the same length moves nothing
+in the baseline. Nobody has read all of them a second time. The full
+account, including the three defects the invariance contract caught and
+the five things the plan did not fix, is in
+`IELTS_Fix_Plan_Completion_Report.md`.
